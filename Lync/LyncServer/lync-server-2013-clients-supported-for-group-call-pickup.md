@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Clients, die für die Gruppenanruf Abholung unterstützt werden'
+title: 'Lync Server 2013: für die gruppenanrufannahme unterstützte Clients'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b924741e6dc733f167368f88faa24e6d56b362e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 723877737bd358ab4b364191c4e799bcc73eddc8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756449"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044187"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>Für die Gruppenanruf Abholung in lync Server 2013 unterstützte Clients
+# <a name="clients-supported-for-group-call-pickup-in-lync-server-2013"></a>Für die gruppenanrufannahme unterstützte Clients in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756449"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-12_
+_**Letztes Änderungsstand des Themas:** 2013-02-12_
 
-Alle folgenden Clients können verwendet werden, um Anrufe an Gruppenanruf-Pickup-Mitglieder zu beantworten:
+Jeder der folgenden Clients kann verwendet werden, um Anrufe an Mitglieder der gruppenanrufannahme zu beantworten:
 
   - Lync 2013
 
@@ -49,23 +49,23 @@ Alle folgenden Clients können verwendet werden, um Anrufe an Gruppenanruf-Picku
 
 
 > [!NOTE]  
-> Benutzer können mit jedem dieser Clients Anrufe an Gruppenanruf-Pickup-Mitglieder annehmen, aber die Benutzer müssen in einem lync Server 2013-Pool mit kumulativen Updates für lync Server 2013: Februar 2013 verwaltet werden.
+> Benutzer können einen dieser Clients verwenden, um Anrufe an Gruppenmitglieder entgegenzunehmen, die Benutzer müssen jedoch in einem lync Server 2013 Pool mit kumulierten Updates für lync Server 2013: Februar 2013 verwaltet werden.
 
 
 
 </div>
 
-In kumulativen Updates für lync Server 2013: Februar 2013 werden die folgenden Clients und Geräte nicht unterstützt, um Anrufe an Gruppenanruf-Pickup-Mitglieder aufzunehmen:
+In kumulierten Updates für lync Server 2013:2013. Februar werden die folgenden Clients und Geräte nicht für die Abholung von Anrufen für Gruppenmitglieder der Anrufannahme unterstützt:
 
   - Lync Mobile
 
-  - Lync-App für Windows 8 und Windows RT
+  - Lync-App für Windows 8 und Windows RT
 
   - Lync für iPad
 
   - Analoge Telefone
 
-  - Telefone mit PSTN-Nummern (Telefonfestnetznummern)
+  - Telefone mit PSTN-Nummern (Public Switched Telephone Network)
 
 </div>
 

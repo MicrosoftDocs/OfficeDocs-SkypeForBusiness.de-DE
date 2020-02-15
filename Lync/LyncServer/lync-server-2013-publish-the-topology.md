@@ -12,20 +12,20 @@ ms:contentKeyID: 48183866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5760315cc60aa53a40457423c2b5402896c2a90c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1aa216ba3db48f03dbcdd69f4deea029e7a366df
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747075"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042402"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="publish-the-topology-in-lync-server-2013"></a>Veröffentlichen der Topologie in Lync Server 2013
+# <a name="publish-the-topology-in-lync-server-2013"></a>Veröffentlichen der Topologie in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41747075"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-10-01_
+_**Letztes Änderungsstand des Themas:** 2013-10-01_
 
-Um eine Topologie beim Hinzufügen oder Entfernen einer Serverrolle erfolgreich zu veröffentlichen, zu aktivieren oder zu deaktivieren, sollten Sie als Benutzer angemeldet sein, der Mitglied der Gruppen RTCUniversalServerAdmins und Domänenadministratoren ist. Es ist auch möglich, die richtigen Administratorrechte und-Berechtigungen zu delegieren. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md). Bei anderen Konfigurationsänderungen ist nur die Mitgliedschaft in der RTCUniversalServerAdmins-Gruppe erforderlich.
+Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer Topologie beim Hinzufügen oder Entfernen einer Serverrolle müssen Sie als Mitglied der Gruppen "RTCUniversalServerAdmins" und "Domänen-Admins" angemeldet sein. Es ist auch möglich, die geeigneten Administratorrechte und -berechtigungen zu delegieren. Ausführliche Informationen finden Sie unter [Delegate Setup Permissions in lync Server 2013](lync-server-2013-delegate-setup-permissions.md). Für andere Konfigurationsänderungen müssen Sie lediglich Mitglied der Gruppe "RTCUniversalServerAdmins" sein.
 
-Nachdem Sie Ihre Topologie im Topologie-Generator definiert haben, müssen Sie die Topologie im zentralen Verwaltungsspeicher veröffentlichen. Der zentrale Verwaltungsspeicher bietet eine robuste, schematisierten Speicherung der Daten, die zum definieren, einrichten, verwalten, verwalten, beschreiben und betreiben einer lync Server 2013-Bereitstellung erforderlich sind. Außerdem werden die Daten überprüft, um die Konsistenz der Konfiguration zu gewährleisten. Alle Änderungen an diesen Konfigurationsdaten erfolgen im zentralen Verwaltungsspeicher, wodurch Synchronisierungsprobleme beseitigt werden. Schreibgeschützte Kopien der Daten werden auf alle Server in der Topologie repliziert, einschließlich Edgeserver.
+Nachdem Sie Ihre Topologie im Topologie-Generator definiert haben, müssen Sie die Topologie im zentralen Verwaltungsspeicher veröffentlichen. Der zentrale Verwaltungsspeicher bietet eine robuste, schematisierten Speicherung der Daten, die für die Definition, Einrichtung, Verwaltung, Verwaltung, Beschreibung und den Betrieb einer lync Server 2013-Bereitstellung benötigt werden. Außerdem werden die Daten überprüft, um die Konsistenz der Konfiguration zu gewährleisten. Alle Änderungen an diesen Konfigurationsdaten erfolgen im zentralen Verwaltungsspeicher, wodurch nicht mehr synchrone Probleme auftreten. Schreibgeschützte Kopien der Daten werden auf alle Server in der Topologie repliziert, Edgeserver eingeschlossen.
 
 <div>
 
 
 > [!NOTE]  
-> SQL Server benötigt eine Mindestmenge von 20 GB freien Speicherplatz, um die ursprüngliche Topologie erfolgreich zu veröffentlichen und den zentralen Verwaltungs Server zu erstellen.
+> SQL Server benötigt mindestens 20 GB freien Speicherplatz, um die anfängliche Topologie erfolgreich zu veröffentlichen und den zentralen Verwaltungs Server zu erstellen.
 
 
 
@@ -55,7 +55,7 @@ Nachdem Sie Ihre Topologie im Topologie-Generator definiert haben, müssen Sie d
 
 
 > [!NOTE]  
-> Nur für Enterprise Edition: um die Topologie zu veröffentlichen, muss der auf SQL Server basierende Back-End-Server online sein und über Firewall-Ausnahmen zugänglich sein. Details zum Angeben von Firewall-Ausnahmen finden Sie unter <A href="lync-server-2013-understanding-firewall-requirements-for-sql-server.md">Grundlegendes zu Firewall-Anforderungen für SQL Server mit lync Server 2013</A>. Details zum Konfigurieren von SQL Server finden Sie unter <A href="lync-server-2013-configure-sql-server-for-lync-server.md">Konfigurieren von SQL Server für lync Server 2013</A>.
+> Nur Enterprise Edition: Zum Veröffentlichen der Topologie muss der SQL Server-basierte Back-End-Server online und über die eingerichteten Firewallausnahmen erreichbar sein. Ausführliche Informationen zum Angeben von Firewall-Ausnahmen finden Sie unter <A href="lync-server-2013-understanding-firewall-requirements-for-sql-server.md">Understanding Firewall Requirements for SQL Server with lync Server 2013</A>. Ausführliche Informationen zum Konfigurieren von SQL Server finden Sie unter <A href="lync-server-2013-configure-sql-server-for-lync-server.md">configure SQL Server for lync Server 2013</A>.
 
 
 
@@ -65,48 +65,48 @@ Nachdem Sie Ihre Topologie im Topologie-Generator definiert haben, müssen Sie d
 
 ## <a name="to-publish-a-topology"></a>So veröffentlichen Sie eine Topologie
 
-1.  Starten Sie den Topologie-Generator: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topology Builder**.
+1.  Starten Sie den Topologie-Generator: Klicken Sie im **Startmenü**auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topologie-Generator**.
 
-2.  Wählen Sie aus, um die Topologie aus einer lokalen Datei zu öffnen. Wenn Sie sich auf dem Computer befinden, auf dem Sie die Topologie definiert haben, befindet sich diese an dem Speicherort, an dem Sie Sie in früheren Schritten gespeichert haben. In der Regel handelt es sich hierbei um den Ordner "Dokumente" des Benutzers, der die Topologie konfiguriert hat.
+2.  Öffnen Sie die Topologie aus einer lokalen Datei. Wenn Sie an dem Computer arbeiten, an dem Sie die Topologie definiert haben, ist dies der Speicherort, an dem Sie die Datei zuvor gespeichert haben. In der Regel ist dies der Ordner "Dokumente" des Benutzers, der die Topologie konfiguriert hat.
 
-3.  Klicken Sie mit der rechten Maustaste auf den **lync Server 2013** -Knoten, und klicken Sie dann auf **Topologie veröffentlichen**.
+3.  Klicken Sie mit der rechten Maustaste auf den Knoten **lync Server 2013** , und klicken Sie dann auf **Topologie veröffentlichen**.
 
 4.  Klicken Sie auf der Seite **Topologie veröffentlichen** auf **Weiter**.
 
-5.  Wählen Sie auf der Seite **create databases** die Datenbanken aus, die Sie veröffentlichen möchten.
+5.  Wählen Sie auf der Seite **Datenbanken erstellen** die Datenbanken, die Sie veröffentlichen möchten.
     
     <div>
     
 
     > [!NOTE]  
-    > Wenn Sie nicht über die erforderlichen Rechte zum Erstellen der Datenbanken verfügen, können Sie die Kontrollkästchen neben diesen Datenbanken deaktivieren, und ein Benutzer mit den entsprechenden Rechten kann später die Datenbankenerstellen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-deployment-permissions-for-sql-server.md">Bereitstellungsberechtigungen für SQL Server in lync Server 2013</A>.
+    > Wenn Sie nicht über die erforderlichen Rechte zum Erstellen der Datenbanken verfügen, können Sie die Kontrollkästchen neben diesen Datenbanken deaktivieren, und ein Benutzer mit den entsprechenden Berechtigungen kann später die Datenbankenerstellen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-deployment-permissions-for-sql-server.md">Deployment Permissions for SQL Server in lync Server 2013</A>.
 
     
     </div>
 
-6.  Klicken Sie optional auf **Erweitert**. Mit den erweiterten Optionen für SQL Server-Datendatei Platzierungen können Sie zwischen den folgenden Optionen auswählen:
+6.  Klicken Sie optional auf **Erweitert**. Mit den Optionen für erweiterte SQL Server-Platzierung von Datendateien können Sie zwischen den folgenden Optionen auswählen:
     
-      - **Speicherort für Datenbankdateien automatisch ermitteln** – mit dieser Option wird die optimale Betriebsleistung basierend auf der Datenträgerkonfiguration auf dem SQL Server-basierten Server ermittelt, indem die Protokoll-und Datendateien an den besten Speicherort verteilt werden.
+      - **Speicherort für Datenbankdateien automatisch bestimmen** – Bei Auswahl dieser Option wird optimale Leistung basierend auf der Festplattenkonfiguration für Ihren SQL Server-basierten Server gewährleistet, indem die Protokoll- und Datendateien verteilt platziert werden.
     
-      - **Standardpfade der SQL Server-Instanz verwenden**: Bei Auswahl dieser Option werden die Protokoll- und Datendateien gemäß den Instanzeneinstellungen auf dem SQL Server-basierten Server platziert. Diese Option macht keinen Gebrauch von der Funktion des SQL Server-basierten Servers zum Ermitteln der optimalen Speicherorte für Protokolle und Daten. Der SQL Server-Administrator verschiebt die Protokoll- und Datendateien in der Regel an Speicherorte, die für den SQL Server-basierten Server geeignet sind und den Verwaltungsverfahren für die Organisation entsprechen.
+      - **Standardpfade der SQL Server-Instanz verwenden** – Bei Auswahl dieser Option werden die Protokoll- und Datendateien gemäß den Instanzeneinstellungen auf dem SQL Server-basierten Server platziert. Diese Option macht keinen Gebrauch von der Funktion des SQL Server-basierten Servers zum Ermitteln der optimalen Speicherorte für Protokolle und Daten. Der SQL Server-Administrator verschiebt die Protokoll- und Datendateien in der Regel an Speicherorte, die für den SQL Server-basierten Server geeignet sind und den Verwaltungsverfahren für die Organisation entsprechen.
     
     Klicken Sie auf **OK** und dann auf **Weiter**.
 
-7.  Wählen Sie auf der Seite **Central Management Server auswählen** einen Front-End-Pool aus.
+7.  Wählen Sie auf der Seite **zentralen Verwaltungs Server auswählen** eine Front-End-Pool aus.
 
-8.  Klicken Sie optional auf **Erweitert**. Mit den erweiterten Optionen für die SQL Server-Datendatei Platzierung können Sie zwischen den folgenden Optionen auswählen:
+8.  Klicken Sie optional auf **Erweitert**. Mit den Optionen für erweiterte SQL Server-Platzierung von Datendateien können Sie zwischen den folgenden Optionen auswählen:
     
-      - **Speicherort für Datenbankdateien automatisch ermitteln** – mit dieser Option wird die optimale Betriebsleistung basierend auf der Datenträgerkonfiguration auf dem SQL Server-basierten Server ermittelt, indem die Protokoll-und Datendateien an den besten Speicherort verteilt werden.
+      - **Speicherort für Datenbankdateien automatisch bestimmen** – Bei Auswahl dieser Option wird optimale Leistung basierend auf der Festplattenkonfiguration für Ihren SQL Server-basierten Server gewährleistet, indem die Protokoll- und Datendateien verteilt platziert werden.
     
-      - **Standardpfade der SQL Server-Instanz verwenden**: Bei Auswahl dieser Option werden die Protokoll- und Datendateien gemäß den Instanzeneinstellungen auf dem SQL Server-basierten Server platziert. Diese Option macht keinen Gebrauch von der Funktion des SQL Server-basierten Servers zum Ermitteln der optimalen Speicherorte für Protokolle und Daten. Der SQL Server-Administrator verschiebt die Protokoll- und Datendateien in der Regel an Speicherorte, die für den SQL Server-basierten Server geeignet sind und den Verwaltungsverfahren für die Organisation entsprechen.
+      - **Standardpfade der SQL Server-Instanz verwenden** – Bei Auswahl dieser Option werden die Protokoll- und Datendateien gemäß den Instanzeneinstellungen auf dem SQL Server-basierten Server platziert. Diese Option macht keinen Gebrauch von der Funktion des SQL Server-basierten Servers zum Ermitteln der optimalen Speicherorte für Protokolle und Daten. Der SQL Server-Administrator verschiebt die Protokoll- und Datendateien in der Regel an Speicherorte, die für den SQL Server-basierten Server geeignet sind und den Verwaltungsverfahren für die Organisation entsprechen.
     
-    Klicken Sie anschließend auf **OK**.
+    Klicken Sie auf **OK**.
 
 9.  Klicken Sie auf **Weiter**, um die Veröffentlichung abzuschließen.
 
-10. Wenn der Veröffentlichungsprozess abgeschlossen ist, klicken Sie auf **Fertig stellen**.
+10. Klicken Sie nach Abschluss der Veröffentlichung auf **Fertig stellen**.
     
-    Wenn die Topologie erfolgreich veröffentlicht wurde, können Sie mit der Installation eines lokalen Replikats des zentralen Verwaltungsspeichers auf jedem Server mit lync Server 2013 in Ihrer Topologie beginnen. Es wird empfohlen, mit dem ersten Front-End-Pool zu beginnen.
+    Wenn die Topologie erfolgreich veröffentlicht wurde, können Sie mit der Installation eines lokalen Replikats des zentralen Verwaltungsspeichers auf jedem Server beginnen, auf dem lync Server 2013 in Ihrer Topologie ausgeführt wird. Es wird empfohlen, mit dem ersten Front-End-Pool zu beginnen.
 
 </div>
 
@@ -115,7 +115,7 @@ Nachdem Sie Ihre Topologie im Topologie-Generator definiert haben, müssen Sie d
 ## <a name="see-also"></a>Siehe auch
 
 
-[Einrichten von Front-End-Servern und Front-End-Pools für Lync Server 2013](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)  
+[Einrichten von Front-End-Servern und Front-End-Pools für lync Server 2013](lync-server-2013-setting-up-front-end-servers-and-front-end-pools.md)  
   
 
 </div>

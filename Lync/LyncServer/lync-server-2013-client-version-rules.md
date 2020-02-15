@@ -12,16 +12,16 @@ ms:contentKeyID: 50873761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c28548bdde01ed9edf4a2ca49c17aa9651309dc9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 181451e5ee4ecba114361aab5408d329f1a2a7d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756469"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044357"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756469"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-12-11_
+_**Letztes Änderungsstand des Themas:** 2012-12-11_
 
-Eine clientversionsrichtlinie besteht aus einer Reihe von clientversionsrichtlinien Regeln. Mit diesen Regeln werden die Aktionen definiert, die ausgeführt werden sollen, wenn Benutzer sich mit bestimmten Clients und Clientversionen anmelden möchten. Gehen Sie wie folgt vor, um clientversionsrichtlinien Regeln für lync Server 2013 zu konfigurieren.
+Eine clientversionsrichtlinie besteht aus einer Reihe von clientversionsrichtlinien Regeln. Mit diesen Regeln werden die Aktionen definiert, die ausgeführt werden sollen, wenn Benutzer sich mit bestimmten Clients und Clientversionen anmelden möchten. Verwenden Sie die folgenden Verfahren, um clientversionsrichtlinien Regeln für lync Server 2013 zu konfigurieren.
 
 <div>
 
@@ -45,7 +45,7 @@ Eine clientversionsrichtlinie besteht aus einer Reihe von clientversionsrichtlin
 
   - [Anzeigen von clientversionsrichtlinien Regeln in lync Server 2013](lync-server-2013-view-client-version-policy-rules.md)
 
-  - [Erstellen oder Ändern einer neuen Richtlinienregel für Clientversionen in lync Server 2013](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)
+  - [Erstellen oder Ändern einer neuen clientversionsrichtlinien Regel in lync Server 2013](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)
 
   - [Löschen einer vorhandenen clientversionsrichtlinien Regel in lync Server 2013](lync-server-2013-delete-an-existing-client-version-policy-rule.md)
 

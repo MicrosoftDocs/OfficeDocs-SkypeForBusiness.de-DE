@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Portzusammenfassung für einen einzelnen Director'
+title: 'Lync Server 2013: Port Zusammenfassung für einen einzelnen Director'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183322
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0179d6fd27207d28caa10ffa01bea155f9b00c03
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 95ae1ada828ea4ad3c6bdd2c863333c911635ff8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725025"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043127"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---single-director-in-lync-server-2013"></a>Portzusammenfassung für einen einzelnen Director in Lync Server 2013
+# <a name="port-summary---single-director-in-lync-server-2013"></a>Port Zusammenfassung für einen einzelnen Director in lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41725025"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-20_
+_**Letztes Änderungsstand des Themas:** 2012-10-20_
 
-Die Firewall-Portanforderungen für einen einzelnen Director bestehen aus den Ports, die verwendet werden, um die Kommunikation mit dem Director aus der internen Schnittstelle oder dem internen Netzwerk des Reverse-Proxys herzustellen. Microsoft lync Server 2013 erwartet standardmäßig, dass Ports http/TCP 8080 und HTTPS/TCP 4443 vom Reverse-Proxy an den Director sowie den Front-End-Pool und den Front-End-Server geöffnet werden. Darüber hinaus muss die SIP-Kommunikation (Session Initiation Protocol) von der internen Schnittstelle des Edge-Servers mit dem Director und dem Front-End-Pool und dem Front-End-Server erfolgen. Das SIP-Protokoll verwendet SIP/MTLS/TCP 5061 vom Edgeserver auf dem Front-End-Pool und dem Front-End-Server. Eine Regel, die die SIP/MTLS/TCP 5061-Kommunikation vom Director, Front-End-Pool und Front-End-Server zur internen Edge-Server-Schnittstelle ermöglicht, muss ebenfalls erstellt werden.
+Firewall-Portanforderungen für einen einzelnen Director bestehen aus den Ports, die verwendet werden, um die Kommunikation mit dem Director von der internen Schnittstelle oder dem internen Netzwerk des Reverseproxys herzustellen. Microsoft lync Server 2013 standardmäßig erwartet, dass Ports http/TCP 8080 und HTTPS/TCP 4443 vom Reverseproxy zum Director geöffnet werden, sowie die Front-End-Pool und Front-End-Server. Darüber hinaus muss SIP-Kommunikation (Session Initiation Protocol) von der Edgeserver internen Schnittstelle zum Director und zum Front-End-Pool und Front-End-Server erfolgen. Das SIP-Protokoll verwendet SIP/MTLS/TCP 5061 vom Edgeserver zum Front-End-Pool und Front-End-Server. Eine Regel, die SIP/MTLS/TCP 5061 Kommunikation vom Director, Front-End-Pool und Front-End-Server zur Edgeserver internen Schnittstelle zulässt, muss ebenfalls erstellt werden.
 
-### <a name="single-director-ports-and-protocols-for-firewall-definitions"></a>Single Director-Ports und-Protokolle für Firewall-Definitionen
+### <a name="single-director-ports-and-protocols-for-firewall-definitions"></a>Einzelne Director-Ports und-Protokolle für Firewall-Definitionen
 
 <table>
 <colgroup>
@@ -50,7 +50,7 @@ Die Firewall-Portanforderungen für einen einzelnen Director bestehen aus den Po
 </colgroup>
 <thead>
 <tr class="header">
-<th>Role/Protocol/TCP oder UDP/Port</th>
+<th>Rolle/Protokoll/TCP oder UDP/Port</th>
 <th>Quell-IP-Adresse</th>
 <th>Ziel-IP-Adresse</th>
 <th>Hinweise</th>
@@ -59,15 +59,15 @@ Die Firewall-Portanforderungen für einen einzelnen Director bestehen aus den Po
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP 8080</p></td>
-<td><p>Interne Proxy-Schnittstelle</p></td>
+<td><p>Interne Schnittstelle des Reverseproxys</p></td>
 <td><p>Director</p></td>
-<td><p>Zunächst von der externen Seite des Reverse-Proxys empfangen, wird die Kommunikation an den Director und die Front-End-Server-Webdienste gesendet.</p></td>
+<td><p>Zunächst von der externen Seite des Reverseproxys empfangen, wird die Kommunikation an den Director und Front-End-Server-Webdienste gesendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP 4443</p></td>
-<td><p>Interne Proxy-Schnittstelle</p></td>
+<td><p>Interne Schnittstelle des Reverseproxys</p></td>
 <td><p>Director</p></td>
-<td><p>Zunächst von der externen Seite des Reverse-Proxys empfangen, wird die Kommunikation an den Director und die Front-End-Server-Webdienste gesendet.</p></td>
+<td><p>Zunächst von der externen Seite des Reverseproxys empfangen, wird die Kommunikation an den Director und Front-End-Server-Webdienste gesendet.</p></td>
 </tr>
 <tr class="odd">
 <td><p>HTTPS/TCP 444</p></td>
@@ -77,39 +77,39 @@ Die Firewall-Portanforderungen für einen einzelnen Director bestehen aus den Po
 </tr>
 <tr class="even">
 <td><p>HTTP/TCP 80</p></td>
-<td><p>Interne Clients</p></td>
+<td><p>Internal Clients</p></td>
 <td><p>Director-Webdienste</p></td>
-<td><p>Der Director bietet Web Services für interne und externe Clients.</p></td>
+<td><p>Der Director stellt Webdienste für interne und externe Clients bereit.</p></td>
 </tr>
 <tr class="odd">
 <td><p>HTTPS/TCP 443</p></td>
-<td><p>Interne Clients</p></td>
+<td><p>Internal Clients</p></td>
 <td><p>Director-Webdienste</p></td>
-<td><p>Der Director bietet Web Services für interne und externe Clients.</p></td>
+<td><p>Der Director stellt Webdienste für interne und externe Clients bereit.</p></td>
 </tr>
 <tr class="even">
 <td><p>SIP/MTLS/TCP 5061</p></td>
-<td><p>Interne Edge-Server-Schnittstelle</p></td>
+<td><p>Edgeserver interne Schnittstelle</p></td>
 <td><p>Director</p></td>
-<td><p>SIP-Kommunikation vom Edgeserver an den Director und den Front-End-Server.</p></td>
+<td><p>SIP-Kommunikation vom Edgeserver zum Director und zum Front-End-Server.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
-<td><p>Beliebig</p></td>
-<td><p>Interne Edge-Server-Schnittstelle</p></td>
-<td><p>Zentralisierte Protokollierungsdienst Controller (ClsController. exe) oder Agent (ClasAgent. exe)-Befehle und Protokollsammlung</p></td>
+<td><p>Any</p></td>
+<td><p>Edgeserver interne Schnittstelle</p></td>
+<td><p>Befehle und Protokollsammlung für den Controller des zentralisierten Protokollierungsdiensts (ClsController.exe) oder Agent (ClasAgent.exe)</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
-<td><p>Beliebig</p></td>
-<td><p>Interne Edge-Server-Schnittstelle</p></td>
-<td><p>Zentralisierte Protokollierungsdienst Controller (ClsController. exe) oder Agent (ClasAgent. exe)-Befehle und Protokollsammlung</p></td>
+<td><p>Any</p></td>
+<td><p>Edgeserver interne Schnittstelle</p></td>
+<td><p>Befehle und Protokollsammlung für den Controller des zentralisierten Protokollierungsdiensts (ClsController.exe) oder Agent (ClasAgent.exe)</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
-<td><p>Beliebig</p></td>
-<td><p>Interne Edge-Server-Schnittstelle</p></td>
-<td><p>Zentralisierte Protokollierungsdienst Controller (ClsController. exe) oder Agent (ClasAgent. exe)-Befehle und Protokollsammlung</p></td>
+<td><p>Any</p></td>
+<td><p>Edgeserver interne Schnittstelle</p></td>
+<td><p>Befehle und Protokollsammlung für den Controller des zentralisierten Protokollierungsdiensts (ClsController.exe) oder Agent (ClasAgent.exe)</p></td>
 </tr>
 </tbody>
 </table>

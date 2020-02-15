@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Neue Funktionen für Notfallwiederherstellung und hohe Verfügbarkeit'
+title: 'Lync Server 2013: neue Features für die Notfallwiederherstellung und hohe Verfügbarkeit'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184130
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aabac29c5e866c4bfeff8ad79d392578d52ba650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d69a77e1277b843ed1df13a130e67a9ee081d98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757519"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042372"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-disaster-recovery-and-high-availability-features-in-lync-server-2013"></a>Neue Funktionen für Notfallwiederherstellung und hohe Verfügbarkeit in Lync Server 2013
+# <a name="new-disaster-recovery-and-high-availability-features-in-lync-server-2013"></a>Neue Features für die Notfallwiederherstellung und hohe Verfügbarkeit in lync Server 2013
 
 </div>
 
@@ -35,20 +35,20 @@ ms.locfileid: "41757519"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-20_
+_**Letztes Änderungsstand des Themas:** 2012-09-20_
 
-Wie in lync Server 2010 basiert das Hauptsystem für hohe Verfügbarkeit (ha) für lync Server 2013 auf Server Redundanz über Pooling. Wenn ein Server in einer bestimmten Serverrolle ausfällt, wird die Last dieses Servers von den anderen Servern im Pool mit der gleichen Rolle übernommen. Dies gilt für Front End- und Edge-Server ebenso wie für Vermittlungsserver und Directors.
+Wie in lync Server 2010 basiert das Hauptsystem für hohe Verfügbarkeit (ha) für lync Server 2013 auf der Server Redundanz über das Pooling. Wenn ein Server ausfällt, auf dem eine bestimmte Serverrolle ausgeführt wird, übernehmen die anderen Server im Pool, auf denen dieselbe Rolle ausgeführt wird, die Arbeitslast dieses Servers. Dies gilt für Front-End-Server, Edgeserver, Vermittlungsserver und Directors.
 
-Lync Server 2013 fügt neue Wiederherstellungsmaßnahmen für Notfälle hinzu, indem es Ihnen ermöglicht, Front-End-Pools in zwei Rechenzentren zu koppeln. Wenn eines der gekoppelten Pools ausfällt, kann ein Administrator die Benutzer aus diesem Pool mit dem anderen Pool des Paars Failover, um die Fortsetzung des Diensts zu gewährleisten. Für diese Funktionalität sind keine kostspieligen Netzwerk-oder Hardwarelösungen wie Speichernetzwerke oder freigegebene Datenträger erforderlich.
+Lync Server 2013 fügt neue Notfall Wiederherstellungsmaßnahmen hinzu, indem Sie das Koppeln von Front-End-Pools in zwei Rechenzentren ermöglichen. Wenn einer der gepaarten Pools ausfällt, kann ein Administrator ein Failover für die Benutzer aus diesem Pool mit dem anderen Pool im Paar durchführen, um eine Fortsetzung des Diensts bereitzustellen. Für diese Funktionalität sind keine teuren Netzwerk-oder Hardwarelösungen wie Speichernetzwerke oder freigegebene Datenträger erforderlich.
 
-Lync Server 2013 fügt auch eine höhere Verfügbarkeit für den Back-End-Server hinzu. Hierbei handelt es sich um eine optionale Topologie, in der Sie zwei Back-End-Server für einen Front-End-Pool bereitstellen und die synchrone SQL-Spiegelung für alle lync-Datenbankeneinrichten, die auf den Back-End-Servern ausgeführt werden. Sie können auswählen, ob Sie einen Zeugen für den Spiegel bereitstellen möchten.
+Lync Server 2013 fügt auch eine hohe Verfügbarkeit von Back-End-Servern hinzu. Hierbei handelt es sich um eine optionale Topologie, in der Sie zwei Back-End-Server für eine Front-End-Pool bereitstellen und die synchrone SQL-Spiegelung für alle lync-Datenbankeneinrichten, die auf den Back-End-Servern ausführen. Sie können auswählen, ob ein Zeuge für die Spiegelung bereitgestellt werden soll.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
+[Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
   
 
 </div>

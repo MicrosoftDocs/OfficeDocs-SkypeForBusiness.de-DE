@@ -12,16 +12,16 @@ ms:contentKeyID: 48183843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffbfa8c3553b33f75b0f014265f93cccf46e7de6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1e14ca8565216efbdeaae3060587d5d18d919876
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743155"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044527"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743155"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-02-05_
+_**Letztes Änderungsstand des Themas:** 2014-02-05_
 
-Der Anruf Detailbericht bietet einen detaillierten Überblick über einen einzelnen Anruf. der Bericht enthält nahezu alle von lync Server gesammelten Metriken für die Qualität der Benutzerfreundlichkeit und die in Berichtsabschnitte unterteilten Statistiken, wie beispielsweise:
+Der Anruf Detail Bericht bietet einen detaillierten Überblick über einen einzelnen Anruf; der Bericht enthält nahezu alle Metriken und Statistiken zur Qualität der Erfahrung, die von lync Server gesammelt wurden, aufgeteilt in Berichtsabschnitte wie:
 
   - Anrufinformationen
 
@@ -67,23 +67,23 @@ Der Anrufdetailbericht ist sehr nützlich, wenn Sie genau feststellen möchten, 
 
 Auf den Anrufdetailbericht kann von einem der folgenden Berichte aus zugegriffen werden:
 
-  - Der [Standortbericht in lync Server 2013](lync-server-2013-location-report.md) (durch Klicken auf das Anrufvolumen oder den Prozentsatz für den schlechten Anruf)
+  - Der [Standortbericht in lync Server 2013](lync-server-2013-location-report.md) (durch Klicken auf die Metrik Anruflautstärke oder Prozentsatz armer Anrufe)
 
-  - Der [Bericht zur Zusammenfassung der Medienqualität in lync Server 2013](lync-server-2013-media-quality-summary-report.md) (durch Klicken auf den Prozentsatz der Anruflautstärke oder die schlechte Anruf Rate)
+  - Der [zusammenfassende Bericht über Medienqualität in lync Server 2013](lync-server-2013-media-quality-summary-report.md) (durch Klicken auf die Metrik "Anruflautstärke" oder "Prozentsatz schlechter Anrufe")
 
-  - Der [Bericht zum Vergleich der Medienqualität in lync Server 2013](lync-server-2013-media-quality-comparison-report.md) (durch Klicken auf den [Bericht Anrufliste in lync Server 2013](lync-server-2013-call-list-report.md) und anschließendes Klicken auf die Detail Metrik).
+  - Der [Bericht zur Medien Qualitätsvergleiche in lync Server 2013](lync-server-2013-media-quality-comparison-report.md) (durch Klicken auf den [Anruflistenbericht in lync Server 2013](lync-server-2013-call-list-report.md) und anschließend auf die Metrik Detail).
 
-  - Der [Bericht zur Serverleistung in lync Server 2013](lync-server-2013-server-performance-report.md) (durch Klicken auf den Prozentsatz der Anruflautstärke oder des schlechten Anrufs)
+  - Der [Bericht über die Server Leistung in lync Server 2013](lync-server-2013-server-performance-report.md) (durch Klicken auf die Metrik Anruflautstärke oder Prozentsatz armer Anrufe)
 
-  - Der [Anruflistenbericht in lync Server 2013](lync-server-2013-call-list-report.md) (durch Klicken auf die Detail Metrik)
+  - Der [Anruflistenbericht in lync Server 2013](lync-server-2013-call-list-report.md) (durch Klicken auf die Metrik "Detail")
 
-Innerhalb des Anruf Detail Berichts können Sie auf den [gerätebericht in lync Server 2013](lync-server-2013-device-report.md) zugreifen, indem Sie auf eine der folgenden Metriken klicken:
+Im Anruf Detail Bericht können Sie auf den [gerätebericht in lync Server 2013](lync-server-2013-device-report.md) zugreifen, indem Sie auf eine der folgenden Metriken klicken:
 
   - Aufnahmegerät
 
   - Darstellungsgerät
 
-Sie können auch auf den Trendbericht über Medienqualität des Servers zugreifen, indem Sie auf die Metrik „A/V-Edgeserver“ klicken.
+Sie können auch auf den Trendbericht über Medienqualität des Servers zugreifen, indem Sie auf die Metrik A/V-Edgeserver klicken.
 
 </div>
 
@@ -91,11 +91,11 @@ Sie können auch auf den Trendbericht über Medienqualität des Servers zugreife
 
 ## <a name="making-the-best-use-of-the-call-detail-report"></a>Optimale Verwendung des Anrufdetailberichts
 
-Der Anrufdetailbericht umfasst normalerweise 250 verschiedene Metriken. Hierzu gehören „Zeitstempelabweichung des Mikrofons“, „Geringer Rauschabstand, Zeit“ und „Nahes Ende zu Echo, Zeit“. Wenn Sie nicht genau wissen, was mit diesen Metriken gemessen wird, können Sie mit der Maus auf die Bezeichnung der Metrik zeigen. In den meisten Fällen erscheint dann eine QuickInfo mit einer Metrikbeschreibung.
+Der Anrufdetailbericht umfasst normalerweise 250 verschiedene Metriken. Hierzu gehören Zeitstempelabweichung des Mikrofons, Geringer Rauschabstand, Zeit und Nahes Ende zu Echo, Zeit. Wenn Sie nicht genau wissen, was mit diesen Metriken gemessen wird, können Sie mit der Maus auf die Bezeichnung der Metrik zeigen. In den meisten Fällen erscheint dann eine QuickInfo mit einer Metrikbeschreibung.
 
-Wenn Sie Probleme beim Auffinden einer Metrik haben, geben Sie einen Teil der metrischen Beschriftung im Suchfeld ein, und klicken Sie dann auf suchen. Wenn Sie beispielsweise die niedrige SNR-Zeit Metrik nicht finden können, geben Sie im Suchfeld SNR ein, und klicken Sie dann auf suchen.
+Wenn Sie eine Metrik nicht finden können, geben Sie einen Teil der Metrikbezeichnung in das Suchfeld ein, und klicken Sie dann auf Suchen. Wenn Sie beispielsweise die Metrik Geringer Rauschabstand, Zeit nicht finden können, geben Sie "SNR" in das Suchfeld ein, und klicken Sie dann auf Suchen.
 
-Beachten Sie, dass im Bericht nur Informationen zu einem Anruf verfolgt werden. Der Anruf selbst wird nicht aufgezeichnet.
+Beachten Sie, dass der Bericht nur Informationen zu einem Anruf nachverfolgt. Der Anruf selbst wird nicht aufgezeichnet.
 
 </div>
 
@@ -170,7 +170,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Anrufdetailberi
 <td><p>Die CPU, die im Computer des Benutzers installiert ist, der den Anruf initiiert hat.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>CPU-Kernnummer des Anrufers</strong></p></td>
+<td><p><strong>Nummer des CPU-Kerns des Anrufers</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Die Nummer des Prozessors in dem Computer des Benutzers, der den Anruf initiiert hat.</p></td>
 </tr>
@@ -180,7 +180,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Anrufdetailberi
 <td><p>Die Taktfrequenz der CPU des Computers des Benutzers, der den Anruf initiiert hat.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>CPU-Virtualisierung des Anrufers</strong></p></td>
+<td><p><strong>Virtualisierung der CPU des Anrufers</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Ggf. die Virtualisierung, die auf dem Computer des Benutzers implementiert ist, der den Anruf initiiert hat.</p></td>
 </tr>
@@ -205,12 +205,12 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Anrufdetailberi
 <td><p>Die Software, die auf dem Gerät verwendet wird, mit dem der Anruf angenommen wurde.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Dauer</strong></p></td>
+<td><p><strong>Duration</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Die Dauer des Anrufs.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Vermittlungsserver-Umgehungswarnung</strong></p></td>
+<td><p><strong>Vermittlungsserver-Warnungskennzeichen</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Eine Warnung, die ausgegeben wird, wenn der Vermittlungsserver umgangen wurde.</p></td>
 </tr>
@@ -225,7 +225,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Anrufdetailberi
 <td><p>Die CPU, die im Computer des Benutzers installiert ist, der angerufen wurde.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CPU-Kernnummer des Angerufenen</strong></p></td>
+<td><p><strong>Nummer des CPU-Kerns des Angerufenen</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Die Nummer des Prozessors in dem Computer des Benutzers, der angerufen wurde.</p></td>
 </tr>
@@ -235,7 +235,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Anrufdetailberi
 <td><p>Die Taktfrequenz der CPU des Computers des Benutzers, der angerufen wurde.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>CPU-Virtualisierung des Angerufenen</strong></p></td>
+<td><p><strong>Virtualisierung der CPU des Angerufenen</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Ggf. die Virtualisierung, die auf dem Computer des Benutzers implementiert ist, der angerufen wurde.</p></td>
 </tr>

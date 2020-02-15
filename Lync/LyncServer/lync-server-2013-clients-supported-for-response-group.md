@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Für Reaktionsgruppen unterstützte Clients'
+title: 'Lync Server 2013: für Reaktionsgruppen unterstützte Clients'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184705
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1fa7728e0ebee1d12d4cf57fdc7aaaf0abfe410
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2082f3d41f3907f4b2a1d541b2c2000becd91c89
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756439"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044167"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-response-group-in-lync-server-2013"></a>Für Reaktionsgruppen unterstützte Clients in Lync Server 2013
+# <a name="clients-supported-for-response-group-in-lync-server-2013"></a>Für Reaktionsgruppen unterstützte Clients in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756439"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-03-28_
+_**Letztes Änderungsstand des Themas:** 2014-03-28_
 
-Die reaktionsgruppenanwendung unterstützt die folgenden Clients:
+Das Reaktionsgruppenanwendung unterstützt die folgenden Clients:
 
   - Lync 2013-Desktop Client
 
@@ -53,21 +53,21 @@ Die reaktionsgruppenanwendung unterstützt die folgenden Clients:
 
 
 > [!NOTE]  
-> Die Antwortgruppen Anwendung wird auf mobilen lync-Clients nicht unterstützt.
+> Der Reaktionsgruppenanwendung wird auf mobilen lync-Clients nicht unterstützt.
 
 
 
 </div>
 
-Details zu neuen Features finden Sie unter [neue Funktionen der reaktionsgruppenanwendung in lync Server 2013](lync-server-2013-new-response-group-application-features.md) in der Dokumentation "erste Schritte".
+Ausführliche Informationen zu neuen Features finden Sie unter [New Reaktionsgruppenanwendung Features in lync Server 2013](lync-server-2013-new-response-group-application-features.md) in der Dokumentation "erste Schritte".
 
-Der spezifische Client, den Sie verwenden können, hängt vom Typ des Reaktionsgruppen Benutzers ab:
+Der spezifische Client, den Sie verwenden können, hängt vom Typ des Reaktionsgruppen Benutzers ab, den Sie haben:
 
   - **Anrufer** können eine Reaktionsgruppe über einen der zuvor aufgeführten Clients und unter Verwendung eines Standardtelefons über das Festnetz anrufen.
 
-  - **Informelle Agents** (Agents, die sich nicht an-und abmelden, um Anrufe zu akzeptieren) können Anrufe über Attendant, lync oder lync Phone Edition annehmen. Informelle Agents werden bei der Anmeldung bei lync Server 2013 automatisch bei ihren Gruppen angemeldet, indem Sie einen dieser Clients verwenden.
+  - **Formlose Agents** (Agents, die sich nicht an-und abmelden, um Anrufe entgegenzunehmen) können Anrufe mithilfe von Attendant, lync oder lync Phone Edition annehmen. Formlose Agents werden bei der Anmeldung bei lync Server 2013 mithilfe eines dieser Clients automatisch bei ihren Gruppen angemeldet.
 
-  - **Formelle Agents** (Agents, die sich an-und abmelden müssen, um Anrufe anzunehmen) können Anrufe mithilfe von lync 2013 und dem Zugriff auf die Agentenkonsole über das Menüelement oder mithilfe von Attendant und dem direkten Zugriff auf die Agentenkonsole über Internet Explorer akzeptieren.
+  - **Formelle Agents** (Agents, die sich an-und abmelden müssen, um Anrufe entgegenzunehmen) können Anrufe annehmen, indem Sie lync 2013 verwenden und über das Menüelement auf die Agent-Konsole zugreifen, oder indem Sie Attendant verwenden und direkt über Internet Explorer auf die Agent-Konsole zugreifen.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Melden von Kerberos-Kontozuweisungen'
+title: 'Lync Server 2013: Melden von Kerberos-Konto Zuweisungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184151
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4c5a6c118596acd406c3741c4dd2ee780fd381b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c742e6e7e5cedc773e0275700a738afd26a6777d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746695"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042012"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="report-kerberos-account-assignments-in-lync-server-2013"></a>Melden von Kerberos-Kontozuweisungen in Lync Server 2013
+# <a name="report-kerberos-account-assignments-in-lync-server-2013"></a>Melden von Kerberos-Konto Zuweisungen in lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41746695"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-01-16_
+_**Letztes Änderungsstand des Themas:** 2012-01-16_
 
-Um dieses Verfahren erfolgreich abzuschließen, sollten Sie als Benutzer angemeldet sein, der Mitglied der RTCUniversalServerAdmins-Gruppe ist.
+Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie als Mitglied der Gruppe "RTCUniversalServerAdmins" angemeldet sein.
 
-Mit dem Cmdlet **Get-CsKerberosAccountAssignment** können Sie Informationen zu den Kerberos-Authentifizierungs Konto Zuweisungen Abfragen und Informationen zu den aktuellen Aufgaben in Ihrer Bereitstellung melden.
+Mit dem Cmdlet **Get-CsKerberosAccountAssignment** können Sie Informationen zu Kontozuweisungen für die Kerberos-Authentifizierung sowie Berichtinformationen zu den aktuellen Zuweisungen in Ihrer Bereitstellung abrufen.
 
 <div>
 
-## <a name="to-query-kerberos-authentication-account-assignments-for-a-site"></a>So Abfragen Sie Kerberos-Authentifizierungs Konto Zuweisungen für eine Website
+## <a name="to-query-kerberos-authentication-account-assignments-for-a-site"></a>So rufen Sie Kontozuweisungen für die Kerberos-Authentifizierung für einen Standort ab
 
-1.  Melden Sie sich als Mitglied der RTCUniversalServerAdmins-Gruppe an einem Computer in der Domäne mit lync Server 2013 oder auf einem Computer an, auf dem die Verwaltungstools installiert sind.
+1.  Melden Sie sich als Mitglied der Gruppe RTCUniversalServerAdmins bei einem Computer in der Domäne an, auf dem lync Server 2013 oder an einem Computer mit den Verwaltungstools installiert ist.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Führen Sie in der Befehlszeile einen der folgenden Befehle aus:
+3.  Führen Sie an der Befehlszeile einen der folgenden Befehle aus:
     
-      - Wenn Sie alle Kerberos-Authentifizierungs Konto Zuweisungen in Ihrer Organisation Abfragen und Zuordnungsinformationen zu den einzelnen Aufgaben zurückgeben möchten, führen Sie das Cmdlet ohne Parameter aus:
+      - Zum Abrufen aller Kontozuweisungen für die Kerberos-Authentifizierung in Ihrer Organisation und Zurückgeben von Informationen zu den einzelnen Zuweisungen führen Sie das Cmdlet ohne Parameter aus:
         
             Get-CsKerberosAccountAssignment
     
-      - Führen Sie das Cmdlet mit dem Parameter Identity aus, um alle Kerberos-Authentifizierungs Konto Zuweisungen in Ihrer Bereitstellung abzufragen und Websitezuordnungsinformationen zu diesen zurückzugeben:
+      - Zum Abrufen aller Kontozuweisungen für die Kerberos-Authentifizierung in Ihrer Bereitstellung und Zurückgeben von Standortzuweisungsinformationen zu den einzelnen Zuweisungen führen Sie das Cmdlet mit dem Identitätsparameter aus:
         
             Get-CsKerberosAccountAssignment -Identity "site:SiteName"
         
@@ -63,7 +63,7 @@ Mit dem Cmdlet **Get-CsKerberosAccountAssignment** können Sie Informationen zu 
         
             Get-CsKerberosAccountAssignment -Identity "site:Redmond"
     
-      - Führen Sie das Cmdlet mit dem Parameter Filter aus, um alle Kerberos-Authentifizierungs Konto Zuweisungen an einer einzigen Website abzufragen und Zuordnungsinformationen zu den einzelnen Websites zurückzugeben:
+      - Zum Abrufen aller Kontozuweisungen für die Kerberos-Authentifizierung an einem einzelnen Standort und Zurückgeben von Informationen zu den einzelnen Zuweisungen führen Sie das Cmdlet mit dem Filterparameter aus:
         
             Get-CsKerberosAccountAssignment -Filter "SiteName"
         
@@ -75,7 +75,7 @@ Mit dem Cmdlet **Get-CsKerberosAccountAssignment** können Sie Informationen zu 
         
 
         > [!NOTE]  
-        > Durch die Angabe von * Sitename für den Filter-Parameter werden Informationen zu allen Websites zurückgegeben, die den angegebenen Websitenamen an einer beliebigen Stelle in der Website-ID enthalten (beispielsweise alle Websites, die die Zeichenfolge Redmond in der Website-ID enthalten).
+        > Bei Angabe von "*SiteName" als Filterparameter werden Informationen zu sämtlichen Standorten zurückgegeben, deren Standort-ID den angegebenen Standortnamen enthält (z. B. alle Standorte mit der Zeichenfolge "Redmond" in der Standort-ID).
 
         
         </div>

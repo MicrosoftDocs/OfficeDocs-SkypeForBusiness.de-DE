@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informationen über Add-On-Lizenzen und Features für Pläne für GOV, EDU und gemeinnützige Organisationen. '
-ms.openlocfilehash: 9d33cbb7367a1608b0ff7c9fdd05447a98edba8b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 8544d685fffa1a4ab4f53a83e0651bd898e3c845
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826683"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029386"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV, edu und gemeinnützige Organisationen
 
@@ -36,4 +36,4 @@ Die meisten Teams-Features stehen für US-Behörden, Bildungseinrichtungen und g
 |Office 365-Telefonsystem  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Office 365-Anrufplan  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
    
-Lesen Sie diesen Blogbeitrag: [Erweiterte Office 365-Funktionen für Government Community Cloud-Kunden in den USA jetzt verfügbar](https://www.microsoft.com/en-us/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).
+Lesen Sie diesen Blogbeitrag: [Erweiterte Office 365-Funktionen für Government Community Cloud-Kunden in den USA jetzt verfügbar](https://www.microsoft.com/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).

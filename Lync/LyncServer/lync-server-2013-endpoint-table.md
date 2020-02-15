@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Endpoint-Tabelle'
+title: 'Lync Server 2013: Endpunkt Tabelle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184098
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11da225da1a8120f5de7ac21b3beb318326601f9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 201e2ae3b44f59f0edb128f58af6c18e18e51931
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735585"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042232"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="endpoint-table-in-lync-server-2013"></a>Endpoint-Tabelle in Lync Server 2013
+# <a name="endpoint-table-in-lync-server-2013"></a>Endpunkt Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41735585"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-Die Endpunkt Tabelle ist eine unterstützende Tabelle, in der Informationen zu den Endpunkten gespeichert werden, die an Sitzungen teilgenommen haben, die in der Datenbank aufgezeichnet wurden. Jeder Datensatz in der Tabelle steht für einen Endpunkt.
+Die Endpunkt Tabelle ist eine unterstützende Tabelle, in der Informationen zu den Endpunkten gespeichert werden, die an Sitzungen teilgenommen haben, die in der Datenbank aufgezeichnet wurden. Jeder Datensatz in der Tabelle stellt einen Endpunkt dar.
 
 
 <table>
@@ -60,13 +60,13 @@ Die Endpunkt Tabelle ist eine unterstützende Tabelle, in der Informationen zu d
 <td><p><strong>EndpointKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutige Zahl, die diesen Endpunkt kennzeichnet.</p></td>
+<td><p>Eindeutige Zahl, die diesen Endpunkt identifiziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Name</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Eindeutigen</p></td>
-<td><p>Endpunktname</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Eigen</p></td>
+<td><p>Endpunktname.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OS</strong></p></td>
@@ -78,13 +78,13 @@ Die Endpunkt Tabelle ist eine unterstützende Tabelle, in der Informationen zu d
 <td><p><strong>CPUName</strong></p></td>
 <td><p>nvarchar (128)</p></td>
 <td></td>
-<td><p>Der CPU-Name des Endpunkts.</p></td>
+<td><p>CPU-Name des Endpunkts.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CPUNumberOfCores</strong></p></td>
 <td><p>smallint</p></td>
 <td></td>
-<td><p>Die Anzahl von CPU-Kernen des Endpunkts.</p></td>
+<td><p>Die Anzahl der CPU-Kerne des Endpunkts.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CPUProcessorSpeed</strong></p></td>
@@ -96,7 +96,7 @@ Die Endpunkt Tabelle ist eine unterstützende Tabelle, in der Informationen zu d
 <td><p><strong>VirtualizationFlag</strong></p></td>
 <td><p>tinyint</p></td>
 <td></td>
-<td><p>Bit-Flag, das angibt, ob das System in einer virtualisierten Umgebung ausgeführt wird:</p>
+<td><p>Bit-Flag, das angibt, ob das System in einer virtualisierten Umgebung läuft:</p>
 <ul>
 <li><p>0x0000 – keine</p></li>
 <li><p>0x0001 – HyperV</p></li>

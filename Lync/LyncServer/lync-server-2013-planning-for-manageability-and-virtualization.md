@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planen von Verwaltbarkeit und Virtualisierung'
+title: 'Lync Server 2013: Planung für Verwaltbarkeit und Virtualisierung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733551
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cc796ec5489cce79b091a92144816266d1cb6ec
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7972b522b2dd0108bc2b053de806228ffdcf4b78
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725405"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044547"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-manageability-and-virtualization-in-lync-server-2013"></a>Planen von Verwaltbarkeit und Virtualisierung in lync Server 2013
+# <a name="planning-for-manageability-and-virtualization-in-lync-server-2013"></a>Planen der Verwaltbarkeit und Virtualisierung in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41725405"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-07-05_
+_**Letztes Änderungsstand des Themas:** 2013-07-05_
 
 Dieser Abschnitt enthält Themen zur Planung der einfachen Verwaltung Ihrer lync Server 2013-Bereitstellung.
 
@@ -43,11 +43,11 @@ Dieser Abschnitt enthält Themen zur Planung der einfachen Verwaltung Ihrer lync
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Planen für die rollenbasierte Zugriffssteuerung in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md)
+  - [Planen der rollenbasierten Zugriffssteuerung in lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md)
 
-  - [Planung für einfache URLs in Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)
+  - [Planen von einfachen URLs in lync Server 2013](lync-server-2013-planning-for-simple-urls.md)
 
-  - [Ausführen von lync Server 2013 auf virtuellen Servern](lync-server-2013-running-lync-server-on-virtual-servers.md)
+  - [Ausführung von lync Server 2013 auf virtuellen Servern](lync-server-2013-running-lync-server-on-virtual-servers.md)
 
   - [Zweistufige Authentifizierung in lync Server 2013](lync-server-2013-planning-for-and-deploying-two-factor-authentication.md)
 

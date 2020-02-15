@@ -12,20 +12,20 @@ ms:contentKeyID: 48185717
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fe18bf750eabdb1f53c97a349b553da4f13dec8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ab8049097383932bacb198cd8eb4fe6e96917feb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740865"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043427"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-persistent-chat-server-in-lync-server-2013"></a>Bereitstellen des Servers für beständigen Chat in Lync Server 2013
+# <a name="deploying-persistent-chat-server-in-lync-server-2013"></a>Bereitstellen des Servers für beständigen Chat in lync Server 2013
 
 </div>
 
@@ -35,53 +35,53 @@ ms.locfileid: "41740865"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-03-31_
+_**Letztes Änderungsstand des Themas:** 2014-03-31_
 
-Lync Server 2013, beständiger Chat Server ist Teil der lync Server 2013-Infrastruktur.
+Lync Server 2013 ist der Server für beständigen Chat Teil der lync Server 2013-Infrastruktur.
 
-Für die Bereitstellung des beständigen Chat Servers müssen Sie Folgendes ausführen:
+Zum Bereitstellen des Servers für beständigen Chat müssen Sie Folgendes tun:
 
-  - Verwenden Sie den Topologie-Generator, um Ihre Topologie und die Komponenten, die Sie bereitstellen möchten, zu definieren, zu importieren und anschließend zu veröffentlichen.
+  - Verwenden Sie den Topologie-Generator, um die Topologie und die Komponenten, die Sie bereitstellen möchten, zu definieren oder zu importieren und anschließend zu veröffentlichen.
 
-  - Bereiten Sie Ihre Umgebung für die Bereitstellung beständiger Chat Server Komponenten vor.
+  - Vorbereiten der Umgebung für die Bereitstellung von Komponenten für beständigen Chat Server.
 
-  - Installieren und konfigurieren Sie Komponenten für beständigen Chat Server für Ihre Bereitstellung.
+  - Installieren und konfigurieren Sie die Server Komponenten für beständigen Chat für Ihre Bereitstellung.
 
-Der Server für beständigen Chat steht in lync Server 2013 Enterprise Edition als separater Pool zur Verfügung (nicht mit den Enterprise Edition-Front-End-Servern). Der Server für beständigen Chat erfordert einen SQL Server-Back-End-Server in Ihrem Enterprise Edition-Pool, um den Chatroom-Inhalt und andere relevante Metadaten zu speichern. Wir empfehlen, dass Sie die **PersistentChatStore** auf einem dedizierten SQL Server-Back-End-Server installieren, obwohl abstimmen lync Server 2013-Back-End-Server und **PersistentChatStore** auf derselben SQL Server-Instanz unterstützt werden.
+Der Server für beständigen Chat ist mit lync Server 2013 Enterprise Edition als separater Pool verfügbar (nicht zusammen mit den Front-End-Servern der Enterprise Edition). Für den Server für beständigen Chat ist ein SQL Server Back-End-Server in Ihrem Enterprise Edition-Pool erforderlich, um den Chatroom-Inhalt und andere relevante Metadaten zu speichern. Es wird empfohlen, das **PersistentChatStore** auf einem dedizierten SQL Server Back-End-Server zu installieren, obwohl abstimmen lync Server 2013 Back-End-Server und **PersistentChatStore** in derselben SQL Server-Instanz unterstützt werden.
 
-Der Server für beständigen Chat kann auch mit lync Server 2013 Standard Edition bereitgestellt werden. In diesem Fall befindet sich der **PersistentChatService** -Front-End-Server auf dem Standard Edition-Computer, und der **PersistentChatStore** -Back-End-Server kann auf der lokalen SQL Server Express-Instanz bereitgestellt werden.
+Der Server für beständigen Chat kann auch mit lync Server 2013 Standard Edition bereitgestellt werden. In diesem Fall ist die **PersistentChatService** -Front-End-Server auf dem Standard Edition-Computer zusammengefasst, und der **PersistentChatStore** -Back-End-Server kann auf der lokalen SQL Server Express-Instanz bereitgestellt werden.
 
-Ausführliche Informationen zu unterstützten Colocation-Konfigurationen finden Sie unter [unterstützte Server setzungen in lync Server 2013](lync-server-2013-supported-server-collocation.md).
+Ausführliche Informationen zu unterstützten Colocation-Konfigurationen finden Sie unter [unterstützte Server](lync-server-2013-supported-server-collocation.md)Zusammenstellungen in lync Server 2013.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Wir unterstützen keine höhere Verfügbarkeit für die Standard&nbsp;Edition für beständigen Chat Server. Leistung und Skalierung sind limitiert. Darüber hinaus unterstützen wir nur den neuen Server&nbsp;für beständigen Chat Server Standard Edition. Wir unterstützen nicht das Upgrade von lync Server 2010, Gruppen-Chat Server auf eine&nbsp;lync Server 2013&nbsp;persistent Chat Server Standard Edition.
+> Die hohe Verfügbarkeit für die Server&nbsp;Standard Edition für beständigen Chat wird nicht unterstützt. Leistung und Skalierung sind eingeschränkt. Darüber hinaus unterstützen wir nur neue Server&nbsp;für beständigen Chat Standard Edition-Server. Wir unterstützen das Upgrade lync Server 2010, Gruppen Chat Server nicht auf eine&nbsp;lync Server 2013 persistent Chat&nbsp;Server Standard Edition.
 
 
 
 </div>
 
-Wenn Ihre Organisation Compliance-Unterstützung erfordert, können Sie den beständigen Chat Server-Kompatibilitätsdienst auf dem Front-End-Server für beständigen Chat Server installieren. Für die Compliance ist eine separate Datenbank erforderlich.
+Wenn Ihre Organisation Compliance-Unterstützung benötigt, können Sie den Kompatibilitätsdienst für beständigen Chat Server auf dem Server für beständigen Chat Front-End-Server installieren. Für die Konformität ist eine separate Datenbank erforderlich.
 
-Für jede Topologie ist mindestens ein Server mit lync Server 2013 und ein Server mit installierter SQL Server-Datenbanksoftware erforderlich.
+Für jede Topologie ist mindestens ein Server mit installierter lync Server 2013 und ein Server mit SQL Server-Datenbanksoftware erforderlich.
 
-Verwenden Sie den Topologie-Generator, um ihrer lync Server 2013-Bereitstellung beständigen Chat Server hinzuzufügen. Mithilfe des Topologie-Generators können Sie einen oder mehrere beständige Chat Server Pools hinzufügen. Befolgen Sie dieselben Bereitstellungsanweisungen für die Bereitstellung mehrerer beständiger Chat Server Pools, wie Sie dies für jeden Pool tun würden. Ausführliche Informationen finden Sie unter [Bereitstellen von lync Server 2013](lync-server-2013-deploying-lync-server.md) in der Bereitstellungsdokumentation.
+Verwenden Sie den Topologie-Generator, um Ihren lync Server 2013-Bereitstellungen beständigen Chat Server hinzuzufügen. Sie können mithilfe des Topologie-Generators einen oder mehrere Server Pools für beständigen Chat hinzufügen. Befolgen Sie dieselben Bereitstellungsanweisungen für die Bereitstellung mehrerer Server Pools für beständigen Chat wie für jeden Pool. Ausführliche Informationen finden Sie unter [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) in der Bereitstellungsdokumentation.
 
-Details zu verfügbaren Topologien sowie zu den technischen und Softwareanforderungen für die Installation von persistent Chat Server finden Sie unter [Planen des beständigen Chat Servers in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in der Planungsdokumentation, [Funktionsweise des beständigen Chat 2013 Servers](lync-server-2013-how-persistent-chat-server-works.md) in der Planning-Dokumentation, Bereitstellungsdokumentation oder Betriebsdokumentation sowie [Unterstützte Hardware für lync Server 2013](lync-server-2013-supported-hardware.md) in der Dokumentation zur Unterstützung.
+Ausführliche Informationen zu verfügbaren Topologien und den technischen und Softwareanforderungen für die Installation von persistent Chat Server finden Sie unter [Planning for persistent Chat Server in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in der Planungsdokumentation, [How persistent Chat ServerWorks in lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md) in der Planungsdokumentation, Bereitstellungsdokumentation oder Betriebsdokumentation sowie [Unterstützte Hardware für lync Server 2013](lync-server-2013-supported-hardware.md) in der Unterstützungsdokumentation.
 
-Details zum Abrufen von Zertifikaten, zum Erstellen der SQL Server-Datenbank und zum Erstellen von Datei speichern finden Sie unter [Bereitstellen von lync Server 2013](lync-server-2013-deploying-lync-server.md) in der Bereitstellungsdokumentation.
+Ausführliche Informationen zum Erwerb von Zertifikaten, zum Erstellen der SQL Server Datenbank und zum Erstellen von Datei speichern finden Sie unter [Deploying lync Server 2013](lync-server-2013-deploying-lync-server.md) in der Bereitstellungsdokumentation.
 
-Ein einzelner beständiger Chat Server-Front-End-Server kann 20.000-aktive Benutzer unterstützen. Sie können einen Server Pool für beständigen Chat mit bis zu vier aktiven Front-End-Servern mit insgesamt 80.000 gleichzeitigen Benutzern unterstützen.
+Eine einzelne Server Front-End-Server für beständigen Chat kann 20.000 aktive Benutzer unterstützen. Sie können einen Server Pool für beständigen Chat mit bis zu 4 aktiven Front-End-Servern mit einer Gesamtzahl von 80.000 gleichzeitigen Benutzern unterstützen.
 
-Der Server für beständigen Chat wird auch auf einem virtuellen Server unterstützt. Der virtuelle Server kann bis zu 20.000 gleichzeitige Benutzer unterstützen, wenn er den Spezifikationen des physikalischen Servers entspricht.
+Der Server für beständigen Chat wird auch auf einem virtuellen Server unterstützt. Der virtuelle Server kann bis zu 20.000 gleichzeitige Benutzer unterstützen, wenn er den Spezifikationen des physischen Servers entspricht.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Der Server für beständigen Chat muss auf einem NTFS-Dateisystem installiert sein, um die Dateisystemsicherheit zu erzwingen. FAT32 ist kein unterstütztes Dateisystem für beständigen Chat Server.
+> Der Server für beständigen Chat muss auf einem NTFS-Dateisystem installiert sein, um die Sicherheit von Dateisystemen zu Verb erzwingen. FAT32 ist kein unterstütztes Dateisystem für den Server für beständigen Chat.
 
 
 
@@ -91,29 +91,29 @@ Der Server für beständigen Chat wird auch auf einem virtuellen Server unterst�
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Funktionsweise des beständigen Chat Servers in lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md)
+  - [Funktionsweise von persistent Chat Server in lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md)
 
-  - [Prüfliste zur Bereitstellung für den Server für beständigen Chat in Lync Server 2013](lync-server-2013-deployment-checklist-for-persistent-chat-server.md)
+  - [Prüfliste für die Bereitstellung für persistent Chat Server in lync Server 2013](lync-server-2013-deployment-checklist-for-persistent-chat-server.md)
 
   - [Technische Anforderungen für den Server für beständigen Chat in lync Server 2013](lync-server-2013-technical-requirements-for-persistent-chat-server.md)
 
-  - [Einrichten der Systeme und Infrastruktur für den Server für beständigen Chat in Lync Server 2013](lync-server-2013-setting-up-systems-and-infrastructure-for-persistent-chat-server.md)
+  - [Einrichten von Systemen und Infrastruktur für den Server für beständigen Chat in lync Server 2013](lync-server-2013-setting-up-systems-and-infrastructure-for-persistent-chat-server.md)
 
-  - [Hinzufügen eines Servers für beständigen Chat zu einer Bereitstellung in Lync Server 2013](lync-server-2013-adding-persistent-chat-server-to-your-deployment.md)
+  - [Hinzufügen von persistent Chat Server zu Ihrer Bereitstellung in lync Server 2013](lync-server-2013-adding-persistent-chat-server-to-your-deployment.md)
 
-  - [Installieren des Servers für beständigen Chat in Lync Server 2013](lync-server-2013-installing-persistent-chat-server.md)
+  - [Installieren des Servers für beständigen Chat in lync Server 2013](lync-server-2013-installing-persistent-chat-server.md)
 
-  - [Hinzufügen eines Administrators für beständigen Chat in Lync Server 2013](lync-server-2013-adding-a-persistent-chat-administrator.md)
+  - [Hinzufügen eines Administrators für beständigen Chat in lync Server 2013](lync-server-2013-adding-a-persistent-chat-administrator.md)
 
-  - [Konfigurieren des Servers für beständigen Chat in Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md)
+  - [Konfigurieren des Servers für beständigen Chat in lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md)
 
   - [Konfigurieren des Servers für beständigen Chat mithilfe von Windows PowerShell-Cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)
 
-  - [Problembehandlung bei der Konfiguration des Servers für beständigen Chat mithilfe von Windows PowerShell-Cmdlets in Lync Server 2013](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md)
+  - [Problembehandlung für die Server Konfiguration für beständigen Chat mit Windows PowerShell-Cmdlets in lync Server 2013](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md)
 
-  - [Konfigurieren der hohen Verfügbarkeit und der Notfallwiederherstellung für den Server für beständigen Chat in Lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)
+  - [Konfigurieren des Servers für beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung in lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md)
 
-  - [Ausführen eines Failovers bzw. Failbacks für den Server für beständigen Chat in Lync Server 2013](lync-server-2013-failing-over-and-failing-back-persistent-chat-server.md)
+  - [Failover und Ausfall des Servers für beständigen Chat in lync Server 2013](lync-server-2013-failing-over-and-failing-back-persistent-chat-server.md)
 
 </div>
 

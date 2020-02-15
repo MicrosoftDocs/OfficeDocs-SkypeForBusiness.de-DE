@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Informationen zu kostenlosen virtuellen Benutzerlizenzen.
-ms.openlocfilehash: 0b580a396dedfab81ab207fa0b1d6fee5caa705b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5b31c9edaf42508e59000257a33b9ddeba4c6fb5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826513"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029356"
 ---
 # <a name="phone-systemvirtual-user-license"></a>Telefon System – virtuelle Benutzerlizenz 
 
@@ -67,7 +67,7 @@ Contoso sollte eine Neugestaltung der automatischen Telefonzentrale und des Anru
 Wenn Sie sich entschließen, die Lizenz für Ihr Ressourcenkonto von einer Telefonsystem Lizenz auf eine Telefonanlage umzustellen – virtuelle Benutzerlizenz: 
 
 1. Holen Sie sich das neue Telefon System – Virtual User License. 
-2. Führen Sie die verknüpften Schritte im Microsoft 365 Admin Center aus, um [Benutzer in ein anderes Abonnement zu verschieben](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+2. Führen Sie die verknüpften Schritte im Microsoft 365 Admin Center aus, um [Benutzer in ein anderes Abonnement zu verschieben](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
 
 > [!WARNING]
 > Entfernen Sie immer eine vollständige Telefonsystem Lizenz, und weisen Sie die Lizenz für das Telefonsystem – virtuelle Benutzer in derselben Lizenz Aktivität zu. Wenn Sie die alte Lizenz entfernen, die Kontoänderungen speichern, die neue Lizenz hinzufügen und dann die Kontoeinstellungen erneut speichern, funktioniert das Ressourcenkonto möglicherweise nicht mehr wie erwartet. Wenn dies der Fall ist, empfehlen wir, ein neues Ressourcenkonto für die Telefon System-Virtual User-Lizenz zu erstellen und das fehlerhafte Ressourcenkonto zu entfernen. 

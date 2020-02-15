@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: DeRegisterType-Tabelle'
+title: 'Lync Server 2013: deregistertype-Tabelle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65c94513a3578f8608da555cdd0b3e2273b8a7da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 915a5d0a2c5c4a5f38063b56dc133d2558aa65ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762533"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042172"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deregistertype-table-in-lync-server-2013"></a>DeRegisterType-Tabelle in Lync Server 2013
+# <a name="deregistertype-table-in-lync-server-2013"></a>Deregistertype-Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762533"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Die Tabelle "deregistertype" ist eine statische Tabelle, in der die Liste der möglichen Benutzer deregister-Typen wie "Client initiiert", "Registrierung abgelaufen" oder "Client reagiert nicht mehr" gespeichert ist.
+Bei der DeRegisterType-Tabelle handelt es sich um eine statische Tabelle, die eine Liste der möglichen Typen für eine Aufhebung der Registrierung von Benutzern speichert, wie zum Beispiel "Aufhebung der Registrierung durch den Client", "Registrierung abgelaufen" oder "Client reagiert nicht mehr".
 
 
 <table>
@@ -64,17 +64,17 @@ Die Tabelle "deregistertype" ist eine statische Tabelle, in der die Liste der m�
 </tr>
 <tr class="even">
 <td><p><strong>DeRegisterReason</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Zulässige Werte:</p>
 <ul>
-<li><p>0-unbekannt</p></li>
-<li><p>1-Client initiierte Deregistrierung</p></li>
-<li><p>2 – Registrierung abgelaufen</p></li>
-<li><p>3 – Client stürzte ab</p></li>
-<li><p>4 – Benutzerattribute geändert</p></li>
-<li><p>5 – bevorzugte Registrierungsstelle geändert</p></li>
-<li><p>6 – Legacy-Client im Survival-Modus</p></li>
+<li><p>0 -- Unbekannt</p></li>
+<li><p>1 -- Aufhebung der Registrierung durch den Client</p></li>
+<li><p>2 -- Registrierung abgelaufen</p></li>
+<li><p>3 – Clientabsturz</p></li>
+<li><p>4 -- Benutzerattribute geändert</p></li>
+<li><p>5 – Bevorzugte Registrierungsstelle geändert</p></li>
+<li><p>6 -- Legacyclient In Survival Mode</p></li>
 </ul></td>
 </tr>
 </tbody>

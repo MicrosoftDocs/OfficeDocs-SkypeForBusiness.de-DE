@@ -12,16 +12,16 @@ ms:contentKeyID: 63969590
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec1dea4ad3d5052bc2ba23cccd9e19ab138414ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2a5381445a866da924a8ff0f511ee48353ab5c91
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757229"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041972"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41757229"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-05-20_
+_**Letztes Änderungsstand des Themas:** 2014-05-20_
 
-Administratoren sollten die globalen Einstellungen für eine lync Server 2013-Bereitstellung monatlich überprüfen. Das Ziel besteht darin, die implementierten Einstellungen für eine Reihe bekannter Konfigurationen zu überprüfen – eine Baseline-Konfiguration, um sicherzustellen, dass die Einstellungen gültig sind, und um festzustellen, ob die Baseline-Dokumentation aktualisiert werden soll. Änderungen an der globalen Einstellung sollten über einen Änderungskontrollprozess implementiert werden, der die Dokumentation der neuen Einstellungen umfasst.
+Administratoren sollten die globalen Einstellungen für eine lync Server 2013-Bereitstellung monatlich überprüfen. Das Ziel besteht darin, die implementierten Einstellungen anhand einer Reihe bekannter Konfigurationen zu überprüfen – einer Basiskonfiguration, um sicherzustellen, dass die Einstellungen gültig sind, und um zu ermitteln, ob die Basisdokumentation aktualisiert werden soll. Änderungen an der globalen Einstellung sollten über einen Änderungssteuerungsprozess implementiert werden, der die Dokumentierung der neuen Einstellungen umfassen sollte.
 
-Die globalen Einstellungen, die überprüft werden sollten, werden in den folgenden Abschnitten beschrieben:
+Globale Einstellungen, die überprüft werden sollten, werden in den folgenden Abschnitten beschrieben:
 
 <div>
 
@@ -47,11 +47,11 @@ Die globalen Einstellungen, die überprüft werden sollten, werden in den folgen
 
 Überprüfen Sie die allgemeinen Einstellungen, einschließlich der unterstützten SIP-Domänen (Session Initiation Protocol) für lync Server 2013.
 
-SIP-Domäneninformationen können mithilfe von Windows PowerShell und dem Cmdlet **Get-CsSipDomain** zurückgegeben werden. Wenn Sie diese Informationen zurückgeben möchten `Get-CsSipDomain` , führen Sie den Windows PowerShell-Befehl aus.
+SIP-Domäneninformationen können mit Windows PowerShell und dem Cmdlet **Get-CsSipDomain** zurückgegeben werden. Führen Sie den `Get-CsSipDomain` Befehl Windows PowerShell aus, um diese Informationen zurückzugeben.
 
-"Get-CsSipDomain" gibt ähnliche Informationen für alle autorisierten SIP-Domänen zurück:
+Mit Get-CsSipDomain werden Informationen wie diese für alle autorisierten SIP-Domänen zurückgegeben:
 
-Identitäts Name IsDefault
+Identitäts Name-IsDefault
 
 \-------- ---- ---------
 
@@ -59,25 +59,25 @@ fabrikam.com fabrikam.com true
 
 na.fabrikam.com na.fabrikam.com false
 
-Wenn die IsDefault-Eigenschaft auf true festgelegt ist, ist die entsprechende Domäne Ihre standardmäßige SIP-Domäne. Sie können das Cmdlet "Satz-CsSipDomain" verwenden, um die SIP-Standarddomäne für Ihre Organisation zu ändern. Sie können die standardmäßige SIP-Domäne jedoch nicht einfach löschen, da Sie ohne eine Standarddomäne verbleibt. Wenn Sie die fabrikam.com-Domäne löschen möchten (wie im vorherigen Beispiel gezeigt), müssen Sie na.fabrikam.com zunächst so konfigurieren, dass es sich um Ihre Standarddomäne handelt.
+Wenn die IsDefault-Eigenschaft auf true festgelegt ist, ist die entsprechende Domäne Ihre Standard-SIP-Domäne. Sie können das Cmdlet "CsSipDomain" verwenden, um die Standard-SIP-Domäne für Ihre Organisation zu ändern. Allerdings können Sie die Standard-SIP-Domäne nicht einfach löschen, da Sie ohne Standarddomäne bleiben würde. Wenn Sie die fabrikam.com-Domäne löschen wollten (wie im vorherigen Beispiel gezeigt), müssen Sie zunächst na.fabrikam.com so konfigurieren, dass Sie die Standarddomäne ist.
 
 </div>
 
 <div>
 
-## <a name="check-meeting-settings"></a>Überprüfen von Besprechungseinstellungen
+## <a name="check-meeting-settings"></a>Überprüfen der Besprechungseinstellungen
 
-Zu den Besprechungseinstellungen gehören Richtlinien Definitionen für Besprechungen und die Unterstützung für die Teilnahme anonymer Benutzer an Besprechungen.
+Die Besprechungseinstellungen umfassen Richtlinien Definitionen für Besprechungen und Unterstützung für die Teilnahme anonymer Benutzer an Besprechungen.
 
-Die Einstellungen für die besprechungskonfiguration können mithilfe von Windows PowerShell und dem Cmdlet **Get-CsMeetingConfiguration** abgerufen werden. Dieser Befehl gibt beispielsweise Informationen zu den Konfigurationseinstellungen für globale Besprechungen zurück:
+Die Besprechungs Konfigurationseinstellungen können mit Windows PowerShell und dem Cmdlet **Get-CsMeetingConfiguration** abgerufen werden. Mit diesem Befehl werden beispielsweise Informationen zu den globalen Besprechungs Konfigurationseinstellungen zurückgegeben:
 
-Get-CsMeetingConfiguration – Identity "Global" die Konfigurationseinstellungen für Besprechungen können auch im Website Bereich konfiguriert werden. Aus diesem Grund sollten Sie den folgenden Befehl verwenden, der Informationen zu allen Besprechungs Konfigurationseinstellungen zurückgibt:
+Get-CsMeetingConfiguration – Identity "Global" Besprechungs Konfigurationseinstellungen können auch auf Standortebene konfiguriert werden. Aus diesem Grund möchten Sie möglicherweise den folgenden Befehl verwenden, der Informationen zu allen Besprechungs Konfigurationseinstellungen zurückgibt:
 
 `Get-CsMeetingConfiguration`
 
-Das Cmdlet " **Get-CsMeetingConfiguration** " gibt Informationen ähnlich der folgenden zurück:
+Mit dem Cmdlet **Get-CsMeetingConfiguration** werden Informationen wie die folgenden zurückgegeben:
 
-Identität: Global
+Identity: Global
 
 PstnCallersBypassLobby: true
 
@@ -89,29 +89,29 @@ AssignedConferenceTypeByDefault: true
 
 AdmitAnonymousUsersByDefault: true
 
-Das letzte Element in der Liste, **AdmitAnonymousUsersByDefault**, aktiviert oder deaktiviert die Möglichkeit von anonymen Benutzern, an Besprechungen teilzunehmen.
+Das letzte Element in der Liste **AdmitAnonymousUsersByDefault**aktiviert oder deaktiviert die Möglichkeit anonymer Benutzer, an Besprechungen teilzunehmen.
 
-Wenn Sie die Einstellungen für die besprechungskonfiguration überprüfen, finden Sie es möglicherweise hilfreich, die aktuellen Einstellungen mit den Standard äquivalenten zu vergleichen. Sie können die Standardeinstellungen für die besprechungskonfiguration anzeigen, indem Sie den folgenden Befehl ausführen:
+Bei der Überprüfung der Besprechungs Konfigurationseinstellungen ist es möglicherweise hilfreich, die aktuellen Einstellungen mit den Standard Entsprechungen zu vergleichen. Sie können die Standardeinstellungen für die besprechungskonfiguration anzeigen, indem Sie den folgenden Befehl ausführen:
 
 `New-CsMeetingConfiguration -Identity "Global" -InMemory`
 
-Der vorherige Befehl erstellt eine speicherresidente Instanz der globalen Besprechungs Konfigurationseinstellungen, eine Instanz, die den Standardwert für jede Eigenschaft verwendet. Wenn Sie den Befehl ausführen, werden keine tatsächlichen Besprechungs Konfigurationseinstellungen erstellt. Alle standardmäßigen Eigenschaftswerte werden jedoch auf dem Bildschirm angezeigt.
+Mit dem vorherigen Befehl wird eine nur im Arbeitsspeicher befindliche Instanz der globalen Besprechungs Konfigurationseinstellungen erstellt, eine Instanz, die den Standardwert für jede Eigenschaft verwendet. Beim Ausführen des Befehls werden keine tatsächlichen Besprechungs Konfigurationseinstellungen erstellt. Allerdings werden alle standardmäßigen Eigenschaftswerte auf dem Bildschirm angezeigt.
 
 </div>
 
 <div>
 
-## <a name="check-edge-servers-and-their-settings"></a>Überprüfen von Edgeserver und deren Einstellungen
+## <a name="check-edge-servers-and-their-settings"></a>Überprüfen der Edgeserver und deren Einstellungen
 
-Edge-Server Informationen können mithilfe von Windows PowerShell abgerufen werden. Dieser Befehl gibt Informationen zu allen Edge-Servern zurück, die für die Verwendung in Ihrer Organisation konfiguriert sind:
+Edgeserver Informationen können mithilfe von Windows PowerShell abgerufen werden. Dieser Befehl gibt Informationen zu allen für die Verwendung in Ihrer Organisation konfigurierten Edge-Servern zurück.
 
 `Get-CsService -EdgeServer`
 
-Die zurückgegebenen Informationen enthalten alle FQDN-und Porteinstellungen für jeden Edgeserver:
+Die zurückgegebenen Informationen enthalten alle FQDN-und Porteinstellungen für jede Edgeserver:
 
 Identity: EdgeServer: DC.fabrikam.com
 
-Kanzler: Kanzler: LYNC-SE.fabrikam.com
+Registrar: Registrar: LYNC-SE.fabrikam.com
 
 AccessEdgeInternalSipPort: 5061
 
@@ -157,9 +157,9 @@ fabrikam.com}
 
 Dienst-Nr: fabrikam.com-EdgeServer-2
 
-Website-Nr: Website:fabrikam. com
+Website-Nr: Website-:fabrikam. com
 
-PoolFqdn: DC.fabrikam.com
+Poolfqdn ": DC.fabrikam.com
 
 Version: 5
 
@@ -169,27 +169,27 @@ Rolle: EdgeServer
 
 ## <a name="check-federation-settings"></a>Überprüfen der Verbund Einstellungen
 
-Überprüfen Sie die Verbund Einstellungen, beispielsweise ob Sie konfiguriert ist und, wenn die Antwort "Ja" lautet, den FQDN und den Port. Der Verbund wird mithilfe der globalen Sammlung von Access Edge-Konfigurationseinstellungen aktiviert und deaktiviert. Unter anderem bedeutet dies, dass der Verbund auf der Grundlage einer vollständigen oder gar nichts-Basis konfiguriert ist: entweder ist der Verbund für die gesamte Organisation aktiviert, oder der Verbund ist für die gesamte Organisation deaktiviert.
+Überprüfen Sie die Verbund Einstellungen, beispielsweise ob Sie konfiguriert ist, und, wenn die Antwort "Ja" lautet, den FQDN und den Port. Der Verbund wird mithilfe der globalen Sammlung von Access-Edge-Konfigurationseinstellungen aktiviert und deaktiviert. Unter anderem bedeutet dies, dass der Verbund auf einer all-oder-Nothing-Basis konfiguriert ist: jeder Partnerverbund ist für die gesamte Organisation aktiviert, oder der Verbund ist für die gesamte Organisation deaktiviert.
 
-Ihre Access Edge-Konfigurationseinstellungen können mithilfe von Windows PowerShell zurückgegeben werden. Führen Sie dazu den folgenden Windows PowerShell-Befehl aus:
+Ihre Zugriffs-Edge-Konfigurationseinstellungen können mithilfe von Windows PowerShell zurückgegeben werden. Führen Sie dazu den folgenden Windows PowerShell Befehl aus:
 
 `Get-CsAccessEdgeConfiguration`
 
-Dieser Befehl gibt wiederum Daten zurück, die wie folgt aussehen:
+Dieser Befehl gibt wiederum Daten wie die folgende zurück:
 
-Identität: Global
+Identity: Global
 
-AllowAnonymousUsers: falsch
+AllowAnonymousUsers: false
 
-AllowFederatedUsers: falsch
+AllowFederatedUsers: false
 
-AllowOutsideUsers: falsch
+AllowOutsideUsers: false
 
-Beclearing: falsch
+Beclearing: false
 
-EnablePartnerDiscovery: falsch
+EnablePartnerDiscovery: false
 
-EnableArchivingDisclaimer: falsch
+EnableArchivingDisclaimer: false
 
 KeepCrlsUpToDateForPeers: true
 
@@ -197,37 +197,37 @@ MarkSourceVerifiableOnOutgoingMessages: true
 
 OutgoingTlsCountForFederatedPartners: 4
 
-RoutingMethod : UseDnsSrvRouting
+RoutingMethod: UseDnsSrvRouting
 
-Wenn die **AllowFederatedUsers** -Eigenschaft auf "true" festgelegt ist, bedeutet dies, dass der Verbund für Ihre Organisation aktiviert ist. (Wenn Sie **AllowFederatedUsers** auf "true" festlegen, bedeutet dies auch, dass Ihre lokalen Benutzer in einem geteilten Domänen Szenario nahtlos mit ihren in-the-Cloud-Benutzern kommunizieren können.)
+Wenn die **AllowFederatedUsers** -Eigenschaft auf true festgelegt ist, bedeutet dies, dass der Verbund für Ihre Organisation aktiviert ist. (Das Festlegen von **AllowFederatedUsers** auf "true" bedeutet auch, dass Ihre lokalen Benutzer in einem geteilten Domänen Szenario nahtlos mit ihren in-the-Cloud-Benutzern kommunizieren können.)
 
-Informationen zum Abrufen der FQDN-und Porteinstellungen für Ihren Edgeserver finden Sie in der vorherigen Aufgabe (Edgeserver und deren Einstellungen).
+Informationen zum Abrufen der FQDN-und Porteinstellungen für Ihre Edgeserver finden Sie in der vorherigen Aufgabe (Edgeserver und deren Einstellungen).
 
-Das Aktivieren des Föderations Bereichs im globalen Bereich bedeutet nur, dass Benutzer potenziell mit Verbundbenutzern kommunizieren können. Wenn Sie feststellen möchten, ob einzelne Benutzer tatsächlich mit Verbundbenutzern kommunizieren können, müssen Sie die Richtlinie für den externen Benutzer Zugriff untersuchen, die diesem Benutzer zugewiesen ist.
+Das Aktivieren von Verbund auf globaler Ebene bedeutet nur, dass Benutzer potenziell mit Verbundbenutzern kommunizieren können. Um zu ermitteln, ob einzelne Benutzer tatsächlich mit Verbundbenutzern kommunizieren können, müssen Sie die Zugriffsrichtlinie für externe Benutzer überprüfen, die diesem Benutzer zugewiesen ist.
 
-Zugriffsinformationen für externe Benutzer können mithilfe von Windows PowerShell zurückgegeben werden. Dieser Befehl gibt beispielsweise Informationen für die globale Richtlinie für den externen Benutzer Zugriff zurück:
+Mithilfe von Windows PowerShell können externe Benutzerzugriffs Informationen zurückgegeben werden. Mit diesem Befehl werden beispielsweise Informationen für die globale Richtlinie für den Zugriff auf externe Benutzer zurückgegeben:
 
 `Get-CsExternalAccessPolicy -Identity "Global"`
 
-Und dieser Befehl gibt Informationen für alle Richtlinien für den externen Benutzer Zugriff zurück:
+Und dieser Befehl gibt Informationen zu allen Richtlinien für den externen Benutzer Zugriff zurück:
 
 `Get-CsExternalAccessPolicy`
 
-Die zurückgegebenen Informationen werden wie folgt aussehen:
+Die zurückgegebenen Informationen ähneln Folgendem:
 
-Identität: falsch
+Identity: false
 
 Beschreibung
 
-EnableFederationAccess: falsch
+EnableFederationAccess: false
 
-EnablePublicCloudAccess: falsch
+EnablePublicCloudAccess: false
 
-EnablePublicCloudAccessAudioVideoAccess: falsch
+EnablePublicCloudAccessAudioVideoAccess: false
 
-EnableOutsideAccess: falsch
+EnableOutsideAccess: false
 
-Wenn **EnableFederationAccess** auf "true" festgelegt ist, können Benutzer, die von der angegebenen Richtlinie verwaltet werden, mit Verbundbenutzern kommunizieren.
+Wenn **EnableFederationAccess** auf true festgelegt ist, können Benutzer, die von der angegebenen Richtlinie verwaltet werden, mit Verbundbenutzern kommunizieren.
 
 </div>
 
@@ -237,27 +237,27 @@ Wenn **EnableFederationAccess** auf "true" festgelegt ist, können Benutzer, die
 
 ## <a name="check-archiving-settings"></a>Überprüfen der Archivierungseinstellungen
 
-Überprüfen Sie die Archivierungseinstellungen für die interne und die Verbundkommunikation. Bevor Sie die Einstellungen für die interne und externe Archivierung überprüfen, sollten Sie sicherstellen, dass die Archivierung aktiviert ist.
+Überprüfen Sie die Archivierungseinstellungen für die interne und die Verbundkommunikation. Bevor Sie die Einstellungen für die interne und externe Archivierung überprüfen, sollten Sie überprüfen, ob die Archivierung aktiviert ist.
 
-Die Archivierungs Konfigurationseinstellungen können mithilfe von Windows PowerShell und dem Cmdlet Get-CsArchivingConfiguration überprüft werden:
+Die Archivierungs Konfigurationseinstellungen können mit Windows PowerShell und dem Cmdlet Get-CsArchivingConfiguration überprüft werden:
 
 `Get-CsArchivingConfiguration -Identity "Global"`
 
-Beachten Sie, dass Archivierungseinstellungen auch im Website Bereich konfiguriert werden können. Wenn Sie Informationen zu allen Archivierungseinstellungen zurückgeben möchten, verwenden Sie den folgenden Befehl:
+Beachten Sie, dass Archivierungseinstellungen auch auf Standortebene konfiguriert werden können. Verwenden Sie diesen Befehl, um Informationen zu allen Archivierungseinstellungen zurückzugeben:
 
 `Get-CsArchivingConfiguration`
 
-Das Cmdlet "Get-CsArchivingConfiguration" gibt Daten ähnlich wie folgt zurück:
+Das Get-CsArchivingConfiguration-Cmdlet gibt Daten ähnlich der folgenden zurück:
 
-Identität: Global
+Identity: Global
 
-EnableArchiving: falsch
+Eigenschaft "enablearchiving: false
 
-EnablePurging: falsch
+"Enablepurging": false
 
-PurgeExportedArchivesOnly: falsch
+"Purgeexportedarchivesonly": false
 
-BlockOnArchiveFailure: falsch
+BlockOnArchiveFailure: false
 
 "Keeparchivingdatafordays": 14
 
@@ -267,19 +267,19 @@ ArchiveDuplicateMessages: true
 
 CachePurgingInterval: 24
 
-Wenn die EnableArchiving-Eigenschaft auf false festgelegt ist, bedeutet dies, dass keine Kommunikationssitzungen archiviert werden. Wenn Sie nur Instant Messaging-Sitzungen archivieren möchten, verwenden Sie einen Befehl wie den folgenden, um die Archivierung von Chatsitzungen zu aktivieren:
+Wenn die Eigenschaft "enablearchiving-Eigenschaft auf false festgelegt ist, bedeutet dies, dass keine Kommunikationssitzungen archiviert werden. Wenn Sie nur Chatsitzungen archivieren möchten, verwenden Sie einen Befehl wie den folgenden, um die Archivierung von Sofortnachrichtensitzungen zu aktivieren:
 
 `Set-CsArchivingConfiguration -Identity "Global" -EnableArchiving "IMOnly"`
 
-Verwenden Sie den folgenden Befehl, um Konferenzsitzungen und Chatsitzungen zu archivieren:
+Verwenden Sie diesen Befehl zum Archivieren von Konferenzsitzungen und Chatnachrichten Sitzungen:
 
 `Set-CsArchivingConfiguration -Identity "Global" -EnableArchiving "IMOnly"`
 
-Wenn Sie Ihre aktuellen Archivierungseinstellungen mit den Standardeinstellungen vergleichen möchten, führen Sie den folgenden Windows PowerShell-Befehl aus:
+Wenn Sie Ihre aktuellen Archivierungseinstellungen mit den Standardeinstellungen vergleichen möchten, führen Sie den folgenden Windows PowerShell Befehl aus:
 
 `New-CsArchivingConfiguration -Identity "Global" -InMemory`
 
-Dieser Befehl erstellt eine speicherresidente Instanz der globalen Archivierungs Konfigurationseinstellungen. Hierbei handelt es sich nicht um eine echte Sammlung von Einstellungen, die von lync Server verwendet werden. Es werden jedoch die Standardwerte für alle Archivierungs Konfigurationseigenschaften angezeigt.
+Mit diesem Befehl wird eine nur im Arbeitsspeicher vorhandene Instanz der globalen Archivierungs Konfigurationseinstellungen erstellt. Hierbei handelt es sich nicht um eine echte Sammlung von Einstellungen, die von lync Server verwendet werden. Es werden jedoch die Standardwerte für alle Archivierungs Konfigurationseigenschaften angezeigt.
 
 Sie können diesen Befehl auch verwenden, um den FQDN ihrer Archivierungsserver zurückzugeben:
 
@@ -287,23 +287,23 @@ Sie können diesen Befehl auch verwenden, um den FQDN ihrer Archivierungsserver 
 
 Nachdem Sie überprüft haben, dass die Archivierung aktiviert ist, können Sie Ihre Archivierungsrichtlinien anzeigen, um festzustellen, ob interne und externe Kommunikationssitzungen archiviert werden.
 
-Informationen zur Archivierungsrichtlinie können mit dem Cmdlet Get-CsArchivingPolicy abgerufen werden. Dieser Befehl gibt beispielsweise Informationen zur globalen Archivierungsrichtlinie zurück:
+Informationen zur Archivierungsrichtlinie können mithilfe des Cmdlets Get-CsArchivingPolicy abgerufen werden. Mit diesem Befehl werden beispielsweise Informationen zur globalen Archivierungsrichtlinie zurückgegeben:
 
 `Get-CsArchivingPolicy -Identity "Global"`
 
-Da Archivierungsrichtlinien auch auf der Website und im Benutzerbereich konfiguriert werden können, möchten Sie möglicherweise auch diesen Befehl verwenden, der Informationen zu allen Archivierungsrichtlinien zurückgibt:
+Da Archivierungsrichtlinien auch auf Standort-und Benutzerebene konfiguriert werden können, möchten Sie möglicherweise auch diesen Befehl verwenden, der Informationen zu allen Archivierungsrichtlinien zurückgibt:
 
 `Get-CsArchivingPolicy`
 
-Die Informationen, die Sie von Get-CsArchivingPolicy erhalten, werden wie folgt aussehen:
+Die Informationen, die Sie von Get-CsArchivingPolicy erhalten, ähneln Ihnen:
 
-Identität: Global
+Identity: Global
 
 Beschreibung
 
-ArchiveInternal: falsch
+"Archiveinternal": false
 
-ArchiveExternal: falsch
+"Archiveexternal": false
 
 Beachten Sie, dass die interne und externe Archivierung standardmäßig in einer Archivierungsrichtlinie deaktiviert ist.
 
@@ -311,47 +311,47 @@ Beachten Sie, dass die interne und externe Archivierung standardmäßig in einer
 
 <div>
 
-## <a name="check-cdr-settings"></a>Überprüfen der CDR-Einstellungen
+## <a name="check-cdr-settings"></a>Überprüfen der KDS-Einstellungen
 
-Überprüfen Sie die Einstellungen für den Anruf Detailsatz (CDR) für Peer-to-Peer-, Konferenz-und Sprachanruf Detail Aufzeichnung. Detaillierte Informationen zu Ihren CDR-Einstellungen können mit dem Cmdlet **Get-CsCdrConfiguration** zurückgegeben werden. Dieser Befehl gibt beispielsweise Informationen zur globalen Sammlung von CDR-Konfigurationseinstellungen zurück:
+Überprüfen Sie die KDS-Einstellungen (Call Detail Record) für die Aufzeichnung von Peer-zu-Peer-, Konferenz-und Sprachanruf Details. Ausführliche Informationen zu ihren KDS-Einstellungen können mit dem Cmdlet **Get-CsCdrConfiguration** zurückgegeben werden. Mit diesem Befehl werden beispielsweise Informationen über die globale Auflistung von KDS-Konfigurationseinstellungen zurückgegeben:
 
 `Get-CsCdrConfiguration -Identity "Global"`
 
-Da CdR auch im Website Bereich konfiguriert werden kann, möchten Sie möglicherweise auch diesen Befehl ausführen, der Informationen zu allen CdR-Konfigurationseinstellungen zurückgibt:
+Da KDS auch auf Standortebene konfiguriert werden kann, möchten Sie möglicherweise auch diesen Befehl ausführen, der Informationen zu allen KDS-Konfigurationseinstellungen zurückgibt:
 
 `Get-CsCdrConfiguration`
 
-Das Cmdlet "Get-CsCdrConfiguration" gibt ähnliche Informationen für jede Sammlung von CDR-Konfigurationseinstellungen zurück:
+Das Cmdlet Get-CsCdrConfiguration gibt für jede Auflistung von KDS-Konfigurationseinstellungen ähnliche Informationen zurück:
 
-Identität: Global
+Identity: Global
 
-EnableCDR: true
+"Enablecdr": true
 
-EnablePurging: true
+"Enablepurging": true
 
-KeepCallDetailForDays: 60
+"Keepcalldetailfordays": 60
 
 KeepErrorReportForDays: 60
 
 PurgeHourOfDay: 2
 
-Ähnliche Informationen können für die QoE-Überwachung mit dem Cmdlet Get-CsQoEConfiguration zurückgegeben werden. Dieser Befehl gibt beispielsweise Informationen zur globalen Sammlung der QoE-Konfigurationseinstellungen zurück:
+Ähnliche Informationen können für die QoE-Überwachung mithilfe des Get-CsQoEConfiguration-Cmdlets zurückgegeben werden. Mit diesem Befehl werden beispielsweise Informationen über die globale Auflistung von QoE-Konfigurationseinstellungen zurückgegeben:
 
 `Get-QoEConfiguration -Identity "Global"`
 
-Diese Informationen werden wie folgt aussehen:
+Diese Informationen ähneln Ihnen:
 
-Identität: Global
+Identity: Global
 
 ExternalConsumerIssuedCertId :
 
-EnablePurging: true
+"Enablepurging": true
 
-KeepQoEDataForDays: 60
+"Keepqoedatafordays": 60
 
 PurgeHourOfDay: 1
 
-EnableExternalConsumer: falsch
+EnableExternalConsumer: false
 
 ExternalConsumerName :
 
@@ -359,7 +359,7 @@ ExternalConsumerURL :
 
 EnableQoE: true
 
-Wenn Sie Ihre aktuellen CdR-Einstellungen mit den standardmäßigen CdR-Einstellungen vergleichen möchten, können Sie die Standardwerte überprüfen, indem Sie folgenden Befehl ausführen:
+Wenn Sie Ihre aktuellen KDS-Einstellungen mit den standardmäßigen KDS-Einstellungen vergleichen möchten, können Sie die Standardwerte überprüfen, indem Sie den folgenden Befehl ausführen:
 
 `New-CsCdrConfiguration -Identity "Global" -InMemory`
 
@@ -367,7 +367,7 @@ Ebenso können die Standardwerte für die QoE-Überwachung mithilfe dieses Befeh
 
 `New-CsQoEConfiguration -Identity "Global" -InMemory`
 
-Sie können auch den FQDN ihrer Überwachungsserver zurückgeben, indem Sie den folgenden Befehl ausführen:
+Sie können den FQDN ihrer Monitoring Server auch zurückgeben, indem Sie den folgenden Befehl ausführen:
 
 `Get-CsService -MonitoringServer`
 
@@ -377,9 +377,9 @@ Sie können auch den FQDN ihrer Überwachungsserver zurückgeben, indem Sie den 
 
 ## <a name="check-voice-settings"></a>Spracheinstellungen überprüfen
 
-Die in der Regel für Administratoren wichtigen Spracheinstellungen sind in VoIP-Richtlinien und VoIP-Routen enthalten: VoIP-Richtlinien enthalten die Einstellungen, die die für einzelne Benutzer verfügbar gemachten Funktionen (wie die Möglichkeit zum Weiterleiten oder übertragen von Anrufen) bestimmen, während VoIP-Routen legen fest, wie (und wenn) Anrufe über das PSTN weitergeleitet werden.
+Die VoIP-Einstellungen, die für Administratoren typischerweise wichtig sind, sind in VoIP-Richtlinien und VoIP-Routen enthalten: VoIP-Richtlinien enthalten die Einstellungen, die die für einzelne Benutzer verfügbaren Funktionen bestimmen (beispielsweise die Möglichkeit, Anrufe weiterzuleiten oder zu übertragen), während VoIP-Routen bestimmen, wie (und ob) Anrufe über das PSTN weitergeleitet werden.
 
-VoIP-Richtlinieninformationen können mithilfe von Windows PowerShell abgerufen werden. Dieser Befehl gibt beispielsweise Informationen zur globalen VoIP-Richtlinie zurück:
+Informationen zur VoIP-Richtlinie können mithilfe von Windows PowerShell abgerufen werden. Mit diesem Befehl werden beispielsweise Informationen zur globalen VoIP-Richtlinie zurückgegeben:
 
 `Get-CsVoicePolicy -Identity "Global"`
 
@@ -387,11 +387,11 @@ Und dieser Befehl gibt Informationen zu allen VoIP-Richtlinien zurück, die für
 
 `Get-CsVoicePolicy`
 
-Die vom Cmdlet "Get-CsVoicePolicy" zurückgegebenen Informationen ähneln wie folgt:
+Die vom Cmdlet Get-CsVoicePolicy zurückgegebenen Informationen ähneln wie folgt:
 
-Identität: Global
+Identity: Global
 
-PstnUsages :{}
+PstnUsages{}
 
 Beschreibung
 
@@ -409,29 +409,29 @@ EnableTeamCall: true
 
 EnableCallTransfer: true
 
-EnableCallPark: falsch
+EnableCallPark: false
 
-EnableMaliciousCallTracing: falsch
+EnableMaliciousCallTracing: false
 
-EnableBWPolicyOverride: falsch
+EnableBWPolicyOverride: false
 
-PreventPSTNTollBypass: falsch
+PreventPSTNTollBypass: false
 
-Sie können auch Abfragen erstellen, die eine Teilmenge ihrer VoIP-Richtlinien zurückgegeben haben. Dieser Befehl gibt beispielsweise alle VoIP-Richtlinien zurück, die die Anrufweiterleitung zulassen:
+Sie können auch Abfragen erstellen, die eine Teilmenge ihrer VoIP-Richtlinien zurückgegeben haben. Mit diesem Befehl werden beispielsweise alle VoIP-Richtlinien zurückgegeben, die die Anrufweiterleitung ermöglichen:
 
 `Get-CsVoicePolicy | Where-Object {$_.AllowCallForwarding -eq $True}`
 
-Und dieser Befehl gibt alle VoIP-Richtlinien zurück, die keine Anrufweiterleitung zulassen:
+Und dieser Befehl gibt alle VoIP-Richtlinien zurück, die die Anrufweiterleitung nicht zulassen:
 
 `Get-CsVoicePolicy | Where-Object {$_.AllowCallForwarding -eq $False}`
 
-Verwenden Sie in Windows PowerShell das Cmdlet "Get-CsVoiceRouting", um Informationen zu Ihren VoIP-Routen zurückzugeben:
+Verwenden Sie in Windows PowerShell das Cmdlet Get-CsVoiceRouting, um Informationen zu Ihren VoIP-Routen zurückzugeben:
 
 `Get-CsVoiceRoute`
 
-Dieser Befehl gibt Informationen wie diesen für alle VoIP-Routen zurück:
+Dieser Befehl gibt Informationen wie diese für alle VoIP-Routen zurück:
 
-Identität: LocalRoute
+Identity: LocalRoute
 
 Priorität: 0
 
@@ -439,7 +439,7 @@ Beschreibung
 
 NumberPattern: ^ (\\+ 1\[0-9\]{10}) $
 
-PstnUsages :{}
+PstnUsages{}
 
 PstnGatewayList :{}
 
@@ -449,11 +449,11 @@ SuppressCallerId :
 
 AlternateCallerId :
 
-Mit lync Server können Sie VoIP-Routen erstellen, die keine PSTN-Nutzung aufweisen, und kein PSTN-Gateway angeben. Sie können jedoch keine Anrufe über eine VoIP-Route weiterleiten, für die diese beiden Eigenschaftswerte nicht konfiguriert sind. Aus diesem Grund ist es möglicherweise hilfreich, diesen Befehl in regelmäßigen Abständen auszuführen, wodurch die Identität einer VoIP-Route zurückgegeben wird, die keine PSTN-Nutzung aufweist:
+In lync Server können Sie VoIP-Routen erstellen, die nicht über ein PSTN verwendet werden und kein PSTN-Gateway angeben. Es ist jedoch nicht möglich, Anrufe tatsächlich über eine VoIP-Route weiterzuleiten, für die diese beiden Eigenschaftswerte nicht konfiguriert sind. Aus diesem Grund kann es sinnvoll sein, diesen Befehl regelmäßig auszuführen, wodurch die Identität einer VoIP-Route zurückgegeben wird, die nicht über ein PSTN verwendet wird:
 
 `Get-CsVoiceRoute | Where-Object {$_.PstnUsages -eq $Null} | Select-Object Identity`
 
-Ebenso gibt dieser Befehl die Identität einer VoIP-Route zurück, die nicht für ein PSTN-Gateway konfiguriert wurde:
+Auf ähnliche Weise gibt dieser Befehl die Identität einer VoIP-Route zurück, die nicht für ein PSTN-Gateway konfiguriert wurde:
 
 `Get-CsVoiceRoute | Where-Object {$_.PstnGatewayList -eq $Null}} | Select-Object Identity`
 
@@ -461,27 +461,27 @@ Ebenso gibt dieser Befehl die Identität einer VoIP-Route zurück, die nicht fü
 
 <div>
 
-## <a name="check-conferencing-attendant-settings"></a>Überprüfen der Einstellungen der Konferenzzentrale
+## <a name="check-conferencing-attendant-settings"></a>Überprüfen der Einstellungen für die Konferenzzentrale
 
-Überprüfen Sie die Einstellungen der Konferenzzentrale für PSTN-Einwahlkonferenzen. Einstellungen der Konferenzzentrale können nur mit dem Cmdlet **Get-CsDialInConferencingConfiguration** abgerufen werden. Diese Einstellungen stehen in der lync Server-Systemsteuerung nicht zur Verfügung. Verwenden Sie zum Anzeigen der Einstellungen der Konferenzzentrale einen Windows PowerShell-Befehl ähnlich der folgenden, der die globale Sammlung der Konferenz Aufsichts Einstellungen zurückgibt:
+Überprüfen der Einstellungen für die Konferenzzentrale für PSTN-Einwahlkonferenzen. Einstellungen für die Konferenzzentrale können nur mithilfe des Cmdlets **Get-CsDialInConferencingConfiguration** abgerufen werden. Diese Einstellungen stehen im lync Server-Systemsteuerung nicht zur Verfügung. Verwenden Sie zum Anzeigen der Einstellungen für die Konferenzzentrale einen Windows PowerShell Befehl wie den folgenden, der die globale Auflistung der Einstellungen für die Konferenzzentrale zurückgibt:
 
 `Get-CsDialInConferencingConfiguration -Identity "Global"`
 
-Beachten Sie, dass die Einstellungen der Konferenzzentrale auch im Website Bereich konfiguriert werden können. Wenn Sie Informationen zu allen Einstellungen der Konferenzzentrale zurückgeben möchten, verwenden Sie stattdessen folgenden Befehl:
+Beachten Sie, dass die Einstellungen für die Konferenzzentrale auch auf Standortebene konfiguriert werden können. Wenn Sie Informationen zu allen Einstellungen für die Konferenzzentrale zurückgeben möchten, verwenden Sie stattdessen den folgenden Befehl:
 
 `Get-CsDialInConferencingConfiguration`
 
-Das Cmdlet "Get-CsDialInConferencingConfiguration" gibt Daten ähnlich wie folgt zurück:
+Das Get-CsDialInConferencingConfiguration-Cmdlet gibt Daten ähnlich der folgenden zurück:
 
-Identität: Global
+Identity: Global
 
 EntryExitAnnouncementsType : UseNames
 
 EnableNameRecording: true
 
-EntryExitAnnouncementsEnabledByDefault: falsch
+EntryExitAnnouncementsEnabledByDefault: false
 
-Wenn EntryExitAnnouncementsEnabledByDefault auf "false" festgelegt ist, bedeutet dies, dass die Konferenz Ankündigungen deaktiviert sind. Führen Sie zum Aktivieren von Eingabe-und Beendigungs Ankündigungen einen Windows PowerShell-Befehl wie den folgenden aus:
+Wenn EntryExitAnnouncementsEnabledByDefault auf false festgelegt ist, bedeutet dies, dass die Ankündigungen für Konferenzen deaktiviert sind. Um ein-und Ausstiegs Ankündigungen zu aktivieren, führen Sie einen Windows PowerShell Befehl wie den folgenden aus:
 
 `Set-CsDialInConferencingConfiguration -Identity "Global" -EntryExitAnnouncementsEnabledByDefault $True`
 

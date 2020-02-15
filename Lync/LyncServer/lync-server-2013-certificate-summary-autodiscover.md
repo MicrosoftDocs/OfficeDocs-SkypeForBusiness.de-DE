@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Zertifikatzusammenfassung – AutoErmittlung'
+title: 'Lync Server 2013: Zertifikatzusammenfassung-AutoErmittlung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541451
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8956c8a0ed4e149f336e6670aaf5b262f1868748
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ae57440d4843151da61d24a9ff015778a5c65b07
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736665"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043987"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>Zertifikatzusammenfassung – AutoErmittlung in lync Server 2013
+# <a name="certificate-summary---autodiscover-in-lync-server-2013"></a>Zertifikatzusammenfassung-AutoErmittlung in lync Server 2013
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "41736665"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-14_
+_**Letztes Änderungsstand des Themas:** 2013-02-14_
 
-Der lync Server 2013-AutoErmittlungsdienst wird auf den Director-und Front-End-Pool Servern ausgeführt und kann bei Veröffentlichung in DNS von lync-Clients zum Auffinden von Server-und Benutzerdiensten verwendet werden. Wenn Sie ein Upgrade von lync Server 2010 durchführen und keine Mobilität bereitstellen, bevor Clients die automatische Ermittlung verwenden können, müssen Sie die Listen für alternative Namen für Zertifikats Subjekte auf jedem Director-und Front-End-Server ändern, auf dem der AutoErmittlungsdienst ausgeführt wird. Darüber hinaus ist es möglicherweise erforderlich, die Listen Betreff alternativer Name auf Zertifikaten zu ändern, die für externe Webdienst Veröffentlichungsregeln für umgekehrte Proxys verwendet werden.
+Der lync Server 2013 AutoErmittlungsdienst wird auf dem Director-und Front-End-Pool-Server ausgeführt und kann bei Veröffentlichung in DNS von lync-Clients zum Auffinden von Server-und Benutzerdiensten verwendet werden. Wenn Sie ein Upgrade von lync Server 2010 durchführen und keine Mobilität bereitgestellt haben, müssen Sie, bevor Clients die automatische Ermittlung verwenden können, die Listen alternativer Zertifikatsantrags Teller Namen auf allen Directors ändern und Front-End-Server ausführen des AutoErmittlungsdiensts. Darüber hinaus kann es erforderlich sein, die Listen Betreff alternativer Namen auf Zertifikaten zu ändern, die für externe Webdienst-Veröffentlichungsregeln für Reverse-Proxies verwendet werden.
 
-Die Entscheidung darüber, ob die Listen Betreff alternativer Namen in umgekehrten Proxys verwendet werden, basiert darauf, ob Sie den AutoErmittlungsdienst auf Port 80 oder auf Port 443 veröffentlichen:
+Die Entscheidung, ob Listen für alternative Antragstellernamen in umgekehrten Proxys verwendet werden sollen, basiert darauf, ob Sie den AutoErmittlungsdienst auf Port 80 oder an Port 443 veröffentlichen:
 
-  - **Veröffentlicht auf Port 80**   es sind keine Zertifikat Änderungen erforderlich, wenn die ursprüngliche Abfrage des AutoErmittlungsdiensts über Port 80 erfolgt. Dies liegt daran, dass Mobile Geräte, auf denen lync ausgeführt wird, auf den Reverseproxy auf Port 80 extern zugreifen und dann intern mit einem Director oder Front-End-Server auf Port 8080 überbrückt werden. Ausführliche Informationen finden Sie im Abschnitt "ursprünglicher Auto Ermittlungsprozess mit Port 80" unter [Technische Voraussetzungen für Mobilität in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).
+  - **Veröffentlicht auf Port 80**   keine Zertifikat Änderungen sind erforderlich, wenn die erste Abfrage an den AutoErmittlungsdienst über Port 80 erfolgt. Dies liegt daran, dass Mobile Geräte, auf denen lync betrieben wird, extern auf den Reverseproxy auf Port 80 zugreifen und dann intern mit einem Director oder Front-End-Server an Port 8080 überbrückt werden. Ausführliche Informationen finden Sie im Abschnitt "erste Auto Ermittlungsverfahren mit Port 80" [Technische Voraussetzungen für Mobilität in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md).
 
-  - **Veröffentlicht auf Port 443**   die Liste der alternativen Subjektnamen für Zertifikate, die von der externen Webdienste-Veröffentlichungsregel verwendet werden, muss eine *lyncdiscover enthalten.\< sipdomain\> * -Eintrag für jede SIP-Domäne innerhalb Ihrer Organisation.
+  - **Veröffentlicht am Port 443**   die Liste der alternativen Antragstellernamen für Zertifikate, die von der Veröffentlichungsregel für externe Webdienste verwendet werden, muss ein *lyncdiscover enthalten.\< sipdomain "\> * -Eintrag für jede SIP-Domäne in Ihrer Organisation.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Es wird dringend empfohlen, HTTPS über HTTP zu verwenden. HTTPS verwendet Zertifikate, um den Datenverkehr zu verschlüsseln. HTTP bietet keine Verschlüsselung, und die gesendeten Daten sind nur Text.
+    > Es wird dringend empfohlen, HTTPS über HTTP zu verwenden. HTTPS verwendet Zertifikate zum Verschlüsseln des Datenverkehrs. HTTP bietet keine Verschlüsselung, und alle gesendeten Daten sind nur-Text.
 
     
     </div>
 
-Das erneute ausgeben von Zertifikaten mithilfe einer internen Zertifizierungsstelle ist in der Regel ein einfacher Prozess. Bei öffentlichen Zertifikaten, die für die Veröffentlichungsregel des Webdiensts verwendet werden, kann das Hinzufügen von Einträgen mit mehreren Alternativen Subjekten teuer werden. Um dieses Problem zu umgehen, unterstützen wir die anfängliche automatische Ermittlungs Verbindung über Port 80, die dann auf Port 8080 auf dem Director-oder Front-End-Server umgeleitet wird.
+Das neuausgeben von Zertifikaten mithilfe einer internen Zertifizierungsstelle ist in der Regel ein einfacher Prozess. Bei öffentlichen Zertifikaten, die in der Veröffentlichungsregel des Webdiensts verwendet werden, kann das Hinzufügen mehrerer alternativer Antragstellernamen teuer werden. Um dieses Problem zu umgehen, unterstützen wir die anfängliche automatische Ermittlungs Verbindung über Port 80, die dann an Port 8080 auf dem Director oder Front-End-Server umgeleitet wird.
 
 <div>
 
 
 > [!NOTE]  
-> Wenn Ihre lync Server 2013-Infrastruktur interne Zertifikate verwendet, die von einer internen Zertifizierungsstelle (Certification Authority, ca) ausgestellt wurden und Sie beabsichtigen, Mobile Geräte drahtlos zu unterstützen, muss entweder die Stammzertifikatkette von der internen Zertifizierungsstelle installiert werden. auf den mobilen Geräten oder müssen Sie zu einem öffentlichen Zertifikat in ihrer lync Server 2013-Infrastruktur wechseln.
+> Wenn Ihre lync Server 2013-Infrastruktur interne Zertifikate verwendet, die von einer internen Zertifizierungsstelle ausgestellt werden und Sie beabsichtigen, Mobile Geräte mit Drahtlosverbindungen zu unterstützen, muss entweder die Stammzertifikatkette von der internen Zertifizierungsstelle installiert sein. auf den mobilen Geräten oder müssen Sie zu einem öffentlichen Zertifikat in ihrer lync Server 2013 Infrastruktur wechseln.
 
 
 
 </div>
 
-In diesem Thema werden die für Director, Front-End-Server und Reverse Proxy erforderlichen zusätzlichen alternativen Namen für Subjekte beschrieben. Es werden nur die zusätzlichen alternativen Namen (Subject Alternative Names, San) referenziert. In den Planungs Abschnitten finden Sie Anleitungen zu den anderen Einträgen auf Zertifikaten. Ausführliche Informationen finden Sie unter [Szenarien für den Director in lync Server 2013](lync-server-2013-scenarios-for-the-director.md), [Szenarien für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)und [Szenarien für den Reverse Proxy in lync Server 2013](lync-server-2013-scenarios-for-reverse-proxy.md).
+In diesem Thema werden die zusätzlichen alternativen Antragstellernamen beschrieben, die für Director, Front-End-Server und Reverse Proxy erforderlich sind. Es wird nur auf die hinzugefügten alternativen Antragstellernamen (San) verwiesen. In den Planungs Abschnitten erhalten Sie Anleitungen zu den anderen Einträgen in Zertifikaten. Ausführliche Informationen finden Sie unter [Szenarien für den Director in lync Server 2013](lync-server-2013-scenarios-for-the-director.md), [Szenarien für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)und [Szenarien für Reverse Proxy in lync Server 2013](lync-server-2013-scenarios-for-reverse-proxy.md).
 
-In den folgenden Tabellen werden die San-Einträge für die AutoErmittlung für den Director-Pool, den Front-End-Pool und den Reverse-Proxy definiert:
+In den folgenden Tabellen werden die San-Einträge für die AutoErmittlung für die Directorpool, die Front-End-Pool und den Reverseproxy definiert:
 
-### <a name="director-pool-certificate-requirements"></a>Anforderungen des Director-Pool Zertifikats
+### <a name="director-pool-certificate-requirements"></a>Directorpool-Zertifikatanforderungen
 
 <table>
 <colgroup>
@@ -80,17 +80,17 @@ In den folgenden Tabellen werden die San-Einträge für die AutoErmittlung für 
 <thead>
 <tr class="header">
 <th>Beschreibung</th>
-<th>Eintrag für den alternativen Antragstellernamen</th>
+<th>Eintrag für alternativen Antragstellernamen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>URL des internen AutoErmittlungsdiensts</p></td>
-<td><p>San = lyncdiscoverinternal. &lt;Interner Domänenname&gt;</p></td>
+<td><p>Interne URL des AutoErmittlungsdiensts</p></td>
+<td><p>San = "lyncdiscoverinternal". &lt;Interner Domänenname&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>URL des externen AutoErmittlungsdiensts</p></td>
-<td><p>San = lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>Externe URL des AutoErmittlungsdiensts</p></td>
+<td><p>San = lyncdiscover. &lt;sipdomain "&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -100,13 +100,13 @@ In den folgenden Tabellen werden die San-Einträge für die AutoErmittlung für 
 
 
 > [!NOTE]  
-> Sie weisen das neu aktualisierte Zertifikat mit dem neuen San-Eintrag dem Standardzertifikat zu. Sie können auch San = * verwenden. &lt;sipdomain&gt;.
+> Sie weisen das neu aktualisierte Zertifikat dem neuen San-Eintrag dem Standardzertifikat zu. Alternativ können Sie San = * verwenden. &lt;sipdomain "&gt;.
 
 
 
 </div>
 
-### <a name="front-end-pool-certificate-requirements"></a>Anforderungen für das Front-End-Pool Zertifikat
+### <a name="front-end-pool-certificate-requirements"></a>Front-End-Pool-Zertifikatanforderungen
 
 <table>
 <colgroup>
@@ -116,17 +116,17 @@ In den folgenden Tabellen werden die San-Einträge für die AutoErmittlung für 
 <thead>
 <tr class="header">
 <th>Beschreibung</th>
-<th>Eintrag für den alternativen Antragstellernamen</th>
+<th>Eintrag für alternativen Antragstellernamen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>URL des internen AutoErmittlungsdiensts</p></td>
-<td><p>San = lyncdiscoverinternal. &lt;Interner Domänenname&gt;</p></td>
+<td><p>Interne URL des AutoErmittlungsdiensts</p></td>
+<td><p>San = "lyncdiscoverinternal". &lt;Interner Domänenname&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>URL des externen AutoErmittlungsdiensts</p></td>
-<td><p>San = lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>Externe URL des AutoErmittlungsdiensts</p></td>
+<td><p>San = lyncdiscover. &lt;sipdomain "&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -136,13 +136,13 @@ In den folgenden Tabellen werden die San-Einträge für die AutoErmittlung für 
 
 
 > [!NOTE]  
-> Sie weisen das neu aktualisierte Zertifikat mit dem neuen San-Eintrag dem Standardzertifikat zu. Sie können auch San = * verwenden. &lt;sipdomain&gt;
+> Sie weisen das neu aktualisierte Zertifikat dem neuen San-Eintrag dem Standardzertifikat zu. Alternativ können Sie San = * verwenden. &lt;sipdomain "&gt;
 
 
 
 </div>
 
-### <a name="reverse-proxy-public-ca-certificate-requirements"></a>Zertifikatanforderungen für Reverse Proxy (öffentliche Zertifizierungsstelle)
+### <a name="reverse-proxy-public-ca-certificate-requirements"></a>Reverseproxy-Zertifikatanforderungen (öffentliche ZS)
 
 <table>
 <colgroup>
@@ -152,13 +152,13 @@ In den folgenden Tabellen werden die San-Einträge für die AutoErmittlung für 
 <thead>
 <tr class="header">
 <th>Beschreibung</th>
-<th>Eintrag für den alternativen Antragstellernamen</th>
+<th>Eintrag für alternativen Antragstellernamen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>URL des externen AutoErmittlungsdiensts</p></td>
-<td><p>San = lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>Externe URL des AutoErmittlungsdiensts</p></td>
+<td><p>San = lyncdiscover. &lt;sipdomain "&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -168,7 +168,7 @@ In den folgenden Tabellen werden die San-Einträge für die AutoErmittlung für 
 
 
 > [!NOTE]  
-> Sie weisen das neu aktualisierte Zertifikat dem SSL-Listener auf dem Reverse-Proxy mit dem neuen San-Eintrag zu.
+> Sie weisen das neu aktualisierte Zertifikat dem neuen San-Eintrag dem SSL-Listener auf dem Reverseproxy zu.
 
 
 

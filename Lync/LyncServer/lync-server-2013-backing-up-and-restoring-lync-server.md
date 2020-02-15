@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Sichern und Wiederherstellen von lync Server'
+title: 'Lync Server 2013: Sichern und Wiederherstellen lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43a96f47bfe9d28fdbc37eea0ae62ef6cd763098
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d65d06ac9c72e776eee51b9b3dff6c6db3a59031
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740145"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044447"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-and-restoring-lync-server-2013"></a>Sichern und Wiederherstellen von lync Server 2013
+# <a name="backing-up-and-restoring-lync-server-2013"></a>Sichern und Wiederherstellen lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41740145"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+_**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-In diesem Abschnitt finden Sie die bewährten Methoden zum Sichern Ihrer lync Server 2013-Daten sowie zum Wiederherstellen bei einem Fehler. Diese bewährten Methoden gelten für die folgenden Situationen:
+In diesem Abschnitt finden Sie die bewährten Methoden zum Sichern Ihrer lync Server 2013 Daten sowie zum Wiederherstellen bei einem Fehler. Diese bewährten Methoden gelten für die folgenden Situationen:
 
-  - Ein gesamter lync Server-Pool eines beliebigen Typs (Front-End-Server, Edgeserver, Vermittlungsserver, beständiger Chat Server oder Director) oder ein einzelner Server in einem dieser Pools.
+  - Ein ganzer lync Server Pool eines beliebigen Typs (Front-End-Server, Edgeserver, Vermittlungsserver, beständiger Chat Server oder Director) oder ein einzelner Server in einem dieser Pools.
 
   - Der zentrale Verwaltungs Server
 
@@ -49,25 +49,25 @@ In diesem Abschnitt finden Sie die bewährten Methoden zum Sichern Ihrer lync Se
 
   - Ein Dateispeicher
 
-  - Eine Archivierungsdatenbank, eine Überwachungsdatenbank oder eine persistente Chat Datenbank
+  - Eine Datenbank für Archivierungsdatenbank, Überwachungsdatenbank oder beständigen Chat
 
-Dieser Abschnitt enthält keine Informationen zum Wiederherstellen einer gesamten Website oder zur Entwicklung einer Standby-Website. Details zur Entwicklung einer Disaster Recovery-Lösung mit gekoppelten Front-End-Pools finden Sie unter [Planen von Hochverfügbarkeits-und Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Dies ist die empfohlene Methode für die Planung der Notfallwiederherstellung.
+Dieser Abschnitt enthält keine Informationen zum Wiederherstellen einer gesamten Website oder zum Entwickeln einer Standby-Website. Ausführliche Informationen zum Entwickeln einer Notfallwiederherstellungslösung mit gepaarten Front-End-Pools finden Sie unter [Planung für hohe Verfügbarkeit und Notfallwiederherstellung in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Dies ist die empfohlene Methode für die Planung der Notfallwiederherstellung.
 
-Wenn Sie gekoppelte Front-End-Pools bereitgestellt haben, können Sie diesen Pool mit einem neuen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) aus dem gekoppelten Pool wiederherstellen, wenn eines dieser Pools ausfällt und nicht wiederhergestellt werden kann. Ausführliche Informationen zu den Schritten zum Durchführen dieser Wiederherstellung finden Sie unter [Failover eines Pools in lync Server 2013](lync-server-2013-failing-over-a-pool.md). Wenn Sie später einen fehlerhaften und nicht behebbaren Pool erstellen möchten, der Teil eines Front-End-Paars war, können Sie die Schritte unter [Durchführen eines Failovers des ABC-Front-End-Pools in lync Server 2013](lync-server-2013-performing-an-abc-front-end-pool-failover.md)verwenden.
+Wenn Sie gekoppelte Front-End-Pools bereitgestellt haben und einer dieser Pools fehlschlägt und nicht mehr wiederhergestellt werden kann, können Sie diesen Pool mit einem neuen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) aus dem gekoppelten Pool wiederherstellen. Ausführliche Informationen zu den Schritten zum Durchführen dieser Wiederherstellung finden Sie unter [failing over a Pool in lync Server 2013](lync-server-2013-failing-over-a-pool.md). Wenn Sie später einen fehlerhaften und nicht behebbaren Pool erneut erstellen möchten, der Teil eines Front-End-Paars war, können Sie die Schritte unter [Durchführen eines ABC-Front-End-Pool-Failovers in lync Server 2013](lync-server-2013-performing-an-abc-front-end-pool-failover.md)verwenden.
 
-Die in diesem Dokument beschriebene Methodik umfasst besondere Aspekte in der Planungsphase. Ausführliche Informationen finden Sie unter [Einrichten eines Sicherungs-und Wiederherstellungsplans für lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-plan.md).
+Bei der hier beschriebenen Methodik werden besondere Überlegungen während der Planungsphase mit berücksichtigt. Ausführliche Informationen finden Sie unter [Einrichten eines Sicherungs-und Wiederherstellungsplans für lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-plan.md).
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Vorbereiten der Sicherung und Wiederherstellung von lync Server 2013](lync-server-2013-preparing-for-lync-server-backup-and-restoration.md)
+  - [Vorbereiten der lync Server 2013 Sicherung und-Wiederherstellung](lync-server-2013-preparing-for-lync-server-backup-and-restoration.md)
 
   - [Sichern von Daten und Einstellungen in lync Server 2013](lync-server-2013-backing-up-data-and-settings.md)
 
   - [Wiederherstellen von Daten und Einstellungen in lync Server 2013](lync-server-2013-restoring-data-and-settings.md)
 
-  - [Arbeitsblätter zum Sichern und Wiederherstellen für lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)
+  - [Arbeitsblätter zur Sicherung und Wiederherstellung für lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)
 
 </div>
 

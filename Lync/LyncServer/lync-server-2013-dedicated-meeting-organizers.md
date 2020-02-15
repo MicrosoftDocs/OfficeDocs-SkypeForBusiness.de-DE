@@ -12,16 +12,16 @@ ms:contentKeyID: 48183730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 429c68ad96d4738b835f549a5f355e6c133ead74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4609f588eec8d68ec163abd8a15a44f5f88a7620
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728535"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044087"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41728535"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
-Zum Minimieren des Echt Zeit Datenverkehrs im großzügigen Besprechungs Pool empfehlen wir nicht das Hosten von Benutzern, die sich regelmäßig mit lync-Clients anmelden und an Instant Messaging (im), Anwesenheits-, Konferenz-und sprach Sitzungen teilnehmen. Stattdessen wird empfohlen, eine der folgenden Aktionen auszuführen:
+Zur Minimierung des Datenverkehrs bei Echtzeitkommunikationen in großen Besprechungspools wird davon abgeraten, Benutzer zu hosten, die sich regelmäßig mit Lync-Clients anmelden und an Chat-, Anwesenheits-, Konferenz- und Sprachsitzungen teilnehmen. Stattdessen wird eine der folgenden Vorgehensweisen empfohlen:
 
-  - Erstellen Sie ein oder mehrere dedizierte Benutzerkonten nur zum Planen großer Besprechungen, oder
+  - Erstellen Sie ein oder mehrere dedizierte Benutzerkonten nur für die Planung großer Besprechungen -ODER-
 
-  - Home die Benutzerkonten der Mitarbeiter, die für die Planung großer Besprechungen in einem großzügigen Besprechungs Pool verantwortlich sind.
+  - Verwalten Sie die Benutzerkonten der Mitarbeiter, die für die Planung großer Besprechungen zuständig sind, in einem großen Besprechungspool
 
-In beiden Fällen sollten die Benutzerkonten, die sich im Pool für große Besprechungen befinden, nicht verwendet werden, um sich regelmäßig bei lync anzumeldeten, außer zum Planen von Besprechungen.
+In beiden Fällen sollten die Benutzerkonten, die im großen Besprechungspool verwaltet werden, nicht für die regelmäßige Anmeldung bei Lync, sondern nur für die Planung von Besprechungen verwendet werden.
 
 </div>
 

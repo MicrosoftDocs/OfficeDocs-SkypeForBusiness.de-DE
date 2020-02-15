@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Durchstellung und Weiterleitung von Anrufen'
+title: 'Lync Server 2013: Anruf Übertragungen und Anrufweiterleitung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803962
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 512deaf8af03f112e35443c25e46685c42a2f2e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 46b16ad2faac58a5999b803c75d02e01da0da2dd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742955"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044297"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-transfers-and-call-forwarding-in-lync-server-2013"></a>Durchstellung und Weiterleitung von Anrufen in Lync Server 2013
+# <a name="call-transfers-and-call-forwarding-in-lync-server-2013"></a>Anruf Übertragungen und Anrufweiterleitung in lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41742955"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-09_
+_**Letztes Änderungsstand des Themas:** 2013-03-09_
 
-Wenn ein PSTN-Endpunkt beteiligt ist, analysiert standortbasiertes Routing die Position des Endpunkts der Calle und den Endpunkt, an den der Anruf übertragen oder weitergeleitet wird (d. h. Übertragung/Forward-Ziel). Standortbasiertes Routing bestimmt, ob der Anruf je nach Position beider Endpunkte übertragen oder weitergeleitet werden soll.
+Wenn ein PSTN-Endpunkt beteiligt ist, analysiert das standortbasierte Routing die Position des Endpunkts der Calle und den Endpunkt, an den der Anruf übertragen oder weitergeleitet wird (d. h.: Transfer/Forward-Ziel). Das standortbasierte Routing bestimmt, ob der Anruf je nach Standort beider Endpunkte übertragen oder weitergeleitet werden soll.
 
-In der folgenden Tabelle wird das Szenario eines lync-Benutzers in einem Anruf mit einem PSTN-Endpunkt veranschaulicht, und der lync-Benutzer übergibt den Anruf an einen anderen lync-Benutzer. Je nach dem Standort des Netzwerkstandorts des Endpunkts des Empfängers wirkt sich der standortbasierte Routing auf das Routing der Anrufweiterleitung oder der Weiterleitung aus.
+In der folgenden Tabelle wird das Szenario eines lync-Benutzers in einem Anruf mit einem PSTN-Endpunkt veranschaulicht, und der lync-Benutzer übergibt den Anruf an einen anderen lync-Benutzer. Je nach Standort des Netzwerkstandorts des Endpunkts des Empfängers wirkt sich das standortbasierte Routing auf das Routing der Anrufweiterleitung oder der Weiterleitung aus.
 
-### <a name="initiating-call-transfer-or-forward"></a>Einleitung der Anrufdurchstellung oder -weiterleitung
+### <a name="initiating-call-transfer-or-forward"></a>Initiieren der Anrufweiterleitung oder Weiterleitung
 
 <table>
 <colgroup>
@@ -52,29 +52,29 @@ In der folgenden Tabelle wird das Szenario eines lync-Benutzers in einem Anruf m
 </colgroup>
 <thead>
 <tr class="header">
-<th>Benutzer, der die Durchstellung oder Weiterleitung des Anrufs einleitet</th>
-<th>Der Zielendpunkt befindet sich am gleichen Netzwerkstandort wie der Benutzer, der die Anrufdurchstellung oder -weiterleitung einleitet</th>
-<th>Der Zielendpunkt befindet sich an einem anderen Netzwerkstandort als der Benutzer, der die Anrufdurchstellung oder -weiterleitung einleitet</th>
-<th>Der Zielendpunkt ist auf der unbekannten Netzwerk Website oder Netzwerk Website nicht für standortbasiertes Routing aktiviert.</th>
+<th>Benutzer, der die Anrufweiterleitung/-Weiterleitung initiiert</th>
+<th>Der Zielendpunkt befindet sich am gleichen Netzwerkstandort wie der Benutzer, der die Anrufweiterleitung oder Weiterleitung initiiert.</th>
+<th>Der Zielendpunkt befindet sich an einem anderen Netzwerkstandort als der Benutzer, der die Anrufweiterleitung initiiert oder weiterleitet.</th>
+<th>Der Zielendpunkt ist im unbekannten Netzwerkstandort oder Netzwerkstandort nicht für standortbasiertes Routing aktiviert</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Lync-Benutzer</p></td>
-<td><p>Anrufweiterleitung oder -durchstellung ist erlaubt</p></td>
-<td><p>Anrufweiterleitung oder -durchstellung ist nicht erlaubt</p></td>
-<td><p>Anrufweiterleitung oder -durchstellung ist nicht erlaubt</p></td>
+<td><p>Anrufweiterleitung oder-Übertragung ist zulässig</p></td>
+<td><p>Anrufweiterleitung oder-Übertragung ist nicht zulässig</p></td>
+<td><p>Anrufweiterleitung oder-Übertragung ist nicht zulässig</p></td>
 </tr>
 </tbody>
 </table>
 
   
 
-Beispiel: ein lync-Benutzer in einem Anruf mit einem PSTN-Endpunkt übergibt den Anruf an einen anderen lync-Benutzer, der sich am gleichen Netzwerkstandort befindet. In diesem Fall ist die Durchstellung des Anrufs erlaubt.
+Beispiel: ein lync-Benutzer in einem Anruf mit einem PSTN-Endpunkt überträgt den Anruf an einen anderen lync-Benutzer, der sich am gleichen Netzwerkstandort befindet. In diesem Fall ist die Anrufweiterleitung zulässig.
 
-In der folgenden Tabelle wird das Szenario eines lync-Benutzers in einem Anruf mit einem anderen lync-Benutzer veranschaulicht, und einer der Benutzer übergibt den Anruf an einen PSTN-Endpunkt. Die Tabelle zeigt im Detail, wie sich das standortbasierte Routing abhängig vom Standort des Benutzers, an den der Anruf durchgestellt werden soll, auf den Anruf auswirkt.
+In der folgenden Tabelle wird das Szenario eines lync-Benutzers in einem Anruf mit einem anderen lync-Benutzer dargestellt, und einer der Benutzer übergibt den Anruf an einen PSTN-Endpunkt. Abhängig vom Standort des Benutzers, an den der Anruf weitergeleitet wird, wird in der Tabelle ausführlich beschrieben, wie sich das standortbasierte Routing auf den Anruf auswirkt.
 
-### <a name="call-transfer-or-forward-to-pstn-endpoint"></a>Anrufdurchstellung oder -weiterleitung an einen Endpunkt im öffentlichen Telefonnetz
+### <a name="call-transfer-or-forward-to-pstn-endpoint"></a>Anrufweiterleitung oder Weiterleitung an PSTN-Endpunkt
 
 <table>
 <colgroup>
@@ -85,31 +85,31 @@ In der folgenden Tabelle wird das Szenario eines lync-Benutzers in einem Anruf m
 </colgroup>
 <thead>
 <tr class="header">
-<th>Zielendpunkt für die Anrufdurchstellung oder -weiterleitung</th>
-<th>Lync-Benutzer auf derselben Netzwerk Website</th>
-<th>Lync-Benutzer an verschiedenen Netzwerkstandorten</th>
-<th>Ein oder beide lync-Benutzer in einer unbekannten Netzwerk Website oder Netzwerk Website sind für standortbasiertes Routing nicht aktiviert</th>
+<th>Anrufweiterleitung/Endpunkt Ziel weiterleiten</th>
+<th>Lync-Benutzer am gleichen Netzwerkstandort</th>
+<th>Lync-Benutzer an unterschiedlichen Netzwerkstandorten</th>
+<th>Ein oder beide lync-Benutzer an einem unbekannten Netzwerkstandort oder Netzwerkstandort sind für standortbasiertes Routing nicht aktiviert</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Endpunkt im öffentlichen Telefonnetz</p></td>
-<td><p>Anrufweiterleitung oder -durchstellung wird von der VoIP-Routingrichtlinie am Standort des durchgestellten Benutzers zugelassen</p></td>
-<td><p>Anrufweiterleitung oder -durchstellung wird von der VoIP-Routingrichtlinie am Standort des durchgestellten Benutzers zugelassen</p></td>
-<td><p>Anrufweiterleitung oder -durchstellung wird von der VoIP-Richtlinie des durchgestellten Benutzers nur durch Trunks zugelassen, die nicht für standortbasiertes Routing aktiviert sind</p></td>
+<td><p>PSTN-Endpunkt</p></td>
+<td><p>Anrufweiterleitung oder-Übertragung zulässig durch die Website VoIP-Routing Richtlinie des übertragenen Benutzers</p></td>
+<td><p>Anrufweiterleitung oder-Übertragung zulässig durch die Website VoIP-Routing Richtlinie des übertragenen Benutzers</p></td>
+<td><p>Anrufweiterleitung oder Übertragung, die von der VoIP-Richtlinie des übertragenen Benutzers zugelassen wird, nur über Trunks, die für standortbasiertes Routing nicht aktiviert sind</p></td>
 </tr>
 </tbody>
 </table>
 
   
-Beispiel: ein lync-Benutzer in einem Anruf mit einem anderen lync-Benutzer, der sich am gleichen Netzwerkstandort befindet, übernimmt den Anruf an einen PSTN-Endpunkt, und die Anrufübertragung ist zulässig.
+Beispiel: ein lync-Benutzer in einem Anruf mit einem anderen lync-Benutzer, der sich am gleichen Netzwerkstandort befindet, überträgt den Anruf an einen PSTN-Endpunkt, und die Anrufweiterleitung wird zugelassen.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Szenarien für das standortbasierte Routing in Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Szenarien für das standortbasierte Routing in lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

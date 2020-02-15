@@ -12,20 +12,20 @@ ms:contentKeyID: 48184169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 381b03fc5680276a64fc327f423f74c6773c2ed3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9c6e1fb5afda3a657bbeff864f5bba06349f4fb4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762353"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044847"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="devices-table-in-lync-server-2013"></a>Devices-Tabelle in Lync Server 2013
+# <a name="devices-table-in-lync-server-2013"></a>Devices-Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762353"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-05-25_
+_**Letztes Änderungsstand des Themas:** 2012-05-25_
 
-Die Tabelle Devices ist eine unterstützende Tabelle. Jeder Datensatz speichert Informationen zu einem Gerät (Tischtelefon).
+Bei der Devices-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz speichert Informationen über ein Gerät (Telefonapparat).
 
 
 <table>
@@ -60,25 +60,25 @@ Die Tabelle Devices ist eine unterstützende Tabelle. Jeder Datensatz speichert 
 <td><p><strong>DeviceID</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutige Nummer, die diese Hardware Version kennzeichnet.</p></td>
+<td><p>Eindeutige Zahl, die diese Hardwareversion identifiziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ManufacturerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Hersteller des Geräts. Weitere Informationen finden Sie <a href="lync-server-2013-manufacturers-table.md">in der Tabelle "Hersteller" in lync Server 2013</a> .</p></td>
+<td><p>Hersteller dieses Geräts. Weitere Informationen finden Sie <a href="lync-server-2013-manufacturers-table.md">in der Tabelle Hersteller in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>HardwareVersionId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Hardware Version dieses Geräts. Weitere Informationen finden Sie <a href="lync-server-2013-hardwareversions-table.md">in der HardwareVersions-Tabelle in lync Server 2013</a> .</p></td>
+<td><p>Hardwareversion dieses Geräts. Weitere Informationen finden Sie <a href="lync-server-2013-hardwareversions-table.md">in der Hardware Versions-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MacAddress</strong></p></td>
+<td><p><strong>MACAddress</strong></p></td>
 <td><p>bigint</p></td>
 <td></td>
-<td><p>Mac-Adresse</p></td>
+<td><p>MAC-Adresse</p></td>
 </tr>
 </tbody>
 </table>

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d156761d8ebc39822d6ccf2fc28ed6c380c4e117
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 77a325fbe8cacb3b2760f5b3034dee0e16695278
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825183"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021596"
 ---
 # <a name="plan-my-users-experience"></a>Planen der Benutzererfahrung
 
@@ -108,7 +108,7 @@ Im Rahmen des Planungsprozesses sollte eine Zuordnung von Personas zu Geräten e
 Wenn Sie die Geräte ausgewählt haben, nehmen Sie sie zur endgültigen Validierung in den Pilottestplan auf. Nutzen Sie in der Pilotphase Umfragen, um Feedback zu sammeln, damit Sie sicherstellen können, dass Sie die optimale Gerätestrategie verwenden.
 
 > [!NOTE]
-> Zurzeit empfehlen wir die Verwendung von Geräten, die über das Skype for Business-Zertifizierungsprogramm zertifiziert wurden. Informationen zu Geräten, die unter diesem Programm zertifiziert sind, finden Sie auf den [Microsoft Teams-Geräten](https://products.office.com/en-us/microsoft-teams/across-devices/devices) und [USB-Audio-und-Videogeräten](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices).
+> Zurzeit empfehlen wir die Verwendung von Geräten, die über das Skype for Business-Zertifizierungsprogramm zertifiziert wurden. Informationen zu Geräten, die unter diesem Programm zertifiziert sind, finden Sie auf den [Microsoft Teams-Geräten](https://products.office.com/microsoft-teams/across-devices/devices) und [USB-Audio-und-Videogeräten](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices).
 
 
 

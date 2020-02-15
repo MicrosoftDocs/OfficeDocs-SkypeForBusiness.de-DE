@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8cf33a5ac4c498e6d6996f6096fbf9599b5ad2e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1a62bc73e7dc2496a9fedc94ad7fc38f2ebecd65
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837715"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030769"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Erstellen Ihrer ersten Teams in Microsoft Teams
 
@@ -36,7 +36,7 @@ Die beste Methode, um die Einführung von Teams zu steuern, besteht in der Verwe
 | Microsoft Teams-Implementierung | Allgemein <br/> Sensibilisierung und Akzeptanz <br/> Geschäftliches Engagement <br/> Early Adopter-Programm <br/> Feedback und Einblicke <br/> Sicherheit und Compliance <br/> Strategie und Planung <br/> Dienststatus und-Vorfälle <br/> Schulungen <br/> Watercooler-Chat |
 | Teamwork-Champions | Allgemein <br/> Bewährte Methoden, Schulung und Anleitungen <br/> Champion-Ecke <br/> Feedback und Support <br/> Programm Leads <br/> Social Hub |
 
-In Microsoft Teams können Sie mit dem [Reiter Katalog](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview) auf alle Office 365-und Drittanbieter-apps zugreifen, die vom Administrator aktiviert wurden. Um den größten Nutzen aus Ihrem Produkt zu erzielen, empfehlen wir, die wichtigsten Ressourcen als Registerkarten in den jeweiligen Kanälen zu fixieren. Sehen Sie sich das Beispiel unten an.
+In Microsoft Teams können Sie mit dem [Reiter Katalog](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview) auf alle Office 365-und Drittanbieter-apps zugreifen, die vom Administrator aktiviert wurden. Um den größten Nutzen aus Ihrem Produkt zu erzielen, empfehlen wir, die wichtigsten Ressourcen als Registerkarten in den jeweiligen Kanälen zu fixieren. Sehen Sie sich das Beispiel unten an.
 
 ![Screenshot mit Standard-und benutzerdefinierten Registerkarten](media/teams-adoption-tab-example.png)
 
@@ -50,7 +50,7 @@ In ihren anfänglichen Teams empfehlen wir, die folgenden Elemente zur einfachen
 | Geschäftliches Engagement | Wiki – Engagement-Leitfaden<br/>Formular – Anfrage für Teams-Beratung<br/>Liste – Engagement-Anforderungen |
 |Frühe Anwender | Angeheftete Feedback-Community <br/> OneNote für häufig gestellte Fragen und häufige Designs |
 | Feedback und Berichterstellung | Angehefteter Office 365-Nutzungsbericht (nur für Office 365-Administratoren) |
-| Sicherheit und Compliance | Microsoft Trust-Portal <br/> [Sicherheits-und Compliance-Dokumentation](https://docs.microsoft.com/en-us/office365/securitycompliance/index)<br/> [Roadmap](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
+| Sicherheit und Compliance | Microsoft Trust-Portal <br/> [Sicherheits-und Compliance-Dokumentation](https://docs.microsoft.com/office365/securitycompliance/index)<br/> [Roadmap](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
 | Strategie und Planung | Zusammenarbeit North Star PowerPoint <br/> Dienst Adoptions Projekt Plan |
 | Schulungen | Benutzerdefiniertes Learning-Schulungsportal <br/> [Teams Online-Schulung](https://aka.ms/TeamsTraining) |
 | **Teamwork-Champions**|  |

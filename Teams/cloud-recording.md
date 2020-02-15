@@ -16,12 +16,12 @@ f1.keywords:
 description: Praktische Anleitungen für die Bereitstellung von Cloud-VoIP-Funktionen in Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38981774af168c978371b06d8de6eeedd4b16644
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 5041b35822a04dc98aa6c07d3731ad8c6791af98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825603"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030719"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -112,7 +112,7 @@ Bei neuen und vorhandenen Mandanten, die die Aufzeichnung von Besprechungen noch
 
 Um die Region zu finden, in der Ihre Microsoft Stream-Daten gespeichert sind, klicken Sie in Microsoft Stream auf **?** Klicken Sie in der oberen rechten Ecke auf **Informationen zu Microsoft Stream**, und klicken Sie dann auf **Ihre Daten werden gespeichert in**.  Weitere Informationen zu den Regionen, in denen Microsoft Stream Daten speichert, finden Sie unter [häufig gestellte Fragen zu Microsoft Stream](https://docs.microsoft.com/stream/faq#which-regions-does-microsoft-stream-host-my-data-in).
 
-Wenn Sie mehr darüber erfahren möchten, wo Daten in Office 365 in verschiedenen Diensten gespeichert sind, lesen Sie [wo befinden sich Ihre Daten?](https://products.office.com/en-us/where-is-your-data-located?rtc=1)
+Wenn Sie mehr darüber erfahren möchten, wo Daten in Office 365 in verschiedenen Diensten gespeichert sind, lesen Sie [wo befinden sich Ihre Daten?](https://products.office.com/where-is-your-data-located?rtc=1)
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>Aktivieren oder Deaktivieren der Transkription der Aufzeichnung
 

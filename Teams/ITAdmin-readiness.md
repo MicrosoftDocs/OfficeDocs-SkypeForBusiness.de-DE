@@ -18,12 +18,12 @@ ms.custom:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a602aef5d817e3d7aecae95491f7de559598570b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 9cf627c21e98f64f14a8a925fa615f02b38fae28
+ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834466"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048806"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administrator-Schulung für Microsoft Teams
 
@@ -90,17 +90,18 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 
 <h2>Technische Schulung</h2>
 
-| Modul | Video | PowerPoint-Foliensatz |
+| Modul | Video | PowerPoint-Foliensatz  |
 | ------------ | -------------------- | -------------------- |
-| [Microsoft Mechanics-Teams Essentials für IT-YouTube-Kanal](https://aka.ms/MicrosoftTeamsforIT) | [Video: Team Essentials für IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Video: bereitstellen #a0 Konfigurieren von Teams – Einführung](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)  <br>[Video: Sicherheit und Compliance](https://youtu.be/91lHNKVVvQ4) (12:42 min)<br>[Video: Teams-Steuerelemente für Sicherheit und Compliance](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)||
+| [Microsoft Mechanics-Teams Essentials für IT-YouTube-Kanal](https://aka.ms/MicrosoftTeamsforIT) | [Video: Team Essentials für IT](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Video: bereitstellen & Konfigurieren von Teams – Einführung](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 min)  <br>[Video: Sicherheit und Compliance](https://youtu.be/91lHNKVVvQ4) (12:42 min)<br>[Video: Teams-Steuerelemente für Sicherheit und Compliance](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)||
 | Grundlagen – Kernkomponenten | [Video](https://aka.ms/teams-foundations) | [Foliensatz](https://aka.ms/teams-foundations-deck) |
 | Windows-Desktopclient | [Video](https://aka.ms/teams-clients) | [Foliensatz](https://aka.ms/teams-clients-deck) |
 | Governance, Verwaltung und Lebenszyklus | [Video](https://aka.ms/teams-governance) | [Foliensatz](https://aka.ms/teams-governance-deck) |
 | Security & Compliance | [Video](https://aka.ms/teams-security-compliance) | [Foliensatz](https://aka.ms/teams-security-compliance-deck) |
-| Netzwerkplanung | [Video](https://aka.ms/teams-networking) | [Foliensatz](https://aka.ms/teams-networking-deck) |
 | Übersicht zu Anrufqualität | [Video](https://aka.ms/teams-quality) | [Foliensatz](https://aka.ms/teams-quality-deck) |
 | Einführung in Besprechungen | [Video](https://aka.ms/teams-meetings-intro) | [Foliensatz](https://aka.ms/teams-meetings-intro-deck) |
-| Medien |[Video](https://aka.ms/media-in-teams)  | [Foliensatz](https://aka.ms/media-in-teams-deck)|
+| Medien – Warum Besprechungen einfach sind|[Video](https://aka.ms/media-in-teams)  | [Foliensatz](https://aka.ms/media-in-teams-deck)|
+| Medien-Medienfluss | [Video](https://aka.ms/teams-media-flows) | [Foliensatz](https://aka.ms/teams-media-flows-deck)  |
+| Dynamische Notrufe | [Video](https://aka.ms/teams-dec) |  [Foliensatz](https://aka.ms/teams-dec-deck) |
 | Liveereignisse | [Video](https://aka.ms/teams-live-events-session) | [Foliensatz](https://aka.ms/teams-live-events-deck) |
 | Telefonsystem-Einführung | [Video](https://aka.ms/teams-phone-system) | [Foliensatz](https://aka.ms/teams-phone-system-deck) |
 | Direktes Routing | [Video](https://aka.ms/teams-direct-routing) | [Foliensatz](https://aka.ms/teams-direct-routing-deck) |

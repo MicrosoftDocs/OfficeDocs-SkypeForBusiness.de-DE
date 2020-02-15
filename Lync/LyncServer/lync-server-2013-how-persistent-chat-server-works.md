@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Funktionsweise des beständigen Chat Servers'
+title: 'Lync Server 2013: Funktionsweise des Servers für beständigen Chat'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49684643
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 692f9a40bc2c0fd885fc251a4a792d480a69c57d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ad299ffbe351ff8e8356c535baccf65c00cf0644
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722395"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042292"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="how-persistent-chat-server-works-in-lync-server-2013"></a>Funktionsweise des beständigen Chat Servers in lync Server 2013
+# <a name="how-persistent-chat-server-works-in-lync-server-2013"></a>Funktionsweise von persistent Chat Server in lync Server 2013
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41722395"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-21_
+_**Letztes Änderungsstand des Themas:** 2012-11-21_
 
-Lync Server 2013, beständiger Chat Server ermöglicht Ihnen, an mehrteiligen, themenbasierten Konversationen teilzunehmen, die im Laufe der Zeit fortbestehen. Der beständige Chat Server kann Ihrer Organisation helfen, Folgendes zu tun:
+Lync Server 2013 können Sie mit dem Server für beständigen Chat an mehrteiligen, themenbasierten Unterhaltungen teilnehmen, die im Laufe der Zeit beibehalten werden. Der Server für beständigen Chat kann Ihrer Organisation dabei helfen, Folgendes zu tun:
 
-  - Verbessern der Kommunikation zwischen geografisch verteilten und funktionsübergreifenden Teams
+  - Verbesserung der Kommunikation zwischen geografisch verteilten und funktionsübergreifenden Teams
 
-  - Erweitern des Informations Bewusstseins und der Teilnahme
+  - Förderung von Informationsbewusstsein und aktiver Teilnahme
 
-  - Verbessern der Kommunikation mit ihrer erweiterten Organisation
+  - Verbesserung der Kommunikation über alle Unternehmensbereiche hinweg
 
-  - Reduzieren der Informationsüberlastung
+  - Verringerung der Informationsüberlastung
 
-  - Verbessern des Informations Bewusstseins
+  - Verbesserung des Informationsbewusstseins
 
-  - Verbessern der Verbreitung wichtiger Kenntnisse und Informationen
+  - Gezielte Weitergabe wichtigen Wissens und wichtiger Informationen
 
-Sie können den Server für beständigen Chat als optionale Rolle in lync Server 2013 bereitstellen. Beständige Chat Dienste werden in einem dedizierten Pool ausgeführt, und ein beständiger Chat Serverpool hängt von einem lync Server-Pool ab, um Nachrichten an ihn weiterzuleiten. Clients verwenden eine erweiterbare Chat-Kommunikation über SIP (XCCOS). Die lync Server-Front-End-Server sind so konfiguriert, dass Sie den Datenverkehr an einen beständigen Chat Server Pool weiterleiten.
+Sie können den Server für beständigen Chat mit lync Server 2013 als optionale Rolle bereitstellen. Die Dienste für beständigen Chat werden in einem dedizierten Pool ausgeführt, und ein Server Pool für beständigen Chat hängt von einem lync Server Pool ab, um Nachrichten an ihn weiterzuleiten. Clients verwenden eXtensible Chat Communication Over SIP (XCCOS). Die lync Server-Front-End-Server sind so konfiguriert, dass der Datenverkehr an einen Server Pool für beständigen Chat weitergeleitet wird.
 
 <div>
 
-## <a name="high-level-architecture"></a>Architektur auf höherer Ebene
+## <a name="high-level-architecture"></a>Allgemeine Architektur
 
-Die folgenden Diagramme bieten allgemeine Perspektiven auf die Architektur und Dienste des beständigen Chat Servers.
+Die folgenden Diagramme bieten allgemeine Perspektiven der Architektur und der Dienste für den Server für beständigen Chat.
 
 **Allgemeine Architektur der permanenten Chatserver**
 
-![Server Architektur für beständigen Chat](images/JJ683096.5db6f36f-4461-4d87-ba77-463b7ffe609b(OCS.15).jpg "Server Architektur für beständigen Chat")
+![Server Architektur für beständigen Chat.](images/JJ683096.5db6f36f-4461-4d87-ba77-463b7ffe609b(OCS.15).jpg "Server Architektur für beständigen Chat.")
 
 **Allgemeine Dienste der permanenten Chatserver**
 
-![Server Komponenten für beständigen Chat](images/JJ683096.b6d743aa-3a86-4081-aaef-4fe3257db4e7(OCS.15).jpg "Server Komponenten für beständigen Chat")
+![Server Komponenten für beständigen Chat.](images/JJ683096.b6d743aa-3a86-4081-aaef-4fe3257db4e7(OCS.15).jpg "Server Komponenten für beständigen Chat.")
 
-Auf den Server-Front-End-Servern des beständigen Chats werden zwei Dienste ausgeführt:
+Auf den Front-End-Servern für beständigen Chat Server werden zwei Dienste ausgeführt:
 
   - Beständiger Chat (Kanal)
 
@@ -75,19 +75,19 @@ Auf den Server-Front-End-Servern des beständigen Chats werden zwei Dienste ausg
 
 <div>
 
-## <a name="persistent-chat-channel-service"></a>Beständiger Chat (Kanal)-Dienst
+## <a name="persistent-chat-channel-service"></a>Beständiger Chat- (Kanal-) Dienst
 
-Der Dienst für beständigen Chat (Kanal) ist der Hauptdienst, der für den persistenten Chat Server verantwortlich ist. Dieser Dienst bietet die folgenden Funktionen:
+Der Dienst für beständigen Chat (Kanal) ist der Hauptdienst, der für den Server für beständigen Chat verantwortlich ist. Dieser Dienst bietet folgende Funktionen:
 
   - Annahme eingehender Nachrichten
 
-  - Registrierung und Auflistung der Online-Teilnehmer in einem Chatroom für beständigen Chat
+  - Registrieren und Auflisten von Online-Teilnehmern in einem beständigen Chatroom
 
   - Neuübermittlung von Nachrichten an andere Abonnenten des Kanals
 
-  - Implementiert die Logik für die Kanalverwaltung, die Einladung zu Chatrooms, die Suche und neue Inhalts Benachrichtigungen.
+  - Implementierung der Logik zur Kanalverwaltung, Chatroomeinladung, Suche und Benachrichtigungen über neue Inhalte
 
-Der Dienst für beständigen Chat (Kanal) speichert und greift auf Chatroom-Inhalte und andere Systemmetadaten (Autorisierungsregeln usw.) mithilfe des beständigen Chat Speichers zu. Dieser Dienst speichert Dateien, die in Chatrooms im persistenten Chat-Dateispeicher hochgeladen werden.
+Der Dienst für beständigen Chat (Kanal) speichert und greift auf Chatroom-Inhalte und andere Systemmetadaten (Autorisierungsregeln usw.) mithilfe des Speichers für beständigen Chat zu. In diesem Dienst werden Dateien gespeichert, die in Chatrooms im Dateispeicher für beständigen Chat hochgeladen werden.
 
 </div>
 
@@ -95,91 +95,91 @@ Der Dienst für beständigen Chat (Kanal) speichert und greift auf Chatroom-Inha
 
 ## <a name="compliance-service"></a>Kompatibilitätsdienst
 
-Der Kompatibilitätsdienst ist eine optionale Komponente des Servers für beständigen Chat und ist für das Archivieren von Chat Inhalten und Ereignissen im Compliance Store für beständigen Chat verantwortlich. Wenn es in Ihrer Organisation Vorschriften gibt, nach denen Aktivitäten des beständigen Chats zu archivieren sind, können Sie den optionalen Kompatibilitätsdienst für beständigen Chat bereitstellen. Der Kompatibilitätsdienst wird auf jedem beständigen Chat Server in einem beständigen Chat-Pool installiert. Nach der Konfiguration zeichnet die beständige Chat Server-Compliance Benutzeraktivitäten auf, beispielsweise das beitreten und verlassen von Räumen sowie das Posten und Lesen von Nachrichten. Der Kompatibilitätsdienst speichert Dateien, die im beständigen Chat-Kompatibilitätsdatei Speicher archiviert werden müssen.
+Der Kompatibilitätsdienst ist eine optionale Komponente des Servers für beständigen Chat und ist für das Archivieren von Chat Inhalten und Ereignissen im Compliance-Speicher für beständigen Chat verantwortlich. Wenn Ihre Organisation über Regelungen verfügt, bei denen die Aktivität für beständigen Chat archiviert werden muss, können Sie den optionalen Kompatibilitätsdienst für beständigen Chat bereitstellen. Der Kompatibilitätsdienst wird auf jedem Server für beständigen Chat in einem Pool für beständigen Chat installiert. Bei der Konfiguration von beständigen Chat Servern werden Benutzeraktivitäten wie das Hinzufügen und verlassen von Räumen sowie das Veröffentlichen und Lesen von Nachrichten aufgezeichnet. Der Kompatibilitätsdienst speichert Dateien, die im Compliance-Dateispeicher für beständigen Chat archiviert werden müssen.
 
 </div>
 
 <div>
 
-## <a name="persistent-chat-web-services"></a>Beständige Chat-Webdienste
+## <a name="persistent-chat-web-services"></a>Webdienste für beständigen Chat
 
-Auf den lync Server-Front-End-Servern werden zwei Dienste ausgeführt, die von Internet Informationsdiensten (IIS) abhängen und als Webkomponenten implementiert sind:
+Auf den lync Server-Front-End-Servern werden zwei Dienste ausgeführt, die von Internet Information Services (IIS) abhängen und als Webkomponenten implementiert werden:
 
-  - **Beständige Chat-Webdienste für Datei Upload/-Download** Verantwortlich für das Posten und Abrufen von Dateien aus Chatrooms.
+  - **Webdienste für beständigen Chat für Datei Upload/-Download** Verantwortlich für das Veröffentlichen und Abrufen von Dateien aus Chatrooms.
 
-  - **Beständige Chat-Webdienste für die Chat Raumverwaltung** Verantwortlich dafür, dass Benutzer die Möglichkeit haben, ihre Chatrooms zu verwalten und neue Chatrooms zu erstellen.
-
-</div>
+  - **Webdienste für beständigen Chat für die Chat Raumverwaltung** Verantwortlich für die Bereitstellung von Benutzern, die ihre Chatrooms verwalten und neue Chatrooms erstellen können.
 
 </div>
-
-<div>
-
-## <a name="how-do-i-start-using-persistent-chat-server"></a>Wie beginne ich mit der Verwendung des beständigen Chat Servers?
-
-Der beständige Chat Server ist eine optionale Serverrolle innerhalb der lync Server 2013-Infrastruktur. Wenn Sie die Server Funktion "beständiger Chat" installieren, können alle Benutzer, die über eine Richtlinie von einem Administrator aktiviert wurden, beständigen Chat mit dem lync 2013-Client verwenden.
-
-Ausführliche Informationen zum Bereitstellen eines beständigen Chat Servers und zur Nutzung der Funktionen durch Richtlinien finden Sie unter [Bereitstellen eines beständigen Chat Servers in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
-
-Weitere Informationen zum Konfigurieren von Einstellungen für die Bereitstellung von beständigen Chatservern finden Sie unter [Bereitstellen eines beständigen Chat Servers in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) und [Verwalten von lync Server 2013, beständiger Chat Server](managing-lync-server-2013-persistent-chat-server.md).
-
-Ausführliche Informationen dazu, wie Sie Benutzer nach Richtlinie so aktivieren können, dass Sie die Funktionalität des beständigen Chats in lync 2013-Client nutzen können, finden Sie unter [Bereitstellen eines persistenten Chat Servers in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) und [Verwalten von lync Server 2013, beständiger Chat Server](managing-lync-server-2013-persistent-chat-server.md).
-
-Wenn Sie die Compliance für beständigen Chat bereitgestellt haben, finden Sie weitere Informationen zum Konfigurieren von Einstellungen für die Kompatibilität unter [Verwalten von lync Server 2013, beständiger Chat Server](managing-lync-server-2013-persistent-chat-server.md) .
 
 </div>
 
 <div>
 
-## <a name="persistent-chat-call-flows"></a>Beständige Chat-Anruf Flüsse
+## <a name="how-do-i-start-using-persistent-chat-server"></a>Wie fange ich mit dem Server für beständigen Chat an?
 
-Der beständige Chat-Client kommuniziert mit dem beständigen Chatdienst mithilfe von XCCOS. In den folgenden Sequenzen werden der Anmeldevorgang und ein typisches Raum Abonnement und ein Nachrichten Post Szenario beschrieben.
+Der Server für beständigen Chat ist eine optionale Serverrolle in der lync Server 2013 Infrastruktur. Wenn Sie die Server Rolle "persistent Chat" installieren, können alle Benutzer, die über eine Richtlinie eines Administrators aktiviert wurden, den beständigen Chat mit dem lync 2013-Client verwenden.
 
-<div>
+Ausführliche Informationen zum Bereitstellen des Servers für beständigen Chat und zur Aktivierung der Funktionen durch Richtlinien finden Sie unter [Deploying persistent Chat Server in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
 
-## <a name="sign-in"></a>Anmeldung
+Ausführliche Informationen zum Konfigurieren von Einstellungen für die Bereitstellung von persistent Chat Server finden Sie unter [Deploying persistent Chat Server in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) und [Managing lync Server 2013, persistent Chat Server](managing-lync-server-2013-persistent-chat-server.md).
 
-Das folgende Anruffluss Diagramm und die folgenden Schritte beschreiben den Anmeldeprozess.
+Ausführliche Informationen zum Aktivieren von Benutzern durch Richtlinien, sodass Sie Funktionen für beständigen Chat in lync 2013-Client nutzen können, finden Sie unter [Deploying persistent Chat Server in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) und [Managing lync Server 2013, persistent Chat Server](managing-lync-server-2013-persistent-chat-server.md).
 
-**Beständiger Chat-Client-Anmelde Anruffluss**
-
-![Anruffluss Diagramm für beständigen Chat Server](images/JJ683096.9b3b3c61-caca-42b6-853c-6a09e6ff5c44(OCS.15).jpg "Anruffluss Diagramm für beständigen Chat Server")
-
-1.  Der beständige Chat-Client sendet zunächst ein SIP-Abonnement, um das in-Band-Bereitstellungs Dokument vom Server abzurufen. Dieses Dokument zeigt an, ob der beständige Chat für den Benutzer aktiviert oder deaktiviert ist, und die Liste der SIP-URIs für den Server Pool des beständigen Chats.
-
-2.  Der beständige Chat-Client sendet eine SIP-Einladungsnachricht an den SIP-URI des beständigen Chat Servers, der im vorherigen Schritt abgerufen wurde. Auf die Einladungs Sequenz folgt 200 OK und ACK, und der beständige Chat-Client hat nun eine SIP-Sitzung mit einem beständigen Chat Server-Endpunkt geöffnet. Infolgedessen kommuniziert der beständige Chat-Client mit dem beständigen Chat Server durch Senden von SIP-Info-Nachrichten, die entweder Chat Nachrichten oder Befehle enthalten, die den Server zum Ausführen einer Aktion anfordern. Alle diese Nachrichten werden bestätigt, wenn der 200 OK-oder 503-Dienst nicht verfügbar ist (im Fall einer starken Serverauslastung). Wenn der Client eine 503-Antwort erhält, wird die Nachricht erneut versucht. (In diesem Beispiel ist keine 503-Antwort eingeschlossen.) Wenn der Server die Nachricht oder den Befehl akzeptiert und 200 OK sendet, stellt er eine Antwort an den Client in Form einer separaten SIP-INFO Nachricht zur Verfügung. Diese Antwort enthält einen Verweis auf den ursprünglichen Befehl.
-
-3.  Der beständige Chat-Client sendet eine SIP-INFO-Nachricht mit dem Befehl XCCOS **getServerInfo** . Der beständige Chat Server antwortet mit einer neuen SIP-INFO Nachricht, die Informationen zur Konfiguration des beständigen Chats enthält.
-
-4.  Der beständige Chat-Client sendet eine SIP-INFO-Nachricht, die den Befehl XCCOS **GetAssociations** enthält. Der beständige Chat Server antwortet mit einer neuen SIP-INFO Nachricht, die die Liste der Chatrooms enthält, in denen der Benutzer Mitglied ist. Der beständige Chat-Client wiederholt den Befehl, um die Liste der Räume abzurufen, deren Manager der Benutzer ist.
-
-5.  Der beständige Chat-Client ruft die Liste der befolgten Räume aus dem Dokument "Anwesenheit" ab, in dem jeder befolgte Raum durch eine Kategorie "roomSetting" dargestellt wird. Alle folgenden Chatrooms werden durch eine einzelne SIP-INFO Nachricht verbunden, die den Befehl XCCOS **btreten** enthält, der die Liste der Raum-URIs enthält. Da die Liste der nachverfolgten Räume auf dem Server gespeichert wird, verfügt jeder Client auf einem Computer über die gleiche Liste der folgenden Chatrooms für den angegebenen Benutzer-URI. Der beständige Chat-Client speichert auch die Liste der geöffneten Chatrooms (wenn diese Option vom Benutzer aktiviert ist) in der Registrierung des lokalen Computers und verknüpft jeden dieser Chatrooms bei der Anmeldung durch Senden einer SIP-INFO Nachricht, die den XCCOS- **Join** -Befehl für jeden geöffneten Chatroom enthält. Da diese Liste in der Registrierung aufbewahrt wird, kann Sie bei zwei beständigen Chat-Clients unterschiedlich sein, die auf unterschiedlichen Computern ausgeführt werden.
-
-6.  Für jeden beige tretenen Chatroom sendet der beständige Chat-Client eine SIP-INFO-Nachricht, die den Befehl XCCOS **bccontext** enthält. Der beständige Chat Server antwortet mit einer neuen SIP-INFO Nachricht, die die neueste Chatnachricht im Chatroom enthält.
-
-7.  Der beständige Chat-Client sendet eine SIP-INFO-Nachricht, die eine XCCOS- **GetInv** (also Einladung) enthält, um neue Raum Einladungen anzufordern, die der Kunde noch nicht gesehen hat. In einer separaten SIP-INFO Nachricht gibt der beständige Chat Server eine Liste dieser Chatrooms zurück.
+Wenn Sie die Compliance für beständigen Chat bereitgestellt haben, finden Sie weitere Informationen zum Konfigurieren von Einstellungen für die Kompatibilität unter [Managing lync Server 2013, persistent Chat Server](managing-lync-server-2013-persistent-chat-server.md) .
 
 </div>
 
 <div>
 
-## <a name="subscribe-to-a-room-and-post-a-message"></a>Abonnieren eines Chatrooms und Posten einer Nachricht
+## <a name="persistent-chat-call-flows"></a>Anruf Flüsse für beständigen Chat
+
+Der Client für beständigen Chat kommuniziert mithilfe von XCCOS mit dem Dienst für beständigen Chat. Die folgenden Sequenzen beschreiben den Anmeldevorgang und ein typisches Szenario beim Abonnieren eines Raums und beim Veröffentlichen einer Nachricht.
+
+<div>
+
+## <a name="sign-in"></a>Anmelden
+
+Das folgende Anruffluss Diagramm und die folgenden Schritte beschreiben den Anmeldevorgang.
+
+**Anruffluss für den Client für beständigen Chat**
+
+![Anruffluss Diagramm für beständigen Chat Server.](images/JJ683096.9b3b3c61-caca-42b6-853c-6a09e6ff5c44(OCS.15).jpg "Anruffluss Diagramm für beständigen Chat Server.")
+
+1.  Der Client für beständigen Chat sendet zunächst einen SIP subscribe, um das in-Band-Dokument vom Server abzurufen. Dieses Dokument gibt an, ob der beständige Chat für den Benutzer und die Liste der SIP-URIs für den Server Pool für beständigen Chat aktiviert oder deaktiviert ist.
+
+2.  Der Client für beständigen Chat sendet eine SIP INVITE-Nachricht an den SIP-URI des Servers für beständigen Chat, den Sie im vorherigen Schritt erhalten hat. Die Invite-Sequenz wird von 200 OK und ACK gefolgt, und der Client für beständigen Chat hat jetzt eine SIP-Sitzung mit einem Server Endpunkt für beständigen Chat geöffnet. Folglich kommuniziert der Client für beständigen Chat mit dem Server für beständigen Chat, indem SIP-Info Nachrichten gesendet werden, die entweder Chat Nachrichten oder Befehle enthalten, die den Server anfordern, eine Aktion durchführen. Alle diese Nachrichten werden mit 200 OK oder 503 Dienst nicht verfügbar (das heißt, im Falle einer schweren Serverlast) bestätigt. Wenn der Client eine 503-Antwort erhält, wird die Nachricht wiederholt. (In diesem Beispiel ist keine 503-Antwort enthalten.) Wenn der Server die Nachricht oder den Befehl akzeptiert und 200 OK sendet, stellt er eine Antwort an den Client in Form einer separaten SIP-INFO-Nachricht bereit. Diese Antwort enthält einen Verweis auf den ursprünglichen Befehl.
+
+3.  Der Client für beständigen Chat sendet eine SIP-INFO-Nachricht, die den Befehl XCCOS **getServerInfo** enthält. Der Server für beständigen Chat antwortet mit einer neuen SIP-INFO-Nachricht, die Informationen zur Konfiguration des beständigen Chat Diensts enthält.
+
+4.  Der Client für beständigen Chat sendet eine SIP-INFO-Nachricht, die den Befehl XCCOS **GetAssociations** enthält. Der Server für beständigen Chat antwortet mit einer neuen SIP-INFO-Nachricht, die die Liste der Räume enthält, in denen der Benutzer Mitglied ist. Der Client für beständigen Chat wiederholt den Befehl, um die Liste der Räume abzurufen, von denen der Benutzer ein Vorgesetzter ist.
+
+5.  Der Client für beständigen Chat Ruft die Liste der befolgten Räume aus dem Dokument "Presence" ab, wobei jeder gefolgte Raum durch eine Kategorie "roomSetting" dargestellt wird. Der Beitritt zu allen Räumen, denen der Benutzer folgt, geschieht durch eine einzige SIP INFO-Nachricht, die den XCCOS-Befehl **bjoin** mit der Liste der Raum-URIs enthält. Da die Liste der Räume, denen der Benutzer folgt, auf dem Server gespeichert ist, verfügt jeder Client auf jedem Computer für die angegebene Benutzer-URI über dieselbe Liste der Räume, denen der Benutzer folgt. Der Client für beständigen Chat behält auch die Liste der geöffneten Räume (falls diese Option vom Benutzer aktiviert ist) in der Registrierung des lokalen Computers bei und verbindet jeden dieser Räume bei der Anmeldung, indem er eine SIP-INFO-Nachricht sendet, die den XCCOS- **Join** -Befehl für jeden geöffneten Raum enthält. Da diese Liste in der Registrierung aufbewahrt wird, kann Sie in zwei auf unterschiedlichen Computern ausgeführten Clients für beständigen Chat unterschiedlich sein.
+
+6.  Für jeden beigefügten Chatroom sendet der Client für beständigen Chat eine SIP-INFO-Nachricht, die den Befehl XCCOS **bccontext** enthält. Der Server für beständigen Chat antwortet mit einer neuen SIP-INFO-Nachricht, die die neueste Chat Nachricht im Chatroom enthält.
+
+7.  Der Client für beständigen Chat sendet eine SIP-INFO-Nachricht, die einen XCCOS- **GetInv** (also, Get-Einladungs Befehl) enthält, um neue Raum Einladungen anzufordern, die der Client noch nicht gesehen hat. In einer separaten SIP-INFO-Nachricht gibt der Server für beständigen Chat eine Liste dieser Räume zurück.
+
+</div>
+
+<div>
+
+## <a name="subscribe-to-a-room-and-post-a-message"></a>Abonnieren eines Raums und Veröffentlichen einer Nachricht
 
 Das folgende Anruffluss Diagramm und die folgenden Schritte beschreiben ein typisches Raum Abonnement und ein Nachrichten Post Szenario.
 
-**Beständiger Chat-Client Raum-Abonnement und Nachrichten Buchung-Anruffluss**
+**Beständiger Chat-Client Raum Abonnement und Nachrichten Übermittlungs Anruffluss**
 
-![Szenario für Raum Abonnements und Nachrichten](images/JJ683096.2d3c417e-c91b-42bd-964e-285b72bb2e44(OCS.15).jpg "Szenario für Raum Abonnements und Nachrichten")
+![Szenario für Raum Abonnements und Nachrichten Bereitstellung.](images/JJ683096.2d3c417e-c91b-42bd-964e-285b72bb2e44(OCS.15).jpg "Szenario für Raum Abonnements und Nachrichten Bereitstellung.")
 
-1.  Im beständigen Chat-Client klickt Benutzer1 auf **an einem Chatroom teilnehmen**, klickt auf **Suchen**und gibt dann einige Suchkriterien ein. Der beständige Chat-Client sendet eine SIP-INFO-Nachricht, die den Befehl XCCOS **chansrch** (Raum Suche) zusammen mit den Suchkriterien enthält. Der beständige Chat Server fragt die Back-End-Datenbank ab und antwortet in einer neuen SIP-INFO Nachricht, die eine Liste der verfügbaren Räume enthält, die den Suchkriterien entsprechen.
+1.  Im Client für beständigen Chat klickt user1 auf **einem Chatroom beitreten**, klickt auf **Suche**und gibt dann einige Suchkriterien ein. Der Client für beständigen Chat sendet eine SIP-INFO-Nachricht, die den Befehl XCCOS **chansrch** (Raumsuche) enthält, sowie die Suchkriterien. Der Server für beständigen Chat fragt die Back-End-Datenbank ab und antwortet in einer neuen SIP-INFO-Nachricht, die eine Liste der verfügbaren Räume enthält, die den Suchkriterien entsprechen.
 
-2.  Benutzer1 wählt den Chatroom aus, dem er beitreten möchte, und klickt dann auf **diesem Chatroom folgen**. Der beständige Chat-Client sendet beständigen Chat Server eine SIP-INFO-Nachricht, die den XCCOS- **Join** -Befehl und die Raum-ID des Chatrooms enthält, den der Benutzer ausgewählt hat. Der beständige Chat Server antwortet mit einer SIP-INFO Nachricht, die die Bereitstellungsdaten enthält.
+2.  Benutzer1 wählt den Chatroom aus, den er betreten möchte, und klickt auf **Diesem Raum folgen**. Der Client für beständigen Chat sendet beständigen Chat Server eine SIP-INFO-Nachricht, die den XCCOS- **Join** -Befehl und die Raum-ID des Chatrooms enthält, den der Benutzer ausgewählt hat. Der Server für beständigen Chat antwortet mit einer SIP-INFO-Nachricht, die die Bereitstellung von Daten enthält.
 
-3.  Der beständige Chat-Client sendet beständigen Chat Server eine SIP-INFO-Nachricht, die den Befehl XCCOS **bccontext** (Backchat-Kontext) enthält. Der beständige Chat Server Ruft das Chat-Protokoll ab und gibt es in einer separaten SIP-INFO-Nachricht an den beständigen Chat-Client zurück. An diesem Punkt wechselt der Benutzer in den Chatroom und kann teilnehmen.
+3.  Der persistent Chat-Client sendet beständigen Chat Server eine SIP-INFO-Nachricht, die den XCCOS **bccontext** -Befehl (Backchat-Kontext) enthält. Der Server für beständigen Chat Ruft den Chatverlauf ab und gibt ihn in einer separaten SIP-INFO-Nachricht an den Client für beständigen Chat zurück. An diesem Punkt betritt der Benutzer den Chatroom und ist bereit zur Teilnahme.
 
-4.  Benutzer1 gibt eine neue Nachricht ein und klickt dann auf **senden**. Der beständige Chat-Client Bucht die Nachricht in einem Chatroom in einem SIP-Info-XCCOS **grpchat** Befehl. Der beständige Chat Server speichert eine Kopie dieser neuen Nachricht in der Back-End-Datenbank des beständigen Chats.
+4.  Benutzer1 gibt eine neue Nachricht ein und klickt anschließend auf **Senden**. Der Client für beständigen Chat sendet die Nachricht in einem SIP-Info-XCCOS- **grpchat** -Befehl an den Chatroom. Der Server für beständigen Chat speichert eine Kopie dieser neuen Nachricht in der Back-End-Datenbank des beständigen Chats.
 
-5.  Der beständige Chat Server sendet eine separate Kopie der SIP-Info-XCCOS **grpchat** -Nachricht an User2, der den Chatroom bereits betreten hat.
+5.  Der Server für beständigen Chat sendet eine separate Kopie der **grpchat** -Nachricht für SIP-Informationen XCCOS an Benutzer2, die bereits in den Chatroom eingetreten ist.
 
 </div>
 
@@ -189,17 +189,17 @@ Das folgende Anruffluss Diagramm und die folgenden Schritte beschreiben ein typi
 
 ## <a name="persistent-chat-compliance-call-flows"></a>Compliance-Anruf Flüsse für beständigen Chat
 
-Der Server für beständigen Chat verwendet Message Queuing (auch als MSMQ bezeichnet) und eine zusätzliche Kompatibilitätsdatenbank (mgccomp), um Kompatibilitätsdaten zu verarbeiten. Als Beispiel für die Verarbeitung von Kompatibilitäts Ereignissen beschreibt die folgende Abfolge von Ereignissen, wie ein Nachrichten Post-Ereignis verarbeitet wird.
+Der Server für beständigen Chat verwendet Message Queuing (auch als MSMQ bezeichnet) und eine zusätzliche Kompatibilitätsdatenbank (mgccomp), um Kompatibilitätsdaten zu verarbeiten. Als Beispiel dafür, wie Kompatibilitätsereignisse verarbeitet werden, beschreibt die folgende Ereignissequenz, wie ein Ereignis "Veröffentlichen einer Nachricht" verarbeitet wird.
 
-1.  Ein Benutzer Bucht eine Nachricht in einem Raum.
+1.  Ein Benutzer schreibt eine Nachricht in einem Chatroom.
 
-2.  Der Server für beständigen Chat platziert Informationen, die sich auf das Ereignis beziehen, in einer privaten Message Queuing-Warteschlange.
+2.  Der Server für beständigen Chat platziert Informationen in Bezug auf das Ereignis in einer privaten Message Queuing-Warteschlange.
 
-3.  Der beständige Chat-Kompatibilitätsserver liest dieses Ereignis aus der Warteschlange und platziert es zur späteren Verarbeitung in der mgccomp-Datenbank.
+3.  Compliance-Server für beständigen Chat liest dieses Ereignis aus der Warteschlange und platziert es zur späteren Verarbeitung in der mgccomp-Datenbank.
 
-4.  Der beständige Chat-Kompatibilitätsserver verarbeitet in regelmäßigen Abständen eine Reihe von Ereignissen in der Datenbank und sendet Sie zur Verarbeitung an den Compliance-Adapter für beständigen Chat.
+4.  Der Kompatibilitätsserver für beständigen Chat verarbeitet regelmäßig eine Reihe von Ereignissen in der Datenbank und sendet Sie zur Verarbeitung an den Kompatibilitätsadapter für beständigen Chat.
 
-5.  Wenn der Adapter die Daten erfolgreich verarbeitet, löscht der beständige Chat-Kompatibilitätsserver die Ereignisse aus der mgccomp-Datenbank.
+5.  Wenn der Adapter die Daten erfolgreich verarbeitet, löscht der Kompatibilitätsserver für beständigen Chat die Ereignisse aus der mgccomp-Datenbank.
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bf88529734530e70c4d0536d5337395ff0742d2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d68f13c636b24729db989f25da7055333968cbbd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740745"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043277"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-call-admission-control-in-lync-server-2013"></a>Prüfliste für die Bereitstellung der Anrufsteuerung in Lync Server 2013
+# <a name="deployment-checklist-for-call-admission-control-in-lync-server-2013"></a>Prüfliste für die Bereitstellung der Anrufsteuerung in lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41740745"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-08_
+_**Letztes Änderungsstand des Themas:** 2012-10-08_
 
-Damit Sie effektiv für die Anrufsteuerung (CAC) planen können, müssen Sie Folgendes in Frage stellen:
+Für eine effektive Planung der Anrufsteuerung müssen die folgenden Aspekte berücksichtigt werden:
 
-  - Voraussetzungen für die Bereitstellung von CAC.
+  - Voraussetzungen für die Bereitstellung der Anrufsteuerung
 
-  - Informationen, die für CAC-und Konfigurationsentscheidungen erforderlich sind, die Sie im Vorfeld der Bereitstellung vornehmen müssen.
+  - Erforderliche Informationen für die Anrufsteuerung und erforderliche Entscheidungen zur Konfiguration, bevor Sie mit der Bereitstellung beginnen.
 
 <div>
 
 ## <a name="deployment-prerequisites-for-call-admission-control"></a>Voraussetzungen für die Bereitstellung der Anrufsteuerung
 
-Bevor Sie die Anrufsteuerung bereitstellen, müssen Sie Ihre lync Server 2013-internen Server bereits bereitgestellt haben, einschließlich eines Front-End-Pools oder eines Standard Edition-Servers.
+Bevor Sie die Anrufsteuerung bereitstellen, müssen Sie Ihre lync Server 2013 internen Server bereits bereitgestellt haben, einschließlich einer Front-End-Pool oder einer Standard Edition-Server.
 
 </div>
 
 <div>
 
-## <a name="information-requirements-for-call-admission-control"></a>Informationsanforderungen für die Anrufsteuerung
+## <a name="information-requirements-for-call-admission-control"></a>Erforderliche Informationen für die Anrufsteuerung
 
 In der folgenden Tabelle sind die erforderlichen Informationen für die Bereitstellung der Anrufsteuerung zusammengefasst.
 
-### <a name="information-requirements-for-call-admission-control-deployment"></a>Informationsanforderungen für die Bereitstellung von Anruf Zulassungs Steuerungen
+### <a name="information-requirements-for-call-admission-control-deployment"></a>Erforderliche Informationen für die Bereitstellung der Anrufsteuerung
 
 <table>
 <colgroup>
@@ -74,61 +74,61 @@ In der folgenden Tabelle sind die erforderlichen Informationen für die Bereitst
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Für Ihre Organisation erforderliche lync Server-Funktionen</p></td>
+<td><p>Lync Server von Ihrer Organisation benötigten Funktionen</p></td>
 <td><ul>
-<li><p>Von Ihrer Organisation unterstützte Funktionen</p></li>
-<li><p>Funktionen, die für einzelne Benutzer aktiviert werden können</p></li>
+<li><p>Funktionen, die von Ihrer Organisation unterstützt werden sollen</p></li>
+<li><p>Funktionen, die für einzelne Benutzer aktiviert werden sollen</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Definieren der Anforderungen Ihrer Organisation für die Anrufsteuerung in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Definieren der Anforderungen für die Anrufsteuerung in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Topologien und Komponenten, die bereitgestellt werden sollen</p></td>
 <td><ul>
-<li><p>Mit CAC verknüpfte Komponenten werden automatisch als Teil von lync Server 2013 installiert</p></li>
+<li><p>Zugehörige Komponenten im Zusammenhang mit der Anrufsteuerung werden automatisch im Rahmen von lync Server 2013 installiert</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Definieren der Anforderungen Ihrer Organisation für die Anrufsteuerung in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-defining-your-requirements-for-call-admission-control.md">Definieren der Anforderungen für die Anrufsteuerung in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Systemanforderungen</p></td>
 <td><ul>
 <li><p>Hardwareanforderungen</p></li>
 <li><p>Softwareanforderungen</p></li>
-<li><p>Anforderungen für die Übersetzung</p></li>
+<li><p>Anforderungen für die gemeinsame Ausführung</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-determining-your-system-requirements.md">Ermitteln Ihrer Systemanforderungen für Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-determining-your-system-requirements.md">Bestimmen der Systemanforderungen für lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Infrastrukturanforderungen</p></td>
 <td><ul>
-<li><p>Für CAC sind keine spezifischen Infrastrukturanforderungen erforderlich</p></li>
+<li><p>Für die Anrufsteuerung liegen keine besonderen Infrastrukturanforderungen vor</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-infrastructure-requirements-for-call-admission-control.md">Infrastrukturanforderungen für die Anrufsteuerung in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-infrastructure-requirements-for-call-admission-control.md">Infrastrukturanforderungen für die Anrufsteuerung in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Netzwerkschnittstellen Anforderungen</p></td>
+<td><p>Netzwerkschnittstellenanforderungen</p></td>
 <td><ul>
-<li><p>Interne und externe Schnittstelleninformationen</p></li>
-<li><p>Routing Informationen (einschließlich Informationen im NextHop-Blog unter <a href="http://go.microsoft.com/fwlink/p/?linkid=203149">http://go.microsoft.com/fwlink/p/?LinkId=203149</a>dem Kundenantwort Kanal des Microsoft lync Server-Teams)</p></li>
+<li><p>Informationen zu internen und externen Schnittstellen</p></li>
+<li><p>Routing Informationen (einschließlich Informationen im NextHop-Blog unter <a href="http://go.microsoft.com/fwlink/p/?linkid=203149">http://go.microsoft.com/fwlink/p/?LinkId=203149</a>, Microsoft lync Server Team Kundenantwort Kanal)</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-deploying-external-user-access.md">Bereitstellen des Zugriffs durch externe Benutzer in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-deploying-external-user-access.md">Bereitstellen von externem Benutzer Zugriff in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bereitstellungsstrategie</p></td>
 <td><ul>
-<li><p>Bereitstellungssequenz</p></li>
+<li><p>Bereitstellungsreihenfolge</p></li>
 <li><p>Arbeitsgruppe oder Domäne</p></li>
 <li><p>Sicherheit</p></li>
-<li><p>Überwachen und überwachen</p></li>
-<li><p>Hardware Überlegungen</p></li>
+<li><p>Überwachung und Prüfung</p></li>
+<li><p>Überlegungen zur Hardware</p></li>
 </ul></td>
-<td><p><a href="lync-server-2013-best-practices-for-call-admission-control.md">Bewährte Methoden für die Anrufsteuerung in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-best-practices-for-call-admission-control.md">Bewährte Methoden für die Anrufsteuerung in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Bereitstellungsprozess</p></td>
 <td><ul>
 <li><p>Voraussetzungen</p></li>
-<li><p>Informationsanforderungen</p></li>
-<li><p>Verfahren und Verfahren</p></li>
+<li><p>Erforderliche Informationen</p></li>
+<li><p>Prozess und Verfahren</p></li>
 </ul></td>
 <td><p><a href="lync-server-2013-configure-call-admission-control.md">Konfigurieren der Anrufsteuerung in lync Server 2013</a></p></td>
 </tr>

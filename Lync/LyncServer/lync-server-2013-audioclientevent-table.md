@@ -12,20 +12,20 @@ ms:contentKeyID: 48185967
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44d5146b334af83618ca2dd6261a18e72708f4f5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 53f43bdae2fd134e851c93be958aa671657489e1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722625"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044597"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="audioclientevent-table-in-lync-server-2013"></a>AudioClientEvent-Tabelle in Lync Server 2013
+# <a name="audioclientevent-table-in-lync-server-2013"></a>AudioClientEvent-Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41722625"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-17_
+_**Letztes Änderungsstand des Themas:** 2012-10-17_
 
-Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Audioanruf. In der Regel verfügt ein Anruf über zwei Datensätze, einen für den Anrufer und einen für den aufgerufenen.
+Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Audio-Anruf. Normalerweise verfügt ein Anruf über zwei Datensätze, einen für den Anrufer und einen für den angerufenen.
 
 
 <table>
@@ -58,140 +58,140 @@ Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Audioan
 <tbody>
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td><p>Primary</p></td>
-<td><p>Auf die <a href="lync-server-2013-medialine-table.md">in der Tabelle medialinie in lync Server 2013</a>verwiesen wird.</p></td>
+<td><p><a href="lync-server-2013-medialine-table.md">In lync Server 2013 auf die Medientabelle</a>verwiesen.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Auf die <a href="lync-server-2013-medialine-table.md">in der Tabelle medialinie in lync Server 2013</a>verwiesen wird.</p></td>
+<td><p><a href="lync-server-2013-medialine-table.md">In lync Server 2013 auf die Medientabelle</a>verwiesen.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaLineLabel</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Primary</p></td>
-<td><p>Auf die <a href="lync-server-2013-medialine-table.md">in der Tabelle medialinie in lync Server 2013</a>verwiesen wird.</p></td>
+<td><p><a href="lync-server-2013-medialine-table.md">In lync Server 2013 auf die Medientabelle</a>verwiesen.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromCaller</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td><p>Primary</p></td>
 <td><p>0: Daten des angerufenen</p>
 <p>1: Daten des Anrufers</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>NetworkSendQualityEventRatio</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td><p> </p></td>
-<td><p>Prozentsatz der Sitzung, für die das NetworkSendQuality-Ereignis für den Zustand "falsch" ausgelöst wurde.</p>
-<p>Die Netzwerkqualität in Bezug auf Jitter oder Paketverlust ist schwerwiegend und beeinträchtigt die Qualität des gesendeten Audiosignals.</p></td>
+<td><p>Prozentsatz der Sitzung, für die das NetworkSendQuality-Ereignis für den Zustand "schlecht" ausgelöst wurde.</p>
+<p>Die Netzwerkqualität in Bezug auf Jitter oder Paketverlust ist gravierend und beeinträchtigt die Qualität der gesendeten Audiodaten.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NetworkReceiveQualityEventRatio</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td><p> </p></td>
-<td><p>Prozentsatz der Sitzung, für die das ReceiveSendQuality-Ereignis für den Zustand "falsch" ausgelöst wurde.</p>
-<p>Die Netzwerkqualität in Bezug auf Jitter oder Paketverlust ist schwerwiegend und beeinträchtigt die Qualität des empfangenen Audiosignals.</p></td>
+<td><p>Prozentsatz der Sitzung, für die das ReceiveSendQuality-Ereignis für den Zustand "schlecht" ausgelöst wurde.</p>
+<p>Die Netzwerkqualität in Bezug auf Jitter oder Paketverlust ist gravierend und beeinträchtigt die Qualität der empfangenen Audiodaten.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>NetworkDelayEventRatio</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td><p> </p></td>
-<td><p>Prozentsatz der Sitzung, für die das Delay-Ereignis für den Zustand "falsch" ausgelöst wurde. Die Netzwerklatenz ist schwerwiegend und beeinträchtigt die Erfahrung, indem Sie die interaktive Kommunikation verhindert.</p></td>
+<td><p>Prozentsatz der Sitzung, für die das Delay-Ereignis für den Zustand "schlecht" ausgelöst wurde. Die Netzwerkwartezeit ist schwerwiegend und beeinträchtigt die Erfahrung, indem interaktive Kommunikation verhindert wird.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NetworkBandwidthLowEventRatio</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td><p> </p></td>
-<td><p>Prozentsatz der Sitzung, für die das LowBandwidth-Ereignis für den Zustand "falsch" ausgelöst wurde. Die verfügbare Bandbreite reicht für ein akzeptables Spracherlebnis nicht aus.</p></td>
+<td><p>Prozentsatz der Sitzung, für die das LowBandwidth-Ereignis für den Zustand "schlecht" ausgelöst wurde. Die verfügbare Bandbreite reicht für eine akzeptable Spracherfahrung nicht aus.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CPUInsufficientEventRatio</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td><p> </p></td>
-<td><p>Prozentsatz der Sitzung das unzureichende CPU-Ereignis wurde für den Zustand "falsch" ausgelöst. Es gibt unzureichende CPU-Zyklen für die Verarbeitung mit den aktuellen Modalitäten und Anwendungen, die verwendet werden. Dies verursacht Verzerrungen beim Audiokanal.</p></td>
+<td><p>Prozentsatz der Sitzung, für die das unzureichende CPU-Ereignis für den Zustand "schlecht" ausgelöst wurde. Es gibt unzureichende CPU-Zyklen für die Verarbeitung mit den aktuellen Modalitäten und Anwendungen, die verwendet werden. Dadurch werden Verzerrungen beim Audiokanal verursacht.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceHalfDuplexAECEventRatio</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td><p> </p></td>
-<td><p>Prozentsatz der Sitzung, für die das DeviceHalfDuplexAEC-Ereignis für den Zustand "falsch" ausgelöst wurde. Um Echo zu verhindern, hat das System die Eingabe Hälfte Duplex.</p></td>
+<td><p>Prozentsatz der Sitzung, für die das DeviceHalfDuplexAEC-Ereignis für den Zustand "schlecht" ausgelöst wurde. Um Echo zu verhindern, hat das System die Eingabe Halbduplex.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceRenderNotFunctioningEventRatio</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td><p> </p></td>
-<td><p>Prozentsatz der Sitzung, für die das DeviceRenderNotFunctioning-Ereignis für den Zustand "falsch" ausgelöst wurde. Das Rendering-Gerät, das derzeit für die Sitzung verwendet wird, funktioniert nicht ordnungsgemäß. Dies kann zu einseitigen Audioproblemen führen.</p></td>
+<td><p>Prozentsatz der Sitzung, für die das DeviceRenderNotFunctioning-Ereignis für den Zustand "schlecht" ausgelöst wurde. Das Rendering-Gerät, das derzeit für die Sitzung verwendet wird, funktioniert nicht ordnungsgemäß. Dies kann zu unidirektionalen Audioproblemen führen.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceCaptureNotFunctioningEventRatio</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td><p> </p></td>
-<td><p>Prozentsatz der Sitzung, für die das DeviceCaptureNotFunctioning-Ereignis für den Zustand "falsch" ausgelöst wurde. Das Aufnahmegerät, das derzeit für die Sitzung verwendet wird, funktioniert nicht ordnungsgemäß. Dies kann zu einseitigen Audioproblemen führen.</p></td>
+<td><p>Prozentsatz der Sitzung, für die das DeviceCaptureNotFunctioning-Ereignis für den Zustand "schlecht" ausgelöst wurde. Das Aufnahmegerät, das derzeit für die Sitzung verwendet wird, funktioniert nicht ordnungsgemäß. Dies kann zu unidirektionalen Audioproblemen führen.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceGlitchesEventRatio</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td><p> </p></td>
-<td><p>Prozentsatz der Sitzung, für die das DeviceGlitches-Ereignis für den Zustand "falsch" ausgelöst wurde. Bei der Wiedergabe von Audio, die zu Verzerrungen führt, gibt es schwere Störungen. Diese Störungen können durch Treiber Probleme, verzögerte Prozeduraufrufe (DPC) Storm (Treiber) und eine höhere CPU-Auslastung verursacht werden.</p></td>
+<td><p>Prozentsatz der Sitzung, für die das DeviceGlitches-Ereignis für den Zustand "schlecht" ausgelöst wurde. Es gibt schwere Störungen bei der Wiedergabe von Audio, die Verzerrungen verursacht. Diese Störungen können durch Treiber Probleme, verzögerte Prozeduraufrufe (DPC) Storm (Treiber) und eine hohe CPU-Auslastung verursacht werden.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceLowSNREventRatio</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td><p> </p></td>
-<td><p>Prozentsatz der Sitzung, für die das DeviceLowSNR-Ereignis für den Zustand "falsch" ausgelöst wurde. Die Aufnahmequalität ist sehr schlecht, entweder sehr laut oder der Nutzer spricht zu weit vom Mikrofon entfernt. Dies führt zu Verzerrungen.</p></td>
+<td><p>Prozentsatz der Sitzung, für die das DeviceLowSNR-Ereignis für den Zustand "schlecht" ausgelöst wurde. Die Aufnahmequalität ist sehr schlecht, entweder sehr laut, oder der Benutzer redet zu weit vom Mikrofon entfernt. Dadurch werden Verzerrungen verursacht.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceLowSpeechLevelEventRatio</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td><p> </p></td>
-<td><p>Prozentsatz der Sitzung, für die das DeviceLowSpeechLevel-Ereignis für den Zustand "falsch" ausgelöst wurde. Der Sprachpegel des Benutzers ist zu gering, und das System kann ihn nicht weiter erhöhen. Dies kann entweder zu Verzerrungen führen oder als unidirektionale Audiowiedergabe wahrgenommen werden.</p></td>
+<td><p>Prozentsatz der Sitzung, für die das DeviceLowSpeechLevel-Ereignis für den Zustand "schlecht" ausgelöst wurde. Der Sprachpegel des Benutzers ist zu niedrig, und das System kann ihn nicht weiter erweitern. Dies kann entweder zu Verzerrungen führen oder als unidirektionale Audiodaten wahrgenommen werden.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceClippingEventRatio</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td><p> </p></td>
-<td><p>Prozentsatz der Sitzung, für die das DeviceClipping-Ereignis für den Zustand "falsch" ausgelöst wurde.</p>
-<p>Wenn das Mikrofon in der Nähe von Sprachausgabe Clips abgespielt wird, hören Sie Verzerrungen durch Clipping. Es ist wichtig, das Mikrofon-Clipping in der Nähe zu vermeiden.</p></td>
+<td><p>Prozentsatz der Sitzung, für die das DeviceClipping-Ereignis für den Zustand "schlecht" ausgelöst wurde.</p>
+<p>Wenn das Mikrofon in der Nähe von Sprachclips abgespielt wird, hört die Verzerrung aufgrund des Clippings auf der Fernseite. Es ist wichtig, Near-End-Mikrofon Clipping zu vermeiden.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceEchoEventRatio</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td><p> </p></td>
-<td><p>Prozentsatz der Sitzung, für die das DeviceEchoEvent-Ereignis für den Zustand "falsch" ausgelöst wurde. Gerät oder Setup verursacht Echo über die Fähigkeit des Systems hinaus, dies zu kompensieren.</p></td>
+<td><p>Prozentsatz der Sitzung, für die das Echo Ereignis am-Ereignis für den Zustand "schlecht" ausgelöst wurde. Das Gerät oder Setup bewirkt, dass ECHO über die Fähigkeit des Systems hinaus kompensiert wird.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceNearEndToEchoRatioEventRatio</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td><p> </p></td>
-<td><p>Prozentsatz der Sitzung, für die das DeviceNearEndToEchoRatio-Ereignis für den Zustand "falsch" ausgelöst wurde. Die Sprache des Benutzers ist im Vergleich zu dem aufgenommenen Echo zu gering, was sich auf die Benutzererfahrung auswirkt, weil dadurch die Benutzerfreundlichkeit eingeschränkt wird. Verringern Sie die Lautstärke des Mikrofons, und bewegen Sie das Mikrofon näher an den Redner.</p></td>
+<td><p>Prozentsatz der Sitzung, für die das DeviceNearEndToEchoRatio-Ereignis für den Zustand "schlecht" ausgelöst wurde. Die Sprache des Benutzers ist im Vergleich zu dem erfassten Echo zu niedrig, was sich auf die Benutzererfahrung auswirkt, da Sie die Benutzerfreundlichkeit beschränkt, die für die Unterbrechung eines Benutzers gilt. Verringern Sie die Lautsprecherlautstärke, und bringen Sie das Mikrofon näher an den Talker an.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceMultipleEndpointsEventCount</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Häufigkeit, mit der während der Sitzung das DeviceMultipleEndpoints-Ereignis für den Zustand "falsch" ausgelöst wurde. Mehrere Audio-Endpunkte in derselben Sitzung wurden erkannt, und das System hat durch Reduzieren der rendermenge kompensiert.</p></td>
+<td><p>Anzahl der Male während der Sitzung, für die das DeviceMultipleEndpoints-Ereignis für den Zustand "schlecht" ausgelöst wurde. Mehrere Endpunkte in derselben Sitzung wurden erkannt, und das System hat durch Reduzierung des Render-Volumens kompensiert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceHowlingEventCount</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Häufigkeit, mit der während der Sitzung das DeviceHowlingEvent-Ereignis für den Zustand "falsch" ausgelöst wurde. Audiofeedback-Schleife erkannt (verursacht durch mehrere Endpunkte, die einen Audiopfad freigeben).</p></td>
+<td><p>Anzahl der Male während der Sitzung, für die das DeviceHowlingEvent-Ereignis für den Zustand "schlecht" ausgelöst wurde. Audiofeedback-Schleife erkannt (verursacht durch mehrere Endpunkte, die den Audiopfad gemeinsam nutzen).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceRenderZeroVolumeEventRatio</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td></td>
-<td><p>Der Prozentsatz der Sitzung, für die das DeviceRenderZeroVolume-Ereignis ausgelöst wurde, weil es sich im Zustand "ungültig" befand. Das Render-Gerät wurde auf NULL Lautstärke eingestellt.</p>
+<td><p>Prozentsatz der Sitzung, für die das DeviceRenderZeroVolume-Ereignis ausgelöst wurde, weil es sich im Zustand "schlecht" befunden hat. Das Render-Gerät wurde auf NULL Volumen festgelegt.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceRenderMuteEventRatio</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td></td>
-<td><p>Der Prozentsatz der Sitzung, für die das DeviceRenderMute-Ereignis ausgelöst wurde, weil es sich im Zustand "ungültig" befand. Das Render-Gerät war stumm geschaltet.</p>
+<td><p>Prozentsatz der Sitzung, für die das DeviceRenderMute-Ereignis ausgelöst wurde, weil es sich im Zustand "schlecht" befunden hat. Das Render-Gerät wurde stumm geschaltet.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 </tbody>

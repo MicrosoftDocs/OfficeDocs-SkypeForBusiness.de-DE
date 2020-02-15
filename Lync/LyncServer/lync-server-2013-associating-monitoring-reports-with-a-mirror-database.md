@@ -12,16 +12,16 @@ ms:contentKeyID: 51541467
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93e5f10e3e4bd3c063cafcb2fd984098482ebf22
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82d1ec6b1256326cca9e74d47d27820529050721
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722755"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044747"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,47 +35,47 @@ ms.locfileid: "41722755"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-02-07_
+_**Letztes Änderungsstand des Themas:** 2014-02-07_
 
-Wenn Sie einen Spiegel für Ihre Überwachungsdatenbank konfigurieren, dient diese Spiegeldatenbank als primäre Datenbank, wenn es zu einem Failover kommt. Wenn Sie jedoch lync Server-Überwachungsberichte verwenden und ein Failover erfolgt, stellen Sie möglicherweise fest, dass ihre Überwachungsberichte keine Verbindung mit der Spiegeldatenbank herstellen. Das liegt daran, dass Sie bei der Installation von Überwachungsberichten nur den Standort der primären Datenbank und nicht den Standort der Spiegeldatenbank angeben.
+Wenn Sie eine Spiegelung für Ihre Überwachungsdatenbank konfigurieren, wird diese Spiegeldatenbank beim Auftreten eines Failovers als primäre Datenbank übernommen. Wenn Sie jedoch lync Server-Überwachungsberichte verwenden und ein Failover erfolgt, stellen Sie möglicherweise fest, dass ihre Überwachungsberichte keine Verbindung mit der Spiegeldatenbank herstellen. Dies liegt daran, dass Sie bei der Installation von Überwachungsberichten nur den Speicherort der primären Datenbank angeben. Sie geben nicht den Speicherort der Spiegeldatenbank an.
 
-Damit die Überwachungsberichte ein automatisches Failover zur Spiegeldatenbank durchführen, müssen Sie die Spiegeldatenbank als „Failover-Partner“ zu den zwei Datenbanken hinzufügen, die von den Überwachungsberichten verwendet werden (eine Datenbank für Anrufdetail-Datensatzdaten und die andere für QoE-Daten). (Beachten Sie, dass dieser Schritt nach der Installation der Überwachungsberichte durchgeführt werden sollte.) Sie können die Failover-Partnerinformationen hinzufügen, indem Sie die von den zwei Datenbanken verwendeten Verbindungzeichenfolgenwerte manuell bearbeiten. Verwenden Sie dazu das folgende Verfahren:
+Um Überwachungsberichte automatisch in das Failover auf die Spiegeldatenbank zu übertragen, müssen Sie die Spiegeldatenbank als einen "Failoverpartner" zu den beiden Datenbanken hinzufügen, die von Überwachungsberichten verwendet werden (eine Datenbank für Datensatzdaten des Anrufdetails und die andere für die Qualität von QoE-Daten (Experience)). (Beachten Sie, dass dieser Schritt ausgeführt werden sollte, nachdem Sie Überwachungsberichte installiert haben.) Sie können die Failover-Partner Informationen hinzufügen, indem Sie die Verbindungszeichenfolgen-Werte, die von diesen beiden Datenbanken verwendet werden, manuell bearbeiten. Führen Sie hierzu das folgende Verfahren aus:
 
-1.  Verwenden Sie Internet Explorer, um die **SQL Server Reporting Services**-Startseite zu öffnen. Die URL für die Reporting Services-Startseite enthält Folgendes:
+1.  Verwenden Sie Internet Explorer, um die **SQL Server Reporting Services** -Startseite zu öffnen. Die URL der Reporting Services-Startseite umfasst Folgendes:
     
-      - Den Präfix **http:**
+      - Das Präfix " **http:** ".
     
-      - Den vollqualifizierten Domänennamen (FQDN) des Computers, auf dem die Reporting Services installiert sind (z. B. **atl-sql-001.litwareinc.com**)
+      - Der vollqualifizierte Domänenname (FQDN) des Computers, auf dem die Reporting Services installiert sind (beispielsweise **ATL-SQL-001.litwareinc.com**).
     
       - Die Zeichenfolge **/Reports\_**.
     
-      - Den Namen der Datenbankinstanz, auf der die Überwachungsberichte installiert sind (z. B. **archinst**)
+      - Der Name der Datenbankinstanz, in der die Überwachungsberichte installiert sind (beispielsweise **archinst**).
     
-    Wenn SQL Server Reporting Services beispielsweise auf dem Computer atl-sql-001.litwareinc.com installiert wurde und die Überwachungsberichte die Datenbankinstanz archinst verwenden, würde die URL für die Startseite wie folgt aussehen:
+    Wenn beispielsweise SQL Server Reporting Services auf dem Computer ATL-SQL-001.litwareinc.com installiert wurde und die Überwachungsberichte die Datenbankinstanz archinst verwenden, würde die URL der Startseite wie folgt aussehen:
     
     **http://atl-sql-001.litwareinc.com/Reports\_archinst**
 
-2.  Nachdem Sie auf die Reporting Services-Startseite zugegriffen haben, klicken Sie auf **LyncServerReports**, und klicken Sie dann auf **Inhaltsberichte\_**. Damit gelangen Sie zur Seite " **Inhalts\_Berichte** " für die lync Server-Überwachungsberichte.
+2.  Nachdem Sie auf die Homepage der Reporting Services zugegriffen haben, klicken Sie auf **LyncServerReports**, und klicken Sie dann auf **Berichte\_Inhalt**. Dadurch gelangen Sie zur Seite **Inhaltsberichte\_** für die lync Server-Überwachungsberichte.
 
-3.  Klicken Sie auf der Seite " **Inhaltsberichte\_** " auf die **CDRDB** -Datenquelle.
+3.  Klicken Sie auf der Seite **Inhaltsberichte\_** auf die Datenquelle **CDRDB** .
 
-4.  Suchen Sie auf der Seite **CDRDB** auf der Registerkarte **Eigenschaften** nach dem Textfeld mit der Beschriftung **Verbindungszeichenfolge**. Die aktuelle Verbindungszeichenfolge sieht in etwa wie folgt aus:
+4.  Suchen Sie auf der Seite **CDRDB** auf der Registerkarte **Eigenschaften** nach dem Textfeld **Verbindungszeichenfolge**. Die aktuelle Verbindungszeichenfolge wird wie folgt aussehen:
     
-    **Datenquelle = (lokal)\\archinst; ursprünglicher Katalog = LcsCDR**
+    **Datenquelle = (lokal)\\archinst; Initial Catalog = LcsCDR**
 
-5.  Bearbeiten Sie die Verbindungszeichenfolge, um den Servernamen und die Datenbankinstanz für die Spiegeldatenbank einzufügen. Wenn beispielsweise der Server atl-mirror-001 heißt und die Spiegeldatenbank die archinst-Instanz ist, müssen Sie diese über die folgende Syntax hinzufügen, um die Spiegeldatenbank anzugeben:
+5.  Bearbeiten Sie die Verbindungszeichenfolge, um den Servernamen und die Datenbankinstanz für die Spiegeldatenbank einzubeziehen. Wenn der Server beispielsweise den Namen "ATL-Mirror-001" hat und die Spiegeldatenbank in der archinst-Instanz vorhanden ist, müssen Sie hinzufügen, um die Spiegeldatenbank mit dieser Syntax anzugeben:
     
-    **Failover-Partner = ATL-Mirror-\\001 archinst**
+    **Failover Partner = ATL-Mirror-001\\archinst**
     
-    Ihre bearbeitete Verbindungszeichenfolge sieht wie folgt aus:
+    Die bearbeitete Verbindungszeichenfolge wird wie folgt aussehen:
     
-    **Datenquelle = (lokal)\\archinst; Failover-Partner = ATL-Mirror-\\001 archinst; Initial Catalog = LcsCDR**
+    **Datenquelle = (local)\\archinst; Failover Partner = ATL-Mirror-001\\archinst; Initial Catalog = LcsCDR**
 
-6.  Klicken Sie nach dem Aktualisieren der Verbindungszeichenfolge auf **Anwenden**.
+6.  Klicken Sie nach dem Aktualisieren der Verbindungszeichenfolge auf über **nehmen**.
 
-7.  Klicken Sie auf der **CDRDB** -Seite auf den Link **Inhaltsberichte\_** . Klicken Sie auf die Datenquelle **QMSDB** und bearbeiten Sie dann die Verbindungszeichenfolge für die QoE-Datenbank. Zum Beispiel:
+7.  Klicken Sie auf der Seite **CDRDB** auf den Link **Inhaltsberichte\_** . Klicken Sie auf die Datenquelle **QMSDB** , und bearbeiten Sie dann die Verbindungszeichenfolge für die QoE-Datenbank. Beispiel:
     
-    **Datenquelle = (lokal)\\archinst; Failover-Partner = ATL-Mirror-\\001 archinst; Initial Catalog = Datenbank QoEMetrics werden**
+    **Datenquelle = (local)\\archinst; Failover Partner = ATL-Mirror-001\\archinst; Initial Catalog = QoEMetrics**
 
 8.  Klicken Sie auf **Anwenden**.
 
@@ -84,7 +84,7 @@ Damit die Überwachungsberichte ein automatisches Failover zur Spiegeldatenbank 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Installieren von lync Server 2013-Überwachungsberichten](lync-server-2013-installing-lync-server-2013-monitoring-reports.md)  
+[Installieren von Lync Server 2013-Überwachungsberichten](lync-server-2013-installing-lync-server-2013-monitoring-reports.md)  
 [Verwenden von Überwachungsberichten in lync Server 2013](lync-server-2013-using-monitoring-reports.md)  
   
 

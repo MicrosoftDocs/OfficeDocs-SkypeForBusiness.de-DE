@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
-ms.openlocfilehash: 90538f21018ecde402994076243eb2ba893ccc98
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a8cd5582cdcbddff1a6c6375230864e569111a0e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836995"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031049"
 ---
 # <a name="getting-service-phone-numbers"></a>Abrufen von Diensttelefonnummern
 
@@ -42,7 +42,7 @@ Sie haben zwei Möglichkeiten, Servicenummern zu erhalten, damit Sie Sie mit Sky
 - Portieren oder übertragen Sie Ihre vorhandenen Telefonnummern von Ihrem Dienstanbieter oder Netzbetreiber zu Office 365.
     
     > [!NOTE]
-    > Wenn Sie Ihre Servicenummern übertragen, wird dringend empfohlen, dass Sie sich an den [Microsoft-Support](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) wenden, um sicherzustellen, dass die höhere gleichzeitige Anrufkapazität berücksichtigt und richtig konfiguriert wird.
+    > Wenn Sie Ihre Servicenummern übertragen, wird dringend empfohlen, dass Sie sich an den [Microsoft-Support](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) wenden, um sicherzustellen, dass die höhere gleichzeitige Anrufkapazität berücksichtigt und richtig konfiguriert wird.
   
 ## <a name="get-new-service-numbers"></a>Neue Leistungsnummern beziehen
 
@@ -83,7 +83,7 @@ Once you have your service numbers, they can then be assigned to an audio confer
 If you want to transfer service numbers from your current service provider or carrier, you need to manually submit a port order to Microsoft. You have to submit separate port orders for each type of service number (toll vs. toll-free) that you will be transferring using a Letter of Authorization (LOA). In the Letter of Authorization (LOA), you must select the correct type of service number. When contacting Microsoft support, please make sure you specify that you are transferring a service number (*and not a user or subscriber number*), or the concurrent calling capacity may not be enough to handle call volumes. If you want to transfer phone numbers or do other things with your phone numbers, see [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization).
 
 > [!NOTE]
-> Wenn Sie weitere Telefonnummern benötigen, [wenden Sie sich an den Support für Business-Produkte – Administratorhilfe](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
+> Wenn Sie weitere Telefonnummern benötigen, [wenden Sie sich an den Support für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
   
 ## <a name="related-topics"></a>Verwandte Themen
 [Das Telefonsystem in Office 365 bietet Ihnen Folgendes](/MicrosoftTeams/here-s-what-you-get-with-phone-system)

@@ -12,20 +12,20 @@ ms:contentKeyID: 51541524
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 559ebb5a5d5ba91b5a4952037c18ad509ed5cec7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e9d5e2700065444691dee1041ff210768e9bade7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728955"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044877"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-process-overview-for-lync-server-2013"></a>Übersicht über den Sicherungs-und Wiederherstellungsprozess für lync Server 2013
+# <a name="backup-and-restoration-process-overview-for-lync-server-2013"></a>Sicherungs-und Wiederherstellungsprozess – Übersicht für lync Server 2013
 
 </div>
 
@@ -35,44 +35,44 @@ ms.locfileid: "41728955"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-26_
+_**Letztes Änderungsstand des Themas:** 2013-03-26_
 
-Dieser Abschnitt enthält eine Übersicht über die Funktionsweise des Sicherungs-und Wiederherstellungsprozesses für lync Server 2013. Sie verwenden das gleiche Verfahren für alle Standard Edition-Server und Enterprise Edition-Server unabhängig von deren Standort.
+Dieser Abschnitt enthält eine Übersicht darüber, wie der Sicherungs-und Wiederherstellungsprozess für lync Server 2013 funktioniert. Sie können unabhängig vom Standort für alle Standard Edition-Server und Enterprise Edition-Server dasselbe Verfahren anwenden.
 
 Im Allgemeinen funktioniert der Sicherungsvorgang wie folgt:
 
-  - Sie erstellen einen Sicherungsspeicherort als freigegebenen Ordner auf einem eigenständigen Computer, der nicht zu einem Pool gehört. Auf den Speicherort der Sicherung wird in **$Backup**verwiesen.
+  - Sie erstellen auf einem eigenständigen Computer, der nicht Teil eines Pools ist, einen Sicherungsspeicherort als freigegebenen Ordner. Auf den Speicherort der Sicherung wird in  **$Backup** verwiesen.
 
-  - In regelmäßigen Abständen sichern Sie alle lync Server-Datenbanken und alle Dateispeicher, die unter [Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013 beschrieben werden: Daten](lync-server-2013-backup-and-restoration-requirements-data.md) , indem Sie die unter [Sichern von lync Server 2013](lync-server-2013-backing-up-lync-server.md) beschriebenen Verfahren ausführen, in dem der zentrale Verwaltungsspeicher alle Server Einstellungen und-Konfigurationen umfasst.
+  - Auf einer regulären, geplanten Basis sichern Sie alle lync Server Datenbanken und alle Dateispeicher, die unter [Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Data](lync-server-2013-backup-and-restoration-requirements-data.md) beschrieben werden, indem Sie die Verfahren unter [sichern lync Server 2013](lync-server-2013-backing-up-lync-server.md) der zentrale Verwaltungsspeicher enthält alle Server Einstellungen und-Konfigurationen beschrieben.
 
-  - Jedes Mal, wenn Sie eine nachfolgende Sicherung ausführen, erstellen Sie einen neuen freigegebenen Ordner und ändern den Pfad, in dem Verweise **$Backup** .
+  - Bei jedem Ausführen einer nachfolgenden Sicherung erstellen Sie einen neuen freigegebenen Ordner und ändern den Pfad, auf den **$Backup** verweist.
 
 Im Allgemeinen funktioniert der Wiederherstellungsprozess wie folgt:
 
-  - Wenn ein Fehler oder Ausfall auftritt, stellen Sie die Daten an dem Speicherort wieder her, auf den **$Backup** auf neue oder bereinigte Computer verweisen.
+  - Wenn ein Fehler oder Ausfall auftritt, stellen Sie die Daten an dem Speicherort wieder her, auf den von **$Backup** verwiesen wird, auf neue oder saubere Computer.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Durch diesen Wiederherstellungsprozess werden keine Daten auf einem vorhandenen Serverzustand wiederhergestellt. Dieser Vorgang erfordert also, dass der Server sauber oder neu ist.
+    > Mit diesem Wiederherstellungsprozess werden Daten nicht auf einem Server im aktuellen Zustand wiederhergestellt. Der Prozess erfordert einen bereinigten oder neuen Server.
 
     
     </div>
 
-  - Damit Ihre Benutzer-und Konferenz Informationen bis zum Zeitpunkt des Fehlers wiederherstellbar sind, können Sie eine Disaster Recovery-Topologie mit gekoppelten Front-End-Pools implementieren, wie in [Planen für Hochverfügbarkeits-und Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)beschrieben.
+  - Damit Ihre Benutzer-und Konferenz Informationen zum Fehlerfall wiederhergestellt werden können, können Sie eine Notfall Wiederherstellungs Topologie mit paarweise gepaarten Front-End-Pools implementieren, wie in [Planung für hohe Verfügbarkeit und Notfallwiederherstellung in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)beschrieben.
 
-  - Alle DNS-Konfigurationen (Domain Name System), DHCP-Konfiguration (Dynamic Host Configuration Protocol), Domänennamen, vollqualifizierte Computer Domänennamen (FQDNs), Dateispeicher Pfade usw. müssen zum Zeitpunkt der Wiederherstellung identisch sein, die Sie zum Zeitpunkt des Sichern Sie.
+  - Alle DNS-Konfigurationen (Domain Name System), DHCP-Konfigurationen (Dynamic Host Configuration Protocol), Domänennamen, Computer-FQDNs (vollqualifizierte Domänennamen), Dateispeicherpfade usw. müssen zum Zeitpunkt der Wiederherstellung dieselben wie zum Zeitpunkt der Sicherung sein.
 
-Wenn ein Server mit lync Server ausfällt, umfasst die Wiederherstellung die folgenden Schritte:
+Wenn ein Server mit lync Server fehlschlägt, umfasst die Wiederherstellung die folgenden Schritte:
 
-  - Installieren Sie das Betriebssystem auf einem neuen oder sauberen Computer mit demselben FQDN wie der fehlerhafte Computer.
+  - Installieren Sie das Betriebssystem auf einem neuen oder bereinigten Computer mit demselben FQDN wie der ausgefallene Computer.
 
-  - Installieren Sie Zertifikate erneut.
+  - Installieren Sie die Zertifikate neu.
 
   - Wenn der Server eine Datenbank gehostet hat, installieren Sie Microsoft SQL Server 2012 oder Microsoft SQL Server 2008 R2.
 
-  - Wenn der Server eine Datenbank gehostet hat, führen Sie im Allgemeinen den Topologie-Generator aus, um die Datenbank zu erstellen und zu installieren sowie Zugriffssteuerungslisten (ACLs) einzurichten.
+  - Wenn der Server eine Datenbank gehostet hat, führen Sie im Allgemeinen den Topologie-Generator aus, um die Datenbank zu erstellen und zu installieren und Zugriffssteuerungslisten (ACLs) einzurichten.
 
   - Wenn der Server eine Serverrolle gehostet hat, führen Sie im allgemeinen Schritt 1 bis Schritt 4 des lync Server-Bereitstellungs-Assistenten aus, um die lokalen Konfigurationsdateien zu installieren, die Serverrollenkomponenten zu installieren, Zertifikate zuzuweisen und die Dienste zu starten.
     
@@ -80,7 +80,7 @@ Wenn ein Server mit lync Server ausfällt, umfasst die Wiederherstellung die fol
     
 
     > [!NOTE]  
-    > Wenn der Server eine Datenbank mit der Serverrolle gehostet hat, wird mit Schritt 2 des lync Server-Bereitstellungs-Assistenten die Datenbank neu erstellt.
+    > Wenn der Server eine Datenbank mit der Serverrolle gehostet hat, wird durch Ausführen von Schritt 2 des lync Server-Bereitstellungs-Assistenten die Datenbank neu erstellt.
 
     
     </div>

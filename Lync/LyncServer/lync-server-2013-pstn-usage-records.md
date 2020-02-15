@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: PSTN-Verwendungsdatensätze'
+title: 'Lync Server 2013: PSTN-Verwendungsdaten Sätze'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5909494b4e4b6901964a7642481302ca221fe086
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 60700070c5426d4df4d1957367ccfd743a5ba44b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724675"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042032"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="pstn-usage-records-in-lync-server-2013"></a>PSTN-Verwendungsdatensätze in Lync Server 2013
+# <a name="pstn-usage-records-in-lync-server-2013"></a>PSTN-Verwendungsdaten Sätze in lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41724675"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-23_
+_**Letztes Änderungsstand des Themas:** 2012-09-23_
 
-Die Planung von PSTN-Nutzungsdaten Sätzen besteht hauptsächlich darin, alle Anrufberechtigungen aufzulisten, die derzeit in Ihrer Organisation gelten, vom CEO bis hin zu Leiharbeitern, Beratern und Kontingenten Mitarbeitern. Dieser Prozess bietet auch die Möglichkeit, vorhandene Anrufberechtigungen erneut zu überprüfen und zu überarbeiten. Sie können PSTN-Verwendungsdaten Sätze nur für diese Anrufberechtigungen erstellen, die für Ihre erwarteten Enterprise-VoIP-Benutzer gelten, doch eine bessere Lösung für den langfristigen Bereich kann darin liegen, PSTN-Verwendungsdaten Sätze für alle Anrufberechtigungen zu erstellen, und zwar unabhängig davon, ob einige möglicherweise derzeit nicht wenden Sie sich an die Gruppe von Benutzern, die für Enterprise-VoIP aktiviert werden soll. Wenn sich die Anrufberechtigungen ändern oder neue Benutzer mit unterschiedlichen Anrufberechtigungen hinzugefügt werden, haben Sie bereits die erforderlichen PSTN-Nutzungsdatensätze erstellt.
+Die Planung von PSTN-Verwendungsdatensätzen besteht hauptsächlich darin, alle Anrufberechtigungen aufzulisten, die aktuell in Ihrer Organisation vorhanden sind, vom Firmenchef bis hin zu Personen mit befristeten Arbeitsverträgen, Beratern und Zeitarbeitern. Dieses Verfahren bietet außerdem die Gelegenheit, vorhandene Berechtigungen neu zu überprüfen und sie zu überarbeiten. Sie können PSTN-Verwendungsdatensätze ausschließlich für Berechtigungen erstellen, die sich auf Ihre vorgesehenen Enterprise-VoIP-Benutzer beziehen. Langfristig besteht eine bessere Lösung möglicherweise darin, PSTN-Verwendungsdatensätze einfach für alle Berechtigungen zu erstellen, und zwar unabhängig davon, ob einige davon derzeit nicht für die Gruppe der Benutzer gelten, für die Enterprise-VoIP aktiviert werden soll. Wenn Anrufberechtigungen geändert oder neue Benutzer mit abweichenden Abrufberechtigungen hinzugefügt werden, haben Sie die erforderlichen PSTN-Verwendungsdatensätze bereits erstellt.
 
-Im Folgenden sehen Sie eine typische PSTN-Verwendungstabelle.
+Die folgende Tabelle stellt eine typische PSTN-Verwendungstabelle dar.
 
-### <a name="pstn-usage-records"></a>PSTN-Verwendungseinträge
+### <a name="pstn-usage-records"></a>PSTN-Verwendungsdatensätze
 
 <table>
 <colgroup>
@@ -60,7 +60,7 @@ Im Folgenden sehen Sie eine typische PSTN-Verwendungstabelle.
 <td><p>Ortsgespräche</p></td>
 </tr>
 <tr class="even">
-<td><p>Long-Distance</p></td>
+<td><p>Fern</p></td>
 <td><p>Ferngespräche</p></td>
 </tr>
 <tr class="odd">
@@ -80,20 +80,20 @@ Im Folgenden sehen Sie eine typische PSTN-Verwendungstabelle.
 <td><p>Zeitarbeiter in Redmond</p></td>
 </tr>
 <tr class="odd">
-<td><p>Zurich</p></td>
+<td><p>Zürich</p></td>
 <td><p>Vollzeitmitarbeiter in Zürich</p></td>
 </tr>
 </tbody>
 </table>
 
 
-PSTN-Verwendungseinträge alleine führen keine Aktionen aus. Um sie verwenden zu können, müssen Sie sie mit Folgendem verknüpfen:
+PSTN-Verwendungsdatensätze alleine führen keine Aktionen aus. Um sie verwenden zu können, müssen Sie sie mit Folgendem verknüpfen:
 
   - VoIP-Richtlinien, die Benutzern zugewiesen sind
 
   - Routen, die Rufnummern zugewiesen sind
 
-Details zu VoIP-Richtlinien und-Routen finden Sie unter [VoIP-Richtlinien in lync Server 2013](lync-server-2013-voice-policies.md) und [VoIP-Routen in lync Server 2013](lync-server-2013-voice-routes.md). Ausführliche Informationen zum Erstellen und Konfigurieren von [VoIP-Routen für ausgehende Anrufe finden Sie in lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
+Ausführliche Informationen zu VoIP-Richtlinien und-Routen finden Sie unter [VoIP-Richtlinien in lync Server 2013](lync-server-2013-voice-policies.md) und [VoIP-Routen in lync Server 2013](lync-server-2013-voice-routes.md). Ausführliche Informationen zum Erstellen und Konfigurieren dieser Informationen finden Sie unter [Konfigurieren von VoIP-Routen für ausgehende Anrufe in lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Definieren eines Vermittlungsservers im Topologie-Generator'
+title: 'Lync Server 2013: Definieren eines Vermittlungsserver im Topologie-Generator'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184217
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bdff7da86bd7298511ea0ef384b2736a47882a03
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5f284b793c79ff3dcf8589a60469ed8525426de1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742555"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043697"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="define-a-mediation-server-in-topology-builder-in-lync-server-2013"></a>Definieren eines Vermittlungsservers im Topologie-Generator in lync Server 2013
+# <a name="define-a-mediation-server-in-topology-builder-in-lync-server-2013"></a>Definieren eines Vermittlungsserver im Topologie-Generator in lync Server 2013
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41742555"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-25_
+_**Letztes Änderungsstand des Themas:** 2013-03-25_
 
-Führen Sie die Schritte in diesem Thema aus, um mithilfe des Topologie-Generators einen eigenständigen Vermittlungs Server oder einen Pool mit einem Front-End-Pool an einer Website zu definieren, für die Sie Enterprise-VoIP zuvor nicht bereitgestellt haben.
+Befolgen Sie die Schritte in diesem Thema, um mithilfe des Topologie-Generators eine eigenständige Vermittlungsserver oder einen Pool mit einer Front-End-Pool an einem Standort zu definieren, für den Sie Enterprise-VoIP zuvor nicht bereitgestellt haben.
 
-Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der Gruppe Administratoren ist.
-
-<div>
-
-## <a name="define-mediation-server-collocated-to-a-front-end-pool"></a>Definieren des Mediations Servers in einem Front-End-Pool
-
-Führen Sie die Schritte in diesem Thema aus, um mithilfe des Topologie-Generators einen Vermittlungs Server zu definieren, der sich in einem Front-End-Pool an einer Website befindet, auf der Enterprise-VoIP nicht zuvor bereitgestellt wurde
+Sie können eine Topologie auch über ein Konto definieren, das Mitglied der Administratorgruppe ist.
 
 <div>
 
-## <a name="to-add-a-mediation-server-to-a-front-end-pool"></a>So fügen Sie einen Vermittlungs Server zu einem Front-End-Pool hinzu
+## <a name="define-mediation-server-collocated-to-a-front-end-pool"></a>Definieren Vermittlungsserver zusammen mit einem Front-End-Pool
 
-1.  Starten Sie den Topologie-Generator: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topology Builder**.
+Führen Sie die Schritte in diesem Thema aus, um mithilfe des Topologie-Generators eine Vermittlungsserver zu definieren, die mit einem Front-End-Pool an einem Standort verbunden ist, an dem Enterprise-VoIP noch nicht bereitgestellt wurde.
 
-2.  Erweitern Sie im Topologie-Generator in der Konsolenstruktur den Namen der Website, für die Sie einen Front-End-Pool definieren möchten.
+<div>
 
-3.  Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf den Typ des gewünschten Front-End-Pools, und klicken Sie dann auf **neuer Front-End-Pool.**..
+## <a name="to-add-a-mediation-server-to-a-front-end-pool"></a>So fügen Sie einem Front-End-Pool ein Vermittlungsserver hinzu
+
+1.  Starten Sie den Topologie-Generator: Klicken Sie im **Startmenü**auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topologie-Generator**.
+
+2.  Erweitern Sie im Topologie-Generator in der Konsolenstruktur den Namen der Website, für die Sie eine Front-End-Pool definieren möchten.
+
+3.  Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf den gewünschten Front-End-Pooltyp, und klicken Sie dann auf **neue Front-End-Pool.**..
 
 4.  Navigieren Sie durch den Assistenten **Neuen Front-End-Pool definieren**, bis Sie die Seite **Verbundene Serverrollen auswählen** erreichen.
 
-5.  Aktivieren Sie unter **ausgewählte Serverrollen auswählen**die Option **Collocate-Vermittlungsserver**.
+5.  Aktivieren Sie unter verbundene **Serverrollen auswählen**die Option **Collocate Vermittlungsserver**.
     
     <div>
     
@@ -67,29 +67,29 @@ Führen Sie die Schritte in diesem Thema aus, um mithilfe des Topologie-Generato
     > [!NOTE]  
     > <UL>
     > <LI>
-    > <P>Wenn der Typ des ausgewählten Front-End-Pools die Enterprise-Edition ist, wird die Mediation Server-Komponente auf allen Front-End-Servern dieses Front-End-Pools installiert.</P>
+    > <P>Wenn es sich bei dem ausgewählten Front-End-Pool um die Enterprise Edition handelt, wird die Vermittlungsserver-Komponente auf allen Front-End-Servern dieses Front-End-Pool installiert.</P>
     > <LI>
-    > <P>Der vom Vermittlungsserver verwendete <STRONG>Next Hop-Pool</STRONG> ist der Front-End-Pool, in dem sich der Vermittlungsserver befindet.</P>
+    > <P>Der <STRONG>nächste Hop-Pool</STRONG> , der von der Vermittlungsserver verwendet wird, ist der Front-End-Pool, in dem die Vermittlungsserver zusammengefasst ist.</P>
     > <LI>
-    > <P>Der vom Vermittlungsserver verwendete <STRONG>Edge-Pool</STRONG> ist derselbe Edge-Pool, der dem Front-End-Pool zugeordnet ist, in dem sich der Vermittlungsserver befindet.</P></LI></UL>
+    > <P>Der <STRONG>Edgepool</STRONG> , der von der Vermittlungsserver verwendet wird, ist derselbe Edgepool, der dem Front-End-Pool zugeordnet ist, in dem die Vermittlungsserver zusammengefasst ist.</P></LI></UL>
 
     
     </div>
 
-6.  Klicken Sie auf **Standard festlegen** , um diesen Front-End-Pool zum Weiterleiten von Anrufen von Microsoft Office Communications Server 2007 R2 an das PSTN zu verwenden.
+6.  Klicken Sie auf **Standard festlegen** , um diese Front-End-Pool zum Weiterleiten von Anrufen von Microsoft Office Communications Server 2007 R2 an das PSTN zu verwenden.
 
-7.  Klicken Sie auf **Fertig stellen** , wenn Sie mit dem Verknüpfen eines oder mehrerer Peers mit dem Front-End-Pool fertig sind.
+7.  Klicken Sie auf **Fertig stellen** , wenn Sie dem Front-End-Pool das Zuordnen eines oder mehrerer Peers abgeschlossen haben.
     
     <div>
     
 
     > [!NOTE]  
-    > Bevor Sie mit dem nächsten Schritt des Enterprise-VoIP-Bereitstellungsprozesses fortfahren, stellen Sie sicher, dass der vermittlungsserverpool (also der Front-End-Pool mit der Mediationsserver Komponente) die von Ihnen angegebenen FQDNs verwendet.
+    > Bevor Sie mit dem nächsten Schritt im Enterprise-VoIP-Bereitstellungsprozess fortfahren, stellen Sie sicher, dass der Vermittlungsserver-Pool (d. h. Front-End-Pool mit der Vermittlungsserver-Komponente nebeneinander) die von Ihnen angegebenen FQDNs verwendet.
 
     
     </div>
 
-8.  Führen Sie als nächstes die Verfahren unter [Veröffentlichen der Topologie in lync Server 2013](lync-server-2013-publish-the-topology.md) im Bereitstellungshandbuch aus, um den Vermittlungsserver Ihrer Topologie hinzuzufügen, bevor Sie mit dem nächsten Schritt zum Ändern der Abhör Anschlüsse des Vermittlungsservers bei Bedarf fortfahren. Sie müssen Ihre Topologie jedes Mal veröffentlichen, wenn Sie den Topologie-Generator verwenden, um Ihre Topologie zu definieren oder zu ändern.
+8.  Befolgen Sie anschließend die Verfahren unter [Veröffentlichen der Topologie in lync Server 2013](lync-server-2013-publish-the-topology.md) im Bereitstellungshandbuch, um die Vermittlungsserver zu Ihrer Topologie hinzuzufügen, bevor Sie mit dem nächsten Schritt der Änderung der Überwachungs Ports des Vermittlungsserver falls erforderlich fortfahren. Sie müssen Ihre Topologie jedes Mal veröffentlichen, wenn Sie den Topologie-Generator verwenden, um die Topologie zu definieren oder zu ändern.
 
 </div>
 
@@ -97,17 +97,17 @@ Führen Sie die Schritte in diesem Thema aus, um mithilfe des Topologie-Generato
 
 <div>
 
-## <a name="define-stand-alone-mediation-server"></a>Eigenständigen Vermittlungs Server definieren
+## <a name="define-stand-alone-mediation-server"></a>Eigenständige Vermittlungsserver definieren
 
-Führen Sie die Schritte in diesem Thema aus, um mithilfe des Topologie-Generators einen eigenständigen Vermittlungs Server oder Pool an einer Website zu definieren, auf der Enterprise-VoIP nicht zuvor bereitgestellt wurde.
+Befolgen Sie die Schritte in diesem Thema, um mithilfe des Topologie-Generators einen eigenständigen Vermittlungsserver oder Pool an einem Standort zu definieren, an dem Enterprise-VoIP noch nicht bereitgestellt wurde.
 
-Wenn Sie bereits Vermittlungsserver an Front-End-Pools auf dieser Website bereitgestellt haben, können Sie diesen Abschnitt überspringen und [die Dateien für den Vermittlungsserver in lync Server 2013 installieren](lync-server-2013-install-the-files-for-mediation-server.md) , bevor Sie mit der [Konfiguration von Trunks in lync Server 2013](lync-server-2013-configuring-trunks.md)fortfahren.
+Wenn Sie bereits Vermittlungsserver in einem Front-End-Pool an diesem Standort bereitgestellt haben, können Sie diesen Abschnitt überspringen und [die Dateien für Vermittlungsserver in lync Server 2013 installieren](lync-server-2013-install-the-files-for-mediation-server.md) , bevor Sie mit dem [Konfigurieren von Trunks in lync Server 2013](lync-server-2013-configuring-trunks.md)fortfahren.
 
 <div>
 
 
 > [!NOTE]  
-> In diesem Abschnitt wird davon ausgegangen, dass Sie bereits mindestens einen Front-End-Pool eingerichtet haben, wie unter <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">definieren und Konfigurieren eines Front-End-Pools oder Standard Edition-Servers in lync Server 2013</A> und <A href="lync-server-2013-publish-the-topology.md">Veröffentlichen der Topologie in lync Server 2013</A> in der Bereitstellungshandbuch-Dokumentation beschrieben wird.
+> In diesem Abschnitt wird davon ausgegangen, dass Sie bereits mindestens eine Front-End-Pool eingerichtet haben, wie unter <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">define and configure a Front-End-Pool or Standard Edition-Server in lync Server 2013</A> und <A href="lync-server-2013-publish-the-topology.md">Veröffentlichen der Topologie in lync Server 2013</A> in der Dokumentation zum Bereitstellungshandbuch beschrieben.
 
 
 
@@ -115,42 +115,42 @@ Wenn Sie bereits Vermittlungsserver an Front-End-Pools auf dieser Website bereit
 
 <div>
 
-## <a name="to-add-a-mediation-server"></a>So fügen Sie einen Vermittlungs Server hinzu
+## <a name="to-add-a-mediation-server"></a>So fügen Sie einen Vermittlungsserver hinzu
 
-1.  Starten Sie den Topologie-Generator: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topology Builder**.
+1.  Starten Sie den Topologie-Generator: Klicken Sie im **Startmenü**auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topologie-Generator**.
 
-2.  Erweitern Sie im Topologie-Generator in der Konsolenstruktur den Namen der Website, für die Sie einen Vermittlungs Server definieren möchten.
+2.  Erweitern Sie im Topologie-Generator in der Konsolenstruktur den Namen der Website, für die Sie eine Vermittlungsserver definieren möchten.
 
-3.  Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf den Knoten **Mediations Pools** , und klicken Sie dann auf **Vermittlungs Server Pool**.
+3.  Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf den Knoten **Vermittlungs Pools** , und klicken Sie dann auf **Vermittlungsserver Pool**.
 
-4.  Geben Sie unter **neuen Mediations Pool definieren**den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Mediation Server Pools ein.
+4.  Geben Sie unter **neuen vermittlungspool definieren**den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Vermittlungsserver Pools ein.
 
 5.  Führen Sie anschließend eine der folgenden Aktionen aus:
     
-      - Wenn Sie mehrere Vermittlungsserver im Pool bereitstellen möchten, um eine höhere Verfügbarkeit zu gewährleisten, wählen Sie den **Pool für mehrere Computer**aus.
+      - Wenn Sie mehrere Vermittlungsserver im Pool bereitstellen möchten, um eine hohe Verfügbarkeit bereitzustellen, wählen Sie **Pool mit mehreren Computern**aus.
         
         <div>
         
 
         > [!NOTE]  
-        > Sie müssen den DNS-Lastenausgleich bereitstellen, um Vermittlungsserver Pools mit mehreren Vermittlungsservern zu unterstützen. Ausführliche Informationen finden Sie im Abschnitt Verwenden des DNS-Lastenausgleichs für Mediationsserver Pools des <A href="lync-server-2013-dns-load-balancing.md">DNS-Lastenausgleichs in lync Server 2013</A> in der Planungsdokumentation.
+        > Sie müssen den DNS-Lastenausgleich bereitstellen, um Vermittlungsserver Pools zu unterstützen, die über mehrere Vermittlungsserver verfügen. Ausführliche Informationen finden Sie im Abschnitt Verwenden des DNS-Lastenausgleichs in Vermittlungsserver Pools des <A href="lync-server-2013-dns-load-balancing.md">DNS-Lastenausgleichs in lync Server 2013</A> in der Planungsdokumentation.
 
         
         </div>
     
-      - Wenn Sie nur einen Vermittlungs Server im Pool bereitstellen möchten, weil Sie keine höhere Verfügbarkeit benötigen, wählen Sie den **Pool für einzelne Computer**aus. Überspringen Sie den folgenden Schritt.
+      - Wenn Sie nur eine Vermittlungsserver im Pool bereitstellen möchten, da keine hohe Verfügbarkeit erforderlich ist, wählen Sie **Pool mit einem einzelnen Computer**aus. Überspringen Sie den folgenden Schritt.
 
-6.  Wenn Sie im vorherigen Schritt **Pool mit mehreren Computern** ausgewählt haben, klicken Sie in **Computer in diesem Pool definieren** auf **Computer-FQDN**, geben Sie die FQDNs der einzelnen Server innerhalb des Pools ein und klicken Sie anschließend auf **Hinzufügen**. Wiederholen Sie diesen Schritt für alle anderen Vermittlungsserver, die Sie dem Pool hinzufügen möchten. Nachdem Sie alle Computer im Pool definiert haben, klicken Sie auf **Weiter**.
+6.  Wenn Sie im vorherigen Schritt **Pool mit mehreren Computern** ausgewählt haben, klicken Sie in **Computer in diesem Pool definieren** auf **Computer-FQDN**, geben Sie die FQDNs der einzelnen Server innerhalb des Pools ein, und klicken Sie anschließend auf **Hinzufügen**. Wiederholen Sie diesen Schritt für alle anderen Vermittlungsserver, die Sie dem Pool hinzufügen möchten. Nachdem Sie alle Computer im Pool definiert haben, klicken Sie auf **Weiter**.
 
-7.  Klicken Sie auf der Seite **Nächster Hop auswählen** auf **Nächster Hop-Pool**, klicken Sie auf den FQDN des Front-End-Pools, in dem dieser Vermittlungs Server Pool verwendet wird, und klicken Sie dann auf **weiter**.
+7.  Klicken Sie auf der Seite **nächsten Hop auswählen** auf **Pool für nächsten**Hop, klicken Sie auf den FQDN des Front-End-Pool, in dem dieser Vermittlungsserver Pool verwendet wird, und klicken Sie dann auf **weiter**.
 
 8.  Führen Sie auf der Seite **Edgeserver auswählen** einen der folgenden Schritte aus:
     
-      - Wenn Sie die PSTN-Konnektivität für externe Benutzer bereitstellen möchten, die für Enterprise-VoIP aktiviert sind, klicken Sie unter Wählen Sie den **von diesem Vermittlungsserver verwendeten Edge-Pool**aus auf den FQDN des Edgeserver-Pools, der diesen vermittlungsserverpool verwendet, um PSTN-Konnektivität für diese externen Benutzer bereitzustellen, und klicken Sie dann auf **weiter**.
+      - Wenn Sie PSTN-Konnektivität für für Enterprise-VoIP aktivierte externe Benutzer bereitstellen möchten, klicken Sie unter **Edge-Pool auswählen, der von diesem Vermittlungsserver verwendet**wird auf den FQDN des Edgeserver Pools, der diesen Vermittlungsserver Pool verwendet, um PSTN-Konnektivität für diese externen Benutzer bereitzustellen, und klicken Sie dann auf **weiter**.
     
-      - Wenn Sie nicht beabsichtigen, externe Benutzer für Enterprise-VoIP zu aktivieren, oder wenn Sie keine PSTN-Konnektivität für Benutzer bereitstellen möchten, wenn diese sich außerhalb des internen Netzwerks befinden, klicken Sie auf **weiter**.
+      - Wenn Sie nicht beabsichtigen, externe Benutzer für Enterprise-VoIP zu aktivieren oder wenn Sie keine PSTN-Konnektivität für Benutzer bereitstellen möchten, die sich außerhalb des internen Netzwerks befinden, klicken Sie auf **weiter**.
 
-9.  Führen Sie als nächstes die Verfahren unter [Veröffentlichen der Topologie in lync Server 2013](lync-server-2013-publish-the-topology.md) in der Bereitstellungsdokumentation aus, um den Vermittlungs Server zur Topologie hinzuzufügen. Sie müssen Ihre Topologie jedes Mal veröffentlichen, wenn Sie den Topologie-Generator verwenden, um Ihre Topologie zu erstellen oder zu ändern, damit die Daten zum Installieren der Dateien für Server verwendet werden können, auf denen lync Server ausgeführt wird. Fahren Sie dann mit den nächsten Schritten fort, um die Abhör Anschlüsse auf dem Vermittlungs Server bei Bedarf zu ändern.
+9.  Befolgen Sie anschließend die Verfahren unter [Veröffentlichen der Topologie in lync Server 2013](lync-server-2013-publish-the-topology.md) in der Bereitstellungsdokumentation, um die Vermittlungsserver der Topologie hinzuzufügen. Sie müssen Ihre Topologie jedes Mal veröffentlichen, wenn Sie den Topologie-Generator verwenden, um die Topologie zu erstellen oder zu ändern, damit die Daten für die Installation der Dateien für Server mit lync Server verwendet werden können. Fahren Sie dann mit den nächsten Schritten zum Ändern der Überwachungsports auf dem Vermittlungsserver fort (sofern erforderlich).
 
 </div>
 
@@ -158,21 +158,21 @@ Wenn Sie bereits Vermittlungsserver an Front-End-Pools auf dieser Website bereit
 
 <div>
 
-## <a name="define-the-mediation-server-listening-ports"></a>Definieren der Abhör Anschlüsse des Vermittlungsservers
+## <a name="define-the-mediation-server-listening-ports"></a>Definieren der Vermittlungsserver Abhör-Ports
 
-Führen Sie die Schritte in diesem Thema aus, um mithilfe des Topologie-Generators die Abhör Anschlüsse zu definieren, die von einem Vermittlungs Server oder-Pool eingehende Verbindungen von einem Gateway-Peer akzeptiert werden.
+Befolgen Sie die Schritte in diesem Thema, um mithilfe des Topologie-Generators die Überwachungs Ports zu definieren, die ein Vermittlungsserver oder Pool eingehende Verbindungen von einem Gateway-Peer akzeptiert.
 
 <div>
 
-## <a name="to-modify-the-mediation-server-listening-ports"></a>So ändern Sie die Abhör Anschlüsse des Vermittlungsservers
+## <a name="to-modify-the-mediation-server-listening-ports"></a>So ändern Sie die Vermittlungsserver Abhör-Ports
 
-1.  Starten Sie den Topologie-Generator: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topology Builder**.
+1.  Starten Sie den Topologie-Generator: Klicken Sie im **Startmenü**auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topologie-Generator**.
 
-2.  Erweitern Sie im Topologie-Generator in der Konsolenstruktur den Knoten **Mediations Pools** , und klicken Sie mit der rechten Maustaste auf den zuvor erstellten Mediations Server.
+2.  Erweitern Sie im Topologie-Generator in der Konsolenstruktur den Knoten **Vermittlungs Pools** , und klicken Sie mit der rechten Maustaste auf den zuvor erstellten Vermittlungsserver.
 
-3.  Standardmäßig sind die SIP-Abhör Anschlüsse auf dem Vermittlungsserver 5070 für den TLS-Datenverkehr von lync Server, 5067 für TLS-Datenverkehr von Peers (Gateways, TK oder SBCS). Der TCP-Port ist standardmäßig deaktiviert. Wenn Sie über Gateways verfügen, die TLS nicht unterstützen, müssen Sie den TCP-Port aktivieren.
+3.  Standardmäßig sind die SIP-Überwachungsanschlüsse am Vermittlungsserver 5070 für den TLS-Datenverkehr von lync Server, 5067 für TLS-Datenverkehr von Peers (Gateways, TK oder SBCS). Der TCP-Port ist standardmäßig deaktiviert. Wenn Sie über Gateways verfügen, die TLS nicht unterstützen, müssen Sie den TCP-Port aktivieren.
 
-4.  Geben Sie den gewünschten TLS-oder TCP-Überwachungs Portbereich an der Vermittlungs Server akzeptiert eingehende Verbindungen von PSTN-Gateways.
+4.  Geben Sie den gewünschten TLS-oder TCP-Überwachungs Portbereich an, der vom Vermittlungsserver eingehende Verbindungen von PSTN-Gateways akzeptiert wird.
     
     <div>
     
@@ -183,7 +183,7 @@ Führen Sie die Schritte in diesem Thema aus, um mithilfe des Topologie-Generato
     
     </div>
 
-Definieren Sie als nächstes [ein Gateway im Topologie-Generator in lync Server 2013](lync-server-2013-define-a-gateway-in-topology-builder.md) , und installieren Sie die Dateien auf jedem Vermittlungsserver im Pool, indem Sie die Verfahren unter [Installieren der Dateien für Mediation Server in lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md)befolgen.
+Definieren Sie als nächstes in [lync Server 2013 ein Gateway im Topologie-Generator](lync-server-2013-define-a-gateway-in-topology-builder.md) , und installieren Sie die Dateien auf jeder Vermittlungsserver im Pool, indem Sie die Verfahren unter [install the files for Vermittlungsserver in lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md)ausführen.
 
 </div>
 

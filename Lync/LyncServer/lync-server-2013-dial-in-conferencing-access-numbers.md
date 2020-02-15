@@ -12,16 +12,16 @@ ms:contentKeyID: 49733590
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1b7f10d0fb1d8c908a6cce90ece3b0ef6f0eed2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e128536bbabc4c43fd51412ea61fe0da0b86cf56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762333"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044687"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41762333"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-18_
+_**Letztes Änderungsstand des Themas:** 2012-09-18_
 
-Damit Benutzer an den Audioteilen von lokalen Konferenzen teilnehmen können, indem Sie sich über das öffentlich geschaltete Telefon Netzwerk (PSTN) einwählen, müssen Sie Zugriffsnummern für Einwahlkonferenzen konfigurieren. Zugriffsnummern für Einwahlkonferenzen sind die Nummern, die Benutzer anrufen, um an einer Konferenz teilzunehmen.
+Um Benutzern die Teilnahme am Audioteil lokaler Konferenzen zu ermöglichen, indem sie sich über das Festnetz (Public Switched Telephone Network, PSTN) einwählen, müssen Sie Zugriffsnummern für Einwahlkonferenzen konfigurieren. Zugriffsnummern für Einwahlkonferenzen sind die Nummern, die Benutzern zur Teilnahme an Konferenzen wählen.
 
-Einwahl Zugriffsnummern werden in Besprechungseinladungen und auf der Webseite Einstellungen für Einwahlkonferenzen angezeigt.
+Zugriffsnummern für die Einwahl werden in Besprechungseinladungen und auf der Webseite mit den Einstellungen für die Einwahlkonferenz angezeigt.
 
 <div>
 
 
 > [!NOTE]  
-> Sie können erst dann eine neue Einwahl Zugriffsnummer verwenden, wenn die Active Directory-Replikation dieser Zugriffsnummer abgeschlossen ist. Die Replikation kann mehrere Stunden dauern.
+> Sie können eine neue Zugriffsnummer erst dann für Einwahlkonferenzen verwenden, wenn die Active Directory-Replikation dieser Telefonnummer abgeschlossen ist. Die Replikation kann mehrere Stunden in Anspruch nehmen.
 
 
 
@@ -55,9 +55,9 @@ Einwahl Zugriffsnummern werden in Besprechungseinladungen und auf der Webseite E
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Anzeigen von Einwahlkonferenz-Zugriffsnummern in lync Server 2013](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
+  - [Anzeigen von Zugriffsnummern für Einwahlkonferenzen in lync Server 2013](lync-server-2013-view-dial-in-conferencing-access-numbers.md)
 
-  - [Erstellen oder Ändern einer Einwahlnummer für Einwahlkonferenzen in Lync Server 2013](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
+  - [Erstellen oder Ändern einer Zugriffsnummer für Einwahlkonferenzen in lync Server 2013](lync-server-2013-create-or-modify-a-dial-in-conferencing-access-number.md)
 
   - [Löschen einer Zugriffsnummer für Einwahlkonferenzen in lync Server 2013](lync-server-2013-delete-a-dial-in-conferencing-access-number.md)
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185142
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf6adeec7b2a1cd3e73d60b918a68b2d31c48f3c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0566e45f5e0d94690daeece80165eea0b5807899
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747195"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042112"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,193 +35,193 @@ ms.locfileid: "41747195"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-09_
+_**Letztes Änderungsstand des Themas:** 2012-10-09_
 
-Enterprise-VoIP bietet Einstellungen, die Anrufe in das und aus dem öffentlichen Telefonnetz (PSTN) ermöglichen, ohne dass die Dienstqualität (Quality of Service, QoS) sinkt. Sie können diese Einstellungen über Cmdlets konfigurieren, die in der lync Server-Verwaltungsshell verfügbar sind.
+Eine Enterprise-VoIP-Lösung muss ein- und ausgehende PSTN-Anrufe (Public Switched Telephone Network, Telefonfestnetz) ermöglichen, ohne dass die Dienstqualität (Quality of Service, QoS) in irgendeiner Weise beeinträchtigt wird. Sie können diese Einstellungen über Cmdlets konfigurieren, die in der lync Server-Verwaltungsshell verfügbar sind.
 
 <div>
 
-## <a name="pstn-connectivity-cmdlets"></a>Cmdlets für PSTN-Konnektivität
+## <a name="pstn-connectivity-cmdlets"></a>Cmdlets für die PSTN-Anbindung
 
-Verwenden Sie die folgenden Cmdlets, um verschiedene Aspekte der PSTN-Konnektivität zu konfigurieren.
+Verwenden Sie die folgenden Cmdlets, um verschiedene Aspekte der PSTN-Anbindung zu konfigurieren.
 
 **[Cmdlets für PSTN-Gateways in lync Server 2013](lync-server-2013-pstn-gateways-cmdlets.md)**
 
   - <span></span>  
-    [Satz-CsPstnGateway](https://technet.microsoft.com/en-us/library/Gg398408(v=OCS.15))
+    [Gruppe-CsPstnGateway](https://technet.microsoft.com/library/Gg398408(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsPstnOutboundCall](https://technet.microsoft.com/en-us/library/Gg398207(v=OCS.15))
+    [Test-CsPstnOutboundCall](https://technet.microsoft.com/library/Gg398207(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/en-us/library/Gg398662(v=OCS.15))
+    [Test-CsPstnPeerToPeerCall](https://technet.microsoft.com/library/Gg398662(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Satz-CsMediationServer](https://technet.microsoft.com/en-us/library/Gg398213(v=OCS.15))
+    [Gruppe-csmediationserver begrenzen](https://technet.microsoft.com/library/Gg398213(v=OCS.15))
 
-**[Statische Routing-Cmdlets in lync Server 2013](lync-server-2013-static-routing-cmdlets.md)**
-
-  - <span></span>  
-    [Get-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg398130(v=OCS.15))
+**[Cmdlets für statisches Routing in lync Server 2013](lync-server-2013-static-routing-cmdlets.md)**
 
   - <span></span>  
-    [New-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg413041(v=OCS.15))
+    [Get-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg398130(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg412932(v=OCS.15))
+    [New-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg413041(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg425895(v=OCS.15))
+    [Remove-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg412932(v=OCS.15))
+
+  - <span></span>  
+    [Gruppe-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg425895(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsStaticRoute](https://technet.microsoft.com/en-us/library/Gg398265(v=OCS.15))
+    [New-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398754(v=OCS.15))
+    [Get-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398754(v=OCS.15))
 
   - <span></span>  
-    [Neu – CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425811(v=OCS.15))
+    [New-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg425811(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398668(v=OCS.15))
+    [Remove-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398668(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398724(v=OCS.15))
+    [Gruppe-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398724(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsSipProxyCustom](https://technet.microsoft.com/en-us/library/Gg425904(v=OCS.15))
+    [New-CsSipProxyCustom](https://technet.microsoft.com/library/Gg425904(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsSipProxyRealm](https://technet.microsoft.com/en-us/library/Gg413084(v=OCS.15))
+    [New-CsSipProxyRealm](https://technet.microsoft.com/library/Gg413084(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsSipProxyTCP](https://technet.microsoft.com/en-us/library/Gg425745(v=OCS.15))
+    [New-CsSipProxyTCP](https://technet.microsoft.com/library/Gg425745(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsSipProxyTLS](https://technet.microsoft.com/en-us/library/Gg398629(v=OCS.15))
+    [New-CsSipProxyTLS](https://technet.microsoft.com/library/Gg398629(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsSipProxyTransport](https://technet.microsoft.com/en-us/library/Gg398489(v=OCS.15))
+    [New-CsSipProxyTransport](https://technet.microsoft.com/library/Gg398489(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsSipProxyUseDefault](https://technet.microsoft.com/en-us/library/Gg398274(v=OCS.15))
+    [New-CsSipProxyUseDefault](https://technet.microsoft.com/library/Gg398274(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsSipProxyUseDefaultCert](https://technet.microsoft.com/en-us/library/Gg425858(v=OCS.15))
+    [New-CsSipProxyUseDefaultCert](https://technet.microsoft.com/library/Gg425858(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsIssuedCertId](https://technet.microsoft.com/en-us/library/Gg425814(v=OCS.15))
+    [New-CsIssuedCertId](https://technet.microsoft.com/library/Gg425814(v=OCS.15))
 
-**[Cmdlets für Trunking-Konfiguration in lync Server 2013](lync-server-2013-trunking-configuration-cmdlets.md)**
+**[Cmdlets für die Trunking-Konfiguration in lync Server 2013](lync-server-2013-trunking-configuration-cmdlets.md)**
 
-  - [Test-CsInterTrunkRouting](https://technet.microsoft.com/en-us/library/JJ204741(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/en-us/library/JJ204962(v=OCS.15))
-
-  - [New-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/en-us/library/JJ205097(v=OCS.15))
-
-  - [Remove-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/en-us/library/JJ204836(v=OCS.15))
-
-  - [Set-CsOutboundCallingNumberTranslationRule](https://technet.microsoft.com/en-us/library/JJ205400(v=OCS.15))
+  - [Test-csintertrunkrouting "](https://technet.microsoft.com/library/JJ204741(v=OCS.15))
 
 <!-- end list -->
 
-  - <span></span>  
-    [Get-CsOutboundTranslationRule](https://technet.microsoft.com/en-us/library/Gg398104(v=OCS.15))
+  - [Get-csoutboundcallingnumbertranslationrule "](https://technet.microsoft.com/library/JJ204962(v=OCS.15))
 
-  - <span></span>  
-    [Neu – CsOutboundTranslationRule](https://technet.microsoft.com/en-us/library/Gg412803(v=OCS.15))
+  - [New-csoutboundcallingnumbertranslationrule "](https://technet.microsoft.com/library/JJ205097(v=OCS.15))
 
-  - <span></span>  
-    [Remove-CsOutboundTranslationRule](https://technet.microsoft.com/en-us/library/Gg398556(v=OCS.15))
+  - [Remove-csoutboundcallingnumbertranslationrule "](https://technet.microsoft.com/library/JJ204836(v=OCS.15))
 
-  - <span></span>  
-    [Satz-CsOutboundTranslationRule](https://technet.microsoft.com/en-us/library/Gg413073(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsTrunk](https://technet.microsoft.com/en-us/library/JJ205244(v=OCS.15))
+  - [Gruppe-csoutboundcallingnumbertranslationrule "](https://technet.microsoft.com/library/JJ205400(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsTrunkConfiguration](https://technet.microsoft.com/en-us/library/Gg398224(v=OCS.15))
+    [Get-CsOutboundTranslationRule](https://technet.microsoft.com/library/Gg398104(v=OCS.15))
 
   - <span></span>  
-    [Neu – CsTrunkConfiguration](https://technet.microsoft.com/en-us/library/Gg413021(v=OCS.15))
+    [New-CsOutboundTranslationRule](https://technet.microsoft.com/library/Gg412803(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsTrunkConfiguration](https://technet.microsoft.com/en-us/library/Gg425943(v=OCS.15))
+    [Remove-CsOutboundTranslationRule](https://technet.microsoft.com/library/Gg398556(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsTrunkConfiguration](https://technet.microsoft.com/en-us/library/Gg398238(v=OCS.15))
+    [Gruppe-CsOutboundTranslationRule](https://technet.microsoft.com/library/Gg413073(v=OCS.15))
 
-  - <span></span>  
-    [Test-CsTrunkConfiguration](https://technet.microsoft.com/en-us/library/Gg398137(v=OCS.15))
+<!-- end list -->
+
+  - [Get-cstrunk "](https://technet.microsoft.com/library/JJ205244(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsVoiceRegex](https://technet.microsoft.com/en-us/library/Gg412751(v=OCS.15))
+    [Get-CsTrunkConfiguration](https://technet.microsoft.com/library/Gg398224(v=OCS.15))
+
+  - <span></span>  
+    [New-CsTrunkConfiguration](https://technet.microsoft.com/library/Gg413021(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsTrunkConfiguration](https://technet.microsoft.com/library/Gg425943(v=OCS.15))
+
+  - <span></span>  
+    [Gruppe-CsTrunkConfiguration](https://technet.microsoft.com/library/Gg398238(v=OCS.15))
+
+  - <span></span>  
+    [Test-CsTrunkConfiguration](https://technet.microsoft.com/library/Gg398137(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [New-CsVoiceRegex](https://technet.microsoft.com/library/Gg412751(v=OCS.15))
 
 **[Cmdlets für das VoIP-Routing in lync Server 2013](lync-server-2013-voice-routing-cmdlets.md)**
 
   - <span></span>  
-    [Get-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425851(v=OCS.15))
+    [Get-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg425851(v=OCS.15))
 
   - <span></span>  
-    [Neu – CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg399056(v=OCS.15))
+    [New-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg399056(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398643(v=OCS.15))
+    [Remove-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg398643(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg412811(v=OCS.15))
+    [Gruppe-CsRoutingConfiguration](https://technet.microsoft.com/library/Gg412811(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425926(v=OCS.15))
+    [Get-CsVoiceRoute](https://technet.microsoft.com/library/Gg425926(v=OCS.15))
 
   - <span></span>  
-    [Neu – CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg398197(v=OCS.15))
+    [New-CsVoiceRoute](https://technet.microsoft.com/library/Gg398197(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg398468(v=OCS.15))
+    [Remove-CsVoiceRoute](https://technet.microsoft.com/library/Gg398468(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg412893(v=OCS.15))
+    [Gruppe-CsVoiceRoute](https://technet.microsoft.com/library/Gg412893(v=OCS.15))
 
   - <span></span>  
-    [Test-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425873(v=OCS.15))
+    [Test-CsVoiceRoute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))
 
 </div>
 

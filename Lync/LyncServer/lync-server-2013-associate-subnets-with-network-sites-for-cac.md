@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Zuordnen von Subnetzen zu Netzwerkstandorten für CAC'
+title: 'Lync Server 2013: Zuordnen von Subnetzen zu Netzwerkstandorten für die Anrufsteuerung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185017
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf447b2e34ff4f274ebcab9d36e40b65bedab7dd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e431998ebb3836564dc73c7dc5a4d6b496653df1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722775"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044797"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="associate-subnets-with-network-sites-for-cac-in-lync-server-2013"></a>Zuordnen von Subnetzen zu Netzwerkstandorten für CAC in lync Server 2013
+# <a name="associate-subnets-with-network-sites-for-cac-in-lync-server-2013"></a>Zuordnen von Subnetzen zu Netzwerkstandorten für die Anrufsteuerung in lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41722775"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-20_
+_**Letztes Änderungsstand des Themas:** 2012-10-20_
 
-Jedes Subnetz in Ihrem Netzwerk muss einer bestimmten Netzwerk Website zugeordnet sein. Dies liegt daran, dass die Netzwerk Website, auf der sich ein Endpunkt befindet, mithilfe von Subnetinformationen ermittelt wird. Wenn die Speicherorte beider Parteien in einer Sitzung bekannt sind, kann die Anrufannahme Steuerung (CAC) ermitteln, ob genügend Bandbreite vorhanden ist, um einen Anruf einzurichten.
+Jedes Subnetz in Ihrem Netzwerk muss einem bestimmten Netzwerkstandort zugeordnet sein. Anhand dieser Subnetzinformationen wird der Netzwerkstandort ermittelt, an dem sich ein Endpunkt befindet. Wenn die Standorte beider Parteien in einer Sitzung bekannt sind, kann die Anrufsteuerung (Call Admission Control, CAC) ermitteln, ob genügend Bandbreite vorhanden ist, um einen Anruf einzurichten.
 
-Die Anrufsteuerung bietet keine besonderen Anforderungen für die Zuordnung von Subnetzen zu Netzwerkstandorten. Wenn Sie eine Zuordnung zwischen den Subnetzen und Netzwerkstandorten in Ihrer Topologie erstellen möchten, führen Sie die Verfahren unter Zuordnen eines Subnetzes [zu einer Netzwerk Website in lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)aus. Informationen zum Anzeigen der Netzwerk Websites (und der zugehörigen Subnetze) in der Beispiel Netzwerktopologie für die Anrufsteuerung finden Sie unter [Beispiel: Sammeln Ihrer Anforderungen für die Anrufsteuerung in lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in der Planungsdokumentation.
+Die Anrufsteuerung hat keine besonderen Anforderungen für das Zuordnen von Subnetzen zu Netzwerkstandorten. Um eine Zuordnung zwischen den Subnetzen und Netzwerkstandorten in Ihrer Topologie zu erstellen, führen Sie die Verfahren unter Zuordnen eines Subnetzes [mit einem Netzwerkstandort in lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)aus. Informationen zum Anzeigen der Netzwerkstandorte (und der entsprechenden Subnetze) in der Beispiel Netzwerktopologie für die Anrufsteuerung finden Sie unter [Beispiel: Sammeln Ihrer Anforderungen für die Anrufsteuerung in lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in der Planungsdokumentation.
 
 </div>
 

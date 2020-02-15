@@ -12,20 +12,20 @@ ms:contentKeyID: 48183552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e316fe33ac77784a681a71b9cabd0613bb1cc1b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47d416017afdc36eefaffd3269359bcd0192a0c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744265"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044367"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="usersite-table-in-lync-server-2013"></a>UserSite-Tabelle in Lync Server 2013
+# <a name="usersite-table-in-lync-server-2013"></a>UserSite-Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744265"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2010-11-09_
+_**Letztes Änderungsstand des Themas:** 2010-11-09_
 
-Die Tabelle UserSite ist eine unterstützende Tabelle. Jeder Datensatz steht für eine Benutzer Website, die in der Netzwerk Konfigurationseinstellung definiert ist.
+Bei der UserSite-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz steht für einen Benutzerstandort in der Netzwerkkonfigurationseinstellung.
 
 
 <table>
@@ -60,19 +60,19 @@ Die Tabelle UserSite ist eine unterstützende Tabelle. Jeder Datensatz steht fü
 <td><p><strong>UserSiteKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutige Nummer, die die Benutzer Website kennzeichnet.</p></td>
+<td><p>Eindeutige Zahl, die den Benutzerstandort identifiziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserSiteName</strong></p></td>
 <td><p>nvarchar (128)</p></td>
-<td><p>Eindeutigen</p></td>
-<td><p>Name der Benutzer Website.</p></td>
+<td><p>Eigen</p></td>
+<td><p>Name des Benutzerstandorts.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RegionKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Referenziert aus der <a href="lync-server-2013-region-table.md">Regions Tabelle in lync Server 2013</a></p></td>
+<td><p>Referenziert aus der <a href="lync-server-2013-region-table.md">Region-Tabelle in lync Server 2013</a>.</p></td>
 </tr>
 </tbody>
 </table>

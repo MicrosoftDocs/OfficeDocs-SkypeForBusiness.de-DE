@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Änderungsverwaltung'
+title: 'Lync Server 2013: Change Management'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969618
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd6e60749e35c9680300925f07e84d98d675884c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: abd6af0af5722d05d7439ac262ff36e62d2b12e1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730205"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043957"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,49 +35,49 @@ ms.locfileid: "41730205"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-08-18_
+_**Letztes Änderungsstand des Themas:** 2014-08-18_
 
-Änderungen an der IT-Umgebung sind unvermeidlich. Zu den Änderungen gehören neue Technologien, Systeme, Anwendungen, Hardware, Tools, Prozesse und Änderungen an Rollen und Zuständigkeiten. Mit einem effektiven Änderungsverwaltungssystem können Sie Änderungen an der IT-Umgebung schnell und mit minimaler Dienstunterbrechung einführen. Ein Change Management System führt die Teams zusammen, die an der Änderung eines Systems beteiligt sind. Beispielsweise die Entscheidung, die Vorteile der Office Web Apps zu nutzen. Hierbei handelt es sich um eine integrierte lync-Dienstanwendung, mit der Benutzer Dokumente in einem Browser lesen und bearbeiten können. Die Implementierung dieses Diensts erfordert, nachdem Sie die Produktion durchlaufen haben, die Einbindung mehrerer Teams:
+Änderungen an der IT-Umgebung sind unvermeidlich. Zu den Änderungen gehören neue Technologien, Systeme, Anwendungen, Hardware, Tools, Prozesse und Änderungen in Rollen und Verantwortlichkeiten. Mithilfe eines effektiven Änderungsverwaltungssystems können Sie Änderungen an der IT-Umgebung schnell und mit minimaler Dienstunterbrechung einleiten. Ein Change Management System bringt die Teams zusammen, die an der Änderung eines Systems beteiligt sind. Beispielsweise die Entscheidung, die Vorteile der Office-Webanwendungen zu nutzen. Hierbei handelt es sich um eine integrierte lync-Dienstanwendung, mit der Benutzer Dokumente in einem Browser lesen und bearbeiten können. Die Implementierung dieses Diensts erfordert, nachdem Sie die Produktion durchlaufen haben, eine Beteiligung von mehreren Teams:
 
-  - **Testteam**   dieses Team lädt-testet die Office Web Apps auf einem Testserver im Prozess, in dem Informationen zu den voraussichtlichen Verwendungsmustern und der erwarteten Leistung der Produktionsserver bereitgestellt werden.
+  - **Testteam**   dieses Team lädt die Office-Webanwendungen auf einem Testserver, wobei Informationen zu den erwarteten Verwendungsmustern und der erwarteten Leistung der Produktionsserver bereitgestellt werden.
 
-  - **Lync-Administratoren**   dieses Team ermittelt die Bereitstellungsstrategie und erstellt Skripts für die Installation, sofern dies möglich war. Das Team ist dafür verantwortlich, sicherzustellen, dass die Änderung in der Produktionsumgebung bereitgestellt wird, und ist danach für die Verwaltung verantwortlich. Das Team muss die Auswirkungen der Änderungen verstehen und in Verfahren einbeziehen, bevor die Änderungen in die Produktion übernommen werden.
+  - **Lync-Administratoren**   dieses Team bestimmt die Bereitstellungsstrategie und legt die Installation so fest, wie es möglich war. Das Team ist dafür verantwortlich, sicherzustellen, dass die Änderung in der Produktionsumgebung bereitgestellt wird und danach für die Verwaltung zuständig ist. Das Team muss die Auswirkungen der Änderungen verstehen und in Prozeduren einbinden, bevor die Änderungen in die Produktion übernommen werden.
 
-  - **Netzwerkteam**   dieses Team ist für Änderungen an Firewallregeln verantwortlich, die den Zugriff aus dem Internet auf die internen lync-Pool Server zulassen. Das Team ist auch für die Zusammenarbeit mit den lync-Administratoren verantwortlich, um sicherzustellen, dass die verfügbare Bandbreite die zusätzliche Last unterstützenkann.
+  - **Netzwerkteam**   dieses Team ist für Änderungen an Firewallregeln verantwortlich, die den Zugriff über das Internet auf die internen lync-Pool Server ermöglichen. Das Team ist außerdem für die Zusammenarbeit mit den lync-Administratoren verantwortlich, um sicherzustellen, dass die verfügbare Bandbreite die zusätzliche Last unterstützenkann.
 
   - **Sicherheitsteam**   dieses Team bewertet die Sicherheit und minimiert Risiken. Das Sicherheitsteam muss bekannte Sicherheitsanfälligkeiten überprüfen und sicherstellen, dass Sicherheitsrisiken minimiert werden.
 
-  - **Benutzerakzeptanzteam**   dieses Team besteht aus Benutzern, die bereit sind, das System zu testen und Feedback zu Verbesserungen anzubieten.
+  - **Benutzerakzeptanzteam**   dieses Team besteht aus Benutzern, die bereit sind, das System zu testen und Feedback für Verbesserungen anzubieten.
 
-Der Change Management-Prozess definiert die Zuständigkeiten der einzelnen Teams und plant die auszuführende Arbeit, wobei die erforderlichen Prüfungen und Tests integriert werden. Die Steuerelemente für Änderungen variieren abhängig von der Komplexität und dem erwarteten Effekt einer Änderung. Sie können von der automatischen Genehmigung für geringfügige Änderungen, über Änderungs Überprüfungs Besprechungen bis hin zu vollständigen Bewertungen auf Projektebene variieren. Um dies besser zu erklären, werden die Gruppen von Änderungen in diesem Abschnitt erläutert.
+Der Change Management-Prozess definiert die Zuständigkeiten jedes Teams und plant die auszuführende Arbeit, wobei die erforderlichen Prüfungen und Tests durchgeführt werden. Änderungs Steuerelemente hängen von der Komplexität und dem erwarteten Effekt einer Änderung ab. Sie können von der automatischen Genehmigung für geringfügige Änderungen, über Änderungs Überprüfungs Besprechungen bis hin zu vollständigen Reviews auf Projektebene variieren. Um dies besser zu erklären, werden die Gruppen von Änderungen in diesem Abschnitt erläutert.
 
-  - **Wichtige Änderungen**   größere Änderungen haben eine globale Auswirkung auf das System und erfordern möglicherweise Eingaben von verschiedenen Teams. Ein Beispiel hierfür ist das Upgrade auf lync Server 2013. Wichtige Änderungen betreffen viele Teams und möglicherweise andere Systeme. Der Change Management-Prozess umfasst wahrscheinlich eine oder mehrere Änderungs Überprüfungs Besprechungen, um die Teams zu informieren, die an der Änderung beteiligt sind oder von der Änderung betroffen sein werden.
+  - **Wesentliche Änderungen**   wichtige Änderungen haben eine globale Auswirkung auf das System und erfordern möglicherweise Eingaben von verschiedenen Teams. Ein Beispiel hierfür ist ein Upgrade auf lync Server 2013. Wesentliche Änderungen betreffen viele Teams und möglicherweise unterschiedliche Systeme. Der Änderungsverwaltungsprozess umfasst möglicherweise eine oder mehrere Änderungs Überprüfungs Besprechungen, um die Teams zu informieren, die an der Änderung beteiligt sind oder von der Änderung betroffen sind.
 
-  - **Signifikante Änderungen**   wesentliche Änderungen erfordern erhebliche Ressourcen, um zu planen, zu erstellen und zu implementieren. Es sollten geeignete Änderungs Steuerelemente eingeführt werden, um sicherzustellen, dass die Auswirkungen der Änderung verstanden werden, Bereitstellungsverfahren getestet und die Rollback-und Notfallpläne bereit sind. Ein Beispiel für eine wesentliche Änderung ist die Bereitstellungeines neuen kumulativen Updates.
+  - **Wesentliche Änderungen**   wesentliche Änderungen erfordern erhebliche Ressourcen für die Planung, Erstellung und Implementierung. Es sollten geeignete Änderungs Steuerelemente eingeführt werden, um sicherzustellen, dass die Auswirkungen der Änderung verstanden werden, Bereitstellungsverfahren getestet werden und die Rollback-und Notfallpläne bereit sind. Ein Beispiel für eine wesentliche Änderung ist die Bereitstellungeines neuen kumulativen Updates.
 
-  - **Geringfügige Änderungen**   geringfügige Änderungen haben keine nennenswerten Auswirkungen auf die IT-Umgebung, beispielsweise das Ändern bestimmter lync-Richtlinien über die Microsoft lync Server 2013-Systemsteuerung.
+  - **Geringfügige**   Änderungen geringfügige Änderungen wirken sich nicht wesentlich auf die IT-Umgebung aus, beispielsweisedurch Ändern bestimmter lync-Richtlinien über die Microsoft lync Server 2013-Systemsteuerung.
 
-  - **Standardänderungen**   Standardänderungen werden regelmäßig durchgeführt und sind gut verstanden und dokumentiert. Der Change Management-Prozess sollte alle Änderungen an den Prozeduren überprüfen. Es sollte nicht für Routineänderungen wie das Erstellen einer Inhaltsdatenbank oder das Hinzufügen eines Benutzers benötigt werden.
+  - **Standardänderungen**   Standardänderungen werden regelmäßig durchgeführt und sind gut verstanden und dokumentiert. Der Änderungsverwaltungsprozess sollte alle Änderungen an den Verfahren überprüfen. Es sollte nicht für Routineänderungen wie das Erstellen einer Inhaltsdatenbank oder das Hinzufügen eines Benutzers benötigt werden.
 
-Im folgenden Beispiel für die Änderungsverwaltung wird untersucht, wie verschiedene Teams interagieren und welche Aktionen ausgeführt werden, wenn ein neues Service Pack bereitgestellt wird. Diese Aktionen werden vom Change Management-Prozess organisiert und verwaltet.
+Im folgenden Beispiel für die Änderungsverwaltung wird untersucht, wie unterschiedliche Teams interagieren und welche Aktionen ausgeführt werden, wenn ein neues Service Pack bereitgestellt wird. Diese Aktionen werden vom Änderungsverwaltungsprozess organisiert und verwaltet.
 
   - **Auslösen einer Änderungsanforderung**   das Sicherheitsteam hat das neueste Service Pack bewertet und bestätigt, dass es eine mögliche Sicherheitsanfälligkeit im Produktionssystem behebt. Das Team löst eine Änderungsanforderung aus, damit das neue kumulative Update auf alle Server angewendet wird, auf denen lync Server ausgeführt wird.
 
-  - **Informationen zu Service Pack-Versions**   hinweisen das lync-Administrator Team überprüft die Versionshinweise des Service Packs, um die Auswirkungen auf das System zu ermitteln.
+  - **Service Pack-Versionshinweise überprüfen**   das lync-Administrator Team überprüft die Service Pack-Versionshinweise, um die Auswirkungen auf das System zu identifizieren.
 
-  - **Eine Reihe von Lab-Tests wird durchgeführt**   das lync-Administrator Team muss Test Updates auf einem Server in einer Testumgebung durchführen, um zu entscheiden, ob das Service Pack erfolgreich angewendet werden kann, ohne dass sich dies auf installierte Anwendungen und Server Systeme auswirkt. Wenn es sich um von Drittanbietern oder intern erstellte Anwendungen handelt, die eine Schnittstelle zu lync Server in einer Produktionsumgebung aufweisen, sollten diese ebenfalls getestet werden. Diese Tests können auch verwendet werden, um die Zeit zu schätzen, die für die Ausführung der Upgrades erforderlich ist.
+  - **Eine Reihe von Labortests wird durchgeführt**   das lync-Administrator Team muss Testaktualisierungen auf einem Server in einer Testumgebung durchführen, um zu entscheiden, ob das Service Pack erfolgreich angewendet werden kann, ohne dass sich dies auf installierte Anwendungen und Server Systeme auswirkt. Wenn Drittanbieter-oder intern erstellte Anwendungen vorhanden sind, die mit lync Server in einer Produktionsumgebung Schnittstellen, sollten diese ebenfalls getestet werden. Diese Tests können auch verwendet werden, um die Zeit zu schätzen, die zum Durchführen der Upgrades erforderlich ist.
 
-  - **Die Benutzer werden über den Ausfall**   informiert, den das lync-Administrator Team, das Kommunikationsteam oder der Benutzer-Helpdesk alle betroffenen Benutzer über den geplanten Wartungszyklus informiert und wie lange der Dienst nicht verfügbar ist.
+  - **Benutzer werden über den Ausfall**   informiert das lync-Administrator Team, das Kommunikationsteam oder das Benutzer-Helpdesk informiert alle betroffenen Benutzer über den geplanten Wartungszyklus und darüber, wie lange der Dienst nicht verfügbar ist.
 
-  - **Eine vollständige Sicherung von lync wird vor dem Upgrade**   durchgeführt, das vom lync-Administrator Team überprüft werden muss, ob eine gültige Sicherung vorhanden ist, die zum Wiederherstellen des ursprünglichen Systemzustands verwendet werden kann, wenn die Service Pack-Installation fehlschlägt. Wir empfehlen, dass die Sicherung auf einem Standbyserver wiederhergestellt wird, damit dieses System bei Problemen problemlos zur Verfügung steht.
+  - **Eine vollständige Sicherung von lync wird vor dem Upgrade**   durchgeführt. das lync-Administrator Team muss überprüfen, ob eine gültige Sicherung vorhanden ist, die zum Wiederherstellen des ursprünglichen Systemstatus verwendet werden kann, wenn die Installation des Service Packs fehlschlägt. Es wird empfohlen, dass die Sicherung auf einem Standbyserver wiederhergestellt wird, damit dieses System leicht verfügbar ist, wenn Probleme vorliegen.
 
-  - **Das kumulative Update wird bereitgestellt**   , wenn das lync-Administrator Team die Installation während des geplanten Wartungszyklus durchführt.
+  - **Das kumulative Update wird bereitgestellt**   das lync-Administrator Team führt die Installation während des geplanten Wartungszyklus durch.
 
 <div>
 
-## <a name="managing-the-timing-of-changes"></a>Verwalten der Anzeigedauer von Änderungen
+## <a name="managing-the-timing-of-changes"></a>Verwalten des Zeitpunkts von Änderungen
 
-Wir empfehlen, dass Sie eine Vorgehensweise zum Planen von Änderungen implementieren, um Unterbrechungen in überlappenden Abschnitten ihrer Arbeit zu vermeiden. So können beispielsweise zwei Teams eine geringfügige Änderung an einem System planen. Ein Team kann ein kumulatives Update in einem Pool anwenden, während ein anderes Team ältere Benutzer in diesen Pool migriert. Keines der Teams ist von den Änderungen betroffen, die das andere Team plant, und jedes Team weiß möglicherweise nicht unbedingt, welche Änderungen das andere Team plant. Wenn beide Änderungen gleichzeitig aufgetreten sind, gibt es möglicherweise Probleme beim Implementieren der Änderungen. Wenn nach dem Anwenden der Änderungen Probleme auftreten, beispielsweise wenn die Benutzermigration fehlschlägt, ist es möglicherweise schwierig, zu entscheiden, welche Änderung zurückgesetzt werden soll. Es sollten regelmäßige Wartungszeiten zwischen IT und Verwaltung eingerichtet werden, um die Änderungen zu testen und zu akzeptieren.
+Es wird empfohlen, eine Prozedur für die Planung von Änderungen zu implementieren, um Unterbrechungen in überlappenden Abschnitten ihrer Arbeit zu vermeiden. Beispielsweise können zwei Teams beide eine geringfügige Änderung an einem System planen. Ein Team kann ein kumulatives Update in einem Pool anwenden, während ein anderes Team ältere Benutzer in diesen Pool migriert. Keines der Teams ist von den Änderungen betroffen, die das andere Team plant, und jedes Team kennt möglicherweise nicht unbedingt Änderungen, die das andere Team plant. Wenn beide Änderungen gleichzeitig aufgetreten sind, gibt es möglicherweise Probleme beim Implementieren der Änderungen. Wenn nach der Anwendung der Änderungen Probleme auftreten, beispielsweise wenn die Benutzermigration fehlschlägt, kann es schwierig sein zu entscheiden, für welche Änderung ein Rollback ausgeführt werden soll. Es sollten regelmäßige Wartungszeiträume zwischen IT und Management eingerichtet werden, um die Änderungen zu testen und zu akzeptieren.
 
 </div>
 

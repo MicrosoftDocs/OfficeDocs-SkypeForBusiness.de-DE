@@ -12,20 +12,20 @@ ms:contentKeyID: 48185360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d82b896f1d6d1da1184bfa61d7352c9b4803a03
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23547ebc7faf594ee3ea72ef7d0c094846ac94b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742355"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043917"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-grant-cssetuppermission-in-lync-server-2013"></a>Von Grant-CsSetupPermission in lync Server 2013 vorgenommene Änderungen
+# <a name="changes-made-by-grant-cssetuppermission-in-lync-server-2013"></a>Von Grant-CsSetupPermission vorgenommene Änderungen in lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41742355"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-20_
+_**Letztes Änderungsstand des Themas:** 2012-06-20_
 
-Zum Delegieren von Setup können Sie der universellen RTCUniversalServerAdmins-Gruppe Berechtigungen für eine bestimmte Active Directory-Organisationseinheit erteilen, sodass Mitglieder der RTCUniversalServerAdmins-Gruppe in dieser OU lync Server 2013 im angegebenen Domäne, ohne Mitglieder der Gruppe "Domänen-Admins" zu sein.
+Um Setup zu delegieren, können Sie der universellen Gruppe RTCUniversalServerAdmins Berechtigungen für eine bestimmte Active Directory Organisationseinheit (Organizational Unit, OU) erteilen, sodass Mitglieder der Gruppe RTCUniversalServerAdmins in dieser Organisationseinheit lync Server 2013 in der angegebenen Domäne ohne Mitglied der Gruppe "Domänen-Admins" zu sein.
 
-Das Cmdlet **Grant-CsSetupPermission** gewährt der RTCUniversalServerAdmins-Gruppe Berechtigungen für eine OU, wie in der folgenden Tabelle angegeben:
+Das **Grant-CsSetupPermission-** Cmdlet erteilt den RTCUniversalServerAdmins-Gruppen Berechtigungen für eine OU, wie in der folgenden Tabelle angegeben:
 
-### <a name="permissions-granted-to-objects-in-the-ou"></a>Berechtigungen, die Objekten in der Organisationseinheit gewährt werden
+### <a name="permissions-granted-to-objects-in-the-ou"></a>Berechtigungen, die Objekten in der Organisationseinheit erteilt werden
 
 <table>
 <colgroup>
@@ -59,28 +59,28 @@ Das Cmdlet **Grant-CsSetupPermission** gewährt der RTCUniversalServerAdmins-Gru
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p>Spezieller Zugriff:</p>
 <ul>
-<li><p>Lesen von servicePrincipalName</p></li>
-<li><p>Schreiben von servicePrincipalName</p></li>
+<li><p>ServicePrincipalName lesen</p></li>
+<li><p>ServicePrincipalName schreiben</p></li>
 <li><p>Struktur löschen</p></li>
-<li><p>Replizieren von Verzeichnisänderungen</p></li>
+<li><p>Verzeichnisänderungen replizieren</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Nachfolger serviceConnectionPoint-Objekte</p></td>
+<td><p>Untergeordnete serviceConnectionPoint-Objekte</p></td>
 <td><p>Spezieller Zugriff:</p>
 <ul>
 <li><p>Leseberechtigungen</p></li>
 <li><p>Schreibberechtigungen</p></li>
-<li><p>Erstellen eines untergeordneten Elements</p></li>
+<li><p>Untergeordnetes Element erstellen</p></li>
 <li><p>Untergeordnetes Element löschen</p></li>
-<li><p>Listeninhalt</p></li>
+<li><p>Inhalt auflisten</p></li>
 <li><p>Write-Eigenschaft</p></li>
 <li><p>Read-Eigenschaft</p></li>
 <li><p>Struktur löschen</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>NachfolgerAttribut msRTCSIP-Server Objekte</p></td>
+<td><p>Untergeordnete msRTCSIP-Server Objekte</p></td>
 <td><p>Spezieller Zugriff:</p>
 <ul>
 <li><p>Write-Eigenschaft</p></li>
@@ -89,7 +89,7 @@ Das Cmdlet **Grant-CsSetupPermission** gewährt der RTCUniversalServerAdmins-Gru
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>NachfolgerAttribut msRTCSIP – Webkomponenten Objekte</p></td>
+<td><p>Untergeordnete msRTCSIP-WebComponents-Objekte</p></td>
 <td><p>Spezieller Zugriff:</p>
 <ul>
 <li><p>Write-Eigenschaft</p></li>
@@ -98,7 +98,7 @@ Das Cmdlet **Grant-CsSetupPermission** gewährt der RTCUniversalServerAdmins-Gru
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>NachfolgerAttribut msRTCSIP-MCU-Objekte</p></td>
+<td><p>Untergeordnete msRTCSIP-MCU-Objekte</p></td>
 <td><p>Spezieller Zugriff:</p>
 <ul>
 <li><p>Write-Eigenschaft</p></li>
@@ -107,7 +107,7 @@ Das Cmdlet **Grant-CsSetupPermission** gewährt der RTCUniversalServerAdmins-Gru
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>NachfolgerAttribut msRTCSIP-MediationServer-Objekte</p></td>
+<td><p>Untergeordnete msRTCSIP-MediationServer-Objekte</p></td>
 <td><p>Spezieller Zugriff:</p>
 <ul>
 <li><p>Write-Eigenschaft</p></li>
@@ -116,7 +116,7 @@ Das Cmdlet **Grant-CsSetupPermission** gewährt der RTCUniversalServerAdmins-Gru
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>NachfolgerAttribut msRTCSIP-ApplicationServer-Objekte</p></td>
+<td><p>Untergeordnete msRTCSIP-ApplicationServer-Objekte</p></td>
 <td><p>Spezieller Zugriff:</p>
 <ul>
 <li><p>Write-Eigenschaft</p></li>
@@ -125,7 +125,7 @@ Das Cmdlet **Grant-CsSetupPermission** gewährt der RTCUniversalServerAdmins-Gru
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>NachfolgerAttribut msRTCSIP-ConnectionPoint-Objekte</p></td>
+<td><p>Untergeordnete msRTCSIP-ConnectionPoint-Objekte</p></td>
 <td><p>Spezieller Zugriff:</p>
 <ul>
 <li><p>Write-Eigenschaft</p></li>
@@ -134,18 +134,18 @@ Das Cmdlet **Grant-CsSetupPermission** gewährt der RTCUniversalServerAdmins-Gru
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Nachfolger Computer Objekte</p></td>
+<td><p>Untergeordnete Computer-Objekte</p></td>
 <td><p>Spezieller Zugriff für serviceConnectionPoint:</p>
 <ul>
-<li><p>Erstellen von untergeordneten Objekten</p></li>
-<li><p>Löschen von untergeordneten Objekten</p></li>
+<li><p>Untergeordnete Objekte erstellen</p></li>
+<li><p>Untergeordnete Objekte löschen</p></li>
 <li><p>Struktur löschen</p></li>
 </ul>
 <p>Spezieller Zugriff für öffentliche Informationen:</p>
 <ul>
 <li><p>Read-Eigenschaft</p></li>
 </ul>
-<p>Spezieller Zugriff auf den DNS-Hostname:</p>
+<p>Spezieller Zugriff für den DNS-Hostnamen:</p>
 <ul>
 <li><p>Read-Eigenschaft</p></li>
 </ul></td>

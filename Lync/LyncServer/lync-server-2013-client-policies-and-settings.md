@@ -12,16 +12,16 @@ ms:contentKeyID: 48185330
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc306e97c3325ce4cfc11110665bd2f23781cf89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 72708219dcb6df3b0a0185cb9c59bcbd84c5c19a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742895"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044427"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41742895"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-18_
+_**Letztes Änderungsstand des Themas:** 2012-06-18_
 
-Dieses Thema enthält eine Übersicht über die clientbezogenen Einstellungen und Richtlinien, die Sie in lync Server 2013 konfigurieren können. Lync Server 2013 umfasst die folgenden Tools zum Verwalten und Konfigurieren von Clients:
+Dieses Thema bietet eine Übersicht über die clientbezogenen Einstellungen und Richtlinien, die Sie in lync Server 2013 konfigurieren können. Lync Server 2013 umfasst die folgenden Tools zum Verwalten und Konfigurieren von Clients:
 
-  - **Lync Server 2013-System**   Steuerung eine webbasierte grafische Benutzeroberfläche zum Verwalten und Konfigurieren von Servern, Benutzern, Clients und Geräten.
+  - **Lync Server 2013 System**   Steuerung eine webbasierte grafische Benutzeroberfläche zum Verwalten und Konfigurieren von Servern, Benutzern, Clients und Geräten.
 
-  - **Lync Server-Verwaltungsshell**   eine Verwaltungsschnittstelle mit einem umfangreichen Satz von Windows PowerShell-Cmdlets für die Befehlszeilenschnittstelle und einer Reihe vordefinierter Skripts.
+  - **Lync Server-Verwaltungsshell**   einer Verwaltungsschnittstelle mit einer umfangreichen Reihe von Windows PowerShell Cmdlets für Befehlszeilenschnittstelle und einer Reihe vordefinierter Skripts.
 
-  - **Lync 2013-Gruppenrichtlinie**     eine Reihe von Richtlinien, die Sie für Clients mithilfe der administrativen Vorlage für Office-Gruppenrichtlinien konfigurieren können. Bestimmte Richtlinien für Client-Boots Trap Pings müssen konfiguriert werden, bevor lync 2013-Clients bereitgestellt werden. Weitere optionale Einstellungen von lync 2010 werden weiterhin in lync 2013 berücksichtigt.
+  - **Lync 2013 Gruppenrichtlinie**     eine Reihe von Richtlinien, die Sie für Clients mithilfe der administrativen Vorlage für Office-Gruppenrichtlinien konfigurieren können. Bestimmte clientbootstrapping-Richtlinien müssen konfiguriert werden, bevor Sie lync 2013 Clients bereitstellen. Weitere optionale Einstellungen aus lync 2010 werden weiterhin in lync 2013 berücksichtigt.
 
 In diesem Abschnitt werden Änderungen an clientbezogenen Einstellungen in lync Server 2013 beschrieben.
 
 <div>
 
-## <a name="in-this-section"></a>In diesem Abschnitt
+## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
   - <span></span>  
     [Neue und geänderte Einstellungen für lync 2013](lync-server-2013-new-and-changed-settings-for-lync-2013.md)

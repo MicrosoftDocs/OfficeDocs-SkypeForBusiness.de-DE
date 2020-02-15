@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c700ed6fb4f95f3cc9a4ecfc6d66c7791aabb74
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 20fd9372c34fd189868aa32882115bee3f6c6f8f
+ms.sourcegitcommit: 346b58b5d5ea0d2ec68891275628dfde32c074fe
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833235"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41977527"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -56,6 +56,7 @@ In der folgenden Tabelle werden die für die Teammitglieder und ihre Gäste des 
 |Öffentliches Team finden und daran teilnehmen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Organisationschat anzeigen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Verwenden der Inline Übersetzung  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Teambesitzer werden  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 In der folgenden Tabelle sind die für Gäste verfügbaren Anruf-und besprechungsfeatures im Vergleich zu anderen Benutzertypen aufgeführt.
 

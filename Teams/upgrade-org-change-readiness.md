@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3f569cfc225c1933b978e9a0a7d9e9bf95be783
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6d7d0b1cf23b94f33c66218eaacdfdeda5aaab19
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837131"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048596"
 ---
 ![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Benutzer Bereitschaftsstufe](media/upgrade-banner-user-readiness.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Benutzer Bereitschaftsstufe")
 
@@ -107,7 +107,7 @@ Um Teams optimal zu nutzen, erstellen Sie eine Teamarbeit-Strategie, die beide S
 | | |
 |---|---|
 | ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Welche relatable-Teamarbeits Szenarien verwenden Sie, um die Benutzerakzeptanz von Teams zu beschleunigen und Ihr Upgrade von Skype for Business zu unterstützen?</li></ul> |
-| ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Verwenden Sie die nachstehenden Beispiele, um Ihre eigenen Teamarbeits Szenarien zu gestalten. Dokumentieren Sie Sie in der [Upgrade-Arbeitsmappe](https://aka.ms/upgradesuccesskit).</li><li>Weitere Szenarien und Beispiele finden Sie in der [Produktivitäts Bibliothek](https://www.microsoft.com/en-us/microsoft-365/success/) .</li></ul>|
+| ![Ein Symbol, das die nächsten Schritte darstellt](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Verwenden Sie die nachstehenden Beispiele, um Ihre eigenen Teamarbeits Szenarien zu gestalten. Dokumentieren Sie Sie in der [Upgrade-Arbeitsmappe](https://aka.ms/upgradesuccesskit).</li><li>Weitere Szenarien und Beispiele finden Sie in der [Produktivitäts Bibliothek](https://www.microsoft.com/microsoft-365/success/) .</li></ul>|
 
 ### <a name="examples"></a>Beispiele
 

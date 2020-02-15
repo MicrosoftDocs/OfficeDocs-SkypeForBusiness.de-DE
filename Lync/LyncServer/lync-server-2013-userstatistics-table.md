@@ -12,16 +12,16 @@ ms:contentKeyID: 49733827
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7609747848e1943a08eff2fa77b87f0168710f81
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98c24093f332f568daadfb0cd336f0d5fde3eb35
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744255"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044347"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744255"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Die Tabelle UserStatistics ist eine unterstützende Tabelle. Jeder Datensatz in der Tabelle speichert Informationen zur Verwendung des Systems durch einen einzelnen Benutzer. Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
+Die UserStatistics-Tabelle ist eine unterstützende Tabelle. Jeder Datensatz in der Tabelle speichert Informationen über die Verwendung des Systems durch einen einzelnen Benutzer. Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
 
 
 <table>
@@ -57,34 +57,34 @@ Die Tabelle UserStatistics ist eine unterstützende Tabelle. Jeder Datensatz in 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>UserID</strong></p></td>
+<td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutige Nummer, die diesen Benutzer kennzeichnet.</p></td>
+<td><p>Eindeutige Zahl, die diesen Benutzer identifiziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastLogInTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td></td>
-<td><p>Zeitpunkt, zu dem sich der Benutzer zuletzt angemeldet hat.</p></td>
+<td><p>Der letzte Zeitpunkt, an dem sich der Benutzer angemeldet hat.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizedTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td></td>
-<td><p>Der letzte Zeitpunkt, zu dem der Benutzer eine Konferenz organisiert hat.</p></td>
+<td><p>Der letzte Zeitpunkt, zu dem der Benutzer eine Konferenz organisierte.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastCallOrganizerCallFailureTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td></td>
-<td><p>Der letzte Zeitpunkt, zu dem der Benutzer einen Anruf Fehler erlebt hat.</p></td>
+<td><p>Der letzte Zeitpunkt, zu dem der Benutzer einen Anruf Fehler aufgetreten ist.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizerCallFailureTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td></td>
-<td><p>Der letzte Zeitpunkt, zu dem der Benutzer einen Anruf Fehler als Konferenzorganisator erlebt hat.</p></td>
+<td><p>Der letzte Zeitpunkt, zu dem der Benutzer einen Anruf Fehler als Konferenzorganisator erfuhr.</p></td>
 </tr>
 </tbody>
 </table>

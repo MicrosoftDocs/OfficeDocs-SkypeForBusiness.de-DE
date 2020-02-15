@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Neue Funktinen für die Exchange Server-Integration'
+title: 'Lync Server 2013: neue Exchange Server Integrationsfeatures'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185431
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4e515b668bd91cc04752dffb034569cd8aa7abf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aa3a7ffd1d9b69170c942b3402f156ff1cd5a86d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762983"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042352"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-exchange-server-integration-features-in-lync-server-2013"></a>Neue Funktinen für die Exchange Server-Integration in Lync Server 2013
+# <a name="new-exchange-server-integration-features-in-lync-server-2013"></a>Neue Exchange Server Integrationsfeatures in lync Server 2013
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "41762983"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-24_
+_**Letztes Änderungsstand des Themas:** 2012-09-24_
 
-Lync Server 2013 unterstützt neue Features, wenn es zusammen mit Microsoft Exchange Server 2013 bereitgestellt wird, wie in der folgenden Liste beschrieben. Damit die einzelnen Features funktionieren, müssen sowohl lync Server 2013 als auch Exchange 2013 bereitgestellt werden.
+Lync Server 2013 unterstützt neue Features, wenn es neben Microsoft Exchange Server 2013 bereitgestellt wird, wie in der folgenden Liste beschrieben. Damit jedes dieser Features funktioniert, müssen sowohl lync Server 2013 als auch Exchange 2013 bereitgestellt werden.
 
   - Sie können einen **einheitlichen Kontaktspeicher**verwenden, in dem die lync-Kontaktliste in Exchange 2013 gespeichert ist, und Sie können den Kontaktspeicher in lync 2013, Outlook 2013 und Outlook Web App verwalten.
 
-  - Sie können **Fotos mit hoher Auflösung** für Kontakte verwenden. Fotos mit bis zu 648x648 Pixeln werden in Exchange 2013 gespeichert und für Clients zur Verfügung gestellt, einschließlich lync 2013, Outlook 2013, Microsoft lync Web App und Outlook Web App.
+  - Sie können **Fotos mit hoher Auflösung** für Kontakte verwenden. Fotos mit bis zu 648x648 Pixel werden in Exchange 2013 gespeichert und für Clients zur Verfügung gestellt, einschließlich lync 2013, Outlook 2013, Microsoft lync Web App und Outlook Web App.
 
-  - Sie können die **lync-Archivierungs Integration**aktivieren, in der die lync Server 2013-Archivierung in das Exchange 2013-Feature für in-situ-Speicher für Benutzer integriert ist, die sich in Exchange 2013 befinden, wodurch Administratoren rund um Compliance und eDiscovery eine gemeinsame Erfahrung ermöglichen.
+  - Sie können die **lync-Archivierungs Integration**aktivieren, die lync Server 2013 Archivierung in das Exchange 2013 in-situ-Speicherfeature integriert, für Benutzer, die in Exchange 2013 verwaltet werden, was eine allgemeine Erfahrung für Administratoren rund um Compliance und eDiscovery ermöglicht.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planen und Bereitstellen von Unified Contact Store in lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)  
+[Planen und Bereitstellen des einheitlichen Kontaktspeichers in lync Server 2013](lync-server-2013-planning-and-deploying-unified-contact-store.md)  
 [Funktionsweise der Archivierung in lync Server 2013](lync-server-2013-how-archiving-works.md)  
   
 

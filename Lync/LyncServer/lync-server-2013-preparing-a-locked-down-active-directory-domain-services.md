@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Vorbereiten gesperrter Active Directory-Domänendienste'
+title: 'Lync Server 2013: Vorbereiten einer gesperrten Active Directory-Domänendienste'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184377
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d589fbc6b7d31b38bc788ba9851edf4386294ea
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0181c2e4362685f8840af66d6a885c3e02611a85
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747455"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043027"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-a-locked-down-active-directory-domain-services-in-lync-server-2013"></a>Vorbereiten gesperrter Active Directory-Domänendienste in Lync Server 2013
+# <a name="preparing-a-locked-down-active-directory-domain-services-in-lync-server-2013"></a>Vorbereiten einer gesperrten Active Directory-Domänendienste in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41747455"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-05-14_
+_**Letztes Änderungsstand des Themas:** 2012-05-14_
 
-Organisationen Sperren häufig Active Directory-Domänendienste, um Sicherheitsrisiken zu minimieren. Eine gesperrte Active Directory-Umgebung kann jedoch die von lync Server 2013 erforderlichen Berechtigungen einschränken. Das ordnungsgemäße Vorbereiten einer gesperrten Active Directory-Umgebung für lync Server 2013 umfasst einige zusätzliche Überlegungen und Schritte.
+Unternehmen sperren häufig Active Directory-Domänendienste, um Sicherheitsrisiken zu minimieren. Eine gesperrte Active Directory Umgebung kann jedoch die Berechtigungen einschränken, die lync Server 2013 erfordert. Das ordnungsgemäße Vorbereiten einer gesperrten Active Directory Umgebung für lync Server 2013 umfasst einige zusätzliche Überlegungen und Schritte.
 
-Es gibt zwei gängige Methoden, mit denen Berechtigungen in einer gesperrten Active Directory-Umgebung eingeschränkt sind:
+Zwei Möglichkeiten, wie Berechtigungen in einer gesperrten Active Directory-Umgebung beschränkt sein können, sind:
 
-  - Zugriffssteuerungseinträge (ACEs) für authentifizierte Benutzer werden aus Containern entfernt.
+  - Zugriffssteuerungseinträge (Access Control Entries, ACEs) authentifizierter Benutzer wurden aus den Containern entfernt.
 
-  - Die Vererbung von Berechtigungen ist für Container von Benutzer-, Kontakt-, InetOrgPerson-oder Computer Objekten deaktiviert.
+  - Die Vererbung von Berechtigungen wurde für Container mit Benutzer-, Kontakt-, InetOrgPerson- oder Computerobjekten deaktiviert.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Entfernte Berechtigungen für authentifizierte Benutzer in Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md)
+  - [Berechtigungen für authentifizierte Benutzer werden in lync Server 2013 entfernt.](lync-server-2013-authenticated-user-permissions-are-removed.md)
 
-  - [Vererbung von Berechtigungen ist für Computer-, Benutzer- oder InetOrgPerson-Container deaktiviert in Lync Server 2013](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md)
+  - [Die Vererbung von Berechtigungen ist für Computer-, Benutzer-oder inetOrgPerson-Container in lync Server 2013 deaktiviert.](lync-server-2013-permissions-inheritance-is-disabled-on-computers-users-or-inetorgperson-containers.md)
 
 </div>
 

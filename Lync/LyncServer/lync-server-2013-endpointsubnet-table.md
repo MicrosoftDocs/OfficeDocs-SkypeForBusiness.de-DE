@@ -12,20 +12,20 @@ ms:contentKeyID: 48185514
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 055aa9460fb63e96d20472d6102c249ecf71a78b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 94e457eefed95eb813f49675b8f1c479e124bee8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735595"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042202"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="endpointsubnet-table-in-lync-server-2013"></a>EndpointSubnet-Tabelle in Lync Server 2013
+# <a name="endpointsubnet-table-in-lync-server-2013"></a>EndpointSubnet-Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41735595"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-Die Tabelle EndpointSubnet ist eine unterstützende Tabelle. Jeder Datensatz steht für ein Subnetz, das von Endpunkten erfasst wird.
+Bei der EndpointSubnet-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz steht für ein von Endpunkten erfasstes Subnetz.
 
 
 <table>
@@ -59,14 +59,14 @@ Die Tabelle EndpointSubnet ist eine unterstützende Tabelle. Jeder Datensatz ste
 <tr class="odd">
 <td><p><strong>SubnetIP</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Ganzzahlige Darstellung des Subnets</p></td>
+<td><p>Primär, Fremd</p></td>
+<td><p>Ganzzahlige Darstellung des Subnetzes.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td></td>
-<td><p>Nur für interne Verwendung.</p></td>
+<td><p>Ausschließlich für interne Zwecke.</p></td>
 </tr>
 </tbody>
 </table>

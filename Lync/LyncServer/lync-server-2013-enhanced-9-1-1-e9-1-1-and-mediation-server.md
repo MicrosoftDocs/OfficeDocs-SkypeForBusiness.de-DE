@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: 9-1-1 (erweitert) (E9-1-1) und Vermittlungsserver'
+title: 'Lync Server 2013: Enhanced 9-1-1 (E9-1-1) und Vermittlungsserver'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185448
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac6d6d7c9dd533d26f2cbf5c5116db7af4424ffe
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bd74c7ee030516b12039427a618596972240b901
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735459"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042132"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enhanced-9-1-1-e9-1-1-and-mediation-server-in-lync-server-2013"></a>9-1-1 (erweitert) (E9-1-1) und Vermittlungsserver in Lync Server 2013
+# <a name="enhanced-9-1-1-e9-1-1-and-mediation-server-in-lync-server-2013"></a>Enhanced 9-1-1 (E9-1-1) und Vermittlungsserver in lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41735459"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-29_
+_**Letztes Änderungsstand des Themas:** 2012-09-29_
 
-Der Vermittlungs Server verfügt über erweiterte Funktionen, damit er mit erweiterten 9-1-1-Serviceanbietern (E9-1-1) richtig interagieren kann. Auf dem Vermittlungs Server ist keine spezielle Konfiguration erforderlich; die für die E9-1-1-Interaktion erforderlichen SIP-Erweiterungen sind standardmäßig im SIP-Protokoll des Mediation-Servers für ihre Interaktionen mit einem Gateway-Peer (PSTN-Gateway, IP-Telefonanlage oder SBC eines Internet-Telefonie-Service-Anbieters) enthalten, einschließlich des E9-1-1-Diensts. Anbieter
+Das Vermittlungsserver verfügt über erweiterte Funktionen, sodass es ordnungsgemäß mit den erweiterten 9-1-1 (E9-1-1)-Dienstanbietern interagieren kann. Für die Vermittlungsserver ist keine spezielle Konfiguration erforderlich; die für die E9-1 -1-Interaktion erforderlichen SIP-Erweiterungen sind standardmäßig im SIP-Protokoll des Vermittlungsserver für die Interaktionen mit einem Gateway-Peer (PSTN-Gateway, IP-Nebenstellenanlage oder dem SBC eines Internet Telefonie-Dienstanbieters, einschließlich des E9-1-1-Diensts) enthalten. Anbieter
 
-Ob der SIP-Trunk zu einem E9-1-1-Dienstanbieter in einem vorhandenen Vermittlungs Server Pool beendet werden kann oder dass eigenständige Vermittlungsserver erforderlich sind, hängt davon ab, ob der E9-1-1-SBC mit einem Pool von Vermittlungsservern interagieren kann. Ausführliche Informationen finden Sie unter [M:N trunk in lync Server 2013](lync-server-2013-m-n-trunk.md).
+Ob ein SIP-Trunk zu einem E9-1-1-Dienstanbieter in einem vorhandenen Vermittlungsserverpool terminiert werden kann oder eigenständige Vermittlungsserver erfordert, hängt davon ab, ob der E9-1-1-SBC mit einem Vermittlungsserverpool interagieren kann. Ausführliche Informationen finden Sie unter [m:n-trunk trunk in lync Server 2013](lync-server-2013-m-n-trunk.md).
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Cmdlets für die Anruf Park Anwendung'
+title: 'Lync Server 2013: Anwendung zum Parken von Anrufen-Cmdlets'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ebd91f563348575e7498cd3441ffdadb35fec15
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1fb129114962a6f530ad1d52f6b0314d439d9c5d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742985"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044457"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-park-application-cmdlets-in-lync-server-2013"></a>Cmdlets für die Parken-Anwendung in lync Server 2013
+# <a name="call-park-application-cmdlets-in-lync-server-2013"></a>Anwendung zum Parken von Anrufen-Cmdlets in lync Server 2013
 
 </div>
 
@@ -35,48 +35,48 @@ ms.locfileid: "41742985"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-03-21_
+_**Letztes Änderungsstand des Themas:** 2012-03-21_
 
-Die Anwendung "Parken" ermöglicht es einem Benutzer, einen Anruf in Wartestellung zu setzen und diesen Anruf dann von einem anderen Telefon aus abzurufen. Verwenden Sie diese Cmdlets, um die Einstellungen für die Orbits des Anruf Parks und die Anwendung Parken zu konfigurieren.
+Anwendung zum Parken von Anrufen ermöglicht es einem Benutzer, einen Anruf in der Warteschleife zu tätigen und diesen Anruf von einem anderen Telefon aus abzurufen. Verwenden Sie diese Cmdlets, um Einstellungen für Orbits für das Parken von Anrufen und die Anwendung zum Parken von Anrufen zu konfigurieren.
 
 <div>
 
-## <a name="call-park-application-cmdlets"></a>Cmdlets für die Anruf Park Anwendung
+## <a name="call-park-application-cmdlets"></a>Cmdlets für die Anwendung zum Parken von Anrufen
 
-Die folgenden Cmdlets können zum Verwalten der Anwendung für den Parken von Anrufen verwendet werden.
+Die folgenden Cmdlets können zum Verwalten von Anwendung zum Parken von Anrufen verwendet werden.
 
-**Anruf parken-Anwendung**
-
-  - <span></span>  
-    [Get-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398554(v=OCS.15))
+**Anwendung zum Parken von Anrufen**
 
   - <span></span>  
-    [Neu – CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398936(v=OCS.15))
+    [Get-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398554(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg412901(v=OCS.15))
+    [New-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398936(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsCallParkOrbit](https://technet.microsoft.com/en-us/library/Gg398796(v=OCS.15))
+    [Remove-CsCallParkOrbit](https://technet.microsoft.com/library/Gg412901(v=OCS.15))
+
+  - <span></span>  
+    [Gruppe-CsCallParkOrbit](https://technet.microsoft.com/library/Gg398796(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Satz-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/en-us/library/Gg412836(v=OCS.15))
+    [Gruppe-CsCallParkServiceMusicOnHoldFile](https://technet.microsoft.com/library/Gg412836(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398948(v=OCS.15))
+    [Get-CsCpsConfiguration](https://technet.microsoft.com/library/Gg398948(v=OCS.15))
 
   - <span></span>  
-    [Neu – CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412919(v=OCS.15))
+    [New-CsCpsConfiguration](https://technet.microsoft.com/library/Gg412919(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg398358(v=OCS.15))
+    [Remove-CsCpsConfiguration](https://technet.microsoft.com/library/Gg398358(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsCpsConfiguration](https://technet.microsoft.com/en-us/library/Gg412721(v=OCS.15))
+    [Gruppe-CsCpsConfiguration](https://technet.microsoft.com/library/Gg412721(v=OCS.15))
 
 </div>
 

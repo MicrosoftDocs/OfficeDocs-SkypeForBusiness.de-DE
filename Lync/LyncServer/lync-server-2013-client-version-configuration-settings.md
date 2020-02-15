@@ -12,16 +12,16 @@ ms:contentKeyID: 50553005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 588189b093a27c65ff8348a9c176f9be4f9d1c4d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3365f3a1d2059692a5222fd19871f91836852a04
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733835"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044397"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41733835"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-12-12_
+_**Letztes Änderungsstand des Themas:** 2012-12-12_
 
-Konfigurationseinstellungen für Clientversionen werden verwendet, um die Client Versionskontrolle entweder global oder für bestimmte Websites zu aktivieren oder zu deaktivieren. Führen Sie die folgenden Verfahren aus, um die Konfigurationseinstellungen für Clientversionen für lync Server 2013 zu konfigurieren.
+Konfigurationseinstellungen für Clientversionen werden verwendet, um die Client Versionskontrolle entweder global oder für bestimmte Websites ein-oder auszuschalten. Verwenden Sie die folgenden Verfahren, um Konfigurationseinstellungen für Clientversionen für lync Server 2013 zu konfigurieren.
 
 <div>
 
@@ -45,13 +45,13 @@ Konfigurationseinstellungen für Clientversionen werden verwendet, um die Client
 
   - [Aktivieren oder Deaktivieren der Client Versionsverwaltung in lync Server 2013](lync-server-2013-enable-or-disable-client-versioning.md)
 
-  - [Erstellen oder Ändern einer Sammlung von Konfigurationseinstellungen für Clientversionen in lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-client-version-configuration-settings.md)
+  - [Erstellen oder Ändern einer Auflistung von Konfigurationseinstellungen für Clientversionen in lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-client-version-configuration-settings.md)
 
-  - [Ändern der Standardaktion für Clients, die in lync Server 2013 nicht explizit unterstützt oder eingeschränkt werden](lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted.md)
+  - [Ändern Sie die Standardaktion für Clients, die nicht explizit unterstützt oder in lync Server 2013 eingeschränkt sind.](lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted.md)
 
-  - [Anzeigen der Konfigurationseinstellungen für Clientversionen in lync Server 2013](lync-server-2013-view-client-version-configuration-settings.md)
+  - [Anzeigen von Konfigurationseinstellungen für Clientversionen in lync Server 2013](lync-server-2013-view-client-version-configuration-settings.md)
 
-  - [Löschen einer vorhandenen Sammlung von Konfigurationseinstellungen für Clientversionen in lync Server 2013](lync-server-2013-delete-an-existing-collection-of-client-version-configuration-settings.md)
+  - [Löschen einer vorhandenen Auflistung von Konfigurationseinstellungen für Clientversionen in lync Server 2013](lync-server-2013-delete-an-existing-collection-of-client-version-configuration-settings.md)
 
 </div>
 

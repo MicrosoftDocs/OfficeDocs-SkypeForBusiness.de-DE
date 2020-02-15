@@ -12,16 +12,16 @@ ms:contentKeyID: 59893874
 ms.date: 09/14/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f4b655ff632a50d2c28451a577f5be03bfabc82
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5cc25c66ce807e796cf7e510d89a5a623f98eb49
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735615"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042242"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41735615"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2017-09-14_
+_**Letztes Änderungsstand des Themas:** 2017-09-14_
 
-Microsoft lync Server 2013 verwendet TLS und MTLS zum Verschlüsseln von Sofortnachrichten. Für den gesamten Server-zu-Server-Datenverkehr ist MTLS erforderlich, unabhängig davon, ob der Datenverkehr auf das interne Netzwerk begrenzt ist oder die Netzwerkgrenze überschreitet. TLS ist optional, wird aber dringend zwischen dem Vermittlungs Server und dem Mediengateway empfohlen. Wenn TLS auf dieser Verbindung konfiguriert ist, ist MTLS erforderlich. Daher muss das Gateway mit einem Zertifikat von einer Zertifizierungsstelle konfiguriert werden, die vom Vermittlungs Server als vertrauenswürdig eingestuft wird.
+Microsoft lync Server 2013 verwendet TLS und MTLS zum Verschlüsseln von Chatnachrichten. Der gesamte Datenverkehr zwischen den Servern erfordert MTLS, und zwar unabhängig davon, ob die Daten innerhalb des internen Netzwerks verbleiben oder den internen Netzwerkumkreis verlassen. TLS ist optional, wird jedoch dringend zwischen dem Vermittlungsserver und dem Mediengateway empfohlen. Wenn TLS für diesen Link konfiguriert ist, ist MTLS erforderlich. Aus diesem Grund muss das Gateway mit einem Zertifikat von einer für den Vermittlungsserver vertrauenswürdigen Zertifizierungsstelle konfiguriert werden.
 
 <div>
 
 
 > [!NOTE]  
-> Im Jahr 2014 wurde eine Sicherheitsempfehlung zu SSL 3.0 veröffentlicht. Das Deaktivieren von SSL 3,0 in lync Server 2013 ist eine unterstützte Option. Weitere Informationen zur Sicherheitsempfehlung finden Sie unter <A class=uri href="https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/">https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/</A>.
+> Eine Sicherheitsempfehlung zu SSL 3,0 wurde in 2014 veröffentlicht. Das Deaktivieren von SSL 3,0 in lync Server 2013 ist eine unterstützte Option. Weitere Informationen zur Sicherheitsempfehlung finden Sie unter <A class=uri href="https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/">https://blogs.technet.microsoft.com/uclobby/2014/10/22/disabling-ssl-3-0-in-lync-server-2013/</A>.
 
 
 
@@ -59,7 +59,7 @@ Microsoft lync Server 2013 verwendet TLS und MTLS zum Verschlüsseln von Sofortn
 </thead>
 <tbody>
 <tr class="odd">
-<td>Um sicherzustellen, dass das stärkste kryptografische Protokoll verwendet wird, bietet lync Server 2013 TLS-Verschlüsselungsprotokolle in der folgenden Reihenfolge für Clients an: <strong>TLS 1,2</strong> , <strong>TLS 1,1</strong>, <strong>TLS 1,0</strong>. TLS ist ein wichtiger Aspekt von lync Server 2013 und daher erforderlich, um eine unterstützte Umgebung zu erhalten.</td>
+<td>Um sicherzustellen, dass das stärkste kryptografische Protokoll verwendet wird, bietet lync Server 2013 TLS-Verschlüsselungsprotokolle in der folgenden Reihenfolge für Clients an: <strong>TLS 1,2</strong> , <strong>TLS 1,1</strong>, <strong>TLS 1,0</strong>. TLS ist ein wichtiger Aspekt von lync Server 2013 und ist daher erforderlich, um eine unterstützte Umgebung beizubehalten.</td>
 </tr>
 </tbody>
 </table>
@@ -67,11 +67,11 @@ Microsoft lync Server 2013 verwendet TLS und MTLS zum Verschlüsseln von Sofortn
 
 </div>
 
-Die Anforderungen für Client-zu-Client-Datenverkehr hängen davon ab, ob der Datenverkehr die interne Unternehmensfirewall überschreitet. Rein interner Datenverkehr kann entweder TLS verwenden, in diesem Fall wird die Sofortnachricht verschlüsselt, oder TCP, in diesem Fall nicht.
+Die Anforderungen für den Datenverkehr zwischen Clients sind davon abhängig, ob dieser Datenverkehr die interne Unternehmensfirewall durchquert. Für komplett internen Datenverkehr kann TLS oder TCP verwendet werden. (Lediglich bei TLS wird die Sofortnachricht verschlüsselt.)
 
-In der folgenden Tabelle sind die Protokollanforderungen für jeden Datenverkehrstyp zusammengefasst.
+In der folgenden Tabelle werden die Protokollanforderungen für die einzelnen Datenverkehrstypen dargestellt.
 
-### <a name="traffic-protection"></a>Datenverkehrsschutz
+### <a name="traffic-protection"></a>Schutz des Datenverkehrs
 
 <table>
 <colgroup>
@@ -94,15 +94,15 @@ In der folgenden Tabelle sind die Protokollanforderungen für jeden Datenverkehr
 <td><p>TLS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Chat und Anwesenheit</p></td>
-<td><p>TLS (falls für TLS konfiguriert)</p></td>
+<td><p>Sofortnachrichten und Anwesenheit</p></td>
+<td><p>TLS (wenn für TLS konfiguriert)</p></td>
 </tr>
 <tr class="even">
-<td><p>Audio und Video und Desktopfreigaben von Medien</p></td>
+<td><p>Audio-, Video- und Desktopfreigabe von Medien</p></td>
 <td><p>SRTP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Desktopfreigabe (Signal)</p></td>
+<td><p>Desktopfreigabe (Signaldaten)</p></td>
 <td><p>TLS</p></td>
 </tr>
 <tr class="even">
@@ -110,7 +110,7 @@ In der folgenden Tabelle sind die Protokollanforderungen für jeden Datenverkehr
 <td><p>TLS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Herunterladen von Besprechungsinhalten, Herunterladen des Adressbuchs, Erweiterung der Verteilergruppe</p></td>
+<td><p>Herunterladen von Besprechungsinhalten und Adressbüchern, Erweiterung der Verteilergruppe</p></td>
 <td><p>HTTPS</p></td>
 </tr>
 </tbody>
@@ -121,19 +121,19 @@ In der folgenden Tabelle sind die Protokollanforderungen für jeden Datenverkehr
 
 ## <a name="media-encryption"></a>Medienverschlüsselung
 
-Mediendatenverkehr wird über Secure RTP (SRTP) verschlüsselt, ein Profil von RTP (Real-Time Transport-Protokoll), das Vertraulichkeit, Authentifizierung und Schutz vor Replay-Angriffen für RTP-Datenverkehr bereitstellt. Darüber hinaus werden Medien, die in beide Richtungen zwischen dem Vermittlungsserver und seinem internen nächsten Hop übertragen werden, ebenfalls über SRTP verschlüsselt. Medien, die in beide Richtungen zwischen dem Vermittlungs Server und einem Mediengateway fließen, werden standardmäßig nicht verschlüsselt. Der Vermittlungsserver kann die Verschlüsselung an das Mediengateway unterstützen, aber das Gateway muss MTLS und das Speichern eines Zertifikats unterstützen.
+Der Mediendatenverkehr wird über Secure RTP (SRTP) verschlüsselt, ein Profil von RTP (Real-Time Transport Protocol), das Vertraulichkeit, Authentifizierung und Schutz vor Replay-Angriffen für RTP-Datenverkehr bereitstellt. Darüber hinaus werden Medien, die in beide Richtungen zwischen dem Vermittlungsserver und dem internen nächsten Hop fließen, ebenfalls mithilfe von SRTP verschlüsselt. Medien, die in beide Richtungen zwischen dem Vermittlungsserver und einem Mediengateway fließen, werden standardmäßig nicht verschlüsselt. Das Vermittlungsserver kann die Verschlüsselung für das Mediengateway unterstützen, das Gateway muss jedoch MTLS und das Speichern eines Zertifikats unterstützen.
 
 <div>
 
 
 > [!NOTE]  
-> Audio/Video (A/V) wird mit der neuen Version von Windows Live Messenger unterstützt. Wenn Sie einen/V-Verbund mit Windows Live Messenger implementieren, müssen Sie auch die lync Server-Verschlüsselungsstufe ändern. Standardmäßig ist die Verschlüsselungsstufe auf „Erforderlich“ eingestellt. Sie müssen diese Einstellung mithilfe der lync Server-Verwaltungsshell in unterstützt ändern. Weitere Informationen finden Sie unter <A href="lync-server-2013-deploying-external-user-access.md">Bereitstellen des Zugriffs auf externe Benutzer in lync Server 2013</A> in der Bereitstellungsdokumentation.
+> Audio/Video (A/V) wird mit der neuen Version von Windows Live Messenger unterstützt. Wenn Sie einen A/V-Partnerverbund mit Windows Live Messenger implementieren, müssen Sie auch die Microsoft Lync Server 2010-Verschlüsselungsstufe ändern. Standardmäßig lautet die Verschlüsselungsstufe "Erforderlich". Sie müssen diese Einstellung in unterstützt ändern, indem Sie die lync Server-Verwaltungsshell verwenden. Weitere Informationen finden Sie unter <A href="lync-server-2013-deploying-external-user-access.md">Deploying External User Access in lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 
 
 </div>
 
-Der Datenverkehr für Audio-und Video Medien wird zwischen Microsoft lync 2013 und Windows Live-Clients nicht verschlüsselt.
+Der Datenverkehr für Audio-und Video Medien wird nicht zwischen Microsoft lync 2013 und Windows Live-Clients verschlüsselt.
 
 </div>
 
@@ -141,7 +141,7 @@ Der Datenverkehr für Audio-und Video Medien wird zwischen Microsoft lync 2013 u
 
 ## <a name="fips"></a>FIPS
 
-Lync Server 2013 und Microsoft Exchange Server 2013 arbeiten mit Unterstützung für FIPS (Federal Information Processing Standard) 140-2-Algorithmen, wenn die Windows Server-Betriebssysteme so konfiguriert sind, dass Sie die FIPS 140-2-Algorithmen für die Systemkryptografie verwenden. Zum Implementieren der FIPS-Unterstützung müssen Sie jeden Server mit lync Server 2013 so konfigurieren, dass er unterstützt wird. Details zur Verwendung von FIPS-kompatiblen Algorithmen und zur Implementierung der FIPS-Unterstützung finden Sie im Microsoft Knowledge Base-Artikel 811833, die Auswirkungen der Aktivierung der Sicherheitseinstellung "System Kryptographie: FIPS-kompatible Algorithmen für Verschlüsselung, Hashing und Signierung" in Windows XP und späteren Windows-Versionen unter [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833). Ausführliche Informationen zu FIPS 140-2-Unterstützung und Einschränkungen in Exchange 2010 finden Sie unter Exchange 2010 SP1 und Unterstützung für [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)FIPS-konforme Algorithmen unter.
+Lync Server 2013 und Microsoft Exchange Server 2013 arbeiten mit Unterstützung für FIPS (Federal Information Processing Standard) 140-2-Algorithmen, wenn die Windows Server-Betriebssysteme für die Verwendung der FIPS 140-2-Algorithmen für die Systemkryptografie konfiguriert sind. Um die FIPS-Unterstützung zu implementieren, müssen Sie jeden Server konfigurieren, der lync Server 2013 ausführt, um ihn zu unterstützen. Ausführliche Informationen zur Verwendung von FIPS-kompatiblen Algorithmen und zur Implementierung der FIPS-Unterstützung finden Sie im Microsoft Knowledge Base-Artikel 811833, die Auswirkungen der Aktivierung der Sicherheitseinstellung "System Kryptografie: FIPS-konforme Algorithmen für Verschlüsselung, Hashing und Signierung verwenden" unter Windows XP und in höheren Windows [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)-Versionen unter. Ausführliche Informationen zur Unterstützung von FIPS 140-2 und zu Einschränkungen in Exchange 2010 finden Sie unter Exchange 2010 SP1 und Unterstützung [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)für FIPS-konforme Algorithmen unter.
 
 </div>
 

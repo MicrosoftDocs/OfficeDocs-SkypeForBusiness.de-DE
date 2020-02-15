@@ -12,16 +12,16 @@ ms:contentKeyID: 48185159
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a2fa69e0e2397b970850a91042f0241060f839
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a906e131329df1b59c4ac6067a4696871f0bebfc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762343"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044837"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762343"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-02-07_
+_**Letztes Änderungsstand des Themas:** 2014-02-07_
 
-Der Diagnosebericht enthält Diagnose- und Problembehandlungsinformationen der fehlerhaften Sitzung. Er enthält sowohl die während einer fehlerhaften Sitzung berichtete Diagnose-ID als auch den Diagnoseheader. Die Diagnose-ID ist ein eindeutiger Bezeichner (in der Form eines Headers vom Typ „ms-diagnostics“) der an eine SIP-Nachricht angefügt wird, während der Diagnoseheader eine begleitende Beschreibung für die Diagnose-ID bietet. Der Bericht enthält möglicherweise auch wertvolle Details für die Problembehandlung, die der Reporting-Komponente bekannt sind. Beispielsweise:
+Der Diagnosebericht enthält Diagnose- und Problembehandlungsinformationen der fehlerhaften Sitzung. Er enthält sowohl die während einer fehlerhaften Sitzung berichtete Diagnose-ID als auch den Diagnoseheader. Die Diagnose-ID ist ein eindeutiger Bezeichner (in der Form eines Headers vom Typ "ms-diagnostics") der an eine SIP-Nachricht angefügt wird, während der Diagnoseheader eine begleitende Beschreibung für die Diagnose-ID bietet. Der Bericht enthält möglicherweise auch wertvolle Details für die Problembehandlung, die der Reporting-Komponente bekannt sind. Beispielsweise:
 
   - Der vom PSTN-Gateway bereitgestellte Ursachencode, der den Fehler generiert hat. Wenn ein ausgehender Anruf im Telefonfestnetz nicht getätigt werden kann, wird automatisch ein ISUP-Ursachencode (ISDN User Part) generiert. Beispielsweise kann ein PSTN-Gateway den Ursachencode 34 senden, um anzuzeigen, dass keine Verbindung bzw. kein Kanal zum Tätigen des Anrufs verfügbar war.
 
@@ -49,7 +49,7 @@ Der Diagnosebericht enthält Diagnose- und Problembehandlungsinformationen der f
 
 ## <a name="accessing-the-diagnostic-report"></a>Zugreifen auf den Diagnosebericht
 
-Sie können auf den Diagnosebericht zugreifen, indem Sie im [Bericht Peer-to-Peer-Sitzungs Detail in lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) oder im Konferenz Detailbericht auf die Metrik für den Diagnosebericht (Detail) klicken.
+Auf den Diagnosebericht kann zugegriffen werden, indem Sie im [Detailbericht über Peer-to-Peer-Sitzungen in lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) oder im Konferenz Detailbericht auf die Metrik für den Diagnosebericht (Detail) klicken.
 
 </div>
 
@@ -84,7 +84,7 @@ In der folgenden Tabelle sind die im Diagnosebericht enthaltenen Informationen f
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Berichtszeitpunkt</strong></p></td>
+<td><p><strong>Berichtszeit</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Datum und Uhrzeit der Aufzeichnung des Berichts.</p></td>
 </tr>
@@ -99,7 +99,7 @@ In der folgenden Tabelle sind die im Diagnosebericht enthaltenen Informationen f
 <td><p>Typ der fehlerhaften SIP-Anforderung. Beispielsweise: INVITE, BYE oder SERVICE.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Quelle</strong></p></td>
+<td><p><strong>Source</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Ursache des Fehlers.</p></td>
 </tr>
@@ -109,14 +109,14 @@ In der folgenden Tabelle sind die im Diagnosebericht enthaltenen Informationen f
 <td><p>SIP-Adresse des Benutzers, der die Sitzung initiiert hat.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Von Benutzeragent</strong></p></td>
+<td><p><strong>Von Benutzer-Agent</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Software, die vom Endpunkt des Benutzers, der die Sitzung initiiert hat, verwendet wird.</p></td>
+<td><p>Software, die vom Endpunkt des Benutzers, der den Anruf initiiert hat, verwendet wird.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Diagnose-ID</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Eindeutige ID (in der Form eines Headers vom Typ „ms-diagnostics“), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt.</p></td>
+<td><p>Eindeutige ID (in der Form eines Headers vom Typ "ms-diagnostics"), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Inhaltstyp</strong></p></td>
@@ -124,7 +124,7 @@ In der folgenden Tabelle sind die im Diagnosebericht enthaltenen Informationen f
 <td><p>Typ der fehlerhaften Medieninhalte. Ein gebräuchlicher Inhaltstyp ist beispielsweise Application/sdp. SDP (Session Description Protocol) ist ein Standardinternetprotokoll, das für Sitzungsankündigungen, Sitzungseinladungen und andere Formen von Einladungen für Multimediasitzungen verwendet wird.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Anwendung</strong></p></td>
+<td><p><strong>Application</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Anwendung, die am Fehler beteiligt ist.</p></td>
 </tr>
@@ -147,7 +147,7 @@ In der folgenden Tabelle sind die im Diagnosebericht enthaltenen Informationen f
 </table>
 
 
-Eine Liste der Diagnosefehler finden Sie auf der [Header Seite MS-Diagnostics](http://msdn.microsoft.com/en-us/library/gg132446\(v=office.12\).aspx).
+Eine Liste der Diagnosefehler finden Sie auf der [Kopfzeilenseite der MS-Diagnostics](http://msdn.microsoft.com/library/gg132446\(v=office.12\).aspx).
 
 </div>
 

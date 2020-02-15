@@ -12,20 +12,20 @@ ms:contentKeyID: 48185822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b893eb79cb19856572e90bd449b315f0ade803c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0dbc7e4001299ef2d722896518291cc2afff001b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744185"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044337"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a>Verwenden von Cmdlets zum Rückgängigmachen der Gesamtstrukturvorbereitung für Lync Server 2013
+# <a name="using-cmdlets-to-reverse-forest-preparation-for-lync-server-2013"></a>Verwenden von Cmdlets zum Rückgängigmachen der Gesamtstrukturvorbereitung für lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41744185"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-06-19_
+_**Letztes Änderungsstand des Themas:** 2013-06-19_
 
-Verwenden Sie das Cmdlet **Disable-CsAdForest** , um den Vorbereitungsschritt für die Gesamtstruktur umzukehren.
+Verwenden Sie das Cmdlet **Disable-CsAdForest** , um den Gesamtstrukturvorbereitungsschritt umzukehren.
 
 <div>
 
 
 > [!WARNING]  
-> Wenn Sie das Cmdlet <STRONG>Disable-CsAdForest</STRONG> in einer Umgebung ausführen, in der auch eine frühere Version von lync Server bereitgestellt ist, werden die globalen Einstellungen für die vorherige Version ebenfalls gelöscht.
+> Wenn Sie das Cmdlet <STRONG>Disable-CsAdForest</STRONG> in einer Umgebung ausführen, in der Sie auch eine frühere Version von lync Server bereitgestellt haben, werden die globalen Einstellungen für die vorherige Version ebenfalls gelöscht.
 
 
 
@@ -51,13 +51,13 @@ Verwenden Sie das Cmdlet **Disable-CsAdForest** , um den Vorbereitungsschritt f�
 
 <div>
 
-## <a name="to-use-cmdlets-to-reverse-forest-preparation"></a>So verwenden Sie Cmdlets zum Umkehren der Gesamtstrukturvorbereitung
+## <a name="to-use-cmdlets-to-reverse-forest-preparation"></a>So verwenden Sie Cmdlets zum Rückgängigmachen der Gesamtstrukturvorbereitung
 
-1.  Melden Sie sich bei einem Computer an, der einer Domäne als Mitglied der Gruppe der Domänenadministratoren in der Stammdomäne der Gesamtstruktur beigetreten ist.
+1.  Melden Sie sich bei einem Domänencomputer als Mitglied der Gruppe "Domänen-Admins" in der Stammdomäne der Gesamtstruktur an.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Führen Sie folgenden Befehl aus:
+3.  Ausführen
     
         Disable-CsAdForest [-Force] [-GroupDomain <FQDN of the domain in which universal groups were created>]
     
@@ -65,9 +65,9 @@ Verwenden Sie das Cmdlet **Disable-CsAdForest** , um den Vorbereitungsschritt f�
     
         Disable-CsAdForest -Force -GroupDomain contoso.net
     
-    Der Parameter Force gibt an, ob die Ausführung der Aufgabe erzwungen werden soll. Wenn dieser Parameter nicht vorhanden ist, wird der Befehl nicht ausgeführt, wenn noch eine Domäne in der Gesamtstruktur für lync Server 2013 vorbereitet ist. Wenn der Parameter Force angegeben wird, wird die Aktion ungeachtet des Zustands anderer Domänen in der Gesamtstruktur fortgesetzt.
+    Der Parameter Force gibt an, ob die Ausführung der Aufgabe erzwungen werden soll. Wenn dieser Parameter nicht vorhanden ist, wird der Befehl nicht ausgeführt, wenn auch eine Domäne in der Gesamtstruktur noch für lync Server 2013 vorbereitet ist. Wenn der Parameter Force angegeben wird, wird die Aktion unabhängig vom Status anderer Domänen in der Gesamtstruktur fortgesetzt.
     
-    Wenn Sie den GroupDomain-Parameter nicht angeben, ist der Standardwert die lokale Domäne.
+    Wenn Sie den Parameter "GroupDomain" nicht angeben, wird standardmäßig die lokale Domäne verwendet.
 
 </div>
 
@@ -76,10 +76,10 @@ Verwenden Sie das Cmdlet **Disable-CsAdForest** , um den Vorbereitungsschritt f�
 ## <a name="see-also"></a>Siehe auch
 
 
-[Ausführen der Gesamtstrukturvorbereitung für Lync Server 2013](lync-server-2013-running-forest-preparation.md)  
+[Laufende Gesamtstrukturvorbereitung für lync Server 2013](lync-server-2013-running-forest-preparation.md)  
 
 
-[Vorbereiten der Gesamtstruktur für Lync Server 2013](lync-server-2013-preparing-the-forest.md)  
+[Vorbereiten der Gesamtstruktur auf lync Server 2013](lync-server-2013-preparing-the-forest.md)  
   
 
 </div>

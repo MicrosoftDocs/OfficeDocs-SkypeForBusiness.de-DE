@@ -12,20 +12,20 @@ ms:contentKeyID: 49733748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1436855e3a5de0a20a0d08a8b8a526939d1bd17c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e72e562c2563a4e90613e2a75c424587bfb7b33d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757979"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042472"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-simple-urls-in-lync-server-2013"></a>Verwalten von einfachen URLs in lync Server 2013
+# <a name="managing-simple-urls-in-lync-server-2013"></a>Verwalten einfacher URLs in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757979"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-11_
+_**Letztes Änderungsstand des Themas:** 2012-10-11_
 
-Verwenden Sie die Verfahren in diesem Abschnitt, um einfache URLs auf der Seite **Topologie** in der lync Server 2013-Systemsteuerung zu verwalten.
+Verwenden Sie die Verfahren in diesem Abschnitt, um einfache URLs auf der Seite **Topologie** in lync Server 2013 Systemsteuerung zu verwalten.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-[Anzeigen von einfachen URL-Details in lync Server 2013](lync-server-2013-view-simple-url-details.md)
+[Anzeigen von Details zu einfachen URLs in lync Server 2013](lync-server-2013-view-simple-url-details.md)
 
 </div>
 
@@ -52,7 +52,7 @@ Verwenden Sie die Verfahren in diesem Abschnitt, um einfache URLs auf der Seite 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planung für einfache URLs in Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)  
+[Planen von einfachen URLs in lync Server 2013](lync-server-2013-planning-for-simple-urls.md)  
   
 
 </div>

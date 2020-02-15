@@ -12,16 +12,16 @@ ms:contentKeyID: 48185228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b763f9b01e070fc434dae997bc1e2da68dcbc26
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 12fc719c52434e07599fb4b65604ea832dc95f7e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729415"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042142"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41729415"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-07_
+_**Letztes Änderungsstand des Themas:** 2012-11-07_
 
-In diesem Abschnitt werden die DNS-Einträge (Domain Name System) beschrieben, die für die Bereitstellung von Front-End-Pools erforderlich sind.
+In diesem Abschnitt werden die DNS-Einträge (Domain Name System) beschrieben, die zur Bereitstellung von Front-End-Pools erforderlich sind.
 
 <div>
 
 ## <a name="dns-records-for-front-end-pools"></a>DNS-Einträge für Front-End-Pools
 
-In der folgenden Tabelle sind die DNS-Anforderungen für eine lync Server 2013-Front-End-Pool Bereitstellung angegeben.
+In der folgenden Tabelle werden die DNS-Anforderungen für eine lync Server 2013 Front-End-Pool-Bereitstellung angegeben.
 
 ### <a name="dns-requirements-for-a-front-end-pool"></a>DNS-Anforderungen für einen Front-End-Pool
 
@@ -60,15 +60,15 @@ In der folgenden Tabelle sind die DNS-Anforderungen für eine lync Server 2013-F
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Front-End-Pool mit mehreren Front-End-Servern und einem Hardware-Lastenausgleichsmodul (unabhängig davon, ob der DNS-Lastenausgleich auch in diesem Pool bereitgestellt wird)</p></td>
-<td><p>Bei Verwendung des DNS-Lastenausgleichs und eines Hardware Lastenausgleichs müssen Sie (a)-Datensätze hosten. Erstellen Sie einen internen A-Eintrag, der den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Front-End-Pools für den DNS-Lastenausgleich behebt. Erstellen Sie einen internen Host (A)-Eintrag für die internen Webdienste an die virtuelle IP-Adresse (VIP) des Load Balancer. Sie müssen den internen Webdienste-Namen verwenden, wie in Topology Builder definiert.</p>
-<p>Wenn Sie beispielsweise sowohl den DNS-Lastenausgleich als auch den Hardwarelastenausgleich verwenden, verfügen Sie über einen a-Eintrag für jeden Front-End-Server in einem Pool für den DNS-Lastenausgleich und einen a-Eintrag für die internen Webdienste, die auf die virtuelle IP des Hardwarelastenausgleichs verweisen. :</p>
+<td><p>Front-End-Pool mit mehreren Front-End-Servern und Hardwaregerät zum Lastenausgleich (dieses wird unabhängig davon bereitgestellt, ob für den Pool auch der DNS-Lastenausgleich implementiert wird)</p></td>
+<td><p>Wenn Sie sowohl DNS-Lastenausgleich als auch ein Hardwaregerät zum Lastenausgleich verwenden, benötigen Sie Host (A)-Einträge. Erstellen Sie einen internen A-Eintrag, mit dem der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) des Front-End-Pools für den DNS-Lastenausgleich aufgelöst wird. Erstellen Sie einen internen Host (A)-Eintrag für die internen Webdienste zur VIP-Adresse (virtuelle IP) des Lastenausgleichs. Sie müssen den Namen der internen Webdienste gemäß Definition im Topologie-Generator verwenden.</p>
+<p>Wenn Sie beispielsweise sowohl DNS-Lastenausgleich als auch Hardwarelastenausgleich verwenden, verfügen Sie über einen a-Eintrag für jeden Front-End-Server in einem Pool für den DNS-Lastenausgleich und einen a-Eintrag für die internen Webdienste, die auf die virtuelle IP des Hardware Lastenausgleichs verweist. :</p>
 <ul>
-<li><p>DNS-Lastenausgleich: Pool01.contoso.NET IP-Adresse des Pool-10.10.10.5</p>
+<li><p>DNS-Lastenausgleich:   Pool01.contoso.net   IP-Adresse des Pools   10.10.10.5</p>
 <div>
 
 > [!WARNING]  
-> Für jeden Front-End-Server gibt es auch einen eindeutigen a-Eintrag:
+> Jeder Front-End-Server hat auch einen eindeutigen a-Eintrag:
 
 
 </div>
@@ -78,48 +78,48 @@ In der folgenden Tabelle sind die DNS-Anforderungen für eine lync Server 2013-F
 <li><p>FE03.contoso.net 10.10.10.3</p></li>
 <li><p>FE04.contoso.net 10.10.10.4</p></li>
 </ol></li>
-<li><p>Hardware Lastenausgleich: WebInternal.contoso.NET IP address of HLB VIP 192.168.10.5</p></li>
+<li><p>Hardwaregerät zum Lastenausgleich:   WebInternal.contoso.net   IP-Adresse des Hardwaregeräts zum Lastenausgleich_VIP   192.168.10.5</p></li>
 </ul>
-<p>Für den gesamten Datenverkehr mit Ausnahme des HTTP/HTTPS-Datenverkehrs wird der Pool01.contoso.net-Eintrag verwendet. Der HTTP/HTTPS-Datenverkehr verwendet die definierte interne Webdienste-Adresse von 192.168.10.5</p></td>
+<p>Sämtlicher Verkehr mit Ausnahme des HTTP/HTTPS-Datenverkehrs verwendet den Pool01.contoso.net-Eintrag. HTTP/HTTPS-Datenverkehr verwendet die definierte interne Webdiensteadresse 192.168.10.5.</p></td>
 </tr>
 <tr class="even">
-<td><p>Front-End-Pool mit Bereitstellung des DNS-Lastenausgleichs</p></td>
-<td><p>Eine Gruppe interner a-Datensätze, die den FQDN des Pools in die IP-Adresse jedes Servers im Pool auflösen. Für jeden Server im Pool muss ein Eintrag vorhanden sein.</p></td>
+<td><p>Front-End-Pool mit DNS-Lastenausgleich</p></td>
+<td><p>Ein Satz interner A-Einträge, die den Pool-FQDN in die IP-Adressen der einzelnen Server innerhalb des Pools auflösen. Für jeden Server im Pool muss mindestens ein A-Eintrag vorhanden sein.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Front-End-Pool mit Bereitstellung des DNS-Lastenausgleichs</p></td>
-<td><p>Eine Gruppe interner a-Datensätze, die den FQDN jedes Servers im Pool in die IP-Adresse dieses Servers auflösen. Ausführliche Informationen finden Sie unter <a href="lync-server-2013-dns-load-balancing.md">DNS-Lastenausgleich in lync Server 2013</a> in der Planungsdokumentation.</p></td>
+<td><p>Front-End-Pool mit DNS-Lastenausgleich</p></td>
+<td><p>Ein Satz interner A-Einträge, die den FQDN der einzelnen Server innerhalb des Pools in die IP-Adressen dieser Server auflösen. Ausführliche Informationen finden Sie unter <a href="lync-server-2013-dns-load-balancing.md">DNS-Lastenausgleich in lync Server 2013</a> in der Planungsdokumentation.</p></td>
 </tr>
 <tr class="even">
-<td><p>Front-End-Pool mit einem einzelnen Front-End-Server und einer dedizierten Back-End-Datenbank, aber ohne Lastenausgleichsmodul</p></td>
-<td><p>Ein interner A-Eintrag, der den FQDN des Front-End-Pools in die IP-Adresse des Single Enterprise Edition-Front-End-Servers auflöst.</p></td>
+<td><p>Front-End-Pool mit einem einzelnen Front-End-Server und einer dedizierten Back-End-Datenbank, jedoch ohne Lastenausgleich</p></td>
+<td><p>Ein interner A-Eintrag, der den FQDN des Front-End-Pools in die IP-Adresse des einzelnen Enterprise Edition-Front-End-Servers auflöst.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Automatische Clientanmeldung</p></td>
-<td><p>Für jede unterstützte SIP-Domäne einen SRV-Eintrag für _sipinternaltls. _tcp. &lt;Domäne&gt; über Port 5061, die dem FQDN des Front-End-Pools zugeordnet ist, der Clientanforderungen für die Anmeldung authentifiziert und umleitet. Ausführliche Informationen finden Sie unter <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">DNS-Anforderungen für die automatische Clientanmeldung in lync Server 2013</a>.</p></td>
+<td><p>Für jede unterstützte SIP-Domäne ein SRV-Eintrag für _sipinternaltls. _tcp. &lt;Domäne&gt; über Port 5061, die dem FQDN des Front-End-Pool zugeordnet ist, der Clientanforderungen für die Anmeldung authentifiziert und umleitet. Ausführliche Informationen finden Sie unter <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">DNS-Anforderungen für die automatische Clientanmeldung in lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p>Device Update-Webdienst Ermittlung durch Unified Communications (UC)-Geräte</p></td>
-<td><p>Ein interner A-Eintrag mit dem Namen ucupdates-r2. &lt;SIP-&gt; Domäne, die in die IP-Adresse des Front-End-Pools aufgelöst wird, der den Geräte Update-Webdienst hostet. In der Situation, in der ein UC-Gerät aktiviert ist, sich ein Benutzer aber noch nie beim Gerät angemeldet hat, ermöglicht der a-Eintrag dem Gerät das Erkennen des Front-End-Pools, auf dem der Geräte Update-Webdienst gehostet wird, und das Abrufen von Updates. Andernfalls erhalten Geräte diese Informationen zwar in-Band-Bereitstellung, wenn sich der Benutzer zum ersten Mal anmeldet.</p>
+<td><p>Ermittlung des Geräteaktualisierungswebdiensts über Unified Communications-Geräte (UC)</p></td>
+<td><p>Ein interner A-Eintrag mit dem Namen ucupdates-r2. &lt;SIP-&gt; Domäne, die in die IP-Adresse der Front-End-Pool aufgelöst wird, die den Geräte Update-Webdienst hostet. Wenn ein UC-Gerät eingeschaltet wird, ein Benutzer sich jedoch noch nie am Gerät angemeldet hat, ermöglicht der A-Eintrag, dass das Gerät den Front-End-Pool sucht, auf dem der Geräteaktualisierungswebdienst gehostet wird, und Updates abruft. Andernfalls rufen Geräte diese Informationen über die In-Band-Bereitstellung ab, wenn sich der Benutzer das erste Mal anmeldet.</p>
 <div>
 
 > [!IMPORTANT]  
-> Wenn Sie über eine vorhandene Bereitstellung des Geräte Update-Webdiensts in lync Server 2010 verfügen, haben Sie bereits einen internen A-Eintrag mit dem Namen ucupdates erstellt. &lt;SIP-&gt;Domäne. Für Microsoft Office Communications Server 2007 R2 müssen Sie einen zusätzlichen DNS-A-Eintrag mit dem Namen ucupdates-R2 erstellen. &lt;SIP-&gt;Domäne.
+> Wenn Sie eine vorhandene Bereitstellung des Geräte Update-Webdiensts in lync Server 2010 haben, haben Sie bereits einen internen A-Eintrag mit dem Namen ucupdates erstellt. &lt;SIP-&gt;Domäne. Für Microsoft Office Communications Server 2007 R2 müssen Sie einen zusätzlichen DNS-A-Eintrag mit dem Namen ucupdates-R2 erstellen. &lt;SIP-&gt;Domäne.
 
 
 </div></td>
 </tr>
 <tr class="odd">
-<td><p>Ein Reverse-Proxy zur Unterstützung des HTTP-Datenverkehrs</p></td>
-<td><p>Ein externer A-Eintrag, der den FQDN der externen Webfarm in die externe IP-Adresse des Reverse-Proxys auflöst. Clients und UC-Geräte verwenden diesen Eintrag, um eine Verbindung mit dem Reverse-Proxy herzustellen. Ausführliche Informationen finden Sie unter <a href="lync-server-2013-determine-dns-requirements.md">Ermitteln der DNS-Anforderungen für lync Server 2013</a> in der Planungsdokumentation.</p></td>
+<td><p>Ein Reverseproxy zur Unterstützung von HTTP-Datenverkehr</p></td>
+<td><p>Ein externer A-Eintrag, der den externen FQDN der Webfarm in die externe IP-Adresse des Reverseproxys auflöst. Clients und UC-Geräte stellen mit diesem Eintrag eine Verbindung mit dem Reverseproxy her. Ausführliche Informationen finden Sie unter <a href="lync-server-2013-determine-dns-requirements.md">bestimmen der DNS-Anforderungen für lync Server 2013</a> in der Planungsdokumentation.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Die folgende Tabelle zeigt ein Beispiel für die DNS-Einträge, die für den FQDN der internen Webfarm erforderlich sind.
+Die folgende Tabelle zeigt ein Beispiel für DNS-Einträge, die für den FQDN der internen Webfarm erforderlich sind.
 
-### <a name="example-dns-records-for-internal-web-farm-fqdn"></a>Beispiel-DNS-Einträge für den FQDN der internen Webfarm
+### <a name="example-dns-records-for-internal-web-farm-fqdn"></a>Beispiele für DNS-Einträge für den FQDN der internen Webfarm
 
 <table>
 <colgroup>
@@ -129,23 +129,23 @@ Die folgende Tabelle zeigt ein Beispiel für die DNS-Einträge, die für den FQD
 </colgroup>
 <thead>
 <tr class="header">
-<th>Interner FQDN der Webfarm</th>
+<th>FQDN der internen Webfarm</th>
 <th>Pool-FQDN</th>
-<th>DNS-A-Eintrag (e)</th>
+<th>DNS-A-Einträge</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>webcon.contoso.com</p></td>
 <td><p>ee-pool.contoso.com</p></td>
-<td><p>DNS einen Eintrag für den EE-Pool.contoso.com, der in die VIP-Adresse des Load Balancer der Front-End-Server aufgelöst wird.</p>
-<p>DNS-A-Eintrag für webcon.contoso.com, der in die VIP-Adresse des Load Balancer der Front-End-Server aufgelöst wird.</p></td>
+<td><p>DNS-A-Eintrag für "ee-pool.contoso.com", der in die VIP-Adresse des Systems zum Lastenausgleich aufgelöst wird, das von den Front-End-Servern verwendet wird.</p>
+<p>DNS-A-Eintrag für "webcon.contoso.com", der in die VIP-Adresse des Systems zum Lastenausgleich aufgelöst wird, das von den Front-End-Servern verwendet wird.</p></td>
 </tr>
 <tr class="even">
 <td><p>ee-pool.contoso.com</p></td>
 <td><p>ee-pool.contoso.com</p></td>
-<td><p>DNS-A-Eintrag für EE-Pool.contoso.com, der in die virtuelle IP-Adresse (VIP) des Load Balancer aufgelöst wird, der von den Front-End-Servern der Enterprise Edition im Front-End-Pool verwendet wird.</p>
-<p>Beachten Sie, dass bei Verwendung des DNS-Lastenausgleichs in diesem Pool der Front-End-Pool und die interne Webfarm nicht den gleichen FQDN aufweisen können.</p></td>
+<td><p>DNS-A-Eintrag für "ee-pool.contoso.com", der in die virtuelle IP-Adresse (VIP) des Systems zum Lastenausgleich aufgelöst wird, das von den Enterprise Edition-Front-End-Servern im Front-End-Pool verwendet wird.</p>
+<p>Hinweis: bei Verwendung des DNS-Lastenausgleichs für diesen Pool können Ihr Front-End-Pool und die interne Webfarm nicht denselben FQDN aufweisen.</p></td>
 </tr>
 </tbody>
 </table>

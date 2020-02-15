@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Client- und Serverunterstützung für standortbasiertes Routing'
+title: 'Lync Server 2013: Client-und Server Unterstützung für standortbasiertes Routing'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ad7ead20eb9961180fec9204a84b3392b7fa96f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efdb03adbdf1392e27c3107eef4aaf97f3708e66
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729855"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043837"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-and-server-support-for-location-based-routing-in-lync-server-2013"></a>Client- und Serverunterstützung für standortbasiertes Routing in Lync Server 2013
+# <a name="client-and-server-support-for-location-based-routing-in-lync-server-2013"></a>Client-und Server Unterstützung für standortbasiertes Routing in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729855"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-06-18_
+_**Letztes Änderungsstand des Themas:** 2013-06-18_
 
-Standortbasiertes Routing wird von lync Server erzwungen. Lync Server kann die Netzwerk Websites identifizieren, über die Benutzer im Unternehmensnetzwerk eine Verbindung herstellen. Da sich Remotebenutzer außerhalb des Unternehmensnetzwerks befinden, werden deren Positionen als unbekannt angesehen.
+Das standortbasierte Routing wird von lync Server erzwungen. Lync Server können die Netzwerkstandorte identifizieren, auf denen Benutzer innerhalb des Unternehmensnetzwerks eine Verbindung herstellen. Da sich Remotebenutzer außerhalb des Unternehmensnetzwerks befinden, wird Ihr Standort als unbekannt betrachtet.
 
 <div>
 
-## <a name="lync-server-support"></a>Lync Server-Unterstützung
+## <a name="lync-server-support"></a>Lync Server Support
 
-Standortbasiertes Routing erfordert, dass lync Server 2013 CU1 auf allen Front-End-Pools und Standard Edition-Servern in einer bestimmten Topologie bereitgestellt wird. Wenn lync Server 2013 CU1 auf bestimmten lync-Komponenten in der Topologie nicht installiert ist, können standortbasierte Routing Einschränkungen nicht vollständig erzwungen werden.
+Für das standortbasierte Routing muss lync Server 2013 ku1 auf allen Front-End-Pools und Standard Edition-Servern in einer bestimmten Topologie bereitgestellt werden. Wenn lync Server 2013 ku1 nicht auf bestimmten lync-Komponenten in der Topologie installiert ist, können standortbasierte Routing Einschränkungen nicht vollständig erzwungen werden.
 
-In der folgenden Tabelle wird die Kombination aus Serverrollen und Versionen aufgeführt, die für standortbasiertes Routing unterstützt werden.
+In der folgenden Tabelle ist die Kombination von Serverrollen und Versionen aufgeführt, die für das standortbasierte Routing unterstützt werden.
 
 
 <table>
@@ -56,46 +56,46 @@ In der folgenden Tabelle wird die Kombination aus Serverrollen und Versionen auf
 </colgroup>
 <thead>
 <tr class="header">
-<th>Poolversion</th>
-<th>Mediation Server-Version</th>
+<th>Pool Version</th>
+<th>Vermittlungsserver Version</th>
 <th>Unterstützt</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync Server 2013 Februar 2013 Kumulatives Update</p></td>
-<td><p>Lync Server 2013 Februar 2013 Kumulatives Update</p></td>
+<td><p>Kumulatives Update für lync Server 2013 Februar 2013</p></td>
+<td><p>Kumulatives Update für lync Server 2013 Februar 2013</p></td>
 <td><p>ja</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013 Februar 2013 Kumulatives Update</p></td>
+<td><p>Kumulatives Update für lync Server 2013 Februar 2013</p></td>
 <td><p>Lync Server 2013</p></td>
-<td><p>nein</p></td>
+<td><p>Nein</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Server 2013 Februar 2013 Kumulatives Update</p></td>
+<td><p>Kumulatives Update für lync Server 2013 Februar 2013</p></td>
 <td><p>Lync Server 2010</p></td>
-<td><p>nein</p></td>
+<td><p>Nein</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013 Februar 2013 Kumulatives Update</p></td>
+<td><p>Kumulatives Update für lync Server 2013 Februar 2013</p></td>
 <td><p>Office Communications Server 2007 R2</p></td>
-<td><p>nein</p></td>
+<td><p>Nein</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2013</p></td>
-<td><p>Beliebig</p></td>
-<td><p>nein</p></td>
+<td><p>Beliebiger Wert</p></td>
+<td><p>Nein</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server 2010</p></td>
-<td><p>Beliebig</p></td>
-<td><p>nein</p></td>
+<td><p>Beliebiger Wert</p></td>
+<td><p>Nein</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communications Server 2007 R2</p></td>
-<td><p>Beliebig</p></td>
-<td><p>nein</p></td>
+<td><p>Beliebiger Wert</p></td>
+<td><p>Nein</p></td>
 </tr>
 </tbody>
 </table>
@@ -107,7 +107,7 @@ In der folgenden Tabelle wird die Kombination aus Serverrollen und Versionen auf
 
 ## <a name="lync-client-support"></a>Lync-Client Unterstützung
 
-In der folgenden Tabelle sind die Clients aufgeführt, die vom standortbasierten Routing unterstützt werden.
+In der folgenden Tabelle werden die Clients aufgeführt, die standortbasiertes Routing unterstützt.
 
 
 <table>
@@ -120,14 +120,14 @@ In der folgenden Tabelle sind die Clients aufgeführt, die vom standortbasierten
 <tr class="header">
 <th>Clienttyp</th>
 <th>Unterstützt</th>
-<th>Beschreibung</th>
+<th>Details</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Lync 2013</p></td>
 <td><p>ja</p></td>
-<td><p>Einschließlich lync 2013 Februar 2013 Kumulatives Update</p></td>
+<td><p>Einschließlich lync 2013 Kumulatives Update vom 2013. Februar</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010</p></td>
@@ -136,7 +136,7 @@ In der folgenden Tabelle sind die Clients aufgeführt, die vom standortbasierten
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007 R2</p></td>
-<td><p>nein</p></td>
+<td><p>Nein</p></td>
 <td> </td>
 </tr>
 <tr class="even">
@@ -151,13 +151,13 @@ In der folgenden Tabelle sind die Clients aufgeführt, die vom standortbasierten
 </tr>
 <tr class="even">
 <td><p>Lync für Windows 8</p></td>
-<td><p>nein</p></td>
+<td><p>Nein</p></td>
 <td> </td>
 </tr>
 <tr class="odd">
 <td><p>Lync Mobile 2013</p></td>
-<td><p>nein</p></td>
-<td><p>VoIP muss für lync Mobile 2013-Clients deaktiviert sein, wenn Sie von Benutzern mit aktiviertem Standort basiertem Routing verwendet werden.</p></td>
+<td><p>Nein</p></td>
+<td><p>VoIP muss für lync Mobile 2013-Clients deaktiviert werden, wenn Sie von Benutzern mit aktiviertem Standort basiertem Routing verwendet werden.</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Mobile 2010</p></td>
@@ -173,7 +173,7 @@ In der folgenden Tabelle sind die Clients aufgeführt, die vom standortbasierten
 
 
 > [!NOTE]  
-> Wenn Sie VoIP für lync Mobile 2013-Clients deaktivieren möchten, weisen Sie der Einstellung "IP Audio/Video" eine Mobilitätsrichtlinie zu, die für alle Benutzer deaktiviert ist, die für standortbasiertes Routing aktiviert sind. Ausführlichere Informationen zu Mobilitätsrichtlinien finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.
+> Wenn Sie VoIP für lync Mobile 2013-Clients deaktivieren möchten, weisen Sie eine Mobilitätsrichtlinie mit der Einstellung IP-Audio/Video zu, die für alle Benutzer deaktiviert ist, die für das standortbasierte Routing aktiviert sind. Weitere Informationen zur Mobilitätsrichtlinie finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy">New-CsMobilityPolicy</A>.
 
 
 
@@ -186,7 +186,7 @@ In der folgenden Tabelle sind die Clients aufgeführt, die vom standortbasierten
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planung des standortbasierten Routings in Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Planen des standortbasierten Routings in lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

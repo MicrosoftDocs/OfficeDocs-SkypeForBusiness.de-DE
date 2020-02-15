@@ -12,16 +12,16 @@ ms:contentKeyID: 49733655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4609a3db5b81b4a6cbf134fc2347e4fc459c58c0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0cf9e589cf239cd7c0e61090dc65995ef71357d0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741745"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044287"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41741745"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+_**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Netzwerk Websites sind die Büros oder Standorte innerhalb der einzelnen netzwerkregionen der Anruf Zulassungs Steuerung (CAC), E9-1-1 und Media Bypass-Bereitstellungen. Verwenden Sie die Verfahren in diesem Abschnitt, um die Anrufsteuerung für Netzwerk Websites zu konfigurieren.
+Bei Netzwerkstandorten handelt es sich um Büros oder Zweigstellen innerhalb der einzelnen Netzwerkregionen von Bereitstellungen mit Anrufsteuerung, E9-1-1 und Medienumgehung. Mit den Verfahren in diesem Abschnitt können Sie die Anrufsteuerung für Ihre Netzwerkstandorte konfigurieren.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Anzeigen von Netzwerk Website Informationen in lync Server 2013](lync-server-2013-viewing-network-site-information.md)
+  - [Anzeigen von Netzwerkstandort Informationen in lync Server 2013](lync-server-2013-viewing-network-site-information.md)
 
-  - [Erstellen oder Ändern von Netzwerk Websites in lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)
+  - [Erstellen oder Ändern von Netzwerkstandorten in lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)
 
-  - [Löschen einer vorhandenen Netzwerk Website in lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md)
+  - [Löschen eines vorhandenen Netzwerkstandorts in lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md)
 
 </div>
 
@@ -55,7 +55,7 @@ Netzwerk Websites sind die Büros oder Standorte innerhalb der einzelnen netzwer
 
 ## <a name="related-sections"></a>Verwandte Abschnitte
 
-[Planen des Anrufsteuerungsdiensts in Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)
+[Planung der Anrufsteuerung in lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)
 
 </div>
 

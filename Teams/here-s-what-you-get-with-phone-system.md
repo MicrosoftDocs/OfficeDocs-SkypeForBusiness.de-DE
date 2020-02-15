@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Informieren Sie sich über die Features, die Verfügbarkeit und die Vorgehensweise zum Planen und Einrichten von Microsoft Phone System für Ihr Unternehmen. '
-ms.openlocfilehash: ec41a7ac88c6c7c1a99c7c547b45ef1b95c25cc8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b1ba96143c62b829ef9461c1429a83a8b3cfe51e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836317"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045167"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Hier erfahren Sie, was Ihnen das Office 365-Telefonsystem bietet
 
@@ -56,13 +56,13 @@ Das Telefon System bietet die folgenden Funktionen. Sofern nicht anders angegebe
 |[Anrufer-ID](how-can-caller-id-be-used-in-your-organization.md)  <br/> |Bei Anrufen innerhalb des Unternehmens wird eine detaillierte Rufnummernanzeige angezeigt, die Informationen aus dem Unternehmensverzeichnis abruft, wobei die Bild-ID und die Position anstelle nur einer Telefonnummer angezeigt werden. Für Anrufe von externen Telefonnummern wird die Rufnummernanzeige angezeigt, die vom Telefondienstanbieter bereitgestellt wird. Wenn die externen Telefonnummern im Unternehmensverzeichnis Sekundär Nummern sind, werden die Informationen aus dem Unternehmensverzeichnis angezeigt.  <br/> |
 |Gerät wechseln  <br/> |Ermöglicht Benutzern das Wiedergeben eines Anrufs oder einer Besprechung auf einem anderen HID-Gerät, das mit Teams verbunden ist. So können Sie beispielsweise von Ihren PC-Lautsprechern zu einem Headset wechseln.   <br/> |
 |Anwesenheits basiertes Anrufrouting <br/> |Steuert die eingehende Kommunikation mit Anwesenheitsinformationen, sodass der Benutzer alle eingehenden Kommunikationen mit Ausnahme der ausdrücklich angegebenen blockieren kann.  <br/> |
-|[Integrierte Wähltastatur](https://support.office.com/en-us/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | Ermöglicht Benutzern, sich über den Namen oder die Nummer an beliebiger Stelle in der Suchleiste und in der Wähltastatur anzuwählen, wodurch der Prozess der ausgehenden Anrufe beschleunigt wird. <br/> |
+|[Integrierte Wähltastatur](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | Ermöglicht Benutzern, sich über den Namen oder die Nummer an beliebiger Stelle in der Suchleiste und in der Wähltastatur anzuwählen, wodurch der Prozess der ausgehenden Anrufe beschleunigt wird. <br/> |
 |Föderations Anrufe  <br/> |Ermöglicht Benutzern eine sichere Verbindung, Kommunikation und Zusammenarbeit mit Benutzern in Verbund Mandanten.  <br/> |
 |[Führen und Empfangen eines Videoanrufs](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Wenn das Konto des Benutzers für Videoanrufe aktiviert ist, kann der Benutzer persönliche Videoanrufe mit seinen Kontakten führen. Sie benötigen lediglich eine Kamera, die Lautsprecher und das Mikrofon Ihres Computers. Benutzer können auch ein Headset verwenden, wenn Ihr Computer nicht über ein integriertes Audiogerät verfügt.<br/> |
 |[Cloud-Voicemail](set-up-phone-system-voicemail.md) <br/> | Wenn ein Benutzer eine Sprachnachricht erhält, wird er an sein Exchange-Postfach als e-Mail-Nachricht mit der Sprachnachricht als Anlage übermittelt. Die Benutzer können Ihre Nachrichten auf Ihrem zertifizierten Desktoptelefon und in allen Teams oder Skype for Business-Anwendungen anhören. Seit März 2017 ist die Unterstützung für Voicemailtranskription standardmäßig für alle Organisationen und Benutzer aktiviert.   <br/> |
 |[Cloud Voicemail-Benutzereinstellungen](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Ermöglicht Benutzern die Konfiguration Ihrer Clienteinstellungen für Voicemail-Begrüßungen, Anruf Antwort Regeln und Gruß Sprache, einschließlich Abwesenheits Begrüßungen.   |
 |[Sekundärer Rufton](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Benutzer mit mehreren Lautsprecher-Geräten, die an Ihren PC angeschlossen sind, können neben dem Standardlautsprecher auch ein sekundäres Gerät festlegen. Ein Benutzer mit einem Headset, das an den PC angeschlossen ist, und die Schreibtisch-Lautsprecher können beispielsweise festlegen, dass sowohl das Headset als auch die Schreibtisch-Lautsprecher Klingeln, wenn ein Anruf eingeht, damit er keinen Anruf verpasst.  |
-|[Markante Anrufbenachrichtigungen](https://support.office.com/en-us/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (nur für Teams)<br/> |Ermöglicht Benutzern das auswählen separater Klingeltöne für normale Anrufe, weitergeleitete Anrufe und Delegierte Anrufe, damit diese die Art des Anrufs unterscheiden können.  <br/> |
+|[Markante Anrufbenachrichtigungen](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) (nur für Teams)<br/> |Ermöglicht Benutzern das auswählen separater Klingeltöne für normale Anrufe, weitergeleitete Anrufe und Delegierte Anrufe, damit diese die Art des Anrufs unterscheiden können.  <br/> |
 |[Funktion "Gemeinsame Leitungen"](shared-line-appearance.md) <br/> | Ermöglicht Benutzern die Freigabe Ihrer Telefonleitung, damit ein anderer Benutzer in seinem Namen Anrufe tätigen und empfangen kann.|
 |[Beschäftigt bei besetzt](teams-calling-policy.md) (nur Teams) <br/> | Eine Anrufrichtlinie, mit der Sie konfigurieren können, wie eingehende Anrufe gehandhabt werden, wenn sich ein Benutzer bereits in einem Anruf oder einer Konferenz befindet oder ein Anruf in Wartestellung gesetzt wurde. Der Anrufer hört ein Besetztzeichen, wenn der Anrufer bereits am Telefon ist. Der Anrufer erhält eine Benachrichtigung über verpasste Anrufe, kann aber keine eingehenden Anrufe annehmen. Dieses Feature ist standardmäßig deaktiviert, kann aber vom mandantenadministrator aktiviert werden. |
 |[Anruf Blockierung](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Ermöglicht Benutzern das Hinzufügen von (PSTN-) Telefonnummern zu einer blockierten Liste, damit der nächste Anruf von dieser Nummer blockiert wird.|

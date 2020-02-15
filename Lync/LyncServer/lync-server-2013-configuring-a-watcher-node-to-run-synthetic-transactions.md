@@ -12,16 +12,16 @@ ms:contentKeyID: 48185578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19211c786c288326d5769824524f5571e5df2f00
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 107803caba66c19ec852d4c077e69aec5f7cf5ca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763419"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043467"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41763419"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-02-07_
+_**Letztes Änderungsstand des Themas:** 2014-02-07_
 
-Nachdem Sie die System Center-Agent-Dateien installiert haben, müssen Sie den Watcher-Knoten als Nächstes konfigurieren. Die Schritte zum Konfigurieren eines Watcher-Knotens variieren je nachdem, ob sich der Watcher-Knoten Computer in Ihrem Umkreisnetzwerk oder außerhalb Ihres Umkreisnetzwerks befindet.
+Nachdem die System Center-Agentdateien installiert wurden, müssen Sie im nächsten Schritt den Watcher-Knoten selbst konfigurieren. Die Schritte zum Konfigurieren eines Watcher-Knotens hängen davon ab, ob sich der Computer mit dem Watcher-Knoten innerhalb oder außerhalb Ihrs Umkreisnetzwerks befindet.
 
-Beim Konfigurieren eines Monitorknotens müssen Sie außerdem die Authentifizierungsmethode auswählen, die von diesem Knoten verwendet werden soll. Mit lync Server 2013 können Sie eine von zwei Authentifizierungsmethoden auswählen: vertrauenswürdige Server-oder Anmelde Informations Authentifizierung. Die Unterschiede zwischen diesen beiden Methoden sind in der folgenden Tabelle beschrieben:
+Beim Konfigurieren eines Watcher-Knotens müssen Sie außerdem die Authentifizierungsmethode auswählen, die von diesem Knoten verwendet werden soll. Lync Server 2013 können Sie eine von zwei Authentifizierungsmethoden auswählen: vertrauenswürdige Server-oder Anmelde Informations Authentifizierung. Die Unterschiede zwischen diesen beiden Methoden werden in der folgenden Tabelle erläutert:
 
 
 <table>
@@ -52,21 +52,21 @@ Beim Konfigurieren eines Monitorknotens müssen Sie außerdem die Authentifizier
 <tr class="header">
 <th>Konfiguration</th>
 <th>Beschreibung</th>
-<th>Unterstützte Speicherorte</th>
+<th>Unterstützte Standorte</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Vertrauenswürdiger Server</p></td>
 <td><p>Ein Zertifikat wird verwendet, um die Identität eines internen Servers anzunehmen und die Authentifizierungsaufforderungen zu umgehen.</p>
-<p>Dies ist hilfreich für Administratoren, die ein einzelnes Zertifikat anstelle von vielen Benutzerkennwörtern für jeden Watcher-Knoten verwalten möchten.</p></td>
+<p>Diese Methode eignet sich für Administratoren, die es vorziehen, ein einzelnes Zertifikat anstelle vieler Benutzerkennwörter auf jedem Watcher-Knoten zu verwalten.</p></td>
 <td><p>Innerhalb des Unternehmens.</p>
-<p>Beachten Sie, dass sich der Watcher-Knoten bei dieser Methode in der gleichen Domäne wie die zu überwachenden Pools befinden muss. Wenn sich der Watcher-Knoten und die überwachten Pools in verschiedenen Domänen befinden, verwenden Sie stattdessen die Anmelde Informations Authentifizierung.</p></td>
+<p>Beachten Sie, dass sich bei dieser Methode der Watcher-Knoten in derselben Domäne wie die überwachten Pools befinden muss. Falls sich der Watcher-Knoten und die überwachten Pools in unterschiedlichen Domänen befinden, verwenden Sie stattdessen die Authentifizierung mit Anmeldeinformationen.</p></td>
 </tr>
 <tr class="even">
-<td><p>Authentifizierung von Anmeldeinformationen</p></td>
-<td><p>Benutzernamen und Kennwörter werden auf sichere Weise in der Windows-Anmeldeinformationsverwaltung auf jedem Monitorknoten gespeichert.</p>
-<p>Dieser Modus erfordert mehr Kennwortverwaltung, ist aber die einzige Option für Watcher-Knoten, die sich außerhalb des Unternehmens befinden. Diese Monitorknoten können nicht als vertrauenswürdiger Endpunkt für die Authentifizierung betrachtet werden.</p></td>
+<td><p>Authentifizierung mit Anmeldeinformationen</p></td>
+<td><p>Benutzernamen und Kennwörter werden auf sichere Weise in der Windows-Anmeldeinformationsverwaltung auf jedem Watcher-Knoten gespeichert.</p>
+<p>Dieser Modus erfordert einen höheren Kennwortverwaltungsaufwand, ist aber die einzige Option für Watcher-Knoten außerhalb des Unternehmens. Diese Watcher-Knoten können nicht als Endpunkt, der bezüglich der Authentifizierung vertrauenswürdig ist, betrachtet werden.</p></td>
 <td><p>Außerhalb des Unternehmens.</p>
 <p>Innerhalb des Unternehmens.</p></td>
 </tr>
@@ -74,7 +74,7 @@ Beim Konfigurieren eines Monitorknotens müssen Sie außerdem die Authentifizier
 </table>
 
 
-Sie sollten auch überprüfen, ob Ihre Firewall eingehende Regeln für MonitoringHost. exe und PowerShell. exe aufweist. Wenn diese Prozesse von der Firewall blockiert werden, schlagen Ihre synthetischen Transaktionen mit einem 504-Fehler (Servertimeout) fehl.
+Sie sollten auch überprüfen, ob Ihre Firewall eingehende Regeln für sowohl MonitoringHost. exe als auch PowerShell. exe aufweist. Wenn diese Prozesse durch die Firewall blockiert werden, tritt bei ihren synthetischen Transaktionen ein Fehler 504 (Servertimeout) auf.
 
 </div>
 

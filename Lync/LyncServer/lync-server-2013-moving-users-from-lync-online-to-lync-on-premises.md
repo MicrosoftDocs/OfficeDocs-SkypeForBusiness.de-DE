@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verschieben von Benutzern aus lync Online in lync lokal'
+title: 'Lync Server 2013: Verschieben von Benutzern von lync Online in lync lokal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 62258122
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bea1463660e420edbf296be3d47aaca6d8545feb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5e390bfbd327bf8823b66a180ce17dcb54ad0349
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756699"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043867"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="moving-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a>Verschieben von Benutzern aus lync online zu lync lokal in lync Server 2013
+# <a name="moving-users-from-lync-online-to-lync-on-premises-in-lync-server-2013"></a>Lokales Verschieben von Benutzern aus lync Online in lync in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41756699"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-05-08_
+_**Letztes Änderungsstand des Themas:** 2014-05-08_
 
-Hat Ihre Organisation lync Online bereitgestellt, bevor lync Server überhaupt lokal bereitgestellt wurde? Und nun möchten Sie Benutzerkonten, die ursprünglich für lync in lync Online aktiviert waren, in Ihre lokale lync Server-Bereitstellung verschieben? In diesem Abschnitt erfahren Sie, was Sie dafür tun müssen.
+Hat Ihre Organisation lync Online bereitgestellt, bevor Sie jemals lync Server lokal bereitgestellt wurde? Und nun möchten Sie Benutzerkonten, die ursprünglich für lync aktiviert waren, in lync online auf Ihre lokale lync Server-Bereitstellung migrieren? Dieser Abschnitt kann Ihnen dabei helfen.
 
 <div>
 
 
 > [!NOTE]  
-> In diesem Abschnitt geht es nur um das Verschieben von Benutzern, die ursprünglich für lync in lync Online aktiviert wurden. Haben Sie möglicherweise Benutzerkonten, die Sie zuerst für lync lokal aktiviert haben und dann in lync Online verschoben werden? Wenn dies der Fall ist und Sie Sie wieder in lokales lokal verschieben möchten, ist der Vorgang einfach: <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Verwalten von Benutzern in einer hybriden lync Server 2013-Bereitstellung</A>.
+> In diesem Abschnitt geht es nur um das Verschieben von Benutzern, die ursprünglich für lync in lync Online aktiviert waren. Möglicherweise haben Sie Benutzerkonten, die Sie zuerst für lync lokal aktiviert haben, und dann in lync Online verschoben? Wenn dies der Fall ist und Sie Sie wieder in ein lokales Objekt zurückversetzen möchten, ist der Vorgang einfach: <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Verwalten von Benutzern in einer hybriden lync Server 2013-Bereitstellung</A>.
 
 
 
 </div>
 
-  - [Erste Schritte vor dem Starten der Migration von Benutzern aus lync online zu lync lokal in lync Server 2013](lync-server-2013-first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises.md)
+  - [Erste Schritte vor dem Start der Migration von Benutzern von lync online zu lync lokal in lync Server 2013](lync-server-2013-first-steps-before-you-start-migrating-users-from-lync-online-to-lync-on-premises.md)
 
-  - [Migrieren von lync Online-Benutzern zu lync lokal in lync Server 2013](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md)
+  - [Migrieren von lync Online Benutzern lokal zu lync in lync Server 2013](lync-server-2013-migrating-lync-online-users-to-lync-on-premises.md)
 
 </div>
 

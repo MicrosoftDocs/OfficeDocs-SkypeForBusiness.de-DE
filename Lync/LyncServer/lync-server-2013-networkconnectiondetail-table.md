@@ -12,16 +12,16 @@ ms:contentKeyID: 48185170
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2035fff89437c10732c704eee47c145b45d9db96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 784e229ee16bfee0e9e828f1df7f06a98e898eb4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765856"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043857"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765856"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-Die NetworkConnectionDetail-Tabelle ordnet Netzwerkverbindungstypen den Netzwerk Verbindungs Bezeichnern zu, die an anderer Stelle in der Datenbank für die Qualität der Erfahrung verwendet werden. Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
+Die NetworkConnectionDetail-Tabelle ordnet Netzwerkverbindungs-IDs, die anderweitig in der Quality of Experience-Datenbank verwendet werden, Netzwerkverbindungstypen zu. Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
 
 
 <table>
@@ -65,12 +65,12 @@ Die NetworkConnectionDetail-Tabelle ordnet Netzwerkverbindungstypen den Netzwerk
 <tr class="even">
 <td><p><strong>NetworkConnectionDetail</strong></p></td>
 <td><p>varchar (256)</p></td>
-<td><p>Eindeutigen</p></td>
-<td><p>Der Netzwerkverbindungstyp, der dem NetworkConnectionDetailKey-Element entspricht. Gültige Werte sind:</p>
+<td><p>Eigen</p></td>
+<td><p>Netzwerkverbindungstyp, der NetworkConnectionDetailKey entspricht. Gültige Werte sind:</p>
 <ol>
-<li><p>0-verkabelt</p></li>
+<li><p>0 – Wired</p></li>
 <li><p>1 – WiFi</p></li>
-<li><p>2--Ethernet</p></li>
+<li><p>2 – Ethernet</p></li>
 </ol></td>
 </tr>
 </tbody>

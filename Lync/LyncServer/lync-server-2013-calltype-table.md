@@ -12,20 +12,20 @@ ms:contentKeyID: 48185019
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98fd74831b90d88c7adc473c51ca88940eb34f18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f90be73c63921ebe9971abae85b2da22e76a560
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743195"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044207"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="calltype-table-in-lync-server-2013"></a>CallType-Tabelle in Lync Server 2013
+# <a name="calltype-table-in-lync-server-2013"></a>CallType-Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41743195"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Die CallType-Tabelle ist eine statische Tabelle, in der die Liste möglicher Anruftypen gespeichert ist.
+Die CallType-Tabelle ist eine statische Tabelle, in der die Liste der möglichen Anruftypen gespeichert ist.
 
 
 <table>
@@ -68,10 +68,10 @@ Die CallType-Tabelle ist eine statische Tabelle, in der die Liste möglicher Anr
 <td></td>
 <td><p>Zulässige Werte:</p>
 <ul>
-<li><p>0-unbekannt</p></li>
+<li><p>0 – Unbekannt</p></li>
 <li><p>1 – Sofortnachrichten</p></li>
-<li><p>2 – Anwendungsfreigabe</p></li>
-<li><p>3-Audio</p></li>
+<li><p>2--Anwendungsfreigabe</p></li>
+<li><p>3 – Audio</p></li>
 <li><p>4 – Audio und Video</p></li>
 <li><p>5 – Dateiübertragung</p></li>
 </ul></td>

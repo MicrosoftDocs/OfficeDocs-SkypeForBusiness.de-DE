@@ -12,16 +12,16 @@ ms:contentKeyID: 63969621
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47d5d216a1d7a389f20bf2c59f94baf54636d409
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ff28fa3ba945c49bee6e5474cb841886bb54d8a0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745405"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041982"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745405"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-05-15_
+_**Letztes Änderungsstand des Themas:** 2015-05-15_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2015-05-15_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des <strong>Test-CsUnifiedContactStore-</strong> Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets <strong>Test-CsUnifiedContactStore</strong> verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsUnifiedContactStore&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,21 +66,21 @@ _**Letztes Änderungsdatum des Themas:** 2015-05-15_
 
 ## <a name="description"></a>Beschreibung
 
-Der in lync Server 2013 eingeführte Unified Contact Store bietet Administratoren die Möglichkeit, die Kontakte eines Benutzers in Microsoft Exchange Server 2013 statt in lync Server zu speichern. Auf diese Weise kann der Benutzer zusätzlich zu lync 2013 auf denselben Satz Kontakte in Outlook Web Access zugreifen. (Oder Sie können Kontakte weiterhin in lync Server speichern. In diesem Fall müssen Benutzer zwei getrennte Gruppen von Kontakten verwalten: eine für die Verwendung mit Outlook und Outlook Web Access und eine für die Verwendung mit lync 2013.)
+Der in lync Server 2013 eingeführte einheitliche Kontaktspeicher bietet Administratoren die Möglichkeit, die Kontakte eines Benutzers in Microsoft Exchange Server 2013 anstatt in lync Server zu speichern. Dadurch kann der Benutzer neben lync 2013 auf denselben Satz Kontakte in Outlook Web Access zugreifen. (Oder Sie können Kontakte weiterhin in lync Server speichern. In diesem Fall müssen die Benutzer zwei getrennte Kontaktsätze verwalten: eine für die Verwendung mit Outlook und Outlook Web Access und eine für die Verwendung mit lync 2013.)
 
-Sie können feststellen, ob die Kontakte eines Benutzers in den Unified Contact Store verschoben wurden, indem Sie das Cmdlet **Test-CsUnifiedContactStore** ausführen. Das Cmdlet **Test-CsUnifiedContactStore** übernimmt das angegebene Benutzerkonto, stellt eine Verbindung mit dem Unified Contact Store her und versucht, einen Kontakt für den Benutzer abzurufen. Wenn keine Kontakte abgerufen werden können, schlägt der Befehl zusammen mit der Meldung "Es wurden keine Kontakte für den Benutzer empfangen. Überprüfen Sie, ob Kontakte für den Benutzer vorhanden sind. "
+Sie können ermitteln, ob die Kontakte eines Benutzers in den einheitlichen Kontaktspeicher verschoben wurden, indem Sie das Cmdlet **Test-CsUnifiedContactStore** ausführen. Das Cmdlet **Test-CsUnifiedContactStore** übernimmt das angegebene Benutzerkonto, stellt eine Verbindung mit dem einheitlichen Kontaktspeicher her und versucht, einen Kontakt für den Benutzer abzurufen. Wenn keine Kontakte abgerufen werden können, wird der Befehl zusammen mit der Meldung "keine Kontakte für den Benutzer empfangen" fehl. Stellen Sie sicher, dass Kontakte für den Benutzer vorhanden sind.".
 
-Beachten Sie, dass das Cmdlet **Test-CsUnifiedContactStore** fehlschlägt, wenn der Benutzer erfolgreich zum Unified Contact Store migriert wurde, aber keine Kontakte in seiner Kontaktliste hat. Der angegebene Benutzer muss mindestens über einen Kontakt verfügen, damit das Cmdlet **Test-CsUnifiedContactStore** erfolgreich ausgeführt werden kann.
+Beachten Sie, dass das **Test-CsUnifiedContactStore-** Cmdlet einen Fehler aufweist, wenn der Benutzer erfolgreich zum einheitlichen Kontaktspeicher migriert wurde, aber keine Kontakte in seiner Kontaktliste hat. Der angegebene Benutzer muss mindestens über einen Kontakt verfügen, damit das Cmdlet **Test-CsUnifiedContactStore** erfolgreich abgeschlossen werden konnte.
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Die im folgenden Beispiel gezeigten Befehle legen fest, ob Kontakte für\\die Benutzer "litwareinc-kenmyer im Unified Contact Store gefunden werden können. Dazu wird im ersten Befehl im Beispiel das Cmdlet **Get-Credential** verwendet, um ein Windows PowerShell-Befehlszeilenschnittstellen-Anmeldeinformationsobjekt für den Benutzer "litwareinc\\kenmyer zu erstellen. Beachten Sie, dass Sie das Kennwort für dieses Konto angeben müssen, um ein gültiges Anmeldeinformationsobjekt zu erstellen und sicherzustellen, dass das **Test-CsUnifiedContactStore-** Cmdlet seine Überprüfung ausführen kann.
+Die im folgenden Beispiel gezeigten Befehle bestimmen, ob Kontakte für den\\Benutzer litwareinc kenmyer im einheitlichen Kontaktspeicher gefunden werden können. Dazu wird im ersten Befehl des Beispiels das Cmdlet **Get-Credential** verwendet, um ein Windows PowerShell-Objekt der Befehlszeilen-Schnittstellen Anmeldeinformationen für den Benutzer litwareinc\\kenmyer zu erstellen. Beachten Sie, dass Sie das Kennwort für dieses Konto angeben müssen, um ein gültiges Credentials-Objekt zu erstellen und sicherzustellen, dass das **Test-CsUnifiedContactStore-** Cmdlet seine Überprüfung ausführen kann.
 
-Der zweite Befehl im Beispiel verwendet das angegebene Credentials-Objekt ($x) und die SIP-Adresse des Benutzers\\"litwareinc kenmyer, um zu ermitteln, ob seine Kontakte im Unified Contact Store zu finden sind.
+Der zweite Befehl in diesem Beispiel verwendet das angegebene Credentials-Objekt ($x) und die SIP-Adresse des\\Benutzers litwareinc kenmyer, um zu ermitteln, ob seine Kontakte im einheitlichen Kontaktspeicher gefunden werden können.
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
@@ -90,29 +90,29 @@ Der zweite Befehl im Beispiel verwendet das angegebene Credentials-Objekt ($x) u
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn der Zugriff auf den Kontaktspeicher ordnungsgemäß konfiguriert ist, erhalten Sie eine ähnliche Ausgabe, wobei die Eigenschaft Ergebnis als **erfolgreich** markiert ist:
+Wenn der Zugriff auf den Kontaktspeicher ordnungsgemäß konfiguriert ist, erhalten Sie eine ähnliche Ausgabe, wobei die Result-Eigenschaft als Success markiert ist **:**
 
 Ziel-FQDN: ATL-CS-001.litwareinc.com
 
-Ergebnis: Erfolg
+Ergebnis: Success
 
-Latenz: 00:00:14.9862716
+Wartezeit: 00:00:14.9862716
 
 Fehlermeldung:
 
 Diagnose
 
-Wenn der Zugriff auf den Kontaktspeicher nicht richtig konfiguriert ist, wird das Ergebnis als **Fehler**angezeigt, und weitere Informationen werden in den Eigenschaften Fehler und Diagnose aufgezeichnet:
+Wenn der Zugriff auf den Kontaktspeicher nicht ordnungsgemäß konfiguriert ist, wird das Ergebnis als **Fehler**angezeigt, und in den Eigenschaften Error und Diagnostic werden zusätzliche Informationen aufgezeichnet:
 
-Warnung: Fehler beim Lesen der Registrierungsstellen-Portnummer für die angegebene vollqualifizierte
+Warnung: Fehler beim Lesen der Registrierungs Portnummer für die angegebene vollqualifizierte
 
-Domänenname (FQDN). Verwenden der standardmäßigen Registrierungs Portnummer Ausnahme
+Domänenname (FQDN). Verwenden der standardmäßigen Registrierungsstellen-Portnummer. Ausnahme
 
 System. InvalidOperationException: kein übereinstimmender Cluster in der Topologie gefunden.
 
-am
+auf
 
 Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryRetri
 
@@ -122,23 +122,23 @@ Ziel-FQDN: ATL-CS-001.litwareinc.com
 
 Ergebnis: Fehler
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
-Fehlermeldung: 10060, Fehler bei einem Verbindungsversuch, weil die verbundene Partei
+Fehlermeldung: 10060, ein Verbindungsversuch ist fehlgeschlagen, da die verbundene Partei
 
-hat nach einer bestimmten Zeit nicht richtig reagiert, oder
+nach einem bestimmten Zeitraum nicht ordnungsgemäß reagiert oder
 
-Fehler beim Herstellen einer Verbindung, weil der verbundene Host
+Fehler bei hergestellter Verbindung, da der verbundene Host
 
-Fehler beim Antworten 10.188.116.96:5061
+Fehler beim Antworten auf 10.188.116.96:5061
 
 Innere Ausnahme: ein Verbindungsversuch ist fehlgeschlagen, da die
 
-die verbundene Partei hat nach einer gewissen Zeit nicht richtig reagiert
+die verbundene Partei hat nach einer bestimmten Zeit nicht ordnungsgemäß reagiert.
 
-Zeit, oder die Verbindung konnte nicht hergestellt werden, weil der verbundene Host
+Zeit oder Fehler bei hergestellter Verbindung, weil verbundener Host
 
-Fehler beim Antworten 10.188.116.96:5061
+Fehler beim Antworten auf 10.188.116.96:5061
 
 Diagnose
 
@@ -148,11 +148,11 @@ Diagnose
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Nachfolgend finden Sie einige häufige Gründe, warum **Test-CsUnifiedContactStore** möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, warum das **Testen von CsUnifiedContactStore** möglicherweise fehlschlägt:
 
-  - Es wurde ein falscher Parameterwert angegeben. Wenn die optionalen Parameter verwendet werden, müssen Sie ordnungsgemäß konfiguriert sein, oder der Test schlägt fehl. Führen Sie den Befehl ohne die optionalen Parameter erneut aus, und überprüfen Sie, ob dies erfolgreich war.
+  - Ein falscher Parameterwert wurde angegeben. Wenn die optionalen Parameter verwendet werden, müssen Sie ordnungsgemäß konfiguriert sein, oder der Test kann nicht ausgeführt werden. Führen Sie den Befehl ohne die optionalen Parameter erneut aus, und überprüfen Sie, ob dies erfolgreich ist.
 
-  - Fehler beim Herstellen einer Verbindung mit dem Unified Contact Store, und der Versuch, einen Kontakt für den Benutzer abzurufen, war nicht möglich. Möglicherweise gibt es Probleme mit der Netzwerkverbindung.
+  - Die Verbindung mit dem einheitlichen Kontaktspeicher ist fehlgeschlagen, und der Versuch, einen Kontakt für den Benutzer abzurufen, war nicht möglich. Möglicherweise treten Netzwerkverbindungsprobleme auf.
 
 </div>
 
@@ -161,8 +161,8 @@ Nachfolgend finden Sie einige häufige Gründe, warum **Test-CsUnifiedContactSto
 ## <a name="see-also"></a>Siehe auch
 
 
-[New-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsUserServicesPolicy)  
-[Set-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsUserServicesPolicy)  
+[New-csuserservicespolicy "](https://docs.microsoft.com/powershell/module/skype/New-CsUserServicesPolicy)  
+[Gruppe-csuserservicespolicy "](https://docs.microsoft.com/powershell/module/skype/Set-CsUserServicesPolicy)  
   
 
 </div>

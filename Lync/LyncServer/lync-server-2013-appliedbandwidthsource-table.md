@@ -12,20 +12,20 @@ ms:contentKeyID: 48183638
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6978802893b2c4af4f4d4199c3e35452200d8d4a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3fcbcad9c69731d2a39d990f2342b7427f98fb74
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737605"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042282"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="appliedbandwidthsource-table-in-lync-server-2013"></a>AppliedBandwidthSource-Tabelle in Lync Server 2013
+# <a name="appliedbandwidthsource-table-in-lync-server-2013"></a>AppliedBandwidthSource-Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737605"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-Die Tabelle AppliedBandwidthSource ist eine unterstützende Tabelle. Jeder Datensatz stellt eine Quelle dar.
+Bei der AppliedBandwidthSource-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz steht für eine Quelle.
 
 
 <table>
@@ -60,13 +60,13 @@ Die Tabelle AppliedBandwidthSource ist eine unterstützende Tabelle. Jeder Daten
 <td><p><strong>AppliedBandwidthSourceKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutige Nummer, die die Quelle kennzeichnet.</p></td>
+<td><p>Eindeutige Zahl, die diese Quelle identifiziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AppliedBandwidthSource</strong></p></td>
 <td><p>varchar (256)</p></td>
-<td><p>Eindeutigen</p></td>
-<td><p>Hierbei handelt es sich um die Quelle des verhängten Bandbreitenlimits. Es wird beschrieben, woher die Bandbreitengrenze stammt (beispielsweise "Richtlinienserver", "Server umwandeln" oder "Modalität").</p></td>
+<td><p>Eigen</p></td>
+<td><p>Dies ist die Quelle der vorgegebenen Bandbreitenbeschränkung. Sie beschreibt den Ursprung der Bandbreitenbeschränkung (z. B."Policy Server", "TURN Server" oder "Modality").</p></td>
 </tr>
 </tbody>
 </table>

@@ -26,12 +26,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ebbefefa64df4ac2a27b4b5cc10cd447327281f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d9f45ba60aeaff37f77769966ed97f50aec2950a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837085"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045047"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Erste Schritte mit dem Upgrade von Microsoft Teams
 
@@ -41,7 +41,7 @@ Ganz gleich, ob Sie ein Upgrade von Skype for Business Online auf Microsoft Team
 
 ## <a name="why-upgrade-to-microsoft-teams"></a>Warum auf Microsoft Teams aktualisieren?
 
-Microsoft Teams erweitert die Funktionen von Skype for Business und bietet Chat, Besprechungen, Anrufe, Zusammenarbeit, App-Integration und Dateispeicherung in einer einzigen Benutzeroberfläche an. Dieser neue zentrale Hub für Teamwork hilft Ihnen, die Art und Weise zu optimieren, wie Benutzer ihre Aufgaben erledigen, die Zufriedenheit der Benutzer zu steigern und Unternehmensergebnisse zu beschleunigen. Wir erweitern die Funktionen von Microsoft Teams kontinuierlich, damit Sie auf neue Weise kommunizieren und zusammenarbeiten, organisatorische und geographische Hindernisse überwinden und die Effizienz von Prozessen und Entscheidungsfindung zu steigern. Im Forrester-Bericht [Total Economic Impact of Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf) erfahren Sie mehr über die Vorteile des Upgrades auf Microsoft Teams.  
+Microsoft Teams erweitert die Funktionen von Skype for Business und bietet Chat, Besprechungen, Anrufe, Zusammenarbeit, App-Integration und Dateispeicherung in einer einzigen Benutzeroberfläche an. Dieser neue zentrale Hub für Teamwork hilft Ihnen, die Art und Weise zu optimieren, wie Benutzer ihre Aufgaben erledigen, die Zufriedenheit der Benutzer zu steigern und Unternehmensergebnisse zu beschleunigen. Wir erweitern die Funktionen von Microsoft Teams kontinuierlich, damit Sie auf neue Weise kommunizieren und zusammenarbeiten, organisatorische und geographische Hindernisse überwinden und die Effizienz von Prozessen und Entscheidungsfindung zu steigern. Im Forrester-Bericht [Total Economic Impact of Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams-Infographic.pdf) erfahren Sie mehr über die Vorteile des Upgrades auf Microsoft Teams.  
 
 ## <a name="when-should-my-organization-upgrade-to-teams"></a>Wann sollte meine Organisation ein Upgrade auf Microsoft Teams durchführen?
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Bereitstellungsprozess für die Ankündigungs Anwendung'
+title: 'Lync Server 2013: Bereitstellungsprozess für die Ankündigungsanwendung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dcb56f197a32403d1207cf0a15d47e0459fc41bf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55e0c65bfbbed55a8d7f9c3be4f7a586581c2307
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762573"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042252"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a>Bereitstellungsprozess für die Ankündigungs Anwendung in lync Server 2013
+# <a name="deployment-process-for-the-announcement-application-in-lync-server-2013"></a>Bereitstellungsprozess für die Ankündigungsanwendung in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762573"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+_**Letztes Änderungsstand des Themas:** 2012-09-12_
 
-Dieser Abschnitt enthält eine Übersicht über die Schritte, die beim Bereitstellen der Ankündigungs Anwendung erforderlich sind. Sie müssen Enterprise-VoIP bereitstellen, bevor Sie Ankündigungen konfigurieren. Die von der Ankündigungs Anwendung benötigten Komponenten werden bei der Bereitstellung von Enterprise-VoIP installiert und aktiviert.
+Dieser Abschnitt enthält eine Übersicht über die Schritte zur Bereitstellung des Ankündigungsanwendung. Sie müssen Enterprise-VoIP bereitstellen, bevor Sie Ankündigungen konfigurieren. Die für die Ankündigungsanwendung erforderlichen Komponenten werden bei der Bereitstellung von Enterprise-VoIP installiert und aktiviert.
 
 ### <a name="announcement-deployment-process"></a>Bereitstellungsprozess für Ansagen
 
@@ -68,8 +68,8 @@ Dieser Abschnitt enthält eine Übersicht über die Schritte, die beim Bereitste
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p>
 <p>CsViewOnlyAdministrator</p></td>
-<td><p><a href="lync-server-2013-create-an-announcement.md">Erstellen einer Ankündigung in lync Server 2013</a></p>
-<p><a href="lync-server-2013-configure-the-unassigned-number-table.md">Konfigurieren der Tabelle nicht zugewiesener Nummern in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-create-an-announcement.md">Erstellen einer Ansage in lync Server 2013</a></p>
+<p><a href="lync-server-2013-configure-the-unassigned-number-table.md">Konfigurieren der Tabelle nicht zugewiesener Nummern in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Überprüfen Ihrer Bereitstellung von Ansagen</p></td>

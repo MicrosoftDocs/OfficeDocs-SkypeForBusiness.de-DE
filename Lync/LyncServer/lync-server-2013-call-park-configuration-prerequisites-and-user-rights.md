@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anforderungen und Benutzerrechte für die Konfiguration zum Parken von Anrufen'
+title: 'Lync Server 2013: Voraussetzungen und Benutzerrechte für die Konfiguration des Anruf Parks'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183648
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 485c8ee5ba2f7d788ef2917488ebfd86607d48d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 19a677b7b1a76c0956b5edc663e8932716ce5fb6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742975"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044377"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-park-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>Anforderungen und Benutzerrechte für die Konfiguration zum Parken von Anrufen in Lync Server 2013
+# <a name="call-park-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a>Voraussetzungen und Benutzerrechte für die Konfiguration des Anruf Parks in lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41742975"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-10_
+_**Letztes Änderungsstand des Themas:** 2012-09-10_
 
-Anruf Parken ist eine anrufverwaltungsfunktion, die standardmäßig bei der Bereitstellung von Enterprise-VoIP installiert wird. In diesem Thema wird beschrieben, was Sie benötigen, bevor Sie den Anruf Park und die Benutzerrechte konfigurieren können, die Sie zum Ausführen von Konfigurationsaufgaben benötigen.
+Das Parken von anrufen ist ein Anruf Verwaltungsfeature, das standardmäßig bei der Bereitstellung von Enterprise-VoIP installiert wird. In diesem Thema wird beschrieben, was Sie benötigen, bevor Sie das Parken von Anrufen und die Benutzerrechte konfigurieren können, die Sie zum Ausführen von Konfigurationsaufgaben benötigen.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Angepasste Musik-in-situ-Dateien für die Anwendung "Parken" werden nicht im Rahmen des lync Server 2013-Wiederherstellungsprozesses gesichert, und die Dateien gehen verloren, wenn die in den Pool hochgeladenen Dateien beschädigt, beschädigt oder gelöscht wurden. Bewahren Sie stets eine separate Sicherungskopie der für geparkte Anrufe hochgeladenen angepassten Musikdateien auf.
+> Benutzerdefinierte Musikdateien für die Anwendung zum Parken von Anrufen werden im Rahmen des lync Server 2013 Notfall Wiederherstellungsvorgangs nicht gesichert, und die Dateien gehen verloren, wenn die in den Pool hochgeladenen Dateien beschädigt, beschädigt oder gelöscht werden. Bewahren Sie immer eine separate Sicherungskopie der angepassten Musikdateien auf, die Sie für das Parken von Anrufen hochgeladen haben.
 
 
 
 </div>
 
-In diesem Abschnitt wird davon ausgegangen, dass Sie die Planungsdokumentation zum Parken von Anrufen gelesen haben (siehe [Planen von Anruf Verwaltungsfeatures in lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).
+In diesem Abschnitt wird davon ausgegangen, dass Sie die Planungsdokumentation im Zusammenhang mit dem Parken von Anrufen gelesen haben (siehe [Planning for Call Management Features in lync Server 2013](lync-server-2013-planning-for-call-management-features.md)).
 
 <div>
 
 ## <a name="call-park-configuration-prerequisites"></a>Voraussetzungen für die Konfiguration des Anruf Parks
 
-Für den Parken von Anrufen sind die folgenden Komponenten erforderlich:
+Das Parken von Anrufen erfordert die folgenden Komponenten:
 
   - Anwendungsdienst
 
@@ -63,27 +63,27 @@ Für den Parken von Anrufen sind die folgenden Komponenten erforderlich:
 
 Diese Komponenten werden automatisch installiert, wenn Sie Enterprise-VoIP bereitstellen.
 
-Wenn Sie möchten, dass Anrufer Musik hören, während der Anruf abgestellt wird, ist auch eine Musik-auf-halten-Datei erforderlich. Wenn Sie Enterprise-VoIP bereitstellen, wird automatisch eine standardmäßige Music-on-halten-Datei installiert. Sie können die Standarddatei durch ihre eigene Musik-in-halten-Datei ersetzen. Call Park verwendet den Dateispeicher, um die Audiodatei zu speichern.
+Wenn Sie möchten, dass Anrufer Wartemusik hören, solange der Anruf geparkt ist, wird zusätzlich eine Datei für die Wartemusik benötigt. Eine standardmäßige Musikdatei wird automatisch installiert, wenn Sie Enterprise-VoIP bereitstellen. Sie können die Standarddatei durch eine eigene Wartemusikdatei ersetzen. Der Anruf Park verwendet Dateispeicher, um die Audiodatei zu speichern.
 
 </div>
 
 <div>
 
-## <a name="call-park-configuration-user-rights"></a>Konfigurations Benutzerrechte des Anruf Parks
+## <a name="call-park-configuration-user-rights"></a>Konfigurieren von Benutzerrechten für das Parken von Anrufen
 
-Sie können die folgenden Verwaltungstools zum Konfigurieren des Anruf Parks verwenden:
+Sie können die folgenden Verwaltungstools verwenden, um das Parken von Anrufen zu konfigurieren:
 
   - Lync Server-Systemsteuerung
 
   - Lync Server-Verwaltungsshell
 
-Sie verwenden diese Tools, um die Umlaufbahn Tabelle des Anruf Parks einzurichten und andere Einstellungen zu konfigurieren, die von Call Park verwendet werden.
+Sie verwenden diese Tools zum Einrichten der Orbit-Tabelle für das Parken von Anrufen und zum Konfigurieren anderer Einstellungen, die von der Funktion zum Parken von Anrufen verwendet werden.
 
-Die Konfiguration des Anruf Parks erfordert je nach Aufgabe eine der folgenden Administratorrollen:
+Für die Konfiguration des Parkens von Anrufen sind je nach Aufgabe die folgenden Administratorrollen erforderlich:
 
-  - **CsVoiceAdministrator:** Diese Administratorrolle kann alle sprachbezogenen Einstellungen und Richtlinien erstellen, konfigurieren und verwalten.
+  - **CsVoiceAdministrator:** Diese Administratorrolle kann alle VoIP-bezogenen Einstellungen und Richtlinien erstellen, konfigurieren und verwalten.
 
-  - **CsUserAdministrator:** Mit dieser Administratorrolle kann der Anruf Park in der VoIP-Richtlinie aktiviert werden. Diese Administratorrolle verfügt auch über die schreibgeschützte Ansicht Zugriff auf alle Sprachkonfigurationen.
+  - **CsUserAdministrator:** Diese Administratorrolle kann das Parken von Anrufen in der VoIP-Richtlinie aktivieren. Diese Administratorrolle hat außerdem schreibgeschützten Zugriff auf alle VoIP-Konfigurationen.
 
   - **CsServerAdministrator:** Diese Administratorrolle kann Server und Dienste verwalten, überwachen und Problembehandlung durchführen.
 
@@ -93,7 +93,7 @@ Die Konfiguration des Anruf Parks erfordert je nach Aufgabe eine der folgenden A
 
 
 > [!NOTE]  
-> Details zu Administratorrechten finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planen der rollenbasierten Zugriffssteuerung in lync Server 2013</A> in der Planungsdokumentation.
+> Ausführliche Informationen zu Administratorrechten finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Role-Based Access Control in lync Server 2013</A> in der Planungsdokumentation.
 
 
 
@@ -109,7 +109,7 @@ Die Konfiguration des Anruf Parks erfordert je nach Aufgabe eine der folgenden A
 [Bereitstellen von Enterprise-VoIP in lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)  
 
 
-[Planen der Anruf Verwaltungsfeatures in lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  
+[Planen von Funktionen für die Anrufverwaltung in lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4365e5bbfe92168047165adf6504333e1c34fab6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 385279d422827b689561902becbd512f4e9261ab
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765263"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044097"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="focusjoinsandleaves-table-in-lync-server-2013"></a>FocusJoinsAndLeaves-Tabelle in Lync Server 2013
+# <a name="focusjoinsandleaves-table-in-lync-server-2013"></a>FocusJoinsAndLeaves-Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765263"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Jeder Datensatz in dieser Tabelle enthält die CDR-Informationen zu den Join-und Leave-Informationen eines Benutzers für eine Konferenz. Jede Konferenz wird in dieser Tabelle für jedes Mal, wenn ein Benutzer mit der Konferenz verbunden ist, mit einem Datensatz dargestellt.
+Jeder Datensatz in dieser Tabelle enthält die KDS-Informationen zu den Join-und Leave-Informationen eines Benutzers für eine Konferenz. Jede Konferenz wird in dieser Tabelle von einem Datensatz für jedes Mal dargestellt, wenn ein Benutzer einer Konferenz Beitritt und diese verlässt.
 
 
 <table>
@@ -58,69 +58,69 @@ Jeder Datensatz in dieser Tabelle enthält die CDR-Informationen zu den Join-und
 <tbody>
 <tr class="odd">
 <td><p><strong>SessionID</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Uhrzeit der Konferenz Instanz. Wird in Verbindung mit <strong>SessionIdSeq</strong> verwendet, um eine Konferenz Instanz eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-conferences-table.md">in der Tabelle "Konferenzen" in lync Server 2013</a> .</p></td>
+<td><p>Datum/Uhrzeit</p></td>
+<td><p>Primär, Fremd</p></td>
+<td><p>Zeitpunkt der Konferenzinstanz. Wird in Verbindung mit <strong>SessionIdSeq</strong> verwendet, um eine Konferenz Instanz eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-conferences-table.md">in der Tabelle "Konferenzen" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Die ID-Nummer zum Identifizieren der Konferenz Instanz. Wird in Verbindung mit <strong>SessionID</strong> -Mal verwendet, um eine Konferenz Instanz eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-conferences-table.md">in der Tabelle "Konferenzen" in lync Server 2013</a> .</p></td>
+<td><p>Primary, Foreign</p></td>
+<td><p>ID zur Identifikation der Konferenzinstanz. Wird in Verbindung mit <strong>SessionID</strong> verwendet, um eine Konferenz Instanz eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-conferences-table.md">in der Tabelle "Konferenzen" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogSessionIdTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Uhrzeit der Sitzungsanforderung. Wird in Verbindung mit <strong>SessionIdSeq</strong> verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle Dialogfelder in lync Server 2013</a> .</p></td>
+<td><p>Datum/Uhrzeit</p></td>
+<td><p>Primär, Fremd</p></td>
+<td><p>Zeitpunkt der Sitzungsanforderung. Wird zusammen mit <strong>SessionIdSeq</strong> verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogSessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit <strong>SessionID</strong> -Mal verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle Dialogfelder in lync Server 2013</a> .</p></td>
+<td><p>Primary, Foreign</p></td>
+<td><p>ID zur Identifikation der Sitzung. Wird zusammen mit <strong>SessionIdTime</strong> verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserID</strong></p></td>
+<td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Eindeutige Nummer, die diesen Benutzer identifiziert, auf die <a href="lync-server-2013-users-table.md">in der Tabelle "Benutzer" in lync Server 2013</a>verwiesen wird.</p></td>
+<td><p>Eindeutige Zahl, die diesen Benutzer identifiziert, auf die <a href="lync-server-2013-users-table.md">in der Tabelle users in lync Server 2013</a>verwiesen wird.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FocusUserInstance</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Wenn ein Benutzer gleichzeitig an mehreren Computern oder Geräten angemeldet ist, wird <strong>UserInstance</strong> verwendet, um die Kombination aus Benutzer und Gerät eindeutig zu identifizieren.</p></td>
+<td><p>Wenn ein Benutzer gleichzeitig auf mehreren Computern oder Geräten angemeldet ist, wird <strong>UserInstance</strong> verwendet, um die Benutzer/Geräte-Kombination eindeutig zu identifizieren.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsUserInternal</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td><p> </p></td>
-<td><p>Ob sich der Benutzer intern angemeldet hat oder nicht.</p></td>
+<td><p>Gibt an, ob sich der Benutzer intern angemeldet hat oder nicht.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserRole</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Die Rolle dieses Benutzers in der Konferenz, beispielsweise Referent oder Teilnehmer.</p></td>
+<td><p>Rolle dieses Benutzers in der Konferenz, beispielsweise Referent oder Teilnehmer.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserJoinTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td><p> </p></td>
-<td><p>Der Zeitpunkt, zu dem dieser Benutzer der Konferenz Beitritt.</p></td>
+<td><p>Die Zeit, zu der dieser Benutzer der Konferenz Beitritt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserLeaveTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td><p> </p></td>
-<td><p>Der Zeitpunkt, zu dem dieser Benutzer die Konferenz verlässt.</p></td>
+<td><p>Die Zeit, zu der dieser Benutzer die Konferenz verlässt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClientVerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Die Version der Client Software des Benutzers, auf die die <a href="lync-server-2013-clientversions-table.md">ClientVersions-Tabelle in lync Server 2013</a>verweist.</p></td>
+<td><p>Version der Client Software des Benutzers, auf die in der <a href="lync-server-2013-clientversions-table.md">Client Versions-Tabelle in lync Server 2013</a>verwiesen wird.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserEndpointId</strong></p></td>

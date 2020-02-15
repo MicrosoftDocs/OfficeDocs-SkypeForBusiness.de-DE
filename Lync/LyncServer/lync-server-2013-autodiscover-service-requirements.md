@@ -12,20 +12,20 @@ ms:contentKeyID: 48183368
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 777d70b20a51e5408fe9d9248028c3dbcaebeba2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a3cb27cb95e14a811dd6fc33bf8af91d51c26172
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722635"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044507"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="autodiscover-service-requirements-for-lync-server-2013"></a>Anforderungen für den AutoErmittlungsdienst für Lync Server 2013
+# <a name="autodiscover-service-requirements-for-lync-server-2013"></a>Anforderungen für den AutoErmittlungsdienst für lync Server 2013
 
 </div>
 
@@ -35,90 +35,90 @@ ms.locfileid: "41722635"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-25_
+_**Letztes Änderungsstand des Themas:** 2013-02-25_
 
-Der Microsoft lync Server 2013-AutoErmittlungsdienst wird auf den Director-und Front-End-Pool Servern ausgeführt und kann bei Veröffentlichung in DNS von mobilen Geräten, auf denen lync Mobile ausgeführt wird, verwendet werden, um Mobilitätsdienste zu finden. Bevor Mobile Geräte, auf denen lync Mobile ausgeführt wird, die automatische Ermittlung nutzen können, müssen Sie die Listen für alternative Namen für Zertifikats Subjekte auf jedem Director-und Front-End-Server ändern, auf dem der AutoErmittlungsdienst ausgeführt wird. Darüber hinaus ist es möglicherweise erforderlich, die Listen Betreff alternativer Name auf Zertifikaten zu ändern, die für externe Webdienst Veröffentlichungsregeln für umgekehrte Proxys verwendet werden.
+Der Microsoft lync Server 2013 AutoErmittlungsdienst wird auf dem Director-und Front-End-Pool-Server ausgeführt und kann, wenn er in DNS veröffentlicht wird, von mobilen Geräten mit lync Mobile zum Auffinden von Mobilitätsdiensten verwendet werden. Bevor Mobile Geräte, auf denen lync Mobile ausgeführt wird, die automatische Ermittlung nutzen können, müssen Sie die Listen alternativer Zertifikatsantrags Teller Namen in allen Directors und Front-End-Server ändern, auf denen der AutoErmittlungsdienst ausgeführt wird. Darüber hinaus kann es erforderlich sein, die Listen Betreff alternativer Namen auf Zertifikaten zu ändern, die für externe Webdienst-Veröffentlichungsregeln für Reverse-Proxies verwendet werden.
 
-Details zu den Einträgen des alternativen betreffs, die für Directors, Front-End-Server und Reverse-Proxies erforderlich sind, finden Sie unter [Technische Voraussetzungen für Mobilität in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md) bei der Planung für Mobilität.
+Ausführliche Informationen zu den Einträgen für alternative Antragstellernamen, die für Directors, Front-End-Server und Reverse-Proxies erforderlich sind, finden Sie unter [Technical Requirements for Mobility in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md) in Planning for Mobility.
 
-Die Entscheidung über die Verwendung von Listen für alternative namens Subjekte in umgekehrten Proxys basiert darauf, ob Sie den AutoErmittlungsdienst auf Port 80 oder auf Port 443 veröffentlichen:
+Die Entscheidung, ob auf Reverseproxys alternative Antragstellernamen verwendet werden sollen, basiert darauf, ob Sie den AutoErmittlungsdienst an Port 80 oder an Port 443 veröffentlichen:
 
-  - **Veröffentlicht auf Port 80**   es sind keine Zertifikat Änderungen erforderlich, wenn die ursprüngliche Abfrage des AutoErmittlungsdiensts über Port 80 erfolgt. Dies liegt daran, dass Mobile Geräte, auf denen lync ausgeführt wird, auf den Reverse-Proxy auf Port 80 extern zugreifen und dann intern auf Port 8080 an einen Director oder Front-End-Server umgeleitet werden. Ausführliche Informationen finden Sie weiter unten in diesem Thema im Abschnitt "ursprünglicher Auto Ermittlungsprozess mit Port 80".
+  - **Veröffentlicht auf Port 80**   keine Zertifikat Änderungen sind erforderlich, wenn die erste Abfrage an den AutoErmittlungsdienst über Port 80 erfolgt. Dies liegt daran, dass Mobile Geräte, auf denen lync läuft, extern auf den Reverseproxy auf Port 80 zugreifen und dann an Port 8080 intern an einen Director oder Front-End-Server weitergeleitet werden. Detaillierte Informationen finden Sie im Abschnitt "Anfänglicher AutoErmittlungsprozess über Port 80" weiter unten in diesem Thema.
 
-  - **Veröffentlicht auf Port 443**   die Liste der alternativen Subjektnamen für Zertifikate, die von der externen Webdienste-Veröffentlichungsregel verwendet werden, muss eine *lyncdiscover enthalten.\< sipdomain\> * -Eintrag für jede SIP-Domäne innerhalb Ihrer Organisation.
+  - **Veröffentlicht am Port 443**   die Liste der alternativen Antragstellernamen für Zertifikate, die von der Veröffentlichungsregel für externe Webdienste verwendet werden, muss ein *lyncdiscover enthalten.\< sipdomain "\> * -Eintrag für jede SIP-Domäne in Ihrer Organisation.
 
-Das erneute Ausstellen von Zertifikaten unter Verwendung einer internen Zertifizierungsstelle ist in der Regel ein einfacher Vorgang, für öffentliche Zertifikate, die für die Veröffentlichungsregel des Webdiensts verwendet werden, kann das Hinzufügen mehrerer Alternativen Betreff-Namen zu kostspielig werden Um dieses Problem zu umgehen, unterstützen wir die anfängliche automatische Ermittlungs Verbindung über Port 80, die dann auf Port 8080 auf dem Director-oder Front-End-Server umgeleitet wird.
+Das erneute Ausstellen von Zertifikaten mithilfe einer internen Zertifizierungsstelle ist in der Regel ein einfacher Prozess, für öffentliche Zertifikate, die in der Veröffentlichungsregel des Webdiensts verwendet werden, kann das Hinzufügen mehrerer alternativer alternativen Namen teuer werden. Um dieses Problem zu umgehen, unterstützen wir die anfängliche automatische Ermittlungs Verbindung über Port 80, die dann an Port 8080 auf dem Director oder Front-End-Server umgeleitet wird.
 
-Nehmen wir beispielsweise an, dass ein mobiler Client, auf dem lync Mobile ausgeführt wird, für die Anmeldung bei lync Server 2013 mit dem automatischen Ermittlungs Feature unter Verwendung von http für die ursprüngliche Anforderung konfiguriert ist.
+Nehmen Sie beispielsweise an, dass ein mobiler Client, auf dem lync Mobile läuft, für die Anmeldung bei lync Server 2013 mit dem automatischen Ermittlungs Feature unter Verwendung von http für die anfängliche Anforderung konfiguriert ist.
 
 <div>
 
-## <a name="initial-autodiscover-process-for-mobile-devices-using-port-80"></a>Erster Auto Ermittlungsprozess für mobile Geräte mit Port 80
+## <a name="initial-autodiscover-process-for-mobile-devices-using-port-80"></a>Anfänglicher Auto Ermittlungsprozess für mobile Geräte mit Port 80
 
-1.  Mobiles Gerät mit lync Mobile sucht lyncdiscover.contoso.com mithilfe von DNS, wobei ein A-Eintrag vorhanden ist.
+1.  Mobiles Gerät, auf dem lync Mobile läuft, sucht nach lyncdiscover.contoso.com mithilfe von DNS, wobei ein A-Eintrag vorhanden ist.
 
-2.  Externer DNS gibt die IP-Adresse für die externen Webdienste an den Client zurück.
+2.  Externe DNS gibt die IP-Adresse für die externen Webdienste an den Client zurück.
 
-3.  Mobiles Gerät mit lync Mobile sendet http://lyncdiscover.contoso.com?sipuri=lyncUser1@contoso.com eine Anforderung an den Reverse-Proxy
+3.  Mobiles Gerät, auf dem lync http://lyncdiscover.contoso.com?sipuri=lyncUser1@contoso.com Mobile läuft, sendet eine Anforderung an den Reverse-Proxy
 
-4.  Die Webveröffentlichungsregel überbrückt die Anforderung von Port 80 extern zu Port 8080 intern, wodurch Sie an einen Director oder Front-End-Server weitergeleitet wird.
+4.  Die Webveröffentlichungsregel wird die Anforderung von Port 80 extern an Port 8080 intern überbrücken, um Sie dann an einen Director oder Front-End-Server weiterzuleiten.
     
-    Da es sich bei der Anforderung um http und nicht um HTTPS handelt, sind keine Änderungen an dem Zertifikat in der Veröffentlichungsregel für externe Web Services erforderlich, um den AutoErmittlungsdienst zu unterstützen.
+    Da es sich um eine HTTP- und keine HTTPS-Anforderung handelt, sind keine Änderungen am Zertifikat der Veröffentlichungsregel für externe Webdienste erforderlich, damit der AutoErmittlungsdienst unterstützt wird.
 
-5.  Der AutoErmittlungsdienst gibt die URLs des externen Webdiensts (im HTTPS-Format) zurück.
+5.  Der AutoErmittlungsdienst gibt die externen Webdienst-URLs (im HTTPS-Format) zurück.
 
-6.  Das Mobile Gerät mit lync Mobile kann dann erneut eine Verbindung mit dem Reverse Proxy auf Port 443 herstellen und wird über 4443 an den Mobilitätsdienst weitergeleitet, der im Home-Pool des Benutzers ausgeführt wird.
+6.  Das Mobile Gerät, auf dem lync Mobile läuft, kann dann erneut eine Verbindung mit dem Reverseproxy an Port 443 herstellen und wird über 4443 an den Mobilitätsdienst umgeleitet, der im Home-Pool des Benutzers läuft.
     
-    Da es sich bei der HTTPS-Abfrage um die URL des externen Webdiensts und die AutoErmittlungsdienst-URL handelt, ist Sie erfolgreich, da das Zertifikat bereits Einträge für alternative Namen für externe Webdienste enthält, die vollständig qualifizierte Domänennamen (FQDNs) sind.
+    Da die HTTPS-Abfrage an die externe Webdienste-URL und nicht an die AutoErmittlungsdienst-URL gerichtet ist, ist sie erfolgreich, da das Zertifikat bereits Einträge für alternative Antragstellernamen der externen Webdienste-FQDNs enthält.
     
-    In diesem Szenario sind keine Zertifikat Änderungen erforderlich, um die Mobilität zu unterstützen.
+    In diesem Szenario sind zur Unterstützung der Mobilität keine Zertifikatänderungen erforderlich.
     
     <div>
     
 
     > [!NOTE]  
-    > Wenn der Zielwebserver über ein Zertifikat verfügt, das keinen übereinstimmenden Wert für "lyncdiscover.contoso.com" als "Subject Alternative Name"-Listenwert aufweist:<BR>a.&nbsp;&nbsp;&nbsp;Web Server antwortet mit einem "Server Hello" und ohne Zertifikat.<BR>b.&nbsp;&nbsp;&nbsp;mobiles Gerät, auf dem lync Mobile ausgeführt wird, beendet sofort die Sitzung.<BR>Wenn der Zielwebserver über ein Zertifikat verfügt, das lyncdiscover.contoso.com als Namen Listenwert für Subjekt Alternativen enthält:<BR>a.&nbsp;&nbsp;&nbsp;Web Server antwortet mit einem "Server Hello" und einem Zertifikat.<BR>b.&nbsp;&nbsp;&nbsp;auf einem mobilen Gerät mit lync Mobile wird das Zertifikat überprüft und der Handshake abgeschlossen.
+    > Wenn der Zielwebserver über ein Zertifikat verfügt, das "lyncdiscover.contoso.com" als alternativen Antragstellernamen enthält:<BR>a.&nbsp;&nbsp;&nbsp;der Webserver antwortet mit einem "Server Hello" und keinem Zertifikat.<BR>b.&nbsp;&nbsp;&nbsp;das Mobile Gerät, auf dem lync Mobile läuft, beendet die Sitzung sofort.<BR>Wenn der Zielwebserver über ein Zertifikat verfügt, das "lyncdiscover.contoso.com" als alternativen Antragstellernamen enthält:<BR>a.&nbsp;&nbsp;&nbsp;der Webserver antwortet mit einem "Server Hello" und einem Zertifikat.<BR>b.&nbsp;&nbsp;&nbsp;mobiles Gerät, auf dem lync Mobile ausgeführt wird, überprüft das Zertifikat und schließt den Hand Shake ab.
 
     
     </div>
 
-Wenn Sie eine anfängliche Verbindung mit dem AutoErmittlungsdienst mithilfe von Port 80 auf dem Reverse-Proxy Server unterstützen möchten, können Sie eine HTTP-Veröffentlichungsregel ähnlich wie in diesem Beispiel für eine Forefront Threat Management Gateway 2010 Reverse Proxy Web-Veröffentlichungsregel erstellen:
+Zur Unterstützung einer anfänglichen Verbindung mit dem AutoErmittlungsdienst über Port 80 auf dem Reverseproxyserver können Sie eine HTTP-Veröffentlichungsregel erstellen, die dem folgenden Beispiel einer Webveröffentlichungsregel für einen Forefront Threat Management Gateway 2010-Reverseproxy ähnelt:
 
-1.  Erstellen Sie eine neue Webveröffentlichungsregel (beispielsweise die **lync Server-AutoErmittlung (http)**).
+1.  Erstellen Sie eine neue Webveröffentlichungsregel (beispielsweise **Lync Server-AutoErmittlung (HTTP)**).
 
-2.  Geben Sie in **Öffentlicher Name**lyncdiscover.contoso.com ein.
+2.  Geben Sie in **Öffentlicher Name** "lyncdiscover.contoso.com" ein.
 
-3.  Wählen Sie auf der Registerkarte **Bridging** nur die Option aus, um Anforderungen von Port 80 auf Port 8080 zu überbrücken.
+3.  Wählen Sie auf der Registerkarte **Bridging** nur die Option zum Überbrücken von Anforderungen von Port 80 zu Port 8080 aus.
 
-4.  Wählen Sie auf der Registerkarte **Authentifizierung** die Option **keine Authentifizierung**aus, und der **Client kann sich nicht direkt authentifizieren**.
+4.  Wählen Sie auf der Registerkarte **Authentifizierung** die Option **Keine Authentifizierung** und **Keine direkte Authentifizierung des Clients** aus.
 
-5.  Übernehmen Sie Änderungen, und verschieben Sie die Regel an den Anfang der Liste der lync-Regeln (zunächst in der Verarbeitungsreihenfolge).
+5.  Commit ändert und verschiebt die Regel an den Anfang der Liste der lync-Regeln (zuerst in der Verarbeitungsreihenfolge).
 
 </div>
 
 <div>
 
-## <a name="mobility-for-the-split-domain-deployment"></a>Mobilität für die Bereitstellung von geteilten Domänen
+## <a name="mobility-for-the-split-domain-deployment"></a>Mobilität für die Bereitstellung geteilter Domänen
 
-Ein freigegebener SIP-Adressraum, auch bekannt als " *Split-Domain*" oder eine *hybridbereitstellung* , ist eine Konfiguration, in der Benutzer über eine lokale Bereitstellung und eine Online Umgebung bereitgestellt werden. Das gewünschte Ergebnis besteht darin, dass Sie einen Benutzer haben, unabhängig davon, wo sich der Home-Server befindet (lokal oder Online), um sich bei der Bereitstellung anzumelden und an den Standort Ihres Home-Servers weitergeleitet zu werden. Um dies zu erreichen, wird das Feature AutoErmittlung von Microsoft lync Server 2013 verwendet, um den Online Benutzer zur Online Topologie umzuleiten. Dies erfolgt durch die Konfiguration des Uniform Resource Locator (URL) für die AutoErmittlung mithilfe der lync Server-Verwaltungsshell und der Cmdlets **Get-CsHostingProvider** und **CsHostingProvider**.
+Ein freigegebener SIP-Adressraum, der auch als *geteilte Domäne*bezeichnet wird, oder eine *hybridbereitstellung* ist eine Konfiguration, in der Benutzer über eine lokale Bereitstellung und eine Online Umgebung bereitgestellt werden. Das gewünschte Ergebnis besteht darin, dass ein Benutzer unabhängig davon, wo sich sein Heimatserver befindet (lokal oder Online), sich bei der Bereitstellung anmeldet und zu seinem Standort des Heimat Servers umgeleitet wird. Um dies zu erreichen, wird das Auto Ermittlungs Feature von Microsoft lync Server 2013 verwendet, um den Online Benutzer zur Online Topologie umzuleiten. Konfigurieren Sie dazu die URL (Uniform Resource Locator) der AutoErmittlung mithilfe der lync Server-Verwaltungsshell und der Cmdlets **Get-CsHostingProvider** und **CsHostingProvider**.
 
-Sie müssen die folgenden bereitgestellten Attribute sammeln und aufzeichnen:
+Sie müssen folgende bereitgestellte Attribute erfassen und aufzeichnen:
 
-  - Geben Sie in der lync Server-Verwaltungsshell
+  - Geben Sie im lync Server-Verwaltungsshell
     
         Get-CsHostingProvider
 
-  - Suchen Sie in den Ergebnissen den Onlineanbieter mit dem Attribut **ProxyFQDN**. Beispiel: sipfed.online.lync.com
+  - Suchen Sie in den Ergebnissen nach dem Onlineanbieter mit dem Attribut**ProxyFQDN**, z. B. "sipfed.online.lync.com".
 
-  - Aufzeichnen des Werts des ProxyFQDN
+  - Zeichnen Sie den Wert von "ProxyFQDN" auf.
 
-  - Aktivieren der Föderation in der lokalen lync Server-Systemsteuerung, wodurch die Föderation mit dem Onlineanbieter zugelassen wird
+  - Aktivieren Sie den Partnerverbund in der lokalen lync Server-Systemsteuerung, sodass der Verbund mit dem Onlineanbieter zugelassen ist.
 
-  - Aktivieren Sie den Verbund für den Onlineanbieter. Standardmäßig sind alle Online Benutzer für den Domänen Verbund aktiviert und können mit allen Domänen kommunizieren.
+  - Aktivieren Sie den Partnerverbund für den Onlineanbieter. Standardmäßig sind alle Onlinebenutzer für den Domänenverbund aktiviert und können mit allen Domänen kommunizieren.
 
-  - Wenn Sie blockierte und zulässige Domänen definieren, ermitteln Sie die Domänen, die explizit zugelassen oder explizit blockiert werden.
+  - Wenn Sie gesperrte und zulässige Domänen definieren, legen Sie die Domänen fest, die Sie explizit zulassen oder sperren möchten.
 
-  - Für die Online-Föderation müssen Sie Firewall-Ausnahmen, Zertifikate und DNS-Host (A oder AAAA, wenn Sie IPv6 verwenden) planen. Darüber hinaus müssen Sie Verbund Richtlinien konfigurieren. Ausführliche Informationen finden Sie unter [Planen von lync Server 2013 und Office Communications Server Federation](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md) .
+  - Für den Onlineverbund müssen Sie Firewallausnahmen, Zertifikate und den DNS-Hosteinträge (A oder AAAA bei Verwendung von IPv6) planen. Außerdem müssen Sie Verbundrichtlinien konfigurieren. Ausführliche Informationen finden Sie unter [Planung für lync Server 2013 und Office Communications Server Partnerverbund](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md)
 
 </div>
 

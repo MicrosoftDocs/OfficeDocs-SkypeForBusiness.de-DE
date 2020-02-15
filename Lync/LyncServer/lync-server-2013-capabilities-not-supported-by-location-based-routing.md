@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Vom standortbasierten Routing nicht unterstützte Funktionen'
+title: 'Lync Server 2013: von Standort basiertem Routing nicht unterstützte Funktionen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803982
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 967b5b7388ce60eafd46791c226bf1a3edbe0c2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 99e28778a8bd299d5ead25220f19b27927a63d44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743185"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044197"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Vom standortbasierten Routing nicht unterstützte Funktionen in Lync Server 2013
+# <a name="capabilities-not-supported-by-location-based-routing-in-lync-server-2013"></a>Von Standort basiertem Routing in lync Server 2013 nicht unterstützte Funktionen
 
 </div>
 
@@ -35,36 +35,36 @@ ms.locfileid: "41743185"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-03-12_
+_**Letztes Änderungsstand des Themas:** 2014-03-12_
 
-Standortbasiertes Routing gilt nicht für die folgenden Arten von Interaktionen. Standortbasiertes Routing wird nicht erzwungen, wenn lync-Endpunkte mithilfe dieser Funktionen mit PSTN-Endpunkten interagieren.
+Das standortbasierte Routing gilt nicht für die folgenden Arten von Interaktionen. Das standortbasierte Routing wird nicht erzwungen, wenn lync-Endpunkte mithilfe dieser Funktionen mit PSTN-Endpunkten interagieren.
 
-  - PSTN-Einwahl bei Konferenzen
+  - PSTN-Einwahl in Konferenzen
 
-  - Eingehende und ausgehende PSTN-Anrufe über die Reaktionsgruppe
+  - Eingehende und ausgehende PSTN-Anrufe über Reaktionsgruppen
 
-  - Parken von Anrufen oder Abrufen von PSTN-Anrufen über das Parken von Anrufen
+  - Parken von anrufen oder Abrufen von PSTN-anrufen über das Parken von Anrufen
 
   - Eingehende PSTN-Anrufe an den Ankündigungsdienst
 
-  - Eingehende PSTN-Anrufe, die über die Gruppenanrufannahme abgerufen werden
+  - Eingehende PSTN-Anrufe, die über Gruppenanruf Pickup abgerufen werden
 
-Wenn Sie Standortbasierte Routingregeln für die Typen von Interaktionen in der folgenden Liste erzwingen möchten, müssen Sie standortbasiertes Routing für Konferenzen aktivieren:
+Zum Erzwingen von standortbasierten Routingregeln für die Arten von Interaktionen in der folgenden Liste müssen Sie das standortbasierte Routing für Konferenzen aktivieren:
 
-  - PSTN-Einwahl von Konferenzen
+  - PSTN-Einwahlkonferenzen
 
-  - Eskalationen von Peer-zu-Peer-Audiounterhaltungen in Konferenzen unter Beteiligung von PSTN-Endpunkten
+  - Eskalationen von Peer-zu-Peer-Audiounterhaltungen zu Konferenzen mit PSTN-Endpunkten
 
-  - Anrufdurchstellung nach Rücksprache unter Beteiligung von PSTN-Endpunkten
+  - Beratende Übertragungen mit PSTN-Endpunkten
 
-Informationen zum Aktivieren des standortbasierten Routings für Konferenzen finden Sie unter [standortbasiertes Routing für Konferenzen in lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md).
+Informationen zum Aktivieren des standortbasierten Routing für Konferenzen finden Sie unter [standortbasiertes Routing für Konferenzen in lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md).
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planung des standortbasierten Routings in Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Planen des standortbasierten Routings in lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

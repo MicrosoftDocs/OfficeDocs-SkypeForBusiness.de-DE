@@ -12,20 +12,20 @@ ms:contentKeyID: 48184077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97a8015bce118991b21b541faf588dd4d76ac784
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44f41dc95e1c7c39a0c9c2cc4dd0a3a2462083e7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738345"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044577"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="audiostream-table-in-lync-server-2013"></a>AudioStream-Tabelle in Lync Server 2013
+# <a name="audiostream-table-in-lync-server-2013"></a>AudioStream-Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41738345"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-Jeder Datensatz steht für einen Audiostream. Eine Audio-Media-Zeile enthält in der Regel zwei Audiostreams.
+Jeder Datensatz stellt einen Audiostream dar. Eine Audio-Medien Verbindung enthält normalerweise zwei Audiostreams.
 
 
 <table>
@@ -58,283 +58,283 @@ Jeder Datensatz steht für einen Audiostream. Eine Audio-Media-Zeile enthält in
 <tbody>
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td><p>Primary</p></td>
-<td><p>Auf die <a href="lync-server-2013-medialine-table.md">in der Tabelle medialinie in lync Server 2013</a>verwiesen wird.</p></td>
+<td><p><a href="lync-server-2013-medialine-table.md">In lync Server 2013 auf die Medientabelle</a>verwiesen.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Auf die <a href="lync-server-2013-medialine-table.md">in der Tabelle medialinie in lync Server 2013</a>verwiesen wird.</p></td>
+<td><p><a href="lync-server-2013-medialine-table.md">In lync Server 2013 auf die Medientabelle</a>verwiesen.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaLineLabel</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Primary</p></td>
-<td><p>Auf die <a href="lync-server-2013-medialine-table.md">in der Tabelle medialinie in lync Server 2013</a>verwiesen wird.</p></td>
+<td><p><a href="lync-server-2013-medialine-table.md">In lync Server 2013 auf die Medientabelle</a>verwiesen.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Datenstrom-Nr</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutige ID innerhalb einer medienzeile</p></td>
+<td><p>Eindeutige ID innerhalb einer Medienzeile.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>JitterInterArrival</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Durchschnittlicher Netzwerk-Jitter aus RTCP-Statistiken (Real Time Control Protocol).</p></td>
+<td><p>Durchschnittlicher Netzwerkjitter aus RTCP-Statistik (Real Time Control Protocol).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalMax</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Maximaler Netzwerk Jitter während des Anrufs.</p></td>
+<td><p>Maximaler Netzwerkjitter während des Anrufs.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PacketLossRate</strong></p></td>
-<td><p>Dezimal (5; 4)</p></td>
+<td><p>Decimal (5, 4)</p></td>
 <td><p> </p></td>
 <td><p>Durchschnittliche Paketverlustrate während des Anrufs.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PacketLossRateMax</strong></p></td>
-<td><p>Dezimal (5; 4)</p></td>
+<td><p>Decimal (5, 4)</p></td>
 <td><p> </p></td>
-<td><p>Maximaler Paketverlust während des Anrufs.</p></td>
+<td><p>Maximale Paketverlustrate während des Anrufs.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BurstDensity</strong></p></td>
-<td><p>Dezimal (9; 4)</p></td>
+<td><p>Decimal (9, 4)</p></td>
 <td><p> </p></td>
-<td><p>Durchschnittliche Dichte des Paketverlusts während des Ausbruchs von Verlusten während des Anrufs.</p></td>
+<td><p>Durchschnittliche Dichte des Paketverlusts bei Bursts von Verlusten während des Anrufs.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BurstDuration</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Durchschnittliche Dauer des Paketverlusts während des Ausbruchs von Verlusten während des Anrufs.</p></td>
+<td><p>Durchschnittliche Dauer an Paketverlusten bei Bursts von Verlusten während des Anrufs.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BurstGapDensity</strong></p></td>
-<td><p>Dezimal (9; 4)</p></td>
+<td><p>Decimal (9, 4)</p></td>
 <td><p> </p></td>
-<td><p>Durchschnittliche Dichte des Paketverlusts bei Lücken zwischen Bursts des Paketverlusts.</p></td>
+<td><p>Durchschnittliche Dichte an Paketverlusten bei Lücken zwischen Bursts von Paketverlusten.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BurstGapDuration</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Durchschnittliche Dauer von Lücken zwischen Bursts des Paketverlusts.</p></td>
+<td><p>Durchschnittliche Dauer der Lücken zwischen Bursts von Paketverlusten.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>PacketUtilization</strong></p></td>
 <td><p>Int</p></td>
 <td><p> </p></td>
-<td><p>Die Anzahl der Pakete für den Audiostream.</p></td>
+<td><p>Paketwert für den Audiostream.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Bandbreite</strong></p></td>
 <td><p>Int</p></td>
 <td><p> </p></td>
-<td><p>Bandbreiten Schätzungen für den Audiostream.</p></td>
+<td><p>Bandbreitenschätzungen für den Audiostream.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DegradationAvg</strong></p></td>
-<td><p>Dezimal (3; 2)</p></td>
+<td><p>Decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>Netzwerk-Mos-Verschlechterung für den gesamten Anruf. Der Bereich ist 0,0 bis 5,0. Diese Metrik zeigt die Menge, die das Netzwerk Mos aufgrund von Jitter und Paketverlust reduziert wurde. Für akzeptable Qualität sollte es weniger als 0,5.</p></td>
+<td><p>Netzwerk-MOS-Beeinträchtigung für den gesamten Anruf. Der Bereich umfasst 0,0 bis 5,0.  Diese Metrik gibt an, um welche Menge der Netzwerk-MOS aufgrund von Jitter und Paketverlusten reduziert wurde. Der Wert sollte weniger als 0,5 betragen, um eine akzeptable Qualität zu bieten.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DegradationMax</strong></p></td>
-<td><p>Dezimal (3; 2)</p></td>
+<td><p>Decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>Maximaler Netzwerk-Mos-Abbau während des Anrufs.</p></td>
+<td><p>Maximale Netzwerk-MOS-Beeinträchtigung während des Anrufs.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DegradationJitterAvg</strong></p></td>
-<td><p>Dezimal (3; 2)</p></td>
+<td><p>Decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>Netzwerk-Mos-Beeinträchtigung durch Jitter.</p></td>
+<td><p>Netzwerk-MOS-Beeinträchtigung aufgrund von Jitter.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DegradationPacketLossAvg</strong></p></td>
-<td><p>Dezimal (3; 2)</p></td>
+<td><p>Decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>Netzwerk-Mos-Beeinträchtigung durch Paketverlust.</p></td>
+<td><p>Netzwerk-MOS-Beeinträchtigung aufgrund von Paketverlust.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AudioPayloadDescription</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Der für den Anruf verwendete Audiocodec, auf den von der PayloadDescription-Tabelle verwiesen wird.</p></td>
+<td><p>Der für den Anruf verwendete Audiocodec, der von der PayloadDescription-Tabelle referenziert wird.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AudioSampleRate</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Abtastrate für den Audiostream.</p></td>
+<td><p>Samplingrate für den Audiostream.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>RoundTrip</strong></p></td>
+<td><p><strong>Roundtrip</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Roundtrip-Zeit von RTCP-Statistiken Bei akzeptabler Qualität sollte dies weniger als 100M betragen.</p></td>
+<td><p>Roundtripzeit aus RTCP-Statistik. Für eine akzeptable Qualität sollte dies weniger als 100M sein.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RoundTripMax</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Maximale Roundtrip-Zeit für den Audiostream.</p></td>
+<td><p>Maximale Roundtripzeit für den Audiostream.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OverallAvgNetworkMOS</strong></p></td>
-<td><p>Dezimal (3; 2)</p></td>
+<td><p>Decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>Durchschnittliche Breitband-Netzwerk-Mos für den Anruf. Diese Metrik hängt vom verwendeten Paketverlust, Jitter und Codec ab. Bereich ist [1,0 bis 5,0].</p></td>
+<td><p>Durchschnittlicher Breitband-Netzwerk-MOS für den Anruf. Diese Metrik ist abhängig vom Paketverlust, Jitter und dem verwendeten Codec. Bereich ist [1,0 zu 5,0].</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OverallMinNetworkMOS</strong></p></td>
-<td><p>Dezimal (3; 2)</p></td>
+<td><p>Decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>Das Mindest-Breitband-Netzwerk Mos für den Anruf.</p></td>
+<td><p>Die minimale Breitband-Netzwerk-Mos für den Anruf.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SendListenMOS</strong></p></td>
-<td><p>Dezimal (3; 2)</p></td>
+<td><p>Decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>Der durchschnittliche prognostizierte Breitband-Abhör-Mos-Score für gesendete Audiodaten, einschließlich der Eigenschaften für Sprachpegel, Geräuschpegel und Aufnahmegeräte.</p></td>
+<td><p>Die durchschnittliche vorhergesagte Wideband-Abhör-Mos-Bewertung für gesendete Audiodaten, einschließlich Sprachpegel, Rauschpegel und Eigenschaften von Aufnahmegeräten.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SendListenMOSMin</strong></p></td>
-<td><p>Dezimal (3; 2)</p></td>
+<td><p>Decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>Die Mindest-SendListenMOS für den Anruf.</p></td>
+<td><p>Die minimale SendListenMOS für den Anruf.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RecvListenMOS</strong></p></td>
-<td><p>Dezimal (3; 2)</p></td>
+<td><p>Decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>Der durchschnittliche prognostizierte Breitband-Abhör-Mos-Score für vom Netzwerk empfangene Audiosignale, einschließlich Sprachpegel, Geräuschpegel, Codec, Netzwerkbedingungen und Merkmale des Aufnahmegeräts.</p></td>
+<td><p>Die durchschnittliche vorhergesagte Wideband-Abhör-Mos-Bewertung für vom Netzwerk empfangene Audiodaten, einschließlich Sprachpegel, Rauschen, Codec, Netzwerkbedingungen und Eigenschaften für das Capture-Gerät.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RecvListenMOSMin</strong></p></td>
-<td><p>Dezimal (3; 2)</p></td>
+<td><p>Decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>Die Mindest-RecvListenMOS für den Anruf.</p></td>
+<td><p>Die minimale RecvListenMOS für den Anruf.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AudioFECUsed</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td></td>
 <td><p>Flag, das angibt, ob Audio FEC für den Anruf verwendet wurde.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RatioConcealedSamplesAvg</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td></td>
-<td><p>Durchschnittliches Verhältnis der verborgenen Samples, die von der audioheilung an typische Samples generiert wurden.</p></td>
+<td><p>Durchschnittliches Verhältnis zwischen ausgeblendeten Samples, generiert durch Audioreparatur, und Standardsamples.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RatioStretchedSamplesAvg</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td></td>
-<td><p>Durchschnittliches Verhältnis von gedehnten Samples, die von der audioheilung zu typischen Samples generiert wurden.</p></td>
+<td><p>Durchschnittliches Verhältnis zwischen gestreckten Samples, generiert durch Audioreparatur, und Standardsamples.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RatioCompressedSamplesAvg</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td></td>
-<td><p>Durchschnittliches Verhältnis von komprimierten Samples, die von der audioheilung zu typischen Samples generiert wurden.</p></td>
+<td><p>Durchschnittliches Verhältnis zwischen komprimierten Samples, generiert durch Audioreparatur, und Standardsamples.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Inbound</strong></p></td>
-<td><p>bit</p></td>
+<td><p><strong>Eingehend</strong></p></td>
+<td><p>Bit</p></td>
 <td><p> </p></td>
 <td><p>Datenstrom auf Empfängerseite wird empfangen.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Ausgehend</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td><p> </p></td>
 <td><p>Datenstrom auf Absenderseite wird empfangen.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SenderIsCallerPAI</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td><p> </p></td>
-<td><p>1 bedeutet, dass die Datenstrom Richtung vom Aufrufer an den aufgerufenen gesendet wird.</p>
-<p>0 bedeutet, dass die Datenstrom Richtung vom aufgerufenen zum Aufrufer ist.</p></td>
+<td><p>1 bedeutet, dass die Datenstrom Richtung vom Anrufer zum angerufenen stammt.</p>
+<p>0 bedeutet, dass die Datenstromrichtung vom Angerufenen zum Anrufer verläuft.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalSD</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
 <td><p>Standard Abweichung für Jitter-Ankunftszeiten.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConcealRatioMax</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
 <td><p>Maximales Verhältnis von Paketen, die vom Heiler verborgen sind.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConcealRatioSD</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
 <td><p>Standard Abweichung für das Verhältnis von Paketen, die vom Heiler verborgen sind.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>HealerPacketDropRatio</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Das Verhältnis der vom Heiler abgegebenen Pakete im Vergleich zur Gesamtzahl der empfangenen Pakete.</p>
+<td><p>Verhältnis der Pakete, die vom Heiler zurückgegeben wurden, mit der Gesamtzahl der empfangenen Pakete.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>HealerFECPacketUsedRatio</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
 <td><p>Verhältnis der verwendeten Forward-Fehlerkorrektur Pakete im Vergleich zur Gesamtzahl der empfangenen Pakete.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MaxCompressedSamples</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Die maximale Anzahl von Audiopaketen, die vom Heiler komprimiert wurden.</p>
+<td><p>Maximale Anzahl von Audiopaketen, die von der Heiler-Datei komprimiert wurden.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LossCongestionPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Gibt den Prozentsatz der Zeit an, zu der sich der Anruf in einem Engpass Zustand befand.</p>
+<td><p>Gibt den Prozentsatz der Zeit an, als sich der Anruf in einem Verlust Engpass Zustand befand.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DelayCongestionPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Gibt den Prozentsatz des Anrufs an, während dessen Überlastung durch das verspätete Eintreffen von Netzwerkpaketen verursacht wurde.</p>
+<td><p>Gibt den Prozentsatz des Anrufs an, in dem die Überlastung durch die verzögerte Ankunft von Netzwerkpaketen verursacht wurde.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentionDetectedPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Gibt den Prozentsatz der Zeit an, zu der der Anruf im Wettbewerb um Netzwerkressourcen erfolgte.</p>
+<td><p>Gibt den Prozentsatz der Zeit an, als der Anruf um Netzwerkressourcen konkurrierte.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>BandwidthEstMin</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Minimaler Grad der Bandbreitenschätzung, gemessen während des Anrufs.</p>
+<td><p>Minimaler Grad an Bandbreitenschätzung, der während des Anrufs gemessen wurde.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
@@ -360,100 +360,100 @@ Jeder Datensatz steht für einen Audiostream. Eine Audio-Media-Zeile enthält in
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayTotal</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Gesamtzahl der unidirektionalen Latenzzeit. Die relative unidirektionale Latenz misst die Verzögerung zwischen dem Client und dem Server.</p>
+<td><p>Gesamter Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayAverage</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Durchschnittliche Anzahl der unidirektionalen Latenzzeit. Die relative unidirektionale Latenz misst die Verzögerung zwischen dem Client und dem Server.</p>
+<td><p>Durchschnittlicher Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayMax</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Maximale Anzahl von unidirektionalen Latenzzeiten. Die relative unidirektionale Latenz misst die Verzögerung zwischen dem Client und dem Server.</p>
+<td><p>Maximaler Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Gesamtzahl der einseitigen Burst-Ereignisse. Eine "bursty"-Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Bursts im Gegensatz zu einem unveränderlichen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.</p>
+<td><p>Undirektionale Burstvorkommen insgesamt. Eine Übertragung mit Bursts ist eine Übertragung, bei der Daten in unvorhersehbaren Datenblöcken anstatt in einem regelmäßigen Datenstrom übertragen werden. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDensity</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Totale unidirektionale Burst Dichte. Eine "bursty"-Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Bursts im Gegensatz zu einem unveränderlichen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.</p>
+<td><p>Undirektionale Burstdichte insgesamt. Eine Übertragung mit Bursts ist eine Übertragung, bei der Daten in unvorhersehbaren Datenblöcken anstatt in einem regelmäßigen Datenstrom übertragen werden. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDuration</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Gesamtdauer des einseitigen Bursts. Eine "bursty"-Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Bursts im Gegensatz zu einem unveränderlichen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.</p>
+<td><p>Undirektionale Burstdauer insgesamt. Eine Übertragung mit Bursts ist eine Übertragung, bei der Daten in unvorhersehbaren Datenblöcken anstatt in einem regelmäßigen Datenstrom übertragen werden. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapOccurrences</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Gesamtanzahl der einseitigen Lücken. Eine "bursty"-Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Bursts im Gegensatz zu einem unveränderlichen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Bursts hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.</p>
+<td><p>Undirektionale Lückenvorkommen insgesamt. Eine Übertragung mit Bursts ist eine Übertragung, bei der Daten in unvorhersehbaren Datenblöcken anstatt in einem regelmäßigen Datenstrom übertragen werden. Die Lücken kennzeichnen die Verzögerungen zwischen diesen Bursts. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayGapDensity</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Gesamtdichte für einseitigen Abstand. Eine "bursty"-Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Bursts im Gegensatz zu einem unveränderlichen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Bursts hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.</p>
+<td><p>Undirektionale Lückendichte insgesamt. Eine Übertragung mit Bursts ist eine Übertragung, bei der Daten in unvorhersehbaren Datenblöcken anstatt in einem regelmäßigen Datenstrom übertragen werden. Die Lücken kennzeichnen die Verzögerungen zwischen diesen Bursts. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayGapDuration</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Gesamtdauer der einseitigen Lücke Eine "bursty"-Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Bursts im Gegensatz zu einem unveränderlichen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Bursts hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.</p>
+<td><p>Undirektionale Lückendauer insgesamt. Eine Übertragung mit Bursts ist eine Übertragung, bei der Daten in unvorhersehbaren Datenblöcken anstatt in einem regelmäßigen Datenstrom übertragen werden. Die Lücken kennzeichnen die Verzögerungen zwischen diesen Bursts. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DecodeStereoPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
 <td><p>Prozentsatz des Anrufs, der als Stereo decodiert wurde.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AecRenderStereoPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
 <td><p>Prozentsatz des Anrufs, der von der akustischen Echounterdrückung als Stereo gerendert wird.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AudioPostFECPLR</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Die Paketverlustrate, nachdem die weiter Leitungsfehler Korrektur angewendet wurde.</p>
+<td><p>Paketverlustrate, nachdem eine Vorwärts Fehlerkorrektur angewendet wurde.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EncodeStereoPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Prozentsatz des als Stereo codierten Anrufs.</p>
+<td><p>Prozentsatz des Anrufs, der als Stereo codiert ist.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AecCaptureStereoPercent</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Prozentsatz des Anrufs, der von der akustischen Echounterdrückung als Stereo aufgenommen wurde.</p>
+<td><p>Prozentsatz des Anrufs, der von der akustischen Echounterdrückung als Stereo erfasst wurde.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Neue Enterprise-VoIP-Funktionen'
+title: 'Lync Server 2013: neue Enterprise-VoIP-Funktionen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 92c1c264b9ffa5459962b2b6e915ea0fef2cf775
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 14f3f2429183e76a120fed1ef7437f18bdb8639f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757509"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042362"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-enterprise-voice-features-in-lync-server-2013"></a>Neue Enterprise-VoIP-Funktionen in Lync Server 2013
+# <a name="new-enterprise-voice-features-in-lync-server-2013"></a>Neue Enterprise-VoIP-Funktionen in lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41757509"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-05-01_
+_**Letztes Änderungsstand des Themas:** 2013-05-01_
 
-Lync Server 2013 führt verschiedene neue Routing-und Anruf Verwaltungsfeatures ein, die Enterprise-VoIP verbessern.
+In lync Server 2013 werden mehrere neue Routing-und Anruf Verwaltungsfeatures eingeführt, die Enterprise-VoIP verbessern.
 
-Lync Server 2013 unterstützt mehrere Trunks zwischen Vermittlungsservern und Gateways. Ein *trunk* ist eine logische Zuordnung zwischen einer Portnummer und einem Vermittlungs Server mit einer Portnummer und einem Gateway. Dies bedeutet, dass ein Vermittlungs Server mehrere Trunks für verschiedene Gateways aufweisen kann und ein Gateway mehrere Trunks zu verschiedenen Vermittlungsservern haben kann. Das intertrunk-Routing ermöglicht es lync Server 2013, eine IP-Telefonanlage mit einem PSTN-Gateway (Public Switched Telephone Network) zu verbinden oder mehrere IP-PBX-Systeme miteinander zu verbinden. Lync Server 2013 dient als Klebstoff (also die Verbindung) zwischen verschiedenen Telefonsystemen.
+Lync Server 2013 unterstützt mehrere Trunks zwischen Vermittlungsservern und Gateways. Ein *trunk* ist eine logische Zuordnung zwischen einer Portnummer und Vermittlungsserver mit einer Portnummer und einem Gateway. Das bedeutet, dass ein Vermittlungsserver mehrere Trunks zu unterschiedlichen Gateways haben kann und ein Gateway mehrere Trunks zu unterschiedlichen Vermittlungsservern haben kann. Das intertrunk-Routing ermöglicht lync Server 2013, eine IP-Nebenstellenanlage mit einem PSTN-Gateway (Public Switched Telephone Network) zu verbinden oder mehrere IP-PBX-Systeme miteinander zu verbinden. Lync Server 2013 dient als Klebstoff (also die Verbindung) zwischen verschiedenen Telefonsystemen.
 
-Microsoft lync Server 2013 führt zu Verbesserungen in den Bereichen Anrufweiterleitung, gleichzeitiges Klingeln, Voicemail-Behandlung und Präsentation der Rufnummernanzeige. Diese Features bereichern das Sprachanruf Erlebnis in Unternehmen.
+Microsoft lync Server 2013 Verbesserungen in den Bereichen Anrufweiterleitung, gleichzeitiges Klingeln, Voicemail-Verarbeitung und Anrufer-ID-Präsentation. Diese Features bereichern die Enterprise-VoIP-Anruf Erfahrung.
 
-Lync Server 2013 führt die folgenden neuen Verbesserungen für Enterprise-VoIP ein:
+In lync Server 2013 werden die folgenden neuen Verbesserungen für Enterprise-VoIP eingeführt:
 
-  - [Neue Anruffunktionen in Lync Server 2013](lync-server-2013-new-call-features.md)
+  - [Neue Anruffunktionen in lync Server 2013](lync-server-2013-new-call-features.md)
 
-  - [Neue Funktion für die Anrufer-ID in Lync Server 2013](lync-server-2013-new-caller-id-feature.md)
+  - [Neue Funktion für Anrufer-ID in lync Server 2013](lync-server-2013-new-caller-id-feature.md)
 
-  - [Neue Voicemailfunktion in Lync Server 2013](lync-server-2013-new-voice-mail-feature.md)
+  - [Neues Voicemail-Feature in lync Server 2013](lync-server-2013-new-voice-mail-feature.md)
 
-  - [Neue Trunkfunktion in Lync Server 2013](lync-server-2013-new-trunk-feature.md)
+  - [Neue trunk Funktion in lync Server 2013](lync-server-2013-new-trunk-feature.md)
 
-  - [Neue Funktion für das Routing zwischen Trunks in Lync Server 2013](lync-server-2013-new-intertrunk-feature.md)
+  - [Neues intertrunk-Feature in lync Server 2013](lync-server-2013-new-intertrunk-feature.md)
 
-  - [Neue Funktionen für die Anrufverwaltung in Lync Server 2013](lync-server-2013-new-call-management-features.md)
+  - [Neue Funktionen für die Anrufverwaltung in lync Server 2013](lync-server-2013-new-call-management-features.md)
 
 </div>
 

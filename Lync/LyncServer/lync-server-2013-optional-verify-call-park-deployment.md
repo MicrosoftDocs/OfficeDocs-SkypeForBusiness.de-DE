@@ -12,16 +12,16 @@ ms:contentKeyID: 48185952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cfc0d62bcfabe1a5bcddfb069d95b18aa0d30d4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 05b18de4af492fb45ef37e64cca45cc2d3d2b965
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755719"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044627"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,24 +35,24 @@ ms.locfileid: "41755719"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-11_
+_**Letztes Änderungsstand des Themas:** 2012-09-11_
 
-Nachdem Sie den Parken von Anrufen installiert und konfiguriert haben, müssen Sie die Konfiguration überprüfen, um sicherzustellen, dass das Parken und Abrufen von anrufen wie erwartet funktioniert. Überprüfen Sie mindestens Folgendes:
+Nachdem Sie das Parken von Anrufen installiert und konfiguriert haben, müssen Sie die Konfiguration überprüfen, um sicherzustellen, dass das Parken und Abrufen von anrufen wie erwartet funktioniert. Überprüfen Sie mindestens Folgendes:
 
-  - Rufen Sie einen Benutzer an, der den Anruf Park aktiviert hat, und lassen Sie den Anruf vom Nutzer Parken.
+  - Rufen Sie einen Benutzer an, der den Anruf Park aktiviert hat, und lassen Sie den Anruf vom Benutzer Parken.
     
     <div>
     
 
     > [!NOTE]  
-    > Wenn Sie den Anruf Park in der VoIP-Richtlinie unmittelbar vor der Durchführung dieses Tests aktiviert haben, muss sich der Benutzer, der den Anruf parkt, von lync Server abmelden und dann wieder anmelden, um die Option "Parken" in der Anrufliste für Anrufe sehen zu können.
+    > Wenn Sie den Anruf Park in der VoIP-Richtlinie unmittelbar vor der Durchführung dieses Tests aktiviert haben, muss der Benutzer, der den Anruf abstellt, sich bei lync Server abmelden und dann wieder anmelden, um die Option "Parken" in der Anrufliste für die Anrufweiterleitung anzeigen zu können.
 
     
     </div>
 
-  - Wählen Sie die Orbitnummer aus, um den Anruf entgegenzunehmen.
+  - Wählen Sie die Umlaufbahn Nummer, um den Anruf abzurufen.
 
-  - Parken Sie einen weiteren Anruf, lassen Sie die Zeitspanne für die Zeitüberschreitung verstreichen und nehmen Sie den Rückruf nicht entgegen. Überprüfen Sie, ob der Anruf, bei dem eine Zeitüberschreitung aufgetreten ist, ordnungsgemäß an das für **OnTimeoutURI** angegebene Fallbackziel weitergeleitet wurde.
+  - Parken Sie einen weiteren Anruf, lassen Sie die geparkte Anruf-Zeit aus, und nehmen Sie nicht den Rückruf an. Stellen Sie sicher, dass der Timeout-Aufruf ordnungsgemäß an das Fallback-Ziel weitergeleitet wird, das für **OnTimeoutURI**angegeben ist.
 
 </div>
 

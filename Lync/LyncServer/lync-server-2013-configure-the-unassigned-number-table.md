@@ -12,20 +12,20 @@ ms:contentKeyID: 48185908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b99679d439257b54b6bb40d8e724bb63da4a1ea5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ceb3aa60273439c94a5d936efe826e77dcc683be
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736475"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043197"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-unassigned-number-table-in-lync-server-2013"></a>Konfigurieren der Tabelle nicht zugewiesener Nummern in Lync Server 2013
+# <a name="configure-the-unassigned-number-table-in-lync-server-2013"></a>Konfigurieren der Tabelle nicht zugewiesener Nummern in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41736475"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-30_
+_**Letztes Änderungsstand des Themas:** 2012-10-30_
 
-In lync Server 2013 können Sie angeben, was mit eingehenden Anrufen von Telefonnummern geschieht, die für Ihre Organisation gültig sind, aber keinem Benutzer oder Telefon zugewiesen sind. Anrufer können eine Nachricht hören oder an ein anderes Ziel oder beides weiterleiten.
+In lync Server 2013 können Sie angeben, was mit eingehenden Anrufen an Telefonnummern geschieht, die für Ihre Organisation gültig sind, aber keinem Benutzer oder Telefon zugewiesen sind. Anrufer können eine Nachricht hören, oder Sie können an ein anderes Ziel oder beides weitergeleitet werden.
 
-Wie Sie die Tabelle nicht zugewiesener Rufnummern konfigurieren, richtet sich danach, wie Sie diese verwenden möchten. Sie können die Tabelle mit allen gültigen Durchwahlnummern für Ihre Organisation konfigurieren, nur mit nicht zugewiesenen Durchwahlnummern oder als eine Kombination beider Nummerntypen. Die Tabelle nicht zugewiesener Rufnummern kann sowohl zugewiesene als auch nicht zugewiesene Rufnummern enthalten, wird jedoch nur ausgelöst, wenn ein Anrufer eine derzeit nicht zugewiesene Rufnummer wählt. Wenn Sie alle gültigen Durchwahlnummern in die Tabelle nicht zugewiesener Nummern aufnehmen, können Sie eine Aktion angeben, die bei Ausscheiden eines Mitarbeiters aus der Organisation ausgeführt werden soll. In diesem Fall ist eine Neukonfiguration der Tabelle nicht erforderlich. Wenn Sie nicht zugewiesene Durchwahlnummern in die Tabelle aufnehmen, können Sie die Aktion anpassen, die für bestimmte Nummern ausgeführt wird. Wenn Sie beispielsweise die Durchwahlnummer für Ihren Kundendienst ändern, können Sie die alte Rufnummer des Kundendiensts in die Tabelle aufnehmen und ihr dann eine Ansage zuweisen, in der die neue Rufnummer bereitgestellt wird.
+Wie Sie die Tabelle nicht zugewiesener Rufnummern konfigurieren, richtet sich danach, wie Sie diese verwenden möchten. Sie können die Tabelle mit allen gültigen Erweiterungen für Ihre Organisation konfigurieren, mit nur nicht zugewiesenen Durchwahlnummern oder mit einer Kombination aus beiden Nummerntypen. Die Tabelle nicht zugewiesene Nummern kann sowohl zugewiesene als auch nicht zugewiesene Nummern enthalten, wird jedoch nur dann aufgerufen, wenn ein Anrufer eine Nummer wählt, die derzeit nicht zugewiesen ist. Wenn Sie alle gültigen Erweiterungen in die Tabelle nicht zugewiesene Nummern einschließen, können Sie die Aktion angeben, die bei jedem verlassen einer Organisation auftritt, ohne die Tabelle neu konfigurieren zu müssen. Wenn Sie nicht zugewiesene Erweiterungen in die Tabelle einschließen, können Sie die Aktion ändern, die für bestimmte Nummern ausgeführt wird. Wenn Sie beispielsweise die Durchwahl für Ihren Kundendienst ändern, können Sie die alte Kundendienstnummer in die Tabelle einbeziehen und diese dann einer Ankündigung zuweisen, die die neue Nummer bereitstellt.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Bevor Sie die Tabelle "nicht zugewiesene Nummern" konfigurieren, muss Ihr System bereits Ankündigungen definiert haben oder eine automatische UM-Telefonzentrale (Exchange Unified Messaging) eingerichtet haben.
+> Bevor Sie die Tabelle nicht zugewiesene Nummern konfigurieren, muss Ihr System bereits Ankündigungen definiert haben oder eine Exchange Unified Messaging (um) automatische Telefonzentrale eingerichtet haben.
 
 
 
@@ -55,7 +55,7 @@ Wie Sie die Tabelle nicht zugewiesener Rufnummern konfigurieren, richtet sich da
 
 
 > [!TIP]  
-> Wenn jemand eine nicht zugewiesene Nummer anruft, durchsucht lync Server die Tabelle nicht zugewiesene Nummern von oben nach unten und verwendet den ersten übereinstimmenden Bereich. Sie sollten also als letzte Lösungsmöglichkeit eine Aktion definieren, die für den letzten Bereich in der Tabelle ausgeführt werden soll.
+> Wenn ein Benutzer eine nicht zugewiesene Nummer anruft, sucht lync Server die Tabelle nicht zugewiesener Nummern von oben nach unten und verwendet den ersten übereinstimmenden Bereich. Daher sollte eine Aktion, die Sie als letztes Mittel durchführen möchten, für den letzten Bereich in der Tabelle angegeben werden.
 
 
 
@@ -65,7 +65,7 @@ Wie Sie die Tabelle nicht zugewiesener Rufnummern konfigurieren, richtet sich da
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-[Erstellen oder Ändern eines nicht zugewiesenen Nummernbereichs in lync Server 2013](lync-server-2013-create-or-modify-an-unassigned-number-range.md) [Erstellen einer Ankündigung in lync Server 2013](lync-server-2013-create-an-announcement.md)
+[Erstellen oder Ändern eines Bereichs nicht zugewiesener Nummern in lync Server 2013](lync-server-2013-create-or-modify-an-unassigned-number-range.md) [Erstellen einer Ansage in lync Server 2013](lync-server-2013-create-an-announcement.md)
 
 </div>
 

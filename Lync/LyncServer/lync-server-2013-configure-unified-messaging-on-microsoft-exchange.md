@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von Unified Messaging in Microsoft Exchange'
+title: 'Lync Server 2013: Konfigurieren von Unified Messaging für Microsoft Exchange'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edac9ff9b72c00e7520d80c376e49b03a9e35bab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 57e48e0ee3e7ef2b9a755ecbd64afaa0f2ce3c2e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733820"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043017"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>Konfigurieren von Unified Messaging in Microsoft Exchange für lync Server 2013
+# <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>Konfigurieren von Unified Messaging für Microsoft Exchange für lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41733820"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-24_
+_**Letztes Änderungsstand des Themas:** 2013-02-24_
 
-In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf einem Microsoft Exchange-Server für die Verwendung mit Enterprise-VoIP konfigurieren.
+In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf einem Exchange Server für die Verwendung mit Enterprise-VoIP konfigurieren.
 
 <div>
 
 
 > [!NOTE]  
-> Die Cmdlet-Beispiele in diesem Thema enthalten Syntax für die Exchange 2007-Version der Exchange-Verwaltungsshell. Wenn Sie Exchange 2010 oder Exchange 2013 ausführen, lesen Sie die entsprechende Dokumentation, auf die verwiesen wird.
+> Die Cmdlet-Beispiele in diesem Thema bieten Syntax für die Exchange 2007 Version von Exchange-Verwaltungsshell. Wenn Sie Exchange 2010 oder Exchange 2013 betreiben, lesen Sie die entsprechende Dokumentation, auf die verwiesen wird.
 
 
 
@@ -51,15 +51,15 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
 
 <div>
 
-## <a name="to-configure-a-server-running-exchange-server-um"></a>So konfigurieren Sie einen Server mit Exchange Server um
+## <a name="to-configure-a-server-running-exchange-server-um"></a>So konfigurieren Sie einen Server mit Exchange Server UM
 
-1.  Erstellen Sie einen SIP-Wählplan (Uniform Resource Identifier) für jedes Ihrer Enterprise-VoIP-Standortprofile. Wenn Sie die Exchange-Verwaltungskonsole verwenden möchten, erstellen Sie einen neuen Wählplan, wobei die Sicherheitseinstellung **gesichert (bevorzugt)** ist.
+1.  Erstellen Sie einen Satz mit UM-SIP-URI-Wähleinstellungen (Session Initiation Protocol, SIP; Uniform Resource Identifier, URI) für jedes Enterprise-VoIP-Standortprofil. Wenn Sie sich zur Verwendung der Exchange-Verwaltungskonsole entscheiden, erstellen Sie neue Wähleinstellungen mit der Sicherheitseinstellung **Secured (bevorzugt)**.
     
     <div>
     
 
     > [!WARNING]  
-    > Wenn Sie den Wert für die Sicherheitseinstellung auf <STRONG>SIP secured</STRONG> festgelegt haben, um die Verschlüsselung für den SIP-Datenverkehr zu erzwingen, wie zuvor empfohlen, beachten Sie, dass diese Sicherheitseinstellung für einen Wählplan unzureichend ist, wenn der Front-End-Pool so konfiguriert ist, dass eine Verschlüsselung erforderlich ist, was bedeutet, dass der Pool für SIP-und RTP-Datenverkehr verschlüsselt Wenn die Sicherheitseinstellungen für Wählplan und Pool nicht kompatibel sind, schlagen alle Anrufe an Exchange um aus dem Front-End-Pool fehl, was zu einem Fehler führt, der besagt, dass Sie über eine "inkompatible Sicherheitseinstellung" verfügen.
+    > Wenn Sie den Wert für die Sicherheitseinstellung auf <STRONG>SIP-gesichert</STRONG> festlegen, um nur die Verschlüsselung für den SIP-Datenverkehr zu erzwingen (wie zuvor empfohlen), beachten Sie, dass diese Sicherheitseinstellung für einen Wählplan unzureichend ist, wenn der Front-End-Pool für die Verschlüsselung konfiguriert ist, was bedeutet, dass der Pool für SIP-und RTP-Datenverkehr verschlüsselt werden muss. Wenn die Einstellungen für den Wählplan und die Pool Sicherheit nicht kompatibel sind, tritt bei allen Aufrufen von Exchange um aus dem Front-End-Pool ein Fehler auf, der darauf hinweist, dass eine "inkompatible Sicherheitseinstellung" vorliegt.
 
     
     </div>
@@ -68,11 +68,11 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     ```powershell
      New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
     ```
-    Ausführliche Informationen finden Sie hier:
+    Weitere Informationen finden Sie unter:
     
-      - Informationen zu Office Communications Server 2007 finden Sie unter "Erstellen eines SIP-URI [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) -Wählplans für Unified Messaging" unter und "neu-UMDialplan: [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666)Exchange 2007-Hilfe" unter.
+      - Informationen zu Office Communications Server 2007 finden Sie unter "Erstellen eines SIP [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) -URI-Wählplans für Unified Messaging" unter und "New-UMDialplan [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666): Exchange 2007 Help" unter.
     
-      - Informationen zu Exchange 2010 finden Sie unter "Erstellen eines um-Wählplans" [http://go.microsoft.com/fwlink/p/?LinkId=268674](http://go.microsoft.com/fwlink/p/?linkid=268674) und unter "neu-UMDialplan: [http://go.microsoft.com/fwlink/p/?LinkId=268680](http://go.microsoft.com/fwlink/p/?linkid=268680)Exchange 2010-Hilfe" unter.
+      - Informationen zum Exchange 2010 finden Sie unter "Erstellen eines um-Wählplans" unter [http://go.microsoft.com/fwlink/p/?LinkId=268674](http://go.microsoft.com/fwlink/p/?linkid=268674) und "New-UMDialplan [http://go.microsoft.com/fwlink/p/?LinkId=268680](http://go.microsoft.com/fwlink/p/?linkid=268680): Exchange 2010 Help" unter.
     
       - Informationen zu Exchange 2013 finden Sie unter "Unified Messaging [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)" unter.
     
@@ -80,47 +80,47 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     
 
     > [!NOTE]  
-    > Ob Sie eine Sicherheitsstufe von <STRONG>SIPSecured</STRONG> oder <STRONG>gesichert</STRONG> auswählen, hängt davon ab, ob SRTP (Secure Real-Time Transport Protocol) für die Medienverschlüsselung aktiviert oder deaktiviert ist. Bei der lync Server 2010-Integration in Exchange um sollte dies der Verschlüsselungsstufe in der lync Server Media-Konfiguration entsprechen. Die lync Server Media-Konfiguration kann angezeigt werden, indem Sie das Cmdlet " <STRONG>Get-CsMediaConfiguration</STRONG> " ausführen. Ausführliche Informationen finden Sie unter Get-CsMediaConfiguration in der Dokumentation zur lync Server-Verwaltungsshell.<BR>Details zum Auswählen der geeigneten VoIP-Sicherheitseinstellung finden Sie unter <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Bereitstellungsprozess für die Integration von lokalen Unified Messaging und lync Server 2013</A>.
+    > Ob Sie die Sicherheitsstufe <STRONG>SIPSecured</STRONG> oder <STRONG>Secured</STRONG> auswählen, hängt davon ab, ob SRTP (Secure Real-time Transport Protocol) für die Medienverschlüsselung aktiviert oder deaktiviert ist. Für die lync Server 2010 Integration in Exchange um sollte dies der Verschlüsselungsstufe in der lync Server Medienkonfiguration entsprechen. Die lync Server Medienkonfiguration kann durch Ausführen des Cmdlets <STRONG>Get-CsMediaConfiguration</STRONG> angezeigt werden. Ausführliche Informationen finden Sie unter Get-CsMediaConfiguration in der lync Server-Verwaltungsshell Dokumentation.<BR>Ausführliche Informationen zum Auswählen der geeigneten VoIP-Sicherheitseinstellung finden Sie unter <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Deployment Process for Integration on-premises Unified Messaging and lync Server 2013</A>.
 
     
     </div>
 
-2.  Führen Sie das folgende Cmdlet aus, um den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für die einzelnen um-Wähleinstellungen zu erhalten:
+2.  Führen Sie das folgende Cmdlet aus, um den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für die einzelnen UM-Wähleinstellungen abzurufen:
     
     ```powershell
     (Get-UMDialPlan <dialplanname>).PhoneContext  
     ```
     
-    Ausführliche Informationen finden Sie hier:
+    Weitere Informationen finden Sie unter:
     
-      - Informationen zu Exchange 2007 finden Sie unter "Get-UMDialplan: Exchange [http://go.microsoft.com/fwlink/p/?LinkId=268678](http://go.microsoft.com/fwlink/p/?linkid=268678)2007-Hilfe" unter.
+      - Informationen zu Exchange 2007 finden Sie unter "Get-UMDialplan: [http://go.microsoft.com/fwlink/p/?LinkId=268678](http://go.microsoft.com/fwlink/p/?linkid=268678)Exchange 2007 Help" unter.
     
-      - Informationen zu Exchange 2010 finden Sie unter "Get-UMDialplan: Exchange [http://go.microsoft.com/fwlink/p/?LinkId=268679](http://go.microsoft.com/fwlink/p/?linkid=268679)2010-Hilfe" unter.
+      - Informationen zu Exchange 2010 finden Sie unter "Get-UMDialplan: [http://go.microsoft.com/fwlink/p/?LinkId=268679](http://go.microsoft.com/fwlink/p/?linkid=268679)Exchange 2010 Help" unter.
     
       - Informationen zu Exchange 2013 finden Sie unter "Unified Messaging [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)" unter.
 
-3.  Notieren Sie den Namen des Wähl Plans für jeden um-Wählplan. Je nach ihrer Version von Exchange Server müssen Sie möglicherweise den FQDN für jeden Wählplan später als Namen für den entsprechenden lync Server-Wählplan für den Wählplan verwenden, damit die Wähl Plan Namen übereinstimmen.
+3.  Notieren Sie die Namen aller UM-Wählpläne. Je nach ihrer Version von Exchange Server müssen Sie möglicherweise den FQDN der einzelnen Wähl Plan Namen später als Namen für die entsprechenden lync Server Wähleinstellungen für die um-Wähleinstellungen verwenden, damit die Wähl Plan Namen übereinstimmen.
     
     <div>
     
 
     > [!NOTE]  
-    > Namen von lync Server-Wählplänen müssen nur dann mit um-Wähl Plan Namen übereinstimmen, wenn der um-Wählplan unter einer <EM>früheren</EM> Exchange-Version als Exchange 2010 SP1 ausgeführt wird.
+    > Lync Server Wähl Plan Namen müssen nur dann mit um-Wähl Plan Namen übereinstimmen, wenn die um-Wähleinstellungen auf einer <EM>früheren</EM> Exchange-Version als Exchange 2010 SP1 durchführen.
 
     
     </div>
 
 4.  Fügen Sie den Wählplan dem Server mit Exchange um wie folgt hinzu:
     
-      - Wenn Sie die Exchange-Verwaltungskonsole verwenden, können Sie den Wählplan über das Eigenschaftenfenster für den Server hinzufügen. Spezifische Anweisungen finden Sie in der Exchange Server-Produktdokumentation.
+      - Wenn Sie sich zur Verwendung der Exchange-Verwaltungskonsole entscheiden, können Sie die Wähleinstellungen aus der Eigenschaftenseite des Servers hinzufügen. Genaue Anweisungen finden Sie in der Exchange Server-Produktdokumentation.
         
-        Informationen zu Exchange 2007 finden Sie unter "Hinzufügen eines Unified Messaging-Servers zu einem Wählplan [http://go.microsoft.com/fwlink/p/?LinkId=268681](http://go.microsoft.com/fwlink/p/?linkid=268681)" unter.
+        Informationen zum Exchange 2007 finden Sie unter "Hinzufügen eines Unified Messaging-Servers zu Wähleinstellungen [http://go.microsoft.com/fwlink/p/?LinkId=268681](http://go.microsoft.com/fwlink/p/?linkid=268681)" unter.
         
         Informationen zu Exchange 2010 finden Sie unter "anzeigen oder Konfigurieren der Eigenschaften eines um [http://go.microsoft.com/fwlink/p/?LinkId=268682](http://go.microsoft.com/fwlink/p/?linkid=268682)-Servers" unter.
         
         Informationen zu Exchange 2013 finden Sie unter "Unified Messaging [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)" unter.
     
-      - Wenn Sie die Exchange-Verwaltungsshell verwenden, führen Sie für jeden Ihrer Exchange um-Server die folgenden Aktionen aus:
+      - Wenn Sie die Exchange-Verwaltungsshell verwenden, führen Sie für jeden Exchange UM-Server den folgenden Befehl aus:
         ```powershell
         $ums=get-umserver; 
         $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
@@ -131,7 +131,7 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     
 
     > [!NOTE]  
-    > Bevor Sie den folgenden Schritt ausführen, stellen Sie sicher, dass alle Enterprise-VoIP-Benutzer mit einem Exchange Server-Postfach konfiguriert wurden.<BR>Informationen zu Exchange 2007 finden Sie in <A href="http://go.microsoft.com/fwlink/p/?linkid=268685">http://go.microsoft.com/fwlink/p/?LinkId=268685</A>der TechNet-Bibliothek Exchange Server 2007 unter.<BR>Informationen zu Exchange 2010 finden Sie in <A href="http://go.microsoft.com/fwlink/p/?linkid=268686">http://go.microsoft.com/fwlink/p/?LinkId=268686</A>der TechNet-Bibliothek Exchange Server 2010 unter.<BR>Wenn Sie eine Postfachrichtlinie für jeden Wählplan angeben, den Sie in Schritt 1 erstellt haben, wählen Sie entweder die Standardrichtlinie oder eine aus, die Sie erstellt haben.
+    > Vergewissern Sie sich vor dem Ausführen des folgenden Schritts, dass für alle Enterprise-VoIP-Benutzer ein Exchange Server-Postfach konfiguriert wurde.<BR>Informationen zu Exchange 2007 finden Sie in <A href="http://go.microsoft.com/fwlink/p/?linkid=268685">http://go.microsoft.com/fwlink/p/?LinkId=268685</A>der Exchange Server 2007 TechNet-Bibliothek unter.<BR>Informationen zu Exchange 2010 finden Sie in <A href="http://go.microsoft.com/fwlink/p/?linkid=268686">http://go.microsoft.com/fwlink/p/?LinkId=268686</A>der Exchange Server 2010 TechNet-Bibliothek unter.<BR>Wenn Sie eine Postfachrichtlinie für jeden in Schritt 1 erstellten Satz mit Wähleinstellungen festlegen, verwenden Sie entweder die Standardrichtlinie oder eine von Ihnen selbst erstellte Richtlinie.
 
     
     </div>
@@ -140,30 +140,30 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     ```console
     exchucutil.ps1
     ```
-    Wenn Exchange in mehreren Gesamtstrukturen bereitgestellt wird, geben Sie Folgendes ein:
+    Oder geben Sie Folgendes ein, falls Exchange in mehreren Gesamtstrukturen bereitgestellt wird:
     ```console
     exchucutil.ps1 -Forest:"<forest FQDN>"
     ```
-    wobei Gesamtstruktur-FQDN die Gesamtstruktur angibt, in der lync Server bereitgestellt wird.
+    Dabei gibt Gesamtstruktur-FQDN die Gesamtstruktur an, in der lync Server bereitgestellt wird.
     
-    Wenn Sie über einen oder mehrere um-Wählpläne verfügen, die mehreren IP-Gateways zugeordnet sind, fahren Sie mit Schritt 6 fort. Wenn Ihre Wählpläne jeweils nur einem einzigen IP-Gateway zugeordnet sind, überspringen Sie Schritt 6.
+    Falls Sie über einen oder mehrere Sätze mit UM-Wähleinstellungen verfügen, die mehreren IP-Gateways zugeordnet sind, fahren Sie mit Schritt 6 fort. Falls Ihre Wähleinstellungen jeweils nur einem IP-Gateway zugeordnet sind, überspringen Sie Schritt 6.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Stellen Sie sicher, dass der <STRONG>lync Server-Front-End-</STRONG> Dienst (RtcSrv. exe) <EM>nach</EM> der Ausführung von exchucutil. ps1 neu gestartet wird. Andernfalls erkennt lync Server keine Unified Messaging-Funktion in der Topologie.
+    > Starten Sie den Dienst <STRONG>Lync Server Front-End</STRONG> (rtcsrv.exe) neu, <EM>nachdem</EM> Sie "exchucutil.ps1" ausgeführt haben. Andernfalls werden von lync Server Unified Messaging in der Topologie nicht erkannt.
 
     
     </div>
 
-6.  Deaktivieren Sie entweder über die Exchange-Verwaltungsshell oder die Exchange-Verwaltungskonsole ausgehende Anrufe für alle IP-Gateways, die mit den einzelnen Wählplänen verknüpft sind.
+6.  Deaktivieren Sie über die Exchange-Verwaltungsshell oder -Verwaltungskonsole ausgehende Anrufe für alle IP-Gateways, mit Ausnahme des Ihren Wähleinstellungen zugeordneten IP-Gateways.
     
     <div>
     
 
     > [!NOTE]  
-    > Dieser Schritt ist erforderlich, um sicherzustellen, dass ausgehende Anrufe des Servers, auf dem Exchange Server Unified Messaging ausgeführt wird, für externe Benutzer (beispielsweise wie bei Szenarien mit Wiedergabe auf dem Smartphone) die Unternehmensfirewall zuverlässig durchlaufen.
+    > Dieser Schritt ist erforderlich, um sicherzustellen, dass ausgehende Anrufe des Servers, der Exchange Server Unified Messaging ausführt, an externe Benutzer (beispielsweise wie bei Szenarien mit "Play-on-Phone") zuverlässig die Unternehmensfirewall durchlaufen.
 
     
     </div>
@@ -172,37 +172,37 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     
 
     > [!IMPORTANT]  
-    > Wenn Sie das um-IP-Gateway auswählen, über das ausgehende Anrufe zugelassen werden sollen, wählen Sie diejenige aus, die wahrscheinlich den meisten Datenverkehr verarbeitet. Lassen Sie ausgehenden Datenverkehr nicht über ein IP-Gateway zu, das eine Verbindung mit einem Pool von lync Server Directors herstellt. Vermeiden Sie auch Pools in einem anderen zentralen Standort oder einer Zweigstelle. Sie können eine der folgenden Methoden verwenden, um ausgehende Anrufe zu blockieren, indem Sie ein IP-Gateway durchlaufen:
+    > Wählen Sie als UM-IP-Gateway für ausgehende Anrufe das Gerät aus, das voraussichtlich den meisten Datenverkehr verarbeitet. Lassen Sie ausgehenden Datenverkehr über ein IP-Gateway nicht zu, das eine Verbindung mit einem Pool von lync Server Directors herstellt. Vermeiden Sie auch Pools an einem anderen zentralen Standort oder einem Zweigstellenstandort. Verhindern Sie mithilfe einer der folgenden Methoden, dass ausgehende Anrufe über ein IP-Gateway geleitet werden:
 
     
     </div>
     
-      - Wenn Sie die Exchange-Verwaltungsshell verwenden, deaktivieren Sie die einzelnen IP-Gateways, indem Sie den folgenden Befehl ausführen:
+      - Wenn Sie die Exchange-Verwaltungsshell verwenden, deaktivieren Sie die einzelnen IP-Gateways mit folgendem Befehl:
         ```powershell
         Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
         ```
-        Informationen zu Exchange 2007 finden Sie unter "einrichten-UMIPGateway: Exchange 2007- [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687)Hilfe" unter.
+        Informationen zu Exchange 2007 finden Sie unter "festlegen-UMIPGateway: Exchange 2007 Help [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687)" unter.
         
-        Informationen zu Exchange 2010 finden Sie unter "einrichten-UMIPGateway: Exchange 2010- [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688)Hilfe" unter.
+        Informationen zu Exchange 2010 finden Sie unter "festlegen-UMIPGateway: Exchange 2010 Help [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688)" unter.
     
-      - Wenn Sie die Exchange-Verwaltungskonsole verwenden, deaktivieren Sie das Kontrollkästchen **ausgehende Anrufe über dieses IP-Gateway zulassen** .
+      - Wenn Sie die Exchange-Verwaltungskonsole verwenden, deaktivieren Sie das Kontrollkästchen **Ausgehende Anrufe über dieses IP-Gateway zulassen**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Wenn Ihr um-SIP-URI-Wählplan nur einem einzigen IP-Gateway zugeordnet ist, dürfen Sie ausgehende Anrufe über dieses Gateway nicht unterbinden.
+    > Falls Ihre UM-SIP-URI-Wähleinstellungen nur einem einzigen IP-Gateway zugeordnet sind, dürfen Sie ausgehende Anrufe über dieses Gateway nicht sperren.
 
     
     </div>
 
-7.  Erstellen Sie für jeden lync Server-Wählplan eine automatische UM-Telefonzentrale.
+7.  Erstellen Sie eine automatische UM-Telefonzentrale für jeden lync Server Wähleinstellungen.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Schließen Sie keine Leerzeichen in den Namen der automatischen Telefonzentrale ein.
+    > Verwenden Sie im Namen der automatischen Telefonzentrale keine Leerzeichen.
 
     
     </div>
@@ -216,15 +216,15 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     
       - Informationen zu Exchange 2010 finden Sie unter "New-UMAutoAttendant: Exchange 2010 Help [http://go.microsoft.com/fwlink/p/?LinkId=268690](http://go.microsoft.com/fwlink/p/?linkid=268690)" unter.
     
-    Der folgende Schritt sollte für jeden Benutzer ausgeführt werden, nachdem Sie lync Server-Benutzer für Enterprise-VoIP aktiviert haben und deren SIP-URIs kennen.
+    Der folgende Schritt sollte für jeden Benutzer ausgeführt werden, nachdem Sie lync Server Benutzer für Enterprise-VoIP aktiviert und deren SIP-URIs kennen.
 
-8.  Ordnen Sie Exchange um-Benutzern (die jeweils mit einem Exchange-e-Mail-Feld konfiguriert werden sollten) mit dem um-Wählplan zu, und erstellen Sie einen SIP-URI für jeden Benutzer.
+8.  Ordnen Sie den UM-Wähleinstellungen Exchange UM-Benutzer zu (von denen jeder mit einem Exchange-Postfach konfiguriert sein sollte), und erstellen Sie einen SIP-URI für jeden Benutzer.
     
     <div>
     
 
     > [!NOTE]  
-    > Die <STRONG>SIPResourceIdentifier</STRONG> im folgenden Beispiel muss die SIP-Adresse des lync Server-Benutzers sein.
+    > Das <STRONG>SIPResourceIdentifier</STRONG> im folgenden Beispiel muss die SIP-Adresse des lync Server Benutzers sein.
 
     
     </div>
@@ -232,7 +232,7 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     ```powershell
     enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
     ```
-    Ausführliche Informationen finden Sie hier:
+    Weitere Informationen finden Sie unter:
     
       - Informationen zu Exchange 2007 finden Sie unter "Enable-UMMailbox: Exchange 2007 Help [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691)" unter.
     

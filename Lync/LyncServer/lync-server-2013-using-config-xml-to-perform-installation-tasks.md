@@ -12,16 +12,16 @@ ms:contentKeyID: 48183332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b6e037f2c69e963e8ca5963a71dabe80f9c75fd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2adadafcbb5338f47aa13d25b3dfd39386935b30
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744175"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044327"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41744175"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
 Das Office-Anpassungstool (OAT) ist zwar das primäre Tool für die angepasste Installation, Administratoren können jedoch mit der Datei "Config.xml" zusätzliche, im OAT nicht verfügbare Installationsanweisungen angeben. Die folgenden Anpassungen können nur mithilfe der Datei Config.xml vorgenommen werden:
 
@@ -51,13 +51,13 @@ Das Office-Anpassungstool (OAT) ist zwar das primäre Tool für die angepasste I
 
   - Hinzufügen oder Entfernen von Sprachen in der Installation
 
-Wir empfehlen, die Datei config. XML zum Konfigurieren der unbeaufsichtigten lync 2013-Installation zu verwenden.
+Es wird empfohlen, dass Sie die Datei "config. xml" verwenden, um lync 2013 unbeaufsichtigte Installation zu konfigurieren.
 
-Standardmäßig ist die Datei config. XML, die im Kernproduktordner gespeichert ist (beispielsweise \\Product. WW) weist Setup an, dieses Produkt zu installieren. Beispielsweise wird in der Datei config. XML im folgenden Ordner lync 2013 installiert:
+Standardmäßig die Datei "config. xml", die im Hauptproduktordner gespeichert ist (beispielsweise \\"Product. WW) weist Setup an, dieses Produkt zu installieren. Beispielsweise wird in der Datei "config. xml" im folgenden Ordner lync 2013 installiert:
 
   - \\\\Server\\Freigabe\\Lync15\\lync. WW \\config. XML
 
-Die am häufigsten für die lync 2013-Installation verwendeten config. XML-Elemente sind in der folgenden Tabelle aufgelistet.
+Die für lync 2013 Installation am häufigsten verwendeten config. XML-Elemente sind in der folgenden Tabelle aufgeführt.
 
 ### <a name="configxml-elements"></a>Config.xml-Elemente
 
@@ -75,15 +75,15 @@ Die am häufigsten für die lync 2013-Installation verwendeten config. XML-Eleme
 <tbody>
 <tr class="odd">
 <td><p>Konfiguration</p></td>
-<td><p>Element der obersten Ebene (erforderlich). Enthält das Product-Attribut, beispielsweise: product = lync</p></td>
+<td><p>Element der obersten Ebene (erforderlich). Enthält das Produktattribut, z. B.: Product=Lync</p></td>
 </tr>
 <tr class="even">
 <td><p>OptionState</p></td>
-<td><p>Gibt an, wie bestimmte Produktfeatures während der Installation behandelt werden. Verwenden Sie die folgenden Attribute, um die Installation von Business Connectivity Services zu verhindern, die freigegebene Komponenten umfasst, die Outlook 2010 stören:</p>
+<td><p>Gibt an, wie bestimmte Produktfeatures während der Installation behandelt werden. Verwenden Sie die folgenden Attribute, um die Installation von Business Connectivity Services zu verhindern, die freigegebene Komponenten enthält, die die Outlook 2010 behindern:</p>
 <ul>
 <li><p>ID =&quot;LOBiMain&quot;</p></li>
-<li><p>Zustand =&quot;abwesend&quot;</p></li>
-<li><p>Kinder =&quot;Kraft&quot;</p></li>
+<li><p>State =&quot;abwesend&quot;</p></li>
+<li><p>Children =&quot;Force&quot;</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -99,29 +99,29 @@ Die am häufigsten für die lync 2013-Installation verwendeten config. XML-Eleme
 <td><p>Optionen für den vom Setup ausgeführten Protokollierungstyp. Zu den typischen Attributen zählen Folgende:</p>
 <ul>
 <li><p>Type =&quot;off&quot; | &quot;Standard&quot;(Standard) | &quot;Ausführlich&quot;</p></li>
-<li><p>Template=”filename.txt” (Name der Protokolldatei)</p></li>
+<li><p>Template=”Dateiname.txt” (Name der Protokolldatei)</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>Einstellung</p></td>
 <td><p>Gibt Werte für Windows Installer-Eigenschaften an. Zu den typischen Attributen zählen Folgende:</p>
 <ul>
-<li><p>Festlegen von ID&quot;=&quot; Name (der Name der Windows Installer-Eigenschaft)</p></li>
-<li><p>Value =&quot;Wert&quot; (der Wert, der der Eigenschaft zugewiesen werden soll)</p></li>
+<li><p>Setting ID =&quot;Name&quot; (der Name der Windows Installer-Eigenschaft)</p></li>
+<li><p>Wert =&quot;Wert&quot; (der Wert, der der Eigenschaft zugewiesen werden soll)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>DistributionPoint</p></td>
 <td><p>Der vollqualifizierte Pfad des Netzwerkinstallationspfads, von dem die Installation ausgeführt werden soll. Enthält das Standortattribut:</p>
 <ul>
-<li><p>Location=”path”</p></li>
+<li><p>Location = "Pfad"</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-Das folgende Beispiel zeigt eine config. XML-Datei für eine typische unbeaufsichtigte Installation von lync 2013.
+Das folgende Beispiel zeigt eine Datei "config. xml" für eine typische automatische Installation von lync 2013.
 
     <Configuration Product="Lync">
       <OptionState Id="LOBiMain" State="Absent" Children="Force" />
@@ -131,7 +131,7 @@ Das folgende Beispiel zeigt eine config. XML-Datei für eine typische unbeaufsic
       <DistributionPoint Location="\\server\share\Lync15" />
     </Configuration>
 
-Detaillierte Informationen zur Verwendung der Datei config. XML zum Ausführen von Office-Installations-und-Wartungs <http://go.microsoft.com/fwlink/p/?linkid=267514>Aufgaben finden Sie unter.
+Ausführliche Informationen zur Verwendung der Datei "config. xml" zur Durchführung von Office-Installations- <http://go.microsoft.com/fwlink/p/?linkid=267514>und Wartungsaufgaben finden Sie unter.
 
 <div>
 

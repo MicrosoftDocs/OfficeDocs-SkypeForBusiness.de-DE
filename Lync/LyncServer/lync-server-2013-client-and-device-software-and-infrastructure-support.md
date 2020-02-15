@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Client- und Gerätesoftware- sowie Infrastrukturunterstützung'
+title: 'Lync Server 2013: Unterstützung für Client-und Geräte Software und-Infrastruktur'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184265
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a741d4696d883d9a29dc0117be28ea82f474cff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55095e968e898445e42ceebed73f95ee9fb128d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729865"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043847"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a>Client- und Gerätesoftware- sowie Infrastrukturunterstützung in Lync Server 2013
+# <a name="client-and-device-software-and-infrastructure-support-in-lync-server-2013"></a>Client-und Geräte Software und Infrastrukturunterstützung in lync Server 2013
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41729865"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-08-27_
+_**Letztes Änderungsstand des Themas:** 2014-08-27_
 
-Softwareunterstützung für Clients und Geräte einer lync Server 2013-Bereitstellung umfasst die unterstützten Betriebssysteme, Infrastruktur Software und andere zusätzliche Software, die für die Unterstützung von Client-und Gerätefeatures erforderlich ist.
+Software Unterstützung für Clients und Geräte einer lync Server 2013-Bereitstellung umfasst die unterstützten Betriebssysteme, Infrastruktur Software und andere zusätzliche Software, die für die Unterstützung von Client-und Gerätefeatures erforderlich ist.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
   - <span></span>  
-    [Lync-Client Software-Unterstützung in lync Server 2013](lync-server-2013-lync-client-software-support.md)
+    [Unterstützung für lync-Client Software in lync Server 2013](lync-server-2013-lync-client-software-support.md)
 
   - <span></span>  
-    [Unterstützung für die öffentliche Instant Messenger-Konnektivität in lync Server 2013](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
+    [Unterstützung für die Verbindung mit öffentlichen Instant Messaging-Diensten in lync Server 2013](lync-server-2013-support-for-public-instant-messenger-connectivity.md)
 
   - <span></span>  
-    [So werden Benutzerfotos in Lync angezeigt](how-user-photos-are-displayed-in-lync.md)
+    [Anzeigen von Benutzer Fotos in lync](how-user-photos-are-displayed-in-lync.md)
 
 <div>
 
 
 > [!NOTE]  
-> Lync Phone Edition funktioniert auf die gleiche Weise mit lync Server 2013 wie mit lync Server 2010. Details zur Softwareunterstützung für Geräte finden Sie in den folgenden Themen in der lync Server 2010 TechNet-Bibliothek: 
+> Lync Phone Edition funktioniert auf die gleiche Weise wie bei lync Server 2013 mit lync Server 2010. Ausführliche Informationen zur Softwareunterstützung für Geräte finden Sie in den folgenden Themen in der TechNet-Bibliothek lync Server 2010: 
 > <UL>
 > <LI>
-> <P>Erforderliche lync Server 2010-Komponenten für Geräte unter<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
+> <P>Erforderliche lync Server 2010 Komponenten für Geräte unter<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256488">http://go.microsoft.com/fwlink/p/?linkid=256488</A></P>
 > <LI>
-> <P>Unterstützung für Geräte System und Infrastruktur<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256489">http://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
+> <P>Geräte System-und Infrastrukturunterstützung unter<A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=256489">http://go.microsoft.com/fwlink/p/?linkid=256489</A></P></LI></UL>
 
 
 

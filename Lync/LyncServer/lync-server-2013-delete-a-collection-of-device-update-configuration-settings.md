@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Löschen einer Sammlung von Konfigurationseinstellungen für Geräte Updates'
+title: 'Lync Server 2013: Löschen einer Auflistung von Konfigurationseinstellungen für Geräte Updates'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803928
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 936a591ea46c6b599a9a72f06a9287be35e66cce
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 345e1ad4c621ce6330b1b1a34c97664d080d6575
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728195"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044067"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-a-collection-of-device-update-configuration-settings-in-lync-server-2013"></a>Löschen einer Sammlung von Konfigurationseinstellungen für Geräte Updates in lync Server 2013
+# <a name="delete-a-collection-of-device-update-configuration-settings-in-lync-server-2013"></a>Löschen einer Auflistung von Konfigurationseinstellungen für Geräte Updates in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41728195"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-20_
+_**Letztes Änderungsstand des Themas:** 2013-02-20_
 
-Die Konfigurationseinstellungen für Geräte Updates können auch mithilfe von Windows PowerShell und dem Cmdlet **Remove-CsdeviceUpdateConfiguration** gelöscht werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Konfigurationseinstellungen für Geräte Updates können auch mithilfe von Windows PowerShell und dem Cmdlet **Remove-CsdeviceUpdateConfiguration** gelöscht werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
@@ -46,7 +46,7 @@ Die Konfigurationseinstellungen für Geräte Updates können auch mithilfe von W
 
 ## <a name="to-remove-a-specific-collection-of-device-update-configuration-settings"></a>So entfernen Sie eine bestimmte Sammlung von Konfigurationseinstellungen für Geräte Updates
 
-  - Mit diesem Befehl werden die Konfigurationseinstellungen für das Geräteupdate gelöscht, die auf die Redmond-Website angewendet wurden:
+  - Mit diesem Befehl werden die Konfigurationseinstellungen für das Geräteupdate gelöscht, die auf den Standort "Redmond" angewendet wurden:
     
         Remove-CsDeviceUpdateConfiguration -Identity "site:Redmond"
 
@@ -56,7 +56,7 @@ Die Konfigurationseinstellungen für Geräte Updates können auch mithilfe von W
 
 ## <a name="to-remove-all-the-device-update-configuration-settings-applied-to-the-site-scope"></a>So entfernen Sie alle auf den Website Bereich angewendeten Konfigurationseinstellungen für Geräte Updates
 
-  - Dieser Befehl löscht alle Konfigurationseinstellungen für Geräte Updates, die auf den Website Bereich angewendet werden:
+  - Mit diesem Befehl werden alle Konfigurationseinstellungen für Geräte Updates gelöscht, die auf den Standortbereich angewendet wurden:
     
         Get-CsDeviceUpdateConfiguration -Filter "site:*" | Remove-CsDeviceUpdateConfiguration
 
@@ -64,9 +64,9 @@ Die Konfigurationseinstellungen für Geräte Updates können auch mithilfe von W
 
 <div>
 
-## <a name="to-remove-device-update-configuration-settings-based-on-the-value-of-the-logcleanupinterval-property"></a>So entfernen Sie die Konfigurationseinstellungen für Geräte Updates basierend auf dem Wert der LogCleanUpInterval-Eigenschaft
+## <a name="to-remove-device-update-configuration-settings-based-on-the-value-of-the-logcleanupinterval-property"></a>So entfernen Sie Konfigurationseinstellungen für Geräte Updates basierend auf dem Wert der LogCleanUpInterval-Eigenschaft
 
-  - Mit dem folgenden Befehl werden alle Konfigurationseinstellungen für Geräte Updates gelöscht, bei denen das Protokoll Bereinigungsintervall größer als 10 Tage ist (10.00:00:00):
+  - Mit dem folgenden Befehl werden alle Geräte Aktualisierungs Konfigurationseinstellungen gelöscht, bei denen das Intervall für die Protokoll Bereinigung größer als 10 Tage ist (10.00:00:00):
     
         Get-CsDeviceUpdateConfiguration | Where-Object {$_.LogCleanUpInterval -gt "10.00:00:00" | Remove-CsDeviceUpdateConfiguration
 

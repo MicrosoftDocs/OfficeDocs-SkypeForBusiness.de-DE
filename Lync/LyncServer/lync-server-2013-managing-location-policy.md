@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verwalten der Standortrichtlinie'
+title: 'Lync Server 2013: Verwalten der ortungsrichtlinie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 229f5db57a4e61306dec541b402a545b8df0e77a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7addcd213fd351154ad2b3d55360cbdb6dad6286
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762113"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043097"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-location-policy-in-lync-server-2013"></a>Verwalten der Standortrichtlinie in lync Server 2013
+# <a name="managing-location-policy-in-lync-server-2013"></a>Verwalten der ortungsrichtlinie in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762113"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-15_
+_**Letztes Änderungsstand des Themas:** 2012-10-15_
 
-Führen Sie die Verfahren in diesem Abschnitt aus, um die Standortrichtlinie für lync Server 2013 aus der Gruppe **Netzwerkkonfiguration** in der lync Server-Systemsteuerung zu verwalten.
+Verwenden Sie die Verfahren in diesem Abschnitt, um die lync Server 2013 ortungsrichtlinie in der Gruppe **Netzwerkkonfiguration** in lync Server-Systemsteuerung zu verwalten.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Anzeigen von Standortrichtlinien Informationen in lync Server 2013](lync-server-2013-viewing-location-policy-information.md)
+  - [Anzeigen von Informationen zu Standortrichtlinien in lync Server 2013](lync-server-2013-viewing-location-policy-information.md)
 
-  - [Erstellen oder Ändern einer Standortrichtlinie in lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md)
+  - [Erstellen oder Ändern einer ortungsrichtlinie in lync Server 2013](lync-server-2013-creating-or-modifying-a-location-policy.md)
 
-  - [Löschen einer Standortrichtlinie in lync Server 2013](lync-server-2013-deleting-a-location-policy.md)
+  - [Löschen einer ortungsrichtlinie in lync Server 2013](lync-server-2013-deleting-a-location-policy.md)
 
 </div>
 
@@ -55,7 +55,7 @@ Führen Sie die Verfahren in diesem Abschnitt aus, um die Standortrichtlinie fü
 
 ## <a name="related-sections"></a>Verwandte Abschnitte
 
-[Planen von Notrufdiensten (E9-1-1) in Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+[Planung von Notrufdiensten (E9-1-1) in lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
 </div>
 
@@ -64,7 +64,7 @@ Führen Sie die Verfahren in diesem Abschnitt aus, um die Standortrichtlinie fü
 ## <a name="see-also"></a>Siehe auch
 
 
-[Definieren der Standortrichtlinie für lync Server 2013](lync-server-2013-defining-the-location-policy.md)  
+[Definieren der ortungsrichtlinie für lync Server 2013](lync-server-2013-defining-the-location-policy.md)  
   
 
 </div>

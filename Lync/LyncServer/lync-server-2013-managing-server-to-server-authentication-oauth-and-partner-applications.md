@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Server-zu-Server-Authentifizierung (OAuth) und Partneranwendungen
+title: Verwalten der Server-zu-Server-Authentifizierung (OAuth) und der Partneranwendungen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183894
 ms.date: 05/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01de2856b8923fff76cf33dda7d7e6ba21889c2e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a0d554bc935ea24f7098472a5c893f58dc717839
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765686"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043057"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-server-to-server-authentication-oauth-and-partner-applications-in-lync-server-2013"></a>Verwalten von Server-zu-Server-Authentifizierung (OAuth) und Partneranwendungen in lync Server 2013
+# <a name="managing-server-to-server-authentication-oauth-and-partner-applications-in-lync-server-2013"></a>Verwalten der Server-zu-Server-Authentifizierung (OAuth) und der Partneranwendungen in lync Server 2013
 
 </div>
 
@@ -35,59 +35,59 @@ ms.locfileid: "41765686"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-05-14_
+_**Letztes Änderungsstand des Themas:** 2015-05-14_
 
-Microsoft lync Server 2013 muss sicher und nahtlos mit anderen Anwendungen und Server Produkten kommunizieren können. So können Sie beispielsweise lync Server 2013 so konfigurieren, dass Kontaktdaten und/oder Archivierungsdaten in Microsoft Exchange Server 2013 gespeichert werden. Dies kann jedoch nur erfolgen, wenn lync Server und Exchange sicher miteinander kommunizieren können. Ebenso können Sie eine lync Server-Konferenz in Microsoft SharePoint Server planen. Dies kann jedoch nur erfolgen, wenn sich die beiden Server (SharePoint und lync Server) gegenseitig vertrauen. Obwohl es möglich ist, einen Authentifizierungsmechanismus für die Kommunikation zwischen lync und Exchange sowie einen separaten Mechanismus für die Kommunikation zwischen lync und SharePoint zu verwenden, besteht ein besserer und effizienterer Ansatz darin, eine standardisierte Methode für alle Server-zu-Server-Zwecke zu verwenden. Authentifizierung und Autorisierung.
+Microsoft lync Server 2013 müssen in der Lage sein, sicher und nahtlos mit anderen Anwendungen und Server Produkten zu kommunizieren. Sie können beispielsweise lync Server 2013 so konfigurieren, dass Kontaktdaten und/oder Archivierungsdaten in Microsoft Exchange Server 2013 gespeichert werden. Dies kann jedoch nur erfolgen, wenn lync Server und Exchange sicher miteinander kommunizieren können. Ebenso können Sie eine lync Server Konferenz in Microsoft SharePoint Server planen; Dies kann jedoch nur geschehen, wenn sich die beiden Server (SharePoint und lync Server) gegenseitig vertrauen. Obwohl es möglich ist, einen Authentifizierungsmechanismus für die Kommunikation zwischen lync und Exchange und einen separaten Mechanismus für die Kommunikation zwischen lync und SharePoint zu verwenden, besteht ein besserer und effizienterer Ansatz in der Verwendung einer standardisierten Methode für alle Server-zu-Server- Authentifizierung und Autorisierung.
 
-Die Verwendung einer einzelnen standardisierten Methode für die Server-zu-Server-Authentifizierung ist der von lync Server 2013 getroffene Ansatz. Für die 2013-Version unterstützen lync Server 2013 (sowie andere Microsoft-Serverprodukte, einschließlich Exchange 2013 und Microsoft SharePoint Server) das OAuth (Open Authorization)-Protokoll für die Server-zu-Server-Authentifizierung und-Autorisierung. Bei OAuth wird ein Standard Autorisierungs Protokoll, das von einer Reihe von Hauptwebsites, Benutzeranmeldeinformationen und Kennwörtern verwendet wird, nicht von einem Computer an einen anderen weitergegeben. Stattdessen basiert Authentifizierung und Autorisierung auf dem Austausch von Sicherheitstokens; Diese Token gewähren für einen bestimmten Zeitraum Zugriff auf eine bestimmte Gruppe von Ressourcen.
+Die Verwendung einer einzigen standardisierten Methode für die Server-zu-Server-Authentifizierung ist der Ansatz, der von lync Server 2013 getroffen wird. Für die 2013-Version unterstützen lync Server 2013 (sowie andere Microsoft-Serverprodukte, einschließlich Exchange 2013 und Microsoft SharePoint Server) das OAuth (Open Authorization)-Protokoll für die Server-zu-Server-Authentifizierung und-Autorisierung. Mit OAuth wird ein Standardmäßiges Autorisierungs Protokoll, das von einer Reihe von Hauptwebsites verwendet wird, Benutzeranmeldeinformationen und Kennwörter nicht von einem Computer an einen anderen übergeben. Stattdessen basieren Authentifizierung und Autorisierung auf dem Austausch von Sicherheitstoken; Diese Token gewähren Zugriff auf einen bestimmten Satz von Ressourcen für einen bestimmten Zeitraum.
 
-Die OAuth-Authentifizierung umfasst in der Regel drei Parteien: einen einzelnen autorisierungsserver und die beiden Realms, die miteinander kommunizieren müssen. (Sie können auch eine Server-zu-Server-Authentifizierung ausführen, ohne einen autorisierungsserver zu verwenden, ein Prozess, der später in diesem Dokument erläutert wird.) Sicherheitstoken werden von dem autorisierungsserver (auch als Sicherheitstokenserver bezeichnet) für die beiden Bereiche ausgestellt, die kommuniziert werden müssen. Diese Token stellen sicher, dass die Kommunikation, die von einem Bereich stammt, vom anderen Bereich als vertrauenswürdig eingestuft wird. Beispielsweise kann der autorisierungsserver Token ausgeben, mit denen sichergestellt wird, dass Benutzer aus einem bestimmten lync Server-2013-Bereich auf einen bestimmten Exchange 2013-Bereich zugreifen können, und umgekehrt.
+OAuth-Authentifizierung umfasst normalerweise drei Komponenten: einen Server mit Einzelanmeldung und zwei Bereiche, die miteinander kommunizieren müssen. (Sie können auch die Server-zu-Server-Authentifizierung ohne einen autorisierungsserver durchführen, ein Prozess, der weiter unten in diesem Dokument behandelt wird.) Sicherheitstoken werden von dem autorisierungsserver (auch als Sicherheitstokenserver bezeichnet) für die beiden Bereiche ausgestellt, die miteinander kommunizieren müssen. Diese Token stellen sicher, dass die Kommunikation, die von einem Bereich stammt, vom anderen Bereich als vertrauenswürdig eingestuft wird. Beispielsweise kann der autorisierungsserver Token ausgeben, die sicherstellen, dass Benutzer von einem bestimmten lync Server 2013 Bereichs auf einen bestimmten Exchange 2013 Bereich zugreifen können, und umgekehrt.
 
 <div>
 
 
 > [!NOTE]
-> Ein Bereich ist einfach ein Sicherheitscontainer. Standardmäßig verwendet lync Server 2013 Ihre SIP-Standarddomäne als OAuth-Bereich. Weitere SIP-Namespaces werden der Liste mit alternativen Antragstellernamen im OAuth-Zertifikat hinzugefügt.
+> Ein Bereich ist einfach ein Sicherheitscontainer. Standardmäßig verwendet lync Server 2013 Ihre Standard-SIP-Domäne als OAuth-Bereich. Zusätzliche SIP-Namespaces werden der Liste alternativer Antragsteller Name im OAuth-Zertifikat hinzugefügt.
 
 
 
 </div>
 
-Lync Server 2013 unterstützt drei Szenarien für die Server-zu-Server-Authentifizierung. Mit lync Server 2013 können Sie Folgendes tun:
+Lync Server 2013 unterstützt drei Szenarien für die Server-zu-Server-Authentifizierung. Mit lync Server 2013 haben Sie folgende Möglichkeiten:
 
   - Konfigurieren Sie die Server-zu-Server-Authentifizierung zwischen einer lokalen Installation von lync Server 2013 und einer lokalen Installation von Exchange 2013 und/oder Microsoft SharePoint Server.
 
-  - Konfigurieren Sie die Server-zu-Server-Authentifizierung zwischen zwei Office 365-Komponenten (beispielsweise zwischen Microsoft Exchange und Microsoft lync Server oder zwischen Microsoft lync Server und Microsoft SharePoint).
+  - Konfigurieren Sie die Server-zu-Server-Authentifizierung zwischen einem Paar Office 365 Komponenten (beispielsweise zwischen Microsoft Exchange und Microsoft lync Server oder zwischen Microsoft lync Server und Microsoft SharePoint).
 
-  - Konfigurieren Sie die Server-zu-Server-Authentifizierung in einer standortübergreifenden Umgebung (Server-zu-Server-Authentifizierung zwischen einem lokalen Server und einer Office 365-Komponente).
+  - Konfigurieren einer Server-zu-Server-Authentifizierung in einer standortübergreifenden Umgebung (d. h. Server-zu-Server-Authentifizierung zwischen einem lokalen Server und einer Office 365-Komponente).
 
 Beachten Sie, dass zu diesem Zeitpunkt nur Exchange 2013, SharePoint Server und lync Server 2013 die Server-zu-Server-Authentifizierung unterstützen. Wenn Sie einen dieser Server nicht ausführen, können Sie die OAuth-Authentifizierung nicht vollständig implementieren.
 
-Es sollte auch darauf hingewiesen werden, dass Sie die Server-zu-Server-Authentifizierung nicht verwenden müssen: die Server-zu-Server-Authentifizierung ist nicht erforderlich, um lync Server 2013 bereitzustellen. Wenn lync Server 2013 nicht mit anderen Servern (wie Exchange 2013) kommunizieren muss, wird die Server-zu-Server-Authentifizierung nicht benötigt.
+Es sollte auch darauf hingewiesen werden, dass Sie die Server-zu-Server-Authentifizierung nicht verwenden müssen: die Server-zu-Server-Authentifizierung ist nicht erforderlich, um lync Server 2013 bereitzustellen. Wenn lync Server 2013 nicht mit anderen Servern (beispielsweise Exchange 2013) kommunizieren muss, ist die Server-zu-Server-Authentifizierung nicht erforderlich.
 
-Die Server-zu-Server-Authentifizierung ist jedoch erforderlich, wenn Sie einige der neuen Funktionen von lync Server verwenden möchten, beispielsweise den "Unified Contact Store". Mit dem Unified Contact Store werden die lync Server 2013-Kontaktinformationen in Exchange 2013 statt in lync Server gespeichert. Dadurch können Benutzer über einen einzigen Satz Kontakte verfügen, auf die in lync, Microsoft Outlook oder Microsoft Outlook Web Access problemlos zugegriffen werden kann. Da für den Unified Contact Store lync Server 2013 zum Freigeben von Informationen für Exchange 2013 erforderlich ist, müssen Sie die Server-zu-Server-Authentifizierung verwenden, um das Feature bereitzustellen. Die Server-zu-Server-Authentifizierung ist auch erforderlich, wenn Sie die Exchange-Archivierung verwenden möchten, in der die Protokolle von Chatsitzungen als Exchange 2013-e-Mails und nicht als einzelne Datenbankeinträge gespeichert werden.
+Die Server-zu-Server-Authentifizierung ist jedoch erforderlich, wenn Sie einige der neuen Features von lync Server wie den "einheitlichen Kontaktspeicher" verwenden möchten. Mit dem einheitlichen Kontaktspeicher werden lync Server 2013 Kontaktinformationen in Exchange 2013 statt in lync Server gespeichert; auf diese Weise können Benutzer über eine einzelne Gruppe von Kontakten verfügen, auf die in lync-, Microsoft Outlook-oder Microsoft Outlook-Webzugriffen problemlos zugegriffen werden kann. Da für den einheitlichen Kontaktspeicher lync Server 2013 zum Freigeben von Informationen mit Exchange 2013 erforderlich ist, müssen Sie die Server-zu-Server-Authentifizierung verwenden, um das Feature bereitzustellen. Die Server-zu-Server-Authentifizierung ist auch erforderlich, wenn Sie die Exchange-Archivierung verwenden, bei der die Protokolle von Chatsitzungen als Exchange 2013 e-Mails statt als einzelne Datenbankeinträge gespeichert werden.
 
-Damit die Office 365-Version von lync Server mit dem Exchange-Pendant kommuniziert, muss lync Server 2013 zuerst ein Sicherheitstoken vom autorisierungsserver abrufen. Lync Server verwendet dann dieses Sicherheitstoken, um sich selbst für Exchange zu identifizieren. Die Office 365-Version von Exchange muss denselben Vorgang durchlaufen, um mit lync Server 2013 zu kommunizieren.
+Damit die Office 365 Version von lync Server mit Ihrem Exchange-Pendant kommuniziert, muss lync Server 2013 zunächst ein Sicherheitstoken vom Autorisierungs Server abrufen. Lync Server verwendet dann dieses Sicherheitstoken, um sich selbst zu Exchange zu identifizieren. Die Office 365 Version von Exchange muss denselben Vorgang durchlaufen, um mit lync Server 2013 zu kommunizieren.
 
-Für eine lokale Server-zu-Server-Authentifizierung zwischen zwei Microsoft-Servern muss kein Drittanbieter-Tokenserver verwendet werden. Serverprodukte wie lync Server 2013 und Exchange 2013 verfügen über einen integrierten tokenserver, der für Authentifizierungszwecke mit anderen Microsoft-Servern (wie SharePoint Server) verwendet werden kann, die die Server-zu-Server-Authentifizierung unterstützen. Mit lync Server 2013 können Sie beispielsweise ein Sicherheitstoken selbst ausgeben und Signieren und dann dieses Token für die Kommunikation mit Exchange 2013 verwenden. In einem solchen Fall ist kein Drittanbieter-Tokenserver erforderlich.
+Für eine lokale Server-zu-Server-Authentifizierung zwischen zwei Microsoft-Servern muss kein Drittanbieter-Tokenserver verwendet werden. Serverprodukte wie lync Server 2013 und Exchange 2013 verfügen über einen integrierten tokenserver, der für Authentifizierungszwecke mit anderen Microsoft-Servern (wie SharePoint Server) verwendet werden kann, die die Server-zu-Server-Authentifizierung unterstützen. Lync Server 2013 kann beispielsweise alleine ein Sicherheitstoken ausgeben und signieren, sowie dieses Token anschließend zum Kommunizieren mit Exchange 2013 einsetzen. In diesem Fall ist kein Tokenserver eines Drittanbieters erforderlich.
 
-Um die Server-zu-Server-Authentifizierung für eine lokale Implementierung von lync Server 2013 zu konfigurieren, müssen Sie zwei Schritte ausführen:
+Um die Server-zu-Server-Authentifizierung für eine lokale Implementierung von lync Server 2013 konfigurieren zu können, müssen Sie zwei Schritte ausführen:
 
-  - Weisen Sie dem in lync Server integrierten Token-Aussteller ein Zertifikat zu.
+  - Dem in Lync Server integrierten Tokenaussteller muss ein Zertifikat zugewiesen werden.
 
-  - Konfigurieren Sie den Server, mit dem lync Server 2013 kommuniziert, als "Partneranwendung". Wenn lync Server 2013 beispielsweise mit Exchange 2013 kommunizieren muss, müssen Sie Exchange so konfigurieren, dass es sich um eine Partneranwendung handelt.
+  - Konfigurieren Sie den Server, mit dem lync Server 2013 kommunizieren wird, als "Partneranwendung". Wenn lync Server 2013 beispielsweise mit Exchange 2013 kommunizieren müssen, muss Exchange als Partneranwendung konfiguriert werden.
 
 <div>
 
 
 > [!NOTE]
-> Eine "Partneranwendung" ist eine beliebige Anwendung, mit der lync Server 2013 Sicherheitstoken direkt austauschen kann, ohne dass ein Sicherheits tokenserver eines Drittanbieters durchlaufen werden muss.
+> Bei einer "Partneranwendung" handelt es sich um eine beliebige Anwendung, mit der lync Server 2013 Sicherheitstoken direkt austauschen kann, ohne einen Sicherheits tokenserver eines Drittanbieters durchlaufen zu müssen.
 
 
 
 </div>
 
-Beachten Sie, dass OAuth eine Kernkomponente des Produkts ist und weder deaktiviert noch entfernt werden kann.
+Beachten Sie, dass OAuth ein zentraler Bestandteil des Produkts ist und nicht deaktiviert oder entfernt werden kann.
 
 <div>
 

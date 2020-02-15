@@ -12,20 +12,20 @@ ms:contentKeyID: 48185201
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4dc692c7fb246df751d481bbb1d95c05be38cf8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5048a6ebaeef3dfe865630a65bb864ab1c6b651
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757969"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042462"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-system-health-in-lync-server-2013"></a>Verwalten der Systemintegrität in Lync Server 2013
+# <a name="managing-system-health-in-lync-server-2013"></a>Verwalten der Systemintegrität in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757969"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-System Integritätsverwaltung und-Überwachung ist in die gesamte lync Server 2013-Statusverwaltung und-Überwachung integriert. Ausführliche Informationen finden Sie unter [Integritäts Konfiguration in lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).
+Die System Integritätsverwaltung und-Überwachung ist in die allgemeine lync Server 2013 Integritätsverwaltung und-Überwachung integriert. Ausführliche Informationen finden Sie unter [Integritäts Konfiguration in lync Server 2013](lync-server-2013-health-configuration-in-lync-server.md).
 
 </div>
 

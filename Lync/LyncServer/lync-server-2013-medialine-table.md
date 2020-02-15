@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: MediaLine-Tabelle'
+title: 'Lync Server 2013: medialinie-Tabelle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7488aa258fd30c2f9b519806dc84f9d897a08656
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3496b8fe96e2bdfcbb49ec0155d66ad4eeb106fa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758753"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044917"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="medialine-table-in-lync-server-2013"></a>MediaLine-Tabelle in Lync Server 2013
+# <a name="medialine-table-in-lync-server-2013"></a>Medientabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41758753"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-02-21_
+_**Letztes Änderungsstand des Themas:** 2014-02-21_
 
-Jeder Datensatz stellt eine medienzeile dar. (Eine Audiositzung enthält in der Regel eine Audio-medienzeile. Eine Audio-und Video (A/V)-Sitzung enthält in der Regel eine Audio-Medien Linie und eine Video Medien Linie, obwohl die Sitzung zwei Video Medien Linien enthalten kann, wenn ein Konferenzgerät verwendet wird oder wenn die Katalogansicht verwendet wird.
+Jeder Datensatz stellt eine Medienleiste dar. (Eine Audiositzung enthält normalerweise eine Audio-Medien-Verbindung. Eine Audio-und Video (A/V)-Sitzung enthält normalerweise eine Audiomedien-und eine Video medienleitung, obwohl die Sitzung zwei Video medienleitungen enthalten kann, wenn ein Konferenzgerät verwendet wird oder wenn die Galerieansicht verwendet wird.
 
 
 <table>
@@ -58,45 +58,45 @@ Jeder Datensatz stellt eine medienzeile dar. (Eine Audiositzung enthält in der 
 <tbody>
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td><p>Primary</p></td>
-<td><p>Wird in der <a href="lync-server-2013-session-table.md">Session-Tabelle in lync Server 2013</a>referenziert.</p></td>
+<td><p>Referenziert aus der <a href="lync-server-2013-session-table.md">Session-Tabelle in lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Wird in der <a href="lync-server-2013-session-table.md">Session-Tabelle in lync Server 2013</a>referenziert.</p></td>
+<td><p>Referenziert aus der <a href="lync-server-2013-session-table.md">Session-Tabelle in lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaLineLabel</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Primary</p></td>
-<td><p>0 ist Haupt-Audio, 1 ist das Hauptvideo, und 2 ist ein Panorama Video, 3 ist die Anwendung/Desktop-Freigabe. Diese Bezeichnung muss innerhalb einer einzelnen Sitzung eindeutig sein.</p></td>
+<td><p>0 ist Haupt-Audio, 1 ist Hauptvideo, 2 ist Panorama Video, 3 ist Application/Desktop Sharing. Diese Bezeichnung muss innerhalb einer einzelnen Sitzung eindeutig sein.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConnectivityIce</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p> </p></td>
-<td><p>Diese Spalte ist vorhanden, wird aber in Microsoft lync Server 2013 nicht verwendet. Informationen zur für eine medienzeile verwendeten Konnektivität werden in den Spalten CallerConnectivityICE und CalleeConnectivityICE erfasst.</p></td>
+<td><p>Diese Spalte ist vorhanden, wird aber in Microsoft lync Server 2013 nicht verwendet. Informationen zur für eine Medien Verbindung verwendeten Konnektivität werden in den Spalten CallerConnectivityICE und CalleeConnectivityICE erfasst.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerIceWarningFlags</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Informationen über das in Bits-Flags beschriebene Verfahren zum interaktiven Verbindungsaufbau (ICE). Ausführliche Informationen finden Sie in der <em>Spezifikation für Quality of Experience Monitoring Server Protocol</em>, die zum Download zur Verfügung steht.</p></td>
+<td><p>Informationen zum unter Bits Flags beschriebenen Ice-Prozess (Interactive Connectivity Establishment). Ausführliche Informationen finden Sie unter <em>Quality of Experience Monitoring Server Protocol Specification</em>, die zum Download bereit steht.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeIceWarningFlags</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Identisch mit CallerIceWarningFlags, aber auf der aufgerufenen Seite. Ausführliche Informationen finden Sie in der <em>Spezifikation für Quality of Experience Monitoring Server Protocol</em>, die zum Download zur Verfügung steht.</p></td>
+<td><p>Identisch mit CallerIceWarningFlags, jedoch auf der Seite "angerufener". Ausführliche Informationen finden Sie unter <em>Quality of Experience Monitoring Server Protocol Specification</em>, die zum Download bereit steht.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Sicherheit</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p> </p></td>
-<td><p>Das verwendete Sicherheitsprofil. 0 ist None, 1 ist SRTP, 2 ist v1.</p></td>
+<td><p>Das verwendete Sicherheitsprofil. 0 ist KEINES, 1 ist SRTP, 2 ist V1.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Transport</strong></p></td>
@@ -108,55 +108,55 @@ Jeder Datensatz stellt eine medienzeile dar. (Eine Audiositzung enthält in der 
 <td><p><strong>CallerIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Die IP-Adresse des Anrufers. Weitere Informationen finden Sie <a href="lync-server-2013-ipaddress-table.md">in der Tabelle IPAddress in lync Server 2013</a> .</p></td>
+<td><p>Die IP-Adresse des Anrufers. Weitere Informationen finden Sie <a href="lync-server-2013-ipaddress-table.md">in der IPAddress-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerPort</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Der vom Aufrufer verwendete Port.</p></td>
+<td><p>Vom Anrufer verwendeter Port.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerSubnet</strong></p></td>
 <td><p>int</p></td>
 <td><p> Fremd</p></td>
-<td><p>Das Subnetz des Anrufers. Weitere Informationen finden Sie <a href="lync-server-2013-ipaddress-table.md">in der Tabelle IPAddress in lync Server 2013</a> .</p></td>
+<td><p>Das Subnetz des Anrufers. Weitere Informationen finden Sie <a href="lync-server-2013-ipaddress-table.md">in der IPAddress-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerInside</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td><p> </p></td>
-<td><p>1 bedeutet, dass der Anrufer sich innerhalb des Unternehmensnetzwerks befindet, 0 bedeutet, dass sich der Anrufer außerhalb des Netzwerks befindet.</p></td>
+<td><p>1 bedeutet, der Anrufer befindet sich im Unternehmensnetzwerk, 0 bedeutet, der Anrufer befindet sich außerhalb davon.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerMacAddress</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Die Mac-Adresse des Anrufers, auf die von der <a href="lync-server-2013-macaddress-table.md">macaddress-Tabelle in lync Server 2013</a>verwiesen wird.</p></td>
+<td><p>Die Mac-Adresse des Anrufers, die von der <a href="lync-server-2013-macaddress-table.md">macaddress-Tabelle in lync Server 2013</a>referenziert wird.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerRelayIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Die IP-Adresse des vom Aufrufer verwendeten lync Server A/V-Edgedienst. Weitere Informationen finden Sie <a href="lync-server-2013-ipaddress-table.md">in der Tabelle IPAddress in lync Server 2013</a> .</p></td>
+<td><p>Die IP-Adresse des vom Anrufer verwendeten lync Server A/V-Edgedienst. Weitere Informationen finden Sie <a href="lync-server-2013-ipaddress-table.md">in der IPAddress-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerRelayPort</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Port, der vom Anrufer für den A/V-Edgedienst verwendet wird.</p></td>
+<td><p>Port, der vom Aufrufer auf dem A/V-Edgedienst verwendet wird.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerCaptureDev</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Das vom Anrufer verwendete Aufnahmegerät. Wird in der <a href="lync-server-2013-device-table.md">Gerätetabelle in lync Server 2013</a>referenziert.</p></td>
+<td><p>Vom Anrufer verwendete Aufnahmegerät. Wird aus der <a href="lync-server-2013-device-table.md">Gerätetabelle in lync Server 2013</a>referenziert.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerRenderDev</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Vom Aufrufer verwendetes Render-Gerät. Wird in der <a href="lync-server-2013-device-table.md">Gerätetabelle in lync Server 2013</a>referenziert.</p></td>
+<td><p>Vom Aufrufer verwendetes Render-Gerät. Wird aus der <a href="lync-server-2013-device-table.md">Gerätetabelle in lync Server 2013</a>referenziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerCaptureDevDriver</strong></p></td>
@@ -180,17 +180,17 @@ Jeder Datensatz stellt eine medienzeile dar. (Eine Audiositzung enthält in der 
 <td><p><strong>CallerBssid</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>BSSID des Anrufers, wenn Wireless verwendet wird. Referenziert aus der <a href="lync-server-2013-macaddress-table.md">macaddress-Tabelle in lync Server 2013</a></p></td>
+<td><p>BSSID des Anrufers, wenn Wireless verwendet wird. Referenziert aus der <a href="lync-server-2013-macaddress-table.md">macaddress-Tabelle in lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerVPN</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td></td>
-<td><p>Der Link des Anrufers. 1 ist ein VPN (virtuelles privates Netzwerk), 0 ist kein VPN.</p></td>
+<td><p>Link des Anrufers. 1 ist VPN, 0 ist Nicht-VPN.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CallerLinkSpeed</strong></p></td>
-<td><p>Decimal (18; 0)</p></td>
+<td><p>Decimal (18, 0)</p></td>
 <td></td>
 <td><p>Die Netzwerkverbindungsgeschwindigkeit in BPS für den Endpunkt des Anrufers.</p></td>
 </tr>
@@ -198,148 +198,148 @@ Jeder Datensatz stellt eine medienzeile dar. (Eine Audiositzung enthält in der 
 <td><p><strong>CalleeIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Die IP-Adresse des anrufempfängers. Weitere Informationen finden Sie <a href="lync-server-2013-ipaddress-table.md">in der Tabelle IPAddress in lync Server 2013</a> .</p></td>
+<td><p>IP-Adresse des anrufempfängers. Weitere Informationen finden Sie <a href="lync-server-2013-ipaddress-table.md">in der IPAddress-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleePort</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td></td>
-<td><p>Der vom Anrufempfänger verwendete Port.</p></td>
+<td><p>Vom Anrufempfänger verwendeter Port.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeSubnet</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Subnetz der aufgerufenen. Weitere Informationen finden Sie <a href="lync-server-2013-ipaddress-table.md">in der Tabelle IPAddress in lync Server 2013</a> .</p></td>
+<td><p>Subnetz des angerufenen. Weitere Informationen finden Sie <a href="lync-server-2013-ipaddress-table.md">in der IPAddress-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeInside</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td><p> </p></td>
-<td><p>1 bedeutet, dass der Anrufempfänger sich innerhalb des Unternehmensnetzwerks befindet, 0 bedeutet, dass der Anrufempfänger sich außerhalb des Netzwerks befindet.</p></td>
+<td><p>1 bedeutet, dass sich der Anrufempfänger innerhalb des Unternehmensnetzwerks befindet, 0 bedeutet, dass sich der Anrufempfänger außerhalb des Netzwerks befindet.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeMacAddress</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Mac-Adresse des angerufenen Wird in der <a href="lync-server-2013-macaddress-table.md">macaddress-Tabelle in lync Server 2013</a>referenziert.</p></td>
+<td><p>Mac-Adresse des angerufenen. Referenziert aus der <a href="lync-server-2013-macaddress-table.md">macaddress-Tabelle in lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeRelayIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Die IP-Adresse des A/V-Edgedienst, der vom Empfänger des Anrufs verwendet wird. Weitere Informationen finden Sie <a href="lync-server-2013-ipaddress-table.md">in der Tabelle IPAddress in lync Server 2013</a> .</p></td>
+<td><p>Die IP-Adresse des vom Anrufempfänger verwendeten A/V-Edgedienst. Weitere Informationen finden Sie <a href="lync-server-2013-ipaddress-table.md">in der IPAddress-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeRelayPort</strong></p></td>
 <td><p>int</p></td>
 <td><p> </p></td>
-<td><p>Port, der vom Anrufempfänger für den A/V-Edgedienst verwendet wird.</p></td>
+<td><p>Port, der vom Anrufempfänger im A/V-Edgedienst verwendet wird.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeCaptureDev</strong></p></td>
 <td><p>int</p></td>
 <td><p>fremd</p></td>
-<td><p>Das vom Anrufempfänger verwendete Aufnahmegerät. Wird in der <a href="lync-server-2013-device-table.md">Gerätetabelle in lync Server 2013</a>referenziert.</p></td>
+<td><p>Vom Anrufempfänger verwendetes Aufnahmegerät. Wird aus der <a href="lync-server-2013-device-table.md">Gerätetabelle in lync Server 2013</a>referenziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeRenderDev</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Render-Gerät, das vom Empfänger des Anrufs verwendet wird. Wird in der <a href="lync-server-2013-device-table.md">Gerätetabelle in lync Server 2013</a>referenziert.</p></td>
+<td><p>Vom Anrufempfänger verwendetes Render-Gerät. Wird aus der <a href="lync-server-2013-device-table.md">Gerätetabelle in lync Server 2013</a>referenziert.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeCaptureDevDriver</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Treiber für das Aufnahmegerät des anrufempfängers. Referenziert aus der <a href="lync-server-2013-devicedriver-table.md">ACPITreiber-Tabelle in lync Server 2013</a></p></td>
+<td><p>Treiber für das Aufnahmegerät des anrufempfängers. Referenziert aus der <a href="lync-server-2013-devicedriver-table.md">ACPITreiber-Tabelle in lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeRenderDevDriver</strong></p></td>
 <td><p>varchar (256)</p></td>
 <td><p>Fremd</p></td>
-<td><p>Treiber für das Render-Gerät des anrufempfängers. Referenziert aus der <a href="lync-server-2013-devicedriver-table.md">ACPITreiber-Tabelle in lync Server 2013</a></p></td>
+<td><p>Treiber für das Render-Gerät des anrufempfängers. Referenziert aus der <a href="lync-server-2013-devicedriver-table.md">ACPITreiber-Tabelle in lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeNetworkConnectionType</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Fremd</p></td>
-<td><p>Gibt an, wie der aufgerufene mit dem Netzwerk verbunden ist. Werte werden <a href="lync-server-2013-networkconnectiondetail-table.md">in der NetworkConnectionDetail-Tabelle in lync Server 2013</a>abgerufen. Typische Werte sind 0 für eine kabelgebundene Verbindung "1 für eine WLAN-Verbindung; und 3 für eine Ethernet-Verbindung.</p></td>
+<td><p>Gibt an, wie der angerufene mit dem Netzwerk verbunden ist. Werte werden <a href="lync-server-2013-networkconnectiondetail-table.md">in der NetworkConnectionDetail-Tabelle in lync Server 2013</a>abgerufen. Typische Werte sind 0 für eine kabelgebundene Verbindung "1 für eine WLAN-Verbindung; und 3 für eine Ethernet-Verbindung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeBssid</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>BSSID des anrufempfängers, wenn Wireless verwendet wird. Referenziert aus der <a href="lync-server-2013-macaddress-table.md">macaddress-Tabelle in lync Server 2013</a></p></td>
+<td><p>BSSID des angerufenen, wenn Wireless verwendet wird. Referenziert aus der <a href="lync-server-2013-macaddress-table.md">macaddress-Tabelle in lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeVPN</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td><p> </p></td>
-<td><p>Link des anrufempfängers; 1 ist ein VPN (virtuelles privates Netzwerk), 0 ist kein VPN.</p></td>
+<td><p>Link des anrufempfängers; 1 ist virtuelles privates Netzwerk (VPN), 0 ist kein VPN.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeLinkSpeed</strong></p></td>
-<td><p>Decimal (18; 0)</p></td>
+<td><p>Decimal (18, 0)</p></td>
 <td><p> </p></td>
 <td><p>Die Netzwerkverbindungsgeschwindigkeit in BPS für den Endpunkt des anrufempfängers.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConversationalMOS</strong></p></td>
-<td><p>Dezimal (3; 2)</p></td>
+<td><p>Decimal (3, 2)</p></td>
 <td><p> </p></td>
-<td><p>Schmalband-Konversations-Mos der audiositzungen (basierend auf beiden Audiostreams).</p></td>
+<td><p>Schmalband-Gesprächs-MOS der Audiositzungen (basierend auf beiden Audiostreams).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AppliedBandwidthLimit</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Hierbei handelt es sich um die tatsächliche Bandbreite, die auf den angegebenen Send-Seitenstrom angewendet wird, wobei verschiedene Richtlinieneinstellungen angegeben werden (Turn, API, SDP, Richtlinien Server usw.). Dies sollte nicht mit der effektiven Bandbreite verwechselt werden, da auf der Grundlage der Bandbreitenschätzung eine geringere effektive Bandbreite vorhanden sein kann. Dies ist im Grunde die maximale Bandbreite, die der sendedatenstrom sperren kann, wenn die Bandbreite geschätzt wird.</p></td>
+<td><p>Hierbei handelt es sich um die tatsächliche Bandbreite, die für den angegebenen Sende seitigen Stream mit verschiedenen Richtlinieneinstellungen (Turn, API, SDP, Policy Server usw.) angewendet wird. Dies ist nicht mit der effektiven Bandbreite zu verwechseln, da aufgrund der Bandbreitenschätzung eine geringere effektive Bandbreite vorhanden sein kann. Hierbei handelt es sich im Wesentlichen um die maximale Bandbreite, die der sendedatenstrom durch die Schätzung der Bandbreite für die Begrenzung von Beschränkungen ergreifen kann.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AppliedBandwidthSourceKey</strong></p></td>
 <td><p>smallint</p></td>
 <td></td>
-<td><p>Hierbei handelt es sich um die Quelle des verhängten Bandbreitenlimits. Es wird beschrieben, woher die Bandbreitengrenze stammt ("Richtlinienserver", "Server umwandeln", "Modalität" usw.). Wird in der <a href="lync-server-2013-appliedbandwidthsource-table.md">AppliedBandwidthSource-Tabelle in lync Server 2013</a>referenziert.</p></td>
+<td><p>Dies ist die Quelle der Bandbreiten Obergrenze, die auferlegt wird. In diesem Artikel wird beschrieben, woher die Bandbreitengrenze stammt ("Richtlinienserver", "Turn Server", "Modalität" usw.). Referenziert aus der <a href="lync-server-2013-appliedbandwidthsource-table.md">AppliedBandwidthSource-Tabelle in lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Anrufer</strong></p></td>
-<td><p>bit</p></td>
+<td><p><strong>Caller</strong></p></td>
+<td><p>Bit</p></td>
 <td><p> </p></td>
-<td><p>Gibt an, ob Metriken des Anrufers empfangen wurden; 1 ist ja, ein NULL-Wert ist "Nein".</p></td>
+<td><p>Gibt an, ob Metriken vom Anrufer empfangen wurden; 1 ist ja, ein NULL-Wert ist Nein.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Callee</strong></p></td>
-<td><p>bit</p></td>
+<td><p><strong>Aufgerufene</strong></p></td>
+<td><p>Bit</p></td>
 <td><p> </p></td>
-<td><p>Gibt an, ob Metriken vom Anrufempfänger empfangen wurden; 1 ist ja, ein NULL-Wert ist "Nein".</p></td>
+<td><p>Gibt an, ob Metriken vom Anrufempfänger empfangen wurden; 1 ist ja, ein NULL-Wert ist Nein.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MidCallReport</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td></td>
-<td><p>Gibt an, ob der Bericht für einen Teil der Sitzung oder für die vollständige Sitzung gilt.</p>
+<td><p>Gibt an, ob der Bericht für einen Teil der Sitzung oder für die gesamte Sitzung gilt.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClassifiedPoorCall</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td></td>
-<td><p>Gibt an, ob ein Anruf als schlechter Anruf (Wert 1) oder als guter Anruf (0) klassifiziert wurde.</p>
+<td><p>Gibt an, ob ein Anruf als schlechter Anruf klassifiziert wurde (Wert 1) oder als guter Aufruf (0).</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerConnectivityICE</strong></p></td>
 <td><p>tinyInt</p></td>
 <td></td>
-<td><p>Gibt an, ob der Anrufer über das Ice-Protokoll (Internet Connectivity Establishment) mit dem Netzwerk verbunden ist.</p>
+<td><p>Gibt an, ob sich der Anrufer mithilfe des ICE (Internet Connectivity Establishment)-Protokolls mit dem Netzwerk verbunden hat.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeConnectivityICE</strong></p></td>
 <td><p>tinyint</p></td>
 <td></td>
-<td><p>Gibt an, ob der Anrufer über das Ice-Protokoll (Internet Connectivity Establishment) mit dem Netzwerk verbunden ist.</p>
+<td><p>Gibt an, ob sich der Anrufer mithilfe des ICE (Internet Connectivity Establishment)-Protokolls mit dem Netzwerk verbunden hat.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
@@ -353,35 +353,35 @@ Jeder Datensatz stellt eine medienzeile dar. (Eine Audiositzung enthält in der 
 <td><p><strong>CallerWiFiDriverDevicesDesc</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Gerätebeschreibung für den WiFi-Treiber des Benutzers, der den Anruf getätigt hat.</p>
+<td><p>Gerätebeschreibung für den von dem Benutzer, der den Anruf getätigt hat, verwendeten WLAN-Treiber.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CallerWiFiDriverVersion</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Die Versionsnummer des WLAN-Treibers, der vom Nutzer, der den Anruf getätigt hat, verwendet wurde.</p>
+<td><p>Versionsnummer des WLAN-Treibers, der von dem Benutzer, der den Anruf getätigt hat, verwendet wurde.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleReflexiveLocalIPAddr</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Reflexive IP-Adresse des Benutzers, der den Anruf erhalten hat. In Organisationen, die NAT verwenden (Netzwerkadressübersetzung), ist die reflexive IP-Adresse die IP-Adresse des Proxyservers.</p>
+<td><p>Reflexive IP-Adresse des Benutzers, der den Anruf empfangen hat. In Organisationen, die NAT verwenden (Netzwerkadressübersetzung), ist die reflexive IP-Adresse die IP-Adresse des Proxyservers.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CalleeWiFiDriverDevicesDesc</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Gerätebeschreibung für den WiFi-Treiber des Benutzers, der den Anruf erhalten hat.</p>
+<td><p>Gerätebeschreibung für den von dem Benutzer, der den Anruf empfangen hat, verwendeten WLAN-Treiber.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>CalleeWiFiDriverVersion</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Die Versionsnummer des WLAN-Treibers, der vom Nutzer, der den Anruf erhalten hat, verwendet wurde.</p>
+<td><p>Versionsnummer des WLAN-Treibers, der von dem Benutzer, der den Anruf empfangen hat, verwendet wurde.</p>
 <p>Diese Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Bereitstellen von Front-End-Poolpaaren für die Notfallwiederherstellung'
+title: 'Lync Server 2013: Bereitstellen gekoppelter Front-End-Pools für die Notfallwiederherstellung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d264128a7fef38fd220d2527772d6065dca7c964
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a18b92dde9b6ca48ffe8912f216331c39ef9cc9d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740915"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043437"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a>Bereitstellen von Front-End-Poolpaaren für die Notfallwiederherstellung in Lync Server 2013
+# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a>Bereitstellen gekoppelter Front-End-Pools für die Notfallwiederherstellung in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41740915"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+_**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Sie können die Disaster Recovery-Topologie von gekoppelten Front-End-Pools auf einfache Weise mithilfe von Topology Builder bereitstellen.
+Sie können die Notfall Wiederherstellungs Topologie mit gepaarten Front-End-Pools problemlos mithilfe des Topologie-Generators bereitstellen.
 
 <div>
 
-## <a name="to-deploy-a-pair-of-front-end-pools"></a>So stellen Sie ein Front-End-Poolpaar bereit
+## <a name="to-deploy-a-pair-of-front-end-pools"></a>So stellen Sie ein Paar von Front-End-Pools bereit
 
-1.  Wenn die Pools neu sind und noch nicht definiert sind, verwenden Sie den Topologie-Generator zum Erstellen der Pools.
+1.  Wenn die Pools neu und noch nicht definiert sind, verwenden Sie den Topologie-Generator, um die Pools zu erstellen.
 
 2.  Klicken Sie im Topologie-Generator mit der rechten Maustaste auf einen der beiden Pools, und klicken Sie dann auf **Eigenschaften bearbeiten**.
 
-3.  Klicken Sie im linken Bereich auf **Flexibilität**, und wählen Sie dann im rechten Bereich die Option **Zugeordneter Sicherungspool** aus.
+3.  Klicken Sie im linken Bereich auf **Flexibilität**, und wählen Sie dann im rechten Bereich **Zugeordneter Sicherungspool**aus.
 
 4.  Wählen Sie im Feld unter **Zugeordneter Sicherungspool** den Pool aus, mit dem dieser Pool ein Paar bilden soll. Zur Auswahl stehen nur vorhandene Pools, die noch nicht mit einem anderen Pool ein Paar bilden.
     
@@ -55,11 +55,11 @@ Sie können die Disaster Recovery-Topologie von gekoppelten Front-End-Pools auf 
 
 5.  Wählen Sie **Automatisches Failover und Failback für Sprachdienste** aus, und klicken Sie dann auf **OK**.
     
-    Wenn Sie die Details zu diesem Pool anzeigen, erscheint der zugeordnete Pool jetzt im rechten Bereich unter **Flexibilität**. 
+    Wenn Sie die Details zu diesem Pool anzeigen, erscheint der neu zugeordnete Pool jetzt im rechten Bereich unter **Flexibilität**.
 
-6.  Verwenden Sie den Topologie-Generator zum Veröffentlichen der Topologie.
+6.  Verwenden Sie den Topologie-Generator, um die Topologie zu veröffentlichen.
 
-7.  Wenn die beiden Pools noch nicht bereitgestellt wurden, führen Sie die Bereitstellung jetzt durch, um die Konfiguration abzuschließen. Die letzten beiden Schritte in diesem Verfahren können Sie überspringen.
+7.  Wenn die beiden Pools noch nicht bereitgestellt wurden, führen Sie die Bereitstellung jetzt durch, um die Konfiguration abzuschließen. Sie können die letzten beiden Schritte in diesem Verfahren überspringen.
     
     Wenn die Pools jedoch bereits bereitgestellt waren, bevor Sie die Paarbeziehung definiert haben, müssen Sie die beiden folgenden abschließenden Schritte ausführen.
 
@@ -69,7 +69,7 @@ Sie können die Disaster Recovery-Topologie von gekoppelten Front-End-Pools auf 
     ```
     Hierdurch werden die anderen Dienste konfiguriert, die erforderlich sind, damit die Sicherung des Poolpaars korrekt funktioniert.
 
-9.  Führen Sie an einer Eingabeaufforderung der lync Server-Verwaltungsshell die folgenden Aktionen aus:
+9.  Führen Sie an einer lync Server-Verwaltungsshell Eingabeaufforderung Folgendes aus:
     ```powershell
     Start-CsWindowsService -Name LYNCBACKUP
     ```
@@ -83,7 +83,7 @@ Sie können die Disaster Recovery-Topologie von gekoppelten Front-End-Pools auf 
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
        ```
     
-    Das Synchronisieren der Daten kann einige Zeit in Anspruch nehmen. Sie können die folgenden Cmdlets verwenden, um den Status zu überprüfen. Stellen Sie sicher, dass der Status für beide Richtungen stabil ist.
+    Das Synchronisieren der Daten kann einige Zeit in Anspruch nehmen. Sie können die folgenden Cmdlets verwenden, um den Status zu prüfen. Stellen Sie sicher, dass sich der Status in beide Richtungen im stationären Zustand befindet.
     
        ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
@@ -97,7 +97,7 @@ Sie können die Disaster Recovery-Topologie von gekoppelten Front-End-Pools auf 
 
 
 > [!NOTE]  
-> Die Option <STRONG>Automatisches Failover und Failback für VoIP</STRONG> und die zugehörigen Zeitintervalle im Topologie-Generator gelten nur für die Features der VoIP-Resilienz, die in lync Server 2010 eingeführt wurden. Wenn Sie diese Option auswählen, bedeutet dies nicht, dass das in diesem Dokument beschriebene Pool-Failover automatisch erfolgt. Für Pool-Failover und Failback muss ein Administrator immer manuell die Failover-und Failback-Cmdlets aufrufen.
+> Die Option <STRONG>Automatisches Failover und Failback für VoIP</STRONG> und die zugehörigen Zeitintervalle im Topologie-Generator gelten nur für die Features der VoIP-Ausfallsicherheit, die in lync Server 2010 eingeführt wurden. Die Auswahl dieser Option bedeutet nicht, dass das in diesem Dokument beschriebene Pool Failover automatisch erfolgt. Für das Pool-Failover und das Failback muss ein Administrator immer manuell die Failover-und Failback-Cmdlets aufrufen.
 
 
 

@@ -19,12 +19,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Hier erfahren Sie, wie Sie Audiokonferenzen mit direktem Routing in GCCH-und DoD-Umgebungen verwenden können.
-ms.openlocfilehash: 8304d18777739b4667c0f47b9dee3e9f8f6dcc38
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: a8a9b5a46f1efd88de38fa65e857d3eebbbd6e3d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825653"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047186"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audiokonferenzen mit direktem Routing für GCC High und DoD
 
@@ -92,7 +92,7 @@ Sie können die ID Ihrer Audiokonferenz-Bridge mithilfe von Get-CsOnlineDialInCo
 
 ### <a name="step-4-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>Schritt 4: Zuweisen von Audiokonferenzen mit Direct Routing für gcc-höchst-oder DoD-Lizenzen für Ihre Benutzer
 
-Informationen zum Zuweisen von Audiokonferenzen mit direktem Routing für gcc-oder DoD-Lizenzen für Ihre Benutzer finden Sie unter [Zuweisen von Lizenzen zu Benutzern in Office 365 for Business](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+Informationen zum Zuweisen von Audiokonferenzen mit direktem Routing für gcc-oder DoD-Lizenzen für Ihre Benutzer finden Sie unter [Zuweisen von Lizenzen zu Benutzern in Office 365 for Business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
 
 ### <a name="step-5-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>Schritt 5: (optional) Anzeigen einer Liste der Audiokonferenz-Nummern in Teams
 

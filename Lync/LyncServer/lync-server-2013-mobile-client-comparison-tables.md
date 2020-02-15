@@ -12,20 +12,20 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e326ddd479a3d414563b3dd690ecce758f16a9ef
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f9a3627930f65740fdd00596ddde24cde4dabc3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758743"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044907"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mobile-client-comparison-tables-for-lync-server-2013"></a>Vergleichstabellen für mobile Clients für Lync Server 2013
+# <a name="mobile-client-comparison-tables-for-lync-server-2013"></a>Vergleichstabellen für mobile Clients für lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758743"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-09-21_
+_**Letztes Änderungsstand des Themas:** 2015-09-21_
 
-In den folgenden Tabellen werden die Features und Funktionen zwischen lync 2013-mobilen Clients und dem lync 2013-Desktop Client in den folgenden Kategorien verglichen:
+In den folgenden Tabellen werden die Features und Funktionen zwischen lync 2013 mobilen Clients und dem lync 2013-Desktop Client in den folgenden Kategorien verglichen:
 
-  - Anmeldung, Pushbenachrichtigungen und allgemeine Funktionen
+  - Anmeldung, Push-Benachrichtigungen und allgemeine Features
 
   - Erweiterte Anwesenheit
 
   - Kontakte und Kontaktgruppen
 
-  - Chat
+  - Sofortnachrichten
 
   - Lync-zu-lync-Audio und-Video
 
@@ -57,7 +57,7 @@ In den folgenden Tabellen werden die Features und Funktionen zwischen lync 2013-
 
   - Archivierung und Kompatibilität
 
-Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Bereitstellung von lync Server 2013 zur Verfügung stehen. Die gleichen Funktionen sind auch für Skype for Business Online-und Microsoft Office 365-Benutzer verfügbar, sofern in den Tabellen Fußnoten nichts anderes angegeben ist.
+Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Bereitstellung von lync Server 2013 zur Verfügung stehen. Die gleichen Funktionen stehen auch Skype for Business Online-und Microsoft Office 365-Benutzern zur Verfügung, sofern in den Tabellen Fußnoten nichts anderes angegeben ist.
 
 <div>
 
@@ -65,13 +65,13 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>Suchen Sie nach den Vergleichstabellen für mobile Clients für Skype for Business? Weitere Informationen finden Sie unter <A href="https://technet.microsoft.com/en-us/library/dn951412.aspx">Vergleichstabellen für mobile Clients für Skype for Business</A>.</P>
+> <P>Suchen Sie nach den Vergleichstabellen für mobile Clients für Skype for Business? Weitere Informationen finden Sie unter <A href="https://technet.microsoft.com/library/dn951412.aspx">Mobile Client comparison tables for Skype for Business</A>.</P>
 > <LI>
-> <P>Online Hilfe und Ressourcen für Endbenutzer finden Sie unter <A href="http://go.microsoft.com/fwlink/?linkid=286237">Microsoft lync 2013 für mobile Clients</A>.</P>
+> <P>Online Hilfe und Ressourcen für Endbenutzer finden Sie unter <A href="http://go.microsoft.com/fwlink/?linkid=286237">Microsoft lync 2013 for Mobile Clients</A>.</P>
 > <LI>
-> <P>Informationen zum Vergleich der in anderen lync 2013-Clients verfügbaren Features finden Sie unter <A href="lync-server-2013-desktop-client-comparison-tables.md">Client Vergleichstabellen für lync Server 2013</A>.</P>
+> <P>Informationen zum Vergleich der in anderen lync 2013 Clients verfügbaren Features finden Sie unter <A href="lync-server-2013-desktop-client-comparison-tables.md">Client comparison tables for lync Server 2013</A>.</P>
 > <LI>
-> <P>Lync Server 2013 unterstützt auch Mobile lync 2010-apps. Ausführliche Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">Vergleichstabellen für mobile Clients</A> in der lync Server 2010-Dokumentation.</P></LI></UL>
+> <P>Lync Server 2013 unterstützt auch lync 2010 Mobile Apps. Ausführliche Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">Mobile Client comparison tables</A> in der lync Server 2010-Dokumentation.</P></LI></UL>
 
 
 
@@ -111,7 +111,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>● 1</p></td>
 </tr>
 <tr class="even">
-<td><p>Unterstützung von Pushbenachrichtigungen</p></td>
+<td><p>Unterstützung für Push-Benachrichtigungen</p></td>
 <td></td>
 <td><p>●</p></td>
 <td><p>4Not erforderlich</p></td>
@@ -119,7 +119,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>4Not erforderlich</p></td>
 </tr>
 <tr class="odd">
-<td><p>Landesvorwahl wird basierend auf den Regionseinstellungen gefüllt</p></td>
+<td><p>Ländercode wird basierend auf Regionseinstellungen aufgefüllt</p></td>
 <td></td>
 <td></td>
 <td><p>●</p></td>
@@ -135,14 +135,14 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Sprachausgabe/Voiceover</p></td>
+<td><p>Screenreader/Voice over</p></td>
 <td><p>●</p></td>
 <td><p>● 2<br />
-Nur auf Englisch</p></td>
+Nur Englisch</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●<br />
-Nur auf Englisch</p></td>
+Nur Englisch</p></td>
 </tr>
 <tr class="even">
 <td><p>Verwenden einer externen Tastatur mit lync</p></td>
@@ -153,7 +153,7 @@ Nur auf Englisch</p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Unterstützung für Zertifikats-und passive Authentifizierung für mobile Clients (nur lync Server)</p></td>
+<td><p>Unterstützung für Zertifikat-und passive Authentifizierung für mobile Clients (nur lync Server)</p></td>
 <td></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -161,7 +161,7 @@ Nur auf Englisch</p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Unterstützung für das Programm zur Verbesserung der Benutzerfreundlichkeit von Microsoft </p></td>
+<td><p>Support für das Microsoft-Programm zur Verbesserung der Benutzerfreundlichkeit </p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -172,27 +172,27 @@ Nur auf Englisch</p></td>
 </table>
 
 
-1 unter Windows Phone meldet sich lync automatisch ab, wenn der Benutzer die Anwendung nicht wie folgt für einen bestimmten Zeitraum verwendet hat:
+1 auf Windows Phone meldet sich lync automatisch ab, wenn der Benutzer die Anwendung nicht für einen bestimmten Zeitraum verwendet hat, wie folgt:
 
   - Wenn der Benutzer Push-Benachrichtigungen aktiviert hat, meldet sich lync nach 10 Tagen Inaktivität ab.
 
   - Wenn der Benutzer keine Push-Benachrichtigungen aktiviert hat, meldet sich lync nach 1 Stunde ab.
 
-Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die Anwendung nicht wie folgt für einen bestimmten Zeitraum verwendet hat:
+Auf iPhone und iPad meldet sich lync automatisch an, wenn der Benutzer die Anwendung nicht für einen bestimmten Zeitraum verwendet hat, wie folgt:
 
-  - Wenn der Mobile Client wegen des Verlusts der Netzwerkkonnektivität oder anderer Probleme 10 Tage lang keine Verbindung mit dem Server hergestellt hat.
+  - Wenn der Mobile Client aufgrund von Netzwerk Verbindungsverlusten oder anderen Problemen 10 Tage lang keinen Kontakt mit dem Server hergestellt hat.
 
 2 nur in der app.
 
 3 muss sich im VoiceOver-Modus befinden.
 
-4iPhone, iPad und Android erfordern keine Push-Benachrichtigungen für den Empfang von Nachrichten, wenn eine APP im Hintergrund ausgeführt wird.
+4iPhone, iPad und Android benötigen keine Push-Benachrichtigungen zum Empfangen von Nachrichten, wenn eine APP im Hintergrund ausgeführt wird.
 
 </div>
 
 <div>
 
-## <a name="enhanced-presence-support-in-lync-mobile-clients"></a>Erweiterte Anwesenheits Unterstützung in mobilen lync-Clients
+## <a name="enhanced-presence-support-in-lync-mobile-clients"></a>Erweiterte Anwesenheits Unterstützung in lync Mobile-Clients
 
 
 <table style="width:100%;">
@@ -256,7 +256,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Status basierend auf Kalenderinformationen (frei/gebucht) veröffentlichen </p></td>
+<td><p>Veröffentlichen des Status basierend auf den Frei/Gebucht-Kalenderinformationen</p></td>
 <td><p>● 1</p></td>
 <td></td>
 <td></td>
@@ -264,7 +264,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Anwesenheitsstatus manuell festlegen (z. B. gebucht, nicht stören usw.)</p></td>
+<td><p>Manuellen Anwesenheitsstatus festlegen (beispielsweise "beschäftigt", "nicht stören" usw.)</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -275,13 +275,13 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 </table>
 
 
-1 lync Mobile-Clients aktualisieren die Anwesenheit eines Benutzers nicht basierend auf den Frei/Gebucht-Kalenderinformationen des Benutzers. Wenn ein mobiler Clientbenutzer ebenfalls beim lync-Desktop Client angemeldet ist, aktualisiert der Desktop Client die Anwesenheit des Benutzers basierend auf den Frei/Gebucht-Kalenderinformationen des Benutzers. Wenn die Benutzer nur bei einem mobilen Client angemeldet sind, wird ihre Anwesenheit nicht basierend auf den Kalenderinformationen (frei/gebucht) aktualisiert.
+1 lync Mobile-Clients aktualisieren die Anwesenheit eines Benutzers nicht basierend auf den Frei/Gebucht-Kalenderinformationen des Benutzers. Wenn ein mobiler Clientbenutzer ebenfalls beim lync Desktop-Client angemeldet ist, aktualisiert der Desktop Client die Anwesenheit des Benutzers basierend auf den Frei/Gebucht-Kalenderinformationen des Benutzers. Wenn der Benutzer nur bei einem mobilen Client angemeldet ist, wird die Anwesenheit des Benutzers nicht basierend auf Frei/Gebucht-Kalenderinformationen aktualisiert.
 
 </div>
 
 <div>
 
-## <a name="contacts-and-contact-groups-support-in-lync-mobile-clients"></a>Unterstützung für Kontakte und Kontaktgruppen in lync Mobile-Clients
+## <a name="contacts-and-contact-groups-support-in-lync-mobile-clients"></a>Unterstützung von Kontakten und Kontaktgruppen in lync Mobile-Clients
 
 
 <table style="width:100%;">
@@ -313,7 +313,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Kontaktgruppen anzeigen</p></td>
+<td><p>Anzeigen von Kontaktgruppen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -321,7 +321,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Gruppe „Häufig verwendete Kontakte“ anzeigen</p></td>
+<td><p>Gruppe "häufige Kontakte" anzeigen</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -345,7 +345,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Private Beziehungen steuern</p></td>
+<td><p>Private Beziehungen verwalten</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -393,7 +393,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Kontaktfotos ein- oder ausblenden</p></td>
+<td><p>Anzeigen oder Ausblenden von Kontaktfotos</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -401,7 +401,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Kontakt an Startseite anheften</p></td>
+<td><p>Anheften eines Kontakts an Ihren Startbildschirm</p></td>
 <td></td>
 <td><p>●</p></td>
 <td></td>
@@ -412,13 +412,13 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 </table>
 
 
-1 nicht für Skype for Business Online-und/oder Office 365-Benutzer verfügbar.
+1 nicht verfügbar für Skype for Business Online und/oder Office 365 Benutzer.
 
 </div>
 
 <div>
 
-## <a name="instant-messaging-support-in-lync-mobile-clients"></a>Unterstützung für Sofortnachrichten in lync Mobile-Clients
+## <a name="instant-messaging-support-in-lync-mobile-clients"></a>Instant Messaging-Unterstützung in mobilen lync-Clients
 
 
 <table style="width:100%;">
@@ -442,7 +442,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Chatnachrichten mit einem Kontakt initiieren</p></td>
+<td><p>Sofortnachrichten (Chat) mit einem Kontakt initiieren</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -450,7 +450,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>An Chatnachrichten mit mehreren Teilnehmern teilnehmen</p></td>
+<td><p>An Sofortnachrichten mit mehreren Teilnehmern teilnehmen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -458,7 +458,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Andere vom Unterhaltungsfenster aus einladen</p></td>
+<td><p>Andere Personen aus dem Unterhaltungsfenster einladen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -466,7 +466,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Aktuelle Unterhaltungen anzeigen</p></td>
+<td><p>Anzeigen von aktuellen Unterhaltungen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -474,7 +474,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Zwischen mehreren Chatunterhaltungen navigieren</p></td>
+<td><p>Zwischen mehreren Sofortnachrichtenunterhaltungen navigieren</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -482,7 +482,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Chatnachrichtenunterhaltungen in Exchange automatisch protokollieren</p></td>
+<td><p>Automatisches Protokollieren von Chat Unterhaltungen in Exchange</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -490,7 +490,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Chatnachrichtenunterhaltung in einer E-Mail-Nachricht senden</p></td>
+<td><p>Senden einer Chat Unterhaltung als e-Mail-Nachricht</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -506,7 +506,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Verpasste Chatnachrichteneinladungen anzeigen</p></td>
+<td><p>Verpasste Chat Einladungen anzeigen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -514,7 +514,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Bei eingehenden Chatnachrichten vibrieren</p></td>
+<td><p>Vibrieren mit eingehenden Chatnachrichten</p></td>
 <td></td>
 <td><p>● 1</p></td>
 <td><p>●</p></td>
@@ -525,7 +525,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 </table>
 
 
-1 dieses Gerät vibriert jedes Mal, wenn ein Chat empfangen wird, auch wenn die aktuelle Nachricht in der Chat Unterhaltung angezeigt wird
+1 dieses Gerät vibriert jedes Mal, wenn ein Chat empfangen wird, auch wenn die aktuelle Nachricht in der Chat Unterhaltung angezeigt wird.
 
 </div>
 
@@ -555,7 +555,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync-zu-lync-Sprachausgabe</p></td>
+<td><p>Lync-zu-lync-VoIP</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -578,7 +578,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 
 <div>
 
-## <a name="conferencing-support-in-lync-mobile-clients"></a>Unterstützung für Konferenzen in lync Mobile-Clients
+## <a name="conferencing-support-in-lync-mobile-clients"></a>Konferenz Unterstützung in mobilen lync-Clients
 
 
 <table style="width:100%;">
@@ -602,7 +602,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Klicken Sie auf einen Link in der Besprechungserinnerung, um an einer Besprechung teilzunehmen (öffentliches Switched Telephone Network (PSTN)).</p></td>
+<td><p>Klicken Sie auf einen Link in der Besprechungserinnerung, um an einer Besprechung teilzunehmen (öffentliches Telefon Festnetz (Public Switched Telephone Network, PSTN)).</p></td>
 <td><p>●</p></td>
 <td><p>● 1</p></td>
 <td><p>● 1</p></td>
@@ -610,7 +610,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>● 1</p></td>
 </tr>
 <tr class="even">
-<td><p>In einer Besprechungserinnerung auf einen Link klicken, um an einer Video- oder VoIP-Besprechung teilzunehmen</p></td>
+<td><p>Klicken Sie auf einen Link in der Besprechungserinnerung, um an einer Video-oder VoIP-Besprechung teilzunehmen.</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -618,7 +618,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>An Chatnachrichten mit mehreren Teilnehmern teilnehmen</p></td>
+<td><p>An Sofortnachrichten mit mehreren Teilnehmern teilnehmen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -626,7 +626,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Dial-Out-Konferenzen verwenden (Server ruft das mobile Gerät an)</p></td>
+<td><p>Verwenden von Auswahl Konferenzen (Server Ruft das Mobile Gerät an)</p></td>
 <td><p>●</p></td>
 <td><p>● 2</p></td>
 <td><p>● 2</p></td>
@@ -642,7 +642,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Besprechungsvideo anzeigen</p></td>
+<td><p>Besprechungs Video anzeigen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -650,7 +650,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Video mit mehreren Teilnehmern ansehen (Katalogansicht)</p></td>
+<td><p>Video mit mehreren Teilen anzeigen (Galerieansicht)</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -658,7 +658,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Warten in Besprechungslobby</p></td>
+<td><p>Warten in der Besprechungslobby</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -674,7 +674,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Auf detaillierte Besprechungsliste für Audiokonferenzen zugreifen</p></td>
+<td><p>Zugriff auf detaillierte Besprechungsliste für Audiokonferenzen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -682,7 +682,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Auf detaillierte Besprechungsliste für Chatnachrichtenkonferenzen zugreifen</p></td>
+<td><p>Zugriff auf detaillierte Besprechungsliste für Chat Konferenzen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -690,7 +690,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Desktop oder Programm freigeben</p></td>
+<td><p>Freigeben von Desktop oder Programm</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -698,7 +698,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Freigegebenen Desktop oder freigegebenes Programm anzeigen</p></td>
+<td><p>Anzeigen eines freigegebenen Desktops oder Programms</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -706,7 +706,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Anzeigen von freigegebenen PowerPoint</p></td>
+<td><p>Anzeigen freigegebener PowerPoint</p></td>
 <td><p>●</p></td>
 <td><p>● 4</p></td>
 <td><p>● 4</p></td>
@@ -714,7 +714,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Verwenden von Besprechungstools (präsentieren von Microsoft PowerPoint-Dateien, verwenden von Whiteboard, durchführen von Umfragen und Freigeben von Dateien)</p></td>
+<td><p>Verwenden von Besprechungstools (Microsoft PowerPoint Dateien darstellen, Whiteboard verwenden, Umfragen durchführen, Dateien freigeben)</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -722,7 +722,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td></td>
 </tr>
 <tr class="even">
-<td><p>In Besprechungsliste navigieren</p></td>
+<td><p>Navigieren in einer Liste Ihrer Besprechungen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -730,7 +730,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Teilnehmen an einer Besprechung, auch wenn Sie nicht über ein lync-Konto verfügen</p></td>
+<td><p>An einer Besprechung teilnehmen, auch wenn Sie kein lync-Konto haben</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -746,7 +746,7 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Starten einer ungeplanten Gruppenunterhaltung mit mehreren Teilnehmern direkt vom Client oder Gerät </p></td>
+<td><p>Starten einer ungeplanten Gruppenunterhaltung mit mehreren Teilnehmern direkt vom Client oder Gerät</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -757,13 +757,13 @@ Auf dem iPhone und iPad meldet sich lync automatisch ab, wenn der Benutzer die A
 </table>
 
 
-1 für Office 365-Benutzer steht dieses Feature nur für Besprechungen mit nur für den Audiokonferenzdienst (ACP) zur Verfügung.
+1 für Office 365 Benutzer ist diese Funktion nur für in der AKP-Sprache aktivierte Konferenzen verfügbar.
 
-2 steht für Office 365-Benutzer nicht zur Verfügung.
+2 nicht verfügbar für Office 365 Benutzer.
 
-3 für Skype for Business Online-und/oder Office 365-Benutzer steht dieses Feature von Drittanbieter-Audiokonferenz-Anbietern zur Verfügung.
+3 für Skype for Business Online-und/oder Office 365-Benutzer ist diese Funktion bei Audiokonferenz-Anbietern von Drittanbietern verfügbar.
 
-von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile 2013 nicht angezeigt werden. Anmerkungen, die auf lync 2013-Desktop Clients vorgenommen wurden, können auf mobilen Geräten nicht angezeigt werden.
+4a PowerPoint-Präsentation, die von lync Web App gemeinsam genutzt wird, kann nicht von lync Mobile 2013 angezeigt werden. Auf lync 2013-Desktop Clients vorgenommene Anmerkungen sind auf mobilen Geräten nicht sichtbar.
 
 </div>
 
@@ -825,7 +825,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Stellvertretungen verwalten</p></td>
+<td><p>Verwalten von Stellvertretungen</p></td>
 <td><p>● 3</p></td>
 <td></td>
 <td></td>
@@ -841,7 +841,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Unterstützung von Notrufdiensten</p></td>
+<td><p>Unterstützung von Notfalldiensten</p></td>
 <td><p>● 4</p></td>
 <td></td>
 <td></td>
@@ -857,7 +857,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Anrufe eines anderen Kontakts verwalten, wenn eine Delegierung konfiguriert wurde</p></td>
+<td><p>Behandeln der Anrufe eines anderen Kontakts, falls als Stellvertreter konfiguriert</p></td>
 <td><p>● 3</p></td>
 <td><p>● 3</p></td>
 <td><p>● 3</p></td>
@@ -865,7 +865,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 <td><p>● 3</p></td>
 </tr>
 <tr class="even">
-<td><p>Verwenden des Anrufs über die Arbeit (lync Server 2013 platziert Ihre ausgehenden Anrufe, damit die Rufnummernanzeige des Empfängers Ihre geschäftliche Nummer anstelle Ihrer Handynummer anzeigt)</p></td>
+<td><p>Verwenden Sie die Funktion "Anruf über Arbeit" (lync Server 2013 ihre ausgehenden Anrufe so platziert, dass die Anrufer-ID des Empfängers ihre Arbeitsnummer anstelle Ihrer Mobiltelefonnummer anzeigt)</p></td>
 <td></td>
 <td><p>● 3</p></td>
 <td><p>● 3</p></td>
@@ -873,7 +873,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 <td><p>● 3</p></td>
 </tr>
 <tr class="odd">
-<td><p>Auf Voicemail zugreifen</p></td>
+<td><p>Zugreifen auf Voicemail</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -892,11 +892,11 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 </table>
 
 
-1 lync Server 2013, Skype for Business Online und Office 365-Benutzer können andere lync-Benutzer und Skype-Benutzer anrufen, indem Sie auf das Symbol tippen. Lync Server 2013-Benutzer können auch PSTN-Anrufe tätigen, indem Sie auf das Symbol tippen.
+1 lync Server 2013, Skype for Business Online und Office 365 Benutzer können andere lync-Benutzer und Skype-Benutzer aufrufen, indem Sie auf das Symbol tippen. Lync Server 2013 Benutzer können auch PSTN-Anrufe tätigen, indem Sie auf das Symbol tippen.
 
-2 für lokale lync Server 2013-Benutzer, auf Windows Phone-, iPhone-und iPad-Geräten tippt der Benutzer auf das Anrufsymbol in der Visitenkarte und akzeptiert den Rückruf von lync Server 2013. Bei Office 365-Benutzern auf Windows Phone-, iPhone-und iPad-Geräten, wenn der Benutzer auf die Schaltfläche "anrufen" tippt, wird ein Dialogfeld geöffnet, in dem der Benutzer aufgefordert wird, zu bestätigen, dass er die Nummer anrufen möchte.
+2 für lokale lync Server 2013 Benutzer auf Windows Phone-, iPhone-und iPad-Geräten tippt der Benutzer auf das Anrufsymbol in der Visitenkarte und akzeptiert den Rückruf von lync Server 2013. Für Office 365 Benutzer auf Windows Phone-, iPhone-und iPad-Geräten wird ein Dialogfeld geöffnet, in dem der Benutzer aufgefordert wird, zu bestätigen, dass er die Nummer anrufen möchte, wenn der Benutzer auf die Anruf Schaltfläche tippt.
 
-3 für Skype for Business Online und/oder Office 365-Benutzer nicht verfügbar.
+3 nicht verfügbar für Skype for Business Online und/oder Office 365 Benutzer.
 
 4 für Skype for Business Online-und/oder Office 365-Benutzer wird dieses Feature von Microsoft-Partnern unterstützt.
 
@@ -904,7 +904,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 
 <div>
 
-## <a name="external-user-support-in-lync-mobile-clients"></a>Unterstützung externer Benutzer in mobilen lync-Clients
+## <a name="external-user-support-in-lync-mobile-clients"></a>Externe Benutzerunterstützung in lync Mobile-Clients
 
 
 <table style="width:100%;">
@@ -928,7 +928,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Chatnachricht mit öffentlichem Kontakt initiieren</p></td>
+<td><p>Sofortnachricht mit öffentlichem Kontakt initiieren</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -936,7 +936,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Chatnachricht mit Partnerkontakt initiieren</p></td>
+<td><p>Sofortnachricht mit Partnerkontakt initiieren</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -944,7 +944,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Anrufe mit zwei Teilnehmern mit externen Benutzern durchführen</p></td>
+<td><p>Durchführen von Anrufen mit zwei Teilnehmern mit externen Benutzern</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -952,7 +952,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Anrufe mit mehreren Teilnehmern mit externen Benutzern durchführen</p></td>
+<td><p>Durchführen von mehrteiligen anrufen mit externen Benutzern</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -960,7 +960,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Verwenden Sie Anruf über Arbeit, um einen Föderations Kontakt auf seinem Mobiltelefon zu erreichen, indem Sie deren veröffentlichte Arbeits Zahl1</p></td>
+<td><p>Verwenden der Funktion "Anruf über Arbeit" zum Erreichen eines Verbund Kontakts auf Ihrem Mobiltelefondurch Aufrufen der veröffentlichten number1</p></td>
 <td></td>
 <td><p>● 2</p></td>
 <td><p>● 2</p></td>
@@ -971,9 +971,9 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 </table>
 
 
-1 Standardmäßig werden Verbundbenutzern die Datenschutz Beziehung externe Kontakte zugewiesen. Damit Sie einen Partnerkontakt auf seinem Mobiltelefon erreichen können, indem Sie die veröffentlichte geschäftliche Telefonnummer anrufen, muss der Partnerkontakt Ihnen manuell die private Beziehung „Kollegen“ zuweisen.
+1 Standardmäßig wird den Verbundbenutzern die Datenschutz Beziehung externe Kontakte zugewiesen. Damit Sie einen Verbundkontakt auf Ihrem Mobiltelefon erreichen können, indem Sie Ihre veröffentlichte Arbeitsnummer anrufen, muss der Partner Kontakt Ihnen manuell die Datenschutz Beziehung für Kollegen zuweisen.
 
-2 steht für Office 365-Benutzer nicht zur Verfügung.
+2 nicht verfügbar für Office 365 Benutzer.
 
 </div>
 
@@ -1011,7 +1011,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Tätigen von lync-Anrufen an Kontakte direkt aus dem Adressbuch</p></td>
+<td><p>Tätigen von lync-anrufen für Kontakte direkt aus dem Adressbuch</p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -1026,7 +1026,7 @@ von lync Web App freigegebene PowerPoint-Präsentationen können von lync Mobile
 
 <div>
 
-## <a name="archiving-and-compliance-support-in-lync-mobile-clients"></a>Unterstützung für Archivierung und Compliance in mobilen lync-Clients
+## <a name="archiving-and-compliance-support-in-lync-mobile-clients"></a>Archivierungs-und Kompatibilitätsunterstützung in lync Mobile-Clients
 
 
 <table style="width:100%;">

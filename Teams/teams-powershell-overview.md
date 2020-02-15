@@ -15,12 +15,12 @@ f1.keywords:
 description: Hier erfahren Sie, wie Sie die PowerShell-Steuerelemente für die Verwaltung von Microsoft Teams verwenden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d22eb0b14d25bec57949bb804e8bb8098ee33510
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836955"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035357"
 ---
 # <a name="teams-powershell-overview"></a>Übersicht über PowerShell für Microsoft Teams
 
@@ -30,7 +30,7 @@ Microsoft Teams verfügt über eine umfangreiche Reihe von Tools für IT-Adminis
 
 Die PowerShell-Steuerelemente für die Verwaltung von Teams sind in zwei verschiedenen PowerShell-Modulen zu finden: 
 - [Microsoft Teams PowerShell-Modul](https://www.powershellgallery.com/packages/MicrosoftTeams/) : Das PowerShell-Modul von Teams enthält alle Cmdlets, die Sie zum Erstellen und Verwalten von Teams benötigen.  
-- [Skype for Business PowerShell-Modul](https://www.microsoft.com/en-us/download/details.aspx?id=39366): das Skype for Business PowerShell-Modul enthält die Cmdlets zum Verwalten von Richtlinien, Konfigurationen und anderen Tools für Teams. 
+- [Skype for Business PowerShell-Modul](https://www.microsoft.com/download/details.aspx?id=39366): das Skype for Business PowerShell-Modul enthält die Cmdlets zum Verwalten von Richtlinien, Konfigurationen und anderen Tools für Teams. 
 
 In der Referenzdokumentation zu den PowerShell-Steuerelementen erfahren Sie, welches Modul das Cmdlet enthält, das Sie untersuchen. (Schließlich werden die beiden Module kombiniert.)
 
@@ -79,7 +79,7 @@ Als wir unsere allgemein verfügbare Version unseres PowerShell-Moduls veröffen
 
 ## <a name="managing-policies-via-powershell"></a>Verwalten von Richtlinien über PowerShell
 
-Die Cmdlets für die Verwaltung von Richtlinien sind im [Skype for Business-Cmdlet-Modul](https://www.microsoft.com/en-us/download/details.aspx?id=39366)zu finden.
+Die Cmdlets für die Verwaltung von Richtlinien sind im [Skype for Business-Cmdlet-Modul](https://www.microsoft.com/download/details.aspx?id=39366)zu finden.
 
 > [!NOTE]
 > Die Cmdlets sind in ihrer PowerShell-Sitzung verfügbar, nachdem Sie eine Verbindung mit Skype for Business Online hergestellt haben. Weitere Informationen finden Sie unter [Verwalten von Skype for Business Online mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
@@ -111,7 +111,7 @@ Allgemeine Parameter:
 
 ## <a name="managing-configurations-via-powershell"></a>Verwalten von Konfigurationen über PowerShell
 
-Die Cmdlets für die Verwaltung Ihrer Konfiguration sind im [Skype for Business-Cmdlet-Modul](https://www.microsoft.com/en-us/download/details.aspx?id=39366)zu finden.
+Die Cmdlets für die Verwaltung Ihrer Konfiguration sind im [Skype for Business-Cmdlet-Modul](https://www.microsoft.com/download/details.aspx?id=39366)zu finden.
 
 Konfigurationen sind Buckets von Einstellungen, die im Dienst verwaltet werden und nicht auf Benutzerebene angegeben werden können. Einstellungen gelten immer für die gesamte Organisation. Ihre globale Konfiguration ist die einzige effektive Konfiguration in Ihrer Organisation. Jeder Konfigurationstyp enthält zwei primäre Cmdlets:
 

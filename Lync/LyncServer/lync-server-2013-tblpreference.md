@@ -12,20 +12,20 @@ ms:contentKeyID: 48185913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cd45dcbd6ade83d6c4404346e1752c1f78254e1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3976cb18336477c00a901116a125149b8c67ddeb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764161"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042332"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblpreference-in-lync-server-2013"></a>tblPreference in Lync Server 2013
+# <a name="tblpreference-in-lync-server-2013"></a>tblPreference in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764161"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-24_
+_**Letztes Änderungsstand des Themas:** 2012-09-24_
 
-tblPreference enthält die Clienteinstellungen des Benutzers. Diese wird in der Regel von Clients vor lync 2013 verwendet.
+tblPreference enthält die Clienteinstellungen der Benutzer. Dies wird in der Regel von Clients vor lync 2013 verwendet.
 
 ### <a name="columns"></a>Spalten
 
@@ -57,29 +57,29 @@ tblPreference enthält die Clienteinstellungen des Benutzers. Diese wird in der 
 <tbody>
 <tr class="odd">
 <td><p>prefLabel</p></td>
-<td><p>nvarchar (255); nicht NULL</p></td>
-<td><p>Label mit einem Format wie: &lt;User SIP URI&gt;| username. &lt;Einstellungssatz&gt;</p></td>
+<td><p>nvarchar (255), nicht NULL</p></td>
+<td><p>Bezeichnungsfeld mit einem Format &lt;wie: User&gt;SIP URI | username. &lt;Voreinstellungsgruppe&gt;.</p></td>
 </tr>
 <tr class="even">
 <td><p>prefSeqID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Eine sequenzielle Zahl (pro Etikett) für die Versionsverwaltung</p></td>
+<td><p>Eine fortlaufende Zahl (pro Bezeichnung) für die Versionsverwaltung.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prefContent</p></td>
 <td><p>nvarchar (max)</p></td>
-<td><p>Codierter Inhalt.</p></td>
+<td><p>Codierte Inhalte.</p></td>
 </tr>
 <tr class="even">
 <td><p>lastModifiedBy</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Die ID des Prinzipals, der die Einstellung aktualisiert hat.</p></td>
+<td><p>ID des Prinzipals, der die Einstellung aktualisiert hat.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Schlüssel
+### <a name="key"></a>Key
 
 <table>
 <colgroup>

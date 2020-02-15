@@ -12,16 +12,16 @@ ms:contentKeyID: 48183471
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2262c490d84ec6f93ff395a9c8ec38d81c82e7de
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56556d209e073be49a6c0eb2aa30461a06930238
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744795"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041962"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,57 +35,57 @@ ms.locfileid: "41744795"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-10_
+_**Letztes Änderungsstand des Themas:** 2012-10-10_
 
-Best Practices Analyzer bietet mehrere Arten von Berichten, die zur Vereinfachung der Analyse und Lösung von Problemen organisiert sind. Best Practices Analyzer identifiziert Probleme wie Fehler, Warnungen und weitere Informationen.
+Best Practices Analyzer bietet verschiedene Berichttypen zur Vereinfachung der Analyse und der Lösung von Problemen. Best Practices Analyzer identifiziert Probleme wie z. B. Fehler, Warnungen und andere Informationen.
 
 <div>
 
 ## <a name="reports"></a>Berichte
 
-Sie können auf die Ergebnisse eines Scans zugreifen, indem Sie die folgenden Berichte anzeigen:
+Sie können auf die Ergebnisse einer Überprüfung zugreifen, indem Sie jeden der folgenden Berichte anzeigen:
 
-  - **Listen Berichte**sind nach bestimmten Kriterien geordnet.    Sie können die Ergebnisse nach Kurs, Schweregrad oder Problem sortieren. Wenn Sie beispielsweise die Ergebnisse nach Kursen organisieren, werden Probleme im Zusammenhang mit Directors im Abschnitt Directors des Berichts berücksichtigt. Sie können alle Probleme oder nur die Informationselemente anzeigen. Sie können einen Listenbericht nach bestimmten Elementen wie Arbeitsspeicher durchsuchen. Sie können den Bericht auch drucken oder exportieren.
+  - **Listen Berichte Listen**Berichte werden nach bestimmten Kriterien sortiert.    Sie können die Ergebnisse nach Klasse, Schweregrad oder Problem anordnen. Wenn Sie die Ergebnisse beispielsweise nach Klasse anordnen, befinden sich Probleme im Zusammenhang mit Directors im Directors-Abschnitt des Berichts. Sie können alle Probleme oder nur die Informationselemente anzeigen. Sie können einen Listenbericht nach bestimmten Elementen wie z. B. Arbeitsspeicher durchsuchen. Sie können den Bericht auch ausdrucken oder exportieren.
 
-  - **Strukturberichte**   Strukturberichte sind nach den Regeln angeordnet, die zum Ausführen der Überprüfung und anderer Optionen, die Sie zum Zeitpunkt der Ausführung des Scans angegeben haben, verwendet werden. So werden beispielsweise Probleme im Zusammenhang mit den Testtopologie-Regeln im Abschnitt Testtopologie des Berichts berücksichtigt. Sie können die Details aller Probleme anzeigen oder nur eine Zusammenfassung der Probleme. Sie können einen Strukturbericht nach bestimmten Elementen wie Arbeitsspeicher durchsuchen. Sie können den Bericht auch drucken oder exportieren.
+  - **Strukturberichte**   Strukturberichte werden nach den Regeln organisiert, die zum Ausführen der Überprüfung und anderen Optionen verwendet werden, die Sie zum Zeitpunkt der Überprüfung angegeben haben. Probleme im Zusammenhang mit Testtopologieregeln befinden sich z. B. im Testtopologie-Abschnitt des Berichts. Sie können Details zu allen Problemen oder nur eine Zusammenfassung der Probleme anzeigen. Sie können einen Strukturbericht nach bestimmten Elementen wie z. B. Arbeitsspeicher durchsuchen. Sie können den Bericht auch ausdrucken oder exportieren.
 
-  - **Andere Berichts**   Elemente in anderen Berichten umfassen das Laufzeitprotokoll der Aufgaben, die in die Überprüfung einbezogen wurden. Sie können die Elemente in anderen Berichten nach bestimmten Elementen wie Arbeitsspeicher durchsuchen. Sie können den Bericht auch drucken oder exportieren.
+  - **Andere Berichts**   Elemente in anderen Berichten enthalten das Laufzeitprotokoll der Aufgaben, die in der Überprüfung enthalten waren. Sie können die Elemente in anderen Berichten nach bestimmten Elementen wie z. B. Arbeitsspeicher durchsuchen. Sie können den Bericht auch ausdrucken oder exportieren.
 
 </div>
 
 <div>
 
-## <a name="issues"></a>Fragen
+## <a name="issues"></a>Probleme
 
-Die von Best Practices Analyzer generierten Berichte zeigen spezifische Probleme an, die während der Überprüfung Ihrer Umgebung identifiziert werden, einschließlich der folgenden Arten von Problemen:
+Die vom Best Practices Analyzer generierten Berichte geben bestimmte Probleme an, die während der Überprüfung Ihrer Umgebung identifiziert wurden, einschließlich folgender Problemtypen:
 
-  - **Fehler**   kritische Probleme, bei denen Sie eine Änderung in Ihrer Umgebung erforderlich machen. Wenn beispielsweise lync Server 2013 Core Components nicht installiert ist, wird ein Fehler protokolliert.
-    
-    Probleme, die als Fehler klassifiziert sind, werden im Bericht mit einem roten X-Symbol gekennzeichnet. Fehler werden auf der Registerkarte **alle Probleme** der Ansicht **Listen Berichte** , auf der Registerkarte **detaillierte Ansicht** und auf der Registerkarte **Zusammenfassung** der Ansicht **Strukturberichte** angezeigt. Wenn Sie keinen bestimmten Fehler in einem Bericht sehen möchten, können Sie angeben, dass der Fehler nicht für eine einzelne Instanz oder für alle Instanzen dieses Fehlers im Bericht angezeigt werden soll. Der Fehler wird dann nur auf der Registerkarte **Ausgeblendete Elemente** der Ansicht **andere Berichte** angezeigt, es sei denn, Sie ändern die Einstellung und geben an, dass der Fehler im Bericht angezeigt werden soll.
+  - **Fehler**   : wichtige Probleme, bei denen Sie eine Änderung in Ihrer Umgebung vornehmen müssen. Wenn beispielsweise lync Server 2013 Kernkomponenten nicht installiert sind, wird ein Fehler protokolliert.
 
-  - **Warnungs**   Probleme, die nicht mit der Implementierung einer bewährten Methode in Einklang stehen. Dies kann darauf hindeuten, dass eine Änderung in Ihrer Umgebung erforderlich ist. Das Problem kann ein bekanntes Problem mit einer bestimmten Einstellung sein, die nicht geändert werden muss. Dienste, die nicht auf einem Server gestartet werden, werden beispielsweise als Warnungen protokolliert.
-    
-    Probleme, die als Warnungen klassifiziert sind, werden im Bericht mit einem dreieckigen gelben Warnsymbol gekennzeichnet. Warnungen werden auf der Registerkarte **alle Probleme** in der **Ansicht Listen Berichte** sowie auf der Registerkarte **detaillierte Ansicht** und auf der Registerkarte **Zusammenfassung** der Ansicht **Strukturberichte** angezeigt. Wenn Sie keinen bestimmten Fehler in einem Bericht sehen möchten, können Sie angeben, dass der Fehler nicht für eine einzelne Instanz oder für alle Instanzen dieses Fehlers im Bericht angezeigt werden soll. Die Warnung wird dann nur auf der Registerkarte **Ausgeblendete Elemente** der Ansicht **andere Berichte** angezeigt, es sei denn, Sie ändern die Einstellung und geben an, dass die Warnung im Bericht angezeigt werden soll.
+    Als Fehler klassifizierte Probleme sind im Bericht mit einem roten X-Symbol gekennzeichnet. Fehler werden auf der Registerkarte **Alle Probleme** in der Ansicht **Listenberichte** und auf den Registerkarten **Detaillierte Ansicht** und **Zusammenfassungsansicht** der Ansicht **Strukturberichte** angezeigt. Wenn Sie in einem Bericht einen bestimmten Fehler nicht anzeigen möchten, können Sie festlegen, dass der Fehler für eine Instanz oder alle Instanzen dieses Fehlers im Bericht nicht angezeigt wird. Der Fehler wird dann nur auf der Registerkarte **Ausgeblendete Elemente** der Ansicht **Andere Berichte** angezeigt, außer Sie ändern die Einstellung und legen fest, dass der Fehler im Bericht angezeigt wird.
 
-  - **Informationen**   umfasst alle Probleme, die nicht als Fehler oder Warnungen klassifiziert sind. Beispielsweise wird die Anzahl der Serverobjekte von lync Server 2013 Standard Edition in den Active Directory-Domänendiensten als Informationsproblem eingestuft.
-    
-    Informationsprobleme werden auf der Registerkarte **alle Probleme** in der Ansicht **Listen Berichte** und auf der Registerkarte **detaillierte Ansicht** der Ansicht **Strukturberichte** angezeigt.
+  - **Warnungen**   Probleme, die nicht mit der Implementierung einer bewährten Methode konsistent sind. Dies kann u. U. die Notwendigkeit einer Änderung in Ihrer Umgebung anzeigen. Bei dem Problem könnte es sich um ein bekanntes Problem mit einer bestimmten Einstellung handeln, die Sie nicht ändern müssen. Auf einem Server nicht gestartete Dienste werden z. B. als Warnungen protokolliert.
 
-Der lync Server 2013, Best Practices Analyzer, nimmt keine Änderungen an Ihrer Umgebung vor, um Probleme zu beheben. Bei der Überprüfung werden nur potenzielle Probleme erkannt, und es werden Berichte bereitgestellt, die Informationen zum Beheben der einzelnen Probleme enthalten.
+    Als Warnungen klassifizierte Probleme sind im Bericht mit einem dreieckigen gelben Warnsymbol gekennzeichnet. Warnungen werden auf der Registerkarte **Alle Probleme** der Ansicht **Listenberichte** sowie auf den Registerkarten **Detaillierte Ansicht** und **Zusammenfassungsansicht** der Ansicht **Strukturberichte** angezeigt. Wenn Sie in einem Bericht einen bestimmten Fehler nicht anzeigen möchten, können Sie festlegen, dass der Fehler für eine Instanz oder alle Instanzen dieses Fehlers im Bericht nicht angezeigt wird. Die Warnung wird dann nur auf der Registerkarte **Ausgeblendete Elemente** der Ansicht **Andere Berichte** angezeigt, außer Sie ändern die Einstellung und legen fest, dass die Warnung im Bericht angezeigt wird.
 
-Wenn Sie auf ein Problem klicken, werden eine Erläuterung und einige Optionen für bestimmte Probleme angezeigt. Anschließend können Sie eine der folgenden Aktionen ausführen:
+  - **Informationen**   umfassen alle Probleme, die nicht als Fehler oder Warnungen klassifiziert sind. Beispielsweise wird die Anzahl der lync Server 2013 Standard Edition-Server-Objekte in Active Directory-Domänendienste als Informationsproblem klassifiziert.
 
-  - Hier finden Sie ausführlichere Informationen zu diesem Problem und Lösungsvorschläge.
+    Informationsprobleme werden auf der Registerkarte **Alle Probleme** der Ansicht **Listenberichte** und der Registerkarte **Detaillierte Ansicht** der Ansicht **Strukturberichte** angezeigt.
 
-  - Beenden der Anzeige von Problemen in Berichten:
-    
-      - Beenden der Anzeige von Problemen für die ausgewählte Instanz
-    
-      - Beenden Sie die Anzeige von Problemen für alle Instanzen dieses Problems.
-    
-    Um die Probleme anzuzeigen, die in Berichten nicht mehr angezeigt werden, wechseln Sie zur Registerkarte **Ausgeblendete Elemente** in der Ansicht **andere Berichte** . Von dort aus können Sie angeben, dass Probleme in Berichten erneut angezeigt werden sollen.
+Das lync Server 2013, Best Practices Analyzer macht keine Änderungen an Ihrer Umgebung, um Probleme zu beheben. Durch die Überprüfung werden lediglich potenzielle Probleme ermittelt und Berichte bereitgestellt, die Informationen zu Lösungen für alle ermittelten Probleme enthalten.
 
-Details zum Beheben bestimmter Probleme finden Sie unter [analysieren und Beheben von Problemen, die von Best Practices Analyzer in lync Server 2013 identifiziert](lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md)werden.
+Wenn Sie auf ein Problem klicken, werden eine Erklärung sowie einige Optionen für bestimmte Probleme angezeigt. Anschließend können Sie eine der folgenden Aktionen ausführen:
+
+  - Ausführlichere Informationen zum Problem sowie zu Lösungen dafür suchen.
+
+  - Das Anzeigen von Problemen in Berichten beenden:
+
+      - Das Anzeigen von Problemen für die ausgewählte Instanz beenden.
+
+      - Das Anzeigen von Problemen für alle Instanzen des Problems beenden.
+
+    Zum Anzeigen der Probleme, die in Berichten nicht mehr angezeigt werden, öffnen Sie die Registerkarte **Ausgeblendete Elemente** der Ansicht **Andere Berichte**. Dort können Sie festlegen, dass Probleme wieder in Berichten angezeigt werden.
+
+Ausführliche Informationen zum Beheben bestimmter Probleme finden Sie unter [analysieren und Beheben von Problemen, die von Best Practices Analyzer in lync Server 2013 identifiziert wurden](lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md).
 
 </div>
 
@@ -98,4 +98,3 @@ Details zum Beheben bestimmter Probleme finden Sie unter [analysieren und Behebe
 </div>
 
 </div>
-

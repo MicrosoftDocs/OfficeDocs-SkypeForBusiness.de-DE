@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Unterstützte Clients für das Parken von Anrufen'
+title: 'Lync Server 2013: für das Parken von Anrufen unterstützte Clients'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52304a0241425a3b88c7f9419afa57f3d768fbb0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee3916e74a68121b027061429bacb44e2dafacdb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756459"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044217"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clients-supported-for-call-park-in-lync-server-2013"></a>Unterstützte Clients für das Parken von Anrufen in Lync Server 2013
+# <a name="clients-supported-for-call-park-in-lync-server-2013"></a>Für das Parken von Anrufen unterstützte Clients in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756459"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-13_
+_**Letztes Änderungsstand des Themas:** 2012-09-13_
 
-In diesem Abschnitt werden die Clients identifiziert, die zum Parken von Anrufen und der Clients verwendet werden können, die zum Abrufen von geparkten Anrufen verwendet werden können.
+In diesem Abschnitt werden Clients aufgeführt, die für das Parken von Anrufen verwendet werden können, sowie Clients, die zum Wiederaufnehmen geparkter Anrufe eingesetzt werden können.
 
 <div>
 
@@ -55,7 +55,7 @@ Anrufe von IP-, Nebenstellen-, Festnetz- oder Mobiltelefonen können geparkt wer
 
 </div>
 
-Die folgenden Clients können den Anruf Park zum Parken von Anrufen verwenden:
+Die folgenden Clients können Anrufe mit dem Parken von Anrufen Parken:
 
   - Lync 2013
 
@@ -69,7 +69,7 @@ Die folgenden Clients können den Anruf Park zum Parken von Anrufen verwenden:
 
 
 > [!NOTE]  
-> Mobiltelefone können den Anruf Park nicht zum Parken von Anrufen verwenden.
+> Mobiltelefone können Anrufe nicht mit dem Parken von Anrufen abstellen.
 
 
 
@@ -85,7 +85,7 @@ Orbitbereiche werden als Blöcke virtueller Durchwahlnummern (Durchwahlnummern, 
 
 Das Wiederaufnehmen geparkter Anrufe durch Partnerbenutzer ist nicht möglich.
 
-Die folgenden Clients können Anrufe abrufen, die im Park des Anrufs abgestellt sind:
+Die folgenden Clients können Anrufe abrufen, die im Parken von Anrufen geparkt sind:
 
   - Lync 2013
 
@@ -97,7 +97,7 @@ Die folgenden Clients können Anrufe abrufen, die im Park des Anrufs abgestellt 
 
   - IP-Telefone in öffentlichen Bereichen
 
-  - Nicht-IP-Telefone, die mit der lync Server 2013-Infrastruktur verbunden sind, einschließlich Telefone im öffentlichen Bereich und Private Branch Exchange (PBX)-Telefone
+  - Nicht-IP-Telefone, die mit der lync Server 2013-Infrastruktur verbunden sind, einschließlich Telefone für gemeinsame Bereiche und PBX-Telefone (Private Branch Exchange)
 
 </div>
 

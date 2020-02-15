@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Routing zwischen Trunks'
+title: 'Lync Server 2013: intertrunk-Routing'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eaa41fe229e9246506fd92eb9f48767994997e4e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23aab6df352b162f7f389ef56fb2300f01654edb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725675"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042322"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="intertrunk-routing-in-lync-server-2013"></a>Routing zwischen Trunks in Lync Server 2013
+# <a name="intertrunk-routing-in-lync-server-2013"></a>Intertrunk-Routing in lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41725675"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-20_
+_**Letztes Änderungsstand des Themas:** 2012-10-20_
 
-Lync Server 2013 kann eine IP-Telefonanlage mit einem PSTN-Gateway (Public Switched Telephone Network) verbinden, damit Anrufe von einem PBX-Telefon an das PSTN weitergeleitet werden können, und eingehende PSTN-Anrufe können an ein PBX-Telefon (Private Branch Exchange) weitergeleitet werden. In ähnlicher Weise kann lync Server 2013 zwei oder mehr IP-PBX-Systeme verbinden, damit Anrufe zwischen PBX-Telefonen von den verschiedenen IP-PBX-Systemen getätigt und empfangen werden können.
+Lync Server 2013 können eine IP-Nebenstellenanlage mit einem PSTN-Gateway (Public Switched Telephone Network) verbinden, sodass Anrufe von einem PBX-Telefon an das PSTN weitergeleitet werden können und eingehende PSTN-Anrufe an ein PBX-Telefon (Private Branch Exchange) weitergeleitet werden können. Auf ähnliche Weise können lync Server 2013 zwei oder mehr IP-PBX-Systeme miteinander verbinden, sodass Anrufe zwischen Nebenstellen Geräten von den verschiedenen IP-PBX-Systemen getätigt und empfangen werden können.
 
-Dieses intertrunk-Routing Feature kann mithilfe des Cmdlets "lync Server-Verwaltungsshell", " **Satz-CsTrunkConfiguration**", mit dem neuen Parameter PstnUsages konfiguriert werden. Dieser Parameter gibt den Satz der zu verwendenden PSTN-Verwendungsdaten Sätze an. Ein trunk verwendet diese PSTN-Nutzung, um eine Route zu ermitteln und alle eingehenden Anrufe entsprechend weiterzuleiten.
+Dieses intertrunk-Routing Feature kann mithilfe des lync Server-Verwaltungsshell-Cmdlets, " **CsTrunkConfiguration**", mit dem neuen Parameter "PstnUsages" konfiguriert werden. Dieser Parameter gibt die Gruppe der zu verwendenden PSTN-Verwendungsdaten Sätze an. Ein trunk verwendet diese PSTN-Verwendung, um eine Route zu bestimmen und alle eingehenden Anrufe entsprechend weiterzuleiten.
 
     Set-CsTrunkConfiguration -Identity <TrunkId> -PstnUsages @{add="<UsageString>"}
 
-Das folgende Diagramm veranschaulicht, wie lync Server 2013 die Zusammenschaltung zwischen einem PSTN-Gateway und einer IP-Telefonanlage bereitstellt.
+Das folgende Diagramm zeigt lync Server 2013 die Bereitstellung von Verbindungen zwischen einem PSTN-Gateway und einer IP-Nebenstellenanlage.
 
-**Intertrunk-Routing zwischen Gateway und IP-PBX**
+**Intertrunk-Routing zwischen Gateway und IP-Nebenstellenanlage**
 
-![Lync Server: Verbinden von PSTN-Gateway/IP-PBX (Diagramm)](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server: Verbinden von PSTN-Gateway/IP-PBX (Diagramm)")
+![Lync Server verbinden des PSTN-Gateways/IP-PBX-Diagramms](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server verbinden des PSTN-Gateways/IP-PBX-Diagramms")
 
-Das folgende Diagramm zeigt die Verbindung zwischen zwei IP-PBX-Systemen durch lync Server 2013.
+Das folgende Diagramm veranschaulicht lync Server 2013 Verbinden von zwei IP-PBX-Systemen.
 
-**Intertrunk-Routing zwischen zwei IP-PBX-Anlagen**
+**Intertrunk-Routing zwischen zwei IP-Nebenstellenanlagen**
 
-![Lync Server: Verbinden von IP-PAX-Systemen (Diagramm)](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server: Verbinden von IP-PAX-Systemen (Diagramm)")
+![Diagramm für lync Server Verbindung zwischen IP-Pax-Systemen](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Diagramm für lync Server Verbindung zwischen IP-Pax-Systemen")
 
 </div>
 

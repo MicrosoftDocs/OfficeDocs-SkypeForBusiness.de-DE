@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9986355905cb40e26182368dec8f53d796432fe
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: faaed56f9b150104fba93683b37b7551b828ce80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837945"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029396"
 ---
 # <a name="skype-for-business-online-retirement"></a>Einstellung von Skype for Business Online
 
@@ -34,7 +34,7 @@ Skype for Business Online wird am 31. Juli 2021 eingestellt, und nach diesem Dat
 
 ## <a name="why-are-we-making-this-announcement-now"></a>Warum machen wir diese Ankündigung jetzt?
 
-In 2017 haben wir Microsoft Teams als "Hub für Teamarbeit" in Microsoft 365 gestartet. Teams kombiniert Chat-, Video-, Anruf-und Dokumenten Zusammenarbeit zu einer einzigen, integrierten APP – und ermöglicht eine völlig neue Arbeitsweise. In den letzten zwei Jahren haben wir eng mit Kunden zusammengearbeitet, um Teams zu verfeinern, und wir sind jetzt davon überzeugt, dass wir es als ein Upgrade für alle Skype for Business Online-Kunden empfehlen können. Kunden, die den Umzug bereits vorgenommen haben, sagen uns, dass Teams Ihnen nicht nur bei der Verbesserung der Zusammenarbeit im allgemeinen geholfen haben, sondern auch eine seltene Gelegenheit zur Überlegung, wie Arbeit in ihren Organisationen erledigt wird. Mithilfe von Teams werden Unternehmen auf der ganzen Welt agiler, verkürzen Zykluszeiten, verbessern die Effizienz wichtiger Workflows und verringern unnötigen Overhead. Teams ist nicht nur ein Upgrade für Skype for Business Online, es ist ein leistungsfähiges Tool, das die Tür zu einer völlig neuen Art der Geschäftstätigkeit öffnet. Aber nehmen Sie nicht unser Wort dafür! Erfahren Sie mehr über die potenziellen Vorteile von Teams für Ihre Organisation mit dem kürzlich veröffentlichten Forrester-Whitepaper "[die gesamtwirtschaftlichen Auswirkungen von Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf)."
+In 2017 haben wir Microsoft Teams als "Hub für Teamarbeit" in Microsoft 365 gestartet. Teams kombiniert Chat-, Video-, Anruf-und Dokumenten Zusammenarbeit zu einer einzigen, integrierten APP – und ermöglicht eine völlig neue Arbeitsweise. In den letzten zwei Jahren haben wir eng mit Kunden zusammengearbeitet, um Teams zu verfeinern, und wir sind jetzt davon überzeugt, dass wir es als ein Upgrade für alle Skype for Business Online-Kunden empfehlen können. Kunden, die den Umzug bereits vorgenommen haben, sagen uns, dass Teams Ihnen nicht nur bei der Verbesserung der Zusammenarbeit im allgemeinen geholfen haben, sondern auch eine seltene Gelegenheit zur Überlegung, wie Arbeit in ihren Organisationen erledigt wird. Mithilfe von Teams werden Unternehmen auf der ganzen Welt agiler, verkürzen Zykluszeiten, verbessern die Effizienz wichtiger Workflows und verringern unnötigen Overhead. Teams ist nicht nur ein Upgrade für Skype for Business Online, es ist ein leistungsfähiges Tool, das die Tür zu einer völlig neuen Art der Geschäftstätigkeit öffnet. Aber nehmen Sie nicht unser Wort dafür! Erfahren Sie mehr über die potenziellen Vorteile von Teams für Ihre Organisation mit dem kürzlich veröffentlichten Forrester-Whitepaper "[die gesamtwirtschaftlichen Auswirkungen von Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf)."
 
 ## <a name="what-is-microsoft-doing-to-help-customers-migrate-to-teams"></a>Was macht Microsoft, um Kunden bei der Migration zu Teams zu unterstützen?
 

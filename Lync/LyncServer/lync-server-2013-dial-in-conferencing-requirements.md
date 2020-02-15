@@ -1,5 +1,5 @@
 ---
-title: Voraussetzungen für Einwahlkonferenzen in lync Server 2013
+title: Lync Server 2013 Anforderungen für Einwahlkonferenzen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184969
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c54e162aeda43730dea471732124023588e9041
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b80ab9db6b565530db211db8aa47e2e00cbd9cf2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762283"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044717"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,37 +35,37 @@ ms.locfileid: "41762283"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-30_
+_**Letztes Änderungsstand des Themas:** 2012-09-30_
 
-Bevor Sie den lync Server 2013-Bereitstellungsprozess starten, müssen Sie Folgendes planen:
+Bevor Sie mit dem lync Server 2013 Bereitstellungsprozess beginnen, müssen Sie Folgendes planen:
 
-  - Die Konfiguration, die zum Herstellen einer Verbindung mit dem öffentlichen Telefonnetz (PSTN) verwendet werden soll
+  - Die für die Verbindung mit dem Telefonfestnetz (Public Switched Telephone Network, PSTN) zu verwendende Konfiguration
 
-  - Ihre Strategie für das Zuweisen von Einwahlkonferenz Regionen zu Einwahl Zugriffsnummern
+  - Ihre Strategie für die Zuweisung von Regionen für Einwahlkonferenzen zu Einwahlnummern
 
-  - Ihre Strategie zum Erstellen von Konferenz Verzeichnissen
+  - Ihre Strategie für die Erstellung von Konferenzverzeichnissen
 
 <div>
 
-## <a name="planning-for-dial-in-pstn-connectivity"></a>Planen der Einwahl PSTN-Konnektivität
+## <a name="planning-for-dial-in-pstn-connectivity"></a>Planen der Einwahl-PSTN-Konnektivität
 
-Für Einwahlkonferenzen ist mindestens ein Vermittlungs Server und mindestens ein PSTN-Gateway erforderlich.
+Einwahlkonferenzen erfordern mindestens eine Vermittlungsserver und mindestens ein PSTN-Gateway.
 
-Sie können einen Vermittlungsserver an einem zentralen Standort oder an einem Zweigstellenstandort bereitstellen. An einem zentralen Standort kann ein Vermittlungsserver in einem Front-End-Pool oder auf einem Standard Edition-Server ausgeführt oder auf einem eigenständigen Server oder in einem eigenständigen Pool bereitgestellt werden. An einem Zweigstellenstandort können Sie einen Vermittlungsserver auf einem eigenständigen Server oder als Komponente der Survivable Branch Appliance bereitstellen.
+Sie können eine Vermittlungsserver an einem zentralen Standort oder an einem Zweigstellenstandort bereitstellen. An einem zentralen Standort können Sie ein Vermittlungsserver auf einem Front-End-Pool oder Standard Edition-Server collocate oder auf einem eigenständigen Server oder Pool bereitstellen. In einem Zweigstellenstandort können Sie eine Vermittlungsserver auf einem eigenständigen Server oder als Komponente des Survivable Branch Appliance bereitstellen.
 
-Sie können ein PSTN-Gateway an einem zentralen Standort oder an einem Zweigstellenstandort bereitstellen. An einem Zweigstellenstandort kann das PSTN-Gateway eigenständig oder als Komponente der Survivable Branch Appliance eingesetzt werden.
+Sie können ein PSTN-Gateway an einem zentralen Standort oder an einem Zweigstellenstandort bereitstellen. An einem Zweigstellenstandort kann das PSTN-Gateway eigenständig oder eine Komponente des Survivable Branch Appliance sein.
 
 <div>
 
 
 > [!NOTE]  
-> Einwahlkonferenzen verwenden keine medienumgehung, da ein/V-Konferenz Server keine medienumgehung unterstützt.
+> Bei Einwahlkonferenzen wird die medienumgehung nicht verwendet, da A/V-Konferenzserver keine medienumgehung unterstützen.
 
 
 
 </div>
 
-Ausführliche Informationen zum Planen Ihrer Konfiguration für den Vermittlungsserver und für PSTN-Gateways für Einwahlkonferenzen finden Sie unter [Komponenten und Topologien für den Vermittlungsserver in lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) in der Planungsdokumentation.
+Ausführliche Informationen zum Planen der Konfiguration für Vermittlungsserver-und PSTN-Gateways für Einwahlkonferenzen finden Sie unter [Components and Topologies for Vermittlungsserver in lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) in der Planungsdokumentation.
 
 </div>
 
@@ -73,13 +73,13 @@ Ausführliche Informationen zum Planen Ihrer Konfiguration für den Vermittlungs
 
 <div>
 
-## <a name="planning-for-dial-in-conferencing-regions"></a>Planen von Einwahlkonferenz Regionen
+## <a name="planning-for-dial-in-conferencing-regions"></a>Planen von Regionen für Einwahlkonferenzen
 
-Während der Einwahl Konfiguration erstellen Sie Wählpläne und Zugriffsnummern für Einwahlkonferenzen. Wählpläne sind Sätze von Normalisierungsregeln, die die Anzahl und das Muster von Ziffern in einer Telefonnummer angeben und die Telefonnummer in das standardmäßige E. 164-Format für das Anrufrouting übersetzen. Zugriffsnummern für Einwahlkonferenzen sind die Nummern, die Benutzer zur Teilnahme an Konferenzen wählen.
+Während der Einwahlkonfiguration erstellen Sie Wähleinstellungen und Zugriffsnummern für Einwahlkonferenzen. Wähleinstellungen sind Sätze von Normalisierungsregeln, in welchen die Anzahl und das Muster von Ziffern in einer Telefonnummern festgelegt wird und die die Telefonnummer in das Standard-E.164-Format zur Anrufweiterleitung übersetzen. Zugriffsnummern für Einwahlkonferenzen sind die Nummern, die Benutzer zur Teilnahme an Konferenzen wählen.
 
-Jede Zugriffsnummer für Einwahlkonferenzen muss mindestens einem Satz mit Wähleinstellungen zugeordnet sein. In den Regionen für Einwahlkonferenzen wird eine Zugriffsnummer für Einwahlkonferenzen mit ihren Wählplänen verknüpft. Wenn Sie einen Wählplan einrichten, geben Sie den Bereich für Einwahlkonferenzen an, der für die Wähleinstellungen gilt. Wenn Sie anschließend die Zugriffsnummern für Einwahlkonferenzen erstellen, wählen Sie die Regionen aus, welche die Zugriffsnummern den geeigneten Wähleinstellungen zuordnen.
+Jede Zugriffsnummer für Einwahlkonferenzen muss mindestens einem Satz mit Wähleinstellungen zugeordnet sein. Regionen für Einwahlkonferenzen ordnen eine Zugriffsnummer für Einwahlkonferenzen den entsprechenden Wähleinstellungen zu. Wenn Sie einen Satz mit Wähleinstellungen einrichten, geben Sie die Region für Einwahlkonferenzen an, die für diese Wähleinstellungen gilt. Wenn Sie anschließend die Zugriffsnummern für Einwahlkonferenzen erstellen, wählen Sie die Regionen aus, welche die Zugriffsnummern den geeigneten Wähleinstellungen zuordnen.
 
-Wenn Sie einen Wählplan erstellen, geben Sie den Bereich des Wählplans an: Benutzerbereich, Poolbereich oder Website Bereich. Jedem Benutzer werden die Wähleinstellungen aus dem am engsten gefassten Gültigkeitsbereich zugeordnet, der für den Benutzer gilt. Beispielsweise werden dem Benutzer Wähleinstellungen auf Benutzerebene zugewiesen, falls solche gelten. Gelten keine Wähleinstellungen auf Benutzerebene, werden dem Benutzer Wähleinstellungen auf Poolebene zugewiesen. Gelten keine Wähleinstellungen auf Poolebene, werden dem Benutzer Wähleinstellungen auf Standortebene zugewiesen. Gelten keine Wähleinstellungen auf Standortebene, werden dem Benutzer die globalen Wähleinstellungen zugewiesen.
+Beim Erstellen von Wähleinstellungen geben Sie den Gültigkeitsbereich der Wähleinstellungen an: Benutzer, Pool oder Standort. Jedem Benutzer werden die Wähleinstellungen aus dem am engsten gefassten Gültigkeitsbereich zugeordnet, der für den Benutzer gilt. Beispielsweise werden dem Benutzer Wähleinstellungen auf Benutzerebene zugewiesen, falls solche gelten. Gelten keine Wähleinstellungen auf Benutzerebene, werden dem Benutzer Wähleinstellungen auf Poolebene zugewiesen. Gelten keine Wähleinstellungen auf Poolebene, werden dem Benutzer Wähleinstellungen auf Standortebene zugewiesen. Gelten keine Wähleinstellungen auf Standortebene, werden dem Benutzer die globalen Wähleinstellungen zugewiesen.
 
 Bevor Sie die Wähleinstellungen konfigurieren, ist es wichtig zu planen, wie die Regionen benannt und verwendet werden sollen. Für die Regionen von Einwahlkonferenzen gelten folgende Überlegungen:
 
@@ -89,13 +89,13 @@ Bevor Sie die Wähleinstellungen konfigurieren, ist es wichtig zu planen, wie di
 
   - Wenn ein Benutzer eine Besprechung plant, wird für die Besprechung standardmäßig die Region verwendet, die durch die Wähleinstellungen des Benutzers festgelegt ist.
 
-  - Standardmäßig sind alle Einwahl Zugriffsnummern für den Bereich in der Besprechungseinladung enthalten.
+  - Standardmäßig sind in der Besprechungseinladung alle Einwahlnummern für die Region enthalten.
 
-  - Regionen müssen unbedingt so benannt werden, dass sie klar erkennbar sind. Der Benutzer kann anhand der Regionsnamen die Region einer Besprechung ändern, damit in der Einladung andere Zugriffsnummern enthalten sind. (Wenn Benutzer Outlook zum Planen einer Besprechung verwenden, verwendet der Benutzer das Online Besprechungs-Add-in für lync 2013, um den Bereich zu ändern).
+  - Regionen müssen unbedingt so benannt werden, dass sie klar erkennbar sind. Der Benutzer kann anhand der Regionsnamen die Region einer Besprechung ändern, damit in der Einladung andere Zugriffsnummern enthalten sind. (Wenn Benutzer Outlook verwenden, um eine Besprechung zu planen, verwendet der Benutzer das Online-Besprechungs-Add-in für lync 2013, um die Region zu ändern).
 
   - Regionen sollten so konzipiert werden, dass jedem eingeladenen Benutzer, der sich in eine Konferenz einwählen möchte, eine lokale Zugriffsnummer in der Konferenzeinladung angezeigt wird.
 
-  - Sie können die Reihenfolge konfigurieren, in der Zugriffsnummern in einem Bereich auf der Seite Einstellungen für Einwahlkonferenzen angezeigt werden (und daher die Reihenfolge, in der Sie in der Konferenzeinladung angezeigt werden), mithilfe der lync Server-Verwaltungsshell-Cmdlets.
+  - Sie können die Reihenfolge konfigurieren, in der Zugriffsnummern in einem Bereich in der Seite "Einstellungen für Einwahlkonferenzen" (und daher in der Reihenfolge, in der Sie in der Konferenzeinladung angezeigt werden) mithilfe von lync Server-Verwaltungsshell-Cmdlets angezeigt werden.
 
   - Jeder Benutzer kann an jedem beliebigen Standort eine beliebige Einwahlnummer wählen, um an einer Konferenz teilzunehmen.
 
@@ -103,13 +103,13 @@ Bevor Sie die Wähleinstellungen konfigurieren, ist es wichtig zu planen, wie di
 
 <div>
 
-## <a name="planning-for-conference-directories"></a>Planen von Konferenz Verzeichnissen
+## <a name="planning-for-conference-directories"></a>Planen von Konferenzverzeichnissen
 
 Konferenzverzeichnisse verwalten eine Zuordnung zwischen der alphanumerischen Besprechungs-ID, die ein Teilnehmer für die Teilnahme an einer Konferenz bei Verwendung von lync 2013 verwendet, und der numerischen Konferenz-ID, die ein Teilnehmer für Einwahlkonferenzen verwendet, um an der Konferenz teilzunehmen. Das Format der Konferenz-ID lautet folgendermaßen:
 
     <housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
 
-Indem mehrere Konferenzverzeichnisse erstellt werden, wird sichergestellt, dass Konferenz-IDs kurz bleiben, solange keine sehr große Anzahl Konferenzen erstellt wurde. Um etwa sechsstellige Konferenz-IDs zu erhalten, wird in einer Organisation mit einer typischen Konferenzanzahl pro Benutzer empfohlen, pro 999 Benutzer im Pool je ein Konferenzverzeichnis zu erstellen. Mit dieser Richtlinie können die Konferenz-IDs in der Regel klein gehalten werden. Sobald die Anzahl der Konferenzverzeichnisse (in den Pools) 9 übersteigt, wird die Konferenz-ID-Nummer jedoch größer, um zusätzliche Konferenzen zu unterstützen.
+Indem mehrere Konferenzverzeichnisse erstellt werden, wird sichergestellt, dass Konferenz-IDs kurz bleiben, solange keine sehr große Anzahl Konferenzen erstellt wurde. Um etwa sechsstellige Konferenz-IDs zu erhalten, wird in einer Organisation mit einer typischen Konferenzanzahl pro Benutzer empfohlen, pro 999 Benutzer im Pool je ein Konferenzverzeichnis zu erstellen. Wenn diese Richtlinie eingehalten wird, bleiben die Konferenz-IDs in der Regel kurz. Sobald die Anzahl der Konferenzverzeichnisse (in den Pools) neun übersteigt, wird die Konferenz-ID-Nummer jedoch größer, um zusätzliche Konferenzen zu unterstützen.
 
 </div>
 

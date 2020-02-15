@@ -12,20 +12,20 @@ ms:contentKeyID: 48184536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6651c9cb15322498d68fa9b6cd705b68dc601c6d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4c2cb64b3ca2d8e7d0c520e1d8ff4ee896895e13
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740835"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043417"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-remote-call-control-in-lync-server-2013"></a>Bereitstellen der Remoteanrufsteuerung in Lync Server 2013
+# <a name="deploying-remote-call-control-in-lync-server-2013"></a>Bereitstellen der Remoteanrufsteuerung in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41740835"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-20_
+_**Letztes Änderungsstand des Themas:** 2012-10-20_
 
-Dieser Abschnitt führt Sie durch den Prozess der Bereitstellung von Funktionen für die Remoteanrufsteuerung für Benutzer in Ihrer Organisation.
+In diesem Abschnitt werden Sie durch die Schritte zur Bereitstellung der Remoteanrufsteuerung für Benutzer in Ihrer Organisation geleitet.
 
 <div>
 
 
 > [!NOTE]  
-> Obwohl Remote-Anrufsteuerungsfeatures für Remotebenutzer verfügbar sind, während Sie sich außerhalb der Firewall Ihrer Organisation befinden, gehen Details zum Bereitstellen von externen Zugriffsszenarien nicht in diesen Dokumentationsbereich ein. Details zum Bereitstellen des Zugriffs externer Benutzer finden Sie unter <A href="lync-server-2013-deploying-external-user-access.md">Bereitstellen des Zugriffs auf externe Benutzer in lync Server 2013</A> in der Bereitstellungsdokumentation.
+> Wenngleich Remoteanrufsteuerungs-Funktionen für Remotebenutzer verfügbar sind, die sich außerhalb der Firewall Ihrer Organisation befinden, können im Rahmen dieser Dokumentation keine Einzelheiten zu Szenarien mit Zugriff durch externe Benutzer bereitgestellt werden. Ausführliche Informationen zum Bereitstellen des Zugriffs durch externe Benutzer finden Sie unter <A href="lync-server-2013-deploying-external-user-access.md">Deploying External User Access in lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 
 
@@ -53,17 +53,17 @@ Dieser Abschnitt führt Sie durch den Prozess der Bereitstellung von Funktionen 
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Konfigurieren von Lync Server 2013 für das Routing an ein SIP/CSTA-Gateway](lync-server-2013-configuring-lync-server-to-route-to-a-sip-csta-gateway.md)
+  - [Konfigurieren lync Server 2013 für die Weiterleitung an ein SIP/CSTA-Gateway](lync-server-2013-configuring-lync-server-to-route-to-a-sip-csta-gateway.md)
 
-  - [Konfigurieren einer statischen Route für die Remoteanrufsteuerung in Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)
+  - [Konfigurieren einer statischen Route für die Remoteanrufsteuerung in lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)
 
-  - [Konfigurieren eines Eintrags einer vertrauenswürdigen Anwendung für die Remoteanrufsteuerung in Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
+  - [Konfigurieren eines Eintrags einer vertrauenswürdigen Anwendung für die Remoteanrufsteuerung in lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
 
-  - [Definieren einer SIP/CSTA-Gateway-IP-Adresse in lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md) (nur, wenn das Gateway für die Verwendung von TCP konfiguriert ist)
+  - [Definieren einer IP-Adresse für SIP/CSTA-Gateways in lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md) (nur, wenn das Gateway für die Verwendung von TCP konfiguriert ist)
 
-  - [Aktivieren von Lync-Benutzern für die Remoteanrufsteuerung in Lync Server 2013](lync-server-2013-enable-lync-users-for-remote-call-control.md)
+  - [Aktivieren von lync-Benutzern für die Remoteanrufsteuerung in lync Server 2013](lync-server-2013-enable-lync-users-for-remote-call-control.md)
 
-  - [Remoteanrufsteuerung und Normalisieren von Rufnummern in Lync Server 2013](lync-server-2013-remote-call-control-and-phone-number-normalization.md)
+  - [Remote Anrufsteuerung und Telefonnummernnormalisierung in lync Server 2013](lync-server-2013-remote-call-control-and-phone-number-normalization.md)
 
   - [Entfernen eines autorisierten Legacyhosts in lync Server 2013 (optional)](lync-server-2013-remove-a-legacy-authorized-host-optional.md) (nur, wenn Sie Benutzer migrieren, die zuvor für die Remoteanrufsteuerung aktiviert wurden)
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184373
 ms.date: 06/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d224ec7a9c452c45f9f3471403301460a2a31cc8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d0e8fe5aaac47ce98cfae1376e83cdea89a4a1af
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740795"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043337"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-unified-contact-store-in-lync-server-2013"></a>Bereitstellen des einheitlichen Kontaktspeichers in Lync Server 2013
+# <a name="deploying-unified-contact-store-in-lync-server-2013"></a>Bereitstellen des einheitlichen Kontaktspeichers in lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41740795"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2016-06-06_
+_**Letztes Änderungsstand des Themas:** 2016-06-06_
 
-Für die Aktivierung des Unified Contact Stores in lync Server 2013 sind keine topologieeinstellungen erforderlich. Für die Aktivierung des Unified Contact Store für Benutzer ist Folgendes erforderlich:
+Für die Aktivierung des einheitlichen Kontaktspeichers in lync Server 2013 müssen keine topologieeinstellungen vorgenommen werden. Wenn Sie den Kontaktspeicher für Benutzer aktivieren möchten, müssen Sie die folgenden Punkte sicherstellen:
 
   - Die Richtlinie für den einheitlichen Kontaktspeicher muss aktiviert sein (was in der Standardeinstellung der Fall ist).
 
   - Benutzer melden sich mindestens einmal mit lync 2013 an.
 
-Nachdem die Kontakte eines Benutzers migriert wurden, was automatisch geschieht, wenn sich ein Benutzer mit lync 2013 anmeldet, kann der Benutzer über lync 2013, Outlook 2013 oder Outlook Web Access auf seine lync-Kontakte zugreifen und diese verwalten. Der Benutzer muss nicht bei lync angemeldet sein, um seine Kontakte aus Outlook oder Outlook Web Access zu verwalten.
+Nachdem die Kontakte eines Benutzers migriert wurden, was automatisch geschieht, wenn sich ein Benutzer mit lync 2013 anmeldet, kann der Benutzer über lync 2013, Outlook 2013 oder Outlook Web Access auf seine lync-Kontakte zugreifen und diese verwalten. Der Benutzer muss nicht bei lync angemeldet sein, um seine Kontakte in Outlook oder Outlook Web Access verwalten zu können.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Wenn ein Benutzer sich nach der Migration von lync 2010 anmeldet, sind Kontakte und Gruppen verfügbar und auf dem neuesten Stand, aber der Benutzer kann diese Kontakte nicht verwalten (das heißt, Sie können diese Kontakte hinzufügen, löschen, verschieben, markieren, Markierung oder ändern).
+> Wenn sich ein Benutzer von lync 2010 nach der Migration anmeldet, sind Kontakte und Gruppen verfügbar und auf dem neuesten Stand, aber der Benutzer kann diese Kontakte nicht verwalten (also hinzufügen, löschen, verlagern, markieren, Markierung oder ändern).
 
 
 
@@ -59,11 +59,11 @@ Nachdem die Kontakte eines Benutzers migriert wurden, was automatisch geschieht,
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Aktivieren von Benutzern für den einheitlichen Kontaktspeicher in Lync Server 2013](lync-server-2013-enable-users-for-unified-contact-store.md)
+  - [Aktivieren von Benutzern für den einheitlichen Kontaktspeicher in lync Server 2013](lync-server-2013-enable-users-for-unified-contact-store.md)
 
-  - [Migrieren von Benutzern zum einheitlichen Kontaktspeicher in Lync Server 2013](lync-server-2013-migrate-users-to-unified-contact-store.md)
+  - [Migrieren von Benutzern zu einem einheitlichen Kontaktspeicher in lync Server 2013](lync-server-2013-migrate-users-to-unified-contact-store.md)
 
-  - [Zurücksetzen von migrierten Benutzern in Lync Server 2013](lync-server-2013-roll-back-migrated-users.md)
+  - [Wiederherstellen migrierter Benutzer in lync Server 2013](lync-server-2013-roll-back-migrated-users.md)
 
 </div>
 

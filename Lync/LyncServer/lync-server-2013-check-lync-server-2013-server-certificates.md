@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Überprüfen der lync Server 2013-Serverzertifikate'
+title: 'Lync Server 2013: Überprüfen der lync Server 2013-Server Zertifikate'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969620
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af0a80df18a4fc6e27200d1ac04476fcea798b9b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ebdbfdc4ed0f88d78fc78037a3522c73bd220270
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733995"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043507"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="check-lync-server-2013-server-certificates"></a>Überprüfen der lync Server 2013-Serverzertifikate
+# <a name="check-lync-server-2013-server-certificates"></a>Überprüfen lync Server 2013 Server Zertifikaten
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41733995"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-11-01_
+_**Letztes Änderungsstand des Themas:** 2014-11-01_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-11-01_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Get-CsCertificate verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Get-CsCertificate verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Get-CsCertificate&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,31 +66,31 @@ _**Letztes Änderungsdatum des Themas:** 2014-11-01_
 
 ## <a name="description"></a>Beschreibung
 
-Mit dem Cmdlet Get-CsCertificate können Sie Informationen zu jedem ihrer lync Server-Zertifikate abrufen. Dies ist besonders wichtig, da Zertifikate ein integriertes Ablaufdatum aufweisen. So verfallen in der Regel privat ausgestellte Zertifikate nach 12 Monaten. Wenn eines ihrer lync Server-Zertifikate abläuft, gehen die zugehörigen Funktionen verloren, bis das Zertifikat erneuert oder ersetzt wurde.
+Mit dem Cmdlet Get-CsCertificate können Sie Informationen zu jedem ihrer lync Server Zertifikate abrufen. Dies ist besonders wichtig, da Zertifikate ein integriertes Ablaufdatum aufweisen. Beispielsweise laufen privat ausgestellte Zertifikate in der Regel nach 12 Monaten ab. Wenn eines ihrer lync Server Zertifikate abläuft, verlieren Sie die zugehörige Funktionalität, bis das Zertifikat erneuert oder ersetzt wird.
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Wenn Sie Informationen zu den einzelnen lync Server-Zertifikaten zurückgeben möchten, führen Sie einfach den folgenden Befehl aus:
+Wenn Sie Informationen zu den einzelnen lync Server Zertifikaten zurückgeben möchten, führen Sie den folgenden Befehl aus:
 
 `Get-CsCertificate`
 
-Alternativ können Sie die Rückgabe Zertifikatinformationen auf Grundlage des Ablaufdatums filtern. Mit diesem Befehl werden beispielsweise die zurückgegebenen Daten auf Zertifikate begrenzt, die ablaufen (können nach) 1. Juni 2014 nicht verwendet werden:
+Sie können auch die Informationen zum Rückgabe Zertifikat basierend auf dem Ablaufdatum filtern. Beispielsweise schränkt dieser Befehl die zurückgegebenen Daten auf Zertifikate ein, die ablaufen (können nicht verwendet werden nach) Juni 1, 2014:
 
 `Get-CsCertificate | Where-Object {$_.NotAfter -lt "6/1/2014"}`
 
-Weitere Informationen finden Sie in der Hilfedokumentation für das Cmdlet Get-CsCertificate.
+Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet Get-CsCertificate.
 
-Beachten Sie, dass das Cmdlet Test-CsCertificateConfiguration zwar vorhanden ist, aber für Administratoren nicht sehr hilfreich ist. (Stattdessen wird dieses Cmdlet in erster Linie vom Zertifikat-Assistenten verwendet.) Obwohl das Cmdlet funktioniert, sind die zurückgegebenen Informationen von minimalem Wert, wie im folgenden Ausgabebeispiel gezeigt:
+Beachten Sie, dass das Cmdlet Test-CsCertificateConfiguration zwar vorhanden ist, für Administratoren jedoch nicht besonders hilfreich ist. (Stattdessen wird das Cmdlet in erster Linie vom Zertifikat-Assistenten verwendet.) Obwohl das Cmdlet funktioniert, sind die zurückgegebenen Informationen von Minimalwert, wie im folgenden Ausgabebeispiel gezeigt:
 
-Fingerabdruck Verwendung
+Verwendung des Fingerabdrucks
 
 \---------- ---
 
-A9D51A2911C74FABFF7F2A8A994B20857D399107-Standard
+A9D51A2911C74FABFF7F2A8A994B20857D399107 Standard
 
 </div>
 
@@ -98,13 +98,13 @@ A9D51A2911C74FABFF7F2A8A994B20857D399107-Standard
 
 ## <a name="reviewing-the-output"></a>Überprüfen der Ausgabe
 
-Das Cmdlet "Get-CsCertificate" gibt für jedes Ihrer lync Server-Zertifikate Informationen ähnlich der folgenden zurück:
+Das Cmdlet Get-CsCertificate gibt für jedes Ihrer lync Server-Zertifikate Informationen zurück, die den folgenden ähneln:
 
-Emittent: CN = FabrikamCA
+Aussteller: CN = FabrikamCA
 
 NotAfter: 12/28/2015 3:35:41 Uhr
 
-NotBefore: 1/2/2014 12:49:37 pm
+NotBefore: 1/2/2014 12:49:37 Uhr
 
 Seriennummer: 611BB01200000000000C
 
@@ -114,37 +114,37 @@ AlternativeNames: {SIP.fabrikam.com, LYNC-SE.fabrikam.com,
 
 Meet.fabrikam.com, admin.fabrikam.com...}
 
-Daumenabdruck: A9D51A2911C74FABFF7F2A8A994B20857D399107
+Fingerabdruck: A9D51A2911C74FABFF7F2A8A994B20857D399107
 
 Verwendung: Standard
 
-In der Regel beziehen sich die wichtigsten Probleme im Zusammenhang mit lync Server-Zertifikaten auf Datums-und Uhrzeitangaben, beispielsweise wenn Zertifikate wirksam werden (NotBefore) oder wenn Sie ablaufen (NotAfter). Da diese Datums-und Uhrzeitangaben so wichtig sind, möchten Sie möglicherweise die zurückgegebenen Daten auf Informationen wie die Zertifikatverwendung, die Seriennummer des Zertifikats und das Ablaufdatum des Zertifikats einschränken. Anschließend können Sie alle Zertifikate schnell überprüfen und ablaufen. Wenn Sie nur diese Informationen zurückgeben möchten, verwenden Sie den Befehl zusammen mit den folgenden Optionen:
+In der Regel beinhalten die häufigsten Probleme bei lync Server Zertifikaten Daten und Uhrzeiten, beispielsweise wenn Zertifikate wirksam werden (NotBefore) oder wenn Sie ablaufen (NotAfter). Da diese Datums-und Uhrzeitangaben so wichtig sind, können Sie die zurückgegebenen Daten auf Informationen wie die Verwendung des Zertifikats, die Seriennummer des Zertifikats und das Ablaufdatum des Zertifikats beschränken. Anschließend können Sie schnell alle Zertifikate überprüfen und ablaufen. Um nur diese Informationen zurückzugeben, verwenden Sie den Befehl zusammen mit den Optionen wie dargestellt:
 
 `Get-CsCertificate | Select-Object Use, SerialNumber, NotAfter | Sort-Object NotAfter`
 
 Dieser Befehl gibt Daten ähnlich der folgenden zurück, wobei die Zertifikate in der Reihenfolgeihres Ablaufdatums sortiert sind:
 
-Verwenden von Seriennummer NotAfter
+Seriennummer NotAfter verwenden
 
 \--- ------------ --------
 
-Standard 611BB01200000000000C 12/28/2015 3:35:41 pm
+Standard 611BB01200000000000C 12/28/2015 3:35:41 Uhr
 
-WebServicesInteral 32980AA20BBB20000191 02/15/2016 2:16:12 pm
+WebServicesInteral 32980AA20BBB20000191 02/15/2016 2:16:12 Uhr
 
-WebServicesExternal 0451B012003872651A0C 02/20/2016 7:11:58 Uhr
+"Webservicesexternal" 0451B012003872651A0C 02/20/2016 7:11:58 Uhr
 
-Wenn Sie Probleme mit dem Zertifikat haben, empfiehlt es sich, die für ein Zertifikat konfigurierte AlternativeNames zu überprüfen. Auf den ersten Blick scheint das ein Problem zu sein. In Abhängigkeit von der Größe des Konsolenfensters können von Get-CsCertificate möglicherweise nicht alle Namen angezeigt werden:
+Wenn Sie über Zertifikatprobleme verfügen, sollten Sie die für ein Zertifikat konfigurierten AlternativeNames möglicherweise überprüfen. Auf den ersten Blick scheint dies ein Problem zu sein. In Abhängigkeit von der Größe des Konsolenfensters kann Get-CsCertificate standardmäßig nicht alle Namen anzeigen:
 
 AlternativeNames: {SIP.fabrikam.com, LYNC.fabrikam.com,
 
 Meet.fabrikam.com, admin. Fabrika...}
 
-Wenn Sie alle alternativen Namen anzeigen möchten, die einem Zertifikat zugewiesen sind, verwenden Sie einen Befehl ähnlich dem folgenden:
+Wenn Sie alle alternativen Namen anzeigen möchten, die einem Zertifikat zugewiesen sind, verwenden Sie einen Befehl wie den folgenden:
 
 `Get-CsCertificate | Where-Object {$_.SerialNumber -eq "611BB01200000000000C"} | Select-Object -ExpandProperty AlternativeNames`
 
-Damit sollten alle alternativen Namen auf dem Zertifikat angezeigt werden:
+Dadurch sollten alle alternativen Namen im Zertifikat angezeigt werden:
 
 sip.fabrikam.com
 

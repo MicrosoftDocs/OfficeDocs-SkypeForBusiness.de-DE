@@ -20,16 +20,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Erfahren Sie mehr über Add-on-Lizenzen, Features und Anleitungen zum Kauf von Office 365 Enterprise E1-und E3-Plänen. '
-ms.openlocfilehash: 2e547c23115f43dcc54a7f4bb99190116200f319
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 18a15c59b93fa0f426c780028b0029dd909abb2a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826543"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029366"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1- und E3
 
-Wenn Sie bereits den [Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software) -oder [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software) -Plan erworben haben, finden Sie hier die Add-on-Lizenzen, die Sie erwerben müssen, um weitere Microsoft Teams-Funktionen zu erhalten.
+Wenn Sie bereits den [Office 365 Enterprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software) -oder [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) -Plan erworben haben, finden Sie hier die Add-on-Lizenzen, die Sie erwerben müssen, um weitere Microsoft Teams-Funktionen zu erhalten.
 
 |Zum Hinzufügen dieser Funktion ...|Sie müssen Folgendes tun|
 |:------------------|:--------------------------|

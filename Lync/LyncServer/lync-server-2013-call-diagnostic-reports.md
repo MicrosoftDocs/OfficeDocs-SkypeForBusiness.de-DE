@@ -12,16 +12,16 @@ ms:contentKeyID: 48184794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41100a6cc41c38b3d32870d530f99d8c919a2e83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2cd121aa0f93a6fca92293d926c89bf1527931cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743095"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044497"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41743095"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-21_
+_**Letztes Änderungsstand des Themas:** 2012-10-21_
 
-Die Anrufdiagnoseberichte enthalten zusammenfassende Informationen und Diagnosedaten für nicht erfolgreich ausgeführte Peer-to-Peer-Sitzungen und Konferenzsitzungen.
+Die Anrufdiagnoseberichte enthalten zusammenfassende Informationen und Diagnosedaten für nicht erfolgreich ausgeführte Peer-zu-Peer-Sitzungen und Konferenzsitzungen.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Bericht zur Anruf Diagnose Zusammenfassung in lync Server 2013](lync-server-2013-call-diagnostic-summary-report.md)   bietet eine Gesamtübersicht über fehlgeschlagene Peer-to-Peer-Sitzungen und Konferenzsitzungen. Peer-to-Peer-Sitzungen sind Sitzungen mit nur zwei Teilnehmern. Bei Konferenzsitzungen nehmen mindestens drei Teilnehmer teil.
+  - [Zusammenfassender Anruf Diagnosebericht in lync Server 2013](lync-server-2013-call-diagnostic-summary-report.md)   enthält eine Gesamtübersicht über fehlerhafte Peer-to-Peer-Sitzungen und Konferenzsitzungen. Peer-zu-Peer-Sitzungen sind Sitzungen mit nur zwei Teilnehmern. Bei Konferenzsitzungen nehmen mindestens drei Teilnehmer teil.
 
-  - [Der Peer-to-Peer-Aktivitäts Diagnosebericht in lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)   bietet eine allgemeine trendansicht für fehlerhafte Peer-to-Peer-Sitzungen. Bei einer Peer-to-Peer-Sitzung sind nur zwei Teilnehmer beteiligt.
+  - [Der Diagnosebericht über Peer-to-Peer-Aktivitäten in lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)   bietet eine allgemeine trendansicht der fehlgeschlagenen Peer-to-Peer-Sitzungen. Bei einer Peer-zu-Peer-Sitzung sind nur zwei Teilnehmer beteiligt.
 
   - [Der Konferenz Diagnosebericht in lync Server 2013](lync-server-2013-conference-diagnostic-report.md)   bietet eine allgemeine trendansicht von fehlgeschlagenen Konferenzsitzungen und Trend Ansichten für jede Konferenz Modalität. Bei Konferenzsitzungen sind mindestens drei Teilnehmer beteiligt.
 
-  - [Der Bericht "Top-Fehler" in lync Server 2013](lync-server-2013-top-failures-report.md)   bietet eine Liste der häufigsten Fehler und deren Trends im Laufe der Zeit.
+  - [Top Failures Report in lync Server 2013](lync-server-2013-top-failures-report.md)   enthält eine Liste der häufigsten Fehler und deren Trends im Laufe der Zeit.
 
-  - [Fehler Verteilungs Bericht in lync Server 2013](lync-server-2013-failure-distribution-report.md)   bietet eine Analyse fehlerhafter Sitzungen.
+  - [Fehler Verteilungs Bericht in lync Server 2013](lync-server-2013-failure-distribution-report.md)   enthält eine Analyse der fehlerhaften Sitzungen.
 
   - [Fehlerlistenbericht in lync Server 2013](lync-server-2013-failure-list-report.md)   enthält detaillierte Informationen zu den einzelnen Teilnehmern, die an einer fehlgeschlagenen Konferenz beteiligt sind.
 

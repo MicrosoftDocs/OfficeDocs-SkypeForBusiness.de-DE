@@ -12,16 +12,16 @@ ms:contentKeyID: 51541499
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cee1c4571dafa4e513f42613de13205ecec9de42
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bbe142d697fc3d95772fb2d4ca758b8550054a8e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735257"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42042522"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,127 +35,127 @@ ms.locfileid: "41735257"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-17_
+_**Letztes Änderungsstand des Themas:** 2013-02-17_
 
-Das Erstellen eines Sicherungs-und Wiederherstellungsplans umfasst die folgenden Schritte:
+Das Erstellen eines Sicherungs- und Wiederherstellungsplans beinhaltet die folgenden Schritte:
 
-  - Entwickeln des Plans
+  - Entwickeln des Plans.
 
-  - Implementieren des Plans
+  - Implementieren des Plans.
 
-  - Den Plan pflegen.
+  - Verwalten des Plans.
 
 <div>
 
-## <a name="developing-a-backup-and-restoration-plan"></a>Entwickeln eines Sicherungs-und Wiederherstellungsplans
+## <a name="developing-a-backup-and-restoration-plan"></a>Entwickeln eines Sicherungs- und Wiederherstellungsplans
 
-Nachdem Sie Ihre Sicherungs-und Wiederherstellungsstrategie für lync Server entwickelt haben, verwenden Sie diese, um einen detaillierten Sicherungs-und Wiederherstellungsplan zu dokumentieren. In Ihrem Plan sollten die Prioritäten und Anforderungen für das Sichern von Daten und Einstellungen eindeutig vermittelt werden. Sie können die Informationen beim [Einrichten einer Sicherungs-und Wiederherstellungsstrategie für lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-strategy.md) und der Arbeitsblätter in [Arbeitsblättern für die Sicherung und Wiederherstellung für lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md) verwenden, um die Dokumentation Ihrer Strategie zu vereinfachen. Ihr Plan sollte auch Kriterien für die Entscheidung enthalten, wann und wie der Dienst wiederhergestellt werden soll.
+Nachdem Sie die Sicherungs-und Wiederherstellungsstrategie für lync Server entwickelt haben, verwenden Sie diese, um einen detaillierten Sicherungs-und Wiederherstellungsplan zu dokumentieren. In diesem Plan sollten die Prioritäten und Anforderungen zum Sichern von Daten und Einstellungen eindeutig festgehalten sein. Sie können die Informationen unter [Einrichten einer Sicherungs-und Wiederherstellungsstrategie für lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-strategy.md) und der Arbeitsblätter in [Sicherungs-und Wiederherstellungs Arbeitsblättern für lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md) verwenden, um die Dokumentation Ihrer Strategie zu vereinfachen. Ihr Plan sollte außerdem Kriterien enthalten, wann und wie die Serverbereitschaft wiederhergestellt werden soll.
 
-Wenn Sie Ihren Plan entwickeln, müssen Sie Folgendes berücksichtigen:
+Während Sie Ihren Plan entwickeln, müssen Sie Folgendes berücksichtigen und berücksichtigen:
 
-  - So können Sie Server auf neuer Hardware wiederherstellen.
+  - Wie Server auf neuer Hardware wiederhergestellt werden
 
-  - Hier erfahren Sie, wie Sie Dienste wiederherstellen, für die ein Tätigwerden mehrerer Geschäftsbereiche oder Abteilungen erforderlich ist.
+  - Wie Dienste wiederhergestellt werden, an denen mehrere Unternehmensbereiche oder Abteilungen involviert sind
 
-  - So können Sie Ersatzserver schnell erwerben.
+  - Wie Ersatzserver schnell beschafft werden können
 
-  - Die Zeit, die für die Wiederherstellung mithilfe ihrer Strategie benötigt wird. Bedenken Sie die Anforderungen Ihrer Organisation an Recovery Time Objective (RTO).
+  - Den Zeitaufwand für die Wiederherstellung mithilfe Ihrer Strategie Überprüfen Sie die Anforderungen Ihrer Organisation an die RTO (Recovery Time Objective).
 
-Ändern Sie die Sicherungs-und Wiederherstellungsverfahren in diesem Thema, indem Sie die erforderlichen Schritte hinzufügen und löschen, um die Server und Komponenten in Ihrer Bereitstellung wiederzugeben. Sie können auch geeignete Details wie den Sicherungszeitplan zu den entsprechenden Verfahren hinzufügen, um sicherzustellen, dass die Informationen nicht übersehen werden.
+Ändern Sie die Sicherungs-und Wiederherstellungsverfahren in diesem Thema, indem Sie Verfahren entsprechend hinzufügen und löschen, um die Server und Komponenten in Ihrer Bereitstellung widerzuspiegeln. Sie können den entsprechenden Verfahren auch entsprechende Details wie den Sicherungszeitplan hinzufügen, um sicherzustellen, dass die Informationen nicht außer acht lassen.
 
 <div>
 
 
 > [!NOTE]  
-> Es empfiehlt sich, Skripts für so viele Schritte wie möglich zu erstellen, um die Qualität und Reproduzierbarkeit der Verfahren zu gewährleisten.
+> Es empfiehlt sich, Skripts für so viele Schritte wie möglich zu erstellen, um die Qualität und Reproduzierbarkeit von Verfahren sicherzustellen.
 
 
 
 </div>
 
-Geben Sie in Ihrem Plan an, wer für die Überprüfung des Plans verantwortlich ist, wer für das Testen und Überprüfen neuer Verfahren oder Tools verantwortlich ist und wer alle Änderungen am Plan und den zugehörigen Verfahren genehmigen muss.
+Geben Sie in Ihrem Plan an, wer für die Überprüfung des Plans zuständig ist, wer für das Testen und validieren neuer Verfahren oder Tools zuständig ist und welche Änderungen am Plan und den dazugehörigen Verfahren genehmigt werden müssen.
 
-Wenn Sie sicherstellen möchten, dass Ihr Sicherungs-und Wiederherstellungsplan alle festgelegten Ziele und Prioritäten in vollem Umfang erfüllt, besorgen Sie sich die Genehmigung der zuständigen Entscheidungsträger und technischen Entscheidungsträger in Ihrer Organisation, bevor Sie den Plan implementieren.
+Um sicherzustellen, dass Ihr Sicherungs-und Wiederherstellungsplan alle festgelegten Ziele und Prioritäten vollständig erfüllt, müssen Sie vor der Implementierung des Plans die Genehmigung der entsprechenden geschäftlichen Entscheidungsträger und technischen Entscheidungsträger in Ihrer Organisation einholen.
 
 </div>
 
 <div>
 
-## <a name="implementing-the-backup-and-restoration-plan"></a>Implementieren des Sicherungs-und Wiederherstellungsplans
+## <a name="implementing-the-backup-and-restoration-plan"></a>Implementieren des Sicherungs- und Wiederherstellungsplans
 
-Für die Implementierung eines Sicherungs-und Wiederherstellungsplans sind die folgenden Schritte erforderlich:
+Die Implementierung eines Sicherungs-und Wiederherstellungsplans erfordert die folgenden Schritte:
 
-  - Testen und Überprüfen des Plans
+  - Testen und Überprüfen des Plans.
 
-  - Den Plan kommunizieren.
+  - Kommunizieren des Plans.
 
-  - Überprüfen von Sicherungs-und Wiederherstellungsvorgängen
+  - Überprüfen der Sicherungs-und Wiederherstellungsvorgänge
 
 <div>
 
 ## <a name="testing-and-validating-the-plan"></a>Testen und Überprüfen des Plans
 
-Die hier beschriebenen Verfahren wurden in einer Lab-Umgebung getestet und validiert. Wenn Sie sicherstellen möchten, dass diese oder andere Verfahren in Ihrer Umgebung funktionieren, sollten Sie jede Prozedur testen und überprüfen, die Sie implementieren möchten. Führen Sie die Tests und die Validierung durch, bevor Sie Ihren Plan zur endgültigen Genehmigung übermitteln.
+Die hier beschriebenen Verfahren wurden in einer Testumgebung getestet und validiert. Um sicherzustellen, dass diese oder andere Verfahren in Ihrer Umgebung funktionieren, sollten Sie die einzelnen Verfahren testen und validieren, die Sie implementieren möchten. Schließen Sie die Tests und die Überprüfung ab, bevor Sie Ihren Plan zur endgültigen Genehmigung übermitteln.
 
 </div>
 
 <div>
 
-## <a name="communicating-the-plan"></a>Kommunizieren des Plans
+## <a name="communicating-the-plan"></a>Vermitteln des Plans
 
-In Ihrem Sicherungs-und Wiederherstellungsplan sollte klar beschrieben werden, wer Prozeduren und schrittweise Anleitungen zum Durchführen der Verfahren implementiert. Sie sollten sicherstellen, dass jeder, der für einen Aspekt der Sicherung und Wiederherstellung verantwortlich ist, den Plan, die Art der Implementierung und deren Rolle versteht. Dazu gehören alle Implementierungsanforderungen für Folgendes:
+In Ihrem Sicherungs- und Wiederherstellungsplan sollten die Personen, die Verfahren implementieren, sowie die schrittweisen Anleitungen zum Ausführen der Verfahren eindeutig beschrieben sein. Sie sollten sicherstellen, dass jeder, der für alle Aspekte der Sicherung und Wiederherstellung verantwortlich ist, den Plan, die Implementierung und die Rolle des Plans versteht. Dies beinhaltet alle Implementierungsanforderungen für Folgendes:
 
-  - Pool-und Serversicherung
+  - Pool-und Serversicherung.
 
   - Wiederherstellung des Diensts.
 
-**Pool-und Serversicherung**
+**Pool- und Serversicherung**
 
-Der Sicherungs-und Wiederherstellungsplan sollte alle Informationen umfassen, die erforderlich sind, um Sicherungsverfahren kontinuierlich abzuschließen. Die primären Informationen, die den Verantwortlichen Teammitgliedern mitgeteilt werden, umfassen Folgendes:
+Der Sicherungs- und Wiederherstellungsplan sollte alle erforderlichen Informationen beinhalten, um Sicherungsverfahren fortlaufend auszuführen. Dies sind die wichtigsten Informationen, welche die zuständigen Teammitglieder benötigen:
 
-  - Team oder Person (als Einzelperson oder Rolle angegeben), die für die Sicherung der einzelnen Server verantwortlich ist.
+  - Team oder Person (als Person oder Rolle angegeben), die für die Sicherung der einzelnen Server verantwortlich ist.
 
-  - Spezifische Zeitpläne zum Sichern der einzelnen Server.
+  - Bestimmte Zeitpläne für die Sicherung der einzelnen Server.
 
-  - Sicherungsspeicherorte für die einzelnen Datentypen (Einstellungen, Datenbank und Dateifreigaben).
+  - Sicherungsspeicherorte für die einzelnen Datentypen (Einstellungen, Datenbanken und Dateifreigaben).
 
-  - Zu verwendende Sicherungsverfahren, einschließlich der Tools, die für die Ausführung der einzelnen Verfahren erforderlich sind.
+  - Zu verwendende Sicherungsverfahren, einschließlich der Tools, die zum Abschließen der einzelnen Verfahren erforderlich sind.
 
-  - Informationen, die erforderlich sind, um Sicherungen abzuschließen, wie in den [Arbeitsblättern für die Sicherung und Wiederherstellung für lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)behandelt.
+  - Informationen, die zum Abschließen von Sicherungen erforderlich sind, wie in [Sicherungs-und Wiederherstellungs Arbeitsblättern für lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)behandelt.
 
-  - Überprüfungsmethoden, die verwendet werden, um sicherzustellen, dass Daten und Einstellungen entsprechend gesichert und für die Wiederherstellung verfügbar sind, die regelmäßige Überprüfungen und Testwiederherstellungen enthalten können.
+  - Validierungsmethoden, die verwendet werden, um sicherzustellen, dass Daten und Einstellungen ordnungsgemäß gesichert und für die Wiederherstellung verfügbar sind, die regelmäßige Überprüfungen und Testwiederherstellungen umfassen kann.
 
-**Wiederherstellung des Diensts**
+**Wiederherstellung der Serverbereitschaft**
 
-Der Sicherungs-und Wiederherstellungsplan sollte alle zum Wiederherstellen des Diensts erforderlichen Informationen enthalten, falls auf einem oder mehreren Servern ein Verlust auftritt, der den Dienst nicht verfügbar macht. Die primären Informationen, die den Verantwortlichen Teammitgliedern mitgeteilt werden, umfassen Folgendes:
+Der Sicherungs-und Wiederherstellungsplan sollte alle Informationen enthalten, die zum Wiederherstellen des Diensts erforderlich sind, für den Fall, dass ein oder mehrere Server einen Verlust erfahren, der den Dienst nicht verfügbar machen kann. Dies sind die wichtigsten Informationen, welche die zuständigen Teammitglieder benötigen:
 
-  - Team oder Person (als Einzelperson oder Rolle angegeben), die für die Bestimmung der Notwendigkeit der Wiederherstellung des Diensts sowie der für die Wiederherstellung des Diensts zu verwendenden Verfahren sowie für das Team oder die Person verantwortlich ist, die für die Implementierung der jeweiligen Verfahren verantwortlich ist Wiederherstellungsszenario
+  - Das Team oder die Person (Angabe als Einzelperson oder Rolle), das bzw. die entscheidet, wann die Serverbereitschaft wiederhergestellt werden muss und welche Verfahren dabei verwendet werden. Außerdem das Team oder die Person, das bzw. die für das Implementieren der Verfahren für jedes Wiederherstellungsszenario zuständig ist.
 
-  - Kriterien zum ermitteln, welche Wiederherstellungsverfahren für eine bestimmte Situation am besten geeignet sind.
+  - Kriterien, um die für eine bestimmte Situation geeignetsten Wiederherstellungsverfahren zu bestimmen.
 
   - Zeitschätzungen für die Wiederherstellung des Dienst-und Wiederherstellungszeit Ziels (RTO) in jedem Wiederherstellungsszenario.
 
-  - Zu verwendende Wiederherstellungsverfahren, einschließlich der Tools, die für die Ausführung der einzelnen Verfahren erforderlich sind.
+  - Zu verwendende Wiederherstellungsverfahren, einschließlich der erforderlichen Tools zum Ausführen der einzelnen Verfahren.
 
-  - Informationen, die zum Wiederherstellen von Daten und Einstellungen erforderlich sind. Arbeitsblätter werden in [Arbeitsblättern zur Sicherung und Wiederherstellung für lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)bereitgestellt.
+  - Erforderliche Informationen zum Wiederherstellen von Daten und Einstellungen. Arbeitsblätter werden in [Sicherungs-und Wiederherstellungs Arbeitsblättern für lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)bereitgestellt.
 
 </div>
 
 <div>
 
-## <a name="validating-backup-and-restoration-operations"></a>Überprüfen von Sicherungs-und Wiederherstellungsvorgängen
+## <a name="validating-backup-and-restoration-operations"></a>Überprüfen der Sicherungs- und Wiederherstellungsvorgänge
 
-Nachdem Sie die anfänglichen Sicherungsbemühungen in Ihrer Produktionsumgebung und in bestimmten Intervallen abgeschlossen haben (wie in Ihrem Sicherungs-und Wiederherstellungsplan beschrieben), sollten Sie Folgendes überprüfen:
+Nach Abschluss der ersten Sicherungsschritte in Ihrer Produktionsumgebung und in den angegebenen Intervallen (gemäß Sicherungs- und Wiederherstellungsplan) sollten Sie Folgendes überprüfen:
 
-  - Backups erfolgen nach Bedarf.
+  - Sicherungen erfolgen bedarfsgemäß.
 
   - Auf gesicherte Daten und Einstellungen kann zugegriffen werden.
 
-  - Wiederherstellungsverfahren können innerhalb der im Sicherungs-und Wiederherstellungsplan angegebenen RTO-Zeiten (Recovery Time Objective) ausgeführt werden, und die Ergebnisse erfüllen alle Geschäftsanforderungen.
+  - Wiederherstellungsverfahren können innerhalb der im Sicherungs-und Wiederherstellungsplan angegebenen RTO-Zeiten (Recovery Time Object) durchgeführt werden, und die Ergebnisse erfüllen alle geschäftlichen Anforderungen.
 
-  - Backup-Arbeitsblätter wurden abgeschlossen und überprüft, und Sie werden an einem sicheren Ort gespeichert. Diese Arbeitsblätter werden in [Arbeitsblättern zur Sicherung und Wiederherstellung für lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)bereitgestellt.
+  - Sicherungsarbeitsblätter wurden ausgefüllt und geprüft und sind an einem sicheren Speicherort gespeichert. Diese Arbeitsblätter werden in [Sicherungs-und Wiederherstellungs Arbeitsblättern für lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)bereitgestellt.
 
-  - Wiederherstellungsverfahren wurden getestet und überprüft, wie in Ihrem Sicherungs-und Wiederherstellungsplan angegeben, wie erwartet funktioniert.
+  - Wiederherstellungsverfahren wurden getestet und geprüft, um sicherzustellen, dass sie gemäß Sicherungs- und Wiederherstellungsplan ausgeführt werden.
 
 </div>
 
@@ -163,9 +163,9 @@ Nachdem Sie die anfänglichen Sicherungsbemühungen in Ihrer Produktionsumgebung
 
 <div>
 
-## <a name="maintaining-the-backup-and-restoration-plan"></a>Verwalten des Sicherungs-und Wiederherstellungsplans
+## <a name="maintaining-the-backup-and-restoration-plan"></a>Verwalten des Sicherungs- und Wiederherstellungsplans
 
-Eine lync Server-Topologie ist eine dynamische Umgebung, die sich in Ihrer Organisation ändert. Überprüfen Sie den Sicherungs-und Wiederherstellungsplan, während sich die Organisation ändert, und überprüfen Sie ihn regelmäßig, um sicherzustellen, dass er weiterhin den Anforderungen Ihres Unternehmens entspricht.
+Eine lync Server Topologie ist eine dynamische Umgebung, die sich in Ihrer Organisation ändert. Überprüfen Sie den Sicherungs-und Wiederherstellungsplan, wenn sich Ihre Organisation ändert, und überprüfen Sie ihn regelmäßig, um sicherzustellen, dass er weiterhin den Anforderungen Ihres Unternehmens entspricht.
 
 </div>
 

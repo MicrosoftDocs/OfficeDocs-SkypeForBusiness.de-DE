@@ -12,20 +12,20 @@ ms:contentKeyID: 48185564
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9056753e57f57b131a05d13eb2862611ba34f966
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dfad0cf4b8b863cd19d4d4113241477de1a50aaf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729935"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043927"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="changes-made-by-grant-csoupermission-in-lync-server-2013"></a>Von Grant-CsOUPermission in lync Server 2013 vorgenommene Änderungen
+# <a name="changes-made-by-grant-csoupermission-in-lync-server-2013"></a>Von Grant-CsOUPermission vorgenommene Änderungen in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729935"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-20_
+_**Letztes Änderungsstand des Themas:** 2012-06-20_
 
-Wenn Sie die Verwaltung von lync Server 2013 delegieren möchten, können Sie den angegebenen Organisationseinheiten Berechtigungen hinzufügen, sodass Mitglieder der von der Gesamtstrukturvorbereitung erstellten RTC universelle Gruppen auf die OUs zugreifen können, ohne Mitglieder der Gruppe der Domänenadministratoren zu sein.
+Um lync Server 2013 Verwaltung zu delegieren, können Sie Berechtigungen zu bestimmten Organisationseinheiten (Organizational Units, OUs) hinzufügen, sodass Mitglieder der von der Gesamtstrukturvorbereitung erstellten RTC-universellen Gruppen auf die OUs zugreifen können, ohne Mitglieder der Gruppe "Domänen-Admins" zu sein.
 
-Das Cmdlet **Grant-CsOuPermission** gewährt den Objekten in der angegebenen OU Berechtigungen, wie in den folgenden Tabellen angegeben.
+Mit dem **Grant-CsOuPermission**-Cmdlet werden Objekten in der angegebenen Organisationseinheit Berechtigungen gemäß der folgenden Tabellen erteilt.
 
 <div>
 
-## <a name="granting-permission-for-user-objects"></a>Erteilen der Berechtigung für Benutzerobjekte
+## <a name="granting-permission-for-user-objects"></a>Erteilen von Berechtigungen für User-Objekte
 
-Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Benutzerobjekte in einer OU ausführen, werden Gruppen Berechtigungen gewährt, wie in der folgenden Tabelle dargestellt.
+Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Benutzerobjekte in einer Organisationseinheit ausführen, werden Gruppen Berechtigungen erteilt, wie in der folgenden Tabelle dargestellt.
 
-### <a name="permissions-granted-for-user-objects"></a>Für Benutzerobjekte gewährte Berechtigungen
+### <a name="permissions-granted-for-user-objects"></a>Für User-Objekte erteilte Berechtigungen
 
 <table>
 <colgroup>
@@ -57,49 +57,49 @@ Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Benutzerobjekte in einer OU a
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gruppe</th>
-<th>Berechtigungs</th>
-<th>Gilt für</th>
+<th>Group</th>
+<th>Berechtigung</th>
+<th>Geltungsbereich</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>RTCHSUniversalServices</p></td>
-<td><p>Replizieren von Verzeichnisänderungen</p></td>
+<td><p>Verzeichnisänderungen replizieren</p></td>
 <td><p>Nur dieses Objekt</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalServerReadOnlyGroup</p></td>
-<td><p>Listeninhalt</p>
+<td><p>Inhalt auflisten</p>
 <p>Alle Eigenschaften lesen</p>
 <p>Leseberechtigungen</p></td>
 <td><p>Nur dieses Objekt</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserReadOnlyGroup hinzugefügt</p></td>
-<td><p>Listeninhalt</p>
+<td><p>Inhalt auflisten</p>
 <p>Alle Eigenschaften lesen</p>
 <p>Leseberechtigungen</p></td>
 <td><p>Nur dieses Objekt</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserReadOnlyGroup hinzugefügt</p></td>
-<td><p>Lesen von RTCUserSearchPropertySet</p>
-<p>Lesen von RTCUserProvisioningPropertySet</p>
-<p>Lesen von RTCPropertySet</p>
-<p>Lesen öffentlicher Informationen</p>
-<p>Allgemeine Informationen lesen</p>
-<p>Lesen von Benutzerkonto Einschränkungen</p></td>
-<td><p>Nachfolger Benutzerobjekte</p></td>
+<td><p>Read RTCUserSearchPropertySet</p>
+<p>Read RTCUserProvisioningPropertySet</p>
+<p>Read RTCPropertySet</p>
+<p>Read Public-Information</p>
+<p>Read General-Information</p>
+<p>Read User-Account-Restrictions</p></td>
+<td><p>Untergeordnete User-Objekte</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Schreiben von RTCUserSearchPropertySet</p>
-<p>Schreiben von msExchUCVoiceMailSettings</p>
-<p>Schreiben von RTCUserProvisioningPropertySet</p>
-<p>Schreiben von RTCPropertySet</p>
-<p>Schreiben von proxyAddresses</p></td>
-<td><p>Nachfolger Benutzerobjekte</p></td>
+<td><p>Write RTCUserSearchPropertySet</p>
+<p>Write msExchUCVoiceMailSettings</p>
+<p>Write RTCUserProvisioningPropertySet</p>
+<p>Write RTCPropertySet</p>
+<p>Write proxyAddresses</p></td>
+<td><p>Untergeordnete User-Objekte</p></td>
 </tr>
 </tbody>
 </table>
@@ -109,11 +109,11 @@ Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Benutzerobjekte in einer OU a
 
 <div>
 
-## <a name="granting-permission-for-computer-objects"></a>Erteilen der Berechtigung für Computer Objekte
+## <a name="granting-permission-for-computer-objects"></a>Erteilen von Berechtigungen für Computer-Objekte
 
-Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Computer Objekte in einer OU ausführen, werden Gruppen Berechtigungen gewährt, wie in der folgenden Tabelle dargestellt.
+Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Computer Objekte in einer Organisationseinheit ausführen, werden Gruppen Berechtigungen erteilt, wie in der folgenden Tabelle dargestellt.
 
-### <a name="permissions-granted-for-computer-objects"></a>Für Computer Objekte gewährte Berechtigungen
+### <a name="permissions-granted-for-computer-objects"></a>Für Computer-Objekte erteilte Berechtigungen
 
 <table>
 <colgroup>
@@ -123,42 +123,42 @@ Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Computer Objekte in einer OU 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gruppe</th>
-<th>Berechtigungs</th>
-<th>Gilt für</th>
+<th>Group</th>
+<th>Berechtigung</th>
+<th>Geltungsbereich</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>RTCHSUniversalServices</p></td>
-<td><p>Replizieren von Verzeichnisänderungen</p></td>
+<td><p>Verzeichnisänderungen replizieren</p></td>
 <td><p>Nur dieses Objekt</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalServerReadOnlyGroup</p></td>
-<td><p>Listeninhalt</p>
+<td><p>Inhalt auflisten</p>
 <p>Alle Eigenschaften lesen</p>
 <p>Leseberechtigungen</p></td>
 <td><p>Nur dieses Objekt</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserReadOnlyGroup hinzugefügt</p></td>
-<td><p>Listeninhalt</p>
+<td><p>Inhalt auflisten</p>
 <p>Alle Eigenschaften lesen</p>
 <p>Leseberechtigungen</p></td>
 <td><p>Nur dieses Objekt</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserReadOnlyGroup hinzugefügt</p></td>
-<td><p>Lesen öffentlicher Informationen</p>
-<p>Read validiert-DNS-Host-Name</p></td>
-<td><p>Nachfolger Computer Objekte</p></td>
+<td><p>Read Public-Information</p>
+<p>Read Validated-DNS-Host-Name</p></td>
+<td><p>Untergeordnete Computer-Objekte</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Lesen öffentlicher Informationen</p>
-<p>Read validiert-DNS-Host-Name</p></td>
-<td><p>Nachfolger Computer Objekte</p></td>
+<td><p>Read Public-Information</p>
+<p>Read Validated-DNS-Host-Name</p></td>
+<td><p>Untergeordnete Computer-Objekte</p></td>
 </tr>
 </tbody>
 </table>
@@ -168,11 +168,11 @@ Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Computer Objekte in einer OU 
 
 <div>
 
-## <a name="granting-permission-for-contact-or-appcontact-objects"></a>Erteilen der Berechtigung für Kontakt-oder AppContact-Objekte
+## <a name="granting-permission-for-contact-or-appcontact-objects"></a>Erteilen von Berechtigungen für Contact oder AppContact-Objekte
 
-Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Contact-Objekte oder AppContact-Objekte in einer OU ausführen, werden Gruppen Berechtigungen gewährt, wie in der folgenden Tabelle dargestellt.
+Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Contact-Objekte oder AppContact-Objekte in einer Organisationseinheit ausführen, werden Gruppen Berechtigungen erteilt, wie in der folgenden Tabelle dargestellt.
 
-### <a name="permissions-granted-for-contact-or-appcontact-objects"></a>Für Contact-oder AppContact-Objekte gewährte Berechtigungen
+### <a name="permissions-granted-for-contact-or-appcontact-objects"></a>Für Contact- oder AppContact-Objekte erteilte Berechtigungen
 
 <table>
 <colgroup>
@@ -182,54 +182,54 @@ Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Contact-Objekte oder AppConta
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gruppe</th>
-<th>Berechtigungs</th>
-<th>Gilt für</th>
+<th>Group</th>
+<th>Berechtigung</th>
+<th>Geltungsbereich</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>RTCHSUniversalServices</p></td>
-<td><p>Replizieren von Verzeichnisänderungen</p></td>
+<td><p>Verzeichnisänderungen replizieren</p></td>
 <td><p>Nur dieses Objekt</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalServerReadOnlyGroup</p></td>
-<td><p>Listeninhalt</p>
+<td><p>Inhalt auflisten</p>
 <p>Alle Eigenschaften lesen</p>
 <p>Leseberechtigungen</p></td>
 <td><p>Nur dieses Objekt</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserReadOnlyGroup hinzugefügt</p></td>
-<td><p>Listeninhalt</p>
+<td><p>Inhalt auflisten</p>
 <p>Alle Eigenschaften lesen</p>
 <p>Leseberechtigungen</p></td>
 <td><p>Nur dieses Objekt</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserReadOnlyGroup hinzugefügt</p></td>
-<td><p>Lesen von RTCUserSearchPropertySet</p>
-<p>Lesen von RTCUserProvisioningPropertySet</p>
-<p>Lesen von RTCPropertySet</p>
-<p>Lesen öffentlicher Informationen</p>
-<p>Allgemeine Informationen lesen</p>
-<p>Lesen persönlicher Informationen</p>
-<p>Lesen von Benutzerkonto Einschränkungen</p></td>
-<td><p>Nachfolger-Kontaktobjekte</p></td>
+<td><p>Read RTCUserSearchPropertySet</p>
+<p>Read RTCUserProvisioningPropertySet</p>
+<p>Read RTCPropertySet</p>
+<p>Read Public-Information</p>
+<p>Read General-Information</p>
+<p>Read Personal-Information</p>
+<p>Read User-Account-Restrictions</p></td>
+<td><p>Untergeordnete Contact-Objekte</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Schreiben von RTCUserSearchPropertySet</p>
-<p>Schreiben von otherIpPhone</p>
-<p>Schreiben von DisplayName</p>
-<p>Beschreibung schreiben</p>
-<p>Schreiben von telephoneNumber</p>
-<p>Schreiben von msExchUCVoiceMailSettings</p>
-<p>Schreiben von RTCUserProvisioningPropertySet</p>
-<p>Schreiben von RTCPropertySet</p>
-<p>Schreiben von proxyAddresses</p></td>
-<td><p>Nachfolger-Kontaktobjekte</p></td>
+<td><p>Write RTCUserSearchPropertySet</p>
+<p>Write otherIpPhone</p>
+<p>Write displayName</p>
+<p>Write description</p>
+<p>Write telephoneNumber</p>
+<p>Write msExchUCVoiceMailSettings</p>
+<p>Write RTCUserProvisioningPropertySet</p>
+<p>Write RTCPropertySet</p>
+<p>Write proxyAddresses</p></td>
+<td><p>Untergeordnete Contact-Objekte</p></td>
 </tr>
 </tbody>
 </table>
@@ -239,11 +239,11 @@ Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Contact-Objekte oder AppConta
 
 <div>
 
-## <a name="granting-permission-for-device-objects"></a>Erteilen der Berechtigung für Geräteobjekte
+## <a name="granting-permission-for-device-objects"></a>Erteilen von Berechtigungen für Device-Objekte
 
-Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Geräteobjekte in einer OU ausführen, werden Gruppen Berechtigungen gewährt, wie in der folgenden Tabelle dargestellt.
+Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Device-Objekte in einer Organisationseinheit ausführen, werden Gruppen Berechtigungen erteilt, wie in der folgenden Tabelle dargestellt.
 
-### <a name="permissions-granted-for-device-objects"></a>Für Geräteobjekte gewährte Berechtigungen
+### <a name="permissions-granted-for-device-objects"></a>Für Device-Objekte erteilte Berechtigungen
 
 <table>
 <colgroup>
@@ -253,68 +253,68 @@ Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Geräteobjekte in einer OU au
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gruppe</th>
-<th>Berechtigungs</th>
-<th>Gilt für</th>
+<th>Group</th>
+<th>Berechtigung</th>
+<th>Geltungsbereich</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>RTCHSUniversalServices</p></td>
-<td><p>Replizieren von Verzeichnisänderungen</p></td>
+<td><p>Verzeichnisänderungen replizieren</p></td>
 <td><p>Nur dieses Objekt</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalServerReadOnlyGroup</p></td>
-<td><p>Listeninhalt</p>
+<td><p>Inhalt auflisten</p>
 <p>Alle Eigenschaften lesen</p>
 <p>Leseberechtigungen</p></td>
 <td><p>Nur dieses Objekt</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserReadOnlyGroup hinzugefügt</p></td>
-<td><p>Listeninhalt</p>
+<td><p>Inhalt auflisten</p>
 <p>Alle Eigenschaften lesen</p>
 <p>Leseberechtigungen</p></td>
 <td><p>Nur dieses Objekt</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserReadOnlyGroup hinzugefügt</p></td>
-<td><p>Lesen von RTCUserSearchPropertySet</p>
-<p>Lesen von RTCUserProvisioningPropertySet</p>
-<p>Lesen von RTCPropertySet</p>
-<p>Lesen öffentlicher Informationen</p>
-<p>Lesen persönlicher Informationen</p>
-<p>Allgemeine Informationen lesen</p>
-<p>Lesen von Benutzerkonto Einschränkungen</p></td>
-<td><p>Nachfolger-Kontaktobjekte</p></td>
+<td><p>Read RTCUserSearchPropertySet</p>
+<p>Read RTCUserProvisioningPropertySet</p>
+<p>Read RTCPropertySet</p>
+<p>Read Public-Information</p>
+<p>Read Personal-Information</p>
+<p>Read General-Information</p>
+<p>Read User-Account-Restrictions</p></td>
+<td><p>Untergeordnete Contact-Objekte</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Erstellen eines untergeordneten Elements</p>
+<td><p>Untergeordnetes Element erstellen</p>
 <p>Untergeordnetes Element löschen</p>
 <p>Struktur löschen</p></td>
 <td><p>Kontakt</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Schreiben von DisplayName</p>
-<p>Beschreibung schreiben</p>
-<p>Schreiben von telephoneNumber</p></td>
-<td><p>Nachfolger Benutzerobjekte</p></td>
+<td><p>Write displayName</p>
+<p>Write description</p>
+<p>Write telephoneNumber</p></td>
+<td><p>Untergeordnete User-Objekte</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Schreiben von RTCUserSearchPropertySet</p>
-<p>Schreiben von otherIpPhone</p>
-<p>Schreiben von DisplayName</p>
-<p>Beschreibung schreiben</p>
-<p>Schreiben von telephoneNumber</p>
-<p>Schreiben von msExchUCVoiceMailSettings</p>
-<p>Schreiben von RTCUserProvisioningPropertySet</p>
-<p>Schreiben von RTCPropertySet</p>
-<p>Schreiben von proxyAddresses</p></td>
-<td><p>Nachfolger-Kontaktobjekte</p></td>
+<td><p>Write RTCUserSearchPropertySet</p>
+<p>Write otherIpPhone</p>
+<p>Write displayName</p>
+<p>Write description</p>
+<p>Write telephoneNumber</p>
+<p>Write msExchUCVoiceMailSettings</p>
+<p>Write RTCUserProvisioningPropertySet</p>
+<p>Write RTCPropertySet</p>
+<p>Write proxyAddresses</p></td>
+<td><p>Untergeordnete Contact-Objekte</p></td>
 </tr>
 </tbody>
 </table>
@@ -324,11 +324,11 @@ Wenn Sie das **Grant-CsOuPermission-** Cmdlet für Geräteobjekte in einer OU au
 
 <div>
 
-## <a name="granting-permission-for-inetorgperson-objects"></a>Erteilen der Berechtigung für InetOrgPerson-Objekte
+## <a name="granting-permission-for-inetorgperson-objects"></a>Erteilen von Berechtigungen für InetOrgPerson-Objekte
 
-Wenn Sie das **Grant-CsOuPermission-** Cmdlet für InetOrgPerson-Objekte in einer OU ausführen, werden Gruppen Berechtigungen gewährt, wie in der folgenden Tabelle dargestellt.
+Wenn Sie das **Grant-CsOuPermission-** Cmdlet für InetOrgPerson-Objekte in einer Organisationseinheit ausführen, werden Gruppen Berechtigungen erteilt, wie in der folgenden Tabelle dargestellt.
 
-### <a name="permissions-granted-for-inetorgperson-objects"></a>Für InetOrgPerson-Objekte gewährte Berechtigungen
+### <a name="permissions-granted-for-inetorgperson-objects"></a>Für InetOrgPerson-Objekte erteilte Berechtigungen
 
 <table>
 <colgroup>
@@ -338,49 +338,49 @@ Wenn Sie das **Grant-CsOuPermission-** Cmdlet für InetOrgPerson-Objekte in eine
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gruppe</th>
-<th>Berechtigungs</th>
-<th>Gilt für</th>
+<th>Group</th>
+<th>Berechtigung</th>
+<th>Geltungsbereich</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>RTCHSUniversalServices</p></td>
-<td><p>Replizieren von Verzeichnisänderungen</p></td>
+<td><p>Verzeichnisänderungen replizieren</p></td>
 <td><p>Nur dieses Objekt</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalServerReadOnlyGroup</p></td>
-<td><p>Listeninhalt</p>
+<td><p>Inhalt auflisten</p>
 <p>Alle Eigenschaften lesen</p>
 <p>Leseberechtigungen</p></td>
 <td><p>Nur dieses Objekt</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserReadOnlyGroup hinzugefügt</p></td>
-<td><p>Listeninhalt</p>
+<td><p>Inhalt auflisten</p>
 <p>Alle Eigenschaften lesen</p>
 <p>Leseberechtigungen</p></td>
 <td><p>Nur dieses Objekt</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserReadOnlyGroup hinzugefügt</p></td>
-<td><p>Lesen von RTCUserSearchPropertySet</p>
-<p>Lesen von RTCUserProvisioningPropertySet</p>
-<p>Lesen von RTCPropertySet</p>
-<p>Lesen persönlicher Informationen</p>
-<p>Lesen öffentlicher Informationen</p>
-<p>Allgemeine Informationen lesen</p>
-<p>Lesen von Benutzerkonto Einschränkungen</p></td>
-<td><p>Nachgeordnete InetOrgPerson-Objekte</p></td>
+<td><p>Read RTCUserSearchPropertySet</p>
+<p>Read RTCUserProvisioningPropertySet</p>
+<p>Read RTCPropertySet</p>
+<p>Read Personal-Information</p>
+<p>Read Public-Information</p>
+<p>Read General-Information</p>
+<p>Read User-Account-Restrictions</p></td>
+<td><p>Untergeordnete inetOrgPerson-Objekte</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Schreiben von RTCUserSearchPropertySet</p>
-<p>Schreiben von RTCUserProvisioningPropertySet</p>
-<p>Schreiben von RTCPropertySet</p>
-<p>Schreiben von proxyAddresses</p></td>
-<td><p>Nachgeordnete InetOrgPerson-Objekte</p></td>
+<td><p>Write RTCUserSearchPropertySet</p>
+<p>Write RTCUserProvisioningPropertySet</p>
+<p>Write RTCPropertySet</p>
+<p>Write proxyAddresses</p></td>
+<td><p>Untergeordnete inetOrgPerson-Objekte</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Definieren einer Survivable Branch Appliance oder eines Survivable Branch Servers'
+title: 'Lync Server 2013: Definieren eines Survivable Branch Appliance oder Servers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df5577ff0211afd005feb8fea4788598a03d536e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9006aa3a54a2aa38cecb4b49ef56094eb24494fc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728505"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="define-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a>Definieren einer Survivable Branch Appliance oder eines Survivable Branch Servers in Lync Server 2013
+# <a name="define-a-survivable-branch-appliance-or-server-in-lync-server-2013"></a>Definieren einer Survivable Branch Appliance oder eines Servers in lync Server 2013
 
 </div>
 
@@ -35,71 +35,71 @@ ms.locfileid: "41728505"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-07_
+_**Letztes Änderungsstand des Themas:** 2012-10-07_
 
-Führen Sie dieses Verfahren am zentralen Standort aus, wenn Sie die Survivable Branch-Appliance oder den Server nicht definiert haben, als Sie Sie zu Ihrer Topologie hinzugefügt haben.
+Führen Sie das vorliegende Verfahren am zentralen Standort aus, wenn Sie die Survivable Branch Appliance oder den Survivable Branch Server nicht beim Hinzufügen zu Ihrer Topologie definiert haben.
 
 <div>
 
-## <a name="to-define-a-survivable-branch-appliance-or-survivable-branch-server"></a>So definieren Sie eine Survivable Branch-Appliance oder einen Überlebenden Branch-Server
+## <a name="to-define-a-survivable-branch-appliance-or-survivable-branch-server"></a>So definieren Sie eine Survivable Branch Appliance oder Survivable Branch Server
 
-1.  Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topology Builder**.
+1.  Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topologie-Generator**.
 
-2.  Erweitern Sie in der Konsolenstruktur die zentrale Website, erweitern Sie **Verzweigungs Standorte**, und erweitern Sie dann den Namen der Zweigstelle, auf der Sie die Survivable Branch-Appliance oder den Survivable Branch-Server bereitstellen möchten.
+2.  Erweitern Sie in der Konsolenstruktur den zentralen Standort, erweitern Sie **Zweigstellenstandorte**, und erweitern Sie dann den Namen des Zweigstellen Standorts, an dem die Survivable Branch Appliance oder Survivable Branch Server bereitgestellt werden soll.
 
-3.  Klicken Sie mit der rechten Maustaste auf **Survival Branch Appliances**, und klicken Sie dann auf **neue Survivable Branch Appliance**.
+3.  Klicken Sie mit der rechten Maustaste auf **Survivable Branch Appliances**, und klicken Sie dann auf **neue Survivable Branch Appliance**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Überlebensfähige <STRONG>Branch-Appliances</STRONG> definieren Sie Survival-Branch-Server und Survivable Branch-Appliances.
+    > <STRONG>Survivable Branch Appliances</STRONG> ist der Ort, an dem Sie Survivable Branch-Server und Survivable Branch Appliances definieren.
 
     
     </div>
 
-4.  Klicken Sie im Dialogfeld **Survivable Branch-Appliance definieren** auf **FQDN**, geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) der Survivable Branch Appliance oder des Survivable Branch-Servers ein, den Sie an dieser Zweigstelle bereitstellen, und klicken Sie dann auf **weiter**.
+4.  Klicken Sie im Dialogfeld **Survivable Branch Appliance definieren** auf **FQDN**, geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) der Survivable Branch Appliance oder Survivable Branch Server an, die Sie an dieser Zweigstelle bereitstellen möchten, und klicken Sie dann auf **weiter**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Wenn Sie eine Survivable-Branch-Appliance definieren, muss der Name, den Sie in <STRONG>FQDN</STRONG> eingeben, dem Überlebenden Branch Appliance-FQDN entsprechen, den Sie dem <STRONG>servicePrincipalName</STRONG> -Attribut zugewiesen haben. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">Hinzufügen einer Survivable Branch-Appliance zu Active Directory in lync Server 2013</A>.
+    > Wenn Sie eine Survivable Branch Appliance definieren, muss der Name, den Sie in <STRONG>FQDN</STRONG> eingeben, mit dem Survivable Branch Appliance FQDN identisch sein, den Sie dem <STRONG>servicePrincipalName</STRONG> -Attribut zugewiesen haben. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md">Add a Survivable Branch Appliance to Active Directory in lync Server 2013</A>.
 
     
     </div>
 
-5.  Klicken Sie auf **Front-End-Pool**, klicken Sie auf den Front-End-Server (User Services Pool) an der zentralen Website, mit der die überlebensfähige Branch-Appliance oder der Survivable Branch-Server eine Verbindung herstellen soll, und klicken Sie dann auf **weiter**
+5.  Klicken Sie auf **Front-End-Pool**, klicken Sie auf den Front-End-Server (User Services Pool) am zentralen Standort, zu dem diese Survivable Branch Appliance oder Survivable Branch Server eine Verbindung herstellen, und klicken Sie dann auf **weiter**.
 
-6.  Klicken Sie auf **Edgeserver**, klicken Sie auf den Edge-Pool, der von dieser Survivable Branch Appliance oder einem Überlebenden Verzweigungs Server hergestellt wird, um die PSTN-Konnektivität für Remotebenutzer der Zweigstelle bereitzustellen, und klicken Sie dann auf **weiter**.
+6.  Klicken Sie auf **Edgeserver**, klicken Sie auf das Edgepool, mit dem diese Survivable Branch Appliance oder Survivable Branch Server eine Verbindung herstellen, um die PSTN-Konnektivität für Remotebenutzer des Zweigstellen Standorts bereitzustellen, und klicken Sie dann auf **weiter**.
 
-7.  Klicken Sie auf **Gateway-FQDN oder IP-Adresse**, und geben Sie dann den FQDN oder die IP-Adresse des Gateway-Peers ein, dem die Survivable Branch-Appliance oder der Survivable Branch-Server zugeordnet ist, um eingehende oder ausgehende PSTN-Anrufe weiterzuleiten.
+7.  Klicken Sie auf **Gateway-FQDN oder IP-Adresse**, und geben Sie dann den FQDN oder die IP-Adresse des Gateway-Peers ein, dem der Survivable Branch Appliance oder der Survivable Branch Server für das Weiterleiten von eingehenden oder ausgehenden PSTN-anrufen zugeordnet ist.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Wenn Sie eine Survivable Branch-Appliance definieren, ist dies das Gateway, auf das der Vermittlungs Server innerhalb der Survivable Branch-Appliance für PSTN-Konnektivität zugreifen kann.
+    > Beim Definieren einer Survivable Branch Appliance ist dies das Gateway, mit dem sich der Vermittlungsserver in der Survivable Branch Appliance für PSTN-Verbindungen verbindet.
 
     
     </div>
 
-8.  Klicken Sie auf **Überwachungs Port für IP/PSTN-Gateway**, und übernehmen Sie den Standardport.
+8.  Klicken Sie auf **Überwachungsport für das IP/PSTN-Gateway**, und akzeptieren Sie den Standardport.
 
-9.  Klicken Sie im **SIP-Transportprotokoll**auf das Transport Protokoll, das von der Survivable Branch-Appliance oder dem Survivable Branch-Server verwendet wird, und klicken Sie dann auf **Fertig stellen**.
+9.  Klicken Sie im **SIP-Transport Protokoll**auf das Transportprotokoll, das von Survivable Branch Appliance oder Survivable Branch Server verwendet wird, und klicken Sie dann auf **Fertig stellen**.
     
     <div>
     
 
     > [!NOTE]  
-    > Aus Sicherheitsgründen empfehlen wir dringend, TLS (Transport Layer Security) zu verwenden. Wenn Sie eine Survivable Branch-Appliance definieren, lesen Sie in der Dokumentation Ihres Survivable Branch Appliance-Herstellers nach, ob Ihre Survivable Branch-Appliance das TLS-Protokoll unterstützt.
+    > Aus Sicherheitsgründen wird der Einsatz von TLS (Transport Layer Security) ausdrücklich empfohlen. Konsultieren Sie beim Definieren einer Survivable Branch Appliance die Dokumentation des Herstellers, um sicherzustellen, dass die Survivable Branch Appliance das TLS-Protokoll unterstützt.
 
     
     </div>
 
-10. Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf die neue Survivable Branch-Appliance oder den neuen Server, klicken Sie auf **Topologie**, und klicken Sie dann auf **veröffentlichen**.
+10. Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf die neue Survivable Branch Appliance oder den Survivable Branch Server, klicken Sie auf **Topologie** und anschließend auf **Veröffentlichen**.
 
-**Nächster Schritt**: [Bereitstelleneiner überlebensfähigen Branch-Appliance oder eines Servers mit lync Server 2013-Branch Site-Aufgabe](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)
+**Nächster Schritt**: [Bereitstelleneiner Survivable Branch Appliance oder eines Servers mit lync Server 2013-Branch-Standort Aufgabe](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)
 
 </div>
 

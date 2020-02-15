@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren der Orbittabelle für das Parken von Anrufen'
+title: 'Lync Server 2013: Konfigurieren der Orbit-Tabelle für das Parken von Anrufen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 417fb90feb9f12f8c2776518fa8fefffae7ff003
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dbeb465bd9ac4e62a51ab562238db9a6c0828f99
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739995"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043237"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-the-call-park-orbit-table-in-lync-server-2013"></a>Konfigurieren der Orbittabelle für das Parken von Anrufen in Lync Server 2013
+# <a name="configure-the-call-park-orbit-table-in-lync-server-2013"></a>Konfigurieren der Orbit-Tabelle für das Parken von Anrufen in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41739995"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-10_
+_**Letztes Änderungsstand des Themas:** 2012-09-10_
 
-Call Park verwendet Umlaufbahnen für Park Anrufe. Bevor Benutzer Anrufe parken und abrufen können, müssen Sie die Umlaufbahn Tabelle des Anruf Parks konfigurieren. Sie müssen die Bereiche der Durchwahlnummern (Orbits) angeben, die Ihre Organisation für Park Anrufe reserviert, und den Arbeitsplan für diese Bereiche definieren, indem Sie angeben, welcher Anruf Park Pool für jeden Bereich zuständig ist. Wenn Sie Umlaufbahn Bereiche definieren, besteht das Ziel darin, genügend Umlaufbahnen zu haben, damit eine Umlaufbahn nicht zu schnell wieder verwendet wird, aber nicht so viele Umlaufbahnen, dass Sie die Anzahl der für Benutzer oder andere Dienste verfügbaren Erweiterungen einschränken. Sie können für jeden lync Server-Pool, in dem die Park-Anwendung bereitgestellt wird, mehrere orbitbereiche für den Anruf Bereich erstellen. Jeder Orbit-Bereich für das Parken von Anrufen muss einen global eindeutigen Namen und einen eindeutigen Satz von Erweiterungen aufweisen.
+Der Anruf Park verwendet Umlaufbahnen für das Parken von anrufen. Bevor Benutzer Anrufe parken und abrufen können, müssen Sie die Orbit-Tabelle für das Parken von anrufen konfigurieren. Sie müssen die Bereiche der Durchwahlnummern (Umlaufbahnen) angeben, die Ihre Organisation für das Parken von Anrufen reserviert, und das Routing für diese Bereiche definieren, indem Sie angeben, welcher Anruf Park Pool für jeden Bereich zuständig ist. Wenn Sie orbitbereiche definieren, besteht das Ziel darin, genügend Umlaufbahnen zu haben, sodass eine Umlaufbahn nicht zu schnell wieder verwendet wird, aber nicht so viele Umlaufbahnen, dass Sie die Anzahl der für Benutzer oder andere Dienste verfügbaren Erweiterungen begrenzen. Sie können mehrere orbitbereiche für das Parken von Anrufen für jeden lync Server Pool erstellen, in dem die Anwendung zum Parken von Anrufen bereitgestellt wird. Jeder orbitbereich für das Parken von Anrufen muss einen global eindeutigen Namen und eine eindeutige Gruppe von Durchwahlnummern aufweisen.
 
 <div>
 
@@ -55,7 +55,7 @@ Verwenden Sie für Ihre Orbitbereiche Blöcke virtueller Durchwahlnummern (Durch
 
 
 > [!NOTE]  
-> Das Zuweisen von Direktwahlnummern (DID) als Orbit-Nummern in der Orbit-Tabelle des Anruf Parks wird nicht unterstützt.
+> Das Zuweisen von Durchwahlnummern (DID) als Orbit-Nummern in der Orbit-Tabelle für das Parken von Anrufen wird nicht unterstützt.
 
 
 
@@ -65,7 +65,7 @@ Verwenden Sie für Ihre Orbitbereiche Blöcke virtueller Durchwahlnummern (Durch
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-[Erstellen oder Ändern eines orbitbereichs für einen Anruf Bereich in lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
+[Erstellen oder Ändern eines Umlaufbahn Bereichs für das Parken von Anrufen in lync Server 2013](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
 
 </div>
 

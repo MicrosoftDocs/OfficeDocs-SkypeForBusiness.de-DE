@@ -12,20 +12,20 @@ ms:contentKeyID: 63969582
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8838e5d3dfd1e3590f7988102f187c49114fc233
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d8838336fbea4f901b763b7ca034f42e957de33
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734005"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043497"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="performing-physical-environmental-checks"></a>Durchführen physischer Umgebungsüberprüfungen
+# <a name="performing-physical-environmental-checks"></a>Durchführen von physikalischen Umgebungsprüfungen
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41734005"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-04-30_
+_**Letztes Änderungsstand des Themas:** 2014-04-30_
 
-Bevor Sie die Leistung, Verfügbarkeit und Funktionalität der lync Server 2013-Bereitstellung überprüfen, sollten Sie die physikalische Umgebung überprüfen. Beispielsweise muss die Temperatur des Serverraums gesenkt werden, oder es muss ein Netzwerkkabel ersetzt werden. Um optimale Ergebnisse zu erzielen, führen Sie die folgenden physikalischen Umweltinspektionen durch:
+Bevor Sie die Leistung, die Verfügbarkeit und die Funktionalität der lync Server 2013-Bereitstellung überprüfen, sollten Sie die physische Umgebung überprüfen. Beispielsweise muss die Serverraum Temperatur möglicherweise gesenkt werden, oder es muss ein Netzwerkkabel ersetzt werden. Um optimale Ergebnisse zu erzielen, führen Sie die folgenden physikalischen Umgebungs Inspektionen durch:
 
-  - **Physische Sicherheit misst**   physischer Sicherheitsschutz wie Sperren, Türen und eingeschränkte Zugriffs Räume müssen gesichert werden. Überprüfen Sie, ob unbefugte und erzwungene Einträge und Anzeichen von Geräteschäden auftreten.
+  - **Physikalische Sicherheitsmaßnahmen**   der physische Sicherheitsschutz wie Schleusen, Türen und eingeschränkte Zugriffs Räume müssen gesichert werden. Überprüfen Sie, ob sich Personen ohne Autorisierung oder gewaltsame Zutritt verschafft haben oder ob Anzeichen für eine Beschädigung der Ausrüstung vorliegen.
 
-  - **Temperatur und Feuchtigkeit**   hohe Temperaturen, schlechte Luftzirkulation und Feuchtigkeit können dazu führen, dass Hardwarekomponenten überhitzt werden. Überprüfen Sie Temperatur und Luftfeuchtigkeit, um sicherzustellen, dass die Umweltsysteme wie Heizung und Klimatisierung akzeptable Bedingungen und Funktionen in den Spezifikationen des Hardwareherstellers aufrecht erhalten können. Wenn neue Geräte vor kurzem installiert wurden, prüfen Sie auch, ob der Luftstrom sowohl von als auch von den Servern ungehindert ist und die Herstellerspezifikation erfüllt.
+  - **Temperatur und Feuchtigkeit**   hohe Temperaturen, schlechter Luftstrom und Feuchtigkeit können dazu führen, dass Hardwarekomponenten überhitzt werden. Überprüfen Sie die Temperatur und Luftfeuchtigkeit, um sicherzustellen, dass die Umgebungssysteme wie Heizung und Klimatisierung akzeptable Bedingungen und Funktionen innerhalb der Hardwarehersteller Spezifikationen aufrecht erhalten können. Wenn neue Geräte kürzlich installiert wurden, überprüfen Sie auch, ob der Luftstrom sowohl von als auch von den Servern ungehindert ist und die Herstellerspezifikation erfüllt.
 
-  - **Geräte und Komponenten**   die lync Server 2013-Organisation setzt auf ein funktionierendes physisches Netzwerk und die zugehörige Hardware. Stellen Sie sicher, dass Router, Switches, Hubs, physikalische Kabel und Verbinder funktionsfähig sind.
+  - **Geräte und Komponenten**   die lync Server 2013 Organisation setzt auf ein funktionierendes physisches Netzwerk und zugehörige Hardware. Stellen Sie sicher, dass Router, Switches, Hubs, physische Kabel und Connectors betriebsbereit sind.
 
-Die Einzelheiten zur Durchführung dieser Prüfungen hängen stark von Ihrer Installations Website und der ausgewählten Server Hardware ab. Wenn Sie diese Prüfung zum ersten Mal durchführen, lesen Sie die Hardwaredokumentation, und notieren Sie sich die gewünschten Parameter für die spätere Verwendung.
+Die Besonderheiten bei der Durchführung dieser Prüfungen hängen stark von Ihrer Installations Website und der ausgewählten Server Hardware ab. Wenn Sie diese Prüfung zum ersten Mal durchführen, lesen Sie die Hardwaredokumentation, und beachten Sie die gewünschten Parameter für die spätere Verwendung.
 
 ### <a name="desired-server-space-environment"></a>Gewünschte Serverraum Umgebung
 
@@ -66,15 +66,15 @@ Die Einzelheiten zur Durchführung dieser Prüfungen hängen stark von Ihrer Ins
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Feuchtigkeit</p></td>
+<td><p>Luftfeuchtigkeits</p></td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><p>Front of Server Faces</p></td>
-<td><p>Hot-Aisle/Cold-Aisle</p></td>
+<td><p>Hot Aisle/Cold Aisle</p></td>
 </tr>
 <tr class="even">
-<td><p>Ungehinderte Abgas Freigabe</p></td>
+<td><p>Ungehinderter Abgas Abstand</p></td>
 <td></td>
 </tr>
 </tbody>

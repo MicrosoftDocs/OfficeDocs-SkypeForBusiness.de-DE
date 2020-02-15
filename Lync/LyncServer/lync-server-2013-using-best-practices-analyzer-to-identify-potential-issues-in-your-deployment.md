@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Best Practices Analyzer zur Ermittlung potenzieller Probleme in Ihrer Bereitstellung
+title: Verwenden von Best Practices Analyzer zum Identifizieren möglicher Probleme in Ihrer Bereitstellung
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183344
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e60945f9a7ee8f8b6fe52857fd73a399725de5be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 12cf3fcc76c1fba3b8162a4928f672558818e735
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744215"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041772"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-best-practices-analyzer-to-identify-potential-issues-in-your-lync-server-2013-deployment"></a>Verwenden von Best Practices Analyzer zur Ermittlung potenzieller Probleme in ihrer lync Server 2013-Bereitstellung
+# <a name="using-best-practices-analyzer-to-identify-potential-issues-in-your-lync-server-2013-deployment"></a>Verwenden von Best Practices Analyzer zum Identifizieren potenzieller Probleme in ihrer lync Server 2013-Bereitstellung
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744215"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Damit Sie Best Practices Analyzer zum Überprüfen Ihrer lync Server 2013-Umgebung verwenden können, muss Ihr System bestimmte Voraussetzungen erfüllen, bevor Sie mit dem Scan beginnen. Nachdem Sie sichergestellt haben, dass Ihr System die Voraussetzungen erfüllt, können Sie den Überprüfungsvorgang mithilfe von Best Practices Analyzer abschließen.
+Um Best Practices Analyzer zum Überprüfen Ihrer lync Server 2013 Umgebung zu verwenden, muss Ihr System bestimmte Voraussetzungen erfüllen, bevor Sie mit der Überprüfung beginnen. Wenn Sie sichergestellt haben, dass Ihr System die Voraussetzungen erfüllt, können Sie den Überprüfungsvorgang mit Best Practices Analyzer abschließen.
 
 <div>
 
@@ -45,9 +45,9 @@ Damit Sie Best Practices Analyzer zum Überprüfen Ihrer lync Server 2013-Umgebu
 
   - [Voraussetzungen für die Ausführung von Best Practices Analyzer in lync Server 2013](lync-server-2013-prerequisites-for-running-best-practices-analyzer.md)
 
-  - [Überprüfen auf Updates für Best Practices Analyzer in lync Server 2013](lync-server-2013-checking-for-updates-to-best-practices-analyzer.md)
+  - [Suchen nach Updates für Best Practices Analyzer in lync Server 2013](lync-server-2013-checking-for-updates-to-best-practices-analyzer.md)
 
-  - [Verwenden von Best Practices Analyzer zum Durchsuchen Ihrer lync Server 2013-Bereitstellung nach potenziellen Problemen](lync-server-2013-using-best-practices-analyzer-to-scan-your-deployment-for-potential-issues.md)
+  - [Verwenden von Best Practices Analyzer zum Überprüfen Ihrer lync Server 2013-Bereitstellung auf mögliche Probleme](lync-server-2013-using-best-practices-analyzer-to-scan-your-deployment-for-potential-issues.md)
 
 </div>
 
