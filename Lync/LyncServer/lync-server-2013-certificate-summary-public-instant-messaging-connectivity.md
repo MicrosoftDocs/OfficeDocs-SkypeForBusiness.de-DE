@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Zertifikats Zusammenfassung – öffentliche Instant Messaging-Konnektivität'
+title: 'Lync Server 2013: Zertifikatzusammenfassung – Verbindung mit öffentlichen Instant Messaging-Diensten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49105657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c93e79eed643d608ac9ab04516222227fc7c1f6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8e2cce89560c885ad04e03c77d0542289221f1ec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736635"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031109"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a><span data-ttu-id="fa1c5-102">Zertifikats Zusammenfassung – öffentliche Instant Messaging-Konnektivität in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fa1c5-102">Certificate summary - Public instant messaging connectivity in Lync Server 2013</span></span>
+# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a><span data-ttu-id="71978-102">Zertifikatzusammenfassung für die Verbindung mit öffentlichen Instant Messaging-Diensten in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="71978-102">Certificate summary - Public instant messaging connectivity in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41736635"
 
 <span> </span>
 
-<span data-ttu-id="fa1c5-103">_**Letztes Änderungsdatum des Themas:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="fa1c5-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+<span data-ttu-id="71978-103">_**Letztes Änderungsstand des Themas:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="71978-103">_**Topic Last Modified:** 2013-02-19_</span></span>
 
-<span data-ttu-id="fa1c5-104">Wenn Sie Zertifikate für die öffentliche Instant Messaging-Konnektivität konfigurieren möchten, sollten Sie zuerst feststellen, dass sich nichts von anderen SIP Federation-Typen oder sogar Standard-Edgeserver-Zertifikaten unterscheidet, es sei denn, dass America Online (AOL) eine eindeutige Zertifikatkonfiguration.</span><span class="sxs-lookup"><span data-stu-id="fa1c5-104">To configure certificates for public Instant Messaging connectivity, you should first notice that there is nothing different from other SIP federation types or even standard Edge Server certificates, except that America Online (AOL) requires a unique certificate configuration.</span></span> <span data-ttu-id="fa1c5-105">Neben der üblichen Server-Erweiterte Schlüsselverwendung (EKU) erfordert America Online, dass das Zertifikat oder die Zertifikate (im Fall eines Edge-Pools) auch die Client-EKU enthalten.</span><span class="sxs-lookup"><span data-stu-id="fa1c5-105">In addition to the usual server enhanced key usage (EKU), America Online requires the certificate or certificates (in the case of an Edge pool) to also contain the client EKU.</span></span> <span data-ttu-id="fa1c5-106">Die Client-EKU ist eine Ergänzung zum Zertifikat und Teil des externen öffentlichen Zertifikats, das Ihrem Edgeserver zugewiesen ist.</span><span class="sxs-lookup"><span data-stu-id="fa1c5-106">The client EKU is an addition to the certificate, and is part of the external public certificate that is assigned to your Edge Server.</span></span>
+<span data-ttu-id="71978-104">Um Zertifikate für die Verbindung mit öffentlichen Instant Messaging-Diensten zu konfigurieren, sollten Sie zunächst bemerken, dass es nichts anderes als andere SIP-Verbundtypen oder sogar Standard Edgeserver Zertifikate gibt, außer dass America Online (AOL) eine eindeutige Zertifikatkonfiguration.</span><span class="sxs-lookup"><span data-stu-id="71978-104">To configure certificates for public Instant Messaging connectivity, you should first notice that there is nothing different from other SIP federation types or even standard Edge Server certificates, except that America Online (AOL) requires a unique certificate configuration.</span></span> <span data-ttu-id="71978-105">Zusätzlich zur üblichen Server Enhanced Key Usage (EKU) erfordert America Online, dass das Zertifikat oder die Zertifikate (im Fall eines Edgepool) auch den Client-EKU enthalten.</span><span class="sxs-lookup"><span data-stu-id="71978-105">In addition to the usual server enhanced key usage (EKU), America Online requires the certificate or certificates (in the case of an Edge pool) to also contain the client EKU.</span></span> <span data-ttu-id="71978-106">Die EKU des Clients ist eine Ergänzung des Zertifikats und ist Teil des externen öffentlichen Zertifikats, das Ihrem Edgeserver zugewiesen ist.</span><span class="sxs-lookup"><span data-stu-id="71978-106">The client EKU is an addition to the certificate, and is part of the external public certificate that is assigned to your Edge Server.</span></span>
 
 <div>
 
-## <a name="certificate-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="fa1c5-107">Zusammenfassung des Zertifikats – öffentliche Instant Messaging-Konnektivität</span><span class="sxs-lookup"><span data-stu-id="fa1c5-107">Certificate Summary – Public Instant Messaging Connectivity</span></span>
+## <a name="certificate-summary--public-instant-messaging-connectivity"></a><span data-ttu-id="71978-107">Zertifikatzusammenfassung – Verbindung mit öffentlichen Instant Messaging-Diensten</span><span class="sxs-lookup"><span data-stu-id="71978-107">Certificate Summary – Public Instant Messaging Connectivity</span></span>
 
 
 <table>
@@ -53,26 +53,26 @@ ms.locfileid: "41736635"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="fa1c5-108">Komponente</span><span class="sxs-lookup"><span data-stu-id="fa1c5-108">Component</span></span></th>
-<th><span data-ttu-id="fa1c5-109">Name des Antragstellers</span><span class="sxs-lookup"><span data-stu-id="fa1c5-109">Subject name</span></span></th>
-<th><span data-ttu-id="fa1c5-110">Subject Alternative Names (San)/Order</span><span class="sxs-lookup"><span data-stu-id="fa1c5-110">Subject alternative names (SAN)/Order</span></span></th>
-<th><span data-ttu-id="fa1c5-111">Kommentare</span><span class="sxs-lookup"><span data-stu-id="fa1c5-111">Comments</span></span></th>
+<th><span data-ttu-id="71978-108">Komponente</span><span class="sxs-lookup"><span data-stu-id="71978-108">Component</span></span></th>
+<th><span data-ttu-id="71978-109">Antragstellername</span><span class="sxs-lookup"><span data-stu-id="71978-109">Subject name</span></span></th>
+<th><span data-ttu-id="71978-110">Alternative Antragstellernamen (SAN)/Reihenfolge</span><span class="sxs-lookup"><span data-stu-id="71978-110">Subject alternative names (SAN)/Order</span></span></th>
+<th><span data-ttu-id="71978-111">Anmerkungen</span><span class="sxs-lookup"><span data-stu-id="71978-111">Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="fa1c5-112">Extern/Access-Edge</span><span class="sxs-lookup"><span data-stu-id="fa1c5-112">External/Access Edge</span></span></p></td>
-<td><p><span data-ttu-id="fa1c5-113">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="fa1c5-113">sip.contoso.com</span></span></p></td>
-<td><p><span data-ttu-id="fa1c5-114">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="fa1c5-114">sip.contoso.com</span></span></p>
-<p><span data-ttu-id="fa1c5-115">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="fa1c5-115">webcon.contoso.com</span></span></p>
-<p><span data-ttu-id="fa1c5-116">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="fa1c5-116">sip.fabrikam.com</span></span></p></td>
-<td><p><span data-ttu-id="fa1c5-117">Das Zertifikat muss von einer öffentlichen Zertifizierungsstelle sein und über die Server-EKU und den Client-EKU verfügen, wenn öffentliche Chat Verbindungen mit AOL bereitgestellt werden sollen.</span><span class="sxs-lookup"><span data-stu-id="fa1c5-117">The certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="fa1c5-118">Das Zertifikat wird den externen Edgeserver-Schnittstellen für Folgendes zugewiesen:</span><span class="sxs-lookup"><span data-stu-id="fa1c5-118">The certificate is assigned to the external Edge Server interfaces for:</span></span></p>
+<td><p><span data-ttu-id="71978-112">Externer Edgeserver/Zugriffsedge</span><span class="sxs-lookup"><span data-stu-id="71978-112">External/Access Edge</span></span></p></td>
+<td><p><span data-ttu-id="71978-113">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="71978-113">sip.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="71978-114">sip.contoso.com</span><span class="sxs-lookup"><span data-stu-id="71978-114">sip.contoso.com</span></span></p>
+<p><span data-ttu-id="71978-115">webcon.contoso.com</span><span class="sxs-lookup"><span data-stu-id="71978-115">webcon.contoso.com</span></span></p>
+<p><span data-ttu-id="71978-116">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="71978-116">sip.fabrikam.com</span></span></p></td>
+<td><p><span data-ttu-id="71978-117">Das Zertifikat muss von einer öffentlichen Zertifizierungsstelle sein und über die Server-EKU und den Client-EKU verfügen, wenn die Verbindung mit AOL mit öffentlichen Instant Messaging-Diensten bereitgestellt werden soll.</span><span class="sxs-lookup"><span data-stu-id="71978-117">The certificate must be from a Public CA, and must have the server EKU and client EKU if public IM connectivity with AOL is to be deployed.</span></span> <span data-ttu-id="71978-118">Das Zertifikat wird den externen Edgeserver-Schnittstellen für Folgendes zugewiesen:</span><span class="sxs-lookup"><span data-stu-id="71978-118">The certificate is assigned to the external Edge Server interfaces for:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="fa1c5-119">Zugriffs-Edgedienst</span><span class="sxs-lookup"><span data-stu-id="fa1c5-119">Access Edge service</span></span></p></li>
-<li><p><span data-ttu-id="fa1c5-120">Webkonferenz-Edgedienst</span><span class="sxs-lookup"><span data-stu-id="fa1c5-120">Web Conferencing Edge service</span></span></p></li>
-<li><p><span data-ttu-id="fa1c5-121">A/V-Edgedienst</span><span class="sxs-lookup"><span data-stu-id="fa1c5-121">A/V Edge service</span></span></p></li>
+<li><p><span data-ttu-id="71978-119">Zugriffs-Edgedienst</span><span class="sxs-lookup"><span data-stu-id="71978-119">Access Edge service</span></span></p></li>
+<li><p><span data-ttu-id="71978-120">Webkonferenz-Edgedienst</span><span class="sxs-lookup"><span data-stu-id="71978-120">Web Conferencing Edge service</span></span></p></li>
+<li><p><span data-ttu-id="71978-121">A/V-Edgedienst</span><span class="sxs-lookup"><span data-stu-id="71978-121">A/V Edge service</span></span></p></li>
 </ul>
-<p><span data-ttu-id="fa1c5-122">Beachten Sie, dass Sans automatisch dem Zertifikat basierend auf ihren Definitionen im Topologie-Generator hinzugefügt werden.</span><span class="sxs-lookup"><span data-stu-id="fa1c5-122">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder.</span></span> <span data-ttu-id="fa1c5-123">Für zusätzliche SIP-Domänen und andere Einträge, die Sie unterstützen müssen, fügen Sie nach Bedarf San-Einträge hinzu.</span><span class="sxs-lookup"><span data-stu-id="fa1c5-123">You add SAN entries as needed for additional SIP domains and other entries that you need to support.</span></span> <span data-ttu-id="fa1c5-124">Der Antragstellername wird im San repliziert und muss für den korrekten Betrieb vorhanden sein.</span><span class="sxs-lookup"><span data-stu-id="fa1c5-124">The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
+<p><span data-ttu-id="71978-p103">Beachten Sie, dass SANs dem Zertifikat automatisch hinzugefügt werden, basierend auf Ihren Definitionen im Topologie-Generator. Sie können SAN-Einträge für zusätzliche SIP-Domänen und andere Einträge, die Sie unterstützen müssen, nach Bedarf hinzufügen. Der Antragstellername wird im SAN repliziert und muss zum korrekten Betrieb vorhanden sein.</span><span class="sxs-lookup"><span data-stu-id="71978-p103">Note that SANs are automatically added to the certificate based on your definitions in Topology Builder. You add SAN entries as needed for additional SIP domains and other entries that you need to support. The subject name is replicated in the SAN and must be present for correct operation.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -82,10 +82,10 @@ ms.locfileid: "41736635"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="fa1c5-125">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="fa1c5-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="71978-125">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="71978-125">See Also</span></span>
 
 
-[<span data-ttu-id="fa1c5-126">Szenarien für den Zugriff durch externe Benutzer in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fa1c5-126">Scenarios for external user access in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-external-user-access.md)  
+[<span data-ttu-id="71978-126">Szenarien für den Zugriff durch externe Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="71978-126">Scenarios for external user access in Lync Server 2013</span></span>](lync-server-2013-scenarios-for-external-user-access.md)  
   
 
 </div>

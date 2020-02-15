@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren der Pickup für Gruppenanrufe'
+title: 'Lync Server 2013: Konfigurieren der gruppenanrufannahme'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541505
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3096c468b478da365bcfa0e38fa287a5c2ab57a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cbd4c7fc1d0e2c052910b6ddcc9027b9c3db4f72
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728815"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030579"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="3083c-102">Konfigurieren der Gruppenanruf Abholung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3083c-102">Configuring Group Call Pickup in Lync Server 2013</span></span>
+# <a name="configuring-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="0116a-102">Konfigurieren der gruppenanrufannahme in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0116a-102">Configuring Group Call Pickup in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41728815"
 
 <span> </span>
 
-<span data-ttu-id="3083c-103">_**Letztes Änderungsdatum des Themas:** 2013-02-01_</span><span class="sxs-lookup"><span data-stu-id="3083c-103">_**Topic Last Modified:** 2013-02-01_</span></span>
+<span data-ttu-id="0116a-103">_**Letztes Änderungsstand des Themas:** 2013-02-01_</span><span class="sxs-lookup"><span data-stu-id="0116a-103">_**Topic Last Modified:** 2013-02-01_</span></span>
 
-<span data-ttu-id="3083c-104">Kumulatives Update für lync Server 2013: Februar 2013 führt die Abholung des Gruppenanrufs als neue Enterprise-VoIP-Funktion ein.</span><span class="sxs-lookup"><span data-stu-id="3083c-104">Cumulative update for Lync Server 2013: February 2013 introduces Group Call Pickup as a new Enterprise Voice feature.</span></span> <span data-ttu-id="3083c-105">Mit der Gruppenanruf-Abholung können Benutzer Anrufe aufnehmen, die für einen anderen Nutzer Klingeln, indem Sie eine Anruf-Abhol Gruppennummer wählen.</span><span class="sxs-lookup"><span data-stu-id="3083c-105">Group Call Pickup lets users pick up calls that are ringing for another user by dialing a call pickup group number.</span></span>
+<span data-ttu-id="0116a-104">Kumulatives Update für lync Server 2013: Februar 2013 bietet eine Einführung in die gruppenanrufannahme als neue Enterprise-VoIP-Funktion.</span><span class="sxs-lookup"><span data-stu-id="0116a-104">Cumulative update for Lync Server 2013: February 2013 introduces Group Call Pickup as a new Enterprise Voice feature.</span></span> <span data-ttu-id="0116a-105">Bei der gruppenanrufannahme können Benutzer Anrufe abholen, die für einen anderen Benutzer Klingeln, indem Sie eine Rufnummer für die Anrufannahme Gruppe wählen.</span><span class="sxs-lookup"><span data-stu-id="0116a-105">Group Call Pickup lets users pick up calls that are ringing for another user by dialing a call pickup group number.</span></span>
 
-<span data-ttu-id="3083c-106">Die Komponenten, die von der Gruppenanruf Abholung verwendet werden, werden beim Bereitstellen von Enterprise-VoIP automatisch auf dem Front-End-Server oder Standard Edition-Server installiert und aktiviert.</span><span class="sxs-lookup"><span data-stu-id="3083c-106">The components that Group Call Pickup uses are automatically installed and enabled on the Front End Server or Standard Edition server when you deploy Enterprise Voice.</span></span> <span data-ttu-id="3083c-107">Sie müssen jedoch die Gruppenanruf Abholung konfigurieren, bevor Sie für die Benutzer verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="3083c-107">However, you must configure Group Call Pickup before it is available to users.</span></span>
+<span data-ttu-id="0116a-106">Die Komponenten, die für die gruppenanrufannahme verwendet werden, werden automatisch auf dem Front-End-Server oder Standard Edition-Server installiert und aktiviert, wenn Sie Enterprise-VoIP bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="0116a-106">The components that Group Call Pickup uses are automatically installed and enabled on the Front End Server or Standard Edition server when you deploy Enterprise Voice.</span></span> <span data-ttu-id="0116a-107">Sie müssen jedoch die gruppenanrufannahme konfigurieren, bevor Sie für die Benutzer verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="0116a-107">However, you must configure Group Call Pickup before it is available to users.</span></span>
 
-<span data-ttu-id="3083c-108">Dieser Abschnitt führt Sie durch die Konfiguration der Gruppenanruf Abholung.</span><span class="sxs-lookup"><span data-stu-id="3083c-108">This section guides you through the configuration of Group Call Pickup.</span></span>
+<span data-ttu-id="0116a-108">Dieser Abschnitt führt Sie durch die Konfiguration der gruppenanrufannahme.</span><span class="sxs-lookup"><span data-stu-id="0116a-108">This section guides you through the configuration of Group Call Pickup.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="3083c-109">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="3083c-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0116a-109">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="0116a-109">In This Section</span></span>
 
-[<span data-ttu-id="3083c-110">Voraussetzungen für Gruppenanruf-Pickup-Konfiguration und Benutzerrechte in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3083c-110">Group Call Pickup configuration prerequisites and user rights in Lync Server 2013</span></span>](lync-server-2013-group-call-pickup-configuration-prerequisites-and-user-rights.md)
+[<span data-ttu-id="0116a-110">Konfigurieren von Voraussetzungen und Benutzerrechten für Gruppenanruf Pickups in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0116a-110">Group Call Pickup configuration prerequisites and user rights in Lync Server 2013</span></span>](lync-server-2013-group-call-pickup-configuration-prerequisites-and-user-rights.md)
 
-[<span data-ttu-id="3083c-111">Bereitstellungsprozess für die Gruppenanruf Abholung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3083c-111">Deployment process for Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-group-call-pickup.md)
+[<span data-ttu-id="0116a-111">Bereitstellungsprozess für die Gruppenanruf Abholung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0116a-111">Deployment process for Group Call Pickup in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-group-call-pickup.md)
 
-[<span data-ttu-id="3083c-112">Deploy the SEFAUtil tool in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3083c-112">Deploy the SEFAUtil tool in Lync Server 2013</span></span>](lync-server-2013-deploy-the-sefautil-tool.md)
+[<span data-ttu-id="0116a-112">Bereitstellen des SEFAUtil-Tools in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0116a-112">Deploy the SEFAUtil tool in Lync Server 2013</span></span>](lync-server-2013-deploy-the-sefautil-tool.md)
 
-[<span data-ttu-id="3083c-113">Konfigurieren von Gruppennummern für die Anruf Abholung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3083c-113">Configure call pickup group numbers in Lync Server 2013</span></span>](lync-server-2013-configure-call-pickup-group-numbers.md)
+[<span data-ttu-id="0116a-113">Konfigurieren von Nummern für die Anrufannahme Gruppe in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0116a-113">Configure call pickup group numbers in Lync Server 2013</span></span>](lync-server-2013-configure-call-pickup-group-numbers.md)
 
-[<span data-ttu-id="3083c-114">Aktivieren der Gruppenanruf Abholung für Benutzer in lync Server 2013 und Zuweisen einer Gruppennummer</span><span class="sxs-lookup"><span data-stu-id="3083c-114">Enable Group Call Pickup for users in Lync Server 2013 and assign a group number</span></span>](lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md)
+[<span data-ttu-id="0116a-114">Aktivieren der gruppenanrufannahme für Benutzer in lync Server 2013 und Zuweisen einer Gruppennummer</span><span class="sxs-lookup"><span data-stu-id="0116a-114">Enable Group Call Pickup for users in Lync Server 2013 and assign a group number</span></span>](lync-server-2013-enable-group-call-pickup-for-users-and-assign-a-group-number.md)
 
-[<span data-ttu-id="3083c-115">Übermitteln von Gruppenanruf-Abholaufträgen an Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3083c-115">Communicate Group Call Pickup assignments to users in Lync Server 2013</span></span>](lync-server-2013-communicate-group-call-pickup-assignment-to-users.md)
+[<span data-ttu-id="0116a-115">Mitteilen von Gruppenanruf-Pickup-Zuweisungen an Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0116a-115">Communicate Group Call Pickup assignments to users in Lync Server 2013</span></span>](lync-server-2013-communicate-group-call-pickup-assignment-to-users.md)
 
-[<span data-ttu-id="3083c-116">Optional Überprüfen der Bereitstellung für die Gruppenanruf Abholung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3083c-116">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</span></span>](lync-server-2013-optional-verify-the-group-call-pickup-deployment.md)
+[<span data-ttu-id="0116a-116">Optional Überprüfen der Gruppenanruf-Pickup-Bereitstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0116a-116">(Optional) Verify the Group Call Pickup deployment in Lync Server 2013</span></span>](lync-server-2013-optional-verify-the-group-call-pickup-deployment.md)
 
 </div>
 
