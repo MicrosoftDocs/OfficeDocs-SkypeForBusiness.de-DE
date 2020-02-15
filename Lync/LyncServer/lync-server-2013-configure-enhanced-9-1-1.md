@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von E9-1-1'
+title: 'Lync Server 2013: Configure Enhanced 9-1-1'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184205
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e171d2d3d72675d194a8272dfca1e2f24b8fa150
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9851bdb85f0bbd91d0b58897656186c739ecbf8f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755959"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028566"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-enhanced-9-1-1-in-lync-server-2013"></a>Konfigurieren von E9-1-1 in Lync Server 2013
+# <a name="configure-enhanced-9-1-1-in-lync-server-2013"></a>Konfigurieren von Enhanced 9-1-1 in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755959"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-24_
+_**Letztes Änderungsstand des Themas:** 2013-02-24_
 
 9-1-1 (erweitert) (E9-1-1) ist eine Benachrichtigungsfunktion für Notfallsituationen, bei dem die Telefonnummer des Anrufers einem physischen Standort in Form einer Adresse zugeordnet wird. Anhand dieser Informationen kann die Rettungsleitstelle umgehend Rettungskräfte an die Unglücksstelle senden.
 
-Zur Unterstützung von E9-1-1 muss lync Server 2013 in der Lage sein, einen Standort ordnungsgemäß mit einem Client zu verknüpfen und sicherzustellen, dass diese Informationen zum Weiterleiten des Notrufs an den nächstgelegenen PSAP verwendet werden.
+Zur Unterstützung von E9-1-1 müssen lync Server 2013 einen Standort einem Client ordnungsgemäß zuordnen können und sicherstellen, dass diese Informationen zum Weiterleiten des Notrufs an den nächstgelegenen Rettungsleitstelle verwendet werden.
 
-Ausführliche Informationen zur Planung einer E9-1-1-Bereitstellung finden Sie unter [Planen von Notfalldiensten (E9-1-1) in lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).
+Ausführliche Informationen zur Planung einer E9-1-1-Bereitstellung finden Sie unter [Planning for Emergency Services (E9-1-1) in lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).
 
 <div>
 
 
 > [!IMPORTANT]  
-> Lync Server 2013 unterstützt nur E9-1-1 innerhalb der Vereinigten Staaten. Für die Bereitstellung von E9-1-1 müssen Sie eine SIP-Verbindung mit einem qualifizierten E9-1-1-Service-Anbieter konfigurieren oder ein Notfall-Standort-ID (Elin)-Gateway zu einem öffentlich geschalteten Telefon (PSTN)-basierten E9-1-1-Service-Anbieter bereitstellen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md">Enhanced 9-1-1 (E9-1-1) und Mediation Server in lync Server 2013</A>. Details zum Konfigurieren von trunk-Verbindungen finden Sie unter <A href="lync-server-2013-configure-a-trunk-with-media-bypass.md">Konfigurieren eines Trunks mit medienumgehung in lync Server 2013</A>.
+> Lync Server 2013 unterstützt nur E9-1-1 in den Vereinigten Staaten. Für die Bereitstellung von E9-1-1 müssen Sie eine SIP-Verbindung mit einem qualifizierten E9-1-1-Dienstanbieter konfigurieren oder ein Elin-Gateway (Emergency Location Identification Number) für einen PSTN-basierten E9-1-1-Dienstanbieter bereitstellen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md">Enhanced 9-1-1 (E9-1-1) und Vermittlungsserver in lync Server 2013</A>. Ausführliche Informationen zum Konfigurieren von trunk Verbindungen finden Sie unter <A href="lync-server-2013-configure-a-trunk-with-media-bypass.md">Konfigurieren eines Trunks mit medienumgehung in lync Server 2013</A>.
 
 
 
@@ -59,11 +59,11 @@ Ausführliche Informationen zur Planung einer E9-1-1-Bereitstellung finden Sie u
 
   - [Konfigurieren einer E9-1-1-VoIP-Route in lync Server 2013](lync-server-2013-configure-an-e9-1-1-voice-route.md)
 
-  - [Erstellen von Standortrichtlinien in lync Server 2013](lync-server-2013-create-location-policies.md)
+  - [Erstellen von ortungsrichtlinien in lync Server 2013](lync-server-2013-create-location-policies.md)
 
   - [Konfigurieren von Website Informationen für E9-1-1 in lync Server 2013](lync-server-2013-configure-site-information-for-e9-1-1.md)
 
-  - [Configure the location database in Lync Server 2013](lync-server-2013-configure-the-location-database.md)
+  - [Konfigurieren der Standortdatenbank in lync Server 2013](lync-server-2013-configure-the-location-database.md)
 
   - [Konfigurieren der erweiterten E9-1-1-Features in lync Server 2013](lync-server-2013-configure-advanced-e9-1-1-features.md)
 

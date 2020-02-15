@@ -12,16 +12,16 @@ ms:contentKeyID: 63969600
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c955da727a4213098a5b6af4f6fbb348bb60dd21
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8ad585ab12d874b7689aab6442ac913a06c8792f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745435"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030168"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745435"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-11-03_
+_**Letztes Änderungsstand des Themas:** 2014-11-03_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-11-03_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des <strong>Test-CsReplica-</strong> Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets <strong>Test-csreplica "</strong> verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsReplica&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,29 +66,29 @@ _**Letztes Änderungsdatum des Themas:** 2014-11-03_
 
 ## <a name="description"></a>Beschreibung
 
-Das Cmdlet **Test-CsReplica** überprüft, ob der lync Server 2013-Replikat Dienst auf dem lokalen Computer ausgeführt wird. Das Cmdlet " **Test-CsReplica** " führt Aufgaben wie die folgenden aus:
+Das Cmdlet **Test-csreplica "** überprüft, ob der lync Server 2013 Replikat Dienst auf dem lokalen Computer aktiv ist. Das Cmdlet **Test-csreplica "** erfüllt folgende Aufgaben:
 
-  - Überprüfen des Status des Replicator-Agents und der Dienste für zentralisierte Protokollierungs-Agents
+  - Überprüfen des Status des Replikations-Agents und der zentralisierten Protokollierungs-Agent-Dienste
 
   - Überprüfen, ob die erforderlichen Ports in der Windows-Firewall geöffnet wurden
 
-  - sicherstellen, dass die erforderlichen Active Directory-und lokalen Computersicherheitsgruppen vorhanden sind.
+  - sicherstellen, dass die erforderlichen Sicherheitsgruppen für Active Directory und lokale Computer vorhanden sind.
 
-Beachten Sie, dass dieses Cmdlet lokal ausgeführt werden muss. Das bedeutet, dass es auf dem Computer ausgeführt werden muss, auf dem der Replikat Dienst ausgeführt wird. Es gibt keine Optionen für das Ausführen des **Test-CsReplica-** Cmdlets für einen Remoteserver.
+Beachten Sie, dass dieses Cmdlet lokal ausgeführt werden muss. Das heißt, Sie muss auf demselben Computer ausgeführt werden, auf dem der Replikat Dienst ausgeführt wird. Es gibt keine Optionen zum Ausführen des **Test-csreplica "-** Cmdlets für einen Remoteserver.
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Der in Beispiel 1 gezeigte Befehl testet den lync Server 2013-Replikat Dienst auf dem lokalen Computer. In diesem Beispiel wird der Verbose-Parameter verwendet, um sicherzustellen, dass Informationen über den Test – einschließlich des eventuellen Fehlers oder des Erfolgs des Tests und der Position des vom Test generierten Berichts – auf dem Bildschirm angezeigt werden.
+Der in Beispiel 1 gezeigte Befehl testet den lync Server 2013 Replikat Dienst auf dem lokalen Computer. In diesem Beispiel wird der Verbose-Parameter verwendet, um sicherzustellen, dass Informationen zum Test – einschließlich des eventuellen Fehlers oder des Erfolgs des Tests und des Standorts des Berichts, der durch den Test generiert wird – auf dem Bildschirm angezeigt werden.
 
     Test-CsReplica -Verbose
 
-Beispiel 2 ist eine Variation des Befehls, die in Beispiel 1 gezeigt wird. In diesem Fall ist der Berichtsparameter enthalten, um einen Ordnerpfad und einen Namen für den vom Test generierten Bericht anzugeben. Wenn Sie keinen Berichtspfad angeben, erhält der Bericht einen automatisch generierten Namen, der wie folgt lautet:
+Beispiel 2 ist eine Variante des Befehls in Beispiel 1. In diesem Fall ist der Parameter Report enthalten, um einen Ordnerpfad und-Namen für den vom Test generierten Bericht anzugeben. Wenn Sie keinen Berichtspfad angeben, erhält der Bericht einen automatisch generierten Namen, der dem folgenden ähnelt:
 
-C:\\Benutzer\\Administrator. "litwareinc\\APPDATA\\local\\Temp\\1\\Test-CS-Replica-3db40ee0-4b5d-4f58-8d3d-b1e61253129e. html
+C:\\Benutzer\\Administrator. litwareinc\\APPDATA\\local\\Temp\\1\\Test-CS-Replica-3db40ee0-4b5d-4f58-8d3d-b1e61253129e. html
 
     Test-CsReplica -Verbose -Report C:\Logs\ReplicaTest.html
 
@@ -96,49 +96,49 @@ C:\\Benutzer\\Administrator. "litwareinc\\APPDATA\\local\\Temp\\1\\Test-CS-Repli
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
 Abschnittstext hier einfügen.
 
-Ausführlich: Erstellen einer neuen Protokolldatei "C:\\Benutzer\\testen\\APPDATA\\local\\Temp\\Test-CsReplica-3cb066b3-dd23-411a-8932-99f01c0f940c. xml".
+Ausführlich: Erstellen einer neuen Protokolldatei "C:\\Benutzer\\testen\\APPDATA\\local\\Temp\\Test-csreplica"-3cb066b3-dd23-411a-8932-99f01c0f940c. xml ".
 
-Ausführlich: Erstellen einer neuen Protokolldatei "C:\\Benutzer\\testen\\APPDATA\\local\\Temp\\Test-CsReplica-3cb066b3-dd23-411a-8932-99f01c0f940c. xml".
+Ausführlich: Erstellen einer neuen Protokolldatei "C:\\Benutzer\\testen\\APPDATA\\local\\Temp\\Test-csreplica"-3cb066b3-dd23-411a-8932-99f01c0f940c. xml ".
 
-Ausführlich: die Verarbeitung von "Test-CsReplica" wurde erfolgreich abgeschlossen.
+Verbose: die Verarbeitung von "Test-csreplica" "wurde erfolgreich abgeschlossen.
 
-Ausführlich: detaillierte Ergebnisse finden Sie unter "C\\: Benutzer\\testen\\APPDATA\\local\\Temp\\Test-CsReplica-3cb066b3-dd23-411a-8932-99f01c0f940c. xml".
+Ausführlich: detaillierte Ergebnisse finden Sie unter "C\\: Users\\testing\\APPDATA\\local\\Temp\\Test-csreplica"-3cb066b3-dd23-411a-8932-99f01c0f940c. xml ".
 
 Ausführlich: Erstellen einer neuen Protokolldatei
 
-"C:\\Benutzer\\testen\\APPDATA\\local\\Temp\\2\\Test-CsReplica-29fddb35-f56e-4e3c-8f4c-e
+"C:\\Benutzer\\testen\\APPDATA\\local\\Temp\\2\\Test-csreplica"-29fddb35-f56e-4e3c-8f4c-e
 
 d3bd0e4a083. xml ".
 
 Ausführlich: Erstellen einer neuen Protokolldatei
 
-"C:\\Benutzer\\testen\\APPDATA\\local\\Temp\\2\\Test-CsReplica-29fddb35-f56e-4e3c-8f4c-e
+"C:\\Benutzer\\testen\\APPDATA\\local\\Temp\\2\\Test-csreplica"-29fddb35-f56e-4e3c-8f4c-e
 
 d3bd0e4a083. html ".
 
-Warnung: Test-CsReplica ist fehlgeschlagen.
+Warnung: Fehler bei Test-csreplica ".
 
 Warnung: detaillierte Ergebnisse finden Sie unter
 
-"C:\\Benutzer\\testen\\APPDATA\\local\\Temp\\2\\Test-CsReplica-29fddb35-f56e-4e3c-8f4c-e
+"C:\\Benutzer\\testen\\APPDATA\\local\\Temp\\2\\Test-csreplica"-29fddb35-f56e-4e3c-8f4c-e
 
 d3bd0e4a083. html ".
 
-Test-CsReplica: Fehler bei der Befehlsausführung: der angeforderte Registrierungszugriff ist nicht
+Test-csreplica ": Fehler bei Befehlsausführung: der angeforderte Registrierungszugriff ist nicht
 
-zulässig.
+erlaubt.
 
-Zeile: 1 Zeichen: 1
+In der Reihe: 1 Char: 1
 
-\+Test-CsReplica-Verbose
+\+Test-csreplica "-Verbose
 
 \+ ~~~~~~~~~~~~~~~~~~~~~~~
 
-\+CategoryInfo: InvalidOperation: (:) \[Test-CsReplica\], Sicherheit
+\+CategoryInfo: InvalidOperation: (:) \[Test-csreplica "\], Sicherheit
 
 Ausnahme
 
@@ -146,29 +146,29 @@ Ausnahme
 
 ment. TestReplicaCmdlet
 
-PS C:\\testen\\der Benutzer\>
+PS C:\\testen\\von Benutzern\>
 
 PS C:\\Benutzer\\testen\> Test-CsUcwaConference-TargetFqdn "LyncTest. SelfHost. Corp. M
 
 icrosoft.com "
 
-Warnung: Fehler beim Lesen der Registrierungsstellen-Portnummer für die angegebene vollqualifizierte
+Warnung: Fehler beim Lesen der Registrierungs Portnummer für die angegebene vollqualifizierte
 
-Domänenname (FQDN). Verwenden der standardmäßigen Registrierungs Portnummer Ausnahme
+Domänenname (FQDN). Verwenden der standardmäßigen Registrierungsstellen-Portnummer. Ausnahme
 
 System. InvalidOperationException: kein übereinstimmender Cluster in der Topologie gefunden.
 
-am
+auf
 
 Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryRetri
 
 eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Test-CsUcwaConference: Es wurde kein Testbenutzer zugewiesen
+Test-CsUcwaConference: Es ist kein Testbenutzer zugewiesen
 
-\[LyncTest.SelfHost.Corp.Microsoft.com\]. Überprüfen Sie die Benutzerkonfiguration testen.
+\[LyncTest.SelfHost.Corp.Microsoft.com\]. Überprüfen Sie die Konfiguration des Testbenutzers.
 
-Zeile: 1 Zeichen: 1
+In der Reihe: 1 Char: 1
 
 \+Test-CsUcwaConference-TargetFqdn "LyncTest.SelfHost.Corp.Microsoft.com"
 
@@ -188,13 +188,13 @@ eticTransactions.TestUcwaConferenceCmdlet
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Nachfolgend finden Sie einige häufige Gründe, warum **Test-CsReplica** möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, warum das **Testen von csreplica "** möglicherweise fehlschlägt:
 
-  - Möglicherweise liegt ein größeres Problem mit dem Replicator-Agent und den zentralen Protokollierungs-Agent-Diensten vor.
+  - Möglicherweise liegt ein größeres Problem mit dem Replikations-Agent und den zentralisierten Protokollierungs-Agent-Diensten vor.
 
   - Die erforderlichen Ports sind möglicherweise nicht in der Windows-Firewall geöffnet.
 
-  - Die erforderlichen Active Directory-und lokalen Computersicherheitsgruppen sind möglicherweise nicht vorhanden
+  - Die erforderlichen Active Directory und lokale Computersicherheitsgruppen sind möglicherweise nicht vorhanden.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185367
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06372be3808f3855bc0172cc408308a0c9c9cab2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4fbead49c200ab1b679ef9b4ffa3d9b03bb72cd5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734015"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030058"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,65 +35,65 @@ ms.locfileid: "41734015"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-10-24_
+_**Letztes Änderungsstand des Themas:** 2013-10-24_
 
-Führen Sie den folgenden Befehl in der lync Server 2013-Verwaltungsshell aus, um zu ermitteln, ob ein Server-zu-Server-Authentifizierungszertifikat bereits Microsoft lync Server 2013 zugewiesen wurde:
+Um zu ermitteln, ob Microsoft lync Server 2013 bereits ein Server-zu-Server-Authentifizierungszertifikat zugewiesen wurde, führen Sie den folgenden Befehl in der lync Server 2013-Verwaltungsshell aus:
 
     Get-CsCertificate -Type OAuthTokenIssuer
 
-Wenn keine Zertifikatinformationen zurückgegeben werden, müssen Sie ein Token-Ausstellerzertifikat zuweisen, bevor Sie die Server-zu-Server-Authentifizierung verwenden können. In der Regel kann jedes lync Server 2013-Zertifikat als OAuthTokenIssuer-Zertifikat verwendet werden. So kann beispielsweise das Standardzertifikat von lync Server 2013 auch als OAuthTokenIssuer-Zertifikat verwendet werden. (Das OAUthTokenIssuer-Zertifikat kann auch ein beliebiges Webserverzertifikat sein, das den Namen Ihrer SIP-Domäne im Feld Betreff enthält.) Die primären beiden Anforderungen für das für die Server-zu-Server-Authentifizierung verwendete Zertifikat sind: 1) dasselbe Zertifikat muss auf allen Front-End-Servern als OAuthTokenIssuer-Zertifikat konfiguriert sein. und 2) das Zertifikat muss mindestens 2048 Bits aufweisen.
+Wenn keine Zertifikatinformationen zurückgegeben werden, müssen Sie ein Token-Ausstellerzertifikat zuweisen, bevor Sie die Server-zu-Server-Authentifizierung verwenden können. Allgemein gilt, dass lync Server 2013 Zertifikat als OAuthTokenIssuer-Zertifikat verwendet werden kann. Beispielsweise kann das lync Server 2013 Standardzertifikat auch als OAuthTokenIssuer-Zertifikat verwendet werden. (Das OAUthTokenIssuer-Zertifikat kann auch ein beliebiges Webserverzertifikat sein, das den Namen der SIP-Domäne im Feld Betreff enthält.) Die primären zwei Anforderungen für das Zertifikat, das für die Server-zu-Server-Authentifizierung verwendet wird, sind folgende: 1) das gleiche Zertifikat muss als OAuthTokenIssuer-Zertifikat auf allen Front-End-Servern konfiguriert sein. und, 2) das Zertifikat muss mindestens 2048 Bits sein.
 
-Wenn Sie über kein Zertifikat verfügen, das für die Server-zu-Server-Authentifizierung verwendet werden kann, können Sie ein neues Zertifikat beziehen, das neue Zertifikat importieren und anschließend für die Server-zu-Server-Authentifizierung verwenden. Nachdem Sie das neue Zertifikat angefordert und erhalten haben, können Sie sich bei einem der Front-End-Server anmelden und einen Windows PowerShell-Befehl wie den folgenden verwenden, um das Zertifikat zu importieren und zuzuweisen:
+Wenn Sie nicht über ein Zertifikat verfügen, das für die Server-zu-Server-Authentifizierung verwendet werden kann, können Sie ein neues Zertifikat erhalten, das neue Zertifikat importieren und dann dieses Zertifikat für die Server-zu-Server-Authentifizierung verwenden. Nachdem Sie das neue Zertifikat angefordert und erhalten haben, können Sie sich dann bei einem beliebigen Front-End-Server anmelden und einen Windows PowerShell-Befehl wie den folgenden verwenden, um dieses Zertifikat zu importieren und zuzuweisen:
 
     Import-CsCertificate -Identity global -Type OAuthTokenIssuer -Path C:\Certificates\ServerToServerAuth.pfx  -Password "P@ssw0rd"
 
-Im vorangehenden Befehl stellt der path-Parameter den vollständigen Pfad zur Zertifikatsdatei dar, und der Parameter Password steht für das Kennwort, das dem Zertifikat zugewiesen wurde. Diese Vorgehensweisesollte nur einmal ausgeführt werden: der Replikationsdienst von lync Server erstellt dann automatisch einen Satz von geplanten Aufgaben, mit denen das Zertifikat entschlüsselt und auf allen Front-End-Servern bereitgestellt wird.
+Im vorherigen Befehl stellt der Parameter path den vollständigen Pfad zur Zertifikatsdatei dar, und der Parameter Password stellt das Kennwort dar, das dem Zertifikat zugewiesen wurde. Dieses Verfahren sollte nur einmal ausgeführt werden: der Replikationsdienst von lync Server erstellt dann automatisch eine Reihe geplanter Aufgaben, mit denen das Zertifikat auf allen Front-End-Servern entschlüsselt und bereitgestellt wird.
 
-Alternativ können Sie ein vorhandenes Zertifikat als Server-zu-Server-Authentifizierungszertifikat verwenden. (Wie bereits erwähnt, kann das Standardzertifikat als Server-zu-Server-Authentifizierungszertifikat verwendet werden.) Das folgende Paar von Windows PowerShell-Befehlen Ruft den Wert der Eigenschaft "Fingerabdruck" des Standardzertifikats ab und verwendet diesen Wert, um das Standardzertifikat zum Server-zu-Server-Authentifizierungszertifikat zu machen:
+Alternativ können Sie ein vorhandenes Zertifikat als Server-zu-Server-Authentifizierungszertifikat verwenden. (Wie bereits erwähnt, kann das Standardzertifikat als Server-zu-Server-Authentifizierungszertifikat verwendet werden.) Das folgende paar Windows PowerShell Befehle Ruft den Wert der Eigenschaft "Fingerabdruck" des Standardzertifikats ab und verwendet diesen Wert, um das Standardzertifikat als Server-zu-Server-Authentifizierungszertifikat festzustellen:
 
     $x = (Get-CsCertificate -Type Default).Thumbprint
     Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x
 
-Im vorhergehenden Befehl ist das abgerufene Zertifikat so konfiguriert, dass es als globales Server-zu-Server-Authentifizierungszertifikat dient. Das bedeutet, dass das Zertifikat an alle Ihre Front-End-Server repliziert und von diesen verwendet wird. Dieser Befehl sollte erneut nur einmal und nur auf einem der Front-End-Server ausgeführt werden. Obwohl alle Front-End-Server dasselbe Zertifikat verwenden müssen, sollten Sie das OAuthTokenIssuer-Zertifikat nicht auf jedem Front-End-Server konfigurieren. Konfigurieren Sie stattdessen das Zertifikat einmal, und lassen Sie den Replikationsserver von lync Server dafür sorgen, dass das Zertifikat auf jeden Server kopiert wird.
+Im vorherigen Befehl ist das abgerufene Zertifikat für die Funktion als globales Server-zu-Server-Authentifizierungszertifikat konfiguriert. Das bedeutet, dass das Zertifikat auf allen Front-End-Servern repliziert und von diesen verwendet wird. Dieser Befehl sollte wiederum nur einmal und nur auf einem Ihrer Front-End-Server ausgeführt werden. Obwohl alle Front-End-Server dasselbe Zertifikat verwenden müssen, sollten Sie das OAuthTokenIssuer-Zertifikat nicht auf jeder Front-End-Server konfigurieren. Konfigurieren Sie das Zertifikat stattdessen einmal, und überlassen Sie es dem Replikations Server von lync Server, dieses Zertifikat auf jeden Server zu kopieren.
 
-Das Cmdlet "festlegen-CsCertificate" übernimmt das fragliche Zertifikat und konfiguriert dieses Zertifikat sofort so, dass es als Aktuelles OAuthTokenIssuer-Zertifikat fungiert. (Lync Server 2013 speichert zwei Kopien eines Zertifikatstyps: das aktuelle Zertifikat und das vorherige Zertifikat.) Wenn Sie möchten, dass das neue Zertifikat sofort als OAuthTokenIssuer-Zertifikat fungiert, sollten Sie das Cmdlet "CsCertificate" verwenden.
+Das Cmdlet "CsCertificate" übernimmt das betreffende Zertifikat und konfiguriert dieses Zertifikat sofort als Aktuelles OAuthTokenIssuer-Zertifikat. (Lync Server 2013 zwei Kopien eines Zertifikattyps aufbewahrt: das aktuelle Zertifikat und das vorherige Zertifikat.) Wenn das neue Zertifikat sofort als OAuthTokenIssuer-Zertifikat fungieren soll, sollten Sie das Cmdlet "CsCertificate" verwenden.
 
-Sie können auch das Cmdlet "Satz-CsCertificate" verwenden, um ein neues Zertifikat zu "Rollen". Das "Rollen" eines Zertifikats bedeutet einfach, dass Sie ein neues Zertifikat so konfigurieren, dass es zu einem bestimmten Zeitpunkt zum aktuellen OAuthTokenIssuer-Zertifikat wird. Mit diesem Befehl wird beispielsweise das Standardzertifikat abgerufen und dann dieses Zertifikat so konfiguriert, dass es vom 1. Juli 2012 als Aktuelles OAuthTokenIssuer-Zertifikat übertragen wird:
+Sie können auch das Cmdlet "CsCertificate" verwenden, um ein neues Zertifikat zu "Rollen". "Rolling" ein Zertifikat bedeutet einfach, dass Sie ein neues Zertifikat zu einem bestimmten Zeitpunkt als Aktuelles OAuthTokenIssuer-Zertifikat konfigurieren. Dieser Befehl ruft beispielsweise das Standardzertifikat ab und konfiguriert dann das Zertifikat für die Übernahme als Aktuelles OAuthTokenIssuer-Zertifikat vom 1. Juli 2012:
 
     $x = (Get-CsCertificate -Type Default).Thumbprint
     Set-CsCertificate -Identity global -Type OAuthTokenIssuer -Thumbprint $x -EffectiveDate "7/1/2012" -Roll
 
-Am 1. Juli 2012 wird das neue Zertifikat als Aktuelles OAuthTokenIssuer-Zertifikat konfiguriert, und das "alte" OAuthTokenIssuer-Zertifikat wird als Vorheriges Zertifikat konfiguriert.
+Am 1. Juli 2012 wird das neue Zertifikat als Aktuelles OAuthTokenIssuer-Zertifikat konfiguriert, und das alte OAuthTokenIssuer-Zertifikat wird als das vorherige Zertifikat konfiguriert.
 
-Wenn Sie Windows PowerShell nicht verwenden möchten, können Sie auch die MMC-Konsole Zertifikate verwenden, um ein Zertifikat von einem Front-End-Server zu exportieren und dieses Zertifikat dann auf allen anderen Front-End-Servern zu importieren. Dabei müssen Sie unbedingt den privaten Schlüssel zusammen mit dem Zertifikat selbst exportieren.
+Wenn Sie Windows PowerShell nicht verwenden möchten, können Sie auch die MMC-Konsole Zertifikate verwenden, um ein Zertifikat aus einem Front-End-Server zu exportieren und dieses Zertifikat dann auf allen anderen Front-End-Servern zu importieren. Wenn Sie dies tun, stellen Sie sicher, dass Sie den privaten Schlüssel zusammen mit dem Zertifikat selbst exportieren.
 
 <div>
 
 
 > [!WARNING]
-> In diesem Fall muss die Prozedur auf jedem Front-End-Server ausgeführt werden. Wenn Sie Zertifikate auf diese Weise exportieren und importieren, repliziert lync Server 2013 dieses Zertifikat nicht auf jeden Front-End-Server.
+> In diesem Fall muss die Prozedur für jede Front-End-Server ausgeführt werden. Beim Exportieren und Importieren von Zertifikaten auf diese Weise werden lync Server 2013 dieses Zertifikat nicht für jeden Front-End-Server repliziert.
 
 
 
 </div>
 
-Nachdem das Zertifikat auf alle Ihre Front-End-Server importiert wurde, kann dieses Zertifikat mithilfe des lync Server-Bereitstellungs-Assistenten anstelle von Windows PowerShell zugewiesen werden. Führen Sie zum Zuweisen eines Zertifikats mithilfe des Bereitstellungs-Assistenten die folgenden Schritte auf einem Computer aus, auf dem der Bereitstellungs-Assistent installiert wurde:
+Nachdem das Zertifikat auf alle Front-End-Server importiert wurde, kann dieses Zertifikat mithilfe des lync Server-Bereitstellungs-Assistenten anstelle von Windows PowerShell zugewiesen werden. Wenn Sie ein Zertifikat mithilfe des Bereitstellungs-Assistenten zuweisen möchten, führen Sie die folgenden Schritte auf einem Computer aus, auf dem der Bereitstellungs-Assistent installiert wurde:
 
-1.  Klicken Sie auf Start, klicken Sie auf alle Programme, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Bereitstellungs-Assistent**.
+1.  Klicken Sie im Startmenü auf alle Programme, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Bereitstellungs-Assistent**.
 
-2.  Klicken Sie im Bereitstellungs-Assistenten auf **lync Server System installieren oder aktualisieren**.
+2.  Klicken Sie im Bereitstellungs-Assistenten auf **Lync Server-System installieren oder aktualisieren**.
 
-3.  Klicken Sie auf der Microsoft lync Server 2013-Seite unter der Überschrift **Schritt 3: anfordern, installieren oder Zuweisen von Zertifikaten**auf die Schaltfläche **Ausführen** . (Hinweis: Falls Sie auf diesem Computer bereits Zertifikate installiert haben, heißt die Schaltfläche nicht **Ausführen**, sondern **Erneut ausführen**.)
+3.  Klicken Sie auf der Seite Microsoft lync Server 2013 unter der Überschrift **Schritt 3: Zertifikate anfordern, installieren oder zuweisen**auf die Schaltfläche **Ausführen** . (Hinweis: Wenn Sie bereits Zertifikate auf diesem Computer installiert haben, wird die Schaltfläche **Ausführen** erneut mit der Bezeichnung **Run**versehen.)
 
-4.  Wählen Sie im Zertifikat-Assistenten das Zertifikat **OAuthTokenIssuer** aus und klicken Sie auf **Zuweisen**.
+4.  Wählen Sie im Zertifikat-Assistenten das **OAuthTokenIssuer** -Zertifikat aus, und klicken Sie dann auf **zuweisen**.
 
-5.  Klicken Sie im Zertifikatzuweisungs-Assistenten auf der Seite **Zertifikatzuweisung** auf **Weiter**.
+5.  Klicken Sie im Assistenten für die zertifikatzuweisung auf der Seite **zertifikatzuweisung** auf **weiter**.
 
-6.  Wählen Sie auf der Seite **Zertifikatspeicher** das Zertifikat aus, das für die Server-zu-Server-Authentifizierung verwendet werden soll und klicken Sie dann auf **Weiter**.
+6.  Wählen Sie auf der Seite **Zertifikatspeicher** das Zertifikat aus, das für die Server-zu-Server-Authentifizierung verwendet werden soll, und klicken Sie dann auf **weiter**.
 
-7.  Klicken Sie auf der Seite für die Zusammenfassung der Zertifikatzuweisung auf **Weiter**.
+7.  Klicken Sie auf der Seite Zusammenfassung der Zertifikatzuweisung auf **Weiter**.
 
-8.  Klicken Sie auf der Seite „Befehle ausführen“ auf **Fertigstellen**.
+8.  Klicken Sie auf der Seite Befehle ausführen auf **Fertig stellen**.
 
 9.  Schließen Sie den Zertifikat-Assistenten und den Bereitstellungs-Assistenten.
 

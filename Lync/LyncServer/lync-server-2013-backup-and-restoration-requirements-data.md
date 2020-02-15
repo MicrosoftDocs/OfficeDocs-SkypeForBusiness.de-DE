@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Sicherungs-und Wiederherstellungsanforderungen: Daten'
+title: 'Lync Server 2013: Anforderungen an die Sicherung und Wiederherstellung: Daten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9b9f077e0f9d7c4137844b2cba352b096fdb564
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4688c143a16ffd7113a03172274436f7c1371694
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730425"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029226"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backup-and-restoration-requirements-in-lync-server-2013-data"></a>Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Daten
+# <a name="backup-and-restoration-requirements-in-lync-server-2013-data"></a>Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Data
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41730425"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-26_
+_**Letztes Änderungsstand des Themas:** 2013-03-26_
 
-Lync Server verwendet Einstellungen und Konfigurationsinformationen, die in Datenbanken gespeichert sind, und Daten, die in Datenbanken und Datei speichern gespeichert sind. In diesem Thema werden die Daten beschrieben, die Sie sichern müssen, damit der Dienst wiederhergestellt werden kann, wenn in Ihrer Organisation ein Fehler oder ein Ausfall auftritt, und außerdem die von lync Server verwendeten Daten und Komponenten identifiziert werden, die separat gesichert werden müssen.
+Lync Server verwendet Einstellungen und Konfigurationsinformationen, die in Datenbanken gespeichert sind, sowie Daten, die in Datenbanken und Datei speichern gespeichert sind. In diesem Thema werden die Daten beschrieben, die Sie sichern müssen, damit der Dienst wiederhergestellt werden kann, wenn in Ihrer Organisation ein Fehler oder Ausfall auftritt, sowie die von lync Server verwendeten Daten und Komponenten identifiziert werden, die separat gesichert werden müssen.
 
 <div>
 
 ## <a name="settings-and-configuration-requirements"></a>Einstellungen und Konfigurationsanforderungen
 
-Dieses Thema enthält Verfahren zum Sichern und Wiederherstellen der Einstellungen und Konfigurationsinformationen, die für die Wiederherstellung des lync Server-Diensts erforderlich sind. Die Konfigurationsinformationen befinden sich im zentralen Verwaltungsspeicher oder in einer anderen Back-End-Datenbank oder auf dem Standard Edition-Server.
+Dieses Thema enthält Verfahren zum Sichern und Wiederherstellen der Einstellungen und Konfigurationsinformationen, die für die Wiederherstellung des lync Server Diensts erforderlich sind. Die Konfigurationsinformationen befinden sich im zentralen Verwaltungsspeicher oder in einer anderen Back-End-Datenbank oder auf Standard Edition-Server.
 
 In der folgenden Tabelle sind die Einstellungen und Konfigurationsinformationen aufgeführt, die Sie sichern und wiederherstellen müssen.
 
@@ -57,29 +57,29 @@ In der folgenden Tabelle sind die Einstellungen und Konfigurationsinformationen 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Art der Daten</th>
-<th>Wo gespeichert</th>
-<th>Beschreibung/wann sichern</th>
+<th>Datentyp</th>
+<th>Speicherort</th>
+<th>Beschreibung/Sicherungszeitpunkt</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Informationen zur Topologie-Konfiguration</p></td>
+<td><p>Topologiekonfigurationsinformationen</p></td>
 <td><p>Zentraler Verwaltungsspeicher (Datenbank: XDS. mdf)</p></td>
-<td><p>Topologie-, Richtlinien-und Konfigurationseinstellungen.</p>
-<p>Sichern Sie Ihre regelmäßigen Sicherungen und nachdem Sie die lync Server-Systemsteuerung oder Cmdlets verwendet haben, um Ihre Konfiguration oder Richtlinien zu ändern.</p></td>
+<td><p>Topologie, Richtlinie und Konfigurationseinstellungen.</p>
+<p>Sichern Sie sich mit ihren regulären Sicherungen und nachdem Sie lync Server-Systemsteuerung oder Cmdlets zum Ändern Ihrer Konfiguration oder Richtlinien verwendet haben.</p></td>
 </tr>
 <tr class="even">
 <td><p>Standortinformationen</p></td>
 <td><p>Zentraler Verwaltungsspeicher (Datenbank: Lis. mdf)</p></td>
-<td><p>Enterprise Voice Enhanced 9-1-1 (E9-1-1)-Konfigurationsinformationen. Diese Informationen sind in der Regel statisch.</p>
-<p>Sichern Sie Ihre normalen Backups.</p></td>
+<td><p>Enterprise-VoIP-Konfigurationsinformationen für 9-1-1 (erweitert) (E9-1-1). Diese Informationen sind im Allgemeinen statisch.</p>
+<p>Sicherung im Rahmen der regulären Sicherungen.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Konfigurationsinformationen zur Reaktionsgruppe</p></td>
+<td><p>Informationen zur Reaktionsgruppenkonfiguration</p></td>
 <td><p>Back-End-Server oder Standard Edition-Server (Datenbank: RgsConfig. mdf)</p></td>
-<td><p>Gruppen, Warteschlangen und Workflows für Reaktionsgruppen-Agents</p>
-<p>Sichern Sie mit ihren regulären Sicherungen und nach dem Hinzufügen oder Ändern von Agentengruppen, Warteschlangen oder Workflows.</p></td>
+<td><p>Gruppen, Warteschlangen und Workflows für Reaktionsgruppen-Agents.</p>
+<p>Sicherung im Rahmen der regulären Sicherungen und nach dem Hinzufügen oder Ändern von Agentgruppen, Warteschlangen oder Workflows.</p></td>
 </tr>
 </tbody>
 </table>
@@ -91,21 +91,21 @@ In der folgenden Tabelle sind die Einstellungen und Konfigurationsinformationen 
 
 ## <a name="data-requirements"></a>Datenanforderungen
 
-Nachfolgend finden Sie eine Liste der lync Server-Daten, die Sie sichern müssen, damit Sie den lync Server-Dienst im Fall eines Fehlers wiederherstellen können.
+Im folgenden finden Sie eine Liste der lync Server Daten, die Sie sichern müssen, damit Sie lync Server Dienst im Falle eines Fehlers wiederherstellen können.
 
-Beachten Sie, dass für die Wiederherstellung einige Datentypen nicht erforderlich sind. Dieses Thema enthält keine Verfahren zum Sichern dieser Datentypen, einschließlich der folgenden:
+Beachten Sie, dass einige Datentypen für die Wiederherstellung nicht erforderlich sind. Dieses Thema enthält keine Verfahren zum Sichern dieser Datentypen, einschließlich der folgenden:
 
-  - Vorübergehende Benutzerdaten wie Endpunkte und Abonnements, aktive Konferenzserver und transiente Konferenz Zustände (Datenbank: RtcDyn. mdf)
+  - Temporäre Benutzerdaten, wie z. B. Endgeräte und Abonnements, aktive Konferenzserver und vorübergehende Konferenzstatus (Datenbank: RtcDyn.mdf)
 
-  - Adressbuchdaten (Datenbanken: RTCAb. mdf und Rtcab1. mdf). Die Adressbuchdatenbank wird automatisch aus den Active Directory-Domänendiensten neu erstellt.
+  - Adressbuchdaten (Datenbanken: RTCAb. mdf und Rtcab1. mdf). Die Adressbuchdatenbank wird automatisch aus Active Directory-Domänendienste neu generiert.
 
-  - Dynamische Informationen für die Anwendung des Anruf Parks (Datenbank: CpsDyn. mdf)
+  - Dynamische Informationen für den Anwendung zum Parken von Anrufen (Datenbank: CpsDyn. mdf)
 
-  - Flüchtige Antwortgruppen Daten wie Agenten-Anmeldestatus und warte Informationen für Anrufe (Datenbank: RgsDyn. mdf)
+  - Transiente Reaktionsgruppen Daten wie Agent-Anmeldestatus und warte Informationen für Anrufe (Datenbank: RgsDyn. mdf)
 
-  - Die Kompatibilitätsdatenbank für beständigen Chat (Datenbank: MgcComp. mdf). Wenn die Compliance für beständigen Chat aktiviert ist, sind die Informationen in der beständigen Chat-Kompatibilitätsdatenbank vorübergehend, solange Sie über einen Adapter verfügen, der zum Lesen von Informationen aus der Datenbank konfiguriert ist und in ein anderes Format konvertiert werden kann. Daher gilt die Compliance-Datenbank für beständigen Chat als vorübergehend.
+  - Die Kompatibilitätsdatenbank für den beständigen Chat (Datenbank: MgcComp. mdf). Wenn Sie die Compliance für beständigen Chat aktiviert haben, sind die Informationen in der Kompatibilitätsdatenbank für beständigen Chat vorübergehend, solange Sie einen Adapter konfiguriert haben, um Informationen aus der Datenbank zu lesen und in ein alternatives Format zu konvertieren. Die Kompatibilitätsdatenbank für den beständigen Chat wird daher als vorübergehend betrachtet.
     
-    Lync Server 2013 beständiger Chat Server wird mit einem XML-Adapter ausgeliefert. Sie können auch benutzerdefinierte Adapter installieren, die diese Daten übernehmen und in andere Quellen, wie etwa Exchange Hosted Archives, verschieben.
+    Beständiger Chat von lync Server 2013 Server wird mit einem XML-Adapter ausgeliefert. Sie können auch benutzerdefinierte Adapter installieren, die diese Daten entgegennehmen und in andere Quellen wie Exchange Hosted Archives migrieren.
 
 In der folgenden Tabelle sind die Daten aufgeführt, die Sie sichern und wiederherstellen müssen.
 
@@ -119,39 +119,39 @@ In der folgenden Tabelle sind die Daten aufgeführt, die Sie sichern und wiederh
 </colgroup>
 <thead>
 <tr class="header">
-<th>Art der Daten</th>
-<th>Wo gespeichert</th>
-<th>Beschreibung/wann sichern</th>
+<th>Datentyp</th>
+<th>Speicherort</th>
+<th>Beschreibung/Sicherungszeitpunkt</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Beständige Benutzerdaten</p></td>
-<td><p>Back-End-Server oder Standard Edition-Server (Datenbank: RTCXDS. mdf)</p></td>
-<td><p>Benutzerrechte, Benutzer Kontaktlisten, Server-oder Pooldaten, geplante Konferenzen usw. Diese Benutzerdaten beinhalten keine Inhalte, die in eine Konferenz hochgeladen wurden.</p>
-<p>Sichern Sie Ihre normalen Backups. Diese Informationen sind dynamisch, doch der Verlust von Updates ist für lync Server nicht katastrophal, wenn Sie die letzte reguläre Sicherung wiederherstellen müssen. Wenn Kontaktlisten für Ihre Organisation wichtig sind, können Sie diese Daten häufiger sichern.</p></td>
+<td><p>Dauerhafte Benutzerdaten</p></td>
+<td><p>Back-End-Server oder Standard Edition-Server (Datenbank: "rtcxds". mdf)</p></td>
+<td><p>Benutzerrechte, Benutzerkontaktlisten, Server- oder Pooldaten, geplante Konferenzen usw. In eine Konferenz hochgeladene Inhalte sind in diesen Benutzerdaten nicht enthalten.</p>
+<p>Sicherung im Rahmen der regulären Sicherungen. Diese Informationen sind dynamisch, aber der Verlust von Updates ist für lync Server nicht katastrophal, wenn Sie die letzte reguläre Sicherung wiederherstellen müssen. Sie können diese Daten häufiger sichern, wenn Kontaktlisten für Ihre Organisation eine wichtige Rolle spielen.</p></td>
 </tr>
 <tr class="even">
-<td><p>Archivieren von Daten</p></td>
-<td><p>Archivierungsdatenbank (Datenbank: LcsLog. mdf)</p>
-<p>Diese Daten werden möglicherweise auf Exchange 2013 gespeichert, wenn Sie die Microsoft Exchange-Integrations Option aktiviert haben. Andernfalls werden diese Daten in einer lync Server-Archivierungsdatenbank aufbewahrt, die sich möglicherweise mit einer anderen lync Server-Datenbank oder eigenständigen auf einem separaten Datenbankserver befindet.</p></td>
-<td><p>Instant Messaging (im) und Besprechungsinhalte.</p>
-<p>Diese Daten sind für lync Server nicht wichtig, können aber für Ihre Organisation für regulatorische Zwecke wichtig sein. Legen Sie den Sicherungszeitplan entsprechend fest.</p></td>
+<td><p>Archivierungsdaten</p></td>
+<td><p>Archivierungsdatenbank (Datenbank: LcsLog.mdf)</p>
+<p>Diese Daten können auf Exchange 2013 gespeichert werden, wenn Sie die Option Microsoft Exchange Integration aktiviert haben. Andernfalls werden diese Daten in einer lync Server Archivierungsdatenbank aufbewahrt, die möglicherweise mit einer anderen lync Server Datenbank oder eigenständig auf einem separaten Daten Bank Server verbunden ist.</p></td>
+<td><p>Instant Messaging (IM)- und Besprechungsinhalte.</p>
+<p>Diese Daten sind für lync Server nicht wichtig, aber Sie können für Ihre Organisation für regulatorische Zwecke von entscheidender Bedeutung sein. Legen Sie Ihren Sicherungszeitplan entsprechend fest.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Überwachen von Daten</p></td>
-<td><p>Überwachungsdatenbanken (LcsCDR. mdf und Datenbank QoEMetrics werden. mdf)</p>
-<p>Diese Datenbankenkönnen mit einer anderen lync Server-Datenbank oder eigenständigen auf einem separaten Datenbankserver bereitgestellt werden.</p></td>
-<td><p>Anruf Detaildatensätze (LcsCDR. mdf) und QoE-Metrik (Quality of Experience) (Datenbank QoEMetrics werden. mdf).</p>
-<p>Anruf Detaildatensätze sind dynamisch und können für Ihr Unternehmen von entscheidender Bedeutung sein. Ermitteln Sie den Sicherungszeitplan, indem Sie erwägen, ob Sie diese Einträge aus regulatorischen Gründen benötigen.</p>
-<p>Die Qualität der Erfahrungs Informationen ist dynamisch. Der Verlust von QoE-Daten ist für den Betrieb von lync Server nicht entscheidend, kann aber für Ihr Unternehmen von entscheidender Bedeutung sein. Ermitteln Sie den Sicherungszeitplan basierend auf der Wichtigkeit dieser Informationen für Ihre Organisation.</p></td>
+<td><p>Überwachungsdaten</p></td>
+<td><p>Überwachungsdatenbanken (LcsCDR.mdf und QoeMetrics.mdf)</p>
+<p>Diese Datenbankenkönnen mit einer anderen lync Server Datenbank oder eigenständig auf einem separaten Daten Bank Server zusammengestellt werden.</p></td>
+<td><p>Kommunikationsdatensätze (LcsCDR. mdf) und QoE-Metrik (Quality of Experience) (QoeMetrics. mdf).</p>
+<p>Kommunikationsdatensätze sind dynamisch und können für Ihr Unternehmen eine wichtige Rolle spielen. Berücksichtigen Sie bei der Festlegung Ihres Sicherungszeitplans, ob Sie diese Datensätze zur Einhaltung von Bestimmungen benötigen.</p>
+<p>QoE-Informationen sind dynamisch. Der Verlust von QoE-Daten ist für den Betrieb von lync Server nicht entscheidend, kann jedoch für Ihr Unternehmen von entscheidender Bedeutung sein. Berücksichtigen Sie bei der Festlegung Ihres Sicherungszeitplans, wie wichtig diese Informationen für Ihre Organisation sind.</p></td>
 </tr>
 <tr class="even">
-<td><p>Persistente Chat-Daten</p></td>
-<td><p>Persistent Chat-Datenbank (MGD. mdf).</p>
-<p>Diese Datenbank kann mit einer anderen lync Server-Datenbank oder eigenständigen auf einem separaten Datenbankserver bereitgestellt werden.</p></td>
-<td><p>Beständige Chat-Daten sind tatsächliche Chatinhalte, die in Chatrooms gepostet werden. Diese Daten sind häufig geschäftskritisch.</p>
-<p>Sie können die SQL Server-Sicherung verwenden oder die Datenbank mithilfe des Cmdlets <strong>Export-CsPersistentChatData</strong> exportieren, das in lync Server bereitgestellt wird. Zur Wiederherstellung der Daten können Sie die Datenbank bis zum Zeitpunkt der letzten vollständigen Sicherung importieren und wiederherstellen, was bedeutet, dass Sie die Datenbank nicht bis zum Zeitpunkt des Fehlers wiederherstellen können.</p></td>
+<td><p>Daten für beständigen Chat</p></td>
+<td><p>Datenbank für beständigen Chat (MGD. mdf).</p>
+<p>Diese Datenbank kann mit einer anderen lync Server Datenbank oder eigenständig auf einem separaten Daten Bank Server zusammengestellt werden.</p></td>
+<td><p>Daten für beständigen Chat sind tatsächliche Chatinhalte, die in Chatrooms veröffentlicht werden. Diese Daten sind oft geschäftskritisch.</p>
+<p>Sie können SQL Server Sicherung verwenden oder die Datenbank mithilfe des Cmdlets <strong>Export-CsPersistentChatData</strong> exportieren, das in lync Server bereitgestellt wird. Für die Wiederherstellung der Daten können Sie die Datenbank bis zum Ende der letzten vollständigen Sicherung importieren und wiederherstellen, was bedeutet, dass Sie die Datenbank nicht bis zum Fehler zurücksetzen können.</p></td>
 </tr>
 </tbody>
 </table>
@@ -163,11 +163,11 @@ In der folgenden Tabelle sind die Daten aufgeführt, die Sie sichern und wiederh
 
 ## <a name="file-store-data-requirements"></a>Dateispeicher-Datenanforderungen
 
-In einer Enterprise Edition-Bereitstellung befindet sich der lync Server-Dateispeicher normalerweise auf einem Datei Server. Bei einer Standard Edition-Bereitstellung befindet sich der lync Server-Dateispeicher standardmäßig auf dem Standard Edition-Server. In der Regel gibt es einen lync Server-Dateispeicher, der für eine Website freigegeben wurde. Der Dateispeicher für beständigen Chat verwendet dieselbe Dateifreigabe wie der lync Server-Dateispeicher.
+In einer Enterprise Edition-Bereitstellung befindet sich der lync Server Dateispeicher in der Regel auf einem Datei Server. In einer Standard Edition-Bereitstellung befindet sich der lync Server Dateispeicher standardmäßig auf dem Standard Edition-Server. In der Regel gibt es einen lync Server Dateispeicher, der für eine Website freigegeben ist. Der Dateispeicher für beständigen Chat verwendet dieselbe Dateifreigabe wie der lync Server Dateispeichers.
 
-Dateispeicherorte werden als \\ \\Server\\Freigabename identifiziert. Wenn Sie die spezifischen Speicherorte ihrer Dateispeicher finden möchten, öffnen Sie den Topologie-Generator, und schauen Sie im Knoten **Dateispeicher** nach.
+Speicherorte für Dateispeicher werden \\ \\als\\Serverfreigabe Name identifiziert. Um die spezifischen Speicherorte ihrer Dateispeicher zu finden, öffnen Sie den Topologie-Generator und schauen Sie sich den Knoten **Dateispeicher** an.
 
-In der folgenden Tabelle sind die Dateispeicher aufgeführt, die Sie sichern und wiederherstellen müssen.
+In der folgenden Tabelle werden die Dateispeicher beschrieben, die Sie sichern und wiederherstellen müssen.
 
 ### <a name="file-stores"></a>Dateispeicher
 
@@ -179,17 +179,17 @@ In der folgenden Tabelle sind die Dateispeicher aufgeführt, die Sie sichern und
 </colgroup>
 <thead>
 <tr class="header">
-<th>Art der Daten</th>
-<th>Wo gespeichert</th>
-<th>Beschreibung/wann sichern</th>
+<th>Datentyp</th>
+<th>Speicherort</th>
+<th>Beschreibung/Sicherungszeitpunkt</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Lync Server-Dateispeicher</p></td>
-<td><p>In der Regel auf einem Dateiserver, einem Dateicluster oder einem Standard Edition-Server</p></td>
-<td><p>Besprechungsinhalte, Metadaten für Besprechungsinhalte, Konformitäts Protokolle für Anwendungen, Anwendungsdatendateien, Updatedateien für Geräte Updates, Audiodateien für die Reaktionsgruppe, Anruf Park-und Ankündigungs Anwendungen sowie Dateien, die in beständigen Chatrooms gepostet wurden.</p>
-<p>Sichern Sie Ihre normalen Backups.</p></td>
+<td><p>Normalerweise auf einem Dateiserver, einem Dateicluster oder einem Standard Edition-Server</p></td>
+<td><p>Besprechungsinhalte, Metadaten für Besprechungsinhalte, Kompatibilitäts Protokolle für Anwendungsdateien, Updatedateien für Geräte Updates, Audiodateien für Reaktionsgruppen, Parken von Anrufen und Ankündigungs Anwendungen sowie Dateien, die in beständigen Chatrooms bereitgestellt werden.</p>
+<p>Sicherung im Rahmen der regulären Sicherungen.</p></td>
 </tr>
 </tbody>
 </table>
@@ -201,45 +201,45 @@ In der folgenden Tabelle sind die Dateispeicher aufgeführt, die Sie sichern und
 
 ## <a name="additional-backup-requirements"></a>Zusätzliche Sicherungsanforderungen
 
-Wenn Sie sicherstellen möchten, dass Sie die lync Server-Dienste bei einem Fehler wiederherstellen können, müssen Sie einige erforderliche Komponenten sichern, die nicht Teil von lync Server selbst sind. Die folgenden Komponenten werden nicht im Rahmen des in diesem Dokument beschriebenen lync Server-Sicherungs-und Wiederherstellungsprozesses gesichert oder wiederhergestellt:
+Um sicherzustellen, dass lync Server Dienste im Falle eines Fehlers wiederhergestellt werden können, müssen Sie einige erforderliche Komponenten sichern, die nicht Teil von lync Server selbst sind. Die folgenden Komponenten werden im Rahmen des in diesem Dokument beschriebenen lync Server Sicherungs-und Wiederherstellungsprozesses nicht gesichert oder wiederhergestellt:
 
-  - **Active Directory-Domänendienste**   Sie müssen AD DS sichern, indem Sie die Active Directory-Tools zur gleichen Zeit sichern, in der Sie lync Server sichern. Es ist wichtig, dass AD DS mit lync Server synchronisiert bleibt, um Probleme zu vermeiden, die auftreten können, wenn lync Server Kontaktobjekte erwartet, die nicht mit denen in AD DS übereinstimmen. In AD DS werden die folgenden von lync Server verwendeten Einstellungen gespeichert:
+  - **Active Directory-Domänendienste**   Sie AD DS mit Active Directory Tools sichern müssen, gleichzeitig sichern Sie lync Server. Es ist wichtig, dass AD DS mit lync Server synchronisiert bleibt, um Probleme zu vermeiden, die auftreten können, wenn lync Server Kontaktobjekte erwartet, die nicht mit denen in AD DS übereinstimmen. In AD DS werden die folgenden Einstellungen gespeichert, die von lync Server verwendet werden:
     
       - SIP-URI des Benutzers und andere Benutzereinstellungen.
     
-      - Kontaktobjekte für Anwendungen wie Reaktionsgruppe und Konferenzzentrale.
+      - Kontaktobjekte für Anwendungen wie Reaktionsgruppen und Konferenzzentrale.
     
-      - Ein Zeiger auf den zentralen Verwaltungsspeicher.
+      - Ein Zeiger auf das zentraler Verwaltungsspeicher.
     
-      - Kerberos-Authentifizierungs Konto (ein optionales Computerobjekt) und lync Server-Sicherheitsgruppen.
+      - Kerberos-Authentifizierungs Konto (ein optionales Computerobjekt) und lync Server Sicherheitsgruppen.
     
-    Details zum Sichern und Wiederherstellen von AD DS in Windows Server 2008 finden Sie unter schrittweise Anleitung zur AD DS-Sicherung und-Wiederherstellung unter [http://go.microsoft.com/fwlink/p/?linkId=209105](http://go.microsoft.com/fwlink/p/?linkid=209105).
+    Ausführliche Informationen zum Sichern und Wiederherstellen AD DS in Windows Server 2008 finden Sie unter "AD DS Schritt-für-Schritt-Anleitung zur Sicherung und wieder [http://go.microsoft.com/fwlink/p/?linkId=209105](http://go.microsoft.com/fwlink/p/?linkid=209105)Herstellung" unter.
 
-  - **Zertifizierungsstellen und Zertifikate**   verwenden Sie die Richtlinie Ihrer Organisation für das Sichern Ihrer Zertifizierungsstelle (Certification Authority, ca) und Zertifikate. Wenn Sie exportierbare private Schlüssel verwenden, können Sie das Zertifikat und den privaten Schlüssel sichern und dann exportieren, wenn Sie die in diesem Dokument beschriebenen Verfahren zum Wiederherstellen von lync Server verwenden. Wenn Sie eine interne Zertifizierungsstelle verwenden, können Sie die Registrierung erneut registrieren, wenn Sie lync Server wiederherstellen müssen. Es ist wichtig, dass Sie den privaten Schlüssel an einem sicheren Ort aufbewahren, wo er verfügbar ist, wenn ein Computer ausfällt.
+  - **Zertifizierungsstellen und Zertifikate**   verwenden die Richtlinie Ihrer Organisation für die Sicherung Ihrer Zertifizierungsstelle (Certification Authority, ca) und Zertifikate. Wenn Sie exportierbare private Schlüssel verwenden, können Sie das Zertifikat und den privaten Schlüssel sichern und dann exportieren, wenn Sie die Verfahren in diesem Dokument verwenden, um lync Server wiederherzustellen. Wenn Sie eine interne Zertifizierungsstelle verwenden, können Sie sich erneut anmelden, wenn Sie lync Server wiederherstellen müssen. Sie müssen den privaten Schlüssel unbedingt an einem sicheren Ort verwahren, damit er beim Ausfall eines Computers verfügbar ist.
 
-  - **System Center Operations Manager**   Wenn Sie Microsoft System Center Operations Manager (vormals Microsoft Operations Manager) zum Überwachen Ihrer lync Server-Bereitstellung verwenden, können Sie optional die Daten sichern, die beim Überwachen von lync Server erstellt werden. Verwenden Sie den standardmäßigen SQL Server-Sicherungsvorgang zum Sichern von System Center Operations Manager-Dateien. Diese Dateien werden während der Wiederherstellung nicht wiederhergestellt.
+  - **System Center Operations Manager**   Wenn Sie Microsoft System Center Operations Manager (ehemals Microsoft Operations Manager) zum Überwachen Ihrer lync Server-Bereitstellung verwenden, können Sie die Daten, die beim Überwachen von lync Server erstellt werden, optional sichern. Verwenden Sie den standardmäßigen SQL Server Sicherungsprozess zum Sichern von System Center Operations Manager-Dateien. Diese Dateien werden nicht in die Wiederherstellung einbezogen.
 
-  - **PSTN-Gateway-Konfiguration (Public Switched Telephone Network)**   Wenn Sie Enterprise-VoIP oder Survivable Branch-Appliances verwenden, müssen Sie die Konfiguration des PSTN-Gateways sichern. Informationen zum Sichern und Wiederherstellen von Konfigurationen für PSTN-Gateways finden Sie in Ihrem Anbieter.
+  - **PSTN-Gateway-Konfiguration (Public Switched Telephone Network)**   Wenn Sie Enterprise-VoIP-oder Survivable Branch-Appliances verwenden, müssen Sie die Konfiguration des PSTN-Gateways sichern. Informationen zum Sichern und Wiederherstellen der Konfiguration von PSTN-Gateways erhalten Sie vom jeweiligen Hersteller.
 
-  - **Nebeneinander vorhandene Versionen von lync Server oder Office Communications Server**   Wenn Ihre lync Server 2013-Bereitstellung mit lync Server 2010 oder einer früheren Version von Office Communications Server koexistiert, können Sie die Verfahren in diesem Dokument nicht zum Sichern oder Wiederherstellen der vorherigen Version verwenden. Stattdessen müssen Sie die Sicherungs-und Wiederherstellungsverfahren verwenden, die speziell für ihre frühere Version dokumentiert sind. Weitere Informationen zum Sichern und Wiederherstellen von lync Server 2010 finden Sie [http://go.microsoft.com/fwlink/p/?linkId=265417](http://go.microsoft.com/fwlink/p/?linkid=265417) unter. Weitere Informationen zum Sichern und Wiederherstellen von Microsoft Office Communications Server 2007 R2 finden Sie [http://go.microsoft.com/fwlink/p/?linkId=168162](http://go.microsoft.com/fwlink/p/?linkid=168162)unter.
+  - **Nebeneinander vorhandene Versionen von lync Server oder Office Communications Server**   Wenn Ihre lync Server 2013-Bereitstellung mit lync Server 2010 oder einer früheren Version von Office Communications Server koexistiert, können Sie die Verfahren in diesem Dokument nicht zum Sichern oder Wiederherstellen der früheren Version verwenden. Stattdessen müssen Sie die speziell für Ihre frühere Version dokumentierten Sicherungs- und Wiederherstellungsverfahren verwenden. Ausführliche Informationen zum Sichern und Wiederherstellen von lync Server 2010 finden Sie [http://go.microsoft.com/fwlink/p/?linkId=265417](http://go.microsoft.com/fwlink/p/?linkid=265417) unter. Ausführliche Informationen zum Sichern und Wiederherstellen von Microsoft Office Communications Server 2007 R2 finden Sie [http://go.microsoft.com/fwlink/p/?linkId=168162](http://go.microsoft.com/fwlink/p/?linkid=168162)unter.
 
-  - **Infrastruktur Informationen**   , die Sie benötigen, um Informationen zu Ihrer Infrastruktur zu sichern, beispielsweise Ihre Firewall-Konfiguration, Konfiguration des Lastenausgleichs, Konfiguration der Internet Informationsdienste (IIS), DNS-Einträge (Domain Name System) und IP-Adressen sowie DHCP-Konfiguration (Dynamic Host Configuration Protocol). Informationen zum Sichern dieser Komponenten finden Sie bei den jeweiligen Anbietern.
+  - **Infrastruktur Informationen**   Sie müssen Informationen zu Ihrer Infrastruktur sichern, beispielsweise Ihre Firewall-Konfiguration, Lastenausgleichskonfiguration, Internet Information Services (IIS) Konfiguration, Domain Name System (DNS) Datensätzen und IP-Adressen sowie die DHCP-Konfiguration (Dynamic Host Configuration Protocol). Ausführliche Informationen zum Sichern dieser Komponenten erhalten Sie vom jeweiligen Hersteller.
 
-  - **Microsoft Exchange und Exchange Unified Messaging (um)**   sichern und Wiederherstellen von Microsoft Exchange und Exchange um, wie in der Microsoft Exchange-Dokumentation beschrieben. Weitere Informationen zum Sichern und Wiederherstellen von Exchange Server 2013 finden Sie [http://go.microsoft.com/fwlink/?LinkId=285384](http://go.microsoft.com/fwlink/?linkid=285384)unter. Weitere Informationen zum Sichern und Wiederherstellen von Exchange Server 2010 finden Sie [http://go.microsoft.com/fwlink/p/?linkId=209179](http://go.microsoft.com/fwlink/p/?linkid=209179)unter.
+  - **Microsoft Exchange und Exchange Unified Messaging (um)**   Sicherung und Wiederherstellung Microsoft Exchange und Exchange um wie in der Microsoft Exchange Dokumentation beschrieben. Ausführliche Informationen zum Sichern und Wiederherstellen von Exchange Server 2013 finden Sie [http://go.microsoft.com/fwlink/?LinkId=285384](http://go.microsoft.com/fwlink/?linkid=285384)unter. Ausführliche Informationen zum Sichern und Wiederherstellen von Exchange Server 2010 finden Sie [http://go.microsoft.com/fwlink/p/?linkId=209179](http://go.microsoft.com/fwlink/p/?linkid=209179)unter.
     
-    Beachten Sie, dass lync Server 2013 die Möglichkeit bietet, Benutzer Kontaktlisten, HD-Benutzer Fotos und Archivierungsdaten in Exchange 2013 zu speichern. Sehen Sie sich die folgende Liste an, um zu erfahren, wie Sie diese Datentypen sichern:
+    Beachten Sie, dass lync Server 2013 die Möglichkeit bietet, Benutzer Kontaktlisten, hochauflösende Benutzer Fotos und in Exchange 2013 gespeicherte Archivdaten zu haben. In der folgenden Liste finden Sie Informationen zum Sichern dieser Datentypen:
     
-      - **Fotos mit höherer Auflösung** werden im Rahmen der Exchange Server-Sicherung gesichert.
+      - **Hochauflösende Fotos** werden im Rahmen der Exchange Server Sicherung gesichert.
     
-      - Der **Unified Contact Store** wird in lync Server 2013 eingeführt. Mit dem Unified Contact Store können Benutzer alle Ihre Kontaktinformationen in Exchange 2013 behalten.
+      - In lync Server 2013 wird ein **einheitlicher Kontaktspeicher** eingeführt. Mit dem einheitlichen Kontaktspeicher können Benutzer alle Ihre Kontaktinformationen in Exchange 2013 speichern.
         
-        Stellen Sie sicher, dass die Sicherungen für Benutzer auf dem neuesten Stand sind, indem Sie angeben, ob Ihre Benutzer Kontakte im Unified Contact Store oder auf dem lync-Back-End-Server gespeichert sind. Die folgenden Szenarien veranschaulichen, wo die Migration von Benutzerkontakten in den Unified Contact Store zu Problemen beim Sicherungs-und Wiederherstellungsprozess führen kann.
+        Sie sollten sicherstellen, dass Sicherungen für Benutzer auf dem neuesten Stand sind, ob Ihre Benutzer Kontakte im einheitlichen Kontaktspeicher oder auf dem lync-Back-End-Server gespeichert sind. In den folgenden Szenarien wird veranschaulicht, wo das Migrieren von Benutzerkontakten zum einheitlichen Kontaktspeicher zu Problemen beim Sicherungs-und Wiederherstellungsvorgang führen kann.
         
-        **Szenario 1:** Benutzer Kontakte werden in den einheitlichen Kontaktspeicher migriert, und eine Wiederherstellung erfolgt über eine lync Server-Sicherung, die vor der Migration von Benutzerkontakten ausgeführt wurde. In diesem Szenario hat der Benutzer einen Status veralteter Kontakte bis zu einem Tag, bis der lync Server-Migrations Task die Migration von Benutzerkontakten zu Exchange beginnt. (Beachten Sie, dass die Exchange-Kontaktinformationen verwendet werden, da die Benutzer Kontakte zuvor in den Unified Contact Store migriert wurden). In diesem Szenario ist kein Administratoreingriff erforderlich.
+        **Szenario 1:** Benutzer Kontakte werden zum einheitlichen Kontaktspeicher migriert, und eine Wiederherstellung erfolgt über eine lync Server Sicherung, die vor der Migration von Benutzerkontakten durchgeführt wurde. In diesem Szenario verfügt der Benutzer über einen Status veralteter Kontakte für bis zu einem Tag, bis lync Server Migrations Task die Migration von Benutzerkontakten zu Exchange beginnt. (Beachten Sie, dass die Exchange-Kontaktinformationen verwendet werden, da die Benutzer Kontakte zuvor zum einheitlichen Kontaktspeicher migriert wurden). In diesem Szenario ist kein Administratoreingriff erforderlich.
         
-        **Szenario 2:** Benutzer Kontakte wurden zuvor im Unified Contact Store gespeichert, anschließend aber zurückgesetzt. Eine Wiederherstellung erfolgt über eine lync Server-Sicherung, die durchgeführt wurde, wenn die Benutzer Kontakte im Unified Contact Store gespeichert wurden. In diesem Szenario zeigt eine Fehlermeldung `Error: Incorrect Exchange Version` in den Serverprotokollen des Clients oder Lyss möglicherweise ein Problem an. Der Benutzer kann direkt von Exchange aus auf seine Kontaktliste in lync 2013 zugreifen, der Zustand des Clients entspricht aber nicht dem lync-Server Zustand. Um dies zu beheben, muss ein Administrator die **Invoke-CsUCSRollback-** Cmdlets für die betroffenen Benutzer ausführen.
+        **Szenario 2:** Benutzer Kontakte wurden zuvor im einheitlichen Kontaktspeicher gespeichert, dann jedoch zurückgesetzt. Eine Wiederherstellung wird von einer lync Server Sicherung durchgeführt, die ausgeführt wurde, als die Benutzer Kontakte im einheitlichen Kontaktspeicher gespeichert wurden. In diesem Szenario zeigt eine Fehlermeldung von `Error: Incorrect Exchange Version` in den Client-oder Lyss-Serverprotokollen möglicherweise dies als Problem an. Der Benutzer kann direkt in Exchange auf seine Kontaktliste in lync 2013 zugreifen, der Status des Clients stimmt jedoch nicht mit dem lync Server Zustand überein. Um dies zu beheben, muss ein Administrator die **Invoke-CsUCSRollback-** Cmdlets für die betroffenen Benutzer ausführen.
     
-      - **Archivierungsdaten** können in Exchange 2013 gespeichert werden. Diese Daten sind für lync Server nicht wichtig, können aber für Ihre Organisation für regulatorische Zwecke wichtig sein. Wenn Archivierungsdaten in Exchange gespeichert sind und für Ihre Organisation wichtig sind, folgen Sie den Exchange-Sicherungs-und Wiederherstellungsverfahren. Beachten Sie, dass Archivierungsdaten, die in Exchange gespeichert sind, nicht zurück zu lync Server verschoben werden können. Darüber hinaus gibt es keine Möglichkeit, Daten, die bereits in der lync-Archivierungsdatenbank gespeichert sind, in Exchange zu verschieben.
+      - **Archivierungsdaten** können in Exchange 2013 gespeichert werden. Diese Daten sind für lync Server nicht wichtig, aber Sie können für Ihre Organisation für regulatorische Zwecke von entscheidender Bedeutung sein. Wenn Archivierungsdaten in Exchange gespeichert werden und für Ihre Organisation wichtig sind, folgen Sie den Exchange-Sicherungs-und Wiederherstellungsverfahren. Beachten Sie, dass die in Exchange gespeicherten Archivierungsdaten nicht wieder in lync Server verschoben werden können. Darüber hinaus gibt es keine Möglichkeit, bereits in der lync-Archivierungsdatenbank gespeicherte Daten in Exchange zu migrieren.
 
 </div>
 

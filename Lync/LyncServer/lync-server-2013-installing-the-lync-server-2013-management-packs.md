@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Installieren der lync Server 2013-Verwaltungspakete'
+title: 'Lync Server 2013: Installieren der lync Server 2013 Management Packs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185233
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffc102eccdbaa941e2691df88899c0cc01348838
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2324d166ab43153cf37b71500da438e6db6b4b4f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725975"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029516"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-lync-server-2013-management-packs"></a>Installieren der lync Server 2013-Verwaltungspakete
+# <a name="installing-the-lync-server-2013-management-packs"></a>Installieren der lync Server 2013 Management Packs
 
 </div>
 
@@ -35,48 +35,48 @@ ms.locfileid: "41725975"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-22_
+_**Letztes Änderungsstand des Themas:** 2012-10-22_
 
-System Center Operations Manager kann nur einen kleinen Teil des Windows-Betriebssystems überwachen. Sie können die Funktionen von System Center Operations Manager jedoch erweitern, indem Sie Management Packs installieren, Software, die festlegt, welche Elemente von System Center Operations Manager überwacht werden können, einschließlich der Art und Weise, wie diese Elemente überwacht werden sollen und wie Warnungen angezeigt werden sollen. ausgelöst und gemeldet. Microsoft lync Server 2013 umfasst zwei System Center Operations Manager-Verwaltungspakete, die die folgenden Funktionen bieten:
+System Center Operations Manager kann nur einen kleinen Teil des Windows-Betriebssystems überwachen. Sie können die Funktionen von System Center Operations Manager jedoch erweitern, indem Sie Management Packs installieren, Software, die bestimmt, welche Elemente von System Center Operations Manager überwacht werden können, einschließlich der Art und Weise, wie diese Elemente überwacht werden sollen und wie Warnungen ausgelöst und gemeldet. Microsoft lync Server 2013 enthält zwei System Center Operations Manager-Management Packs, die die folgenden Funktionen bieten:
 
-  - Das Komponenten-und Benutzer Verwaltungspaket (Microsoft.ls.2013.Monitoring.ComponentAndUser.MP) verfolgt lync-Server Probleme, die in Ereignisprotokollen aufgezeichnet, von Leistungsindikatoren registriert oder in den Anruf Detaildatensätzen (CDR) oder der Quality of Experience (QoE) protokolliert wurden. Datenbanken. Bei kritischen Problemen kann System Center Operations Manager so konfiguriert werden, dass Administratoren sofort per e-Mail, Sofortnachricht oder SMS-Messaging benachrichtigt werden. SMS ist die Technologie, die verwendet wird, um Textnachrichten von einem mobilen Gerät an ein anderes zu senden.
+  - Das Component and User Management Pack (Microsoft.ls.2013.Monitoring.ComponentAndUser.MP) verfolgt lync Server Probleme, die in Ereignisprotokollen aufgezeichnet, von Leistungsindikatoren registriert oder in den Kommunikationsdatensätzen (KDS) oder der Quality of Experience (QoE) protokolliert wurden. Datenbanken. Bei kritischen Problemen kann System Center Operations Manager so konfiguriert werden, dass Administratoren sofort per e-Mail, Chatnachrichten oder SMS-Messaging benachrichtigt werden. SMS ist die Technologie, die verwendet wird, um Textnachrichten von einem Mobilgerät an ein anderes zu senden.
     
     <div>
     
 
     > [!NOTE]  
-    > Weitere Informationen zum Konfigurieren der Operations Manager-Benachrichtigung finden Sie unter Konfigurieren der Benachrichtigung in der <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=268785">http://go.microsoft.com/fwlink/p/?linkid=268785</A>TechNet-Bibliothek unter.
+    > Weitere Informationen zum Konfigurieren von Operations Manager-Benachrichtigungen finden Sie unter Konfigurieren der Benachrichtigung in der <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=268785">http://go.microsoft.com/fwlink/p/?linkid=268785</A>TechNet-Bibliothek unter.
 
     
     </div>
 
-  - Das aktive Überwachungspaket (Microsoft.ls.2013.Monitoring.ActiveMonitoring.MP) testet proaktiv wichtige lync Server-Komponenten wie die Anmeldung am System, den Austausch von Sofortnachrichten oder das tätigen von Anrufen an ein Telefon, das sich auf dem öffentlich geschalteten Telefon befindet. Netzwerk (PSTN). Diese Tests werden mithilfe der Cmdlets für synthetische lync Server-Transaktionen durchgeführt. Zum Beispiel wird das **Test-CsIM**-Cmdlet verwendet, um eine Sofortnachrichtenunterhaltung zwischen zwei Testbenutzern zu simulieren. Wenn diese simulierte Nachrichten Unterhaltung fehlschlägt, wird eine Benachrichtigung generiert.
+  - Das Active Monitoring Pack (Microsoft.ls.2013.Monitoring.ActiveMonitoring.MP) testet die Schlüssel lync Server Komponenten, beispielsweise die Anmeldung am System, den Austausch von Chatnachrichten oder das tätigen von Anrufen an ein Telefon auf dem öffentlichen Switched Phone proaktiv. Netzwerk (PSTN). Diese Tests werden mithilfe der Cmdlets für synthetische Transaktionen lync Server ausgeführt. Zum Beispiel wird das **Test-CsIM**-Cmdlet verwendet, um eine Sofortnachrichtenunterhaltung zwischen zwei Testbenutzern zu simulieren. Wenn bei dieser simulierten Nachrichtenunterhaltung ein Fehler auftritt, wird eine Benachrichtigung erzeugt.
 
-Zu den beiden in lync Server 2013 enthaltenen Management Packs gehören eine große Anzahl von Verbesserungen hinsichtlich der Management Packs, die mit Microsoft lync Server 2010 verwendet werden. Das lync Server 2013-Komponenten-Management Pack ist beispielsweise nicht darauf limitiert, lync Server selbst zu überwachen. Neben dem Überwachen von Ereignisprotokollen und Leistungsindikatoren für lync Server kann das Komponenten-Management Pack auch die Leistung von wichtigen Elementen wie:
+Die beiden in lync Server 2013 enthaltenen Management Packs umfassen eine große Anzahl von Verbesserungen hinsichtlich der mit Microsoft lync Server 2010 verwendeten Management Packs. Beispielsweise ist das Management Pack für die lync Server 2013-Komponente nicht auf die Überwachung lync Server selbstlimitiert. Zusätzlich zur Überwachung von Ereignisprotokollen und Leistungsindikatoren für lync Server kann das Component Management Pack auch die Leistung von und Warnungen für wichtige Elemente wie die folgenden ermitteln:
 
-  - **Internetinformationsdienste (IIS)-**   Benachrichtigungen werden ausgegeben, wenn Internetinformationsdienste offline geschaltet werden. Dies ist wichtig, da die lync Server-Webdienste von IIS abhängig sind.
+  - **Internet Information Services (IIS)**   Warnungen werden ausgegeben, wenn Internet Informationsdienste offline geschaltet werden. Dies ist wichtig, da die lync Server-Webdienste von IIS abhängig sind.
 
-  - **Benachrichtigungen zur Prozessnutzung**   werden ausgegeben, wenn Systemressourcen (wie verfügbarer Arbeitsspeicher) langsam ablaufen. Diese Benachrichtigungen werden selbst dann ausgestellt, wenn lync Server nicht für die Verwendung des Systems mit großem Nutzen verantwortlich ist.
+  - **Warnungen zur Prozess Verwendung**   werden ausgegeben, wenn Systemressourcen (wie der verfügbare Arbeitsspeicher) langsam beginnen zu laufen. Diese Warnungen werden auch dann ausgegeben, wenn lync Server nicht für die hohe Systemauslastung verantwortlich ist.
 
-  - **Benachrichtigungen über Computer Fehlerereignisse**   werden bei einem Hardware-oder Softwareproblem ausgegeben, das die Lebensfähigkeit eines Servers gefährdet. Lync Server-Administratoren werden beispielsweise benachrichtigt, wenn ein Server den Eindruck hat, dass ein Festplattenfehler auftritt.
+  - ****   Bei einem Hardware-oder Softwareproblem, das die Lebensfähigkeit eines Servers gefährdet, werden Warnungen zu Computer Fehlern ausgegeben. Beispielsweise werden lync Server Administratoren benachrichtigt, wenn ein Server in Gefahr zu sein scheint, dass ein Festplattenfehler auftritt.
 
-Die neuen Management Packs verfügen auch über eine verbesserte Berichterstellung. Zu den neuen Berichten für lync Server 2013 gehören:
+Die neuen Management Packs verfügen außerdem über eine erweiterte Berichtsfunktion. Zu den neuen Berichten für lync Server 2013 gehören:
 
-  - **Bericht zur Verfügbarkeit von Szenarien bis zum**   Ende dieser Bericht enthält Informationen zur Verfügbarkeit/Uptime für wichtige lync Server-Dienste wie Registrierung oder Anwesenheit.
+  - **End-to-End-Szenario-Verfügbarkeitsbericht**   in diesem Bericht wird die Verfügbarkeit/Uptime für wichtige lync Server Dienste wie Registrierung oder Anwesenheit erläutert.
 
-  - **Kapazitäts Bericht**   mithilfe von Leistungsindikatorinformationen werden in diesem Bericht Trends für Systemkomponenten wie Speicherverfügbarkeit und Prozessorauslastung veranschaulicht.
+  - **Kapazitäts Bericht**   mit Leistungsindikatorinformationen zeigt dieser Bericht Trends für Systemkomponenten wie Arbeitsspeicher Verfügbarkeit und Prozessorauslastung.
 
-  - **Komponentenbericht**   dieser Bericht listet die obersten Warnungs Generatoren auf, die nach lync Server-Komponente gruppiert sind.
+  - **Komponentenbericht**   in diesem Bericht werden die wichtigsten Warnungs Generatoren aufgelistet, die nach lync Server Komponente gruppiert sind.
 
-Zusätzlich zu diesen vordefinierten Berichten melden die Management Packs für lync Server 2013 automatisch Warnungen für die Zuverlässigkeit von Anrufen (Metriken, die mit der Anruf Detail Aufzeichnung gemessen werden) und QoE-Zustände (Metriken, die nach der Qualität der Erfahrung gemessen werden). Wenn Sie die Anruf Detail Aufzeichnung aktiviert haben, können Sie die Zuverlässigkeits Benachrichtigungen für Anrufe überprüfen, indem Sie die folgenden Schritte in der System Center Operations Manager-Konsole ausführen:
+Zusätzlich zu diesen vorgefertigten Berichten melden die Management Packs für lync Server 2013 automatisch Warnungen für die Zuverlässigkeit von Anrufen (Metriken, die bei der Aufzeichnung von Kommunikationsdatensätzen gemessen werden) und QoE-Zustände (Metriken, gemessen an der Qualität der Erfahrung). Wenn Sie die Aufzeichnung von Anrufdetails aktiviert haben, können Sie Benachrichtigungen über die Anruf Zuverlässigkeit überprüfen, indem Sie das folgende Verfahren in der System Center Operations Manager-Konsole ausführen:
 
-  - Erweitern Sie **Überwachung**, erweitern Sie **Microsoft lync Server 2013 Health**, erweitern Sie die **Anruf Zuverlässigkeit und die Medienqualität**, und klicken Sie dann auf **Anruf Zuverlässigkeit**.
+  - Erweitern Sie **Überwachen**, **Zustand Microsoft Lync Server 2013** und **Anrufzuverlässigkeit und Medienqualität**, und klicken Sie dann auf **Anrufzuverlässigkeit**.
 
-Führen Sie die folgenden Schritte über die System Center Operations Manager-Konsole aus, um die Benachrichtigung über die Qualität der Erfahrung anzuzeigen:
+Führen Sie dieses Verfahren in der System Center Operations Manager-Konsole aus, um die Quality of Experience-Warnungen anzuzeigen:
 
-  - Erweitern Sie **Überwachung**, erweitern Sie **Microsoft lync Server 2013 Health**, erweitern Sie die **Anruf Zuverlässigkeit und Medienqualität**, und erweitern Sie dann **Medienqualität**.
+  - Erweitern Sie **Überwachen**, **Zustand Microsoft Lync Server 2013** und **Anrufzuverlässigkeit und Medienqualität**, und erweitern Sie dann **Medienqualität**.
 
-Die Management Packs für lync Server 2013 verwenden jetzt die Ermittlung auf Computerebene anstelle des zentralen Ermittlungsmechanismus, der in Microsoft lync Server 2010 verwendet wird. Dies bedeutet, dass sich jeder System Center-Agent im wesentlichen selbst erkennt und seine Existenz dem zentralen Verwaltungs Server meldet. Die Verwendung der Ermittlung auf Computerebene vereinfacht die Verwaltung ihrer System Center-Infrastruktur und ermöglicht auch die unterschiedlichen Versionen der lync Server-Verwaltungspakete (beispielsweise Management Packs für lync Server 2010 und Management Packs für lync Server 2013), um koexistieren.
+Die Management Packs für lync Server 2013 verwenden jetzt die Ermittlung auf Computerebene anstelle des zentralen Ermittlungsmechanismus, der in Microsoft lync Server 2010 verwendet wird. Dies bedeutet, dass sich jeder System Center-Agent im wesentlichen selbst erkennt und seine Existenz dem zentralen Verwaltungs Server meldet. Das Verwenden der Ermittlung auf Computerebene vereinfacht die Verwaltung ihrer System Center-Infrastruktur und ermöglicht auch unterschiedliche Versionen der lync Server Management Packs (beispielsweise Management Packs für lync Server 2010 und Management Packs für lync Server 2013), um Koexistenz.
 
 </div>
 

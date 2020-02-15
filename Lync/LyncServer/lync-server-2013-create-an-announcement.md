@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Erstellen einer Ankündigung'
+title: 'Lync Server 2013: Erstellen einer Ansage'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfae1817cb47c769885ca42a7ca3ff6f57f7b669
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c50db03b8c6d428322129f1a46a0ffe50b19ed25
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726365"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008717"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-an-announcement-in-lync-server-2013"></a>Erstellen einer Ankündigung in lync Server 2013
+# <a name="create-an-announcement-in-lync-server-2013"></a>Erstellen einer Ansage in lync Server 2013
 
 </div>
 
@@ -35,60 +35,60 @@ ms.locfileid: "41726365"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
 Zum Erstellen einer neuen Ansage müssen Sie die folgenden Schritte ausführen:
 
-1.  Für Audioansagen zeichnen Sie die Audiodatei mithilfe Ihrer bevorzugten Anwendung zur Audioaufzeichnung auf.
+1.  Für Audioansagen zeichnen Sie die Audiodatei mithilfe Ihrer bevorzugten audiorecording-Anwendung auf.
 
-2.  Führen Sie für Audioansagen das Cmdlet **Import-CsAnnouncementFile** aus, um den Inhalt der Audiodatei in den Dateispeicher zu importieren.
+2.  Führen Sie für Audioansagen das Cmdlet **Import-CsAnnouncementFile** aus, um den Inhalt der Audiodatei in Dateispeicher zu importieren.
 
-3.  Führen Sie das Cmdlet **New-CsAnnouncement** aus, um die Ansage zu erstellen und zu benennen. Diesen Schritt führen Sie aus, um Ansagen zu erstellen, die Audioansagen, eine Text-zu-Sprache-Ansage (Text-to-Speech, TTS) oder keine Ansage enthalten.
+3.  Führen Sie das Cmdlet **New-CsAnnouncement** aus, um die Ansage zu erstellen und zu benennen. Führen Sie diesen Schritt aus, um Ankündigungen mit einer Eingabeaufforderung, einer TTS-Ansage (Text-to-Speech) oder keine Eingabeaufforderung zu erstellen.
     
     <div>
     
 
     > [!TIP]  
-    > Möglicherweise möchten Sie eine Ansage erstellen (wenn Sie z. B. Anrufe an ein bestimmtes Ziel durchstellen möchten, ohne eine Nachricht wiederzugeben.
+    > Möglicherweise möchten Sie eine Ansage ohne Eingabeaufforderung erstellen (beispielsweise, wenn Sie Anrufe an ein bestimmtes Ziel übertragen möchten, ohne eine Nachricht wiedergeben zu müssen).
 
     
     </div>
 
 4.  Weisen Sie die neue Ansage einem Nummernbereich in der Tabelle nicht zugewiesener Nummern zu.
 
-In diesem Abschnitt wird beschrieben, wie Ansagen importiert und erstellt werden. Details zum Zuweisen von Ankündigungen in der Tabelle "nicht zugewiesene Nummern" finden Sie unter [Konfigurieren der Tabelle "nicht zugewiesene Nummern" in lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md).
+In diesem Thema wird das Importieren und Erstellen von Ankündigungen beschrieben. Ausführliche Informationen zum Zuweisen von Ankündigungen in der Tabelle nicht zugewiesene Nummern finden Sie unter [Konfigurieren der Tabelle nicht zugewiesene Nummern in lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md).
 
 <div>
 
 ## <a name="to-create-a-new-announcement"></a>So erstellen Sie eine neue Ansage
 
-1.  Erstellen Sie die Audiodatei für Audioansagen.
+1.  Erstellen Sie für Audioansagen die Audiodatei.
 
-2.  Melden Sie sich bei dem Computer an, auf dem die lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist, wie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md)beschrieben.
+2.  Melden Sie sich an dem Computer an, auf dem lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist, wie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md)beschrieben.
 
-3.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+3.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-4.  Führen Sie für Audioansagen folgenden Befehl aus:
+4.  Führen Sie für Audioansagen Folgendes aus:
     
         Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
 
-5.  Führen Sie folgenden Befehl aus:
+5.  Ausführen
     
         New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
     
-    Zum Durchstellen von Anrufen an die Voicemail geben Sie „SIPAddress“ im Format „sip:Benutzername@Domänenname;opaque=app:voicemail“ ein (Beispiel: sip:bob@contoso.com;opaque=app:voicemail). Zum Durchstellen von Anrufen an eine Telefonnummer geben Sie „SIPAddress“ im Format „sip:Nummer@Domänenname;user=phone“ ein (Beispiel: sip:+ 14255550121@contoso.com;user=phone).
+    Geben Sie SIPAddress im Format SIP: username@Domainname; Opaque = App: Voicemail ein (beispielsweise SIP: Bob@contoso. com; Opaque = App: Voicemail), um Anrufe an Voicemail weiterzuleiten. Geben Sie zum Übertragen von Anrufen an eine Telefonnummer SIPAddress im Format SIP: Number@Domainname; User = Phone ein (beispielsweise SIP: + 14255550121@contoso. com; User = Phone).
     
-    Beispiel für die Festlegung einer Audioansage:
+    Beispielsweise zum Angeben einer Audioansage:
     
         $a = Get-Content ".\PromptFile.wav" -ReadCount 0 -Encoding Byte
         Import-CsAnnouncementFile -Parent service:ApplicationServer:pool0@contoso.com -FileName "ChangedNumberMessage.wav" -Content $a
         New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Number Changed Announcement" -AudioFilePrompt "ChangedNumberMessage.wav"
     
-    Beispiel für die Festlegung einer TTS-Ansage:
+    Geben Sie beispielsweise eine TTS-Eingabeaufforderung an:
     
         New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
     
-    Ausführliche Informationen zu diesen Cmdlets sowie eine Liste der Sprachcodes, die im **TextToSpeechPrompt** -Parameter verwendet werden können, finden Sie unter [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement).
+    Weitere Details zu diesen Cmdlets und eine Liste der Sprachcodes, die im Parameter **TextToSpeechPrompt** verwendet werden sollen, finden Sie unter [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement).
 
 </div>
 
@@ -98,8 +98,8 @@ In diesem Abschnitt wird beschrieben, wie Ansagen importiert und erstellt werden
 
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/Import-CsAnnouncementFile)  
-[Neu – CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement)  
-[Konfigurieren der Tabelle nicht zugewiesener Nummern in Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md)  
+[New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement)  
+[Konfigurieren der Tabelle nicht zugewiesener Nummern in lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md)  
   
 
 </div>

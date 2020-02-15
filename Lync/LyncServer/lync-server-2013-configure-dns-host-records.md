@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von DNS-Hosteinträgen'
+title: 'Lync Server 2013: Konfigurieren von DNS-Host Einträgen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b74da23cb0139a982a30207b61032f043f795b76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 54ae1e2502ec1618f007ba76255ae6d01ebb66f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755979"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028586"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-host-records-for-lync-server-2013"></a>Konfigurieren von DNS-Hosteinträgen für Lync Server 2013
+# <a name="configure-dns-host-records-for-lync-server-2013"></a>Konfigurieren von DNS-Host Einträgen für lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41755979"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
-Um dieses Verfahren erfolgreich durchführen zu können, sollten Sie mindestens als Mitglied der Gruppe Domänen-Admins oder als Mitglied der DnsAdmins-Gruppe bei dem Server oder der Domäne angemeldet sein.
+Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie mindestens als Mitglied der Gruppe "RTCUniversalServerAdmins" angemeldet sein.
 
 <div>
 
-## <a name="to-configure-dns-host-a-records"></a>So konfigurieren Sie DNS-Host A-Einträge
+## <a name="to-configure-dns-host-a-records"></a>So konfigurieren Sie DNS-Hosteinträge (A)
 
-1.  Klicken Sie auf dem DNS-Server (Domain Name System) auf **Start**, klicken Sie auf **Verwaltung**, und klicken Sie dann auf **DNS**.
+1.  Klicken Sie auf dem DNS-Server (Domain Name System) auf **Start**, klicken Sie auf **Verwaltung** und anschließend auf **DNS**.
 
-2.  Erweitern Sie in der Konsolenstruktur für Ihre Domäne **Forward-Lookupzonen**, und klicken Sie dann mit der rechten Maustaste auf die Domäne, in der lync Server 2013 installiert wird.
+2.  Erweitern Sie in der Konsolenstruktur für Ihre Domäne den Knoten **Forward-Lookupzonen**, und klicken Sie dann mit der rechten Maustaste auf die Domäne, in der lync Server 2013 installiert werden soll.
 
-3.  Klicken Sie auf **neuer Host (A oder AAAA)**.
+3.  Klicken Sie auf **Neuer Host (A oder AAAA)**.
 
-4.  Klicken Sie auf **Name**, geben Sie den Hostnamen für den Pool ein (der Domänen Name wird aus der Zone übernommen, in der der Datensatz definiert ist, und muss nicht als Teil des A-Eintrags eingegeben werden).
+4.  Klicken Sie auf **Name**, und geben Sie den Hostnamen für den Pool ein (der Domänenname wird von der Zone abgeleitet, in welcher der Eintrag definiert ist, und muss nicht als Teil des A-Eintrags eingegeben werden).
 
-5.  Klicken Sie auf **IP-Adresse**, und geben Sie die virtuelle IP (VIP) des Load Balancer für den Front-End-Pool ein.
+5.  Klicken Sie auf **IP-Adresse**, geben Sie die virtuelle IP (VIP) des Lastenausgleichs für die Front-End-Pool ein.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > In Bereitstellungen, die einen Director-Pool verwenden, sollten die Host (a)-Einträge für die einfachen URLs auf den VIP des Director Load Balancer verweisen.
+    > In Bereitstellungen, die einen Director-Pool verwenden, sollten die Hosteinträge (A) für die einfachen URLs auf die VIP des Director-Lastenausgleichssystems zeigen.
 
     
     </div>
@@ -66,16 +66,16 @@ Um dieses Verfahren erfolgreich durchführen zu können, sollten Sie mindestens 
     
 
     > [!NOTE]  
-    > Wenn Sie nur einen Enterprise Edition-Server oder-Director bereitstellen, der mit der Topologie ohne Load Balancer verbunden ist, oder wenn Sie einen Standard Edition-Server bereitstellen, geben Sie die IP-Adresse des Enterprise Edition-Servers, Standard Edition-Servers oder Directors ein. Ein Lastenausgleichsmodul ist erforderlich, wenn Sie mehr als einen Enterprise Edition-Server oder-Director in einem Pool bereitstellen. Load-Balancer werden nicht mit Standard Edition-Servern verwendet.
+    > Wenn Sie nur einen Enterprise Edition-Server oder Director bereitstellen, der ohne ein Lastenausgleichssystem mit der Topologie verbunden ist, oder wenn Sie einen Standard Edition-Server bereitstellen, geben Sie die IP-Adresse des Enterprise Edition-Servers, Standard Edition-Servers oder Directors ein. Ein Lastenausgleichssystem ist erforderlich, wenn sich mehrere Enterprise Edition-Server oder Directors in einem Pool befinden. Bei Standard Edition-Servern werden keine Lastenausgleichssysteme verwendet.
 
     
     </div>
 
-6.  Klicken Sie auf **Host hinzufügen**, und klicken Sie dann auf **OK**.
+6.  Klicken Sie auf **Host hinzufügen** und dann auf **OK**.
 
-7.  Wiederholen Sie die Schritte 4 und 5, um einen zusätzlichen A-Eintrag zu erstellen.
+7.  Wenn Sie einen zusätzlichen A-Eintrag erstellen möchten, wiederholen Sie die Schritte 4 und 5.
 
-8.  Wenn Sie alle benötigten A-Einträge erstellt haben, klicken Sie auf **Fertig**.
+8.  Wenn Sie alle erforderlichen A-Einträge erstellt haben, klicken Sie auf **Fertig**.
 
 </div>
 

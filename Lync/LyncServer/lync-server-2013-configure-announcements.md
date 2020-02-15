@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von Ankündigungen'
+title: 'Lync Server 2013: Configure Announcements'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff3a7189d0f9d5cbbea4a34e558ac67defa2aab5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ab0af46f3f2170de0a169520c9f2097e7abbb058
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757809"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028736"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41757809"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+_**Letztes Änderungsstand des Themas:** 2012-09-12_
 
-Bei der Konfiguration von Ansagen wird tatsächlich konfiguriert, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden sollen. Sie können eine Ansage wiedergeben, bei der es sich um eine Audiodatei oder eine TTS-Datei (Text-to-Speech, Text-zu-Sprache) handeln kann, oder Sie können den Anruf einfach an ein angegebenes Ziel durchstellen, ohne eine Ansage abzuspielen.
+Wenn Sie Ankündigungen konfigurieren, konfigurieren Sie wirklich, wie Anrufe von nicht zugewiesenen Nummern behandelt werden sollen. Sie können eine Eingabeaufforderung wiedergeben, bei der es sich um eine Audiodatei oder eine TTS-Datei (Text-to-Speech) handeln kann, oder Sie können den Anruf einfach an ein angegebenes Ziel weiterleiten, ohne eine Eingabeaufforderung wiederzugeben.
 
-Sie müssen Ansagen erstellen, bevor Sie die Tabelle nicht zugewiesener Nummern definieren. Diesen Schritt führen Sie für alle Ansagen aus, die eine Audioansage, eine TTS-Ansage oder keine Ansage enthalten.
+Sie müssen Ankündigungen erstellen, bevor Sie die Tabelle nicht zugewiesene Nummern definieren. Sie müssen diesen Schritt für alle Ankündigungen ausführen, die eine Eingabeaufforderung, eine TTS-Eingabeaufforderung oder keine Eingabeaufforderung verwenden.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Erstellen einer Ankündigung in lync Server 2013](lync-server-2013-create-an-announcement.md)
+  - [Erstellen einer Ansage in lync Server 2013](lync-server-2013-create-an-announcement.md)
 
-  - [Löschen einer Ankündigung in lync Server 2013](lync-server-2013-delete-an-announcement.md)
+  - [Löschen einer Ansage in lync Server 2013](lync-server-2013-delete-an-announcement.md)
 
 </div>
 

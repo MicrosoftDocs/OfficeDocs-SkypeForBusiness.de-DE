@@ -12,16 +12,16 @@ ms:contentKeyID: 49733843
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0638ae76a9aa1108b11c1d1ff98fdd3eef08c938
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a56dbb90c65bdbb4e26d289c289b6ccc9054d0e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762943"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029126"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,33 +35,33 @@ ms.locfileid: "41762943"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-Zum Migrieren der Kontaktobjekte muss das Cmdlet **Move-CsApplicationEndpoint** ausgeführt werden, um die Einwahl Zugriffsnummern von lync Server 2010 auf lync Server 2013 zu migrieren. Während des koexistenzbereichs lync Server 2010 und lync Server 2013 Verhalten sich die in lync Server 2013 erstellten Einwahl Zugriffsnummern ähnlich wie die Einwahl Zugriffsnummern, die Sie in lync Server 2010 erstellen, wie in diesem Abschnitt beschrieben.
+Das Migrieren der Kontaktobjekte erfordert das Ausführen des Cmdlets " **CsApplicationEndpoint** ", um die Zugriffsnummern für die Einwahl von lync Server 2010 auf lync Server 2013 zu migrieren. Während des Zeitraums für lync Server 2010 und lync Server 2013 Koexistenz Verhalten sich Einwahlnummern, die Sie in lync Server 2013 erstellt haben, entsprechend den in diesem Abschnitt beschriebenen Zugriffsnummern für Einwahlen, die Sie in lync Server 2010 erstellt haben.
 
-Einwahl Zugriffsnummern, die Sie in lync Server 2010 erstellt, aber nach lync Server 2013 verschoben haben oder die Sie in lync Server 2013 vor, während oder nach der Migration erstellt haben, weisen die folgenden Merkmale auf:
+Einwahlnummern, die Sie in lync Server 2010 erstellt, aber in lync Server 2013 verschoben haben oder die Sie in lync Server 2013 vor, während oder nach der Migration erstellt haben, weisen die folgenden Merkmale auf:
 
-  - Sie werden nicht auf Office Communications Server 2007 R2-Besprechungseinladungen und auf der Seite Einwahl Zugriffsnummer angezeigt.
+  - Sie werden nicht in Office Communications Server 2007 R2-Besprechungseinladungen und auf der Einwahlnummernseite angezeigt.
 
-  - In lync Server 2010-Besprechungseinladungen und auf der Seite "Einwahl Zugriffsnummer" angezeigt.
+  - Sie werden in Lync Server 2010-Besprechungseinladungen und auf der Einwahlnummernseite angezeigt.
 
-  - In lync Server 2013-Besprechungseinladungen und auf der Seite "Einwahl Zugriffsnummer" angezeigt.
+  - Sie werden in Lync Server 2013-Besprechungseinladungen und auf der Einwahlnummernseite angezeigt.
 
-  - Kann im Office Communications Server 2007 R2-Verwaltungstool nicht angezeigt oder geändert werden.
+  - Sie können nicht im Verwaltungstool von Office Communications Server 2007 R2 angezeigt oder geändert werden.
 
-  - Kann in der lync Server 2010-Systemsteuerung und in der lync Server 2010-Verwaltungsshell angezeigt und geändert werden.
+  - Sie können in der Lync Server 2010-Systemsteuerung und in der Lync Server 2010-Verwaltungsshell angezeigt und geändert werden.
 
-  - Kann in der lync Server 2013-Systemsteuerung und in der lync Server 2013-Verwaltungsshell angezeigt und geändert werden.
+  - Sie können in der Lync Server 2013-Systemsteuerung und in der Lync Server 2013-Verwaltungsshell angezeigt und geändert werden.
 
-  - Kann innerhalb des Bereichs mithilfe des Cmdlets "CsDialinConferencingAccessNumber" mit dem Priority-Parameter neu sequenziert werden.
+  - Sie können innerhalb des Bereichs durch Verwendung des Set-CsDialinConferencingAccessNumber-Cmdlets mit dem Priority-Parameter neu sequenziert werden.
 
-Sie müssen die Migration von Einwahl Zugriffsnummern beenden, die auf einen lync Server 2010-Pool verweisen, bevor Sie den lync Server 2010-Pool außer Betrieb bringen. Wenn Sie die Migration von Einwahlnummern wie im folgenden Verfahren beschrieben nicht abschließen, treten bei eingehenden Anrufen an die Zugriffsnummern keine Fehler auf.
+Sie müssen die Migration von Einwahlnummern abschließen, die auf einen Lync Server 2010-Pool verweisen, bevor Sie den Lync Server 2010-Pool außer Betrieb nehmen. Wenn Sie die Migration von Einwahlnummern nicht wie im folgenden Verfahren beschrieben abschließen, schlagen eingehende Anrufe an die Einwahlnummern fehl.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Sie müssen dieses Verfahren vor der Außerbetriebnahme des lync Server 2010-Pools ausführen.
+> Sie müssen dieses Verfahren vor der Außerbetriebnahme des lync Server 2010 Pools ausführen.
 
 
 
@@ -71,17 +71,17 @@ Sie müssen die Migration von Einwahl Zugriffsnummern beenden, die auf einen lyn
 
 
 > [!NOTE]  
-> Es wird empfohlen, Einwahlnummern zu verschieben, wenn die Netzwerkauslastung gering ist, falls es einen kurzen Zeitraum für einen Ausfall des Diensts gibt.
+> Wir empfehlen, das Verschieben von Einwahlen zu einem Zeitpunkt vorzunehmen, zu dem die Netzwerkauslastung möglichst gering ist, für den Fall, dass es zu einem kurzen Dienstausfall kommt.
 
 
 
 </div>
 
-**So identifizieren und verschieben Sie Einwahl Zugriffsnummern**
+**So identifizieren und verschieben Sie Einwahlnummern**
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Wenn Sie jede Einwahl Zugriffsnummer in einen Pool verschieben möchten, der auf lync Server 2013 gehostet wird, führen Sie die folgenden Schritte aus:
+2.  Um jede Zugriffsnummer für die Einwahl in einen Pool zu migrieren, der auf lync Server 2013 gehostet wird, führen Sie über die Befehlszeile Folgendes aus:
     
         Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
 
@@ -89,40 +89,40 @@ Sie müssen die Migration von Einwahl Zugriffsnummern beenden, die auf einen lyn
 
 4.  Klicken Sie in der linken Navigationsleiste auf **Konferenz**.
 
-5.  Klicken Sie auf die Registerkarte **Einwahlnummer** .
+5.  Klicken Sie auf die Registerkarte **Einwahlnummer**.
 
-6.  Stellen Sie sicher, dass keine Einwahl Zugriffsnummern für den lync Server 2010-Pool verbleiben, von dem aus Sie migrieren.
+6.  Stellen Sie sicher, dass keine Einwahlnummern für den lync Server 2010 Pool verbleiben, von dem Sie migrieren.
     
     <div>
     
 
     > [!NOTE]  
-    > Wenn alle Einwahl Zugriffsnummern auf den lync Server 2013-Pool verweisen, können Sie den lync Server 2010-Pool außer Betrieb stellen.
+    > Wenn alle Zugriffsnummern für Einwahlen auf den lync Server 2013 Pool deuten, können Sie den lync Server 2010-Pool außer Betrieb nehmen.
 
     
     </div>
 
-**Überprüfen der Migration von Einwahl Zugriffsnummern mithilfe der lync Server-Systemsteuerung**
+**Überprüfen der Migration der Einwahlnummern mithilfe der Lync Server-Systemsteuerung**
 
-1.  Melden Sie sich bei einem Benutzerkonto, das der **CsUserAdministrator** -Rolle oder der **CsAdministrator** -Rolle zugewiesen ist, bei jedem Computer in ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle **CsUserAdministrator** oder **CsAdministrator** zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
 2.  Öffnen Sie die Lync Server-Systemsteuerung.
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Konferenz**.
 
-4.  Klicken Sie auf die Registerkarte **Einwahlnummer** .
+4.  Klicken Sie auf die Registerkarte **Einwahlnummer**.
 
-5.  Überprüfen Sie, ob alle Einwahl Zugriffsnummern in den Pool migriert werden, der auf lync Server 2013 gehostet wird.
+5.  Vergewissern Sie sich, dass alle Einwahlnummern zu dem auf lync Server 2013 gehosteten Pool migriert wurden.
 
-**Überprüfen der Migration von Einwahl Zugriffsnummern mithilfe der lync Server-Verwaltungsshell**
+**Überprüfen der Migration der Einwahlnummern mithilfe der Lync Server-Verwaltungsshell**
 
-1.  Öffnen Sie die Lync Server-Verwaltungsshell.
+1.  Öffnen Sie lync Server-Verwaltungsshell.
 
-2.  Um alle migrierten Zugriffsnummern für Einwahlkonferenzen zurückzugeben, führen Sie über die Befehlszeile Folgendes aus:
+2.  Um alle migrierten Einwahlnummern für Konferenzen zurückzugeben, führen Sie an der Befehlszeile folgenden Befehl aus:
     
         Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
 
-3.  Überprüfen Sie, ob alle Einwahl Zugriffsnummern in den Pool migriert werden, der auf lync Server 2013 gehostet wird.
+3.  Überprüfen Sie, ob alle Einwahlnummern zu dem auf lync Server 2013 gehosteten Pool migriert wurden.
 
 </div>
 

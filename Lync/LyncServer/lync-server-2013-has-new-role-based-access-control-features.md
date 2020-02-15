@@ -12,20 +12,20 @@ ms:contentKeyID: 48183616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dbabc4ca6a471924c6ac76346ad7d59442690db
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0923cdeecd1109e7d900ce0e3d2b947b328ee5a9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727795"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030288"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-role-based-access-control-features-in-lync-server-2013"></a>Neue Funktionen für die rollenbasierte Zugriffssteuerung (RBAC) in Lync Server 2013
+# <a name="new-role-based-access-control-features-in-lync-server-2013"></a>Neue Features für die rollenbasierte Zugriffssteuerung in lync Server 2013
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "41727795"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-20_
+_**Letztes Änderungsstand des Themas:** 2012-09-20_
 
-Lync Server 2013 verbessert das rollenbasierte Zugriffs Steuerungs Feature (Role-Based Access Control, RBAC) auf zwei Hauptebenen. Sie können jetzt benutzerdefinierte Rollen erstellen, die jeweils nur über Berechtigungen für einen Satz von von Ihnen angegebenen Cmdlets verfügen. Diesen benutzerdefinierten Rollen kann auch die Berechtigung zum Ausführen von Skripten für Cmdlets gewährt werden.
+Lync Server 2013 verbessert die rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC) auf zwei Hauptarten. Sie können jetzt benutzerdefinierte Rollen erstellen, die jeweils nur Berechtigungen für einen angegebenen Satz von Cmdlets besitzen. Diesen benutzerdefinierten Rollen kann auch die Berechtigung zum Ausführen von Cmdlet-Skripts gewährt werden.
 
-Darüber hinaus umfasst lync Server 2013 zwei neue vordefinierte Rollen.
+Darüber hinaus enthält lync Server 2013 zwei neue vordefinierte Rollen.
 
-  - Benutzer, denen die Rolle des *Reaktionsgruppen-Managers* zugewiesen ist, können bestimmte warte Gruppen Warteschlangen in Ihrer Organisation verwalten, aber nicht unbedingt Verwaltungsrechte für andere Warteschlangen oder für die gesamte Antwortgruppen Anwendung.
+  - Benutzer mit der Rolle *Reaktionsgruppenleiter* können bestimmte Reaktionsgruppenwarteschlangen in Ihrer Organisation verwalten, besitzen jedoch nicht unbedingt Verwaltungsrechte für andere Warteschlangen oder die Reaktionsgruppenanwendung als Ganzes.
 
-  - Benutzer, die mit der Rolle des *beständigen Chat-Managers* ausgestattet sind, können bestimmte beständige Chatrooms in Ihrer Organisation verwalten, aber nicht unbedingt Verwaltungsrechte für andere Chatrooms oder das Feature für beständigen Chat insgesamt.
+  - Benutzer, denen die Rolle des *beständigen Chat Managers* zugewiesen ist, können bestimmte beständige Chatrooms in Ihrer Organisation verwalten, aber nicht notwendigerweise über Verwaltungsrechte für andere Räume oder das Feature für den beständigen Chat insgesamt verfügen.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planen für die rollenbasierte Zugriffssteuerung in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md)  
+[Planen der rollenbasierten Zugriffssteuerung in lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md)  
   
 
 </div>

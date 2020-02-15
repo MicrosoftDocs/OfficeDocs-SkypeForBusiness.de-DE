@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Topologien und Komponenten für Front-End-Server, Chat und Anwesenheit'
+title: 'Lync Server 2013: Topologien und Komponenten für Front-End-Server, Instant Messaging und Anwesenheit'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185763
 ms.date: 10/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 181ae682ec5ee1352c5d4f4280b4164fbbcd91f2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e8e53116879e194bca7d0ea4066bc5f10de38f7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745245"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029446"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Topologien und Komponenten für Front-End-Server, Chat und Anwesenheit in Lync Server 2013
+# <a name="topologies-and-components-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Topologien und Komponenten für Front-End-Server, Instant Messaging und Anwesenheitsinformationen in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41745245"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-10-24_
+_**Letztes Änderungsstand des Themas:** 2014-10-24_
 
-Für Chat und Anwesenheit sind nur diese Komponenten erforderlich:
+Für Instant Messaging (IM) und Anwesenheit sind nur diese Komponenten erforderlich:
 
-  - Die Front-End-Server Ihrer Organisation oder Standard Edition-Server. Chat und Anwesenheitsfunktionen sind auf diesen Servern immer aktiviert.
+  - Die Front-End- oder Standard Edition-Server Ihrer Organisation. Instant Messaging- und Anwesenheitsfunktionen sind auf diesen Servern immer aktiviert.
 
-  - Ein Lastenausgleich, wenn Sie einen Enterprise Edition-Front-End-Pool haben. Weitere Informationen finden Sie unter [Lastenausgleichsanforderungen für lync Server 2013](lync-server-2013-load-balancing-requirements.md).
+  - Ein Lastenausgleichsmodul, wenn Sie über ein Enterprise Edition-Front-End-Pool verfügen. Weitere Informationen finden Sie unter [Lastenausgleichsanforderungen für lync Server 2013](lync-server-2013-load-balancing-requirements.md).
 
 <div>
 
 ## <a name="planning-for-the-deployment-of-front-end-pools"></a>Planen der Bereitstellung von Front-End-Pools
 
-In lync Server 2013 hat sich die Architektur des Front-End-Pools geändert, und diese Änderungen beeinflussen, wie Sie Ihre Front-End-Pools planen und verwalten sollten.
+In lync Server 2013 wurde Front-End-Pool Architektur geändert, und diese Änderungen wirken sich auf die Planung und Wartung Ihrer Front-End-Pools aus.
 
-Wir empfehlen, dass alle Ihre Enterprise Edition-Front-End-Pools mindestens drei Front-End-Server enthalten. In lync Server verwendet die Architektur der Front-End-Pools ein Modell mit verteilten Systemen, wobei die Daten jedes Benutzers auf drei Front-End-Servern im Pool aufbewahrt werden. Weitere Informationen zu dieser neuen Architektur finden Sie unter [Topologie-Änderungen in lync Server 2013](lync-server-2013-topology-changes.md).
+Es wird empfohlen, dass alle Ihre Enterprise Edition-Front-End-Pools mindestens drei Front-End-Server umfassen. In lync Server verwendet die Architektur von Front-End-Pools ein Modell für verteilte Systeme, wobei die Daten der einzelnen Benutzer auf drei Front-End-Servern im Pool aufbewahrt werden. Weitere Informationen zu dieser neuen Architektur finden Sie unter [Topologie-Änderungen in lync Server 2013](lync-server-2013-topology-changes.md).
 
-Wenn Sie keine drei Enterprise Edition-Front-End-Server bereitstellen möchten und eine Disaster Recovery wünschen, empfehlen wir die Verwendung von lync Server Standard Edition und das Erstellen von zwei Pools mit einer gekoppelten Sicherungsbeziehung. Dadurch wird eine Disaster Recovery-Lösung mit nur zwei Servern bereitgestellt. Weitere Informationen zu Hochverfügbarkeits-und Disaster Recovery-Topologien und-Features finden Sie unter [Planen von höchst Verfügbarkeit und Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+Wenn Sie keine drei Enterprise Edition-Front-End-Server bereitstellen möchten und eine Notfallwiederherstellung wünschen, sollten Sie lync Server Standard Edition verwenden und zwei Pools mit einer gepaarten Sicherungsbeziehung erstellen. Dadurch wird eine Notfallwiederherstellungslösung mit nur zwei Servern bereitgestellt. Weitere Informationen zu Hochverfügbarkeit und Notfall Wiederherstellungs Topologien und-Features finden Sie unter [Planning for High Availability and Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
 </div>
 
@@ -59,23 +59,23 @@ Wenn Sie keine drei Enterprise Edition-Front-End-Server bereitstellen möchten u
 
 ## <a name="planning-for-the-management-of-front-end-pools"></a>Planen der Verwaltung von Front-End-Pools
 
-Befolgen Sie für Front-End-Pools die Richtlinien in diesem Abschnitt.
+Für Front-End-Pools befolgen Sie die Richtlinien in diesem Abschnitt.
 
 <div>
 
-## <a name="ensuring-that-pools-are-functional"></a>Sicherstellen, dass Pools funktionsfähig sind
+## <a name="ensuring-that-pools-are-functional"></a>Sicherstellen, dass die Pools funktionsfähig sind
 
-Mit dem neuen verteilten Modell für Front-End-Pools müssen bestimmte Nummern der Server eines Pools ausgeführt werden, damit der Pool funktioniert. Es gibt zwei Verlust Modi für einen Pool
+Mit dem neuen verteilten Modell für Front-End-Pools müssen bestimmte Nummern der Server eines Pools aktiv sein, damit der Pool funktioniert. Es gibt zwei Verlust Modi für einen Pool.
 
-  - Quorumverlust auf Routinggruppenebene, wenn nicht genügend Replikatserver für eine bestimmte Routinggruppe vorhanden sind. Eine Routinggruppe ist eine Aggregation einer Gruppe von Benutzern, die im Pool verwaltet werden. Jede Routinggruppe verfügt über drei Replikate im Pool: eine primäre und zwei Sekundär Gruppen.
+  - Quorum Verlust auf Routing Gruppenebene, der durch nicht genügend Replikatserver für eine bestimmte Routinggruppe verursacht wird. Eine Routinggruppe ist eine Aggregation einer Gruppe von Benutzern, die im Pool verwaltet werden. Jede Routinggruppe verfügt über drei Replikate im Pool: eine primäre und zwei sekundäre.
 
-  - Quorumverlust auf Poolebene, der verursacht wird, wenn nicht genügend Seedserver im Pool aktiv sind.
+  - Quorum Verlust auf Poolebene, verursacht werden, wenn nicht genügend Seed-Server im Pool ausgeführt werden.
 
 <div>
 
-## <a name="routing-group-level-quorum-loss"></a>Quorumverlust auf Routinggruppenebene
+## <a name="routing-group-level-quorum-loss"></a>Quorum Verlust auf Routing Gruppenebene
 
-Wenn Sie einen neuen Front-End-Pool zum ersten Mal starten, ist es wichtig, dass wie in der folgenden Tabelle gezeigt 85 % der Server aktiv sind. Wenn weniger Server aktiv sind, bleiben die Dienste möglicherweise im Startstatus hängen und der Pool wird nicht gestartet.
+Wenn Sie ein neues Front-End-Pool zum ersten Mal starten, ist es wichtig, dass 85% der Serverbetriebs bereit sind, wie in der folgenden Tabelle dargestellt. Wenn weniger Server aktiv sind, können die Dienste möglicherweise in den Startzustand verfallen, und der Pool wird möglicherweise nicht gestartet.
 
 
 <table>
@@ -85,66 +85,66 @@ Wenn Sie einen neuen Front-End-Pool zum ersten Mal starten, ist es wichtig, dass
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gesamtzahl der Server im Pool</th>
-<th>Anzahl der Server, die aktiv sein müssen, damit der Pool zum ersten Mal gestartet wird</th>
+<th>Gesamtanzahl der Server im Pool</th>
+<th>Anzahl der Server, die ausgeführt werden müssen, damit der Pool beim ersten Mal gestartet wird</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>1</p></td>
+<td><p>2 </p></td>
+<td><p>1 </p></td>
 </tr>
 <tr class="even">
-<td><p>3</p></td>
-<td><p>3</p></td>
+<td><p>3 </p></td>
+<td><p>3 </p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>3</p></td>
+<td><p>4 </p></td>
+<td><p>3 </p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
-<td><p>4</p></td>
+<td><p>5 </p></td>
+<td><p>4 </p></td>
 </tr>
 <tr class="odd">
-<td><p>6</p></td>
-<td><p>5</p></td>
+<td><p>6 </p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="even">
-<td><p>7</p></td>
-<td><p>5</p></td>
+<td><p>7 </p></td>
+<td><p>5 </p></td>
 </tr>
 <tr class="odd">
-<td><p>8</p></td>
-<td><p>6</p></td>
+<td><p>8 </p></td>
+<td><p>6 </p></td>
 </tr>
 <tr class="even">
-<td><p>9</p></td>
-<td><p>7</p></td>
+<td><p>9 </p></td>
+<td><p>7 </p></td>
 </tr>
 <tr class="odd">
-<td><p>10</p></td>
-<td><p>8</p></td>
+<td><p>10 </p></td>
+<td><p>8 </p></td>
 </tr>
 <tr class="even">
 <td><p>11</p></td>
-<td><p>9</p></td>
+<td><p>9 </p></td>
 </tr>
 <tr class="odd">
 <td><p>12</p></td>
-<td><p>10</p></td>
+<td><p>10 </p></td>
 </tr>
 </tbody>
 </table>
 
 
-Bei jedem nachfolgenden Start des Pools sollten 85 % der Server gestartet werden (wie in der vorstehenden Tabelle gezeigt). Wenn diese Anzahl von Servern nicht gestartet werden kann (aber ausreichend Server gestartet werden können, damit kein Quorumverlust auf Poolebene auftritt), können Sie das Cmdlet **Reset-CsPoolRegistrarState –ResetType QuorumLossRecovery** verwenden, damit der Pool aus diesem Quorumverlust auf Routinggruppenebene wiederhergestellt werden und sich aufbauen kann. Weitere Informationen zur Verwendung dieses Cmdlets finden Sie unter [Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/Reset-CsPoolRegistrarState).
+Bei jedem nachfolgenden Start des Pools sollten 85% der Server gestartet werden (siehe obige Tabelle). Wenn diese Anzahl von Servern nicht gestartet werden kann (es können jedoch genügend Server gestartet werden, damit Sie nicht auf der Ebene des Quorums auf der Poolebene sind), können Sie das Cmdlet **Reset-CsPoolRegistrarState – resettype QuorumLossRecovery** verwenden, um zu ermöglichen, dass der Pool von diesem Quorum Verlust auf Routinggruppen Ebene wiederhergestellt wird und Fortschritte macht. Weitere Informationen zur Verwendung dieses Cmdlets finden Sie unter [Reset-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/Reset-CsPoolRegistrarState).
 
 <div>
 
 
 > [!NOTE]  
-> Da lync Server die primäre SQL-Datenbank als Zeuge verwendet, wenn Sie die primäre Datenbank Herunterfahren und zur Spiegelungskopie wechseln und genügend Front-End-Server herunterfahren, sodass nicht genügend entsprechend der vorhergehenden Tabelle ausgeführt wird, wird der gesamte Pool heruntergefahren. Weitere Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/?linkid=393672">Daten Bank Spiegelungs Zeuge</A>.
+> Da lync Server die primäre SQL-Datenbank als Zeuge verwendet, wenn Sie die primäre Datenbank Herunterfahren und zur Spiegelkopie wechseln und genügend Front-End-Server herunterfahren, sodass nicht genügend entsprechend der oben aufgeführten Tabelle ausgeführt wird, wird der gesamte Pool nach unten gehen. Weitere Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/?linkid=393672">Datenbank-Spiegelungs Zeuge</A>.
 
 
 
@@ -154,9 +154,9 @@ Bei jedem nachfolgenden Start des Pools sollten 85 % der Server gestartet werde
 
 <div>
 
-## <a name="pool-level-quorum-loss"></a>Quorumverlust auf Poolebene
+## <a name="pool-level-quorum-loss"></a>Quorum Verlust auf Poolebene
 
-Damit ein Front-End-Pool überhaupt funktioniert, kann er keinen Quorum Verlust auf Poolebene aufweisen. Wenn die Anzahl der ausgeführten Server unter die Funktionsebene fällt, wie in der folgenden Tabelle dargestellt, beenden die restlichen Server im Pool alle lync Server-Dienste. Beachten Sie, dass die Zahlen in der folgenden Tabelle davon ausgehen, dass die Back-End-Server im Pool ausgeführt werden.
+Damit ein Front-End-Pool überhaupt funktioniert, kann es nicht auf dem Quorum Verlust auf Poolebene liegen. Wenn die Anzahl der Server, die in der folgenden Tabelle aufgeführt sind, unter die Funktionsebene fällt, werden die restlichen Server im Pool alle lync Server Dienste beenden. Beachten Sie, dass die Nummern in der folgenden Tabelle davon ausgehen, dass die Back-End-Server im Pool aktiv sind.
 
 
 <table>
@@ -166,40 +166,40 @@ Damit ein Front-End-Pool überhaupt funktioniert, kann er keinen Quorum Verlust 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gesamtzahl der Front-End-Server im Pool</th>
-<th>Anzahl der Server, die aktiv sein müssen, damit der Pool funktioniert</th>
+<th>Gesamtanzahl der Front-End-Server im Pool</th>
+<th>Anzahl der Server, die für die korrekte Funktionsweise des Pools ausgeführt werden müssen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>1</p></td>
+<td><p>2 </p></td>
+<td><p>1 </p></td>
 </tr>
 <tr class="even">
 <td><p>3-4</p></td>
-<td><p>Beliebige 2</p></td>
+<td><p>Any 2</p></td>
 </tr>
 <tr class="odd">
 <td><p>5-6</p></td>
 <td><p>Beliebige 3</p></td>
 </tr>
 <tr class="even">
-<td><p>7</p></td>
+<td><p>7 </p></td>
 <td><p>Beliebige 4</p></td>
 </tr>
 <tr class="odd">
 <td><p>8-9</p></td>
-<td><p>Beliebige 4 der ersten 7 Server</p></td>
+<td><p>4 der ersten 7 Server</p></td>
 </tr>
 <tr class="even">
 <td><p>10-12</p></td>
-<td><p>Beliebige 5 der ersten 9 Server</p></td>
+<td><p>5 der ersten 9 Server</p></td>
 </tr>
 </tbody>
 </table>
 
 
-In der vorstehenden Tabelle sind die "ersten Server" die Server, die in chronologischer Reihenfolge beim ersten Start des Pools aufgeholt wurden. Um diese Server zu ermitteln, können Sie das Cmdlet " **Get-CsComputer** " mit der Option " **– PoolFqdn** " verwenden. Dieses Cmdlet zeigt die Server in der Reihenfolge an, in der Sie in der Topologie angezeigt werden, und die oben in der Liste sind die ersten Server.
+In der obigen Tabelle sind die "ersten Server" die Server, die zunächst chronologisch aufgelegt wurden, als der Pool zum ersten Mal gestartet wurde. Zum bestimmen dieser Server können Sie das Cmdlet **Get-CsComputer** mit der Option **– poolfqdn "** verwenden. Dieses Cmdlet zeigt die Server in der Reihenfolge an, in der Sie in der Topologie angezeigt werden, und diejenigen, die sich oben in der Liste befinden, sind die ersten Server.
 
 </div>
 
@@ -207,17 +207,17 @@ In der vorstehenden Tabelle sind die "ersten Server" die Server, die in chronolo
 
 ## <a name="front-end-pools-with-two-front-end-servers"></a>Front-End-Pools mit zwei Front-End-Servern
 
-Wir empfehlen nicht die Bereitstellungeines Front-End-Pools, in dem nur zwei Front-End-Server enthalten sind. Wenn Sie einen solchen Pool überhaupt bereitstellen müssen, befolgen Sie diese Richtlinien:
+Das Bereitstellen eines Front-End-Pools, der nur zwei Front-End-Server enthält, wird nicht empfohlen. Sollten Sie einen solchen Pool aber doch einmal erstellen müssen, halten Sie sich an folgende Richtlinien:
 
-  - Wenn einer der beiden Front-End-Server ausfällt, sollten Sie versuchen, den fehlerhaften Server so schnell wie möglich wieder aufzunehmen. Entsprechend sollten Sie, wenn Sie einen der beiden Server upgraden müssen, diesen Server so bald wie möglich nach Abschluss des Upgrades wieder online schalten.
+  - Wenn einer der beiden Front-End-Server ausfällt, sollten Sie versuchen, den ausgefallenen Server so schnell wie möglich wieder in Betrieb zu bekommen. Entsprechend sollten Sie, wenn Sie einen der beiden Server upgraden müssen, diesen Server so bald wie möglich nach Abschluss des Upgrades wieder online schalten.
 
   - Falls Sie aus irgendeinem Grund beide Server gleichzeitig herunterfahren müssen, führen Sie nach Beendigung der Downtime für den Pool folgende Schritte durch:
     
-      - Die bewährte Vorgehensweise besteht darin, beide Front-End-Server gleichzeitig neu zu starten.
+      - Die bewährte Methode besteht darin, beide Front-End-Server gleichzeitig neu zu starten.
     
       - Ist dies nicht möglich, sollten Sie sie in der umgekehrten Reihenfolge wieder hochfahren, in der sie heruntergefahren wurden.
     
-      - Wenn Sie Sie nicht in dieser Reihenfolge sichern können, verwenden Sie das folgende Cmdlet, bevor Sie den Pool sichern:.
+      - Falls Sie sie nicht in dieser Reihenfolge neu starten können, führen Sie das folgende Cmdlet aus, bevor Sie den Pool wieder hochfahren:
         
             Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery -PoolFQDN <FQDN>
 
@@ -225,13 +225,13 @@ Wir empfehlen nicht die Bereitstellungeines Front-End-Pools, in dem nur zwei Fro
 
 <div>
 
-## <a name="additional-steps-to-ensure-pools-are-functional"></a>Zusätzliche Schritte, um sicherzustellen, dass Pools funktionsfähig sind
+## <a name="additional-steps-to-ensure-pools-are-functional"></a>Zusätzliche Schritte zum Sicherstellen der Funktionsweise von Pools
 
-Sie sollten auf eine Reihe anderer Faktoren achten, um sicherzustellen, dass Ihre Front-End-Pools funktionsbereit bleiben.
+Sie sollten sich einige andere Faktoren ansehen, um sicherzustellen, dass Ihre Front-End-Pools funktionsfähig bleiben.
 
-  - Wenn Sie Benutzer zum ersten Mal in den Pool verschieben, stellen Sie sicher, dass mindestens drei der Front-End-Server ausgeführt werden.
+  - Wenn Sie das erste Mal Benutzer in den Pool verschieben, stellen Sie sicher, dass mindestens drei der Front-End-Server aktiv sind.
 
-  - Wenn Sie eine Kopplungs Beziehung zwischen diesem Pool und einem anderen Pool für Disaster Recovery-Zwecke einrichten, müssen Sie nach dem Einrichten dieser Beziehung sicherstellen, dass dieser Pool drei Front-End-Server hat, die zu einem bestimmten Zeitpunkt gleichzeitig ausgeführt werden, damit Sie ordnungsgemäß synchronisiert werden. Daten mit dem Sicherungspool. Weitere Informationen zu Pool-Kopplungs-und Disaster Recovery-Features finden Sie unter [Planen von Hochverfügbarkeits-und Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+  - Wenn Sie eine Paarbeziehung zwischen diesem Pool und einem anderen Pool zum Zwecke der Notfallwiederherstellung konfigurieren, müssen Sie nach dem Erstellen dieser Beziehung sichergehen, dass in diesem Pool zu irgendeinem Zeitpunkt drei Front-End-Server gleichzeitig ausgeführt werden, damit Daten korrekt mit dem Sicherungspool synchronisiert werden. Weitere Informationen zu Pool Kopplung und Notfall Wiederherstellungsfeatures finden Sie unter [Planning for High Availability and Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
 </div>
 
@@ -239,17 +239,17 @@ Sie sollten auf eine Reihe anderer Faktoren achten, um sicherzustellen, dass Ihr
 
 <div>
 
-## <a name="improving-the-reliability-of-pool-upgrades"></a>Verbessern der Zuverlässigkeit von Pool-Upgrades
+## <a name="improving-the-reliability-of-pool-upgrades"></a>Verbessern der Zuverlässigkeit von Pool Upgrades
 
-Wenn Sie die Server in einem Front-End-Pool aktualisieren oder patchen müssen, folgen Sie dem Workflow, der unter [Upgrade-oder Update-Front-End-Server in lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)angezeigt wird, und den folgenden Richtlinien:
+Wenn Sie die Server in einem Front-End-Pool aktualisieren oder patchen müssen, befolgen Sie den in [Upgrade-oder Update-Front-End-Server in lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)angezeigten Workflow sowie die folgenden Richtlinien:
 
-  - Wenn Sie für Upgrades von einer Upgrade-Domäne zu einem anderen wechseln (nach dem Workflow bei der [Aktualisierung oder Aktualisierung der Front-End-Server in lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)), verwenden Sie das Cmdlet **Get-CsPoolUpgradeReadinessState** , und überprüfen Sie den Status bereit. Das Hinzufügen eines 20-minütigen Wartens zwischen jeder Upgrade-Domäne, nachdem es "Ready" erreicht hat, macht die Upgrades zuverlässiger. Wenn es während dieser 20 Minuten **nicht bereit** ist, starten Sie den 20-minütigen Timer erneut. Darüber hinaus können Sie das Cmdlet " **Get-CsPoolFabricState** " vor und nach dem Start des 20-minütigen Intervalls ausführen und sicherstellen, dass keine Änderungen an den Vorwahlen und Sekundär Personen von Routinggruppen vorgenommen wurden.
+  - Wenn Sie für Upgrades von einer Upgrade-Domäne zu einer anderen wechseln (nach dem Workflow beim [Upgrade oder Aktualisieren der Front-End-Server in lync Server 2013](lync-server-2013-upgrade-or-update-front-end-servers.md)), verwenden Sie das Cmdlet **Get-cspoolupgradereadinessstate "** , und überprüfen Sie den Status bereit. Wenn Sie eine Wartezeit von 20 Minuten zwischen jeder Upgrade-Domäne hinzufügen, nachdem Sie "Ready" erreicht hat, werden die Upgrades zuverlässiger. Wenn es während dieser 20 Minuten **nicht** mehr verfügbar ist, starten Sie den 20-minütigen Timer neu. Außerdem können Sie das Cmdlet **Get-CsPoolFabricState** vor und nach dem Start des 20-minütigen Intervalls ausführen und sicherstellen, dass keine Änderungen an den Vorwahlen und an den Hilfsgruppen von Routinggruppen vorgenommen werden.
 
-  - Wechseln Sie nicht zur nächsten Upgrade-Domäne, wenn einer der Server in der letzten gepatchten Upgrade-Domäne hängen bleibt oder nicht neu gestartet wird. Dies gilt auch, wenn einer der Server in einem Upgrade nicht gestartet werden kann. Führen **Sie Get-CsPoolFabricState** aus, um sicherzustellen, dass alle Routinggruppen über eine primäre und mindestens eine sekundäre Gruppe verfügen. Dadurch wird bestätigt, ob alle Benutzer über einen Dienst verfügen.
+  - Wechseln Sie nicht zur nächsten Upgrade-Domäne, wenn einer der Server in der letzten gepatchten Upgrade-Domäne festgesteckt oder nicht neu gestartet wird. Dies gilt auch, wenn einer der Server innerhalb eines Upgrades nicht gestartet werden kann. Führen **Sie Get-CsPoolFabricState** aus, um sicherzustellen, dass alle Routinggruppen über eine primäre und mindestens eine sekundäre Gruppe verfügen. Dadurch wird bestätigt, ob alle Benutzer über Dienst verfügen.
 
-  - Wenn einige Benutzer über einen Dienst verfügen und andere dies nicht tun, führen **Sie Get-CsPoolFabricState** mit der Option – verbose aus, um nach Routinggruppen zu suchen, die fehlende Replikate aufweisen. Starten Sie den gesamten Pool nicht als ersten Schritt zur Problembehandlung neu. Weitere Informationen zu diesem Cmdlet finden Sie unter [Get-CsPoolFabricState](https://docs.microsoft.com/powershell/module/skype/Get-CsPoolFabricState).
+  - Wenn einige Benutzer über Dienste verfügen und andere nicht, führen **Sie Get-CsPoolFabricState** mit der Option – verbose aus, um nach Routinggruppen mit fehlenden Replikaten zu suchen. Starten Sie den gesamten Pool nicht als ersten Schritt zur Problembehandlung neu. Weitere Informationen zu diesem Cmdlet finden Sie unter [Get-CsPoolFabricState](https://docs.microsoft.com/powershell/module/skype/Get-CsPoolFabricState).
 
-  - Stellen Sie sicher, dass alle Instanzen der Ereignisanzeige oder des Leistungsmonitors für Windows Fabric-Installationen/-Deinstallationen geschlossen sind.
+  - Stellen Sie sicher, dass alle Instanzen der Ereignisanzeige oder der System Monitor Fenster für Windows Fabric-Installationen/-Deinstallationen geschlossen sind.
 
 </div>
 
@@ -257,15 +257,15 @@ Wenn Sie die Server in einem Front-End-Pool aktualisieren oder patchen müssen, 
 
 ## <a name="changing-a-front-end-pools-configuration"></a>Ändern der Konfiguration eines Front-End-Pools
 
-Wenn Sie einem Pool Front-End-Server hinzufügen oder aus dem Pool entfernen und dann die neue Topologie veröffentlichen, befolgen Sie diese Richtlinien:
+Wenn Sie in einem Pool Front-End-Server hinzufügen oder entfernen und die neue Topologie dann veröffentlichen, halten Sie folgende Richtlinien ein:
 
   - Nachdem die neue Topologie veröffentlicht wurde, müssen Sie jeden Front-End-Server im Pool neu starten. Starten Sie die Server einen nach dem anderen neu.
 
-  - Wenn der gesamte Pool während der Konfigurationsänderung inaktiv war, führen Sie nach der Veröffentlichung der neuen Topologie das folgende Cmdlet aus:
+  - Wenn während der Konfigurationsänderung der gesamte Pool heruntergefahren war, führen Sie nach dem Veröffentlichen der Topologie das folgende Cmdlet aus:
     
         Reset-CsPoolRegistrarState -PoolFQDN <PoolFQDN> -ResetType ServiceReset
 
-Wenn ein Front-End-Server ausfällt und für ein paar Tage oder mehr wahrscheinlich nicht ersetzt wird, entfernen Sie den Server aus der Topologie. Fügen Sie den neuen Front-End-Server zur Topologie hinzu, wenn er wieder verfügbar ist.
+Wenn ein Front-End-Server ausfällt und über mehrere Tage hinweg wahrscheinlich nicht ersetzt werden kann, entfernen Sie den Server aus der Topologie. Fügen Sie den neuen Front-End-Server der Topologie hinzu, sobald er wieder verfügbar ist.
 
 </div>
 

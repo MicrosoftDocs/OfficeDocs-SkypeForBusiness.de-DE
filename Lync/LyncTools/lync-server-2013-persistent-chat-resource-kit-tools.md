@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013-Ressourcensatz Tools für beständigen Chat
+title: Beständiger Chat von lync Server 2013 Resource Kit-Tools
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a827892dac61ff88d0527eafb7d94948afa21885
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7895a1ebb2c0ce45cebf3514839b7ab3405e1c9f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739415"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983030"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Lync Server 2013-Ressourcensatz Tools für beständigen Chat
+# <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Beständiger Chat von lync Server 2013 Resource Kit-Tools
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41739415"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-24_
+_**Letztes Änderungsstand des Themas:** 2013-02-24_
 
-Die lync Server 2013-Tools für beständigen Chat-Ressourcen Kits unterstützen Sie bei der Vereinfachung von Routineaufgaben für IT-Administratoren, die lync Server 2013 persistent Chat Server bereitstellen und verwalten. In diesem Thema werden neben den Installationsanweisungen auch der Zweck der einzelnen Tools und Beispiele für deren Verwendung beschrieben.
+Mit den beständiger Chat von lync Server 2013 Resource Kit-Tools können Sie Routineaufgaben für IT-Administratoren vereinfachen, die beständiger Chat von lync Server 2013 Server bereitstellen und verwalten. In diesem Thema werden neben den Installationsanweisungen der Zweck der einzelnen Tools und Beispiele für deren Verwendung beschrieben.
 
 <div>
 
 ## <a name="installation-of-the-resource-kit-tools"></a>Installation der Resource Kit-Tools
 
-Zum Installieren der lync Server 2013, Resource Kit-Tools, laden Sie **PersistentChatReskit. msi**herunter. Führen Sie **PersistentChatReskit. msi** aus, um eine einfache Installation durchzuführen. Mit der MSI-Datei werden alle Tools im folgenden Pfad installiert \\: **Programm\\ Dateien Microsoft lync Server\\2013 beständiger Chat Server Resource Kit**. Tools, bei denen es sich um eigenständige ausführbare Dateien handelt, befinden sich in diesem Ordner. Tools, die auch Dateien enthalten, befinden sich in ihren eigenen Unterordnern.
+Zum Installieren der lync Server 2013 Resource Kit-Tools laden Sie **PersistentChatReskit. msi**herunter. Führen Sie **PersistentChatReskit. msi** aus, um eine einfache Installation durchzuführen. Die MSI-Datei installiert alle Tools im folgenden Pfad: \\ **Programm\\ Dateien Microsoft lync Server 2013\\beständiger Chat Server Resource Kit**. Tools mit eigenständigen ausführbaren Dateien befinden sich in diesem Ordner. Tools, die auch Dateien enthalten, befinden sich in ihren eigenen Unterordnern.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Nachdem Sie die lync Server 2013, Resource Kit-Tools installiert haben, müssen Sie <STRONG>PsExec. exe</STRONG> installieren und " <STRONG>PsExec. exe</STRONG> " in \\den folgenden Pfad kopieren: <STRONG>Programmdateien \ Microsoft lync Server 2013 \ beständiger Chat Server Ressource Kit\ChatStressTool</STRONG>. Wenn Sie " <STRONG>PsExec. exe</STRONG>" nicht kopieren, löst das beständige Chat-Spannungs Tool eine Fehler Ausnahme aus, die nicht ordnungsgemäß ausgeführt wird. Stellen Sie sicher, dass Sie diese Voraussetzungen erfüllen, bevor Sie das Tool ausführen. Informationen zum Installieren von <STRONG>PsExec. exe</STRONG>finden Sie <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>unter.
+> Nach dem Installieren der lync Server 2013 Resource Kit-Tools müssen Sie <STRONG>PsExec. exe</STRONG> installieren und <STRONG>PsExec. exe</STRONG> in den folgenden Pfad kopieren: \\ <STRONG>Programmdateien \ Microsoft lync Server 2013 \ persistent Chat Server Resource Kit\ChatStressTool</STRONG>. Wenn Sie <STRONG>PsExec. exe</STRONG>nicht kopieren, löst das Belastungs Tool für beständigen Chat eine Fehler Ausnahme aus und wird nicht ordnungsgemäß ausgeführt. Stellen Sie sicher, dass diese Voraussetzungen erfüllt sind, bevor Sie das Tool ausführen. Ausführliche Informationen zum Installieren von <STRONG>PsExec. exe</STRONG>finden <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>Sie unter.
 
 
 
@@ -61,15 +61,15 @@ Zum Installieren der lync Server 2013, Resource Kit-Tools, laden Sie **Persisten
 
 ## <a name="supported-environments"></a>Unterstützte Umgebungen
 
-Um eine optimale Leistung zu erzielen, sollten die lync Server 2013, Resource Kit-Tools in der gleichen Umgebung und mit den gleichen Spezifikationen installiert werden, die für lync Server 2013 erforderlich sind.
+Für eine optimale Leistung sollten die lync Server 2013 Resource Kit-Tools in derselben Umgebung und mit den gleichen Spezifikationen installiert werden, die für lync Server 2013 erforderlich sind.
 
 </div>
 
 <div>
 
-## <a name="resource-kit-tools-overview"></a>Resource Kit-Tools – Übersicht
+## <a name="resource-kit-tools-overview"></a>Resource Kit-Tools (Übersicht)
 
-Nachfolgend finden Sie die Tools, die im lync Server 2013-Ressourcen Kit für beständige Chats bereitgestellt werden. Der folgende Abschnitt enthält eine Beschreibung der einzelnen Tools, einschließlich Anforderungen und Beispiel Verwendung.
+Hier sind die Tools, die im beständiger Chat von lync Server 2013 Resource Kit bereitgestellt werden. Der folgende Abschnitt enthält eine Beschreibung der einzelnen Tools, einschließlich der Anforderungen und der Beispiel Verwendung.
 
   - AffCheck
 
@@ -93,17 +93,17 @@ Nachfolgend finden Sie die Tools, die im lync Server 2013-Ressourcen Kit für be
 
 ## <a name="description"></a>Beschreibung
 
-Das AffCheck-Tool bestätigt, dass die Datensätze des beständigen Chat-Datenbankbenutzers und der Gruppenzugehörigkeit mit denen der Active Directory-Domänendienste übereinstimmen.
+Mit dem AffCheck-Tool wird bestätigt, dass die Back-End-Datenbankbenutzer und Gruppen zugehörigkeitsdaten Sätze des persistent Chats mit dem Active Directory-Domänendienste übereinstimmen.
 
 </div>
 
 <div>
 
-## <a name="requirements"></a>Voraussetzungen
+## <a name="requirements"></a>Anforderungen
 
-Das Tool wird mit dem PersistentChatResKit-Installationsprogramm auf einem Computer mit Domänenbeitritt installiert.
+Das Tool wird mit dem PersistentChatResKit-Installationsprogramm auf einem Computer installiert, der einer Domäne angehört.
 
-Das Benutzerkonto, unter dem das Tool ausgeführt wird, muss über Lesezugriff auf die Back-End-Datenbank des beständigen Chats und die Active Directory-Domänendienste verfügen.
+Das Benutzerkonto, unter dem das Tool ausgeführt wird, muss über Lesezugriff auf die Back-End-Datenbank für beständigen Chat und Active Directory-Domänendienste verfügen.
 
 </div>
 
@@ -111,7 +111,7 @@ Das Benutzerkonto, unter dem das Tool ausgeführt wird, muss über Lesezugriff a
 
 ## <a name="usage"></a>Verwendung
 
-Konfigurieren Sie die Datei "AffCheck. exe. config" gemäß den Anweisungen in der config-Datei, und führen Sie das AffCheck-Tool ohne Befehlszeilenparameter aus. Im folgenden finden Sie den Inhalt der standardmäßigen Datei "AffCheck. exe. config".
+Konfigurieren Sie die Datei AffCheck. exe. config gemäß den Anweisungen in der Konfigurationsdatei, und führen Sie das AffCheck-Tool ohne Befehlszeilenparameter aus. Im folgenden finden Sie den Inhalt der standardmäßigen Datei "AffCheck. exe. config".
 
 **AffCheck. exe. config:**
 
@@ -161,21 +161,21 @@ Konfigurieren Sie die Datei "AffCheck. exe. config" gemäß den Anweisungen in d
 
 ## <a name="description"></a>Beschreibung
 
-Das PersistentChatMonitoringSummary-Tool verschiebt permanente Chat Überwachungsinformationen aus der Überwachungsdatenbank in eine angegebene CSV-Protokolldatei.
+Das PersistentChatMonitoringSummary-Tool verschiebt die Überwachungsinformationen für beständigen Chat aus der Überwachungsdatenbank in eine angegebene CSV-Protokolldatei.
 
-Die CSV-Datei enthält eine Aufschlüsselung der beständigen Chat Sitzungen nach Anzahl der Gesamt Sitzungen, erfolgreichen Sitzungen, unerwarteten Fehlern, erwarteten Fehlern und einer Aufschlüsselung der unerwarteten Fehler durch Diagnose-ID, Anzahl der Fehler und Fehlerbeschreibung.
+Die CSV-Datei enthält eine Aufschlüsselung der Sitzungen für beständigen Chat nach der Anzahl der Sitzungen insgesamt, erfolgreicher Sitzungen, unerwarteter Fehler, erwarteter Fehler und einer Aufschlüsselung der unerwarteten Fehler durch Diagnose-ID, Anzahl der Fehler und Beschreibung des Fehlers.
 
 </div>
 
 <div>
 
-## <a name="requirements"></a>Voraussetzungen
+## <a name="requirements"></a>Anforderungen
 
-Installieren Sie die Ressourcen Kit-Tools für beständigen Chat auf einem Computer mit Domänenbeitritt, der Zugriff auf die Überwachungsdatenbank hat.
+Installieren Sie die Resource Kit-Tools für den beständigen Chat auf einem Computer mit Domänenbeitritt, der Zugriff auf das Überwachungsdatenbank hat.
 
 Das Benutzerkonto, unter dem das Tool ausgeführt wird, muss über Lesezugriff auf die Überwachungsdatenbank verfügen.
 
-Die Datei "PersistentChatMonitoringSummary. exe. config \<\> " muss einen connectionStrings-Abschnitt enthalten, der die Verbindungszeichenfolge zur Überwachungsdatenbank definiert. Darüber hinaus muss ein Schlüssel für das PersistentChatEndpointUri-Objekt enthalten sein, für das die Überwachungsdaten gesammelt werden, und ein Dateipfad zu einem Speicherort für die CSV-Datei, die generiert wird. Beispiele finden Sie in der installierten Konfigurationsdatei. Die Datei muss sich im gleichen Verzeichnis wie das Tool befinden.
+Die Datei PersistentChatMonitoringSummary. exe. config muss einen \<connectionStrings-\> Abschnitt enthalten, der die Verbindungszeichenfolge für die Überwachungsdatenbank definiert. Es muss auch einen Schlüssel für die PersistentChatEndpointUri enthalten, für die die Überwachungsdaten erfasst werden, und einen Dateipfad zu einem Speicherort für die CSV-Datei, die generiert wird. Beispiele dazu erhalten Sie in der installierten Konfigurationsdatei. Die Datei muss sich im gleichen Verzeichnis wie das Tool befinden.
 
 </div>
 
@@ -187,11 +187,11 @@ Die Datei "PersistentChatMonitoringSummary. exe. config \<\> " muss einen connec
     PersistentChatMonitoringSummary [-StartDateTime <date>] [-EndDateTime <date>]
 ```
 
-Diese Parameter definieren die Auswahl der Daten:
+Mit diesen Parametern wird die Auswahl der Daten definiert:
 
-Start **Datum:** Gibt optional das Startdatum des Auswahlzeitraums an. Standard: 1/1/1753 12:00:00 am
+**Startdatum:** Gibt optional das Startdatum des Auswahlzeitraums an. Standard: 1/1/1753 12:00:00 Uhr
 
-**Enddatum:** Gibt optional das letzte Datum des Auswahlzeitraums an. Standard: jetzt
+**EndDate:** Gibt optional das letzte Datum des Auswahlzeitraums an. Standard: jetzt
 
 </div>
 
@@ -222,19 +222,19 @@ Start **Datum:** Gibt optional das Startdatum des Auswahlzeitraums an. Standard:
 
 ## <a name="description"></a>Beschreibung
 
-Das Stress Tool für beständigen Chat bietet eine einfache Möglichkeit, die Nutzung von beständigem Chat zu simulieren, um die Leistung in der realen Welt zu testen, einschließlich unterschiedlicher Benutzermodelle, die ihren erwarteten Nutzungsszenarien besser entsprechen.
+Das Stress Tool für beständigen Chat bietet eine einfache Möglichkeit zum Simulieren der Verwendung des beständigen Chats zum Testen der realen Leistung, einschließlich variierter Benutzermodelle, um Ihre erwarteten Nutzungsszenarien besser zu erfüllen.
 
 </div>
 
 <div>
 
-## <a name="requirements"></a>Voraussetzungen
+## <a name="requirements"></a>Anforderungen
 
-Installieren Sie die Ressourcen Kit-Tools für beständigen Chat auf einem Computer mit Domänenbeitritt, der Zugriff auf die Back-End-Datenbank des beständigen Chats hat.
+Installieren Sie die Resource Kit-Tools für beständigen Chat auf einem Computer mit Domänenbeitritt, der Zugriff auf die Back-End-Datenbank für beständigen Chat hat.
 
-Zusätzlich zu diesem *Controller* -Computer sind mehrere *Loader* -Maschinen erforderlich. Für alle 10K-Benutzer in Ihrem Benutzermodell benötigen Sie mindestens 4 GB freien RAM auf einem Loader-Computer. Beispielsweise erfordert ein Run mit 80K-Benutzern etwa 32 GB Arbeitsspeicher, die auf allen Loader-Computern verbreitet werden. Wir empfehlen, dass Sie über mindestens drei Ladegeräte verfügen, unabhängig von der erwarteten Auslastung.
+Zusätzlich zu diesem *Controller* -Computer benötigen Sie mehrere *Lade* Geräte. Für alle 10K-Benutzer in Ihrem Benutzermodell benötigen Sie mindestens 4 GB freien RAM auf einem Loader-Computer. Beispielsweise erfordert ein Run mit 80K-Benutzern etwa 32 GB RAM, verteilt auf alle Loader-Computer. Es wird empfohlen, dass Sie über mindestens drei Loader-Computer verfügen, unabhängig von der erwarteten Last.
 
-Loader-Computer müssen das .NET 4,5-Framework sowie die Visual C++ 2012-verteilbare Version installiert haben.
+Loader-Computer müssen das .NET 4,5-Framework sowie die Visual C++ 2012 Redistributable installiert haben.
 
 </div>
 
@@ -244,42 +244,42 @@ Loader-Computer müssen das .NET 4,5-Framework sowie die Visual C++ 2012-verteil
 
 Kopieren Sie ChatStressTool-Dateien in einen freigegebenen Ordner, auf den alle Loader-Computer zugreifen können.
 
-Erstellen von Benutzern und Kanälen zur Verwendung im Spannungsverlauf:
+Erstellen von Benutzern und Kanälen zur Verwendung in der Belastungs Ausführung:
 
-  - Erstellen Sie so viele Benutzer, wie Sie von Ihrem Benutzermodell aufgerufen werden, aktivieren Sie diese für lync, und legen Sie die Richtlinie für beständigen Chat auf aktiviert fest.
+  - Erstellen Sie so viele Benutzer, wie Ihr Benutzermodell anruft, aktivieren Sie Sie für lync, und legen Sie Ihre Richtlinie für beständigen Chat auf aktiviert fest.
 
-  - Erstellen Sie eine Kategorie für Ihre Spannungskanäle, und erstellen Sie dann so viele Räume, wie Sie unter dieser Kategorie benötigt werden. In der Kategorie sollten alle Belastungs Benutzer in der Liste der **zulässigen** Daten enthalten sein (indem Sie Ihre OU hinzufügen), und bei den Belastungs Räumen sollte eine Privatsphäre-Einstellung **geöffnet**sein.
+  - Erstellen Sie eine Kategorie für Ihre Spannungskanäle, und erstellen Sie dann so viele Räume, wie Sie in dieser Kategorie benötigt werden. Die Kategorie sollte alle Stress-Benutzer in Ihrer **zulässigen** Liste (durch Hinzufügen Ihrer OU) haben, und Stress rooms sollte eine Einstellung für den Datenschutz von **Open**haben.
 
-  - Wir empfehlen, zusätzliche Belastungs Räume zu erstellen. Sie können 50.000-Räume mit dem folgenden Befehlszeilen-Schnittstellenbefehl der Windows PowerShell erstellen:
+  - Es wird empfohlen, zusätzliche Belastungs Räume zu erstellen. Sie können 50.000-Räume mit dem folgenden Befehl Windows PowerShell Befehlszeilenschnittstelle erstellen:
     ```Powershell
         for ($i = 0; $i -le 50000; $i++) { New-CsPersistentChatRoom -Category <parent category> -Name "StressChan_$i" -Privacy Open }
     ```    
 
-Bearbeiten Sie die Konfigurationsdateien so, dass Sie in Ihre Topologie passen:
+Bearbeiten Sie die Konfigurationsdateien so, dass Sie Ihrer Topologie entsprechen:
 
-Ändern Sie in **LoaderProcess. exe. config**"Controller.contoso.com" in den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Controllers.
+Ändern Sie in **LoaderProcess. exe. config**"Controller.contoso.com" in den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Controllercomputers.
 
 In **StressLauncher. exe. config:**
 
 1.  Ändern Sie den Wert für die Einstellung "LoaderBinary" in den Pfad des freigegebenen Ordners.
 
-2.  Ändern Sie "abzüglicher"/"AdminPassword" in Anmeldeinformationen, die Administratorzugriff auf Loader-Computer haben.
+2.  Ändern Sie "anzüglicher"/"AdminPassword" auf Anmeldeinformationen, die Administratorzugriff auf Loader-Computer haben.
 
-3.  Ändern Sie "ChannelCategory" in den Namen der Kategorie, unter der Spannungskanäle erstellt wurden.
+3.  Ändern Sie "ChannelCategory" in den Namen der Kategorie, unter der die Spannungskanäle erstellt wurden.
 
-4.  Ändern Sie "UserNamePattern" und "UserPasswordPattern" in eine Vorlage, die Ihren Stress-Benutzeranmeldeinformationen entspricht. {0}wird durch die Indexnummer des Benutzers ersetzt.
+4.  Ändern Sie "UserNamePattern" und "UserPasswordPattern" in eine Vorlage, die mit Ihren Stress-Benutzeranmeldeinformationen übereinstimmt. {0}wird durch die Indexnummer des Benutzers ersetzt.
 
 5.  Ändern Sie "Domäne" in die SIP-Domäne ihrer Testtopologie.
 
 6.  Ändern Sie "ConnectionString" in eine Verbindungszeichenfolge für die Back-End-Datenbank des beständigen Chats.
 
-7.  Ändern Sie "UserIndexStart" in den Index des ersten Belastungs Benutzers.
+7.  Ändern Sie "UserIndexStart" in den Index des ersten Stress Benutzers.
 
-8.  Ändern Sie "LyncFQDN" in den FQDN des Front-End-Pools.
+8.  Ändern Sie "LyncFQDN" in den FQDN Ihrer Front-End-Pool.
 
-9.  Ändern Sie die Liste "Computer", um Computernamen für alle Ladegeräte Computer einzubeziehen.
+9.  Ändern Sie die Liste "Computer" so, dass Computernamen für alle Ladegeräte Computer enthalten sind.
 
-10. Ändern Sie die BaseAddress des Dienstendpunkts (Standard ist "Controller.contoso.com") auf den FQDN Ihres Controllercomputers.
+10. Ändern Sie die BaseAddress des Dienstendpunkts (Standardwert "Controller.contoso.com") in den FQDN des Controllercomputers.
 
 </div>
 
@@ -287,9 +287,9 @@ In **StressLauncher. exe. config:**
 
 ## <a name="usage"></a>Verwendung
 
-Öffnen Sie nach Abschluss der Konfiguration StressLauncher. exe auf dem Controllercomputer. Sie können StressLauncher als beliebigen Benutzer starten. Die Anmeldeinformationen, unter denen die Loader-Prozesse auf den Loader-Computern gestartet werden, müssen in der config-Datei angegeben werden. Sie müssen auch eine Verbindungszeichenfolge angeben, die über Lesezugriff auf die Back-End-Datenbank des beständigen Chats verfügt. Wenn diese Verbindungszeichenfolge die integrierte Windows-Authentifizierung verwendet, müssen Sie StressLauncher als Benutzer mit diesem Zugriff starten.
+Öffnen Sie nach Abschluss der Konfiguration StressLauncher. exe auf dem Controllercomputer. Sie können StressLauncher als beliebigen Benutzer starten. Die Anmeldeinformationen, unter denen das Ladeprogramm auf den Loader-Computern gestartet wird, müssen in der Konfigurationsdatei angegeben werden. Außerdem müssen Sie eine Verbindungszeichenfolge mit Lesezugriff für die Back-End-Datenbank für beständigen Chat eingeben. Wenn diese Verbindungszeichenfolge die integrierte Windows-Authentifizierung verwendet, müssen Sie StressLauncher als Benutzer starten, der über diesen Zugriff verfügt.
 
-Ändern Sie die Benutzermodell Einstellungen nach Bedarf. Klicken Sie auf **Load starten** , um einen Testlauf zu initiieren. Nach ungefähr einer Minute werden die Benutzer angemeldet, und die Statusleiste beginnt zu füllen. An diesem Punkt können Sie den Controller-Computer verwenden und Leistungsmessungen durchführen.
+Ändern Sie die Benutzermodell Einstellungen nach Bedarf. Klicken Sie auf **Start laden** , um eine Ausführung zu initiieren. Nach etwa einer Minute beginnen Benutzer mit der Anmeldung, und die Statusleiste beginnt zu füllen. An dieser Stelle können Sie den Controller-Computer arbeiten und Leistungsmessungen durchführen.
 
 </div>
 
@@ -303,21 +303,21 @@ In **StressLauncher. exe. config:**
 
 ## <a name="description"></a>Beschreibung
 
-ChatUpgradeVerifier ist ein beständiger Chat-spezifischer Datenbankvergleichstool. Das Tool vergleicht entweder die Gruppen-Chat-2007 R2-oder Gruppen-Chat 2010-Datenbank (2007/2010Db) mit der beständigen Chat-2013-Datenbank (2013Db).
+ChatUpgradeVerifier ist ein spezifischer Datenbankvergleichstool für beständigen Chat. Das Tool vergleicht die Datenbank "Group Chat 2007 R2" oder "Group Chat 2010" (2007/2010Db) mit der Datenbank für beständigen Chat 2013 (2013Db).
 
-Das Tool überprüft einzeln jede Kategorie, beständigen Chatroom und Add-in in 2007/2010Db, um festzustellen, ob Sie im 2013Db angezeigt wird. Der Vergleich umfasst die Überprüfung aller Einstellungen für die Kategorie, den Chatroom oder das Add-in, alle Prinzipale im Bereich der Kategorie sowie alle Prinzipale in einer Rolle in der Kategorie oder im Chatroom. Wenn eine Kategorie oder ein Chatroom im 2013Db nicht richtig angezeigt wird, werden die Unterschiede in einer Konfliktdatei ausgegeben. Wenn nach dem Upgrade die Version 2007/2010Db geändert wird und dann dieses Tool ausgeführt wird, gibt es Unterschiede, die in der Dateikonflikte ausgegeben werden. Beachten Sie, dass diese Anwendung nur ein Tool zum Vergleichen von Datenbanken ist und den Upgradeprozess nicht überprüft.
+Das Tool überprüft eine nach der anderen, jede Kategorie, den beständigen Chatroom und das Add-in in 2007/2010Db, um zu sehen, ob Sie im 2013Db angezeigt wird. Der Vergleich umfasst das Überprüfen aller Einstellungen für die Kategorie, den Chatroom oder das Add-in, alle Prinzipale im Bereich der Kategorie und alle Prinzipale in einer Rolle in der Kategorie oder im Chatroom. Wenn eine Kategorie oder ein Chatroom in der 2013Db nicht ordnungsgemäß angezeigt wird, werden die Unterschiede in einer Konfliktdatei ausgegeben. Wenn nach dem Upgrade der Wert 2007/2010Db geändert wurde und dieses Tool ausgeführt wird, wird die Ausgabe der Konfliktdatei unterschiedlich ausgegeben. Beachten Sie, dass diese Anwendung nur ein Datenbankvergleichstool ist und den Upgradeprozess nicht überprüft.
 
 </div>
 
 <div>
 
-## <a name="requirements"></a>Voraussetzungen
+## <a name="requirements"></a>Anforderungen
 
-Installieren Sie die Ressourcen Kit-Tools für beständigen Chat auf einem Computer mit Domänenbeitritt, der Zugriff auf die Back-End-Datenbanken des beständigen Chats (frühere und aktuelle Versionen für beständigen Chat) hat.
+Installieren Sie die Ressourcen Kit-Tools für den beständigen Chat auf einem Computer mit Domänenbeitritt, der Zugriff auf die Back-End-Datenbanken für beständigen Chat hat (frühere und aktuelle Versionen für beständigen Chat).
 
-Das Benutzerkonto, unter dem das Tool ausgeführt wird, muss über Lesezugriff auf die persistenten Chat Datenbanken verfügen.
+Das Benutzerkonto, unter dem das Tool ausgeführt wird, muss über Lesezugriff auf die Datenbanken für beständigen Chat verfügen.
 
-Die Datei "ChatUpgradeVerifier. exe. config" muss entweder den GroupChat2007R2Db-Parameter oder den GroupChat2010Db-Parameter enthalten, mit einer Verbindungszeichenfolge zur entsprechenden Gruppen Chat Datenbank (entweder Groupchat 2007R2 oder 2010). Sie muss auch einen PersistentChat2013Db-Parameter mit einer Verbindungszeichenfolge zur 2013-Datenbank des beständigen Chats enthalten.
+Die Datei ChatUpgradeVerifier. exe. config muss entweder den GroupChat2007R2Db-Parameter oder den GroupChat2010Db-Parameter enthalten, mit einer Verbindungszeichenfolge für die entsprechende Gruppen Chat Datenbank (entweder Groupchat 2007R2 oder 2010). Es muss auch einen PersistentChat2013Db-Parameter mit einer Verbindungszeichenfolge für die Datenbank persistent Chat 2013 enthalten.
 
 </div>
 
@@ -333,7 +333,7 @@ Führen Sie **ChatUpgradeVerifier** ohne Parameter aus.
 
 ## <a name="example"></a>Beispiel
 
-![Ausführen von ChatUpgradeVerifier. exe.](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Ausführen von ChatUpgradeVerifier. exe.")
+![Running ChatUpgradeVerifier. exe.](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Running ChatUpgradeVerifier. exe.")
 
 </div>
 
@@ -347,19 +347,19 @@ Führen Sie **ChatUpgradeVerifier** ohne Parameter aus.
 
 ## <a name="description"></a>Beschreibung
 
-Das ChatUsageReport-Tool generiert einen HTML-Bericht zur Verwendung des beständigen Chat Diensts.
+Das ChatUsageReport-Tool generiert einen HTML-Bericht über die Verwendung von beständigen Chat Diensten.
 
 </div>
 
 <div>
 
-## <a name="requirements"></a>Voraussetzungen
+## <a name="requirements"></a>Anforderungen
 
-Installieren Sie die Ressourcen Kit-Tools für beständigen Chat auf einem Computer mit Domänenbeitritt, der Zugriff auf die Back-End-Datenbank des beständigen Chats hat.
+Installieren Sie die Resource Kit-Tools für beständigen Chat auf einem Computer mit Domänenbeitritt, der Zugriff auf die Back-End-Datenbank für beständigen Chat hat.
 
-Das Benutzerkonto, unter dem das Tool ausgeführt wird, muss über Lesezugriff auf die Back-End-Datenbank des beständigen Chats verfügen.
+Das Benutzerkonto, unter dem das Tool ausgeführt wird, muss über Lesezugriff auf die Back-End-Datenbank für beständigen Chat verfügen.
 
-Die Datei "ChatUsageReport. exe. config \<\> " muss einen connectionStrings-Abschnitt enthalten, der die Verbindungszeichenfolge für die Back-End-Datenbank des beständigen Chats definiert. Der Inhalt der Standardkonfigurationsdatei wird hier als Referenz angegeben.
+Die Datei ChatUsageReport. exe. config muss einen \<connectionStrings-\> Abschnitt enthalten, der die Verbindungszeichenfolge für die Back-End-Datenbank des beständigen Chats definiert. Der Inhalt der Standardkonfigurationsdatei wird hier als Referenz aufgeführt.
 
 </div>
 
@@ -370,51 +370,51 @@ Die Datei "ChatUsageReport. exe. config \<\> " muss einen connectionStrings-Absc
 ```Powershell
     ChatUsageReport [-StartDate {date}] [-EndDate {date}] [-TopActiveUsers {n}] [-TopActiveRooms {n}] [-LeastActiveRooms {n}] [-RoomsInactiveSince {Date}] [-OutputFolder {path}]
 ```
-Diese Parameter definieren die Auswahl der Daten:
+Mit diesen Parametern wird die Auswahl der Daten definiert:
 
-**StartDate:** Gibt optional das UTC-Anfangsdatum des Auswahlzeitraums an. Standard: frühestes Datum
+**StartDate:** Gibt optional das UTC-Startdatum des Auswahlzeitraums an. Standard: frühestes Datum
 
 **EndDate:** Gibt optional das UTC-Enddatum des Auswahlzeitraums an. Standard: jetzt
 
 Diese Parameter definieren, wie und welche Daten angezeigt werden:
 
-**TopActiveUsers:** Wenn dies angegeben ist, enthält der Bericht die n meisten aktiven Benutzer in Bezug auf die Anzahl der Nachrichten, die der Benutzer im Chatroom für den ausgewählten Zeitraum gepostet hat. Standard: 10
+**TopActiveUsers:** Wenn dieser Wert angegeben ist, enthält der Bericht die n aktivsten Benutzer im Hinblick auf die Anzahl der Nachrichten, die der Benutzer für den ausgewählten Zeitraum im Chatroom bereitgestellt hat. Standard: 10
 
-**TopActiveRooms:** Wenn dies angegeben ist, enthält der Bericht die n aktivsten Chatrooms in Bezug auf die Anzahl der Nachrichten, die in dem Raum für den ausgewählten Zeitraum gepostet wurden. Standard: 10
+**TopActiveRooms:** Wenn dieser Wert angegeben ist, enthält der Bericht die n aktivsten Chatrooms im Hinblick auf die Anzahl der Nachrichten, die im Raum für den ausgewählten Zeitraum gebucht werden. Standard: 10
 
-**LeastActiveRooms:** Wenn dieser Wert angegeben wird, enthält der Bericht die mindestens aktiven Chatrooms in Bezug auf die Anzahl der Nachrichten, die im Chatroom für den ausgewählten Zeitraum gepostet wurden. Für Chatrooms wird mindestens eine Nachricht bereitgestellt. Standard: 10
+**LeastActiveRooms:** Wenn dieser Wert angegeben ist, enthält der Bericht die mindestens aktiven Chatrooms im Hinblick auf die Anzahl der Nachrichten, die für den ausgewählten Zeitraum im Chatroom gepostet wurden. Für Chatrooms wird mindestens eine Nachricht bereitgestellt. Standard: 10
 
-**RoomsInactiveSince:** Wenn dieser Wert angegeben wird, enthält der Bericht eine Liste der Chatrooms, die seit dem angegebenen Datum inaktiv sind. Standard: ganze Zeit
+**RoomsInactiveSince:** Wenn dies angegeben wird, enthält der Bericht eine Liste der Chatrooms, die seit dem angegebenen Datum inaktiv sind. Standard: gesamte Zeit
 
-**OutputFolder:** Der Ordner, in dem die ChatUsageReport. html-und die Graph-Bilder abgelegt werden. Dies muss in der config-Datei oder in der Befehlszeile definiert werden.
+**OutputFolder:** Der Ordner, in dem die ChatUsageReport. html-und die Graph-Bilder eingefügt werden. Dies muss in der Konfigurationsdatei oder in der Befehlszeile definiert werden.
 
-Alle Befehlszeilenparameter Werte können auch in der Datei "ChatUsageReport. exe. config" angegeben werden, die sich im gleichen Verzeichnis wie das Tool befindet. Wenn ein beliebiger Wert sowohl in der config-Datei als auch in der Befehlszeile angegeben wird, wird der Wert der config-Datei durch den Befehlszeilenwert überschrieben.
+Alle Befehlszeilenparameter Werte können auch in der Datei ChatUsageReport. exe. config angegeben werden, die sich im gleichen Verzeichnis wie das Tool befindet. Wenn ein beliebiger Wert sowohl in der Konfigurationsdatei als auch in der Befehlszeile angegeben wird, überschreibt der Wert der Befehlszeile den Wert der Konfigurationsdatei.
 
 </div>
 
 <div>
 
-## <a name="output"></a>Ausgabe
+## <a name="output"></a>Output
 
-Der Bericht enthält immer die folgende Ausgabe:
+Der Bericht wird immer die folgende Ausgabe enthalten:
 
-  - Die meisten aktiven Chatrooms nach Anzahl der Nachrichten Beiträge für den ausgewählten Zeitraum.
+  - Top n die aktivsten Chatrooms nach der Anzahl der Nachrichten Beiträge für den ausgewählten Zeitraum.
 
-  - Die meisten aktiven Benutzer nach der Anzahl der Nachrichten Beiträge für den ausgewählten Zeitraum.
+  - Top n die aktivsten Benutzer nach der Anzahl der Nachrichten Beiträge für den ausgewählten Zeitraum.
 
-  - Top n least Active Chatrooms nach Anzahl der Nachrichten Beiträge für den ausgewählten Zeitraum.
+  - Top n mindestens aktive Chatrooms nach der Anzahl der Nachrichten Beiträge für den ausgewählten Zeitraum.
 
   - Chatrooms, die für die gesamte Lebensdauer der Datenbank oder seit dem angegebenen Datum inaktiv sind.
 
-  - Täglicher Nachrichten-Trend für ausgewählten Zeitraum.
+  - Täglicher Nachrichten Post-Trend für den ausgewählten Zeitraum.
 
-  - Wöchentlicher Nachrichten Post-Trend für ausgewählten Zeitraum.
+  - Trend zur wöchentlichen Nachrichten Bereitstellung für den ausgewählten Zeitraum.
 
-  - Monatlicher Nachrichten-Post-Trend für ausgewählten Zeitraum.
+  - Monatlicher Nachrichten Post-Trend für den ausgewählten Zeitraum.
 
-  - Nachrichten Beiträge für ausgewählten Zeitraum insgesamt.
+  - Nachrichten Beiträge für den ausgewählten Zeitraum insgesamt.
 
-  - Die Gesamtzahl der aktivierten Chatrooms.
+  - Die Gesamtzahl der aktivierten Räume.
 
 </div>
 
@@ -422,7 +422,7 @@ Der Bericht enthält immer die folgende Ausgabe:
 
 ## <a name="example"></a>Beispiel
 
-Im folgenden Beispiel wird ein Nutzungsbericht für das gesamte Jahr 2001 generiert, und der Bericht wird in der in der Datei "ChatUsageReport. exe. config" angegebenen OutputFolder platziert.
+Im folgenden Beispiel wird ein Verwendungsbericht für das gesamte Jahr 2001 generiert, und der Bericht wird in der OutputFolder angegeben, die in der Datei "ChatUsageReport. exe. config" angegeben ist.
 
 ```Powershell
     ChatUsageReport -RoomsInactiveSince 06-20-2010
@@ -461,15 +461,15 @@ ChatUsageReport. exe. config:
 
 ## <a name="description"></a>Beschreibung
 
-ScheduleADSyncForPrincipal ist ein Microsoft SQL Server 2012-Skript, das direkt in SQL Server Management Studio ausgeführt werden muss, wenn eine Verbindung mit der Back-End-Datenbank des beständigen Chats besteht. Mit diesem Skript können Sie beständigen Chat zwingen, seine Einträge eines Benutzers mit denen der Active Directory-Domänendienste zu synchronisieren, anstatt auf die geplante Synchronisierungszeit zu warten.
+ScheduleADSyncForPrincipal ist ein Microsoft SQL Server 2012-Skript, das direkt in SQL Server Management Studio ausgeführt werden muss, wenn es mit der Back-End-Datenbank des beständigen Chats verbunden ist. Mit diesem Skript können Sie beständigen Chat zwingen, seine Einträge eines Benutzers mit denen von Active Directory-Domänendienste zu synchronisieren, anstatt auf die geplante Synchronisierungszeit zu warten.
 
 </div>
 
 <div>
 
-## <a name="requirements"></a>Voraussetzungen
+## <a name="requirements"></a>Anforderungen
 
-Das Benutzerkonto, unter dem das Skript ausgeführt wird, muss über Besitzer Zugriff auf die Back-End-Datenbank des beständigen Chats verfügen.
+Das Benutzerkonto, unter dem das Skript ausgeführt wird, muss über Besitzer Zugriff auf die Back-End-Datenbank für beständigen Chat verfügen.
 
 </div>
 
@@ -477,7 +477,7 @@ Das Benutzerkonto, unter dem das Skript ausgeführt wird, muss über Besitzer Zu
 
 ## <a name="usage"></a>Verwendung
 
-Im folgenden finden Sie die Inhalte des Standardskripts:
+Im folgenden finden Sie den Inhalt des Standardskripts:
 
 ```Powershell
     /*

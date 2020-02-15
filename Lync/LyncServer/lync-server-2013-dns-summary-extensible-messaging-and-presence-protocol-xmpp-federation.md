@@ -1,5 +1,5 @@
 ---
-title: DNS Summary – Extensible Messaging and Presence Protocol (XMPP) Federation
+title: DNS-Zusammenfassung – XMPP-Partnerverbund (Extensible Messaging and Presence Protocol)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49105655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 941996ea1167cf9baeee05567a00c71ea5ed4baa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e9aa17374de29c2b7f1f144b45322d075164ab4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737225"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029556"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>DNS Summary – Extensible Messaging and Presence Protocol (XMPP) Federation in lync Server 2013
+# <a name="dns-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>DNS-Zusammenfassung – XMPP-Partnerverbund (Extensible Messaging and Presence Protocol) in lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41737225"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-04-08_
+_**Letztes Änderungsstand des Themas:** 2014-04-08_
 
-Zum Konfigurieren von xmpp (Extensible Messaging and Presence Protocol) für Ihre Bereitstellung erstellen Sie zwei DNS-Einträge (Domain Name System) auf einem externen DNS-Server, die die Datensätze in den Access-Edgedienst Ihres Edge-Servers oder Edge-Pools auflösen.
+Zum Konfigurieren von xmpp (Extensible Messaging and Presence Protocol) für Ihre Bereitstellung erstellen Sie zwei Domain Name System (DNS)-Datensätze auf einem externen DNS-Server, mit dem die Datensätze in den Zugriffs-Edgedienst Ihres Edgeserver oder Edgepool aufgelöst werden.
 
 <div>
 
-## <a name="dns-summary-for-extensible-messaging-and-presence-protocol"></a>DNS-Zusammenfassung für erweiterbares Messaging und Anwesenheits Protokoll
+## <a name="dns-summary-for-extensible-messaging-and-presence-protocol"></a>DNS-Zusammenfassung für XMPP (Extensible Messaging and Presence Protocol)
 
 
 <table>
@@ -53,24 +53,24 @@ Zum Konfigurieren von xmpp (Extensible Messaging and Presence Protocol) für Ihr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ort/Typ/Port</th>
+<th>Standort/Typ/Port</th>
 <th>FQDN</th>
 <th>IP-Adresse/FQDN-Hosteintrag</th>
-<th>Karten/Kommentare</th>
+<th>Zugeordnet zu/Kommentar</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Externer DNS/SRV/5269</p></td>
-<td><p>_xmpp-server._tcp.contoso.com</p></td>
+<td><p>Externe DNS/SRV/5269</p></td>
+<td><p>_xmpp-Server. _tcp. contoso. com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>XMPP-Proxy-externe Schnittstelle im Access Edge-Dienst oder Edge-Pool. Wiederholen Sie diese Schritte für alle internen SIP-Domänen mit lync-aktivierten Benutzern, bei denen der Kontakt mit XMPP-Kontakten durch die Konfiguration der Richtlinie für den externen Zugriff über eine globale Richtlinie, eine Website Richtlinie, in der sich der Benutzer befindet, oder auf die Benutzerrichtlinie angewendet wird, die auf die Lync-fähiger Benutzer. Eine zulässige XMPP-Domäne muss auch in der XMPP-Föderationspartner-Richtlinie konfiguriert werden. Weitere Informationen finden Sie in den Themen unter <strong>Siehe auch</strong> .</p></td>
+<td><p>Externe XMPP-Proxyschnittstelle im Zugriffs-Edgedienst oder Edgepool. Wiederholen Sie diese Schritte bei Bedarf für alle internen SIP-Domänen mit lync-aktivierten Benutzern, bei denen Kontakt mit XMPP-Kontakten über die Konfiguration der Richtlinie für den externen Zugriff über eine globale Richtlinie, eine Standortrichtlinie, in der sich der Benutzer befindet, oder auf die Benutzerrichtlinie angewendet wird, die auf den Lync-aktivierter Benutzer. Eine zulässige XMPP-Domäne muss auch in der XMPP-Verbundpartner Richtlinie konfiguriert werden. Weitere Informationen finden Sie Unterthemen in <strong>Siehe auch</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p>Externer DNS/A</p></td>
+<td><p>Externe DNS/A</p></td>
 <td><p>xmpp.contoso.com (Beispiel)</p></td>
-<td><p>IP-Adresse des Zugriffs-Edgedienst auf dem Edgeserver oder Edge-Pool, der XMPP-Proxy hostet</p></td>
-<td><p>Verweist auf den Access Edge-Dienst oder den Edge-Pool, der den XMPP-Proxydienst hostet. In der Regel verweist der von Ihnen erstellte SRV-Eintrag auf diesen Host-Eintrag (a oder AAAA).</p></td>
+<td><p>IP-Adresse Zugriffs-Edgedienst auf Ihrem Edgeserver oder Edgepool Hosting XMPP-Proxy</p></td>
+<td><p>Verweist auf die Zugriffs-Edgedienst oder Edgepool, die den XMPP-Proxydienst hosten. Der SRV-Eintrag, den Sie erstellen, verweist normalerweise auf diesen Hosteintrag (A oder AAAA).</p></td>
 </tr>
 </tbody>
 </table>
@@ -83,10 +83,10 @@ Zum Konfigurieren von xmpp (Extensible Messaging and Presence Protocol) für Ihr
 ## <a name="see-also"></a>Siehe auch
 
 
-[Einrichten eines XMPP-Partnerverbunds in Lync Server 2013](lync-server-2013-setting-up-xmpp-federation.md)  
+[Einrichten des XMPP-Verbunds in lync Server 2013](lync-server-2013-setting-up-xmpp-federation.md)  
 
 
-[Ermitteln von DNS-Anforderungen für Lync Server 2013](lync-server-2013-determine-dns-requirements.md)  
+[Bestimmen der DNS-Anforderungen für lync Server 2013](lync-server-2013-determine-dns-requirements.md)  
   
 
 </div>

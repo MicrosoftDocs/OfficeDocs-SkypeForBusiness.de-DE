@@ -12,20 +12,20 @@ ms:contentKeyID: 48185365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9992f0466ceb2e01fa54cb2b2d511eeb96af755a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5f0fc9d65f1879c453c01813e09ad2ca0e8a99c2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726535"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029666"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-and-monitoring-the-backup-service-in-lync-server-2013"></a>Konfigurieren und Überwachen des Sicherungsdiensts in Lync Server 2013
+# <a name="configuring-and-monitoring-the-backup-service-in-lync-server-2013"></a>Konfigurieren und Überwachen des Sicherungsdiensts in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41726535"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Sie können die folgenden Befehle der lync Server-Verwaltungsshell verwenden, um den Sicherungsdienst zu konfigurieren und zu überwachen.
+Sie können die folgenden lync Server-Verwaltungsshell Befehle verwenden, um den Sicherungsdienst zu konfigurieren und zu überwachen.
 
 <div>
 
 
 > [!NOTE]  
-> Die Gruppe RTCUniversalServerAdmins ist die einzige Gruppe, die über die standardmäßige Berechtigung zum Ausführen von <STRONG>Get-CsBackupServiceStatus</STRONG> verfügt. Wenn Sie dieses Cmdlet verwenden möchten, melden Sie sich als Mitglied dieser Gruppe an. Oder Sie können anderen Gruppen (beispielsweise CSAdministrator) mithilfe des Cmdlets " <STRONG>Satz-CsBackupServiceConfiguration</STRONG> " Zugriff auf diesen Befehl gewähren.
+> Die RTCUniversalServerAdmins-Gruppe ist die einzige Gruppe mit Berechtigungen zum standardmäßigen Ausführen von <STRONG>Get-CsBackupServiceStatus</STRONG> . Um dieses Cmdlet zu verwenden, melden Sie sich als Mitglied dieser Gruppe an. Sie können auch anderen Gruppen (beispielsweise CSAdministrator) Zugriff auf diesen Befehl gewähren, indem Sie das Cmdlet " <STRONG>csbackupserviceconfiguration"</STRONG> "verwenden.
 
 
 
@@ -51,19 +51,19 @@ Sie können die folgenden Befehle der lync Server-Verwaltungsshell verwenden, um
 
 <div>
 
-## <a name="to-see-the-backup-service-configuration"></a>So zeigen Sie die Konfiguration des Sicherungsdiensts an
+## <a name="to-see-the-backup-service-configuration"></a>So zeigen Sie die Sicherungsdienst Konfiguration an
 
 Führen Sie das folgende Cmdlet aus:
 
     Get-CsBackupServiceConfiguration
 
-Der Standardwert für SyncInterval beträgt zwei Minuten.
+Der Standardwert für SyncInterval ist zwei Minuten.
 
 </div>
 
 <div>
 
-## <a name="to-set-the-backup-service-sync-interval"></a>So stellen Sie das Synchronisierungsintervall für den Sicherungsdienst ein
+## <a name="to-set-the-backup-service-sync-interval"></a>So legen Sie das Synchronisierungsintervall für den Sicherungsdienst fest
 
 Führen Sie das folgende Cmdlet aus:
 
@@ -77,7 +77,7 @@ Im folgenden Beispiel wird das Intervall auf drei Minuten festgelegt.
 
 
 > [!IMPORTANT]  
-> Obwohl Sie mit diesem Cmdlet das Standard Synchronisierungsintervall für den Sicherungsdienst ändern können, sollten Sie dies nicht tun, es sei denn, dies ist unbedingt erforderlich, da das Synchronisierungsintervall große Auswirkungen auf die Leistung des Sicherungsdiensts und auf das Recovery Point-Ziel (RPO) hat.
+> Obwohl Sie dieses Cmdlet zum Ändern des standardmäßigen Synchronisierungsintervalls für den Sicherungsdienst verwenden können, sollten Sie dies nur tun, wenn dies unbedingt erforderlich ist, da das Synchronisierungsintervall große Auswirkungen auf die Leistung des Sicherungsdiensts und das Ziel des Wiederherstellungspunkts (RPO) hat.
 
 
 
@@ -97,7 +97,7 @@ Führen Sie das folgende Cmdlet aus:
 
 
 > [!NOTE]  
-> Der Synchronisierungsstatus des Sicherungsdiensts wird unidirektional von einem Pool (P1) zu seinem Sicherungspool (P2) definiert. Der Synchronisierungsstatus von P1 zu P2 kann von P2 zu P1 unterschiedlich sein. Bei P1 bis P2 befindet sich der Sicherungsdienst in einem "stabilen" Zustand, wenn alle Änderungen, die in P1 vorgenommen wurden, innerhalb des Synchronisierungsintervalls vollständig auf P2 repliziert werden. Es befindet sich im "endgültigen" Zustand, wenn keine weiteren Änderungen von P1 zu P2 synchronisiert werden. Beide Zustände deuten auf eine Momentaufnahme des Sicherungsdiensts zu dem Zeitpunkt hin, zu dem das Cmdlet ausgeführt wird. Das bedeutet nicht, dass der zurückgegebene Zustand unverändert bleibt. Insbesondere bleibt der Zustand "Final" weiterhin nur dann bestehen, wenn P1 nach der Ausführung des Cmdlets keine Änderungen generiert. Dies gilt im Fall eines Failovers von P1 auf P2, nachdem P1 als Teil der Ausführungslogik <STRONG>Invoke-CsPoolfailover</STRONG> in den schreibgeschützten Modus versetzt wurde.
+> Der Synchronisierungsstatus des Sicherungsdiensts wird von einem Pool (P1) auf den Sicherungspool (P2) unidirektional festgelegt. Der Synchronisierungsstatus von P1 bis P2 kann unterschiedlich sein als der von P2 bis P1. Bei P1 bis P2 befindet sich der Sicherungsdienst in einem "stationären" Zustand, wenn alle in P1 vorgenommenen Änderungen innerhalb des Synchronisierungsintervalls vollständig auf P2 repliziert werden. Es befindet sich im "endgültigen" Zustand, wenn keine Änderungen mehr von P1 zu P2 synchronisiert werden sollen. Beide Zustände deuten auf eine Momentaufnahme des Sicherungsdiensts zu dem Zeitpunkt hin, an dem das Cmdlet ausgeführt wird. Dies bedeutet nicht, dass der zurückgegebene Status wie im Anschluss bleibt. Insbesondere wird der Status "endgültig" nur dann beibehalten, wenn P1 nach dem Ausführen des Cmdlets keine Änderungen mehr generiert. Dies gilt für den Fall, dass P1 über bis P2 verfällt, nachdem P1 als Teil der <STRONG>Invoke-CsPoolfailover-</STRONG> Ausführungslogik in den schreibgeschützten Modus versetzt wurde.
 
 
 
@@ -107,7 +107,7 @@ Führen Sie das folgende Cmdlet aus:
 
 <div>
 
-## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>So erhalten Sie Informationen zur Sicherungsbeziehung für einen bestimmten Pool
+## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>So rufen Sie Informationen zur Sicherungsbeziehung für einen bestimmten Pool ab
 
 Führen Sie das folgende Cmdlet aus:
 
@@ -117,7 +117,7 @@ Führen Sie das folgende Cmdlet aus:
 
 <div>
 
-## <a name="to-force-a-backup-service-sync"></a>So erzwingen Sie eine Synchronisierung des Sicherungsdiensts
+## <a name="to-force-a-backup-service-sync"></a>So erzwingen Sie die Synchronisierung eines Sicherungsdiensts
 
 Führen Sie das folgende Cmdlet aus:
 

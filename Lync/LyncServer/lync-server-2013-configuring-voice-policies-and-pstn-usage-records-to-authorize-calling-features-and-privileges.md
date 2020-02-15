@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von VoIP-Richtlinien und PSTN-Verwendungsdatensätzen zum Autorisieren von Anruffunktionen und -berechtigungen'
+title: 'Lync Server 2013: Konfigurieren von VoIP-Richtlinien und PSTN-Verwendungsdatensätzen zum Autorisieren von Anruffunktionen und-Berechtigungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b9f7da3f8560ae0a897211405d686d9ed35101e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 339eba57121b475732794b15c2c5d16dced303ba
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734415"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029902"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges-in-lync-server-2013"></a>Konfigurieren von VoIP-Richtlinien und PSTN-Verwendungsdatensätzen zum Autorisieren von Anruffunktionen und -berechtigungen in Lync Server 2013
+# <a name="configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges-in-lync-server-2013"></a>Konfigurieren von VoIP-Richtlinien und PSTN-Verwendungsdatensätzen zum Autorisieren von Anruffunktionen und-Berechtigungen in lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41734415"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-10_
+_**Letztes Änderungsstand des Themas:** 2012-10-10_
 
-Eine *VoIP-Richtlinie* ermöglicht eine Reihe von Anruffunktionen und ordnet einen oder mehrere PSTN-Verwendungsdaten Sätze an, um die Anruffeatures und Berechtigungen von Benutzern zu definieren, denen die Richtlinie zugewiesen ist.
+Eine *VoIP-Richtlinie* aktiviert einen Satz von Anruffunktionen und ordnet ein oder mehrere PSTN-Verwendungsdatensätze zu, um die Anruffunktionen und Berechtigungen von Benutzern zu definieren, denen die Richtlinie zugewiesen wird.
 
-Der VoIP-Richtlinienbereich kann entweder ein *Standort* sein (der die Standardfeatures und-Berechtigungen für eine Netzwerk Website definiert) oder ein *Benutzer* (der die Features und Berechtigungen definiert, die für einzelne Benutzer oder Gruppen zugewiesen werden sollen). Benutzer, denen keine VoIP-Richtlinie zugewiesen ist, werden automatisch der globalen Richtlinie zugewiesen, bei der es sich um die Standard VoIP-Richtlinie handelt, die mit dem Produkt installiert wird.
+VoIP-Richtlinien können entweder für einen *Standort* (zur Definition der Standardfunktionen und -berechtigungen für einen Netzwerkstandort) oder für *Benutzer* (zur Definition der Funktionen und Berechtigungen für Benutzer oder Gruppen) festgelegt werden. Benutzer, die keiner VoIP-Richtlinie zugewiesen sind, werden automatisch der globalen Richtlinie zugewiesen, also der mit dem Produkt installierten Standard-VoIP-Richtlinie.
 
 <div>
 
@@ -59,7 +59,7 @@ Der VoIP-Richtlinienbereich kann entweder ein *Standort* sein (der die Standardf
 
   - [Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)
 
-  - [Konfigurieren von Voicemail-Escape in lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md)
+  - [Konfigurieren von Voicemail-Escapes in lync Server 2013](lync-server-2013-configuring-voice-mail-escape.md)
 
 </div>
 

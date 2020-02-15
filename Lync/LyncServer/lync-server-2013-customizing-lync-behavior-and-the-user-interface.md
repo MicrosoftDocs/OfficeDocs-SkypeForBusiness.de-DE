@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anpassen des lync-Verhaltens und der Benutzeroberfläche'
+title: 'Lync Server 2013: Anpassen von lync-Verhalten und der Benutzeroberfläche'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df800b1670226d90deee6921d0c0514cbfdcee14
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d5b006c14932e011fc0921c2f0a92933515e5bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728715"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028526"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="customizing-lync-behavior-and-the-user-interface-in-lync-server-2013"></a>Anpassen des lync-Verhaltens und der Benutzeroberfläche in lync Server 2013
+# <a name="customizing-lync-behavior-and-the-user-interface-in-lync-server-2013"></a>Anpassen von lync-Verhalten und der Benutzeroberfläche in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41728715"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-22_
+_**Letztes Änderungsstand des Themas:** 2013-03-22_
 
 In diesem Abschnitt wird beschrieben, wie Sie lync 2013 benutzerdefinierte Features hinzufügen.
 
@@ -47,13 +47,13 @@ In diesem Abschnitt wird beschrieben, wie Sie lync 2013 benutzerdefinierte Featu
 
   - [Hinzufügen von Befehlen zu lync-Menüs in lync Server 2013](lync-server-2013-adding-commands-to-lync-menus.md)
 
-  - [Integrieren einer Drittanbieter-Zusammenarbeitsanwendung in lync Server 2013](lync-server-2013-integrating-a-third-party-collaboration-application-with-lync.md)
+  - [Integrieren einer Anwendung für die Zusammenarbeit eines Drittanbieters mit lync Server 2013](lync-server-2013-integrating-a-third-party-collaboration-application-with-lync.md)
 
   - [Konfigurieren von benutzerdefinierten Anwesenheitsstatus in lync Server 2013](lync-server-2013-configuring-custom-presence-states.md)
 
-  - [Hinzufügen eines benutzerdefinierten Links zu Lync-Fehlermeldungen in Lync Server 2013](lync-server-2013-adding-a-custom-link-to-lync-error-messages.md)
+  - [Hinzufügen eines benutzerdefinierten Links zu lync-Fehlermeldungen in lync Server 2013](lync-server-2013-adding-a-custom-link-to-lync-error-messages.md)
 
-  - [Hinzufügen von benutzerdefiniertem Text zu Chatnachrichten in Lync Server 2013](lync-server-2013-adding-custom-text-to-instant-messages.md)
+  - [Hinzufügen von benutzerdefiniertem Text zu Chatnachrichten in lync Server 2013](lync-server-2013-adding-custom-text-to-instant-messages.md)
 
   - [Starten von lync aus einer anderen Anwendung](lync-server-2013-starting-lync-from-another-application.md)
 

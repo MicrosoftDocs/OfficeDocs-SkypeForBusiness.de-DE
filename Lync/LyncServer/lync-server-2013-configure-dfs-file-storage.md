@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren des Dateispeichers'
+title: 'Lync Server 2013: Konfigurieren des DFS-Dateispeichers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185037
 ms.date: 05/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bbb932a602ad1fc49907be9c5ab2777bc7a415f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5ce6be2a3fce1f334e9e4b1d14ea41a3dd57a6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739335"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028646"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dfs-file-storage-for-lync-server-2013"></a>Konfigurieren des Dateispeichers für Lync Server 2013
+# <a name="configure-dfs-file-storage-for-lync-server-2013"></a>Konfigurieren des DFS-Dateispeichers für lync Server 2013
 
 </div>
 
@@ -35,51 +35,51 @@ ms.locfileid: "41739335"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2016-05-23_
+_**Letztes Änderungsstand des Themas:** 2016-05-23_
 
-Lync Server 2013 unterstützt die Verwendung von Dateifreigaben in einem verteilten Datei System (DFS). Ausführliche Informationen zu DFS für Windows Server 2008 finden Sie in [http://go.microsoft.com/fwlink/p/?linkId=202835](http://go.microsoft.com/fwlink/p/?linkid=202835)der schrittweisen Anleitung zu DFS für Windows Server 2008 unter. Um ein DFS zu verwenden, benötigt lync Server 2013 Folgendes:
+Lync Server 2013 unterstützt die Verwendung von Dateifreigaben in einem verteilten Datei System (DFS). Ausführliche Informationen zu DFS für Windows Server 2008 finden Sie in [http://go.microsoft.com/fwlink/p/?linkId=202835](http://go.microsoft.com/fwlink/p/?linkid=202835)der schrittweisen Anleitung zu DFS für Windows Server 2008 unter. Für die Verwendung eines DFS-lync Server 2013 ist Folgendes erforderlich:
 
-  - Namespaces sind Domänen basiert
+  - Namespaces sind domänenbasiert
 
-  - Auf allen Namespaceservern wird ein minimales Windows 2008 ausgeführt.
+  - Auf allen Namespace-Servern wird mindestens Windows 2008 ausgeführt
 
-Das Setup von lync Server 2013 erfordert, dass Berechtigungen für den freigegebenen Ordner den vollständigen Zugriff auf den Administrator ermöglichen. Lync Server 2013 verwendet dann NTFS-Dateiberechtigungen, um die Ordner zu ACL. Geerbte DFS-Freigabeberechtigungen werden nicht verwendet, um den Zugriff zu beschränken.
+Lync Server 2013 Setup erfordert, dass Berechtigungen für den freigegebenen Ordner den vollständigen Zugriff auf den Administrator ermöglichen. Lync Server 2013 verwendet dann NTFS-Dateiberechtigungen für ACL-Ordner. Zum Einschränken des Zugriffs werden keine geerbten DFS-Freigabeberechtigungen verwendet.
 
-Weitere Informationen zu den Anforderungen an Dateifreigaben finden Sie unter unter [Stützung von Dateispeicher in lync Server 2013](lync-server-2013-file-storage-support.md) in der Dokumentation zur Unterstützung.
+Ausführliche Informationen zu den Anforderungen an Dateifreigaben finden Sie unter [File Storage Support in lync Server 2013](lync-server-2013-file-storage-support.md) in der Unterstützungsdokumentation.
 
 <div>
 
 
 > [!NOTE]  
-> Möglicherweise suchen Sie nach Informationen zum Konfigurieren einer nicht DFS-Freigabe. Wenn dies der Fall ist, lesen Sie <A href="lync-server-2013-hardware-setup.md">Hardware-Setup für lync Server 2013</A>.
+> Möglicherweise suchen Sie nach Informationen zum Konfigurieren einer nicht-DFS-Freigabe. Wenn dies der Fall ist, lesen Sie <A href="lync-server-2013-hardware-setup.md">Hardware-Setup für lync Server 2013</A>.
 
 
 
 </div>
 
-Im folgenden Verfahren wird beschrieben, wie Sie die Berechtigungen für freigegebene Ordner mithilfe des DFS-Namespace-Assistenten richtig konfigurieren (wie im DFS-Setup Handbuch beschrieben).
+Im folgenden Verfahren wird die ordnungsgemäße Konfiguration von Berechtigungen für freigegebene Ordner mithilfe des DFS-Namespace-Assistenten beschrieben (siehe Beschreibung in der Anleitung zur DFS-Einrichtung).
 
 <div>
 
 ## <a name="to-configure-shared-folder-permissions"></a>So konfigurieren Sie Berechtigungen für freigegebene Ordner
 
-1.  Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme**, zeigen Sie auf **Verwaltung**, und klicken Sie dann auf **DFS-Verwaltung**.
+1.  Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme** und auf **Verwaltung**, und klicken Sie dann auf **DFS-Verwaltung**.
 
-2.  Klicken Sie in der Konsolenstruktur des DFS-Verwaltungs-Snap-Ins mit der rechten Maustaste auf den Namespaceserver (beispielsweise filesrv1.contoso.com), und klicken Sie dann auf **Einstellungen bearbeiten**.
+2.  Klicken Sie in der Konsolenstruktur des DFS-Verwaltungs-Snap-Ins mit der rechten Maustaste auf den Namespace-Server (z. B. "filesrv1.contoso.com"), und klicken Sie dann auf **Einstellungen bearbeiten**.
 
-3.  Wählen Sie **Berechtigungen für freigegebene Ordner**aus.
+3.  Wählen Sie **Berechtigungen für freigegebene Ordner** aus.
 
-4.  Wählen Sie **benutzerdefinierte Berechtigungen verwenden**aus.
+4.  Wählen Sie **Benutzerdefinierte Berechtigungen verwenden** aus.
 
-5.  Wählen Sie für die Gruppe Administratoren unter **zulassen**die folgenden Optionen aus:
+5.  Wählen Sie für die Administratorgruppe unter **Zulassen** Folgendes aus:
     
       - **Vollzugriff**
     
-      - **Änderung**
+      - **Ändern**
     
       - **Lesen**
 
-6.  Klicken Sie auf über **nehmen**, und klicken Sie dann auf **OK**.
+6.  Klicken Sie auf **Übernehmen** und dann auf **OK**.
 
 </div>
 

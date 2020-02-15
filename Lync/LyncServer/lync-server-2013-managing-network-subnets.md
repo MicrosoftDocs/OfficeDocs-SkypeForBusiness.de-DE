@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verwalten von Netzwerk-Subnetzen'
+title: 'Lync Server 2013: Verwalten von Netzwerk Subnetzen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad3d4a56a03d22ecf7fcef85df8b3e6e5ea4c8b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5ae37b876ec2a3cab28d778ffc2bac4682c6a66b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762017"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008687"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-network-subnets-in-lync-server-2013"></a>Verwalten von Netzwerk-Subnetzen in lync Server 2013
+# <a name="managing-network-subnets-in-lync-server-2013"></a>Verwalten von Netzwerk Subnetzen in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762017"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-15_
+_**Letztes Änderungsstand des Themas:** 2012-10-15_
 
-Sie können entweder die lync Server 2013-Systemsteuerung oder die lync Server 2013-Verwaltungsshell verwenden, um Netzwerk-Subnets zu verwalten. In den meisten Bereitstellungen von lync Server 2013, bei denen die Anrufannahme Steuerung (Call Admission Control, CAC) implementiert ist, gibt es in der Regel eine große Anzahl von Subnetzen. Aus diesem Grund ist es am besten, Subnets aus der lync Server-Verwaltungsshell zu konfigurieren.
+Sie können entweder lync Server 2013-Systemsteuerung oder lync Server 2013 Verwaltungsshell zum Verwalten von Netzwerksubnetzen verwenden. In den meisten Bereitstellungen von lync Server 2013, in denen die Anrufsteuerung (Call Admission Control, CAC) implementiert ist, wird in der Regel eine große Anzahl von Subnetzen vorhanden sein. Aus diesem Grund ist es häufig am besten, Subnetze aus dem lync Server-Verwaltungsshell zu konfigurieren.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Anzeigen von Netzwerk-Subnetz-Informationen in lync Server 2013](lync-server-2013-viewing-network-subnet-information.md)
+  - [Anzeigen von Informationen zum Netzwerk-Subnetz in lync Server 2013](lync-server-2013-viewing-network-subnet-information.md)
 
   - [Erstellen oder Ändern von Netzwerk-Subnetzen in lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md)
 
-  - [Löschen von Netzwerk-Subnetzen in lync Server 2013](lync-server-2013-deleting-network-subnets.md)
+  - [Löschen von Netzwerk Subnetzen in lync Server 2013](lync-server-2013-deleting-network-subnets.md)
 
 </div>
 
@@ -56,7 +56,7 @@ Sie können entweder die lync Server 2013-Systemsteuerung oder die lync Server 2
 ## <a name="see-also"></a>Siehe auch
 
 
-[Zuordnen eines Subnetzes zu einem Netzwerkstandort in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
+[Zuordnen eines Subnetzes zu einem Netzwerkstandort in lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)  
   
 
 </div>

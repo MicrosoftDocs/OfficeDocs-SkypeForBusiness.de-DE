@@ -12,16 +12,16 @@ ms:contentKeyID: 48184865
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c50497979e8439a60799864376d1f93d36646cec
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a2481ff48e1156bd0cbbb478db213dbb02d2912
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746255"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021776"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41746255"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Wer dieses Cmdlet ausführen kann: Standardmäßig sind Mitglieder der folgenden Gruppen zum Ausführen des Test-CsAddressBookWebQuery-Cmdlets autorisiert: RTCUniversalServerAdmins. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller rollenbasierten zugriffssteuerungsrollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben):
+Dieses Cmdlet kann von folgenden Benutzern ausgeführt werden: Standardmäßig dürfen Mitglieder der folgenden Gruppen das Cmdlet "Test-CsAddressBookWebQuery" ausführen: RTCUniversalServerAdmins. Geben Sie den folgenden Befehl an der Windows PowerShell-Eingabeaufforderung ein, um eine Liste aller rollenbasierten Zugriffssteuerungsrollen zurückzugeben, die diesem Cmdlet zugewiesen wurden (einschließlich der benutzerdefinierten rollenbasierten Zugriffssteuerungsrollen, die Sie selbst erstellt haben):
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Test-CsAddressBookService"}
 
-Ähnlich wie bei der synthetischen Test-CsAddressBookService-Transaktion führt Test-CsAddressBookWebQuery eine Abfrage für die Adressbuch-Webabfrage aus, um sicherzustellen, dass Sie ordnungsgemäß funktioniert. Das Cmdlet stellt eine Verbindung mit der Web Ticket-Authentifizierung her und stellt die in – UserCredential angegebenen Anmeldeinformationen dar. Wenn authentifiziert, gibt das Cmdlet dann die – TargetSipAddress-Informationen an. Das Cmdlet sollte Erfolg melden, wenn es die Informationen über den Kontakt abrufen konnte.
+Ähnlich wie die synthetische Transaktion "Test-CsAddressBookService" führt "Test-CsAddressBookWebQuery" eine Abfrage beim Adressbuch-Webabfragedienst durch, um sicherzustellen, dass dieser ordnungsgemäß ausgeführt wird. Das Cmdlet stellt eine Verbindung mit dem Webticketdienst zur Authentifizierung her und legt die in "–UserCredential" angegebenen Anmeldeinformationen vor. Nach der Authentifizierung übergibt das Cmdlet die Informationen in "–TargetSipAddress". Das Cmdlet sollte eine erfolgreiche Ausführung melden, wenn die Informationen zum Kontakt abgerufen werden konnten.
 
 Beispiel:
 

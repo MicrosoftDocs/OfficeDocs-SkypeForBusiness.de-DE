@@ -12,16 +12,16 @@ ms:contentKeyID: 48183997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc4d13f3bdd5af1a2c9b90e190775522ea6f11b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9871d16c3e5b0af894653ac5d60c4614201e8e24
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738565"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983050"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41738565"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Nachdem Sie die Topologie zusammengeführt und das Cmdlet " **Import-CsLegacyConfiguration** " ausgeführt haben, vergewissern Sie sich, dass Ihre Office Communications Server 2007 R2-Richtlinien und-Einstellungen in lync Server 2013 importiert wurden. In der folgenden Tabelle sind die Richtlinien und Einstellungen aufgeführt, die Sie überprüfen sollten.
+Nachdem Sie die Topologie zusammengeführt und das **Import-CsLegacyConfiguration-** Cmdlet ausgeführt haben, stellen Sie sicher, dass Ihre Office Communications Server 2007 R2-Richtlinien und-Einstellungen in lync Server 2013 importiert wurden. In der folgenden Tabelle werden die Richtlinien und Einstellungen aufgelistet, die Sie überprüfen sollten.
 
 <div>
 
-## <a name="policies-and-settings-to-verify-after-migration"></a>Richtlinien und Einstellungen, die nach der Migration überprüft werden sollen
+## <a name="policies-and-settings-to-verify-after-migration"></a>Nach der Migration zu überprüfende Richtlinien und Einstellungen
 
 
 <table>
@@ -51,38 +51,38 @@ Nachdem Sie die Topologie zusammengeführt und das Cmdlet " **Import-CsLegacyCon
 </colgroup>
 <thead>
 <tr class="header">
-<th>Wenn Sie diese Arbeitsauslastung verwenden:</th>
-<th>Überprüfen Sie diese Richtlinien und Einstellungen:</th>
+<th>Verwendete Arbeitslast</th>
+<th>Zu überprüfende Richtlinien und Einstellungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Instant Messaging (im) und Konferenzen</p></td>
+<td><p>Instant Messaging und Konferenzen</p></td>
 <td><p>Anwesenheitsrichtlinie</p>
 <p>Konferenzrichtlinie</p></td>
 </tr>
 <tr class="even">
 <td><p>Einwahlkonferenzen</p></td>
-<td><p>Einwahl-Zugriffsnummern</p>
+<td><p>Zugriffsnummern für Einwahlkonferenz</p>
 <p>Wählpläne</p></td>
 </tr>
 <tr class="odd">
 <td><p>Enterprise-VoIP</p></td>
 <td><p>VoIP-Richtlinie</p>
 <p>VoIP-Routen</p>
-<p>Wählpläne</p>
-<p>PSTN-Nutzungseinstellungen</p></td>
+<p>Wähleinstellungen</p>
+<p>PSTN-Verwendungseinstellungen</p></td>
 </tr>
 <tr class="even">
 <td><p>Communicator Web Access</p></td>
-<td><p>Einfache URLs </p></td>
+<td><p>Einfache URLs</p></td>
 </tr>
 <tr class="odd">
 <td><p>Externe Benutzer</p></td>
 <td><p>Richtlinien für den externen Zugriff</p></td>
 </tr>
 <tr class="even">
-<td><p>Archiving</p></td>
+<td><p>Archivierung</p></td>
 <td><p>Archivierungsrichtlinie</p></td>
 </tr>
 </tbody>
@@ -95,17 +95,17 @@ Nachdem Sie die Topologie zusammengeführt und das Cmdlet " **Import-CsLegacyCon
 
 ## <a name="to-verify-policies-and-settings"></a>So überprüfen Sie Richtlinien und Einstellungen
 
-1.  Notieren Sie sich in Ihrer Office Communications Server 2007 R2-Umgebung die Namen von Wählplänen (vormals als Standortprofile bezeichnet), Einwahl Zugriffsnummern (Konferenzzentrale für den Zugriff auf Telefonnummern und Regionen), VoIP-Routen und die Richtlinien, die in der Liste obige Tabelle zusätzlich zu den URLs, die für Communicator Web Access verwendet werden.
+1.  Notieren Sie sich in Ihrer Office Communications Server 2007 R2 Umgebung die Namen von Wähleinstellungen (früher als Standortprofile bezeichnet), Einwahlnummern (Zugriffs Telefonnummern und Regionen für die Konferenzzentrale), VoIP-Routen und die Richtlinien in der Liste obige Tabelle zusätzlich zu den für Communicator-Webzugriff verwendeten URLs.
 
-2.  Öffnen Sie auf dem lync Server 2013-Front-End-Server die lync Server-Systemsteuerung.
+2.  Öffnen Sie auf dem lync Server 2013-Front-End-Server lync Server-Systemsteuerung.
 
-3.  Um importierte Konferenzrichtlinien zu überprüfen, klicken Sie im linken Bereich auf **Konferenzen**, klicken Sie auf **konferenzrichtlinie**, und überprüfen Sie dann, ob alle Konferenzrichtlinien in Ihrer Office Communications Server 2007 R2-Umgebung in der Liste enthalten sind.
+3.  Zum Überprüfen der importierten Konferenzrichtlinien klicken Sie im linken Bereich auf **Konferenzen**, dann auf **konferenzrichtlinie**, und stellen Sie sicher, dass alle Konferenzrichtlinien in Ihrer Office Communications Server 2007 R2 Umgebung in der Liste enthalten sind.
     
     <div>
     
 
     > [!NOTE]  
-    > Die <STRONG>Besprechungs</STRONG> Richtlinie aus früheren Versionen von Office Communications Server wird jetzt als konferenzrichtlinie in lync Server 2013 bezeichnet. Darüber hinaus ist die Einstellung für <STRONG>Anonyme Teilnehmern</STRONG> aus früheren Versionen von Office Communications Server jetzt eine Einstellung in der lync Server 2013-konferenzrichtlinie.
+    > Die <STRONG>Besprechungs</STRONG> Richtlinie aus früheren Versionen von Office Communications Server wird nun in lync Server 2013 als konferenzrichtlinie bezeichnet. Darüber hinaus ist die Einstellung für <STRONG>Anonyme Teilnehmern</STRONG> aus früheren Versionen von Office Communications Server jetzt eine Einstellung in der lync Server 2013 konferenzrichtlinie.
 
     
     </div>
@@ -114,7 +114,7 @@ Nachdem Sie die Topologie zusammengeführt und das Cmdlet " **Import-CsLegacyCon
     
 
     > [!NOTE]  
-    > Wenn in Office Communications Server 2007 R2 die konferenzrichtlinie nicht auf <STRONG>pro Benutzer verwenden</STRONG>eingestellt ist, werden nur globale Richtlinieneinstellungen importiert. In dieser Situation werden keine weiteren Konferenzrichtlinien importiert.
+    > Wenn in Office Communications Server 2007 R2 die konferenzrichtlinie nicht auf die <STRONG>Verwendung pro Benutzer</STRONG>festgelegt ist, werden nur globale Richtlinieneinstellungen importiert. In dieser Situation werden keine anderen Konferenzrichtlinien importiert.
 
     
     </div>
@@ -123,48 +123,48 @@ Nachdem Sie die Topologie zusammengeführt und das Cmdlet " **Import-CsLegacyCon
     
 
     > [!NOTE]  
-    > Wenn für <STRONG>Anonyme Teilnehmer</STRONG> in Ihrer Office Communications Server 2007 R2-konferenzrichtlinie die <STRONG>Erzwingung pro Benutzer</STRONG> festgelegt ist, werden während der Migration zwei Konferenzrichtlinien erstellt: eine mit <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> auf " <STRONG>true</STRONG> " und eines mit " <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> ", das auf " <STRONG>false</STRONG>" festgelegt ist.
+    > Wenn <STRONG>Anonyme Teilnehmer</STRONG> in Ihrer Office Communications Server 2007 R2 konferenzrichtlinie auf <STRONG>erzwingen pro Benutzer</STRONG> festgelegt sind, werden während der Migration zwei Konferenzrichtlinien erstellt: eine mit <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> <STRONG>, und eine</STRONG> mit <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> , die auf <STRONG>false</STRONG>festgelegt ist.
 
     
     </div>
 
-4.  Klicken Sie zum Überprüfen von importierten Wählplänen auf **VoIP-Routing**, klicken Sie auf **Wählplan**, und überprüfen Sie, ob alle Wählpläne in Ihrer Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.
+4.  Zum Überprüfen von migrierten Wählplänen klicken Sie auf **VoIP-Routing** und auf **Wählplan**, und stellen Sie dann sicher, dass alle Wählpläne in Ihrer Office Communicator 2007 R2-Umgebung in der Liste aufgeführt werden.
     
     <div>
     
 
     > [!NOTE]  
-    > In lync Server 2013 werden <STRONG>Standortprofile</STRONG> nun als <STRONG>Wählpläne</STRONG>bezeichnet.
+    > In lync Server 2013 werden <STRONG>Standortprofile</STRONG> jetzt als <STRONG>Wählpläne</STRONG>bezeichnet.
 
     
     </div>
 
-5.  Um importierte VoIP-Richtlinien zu überprüfen, klicken Sie auf **VoIP-Routing**, klicken Sie auf **VoIP-Richtlinie**, und überprüfen Sie dann, ob alle VoIP-Richtlinien in Ihrer Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.
+5.  Zum Überprüfen der importierten VoIP-Richtlinien klicken Sie auf **VoIP-Routing**, dann auf **VoIP-Richtlinie**, und überprüfen Sie anschließend, ob alle VoIP-Richtlinien in Ihrer Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.
     
     <div>
     
 
     > [!NOTE]  
-    > Wenn für die VoIP-Richtlinie nicht die <STRONG>Verwendung pro Benutzer</STRONG> in Ihrer Office Communications Server 2007 R2-Umgebung eingestellt ist, werden nur globale Richtlinieneinstellungen importiert. In dieser Situation werden keine anderen VoIP-Richtlinien importiert.
+    > Wenn für die VoIP-Richtlinie nicht die <STRONG>Verwendung pro Benutzer</STRONG> in Ihrer Office Communications Server 2007 R2 Umgebung festgelegt ist, werden nur globale Richtlinieneinstellungen importiert. In dieser Situation werden keine anderen VoIP-Richtlinien importiert.
 
     
     </div>
 
-6.  Um importierte VoIP-Routen zu überprüfen, klicken Sie auf **VoIP-Routing**, klicken Sie auf **Route**, und stellen Sie dann sicher, dass alle VoIP-Routen in Ihrer Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.
+6.  Zum Überprüfen von migrierten VoIP-Routen klicken Sie auf **VoIP-Routing** und dann auf **Route**, und stellen Sie sicher, dass alle VoIP-Routen in Ihrer Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.
 
-7.  Um die importierten PSTN-Nutzungseinstellungen zu überprüfen, klicken Sie auf **VoIP-Routing**, klicken Sie auf **PSTN-Nutzung**, und überprüfen Sie, ob die PSTN-Verwendungseinstellungen aus Ihrer Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.
+7.  Zum Überprüfen der importierten PSTN-Verwendungseinstellungen klicken Sie auf **VoIP-Routing** und auf **PSTN-Verwendung**, und stellen Sie dann sicher, dass die PSTN-Verwendungseinstellungen aus der Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.
 
-8.  Um importierte Richtlinien für den externen Zugriff zu überprüfen, klicken Sie auf **Föderation und externer Zugriff**, klicken Sie auf **Richtlinie für den externen Zugriff**, und überprüfen Sie, ob alle Richtlinien für den externen Zugriff in Ihrer Office Communicator 2007 R2-Umgebung in der Liste enthalten sind
+8.  Zum Überprüfen der importierten Richtlinien für externen Zugriff klicken Sie auf **Partnerverbund und externer Zugriff** und auf **Externe Zugriffsrichtlinie**, und stellen Sie dann sicher, dass alle Richtlinien für externen Zugriff in der Office Communicator 2007 R2-Umgebung in der Liste enthalten sind.
 
-9.  Klicken Sie zum Überprüfen von Archivierungsrichtlinien auf **Überwachung und Archivierung**, klicken Sie auf **Archivierungsrichtlinie**, und überprüfen Sie dann, ob alle Archivierungsrichtlinien in Ihrer Office Communications Server 2007 R2-Umgebung in der Liste enthalten sind.
+9.  Klicken Sie zum Überprüfen der Archivierungsrichtlinien auf **Überwachung und Archivierung**, klicken Sie auf **Archivierungsrichtlinie**, und stellen Sie dann sicher, dass alle Archivierungsrichtlinien in Ihrer Office Communications Server 2007 R2 Umgebung in der Liste enthalten sind.
 
-10. Öffnen Sie die lync Server-Verwaltungsshell.
+10. Öffnen Sie die Lync Server-Verwaltungsshell.
 
-11. Zum Überprüfen von Anwesenheitsrichtlinien geben Sie in der Befehlszeile Folgendes ein:
+11. Geben Sie zum Überprüfen der Anwesenheitsrichtlinien an der Befehlszeile Folgendes ein:
     
         Get-CsPresencePolicy
     
-    Überprüfen Sie den Namen im Parameter **Identity** , und stellen Sie sicher, dass alle Anwesenheitsrichtlinien in Ihrer Office Communications Server 2007 R2-Umgebung importiert wurden.
+    Stellen Sie sicher, dass alle Präsenz Richtlinien in Ihrer Office Communications Server 2007 R2 Umgebung importiert wurden, indem Sie den Namen im Parameter **Identity** betrachten.
 
 </div>
 
@@ -172,15 +172,15 @@ Nachdem Sie die Topologie zusammengeführt und das Cmdlet " **Import-CsLegacyCon
 
 ## <a name="to-verify-policies-and-settings-by-using-cmdlets"></a>So überprüfen Sie Richtlinien und Einstellungen mithilfe von Cmdlets
 
-1.  Öffnen Sie die lync Server-Verwaltungsshell.
+1.  Öffnen Sie die Lync Server-Verwaltungsshell.
 
 2.  Führen Sie die Cmdlets in der folgenden Tabelle aus, um Richtlinien und Einstellungen zu überprüfen.
     
-    Die Syntax dieser Cmdlets ist wie im folgenden Beispiel dargestellt:
+    Die Syntax dieser Cmdlets entspricht dem folgenden Beispiel:
     
         Get-CsConferencingPolicy
     
-    Details zu diesen Cmdlets finden Sie unter:
+    Wenn Sie ausführliche Informationen zu diesen Cmdlets benötigen, führen Sie folgenden Befehl aus:
     
         Get-Help <cmdlet name> -Detailed
 
@@ -192,8 +192,8 @@ Nachdem Sie die Topologie zusammengeführt und das Cmdlet " **Import-CsLegacyCon
 </colgroup>
 <thead>
 <tr class="header">
-<th>Für diese Richtlinie oder Einstellung:</th>
-<th>Verwenden Sie dieses Cmdlet:</th>
+<th>Zu überprüfende Richtlinie oder Einstellung</th>
+<th>Cmdlet</th>
 </tr>
 </thead>
 <tbody>
@@ -206,7 +206,7 @@ Nachdem Sie die Topologie zusammengeführt und das Cmdlet " **Import-CsLegacyCon
 <td><p><strong>Get-CsConferencingPolicy</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p>Einwahl-Zugriffsnummern</p></td>
+<td><p>Zugriffsnummern für Einwahlkonferenz</p></td>
 <td><p><strong>Get-CsDialInConferencingAccessNumber</strong></p></td>
 </tr>
 <tr class="even">
@@ -230,7 +230,7 @@ Nachdem Sie die Topologie zusammengeführt und das Cmdlet " **Import-CsLegacyCon
 <td><p><strong>Get-CsSimpleUrlConfiguration</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p>Richtlinien für den externen Zugriff</p></td>
+<td><p>Richtlinien für externen Zugriff</p></td>
 <td><p><strong>Get-CsExternalAccessPolicy</strong></p></td>
 </tr>
 <tr class="even">

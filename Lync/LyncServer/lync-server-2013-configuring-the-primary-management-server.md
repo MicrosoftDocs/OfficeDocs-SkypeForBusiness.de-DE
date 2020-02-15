@@ -12,16 +12,16 @@ ms:contentKeyID: 48183986
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d6cb7d0f27413449873cb8a0d8498aec230fdfd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6640e13209700d50aac04c43728175a4fcb4e6b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734615"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029998"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41734615"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-03-19_
+_**Letztes Änderungsstand des Themas:** 2014-03-19_
 
-Um die neuen Integritäts Überwachungsfunktionen in Microsoft lync Server 2013 vollständig nutzen zu können, müssen Administratoren zunächst einen Computer als primären Verwaltungs Server festlegen. auf diesem Computer müssen Sie System Center Operations Manager 2007 R2 oder System Center Operations Manager 2012 installieren. Darüber hinaus müssen Sie eine unterstützte Version von SQL Server installieren, um als Ihre Operations Manager-Back-End-Datenbank zu funktionieren. Wenn Sie System Center Operations Manager 2012 verwenden, können Sie eine der folgenden Versionen von SQL Server als Back-End-Datenbank verwenden:
+Um die neuen Funktionen für die Integritätsüberwachung in vollem Umfang nutzen zu können, müssen Administratoren zunächst einen Computer als primären Verwaltungs Server für Microsoft lync Server 2013 festlegen. auf diesem Computer müssen Sie System Center Operations Manager 2007 R2 oder System Center Operations Manager 2012 installieren. Darüber hinaus müssen Sie eine unterstützte Version von SQL Server installieren, die als Operations Manager-Back-End-Datenbank fungiert. Wenn Sie System Center Operations Manager 2012 verwenden, können Sie eine der folgenden Versionen von SQL Server als Back-End-Datenbank verwenden:
 
   - SQL Server 2008 R2 Service Pack 1
 
   - SQL Server 2008 R2 Service Pack 2
 
-Wenn Sie System Center Operations Manager 2007 R2 verwenden, empfiehlt es sich, entweder SQL Server 2005 Service Pack 4 oder SQL Server 2008 Service Pack 3 zu installieren. Sie können auch SQL Server 2008 R2 als Back-End-Datenbank für System Center Operations Manager 2007 R2 verwenden. Weitere Informationen zum Konfigurieren von SQL Server 2008 R2 für die Zusammenarbeit mit System Center Operations Manager 2007 R2 finden Sie in Anhang 1 dieser Dokumentation.
+Wenn Sie System Center Operations Manager 2007 R2 verwenden, sollten Sie entweder SQL Server 2005 Service Pack 4 oder SQL Server 2008 Service Pack 3 installieren. Sie können auch SQL Server 2008 R2 als Back-End-Datenbank für System Center Operations Manager 2007 R2 verwenden. In Anhang 1 dieser Dokumentation finden Sie weitere Informationen zum Konfigurieren von SQL Server 2008 R2 für die Verwendung von System Center Operations Manager 2007 R2.
 
-Wenn Sie System Center Operations Manager 2012 oder System Center Operations Manager 2007 R2 installieren, müssen Sie alle Komponenten dieses Produkts installieren, einschließlich:
+Bei der Installation von System Center Operations Manager 2012 oder System Center Operations Manager 2007 R2 müssen Sie alle Komponenten des Produkts installieren, einschließlich:
 
   - Betriebsdatenbank
 
@@ -57,15 +57,15 @@ Wenn Sie System Center Operations Manager 2012 oder System Center Operations Man
 
   - Webkonsole
 
-  - Berichterstellung
+  - Reporting
 
   - Data Warehouse
 
-Diese Komponenten und deren Installation werden in diesem Dokument nicht ausführlich erläutert. Ausführliche Informationen zu System Center Operations Manager 2007 R2 finden Sie in der Dokumentation zu Operations Manager 2007 <http://go.microsoft.com/fwlink/p/?linkid=257526> R2 unter und in <http://go.microsoft.com/fwlink/p/?linkid=257527>der System Center Operations Manager 2012-Dokumentation unter. Befolgen Sie diese Anweisungen, wenn Sie SQL Server 2005 oder SQL Server 2008 Service Pack 1 als Back-End-Datenbank verwenden möchten.
+Diese Komponenten und ihre Installation werden in diesem Dokument nicht ausführlich beschrieben. Ausführliche Informationen zu System Center Operations Manager 2007 R2 finden Sie in der Operations Manager 2007 R2- <http://go.microsoft.com/fwlink/p/?linkid=257526> Dokumentation unter und in der System Center Operations Manager <http://go.microsoft.com/fwlink/p/?linkid=257527>2012-Dokumentation unter. Befolgen Sie diese Anweisungen, wenn Sie SQL Server 2005 oder SQL Server 2008 Service Pack 1 als Back-End-Datenbank verwenden möchten.
 
-Wenn Sie System Center Operations Manager 2012 verwenden, können Sie SQL Server 2012 als Back-End-Datenbank verwenden. Ausführliche Informationen zu SQL Server 2012 finden Sie unter Online Dokumentation für SQL Server 2012 [http://go.microsoft.com/fwlink/p/?LinkId=257528](http://go.microsoft.com/fwlink/p/?linkid=257528)unter.
+Wenn Sie System Center Operations Manager 2012 verwenden, können Sie SQL Server 2012 als Back-End-Datenbank verwenden. Ausführliche Informationen zu SQL Server 2012 finden Sie in [http://go.microsoft.com/fwlink/p/?LinkId=257528](http://go.microsoft.com/fwlink/p/?linkid=257528)der Online Dokumentation zu SQL Server 2012 unter.
 
-Beachten Sie, dass pro lync Server-Bereitstellung nur ein einzelner primärer Verwaltungs Server verfügbar sein kann. Auch wenn Sie System Center Operations Manager 2012 oder System Center Operations Manager 2007 R2 verwenden können, können Sie die beiden Anwendungen nicht gleichzeitig ausführen – Sie müssen die eine oder andere auswählen. Wenn Sie beispielsweise System Center Operations Manager 2012 ausführen, müssen alle Ihre System Center-Agents auch System Center Operations Manager 2012 ausführen. Sie können nicht über einige Agents verfügen, auf denen System Center Operations Manager 2012 und andere Agents mit System Center Operations Manager 2007 R2 ausgeführt werden.
+Beachten Sie, dass Sie pro lync Server-Bereitstellung nur einen einzigen primären Verwaltungs Server haben können. Auch wenn Sie entweder System Center Operations Manager 2012 oder System Center Operations Manager 2007 R2 verwenden können, können Sie die beiden Anwendungen nicht gleichzeitig ausführen – Sie müssen die eine oder die andere auswählen. Wenn Sie beispielsweise System Center Operations Manager 2012 ausführen, müssen auf allen System Center-Agents auch System Center Operations Manager 2012 ausgeführt werden. Es können nicht einige Agents mit System Center Operations Manager 2012 und anderen Agents ausgeführt werden, auf denen System Center Operations Manager 2007 R2 ausgeführt wird.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Unterstützte Migrationspfade und Koexistenzszenarien'
+title: 'Lync Server 2013: Unterstützte Migrationspfade und Szenarien für die Koexistenz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184182
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71f298db233a76f40538fe2372d4a23f2dc7de62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 72df2bc5dc871d4eb86ea5f3a8153e7693e6f695
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731695"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029796"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Unterstützte Migrationspfade und Koexistenzszenarien in Lync Server 2013
+# <a name="supported-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a>Unterstützte Migrationspfade und Szenarien für die Koexistenz in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41731695"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-04-30_
+_**Letztes Änderungsstand des Themas:** 2012-04-30_
 
-Lync Server 2013 unterstützt die Migration von Microsoft lync Server 2010 und Microsoft Office Communications Server 2007 R2, einschließlich der Koexistenz mit bestimmten Client-und Server Komponenten dieser vorherigen Bereitstellungen.
+Lync Server 2013 unterstützt die Migration von Microsoft lync Server 2010 und Microsoft Office Communications Server 2007 R2, einschließlich der Koexistenz mit bestimmten Client-und Server Komponenten dieser früheren Bereitstellungen.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Unterstützte Servermigrationspfade und Koexistenzszenarien in Lync Server 2013](lync-server-2013-supported-server-migration-paths-and-coexistence-scenarios.md)
+  - [Unterstützte Server Migrationspfade und Szenarien für die Koexistenz in lync Server 2013](lync-server-2013-supported-server-migration-paths-and-coexistence-scenarios.md)
 
-  - [Unterstützte Clients aus vorherigen Bereitstellungen in Lync Server 2013](lync-server-2013-supported-clients-from-previous-deployments.md)
+  - [Unterstützte Clients aus vorherigen Bereitstellungen in lync Server 2013](lync-server-2013-supported-clients-from-previous-deployments.md)
 
 </div>
 

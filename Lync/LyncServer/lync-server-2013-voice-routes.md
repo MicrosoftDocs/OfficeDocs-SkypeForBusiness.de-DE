@@ -12,20 +12,20 @@ ms:contentKeyID: 48185038
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42aa810f40a6c00c7f2779acdf39caf39d7b2f07
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 350b64c15b0819813b8287bb9b40272845f3a285
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758587"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028936"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="voice-routes-in-lync-server-2013"></a>VoIP-Routen in Lync Server 2013
+# <a name="voice-routes-in-lync-server-2013"></a>VoIP-Routen in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41758587"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-22_
+_**Letztes Änderungsstand des Themas:** 2012-10-22_
 
-Anrufrouten geben an, wie lync Server ausgehende Anrufe von Enterprise-VoIP-Benutzern abwickelt. Wenn ein Benutzer eine Nummer wählt, normalisiert der Front-End-Server die Wählzeichenfolge bei Bedarf in das E. 164-Format und versucht, Sie mit einem SIP-URI zu vergleichen. Wenn keine Zuordnung möglich ist, wendet der Server eine auf der Nummer basierende Routinglogik für ausgehende Anrufe an. Der letzte Schritt zum Definieren der Logik besteht darin, eine separate benannte Anrufroute für jeden Satz von Zielrufnummern zu erstellen, die in den einzelnen Wählplänen aufgeführt sind.
+Anrufrouten geben an, wie lync Server ausgehende Anrufe von Enterprise-VoIP-Benutzern abwickelt. Wenn ein Benutzer eine Nummer wählt, normalisiert der Front-End-Server die Wählzeichenfolge bei Bedarf in das E. 164-Format und versucht, diese mit einem SIP-URI abzugleichen. Wenn keine Zuordnung möglich ist, wendet der Server eine auf der Nummer basierende Routinglogik für ausgehende Anrufe an. Der letzte Schritt zum Definieren der Logik besteht darin, eine separate benannte Anrufroute für jeden Satz von Zielrufnummern zu erstellen, die in den einzelne Wählplänen aufgeführt sind.
 
 Vor dem Definieren von Routen für ausgehende Anrufe sollten Sie die folgenden Schritte abschließen:
 
   - Stellen Sie einen oder mehrere Trunks bereit.
 
-  - Erstellen Sie nach Bedarf Wählpläne für Standorte, Einzelpersonen und Kontaktobjekte.
+  - Erstellen Sie nach Bedarf Wähleinstellungen für Standorte, Einzelpersonen und Kontaktobjekte.
 
-  - Erstellen Sie PSTN-Verwendungseinträge (Public Switched Telephone Network, Telefonfestnetz)
+  - Erstellen Sie PSTN-Verwendungsdatensätze (Public Switched Telephone Network, Telefonfestnetz)
 
-Sie müssen außerdem eine oder mehrere VoIP-Richtlinien erstellen und zuweisen, um das Routing ausgehender Anrufe zu aktivieren. Diese Aktion kann entweder vor oder nach der Definition ausgehender Anrufrouten durchgeführt werden.
+Sie müssen außerdem eine oder mehrere VoIP-Richtlinien erstellen und zuweisen, um das Routen ausgehender Anrufe zu aktivieren. Diese Aktion kann entweder vor oder nach der Definition ausgehender Anrufrouten durchgeführt werden.
 
 Für jede Route müssen Sie Folgendes angeben:
 
@@ -55,19 +55,19 @@ Für jede Route müssen Sie Folgendes angeben:
 
   - Eine optionale Beschreibung in Fällen, in denen der Name allein möglicherweise nicht als Beschreibung der Route ausreicht
 
-  - Den regulären Ausdruck für das Vergleichsmuster, das die Zielrufnummern identifiziert, auf die die Route angewendet wird, sowie Ausnahmen, auf die das Vergleichsmuster nicht angewendet wird
+  - Den regulären Ausdruck für das Vergleichsmuster, das die Zielrufnummern identifiziert, auf welche die Route angewendet wird, sowie Ausnahmen, auf die das Vergleichsmuster nicht angewendet wird
 
   - Einen oder mehrere Trunks, den Sie der Route zuweisen möchten
 
-  - Die PSTN-Verwendungseinträge, über die Benutzer verfügen müssen, um Rufnummern anzurufen, die dem regulären Ausdruck für die Zielrufnummer entsprechen
+  - Die PSTN-Verwendungsdatensätze, über die Benutzer verfügen müssen, um Rufnummern anzurufen, die dem regulären Ausdruck für die Zielrufnummer entsprechen
 
-Sie können in der lync Server-Systemsteuerung Anrufrouten angeben. Diese Anrufrouten füllen die Server Routingtabelle aus, die von lync Server zum Weiterleiten von Anrufen verwendet wird, die für das PSTN bestimmt sind.
+Sie können Anrufrouten im lync Server-Systemsteuerung angeben. Bei diesen Anrufrouten wird die Server Routingtabelle aufgefüllt, die lync Server zum Weiterleiten von Anrufen verwendet, die für das PSTN bestimmt sind.
 
 <div>
 
 ## <a name="mn-trunk-support"></a>M:N-Trunkunterstützung
 
-Lync Server bietet Flexibilität bei der Weiterleitung von Anrufen an das PSTN. Eine VoIP-Route gibt eine Reihe von Trunks für das PSTN an, die für einen bestimmten Sprachanruf verwendet werden können. Ein trunk ordnet einen Vermittlungs Server und eine Portnummer einem PSTN-Gateway und einer Abhör Portnummer zu. Diese logische Zuordnung ermöglicht es einem Vermittlungs Server, mehreren Gateways zugeordnet zu werden und über mehrere Verbindungen mit dem gleichen Gateway zu verfügen. Wenn Sie eine Anrufroute definieren, geben Sie die Trunks an, die dieser Route zugeordnet sind, aber Sie geben nicht an, welche Vermittlungsserver der Route zugeordnet sind. Wenn Sie Trunks erstellen möchten, indem Sie die Beziehungen zwischen Vermittlungsservern und PSTN-Gateways, IP-PBX-Anlagen und Session Border Controllers (SBCS) definieren, verwenden Sie den Topologie-Generator.
+Lync Server bietet Flexibilität bei der Weiterleitung von Anrufen an das PSTN. Eine VoIP-Route gibt eine Reihe von Trunks für das PSTN an, die für einen bestimmten Sprachanruf verwendet werden können. Ein trunk ordnet eine Vermittlungsserver und eine Portnummer einem PSTN-Gateway und einer Überwachungs Portnummer zu. Durch diese logische Zuordnung kann ein Vermittlungsserver mehreren Gateways zugeordnet werden und über mehrere Verbindungen mit demselben Gateway verfügen. Beim Definieren einer Anrufroute geben Sie die Trunks an, die dieser Route zugeordnet sind, aber Sie geben nicht an, welche Vermittlungsserver der Route zugeordnet sind. Verwenden Sie den Topologie-Generator, um Trunks zu erstellen, indem Sie die Beziehungen zwischen Vermittlungsservern und PSTN-Gateways, IP-Nebenstellenanlagen und Sitzungs Rahmen Controllern (SBCS) definieren.
 
 </div>
 
@@ -75,9 +75,9 @@ Lync Server bietet Flexibilität bei der Weiterleitung von Anrufen an das PSTN. 
 
 ## <a name="least-cost-routing"></a>Kostenoptimierter Verbindungsaufbau
 
-Durch das Festlegen von Trunks, an die verschiedene Rufnummern weitergeleitet werden, können Sie die Routen bestimmen, die die geringsten Kosten verursachen, und sie entsprechend implementieren. Normalerweise wählen Sie Trunks aus, indem Sie den Trunk mit dem nächstgelegenen Gateway zum Standort der Zielrufnummer auswählen, um die Gebühren für Ferngespräche möglichst gering zu halten. Wenn Sie sich z. B. in New York befinden und eine Rufnummer in Rom wählen, leiten Sie den Anruf über das IP-Netzwerk an den Trunk mit dem Gateway in Ihrer Niederlassung in Rom weiter, sodass nur Gebühren für ein Ortsgespräch anfallen.
+Durch das Festlegen von Trunks, an die verschiedene Rufnummern weitergeleitet werden, können Sie die Routen bestimmen, die die geringsten Kosten verursachen, und sie entsprechend implementieren. Normalerweise wählen Sie Trunks aus, indem Sie den Trunk mit dem nächst gelegenen Gateway zum Standort der Zielrufnummer auswählen, um die Gebühren für Ferngespräche möglichst gering zu halten. Wenn Sie sich z. B. in New York befinden und eine Rufnummer in Rom wählen, leiten Sie den Anruf über das IP-Netzwerk an den Trunk mit dem Gateway in Ihrer Niederlassung in Rom weiter, sodass nur Gebühren für ein Ortsgespräch anfallen.
 
-Das folgende Beispiel zeigt eine Verwendungsmöglichkeit des kostenoptimierten Verbindungsaufbaus: Fabrikam beschließt, dass deutsche Benutzer Rufnummern in den USA über den US-Trunk wählen sollen. Fabrikam möchte das System auch so konfigurieren, dass alle Anrufe von US-lync-Server Benutzern nach Deutschland und benachbarte Länder/Regionen auf dem Stamm mit dem Gateway in Deutschland beendet werden. Durch dieses Routing wird Geld gespart, da ein Anruf von Deutschland nach Österreich beispielsweise weniger kostspielig ist als ein Anruf aus den USA nach Österreich.
+Das folgende Beispiel zeigt eine Verwendungsmöglichkeit des kostenoptimierten Verbindungsaufbaus: Fabrikam beschließt, dass deutsche Benutzer Rufnummern in den USA über den US-Trunk wählen sollen. Außerdem möchte Fabrikam das System so konfigurieren, dass alle Anrufe von US-lync Server Benutzern nach Deutschland und angrenzende Länder/Regionen mit dem Gateway in Deutschland auf dem trunk enden. Durch dieses Routing wird Geld gespart, da ein Anruf von Deutschland nach Österreich beispielsweise weniger kostspielig ist als ein Anruf aus den USA nach Österreich.
 
 </div>
 
@@ -85,11 +85,11 @@ Das folgende Beispiel zeigt eine Verwendungsmöglichkeit des kostenoptimierten V
 
 ## <a name="translating-outbound-dial-strings"></a>Übersetzen ausgehender Wählzeichenfolgen
 
-Lync Server 2013 erfordert wie seine unmittelbaren Vorgänger, dass alle Wählzeichenfolgen im E. 164-Format normalisiert werden, um eine Reverse-Number-Lookup-Funktion (RNL) durchführen zu können. Für Trunks mit Gateways oder Private Branch Exchanges (PBX), die Zahlen erfordern, die in lokale Wähl Formate übersetzt werden, ermöglicht Ihnen lync Server 2013 die Erstellung einer oder mehrerer Regeln, die beim Manipulieren der angerufenen Zahl (also des Anforderungs-URIs) helfen, bevor Sie an die Stamm. Sie können beispielsweise eine Regel schreiben, mit der die Vorwahl +44 aus einer Wählzeichenfolge entfernt und durch 0144 ersetzt wird.
+Lync Server 2013 wie seine unmittelbaren Vorgänger erfordert, dass alle Wählzeichenfolgen zum E. 164-Format normalisiert werden, um eine rückwärts Nummernsuche durchführen zu können (können). Für Trunks mit Gateways oder Private Branch Exchanges (PBX), die Nummern in lokalen Wähl Formaten übersetzt erfordern, ermöglicht lync Server 2013 Ihnen, eine oder mehrere Regeln zu erstellen, die die Bearbeitung der angerufenen Nummer unterstützen (d.h. Anforderungs-URI), bevor Sie Sie an das Routing Stamm. Sie können beispielsweise eine Regel schreiben, mit der das Präfix +44 aus einer Wählzeichenfolge entfernt und durch 0144 ersetzt wird.
 
-Mit lync Server 2013 können Sie eine oder mehrere Regeln erstellen, die Ihnen helfen, die Rufnummer zu manipulieren, bevor Sie Sie an den trunk weiterleiten.
+Mit lync Server 2013 ist es möglich, eine oder mehrere Regeln zu erstellen, die die Manipulation der anrufenden Nummer vor dem Weiterleiten an den trunk unterstützen.
 
-Bei der Planung Ihrer Trunks, die Gateways zuordnen: Port-Paare mit Mediation Server: Port-Paare, kann es hilfreich sein, Trunks mit ähnlichen lokalen wählanforderungen zu gruppieren, und daher die Anzahl der erforderlichen Übersetzungsregeln und die Zeitdauer für den Schreibvorgang zu verringern.
+Bei der Planung Ihrer Trunks, die Gateways: Port Pairs mit Vermittlungsserver: Port Pairs zuordnen, kann es hilfreich sein, Trunks mit ähnlichen lokalen wählanforderungen zu gruppieren und somit die Anzahl der erforderlichen Übersetzungsregeln und die Zeit zu verringern, die für das Schreiben der Übersetzung erforderlich ist.
 
 </div>
 
@@ -97,13 +97,13 @@ Bei der Planung Ihrer Trunks, die Gateways zuordnen: Port-Paare mit Mediation Se
 
 ## <a name="configuring-caller-id"></a>Konfigurieren der Anrufer-ID
 
-Lync Server bietet eine Möglichkeit zum Manipulieren der Rufnummernanzeige für ausgehende Anrufe. Wenn eine Organisation beispielsweise die Durchwahlnummern der Mitarbeiter maskieren und durch die generische Firmen-oder Abteilungsnummer ersetzen möchte, kann ein Administrator dies mithilfe der lync Server-Systemsteuerung durchführen, um die Rufnummernanzeige zu unterdrücken und durch eine angegebene alternative Rufnummernanzeige. Denken Sie bei der Planung der Routinglogik darüber nach, für welche Einzelpersonen, Gruppen oder Standorte Sie diese Optionen verwenden möchten oder ob Sie sie sogar für alle Mitarbeiter verwenden möchten.
+Lync Server bietet eine Möglichkeit zum Bearbeiten der Anrufer-ID für ausgehende Anrufe. Wenn beispielsweise eine Organisation die Durchwahl Durchwahl von Mitarbeitern maskieren und durch die generische Firmen-oder Abteilungsnummer ersetzen möchte, kann ein Administrator dies mithilfe von lync Server-Systemsteuerung durchführen, um die Anrufer-ID zu unterdrücken und durch einen zu ersetzen. angegebene alternative Anrufer-ID. Denken Sie bei der Planung der Routinglogik darüber nach, für welche Einzelpersonen, Gruppen oder Standorte Sie diese Optionen verwenden möchten oder ob Sie sie sogar für alle Mitarbeiter verwenden möchten.
 
 <div>
 
 
 > [!NOTE]  
-> Für Anrufe, die über das Telefonfestnetz (PSTN) umgeleitet werden, wird die allgemeine Anrufer-ID anstelle der ursprünglichen Anrufer-ID angezeigt. Dies kann dazu führen, dass „Nicht stören“- oder Privatsphäreneinstellungen umgangen werden, die der angerufene Teilnehmer möglicherweise konfiguriert hat.
+> Für Anrufe, die über das Telefonfestnetz (PSTN) umgeleitet werden, wird die allgemeine Anrufer-ID anstelle der ursprünglichen Anrufer-ID angezeigt. Dies kann dazu führen, dass "Nicht stören"- oder Privatsphäreeinstellungen umgangen werden, die der angerufene Teilnehmer möglicherweise konfiguriert hat.
 
 
 
@@ -121,9 +121,9 @@ Beachten Sie bei der Erstellung von Routen für ausgehende Anrufe die folgenden 
 
   - Wenn die im Anforderungs-URI angegebene Domäne nicht für das Unternehmen unterstützt wird, verarbeitet die Ausgangsroutingkomponente auf dem Server den Anruf nicht.
 
-  - Wenn ein Benutzer nicht für Enterprise-VoIP aktiviert ist, wendet der Server gegebenenfalls eine andere Routinglogik an.
+  - Wenn ein Benutzer nicht für Enterprise-VoIP aktiviert ist, wendet der Server nach Bedarf andere Routinglogik an.
 
-  - Wenn der Anruf an ein vollständig besetztes Gateway (bei dem alle Trunkleitungen belegt sind) geroutet wird, weist das Gateway den Anruf zurück und die Ausgangsroutingkomponente leitet ihn an die Route mit den zweitgeringsten Kosten um. Bedenken Sie dies sorgfältig, da ein Gateway, dessen Größe auf ein kleines Büro in Europa (im Beispiel: Zürich) ausgerichtet ist, möglicherweise einen umfangreichen nicht lokalen Datenverkehr für Auslandsgespräche mit der Schweiz übertragen muss. Wenn das Gateway nicht die richtige Größe für diesen zusätzlichen Datenverkehr aufweist, werden Anrufe aus den USA in die Schweiz möglicherweise über ein Gateway in Deutschland weitergeleitet, was höhere Telefongebühren bedeutet.
+  - Wenn der Anruf an ein vollständig besetztes Gateway (bei dem alle Trunkleitungen belegt sind) geroutet wird, weist das Gateway den Anruf zurück, und die Ausgangsroutingkomponente leitet ihn an die Route mit den zweitgeringsten Kosten um. Bedenken Sie dies sorgfältig, da ein Gateway, dessen Größe auf ein kleines Büro in Europa (im Beispiel: Zürich) ausgerichtet ist, möglicherweise einen umfangreichen nicht lokalen Datenverkehr für Auslandsgespräche mit der Schweiz übertragen muss. Wenn das Gateway nicht die richtige Größe für diesen zusätzlichen Datenverkehr aufweist, werden Anrufe aus den USA in die Schweiz möglicherweise über ein Gateway in Deutschland weitergeleitet, was höhere Telefongebühren bedeutet.
 
 </div>
 

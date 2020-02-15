@@ -12,20 +12,20 @@ ms:contentKeyID: 48185584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b5df4fedc49e85d7fe26a918ea36de3a64b440a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 50835858c9c78851ec5fc7359f988790bb0d1c2f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757829"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028756"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-an-existing-central-management-server-in-lync-server-2013"></a>Konfigurieren eines vorhandenen zentralen Verwaltungsservers in Lync Server 2013
+# <a name="configure-an-existing-central-management-server-in-lync-server-2013"></a>Konfigurieren eines vorhandenen zentralen Verwaltungsservers in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41757829"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+_**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Wenn Sie einen zentralen Verwaltungs Server aus einer vorhandenen lync Server 2013-Bereitstellung wieder verwenden, müssen Sie das unten beschriebene Verfahren ausführen, um sicherzustellen, dass die lync Server-Systemsteuerung und Windows PowerShell ordnungsgemäß funktionieren.
+Wenn Sie einen zentralen Verwaltungs Server aus einer vorhandenen lync Server 2013-Bereitstellung wieder verwenden, müssen Sie das unten beschriebene Verfahren ausführen, um sicherzustellen, dass lync Server-Systemsteuerung und Windows PowerShell ordnungsgemäß funktionieren.
 
 <div>
 
 ## <a name="to-configure-an-existing-central-management-server"></a>So konfigurieren Sie einen vorhandenen zentralen Verwaltungs Server
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Verwenden Sie das Cmdlet **Update-CsAdminRole** , um die rollenbasierten zugriffssteuerungsrollen zu aktualisieren, die auf dem zentralen Verwaltungs Server gespeichert sind.
+2.  Verwenden Sie das Cmdlet **Update-CsAdminRole** , um die rollenbasierten zugriffssteuerungsrollen (Role-Based Access Control, RBAC) zu aktualisieren, die auf dem zentralen Verwaltungs Server gespeichert sind.
     
     <div>
     
 
     > [!NOTE]  
-    > Es wird keine Ausgabe erwartet, es sei denn, es liegt ein Fehler vor.
+    > Es wird keine Ausgabe erwartet, außer es tritt ein Fehler auf.
 
     
     </div>

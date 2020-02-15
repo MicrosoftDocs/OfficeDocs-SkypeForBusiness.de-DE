@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: DNS-Anforderungen für Mobilität'
+title: 'Lync Server 2013: DNS-Anforderungen für die Mobilität'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc11c79c291f7db7ad9e9e3228644ee27d42e555
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0201a9e8870a1b7d8cc579eb270ca67c929cae5d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737385"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029606"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>DNS-Anforderungen für Mobilität mit lync Server 2013
+# <a name="dns-requirements-for-mobility-with-lync-server-2013"></a>DNS-Anforderungen für die Mobilität mit lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41737385"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-13_
+_**Letztes Änderungsstand des Themas:** 2012-11-13_
 
-Wenn Sie das Mobilitätsfeature von lync Server 2013 bereitstellen, können Sie die neuen URLs verwenden, die für den AutoErmittlungsdienst von Microsoft lync Server 2013 verfügbar sind, oder Sie können Ihre vorhandenen URLs für Webdienste verwenden. Wenn Sie Ihre vorhandenen URLs verwenden, müssen die Benutzer die URLs in Ihren Einstellungen für mobile Geräte manuell eingeben. Diese Option wird in der Regel für die Problembehandlung verwendet. Wenn Sie die neuen URLs verwenden, können mobile Clients die lync Server 2013-Ressourcen automatisch ermitteln. Wenn Sie die automatische Ermittlung unterstützen, müssen Sie neue DNS-Einträge (Domain Name System) hinzufügen. In diesem Abschnitt werden die DNS-Einträge beschrieben, die für die automatische Ermittlung erforderlich sind.
+Wenn Sie das lync Server 2013 Mobilitätsfeature bereitstellen, können Sie die neuen URLs verwenden, die mit dem Microsoft lync Server 2013 AutoErmittlungsdienst zur Verfügung stehen, oder Sie können Ihre vorhandenen Webdienste-URLs verwenden. Wenn Sie vorhandene URLs verwenden, müssen Benutzer in den Einstellungen des mobilen Geräts die URLs manuell eingeben. Diese Option wird normalerweise zur Problembehandlung verwendet. Wenn Sie die neuen URLs verwenden, können mobile Clients lync Server 2013 Ressourcen automatisch ermitteln. Wenn Sie die automatische Ermittlung unterstützen möchten, müssen Sie neue DNS-Einträge (Domain Name System) hinzufügen. In diesem Abschnitt werden die DNS-Einträge beschrieben, die für die automatische Ermittlung erforderlich sind.
 
-Zur Unterstützung der automatischen Ermittlung müssen Sie die folgenden DNS-Einträge für jede SIP-Domäne erstellen:
+Zur Unterstützung der AutoErmittlung müssen Sie für jede SIP-Domäne die folgenden DNS-Einträge erstellen:
 
-  - Ein interner DNS-Eintrag zur Unterstützung von mobilen Benutzern, die innerhalb des Netzwerks Ihrer Organisation eine Verbindung herstellen
+  - Einen internen DNS-Eintrag zur Unterstützung mobiler Benutzer, die über das Netzwerk Ihrer Organisation eine Verbindung herstellen
 
-  - Ein externer oder öffentlicher DNS-Eintrag zur Unterstützung von mobilen Benutzern, die eine Verbindung mit dem Internet herstellen
+  - Einen externen oder öffentlichen DNS-Eintrag zur Unterstützung mobiler Benutzer, die eine Verbindung über das Internet herstellen
 
-Die interne automatische Erkennungs-URL sollte nicht von außerhalb Ihres Netzwerks adressierbar sein. Die URL für die externe automatische Suche sollte in Ihrem Netzwerk nicht adressierbar sein. Wenn Sie diese Voraussetzungen für die externe URL nicht erfüllen können, sollte der Mobile Client jedoch nicht beeinträchtigt werden.
+Die interne AutoErmittlung-URL sollte nicht von außerhalb des Netzwerks adressierbar sein. Die externe AutoErmittlung-URL sollte nicht von innerhalb des Netzwerks adressierbar sein. Wenn Sie diese Anforderung für die externe URL nicht erfüllen können, sollte dies allerdings nicht die Funktionen des mobilen Clients beeinträchtigen.
 
-Bei den DNS-Einträgen kann es sich entweder um CNAME-Einträge oder einen (Host-) Eintrag handeln.
+Bei den DNS-Einträgen kann es sich entweder um A-Einträge (Host) oder um CNAME-Einträge handeln.
 
 **Interne DNS-Einträge**
 
@@ -70,13 +70,13 @@ Sie müssen einen der folgenden internen DNS-Einträge erstellen:
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
-<td><p>Interner Webdienste (Fully Qualified Domain Name, FQDN) für Ihren Director-Pool, falls vorhanden, oder für Ihren Front-End-Pool, wenn Sie keinen Director haben</p></td>
+<td><p>"lyncdiscoverinternal". &lt;sipdomain "&gt;</p></td>
+<td><p>Interner Webdienste vollqualifizierter Domänenname (Fully Qualified Domain Name, FQDN) für Ihren Directorpool, wenn Sie einen haben, oder für Ihre Front-End-Pool, wenn Sie keinen Director haben</p></td>
 </tr>
 <tr class="even">
 <td><p>A (Host)</p></td>
-<td><p>lyncdiscoverinternal. &lt;sipdomain&gt;</p></td>
-<td><p>Interne Web Services-IP-Adresse (virtuelle IP-Adresse (VIP-Adresse), wenn Sie ein Lastenausgleichsmodul verwenden) Ihres Director-Pools, falls vorhanden, oder des Front-End-Pools, wenn Sie keinen Director haben</p></td>
+<td><p>"lyncdiscoverinternal". &lt;sipdomain "&gt;</p></td>
+<td><p>Interne Webdienste IP-Adresse (virtuelle IP-Adresse (VIP), wenn Sie einen Lastenausgleich verwenden) Ihres Directorpool, wenn Sie einen haben, oder Ihrer Front-End-Pool, wenn Sie keinen Director haben</p></td>
 </tr>
 </tbody>
 </table>
@@ -103,23 +103,23 @@ Sie müssen einen der folgenden externen DNS-Einträge erstellen:
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscover. &lt;sipdomain&gt;</p></td>
-<td><p>FQDN externer Webdienste für Ihren Director-Pool, falls vorhanden, oder für Ihren Front-End-Pool, wenn Sie keinen Director haben</p></td>
+<td><p>lyncdiscover. &lt;sipdomain "&gt;</p></td>
+<td><p>Externer Webdienste FQDN für Ihren Directorpool, wenn Sie einen haben, oder für Ihre Front-End-Pool, wenn Sie keinen Director haben</p></td>
 </tr>
 <tr class="even">
 <td><p>A (Host)</p></td>
-<td><p>lyncdiscover. &lt;sipdomain&gt;</p></td>
-<td><p>Externe oder öffentliche IP-Adresse (VIP-Adresse, wenn Sie ein Lastenausgleichsmodul verwenden) des Reverse-Proxys</p></td>
+<td><p>lyncdiscover. &lt;sipdomain "&gt;</p></td>
+<td><p>Externe oder öffentliche IP-Adresse (VIP-Adresse bei Verwendung eines Lastenausgleichs) des Reverseproxys</p></td>
 </tr>
 <tr class="odd">
 <td><p>SRV</p></td>
-<td><p>_sipfederationtls._tcp. &lt;sipdomain&gt;</p>
-<p>Behebt einen Host-Eintrag (A oder AAAA) für den Access-Edgedienst</p></td>
-<td><p>Um den Push-Benachrichtigungsdienst und den Apple Push-Benachrichtigungsdienst zu unterstützen, erstellen Sie für jede SIP-Domäne mit Microsoft lync Mobile-Clients einen SRV-Eintrag.</p>
+<td><p>_sipfederationtls. _tcp. &lt;sipdomain "&gt;</p>
+<p>Aufgelöst in Hosteintrag (a oder AAAA) für den Zugriffs-Edgedienst</p></td>
+<td><p>Zur Unterstützung von Push Notification Service und Apple Push Notification Service erstellen Sie einen SRV-Eintrag für jede SIP-Domäne mit Microsoft lync Mobile-Clients.</p>
 <div>
 
 > [!IMPORTANT]  
-> Diese Anforderung gilt nur für Microsoft lync Mobile-Clients auf mobilen Apple-oder Microsoft-basierten Geräten. Android und Nokia Symbian-Geräte verwenden keine Push-Benachrichtigung.
+> Diese Anforderung gilt nur für Microsoft lync Mobile-Clients auf Apple-oder Microsoft-basierten mobilen Geräten. Android- und Nokia Symbian-Geräte verwenden die Pushbenachrichtigung nicht.
 
 
 </div></td>
@@ -132,7 +132,7 @@ Sie müssen einen der folgenden externen DNS-Einträge erstellen:
 
 
 > [!NOTE]  
-> Lyncdiscover, auch als AutoErmittlung bekannt, verkehrt durch den Reverseproxy. Der SRV-Eintrag verweist auf einen Datensatz, der über den Access-Edgedienst aufgelöst wird.
+> Lyncdiscover, auch bekannt als AutoErmittlung, Verkehr durchläuft den Reverseproxy. Der SRV-Eintrag verweist auf einen Datensatz, der durch den Zugriffs-Edgedienst aufgelöst wird.
 
 
 

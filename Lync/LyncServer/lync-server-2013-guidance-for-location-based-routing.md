@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anleitungen für das standortbasierte Routing'
+title: 'Lync Server 2013: Leitfaden für standortbasiertes Routing'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803985
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a61478fcfffd182517a1045b041c51abb5efe7e0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5e419b448145927dd712ba41fca562a021c49174
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757539"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030348"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="guidance-for-location-based-routing-in-lync-server-2013"></a>Anleitungen für das standortbasierte Routing in Lync Server 2013
+# <a name="guidance-for-location-based-routing-in-lync-server-2013"></a>Leitfaden für standortbasiertes Routing in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757539"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+_**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Standortbasiertes Routing kann je nach Situation am Endpunkt des Benutzers oder am Standort des Netzwerkstandorts des PSTN-Gateways angewendet werden. In diesem Thema finden Sie Anleitungen zur Anwendung des standortbasierten Routings.
+Standortbasiertes Routing je nach Situation kann am Endpunkt Netzwerkstandort des Benutzers oder am Standort des Netzwerkstandorts des PSTN-Gateways angewendet werden. Dieses Thema enthält Anleitungen zur Anwendung des standortbasierten Routings.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Standort des Benutzers in Lync Server 2013](lync-server-2013-user-s-location.md)
+  - [Speicherort des Benutzers in lync Server 2013](lync-server-2013-user-s-location.md)
 
-  - [Standort eines PSTN-Gateways in Lync Server 2013](lync-server-2013-pstn-gateway-s-location.md)
+  - [Standort des PSTN-Gateways in lync Server 2013](lync-server-2013-pstn-gateway-s-location.md)
 
 </div>
 
@@ -54,7 +54,7 @@ Standortbasiertes Routing kann je nach Situation am Endpunkt des Benutzers oder 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planung des standortbasierten Routings in Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Planen des standortbasierten Routings in lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Entfernen eines Front-End-Pools oder Standard Edition-Servers
+title: Entfernen von Front-End-Pool oder Standard Edition-Server
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733713
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8628f883285eec61a179c27d5dfda16b8c9b51d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f866af74117547c279955747c5c3398369465a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727175"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008921"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-front-end-pool-or-standard-edition-server"></a>Entfernen eines Front-End-Pools oder Standard Edition-Servers
+# <a name="remove-front-end-pool-or-standard-edition-server"></a>Entfernen von Front-End-Pool oder Standard Edition-Server
 
 </div>
 
@@ -35,46 +35,46 @@ ms.locfileid: "41727175"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-04_
+_**Letztes Änderungsstand des Themas:** 2012-10-04_
 
-Dieses Thema führt Sie durch den Vorgang zum Entfernen eines Front-End-Pools oder eines Front-End-Servers der Standard Edition. Wenn Sie einen Front-End-Pool entfernen, entfernen Sie jeden Front-End-Server, der zum Pool gehört, als Teil des Prozesses zum Entfernen des Pools. Wenn Sie einen Standard Edition-Front-End-Server entfernen, müssen Sie die SQL Store-Definition aus dem Topology Builder entfernen.
+In diesem Thema werden Sie durch den Vorgang zum Entfernen einer Front-End-Pool oder einer Standard Edition Front-End-Server geführt. Wenn Sie ein Front-End-Pool entfernen, entfernen Sie alle Front-End-Server, die zum Pool gehören, als Teil des Prozesses zur Pool Entfernung. Wenn Sie eine Standard Edition-Front-End-Server entfernen, müssen Sie die SQL-speicherdefinition aus dem Topologie-Generator entfernen.
 
 <div>
 
-## <a name="to-remove-a-front-end-server-pool"></a>So entfernen Sie einen Front-End-Server Pool
+## <a name="to-remove-a-front-end-server-pool"></a>So entfernen Sie einen Front-End-Server-Pool
 
 1.  Öffnen Sie den Topologie-Generator.
 
-2.  Navigieren Sie zum lync Server 2010-Knoten.
+2.  Navigieren Sie zum Knoten lync Server 2010.
 
-3.  Erweitern Sie **Enterprise Edition-Front-End-Pools**, erweitern Sie den Front-End-Pool, klicken Sie mit der rechten Maustaste auf den zu entfernenden Frontend-Pool, und klicken Sie dann auf **Löschen**.
+3.  Erweitern Sie **Enterprise Edition-Front-End-Pools**, erweitern Sie die Front-End-Pool, klicken Sie mit der rechten Maustaste auf das Front-End-Pool, das Sie entfernen möchten, und klicken Sie dann auf **Löschen**.
 
-4.  Veröffentlichen Sie die Topologie, überprüfen Sie den Replikationsstatus, und führen Sie dann den lync Server-Bereitstellungs-Assistenten nach Bedarf aus.
+4.  Veröffentlichen Sie die Topologie, überprüfen Sie den Replikationsstatus, und führen Sie dann den Assistenten für die lync Server-Bereitstellung bei Bedarf aus.
 
 </div>
 
 <div>
 
-## <a name="to-remove-a-standard-edition-front-end-server"></a>So entfernen Sie einen Front-End-Server der Standard Edition
+## <a name="to-remove-a-standard-edition-front-end-server"></a>So entfernen Sie einen Standard Edition-Front-End-Server
 
 1.  Öffnen Sie den Topologie-Generator.
 
-2.  Navigieren Sie zum lync Server 2010-Knoten.
+2.  Navigieren Sie zum Knoten lync Server 2010.
 
-3.  Erweitern Sie die **Standard Edition-Front-End-Server**, klicken Sie mit der rechten Maustaste auf den Front-End-Server, den Sie entfernen möchten, und klicken Sie dann auf **Löschen**.
+3.  Erweitern Sie **Standard Edition-Front-End-Server**, klicken Sie mit der rechten Maustaste auf den Front-End-Server, den Sie entfernen möchten, und klicken Sie dann auf **Löschen**.
 
-4.  Erweitern Sie **SQL Stores**, klicken Sie mit der rechten Maustaste auf die SQL Server-Datenbank, die dem Front-End-Server der Standard Edition zugeordnet ist, und klicken Sie dann auf **Löschen**.
+4.  Erweitern Sie **SQL-Speicher**, klicken Sie mit der rechten Maustaste auf die SQL Server Datenbank, die der Standard Edition Front-End-Server zugeordnet ist, und klicken Sie dann auf **Löschen**.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Sie müssen die Definition der SQL Server-Datenbanken vom Standard Edition-Front-End-Server entfernen.
+    > Sie müssen die Definition der verbundenen SQL Server Datenbanken aus der Standard Edition Front-End-Server entfernen.
 
     
     </div>
 
-5.  Veröffentlichen Sie die Topologie, überprüfen Sie den Replikationsstatus, und führen Sie dann den lync Server-Bereitstellungs-Assistenten nach Bedarf aus.
+5.  Veröffentlichen Sie die Topologie, überprüfen Sie den Replikationsstatus, und führen Sie dann den Assistenten für die lync Server-Bereitstellung bei Bedarf aus.
 
 </div>
 

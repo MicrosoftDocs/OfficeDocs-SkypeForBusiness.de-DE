@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anforderungen an das Hardwaregerät zum Lastenausgleich'
+title: Lync Server 2013 Anforderungen an das Hardwaregerät zum Lastenausgleich
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85ed4195d80ecc755faea74ddedb790c9f41ebfb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c89c600c822bc4e830bf60ed8131f747172018e2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727905"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030318"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Anforderungen an das Hardwaregerät zum Lastenausgleich für Lync Server 2013
+# <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Anforderungen an das Hardware Gerät zum Lastenausgleich für lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41727905"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-05-11_
+_**Letztes Änderungsstand des Themas:** 2015-05-11_
 
-Die von lync Server 2013 skalierte konsolidierte Edge-Topologie ist für den DNS-Lastenausgleich für neue Bereitstellungen optimiert, die in erster Linie mit anderen Organisationen, die lync Server verwenden, verbündet sind. Wenn für eines der folgenden Szenarien eine hohe Verfügbarkeit erforderlich ist, muss ein Hardware-Lastenausgleichsmodul für Edge-Server-Pools verwendet werden, um Folgendes zu tun:
+Die lync Server 2013 skalierte konsolidierte Edge-Topologie ist für den DNS-Lastenausgleich für neue Bereitstellungen, die hauptsächlich mit anderen Organisationen mit lync Server zusammenfassen, optimiert. Wenn für eines der folgenden Szenarien hohe Verfügbarkeit erforderlich ist, muss ein Hardwaregerät zum Lastenausgleich in Edgeserver Pools für Folgendes verwendet werden:
 
-  - Föderation mit Organisationen, die Office Communications Server 2007 R2 oder Office Communications Server 2007 verwenden
+  - Partnerverbund mit Organisationen, die Office Communications Server 2007 R2 oder Office Communications Server 2007 verwenden
 
-  - Exchange um für Remotebenutzer mit Exchange um vor Exchange 2010 mit SP1
+  - Exchange um für Remotebenutzer, die Exchange um vor dem Exchange 2010 mit SP1 verwenden
 
   - Verbindung mit Benutzern öffentlicher Chatdienste
 
@@ -49,7 +49,7 @@ Die von lync Server 2013 skalierte konsolidierte Edge-Topologie ist für den DNS
 
 
 > [!IMPORTANT]  
-> Das Verfahren, für eine Schnittstelle den DNS-Lastenausgleich und für eine andere Schnittstelle ein Hardwaregerät zum Lastenausgleich zu verwenden, wird nicht unterstützt. Sie müssen entweder für beide Schnittstellen ein Hardwaregerät zum Lastenausgleich oder für beide Schnittstellen den DNS-Lastenausgleich verwenden.
+> Es wird nicht unterstützt, für eine Schnittstelle den DNS-Lastenausgleich und für eine andere Schnittstelle ein Hardwaregerät zum Lastenausgleich zu verwenden. Sie müssen entweder für beide Schnittstellen ein Hardwaregerät zum Lastenausgleich oder für beide Schnittstellen den DNS-Lastenausgleich verwenden.
 
 
 
@@ -69,19 +69,19 @@ Die von lync Server 2013 skalierte konsolidierte Edge-Topologie ist für den DNS
 
 
 > [!NOTE]  
-> Die direkte Server Rückgabe (DSR)-NAT wird von lync Server 2013 nicht unterstützt.
+> Die DSR-NAT (Direct Server Return) wird von lync Server 2013 nicht unterstützt.
 
 
 
 </div>
 
-Wenn Sie feststellen möchten, ob Ihr Hardwarelastenausgleich die erforderlichen Features unterstützt, die von lync Server 2013 benötigt werden, lesen Sie " [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)lync Server 2010 Load Balancer Partners" unter.
+Informationen zum ermitteln, ob Ihr Hardwaregerät zum Lastenausgleich die für lync Server 2013 erforderlichen Features unterstützt, finden Sie unter " [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)lync Server 2010 Lastenausgleichs Partner" unter.
 
 <div>
 
 ## <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a>Anforderungen bei Verwendung eines Hardwaregeräts zum Lastenausgleich für Edgeserver, auf denen der A/V-Edgedienst ausgeführt wird
 
-Im folgenden finden Sie die Anforderungen des Hardwarelastenausgleichs für Edgeserver, auf denen der A/V-Edgedienst ausgeführt wird:
+Im folgenden finden Sie die Hardwareanforderungen für den Lastenausgleich für Edgeserver mit dem A/V-Edgedienst:
 
   - Deaktivieren Sie den Nagle-Algorithmus für TCP sowohl für den internen als auch für den externen Port 443. Mit diesem Algorithmus werden mehrere kleine Pakete für eine effizientere Übermittlung zu einem einzigen, größeren Paket zusammengefasst.
 
@@ -89,9 +89,9 @@ Im folgenden finden Sie die Anforderungen des Hardwarelastenausgleichs für Edge
 
   - Verwenden Sie keine Netzwerkadressenübersetzung für die interne oder externe Firewall.
 
-  - Die interne Schnittstelle für Edge muss sich in einem anderen Netzwerk befinden als die externe Schnittstelle des Edge-Servers, und das Routing zwischen diesen muss deaktiviert sein.
+  - Die interne Edge-Schnittstelle muss sich in einem anderen Netzwerk befinden als die Edgeserver externe Schnittstelle und das Routing zwischen diesen muss deaktiviert sein.
 
-  - Die externe Schnittstelle des Edgeserver, auf dem der A/V-Edgedienst ausgeführt wird, muss öffentlich routingfähige IP-Adressen und keine NAT-oder Portübersetzung für beliebige externe IP-Adressen verwenden.
+  - Die externe Schnittstelle des Edgeserver, auf dem der A/V-Edgedienst verwendet wird, muss öffentlich routingfähige IP-Adressen und keine NAT-oder Portübersetzung für eine externe IP-Adresse der Edge verwenden.
 
 </div>
 
@@ -99,13 +99,13 @@ Im folgenden finden Sie die Anforderungen des Hardwarelastenausgleichs für Edge
 
 ## <a name="hardware-load-balancer-requirements"></a>Anforderungen an das Hardwaregerät zum Lastenausgleich
 
-Cookie-basierte Affinitäts Anforderungen werden in lync Server 2013 für Webdienste stark reduziert. Wenn Sie lync Server 2013 bereitstellen und keine lync Server 2010-Front-End-Server oder Front-End-Pools beibehalten, benötigen Sie keine Cookie-basierte Persistenz. Wenn Sie jedoch vorübergehend oder dauerhaft alle lync Server 2010-Front-End-Server oder Front-End-Pools behalten, verwenden Sie weiterhin Cookie-basierte Persistenz, während Sie für lync Server 2010 bereitgestellt und konfiguriert werden.
+Die Anforderungen an die Cookie-basierte Affinität werden in lync Server 2013 für Webdienste stark reduziert. Wenn Sie lync Server 2013 bereitstellen und keine lync Server 2010-Front-End-Server oder Front-End-Pools beibehalten, benötigen Sie keine Cookie-basierte Persistenz. Wenn Sie jedoch lync Server 2010-Front-End-Server oder Front-End-Pools vorübergehend oder dauerhaft beibehalten, verwenden Sie weiterhin Cookie-basierte Persistenz, da Sie für lync Server 2010 bereitgestellt und konfiguriert wird.
 
 <div>
 
 
 > [!NOTE]  
-> <STRONG>Wenn Sie sich entscheiden, die cookiebasierte Persistenz zu verwenden, obwohl dies für Ihre</STRONG>-Bereitstellung nicht erforderlich ist, hat dies keine negative Auswirkung.
+> <STRONG>Wenn Sie sich entscheiden, die cookiebasierte Persistenz zu verwenden, obwohl dies für Ihre </STRONG>-Bereitstellung nicht erforderlich ist, hat dies keine negative Auswirkung.
 
 
 
@@ -113,13 +113,13 @@ Cookie-basierte Affinitäts Anforderungen werden in lync Server 2013 für Webdie
 
 Für Bereitstellungen, in denen die cookiebasierte Affinität **nicht verwendet** wird:
 
-  - Legen Sie für die Veröffentlichungsregel des Reverseproxys für Port 4443 **Forward host header** auf „True“ fest. Dadurch wird sichergestellt, dass die ursprüngliche URL weitergeleitet wird.
+  - Legen Sie in der Reverseproxy-Veröffentlichungsregel für Port 4443 **Forward Hostheader** auf true fest. Dadurch wird sichergestellt, dass die ursprüngliche URL weitergeleitet wird.
 
 Für Bereitstellungen, in denen die cookiebasierte Affinität **verwendet** wird:
 
-  - Legen Sie für die Veröffentlichungsregel des Reverseproxys für Port 4443 **Forward host header** auf „True“ fest. Dadurch wird sichergestellt, dass die ursprüngliche URL weitergeleitet wird.
+  - Legen Sie in der Reverseproxy-Veröffentlichungsregel für Port 4443 **Forward Hostheader** auf true fest. Dadurch wird sichergestellt, dass die ursprüngliche URL weitergeleitet wird.
 
-  - Das Cookie für das Hardwaregerät zum Lastenausgleich DARF NICHT als „httpOnly“ gekennzeichnet sein.
+  - Das Cookie für das Hardwaregerät zum Lastenausgleich DARF NICHT als "httpOnly" gekennzeichnet sein.
 
   - Das Cookie für das Hardwaregerät zum Lastenausgleich DARF KEINE Ablaufzeit haben.
 
@@ -131,7 +131,7 @@ Für Bereitstellungen, in denen die cookiebasierte Affinität **verwendet** wird
 
 
 > [!NOTE]  
-> Typische Hardware-Lastenausgleichsmodul-Konfigurationen verwenden eine Quell Adress Affinität und eine 20-minütige TCP-Sitzungslebensdauer, was für lync Server-und lync 2013-Clients in Ordnung ist, da der Sitzungszustand über die Clientnutzung und/oder die Anwendungs Interaktion verwaltet wird.
+> Typische Hardware Lastenausgleichskonfigurationen verwenden die Quell Adress Affinität und eine 20-minütige TCP-Sitzungslebensdauer, was für lync Server-und lync 2013-Clients in Ordnung ist, da der Sitzungsstatus über die Clientnutzung und/oder die Anwendungs Interaktion verwaltet wird.
 
 
 
@@ -143,7 +143,7 @@ Wenn Sie mobile Geräte bereitstellen, muss das Hardwaregerät zum Lastenausglei
 
 
 > [!WARNING]  
-> F5-Hardwaregeräte zum Lastenausgleich sind mit einer Funktion namens OneConnect ausgestattet, mit der sichergestellt wird, dass für jede Anforderung in einer TCP-Verbindung ein individueller Lastenausgleich vorgenommen wird. Wenn Sie mobile Geräte bereitstellen, stellen Sie sicher, dass der Hersteller des Hardwaregeräts für den Lastenausgleich dieselbe Funktion unterstützt. Für die neuesten mobilen Apps für Apple iOS ist Transport Layer Security (TLS) Version 1.2 erforderlich. F5 stellt hierfür bestimmte Einstellungen bereit.<BR>Details zu Lastenausgleichsgeräten von Drittanbietern finden Sie unter<A href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</A>
+> F5-Hardwaregeräte zum Lastenausgleich sind mit einem Feature namens OneConnect ausgestattet, mit dem sichergestellt wird, dass für jede Anforderung in einer TCP-Verbindung ein individueller Lastenausgleich vorgenommen wird. Wenn Sie mobile Geräte bereitstellen, stellen Sie sicher, dass der Hersteller des Hardwaregeräts für den Lastenausgleich dieselbe Funktion unterstützt). Für die neuesten mobilen Apps für Apple iOS ist Transport Layer Security (TLS) Version 1.2 erforderlich. F5 stellt hierfür bestimmte Einstellungen bereit.<BR>Ausführliche Informationen zu Lastenausgleichsgeräten von Drittanbietern finden Sie unter<A href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</A>
 
 
 
@@ -151,7 +151,7 @@ Wenn Sie mobile Geräte bereitstellen, muss das Hardwaregerät zum Lastenausglei
 
 Im Folgenden sind die Anforderungen bei Verwendung eines Hardwaregeräts zum Lastenausgleich für Director- und Front-End-Pool-Webdienste aufgeführt:
 
-  - Legen Sie für interne Webdienste VIPs\_die Quell-addr-Persistenz (interner Port 80, 443) auf dem Hardware-Lastenausgleichsmodul ab. Bei lync Server 2013 bedeutet "\_Quell-addr-Persistenz", dass mehrere Verbindungen, die von einer einzelnen IP-Adresse stammen, immer an einen Server gesendet werden, um den Sitzungszustand beizubehalten.
+  - Für interne Webdienste VIPs legen Sie die\_Quell-addr-Persistenz (interner Port 80, 443) auf dem Hardwaregerät zum Lastenausgleich fest. Für lync Server 2013 bedeutet die\_Quell-addr-Persistenz, dass mehrere Verbindungen, die von einer einzelnen IP-Adresse stammen, immer an einen Server gesendet werden, um den Sitzungsstatus beizubehalten.
 
   - Legen Sie ein TCP-Leerlauftimeout von 1.800 Sekunden fest.
 
@@ -161,7 +161,7 @@ Im Folgenden sind die Anforderungen bei Verwendung eines Hardwaregeräts zum Las
 
 
 > [!IMPORTANT]  
-> Weitere Informationen zur Konfiguration des Hardwarelastenausgleichs finden Sie unter <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Port Zusammenfassung – skalierter konsolidierter Edge mit Hardwarelastenausgleichs in lync Server 2013</A>.
+> Weitere Informationen zur Konfiguration des Hardwaregerät zum Lastenausgleich finden Sie unter <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Port Summary – skalierter konsolidierter Edgeserver mit Hardwarelastenausgleichs in lync Server 2013</A>.
 
 
 
@@ -216,9 +216,9 @@ Im Folgenden sind die Anforderungen bei Verwendung eines Hardwaregeräts zum Las
 
 ## <a name="port-monitoring-for-hardware-load-balancers"></a>Portüberwachung für Hardwaregeräte zum Lastenausgleich
 
-Sie definieren die Portüberwachung für Hardwaregeräte zum Lastenausgleich (Hardware Load Balancers, HLB), um festzustellen, wann bestimmte Dienste aufgrund von Hardware- oder Kommunikationsfehlern nicht mehr verfügbar sind. Wenn beispielsweise der Front-End-Server Dienst (RTCSRV) angehalten wird, weil der Front-End-Server oder der Front-End-Pool fehlschlägt, sollte die HLB-Überwachung auch den Empfang von Datenverkehr über die Webdienste beenden. Sie können die HLB-Portüberwachung implementieren, um Folgendes zu überwachen:
+Sie definieren die Portüberwachung für Hardwaregeräte zum Lastenausgleich (Hardware Load Balancers, HLB), um festzustellen, wann bestimmte Dienste aufgrund von Hardware- oder Kommunikationsfehlern nicht mehr verfügbar sind. Wenn beispielsweise der Front-End-Server Dienst (RTCSRV) angehalten wird, da die Front-End-Server oder Front-End-Pool fehlschlägt, sollte die HLB-Überwachung auch den Empfang von Datenverkehr auf dem Webdienste beenden. Sie können die HLB-Portüberwachung implementieren, um Folgendes zu überwachen:
 
-### <a name="front-end-server-user-pool--hlb-internal-interface"></a>Front-End-Server-Benutzer Pool – HLB-interne Schnittstelle
+### <a name="front-end-server-user-pool--hlb-internal-interface"></a>Front-End-Server Benutzer Pool – interne HLB-Schnittstelle
 
 <table>
 <colgroup>
@@ -239,28 +239,28 @@ Sie definieren die Portüberwachung für Hardwaregeräte zum Lastenausgleich (Ha
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;Pool&gt;Web-int_mco_443_vs</p>
+<td><p>&lt;Pool&gt;-int_mco_443_vs</p>
 <p>443</p></td>
 <td><p>443</p></td>
-<td><p>Front-End</p>
+<td><p>Front-End-</p>
 <p>5061</p></td>
-<td><p>Quelle</p></td>
+<td><p>Source</p></td>
 <td><p>HTTPS</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;Pool&gt;Web-int_mco_80_vs</p>
+<td><p>&lt;Pool&gt;-int_mco_80_vs</p>
 <p>80</p></td>
 <td><p>80</p></td>
-<td><p>Front-End</p>
+<td><p>Front-End-</p>
 <p>5061</p></td>
-<td><p>Quelle</p></td>
+<td><p>Source</p></td>
 <td><p>HTTP</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="front-end-server-user-pool--hlb-external-interface"></a>Front-End-Server-Benutzer Pool – HLB-externe Schnittstelle
+### <a name="front-end-server-user-pool--hlb-external-interface"></a>Front-End-Server Benutzer Pool – externe HLB-Schnittstelle
 
 <table>
 <colgroup>
@@ -284,7 +284,7 @@ Sie definieren die Portüberwachung für Hardwaregeräte zum Lastenausgleich (Ha
 <td><p>&lt;Pool&gt;web_mco_443_vs</p>
 <p>443</p></td>
 <td><p>4443</p></td>
-<td><p>Front-End</p>
+<td><p>Front-End-</p>
 <p>5061</p></td>
 <td><p>Keine</p></td>
 <td><p>HTTPS</p></td>
@@ -293,7 +293,7 @@ Sie definieren die Portüberwachung für Hardwaregeräte zum Lastenausgleich (Ha
 <td><p>&lt;Pool&gt;web_mco_80_vs</p>
 <p>80</p></td>
 <td><p>8080</p></td>
-<td><p>Front-End</p>
+<td><p>Front-End-</p>
 <p>5061</p></td>
 <td><p>Keine</p></td>
 <td><p>HTTP</p></td>

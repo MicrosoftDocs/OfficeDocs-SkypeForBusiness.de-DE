@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konferenzen'
+title: Lync Server 2013 Konferenzen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184274
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e92f14a9f23617c55f1c09abc4daf29b5849b3bb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dafb39a741ac26fc6edad6362ad10f2a6c244c64
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741405"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028806"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conferencing-in-lync-server-2013"></a>Konferenzen in Lync Server 2013
+# <a name="conferencing-in-lync-server-2013"></a>Konferenzen in lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41741405"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-11_
+_**Letztes Änderungsstand des Themas:** 2012-09-11_
 
-Mit Unified Conferencing in lync Server 2013 können Benutzer zusammenarbeiten, Informationen austauschen und ihre Bemühungen in Echtzeit koordinieren. Alle Ihre Benutzer können die gesamte Bandbreite an spontaner Zusammenarbeit, geplanten Besprechungen und Besprechungstools verwenden. Funktionen für Sprach-und Videokonferenzen können von jedem Ort mit einer Internet Verbindung verwendet werden, und Benutzer, die sich nicht an einem Computer befinden, können an Audiokonferenzen teilnehmen, indem Sie sich mit einem PSTN-Telefon (Public Switched Telephone Network) einwählen.
+Mit einheitlichen Konferenzen in lync Server 2013 können Benutzer zusammenarbeiten, Informationen austauschen und ihre Bemühungen in Echtzeit koordinieren. Alle Benutzer können die vollständige Bandbreite der Funktionen zur spontanen Zusammenarbeit und zu geplanten Besprechungen sowie die Besprechungstools nutzen. VoIP- und Videokonferenzfunktionen können an jedem Ort mit Internetverbindung eingesetzt werden, und Benutzer, denen kein Computer zur Verfügung steht, können durch Einwahl über ein Festnetztelefon (PSTN) an Audiokonferenzen teilnehmen.
 
-In Outlook integrierte Besprechungstools ermöglichen es den Organisatoren, eine Besprechung zu planen oder eine spontane Konferenz mit nur einem Mausklick zu starten, und es ist auch für Teilnehmer genauso einfach, teilzunehmen. Ein WebClient erweitert Rich-Konferenzfeatures auf Teilnehmer, die nicht die Desktop Version von lync ausführen.
+In Outlook integrierte Besprechungstools ermöglichen Organisatoren das Planen einer Besprechung oder das Starten einer spontanen Konferenz mit einem einzigen Mausklick und machen es den Teilnehmern ebenso leicht, sich anzuschließen. Ein WebClient erweitert umfangreiche Konferenzfunktionen auf Teilnehmer, die nicht die Desktop Version von lync betreiben.
 
 <div>
 
 ## <a name="audio-and-video-conferencing"></a>Audio- und Videokonferenzen
 
-Lync Server bietet eine Benutzeroberfläche, die für die Benutzer herkömmlicher Audio Bridge-Dienste wie PSTN-Einwahldienste mit Befehlen zur Anrufsteuerung mit Tonwahl vertraut ist. Gleichzeitig beinhaltet Sie leistungsfähige Planungs-, Verbindungs-und Verwaltungsfunktionen, die nur mit einer integrierten Unified Communications-Plattform zur Verfügung stehen.
+Lync Server bietet eine Benutzeroberfläche, die Benutzern herkömmlicher Audio Bridge-Dienste vertraut ist, einschließlich PSTN-Einwahl Diensten mit Tonwahlbefehlen für die Anrufsteuerung. Gleichzeitig sind leistungsfähige Planungs-, Teilnahme- und Verwaltungsfunktionen integriert, die nur mit einer integrierten Unified Communications-Plattform verfügbar sind.
 
-Mit nur einem Mausklick können Benutzer eine Besprechung aus Outlook planen. Details wie Besprechungszeit, Ort und Teilnehmer folgen der vertrauten Outlook-Vorlage. Darüber hinaus werden Konferenzanruf spezifische Informationen wie Einwahlnummer, Besprechungs-IDs und PIN-Erinnerung (persönliche Identifikationsnummer) automatisch ausgefüllt.
+Mit einem einzigen Mausklick können Benutzer eine Besprechung in Outlook planen. Details wie Besprechungszeit, Ort und Teilnehmer befolge die vertraute Outlook-Vorlage. Außerdem werden zum Konferenzanruf gehörende Informationen (z. B. die Einwahlnummer, Besprechungs-IDs und PIN-Erinnerungen (Personal Identification Number)) automatisch mit Daten aufgefüllt.
 
-Um sicherzustellen, dass nur autorisierte Personen an einem Anruf teilnehmen, bietet lync Server mehrere Authentifizierungsstufen für Teilnehmer. Benutzer, die mit lync teilnehmen, werden bereits von den Active Directory-Domänendiensten authentifiziert und müssen keine PIN, keinen Passcode oder keine Besprechungs-ID eingeben.
+Um sicherzustellen, dass nur die autorisierten Personen an einem Anruf teilnehmen, bietet lync Server mehrere Authentifizierungsstufen für Teilnehmer an. Benutzer, die sich mit lync anmelden, werden bereits vom Active Directory-Domänendienste authentifiziert und müssen keine PIN, keinen Passcode oder keine Besprechungs-ID eingeben.
 
-Lync vereinfacht die Videokonferenz-Benutzererfahrung, indem es Video in den Unified Client einbindet, damit die Planung einer Besprechung mit Video oder die spontane Weiterleitung an Videos nahtlos und einfach ist.
+Lync vereinfacht die Benutzeroberfläche für Videokonferenzen, indem Video in den Unified Client integriert wird, sodass das Planen einer Besprechung mit Video oder die spontane Weiterleitung an Video nahtlos und einfach ist.
 
-Mit lync Server ist es einfach, mit nur einem Mausklick Video zu einem Standard-Telefonanruf hinzuzufügen. Wenn in einem Videoanruf oder einer Konferenz mehrere Teilnehmer vorhanden sind, kann jeder Benutzer Video von bis zu fünf anderen Benutzern gleichzeitig sehen, oder ein Referent kann nur eine Videoquelle auswählen, die nur von jedem angezeigt werden soll.
+Lync Server vereinfacht das Hinzufügen von Videos zu einem Standardtelefon Anruf mit nur einem Mausklick. Wenn es mehrere Teilnehmer bei einem Videoanruf oder einer Videokonferenz gibt, kann jeder Benutzer bis zu fünf andere Teilnehmer sehen, oder ein Referent legt eine einzige Videoquelle fest, die allen anderen Teilnehmern eingeblendet werden soll.
 
-HD-Video (Auflösung 1270 x 720; Seitenverhältnis 16:9) und VGA-Video (Auflösung 640 x 480; Seitenverhältnis 4:3) werden für Peer-to-Peer-Anrufe zwischen Benutzern unterstützt, die lync auf Highend-Computern ausführen. Die Auflösung, die von jedem Teilnehmer in einer einzelnen Unterhaltung angezeigt wird, kann je nach den Videofunktionen der jeweiligen Hardware des Benutzers unterschiedlich sein.
+High-Definition-Video (Auflösung 1270 x 720; Seitenverhältnis 16:9) und VGA-Video (Auflösung 640 x 480; Seitenverhältnis 4:3) werden für Peer-zu-Peer-Anrufe zwischen Benutzern unterstützt, die lync auf High-End-Computern betreiben. Jedem Teilnehmer kann das Bild in einer anderen Auflösung angezeigt werden, je nach der Leistungsfähigkeit seiner Videohardware.
 
-IT-Administratoren können abhängig von der Computerfunktion, der Netzwerkbandbreite und dem vorhanden sein einer Kamera, die die erforderliche Auflösung liefern kann, Richtlinien festlegen, um HD-oder VGA-Video auf Clients zu beschränken oder zu deaktivieren. Diese Richtlinien werden durch die in-Band-Bereitstellung erzwungen.
+IT-Administratoren können Richtlinien festlegen, um High-Definition- oder VGA-Video auf Clients einzuschränken und zu deaktivieren. Dabei spielen die Computerfunktionen, die Netzwerkbandbreite und das Vorhandensein einer Kamera, die die gewünschte Auflösung bieten kann, eine Rolle. Diese Richtlinien werden durch eine In-Band-Bereitstellung durchgesetzt.
 
 </div>
 
@@ -65,13 +65,13 @@ IT-Administratoren können abhängig von der Computerfunktion, der Netzwerkbandb
 
 ## <a name="web-conferencing"></a>Webkonferenzen
 
-Lync Server integriert Konferenz Freigabefeatures wie Desktop, Anwendung, Anlage, Whiteboard, Poll und PowerPoint in die optimierte lync-Version. In Kombination mit Audio-oder Videokonferenzen entsteht eine äußerst immersive und kollaborative Sitzung, die einfach zu vereinfachen ist.
+Lync Server integriert Features für die Konferenz Freigabe wie Desktop, Anwendung, Anlage, Whiteboard, Poll und PowerPoint in das optimierte lync. Zusammen mit Audio- und Videokonferenzfunktionen bietet dies Möglichkeiten zu einer optimalen Zusammenarbeit.
 
-Zur Verbesserung der allgemeinen Benutzerfreundlichkeit von Benutzern, die PowerPoint-Präsentationen präsentieren oder anzeigen, verwendet lync Server 2013 Office Web Apps zur Behandlung von PowerPoint-Präsentationen. Benutzer können ein Bild freigeben oder Text mithilfe eines Whiteboards in der lync-Besprechung kopieren und einfügen. Referenten können Umfragen in der lync-Besprechung durchführen, um Feedback von den Teilnehmern anzufordern.
+Um die Gesamterfahrung von Benutzern zu verbessern, die PowerPoint-Präsentationen präsentieren oder anzeigen, verwendet lync Server 2013 Office-Webanwendungen zur Behandlung von PowerPoint-Präsentationen. Benutzer können ein Bild freigeben oder Text mithilfe eines Whiteboards in der lync-Besprechung kopieren und einfügen. Referenten können Umfragen in der lync-Besprechung durchführen, um Feedback von den Teilnehmern anzufordern.
 
-Die Desktopfreigabe ermöglicht es Referenten, visuelle Elemente, Anwendungen, Webseiten, Dokumente, Software oder einen Teil Ihrer Desktops an Remote-Teilnehmer in Echtzeit zu übertragen, direkt von lync aus. Teilnehmer können mit Mausbewegungen und Tastatureingaben folgen. Referenten können auswählen, ob Sie den gesamten Bildschirm oder nur einen Teil freigeben möchten. Durch die Freigabe Ihrer Desktops können Referenten in interaktiven Produkt-oder Software-Demos von jedem Ort aus mit Ihren Zielgruppen kommunizieren.
+Mit der Desktopfreigabe können Referenten beliebige Grafiken, Anwendungen, Webseiten, Dokumente, Software oder einen Teil Ihrer Desktops an Remote-Teilnehmer in Echtzeit direkt von lync aus übertragen. Die Zuschauer können die Mausbewegungen und Tastatureingaben verfolgen. Referenten können ihren gesamten Bildschirm oder nur einen Teilbereich freigeben. Durch Freigabe ihres Desktops können Referenten ihren Zuhörern interaktive Produkt- oder Softwaredemos von jedem beliebigen Ort aus vorführen.
 
-Die Anwendungsfreigabe ermöglicht es Referenten, die Steuerung von Software auf ihren Desktops freizugeben, ohne das Feedback von Teilnehmern oder Text Fragen aus den Augen zu verlieren. Referenten können die Steuerung der Anwendung auch an Besprechungsteilnehmer delegieren.
+Mit der Anwendungsfreigabe können Referenten die Steuerung von Software auf ihrem Desktop freigeben, ohne das Feedback oder Textfragen von Teilnehmern aus dem Blick zu verlieren. Referenten können die Steuerung der Anwendung auch an Besprechungsteilnehmer übertragen.
 
 </div>
 
@@ -79,7 +79,7 @@ Die Anwendungsfreigabe ermöglicht es Referenten, die Steuerung von Software auf
 
 ## <a name="dial-in-conferencing"></a>Einwahlkonferenzen
 
-Für Benutzer, die keinen Personal Computer verwenden, stehen verschiedene Methoden für die Teilnahme an einem lync Server-Konferenzanruf zur Verfügung. Ein PSTN-Benutzer kann eine Zugriffsnummer wählen, auf die Besprechungs Brücke zugreifen und dann die Besprechungs-ID eingeben. Für sicherere Besprechungen kann der Benutzer auch dazu aufgefordert werden, seine PIN einzugeben, um sich bei Active Directory zu authentifizieren. Lync Server unterstützt auch lync Phone Edition-Geräte, bei denen es sich um eigenständige IP-Telefongeräte handelt, die von Microsoft-Partnern bereitgestellt werden.
+Für Benutzer, die keinen Personal Computer verwenden, stehen verschiedene Methoden für die Teilnahme an einer lync Server-Telefonkonferenz zur Verfügung. Ein PSTN-Benutzer kann eine Zugriffsnummer wählen, auf die Besprechungs Brücke zugreifen und dann die Besprechungs-ID eingeben. Für sicherere Besprechungen kann der Benutzer auch aufgefordert werden, seine PIN zur Authentifizierung bei Active Directory einzugeben. Lync Server unterstützt auch lync Phone Edition-Geräte, bei denen es sich um eigenständige IP-Telefongeräte handelt, die von Microsoft-Partnern bereitgestellt werden.
 
 </div>
 

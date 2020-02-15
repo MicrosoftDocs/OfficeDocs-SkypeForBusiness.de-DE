@@ -1,5 +1,5 @@
 ---
-title: Entfernen von BackCompatSite
+title: Entfernen von "BackCompatSite"
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183265
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccfcd48c575e300b12fe08611d6f898749041478
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e7f613f6e96261d256c4c1f15fd2161648eed4fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727195"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008931"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-backcompatsite"></a>Entfernen von BackCompatSite
+# <a name="remove-backcompatsite"></a>Entfernen von "BackCompatSite"
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41727195"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Nachdem alle Pools deaktiviert und alle Edgeserver deinstalliert wurden, führen Sie den Assistenten zum Zusammenführen des Topologie-Generators aus, um den **BackCompatSite**zu entfernen.
+Nach dem Deaktivieren aller Pools und dem Deinstallieren aller Edgeserver führen Sie den Zusammenführungs-Assistenten des Topologie-Generators aus, um **BackCompatSite** zu entfernen.
 
 <div>
 
-## <a name="to-remove-backcompat-site-from-topology-builder"></a>So entfernen Sie die backcompat-Website aus dem Topologie-Generator
+## <a name="to-remove-backcompat-site-from-topology-builder"></a>So entfernen Sie "BackCompatSite" aus dem Topologie-Generator
 
-1.  Öffnen Sie eine vorhandene Bereitstellung vom Topologie-Generator.
+1.  Öffnen Sie im Topologie-Generator eine vorhandene Bereitstellung.
 
-2.  Klicken Sie im Menü **Aktion** auf **2007 R2-Topologie zusammenführen**.
+2.  Klicken Sie im Menü **Aktion** auf **Topologie von Office Communications Server 2007 R2 zusammenführen**.
 
-3.  Klicken Sie auf **Weiter**, um fortzufahren.
+3.  Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
 
-4.  Stellen Sie auf der Seite **Legacy Edge angeben** sicher, dass die Liste der Edgeserver leer ist. Wenn die Liste nicht leer ist, verwenden Sie die Schaltfläche **Entfernen** , um alle Legacy-Edgeserver zu entfernen, und klicken Sie dann auf **weiter**.
+4.  Stellen Sie auf der Seite **Legacy Edge angeben** sicher, dass die Liste der Edgeserver leer ist. Wenn die Liste nicht leer ist, verwenden Sie die **Entfernen** -Schaltfläche, um alle Legacy-Edgeserver zu entfernen, und klicken Sie dann auf **weiter**.
     
-    ![Assistenten für die Zusammenführungs Topologie, Seite "Edge-Setup" angeben](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Assistenten für die Zusammenführungs Topologie, Seite "Edge-Setup" angeben")  
+    ![Zusammenführungs Topologie-Assistent, Seite "Edge-Setup angeben"](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Zusammenführungs Topologie-Assistent, Seite "Edge-Setup angeben"")  
 
-5.  Klicken Sie auf der Seite **interne SIP-Porteinstellung angeben** auf **weiter**.
+5.  Klicken Sie auf der Seite **Internen SIP-Port angeben** auf **Weiter**.
 
 6.  Klicken Sie auf der Seite **Zusammenfassung** auf **weiter** , um mit dem Zusammenführen der Topologien zu beginnen, um die Legacy Website zu entfernen.
 
-7.  Überprüfen Sie in der Spalte **Status** , ob der Wert **erfolgreich** ist, und klicken Sie dann auf **Fertig stellen** , um den Assistenten zu schließen.
+7.  Stellen Sie in der Spalte **Status** sicher, dass der Wert **Erfolg** lautet, und klicken Sie zum Schließen des Assistenten auf **Fertig stellen**.
 
-8.  Erweitern Sie im linken Bereich des Topologie-Generators die BackCompatSite, und stellen Sie sicher, dass keine Server aufgelistet sind.
+8.  Erweitern Sie im linken Bereich des Topologie-Generators die Option "BackCompatSite", und stellen Sie sicher, dass keine Server aufgeführt sind.
 
-9.  Klicken Sie mit der rechten Maustaste auf das **BackCompatSite**, und klicken Sie dann auf **Löschen**.
+9.  Klicken Sie mit der rechten Maustaste auf **BackCompatSite**, und klicken Sie dann auf **Löschen**.
 
-10. Wählen Sie im **Topologie-Generator**den **lync-Server**mit dem höchsten Knoten aus.
+10. Wählen Sie im Topologie-Generator**** den obersten Knoten **Lync Server** aus.
 
-11. Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen** aus, und klicken Sie dann auf **weiter**.
+11. Wählen Sie im Menü **Aktion** den Eintrag **Topologie veröffentlichen** aus, und klicken Sie auf **Weiter**.
 
-12. Klicken Sie nach Abschluss des **Veröffentlichungs-Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen.
+12. Klicken Sie nach dem Abschließen des **Veröffentlichungs-Assistenten** auf **Fertig stellen**, um den Assistenten zu schließen.
 
 </div>
 

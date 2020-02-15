@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Failover des zentralen Verwaltungsspeichers'
+title: Lync Server 2013 Failover des zentralen Verwaltungsspeichers
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38bde96b74fa1c00fc937a159c5e8e40df42d4dc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: be877275c2d5f70b7a7038b55f5d42f887ba1739
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736865"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008497"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="central-management-store-failover-in-lync-server-2013"></a>Failover des zentralen Verwaltungsspeichers in Lync Server 2013
+# <a name="central-management-store-failover-in-lync-server-2013"></a>Failover des zentralen Verwaltungsspeichers in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41736865"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-18_
+_**Letztes Änderungsstand des Themas:** 2012-10-18_
 
-Der zentrale Verwaltungsspeicher enthält Konfigurationsdaten zu Servern und Diensten in ihrer lync 2013-Bereitstellung. Sie bietet eine robuste, schematisierten Speicherung der Daten, die zum definieren, einrichten, warten, verwalten, beschreiben und betreiben einer lync 2013-Bereitstellung erforderlich sind. Darüber hinaus überprüft er die Daten, um eine konsistente Konfiguration zu gewährleisten.
+Der zentrale Verwaltungsspeicher enthält Konfigurationsdaten zu Servern und Diensten in ihrer lync 2013-Bereitstellung. Es bietet eine robuste, schematisierten Speicherung der Daten, die für die Definition, Einrichtung, Verwaltung, Verwaltung, Beschreibung und den Betrieb einer lync 2013-Bereitstellung benötigt werden. Darüber hinaus werden die Daten überprüft, um eine konsistente Konfiguration zu gewährleisten.
 
-Jede lync-Bereitstellung umfasst einen zentralen Verwaltungsspeicher, der vom Back-End-Server eines Front-End-Pools gehostet wird.
+Jede lync-Bereitstellung umfasst einen zentralen Verwaltungsspeicher, der vom Back-End-Server eines Front-End-Pool gehostet wird.
 
-Wenn Sie eine Pool Kopplung einrichten, die den Pool hostet, in dem der zentrale Verwaltungsspeicher gehostet wird, wird im Sicherungspool eine Datenbank des zentralen Verwaltungsspeichers eingerichtet, und die zentralen Verwaltungsspeicher Dienste werden in beiden Pools installiert. Eine der beiden zentralen Verwaltungsspeicher Datenbanken ist zu einem beliebigen Zeitpunkt der aktive Master und der andere ein Standbymodus. Der Inhalt wird vom Sicherungsdienst vom aktiven Master in den Standbymodus repliziert.
+Wenn Sie eine Pool Kopplung einrichten, die den Pool enthält, der den zentralen Verwaltungsspeicher hostet, wird eine Sicherungsdatenbank für den zentralen Verwaltungsspeicher im Sicherungspool eingerichtet, und die Dienste für den zentralen Verwaltungsspeicher werden in beiden Pools installiert. Eine der beiden Datenbanken des zentralen Verwaltungsspeichers ist zu jedem Zeitpunkt der aktive Master und der andere ein Standby. Der Inhalt wird vom Sicherungsdienst vom aktiven Master in den Standbymodus repliziert.
 
-Bei einem Pool-Failover, das die Pools umfasst, die den zentralen Verwaltungsspeicher hosten, muss der Administrator vor dem Failover des Front-End-Pools einen Failover für den zentralen Verwaltungsspeicher durchführen.
+Während eines Pool Failovers, in dem sich die Pools befinden, die den zentralen Verwaltungsspeicher hosten, muss der Administrator vor dem Failover des Front-End-Pool einen Failover des zentralen Verwaltungsspeichers ausführen.
 
-Nach der Behebung des Notfalls ist es nicht erforderlich, einen Failback des zentralen Verwaltungsspeichers durchzuführen. Nach der Reparatur kann der zentrale Verwaltungsspeicher im ursprünglichen Sicherungspool als aktiver MasterVerb leiben.
+Nachdem der Notfall repariert wurde, ist es nicht erforderlich, den zentralen Verwaltungsspeicher zurück zu schlagen. Nach der Reparatur kann der zentrale Verwaltungsspeicher im ursprünglichen Sicherungspool als aktiver Master-Manager beibehalten werden.
 
-Die Entwicklungsziele für den zentralen Verwaltungsspeicher sind 5 Minuten für die Wiederherstellungsdauer (Recovery Time Objective, RTO) und 5 Minuten für den Wiederherstellungspunkt (Recovery Point Objective, RPO).
+Die Entwicklungsziele für das Failover des zentralen Verwaltungsspeichers sind 5 Minuten für die Wiederherstellungszeit (Recovery Time Objective, RTO) und 5 Minuten für RPO (Recovery Points Objective).
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Hinzufügen oder Entfernen eines Front-End-Servers'
+title: 'Lync Server 2013: Hinzufügen oder Entfernen eines Front-End-Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185050
 ms.date: 01/21/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 078c3d8eed34e7fb6fd98d2d7c12014b87a0497b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a13a7d618b7d7f8883d43e6aed7ac456bb5ab6c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724015"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008841"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="add-or-remove-a-front-end-server-in-lync-server-2013"></a>Add or remove a Front End Server in Lync Server 2013
+# <a name="add-or-remove-a-front-end-server-in-lync-server-2013"></a>Hinzufügen oder Entfernen eines Front-End-Server in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41724015"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2016-01-21_
+_**Letztes Änderungsstand des Themas:** 2016-01-21_
 
-Wenn Sie einen Front-End-Server zu einem Pool hinzufügen oder einen Front-End-Server aus einem Pool entfernen, müssen Sie den Pool erneut starten. Gehen Sie beim Hinzufügen oder Entfernen eines Front-End-Servers wie folgt vor, um eine Unterbrechung des Diensts für Benutzer zu verhindern.
+Wenn Sie einem Pool einen Front-End-Server hinzufügen oder einen Front-End-Server aus einem Pool entfernen, müssen Sie den Pool anschließend neu starten. Wenden Sie beim Hinzufügen oder Entfernen eines Front-End-Servers das folgende Verfahren an, um Dienstunterbrechungen für die Benutzer zu verhindern.
 
 <div>
 
 
 > [!NOTE]  
-> Wenn Sie neue Server zum Pool hinzufügen, aktualisieren Sie Ihre neuen Poolserver, sodass diese im Hinblick auf das kumulative Update auf demselben Stand sind wie die bereits bestehenden Server in dem Pool.
+> Wenn Sie dem Pool neue Server hinzufügen, aktualisieren Sie die neuen Pool Server so, dass Sie auf der gleichen kumulativen Update Ebene wie die vorhandenen Server im Pool sind.
 
 
 
@@ -53,23 +53,23 @@ Wenn Sie einen Front-End-Server zu einem Pool hinzufügen oder einen Front-End-S
 
 ## <a name="to-add-or-remove-front-end-servers"></a>So können Sie Front-End-Server hinzufügen oder entfernen
 
-1.  Wenn Sie alle Front-End-Server entfernen, beenden Sie zunächst neue Verbindungen mit diesen Servern. Dazu können Sie das folgende Cmdlet verwenden:
+1.  Wenn Sie Front-End-Server entfernen, beenden Sie zunächst neue Verbindungen mit diesen Servern. Dazu können Sie das folgende Cmdlet verwenden:
     
         Stop-CsWindowsServices -Graceful
 
-2.  Wenn die entfernten Server keine aktuellen Sitzungen haben, beenden Sie die lync Server-Dienste.
+2.  Wenn auf den zu entfernenden Servern keine aktuellen Sitzungen vorhanden sind, halten Sie die Lync Server-Dienste auf diesen Servern an.
 
-3.  Öffnen Sie den Topologie-Generator, und fügen Sie die erforderlichen Server hinzu, oder entfernen Sie Sie.
+3.  Öffnen Sie den Topologie-Generator, und fügen Sie die benötigten Server hinzu, oder entfernen Sie sie.
 
 4.  Veröffentlichen Sie die Topologie.
 
-5.  Wenn der Pool von zwei Front-End-Servern auf mehr als zwei oder von mehr als zwei Servern auf genau zwei hinausgegangen ist, müssen Sie das folgende Cmdlet eingeben:
+5.  Wenn der Pool von zwei Front-End-Servern auf mehr als zwei oder von mehr als zwei Servern auf genau zwei fortgegangen ist, müssen Sie das folgende Cmdlet eingeben:
     
         Reset-CsPoolRegistrarState-ResetType FullReset -PoolFqdn <PoolFqdn>
     
-    Wenn der Pool über drei oder mehr Server verfügt, müssen mindestens drei dieser Server ausgeführt werden, wenn Sie dieses Cmdlet eingeben.
+    Wenn der Pool drei oder mehr Server aufweist, müssen beim Eingeben dieses Cmdlets mindestens drei dieser Server ausgeführt werden.
 
-6.  Starten Sie alle Front-End-Server im Pool einzeln neu.
+6.  Starten Sie alle Front-End-Server im Pool nacheinander neu.
 
 </div>
 

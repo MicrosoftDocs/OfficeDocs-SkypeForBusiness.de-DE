@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: DNS-Zusammenfassung – AutoErmittlung'
+title: 'Lync Server 2013: DNS-Zusammenfassung-AutoErmittlung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ed7d6edb44ebca8656a50aec432fe3c0ac669d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 236a3625b755697580e57c926dd5714a44c0347f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737345"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029576"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41737345"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-13_
+_**Letztes Änderungsstand des Themas:** 2013-02-13_
 
-Die AutoErmittlung ist ein flexibler Dienst, da Sie die Kommunikation über HTTP oder HTTPS akzeptiert. Um dies zu erreichen, müssen das Domain Name System (DNS) und die von Servern, die den AutoErmittlungsdienst hosten, verwendeten Zertifikate ordnungsgemäß konfiguriert sein. Die Zertifikatanforderungen werden in der [Zertifikats Zusammenfassung-AutoErmittlung in lync Server 2013](lync-server-2013-certificate-summary-autodiscover.md)behandelt.
+Die AutoErmittlung ist ein flexibler Dienst, da Sie die Kommunikation über HTTP oder HTTPS übernimmt. Um dies zu erreichen, müssen das DNS (Domain Name System) und die Zertifikate, die von Servern verwendet werden, die den AutoErmittlungsdienst hosten, ordnungsgemäß konfiguriert werden. Zertifikatanforderungen werden in der [Zertifikatzusammenfassung-AutoErmittlung in lync Server 2013](lync-server-2013-certificate-summary-autodiscover.md)behandelt.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Die DNS-Nachschlage Logik für die lync Server-Clients verwendet eine bestimmte Reihenfolge der Auflösung. Sie sollten immer die beiden lyncdiscoverinternal-Elemente angeben. &lt;Domäne&gt; und die lyncdiscover. &lt;Domäne&gt; in Ihrem DNS. Mit Ausnahme des lyncdiscoverinternal. &lt;der&gt; Domäneneintrag führt dazu, dass interne Clients keine Verbindung mit den vorgesehenen Diensten herstellen oder die falsche Antwort auf die AutoErmittlung erhalten.
+> Die DNS-Nachschlage Logik für die lync Server Clients verwendet eine bestimmte Lösungsreihenfolge. Sie sollten immer sowohl die "lyncdiscoverinternal"-als auch die. &lt;Domäne&gt; und lyncdiscover. &lt;Domäne&gt; in Ihrem DNS. Ohne "lyncdiscoverinternal". &lt;der&gt; Domäneneintrag führt dazu, dass interne Clients nicht mit den vorgesehenen Diensten verbunden werden oder die falsche Auto Ermittlungs Antwort erhalten.
 
 
 
@@ -67,13 +67,13 @@ Die AutoErmittlung ist ein flexibler Dienst, da Sie die Kommunikation über HTTP
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>Lyncdiscoverinternal. &lt;Interner Domänenname&gt;</p></td>
-<td><p>Interner FQDN des Webdiensts für Ihren Director-Pool, falls vorhanden, oder für Ihren Front-End-Pool, wenn Sie keinen Director haben.</p></td>
+<td><p>"Lyncdiscoverinternal". &lt;Interner Domänenname&gt;</p></td>
+<td><p>Interner Webdienste FQDN für Ihren Directorpool, wenn Sie einen haben, oder für Ihre Front-End-Pool, wenn Sie keinen Director haben.</p></td>
 </tr>
 <tr class="even">
-<td><p>A (Host, wenn IPv6; AAAA)</p></td>
-<td><p>lyncdiscoverinternal. &lt;Interner Domänenname&gt;</p></td>
-<td><p>Interne Webdienste-IP-Adresse (virtuelle IP-Adresse (VIP-Adresse), wenn Sie ein Lastenausgleichsmodul verwenden) Ihres Director-Pools, falls vorhanden, oder des Front-End-Pools, wenn Sie keinen Director haben.</p></td>
+<td><p>A (Host, wenn IPv6, AAAA)</p></td>
+<td><p>"lyncdiscoverinternal". &lt;Interner Domänenname&gt;</p></td>
+<td><p>Interne Webdienste IP-Adresse (virtuelle IP-Adresse (VIP), wenn Sie einen Lastenausgleich verwenden) Ihres Directorpool, wenn Sie einen haben, oder Ihrer Front-End-Pool, wenn Sie keinen Director haben.</p></td>
 </tr>
 </tbody>
 </table>
@@ -99,12 +99,12 @@ Sie müssen einen der folgenden externen DNS-Einträge erstellen:
 <tbody>
 <tr class="odd">
 <td><p>CNAME</p></td>
-<td><p>lyncdiscover. &lt;sipdomain&gt;</p></td>
-<td><p>Externer Webdienst-FQDN für Ihren Director-Pool, falls vorhanden, oder für Ihren Front-End-Pool, wenn Sie keinen Director haben.</p></td>
+<td><p>lyncdiscover. &lt;sipdomain "&gt;</p></td>
+<td><p>Externer Webdienste FQDN für Ihren Directorpool, wenn Sie einen haben, oder für Ihre Front-End-Pool, wenn Sie keinen Director haben.</p></td>
 </tr>
 <tr class="even">
-<td><p>A (Host, wenn IPv6; AAAA)</p></td>
-<td><p>lyncdiscover. &lt;sipdomain&gt;</p></td>
+<td><p>A (Host, wenn IPv6, AAAA)</p></td>
+<td><p>lyncdiscover. &lt;sipdomain "&gt;</p></td>
 <td><p>Externe oder öffentliche IP-Adresse des Reverse-Proxys.</p></td>
 </tr>
 </tbody>
@@ -115,7 +115,7 @@ Sie müssen einen der folgenden externen DNS-Einträge erstellen:
 
 
 > [!NOTE]  
-> Externer Datenverkehr führt den Reverse-Proxy durch.
+> Externer Datenverkehr wird über den Reverseproxy geleitet.
 
 
 
@@ -125,7 +125,7 @@ Sie müssen einen der folgenden externen DNS-Einträge erstellen:
 
 
 > [!NOTE]  
-> Clients für mobile Geräte unterstützen nicht mehrere SSL-Zertifikate (Secure Sockets Layer) aus verschiedenen Domänen. Daher wird die CNAME-Umleitung zu verschiedenen Domänen nicht über HTTPS unterstützt. Ein DNS-CNAME-Eintrag für lyncdiscover.contoso.com, der an eine Adresse von Director.contoso.net umgeleitet wird, wird beispielsweise nicht über HTTPS unterstützt. In einer solchen Topologie muss ein Client für mobile Geräte http für die erste Anforderung verwenden, damit die CNAME-Umleitung über HTTP aufgelöst wird. Nachfolgende Anforderungen verwenden dann HTTPS. Zur Unterstützung dieses Szenarios müssen Sie den Reverse-Proxy mit einer Webveröffentlichungsregel für Port 80 (http) konfigurieren. Ausführliche Informationen finden Sie unter "So erstellen Sie eine Webveröffentlichungsregel für Port 80" unter <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Konfigurieren des Reverse-Proxys für Mobilität in lync Server 2013</A>. Die CNAME-Umleitung zur gleichen Domäne wird über HTTPS unterstützt. In diesem Fall umfasst das Zertifikat der Zieldomäne die ursprüngliche Domäne.
+> Clients mobiler Geräte unterstützen nicht mehrere SSL-Zertifikate (Secure Sockets Layer) von verschiedenen Domänen. Daher wird die CNAME-Umleitung an verschiedene Domänen nicht über HTTPS unterstützt. Beispielsweise wird ein DNS-CNAME-Eintrag für "lyncdiscover.contoso.com", der eine Weiterleitung an eine Adresse von "director.contoso.net" vornimmt, nicht über HTTPS unterstützt. In einer solchen Topologie muss ein Client für ein mobiles Gerät HTTP für die erste Anforderung verwenden, sodass die CNAME-Umleitung über HTTP aufgelöst wird. Für die nachfolgenden Anforderungen wird dann HTTPS verwendet. Um dieses Szenario zu unterstützen, müssen Sie den Reverseproxy mit einer Webveröffentlichungsregel für Port 80 (HTTP) konfigurieren. Ausführliche Informationen finden Sie unter "So erstellen Sie eine Webveröffentlichungsregel für Port 80" unter <A href="lync-server-2013-configuring-the-reverse-proxy-for-mobility.md">Konfigurieren des Reverseproxys für Mobilität in lync Server 2013</A>. Die CNAME-Umleitung an dieselbe Domäne wird über HTTPS unterstützt. In diesem Fall deckt das Zertifikat der Zieldomäne die ursprüngliche Domäne ab.
 
 
 
@@ -136,10 +136,10 @@ Sie müssen einen der folgenden externen DNS-Einträge erstellen:
 ## <a name="see-also"></a>Siehe auch
 
 
-[Konfigurieren des Reverseproxys für Mobilität in Lync Server 2013](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)  
+[Konfigurieren des Reverse-Proxys für Mobilität in lync Server 2013](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)  
 
 
-[Zertifikatzusammenfassung – AutoErmittlung in lync Server 2013](lync-server-2013-certificate-summary-autodiscover.md)  
+[Zertifikatzusammenfassung-AutoErmittlung in lync Server 2013](lync-server-2013-certificate-summary-autodiscover.md)  
   
 
 </div>

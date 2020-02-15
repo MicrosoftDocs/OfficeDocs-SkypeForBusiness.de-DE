@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Problembehandlung bei der Konfiguration des Servers für beständigen Chat mithilfe von Windows PowerShell-Cmdlets'
+title: 'Lync Server 2013: Problembehandlung für die Server Konfiguration für beständigen Chat mit Windows PowerShell-Cmdlets'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183921
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba5420fb06a0c69d94ec7cf5183cba61bb8e72b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dff2cf4fb11c04a59baa54db88b5cb90c738fa31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745005"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028886"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets-in-lync-server-2013"></a>Problembehandlung bei der Konfiguration des Servers für beständigen Chat mithilfe von Windows PowerShell-Cmdlets in Lync Server 2013
+# <a name="troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets-in-lync-server-2013"></a>Problembehandlung für die Server Konfiguration für beständigen Chat mit Windows PowerShell-Cmdlets in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41745005"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-06_
+_**Letztes Änderungsstand des Themas:** 2012-10-06_
 
-Verwenden Sie die folgenden Problemumgehungen, um Probleme mit der Server Konfiguration für beständige Chats mit Windows PowerShell-Cmdlets für Befehlszeilenschnittstellen zu beheben.
+Verwenden Sie die folgenden Problemumgehungen, um Probleme mit der Server Konfiguration für beständigen Chat mit Windows PowerShell Cmdlets für Befehlszeilenschnittstellen zu beheben.
 
-  - Wenn die Fehlermeldung "Prinzipal nicht bereitgestellt" angezeigt wird, ist der Prinzipal, den Sie hinzufügen möchten, nicht verfügbar.
+  - Wenn die Fehlermeldung "principal not provisioned" (Prinzipal nicht bereitgestellt) angezeigt wird, ist der Prinzipal, den Sie versucht haben, hinzuzufügen, nicht verfügbar.
     
     <div>
     
 
     > [!TIP]  
-    > Problemumgehung – keine Problemumgehung. Diese Fehlermeldung bedeutet, dass der Prinzipal nicht verfügbar ist.
+    > Problemumgehung – Keine Problemumgehung. Diese Fehlermeldung bedeutet, dass der Prinzipal nicht verfügbar ist.
 
     
     </div>

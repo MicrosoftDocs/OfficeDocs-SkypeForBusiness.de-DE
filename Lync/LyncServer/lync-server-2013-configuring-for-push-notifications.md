@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von Pushbenachrichtigungen'
+title: 'Lync Server 2013: Konfigurieren von Push-Benachrichtigungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c34b49d6c968effa46005a01df286d14fcff394c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f92ae27b919df6a32f06921df97746680a68b030
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728985"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028956"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>Konfigurieren von Pushbenachrichtigungen in Lync Server 2013
+# <a name="configuring-for-push-notifications-in-lync-server-2013"></a>Konfigurieren von Push-Benachrichtigungen in lync Server 2013
 
 </div>
 
@@ -35,48 +35,48 @@ ms.locfileid: "41728985"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-12_
+_**Letztes Änderungsstand des Themas:** 2013-02-12_
 
-Push-Benachrichtigungen in Form von Signalen, Symbolen oder Benachrichtigungen können auch dann an ein mobiles Gerät gesendet werden, wenn die Mobile Anwendung inaktiv ist. Push-Benachrichtigungen benachrichtigt einen Benutzer über Ereignisse wie eine neue oder verpasste Chat Einladung und Voicemail. Der lync Server 2013-Mobilitätsdienst sendet die Benachrichtigungen an den cloudbasierten lync Server-Push-Benachrichtigungsdienst, der dann die Benachrichtigungen an den Apple Push Notification Service (APNS) sendet (für ein Apple-Gerät, auf dem der lync 2010-Mobilclient ausgeführt wird) oder die Microsoft Push Notification Service (MPNS) (für ein Windows Phone-Gerät, auf dem lync 2010 Mobile oder der lync 2013-Mobilclient ausgeführt wird)
+Pushbenachrichtigungen in Form von Signalen, Symbolen oder Warnungen können an ein mobiles Gerät gesendet werden, auch wenn die mobile Anwendung inaktiv ist. Mit Pushbenachrichtigungen werden Benutzer über Ereignisse informiert, beispielsweise neue oder entgangene Chateinladungen oder Voicemail. Der lync Server 2013 Mobilitätsdienst sendet die Benachrichtigungen an den cloudbasierten lync Server Push-Benachrichtigungsdienst, der dann die Benachrichtigungen an den Apple Push Notification Service (APNS) (für ein Apple-Gerät, das den lync 2010 Mobile Client ausführt) oder den Microsoft Push Notification Service (MPNS) (für ein Windows Phone Gerät, auf dem die lync 2010 Mobile oder der lync 2013 Mobile Client) läuft.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Wenn Sie Windows Phone mit lync 2010 Mobile-oder lync 2013-Mobilclient verwenden, ist eine Push-Benachrichtigung eine wichtige Überlegung.<BR>Wenn Sie lync 2010 Mobile auf Apple-Geräten verwenden, ist eine Push-Benachrichtigung eine wichtige Überlegung.<BR>Wenn Sie lync 2013 Mobile auf Apple-Geräten verwenden, benötigen Sie keine Push-Benachrichtigung mehr.
+> Wenn Sie Windows Phone mit lync 2010 Mobile oder lync 2013 mobilen Clients verwenden, ist die Push-Benachrichtigung eine wichtige Überlegung.<BR>Wenn Sie lync 2010 Mobile auf Apple-Geräten verwenden, ist die Push-Benachrichtigung eine wichtige Überlegung.<BR>Wenn Sie lync 2013 Mobile auf Apple-Geräten verwenden, benötigen Sie keine Push-Benachrichtigungen mehr.
 
 
 
 </div>
 
-Konfigurieren Sie Ihre Topologie so, dass Push-Benachrichtigungen unterstützt werden, indem Sie wie folgt vorgehen:
+Gehen Sie wie folgt vor, um die Topologie zur Unterstützung von Pushbenachrichtigungen zu konfigurieren:
 
-  - Wenn Ihre Umgebung über einen lync Server 2010-oder lync Server 2013-Edgeserver verfügt, müssen Sie einen neuen Hostinganbieter, Microsoft lync Online, hinzufügen und dann den Anbieter Verbund für den Hostinganbieter zwischen Ihrer Organisation und lync Online einrichten.
+  - Wenn Ihre Umgebung über eine lync Server 2010 oder lync Server 2013 Edgeserver verfügt, müssen Sie einen neuen Hostinganbieter, Microsoft lync Online, hinzufügen und dann den Anbieter Verbund für den Hostinganbieter zwischen Ihrer Organisation und lync Online einrichten.
 
-  - Wenn Ihre Umgebung über einen Office Communications Server 2007 R2 Edge-Server verfügt, müssen Sie Direct SIP Federation mit Push.lync.com einrichten.
+  - Wenn Ihre Umgebung über eine Office Communications Server 2007 R2 Edgeserver verfügt, müssen Sie den direkten SIP-Partnerverbund mit Push.lync.com einrichten.
     
     <div>
     
 
     > [!NOTE]  
-    > Push.lync.com ist eine Microsoft Office 365-Domäne für den Push-Benachrichtigungsdienst.
+    > Push.lync.com ist eine Microsoft Office 365-Domäne für den Pushbenachrichtigungsdienst.
 
     
     </div>
 
-  - Um Push-Benachrichtigungen zu aktivieren, müssen Sie das Cmdlet " **setCsPushNotificationConfiguration** " ausführen. Pushbenachrichtigungen sind standardmäßig deaktiviert.
+  - Zur Aktivierung von Pushbenachrichtigungen müssen Sie das **Set-CsPushNotificationConfiguration**-Cmdlet ausführen. Pushbenachrichtigungen sind standardmäßig deaktiviert.
 
-  - Testen Sie die Föderations Konfiguration und die Push-Benachrichtigungen.
+  - Testen Sie die Partnerverbundkonfiguration und die Pushbenachrichtigungen.
 
 <div>
 
-## <a name="to-configure-for-push-notifications-with-lync-server-2013-or-lync-server-2010edge-server"></a>So konfigurieren Sie für Push-Benachrichtigungen mit lync Server 2013 oder lync Server 2010 Edge-Server
+## <a name="to-configure-for-push-notifications-with-lync-server-2013-or-lync-server-2010edge-server"></a>So konfigurieren Sie Push-Benachrichtigungen mit lync Server 2013 oder lync Server 2010 Edgeserver
 
-1.  Melden Sie sich bei einem Computer an, auf dem die lync Server-Verwaltungsshell und OCSCore als Mitglied der RtcUniversalServerAdmins-Gruppe installiert sind.
+1.  Melden Sie sich an einem Computer an, auf dem lync Server-Verwaltungsshell und OCSCore als Mitglied der RtcUniversalServerAdmins-Gruppe installiert sind.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Hinzufügen eines lync Server Online-Hostinganbieter. Geben Sie in der Befehlszeile Folgendes ein:
+3.  Fügen Sie einen lync Server Online Hosting-Anbieter hinzu. Geben Sie in die Befehlszeile Folgendes ein:
     
         New-CsHostingProvider -Identity <unique identifier for Lync Online hosting provider> -Enabled $True -ProxyFqdn <FQDN for the Access Server used by the hosting provider> -VerificationLevel UseSourceVerification
     
@@ -88,12 +88,12 @@ Konfigurieren Sie Ihre Topologie so, dass Push-Benachrichtigungen unterstützt w
     
 
     > [!NOTE]  
-    > Es ist nicht möglich, mehr als eine Verbundbeziehung mit einem einzelnen Hostinganbieter zu haben. Wenn Sie bereits einen Hostinganbieter eingerichtet haben, der über eine Verbundbeziehung zu sipfed.online.lync.com verfügt, fügen Sie keinen weiteren Hostinganbieter hinzu, auch wenn die Identität des Hostinganbieter etwas anderes als LyncOnline ist.
+    > Es kann nur maximal eine Partnerverbundbeziehung mit einem einzelnen Hostinganbieter bestehen. Wenn Sie also bereits einen Hostinganbieter eingerichtet haben, der eine Partnerverbundbeziehung mit "sipfed.online.lync.com" hat, fügen Sie keinen weiteren Hostinganbieter hinzu, auch wenn die Identität des Hostinganbieters nicht "LyncOnline" ist.
 
     
     </div>
 
-4.  Einrichten des Anbieters von Hostinganbieter zwischen Ihrer Organisation und dem Push-Benachrichtigungsdienst bei lync Online Geben Sie in der Befehlszeile Folgendes ein:
+4.  Einrichten eines Hostinganbieter-Partnerverbunds zwischen Ihrer Organisation und dem Pushbenachrichtigungsdienst bei Lync Online. Geben Sie an der Befehlszeile Folgendes ein:
     
         New-CsAllowedDomain -Identity "push.lync.com"
 
@@ -101,21 +101,21 @@ Konfigurieren Sie Ihre Topologie so, dass Push-Benachrichtigungen unterstützt w
 
 <div>
 
-## <a name="to-configure-for-push-notifications-with-office-communications-server-2007-r2edge-server"></a>So konfigurieren Sie für Push-Benachrichtigungen mit Office Communications Server 2007 R2-Edgeserver
+## <a name="to-configure-for-push-notifications-with-office-communications-server-2007-r2edge-server"></a>So konfigurieren Sie für Push-Benachrichtigungen mit Office Communications Server 2007 R2 Edgeserver
 
 1.  Melden Sie sich beim Edgeserver als Mitglied der RtcUniversalServerAdmins-Gruppe an.
 
-2.  Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Verwaltung**, und klicken Sie dann auf **Computer Verwaltung**.
+2.  Klicken Sie nacheinander auf **Start**, **Alle Programme**, **Verwaltung** und **Computerverwaltung**.
 
-3.  Erweitern Sie in der Konsolenstruktur **Dienste und Anwendungen**, klicken Sie mit der rechten Maustaste auf **Microsoft Office Communications Server 2007 R2**, und klicken Sie dann auf **Eigenschaften**.
+3.  Erweitern Sie in der Konsolenstruktur **Dienste und Anwendungen**, klicken Sie mit der rechten Maustaste auf **Microsoft Office Communications Server 2007 R2**, und klicken Sie dann auf **Eigenschaften**.
 
-4.  Klicken Sie auf der Registerkarte **zulassen** auf **Hinzufügen**.
+4.  Klicken Sie auf der Registerkarte **Zulassen** auf **Hinzufügen**.
 
-5.  Führen Sie im Dialogfeld **Federated-Partner hinzufügen** die folgenden Aktionen aus:
+5.  Gehen Sie im Dialogfeld **Verbundpartner hinzufügen** wie folgt vor:
     
-      - Geben Sie im **Domänennamen des Verbundpartners** **Push.lync.com**ein.
+      - Geben Sie im Feld **Domänenname des Verbundpartners** den Namen **push.lync.com** ein.
     
-      - Geben Sie im **Access-Edgeserver für Federated-Partner** **sipfed.online.lync.com**.
+      - Geben Sie **sipfed.online.lync.com** im Feld **Zugriffs-Edgeserver des Verbundpartners** ein.
     
       - Klicken Sie auf **OK**.
 
@@ -123,17 +123,17 @@ Konfigurieren Sie Ihre Topologie so, dass Push-Benachrichtigungen unterstützt w
 
 <div>
 
-## <a name="to-enable-push-notifications"></a>So aktivieren Sie Push-Benachrichtigungen
+## <a name="to-enable-push-notifications"></a>So aktivieren Sie Pushbenachrichtigungen
 
-1.  Melden Sie sich bei einem Computer an, auf dem die lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.
+1.  Melden Sie sich an einem Computer an, auf dem lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Aktivieren von Push-Benachrichtigungen Geben Sie in der Befehlszeile Folgendes ein:
+3.  Aktivieren Sie Pushbenachrichtigungen. Geben Sie an der Befehlszeile Folgendes ein:
     
         Set-CsPushNotificationConfiguration -EnableApplePushNotificationService $True -EnableMicrosoftPushNotificationService $True
 
-4.  Föderation aktivieren Geben Sie in der Befehlszeile Folgendes ein:
+4.  Aktivieren Sie den Partnerverbund. Geben Sie an der Befehlszeile Folgendes ein:
     
         Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
@@ -141,13 +141,13 @@ Konfigurieren Sie Ihre Topologie so, dass Push-Benachrichtigungen unterstützt w
 
 <div>
 
-## <a name="to-test-federation-and-push-notifications"></a>So testen Sie Föderations-und Push-Benachrichtigungen
+## <a name="to-test-federation-and-push-notifications"></a>So testen Sie den Partnerverbund und die Pushbenachrichtigungen
 
-1.  Melden Sie sich bei einem Computer an, auf dem die lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.
+1.  Melden Sie sich an einem Computer an, auf dem lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Testen Sie die Verbund Konfiguration. Geben Sie in der Befehlszeile Folgendes ein:
+3.  Testen Sie die Partnerverbundkonfiguration. Geben Sie an der Befehlszeile Folgendes ein:
     
         Test-CsFederatedPartner -TargetFqdn <FQDN of Access Edge server used for federated SIP traffic> -Domain <FQDN of federated domain> -ProxyFqdn <FQDN of the Access Edge server used by the federated organization>
     
@@ -155,7 +155,7 @@ Konfigurieren Sie Ihre Topologie so, dass Push-Benachrichtigungen unterstützt w
     
         Test-CsFederatedPartner -TargetFqdn accessproxy.contoso.com -Domain push.lync.com -ProxyFqdn sipfed.online.lync.com
 
-4.  Testen von Push-Benachrichtigungen Geben Sie in der Befehlszeile Folgendes ein:
+4.  Testen Sie die Pushbenachrichtigungen. Geben Sie an der Befehlszeile Folgendes ein:
     
         Test-CsMcxPushNotification -AccessEdgeFqdn <Access Edge service FQDN>
     

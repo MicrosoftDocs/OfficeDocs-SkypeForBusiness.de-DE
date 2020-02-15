@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: unterstützen von umfangreichen Besprechungen'
+title: 'Lync Server 2013: Unterstützung für große Besprechungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d2c36d99bc5af62771aabb643df1223db3a291c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73c9a5d2ad4688f622298378c84b61574048a3b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764301"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029756"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supporting-large-meetings-using-lync-server-2013"></a>Unterstützen von umfangreichen Besprechungen mit lync Server 2013
+# <a name="supporting-large-meetings-using-lync-server-2013"></a>Unterstützen großer Besprechungen mit lync Server 2013
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41764301"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-03_
+_**Letztes Änderungsstand des Themas:** 2012-10-03_
 
 Große Besprechungen folgen nicht dem im vorherigen Abschnitt beschriebenen Testmodell, da Sie die folgenden Merkmale aufweisen:
 
-  - Das Besprechungsformat entspricht einem 1:n-Format.
+  - Das Besprechungs Format ist eine 1: n-Präsentation.
 
-  - Ein oder wenige Benutzer fungieren als Referenten, und alle anderen Benutzer sind Teilnehmer.
+  - Ein oder mehrere Benutzer sind Referenten, und alle anderen Personen sind nur als Teilnehmer beteiligt.
 
-  - Die Freigabe von PowerPoint-Präsentationen stellt die Hauptaktivität hinsichtlich der Datenzusammenarbeit dar.
+  - PowerPoint-Präsentations Freigabe ist die Hauptaktivität der Datenzusammenarbeit.
 
-  - Die Übertragung von Audiosignalen ist erforderlich, Videobilder können ebenfalls übertragen werden.
+  - Audio ist erforderlich, und Video kann auch verwendet werden.
 
-  - Eine dedizierte Person, im Allgemeinen entweder der Besprechungsorganisator oder ein Assistent des Organisators, richtet die Besprechung rechtzeitig ein.
+  - Eine dedizierte Person, in der Regel entweder der Besprechungsorganisator oder ein Assistent des Organisators, richtet die Besprechung rechtzeitig im Voraus ein.
 
-  - Spezielle Mitarbeiter (nicht die Referenten) führen durch die Besprechung, kümmern sich um das Herstellen von Verbindungen zu Onlinebesprechungen, stellen sicher, dass das Teilen von Audio-, Video- und Folieninhalten funktioniert, verwalten den Wartebereich und die Benutzerrollen, schalten Teilnehmer stumm bzw. heben deren Stummschaltung auf, nehmen Fragen entgegen und verwalten Aufzeichnungen nach Bedarf.
+  - Dedizierte Mitarbeiter (nicht die Referenten) führen die Besprechung aus, einschließlich der Verbindung mit einer Onlinebesprechung, der Überprüfung, ob Audio-, Video-und Folien Freigaben ausgeführt werden, die Verwaltung von Lobby-und Benutzerrollen, das stumm schalten und stumm schalten von Teilnehmern, das nehmen von Fragen und das Verwalten von Aufzeichnungen, wie entsprechenden.
 
-Zur Unterstützung von umfangreichen Besprechungen mit bis zu 1000 Benutzern müssen die Probleme im Zusammenhang mit dem freigegebenen Hardwaremodell und dem nicht Reservierungs Modell behoben werden.
+Die Unterstützung großer Besprechungen mit bis zu 1000 Benutzern erfordert die Behebung der Probleme im Zusammenhang mit dem freigegebenen Hardwaremodell und dem nicht Reservierungs Modell.
 
-Um ausreichende Speicherressourcen sowie die erforderliche CPU-Leistung für Besprechungen mit bis zu 1.000 Teilnehmern bereitstellen zu können, sollten auf dem Front-End-Server, der als Host fungiert, keine anderen Sofortnachrichten-, Anwesenheits- oder Enterprise-VoIP-Arbeitslasten verarbeitet werden. Es sollte auch keine anderen Besprechungen hosten, unabhängig von der Größe der anderen Besprechungen. Das bedeutet, dass für das Hosten von Besprechungen mit bis zu 1000 Benutzern ein separater lync Server-Pool eingerichtet werden muss, der für das Hosten von umfangreichen Besprechungen mit bis zu 1000 Benutzern dediziert ist.
+Um über ausreichende CPU-und Arbeitsspeicherressourcen für Besprechungen mit bis zu 1000 Benutzern verfügen zu können, sollten die hostenden Front-End-Server keine anderen Chatnachrichten und Anwesenheits-oder Enterprise-VoIP-Arbeitslasten hosten. Es sollte auch keine anderen Besprechungen hosten, unabhängig von der Größe der anderen Besprechungen. Dies bedeutet, dass das Hosten von Besprechungen mit bis zu 1000 Benutzern einen separaten lync Server Pool einrichten muss, der für das Hosten großer Besprechungen mit bis zu 1000 Benutzern vorgesehen ist.
 
-Ein lync-Server Pool, der für das Hosten von umfangreichen Besprechungen dediziert ist, sollte nur eine Besprechung mit bis zu 1000 Benutzern gleichzeitig hosten, sodass Besprechungszeiten im Voraus über einen Out-of-Band-Planungsprozess reserviert werden müssen, um eine dedizierte Unterstützung vom Front-End-Serv zu gewährleisten. ERS. Wenn Sie mehrere große Besprechungen gleichzeitig unterstützen möchten, empfiehlt es sich, mehrere dedizierte große Besprechungs Pools einzurichten.
+Ein lync Server Pool, der für das Hosten großer Besprechungen vorgesehen ist, sollte nur eine Besprechung mit bis zu 1000 Benutzern gleichzeitig hosten, sodass Besprechungszeiten vorab über einen Out-of-Band-Planungsprozess reserviert werden müssen, um die dedizierte Unterstützung von der Front-End-Serv sicherzustellen. ERS. Zur gleichzeitigen Unterstützung mehrerer großer Besprechungen wird empfohlen, mehrere dedizierte große Besprechungs Pools einzurichten.
 
-Wir empfehlen, dass eine dedizierte Person den Online-Teil einer groß Besprechung ausführt und überwacht. Diese Person kann je nach den Einstellungen des Unternehmens der Organisator, die Stellvertretung des Organisators oder Referenten oder ein Mitglied des dedizierten Teams für große Besprechungen sein.
+Es wird empfohlen, dass eine dedizierte Person den Online Teil einer großen Besprechung ausführt und überwacht. Diese Person ist möglicherweise der Organisator, Stellvertreter des Organisators oder Referenten oder ein Mitglied des Support Teams für große Besprechungen, je nach den Einstellungen der Organisation.
 
-In den folgenden Abschnitten wird beschrieben, wie Sie einen dedizierten Pool für umfangreiche Besprechungen implementieren, einschließlich bewährter Methoden für die Verwendung von lync Server 2013 zur Unterstützung großer Besprechungs Szenarien.
+In den folgenden Abschnitten wird beschrieben, wie Sie einen dedizierten Pool für große Besprechungen implementieren, einschließlich bewährter Methoden für die Verwendung von lync Server 2013 zur Unterstützung großer Besprechungs Szenarien.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Einrichten der Unterstützung für umfangreiche Besprechungen in lync Server 2013](lync-server-2013-setting-up-support-for-large-meetings.md)
+  - [Einrichten der Unterstützung für große Besprechungen in lync Server 2013](lync-server-2013-setting-up-support-for-large-meetings.md)
 
-  - [Verwalten von umfangreichen Besprechungen in lync Server 2013](lync-server-2013-managing-large-meetings.md)
+  - [Verwalten großer Besprechungen in lync Server 2013](lync-server-2013-managing-large-meetings.md)
 
 </div>
 

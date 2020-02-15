@@ -12,16 +12,16 @@ ms:contentKeyID: 48184646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9805f505896cb27b7e895c0a586ffff3c6847fdb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af8c376620c37af533aabec318ccbf1b1b745978
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757849"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41757849"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-06_
+_**Letztes Änderungsstand des Themas:** 2012-06-06_
 
-Lync Server 2013 umfasst die folgenden Features, die Sie verwenden können, um Ihre E9-1-1-Bereitstellung anzupassen:
+Lync Server 2013 umfasst die folgenden Features, die Sie zum Anpassen Ihrer E9-1-1-Bereitstellung verwenden können:
 
-  - Eine Webdienstschnittstelle zum Verbinden des Standort Informationsservers mit einer SNMP-Anwendung.
+  - Eine Webdienstschnittstelle, um den Location Information Server mit einer SNMP-Anwendung zu verbinden.
 
-  - Eine Webdienstschnittstelle zum Herstellen einer Verbindung mit einer sekundären Standort Quelldatenbank.
+  - Eine Webdienstschnittstelle für die Verbindung mit einer sekundären Standortdatenbank (Secondary Location Source, SLS).
 
 <div>
 
@@ -49,7 +49,7 @@ Lync Server 2013 umfasst die folgenden Features, die Sie verwenden können, um I
 
   - [Konfigurieren einer SNMP-Anwendung in lync Server 2013](lync-server-2013-configure-an-snmp-application.md)
 
-  - [Konfigurieren eines sekundären Standort Informationsdiensts in lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md)
+  - [Konfigurieren einer sekundären Standortinformationsdienst in lync Server 2013](lync-server-2013-configure-a-secondary-location-information-service.md)
 
 </div>
 

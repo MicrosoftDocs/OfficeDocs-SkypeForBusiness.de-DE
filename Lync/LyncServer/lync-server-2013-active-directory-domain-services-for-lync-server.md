@@ -12,16 +12,16 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ac4b4da954fd792559d2160ce457aec91cb0ac6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1b53b878d7f41a5eb83eb67d98fc69d68709a603
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730495"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008577"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,57 +35,57 @@ ms.locfileid: "41730495"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-11-13_
+_**Letztes Änderungsstand des Themas:** 2013-11-13_
 
-Active Directory-Domänendienste fungiert als Verzeichnisdienst für Windows Server 2003, Windows Server 2008, Windows Server 2012 und Windows Server 2012 R2-Netzwerke. Active Directory-Domänendienste dient auch als Grundlage für die Erstellung der Microsoft lync Server 2013-Sicherheitsinfrastruktur. In diesem Abschnitt wird beschrieben, wie lync Server 2013 die Active Directory-Domänendienste zum Erstellen einer vertrauenswürdigen Umgebung für Chats, Webkonferenzen, Medien und Sprachanrufe verwendet. Details zu den lync-Server Erweiterungen für Active Directory-Domänendienste und zum Vorbereiten Ihrer Umgebung für Active Directory-Domänendienste finden Sie unter [Vorbereiten der Active Directory-Domänendienste für lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) in der Bereitstellungsdokumentation. Details zur Rolle der Active Directory-Domänendienste in Windows Server-Netzwerken finden Sie in der Dokumentation zur Version des verwendeten Betriebssystems.
+Active Directory-Domänendienste fungiert als Verzeichnisdienst für Windows Server 2003-, Windows Server 2008-, Windows Server 2012-und Windows Server 2012 R2-Netzwerke. Active Directory-Domänendienste dient auch als Grundlage, auf der die Microsoft lync Server 2013 Sicherheitsinfrastruktur aufgebaut ist. In diesem Abschnitt wird beschrieben, wie lync Server 2013 Active Directory-Domänendienste verwendet, um eine vertrauenswürdige Umgebung für Chat, Webkonferenzen, Medien und VoIP zu erstellen. Ausführliche Informationen zu lync Server Erweiterungen für Active Directory-Domänendienste und zur Vorbereitung Ihrer Umgebung auf Active Directory-Domänendienste finden Sie unter [vorbereiten Active Directory-Domänendienste für lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) in der Bereitstellungsdokumentation. Ausführliche Informationen zur Rolle der Active Directory-Domänendienste in Windows Server-Netzwerken finden Sie in der Dokumentation für die Version des von Ihnen verwendeten Betriebssystems.
 
-Lync Server 2013 verwendet die Active Directory-Domänendienste zum Speichern von:
+Lync Server 2013 verwendet Active Directory-Domänendienste zum Speichern von:
 
-  - Globale Einstellungen, die auf allen Servern mit lync Server 2013 in einer Gesamtstruktur erforderlich sind.
+  - Globale Einstellungen, die alle lync Server 2013 in einer Gesamtstruktur ausgeführten Server benötigen.
 
-  - Dienstinformationen, die die Rollen aller Server mit lync Server 2013 in einer Gesamtstruktur identifizieren.
+  - Dienstinformationen, mit denen die Rollen aller Server identifiziert werden, auf denen lync Server 2013 in einer Gesamtstruktur ausführt.
 
   - Einige Benutzereinstellungen
 
 <div>
 
-## <a name="active-directory-infrastructure"></a>Active Directory-Infrastruktur
+## <a name="active-directory-infrastructure"></a>Active Directory-Infrastruktur
 
-Zu den Infrastrukturanforderungen für Active Directory gehören die folgenden:
+Für Active Directory gelten die folgenden Infrastrukturanforderungen:
 
   - Betriebssystemanforderungen für Domänencontroller
 
-  - Anforderungen für die Domänen- und Gesamtstrukturfunktionsebene
+  - Anforderungen bezüglich der Funktionsebene der Domäne und der Gesamtstruktur
 
-  - Anforderungen für die globale Katalogdomäne
+  - Domänenanforderungen bezüglich des globalen Katalogs
 
-Ausführliche Informationen finden Sie unter Anforderungen an die [Active Directory-Infrastruktur für lync Server 2013](lync-server-2013-active-directory-infrastructure-requirements.md) in der Bereitstellungsdokumentation.
+Ausführliche Informationen finden Sie unter [Active Directory Infrastrukturanforderungen für lync Server 2013](lync-server-2013-active-directory-infrastructure-requirements.md) in der Bereitstellungsdokumentation.
 
 </div>
 
 <div>
 
-## <a name="active-directory-domain-services-preparation"></a>Vorbereitung der Active Directory-Domänendienste
+## <a name="active-directory-domain-services-preparation"></a>Vorbereiten der Active Directory-Domänendienste
 
 <div>
 
 
 > [!NOTE]  
-> Wir empfehlen, dass Sie die globalen Einstellungen für den Konfigurationscontainer anstelle des System Containers bereitstellen. Dies verbessert nicht die Sicherheit, kann aber zu Verbesserungen bei der Skalierbarkeit einiger Active Directory-Domänendienste-Topologien führen. Wenn Sie von Microsoft Office Communications Server 2007 migrieren und den Systemcontainer verwendet haben, aber den Konfigurationscontainer verwenden möchten, müssen Sie die Einstellungen im Systemcontainer verschieben, bevor Sie ein Upgrade vorbereiten. Informationen zum Migrieren der System Container Einstellungen zum Konfigurationscontainer finden Sie unter Office Communications Server 2007-Migrations Tool für <A href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</A>globale Einstellungen unter.
+> Es wird empfohlen, globale Einstellungen nicht im Systemcontainer, sondern im Konfigurationscontainer bereitzustellen. Dadurch wird zwar die Sicherheit nicht optimiert, aber es kann zu Verbesserungen bei der Skalierbarkeit für einige Topologien der Active Directory-Domänendienste führen. Wenn Sie von Microsoft Office Communications Server 2007 migrieren und den Systemcontainer verwendet haben, aber den Konfigurationscontainer verwenden möchten, müssen Sie die Einstellungen im Systemcontainer verschieben, bevor Sie ein Upgrade vorbereiten. Informationen zum Migrieren der System Container Einstellungen zum Konfigurationscontainer finden Sie unter Office Communications Server 2007 Migration Tool Global Settings <A href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</A>unter.
 
 
 
 </div>
 
-Beim Bereitstellen von lync Server 2013 besteht der erste Schritt darin, Active Directory-Domänendienste vorzubereiten. Das Vorbereiten der Active Directory-Domänendienste für lync Server 2013 umfasst die folgenden drei Schritte:
+Bei der Bereitstellung von lync Server 2013 besteht der erste Schritt darin, Active Directory-Domänendienste vorzubereiten. Das Vorbereiten Active Directory-Domänendienste für lync Server 2013 umfasst die folgenden drei Schritte:
 
-  - **Schema vorbereiten**. Mit dieser Aufgabe wird das Schema in den Active Directory-Domänendiensten so erweitert, dass es Klassen und Attribute enthält, die für lync Server 2013 spezifisch sind. Details zum Vorbereiten des Schemas finden Sie unter [Ausführen der Active Directory-Schemavorbereitung in lync Server 2013](lync-server-2013-running-schema-preparation.md) in der Bereitstellungsdokumentation. Weitere Informationen finden Sie unter [Migration von Office Communications Server 2007 R2 zu lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md).
+  - **Vorbereiten des Schemas**. Diese Aufgabe erweitert das Schema in Active Directory-Domänendienste auf Klassen und Attribute, die spezifisch für lync Server 2013 sind. Ausführliche Informationen zum Vorbereiten des Schemas finden Sie unter [Running Active Directory Schema Preparation in lync Server 2013](lync-server-2013-running-schema-preparation.md) in der Bereitstellungsdokumentation. Weitere Informationen finden Sie unter [Migration from Office Communications Server 2007 R2 to lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md).
 
-  - **Vorbereiten der Gesamtstruktur** Mit dieser Aufgabe werden globale Einstellungen und Objekte in der Gesamtstruktur-Stammdomäne sowie der universelle Dienst und administrative Gruppen erstellt, die den Zugriff auf diese Einstellungen und Objekte Regeln. Details zum Vorbereiten der Gesamtstruktur finden Sie unter [Ausführen der Gesamtstrukturvorbereitung für lync Server 2013](lync-server-2013-running-forest-preparation.md) in der Bereitstellungsdokumentation.
+  - **Vorbereiten der Gesamtstruktur** Mit dieser Aufgabe werden globale Einstellungen und Objekte in der Gesamtstruktur-Stammdomäne sowie der universelle Dienst und administrative Gruppen erstellt, die den Zugriff auf diese Einstellungen und Objekte steuern. Ausführliche Informationen zum Vorbereiten der Gesamtstruktur finden Sie unter [Ausführung der Gesamtstrukturvorbereitung für lync Server 2013](lync-server-2013-running-forest-preparation.md) in der Bereitstellungsdokumentation.
 
-  - **Domäne vorbereiten**. Mit dieser Aufgabe werden universelle Gruppen, die Berechtigungen zum Hosten und Verwalten von Benutzern innerhalb der Domäne erteilen, die erforderlichen Zugriffssteuerungseinträge (ACEs) hinzugefügt. Diese Aufgabe muss in allen Domänen ausgeführt werden, in denen Sie Server mit lync Server 2013 und alle Domänen bereitstellen möchten, in denen sich Ihre lync Server-Benutzer befinden. Details zum Vorbereiten der Domäne finden Sie unter [Ausführen der Domänenvorbereitung für lync Server 2013](lync-server-2013-running-domain-preparation.md) in der Bereitstellungsdokumentation.
+  - **Vorbereiten der Domäne**. Diese Aufgabe fügt universelle Gruppen die erforderlichen Zugriffssteuerungseinträge (Access Control Entries, ACEs) hinzu, die Berechtigungen zum Hosten und Verwalten von Benutzern in der Domäne erteilen. Diese Aufgabe muss in allen Domänen abgeschlossen sein, in denen Sie Server mit lync Server 2013 und Domänen bereitstellen möchten, in denen sich Ihre lync Server Benutzer befinden. Ausführliche Informationen zum Vorbereiten der Domäne finden Sie unter [Ausführung der Domänenvorbereitung für lync Server 2013](lync-server-2013-running-domain-preparation.md) in der Bereitstellungsdokumentation.
 
-Eine Übersicht über den vollständigen Prozess zum Vorbereiten von Active Directory sowie über die für die einzelnen Schritte erforderlichen Rechte und Berechtigungen finden Sie unter [Active Directory Infrastructure Requirements for lync Server 2013](lync-server-2013-active-directory-infrastructure-requirements.md) in der Bereitstellungsdokumentation.
+Eine Übersicht über den vollständigen Prozess für die Vorbereitung Active Directory und die erforderlichen Rechte und Berechtigungen zum Ausführen der einzelnen Schritte finden Sie unter [Active Directory Infrastrukturanforderungen für lync Server 2013](lync-server-2013-active-directory-infrastructure-requirements.md) in der Bereitstellungsdokumentation.
 
 </div>
 
@@ -93,21 +93,21 @@ Eine Übersicht über den vollständigen Prozess zum Vorbereiten von Active Dire
 
 ## <a name="universal-groups"></a>Universelle Gruppen
 
-Während der Vorbereitung der Gesamtstruktur erstellt lync Server 2013 verschiedene universelle Gruppen in Active Directory-Domänendiensten, die über die Berechtigung zum Zugriff auf und Verwalten globaler Einstellungen und Dienste verfügen. Zu diesen Gruppen zählen die folgenden:
+Während der Vorbereitung der Gesamtstruktur erstellt lync Server 2013 verschiedene universelle Gruppen in Active Directory-Domänendienste, die über die Berechtigung zum Zugreifen auf und Verwalten globaler Einstellungen und Dienste verfügen. Dazu gehören folgende universelle Gruppen:
 
-  - **Administrative Gruppen:** Diese Gruppen definieren die grundlegenden Administratorrollen für ein lync Server-Netzwerk. Während der Gesamtstrukturvorbereitung werden diese Administratorgruppen den lync Server-Infrastrukturgruppen hinzugefügt.
+  - **Administrative Gruppen**. Diese Gruppen definieren die grundlegenden Administratorrollen für ein lync Server Netzwerk. Während der Gesamtstrukturvorbereitung werden diese Administratorgruppen zu lync Server-Infrastrukturgruppen hinzugefügt.
 
-  - **Dienstgruppen:** Diese Gruppen sind Dienstkonten, die für den Zugriff auf verschiedene Dienste erforderlich sind, die von lync Server bereitgestellt werden.
+  - **Dienstgruppen**. Diese Gruppen sind Dienstkonten, die für den Zugriff auf verschiedene von lync Server bereitgestellte Dienste erforderlich sind.
 
-  - **Infrastrukturgruppen:** Diese Gruppen bieten die Berechtigung für den Zugriff auf bestimmte Bereiche der lync Server-Infrastruktur. Sie dienen als Komponenten von administrativen Gruppen und Sie sollten sie weder ändern noch ihnen direkt Nutzer hinzufügen. Während der Gesamtstrukturvorbereitung werden den entsprechenden Infrastrukturgruppen bestimmte Dienst- und Administrationsgruppen hinzugefügt.
+  - **Infrastrukturgruppen**. Diese Gruppen bieten die Berechtigung für den Zugriff auf bestimmte Bereiche der lync Server Infrastruktur. Es sollten keine Infrastrukturgruppen geändert oder Benutzer direkt zu ihnen hinzugefügt werden. Während der Gesamtstrukturvorbereitung werden bestimmte Dienst-und Verwaltungsgruppen zu den entsprechenden Infrastrukturgruppen hinzugefügt.
 
-Details zu den bei der Vorbereitung von AD für lync Server erstellten universellen Gruppen sowie zu den Dienst-und Verwaltungsgruppen, die den Infrastrukturgruppen hinzugefügt werden, finden Sie unter Änderungen, die [von der Gesamtstrukturvorbereitung in lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) in der Bereitstellungsdokumentation vorgenommen wurden.
+Ausführliche Informationen zu den spezifischen universellen Gruppen, die beim Vorbereiten von AD für lync Server erstellt werden, sowie zu den Dienst-und Verwaltungsgruppen, die den Infrastrukturgruppen hinzugefügt werden, finden Sie unter Änderungen, die [von der Gesamtstrukturvorbereitung in lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) in der Bereitstellungsdokumentation vorgenommen wurden.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 unterstützt die universellen Gruppen in Windows Server 2012 für Server, auf denen lync Server 2013 ausgeführt wird, sowie Windows Server 2003-Betriebssysteme für Domänencontroller. Mitglieder universeller Gruppen können andere Gruppen und Konten aus beliebigen Domänen in der Domänen- oder Gesamtstruktur umfassen und über Berechtigungen für beliebige Domänen in der Domänen- oder Gesamtstruktur verfügen. Die Unterstützung für universelle Gruppen in Verbindung mit der Administrator Delegierung vereinfacht die Verwaltung einer lync Server-Bereitstellung. Beispielsweise ist es nicht erforderlich, eine Domäne einer anderen hinzuzufügen, um einem Administrator die Verwaltung beider Domänen zu ermöglichen.
+> Lync Server 2013 unterstützt die universellen Gruppen im Windows Server 2012 für Server, auf denen lync Server 2013 läuft, sowie Windows Server 2003 Betriebssysteme für Domänencontroller. Mitglieder universeller Gruppen können andere Gruppen und Konten aus beliebigen Domänen in der Domänen- oder Gesamtstruktur umfassen und über Berechtigungen für beliebige Domänen in der Domänen- oder Gesamtstruktur verfügen. Die universelle Gruppenunterstützung in Kombination mit der Administrator Delegierung vereinfacht die Verwaltung einer lync Server-Bereitstellung. Beispielsweise ist es nicht erforderlich, eine Domäne einer anderen Domäne hinzuzufügen, um einem Administrator die Verwaltung beider Domänen zu ermöglichen.
 
 
 
@@ -119,21 +119,21 @@ Details zu den bei der Vorbereitung von AD für lync Server erstellten universel
 
 ## <a name="role-based-access-control"></a>Rollenbasierte Zugriffssteuerung
 
-Zusätzlich zum Erstellen von Gruppen für universelle Dienste und Administratoren sowie zum Hinzufügen von Dienst-und Verwaltungsgruppen zu den entsprechenden universellen Gruppen erstellt die Gesamtstrukturvorbereitung auch Rollenbasierte Zugriffssteuerungsgruppen. Details zu den von der Gesamtstrukturvorbereitung erstellten speziellen RBAC-Gruppen finden Sie unter Änderungen, die [von der Gesamtstrukturvorbereitung in lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) in der Bereitstellungsdokumentation vorgenommen wurden. Weitere Informationen zu RBAC-Gruppen finden Sie unter [rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC) für lync Server 2013](lync-server-2013-role-based-access-control-rbac.md).
+Neben dem Erstellen von universellen Dienst-und Verwaltungsgruppen und dem Hinzufügen von Dienst-und Verwaltungsgruppen zu den entsprechenden universellen Gruppen erstellt die Gesamtstrukturvorbereitung auch Rollenbasierte Zugriffssteuerungsgruppen (Role-Based Access Control, RBAC). Ausführliche Informationen zu den spezifischen RBAC-Gruppen, die von der Gesamtstrukturvorbereitung erstellt werden, finden Sie unter Änderungen bei der [Gesamtstrukturvorbereitung in lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) in der Bereitstellungsdokumentation. Weitere Informationen zu RBAC-Gruppen finden Sie unter [Role-Based Access Control (RBAC) für lync Server 2013](lync-server-2013-role-based-access-control-rbac.md).
 
 </div>
 
 <div>
 
-## <a name="access-control-entries-aces-and-inheritance"></a>Zugriffssteuerungseinträge (Access Control Entries,ACEs) und Vererbung
+## <a name="access-control-entries-aces-and-inheritance"></a>Zugriffssteuerungseinträge und Vererbung
 
-Bei der Gesamtstrukturvorbereitung werden sowohl private als auch öffentliche ACEs erstellt und ACEs zu den erstellten universellen Gruppen hinzugefügt. Es werden bestimmte private ACEs im Container für globale Einstellungen erstellt, der von lync Server verwendet wird. Dieser Container wird nur von lync Server verwendet und befindet sich entweder im Konfigurationscontainer oder im System Container in der Stammdomäne, je nachdem, wo Sie die globalen Einstellungen speichern.
+Bei der Gesamtstrukturvorbereitung werden sowohl private als auch öffentliche Zugriffssteuerungseinträge (Access Control Entries, ACEs) erstellt sowie ACEs für die erstellten universellen Gruppen hinzugefügt. Es werden bestimmte private ACEs im Container "globale Einstellungen" erstellt, der von lync Server verwendet wird. Dieser Container wird nur von lync Server verwendet und befindet sich in Abhängigkeit davon, wo Sie globale Einstellungen speichern, entweder im Konfigurationscontainer oder im System Container in der Stammdomäne.
 
-Beim Schritt zur Domänenvorbereitung werden universellen Gruppen die erforderlichen ACEs (Access Control Entries, Zugriffssteuerungseinträge) hinzugefügt, über die Berechtigungen zum Hosten und Verwalten von Benutzern in der Domäne gewährt werden. Bei der Domänenvorbereitung werden ACEs im Domänenstamm und in drei integrierten Containern erstellt: für Benutzer, Computer und Domänencontroller.
+Beim Schritt zur Domänenvorbereitung werden universellen Gruppen die erforderlichen Zugriffssteuerungseinträge (Access Control Entries, ACEs) hinzugefügt, über die Berechtigungen zum Hosten und Verwalten von Benutzern in der Domäne gewährt werden. Bei der Domänenvorbereitung werden ACEs im Domänenstamm und in drei integrierten Containern erstellt: für Benutzer, Computer und Domänencontroller.
 
-Details zu den öffentlichen ACEs, die von der Gesamtstrukturvorbereitung und Domänenvorbereitung erstellt und hinzugefügt wurden, finden Sie unter [Änderungen der Gesamtstrukturvorbereitung in lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) und Änderungen, die [von der Domänenvorbereitung in lync Server 2013](lync-server-2013-changes-made-by-domain-preparation.md) in der Bereitstellungsdokumentation vorgenommen wurden.
+Ausführliche Informationen zu den öffentlichen ACEs, die von der Gesamtstrukturvorbereitung und der Domänenvorbereitung erstellt und hinzugefügt wurden, finden Sie unter Änderungen bei der [Gesamtstrukturvorbereitung in lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) und Änderungen, die [von der Domänenvorbereitung in lync Server 2013](lync-server-2013-changes-made-by-domain-preparation.md) in der Bereitstellungsdokumentation vorgenommen wurden.
 
-Organisationen Sperren häufig Active Directory-Domänendienste (AD DS), um Sicherheitsrisiken zu minimieren. Eine gesperrte Active Directory-Umgebung kann jedoch die von lync Server 2013 erforderlichen Berechtigungen einschränken. Dazu kann das Entfernen von ACEs aus Containern und Organisationseinheiten und das Deaktivieren der Vererbung von Berechtigungen für Nutzer-, Kontakt-, InetOrgPerson- oder Computerobjekten gehören. In einer gesperrten Active Directory-Umgebung müssen Berechtigungen für Container und OUs, für die Sie erforderlich sind, manuell festgelegt werden. Ausführliche Informationen finden Sie unter [Vorbereiten einer gesperrten Active Directory-Domänendienste in lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) in der Bereitstellungsdokumentation.
+In Organisationen werden die Active Directory-Domänendienste (Active Directory Domain Services, AD DS) häufig gesperrt, um Sicherheitsrisiken nach Möglichkeit auszuschließen. Eine gesperrte Active Directory Umgebung kann jedoch die Berechtigungen einschränken, die lync Server 2013 erfordert. Dies kann das Entfernen von ACEs aus Containern und Organisationseinheiten (Organizational Units, OUs) und das Deaktivieren der Vererbung von Berechtigungen für Benutzer-, Kontakt-, InetOrgPerson- oder Computerobjekte beinhalten. In einer gesperrten Active Directory-Umgebung müssen Berechtigungen manuell für die entsprechenden Container und Organisationseinheiten festgelegt werden. Ausführliche Informationen finden Sie unter [Vorbereiten einer gesperrten Active Directory-Domänendienste in lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) in der Bereitstellungsdokumentation.
 
 </div>
 
@@ -141,11 +141,11 @@ Organisationen Sperren häufig Active Directory-Domänendienste (AD DS), um Sich
 
 ## <a name="server-information"></a>Serverinformationen
 
-Während der Aktivierung veröffentlicht lync Server 2013 Server Informationen an den drei folgenden Speicherorten in den Active Directory-Domänendiensten:
+Während der Aktivierung veröffentlicht lync Server 2013 Server Informationen an den drei folgenden Speicherorten in Active Directory-Domänendienste:
 
-  - Einen Dienstverbindungspunkt (Service Connection Point, SCP) für jedes Active Directory-Computerobjekt, das einem physikalischen Computer entspricht, auf dem lync Server 2013 installiert ist.
+  - Einen Dienstverbindungspunkt (Service Connection Points, SCP) auf jedem Active Directory Computerobjekt, das einem physischen Computer entspricht, auf dem lync Server 2013 installiert ist.
 
-  - Serverobjekte, die im Container der Klasse **msRTCSIP-Pools** erstellt wurden
+  - Serverobjekte, die im Container der **msRTCSIP-Pools**-Klasse erstellt wurden
 
   - Im Topologie-Generator angegebene vertrauenswürdige Server.
 
@@ -155,15 +155,15 @@ Während der Aktivierung veröffentlicht lync Server 2013 Server Informationen a
 
 ## <a name="service-connection-points"></a>Dienstverbindungspunkte
 
-Jedes lync Server 2013-Objekt in den Active Directory-Domänendiensten verfügt über einen SCP namens RTC Services, der wiederum eine Reihe von Attributen enthält, die jeden Computer identifizieren und die bereitgestellten Dienste angeben. Zu den wichtigeren Attributen der Dienstverbindungspunkte zählen *serviceDNSName *, *serviceDNSNameType*, *serviceClassname* und *serviceBindingInformation *. Asset Management-Anwendungen von Drittanbietern können Serverinformationen bereitstellungsübergreifend abrufen, indem sie diese und andere Attribute von Dienstverbindungspunkten anfragen.
+Jedes lync Server 2013-Objekt in Active Directory-Domänendienste verfügt über einen SCP namens RTC Services, der wiederum eine Reihe von Attributen enthält, mit denen jeder Computer identifiziert und die bereitgestellten Dienste angegeben werden. Zu den wichtigsten SCP-Attributen gehören *servicednsname*, *serviceDNSNameType*, *serviceClassName*und *serviceBindingInformation*. Asset Management-Anwendungen von Drittanbietern können Server Informationen in einer Bereitstellung abrufen, indem Sie diese und andere SCP-Attribute Abfragen.
 
 </div>
 
 <div>
 
-## <a name="active-directory-server-objects"></a>Active Directory-Server Objekte
+## <a name="active-directory-server-objects"></a>Active Directory-Serverobjekte
 
-Jede lync Server 2013-Serverrolle verfügt über ein entsprechendes Active Directory-Objekt, dessen Attribute die von dieser Rolle bereitgestellten Dienste definieren. Wenn ein Standard Edition-Server aktiviert ist oder wenn ein Enterprise Edition-Pool erstellt wird, erstellt lync Server 2013 ein neues **Attribut msRTCSIP-** Objekt im Container **Attribut msRTCSIP-Pools** . Die **msRTCSIP-Pool**-Klasse gibt den vollständig qualifizierten Domänennamen (FQDN) des Pools sowie die Verbindung zwischen den Front-End- und Back-End-Komponenten des Pools an. (Ein Standard Edition-Server wird als logischer Pool angesehen, dessen Front-und Back-Ends auf einem einzelnen Computer angeordnet sind.)
+Jede lync Server 2013 Server Rolle verfügt über ein entsprechendes Active Directory-Objekt, dessen Attribute die von dieser Rolle bereitgestellten Dienste definieren. Wenn ein Standard Edition-Server aktiviert wird oder ein Enterprise Edition-Pool erstellt wird, erstellt lync Server 2013 außerdem ein neues **msRTCSIP-** Objekt im **msRTCSIP-Pool-** Container. In der **msRTCSIP-Pool**-Klasse werden der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) des Pools und die Zuordnung zwischen Front-End- und Back-End-Komponenten des Pools festgelegt. (Ein Standard Edition-Server wird als logischer Pool betrachtet, dessen Front- und Back-Ends gemeinsam auf einem einzigen Computer ausgeführt werden.)
 
 </div>
 
@@ -171,17 +171,17 @@ Jede lync Server 2013-Serverrolle verfügt über ein entsprechendes Active Direc
 
 ## <a name="trusted-servers"></a>Vertrauenswürdige Server
 
-In lync Server 2013 sind vertrauenswürdige Server diejenigen, die beim Ausführen des Topologie-Generators und Veröffentlichen Ihrer Topologie angegeben werden. Die veröffentlichte Topologie wird einschließlich aller Serverinformationen im zentralen Verwaltungsspeicher gespeichert. Nur die im zentralen Verwaltungsspeicher definierten Server sind vertrauenswürdig. In lync Server 2013 ist ein vertrauenswürdiger Server einer, der die folgenden Kriterien erfüllt:
+In lync Server 2013 sind vertrauenswürdige Server diejenigen, die beim Ausführen des Topologie-Generators und Veröffentlichen Ihrer Topologie angegeben werden. Die veröffentlichte Topologie, einschließlich aller Serverinformationen, wird im zentralen Verwaltungsspeicher gespeichert. Nur im zentralen Verwaltungsspeicher definierte Server sind vertrauenswürdig. In lync Server 2013 ist ein vertrauenswürdiger Server einer, der die folgenden Kriterien erfüllt:
 
-  - Der FQDN des Servers ist in der im zentralen Verwaltungsspeicher gespeicherten Topologie enthalten.
+  - Der vollqualifizierte Domänenname (FQDN) des Servers ist in der im zentralen Verwaltungsspeicher gespeicherten Topologie vorhanden.
 
-  - Der Server verfügt über ein gültiges Zertifikat von einer vertrauenswürdigen Zertifizierungsstelle. Ausführliche Informationen finden Sie unter Anforderungen an die [Zertifikatinfrastruktur für lync Server 2013](lync-server-2013-certificate-infrastructure-requirements.md).
+  - Der Server verfügt über ein gültiges Zertifikat von einer vertrauenswürdigen Zertifizierungsstelle. Ausführliche Informationen finden Sie unter [Certificate Infrastructure Requirements for lync Server 2013](lync-server-2013-certificate-infrastructure-requirements.md).
 
-Wird eins dieser Kriterien nicht erfüllt, ist der Server nicht vertrauenswürdig, und die Verbindung mit ihm wird abgelehnt. Diese doppelte Anforderung verhindert einen möglichen, wenn auch unwahrscheinlichen, Angriff, bei dem ein nicht autorisierter Server versucht, den FQDN eines gültigen Servers zu übernehmen.
+Wenn eines dieser Kriterien nicht zutrifft, gilt der Server nicht als vertrauenswürdig und es wird keine Verbindung damit hergestellt. Diese doppelte Anforderung soll einen möglichen, wenn auch unwahrscheinlichen Angriff ausschließen, bei dem ein nicht autorisierter Server versucht, den FQDN eines gültigen Servers zu übernehmen.
 
-Damit Microsoft Office Communications Server 2007 R2 und Microsoft Office Communications Server 2007-Bereitstellungen mit lync Server 2013-Servern kommunizieren können, erstellt lync Server 2013 Container während der Gesamtstrukturvorbereitung für das halten von Listen von vertrauenswürdige Server für frühere Versionen. In der folgenden Tabelle sind die für die Kompatibilität mit früheren Bereitstellungen erstellten Container beschrieben.
+Um Microsoft Office Communications Server 2007 R2 und Microsoft Office Communications Server 2007-Bereitstellungen mit lync Server 2013-Servern zu kommunizieren, erstellt lync Server 2013 außerdem Container während der Gesamtstrukturvorbereitung für das halten von Listen mit vertrauenswürdige Server für frühere Versionen. In der folgenden Tabelle werden die Container beschrieben, die erstellt werden, um die Kompatibilität mit früheren Bereitstellungen zu ermöglichen.
 
-### <a name="trusted-server-lists-and-their-active-directory-containers-for-compatibility-with-previous-releases"></a>Vertrauenswürdige Server Listen und deren Active Directory-Container zur Kompatibilität mit früheren Versionen
+### <a name="trusted-server-lists-and-their-active-directory-containers-for-compatibility-with-previous-releases"></a>Listen mit vertrauenswürdigen Servern und ihre entsprechenden Active Directory-Container für die Kompatibilität mit vorherigen Versionen
 
 <table>
 <colgroup>
@@ -190,26 +190,26 @@ Damit Microsoft Office Communications Server 2007 R2 und Microsoft Office Commun
 </colgroup>
 <thead>
 <tr class="header">
-<th>Liste vertrauenswürdiger Server</th>
+<th>Listen mit vertrauenswürdigen Servern</th>
 <th>Active Directory-Container</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Standard Edition-Server und Enterprise-Pool-Front-End-Server</p></td>
-<td><p>RTC Service/Global Settings</p></td>
+<td><p>Standard Edition-Server und Front End-Server von Enterprise-Pools</p></td>
+<td><p>RTC-Dienst/Globale Einstellungen</p></td>
 </tr>
 <tr class="even">
 <td><p>Konferenzserver</p></td>
-<td><p>RTC Service/Trusted MCUs</p></td>
+<td><p>RTC-Dienst/Vertrauenswürdige MCUs</p></td>
 </tr>
 <tr class="odd">
 <td><p>Webkomponentenserver</p></td>
-<td><p>RTC Service/TrustedWebComponentsServers</p></td>
+<td><p>RTC-Dienst/TrustedWebComponentsServers</p></td>
 </tr>
 <tr class="even">
-<td><p>Vermittlungsservers und Communicator Web Access-Server, Anwendungsserver, Registrierung mit QoE, A/V-Konferenzdienst (auch SIP-Server von Drittanbietern)</p></td>
-<td><p>RTC Service/Trusted Services</p></td>
+<td><p>Vermittlungsserver und Communicator Web Access-Server, Anwendungsserver, Registrierungsstelle mit QoE, A/V-Konferenzdienst (auch SIP-Server von Drittanbietern)</p></td>
+<td><p>RTC-Dienst/Vertrauenswürdige Dienste</p></td>
 </tr>
 <tr class="odd">
 <td><p>Proxyserver</p></td>
@@ -219,7 +219,7 @@ Damit Microsoft Office Communications Server 2007 R2 und Microsoft Office Commun
 </table>
 
 
-Zur Unterstützung von vertrauenswürdigen Servern vorheriger Versionen müssen Sie das Tool bewährte Methoden Analyzer ausführen. Details zum Ausführen des Best Practices Analyzer finden Sie [http://go.microsoft.com/fwlink/p/?LinkId=330633](http://go.microsoft.com/fwlink/p/?linkid=330633)unter.
+Um vertrauenswürdige Server früherer Versionen zu unterstützen, müssen Sie das Tool Best Practices Analyzer ausführen. Ausführliche Informationen zum Durchführen von Best Practices Analyzer [http://go.microsoft.com/fwlink/p/?LinkId=330633](http://go.microsoft.com/fwlink/p/?linkid=330633)finden Sie unter.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lync Server-Verwaltungstools'
+title: 'Lync Server 2013: lync Server Verwaltungstools'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a34561e9880870b53cd8f7aaad2fe13cfe33c8d4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f6de54e91129351a153c9cf4e08925d62eeb342c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742225"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030238"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-administrative-tools"></a>Lync Server 2013-Verwaltungstools
+# <a name="lync-server-2013-administrative-tools"></a>Lync Server 2013 Verwaltungstools
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41742225"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+_**Letztes Änderungsstand des Themas:** 2013-02-21_
 
 In diesem Thema werden die Verwaltungstools für lync Server 2013 beschrieben.
 
-Die Verwaltungstools werden standardmäßig auf jedem lync Server-Server installiert. Darüber hinaus können Sie die Verwaltungstools auf anderen Computern installieren, beispielsweise in dedizierten Verwaltungskonsolen. Verfahren zum Installieren der Verwaltungstools finden Sie unter [Installieren von lync Server 2013-Verwaltungstools](lync-server-2013-install-lync-server-administrative-tools.md). Verfahren zum Öffnen der Tools zum Durchführen von Verwaltungsaufgaben finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+Die Verwaltungstools werden auf jedem lync Server Server standardmäßig installiert. Sie können die Verwaltungstools auch auf anderen Computern wie etwa dedizierten Verwaltungskonsolen installieren. Verfahren zum Installieren der Verwaltungstools finden Sie unter [install lync Server 2013 Administration Tools](lync-server-2013-install-lync-server-administrative-tools.md). Verfahren zum Öffnen der Tools zum Ausführen von Verwaltungsaufgaben finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-Stellen Sie sicher, dass Sie die Anforderungen für Infrastruktur, Betriebssystem, Software und Administratorrechte überprüfen, bevor Sie die lync Server-Verwaltungstools installieren oder verwenden. Details zu den Infrastrukturanforderungen finden Sie unter [Infrastrukturanforderungen für Verwaltungstools in lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Ausführliche Informationen zu den Anforderungen des Betriebssystems und der Software zum Installieren der lync Server-Verwaltungstools finden Sie unter [Unterstützung von Server-und Tools-Betriebssystemen in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [zusätzliche Softwareanforderungen für lync Server 2013](lync-server-2013-additional-software-requirements.md)und [zusätzliche Server Unterstützung und-Anforderungen in lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). Die für die Installation und Verwendung der Tools erforderlichen Benutzerrechte und Berechtigungen sind unter [Administrator Rechte und-Berechtigungen für die Einrichtung und Verwaltung von lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)beschrieben.
+Stellen Sie sicher, dass Sie die Anforderungen an Infrastruktur, Betriebssystem, Software und Administratorrechte überprüfen, bevor Sie die lync Server Verwaltungstools installieren oder verwenden. Ausführliche Informationen zu den Infrastrukturanforderungen finden Sie unter [Administrative Tools Infrastructure Requirements in lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Ausführliche Informationen zu den Betriebssystem-und Softwareanforderungen für die Installation der lync Server Verwaltungstools finden Sie unter [Betriebssystemunterstützung für Server und Tools in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [zusätzliche Softwareanforderungen für lync Server 2013](lync-server-2013-additional-software-requirements.md)sowie [zusätzliche Server Unterstützung und-Anforderungen in lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). Die für die Installation und Verwendung der Tools erforderlichen Benutzerrechte und-Berechtigungen werden in den [Administrator Rechten und-Berechtigungen beschrieben, die für die Einrichtung und Verwaltung von lync Server 2013 erforderlich](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)sind.
 
-Die Verwaltungstools bestehen aus folgenden Themen:
+Zu den Verwaltungstools gehören:
 
-  - **Der lync Server-Bereitstellungs-Assistent**   verwendet zum Bereitstellen von lync Server und zum Installieren aller Verwaltungstools.
+  - **Lync Server Bereitstellungs-Assistent**   wird zum Bereitstellen von lync Server und zum Installieren aller Verwaltungstools verwendet.
 
-  - **Der lync Server Topology Builder**   verwendet, um Komponenten in Ihrer Bereitstellung zu definieren.
+  - **Lync Server Topologie-Generator**   wird zum Definieren von Komponenten in der Bereitstellung verwendet.
 
-  - **Lync Server Control Panel**   verwenden Sie für die fortlaufende Verwaltung Ihrer Bereitstellung mithilfe einer webbasierten Benutzeroberfläche.
+  - **Lync Server-Systemsteuerung**   für die laufende Verwaltung Ihrer Bereitstellung mithilfe einer webbasierten Schnittstelle verwenden.
 
-  - **Lync Server-Verwaltungsshell**   verwenden Sie die Befehlszeile für die fortlaufende Verwaltung Ihrer Bereitstellung.
+  - **Lync Server-Verwaltungsshell**   für die laufende Verwaltung Ihrer Bereitstellung mithilfe der Befehlszeile verwenden.
 
-  - **Das lync Server-Protokollierungstool**   verwendet, um Probleme in Ihrer Bereitstellung zu beheben.
+  - **Lync Server Protokollierungstool**   zur Behebung von Problemen in Ihrer Bereitstellung verwenden.
 
-  - **Der zentralisierte Protokollierungsdienst**   sammelt Protokolle und Ablaufverfolgungs-Dateien von einem Computer, Pool, Standort oder Global. Wählen Sie Szenarien aus, die Anbieter, Flags und Ablaufverfolgungsebenen enthalten, und definieren Sie Sie. Die Protokollierung wird gesammelt, aggregiert und mit Tools wie textbasierten Tools oder Snooper. exe angezeigt.
+  - **Der zentralisierte Protokollierungsdienst**   sammelt Protokolle und Ablaufverfolgungsdateien von einem Computer, Pool, Standort oder Global. Auswählen und Definieren von Szenarien, die Anbieter, Kennzeichen und Ablaufverfolgungsstufen enthalten Die Protokollierung wird gesammelt, aggregiert und mit Tools wie einem textbasierten Tool oder Snooper. exe angezeigt.
 
-Sie können Ihre Bereitstellung in erster Linie mithilfe des Topologie-Generators und der lync Server-Systemsteuerung verwalten.
+Sie können Ihre Bereitstellung verwalten, indem Sie in erster Linie den Topologie-Generator und lync Server-Systemsteuerung verwenden.
 
 <div>
 
 ## <a name="deployment-wizard"></a>Bereitstellungs-Assistent
 
-Sie müssen den lync Server-Bereitstellungs-Assistenten auf dem Installationsdatenträger verwenden, um alle Verwaltungstools auf einem Computer zu installieren, auf dem Sie lync Server noch nicht installiert haben. Während des Installationsvorgangs für die Verwaltungstools wird der lync Server-Bereitstellungs-Assistent lokal zusammen mit den anderen Tools installiert, damit Sie ihn später zum Installieren von Dateien für zusätzliche Komponenten oder Entfernen von Dateien für Komponenten verwenden können, die nicht auf der Computer.
+Sie müssen den auf dem Installationsdatenträger enthaltenen lync Server-Bereitstellungs-Assistenten verwenden, um alle Verwaltungstools auf einem Computer zu installieren, auf dem Sie lync Server noch nicht installiert haben. Während der Installation von Verwaltungstools wird der lync Server-Bereitstellungs-Assistent lokal zusammen mit den anderen Tools installiert, sodass Sie ihn später zum Installieren von Dateien für zusätzliche Komponenten oder zum Entfernen von Dateien für Komponenten verwenden können, die nicht auf der Computer.
 
-Details dazu, wie Sie den lync Server-Bereitstellungs-Assistenten zum ersten Mal auf den lync Server-Installationsmedien ausführen können, finden Sie unter [Installieren von lync Server 2013-Verwaltungstools](lync-server-2013-install-lync-server-administrative-tools.md).
+Ausführliche Informationen dazu, wie Sie den lync Server-Bereitstellungs-Assistenten erstmals auf dem lync Server Installationsmedium ausführen, finden Sie unter [install lync Server 2013 Administration Tools](lync-server-2013-install-lync-server-administrative-tools.md).
 
 </div>
 
@@ -73,7 +73,7 @@ Details dazu, wie Sie den lync Server-Bereitstellungs-Assistenten zum ersten Mal
 
 ## <a name="topology-builder"></a>Topologie-Generator
 
-Details zu Bereitstellungsaufgaben, die Sie mithilfe des Topologie-Generators ausführen können, finden Sie in der Bereitstellungsdokumentation für jede Serverrolle.
+Ausführliche Informationen zu Bereitstellungsaufgaben, die Sie mithilfe des Topologie-Generators ausführen können, finden Sie in der Bereitstellungsdokumentation für jede Serverrolle.
 
 </div>
 
@@ -81,9 +81,9 @@ Details zu Bereitstellungsaufgaben, die Sie mithilfe des Topologie-Generators au
 
 ## <a name="lync-server-control-panel"></a>Lync Server-Systemsteuerung
 
-Sie können die lync Server 2013-Systemsteuerung verwenden, um die meisten administrativen Aufgaben auszuführen, die zum Verwalten und Verwalten von lync Server 2013 erforderlich sind. Die lync Server-Systemsteuerung bietet Ihnen eine grafische Benutzeroberfläche (Graphical User Interface, GUI) zum Verwalten der Konfiguration der Server, auf denen lync Server ausgeführt wird, zusätzlich zu den Benutzern, Clients und Geräten in Ihrer Organisation. Die lync Server-Verwaltungsshell verwendet die lync Server-Systemsteuerung als den zugrunde liegenden Mechanismus zum Ausführen der lync Server-Konfiguration.
+Sie können lync Server 2013 Systemsteuerung verwenden, um die meisten administrativen Aufgaben auszuführen, die zum Verwalten und warten von lync Server 2013 erforderlich sind. Lync Server-Systemsteuerung bietet Ihnen eine grafische Benutzeroberfläche zur Verwaltung der Konfiguration der Server, auf denen lync Server läuft, zusätzlich zu den Benutzern, Clients und Geräten in Ihrer Organisation. Lync Server-Verwaltungsshell verwendet lync Server-Systemsteuerung als den zugrunde liegenden Mechanismus zum Ausführen lync Server Konfiguration.
 
-Die lync Server-Systemsteuerung wird automatisch auf jedem lync Server-Front-End-Server oder Standard Edition-Server installiert. In dieser Version verwalten Sie Edgeserver Remote. Sie können auch die lync Server-Systemsteuerung auf einem anderen Computer installieren, beispielsweise eine Verwaltungskonsole, auf der Sie lync Server zentral verwalten möchten. Ausführliche Informationen finden Sie unter [Installieren von lync Server 2013-Verwaltungstools](lync-server-2013-install-lync-server-administrative-tools.md).
+Lync Server-Systemsteuerung wird automatisch auf jeder lync Server Front-End-Server oder Standard Edition-Server installiert. In dieser Version werden Edgeserver remote verwaltet. Sie können lync Server-Systemsteuerung auch auf einem anderen Computer installieren, beispielsweise in einer Verwaltungskonsole, von der Sie lync Server zentral verwalten möchten. Ausführliche Informationen finden Sie unter [install lync Server 2013 Administration Tools](lync-server-2013-install-lync-server-administrative-tools.md).
 
 <div>
 
@@ -91,9 +91,9 @@ Die lync Server-Systemsteuerung wird automatisch auf jedem lync Server-Front-End
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>Wenn Sie die Einstellungen mithilfe der lync Server-Systemsteuerung konfigurieren möchten, müssen Sie mit einem Konto angemeldet sein, das der Rolle CsAdministrator zugewiesen ist. Details zu den vordefinierten Administratorrollen, die in lync Server 2013 zur Verfügung stehen, finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planen der rollenbasierten Zugriffssteuerung in lync Server 2013</A>.</P>
+> <P>Zum Konfigurieren von Einstellungen mit lync Server-Systemsteuerung müssen Sie mit einem Konto angemeldet sein, das der Rolle CsAdministrator zugewiesen ist. Ausführliche Informationen zu den in lync Server 2013 verfügbaren vordefinierten Administratorrollen finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Role-Based Access Control in lync Server 2013</A>.</P>
 > <LI>
-> <P>Wenn Sie die Einstellungen mithilfe der lync Server-Systemsteuerung konfigurieren möchten, müssen Sie auch einen Computer mit einer Mindestauflösung von 1024 x 768 verwenden.</P></LI></UL>
+> <P>Zum Konfigurieren von Einstellungen mit lync Server-Systemsteuerung müssen Sie auch einen Computer mit einer minimalen Bildschirmauflösung von 1024 x 768 verwenden.</P></LI></UL>
 
 
 
@@ -105,21 +105,21 @@ Die lync Server-Systemsteuerung wird automatisch auf jedem lync Server-Front-End
 
 ## <a name="lync-server-management-shell"></a>Lync Server-Verwaltungsshell
 
-In lync Server bietet die lync Server-Verwaltungsshell eine neue Methode für Verwaltung und Verwaltung. Bei der lync Server-Verwaltungsshell handelt es sich um eine leistungsfähige Verwaltungsschnittstelle, die auf der Windows PowerShell-Befehlszeilenschnittstelle basiert und einen umfassenden Satz an Cmdlets enthält, die für lync Server spezifisch sind. Mit der lync Server-Verwaltungsshell erhalten Sie einen umfangreichen Satz an Konfigurations-und Automatisierungs Steuerelementen. Der Topologie-Generator und die lync Server-Systemsteuerung implementieren beide Teilmengen dieser Cmdlets, um die Verwaltung von lync Server zu unterstützen. Die lync Server-Verwaltungsshell umfasst Cmdlets für alle lync Server-Verwaltungsaufgaben, und Sie können die Cmdlets einzeln verwenden, um Ihre Bereitstellung zu verwalten. Ausführliche Informationen finden Sie unter Dokumentation zur [lync Server 2013-Verwaltungsshell](lync-server-2013-lync-server-management-shell.md) oder in der Befehlszeilenhilfe für die einzelnen Cmdlets.
+In lync Server bietet der lync Server-Verwaltungsshell eine neue Methode für Verwaltung und Verwaltung. Lync Server-Verwaltungsshell ist eine leistungsstarke Verwaltungsschnittstelle, die auf der Windows PowerShell-Befehlszeilenschnittstelle basiert und eine umfassende Gruppe von lync Server spezifischen Cmdlets enthält. Mit lync Server-Verwaltungsshell erhalten Sie eine umfangreiche Reihe von Konfigurations-und Automatisierungs Steuerelementen. Topologie-Generator und lync Server-Systemsteuerung implementieren beide Teilmengen dieser Cmdlets, um die Verwaltung von lync Server zu unterstützen. Das lync Server-Verwaltungsshell enthält Cmdlets für alle lync Server Verwaltungsaufgaben, und Sie können die Cmdlets einzeln zum Verwalten Ihrer Bereitstellung verwenden. Ausführliche Informationen finden Sie in der Dokumentation zu [lync Server 2013 Verwaltungsshell](lync-server-2013-lync-server-management-shell.md) oder in der Befehlszeilenhilfe für jedes Cmdlet.
 
 </div>
 
 <div>
 
-## <a name="logging-tool"></a>Protokollierungs Tool
+## <a name="logging-tool"></a>Protokollierungstool
 
-Das lync Server-Protokollierungs Tool vereinfacht die Problembehandlung, indem Protokollierungs-und Ablaufverfolgungsinformationen vom Produkt erfasst werden, während das Produkt ausgeführt wird. Sie können das Tool verwenden, um Debug-Sitzungen für eine beliebige lync Server-Serverrolle auszuführen. Details zum Protokollierungstool finden Sie in der Dokumentation zum Protokollierungstool für lync Server 2010 in der [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)TechNet-Bibliothek unter.
+Das lync Server Protokollierungs Tool erleichtert die Problembehandlung durch Erfassen von Protokollierungs-und Ablaufverfolgungsinformationen aus dem Produkt während der Ausführung des Produkts. Sie können das Tool verwenden, um Debug-Sitzungen auf jeder lync Server-Server Rolle auszuführen. Ausführliche Informationen zum Protokollierungstool finden Sie in der Dokumentation zum lync Server 2010 Protokollierungstool in der [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)TechNet-Bibliothek unter.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Der zentralisierte Protokollierungsdienst wird für alle Protokollierungs Sammlung über das lync Server-Protokollierungs Tool unter allen Umständen empfohlen. Das lync Server-Protokollierungs Tool funktioniert weiterhin, aber es stört oder wird größtenteils wirkungslos, wenn der zentralisierte Protokollierungsdienst bereits ausgeführt wird. Sie sollten nur den zentralisierten Protokollierungsdienst oder das lync Server-Protokollierungs Tool verwenden, aber nie beide gleichzeitig. Weitere Informationen zum zentralen Protokollierungsdienst und dazu, warum Sie ihn ausschließlich verwenden sollten, finden Sie unter <A href="lync-server-2013-using-the-centralized-logging-service.md">Verwenden des zentralen Protokollierungsdiensts in lync Server 2013</A>.
+> Der zentralisierte Protokollierungsdienst wird für alle Protokollierungs Sammlungen über das lync Server Protokollierungs Tool unter allen Umständen empfohlen. Das lync Server-Protokollierungs Tool funktioniert zwar weiterhin, es stört oder wird jedoch meist wirkungslos, wenn der zentralisierte Protokollierungsdienst bereits aktiv ist. Sie sollten nur den zentralisierten Protokollierungsdienst oder das lync Server Protokollierungs Tool verwenden, jedoch niemals gleichzeitig. Weitere Informationen zum zentralisierten Protokollierungsdienst und warum er ausschließlich verwendet werden sollte, finden Sie unter <A href="lync-server-2013-using-the-centralized-logging-service.md">using the zentralisiert Logging Service in lync Server 2013</A>.
 
 
 
@@ -133,19 +133,19 @@ Das lync Server-Protokollierungs Tool vereinfacht die Problembehandlung, indem P
 
   - [Infrastrukturanforderungen für Verwaltungstools in lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md)
 
-  - [Betriebssystemunterstützung für Server und Tools in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)
+  - [Betriebssystemunterstützung für Server und Tools in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md)
 
-  - [Softwareanforderungen für Verwaltungstools in Lync Server 2013](lync-server-2013-administrative-tools-software-requirements.md)
+  - [Softwareanforderungen für Verwaltungstools in lync Server 2013](lync-server-2013-administrative-tools-software-requirements.md)
 
-  - [Erforderliche Administratorrechte und Gruppenmitgliedschaften für die Installation und Verwaltung von Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)
+  - [Für die Einrichtung und Verwaltung von lync Server 2013 erforderliche Administrator Rechte und-Berechtigungen](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)
 
-  - [Anforderungen an das Veröffentlichen einer Topologie in Lync Server 2013](lync-server-2013-requirements-to-publish-a-topology.md)
+  - [Anforderungen zum Veröffentlichen einer Topologie in lync Server 2013](lync-server-2013-requirements-to-publish-a-topology.md)
 
-  - [Installieren von Lync Server 2013-Verwaltungstools](lync-server-2013-install-lync-server-administrative-tools.md)
+  - [Installieren von lync Server 2013 Verwaltungstools](lync-server-2013-install-lync-server-administrative-tools.md)
 
-  - [Öffnen der lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md)
+  - [Öffnen lync Server 2013 Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md)
 
-  - [Problembehandlung bei der lync Server 2013-Systemsteuerung](lync-server-2013-troubleshooting-lync-server-2013-control-panel.md)
+  - [Problembehandlung für die Lync Server 2013-Systemsteuerung](lync-server-2013-troubleshooting-lync-server-2013-control-panel.md)
 
   - [Verwenden des zentralisierten Protokollierungsdiensts in lync Server 2013](lync-server-2013-using-the-centralized-logging-service.md)
 
@@ -156,7 +156,7 @@ Das lync Server-Protokollierungs Tool vereinfacht die Problembehandlung, indem P
 ## <a name="see-also"></a>Siehe auch
 
 
-[Verwaltungsshell für Lync Server 2013](lync-server-2013-lync-server-management-shell.md)  
+[Lync Server 2013 Management-Shell](lync-server-2013-lync-server-management-shell.md)  
   
 
 </div>

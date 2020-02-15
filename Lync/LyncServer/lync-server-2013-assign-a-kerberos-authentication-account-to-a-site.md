@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Zuweisen eines Kerberos-Authentifizierungskontos zu einem Standort'
+title: 'Lync Server 2013: Zuweisen eines Kerberos-Authentifizierungs Kontos zu einem Standort'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183929
 ms.date: 04/18/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 230341bfc6b26bebd22b55195280ffdff130873d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf69e71dd66337551557bddd3bfb7700257a7f69
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738385"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029276"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assign-a-kerberos-authentication-account-to-a-site-in-lync-server-2013"></a>Zuweisen eines Kerberos-Authentifizierungskontos zu einem Standort in Lync Server 2013
+# <a name="assign-a-kerberos-authentication-account-to-a-site-in-lync-server-2013"></a>Zuweisen eines Kerberos-Authentifizierungs Kontos zu einem Standort in lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41738385"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2017-04-18_
+_**Letztes Änderungsstand des Themas:** 2017-04-18_
 
-Um dieses Verfahren erfolgreich abzuschließen, sollten Sie als Benutzer angemeldet sein, der Mitglied der RTCUniversalServerAdmins-Gruppe ist.
+Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie als Mitglied der Gruppe "RTCUniversalServerAdmins" angemeldet sein.
 
-Nachdem Sie das Kerberos-Konto erstellt haben, müssen Sie es einer Website zuweisen. Hierbei handelt es sich um eine lync Server 2013-Website, nicht um einen Active Directory-Standort. Sie können pro Bereitstellung mehrere Kerberos-Authentifizierungs Konten erstellen, aber Sie können einer Website nur ein Konto zuweisen. Gehen Sie wie folgt vor, um einer Website ein zuvor erstelltes Kerberos-Authentifizierungs Konto zuzuweisen. Details zum Erstellen des Kerberos-Kontos finden Sie unter [Erstellen eines Kerberos-Authentifizierungs Kontos in lync Server 2013](lync-server-2013-create-a-kerberos-authentication-account.md).
+Nach der Erstellung des Kerberos-Kontos müssen Sie dieses einem Standort zuweisen. Dies ist eine lync Server 2013 Website, keine Active Directory Website. Sie können pro Bereitstellung mehrere Kerberos-Authentifizierungskonten erstellen, einem Standort kann jedoch nur jeweils ein Konto zugewiesen werden. Verwenden Sie das folgende Verfahren, um ein zuvor erstelltes Kerberos-Authentifizierungskonto einem Standort zuzuweisen. Ausführliche Informationen zum Erstellen des Kerberos-Kontos finden Sie unter [Erstellen eines Kerberos-Authentifizierungs Kontos in lync Server 2013](lync-server-2013-create-a-kerberos-authentication-account.md).
 
 <div>
 
-## <a name="to-assign-a-kerberos-authentication-account-to-a-site"></a>So weisen Sie einer Website ein Kerberos-Authentifizierungs Konto zu
+## <a name="to-assign-a-kerberos-authentication-account-to-a-site"></a>So weisen Sie ein Kerberos-Authentifizierungskonto einem Standort zu
 
-1.  Melden Sie sich als Mitglied der RTCUniversalServerAdmins-Gruppe an einem Computer in der Domäne mit lync Server 2013 oder auf einem Computer an, auf dem die Verwaltungstools installiert sind.
+1.  Melden Sie sich als Mitglied der Gruppe RTCUniversalServerAdmins bei einem Computer in der Domäne an, auf dem lync Server 2013 oder an einem Computer mit den Verwaltungstools installiert ist.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Führen Sie in der Befehlszeile die beiden folgenden Befehle aus:
+3.  Führen Sie an der Befehlszeile die folgenden zwei Befehle aus:
     
        ```powershell
         New-CsKerberosAccountAssignment -UserAccount "Domain\UserAccount"
@@ -75,12 +75,12 @@ Nachdem Sie das Kerberos-Konto erstellt haben, müssen Sie es einer Website zuwe
     
 
     > [!NOTE]  
-    > Sie müssen den Benutzerkonto-Parameter unter Verwendung des Formats Domäne \ Benutzer angeben. Das User@Domain. Extension-Format wird nicht unterstützt, um auf die für die Kerberos-Authentifizierung erstellten Computerobjekte zu verweisen.
+    > Sie müssen den Parameter "UserAccount" im Format "Domäne\Benutzer" angeben. Das Format "Benutzer@Domäne.Erweiterung" wird zur Referenzierung der für die Kerberos-Authentifizierung erstellten Computerobjekte nicht unterstützt.
 
     
     </div>
 
-4.  **Optional**: Sie haben möglicherweise einen überschreiben-FQDN (Fully Qualified Domain Name, vollständig qualifizierter Domänenname) für Ihre Webdienste konfiguriert, wie pro [Änderung der URL für Webdienste in lync Server 2013](lync-server-2013-change-the-web-services-url.md). Wenn dies der Fall ist, müssen Sie auch einen SPN für diesen FQDN hinzufügen. Wenn der FQDN beispielsweise Webservices. contoso. local lautete, würden Sie Folgendes ausführen:
+4.  **Optional**: Sie haben möglicherweise einen außer Kraft setzen-FQDN (vollqualifizierter Domänenname) für Ihre Webservices konfiguriert, wie pro [Änderung der Webdienste-URL in lync Server 2013](lync-server-2013-change-the-web-services-url.md). Wenn dies der Fall ist, müssen Sie auch einen SPN für diesen FQDN hinzufügen. Wenn der FQDN beispielsweise "Webservices. contoso. local" war, führen Sie Folgendes aus:
     
     ```console
     setspn -S http/webservices.contoso.local kerbauth
@@ -90,7 +90,7 @@ Nachdem Sie das Kerberos-Konto erstellt haben, müssen Sie es einer Website zuwe
     
 
     > [!IMPORTANT]  
-    > Nachdem Sie die Kerberos-Authentifizierung geändert haben, beispielsweise ein Konto hinzugefügt oder ein Konto entfernt haben, müssen Sie <STRONG>enable-CsTopology</STRONG> über die Eingabeaufforderung der lync Server-Verwaltungsshell ausführen.
+    > Nachdem Sie Änderungen an der Kerberos-Authentifizierung vorgenommen haben, wie beispielsweise das Hinzufügen eines Kontos oder das Entfernen eines Kontos, müssen Sie <STRONG>enable-CsTopology</STRONG> über die lync Server-Verwaltungsshell Eingabeaufforderung ausführen.
 
     
     </div>

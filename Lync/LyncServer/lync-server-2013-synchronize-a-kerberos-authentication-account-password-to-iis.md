@@ -1,5 +1,5 @@
 ---
-title: Synchronisieren eines Kennworts für das Kerberos-Authentifizierungskonto mit IIS
+title: Synchronisieren eines Kennworts für das Kerberos-Authentifizierungs Konto mit IIS
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183296
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86e71f87c20064e542aa6a8db1d9b38048c5f736
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 811134697ea04f1dab3637e648ff89455fca07d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731655"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029746"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="synchronize-a-kerberos-authentication-account-password-to-iis-in-lync-server-2013"></a>Synchronisieren eines Kennworts für das Kerberos-Authentifizierungskonto mit IIS in Lync Server 2013
+# <a name="synchronize-a-kerberos-authentication-account-password-to-iis-in-lync-server-2013"></a>Synchronisieren eines Kennworts für das Kerberos-Authentifizierungs Konto mit IIS in lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41731655"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2010-11-08_
+_**Letztes Änderungsstand des Themas:** 2010-11-08_
 
-Um dieses Verfahren erfolgreich abzuschließen, sollten Sie als Benutzer angemeldet sein, der Mitglied der RTCUniversalServerAdmins-Gruppe ist.
+Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie als Mitglied der Gruppe "RTCUniversalServerAdmins" angemeldet sein.
 
-Auf einer Website können Front-End-Server, Standard Edition-Server und Directors ein Kerberos-Authentifizierungs Konto verwenden, um Anforderungen an den Webdienst Dienst zu authentifizieren. Dieses Verfahren sucht jeden Server mit Webdiensten auf einer Website, der ein Kerberos-Konto zugewiesen wurde, und aktualisiert die Konfigurationseinstellungen für Internet Informationsdienste (IIS) so, dass das Kerberos-Konto verwendet wird. Ausführliche Informationen finden Sie unter [Festlegen eines Kennworts für ein Kerberos-Authentifizierungs Konto auf einem Server in lync Server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md).
+Auf einem Standort können Front-End-Server, Standard Edition-Server und Directors ein Kerberos-Authentifizierungs Konto verwenden, um Anforderungen an den Webdienste Dienst zu authentifizieren. Dieses Verfahren sucht jeden Server, auf dem Webdienste ausgeführt wird, auf einem Standort, dem ein Kerberos-Konto zugewiesen wurde, und aktualisiert die Internet Information Services (IIS) Konfigurationseinstellungen für die Verwendung des Kerberos-Kontos. Ausführliche Informationen finden Sie unter [Festlegen eines Kennworts für das Kerberos-Authentifizierungs Konto auf einem Server in lync Server 2013](lync-server-2013-set-a-kerberos-authentication-account-password-on-a-server.md).
 
 <div>
 
-## <a name="to-set-and-configure-a-kerberos-authentication-account-password"></a>So können Sie ein Kennwort für ein Kerberos-Authentifizierungs Konto festlegen und konfigurieren
+## <a name="to-set-and-configure-a-kerberos-authentication-account-password"></a>So legen Sie ein Kennwort für das Kerberos-Authentifizierungskonto fest
 
-1.  Melden Sie sich bei einem Quellcomputer (wie fe01.contoso.com) als Mitglied der RTCUniversalServerAdmins-Gruppe an.
+1.  Melden Sie sich bei einem Quellcomputer (z. B. "fe01.contoso.com") als Mitglied der Gruppe "RTCUniversalServerAdmins" an.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Führen Sie in der Befehlszeile der lync Server-Verwaltungsshell die folgenden beiden Befehle aus:
+3.  Führen Sie in der lync Server-Verwaltungsshell Befehlszeile die folgenden zwei Befehle aus:
     
         Set-CsKerberosAccountPassword -FromComputer SourceComputer -ToComputer DestinationComputer
     
@@ -61,7 +61,7 @@ Auf einer Website können Front-End-Server, Standard Edition-Server und Director
     
 
     > [!IMPORTANT]
-    > Der Name des Quellcomputers und des Zielcomputers muss ein FQDN-Name (Fully Qualified Domain) des Servers sein. Sie können den Pool-FQDN nur verwenden, wenn der Poolname mit dem Namen des Computers identisch ist, den Sie als Quellcomputer oder Zielcomputer verwenden.
+    > Bei den Namen für den Quell- und den Zielcomputer muss es sich um den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Servers handeln. Sie können den Pool-FQDN nur dann verwenden, wenn der Poolname mit dem Namen des Computers übereinstimmt, den Sie als Quell- oder Zielcomputer verwenden.
 
     
     </div>
@@ -70,7 +70,7 @@ Auf einer Website können Front-End-Server, Standard Edition-Server und Director
     
 
     > [!IMPORTANT]
-    > Nachdem Sie die Kerberos-Authentifizierung geändert haben, beispielsweise ein Konto hinzugefügt oder ein Konto entfernt haben, müssen Sie <STRONG>enable-CsTopology</STRONG> über die Eingabeaufforderung der lync Server-Verwaltungsshell ausführen.
+    > Nachdem Sie Änderungen an der Kerberos-Authentifizierung vorgenommen haben, wie beispielsweise das Hinzufügen eines Kontos oder das Entfernen eines Kontos, müssen Sie <STRONG>enable-CsTopology</STRONG> über die lync Server-Verwaltungsshell Eingabeaufforderung ausführen.
 
     
     </div>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48184556
 ms.date: 12/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e247f83b00d226024f9fc671f2d744f1ee7fdf0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 89260bb2e854087ec1167ff0fd8039c58ac99300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738425"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029316"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41738425"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-12-08_
+_**Letztes Änderungsstand des Themas:** 2015-12-08_
 
-Die AppSharingMetricsThreshold-Tabelle enthält optimale und akzeptable Werte für die Qualität der Erfahrungs Metrik, die bei der Anwendungsfreigabe verwendet wird. Diese Schwellenwerte werden verwendet, um festzustellen, ob die Anwendungsfreigabe Erfahrung als "schlecht" klassifiziert werden soll.
+In der AppSharingMetricsThreshold-Tabelle sind die optimalen und zulässigen Werte für die QoE-Daten (Quality of Experience) enthalten, die für die Anwendungsfreigabe verwendet werden. Diese Schwellenwerte werden verwendet, um zu ermitteln, ob die Anwendungsfreigabemöglichkeiten als schlecht klassifiziert werden.
 
 Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
 
@@ -62,31 +62,31 @@ Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
 <td><p><strong>CallType</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Der Typ des Anrufs, der getätigt wurde.</p></td>
+<td><p>Anruftyp, der getätigt wurde.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AppliedBandwidthLimitOptimal</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Optimale Bandbreitenbeschränkung bei der Anwendungsfreigabe. Der Standardwert ist 1 Million.</p></td>
+<td><p>Optimale Bandbreitenbeschränkung für die Anwendungsfreigabe. Der Standardwert lautet 1000000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AppliedBandwidthLimitAcceptable</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Zulässige Bandbreitenbeschränkung für die Anwendungsfreigabe. Der Standardwert ist 500000.</p></td>
+<td><p>Zulässige Bandbreitenbeschränkung für die Anwendungsfreigabe. Der Standardwert lautet 500000.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SpoiledTilePercentTotalOptimal</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td></td>
-<td><p>Optimaler Prozentsatz für "verwöhnte" Kacheln für die Klassifizierung einer Anwendungsfreigabe Qualität. Dieser Wert ist der Prozentsatz des Inhalts des mitbenutzenden, der den Betrachter nicht erreicht hat. Inhalte werden möglicherweise verworfen (oder verdorben), wenn der mitbenutzende die Kacheln aus der grafikquelle abwirft oder die ASMCU-Kacheln Kacheln von Sharer abwirft. Der Standardwert ist 11 Prozent.</p></td>
+<td><p>Optimaler Prozentsatzwert für „beschädigte“ Kacheln bei der Klassifizierung der Anwendungsfreigabequalität. Dieser Wert gibt den Prozentsatz des Inhalts an, der vom freigebenden Benutzer nicht an den anzeigenden Benutzer weitergegeben wurde. Inhalt kann gelöscht (oder beschädigt) werden, wenn der freigebende Benutzer Kacheln aus der Grafikquelle löscht oder wenn ASMCU-Kacheln die Kacheln des freigebenden Benutzers löschen. Der Standardwert lautet 11 Prozent</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>SpoiledTilePercentTotalAcceptable</strong></p></td>
-<td><p>Dezimal (5; 2)</p></td>
+<td><p>Decimal (5, 2)</p></td>
 <td></td>
-<td><p>cceptable-Prozentsatz für "verdorbene" Kacheln für die Klassifizierung einer Anwendungsfreigabe Qualität. Dieser Wert ist der Prozentsatz des Inhalts des mitbenutzenden, der den Betrachter nicht erreicht hat. Inhalte werden möglicherweise verworfen (oder verdorben), wenn der mitbenutzende die Kacheln aus der grafikquelle abwirft oder die ASMCU-Kacheln Kacheln von Sharer abwirft. Der Standardwert ist 36 Prozent.</p></td>
+<td><p>Optimaler Prozentsatzwert für „beschädigte“ Kacheln bei der Klassifizierung der Anwendungsfreigabequalität. Dieser Wert gibt den Prozentsatz des Inhalts an, der vom freigebenden Benutzer nicht an den anzeigenden Benutzer weitergegeben wurde. Inhalt kann gelöscht (oder beschädigt) werden, wenn der freigebende Benutzer Kacheln aus der Grafikquelle löscht, oder wenn ASMCU-Kacheln die Kacheln des freigebenden Benutzers löschen. Der Standardwert lautet 36 Prozent</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>JitterInterArrivalOptimal</strong></p></td>
@@ -102,56 +102,56 @@ Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayBurstDensityOptimal</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
 <td><p>Diese Spalte wird in Microsoft lync Server 2013 nicht verwendet.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayBurstDensityAcceptable</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
 <td><p>Diese Spalte wird in Microsoft lync Server 2013 nicht verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyBurstDensityOptimal</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
 <td><p>Diese Spalte wird in Microsoft lync Server 2013 nicht verwendet.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyBurstDensityAcceptable</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
 <td><p>Diese Spalte wird in Microsoft lync Server 2013 nicht verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RelativeOneWayAverageOptimal</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Optimaler Wert für die relative unidirektionale Verzögerung zwischen den beiden Medien Endpunkten, die an der Anwendungsfreigabe beteiligt sind. Dies ist ein Single-Hop-Latenzmaß. Der Standardwert ist 1,0 Sekunden.</p>
+<td><p>Optimaler Wert für die relative unidirektionale Verzögerung zwischen den beiden Medienendpunkten, die in die Anwendungsfreigabe eingebunden sind. Dieser Wert stellt den Latenzwert für einen einzelnen Hop dar. Der Standardwert beträgt 1,0 Sekunden.</p>
 <p>Die Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RelativeOneWayAverageAcceptable</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Optimaler Wert für die relative unidirektionale Verzögerung zwischen den beiden Medien Endpunkten, die an der Anwendungsfreigabe beteiligt sind. Dies ist ein Single-Hop-Latenzmaß. Der Standardwert ist 1,75 Sekunden.</p>
+<td><p>Optimaler Wert für die relative unidirektionale Verzögerung zwischen den beiden Medienendpunkten, die in die Anwendungsfreigabe eingebunden sind. Dieser Wert stellt den Latenzwert für einen einzelnen Hop dar. Der Standardwert beträgt 1,75 Sekunden.</p>
 <p>Die Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>RDPTileProcessingLatencyAverageOptimal</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Optimaler Wert der durchschnittlichen Verarbeitungs Wartezeit für RDP-Kacheln auf dem AS-Konferenz Server über die Dauer der Anzeige Sitzung. Latenz ist der Zeitunterschied zwischen dem Codieren des Start Frames auf dem Server (Sharer oder MCU, je nach Szenario) und dem gleichen Start Frame im Viewer.</p>
-<p>Ein hoher Durchschnitt zeigt eine längere Verzögerung bei der Anzeige an. Ein überlasteter Konferenzserver zeigt gegebenenfalls höhere durchschnittliche Verzögerungen an. Der Standardwert ist 200M.</p>
+<td><p>Optimaler Wert für die durchschnittliche Verarbeitungslatenz für RDP-Kacheln im AS-Konferenzserver für die Dauer der Anzeigesitzung. Wartezeit ist der Zeitunterschied zwischen dem Codieren des Start Frames auf dem Server (je nach Szenario "miteinander" oder "MCU") und dem gleichen Start Frame, der im Viewer decodiert ist.</p>
+<p>Ein hoher Durchschnittswert gibt eine längere Verzögerung bei der Darstellung an. Bei einem überlasteten Konferenzserver können längere durchschnittliche Verzögerungen auftreten. Der Standardwert beträgt 200 ms.</p>
 <p>Die Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RDPTileProcessingLatencyAverageAcceptable</strong></p></td>
-<td><p>float</p></td>
+<td><p>Gleitkommazahl</p></td>
 <td></td>
-<td><p>Akzeptabler Wert der durchschnittlichen Verarbeitungs Wartezeit für RDP-Kacheln auf dem AS-Konferenz Server über die Dauer der Anzeige Sitzung. Latenz ist der Zeitunterschied zwischen dem Codieren des Start Frames auf dem Server (Sharer oder MCU, je nach Szenario) und dem gleichen Start Frame im Viewer.</p>
-<p>Ein hoher Durchschnitt zeigt eine längere Verzögerung bei der Anzeige an. Ein überlasteter Konferenzserver zeigt gegebenenfalls höhere durchschnittliche Verzögerungen an. Der Standardwert ist 200M.</p>
+<td><p>Zulässiger Wert für die durchschnittliche Verarbeitungslatenz für RDP-Kacheln im AS-Konferenzserver für die Dauer der Anzeigesitzung. Wartezeit ist der Zeitunterschied zwischen dem Codieren des Start Frames auf dem Server (je nach Szenario "miteinander" oder "MCU") und dem gleichen Start Frame, der im Viewer decodiert ist.</p>
+<p>Ein hoher Durchschnittswert gibt eine längere Verzögerung bei der Darstellung an. Bei einem überlasteten Konferenzserver können längere durchschnittliche Verzögerungen auftreten. Der Standardwert beträgt 200 ms.</p>
 <p>Die Spalte wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 </tbody>

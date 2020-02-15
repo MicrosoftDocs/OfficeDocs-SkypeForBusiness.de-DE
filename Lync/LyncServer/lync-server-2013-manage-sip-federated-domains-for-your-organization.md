@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verwalten von SIP-Partnerdomänen für eine Organisation'
+title: 'Lync Server 2013: Verwalten von SIP-Verbunddomänen für Ihre Organisation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48679565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78683426481a50a082b38b3e7cf47b7317734210
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e257d62d673f01a6b24d44a428a25f9494c975eb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733305"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028436"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a>Verwalten von SIP-Partnerdomänen für eine Organisation in Lync Server 2013
+# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a>Verwalten von SIP-Verbunddomänen für Ihre Organisation in lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41733305"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-Diese Dokumentation ist vorläufig und kann geändert werden. Leere Themen sind als Platzhalter enthalten.
+Dies ist eine vorläufige Dokumentation und kann jederzeit geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
 
-Zum Verwalten und Konfigurieren von SIP-Domänen, mit denen Sie eine Föderation führen können, können Sie die folgenden Aktionen ausführen:
+Wenn Sie SIP-Domänen verwalten und konfigurieren möchten, mit denen Sie einen Verbund einrichten können, haben Sie die folgenden Möglichkeiten:
 
-  - Erstellen oder bearbeiten Sie eine Liste der zulässigen Domänen der SIP-Partnerdomänen.
+  - Erstellen oder bearbeiten Sie eine Liste zulässiger Domänen für Partnerdomänen mit SIP-Verbund.
 
-  - Erstellen oder Bearbeiten einer Liste blockierter Domänen mit SIP-Verbunddomänen
+  - Erstellen oder bearbeiten Sie eine Liste blockierter Domänen für Domänen mit SIP-Verbund.
 
-Führen Sie die Verfahren in diesem Abschnitt aus, um diese Aufgaben auszuführen.
+Verwenden Sie zum Ausführen dieser Aufgaben die Verfahren in diesem Abschnitt.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Konfigurieren der Unterstützung für zulässige externe Domänen in Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md)
+  - [Konfigurieren der Unterstützung für zugelassene externe Domänen in lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md)
 
-  - [Konfigurieren der Unterstützung für blockierte externe Domänen in Lync Server 2013](lync-server-2013-configure-support-for-blocked-external-domains.md)
+  - [Konfigurieren der Unterstützung für blockierte externe Domänen in lync Server 2013](lync-server-2013-configure-support-for-blocked-external-domains.md)
 
 </div>
 
@@ -62,9 +62,9 @@ Führen Sie die Verfahren in diesem Abschnitt aus, um diese Aufgaben auszuführe
 ## <a name="see-also"></a>Siehe auch
 
 
-[Konfigurieren von Richtlinien zur Steuerung des Partnerbenutzerzugriffs in Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
-[Aktivieren oder Deaktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten in Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
-[Aktivieren oder Deaktivieren der Suche von Verbundpartnern in Lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
+[Konfigurieren von Richtlinien zur Steuerung des Zugriffs von Verbundbenutzern in lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
+[Aktivieren oder Deaktivieren der Verbund-und Public Chat-Konnektivität in lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
+[Aktivieren oder Deaktivieren der Ermittlung von Partnerverbund Partnern in lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
   
 
 </div>

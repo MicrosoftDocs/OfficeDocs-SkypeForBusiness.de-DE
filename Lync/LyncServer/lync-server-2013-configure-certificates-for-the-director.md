@@ -12,20 +12,20 @@ ms:contentKeyID: 48183612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fccab201ee9ab16b0195bc2780c37ab85f0519e9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6e036073f3e617bff993bd38b356d3ac76f73d57
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739385"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028676"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-certificates-for-the-director-in-lync-server-2013"></a>Konfigurieren von Zertifikaten für den Director in Lync Server 2013
+# <a name="configure-certificates-for-the-director-in-lync-server-2013"></a>Konfigurieren von Zertifikaten für den Director in lync Server 2013
 
 </div>
 
@@ -35,83 +35,83 @@ ms.locfileid: "41739385"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-08_
+_**Letztes Änderungsstand des Themas:** 2012-09-08_
 
 <div>
 
 
 > [!IMPORTANT]  
-> Wenn Sie den Zertifikat-Assistenten ausführen, stellen Sie sicher, dass Sie mit einem Konto angemeldet sind, das Mitglied einer Gruppe ist, der die entsprechenden Berechtigungen für den Typ der Zertifikatvorlage zugewiesen wurden, die Sie verwenden werden. Standardmäßig verwendet eine lync Server 2013-Zertifikatanforderung die Webserverzertifikatvorlage. Wenn Sie ein Konto verwenden, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist, um ein Zertifikat mithilfe dieser Vorlage anzufordern, stellen Sie sicher, dass der Gruppe die für die Verwendung dieser Vorlage erforderlichen Registrierungsberechtigungen zugewiesen wurden.
+> Wenn Sie den Zertifikat-Assistenten ausführen, müssen Sie mit einem Konto angemeldet sein, das Mitglied einer Gruppe ist, die über die entsprechenden Berechtigungen für den zu verwendeten Zertifikatvorlagentyp verfügt. Standardmäßig wird für eine lync Server 2013 Zertifikatanforderung die Webserverzertifikatvorlage verwendet. Wenn Sie ein Konto verwenden, das Mitglied der RTCUniversalServerAdmins-Gruppe ist, kann mit dieser Vorlage nur ein Zertifikat angefordert werden, wenn dieser Gruppe die zum Verwenden dieser Vorlage erforderlichen Registrierungsberechtigungen erteilt wurden.
 
 
 
 </div>
 
-Für jeden Director ist ein Standardzertifikat, ein webinternes Zertifikat und ein externes Webzertifikat erforderlich. Details zu den Zertifikatanforderungen für Directors finden Sie unter [Zertifikatanforderungen für interne Server in lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) in der Planungsdokumentation.
+Für jeden Director wird ein Standardzertifikat, ein internes Webzertifikat und ein externes Webzertifikat benötigt. Ausführliche Informationen zu den Zertifikatanforderungen für Directors finden Sie in der Planungsdokumentation unter [Zertifikatanforderungen für interne Server in lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md) .
 
-Gehen Sie wie folgt vor, um Director-Zertifikate zu konfigurieren. Wiederholen Sie den Vorgang für jeden Director. In den Schritten dieses Verfahrens wird beschrieben, wie Sie ein Zertifikat von einer internen Unternehmensstammzertifizierungsstelle, die von Ihrer Organisation bereitgestellt wird, und mit der Offline Anforderungsverarbeitung konfigurieren. Informationen zum Abrufen von Zertifikaten von einer externen Zertifizierungsstelle erhalten Sie von Ihrem Support Team.
+Verwenden Sie das folgende Verfahren, um Director-Zertifikate zu konfigurieren. Wiederholen Sie das Verfahren für jeden Director. Die Schritte in diesem Verfahren beschreiben, wie Sie ein Zertifikat einer internen Stammzertifizierungsstelle konfigurieren, die in Ihrem Unternehmen eingesetzt wird. Zertifikatanforderungen werden in diesem Verfahren offline verarbeitet. Ausführliche Informationen zum Anfordern von Zertifikaten bei einer externen Zertifizierungsstelle erhalten Sie von Ihrem Support-Team.
 
 <div>
 
-## <a name="to-configure-certificates-for-the-director-or-director-pool"></a>So konfigurieren Sie Zertifikate für den Director-oder Director-Pool
+## <a name="to-configure-certificates-for-the-director-or-director-pool"></a>So konfigurieren Sie Zertifikate für den Director oder Director-Pool
 
-1.  Klicken Sie im lync Server-Bereitstellungs-Assistenten neben **Schritt 3: anfordern, installieren oder Zuweisen von Zertifikaten**auf **Ausführen**.
+1.  Klicken Sie im lync Server-Bereitstellungs-Assistenten neben **Schritt 3: Zertifikate anfordern, installieren oder zuweisen**auf **Ausführen**.
 
-2.  Klicken Sie auf der Seite **Zertifikat-Assistent** auf **Anfordern**.
+2.  Klicken Sie auf der Seite **Zertifizierungs-Assistent** auf **Anfordern**.
 
-3.  Klicken Sie auf der Seite **Zertifikatanforderung** auf **weiter**.
+3.  Klicken Sie auf der Seite **Zertifikatanforderung** auf **Weiter**.
 
-4.  Übernehmen Sie auf der Seite **verzögerte oder sofortige Anforderungen** die Option Standard **Anforderung sofort an eine Onlinezertifizierungsstelle senden** , und klicken Sie dann auf **weiter**.
+4.  Akzeptieren Sie auf der Seite **Verzögerte oder sofortige Anforderungen** die Standardoption **Anforderung unmittelbar an eine Onlinezertifizierungsstelle senden**, und klicken Sie dann auf **Weiter**.
 
-5.  Klicken Sie auf der Seite **Zertifizierungsstelle auswählen** auf die interne Windows-Zertifizierungsstelle, die Sie verwenden möchten, und klicken Sie dann auf **weiter**.
+5.  Klicken Sie auf der Seite **Zertifizierungsstelle auswählen** auf die interne Windows-Zertifizierungsstelle, die Sie verwenden möchten, und klicken Sie dann auf **Weiter**.
 
-6.  Geben Sie auf der Seite **zertifizierungsstellenkonto** die zu verwendenden alternativen Anmeldeinformationen an, wenn das Konto, mit dem Sie angemeldet sind, nicht über die erforderlichen Berechtigungen zum Anfordern des Zertifikats verfügt, und klicken Sie dann auf **weiter**.
+6.  Geben Sie auf der Seite **Zertifizierungsstellenkonto** alternative Anmeldeinformationen für den Fall an, dass das zur Anmeldung verwendete Konto keine ausreichenden Berechtigungen zum Anfordern des Zertifikats besitzt, und klicken Sie anschließend auf **Weiter**.
 
-7.  Klicken Sie auf der Seite **Alternative Zertifikatvorlage angeben** auf **weiter**.
+7.  Klicken Sie auf der Seite **Alternative Zertifikatvorlage angeben** auf **Weiter**.
 
-8.  Auf der Seite **Name und Sicherheitseinstellungen** können Sie einen **Anzeigenamen**angeben, die 2048-Bit-Schlüssellänge akzeptieren und dann auf **weiter**klicken.
+8.  Geben Sie auf der Seite **Namens- und Sicherheitseinstellungen** einen Wert für **Anzeigename** ein, akzeptieren Sie die Schlüssellange von 2.048 Bit, und klicken Sie auf **Weiter**.
 
-9.  Geben Sie auf der Seite **Organisationsinformationen** optional Organisationsinformationen an, und klicken Sie dann auf **weiter**.
+9.  Überprüfen Sie optional die Informationen auf der Seite **Organisationsinformationen**, und klicken Sie anschließend auf **Weiter**.
 
-10. Geben Sie auf der Seite **geographische Informationen** optional geografische Informationen an, und klicken Sie dann auf **weiter**.
+10. Überprüfen Sie optional die Informationen auf der Seite **Geografische Informationen**, und klicken Sie anschließend auf **Weiter**.
 
-11. Klicken Sie auf der Seite **Betreffname/Subject Alternative Names** auf **weiter**.
+11. Klicken Sie auf der Seite **Antragstellername/Alternative Antragstellernamen** auf **Weiter**.
     
     <div>
     
 
     > [!NOTE]  
-    > Die Liste Subject Alternative Name sollte den Namen des Computers enthalten, auf dem Sie den Director installieren (falls ein einzelner Director) oder der Name des Director-Pools und die für die Organisation konfigurierten einfachen URL-Namen.
+    > Die Liste der alternativen Antragstellernamen sollte den Namen des Computers enthalten, auf dem Sie den Director installieren (falls nur ein Director vorhanden ist), andernfalls den Namen des Director-Pools und die Namen der einfachen URLs, die für die Organisation konfiguriert wurden.
 
     
     </div>
 
-12. Wählen Sie in der **SIP-Domäneneinstellung auf der Seite Subject Alternate Names (SANs)** die **konfigurierten SIP-Domänen** für alle Domänen aus, die der Director behandeln soll, und klicken Sie dann auf **weiter**.
+12. Wählen Sie auf der Seite **SIP-Domäneneinstellung für alternative Antragstellernamen (SANs)** die Option **Konfigurierte SIP-Domänen** für alle Domänen aus, die der Director verarbeiten soll, und klicken Sie dann auf **Weiter**.
 
-13. Fügen Sie auf der Seite **configure additional Subject Alternative Names** alle weiteren erforderlichen alternativen Antragstellernamen hinzu, und klicken Sie dann auf **weiter**.
+13. Geben Sie auf der Seite **Zusätzliche alternative Antragstellernamen konfigurieren** zusätzlich erforderliche alternative Antragstellernamen an, und klicken Sie auf **Weiter**.
 
-14. Klicken Sie auf der Seite **Zusammenfassung der Zertifikatanforderung** auf **weiter**.
+14. Klicken Sie auf der Seite **Zusammenfassung der Zertifikatanforderung** auf **Weiter**.
 
-15. Klicken Sie auf der Seite **ausführende Befehle** auf **weiter** , nachdem die Befehle ausgeführt wurden.
+15. Klicken Sie auf der Seite **Befehle ausführen** nach Abschluss der Befehlsausführung auf **Weiter**.
 
-16. Klicken Sie auf der Seite **Online Zertifikat Anforderungs Status** auf **Fertig stellen**.
+16. Klicken Sie auf der Seite **Status der Onlinezertifikatanforderung** auf **Fertig stellen**.
 
-17. Klicken Sie auf der Seite **zertifikatzuweisung** auf **weiter**.
+17. Klicken Sie auf der Seite **Zertifikatzuweisung** auf **Weiter**.
     
     <div>
     
 
     > [!NOTE]  
-    > Wenn Sie das Zertifikat anzeigen möchten, doppelklicken Sie in der Liste auf das Zertifikat.
+    > Wenn Sie das Zertifikat anzeigen möchten, doppelklicken Sie auf das Zertifikat in der Liste.
 
     
     </div>
 
-18. Klicken Sie auf der Seite **Zertifikat Zuordnungszusammenfassung** auf **weiter**.
+18. Klicken Sie auf der Seite **Zusammenfassung der Zertifikatzuweisung** auf **Weiter**.
 
-19. Klicken Sie auf der Seite **Ausführungsbefehle** auf **Fertig stellen** , nachdem die Ausführung der Befehle abgeschlossen ist.
+19. Klicken Sie auf der Seite **Befehle ausführen** nach Abschluss der Befehlsausführung auf **Fertig stellen**.
 
-20. Klicken Sie auf der Seite des **Zertifikat-Assistenten** auf **Schließen**.
+20. Klicken Sie auf der Seite **Zertifizierungs-Assistent** auf **Schließen**.
 
 </div>
 

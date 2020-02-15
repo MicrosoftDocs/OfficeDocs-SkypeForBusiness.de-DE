@@ -12,16 +12,16 @@ ms:contentKeyID: 48184882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a1ed13a53bdf31c4bee0daaa7489809fd4e6f05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1b4769e068ff079a8a5ad55177870ac9fe8e932c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764351"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029826"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41764351"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-08_
+_**Letztes Änderungsstand des Themas:** 2012-10-08_
 
 Lync Server unterstützt alle Telefone, die in der folgenden Tabelle aufgeführt sind. Beachten Sie, dass nicht alle unterstützten Telefone lync Phone Edition ausführen können (einige können nur frühere Versionen ausführen). Verwenden Sie die Tabelle, um zu erfahren, welche Telefone lync Phone Edition ausführen können und wo Sie detaillierte Informationen zu allen unterstützten Telefonen erhalten.
 
@@ -43,13 +43,13 @@ Lync Server unterstützt alle Telefone, die in der folgenden Tabelle aufgeführt
 
 
 > [!NOTE]  
-> Es werden drei Arten von Telefonen unterstützt: Telefonapparate (IP-oder USB-Geräte, die für die Verwendung durch die Mitarbeiter am Arbeitsplatz vorgesehen sind), Konferenzgeräte (Freisprech-IP-oder USB-Telefone, die für die Verwendung in Besprechungsräumen vorgesehen sind) sowie Telefone im öffentlichen Bereich (IP-Telefone, die sind für die Verwendung in freigegebenen Bereichen wie Lobbies, Küchen, Factory Floors und freigegebenen Arbeitsbereichen konzipiert und können angepasst werden, um unterschiedliche Gruppen von lync Phone Edition-Features bereitzustellen.
+> Es werden drei Typen von Telefonen unterstützt: Telefonapparate (Hörer-IP oder USB-Geräte, die von Mitarbeitern am Schreibtisch verwendet werden), Konferenzgeräte (Freisprech-IP oder USB-Telefone, die für den Einsatz in Besprechungsräumen ausgelegt sind) und Telefone für gemeinsame Bereiche (IP-Telefone, die sind für die Verwendung in freigegebenen Bereichen wie Lobbies, Küchen, Factory Floors und freigegebenen Arbeitsbereichen konzipiert und können angepasst werden, um verschiedene Gruppen von lync-Phone Edition Funktionen bereitzustellen.
 
 
 
 </div>
 
-Detaillierte Vergleichstabellen zu allen Geräten, die für die Zusammenarbeit mit lync optimiert sind, finden Sie unter "für Microsoft lync qualifizierte Telefone <http://go.microsoft.com/fwlink/p/?linkid=208938>und Geräte". Die Telefon Vergleichstabellen auf dieser Website beinhalten Preisinformationen und technische Daten.
+Ausführliche Vergleichstabellen zu allen Geräten, die für die Verwendung mit lync optimiert wurden, finden Sie unter "für Microsoft lync qualifizierte Telefone und <http://go.microsoft.com/fwlink/p/?linkid=208938>Geräte" unter. Die Telefonvergleichstabellen auf dieser Website enthalten Preisangaben und technische Daten.
 
 
 <table>
@@ -61,7 +61,7 @@ Detaillierte Vergleichstabellen zu allen Geräten, die für die Zusammenarbeit m
 <thead>
 <tr class="header">
 <th>Telefon</th>
-<th>Ausführen von lync Phone Edition</th>
+<th>Führt lync Phone Edition</th>
 <th>Weitere Informationen</th>
 </tr>
 </thead>
@@ -79,12 +79,12 @@ Detaillierte Vergleichstabellen zu allen Geräten, die für die Zusammenarbeit m
 <tr class="odd">
 <td><p>IP-Telefon HP 4110 (Telefon für öffentliche Bereiche)</p></td>
 <td><p>X</p></td>
-<td><p><a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%2cen%26cc=us%2cus%26prodtypeid=12883%26prodseriesid=5171755">HP 4110 IP-Telefon Serie</a> auf der HP-Website</p></td>
+<td><p><a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%2cen%26cc=us%2cus%26prodtypeid=12883%26prodseriesid=5171755">HP 4110 IP-Telefon Reihe</a> auf der HP-Website</p></td>
 </tr>
 <tr class="even">
 <td><p>IP-Telefon HP 4120 (Telefonapparat)</p></td>
 <td><p>X</p></td>
-<td><p><a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%2cen%26cc=us%2cus%26prodtypeid=12883%26prodseriesid=5204220">HP 4120 IP-Telefon Serie</a> auf der HP-Website</p></td>
+<td><p><a href="http://h20000.www2.hp.com/bizsupport/techsupport/home.jsp?lang=en%2cen%26cc=us%2cus%26prodtypeid=12883%26prodseriesid=5204220">HP 4120 IP-Telefon Reihe</a> auf der HP-Website</p></td>
 </tr>
 <tr class="odd">
 <td><p>Polycom CX300-USB-Tischtelefon</p></td>
@@ -124,7 +124,7 @@ Detaillierte Vergleichstabellen zu allen Geräten, die für die Zusammenarbeit m
 
 
 > [!NOTE]  
-> Unterstützung für analoge Geräte wird ebenfalls bereitgestellt. Ausführliche Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/p/?linkid=257502">Planen der Bereitstellung von analogen Geräten</A> in der lync Server 2010 TechNet-Bibliothek. (Lync Phone Edition funktioniert auf die gleiche Weise in lync Server 2013 und lync Server 2010).
+> Es werden auch Analoggeräte unterstützt. Ausführliche Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/p/?linkid=257502">Planen der Bereitstellung von analogen Geräten</A> in der TechNet-Bibliothek lync Server 2010. (Lync Phone Edition funktioniert auf die gleiche Weise wie in lync Server 2013 und lync Server 2010).
 
 
 

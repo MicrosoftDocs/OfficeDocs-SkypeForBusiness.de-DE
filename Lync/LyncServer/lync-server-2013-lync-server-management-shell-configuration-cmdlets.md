@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurations-Cmdlets der lync Server-Verwaltungsshell'
+title: 'Lync Server 2013: Cmdlets für lync Server-Verwaltungsshell-Konfiguration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce76166c44f7b35781c6181ac37191bad784fa74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a6cd1ea107dee9a32d695bf51e7b6998542fc76
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742205"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030218"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-management-shell-configuration-cmdlets-in-lync-server-2013"></a>Konfigurations-Cmdlets der lync Server-Verwaltungsshell in lync Server 2013
+# <a name="lync-server-management-shell-configuration-cmdlets-in-lync-server-2013"></a>Lync Server-Verwaltungsshell Konfigurations-Cmdlets in lync Server 2013
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "41742205"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-03-21_
+_**Letztes Änderungsstand des Themas:** 2012-03-21_
 
-Bei der lync Server-Verwaltungsshell handelt es sich um eine Implementierung des Windows PowerShell-Befehlsfensters mit Cmdlets für die Verwaltung von Microsoft lync Server 2010, die in der Umgebung bereits vorinstalliert sind. Mithilfe dieser Cmdlets können Sie diese Umgebung anpassen.
+Bei der lync Server-Verwaltungsshell handelt es sich um eine Implementierung des Windows PowerShell Befehlsfensters mit Cmdlets, die speziell für die Verwaltung Microsoft lync Server 2010 vorinstalliert in der Umgebung sind. Mit diesen Cmdlets können Sie diese Umgebung anpassen.
 
 <div>
 
-## <a name="lync-server-management-shell-configuration-cmdlets"></a>Konfigurations-Cmdlets der lync Server-Verwaltungsshell
+## <a name="lync-server-management-shell-configuration-cmdlets"></a>Cmdlets für die lync Server-Verwaltungsshell Konfiguration
 
-Verwenden Sie diese Cmdlets, um bestimmte benutzerdefinierte Eigenschaften der lync Server-Verwaltungsshell festzulegen.
-
-  - <span></span>  
-    [Get-CsUICulture](https://technet.microsoft.com/en-us/library/Gg412900(v=OCS.15))
+Verwenden Sie diese Cmdlets, um bestimmte benutzerdefinierte Eigenschaften des lync Server-Verwaltungsshell festzulegen.
 
   - <span></span>  
-    [Set-CsUICulture](https://technet.microsoft.com/en-us/library/Gg398354(v=OCS.15))
+    [Get-CsUICulture](https://technet.microsoft.com/library/Gg412900(v=OCS.15))
+
+  - <span></span>  
+    [Gruppe-CsUICulture](https://technet.microsoft.com/library/Gg398354(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg412849(v=OCS.15))
+    [Get-CsManagementConnection](https://technet.microsoft.com/library/Gg412849(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg425803(v=OCS.15))
+    [Remove-CsManagementConnection](https://technet.microsoft.com/library/Gg425803(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsManagementConnection](https://technet.microsoft.com/en-us/library/Gg413045(v=OCS.15))
+    [Gruppe-CsManagementConnection](https://technet.microsoft.com/library/Gg413045(v=OCS.15))
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184269
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de2dc455581ded139ac58a87a5f0cbaf3725873a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1f629dc7a3a1e2d9c5194e1e0450b0bd8c8f1da7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731705"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029816"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-hardware-for-lync-server-2013"></a>Unterstützte Hardware für Lync Server 2013
+# <a name="supported-hardware-for-lync-server-2013"></a>Unterstützte Hardware für lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41731705"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Die Hardwareanforderungen von lync Server 2013 variieren je nach Server Rolle, Topologie, Speicheranforderungen und dem jeweiligen Bereitstellungsszenario.
+Lync Server 2013 Hardwareanforderungen unterscheiden sich je nach Server Rolle, Topologie, Speicheranforderungen und dem jeweiligen Bereitstellungsszenario.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Serverhardwareplattformen für Lync Server 2013](lync-server-2013-server-hardware-platforms.md)
+  - [Server Hardwareplattformen für lync Server 2013](lync-server-2013-server-hardware-platforms.md)
 
-  - [Unterstützte Client- und Gerätehardware in Lync Server 2013](lync-server-2013-client-and-device-hardware-support.md)
+  - [Unterstützung für Client-und Gerätehardware in lync Server 2013](lync-server-2013-client-and-device-hardware-support.md)
 
-  - [Dateispeicherunterstützung in Lync Server 2013](lync-server-2013-file-storage-support.md)
+  - [Unterstützung von Dateispeicher in lync Server 2013](lync-server-2013-file-storage-support.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf3161c66d522c09692e9fb7f1b124b506549ceb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a1205ca5deb666922c723f5c6773a2aa4b5c59f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742215"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030228"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-best-practices-analyzer"></a>Lync Server 2013 Best Practices Analyzer
+# <a name="lync-server-2013-best-practices-analyzer"></a>Lync Server 2013 Best Practices Analyzer
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41742215"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-13_
+_**Letztes Änderungsstand des Themas:** 2012-06-13_
 
-Lync Server 2013, Best Practices Analyzer ist ein Diagnosetool, das Konfigurationsinformationen aus lync Server 2013-Umgebungen sammelt und bestimmt, ob die Konfiguration gemäß den bewährten Methoden von Microsoft festgelegt ist.
+Lync Server 2013 ist Best Practices Analyzer ein Diagnosetool, mit dem Konfigurationsinformationen aus lync Server 2013-Umgebungen zusammengestellt werden, und es wird ermittelt, ob die Konfiguration gemäß den bewährten Methoden von Microsoft festgelegt wurde.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013, Best Practices Analyzer scannt und meldet Probleme nur mit lync Server 2013-Komponenten. Wenn Ihre Bereitstellung lync Server 2010 oder Office Communications Server 2007 R2-Komponenten umfasst, verwenden Sie die vorherige Version von Best Practices Analyzer, um diese Komponenten zu analysieren. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Voraussetzungen für die Ausführung von Best Practices Analyzer in lync Server 2013</A>.
+> Lync Server 2013 überprüft und meldet Best Practices Analyzer nur Probleme mit lync Server 2013-Komponenten. Wenn Ihre Bereitstellung lync Server 2010-oder Office Communications Server 2007 R2 Komponenten enthält, verwenden Sie die vorherige Version von Best Practices Analyzer, um diese Komponenten zu analysieren. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requirements for Running Best Practices Analyzer in lync Server 2013</A>.
 
 
 
@@ -57,9 +57,9 @@ Lync Server 2013, Best Practices Analyzer ist ein Diagnosetool, das Konfiguratio
 
   - [Vorbereiten und Installieren von Best Practices Analyzer in lync Server 2013](lync-server-2013-preparing-for-and-installing-best-practices-analyzer.md)
 
-  - [Verwenden von Best Practices Analyzer zur Ermittlung potenzieller Probleme in ihrer lync Server 2013-Bereitstellung](lync-server-2013-using-best-practices-analyzer-to-identify-potential-issues-in-your-deployment.md)
+  - [Verwenden von Best Practices Analyzer zum Identifizieren potenzieller Probleme in ihrer lync Server 2013-Bereitstellung](lync-server-2013-using-best-practices-analyzer-to-identify-potential-issues-in-your-deployment.md)
 
-  - [Verwenden von Scanergebnissen zum Analysieren und Beheben von Problemen, die von Best Practices Analyzer in lync Server 2013 gemeldet wurden](lync-server-2013-using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer.md)
+  - [Verwenden von Überprüfungsergebnissen zum Analysieren und Beheben von Problemen, die von Best Practices Analyzer in lync Server 2013 gemeldet wurden](lync-server-2013-using-scan-results-to-analyze-and-resolve-issues-reported-by-best-practices-analyzer.md)
 
 </div>
 

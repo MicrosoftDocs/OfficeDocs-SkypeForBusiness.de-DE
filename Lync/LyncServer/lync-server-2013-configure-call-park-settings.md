@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren der Einstellungen für den Anruf Park'
+title: 'Lync Server 2013: Konfigurieren der Einstellungen für das Parken von Anrufen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183922
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee4f12ccf614816e27262f8b393cdc1dac4a7a5e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 644ec44d4086b0acc326e043cbf63d7ceb2c640c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757779"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028716"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-call-park-settings-in-lync-server-2013"></a>Konfigurieren von Einstellungen für den Anruf Park in lync Server 2013
+# <a name="configure-call-park-settings-in-lync-server-2013"></a>Konfigurieren von Einstellungen für das Parken von Anrufen in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757779"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Wenn Sie die Standardeinstellungen für den Anruf Park nicht verwenden möchten, können Sie diese anpassen. Wenn Sie die Anwendung zum Parken von Anrufen installieren, werden standardmäßig die globalen Einstellungen konfiguriert. Sie können die globalen Einstellungen ändern und außerdem standortspezifische Einstellungen angeben. Verwenden Sie das Cmdlet **New-CsCpsConfiguration**, um neue standortspezifische Einstellungen zu erstellen. Verwenden Sie das Cmdlet **Set-CsCpsConfiguration**, um vorhandene Einstellungen zu ändern.
+Wenn Sie die Standardeinstellungen für das Parken von Anrufen nicht verwenden möchten, können Sie Sie anpassen. Bei der Installation des Anwendung zum Parken von Anrufen werden standardmäßig globale Einstellungen konfiguriert. Sie können die globalen Einstellungen ändern, und Sie können außerdem standortspezifische Einstellungen angeben. Verwenden Sie das Cmdlet **New-CsCpsConfiguration**, um neue standortspezifische Einstellungen zu erstellen. Verwenden Sie das Cmdlet **Set-CsCpsConfiguration**, um vorhandene Einstellungen zu ändern.
 
 <div>
 
@@ -67,21 +67,21 @@ Verwenden Sie das Cmdlet **New-CsCpsConfiguration** oder das Cmdlet **Set-CsCpsC
 <tr class="odd">
 <td><p><strong>CallPickupTimeoutThreshold</strong></p></td>
 <td><p>Die Zeitspanne, die nach dem Parken eines Anrufs verstreicht, bis das Telefon zurückgerufen wird, an dem der Anruf entgegengenommen wurde.</p>
-<p>Der Wert muss im Format „hh:mm:ss“ eingegeben werden, um die Stunden, Minuten und Sekunden anzugeben. Der Mindestwert beträgt 10 Sekunden, der Maximalwert liegt bei 10 Minuten. Der Standardwert lautet „00:01:30“.</p></td>
+<p>Der Wert muss im Format "hh:mm:ss" eingegeben werden, um die Stunden, Minuten und Sekunden anzugeben. Der Mindestwert beträgt 10 Sekunden, der Maximalwert liegt bei 10 Minuten. Der Standardwert lautet "00:01:30".</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>EnableMusicOnHold</strong></p></td>
+<td><p><strong>"Enablemusiconhold"</strong></p></td>
 <td><p>Legt fest, ob der Anrufer eines geparkten Anrufs Wartemusik hört.</p>
-<p>Gültige Werte sind „True“ oder „False“. Der Standardwert lautet „True“.</p></td>
+<p>Gültige Werte sind "True" oder "False". Der Standardwert lautet "True".</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MaxCallPickupAttempts</strong></p></td>
+<td><p><strong>"Maxcallpickupattempts"</strong></p></td>
 <td><p>Die Anzahl von Rückrufversuchen, die für einen geparkten Anruf bei dem Telefon erfolgt, an dem der Anruf entgegengenommen wurde, bevor der Anruf an den Fallback-URI (Uniform Resource Identifier) weitergeleitet wird, der für <strong>OnTimeoutURI</strong> angegeben ist. Der Standardwert ist 1.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OnTimeoutURI</strong></p></td>
 <td><p>Die SIP-Adresse des Benutzers oder der Reaktionsgruppe, an die ein nicht beantworteter geparkter Anruf geroutet wird, wenn <strong>MaxCallPickupAttempts</strong> überschritten wird.</p>
-<p>Bei diesem Wert muss es sich um einen SIP-URI handeln, der mit „sip:“ beginnt. Beispiel: sip:bob@contoso.com. In der Standardeinstellung ist keine Weiterleitungsadresse angegeben.</p></td>
+<p>Bei diesem Wert muss es sich um einen SIP-URI handeln, der mit "sip:" beginnt. Beispiel: sip:bob@contoso.com. In der Standardeinstellung ist keine Weiterleitungsadresse angegeben.</p></td>
 </tr>
 </tbody>
 </table>
@@ -89,13 +89,13 @@ Verwenden Sie das Cmdlet **New-CsCpsConfiguration** oder das Cmdlet **Set-CsCpsC
 
 <div>
 
-## <a name="to-configure-call-park-settings"></a>So konfigurieren Sie die Einstellungen für den Anruf Park
+## <a name="to-configure-call-park-settings"></a>So konfigurieren Sie Einstellungen für das Parken von Anrufen
 
-1.  Melden Sie sich bei dem Computer an, auf dem die lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist, wie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md)beschrieben.
+1.  Melden Sie sich an dem Computer an, auf dem lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist, wie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md)beschrieben.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Führen Sie folgenden Befehl aus:
+3.  Ausführen
     
         New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
     
@@ -103,7 +103,7 @@ Verwenden Sie das Cmdlet **New-CsCpsConfiguration** oder das Cmdlet **Set-CsCpsC
     
 
     > [!TIP]  
-    > Verwenden Sie das Cmdlet <STRONG>Get-CsSite</STRONG>, um den Standort zu ermitteln. Ausführliche Informationen finden Sie unter Dokumentation zur lync Server-Verwaltungsshell.
+    > Verwenden Sie das Cmdlet <STRONG>Get-CsSite</STRONG>, um den Standort zu ermitteln. Ausführliche Informationen finden Sie unter lync Server-Verwaltungsshell Dokumentation.
 
     
     </div>
@@ -119,11 +119,11 @@ Verwenden Sie das Cmdlet **New-CsCpsConfiguration** oder das Cmdlet **Set-CsCpsC
 ## <a name="see-also"></a>Siehe auch
 
 
-[Anpassen der Musik zum Parken von Anrufen im Wartebereich in lync Server 2013](lync-server-2013-customize-call-park-music-on-hold.md)  
+[Anpassen der Wartemusik für das Parken von Anrufen in lync Server 2013](lync-server-2013-customize-call-park-music-on-hold.md)  
 
 
-[Neu – CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCpsConfiguration)  
-[Satz-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCpsConfiguration)  
+[New-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsCpsConfiguration)  
+[Gruppe-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCpsConfiguration)  
 [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/Get-CsSite)  
   
 

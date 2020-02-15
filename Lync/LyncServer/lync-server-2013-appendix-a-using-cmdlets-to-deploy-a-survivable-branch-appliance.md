@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anhang A: Verwenden von Cmdlets zur Bereitstellung einer Survivable Branch Appliance'
+title: 'Lync Server 2013: Anhang a: Verwenden von Cmdlets zum Bereitstellen eines Survivable Branch Appliance'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184569
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a2da84e03cc05607a47f1fe5af4a8b7987946df
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb77c4f22122694d928489f7d61beaa9cbae9355
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737795"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029016"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a>Anhang A: Verwenden von Cmdlets zur Bereitstellung einer Survivable Branch Appliance in Lync Server 2013
+# <a name="appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance-in-lync-server-2013"></a>Anhang a: Verwenden von Cmdlets zum Bereitstellen eines Survivable Branch Appliance in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41737795"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-07_
+_**Letztes Änderungsstand des Themas:** 2012-10-07_
 
-In diesem Thema wird beschrieben, wie Sie eine Survivable Branch-Appliance mithilfe der lync Server-Verwaltungsshell bereitstellen. Führen Sie dieses Verfahren am zentralen Standort aus.
+In diesem Thema wird beschrieben, wie Sie eine Survivable Branch Appliance mithilfe der lync Server-Verwaltungsshell bereitstellen. Führen Sie dieses Verfahren am zentralen Standort aus.
 
 <div>
 
-## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a>So stellen Sie eine Survivable Branch Appliance Remote bereit
+## <a name="to-deploy-a-survivable-branch-appliance-remotely"></a>So stellen Sie einen Survivable Branch Appliance Remote bereit
 
-1.  Führen Sie die Schritte unter [Hinzufügen von Zweigstellen zu Ihrer Topologie in lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md) aus, um eine neue Verzweigungs Website hinzuzufügen.
+1.  Führen Sie das Verfahren unter [Hinzufügen von Zweigstellenstandorten zu Ihrer Topologie in lync Server 2013 aus](lync-server-2013-add-branch-sites-to-your-topology.md) , um eine neue Zweigstelle hinzuzufügen.
 
-2.  Teilnehmen an der Zweigstelle der Domäne
+2.  Fügen Sie den Zweigstellenstandort zur Domäne hinzu.
 
-3.  Fügen Sie die Gruppe RTCUniversalSBATechnicians der lokalen Gruppe Administratoren hinzu.
+3.  Fügen Sie die Gruppe "RTCUniversalSBATechnicians" zur lokalen Administratorgruppe hinzu.
 
-4.  Starten Sie den Server neu, und melden Sie sich als Mitglied der RTCUniversalSBATechnicians-Gruppe an.
+4.  Starten Sie den Server neu, und melden Sie sich als Mitglied der Gruppe "RTCUniversalSBATechnicians" an.
 
-5.  Geben Sie in der lync Server-Verwaltungsshell die folgenden Befehle ein, und ersetzen Sie die Platzhalter durch die richtigen Informationen für Ihre Organisation:
+5.  Geben Sie im lync Server-Verwaltungsshell die folgenden Befehle ein, und ersetzen Sie die Platzhalter durch die richtigen Informationen für Ihre Organisation:
     
         Export-CsConfiguration -FileName C:\CSConfig.zip
         Import-CsConfiguration -LocalStore -FileName C:\CSConfig.zip -Verbose

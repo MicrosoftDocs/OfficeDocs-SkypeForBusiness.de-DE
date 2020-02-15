@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: spezielle Setupanweisungen für synthetische Transaktionen'
+title: 'Lync Server 2013: spezielle Einrichtungsanweisungen für synthetische Transaktionen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733676
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a15177a3c4548b235bf01a10274168e4a830fad3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a749e4349f6dae6ab7cae079af443734f9cfbc15
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731905"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985050"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,50 +35,50 @@ ms.locfileid: "41731905"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-11-16_
+_**Letztes Änderungsstand des Themas:** 2015-11-16_
 
-Die meisten synthetischen Transaktionen können auf einem Watcher-Knoten ausgeführt werden. Das heißt, sobald die synthetische Transaktion den Konfigurationseinstellungen des Watcher-Knotens hinzugefügt wurde, kann der Watcher-Knoten die synthetische Transaktion während der Testdurchläufe verwenden. Dies gilt allerdings nicht für alle synthetischen Transaktionen. Die Ausnahmen – synthetische Transaktionen, die spezielle Einrichtungsanweisungen erfordern – werden in den folgenden Abschnitten erläutert.
+Die meisten synthetischen Transaktionen können auf einem Watcher-Knoten ohne größere Umstände ausgeführt werden. Das bedeutet, sobald eine synthetische Transaktion den Konfigurationseinstellungen des Watcher-Knotens hinzugefügt wurde, kann sie vom Watcher-Knoten bei seinen Testdurchläufen eingesetzt werden. Allerdings gilt dies nicht für alle synthetischen Transaktionen. Für welche synthetischen Transaktionen spezielle Einrichtungsschritte erforderlich sind, wird in den nächsten Abschnitten erklärt.
 
 <div>
 
 ## <a name="dealing-with-server-timeout-errors"></a>Umgang mit Server Timeout Fehlern
 
-In einigen Fällen stellen Sie möglicherweise fest, dass Ihre synthetischen Transaktionen mit Servertimeout Fehlern fehlschlagen (Fehlercode 504). Diese Fehler sind in der Regel auf Firewall-Probleme zurückzuführen. Wenn eine synthetische Transaktion ausgeführt wird, wird diese Transaktion unter dem Prozess "MonitoringHost. exe" ausgeführt. im Gegenzug startet MonitoringHost. exe eine Instanz des Prozesses "PowerShell. exe". Wenn entweder "MonitoringHost. exe" oder "PowerShell. exe" von Ihrer Firewall blockiert wird, schlägt die synthetische Transaktion fehl, und es wird ein 504-Fehler generiert.
+In einigen Fällen können Sie feststellen, dass Ihre synthetischen Transaktionen mit Servertimeout Fehlern fehlschlagen (Fehlercode 504). Diese Fehler sind in der Regel auf Firewall-Probleme zurückzuführen. Wenn eine synthetische Transaktion ausgeführt wird, wird diese Transaktion unter dem Prozess Monitoringhost. exe ausgeführt; im Gegenzug startet MonitoringHost. exe eine Instanz des PowerShell. exe-Prozesses. Wenn entweder MonitoringHost. exe oder PowerShell. exe von Ihrer Firewall blockiert wird, schlägt die synthetische Transaktion fehl, und es wird ein 504-Fehler generiert.
 
-Um dieses Problem zu beheben, sollten Sie die eingehenden Firewallregeln sowohl für MonitoringHost. exe als auch für PowerShell. exe auf dem lokalen Computer manuell erstellen. Dies kann abhängig von der bereits vorhandenen Konfiguration des Servers über die Windows-Firewall oder eine lokale Firewall-Software eines Drittanbieters erfolgen.
+Um dieses Problem zu beheben, sollten Sie manuell eingehende Firewallregeln für MonitoringHost. exe und PowerShell. exe auf dem lokalen Computer erstellen. Dies kann in Abhängigkeit von der bereits vorhandenen Konfiguration des Servers über die Windows-Firewall oder eine lokale Firewallsoftware eines Drittanbieters erfolgen.
 
-Wenn Sie ein Netzwerkfirewall-Gerät zwischen dem synthetischen Transaktions Hostcomputer und den lync-Servern verwenden, die Sie überwachen möchten, sollten Sie den Host als Clientcomputer behandeln und alle Firewall-Portanforderungen aus [Ports und Protokollen für interne Server in lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md).
+Wenn Sie ein Netzwerkfirewall-Gerät zwischen dem Hostcomputer der synthetischen Transaktion und den lync-Servern verwenden, die Sie überwachen möchten, sollten Sie den Host als Clientcomputer behandeln und alle Firewall-Portanforderungen von [Ports und Protokollen für interne Server in lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md)beobachten.
 
 </div>
 
 <div>
 
-## <a name="data-conferencing-synthetic-transactions"></a>Synthetische Datenkonferenz Transaktionen
+## <a name="data-conferencing-synthetic-transactions"></a>Synthetische Transaktion für Datenkonferenzen
 
-Wenn sich Ihr Watcher-Knoten Computer außerhalb des Umkreisnetzwerks befindet, können Sie die synthetische Datenkonferenz-Transaktion wahrscheinlich nur ausführen, wenn Sie zuerst die Internet Explorer-Proxyeinstellungen für das Netzwerkdienstkonto deaktivieren. Führen Sie die folgenden Schritte aus, um die Proxyeinstellungen für diesen Dienst zu deaktivieren:
+Wenn sich der Monitor Knoten Computer außerhalb des Umkreisnetzwerks befindet, können Sie die synthetische Datenkonferenz-Transaktion möglicherweise nur ausführen, wenn Sie zuerst die Internet Explorer Proxyeinstellungen für das Netzwerkdienstkonto deaktiviert haben. Gehen Sie dazu wie folgt vor:
 
-1.  Klicken Sie auf dem Watcher-Knoten Computer auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Zubehör**, klicken Sie mit der rechten Maustaste auf **Eingabeaufforderung**, und klicken Sie dann auf **als Administrator ausführen**.
+1.  Klicken Sie auf dem Computer mit den Watcher-Knoten auf **Start**, **Alle Programme**, **Zubehör**, klicken Sie mit der rechten Maustaste auf **Eingabeaufforderung**, und klicken Sie dann auf **Als Administrator ausführen**.
 
-2.  Geben Sie im Konsolenfenster den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE:
+2.  Geben Sie in dem Konsolenfenster den folgenden Befehl ein, und drücken Sie anschließend die EINGABETASTE:
     
         bitsadmin /util /SetIEProxy NetworkService NO_PROXY
 
-Im Befehlsfenster wird die folgende Meldung angezeigt:
+Die folgende Meldung wird im Befehlsfenster angezeigt:
 
     BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
     
     Internet proxy settings for account NetworkService set to NO_PROXY. 
     (connection = default)
 
-Diese Meldung bedeutet, dass Sie die Internet Explorer-Proxyeinstellungen für das Netzwerkdienstkonto deaktiviert haben.
+Diese Meldung bedeutet, dass Sie die Internet Explorer Proxyeinstellungen für das Netzwerkdienstkonto deaktiviert haben.
 
 </div>
 
 <div>
 
-## <a name="exchange-unified-messaging-synthetic-transactions"></a>Synthetische Exchange Unified Messaging-Transaktionen
+## <a name="exchange-unified-messaging-synthetic-transactions"></a>Synthetische Transaktionen für Exchange Unified Messaging
 
-Die synthetischen Transaktion „Exchange Unified Messaging“ (UM) überprüft, ob Testbenutzer eine Verbindung zu in Exchange geführten Voicemail-Konten herstellen können. Diese Testbenutzer müssen mit Voicemail-Konten vorkonfiguriert sein, bevor Sie die Exchange um-Tests verwenden können.
+Die Exchange Unified Messaging (um) synthetische Transaktion überprüft, ob Testbenutzer eine Verbindung mit Voicemail-Konten herstellen können, die in Exchange verwaltet werden. Diese Testbenutzer müssen mit Voicemail-Konten vorkonfiguriert werden, bevor sie die Exchange-UM-Tests verwenden können.
 
 </div>
 
@@ -86,60 +86,60 @@ Die synthetischen Transaktion „Exchange Unified Messaging“ (UM) überprüft,
 
 ## <a name="persistent-chat-synthetic-transactions"></a>Synthetische Transaktionen für beständigen Chat
 
-Um die synthetische persistent-Chat-Transaktion zu verwenden, müssen Administratoren zunächst einen Kanal erstellen und den Testbenutzern die Berechtigung erteilen, diese zu verwenden. Das Cmdlet [Test-CsPersistentChatMessage](https://docs.microsoft.com/powershell/module/skype/Test-CsPersistentChatMessage) kann verwendet werden, um diese Testbenutzer ordnungsgemäß zu konfigurieren:
+Um die synthetische persistent Chat-Transaktion zu verwenden, müssen Administratoren zunächst einen Kanal erstellen und den Testbenutzern Berechtigungen zur Verwendung geben. Das Cmdlet [Test-cspersistentchatmessage "](https://docs.microsoft.com/powershell/module/skype/Test-CsPersistentChatMessage) kann verwendet werden, um diese Testbenutzer ordnungsgemäß zu konfigurieren:
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
     
     Test-CsPersistentChatMessage -TargetFqdn atl-cs-001.litwareinc.com -SenderSipAddress sip:kenmyer@litwareinc.com -SenderCredential $cred1 -ReceiverSipAddress sip:pilar@litwareinc.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:kenmyer@litwareinc.com -TestUser2SipAddress sip:pilar@litwareinc.com -Setup $True
 
-Dieser Einrichtungs Task muss innerhalb des Unternehmens ausgeführt werden:
+Diese Einrichtungsaufgabe muss auf einem Computer innerhalb des Unternehmens durchgeführt werden:
 
-  - Wenn der Benutzer, der das Cmdlet ausführt, von einem nicht Server basierten Computer ausgeführt wird, muss er Mitglied der Rolle PersistentChatAdministrators für rollenbasierte Zugriffssteuerung sein.
+  - Wenn das Cmdlet auf einem Computer ausgeführt wird, der kein Server ist, muss der entsprechende Benutzer bei rollenbasierter Zugriffssteuerung (RBAC) Mitglied der Rolle "PersistentChatAdministrators" sein.
 
-  - Wenn vom Server selbst ausgeführt wird, sollte der Benutzer, der das Cmdlet ausführt, ein Mitglied der RTCUniversalServerAdmins-Gruppe sein.
+  - Wenn das Cmdlet auf dem Server selbst ausgeführt wird, sollte der entsprechende Benutzer Mitglied der Gruppe "RTCUniversalServerAdmins" sein.
 
-Im vorhergehenden Befehl wurde der Setup-Parameter aufgenommen und auf true ($true) festgelegt. Wenn Sie den Setup-Parameter einbeziehen, erstellt Test-CsPersistentChatMessage einen speziellen beständigen Chatroom und füllt diesen Raum mit den Testbenutzern auf. Dadurch wird sichergestellt, dass tatsächlich ein Chatroom für Testzwecke zur Verfügung steht. Beachten Sie, dass der Setup-Parameter nur von einem Front-End-Server ausgeführt werden sollte.
+In dem oben gezeigten Befehl wurde der Parameter "Setup" eingefügt und auf "True" ($True) festgelegt. Wenn Sie den Parameter Setup einschließen, erstellt Test-cspersistentchatmessage "einen speziellen beständigen Chatroom und füllt diesen Raum mit den Testbenutzern auf. Dadurch soll sichergestellt werden, dass tatsächlich ein Chatroom für Testzwecke verfügbar ist. Beachten Sie, dass der Setup-Parameter nur von einem Front-End-Server ausgeführt werden sollte.
 
-Der von Test-CsPersistentChatMessage erstellte Chatroom kann nur von einem Administrator gelöscht werden.
+Der per Test-CsPersistentChatMessage erstellte Chatroom kann nur von einem Administrator gelöscht werden.
 
 </div>
 
 <div>
 
-## <a name="pstn-peer-to-peer-call-synthetic-transactions"></a>PSTN-Peer-to-Peer-Anruf synthetische Transaktionen
+## <a name="pstn-peer-to-peer-call-synthetic-transactions"></a>Synthetische Transaktionen für Peer-zu-Peer-Festnetzanrufe
 
-Die synthetische [Test-CsPstnPeerToPeerCall-](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall) Transaktion überprüft die Möglichkeit, Anrufe über das öffentlich geschaltete Telefonnetz (PSTN) zu tätigen und zu empfangen.
+Die synthetische [Test-CsPstnPeerToPeerCall-](https://docs.microsoft.com/powershell/module/skype/Test-CsPstnPeerToPeerCall) Transaktion überprüft die Möglichkeit, Anrufe über das Telefon Festnetz (Public Switched Telephone Network, PSTN) zu tätigen und zu empfangen.
 
 Zum Ausführen dieser synthetischen Transaktion müssen Administratoren Folgendes konfigurieren:
 
-  - Zwei Testbenutzer (ein Anrufer und ein Empfänger) sind für Enterprise-VoIP aktiviert.
+  - Zwei Testbenutzer (ein Anrufer und ein Empfänger), die für Enterprise-VoIP aktiviert sind.
 
   - DID-Nummern (Direct Inward Dialing) für jedes Benutzerkonto
 
-  - VoIP-Richtlinien und VoIP-Routen, die Anrufe an die Rufnummer des Empfängers ermöglichen, um das PSTN-Gateway zu erreichen.
+  - VoIP-Richtlinien und -Routen, über die Anrufer mit der Nummer des Empfängers das PSTN-Gateway erreichen
 
-  - Ein PSTN-Gateway, das Anrufe annimmt, und Medien, die auf der Grundlage der gewählten Nummer Anrufe zurück an den Home-Pool eines Empfängers weiterleiten.
+  - Ein PSTN-Gateway, das Anrufe entgegennimmt, und Medien, die Anrufe anhand der gewählten Nummer zurück zum Homepool des Empfängers leiten
 
 </div>
 
 <div>
 
-## <a name="unified-contact-store-synthetic-transactions"></a>Synthetische Transaktionen im Unified Contact Store
+## <a name="unified-contact-store-synthetic-transactions"></a>Synthetische Transaktionen für den einheitlichen Kontaktspeicher
 
-Durch die synthetische Unified Contact Store-Transaktion wird überprüft, ob lync Server 2013 Kontakte für einen Benutzer aus Microsoft Exchange Server 2013 abrufen kann.
+Die synthetische Transaktion des einheitlichen Kontaktspeichers überprüft, ob lync Server 2013 Kontakte im Namen eines Benutzers aus Microsoft Exchange Server 2013 abrufen kann.
 
-Für die Verwendung dieser synthetischen Transaktion müssen die folgenden Bedingungen erfüllt sein:
+Für die Verwendung dieser synthetischen Transaktionen müssen die folgenden Bedingungen erfüllt sein:
 
-  - [Das Verwalten der Server-zu-Server-Authentifizierung (OAuth) und der Partneranwendungen in lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) muss zwischen lync Server 2013 und Exchange 2013 konfiguriert sein.
+  - Die [Verwaltung der Server-zu-Server-Authentifizierung (OAuth) und der Partneranwendungen in lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) muss zwischen lync Server 2013 und Exchange 2013 konfiguriert werden.
 
-  - Test Benutzer müssen über ein gültiges Exchange 2013-Postfach verfügen.
+  - Test Benutzer müssen über ein gültiges Exchange 2013 Postfach verfügen.
 
-Nachdem diese Bedingungen erfüllt sind, können Administratoren den folgenden Befehl ausführen, um zu überprüfen, ob der Benutzer mit der SIP-Adresse kenmyer@litwareinc.com seine Kontakte aus dem Unified Contact Store abrufen kann:
+Wenn diese Bedingungen erfüllt sind, können Administratoren mit dem folgenden Befehl überprüfen, ob der Benutzer mit der SIP-Adresse "kenmyer@litwareinc.com" seine Kontakte aus dem einheitlichen Kontaktspeicher abrufen kann:
 
     Test-CsUnifiedContactStore -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -RegistrarPort 5061 -Authentication TrustedServer -Setup
 
-Beachten Sie die Verwendung des im vorhergehenden Befehl verwendeten Setup-Parameters. Wenn der Setup-Parameter beim Ausführen von Test-CsUnifiedContactStore enthalten ist, werden die Kontakte des angegebenen Benutzers (in diesem Fall SIP:kenmyer@litwareinc.com) in den einheitlichen Kontaktspeicher verschoben. (Wenn sich die Kontakte des Benutzers bereits im Unified Contact Store befinden, müssen Sie natürlich nicht verschoben werden.) Der Setup-Parameter wird in der Regel nur einmal verwendet (das erste Mal, wenn Test-CsUnifiedContactStore ausgeführt wird), und sollte nur für Testbenutzer verwendet werden. Das heißt, mit Benutzerkonten, die nie tatsächlich bei lync Server angemeldet sind. Nachdem der Testbenutzer in den einheitlichen Kontaktspeicher migriert wurde, können Sie überprüfen, ob die Kontakte des Benutzers durch Aufrufen von Test-CsUnifiedContactStore ohne den Setup-Parameter abgerufen werden können:
+Beachten Sie die Verwendung des Setup-Parameters im oben gezeigten Befehl. Bei Ausführung des Test-CsUnifiedContactStore mit diesem Parameter werden die Kontakte des angegebenen Benutzers (in diesem Fall: sip:kenmyer@litwareinc.com) in den einheitlichen Kontaktspeicher verschoben (falls sie sich nicht bereits dort befinden). (Selbstverständlich, wenn sich die Kontakte des Benutzers bereits im einheitlichen Kontaktspeicher befinden, müssen Sie nicht verschoben werden.) Der Setup-Parameter wird in der Regel nur einmal verwendet (das erste Mal, dass Test-CsUnifiedContactStore ausgeführt wird), und sollte nur mit Testbenutzern verwendet werden; Das heißt, mit Benutzerkonten, die nie tatsächlich bei lync Server angemeldet werden. Nachdem Ihre Testbenutzer zum einheitlichen Kontaktspeicher migriert wurden, können Sie durch Aufruf von Test-CsUnifiedContactStore ohne Setup-Parameter überprüfen, ob die Kontakte des Benutzers abgerufen werden können:
 
     Test-CsUnifiedContactStore -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -RegistrarPort 5061 -Authentication TrustedServer
 
@@ -149,13 +149,13 @@ Beachten Sie die Verwendung des im vorhergehenden Befehl verwendeten Setup-Param
 
 ## <a name="xmpp-synthetic-transactions"></a>Synthetische XMPP-Transaktionen
 
-Die synthetische Transaktion xmpp (Extensible Messaging and Presence Protocol) erfordert, dass das XMPP-Feature mit mindestens einer Föderationsdomäne konfiguriert wird.
+Für die synthetischen XMPP-IM-Transaktionen (Extensible Messaging and Presence Protocol) ist es erforderlich, dass die XMPP-Funktion mit einer oder mehreren Verbunddomänen konfiguriert ist.
 
-Zum Aktivieren der synthetischen XMPP-Transaktion muss ein XmppTestReceiverMailAddress-Parameter mit einem Benutzerkonto in einer routingfähigen XMPP-Domäne bereitgestellt werden. Beispiel:
+Zum Aktivieren der synthetischen XMPP-Transaktion muss der Parameter "XmppTestReceiverMailAddress" mit einem Benutzerkonto bei einer routingfähigen XMPP-Domäne angegeben werden. Beispiel:
 
     Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 
-In diesem Beispiel muss eine lync Server 2013-Regel vorhanden sein, damit Nachrichten für litwareinc.com an ein XMPP-Gateway weitergeleitet werden.
+In diesem Beispiel muss eine lync Server 2013-Regel vorhanden sein, um Nachrichten für litwareinc.com an ein XMPP-Gateway weiterzuleiten.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Unterstützte Topologien'
+title: Lync Server 2013 unterstützten Topologien
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183832
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f200cde348d1fbdc931daa25abef28aec804a1b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d2a74be867305f3e42d1e9e303baedbddd22f485
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764311"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-topologies-in-lync-server-2013"></a>Unterstützte Topologien in Lync Server 2013
+# <a name="supported-topologies-in-lync-server-2013"></a>Unterstützte Topologien in lync Server 2013
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "41764311"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-01-14_
+_**Letztes Änderungsstand des Themas:** 2014-01-14_
 
-Lync Server 2013 unterstützt die Bereitstellung von Websites in einer Organisation und die Integration von lokalen Bereitstellungen mit lync Online-Bereitstellungen, die als hybridbereitstellung bezeichnet werden. In einer hybridbereitstellung sind einige Benutzer lokal verwaltet, und einige Benutzer sind online verwaltet.
+Lync Server 2013 unterstützt die Bereitstellung von Websites in einer Organisation und Integration von lokalen Bereitstellungen mit lync Online-Bereitstellungen, die als hybridbereitstellung bezeichnet wird. In einer hybridbereitstellung werden einige Benutzer lokal verwaltet, und einige Benutzer werden online verwaltet.
 
-Bei lokalen Bereitstellungen unterstützt lync Server 2013 die Bereitstellung von einem oder mehreren Websites, die skaliert werden können, um die Anforderungen an die Hochverfügbarkeit und den Standort zu erfüllen. Sie können diese Websites und ihre Komponenten so strukturieren, dass Sie den Zugriffs-und Widerstands Anforderungen Ihrer Organisation entsprechen.
+Für lokale Bereitstellungen unterstützt lync Server 2013 die Bereitstellungeines oder mehrerer Standorte, die skaliert werden können, um hohe Verfügbarkeit und Standortanforderungen zu erfüllen. Diese Standorte und ihre Komponenten können Sie so strukturieren, dass sie den Anforderungen Ihrer Organisation hinsichtlich Zugriff und Ausfallsicherheit entsprechen.
 
-Eine lokale lync Server 2013-Bereitstellung umfasst die folgenden:
+Eine lync Server 2013 lokale Bereitstellung umfasst Folgendes:
 
-  - Ihre Bereitstellung muss mindestens einen zentralen Standort (auch als Rechenzentrum bezeichnet) umfassen. Jeder zentrale Standort muss mindestens einen Enterprise Edition-Front-End-Pool oder einen Standard Edition-Server enthalten. Diese bestehen aus folgenden Themen:
+  - Ihre Bereitstellung muss mindestens einen zentralen Standort aufweisen (auch als Datencenter bezeichnet). Jeder zentrale Standort muss mindestens einen Front-End-Pool der Enterprise Edition oder einen Server der Standard Edition enthalten. Diese Komponenten sind folgendermaßen zusammengesetzt:
     
-      - Enterprise Edition-Front-End-Pool, der aus einem oder mehreren Front-End-Servern (in der Regel mindestens zwei Front-End-Servern für Skalierbarkeit) und einem separaten Back-End-Server besteht. Ein Front-End-Pool kann maximal zwölf Front-End-Server enthalten. Der Lastenausgleich ist für mehrere Front-End-Server erforderlich. Für SIP-Datenverkehr empfehlen wir den DNS-Lastenausgleich, aber auch der Hardwarelastenausgleich wird unterstützt. Wenn Sie den DNS-Lastenausgleich für den SIP-Datenverkehr verwenden, benötigen Sie weiterhin ein Hardware-Lastenausgleichsmodul für HTTP-Datenverkehr. Wir empfehlen die SQL Server-Spiegelung für eine höhere Verfügbarkeit von Datenbanken. Die Back-End-Datenbank erfordert eine separate Instanz, Sie können jedoch die Archivierungsdatenbank, die Überwachungsdatenbank, die Datenbank für beständigen Chat und die Datenbank für beständigen Chat collocate. Lync Server 2013 unterstützt die Verwendung eines freigegebenen Clusters für die Dateifreigaben in Ihrer Bereitstellung. Details zu den Datenbankspeicher Anforderungen finden Sie unter [Unterstützung der Datenbanksoftware in lync Server 2013](lync-server-2013-database-software-support.md). Ausführliche Informationen zu den Dateispeicheranforderungen finden Sie unter [Unterstützung von Dateispeicher in lync Server 2013](lync-server-2013-file-storage-support.md).
+      - Der Front-End-Pool der Enterprise Edition umfasst einen oder mehrere Front-End-Server (aus Gründen der Skalierbarkeit typischerweise mindestens zwei Front-End-Server) sowie einen separaten Back-End-Server. Ein Front-End-Pool kann maximal zwölf Front-End-Server enthalten. Für mehrere Front-End-Server ist ein Lastenausgleich erforderlich. Für SIP-Datenverkehr wird der DNS-Lastenausgleich empfohlen, es werden jedoch auch Hardwaregeräte zum Lastenausgleich unterstützt. Auch wenn Sie den DNS-Lastenausgleich für SIP-Datenverkehr einsetzen, benötigen Sie außerdem ein Hardwaregerät zum Lastenausgleich für HTTP-Datenverkehr. Es wird empfohlen, SQL Server Spiegelung für eine hohe Verfügbarkeit von Datenbanken zu sichern. Die Back-End-Datenbank erfordert eine separate Instanz, aber Sie können die Archivierungsdatenbank, Überwachungsdatenbank, Datenbank für beständigen Chat und Konformitätsdatenbank für beständigen Chat mit der Back-End-Datenbank verbinden. Lync Server 2013 unterstützt die Verwendung eines freigegebenen Clusters für die Dateifreigaben in Ihrer Bereitstellung. Ausführliche Informationen zu den Anforderungen an den Datenbankspeicher finden Sie unter [Database Software Support in lync Server 2013](lync-server-2013-database-software-support.md). Ausführliche Informationen zu den Dateispeicheranforderungen finden Sie unter [File Storage Support in lync Server 2013](lync-server-2013-file-storage-support.md).
         
         <div>
         
 
         > [!IMPORTANT]  
-        > Wenn Sie lync Server-Datenbanken collocate, empfehlen wir dringend, alle Faktoren zu bewerten, die sich auf die Verfügbarkeit und Leistung auswirken können. Zum Überprüfen von Failoverfunktionen empfiehlt es sich, alle Failover-Szenarien zu testen.
+        > Wenn Sie lync Server Datenbanken collocate, wird dringend empfohlen, alle Faktoren zu bewerten, die sich auf die Verfügbarkeit und Leistung auswirken können. Zum Überprüfen der Failoverfunktionen wird empfohlen, alle Failover-Szenarien zu testen.
 
         
         </div>
     
-      - Standard Edition-Server mit einer kombinierten SQL Server Express-Datenbank
+      - Server der Standard Edition, der eine verbundene SQL Server Express-Datenbank enthält.
 
-  - Ihre Bereitstellung kann auch eine oder mehrere Verzweigungs Websites aufweisen, die einem zentralen Standort zugeordnet sind.
+  - In Ihrer Bereitstellung können mehrere Zweigstellen einem zentralen Standort zugeordnet werden.
 
-In diesem Abschnitt werden die Websites und Komponenten einer lync Server 2013-Bereitstellung beschrieben. Details zur Website-, Topologie-und Komponentenplanung von lync Server 2013 finden Sie unter [Topologie-Grundlagen, die Sie vor dem Planen der lync Server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md) -und Referenz Topologien [in lync Server 2013](lync-server-2013-reference-topologies.md) in der Planungsdokumentation wissen müssen. Details zur Integration von Komponenten vorheriger Versionen finden Sie unter [Unterstützte Migrationspfade und Koexistenz Szenarien in lync Server 2013](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md).
+In diesem Abschnitt werden die Websites und Komponenten einer lync Server 2013-Bereitstellung beschrieben. Ausführliche Informationen zur Planung lync Server 2013 Standorts, der Topologie und der Komponenten finden Sie unter [Topologie Grundlagen, die Sie vor der Planung von lync Server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md) und [Referenz Topologien in lync Server 2013](lync-server-2013-reference-topologies.md) in der Planungsdokumentation kennen müssen. Ausführliche Informationen zur Integration von Komponenten früherer Versionen finden Sie unter [Supported Migration Paths and Koexistenz Scenarios in lync Server 2013](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md).
 
 <div>
 
@@ -74,29 +74,29 @@ In diesem Abschnitt werden die Websites und Komponenten einer lync Server 2013-B
 
 <div>
 
-## <a name="central-site-topologies-and-components-on-premises"></a>Zentrale Standort Topologien und-Komponenten (lokal)
+## <a name="central-site-topologies-and-components-on-premises"></a>Topologien und Komponenten des zentralen Standorts (lokal)
 
-Obwohl eine zentrale Standorttopologie einen Front-End-Pool oder einen Standard Edition-Server enthalten muss, kann jede zentrale Website auch Folgendes enthalten:
+Auch wenn die Topologie eines zentralen Standorts einen Front-End-Pool oder einen Server der Standard Edition umfassen muss, kann jeder zentrale Standort auch folgende Komponenten enthalten:
 
-  - Mehrere Front-End-Pools, die sich in der gleichen Domäne oder in verschiedenen Domänen befinden können. Allerdings müssen sich alle Front-End-Server in einem Front-End-Pool und der Back-End-Server für diesen Pool in der gleichen Domäne befinden.
+  - Mehrere Front-End-Pools, die sich in derselben oder in verschiedenen Domänen befinden können. Alle Front-End-Server in einem Front-End-Pool und der Back-End-Server für den entsprechenden Pool müssen sich jedoch in derselben Domäne befinden.
 
-  - Mehrere Standard Edition-Server.
+  - Mehrere Server der Standard Edition.
 
-  - Office Web Apps Server, der mit Office Web Applications in lync Server 2013 verwendet wird, um die Freigabe und das Rendern von Microsoft PowerPoint-Präsentationen zu verarbeiten.
+  - Office-webapps-Server, der mit Office-Webanwendungen in lync Server 2013 verwendet wird, um die Freigabe und das Rendern von Microsoft PowerPoint Präsentationen zu verarbeiten.
 
-  - Edgeserver oder Edge-Pool in Ihrem Umkreisnetzwerk, wenn Sie möchten, dass Ihre Bereitstellung Föderationspartner, öffentliche Chat Verbindungen, ein Extensible Messaging and Presence Protocol (XMPP)-Gateway, Remotebenutzerzugriff, Teilnahme anonymer Benutzer in Besprechungen unterstützt oder Exchange Unified Messaging (um). Sie können keine andere Serverrolle mit einem Edgeserver collocate. Es wird empfohlen, den DNS-Lastenausgleich zu finden, wobei der Hardwarelastenausgleich ebenfalls unterstützt wird. Für die interne Edgeschnittstelle und die externe Edgeschnittstelle muss derselbe Typ von Lastenausgleich verwendet werden. Es ist nicht möglich, für eine Edgeschnittstelle den DNS-Lastenausgleich und für die andere Edgeschnittstelle ein Hardwaregerät zum Lastenausgleich zu verwenden. Ausführliche Informationen zu Lastenausgleichsanforderungen und-Support finden Sie unter [Planen des Zugriffs externer Benutzer in lync Server 2013](lync-server-2013-planning-for-external-user-access.md) in der Planungsdokumentation und [Bereitstellen des Zugriffs externer Benutzer in lync Server 2013](lync-server-2013-deploying-external-user-access.md) in der Bereitstellungsdokumentation.
+  - Edgeserver oder Edgepool in Ihrem Umkreisnetzwerk, wenn Ihre Bereitstellung Verbundpartner, öffentliche Instant Messaging-Verbindungen, ein XMPP-Gateway (Extensible Messaging and Presence Protocol), Remotebenutzerzugriff, Teilnahme anonymer Benutzer an Besprechungen unterstützen soll, oder Exchange Unified Messaging (um). Mit einem Edgeserver kann keine weitere Serverrolle verbunden werden. Der DNS-Lastenausgleich wird nach Bedarf empfohlen, es werden jedoch auch Hardwaregeräte zum Lastenausgleich unterstützt. Für die interne Edgeschnittstelle und die externe Edgeschnittstelle muss derselbe Typ von Lastenausgleich verwendet werden. Es ist nicht möglich, für eine Edgeschnittstelle den DNS-Lastenausgleich und für die andere Edgeschnittstelle ein Hardwaregerät zum Lastenausgleich zu verwenden. Ausführliche Informationen zu Lastenausgleichsanforderungen und-Unterstützung finden Sie unter [Planning for external User Access in lync Server 2013](lync-server-2013-planning-for-external-user-access.md) in der Planungsdokumentation und [Bereitstellen des Zugriffs auf externe Benutzer in lync Server 2013](lync-server-2013-deploying-external-user-access.md) in der Bereitstellungsdokumentation.
 
-  - Vermittlungs Server oder-Pool, wenn Sie Enterprise-VoIP oder Einwahlkonferenzen in einem Front-End-Pool am zentralen Standort unterstützen möchten. Je nachdem, wie Sie den Enterprise-VoIP-Support bereitstellen, können Sie den Vermittlungsserver in einem Front-End-Pool (Standard) collocate oder einen eigenständigen Vermittlungsserver oder-Pool bereitstellen. Sie können DNS-, Hardware-oder Anwendungslastenausgleich verwenden (falls zutreffend), um den Datenverkehr vom Gateway-Peer eines Mediations Server-Pools zu verteilen, einschließlich eines PSTN-Gateways, einer IP-PBX-oder SIP-Trunk-Sitzung Border Control (SBC). Details zum Planen der entsprechenden Mediation Server-Topologie finden Sie unter [Bereitstellungsrichtlinien für Mediation Server in lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md) in der Planungsdokumentation.
+  - Vermittlungsserver oder Pool, wenn Sie Enterprise-VoIP oder Einwahlkonferenzen in einer Front-End-Pool am zentralen Standort unterstützen möchten. Je nachdem, wie Sie Enterprise-VoIP-Unterstützung bereitstellen, können Sie die Vermittlungsserver in einer Front-End-Pool (Standardeinstellung) collocate oder einen eigenständigen Vermittlungsserver oder Pool bereitstellen. Sie können DNS-, Hardware-oder Anwendungslasten Ausgleich (sofern zutreffend) verwenden, um Datenverkehr vom Gateway-Peer eines Vermittlungsserver Pools zu verteilen, einschließlich eines PSTN-Gateways, einer IP-Nebenstellenanlage oder eines SIP-Trunk-Sitzungs Rahmensteuerelements (SBC). Ausführliche Informationen zum Planen der entsprechenden Vermittlungsserver Topologie finden Sie unter [Deployment Guidelines for Vermittlungsserver in lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md) in der Planungsdokumentation.
 
-  - Server für beständigen Chat, wenn Sie möchten, dass Benutzer an mehrteiligen, themenbasierten Unterhaltungen teilnehmen können, die im Laufe der Zeit beibehalten werden. Zur Bereitstellung von mehr Kapazität und höherer Zuverlässigkeit kann Ihre Topologie mehrere Computer umfassen, auf denen der beständige Chat Server ausgeführt wird. Sie können keinen beständigen Chat Server mit anderen Serverrollen in einem Enterprise-Pool collocate. Sie können den Server für beständigen Chat jedoch auf einem Standard Edition-Server collocate. Beständiger Chat erfordert eine Datenbank und, wenn Sie die beständige Chat-Compliance implementieren, eine Datenbank für beständigen Chat, aber die Datenbankenkönnen mit der Archivierungsdatenbank, der Überwachungsdatenbank oder auf dem Back-End-Server einer Enterprise-Edition zusammengestellt werden. Front-End-Pool. Weitere Informationen zum Planen der entsprechenden Server Topologie für beständigen Chat finden Sie unter [Planen des beständigen Chat Servers in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in der Planungsdokumentation.
+  - Server für beständigen Chat, wenn Sie möchten, dass Benutzer an mehrteiligen, themenbasierten Unterhaltungen teilnehmen können, die im Laufe der Zeit beibehalten werden. Um mehr Kapazität und höhere Zuverlässigkeit bereitzustellen, kann Ihre Topologie mehrere Computer mit persistent Chat Server umfassen. Sie können den Server für beständigen Chat nicht mit anderen Serverrollen in einem Enterprise-Pool collocate. Sie können den Server für beständigen Chat jedoch auf einem Standard Edition-Server collocate. Für beständigen Chat ist eine Datenbank erforderlich, und wenn Sie die Compliance für beständigen Chat implementieren, wird eine Kompatibilitätsdatenbank für beständigen Chat benötigt, aber die Datenbankenkönnen mit dem Archivierungsdatenbank, Überwachungsdatenbank oder auf dem Back-End-Server einer Enterprise Edition verbunden werden. Front-End-Pool. Ausführliche Informationen zum Planen der entsprechenden Server Topologie für beständigen Chat finden Sie unter [Planning for persistent Chat Server in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in der Planungsdokumentation.
 
-  - Überwachung, wenn Sie die Datensammlung für die Audio/Video Quality of Experience (QoE) und die Anrufdetailaufzeichnung (CDR) für Enterprise-VoIP-und A/V-Konferenzen in Ihrer Bereitstellung unterstützen möchten. Optional können Sie den Microsoft System Center Operations Manager (vormals Microsoft Operations Manager) installieren, der mithilfe der Überwachung von CDR-und QoE-Daten nahezu in Echtzeit Warnungen generiert, die den Status der Anruf Zuverlässigkeit und Medienqualität anzeigen. Die Überwachung wird bei der Bereitstellung auf Front-End-Servern oder einem Standard Edition-Server bereitgestellt. Für die Überwachung ist eine Datenbank erforderlich, aber die Datenbank kann mit der Archivierungsdatenbank, der persistent Chat-Datenbank, der beständigen Chat-Kompatibilitätsdatenbank oder auf dem Back-End-Server eines Enterprise Edition-Front-End-Pools zusammengestellt werden.
+  - Überwachung, wenn Sie die Datensammlung für die Audio/Video Quality of Experience (QoE) und die Aufzeichnung von Kommunikationsdatensätzen (CDR) für Enterprise-VoIP und A/V-Konferenzen in Ihrer Bereitstellung unterstützen möchten. Optional können Sie Microsoft System Center Operations Manager (ehemals Microsoft Operations Manager) installieren, das die Überwachungs-KDS-und QoE-Daten verwendet, um in Echtzeit Warnungen zu generieren, die die Integrität von Anruf Zuverlässigkeit und Medienqualität anzeigen. Die Überwachung erfolgt bei der Bereitstellung auf Front-End-Servern oder einem Standard Edition-Server. Für die Überwachung ist eine Datenbank erforderlich, die Datenbank kann jedoch mit der Archivierungsdatenbank, der Datenbank für beständigen Chat, der Kompatibilitätsdatenbank für beständigen Chat oder dem Back-End-Server eines Enterprise Edition-Front-End-Pool verbunden werden.
 
-  - Archivierung, wenn Sie Chatnachrichten und Besprechungsinhalte (aus Kompatibilitätsgründen) in Ihrer Bereitstellung archivieren möchten. Die Archivierung erfolgt bei der Bereitstellung auf Front-End-Servern oder einem Standard Edition-Server. Der Archivierungsspeicher erfordert entweder die Bereitstellung einer Archivierungsdatenbank oder die Integration in den Exchange 2013-Speicher. Wenn Sie beides verwenden, das als *Gemischter Modus*bezeichnet wird, wird Exchange 2013-Speicher zum Speichern von Archivdaten für Benutzer verwendet, die sich in Exchange 2013 befinden, und die Archivierungsdatenbank wird verwendet, um Daten für alle anderen Benutzer in Ihrer Bereitstellung zu archivieren. Wenn Sie eine Archivierungsdatenbank benötigen, kann die Datenbank in der Überwachungsdatenbank, in der Datenbank für beständigen Chat, in der Kompatibilitätsdatenbank für beständigen Chat oder auf dem Back-End-Server eines Front-End-Pools zusammengestellt werden. Details zum Planen der entsprechenden Archivierungs Topologie finden Sie unter [Planen der Archivierung in lync Server 2013](lync-server-2013-planning-for-archiving.md) in der Planungsdokumentation.
+  - Archivierung, wenn Sie die Chatkommunikation und Besprechungsinhalte (zur Einhaltung von Bestimmungen) in Ihrer Bereitstellung archivieren möchten. Die Archivierung, sofern bereitgestellt, wird mit Front-End-Servern oder einem Standard-Edition-Server verbunden. Der Archivierungsspeicher erfordert entweder die Bereitstellungeines Archivierungsdatenbank oder eine Integration in Exchange 2013 Speicher. Wenn Sie beide verwenden, was als *Gemischter Modus*bezeichnet wird, wird Exchange 2013 Speicher verwendet, um Archivdaten für Benutzer zu speichern, die in Exchange 2013 verwaltet werden, und die Archivierungsdatenbank dient zum Archivieren von Daten für alle anderen Benutzer in Ihrer Bereitstellung. Wenn Sie eine Archivierungsdatenbank benötigen, kann die Datenbank mit der Überwachungsdatenbank, Datenbank für beständigen Chat, Konformitätsdatenbank für beständigen Chat oder dem Back-End-Server eines Front-End-Pool verbunden werden. Ausführliche Informationen zum Planen der entsprechenden Archivierungs Topologie finden Sie unter [Planning for Archiving in lync Server 2013](lync-server-2013-planning-for-archiving.md) in der Planungsdokumentation.
 
-  - Director-oder Director-Pool, wenn Sie die Widerstandsfähigkeit und Umleitung von lync Server 2013-Benutzeranforderungen an den Home-Pool des Benutzers erleichtern möchten, der entweder ein Enterprise Edition-Front-End-Pool oder ein Standard Edition-Server sein kann. Wir empfehlen, dass Sie einen Director-oder Director-Pool in jedem zentralen Standort bereitstellen, der den Zugriff durch externe Benutzer unterstützt, und an jedem zentralen Standort, an dem Sie ein oder mehrere Front-End-Pools bereitstellen. Jeder Director-Pool kann maximal zehn Directors enthalten. Ein Director kann nicht mit einer anderen Serverrolle kombiniert werden. Details zum Planen der entsprechenden Director-Topologie finden Sie unter [Szenarien für den Director in lync Server 2013](lync-server-2013-scenarios-for-the-director.md) in der Planungsdokumentation.
+  - Director oder Directorpool, wenn Sie die Ausfallsicherheit und die Umleitung von lync Server 2013 Benutzeranforderungen an den Home-Pool des Benutzers erleichtern möchten, bei dem es sich entweder um eine Enterprise Edition-Front-End-Pool oder eine Standard Edition-Server handeln kann. Es wird empfohlen, dass Sie einen Director oder Directorpool an jedem zentralen Standort bereitstellen, der den Zugriff durch externe Benutzer und an jedem zentralen Standort unterstützt, in dem Sie einen oder mehrere Front-End-Pools bereitstellen. Jeder Directorpool kann maximal zehn Directors enthalten. Ein Director kann nicht mit einer anderen Serverrolle verbunden werden. Ausführliche Informationen zum Planen der entsprechenden Director-Topologie finden Sie unter [Szenarien für den Director in lync Server 2013](lync-server-2013-scenarios-for-the-director.md) in der Planungsdokumentation.
 
-  - Reverse Proxy, bei dem es sich nicht um eine lync Server 2013-Komponente handelt, aber erforderlich ist, wenn Sie die Freigabe von Webinhalten für verbundene Benutzer unterstützen oder Mobilitäts Datenverkehr unterstützen möchten. Sie können keinen Reverse-Proxy Server mit einer beliebigen lync Server 2013-Serverrolle collocate, aber Sie können Reverse-Proxy-Unterstützung für eine lync Server 2013-Bereitstellung implementieren, indem Sie die Unterstützung für einen vorhandenen Reverse-Proxy Server in Ihrer Organisation konfigurieren, der für andere verwendet wird. Anwendungen. Details zu Reverse-Proxyservern finden Sie unter [Einrichten von Reverse-Proxyservern für lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) in der Bereitstellungsdokumentation.
+  - Reverseproxy, bei dem es sich nicht um eine lync Server 2013 Komponente handelt, aber erforderlich ist, wenn Sie die Freigabe von Webinhalten für Verbundbenutzer unterstützen oder Mobilitäts Datenverkehr unterstützen möchten. Es ist nicht möglich, einen Reverseproxy-Server mit einer lync Server 2013 Serverrolle collocate, aber Sie können Reverse-Proxy Unterstützung für eine lync Server 2013-Bereitstellung implementieren, indem Sie die Unterstützung für einen vorhandenen Reverseproxy in Ihrer Organisation konfigurieren, der für andere verwendet wird. Anwendungen. Ausführliche Informationen zu Reverse-Proxyservern finden Sie unter [Einrichten von Reverse-Proxyservern für lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) in der Bereitstellungsdokumentation.
 
 <div>
 
@@ -108,41 +108,41 @@ Obwohl eine zentrale Standorttopologie einen Front-End-Pool oder einen Standard 
 
 </div>
 
-Alle Front-End-Pools und Standard Edition-Server, die Sie an einem zentralen Standort bereitstellen, geben eine der folgenden Optionen frei, die Sie für die zentrale Website bereitstellen:
+Alle am zentralen Standort bereitgestellten Front-End-Pools und Server der Standard Edition nutzen folgende Komponenten gemeinsam, wenn Sie diese für den zentralen Standort bereitstellen:
 
-  - Director-oder Director-Pool
+  - Director oder Director-Pool
 
-  - Eigenständiger Vermittlungs Server oder Pool
+  - Eigenständiger Vermittlungsserver oder -pool
 
   - Office Web Apps-Server
 
-  - Edgeserver oder Edge-Pool
+  - Edgeserver oder Edgepool
 
-  - Server oder Pool für beständigen Chat
+  - Server für beständigen Chat oder Pool
 
   - Überwachung
 
-  - Archiving
+  - Archivierung
 
 <div>
 
 
 > [!NOTE]  
-> Wenn Sie die Integration von Exchange 2013 Unified Messaging unterstützen möchten, kann ein Exchange um-Server mit ihrer lync Server 2013-Bereitstellung implementiert werden, aber es handelt sich nicht um eine Komponente der lync Server 2013-Website.
+> Ein Exchange um Server kann mit ihrer lync Server 2013-Bereitstellung implementiert werden, wenn Sie die Integration von Exchange 2013 Unified Messaging unterstützen möchten, aber es handelt sich nicht um eine Komponente des lync Server 2013-Standorts.
 
 
 
 </div>
 
-Mehrere zentrale Websites können auch eine der folgenden Freigaben freigeben, die Sie auf einer zentralen Website bereitstellen:
+Mehrere zentrale Standorte können außerdem folgende Komponenten gemeinsam nutzen, die Sie an einem zentralen Standort bereitstellen:
 
-  - Eigenständiger Vermittlungs Server oder Pool
+  - Eigenständiger Vermittlungsserver oder -pool
 
-  - Edgeserver oder Edge-Pool
+  - Edgeserver oder Edgepool
 
-  - Server oder Pool für beständigen Chat
+  - Server für beständigen Chat oder Pool
 
-  - Archiving
+  - Archivierung
 
   - Überwachung
 
@@ -150,23 +150,23 @@ Mehrere zentrale Websites können auch eine der folgenden Freigaben freigeben, d
 
 
 > [!NOTE]  
-> Ein Exchange um-Server kann mit ihrer lync Server 2013-Bereitstellung implementiert und von mehreren zentralen Standorten freigegeben werden, ist aber keine Komponente der lync Server 2013-Website.
+> Ein Exchange um Server kann mit ihrer lync Server 2013-Bereitstellung implementiert und von mehreren zentralen Standorten gemeinsam genutzt werden, aber es handelt sich nicht um eine Komponente des lync Server 2013-Standorts.
 
 
 
 </div>
 
-Details zu den Serverrollen und Funktionen von lync Server 2013 finden Sie unter [Serverrollen in lync Server 2013](lync-server-2013-server-roles.md) in der Planungsdokumentation.
+Ausführliche Informationen zu lync Server 2013 Serverrollen und-Funktionen finden Sie unter [Serverrollen in lync Server 2013](lync-server-2013-server-roles.md) in der Planungsdokumentation.
 
-Eine Zusammenfassung der Unterstützung von lync Server 2013 Server-Unterstützung finden Sie unter [unterstützte Server Zusammenstellung in lync Server 2013](lync-server-2013-supported-server-collocation.md).
+Eine Zusammenfassung der unterstützten lync Server 2013 Server-Zusammenstellungs Unterstützung finden Sie unter [Supported Server recolocation in lync Server 2013](lync-server-2013-supported-server-collocation.md).
 
-Zusätzlich zu den zuvor in diesem Abschnitt beschriebenen Serverrollen und Funktionen enthält lync Server 2013 zusätzliche Komponenten und Optionen, die einige oder alle der folgenden Elemente enthalten können:
+Zusätzlich zu den zuvor in diesem Abschnitt beschriebenen Serverrollen und Funktionen verfügt lync Server 2013 über zusätzliche Komponenten und Optionen, die einige oder alle der folgenden Elemente enthalten können:
 
   - Firewalls
 
   - PSTN-Gateways (bei Bereitstellung von Enterprise-VoIP)
 
-  - Exchange um-Server
+  - Exchange um Server
 
   - DNS-Lastenausgleich
 
@@ -182,17 +182,17 @@ Ausführliche Informationen zu allen lync Server 2013-Features,-Komponenten und-
 
 <div>
 
-## <a name="branch-site-topologies-and-components-on-premises"></a>Topologien und Komponenten von Verzweigungs Websites (lokal)
+## <a name="branch-site-topologies-and-components-on-premises"></a>Topologien und Komponenten von Zweigstellen (lokal)
 
-Eine Verzweigungs Website ist einem zentralen Standort zugeordnet, und jede überlebensfähige Verzweigungs-Appliance an einer Zweigstelle ist einem Enterprise Edition-Front-End-Pool oder einem Standard Edition-Server auf dem zugehörigen zentralen Standort zugeordnet. Zweigstellen Websites sind für den größten Teil ihrer Funktionalität vom zentralen Standort abhängig, sodass Komponenten an einer Zweigstelle nur die folgenden Elemente enthalten:
+Eine Zweigstelle ist einem zentralen Standort zugeordnet, und jede Survivable Branch Appliance an einem Zweigstellenstandort ist einem Front-End-Pool der Enterprise Edition oder einem Server der Standard Edition am entsprechenden zentralen Standort zugeordnet. Der Großteil der Funktionalität an Zweigstellenstandorten ist vom zentralen Standort abhängig, daher umfassen Zweigstellenstandorte nur folgende Komponenten:
 
-  - Eine Survivable Branch-Appliance, die ein PSTN-Gateway (Public Switched Telephone Network) mit einigen lync-Server Funktionen kombiniert. Ein Vermittlungsserver kann mit der Instanz der Registrierungsstelle auf der Survivable Branch-Appliance zusammengestellt werden, und Sie können einen eigenständigen Vermittlungsserver oder einen Pool von Vermittlungsservern bereitstellen.
+  - Ein Survivable Branch Appliance, in dem ein PSTN-Gateway (Public Switched Telephone Network) mit einigen lync Server Funktionen kombiniert wird. Ein Vermittlungsserver kann mit der Instanz der Registrierungsstelle auf dem Survivable Branch Appliance zusammengestellt werden, und Sie können eine eigenständige Vermittlungsserver oder einen Pool von Vermittlungsservern bereitstellen.
 
-  - Ein Survival-Branch-Server, bei dem es sich um einen Server mit Windows Server handelt, auf dem die lync Server 2013-Registrierungs-und Mediationsserver Software installiert ist.
+  - Ein Survivable Branch Server, bei dem es sich um einen Server mit Windows Server handelt, auf dem lync Server 2013 Registrierungsstelle und Vermittlungsserver Software installiert ist.
 
-  - Ein eigenständiges PSTN-Gateway (nicht Bestandteil der Survivable Branch-Appliance) und ein eigenständiger Vermittlungs Server.
+  - Ein eigenständiges PSTN-Gateway (kein Bestandteil der Survivable Branch Appliance) und einen eigenständigen Vermittlungsserver.
 
-Die Anforderungen für überlebensfähige Zweigstellenserver sind identisch mit den Anforderungen für eine beliebige lync Server 2013-Serverrolle.
+Die Anforderungen für Survivable Branch Server entsprechen den Anforderungen für alle lync Server 2013 Server Rolle.
 
 </div>
 

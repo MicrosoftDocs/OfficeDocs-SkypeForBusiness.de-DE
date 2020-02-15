@@ -12,20 +12,20 @@ ms:contentKeyID: 48183690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dabb05b40acc6536b57e00e6355c56bcdc3017df
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1d374c946a8093f6464b8c673d548cc4784bfede
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737355"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029586"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-requirements-for-lync-server-2013"></a>DNS-Anforderungen für Lync Server 2013
+# <a name="dns-requirements-for-lync-server-2013"></a>DNS-Anforderungen für lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41737355"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-29_
+_**Letztes Änderungsstand des Themas:** 2012-06-29_
 
 In den folgenden Themen werden die DNS-Anforderungen für einen Front-End-Pool und Standard Edition-Server beschrieben.
 
@@ -43,9 +43,9 @@ In den folgenden Themen werden die DNS-Anforderungen für einen Front-End-Pool u
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [DNS-Anforderungen für den Front-End-Pool in Lync Server 2013](lync-server-2013-dns-requirements-for-front-end-pool.md)
+  - [DNS-Anforderungen für Front-End-Pool in lync Server 2013](lync-server-2013-dns-requirements-for-front-end-pool.md)
 
-  - [DNS-Anforderungen für einen Standard Edition-Server in Lync Server 2013](lync-server-2013-dns-requirements-for-a-standard-edition-server.md)
+  - [DNS-Anforderungen für eine Standard Edition-Server in lync Server 2013](lync-server-2013-dns-requirements-for-a-standard-edition-server.md)
 
 </div>
 

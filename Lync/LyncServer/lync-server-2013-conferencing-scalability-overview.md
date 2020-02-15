@@ -1,5 +1,5 @@
 ---
-title: Übersicht über die Skalierbarkeit der lync Server 2013-Konferenz
+title: Übersicht über die Skalierbarkeit von lync Server 2013 Konferenzen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183461
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a65fe1ddd19046c1d6b424031d27127965f3849f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 631a8ecbe6304b39824f2f65dab908dc63d0067c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741415"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028826"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41741415"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
-Die maximale Größe einer Konferenz, die auf lync Server 2013 in einem freigegebenen Pool gehostet wird (also ein Pool, in dem alle lync Server 2013-Arbeitsauslastungen einschließlich Chats (Chat) und Anwesenheits-, Konferenz-und Enterprise-VoIP gehostet werden) ist 250 Benutzern.
+Die maximale Größe einer auf lync Server 2013 gehosteten Konferenz in einem freigegebenen Pool (also ein Pool, der alle lync Server 2013 Arbeitsauslastungen einschließlich Chatnachrichten und Anwesenheitsinformationen, Konferenzen und Enterprise-VoIP hostet) beträgt 250 Benutzer.
 
-Bevor wir die Verwendung von lync Server zur Unterstützung größerer Besprechungen erläutern, sehen wir uns die von uns verwendeten Skalierbarkeitstest Methoden an und erfahren, wie wir das 250-Benutzermodell für Tests mit freigegebenen Pools ermitteln.
+Bevor wir uns mit lync Server zur Unterstützung größerer Besprechungen befassen, sehen wir uns die von uns verwendeten Skalierbarkeitstest Methoden an und bestimmen, wie das 250-User-Modell für Tests mit freigegebenem Pool ermittelt wird.
 
 <div>
 
@@ -47,7 +47,7 @@ Bevor wir die Verwendung von lync Server zur Unterstützung größerer Besprechu
 
   - [Skalierbarkeitstests in lync Server 2013](lync-server-2013-scalability-testing.md)
 
-  - [Das Konferenzbenutzer Modell in lync Server 2013](lync-server-2013-conferencing-user-model.md)
+  - [Das Benutzermodell für Konferenzen in lync Server 2013](lync-server-2013-conferencing-user-model.md)
 
   - [Verteilung von Konferenz Lasten in lync Server 2013](lync-server-2013-conferencing-load-distribution.md)
 

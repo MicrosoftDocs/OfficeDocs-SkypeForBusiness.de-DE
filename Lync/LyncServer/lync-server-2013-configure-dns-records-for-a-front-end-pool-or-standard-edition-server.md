@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren der DNS-Einträge für einen Front-End-Pool oder Standard Edition-Server
+title: Konfigurieren von DNS-Einträgen für eine Front-End-Pool oder Standard Edition-Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183244
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89acbccd226c15d9c8359fc01d010655fc46a989
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 633282e30cae401f2bed39522864f076d0ce85ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755969"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028576"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a>Konfigurieren der DNS-Einträge in Lync Server 2013 für einen Front-End-Pool oder Standard Edition-Server
+# <a name="configure-dns-records-in-lync-server-2013-for-a-front-end-pool-or-standard-edition-server"></a>Konfigurieren von DNS-Einträgen in lync Server 2013 für eine Front-End-Pool oder Standard Edition-Server
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755969"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
-Lync Server 2013 verwendet das Domain Name System (DNS) zum Registrieren und Verwalten von Datensätzen für einen korrekten Domänennamen für die IP-Adressenauflösung. Sie müssen die erforderlichen DNS-Einträge für Ihre Bereitstellung vor dem Betrieb des Standard Edition-Servers oder des Front-End-Pools konfigurieren. Die folgenden Links geben Anleitungen dazu, welche Datensätze erstellt werden müssen, um den ordnungsgemäßen Betrieb von lync Server 2013 zu ermöglichen.
+Lync Server 2013 verwendet das Domain Name System (DNS) zum Registrieren und Verwalten von Datensätzen für den ordnungsgemäßen Domänennamen zur IP-Adressauflösung. Sie müssen die erforderlichen DNS-Einträge für Ihre Bereitstellung konfigurieren, bevor Sie die Standard Edition-Server oder Front-End-Pool ausführen können. Die folgenden Links bieten Anleitungen dazu, welche Datensätze erstellt werden müssen, damit der ordnungsgemäße Betrieb von lync Server 2013 möglich ist.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Konfigurieren von DNS für den Lastenausgleich in Lync Server 2013](lync-server-2013-configure-dns-for-load-balancing.md)
+  - [Konfigurieren von DNS für den Lastenausgleich in lync Server 2013](lync-server-2013-configure-dns-for-load-balancing.md)
 
-  - [Konfigurieren von DNS-Hosteinträgen für Lync Server 2013](lync-server-2013-configure-dns-host-records.md)
+  - [Konfigurieren von DNS-Host Einträgen für lync Server 2013](lync-server-2013-configure-dns-host-records.md)
 
-  - [Erstellen und Überprüfen von DNS-SRV-Einträgen in Lync Server 2013](lync-server-2013-create-and-verify-dns-srv-records.md)
+  - [Erstellen und Überprüfen von DNS-SRV-Einträgen in lync Server 2013](lync-server-2013-create-and-verify-dns-srv-records.md)
 
 </div>
 

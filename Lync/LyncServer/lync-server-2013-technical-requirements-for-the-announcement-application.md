@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Technische Anforderungen für die Ankündigungsanwendung'
+title: 'Lync Server 2013: technische Anforderungen für die Ankündigungsanwendung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8812dca81d656e68fc506c4a87c3c80481040bf6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1da328ef485d4dcc8bdac316aa31cef8880525c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746515"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42022446"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-the-announcement-application-in-lync-server-2013"></a>Technische Anforderungen für die Ankündigungsanwendung in Lync Server 2013
+# <a name="technical-requirements-for-the-announcement-application-in-lync-server-2013"></a>Technische Anforderungen für die Ankündigungsanwendung in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41746515"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-11-07_
+_**Letztes Änderungsstand des Themas:** 2013-11-07_
 
-In diesem Abschnitt werden die folgenden technischen Voraussetzungen für die Ankündigungs Anwendung beschrieben:
+In diesem Abschnitt werden die folgenden technischen Anforderungen für die Ankündigungsanwendung beschrieben:
 
   - Hardwareanforderungen
 
@@ -45,23 +45,23 @@ In diesem Abschnitt werden die folgenden technischen Voraussetzungen für die An
 
   - Portanforderungen
 
-  - Audiodatei-Anforderungen
+  - Anforderungen für Audiodateien
 
 <div>
 
-## <a name="hardware-requirements"></a>Hardware Anforderungen
+## <a name="hardware-requirements"></a>Hardwareanforderungen
 
-Die Ankündigungs Anwendung hat die gleichen Hardwareanforderungen wie Front-End-Server. Details zu den Hardwareanforderungen finden Sie unter [Server Hardwareplattformen für lync Server 2013](lync-server-2013-server-hardware-platforms.md) in der Dokumentation zur Unterstützung.
+Die Ankündigungsanwendung hat die gleichen Hardwareanforderungen wie Front-End-Server. Ausführliche Informationen zu den Hardwareanforderungen finden Sie unter [Server Hardware Platforms for lync Server 2013](lync-server-2013-server-hardware-platforms.md) in der Unterstützungsdokumentation.
 
 </div>
 
 <div>
 
-## <a name="software-requirements"></a>Software Anforderungen
+## <a name="software-requirements"></a>Softwareanforderungen
 
-Die Ankündigungs Anwendung verfügt über die gleichen Betriebssystemanforderungen und Softwarevoraussetzungen wie Front-End-Server. Ausführliche Informationen zu den Softwareanforderungen finden Sie unter unter [Stützung von Server-und Tools-Betriebssystemen in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in der Dokumentation zur Unterstützung.
+Das Ankündigungsanwendung hat die gleichen Betriebssystemanforderungen und Softwarevoraussetzungen wie Front-End-Server. Ausführliche Informationen zu den Softwareanforderungen finden Sie unter [Betriebssystemunterstützung für Server und Tools in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in der Unterstützungsdokumentation.
 
-Auf allen Front-End-Servern oder Standard Edition-Servern, auf denen die Ankündigungs Anwendung ausgeführt wird, muss die Windows Media-Format Laufzeit für Server mit Windows Server 2008 R2 oder Microsoft Media Foundation für Server mit Windows Server 2012 oder Windows Server 2012 R2 Bei Windows Server 2008 R2 wird die Windows Media-Format Laufzeit als Teil der Windows-Desktop Oberfläche installiert. Windows Media Format Runtime oder Microsoft Media Foundation ist für Windows Media Audio-Dateien (WMA) erforderlich, die von der Ankündigungs Anwendung für Ankündigungen und Musik wiedergegeben werden.
+Auf allen Front-End-Servern oder Standard Edition-Servern, auf denen der Ankündigungsanwendung ausgeführt wird, muss die Windows Media Format-Laufzeitumgebung für Server mit Windows Server 2008 R2 oder Microsoft Media Foundation für Server installiert sein, auf denen Windows Server 2012 ausgeführt wird, oder Windows Server 2012 R2. Für Windows Server 2008 R2 wird die Windows Media Format-Laufzeitkomponente als Teil der Windows-Desktop Umgebung installiert. Windows Media Format Runtime oder Microsoft Media Foundation ist für Windows Media Audio-(WMA-) Dateien erforderlich, die das Ankündigungsanwendung für Ankündigungen und Musik abspielt.
 
 </div>
 
@@ -69,15 +69,15 @@ Auf allen Front-End-Servern oder Standard Edition-Servern, auf denen die Ankünd
 
 ## <a name="port-requirements"></a>Portanforderungen
 
-Die Ankündigungs Anwendung verwendet den folgenden Port:
+Der Ankündigungsanwendung verwendet den folgenden Port:
 
-  - **Port 5071**   für SIP-Abhör Anforderungen
+  - **Port 5071**   wird für SIP-Überwachungsanforderungen verwendet
 
 <div>
 
 
 > [!NOTE]  
-> Dieser Port ist die Standardeinstellung, kann aber mit dem Cmdlet <STRONG>Set-CsApplicationServer</STRONG> geändert werden. Details zu diesem Cmdlet finden Sie in der Dokumentation zur lync Server-Verwaltungsshell.
+> Dieser Port ist die Standardeinstellung, die Sie ändern können, indem Sie das Cmdlet "Cmdlet <STRONG>festlegen-CsApplicationServer</STRONG> " verwenden. Ausführliche Informationen zu diesem Cmdlet finden Sie in der lync Server-Verwaltungsshell Dokumentation.
 
 
 
@@ -89,7 +89,7 @@ Die Ankündigungs Anwendung verwendet den folgenden Port:
 
 ## <a name="audio-file-requirements"></a>Anforderungen für Audiodateien
 
-Die Ankündigungs Anwendung unterstützt das Wave-Dateiformat (WAV) und das Windows Media Audio-Dateiformat (WMA) für Musik und Ankündigungen. Die Anforderungen an die Audiodateien für die Ankündigungs Anwendung sind identisch mit der Antwortgruppen Anwendung. Ausführliche Informationen finden Sie unter [Technische Voraussetzungen für die Reaktionsgruppe in lync Server 2013](lync-server-2013-technical-requirements-for-response-group.md).
+Das Ankündigungsanwendung unterstützt das Wave-Dateiformat (WAV) und das Windows Media Audio-(WMA-) Dateiformat für Musik und Ankündigungen. Die Anforderungen an die Audiodateien für die Ankündigungsanwendung entsprechen denen für die Reaktionsgruppenanwendung. Ausführliche Informationen finden Sie unter [Technical Requirements for Response Group in lync Server 2013](lync-server-2013-technical-requirements-for-response-group.md).
 
 </div>
 

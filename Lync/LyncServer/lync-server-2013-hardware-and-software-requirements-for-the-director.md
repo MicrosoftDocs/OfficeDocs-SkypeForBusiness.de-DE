@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Hardware- und Softwareanforderungen für den Director'
+title: 'Lync Server 2013: Hardware-und Softwareanforderungen für den Director'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184517
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52d91a739935b2e42bb925d5645350c5875e5b43
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 32c4e241c7fd991fc217aaf2e1f2bd0ee9e37aab
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762193"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030328"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hardware-and-software-requirements-for-the-director-in-lync-server-2013"></a>Hardware- und Softwareanforderungen für den Director in Lync Server 2013
+# <a name="hardware-and-software-requirements-for-the-director-in-lync-server-2013"></a>Hardware-und Softwareanforderungen für den Director in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41762193"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-20_
+_**Letztes Änderungsstand des Themas:** 2012-10-20_
 
-In diesem Abschnitt werden die Hardware-und Softwareanforderungen für den Director sowie die unterstützten Zusammensetzungs Szenarien für den Director erläutert.
+In diesem Abschnitt werden die Hardware-und Softwareanforderungen für den Director sowie die unterstützten Zusammenstellungs Szenarien für den Director erläutert.
 
 <div>
 
-## <a name="hardware-requirements-for-the-director"></a>Hardware Anforderungen für den Director
+## <a name="hardware-requirements-for-the-director"></a>Hardwareanforderungen für Director-Server
 
 In der folgenden Tabelle sind die Hardwareanforderungen für den Director aufgeführt:
 
-### <a name="hardware-requirements-for-the-director"></a>Hardware Anforderungen für den Director
+### <a name="hardware-requirements-for-the-director"></a>Hardwareanforderungen für Director-Server
 
 <table>
 <colgroup>
@@ -62,27 +62,27 @@ In der folgenden Tabelle sind die Hardwareanforderungen für den Director aufgef
 <tr class="odd">
 <td><p>CPU</p></td>
 <td><ul>
-<li><p>64-Bit-Prozessor, Quad-Core, 2,0 GHz oder höher</p></li>
-<li><p>64-Bit-Dualprozessor, Dual-Core, 2,0 GHz oder höher</p></li>
+<li><p>64-Bit-Prozessor, Vierkern, mindestens 2,0 GHz</p></li>
+<li><p>64-Bit-Dualprozessor, Doppelkern, mindestens 2,0 GHz</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Arbeitsspeicher</p></td>
-<td><p>4 Gigabyte (GB)</p></td>
+<td><p>4 GB</p></td>
 </tr>
 <tr class="odd">
-<td><p>Festplatte</p></td>
+<td><p>Datenträger</p></td>
 <td><ul>
-<li><p>10K RPM-Festplattenlaufwerk (HDD)</p></li>
-<li><p>Hochleistungs-Solid-State-Laufwerk (SSD) mit gleicher oder besserer Leistung als 10.000-RPM-HDD</p></li>
-<li><p>2X RAID 10 (gestreifte und gespiegelte) 15K-RPM-Datenträger für Datenbankdateien</p></li>
+<li><p>HDD-Festplattenlaufwerk mit 10.000 U/min</p></li>
+<li><p>SSD-Hochleistungslaufwerk mit gleicher oder höherer Leistung als eine HDD-Festplatte mit 10.000 U/min</p></li>
+<li><p>2 RAID 10-Datenträger (Stripeset und gespiegelt), 15.000 U/min, für Datenbankdatendateien</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Netzwerk</p></td>
 <td><ul>
-<li><p>Dual 1 Gigabit pro Sekunde (Gbit/s)-Netzwerkadapter (empfohlen)</p></li>
-<li><p>Einzelner 1 Gbit/s-Netzwerkadapter (unterstützt)</p></li>
+<li><p>Dual-Port-Netzwerkkarten mit 1 GBit/s (empfohlen)</p></li>
+<li><p>Single-Port-Netzwerkkarte mit 1 GBit/s (unterstützt)</p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -95,29 +95,29 @@ In der folgenden Tabelle sind die Hardwareanforderungen für den Director aufgef
 
 ## <a name="software-requirements-for-the-director"></a>Software Anforderungen für den Director
 
-Die Director-Rolle kann nur auf Servern bereitgestellt werden, auf denen lync Server 2013 Enterprise Edition ausgeführt wird.
+Die Director-Rolle kann nur auf Servern bereitgestellt werden, die lync Server 2013 Enterprise Edition ausführt.
 
-Für die Directors ist eines der folgenden 64-Bit-Betriebssysteme erforderlich:
+Eines der folgenden 64-Bit-Betriebssysteme ist für die Directors erforderlich:
 
-  - Das Betriebssystem Windows Server 2008 R2 mit Service Pack 1
+  - Das Windows Server 2008 R2 Standard Betriebssystem mit Service Pack 1
 
   - Das Windows Server 2008 R2 Enterprise-Betriebssystem mit Service Pack 1
 
   - Das Windows Server 2008 R2 Datacenter-Betriebssystem mit Service Pack 1
 
-  - Das Betriebssystem Windows Server 2012 Standard
+  - Das Windows Server 2012 Standard-Betriebssystem
 
-  - Das Betriebssystem Windows Server 2012 Datacenter
+  - Das Betriebssystem des Windows Server 2012-Rechenzentrums
 
-Lync Server 2013 erfordert auch die Installation der folgenden Programme und Updates, die im Thema [zusätzliche Server Unterstützung und-Anforderungen in lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md)ausführlich beschrieben sind.
+Lync Server 2013 erfordert auch die Installation der folgenden Programme und Updates, die im Thema [zusätzliche Server Unterstützung und-Anforderungen in lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md)erläutert werden.
 
 </div>
 
 <div>
 
-## <a name="supported-collocation"></a>Unterstützte Anordnung
+## <a name="supported-collocation"></a>Unterstützte Zusammenstellungen
 
-Die Director-Serverrolle kann nicht mit einer anderen Serverrolle in lync Server 2013 kombiniert werden. Wenn Sie jedoch keinen Director bereitstellen, übernimmt der Front-End-Server die Rolle.
+Die Director-Serverrolle kann nicht mit einer anderen Serverrolle in lync Server 2013 zusammengefasst werden. Wenn Sie jedoch keinen Director bereitstellen, wird die Rolle von den Front-End-Servern übernommen.
 
 </div>
 

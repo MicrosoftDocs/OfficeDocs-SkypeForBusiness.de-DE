@@ -12,20 +12,20 @@ ms:contentKeyID: 48184333
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bab1c3da15bd72bb03233ca05d86e355eebbb233
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5077bcc07aa8bf1d32d8774fc0e863a478c9c3a7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734075"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030088"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assign-conferencing-policies-to-support-anonymous-users-in-lync-server-2013"></a>Zuweisen von Konferenzrichtlinien zur Unterstützung anonymer Benutzer in Lync Server 2013
+# <a name="assign-conferencing-policies-to-support-anonymous-users-in-lync-server-2013"></a>Zuweisen von Konferenzrichtlinien zur Unterstützung anonymer Benutzer in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41734075"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-Standardmäßig werden alle Benutzer daran gehindert, anonyme Benutzer zur Teilnahme an einer Besprechung einzuladen. Sie steuern, wer anonyme Benutzer einladen kann, indem Sie eine konferenzrichtlinie für die Unterstützung anonymer Benutzer konfigurieren und diese konferenzrichtlinie auf bestimmte Benutzer anwenden. Details zum Konfigurieren von Konferenzrichtlinien zur Unterstützung anonymer Benutzer finden Sie unter [erstellen oder Ändern einer konferenzrichtlinie in lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md) und [Verwalten des Föderations-und des externen Zugriffs auf lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md).
+Standardmäßig werden alle Benutzer daran gehindert, anonyme Benutzer zur Teilnahme an einer Besprechung einzuladen. Sie steuern, wer anonyme Benutzer einladen kann, indem Sie eine Konferenzrichtlinie für die Unterstützung anonymer Benutzer konfigurieren und diese Konferenzrichtlinie auf bestimmte Benutzer anwenden. Ausführliche Informationen zum Konfigurieren von Konferenzrichtlinien zur Unterstützung anonymer Benutzer finden Sie unter [erstellen oder Ändern einer konferenzrichtlinie in lync Server 2013](lync-server-2013-create-or-modify-a-conferencing-policy.md) und [Verwalten des Verbunds und des externen Zugriffs auf lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md).
 
-Verwenden Sie das Verfahren in diesem Abschnitt, um eine konferenzrichtlinie anzuwenden, die Sie bereits für einen oder mehrere Benutzer oder Benutzergruppen erstellt haben.
+Verwenden Sie das Verfahren in diesem Abschnitt, um eine bereits erstellte Konferenzrichtlinie auf einen oder mehrere Benutzer oder Benutzergruppen anzuwenden.
 
 <div>
 
 
 > [!NOTE]  
-> Neben der Konfiguration und Anwendung einer Richtlinie, mit der Benutzer anonyme Benutzer einladen können, müssen Sie auch die Unterstützung für anonyme Benutzer für Ihre Organisation aktivieren. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-configure-policies-to-control-public-user-access.md">Konfigurieren von Richtlinien zum Steuern des Zugriffs öffentlicher Benutzer in lync Server 2013</A>.
+> Neben der Konfiguration und Anwendung einer Richtlinie müssen Sie außerdem die Unterstützung für anonyme Benutzer für Ihre Organisation aktivieren, um Benutzern das Einladen anonymer Benutzer zu ermöglichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-configure-policies-to-control-public-user-access.md">configure Policies to Control Public User Access in lync Server 2013</A>.
 
 
 
@@ -55,36 +55,36 @@ Verwenden Sie das Verfahren in diesem Abschnitt, um eine konferenzrichtlinie anz
 
 ## <a name="to-configure-a-user-policy-for-anonymous-participation-in-meetings"></a>So konfigurieren Sie eine Benutzerrichtlinie für die anonyme Teilnahme an Besprechungen
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder gleichwertige Benutzerrechte hat) oder der CsAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Konferenzen**, und führen Sie dann eine der folgenden Aktionen aus:
+3.  Klicken Sie in der linken Navigationsleiste auf **Konferenzen**, und führen Sie einen der folgenden Schritte aus:
     
-    1.  Klicken Sie zum Erstellen einer neuen Benutzerrichtlinie auf **neu**, und klicken Sie dann auf **Benutzerrichtlinie**. Erstellen Sie im Feld **Name** einen eindeutigen Namen, der angibt, was die Benutzerrichtlinie umfasst (beispielsweise **EnableAnonymous** für eine Benutzerrichtlinie, die die Kommunikation mit anonymen Benutzern ermöglicht).
+    1.  Klicken Sie zum Erstellen einer neuen Benutzerrichtlinie auf **Neu** und anschließend auf **Benutzerrichtlinie**. Erstellen Sie einen eindeutigen Namen im Feld **Name**, der auf den Zweck der Benutzerrichtlinie hinweist (z. B. **EnableAnonymous** für eine Benutzerrichtlinie, welche die Kommunikation mit anonymen Benutzern aktiviert).
     
-    2.  Wenn Sie eine vorhandene Benutzerrichtlinie konfigurieren möchten, klicken Sie auf die entsprechende Richtlinie, die in der Tabelle aufgeführt ist, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**.
+    2.  Klicken Sie zum Konfigurieren einer vorhandenen Benutzerrichtlinie in der Tabelle auf die entsprechende Richtlinie, klicken Sie auf **Bearbeiten** und anschließend auf **Details anzeigen**.
 
-4.  Aktivieren Sie im Dialogfeld **Konferenzrichtlinien** das Kontrollkästchen **Teilnehmern die Möglichkeit geben, anonyme Benutzer einzuladen** .
+4.  Aktivieren Sie im Dialogfeld **Konferenzrichtlinien** das Kontrollkästchen **Teilnehmern das Einladen anonymer Benutzer gestatten**.
 
-5.  Klicken Sie auf **Commit ausführen**.
+5.  Klicken Sie auf **Commit**.
 
-6.  Klicken Sie in der linken Navigationsleiste auf **Benutzer**, suchen Sie nach dem Benutzerkonto, das Sie konfigurieren möchten.
+6.  Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und suchen Sie anschließend nach dem Benutzerkonto, das Sie konfigurieren möchten.
 
 7.  Klicken Sie in der Tabelle mit den Suchergebnissen auf das Benutzerkonto, klicken Sie auf **Bearbeiten** und dann auf **Details anzeigen**.
 
-8.  Wählen Sie in **lync Server-Benutzer bearbeiten** unter **konferenzrichtlinie**die Benutzerrichtlinie mit der Konfiguration für den anonymen Benutzer Zugriff aus, die Sie auf diesen Benutzer anwenden möchten.
+8.  Wählen Sie in **Lync Server-Benutzer bearbeiten** unter **Konferenzrichtlinie** die Benutzerrichtlinie mit der Konfiguration für den anonymen Benutzerzugriff aus, die Sie auf diesen Benutzer anwenden möchten.
     
     <div>
     
 
     > [!NOTE]  
-    > Die <STRONG> &lt;automatischen&gt; </STRONG> Einstellungen wenden die Standardeinstellungen für Server Installationen an und werden automatisch vom Server angewendet.
+    > Durch <STRONG> &lt;die&gt; automatischen</STRONG> Einstellungen werden die Standardeinstellungen für die Server Installation übernommen und vom Server automatisch angewendet.
 
     
     </div>
 
-Damit Benutzer anonyme Benutzer zu Konferenzen einladen können, müssen Sie auch die Unterstützung für anonyme Benutzer in Ihrer Organisation aktivieren. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Zugriffs öffentlicher Benutzer in lync Server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md) in der Bereitstellungsdokumentation oder in der Betriebsdokumentation.
+Damit Benutzer anonyme Benutzer zu Konferenzen einladen können, müssen Sie auch die Unterstützung für anonyme Benutzer in Ihrer Organisation aktivieren. Ausführliche Informationen finden Sie unter [configure Policies to Control Public User Access in lync Server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md) in der Bereitstellungsdokumentation oder in der Betriebsdokumentation.
 
 </div>
 

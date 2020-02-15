@@ -1,5 +1,5 @@
 ---
-title: Entfernen des Enterprise Edition-Front-End-Servers oder des Standard Edition-Front-End-Servers
+title: Entfernen der Enterprise Edition-Front-End-Server oder Standard Edition Front-End-Server
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e175b4771b9e9777f0fa162cb2a59f7a3b17cc7e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 74689dcc730874ecaea0aef31ab18cfc2e9c2c1d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727155"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008871"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a>Entfernen des Enterprise Edition-Front-End-Servers oder des Standard Edition-Front-End-Servers
+# <a name="remove-the-enterprise-edition-front-end-server-or-standard-edition-front-end-server"></a>Entfernen der Enterprise Edition-Front-End-Server oder Standard Edition Front-End-Server
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41727155"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-10_
+_**Letztes Änderungsstand des Themas:** 2012-10-10_
 
-Die in diesem Thema beschriebenen Verfahren sollen Sie durch den Vorgang zum Entfernen eines Microsoft lync Server 2010 Enterprise Edition-Front-End-Pools oder eines Standard Edition-Front-End-Servers leiten. Nach der Migration zu lync Server 2013 handelt es sich um einen der ersten Schritte zur Außerbetriebnahme Ihrer Legacy lync Server 2010-Umgebung.
+Die in diesem Thema beschriebenen Verfahren sollen Sie beim Entfernen einer Microsoft lync Server 2010 Enterprise Edition-Front-End-Pool oder einer Standard Edition-Front-End-Server unterstützen. Nach der Migration zu lync Server 2013 ist dies einer der ersten Schritte zur Außerbetriebnahme ihrer Vorgänger lync Server 2010 Umgebung.
 
 <div>
 
@@ -47,11 +47,11 @@ Die in diesem Thema beschriebenen Verfahren sollen Sie durch den Vorgang zum Ent
 
   - [Verhindern von Sitzungen für Dienste](prevent-sessions-for-services.md)
 
-  - [Beenden von lync Server 2010-Diensten](stop-lync-server-2010-services.md)
+  - [Beenden von lync Server 2010 Diensten](stop-lync-server-2010-services.md)
 
-  - [Entfernen eines Front-End-Servers aus einem Pool](remove-a-front-end-server-from-a-pool.md)
+  - [Entfernen eines Front-End-Server aus einem Pool](remove-a-front-end-server-from-a-pool.md)
 
-  - [Entfernen eines Front-End-Pools oder Standard Edition-Servers](remove-front-end-pool-or-standard-edition-server.md)
+  - [Entfernen von Front-End-Pool oder Standard Edition-Server](remove-front-end-pool-or-standard-edition-server.md)
 
 </div>
 

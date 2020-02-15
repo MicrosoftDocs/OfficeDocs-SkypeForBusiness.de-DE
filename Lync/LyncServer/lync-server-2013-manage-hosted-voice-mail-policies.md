@@ -12,20 +12,20 @@ ms:contentKeyID: 48184139
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 434cc1eb721635f4a56be33f48802da3bc6db0e3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d854a70fed08bd364f1df69b272ee46792eab786
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733355"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028446"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-hosted-voice-mail-policies-in-lync-server-2013"></a>Verwalten von Richtlinien für gehostete Voicemail in Lync Server 2013
+# <a name="manage-hosted-voice-mail-policies-in-lync-server-2013"></a>Verwalten von Richtlinien für gehostete Voicemail in lync Server 2013
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41733355"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-20_
+_**Letztes Änderungsstand des Themas:** 2012-09-20_
 
-Eine *Richtlinie für gehostete Voicemail* bietet Informationen für die lync Server 2013 ExUM-Routing Anwendung über den Ort, an den Anrufe für Benutzer weitergeleitet werden sollen, deren Postfächer sich in einem gehosteten Exchange-Dienst befinden.
+Eine *Richtlinie für gehostete Voicemail* stellt Informationen für die lync Server 2013 ExUM-Routing Anwendung bereit, in der die Anrufe für Benutzer weitergeleitet werden, deren Postfächer sich in einem gehosteten Exchange-Dienst befinden.
 
 <div>
 
 
 > [!NOTE]  
-> In der Regel ist nur eine Richtlinie für gehostete Voicemail erforderlich. In vielen Fällen können Sie die globale Richtlinie so ändern, dass Sie allen Ihren Anforderungen entspricht. Wenn Sie eine Richtlinie mit Website Bereich erstellen, wird Sie automatisch allen Benutzern zugewiesen, die sich auf der angegebenen Website befinden. Wenn Sie eine Richtlinie mit benutzerspezifischem Bereich erstellen, müssen Sie Sie explizit Benutzern, Gruppen und Kontaktobjekten zuweisen. Es ist möglich, mehrere gehostete Voicemail-Richtlinien bereitzustellen, in diesem Fall müssen die Richtlinien jedoch für einzelne Benutzer zugewiesen werden.
+> In der Regel ist nur eine Richtlinie für gehostete Voicemail erforderlich. In vielen Fällen können Sie die globale Richtlinie ändern, um alle Anforderungen zu erfüllen. Wenn Sie eine Richtlinie auf Standortebene erstellen, wird diese automatisch allen Benutzern zugewiesen, die am angegebenen Standort verwaltet werden. Wenn Sie eine Richtlinie auf Benutzerebene erstellen, müssen Sie diese Benutzern, Gruppen und Kontaktobjekten explizit zuweisen. Es ist möglich, mehrere Richtlinien für gehostete Voicemail bereitzustellen, in diesem Fall müssen die Richtlinien jedoch auf Benutzerbasis zugewiesen werden.
 
 
 
 </div>
 
-Ausführliche Informationen zum Planen von gehosteten Voicemail-Richtlinien finden Sie unter [Richtlinien für gehostete Voicemail in lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md) in der Planungsdokumentation.
+Ausführliche Informationen zum Planen von Richtlinien für gehostete Voicemail finden Sie unter [Hosted Voice Mail Policies in lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md) in der Planungsdokumentation.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Ändern der Global Hosted Voicemail-Richtlinie in lync Server 2013](lync-server-2013-modify-the-global-hosted-voice-mail-policy.md)
+  - [Ändern der Global Hosted Voice Mail-Richtlinie in lync Server 2013](lync-server-2013-modify-the-global-hosted-voice-mail-policy.md)
 
-  - [Erstellen einer gehosteten Voicemail-Richtlinie auf Websiteebene in lync Server 2013](lync-server-2013-create-a-site-level-hosted-voice-mail-policy.md)
+  - [Erstellen einer Hosted Voice Mail-Richtlinie auf Standortebene in lync Server 2013](lync-server-2013-create-a-site-level-hosted-voice-mail-policy.md)
 
-  - [Erstellen einer pro Benutzer gehosteten Voicemail-Richtlinie in lync Server 2013](lync-server-2013-create-a-per-user-hosted-voice-mail-policy.md)
+  - [Erstellen Sie eine benutzerbasierte Richtlinie für gehostete Voicemail in lync Server 2013](lync-server-2013-create-a-per-user-hosted-voice-mail-policy.md)
 
-  - [Zuweisen einer pro Benutzer gehosteten Voicemail-Richtlinie in lync Server 2013](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)
+  - [Zuweisen einer Richtlinie für gehostete Voicemail pro Benutzer in lync Server 2013](lync-server-2013-assign-a-per-user-hosted-voice-mail-policy.md)
 
 </div>
 

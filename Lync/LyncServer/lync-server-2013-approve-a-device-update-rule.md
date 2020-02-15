@@ -12,16 +12,16 @@ ms:contentKeyID: 51803964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bb464d0845f70012bdd8e70365c8a7993de6b4c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6537af434a704b23553c217bde3370d49e318f37
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738535"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029326"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41738535"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Nachdem Sie eine geräteaktualisierungsregel importiert haben, ist Sie auf Ihren Testgeräten installiert. Wenn die Tests erfolgreich sind und Sie das Update für Ihre Organisation bereitzustellen möchten, genehmigen Sie es entweder mithilfe der lync Server-Systemsteuerung oder Windows PowerShell.
+Nachdem Sie eine geräteaktualisierungsregel importiert haben, wird Sie auf Ihren Testgeräten installiert. Wenn Ihre Tests erfolgreich sind und Sie das Update für Ihre Organisation bereitstellen möchten, genehmigen Sie es entweder mithilfe von lync Server-Systemsteuerung oder Windows PowerShell.
 
 <div>
 
-## <a name="to-approve-a-device-update-rule-by-using-lync-server-control-panel"></a>So genehmigen Sie eine geräteaktualisierungsregel mithilfe der lync Server-Systemsteuerung
+## <a name="to-approve-a-device-update-rule-by-using-lync-server-control-panel"></a>So genehmigen Sie eine geräteaktualisierungsregel mithilfe von lync Server-Systemsteuerung
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Führen Sie auf der Seite **Device Update** eine der folgenden Aktionen aus:
+3.  Führen Sie auf der Seite **Geräte Update** einen der folgenden Schritte aus:
     
-      - Wenn Sie eine Regel genehmigen möchten, wählen Sie diese Regel aus.
+      - Um eine Regel zu genehmigen, wählen Sie diese Regel aus.
     
-      - Um alle Regeln zu genehmigen, klicken Sie auf **Bearbeiten**und dann auf **Alle auswählen**.
+      - Klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Alle auswählen**, um alle Regeln zu genehmigen.
 
 4.  Klicken Sie auf **Aktion**und dann auf **genehmigen**.
 
@@ -61,13 +61,13 @@ Nachdem Sie eine geräteaktualisierungsregel importiert haben, ist Sie auf Ihren
 
 ## <a name="approving-a-device-update-rule-by-using-windows-powershell-cmdlets"></a>Genehmigen einer geräteaktualisierungsregel mithilfe von Windows PowerShell-Cmdlets
 
-Geräteaktualisierungsregeln können auch mithilfe von Windows PowerShell und dem Cmdlet " **genehmigen-CsDeviceUpdateRule** " genehmigt werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden.
+Geräteaktualisierungsregeln können auch mit Windows PowerShell und dem Cmdlet **genehmigen-CsDeviceUpdateRule** genehmigt werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden.
 
 <div>
 
 
 > [!NOTE]  
-> Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Remote-PowerShell" unter.
+> Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>mithilfe von Remote-PowerShell" unter.
 
 
 
@@ -77,7 +77,7 @@ Geräteaktualisierungsregeln können auch mithilfe von Windows PowerShell und de
 
 ## <a name="to-approve-a-single-device-update-rule"></a>So genehmigen Sie eine einzelne geräteaktualisierungsregel
 
-  - Der folgende Befehl genehmigt die geräteaktualisierungsregel d5ce3c10-2588-420A-82ac-dc2d9b1222ff9, die auf dem Webserver ATL-CS-001.litwareinc.com gefunden wurde:
+  - Mit dem folgenden Befehl wird die geräteaktualisierungsregel d5ce3c10-2588-420A-82ac-dc2d9b1222ff9 ", die auf dem Webserver ATL-CS-001.litwareinc.com gefunden wurde, genehmigt:
     
         Approve-CsDeviceUpdateRule -Identity service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9
 
@@ -87,7 +87,7 @@ Geräteaktualisierungsregeln können auch mithilfe von Windows PowerShell und de
 
 ## <a name="to-approve-multiple-device-update-rules"></a>So genehmigen Sie mehrere geräteaktualisierungsregeln
 
-  - Dieser Befehl genehmigt alle geräteaktualisierungsregeln für Geräte mit Microsoft-Branding:
+  - Mit diesem Befehl werden alle geräteaktualisierungsregeln für Geräte mit Microsoft Branding genehmigt:
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Approve-CsDeviceUpdateRule
 

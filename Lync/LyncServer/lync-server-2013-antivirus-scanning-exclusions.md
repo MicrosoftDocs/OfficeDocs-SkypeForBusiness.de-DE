@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Ausnahmen in Virenschutzprogrammen'
+title: 'Lync Server 2013: Ausschlüsse für Antivirusscans'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 57793042
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90847830d9f2586e0d111846f2867400c52fc940
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8faeba1d3b661110bcaf633d3c780dc2c2ad2b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737775"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029036"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Ausnahmen in Virenschutzprogrammen für Lync Server 2013
+# <a name="antivirus-scanning-exclusions-for-lync-server-2013"></a>Antivirus-Scan Ausschlüsse für lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41737775"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-11-02_
+_**Letztes Änderungsstand des Themas:** 2015-11-02_
 
-Wenn Sie sicherstellen möchten, dass der Virenscanner den Betrieb von lync Server 2013 nicht stört, müssen Sie bestimmte Prozesse und Verzeichnisse für jeden lync Server 2013-Server oder die Serverrolle ausschließen, auf der Sie einen Antivirus-Scanner ausführen. Die folgenden Prozesse und Verzeichnisse sollten ausgeschlossen werden:
+Um sicherzustellen, dass der Antivirus-Scanner den Betrieb von lync Server 2013 nicht stört, müssen Sie bestimmte Prozesse und Verzeichnisse für jeden lync Server 2013 Server oder jede Serverrolle ausschließen, auf dem Sie einen Antivirenprogramm ausführen. Die folgenden Prozesse und Verzeichnisse sollten ausgeschlossen werden:
 
 <div>
 
 
 > [!NOTE]  
-> Die nachstehend aufgeführten Ordner-und Dateispeicherorte sind die Standardspeicherorte für lync Server 2013. Falls Sie andere Speicherorte als die Standardspeicherorte verwendet haben, schließen Sie statt der hier aufgeführten Standardspeicherorte die Speicherorte aus, die Sie für Ihre Organisation angegeben haben.
+> Unten aufgeführte Ordner-und Dateispeicherorte sind die Standardspeicherorte für lync Server 2013. Schließen Sie für alle Standorte, für die Sie die Standardeinstellung nicht verwendet haben, die für Ihre Organisation angegebenen Speicherorte anstelle der in diesem Thema angegebenen Standardspeicherorte aus.
 
 
 
@@ -53,67 +53,67 @@ Wenn Sie sicherstellen möchten, dass der Virenscanner den Betrieb von lync Serv
 
 
 > [!IMPORTANT]  
-> Beachten Sie, dass einige Virenschutzprogramme für ihre Ausschlussliste anstelle von relativen möglicherweise absolute Pfade benötigen.
+> Beachten Sie, dass einige Antivirus-Programme möglicherweise absolute, keine relativen Pfade für Ihre Ausschlussliste benötigen.
 
 
 
 </div>
 
-  - Lync Server 2013-Prozesse:
+  - Lync Server 2013 Prozesse:
     
-      - ABServer.exe
+      - ABServer. exe
     
       - AcpMcuSvc. exe
     
-      - ASMCUSvc.exe
+      - ASMCUSvc. exe
     
-      - AVMCUSvc.exe
+      - AVMCUSvc. exe
     
-      - ChannelService.exe
+      - Channelservice. exe
     
-      - ClsAgent.exe
+      - ClsAgent. exe
     
-      - ComplianceService.exe
+      - ComplianceService. exe
     
-      - DataMCUSvc.exe
+      - DataMCUSvc. exe
     
-      - DataProxy.exe
+      - Dataproxy. exe
     
-      - FileTransferAgent.exe
+      - FileTransferAgent. exe
     
-      - IMMCUSvc.exe
+      - IMMCUSvc. exe
     
-      - LysSvc.exe
+      - LysSvc. exe
     
-      - MasterReplicatorAgent.exe
+      - MasterReplicatorAgent. exe
     
-      - MediaRelaySvc.exe
+      - MediaRelaySvc. exe
     
-      - MediationServerSvc.exe
+      - MediationServerSvc. exe
     
-      - MRASSvc.exe
+      - MRASSvc. exe
     
-      - OcsAppServerHost.exe
+      - OcsAppServerHost. exe
     
-      - ReplicaReplicatorAgent.exe
+      - ReplicaReplicatorAgent. exe
     
-      - ReplicationApp.exe
+      - ReplicationApp. exe
     
-      - RtcHost.exe
+      - RtcHost. exe
     
-      - RTCSrv.exe
+      - RtcSrv. exe
     
-      - XmppProxy.exe
+      - XmppProxy. exe
     
-      - XmppTGW.exe
+      - XmppTGW. exe
 
-  - Windows Fabric-Hostdienst-Prozesse:
+  - Windows Fabric-Host Dienstprozesse:
     
-      - Fabric.exe
+      - Fabric. exe
     
-      - FabricDCA.exe
+      - FabricDCA. exe
     
-      - FabricHost.exe
+      - FabricHost. exe
 
   - IIS-Prozesse:
     
@@ -125,7 +125,7 @@ Wenn Sie sicherstellen möchten, dass der Virenscanner den Betrieb von lync Serv
     
       - % Programme%\\Microsoft SQL Server\\MSSQL11. MSSQLSERVER\\MSSQL\\Binn\\sqlservr. exe
     
-      - % Programme%\\Microsoft SQL Server\\MSRS11. MSSQLSERVER\\Reporting Services\\Report\\Server\\bin ReportingServicesService. exe
+      - % Programme%\\Microsoft SQL Server\\MSRS11. MSSQLSERVER\\Reporting Services\\Report\\Container\\bin ReportingServicesService. exe
     
       - % Programme%\\Microsoft SQL Server\\MSAS11. MSSQLSERVER\\OLAP\\bin\\MSMDSrv. exe
 
@@ -139,23 +139,23 @@ Wenn Sie sicherstellen möchten, dass der Virenscanner den Betrieb von lync Serv
     
       - % systemroot\\%\\System32-Protokolldateien
     
-      - % systemroot\\% syswow64\\-Protokolldateien
+      - % systemroot\\-%\\syswow64-Protokolldateien
     
-      - % systemroot\\%\\Microsoft.net\\Assembly\_GAC MSIL
+      - % systemroot\\%\\Microsoft.net\\-\_Assembly GAC MSIL
     
       - % Programme%\\Microsoft lync Server 2013
     
-      - % Programme%\\Common Files\\Microsoft lync Server 2013\\Watcher-Knoten
+      - % Programme%\\allgemeine Dateien\\Microsoft lync Server 2013\\Watcher-Knoten
     
       - % Programme%\\allgemeine Dateien\\Microsoft lync Server 2013
     
-      - % SystemDrive\\% RtcReplicaRoot
+      - % System Drive\\% RtcReplicaRoot
     
-      - Dateifreigabespeicher (im Topologie-Generator angegeben). Dateispeicher werden im Topologie-Generator angegeben.
+      - Dateifreigabe Speicher (im Topologie-Generator angegeben). Dateispeicher werden im Topologie-Generator angegeben.
     
-      - SQL Server-Daten-und-Protokolldateien, einschließlich derer für die Back-End-Datenbank, den Benutzerspeicher, den Archivierungsspeicher, den Überwachungsspeicher und den Anwendungsspeicher. In Topology Builder können Datenbank-und Protokolldateien angegeben werden. Details zu den Daten-und Protokolldateien für jede Datenbank, einschließlich Standardnamen, finden Sie unter [SQL Server-Daten-und Protokolldatei Platzierung für lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) in der Bereitstellungsdokumentation.
+      - SQL Server von Daten-und Protokolldateien, einschließlich derer für die Back-End-Datenbank, den Benutzerspeicher, den Archivierungsspeicher, den Überwachungsspeicher und den Anwendungsspeicher. Datenbank-und Protokolldateien können im Topologie-Generator angegeben werden. Ausführliche Informationen zu den Daten und Protokolldateien für jede Datenbank, einschließlich der Standardnamen, finden Sie unter [SQL Server Data and Log File Placement for lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md) in der Bereitstellungsdokumentation.
     
-      - SQL Server-Daten-und-Protokolldateien, einschließlich derer für die Front-End-Datenbank, den lync-Store und den RtcDatabase-Speicher. Sie befinden sich normalerweise unter\\% LokalesLaufwerk% CSData.
+      - SQL Server von Daten-und Protokolldateien, einschließlich der für die Front-End-Datenbank, lync Store und RtcDatabase Store. Sie befinden sich normalerweise unter\\% LokalesLaufwerk% CSData.
 
 </div>
 

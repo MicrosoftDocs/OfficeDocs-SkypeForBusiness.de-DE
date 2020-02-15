@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Zuweisen von Richtlinien für einzelne Benutzer'
+title: 'Lync Server 2013: Zuweisen von Richtlinien pro Benutzer'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184971
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b80446d9117a37b86c386132aa80439cb568a98
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2e9b5780b17ad2ed7a057979f77e504fb1fca0db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734035"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030038"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="assigning-per-user-policies-in-lync-server-2013"></a>Zuweisen von Richtlinien für einzelne Benutzer in lync Server 2013
+# <a name="assigning-per-user-policies-in-lync-server-2013"></a>Zuweisen von Richtlinien pro Benutzer in lync Server 2013
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41734035"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-14_
+_**Letztes Änderungsstand des Themas:** 2012-10-14_
 
-Sie können einem Benutzer oder einer Gruppe von Benutzern bestimmte Richtlinien zuweisen, um bestimmte Einstellungen anzugeben, die von den Einstellungen abweichen, die in Richtlinien definiert sind, die anderen Benutzern zugewiesen sind, beispielsweise globale Richtlinien. Diese Richtlinien werden als Richtlinien für einzelne Benutzer bezeichnet.
+Sie können einem Benutzer oder einer Gruppe von Benutzern bestimmte Richtlinien zuweisen, um spezifische Einstellungen festzulegen, die von denjenigen abweichen, die in Richtlinien für andere Benutzer definiert sind (beispielsweise in globalen Richtlinien). Diese Richtlinien werden Richtlinien auf Benutzerebene genannt.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Zuweisen einer pro-Benutzer-konferenzrichtlinie in lync Server 2013](lync-server-2013-assign-a-per-user-conferencing-policy.md)
+  - [Zuweisen einer benutzerbezogenen konferenzrichtlinie in lync Server 2013](lync-server-2013-assign-a-per-user-conferencing-policy.md)
 
   - [Zuweisen einer clientversionsrichtlinie pro Benutzer in lync Server 2013](lync-server-2013-assign-a-per-user-client-version-policy.md)
 
-  - [Zuweisen einer pro-Benutzer-PIN-Richtlinie in lync Server 2013](lync-server-2013-assign-a-per-user-pin-policy.md)
+  - [Zuweisen einer benutzerbasierten PIN-Richtlinie in lync Server 2013](lync-server-2013-assign-a-per-user-pin-policy.md)
 
-  - [Zuweisen einer Richtlinie für den Zugriff durch externe Benutzer zu einem für Lync aktivierten Benutzer in Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
+  - [Zuweisen einer Richtlinie für den externen Benutzer Zugriff zu einem lync-aktivierten Benutzer in lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
 
-  - [Zuweisen einer pro-Benutzer-Archivierungsrichtlinie in lync Server 2013](lync-server-2013-assign-a-per-user-archiving-policy.md)
+  - [Zuweisen einer benutzerbasierten Archivierungsrichtlinie in lync Server 2013](lync-server-2013-assign-a-per-user-archiving-policy.md)
 
-  - [Zuweisen einer Standortrichtlinie für einzelne Benutzer in lync Server 2013](lync-server-2013-assign-a-per-user-location-policy.md)
+  - [Zuweisen einer Standortrichtlinie pro Benutzer in lync Server 2013](lync-server-2013-assign-a-per-user-location-policy.md)
 
-  - [Zuweisen einer Mobilitätsrichtlinie für einzelne Benutzer in lync Server 2013](lync-server-2013-assign-a-per-user-mobility-policy.md)
+  - [Zuweisen einer benutzerbezogenen Mobilitätsrichtlinie in lync Server 2013](lync-server-2013-assign-a-per-user-mobility-policy.md)
 
-  - [Zuweisen einer beständigen Chat Richtlinie für einzelne Benutzer in lync Server 2013](lync-server-2013-assign-a-per-user-persistent-chat-policy.md)
+  - [Zuweisen einer Richtlinie für beständigen Chat pro Benutzer in lync Server 2013](lync-server-2013-assign-a-per-user-persistent-chat-policy.md)
 
-  - [Zuweisen einer benutzerseitigen Wähl Plan Richtlinie in lync Server 2013](lync-server-2013-assign-a-per-user-dial-plan-policy.md)
+  - [Zuweisen einer benutzerbezogenen Wähl Plan Richtlinie in lync Server 2013](lync-server-2013-assign-a-per-user-dial-plan-policy.md)
 
-  - [Zuweisen einer VoIP-Richtlinie für einzelne Benutzer in lync Server 2013](lync-server-2013-assign-a-per-user-voice-policy.md)
+  - [Zuweisen einer VoIP-Richtlinie pro Benutzer in lync Server 2013](lync-server-2013-assign-a-per-user-voice-policy.md)
 
 </div>
 
@@ -70,7 +70,7 @@ Sie können einem Benutzer oder einer Gruppe von Benutzern bestimmte Richtlinien
 ## <a name="see-also"></a>Siehe auch
 
 
-[Verwalten von Benutzern in Lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)  
+[Verwalten von Benutzern in lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)  
   
 
 </div>

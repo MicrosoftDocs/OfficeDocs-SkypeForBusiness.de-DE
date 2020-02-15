@@ -12,16 +12,16 @@ ms:contentKeyID: 61071242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c6a8663bfae2411926fe08a497a5004def051ae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cd53ac85ec544af58c1f94f7397a030f6b10fdb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737575"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029206"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41737575"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-01-27_
+_**Letztes Änderungsstand des Themas:** 2014-01-27_
 
-Sie haben wahrscheinlich bereits Schritte unternommen, um Fehlertoleranz in Ihrem System zu entwerfen, und Verfahren wie das Sicherstellen von Hardwareredundanz, Schutzmaßnahmen gegen Stromausfälle, Routineinstallation von Sicherheitsupdates und Antivirenmaßnahmen sowie Monitoring Server-Aktivitäten verwendet. Diese Vorgehensweisen nutzen nicht nur Ihre Microsoft lync Server 2013-Infrastruktur, sondern auch Ihr gesamtes Netzwerk. Wenn Sie diese Methoden nicht implementiert haben, empfiehlt es sich, dies vor der Bereitstellung von lync Server 2013 zu tun.
+Wahrscheinlich haben Sie bereits Schritte zum Entwerfen der Fehlertoleranz in Ihrem System unternommen, indem Sie Verfahren wie die Sicherstellung der Hardwareredundanz, das Schützen von Stromverlust, die regelmäßige Installation von Sicherheitsupdates und Antivirenmaßnahmen sowie Monitoring Server Aktivitäten verwenden. Diese Vorgehensweisen bieten nicht nur Ihrer Microsoft lync Server 2013 Infrastruktur, sondern auch Ihrem gesamten Netzwerkvorteile. Wenn Sie diese Vorgehensweisen nicht implementiert haben, sollten Sie dies vor der Bereitstellung von lync Server 2013 tun.
 
-Gehen Sie wie folgt vor, um die Server in ihrer lync Server 2013-Bereitstellung vor versehentlichen oder zielgerichteten Verletzungen zu schützen, die zu Ausfallzeiten führen können:
+Um die Server in ihrer lync Server 2013-Bereitstellung vor versehentlicher oder zielgerichteter Beschädigung zu schützen, die zu Ausfallzeiten führen können, sollten Sie die folgenden Vorkehrungen treffen:
 
-  - Halten Sie Ihre Server mit Sicherheitsupdates auf dem neuesten Stand. Mit einem Abonnement für den Microsoft Security Notification Service können Sie sicherstellen, dass Sie bei Veröffentlichungen von Sicherheitsbulletins für alle Microsoft-Produkte sofort benachrichtigt werden. Wenn Sie sich anmelden möchten, wechseln Sie zur Microsoft Technical Security [http://go.microsoft.com/fwlink/p/?LinkId=145202](http://go.microsoft.com/fwlink/p/?linkid=145202)Notifications-Website unter.
+  - Halten Sie Ihre Server mit Sicherheitsupdates auf dem neuesten Stand. Durch das Abonnieren des Microsoft-Sicherheitsbenachrichtigungsdiensts können Sie sicherstellen, dass Sie Sofortbenachrichtigungen über Sicherheitsbulletins für ein beliebiges Microsoft-Produkt erhalten. Um sich anzumelden, wechseln Sie zur Microsoft Technical Security Notifications-Website unter [http://go.microsoft.com/fwlink/p/?LinkId=145202](http://go.microsoft.com/fwlink/p/?linkid=145202).
 
-  - Achten Sie darauf, dass Zugriffsrechte ordnungsgemäß eingerichtet sind.
+  - Stellen Sie sicher, dass die Zugriffsrechte ordnungsgemäß eingerichtet sind.
 
-  - Stellen Sie Ihre Server in einer physischen Umgebung auf, die einen nicht autorisierten Zugriff verhindert. Stellen Sie sicher, dass angemessene Antivirensoftware auf allen Servern installiert ist. Halten Sie die Software mit den neuesten Virussignaturdateien auf dem neuesten Stand. Verwenden Sie die Funktion für automatische Updates Ihrer Antivirenanwendung, um die Virussignaturen aktuell zu halten.
+  - Halten Sie Ihre Server in einer physischen Umgebung, die unbefugten Zugriff verhindert. Stellen Sie sicher, dass angemessene Antivirensoftware auf allen Servern installiert ist. Halten Sie die Software stets mit den neuesten Virensignaturdateien auf dem aktuellen Stand. Verwenden Sie das Feature für automatische Aktualisierungen der Antivirenanwendung, um die Virensignaturen auf dem neuesten Stand zu halten.
 
-  - Wir empfehlen, dass Sie die Windows Server-Betriebssystemdienste deaktivieren, die auf den Computern, auf denen Sie lync Server 2013 installieren, nicht erforderlich sind.
+  - Es wird empfohlen, dass Sie die Windows Server-Betriebssystemdienste deaktivieren, die auf den Computern, auf denen Sie lync Server 2013 installieren, nicht erforderlich sind.
 
-  - Verschlüsseln Sie Betriebssysteme und Festplattenlaufwerke, auf denen Daten gespeichert sind, mit einem Verschlüsselungssystem für das gesamte Volume, es sei denn, Sie können eine beständige und vollständige Kontrolle der Server, vollkommene physische Isolation und das ordnungsgemäße und sichere Außerbetriebsetzen von ausgetauschten oder ausgefallenen Festplattenlaufwerken sicherstellen.
+  - Verschlüsseln von Betriebssystemen und Laufwerken, auf denen Daten mit einem Verschlüsselungssystem mit voller Lautstärke gespeichert werden, es sei denn, Sie können eine ständige und vollständige Kontrolle über die Server, die gesamte physische Isolierung und die ordnungsgemäße und sichere Außerbetriebnahme von ersetzten oder ausgefallenen Datenträgern garantieren Laufwerke.
 
-  - Deaktivieren Sie alle externen Ports für den direkten Speicherzugriff des Servers, es sei denn, Sie können eine sehr enge Kontrolle des physischen Zugriffs auf die Server sicherstellen. Angriffe auf der Basis von direktem Speicher, die realtiv einfach initiiert werden können, könnten sehr vertrauliche Informationen wie private Verschlüsselungsschlüssel offenlegen.
+  - Deaktivieren Sie alle externen DMA-Ports (Direct Memory Access) des Servers, es sei denn, Sie können eine sehr strenge Kontrolle über den physischen Zugriff auf die Server garantieren. DMA-basierte Angriffe, die relativ einfach initiiert werden können, könnten sehr vertrauliche Informationen wie private Verschlüsselungsschlüssel verfügbar machen.
 
 </div>
 

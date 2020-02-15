@@ -12,20 +12,20 @@ ms:contentKeyID: 48184390
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38d4fe00b834778f1ad87f021656ed08488c1ba2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6cff76b750b2c6643ec1bf6ac3419a9892719ea4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731725"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029836"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-clients-from-previous-deployments-in-lync-server-2013"></a>Unterstützte Clients aus vorherigen Bereitstellungen in Lync Server 2013
+# <a name="supported-clients-from-previous-deployments-in-lync-server-2013"></a>Unterstützte Clients aus vorherigen Bereitstellungen in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41731725"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-12-14_
+_**Letztes Änderungsstand des Themas:** 2012-12-14_
 
-In einem Koexistenz-Szenario können lync Server 2013-Clients mit Clients aus früheren Versionen von lync Server und Office Communications Server interagieren. Im Gegensatz zu früheren Versionen unterstützt lync Server 2010 die neuen lync 2013-Clients. Dadurch können Organisationen, die von lync Server 2010 upgraden, neue Clients unabhängig von lync Server-Upgrades bereitstellen.
+In einem Szenario mit Koexistenz können lync Server 2013 Clients mit Clients aus früheren Versionen von lync Server und Office Communications Server interagieren. Im Gegensatz zu früheren Versionen unterstützt lync Server 2010 die neuen lync 2013-Clients. Auf diese Weise können Organisationen, die ein Upgrade von lync Server 2010 durchführen, neue Clients unabhängig von lync Server Upgrades Ausrollen.
 
 <div>
 
-## <a name="supported-server-and-client-combinations"></a>Unterstützte Server-und Client Kombinationen
+## <a name="supported-server-and-client-combinations"></a>Unterstützte Kombinationen von Server und Client
 
-In der folgenden Tabelle sind die unterstützten Kombinationen von Clientversionen und Server Versionen aufgeführt. Lync Server 2013 unterstützt zwei vorherige Clientversionen, und lync Server 2010 unterstützt den neuen lync 2013-Client.
+In der folgenden Tabelle ist aufgeführt, welche Kombinationen von Client- und Serverversionen unterstützt werden. Lync Server 2013 unterstützt zwei frühere Clientversionen, und lync Server 2010 unterstützt den neuen lync 2013-Client.
 
 
 <table>
@@ -64,7 +64,7 @@ In der folgenden Tabelle sind die unterstützten Kombinationen von Clientversion
 <tbody>
 <tr class="odd">
 <td><p>Lync 2013</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
 </tr>
@@ -76,20 +76,20 @@ In der folgenden Tabelle sind die unterstützten Kombinationen von Clientversion
 </tr>
 <tr class="odd">
 <td><p>Lync 2010</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync 2010 Attendant</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync 2010-Gruppenchat</p></td>
+<td><p>Lync 2010 Gruppen Chat</p></td>
 <td><p>Nicht zutreffend</p></td>
-<td><p>Supported1</p></td>
+<td><p>Unterstützt1</p></td>
 <td><p>Nicht zutreffend</p></td>
 </tr>
 <tr class="even">
@@ -99,7 +99,7 @@ In der folgenden Tabelle sind die unterstützten Kombinationen von Clientversion
 <td><p>Nicht unterstützt</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync 2010-Teilnehmer</p></td>
+<td><p>Lync 2010 Attendee</p></td>
 <td><p>Nicht Supported2</p></td>
 <td><p>Unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
@@ -107,42 +107,42 @@ In der folgenden Tabelle sind die unterstützten Kombinationen von Clientversion
 <tr class="even">
 <td><p>Office Communicator 2007 R2</p></td>
 <td><p>Interoperable3</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 </tr>
 <tr class="odd">
-<td><p>Microsoft Office Communications Server 2007 R2-Vermittlung</p></td>
+<td><p>Microsoft Office Communications Server 2007 R2 Attendant</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Communicator 2007</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Live Meeting 2007</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 </tr>
 </tbody>
 </table>
 
 
-1In Microsoft lync Server 2010, die Gruppen-Chatfunktionalität war mit dem Gruppen-Chat Server, einer vertrauenswürdigen Drittanbieteranwendung für lync Server 2010, verfügbar. Lync 2013-Clients sind nicht mit lync Server 2010, Gruppen-Chat, kompatibel.
+1In Microsoft lync Server 2010 war die gruppenchatfunktion mit dem Gruppenchat Server, einer vertrauenswürdigen Drittanbieteranwendung für lync Server 2010, verfügbar. Lync 2013 Clients sind nicht mit lync Server 2010, Gruppen Chat, kompatibel.
 
-2Lync Web App 2013 bietet nun eine vollständige Besprechungs Erfahrung, einschließlich Computer Audio und-Video, und gilt als Ersatz für lync 2010 Attendee.
+2Lync-Webanwendung 2013 bietet nun eine umfassende Besprechungs Erfahrung, einschließlich Computer-Audio und-Video, und gilt als Ersatz für lync 2010 Attendee.
 
-3Die-Anwesenheits-und Chat Features in Office Communicator 2007 R2 sind mit lync Server 2013 kompatibel, die Konferenzfeatures jedoch nicht. Während der Migration von Office Communications Server 2007 R2 eignet sich Office Communicator 2007 R2 für Anwesenheits-und Chat Interoperabilität, doch Benutzer sollten lync Web App 2013 verwenden, um an lync Server 2013-Besprechungen teilzunehmen.
+3Die-Anwesenheits-und Chat-Features in Office Communicator 2007 R2 sind mit lync Server 2013 kompatibel, die Konferenzfunktionen jedoch nicht. Während der Migration von Office Communications Server 2007 R2 ist Office Communicator 2007 R2 für die Interoperabilität von Anwesenheits-und Chatfunktionen geeignet, aber Benutzer sollten lync Web App 2013 verwenden, um lync Server 2013 Besprechungen beizutreten.
 
 <div>
 
 
 > [!NOTE]  
-> Details zur Möglichkeit, dass lync Server 2013-Clients mit Clients aus früheren Versionen von lync Server und Office Communications Server koexistieren und mit ihnen interagieren können, finden Sie unter <A href="lync-server-2013-client-interoperability-in-lync-2013.md">Client Interoperabilität in lync 2013</A> in der Planungsdokumentation.
+> Ausführliche Informationen dazu, wie lync Server 2013 Clients in früheren Versionen von lync Server und Office Communications Server nebeneinander bestehen und mit Clients interagieren können, finden Sie unter <A href="lync-server-2013-client-interoperability-in-lync-2013.md">Client Interoperability in lync 2013</A> in der Planungsdokumentation.
 
 
 

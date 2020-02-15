@@ -1,5 +1,5 @@
 ---
-title: Entfernen von Archivierungsservern und Monitoring Servern der Vorversion
+title: Entfernen von Archivierungs-und Monitoring Servern der Vorversion
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185278
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1df5ed76a0e0518120c9772b515b36c5f23bfd89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 144d2d1861b9e1dc75aaf740eca1a35e2d384a7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727135"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008911"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Entfernen von Archivierungsservern und Monitoring Servern der Vorversion
+# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Entfernen von Archivierungs-und Monitoring Servern der Vorversion
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41727135"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-Wenn Ihre Legacy Bereitstellung einen Archivierungsserver oder einen Überwachungsserver enthielt, können nach dem Migrieren zu lync Server 2013 diese Server aus der Legacyumgebung entfernt werden, vorausgesetzt, dass alle Benutzer aus allen verbleibenden Legacy Pools entfernt wurden. Sie können den Archivierungsserver oder den Monitoring Server in beliebiger Reihenfolge entfernen. Die wichtigste Anforderung ist, dass alle Benutzer aus allen verbleibenden Legacy Pools entfernt wurden.
+Wenn die Legacy Bereitstellung eine Archivierungsserver oder ein Monitoring Server enthielt, können diese Server nach der Migration zu lync Server 2013 aus der vorversions Umgebung entfernt werden, vorausgesetzt, alle Benutzer wurden aus den verbleibenden Legacy Pools entfernt. Die Archivierungsserver oder Monitoring Server können in beliebiger Reihenfolge entfernt werden. Wesentliche Voraussetzung ist, dass alle Benutzer aus den verbleibenden Vorversionspools entfernt worden sind.
 
-Sie können Benutzer aus lync Server 2010 nach lync Server 2013 verschieben, indem Sie die in [Phase 4: Verschieben von Testbenutzern in den Pilot Pool](phase-4-move-test-users-to-the-pilot-pool.md)beschriebenen Verfahren befolgen.
+Sie können Benutzer von lync Server 2010 in lync Server 2013 umsetzen, indem Sie die Schritte unter [Phase 4: verlagern von Testbenutzern in den Pilot Pool](phase-4-move-test-users-to-the-pilot-pool.md)beschrieben.
 
-Nachdem Sie bestätigt haben, dass alle Benutzer aus anderen Pools entfernt wurden, führen Sie die Schritte unter "Deinstallieren von Microsoft lync Server 2010 und Entfernen von Serverrollen" aus, die unter [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)heruntergeladen werden können.
+Nachdem Sie bestätigt haben, dass alle Benutzer aus den verbleibenden Pools entfernt wurden, führen Sie das Verfahren unter "Deinstallieren von Microsoft lync Server 2010 und Entfernen von Server Rollen" aus, das [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)unter heruntergeladen werden kann.
 
 </div>
 

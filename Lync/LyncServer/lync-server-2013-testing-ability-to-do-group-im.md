@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Testen der Gruppen-Chatfunktion'
+title: 'Lync Server 2013: Testen der Fähigkeit, Gruppen-Chat zu durchführen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969652
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8552d5caadf26d70265f5538f10c6152eb67dcc8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 97562d82f751280ec4d1a8f154af2b85ed2be128
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745985"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008647"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-do-group-im-in-lync-server-2013"></a>Testen der Fähigkeit zum Gruppieren von Chatnachrichten in lync Server 2013
+# <a name="testing-ability-to-do-group-im-in-lync-server-2013"></a>Testen der Fähigkeit, Gruppen-Chat in lync Server 2013 zu ausführen
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745985"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-06-05_
+_**Letztes Änderungsstand des Themas:** 2014-06-05_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsGroupIM-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsGroupIM verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsGroupIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-05_
 
 ## <a name="description"></a>Beschreibung
 
-Das Cmdlet Test-CsGroupIM überprüft, ob Benutzer in Ihrer Organisation Gruppen-Chatsitzungen durchführen können. Wenn Sie Test-CsGroupIM ausführen, versucht das Cmdlet, ein paar Test Benutzer mit lync Server zu signieren. Wenn Sie erfolgreich sind, erstellt Test-CsGroupIM eine neue Konferenz mit dem ersten Testbenutzer und lädt den zweiten Benutzer ein, an der Konferenz teilzunehmen. Nach einem Austausch von Nachrichten werden beide Benutzer vom System getrennt. Beachten Sie, dass dies alles ohne Benutzerinteraktion und ohne Auswirkungen auf tatsächliche Benutzer geschieht. Nehmen wir beispielsweise an, dass das Test Konto SIP:kenmyer@litwareinc.com einem echten Benutzer entspricht, der ein echtes lync Server-Konto hat. In diesem Fall wird der Test ohne Unterbrechung des echten Ken Myers durchgeführt. Auch wenn sich das Ken Myers Test-Konto vom System abmeldet, bleibt die Person beispielsweise angemeldet. Ebenso erhält der wirkliche Ken Myers keine Einladung zur Teilnahme an der Konferenz. Diese Einladung wird an das Testkonto gesendet und von diesem akzeptiert.
+Das Cmdlet Test-CsGroupIM überprüft, ob Benutzer in Ihrer Organisation Gruppen-Chatsitzungen durchführen können. Wenn Sie Test-CsGroupIM ausführen, versucht das Cmdlet, sich an einem Paar von Testbenutzern anzumelden, um lync Server. Wenn die Methode erfolgreich verläuft, erstellt Test-CsGroupIM eine neue Konferenz mit dem ersten Testbenutzer und lädt den zweiten Benutzer ein, an der Konferenz teilzunehmen. Nach dem Austausch von Nachrichten werden beide Benutzer vom System getrennt. Beachten Sie, dass dies alles ohne Benutzerinteraktion und ohne Beeinträchtigung von tatsächlichen Benutzern geschieht. Nehmen wir beispielsweise an, dass das Test Konto SIP:kenmyer@litwareinc.com einem echten Benutzer entspricht, der über ein echtes lync Server Konto verfügt. In diesem Fall wird der Test ohne Unterbrechung des realen Ken Myers durchgeführt. Wenn sich beispielsweise das Ken Myers-Test Konto vom System abmeldet, bleibt die Person angemeldet. Ebenso wird der wirkliche Ken Myers keine Einladung erhalten, an der Konferenz teilzunehmen. Diese Einladung wird an das Test Konto gesendet und von diesem akzeptiert.
 
 Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) .
 
@@ -74,13 +74,13 @@ Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsGr
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet "Test-CsGroupIM" kann mit einem Paar vorkonfigurierter Testkonten ausgeführt werden (siehe Einrichten von Testkonten zum Ausführen von lync Server-Tests) oder der Konten von zwei Benutzern, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den FQDN des zu testenden lync-Server Pools angeben. Beispiel:
+Das Cmdlet Test-CsGroupIM kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten für das Ausführen von lync Server Tests) oder den Konten von zwei Benutzern, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den FQDN des lync Server Pools angeben, der getestet werden soll. Beispiel:
 
     Test-CsGroupIM -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Damit diese Überprüfung mit tatsächlichen Benutzerkonten ausgeführt werden kann, müssen Sie für jedes Konto zwei Anmeldedaten Objekte der lync Server-Verwaltungsshell (Objekte, die den Kontonamen und das Kennwort enthalten) erstellen. Sie müssen dann diese Anmeldeinformationsobjekte und die SIP-Adressen der beiden Konten einbeziehen, wenn Sie Test-CsGroupIM aufrufen:
+Um diese Überprüfung mit tatsächlichen Benutzerkonten auszuführen, müssen Sie zwei lync Server-Verwaltungsshell Credentials-Objekte (Objekte, die den Kontonamen und das Kennwort enthalten) für jedes Konto erstellen. Sie müssen dann diese Credentials-Objekte und die SIP-Adressen der beiden Konten einschließen, wenn Sie Test-CsGroupIM aufrufen:
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
@@ -92,27 +92,27 @@ Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsGr
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn die beiden Benutzer eine Gruppen-Chatsitzung durchführen können, erhalten Sie eine ähnliche Ausgabe, wobei die Ergebniseigenschaft als erfolgreich markiert ist **:**
+Wenn die beiden Benutzer eine Gruppen-Chatsitzung durchführen können, erhalten Sie eine ähnliche Ausgabe, wobei die Result-Eigenschaft als **Success** markiert ist:
 
 TargetFqdn: ATL-CS-001.litwareinc.com
 
-Ergebnis: Erfolg
+Ergebnis: Success
 
-Latenz: 00:00:06.3812203
+Wartezeit: 00:00:06.3812203
 
 Fehler
 
 Diagnose
 
-Wenn die beiden Benutzer nicht in der Lage sind, die Chat-Sitzung abzuschließen, wird das Ergebnis als Fehler angezeigt, und weitere Informationen werden in den Eigenschaften Fehler und Diagnose aufgezeichnet:
+Wenn die beiden Benutzer nicht in der Lage sind, die Sofortnachrichtensitzung abzuschließen, wird das Ergebnis als Fehler angezeigt, und in den Eigenschaften Error und Diagnostic werden zusätzliche Informationen aufgezeichnet:
 
 TargetFqdn: ATL-CS-001.litwareinc.com
 
 Ergebnis: Fehler
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
 Fehler: 404, nicht gefunden
 
@@ -122,31 +122,31 @@ Reason = Ziel-URI ist entweder für SIP nicht aktiviert oder nicht
 
 existieren.
 
-Microsoft. RTC. Signalisierungs-DiagnosticHeader
+Microsoft. RTC. Signaling. DiagnosticHeader
 
-In der vorherigen Ausgabe wird angegeben, dass der Test fehlgeschlagen ist, weil mindestens eines der Testkonten ungültig war, weil das Konto nicht vorhanden ist oder der Benutzer nicht für lync Server aktiviert wurde. Sie können überprüfen, ob das Konto vorhanden ist, und ob das Konto für nm-OCS-14-3rd aktiviert wurde, indem Sie einen ähnlichen Befehl wie den folgenden ausführen:
+Die vorherige Ausgabe besagt, dass der Test fehlgeschlagen ist, da mindestens eines der Testkonten ungültig war, da das Konto nicht vorhanden ist oder der Benutzer nicht für lync Server aktiviert wurde. Sie können überprüfen, ob das Konto vorhanden ist, und ob das Konto für nm-OCS-14-3rd aktiviert wurde, indem Sie einen Befehl wie den folgenden ausführen:
 
     "Ken Myer", "David Longmire" | Get-CsUser | Select-Object SipAddress, Enabled
 
-Wenn Test-CsGroupIM fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, wobei dieser Zeitpunkt einschließlich des Verbose-Parameters lautet:
+Wenn Test-CsGroupIM fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, dieses Mal einschließlich des Parameters verbose:
 
     Test-CsGroupIM -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Wenn der Verbose-Parameter enthalten ist, gibt Test-CsGroupIM eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als Sie die Fähigkeit der angegebenen Benutzer zur Teilnahme an einer Gruppen-Chatsitzung überprüft hat. Wenn Ihr Test beispielsweise fehlschlägt und Ihnen mitgeteilt wird, dass ein oder mehrere Benutzerkonten ungültig sind, können Sie den Test mit dem Verbose-Parameter erneut ausführen und feststellen, welches Benutzerkonto ungültig ist:
+Wenn der Verbose-Parameter enthalten ist, gibt Test-CsGroupIM eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als er die Fähigkeit der angegebenen Benutzer zur Teilnahme an einer Gruppe von Chatsitzungen überprüft hat. Wenn der Test beispielsweise fehlschlägt und Ihnen mitgeteilt wird, dass ein oder mehrere Benutzerkonten ungültig sind, können Sie den Test mit dem Verbose-Parameter erneut ausführen und bestimmen, welches Benutzerkonto ungültig ist:
 
-Registrierungsanfrage wird gesendet:
+Senden der Registrierungsanforderung:
 
  Ziel-FQDN = ATL-CS-001.litwareinc.com
 
  SIP-Adresse des Benutzers = SIP:kenmyer@litwareinc.com
 
- Port registrieren = 5061
+ Register Port = 5061
 
-Auth-Typ "IWA" ist ausgewählt.
+Der Authentifizierungstyp "IWA" ist ausgewählt.
 
-Eine Ausnahme "die Anmeldung wurde abgelehnt. Überprüfen Sie, ob die richtigen Anmeldeinformationen verwendet werden und das Konto aktiv ist. "
+Eine Ausnahme: "das Anmelden wurde verweigert. Stellen Sie sicher, dass die richtigen Anmeldeinformationen verwendet werden und das Konto aktiv ist.
 
-Wie Sie sehen können, war in diesem Beispiel der Benutzer, der die SIP-Adresse SIP:kenmyer@litwareinc.com, nicht in der Lage, sich anzumelden.
+Wie Sie sehen können, konnte sich der Benutzer, der über die SIP-Adresse SIP:kenmyer@litwareinc.com verfügt, in diesem Beispiel nicht anmelden.
 
 </div>
 
@@ -154,31 +154,31 @@ Wie Sie sehen können, war in diesem Beispiel der Benutzer, der die SIP-Adresse 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Nachfolgend finden Sie einige häufige Gründe, warum Test-CsGroupIM möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsGroupIM möglicherweise fehlschlägt:
 
   - Sie haben ein falsches Benutzerkonto angegeben. Sie können überprüfen, ob ein Benutzerkonto vorhanden ist, indem Sie einen Befehl wie den folgenden ausführen:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - Das Benutzerkonto ist gültig, das Konto ist derzeit aber für lync Server nicht aktiviert. Um zu überprüfen, ob ein Benutzerkonto für lync Server aktiviert war, führen Sie einen Befehl ähnlich der folgenden aus:
+  - Das Benutzerkonto ist gültig, aber das Konto ist derzeit nicht für lync Server aktiviert. Um zu überprüfen, ob ein Benutzerkonto für lync Server aktiviert wurde, führen Sie einen Befehl wie den folgenden aus:
     
     Get-CsUser "SIP:kenmyer@litwareinc.com" | SELECT-Objekt aktiviert
     
-    Wenn die Enabled-Eigenschaft auf false festgelegt ist, bedeutet dies, dass der Benutzer zurzeit nicht für lync Server aktiviert ist.
+    Wenn die Enabled-Eigenschaft auf false festgelegt ist, bedeutet dies, dass der Benutzer derzeit nicht für lync Server aktiviert ist.
 
-  - Der Instant Messaging-Dienst ist möglicherweise nicht verfügbar. Mit lync Server können Sie das System so konfigurieren, dass Sofortnachrichten nicht verfügbar sind, wenn auf die Archivierungsdatenbank nicht zugegriffen werden kann. Sie können dies überprüfen, indem Sie einen Befehl wie den folgenden ausführen:
+  - Der Instant Messaging-Dienst ist möglicherweise nicht verfügbar. Mit lync Server können Sie das System so konfigurieren, dass Chatnachrichten nicht verfügbar sind, wenn nicht auf die Archivierungsdatenbank zugegriffen werden kann. Sie können dies überprüfen, indem Sie einen Befehl wie den folgenden ausführen:
     
         Get-CsArchivingConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object BlockOnArchiveFailure
     
-    Wenn BlockOnArchiveFailure auf "true" festgelegt ist, sollten Sie ermitteln, ob die Archivierungsdatenbank verfügbar ist. Sie können die Speicherorte ihrer Archivierungsdatenbanken mithilfe des folgenden Befehls zurückgeben:
+    Wenn BlockOnArchiveFailure auf true festgelegt ist, sollten Sie bestimmen, ob die Archivierungsdatenbank verfügbar ist. Mit dem folgenden Befehl können Sie die Speicherorte ihrer Archivierungsdatenbanken zurückgeben:
     
         Get-CsService -ArchivingDatabase
 
-  - Der Archivierungs Server steht möglicherweise nicht zur Verfügung. Mit diesem Befehl können Sie den FQDN ihrer Archivierungsserver abrufen:
+  - Die Archivierungsserver ist möglicherweise nicht verfügbar. Mit dem folgenden Befehl können Sie den FQDN ihrer Archivierungsserver abrufen:
     
         Get-CsService -ArchivingServer
     
-    Sie können dann den entsprechenden Server anpingen, um zu überprüfen, ob er verfügbar ist. Beispiel:
+    Anschließend können Sie den entsprechenden Server anpingen, um sicherzustellen, dass dieser verfügbar ist. Beispiel:
     
         ping atl-archiving-001.litwareinc.com
 

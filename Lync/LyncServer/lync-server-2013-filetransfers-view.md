@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Dateiübertragungen (Ansicht)'
+title: 'Lync Server 2013: File Transfers-Ansicht'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733848
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc4469140f7f92c563a594c883d02f3add1e65c5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 95cc6790766d68ee478cf1b80326c974f7c15f1f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743375"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028476"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="filetransfers-view-in-lync-server-2013"></a>Dateiübertragungen (Ansicht) in lync Server 2013
+# <a name="filetransfers-view-in-lync-server-2013"></a>Filetransfers-Ansicht in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41743375"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
-Die Filetransfer-Ansicht speichert Informationen zu Peer-to-Peer-Dateiübertragungssitzungen. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
+In der Filetransfer-Ansicht werden Informationen zu Peer-to-Peer-Dateiübertragungssitzungen gespeichert. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
 
 <div>
 
 
 > [!NOTE]  
-> Die Dateiübertragungen-Ansicht enthält alle Spalten in der <A href="lync-server-2013-sessiondetails-view.md">SessionDetails-Ansicht in lync Server 2013</A> sowie die unten aufgeführten Spalten.
+> Die Dateitransfers-Ansicht enthält alle Spalten in der <A href="lync-server-2013-sessiondetails-view.md">SessionDetails-Ansicht in lync Server 2013</A> zusätzlich zu den unten aufgeführten Spalten.
 
 
 
@@ -66,33 +66,33 @@ Die Filetransfer-Ansicht speichert Informationen zu Peer-to-Peer-Dateiübertragu
 <tbody>
 <tr class="odd">
 <td><p><strong>FileName</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Der Name der übertragenen Datei.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Name der übertragenen Datei.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Cookie</strong></p></td>
 <td><p>nvarchar (128)</p></td>
-<td><p>Wird verwendet, um jede nach Verfolgungs Nachricht als zugeordnet zu kennzeichnen.</p></td>
+<td><p>Wird verwendet, um jede Nachricht zur Nachverfolgung als hiermit zugeordnet zu identifizieren.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Fileidentity</strong></p></td>
 <td><p>uniqueidentifier</p></td>
-<td><p>Eindeutiger Bezeichner zur Unterscheidung Zwischendatei Übertragungen mit demselben Dateinamen.</p></td>
+<td><p>Eindeutiger Bezeichner zum Unterscheiden zwischen Dateiübertragungen mit demselben Dateinamen.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Annehmen</strong></p></td>
-<td><p>bit</p></td>
-<td><p>Kann "wahr" oder "Null" sein. Ist "true", ist "ablehnen" und "Abbrechen" NULL.</p></td>
+<td><p><strong>Accept</strong></p></td>
+<td><p>Bit</p></td>
+<td><p>Kann TRUE oder NULL sein. Falls TRUE erhalten Reject und Cancel den Wert NULL.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Ablehnen</strong></p></td>
-<td><p>bit</p></td>
-<td><p>Kann "wahr" oder "Null" sein. Ist "true", ist "akzeptieren" und "Abbrechen" NULL.</p></td>
+<td><p><strong>Reject</strong></p></td>
+<td><p>Bit</p></td>
+<td><p>Kann TRUE oder NULL sein. Falls TRUE erhalten Accept und Cancel den Wert NULL.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Abbrechen</strong></p></td>
-<td><p>bit</p></td>
-<td><p>Kann "wahr" oder "Null" sein. Ist "true", ist "annehmen und ablehnen" NULL.</p></td>
+<td><p><strong>Cancel</strong></p></td>
+<td><p>Bit</p></td>
+<td><p>Kann TRUE oder NULL sein. Falls TRUE erhalten Accept und Reject den Wert NULL.</p></td>
 </tr>
 </tbody>
 </table>

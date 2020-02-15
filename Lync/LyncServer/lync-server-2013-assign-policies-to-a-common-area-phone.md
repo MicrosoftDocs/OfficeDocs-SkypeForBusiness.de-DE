@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Zuweisen von Richtlinien zu einem öffentlichen Bereich-Telefon'
+title: 'Lync Server 2013: Zuweisen von Richtlinien zu einem Telefon im öffentlichen Bereich'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e19e2fccabe4759f8cf4cf5eb55ade7e68e2b560
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6dfe908f2bb4ca66714d3eef756a0c53c7334fd7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734045"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030068"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41734045"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-20_
+_**Letztes Änderungsstand des Themas:** 2013-02-20_
 
-Nachdem Sie Ihre Richtlinie für Telefone im öffentlichen Bereich erstellt haben (Details finden Sie unter [Erstellen einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)), können Sie die Richtlinie mithilfe von Windows PowerShell und dem entsprechenden **Grant-CS-** Cmdlet einem öffentlichen Bereichs Telefon zuweisen. Diese Cmdlets können entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Nachdem Sie Ihre Richtlinie für Telefone für gemeinsame Bereiche erstellt haben (Weitere Informationen finden Sie unter [Erstellen einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)), können Sie die Richtlinie mithilfe von Windows PowerShell und dem entsprechenden **Grant-CS-** Cmdlet einem Telefon im öffentlichen Bereich zuweisen. Diese Cmdlets können entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
@@ -46,7 +46,7 @@ Nachdem Sie Ihre Richtlinie für Telefone im öffentlichen Bereich erstellt habe
 
 ## <a name="assigning-a-policy-to-a-single-common-area-phone"></a>Zuweisen einer Richtlinie zu einem einzelnen Telefon im öffentlichen Bereich
 
-  - Mit dem folgenden Befehl wird die Richtlinie für die benutzerspezifische VoIP-RedmondVoice dem öffentlichen Bereichs Telefon zugewiesen, in dem sich das Identity Building 14-Foyer befindet.
+  - Mit dem folgenden Befehl wird die benutzerspezifische VoIP-Richtlinie RedmondVoice dem Telefon für öffentliche Bereiche zugewiesen, das über die Lobby "Identity Building 14" verfügt.
     
         Grant-CsVoicePolicy -Identity "Building 14 Lobby" -PolicyName "RedmondVoicePolicy"
 
@@ -54,15 +54,15 @@ Nachdem Sie Ihre Richtlinie für Telefone im öffentlichen Bereich erstellt habe
 
 <div>
 
-## <a name="assigning-a-policy-to-multiple-common-area-phones"></a>Zuweisen einer Richtlinie zu mehreren Telefonen im öffentlichen Bereich
+## <a name="assigning-a-policy-to-multiple-common-area-phones"></a>Zuweisen einer Richtlinie zu mehreren Telefonen für gemeinsame Bereiche
 
-  - In diesem Beispiel wird die benutzerspezifische VoIP-Richtlinien RedmondVoice allen für die Verwendung in der Organisation konfigurierten Telefonen für den öffentlichen Bereich zugewiesen.
+  - In diesem Beispiel wird die benutzerspezifische VoIP-Richtlinie RedmondVoice allen für die Verwendung in der Organisation konfigurierten Telefonen für gemeinsame Bereiche zugewiesen.
     
         Get-CsCommonAreaPhone | Grant-CsVoicePolicy  -PolicyName "RedmondVoicePolicy"
 
 </div>
 
-Ausführliche Informationen finden Sie in den Hilfethemen zu [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy).
+Ausführliche Informationen finden Sie in den Hilfethemen für das [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsVoicePolicy).
 
 </div>
 

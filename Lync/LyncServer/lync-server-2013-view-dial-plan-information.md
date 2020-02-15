@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anzeigen von Wähl Planinformationen'
+title: 'Lync Server 2013: Informationen zu Wählplänen anzeigen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733587
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a83de5daf33764dd08be9c08141d338e73a675d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c63aead21441cb972cce2b6fb26391efc43969bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731075"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42009558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-dial-plan-information-in-lync-server-2013"></a>Anzeigen von Wähl Planinformationen in lync Server 2013
+# <a name="view-dial-plan-information-in-lync-server-2013"></a>Anzeigen von Informationen zu Wählplänen in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41731075"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Führen Sie die Schritte im folgenden Verfahren aus, um Informationen zu einem vorhandenen Wählplan anzuzeigen. Wenn Sie einen neuen Wählplan erstellen möchten, lesen Sie [Erstellen eines Wähl Plans in lync Server 2013](lync-server-2013-create-a-dial-plan.md).
+Führen Sie die folgenden Schritte aus, um Informationen für einen vorhandenen Wählplan anzuzeigen. Informationen zum Erstellen eines neuen Wählplans finden Sie unter [Create a Dial Plan in lync Server 2013](lync-server-2013-create-a-dial-plan.md).
 
 <div>
 
-## <a name="to-view-information-about-a-dial-plan-from-lync-server-control-panel"></a>So zeigen Sie Informationen zu einem Wählplan in der lync Server-Systemsteuerung an
+## <a name="to-view-information-about-a-dial-plan-from-lync-server-control-panel"></a>So zeigen Sie Informationen zu einem Wählplan in lync Server-Systemsteuerung an
 
-1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Melden Sie sich am Computer als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied der CsVoiceAdministrator-, CsServerAdministrator-oder CsAdministrator-Rolle an. Ausführliche Informationen finden Sie unter [Delegate Setup Permissions in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing** und dann auf **Wählplan**.
+3.  Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing** und dann auf **Wähleinstellungen**.
 
 4.  Doppelklicken Sie auf der Seite **Wähleinstellungen** auf einen Satz mit Wähleinstellungen.
     
@@ -55,7 +55,7 @@ Führen Sie die Schritte im folgenden Verfahren aus, um Informationen zu einem v
     
 
     > [!NOTE]  
-    > Sie können Informationen nur für einen Wählplan gleichzeitig anzeigen.
+    > Sie können jeweils nur Informationen zu einem Wählplan anzeigen.
 
     
     </div>
@@ -66,13 +66,13 @@ Führen Sie die Schritte im folgenden Verfahren aus, um Informationen zu einem v
 
 ## <a name="to-view-dial-plans-by-using-windows-powershell-cmdlets"></a>So zeigen Sie Wählpläne mithilfe von Windows PowerShell-Cmdlets an
 
-  - Wählpläne können mithilfe der Windows PowerShell-Befehlszeilenschnittstelle und dem Cmdlet **Get-CsDialPlan** angezeigt werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+  - Wählpläne können mithilfe der Befehlszeilenschnittstelle Windows PowerShell und des Cmdlets **Get-CsDialPlan** angezeigt werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
     
-    Wenn Sie Informationen zu allen ihren Wählplänen anzeigen möchten, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
+    Geben Sie den folgenden Befehl in das lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE, um Informationen zu allen Wählplänen anzuzeigen:
     
         Get-CsDialPlan
     
-    Dieser Befehl gibt ähnliche Informationen zurück:
+    Dieser Befehl gibt Informationen folgender Art zurück:
     
         Identity                 : Global
         Description              :
@@ -94,8 +94,8 @@ Führen Sie die Schritte im folgenden Verfahren aus, um Informationen zu einem v
 ## <a name="see-also"></a>Siehe auch
 
 
-[Erstellen eines Wählplans in lync Server 2013](lync-server-2013-create-a-dial-plan.md)  
-[Ändern eines Wählplans in Lync Server 2013](lync-server-2013-modify-a-dial-plan.md)  
+[Erstellen von Wähleinstellungen in lync Server 2013](lync-server-2013-create-a-dial-plan.md)  
+[Ändern von Wähleinstellungen in lync Server 2013](lync-server-2013-modify-a-dial-plan.md)  
   
 
 </div>

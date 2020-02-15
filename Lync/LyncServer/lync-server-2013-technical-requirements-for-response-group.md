@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Technische Anforderungen für Reaktionsgruppen'
+title: 'Lync Server 2013: technische Anforderungen für Reaktionsgruppen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7ab381a70a8a6d69170959fbaf488982887d765
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 041f4c6ada99d6991c18b20f77701c78eec8cd95
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746525"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42022566"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Technische Anforderungen für Reaktionsgruppen in Lync Server 2013
+# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Technische Voraussetzungen für Reaktionsgruppen in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41746525"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-11-07_
+_**Letztes Änderungsstand des Themas:** 2013-11-07_
 
-In diesem Abschnitt werden die folgenden technischen Voraussetzungen für die reaktionsgruppenanwendung beschrieben:
+In diesem Abschnitt werden die folgenden technischen Anforderungen für die Reaktionsgruppenanwendung beschrieben:
 
   - Hardwareanforderungen
 
@@ -45,27 +45,27 @@ In diesem Abschnitt werden die folgenden technischen Voraussetzungen für die re
 
   - Portanforderungen
 
-  - Audiodatei-Anforderungen
+  - Anforderungen für Audiodateien
 
-  - Anforderungen für das Konfigurationstool für Reaktionsgruppen
+  - Anforderungen an das Konfigurationstool für Reaktionsgruppen
 
 <div>
 
-## <a name="hardware-requirements"></a>Hardware Anforderungen
+## <a name="hardware-requirements"></a>Hardwareanforderungen
 
-Die Antwortgruppen Anwendung hat die gleichen Hardwareanforderungen wie Front-End-Server. Details zu den Hardwareanforderungen finden Sie unter [Server Hardwareplattformen für lync Server 2013](lync-server-2013-server-hardware-platforms.md) in der Dokumentation zur Unterstützung.
+Die Reaktionsgruppenanwendung hat die gleichen Hardwareanforderungen wie Front-End-Server. Ausführliche Informationen zu den Hardwareanforderungen finden Sie unter [Server Hardware Platforms for lync Server 2013](lync-server-2013-server-hardware-platforms.md) in der Unterstützungsdokumentation.
 
 </div>
 
 <div>
 
-## <a name="software-requirements"></a>Software Anforderungen
+## <a name="software-requirements"></a>Softwareanforderungen
 
-Die reaktionsgruppenanwendung hat dieselben Betriebssystemanforderungen und Softwarevoraussetzungen wie Front-End-Server. Ausführliche Informationen zu den Softwareanforderungen finden Sie unter unter [Stützung von Server-und Tools-Betriebssystemen in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in der Dokumentation zur Unterstützung.
+Das Reaktionsgruppenanwendung hat die gleichen Betriebssystemanforderungen und Softwarevoraussetzungen wie Front-End-Server. Ausführliche Informationen zu den Softwareanforderungen finden Sie unter [Betriebssystemunterstützung für Server und Tools in lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in der Unterstützungsdokumentation.
 
-Wenn Sie Windows Media Audio (WMA)-Dateien für die Musik und Ankündigungen von Reaktionsgruppen verwenden, muss für alle Front-End-Server oder Standard Edition-Server, auf denen die reaktionsgruppenanwendung ausgeführt wird, die Windows Media-Format Laufzeit für Server unter Windows installiert sein. Server 2008 R2 oder Microsoft Media Foundation für Server mit Windows Server 2012 oder Windows Server 2012 R2. Für Windows Server 2008 R2 wird die Windows Media-Format Laufzeit als Teil der Windows-Desktop Oberfläche installiert.
+Wenn Sie Windows Media-Audiodateien (WMA) für Musik und Ankündigungen von Reaktionsgruppen verwenden, muss für alle Front-End-Server oder Standard Edition-Server, auf denen der Reaktionsgruppenanwendung ausgeführt wird, die Windows Media Format Runtime für Server mit Windows installiert sein. Server 2008 R2 oder Microsoft Media Foundation für Server, auf denen Windows Server 2012 oder Windows Server 2012 R2 ausführt. Für Windows Server 2008 R2 wird Windows Media Format Runtime als Teil der Windows-Desktop Umgebung installiert.
 
-Weitere Informationen zu Audioanforderungen finden Sie unter "Anforderungen an die Audiodateien" weiter unten in diesem Abschnitt.
+Ausführliche Informationen zu Audioanforderungen finden Sie unter "Anforderungen an die Audiodateien" weiter unten in diesem Abschnitt.
 
 </div>
 
@@ -73,17 +73,17 @@ Weitere Informationen zu Audioanforderungen finden Sie unter "Anforderungen an d
 
 ## <a name="port-requirements"></a>Portanforderungen
 
-Die Antwortgruppen Anwendung verwendet die folgenden Ports:
+Der Reaktionsgruppenanwendung verwendet die folgenden Ports:
 
-  - **Port 5071**   für SIP-Abhör Anforderungen
+  - **Port 5071**   wird für SIP-Überwachungsanforderungen verwendet
 
-  - **Port 8404**   , der für die Kommunikation zwischen Servern verwendet wird
+  - **Port 8404**   wird für die Kommunikation zwischen Servern verwendet
     
     <div>
     
 
     > [!NOTE]  
-    > Dieser Port wird für den Übereinstimmungs Dienst verwendet und ist erforderlich, wenn die reaktionsgruppenanwendung in einem Pool mit mehr als einem Front-End-Server bereitgestellt wird.
+    > Dieser Port wird für den Übereinstimmungs Dienst verwendet und ist erforderlich, wenn die Reaktionsgruppenanwendung in einem Pool mit mehr als einem Front-End-Server bereitgestellt wird.
 
     
     </div>
@@ -92,7 +92,7 @@ Die Antwortgruppen Anwendung verwendet die folgenden Ports:
 
 
 > [!NOTE]  
-> Diese Ports sind Standardeinstellungen, die Sie mit dem Cmdlet <STRONG>Set-CsApplicationServer</STRONG> ändern können. Details zu diesem Cmdlet finden Sie in der Dokumentation zur lync Server-Verwaltungsshell.
+> Diese Ports sind Standardeinstellungen, die Sie mit dem Cmdlet <STRONG>Set-CsApplicationServer</STRONG> ändern können. Ausführliche Informationen zu diesem Cmdlet finden Sie in der lync Server-Verwaltungsshell Dokumentation.
 
 
 
@@ -104,25 +104,25 @@ Die Antwortgruppen Anwendung verwendet die folgenden Ports:
 
 ## <a name="audio-file-requirements"></a>Anforderungen für Audiodateien
 
-Die Antwortgruppen Anwendung unterstützt das Wave-Dateiformat (WAV) und das Windows Media Audio-Dateiformat (WMA) für Reaktionsgruppen Nachrichten, Warteschleife-Musik oder IVR-Fragen (Interactive Voice Response).
+Das Reaktionsgruppenanwendung unterstützt das Wave-Dateiformat (WAV) und das Windows Media Audio-(WMA-) Dateiformat für Reaktionsgruppen Nachrichten, Wartemusik oder IVR-Fragen (Interactive Voice Response).
 
-Das Windows Media-Audiodateiformat setzt voraus, dass die Windows Media-Format Laufzeit auf Front-End-Servern mit Windows Server 2008 R2 und Windows Server 2008 installiert ist. Nähere Informationen dazu finden Sie weiter oben in diesem Abschnitt unter „Softwareanforderungen“.
+Das Windows Media Audiodateiformat erfordert, dass die Windows Media Format-Laufzeitkomponente auf Front-End-Servern installiert ist, auf denen Windows Server 2008 R2 und Windows Server 2008 läuft. Weitere Informationen finden Sie weiter oben in diesem Abschnitt unter "Software Anforderungen".
 
 <div>
 
 ## <a name="supported-wave-file-formats"></a>Unterstützte WAV-Dateiformate
 
-WAV-Dateien müssen folgenden Anforderungen entsprechen:
+Alle Wavedateien müssen die folgenden Anforderungen erfüllen:
 
-  - 8- oder 16-Bit-Datei
+  - 8-Bit- oder 16-Bit-Datei
 
   - LPCM- (Linear Pulse Code Modulation), A-Law- oder µ-Law-Format
 
   - Mono oder Stereo
 
-  - Maximal 4 MB
+  - 4 MB oder weniger
 
-Um die beste Leistung zu erzielen, wird eine WAV-Datei mit den Werten 16 kHz, Mono, 16 Bit empfohlen.
+Für eine optimale Leistung bei Wavedateien wird eine Mono-WAV-Datei mit 16 kHz und 16 Bit empfohlen.
 
 </div>
 
@@ -130,9 +130,9 @@ Um die beste Leistung zu erzielen, wird eine WAV-Datei mit den Werten 16 kHz, M
 
 ## <a name="supported-windows-media-audio-file-formats"></a>Unterstützte WMA-Dateiformate
 
-Bei Verwendung einer WMA-Datei sollten Sie niedrige Bitraten verwenden und die Leistung Ihres Systems überprüfen, wenn dieses ausgelastet ist.
+Wenn Sie eine Windows Media Audiodatei verwenden, sollten Sie niedrige Bitraten verwenden und die Leistung Ihres Systems unter Last überprüfen.
 
-Sie können Microsoft Expression Encoder 4 verwenden, um eine Datei in das WMA-Format zu konvertieren. Informationen zum Herunterladen von Expression Encoder [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843)4 finden Sie unter.
+Sie können Microsoft Expression Encoder 4 verwenden, um einen Datei in das WMA-Format zu konvertieren. Informationen zum Herunterladen von Expression Encoder [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843)4 finden Sie unter.
 
 </div>
 
@@ -140,7 +140,7 @@ Sie können Microsoft Expression Encoder 4 verwenden, um eine Datei in das WMA-
 
 <div>
 
-## <a name="response-group-configuration-tool-requirements"></a>Anforderungen des Konfigurationstools für Reaktionsgruppen
+## <a name="response-group-configuration-tool-requirements"></a>Anforderungen an das Konfigurations Tool für Reaktionsgruppen
 
 Das Reaktionsgruppen-Konfigurations Tool unterstützt die in der folgenden Tabelle beschriebenen Kombinationen aus Betriebssystemen und Webbrowsern.
 
@@ -148,7 +148,7 @@ Das Reaktionsgruppen-Konfigurations Tool unterstützt die in der folgenden Tabel
 
 
 > [!NOTE]  
-> 32-Bit- und 64-Bit-Versionen des jeweiligen Betriebssystems werden unterstützt. Für Internet Explorer werden nur 32-Bit-Versionen unterstützt.
+> 32-Bit-oder 64-Bit-Versionen der Betriebssysteme werden unterstützt. Nur 32-Bit-Versionen von Internet Explorer werden unterstützt.
 
 
 
@@ -170,27 +170,27 @@ Das Reaktionsgruppen-Konfigurations Tool unterstützt die in der folgenden Tabel
 <tbody>
 <tr class="odd">
 <td><p>Windows Vista mit Service Pack (SP) 2</p></td>
-<td><p>Internet Explorer 7</p>
-<p>Internet Explorer 8 (einheitlicher Modus)</p>
-<p>Internet Explorer 9 (einheitlicher Modus)</p></td>
+<td><p>Internet Explorer 7</p>
+<p>Internet Explorer 8 (einheitlicher Modus)</p>
+<p>Internet Explorer 9 (einheitlicher Modus)</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows 7</p>
+<td><p>Windows 7</p>
 <p>Windows 7 mit Service Pack 1</p></td>
-<td><p>Internet Explorer 8 (einheitlicher Modus)</p>
-<p>Internet Explorer 9 (einheitlicher Modus)</p></td>
+<td><p>Internet Explorer 8 (einheitlicher Modus)</p>
+<p>Internet Explorer 9 (einheitlicher Modus)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Windows Server 2008 mit Service Pack 2</p></td>
-<td><p>Internet Explorer 7</p>
-<p>Internet Explorer 8 (einheitlicher Modus)</p>
-<p>Internet Explorer 9 (einheitlicher Modus)</p></td>
+<td><p>Internet Explorer 7</p>
+<p>Internet Explorer 8 (einheitlicher Modus)</p>
+<p>Internet Explorer 9 (einheitlicher Modus)</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows Server 2008 R2</p>
 <p>Windows Server 2008 R2 mit Service Pack 1</p></td>
-<td><p>Internet Explorer 8 (einheitlicher Modus)</p>
-<p>Internet Explorer 9 (einheitlicher Modus)</p></td>
+<td><p>Internet Explorer 8 (einheitlicher Modus)</p>
+<p>Internet Explorer 9 (einheitlicher Modus)</p></td>
 </tr>
 </tbody>
 </table>
@@ -200,15 +200,15 @@ Das Reaktionsgruppen-Konfigurations Tool unterstützt die in der folgenden Tabel
 
 <div>
 
-## <a name="response-group-agent-console"></a>Agentkonsole für Reaktionsgruppen
+## <a name="response-group-agent-console"></a>Reaktionsgruppen-Agent-Konsole
 
-Die Agentkonsole unterstützt die in der folgenden Tabelle aufgeführten Kombinationen aus Betriebssystemen und Webbrowsern.
+Die Agent-Konsole unterstützt die in der folgenden Tabelle beschriebenen Kombinationen aus Betriebssystemen und Webbrowsern.
 
 <div>
 
 
 > [!NOTE]  
-> 32-Bit- und 64-Bit-Versionen des jeweiligen Betriebssystems werden unterstützt. Für Internet Explorer werden nur 32-Bit-Versionen unterstützt.
+> 32-Bit-oder 64-Bit-Versionen der Betriebssysteme werden unterstützt. Nur 32-Bit-Versionen von Internet Explorer werden unterstützt.
 
 
 
@@ -230,31 +230,31 @@ Die Agentkonsole unterstützt die in der folgenden Tabelle aufgeführten Kombina
 <tbody>
 <tr class="odd">
 <td><p>Windows Vista mit Service Pack (SP) 2</p></td>
-<td><p>Internet Explorer 7</p>
-<p>Internet Explorer 8 (einheitlicher Modus)</p>
-<p>Internet Explorer 9 (einheitlicher Modus)</p></td>
+<td><p>Internet Explorer 7</p>
+<p>Internet Explorer 8 (einheitlicher Modus)</p>
+<p>Internet Explorer 9 (einheitlicher Modus)</p></td>
 </tr>
 <tr class="even">
-<td><p>Windows 7</p>
+<td><p>Windows 7</p>
 <p>Windows 7 mit Service Pack 1</p></td>
-<td><p>Internet Explorer 8 (einheitlicher Modus)</p>
-<p>Internet Explorer 9 (einheitlicher Modus)</p>
-<p>Firefox 10.0</p>
-<p>Chrome 18.0</p></td>
+<td><p>Internet Explorer 8 (einheitlicher Modus)</p>
+<p>Internet Explorer 9 (einheitlicher Modus)</p>
+<p>Firefox 10,0</p>
+<p>Chrome 18,0</p></td>
 </tr>
 <tr class="odd">
 <td><p>Windows Server 2008 mit Service Pack 2</p></td>
-<td><p>Internet Explorer 7</p>
-<p>Internet Explorer 8 (einheitlicher Modus)</p>
-<p>Internet Explorer 9 (einheitlicher Modus)</p></td>
+<td><p>Internet Explorer 7</p>
+<p>Internet Explorer 8 (einheitlicher Modus)</p>
+<p>Internet Explorer 9 (einheitlicher Modus)</p></td>
 </tr>
 <tr class="even">
 <td><p>Windows Server 2008 R2</p>
 <p>Windows Server 2008 R2 mit Service Pack 1</p></td>
-<td><p>Internet Explorer 8 (einheitlicher Modus)</p>
-<p>Internet Explorer 9 (einheitlicher Modus)</p>
-<p>Firefox 10.0</p>
-<p>Chrome 18.0</p></td>
+<td><p>Internet Explorer 8 (einheitlicher Modus)</p>
+<p>Internet Explorer 9 (einheitlicher Modus)</p>
+<p>Firefox 10,0</p>
+<p>Chrome 18,0</p></td>
 </tr>
 <tr class="odd">
 <td></td>

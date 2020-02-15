@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: DNS-Zusammenfassung für DNS- und Hardwarelastenausgleich'
+title: 'Lync Server 2013: DNS-Zusammenfassung-DNS-und HLB-Lastenausgleich'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5b84ccab2b3074662016a19c5f0a51d0cb70405
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 11128cb1989bfc2863fe52fe27d0c86eb4b468a9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737235"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029566"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dns-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>DNS-Zusammenfassung für DNS- und Hardwarelastenausgleich in Lync Server 2013
+# <a name="dns-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>DNS-Zusammenfassung-DNS-und HLB-Lastenausgleich in lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41737235"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-20_
+_**Letztes Änderungsstand des Themas:** 2012-10-20_
 
-Die folgende Tabelle enthält eine Zusammenfassung der DNS-Einträge, die erforderlich sind, um den Director für DNS-Lastenausgleich und Hardwarelastenausgleich zu unterstützen. Die Rolle des Directors erfordert ähnliche DNS-Einträge wie der Front-End-Server. Die Anzahl der benötigten Datensätze wird in den für das Director-Zertifikat erforderlichen Alternativen Betreff-Namen widergespiegelt. Anders als der Front-End-Server hostet der Director-Pool keine Benutzerkonten oder hostet die Mobilitätsdienste.
+Die folgende Tabelle enthält eine Zusammenfassung der DNS-Einträge, die zur Unterstützung des Directors für DNS-Lastenausgleich und Hardwarelastenausgleich erforderlich sind. Die Rolle des Directors erfordert ähnliche DNS-Einträge wie die Front-End-Server. Die erforderliche Anzahl von Datensätzen wird in den für das Director-Zertifikat erforderlichen alternativen Antragstellernamen reflektiert. Anders als die Front-End-Server, hostet der Directorpool keine Benutzerkonten oder hostet die Mobilitätsdienste.
 
-### <a name="dns-records-required-for-the-director-pool-using-dns-load-balancing-and-hardware-load-balancer"></a>Für den Director-Pool erforderliche DNS-Einträge mithilfe des DNS-Lastenausgleichs und des Hardware Lastenausgleichs
+### <a name="dns-records-required-for-the-director-pool-using-dns-load-balancing-and-hardware-load-balancer"></a>Für den Directorpool erforderliche DNS-Einträge bei Verwendung des DNS-Lastenausgleichs und des Hardwarelastenausgleichs
 
 <table>
 <colgroup>
@@ -50,48 +50,48 @@ Die folgende Tabelle enthält eine Zusammenfassung der DNS-Einträge, die erford
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ort/Typ/Port</th>
+<th>Standort/Typ/Port</th>
 <th>FQDN/DNS-Eintrag</th>
 <th>IP-Adresse/FQDN</th>
-<th>Karten/Kommentare</th>
+<th>Zugeordnet zu/Kommentar</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Internes DNS/A</p></td>
+<td><p>Interne DNS/A</p></td>
 <td><p>dir01.contoso.net</p></td>
 <td><p>Director</p></td>
 <td><p>Director-Hosteintrag für Replikation und Server-zu-Server</p></td>
 </tr>
 <tr class="even">
-<td><p>Internes DNS/A</p></td>
+<td><p>Interne DNS/A</p></td>
 <td><p>dirpool01.contoso.net</p></td>
 <td><p>Directorpool</p></td>
-<td><p>Host-Eintrag für den DNS Load Balancing Director-Pool für Server-zu-Server</p></td>
+<td><p>Host Eintrag für die Directorpool für den DNS-Lastenausgleich für Server-zu-Server</p></td>
 </tr>
 <tr class="odd">
-<td><p>Internes DNS/A</p></td>
+<td><p>Interne DNS/A</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>Directorpool</p></td>
-<td><p>SIP (Inbound Session Initiation Protocol) von der internen Schnittstelle des Edge-Servers</p></td>
+<td><p>SIP (Inbound Session Initiation Protocol) von der internen Schnittstelle des Edgeserver</p></td>
 </tr>
 <tr class="even">
-<td><p>Internes DNS/A</p></td>
+<td><p>Interne DNS/A</p></td>
 <td><p>dialin.contoso.com</p></td>
-<td><p>Director Pool HLB VIP</p></td>
-<td><p>Hardware Load Balanced veröffentlichte Dialin-Webdienste vom Reverse-Proxy</p></td>
+<td><p>Directorpool-HLB-VIP</p></td>
+<td><p>Hardwaregerät zum Lastenausgleich des veröffentlichten Dialin-Webdiensts vom Reverseproxy</p></td>
 </tr>
 <tr class="odd">
-<td><p>Internes DNS/A</p></td>
+<td><p>Interne DNS/A</p></td>
 <td><p>meet.contoso.com</p></td>
-<td><p>Director Pool HLB VIP</p></td>
-<td><p>Hardware Load Balanced veröffentlicht Meet Web Services from Reverse Proxy</p></td>
+<td><p>Directorpool-HLB-VIP</p></td>
+<td><p>Hardwaregerät zum Lastenausgleich des veröffentlichten Besprechungs-Webdiensts vom Reverseproxy</p></td>
 </tr>
 <tr class="even">
 <td><p>Internes DNS/A</p></td>
 <td><p>webdirexternal.contoso.com</p></td>
-<td><p>Director Pool HLB VIP</p></td>
-<td><p>Vom Reverse Proxy Web-Ticket externe Webdienste für den Director-Pool veröffentlichte und definierte Hardware Lastenausgleich</p></td>
+<td><p>Directorpool-HLB-VIP</p></td>
+<td><p>Von den externen Webticket-Webdiensten des Reverseproxy mit Hardwarelastenausgleich veröffentlichter und definierter Reverseproxy für den Directorpool</p></td>
 </tr>
 </tbody>
 </table>

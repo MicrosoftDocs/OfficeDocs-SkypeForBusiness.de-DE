@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Neue Funktionen für Geräte'
+title: 'Lync Server 2013: Neuerungen bei Geräten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86a50f6e0fa1b2a4a3860ea51c2b2d67a8dcef11
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4365862f1c093622fa447bdceb3a326c9e18d11c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758475"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983080"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="whats-new-for-devices-in-lync-server-2013"></a>Neue Funktionen für Geräte in Lync Server 2013
+# <a name="whats-new-for-devices-in-lync-server-2013"></a>Neuerungen bei Geräten in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41758475"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-22_
+_**Letztes Änderungsstand des Themas:** 2012-06-22_
 
-Lync Server 2013 umfasst lync Phone Edition, Software, die auf qualifizierten Geräten ausgeführt wird, und bietet herkömmliche und erweiterte Telefonfunktionen, integrierte Sicherheit, Verwaltbarkeit und mehr. Lync Phone Edition funktioniert auf die gleiche Weise mit lync Server 2013 wie mit lync Server 2010. Ausführliche Informationen zu den neuesten Funktionen für Geräte finden Sie unter [Neuerungen für Geräte](http://go.microsoft.com/fwlink/p/?linkid=256490) in der TechNet-Bibliothek von lync Server 2010.
+Lync Server 2013 umfasst lync-Phone Edition, Software, die auf qualifizierten Geräten ausgeführt wird und traditionelle und erweiterte Telefoniefunktionen, integrierte Sicherheit, Verwaltbarkeit und vieles mehr bietet. Lync Phone Edition funktioniert auf die gleiche Weise wie bei lync Server 2013 mit lync Server 2010. Ausführliche Informationen zu den neuesten Funktionen im Zusammenhang mit Geräten finden Sie unter [What es New for Devices](http://go.microsoft.com/fwlink/p/?linkid=256490) in the lync Server 2010 TechNet Library.
 
 <div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Unterstützte Serverkollokation für Edgekomponenten'
+title: 'Lync Server 2013: unterstützte Server Zusammenstellung für Edge-Komponenten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183978
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc12e442be98ba1fd962634460200ce749aca3d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e52d1c630bba8c93193c2e309d4d3299f45a6388
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731665"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029786"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-server-collocation-for-edge-components-in-lync-server-2013"></a>Unterstützte Serverkollokation für Edgekomponenten in Lync Server 2013
+# <a name="supported-server-collocation-for-edge-components-in-lync-server-2013"></a>Unterstützte Server Zusammenstellungen für Edge-Komponenten in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731665"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-08_
+_**Letztes Änderungsstand des Themas:** 2012-09-08_
 
-Der Zugriffs-Edgedienst, der Webkonferenz-Edgedienst, der A/V-Edgedienst und der XMPP-Proxy Dienst sind auf den Edgeserver verfügbar. Die folgenden Server stellen Funktionen bereit, die für den Zugriff durch externe Benutzer erforderlich sind, und müssen als dedizierte Server bereitgestellt werden:
+Der Zugriffs-Edgedienst-, Webkonferenz-Edgedienst-, A/V-Edgedienst-und XMPP-Proxy Dienst befinden sich auf den Edge-Servern. Die folgenden Server bieten für den Zugriff durch externe Benutzer erforderliche Funktionen und müssen als dedizierte Server bereitgestellt werden:
 
   - Edgeserver
 
@@ -49,7 +49,7 @@ Der Zugriffs-Edgedienst, der Webkonferenz-Edgedienst, der A/V-Edgedienst und der
 
 
 > [!IMPORTANT]  
-> Der Reverse-Proxy muss nicht nur für die Bereitstellung von lync Server 2013 dediziert sein. So können Sie beispielsweise Dienste bereitstellen, um die lync Server-Webdienste zu veröffentlichen, und gleichzeitig eine veröffentlichte Website für eine andere Website bereitstellen, die überhaupt keine Auswirkungen auf lync Server hat. Wenn Sie bereits über einen Reverse Proxy-Server im Umkreisnetzwerk verfügen, um andere Dienste zu unterstützen, können Sie ihn für lync Server 2013 verwenden.
+> Der Reverseproxy muss nicht nur für lync Server 2013 reserviert werden. Beispielsweise können Sie Dienste zum Veröffentlichen der lync Server-Webdienste bereitstellen und gleichzeitig eine veröffentlichte Website für eine andere Website bereitstellen, die keinen Einfluss auf lync Server hat. Wenn Sie bereits einen Reverseproxy im Umkreisnetzwerk haben, um andere Dienste zu unterstützen, können Sie ihn für lync Server 2013 verwenden.
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Problembehandlung bei Serverrollen und Dienste-Cmdlets'
+title: 'Lync Server 2013: Problembehandlung für Server Rollen und-Dienste-Cmdlets'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183268
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bb8c4504674e5459fbbb0e7529ea4e6c4ad7a8f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af0e5048b02720755c7f4ab65cddb1e9fa47b0bb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744995"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028876"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-server-roles-and-services-cmdlets-in-lync-server-2013"></a>Problembehandlung von Serverrollen und Dienste-Cmdlets in lync Server 2013
+# <a name="troubleshooting-server-roles-and-services-cmdlets-in-lync-server-2013"></a>Problembehandlung für Serverrollen und-Dienste-Cmdlets in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41744995"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-08-27_
+_**Letztes Änderungsstand des Themas:** 2012-08-27_
 
-Die Problem Behandlungs Cmdlets bieten verschiedene Möglichkeiten, um zu überprüfen, ob Microsoft lync Server 2013 wie erwartet funktioniert. So können Sie beispielsweise mit den CsHealthMonitoringConfiguration-Cmdlets Testkonten für Registrar-und Director-Pools einrichten. Anschließend können Sie diese Testkonten verwenden, um sicherzustellen, dass Benutzer häufige Aufgaben wie die Anmeldung am System, den Austausch von Sofortnachrichten oder Anrufe an ein Telefon, das sich im öffentlichen Telefonnetz (PSTN) befindet, erfolgreich durchführen können.
+Die Problem Behandlungs Cmdlets bieten unterschiedliche Möglichkeiten, um sicherzustellen, dass Microsoft lync Server 2013 erwartungsgemäß funktioniert. Beispielsweise können Sie mit dem Cmdlet "CsHealthMonitoringConfiguration" Testkonten für Registrierung und Director-Pools einrichten. Anhand dieser Testkonten können Sie dann überprüfen, ob Benutzer allgemeine Aufgaben wie z. B. das Anmelden beim System, das Austauschen von Sofortnachrichten oder das Tätigen von Anrufen im Telefonfestnetz (Public Switched Telephone Network, PSTN) erfolgreich durchführen können.
 
 <div>
 
 
 > [!NOTE]
-> Weitere Informationen zu Cmdlets finden Sie im Windows PowerShell-&nbsp;Blog zu <A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A>lync Server unter. Die Inhalte der Blogs und die zugehörige URL können ohne vorherige Ankündigung geändert werden.
+> Weitere Informationen zu Cmdlets finden Sie im lync Server&nbsp;Windows PowerShell Blog unter. <A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A> Der Inhalt jedes Blogs und die dazugehörige URL kann ohne vorherige Ankündigung geändert werden.
 
 
 
@@ -51,64 +51,64 @@ Die Problem Behandlungs Cmdlets bieten verschiedene Möglichkeiten, um zu überp
 
 <div>
 
-## <a name="server-roles-and-services-cmdlets"></a>Server Rollen und Dienste-Cmdlets
+## <a name="server-roles-and-services-cmdlets"></a>Cmdlets für Serverrollen und -dienste
 
-Die folgende Liste enthält Cmdlets, die sich direkt auf die Problembehandlung von Serverrollen und-Diensten beziehen:
+In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Problembehandlung für Serverrollen und Dienste eingesetzt werden:
 
-**Problembehandlung bei Server Rollen und-Diensten**
-
-  - <span></span>  
-    [Get-CsAudioTestServiceApplication](https://technet.microsoft.com/en-us/library/Gg412984(v=OCS.15))
+**Problembehandlung für Serverrollen und -dienste**
 
   - <span></span>  
-    [Set-CsAudioTestServiceApplication](https://technet.microsoft.com/en-us/library/Gg398907(v=OCS.15))
+    [Get-CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg412984(v=OCS.15))
+
+  - <span></span>  
+    [Gruppe-CsAudioTestServiceApplication](https://technet.microsoft.com/library/Gg398907(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg398667(v=OCS.15))
+    [Get-CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg398667(v=OCS.15))
 
   - <span></span>  
-    [Neu – CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg398718(v=OCS.15))
+    [New-CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg398718(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg425794(v=OCS.15))
+    [Remove-CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg425794(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsHealthMonitoringConfiguration](https://technet.microsoft.com/en-us/library/Gg425847(v=OCS.15))
+    [Gruppe-CsHealthMonitoringConfiguration](https://technet.microsoft.com/library/Gg425847(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg413034(v=OCS.15))
+    [Get-CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg413034(v=OCS.15))
 
   - <span></span>  
-    [New-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg398733(v=OCS.15))
+    [New-CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg398733(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg412853(v=OCS.15))
+    [Remove-CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg412853(v=OCS.15))
 
   - <span></span>  
-    [Set-CsDiagnosticConfiguration](https://technet.microsoft.com/en-us/library/Gg425734(v=OCS.15))
+    [Gruppe-CsDiagnosticConfiguration](https://technet.microsoft.com/library/Gg425734(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsDiagnosticsFilter](https://technet.microsoft.com/en-us/library/Gg413009(v=OCS.15))
+    [New-CsDiagnosticsFilter](https://technet.microsoft.com/library/Gg413009(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg412774(v=OCS.15))
+    [Get-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg412774(v=OCS.15))
 
   - <span></span>  
-    [Neu – CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg398350(v=OCS.15))
+    [New-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg398350(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg398941(v=OCS.15))
+    [Remove-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg398941(v=OCS.15))
 
   - <span></span>  
-    [Set-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/en-us/library/Gg399045(v=OCS.15))
+    [Gruppe-CsDiagnosticHeaderConfiguration](https://technet.microsoft.com/library/Gg399045(v=OCS.15))
 
 </div>
 

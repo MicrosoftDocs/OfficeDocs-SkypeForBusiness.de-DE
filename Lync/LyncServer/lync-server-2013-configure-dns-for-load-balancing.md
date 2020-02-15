@@ -12,20 +12,20 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5b68bf226c71d65835791577ab9a45f18b2a10e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 797a788649edab99852cfec9f83423075b14f742
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758353"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028596"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a>Konfigurieren von DNS für den Lastenausgleich in Lync Server 2013
+# <a name="configure-dns-for-load-balancing-in-lync-server-2013"></a>Konfigurieren von DNS für den Lastenausgleich in lync Server 2013
 
 </div>
 
@@ -35,63 +35,63 @@ ms.locfileid: "41758353"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
-Um dieses Verfahren erfolgreich durchführen zu können, sollten Sie am Server oder in der Domäne minimal als Mitglied der Gruppe der Domänenadministratoren oder als Mitglied der DnsAdmins-Gruppe angemeldet sein.
+Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie mindestens als Mitglied der Gruppe "Domänen-Admins" oder als Mitglied der Gruppe "DNS-Admins" beim Server oder bei der Domäne angemeldet sein.
 
-Der DNS-Lastenausgleich (Domain Name System) balanciert den Netzwerkdatenverkehr aus, der für lync Server 2013 eindeutig ist, wie etwa SIP-Datenverkehr und Mediendatenverkehr. Der DNS-Lastenausgleich wird für Front-End-Pools, Edge-Pools, Director-Pools und eigenständige Vermittlungs Pools unterstützt. Für einen Pool, der für die Verwendung des DNS-Lastenausgleichs konfiguriert ist, müssen zwei vollqualifizierte Domänennamen (FQDNs) definiert sein: der reguläre Pool-FQDN, der vom DNS-Lastenausgleich verwendet wird (beispielsweise pool1.contoso.com) und der auf die physischen IPS der Server im Pool aufgelöst wird. und einen weiteren FQDN für die Webdienste des Pools (beispielsweise web1.contoso.net), der in die virtuelle IP-Adresse des Pools aufgelöst wird. Details zum DNS-Lastenausgleich finden Sie unter [DNS-Lastenausgleich in lync Server 2013](lync-server-2013-dns-load-balancing.md) in der Planungsdokumentation.
+Bei Domain Name System (DNS) Lastenausgleich wird der für lync Server 2013 eindeutige Netzwerkdatenverkehr wie SIP-Datenverkehr und Mediendatenverkehr ausgeglichen. Der DNS-Lastenausgleich wird für Front-End-Pools, Edgeserverpools, Director-Pools und eigenständige Vermittlungsserverpools unterstützt. Für einen Pool, der für die Verwendung des DNS-Lastenausgleichs konfiguriert ist, müssen zwei vollqualifizierte Domänennamen (FQDNs) definiert sein: der reguläre Pool-FQDN, der vom DNS-Lastenausgleich verwendet wird (beispielsweise pool1.contoso.com) und der in die physischen IPS der Server im Pool aufgelöst wird. und einen weiteren FQDN für die Webdienste des Pools (beispielsweise web1.contoso.net), der in die virtuelle IP-Adresse des Pools aufgelöst wird. Ausführliche Informationen zum DNS-Lastenausgleich finden Sie unter [DNS-Lastenausgleich in lync Server 2013](lync-server-2013-dns-load-balancing.md) in der Planungsdokumentation.
 
 <div>
 
 
 > [!NOTE]  
-> Für den HTTPS-Datenverkehr zwischen Client und Server ist weiterhin Hardware Lastenausgleich erforderlich.
+> Hardwarelastenausgleich ist weiterhin für den HTTPS-Datenverkehr zwischen Client und Server erforderlich.
 
 
 
 </div>
 
-Bevor Sie den DNS-Lastenausgleich verwenden können, müssen Sie die folgenden Schritte ausführen:
+Bevor Sie den DNS-Lastenausgleich verwenden können, müssen Sie folgende Schritte ausführen:
 
-1.  Überschreiben Sie den internen FQDN des Webdienste-Pools.
+1.  Überschreiben Sie den internen FQDN des Webdienste Pools.
     
     <div>
     
 
     > [!WARNING]  
-    > Wenn Sie beschließen, die internen Webdienste mit einem selbst definierten FQDN zu überschreiben, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
+    > Wenn Sie die internen Webdienste mit einem selbst definierten FQDN außer Kraft setzen möchten, muss jeder FQDN von jedem anderen Front-End-Pool, Director oder einem Directorpool eindeutig sein.
 
     
     </div>
 
-2.  Erstellen Sie DNS-A-Hosteinträge, um den FQDN des Pools in die IP-Adressen aller Server im Pool aufzulösen.
+2.  Erstellen Sie DNS-A-Einträge zum Auflösen der Pool-FQDN in die IP-Adressen aller Server im Pool.
 
-3.  Aktivieren Sie die zufällige IP-Adresse, oder aktivieren Sie für Windows Server-DNS Round Robin.
+3.  Aktivieren Sie zufällige IP-Adressen oder (für Windows Server DNS) Roundrobin.
     
     <div>
     
 
     > [!NOTE]  
-    > Round Robin sollte standardmäßig aktiviert sein.
+    > Roundrobin sollte standardmäßig aktiviert werden.
 
     
     </div>
 
 <div>
 
-## <a name="to-override-internal-web-services-fqdn"></a>So heben Sie den internen FQDN von Webdiensten auf
+## <a name="to-override-internal-web-services-fqdn"></a>So setzen Sie den FQDN der internen Webdienste außer Kraft
 
-1.  Starten Sie den Topologie-Generator: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topology Builder**.
+1.  Starten Sie den Topologie-Generator: Klicken Sie im **Startmenü**auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topologie-Generator**.
 
-2.  Erweitern Sie in der Konsolenstruktur den Knoten Enterprise Edition-Front-End-Pools.
+2.  Erweitern Sie in der Konsolenstruktur den Knoten für die Enterprise Edition-Front-End-Pools.
 
-3.  Klicken Sie mit der rechten Maustaste auf den Pool, klicken Sie auf **Eigenschaften bearbeiten**, und klicken Sie dann auf **Webdienste**.
+3.  Klicken Sie mit der rechten Maustaste auf den Pool, klicken Sie auf **Eigenschaften bearbeiten** und dann auf **Webdienste**.
 
-4.  Aktivieren Sie unter **interne Webdienste**das Kontrollkästchen **FQDN überschreiben** .
+4.  Aktivieren Sie unterhalb von **Interne Webdienste** das Kontrollkästchen **Vollqualifizierten Domänennamen außer Kraft setzen**.
 
-5.  Geben Sie den FQDN des Pools ein, der in die physischen IP-Adressen der Server im Pool aufgelöst wird.
+5.  Geben Sie den Pool-FQDN ein, der in die physischen IP-Adressen der Server im Pool aufgelöst wird.
 
-6.  Geben Sie unter **externe Webdienste**den FQDN des externen Pools ein, der in die virtuellen IP-Adressen des Pools aufgelöst wird, und klicken Sie dann auf **OK**.
+6.  Geben Sie unterhalb von **Externe Webdienste** den externen Pool-FQDN ein, der in die virtuellen IP-Adressen des Pools aufgelöst wird, und klicken Sie auf **OK**.
 
 7.  Klicken Sie in der Konsolenstruktur auf **lync Server 2013**, und klicken Sie dann im Bereich **Aktionen** auf **Topologie veröffentlichen**.
 
@@ -99,23 +99,23 @@ Bevor Sie den DNS-Lastenausgleich verwenden können, müssen Sie die folgenden S
 
 <div>
 
-## <a name="to-create-dns-host-a-records-for-all-internal-pool-servers"></a>So erstellen Sie DNS-Host Einträge (A) für alle internen Pool Server
+## <a name="to-create-dns-host-a-records-for-all-internal-pool-servers"></a>So erstellen Sie DNS-Hosteinträge (A) für alle internen Poolserver
 
-1.  Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Verwaltung**, und klicken Sie dann auf **DNS**.
+1.  Klicken Sie nacheinander auf **Start**, **Alle Programme**, **Verwaltung** und **DNS**.
 
-2.  Klicken Sie im **DNS-Manager**auf den DNS-Server, der Ihre Datensätze verwaltet, um Sie zu erweitern.
+2.  Klicken Sie im **DNS Manager** auf den DNS-Server für die Eintragsverwaltung, um diesen zu erweitern.
 
-3.  Klicken Sie auf **Forward-Lookupzonen** , um Sie zu erweitern.
+3.  Klicken Sie auf **Forward-Lookupzonen**, um den Knoten zu erweitern.
 
-4.  Klicken Sie mit der rechten Maustaste auf die DNS-Domäne, der Sie Datensätze hinzufügen müssen, und klicken Sie dann auf **neuer Host (A oder AAAA)**.
+4.  Klicken Sie mit der rechten Maustaste auf die DNS-Domäne, der Sie Einträge hinzufügen möchten, und klicken Sie dann auf **Neuer Host (A oder AAAA)**.
 
 5.  Geben Sie im Feld **Name** den Namen des Hosteintrags ein (der Domänenname wird automatisch angehängt).
 
-6.  Geben Sie im Feld IP-Adresse die IP-Adresse des einzelnen Front-End-Servers ein, und wählen Sie dann **zugehörigen Zeigereintrag erstellen** aus, oder **ermöglichen Sie es jedem authentifizierten Benutzer, DNS-Einträge mit demselben Besitzernamen zu aktualisieren**, sofern zutreffend.
+6.  Geben Sie im Feld für die IP-Adresse die IP-Adresse des Front-End-Servers ein, und wählen Sie anschließend **Verknüpften PTR-Eintrag erstellen** oder **Authentifizierte Benutzer können DNS-Einträge mit demselben Besitzernamen aktualisieren**, falls anwendbar.
 
-7.  Erstellen Sie weiterhin Datensätze für alle Member-Front-End-Server, die am DNS-Lastenausgleich beteiligt sind.
+7.  Fahren Sie mit der Erstellung von Einträgen für alle Front-End-Mitgliedsserver fort, die in den DNS-Lastenausgleich einbezogen werden sollen.
     
-    Wenn Sie beispielsweise über einen Pool mit dem Namen pool1.contoso.com und drei Front-End-Server verfügen, erstellen Sie die folgenden DNS-Einträge:
+    Wenn Sie beispielsweise über einen Pool namens "pool1.contoso.com" und drei Front-End-Server verfügen, erstellen Sie die folgenden DNS-Einträge:
     
     
     <table>
@@ -150,27 +150,27 @@ Bevor Sie den DNS-Lastenausgleich verwenden können, müssen Sie die folgenden S
     </tbody>
     </table>
     
-    Details zum Erstellen von DNS-Hosteinträgen (A) finden Sie unter [Konfigurieren von DNS-Hosteinträgen für lync Server 2013](lync-server-2013-configure-dns-host-records.md).
+    Ausführliche Informationen zum Erstellen von DNS-Hosteinträgen (A) finden Sie unter [Konfigurieren von DNS-Hosteinträgen für lync Server 2013](lync-server-2013-configure-dns-host-records.md).
 
 </div>
 
 <div>
 
-## <a name="to-enable-round-robin-for-windows-server"></a>So aktivieren Sie Round Robin für Windows Server
+## <a name="to-enable-round-robin-for-windows-server"></a>So aktivieren Sie Roundrobin für Windows Server
 
-1.  Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Verwaltung**, und klicken Sie dann auf **DNS**.
+1.  Klicken Sie nacheinander auf **Start**, **Alle Programme**, **Verwaltung** und **DNS**.
 
-2.  Erweitern Sie **DNS**, klicken Sie mit der rechten Maustaste auf den DNS-Server, den Sie konfigurieren möchten, und klicken Sie dann auf **Eigenschaften**.
+2.  Erweitern Sie **DNS**, klicken Sie mit der rechten Maustaste auf den DNS-Server, den Sie konfigurieren möchten, und klicken Sie anschließend auf **Eigenschaften**.
 
-3.  Klicken Sie auf die Registerkarte **erweitert** , wählen Sie **Round Robin aktivieren** und **Netzmaske aktivieren**aus, und klicken Sie dann auf **OK**.
+3.  Klicken Sie auf die Registerkarte **Erweitert**, wählen Sie **Roundrobin aktivieren** und **Netzwerkmaskenanforderung aktivieren**, und klicken Sie dann auf **OK**.
     
-    ![DNS Round Robin (Dialogfeld)](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "DNS Round Robin (Dialogfeld)")
+    ![DNS-Roundrobin-Dialogfeld](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "DNS-Roundrobin-Dialogfeld")
 
 <div>
 
 
 > [!NOTE]  
-> Dieses Feature sollte standardmäßig aktiviert sein.
+> Diese Funktion sollte standardmäßig aktiviert werden.
 
 
 

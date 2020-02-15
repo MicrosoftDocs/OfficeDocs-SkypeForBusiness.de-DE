@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Ausführen eines Failovers für den Edgepool, der für den Lync Server-Partnerverbund verwendet wird'
+title: 'Lync Server 2013: Fehler bei der Edgepool, die für lync Server Partnerverbund verwendet wird'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f144def3d3a8df9cc63221342a85666eb3c28913
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f884f9e2ee822e99ebb17bd4b17717d1e147bf95
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765193"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030428"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failing-over-the-edge-pool-used-for-lync-server-federation-in-lync-server-2013"></a>Ausführen eines Failovers für den Edgepool in Lync Server 2013, der für den Lync Server-Partnerverbund verwendet wird
+# <a name="failing-over-the-edge-pool-used-for-lync-server-federation-in-lync-server-2013"></a>Failover der Edgepool, die für lync Server Partnerverbund in lync Server 2013 verwendet wurden
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41765193"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-17_
+_**Letztes Änderungsstand des Themas:** 2012-09-17_
 
-Wenn der Edge-Pool, in dem Sie den lync Server-Verbund konfiguriert haben, ausfällt, müssen Sie die Föderation so ändern, dass ein anderer Edge-Pool für den Verbund verwendet wird.
+Wenn der Edge-Pool ausfällt, in dem der Lync Server-Partnerverbund konfiguriert wurde, müssen Sie den Verbund ändern und einen anderen Edgepool für den Partnerverbund angeben.
 
 <div>
 
-## <a name="failing-over-the-edge-pool-used-for-lync-server-federation"></a>Failover des für den lync Server-Verbund verwendeten Edge-Pools
+## <a name="failing-over-the-edge-pool-used-for-lync-server-federation"></a>Failover des Edgepools für den Lync Server-Verbund
 
-1.  Öffnen Sie auf einem Front-End-Server den Topologie-Generator. Erweitern Sie **Edge-Pools**, und klicken Sie dann mit der rechten Maustaste auf den Edgeserver oder den Edgeserver-Pool, der derzeit für den Verbund konfiguriert ist. Wählen Sie **Eigenschaften bearbeiten**aus.
+1.  Öffnen Sie den Topologie-Generator auf einem Front-End-Server. Erweitern Sie **Edge-Pools**, und klicken Sie mit der rechten Maustaste auf den Edgeserver oder auf den Edgeserverpool, der zurzeit für den Verbund konfiguriert ist. Wählen Sie **Eigenschaften bearbeiten** aus.
 
-2.  Deaktivieren Sie in **Eigenschaften bearbeiten** unter **Allgemein** **die Option Föderation für diesen Edge-Pool aktivieren (Port 5061)**. Klicken Sie auf **OK**.
+2.  Klicken Sie unter **Eigenschaften bearbeiten** und **Allgemein** auf **Partnerverbund für diesen Edgepool aktivieren (Port 5061)**. Klicken Sie auf **OK**.
 
-3.  Erweitern Sie **Edge-Pools**, und klicken Sie dann mit der rechten Maustaste auf den Edge-Server oder den Edgeserver-Pool, den Sie jetzt für den Verbund verwenden möchten. Wählen Sie **Eigenschaften bearbeiten**aus.
+3.  Erweitern Sie **Edge-Pools**, und klicken Sie mit der rechten Maustaste auf den Edgeserver oder Edgeserverpool, der jetzt für den Partnerverbund verwendet werden soll. Wählen Sie **Eigenschaften bearbeiten** aus.
 
-4.  Wählen Sie in **Eigenschaften bearbeiten** unter **Allgemein** **die Option Föderation für diesen Edge-Pool aktivieren (Port 5061)** aus. Klicken Sie auf **OK**.
+4.  Klicken Sie unter **Eigenschaften bearbeiten** und **Allgemein** auf **Partnerverbund für diesen Edge-Pool aktivieren (Port 5061)**. Klicken Sie auf **OK**.
 
-5.  Klicken Sie auf **Aktion**, wählen Sie **Topologie**aus, und wählen Sie **veröffentlichen**aus. Wenn Sie dazu aufgefordert werden, **die Topologie zu veröffentlichen**, klicken Sie auf **weiter**. Wenn der Veröffentlichungsvorgang abgeschlossen ist, klicken Sie auf **Fertig stellen**.
+5.  Klicken Sie auf **Aktion**, wählen Sie **Topologie** und dann **Veröffentlichen** aus. Klicken Sie auf der Seite **Topologie veröffentlichen** nach Aufforderung auf **Weiter**. Klicken Sie nach Abschluss der Veröffentlichung auf **Fertig stellen**.
 
-6.  Öffnen Sie auf dem Edgeserver den lync Server-Bereitstellungs-Assistenten. Klicken Sie auf **lync Server System installieren oder aktualisieren**und dann auf **lync Server-Komponenten einrichten oder entfernen**. Klicken Sie **erneut auf Ausführen**.
+6.  Öffnen Sie den Assistenten für die Lync Server-Bereitstellung auf dem Edgeserver. Klicken Sie auf **Lync Server-System installieren oder aktualisieren** und dann auf **Lync Server-Komponenten einrichten oder entfernen**. Klicken Sie auf **Erneut ausführen**.
 
-7.  Klicken Sie bei der Installation von lync Server-Komponenten auf **weiter**. Auf dem Zusammenfassungsbildschirm werden die Aktionen während der Ausführung angezeigt. Nachdem die Bereitstellung abgeschlossen ist, klicken Sie auf **Protokoll anzeigen** , um die verfügbaren Protokolldateien anzuzeigen. Klicken Sie auf **Fertig stellen** , um die Bereitstellung abzuschließen.
+7.  Klicken Sie unter "Lync Server-Komponenten einrichten" auf **Weiter**. Auf dem Zusammenfassungsbildschirm werden die Aktionen angezeigt, die gerade ausgeführt werden. Klicken Sie nach Abschluss der Bereitstellung auf **Protokoll anzeigen**, um die verfügbaren Protokolldateien anzuzeigen. Klicken Sie auf **Fertig stellen**, um die Bereitstellung abzuschließen.
     
-    Wenn die Website mit dem fehlerhaften Edge-Pool Front-End-Server enthält, die noch ausgeführt werden, müssen Sie den Webkonferenzdienst und den A/V-Konferenzdienst in diesen Front-End-Pools aktualisieren, um einen Edge-Pool in einer noch ausgeführten Remotewebsite zu verwenden. Weitere Informationen finden Sie unter [Ändern des Edge-Pools, der einem Front-End-Pool in lync Server 2013 zugeordnet](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)ist.
+    Wenn der Standort mit dem ausgefallenen Edgepool Front-End-Server enthält, die noch ausgeführt werden, müssen Sie den Webkonferenzdienst und den A/V-Konferenzdienst in diesen Front-End-Pools aktualisieren und für einen Edgepool an einem Remotestandort konfigurieren, der weiterhin ausgeführt wird. Weitere Informationen finden Sie unter [Ändern der Edgepool, die einem Front-End-Pool in lync Server 2013 zugeordnet sind](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md).
 
 </div>
 
@@ -66,11 +66,11 @@ Wenn der Edge-Pool, in dem Sie den lync Server-Verbund konfiguriert haben, ausf�
 ## <a name="see-also"></a>Siehe auch
 
 
-[Ausführen eines Failovers für den Edgepool in Lync Server 2013, der für den XMPP-Partnerverbund verwendet wird](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)  
-[Ausführen eines Failbacks für den Edgepool in Lync Server 2013, der für den Lync Server-Partnerverbund verwendet wird](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)  
+[Failover der Edgepool, die für den XMPP-Verbund in lync Server 2013 verwendet wurden](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)  
+[Zurückgeben der Edgepool, die für lync Server Partnerverbund oder XMPP-Verbund in lync Server 2013 verwendet wurden](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)  
 
 
-[Notfallwiederherstellung für Edgeserver in Lync Server 2013](lync-server-2013-edge-server-disaster-recovery.md)  
+[Edgeserver Notfallwiederherstellung in lync Server 2013](lync-server-2013-edge-server-disaster-recovery.md)  
   
 
 </div>

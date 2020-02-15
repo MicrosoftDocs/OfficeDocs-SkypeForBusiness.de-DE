@@ -12,20 +12,20 @@ ms:contentKeyID: 48185300
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a23ced0c93aae8f55868f44f179c659aead26f1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 90fa941f575a49b3cb5de23f6aa38944d885eb85
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738195"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008811"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a>Hinzufügen eines Administrators für beständigen Chat in Lync Server 2013
+# <a name="adding-a-persistent-chat-administrator-in-lync-server-2013"></a>Hinzufügen eines Administrators für beständigen Chat in lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41738195"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-06_
+_**Letztes Änderungsstand des Themas:** 2012-10-06_
 
-In lync Server 2013 müssen Benutzer, die bestimmte Aufgaben ausführen, Mitgliedern einer oder mehrerer bestimmter Gruppen zugewiesen werden. Rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC) kann auch verwendet werden, um Berechtigungen zu gewähren, indem Benutzer vordefinierten lync Server 2013-Administratorrollen zugewiesen werden.
+In lync Server 2013 müssen Benutzer, die bestimmte Aufgaben ausführen, als Mitglieder einer oder mehrerer bestimmter Gruppen zugewiesen werden. Die rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC) kann auch verwendet werden, um Berechtigungen zu gewähren, indem Benutzer vordefinierten lync Server 2013 Administratorrollen zugewiesen werden.
 
-Bevor Sie den Server für beständigen Chat Konfigurieren und verwalten, stellen Sie sicher, dass die entsprechenden Benutzerrechte und-Berechtigungen vorhanden sind und dass alle Benutzer, die als persistent-Chat-Administratoren klassifiziert werden, der CsPersistentChatAdministrator-Sicherheit hinzugefügt werden. Gruppe.
+Bevor Sie den Server für beständigen Chat Konfigurieren und verwalten, müssen Sie sicherstellen, dass die entsprechenden Benutzerrechte und-Berechtigungen vorhanden sind und dass alle Benutzer, die als Administratoren für beständigen Chat klassifiziert werden sollen, dem "cspersistentchatadministrator"-Sicherheitsdienst hinzugefügt werden. Gruppe.
 
 </div>
 

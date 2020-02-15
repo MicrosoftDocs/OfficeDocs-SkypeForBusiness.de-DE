@@ -12,20 +12,20 @@ ms:contentKeyID: 48183829
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfaec78b0c7d64308b5899a6e7dc5fa95c1f53fb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 43921fcdeb5ca6e5c74e2c7a82b36bf830cbaa15
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757869"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028786"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-trusted-application-entry-for-remote-call-control-in-lync-server-2013"></a>Konfigurieren eines Eintrags einer vertrauenswürdigen Anwendung für die Remoteanrufsteuerung in Lync Server 2013
+# <a name="configure-a-trusted-application-entry-for-remote-call-control-in-lync-server-2013"></a>Konfigurieren eines Eintrags einer vertrauenswürdigen Anwendung für die Remoteanrufsteuerung in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757869"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-11-02_
+_**Letztes Änderungsstand des Themas:** 2015-11-02_
 
-Das SIP/CSTA-Gateway muss als vertrauenswürdige Anwendung konfiguriert sein, damit lync Server eine statische Route zum Weiterleiten von Anrufen an das Gateway anwenden kann.
+Das SIP/CSTA-Gateway muss als vertrauenswürdige Anwendung konfiguriert sein, damit lync Server eine statische Route für die Weiterleitung von Anrufen an das Gateway anwenden können.
 
 <div>
 
 
 > [!IMPORTANT]
-> Wenn Sie Benutzer aus einer früheren Version der lync Server-Bereitstellung migrieren, müssen Sie sicherstellen, dass Sie alle vorhandenen Einträge für vertrauenswürdige Anwendungen (zuvor als autorisierte Hosteinträge bezeichnet) entfernt haben, die Sie für das SIP/CSTA-Gateway erstellt haben, bevor Sie die Verfahren in diesem Thema ausführen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Entfernen eines autorisierten Legacyhosts in lync Server 2013 (optional)</A>.<BR>Wenn Sie beabsichtigen, eine neue Remoteanrufsteuerung mithilfe einer TCP-Verbindung (Transmission Control Protocol) bereitzustellen, müssen Sie sicherstellen, dass die <STRONG>Beschränkung der Dienstnutzung auf ausgewählte IP-Adressen</STRONG> auf vorhandenen vertrauenswürdigen Anwendungen und Pools festgelegt ist, wenn Sie denselben TCP-Port für die neue vertrauenswürdige Anwendung verwenden möchten.
+> Wenn Sie Benutzer aus einer früheren Version von lync Server-Bereitstellung migrieren, müssen Sie unbedingt alle vorhandenen Einträge für vertrauenswürdige Anwendungen (zuvor als autorisierte Hosteinträge bezeichnet) entfernt haben, die Sie für das SIP/CSTA-Gateway erstellt haben, bevor Sie die Verfahren in diesem Thema befolgen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">Entfernen eines autorisierten Legacyhosts in lync Server 2013 (optional)</A>.<BR>Wenn Sie die Bereitstellung einer neuen Remoteanrufsteuerung mithilfe einer TCP-Verbindung (Transmission Control Protocol) planen, müssen Sie überprüfen, ob die <STRONG>Einschränkung der Dienstnutzung auf ausgewählte IP-Adressen</STRONG> für vorhandene Vertrauenswürdige Anwendungen und Pools festgelegt werden soll, wenn Sie denselben TCP-Port für die neue vertrauenswürdige Anwendung verwenden möchten.
 
 
 
@@ -51,15 +51,15 @@ Das SIP/CSTA-Gateway muss als vertrauenswürdige Anwendung konfiguriert sein, da
 
 <div>
 
-## <a name="to-configure-a-trusted-application-entry-for-the-sipcsta-gateway"></a>So konfigurieren Sie einen Eintrag für vertrauenswürdige Anwendungen für das SIP/CSTA-Gateway
+## <a name="to-configure-a-trusted-application-entry-for-the-sipcsta-gateway"></a>So konfigurieren Sie Einträge für vertrauenswürdige Anwendungen für das SIP/CSTA-Gateway
 
-1.  Melden Sie sich bei dem Computer an, auf dem die lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder einer rollenbasierten zugriffssteuerungsrolle (Role-Based Access Control, RBAC) installiert ist, der Sie das Cmdlet **New-CsTrustedApplicationPool** zugewiesen haben.
+1.  Melden Sie sich an dem Computer an, auf dem lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder als rollenbasierte zugriffssteuerungsrolle installiert ist, der Sie das Cmdlet **New-CsTrustedApplicationPool** zugewiesen haben.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Führen Sie zum Erstellen eines vertrauenswürdigen Anwendungseintrags eine der folgenden Aktionen aus:
+3.  Gehen Sie zum Erstellen eines Eintrags für eine vertrauenswürdige Anwendung folgendermaßen vor:
     
-      - Bei einer TLS-Verbindung (Transport Layer Security) geben Sie Folgendes an der Eingabeaufforderung ein:
+      - Geben Sie für eine TLS-Verbindung (Transport Layer Security) den folgenden Befehl an der Eingabeaufforderung ein:
         
             New-CsTrustedApplicationPool -Identity <FQDN of the SIP/CSTA gateway> [-Registrar <Service ID or FQDN of the Registrar service>] -Site <Site ID for the site where you want to create the trusted application pool>
         
@@ -67,7 +67,7 @@ Das SIP/CSTA-Gateway muss als vertrauenswürdige Anwendung konfiguriert sein, da
         
             New-CsTrustedApplicationPool -Identity rccgateway.contoso.net -Registrar registrar1.contoso.net -Site co1 -TreatAsAuthenticated $true -ThrottleAsServer $true
     
-      - Bei einer TCP-Verbindung (Transmission Control Protocol) geben Sie Folgendes an der Eingabeaufforderung ein:
+      - Geben Sie für eine TCP-Verbindung (Transmission Control Protocol) den folgenden Befehl an der Eingabeaufforderung ein:
         
             New-CsTrustedApplicationPool -Identity <IP address or FQDN of the SIP/CSTA gateway> [-Registrar <Service ID or FQDN of the Registrar service>] -Site <Site ID for the site where you want to create the trusted application pool>
         
@@ -75,9 +75,9 @@ Das SIP/CSTA-Gateway muss als vertrauenswürdige Anwendung konfiguriert sein, da
         
             New-CsTrustedApplicationPool -Identity 192.168.0.240 -Registrar registrar1.contoso.net -Site co1 -TreatAsAuthenticated $true -ThrottleAsServer $true
 
-4.  Führen Sie eine der folgenden Aktionen aus, um dem Pool die vertrauenswürdige Anwendung hinzuzufügen:
+4.  Gehen Sie folgendermaßen vor, um die vertrauenswürdige Anwendung zu einem Pool hinzuzufügen:
     
-      - Geben Sie bei einer TLS-Verbindung Folgendes an der Eingabeaufforderung ein:
+      - Geben Sie für eine TLS-Verbindung den folgenden Befehl an der Eingabeaufforderung ein:
         
             New-CsTrustedApplication -ApplicationID <application name> -TrustedApplicationPoolFqdn <FQDN of the SIP/CSTA gateway> -Port <SIP listening port on the gateway>
         
@@ -85,7 +85,7 @@ Das SIP/CSTA-Gateway muss als vertrauenswürdige Anwendung konfiguriert sein, da
         
             New-CsTrustedApplication -ApplicationID RccGateway-1 -TrustedApplicationPoolFqdn rccgateway.contoso.net -Port 5065
     
-      - Geben Sie bei einer TCP-Verbindung Folgendes an der Eingabeaufforderung ein:
+      - Geben Sie für eine TCP-Verbindung den folgenden Befehl an der Eingabeaufforderung ein:
         
             New-CsTrustedApplication -ApplicationID <application name> -TrustedApplicationPoolFqdn <IP address or FQDN of the SIP/CSTA gateway> -Port <SIP listening port on the gateway> -EnableTcp
         
@@ -93,7 +93,7 @@ Das SIP/CSTA-Gateway muss als vertrauenswürdige Anwendung konfiguriert sein, da
         
             New-CsTrustedApplication -ApplicationID RccGateway-1 -TrustedApplicationPoolFqdn 192.169.0.240 -Port 5065 -EnableTcp
 
-5.  Geben Sie an der Eingabeaufforderung Folgendes ein, um die veröffentlichten Änderungen zu implementieren, die Sie an der Topologie vorgenommen haben:
+5.  Zur Implementierung der veröffentlichten Topologieänderungen geben Sie den folgenden Befehl an der Eingabeaufforderung ein:
     
         Enable-CsTopology
 
@@ -104,8 +104,8 @@ Das SIP/CSTA-Gateway muss als vertrauenswürdige Anwendung konfiguriert sein, da
 ## <a name="see-also"></a>Siehe auch
 
 
-[Konfigurieren einer statischen Route für die Remoteanrufsteuerung in Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
-[Definieren der IP-Adresse für ein SIP/CSTA-Gateway in Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)  
+[Konfigurieren einer statischen Route für die Remoteanrufsteuerung in lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md)  
+[Definieren einer SIP/CSTA-Gateway-IP-Adresse in lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184090
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8389f72394be26057eb12560c054bd5292b528f1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 40a9e7a2c947d18e8359e2199ec8c3e40e00ed98
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757859"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028776"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-add-ins-for-rooms-in-lync-server-2013"></a>Konfigurieren von Add-Ins für Chatrooms in Lync Server 2013
+# <a name="configure-add-ins-for-rooms-in-lync-server-2013"></a>Konfigurieren von Add-Ins für Chatrooms in lync Server 2013
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "41757859"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+_**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-In der lync Server 2013-Systemsteuerung können Sie mithilfe des **Add-in-** Abschnitts der Seite " **beständiger Chat** " URLs mit beständigen Chatrooms verknüpfen. Diese URLs werden im lync 2013-Client im Chatroom im Bereich Konversations Erweiterbarkeit angezeigt. Ein Administrator muss der Liste der registrierten Add-Ins Add-Ins hinzufügen, und Chatroom-Manager/-Entwickler müssen Räume mit einem der registrierten Add-ins verknüpfen, bevor Benutzer dieses Upgrade in Ihrem lync 2013-Client sehen können.
+In lync Server 2013 Systemsteuerung können Sie den Abschnitt **Add-in** der Seite **beständiger Chat** verwenden, um URLs mit beständigen Chatrooms zu verknüpfen. Diese URLs werden im lync 2013-Client im Chatroom im Bereich für die Erweiterbarkeit von Unterhaltungen angezeigt. Ein Administrator muss der Liste der registrierten Add-Ins Add-Ins hinzufügen, und Chatroommanager/-Ersteller müssen einem der registrierten Add-ins Räume zuordnen, bevor Benutzer dieses Upgrade in Ihrem lync 2013-Client sehen können.
 
-Add-Ins werden verwendet, um die in-Room-Erfahrung zu erweitern. Ein typisches Add-in kann eine URL enthalten, die auf eine Silverlight-Anwendung zeigt, die abfängt, wenn ein Börsenticker in einem Chatroom bereitgestellt wird, und den Aktienverlauf im Bereich "Erweiterbarkeit" anzeigt. Weitere Beispiele sind das Einbetten einer OneNote 2013-URL in den Chatroom als Add-in, um einen freigegebenen Kontext einzubeziehen, beispielsweise "Top of mindi" oder "Tagesthema".
+Add-Ins werden verwendet, um die in-Room-Erfahrung zu erweitern. Ein typisches Add-in kann eine URL enthalten, die auf eine Silverlight-Anwendung verweist, die abfängt, wenn ein Börsenticker in einen Chatroom gebucht wird, und den Verlaufs Verlauf im Erweiterungsbereich anzeigt. Weitere Beispiele sind das Einbetten einer OneNote 2013-URL in den Chatroom als Add-in, um einen gemeinsamen Kontext wie "Top of Mind" oder "Topic des Tages" einzubeziehen.
 
 <div>
 
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>So konfigurieren Sie Add-ins für Chatrooms
 
-1.  Melden Sie sich mit einem Benutzerkonto, das über die Rolle „CsPersistentChatAdministrator“ oder „CsAdministrator-Rolle“ verfügt, bei einem Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, das über die CsPersistentChatAdministrator- oder über die CsAdministrator-Rolle verfügt, bei einem Computer in Ihrer internen Bereitstellung an.
 
-2.  Wählen Sie im **Startmenü** die lync Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Wählen Sie im **Startmenü** die lync Server-Systemsteuerung aus, oder öffnen Sie ein Browserfenster, und geben Sie dann die admin-URL ein. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Sie können auch Windows PowerShell-Cmdlets verwenden. Ausführliche Informationen finden Sie unter <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Konfigurieren des beständigen Chat Servers mithilfe von Windows PowerShell-Cmdlets</A> in der Bereitstellungsdokumentation.
+    > Sie können auch Windows PowerShell-Cmdlets verwenden. Ausführliche Informationen finden Sie unter <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Konfigurieren des Servers für beständigen Chat mit Windows PowerShell-Cmdlets</A> in der Bereitstellungsdokumentation.
 
     
     </div>
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Beständiger Chat** und dann auf **Add-In**.
     
-    Wählen Sie für die Bereitstellung mehrerer beständiger Chat Server Pools den entsprechenden Pool in der Dropdownliste aus.
+    Wählen Sie für mehrere Server Pool Bereitstellungen für beständigen Chat den entsprechenden Pool aus der Dropdownliste aus.
 
 4.  Klicken Sie auf der Seite **Add-In** auf **Neu**.
 
-5.  Wählen Sie in **Dienst auswählen**den Dienst aus, der dem Server Pool für beständigen Chat entspricht, in dem Sie das Add-in erstellen müssen. Add-Ins können nicht von einem Pool in einen anderen verschoben oder in mehreren Pools gemeinsam verwendet werden.
+5.  Wählen Sie unter **Dienst auswählen**den Dienst aus, der dem Server Pool für beständigen Chat entspricht, in dem Sie das Add-in erstellen müssen. Add-Ins können nicht von einem Pool in einen anderen Pool verschoben oder von unterschiedlichen Pools gemeinsam genutzt werden.
 
-6.  Gehen Sie unter **Neues Add-In** wie folgt vor:
+6.  Führen Sie unter **Neues Add-In** Folgendes aus:
     
-      - Geben Sie im Feld **Name** einen Namen für das neue Add-In ein.
+      - Geben Sie unter **Name** einen Namen für das neue Add-In an.
     
-      - Geben Sie unter **URL** die URL ein, die mit dem Add-In verknüpft werden soll. URLs müssen das HTTP- oder HTTPS-Protokoll verwenden.
+      - Geben Sie unter **URL** die URL an, die dem Add-In zugeordnet werden soll. Die URLs sind auf die Protokolle "http" und "https" beschränkt.
 
 7.  Klicken Sie auf **Commit ausführen**.
 
@@ -81,7 +81,7 @@ Add-Ins werden verwendet, um die in-Room-Erfahrung zu erweitern. Ein typisches A
 ## <a name="see-also"></a>Siehe auch
 
 
-[Öffnen der lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md)  
+[Öffnen lync Server 2013 Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md)  
 
 
 [Konfigurieren des Servers für beständigen Chat mithilfe von Windows PowerShell-Cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md)  
