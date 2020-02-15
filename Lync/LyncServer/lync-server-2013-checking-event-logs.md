@@ -12,16 +12,16 @@ ms:contentKeyID: 63969602
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 862d419d9db5d8465b3507c40fde32acd01bb659
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a15fb690dc213dbe22377b988f82dd59d6eb8a03
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755989"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045667"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,67 +35,67 @@ ms.locfileid: "41755989"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-08-06_
+_**Letztes Änderungsstand des Themas:** 2014-08-06_
 
-Sie können die [Windows-Ereignisanzeige](http://go.microsoft.com/fwlink/p/?linkid=314067) verwenden, um Ereignisprotokolle anzuzeigen und Informationen zu Dienstfehlern, Replikationsfehlern in AD DS sowie Warnungen zu Systemressourcen wie virtuellem Arbeitsspeicher und Speicherplatz zu erhalten. Die Ereignisanzeige ist im Lieferumfang von Windows Server 2008 und 2012 enthalten.
+Sie können die [Windows-Ereignisanzeige](http://go.microsoft.com/fwlink/p/?linkid=314067) verwenden, um Ereignisprotokolle anzuzeigen und Informationen zu Dienstfehlern, Replikationsfehlern im AD DS und Warnungen zu Systemressourcen wie virtuellem Arbeitsspeicher und Speicherplatz zu erhalten. Die Ereignisanzeige ist in Windows Server 2008 und 2012 enthalten.
 
-Klicken Sie im lync Server 2013-Protokollierungstool beim Beenden der Debugsitzung auf **Protokolldateien analysieren** , um die Protokolldateien mithilfe des Snooper-Tools anzuzeigen.
+Wenn Sie im lync Server 2013 Protokollierungstool die Debugsitzung beenden, klicken Sie auf **Protokolldateien analysieren** , um die Protokolldateien mithilfe des Tools Snooper anzuzeigen.
 
 Die Ereignisanzeige verwaltet Protokolle zu Anwendungs-, Sicherheits-und Systemereignissen auf dem Computer. Sowohl lync Server 2013 als auch Windows melden Warnungen und Fehlerbedingungen für die Ereignisprotokolle. Überprüfen Sie daher die Ereignisprotokolle täglich.
 
-Verwenden Sie die Ereignisanzeige für folgende Zwecke:
+Verwenden Sie die Ereignisanzeige für Folgendes:
 
-  - Anzeigen und Verwalten von Ereignisprotokollen
+  - Anzeigen und Verwalten von Ereignisprotokollen.
 
-  - Abrufen von Informationen zu Hardware-, Software-und Systemproblemen, die aufgelöst werden müssen.
+  - Erhalten Sie Informationen zu Hardware-, Software-und Systemproblemen, die behoben werden müssen.
 
-  - Erkennen von Trends, die eine zukünftige Aktion erfordern
+  - Identifizieren Sie Trends, die zukünftige Aktionen erfordern.
 
-Ein Server, auf dem lync Server unter einem Windows Server-Betriebssystem ausgeführt wird, zeichnet Ereignisse in vier Typen von Protokollen auf:
+Ein Server, auf dem lync Server auf einem Windows Server-Betriebssystem läuft, zeichnet Ereignisse in vier Protokolltypen auf:
 
-  - **Anwendungsprotokolle**   das Anwendungsprotokoll enthält Ereignisse, die von Anwendungen oder Programmen protokolliert werden. Entwickler legen fest, welche Ereignisse protokolliert werden sollen. Beispielsweise kann ein Datenbankprogramm einen Datei Fehler im Anwendungsprotokoll aufzeichnen. Die meisten Ereignisse im Zusammenhang mit lync Server 2013 werden im Anwendungsprotokoll angezeigt.
+  - **Anwendungsprotokolle**   das Anwendungsprotokoll enthält Ereignisse, die von Anwendungen oder Programmen protokolliert werden. Entwickler legen fest, welche Ereignisse protokolliert werden. Ein Datenbankprogramm könnte z. B. einen Dateifehler im Anwendungsprotokoll aufzeichnen. Die meisten lync Server 2013 bezogenen Ereignisse werden im Anwendungsprotokoll angezeigt.
 
-  - **Sicherheitsprotokolle**   das Sicherheitsprotokoll zeichnet Ereignisse wie gültige und ungültige Anmeldeversuche zusätzlich zu Ereignissen auf, die sich auf die Ressourcennutzung beziehen, wie das Erstellen, öffnen oder Löschen von Dateien oder anderen Objekten. Wenn beispielsweise die Anmeldeüberwachung aktiviert ist, werden Versuche zur Anmeldung am System im Sicherheitsprotokoll aufgezeichnet.
+  - **Sicherheitsprotokolle**   das Sicherheitsprotokoll zeichnet Ereignisse wie gültige und ungültige Anmeldeversuche zusätzlich zu Ereignissen im Zusammenhang mit der Ressourcenverwendung wie erstellen, öffnen oder Löschen von Dateien oder anderen Objekten auf. Wenn Anmeldeüberwachung aktiviert ist, werden z. B. Anmeldeversuche am System im Sicherheitsprotokoll aufgezeichnet.
 
-  - **Systemprotokolle**   das Systemprotokoll enthält Ereignisse, die von Windows-Systemkomponenten protokolliert werden. Beispielsweise wird der Fehler eines Treibers oder einer anderen Systemkomponente zum Laden während des Starts im Systemprotokoll aufgezeichnet. Die von Systemkomponenten protokollierten Ereignistypen sind vom Server vorgegeben.
+  - **Systemprotokolle**   das Systemprotokoll enthält Ereignisse, die von Windows-System Komponenten protokolliert werden. Der Ladefehler eines Treibers oder einer anderen Systemkomponente während des Startvorgangs wird z. B. im Systemprotokoll aufgezeichnet. Die von Systemkomponenten protokollierten Ereignistypen werden von Server im Vorfeld festgelegt.
 
-  - **Lync Server 2013**   das Protokollierungstool zeichnet wichtige Ereignisse auf, die sich auf Authentifizierung, Verbindungen und Benutzeraktionen beziehen. Nachdem Sie die Diagnoseprotokollierung aktiviert haben, können Sie die Protokolleinträge in der Ereignisanzeige anzeigen.
+  - **Lync Server 2013**   das Protokollierungstool zeichnet wichtige Ereignisse im Zusammenhang mit Authentifizierung, Verbindungen und Benutzeraktionen auf. Nachdem Sie die Diagnoseprotokollierung aktiviert haben, können Sie die Protokolleinträge in der Ereignisanzeige anzeigen.
 
 <div>
 
 
 > [!NOTE]  
-> Es wird nicht empfohlen, die maximalen Protokollierungseinstellungen zu verwenden, es sei denn, Sie werden von den Microsoft-Kundendienst angewiesen. Die maximale Protokollierung führt zu erheblichen Ressourcen und kann viele "falsch positive" geben, das heißt, Fehler, die nur bei maximaler Protokollierung protokolliert werden, aber wirklich erwartet werden und keine Besorgnis erregend sind. Wir empfehlen außerdem, die Diagnoseprotokollierung nicht dauerhaft zu aktivieren. Verwenden Sie es nur bei der Problembehandlung.
+> Es wird nicht empfohlen, die maximalen Protokollierungseinstellungen zu verwenden, es sei denn, Sie werden vom Microsoft-Kundendienst dazu aufgefordert. Die maximale Protokollierung entwässert erhebliche Ressourcen und kann viele "falsch positive Ergebnisse" verursachen, also Fehler, die nur bei der maximalen Protokollierung protokolliert werden, aber wirklich erwartet werden und keine Anlass zur Besorgnis geben. Außerdem wird empfohlen, die Diagnoseprotokollierung nicht dauerhaft zu aktivieren. Verwenden Sie sie nur zur Problembehandlung.
 
 
 
 </div>
 
-In jedem Ereignisanzeigeprotokoll zeichnet lync Server 2013 Informations-, Warnungs-und Fehlerereignisse auf. Überwachen Sie diese Protokolle genau, um die Typen von Transaktionen zu verfolgen, die auf den lync Server 2013-Servern durchgeführt werden. Sie sollten die Protokolle in regelmäßigen Abständen archivieren oder das automatische Rollover verwenden, um nicht genügend Speicherplatz zu schaffen. Da Protokolldateien eine begrenzte Menge an Speicherplatz belegen können, erhöhen Sie die Protokollgröße (beispielsweise auf 50 MB), und legen Sie Sie auf Overwrite fest, damit der lync Server 2013-Server weiterhin neue Ereignisse schreiben kann.
+In den einzelnen Protokollen der Ereignisanzeige erfasst lync Server 2013 Informationen, Warnungen und Fehlerereignisse. Überwachen Sie diese Protokolle eng, um die Transaktionstypen nachzuverfolgen, die auf den lync Server 2013 Servern ausgeführt werden. Sie sollten die Protokolle in regelmäßigen Abständen archivieren oder die automatische Rolloverfunktion verwenden, damit stets ausreichend Speicherplatz vorhanden ist. Da Protokolldateien eine begrenzte Menge an Speicherplatz belegen können, müssen Sie die Protokollgröße vergrößern (beispielsweise auf 50 MB) und diese auf Overwrite festlegen, damit der lync Server 2013 Server weiterhin neue Ereignisse schreiben kann.
 
 Sie können die Ereignisprotokollverwaltung auch mithilfe der folgenden Tools und Technologien automatisieren:
 
-  - System Center Operations Manager überwacht den Zustand und die Verwendung von lync Server 2013-Servern. Das lync Server 2013 Management Pack für Operations Manager erweitert Operations Manager durch die Bereitstellung spezieller Überwachung für Server, auf denen lync Server 2013 ausgeführt wird.
+  - System Center Operations Manager überwacht die Integrität und die Verwendung von lync Server 2013 Servern. Lync Server 2013 Management Pack für Operations Manager erweitert Operations Manager durch die Bereitstellung spezieller Überwachung für Server, auf denen lync Server 2013 ausgeführt wird.
 
-  - Das lync Server 2013-Management Pack für Operations Manager überwacht die Standard-und Enterprise-Edition von lync Server 2013. Diese Version enthält auch das QoE-Management Pack (Quality of Experience), das zuvor ein separates Management Pack war.
+  - Das lync Server 2013 Management Pack für Operations Manager überwacht Standard-und Enterprise Edition von lync Server 2013. In dieser Version ist auch das QoE-Management Pack (Quality of Experience) integriert, das zuvor ein separates Management Pack war.
 
-Überwachte Typen sind Ereignisprotokolleinträge, Leistungsindikatoren und statusbehaftete Überwachung von QoE. Diese Version des Management Packs überwacht nur lync Server 2013 und 2010 und kann nicht zum Überwachen von Office Communications Server 2007 verwendet werden.
+Überwachte Typen sind Ereignisprotokolleinträge, Leistungsindikatoren und Stateful-Überwachung von QoE. Diese Version des Management Packs überwacht nur lync Server 2013 und 2010 und kann nicht zum Überwachen von Office Communications Server 2007 verwendet werden.
 
 Das Management Pack bietet die folgenden Features:
 
-  - Benachrichtigungen, die darauf hindeuten, dass der Dienst Auswirkungen auf Ereignisse hat
+  - Warnungen, die den Dienst beeinflussen, der Ereignisse angibt
 
-  - Warnungen, die die Konfiguration angeben, und andere Probleme, die sich nicht auf Dienste auswirken
+  - Warnungen, die die Konfiguration und andere Probleme mit nicht-Dienst Auswirkungen betreffen
 
-  - Statusüberwachung der lync Server-Dienste
+  - Statusüberwachung von lync Server Diensten
 
   - Produkt wissen: Ursache und Lösung identifizierter Probleme
 
-Weitere Informationen zum lync Server 2013 Management Pack finden Sie unter über [Wachen von lync Server 2013 mit System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md).
+Weitere Informationen zu lync Server 2013 Management Pack finden Sie unter [Monitoring lync Server 2013 with System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md).
 
-**Ereignis Kamm**   mit dem Event Comb-Tool werden bestimmte Ereignisse aus den Ereignisprotokollen von mehreren Computern an einem zentralen Speicherort erfasst. Damit können Sie nur die Ereignis-IDs oder Ereignisquellen melden, die Sie angeben. Weitere Informationen zum Event Comb finden Sie auf der Website [Kontosperrung und Verwaltungs Tools](http://go.microsoft.com/fwlink/?linkid=35607) .
+**Ereignis Kamm**   mit dem Tool "Ereignis Kamm" werden bestimmte Ereignisse aus den Ereignisprotokollen mehrerer Computer an einem zentralen Speicherort erfasst. Sie können nur die Ereignis-IDs oder Ereignisquellen melden, die es angibt. Weitere Informationen zum Ereignis Kamm finden Sie auf der Website für [Kontosperrung und Verwaltungs Tools](http://go.microsoft.com/fwlink/?linkid=35607) .
 
-**Ereignisauslöser**   in Windows Server 2012 Sie können "eine Aufgabe an dieses Ereignis anfügen" in der Windows-Ereignisanzeige, in der ein Administrator entweder ein Programm ausführen, eine e-Mail-Nachricht senden oder eine auf dem Bildschirm angezeigte Nachricht anzeigen kann. Weitere Informationen zu diesem Feature finden Sie unter Windows Server 2008 R2-Thema [Ausführen einer Aufgabe als Antwort auf ein bestimmtes Ereignis](http://technet.microsoft.com/en-us/library/cc748900.aspx). Sie können auch Befehlszeilentools wie "EventTrigger. exe" verwenden, um Ereignisprotokolle zu erstellen und zu Abfragen und Programme mit bestimmten protokollierten Ereignissen zu verknüpfen. Mit Eventtriggers. exe können Sie Ereignisauslöser erstellen, die Programme ausführen, wenn bestimmte Ereignisse auftreten.
+**Ereignisauslöser**   in Windows Server 2012 können Sie "eine Aufgabe an dieses Ereignis anfügen" in der Windows-Ereignisanzeige, bei der ein Administrator entweder ein Programm ausführen, eine e-Mail-Nachricht senden oder eine Bildschirm Nachricht anzeigen kann. Weitere Informationen zu diesem Feature finden Sie im Windows Server 2008 R2 Thema [Ausführen einer Aufgabe als Reaktion auf ein bestimmtes Ereignis](http://technet.microsoft.com/library/cc748900.aspx). Sie können auch Befehlszeilentools wie "EventTrigger. exe" zum Erstellen und Abfragen von Ereignisprotokollen und zum Zuordnen von Programmen zu bestimmten protokollierten Ereignissen verwenden. Mit Eventtriggers. exe können Sie Ereignisauslöser erstellen, die Programme ausführen, wenn bestimmte Ereignisse eintreten.
 
 <div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: (optional) definieren von Reaktionsgruppen-Feiertagssätzen'
+title: 'Lync Server 2013: (optional) definieren von Feiertagssätzen für Reaktionsgruppen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e6751a5f5915e73d181efba40976640c65e0909
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 615b76657b8a7045c99d17f523aa73b0ee79a807
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755759"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051167"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41755759"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-02-07_
+_**Letztes Änderungsstand des Themas:** 2014-02-07_
 
 Feiertage sind als Tage definiert, an denen die Reaktionsgruppe geschlossen ist. Geben Sie die Aktion an, die an solchen Tagen ausgeführt werden soll. Ein Feiertagssatz ist eine Sammlung der Feiertage, die eine Reaktionsgruppe betreffen.
 
@@ -53,19 +53,19 @@ Feiertage sind als Tage definiert, an denen die Reaktionsgruppe geschlossen ist.
 
 ## <a name="to-create-a-holiday-set"></a>So erstellen Sie einen Feiertagssatz
 
-1.  Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
+1.  Melden Sie sich als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Führen Sie den folgenden Befehl für jeden Feiertag aus, den Sie definieren möchten:
+3.  Führen Sie für jeden zu definierenden Feiertag folgenden Befehl aus:
     
         $x = New-CsRgsHoliday [-Name <holiday name>] -StartDate <starting date of holiday> -EndDate <ending date of holiday>
     
-    Führen Sie den folgenden Befehl aus, um einen Feiertagssatz mit den von Ihnen definierten Feiertagen zu erstellen:
+    Führen Sie zum Erstellen des Feiertagssatzes, der die definierten Feiertage enthalten soll, folgenden Befehl aus:
     
         New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
     
-    Das folgende Beispiel enthält einen Feiertagssatz mit zwei Feiertagen:
+    Im folgenden Beispiel wird ein Feiertagssatz mit zwei Feiertagen gezeigt:
     
         $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2013 12:00 AM" -EndDate "1/1/2013 12:00 AM" 
         $b = New-CsRgsHoliday -Name "Independence Day" -StartDate "7/4/2013 12:00 AM" -EndDate "7/5/2013 12:00 AM" 
@@ -78,11 +78,11 @@ Feiertage sind als Tage definiert, an denen die Reaktionsgruppe geschlossen ist.
 ## <a name="see-also"></a>Siehe auch
 
 
-[Erstellen oder Ändern eines Sammel Ansuchen-Workflows in lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
-[Erstellen oder Ändern eines interaktiven Workflows in Lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
+[Erstellen oder Ändern eines Sammelanschluss-Workflows in lync Server 2013](lync-server-2013-create-or-modify-a-hunt-group-workflow.md)  
+[Erstellen oder Ändern eines interaktiven Workflows in lync Server 2013](lync-server-2013-create-or-modify-an-interactive-workflow.md)  
 
 
-[Neu – CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
+[New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHoliday)  
 [New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/New-CsRgsHolidaySet)  
   
 

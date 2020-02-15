@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Bereitstellungsprozess für die Reaktionsgruppe'
+title: 'Lync Server 2013: Bereitstellungsprozess für Reaktionsgruppen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2eb302f57cd335decf3523c271ff464f2954db86
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dfc249ec8df233e6c22c9d5c1b54b81e23c5a173
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762583"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038217"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762583"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-27_
+_**Letztes Änderungsstand des Themas:** 2012-09-27_
 
-Dieser Abschnitt enthält eine Übersicht über die Phasen und Schritte, die beim Bereitstellen der reaktionsgruppenanwendung erforderlich sind.
+Dieser Abschnitt enthält eine Übersicht über die Phasen und Schritte bei der Bereitstellung des Reaktionsgruppenanwendung.
 
 ### <a name="response-group-deployment-process"></a>Prozess zur Bereitstellung von Reaktionsgruppen
 
@@ -58,20 +58,20 @@ Dieser Abschnitt enthält eine Übersicht über die Phasen und Schritte, die bei
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Installieren der reaktionsgruppenanwendung</p></td>
-<td><p>Die reaktionsgruppenanwendung wird standardmäßig installiert und aktiviert, wenn Sie Enterprise-VoIP bereitstellen.</p></td>
+<td><p>Installieren des Reaktionsgruppenanwendung</p></td>
+<td><p>Das Reaktionsgruppenanwendung wird bei der Bereitstellung von Enterprise-VoIP standardmäßig installiert und aktiviert.</p></td>
 <td><p>RTCUniversalServerAdmins</p></td>
 <td><p><a href="lync-server-2013-deploying-enterprise-voice.md">Bereitstellen von Enterprise-VoIP in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Komponenten für Reaktionsgruppe installieren</p></td>
-<td><p>Lync Server-Cmdlets, die lync Server-Systemsteuerung, das Reaktionsgruppen-Konfigurations Tool, die Anmelde-und Abmelde Konsole des Agents und der Client-Webdienst für Reaktionsgruppen werden als Teil von Webdiensten installiert. Webdienste werden installiert, wenn Sie einen Enterprise Edition-Pool oder einen Standard Edition-Server bereitstellen.</p></td>
+<td><p>Installieren von Komponenten für Reaktionsgruppen</p></td>
+<td><p>Lync Server-Cmdlets, das lync Server-Systemsteuerung, das Reaktionsgruppen-Konfigurations Tool, die Anmelde-und Abmelde Konsole des Agents und der Client-Webdienst der Reaktionsgruppe werden als Teil von Webdienste installiert. Webdienste wird installiert, wenn Sie einen Enterprise Edition-Pool oder ein Standard Edition-Server bereitstellen.</p></td>
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-deploying-lync-server.md">Bereitstellen von Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-deploying-lync-server.md">Bereitstellen von Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Aktivieren von Benutzern für lync 2013 und für Enterprise-VoIP</p></td>
-<td><p>Aktivieren Sie Benutzer, die Agents für lync Server und Enterprise-VoIP sein sollen. Benutzer müssen aktiviert sein, damit sie Agentgruppen hinzugefügt werden können. In der Regel sind Benutzer während der Enterprise Edition-oder Standard Edition-Server Bereitstellung für lync Server aktiviert. Benutzer sind während der Enterprise-VoIP-Bereitstellung für Enterprise-VoIP aktiviert.</p></td>
+<td><p>Aktivieren Sie Benutzer, die Agents für lync Server und Enterprise-VoIP sein sollen. Benutzer müssen aktiviert sein, bevor Sie Sie zu Agentgruppen hinzufügen können. In der Regel werden Benutzer während der Enterprise Edition-oder Standard Edition-Server-Bereitstellung für lync Server aktiviert. Benutzer sind während der Enterprise-VoIP-Bereitstellung für Enterprise-VoIP aktiviert.</p></td>
 <td><p>RTCUniversalUserAdmins</p>
 <p>CsUserAdministrator</p>
 <p>CsAdministrator</p></td>
@@ -81,17 +81,17 @@ Dieser Abschnitt enthält eine Übersicht über die Phasen und Schritte, die bei
 <tr class="even">
 <td><p>Erstellen und Konfigurieren von Reaktionsgruppen, die aus Agentgruppen, Warteschlangen und Workflows bestehen</p></td>
 <td><ol>
-<li><p>Verwenden Sie die lync Server-Systemsteuerung oder die lync Server-Verwaltungsshell, um folgende Aktionen auszuführen:</p>
+<li><p>Verwenden Sie die lync Server-Systemsteuerung oder lync Server-Verwaltungsshell, um Folgendes zu tun:</p>
 <ol>
 <li><p>Erstellen und Konfigurieren von Agentgruppen</p></li>
 <li><p>Erstellen und Konfigurieren von Warteschlangen</p></li>
 </ol></li>
-<li><p>Optional können Sie mithilfe der lync Server-Verwaltungsshell vordefinierte Geschäftszeiten und Feiertage in der Reaktionsgruppe erstellen.</p></li>
-<li><p>Verwenden Sie das Reaktionsgruppen-Konfigurations Tool oder die lync Server-Verwaltungsshell zum Erstellen von Workflows (Sammelanschlüsse oder IVR-Anruf Bewegungen (Interactive Voice Response), einschließlich benutzerdefinierter Reaktionsgruppen-Geschäftszeiten und-Feiertage.</p>
+<li><p>Verwenden Sie optional lync Server-Verwaltungsshell, um vordefinierte Reaktionsgruppen-Geschäftszeiten und Feiertage zu erstellen.</p></li>
+<li><p>Verwenden Sie das Reaktionsgruppen-Konfigurations Tool oder lync Server-Verwaltungsshell, um Workflows (Sammelanschlüsse oder interaktive Sprachantwort-Anruf Flüsse) zu erstellen, einschließlich benutzerdefinierter Reaktionsgruppen-Geschäftszeiten und Feiertage.</p>
 <div>
 
 > [!NOTE]  
-> Sie können über die lync Server-Systemsteuerung auf das Tool für die Reaktionsgruppen Konfiguration zugreifen.
+> Sie können über lync Server-Systemsteuerung auf das Tool für die Reaktionsgruppen Konfiguration zugreifen.
 
 
 </div></li>
@@ -101,16 +101,16 @@ Dieser Abschnitt enthält eine Übersicht über die Phasen und Schritte, die bei
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p>
-<p>CsResponseGroupManager</p></td>
-<td><p><a href="lync-server-2013-create-response-group-agent-groups.md">Erstellen von Agent-Gruppen für Reaktionsgruppen Lync Server 2013</a></p>
-<p><a href="lync-server-2013-create-response-group-queues.md">Erstellen von Warteschleifen für Reaktionsgruppen in Lync Server 2013</a></p>
-<p><a href="lync-server-2013-optional-define-response-group-business-hours.md">Optional Definieren der Geschäftszeiten der Reaktionsgruppe in lync Server 2013</a></p>
+<p>Rolle csresponsegroupmanager</p></td>
+<td><p><a href="lync-server-2013-create-response-group-agent-groups.md">Erstellen von Gruppen für Reaktionsgruppen-Agents lync Server 2013</a></p>
+<p><a href="lync-server-2013-create-response-group-queues.md">Erstellen von Warteschlangen für Reaktionsgruppen in lync Server 2013</a></p>
+<p><a href="lync-server-2013-optional-define-response-group-business-hours.md">Optional Definieren von Geschäftszeiten für Reaktionsgruppen in lync Server 2013</a></p>
 <p><a href="lync-server-2013-optional-define-response-group-holiday-sets.md">Optional Definieren von Feiertagssätzen für Reaktionsgruppen in lync Server 2013</a></p>
 <p><a href="lync-server-2013-create-or-modify-a-workflow.md">Erstellen oder Ändern eines Workflows in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>(Optional) Anpassen der Einstellungen auf Anwendungsebene</p></td>
-<td><p>Verwenden Sie die lync Server-Verwaltungsshell zum Anpassen der standardmäßigen Music-on-halten-Konfiguration, der standardmäßigen Music-on-halten-Audiodatei, des Kulanzzeitraums für den Rückruf des Agenten und der Konfiguration des Anruf Kontexts.</p></td>
+<td><p>Verwenden Sie lync Server-Verwaltungsshell zum Anpassen der standardmäßigen Music-on-Hold-Konfiguration, der standardmäßigen Music-on-Hold-Audiodatei, der Kulanzfrist für den Agent-Rückruf und der Anrufkontext Konfiguration.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p>
 <p>CsVoiceAdministrator</p>
@@ -120,13 +120,13 @@ Dieser Abschnitt enthält eine Übersicht über die Phasen und Schritte, die bei
 </tr>
 <tr class="even">
 <td><p>(Optional) Delegieren der Verwaltung von Reaktionsgruppen</p></td>
-<td><p>Weisen Sie Benutzern die CsResponseGroupManager-Rolle zu, um die Konfiguration von Reaktionsgruppen zu delegieren. Die Antwortgruppen-Manager können dann die Ihnen zugewiesenen Antwortgruppen konfigurieren.</p></td>
+<td><p>Weisen Sie Benutzern die Rolle csresponsegroupmanager-Rolle zu, um die Konfiguration von Reaktionsgruppen zu delegieren. Reaktionsgruppen-Manager können dann die Ihnen zugewiesenen Reaktionsgruppen konfigurieren.</p></td>
 <td><p>RTCUniversalServerAdmins</p>
 <p>CsResponseGroupAdministrator</p>
 <p>CsVoiceAdministrator</p>
 <p>CsServerAdministrator</p>
 <p>CsAdministrator</p></td>
-<td><p><a href="lync-server-2013-planning-for-role-based-access-control.md">Planen für die rollenbasierte Zugriffssteuerung in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-planning-for-role-based-access-control.md">Planen der rollenbasierten Zugriffssteuerung in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Überprüfen der Reaktionsgruppenbereitstellung</p></td>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Entwickeln einer Sicherungs-und Wiederherstellungsstrategie und-Planung'
+title: 'Lync Server 2013: Entwickeln einer Sicherungs-und Wiederherstellungsstrategie und eines Plans'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87f4809b6a86312fc9dcc9527375db85dbcbb043
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d3c95873ad8b4e0852a4b5ae03f5857ba8e83fa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762443"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045007"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41762443"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-17_
+_**Letztes Änderungsstand des Themas:** 2013-02-17_
 
-Die Effektivität ihrer lync Server-Sicherungs-und Wiederherstellungsvorgänge hängt von ihrer Sicherungs-und Wiederherstellungsstrategie und Ihrem Plan ab. Sie sollten eine Strategie zum Sichern und Wiederherstellen von lync Server einrichten, die in die Gesamtstrategie Ihrer Organisation passt, und einen umfassenden, präzisen Plan zum Sichern von Daten und Einstellungen sowie bei einem Ausfall einen Plan zum Wiederherstellen des Diensts.
+Die Effektivität ihrer lync Server Sicherungs-und Wiederherstellungsvorgänge hängt von ihrer Sicherungs-und Wiederherstellungsstrategie und dem Plan ab. Sie sollten eine Strategie zum Sichern und Wiederherstellen von lync Server, die zur Gesamtstrategie Ihrer Organisation passt, und einen umfassenden, prägnanten Plan zum Sichern von Daten und Einstellungen sowie bei einem Ausfall einen Plan für die Wiederherstellung von Diensten einrichten.
 
-Verwenden Sie für die robuste Disaster Recovery eines Front-End-Pools die in lync Server 2013 eingeführte Disaster Recovery-Topologie für gekoppelte Pools. Weitere Informationen finden Sie unter [Planen von höchst Verfügbarkeit und Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+Verwenden Sie für die robusteste Notfallwiederherstellung eines Front-End-Pools die in lync Server 2013 eingeführte Notfall Wiederherstellungs Topologie für gekoppelte Pools. Weitere Informationen finden Sie unter [Planung für hohe Verfügbarkeit und Notfallwiederherstellung in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
 <div>
 

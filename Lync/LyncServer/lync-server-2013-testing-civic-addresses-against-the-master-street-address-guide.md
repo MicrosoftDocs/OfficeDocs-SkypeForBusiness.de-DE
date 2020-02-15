@@ -1,5 +1,5 @@
 ---
-title: Testen von Civic addresses mit dem Master Street Address Guide
+title: Testen von Civic addresses anhand der Master Street Address Guide
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969657
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37d6aa1443dc2e062aa099237d9b25f2b33e32b2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a55593bee333d03c71522bdd0a39cc91cb60882
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745809"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037057"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-civic-addresses-against-the-master-street-address-guide-in-lync-server-2013"></a>Testen von bürgerlichen Adressen mit dem Leitfaden zur Master Street-Adresse in lync Server 2013
+# <a name="testing-civic-addresses-against-the-master-street-address-guide-in-lync-server-2013"></a>Testen von Civic addresses anhand der Master Street Address Guide in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745809"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-06-05_
+_**Letztes Änderungsstand des Themas:** 2014-06-05_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsRegistration-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsRegistration verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLisCivicAddress &quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,17 +66,17 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-05_
 
 ## <a name="description"></a>Beschreibung
 
-Das Cmdlet Test-CsLisCivicAddress wird verwendet, um die Speicherorte zu überprüfen, die Ihrer Datenbank für den standortinformationsdienst (LIS) hinzugefügt wurden. Das Cmdlet vergleicht Speicherorte mit den Speicherorten im Master Street Address Guide (MSAG), die zu Ihrem E9-1-1-Netzwerk Routing Anbieter gehören. Wenn Sie nicht über einen Netzwerkrouting Anbieter verfügen oder der Anbieter nicht erreicht werden kann, treten bei den Tests Fehler auf.
+Das Cmdlet Test-CsLisCivicAddress wird verwendet, um Speicherorte zu überprüfen, die ihrer Standortinformationsdienst Datenbank (LIS) hinzugefügt wurden. Das Cmdlet funktioniert durch Vergleichen von Speicherorten mit den in der Master Street Address Guide (MSAG), die zu Ihrem E9-1-1-Netzwerk Routing Anbieter gehört gefunden. Wenn Sie nicht über einen Netzwerkrouting Anbieter verfügen oder der Anbieter nicht erreicht werden kann, treten bei Ihren Tests Fehler auf.
 
-Wenn Sie den optionalen Schalterparameter UpdateValidationStatus zu Ihrem Befehl hinzufügen, wird die entsprechende MSAGValid-Datenbankeigenschaft für jede Adresse, die den Test übergibt, auf true festgelegt.
+Wenn Sie den optionalen Switch-Parameter UpdateValidationStatus zu Ihrem Befehl hinzufügen, wird die entsprechende MSAGValid-Datenbankeigenschaft für jede Adresse, die den Test übergibt, auf true festgelegt.
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet Test-CsLisCivicAddress kann verwendet werden, um einzelne Adressen zu testen oder mehrere Adressen zu testen. Dieser Befehl testet beispielsweise eine einzelne Adresse, die sich in Redmond, WA befindet:
+Das Cmdlet Test-CsLisCivicAddress kann verwendet werden, um einzelne Adressen zu testen oder um mehrere Adressen zu testen. Beispielsweise testet dieser Befehl eine einzelne Adresse, die sich in Redmond, WA befindet:
 
     Test-CsLisCivicAddress -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName Main -StreetSuffix St -PostDirectional "" -City Redmond -State WA -PostalCode 98052 -Country US -UpdateValidationStatus
 
@@ -84,15 +84,15 @@ Im Vergleich dazu testet dieser Befehl alle Adressen, die sich derzeit in ihrer 
 
     Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
 
-Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsRegistration](https://technet.microsoft.com/en-us/library/Gg412737(v=OCS.15)) .
+Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15)) .
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Test-CsLisCivicAddress meldet den Erfolg oder Misserfolg der angegebenen Adressen zurück. Bei einem Adress Test tritt ein Fehler auf, wenn die Adresse nicht gefunden werden kann oder wenn der Dienstanbieter nicht kontaktiert werden kann.
+Mit Test-CsLisCivicAddress wird der Erfolg oder Fehler für die angegebenen Adressen zurückgemeldet. Ein Adress Test schlägt fehl, wenn die Adresse nicht gefunden wird oder wenn der Dienstanbieter nicht kontaktiert werden kann.
 
 </div>
 
@@ -100,13 +100,13 @@ Test-CsLisCivicAddress meldet den Erfolg oder Misserfolg der angegebenen Adresse
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Nachfolgend finden Sie einige häufige Gründe, warum Test-CsLisCivicAddress möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsLisCivicAddress möglicherweise fehlschlägt:
 
-  - Der LIS-Dienstanbieter steht möglicherweise nicht zur Verfügung. Sie können die URL Ihres LIS-Dienstanbieters abrufen, indem Sie das Cmdlet "Get-CsLisConfiguration" ausführen:
+  - Der LIS-Dienstanbieter ist möglicherweise nicht verfügbar. Sie können die URL Ihres LIS-Dienstanbieters abrufen, indem Sie das Cmdlet Get-CsLisConfiguration ausführen:
     
         Get-CsLisConfiguration 
     
-    Anschließend können Sie die URL anpingen, um zu überprüfen, ob der Dienstanbieter verfügbar ist.
+    Anschließend können Sie eine Ping-URL durchführen, um zu überprüfen, ob der Dienstanbieter verfügbar ist.
 
 </div>
 

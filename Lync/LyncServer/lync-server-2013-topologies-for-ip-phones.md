@@ -12,16 +12,16 @@ ms:contentKeyID: 48183662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e05a56d30167f2e20a383cde9fcfaaa70418e650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 69761715846cd65a44fe34c9c8465101e9ceb681
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745205"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045447"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41745205"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-21_
+_**Letztes Änderungsstand des Themas:** 2012-06-21_
 
-Dieser Abschnitt bietet einen Überblick über den Verbindungsprozess und erläutert die Unterschiede zwischen der Verbindung eines IP-Telefons in einem internen und einem externen Netzwerk.
+In diesem Abschnitt erhalten Sie einen Überblick über den Prozess der Verbindungsherstellung. Erklärt werden außerdem die Unterschiede zwischen dem Herstellen einer Verbindung über ein IP-Telefon in einem internen Netzwerk und dem gleichen Vorgang in einem externen Netzwerk.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server bietet Unterstützung für die folgenden IP-Telefone: das Aastra 6721ip-Telefon, das Aastra 6725ip-Telefon, das HP 4110-IP-Telefon (Common Area Phone), das HP 4120 IP-Telefon (Tischtelefon), das Polycom CX600 IP-Tischtelefon, das Polycom CX700-IP-Tischtelefon, Polycom CX500 IP Telefon mit gemeinsamem Bereich und Polycom CX3000 IP-Konferenztelefon. Von diesen Telefonen kann nur die Polycom CX700 lync Phone Edition ausführen.
+> Lync Server bietet Unterstützung für die folgenden IP-Telefone: das Mobiltelefon Aastra 6721ip, das Aastra 6725ip-Telefon, das HP 4110-IP-Telefon (Telefon im öffentlichen Bereich), das HP 4120-IP-Telefon (Schreibtisch Telefon), Polycom CX600 IP-Telefon, Polycom CX700-IP-Tischtelefon, Polycom CX500-IP Telefon mit öffentlichem Bereich und Polycom CX3000 IP-Konferenztelefon. Von diesen Telefonen können alle außer dem Polycom CX700 lync Phone Edition ausführen.
 
 
 
 </div>
 
-Das folgende Diagramm beschreibt alle Komponenten, die für die Gerätekonnektivität innerhalb der Unternehmensumgebung erforderlich sind.
+Im folgenden Diagramm werden alle Komponenten beschrieben, die an der Geräteanbindung innerhalb einer Unternehmensumgebung beteiligt sind.
 
 **Interne Topologie**
 
@@ -59,13 +59,13 @@ Das folgende Diagramm beschreibt alle Komponenten, die für die Gerätekonnektiv
 
 
 > [!NOTE]  
-> Bei der vorherigen Abbildung handelt es sich um eine logische Darstellung, keine physische Übersicht. Beispielsweise befindet sich die Active Directory-Domänendienste (AD DS) selten auf demselben Computer wie alle lync Server-Komponenten. Der Benutzerspeicher kann sich auf dem Back-End-Server oder auf den Archivierungs-und Überwachungs Servern befinden. Die lync Server-Verwaltungsshell, Webserver und Updatedienste sind Teil der Front-End-Serverrolle.
+> Die obige Abbildung ist eine logische Darstellung und keine physische. Beispielsweise befindet sich Active Directory-Domänendienste (AD DS) selten auf demselben Computer wie alle lync Server-Komponenten. Der Benutzerspeicher kann sich auf dem Back-End-Server oder auf den Archivierungs- und Monitoring Servern befinden. Die lync Server-Verwaltungsshell-, Webserver-und Updatedienste sind Teil der Front-End-Server Rolle.
 
 
 
 </div>
 
-Das folgende Diagramm bietet eine Übersicht über die beteiligten Komponenten, wenn sich das Gerät außerhalb des Unternehmensnetzwerks befindet.
+Das folgende Diagramm zeigt einen Überblick über die Komponenten, die beteiligt sind, wenn das Gerät sich außerhalb des Unternehmensnetzwerks befindet.
 
 **Externe Topologie**
 
@@ -75,7 +75,7 @@ Das folgende Diagramm bietet eine Übersicht über die beteiligten Komponenten, 
 
 
 > [!NOTE]  
-> Der Geräte Update-Webdienst bietet eine externe und interne Website, aber nur die externe Website wird hier angezeigt.<BR>Der Speicherort der Registrierungsstelle und die URL des Geräte Update-Webdiensts für die Organisation müssen in DNS veröffentlicht werden, wenn externer Zugriff aktiviert werden soll. Darüber hinaus muss der Edgeserver bereitgestellt und ordnungsgemäß konfiguriert werden, um die externe Kommunikation vom Gerät zur Unternehmensumgebung und zurück zu ermöglichen. Dies wird im vorherigen Diagramm ausgelassen, da die Edge-Bereitstellung nicht für die Gerätekonnektivität spezifisch ist.
+> Der Geräteupdate-Webdienst stellt eine externe und eine interne Website bereit, hier wird jedoch nur die externe gezeigt.<BR>Der Standort der Registrierungsstelle und die URL des Geräteupdate-Webdiensts für die Organisation müssen in DNS veröffentlicht werden, wenn Zugriff durch externe Benutzer unterstützt werden soll. Außerdem muss der Edgeserver bereitgestellt und korrekt konfiguriert werden, damit externe Kommunikation vom Gerät zur Unternehmensumgebung und zurück möglich ist. Dies wird im obigen Diagramm nicht dargestellt, da die Edgebereitstellung nicht spezifisch für die Geräteanbindung ist.
 
 
 

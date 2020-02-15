@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen einer Survivable Branch Appliance oder eines Survivable Branch Servers – Aufgaben am zentralen Standort
+title: Bereitstellen von Survivable Branch Appliance-oder Server zentralen-Standortaufgaben
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9aa6d38ec873652feae6ef6a374ee5b771520b1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4756da7db87504e8b8c700cea1abb171b594543e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729625"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047549"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>Bereitstellen einer Survivable Branch Appliance oder eines Survivable Branch Servers mit Lync Server 2013 – Aufgaben am zentralen Standort
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013---central-site-tasks"></a>Bereitstelleneiner Survivable Branch Appliance oder eines Servers mit lync Server 2013-zentralen Websiteaufgaben
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41729625"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-18_
+_**Letztes Änderungsstand des Themas:** 2012-10-18_
 
-Führen Sie die Aufgaben in diesem Abschnitt auf der zentralen Website aus. Wenn Sie einen Überlebenden Verzweigungs Server bereitstellen, überspringen Sie die erste Aufgabe.
+Führen Sie die Aufgaben in diesem Abschnitt am zentralen Standort aus. Wenn Sie ein Survivable Branch Server bereitstellen, überspringen Sie den ersten Vorgang.
 
 <div>
 
@@ -46,14 +46,14 @@ Führen Sie die Aufgaben in diesem Abschnitt auf der zentralen Website aus. Wenn
 > Bevor Sie die Aufgaben in diesem Abschnitt ausführen, müssen die folgenden Bedingungen erfüllt sein: 
 > <UL>
 > <LI>
-> <P>Lync Server muss am zentralen Standort eingerichtet sein.</P>
+> <P>Lync Server müssen am zentralen Standort eingerichtet sein.</P>
 > <LI>
-> <P>Ein Installationstechniker auf der Zweigstelle muss der RTCUniversalSBATechnicians-Gruppe hinzugefügt werden.</P></LI></UL>Darüber hinaus empfehlen wir, dass Sie die folgenden Schritte ausführen:
+> <P>Ein Installationstechniker am Zweigstellenstandort muss der Gruppe "Gruppe" rtcuniversalsbatechnicians "hinzugefügt werden.</P></LI></UL>Darüber hinaus wird empfohlen, dass Sie die folgenden Schritte ausführen:
 > <UL>
 > <LI>
-> <P>Stellen Sie einen DHCP-Server an jeder Verzweigungs Website bereit, damit Clients IP-Adressen abrufen können.</P>
+> <P>Bereitstellen eines DHCP-Servers an jedem Zweigstellenstandort, um Clients das Abrufen von IP-Adressen zu ermöglichen.</P>
 > <LI>
-> <P>Als Alternative zum Bereitstellen eines DHCP-Servers an jeder Verzweigungs Website aktivieren Sie lync Server DHCP auf der Survivable Branch-Appliance oder dem Überlebenden Verzweigungs Server mithilfe des Cmdlets "lync Server-Verwaltungsshell" <STRONG>-Cmdlet-CsRegistrarConfiguration – EnableDHCPServer $true</STRONG>. Ausführliche Informationen finden Sie im Abschnitt "Hardware-und Software Anforderungen" in der Planning-Dokumentation unter den Anforderungen an die <A href="lync-server-2013-branch-site-resiliency-requirements.md">Stabilität der Zweigstelle für lync Server 2013</A> .</P></LI></UL>
+> <P>Als Alternative zur Bereitstellungeines DHCP-Servers an jedem Zweigstellenstandort aktivieren Sie lync Server DHCP auf dem Survivable Branch Appliance oder Survivable Branch Server mithilfe des lync Server-Verwaltungsshell Cmdlets " <STRONG>Gruppe-CsRegistrarConfiguration – EnableDHCPServer $true</STRONG>". Ausführliche Informationen finden Sie im Abschnitt "Hardware-und Software Anforderungen" der Anforderungen an die <A href="lync-server-2013-branch-site-resiliency-requirements.md">Ausfallsicherheit für Zweigstellenstandorte für lync Server 2013</A> in der Planungsdokumentation.</P></LI></UL>
 
 
 
@@ -63,11 +63,11 @@ Führen Sie die Aufgaben in diesem Abschnitt auf der zentralen Website aus. Wenn
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Hinzufügen einer Survivable Branch Appliance zu Active Directory in Lync Server 2013](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)
+  - [Hinzufügen eines Survivable Branch Appliance zu Active Directory in lync Server 2013](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)
 
-  - [Hinzufügen von Zweigstellenstandorten zur Topologie in Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)
+  - [Hinzufügen von Zweigstellenstandorten zu Ihrer Topologie in lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)
 
-  - [Definieren einer Survivable Branch Appliance oder eines Survivable Branch Servers in Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
+  - [Definieren einer Survivable Branch Appliance oder eines Servers in lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)
 
 </div>
 

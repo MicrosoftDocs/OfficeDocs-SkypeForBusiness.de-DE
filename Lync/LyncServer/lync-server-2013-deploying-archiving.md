@@ -12,20 +12,20 @@ ms:contentKeyID: 48185031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86b1394df9bb52502e1e0c605bedb05a0579042e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 436870bd932a0cf92168555d298bf81aff1de667
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729595"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047649"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-archiving-in-lync-server-2013"></a>Bereitstellen der Archivierung in Lync Server 2013
+# <a name="deploying-archiving-in-lync-server-2013"></a>Bereitstellen der Archivierung in lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41729595"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Lync Server 2013 bietet eine Lösung zum Archivieren von Instant Messaging (im)-Inhalten und Konferenz Kommunikationen in lync Server. Sie können Archivierungsunterstützung implementieren, indem Sie den Archivierungsspeicher mit Exchange 2013-Speicher, mithilfe von SQL Server-Datenbanken für die Speicherung von lync Server 2013-Archivierungsdaten oder mithilfe von lync Server 2013 und Exchange 2013-Speicher integrieren. Sie steuern, wie Daten mithilfe von Richtlinien und Archivierungs Konfigurationen archiviert werden. Ausführliche Informationen finden Sie unter [Planen der Archivierung in lync Server 2013](lync-server-2013-planning-for-archiving.md) in der Planungsdokumentation und [Funktionsweise der Archivierung in lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, Bereitstellungsdokumentation oder in der Betriebsdokumentation.
+Lync Server 2013 bietet eine Lösung zum Archivieren von Chatnachrichten (Instant Messaging) und Konferenzkommunikation in lync Server. Sie können die Archivierungsunterstützung implementieren, indem Sie den Archivierungsspeicher in Exchange 2013 Speicher integrieren, indem Sie SQL Server Datenbanken zum Speichern von lync Server 2013 Archivierungsdaten verwenden oder sowohl lync Server 2013 als auch Exchange 2013 Speicher verwenden. Sie steuern, wie Daten mithilfe von Richtlinien und Archivierungs Konfigurationen archiviert werden. Ausführliche Informationen finden Sie unter [Planning for Archiving in lync Server 2013](lync-server-2013-planning-for-archiving.md) in der Planungsdokumentation und der Funktions [Weise der Archivierung in lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, Bereitstellungsdokumentation oder Betriebsdokumentation.
 
-Mit den Informationen in diesem Abschnitt können Sie die Archivierung zunächst einrichten und konfigurieren. Nach der Bereitstellung können Sie die Archivierungseinstellungen ändern. Ausführliche Informationen dazu, wie Sie die Archivierungsunterstützung für die tägliche Verwaltung implementieren oder neue Anforderungen in Ihrer Organisation erfüllen, finden Sie unter [Verwalten der lync Server 2013-Archivierung](lync-server-2013-managing-archiving.md) in der Betriebsdokumentation.
+Sie können die Informationen in diesem Abschnitt verwenden, um die Archivierung zunächst einzurichten und zu konfigurieren. Nach der Bereitstellung können Sie die Archivierungseinstellungen ändern. Ausführliche Informationen zur Implementierung der Archivierungsunterstützung für die tägliche Verwaltung oder zur Erfüllung neuer Anforderungen in Ihrer Organisation finden Sie unter [Managing lync Server 2013 Archiving](lync-server-2013-managing-archiving.md) in der Betriebsdokumentation.
 
 <div>
 
@@ -47,7 +47,7 @@ Mit den Informationen in diesem Abschnitt können Sie die Archivierung zunächst
 
   - [Funktionsweise der Archivierung in lync Server 2013](lync-server-2013-how-archiving-works.md)
 
-  - [Prüfliste zur Bereitstellung für die Archivierung in Lync Server 2013](lync-server-2013-deployment-checklist-for-archiving.md)
+  - [Prüfliste zur Bereitstellung für die Archivierung in lync Server 2013](lync-server-2013-deployment-checklist-for-archiving.md)
 
   - [Einrichten von Systemen und Infrastruktur für die Archivierung in lync Server 2013](lync-server-2013-setting-up-systems-and-infrastructure-for-archiving.md)
 

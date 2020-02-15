@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verwalten von Benutzer Pins'
+title: 'Lync Server 2013: Verwalten von Benutzer-Pins'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733706
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34c3603d7fa0dc3c5b2c1d40319bbf30c1d09b63
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c66cfd395f3fd48da401d4e6d72b37aae386e0d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742175"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-user-pins-in-lync-server-2013"></a>Verwalten von Benutzer Pins in lync Server 2013
+# <a name="managing-user-pins-in-lync-server-2013"></a>Verwalten von Benutzer-Pins in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41742175"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-15_
+_**Letztes Änderungsstand des Themas:** 2012-10-15_
 
-Führen Sie die folgenden Verfahren aus, um die Einwahlkonferenz-Pins der Benutzer über den Abschnitt **Benutzer** der Systemsteuerung von lync Server 2013 zu verwalten.
+Verwenden Sie die folgenden Verfahren, um die Einwahlkonferenz-Pins von Benutzern im Abschnitt **Benutzer** lync Server 2013 Systemsteuerung zu verwalten.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Einrichten der PIN für Einwahlkonferenzen eines Benutzers in lync Server 2013](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)
+  - [Festlegen der Einwahlkonferenz-PIN eines Benutzers in lync Server 2013](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)
 
   - [Anzeigen von Benutzer-PIN-Informationen in lync Server 2013](lync-server-2013-view-user-pin-information.md)
 
@@ -56,7 +56,7 @@ Führen Sie die folgenden Verfahren aus, um die Einwahlkonferenz-Pins der Benutz
 ## <a name="see-also"></a>Siehe auch
 
 
-[Zuweisen einer pro-Benutzer-PIN-Richtlinie in lync Server 2013](lync-server-2013-assign-a-per-user-pin-policy.md)  
+[Zuweisen einer benutzerbasierten PIN-Richtlinie in lync Server 2013](lync-server-2013-assign-a-per-user-pin-policy.md)  
   
 
 </div>

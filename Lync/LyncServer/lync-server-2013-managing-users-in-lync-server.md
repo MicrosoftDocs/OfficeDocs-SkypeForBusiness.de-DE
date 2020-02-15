@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verwalten von Benutzern in Lync Server'
+title: 'Lync Server 2013: Verwalten von Benutzern in lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49344809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35517b535c515bbb0fcfd28b69c99e27d0b9b175
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cb42a8504964ebbce18cc7ebad23059781f570d4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756059"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045517"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-users-in-lync-server-2013"></a>Verwalten von Benutzern in Lync Server 2013
+# <a name="managing-users-in-lync-server-2013"></a>Verwalten von Benutzern in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756059"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-17_
+_**Letztes Änderungsstand des Themas:** 2012-10-17_
 
-Sie können die lync Server 2013-Systemsteuerung und die lync Server 2013-Verwaltungsshell zum Verwalten von Benutzerkonten in lync Server 2013 verwenden. Die Verfahren in diesem Abschnitt führen Sie durch das Anzeigen von Kontoinformationen und das Konfigurieren der Einstellung für Benutzerkonten.
+Sie können die lync Server 2013-Systemsteuerung und lync Server 2013 Verwaltungsshell verwenden, um Benutzerkonten in lync Server 2013 zu verwalten. Mit den in diesem Abschnitt beschriebenen Verfahren zeigen Sie Kontoinformationen an und konfigurieren Einstellungen für Benutzerkonten.
 
 <div>
 
@@ -52,7 +52,7 @@ Sie können die lync Server 2013-Systemsteuerung und die lync Server 2013-Verwal
 ## <a name="see-also"></a>Siehe auch
 
 
-[Vorgänge in Lync Server 2013](lync-server-2013-operations.md)  
+[Vorgänge in lync Server 2013](lync-server-2013-operations.md)  
   
 
 </div>

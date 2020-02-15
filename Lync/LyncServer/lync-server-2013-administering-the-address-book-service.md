@@ -12,16 +12,16 @@ ms:contentKeyID: 48184649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d12b904cbb679b66579c7c669ba46e0d732034b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4ea7a68d77acd7bbaf3de43fce38c0e85c02dad4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737975"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037275"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41737975"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-02-05_
+_**Letztes Änderungsstand des Themas:** 2014-02-05_
 
-Als Teil der Bereitstellung von lync Server, Enterprise Edition oder Standard Edition-Server wird der Adressbuchdienst standardmäßig installiert. Die vom Adressbuchdienst – RTCab – verwendete Datenbank wird auf dem SQL Server erstellt (für Enterprise Edition, dies ist der Back-End-SQL-Server; für den Standard Edition-Server, den zusammengefassten SQL Server).
+Im Rahmen der Bereitstellung von lync Server, Enterprise Edition oder Standard Edition-Server wird der Adressbuchdienst standardmäßig installiert. Die vom Adressbuchdienst – RTCab – verwendete Datenbank wird auf dem SQL Server erstellt (für Enterprise Edition ist dies die Back-End-SQL Server; für Standard Edition-Server die verbundene SQL Server).
 
 <div>
 
 
 > [!NOTE]  
-> Informationen zur Verwendung der <STRONG>ADSI-Bearbeitung</STRONG> zum Bearbeiten von Active Directory-Objektattributen finden Sie unter <A href="http://go.microsoft.com/fwlink/?linkid=330427">ADSI-Bearbeitung</A>. Informationen zu einem Tool im Resource Kit speziell für den Adressbuchdienst finden Sie unter <A href="http://go.microsoft.com/fwlink/?linkid=330429">Microsoft lync Server 2013 Resource Kit-Tools</A>.
+> Informationen zum Bearbeiten von Active Directory-Domänendienste Objektattributen mithilfe von <STRONG>ADSI-Bearbeitung</STRONG> finden Sie unter <A href="http://go.microsoft.com/fwlink/?linkid=330427">ADSI Edit</A>. Informationen zu einem Tool im Resource Kit speziell für den Adressbuchdienst finden Sie unter <A href="http://go.microsoft.com/fwlink/?linkid=330429">Microsoft lync Server 2013 Resource Kit Tools</A>.
 
 
 
@@ -51,23 +51,23 @@ Als Teil der Bereitstellung von lync Server, Enterprise Edition oder Standard Ed
 
 <div>
 
-## <a name="address-book-server-phone-number-normalization"></a>Telefonnummernnormalisierung des Adressbuchservers
+## <a name="address-book-server-phone-number-normalization"></a>Normalisierung von Telefonnummern auf dem Adressbuchserver
 
-Lync Server erfordert standardisierte RFC 3966/E. 164-Telefonnummern. Um Telefonnummern zu verwenden, die nicht strukturiert oder inkonsistent formatiert sind, verwendet lync Server den Adressbuchserver, um Telefonnummern vorverarbeiten, bevor Sie an die Normalisierungsregeln übergeben werden. Wenn eine Telefonnummer aus dem Adressbuch verwendet wird und die Normalisierungsregel angewendet wird, können Clients wie lync Phone Edition und lync Mobile diese normalisierten Nummern verwenden.
+Lync Server erfordert standardisierte RFC 3966/E. 164-Telefonnummern. Um Telefonnummern zu verwenden, die unstrukturiert oder inkonsistent formatiert sind, verwendet lync Server den Adressbuch Server, um Telefonnummern vorverarbeiten, bevor Sie an die Normalisierungsregeln übergeben werden. Wenn eine Telefonnummer aus dem Adressbuch verwendet wird und die Normalisierungsregel angewendet wird, können Clients wie lync Phone Edition und lync Mobile diese normalisierten Nummern verwenden.
 
-Die Normalisierungsregeln, die in früheren Versionen verwendet wurden, funktionieren möglicherweise ohne Anpassungen nicht ordnungsgemäß. Da die Leerzeichen und nicht obligatorischen Zeichen vor den Normalisierungsregeln entfernt werden, wenn Ihr Regex-Ausdruck speziell nach einem Strich oder einem anderen Zeichen sucht, das entfernt wurde, schlägt die Normalisierungsregel möglicherweise fehl. Überprüfen Sie Ihre Normalisierungsregeln, um sicherzustellen, dass Sie nicht nach diesen nicht obligatorischen Zeichen suchen, oder dass die Regel ordnungsgemäß fehlschlägt und fortgesetzt werden kann, wenn das Zeichen nicht vorhanden ist, wenn es von der Regel erwartet wird.
+Die in früheren Versionen verwendeten Normalisierungsregeln funktionieren möglicherweise nicht ordnungsgemäß, wenn sie nicht angepasst werden. Da die Leerzeichen und die nicht erforderlichen Zeichen vor Einsatz der Normalisierungsregeln entfernt werden, tritt bei Ihrer Normalisierungsregel eventuell ein Fehler auf, falls der reguläre Ausdruck speziell nach einem Bindestrich oder einem anderen Zeichen sucht, das entfernt wurde. Überprüfen Sie Ihre Normalisierungsregeln, und stellen Sie sicher, dass sie nicht nach diesen nicht erforderlichen Zeichen suchen bzw. dass die Regel trotz Fehler fortgesetzt werden kann, wenn das Zeichen sich nicht an der von der Regel erwarteten Stelle befindet.
 
 </div>
 
 <div>
 
-## <a name="user-replicator-and-address-book-server"></a>Benutzer-Replikator und Adressbuch Server
+## <a name="user-replicator-and-address-book-server"></a>Benutzerreplikationsdienst und Adressbuchserver
 
-Der Adressbuch Server verwendet die vom Benutzerreplikationsdienst zur Verfügung gestellten Daten, um die Informationen zu aktualisieren, die er ursprünglich aus der globalen Adressliste (Global Address List, GAL) erhält. Der Benutzerreplikationsdienst schreibt die Attribute der Active Directory-Domänendienste für jeden Benutzer, Kontakt und jede Gruppe in die Tabelle AbUserEntry-Tabelle in der Datenbank, und der Adressbuchserver synchronisiert die Benutzerdaten aus der Datenbank in Dateien im Dateispeicher des Adressbuchservers und in die Adressbuchdatenbank RTCab. Das Schema für die Tabelle AbUserEntry-Tabelle verwendet zwei Spalten, **UserGuid** und **UserData**. **UserGuid** ist die Indexspalte und enthält die 16-Byte-GUID des Active Directory-Objekts. **UserData** ist eine Bildspalte, die alle zuvor erwähnten Attribute für Active Directory-Domänendienste für diesen Kontakt enthält.
+Der Adressbuchserver nutzt die vom Benutzerreplikationsdienst bereitgestellten Informationen zum Aktualisieren der Daten, die er anfangs von der globalen Adressliste (GAL) erhält. Der Benutzerreplikationsdienst schreibt die Active Directory-Domänendienste Attribute für alle Benutzer, Kontakte und Gruppen in die Tabelle AbUserEntry-Tabelle in der Datenbank, und der Adressbuchserver synchronisiert die Benutzerdaten aus der Datenbank in Dateien im Dateispeicher des Adressbuchservers und in die Adressbuchdatenbank RTCab. Das Schema für die Tabelle "AbUserEntry" verwendet zwei Spalten, **UserGuid** und **UserData**. **UserGuid** ist die Indexspalte und enthält die 16-Byte-GUID des Active Directory-Objekts. **UserData** ist eine Bildspalte, die alle zuvor erwähnten Active Directory-Domänendienste Attribute für diesen Kontakt enthält.
 
-Der Benutzerreplikationsdienst bestimmt, welche Active Directory-Attribute geschrieben werden sollen, indem Sie eine Konfigurationstabelle lesen, die sich in derselben SQL Server-basierten Instanz wie die Tabelle AbUserEntry-Tabelle befindet. Die AbAttribute-Tabelle enthält drei Spalten, **ID**, **Name**, **Flags**und **enable**. Die Tabelle wird beim Einrichten der Datenbank erstellt. Wenn die AbAttribute-Tabelle leer ist, überspringt der Benutzerreplikationsdienst die Tabelle AbUserEntry-Tabellen Verarbeitungslogik. Adressbuchserver Attribute sind dynamisch und werden aus der AbAttribute-Tabelle abgerufen, die zunächst vom Adressbuchserver geschrieben wird, wenn der Adressbuchserver aktiviert wird.
+Der Benutzerreplikationsdienst legt fest, welche Active Directory Attribute durchlesen einer Konfigurationstabelle, die sich in derselben SQL Server basierten Instanz wie die Tabelle AbUserEntry-Tabelle befindet, geschrieben werden sollen. Die Tabelle "AbAttribute" enthält vier Spalten, **ID**, **Name**, **Flags** und **Enable**. Die Tabelle wird bei der Datenbankeinrichtung erstellt. Ist die Tabelle "AbAttribute" leer, überspringt der Benutzerreplikationsdienst die Logik zur Verarbeitung der Tabelle "AbUserEntry". Die Adressbuchserver-Attribute sind dynamisch und werden aus der Tabelle "AbAttribute" geladen, die anfänglich vom Adressbuchserver bei seiner Aktivierung geschrieben wird.
 
-Bei der Aktivierung des Adressbuchservers wird die AbAttribute-Tabelle mit den in der folgenden Tabelle dargestellten Werten gefüllt.
+Die Aktivierung der Adressbuch Server füllt die AbAttribute-Tabelle mit den in der folgenden Tabelle aufgeführten Werten.
 
 
 <table>
@@ -80,57 +80,57 @@ Bei der Aktivierung des Adressbuchservers wird die AbAttribute-Tabelle mit den i
 <tr class="header">
 <th>ID</th>
 <th>Name</th>
-<th>Kennzeichnungen</th>
+<th>Flags</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
+<td><p>1 </p></td>
 <td><p>givenName</p></td>
 <td><p>0x01400000</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>2 </p></td>
 <td><p>SN</p></td>
 <td><p>0x02400000</p></td>
 </tr>
 <tr class="odd">
-<td><p>3</p></td>
-<td><p>DisplayName</p></td>
+<td><p>3 </p></td>
+<td><p>displayName</p></td>
 <td><p>0x03420000</p></td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>Titel</p></td>
 <td><p>0x04000000</p></td>
 </tr>
 <tr class="odd">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>mailNickname</p></td>
 <td><p>0x05400000</p></td>
 </tr>
 <tr class="even">
-<td><p>6</p></td>
-<td><p>Unternehmen</p></td>
+<td><p>6 </p></td>
+<td><p>Company</p></td>
 <td><p>0x06000000</p></td>
 </tr>
 <tr class="odd">
-<td><p>7</p></td>
+<td><p>7 </p></td>
 <td><p>physicalDeliveryOfficeName</p></td>
 <td><p>0x07000000</p></td>
 </tr>
 <tr class="even">
-<td><p>8</p></td>
+<td><p>8 </p></td>
 <td><p>msRTCSIP-PrimaryUserAddress</p></td>
 <td><p>0x08520C00</p></td>
 </tr>
 <tr class="odd">
-<td><p>9</p></td>
+<td><p>9 </p></td>
 <td><p>telephoneNumber</p></td>
 <td><p>0x09022800</p></td>
 </tr>
 <tr class="even">
-<td><p>10</p></td>
+<td><p>10 </p></td>
 <td><p>homePhone</p></td>
 <td><p>0x0A302800</p></td>
 </tr>
@@ -150,27 +150,27 @@ Bei der Aktivierung des Adressbuchservers wird die AbAttribute-Tabelle mit den i
 <td><p>0x0D302000</p></td>
 </tr>
 <tr class="even">
-<td><p>14</p></td>
-<td><p>Mail</p></td>
+<td><p>14 </p></td>
+<td><p>E-Mail</p></td>
 <td><p>0x0E500000</p></td>
 </tr>
 <tr class="odd">
-<td><p>15</p></td>
-<td><p>GroupType</p></td>
+<td><p>15 </p></td>
+<td><p>groupType</p></td>
 <td><p>0x0F010800</p></td>
 </tr>
 <tr class="even">
-<td><p>16</p></td>
+<td><p>16 </p></td>
 <td><p>Abteilung</p></td>
 <td><p>0x10000000</p></td>
 </tr>
 <tr class="odd">
-<td><p>17</p></td>
+<td><p>17 </p></td>
 <td><p>Beschreibung</p></td>
 <td><p>0x11000100</p></td>
 </tr>
 <tr class="even">
-<td><p>18</p></td>
+<td><p>18 </p></td>
 <td><p>Manager</p></td>
 <td><p>0x12040001</p></td>
 </tr>
@@ -193,7 +193,7 @@ Bei der Aktivierung des Adressbuchservers wird die AbAttribute-Tabelle mit den i
 </table>
 
 
-Die Zahlen in der Spalte " **ID** " müssen eindeutig sein und nie wieder verwendet werden. Außerdem wird durch das aufrecht erhalten der ID-Werte unter 256 Platz in den vom Adressbuch Server geschriebenen Ausgabedateien gespart. Der maximale ID-Wert ist jedoch 65535. Die Spalte **Name** entspricht dem Active Directory-Attributnamen, den der Benutzerreplikationsdienst in die Tabelle AbUserEntry-Tabelle für jeden Kontakt aufnehmen soll. Der Wert in der Spalte **Flags** wird verwendet, um den Typ des Attributs zu definieren. Die folgenden Typen von Adressbuch Server Attributen werden vom Benutzerreplikationsdienst erkannt, der durch das niedrige Byte des Werts in der Spalte **Flags** angegeben wird.
+Die Zahlen in der Spalte **ID** müssen eindeutig sein und sollten auf keinen Fall wiederverwendet werden. Wenn die ID-Werte unter 256 bleiben, wird hierdurch außerdem Speicherplatz in den vom Adressbuchserver geschriebenen Ausgabedateien eingespart. Der Höchstwert für ID-Werte ist jedoch 65535. Die Spalte **Name** entspricht dem Active Directory Attributnamen, den der Benutzerreplikationsdienst in der Tabelle AbUserEntry-Tabelle für jeden Kontakt platzieren soll. Der Wert in der Spalte **Flags** dient zum Definieren des Attributtyps. Der Benutzerreplikationsdienst erkennt die folgenden Typen von Adressbuchserverattributen, angegeben durch das niedrige Byte des Werts in der Spalte **Flags**.
 
 
 <table>
@@ -210,75 +210,75 @@ Die Zahlen in der Spalte " **ID** " müssen eindeutig sein und nie wieder verwen
 <tbody>
 <tr class="odd">
 <td><p>0x0</p></td>
-<td><p>Ein Zeichenfolgenattribut. Der Benutzerreplikationsdienst wandelt diesen Typ in UTF-8 um, bevor er ihn in der Tabelle AbUserEntry-Tabelle speichert.</p></td>
+<td><p>Ein Zeichenfolgenattribut. Der Benutzerreplikationsdienst konvertiert diesen Typ in UTF-8, bevor er in der Tabelle "AbUserEntry" gespeichert wird.</p></td>
 </tr>
 <tr class="even">
 <td><p>0x1</p></td>
-<td><p>Ein binäres Attribut. Der Benutzerreplikationsdienst speichert diese ohne Konvertierung im BLOB.</p></td>
+<td><p>Ein Binärattribut. Der Benutzerreplikationsdienst speichert dieses Attribut ohne Konvertierung im Blob.</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x2</p></td>
-<td><p>Ein Zeichenfolgenattribut, wird aber nur berücksichtigt, wenn der Attributwert &quot;mit Tel&quot;: beginnt. Dies gilt in erster Linie für mehrwertige Zeichenfolgenattribute, insbesondere für <strong>proxyAddresses</strong>. In diesem Fall ist der Adressbuch Server nur an <strong>proxyAddresses</strong> -Einträgen interessiert, &quot;die mit&quot;Tel: beginnen. Aus diesem Grund speichert der Benutzerreplikationsdienst im Interesse des Speicherplatzes nur die Einträge, &quot;die mit&quot;Tel: beginnen.</p></td>
+<td><p>Ein Zeichenfolgenattribut, ist jedoch nur enthalten, wenn der Attributwert &quot;mit Tel&quot;: beginnt. Dies wird hauptsächlich für Zeichenfolgenattribute mit mehreren Werten verwendet, vor allem <strong>proxyAddresses</strong>. In diesem Fall interessiert sich der Adressbuch Server nur für <strong>proxyAddresses</strong> -Einträge, die &quot;mit "&quot;Tel:" beginnen. Aus diesem Grund speichert der Benutzerreplikationsdienst im Interesse des Speicherplatzes nur die Einträge, &quot;die mit&quot;Tel: beginnen.</p></td>
 </tr>
 <tr class="even">
 <td><p>0x3</p></td>
-<td><p>Ein boolesches Zeichenfolgenattribut, das bei true bewirkt, dass der Benutzer Replicator diesen Kontakt nicht in die Tabelle AbUserEntry-Tabelle einfügt. Ist der Wert false, wird der Benutzerreplikationsdienst dazu veranlasst, die Attribute für diesen Kontakt in die Tabelle AbUserEntry-Tabelle einzubeziehen, jedoch nicht das jeweilige Attribut mit diesem Flag. Dies ist ein weiterer spezieller Case-Typ, der in erster Linie für das <strong>msExchHideFromAddressLists</strong> -Attribut steht.</p></td>
+<td><p>Ein Attribut mit boolescher Zeichenfolge. Lautet dieses TRUE, nimmt der Benutzerreplikationsdienst diesen Kontakt nicht in die Tabelle "AbUserEntry" auf. Lautet es FALSE, nimmt der Benutzerreplikationsdienst zwar die Attribute für diesen Kontakt in die Tabelle "AbUserEntry" auf, jedoch nicht das bestimmte Attribut mit diesem Kennzeichen. Dies ist ein weiterer Spezialtyp, der hauptsächlich für das Attribut <strong>msExchHideFromAddressLists</strong> gilt.</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x4</p></td>
-<td><p>Ein Zeichenfolgenattribut, wird aber nur berücksichtigt, wenn der Attributwert &quot;mit SMTP&quot; beginnt: und &quot; @ &quot; das Symbol enthält.</p></td>
+<td><p>Ein Zeichenfolgenattribut, ist jedoch nur enthalten, wenn der Attributwert &quot;mit SMTP&quot; beginnt: und &quot; @ &quot; das Symbol enthält.</p></td>
 </tr>
 <tr class="even">
 <td><p>0x5</p></td>
-<td><p>Ein Zeichenfolgenattribut, wird aber nur berücksichtigt, wenn der Attributwert entweder &quot;mit "&quot; Tel &quot;:"&quot; oder "SMTP &quot; @ &quot; :" beginnt und das Symbol enthält.</p></td>
+<td><p>Ein Zeichenfolgenattribut, ist jedoch nur enthalten, wenn der Attributwert mit &quot;Tel:&quot; oder &quot;SMTP:&quot; beginnt und das &quot; @ &quot; Symbol enthält.</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x100</p></td>
-<td><p>Wenn festzulegen, handelt es sich um ein mehrwertiges Attribut, das für jeden Kontakt mehrmals angezeigt werden kann.</p></td>
+<td><p>Wird dieses festgelegt, handelt es sich um ein Attribut mit mehreren Werten, das für jeden Kontakt mehrmals vorhanden sein kann.</p></td>
 </tr>
 <tr class="even">
 <td><p>0x400</p></td>
-<td><p>Wenn diese Einstellung festgesetzt ist, wird das Attribut "e-Mail-Benutzerkontoname" für einen Kontakt angegeben. Der Adressbuch Server verwendet dieses Flag, um zu ermitteln, welcher Attributwert im Ereignisprotokolleintrag für die Telefon Normalisierung angezeigt werden soll.</p></td>
+<td><p>Wird dieses Attribut festgelegt, wird hierdurch für einen Kontakt das Attribut für den Kontonamen des E-Mail-Benutzers angegeben. Der Adressbuchserver stellt anhand dieses Kennzeichens fest, welcher Attributwert im Ereignisprotokolleintrag für die Telefonnormalisierung aufgeführt werden soll.</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x800</p></td>
-<td><p>Wenn festzulegen, wird ein erforderliches Attribut für einen Kontakt angegeben. Der Adressbuch Server enthält nur dann einen Benutzer in der Tabelle AbUserEntry-Tabelle, wenn ein Wert für dieses Attribut in Active Directory vorhanden ist. Wenn mehr als ein erforderliches Attribut vorhanden ist, muss nur einer von Ihnen über einen Wert verfügen, um den Benutzer in die Tabelle AbUserEntry-Tabelle einzubeziehen.</p></td>
+<td><p>Wird dieses Attribut festgelegt, wird hierdurch ein erforderliches Attribut für einen Kontakt angegeben. Der Adressbuchserver nimmt einen Benutzer nur dann in die Tabelle "AbUserEntry" auf, wenn ein Wert für dieses Attribut in Active Directory vorhanden ist. Gibt es mehrere erforderliche Attribute, muss nur eines davon über einen Wert verfügen, damit der Benutzer in die Tabelle "AbUserEntry" aufgenommen wird.</p></td>
 </tr>
 <tr class="even">
 <td><p>0x1000</p></td>
-<td><p>Wenn der Wert für Address Book Server gesetzt ist, wird der Wert dieses Attributs immer normalisiert.</p></td>
+<td><p>Wird dieses Attribut festgelegt, normalisiert der Adressbuchserver immer den Wert dieses Attributs.</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x2000</p></td>
-<td><p>Ist der Wert festgelegt, verwendet der Adressbuch Server die normalisierte Zahl von <strong>proxyAddresses</strong>, wenn die <strong>UseNormalizationRules</strong> -CMS-Einstellung falsch ist. Andernfalls verhält es sich wie beim Flag-Bit 0x1000.</p></td>
+<td><p>Wird dieses Attribut festgelegt, verwendet der Adressbuchserver die normalisierte Nummer aus <strong>proxyAddresses</strong>, wenn die CMS-Einstellung <strong>UseNormalizationRules</strong> FALSE lautet; andernfalls verhält er sich so wie bei Einstellung des Kennzeichenbits auf 0x1000.</p></td>
 </tr>
 <tr class="even">
 <td><p>0x4000</p></td>
-<td><p>Wenn festgelegt, enthält der Adressbuch Server keine Objekte in der Tabelle AbUserEntry-Tabelle, die diesen Wert für das angegebene Attribut aufweisen. Wenn beispielsweise für das <strong>Attribut msRTCSIP-PrimaryUserAddress-</strong> Attribut dieses Flag-Bit festgesetzt ist, werden Kontakte mit diesem Attribut nicht in die Datenbank geschrieben.</p></td>
+<td><p>Wird dieses Attribut festgelegt, nimmt der Adressbuchserver keine Objekte in die Tabelle "AbUserEntry" auf, die diesen Wert für das angegebene Attribut aufweisen. Wenn dieses Kennzeichenbit beispielsweise für das Attribut <strong>msRTCSIP-PrimaryUserAddress</strong> festgelegt wurde, werden Kontakte mit diesem Attribut nicht in die Datenbank geschrieben.</p></td>
 </tr>
 <tr class="odd">
 <td><p>0X8000</p></td>
-<td><p>Wenn festgelegt, enthält der Adressbuch Server keine Objekte in der Tabelle AbUserEntry-Tabelle, die diesen Wert für das angegebene Attribut nicht aufweisen. Wenn sowohl die 0x4000-als auch die 0X8000-Flag-Bits für ein Objekt gesetzt sind, hat das Attribut mit dem Flag-Bit-Wert, der auf 0x4000 gesetzt ist, Vorrang, und das Objekt wird aus der Tabelle AbUserEntry-Tabelle ausgeschlossen.</p></td>
+<td><p>Wird dieses Attribut festgelegt, nimmt der Adressbuchserver keine Objekte in die Tabelle "AbUserEntry" auf, die nicht diesen Wert für das angegebene Attribut aufweisen. Wurden beide Kennzeichenbits "0x4000" und "0x8000" für ein Objekt festgelegt, erhält das Attribut mit dem Kennzeichenbit "0x4000" Vorrang, und das Objekt wird aus der Tabelle "AbUserEntry" ausgeschlossen.</p></td>
 </tr>
 <tr class="even">
 <td><p>0x10000</p></td>
-<td><p>Wenn diese Einstellung eingestellt ist, stellt dies ein Group-Objekt dar. Der Benutzerreplikationsdienst verwendet dieses Flag-Bit, um Kontakte mit dem <strong>GroupType</strong> -Attribut einzubeziehen, deren Anwesenheitsstatus auf eine Gruppe (beispielsweise eine Verteilerliste oder eine Sicherheitsgruppe) hinweist.</p></td>
+<td><p>Wird dieses Attribut festgelegt, steht dies für ein Gruppenobjekt. Der Benutzerreplikationsdienst verwendet dieses Kennzeichen zum Aufnehmen von Objekten mit dem Attribut <strong>groupType</strong>, dessen Vorhandensein auf eine Gruppe hinweist (z. B. eine Verteilerliste oder Sicherheitsgruppe).</p></td>
 </tr>
 <tr class="odd">
 <td><p>0x20000</p></td>
-<td><p>Ist dieser Wert festzulegen, verwendet der Benutzerreplikationsdienst dieses Flag-Bit, um dieses Attribut in gerätespezifische Adressbuch Server Dateien (also Dateien mit der Erweiterung ". kleckse") einzubeziehen.</p></td>
+<td><p>Wird dieses Attribut festgelegt, verwendet der Benutzerreplikationsdienst dieses Kennzeichenbit zum Aufnehmen dieses Attributs in gerätespezifischen Adressbuchserver-Dateien (also Dateien mit der Erweiterung DABS).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-In früheren Versionen von lync Server musste der Administrator beim Anwenden einer Änderung an Active Directory die Windows PowerShell-Cmdlets **Update-CSUserDatabase** und **Update – CSAddressBook** ausführen, um die Änderung an der lync Server-Benutzerdatenbank und der RTCab-Datenbank sofort beizubehalten. In lync Server 2013 wird der lync Server-Benutzerreplikationsdienst die Änderungen aus Active Directory aufnehmen und die lync Server-Benutzerdatenbank basierend auf einem konfigurierten Intervall aktualisieren. Der lync Server-Benutzerreplikationsdienst gibt die Änderungen auch schnell an die RTCab-Datenbank weiter, ohne dass der Administrator Update-CSAddressBook ausführen muss. Wenn die Adressbuch-Webabfrage aktiviert ist, werden die Änderungen in den Suchergebnissen von lync-Clients wiedergegeben. Administratoren müssen nur Update-CSAddressBook ausführen, wenn der Download der Adressbuchdatei aktiviert ist.
+In früheren Versionen von lync Server muss der Administrator beim Anwenden einer Änderung an Active Directory die Cmdlets " **Update-CSUserDatabase** " und " **Update – Windows PowerShell CSAddressBook** " ausführen, um die Änderung an der lync Server Benutzerdatenbank und der RTCab-Datenbank sofort beizubehalten. In lync Server 2013 übernimmt lync Server Benutzerreplikationsdienst die Änderungen aus Active Directory und aktualisiert die lync Server Benutzerdatenbank basierend auf einem konfigurierten Intervall. Lync Server Benutzerreplikationsdienst wird die Änderungen auch schnell an die RTCab-Datenbank weitergeben, ohne dass der Administrator Update-CSAddressBook ausführen muss. Wenn die Adressbuch-Webabfrage aktiviert ist, werden die Änderungen in den Suchergebnissen von lync-Clients wiedergegeben. Administratoren müssen Update-CSAddressBook nur ausführen, wenn der Download der Adressbuchdatei aktiviert ist.
 
 <div>
 
 
 > [!NOTE]  
-> Standardmäßig wird der lync Server-Benutzerreplikationsdienst automatisch alle 5 Minuten ausgeführt. Sie können dieses Intervall mithilfe von "Satz-CSUserReplicatorConfiguration-ReplicationCycleInterval &lt; &gt;" konfigurieren.
+> Standardmäßig wird lync Server Benutzerreplikationsdienst alle 5 Minuten automatisch ausgeführt. Sie können dieses Intervall mithilfe von "Menge-CSUserReplicatorConfiguration-ReplicationCycleInterval &lt; &gt;" konfigurieren.
 
 
 
@@ -290,21 +290,21 @@ In früheren Versionen von lync Server musste der Administrator beim Anwenden ei
 
 ## <a name="filtering-the-address-book"></a>Filtern des Adressbuchs
 
-Die in den Adressbuch Server Dateien aufgefüllten Benutzer können basierend auf bestimmten Active Directory-Domänendienst Attributen, die in der AbAttribute-Tabelle aufgelistet sind, gesteuert werden. Ein solches Attribut, das für die Filterung verwendet wird, ist das **msExchangeHideFromAddressBook** -Attribut. Hierbei handelt es sich um ein vom Exchange-Schema hinzugefügtes Benutzerattribut. Wenn der Wert dieses Attributs wahr ist, verwendet Exchange Server dieses Attribut zum Ausblenden des Kontakts aus der globalen Outlook-Adressliste (GAL). Wenn der Wert dieses Attributs auf "true" festgelegt ist, enthält der Benutzerreplikationsdienst diesen Benutzer in der Tabelle AbUserEntry-Tabelle nicht, und dieser Benutzer befindet sich nicht in den Adressbuch Server Dateien.
+Die in den Adressbuch Server-Dateien aufgefüllten Benutzer können basierend auf bestimmten Active Directory-Domänendienste Attributen, die in der AbAttribute-Tabelle aufgeführt sind, gesteuert werden. Das Attribut **msExchangeHideFromAddressBook** ist ein solches Filterattribut. Hierbei handelt es sich um ein Benutzerattribut, das durch das Exchange-Schema hinzugefügt wird. Wenn der Wert dieses Attributs TRUE lautet, blendet Exchange Server den Kontakt aus der globalen Outlook-Adressliste (GAL) aus. Lautet der Wert dieses Attributs TRUE, nimmt der Benutzerreplikationsdienst außerdem den betreffenden Benutzer nicht in die Tabelle "AbUserEntry" auf, und der Benutzer ist nicht in den Adressbuchserver-Dateien enthalten.
 
-Sie können einige Flag-Bits verwenden, um einen Filter für die Verwendung in Adressbuch Server Attributen zu definieren. So kann beispielsweise das vorhanden sein bestimmter kennzeichenbits ein Attribut als Include-Attribut oder Exclude-Attribut identifizieren. Der Benutzerreplikationsdienst filtert Kontakte aus, die ein Exclude-Attribut enthalten, und filtert Contains, die kein Include-Attribut enthalten.
+Mithilfe einiger Kennzeichenbits können Sie einen Filter definieren, der für Adressbuchserver-Attribute verwendet wird. Beispielsweise kann das Attribut anhand bestimmter vorhandener Kennzeichenbits als Include- oder als Exclude-Attribut gekennzeichnet werden. Der Benutzerreplikationsdienst filtert Kontakte heraus, die ein Exclude-Attribut enthalten, sowie Kontakte, die kein Include-Attribut aufweisen.
 
 <div>
 
 
 > [!WARNING]  
-> Weitere Informationen zum Filtern des Adressbuchs finden Sie unter <A href="https://technet.microsoft.com/en-us/library/gg415643(v=ocs.15)">Adressbuch Server-Cmdlets in lync Server 2013</A>und <A href="http://go.microsoft.com/fwlink/?linkid=330430">Filtern des lync 2013-Adressbuchs</A> .
+> Weitere Informationen zum Filtern des Adressbuchs finden Sie unter <A href="https://technet.microsoft.com/library/gg415643(v=ocs.15)">Address Book Server-Cmdlets in lync Server 2013</A>und <A href="http://go.microsoft.com/fwlink/?linkid=330430">Filtern lync 2013 Adressbuchs</A> .
 
 
 
 </div>
 
-Derzeit gibt es drei verschiedene Filter. In der folgenden Tabelle sind diese Filter aufgelistet.
+Zurzeit gibt es drei verschiedene Filter. Diese Filter werden in der folgenden Tabelle gezeigt.
 
 
 <table>
@@ -321,15 +321,15 @@ Derzeit gibt es drei verschiedene Filter. In der folgenden Tabelle sind diese Fi
 <tbody>
 <tr class="odd">
 <td><p>0x800</p></td>
-<td><p>Wenn festzulegen, wird ein erforderliches Attribut für einen Kontakt angegeben. Der Benutzerreplikationsdienst verwendet dieses Flag-Bit, um Kontakte zu filtern, die nicht mindestens ein erforderliches Attribut enthalten. OuPathId ist ein erforderliches Attribut, das immer gesetzt ist. Daher sollte mindestens eines der anderen erforderlichen Attribute festzulegen sein. Andernfalls wird der Kontakt (mit dem Wert des required-Attributs OuPathId) immer noch nicht in die Datenbank geschrieben. Wenn beispielsweise <strong>telephoneNumber</strong> und <strong>homePhone</strong> als erforderliche Attribute definiert sind, werden nur die Kontakte, die mindestens eines dieser Attribute aufweisen, in die Datenbank geschrieben.</p></td>
+<td><p>Wird dieses Attribut festgelegt, wird hierdurch ein erforderliches Attribut für einen Kontakt angegeben. Der Benutzerreplikationsdienst filtert anhand dieses Kennzeichenbits Kontakte heraus, die nicht mindestens eines der erforderlichen Attribute enthalten. "OuPathId" ist ein erforderliches Attribut, das immer festgelegt ist. Daher sollte mindestens ein weiteres erforderliches Attribut festgelegt sein. Andernfalls wird der Kontakt (also mit dem Wert des erforderlichen Attributs "OuPathId") dennoch nicht in die Datenbank geschrieben. Wenn beispielsweise <strong>telephoneNumber</strong> und <strong>homePhone</strong> als erforderliche Attribute definiert sind, werden nur die Kontakte in die Datenbank geschrieben, die mindestens eines dieser Attribute aufweisen.</p></td>
 </tr>
 <tr class="even">
 <td><p>0x4000</p></td>
-<td><p>Wenn festzulegen, wird ein Exclude-Attribut identifiziert. Der Benutzerreplikationsdienst verwendet dieses Flag-Bit, um Kontakte zu filtern, die dieses Attribut enthalten. Wenn beispielsweise <strong>Attribut msRTCSIP-PrimaryUserAddress</strong> als Exclude-Attribut definiert ist, werden Kontakte mit diesem Attribut nicht in die Datenbank geschrieben.</p></td>
+<td><p>Wird dieses Attribut festgelegt, weist dies auf ein Exclude-Attribut hin. Der Benutzerreplikationsdienst filtert anhand dieses Kennzeichenbits Kontakte heraus, die dieses Attribut enthalten. Wenn beispielsweise <strong>msRTCSIP-PrimaryUserAddress</strong> als Exclude-Attribut festgelegt wurde, werden Kontakte mit diesem Attribut nicht in die Datenbank geschrieben.</p></td>
 </tr>
 <tr class="odd">
 <td><p>0X8000</p></td>
-<td><p>Wenn festzulegen, wird ein Include-Attribut angegeben. Der Benutzerreplikationsdienst verwendet dieses Flag-Bit, um Kontakte zu filtern, die dieses Attribut nicht enthalten. Wenn beispielsweise <strong>Attribut msRTCSIP-PrimaryUserAddress</strong> als Include-Attribut definiert ist, werden nur die Kontakte, die dieses Attribut aufweisen, in die Datenbank geschrieben.</p></td>
+<td><p>Wird dieses Attribut festgelegt, weist dies auf ein Include-Attribut hin. Der Benutzerreplikationsdienst filtert anhand dieses Kennzeichenbits Kontakte heraus, die dieses Attribut nicht enthalten. Wenn beispielsweise <strong>msRTCSIP-PrimaryUserAddress</strong> als Include-Attribut festgelegt wurde, werden nur Kontakte mit diesem Attribut in die Datenbank geschrieben.</p></td>
 </tr>
 </tbody>
 </table>
@@ -339,23 +339,23 @@ Derzeit gibt es drei verschiedene Filter. In der folgenden Tabelle sind diese Fi
 
 
 > [!NOTE]  
-> Wenn sowohl das 0x4000 (Exclude-Attribut) als auch das 0X8000 (Include-Attribut)-Flag-Bits gesetzt sind, überschreibt das 0x4000-Bit das 0X8000-Bit, und der Kontakt wird ausgeschlossen.
+> Wurden sowohl das Kennzeichenbit "0x4000" (Exclude-Attribut) als auch das Kennzeichenbit "0x8000" (Include-Attribut) festgelegt, setzt das Bit "0x4000" das Bit "0x8000" außer Kraft, und der Kontakt wird ausgeschlossen.
 
 
 
 </div>
 
-Zwar können Sie das Adressbuch so filtern, dass nur bestimmte Benutzer eingeschlossen werden, aber das Einschränken von Einträgen schränkt nicht die Möglichkeit anderer Benutzer ein, die gefilterten Benutzer zu kontaktieren oder Ihren Anwesenheitsstatus anzuzeigen. Benutzer können jederzeit Sofortnachrichten suchen, manuell senden oder Anrufe an Benutzer, die sich nicht im Adressbuch befinden, manuell initiieren, indem Sie den vollständigen Anmeldenamen eines Benutzers eingeben. Auch Kontaktinformationen für einen Benutzer finden Sie in Outlook.
+Auch wenn Sie das Adressbuch so filtern können, dass es nur bestimmte Benutzer enthält, wird durch diese Einschränkung der Einträge nicht die Möglichkeit der Benutzer beschränkt, die gefilterten Benutzer zu kontaktieren oder deren Anwesenheitsstatus anzuzeigen. Benutzer können nicht im Adressbuch enthaltene Benutzer immer finden, manuell Sofortnachrichten senden oder manuell Anrufe an diese Benutzer tätigen, indem sie den vollständigen Anmeldenamen eines Benutzers eingeben. Außerdem können auch Kontaktinformationen für einen Benutzer in Outlook gefunden werden.
 
-Wenn Sie über vollständige Kontaktdatensätze in den Adressbuchdateien verfügen, können Sie mithilfe von lync Server e-Mail-, Telefon-oder Enterprise-Sprachanrufe initiieren (das heißt, wenn Enterprise-VoIP auf dem Server aktiviert ist), mit Benutzern, die nicht für die Sitzungs Initiierung konfiguriert sind. Protocol (SIP) verwenden, ziehen einige Organisationen es vor, nur SIP-fähige Benutzer in Ihre Adressbuch Server Einträge einzubeziehen. Sie können das Adressbuch so filtern, dass nur SIP-fähige Benutzer eingeschlossen werden, indem Sie das 0x800-Bit in der Spalte **Flags** der folgenden erforderlichen Attribute löschen: **mailNickname**, **telephoneNumber**, **homePhone**und **Handy**. Sie können das Adressbuch auch filtern, um nur SIP-fähige Benutzer einzubeziehen, indem Sie das 0X8000 (Include-Attribut) in der Spalte **Flags** des **Attribut msRTCSIP-PrimaryUserAddress-** Attributs festlegen. Dadurch können auch Dienstkonten aus den Adressbuchdateien ausgeschlossen werden.
+Bei vollständigen Kontaktdatensätzen in den Adressbuchdateien können Sie lync Server verwenden, um e-Mail-, Telefon-oder Enterprise-VoIP-Anrufe zu initiieren (Wenn Enterprise-VoIP auf dem Server aktiviert ist) mit Benutzern, die nicht für die Sitzungs Initiierung konfiguriert sind. Protocol (SIP) möchten einige Organisationen nur SIP-aktivierte Benutzer in Ihre Adressbuch Server Einträge einschließen. Sie können das Adressbuch filtern, um nur SIP-aktivierte Benutzer einzuschließen, indem Sie das 0x800-Bit in der Spalte **Flags** der folgenden erforderlichen Attribute deaktivieren: **mailnick Name**, **telephoneNumber**, **homePhone**und **Mobile**. Sie können das Adressbuch auch filtern, um nur SIP-aktivierte Benutzer einzuschließen, indem Sie das 0X8000 (Include-Attribut) in der Spalte **Flags** des **msRTCSIP-PrimaryUserAddress-** Attributs festlegen. Dies hilft auch, Dienstkonten aus den Adressbuchdateien auszuschließen.
 
-Nachdem Sie die AbAttribute-Tabelle geändert haben, können Sie die Daten in der Tabelle AbUserEntry-Tabelle aktualisieren, indem Sie den Befehl Cmdlet **Update-CsUserDatabase** ausführen. Nach Abschluss der ur-Replikation können Sie die Datei im Dateispeicher des Adressbuchservers aktualisieren, indem Sie den Befehl Cmdlet **UpdateCsAddressBook** manuell ausführen.
+Nachdem Sie die Tabelle "AbAttribute" geändert haben, können Sie die Daten in der Tabelle "AbUserEntry" aktualisieren, indem Sie das Cmdlet**Update-CsUserDatabase** ausführen. Nach Abschluss der Benutzerreplikation können Sie die Datei im Adressbuchserver-Dateispeicher aktualisieren, indem Sie manuell das Cmdlet **UpdateCsAddressBook** ausführen.
 
 <div>
 
 
 > [!NOTE]  
-> Der Front-End-Server, auf dem der Adressbuchserver gespeichert ist, kann nicht administrativ konfiguriert werden. Eine wird während der Bereitstellung ausgewählt – in der Regel der erste bereitgestellte Front-End-Server. Bei einem Fehler wechselt der Adressbuchdienst zu einem anderen Front-End-Server und erfordert keine administrative Beachtung.
+> Der Front-End-Server, dass der Adressbuch Server gespeichert wird, ist nicht administrativ konfigurierbar. Eine wird während der Bereitstellung ausgewählt – in der Regel der erste bereitgestellte Front-End-Server. Im Falle eines Fehlers wechselt der Adressbuchdienst zu einem anderen Front-End-Server und erfordert keine administrative Aufmerksamkeit.
 
 
 
@@ -365,7 +365,7 @@ Nachdem Sie die AbAttribute-Tabelle geändert haben, können Sie die Daten in de
 
 
 > [!IMPORTANT]  
-> Wenn Sie Ihre Infrastruktur von einer Bereitstellung mit mehreren Gesamtstrukturen oder von einer übergeordneten/untergeordneten Bereitstellung konsolidiert oder anderweitig geändert haben (wie etwa das Konsolidieren Ihrer Infrastruktur vor dem Wechsel zu lync Server), stellen Sie möglicherweise fest, dass der Download des Adressbuchdiensts und die Adressbuch-Webabfrage für einige Benutzer fehlschlägt. Bei einer Bereitstellung mit mehreren Domänen oder Gesamtstrukturen wird das Attribut <STRONG>Attribut msRTCSIP-OriginatorSid</STRONG> für die Benutzerobjekte aufgefüllt, die das Problem aufweisen. Das <STRONG>Attribut msRTCSIP-OriginatorSid-</STRONG> Attribut muss für diese Objekte auf Null festgesetzt werden, um das Problem zu beheben.
+> Wenn Sie Ihre Infrastruktur von einer Bereitstellung mit mehreren Gesamtstrukturen oder einer übergeordneten/untergeordneten Bereitstellung konsolidiert oder anderweitig geändert haben (beispielsweise die Konsolidierung Ihrer Infrastruktur vor dem Wechsel zu lync Server), können Sie feststellen, dass der Adressbuchdienst herunterladen und die Adressbuch-Webabfrage für einige Benutzer fehlschlägt. In einer Bereitstellung, die zuvor mehrere Domänen oder Gesamtstrukturen umfasste, ist das Attribut <STRONG>MsRTCSIP-OriginatorSid</STRONG> für die Benutzerobjekte belegt, bei denen das Problem auftritt. Das Attribut <STRONG>MsRTCSIP-OriginatorSid</STRONG> muss für diese Objekte auf NULL gesetzt werden, um das Problem zu beheben.
 
 
 

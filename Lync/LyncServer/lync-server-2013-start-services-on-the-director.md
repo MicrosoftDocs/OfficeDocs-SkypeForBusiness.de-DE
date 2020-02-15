@@ -12,20 +12,20 @@ ms:contentKeyID: 48183351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b15b1285fa81f59c2b0a116e8ee80eeee2e8e952
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 94d4ab3755739742f96cb2b0f4377d4059d63bfd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731825"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038767"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="start-services-on-the-director-in-lync-server-2013"></a>Starten von Diensten auf dem Director in Lync Server 2013
+# <a name="start-services-on-the-director-in-lync-server-2013"></a>Starten von Diensten auf dem Director in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731825"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-08_
+_**Letztes Änderungsstand des Themas:** 2012-09-08_
 
-Nachdem Sie den lokalen Konfigurationsspeicher installiert, die lync Server-Komponenten installiert und Zertifikate auf einem Director konfiguriert haben, müssen Sie die lync Server-Dienste auf dem Server starten. Mit dem folgenden Verfahren können Sie Dienste für jeden Director in Ihrer Bereitstellung starten.
+Nachdem Sie den lokalen Konfigurationsspeicher installiert, die lync Server Komponenten installiert und Zertifikate für einen Director konfiguriert haben, müssen Sie die lync Server Dienste auf dem Server starten. Verwenden Sie das folgende Verfahren, um die Dienste auf jedem Director in Ihrer Umgebung zu starten.
 
 <div>
 
@@ -45,13 +45,13 @@ Nachdem Sie den lokalen Konfigurationsspeicher installiert, die lync Server-Komp
 
 1.  Klicken Sie im lync Server-Bereitstellungs-Assistenten auf der Seite **lync Server 2013** auf die Schaltfläche **Ausführen** neben **Schritt 4: Dienste starten**.
 
-2.  Klicken Sie auf der Seite **Dienste starten** auf **weiter** , um die lync Server-Dienste auf dem Server zu starten.
+2.  Klicken Sie auf der Seite **Dienste starten** auf **weiter** , um die lync Server Dienste auf dem Server zu starten.
 
 3.  Klicken Sie nach dem erfolgreichen Start aller Dienste auf der Seite **Befehle ausführen** auf **Fertig stellen**.
 
-4.  Klicken Sie unter **Schritt 4: Dienste starten**auf **Dienst Status (optional)**.
+4.  Klicken Sie unterhalb von **Schritt 4: Dienste starten** auf **Dienststatus (optional)**.
 
-5.  Überprüfen Sie in der Microsoft Management Console (MMC) **Dienste** auf dem Server, ob alle lync Server 2013-Dienste ausgeführt werden.
+5.  Überprüfen Sie in der Microsoft Management Console (MMC) **Dienste** auf dem Server, ob alle lync Server 2013 Dienste aktiv sind.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 54973686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a7aa10719a357100ce38da6616ef6c79d6a4a10
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 50238b10bf5667b51d4b3998ee995283ebdb4fc3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755145"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045457"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755145"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-07-11_
+_**Letztes Änderungsstand des Themas:** 2013-07-11_
 
-Die zweistufige Authentifizierung bietet verbesserte Sicherheit, da Benutzer zwei Authentifizierungskriterien erfüllen müssen: eine Kombination aus Benutzername und Kennwort sowie ein Token oder Zertifikat. Dies wird auch als „etwas, das du hast, und etwas, das du weißt“ bezeichnet. Ein typisches Beispiel für eine zweistufige Authentifizierung ist die Nutzung von Smartcards. Eine Smartcard enthält ein Zertifikat, das einem Benutzerkonto zugewiesen ist und welches mit den Benutzer- und Zertifikatinformationen überprüft werden kann, die auf einem Server gespeichert sind. Durch Abgleichen der Benutzerinformationen (Benutzername und Kennwort) mit dem bereitgestellten Zertifikat überprüft der Server die Anmeldeinformationen, sodass er den Benutzer authentifizieren kann.
+Die zweistufige Authentifizierung bietet eine höhere Sicherheit, da die Benutzer zwei Authentifizierungskriterien erfüllen müssen: eine Kombination aus Benutzername und Kennwort sowie ein Token oder Zertifikat. Dies wird auch als etwas bekanntes bezeichnet, das Sie kennen. Ein typisches Beispiel für die zweistufige Authentifizierung mit einem Zertifikat ist die Verwendung von Smartcards. Eine Smartcard enthält ein Zertifikat, das dem Benutzerkonto zugeordnet ist, und kann anhand der auf einem Server gespeicherten Benutzer-und Zertifikatinformationen überprüft werden. Wenn Sie die Benutzerinformationen (Benutzername und Kennwort) mit dem bereitgestellten Zertifikat vergleichen, überprüft der Server die Anmeldeinformationen und authentifiziert den Benutzer.
 
 <div>
 

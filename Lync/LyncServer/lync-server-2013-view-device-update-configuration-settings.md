@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anzeigen von Konfigurationseinstellungen für das Geräteupdate'
+title: 'Lync Server 2013: Anzeigen von Konfigurationseinstellungen für Geräte Updates'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01edeb2d40fae7b82ac35fb5561a1332f67c9e11
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7cf34d5f8241735263547fe64dc0f3e3b124bb10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731095"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051057"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>Anzeigen von Konfigurationseinstellungen für das Geräteupdate in Lync Server 2013
+# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a>Anzeigen von Konfigurationseinstellungen für Geräte Updates in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41731095"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-20_
+_**Letztes Änderungsstand des Themas:** 2013-02-20_
 
-Sie können die Konfigurationseinstellungen für den Geräteaktualisierungsdienst mithilfe der lync Server-Verwaltungsshell und dem Cmdlet **Get-CsDeviceUpdateConfiguration** anzeigen, das Sie über die lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen können.
+Sie können die Konfigurationseinstellungen für den Geräte Update Dienst mit lync Server-Verwaltungsshell und dem Cmdlet **Get-CsDeviceUpdateConfiguration** anzeigen, das Sie über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen können.
 
 <div>
 
 
 > [!NOTE]  
-> Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Remote-PowerShell" unter.
+> Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>mithilfe von Remote-PowerShell" unter.
 
 
 
@@ -55,11 +55,11 @@ Sie können die Konfigurationseinstellungen für den Geräteaktualisierungsdiens
 <div>
 
 
-  - Wenn Sie Informationen zu allen VoIP-Routen anzeigen möchten, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein, und drücken Sie die EINGABETASTE:
+  - Wenn Sie Informationen zu allen VoIP-Routen anzeigen möchten, geben Sie den folgenden Befehl in das lync Server-Verwaltungsshell ein, und drücken Sie die EINGABETASTE:
     
         Get-CsDeviceUpdateConfiguration
     
-    Mit diesem Befehl werden Informationen ähnlich der folgenden zurückgegeben:
+    Mit diesem Befehl werden Informationen nach folgendem Muster zurückgegeben:
     
         Identity               : Global
         ValidLogFileTypes      : {Watson, Config, Diaglog, CELog}
@@ -72,7 +72,7 @@ Sie können die Konfigurationseinstellungen für den Geräteaktualisierungsdiens
 
 </div>
 
-Details zu diesem Cmdlet finden Sie unter Hilfethema unter [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration).
+Ausführliche Informationen zu diesem Cmdlet finden Sie unter Hilfethema unter [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration).
 
 </div>
 

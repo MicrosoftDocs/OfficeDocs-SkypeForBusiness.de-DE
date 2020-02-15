@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013-Kompatibilität mit der Ausfallsicherheit für innerstädtische Standorte in Lync Server 2010
+title: Lync Server 2013 Kompatibilität mit lync Server 2010 Ausfallsicherheit von großstädtischen Standorten
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 395ec568ebafea5c7a06e19340ff5ad10158ffb3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2f432941773b72d18c22adc87779341996771399
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742745"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045607"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2010-metropolitan-site-resiliency"></a>Ausfallsicherheit für innerstädtische Standorte in Lync Server 2010
+# <a name="lync-server-2010-metropolitan-site-resiliency"></a>Ausfallsicherheit für lync Server 2010 Metropole-Standort
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41742745"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-03-19_
+_**Letztes Änderungsstand des Themas:** 2014-03-19_
 
-Die für lync Server 2010 unterstützte Lösung für die Stabilität der Metropolitan-Website wird für lync Server 2013 nicht unterstützt. Diese Lösung umfasst einen einzigen Front-End-Pool über zwei Rechenzentren im gleichen Ballungsraum.
+Die für lync Server 2010 unterstützte Lösung für die Ausfallsicherheit von Metropolitan Site wird für lync Server 2013 nicht unterstützt. Diese Lösung beinhaltete einen einzelnen Front-End-Pool, der zwei Rechenzentren im selben innerstädtischen Gebiet umfasst.
 
-Die Resilienz-Lösung für Metropolitan Site wurde entwickelt, um den Verlust eines vollständigen Rechenzentrums zu beheben. Wenn Sie Ihren Pool über zwei Rechenzentren spannen, stellen Sie normalerweise die Hälfte Ihrer Front-Ends in einem Rechenzentrum und die andere Hälfte in das zweite Rechenzentrum. Wenn Sie ein gesamtes Rechenzentrum verlieren, haben Sie die Hälfte der Front-End-Server verloren. Dies kann zu Problemen mit dem neuen verteilten Systemmodell für Front-End-Pools in lync Server 2013 führen. Weitere Informationen finden Sie unter [Topologien und Komponenten für Front-End-Server, Instant Messaging und Anwesenheitsinformationen in lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).
+Die ausfallsicherheitslösung für den Standort Metropolitan Site wurde entwickelt, um den Verlust eines vollständigen Datencenters wiederherzustellen. Wenn Sie Ihren Pool über zwei Rechenzentren hinweg überspannen, setzen Sie normalerweise die Hälfte Ihrer Front-Ends in ein Datencenter und die andere Hälfte in das zweite Datencenter. Wenn Sie ein gesamtes Rechenzentrum verlieren, haben Sie die Hälfte Ihrer Front-End-Server verloren. Dies kann Probleme mit dem neuen Modell für verteilte Systeme für Front-End-Pools in lync Server 2013 verursachen. Weitere Informationen finden Sie unter [Topologien und Komponenten für Front-End-Server, Instant Messaging und Anwesenheit in lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).
 
 </div>
 

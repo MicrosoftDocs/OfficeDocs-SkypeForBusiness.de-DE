@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: (optional) Überprüfen der Antwortgruppen Bereitstellung'
+title: 'Lync Server 2013: (optional) Überprüfen der Reaktionsgruppen Bereitstellung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 065a48aedf1b093358193d0c8afbd12b44653025
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b5b99d5d2f1800a4d7d16b1d3fdf4d0aab213fd0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755679"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045547"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41755679"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-11_
+_**Letztes Änderungsstand des Themas:** 2012-09-11_
 
 Nachdem Sie die Reaktionsgruppe konfiguriert haben, müssen Sie die Konfiguration überprüfen, um sicherzustellen, dass Ihre Reaktionsgruppen wie erwartet funktionieren. Führen Sie mindestens eine Überprüfung der folgenden Szenarien mit den folgenden Benutzertypen durch:
 
 **Benutzer**
 
-  - Ein Benutzer, der sich in lync Server 2013 befindet
+  - Ein Benutzer, der in lync Server 2013 verwaltet wird
 
   - Ein externer Benutzer, der das Telefonfestnetz (Public Switched Telephone Network, PSTN) verwendet
 
-  - Ein Agent, der sich auf lync Server 2013 befindet
+  - Ein Agent, der in lync Server 2013 verwaltet wird
 
-**Szenarien**
+**Scenarios**
 
-  - Der lync Server 2013-Benutzer ruft die Reaktionsgruppe auf.
+  - Der lync Server 2013 Benutzer ruft die Reaktionsgruppe an.
 
   - Der externe Benutzer ruft die Reaktionsgruppe an.
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac7c5a262f5323f28ff089766cab1f4d65e30757
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23b05a44e139c59dcb0656c2339d67a0e529e59a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732616"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038187"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scenarios-for-the-director-in-lync-server-2013"></a>Szenarien für den Director in Lync Server 2013
+# <a name="scenarios-for-the-director-in-lync-server-2013"></a>Szenarien für den Director in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41732616"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-22_
+_**Letztes Änderungsstand des Themas:** 2012-10-22_
 
-Bei einem Director handelt es sich um einen Server mit Microsoft lync Server 2013-Kommunikationssoftware, der Benutzeranforderungen authentifizieren kann, jedoch keine Benutzerkonten aufweist. Der Direktor hostet auch Webdienste, die dem Front-End-Server ähnlich sind, und authentifiziert Web-Ticket-Anfragen und stellt andere Dienste bereit.
+Bei einem Director handelt es sich um einen Server mit Microsoft lync Server 2013 Kommunikationssoftware, der Benutzeranforderungen authentifizieren kann, jedoch keine Benutzerkonten aufweist. Der Director hostet außerdem Webdienste, die dem Front-End-Server ähneln und WebTICKET-Anforderungen authentifizieren und andere Dienste bereitstellen.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Wenn Sie Directors bereitstellen, müssen Sie die Director-Webdienste extern über den Reverse-Proxy und die Webdienste des Front-End-Servers veröffentlichen. In den folgenden Themen wird der Planungsprozess für die möglichen Director-Topologien beschrieben.
+> Wenn Sie Directors bereitstellen, müssen Sie die Director-Webdienste extern über den Reverseproxy und die Webdienste des Front-End-Server veröffentlichen. In den folgenden Themen wird der Planungsprozess für die möglichen Director-Topologien beschrieben.
 
 
 
@@ -53,15 +53,15 @@ Bei einem Director handelt es sich um einen Server mit Microsoft lync Server 201
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Übersicht über den Director in Lync Server 2013](lync-server-2013-overview-of-the-director.md)
+  - [Übersicht über den Director in lync Server 2013](lync-server-2013-overview-of-the-director.md)
 
-  - [Für den Director erforderliche Komponenten in Lync Server 2013](lync-server-2013-components-required-for-the-director.md)
+  - [Erforderliche Komponenten für den Director in lync Server 2013](lync-server-2013-components-required-for-the-director.md)
 
-  - [Hardware- und Softwareanforderungen für den Director in Lync Server 2013](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
+  - [Hardware-und Softwareanforderungen für den Director in lync Server 2013](lync-server-2013-hardware-and-software-requirements-for-the-director.md)
 
-  - [Einzelner Director in Lync Server 2013](lync-server-2013-single-director.md)
+  - [Einzelner Director in lync Server 2013](lync-server-2013-single-director.md)
 
-  - [Skalierter Directorpool in Lync Server 2013](lync-server-2013-scaled-director-pool.md)
+  - [Skalierte Directorpool in lync Server 2013](lync-server-2013-scaled-director-pool.md)
 
 </div>
 
@@ -70,8 +70,8 @@ Bei einem Director handelt es sich um einen Server mit Microsoft lync Server 201
 ## <a name="see-also"></a>Siehe auch
 
 
-[Unterstützte Topologien in Lync Server 2013](lync-server-2013-supported-topologies.md)  
-[Serverhardwareplattformen für Lync Server 2013](lync-server-2013-server-hardware-platforms.md)  
+[Unterstützte Topologien in lync Server 2013](lync-server-2013-supported-topologies.md)  
+[Server Hardwareplattformen für lync Server 2013](lync-server-2013-server-hardware-platforms.md)  
   
 
 </div>

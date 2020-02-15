@@ -1,5 +1,5 @@
 ---
-title: Anforderungen des lync Server 2013-Lastenausgleichs
+title: Lync Server 2013 Anforderungen für den Lastenausgleich
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8081ba60d826f0f765533abdb6c0f548045a7fa8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bb74e5a6272f752da7cf31be3379d217447f3397
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765383"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046798"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="load-balancing-requirements-for-lync-server-2013"></a>Anforderungen an den Lastenausgleich für lync Server 2013
+# <a name="load-balancing-requirements-for-lync-server-2013"></a>Lastenausgleichsanforderungen für lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41765383"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-05_
+_**Letztes Änderungsstand des Themas:** 2012-10-05_
 
-Wenn Sie über Front-End-Pools, Director-Pools oder Edge-Server-Pools verfügen, müssen Sie den Lastenausgleich für diese Pools bereitstellen. Beim Lastenausgleich wird der Datenverkehr auf die Server in einem Pool verteilt.
+Wenn Sie über Front-End-Pools, Director-Pools oder Edgeserver Pools verfügen, müssen Sie den Lastenausgleich für diese Pools bereitstellen. Beim Lastenausgleich wird der Datenverkehr auf die Server in einem Pool verteilt.
 
-Lync Server 2013 unterstützt zwei Arten von Lastenausgleichslösungen für Client-zu-Server-Datenverkehr: Domain Name System (DNS)-Lastenausgleich und Hardwarelastenausgleich. Der DNS-Lastenausgleich bietet mehrere Vorteile, darunter einfachere Verwaltung, effizientere Problembehandlung und die Möglichkeit, einen Großteil ihres lync Server-Datenverkehrs von möglichen Problemen mit dem Hardwarelastenausgleich zu isolieren.
+Lync Server 2013 unterstützt zwei Arten von Lastenausgleichslösungen für den Client-zu-Server-Datenverkehr: Domain Name System (DNS) Lastenausgleich und Hardwarelastenausgleich. Der DNS-Lastenausgleich bietet mehrere Vorteile, einschließlich einer einfacheren Verwaltung, einer effizienteren Problembehandlung und der Möglichkeit, einen Großteil des lync Server Datenverkehrs von möglichen Problemen mit dem Hardwarelastenausgleich zu isolieren.
 
 Entscheiden Sie, welche Lösung für den Lastenausgleich für die einzelnen Pools in der Bereitstellung jeweils geeignet ist, und beachten Sie dabei die folgenden Einschränkungen:
 
@@ -47,13 +47,13 @@ Entscheiden Sie, welche Lösung für den Lastenausgleich für die einzelnen Pool
 
   - Für einige Arten von Datenverkehr ist ein Hardwaregerät zum Lastenausgleich erforderlich. HTTP-Datenverkehr erfordert beispielsweise ein Hardwaregerät zum Lastenausgleich anstatt eines DNS-Lastenausgleichs. Der DNS-Lastenausgleich funktioniert nicht beim Client-zu-Server-Datenverkehr.
 
-Weitere Informationen zum Auswählen einer Lösung für den Hardware Lastenausgleich finden Sie unter [Hardwareanforderungen für den Lastenausgleich für lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md).
+Weitere Informationen zum Auswählen einer Lösung für das Hardwaregerät zum Lastenausgleich finden Sie unter [Hardware Lastenausgleichsanforderungen für lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md).
 
-Wenn Sie für einen Pool den DNS-Lastenausgleich verwenden möchten, aber dennoch Hardwaregeräte zum Lastenausgleich benötigen, beispielsweise für den HTTP-Datenverkehr, ist die Verwaltung der Hardwaregeräte zum Lastenausgleich jetzt erheblich einfacher. Ein Beispiel hierfür ist, dass ausschließlich der HTTP- und HTTPS-Datenverkehr verwaltet wird, während alle anderen Protokolle vom DNS-Lastenausgleich verwaltet werden. Ausführliche Informationen finden Sie unter [DNS-Lastenausgleich in lync Server 2013](lync-server-2013-dns-load-balancing.md).
+Wenn Sie für einen Pool den DNS-Lastenausgleich verwenden möchten, aber dennoch Hardwaregeräte zum Lastenausgleich benötigen, beispielsweise für den HTTP-Datenverkehr, ist die Verwaltung der Hardwaregeräte zum Lastenausgleich jetzt erheblich einfacher. Beispielsweise ist das Konfigurieren des Hardwarelastenausgleichs einfacher, da nur der HTTP-und HTTPS-Datenverkehr verwaltet wird, während alle anderen Protokolle durch den DNS-Lastenausgleich verwaltet werden. Ausführliche Informationen finden Sie unter [DNS-Lastenausgleich in lync Server 2013](lync-server-2013-dns-load-balancing.md).
 
-Für den Server-zu-Server-Datenverkehr verwendet lync Server 2013 den Topologie-bezogenen Lastenausgleich. Server lesen die veröffentlichte Topologie im zentralen Verwaltungsspeicher, um die FQDNs von Servern in der Topologie abzurufen und den Datenverkehr automatisch auf die Server zu verteilen. Administratoren müssen diese Art des Lastenausgleichs weder konfigurieren noch verwalten.
+Für den Server-zu-Server-Datenverkehr verwendet lync Server 2013 einen Topologie-fähigen Lastenausgleich. Die Server lesen die veröffentlichte Topologie im zentralen Verwaltungsspeicher, um die FQDNs der Server in der Topologie zu erhalten und den Datenverkehr automatisch an die Server zu verteilen. Administratoren müssen diese Art von Lastenausgleich nicht einrichten oder verwalten.
 
-Wenn Sie den DNS-Lastenausgleich verwenden und den Datenverkehr an einen bestimmten Computer blockieren müssen, reicht es nicht aus, einfach nur die IP-Adresseinträge aus dem Pool-FQDN zu entfernen. Sie müssen auch den DNS-Eintrag für den Computer entfernen.
+Wenn Sie den DNS-Lastenausgleich verwenden und den Datenverkehr auf einem bestimmten Computer blockieren müssen, reicht es nicht aus, die IP-Adresseinträge aus dem Pool-FQDN einfach zu entfernen. Sie müssen auch den DNS-Eintrag für den Computer entfernen.
 
 </div>
 

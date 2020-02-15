@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Modi für die Medienumgehung'
+title: 'Lync Server 2013: Medien Umgehungs Modi'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183898
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f92d45099f39ec96724f8d0f6025f58e2dbccb2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af12e34f66d21e447963d857b26976fc130202fa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41761951"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045177"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-bypass-modes-in-lync-server-2013"></a>Modi für die Medienumgehung in Lync Server 2013
+# <a name="media-bypass-modes-in-lync-server-2013"></a>Medien Umgehungs Modi in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41761951"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-05_
+_**Letztes Änderungsstand des Themas:** 2012-10-05_
 
 Sie müssen die Medienumgehung sowohl global als auch für jeden einzelnen PSTN-Trunk konfigurieren. Wenn Sie die Medienumgehung global aktivieren, haben Sie die Auswahl zwischen zwei Optionen: **Immer umgehen** und **Informationen zu Standort und Region verwenden**.
 
@@ -57,8 +57,8 @@ Bei Auswahl der Option **Informationen zu Standort und Region verwenden** werden
 
 
 [Übersicht über die medienumgehung in lync Server 2013](lync-server-2013-overview-of-media-bypass.md)  
-[Medienumgehung und Anrufsteuerung in Lync Server 2013](lync-server-2013-media-bypass-and-call-admission-control.md)  
-[Technische Anforderungen für die Medienumgehung in Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md)  
+[Medienumgehung und Anrufsteuerung in lync Server 2013](lync-server-2013-media-bypass-and-call-admission-control.md)  
+[Technische Anforderungen für die medienumgehung in lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md)  
   
 
 </div>

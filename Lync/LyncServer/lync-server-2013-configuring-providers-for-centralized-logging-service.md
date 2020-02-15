@@ -12,16 +12,16 @@ ms:contentKeyID: 49733678
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2428bd11e656d0f1b6295e63ca6106fa7edcbb15
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 51dbb8c1a2e24290e4ab2805bed191e5f2dc86bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734853"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041084"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41734853"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-03-19_
+_**Letztes Änderungsstand des Themas:** 2014-03-19_
 
-Die Konzepte und die Konfiguration von *Anbietern* im zentralisierten Protokollierungsdienst sind eine der wichtigsten zu erfassen. Die *Anbieter* werden den lync Server-Rollen Komponenten direkt im lync Server-Ablaufverfolgungsmodell zugeordnet. Der Anbieter definiert die Komponenten eines lync Server 2013, die nachverfolgt werden, den Typ der Nachrichten (beispielsweise fatal, Fehler oder Warnung), die erfasst werden sollen, und die Flags (beispielsweise TF\_Connection oder TF\_Diag). Anbieter sind die nachvollziehbaren Komponenten in jeder lync Server-Serverrolle. Mithilfe von Anbietern definieren Sie die Ablaufverfolgungsebene und den Typ von Verfolgung für Komponenten (z. B. S4, SIPStack, Chat oder Anwesenheit). Der festgelegte Anbieter wird in einem Szenario verwendet, um sämtliche Anbieter für eine vorgegebene logische Auflistung zu gruppieren, die eine bestimmte Problembedingung betrifft.
+Die Konzepte und die Konfiguration von *Anbietern* im zentralisierten Protokollierungsdienst sind eine der wichtigsten, die Sie erfassen müssen. Die *Anbieter* werden lync Server-Server Rollen Komponenten im lync Server-Ablaufverfolgungsmodell direkt zugeordnet. Der Anbieter definiert die Komponenten einer lync Server 2013, die nachverfolgt werden, den Typ der Nachrichten (beispielsweise tödlich, Fehler oder Warnung), die erfasst werden sollen, und die Flags (beispielsweise TF\_Connection oder TF\_Diag). Anbieter sind die nachvollziehbaren Komponenten in jeder lync Server Server Rolle. Mithilfe von Anbietern definieren Sie die Ablaufverfolgungsebene und den Typ von Verfolgung für Komponenten (z. B. S4, SIPStack, Instant Messaging oder Anwesenheit). Der festgelegte Anbieter wird in einem Szenario verwendet, um sämtliche Anbieter für eine vorgegebene logische Auflistung zu gruppieren, die eine bestimmte Problembedingung betrifft.
 
-Wenn Sie die Funktionen für den zentralisierten Protokollierungsdienst mithilfe der lync Server-Verwaltungsshell ausführen möchten, müssen Sie Mitglied der CsAdministrator-oder CsServerAdministrator-Sicherheitsgruppe (Role-Based Access Control) oder einer benutzerdefinierten RBAC-Rolle sein, die eines der beiden Diese beiden Gruppen. Führen Sie den folgenden Befehl in der lync Server-Verwaltungsshell oder in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller rollenbasierten zugriffssteuerungsrollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben):
+Zum Ausführen der Funktionen für den zentralisierten Protokollierungsdienst mit dem lync Server-Verwaltungsshell müssen Sie Mitglied der rollenbasierten Sicherheitsgruppen "CsAdministrator" oder "CsServerAdministrator" oder einer benutzerdefinierten RBAC-Rolle sein, die eine der beiden Diese beiden Gruppen. Zum Zurückgeben einer Liste aller rollenbasierten zugriffssteuerungsrollen, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben), führen Sie den folgenden Befehl in der lync Server-Verwaltungsshell oder der Windows PowerShell-Eingabeaufforderung aus:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
@@ -47,55 +47,55 @@ Beispiel:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-Im weiteren Verlauf dieses Themas wird erläutert, wie Sie Anbieter definieren, einen Anbieter ändern und was eine Anbieter Definition enthält, um die Problembehandlung zu optimieren. Es gibt zwei Möglichkeiten zum Ausgeben von Befehlen für zentralisierte Protokollierungsdienste. Sie können\\die CLSController. exe verwenden, die sich standardmäßig im Verzeichnis C: Programmdateien\\allgemeine Dateien\\Microsoft lync Server 2013\\CLSAgent befindet. Oder Sie können die lync Server-Verwaltungsshell zum Ausgeben von Windows PowerShell-Befehlen verwenden. Der wichtige Unterschied besteht darin, dass bei der Verwendung von CLSController. exe in der Befehlszeile eine begrenzte Auswahl von Szenarien verfügbar ist, in denen die Anbieter bereits definiert sind und nicht änderbar sind, Sie aber die Protokollebene definieren können. Mithilfe von Windows PowerShell können Sie neue Anbieter für die Verwendung in ihren Protokollierungssitzungen definieren, die vollständige Kontrolle über ihre Erstellung, deren Erfassung und auf welcher Ebene Sie Daten sammeln.
+Im Rest dieses Themas geht es darum, wie Anbieter definiert oder geändert werden und welche Elemente eine Anbieterdefinition enthält (was bei Fehlerbehebungen hilfreich ist). Es gibt zwei Möglichkeiten zum Ausgeben von Befehlen für den zentralisierten Protokollierungsdienst. Sie können\\die CLSController. exe verwenden, die sich standardmäßig im Verzeichnis C: Program Files\\Common Files\\Microsoft lync Server 2013\\CLSAgent befindet. Sie können auch die lync Server-Verwaltungsshell verwenden, um Windows PowerShell Befehle auszugeben. Bei Verwendung der nm-winshell-2nd können Sie neue Anbieter definieren, die in Ihren Protokollierungssitzungen verwendet werden sollen. Durch die Verwendung von Windows PowerShell können Sie neue Anbieter für die Verwendung in ihren Protokollierungssitzungen definieren, die vollständige Kontrolle über ihre Erstellung, Ihre Sammlung und auf welcher Ebene Sie Daten erfassen.
 
 <div class="">
 
 
 > [!IMPORTANT]  
-> Wie schon erwähnt sind Anbieter äußerst leistungsfähig. Szenarien sind jedoch noch leistungsfähiger, da sie die Darstellung sämtlicher Informationen enthalten, die zum Festlegen und Ausführen der Ablaufverfolgung für die Komponenten erforderlich sind, die die Anbieter darstellen. Diese Vorstellung von Szenarien als Auflistung von Anbietern lässt sich in etwa mit einer Batchdatei vergleichen, die Hunderte von Befehlen ausführt, um eine Vielzahl an Informationen zu sammeln, anstatt dass man jeden Befehl einzeln an der Befehlszeile ausführen muss.<BR>Anstatt zu verlangen, dass Sie sich eingehend mit den Details von Anbietern befassen, bietet der zentralisierte Protokollierungsdienst eine Reihe von Szenarien, die bereits für Sie definiert sind. Die bereitgestellten Szenarien decken die meisten möglichen Probleme ab, die Ihnen auftreten können. In seltenen Fällen müssen Sie möglicherweise Anbieter erstellen und definieren und diese Szenarien zuweisen. Wir empfehlen Ihnen dringend, sich mit den einzelnen Szenarien vertraut zu machen, bevor Sie untersuchen, ob neue Anbieter und Szenarien erstellt werden müssen. Während Informationen zum Erstellen von Anbietern hier gefunden werden, um Sie mit den Szenarien vertraut zu machen, in denen die Anbieter Elemente zum Sammeln von Ablaufverfolgungsinformationen verwendet werden, werden zu diesem Zeitpunkt keine Details zu den Anbietern selbst bereitgestellt.
+> Wie schon erwähnt sind Anbieter äußerst leistungsfähig. Szenarien sind jedoch noch leistungsfähiger, da sie die Darstellung sämtlicher Informationen enthalten, die zum Festlegen und Ausführen der Ablaufverfolgung für die Komponenten erforderlich sind, die die Anbieter darstellen. Diese Vorstellung von Szenarien als Auflistung von Anbietern lässt sich in etwa mit einer Batchdatei vergleichen, die Hunderte von Befehlen ausführt, um eine Vielzahl an Informationen zu sammeln, anstatt dass man jeden Befehl einzeln an der Befehlszeile ausführen muss.<BR>Anstatt sich eingehend mit den Details von Anbietern zu befassen, stellt der zentralisierte Protokollierungsdienst eine Reihe von Szenarien bereit, die bereits für Sie definiert sind. Die bereitgestellten Szenarien decken die meisten möglichen Probleme ab, auf die Sie stoßen werden. In seltenen Fällen müssen Sie möglicherweise Anbieter erstellen und definieren und Szenarien zuweisen. Es wird dringend empfohlen, dass Sie sich mit den einzelnen Szenarien vertraut machen, bevor Sie untersuchen, ob neue Anbieter und Szenarien erstellt werden müssen. Während Informationen zum Erstellen von Anbietern hier gefunden werden, um Sie darüber zu informieren, wie die Szenarien die Anbieter Elemente zum Sammeln von Ablaufverfolgungsinformationen verwenden, werden zu diesem Zeitpunkt keine Details zu den Anbietern selbst bereitgestellt.
 
 
 
 </div>
 
-In der [Übersicht über den zentralisierten Protokollierungsdienst in lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)werden die wichtigsten Elemente zum Definieren eines Anbieters für die Verwendung in einem Szenario vorgestellt:
+In der [Übersicht über den zentralisierten Protokollierungsdienst in lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md)werden die wichtigsten Elemente zur Definition eines Anbieters für die Verwendung in einem Szenario wie folgt vorgestellt:
 
-  - **Anbieter**   Wenn Sie mit OCSLogger vertraut sind, sind Anbieter die Komponenten, die Sie angeben, um OCSLogger zu informieren, von welchem das Ablaufverfolgungsmodul Protokolle sammeln soll. Die Anbieter sind die gleichen Komponenten und haben in vielen Fällen denselben Namen wie die Komponenten in OCSLogger. Wenn Sie mit OCSLogger nicht vertraut sind, sind Anbieterserver rollenspezifische Komponenten, über die der zentralisierte Protokollierungsdienst Protokolle sammeln kann. Beim zentralisierten Protokollierungsdienst ist der CLSAgent der architektonische Teil des zentralen Protokollierungsdiensts, bei dem die Nachverfolgung der Komponenten erfolgt, die Sie in der Anbieterkonfiguration definieren.
+  - **Anbieter**   Wenn Sie mit OCSLogger vertraut sind, handelt es sich bei Anbietern um die Komponenten, die Sie OCSLogger mitteilen, welche Protokolle von dem Ablaufverfolgungsmodul erfasst werden sollen. Die Anbieter entsprechen den Komponenten in OCSLogger und haben in vielen Fällen auch dieselben Namen. Wenn Sie mit OCSLogger nicht vertraut sind, handelt es sich bei Anbietern um Serverrollen spezifische Komponenten, von denen der zentralisierte Protokollierungsdienst Protokolle erfassen kann. Im Fall des zentralisierten Protokollierungsdiensts ist der CLSAgent der Architektur Teil des zentralisierten Protokollierungsdiensts, der die Ablaufverfolgung der in der Anbieterkonfiguration definierten Komponenten ausführt.
 
-  - **Protokollierungsstufen**   OCSLogger die Option zum Auswählen einer Reihe von Detailebenen für die gesammelten Daten. Dieses Feature ist ein integraler Bestandteil des zentralen Protokollierungsdiensts und der Szenarien und wird durch den **Type** -Parameter definiert. Sie haben folgende Auswahlmöglichkeiten:
+  - **Protokollierungsebenen**   OCSLogger, sofern die Option zum Auswählen einer Reihe von Detailebenen für die gesammelten Daten bereitgestellt wurde. Dieses Feature ist ein integraler Bestandteil des zentralisierten Protokollierungsdiensts und der Szenarien und wird durch den **Type** -Parameter definiert. Es stehen folgende Optionen zur Auswahl:
     
-      - **Alle**   sammelt Nachverfolgungsmeldungen vom Typ fatal, Fehler, Warnung und Informationen in das Protokoll des definierten Anbieters.
+      - **Alle**   erfasst Ablaufverfolgungsmeldungen vom Typ "Fatal", "Error", "Warning" und "Info" im Protokoll für den definierten Anbieter.
     
-      - **Fatal**   sammelt nur die Ablaufverfolgungsmeldungen, die einen Fehler für den definierten Anbieter angeben.
+      - **Fatal**   erfasst nur die Ablaufverfolgungsmeldungen, die auf einen Fehler für den definierten Anbieter hindeuten.
     
-      - **Fehler**   sammelt nur die Ablaufverfolgungsmeldungen, die einen Fehler für den definierten Anbieter angeben, sowie schwerwiegende Nachrichten.
+      - **Error**   erfasst nur die Ablaufverfolgungsmeldungen, die einen Fehler für den definierten Anbieter sowie fatale Nachrichten angeben.
     
-      - **Warnung**   sammelt nur die Ablaufverfolgungsmeldungen, die eine Warnung für den definierten Anbieter sowie fatale und Fehlermeldungen angeben.
+      - **Warnung**   sammelt nur die Ablaufverfolgungsmeldungen, die eine Warnung für den definierten Anbieter angeben, sowie fatale und Fehlermeldungen.
     
-      - **Informationen**   sammelt nur die Ablaufverfolgungsmeldungen, die eine Informationsmeldung für den definierten Anbieter angeben, sowie fatale, Fehler-und Warnmeldungen.
+      - **Info**   erfasst nur die Ablaufverfolgungsmeldungen, die eine Informationsmeldung für den definierten Anbieter angeben, sowie fatale, fehlerhafte und Warnmeldungen.
     
-      - **Verbose**   sammelt alle Ablaufverfolgungsmeldungen vom Typ fatal, Fehler, Warnung und Informationen für den definierten Anbieter.
+      - **Verbose**   sammelt alle Ablaufverfolgungsmeldungen vom Typ "Fatal", "Error", "Warning" und "Info" für den definierten Anbieter.
 
-  - **Flags**   OCSLogger hat die Option zum Auswählen von Flags für jeden Anbieter bereitgestellt, die definiert haben, welche Art von Informationen aus den Ablaufverfolgungsdateien abgerufen werden können. Auf der Grundlage des Anbieters können Sie die folgenden Flags auswählen:
+  - **Flags**   OCSLogger, sofern die Option zum Auswählen von Flags für jeden Anbieter, die definiert, welche Art von Informationen, die Sie aus den Ablaufverfolgungsdateien abrufen konnte. Sie können die folgenden Flags basierend auf dem Anbieter auswählen:
     
-      - **TF\_Connection**   bietet verbindungsbezogene Protokolleinträge. Diese Protokolle umfassen Informationen zu Verbindungen, die zu und von einer bestimmten Komponente hergestellt wurden. Dies kann auch wichtige Informationen auf Netzwerkebene enthalten (also für Komponenten ohne das Konzept einer Verbindung).
+      - **TF\_Connection**   stellt verbindungsbezogene Protokolleinträge bereit. Diese Protokolle enthalten Informationen über Verbindungen, die mit und von einer bestimmten Komponente hergestellt werden. Dies kann auch wichtige Informationen auf Netzwerkebene beinhalten (also für Komponenten ohne das Konzept einer Verbindung).
     
-      - **TF\_Security**   stellt alle Ereignisse/Protokolleinträge in Bezug auf Sicherheit bereit. Bei SipStack handelt es sich beispielsweise um Sicherheitsereignisse wie Fehler bei der Domänenüberprüfung und Clientauthentifizierung/Autorisierungsfehler.
+      - **TF\_Security**   bietet alle Ereignisse/Protokolleinträge im Zusammenhang mit der Sicherheit. Bei SipStack handelt es sich beispielsweise um Sicherheitsereignisse wie etwa einen Domänen Überprüfungsfehler und Clientauthentifizierung/Autorisierungsfehler.
     
-      - **TF\_Diag**   stellt Diagnoseereignisse bereit, die Sie zur Diagnose oder Problembehandlung der Komponente verwenden können. Bei SipStack handelt es sich beispielsweise um Zertifikat Fehler oder DNS-Warnungen/-Fehler.
+      - **TF\_Diag**   stellt Diagnoseereignisse bereit, die Sie zum diagnostizieren oder Problembehandlung der Komponente verwenden können. Bei SipStack handelt es sich beispielsweise um Zertifikat Fehler oder DNS-Warnungen/-Fehler.
     
-      - **Das\_TF-Protokoll**   bietet Protokollnachrichten wie SIP-und kombinierte Community-Codec-Paket Nachrichten.
+      - **Das\_TF-Protokoll**   stellt Protokollnachrichten wie SIP-und kombinierte Community-Codec-Paket Nachrichten bereit.
     
-      - **Die\_TF-Komponente**   ermöglicht die Protokollierung an den als Teil der Anbieter angegebenen Komponenten.
+      - **TF\_Component**   aktiviert die Protokollierung für die Komponenten, die als Teil der Anbieter angegeben werden.
     
       - **Alle**   legt alle verfügbaren Flags fest, die für den Anbieter verfügbar sind.
 
 <div>
 
-## <a name="to-review-information-about-existing-centralized-logging-service-scenario-providers"></a>So überprüfen Sie Informationen zu vorhandenen Szenario-Anbietern für zentralisierte Protokollierungsdienste
+## <a name="to-review-information-about-existing-centralized-logging-service-scenario-providers"></a>So überprüfen Sie die Informationen zu vorhandenen Szenarien für den zentralisierten Protokollierungsdienst
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 2.  Mit dem folgenden Befehl können Sie die Konfiguration vorhandener Anbieter überprüfen:
     
@@ -105,53 +105,53 @@ In der [Übersicht über den zentralisierten Protokollierungsdienst in lync Serv
     
         Get-CsClsScenario -Identity "global/CAA"
     
-    Der Befehl listet Anbieter mit den zugehörigen Flags, Einstellungen und Komponenten auf. Wenn die angezeigten Informationen nicht ausreichen oder die Liste für das standardmäßige Windows PowerShell-Listenformat zu lang ist, können Sie zusätzliche Informationen anzeigen, indem Sie eine andere Ausgabemethode definieren. Geben Sie dazu Folgendes ein:
+    Der Befehl listet Anbieter mit den zugehörigen Flags, Einstellungen und Komponenten auf. Wenn die angezeigten Informationen nicht ausreichen oder die Liste für das Standard Windows PowerShell Listenformat zu lang ist, können Sie zusätzliche Informationen anzeigen, indem Sie eine andere Ausgabemethode definieren. Geben Sie dazu Folgendes ein:
     
         Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
     
-    Dieser Befehl gibt die einzelnen Anbieter in einem fünfzeiligen Format aus, bei dem der Anbietername, der Protokollierungstyp, die Protokollierungsebene, Flags, GUID und Rolle jeweils in einer eigenen Zeile angezeigt werden.
+    Dieser Befehl gibt die einzelnen Anbieter in einem fünfzeiligen Format aus, bei dem der Anbietername, Typ von Protokollierung, Protokollierungsebene, Flags, GUID und Rolle jeweils in einer eigenen Zeile angezeigt werden.
 
 </div>
 
 <div>
 
-## <a name="to-define-a-new-centralized-logging-service-scenario-provider"></a>So definieren Sie einen neuen szenariodienst für zentrale Protokollierungsdienste
+## <a name="to-define-a-new-centralized-logging-service-scenario-provider"></a>So definieren Sie einen neuen Szenario-Anbieter für den zentralisierten Protokollierungsdienst
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Ein Szenarioanbieter besteht aus einer nachzuverfolgenden Komponente, zu verwendenden Flags und einer Detailstufe für die Erfassung. Geben Sie dazu Folgendes ein:
+2.  Ein Szenarioanbieter besteht aus einer nachzuverfolgenden Komponente, zu verwendenden Flags und einer Detailstufe für die Erfassung. Dazu geben Sie Folgendes ein:
     
         $<variableName> = New-CsClsProvider -Name <provider component> -Type <log type> -Level <log level detail type> -Flags <provider trace log flags>
     
-    Beispiel: Die Definition eines Ablaufverfolgungsanbieters, in der festgelegt ist, was und mit welcher Detailstufe vom Anbieter „Lyss“ erfasst werden soll, sieht so aus:
+    Beispiel: Die Definition eines Ablaufverfolgungsanbieters, in der festgelegt ist, was und mit welcher Detailstufe vom Anbieter "Lyss" erfasst werden soll, sieht so aus:
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
 
-Die Stufe – sammelt fatale, Fehler-, Warnungs-und Informationsnachrichten. Bei den verwendeten Flags handelt es sich um alle für den Lyss-Anbieter definierten Flags\_, die TF\_Connection, TF\_diag und TF-Protokoll umfassen.
+Auf der Ebene "–" werden fatale, Fehler-, Warn-und Informationsmeldungen gesammelt. Die verwendeten Flags sind alle für den Lyss-Anbieter definierten und enthalten TF\_Connection, TF\_diag und TF\_Protocol.
 
-Nachdem die Variable „$LyssProvider“ definiert ist, können Sie sie mit dem Cmdlet **New-CsClsScenario** verwenden, um Ablaufverfolgungen vom Anbieter „Lyss“ zu sammeln. Geben Sie für die Erstellung und Zuweisung des Anbieters zu einem neuen Szenario den folgenden Befehl ein:
+Nachdem die Variable "$LyssProvider" definiert ist, können Sie sie beim **New-CsClsScenario**-Cmdlet verwenden, um Ablaufverfolgungen vom Anbieter "Lyss" zu sammeln. Geben Sie für die Erstellung und Zuweisung des Anbieters zu einem neuen Szenario den folgenden Befehl ein:
 
     New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
 
-Hierbei ist „$LyssProvider“ die Variable, in der sich das definierte Szenario befindet, das mit **New-CsClsProvider** erstellt wurde.
+Hierbei ist "$LyssProvider" die Variable, in der sich das definierte Szenario befindet, das mit **New-CsClsProvider** erstellt wurde.
 
 </div>
 
 <div>
 
-## <a name="to-change-an-existing-centralized-logging-service-scenario-provider"></a>So ändern Sie einen vorhandenen szenariodienst für zentralisierte Protokollierungsdienste
+## <a name="to-change-an-existing-centralized-logging-service-scenario-provider"></a>So ändern Sie einen vorhandenen Anbieter für zentralisierte Protokollierungsdienste
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 2.  Geben Sie Folgendes ein, um die Konfiguration eines vorhandenen Anbieters zu aktualisieren oder zu ändern:
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "TF_Connection, TF_Diag"
     
-    Aktualisieren Sie das Szenario anschließend mit der folgenden Eingabe, um den Anbieter zuzuweisen:
+    Dann aktualisieren Sie das Szenario mit der folgenden Eingabe, um den Anbieter zuzuweisen:
     
         Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
 
-Dieser Befehl bewirkt, dass beim Szenariostandort „Redmond/RedmondLyssInfo“ die Flags und die Ebene für den zugewiesenen Anbieter aktualisiert werden. Das neue Szenario können Sie mithilfe von „Get-CsClsScenario“ anzeigen. Weitere Informationen dazu finden Sie unter [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario).
+Dieser Befehl bewirkt, dass beim Szenariostandort "Redmond/RedmondLyssInfo" die Flags und die Ebene für den zugewiesenen Anbieter aktualisiert werden. Das neue Szenario können Sie mithilfe von "Get-CsClsScenario" anzeigen. Nähere Informationen dazu finden Sie unter [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario).
 
 <div class="">
 
@@ -167,7 +167,7 @@ Wenn Sie diesem Szenario weitere Anbieter hinzufügen möchten, geben Sie Folgen
 
     Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSProvider, $CASProvider, S4Provider}
 
-Hierbei wurde jeder mit der „Add“-Anweisung festgelegte Anbieter bereits mithilfe des **New-CsClsProvider**-Prozesses definiert.
+Hierbei wurde jeder mit der "Add"-Anweisung festgelegte Anbieter bereits mithilfe des **New-CsClsProvider**-Prozesses definiert.
 
 </div>
 
@@ -175,9 +175,9 @@ Hierbei wurde jeder mit der „Add“-Anweisung festgelegte Anbieter bereits mit
 
 ## <a name="to-remove-a-scenario-provider"></a>So entfernen Sie einen Szenarioanbieter
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Mithilfe der bereitgestellten Cmdlets können Sie vorhandene Anbieter aktualisieren und neue Anbieter erstellen. Wenn Sie einen Anbieter entfernen möchten, müssen Sie bei **Set-CsClsScenario** beim Parameter „-Provider“ die Anweisung „Replace“ verwenden. Die einzige Möglichkeit, einen Anbieter komplett zu entfernen, besteht darin, ihn durch einen neu definierten Anbieter mit dem gleichen Namen zu ersetzen und die Anweisung „Update“ zu verwenden. So wird beispielsweise unser Anbieter LyssProvider mit WPP als Protokolltyp definiert, auf Debugebene festgelegt, und Flags sind TF\_Connection und TF\_diag. Sie möchten die Flags auf „Alle“ ändern. Geben Sie dazu den folgenden Befehl ein, um den Anbieter zu ändern:
+2.  Mithilfe der bereitgestellten Cmdlets können Sie vorhandene Anbieter aktualisieren und neue Anbieter erstellen. Wenn Sie einen Anbieter entfernen möchten, müssen Sie bei **Set-CsClsScenario** beim Parameter "-Provider" die Anweisung "Replace" verwenden. Die einzige Möglichkeit, einen Anbieter komplett zu entfernen, besteht darin, ihn durch einen neu definierten Anbieter mit dem gleichen Namen zu ersetzen und die Anweisung "Update" zu verwenden. Beispielsweise ist unser Anbieter lyssprovider "mit WPP definiert, da der Protokolltyp, der auf Debugebene festgelegte Wert und\_die Flags fest\_gelegt TF Connection und TF Diag sind. Sie möchten die Flags auf "Alle" ändern. Geben Sie dazu den folgenden Befehl ein, um den Anbieter zu ändern:
     
         $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
 
@@ -197,12 +197,12 @@ Hierbei wurde jeder mit der „Add“-Anweisung festgelegte Anbieter bereits mit
     
 
     > [!WARNING]  
-    > Das Cmdlet <STRONG>Remove-CsClsScenario</STRONG> fordert Sie nicht zur Eingabe einer Bestätigung auf. Das Szenario wird einschließlich der zugewiesenen Anbieter gelöscht. Sie können das Szenario wieder neu erstellen, indem Sie die Befehle ausführen, mit denen das Szenario ursprünglich erstellt wurde. Ein Verfahren zum Wiederherstellen entfernter Szenarien oder Anbieter gibt es nicht.
+    > Das <STRONG>Remove-CsClsScenario</STRONG>-Cmdlet fordert Sie nicht zur Eingabe einer Bestätigung auf. Das Szenario wird, einschließlich der zugewiesenen Anbieter, gelöscht. Sie können das Szenario wieder neu erstellen, indem Sie die Befehle ausführen, mit denen das Szenario ursprünglich erstellt wurde. Ein Verfahren zum Wiederherstellen entfernter Szenarien oder Anbieter gibt es nicht.
 
     
     </div>
 
-Wenn Sie ein Szenario mit dem Cmdlet**Remove-CsClsScenario** entfernen, wird es komplett aus dem Bereich entfernt. Wenn Sie die von Ihnen erstellten Szenarien mit den zugehörigen Anbietern verwenden möchten, müssen Sie neue Anbieter erstellen und diese einem neuen Szenario zuweisen.
+Wenn Sie ein Szenario mit dem **Remove-CsClsScenario**-Cmdlet entfernen, wird es komplett aus dem Bereich entfernt. Wenn Sie die von Ihnen erstellten Szenarien mit den zugehörigen Anbietern verwenden möchten, müssen Sie neue Anbieter erstellen und diese einem neuen Szenario zuweisen.
 
 </div>
 
@@ -214,7 +214,7 @@ Wenn Sie ein Szenario mit dem Cmdlet**Remove-CsClsScenario** entfernen, wird es 
 [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario)  
 [New-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/New-CsClsScenario)  
 [Remove-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Remove-CsClsScenario)  
-[Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Set-CsClsScenario)  
+[Gruppe-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/Set-CsClsScenario)  
 [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/New-CsClsProvider)  
   
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Bericht zum Vergleich der Medienqualität'
+title: 'Lync Server 2013: Vergleichsbericht über Medienqualität'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185317
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bcec69db6154aa346fc4545dc3b50fcfe0f2d6f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c45f2d238d2ffd8df058e31bfa50a51f26c1caf5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758763"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045147"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-comparison-report-in-lync-server-2013"></a>Bericht zum Vergleich der Medienqualität in lync Server 2013
+# <a name="media-quality-comparison-report-in-lync-server-2013"></a>Vergleichsbericht über Medienqualität in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758763"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-04-22_
+_**Letztes Änderungsstand des Themas:** 2014-04-22_
 
-Mit dem Bericht über die Medienqualität können Sie Anrufqualitätswerte für verschiedene Arten von Audioanrufen vergleichen (z. B. Anrufe über ein Funknetzwerk und Anrufe über eine Kabelverbindung).
+Mit dem Bericht über die Medienqualität können Sie Anrufqualitätswerte für verschiedene Arten von Audioanrufen vergleichen (z. B. Anrufe über ein Funknetzwerk und Anrufe über eine Kabelverbindung).
 
 <div>
 
 ## <a name="accessing-the-media-quality-comparison-report"></a>Zugreifen auf den Bericht über die Medienqualität
 
-Auf den Vergleichsbericht über die Medienqualität greifen Sie auf der Startseite „Überwachungsberichte“ zu.
+Auf den Bericht über die Medienqualität greifen Sie auf der Startseite Überwachungsberichte zu.
 
 </div>
 
@@ -68,9 +68,9 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Von</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 Uhr</p>
+<p>07.07.2012 13:00</p>
 <p>Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
@@ -78,9 +78,9 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 <p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Bis</strong></p></td>
+<td><p><strong>Ziel</strong></p></td>
 <td><p>Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 Uhr</p>
+<p>07.07.2012 13:00</p>
 <p>Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
@@ -91,13 +91,13 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 <td><p><strong>Anrufe</strong></p></td>
 <td><p>Der Anruftyp, der als primäres Vergleichselement verwendet werden soll. Gültige Werte sind:</p>
 <ul>
-<li><p>[Alle]</p></li>
+<li><p>Alle</p></li>
 <li><p>Extern</p></li>
 <li><p>Intern</p></li>
 <li><p>VPN</p></li>
 <li><p>Nicht-VPN</p></li>
-<li><p>Verkabelt</p></li>
-<li><p>Funk</p></li>
+<li><p>Wired</p></li>
+<li><p>Drahtlos</p></li>
 <li><p>Extern und verkabelt</p></li>
 <li><p>Extern und Funk</p></li>
 <li><p>Extern und VPN</p></li>
@@ -110,13 +110,13 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 <td><p><strong>Mit Anrufen vergleichen</strong></p></td>
 <td><p>Der Anruftyp, der als sekundäres Vergleichselement verwendet werden soll. Gültige Werte sind:</p>
 <ul>
-<li><p>[Alle]</p></li>
+<li><p>Alle</p></li>
 <li><p>Extern</p></li>
 <li><p>Intern</p></li>
 <li><p>VPN</p></li>
 <li><p>Nicht-VPN</p></li>
-<li><p>Verkabelt</p></li>
-<li><p>Funk</p></li>
+<li><p>Wired</p></li>
+<li><p>Drahtlos</p></li>
 <li><p>Extern und verkabelt</p></li>
 <li><p>Extern und Funk</p></li>
 <li><p>Extern und VPN</p></li>
@@ -129,11 +129,11 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 <td><p><strong>Intervall</strong></p></td>
 <td><p>Zeitintervall. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
-<li><p>Stündlich (maximal 25 Stunden können angezeigt werden)</p></li>
-<li><p>Täglich (maximal 31 Tage können angezeigt werden)</p></li>
-<li><p>Wöchentlich (maximal 12 Wochen können angezeigt werden)</p></li>
+<li><p>Stündlich (maximal 25 Stunden können angezeigt werden)</p></li>
+<li><p>Täglich (maximal 31 Tage können angezeigt werden)</p></li>
+<li><p>Wöchentlich (maximal 12 Wochen können angezeigt werden)</p></li>
 </ul>
-<p>Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Wenn Sie beispielsweise das Tagesintervall mit einem Anfangstermin von 7/7/2012 und einem Enddatum von 2/28/2012 auswählen, werden die Daten für die Tage 8/7/2012 12:00 Uhr bis 9/7/2012 12:00 Uhr angezeigt (also insgesamt 31 Tage).</p></td>
+<p>Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Beispiel: Wenn Sie das Intervall Täglich mit dem Startdatum 07.08.2012 und dem Enddatum 28.09.2012 ausgewählt haben, werden Daten für die Tage 07.08.2012 12:00 Uhr bis 07.09.2012 12:00 Uhr angezeigt (d. h. Daten für insgesamt 31 Tage).</p></td>
 </tr>
 </tbody>
 </table>
@@ -171,34 +171,34 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Bericht über die M
 <tr class="even">
 <td><p><strong>Beeinträchtigung (MOS)</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Durchschnittliche Anzahl von MOS (Mean Opinion Score)-Verschlechterung während eines Anrufs. Die Werte für die Verschlechterung können von einem Tiefstwert von 0,0 bis zu einem Höchstwert von 5,0 liegen. ein Wert von 0,5 oder einer kleineren stellt eine akzeptable Verschlechterung dar. Historisch gesehen wurden durchschnittliche Meinungs Bewertungen berechnet, indem Benutzer die Qualität eines Anrufs auf einer Skala von 1 zu 5 bewertet haben. Lync Server verwendet eine Reihe von Algorithmen, um vorherzusagen, wie Benutzer einen Anruf bewertet hätten.</p>
+<td><p>Durchschnittliche Menge an MOS (Mean Opinion Score) Verschlechterung während eines Anrufs erlebt. Die Werte für die Verschlechterung können zwischen einem Tiefstwert von 0,0 und einem Höchstwert von 5,0 liegen. ein Wert von 0,5 oder niedriger stellt eine akzeptable Beeinträchtigung dar. Historisch gesehen wurden mittlere Meinungs Ergebnisse berechnet, indem Benutzer die Qualität eines Anrufs auf einer Skala von 1 bis 5 bewerten ließen. Lync Server verwendet eine Reihe von Algorithmen, um vorherzusagen, wie Benutzer einen Anruf bewertet hätten.</p>
 <p>Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Prozentsatz der Anrufe schlechter Qualität</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die Gesamtzahl der Anrufe, die als Anrufe schlechter Qualität klassifiziert werden. Dies sind Anrufe, bei denen für mindestens eine der gemessenen Metriken der zulässige Wert überschritten wurde (z. B. ein Anruf mit übermäßigem Jitter).</p></td>
+<td><p>Die Gesamtzahl der Anrufe, die als Anrufe schlechter Qualität klassifiziert werden. Dies sind Anrufe, bei denen für mindestens eine der gemessenen Metriken der zulässige Wert überschritten wurde (z. B. ein Anruf mit übermäßigem Jitter).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Roundtrip (ms)</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die durchschnittliche Zeit (in Millisekunden), die ein RTP-Paket (Real-Time Transport-Protokoll) benötigt, um zu einem anderen Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 200 ms oder weniger gilt als akzeptable Qualität.</p>
-<p>Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routingkonfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.</p></td>
+<td><p>Die durchschnittliche Zeit (in Millisekunden), die ein RTP-Paket (Real-time Transport Protocol) benötigt, um zu einem anderen Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 200 ms oder weniger gilt als akzeptable Qualität.</p>
+<p>Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routing konfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Paketverlust</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die durchschnittliche Rate an RTP-Paketverlusten (Real-Time Transport-Protokoll; ein Protokoll für die Übertragung von Audio und Video über das Internet). Zu Paketverlusten kommt es, wenn RTP-Pakete ihr Ziel nicht erreichen. Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
+<td><p>Die durchschnittliche Rate an RTP-Paketverlusten (Real-Time Transport Protocol). Zu Paketverlusten kommt es, wenn RTP-Pakete ihr Ziel nicht erreichen. Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Jitter (ms)</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot;Zittern&quot; eines Anrufs.) Starke Jitterwerte werden in der Regel durch Überlastung oder einen überladenen Medienserver verursacht, was zu verzerrten oder verlorenen Audiodaten führt.</p></td>
+<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot;Zittern&quot; eines Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Ausblendungsverhältnis der Reparatur</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Das durchschnittliche Verhältnis zwischen ausgeblendeten Audiosamples und der Gesamtzahl der Samples. (Ausgeblendete Audiosamples sind ein Verfahren zum „Glätten“ der „holprigen“ Übertragung, die normalerweise von verworfenen Netzwerkpaketen verursacht wird.) Ein hoher Wert gibt an, dass wegen Paketverlusten oder Jitters Verlustausblendung in großem Umfang angewendet wurde und führt zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
+<td><p>Das durchschnittliche Verhältnis zwischen ausgeblendeten Audiosamples und der Gesamtzahl der Samples. (Ausgeblendete Audiosamples sind ein Verfahren zum "Glätten" der "holprigen" Übertragung, die normalerweise von verworfenen Netzwerkpaketen verursacht wird.) Ein hoher Wert gibt an, dass wegen Paketverlusten oder Jitters Verlustausblendung in großem Umfang angewendet wurde und führt zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Streckungsverhältnis der Reparatur</strong></p></td>
@@ -208,7 +208,7 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Bericht über die M
 <tr class="odd">
 <td><p><strong>Komprimierungsverhältnis der Reparatur</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Das durchschnittliche Verhältnis zwischen komprimierten Audiosamples und der Gesamtzahl der Samples. (Komprimiertes Audio sind Audiodaten, die komprimiert wurden, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplekomprimierung in hohem Umfang angewendet wurde und führt zu einer zu schnellen Sprachwiedergabe oder zu verzerrter Sprachqualität.</p></td>
+<td><p>Das durchschnittliche Verhältnis zwischen komprimierten Audiosamples und der Gesamtzahl der Samples. (Komprimiertes Audio sind Audiodaten, die komprimiert wurden, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplekomprimierung in hohem Umfang angewendet wurde und führt zu zu schneller Sprachwiedergabe oder zu verzerrter Sprachqualität.</p></td>
 </tr>
 </tbody>
 </table>

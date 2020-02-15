@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Unterstützte Client- und Gerätehardware'
+title: Lync Server 2013 Unterstützung von Client-und Gerätehardware
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185851
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08c87692e169bac11c29bc1beeb61df8c6c964b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e9041f63f012f7251c51bb60d912417a2ed0494e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729835"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037715"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-and-device-hardware-support-in-lync-server-2013"></a>Unterstützte Client- und Gerätehardware in Lync Server 2013
+# <a name="client-and-device-hardware-support-in-lync-server-2013"></a>Unterstützung für Client-und Gerätehardware in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729835"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
-Client Computer müssen bestimmte Hardwareanforderungen erfüllen, um Clients in ihrer lync Server 2013-Bereitstellung zu unterstützen. Bevor Sie IP-Telefone und analoge Geräte bereitstellen, müssen zusätzliche Hardwarekonfigurationen vorhanden sein.
+Client Computer müssen bestimmte Hardwareanforderungen erfüllen, um Clients in ihrer lync Server 2013-Bereitstellung zu unterstützen. Vor dem Bereitstellen von IP-Telefonen und analogen Geräten müssen zusätzliche Hardwarekonfigurationen vorhanden sein.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Unterstützung für Lync Client-Hardware in Lync Server 2013](lync-server-2013-lync-client-hardware-support.md)
+  - [Unterstützung für lync-Clienthardware in lync Server 2013](lync-server-2013-lync-client-hardware-support.md)
 
-  - [Unterstützte Gerätehardware in Lync Server 2013](lync-server-2013-device-hardware-support.md)
+  - [Unterstützung von Gerätehardware in lync Server 2013](lync-server-2013-device-hardware-support.md)
 
-  - [Unterstützung von Mobilität in Lync Server 2013](lync-server-2013-mobility-support.md)
+  - [Mobilitätsunterstützung in lync Server 2013](lync-server-2013-mobility-support.md)
 
 </div>
 

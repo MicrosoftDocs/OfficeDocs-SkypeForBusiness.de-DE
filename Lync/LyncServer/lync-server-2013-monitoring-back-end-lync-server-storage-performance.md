@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Überwachen der Back-End-Speicherleistung von lync Server'
+title: 'Lync Server 2013: Überwachen der Back-End-lync Server Speicherleistung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969619
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c4d3741564cd0228213400d7ee1fbb7271c4ddd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 760e66403fd1da2b5a45cf0db065dc201e1fd02a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756859"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051157"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>Überwachen der Back-End-Speicherleistung von lync Server 2013
+# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>Überwachen der Back-End-lync Server 2013 Speicherleistung
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41756859"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-05-02_
+_**Letztes Änderungsstand des Themas:** 2014-05-02_
 
-Die lync Server 2013-Back-End-Datenbanken sind ein sehr wichtiger Bestandteil der lync Server 2013-Bereitstellung. Wir empfehlen, die Datenbanken und die jeweiligen Transaktionsprotokolle ständig zu überwachen, um sicherzustellen, dass das lync Server 2013-Back-End optimal ausgeführt wird.
+Die lync Server 2013 Back-End-Datenbanken sind ein sehr wichtiger Bestandteil der lync Server 2013-Bereitstellung. Es wird empfohlen, die Datenbanken und die entsprechenden Transaktionsprotokolle ständig zu überwachen, um sicherzustellen, dass das lync Server 2013 Back-End optimal ausgeführt wird.
 
-In der folgenden Tabelle sind Leistungsindikatoren aufgeführt, die überwacht werden sollten, um Informationen zur Speicherleistung zu erhalten. Die Baselinewerte für diese Leistungsindikatoren müssen zuerst bestimmt werden (wenn das System die normale, erwartete Auslastung hat), um die Leistungsänderungen zu verstehen, wenn System beansprucht wird.
+In der folgenden Tabelle werden Leistungsindikatoren aufgeführt, die überwacht werden sollten, um Informationen zur Speicherleistung zu erhalten. Die Basiswerte für diese Leistungsindikatoren müssen zuerst bestimmt werden (wenn das System normal ist, die erwartete Last), um die Leistungsänderungen zu verstehen, wenn das System beansprucht wird.
 
-### <a name="performance-counters-to-be-monitored"></a>Zu überwachenden Leistungsindikatoren
+### <a name="performance-counters-to-be-monitored"></a>Zu überwachende Leistungsindikatoren
 
 <table>
 <colgroup>
@@ -56,11 +56,11 @@ In der folgenden Tabelle sind Leistungsindikatoren aufgeführt, die überwacht w
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Transaktionen/SEK (RTC)</p></td>
+<td><p>Transaktionen/s (RTC)</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Transaktionen/SEK (RTCDyn)</p></td>
+<td><p>Transaktionen/Sek. (RTCDyn)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -68,7 +68,7 @@ In der folgenden Tabelle sind Leistungsindikatoren aufgeführt, die überwacht w
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Protokollleerungen/SEK (RTC)</p></td>
+<td><p>Protokollleerungen/s (RTC)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -76,11 +76,11 @@ In der folgenden Tabelle sind Leistungsindikatoren aufgeführt, die überwacht w
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Protokollleerungen/SEK (tempdb)</p></td>
+<td><p>Protokollleerungen/s (tempdb)</p></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Datenträgerübertragungen/SEK (Read + Write)-RTC DB</p></td>
+<td><p>Datenträgerübertragungen/SEK (Lesen + Schreiben) – RTC-DB</p></td>
 <td></td>
 </tr>
 <tr class="even">

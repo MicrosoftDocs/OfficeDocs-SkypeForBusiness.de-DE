@@ -12,20 +12,20 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74d3f54ff5239bf157fa8988f8de71f9d8355790
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a6aca8c6f26f7b3079840025748e20800430554b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762493"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037615"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Vergleichstabellen für Desktop Clients für lync Server 2013
+# <a name="desktop-client-comparison-tables-for-lync-server-2013"></a>Desktop Client-Vergleichstabellen für lync Server 2013
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41762493"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2018-01-23_
+_**Letztes Änderungsstand des Themas:** 2018-01-23_
 
-In den folgenden Tabellen werden die Features und Funktionen von lync 2013-Clients in den folgenden Kategorien verglichen:
+In den folgenden Tabellen werden die Features und Funktionen von lync 2013 Clients in den folgenden Kategorien verglichen:
 
   - Erweiterte Anwesenheits Unterstützung
 
-  - Support für Kontakte und Kontaktgruppen
+  - Unterstützung für Kontakte und Kontaktgruppen
 
-  - Unterstützung für Chats
+  - Chat Unterstützung
 
-  - Unterstützung für Konferenzen
+  - Unterstützung von Konferenzen
 
-  - Telefon Support
+  - Telefonie-Unterstützung
 
   - Unterstützung externer Benutzer
 
-  - Unterstützung für Archivierung, Compliance und Protokollierung
+  - Unterstützung bei Archivierung, Compliance und Protokollierung
 
   - moderne Authentifizierung
 
-Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Bereitstellung von lync Server 2013 zur Verfügung stehen. Sofern nicht anders angegeben, stehen dieselben Funktionen auch für Skype for Business Online-und Office 365-Benutzer zur Verfügung.
+Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Bereitstellung von lync Server 2013 zur Verfügung stehen. Die gleichen Funktionen stehen Skype for Business Online und Office 365 Benutzern auch zur Verfügung, sofern nichts anderes angegeben ist.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Details zur Verfügbarkeit von Features in lync 2013-mobilen Clients finden Sie unter <A href="lync-server-2013-mobile-client-comparison-tables.md">Vergleichstabellen für mobile Clients für lync Server 2013</A> .
+> Details zur Verfügbarkeit von Features in lync 2013 Mobile Clients finden Sie unter <A href="lync-server-2013-mobile-client-comparison-tables.md">Mobile Client comparison tables for lync Server 2013</A> .
 
 
 
@@ -73,11 +73,11 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>Details zu den Skype for Business Online-Abonnement Plänen finden Sie in <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A>der Skype for Business Online-Dienstbeschreibung unter.</P>
+> <P>Ausführliche Informationen zu Skype for Business Online Abonnement Plänen finden Sie in <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A>der Skype for Business Online Dienstbeschreibung unter.</P>
 > <LI>
-> <P>Lync Server 2013 unterstützt die folgenden zuvor veröffentlichten Clients: lync 2010, lync 2010 Mobile, lync Phone Edition und lync 2010 Attendant. Informationen zu diesen Clients finden Sie in der lync 2010-Version der Client Vergleichstabellen unter <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A>.</P>
+> <P>Lync Server 2013 unterstützt die folgenden zuvor veröffentlichten Clients: lync 2010, lync 2010 Mobile, lync Phone Edition und lync 2010 Attendant. Informationen zu diesen Clients finden Sie in <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A>der lync 2010 Version der Client Vergleichstabellen unter.</P>
 > <LI>
-> <P>Der lync 2013-Client unterstützt Audio und Video in einer VDI-Umgebung (Virtual Desktop Infrastructure). Details zu den lync 2013-Funktionen in einer VDI-Umgebung finden Sie unter <A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">unterstützte Virtualisierungstechnologien und bekannte Einschränkungen in lync Server 2013</A>.</P></LI></UL>
+> <P>Der lync 2013-Client unterstützt Audio und Video in einer VDI-Umgebung (Virtual Desktop Infrastructure). Ausführliche Informationen zu lync 2013 Funktionen in einer VDI-Umgebung finden Sie unter <A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">Supported Virtualization Technologies and known limitations in lync Server 2013</A>.</P></LI></UL>
 
 
 
@@ -108,22 +108,22 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <thead>
 <tr class="header">
 <th>Feature/Funktion</th>
-<th>Skype for Business 2015 und 2016-Client</th>
-<th>Skype for Business unter Mac</th>
+<th>Skype for Business 2015-und 2016-Client</th>
+<th>Skype for Business auf dem Mac</th>
 <th>Lync 2013</th>
-<th>Windows Store-App für Lync</th>
+<th>Lync Windows Store-App</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
 <th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator für Mac 2011</th>
+<th>Communicator für Mac 2011</th>
 <th>Lync für Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Status anzeigen</p></td>
+<td><p>Anzeigestatus</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -137,7 +137,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Status veröffentlichen</p></td>
+<td><p>Veröffentlichungsstatus</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -193,7 +193,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Verwenden eines Fotos von einer beliebigen öffentlichen Site für „Mein Bild“</p></td>
+<td><p>Verwenden eines Fotos von einer öffentlichen Website für "mein Bild"</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -216,7 +216,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 
 <div>
 
-## <a name="contacts-and-contact-groups-support"></a>Support für Kontakte und Kontaktgruppen
+## <a name="contacts-and-contact-groups-support"></a>Unterstützung für Kontakte und Kontaktgruppen
 
 
 <table>
@@ -237,22 +237,22 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <thead>
 <tr class="header">
 <th>Feature/Funktion</th>
-<th>Skype for Business 2015 und 2016-Client</th>
-<th>Skype for Business unter Mac</th>
+<th>Skype for Business 2015-und 2016-Client</th>
+<th>Skype for Business auf dem Mac</th>
 <th>Lync 2013</th>
-<th>Windows Store-App für Lync</th>
+<th>Lync Windows Store-App</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
 <th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator für Mac 2011</th>
+<th>Communicator für Mac 2011</th>
 <th>Lync für Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Kontaktliste anzeigen und ändern</p></td>
+<td><p>Anzeigen und Ändern der Kontaktliste</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -280,7 +280,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Private Beziehungen steuern</p></td>
+<td><p>Private Beziehungen verwalten</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -336,7 +336,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Verteilergruppen und Office 365-Gruppen erweitern</p></td>
+<td><p>Erweitern von Verteilergruppen und Office 365 Gruppen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -364,7 +364,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Gruppe „Letzte Kontakte“ anzeigen</p></td>
+<td><p>Gruppe "Letzte Kontakte" anzeigen</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -378,7 +378,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Gruppe „Aktuelle Unterhaltungen“ anzeigen</p></td>
+<td><p>Gruppe "Aktuelle Unterhaltungen" anzeigen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -410,7 +410,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
-<td><p>Nach Gruppe sortieren</p></td>
+<td><p>Nach Gruppe Sortieren</p></td>
 <td><p>●</p></td>
 <td></td>
 <td> </td>
@@ -420,7 +420,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Kontakte nach Status (Verfügbarkeit) sortieren</p></td>
+<td><p>Sortieren von Kontakten nach Status (Verfügbarkeit)</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -434,7 +434,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Exchange-Kontakte suchen und hinzufügen</p></td>
+<td><p>Suchen und Hinzufügen von Exchange-Kontakten</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -453,7 +453,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 
 1 für Skype for Business Online-und/oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
 
-2 für Skype for Business Online-und/oder Office 365-Benutzer ist dieses Feature nicht verfügbar.
+2 für Skype for Business Online-und/oder Office 365-Benutzer ist diese Funktion nicht verfügbar.
 
 </div>
 
@@ -461,7 +461,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 
 <div>
 
-## <a name="im-support"></a>Unterstützung für Chats
+## <a name="im-support"></a>Chat Unterstützung
 
 
 <table>
@@ -482,22 +482,22 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <thead>
 <tr class="header">
 <th>Feature/Funktion</th>
-<th>Skype for Business 2015 und 2016-Client</th>
-<th>Skype for Business unter Mac</th>
+<th>Skype for Business 2015-und 2016-Client</th>
+<th>Skype for Business auf dem Mac</th>
 <th>Lync 2013</th>
-<th>Windows Store-App für Lync</th>
+<th>Lync Windows Store-App</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
 <th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator für Mac 2011</th>
+<th>Communicator für Mac 2011</th>
 <th>Lync für Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Sofortnachricht oder e-Mail an einen Kontakt initiieren</p></td>
+<td><p>Initiieren von Chatnachrichten oder e-Mail an einen Kontakt</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -511,7 +511,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>In einem einzelnen Fenster mit Registerkarten zwischen mehreren Chats navigieren bzw. mehrere Unterhaltungen verfolgen</p></td>
+<td><p>Navigieren zwischen mehreren Chat Unterhaltungen/Nachverfolgen mehrerer Unterhaltungen in einem einzelnen Registerkartenfenster</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -525,7 +525,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Chatnachrichtenunterhaltungen in Outlook protokollieren</p></td>
+<td><p>Sofortnachrichtenunterhaltungen in Outlook protokollieren</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -535,8 +535,8 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>●</p></td>
 <td><p>● 1</p></td>
 <td></td>
-<td><p>In Communicator für Mac gespeichert</p></td>
-<td><p>In Lync für Mac gespeichert</p></td>
+<td><p>Gespeichert in Communicator für Mac</p></td>
+<td><p>Gespeichert in Lync für Mac</p></td>
 </tr>
 <tr class="even">
 <td><p>Vorbereitete Unterhaltungsvorlagen verwenden</p></td>
@@ -553,7 +553,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Überprüfen der Rechtschreibung</p></td>
+<td><p>Rechtschreibprüfung</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -567,7 +567,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Qualifikationssuche (mit SharePoint Server Integration)</p></td>
+<td><p>Skill Search (mit SharePoint Server Integration)</p></td>
 <td><p>● 2</p></td>
 <td> </td>
 <td><p>● 2</p></td>
@@ -581,7 +581,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Integration des beständigen Chats (Gruppenchats)</p></td>
+<td><p>Integration des beständigen Chats (Gruppenchat)</p></td>
 <td><p>● 3</p></td>
 <td> </td>
 <td><p>● 3</p></td>
@@ -595,7 +595,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Eskalieren eines beständigen Chatrooms zu einer lync-Besprechung mit nur einem Mausklick</p></td>
+<td><p>Eskalieren eines beständigen Chatrooms zu einer lync-Besprechung mit einem Mausklick</p></td>
 <td><p>● 3</p></td>
 <td> </td>
 <td><p>● 3</p></td>
@@ -609,7 +609,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Inlinebilder vom Absender und Empfänger im Chatfenster</p></td>
+<td><p>Inline Bilder von Absender und Empfänger im Chatfenster</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -637,7 +637,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Empfangen von Freihandnachrichten</p></td>
+<td><p>Empfangen von frei Hand Meldungen</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -651,7 +651,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td></td>
 </tr>
 <tr class="even">
-<td><p>„Hohe Priorität“ für Chatnachrichten festlegen</p></td>
+<td><p>Festlegen von Chatnachrichten als hohe Wichtigkeit</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -670,9 +670,9 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 
 1 für Skype for Business Online-und/oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
 
-für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint 2013 erforderlich.
+2 lokale lync Server 2013 und lokale SharePoint 2013 sind für die qualifikationssuche erforderlich.
 
-3 für Skype for Business Online-und/oder Office 365-Benutzer steht beständiger Chat nicht zur Verfügung.
+3 für Skype for Business Online-und/oder Office 365-Benutzer steht ein beständiger Chat nicht zur Verfügung.
 
 </div>
 
@@ -680,7 +680,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 
 <div>
 
-## <a name="conferencing-support"></a>Unterstützung für Konferenzen
+## <a name="conferencing-support"></a>Unterstützung von Konferenzen
 
 <div>
 
@@ -688,11 +688,11 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>Lync-besprechungsfeatures stehen in Skype for Business Online Standalone Plan 1 nicht zur Verfügung.</P>
+> <P>Lync-Besprechungsfunktionen sind in Skype for Business Online eigenständigen Plan 1 nicht verfügbar.</P>
 > <LI>
-> <P>In lync-zu-lync-Sitzungen kann ein Benutzer von Skype for Business Online Plan 1 an der Desktopfreigabe und Anwendungsfreigabe teilnehmen, wenn er von einem Benutzer eingeladen wird, der Zugriff auf die Freigabefunktionen hat.</P>
+> <P>In lync-zu-lync-Sitzungen kann ein Skype for Business Online Plan 1-Benutzer an der Desktopfreigabe und Anwendungsfreigabe teilnehmen, wenn er von einem Benutzer eingeladen wird, der Zugriff auf Freigabefunktionen hat.</P>
 > <LI>
-> <P>Einzelheiten hierzu finden Sie im Skype for Business Online-Dienstbeschreibung <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>unter.</P></LI></UL>
+> <P>Ausführliche Informationen finden Sie in <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>der Skype for Business Online-Dienstbeschreibung unter.</P></LI></UL>
 
 
 
@@ -717,16 +717,16 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <thead>
 <tr class="header">
 <th>Feature/Funktion</th>
-<th>Skype for Business 2015 und 2016-Client</th>
-<th>Skype for Business unter Mac</th>
+<th>Skype for Business 2015-und 2016-Client</th>
+<th>Skype for Business auf dem Mac</th>
 <th>Lync 2013</th>
-<th>Windows Store-App für Lync</th>
+<th>Lync Windows Store-App</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
 <th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator für Mac 2011</th>
+<th>Communicator für Mac 2011</th>
 <th>Lync für Mac 2011</th>
 </tr>
 </thead>
@@ -762,7 +762,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Video mit mehreren Teilnehmern ansehen (Katalogansicht)</p></td>
+<td><p>Video mit mehreren Teilen anzeigen (Galerieansicht)</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -804,7 +804,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>An Chatnachrichten mit mehreren Teilnehmern teilnehmen</p></td>
+<td><p>An Sofortnachrichten mit mehreren Teilnehmern teilnehmen</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -862,7 +862,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Einwahlaudiobesprechungen verwenden</p></td>
+<td><p>Verwenden von Einwahl Audiokonferenzen</p></td>
 <td><p>● 3</p></td>
 <td><p>●</p></td>
 <td><p>● 3</p></td>
@@ -876,7 +876,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Eine Besprechung mit „Jetzt besprechen“ einleiten</p></td>
+<td><p>Initiieren einer Sofortbesprechung</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -890,21 +890,21 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Microsoft PowerPoint-Dateien hinzufügen und vorführen</p></td>
+<td><p>Microsoft PowerPoint-Dateien hinzufügen und präsentieren</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
-<td><p>Nur präsentieren</p></td>
+<td><p>Nur vorhanden</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
 <td></td>
-<td><p>Nur anzeigen, Anmerkungen nicht available4</p></td>
+<td><p>Nur anzeigen, nicht verfügbar4 Anmerkungen</p></td>
 </tr>
 <tr class="odd">
-<td><p>In Microsoft PowerPoint-Dateien navigieren</p></td>
+<td><p>Navigieren in Microsoft PowerPoint Dateien</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -960,7 +960,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Dateien hochladen, um sie für andere Personen freizugeben</p></td>
+<td><p>Hochladen von Dateien, die für andere Personen freigegeben werden</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -975,12 +975,12 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 </tr>
 <tr class="even">
 <td><p>Besprechung oder Konferenz planen</p></td>
-<td><p>Outlook oder Lync Web Scheduler</p></td>
-<td><p>Erfordert Mac Outlook, Version 15,28 oder höher</p></td>
-<td><p>Outlook oder Lync Web Scheduler</p></td>
-<td><p>Outlook oder Lync Web Scheduler</p></td>
-<td><p>Outlook oder Lync Web Scheduler</p></td>
-<td><p>Lync Web Scheduler</p></td>
+<td><p>Outlook-oder lync-Webplaner</p></td>
+<td><p>Erfordert Mac Outlook Version 15,28 oder höher</p></td>
+<td><p>Outlook-oder lync-Webplaner</p></td>
+<td><p>Outlook-oder lync-Webplaner</p></td>
+<td><p>Outlook-oder lync-Webplaner</p></td>
+<td><p>Lync-Webplaner</p></td>
 <td><p>●</p></td>
 <td></td>
 <td></td>
@@ -988,7 +988,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>Outlook</p></td>
 </tr>
 <tr class="odd">
-<td><p>Q&amp;A-Manager</p></td>
+<td><p>Q&amp;ein Manager</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td> </td>
@@ -1016,7 +1016,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Besprechungschat deaktivieren</p></td>
+<td><p>Besprechungs-Chat deaktivieren</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1030,7 +1030,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>Teilnehmer stummschalten</p></td>
+<td><p>Benutzergruppe stumm schalten</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1044,7 +1044,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>Alle zu Teilnehmern machen</p></td>
+<td><p>Jeder als Teilnehmer festlegen</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1058,7 +1058,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>Stellvertretung kann Besprechungen im Namen des Delegierenden planen</p></td>
+<td><p>Delegieren kann eine Besprechung im Auftrag von "delegater" planen</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1086,7 +1086,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td> </td>
 </tr>
 <tr class="even">
-<td><p>Videospotlight festlegen (Video sperren)</p></td>
+<td><p>Video Spotlight festlegen (Video sperren)</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1100,7 +1100,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Steuerung der Bildschirmübertragung übergeben/übernehmen</p></td>
+<td><p>Zuweisen/übernehmen der Bildschirmfreigabe Steuerung</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1119,11 +1119,11 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 
 1 für Skype for Business Online-und/oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
 
-2 Teilnehmer können keine Desktops steuern, die von Skype for Business für Mac, lync für Mac 2011 oder Communicator für Mac 2011-Benutzer freigegeben werden. Mac-Benutzer können Desktops steuern, die von Windows-Benutzern freigegeben werden.
+2 Teilnehmer können keine Desktops steuern, die von Skype for Business auf Mac, lync für Mac 2011 oder Communicator für Mac 2011-Benutzer gemeinsam verwendet werden. Mac-Benutzer können Desktops steuern, die von Windows-Benutzern gemeinsam verwendet werden.
 
-3 für Skype for Business Online-und/oder Office 365-Benutzer ist für dieses Feature ein Audiokonferenz-Anbieter erforderlich.
+3 für Skype for Business Online-und/oder Office 365-Benutzer ist für diese Funktion ein Anbieter für Audiokonferenzen erforderlich.
 
-4 der lync für Mac 2011-Client kann Microsoft Office 2013 PowerPoint-Präsentationen nicht anzeigen, wenn diese von dem lync Web App 2013-Client in einer Konferenz freigegeben wurden.
+4 der Client für lync für Mac 2011 kann Microsoft Office 2013 PowerPoint-Präsentationen nicht anzeigen, wenn Sie in einer Konferenz vom lync Web App 2013-Client freigegeben wurden.
 
 </div>
 
@@ -1137,7 +1137,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 
 
 > [!NOTE]  
-> Die lync-Sprachfeatures sind auf bestimmte Skype for Business Online-Abonnement Pläne limitiert. Ausführliche Informationen finden Sie im Thema "lync-sprach Features" in der Skype for Business Online-Dienst <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>Beschreibung unter.
+> Lync Voice-Funktionen sind auf bestimmte Skype for Business Online Abonnement Pläne limitiert. Ausführliche Informationen finden Sie im Thema "lync Voice Features" in der Skype for Business Online Dienstbeschreibung unter <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>.
 
 
 
@@ -1162,22 +1162,22 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <thead>
 <tr class="header">
 <th>Feature/Funktion</th>
-<th>Skype for Business 2015 und 2016-Client</th>
-<th>Skype for Business unter Mac</th>
+<th>Skype for Business 2015-und 2016-Client</th>
+<th>Skype for Business auf dem Mac</th>
 <th>Lync 2013</th>
-<th>Windows Store-App für Lync</th>
+<th>Lync Windows Store-App</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
 <th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator für Mac 2011</th>
+<th>Communicator für Mac 2011</th>
 <th>Lync für Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Anruf initiieren</p></td>
+<td><p>Initiieren eines Anrufs</p></td>
 <td><p>● 2</p></td>
 <td><p>●</p></td>
 <td><p>● 2</p></td>
@@ -1247,7 +1247,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Stellvertretungen verwalten</p></td>
+<td><p>Verwalten von Stellvertretungen</p></td>
 <td><p>● 3</p></td>
 <td> </td>
 <td><p>● 3</p></td>
@@ -1278,7 +1278,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>Support Emergency Services (E911)</p></td>
 <td><p>● 3</p></td>
 <td><p>●</p>
-<p>Erfordert lync Server 2013 CU8 HF1 oder höher</p></td>
+<p>Erfordert lync Server 2013 ku8 HF1 oder höher</p></td>
 <td><p>● 3</p></td>
 <td></td>
 <td><p>● 3</p></td>
@@ -1290,7 +1290,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Chatbenachrichtigung an SIP-URIs für E-911-Anrufe</p></td>
+<td><p>Chat Benachrichtigung zu SIP-URI (n) für E-911-Anruf</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1304,7 +1304,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Chatbenachrichtigung an Verteilerliste für E-911-Anrufe</p></td>
+<td><p>Chat Benachrichtigung an Verteilerliste für E-911-Anruf</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1318,7 +1318,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="odd">
-<td><p>Mit Voicemail verbinden, Begrüßung einrichten oder ändern</p></td>
+<td><p>Herstellen einer Verbindung mit Voicemail, einrichten oder Ändern der Begrüßung</p></td>
 <td><p>● 3</p></td>
 <td><p>●</p></td>
 <td><p>● 3</p></td>
@@ -1388,7 +1388,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Anruf parken</p></td>
+<td><p>Anrufe parken</p></td>
 <td><p>● 3</p></td>
 <td> </td>
 <td><p>● 3</p></td>
@@ -1421,9 +1421,9 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 
 1 für Skype for Business Online-und/oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
 
-2 für Skype for Business Online-und/oder Office 365-Benutzer steht diese Funktion nur für PC-zu-PC-Anrufe zur Verfügung.
+2 für Skype for Business Online-und/oder Office 365-Benutzer steht diese Funktion nur für PC-und PC-Anrufe zur Verfügung.
 
-3 für Skype for Business Online-und/oder Office 365-Benutzer ist dieses Feature nicht verfügbar.
+3 für Skype for Business Online-und/oder Office 365-Benutzer ist diese Funktion nicht verfügbar.
 
 </div>
 
@@ -1451,21 +1451,21 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <thead>
 <tr class="header">
 <th>Feature/Funktion</th>
-<th>Skype for Business 2015 und 2016-Client</th>
-<th>Skype for Business unter Mac</th>
+<th>Skype for Business 2015-und 2016-Client</th>
+<th>Skype for Business auf dem Mac</th>
 <th>Lync 2013</th>
-<th>Windows Store-App für Lync</th>
+<th>Lync Windows Store-App</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
 <th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator für Mac 2011</th>
+<th>Communicator für Mac 2011</th>
 <th>Lync für Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Chatnachricht mit öffentlichem Kontakt initiieren</p></td>
+<td><p>Sofortnachricht mit öffentlichem Kontakt initiieren</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1478,7 +1478,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Chatnachricht mit Partnerkontakt initiieren</p></td>
+<td><p>Sofortnachricht mit Partnerkontakt initiieren</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
 <td><p>●</p></td>
@@ -1509,7 +1509,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 
 1 für Skype for Business Online-und/oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
 
-2 für Skype for Business Online-und/oder Office 365-Benutzer ist dieses Feature nicht verfügbar.
+2 für Skype for Business Online-und/oder Office 365-Benutzer ist diese Funktion nicht verfügbar.
 
 </div>
 
@@ -1536,22 +1536,22 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <thead>
 <tr class="header">
 <th>Feature/Funktion</th>
-<th>Skype for Business 2015 und 2016-Client</th>
-<th>Skype for Business unter Mac</th>
+<th>Skype for Business 2015-und 2016-Client</th>
+<th>Skype for Business auf dem Mac</th>
 <th>Lync 2013</th>
-<th>Windows Store-App für Lync</th>
+<th>Lync Windows Store-App</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
 <th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator für Mac 2011</th>
+<th>Communicator für Mac 2011</th>
 <th>Lync für Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Aufzeichnung von Audio, Video, Anwendungsfreigabe, Desktopfreigabe und hochgeladenen Inhalten auf Clientseite</p></td>
+<td><p>Client seitige Aufzeichnung von Audio-, Video-, Anwendungsfreigaben, Desktopfreigabe und hochgeladenen Inhalten</p></td>
 <td><p>● 1</p></td>
 <td> </td>
 <td><p>● 1</p></td>
@@ -1565,7 +1565,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Aufzeichnung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen auf Clientseite</p></td>
+<td><p>Client seitige Aufzeichnung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen</p></td>
 <td><p>● 2</p></td>
 <td> </td>
 <td><p>● 2</p></td>
@@ -1579,7 +1579,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Auswählen der bevorzugten Auflösung für die Aufzeichnung</p></td>
+<td><p>Bevorzugte Aufzeichnungs Auflösung auswählen</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1596,7 +1596,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 </table>
 
 
-1 für Skype for Business Online-und/oder Office 365-Benutzer ist die Aufzeichnung in einigen eigenständigen Skype for Business Online-Plänen nicht verfügbar. Für die Aufzeichnung sind vollständige lync 2013-Client Rechte erforderlich. Einzelheiten hierzu finden Sie im Skype for Business Online-Dienstbeschreibung [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)unter.
+1 für Skype for Business Online-und/oder Office 365-Benutzer ist die Aufzeichnung in bestimmten Skype for Business Online eigenständigen Plänen nicht verfügbar. Für die Aufzeichnung ist eine vollständige lync 2013 Client Rechte erforderlich. Ausführliche Informationen finden Sie in [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)der Skype for Business Online-Dienstbeschreibung unter.
 
 2 für Skype for Business Online-und/oder Office 365-Benutzer ist die Aufzeichnung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen nicht verfügbar.
 
@@ -1606,7 +1606,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 
 <div>
 
-## <a name="archiving-compliance-and-logging-support"></a>Unterstützung für Archivierung, Compliance und Protokollierung
+## <a name="archiving-compliance-and-logging-support"></a>Unterstützung bei Archivierung, Compliance und Protokollierung
 
 
 <table>
@@ -1627,22 +1627,22 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <thead>
 <tr class="header">
 <th>Feature/Funktion</th>
-<th>Skype for Business 2015 und 2016-Client</th>
-<th>Skype for Business unter Mac</th>
+<th>Skype for Business 2015-und 2016-Client</th>
+<th>Skype for Business auf dem Mac</th>
 <th>Lync 2013</th>
-<th>Windows Store-App für Lync</th>
+<th>Lync Windows Store-App</th>
 <th>Lync 2013 Basic</th>
 <th>Lync Web App</th>
 <th>Lync 2010</th>
 <th>Lync 2010 Attendant</th>
 <th>Lync Phone Edition</th>
-<th>Communicator für Mac 2011</th>
+<th>Communicator für Mac 2011</th>
 <th>Lync für Mac 2011</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Archivierung von Chats im Outlook-Ordner „Aufgezeichnete Unterhaltungen“</p></td>
+<td><p>Archivieren von Chatnachrichten Unterhaltungen im Outlook-Unterhaltungsverlauf</p></td>
 <td><p>● 2</p></td>
 <td> </td>
 <td><p>● 2</p></td>
@@ -1652,11 +1652,11 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td><p>●</p></td>
 <td><p>● 1</p></td>
 <td></td>
-<td><p>In Communicator für Mac gespeichert</p></td>
+<td><p>Gespeichert in Communicator für Mac</p></td>
 <td><p>●</p></td>
 </tr>
 <tr class="even">
-<td><p>Archivierung von Audio, Video, Anwendungsfreigabe, Desktopfreigabe und hochgeladenen Inhalten auf Clientseite</p></td>
+<td><p>Client seitige Archivierung von Audio, Video, Anwendungsfreigabe, Desktopfreigabe und hochgeladenen Inhalten</p></td>
 <td><p>● 2</p></td>
 <td> </td>
 <td><p>● 2</p></td>
@@ -1670,7 +1670,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Archivierung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen auf Clientseite</p></td>
+<td><p>Client seitige Archivierung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen</p></td>
 <td><p>● 3</p></td>
 <td> </td>
 <td><p>● 3</p></td>
@@ -1684,7 +1684,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 <td></td>
 </tr>
 <tr class="even">
-<td><p>Zugriff auf Anmelde Protokolle über das lync-Symbol in der Taskleiste</p></td>
+<td><p>Zugriff auf Anmelde Protokolle von lync-Symbol in der Taskleiste</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td><p>●</p></td>
@@ -1703,7 +1703,7 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 
 1 für Skype for Business Online-und/oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
 
-2 für Skype for Business Online-und/oder Office 365-Benutzer erfordert dieses Feature Exchange Online und wird durch das Exchange-Postfach in-situ-Speicher-Attribut des Benutzers gesteuert.
+2 für Skype for Business Online-und/oder Office 365-Benutzer erfordert dieses Feature Exchange Online und wird durch das in-situ-Speicher-Attribut des Exchange-Postfachs des Benutzers gesteuert.
 
 3 für Skype for Business Online-und/oder Office 365-Benutzer ist die Archivierung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen nicht verfügbar.
 
@@ -1713,19 +1713,19 @@ für die Fertigkeits Suche ist 2 lokales lync Server 2013 und lokales SharePoint
 
 <div>
 
-## <a name="client-limitations"></a>Einschränkungen der Clients
+## <a name="client-limitations"></a>Client Einschränkungen
 
 <span id="Full_Basic"></span>
 
 <div>
 
-## <a name="basic-client-limitations"></a>Einschränkungen des Standardclients
+## <a name="basic-client-limitations"></a>Einschränkungen für Basisclients
 
-Die folgenden Funktionen sind bei Verwendung des Clients mit vollem Funktionsumfang verfügbar, bei Verwendung des Standardclients jedoch nicht:
+Die folgenden Features stehen mit dem vollständigen Client zur Verfügung und sind mit dem Basis Client nicht verfügbar:
 
   - Einstellungen für Teamanruf verwalten
 
-  - Stellvertretungen verwalten
+  - Verwalten von Stellvertretungen
 
   - Anrufe im Namen eines anderen Kontakts tätigen (Vorgesetzter/Stellvertreter-Szenario)
 
@@ -1735,7 +1735,7 @@ Die folgenden Funktionen sind bei Verwendung des Clients mit vollem Funktionsumf
 
   - Anruf an eine Reaktionsgruppe initiieren
 
-  - Anruf parken
+  - Anrufe parken
 
   - Gruppenanrufannahme
 
@@ -1745,19 +1745,19 @@ Die folgenden Funktionen sind bei Verwendung des Clients mit vollem Funktionsumf
 
 <div>
 
-## <a name="online-or-hybrid-user-account-limitations"></a>Einschränkungen für Onlinebenutzerkonten oder hybride Benutzerkonten
+## <a name="online-or-hybrid-user-account-limitations"></a>Einschränkungen für Online-oder Hybrid Benutzerkonten
 
-Benutzerkonten können entweder online oder lokal vorhanden sein, und das wirkt sich auf die Features aus, die diesem Benutzer zur Verfügung stehen. Benutzer mit Konten auf Skype for Business Online haben auch mit dem Client mit vollem Funktionsumfang keinen Zugriff auf die folgenden Features:
+Benutzerkonten können entweder online oder lokal vorhanden sein und sich auf die für diesen Benutzer verfügbaren Features auswirken. Benutzer mit Konten auf Skype for Business Online haben keinen Zugriff auf die folgenden Funktionen, auch nicht mit dem vollständigen Client:
 
-  - Erweiterte Anwesenheit: Foto von einer beliebigen öffentlichen Site für „Mein Bild“ verwenden
+  - Erweiterte Anwesenheit: Verwenden eines Fotos von einer öffentlichen Website für "mein Bild"
 
-  - Kontakte: Nach Reaktionsgruppen suchen
+  - Kontakte: Suchen nach Reaktionsgruppen
 
-  - Chatunterstützung: Integration des beständigen Chats (Gruppen-Chats)
+  - Chat Unterstützung: Integration von beständigen Chats (Gruppenchat)
 
-  - Chat Unterstützung: eskalieren eines beständigen Chatrooms zu einer Besprechung mit nur einem Mausklick
+  - Chat Unterstützung: eskalieren eines beständigen Chatrooms zu einer Besprechung mit einem Mausklick
 
-  - Externe Benutzer: Anrufe mit zwei oder mehr Teilnehmern mit externen Benutzern durchführen
+  - Externe Benutzer: Durchführen von Anrufen mit zwei oder mehr Teilnehmern mit externen Benutzern
 
 </div>
 

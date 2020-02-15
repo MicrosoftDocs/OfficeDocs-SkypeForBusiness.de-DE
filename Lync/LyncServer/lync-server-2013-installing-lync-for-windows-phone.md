@@ -12,16 +12,16 @@ ms:contentKeyID: 51541513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75e42f9fd2b954e943050fc9877706ae53a1143c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 349a4b2609f3b810d0aa64c9e71786f309f21918
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726135"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045287"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,37 +35,37 @@ ms.locfileid: "41726135"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-02-03_
+_**Letztes Änderungsstand des Themas:** 2014-02-03_
 
-Lync 2013 für Windows Phone ist eine vom Benutzer installierbare Anwendung, die auf dem Windows Phone Marketplace zur Verfügung steht.
+Lync 2013 für Windows Phone ist eine Benutzer installierbare Anwendung, die auf dem Windows Phone Marketplace verfügbar ist.
 
 <div>
 
-## <a name="installing-lync-for-windows-mobile"></a>Installieren von lync für Windows Mobile
+## <a name="installing-lync-for-windows-mobile"></a>Installieren von Lync für Windows Mobile
 
-Sie können Ihre Benutzer anweisen, lync 2013 für Windows Phone auf Ihren Geräten zu installieren, indem Sie Sie an den Windows <http://go.microsoft.com/fwlink/p/?linkid=231901>Phone Marketplace unterrichten.
+Sie können Ihre Benutzer anweisen, lync 2013 für Windows Phone auf Ihren Geräten zu installieren, indem Sie Sie an den <http://go.microsoft.com/fwlink/p/?linkid=231901>Windows Phone Marketplace unterrichten.
 
 </div>
 
 <div>
 
-## <a name="if-you-use-a-dns-srv-record-to-publish-exchange-web-services"></a>Wenn Sie einen DNS-SRV-Eintrag zum Veröffentlichen von Exchange-Webdiensten verwenden
+## <a name="if-you-use-a-dns-srv-record-to-publish-exchange-web-services"></a>Wenn Sie einen DNS-SRV-Eintrag zum Veröffentlichen von Exchange Webdienste verwenden
 
-Um die Exchange-Integration für lync-Clients zu aktivieren, veröffentlichen einige Organisationen die Exchange-Webdienste-URL mithilfe eines DNS-SRV-Eintrags. Das Dokument "Understanding and Troubleshooting Exchange Integration", das im Microsoft Download Center [http://go.microsoft.com/fwlink/?LinkID=391095](http://go.microsoft.com/fwlink/?linkid=391095)verfügbar ist, beschreibt Szenarien, in denen dies erforderlich sein kann. Die Exchange-Integration für Windows Phone-Benutzer funktioniert in diesem Szenario jedoch nicht, da die Windows Phone-Plattform keine SRV-Lookups unterstützt. Sie müssen Windows Phone-Benutzer anweisen, die Exchange-Webdienste-URL anzugeben, anstatt dem Smartphone den automatischen Erkennen des Servers zu ermöglichen.
+Um die Exchange-Integration für lync-Clients zu aktivieren, veröffentlichen einige Organisationen die Exchange Webdienste-URL mithilfe eines DNS-SRV-Eintrags. Das Dokument "Understanding and Troubleshooting Exchange Integration", verfügbar im Microsoft Download Center [http://go.microsoft.com/fwlink/?LinkID=391095](http://go.microsoft.com/fwlink/?linkid=391095)unter, beschreibt Szenarien, in denen dies möglicherweise erforderlich ist. Die Exchange-Integration für Windows Phone Benutzer ist in diesem Szenario jedoch nicht funktionsfähig, da die Windows Phone-Plattform keine SRV-Lookups unterstützt. Sie müssen Windows Phone Benutzer anweisen, die Exchange Webdienste-URL anzugeben, anstatt dem Telefon die automatische Erkennung des Servers zu erlauben.
 
-Weisen Sie die Benutzer an, die lync-Einstellungen auf Ihren Windows-Smartphones wie folgt zu konfigurieren:
+Weisen Sie die Benutzer an, die lync-Einstellungen auf Ihren Windows-Telefonen wie folgt zu konfigurieren:
 
 1.  Wählen Sie in Windows phone in den lync-Einstellungen den Bildschirm **Exchange** aus.
 
-2.  Verschieben Sie den **Server automatisch erkennen** auf **aus**.
+2.  **Automatisches Erkennen von Servern** in **aus**.
 
-3.  Tippen Sie auf das leere Feld, und geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) oder die URL für Exchange Web Services ein.
+3.  Tippen Sie auf das leere Feld, und geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) oder die URL für Exchange Webdienste ein.
     
     <div>
     
 
     > [!NOTE]  
-    > Sie können entweder den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) oder die vollständige URL Ihres Exchange-Webdienste-Servers angeben. Wenn Sie den FQDN angeben, werden das Protokoll (https://) und der Exchange-Webdienste Pfad (/EWS/Exchange.asmx) automatisch hinzugefügt. Wenn ihr Pfad für Exchange-Webdienste anders ist, können Sie die vollständige URL angeben.
+    > Sie können entweder den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) oder die vollständige URL Ihres Exchange Webdienste-Servers angeben. Wenn Sie den FQDN angeben, werden das Protokoll (https://) und der Exchange Webdienste Pfad (/EWS/Exchange.asmx) automatisch hinzugefügt. Wenn Ihr Exchange Webdienste-Pfad unterschiedlich ist, können Sie die vollständige URL angeben.
 
     
     </div>
@@ -78,41 +78,41 @@ Weisen Sie die Benutzer an, die lync-Einstellungen auf Ihren Windows-Smartphones
 
 ## <a name="verifying-mobile-client-installation"></a>Überprüfen der Installation des mobilen Clients
 
-Nachdem Sie den Client konfiguriert und sich erfolgreich angemeldet haben, verwenden Sie die folgenden Tests, um zu überprüfen, ob Ihre Installation von lync 2013 auf Ihrem mobilen Gerät ordnungsgemäß funktioniert.
+Nachdem Sie den Client konfiguriert und sich erfolgreich angemeldet haben, können Sie anhand der folgenden Tests überprüfen, ob die Installation von lync 2013 auf Ihrem mobilen Gerät ordnungsgemäß funktioniert.
 
 **Suchen nach einem Kontakt im Unternehmensverzeichnis**
 
-1.  Tippen Sie in der Kontaktliste unten auf **Suchen** .
+1.  Tippen Sie in der Kontaktliste unten auf die Schaltfläche **Suchen**.
 
 2.  Suchen Sie einen Kontakt, der nur in der globalen Adressliste vorhanden ist.
 
 3.  Stellen Sie sicher, dass der Kontaktname in den Suchergebnissen angezeigt wird.
 
-**Testen der Chat- und Anwesenheitsfunktionen**
+**Testen von Chatnachrichten und Anwesenheitsinformationen**
 
 1.  Tippen Sie in der Kontaktliste auf einen Kontakt.
 
-2.  Tippen Sie auf der Visitenkarte auf das Symbol **Chat** .
+2.  Tippen Sie in der Visitenkarte auf das Symbol **IM**.
 
-3.  Stellen Sie sicher, dass ein Chatfenster zum Eingeben und Senden einer Sofortnachricht angezeigt wird.
+3.  Stellen Sie sicher, dass ein Chatfenster angezeigt wird und Sie ein Chatnachrichten eingeben und senden können.
 
-**Testen der Auswahlkonferenz**
+**Testen der Dial-Out-Konferenz**
 
-1.  Planen Sie in Outlook eine lync-Besprechung.
+1.  Planen Sie in Outlook eine Lync-Besprechung.
 
 2.  Öffnen Sie auf dem mobilen Gerät die Besprechungseinladung.
 
 3.  Klicken Sie in der Besprechung auf den Link, um an der Besprechung teilzunehmen.
 
-4.  Nehmen Sie den Anruf vom Konferenzdienst entgegen und stellen Sie sicher, dass Sie mit dem Besprechungsaudio verbunden sind.
+4.  Nehmen Sie den Anruf vom Konferenzdienst entgegen, und stellen Sie sicher, dass Sie mit dem Besprechungsaudio verbunden sind.
 
 **Testen von Pushbenachrichtigungen**
 
-1.  Registrieren Sie sich auf dem mobilen Gerät von Benutzer a bei lync mit dem Konto von Benutzer a.
+1.  Melden Sie sich auf dem mobilen Gerät von Benutzer A bei Lync mit dem Konto des Benutzers A an.
 
 2.  Öffnen Sie eine andere Anwendung auf dem mobilen Gerät.
 
-3.  Bei einem anderen Client können Sie sich mit dem Konto von Benutzer B bei lync anmelden.
+3.  Melden Sie sich in einem anderen Client mit dem Konto von Benutzer B bei Lync an.
 
 4.  Senden Sie eine Sofortnachricht von Benutzer B an Benutzer A.
 

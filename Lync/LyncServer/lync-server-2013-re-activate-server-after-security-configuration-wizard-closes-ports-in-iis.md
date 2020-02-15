@@ -1,5 +1,5 @@
 ---
-title: Erneutes Aktivieren eines Servers, nachdem der Sicherheitskonfigurations-Assistent Ports in IIS schließt
+title: Server erneut aktivieren, nachdem der Sicherheitskonfigurations-Assistent Ports in IIS geschlossen hat
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185644
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6642906c1855575fb8077846eef6646bfb37531
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 388a39c81af2f7e3ca4e0c61f468b283deaa7a4e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746875"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045727"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a>Erneutes Aktivieren eines Servers, nachdem der Sicherheitskonfigurations-Assistent Ports in IIS schließt
+# <a name="re-activate-server-after-security-configuration-wizard-closes-ports-in-iis"></a>Server erneut aktivieren, nachdem der Sicherheitskonfigurations-Assistent Ports in IIS geschlossen hat
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41746875"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
-Einige lync Server 2013-Rollen führen Webdienste im Internet Informationsdienste (IIS)-Port 4443 aus. Wenn Sie den lync Server-Bereitstellungs-Assistenten, Bootstrapper. exe oder das Cmdlet **enable-CsComputer** ausführen, wird eine Ausnahme in der Firewall erstellt, und der Port wird geöffnet. Wenn Sie dann den Windows Server 2008 R2-Sicherheitskonfigurations-Assistenten (oder andere Härtungs Skripts) ausführen, wird Port 4443 blockiert, und externe Clients können keine Webdienste kontaktieren. Um den Port erneut zu öffnen, können Sie entweder die Firewall-Ausnahme direkt ändern oder den Server erneut aktivieren.
+Einige lync Server 2013 Rollen werden Webdienste auf Internet Information Services (IIS) Port 4443 ausgeführt. Durch Ausführen des lync Server-Bereitstellungs-Assistenten, Bootstrapper. exe oder mithilfe des Cmdlets **enable-CsComputer** wird eine Ausnahme in der Firewall erstellt und der Port geöffnet. Wenn Sie dann den Assistenten für die Windows Server 2008 R2 Sicherheitskonfiguration (oder andere Sicherungsskripts) ausführen, wird Port 4443 blockiert, und externe Clients können sich nicht an Webdienste wenden. Um den Port erneut zu öffnen, können Sie entweder die Firewall-Ausnahme direkt ändern oder den Server erneut aktivieren.
 
 <div>
 
 ## <a name="to-re-activate-the-server-by-using-the-deployment-wizard"></a>So aktivieren Sie den Server mithilfe des Bereitstellungs-Assistenten erneut
 
-1.  Klicken Sie auf der Seite lync Server-Bereitstellungs-Assistent neben **Schritt 2: Einrichten oder Entfernen von lync Server-Komponenten**auf **Ausführen** .
+1.  Klicken Sie auf der Seite lync Server-Bereitstellungs-Assistent neben **Schritt 2: lync Server Komponenten einrichten oder entfernen**auf **Ausführen** .
 
-2.  Klicken Sie auf der Seite **Setup lync Server Components** auf **weiter**.
+2.  Klicken Sie auf der Seite **Lync Server-Komponenten einrichten** auf **Weiter**.
 
-3.  Klicken Sie auf der Seite **Befehle ausführen** , wenn der Vorgangsstatus als erledigt angezeigt wird, auf **Fertig stellen**.
+3.  Wenn der Taskstatus auf der Seite **Befehle ausführen** als abgeschlossen angezeigt wird, klicken Sie auf **Fertig stellen**.
     
     <div>
     

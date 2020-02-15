@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verschieben eines Konferenz Geräts in einen neuen Registrierungspool'
+title: 'Lync Server 2013: Migrieren eines Konferenz Geräts in einen neuen registrierungsstellenpool'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803934
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69afbc1dbb33f43f8ed6a1f056f7d4a610b110c4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ebeb81c97e92cc305c3f1bec78f6c59aeb62d978
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756749"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047359"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="move-a-conferencing-device-to-a-new-registrar-pool-in-lync-server-2013"></a>Verschieben eines Konferenz Geräts in einen neuen Registrierungspool in lync Server 2013
+# <a name="move-a-conferencing-device-to-a-new-registrar-pool-in-lync-server-2013"></a>Migrieren eines Konferenz Geräts in einen neuen registrierungsstellenpool in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756749"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-20_
+_**Letztes Änderungsstand des Themas:** 2013-02-20_
 
-Verschieben Sie ein Konferenzgerät mithilfe des Cmdlets **Move-CsMeetingRoom** von einem Registrierungspool in einen anderen. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden.
+Verwenden Sie das Cmdlet " **csmeetingroom"** ", um ein Konferenzgerät von einem registrierungsstellenpool in einen anderen zu versetzen. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden.
 
 <div>
 
 
 > [!NOTE]  
-> Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Remote-PowerShell" unter.
+> Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>mithilfe von Remote-PowerShell" unter.
 
 
 
@@ -54,15 +54,15 @@ Verschieben Sie ein Konferenzgerät mithilfe des Cmdlets **Move-CsMeetingRoom** 
 
 <div>
 
-## <a name="moving-a-conferencing-device-to-a-new-registrar-pool"></a>Verschieben eines Konferenz Geräts in einen neuen Registrierungs Pool
+## <a name="moving-a-conferencing-device-to-a-new-registrar-pool"></a>Verschieben eines Konferenz Geräts in einen neuen Registrierungsstellen Pool
 
-  - Um ein Konferenzgerät zu verschieben, müssen Sie die Identität des zu verschiebbaren Raums angeben und dann den target-Parameter auf den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des registrierungspools festlegen, in den das Gerät verschoben wird. Beispiel:
+  - Zum Verschieben eines Konferenz Geräts müssen Sie die Identität des zu verschiebenden Raums angeben und dann den Parameter Target auf den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Registrierungsstellen Pools festlegen, in den das Gerät verschoben wird. Beispiel:
     
         Move-CsMeetingRoom -Target "atl-cs-001.litwareinc.com" -Identity "Room 14"
 
 </div>
 
-Ausführliche Informationen finden Sie im Hilfethema zum Cmdlet [Move-CsMeetingRoom](https://docs.microsoft.com/powershell/module/skype/Move-CsMeetingRoom) .
+Ausführliche Informationen finden Sie im Hilfethema zum Cmdlet " [csmeetingroom"](https://docs.microsoft.com/powershell/module/skype/Move-CsMeetingRoom) ".
 
 </div>
 

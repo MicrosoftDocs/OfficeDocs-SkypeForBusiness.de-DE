@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Details zur QoE-Ansicht'
+title: 'Lync Server 2013: QoE-ansichtsdetails'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733677
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d47fb90b7ffb9eb0cb7fcd1631a0f00ca249276a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c5195067fcd02db0be6dd1838af44f5ed51ddb6a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724605"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045767"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="qoe-view-details-in-lync-server-2013"></a>Details zur QoE-Ansicht in lync Server 2013
+# <a name="qoe-view-details-in-lync-server-2013"></a>QoE-ansichtsdetails in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41724605"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-03_
+_**Letztes Änderungsstand des Themas:** 2012-10-03_
 
-Ansichten decken die am häufigsten verwendeten Szenarien für die Rückgabe von Daten aus der QoE SQL-Datenbank ab. Es wird empfohlen, Ansichten zum Erstellen benutzerdefinierter Berichte zu verwenden, anstatt direkt auf die Datenbanktabellen zuzugreifen. Das liegt daran, dass Ansichten eher die Abwärtskompatibilität mit zukünftigen Versionen aufrecht erhalten.
+Ansichten gibt es für die gebräuchlichsten Szenarien zur Rückgabe von Daten aus der QoE-SQL-Datenbank. Es wird empfohlen, zum Erstellen von benutzerdefinierten Berichten Ansichten zu verwenden, anstatt direkt auf die Datenbanktabellen zuzugreifen, um auch in zukünftigen Versionen abwärtskompatibel zu bleiben.
 
 
 <table>
@@ -47,7 +47,7 @@ Ansichten decken die am häufigsten verwendeten Szenarien für die Rückgabe von
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ansichts Name</th>
+<th>Ansichtsname</th>
 <th>Beschreibung</th>
 </tr>
 </thead>
@@ -58,19 +58,19 @@ Ansichten decken die am häufigsten verwendeten Szenarien für die Rückgabe von
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-medialine-view.md">Medienansicht in lync Server 2013</a></p></td>
-<td><p>Speichert Informationen zu jeder medienzeile in der Datenbank. Eine Audiositzung enthält in der Regel eine Audio-medienzeile. Eine Audio-und Video (A/V)-Sitzung enthält in der Regel eine Audio-medienzeile und eine Video medienzeile. die Sitzung kann jedoch zwei Video Medien Linien enthalten, wenn ein Konferenzgerät verwendet wird oder wenn die Katalogansicht verwendet wird.</p></td>
+<td><p>Speichert Informationen zu jeder Medienzeile in der Datenbank. Eine Audiositzung enthält für gewöhnlich eine Audiomedienzeile. Eine A/V-Sitzung (Audio und Video) enthält meist eine Audiomedienzeile und eine Videomedienzeile, kann jedoch auch zwei Medienzeilen enthalten, wenn ein Konferenzgerät oder eine Galerieansicht verwendet wird.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-networkconfigurationsettings-view.md">NetworkConfigurationSettings-Ansicht in lync Server 2013</a></p></td>
-<td><p>Speichert Informationen zur Netzwerkkonfiguration.</p></td>
+<td><p>Speichert Informationen über die Netzwerkkonfiguration.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-session-view.md">Sitzungsansicht in lync Server 2013</a></p></td>
-<td><p>Speichert Informationen zu Sitzungen mit Datensätzen in der Datenbank.</p></td>
+<td><p>Speichert Informationen über Sitzungen, zu denen in der Datenbank Datensätze vorhanden sind.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="lync-server-2013-useragent-view.md">UserAgent-Ansicht in lync Server 2013</a></p></td>
-<td><p>Speichert Informationen zu den Benutzer-Agents, die an Sitzungen teilgenommen haben, die Datensätze in der Datenbank aufweisen.</p></td>
+<td><p>Speichert Informationen über die Benutzeragents, die an Sitzungen beteiligt waren, zu denen es in der Datenbank Datensätze gibt.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lync-server-2013-videostreamdetail-view.md">VideoStreamDetail-Ansicht in lync Server 2013</a></p></td>

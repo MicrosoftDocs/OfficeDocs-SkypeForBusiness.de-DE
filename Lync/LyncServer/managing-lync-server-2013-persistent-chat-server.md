@@ -12,16 +12,16 @@ ms:contentKeyID: 48184672
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 067e24a7e1534e355e39f80b6a3fda90e059be14
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bdbf0c6e28cfefa46eb55a66446bf5e3adec3e36
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757149"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051247"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,43 +35,43 @@ ms.locfileid: "41757149"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-11_
+_**Letztes Änderungsstand des Themas:** 2012-10-11_
 
-Sie können lync Server 2013, beständiger Chat Server verwenden, um mehreren Benutzern die Teilnahme an Unterhaltungen zu ermöglichen, in denen Sie Inhalte zu bestimmten Themen, einschließlich Text, Links und Dateien, Posten und darauf zugreifen. Obwohl Benutzer während einer Sitzung in Echtzeit kommunizieren können, ist der Inhalt jeder Sitzung persistent, was bedeutet, dass Sie nach dem Ende einer Sitzung weiterhin zur Verfügung steht.
+Sie können lync Server 2013 Server für beständigen Chat verwenden, um mehreren Benutzern die Teilnahme an Unterhaltungen zu ermöglichen, in denen Sie Inhalte zu bestimmten Themen, einschließlich Text, Links und Dateien, veröffentlichen und auf diese zugreifen. Obwohl Benutzer während einer Sitzung in Echtzeit kommunizieren können, wird der Inhalt jeder Sitzung dauerhaft gespeichert und steht somit weiterhin zur Verfügung, nachdem eine Sitzung beendet wurde.
 
-Der Inhalt beständiger Chatrooms besteht in erster Linie aus kurzen Textnachrichten, kann aber auch längere Nachrichten, die als Text *Abschnitte*bezeichnet werden, sowie Links, Emoticons und hochgeladene Dokumente umfassen.
+Der Inhalt von beständigen Chatrooms besteht in erster Linie aus kurzen Textnachrichten, kann aber auch längere Nachrichten enthalten, die als *Stories*bezeichnet werden, sowie Hyperlinks, Emoticons und hochgeladene Dokumente.
 
 <div>
 
 
 > [!NOTE]  
-> Dateiupload und-Download wird vom lync 2013-Client nicht unterstützt. Sie wird jedoch weiterhin von lync Server 2013, beständiger Chat Server, unterstützt. Der Legacy-Gruppen-Chat-Client kann Dateien Posten und anzeigen, aber wenn auf den gleichen Chatroom über den lync 2013-Client zugegriffen wird, kann er nicht auf die Dateien zugreifen.
+> Dateiupload und-Download wird vom lync 2013-Client nicht unterstützt; Sie wird jedoch weiterhin von lync Server 2013 Server für beständigen Chat unterstützt. Der Legacy Gruppen Chat-Client kann Dateien bereitstellen und anzeigen, wenn jedoch auf den gleichen Chatroom über den lync 2013-Client zugegriffen wird, kann er nicht auf die Dateien zugreifen.
 
 
 
 </div>
 
-Der Zugriff auf einen Chatroom wird durch eine Mitgliedschaftsliste gesteuert. Der gesamte Verlauf des Chatrooms steht jedem Mitglied zur chronologischen Überprüfung oder Volltextsuche zur Verfügung. Details zur Verwendung des beständigen Chat-Clients finden Sie unter [Planen der Clients in lync Server 2013](lync-server-2013-planning-for-clients.md) in der Planungsdokumentation und [Bereitstellen von Clients und Geräten in lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) in der Bereitstellungsdokumentation.
+Der Zugang zu einem Chatroom wird durch eine Mitgliederliste gesteuert. Der gesamte Chatroomverlauf steht allen Mitgliedern für den chronologischen Rückblick oder die Volltextsuche zur Verfügung. Ausführliche Informationen zur Verwendung des Clients für beständigen Chat finden Sie in der Planungsdokumentation unter [Planning for Clients in lync Server 2013](lync-server-2013-planning-for-clients.md) und [Deploying Clients and Devices in lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) in der Bereitstellungsdokumentation.
 
-Wenn Sie den Server für beständigen Chat für Ihre Organisation einrichten, geben Sie die anfängliche Konfiguration während der Bereitstellung an. Es kann jedoch vorkommen, dass Sie ändern möchten, wie Sie die Unterstützung für beständigen Chat Server implementieren. So können Sie beispielsweise für ein bestimmtes Team oder eine bestimmte Gruppe in Ihrer Organisation die Unterstützung für beständigen Chat Server und die Steuerelemente anders einrichten. Dieser Abschnitt enthält Informationen und Verfahren, die Ihnen bei der Anpassung ihrer beständigen Chat Server Bereitstellung helfen. Details zu den Features und Funktionen, die Sie für den Server für beständigen Chat konfigurieren können, finden Sie unter [Definieren der Anforderungen Ihrer Organisation für den beständigen Chat Server in lync Server 2013](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md) in der Planungsdokumentation und [Funktionsweise des beständigen Chat Servers in lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md) in der Planungsdokumentation, Bereitstellungsdokumentation oder in der Betriebsdokumentation. Details zum Bereitstellen des beständigen Chat Servers für lync Server 2013 finden Sie unter [Bereitstellen eines beständigen Chat Servers in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) in der Bereitstellungsdokumentation.
+Wenn Sie den Server für beständigen Chat für Ihre Organisation einrichten, geben Sie die anfängliche Konfiguration während der Bereitstellung an. Es kann jedoch vorkommen, dass Sie ändern möchten, wie Sie die Server Unterstützung für beständigen Chat implementieren. Beispielsweise müssen Sie die Server Unterstützung für beständigen Chat und die Steuerelemente für ein bestimmtes Team oder eine bestimmte Gruppe in Ihrer Organisation unterschiedlich einrichten. Dieser Abschnitt enthält Informationen und Verfahren, mit denen Sie Ihre Server Bereitstellung für beständigen Chat anpassen können. Ausführliche Informationen zu den Features und Funktionen, die Sie für den Server für beständigen Chat konfigurieren können, finden Sie unter [Definieren der Anforderungen Ihrer Organisation für den Server für beständigen Chat in lync Server 2013](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md) in der Planungsdokumentation und Funktions [Weise des Servers für beständigen Chat in lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md) in der Planungsdokumentation, in der Bereitstellungsdokumentation oder in der Betriebsdokumentation. Ausführliche Informationen zum Bereitstellen des Servers für beständigen Chat für lync Server 2013 finden Sie unter [Deploying persistent Chat Server in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) in der Bereitstellungsdokumentation.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Funktionsweise des beständigen Chat Servers in lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md)
+  - [Funktionsweise von persistent Chat Server in lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md)
 
-  - [Verwenden von Kategorien zur Verwaltung des Servers für beständigen Chat](using-categories-to-administer-persistent-chat-server.md)
+  - [Verwenden von Kategorien zum Verwalten des Servers für beständigen Chat](using-categories-to-administer-persistent-chat-server.md)
 
-  - [Grundlegendes zur dauerhaften Chat Mitgliedschaft](understanding-persistent-chat-membership.md)
+  - [Grundlegendes zur Mitgliedschaft im beständigen Chat](understanding-persistent-chat-membership.md)
 
-  - [Bewährte Methoden für den Server für beständigen Chat](persistent-chat-server-best-practices.md)
+  - [Bewährte Methoden für beständigen Chat Server](persistent-chat-server-best-practices.md)
 
-  - [Verwalten von Kategorien, Chatrooms und Add-Ins in Lync Server 2013](lync-server-2013-managing-categories-rooms-and-add-ins.md)
+  - [Verwalten von Kategorien, Räumen und Add-Ins in lync Server 2013](lync-server-2013-managing-categories-rooms-and-add-ins.md)
 
-  - [Verwalten des Benutzerzugriffs für beständigen Chat in Lync Server 2013](lync-server-2013-managing-persistent-chat-user-access.md)
+  - [Verwalten des Benutzerzugriffs für beständigen Chat in lync Server 2013](lync-server-2013-managing-persistent-chat-user-access.md)
 
-  - [Betreiben und Verwalten des Systems für beständigen Chat in Lync Server 2013](lync-server-2013-operating-and-maintaining-the-persistent-chat-system.md)
+  - [Betreiben und Verwalten des Systems für beständigen Chat in lync Server 2013](lync-server-2013-operating-and-maintaining-the-persistent-chat-system.md)
 
 </div>
 

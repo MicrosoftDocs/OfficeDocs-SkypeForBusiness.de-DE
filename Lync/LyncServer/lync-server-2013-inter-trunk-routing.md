@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: zwischen trunk-Routing'
+title: 'Lync Server 2013: Routing zwischen Trunks'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733877
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37a9feb818f48317f9a3dddd78a70700e3f6ccfc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 587b908cbbff1b69f04fa285fd60a18c28992efb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725845"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040954"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="inter-trunk-routing-in-lync-server-2013"></a>Zwischen trunk-Routing in lync Server 2013
+# <a name="inter-trunk-routing-in-lync-server-2013"></a>Zwischen trunk Routing in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41725845"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-08_
+_**Letztes Änderungsstand des Themas:** 2012-10-08_
 
-Lync Server 2013 bietet grundlegende Sitzungsverwaltung durch die Unterstützung von intertrunk-Routing. Mit dieser neuen Funktion kann lync Server Funktionen zur Anrufsteuerung für Downstream-Telefoniesysteme bereitstellen. Durch das Routing zwischen Trunks kann eine IP-Nebenstellenanlage mit einem PSTN-Gateway (Public Switched Telephone Network, Festnetz) verbunden werden, sodass Anrufe von einem Nebenstellentelefon an das Festnetz und eingehende Festnetzanrufe an ein Nebenstellentelefon weitergeleitet werden können. In ähnlicher Weise kann lync Server zwei oder mehr IP-PBX-Systeme verbinden, damit Anrufe zwischen PBX-Telefonen von den verschiedenen IP-PBX-Systemen getätigt und empfangen werden können.
+Lync Server 2013 bietet grundlegende Sitzungsverwaltung über die Unterstützung des intertrunk-Routings. Diese neue Funktion ermöglicht lync Server das Bereitstellen von Funktionen für die Anrufsteuerung für nachgeschaltete Telefoniesysteme. Das intertrunk-Routing kann eine IP-Nebenstellenanlage mit einem PSTN-Gateway (Public Switched Telephone Network) verbinden, sodass Anrufe von einem PBX-Telefon (Private Branch Exchange) an das PSTN weitergeleitet werden können und eingehende PSTN-Anrufe an ein PBX-Telefon weitergeleitet werden können. Auf ähnliche Weise können lync Server zwei oder mehr IP-PBX-Systeme miteinander verbinden, sodass Anrufe zwischen Nebenstellen Geräten von den verschiedenen IP-PBX-Systemen getätigt und empfangen werden können.
 
-Die folgende Abbildung zeigt, wie lync Server 2013 die Interkonnektivität zwischen einem PSTN-Gateway und einer IP-Telefonanlage bereitstellt.
+In der folgenden Abbildung wird veranschaulicht, lync Server 2013 die Zusammenschaltung zwischen einem PSTN-Gateway und einer IP-Nebenstellenanlage bereitstellt.
 
-![Lync Server: Verbinden von PSTN-Gateway/IP-PBX (Diagramm)](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server: Verbinden von PSTN-Gateway/IP-PBX (Diagramm)")
+![Lync Server verbinden des PSTN-Gateways/IP-PBX-Diagramms](images/JJ721940.cc3858ca-2ee3-4d51-8a51-db078366b50b(OCS.15).jpg "Lync Server verbinden des PSTN-Gateways/IP-PBX-Diagramms")
 
-Die nächste Abbildung zeigt die lync Server 2013-Verbindung zwischen zwei IP-PBX-Systemen.
+In der nächsten Abbildung wird lync Server 2013 Verbinden von zwei IP-PBX-Systemen veranschaulicht.
 
-![Lync Server: Verbinden von IP-PAX-Systemen (Diagramm)](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Lync Server: Verbinden von IP-PAX-Systemen (Diagramm)")
+![Diagramm für lync Server Verbindung zwischen IP-Pax-Systemen](images/JJ721940.6ba18ec9-df70-498a-9cf7-7fc41e5ec432(OCS.15).jpg "Diagramm für lync Server Verbindung zwischen IP-Pax-Systemen")
 
 </div>
 

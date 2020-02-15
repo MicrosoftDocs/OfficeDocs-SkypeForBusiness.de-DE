@@ -12,16 +12,16 @@ ms:contentKeyID: 51541520
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce38bba4717e3340e7eacf33ce67fc357d208b83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8e4adc6c0f8a3ffda53821c412e0efbda74bbebc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763013"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037897"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41763013"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-14_
+_**Letztes Änderungsstand des Themas:** 2013-02-14_
 
-Ein freigegebener SIP-Adressraum, auch bekannt als " *Split-Domain-* Bereitstellung" oder eine *Hybrid* Bereitstellung, ist eine Konfiguration, in der Benutzer über eine lokale Bereitstellung und eine Online Umgebung bereitgestellt werden. Das gewünschte Ergebnis besteht darin, dass Sie einen Benutzer haben, unabhängig davon, wo sich der Stammserver befindet (lokal oder Online), sich bei der Bereitstellung anmelden und an den Standort Ihres Home-Servers weitergeleitet werden. Um dies zu erreichen, wird das Auto Ermittlungs Feature von lync Server 2013 verwendet, um den Online Benutzer zur Online Topologie umzuleiten. Dazu können Sie den Uniform Resource Locator (URL) für die AutoErmittlung mithilfe der lync Server-Verwaltungsshell, dem Cmdlet " **Get-CsHostingProvider** " und dem Cmdlet " **Satz-CsHostingProvider** " konfigurieren.
+Ein freigegebener SIP-Adressraum, auch bekannt als *geteilte Domänen* Bereitstellung oder *Hybrid* Bereitstellung, ist eine Konfiguration, in der Benutzer über eine lokale Bereitstellung und eine Online Umgebung bereitgestellt werden. Das gewünschte Ergebnis besteht darin, dass ein Benutzer unabhängig davon, wo sich sein Heimatserver befindet (lokal oder Online), sich bei der Bereitstellung einloggt und zu seinem Standort umgeleitet wird. Um dies zu erreichen, wird das Auto Ermittlungs Feature von lync Server 2013 verwendet, um den Online Benutzer zur Online Topologie umzuleiten. Sie können dies tun, indem Sie die URL (Uniform Resource Locator) der AutoErmittlung mithilfe der lync Server-Verwaltungsshell, des Cmdlets **Get-CsHostingProvider** und des Cmdlets **CsHostingProvider festlegen** konfigurieren.
 
 <div>
 
-## <a name="mobility-for-the-split-domain-deployment"></a>Mobilität für die Bereitstellung von geteilten Domänen
+## <a name="mobility-for-the-split-domain-deployment"></a>Mobilität für die Bereitstellung geteilter Domänen
 
-Sie müssen die folgenden bereitgestellten Attribute sammeln und aufzeichnen:
+Sie müssen folgende bereitgestellte Attribute erfassen und aufzeichnen:
 
-  - Geben Sie in der lync Server-Verwaltungsshell
+  - Geben Sie im lync Server-Verwaltungsshell
     
         Get-CsHostingProvider
 
   - Suchen Sie in den Ergebnissen den Onlineanbieter mit dem Attribut **ProxyFQDN**. Beispiel: sipfed.online.lync.com.
 
-  - Notieren Sie sich den Wert des ProxyFQDN.
+  - Notieren Sie den Wert des ProxyFQDN.
 
-  - Aktivieren Sie die Föderation in der lokalen lync Server-Systemsteuerung, wodurch die Föderation mit dem Onlineanbieter zugelassen wird.
+  - Aktivieren Sie den Partnerverbund im lokalen lync Server-Systemsteuerung, sodass der Verbund mit dem Onlineanbieter zugelassen wird.
 
-  - Aktivieren Sie den Verbund für den Onlineanbieter. Standardmäßig sind alle Online Benutzer für den Domänen Verbund aktiviert und können mit allen Domänen kommunizieren.
+  - Aktivieren Sie den Partnerverbund für den Onlineanbieter. Standardmäßig sind alle Online Benutzer für den Domänen Verbund aktiviert und können mit allen Domänen kommunizieren.
 
-  - Wenn Sie blockierte und zulässige Domänen definieren, ermitteln Sie die Domänen, die explizit zugelassen oder explizit blockiert werden.
+  - Wenn Sie blockierte und zugelassene Domänen definieren, bestimmen Sie die Domänen, die Sie explizit zulassen oder explizit blockieren.
 
-  - Für die Online-Föderation müssen Sie Firewall-Ausnahmen, Zertifikate und DNS-Host (A oder AAAA, wenn Sie IPv6 verwenden) planen. Darüber hinaus müssen Sie Verbund Richtlinien konfigurieren. Ausführliche Informationen finden Sie unter [Planen von lync Server 2013 und Office Communications Server Federation](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md).
+  - Für den Online Verbund müssen Sie Firewall-Ausnahmen, Zertifikate und DNS-Hosteinträge (A oder AAAA, bei Verwendung von IPv6) planen. Außerdem müssen Sie Verbundrichtlinien konfigurieren. Ausführliche Informationen finden Sie unter [Planung für lync Server 2013 und Office Communications Server Partnerverbund](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md).
 
 </div>
 

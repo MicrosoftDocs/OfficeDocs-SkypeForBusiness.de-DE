@@ -12,20 +12,20 @@ ms:contentKeyID: 48185334
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84906a5d68893e89c3ad48d739754f89bf38cbf3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8f694b2c6065e4800dadf2fb5389429748ab4078
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41761961"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045187"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-bypass-cmdlets-in-lync-server-2013"></a>Medien Umgehungs-Cmdlets in lync Server 2013
+# <a name="media-bypass-cmdlets-in-lync-server-2013"></a>Cmdlets für die medienumgehung in lync Server 2013
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41761961"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-03-21_
+_**Letztes Änderungsstand des Themas:** 2012-03-21_
 
-Medienumgehung bezieht sich auf das Entfernen des Vermittlungsservers aus dem Medienpfad, wenn möglich, für Anrufe, deren Signalisierung den Vermittlungsserver durchquert.
+Bei der Medienumgehung wird für Anrufe, deren Signaldaten über den Vermittlungsserver verarbeitet werden, der Vermittlungsserver nach Möglichkeit aus dem Medienpfad entfernt.
 
 <div>
 
-## <a name="media-bypass-cmdlets"></a>Medien Umgehungs-Cmdlets
+## <a name="media-bypass-cmdlets"></a>Cmdlets für die Medienumgehung
 
-Verwenden Sie die folgenden Cmdlets, um die medienumgehung zu konfigurieren.
+Verwenden Sie die folgenden Cmdlets zum Konfigurieren der Medienumgehung.
 
 **Medienumgehung**
 
   - <span></span>  
-    [New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/en-us/library/Gg425718(v=OCS.15))
+    [New-CsNetworkMediaBypassConfiguration](https://technet.microsoft.com/library/Gg425718(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsNetworkConfiguration](https://technet.microsoft.com/en-us/library/Gg398140(v=OCS.15))
+    [Get-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398140(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsNetworkConfiguration](https://technet.microsoft.com/en-us/library/Gg398938(v=OCS.15))
+    [Remove-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398938(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsNetworkConfiguration](https://technet.microsoft.com/en-us/library/Gg398927(v=OCS.15))
+    [Gruppe-CsNetworkConfiguration](https://technet.microsoft.com/library/Gg398927(v=OCS.15))
 
 </div>
 
@@ -68,7 +68,7 @@ Verwenden Sie die folgenden Cmdlets, um die medienumgehung zu konfigurieren.
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planung der Medienumgehung in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
+[Planen der medienumgehung in lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
 [Lync Server PowerShell-Blog](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 

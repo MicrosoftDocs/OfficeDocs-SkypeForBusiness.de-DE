@@ -12,20 +12,20 @@ ms:contentKeyID: 48184213
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3ccb77d8d2d0b7bd7d4d564087a69b7605863fe
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a762219ef6cbecab47dcaeda313ff49dba51ed0b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742725"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045597"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Komponenten und Topologien für die Archivierung in Lync Server 2013
+# <a name="components-and-topologies-for-archiving-in-lync-server-2013"></a>Komponenten und Topologien für die Archivierung in lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41742725"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-09_
+_**Letztes Änderungsstand des Themas:** 2012-10-09_
 
-Wenn Sie lync Server 2013-Chat-und Konferenzinhalte archivieren möchten, können Sie die Archivierung in lync Server implementieren.
+Wenn Sie lync Server 2013 Chat-und Konferenzinhalte archivieren möchten, können Sie die Archivierung in lync Server implementieren.
 
 <div>
 
 ## <a name="archiving-components"></a>Archivierungskomponenten
 
-Das Archivierungsfeature umfasst die folgenden Komponenten:
+Die Archivierungsfunktion beinhaltet folgende Komponenten:
 
-  - **Archivierungs-Agents**. Archivierungs-Agents (auch bekannt als Unified Data Collection Agents) werden auf jedem Front-End-Pool und Standard Edition-Server automatisch installiert und aktiviert. Obwohl Archivierungs-Agents automatisch aktiviert werden, werden keine Nachrichten erfasst, bis die Archivierung aktiviert und entsprechend konfiguriert ist.
+  - **Archivierungs-Agents**. Archivierungs-Agents (die auch als einheitliche Datenerfassungs-Agents bezeichnet werden) werden automatisch in jedem Front-End-Pool und auf jedem Standard Edition-Server installiert und aktiviert. Auch wenn die Archivierungs-Agents automatisch aktiviert werden, werden erst dann Nachrichten erfasst, sobald die Archivierung aktiviert und entsprechend konfiguriert wurde.
 
-  - **Archivierungsdatenspeicher**. Bei der Datenspeicherung für lync Server 2013 kann es sich um eine der folgenden Optionen handeln:
+  - **Datenspeicher für die Archivierung**. Der Datenspeicher für lync Server 2013 kann einer der folgenden Werte sein:
     
-      - Exchange 2013-Speicher. Wenn Sie die Microsoft Exchange-Integrations Option aktivieren, verwenden Benutzerpostfächer, die sich auf dem Exchange 2013-Server befinden, den Exchange 2013-Speicher für archivierte Daten, jedoch nur, wenn die Postfächer in-situ-Speicher abgelegt wurden.
+      - Exchange 2013 Speicher. Wenn Sie die Option für die Microsoft Exchange Integration aktivieren, verwenden Benutzerpostfächer, die auf dem Exchange 2013-Server verwaltet werden, Exchange 2013 Speicher für archivierte Daten, jedoch nur, wenn die Postfächer im Compliance-Archiv platziert wurden.
     
-      - SQL Server-Speicher. Wenn Sie Benutzer in Ihrer Bereitstellung haben, die sich in lync Server 2013 befinden, können Sie Archivierungsdatenbanken einrichten, die eine unterstützte Version von SQL Server ausführen, um die Archivierung für diese Benutzer zu ermöglichen.
+      - SQL Server Speicher. Wenn Sie über Benutzer in Ihrer Bereitstellung verfügen, die in lync Server 2013 verwaltet werden, können Sie Archivierungsdatenbanken einrichten, die eine unterstützte Version von SQL Server ausführen, um die Archivierung für diese Benutzer zu aktivieren.
 
-Die Archivierung erfordert auch Dateispeicher, doch die Archivierung verwendet denselben Dateispeicher wie die Front-End-Server oder den Standard Edition-Server.
+Die Archivierung erfordert auch Dateispeicher. Es wird jedoch der gleiche Dateispeicher wie für Front-End- und Standard Edition-Server verwendet.
 
-Eine Liste der Hardware-und Softwareanforderungen für die Archivierung finden Sie unter unter [stützte Hardware für lync Server 2013](lync-server-2013-supported-hardware.md) und [Server Software und Infrastrukturunterstützung in lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) in der Dokumentation zur Unterstützung.
+Eine Liste der Hardware-und Softwareanforderungen für die Archivierung finden Sie unter [Supported Hardware for lync Server 2013](lync-server-2013-supported-hardware.md) and [Server Software and Infrastructure Support in lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) in der Unterstützungsdokumentation.
 
 </div>
 
@@ -63,25 +63,25 @@ Eine Liste der Hardware-und Softwareanforderungen für die Archivierung finden S
 
 ## <a name="supported-topologies"></a>Unterstützte Topologien
 
-Sie können die Archivierung in jedem Pool mit Benutzern bereitstellen, für die Archivierungsunterstützung erforderlich ist. Die Archivierung wird auf Front-End-Servern in Enterprise Edition-Pools und auf Standard Edition-Servern ausgeführt. Archivierungsdaten Speicher können wie folgt lauten:
+Die Archivierung wird in allen Pools bereitgestellt, deren Benutzer die entsprechende Funktion benötigen. Die Archivierung wird auf Front-End-Servern in Enterprise Edition-Pools und auf Standard Edition-Servern ausgeführt. Folgende Datenspeicher können für die Archivierung verwendet werden:
 
-  - In Exchange 2013-Speicher integriert
+  - Integriert in Exchange 2013 Speicher
 
   - Bereitstellung mithilfe separater SQL Server-Datenbanken
 
-Wenn Ihre Exchange 2013-Bereitstellung nicht alle Benutzer in ihrer lync Server-Bereitstellung umfasst, müssen Sie die Microsoft Exchange-Integration für die Benutzer verwenden, deren Postfächer auf Exchange 2013-Servern zu Hause sind, und Sie müssen getrennte SQL Server-Datenbanken für alle anderen bereitstellen. Lync-Benutzer, die für die Archivierung verwendet werden sollen.
+Wenn Ihre Exchange 2013-Bereitstellung nicht alle Benutzer in ihrer lync Server-Bereitstellung enthält, müssen Sie Microsoft Exchange Integration für die Benutzer verwenden, deren Postfächer auf Exchange 2013 Servern gespeichert sind, und Sie müssen separate SQL Server-Datenbanken für alle anderen bereitstellen. Lync-Benutzer, die für die Archivierung verwendet werden sollen.
 
 </div>
 
 <div>
 
-## <a name="supported-collocation"></a>Unterstützte Anordnung
+## <a name="supported-collocation"></a>Unterstützte Zusammenstellungen
 
-Lync Server 2013 unterstützt eine Vielzahl von Szenarien für die Zusammenfassung, wodurch Sie Flexibilität beim Speichern von Hardwarekosten haben, indem Sie mehrere Komponenten auf einem Server ausführen (wenn Sie über eine kleine Organisation verfügen) oder einzelne Komponenten auf verschiedenen Servern ausführen (wenn Sie über eine größere Organisation, die Skalierbarkeit und Leistung benötigt). Skalierbarkeits Faktoren sollten sicherlich berücksichtigt werden, bevor Sie entscheiden, ob Sie Komponenten collocate.
+Lync Server 2013 unterstützt eine Vielzahl von Zusammenstellungs Szenarien, die Ihnen die Möglichkeit bieten, Hardwarekosten zu sparen, indem Sie mehrere Komponenten auf einem Server ausführen (wenn Sie eine kleine Organisation haben) oder einzelne Komponenten auf unterschiedlichen Servern ausführen (wenn Sie über einen größeren Organisation, die Skalierbarkeit und Leistung benötigt). Skalierbarkeits Faktoren sollten sicherlich berücksichtigt werden, bevor Sie entscheiden, ob Sie Komponenten collocate.
 
-Die Archivierung wird auf den Front-End-Servern eines Pools oder von Standard Edition-Servern bereitgestellt. Details zu den Komponenten, die sich dort befinden können, finden Sie unter [unterstützte Server Zusammenstellung in lync Server 2013](lync-server-2013-supported-server-collocation.md) in der Dokumentation zur Unterstützung.
+Die Archivierung wird auf den Front-End-Servern eines Pools oder Standard Edition-Servers bereitgestellt. Ausführliche Informationen zu den Komponenten, die dort zusammengefasst werden können, finden Sie unter [unterstützte Server](lync-server-2013-supported-server-collocation.md) Zusammenstellungen in lync Server 2013 in der Unterstützungsdokumentation.
 
-Wenn Sie separate SQL Server-Datenbanken für die Archivierung verwenden, können Sie die Archivierungsdatenbank mit einer der folgenden collocate, anstatt Sie mit dem Exchange 2013-Speicher zu integrieren.
+Wenn Sie separate SQL Server-Datenbanken für die Archivierung verwenden, können Sie anstelle von oder zusätzlich zur Integration von Speicher in Exchange 2013 Speicher die Archivierungsdatenbank mit einer der folgenden collocate:
 
   - Überwachungsdatenbank
 
@@ -97,11 +97,11 @@ Wenn Sie separate SQL Server-Datenbanken für die Archivierung verwenden, könne
 
 </div>
 
-Wenn Sie die Archivierungsdatenbank mit der Überwachungsdatenbank, der Back-End-Datenbank oder beider Datenbanken collocate, können Sie entweder eine einzelne SQL-Instanz für eine oder alle Datenbanken verwenden, oder Sie können für jede Datenbank eine separate SQL-Instanz verwenden, mit den folgenden Einschränkung
+Wenn Sie die Archivierungsdatenbank mit der Überwachungsdatenbank, der Back-End-Datenbank oder mit beiden verbinden, können Sie eine einzelne SQL-Instanz für eine oder für alle Datenbanken verwenden. Sie können auch eine separate SQL-Instanz für jede Datenbank verwenden. Dabei gelten jedoch folgende Einschränkungen:
 
-  - Jede SQL-Instanz kann nur eine einzige Back-End-Datenbank, eine einzige Überwachungsdatenbank und eine einzelne Archivierungsdatenbank enthalten.
+  - Jede SQL-Instanz darf nur jeweils eine einzelne Back-End-Datenbank, eine einzelne Überwachungsdatenbank und eine einzelne Archivierungsdatenbank enthalten.
 
-Ausführliche Informationen zur Anordnung aller Serverrollen und Datenbanken finden Sie unter [unterstützte Server in lync Server 2013](lync-server-2013-supported-server-collocation.md) in der Dokumentation zur Unterstützung.
+Ausführliche Informationen zur gemeinsamen Nutzung aller Serverrollen und Datenbanken finden Sie unter [Supported Server Colocation in lync Server 2013](lync-server-2013-supported-server-collocation.md) in der Unterstützungsdokumentation.
 
 </div>
 

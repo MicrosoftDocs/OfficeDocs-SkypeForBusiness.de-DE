@@ -12,20 +12,20 @@ ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e92f0a7d71d42d8551a51028afec209e795941d5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b0320cb10e4122e5f5c42a659ad8de54ce3ae5b6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756689"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039159"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>Verschieben von Benutzern zu Enterprise-VoIP in Lync Server 2013
+# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>Verschieben von Benutzern zu Enterprise-VoIP in lync Server 2013
 
 </div>
 
@@ -35,88 +35,88 @@ ms.locfileid: "41756689"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-18_
+_**Letztes Änderungsstand des Themas:** 2012-10-18_
 
-Wenn Sie Benutzer aus einer vorhandenen PBX-Telefonie-Infrastruktur in Enterprise-VoIP verschieben, enthält der Bereitstellungsprozess einige Schritte, die nicht Teil des Planungsprozesses sind, der in der [Planung für Enterprise-VoIP in lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)bereits beschrieben ist. Informationen zum Migrieren von Benutzern aus einer früheren Enterprise-VoIP-Bereitstellung finden Sie in den Migrations Dokumenten, die in Ihren Installationsmedien enthalten sind.
+Wenn Sie Benutzer von einer vorhandenen PBX-Telefonie-Infrastruktur zu Enterprise-VoIP verschieben, enthält der Bereitstellungsprozess einige Schritte, die nicht Teil des Planungsprozesses sind, der bereits unter [Planning for Enterprise Voice in lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)beschrieben wurde. Informationen zur Migration von Benutzern aus einer früheren Enterprise-VoIP-Bereitstellung finden Sie in den Migrationsdokumenten, die den Installationsdatenträgern beiliegen.
 
-Der Vorgang zum Verschieben von Benutzern aus einer vorhandenen Telefonie-Infrastruktur in Enterprise-VoIP umfasst die folgenden Schritte:
+Um Benutzer von einer vorhandenen Telefonieinfrastruktur zu Enterprise-VoIP zu migrieren, müssen Sie die folgenden Schritte ausführen:
 
-1.  Primäre Telefonnummern festlegen
+1.  Festlegen primärer Rufnummern
 
 2.  Aktivieren von Benutzern für Enterprise-VoIP
 
-3.  Vorbereiten von Wählplänen für Benutzer
+3.  Vorbereiten von Wähleinstellungen für Benutzer
 
-4.  Planen von Benutzer VoIP-Richtlinien
+4.  Planen von VoIP-Richtlinien für Benutzer
 
-5.  Planen Sie Anrufrouten.
+5.  Planen von Anrufrouten
 
-6.  Konfigurieren Sie die Telefonanlage oder den SIP-Trunk, um Anrufe für für Enterprise-VoIP aktivierte Benutzer neu zu leiten.
+6.  Konfigurieren der Nebenstellenanlage oder des SIP-Trunks zum Umleiten von Anrufen für Benutzer mit Enterprise-VoIP-Aktivierung
 
-7.  Verschieben von Benutzern in Exchange Unified Messaging (um) (empfohlen).
+7.  Benutzer zu Exchange Unified Messaging (um) umstellen (empfohlen).
 
-In diesem Thema wird die Planung beschrieben, die für jeden dieser Schritte erforderlich ist.
+In diesem Thema wird beschrieben, welche Planungsaufgaben für jeden dieser Schritte erforderlich sind.
 
 <div>
 
-## <a name="step-1-designate-primary-phone-numbers"></a>Schritt 1: Festlegen von primären Telefonnummern
+## <a name="step-1-designate-primary-phone-numbers"></a>Schritt 1: Festlegen primärer Rufnummern
 
-Enterprise-VoIP integriert Sprache mit anderen Nachrichtenmedien, so dass der Server die Nummer dem SIP-URI des Benutzers zuordnet und dann den Anruf an alle Clientendpunkte abzweigt, die diesem SIP-URI zugeordnet sind, wenn ein eingehender Anruf am Server eintrifft. Für diesen Vorgang muss jeder Benutzer einer primären Telefonnummer zugeordnet sein.
+Enterprise VoIP integriert die Sprachtelefonie mit anderen Messagingmedien. Wenn also ein Anruf am Server eingeht, ordnet der Server die Rufnummer dem SIP-URI des Benutzers zu und verzweigt den Anruf dann an alle Clientendpunkte, die diesem SIP-URI zugeordnet sind. Für diesen Prozess muss jedem Benutzer eine primäre Rufnummer zugeordnet sein.
 
-Eine primäre Telefonnummer muss sein:
+Eine primäre Rufnummer muss folgende Eigenschaften aufweisen:
 
-  - Global eindeutig oder, im Fall interner Erweiterungen, eindeutig im Unternehmen.
+  - Sie muss global eindeutig oder (im Fall interner Durchwahlen) innerhalb des Unternehmens eindeutig sein.
 
-  - Im Unternehmen im Besitz von und routingfähig. Persönliche Nummern sollten nicht verwendet werden.
+  - Sie muss im Besitz des Unternehmens sein und innerhalb des Unternehmens weitergeleitet werden können. Persönliche Rufnummern sollten nicht verwendet werden.
 
-Für Unternehmensbenutzer können in den Active Directory-Domänendiensten zwei oder mehr Telefonnummern aufgelistet sein. Alle Telefonnummern, die einem bestimmten Benutzer zugeordnet sind, können im Eigenschaftenfenster für diesen Benutzer im Snap-in Active Directory-Benutzer und-Computer angezeigt oder geändert werden.
+Für Enterprise-Benutzer können in Active Directory-Domänendienste zwei oder mehr Telefonnummern aufgeführt sein. Alle Rufnummern, die einem bestimmten Benutzer zugeordnet sind, können auf der Eigenschaftenseite für diesen Benutzer im Snap-In "Active Directory-Benutzer und -Computer" angezeigt oder geändert werden.
 
-Das Feld " **Telefonnummer** " auf der Registerkarte " **Allgemein** " im Dialogfeld " **Benutzereigenschaften** " sollte die Haupt Arbeitsnummer des Benutzers enthalten. Diese Nummer wird normalerweise als primäre Telefonnummer des Benutzers angegeben.
+Das Feld **Rufnummer** auf der Registerkarte **Allgemein** des Dialogfelds **Benutzereigenschaften** sollte die primäre geschäftliche Rufnummer des Benutzers enthalten. Diese Nummer wird normalerweise als primäre Rufnummer des Benutzers festgelegt.
 
-Einige Benutzer haben möglicherweise besondere Anforderungen (beispielsweise eine Führungskraft, die alle eingehenden Anrufe über einen administrativen Assistenten weiterleiten möchte), diese Ausnahmen sollten jedoch nur auf diejenigen begrenzt werden, in denen der Bedarf klar und kritisch ist.
+Einige Benutzer stellen möglicherweise besondere Anforderungen (z. B. eine Führungskraft, für die alle eingehenden Anrufe über das Sekretariat weitergeleitet werden sollen). Solche Ausnahmen sollten jedoch auf Fälle beschränkt werden, in denen die Anforderung klar und wichtig ist.
 
-Nachdem eine primäre Nummer ausgewählt wurde, muss Sie wie folgt lauten:
+Nach der Auswahl einer primären Rufnummer müssen folgende Aktionen für diese durchgeführt werden:
 
-  - Im E. 164-Format normalisiert, wo immer dies möglich ist.
+  - Normalisierung in das E.164-Format (wenn möglich)
 
-  - In das Active Directory **-Attribut msRTCSIP-** Attribut kopiert.
+  - Kopieren in das Active Directory-Attribut **msRTCSIP-line**
     
     <div>
     
 
     > [!NOTE]  
-    > <STRONG>Mit Remoteanrufsteuerung (RCC) vorhanden</STRONG><BR>RCC ist die Möglichkeit, lync Server zum Überwachen und Steuern eines Desktop-PBX-Telefons zu verwenden. Die Steuerung wird über den Server weitergeleitet, der als Gateway zur Telefonanlage fungiert. Obwohl Sie keinen Benutzer für RCC und Enterprise-VoIP konfigurieren können, wird in beiden Fällen die Einstellung für den Leitungs-URI für die primäre Telefonnummer eines Benutzers bezeichnet.<BR>Wenn Sie über eine vorhandene PBX-Infrastruktur verfügen, die von ausgewählten Benutzern weiterhin verwendet werden soll, können Sie Enterprise-VoIP schrittweise in Ihre Organisation einführen. Details zu diesem Bereitstellungsszenario finden Sie unter <A href="lync-server-2013-direct-sip-deployment-options.md">direkte SIP-Bereitstellungsoptionen in lync Server 2013</A> in der Planungsdokumentation.<BR>In früheren Versionen konnten Sie sowohl RCC als auch Enterprise-VoIP für einen Benutzer aktivieren, jedoch nur, wenn Sie den Benutzer auch für die Duale Verzweigung konfiguriert haben, ein Feature, bei dem ein eingehender Anruf die Telefonanlage und den Communicator eines Benutzers gleichzeitig klingelt. In lync Server 2010 wird Dual-Forking nicht unterstützt.
+    > <STRONG>Verwendung neben der Remoteanrufsteuerung (Remote Call Control, RCC)</STRONG><BR>RCC ist die Möglichkeit, lync Server zum Überwachen und Steuern eines Desktop-PBX-Telefons zu verwenden. Die Steuerung wird über den Server geleitet, der als Gateway zur Nebenstellenanlage dient. Auch wenn Sie einen Benutzer nicht sowohl für RCC als auch für Enterprise-VoIP konfigurieren können, stellt die Einstellung für den Anschluss-URI in beiden Fällen die primäre Rufnummer eines Benutzers dar.<BR>Wenn Sie über eine vorhandene PBX-Infrastruktur verfügen, die bestimmte Benutzer weiterhin verwenden sollen, können Sie Enterprise-VoIP stufenweise in Ihrer Organisation einführen. Ausführliche Informationen zu diesem Bereitstellungsszenario finden Sie unter <A href="lync-server-2013-direct-sip-deployment-options.md">Direct SIP Deployment Options in lync Server 2013</A> in der Planungsdokumentation.<BR>In früheren Versionen konnten Sie sowohl RCC als auch Enterprise-VoIP für einen Benutzer aktivieren, allerdings nur, wenn Sie den Benutzer auch für die Duale Verzweigung konfiguriert haben, ein Feature, bei dem ein eingehender Anruf das Nebenstellentelefon und den Communicator eines Benutzers gleichzeitig klingelt. In lync Server 2010 wird die Duale Verzweigung nicht unterstützt.
 
     
     </div>
 
-Es gibt drei Methoden zum Auffüllen des **Attribut msRTCSIP-** Attributs:
+Das Attribut **msRTCSIP-line** kann auf drei Arten aufgefüllt werden:
 
   - Microsoft Identity Integration Server (empfohlen)
 
-  - Seite ' **Benutzer** ' in der lync Server-Systemsteuerung
+  - Die Seite " **Benutzer** " im lync Server-Systemsteuerung
 
-Wo viele Telefonnummern verarbeitet werden müssen, ist ein von Ihrer Organisation entwickeltes benutzerdefiniertes Skript die bessere Wahl. Je nachdem, wie Ihre Organisation Telefonnummern in den Active Directory-Domänendiensten darstellt, muss das Skript die primären Telefonnummern möglicherweise im E. 164-Format normalisieren, bevor Sie Sie in das **Attribut msRTCSIP-** Attribut kopieren.
+Wenn viele Telefonnummern verarbeitet werden müssen, ist ein von Ihrer Organisation entwickeltes Skript die bessere Wahl. Abhängig davon, wie in Ihrer Organisation Rufnummern in den Active Directory-Domänendiensten (Active Directory Domain Services, AD DS) dargestellt werden, muss das Skript die primären Rufnummern möglicherweise in das E.164-Format übertragen, bevor es sie in das Attribut **msRTCSIP-line** kopiert.
 
-  - Wenn in Ihrer Organisation alle Telefonnummern in den Active Directory-Domänendiensten in einem einzigen Format verwaltet werden und das Format E. 164 ist, muss für Ihr Skript nur jede primäre Telefonnummer in das **Attribut msRTCSIP-** Attribut geschrieben werden.
+  - Wenn in Ihrer Organisation alle Rufnummern in den Active Directory-Domänendiensten im E.164-Format verwaltet werden, muss Ihr Skript lediglich jede primäre Rufnummer in das Attribut **msRTCSIP-line** schreiben.
 
-  - Wenn in Ihrer Organisation alle Telefonnummern in den Active Directory-Domänendiensten in einem einzigen Format verwaltet werden, das Format aber nicht E. 164 ist, sollte Ihr Skript eine geeignete Normalisierungsregel definieren, um primäre Telefonnummern aus Ihrem vorhandenen Format in e. 164 zu konvertieren, bevor Sie Sie in das **Attribut msRTCSIP-** Attribut schreiben.
+  - Wenn in Ihrer Organisation alle Rufnummern in den Active Directory-Domänendiensten in einem einzigen Format verwaltet werden, dieses Format jedoch nicht E.164 ist, muss Ihr Skript eine entsprechende Normalisierungsregel definieren, mit der primäre Rufnummern aus ihrem vorhandenen Format in E.164 konvertiert werden können, bevor sie in das Attribut **msRTCSIP-line** geschrieben werden.
 
-  - Wenn in Ihrer Organisation kein Standardformat für Telefonnummern in den Active Directory-Domänendiensten erzwungen wird, sollte Ihr Skript geeignete Normalisierungsregeln definieren, um primäre Telefonnummern aus ihren verschiedenen Formaten in die E. 164-Kompatibilität umzuwandeln, bevor die primären Telefonnummern in das **Attribut msRTCSIP-** Attribut geschrieben werden.
+  - Wenn Ihre Organisation kein Standardformat für Rufnummern in den Active Directory-Domänendiensten erzwingt, muss Ihr Skript geeignete Normalisierungsregeln definieren, mit denen primäre Rufnummern aus ihren unterschiedlichen Formaten in E.164 konvertiert werden können, bevor sie in das Attribut **msRTCSIP-line** geschrieben werden.
 
-Ihr Skript muss auch das Präfix **Tel:** vor jeder primären Nummer einfügen, bevor es in das **Attribut msRTCSIP-** Attribut geschrieben wird.
+In Ihrem Skript muss außerdem das Präfix **Tel:** vor jeder primären Rufnummer eingefügt werden, bevor diese Nummern in das Attribut **msRTCSIP-line** geschrieben werden.
 
-Das erwartete Format der in diesem Attribut angegebenen Zahl lautet wie folgt:
+Folgendes Format wird für die in diesem Attribut angegebene Nummer erwartet:
 
-  - Tel: + 14255550100 übersetzt.; ext = 50100.
+  - Tel: + 14255550100 übersetzt; ext = 50100.
 
-  - Tel: 5550100 (für eindeutige Enterprise Wide-Erweiterungen)
+  - Tel:5550100 (für unternehmensweit eindeutige Durchwahlen)
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Die vom Adressbuchdienst (ABS) durchgeführte Normalisierung ersetzt nicht die Notwendigkeit, die primäre Telefonnummer jedes Benutzers in den Active Directory-Domänendiensten zu normalisieren, weil ABS keinen Zugriff auf die Active Directory-Domänendienste hat, und kann daher keine primär Nummern in das <STRONG>Attribut msRTCSIP-</STRONG> Attribut kopieren.
+    > Trotz der vom Adressbuchdienst (Address Book Service, ABS) durchgeführten Normalisierung muss die primäre Rufnummer jedes Benutzers in den Active Directory-Domänendiensten normalisiert werden, da ABS über keinen Zugriff auf die Active Directory-Domänendienste verfügt und daher keine primären Rufnummern in das Attribut <STRONG>msRTCSIP-line</STRONG> kopieren kann.
 
     
     </div>
@@ -127,15 +127,15 @@ Das erwartete Format der in diesem Attribut angegebenen Zahl lautet wie folgt:
 
 ## <a name="step-2-enable-users-for-enterprise-voice"></a>Schritt 2: Aktivieren von Benutzern für Enterprise-VoIP
 
-Außer der Identifizierung, welche Benutzer aktiviert werden sollen, ist keine spezielle Planung erforderlich, um diesen Schritt ausführen zu können.
+In diesem Schritt muss lediglich identifiziert werden, für welche Benutzer Enterprise-VoIP aktiviert werden soll. Es ist keine besondere Planung notwendig.
 
 </div>
 
 <div>
 
-## <a name="step-3-prepare-dial-plans-for-users"></a>Schritt 3: Vorbereiten von Wählplänen für Benutzer
+## <a name="step-3-prepare-dial-plans-for-users"></a>Schritt 3: Vorbereiten von Wähleinstellungen für Benutzer
 
-Benutzer, die für Enterprise-VoIP aktiviert sind, können keine Anrufe an das PSTN vornehmen, ohne dass Wählpläne vorhanden sind. Ein Wählplan ist ein benannter Satz von Normalisierungsregeln, mit deren Hilfe Telefonnummern als Bestandteil der Telefonautorisierung und Anrufweiterleitung für einen benannten Standort, für einzelne Benutzer oder für Kontaktobjekte in ein einzelnes Standardformat (E.164) übersetzt werden. Normalisierungsregeln definieren, wie Telefonnummern, die in verschiedenen Formaten ausgedrückt werden, für jeden angegebenen Speicherort, Benutzer oder Kontaktobjekt weitergeleitet werden sollen.
+Benutzer, die für Enterprise-VoIP aktiviert sind, können ohne festgelegte Wähleinstellungen keine Anrufe an das PSTN tätigen. Wähleinstellungen sind benannte Sätze aus Normalisierungsregeln, mit deren Hilfe Telefonnummern als Bestandteil der Telefonautorisierung und Anrufweiterleitung für einen benannten Standort, einzelne Benutzer oder Kontaktobjekte in ein einzelnes Standardformat (E.164) übersetzt werden. Normalisierungsregeln definieren das Routing von Rufnummern in unterschiedlichen Formaten für den benannten Standort, Benutzer oder das Kontaktobjekt.
 
 Informationen zum Vorbereiten von Wählplänen finden Sie unter [Wählpläne und Normalisierungsregeln in lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md).
 
@@ -143,39 +143,39 @@ Informationen zum Vorbereiten von Wählplänen finden Sie unter [Wählpläne und
 
 <div>
 
-## <a name="step-4-plan-user-voice-policies"></a>Schritt 4: Planen von Richtlinien für Benutzer VoIP
+## <a name="step-4-plan-user-voice-policies"></a>Schritt 4: Planen von Benutzer VoIP-Richtlinien
 
-Benutzer-Service-Einstellungen auf einer Legacy-Telefonanlage, wie etwa das Recht, Fern-oder Auslandsgespräche über Unternehmens Telefone zu führen, müssen als VoIP-Richtlinien für Benutzer neu konfiguriert werden, die in Enterprise-VoIP verschoben wurden. Details zum Planen und Erstellen von Richtlinien für Enterprise-VoIP finden Sie unter [VoIP-Richtlinien in lync Server 2013](lync-server-2013-voice-policies.md).
-
-</div>
-
-<div>
-
-## <a name="step-5-plan-outbound-call-routes"></a>Schritt 5: Planen von ausgehenden Anrufrouten
-
-Anrufrouten geben an, wie lync Server ausgehende Anrufe von Enterprise-VoIP-Benutzern abwickelt. Wenn ein Benutzer eine Nummer wählt, normalisiert der Server bei Bedarf die Wählzeichenfolge in das E. 164-Format und versucht, Sie mit einem SIP-URI zu vergleichen. Wenn der Server nicht in der Lage ist, die Übereinstimmung zu erreichen, wendet er die Routinglogik für ausgehende Anrufe basierend auf der Nummer an. Der letzte Schritt beim Definieren dieser Logik ist das Erstellen einer separaten benannten Anrufroute für jede Gruppe von Zielrufnummern, die in den einzelnen Wähleinstellungen aufgeführt sind.
-
-Details zum Planen von Anrufrouten finden Sie unter [VoIP-Routen in lync Server 2013](lync-server-2013-voice-routes.md).
+Einstellungen für Benutzerdienstklassen auf vorhandenen Nebenstellenanlagen (wie das Recht, Auslands- oder Ferngespräche von einem Unternehmenstelefon aus zu führen) müssen für Benutzer, die zu Enterprise-VoIP migriert werden, als VoIP-Richtlinien neu konfiguriert werden. Ausführliche Informationen zum Planen und Erstellen von Richtlinien für Enterprise-VoIP finden Sie unter [VoIP-Richtlinien in lync Server 2013](lync-server-2013-voice-policies.md).
 
 </div>
 
 <div>
 
-## <a name="step-6-configure-pbx-or-sip-trunk-to-reroute-calls-for-enterprise-voice-users"></a>Schritt 6: Konfigurieren von Telefonanlagen oder SIP-Stämmen zum Umleiten von Anrufen für Enterprise-VoIP-Benutzer
+## <a name="step-5-plan-outbound-call-routes"></a>Schritt 5: Planen von Routen für ausgehende Anrufe
 
-Benutzer, die früher in einer traditionellen Telefonanlage oder auf einer SIP-Trunk-Verbindung mit einem Internet-Telefoniedienstanbieter (ITSP) gehostet wurden, behalten ihre Telefonnummern nach dem Umzug. Die einzige Voraussetzung ist, dass nach dem Umzug die Telefonanlage oder der SIP-Stamm neu konfiguriert werden muss, um eingehende Anrufe an Enterprise-VoIP-Benutzer an den Vermittlungs Server weiterzuleiten.
+Anrufrouten geben an, wie lync Server ausgehende Anrufe von Enterprise-VoIP-Benutzern abwickelt. Wenn ein Benutzer eine Nummer wählt, normalisiert der Server bei Bedarf die Wählzeichenfolge in das E. 164-Format und versucht, Sie einem SIP-URI zuzuordnen. Wenn der Server die Übereinstimmung nicht herstellen kann, wendet er die Routinglogik für ausgehende Anrufe basierend auf der Nummer an. Der letzte Schritt beim Definieren dieser Logik ist das Erstellen einer separaten benannten Anrufroute für jeden Satz von Zielrufnummern, die in den einzelnen Wähleinstellungen aufgeführt sind.
+
+Ausführliche Informationen zum Planen von Anrufrouten finden Sie unter [VoIP-Routen in lync Server 2013](lync-server-2013-voice-routes.md).
 
 </div>
 
 <div>
 
-## <a name="step-7-move-users-to-exchange-unified-messaging-recommended"></a>Schritt 7: Verschieben von Benutzern in Exchange Unified Messaging (empfohlen)
+## <a name="step-6-configure-pbx-or-sip-trunk-to-reroute-calls-for-enterprise-voice-users"></a>Schritt 6. Konfigurieren von PBX-oder SIP-Trunks für die Umleitung von Anrufen für Enterprise-VoIP-Benutzer
 
-Das Verschieben von Benutzern in Exchange Unified Messaging umfasst die folgenden Aufgaben:
+Benutzer, die früher in einer herkömmlichen Nebenstellenanlage oder einer SIP-Trunk Verbindung mit einem Internet Telefonie-Dienstanbieter (ITSP) gehostet wurden, behalten ihre Telefonnummern nach dem Wechsel bei. Die einzige Voraussetzung ist, dass nach dem Wechsel die Nebenstellenanlage oder der SIP-Trunk neu konfiguriert werden muss, um eingehende Anrufe für Enterprise-VoIP-Benutzer an die Vermittlungsserver weiterzuleiten.
 
-  - Konfigurieren Sie Exchange Unified Messaging und lync Server für die Zusammenarbeit.
+</div>
 
-  - Aktivieren von Benutzern für Exchange Unified Messaging-Anrufbeantwortung und Outlook Voice Access Diese Aufgabe wird auf dem Exchange Unified Messaging-Server ausgeführt. Ausführliche Informationen finden Sie in [http://go.microsoft.com/fwlink/p/?linkID=139372](http://go.microsoft.com/fwlink/p/?linkid=139372)der TechNet-Bibliothek für Exchange Server 2010 unter.
+<div>
+
+## <a name="step-7-move-users-to-exchange-unified-messaging-recommended"></a>Schritt 7: Migrieren von Benutzern zu Exchange Unified Messaging (empfohlen)
+
+Um Benutzer zu Exchange Unified Messaging zu migrieren, ist das Ausführen der folgenden Aufgaben erforderlich:
+
+  - Konfigurieren von Exchange Unified Messaging und lync Server zur Zusammenarbeit.
+
+  - Aktivieren von Exchange Unified Messaging-Mailboxansagen und Outlook Voice Access für Benutzer. Diese Aufgabe wird auf dem Exchange Unified Messaging-Server ausgeführt. Ausführliche Informationen finden Sie in [http://go.microsoft.com/fwlink/p/?linkID=139372](http://go.microsoft.com/fwlink/p/?linkid=139372)der Exchange Server 2010 TechNet-Bibliothek unter.
 
 </div>
 

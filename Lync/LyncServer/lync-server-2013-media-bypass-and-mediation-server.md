@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Medienumgehung und Vermittlungsserver'
+title: 'Lync Server 2013: medienumgehung und Vermittlungsserver'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184774
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf57bd94925ef5337656afc1b7cf4aa1ebc8ab17
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 426499da4659548d90ed2160c23a905565edddd6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762007"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045207"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-bypass-and-mediation-server-in-lync-server-2013"></a>Medienumgehung und Vermittlungsserver in Lync Server 2013
+# <a name="media-bypass-and-mediation-server-in-lync-server-2013"></a>Medienumgehung und Vermittlungsserver in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762007"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Bei der medienumgehung handelt es sich um eine lync-Server Funktion, mit der ein Administrator das Anrufrouting so konfigurieren kann, dass es direkt zwischen dem Benutzer Endpunkt und dem PSTN-Gateway (Public Switched Telephone Network) erfolgt, ohne den Vermittlungs Server zu durchlaufen. Die medienumgehung verbessert die Anrufqualität, indem Latenz, unnötige Übersetzung, Möglichkeit des Paketverlusts und die Anzahl potenzieller Fehlerpunkte reduziert werden. Wenn eine Remotewebsite ohne Vermittlungs Server über eine oder mehrere WAN-Links mit eingeschränkter Bandbreite mit einem zentralen Standort verbunden ist, senkt die medienumgehung die Bandbreitenanforderung, indem Medien von einem Client an einem Remotestandort direkt an sein lokales Gateway weiter fließen können, ohne Zunächst müssen Sie über die WAN-Verbindung zu einem Vermittlungs Server am zentralen Standort und zurückfließen. Diese Verringerung der Medienverarbeitung ergänzt auch die Möglichkeit des Vermittlungsservers, mehrere Gateways zu steuern.
+Die medienumgehung ist eine lync Server Funktion, mit der ein Administrator das Anrufrouting so konfigurieren kann, dass es direkt zwischen dem Benutzer Endpunkt und dem PSTN-Gateway (Public Switched Telephone Network) fließt, ohne das Vermittlungsserver zu durchlaufen. Durch die medienumgehung wird die Anrufqualität verbessert, da Wartezeit, unnötige Übersetzung, Möglichkeit von Paketverlusten und die Anzahl potenzieller Fehlerpunkte reduziert werden. Wenn ein Remotestandort ohne Vermittlungsserver über eine oder mehrere WAN-Verbindungen mit eingeschränkter Bandbreite mit einem zentralen Standort verbunden ist, verringert die medienumgehung die Bandbreitenanforderung, indem Medien von einem Client an einem Remotestandort direkt an das lokale Gateway weiter fließen können, ohne dass Zunächst müssen Sie über die WAN-Verbindung zu einem Vermittlungsserver am zentralen Standort und zurückfließen. Diese Verringerung der Medienverarbeitung ergänzt auch die Fähigkeit der Vermittlungsserver, mehrere Gateways zu steuern.
 
 Die Medienumgehung und die Anrufsteuerung schließen sich gegenseitig aus. Wenn für einen Anruf die Medienumgehung implementiert wird, wird für diesen Anruf keine Anrufsteuerung ausgeführt. Es wird davon ausgegangen, dass für den Anruf keine Verbindungen mit beschränkter Bandbreite verwendet werden.
 
@@ -46,10 +46,10 @@ Die Medienumgehung und die Anrufsteuerung schließen sich gegenseitig aus. Wenn 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Anrufsteuerung und Vermittlungsserver in Lync Server 2013](lync-server-2013-call-admission-control-and-mediation-server.md)  
+[Anrufsteuerung und Vermittlungsserver in lync Server 2013](lync-server-2013-call-admission-control-and-mediation-server.md)  
 
 
-[Planung der Medienumgehung in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
+[Planen der medienumgehung in lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
   
 
 </div>

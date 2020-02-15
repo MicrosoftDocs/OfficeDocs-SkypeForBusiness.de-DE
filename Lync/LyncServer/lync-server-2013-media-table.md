@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Media-Tabelle'
+title: 'Lync Server 2013: Medientabelle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69f9ad10c5c06ab8a9d2bc95eddceb67b20e745c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c3d96a7d08a71b63c71c76617e78ebf1df605a52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765103"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044937"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-table-in-lync-server-2013"></a>Media-Tabelle in Lync Server 2013
+# <a name="media-table-in-lync-server-2013"></a>Medientabelle in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41765103"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Jeder Datensatz steht für einen in einer Peer-to-Peer-Sitzung verwendeten Medientyp. Eine Sitzung wird von mehreren Datensätzen in der Tabelle dargestellt, wenn mehr als ein Medientyp verwendet wird.
+Jeder Datensatz steht für einen Medientyp, der in einer Peer-zu-Peer-Sitzung verwendet wird. Eine Sitzung wird durch mehrere Datensätze in der Tabelle dargestellt, wenn mehr als ein Medientyp verwendet wird.
 
 <div>
 
 
 > [!NOTE]  
-> Die Medientabelle sollte nicht verwendet werden, um die Mediendauer einer Sitzung zu berechnen. Diese Tabelle enthält die Signalisierungs Details von Medienaustausch in einer Sitzung. Der Medienaustausch erfolgt über die Einladungs Anfrage, und Startzeit gibt an, wie lange die Einladung gesendet wurde. Die Einladungs Zeit bedeutet nicht unbedingt die Startzeit des Mediums, da Medien erst gestartet werden, nachdem der Sitzungs nehmer die Sitzung akzeptiert hat. Die EndTime bedeutet normalerweise die Endzeit dieser Sitzung.
+> Die Media-Tabelle sollte nicht zur Berechnung der Mediendauer für eine Sitzung verwendet werden. Diese Tabelle enthält die Signaldetails für den Austausch von Mediendaten in einer Sitzung. Der Austausch von Mediendaten erfolgt durch die INVITE-Anforderung; "StartTime" gibt den Zeitpunkt an, zu dem die INVITE-Anforderung gesendet wurde. Der INVITE-Zeitpunkt gibt nicht notwendigerweise die Medienstartzeit an, da die Medien erst gestartet werden, nachdem der Sitzungsteilnehmer die Sitzung angenommen hat. "EndTime" bezeichnet in der Regel das Ende der Sitzung.
 
 
 
@@ -68,33 +68,33 @@ Jeder Datensatz steht für einen in einer Peer-to-Peer-Sitzung verwendeten Medie
 <tbody>
 <tr class="odd">
 <td><p><strong>SessionID</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Uhrzeit der Sitzungsanforderung. Wird in Verbindung mit <strong>SessionIdSeq</strong> verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle Dialogfelder in lync Server 2013</a> .</p></td>
+<td><p>Datum/Uhrzeit</p></td>
+<td><p>Primär, Fremd</p></td>
+<td><p>Zeitpunkt der Sitzungsanforderung. Wird zusammen mit <strong>SessionIdSeq</strong> verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit <strong>SessionID</strong> -Mal verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle Dialogfelder in lync Server 2013</a> .</p></td>
+<td><p>Primary, Foreign</p></td>
+<td><p>ID zur Identifikation der Sitzung. Wird zusammen mit <strong>SessionIdTime</strong> verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MediaId</strong></p></td>
+<td><p><strong>Mediaid</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Eindeutige Nummer, die diesen Medientyp kennzeichnet. Weitere Informationen finden Sie <a href="lync-server-2013-medialist-table.md">in der Tabelle medialist in lync Server 2013</a> .</p></td>
+<td><p>Primär, Fremd</p></td>
+<td><p>Eindeutige Zahl, die diesen Medientyp identifiziert. Weitere Informationen finden Sie <a href="lync-server-2013-medialist-table.md">in der medialist-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>StartTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td><p>Primary</p></td>
-<td><p>Dies ist der Zeitpunkt, zu dem eine Medienanfrage gesendet wurde, nicht die Startzeit des realen Mediums. <strong>Startzeit</strong> umfasst die Rüstzeit für die Sitzung.</p></td>
+<td><p>Dies ist der Zeitpunkt, zu dem eine Medienanforderung gesendet wurde, jedoch nicht die tatsächliche Medienstartzeit. <strong>StartTime</strong> schließt die Sitzungseinrichtungszeit mit ein.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EndTime</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td></td>
-<td><p>Dies ist die Endzeit der Sitzung.</p></td>
+<td><p>Bezeichnet das Ende der Sitzung.</p></td>
 </tr>
 </tbody>
 </table>

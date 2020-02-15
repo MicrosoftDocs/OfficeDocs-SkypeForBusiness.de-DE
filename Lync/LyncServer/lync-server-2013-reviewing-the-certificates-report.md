@@ -12,20 +12,20 @@ ms:contentKeyID: 51541477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 410e9e99fccae7378b5260c9aa3a2281a3004cd5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 26a01f778e855fc5934b524c5bf4a5829a2ca31e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733035"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051559"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reviewing-the-certificates-report-in-lync-server-2013"></a>Überprüfen des Berichts "Zertifikate" in lync Server 2013
+# <a name="reviewing-the-certificates-report-in-lync-server-2013"></a>Überprüfen des Zertifikat Berichts in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41733035"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+_**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Der Bericht Zertifikate enthält alle Zertifikate, die in der empfohlenen lync Server 2013-Bereitstellung erforderlich sind. Das Planungs Tool berücksichtigt die eingegebenen Antragstellernamen und alternativen Subjektnamen. Nicht bearbeiteter Standardtext kann eine Herausforderung für das Team darstellen, das für das Anfordern und Ausstellen der Zertifikate verantwortlich ist. In den Zertifikatinformationen ist zudem angegeben, durch welche Stelle das Zertifikat typischerweise ausgestellt werden kann. Wenn die Infrastruktur nicht über eine interne Public Key-Infrastruktur (PKI) verfügt, können sämtliche Zertifikate über einen öffentlichen Zertifikatanbieter angefordert werden. Die Felder „Erweiterte Schlüsselverwendungen“ und „Zuweisen zu“ des Berichts sind äußerst nützlich und liefern Informationen zu Zweck und Speicherort der einzelnen Zertifikate.
+Der Zertifikat Bericht enthält alle Zertifikate, die in der empfohlenen lync Server 2013-Bereitstellung erforderlich sind. Das Planungs Tool Konten für die eingegebenen Antragstellernamen und alternativen Antragstellernamen. Der Standardtext, der unbearbeitet bleibt, stellt möglicherweise eine potenzielle Herausforderung für das Team dar, das für das anfordern und ausgeben der Zertifikate zuständig ist. In den Zertifikatinformationen ist zudem angegeben, von welcher Stelle das Zertifikat typischerweise ausgestellt werden kann. Wenn die Infrastruktur nicht über eine interne Public Key-Infrastruktur (PKI) verfügt, können sämtliche Zertifikate über einen öffentlichen Zertifikatanbieter angefordert werden. Die Felder "Erweiterte Schlüsselverwendungen" und "Zuweisen zu" des Berichts sind äußerst nützlich und liefern Informationen zum Zweck und Speicherort der einzelnen Zertifikate.
 
-![Zertifikatverwaltungsbericht](images/Gg558651.63a29335-d9e4-41ae-97ec-3c9d9fd30d8a(OCS.15).jpg "Zertifikatverwaltungsbericht")
+![Zertifikat Administrator Bericht](images/Gg558651.63a29335-d9e4-41ae-97ec-3c9d9fd30d8a(OCS.15).jpg "Zertifikat Administrator Bericht")
 
-Überprüfen Sie die Verwendung und den Zweck der einzelnen Zertifikate innerhalb der Bereitstellung sorgfältig und stellen Sie sicher, dass Sie diese Informationen verstanden haben. Wenn Sie Fragen zum Zweck eines Zertifikats haben, ermitteln Sie, welcher Server oder Dienst mit welcher Komponente kommuniziert. Zertifikate in lync Server 2013 werden für zwei primäre Zwecke verwendet:
+Überprüfen Sie sorgfältig die Verwendung und den Zweck jedes Zertifikats in der Bereitstellung, und achten Sie darauf, dass Sie dies verstehen. Wenn es eine Frage zu dem, was ein Zertifikat ist, ermitteln, welche Server oder Dienst mit was gesprochen wird. Zertifikate in lync Server 2013 werden für zwei primäre Zwecke verwendet:
 
-  - Mutual Transport Layer Security (MTLS) – Die Computer, die miteinander kommunizieren, belegen ihre Identität gegenüber den anderen Computern mithilfe eines Zertifikats. Dieser Vorgang wird als Serverauthentifizierung bezeichnet. Die Kommunikation ist erst möglich, wenn sämtliche Computer die Identität der anderen Computer als vertrauenswürdig eingestuft haben.
+  - Mutual Transport Layer Security (MTLS) – die an der Kommunikation beteiligten Computer stellen ein Zertifikat dar, das Ihre Identität für einen anderen Computer prüft. Dies wird als Serverauthentifizierung bezeichnet. Die Kommunikation kann erst begonnen werden, wenn jeder Computer der Identität des anderen Computers vertraut.
 
   - Verschlüsselung – Die Verschlüsselung (Secure Sockets Layer, SSL, und Transport Layer Security, TLS) ist eine wichtige Methode, um eine sichere Kommunikation und die Einhaltung von Datenschutzrichtlinien zu gewährleisten sowie ein vertrauenswürdiges System für Kommunikation und Zusammenarbeit zu erstellen.
 
@@ -52,7 +52,7 @@ Der Bericht Zertifikate enthält alle Zertifikate, die in der empfohlenen lync S
 ## <a name="see-also"></a>Siehe auch
 
 
-[Überprüfen der Administratorberichte in Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
+[Überprüfen der Administrator Berichte in lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
   
 
 </div>

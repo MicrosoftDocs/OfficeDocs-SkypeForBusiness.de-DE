@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Sichern von persistenten Chat Datenbanken'
+title: 'Lync Server 2013: Sichern von Datenbanken für beständigen Chat'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541507
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f186552b9e0d5c78d0f40416cd92e41d5705e93a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 98d4d69a09ad58d4578c0636f7e6bce54497cb9d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740615"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044967"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-persistent-chat-databases-in-lync-server-2013"></a>Sichern von persistenten Chat Datenbanken in lync Server 2013
+# <a name="backing-up-persistent-chat-databases-in-lync-server-2013"></a>Sichern von Datenbanken für beständigen Chat in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41740615"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-17_
+_**Letztes Änderungsstand des Themas:** 2013-02-17_
 
-Beständiger Chatroom-Inhalt wird in der persistent Chat-Datenbank (MGC. mdf) gespeichert. Es handelt sich hierbei um unternehmenswichtige Daten, die regelmäßig gesichert werden sollten. Zusätzlich zu den Chatroom-Inhalten speichert die persistente Chat-Datenbank auch Informationen zu den Prinzipalen (wie Benutzer und Benutzergruppen) sowie zu den Rollen und dem Zugriff, die Sie für Chatrooms und Chatrooms haben.
+Inhalt des beständigen Chatrooms wird in der Datenbank für beständigen Chat (MGC. mdf) gespeichert. Dies sind Geschäfts wichtige Daten, die regelmäßig gesichert werden sollten. Zusätzlich zum Chatroom-Inhalt werden in der Datenbank für beständigen Chat auch Informationen über die Prinzipale (wie Benutzer und Benutzergruppen) sowie die Rollen und der Zugriff auf Chatrooms und Chatrooms gespeichert.
 
-Es gibt zwei Möglichkeiten, persistente Chat-Daten zu sichern.
+Es gibt zwei Möglichkeiten zum Sichern von Daten für beständigen Chat.
 
-  - Die SQL Server-Sicherung
+  - SQL Server Sicherung
 
-  - Das `Export-CsPersistentChatData` Cmdlet, das persistente Chat-Daten als Datei exportiert
+  - Das `Export-CsPersistentChatData` Cmdlet, das persistent Chat-Daten als Datei exportiert
 
-Daten, die mit der SQL Server-Sicherung erstellt werden, erfordern erheblich mehr Speicherplatz – möglicherweise 20 mal mehr `Export-CsPersistentChatData`– als die von Ihnen erstellten, aber die SQL Server-Sicherung ist wahrscheinlicher eine Prozedur, mit der Administratoren vertraut sind.
+Daten, die mit SQL Server Sicherung erstellt werden, erfordern deutlich mehr Speicherplatz (möglicherweise 20 mal mehr) als `Export-CsPersistentChatData`die von erstellten, aber SQL Server Sicherung ist eher ein Verfahren, mit dem Administratoren vertraut sind.
 
 </div>
 

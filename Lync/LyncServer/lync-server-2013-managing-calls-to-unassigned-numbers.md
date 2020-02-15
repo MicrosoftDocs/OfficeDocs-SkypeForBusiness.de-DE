@@ -12,16 +12,16 @@ ms:contentKeyID: 49733772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 571bddf8de62d7b22ac23a3b00de740030a2f7ca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 154f32e22ccce5ae23a4e3dceb175072618cc289
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738785"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037515"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41738785"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Mit lync Server können Sie die Behandlung von eingehenden Telefon anrufen konfigurieren, wenn die gewählte Nummer für Ihre Organisation gültig ist, aber keinem Benutzer oder Telefon zugewiesen ist. Sie können die Ankündigungs Anwendung verwenden, um diese Anrufe an ein festgelegtes Ziel (Telefonnummer, SIP-URI oder Voicemail) zu übertragen oder eine Audio-Ansage oder beides wiederzugeben. Sie können diese Anrufe auch an die Telefonnummer einer automatischen Exchange UM-Telefonzentrale übertragen. Die Behandlung von Anrufen an nicht zugewiesene Nummern auf eine der folgenden Arten hilft Ihnen, die Situationen zu vermeiden, in denen sich ein Anrufer verwählt und dann einen besetzt Ton hört oder der SIP-Client eine Fehlermeldung erhält.
+In lync Server können Sie die Verarbeitung eingehender Anrufe konfigurieren, wenn die gewählte Nummer für Ihre Organisation gültig ist, aber keinem Benutzer oder Telefon zugewiesen ist. Sie können die Ankündigungsanwendung verwenden, um diese Anrufe an ein vorab festgelegtes Ziel (Telefonnummer, SIP-URI oder Voicemail) zu übertragen oder eine Audioansage oder beides wiederzugeben. Sie können diese Anrufe auch an eine Exchange UM-Rufnummer der automatischen Telefonzentrale durchstellen. Durch die Verarbeitung von Anrufen für nicht zugewiesene Nummern anhand einer dieser Methoden können Sie die Situationen vermeiden, in denen sich ein Anrufer verwählt und dann ein Besetztzeichen hört oder in denen der SIP-Client eine Fehlermeldung erhält.
 
-In diesem Abschnitt wird beschrieben, wie nicht zugewiesene Nummernbereiche verwaltet werden, um Anrufe an nicht zugewiesene Telefonnummern zu verarbeiten. Im Abschnitt wird auch beschrieben, wie Sie Ankündigungen während einer Disaster Recovery verwalten, wenn Sie diese Funktion während eines Ausfalls nutzen möchten.
+In diesem Abschnitt wird die Verwaltung von Bereichen nicht zugewiesener Nummern für die Vearbeitung von Anrufen für nicht zugewiesene Telefonnummern beschrieben. Zudem wird in diesem Abschnitt die Verwaltung von Ansagen bei Notfallwiederherstellungen beschrieben, sofern Sie diese Funktionalität während eines Ausfalls verwenden möchten.
 
 <div>
 
 
 > [!NOTE]  
-> Die Verwendung einer nicht zugewiesenen Nummern Behandlung während eines Ausfalls ist optional.
+> Die Verwendung der Verarbeitung nicht zugewiesener Nummern während eines Ausfalls ist optional.
 
 
 
@@ -55,11 +55,11 @@ In diesem Abschnitt wird beschrieben, wie nicht zugewiesene Nummernbereiche verw
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Erstellen einer Ankündigung in lync Server 2013](lync-server-2013-create-an-announcement.md)
+  - [Erstellen einer Ansage in lync Server 2013](lync-server-2013-create-an-announcement.md)
 
   - [Konfigurieren von nicht zugewiesenen Telefonnummern in lync Server 2013](lync-server-2013-configure-unassigned-phone-numbers.md)
 
-  - [Verwalten von Ansagen während der Notfallwiederherstellung in Lync Server 2013](lync-server-2013-manage-announcements-during-disaster-recovery.md)
+  - [Verwalten von Ankündigungen während der Notfallwiederherstellung in lync Server 2013](lync-server-2013-manage-announcements-during-disaster-recovery.md)
 
 </div>
 

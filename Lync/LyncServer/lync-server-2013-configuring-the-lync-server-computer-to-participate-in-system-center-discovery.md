@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren des lync Server-Computers für die Teilnahme an der System Center Discovery
+title: Konfigurieren des lync Server Computers für die Teilnahme an der System Center-Ermittlung
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183731
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8cec18903f1621d5a616debbbdd16f3c834ac21c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2b59622306fbde12eb570b72c95b37cec7885c7f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734675"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040924"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-the-lync-server-2013-computer-to-participate-in-system-center-discovery"></a>Konfigurieren des lync Server 2013-Computers zur Teilnahme an der System Center Discovery
+# <a name="configuring-the-lync-server-2013-computer-to-participate-in-system-center-discovery"></a>Konfigurieren des lync Server 2013 Computers für die Teilnahme an der System Center-Ermittlung
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41734675"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-20_
+_**Letztes Änderungsstand des Themas:** 2012-10-20_
 
-Wenn Sie sicherstellen möchten, dass Ihr neuer lync Server-Agent am Ermittlungsprozess für System Center Operations Manager teilnimmt, müssen Sie auf jedem Computer, auf dem die System Center Operations Manager-Konsole installiert wurde, das folgende Verfahren ausführen:
+Um sicherzustellen, dass Ihr neuer lync Server-Agent am Ermittlungsprozess für System Center Operations Manager teilnimmt, müssen Sie auf jedem Computer, auf dem die System Center Operations Manager-Konsole installiert ist, das folgende Verfahren ausführen:
 
-1.  Klicken Sie auf der Registerkarte **Verwaltung** auf **Agent verwaltet**.
+1.  Klicken Sie auf die Registerkarte **Verwaltung** auf **Mit Agents verwaltet**.
 
-2.  Klicken Sie mit der rechten Maustaste auf den Namen des Computers und klicken Sie dann auf **Eigenschaften**. Wählen Sie im Dialogfeld **Eigenschaften** auf der Registerkarte **Sicherheit** die Option **dieser Agent soll als Proxy fungieren und verwaltete Objekte auf anderen Computern erkennen**aus, und klicken Sie dann auf **OK**.
+2.  Klicken Sie mit der rechten Maustaste auf den Namen des Computers, und klicken Sie dann auf **Eigenschaften**. Wählen Sie im Dialogfeld **Eigenschaften** auf der Registerkarte **Sicherheit** die Option **Dieser Agent soll als Proxyagent fungieren und verwaltete Objekte auf anderen Computern erkennen** aus, und klicken Sie dann auf **OK**.
 
-Nachdem Sie Schritt 2 abgeschlossen haben, starten Sie den Integritäts-Agent-Dienst neu. (Durch einen Neustart des Diensts wird die Erkennung des neuen Computers erzwungen. Wenn Sie den Dienst nicht neu starten, kann es bis zu 4 Stunden dauern, bis der neue Computer von System Center Operations Manager erkannt wird.) Vergewissern Sie sich nach dem Neustart des Diensts, dass im Ereignisprotokoll des Operations-Managers auf diesem Computer keine Fehlerereignisse aufgezeichnet werden.
+Starten Sie den Systemintegritäts-Agent-Dienst neu, nachdem Sie Schritt 2 abgeschlossen haben. (Durch den Neustart des Diensts wird die Erkennung des neuen Computers "erzwungen". Wenn Sie den Dienst nicht neu starten, kann es bis zu 4 Stunden dauern, bis der neue Computer vom System Center Operations Manager erkannt wird.). Stellen Sie nach dem Neustart des Diensts sicher, dass im System Center Operations Manager-Ereignisprotokoll keine Fehlerereignisse aufgezeichnet werden.
 
 </div>
 

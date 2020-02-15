@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Hinzufügen eines Servers für beständigen Chat zu einer Bereitstellung'
+title: 'Lync Server 2013: Hinzufügen eines Servers für beständigen Chat zur Bereitstellung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7a41e89193f4871197ab9b429eb6ab9a9078a7e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71d354449c02a0b57b737f01841a0f5841aa80c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738035"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038537"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-persistent-chat-server-to-your-deployment-in-lync-server-2013"></a>Hinzufügen eines Servers für beständigen Chat zu einer Bereitstellung in Lync Server 2013
+# <a name="adding-persistent-chat-server-to-your-deployment-in-lync-server-2013"></a>Hinzufügen von persistent Chat Server zu Ihrer Bereitstellung in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41738035"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+_**Letztes Änderungsstand des Themas:** 2012-09-12_
 
-Nachdem Sie die erforderliche Software auf jedem Server installiert haben, auf dem Sie lync Server 2013, beständiger Chat Server, bereitstellen möchten, müssen Sie den Topologie-Generator verwenden, um Ihrer Topologie Unterstützung für beständigen Chat Server hinzuzufügen und dann die Topologie zu veröffentlichen.
+Nachdem Sie die erforderliche Software auf jedem Server installiert haben, auf dem Sie lync Server 2013 Server für beständigen Chat bereitstellen möchten, müssen Sie den Topologie-Generator verwenden, um die Unterstützung für beständigen Chat Server zur Topologie hinzuzufügen und die Topologie dann zu veröffentlichen.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Hinzufügen eines Server für beständigen Chat zu einer Topologie in Lync Server 2013](lync-server-2013-add-persistent-chat-server-to-the-topology.md)
+  - [Hinzufügen eines Servers für beständigen Chat zur Topologie in lync Server 2013](lync-server-2013-add-persistent-chat-server-to-the-topology.md)
 
-  - [Veröffentlichen der aktualisierten Topologie in Lync Server 2013](lync-server-2013-publish-the-updated-topology.md)
+  - [Veröffentlichen der aktualisierten Topologie in lync Server 2013](lync-server-2013-publish-the-updated-topology.md)
 
 </div>
 

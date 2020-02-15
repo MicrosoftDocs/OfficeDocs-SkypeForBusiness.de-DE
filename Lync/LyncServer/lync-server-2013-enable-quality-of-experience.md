@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Aktivieren der Qualität der Benutzerfreundlichkeit'
+title: 'Lync Server 2013: Aktivieren von Quality of Experience'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185385
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dbccfd145ad8143edab10f92a10901e626075e2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1b75a1ebc7c3014c676467112aa6871560cbe3ef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735999"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045657"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41735999"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Bei der QoE-Datenerfassung (Quality of Experience) werden numerische Daten aufgezeichnet, die die Medienqualität sowie Informationen zu Teilnehmern, Gerätenamen, Treibern, IP-Adressen und Endpunkttypen im Zusammenhang mit Anrufen und Sitzungen angeben. Ausführliche Informationen finden Sie unter [Planen der Überwachung in lync Server 2013](lync-server-2013-planning-for-monitoring.md) in der Planungsdokumentation.
+Bei der QoE-Datenerfassung (Quality of Experience) werden numerische Daten aufgezeichnet, die die Medienqualität sowie Informationen zu Teilnehmern, Gerätenamen, Treibern, IP-Adressen und Endpunkttypen im Zusammenhang mit Anrufen und Sitzungen angeben. Ausführliche Informationen finden Sie unter [Planning for Monitoring in lync Server 2013](lync-server-2013-planning-for-monitoring.md) in der Planungsdokumentation.
 
-Verwenden Sie das folgende Verfahren, um QoE in der gesamten Organisation oder für jeden Standort in Ihrer Organisation zu aktivieren.
+Verwenden Sie das folgende Verfahren, um QoE für Ihre gesamte Organisation oder jeden Standort in Ihrer Organisation zu aktivieren.
 
 <div>
 
 
 > [!NOTE]  
-> Zur Aktivierung von QoE müssen Sie zunächst die Überwachung und eine Monitoring-Back-End-Datenbank konfigurieren. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-deploying-monitoring.md">Bereitstellen der Überwachung in lync Server 2013</A>.
+> Zum Aktivieren von QoE müssen Sie zunächst die Überwachung und eine Überwachungs-Back-End-Datenbank konfigurieren. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-deploying-monitoring.md">Deploying Monitoring in lync Server 2013</A>.
 
 
 
@@ -53,15 +53,15 @@ Verwenden Sie das folgende Verfahren, um QoE in der gesamten Organisation oder f
 
 <div>
 
-## <a name="to-enable-qoe-by-using-lync-server-control-panel"></a>So aktivieren Sie QoE mithilfe der lync Server-Systemsteuerung
+## <a name="to-enable-qoe-by-using-lync-server-control-panel"></a>So aktivieren Sie QoE mithilfe von lync Server-Systemsteuerung
 
-1.  Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Benutzerrechte verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.
+1.  Melden Sie sich von einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe (oder gleichwertigen Benutzerrechten) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, an jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Überwachung und Archivierung** und dann auf **QoE-Daten**.
 
-4.  Klicken Sie auf der Seite **Quality of Experience-Daten** in der Tabelle auf die entsprechende Auflistung, klicken Sie auf **Aktion** und anschließend auf **QoE aktivieren**.
+4.  Klicken Sie auf der Seite **Quality of Experience-Daten** in der Tabelle auf die entsprechende Auflistung, klicken Sie auf **Aktion**, und klicken Sie dann auf **QoE aktivieren**.
 
 </div>
 
@@ -69,13 +69,13 @@ Verwenden Sie das folgende Verfahren, um QoE in der gesamten Organisation oder f
 
 ## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>Aktivieren von QoE mithilfe von Windows PowerShell-Cmdlets
 
-Sie können QoE mithilfe von Windows PowerShell und dem Cmdlet " **Satz-CsQoEConfiguration** " aktivieren. Sie können dieses Cmdlet entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Sie können QoE mithilfe von Windows PowerShell und dem CmdletSet **-CsQoEConfiguration** aktivieren. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
 ## <a name="to-enable-qoe-for-a-single-location"></a>So aktivieren Sie QoE für einen einzelnen Standort
 
-  - Zum Aktivieren von QoE legen Sie den EnableQoE-Parameter auf „True“ ($True) fest.
+  - Zum Aktivieren von QoE legen Sie den EnableQoE-Parameter auf true ($true) fest.
     
         Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $True
 
@@ -85,7 +85,7 @@ Sie können QoE mithilfe von Windows PowerShell und dem Cmdlet " **Satz-CsQoECon
 
 ## <a name="to-disable-qoe-for-a-single-location"></a>So deaktivieren Sie QoE für einen einzelnen Standort
 
-  - Zum Deaktivieren von QoE legen Sie den EnableQoE-Parameter auf „False“ ($False) fest. Die Überwachung wird dadurch nicht deinstalliert. Das Erfassen und Speichern von QoE-Daten wird unterbrochen.
+  - Zum Deaktivieren von QoE legen Sie den EnableQoE-Parameter auf false ($false) fest. Die Überwachung wird dadurch nicht deinstalliert. Es hält die Sammlung und Speicherung von QoE-Daten an.
     
         Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $False
 
@@ -93,7 +93,7 @@ Sie können QoE mithilfe von Windows PowerShell und dem Cmdlet " **Satz-CsQoECon
 
 <div>
 
-## <a name="to-use-a-single-command-to-enable-qoe-in-multiple-locations"></a>So aktivieren Sie QoE mit einem einzelnen Befehl an mehreren Standorten
+## <a name="to-use-a-single-command-to-enable-qoe-in-multiple-locations"></a>So aktivieren Sie QoE an mehreren Standorten mithilfe eines einzelnen Befehls
 
   - Mit diesem Befehl wird QoE für alle derzeit in Ihrer Organisation verwendeten QoE-Konfigurationseinstellungen aktiviert.
     
@@ -101,7 +101,7 @@ Sie können QoE mithilfe von Windows PowerShell und dem Cmdlet " **Satz-CsQoECon
 
 </div>
 
-Ausführliche Informationen finden Sie unter [Satz-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsQoEConfiguration).
+Ausführliche Informationen finden Sie unter [Sets-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsQoEConfiguration).
 
 </div>
 
@@ -110,7 +110,7 @@ Ausführliche Informationen finden Sie unter [Satz-CsQoEConfiguration](https://d
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planen der Überwachung in Lync Server 2013](lync-server-2013-planning-for-monitoring.md)  
+[Planen der Überwachung in lync Server 2013](lync-server-2013-planning-for-monitoring.md)  
 [Bereitstellen der Überwachung in lync Server 2013](lync-server-2013-deploying-monitoring.md)  
   
 

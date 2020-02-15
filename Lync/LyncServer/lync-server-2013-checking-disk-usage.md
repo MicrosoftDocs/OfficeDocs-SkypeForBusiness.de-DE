@@ -12,16 +12,16 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 554b493ba7ca837a8ea5c80f6751ddb91061c374
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8532b15ac45033d966c772e6ab23403d709ed790
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726695"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045677"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,43 +35,43 @@ ms.locfileid: "41726695"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-04-30_
+_**Letztes Änderungsstand des Themas:** 2014-04-30_
 
-Festplatten-Laufwerke sind eine wichtige Komponente der lync Server 2013-Bereitstellung. Ohne ausreichend freien Festplattenspeicher können weder das Betriebssystem noch die lync Server 2013-Datenbanken ordnungsgemäß funktionieren. Sie müssen die lync Server 2013-Datenbankstatistik für die Back-End-Datenbank täglich überwachen, um sicherzustellen, dass auf den Servern nicht genügend Speicherplatz vorhanden ist, und um sich vorzubereiten, wie erforderlich Speicherressourcen hinzuzufügen.
+Festplatten sind ein wichtiger Bestandteil der lync Server 2013-Bereitstellung. Ohne ausreichend freies Festplattenvolume kann weder das Betriebssystem noch die lync Server 2013 Datenbanken ordnungsgemäß funktionieren. Sie müssen die Statistiken für lync Server 2013 Back-End-Datenbanken täglich überwachen, um sicherzustellen, dass auf den Servern nicht genügend Speicherplatz zur Verfügung steht und dass Sie nach Bedarf Speicherressourcen hinzufügen können.
 
-Neben der Überprüfung des Speicherplatzes auf Festplatten, die das Betriebssystem, die Programmdateien, die Datenbank und die Transaktionsprotokolle (lync Server 2013-Back-End) hosten, sollten Sie auch die Verwendung des Dateisystems überwachen, das Speicherplatz für Dateifreigaben enthält, die die folgenden wichtigen Daten enthalten: Daten
+Neben der Überprüfung des Speicherplatzes auf Datenträgern, die das Betriebssystem, die Programmdateien, die Datenbank und die Transaktionsprotokolle (lync Server 2013 Back-End) hosten, sollten Sie auch die Verwendung des Dateisystems überwachen, das Speicherplatz für Dateifreigaben enthält, die die folgenden wichtigen Daten
 
   - Besprechungsinhalte
 
   - Metadaten für Besprechungsinhalte
 
-  - Kompatibilitäts Protokolle für Besprechungen
+  - Erfüllen von Kompatibilitäts Protokollen
 
-  - Anwendungsdaten Dateien (intern von der Anwendungsserverkomponente verwendet)
+  - Anwendungsdatendatei (intern von der Anwendungsserverkomponente verwendet)
 
-  - Web Service-und Compliance-Ordner für Gruppen-Chat Server (zum Speichern von Dateien, die in den Gruppen-Chat-Webdienst hochgeladen wurden)
+  - Group Chat Server-Webdienst und Compliance-Ordner (zum Speichern von Dateien, die in den Gruppenchat-Webdienst hochgeladen wurden)
 
-  - XML-Dateien für Gruppen-Chat-Compliance (mit Gruppen-Chat-Konformitäts Einträgen)
+  - XML-Dateien für Gruppenchat-Konformität (mit Gruppenchat-Kompatibilitäts Einträgen)
 
   - Aktualisieren von Dateien (für den Geräteaktualisierungsdienst)
 
   - Adressbuchdateien
 
-Lync Server 2013 benötigt Festplattenspeicher, um die Datenbanken und Transaktionsprotokolle zusätzlich zu den zuvor aufgelisteten Dateien auf Dateifreigaben zu speichern.
+Lync Server 2013 benötigt auf der Festplatte Speicherplatz zum Speichern der Datenbanken und Transaktionsprotokolle sowie der zuvor aufgeführten Dateien auf Dateifreigaben.
 
 Sie sollten den Speicherplatz regelmäßig überwachen, um sicherzustellen, dass die lync Server 2013-Bereitstellung aufgrund unzureichender Speicherressourcen nicht beeinträchtigt wird.
 
-Vergleichen und verwalten Sie statistische Informationen zu dem verfügbaren Speicherplatz auf den einzelnen lync Server 2013-Volumes und dem erwarteten Wachstum der Datenbanken und Transaktionsprotokolldateien. Dies hilft bei der Kapazitätsplanung und beim Hinzufügen von Speicher, wenn die Speicherressourcen erforderlich sind.
+Vergleichen und verwalten Sie statistische Informationen über den verfügbaren Speicherplatz auf jedem lync Server 2013 Volume und das erwartete Wachstum der Datenbanken und Transaktionsprotokolldateien. Dies hilft bei der Kapazitätsplanung und beim Hinzufügen von Speicher, wenn die Speicherressourcen benötigt werden.
 
-Zur Unterstützung von Problemen bei der Problembehandlung und Notfallwiederherstellung empfiehlt es sich, den verfügbaren freien Speicherplatz gleich oder größer als 110 Prozent der Datenbankgröße zu haben.
+Zur Unterstützung der Problembehandlung und Notfall Wiederherstellungssituationen wird empfohlen, dass verfügbarer freier Speicherplatz mindestens 110% der Größe der Datenbank entspricht oder größer ist.
 
-Sie können den freien Speicherplatz überprüfen, indem Sie die folgenden Methoden verwenden:
+Sie können den freien Speicherplatz auf der Festplatte mithilfe der folgenden Methoden überprüfen:
 
-1.  **System Center Operations Manager**   System Center Operations Manager kann verwendet werden, um Administratoren zu warnen, wenn der Speicherplatz für Volumes begrenzt ist.
+1.  **System Center Operations Manager**   System Center Operations Manager kann verwendet werden, um Administratoren zu warnen, wenn der Speicherplatz auf dem Volume eingeschränkt ist.
 
-2.  **Beim Ausführen eines Skripts**   wird der Speicherplatz durch Ausführen eines Skripts überwacht, das Ihnen eine Nachricht sendet, wenn der verfügbare Festplattenspeicherplatz unter 20 Prozent fällt. Sie können ein Beispielskript im Microsoft Script Center auf TechNet finden, indem Sie Folgendes untersuchen:[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
+2.  ****   Durch Ausführen eines Skripts wird der Speicherplatz durch Ausführen eines Skripts überwacht, das Ihnen eine Nachricht sendet, wenn der verfügbare Festplattenspeicherplatz unter 20 Prozent liegt. Ein Beispielskript im Microsoft Script Center auf TechNet finden Sie unter:[http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard%20disk%20alert\&f%5B0%5D.Value=hard%20disk%20alert\&f%5B0%5D.Type=SearchText\&ac=5](http://gallery.technet.microsoft.com/scriptcenter/site/search?query=hard+disk+alert%26f%5b0%5d.value=hard+disk+alert%26f%5b0%5d.type=searchtext%26ac=5)
 
-3.  **Windows**   -Explorer verwenden Sie den Windows-Explorer, um den Speicherplatz auf Volumes zu überprüfen, die lync Server 2013-Protokolle und-Datenbanken speichern.
+3.  **Windows-Explorer**   verwenden Sie Windows-Explorer, um auf Datenträgern auf Volumes zu suchen, in denen lync Server 2013 Protokolle und Datenbanken gespeichert sind.
 
 </div>
 

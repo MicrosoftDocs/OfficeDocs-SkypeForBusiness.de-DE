@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
-description: 'Zusammenfassung: untersuchen Sie diese Links, um zu erfahren, wie Sie Skype for Business Server 2015 implementieren.'
-ms.openlocfilehash: 7a5753e481e1014ea8ff95aafc5e3a1f632bafa1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: erkunden Sie diese Links, um zu erfahren, wie Sie Skype for Business Server 2015 implementieren.'
+ms.openlocfilehash: 05d9da9fb1edb9b9063b9d2649b34a45003dee7e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824099"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045367"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype for Business Server 2015
 
-Skype for Business ist eine Kommunikations-und Zusammenarbeitsplattform, die eine von Skype inspirierte Kundenerfahrung mit Sicherheit, Compliance und Kontrolle auf Unternehmensniveau vereint. Skype for Business bietet Funktionen wie Anwesenheits-, Chat-, sprach-und Videoanrufe sowie Onlinebesprechungen. 
+Skype for Business ist eine Plattform für Kommunikation und Zusammenarbeit, die eine von Skype inspirierte Clientumgebung mit Sicherheits-, Compliance-und Steuerelementen in Unternehmen vereint. Skype for Business bietet Funktionen wie Anwesenheits-, Chat-, sprach-und Videoanrufe sowie Onlinebesprechungen.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -56,7 +56,7 @@ Skype for Business ist eine Kommunikations-und Zusammenarbeitsplattform, die ein
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Hybrid Lösungen</h3>
+                        <h3>Hybridlösungen</h3>
                     </div>
                 </div>
             </div>
@@ -118,7 +118,7 @@ Skype for Business ist eine Kommunikations-und Zusammenarbeitsplattform, die ein
         </a>
     </li>
     <li>
-        <a href="https://www.microsoft.com/en-us/evalcenter/evaluate-skype-for-business-server">
+        <a href="https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -128,7 +128,7 @@ Skype for Business ist eine Kommunikations-und Zusammenarbeitsplattform, die ein
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Herunterladen aus dem Skype for Business-Evaluierungs Center</h3>
+                        <h3>Herunterladen im Skype for Business Evaluation Center</h3>
                     </div>
                 </div>
             </div>
@@ -146,8 +146,8 @@ Skype for Business ist eine Kommunikations-und Zusammenarbeitsplattform, die ein
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Bevor Sie beginnen</h3>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Anforderungen an Ihre Umgebung</a></p>
+                        <h3>Vor der Bereitstellung</h3>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Anforderungen für Ihre Umgebung</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Netzwerkanforderungen</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">Clients und Geräte</a></p>
                     </div>
@@ -162,7 +162,7 @@ Skype for Business ist eine Kommunikations-und Zusammenarbeitsplattform, die ein
                     <div class="cardText">
                         <h3>Installieren und verwalten</h3>
                         <p><a href="/SkypeForBusiness/deploy/install/install" data-raw-source="[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install)">Installieren von Skype for Business Server</a></p>
-                        <p><a href="/SkypeForBusiness/manage/manage" data-raw-source="[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)">Verwalten von Skype for Business Server</a></p>
+                        <p><a href="/SkypeForBusiness/manage/manage" data-raw-source="[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)">Skype for Business Server verwalten</a></p>
                      </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@ Skype for Business ist eine Kommunikations-und Zusammenarbeitsplattform, die ein
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Skype-Livekonferenzen</h3>
+                        <h3>Skype-Livekonferenz</h3>
                         <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">Was ist es?</a></p>
                         <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">Konfigurieren der lokalen Bereitstellung für Skype-Live Konferenz</a>
                     </div>
@@ -199,12 +199,12 @@ Skype for Business ist eine Kommunikations-und Zusammenarbeitsplattform, die ein
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Hybrid Lösungen</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Planen von Hybridverbindungen</a></p>
+                        <h3>Hybridlösungen</h3>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Planen der Hybrid Konnektivität</a></p>
                                        </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </li>
     <li>
         <div class="cardSize">
@@ -212,13 +212,12 @@ Skype for Business ist eine Kommunikations-und Zusammenarbeitsplattform, die ein
                 <div class="card">
                     <div class="cardText">
                         <h3>Weitere Ressourcen</h3>
-                        <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Skype for Business Readiness-Serie</a></p>
-                        <p><a href="/SkypeForBusiness/skype-for-business-server-2019">Skype for Business Server 2019-Dokumentation</a></p>
-                        <p><a href="/lyncserver/microsoft-lync-server-2013">Lync Server 2013-Dokumentation</a></p>
+                        <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Skype for Business Bereitschafts Reihe</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-server-2019">Dokumentation zu Skype for Business Server 2019</a></p>
+                        <p><a href="/lyncserver/microsoft-lync-server-2013">Lync Server 2013 Dokumentation</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
 </ul>
-

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS)'
+title: 'Lync Server 2013: KDS-Datenbankschema (Call Detail Recording)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccda99476c1d74c68aacda358a6759b02bc65a78
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cf08b4562550807ce40c26844a89f3f32aba769
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743165"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045387"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-detail-recording-cdr-database-schema-in-lync-server-2013"></a>Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) in Lync Server 2013
+# <a name="call-detail-recording-cdr-database-schema-in-lync-server-2013"></a>KDS-Datenbankschema (Call Detail Recording) in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41743165"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-17_
+_**Letztes Änderungsstand des Themas:** 2012-10-17_
 
-Dadurch wird das Schema der CDR-Datenbank (Call Detail Recording) in Microsoft lync Server 2013 dokumentiert.
+In diesem Dokument wird das Schema der KDS-Datenbank (Call Detail Recording) in Microsoft lync Server 2013 dokumentiert.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Liste der CDR-Tabellen in Lync Server 2013](lync-server-2013-list-of-cdr-tables.md)
+  - [Liste der CDR-Tabellen in lync Server 2013](lync-server-2013-list-of-cdr-tables.md)
 
-  - [Ausführliche Informationen zur CDR-Tabelle in Lync Server 2013](lync-server-2013-cdr-table-details.md)
+  - [Details zur KDS-Tabelle in lync Server 2013](lync-server-2013-cdr-table-details.md)
 
-  - [Liste der CDR-Ansichten in lync Server 2013](lync-server-2013-list-of-cdr-views.md)
+  - [Liste der KDS-Ansichten in lync Server 2013](lync-server-2013-list-of-cdr-views.md)
 
 </div>
 

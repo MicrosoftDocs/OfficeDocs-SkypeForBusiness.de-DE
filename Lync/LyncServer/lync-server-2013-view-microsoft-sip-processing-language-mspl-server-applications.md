@@ -12,20 +12,20 @@ ms:contentKeyID: 48185202
 ms.date: 09/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63c1ce638e6bc9509c8faf46b39989b366f610a0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d0572ad17d5359cf082c6bd06ab722d8322180e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765616"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038057"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-microsoft-sip-processing-language-mspl-server-applications-in-lync-server-2013"></a>Anzeigen von MSPL-Serveranwendungen (Microsoft SIP Processing Language) in Lync Server 2013
+# <a name="view-microsoft-sip-processing-language-mspl-server-applications-in-lync-server-2013"></a>Anzeigen von MSPL-Serveranwendungen (Microsoft SIP Processing Language) in lync Server 2013
 
 </div>
 
@@ -35,53 +35,53 @@ ms.locfileid: "41765616"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-09-26_
+_**Letztes Änderungsstand des Themas:** 2014-09-26_
 
-Eine Microsoft SIP Processing Language (MSPL)-Serveranwendung ist eine skriptbasierte Anwendung, die eine Skriptsprache anstelle der Microsoft lync 2010-API verwendet. MSPL bietet eine genauere Steuerung des Filter-und Proxy Verhaltens sowie eine Möglichkeit zum Verteilen bestimmter Nachrichten an transaktionsbasierte SIP-Anwendungen. MSPL wird speziell zum Filtern und Weiterleiten von SIP-Nachrichten verwendet. MSPL-Anwendungen werden im gleichen Prozess wie das userservices-Modul ausgeführt, während ein Programm, das auf der lync 2010-API basiert, in einem separaten Prozess ausgeführt wird.
+Eine MSPL-Serveranwendung (Microsoft SIP Processing Language) ist eine nur-Skript-Anwendung, die anstelle des Microsoft lync 2010 API eine Skriptsprache verwendet. MSPL ermöglicht eine genauere Steuerung des Filter- und Proxyverhaltens und bietet eine Funktion zum Weiterleiten bestimmter Nachrichten an transaktionsbasierte SIP-Anwendungen. MSPL wird insbesondere zum Filtern und Weiterleiten von SIP-Nachrichten verwendet. MSPL-Anwendungen werden im gleichen Prozess wie das User Services-Modul ausgeführt, während ein auf dem lync 2010 API basierendes Programm in einem separaten Prozess ausgeführt wird.
 
-Sie können die Seite **Serveranwendung** in der Gruppe **Topologie** der lync Server-Systemsteuerung verwenden, um eine Liste der MSPL-Server Anwendungen anzuzeigen, die auf Front-End-Servern in ihrer lync Server 2013-Umgebung ausgeführt werden. In der Liste werden die für die einzelnen Pools verfügbaren Skripts sowie deren Aktivierung oder kritische Anzeige angezeigt. Die Skripts werden in der Reihenfolge ausgeführt, in der Sie aufgelistet sind.
+Sie können die Seite **Serveranwendung** in der **topologiegruppe** lync Server-Systemsteuerung verwenden, um eine Liste der MSPL-Serveranwendungen anzuzeigen, die auf Front-End-Servern in ihrer lync Server 2013 Umgebung ausgeführt werden. Die Liste zeigt die für jeden Pool verfügbaren Skripts und gibt an, ob diese aktiviert oder kritisch sind. Die Skripts werden in der Reihenfolge ihrer Auflistung ausgeführt.
 
-Zu diesen Skripts gehören die folgenden:
+Die folgenden Skripts sind verfügbar:
 
-  - ClientVersionFilter bietet dem Administrator die Möglichkeit, die Version der Clients anzugeben, die von einem Pool unterstützt werden. Der Clientversionsfilter überprüft die Client Version und kann entweder verhindern, dass der Client sich anmeldet oder den Benutzer mit einer Meldung zeigt, die angibt, dass er einen Client verwendet, der nicht unterstützt wird. Der Clientversionsfilter kann auch so konfiguriert werden, dass dem Benutzer eine Meldung angezeigt wird, die die URL der neuesten herunterladbaren Version des Clients enthält.
+  - ClientVersionFilter ermöglicht Administratoren, die von einem Pool unterstützte Version der Clients anzugeben. Mit dem Clientversionsfilter kann die Clientversion überprüft und dann entweder die Anmeldung des Clients verhindert oder dem Benutzer eine Meldung angezeigt werden, dass eine nicht unterstützte Clientversion verwendet wird. Der Clientversionsfilter kann auch so konfiguriert werden, dass dem Benutzer eine Meldung mit der URL der aktuellen herunterladbaren Version des Clients angezeigt wird.
 
-  - TranslationService übersetzt eine Zahl, die ein Benutzer entsprechend den vom Administrator definierten Normalisierungsregeln zu einer E. 164-Nummer wählt. Ausführliche Informationen finden Sie unter [Übersetzungsregeln in lync Server 2013](lync-server-2013-translation-rules.md).
+  - TranslationService wandelt eine von einem Benutzer gewählte Nummer entsprechend den vom Administrator festgelegten Normalisierungsregeln in eine E.164-Nummer um. Ausführliche Informationen finden Sie unter [Übersetzungsregeln in lync Server 2013](lync-server-2013-translation-rules.md).
 
-  - IncomingFederation erzwingt die Föderations Überprüfung auf Mandantenebene für Mandantenübergreifende und eingehende Nachrichten von externen Bereitstellungen.
+  - IncomingFederation erzwingt Verbundvalidierung auf Mandantenebene für Nachrichten zwischen Mandanten und aus externen Bereitstellungen eingehende Nachrichten.
 
-  - UserServices ist die SIP-Registrierungsstelle, Anwesenheits-und Konferenz Komponente eines Front-End-Servers. Es bietet eng integrierte Chat-, Anwesenheits-und Konferenzfeatures, die auf dem SIP-Proxy aufgebaut sind.
+  - Bei UserServices handelt es sich um die SIP-Registrierungs-, Anwesenheits- und Konferenzkomponente eines Front-End-Servers. Dieses Skript stellt integrierte Sofortnachrichten-, Anwesenheits- und Konferenzfunktionen auf Basis des SIP-Proxys bereit.
 
-  - InterClusterRouting ist für das Weiterleiten von Anrufen an den primären Registrierungspool des anrufenden verantwortlich. Ausführliche Informationen finden Sie unter [Front-End-Server-VoIP-Komponenten für lync Server 2013](lync-server-2013-front-end-server-voip-components.md).
+  - InterClusterRouting sorgt für das Routing von Anrufen beim primären Registrierungspool des Anrufempfängers. Ausführliche Informationen finden Sie unter [Front-End-Server VoIP-Komponenten für lync Server 2013](lync-server-2013-front-end-server-voip-components.md).
 
-  - IIMFilter (intelligenter Chat Filter) blockiert Nachrichten, die klickable-URLs enthalten, oder die versuchen, Dateiübertragungen zu initiieren. IIMFilter überprüft auch die Client Version im Namen des Servers. IIMFilter wirkt sich auf Dateiübertragungen aus, die entweder mit lync Server oder Communicator initiiert werden. Standardmäßig sind klickable-Links deaktiviert, indem Sie vor dem ersten Zeichen des Links einen Unterstrich hinzufügen. Ein Administrator kann dieses Verhalten so ändern, dass der Link blockiert wird, wobei Nachrichten, die Klick Bare URLs enthalten oder die versuchen, eine Dateiübertragung zu initiieren, vom Server blockiert werden, um die beabsichtigten Ziele zu erreichen. IIMFilter ist auf allen Servern mit lync Server mit Ausnahme von Proxy Servern und Archivierungsservern installiert.
+  - IIMFilter (Intelligent im Filter) blockiert Nachrichten, die klickable URLs enthalten oder die versuchen, Dateiübertragungen zu initiieren. IIMFilter überprüft auch die Client Version im Namen des Servers. IIMFilter betrifft Dateiübertragungen, die entweder mit lync Server oder Communicator initiiert werden. Standardmäßig sind die Klick fähigen Links deaktiviert, indem Sie vor dem ersten Zeichen des Links ein Unterstrichzeichen hinzufügen. Ein Administrator kann dieses Verhalten so ändern, dass der Link blockiert wird, sodass Nachrichten, die Klick Bare URLs enthalten oder die versuchen, eine Dateiübertragung zu initiieren, vom Server blockiert werden, um die beabsichtigten Ziele zu erreichen. IIMFilter ist auf allen Servern installiert, auf denen lync Server mit Ausnahme von Proxy Servern und Archivierungsservern betrieben wird.
 
-  - UserPinService wird verwendet, um persönliche Identifikationsnummern (Pins) des Benutzers für Einwahlkonferenzen zu überprüfen.
+  - UserPinService wird verwendet, um die persönlichen Identifikationsnummern (PINs) für Einwahlkonferenzen zu überprüfen.
 
-  - DefaultRouting ist die Standardrouting Anwendung für Server, auf denen lync Server ausgeführt wird. Sie ist standardmäßig aktiviert. Die Routing Anwendung ist auf allen Standard Edition-und Enterprise Edition-Servern installiert.
+  - DefaultRouting ist die standardmäßige Routing Anwendung für Server, auf denen lync Server verwendet wird. Diese Anwendung ist standardmäßig aktiviert. Die Routinganwendung wird auf allen Standard Edition- und Enterprise Edition-Servern installiert.
 
-  - ExumRouting leitet Anrufe an Exchange Server Unified Messaging (um) weiter. ExumRouting bestimmt den entsprechenden Exchange um-Server zum Weiterleiten des Anrufs an die Stelle, an der eine neue Voicemail-Nachricht hinterlegt werden soll. ExumRouting behandelt auch einige andere Exchange um-Integrationsaspekte, einschließlich Routing an automatische Telefonzentrale und Teilnehmerzugriff.
+  - Mit ExumRouting werden Anrufe von Exchange Server Unified Messaging (UM) weitergeleitet. ExumRouting ermittelt bei Eingang einer neuen Voicemailnachricht den geeigneten Exchange UM-Server zum Weiterleiten des Anrufs. Mit ExumRouting werden zudem einige weitere Integrationsaspekte von Exchange UM behandelt, u. a. die Weiterleitung an eine automatische Telefonzentrale und der Teilnehmerzugriff.
 
-  - OutboundRouting bestimmt das Gateway, das einen Anruf an eine Telefonnummer weiterleitet, entsprechend der gewählten Nummer und der Wähl Berechtigung des Benutzers. OutboundRouting behandelt auch das Umleiten von anrufen, wenn ein Gateway keinen Anruf verarbeiten kann.
+  - OutboundRouting ermittelt das Gateway, das einen Anruf gemäß der gewählten Nummer und der Wählberechtigungen des Benutzers an eine Telefonnummer weiterleitet. OutboundRouting leitet Anrufe auch um, wenn ein Gateway einen Anruf nicht verarbeiten kann.
 
-  - QoEAgent erhält QoE-Daten Berichte (Quality of Experience) von Endpunkten über SIP-Dienstanforderungen und sendet die Daten mithilfe von HTTP Post an die Zielwarteschlange auf dem Überwachungs Server oder an Drittanbieter. Ausführliche Informationen finden Sie unter [Bereitstellen der Überwachung in lync Server 2013](lync-server-2013-deploying-monitoring.md).
+  - QoEAgent empfängt über SIP SERVICE-Anforderungen QoE-Datenberichte (Quality of Experience) von Endpunkten und sendet die Daten unter Verwendung von HTTP POST an die Zielwarteschlange auf dem Monitoring Server oder an Empfänger eines Drittanbieters. Ausführliche Informationen finden Sie unter [Deploying Monitoring in lync Server 2013](lync-server-2013-deploying-monitoring.md).
 
-  - OutgoingFederation erzwingt die Föderations Überprüfung auf Mandantenebene für Nachrichten, die an eine Ziel externe Bereitstellung gesendet werden.
+  - OutgoingFederation erzwingt Verbundvalidierung auf Mandantenebene für Nachrichten an eine gezielte externe Bereitstellung.
 
-  - AcpRouting-Proxys laden Anforderungen, die für den Audiokonferenz-Anbieter bestimmt sind, an das Audiokonferenz-Anbieter Gateway ein.
+  - AcpRouting leitet die für den Audiokonferenzanbieter bestimmten INVITE-Anforderungen an das Gateway des Audiokonferenzanbieters weiter.
 
-Zu den Skripts, die auf Edgeserver ausgeführt werden, gehören die folgenden:
+Auf Edgeservern werden die folgenden Skripts ausgeführt:
 
   - IIMFilter
 
-  - OptionsHandler reagiert auf eingehende Options Anforderungen mit **200 OK** , wenn die Anforderung für den aktuellen Server bestimmt ist. Diese wird für die Topologie-Validierung verwendet.
+  - OptionsHandler beantwortet eingehende OPTIONS-Anforderungen mit **200 OK**, wenn die Anforderung für den aktuellen Server bestimmt ist. Dies wird für die Topologievalidierung verwendet.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Aktivieren oder Deaktivieren einer Microsoft SIP Processing Language (MSPL)-Serveranwendung in lync Server 2013](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)  
-[Kennzeichnen einer MSPL-Anwendung (Microsoft SIP Processing Language) als kritisch oder nicht kritisch in lync Server 2013](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)  
+[Aktivieren oder Deaktivieren einer MSPL-Serveranwendung (Microsoft SIP Processing Language) in lync Server 2013](lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application.md)  
+[Markieren einer MSPL-Anwendung (Microsoft SIP Processing Language) als kritisch oder nicht kritisch in lync Server 2013](lync-server-2013-mark-a-microsoft-sip-processing-language-mspl-application-as-critical-or-not-critical.md)  
   
 
 </div>

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733762
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91d21526cfcd6d2c78cd67660136e8f7600d1841
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 546e350dc78883ac56623a23f9153d5bdfd4a1d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742775"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045717"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,63 +35,63 @@ ms.locfileid: "41742775"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-19_
+_**Letztes Änderungsstand des Themas:** 2012-09-19_
 
-Verschiedene Konzepte sind für alle Arten von Konferenzen üblich. Diese werden in den folgenden Abschnitten beschrieben.
+Es gibt mehrere Konzepte, die für sämtliche Konferenztypen verwendet werden. Diese werden in den folgenden Abschnitten beschrieben.
 
 <div>
 
 ## <a name="policies-and-bandwidth-management"></a>Richtlinien und Bandbreitenverwaltung
 
-Mit lync Server 2013 können Administratoren Richtlinien für die Besprechungstypen festzulegen, die von Benutzern organisiert werden können. Auf diese Weise können Sie die Richtlinien Ihrer Organisation durchsetzen und die Bandbreitennutzung kontrollieren. Sie können eine Vielzahl von Besprechungsrichtlinien definieren und diese einzelnen Benutzern und Benutzergruppen zuweisen. Ferner können Sie Richtlinien festlegen, die Peer-zu-Peer-Unterhaltungen steuern. Details zum Festlegen von Konferenzrichtlinien finden Sie unter [Konferenzrichtlinien in lync Server 2013](lync-server-2013-conferencing-policies.md) in der Betriebsdokumentation. Details zur Bandbreitenverwaltung finden Sie unter Übersicht über die [Anrufsteuerung in lync Server 2013](lync-server-2013-overview-of-call-admission-control.md) und [Konfigurieren der Videobandbreite in lync Server 2013](lync-server-2013-configuring-video-bandwidth.md).
+Lync Server 2013 ermöglicht es Administratoren, Richtlinien für die Besprechungstypen festzulegen, die Benutzer organisieren können. Auf diese Weise können Sie die in Ihrer Organisation geltenden Richtlinien durchsetzen und die Bandbreitennutzung steuern. Sie können eine Vielzahl von Besprechungsrichtlinien definieren und diese einzelnen Benutzern und Benutzergruppen zuweisen. Ferner können Sie Richtlinien festlegen, die Peer-zu-Peer-Unterhaltungen steuern. Ausführliche Informationen zum Festlegen von Konferenzrichtlinien finden Sie unter [Conferencing Policies in lync Server 2013](lync-server-2013-conferencing-policies.md) in der Betriebsdokumentation. Ausführliche Informationen zur Bandbreitenverwaltung finden Sie unter Übersicht über die [Anrufsteuerung in lync Server 2013](lync-server-2013-overview-of-call-admission-control.md) und [Konfigurieren der Videobandbreite in lync Server 2013](lync-server-2013-configuring-video-bandwidth.md).
 
 </div>
 
 <div>
 
-## <a name="archiving-and-compliance-features"></a>Archivierungs-und Kompatibilitäts Features
+## <a name="archiving-and-compliance-features"></a>Funktionen zur Archivierung und Einhaltung von Bestimmungen
 
-Lync Server 2013 bietet Funktionen, die Sie verwenden können, wenn Ihre Organisation Konformitätsrichtlinien beachten muss. Sie können die Archivierungsfunktionen zum Archivieren von Inhalten verwenden, die in Besprechungen präsentiert werden, und auch den Inhalt von Chat Unterhaltungen und Chat Konferenzen. Ausführliche Informationen finden Sie unter [Planen der Archivierung in lync Server 2013](lync-server-2013-planning-for-archiving.md) in der Planungsdokumentation. Sie können Kompatibilitätsfeatures des beständigen Chat Servers zum Archivieren von mehrteiligen, themenbasierten Konversationen verwenden, die über einen Zeitraum bestehen. Ausführliche Informationen finden Sie unter [Planen des beständigen Chat Servers in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in der Planungsdokumentation.
-
-</div>
-
-<div>
-
-## <a name="monitoring-feature"></a>Überwachungs Feature
-
-Das Feature "Überwachungs Server" kann Anruf Detaildatensätze (CDRs) erfassen, mit denen Sie nachverfolgen können, welche Benutzer mit welchen anderen Benutzern in lync Server 2013 sprechen. Details zum Bereitstellen und Konfigurieren der Überwachung finden Sie unter [Bereitstellen der Überwachung in lync Server 2013](lync-server-2013-deploying-monitoring.md).
+Lync Server 2013 bietet Funktionen, die Sie verwenden können, wenn Ihre Organisation den Compliance-Vorschriften folgen muss. Mithilfe der Archivierungsfunktionen können Sie in Besprechungen präsentierte Inhalte sowie die Inhalte von Sofortnachrichtenunterhaltungen und Sofortnachrichtenkonferenzen archivieren. Ausführliche Informationen finden Sie unter [Planning for Archiving in lync Server 2013](lync-server-2013-planning-for-archiving.md) in der Planungsdokumentation. Mit den Funktionen zur Einhaltung von Bestimmungen des dauerhaften Chatservers können Sie themenbasierte Konversationen mit mehreren Teilnehmern archivieren, die im Verlauf erhalten bleiben. Ausführliche Informationen finden Sie unter [Planning for persistent Chat Server in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in der Planungsdokumentation.
 
 </div>
 
 <div>
 
-## <a name="enabling-external-participation-in-conferences"></a>Aktivieren der externen Teilnahme an Konferenzen
+## <a name="monitoring-feature"></a>Überwachungsfunktion
 
-Sie können die Vorteile Ihrer Investition in lync Server 2013-Konferenzen erheblich steigern, indem Sie es externen Benutzern ermöglichen, bei der Einladung auch an Konferenzen teilzunehmen. Bei externen Benutzern sind unter anderem folgende Kategorien möglich:
-
-  - **Remote Benutzer**   die eigenen Benutzer Ihrer Organisation, wenn Sie außerhalb Ihrer Firewalls arbeiten und ihre Laptops oder andere lync Server 2013-Geräte verwenden.
-
-  - **Benutzer von Verbundbenutzern**   aus Unternehmen, mit denen Sie zusammenarbeiten, die ebenfalls lync Server 2013 ausführen. Damit Ihre Benutzer problemlos Kontakt zu diesen Benutzern aufnehmen können, erstellen Sie Partnerverbundbeziehungen mit diesen Unternehmen.
-
-  - **Anonyme Benutzer**   alle anderen externen Benutzer, die speziell von Ihren Benutzern eingeladen werden, an bestimmten Konferenzen teilzunehmen. Der Organisator einer Besprechung in Ihrem Unternehmen kann eine E-Mail-Einladung für eine Konferenz an einen externen Benutzer senden. Diese E-Mail enthält einen Link, über den der externe Benutzer an der Konferenz teilnehmen kann.
-
-Wenn Sie ein oder alle dieser Szenarien aktivieren möchten, müssen Sie einen Edgeserver bereitstellen, um die sichere Kommunikation zwischen Ihrer lync Server 2013-Bereitstellung und externen Benutzern zu ermöglichen. Die lync Server 2013-Lösung mit Edgeserver bietet Medien mit höherer Qualität als andere Lösungen wie ein virtuelles privates Netzwerk (VPN). Ausführliche Informationen finden Sie unter [Planen des Zugriffs externer Benutzer in lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
-
-Darüber hinaus können Sie, unabhängig davon, ob Sie Edgeserver bereitstellen, Benutzern (also innerhalb oder außerhalb Ihrer Organisation) das Einwählen von standardmäßigen PSTN-Telefonen ermöglichen, um an lokalen Audiokonferenzen teilzunehmen. Dazu wird die Bereitstellung von lync Server 2013-Einwahlkonferenzen durchgeführt.
+Das Monitoring Server-Feature kann Anruf Detaildatensätze (CDRs) erfassen, mit denen Sie nachverfolgen können, welche Benutzer mit welchen anderen Benutzern lync Server 2013 kommunizieren. Ausführliche Informationen zum Bereitstellen und Konfigurieren der Überwachung finden Sie unter [Deploying Monitoring in lync Server 2013](lync-server-2013-deploying-monitoring.md).
 
 </div>
 
 <div>
 
-## <a name="compatibility-among-meeting-types-and-client-versions"></a>Kompatibilität zwischen Besprechungstypen und Client Versionen
+## <a name="enabling-external-participation-in-conferences"></a>Aktivieren der Konferenzteilnahme durch externe Benutzer
 
-Wenn lync Server 2013 mit früheren Versionen von Office Communications Server und seinen Clients zusammenarbeiten soll, müssen Sie sich mit den folgenden Problemen vertraut machen:
+Sie können den Nutzen Ihrer Investition in lync Server 2013 Konferenzen erheblich verbessern, indem Sie externen Benutzern die Möglichkeit bieten, auch an Konferenzen teilzunehmen, wenn Sie eingeladen werden. Externe Benutzer können Folgendes umfassen:
 
-  - Benutzer, die lync Server 2013 verwenden, können keine Live Meeting-Konferenzen planen oder migrierte Besprechungen dieses Typs ändern.
+  - **Remote Benutzer**   die eigenen Benutzer Ihrer Organisation, wenn Sie außerhalb Ihrer Firewalls arbeiten und ihre Laptops oder andere lync Server 2013 Geräte verwenden.
 
-  - Benutzer, die lync Server 2013, die an Live Meeting-Konferenzen auf Servern mit Office Communications Server 2007 R2 teilnehmen müssen, müssen auf Ihrem Computer (zusätzlich zu lync Server 2013) den Live Meeting-Client installiert haben, um an diesen Besprechungen teilnehmen zu können.
+  - **Benutzer von Verbundbenutzern**   aus Unternehmen, mit denen Sie zusammenarbeiten und die auch lync Server 2013 ausführen. Damit Ihre Benutzer diese Benutzer problemlos kontaktieren können, erstellen Sie Partnerverbundbeziehungen mit diesen Unternehmen.
 
-  - Wenn Live Meeting-Konferenzen zu lync Server 2013 migriert werden, werden Besprechungsinhalte nicht migriert. Wenn dieser Inhalt benötigt wird, muss er erneut hochgeladen werden.
+  - **Anonyme Benutzer**   andere externe Benutzer, die speziell von Ihren Benutzern eingeladen werden, um an bestimmten Konferenzen teilzunehmen. Der Organisator einer Besprechung in Ihrem Unternehmen kann eine E-Mail-Einladung für eine Konferenz an einen externen Benutzer senden. Diese E-Mail enthält einen Link, über den der externe Benutzer an der Konferenz teilnehmen kann.
+
+Zum Aktivieren eines oder aller dieser Szenarien müssen Sie eine Edgeserver bereitstellen, die die sichere Kommunikation zwischen Ihrer lync Server 2013-Bereitstellung und externen Benutzern unterstützt. Die lync Server 2013 Lösung, die Edgeserver verwendet, bietet Medien höherer Qualität als andere Lösungen wie ein VPN (virtuelles privates Netzwerk). Ausführliche Informationen finden Sie unter [Planning for external User Access in lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
+
+Unabhängig davon, ob Sie Edgeserver bereitstellen oder nicht, können Sie für Benutzer (innerhalb oder außerhalb Ihrer Organisationen) zudem die Einwahl über standardmäßige Festnetztelefone zulassen, um an lokalen Audiokonferenzen teilzunehmen. Dies wird durch die Bereitstellung lync Server 2013 Einwahlkonferenzen erreicht.
+
+</div>
+
+<div>
+
+## <a name="compatibility-among-meeting-types-and-client-versions"></a>Kompatibilität zwischen Besprechungstypen und Clientversionen
+
+Wenn Sie lync Server 2013 mit früheren Versionen von Office Communications Server und seinen Clients zusammenarbeiten möchten, müssen Sie sich der folgenden Probleme bewusst sein:
+
+  - Benutzer, die lync Server 2013 verwenden, können Live Meeting Konferenzen nicht planen oder keine migrierten Besprechungen dieses Typs ändern.
+
+  - Benutzer von lync Server 2013, die Live Meeting Konferenzen, die auf Servern mit Office Communications Server 2007 R2 gehostet werden, teilnehmen müssen, müssen über den Live Meeting-Client auf dem Computer installiert sein (zusätzlich zu den lync Server 2013), um an diesen Besprechungen teilnehmen zu können.
+
+  - Wenn Live Meeting Konferenzen zu lync Server 2013 migriert werden, werden Besprechungsinhalte nicht migriert. Wenn diese Inhalte benötigt werden, müssen sie erneut hochgeladen werden.
 
 </div>
 

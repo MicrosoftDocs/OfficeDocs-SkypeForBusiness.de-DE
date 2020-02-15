@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Get-CsAddressBookConfiguration für die Verwaltung von Adressbüchern'
+title: 'Lync Server 2013: Get-CsAddressBookConfiguration für die Adressbuchverwaltung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185264
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30a9f29ee4842b11c503e913d1e80e97e2dab274
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1d0129f32081b28e3baf11df2d5521778f5841e1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756939"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037977"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>Get-CsAddressBookConfiguration für die Verwaltung von Adressbüchern in lync Server 2013
+# <a name="get-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a>Get-CsAddressBookConfiguration für die Adressbuchverwaltung in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41756939"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Wer dieses Cmdlet ausführen kann: Standardmäßig sind Mitglieder der folgenden Gruppen autorisiert, das Cmdlet "Get-CsAddressBookConfiguration" lokal auszuführen: RTCUniversalServerAdmins. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller rollenbasierten zugriffssteuerungsrollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben):
+Dieses Cmdlet kann von folgenden Benutzern ausgeführt werden: Standardmäßig dürfen Mitglieder der folgenden Gruppen das Cmdlet "Get-CsAddressBookConfiguration" lokal ausführen: RTCUniversalServerAdmins. Geben Sie den folgenden Befehl an der Windows PowerShell-Eingabeaufforderung ein, um eine Liste aller rollenbasierten Zugriffssteuerungsrollen zurückzugeben, die diesem Cmdlet zugewiesen wurden (einschließlich der benutzerdefinierten rollenbasierten Zugriffssteuerungsrollen, die Sie selbst erstellt haben):
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsAddressBookConfiguration"}
 
-Das Cmdlet "Get-CsAddressBookConfiguration" gibt Informationen zu einer bereits vorhandenen Konfiguration zurück.
+Mit dem Cmdlet "Get-CsAddressBookConfiguration" werden Informationen zu einer Konfiguration zurückgegeben, die bereits vorhanden ist.
 
 Beispiel:
 
     Get-CsAddressBookConfiguration -Identity site:Redmond
 
-Durch die Kombination der Funktionen von Get-CsAddressBookConfiguration und CsAddressBookConfiguration kann der Administrator definieren, welche Konfigurationen geändert werden sollen, und dann die Änderungen übernehmen. Dies kombinierte beispielsweise:
+Durch den kombinierten Einsatz der Cmdlets "Get-CsAddressBookConfiguration" und "Set-CsAddressBookConfiguration" kann der Administrator zunächst definieren, welche Konfigurationen geändert werden sollen, und die Änderungen anschließend anwenden. Beispiel für die kombinierte Verwendung:
 
     Get-CsAddressBookConfiguration -Filter site:* | Set-CsAddressBookConfiguration -RunTimeOfDay 23:00
 
-Gibt alle Konfigurationen auf allen Websites zurück und wendet die RunTimeOfDay von 23:00 Stunden auf die Konfigurationen an.
+In diesem Beispiel werden alle Konfigurationen an sämtlichen Standorten zurückgegeben, und der Parameter "RunTimeOfDay" wird für alle Konfigurationen auf "23:00" festgelegt.
 
 <div>
 

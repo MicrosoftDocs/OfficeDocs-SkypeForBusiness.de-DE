@@ -12,20 +12,20 @@ ms:contentKeyID: 48184155
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27e99c56ae8c7699b3e19f18ef057b194539b75e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c0726a1c7893a2411ed1fc1ad8981349b8cc9add
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755779"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051337"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="operations-in-lync-server-2013"></a>Vorgänge in Lync Server 2013
+# <a name="operations-in-lync-server-2013"></a>Vorgänge in lync Server 2013
 
 </div>
 
@@ -35,59 +35,59 @@ ms.locfileid: "41755779"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-01-26_
+_**Letztes Änderungsstand des Themas:** 2015-01-26_
 
-In den Themen in diesem Abschnitt wird erläutert, wie Sie Ihre lync Server 2013-Bereitstellung mithilfe von Verwaltungstools konfigurieren und verwalten.
+In den Themen in diesem Abschnitt wird die Verwendung von Verwaltungstools zum Konfigurieren und Verwalten Ihrer lync Server 2013-Bereitstellung erläutert.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Operations Guide for Lync Server 2013](lync-server-2013-operations-guide.md)
+  - [Betriebsanleitung für lync Server 2013](lync-server-2013-operations-guide.md)
 
-  - [Lync Server 2013-Verwaltungstools](lync-server-2013-lync-server-administrative-tools.md)
+  - [Lync Server 2013 Verwaltungstools](lync-server-2013-lync-server-administrative-tools.md)
 
-  - [Verwalten von Benutzern in Lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)
+  - [Verwalten von Benutzern in lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)
 
-  - [Verwalten der Lync Server 2013-Topologie](lync-server-2013-managing-the-lync-server-topology.md)
+  - [Verwalten der lync Server 2013 Topologie](lync-server-2013-managing-the-lync-server-topology.md)
 
-  - [Delegieren der administrativen Steuerung von Lync Server 2013](lync-server-2013-delegating-administrative-control-of-lync-server.md)
+  - [Delegieren der administrativen Steuerung von lync Server 2013](lync-server-2013-delegating-administrative-control-of-lync-server.md)
 
-  - [Verwalten von Einstellungen für Chat und Anwesenheit in Lync Server 2013](lync-server-2013-managing-im-and-presence-settings.md)
+  - [Verwalten von Chat-und Anwesenheitseinstellungen in lync Server 2013](lync-server-2013-managing-im-and-presence-settings.md)
 
   - [Verwalten von Lync Server 2013 Persistent Chat Server](managing-lync-server-2013-persistent-chat-server.md)
 
-  - [Verwalten des VoIP-Routings in Lync Server 2013](lync-server-2013-managing-voice-routing.md)
+  - [Verwalten des VoIP-Routings in lync Server 2013](lync-server-2013-managing-voice-routing.md)
 
-  - [Verwalten von Funktionen für die Anrufverwaltung in Lync Server 2013](lync-server-2013-managing-call-management-features.md)
+  - [Verwalten von anrufverwaltungsfunktionen in lync Server 2013](lync-server-2013-managing-call-management-features.md)
 
-  - [Verwalten von Besprechungen und Konferenzen in Lync Server 2013](lync-server-2013-managing-meetings-and-conferences.md)
+  - [Verwalten von Besprechungen und Konferenzen in lync Server 2013](lync-server-2013-managing-meetings-and-conferences.md)
 
-  - [Verwalten von Geräten, Telefonen und Clientanwendungen in Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)
+  - [Verwalten von Geräten, Telefonen und Clientanwendungen in lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)
 
-  - [Verwalten von Partnerverbünden und externem Zugriff auf Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)
+  - [Verwalten des Verbunds und des externen Zugriffs auf lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)
 
   - [Verwalten der Lync Server 2013-Archivierung](lync-server-2013-managing-archiving.md)
 
-  - [Verwalten der lync Server 2013-Authentifizierung](lync-server-2013-managing-lync-server-authentication.md)
+  - [Verwalten der lync Server 2013 Authentifizierung](lync-server-2013-managing-lync-server-authentication.md)
 
-  - [Verwalten der Lync Server 2013-Netzwerkinfrastruktur](lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md)
+  - [Verwalten der lync Server 2013 Netzwerkinfrastruktur](lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md)
 
-  - [Verwalten von 9-1-1 (erweitert) und des Ortungsdiensts in Lync Server 2013](lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md)
+  - [Verwalten von Enhanced 9-1-1 und des Standort Diensts in lync Server 2013](lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md)
 
-  - [Verwalten von lync Server 2013-Diensten und-Serverrollen](lync-server-2013-managing-lync-server-services-and-server-roles.md)
+  - [Verwalten von lync Server 2013 Diensten und Server Rollen](lync-server-2013-managing-lync-server-services-and-server-roles.md)
 
-  - [Verwalten von Anwendungen in Lync Server 2013](lync-server-2013-managing-applications.md)
+  - [Verwalten von Anwendungen in lync Server 2013](lync-server-2013-managing-applications.md)
 
-  - [Verwalten der Notfallwiederherstellung, der hohen Verfügbarkeit und des Sicherungsdiensts in Lync Server 2013](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)
+  - [Verwalten von lync Server 2013 Notfallwiederherstellung, hoher Verfügbarkeit und Sicherungsdienst](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)
 
-  - [Sichern und Wiederherstellen von lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)
+  - [Sichern und Wiederherstellen lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)
 
   - [Überwachung und Integritäts Konfiguration in lync Server 2013](lync-server-2013-monitoring-and-health-configuration.md)
 
-  - [Verwaltungsshell für Lync Server 2013](lync-server-2013-lync-server-management-shell.md)
+  - [Lync Server 2013 Management-Shell](lync-server-2013-lync-server-management-shell.md)
 
-  - [Lync Server 2013 Best Practices Analyzer](lync-server-2013-lync-server-best-practices-analyzer.md)
+  - [Lync Server 2013 Best Practices Analyzer](lync-server-2013-lync-server-best-practices-analyzer.md)
 
 </div>
 

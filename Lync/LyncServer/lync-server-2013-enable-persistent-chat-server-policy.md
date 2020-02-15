@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Aktivieren der Richtlinie für den Server für beständigen Chat'
+title: 'Lync Server 2013: Server Richtlinie für beständigen Chat aktivieren'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184718
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27d87277c813c24ae36de14430bc711d991d7181
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f1f98275ee911d1abecbc60907653ad8de0a4222
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735985"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046698"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-persistent-chat-server-policy-in-lync-server-2013"></a>Aktivieren der Richtlinie für den Server für beständigen Chat in Lync Server 2013
+# <a name="enable-persistent-chat-server-policy-in-lync-server-2013"></a>Aktivieren der Server Richtlinie für beständigen Chat in lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41735985"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-06_
+_**Letztes Änderungsstand des Themas:** 2012-10-06_
 
-In der lync Server 2013-Systemsteuerung können Sie die Seite " **beständiger Chat** " der Gruppe " **beständiger Chat** " verwenden, um Richtlinien auf globaler, Pool-, Website-oder Benutzerebene zu verwalten, einschließlich der Konfiguration der globalen Standardrichtlinie und dem Erstellen einer oder mehrerer zusätzlicher Benutzer-und Website Richtlinien für Ihre Bereitstellung. Wenn ein Benutzer nach Richtlinie für beständigen Chat Server aktiviert ist, wird die Server Umgebung für beständigen Chat in seinem lync 2013-Client angezeigt.
+In der lync Server 2013-Systemsteuerung können Sie die Seite **Richtlinie** für beständigen Chat der Gruppe **beständiger Chat** verwenden, um Richtlinien auf globaler Ebene, auf Pool-, Standort-oder Benutzerebene zu verwalten, einschließlich der Konfiguration der globalen Standardrichtlinie und dem Erstellen einer oder mehrerer zusätzlicher Benutzer-und Standortrichtlinien für Ihre Bereitstellung. Wenn ein Benutzer für den Server für beständigen Chat nach Richtlinien aktiviert ist, wird die Server Umgebung für beständigen Chat in Ihrem lync 2013-Client angezeigt.
 
 <div>
 
 
 > [!NOTE]  
-> In der Topologie gelten Website Richtlinien für beständigen Chat Server global, pro Benutzerpool oder pro Benutzer Website oder pro Benutzer.
+> In der Topologie gelten die Standortrichtlinien für beständigen Chat Server global, pro Pool des Benutzers oder pro Standort des Benutzers oder pro Benutzer.
 
 
 
 </div>
 
-Die globale Richtlinie wird automatisch erstellt, wenn Sie den beständigen Chat Server bereitstellen, und Sie kann konfiguriert, aber nicht gelöscht werden. Da die globale Richtlinie auf alle Benutzern angewendet wird, muss sie nicht für jeden Benutzer einzeln festgelegt werden.
+Die globale Richtlinie wird automatisch erstellt, wenn Sie den Server für beständigen Chat bereitstellen, und Sie kann konfiguriert, jedoch nicht gelöscht werden. Da die globale Richtlinie für alle Benutzer gilt, muss sie nicht pro Benutzer festgelegt werden.
 
-Sie können mehrere Website-und Benutzerrichtlinien erstellen und konfigurieren, die zusammen mit der globalen Richtlinie Benutzern für beständigen Chat Server ermöglichen. Pool-und Website-Server Richtlinien für persistente Chats setzen die globale Richtlinie für beständigen Chats außer Kraft, allerdings nur für Benutzer dieser Website. Benutzerrichtlinien setzen sowohl die globale als auch die Pool- und Standortrichtlinien für diejenigen Benutzer außer Kraft, denen die Benutzerrichtlinie zugewiesen wird.
+Sie können mehrere Standort-und Benutzerrichtlinien erstellen und konfigurieren, die zusammen mit der globalen Richtlinie Benutzer für den Server für beständigen Chat aktivieren. Server Richtlinien für Pool-und Website-beständigen Chat setzen die globale Richtlinie für beständigen Chat außer Kraft, jedoch nur für Benutzer dieser Website. Benutzerrichtlinien setzen globale Richtlinien, Poolrichtlinien und Standortrichtlinien für diejenigen Benutzer außer Kraft, denen die Benutzerrichtlinie zugewiesen wird.
 
 <div>
 
 
 > [!NOTE]  
-> Um den Server für beständigen Chat zu konfigurieren und zu verwenden, müssen Sie zuerst den Topologie-Generator verwenden, um der Topologie Unterstützung für beständigen Chat Server hinzuzufügen und dann die Topologie zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Hinzufügen von beständigem Chat Server zu Ihrer Bereitstellung in lync Server 2013</A> in der Bereitstellungsdokumentation.
+> Um den Server für beständigen Chat zu konfigurieren und zu verwenden, müssen Sie zuerst den Topologie-Generator verwenden, um die Unterstützung für beständigen Chat Server zur Topologie hinzuzufügen und die Topologie dann zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Hinzufügen von beständigen Chat Servern zur Bereitstellung in lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 
 
@@ -67,13 +67,13 @@ Sie können mehrere Website-und Benutzerrichtlinien erstellen und konfigurieren,
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Konfigurieren der globalen Richtlinie für beständigen Chat in Lync Server 2013](lync-server-2013-configure-the-global-policy-for-persistent-chat.md)
+  - [Konfigurieren der globalen Richtlinie für den beständigen Chat in lync Server 2013](lync-server-2013-configure-the-global-policy-for-persistent-chat.md)
 
-  - [Erstellen einer Standortrichtlinie für beständigen Chat in Lync Server 2013](lync-server-2013-create-a-site-policy-for-persistent-chat.md)
+  - [Erstellen einer Standortrichtlinie für den beständigen Chat in lync Server 2013](lync-server-2013-create-a-site-policy-for-persistent-chat.md)
 
-  - [Erstellen einer Benutzerrichtlinie für beständigen Chat in Lync Server 2013](lync-server-2013-create-a-user-policy-for-persistent-chat.md)
+  - [Erstellen einer Benutzerrichtlinie für den beständigen Chat in lync Server 2013](lync-server-2013-create-a-user-policy-for-persistent-chat.md)
 
-  - [Anwenden einer Richtlinie für beständigen Chat auf einen Benutzer oder eine Benutzergruppe in Lync Server 2013](lync-server-2013-apply-a-persistent-chat-policy-to-a-user-or-user-group.md)
+  - [Anwenden einer Richtlinie für beständigen Chat auf einen Benutzer oder eine Benutzergruppe in lync Server 2013](lync-server-2013-apply-a-persistent-chat-policy-to-a-user-or-user-group.md)
 
 </div>
 

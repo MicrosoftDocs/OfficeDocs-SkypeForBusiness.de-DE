@@ -12,20 +12,20 @@ ms:contentKeyID: 48705998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64273ab712fdc62b70233a16131b29668c006974
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aa9d657e10678b4f0b7969a2e3d2805d38833b2c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740605"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044957"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-the-persistent-chat-database-and-compliance-database-in-lync-server-2013"></a>Sichern der Datenbank für beständigen Chat und der Kompatibilitätsdatenbank in Lync Server 2013
+# <a name="backing-up-the-persistent-chat-database-and-compliance-database-in-lync-server-2013"></a>Sichern der Datenbank für beständigen Chat und der Kompatibilitätsdatenbank in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41740605"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-08-01_
+_**Letztes Änderungsstand des Themas:** 2012-08-01_
 
-Sie sollten regelmäßig die Datenbank für beständigen Chat und die Kompatibilitätsdatenbank sichern. Wenden Sie sich an den Datenbankadministrator, um die beste Vorgehensweise in Ihrer Umgebung zu ermitteln.
+Sie sollten regelmäßig die Datenbank für beständigen Chat und die Kompatibilitätsdatenbank sichern. Besprechen Sie mit dem Datenbankadministrator, wie Sie dies in Ihrer Umgebung am besten umsetzen können.
 
 </div>
 

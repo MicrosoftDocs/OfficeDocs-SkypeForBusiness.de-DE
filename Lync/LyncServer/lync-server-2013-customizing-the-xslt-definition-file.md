@@ -12,20 +12,20 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf2ab41ed1d9a57f3a3ad5e55e78f46055fc8e87
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7652e2bd31f27c711724e67f67aac29d33038606
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728705"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041074"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Anpassen der XSLT-Definitionsdatei in Lync Server 2013
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Anpassen der XSLT-Definitionsdatei in lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41728705"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-09-11_
+_**Letztes Änderungsstand des Themas:** 2014-09-11_
 
-Der Kompatibilitätsdienst zeichnet Daten auf, die sich auf die einzelnen lync Server 2013-, persistent Chat Server-Unterhaltungen beziehen, einschließlich, wenn ein Teilnehmer:
+Der Kompatibilitätsdienst erfasst und archiviert Daten im Zusammenhang mit den einzelnen lync Server 2013-und Server Unterhaltungen für beständigen Chat, einschließlich wenn ein Teilnehmer:
 
   - Beitritt zu einem beständigen Chatroom
 
-  - Einen Chatroom verlässt
+  - Leaves a Chat Room
 
-  - Eine Nachricht veröffentlicht
+  - Sendet eine Nachricht
 
-  - Den Chatverlauf anzeigt
+  - Chatverlauf für Ansichten
 
-  - Eine Datei hochlädt
+  - Lädt eine Datei hoch
 
-  - Eine Datei herunterlädt
+  - Herunterladen einer Datei
 
-Die Daten werden als XML bereitgestellt, die Sie mithilfe einer XSLT-Definitionsdatei in das Format umwandeln können, das für Ihre Organisation am besten geeignet ist. In diesem Thema wird die vom Konformitätsdienst erstellte XML-Datei beschrieben. Zudem werden Beispiele für XSLT-Definitions- und Ausgabedateien bereitgestellt.
+Die Daten werden als XML ausgegeben; Sie können sie mithilfe einer XSLT-Definitionsdatei in das von Ihrer Organisation bevorzugte Format umwandeln. In diesem Thema ist die vom Kompatibilitätsdienst erstellte XML-Datei beschrieben. Zudem werden Beispiele von XSLT-Definition und Ausgabedateien bereitgestellt.
 
 <div>
 
-## <a name="output-format"></a>Ausgabe Format
+## <a name="output-format"></a>Ausgabeformat
 
-Die Ausgabe des Kompatibilitätsdiensts wird nach Unterhaltung (dem Conversation-Element) und dann nach Nachricht (dem Messages-Element) kategorisiert, wie im folgenden Codebeispiel gezeigt.
+Wie im folgenden Codebeispiel dargestellt ist die Ausgabe des Kompatibilitätsdienstes nach Unterhaltungen (dem Unterhaltungselement) und Nachrichten (dem Nachrichtenelement) kategorisiert.
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -72,21 +72,21 @@ Die Ausgabe des Kompatibilitätsdiensts wird nach Unterhaltung (dem Conversation
       </Conversation>
     </Conversations>
 
-Ein Unterhaltungselement enthält vier Elemente („Channel“, „FirstMessage“, „StartTimeUTC“ und „EndTimeUTC“). Das Element „Channel“ enthält den Uniform Resource Identifier (URI) des Chatrooms und das Element „FirstMessage“ beschreibt das erste Element im Nachrichtenelement. Die StartTimeUTC-und EndTimeUTC-Elemente stellen die Start-und Endzeit für die Konversation bereit, wie im folgenden Codebeispiel gezeigt.
+Ein Unterhaltungselement enthält vier Elemente ("Channel", "FirstMessage", "StartTimeUTC" und "EndTimeUTC"). Das Element "Channel" enthält den Uniform Resource Identifier (URI) des Chatrooms, und das Element "FirstMessage" beschreibt das erste Element im Nachrichtenelement. Die Elemente "StartTimeUTC" und "EndTimeUTC" enthalten Informationen zu den Start- und Endzeiten der Unterhaltung, wie im folgenden Codebeispiel dargestellt.
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-Ein Nachrichtenelement enthält zwei Elemente („Sender“ und „DateTimeUTC“) und drei Attribute („Type“, „Content“ und „ID“). Das Sender-Element stellt den Benutzer dar, der die Nachricht sendet, und das DateTimeUTC-Element stellt dar, wenn ein Ereignis eintritt, wie im folgenden Codebeispiel gezeigt.
+Ein Nachrichtenelement enthält zwei Elemente ("Sender" und "DateTimeUTC") und drei Attribute ("Type", "Content" und "ID"). Das Element "Sender" steht für den Benutzer, der die Nachricht sendet, und das Element "DateTimeUTC" gibt an, wann ein Ereignis auftritt, wie im folgenden Codebeispiel dargestellt.
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
       <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
     </Message>
 
-In der folgenden Tabelle werden die Nachrichtenattribute „Type“, „Content“ und „ID“ beschrieben.
+In der folgenden Tabelle werden die Nachrichtenattribute Type, Content und ID beschrieben.
 
 ### <a name="messages-element-attributes"></a>Nachrichtenelementattribute
 
@@ -106,26 +106,26 @@ In der folgenden Tabelle werden die Nachrichtenattribute „Type“, „Content�
 <tbody>
 <tr class="odd">
 <td><p>Typ</p></td>
-<td><p>Gibt den Nachrichtentyp an. Die Nachrichtentypen werden in der Tabelle „Nachrichtenelemente – Nachrichtentypen“ beschrieben.</p></td>
+<td><p>Gibt den Nachrichtentyp an. Die Nachrichtentypen sind in der Tabelle "Nachrichtenelemente – Nachrichtentypen" beschrieben.</p></td>
 <td><p>Erforderlich</p></td>
 </tr>
 <tr class="even">
-<td><p>Content</p></td>
-<td><p>Enthält den Inhalt der Nachricht. Nachrichten vom Typ „Join“ oder „Part“ verwenden dieses Attribut nicht.</p></td>
+<td><p>Inhalt</p></td>
+<td><p>Enthält den Inhalt der Nachricht. Nachrichten vom Typ "Join" oder "Part" verwenden dieses Attribut nicht.</p></td>
 <td><p>Optional</p></td>
 </tr>
 <tr class="odd">
 <td><p>ID</p></td>
-<td><p>Gibt die eindeutige ID des Inhalts an. Dieses Attribut wird nur mit Nachrichten vom Typ „Chat“ verwendet.</p></td>
+<td><p>Gibt die eindeutige ID des Inhalts an. Dieses Attribut wird nur mit Nachrichten vom Typ "Chat" verwendet.</p></td>
 <td><p>Optional</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Jedes „Sender“-Element enthält fünf Attribute: „user name“, „ID“, „email“, „internal“ und „URI“. Diese Attribute sind in der folgenden Tabelle beschrieben.
+Jedes "Sender"-Element enthält fünf Attribute: "user name", "ID", "email", "internal" und "URI". Diese Attribute sind in der folgenden Tabelle beschrieben.
 
-### <a name="sender-element-attributes"></a>„Sender“-Elementattribute
+### <a name="sender-element-attributes"></a>"Sender"-Elementattribute
 
 <table>
 <colgroup>
@@ -158,7 +158,7 @@ Jedes „Sender“-Element enthält fünf Attribute: „user name“, „ID“,
 </tr>
 <tr class="even">
 <td><p>Intern</p></td>
-<td><p>Gibt an, ob es sich um einen internen Benutzer oder einen Verbundbenutzer handelt. Bei Festlegung des Werts auf „true“ (wahr) ist der Benutzer intern.</p></td>
+<td><p>Gibt an, ob es sich um einen internen Benutzer oder einen Verbundbenutzer handelt. Bei Festlegung des Werts auf "true"  (wahr) ist der Benutzer intern.</p></td>
 <td><p>Optional</p></td>
 </tr>
 <tr class="odd">
@@ -170,7 +170,7 @@ Jedes „Sender“-Element enthält fünf Attribute: „user name“, „ID“,
 </table>
 
 
-In der folgenden Tabelle werden die Nachrichtentypen beschrieben, die das Nachrichtenelement enthalten kann. Sie enthält auch Beispiele für die Verwendung der einzelnen Elemente.
+In der folgenden Tabelle sind die Nachrichtentypen beschrieben, die das Nachrichtenelement enthalten kann. Sie enthält auch Beispiele für die Verwendung der einzelnen Elemente.
 
 ### <a name="message-element-message-types"></a>Nachrichtenelemente – Nachrichtentypen
 
@@ -189,7 +189,7 @@ In der folgenden Tabelle werden die Nachrichtentypen beschrieben, die das Nachri
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Join</p></td>
+<td><p>Beitreten</p></td>
 <td><p>Ein Benutzer betritt einen Chatroom.</p></td>
 <td><pre><code>&lt;Message type=&quot;JOIN&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -197,7 +197,7 @@ In der folgenden Tabelle werden die Nachrichtentypen beschrieben, die das Nachri
 &lt;/Message</code></pre></td>
 </tr>
 <tr class="even">
-<td><p>Part</p></td>
+<td><p>Teil</p></td>
 <td><p>Ein Benutzer verlässt einen Chatroom.</p></td>
 <td><pre><code>&lt;Message type=&quot;PART&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt; Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -242,9 +242,9 @@ In der folgenden Tabelle werden die Nachrichtentypen beschrieben, die das Nachri
 
 <div>
 
-## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>Standardmäßige, persistente Chat Ausgabe-XSD und Beispiel-XSL-Transformation
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>Standardmäßige Ausgabe von persistent Chat-XSD und XSL-Beispiel Transformation
 
-Das folgende Codebeispiel enthält die Standardausgabe des Kompatibilitätsservers.
+Das folgende Codebeispiel enthält die standardmäßige Ausgabe des Servers für die Einhaltung von Bestimmungen.
 
     <?xml version="1.0" encoding="utf-8"?>
     <xs:schema id="Conversations"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -341,7 +341,7 @@ Das folgende Codebeispiel enthält die Standardausgabe des Kompatibilitätsserve
       </xs:element>
     </xs:schema>
 
-Das folgende Codebeispiel enthält eine Beispiel-XSL-Transformation.
+Das folgende Codebeispiel enthält ein Beispiel einer XSL-Transformation.
 
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
        <xsl:output method="xml" encoding="UTF-8" indent="yes" />

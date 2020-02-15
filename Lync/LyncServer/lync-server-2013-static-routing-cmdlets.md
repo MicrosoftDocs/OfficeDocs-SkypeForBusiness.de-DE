@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: statische Routing-Cmdlets'
+title: 'Lync Server 2013: Cmdlets für statisches Routing'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5a5c5dcefa5c4650c6bbfabf940840f22fc5df2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d9e5b67153d353c0b08ba33853c76d16cd8ba3f8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731795"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038747"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="static-routing-cmdlets-in-lync-server-2013"></a>Statische Routing-Cmdlets in lync Server 2013
+# <a name="static-routing-cmdlets-in-lync-server-2013"></a>Cmdlets für statisches Routing in lync Server 2013
 
 </div>
 
@@ -35,88 +35,88 @@ ms.locfileid: "41731795"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-20_
+_**Letztes Änderungsstand des Themas:** 2012-06-20_
 
-Bei statischen Routen können Administratoren die von SIP-Nachrichten getroffenen Netzwerkrouten vorbestimmen. Wenn eine Nachricht von einem Server empfangen wird, überprüft der Server die Nachrichtenadresse und leitet die Nachricht dann an den von einem Administrator vorkonfigurierten Next Hop-Server weiter. Wenn Sie ordnungsgemäß konfiguriert sind, können mithilfe statischer Routen rechtzeitig und genau die Zustellung von Nachrichten gewährleistet werden, und es werden nur minimale belauschte auf Servern bereitgestellt.
+Mithilfe von statischen Routen können Administratoren festlegen, über welche Netzwerkrouten SIP-Nachrichten geleitet werden. Wenn der Server eine Nachricht empfängt, überprüft er die Nachrichtenadresse und leitet die Nachricht dann an den als nächsten Hop von einem Administrator festgelegten Server weiter. Die ordnungsgemäße Konfiguration der statischen Routen stellt eine zeitgerechte und akkurate Zustellung der Nachrichten sicher, und dies bei minimalem Serveroverhead.
 
 <div>
 
-## <a name="static-routing-cmdlets"></a>Statische Routing-Cmdlets
+## <a name="static-routing-cmdlets"></a>Cmdlets für das statische Routing
 
-Sofern nicht anderweitig vom Microsoft-Supportpersonal angewiesen, sollten statische Routen, die für Microsoft lync Server 2013 konfiguriert sind, mithilfe des Cmdlets [New-CsStaticRoute](https://technet.microsoft.com/en-us/library/Gg398265(v=OCS.15)) erstellt werden. Nachdem eine Route erstellt wurde, können Sie diese Route mithilfe der CsStaticRoutingConfiguration-Cmdlets zu einer statischen Routing Sammlung hinzufügen.
+Sofern vom Microsoft-Supportpersonal nicht anderweitig unterrichtet, sollten statische Routen, die für Microsoft lync Server 2013 konfiguriert sind, mit dem Cmdlet [New-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15)) erstellt werden. Nach dem Erstellen einer Route können Sie die Cmdlets vom Typ "CsStaticRoutingConfiguration" dazu verwenden, diese Route zu einer Auflistung von statischen Routen hinzuzufügen.
 
 **Statisches Routing**
 
   - <span></span>  
-    [Get-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg398130(v=OCS.15))
+    [Get-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg398130(v=OCS.15))
 
   - <span></span>  
-    [New-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg413041(v=OCS.15))
+    [New-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg413041(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg412932(v=OCS.15))
+    [Remove-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg412932(v=OCS.15))
 
   - <span></span>  
-    [Set-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/en-us/library/Gg425895(v=OCS.15))
+    [Gruppe-CsSipResponseCodeTranslationRule](https://technet.microsoft.com/library/Gg425895(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsStaticRoute](https://technet.microsoft.com/en-us/library/Gg398265(v=OCS.15))
+    [New-CsStaticRoute](https://technet.microsoft.com/library/Gg398265(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398754(v=OCS.15))
+    [Get-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398754(v=OCS.15))
 
   - <span></span>  
-    [Neu – CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425811(v=OCS.15))
+    [New-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg425811(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398668(v=OCS.15))
+    [Remove-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398668(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsStaticRoutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398724(v=OCS.15))
+    [Gruppe-CsStaticRoutingConfiguration](https://technet.microsoft.com/library/Gg398724(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsSipProxyCustom](https://technet.microsoft.com/en-us/library/Gg425904(v=OCS.15))
+    [New-CsSipProxyCustom](https://technet.microsoft.com/library/Gg425904(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsSipProxyRealm](https://technet.microsoft.com/en-us/library/Gg413084(v=OCS.15))
+    [New-CsSipProxyRealm](https://technet.microsoft.com/library/Gg413084(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsSipProxyTCP](https://technet.microsoft.com/en-us/library/Gg425745(v=OCS.15))
+    [New-CsSipProxyTCP](https://technet.microsoft.com/library/Gg425745(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsSipProxyTLS](https://technet.microsoft.com/en-us/library/Gg398629(v=OCS.15))
+    [New-CsSipProxyTLS](https://technet.microsoft.com/library/Gg398629(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsSipProxyTransport](https://technet.microsoft.com/en-us/library/Gg398489(v=OCS.15))
+    [New-CsSipProxyTransport](https://technet.microsoft.com/library/Gg398489(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsSipProxyUseDefault](https://technet.microsoft.com/en-us/library/Gg398274(v=OCS.15))
+    [New-CsSipProxyUseDefault](https://technet.microsoft.com/library/Gg398274(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsSipProxyUseDefaultCert](https://technet.microsoft.com/en-us/library/Gg425858(v=OCS.15))
+    [New-CsSipProxyUseDefaultCert](https://technet.microsoft.com/library/Gg425858(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsIssuedCertId](https://technet.microsoft.com/en-us/library/Gg425814(v=OCS.15))
+    [New-CsIssuedCertId](https://technet.microsoft.com/library/Gg425814(v=OCS.15))
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185935
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f7db75e8f4e6e7d8b8a36d0e5ba614ac89c22e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 257346792c7f1e3d815942c7eecacd16cba9194e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723965"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045137"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-diagnostic-reports-in-lync-server-2013"></a>Berichte zur Medien Qualitäts Diagnose in lync Server 2013
+# <a name="media-quality-diagnostic-reports-in-lync-server-2013"></a>Diagnoseberichte zur Medienqualität in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41723965"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-22_
+_**Letztes Änderungsstand des Themas:** 2013-02-22_
 
 Die Medienqualitäts-Diagnoseberichte bieten Informationen über die Anrufqualität sowie Diagnosedaten und Hinweise zur Problembehandlung für Anrufe, bei denen Fehler aufgetreten sind.
 
@@ -43,25 +43,25 @@ Die Medienqualitäts-Diagnoseberichte bieten Informationen über die Anrufqualit
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Zusammenfassungsbericht zur Medienqualität in lync Server 2013](lync-server-2013-media-quality-summary-report.md)   bietet allgemeine Qualitätsdaten für unterschiedliche Endpunkttypen, einschließlich Peer-to-Peer-Anrufen für Unternehmens-VoIP, Enterprise-VoIP-Konferenzanrufe und Anrufe, die zumindest teilweise im öffentlichen Telefonnetz (PSTN) angewiesen sind.
+  - [Zusammenfassender Bericht über Medienqualität in lync Server 2013](lync-server-2013-media-quality-summary-report.md)   bietet allgemeine Qualitätsdaten für unterschiedliche Endpunkttypen, einschließlich Enterprise-VoIP-Peer-zu-Peer-Anrufe, Anrufe in Enterprise-VoIP-Konferenzen und Anrufe, die mindestens teilweise im Festnetz (Public Switched Telephone Network, PSTN) basieren.
 
-  - [Der Bericht zur Medien Qualitäts Vergleichsfunktion in lync Server 2013](lync-server-2013-media-quality-comparison-report.md)   bietet einen Vergleich der Werte für die Anrufqualität für verschiedene Arten von Audioanrufen (beispielsweise Anrufe, die über ein Drahtlosnetzwerk getätigt wurden, und Anrufe, die über eine Kabelverbindung erfolgen).
+  - [Vergleichsbericht über Medienqualität in lync Server 2013](lync-server-2013-media-quality-comparison-report.md)   bietet einen Vergleich der Werte für die Anrufqualität für verschiedene Arten von Audioanrufen (beispielsweise Anrufe über ein drahtloses Netzwerk im Vergleich zu anrufen, die über eine kabelgebundene Verbindung erfolgen).
 
-  - [Serverleistungsbericht in lync Server 2013](lync-server-2013-server-performance-report.md)   listet die Server auf, bei denen die meisten Probleme aufgetreten sind, basierend auf der Messung solcher wichtigen Qualitäts Metriken wie Abbau, Paketverlust und Jitter.
+  - [Der Bericht über die Serverleistung in lync Server 2013](lync-server-2013-server-performance-report.md)   listet die Server auf, auf denen die meisten Probleme aufgetreten sind, basierend auf den Messungen dieser wichtigen Qualitäts Metriken wie Verschlechterung, Paketverlust und Jitter.
 
-  - [Standortbericht in lync Server 2013](lync-server-2013-location-report.md)   enthält eine Liste der Netzwerkspeicherorte und eine Zusammenfassung der Medienqualität der Anrufe, die an jedem Standort erfolgen. Für die Zwecke dieses Berichts basieren Speicherorte auf IP-Subnetzen.
+  - [Der Standortbericht in lync Server 2013](lync-server-2013-location-report.md)   enthält eine Liste der Netzwerkstandorte und eine Zusammenfassung der Medienqualität der Anrufe, die an jedem Standort stattfinden. Für diesen Bericht basieren Standorte auf IP-Subnetzen.
 
-  - [Der gerätebericht in lync Server 2013](lync-server-2013-device-report.md)   bietet eine Zusammenfassung der Geräte, die für Enterprise-VoIP-Anrufe verwendet werden, und enthält die durchschnittliche Medienqualität der Anrufe nach Gerät.
+  - [Gerätebericht in lync Server 2013](lync-server-2013-device-report.md)   enthält eine Zusammenfassung der Geräte, die für Enterprise-VoIP-Anrufe verwendet werden, und enthält die durchschnittliche Medienqualität der Anrufe nach Gerät.
 
-  - [Der Anruflistenbericht in lync Server 2013](lync-server-2013-call-list-report.md)   enthält detaillierte Informationen zu Telefon anrufen, die in Ihrer Organisation getätigt oder empfangen wurden.
+  - [Anruflistenbericht in lync Server 2013](lync-server-2013-call-list-report.md)   enthält detaillierte Informationen zu Telefon anrufen, die in Ihrer Organisation getätigt oder empfangen wurden.
 
   - [Der Anruf Detail Bericht in lync Server 2013](lync-server-2013-call-detail-report.md)   enthält detaillierte Informationen zu Telefon anrufen, die in Ihrer Organisation getätigt oder empfangen wurden.
 
-  - [Der Trend Bericht "Server Medienqualität" in lync Server 2013](lync-server-2013-server-media-quality-trend-report.md)   bietet eine Möglichkeit, bis zu 5 Server auf der Grundlage der Qualität von Erfahrungswerten wie Anruflautstärke, schlechtem Anruf Prozentsatz, Paketverlust und Jitter grafisch zu vergleichen.
+  - [Trend Bericht über Server Medienqualität in lync Server 2013](lync-server-2013-server-media-quality-trend-report.md)   bietet Ihnen die Möglichkeit, bis zu fünf Server mit Metriken für die Qualität der Erfahrung, wie Anrufvolumen, Anruf Prozentsatz, Paketverlust und Jitter, grafisch zu vergleichen.
 
-  - [Der Verteilungs Bericht für Medien Qualitäts Metriken in lync Server 2013](lync-server-2013-media-quality-metrics-distribution-report.md)   bietet ein Diagramm, in dem die Verteilungswerte für eine Qualität der Erfahrungs Metrik wie Jitter oder Paketverlust angezeigt werden.
+  - [Der Bericht zur Verteilung von Medienqualität in lync Server 2013](lync-server-2013-media-quality-metrics-distribution-report.md)   stellt ein Diagramm zur Verfügung, in dem die Verteilungswerte für eine Metrik mit hoher Benutzerfreundlichkeit wie Jitter oder Paketverlust angezeigt werden.
 
-  - [Der Standort Trendbericht in lync Server 2013](lync-server-2013-location-trend-report.md)   bietet Trendinformationen zur Anrufqualität für Netzwerkspeicherorte.
+  - [Der Standort Trendbericht in lync Server 2013](lync-server-2013-location-trend-report.md)   bietet Trendinformationen zur Anrufqualität für Netzwerkstandorte.
 
 </div>
 

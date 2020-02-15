@@ -12,20 +12,20 @@ ms:contentKeyID: 48184292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a28fc1e77a98e2a6123537ec5c062dca5d0c6ffb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c7168c1e32bd4ceb1466678d08a3d7ca9e6dc69e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724935"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045497"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-for-installation-of-servers-in-the-perimeter-network-for-lync-server-2013"></a>Vorbereiten der Installation von Servern im Umkreisnetzwerk für Lync Server 2013
+# <a name="preparing-for-installation-of-servers-in-the-perimeter-network-for-lync-server-2013"></a>Vorbereiten der Installation von Servern im Umkreisnetzwerk für lync Server 2013
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41724935"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-08_
+_**Letztes Änderungsstand des Themas:** 2012-09-08_
 
-Bevor Sie Edgeserver-Komponenten einrichten, müssen Sie sicherstellen, dass die Computer, die Sie einrichten, die Systemanforderungen erfüllen und andere erforderliche Schritte für die Bereitstellung von Edgeserver-Komponenten ausführen.
+Vor dem Einrichten von Edgeserverkomponenten müssen Sie sicherstellen, dass die Computer die Systemanforderungen erfüllen. Darüber hinaus müssen Sie einige vorbereitende Schritte für die Bereitstellung von Edgeserverkomponenten ausführen.
 
-Bevor Sie beginnen, überprüfen Sie die Details in den folgenden Themen in der Planungsdokumentation für die Referenzarchitektur, die Sie bereitstellen möchten:
+Bevor Sie beginnen, sollten Sie in der Planungsdokumentation die folgenden Themen für die Referenzarchitektur lesen, die Sie bereitstellen möchten:
 
-  - [Einzelner konsolidierter Edgeserver mit privaten IP-Adressen und NAT in Lync Server 2013](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
+  - [Einzelner konsolidierter Edgeserver mit privaten IP-Adressen und NAT in lync Server 2013](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
 
-  - [Einzelner konsolidierter Edgeserver mit öffentlichen IP-Adressen in Lync Server 2013](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
+  - [Einzelner konsolidierter Edgeserver mit öffentlichen IP-Adressen in lync Server 2013](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [Skalierter konsolidierter Edgeserver, DNS-Lastenausgleich mit privaten IP-Adressen und NAT in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [Skalierter konsolidierter Edgeserver, DNS-Lastenausgleich mit privaten IP-Adressen mithilfe von NAT in lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [Skalierter konsolidierter Edgeserver, DNS-Lastenausgleich mit öffentlichen IP-Adressen in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [Skalierter konsolidierter Edgeserver, DNS-Lastenausgleich mit öffentlichen IP-Adressen in lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [Skalierter konsolidierter Edgeserver mit Hardwarelastenausgleich in Lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [Skalierter konsolidierter Edgeserver mit Hardware-Lastenausgleichssystemen in lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Konfigurieren von DNS für die Edgeunterstützung in Lync Server 2013](lync-server-2013-configure-dns-for-edge-support.md)
+  - [Konfigurieren von DNS für die Edge-Unterstützung in lync Server 2013](lync-server-2013-configure-dns-for-edge-support.md)
 
-  - [Einrichten von Hardwaregeräten zum Lastenausgleich für skalierte Edgetopologien in Lync Server 2013](lync-server-2013-set-up-hardware-load-balancers-for-scaled-edge-topologies.md)
+  - [Einrichten von Hardware-Lastenausgleich für skalierte Edge-Topologien in lync Server 2013](lync-server-2013-set-up-hardware-load-balancers-for-scaled-edge-topologies.md)
 
-  - [Konfigurieren von Firewalls und Ports für den externen Benutzerzugriff in Lync Server 2013](lync-server-2013-configure-firewalls-and-ports-for-external-user-access.md)
+  - [Konfigurieren von Firewalls und Ports für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-configure-firewalls-and-ports-for-external-user-access.md)
 
-  - [Ermitteln der Anforderungen für externe A/V-Firewalls und Ports für Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
+  - [Ermitteln der Anforderungen für externe A/V-Firewalls und Ports für lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
 
-  - [Anfordern von Zertifikaten für Edgekomponenten in Lync Server 2013](lync-server-2013-request-certificates-for-edge-components.md)
+  - [Anfordern von Zertifikaten für Edge-Komponenten in lync Server 2013](lync-server-2013-request-certificates-for-edge-components.md)
 
 </div>
 

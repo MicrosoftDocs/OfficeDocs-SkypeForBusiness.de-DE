@@ -12,16 +12,16 @@ ms:contentKeyID: 48184512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ec10f3e3d3d58a790ddc60fd1af1d1b09765685
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b294d2d27c9c092854e2556d863a76a77569932
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727465"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41727465"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Lync Server stellt eine Reihe von Windows PowerShell-Cmdlets für die Befehlszeilenschnittstelle bereit, um den Adressbuchdienst zu verwalten und zu konfigurieren. Bei einigen dieser Cmdlets handelt es sich um Ersetzungen für die Befehle "ABServer. exe", die in früheren Versionen von Office Communications Server verwendet wurden. In den folgenden Themen finden Sie die Cmdlets, die zum Einrichten, erstellen und Abrufen von Informationen über den Adressbuchdienst, seine Konfiguration und Informationen zu den Webdiensten verwendet werden, die vom Adressbuchdienst verwendet werden, wenn Clients den Adressbuchdienst abrufen. Dateien und Einstellungen.
+Lync Server enthält eine Reihe von Windows PowerShell Cmdlets für Befehlszeilenschnittstelle, um den Adressbuchdienst zu verwalten und zu konfigurieren. Einige dieser Cmdlets sind Ersatz für die ABServer. exe-Befehle, die in früheren Versionen von Office Communications Server verwendet wurden. In den folgenden Themen finden Sie die Cmdlets zum Festlegen, Erstellen und Abrufen von Informationen über den Adressbuchdienst und seine Konfiguration sowie von Informationen über den Webdienst, den der Adressbuchdienst verwendet, wenn Clients Dateien und Einstellungen des Adressbuchdiensts abrufen.
 
-Alle diese Cmdlets werden über die lync Server-Verwaltungsshell ausgestellt, die sich in den lync Server-Tools auf einem Server oder auf einer Workstation befindet, auf der die Verwaltungstools installiert wurden.
+Alle diese Cmdlets werden über die lync Server-Verwaltungsshell herausgegeben, die im lync Server Tools auf einem Server oder einer Arbeitsstation gefunden wurden, auf dem die Verwaltungstools installiert wurden.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [New-CsAddressBookConfiguration für Adressbuchverwaltung in lync Server 2013](lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md)
+  - [New-CsAddressBookConfiguration für die Adressbuchverwaltung in lync Server 2013](lync-server-2013-New-CsAddressBookConfiguration-for-address-book-management.md)
 
-  - [Einrichten von CsAddressBookConfiguration für die Adressbuchverwaltung in lync Server 2013](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
+  - [Festlegen von CsAddressBookConfiguration für die Adressbuchverwaltung in lync Server 2013](lync-server-2013-set-csaddressbookconfiguration-for-address-book-management.md)
 
-  - [Get-CsAddressBookConfiguration für die Verwaltung von Adressbüchern in lync Server 2013](lync-server-2013-get-csaddressbookconfiguration-for-address-book-management.md)
+  - [Get-CsAddressBookConfiguration für die Adressbuchverwaltung in lync Server 2013](lync-server-2013-get-csaddressbookconfiguration-for-address-book-management.md)
 
   - [Remove-CsAddressBookConfiguration für die Adressbuchverwaltung in lync Server 2013](lync-server-2013-remove-csaddressbookconfiguration-for-address-book-management.md)
 
@@ -57,19 +57,19 @@ Alle diese Cmdlets werden über die lync Server-Verwaltungsshell ausgestellt, di
 
   - [Test-CsAddressBookWebQuery für die Adressbuchverwaltung in lync Server 2013](lync-server-2013-test-csaddressbookwebquery-for-address-book-management.md)
 
-  - [Update-CsAddressBook für die Verwaltung von Adressbüchern in lync Server 2013](lync-server-2013-update-csaddressbook-for-address-book-management.md)
+  - [Update-CsAddressBook für die Adressbuchverwaltung in lync Server 2013](lync-server-2013-update-csaddressbook-for-address-book-management.md)
 
-  - [New-CsClientPolicy für Adressbuchverwaltung in lync Server 2013](lync-server-2013-new-csclientpolicy-for-address-book-management.md)
+  - [New-CsClientPolicy für die Adressbuchverwaltung in lync Server 2013](lync-server-2013-new-csclientpolicy-for-address-book-management.md)
 
-  - [Einrichten von CsClientPolicy für die Adressbuchverwaltung in lync Server 2013](lync-server-2013-set-csclientpolicy-for-address-book-management.md)
+  - [Festlegen von CsClientPolicy für die Adressbuchverwaltung in lync Server 2013](lync-server-2013-set-csclientpolicy-for-address-book-management.md)
 
-  - [Get-CsService für die Verwaltung von Adressbüchern in lync Server 2013](lync-server-2013-get-csservice-for-address-book-management.md)
+  - [Get-CsService für die Adressbuchverwaltung in lync Server 2013](lync-server-2013-get-csservice-for-address-book-management.md)
 
-  - [New-CsWebServiceConfiguration für Adressbuchverwaltung in lync Server 2013](lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md)
+  - [New-CsWebServiceConfiguration für die Adressbuchverwaltung in lync Server 2013](lync-server-2013-New-CsWebServiceConfiguration-for-address-book-management.md)
 
-  - [Get-CsWebServiceConfiguration für die Verwaltung von Adressbüchern in lync Server 2013](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
+  - [Get-CsWebServiceConfiguration für die Adressbuchverwaltung in lync Server 2013](lync-server-2013-get-cswebserviceconfiguration-for-address-book-management.md)
 
-  - [Einrichten von CsWebServiceConfiguration für die Adressbuchverwaltung in lync Server 2013](lync-server-2013-set-cswebserviceconfiguration-for-address-book-management.md)
+  - [Festlegen von CsWebServiceConfiguration für die Adressbuchverwaltung in lync Server 2013](lync-server-2013-set-cswebserviceconfiguration-for-address-book-management.md)
 
   - [Remove-CsWebServiceConfiguration für die Adressbuchverwaltung in lync Server 2013](lync-server-2013-remove-cswebserviceconfiguration-for-address-book-management.md)
 

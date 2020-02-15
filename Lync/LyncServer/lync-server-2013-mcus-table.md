@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Mcus-Tabelle'
+title: 'Lync Server 2013: Tabelle "MCU"'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 522c7babbda63c550679dab1eb8eb03114417169
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6b82d01c96f22aabb797bdcf04820cfb944ccb7e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737175"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045307"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="mcus-table-in-lync-server-2013"></a>Mcus-Tabelle in Lync Server 2013
+# <a name="mcus-table-in-lync-server-2013"></a>Tabelle "MCU" in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737175"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Die Tabelle "MCU" ist eine unterstützende Tabelle. In jedem Datensatz werden Informationen zu einem Konferenzdienst gespeichert. Dazu gehören der Chat-Konferenzdienst und der Telefonie-Konferenzdienst (der als Prozesse auf Front-End-Servern ausgeführt wird) sowie der Webkonferenzdienst und ein/V-Konferenzdienst.
+Die Tabelle "MCU" ist eine unterstützende Tabelle. Jeder Datensatz speichert Informationen zu einem Konferenzdienst. Hierzu können die Sofortnachrichten-Konferenzdienst und die Telefonkonferenzdienst (die als Prozesse auf Front-End-Servern ausgeführt werden) sowie die Webkonferenzdienst und A/V-Konferenzdienst gehören.
 
 
 <table>
@@ -60,7 +60,7 @@ Die Tabelle "MCU" ist eine unterstützende Tabelle. In jedem Datensatz werden In
 <td><p><strong>McuId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutige Nummer, die diesen Konferenzserver identifiziert.</p></td>
+<td><p>Eindeutige Zahl, die diesen Konferenzserver identifiziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>McuUri</strong></p></td>
@@ -72,7 +72,7 @@ Die Tabelle "MCU" ist eine unterstützende Tabelle. In jedem Datensatz werden In
 <td><p><strong>McuTypeId</strong></p></td>
 <td><p>inyint</p></td>
 <td><p> Fremd</p></td>
-<td><p>Konferenz Servertyp wie conf: Chat (für IMS) oder conf: Audio-Video. Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</p></td>
+<td><p>Typ des Konferenzservers, beispielsweise conf: Chat (für IMS) oder conf: Audio-Video. Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>

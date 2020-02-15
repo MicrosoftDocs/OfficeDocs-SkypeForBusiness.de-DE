@@ -12,16 +12,16 @@ ms:contentKeyID: 48183508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17c7996b4c06496a39bc7db5f4cd5b4adbb83c2d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03423d1754a87d32adc2d00ddd0697f8a8389d95
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762863"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050947"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762863"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-Die Tabelle MonitoredUserSiteLink ist eine unterstützende Tabelle. Jeder Datensatz steht für einen Link zwischen zwei Benutzer Websites.
+Bei der MonitoredUserSiteLink-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz steht für eine Verknüpfung zwischen zwei Benutzerstandorten.
 
 
 <table>
@@ -59,14 +59,14 @@ Die Tabelle MonitoredUserSiteLink ist eine unterstützende Tabelle. Jeder Datens
 <tr class="odd">
 <td><p><strong>UserSite1Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Wird in der <a href="lync-server-2013-usersite-table.md">UserSite-Tabelle in lync Server 2013</a>referenziert.</p></td>
+<td><p>Primär, Fremd</p></td>
+<td><p>Referenziert aus der <a href="lync-server-2013-usersite-table.md">UserSite-Tabelle in lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserSite2Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Verweis aus der <a href="lync-server-2013-usersite-table.md">Tabelle "UserSite" in lync Server 2013</a>.</p></td>
+<td><p>Primär, Fremd</p></td>
+<td><p>Verweis aus der <a href="lync-server-2013-usersite-table.md">UserSite-Tabelle in lync Server 2013</a>.</p></td>
 </tr>
 </tbody>
 </table>

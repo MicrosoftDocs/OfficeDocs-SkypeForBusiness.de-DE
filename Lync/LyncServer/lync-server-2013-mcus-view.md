@@ -12,16 +12,16 @@ ms:contentKeyID: 49733725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de9fa28ca10e1b9971875980cc0f3c96b6359ccb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8fe983f12dd01c9cb46b27fdb5dffc3cd41c6671
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765676"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045297"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765676"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
-In der MCU-Ansicht werden Informationen zu der für Konferenzsitzungen teilgenommenen MCU gespeichert. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
+In der MCU-Ansicht werden Informationen zu den MCUs gespeichert, die an Konferenzsitzungen teilgenommen haben. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
 
 
 <table>
@@ -57,17 +57,17 @@ In der MCU-Ansicht werden Informationen zu der für Konferenzsitzungen teilgenom
 <tr class="odd">
 <td><p><strong>McuId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Eindeutige Nummer, die die MCU kennzeichnet.</p></td>
+<td><p>Eindeutige Zahl, die die MCU identifiziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>McuUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI des MCU.</p></td>
+<td><p>URI der MCU.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>McuUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Der Typ des MCU-URIs. Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>MCU-URI-Typ. Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>

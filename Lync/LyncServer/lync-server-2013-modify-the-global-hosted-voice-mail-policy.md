@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Ändern der Global Hosted Voicemail-Richtlinie'
+title: 'Lync Server 2013: Ändern der Global Hosted Voice Mail-Richtlinie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e930e0b1f9a6e2d246a8011c59e2c92c75ba138d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1746f622afb380f53a0109400a7d326b0b3c5de7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756879"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051277"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="modify-the-global-hosted-voice-mail-policy-in-lync-server-2013"></a>Ändern der Global Hosted Voicemail-Richtlinie in lync Server 2013
+# <a name="modify-the-global-hosted-voice-mail-policy-in-lync-server-2013"></a>Ändern der Global Hosted Voice Mail-Richtlinie in lync Server 2013
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41756879"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-24_
+_**Letztes Änderungsstand des Themas:** 2012-09-24_
 
-Die *Global* Hosted Voicemail-Richtlinie wird mit lync Server 2013 installiert. Sie können Sie ändern, um Ihre Anforderungen zu erfüllen, aber Sie können Sie nicht umbenennen oder löschen. Zum Ändern der globalen Richtlinie verwenden Sie das Cmdlet "festlegen-CsHostedVoicemailPolicy", um die Parameter auf die entsprechenden Werte für die jeweilige Bereitstellung zu setzen.
+Die *Global* Hosted Voice Mail-Richtlinie wird mit lync Server 2013 installiert. Sie können diese Richtlinie Ihren Anforderungen entsprechend ändern, Sie können sie jedoch weder umbenennen noch löschen. Wenn Sie die globale Richtlinie ändern möchten, verwenden Sie das Cmdlet "Set-CsHostedVoicemailPolicy", um die Parameter auf die für Ihre spezielle Bereitstellung geeigneten Werte zu setzen.
 
-Details zum Cmdlet " [setCsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy) " finden Sie in der Dokumentation zur lync Server-Verwaltungsshell.
+Ausführliche Informationen zum Cmdlet " [CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy) " finden Sie in der Dokumentation zum lync Server-Verwaltungsshell.
 
 <div>
 
-## <a name="to-modify-the-global-hosted-voice-mail-policy"></a>So ändern Sie die Global Hosted Voicemail-Richtlinie
+## <a name="to-modify-the-global-hosted-voice-mail-policy"></a>So ändern Sie die globale Richtlinie für gehostete Voicemail
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Führen Sie das Cmdlet "Satz-CsHostedVoicemailPolicy" aus, um die globalen Richtlinienparameter für Ihre Umgebung einzurichten. Führen Sie beispielsweise den folgenden Befehl aus:
+2.  Führen Sie das Cmdlet "Set-CsHostedVoicemailPolicy" aus, um die Parameter der globalen Richtlinie für Ihre Umgebung festzulegen. Führen Sie beispielsweise den folgenden Befehl aus:
     
         Set-CsHostedVoicemailPolicy -Destination ExUM.fabrikam.com -Organization "corp1.litwareinc.com"
     
-    Da dieser Befehl den Identitätsparameter der Richtlinie nicht angibt, legt die Windows PowerShell-Befehlszeilenschnittstelle die folgenden Werte für die Global Hosted Voicemail-Richtlinie fest:
+    Da dieser Befehl nicht den Identity-Parameter der Richtlinie angibt, legt Windows PowerShell Befehlszeilenschnittstelle die folgenden Werte für die Global Hosted Voicemail-Richtlinie fest:
     
-      - **Ziel** gibt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des gehosteten Exchange um-Diensts an. Dieser Parameter ist optional, aber wenn Sie versuchen, einen Benutzer für gehostete Voicemail zu aktivieren, und die zugewiesene Richtlinie des Benutzers keinen Zielwert hat, schlägt die Aktivierung fehl.
+      - **Destination** gibt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des gehosteten Exchange UM-Diensts an. Dieser Parameter ist optional. Wenn Sie jedoch versuchen, einen Benutzer für gehostete Voicemail zu aktivieren, und die zugewiesene Richtlinie des Benutzers nicht auf "Destination" festgelegt ist, tritt bei der Aktivierung ein Fehler auf.
     
-      - **Organisation** gibt eine durch trennzeichengetrennte Liste der Exchange-Mandanten an, die zu den lync Server-Benutzern werden. Jeder Mandant muss als FQDN dieses Mandanten für den gehosteten Exchange um-Dienst angegeben werden.
+      - **Organization** gibt eine durch trennzeichengetrennte Liste der Exchange-Mandanten an, die lync Server Benutzer zu Hause sind. Für jeden Mandanten muss der vollqualifizierte Domänenname des Mandanten im gehosteten Exchange-Dienst angegeben werden.
     
     <div>
     
 
     > [!NOTE]  
-    > Im vorherigen Beispiel-Cmdlet ersetzt der Wert "corp1.litwareinc.com" alle Werte, die möglicherweise bereits im Parameter Organization vorhanden sind. Wenn die Richtlinie beispielsweise bereits eine durch trennzeichengetrennte Liste von Organisationen enthält, wird die vollständige Liste ersetzt. Wenn Sie der Liste eine Organisation hinzufügen möchten, anstatt die gesamte Liste zu ersetzen, führen Sie einen Befehl wie den folgenden aus.
+    > Im vorherigen Cmdlet-Beispiel ersetzt der Wert "corp1.litwareinc.com" einen beliebigen Wert, der im Parameter "Organization" möglicherweise bereits vorhanden ist. Wenn die Richtlinie beispielsweise bereits eine durch Trennzeichen getrennte Liste mit Organisationen enthält, wird die gesamte Liste ersetzt. Wenn Sie nicht die gesamte Liste ersetzen, sondern der Liste eine Organisation hinzufügen möchten, führen Sie einen Befehl wie den folgenden aus.
 
     
     </div>

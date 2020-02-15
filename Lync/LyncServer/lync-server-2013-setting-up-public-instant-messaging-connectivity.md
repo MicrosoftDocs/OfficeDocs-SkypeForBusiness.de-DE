@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Einrichten der öffentlichen Chatkonnektivität'
+title: 'Lync Server 2013: Einrichten der Verbindung mit öffentlichen Instant Messaging-Diensten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 871f513170fcb0491f6732751cfc1b23877526b8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31224e145fc5fea1623b0236b87ae9cdec3f82b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732255"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040864"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-public-instant-messaging-connectivity-in-lync-server-2013"></a>Einrichten der öffentlichen Chatkonnektivität in Lync Server 2013
+# <a name="setting-up-public-instant-messaging-connectivity-in-lync-server-2013"></a>Einrichten der Verbindung mit öffentlichen Instant Messaging-Diensten in lync Server 2013
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41732255"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-08_
+_**Letztes Änderungsstand des Themas:** 2012-09-08_
 
-Wenn Ihre Organisation Öffentliche Instant Messaging-Verbindungen (im) mit AOL unterstützen möchte, können Sie den lync Server-Bereitstellungs-Assistenten nicht verwenden, um das Zertifikat anzufordern. Führen Sie stattdessen die Schritte im folgenden Verfahren aus.
+Wenn Ihre Organisation Verbindungen mit öffentlichen Sofortnachrichtendiensten über AOL unterstützen möchte, können Sie das Zertifikat nicht mit dem Lync Server-Bereitstellungs-Assistenten anfordern. Führen Sie stattdessen die folgenden Schritte aus:
 
 <div>
 
-## <a name="setting-up-public-instant-messaging-connectivity"></a>Einrichten der öffentlichen Instant Messaging-Konnektivität
+## <a name="setting-up-public-instant-messaging-connectivity"></a>So richten Sie die Verbindung mit öffentlichen Instant Messaging-Diensten ein
 
-1.  Öffnen Sie auf einem Front-End-Server den Topologie-Generator. Erweitern Sie Edge-Pools, und klicken Sie dann mit der rechten Maustaste auf den Edgeserver oder den Edge-Serverpool. Wählen Sie Eigenschaften bearbeiten aus.
+1.  Auf einem Front-End-Server öffnen Sie den Topologie-Generator. Erweitern Sie "Edgepools", und klicken Sie mit der rechten Maustaste auf "Edgeserver" oder "Edgeserver-Pool". Klicken Sie auf "Eigenschaften bearbeiten".
 
-2.  Wählen Sie in Eigenschaften bearbeiten unter Allgemein die Option Föderation für diesen Edge-Pool aktivieren (Port 5061) aus. Klicken Sie auf OK.
+2.  Klicken Sie in "Eigenschaften bearbeiten" unter "Allgemein" auf "Partnerverbund für diesen Edgepool aktivieren" (Port 5061). Klicken Sie auf "OK".
 
-3.  Klicken Sie auf Aktion, wählen Sie Topologie aus, und wählen Sie veröffentlichen aus. Wenn Sie dazu aufgefordert werden, die Topologie zu veröffentlichen, klicken Sie auf Weiter. Wenn der Veröffentlichungsvorgang abgeschlossen ist, klicken Sie auf Fertig stellen.
+3.  Klicken Sie auf "Aktion", wählen Sie "Topologie", und wählen Sie "Veröffentlichen" aus. Wenn Sie unter "Topologie veröffentlichen" dazu aufgefordert werden, klicken Sie auf "Weiter". Wenn die Veröffentlichung abgeschlossen ist, klicken Sie auf "Fertig stellen".
 
-4.  Öffnen Sie auf dem Edgeserver den lync Server-Bereitstellungs-Assistenten. Klicken Sie auf lync Server System installieren oder aktualisieren und dann auf lync Server-Komponenten einrichten oder entfernen. Klicken Sie erneut auf ausführen.
+4.  Öffnen Sie auf dem Edgeserver den Lync Server-Bereitstellungs-Assistenten. Klicken Sie auf "Lync Server-System installieren oder aktualisieren", und klicken Sie anschließend auf "Lync Server-Komponenten einrichten oder entfernen". Klicken Sie auf "Erneut ausführen".
 
-5.  Klicken Sie bei der Installation von lync Server-Komponenten auf Weiter. Auf dem Zusammenfassungsbildschirm werden die Aktionen während der Ausführung angezeigt. Nachdem die Bereitstellung abgeschlossen ist, klicken Sie auf Protokoll anzeigen, um die verfügbaren Protokolldateien anzuzeigen. Klicken Sie auf Fertig stellen, um die Bereitstellung abzuschließen.
+5.  Klicken Sie unter "Lync Server-Komponenten einrichten" auf "Weiter". Auf dem Übersichtsbildschirm werden die Aktionen angezeigt, die gerade ausgeführt werden. Nachdem Sie die Bereitstellung durchgeführt haben, klicken Sie auf "Protokoll anzeigen", um verfügbare Protokolldateien anzuzeigen. Klicken Sie auf "Fertig stellen", um die Bereitstellung abzuschließen.
 
 </div>
 
 <div>
 
-## <a name="to-create-a-certificate-request-for-the-external-interface-of-the-edge-server-to-support-public-im-connectivity-with-aol"></a>So erstellen Sie eine Zertifikatanforderung für die externe Schnittstelle des Edge-Servers zur Unterstützung öffentlicher Chat Verbindungen mit AOL
+## <a name="to-create-a-certificate-request-for-the-external-interface-of-the-edge-server-to-support-public-im-connectivity-with-aol"></a>So erstellen Sie eine Zertifikatanforderung für die externe Schnittstelle des Edgeservers zur Unterstützung von Verbindungen mit öffentlichen Instant Messaging-Diensten über AOL
 
-1.  Wenn die erforderliche Vorlage für die Zertifizierungsstelle verfügbar ist, verwenden Sie das folgende Windows PowerShell-Cmdlet auf dem Edgeserver, um das Zertifikat anzufordern.
+1.  Wenn die erforderliche Vorlage für die Zertifizierungsstelle zur Verfügung gestellt wurde, verwenden Sie auf dem Edgeserver das folgende Cmdlet der Windows PowerShell, um das Zertifikat anzufordern:
     
         Request-CsCertificate -New -Type AccessEdgeExternal  -Output C:\ <certfilename.txt or certfilename.csr>  -ClientEku $true -Template <template name>
     
-    Der Standardzertifikat Name der für lync Server verwendeten Vorlage ist Web Server. Geben Sie nur \<den Vorlagen\> Namen an, wenn Sie eine Vorlage verwenden möchten, die sich von der Standardvorlage unterscheidet.
+    Der standardmäßige Zertifikatname der Vorlage, die für lync Server verwendet wird, ist Webserver. Geben Sie nur \<den Vorlagen\> Namen an, wenn Sie eine Vorlage verwenden möchten, die sich von der Standardvorlage unterscheidet.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Wenn Ihre Organisation öffentliche Chat Verbindungen mit AOL unterstützen möchte, müssen Sie anstelle des Zertifikat-Assistenten Windows PowerShell verwenden, um das Zertifikat anzufordern, das dem externen Edge für den Access Edge-Dienst zugewiesen werden soll. Der Grund hierfür ist, dass die vom Zertifikat-Assistenten zum Anfordern eines Zertifikats verwendete Zertifikat Zertifizierungsstellen-Webservervorlage die Client-EKU-Konfiguration nicht unterstützt. Bevor Sie Windows PowerShell zum Erstellen des Zertifikats verwenden, muss der CA-Administrator eine neue Vorlage erstellen und bereitstellen, die die Client-EKU unterstützt.
+    > Wenn Ihre Organisation Öffentliche Instant Messaging-Verbindungen mit AOL unterstützen möchte, müssen Sie Windows PowerShell anstelle des Zertifikat-Assistenten verwenden, um das Zertifikat dem externen Edge für die Zugriffs-Edgedienst zuzuweisen. Der Grund dafür ist, dass die "Web Server"-Vorlage der Zertifizierungsstelle, die der Zertifikat-Assistent zum Anfordern von Zertifikaten verwendet, keine EKU-Clientkonfiguration unterstützt. Bevor Sie Windows PowerShell zum Erstellen des Zertifikats verwenden, muss der Zertifizierungsstellenadministrator eine neue Vorlage erstellen und bereitstellen, die die Client-EKU unterstützt.
 
     
     </div>

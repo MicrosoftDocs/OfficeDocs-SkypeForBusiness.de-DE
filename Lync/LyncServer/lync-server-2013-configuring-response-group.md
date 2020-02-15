@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von Reaktionsgruppen'
+title: 'Lync Server 2013: Konfigurieren der Reaktionsgruppe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b94bc731ac00a4ff774930f506282b6aef16cbaa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eda955072f42989e6323ea6422d8b25736cf8c32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739265"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041064"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-response-group-in-lync-server-2013"></a>Konfigurieren von Reaktionsgruppen in Lync Server 2013
+# <a name="configuring-response-group-in-lync-server-2013"></a>Konfigurieren der Reaktionsgruppe in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41739265"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-30_
+_**Letztes Änderungsstand des Themas:** 2012-10-30_
 
-Reaktionsgruppe ist ein Enterprise-VoIP-Feature, mit dem eingehende Anrufe an Personengruppen, so genannte *Agenten*, weitergeleitet und in die Warteschlange gestellt werden, beispielsweise ein Helpdesk oder ein Kundendienst Desk.
+Reaktionsgruppe ist eine Enterprise-VoIP-Funktion, mit der eingehende Anrufe an Personengruppen weitergeleitet und in die Warteschlange gestellt werden, die als *Agents*bezeichnet werden, wie beispielsweise ein Helpdesk oder ein Kundendienst Desk.
 
-Die Komponenten, die von der Reaktionsgruppe benötigt werden, werden beim Bereitstellen von Enterprise-VoIP automatisch auf dem Front-End-Server oder Standard Edition-Server installiert und aktiviert. Um die Reaktionsgruppe für Benutzer verfügbar zu machen, müssen Sie Agentengruppen, dann Warteschlangen und dann Workflows konfigurieren. Darüber hinaus kann ein Antwortgruppen Administrator die Konfiguration eines vorhandenen Workflows an einen Reaktionsgruppen-Manager delegieren, der dann den Workflow und die zugehörigen Agentengruppen und-Warteschlangen ändern und neu konfigurieren kann.
+Die erforderlichen Komponenten für Reaktionsgruppen werden bei der Bereitstellung von Enterprise-VoIP automatisch auf dem Front-End-Server oder Standard Edition-Server installiert und aktiviert. Zur Bereitstellung der Reaktionsgruppenfunktion für Benutzer müssen Sie Agentgruppen, dann Warteschleifen und anschließend Workflows konfigurieren. Darüber hinaus kann ein Reaktionsgruppen Administrator die Konfiguration eines vorhandenen Workflows an einen Reaktionsgruppen Manager delegieren, der dann den Workflow und die zugehörigen Agentgruppen und Warteschlangen ändern und neu konfigurieren kann.
 
-Dieser Abschnitt führt Sie durch die Konfiguration der lync Server 2013-Reaktionsgruppe. Es wird davon ausgegangen, dass Sie die Planungsabschnitte in Bezug auf die Reaktionsgruppe bereits gelesen haben und einen Enterprise Edition-Server oder einen Standard Edition-Server mit Enterprise-VoIP bereitgestellt haben.
+Dieser Abschnitt führt Sie durch die Konfiguration von lync Server 2013 Reaktionsgruppe. Es wird davon ausgegangen, dass Sie die Planungsabschnitte im Zusammenhang mit der Reaktionsgruppe bereits gelesen haben und ein Enterprise Edition-Server oder ein Standard Edition-Server mit Enterprise-VoIP bereitgestellt haben.
 
 <div>
 
 
 > [!TIP]  
-> Details zum Erstellen einer Reaktionsgruppe mithilfe der lync Server-Verwaltungsshell, einschließlich eines Beispielskripts, finden Sie unter "Erstellen Ihrer ersten Reaktionsgruppe mithilfe der lync Server-Verwaltungsshell <A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>" unter.
+> Ausführliche Informationen zum Erstellen einer Reaktionsgruppe mithilfe von lync Server-Verwaltungsshell, einschließlich eines Beispielskripts, finden Sie unter "Erstellen der ersten Reaktionsgruppe mit lync Server-Verwaltungsshell <A href="http://go.microsoft.com/fwlink/p/?linkid=204108">http://go.microsoft.com/fwlink/p/?linkId=204108</A>" unter.
 
 
 
@@ -57,21 +57,21 @@ Dieser Abschnitt führt Sie durch die Konfiguration der lync Server 2013-Reaktio
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Berechtigungen und Voraussetzungen für die Konfiguration von Reaktionsgruppen in Lync Server 2013](lync-server-2013-response-group-configuration-permissions-and-prerequisites.md)
+  - [Berechtigungen und Voraussetzungen für die Reaktionsgruppen Konfiguration in lync Server 2013](lync-server-2013-response-group-configuration-permissions-and-prerequisites.md)
 
   - [Bereitstellungsprozess für die Reaktionsgruppe in lync Server 2013](lync-server-2013-deployment-process-for-response-group.md)
 
-  - [Übersicht über Szenarios zur Erstellung von Workflows in Lync Server 2013](lync-server-2013-overview-of-workflow-creation-scenarios.md)
+  - [Übersicht über Szenarien zur Erstellung von Workflows in lync Server 2013](lync-server-2013-overview-of-workflow-creation-scenarios.md)
 
-  - [Erstellen von Agent-Gruppen für Reaktionsgruppen Lync Server 2013](lync-server-2013-create-response-group-agent-groups.md)
+  - [Erstellen von Gruppen für Reaktionsgruppen-Agents lync Server 2013](lync-server-2013-create-response-group-agent-groups.md)
 
-  - [Erstellen von Warteschleifen für Reaktionsgruppen in Lync Server 2013](lync-server-2013-create-response-group-queues.md)
+  - [Erstellen von Warteschlangen für Reaktionsgruppen in lync Server 2013](lync-server-2013-create-response-group-queues.md)
 
-  - [Optional Definieren der Geschäftszeiten der Reaktionsgruppe in lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)
+  - [Optional Definieren von Geschäftszeiten für Reaktionsgruppen in lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)
 
   - [Optional Definieren von Feiertagssätzen für Reaktionsgruppen in lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md)
 
-  - [Erstellen von Workflows für Reaktionsgruppen in Lync Server 2013](lync-server-2013-create-response-group-workflows.md)
+  - [Erstellen von Workflows für Reaktionsgruppen in lync Server 2013](lync-server-2013-create-response-group-workflows.md)
 
   - [Optional Überprüfen der Bereitstellung von Reaktionsgruppen in lync Server 2013](lync-server-2013-optional-verify-response-group-deployment.md)
 
@@ -82,7 +82,7 @@ Dieser Abschnitt führt Sie durch die Konfiguration der lync Server 2013-Reaktio
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planen der Anruf Verwaltungsfeatures in lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  
+[Planen von Funktionen für die Anrufverwaltung in lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  
   
 
 </div>

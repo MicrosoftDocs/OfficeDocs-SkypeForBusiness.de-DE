@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Get-CsWebServiceConfiguration für die Verwaltung von Adressbüchern'
+title: 'Lync Server 2013: Get-CsWebServiceConfiguration für die Adressbuchverwaltung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183372
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c04cc523e27d655aa69b05f522efccf8153a37ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5f795f0e8f503a055388150e201e8d4f3a19bf39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730575"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037937"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Get-CsWebServiceConfiguration für die Verwaltung von Adressbüchern in lync Server 2013
+# <a name="get-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a>Get-CsWebServiceConfiguration für die Adressbuchverwaltung in lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41730575"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Wer dieses Cmdlet ausführen kann: Standardmäßig sind Mitglieder der folgenden Gruppen autorisiert, das Cmdlet "Get-CsWebServiceConfiguration" lokal auszuführen: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller rollenbasierten zugriffssteuerungsrollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben):
+Dieses Cmdlet kann von folgenden Benutzern ausgeführt werden: Standardmäßig sind Mitglieder der folgenden Gruppen autorisiert, das Cmdlet "Get-CsWebServiceConfiguration" lokal auszuführen: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Geben Sie den folgenden Befehl an der Windows PowerShell-Eingabeaufforderung ein, um eine Liste aller rollenbasierten Zugriffssteuerungsrollen zurückzugeben, die diesem Cmdlet zugewiesen wurden (einschließlich der benutzerdefinierten rollenbasierten Zugriffssteuerungsrollen, die Sie selbst erstellt haben):
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsWebServiceConfiguration"}
 
-Get-CsWebServiceConfiguration gibt Informationen zu der Webdienstkonfiguration zurück, die derzeit in Ihrer Organisation verwendet wird. Von Interesse für die Adressbuchdienste ist der Status der Erweiterungsfunktion Verteilerliste. Wenn das Attribut EnableGroupExpansion wahr ist, ermöglicht Ihre Organisation derzeit die Gruppenerweiterung.
+"Get-CsWebServiceConfiguration" gibt Informationen zur Webdienstekonfiguration zurück, die gegenwärtig in Ihrer Organisation verwendet wird. Für den Adressbuchdienst ist der Status der Funktion zur Verteilerlistenerweiterung relevant. Wenn das Attribut "EnableGroupExpansion" auf "True" gesetzt ist, ist die Gruppenerweiterung in Ihrer Organisation gegenwärtig zulässig.
 
 Beispiel:
 

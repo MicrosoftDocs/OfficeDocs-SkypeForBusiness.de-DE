@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verwalten von vertrauenswürdigen Anwendungen'
+title: 'Lync Server 2013: Verwalten vertrauenswürdiger Anwendungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 502193873b4dd80ae7d8698a98ecaad2df8a5b52
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 869ee1cf5e37225e662cd8a2f9f4656dce169697
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727775"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045567"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-trusted-applications-in-lync-server-2013"></a>Verwalten von vertrauenswürdigen Anwendungen in lync Server 2013
+# <a name="managing-trusted-applications-in-lync-server-2013"></a>Verwalten vertrauenswürdiger Anwendungen in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41727775"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Verwenden Sie die Verfahren in diesem Abschnitt, um eine Liste vertrauenswürdiger Anwendungen anzuzeigen oder Informationen zu einer vertrauenswürdigen Anwendung in lync Server 2013 anzuzeigen. Sie können diese Verfahren in der lync Server 2013-Systemsteuerung oder in der lync Server-Verwaltungsshell ausführen.
+Verwenden Sie die Verfahren in diesem Abschnitt, um entweder eine Liste vertrauenswürdiger Anwendungen anzuzeigen oder Informationen zu einer vertrauenswürdigen Anwendung in lync Server 2013 anzuzeigen. Sie können diese Verfahren in lync Server 2013 Systemsteuerung oder lync Server-Verwaltungsshell durchführen.
 
 <div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Zusammenfassungsbericht für Medienqualität'
+title: 'Lync Server 2013: zusammenfassender Bericht über Medienqualität'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184776
 ms.date: 06/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6980168a2d509bc32b9aa48f30167bca8721fef2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 89a5046ba15534d40c81e1e3b8a4f310873a9e1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766086"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045107"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="media-quality-summary-report-in-lync-server-2013"></a>Zusammenfassungsbericht für Medienqualität in lync Server 2013
+# <a name="media-quality-summary-report-in-lync-server-2013"></a>Zusammenfassender Bericht über Medienqualität in lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41766086"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2016-06-29_
+_**Letztes Änderungsstand des Themas:** 2016-06-29_
 
-Der „Zusammenfassende Bericht über Medienqualität“ ist möglicherweise die beste Option zum Analysieren der Anrufqualität in Ihrer Organisation: In diesem Bericht werden detailliert die QoE-Anrufmetriken (Quality of Experience, QoE) in den folgenden Kategorien aufgeführt:
+Der "Zusammenfassende Bericht über Medienqualität" ist möglicherweise die beste Option zum Analysieren der Anrufqualität in Ihrer Organisation: In diesem Bericht werden detailliert die QoE-Anrufmetriken (Quality of Experience, QoE) in den folgenden Kategorien aufgeführt:
 
-  - UC-Peer-to-Peer-Anrufe (beispielsweise ein Microsoft lync 2013 zu Microsoft lync 2013-Anruf)
+  - UC-Peer-to-Peer-Anrufe (beispielsweise eine Microsoft lync 2013 für Microsoft lync 2013 Anruf)
 
   - UC-Konferenzsitzungen
 
@@ -53,23 +53,23 @@ Der „Zusammenfassende Bericht über Medienqualität“ ist möglicherweise die
 
   - Andere Anruftypen
 
-Beim ersten Öffnen des Berichts wird eine Zusammenfassung zu den einzelnen Kategorien angezeigt. Ohne den Bericht zu verlassen, können Sie jede Kategorie erweitern, um Unterkategorien wie Anrufe von Office Communicator 2007 R2 zu lync 2013 zu sehen. Diese Unterkategorien können Sie anschließend erweitern, um Details zu jedem in diesen Unterkategorien getätigten Anruf anzuzeigen.
+Beim ersten Öffnen des Berichts wird eine Zusammenfassung zu den einzelnen Kategorien angezeigt. Ohne den Bericht zu verlassen, können Sie jede Kategorie erweitern, um Unterkategorien wie Aufrufe von Office Communicator 2007 R2 an lync 2013 zu betrachten. Diese Unterkategorien können Sie anschließend erweitern, um Details zu jedem in diesen Unterkategorien getätigten Anruf anzuzeigen.
 
-In Microsoft lync Server 2013 werden die Daten im Zusammenfassungsbericht für Medienqualität weiter in drei Anruftypen unterteilt: Audioanrufe, Videoanrufe und Anwendungsfreigabe Anrufe. Für jeden Anruftyp gibt es im Bericht einen eigenen Bereich und eigenen benutzerdefinierten Satz von Anrufmetriken.
+In Microsoft lync Server 2013 im zusammenfassenden Bericht über Medienqualität werden die Daten weiter in drei Anruftypen unterteilt: Audioanrufe, Videoanrufe und Anwendungsfreigabe Anrufe. Für jeden Anruftyp gibt es im Bericht einen eigenen Bereich und eigenen benutzerdefinierten Satz von Anrufmetriken.
 
-Im „Zusammenfassenden Bericht über Medienqualität“ können Sie Filter anwenden, mit denen Sie die Anrufqualität zwischen verkabelten und drahtlosen Anrufen, internen und externen Anrufen sowie VPN- und Nicht-VPN-Anrufen vergleichen können.
+Im "Zusammenfassenden Bericht über Medienqualität" können Sie Filter anwenden, mit denen Sie die Anrufqualität zwischen verkabelten und drahtlosen Anrufen, internen und externen Anrufen sowie VPN- und Nicht-VPN-Anrufen vergleichen können.
 
 <div>
 
-## <a name="accessing-the-media-quality-summary-report"></a>Zugreifen auf den „Zusammenfassenden Bericht über Medienqualität“
+## <a name="accessing-the-media-quality-summary-report"></a>Zugreifen auf den "Zusammenfassenden Bericht über Medienqualität"
 
-Auf den „Zusammenfassenden Bericht über Medienqualität“ kann auf der Startseite „Überwachungsberichte“ zugegriffen werden. Sie können einen Drilldown zum [Bericht Anrufliste in lync Server 2013](lync-server-2013-call-list-report.md) durchführen, indem Sie auf eine der folgenden Metriken klicken:
+Auf den "Zusammenfassenden Bericht über Medienqualität" kann auf der Startseite "Überwachungsberichte" zugegriffen werden. Sie können einen Drilldown zum [Anruflistenbericht in lync Server 2013](lync-server-2013-call-list-report.md) durchführen, indem Sie auf eine der folgenden Metriken klicken:
 
   - Anruflautstärke
 
   - Prozentsatz der Anrufe schlechter Qualität
 
-Auf den „Zusammenfassenden Bericht über Medienqualität“ können Sie auch zugreifen, indem Sie auf eine beliebige der folgenden Audioanrufmetriken klicken:
+Auf den "Zusammenfassenden Bericht über Medienqualität" können Sie auch zugreifen, indem Sie auf eine beliebige der folgenden Audioanrufmetriken klicken:
 
   - Roundtrip (ms)
 
@@ -91,11 +91,11 @@ Auf den „Zusammenfassenden Bericht über Medienqualität“ können Sie auch z
 
 ## <a name="filters"></a>Filter
 
-Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. Beispielsweise können Sie im zusammenfassenden Bericht über Medienqualität die zurückgegebenen Daten nach Zugriffstyp (d. h. interner oder externer Zugriff) oder nach Netzwerkverbindung (Kabel- oder Funkverbindung) filtern. Sie können außerdem festlegen, wie Daten gruppiert werden sollen. In diesem Fall werden die Anrufe nach Stunde, Tag, Woche oder Monat zusammengefasst.
+Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. Bespielsweise können Sie im zusammenfassenden Bericht über Medienqualität die zurückgegebenen Daten nach Zugriffstyp (d. h. interner oder externer Zugriff) oder nach Netzwerkverbindung (Kabel- oder Funkverbindung) filtern. Sie können außerdem festlegen, wie Daten gruppiert werden sollen. In diesem Fall werden die Anrufe nach Stunde, Tag, Woche oder Monat zusammengefasst.
 
-In der folgenden Tabelle werden die Filter aufgelistet, die Sie im „Zusammenfassenden Bericht über Medienqualität“ verwenden können.
+In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Zusammenfassenden Bericht über Medienqualität verwenden können.
 
-### <a name="media-quality-summary-report-filters"></a>Filter im „Zusammenfassenden Bericht über Medienqualität“
+### <a name="media-quality-summary-report-filters"></a>Filter im Zusammenfassenden Bericht über Medienqualität
 
 <table>
 <colgroup>
@@ -110,9 +110,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im „Zusammenfa
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Von</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 Uhr</p>
+<p>07.07.2012 13:00</p>
 <p>Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
@@ -120,9 +120,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im „Zusammenfa
 <p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Bis</strong></p></td>
+<td><p><strong>Ziel</strong></p></td>
 <td><p>Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 Uhr</p>
+<p>07.07.2012 13:00</p>
 <p>Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
@@ -133,7 +133,7 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im „Zusammenfa
 <td><p><strong>Zugriffstyp</strong></p></td>
 <td><p>Gibt an, ob der Client am internen oder am externen Netzwerk angemeldet wurde, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
-<li><p>[Alle]</p></li>
+<li><p>Alle</p></li>
 <li><p>Intern</p></li>
 <li><p>Extern</p></li>
 </ul></td>
@@ -142,16 +142,16 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im „Zusammenfa
 <td><p><strong>Netzwerktyp</strong></p></td>
 <td><p>Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
-<li><p>[Alle]</p></li>
-<li><p>Verkabelt</p></li>
-<li><p>Funk</p></li>
+<li><p>Alle</p></li>
+<li><p>Wired</p></li>
+<li><p>Drahtlos</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p><strong>VPN</strong></p></td>
 <td><p>Gibt an, ob ein externer Client eine VPN-Verbindung (Virtual Private Network) verwendete, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
-<li><p>[Alle]</p></li>
+<li><p>Alle</p></li>
 <li><p>VPN</p></li>
 <li><p>Nicht-VPN</p></li>
 </ul></td>
@@ -168,7 +168,7 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im „Zusammenfa
 
 In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden Bericht über Medienqualität angegeben werden.
 
-### <a name="media-quality-summary-report-metrics-audio-call-summary"></a>Metriken im „Zusammenfassenden Bericht über Medienqualität“: Zusammenfassung der Audioanrufe
+### <a name="media-quality-summary-report-metrics-audio-call-summary"></a>Metriken im "Zusammenfassenden Bericht über Medienqualität": Zusammenfassung der Audioanrufe
 
 <table>
 <colgroup>
@@ -189,7 +189,7 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 <td><p>Nein</p></td>
 <td><p>Wenn Sie auf dieses Element klicken, zeigt der Bericht Details zu den auf diesem Typ basierenden Anrufen. Es gibt folgende Anruftypen:</p>
 <ul>
-<li><p>UC-Peer-to-Peer-Anrufe</p></li>
+<li><p>UC-Peer-zu-Peer-Anrufe</p></li>
 <li><p>UC-Konferenzsitzungen</p></li>
 <li><p>PSTN-Konferenzsitzungen</p></li>
 <li><p>PSTN-Anrufe: Medienumgehung</p></li>
@@ -199,7 +199,7 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>Anruflautstärke</strong></p></td>
+<td><p><strong>Anrufvolumen</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Die Gesamtzahl der Anrufe pro Anruftyp.</p></td>
 </tr>
@@ -209,30 +209,30 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 <td><p>Die Gesamtzahl der Anrufe, die als Anrufe schlechter Qualität klassifiziert werden. Dies sind Anrufe, bei denen für mindestens eine der gemessenen Metriken der zulässige Wert überschritten wurde (z. B. ein Anruf mit übermäßigem Jitter).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Anruflautstärke (Funkanruf)</strong></p></td>
+<td><p><strong>Anrufvolumen (Funkanruf)</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Die Gesamtzahl der Anrufe, für die eine Funkverbindung verwendet wurde.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Anruflautstärke (VPN-Anruf)</strong></p></td>
+<td><p><strong>Anrufvolumen (VPN-Anruf)</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Die Gesamtzahl der Anrufe, für die eine VPN-Verbindung verwendet wurde.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Anruflautstärke (externer Anruf)</strong></p></td>
+<td><p><strong>Anrufvolumen (externer Anruf)</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die Gesamtzahl der Anrufe, für die eine externe Verbindung verwendet wurde (d. h. eine Verbindung außerhalb des internen Netzwerks).</p></td>
+<td><p>Die Gesamtzahl der Anrufe, für die eine externe Verbindung verwendet wurde (d. h. eine Verbindung außerhalb des internen Netzwerks).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Roundtrip (ms)</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die durchschnittliche Zeit (in Millisekunden), die ein RTP-Paket (Real-time Transport Protocol) benötigt, um zu einem anderen Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 100 ms oder weniger gilt als akzeptable Qualität.</p>
+<td><p>Die durchschnittliche Zeit (in Millisekunden), die ein RTP-Paket (Real-time Transport Protocol) benötigt, um zu einem anderen Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 100 ms oder weniger gilt als akzeptable Qualität.</p>
 <p>Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routingkonfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Beeinträchtigung (MOS)</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die durchschnittliche Beeinträchtigung der Qualität, die gemäß Mean Opinion Score (MOS) während eines Anrufs auftrat. Die Beeinträchtigungswerte liegen zwischen 0,0 (schlecht) und 5,0 (gut). Ein Wert von 0,5 oder weniger gilt als akzeptable Beeinträchtigung. Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ. In lync Server verwendet lync Server einen Satz von Algorithmen, um vorherzusagen, wie Benutzer einen Anruf bewertet hätten.</p>
+<td><p>Die durchschnittliche Beeinträchtigung der Qualität, die gemäß Mean Opinion Score (MOS) während eines Anrufs auftrat. Die Beeinträchtigungswerte liegen zwischen 0,0 (schlecht) und 5,0 (gut). Ein Wert von 0,5 oder besser gilt als akzeptable Beeinträchtigung. Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ. In lync Server verwendet lync Server eine Reihe von Algorithmen, um vorherzusagen, wie Benutzer einen Anruf bewertet hätten.</p>
 <p>Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
 </tr>
 <tr class="odd">
@@ -243,12 +243,12 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 <tr class="even">
 <td><p><strong>Jitter (ms)</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot;Zittern&quot; eines Anrufs.) Starke Jitterwerte werden in der Regel durch Überlastung oder einen überladenen Medienserver verursacht, was zu verzerrten oder verlorenen Audiodaten führt.</p></td>
+<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot;Zittern&quot; eines Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Ausblendungsverhältnis der Reparatur</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Das durchschnittliche Verhältnis zwischen ausgeblendeten Audiosamples und der Gesamtzahl der Samples. (Ausgeblendete Audiosamples sind ein Verfahren zum „Glätten“ der „holprigen“ Übertragung, die normalerweise von verworfenen Netzwerkpaketen verursacht wird.) Ein hoher Wert gibt an, dass wegen Paketverlusten oder Jitters Verlustausblendung in großem Umfang angewendet wurde und führt zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
+<td><p>Das durchschnittliche Verhältnis zwischen ausgeblendeten Audiosamples und der Gesamtzahl der Samples. (Ausgeblendete Audiosamples sind ein Verfahren zum "Glätten" der "holprigen" Übertragung, die normalerweise von verworfenen Netzwerkpaketen verursacht wird.) Ein hoher Wert gibt an, dass wegen Paketverlusten oder Jitters Verlustausblendung in großem Umfang angewendet wurde und führt zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Streckungsverhältnis der Reparatur</strong></p></td>
@@ -258,13 +258,13 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 <tr class="odd">
 <td><p><strong>Komprimierungsverhältnis der Reparatur</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Das durchschnittliche Verhältnis zwischen komprimierten Audiosamples und der Gesamtzahl der Samples. (Komprimiertes Audio sind Audiodaten, die komprimiert wurden, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplekomprimierung in hohem Umfang angewendet wurde und führt zu einer zu schnellen Sprachwiedergabe oder zu verzerrter Sprachqualität.</p></td>
+<td><p>Das durchschnittliche Verhältnis zwischen komprimierten Audiosamples und der Gesamtzahl der Samples. (Komprimiertes Audio sind Audiodaten, die komprimiert wurden, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplekomprimierung in hohem Umfang angewendet wurde und führt zu zu schneller Sprachwiedergabe oder zu verzerrter Sprachqualität.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="media-quality-summary-report-metrics-video-call-summary"></a>Metriken im „Zusammenfassenden Bericht über Medienqualität“: Zusammenfassung der Videoanrufe
+### <a name="media-quality-summary-report-metrics-video-call-summary"></a>Metriken im "Zusammenfassenden Bericht über Medienqualität": Zusammenfassung der Videoanrufe
 
 <table>
 <colgroup>
@@ -285,7 +285,7 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 <td><p>Nein</p></td>
 <td><p>Wenn Sie auf dieses Element klicken, zeigt der Bericht Details zu den auf diesem Typ basierenden Anrufen. Es gibt folgende Anruftypen:</p>
 <ul>
-<li><p>UC-Peer-to-Peer-Anrufe</p></li>
+<li><p>UC-Peer-zu-Peer-Anrufe</p></li>
 <li><p>UC-Konferenzsitzungen</p></li>
 <li><p>PSTN-Konferenzsitzungen</p></li>
 <li><p>PSTN-Anrufe: Medienumgehung</p></li>
@@ -295,7 +295,7 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>Anruflautstärke</strong></p></td>
+<td><p><strong>Anrufvolumen</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Die Gesamtzahl der Anrufe pro Anruftyp.</p></td>
 </tr>
@@ -305,17 +305,17 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 <td><p>Die Gesamtzahl der Anrufe, die als Anrufe schlechter Qualität klassifiziert werden. Dies sind Anrufe, bei denen für mindestens eine der gemessenen Metriken der zulässige Wert überschritten wurde (z. B. ein Anruf mit übermäßigem Jitter).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Anruflautstärke (Funkanruf)</strong></p></td>
+<td><p><strong>Anrufvolumen (Funkanruf)</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Die Gesamtzahl der Anrufe, für die eine Funkverbindung verwendet wurde.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Anruflautstärke (VPN-Anruf)</strong></p></td>
+<td><p><strong>Anrufvolumen (VPN-Anruf)</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Die Gesamtzahl der Anrufe, für die eine VPN-Verbindung verwendet wurde.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Anruflautstärke (externer Anruf)</strong></p></td>
+<td><p><strong>Anrufvolumen (externer Anruf)</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Die Gesamtzahl der Anrufe, für die eine externe Verbindung verwendet wurde (d. h. eine Verbindung außerhalb des internen Netzwerks).</p></td>
 </tr>
@@ -335,9 +335,9 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 <td><p>RTP-Paketverluste (Real-Time Transport Protocol) bei ausgehenden Paketen. (Zu Paketverlusten kommt es, wenn RTP-Pakete (ein Protokoll für die Übertragung von Audio und Video über das Internet) ihr Ziel nicht erreichen.) Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Eingefrorene Frames %</strong></p></td>
+<td><p><strong>Prozentzahl der eingefrorenen Frames</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Prozentsatz der „eingefrorenen“ Frames. In einem eingefrorenen Frame wird das Video nicht fortgesetzt, während der Audioteil des Anrufs weitergeht.</p></td>
+<td><p>Prozentsatz der "eingefrorenen" Frames. In einem eingefrorenen Frame wird das Video nicht fortgesetzt, während der Audioteil des Anrufs weitergeht.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Durchschnittliche ausgehende Framerate</strong></p></td>
@@ -357,13 +357,13 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 <tr class="even">
 <td><p><strong>Clientintegrität %</strong></p></td>
 <td></td>
-<td><p>Zeigt die relative Integrität des Clientgeräts während des Anrufs an.</p></td>
+<td><p>Gibt die relative Integrität des Clientgeräts während des Anrufs an.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="media-quality-summary-report-metrics-application-sharing-call-summary"></a>Metriken im „Zusammenfassenden Bericht über Medienqualität“: Zusammenfassung der Anwendungsfreigabeanrufe
+### <a name="media-quality-summary-report-metrics-application-sharing-call-summary"></a>Metriken im "Zusammenfassenden Bericht über Medienqualität": Zusammenfassung der Anwendungsfreigabeanrufe
 
 <table>
 <colgroup>
@@ -384,7 +384,7 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 <td><p>Nein</p></td>
 <td><p>Wenn Sie auf dieses Element klicken, zeigt der Bericht Details zu den auf diesem Typ basierenden Anrufen. Es gibt folgende Anruftypen:</p>
 <ul>
-<li><p>UC-Peer-to-Peer-Anrufe</p></li>
+<li><p>UC-Peer-zu-Peer-Anrufe</p></li>
 <li><p>UC-Konferenzsitzungen</p></li>
 <li><p>PSTN-Konferenzsitzungen</p></li>
 <li><p>PSTN-Anrufe: Medienumgehung</p></li>
@@ -394,7 +394,7 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>Anruflautstärke</strong></p></td>
+<td><p><strong>Anrufvolumen</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Die Gesamtzahl der Anrufe pro Anruftyp.</p></td>
 </tr>
@@ -404,37 +404,37 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Zusammenfassenden B
 <td><p>Die Gesamtzahl der Anrufe, die als Anrufe schlechter Qualität klassifiziert werden. Dies sind Anrufe, bei denen für mindestens eine der gemessenen Metriken der zulässige Wert überschritten wurde (z. B. ein Anruf mit übermäßigem Jitter).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Anruflautstärke (Funkanruf)</strong></p></td>
+<td><p><strong>Anrufvolumen (Funkanruf)</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Die Gesamtzahl der Anrufe, für die eine Funkverbindung verwendet wurde.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Anruflautstärke (VPN-Anruf)</strong></p></td>
+<td><p><strong>Anrufvolumen (VPN-Anruf)</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Die Gesamtzahl der Anrufe, für die eine VPN-Verbindung verwendet wurde.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Anruflautstärke (externer Anruf)</strong></p></td>
+<td><p><strong>Anrufvolumen (externer Anruf)</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Die Gesamtzahl der Anrufe, für die eine externe Verbindung verwendet wurde (d. h. eine Verbindung außerhalb des internen Netzwerks).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Jitter (ms)</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot;Zittern&quot; eines Anrufs.) Starke Jitterwerte werden in der Regel durch Überlastung oder einen überladenen Medienserver verursacht, was zu verzerrten oder verlorenen Audiodaten führt.</p></td>
+<td><p>Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde. (Jitter ist ein Maß für die &quot;Zittern&quot; eines Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Durchschnittliche relative unidirektionale Verzögerung</strong></p></td>
+<td><p><strong>Durchschnitt relativ unidirektional</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Durchschnittliche relative unidirektionale Verzögerung zwischen zwei Medienendpunkten. Dies ist ein Single-Hop-Latenzmaß.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Durchschnittliche Latenz der RDP-Kachelverarbeitung</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die durchschnittliche Latenz der RDP-Kachelverarbeitung im AS-Konferenzserver über die Dauer der Anzeigesitzung. Ein hoher Durchschnitt zeigt eine längere Verzögerung bei der Anzeige an und bezieht Netzwerklatenz mit ein. Ein überlasteter Konferenzserver weist gegebenenfalls höhere durchschnittliche Verzögerungen auf.</p></td>
+<td><p>Die durchschnittliche Latenz der RDP-Kachelverarbeitung im AS-Konferenzserver über die Dauer der Anzeigesitzung. Ein hoher Durchschnitt zeigt eine längere Verzögerung bei der Anzeige an und umfasst die Netzwerkwartezeit. Bei einem überlasteten Konferenzserver können längere durchschnittliche Verzögerungen auftreten.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Ungültige Kacheln insgesamt %</strong></p></td>
+<td><p><strong>Insgesamt schlechte Kacheln %</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Gesamtprozentsatz schlechter RDP-Kacheln.</p></td>
 </tr>

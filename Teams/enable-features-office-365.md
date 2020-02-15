@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eb6fa4a4b8aabcc84f70d6ce33c89fe0d84df98
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 87c78839c0c6998464ed362dc8a3c2e4798a2321
+ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834955"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035237"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 
@@ -60,6 +60,10 @@ In **Teams-Einstellungen** können Sie Features für Teams einrichten, einschlie
 #### <a name="notifications-and-feeds"></a>Benachrichtigungen und Feeds
 
 Hier können Sie steuern, ob vorgeschlagene Feeds im Aktivitätsfeed der Benutzer in Teams angezeigt werden. Weitere Informationen zum Aktivitätsfeed finden Sie unter [Kennenlernen des Aktivitätsfeeds in Microsoft Teams](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56).
+
+#### <a name="tagging"></a>Tagging
+
+Mithilfe von Tags können Benutzer mit einer Teilmenge von Personen in einem Team kommunizieren. Tags können einem oder mehreren Teammitgliedern hinzugefügt werden. Nachdem ein Tag hinzugefügt wurde, kann es von jedem Teammitglieder in @Erwähnungen in Kanalbeiträgen verwendet werden, um nur mit den Personen zu kommunizieren, denen das entsprechende Tag zugewiesen ist. Verwenden Sie diese Einstellungen, um zu steuern, wer Tags hinzufügen kann und wie Tags in Ihrer Organisation verwendet werden. Weitere Informationen hierzu finden Sie unter [Verwalten von Tags in Teams](manage-tags.md).
 
 #### <a name="email-integration"></a>E-Mail-Integration
 
@@ -109,7 +113,7 @@ Der ausgewählte Koexistenzmodus bestimmt, wie eingehende Anrufe und Chats weite
 
 #### <a name="app-preferences"></a>„App preferences“ (App-Einstellungen)
 
-Hier können Sie die App auswählen, die Benutzer für die Teilnahme an Skype for Business-Besprechungen verwenden (Skype for Business oder die [Skype-Besprechungs-App](https://support.office.com/de-DE/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Diese Einstellung ist nicht von der Einstellung für den Koexistenzmodus abhängig.
+Hier können Sie die App auswählen, die Benutzer für die Teilnahme an Skype for Business-Besprechungen verwenden (Skype for Business oder die [Skype-Besprechungs-App](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Diese Einstellung ist nicht von der Einstellung für den Koexistenzmodus abhängig.
 
 
 #### <a name="network-planner"></a>Netzwerkplaner
@@ -121,7 +125,7 @@ Sie können auch die Option „Teams-App im Hintergrund für Benutzer von Skype 
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Woran erkenne ich, welche Funktionen verfügbar sind?
 
-In der [Microsoft 365-Roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) finden Sie Informationen zu neuen Microsoft Teams-Funktionen. Weitere Informationen zu neuen und geplanten Funktionen finden Sie in Microsoft Teams auf der Seite [Neuigkeiten](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) und im [Microsoft Teams-Blog der Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+In der [Microsoft 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) finden Sie Informationen zu neuen Microsoft Teams-Funktionen. Weitere Informationen zu neuen und geplanten Funktionen finden Sie in Microsoft Teams auf der Seite [Neuigkeiten](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) und im [Microsoft Teams-Blog der Tech Community](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Weitere Informationen
 

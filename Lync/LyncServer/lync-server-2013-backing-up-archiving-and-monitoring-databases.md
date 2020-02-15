@@ -12,16 +12,16 @@ ms:contentKeyID: 51541515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4092ddc3c86496053cc0ebbb367188490096de4f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 955609f4d012489ba70dbb81f21a38e8261ef7f2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740165"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045087"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41740165"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-17_
+_**Letztes Änderungsstand des Themas:** 2013-02-17_
 
-Wenn Sie die Archivierung oder Überwachung bereitgestellt haben, müssen Sie diese Datenbanken entsprechend der SQL Server-Sicherungsrichtlinie Ihrer Organisation sichern.
+Wenn Sie Archivierungs- oder Überwachungsdatenbanken bereitgestellt haben, müssen Sie diese Datenbanken gemäß der SQL Server-Sicherungsrichtlinie Ihrer Organisation sichern.
 
 <div>
 
 
 > [!NOTE]  
-> Die Einstellungen für Archivierung und Überwachung werden beim Sichern des zentralen Verwaltungsspeichers gesichert. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-backing-up-core-data-and-settings.md">Sichern von Core-Daten und-Einstellungen in lync Server 2013</A>.
+> Die Einstellungen für die Archivierung und Überwachung werden gesichert, wenn Sie den zentralen Verwaltungsspeicher sichern. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-backing-up-core-data-and-settings.md">Sichern von Hauptdaten und Einstellungen in lync Server 2013</A>.
 
 
 
 </div>
 
-Zum Archivieren und überwachen können Sie ein SQL Server-Tool wie SQL Server Management Studio verwenden, um eine manuelle Sicherung durchzuführen, oder Sie können die SQL Server-Verwaltungstools verwenden, um reguläre automatische Sicherungen zu planen.
+Für die Archivierung und Überwachung können Sie ein SQL Server-Tool wie SQL Server Management Studio für manuelle Sicherungen oder SQL Server-Verwaltungstools für regelmäßige, automatische Sicherungen verwenden.
 
 </div>
 

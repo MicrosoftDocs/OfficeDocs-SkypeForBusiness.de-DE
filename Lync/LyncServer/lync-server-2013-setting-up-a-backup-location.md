@@ -12,16 +12,16 @@ ms:contentKeyID: 51541440
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 723bcbc2aeaae5264645d824a9b10a939b6770ab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e5b47a866b4ce1a731d282c78e09c1afb3c91af7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764631"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764631"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-17_
+_**Letztes Änderungsstand des Themas:** 2013-02-17_
 
-Bevor Sie die erste Sicherung von lync Server durchführen, richten Sie die Hardware und Software ein, die Sie benötigen, um die Sicherungen zu speichern und zu verwalten. Sie müssen je nach Bedarf Zugriff auf die Medien und Inhalte erhalten und die Netzwerkkonnektivität zwischen den einzelnen zu sichernden Servern und den Sicherungsmedien bereitstellen. Die von Ihnen verwendeten Medien und Standorte sollten in ihrer Sicherungs-und Wiederherstellungsstrategie definiert werden. Der Speicherort, den Sie für reguläre Sicherungen verwenden, kann lokal oder Remote sein, aber er muss sicher sein, und er muss für die Sicherung und Wiederherstellung zugänglich sein. Wir empfehlen, einen Remotestandort zu verwenden, um vor einem katastrophalen Ereignis an Ihrem primären Standort zu schützen.
+Bevor Sie die erste Sicherung von lync Server durchführen, richten Sie die Hardware und Software ein, die Sie benötigen, um die Sicherungen zu speichern und zu verwalten. Verschaffen Sie sich Zugriff auf die erforderlichen Medien und Inhalte, und stellen Sie die Netzwerkkonnektivität zwischen den einzelnen zu sichernden Servern und den Sicherungsmedien her. Die verwendeten Medien und Standorte sollten in der Sicherungs-und Wiederherstellungsstrategie definiert werden. Der Speicherort, den Sie für reguläre Sicherungen verwenden, kann lokal oder Remote sein, er muss jedoch sicher sein, und er muss sowohl für die Sicherung als auch für die Wiederherstellung zugänglich sein. Es wird empfohlen, einen Remotestandort zum Schutz vor einem katastrophalen Ereignis am primären Standort zu verwenden.
 
-Nachdem Sie die einzelnen Komponenten eingerichtet und getestet haben, überprüfen Sie die Barrierefreiheit der Sicherungen auf den einzelnen Servern.
+Überprüfen Sie nach dem Einrichten und Testen der einzelnen Komponenten, ob von jedem Server auf die Sicherungen zugegriffen werden kann.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Hinzufügen von Serverrollen'
+title: 'Lync Server 2013: Hinzufügen von Server Rollen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185033
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cb56bb77cdd190894f905f0ff0848b9f86dd9a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f80ce308640b249dc4b73af98a0c2206923abf84
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738025"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038517"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="adding-server-roles-in-lync-server-2013"></a>Hinzufügen von Serverrollen in Lync Server 2013
+# <a name="adding-server-roles-in-lync-server-2013"></a>Hinzufügen von Serverrollen in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41738025"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-19_
+_**Letztes Änderungsstand des Themas:** 2012-06-19_
 
-Nachdem Sie die erste Bereitstellung eingerichtet und ausgeführt haben, können Sie weitere Serverrollen für lync Server 2013 hinzufügen, beispielsweise einen Director oder einen eigenständigen Vermittlungsserver.
+Nachdem Sie die erste Bereitstellung gestartet haben, können Sie zusätzliche Serverrollen für lync Server 2013 hinzufügen, beispielsweise einen Director oder einen eigenständigen Vermittlungsserver.
 
 <div>
 
 
 > [!NOTE]  
-> Bevor Sie die Aufgabe der Installation zusätzlicher Serverrollen ausführen, lesen Sie die Planungsthemen, die sich auf jede Rolle beziehen.
+> Schlagen Sie vor der Installation zusätzlicher Serverrollen in den entsprechenden Planungsthemen zu den einzelnen Rollen nach.
 
 
 
@@ -53,9 +53,9 @@ Nachdem Sie die erste Bereitstellung eingerichtet und ausgeführt haben, können
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Konfigurieren von Einwahlkonferenzen in Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
+  - [Konfigurieren von Einwahlkonferenzen in lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
 
-Weitere Informationen zur Bereitstellung Ihrer Client Software und-Geräte, die mit lync Server 2013 verwendet werden können, finden Sie unter [Bereitstellen von Clients und Geräten in lync Server 2013](lync-server-2013-deploying-clients-and-devices.md).
+Weitere Informationen zur Bereitstellung der Client Software und der Geräte, die mit lync Server 2013 verwendet werden können, finden Sie unter [Deploying Clients and Devices in lync Server 2013](lync-server-2013-deploying-clients-and-devices.md).
 
 </div>
 

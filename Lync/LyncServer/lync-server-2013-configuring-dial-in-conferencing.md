@@ -12,20 +12,20 @@ ms:contentKeyID: 48184587
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d722abaf76ef915b7587039cb7732cb281a06308
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ef825aa799cdcdec66903e002791f30d9b4cac00
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758139"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046418"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a>Konfigurieren von Einwahlkonferenzen in Lync Server 2013
+# <a name="configuring-dial-in-conferencing-in-lync-server-2013"></a>Konfigurieren von Einwahlkonferenzen in lync Server 2013
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41758139"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-10-03_
+_**Letztes Änderungsstand des Themas:** 2014-10-03_
 
-Dieser Abschnitt führt Sie durch die Konfiguration der lync Server 2013-Einwahlkonferenzen.
+Dieser Abschnitt führt Sie durch die Konfiguration von lync Server 2013 Einwahlkonferenzen.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Konfigurationsvoraussetzungen und -berechtigungen für Einwahlkonferenzen in Lync Server 2013](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
+  - [Voraussetzungen und Berechtigungen für die Einwahlkonferenz Konfiguration in lync Server 2013](lync-server-2013-dial-in-conferencing-configuration-prerequisites-and-permissions.md)
 
-  - [Prüfliste zur Bereitstellung für Einwahlkonferenzen in Lync Server 2013](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
+  - [Prüfliste für die Bereitstellung von Einwahlkonferenzen in lync Server 2013](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
 
-  - [Konfigurieren von Wählplänen für Einwahlkonferenzen in Lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
+  - [Konfigurieren von Wählplänen für Einwahlkonferenzen in lync Server 2013](lync-server-2013-configure-dial-plans-for-dial-in-conferencing.md)
 
-  - [Sicherstellen, dass die Wähleinstellungen lync Server 2013 Regionen zugewiesen haben](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
+  - [Sicherstellen, dass den Wählplänen lync Server 2013 zugewiesene Regionen zugewiesen sind](lync-server-2013-make-sure-dial-plans-have-assigned-regions.md)
 
-  - [(Optional) Überprüfen der PIN-Richtlinieneinstellungen in Lync Server 2013](lync-server-2013-optional-verify-pin-policy-settings.md)
+  - [Optional Überprüfen der PIN-Richtlinieneinstellungen in lync Server 2013](lync-server-2013-optional-verify-pin-policy-settings.md)
 
-  - [Konfigurieren von Konferenzrichtlinien für die Einwahl in Lync Server 2013](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
+  - [Konfigurieren von Konferenzrichtlinien für die Einwahl in lync Server 2013](lync-server-2013-configure-conferencing-policy-for-dial-in.md)
 
-  - [Konfigurieren von Einwahlnummern für Einwahlkonferenzen in Lync Server 2013](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
+  - [Konfigurieren von Zugriffsnummern für Einwahlkonferenzen in lync Server 2013](lync-server-2013-configure-dial-in-conferencing-access-numbers.md)
 
-  - [(Optional) Überprüfen der Einwahlkonferenzeinstellungen in Lync Server 2013](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
+  - [Optional Überprüfen der Einstellungen für Einwahlkonferenzen in lync Server 2013](lync-server-2013-optional-verify-dial-in-conferencing-settings.md)
 
-  - [(Optional) Ändern der Tastenzuordnung für DTMF-Befehle in Lync Server 2013](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
+  - [Optional Ändern der Tastenzuordnung für DTMF-Befehle in lync Server 2013](lync-server-2013-optional-modify-key-mapping-for-dtmf-commands.md)
 
-  - [(Optional) Aktivieren und Deaktivieren von Konferenzankündigungen beim Beitreten und Verlassen in Lync Server 2013](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
+  - [Optional Aktivieren und Deaktivieren von Konferenz Anmeldungen und Abwesenheits Ankündigungen in lync Server 2013](lync-server-2013-optional-enable-and-disable-conference-join-and-leave-announcements.md)
 
-  - [(Optional) Überprüfen von Einwahlkonferenzen in Lync Server 2013](lync-server-2013-optional-verify-dial-in-conferencing.md)
+  - [Optional Überprüfen von Einwahlkonferenzen in lync Server 2013](lync-server-2013-optional-verify-dial-in-conferencing.md)
 
   - [Bereitstellen des Onlinebesprechungs-Add-Ins für Lync 2013](lync-server-2013-deploy-the-online-meeting-add-in-for-lync-2013.md)
 
-  - [Konfigurieren der Benutzerkontoeinstellungen  in Lync Server 2013](lync-server-2013-configure-user-account-settings.md)
+  - [Konfigurieren von Benutzerkontoeinstellungen in lync Server 2013](lync-server-2013-configure-user-account-settings.md)
 
-  - [(Recommended) Create Conference Directories](recommended-create-conference-directories.md)
+  - [Empfohlen Erstellen von Konferenz Verzeichnissen](recommended-create-conference-directories.md)
 
-  - [(Optional) Einladen von Benutzern zu Einwahlkonferenzen in Lync Server 2013](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
+  - [Optional Begrüßen von Benutzern für Einwahlkonferenzen in lync Server 2013](lync-server-2013-optional-welcome-users-to-dial-in-conferencing.md)
 
 </div>
 
@@ -79,7 +79,7 @@ Dieser Abschnitt führt Sie durch die Konfiguration der lync Server 2013-Einwahl
 
 ## <a name="related-sections"></a>Verwandte Abschnitte
 
-[Bereitstellen von Lync Server 2013](lync-server-2013-deploying-lync-server.md)
+[Bereitstellen von Lync Server 2013](lync-server-2013-deploying-lync-server.md)
 
 </div>
 

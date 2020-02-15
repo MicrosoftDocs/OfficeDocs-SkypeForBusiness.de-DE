@@ -12,20 +12,20 @@ ms:contentKeyID: 48183951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58d0b309e87dddb621d6c3a90b16b6c2e02845df
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9a86cd9f39da6161984025073944373727dbe91a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764541"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039809"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-the-director-in-lync-server-2013"></a>Einrichten des Directors in Lync Server 2013
+# <a name="setting-up-the-director-in-lync-server-2013"></a>Einrichten des Directors in lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41764541"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-05-05_
+_**Letztes Änderungsstand des Themas:** 2014-05-05_
 
-Wenn Sie den Zugriff für externe Benutzer durch die Bereitstellung von Edge-Servern aktivieren, besteht eine Möglichkeit darin, einen Director bereitzustellen. Bei einem Director handelt es sich um einen Server mit Microsoft lync Server 2013, der Benutzeranforderungen authentifiziert, jedoch keine Benutzerkonten zu Hause verwendet. Nun ist dies keine Voraussetzung, aber es ist sehr hilfreich, wenn Sie sich um die Leistung sorgen und die Optimierung von Authentifizierungsanforderungen unterstützen möchten. Wenn Sie entscheiden, dass dies eine gute Idee für Ihre Organisation ist, sind die Schritte zum Einrichten eines Director-oder Director-Pools mit dem Einrichten eines Enterprise Edition-Front-End-Pools oder eines Standard Edition-Servers vergleichbar. Nachdem Sie die Directors in Topology Builder definiert haben, müssen Sie die Schritte in diesem Abschnitt ausführen.
+Wenn Sie den Zugriff für externe Benutzer durch die Bereitstellung von Edge-Servern aktivieren, besteht die Möglichkeit, einen Director bereitzustellen. Bei einem Director handelt es sich um einen Server mit Microsoft lync Server 2013, der Benutzeranforderungen authentifiziert, jedoch keine Benutzerkonten zu Hause ausführt. Nun ist dies keine Voraussetzung, aber es ist sehr hilfreich, wenn Sie sich Sorgen um die Leistung machen und die Optimierung von Authentifizierungsanforderungen erleichtern möchten. Wenn Sie entscheiden, dass dies eine gute Idee für Ihre Organisation ist, ähneln die Schritte zum Einrichten eines Directors oder Directorpool dem Einrichten einer Enterprise Edition-Front-End-Pool oder eines Standard Edition-Server. Nachdem Sie Ihre (n) Directors im Topologie-Generator definiert haben, müssen Sie die Schritte in diesem Abschnitt durchführen.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Installieren des lokalen Konfigurationsspeichers in Lync Server 2013](lync-server-2013-install-the-local-configuration-store.md)
+  - [Installieren des lokalen Konfigurationsspeichers in lync Server 2013](lync-server-2013-install-the-local-configuration-store.md)
 
   - [Installieren von Lync Server 2013 auf dem Director](lync-server-2013-install-lync-server-on-the-director.md)
 
-  - [Konfigurieren von Zertifikaten für den Director in Lync Server 2013](lync-server-2013-configure-certificates-for-the-director.md)
+  - [Konfigurieren von Zertifikaten für den Director in lync Server 2013](lync-server-2013-configure-certificates-for-the-director.md)
 
-  - [Starten von Diensten auf dem Director in Lync Server 2013](lync-server-2013-start-services-on-the-director.md)
+  - [Starten von Diensten auf dem Director in lync Server 2013](lync-server-2013-start-services-on-the-director.md)
 
-  - [Testen des Directors in Lync Server 2013](lync-server-2013-test-the-director.md)
+  - [Testen des Directors in lync Server 2013](lync-server-2013-test-the-director.md)
 
-  - [Konfigurieren der automatischen Clientanmeldung zur Verwendung des Directors in Lync Server 2013](lync-server-2013-configure-automatic-client-sign-in-to-use-the-director.md)
+  - [Konfigurieren der automatischen Client Anmeldung zur Verwendung des Directors in lync Server 2013](lync-server-2013-configure-automatic-client-sign-in-to-use-the-director.md)
 
 </div>
 
