@@ -12,20 +12,20 @@ ms:contentKeyID: 48183730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 429c68ad96d4738b835f549a5f355e6c133ead74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4609f588eec8d68ec163abd8a15a44f5f88a7620
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728535"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044087"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dedicated-meeting-organizers-in-lync-server-2013"></a><span data-ttu-id="ba006-102">Dedizierte Besprechungsorganisatoren in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ba006-102">Dedicated meeting organizers in Lync Server 2013</span></span>
+# <a name="dedicated-meeting-organizers-in-lync-server-2013"></a><span data-ttu-id="b95a0-102">Dedizierte Besprechungsorganisatoren in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b95a0-102">Dedicated meeting organizers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41728535"
 
 <span> </span>
 
-<span data-ttu-id="ba006-103">_**Letztes Änderungsdatum des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="ba006-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="b95a0-103">_**Letztes Änderungsstand des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="b95a0-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="ba006-104">Zum Minimieren des Echt Zeit Datenverkehrs im großzügigen Besprechungs Pool empfehlen wir nicht das Hosten von Benutzern, die sich regelmäßig mit lync-Clients anmelden und an Instant Messaging (im), Anwesenheits-, Konferenz-und sprach Sitzungen teilnehmen.</span><span class="sxs-lookup"><span data-stu-id="ba006-104">To minimize the real-time communications traffic in the large-meeting pool, we do not recommend hosting users who regularly sign in using Lync clients and participate in instant messaging (IM), presence, conferencing, and voice sessions.</span></span> <span data-ttu-id="ba006-105">Stattdessen wird empfohlen, eine der folgenden Aktionen auszuführen:</span><span class="sxs-lookup"><span data-stu-id="ba006-105">Instead, we recommend doing one of the following:</span></span>
+<span data-ttu-id="b95a0-p101">Zur Minimierung des Datenverkehrs bei Echtzeitkommunikationen in großen Besprechungspools wird davon abgeraten, Benutzer zu hosten, die sich regelmäßig mit Lync-Clients anmelden und an Chat-, Anwesenheits-, Konferenz- und Sprachsitzungen teilnehmen. Stattdessen wird eine der folgenden Vorgehensweisen empfohlen:</span><span class="sxs-lookup"><span data-stu-id="b95a0-p101">To minimize the real-time communications traffic in the large-meeting pool, we do not recommend hosting users who regularly sign in using Lync clients and participate in instant messaging (IM), presence, conferencing, and voice sessions. Instead, we recommend doing one of the following:</span></span>
 
-  - <span data-ttu-id="ba006-106">Erstellen Sie ein oder mehrere dedizierte Benutzerkonten nur zum Planen großer Besprechungen, oder</span><span class="sxs-lookup"><span data-stu-id="ba006-106">Create one or more dedicated user accounts just for scheduling large meetings, or</span></span>
+  - <span data-ttu-id="b95a0-106">Erstellen Sie ein oder mehrere dedizierte Benutzerkonten nur für die Planung großer Besprechungen -ODER-</span><span class="sxs-lookup"><span data-stu-id="b95a0-106">Create one or more dedicated user accounts just for scheduling large meetings, or</span></span>
 
-  - <span data-ttu-id="ba006-107">Home die Benutzerkonten der Mitarbeiter, die für die Planung großer Besprechungen in einem großzügigen Besprechungs Pool verantwortlich sind.</span><span class="sxs-lookup"><span data-stu-id="ba006-107">Home the user accounts of the staff responsible for scheduling large meetings on a large-meeting pool.</span></span>
+  - <span data-ttu-id="b95a0-107">Verwalten Sie die Benutzerkonten der Mitarbeiter, die für die Planung großer Besprechungen zuständig sind, in einem großen Besprechungspool</span><span class="sxs-lookup"><span data-stu-id="b95a0-107">Home the user accounts of the staff responsible for scheduling large meetings on a large-meeting pool.</span></span>
 
-<span data-ttu-id="ba006-108">In beiden Fällen sollten die Benutzerkonten, die sich im Pool für große Besprechungen befinden, nicht verwendet werden, um sich regelmäßig bei lync anzumeldeten, außer zum Planen von Besprechungen.</span><span class="sxs-lookup"><span data-stu-id="ba006-108">In either case, the user accounts that are homed on the large-meeting pool should not be used to regularly sign in to Lync, other than to schedule meetings.</span></span>
+<span data-ttu-id="b95a0-108">In beiden Fällen sollten die Benutzerkonten, die im großen Besprechungspool verwaltet werden, nicht für die regelmäßige Anmeldung bei Lync, sondern nur für die Planung von Besprechungen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="b95a0-108">In either case, the user accounts that are homed on the large-meeting pool should not be used to regularly sign in to Lync, other than to schedule meetings.</span></span>
 
 </div>
 

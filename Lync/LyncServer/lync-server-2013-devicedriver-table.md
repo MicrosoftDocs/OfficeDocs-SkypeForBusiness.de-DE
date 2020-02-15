@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: DeviceDriver-Tabelle'
+title: 'Lync Server 2013: ACPITreiber-Tabelle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f52354a153f155f57ce6466ea8082b63ef105e34
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b7431be7ceb964aead28b3c9fa76593c9dda891a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762363"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044857"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="devicedriver-table-in-lync-server-2013"></a><span data-ttu-id="d0945-102">DeviceDriver-Tabelle in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0945-102">DeviceDriver table in Lync Server 2013</span></span>
+# <a name="devicedriver-table-in-lync-server-2013"></a><span data-ttu-id="968cd-102">ACPITreiber-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="968cd-102">DeviceDriver table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762363"
 
 <span> </span>
 
-<span data-ttu-id="d0945-103">_**Letztes Änderungsdatum des Themas:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="d0945-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="968cd-103">_**Letztes Änderungsstand des Themas:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="968cd-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="d0945-104">Die Tabelle ACPITreiber ist eine unterstützende Tabelle.</span><span class="sxs-lookup"><span data-stu-id="d0945-104">The DeviceDriver table is a supporting table.</span></span> <span data-ttu-id="d0945-105">Jeder Datensatz steht für einen Treiber, der entweder von einem Aufnahmegerät oder einem Render-Gerät verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="d0945-105">Each record represents a driver used by either a capture device or render device.</span></span>
+<span data-ttu-id="968cd-104">Die ACPITreiber-Tabelle ist eine unterstützende Tabelle.</span><span class="sxs-lookup"><span data-stu-id="968cd-104">The DeviceDriver table is a supporting table.</span></span> <span data-ttu-id="968cd-105">Jeder Datensatz stellt einen Treiber dar, der von einem Capture-Gerät oder einem Render-Gerät verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="968cd-105">Each record represents a driver used by either a capture device or render device.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "41762363"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="d0945-106"><strong>Spalte</strong></span><span class="sxs-lookup"><span data-stu-id="d0945-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="d0945-107"><strong>Datentyp</strong></span><span class="sxs-lookup"><span data-stu-id="d0945-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="d0945-108"><strong>Schlüssel/Index</strong></span><span class="sxs-lookup"><span data-stu-id="d0945-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="d0945-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="d0945-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="968cd-106"><strong>Spalte</strong></span><span class="sxs-lookup"><span data-stu-id="968cd-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="968cd-107"><strong>Datentyp</strong></span><span class="sxs-lookup"><span data-stu-id="968cd-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="968cd-108"><strong>Schlüssel/Index</strong></span><span class="sxs-lookup"><span data-stu-id="968cd-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="968cd-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="968cd-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d0945-110"><strong>DeviceDriverKey</strong></span><span class="sxs-lookup"><span data-stu-id="d0945-110"><strong>DeviceDriverKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="d0945-111">int</span><span class="sxs-lookup"><span data-stu-id="d0945-111">int</span></span></p></td>
-<td><p><span data-ttu-id="d0945-112">Primary</span><span class="sxs-lookup"><span data-stu-id="d0945-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="d0945-113">Eindeutige Nummer, die diesen Gerätetreiber Eintrag kennzeichnet.</span><span class="sxs-lookup"><span data-stu-id="d0945-113">Unique number identifying this device driver record.</span></span></p></td>
+<td><p><span data-ttu-id="968cd-110"><strong>DeviceDriverKey</strong></span><span class="sxs-lookup"><span data-stu-id="968cd-110"><strong>DeviceDriverKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="968cd-111">int</span><span class="sxs-lookup"><span data-stu-id="968cd-111">int</span></span></p></td>
+<td><p><span data-ttu-id="968cd-112">Primary</span><span class="sxs-lookup"><span data-stu-id="968cd-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="968cd-113">Eindeutige Zahl, die diesen Gerätetreiber Eintrag identifiziert.</span><span class="sxs-lookup"><span data-stu-id="968cd-113">Unique number identifying this device driver record.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d0945-114"><strong>DeviceDriver</strong></span><span class="sxs-lookup"><span data-stu-id="d0945-114"><strong>DeviceDriver</strong></span></span></p></td>
-<td><p><span data-ttu-id="d0945-115">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="d0945-115">varchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="d0945-116">eindeutigen</span><span class="sxs-lookup"><span data-stu-id="d0945-116">unique</span></span></p></td>
-<td><p><span data-ttu-id="d0945-117">Name des Gerätetreibers</span><span class="sxs-lookup"><span data-stu-id="d0945-117">Device driver name.</span></span></p></td>
+<td><p><span data-ttu-id="968cd-114"><strong>ACPITreiber</strong></span><span class="sxs-lookup"><span data-stu-id="968cd-114"><strong>DeviceDriver</strong></span></span></p></td>
+<td><p><span data-ttu-id="968cd-115">varchar (256)</span><span class="sxs-lookup"><span data-stu-id="968cd-115">varchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="968cd-116">eindeutige</span><span class="sxs-lookup"><span data-stu-id="968cd-116">unique</span></span></p></td>
+<td><p><span data-ttu-id="968cd-117">Gerätetreiber Name.</span><span class="sxs-lookup"><span data-stu-id="968cd-117">Device driver name.</span></span></p></td>
 </tr>
 </tbody>
 </table>

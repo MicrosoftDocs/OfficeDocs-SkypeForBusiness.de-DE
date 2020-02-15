@@ -12,20 +12,20 @@ ms:contentKeyID: 48184916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f1d9c1b504ac3b38948e04ed10cfe6d6e2b2744
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 961c6f70c5ca115824c71cf5366cb5f3610fd1fb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743115"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044517"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-diagnostic-reports-per-user-in-lync-server-2013"></a><span data-ttu-id="e8339-102">Anruf Diagnoseberichte (pro Benutzer) in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e8339-102">Call Diagnostic Reports (per user) in Lync Server 2013</span></span>
+# <a name="call-diagnostic-reports-per-user-in-lync-server-2013"></a><span data-ttu-id="aad27-102">Anruf Diagnoseberichte (pro Benutzer) in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aad27-102">Call Diagnostic Reports (per user) in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41743115"
 
 <span> </span>
 
-<span data-ttu-id="e8339-103">_**Letztes Änderungsdatum des Themas:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="e8339-103">_**Topic Last Modified:** 2012-10-21_</span></span>
+<span data-ttu-id="aad27-103">_**Letztes Änderungsstand des Themas:** 2012-10-21_</span><span class="sxs-lookup"><span data-stu-id="aad27-103">_**Topic Last Modified:** 2012-10-21_</span></span>
 
-<span data-ttu-id="e8339-104">Die Anrufdiagnoseberichte bieten Informationen für einzelne Benutzer über fehlerhafte Peer-to-Peer- und Konferenzsitzungen.</span><span class="sxs-lookup"><span data-stu-id="e8339-104">The Call Diagnostic Reports provide per-user information about failed peer-to-peer and conferencing sessions.</span></span>
+<span data-ttu-id="aad27-104">Die Anrufdiagnoseberichte bieten Informationen für einzelne Benutzer über fehlerhafte Peer-zu-Peer- und Konferenzsitzungen.</span><span class="sxs-lookup"><span data-stu-id="aad27-104">The Call Diagnostic Reports provide per-user information about failed peer-to-peer and conferencing sessions.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e8339-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="e8339-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="aad27-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="aad27-105">In This Section</span></span>
 
-  - <span data-ttu-id="e8339-106">[Der Benutzer Aktivitätsbericht in lync Server 2013](lync-server-2013-user-activity-report.md)   enthält Informationen zu Peer-to-Peer-und Konferenz Aktivitäten für jeden Benutzer.</span><span class="sxs-lookup"><span data-stu-id="e8339-106">[User Activity Report in Lync Server 2013](lync-server-2013-user-activity-report.md)   Provides information about peer-to-peer and conference activities for each of your users.</span></span>
+  - <span data-ttu-id="aad27-106">[Der Bericht über Benutzeraktivität in lync Server 2013](lync-server-2013-user-activity-report.md)   enthält Informationen über Peer-to-Peer-und Konferenz Aktivitäten für jeden Ihrer Benutzer.</span><span class="sxs-lookup"><span data-stu-id="aad27-106">[User Activity Report in Lync Server 2013](lync-server-2013-user-activity-report.md)   Provides information about peer-to-peer and conference activities for each of your users.</span></span>
 
 </div>
 

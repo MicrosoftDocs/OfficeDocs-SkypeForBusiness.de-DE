@@ -12,20 +12,20 @@ ms:contentKeyID: 48183320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 110bd0b96f16c986cffeaffc58085e597a44bd47
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 29b2ccd96d014207b768fd27583486e721851046
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762323"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044677"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="dial-in-conferencing-cmdlets-in-lync-server-2013"></a><span data-ttu-id="1a5d9-102">Cmdlets für Einwahlkonferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1a5d9-102">Dial-in conferencing cmdlets in Lync Server 2013</span></span>
+# <a name="dial-in-conferencing-cmdlets-in-lync-server-2013"></a><span data-ttu-id="751a9-102">Cmdlets für Einwahlkonferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="751a9-102">Dial-in conferencing cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,90 +35,90 @@ ms.locfileid: "41762323"
 
 <span> </span>
 
-<span data-ttu-id="1a5d9-103">_**Letztes Änderungsdatum des Themas:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="1a5d9-103">_**Topic Last Modified:** 2012-03-21_</span></span>
+<span data-ttu-id="751a9-103">_**Letztes Änderungsstand des Themas:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="751a9-103">_**Topic Last Modified:** 2012-03-21_</span></span>
 
-<span data-ttu-id="1a5d9-104">Einwahlkonferenzen bieten Benutzern die Möglichkeit, ein "normales" Telefon (also ein Gerät im öffentlich geschalteten Telefon Netzwerk) für die Teilnahme am Audioteil einer Konferenz zu verwenden.</span><span class="sxs-lookup"><span data-stu-id="1a5d9-104">Dial-in conferencing provides a way for users to use a "regular" telephone (that is, a device on the public switched telephone network) to join the audio portion of a conference.</span></span>
+<span data-ttu-id="751a9-104">Mithilfe der Funktion für Einwahlkonferenzen können Benutzer mit einem "normalen" Telefon (d. h. einem Gerät im Telefonfestnetz [Public Switched Telephone Network, PSTN]) am Audioteil einer Konferenz teilnehmen.</span><span class="sxs-lookup"><span data-stu-id="751a9-104">Dial-in conferencing provides a way for users to use a "regular" telephone (that is, a device on the public switched telephone network) to join the audio portion of a conference.</span></span>
 
 <div>
 
-## <a name="dial-in-conferencing-cmdlets"></a><span data-ttu-id="1a5d9-105">Cmdlets für Einwahlkonferenzen</span><span class="sxs-lookup"><span data-stu-id="1a5d9-105">Dial-In Conferencing Cmdlets</span></span>
+## <a name="dial-in-conferencing-cmdlets"></a><span data-ttu-id="751a9-105">Cmdlets für Einwahlkonferenzen</span><span class="sxs-lookup"><span data-stu-id="751a9-105">Dial-In Conferencing Cmdlets</span></span>
 
-<span data-ttu-id="1a5d9-106">Wenn Sie keine Einwahlkonferenzen zulassen möchten, können Sie diese Funktion deaktivieren, indem Sie das Cmdlet "festlegen-CsConferencingPolicy" verwenden und die EnableDialInConferencing-Eigenschaft auf "false" festlegen.</span><span class="sxs-lookup"><span data-stu-id="1a5d9-106">If you do not want to allow dial-in conferencing you can disable this capability by using the Set-CsConferencingPolicy cmdlet and setting the EnableDialInConferencing property to False.</span></span> <span data-ttu-id="1a5d9-107">Standardmäßig können alle Benutzer Besprechungen hosten, die Einwahlkonferenzen umfassen.</span><span class="sxs-lookup"><span data-stu-id="1a5d9-107">By default, all users are allowed to host meetings that include dial-in conferencing.</span></span>
+<span data-ttu-id="751a9-p101">Wenn Sie keine Einwahlkonferenzen zulassen möchten, können Sie diese Funktion mit dem Cmdlet "Set-CsConferencingPolicy" deaktivieren, indem Sie die Einstellung "EnableDialInConferencing" auf "False" festlegen. In der Standardeinstellung können alle Benutzer Besprechungen hosten, welche die Einwahlkonferenzfunktion umfassen.</span><span class="sxs-lookup"><span data-stu-id="751a9-p101">If you do not want to allow dial-in conferencing you can disable this capability by using the Set-CsConferencingPolicy cmdlet and setting the EnableDialInConferencing property to False. By default, all users are allowed to host meetings that include dial-in conferencing.</span></span>
 
-<span data-ttu-id="1a5d9-108">**Einwahlkonferenzen**</span><span class="sxs-lookup"><span data-stu-id="1a5d9-108">**Dial-In Conferencing**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="1a5d9-109">[Get-CsConferenceDirectory](https://technet.microsoft.com/en-us/library/Gg425771(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-109">[Get-CsConferenceDirectory](https://technet.microsoft.com/en-us/library/Gg425771(v=OCS.15))</span></span>
+<span data-ttu-id="751a9-108">**Einwahlkonferenzen**</span><span class="sxs-lookup"><span data-stu-id="751a9-108">**Dial-In Conferencing**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-110">[Move-CsConferenceDirectory](https://technet.microsoft.com/en-us/library/Gg412968(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-110">[Move-CsConferenceDirectory](https://technet.microsoft.com/en-us/library/Gg412968(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-109">[Get-CsConferenceDirectory](https://technet.microsoft.com/library/Gg425771(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-109">[Get-CsConferenceDirectory](https://technet.microsoft.com/library/Gg425771(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-111">[New-CsConferenceDirectory](https://technet.microsoft.com/en-us/library/Gg413080(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-111">[New-CsConferenceDirectory](https://technet.microsoft.com/en-us/library/Gg413080(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-110">[CsConferenceDirectory](https://technet.microsoft.com/library/Gg412968(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-110">[Move-CsConferenceDirectory](https://technet.microsoft.com/library/Gg412968(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-112">[Remove-CsConferenceDirectory](rehttps://technet.microsoft.com/en-us/library/Gg412968(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-112">[Remove-CsConferenceDirectory](rehttps://technet.microsoft.com/en-us/library/Gg412968(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-111">[New-CsConferenceDirectory](https://technet.microsoft.com/library/Gg413080(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-111">[New-CsConferenceDirectory](https://technet.microsoft.com/library/Gg413080(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="751a9-112">[Remove-CsConferenceDirectory](rehttps://technet.microsoft.com/library/Gg412968(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-112">[Remove-CsConferenceDirectory](rehttps://technet.microsoft.com/library/Gg412968(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-113">[Test-CsDialInConferencing](https://technet.microsoft.com/en-us/library/Gg399013(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-113">[Test-CsDialInConferencing](https://technet.microsoft.com/en-us/library/Gg399013(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-113">[Test-CsDialInConferencing](https://technet.microsoft.com/library/Gg399013(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-113">[Test-CsDialInConferencing](https://technet.microsoft.com/library/Gg399013(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-114">[Get-CsDialInConferencingAccessNumber](https://technet.microsoft.com/en-us/library/Gg413015(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-114">[Get-CsDialInConferencingAccessNumber](https://technet.microsoft.com/en-us/library/Gg413015(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-114">[Get-CsDialInConferencingAccessNumber](https://technet.microsoft.com/library/Gg413015(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-114">[Get-CsDialInConferencingAccessNumber](https://technet.microsoft.com/library/Gg413015(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-115">[New-CsDialInConferencingAccessNumber](https://technet.microsoft.com/en-us/library/Gg398818(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-115">[New-CsDialInConferencingAccessNumber](https://technet.microsoft.com/en-us/library/Gg398818(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-115">[New-CsDialInConferencingAccessNumber](https://technet.microsoft.com/library/Gg398818(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-115">[New-CsDialInConferencingAccessNumber](https://technet.microsoft.com/library/Gg398818(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-116">[Remove-CsDialInConferencingAccessNumber](https://technet.microsoft.com/en-us/library/Gg412782(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-116">[Remove-CsDialInConferencingAccessNumber](https://technet.microsoft.com/en-us/library/Gg412782(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-116">[Remove-CsDialInConferencingAccessNumber](https://technet.microsoft.com/library/Gg412782(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-116">[Remove-CsDialInConferencingAccessNumber](https://technet.microsoft.com/library/Gg412782(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-117">[Set-CsDialInConferencingAccessNumber](https://technet.microsoft.com/en-us/library/Gg425770(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-117">[Set-CsDialInConferencingAccessNumber](https://technet.microsoft.com/en-us/library/Gg425770(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-117">[Gruppe-CsDialInConferencingAccessNumber](https://technet.microsoft.com/library/Gg425770(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-117">[Set-CsDialInConferencingAccessNumber](https://technet.microsoft.com/library/Gg425770(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-118">[Get-CsDialInConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg398575(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-118">[Get-CsDialInConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg398575(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-118">[Get-CsDialInConferencingConfiguration](https://technet.microsoft.com/library/Gg398575(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-118">[Get-CsDialInConferencingConfiguration](https://technet.microsoft.com/library/Gg398575(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-119">[New-CsDialInConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg412816(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-119">[New-CsDialInConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg412816(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-119">[New-CsDialInConferencingConfiguration](https://technet.microsoft.com/library/Gg412816(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-119">[New-CsDialInConferencingConfiguration](https://technet.microsoft.com/library/Gg412816(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-120">[Remove-CsDialInConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg398174(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-120">[Remove-CsDialInConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg398174(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-120">[Remove-CsDialInConferencingConfiguration](https://technet.microsoft.com/library/Gg398174(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-120">[Remove-CsDialInConferencingConfiguration](https://technet.microsoft.com/library/Gg398174(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-121">[Set-CsDialInConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg425825(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-121">[Set-CsDialInConferencingConfiguration](https://technet.microsoft.com/en-us/library/Gg425825(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-121">[Gruppe-CsDialInConferencingConfiguration](https://technet.microsoft.com/library/Gg425825(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-121">[Set-CsDialInConferencingConfiguration](https://technet.microsoft.com/library/Gg425825(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-122">[Get-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/en-us/library/Gg398578(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-122">[Get-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/en-us/library/Gg398578(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-122">[Get-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/library/Gg398578(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-122">[Get-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/library/Gg398578(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-123">[New-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/en-us/library/Gg425792(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-123">[New-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/en-us/library/Gg425792(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-123">[New-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/library/Gg425792(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-123">[New-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/library/Gg425792(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-124">[Remove-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/en-us/library/Gg425894(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-124">[Remove-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/en-us/library/Gg425894(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-124">[Remove-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/library/Gg425894(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-124">[Remove-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/library/Gg425894(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-125">[Set-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/en-us/library/Gg398860(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-125">[Set-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/en-us/library/Gg398860(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-125">[Gruppe-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/library/Gg398860(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-125">[Set-CsDialInConferencingDtmfConfiguration](https://technet.microsoft.com/library/Gg398860(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="1a5d9-126">[Get-CsDialInConferencingLanguageList](https://technet.microsoft.com/en-us/library/Gg425869(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="1a5d9-126">[Get-CsDialInConferencingLanguageList](https://technet.microsoft.com/en-us/library/Gg425869(v=OCS.15))</span></span>
+    <span data-ttu-id="751a9-126">[Get-CsDialInConferencingLanguageList](https://technet.microsoft.com/library/Gg425869(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="751a9-126">[Get-CsDialInConferencingLanguageList](https://technet.microsoft.com/library/Gg425869(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="1a5d9-127">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="1a5d9-127">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="751a9-127">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="751a9-127">See Also</span></span>
 
 
-[<span data-ttu-id="1a5d9-128">Lync Server PowerShell-Blog</span><span class="sxs-lookup"><span data-stu-id="1a5d9-128">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="751a9-128">Lync Server PowerShell-Blog</span><span class="sxs-lookup"><span data-stu-id="751a9-128">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Sichern und Wiederherstellen von lync Server'
+title: 'Lync Server 2013: Sichern und Wiederherstellen lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43a96f47bfe9d28fdbc37eea0ae62ef6cd763098
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d65d06ac9c72e776eee51b9b3dff6c6db3a59031
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740145"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42044447"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-and-restoring-lync-server-2013"></a><span data-ttu-id="0309b-102">Sichern und Wiederherstellen von lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0309b-102">Backing up and restoring Lync Server 2013</span></span>
+# <a name="backing-up-and-restoring-lync-server-2013"></a><span data-ttu-id="1eb0a-102">Sichern und Wiederherstellen lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1eb0a-102">Backing up and restoring Lync Server 2013</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41740145"
 
 <span> </span>
 
-<span data-ttu-id="0309b-103">_**Letztes Änderungsdatum des Themas:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="0309b-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="1eb0a-103">_**Letztes Änderungsstand des Themas:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="1eb0a-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="0309b-104">In diesem Abschnitt finden Sie die bewährten Methoden zum Sichern Ihrer lync Server 2013-Daten sowie zum Wiederherstellen bei einem Fehler.</span><span class="sxs-lookup"><span data-stu-id="0309b-104">In this section, you’ll find the best practices for backing up your Lync Server 2013 data, and for restoring it if you have a failure.</span></span> <span data-ttu-id="0309b-105">Diese bewährten Methoden gelten für die folgenden Situationen:</span><span class="sxs-lookup"><span data-stu-id="0309b-105">These best practices apply to the following situations:</span></span>
+<span data-ttu-id="1eb0a-104">In diesem Abschnitt finden Sie die bewährten Methoden zum Sichern Ihrer lync Server 2013 Daten sowie zum Wiederherstellen bei einem Fehler.</span><span class="sxs-lookup"><span data-stu-id="1eb0a-104">In this section, you’ll find the best practices for backing up your Lync Server 2013 data, and for restoring it if you have a failure.</span></span> <span data-ttu-id="1eb0a-105">Diese bewährten Methoden gelten für die folgenden Situationen:</span><span class="sxs-lookup"><span data-stu-id="1eb0a-105">These best practices apply to the following situations:</span></span>
 
-  - <span data-ttu-id="0309b-106">Ein gesamter lync Server-Pool eines beliebigen Typs (Front-End-Server, Edgeserver, Vermittlungsserver, beständiger Chat Server oder Director) oder ein einzelner Server in einem dieser Pools.</span><span class="sxs-lookup"><span data-stu-id="0309b-106">An entire Lync Server pool of any type (Front End Server, Edge Server, Mediation Server, Persistent Chat Server, or Director), or an individual server in one of these pools.</span></span>
+  - <span data-ttu-id="1eb0a-106">Ein ganzer lync Server Pool eines beliebigen Typs (Front-End-Server, Edgeserver, Vermittlungsserver, beständiger Chat Server oder Director) oder ein einzelner Server in einem dieser Pools.</span><span class="sxs-lookup"><span data-stu-id="1eb0a-106">An entire Lync Server pool of any type (Front End Server, Edge Server, Mediation Server, Persistent Chat Server, or Director), or an individual server in one of these pools.</span></span>
 
-  - <span data-ttu-id="0309b-107">Der zentrale Verwaltungs Server</span><span class="sxs-lookup"><span data-stu-id="0309b-107">The Central Management Server</span></span>
+  - <span data-ttu-id="1eb0a-107">Der zentrale Verwaltungs Server</span><span class="sxs-lookup"><span data-stu-id="1eb0a-107">The Central Management Server</span></span>
 
-  - <span data-ttu-id="0309b-108">Ein Standard Edition-Server</span><span class="sxs-lookup"><span data-stu-id="0309b-108">A Standard Edition server</span></span>
+  - <span data-ttu-id="1eb0a-108">Ein Standard Edition-Server</span><span class="sxs-lookup"><span data-stu-id="1eb0a-108">A Standard Edition server</span></span>
 
-  - <span data-ttu-id="0309b-109">Ein Enterprise Edition-Back-End-Server</span><span class="sxs-lookup"><span data-stu-id="0309b-109">An Enterprise Edition Back End Server</span></span>
+  - <span data-ttu-id="1eb0a-109">Ein Enterprise Edition-Back-End-Server</span><span class="sxs-lookup"><span data-stu-id="1eb0a-109">An Enterprise Edition Back End Server</span></span>
 
-  - <span data-ttu-id="0309b-110">Ein Dateispeicher</span><span class="sxs-lookup"><span data-stu-id="0309b-110">A File Store</span></span>
+  - <span data-ttu-id="1eb0a-110">Ein Dateispeicher</span><span class="sxs-lookup"><span data-stu-id="1eb0a-110">A File Store</span></span>
 
-  - <span data-ttu-id="0309b-111">Eine Archivierungsdatenbank, eine Überwachungsdatenbank oder eine persistente Chat Datenbank</span><span class="sxs-lookup"><span data-stu-id="0309b-111">An Archiving database, Monitoring database, or Persistent Chat database</span></span>
+  - <span data-ttu-id="1eb0a-111">Eine Datenbank für Archivierungsdatenbank, Überwachungsdatenbank oder beständigen Chat</span><span class="sxs-lookup"><span data-stu-id="1eb0a-111">An Archiving database, Monitoring database, or Persistent Chat database</span></span>
 
-<span data-ttu-id="0309b-112">Dieser Abschnitt enthält keine Informationen zum Wiederherstellen einer gesamten Website oder zur Entwicklung einer Standby-Website.</span><span class="sxs-lookup"><span data-stu-id="0309b-112">This section does not include information about restoring an entire site or for developing a standby site.</span></span> <span data-ttu-id="0309b-113">Details zur Entwicklung einer Disaster Recovery-Lösung mit gekoppelten Front-End-Pools finden Sie unter [Planen von Hochverfügbarkeits-und Disaster Recovery in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="0309b-113">For details about developing a disaster recovery solution with paired Front End pools, see [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span> <span data-ttu-id="0309b-114">Dies ist die empfohlene Methode für die Planung der Notfallwiederherstellung.</span><span class="sxs-lookup"><span data-stu-id="0309b-114">This is the recommended method for planning for disaster recovery.</span></span>
+<span data-ttu-id="1eb0a-112">Dieser Abschnitt enthält keine Informationen zum Wiederherstellen einer gesamten Website oder zum Entwickeln einer Standby-Website.</span><span class="sxs-lookup"><span data-stu-id="1eb0a-112">This section does not include information about restoring an entire site or for developing a standby site.</span></span> <span data-ttu-id="1eb0a-113">Ausführliche Informationen zum Entwickeln einer Notfallwiederherstellungslösung mit gepaarten Front-End-Pools finden Sie unter [Planung für hohe Verfügbarkeit und Notfallwiederherstellung in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="1eb0a-113">For details about developing a disaster recovery solution with paired Front End pools, see [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span> <span data-ttu-id="1eb0a-114">Dies ist die empfohlene Methode für die Planung der Notfallwiederherstellung.</span><span class="sxs-lookup"><span data-stu-id="1eb0a-114">This is the recommended method for planning for disaster recovery.</span></span>
 
-<span data-ttu-id="0309b-115">Wenn Sie gekoppelte Front-End-Pools bereitgestellt haben, können Sie diesen Pool mit einem neuen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) aus dem gekoppelten Pool wiederherstellen, wenn eines dieser Pools ausfällt und nicht wiederhergestellt werden kann.</span><span class="sxs-lookup"><span data-stu-id="0309b-115">If you have deployed paired Front End pools, if one of these pools fails and becomes unrecoverable, you can restore this pool with a new fully qualified domain name (FQDN) from its paired pool.</span></span> <span data-ttu-id="0309b-116">Ausführliche Informationen zu den Schritten zum Durchführen dieser Wiederherstellung finden Sie unter [Failover eines Pools in lync Server 2013](lync-server-2013-failing-over-a-pool.md).</span><span class="sxs-lookup"><span data-stu-id="0309b-116">For details on the steps to perform this recovery, see [Failing over a pool in Lync Server 2013](lync-server-2013-failing-over-a-pool.md).</span></span> <span data-ttu-id="0309b-117">Wenn Sie später einen fehlerhaften und nicht behebbaren Pool erstellen möchten, der Teil eines Front-End-Paars war, können Sie die Schritte unter [Durchführen eines Failovers des ABC-Front-End-Pools in lync Server 2013](lync-server-2013-performing-an-abc-front-end-pool-failover.md)verwenden.</span><span class="sxs-lookup"><span data-stu-id="0309b-117">Additionally, if you later want to recreate a failed and unrecoverable pool that was part of a Front End pair, you can use the steps in [Performing an ABC Front End pool failover in Lync Server 2013](lync-server-2013-performing-an-abc-front-end-pool-failover.md).</span></span>
+<span data-ttu-id="1eb0a-115">Wenn Sie gekoppelte Front-End-Pools bereitgestellt haben und einer dieser Pools fehlschlägt und nicht mehr wiederhergestellt werden kann, können Sie diesen Pool mit einem neuen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) aus dem gekoppelten Pool wiederherstellen.</span><span class="sxs-lookup"><span data-stu-id="1eb0a-115">If you have deployed paired Front End pools, if one of these pools fails and becomes unrecoverable, you can restore this pool with a new fully qualified domain name (FQDN) from its paired pool.</span></span> <span data-ttu-id="1eb0a-116">Ausführliche Informationen zu den Schritten zum Durchführen dieser Wiederherstellung finden Sie unter [failing over a Pool in lync Server 2013](lync-server-2013-failing-over-a-pool.md).</span><span class="sxs-lookup"><span data-stu-id="1eb0a-116">For details on the steps to perform this recovery, see [Failing over a pool in Lync Server 2013](lync-server-2013-failing-over-a-pool.md).</span></span> <span data-ttu-id="1eb0a-117">Wenn Sie später einen fehlerhaften und nicht behebbaren Pool erneut erstellen möchten, der Teil eines Front-End-Paars war, können Sie die Schritte unter [Durchführen eines ABC-Front-End-Pool-Failovers in lync Server 2013](lync-server-2013-performing-an-abc-front-end-pool-failover.md)verwenden.</span><span class="sxs-lookup"><span data-stu-id="1eb0a-117">Additionally, if you later want to recreate a failed and unrecoverable pool that was part of a Front End pair, you can use the steps in [Performing an ABC Front End pool failover in Lync Server 2013](lync-server-2013-performing-an-abc-front-end-pool-failover.md).</span></span>
 
-<span data-ttu-id="0309b-118">Die in diesem Dokument beschriebene Methodik umfasst besondere Aspekte in der Planungsphase.</span><span class="sxs-lookup"><span data-stu-id="0309b-118">The methodology described in this document involves special considerations during the planning phase.</span></span> <span data-ttu-id="0309b-119">Ausführliche Informationen finden Sie unter [Einrichten eines Sicherungs-und Wiederherstellungsplans für lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-plan.md).</span><span class="sxs-lookup"><span data-stu-id="0309b-119">For details, see [Establishing a backup and restoration plan for Lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-plan.md).</span></span>
+<span data-ttu-id="1eb0a-118">Bei der hier beschriebenen Methodik werden besondere Überlegungen während der Planungsphase mit berücksichtigt.</span><span class="sxs-lookup"><span data-stu-id="1eb0a-118">The methodology described in this document involves special considerations during the planning phase.</span></span> <span data-ttu-id="1eb0a-119">Ausführliche Informationen finden Sie unter [Einrichten eines Sicherungs-und Wiederherstellungsplans für lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-plan.md).</span><span class="sxs-lookup"><span data-stu-id="1eb0a-119">For details, see [Establishing a backup and restoration plan for Lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-plan.md).</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0309b-120">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="0309b-120">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1eb0a-120">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="1eb0a-120">In This Section</span></span>
 
-  - [<span data-ttu-id="0309b-121">Vorbereiten der Sicherung und Wiederherstellung von lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0309b-121">Preparing for Lync Server 2013 backup and restoration</span></span>](lync-server-2013-preparing-for-lync-server-backup-and-restoration.md)
+  - [<span data-ttu-id="1eb0a-121">Vorbereiten der lync Server 2013 Sicherung und-Wiederherstellung</span><span class="sxs-lookup"><span data-stu-id="1eb0a-121">Preparing for Lync Server 2013 backup and restoration</span></span>](lync-server-2013-preparing-for-lync-server-backup-and-restoration.md)
 
-  - [<span data-ttu-id="0309b-122">Sichern von Daten und Einstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0309b-122">Backing up data and settings in Lync Server 2013</span></span>](lync-server-2013-backing-up-data-and-settings.md)
+  - [<span data-ttu-id="1eb0a-122">Sichern von Daten und Einstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1eb0a-122">Backing up data and settings in Lync Server 2013</span></span>](lync-server-2013-backing-up-data-and-settings.md)
 
-  - [<span data-ttu-id="0309b-123">Wiederherstellen von Daten und Einstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0309b-123">Restoring data and settings in Lync Server 2013</span></span>](lync-server-2013-restoring-data-and-settings.md)
+  - [<span data-ttu-id="1eb0a-123">Wiederherstellen von Daten und Einstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1eb0a-123">Restoring data and settings in Lync Server 2013</span></span>](lync-server-2013-restoring-data-and-settings.md)
 
-  - [<span data-ttu-id="0309b-124">Arbeitsblätter zum Sichern und Wiederherstellen für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0309b-124">Backup and restoration worksheets for Lync Server 2013</span></span>](lync-server-2013-backup-and-restoration-worksheets.md)
+  - [<span data-ttu-id="1eb0a-124">Arbeitsblätter zur Sicherung und Wiederherstellung für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1eb0a-124">Backup and restoration worksheets for Lync Server 2013</span></span>](lync-server-2013-backup-and-restoration-worksheets.md)
 
 </div>
 

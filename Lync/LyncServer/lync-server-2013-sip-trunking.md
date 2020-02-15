@@ -12,20 +12,20 @@ ms:contentKeyID: 48184615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d76907c1868e9fccb1a31e705c73807a8cbe501b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fe2ea13628e9a4ede3daa2b14ebbb3941ce30aa1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764481"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038986"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="sip-trunking-in-lync-server-2013"></a><span data-ttu-id="593b7-102">SIP-Trunking in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="593b7-102">SIP trunking in Lync Server 2013</span></span>
+# <a name="sip-trunking-in-lync-server-2013"></a><span data-ttu-id="2605e-102">SIP-Trunking in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2605e-102">SIP trunking in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41764481"
 
 <span> </span>
 
-<span data-ttu-id="593b7-103">_**Letztes Änderungsdatum des Themas:** 2012-08-13_</span><span class="sxs-lookup"><span data-stu-id="593b7-103">_**Topic Last Modified:** 2012-08-13_</span></span>
+<span data-ttu-id="2605e-103">_**Letztes Änderungsstand des Themas:** 2012-08-13_</span><span class="sxs-lookup"><span data-stu-id="2605e-103">_**Topic Last Modified:** 2012-08-13_</span></span>
 
-<span data-ttu-id="593b7-p101">SIP (Session Initiation Protocol) wird zum Initiieren und Verwalten von VoIP-Kommunikationssitzungen (Voice over IP) für grundlegende Telefondienste und zusätzliche Echtzeitkommunikationsdienste wie Chats, Konferenzfunktionen, Anwesenheitserkennung und Multimediafunktionen verwendet. Dieser Abschnitt umfasst Planungsinformationen für die Implementierung von *SIP-Trunks*, einer Art von SIP-Verbindung, die über die Grenzen Ihres lokalen Netzwerks hinausgeht.</span><span class="sxs-lookup"><span data-stu-id="593b7-p101">Session Initiation Protocol (SIP) is used to initiate and manage Voice over IP (VoIP) communications sessions for basic telephone service and for additional real-time communication services, such as instant messaging, conferencing, presence detection, and multimedia. This section provides planning information for implementing *SIP trunks*, a type of SIP connection that extends beyond the boundary of your local network.</span></span>
-
-<div>
-
-## <a name="what-is-sip-trunking"></a><span data-ttu-id="593b7-106">Was ist SIP-Trunking?</span><span class="sxs-lookup"><span data-stu-id="593b7-106">What is SIP Trunking?</span></span>
-
-<span data-ttu-id="593b7-p102">Bei einem SIP-Trunk handelt es sich um eine IP-Verbindung für die SIP-Kommunikation zwischen Ihrer Organisation und einem Anbieter von Internettelefoniediensten (Internet Telephony Service Provider, ITSP), die über Ihre Firewall hinausgeht. Ein SIP-Trunk wird typischerweise verwendet, um den zentralen Standort Ihrer Organisation mit einem ITSP zu verbinden. In einigen Fällen können Sie das SIP-Trunking auch zum Verbinden einer Zweigstelle mit einem ITSP nutzen.</span><span class="sxs-lookup"><span data-stu-id="593b7-p102">A SIP trunk is an IP connection that establishes a SIP communications link between your organization and an Internet telephony service provider (ITSP) beyond your firewall. Typically, a SIP trunk is used to connect your organization’s central site to an ITSP. In some cases, you may also opt to use SIP trunking to connect your branch site to an ITSP.</span></span>
+<span data-ttu-id="2605e-p101">SIP (Session Initiation Protocol) wird zum Initiieren und Verwalten von VoIP-Kommunikationssitzungen (Voice over IP) für grundlegende Telefondienste und zusätzliche Echtzeitkommunikationsdienste wie Instant Messaging, Konferenzfunktionen, Anwesenheitserkennung und Multimediafunktionen verwendet. Dieser Abschnitt umfasst Planungsinformationen für die Implementierung von *SIP-Trunks*, eine Art von SIP-Verbindung, die über die Grenzen Ihres lokalen Netzwerks hinausgeht.</span><span class="sxs-lookup"><span data-stu-id="2605e-p101">Session Initiation Protocol (SIP) is used to initiate and manage Voice over IP (VoIP) communications sessions for basic telephone service and for additional real-time communication services, such as instant messaging, conferencing, presence detection, and multimedia. This section provides planning information for implementing *SIP trunks*, a type of SIP connection that extends beyond the boundary of your local network.</span></span>
 
 <div>
 
-## <a name="sip-trunks-vs-direct-sip-connections"></a><span data-ttu-id="593b7-110">SIP-Trunks und direkte SIP-Verbindungen im Vergleich</span><span class="sxs-lookup"><span data-stu-id="593b7-110">SIP Trunks vs. Direct SIP Connections</span></span>
+## <a name="what-is-sip-trunking"></a><span data-ttu-id="2605e-106">Was ist SIP-Trunking?</span><span class="sxs-lookup"><span data-stu-id="2605e-106">What is SIP Trunking?</span></span>
 
-<span data-ttu-id="593b7-111">Der Begriff *Trunk* wurde aus der leitungsvermittelten Technologie abgeleitet.</span><span class="sxs-lookup"><span data-stu-id="593b7-111">The term *trunk* is derived from circuit-switched technology.</span></span> <span data-ttu-id="593b7-112">Er bezieht sich auf eine dedizierte physische Leitung zur Verbindung von Telefonvermittlungsanlagen.</span><span class="sxs-lookup"><span data-stu-id="593b7-112">It refers to a dedicated physical line that connects telephone switching equipment.</span></span> <span data-ttu-id="593b7-113">Wie ihre Vorgänger-, Time Division Multiplexing-(TDM-) Trunks sind SIP-Stämme Verbindungen zwischen zwei getrennten SIP-Netzwerken – dem lync Server 2013 Enterprise und dem ITSP.</span><span class="sxs-lookup"><span data-stu-id="593b7-113">Like their predecessor, time division multiplexing (TDM) trunks, SIP trunks are connections between two separate SIP networks—the Lync Server 2013 enterprise and the ITSP.</span></span> <span data-ttu-id="593b7-114">Im Gegensatz zu leitungsvermittelten Trunks handelt es sich bei SIP-Trunks um virtuelle Verbindungen, die über jeden der unterstützten Typen von SIP-Trunkingverbindungen hergestellt werden können.</span><span class="sxs-lookup"><span data-stu-id="593b7-114">Unlike circuit-switched trunks, SIP trunks are virtual connections that can be established over any of the supported SIP trunking connection types.</span></span> <span data-ttu-id="593b7-115">Details zu den unterstützten Verbindungstypen finden Sie unter [wie kann ich SIP-Trunking in lync Server 2013 implementieren?](lync-server-2013-how-do-i-implement-sip-trunking.md)</span><span class="sxs-lookup"><span data-stu-id="593b7-115">For details about the supported connection types, see [How do I implement SIP trunking in Lync Server 2013?](lync-server-2013-how-do-i-implement-sip-trunking.md).</span></span>
+<span data-ttu-id="2605e-p102">Bei einem SIP-Trunk handelt es sich um eine IP-Verbindung für die SIP-Kommunikation zwischen Ihrer Organisation und einem Anbieter von Internettelefoniediensten (Internet Telephony Service Provider, ITSP), die über Ihre Firewall hinausgeht. Ein SIP-Trunk wird typischerweise verwendet, um den zentralen Standort Ihrer Organisation mit einem ITSP zu verbinden. In einigen Fällen können Sie das SIP-Trunking auch zum Verbinden einer Zweigstelle mit einem ITSP nutzen.</span><span class="sxs-lookup"><span data-stu-id="2605e-p102">A SIP trunk is an IP connection that establishes a SIP communications link between your organization and an Internet telephony service provider (ITSP) beyond your firewall. Typically, a SIP trunk is used to connect your organization’s central site to an ITSP. In some cases, you may also opt to use SIP trunking to connect your branch site to an ITSP.</span></span>
 
-<span data-ttu-id="593b7-116">Bei direkten SIP-Verbindungen hingegen handelt es sich um SIP-Verbindungen, die nicht über die Grenzen des lokalen Netzwerks hinausgehen (das heißt, es wird eine Verbindung mit einem PSTN-Gateway (Public Switched Telephone Network, Telefonfestnetz) oder einer Nebenstellenanlage (Private Branch Exchange, PBX) innerhalb des internen Netzwerks hergestellt).</span><span class="sxs-lookup"><span data-stu-id="593b7-116">Direct SIP connections, on the other hand, are SIP connections that do not cross the local network boundary (that is, they connect to a public switched telephone network (PSTN) gateway or private branch exchange (PBX) within your internal network).</span></span> <span data-ttu-id="593b7-117">Ausführliche Informationen dazu, wie Sie direkte SIP-Verbindungen mit lync Server 2013 verwenden können, finden Sie unter [direkte SIP-Verbindungen in lync Server 2013](lync-server-2013-direct-sip-connections.md).</span><span class="sxs-lookup"><span data-stu-id="593b7-117">For details about how you can use direct SIP connections with Lync Server 2013, see [Direct SIP connections in Lync Server 2013](lync-server-2013-direct-sip-connections.md).</span></span>
+<div>
+
+## <a name="sip-trunks-vs-direct-sip-connections"></a><span data-ttu-id="2605e-110">SIP-Trunks im Vergleich zu direkten SIP-Verbindungen</span><span class="sxs-lookup"><span data-stu-id="2605e-110">SIP Trunks vs. Direct SIP Connections</span></span>
+
+<span data-ttu-id="2605e-111">Der Begriff *Trunk* wurde aus der leitungsvermittelten Technologie abgeleitet.</span><span class="sxs-lookup"><span data-stu-id="2605e-111">The term *trunk* is derived from circuit-switched technology.</span></span> <span data-ttu-id="2605e-112">Er bezieht sich auf eine dedizierte physische Leitung zur Verbindung von Telefonvermittlungsanlagen.</span><span class="sxs-lookup"><span data-stu-id="2605e-112">It refers to a dedicated physical line that connects telephone switching equipment.</span></span> <span data-ttu-id="2605e-113">Wie bei ihren Vorgänger-, Time Division Multiplexing (TDM)-Trunks sind SIP-Trunks Verbindungen zwischen zwei getrennten SIP-Netzwerken – dem lync Server 2013 Enterprise und dem ITSP.</span><span class="sxs-lookup"><span data-stu-id="2605e-113">Like their predecessor, time division multiplexing (TDM) trunks, SIP trunks are connections between two separate SIP networks—the Lync Server 2013 enterprise and the ITSP.</span></span> <span data-ttu-id="2605e-114">Im Gegensatz zu leitungsvermittelten Trunks handelt es sich bei SIP-Trunks um virtuelle Verbindungen, die über jeden der unterstützten Typen von SIP-Trunkingverbindungen hergestellt werden können.</span><span class="sxs-lookup"><span data-stu-id="2605e-114">Unlike circuit-switched trunks, SIP trunks are virtual connections that can be established over any of the supported SIP trunking connection types.</span></span> <span data-ttu-id="2605e-115">Ausführliche Informationen zu den unterstützten Verbindungstypen finden Sie unter [wie kann ich SIP-Trunking in lync Server 2013 implementieren?](lync-server-2013-how-do-i-implement-sip-trunking.md).</span><span class="sxs-lookup"><span data-stu-id="2605e-115">For details about the supported connection types, see [How do I implement SIP trunking in Lync Server 2013?](lync-server-2013-how-do-i-implement-sip-trunking.md).</span></span>
+
+<span data-ttu-id="2605e-116">Bei direkten SIP-Verbindungen hingegen handelt es sich um SIP-Verbindungen, die nicht über die Grenzen des lokalen Netzwerks hinausgehen (das heißt, es wird eine Verbindung mit einem PSTN-Gateway (Public Switched Telephone Network, Telefonfestnetz) oder einer Nebenstellenanlage (Private Branch Exchange, PBX) innerhalb des internen Netzwerks hergestellt).</span><span class="sxs-lookup"><span data-stu-id="2605e-116">Direct SIP connections, on the other hand, are SIP connections that do not cross the local network boundary (that is, they connect to a public switched telephone network (PSTN) gateway or private branch exchange (PBX) within your internal network).</span></span> <span data-ttu-id="2605e-117">Ausführliche Informationen dazu, wie Sie direkte SIP-Verbindungen mit lync Server 2013 verwenden können, finden Sie unter [Direct SIP Connections in lync Server 2013](lync-server-2013-direct-sip-connections.md).</span><span class="sxs-lookup"><span data-stu-id="2605e-117">For details about how you can use direct SIP connections with Lync Server 2013, see [Direct SIP connections in Lync Server 2013](lync-server-2013-direct-sip-connections.md).</span></span>
 
 </div>
 
@@ -59,17 +59,17 @@ ms.locfileid: "41764481"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="593b7-118">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="593b7-118">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2605e-118">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="2605e-118">In This Section</span></span>
 
-  - [<span data-ttu-id="593b7-119">Übersicht über SIP-Trunking in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="593b7-119">Overview of SIP trunking in Lync Server 2013</span></span>](lync-server-2013-overview-of-sip-trunking.md)
+  - [<span data-ttu-id="2605e-119">Übersicht über das SIP-Trunking in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2605e-119">Overview of SIP trunking in Lync Server 2013</span></span>](lync-server-2013-overview-of-sip-trunking.md)
 
-  - [<span data-ttu-id="593b7-120">Implementierung von SIP-Trunking in Lync Server 2013?</span><span class="sxs-lookup"><span data-stu-id="593b7-120">How do I implement SIP trunking in Lync Server 2013?</span></span>](lync-server-2013-how-do-i-implement-sip-trunking.md)
+  - [<span data-ttu-id="2605e-120">Wie kann ich SIP-Trunking in lync Server 2013 implementieren?</span><span class="sxs-lookup"><span data-stu-id="2605e-120">How do I implement SIP trunking in Lync Server 2013?</span></span>](lync-server-2013-how-do-i-implement-sip-trunking.md)
 
-  - [<span data-ttu-id="593b7-121">Komponenten und Topologien für das SIP-Trunking in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="593b7-121">Components and topologies for SIP trunking in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-sip-trunking.md)
+  - [<span data-ttu-id="2605e-121">Komponenten und Topologien für SIP-Trunking in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2605e-121">Components and topologies for SIP trunking in Lync Server 2013</span></span>](lync-server-2013-components-and-topologies-for-sip-trunking.md)
 
-  - [<span data-ttu-id="593b7-122">Branch site SIP trunking in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="593b7-122">Branch site SIP trunking in Lync Server 2013</span></span>](lync-server-2013-branch-site-sip-trunking.md)
+  - [<span data-ttu-id="2605e-122">SIP-Trunking für Zweigstellenstandorte in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2605e-122">Branch site SIP trunking in Lync Server 2013</span></span>](lync-server-2013-branch-site-sip-trunking.md)
 
-  - [<span data-ttu-id="593b7-123">Prüfliste für die Bereitstellung von SIP-Trunks für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="593b7-123">SIP trunk deployment checklist for Lync Server 2013</span></span>](lync-server-2013-sip-trunk-deployment-checklist.md)
+  - [<span data-ttu-id="2605e-123">Prüfliste für SIP-Trunk Bereitstellung für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2605e-123">SIP trunk deployment checklist for Lync Server 2013</span></span>](lync-server-2013-sip-trunk-deployment-checklist.md)
 
 </div>
 
