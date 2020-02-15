@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Neue Voicemailfunktion'
+title: 'Lync Server 2013: neues Voicemail-Feature'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733715
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27dbea942488181eb69695f78713c9e126c32aab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2b7951b0dd9a6841d66c1782322f6c44a4e16d99
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755849"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048416"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-voice-mail-feature-in-lync-server-2013"></a><span data-ttu-id="a7cf9-102">Neue Voicemailfunktion in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a7cf9-102">New voice mail feature in Lync Server 2013</span></span>
+# <a name="new-voice-mail-feature-in-lync-server-2013"></a><span data-ttu-id="4623b-102">Neues Voicemail-Feature in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4623b-102">New voice mail feature in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41755849"
 
 <span> </span>
 
-<span data-ttu-id="a7cf9-103">_**Letztes Änderungsdatum des Themas:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="a7cf9-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+<span data-ttu-id="4623b-103">_**Letztes Änderungsstand des Themas:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="4623b-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-<span data-ttu-id="a7cf9-104">Lync Server 2013 führt Voicemail-Escape ein, eine Erweiterung für die Verwaltung von Voicemail.</span><span class="sxs-lookup"><span data-stu-id="a7cf9-104">Lync Server 2013 introduces Voice mail Escape, an enhancement for managing voice mail.</span></span> <span data-ttu-id="a7cf9-105">Dieses neue Feature kann erkennen, wenn ein Anruf an die Voicemail weitergeleitet wurde, und verhindern, dass der Anruf sofort an das Mobiltelefon des Benutzers weitergeleitet wird, ohne dass der Benutzer die Möglichkeit hat, den Anruf anzunehmen.</span><span class="sxs-lookup"><span data-stu-id="a7cf9-105">This new feature can detect when a call has been routed to voice mail, and prevent the call from being immediately routed to the user’s mobile phone voice mail without giving the user the opportunity to answer the call.</span></span> <span data-ttu-id="a7cf9-106">Dieses Szenario tritt auf, wenn der Benutzer das gleichzeitige Klingeln auf seinem Mobiltelefon ermöglicht und sein Mobiltelefon ausgeschaltet, außerhalb der Batterie oder außerhalb des gültigen Bereichs liegt.</span><span class="sxs-lookup"><span data-stu-id="a7cf9-106">This scenario occurs when the user enables simultaneous ringing to their mobile phone, and their mobile phone is turned off, out of battery, or out of range.</span></span> <span data-ttu-id="a7cf9-107">Voicemail-Escape erkennt, dass der Anruf von der Mobiltelefonnummer des Benutzers sofort beantwortet wurde, und trennt den Anruf mit der Voicemail des Mobiltelefons.</span><span class="sxs-lookup"><span data-stu-id="a7cf9-107">Voicemail Escape detects that the call was immediately answered by the user’s mobile phone voice mail, and disconnects the call to the mobile phone voice mail.</span></span> <span data-ttu-id="a7cf9-108">Der Anruf klingelt weiterhin an den anderen Endpunkten des Benutzers, um dem Benutzer die Möglichkeit zu geben, den Anruf zu beantworten.</span><span class="sxs-lookup"><span data-stu-id="a7cf9-108">The call continues to ring on the user’s other endpoints giving the user the opportunity to answer the call.</span></span> <span data-ttu-id="a7cf9-109">Wenn der Benutzer den Anruf nicht annimmt, wird der Anruf an die Firmen-Voicemail weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="a7cf9-109">If the user does not answer the call, then the call is routed to the corporate voice mail.</span></span>
+<span data-ttu-id="4623b-104">Lync Server 2013 bietet eine Einführung in die Voicemail-escapefunktion, eine Erweiterung für die Verwaltung von Voicemail.</span><span class="sxs-lookup"><span data-stu-id="4623b-104">Lync Server 2013 introduces Voice mail Escape, an enhancement for managing voice mail.</span></span> <span data-ttu-id="4623b-105">Mit dieser neuen Funktion kann ermittelt werden, wenn ein Anruf an Voicemail weitergeleitet wurde, und es wird verhindert, dass der Anruf sofort an die Mobiltelefon-Voicemail des Besitzers weitergeleitet wird, ohne dass der Benutzer die Möglichkeit hat, den Anruf entgegenzunehmen.</span><span class="sxs-lookup"><span data-stu-id="4623b-105">This new feature can detect when a call has been routed to voice mail, and prevent the call from being immediately routed to the user’s mobile phone voice mail without giving the user the opportunity to answer the call.</span></span> <span data-ttu-id="4623b-106">Dieses Szenario tritt ein, wenn der Benutzer das gleichzeitige Klingeln auf dem Mobiltelefon aktiviert und das Mobiltelefon abgeschaltet ist, das Mobiltelefon entladen ist oder keinen Empfang hat.</span><span class="sxs-lookup"><span data-stu-id="4623b-106">This scenario occurs when the user enables simultaneous ringing to their mobile phone, and their mobile phone is turned off, out of battery, or out of range.</span></span> <span data-ttu-id="4623b-107">Voicemail Escape erkennt, dass der Anruf sofort von der Mobiltelefon-Voicemail des Benutzers beantwortet wurde und unterbricht den Anruf mit der Mobiltelefon-Voicemail.</span><span class="sxs-lookup"><span data-stu-id="4623b-107">Voicemail Escape detects that the call was immediately answered by the user’s mobile phone voice mail, and disconnects the call to the mobile phone voice mail.</span></span> <span data-ttu-id="4623b-108">Der Anruf klingelt auf anderen Endpunkten vom Benutzer weiter, womit der Benutzer die Möglichkeit hat, den Anruf entgegenzunehmen.</span><span class="sxs-lookup"><span data-stu-id="4623b-108">The call continues to ring on the user’s other endpoints giving the user the opportunity to answer the call.</span></span> <span data-ttu-id="4623b-109">Sollte der Benutzer den Anruf nicht entgegennehmen, wird der Anruf zur Voicemail des Unternehmens umgeleitet.</span><span class="sxs-lookup"><span data-stu-id="4623b-109">If the user does not answer the call, then the call is routed to the corporate voice mail.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a7cf9-110">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="a7cf9-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4623b-110">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="4623b-110">See Also</span></span>
 
 
-[<span data-ttu-id="a7cf9-111">Konfigurieren von Voicemail-Escape in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a7cf9-111">Configuring voice mail escape in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-mail-escape.md)  
+[<span data-ttu-id="4623b-111">Konfigurieren von Voicemail-Escapes in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4623b-111">Configuring voice mail escape in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-mail-escape.md)  
 
 
-[<span data-ttu-id="a7cf9-112">Neue Enterprise-VoIP-Funktionen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a7cf9-112">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="4623b-112">Neue Enterprise-VoIP-Funktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4623b-112">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

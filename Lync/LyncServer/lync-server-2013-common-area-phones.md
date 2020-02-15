@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Telefone im öffentlichen Bereich'
+title: 'Lync Server 2013: Telefone für gemeinsame Bereiche'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71fa61773a4801d2050d67d4e86458eb5d37759c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 736aa12c9de027aa485cfc89a6f5cd820a460833
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742785"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045817"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="common-area-phones-in-lync-server-2013"></a><span data-ttu-id="854eb-102">Telefone im öffentlichen Bereich in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="854eb-102">Common area phones in Lync Server 2013</span></span>
+# <a name="common-area-phones-in-lync-server-2013"></a><span data-ttu-id="2105e-102">Telefone in öffentlichen Bereichen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2105e-102">Common area phones in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41742785"
 
 <span> </span>
 
-<span data-ttu-id="854eb-103">_**Letztes Änderungsdatum des Themas:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="854eb-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="2105e-103">_**Letztes Änderungsstand des Themas:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="2105e-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="854eb-104">Telefone im öffentlichen Bereich sind IP-Telefone, die keinem einzelnen Benutzer zugeordnet sind.</span><span class="sxs-lookup"><span data-stu-id="854eb-104">Common area phones are IP phones that are not associated with an individual user.</span></span> <span data-ttu-id="854eb-105">Statt sich im Büro einer anderen Person zu befinden, befinden sich die Telefone im öffentlichen Bereich in der Regel in Gebäude-Lobbies, Cafeterias, Mitarbeiter-Lounges, Besprechungsräumen und anderen Orten, an denen sich eine große Anzahl von Personen wahrscheinlich versammeln wird.</span><span class="sxs-lookup"><span data-stu-id="854eb-105">Instead of being located in someone’s office, common area phones are typically located in building lobbies, cafeterias, employee lounges, meeting rooms, and other locations where a large number of people are likely to gather.</span></span> <span data-ttu-id="854eb-106">Im Gegensatz zu anderen Telefonen in lync Server, die in der Regel mithilfe von VoIP-Richtlinien und Wählplänen verwaltet werden, die einzelnen Benutzern zugewiesen sind, sind für Telefone im öffentlichen Bereich keine einzelnen Benutzer zugewiesen.</span><span class="sxs-lookup"><span data-stu-id="854eb-106">Unlike other phones in Lync Server, which are typically maintained by using voice policies and dial plans that are assigned to individual users, common area phones do not have individual users assigned to them.</span></span> <span data-ttu-id="854eb-107">Das bedeutet, dass Sie anders als Ihre anderen Telefone verwaltet werden müssen.</span><span class="sxs-lookup"><span data-stu-id="854eb-107">This means that they must be managed differently than your other phones.</span></span>
+<span data-ttu-id="2105e-104">Telefone in öffentlichen Bereichen sind IP-Telefone, die keinem einzelnen Benutzer zugeordnet sind.</span><span class="sxs-lookup"><span data-stu-id="2105e-104">Common area phones are IP phones that are not associated with an individual user.</span></span> <span data-ttu-id="2105e-105">Anstatt sich im Büro eines anderen zu befinden, befinden sich Telefone in öffentlichen Bereichen in der Regel in Gebäude Lobbys, Cafeterias, Mitarbeiter-Lounges, Besprechungsräumen und an anderen Standorten, an denen sich eine große Anzahl von Personen wahrscheinlich versammeln wird.</span><span class="sxs-lookup"><span data-stu-id="2105e-105">Instead of being located in someone’s office, common area phones are typically located in building lobbies, cafeterias, employee lounges, meeting rooms, and other locations where a large number of people are likely to gather.</span></span> <span data-ttu-id="2105e-106">Im Gegensatz zu anderen Telefonen in lync Server, die in der Regel mithilfe von VoIP-Richtlinien und Wählplänen verwaltet werden, die einzelnen Benutzern zugewiesen sind, haben für Telefone in öffentlichen Bereichen keine einzelnen Benutzer zugewiesen.</span><span class="sxs-lookup"><span data-stu-id="2105e-106">Unlike other phones in Lync Server, which are typically maintained by using voice policies and dial plans that are assigned to individual users, common area phones do not have individual users assigned to them.</span></span> <span data-ttu-id="2105e-107">Dies bedeutet, dass Sie anders verwaltet werden müssen als Ihre anderen Telefone.</span><span class="sxs-lookup"><span data-stu-id="2105e-107">This means that they must be managed differently than your other phones.</span></span>
 
-<span data-ttu-id="854eb-108">Zum Verwalten von Telefonen im allgemeinen Bereich erstellen Sie für alle Ihre Telefone im öffentlichen Bereich Active Directory-Domänendienste, denen wie Benutzerkonten Richtlinien und sprach Pläne zugewiesen werden können.</span><span class="sxs-lookup"><span data-stu-id="854eb-108">To manage common area phones, you create Active Directory Domain Services contact objects for all your common area phones that, like user accounts, can be assigned policies and voice plans.</span></span> <span data-ttu-id="854eb-109">Dieser Ansatz ermöglicht Ihnen, die Kontrolle über Telefone im öffentlichen Bereich zu behalten, auch wenn diese Telefone keinem einzelnen Benutzer zugeordnet sind.</span><span class="sxs-lookup"><span data-stu-id="854eb-109">This approach enables you to maintain control over common area phones, even though those phones are not associated with an individual user.</span></span>
+<span data-ttu-id="2105e-108">Zum Verwalten von Telefonen in öffentlichen Bereichen erstellen Sie Active Directory-Domänendienste Kontaktobjekte für alle Telefone in öffentlichen Bereichen, die wie Benutzerkonten Richtlinien und VoIP-Pläne zugewiesen werden können.</span><span class="sxs-lookup"><span data-stu-id="2105e-108">To manage common area phones, you create Active Directory Domain Services contact objects for all your common area phones that, like user accounts, can be assigned policies and voice plans.</span></span> <span data-ttu-id="2105e-109">Mit diesem Ansatz können Sie die Kontrolle über Telefone in öffentlichen Bereichen aufrecht erhalten, auch wenn diese Telefone keinem einzelnen Benutzer zugeordnet sind.</span><span class="sxs-lookup"><span data-stu-id="2105e-109">This approach enables you to maintain control over common area phones, even though those phones are not associated with an individual user.</span></span>
 
-<span data-ttu-id="854eb-110">Verwenden Sie die Themen in diesem Abschnitt, um zu erfahren, wie Sie Kontaktobjekte für Telefone im allgemeinen Bereich erstellen, diese ändern und löschen sowie Konfigurationsinformationen zu den Telefonen im öffentlichen Bereich in Ihrer Bereitstellung konfigurieren und anzeigen können.</span><span class="sxs-lookup"><span data-stu-id="854eb-110">Use the topics in this section to learn how to create contact objects for common area phones, modify and delete them, and configure and view configuration information about the common area phones in your deployment.</span></span>
+<span data-ttu-id="2105e-110">Verwenden Sie die Themen in diesem Abschnitt, um zu erfahren, wie Sie Kontaktobjekte für Telefone in öffentlichen Bereichen erstellen, diese ändern und löschen sowie Konfigurationsinformationen zu den Telefonen für gemeinsame Bereiche in Ihrer Bereitstellung konfigurieren und anzeigen.</span><span class="sxs-lookup"><span data-stu-id="2105e-110">Use the topics in this section to learn how to create contact objects for common area phones, modify and delete them, and configure and view configuration information about the common area phones in your deployment.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="854eb-111">Sie haben drei Optionen für Telefone im öffentlichen Bereich: das allgemeine Bereichs Telefon Aastra 6721ip, das HP 4110 IP-Telefon und das Polycom CX500 IP-Telefon mit gemeinsamem Bereich.</span><span class="sxs-lookup"><span data-stu-id="854eb-111">You have three options for common area phones: the Aastra 6721ip common area phone, the HP 4110 IP Phone, and the Polycom CX500 IP common area phone.</span></span> <span data-ttu-id="854eb-112">Das Polycom CX3000 IP-Konferenztelefon ist ein weiteres Variant-Telefon im öffentlichen Bereich.</span><span class="sxs-lookup"><span data-stu-id="854eb-112">The Polycom CX3000 IP conferencing phone is another variant common area phone.</span></span> <span data-ttu-id="854eb-113">Sie ist jedoch für die Verwendung in Konferenzräumen vorgesehen.</span><span class="sxs-lookup"><span data-stu-id="854eb-113">However, it is intended for use in conference rooms.</span></span> <span data-ttu-id="854eb-114">Ausführliche Informationen zu Telefonen im öffentlichen Bereich finden Sie im Abschnitt Telefone im allgemeinen Bereich unter <A href="http://technet.microsoft.com/en-us/library/gg398958(v=ocs.14).aspx">Auswählen neuer Geräte</A>.</span><span class="sxs-lookup"><span data-stu-id="854eb-114">For details about common area phones, see the Common Area Phones section of <A href="http://technet.microsoft.com/en-us/library/gg398958(v=ocs.14).aspx">Choosing New Devices</A>.</span></span>
+> <span data-ttu-id="2105e-111">Sie haben drei Optionen für Telefone in öffentlichen Bereichen: das Aastra 6721ip-Telefon im öffentlichen Bereich, das HP 4110-IP-Telefon und das Polycom-IP-Telefon im öffentlichen Bereich von Polycom CX500.</span><span class="sxs-lookup"><span data-stu-id="2105e-111">You have three options for common area phones: the Aastra 6721ip common area phone, the HP 4110 IP Phone, and the Polycom CX500 IP common area phone.</span></span> <span data-ttu-id="2105e-112">Das Polycom CX3000-IP-Konferenztelefon ist eine weitere Variante des Telefonapparats für gemeinsame Bereiche.</span><span class="sxs-lookup"><span data-stu-id="2105e-112">The Polycom CX3000 IP conferencing phone is another variant common area phone.</span></span> <span data-ttu-id="2105e-113">Sie ist jedoch für die Verwendung in Konferenzräumen vorgesehen.</span><span class="sxs-lookup"><span data-stu-id="2105e-113">However, it is intended for use in conference rooms.</span></span> <span data-ttu-id="2105e-114">Ausführliche Informationen zu Telefonen in öffentlichen Bereichen finden Sie im Abschnitt Telefone für gemeinsame Bereiche unter <A href="http://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">Auswählen neuer Geräte</A>.</span><span class="sxs-lookup"><span data-stu-id="2105e-114">For details about common area phones, see the Common Area Phones section of <A href="http://technet.microsoft.com/library/gg398958(v=ocs.14).aspx">Choosing New Devices</A>.</span></span>
 
 
 
@@ -55,17 +55,17 @@ ms.locfileid: "41742785"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="854eb-115">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="854eb-115">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2105e-115">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="2105e-115">In This Section</span></span>
 
-  - [<span data-ttu-id="854eb-116">Anzeigen von allgemeinen Telefon Informationen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="854eb-116">View common area phone information in Lync Server 2013</span></span>](lync-server-2013-view-common-area-phone-information.md)
+  - [<span data-ttu-id="2105e-116">Anzeigen von Informationen zu Telefonen in öffentlichen Bereichen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2105e-116">View common area phone information in Lync Server 2013</span></span>](lync-server-2013-view-common-area-phone-information.md)
 
-  - [<span data-ttu-id="854eb-117">Erstellen oder Ändern eines Telefon Kontaktobjekts in einem gemeinsamen Bereich in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="854eb-117">Create or modify a common area phone Contact object in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-common-area-phone-contact-object.md)
+  - [<span data-ttu-id="2105e-117">Erstellen oder Ändern eines Kontaktobjekts für ein Telefon mit öffentlichen Bereichen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2105e-117">Create or modify a common area phone Contact object in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-common-area-phone-contact-object.md)
 
-  - [<span data-ttu-id="854eb-118">Aktivieren oder Deaktivieren von Hot Desking in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="854eb-118">Enable or disable hot desking in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-hot-desking.md)
+  - [<span data-ttu-id="2105e-118">Aktivieren oder Deaktivieren des Hot deskings in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2105e-118">Enable or disable hot desking in Lync Server 2013</span></span>](lync-server-2013-enable-or-disable-hot-desking.md)
 
-  - [<span data-ttu-id="854eb-119">Löschen eines Kontaktobjekts für einen öffentlichen Bereich in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="854eb-119">Delete a common area phone Contact object in Lync Server 2013</span></span>](lync-server-2013-delete-a-common-area-phone-contact-object.md)
+  - [<span data-ttu-id="2105e-119">Löschen eines Kontaktobjekts für einen öffentlichen Bereich in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2105e-119">Delete a common area phone Contact object in Lync Server 2013</span></span>](lync-server-2013-delete-a-common-area-phone-contact-object.md)
 
-  - [<span data-ttu-id="854eb-120">Zuweisen von Richtlinien in lync Server 2013 zu einem Telefon im öffentlichen Bereich</span><span class="sxs-lookup"><span data-stu-id="854eb-120">Assign policies in Lync Server 2013 to a common area phone</span></span>](lync-server-2013-assign-policies-to-a-common-area-phone.md)
+  - [<span data-ttu-id="2105e-120">Zuweisen von Richtlinien in lync Server 2013 zu einem Telefon im öffentlichen Bereich</span><span class="sxs-lookup"><span data-stu-id="2105e-120">Assign policies in Lync Server 2013 to a common area phone</span></span>](lync-server-2013-assign-policies-to-a-common-area-phone.md)
 
 </div>
 

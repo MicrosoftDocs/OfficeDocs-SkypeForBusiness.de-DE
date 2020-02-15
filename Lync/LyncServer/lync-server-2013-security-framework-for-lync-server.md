@@ -12,20 +12,20 @@ ms:contentKeyID: 59893866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a2b58d34c1ed1f899e0daac8c1bb0132b1a22d7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9910b4c481ea474425cae51d7fac88a217d52e1d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764903"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048876"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="security-framework-for-lync-server-2013"></a><span data-ttu-id="0f2be-102">Sicherheitsframework für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0f2be-102">Security framework for Lync Server 2013</span></span>
+# <a name="security-framework-for-lync-server-2013"></a><span data-ttu-id="0ec81-102">Sicherheitsframework für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0ec81-102">Security framework for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41764903"
 
 <span> </span>
 
-<span data-ttu-id="0f2be-103">_**Letztes Änderungsdatum des Themas:** 2013-11-08_</span><span class="sxs-lookup"><span data-stu-id="0f2be-103">_**Topic Last Modified:** 2013-11-08_</span></span>
+<span data-ttu-id="0ec81-103">_**Letztes Änderungsstand des Themas:** 2013-11-08_</span><span class="sxs-lookup"><span data-stu-id="0ec81-103">_**Topic Last Modified:** 2013-11-08_</span></span>
 
-<span data-ttu-id="0f2be-104">Dieser Abschnitt enthält eine Übersicht über die grundlegenden Elemente, die das Sicherheitsframework für Microsoft lync Server 2013 bilden.</span><span class="sxs-lookup"><span data-stu-id="0f2be-104">This section provides an overview of the fundamental elements that form the security framework for Microsoft Lync Server 2013.</span></span> <span data-ttu-id="0f2be-105">Wenn Sie wissen möchten, wie diese Elemente zusammenarbeiten, ist es wichtig, fundierte Entscheidungen zum Sichern Ihrer speziellen lync Server 2013-Bereitstellung zu treffen.</span><span class="sxs-lookup"><span data-stu-id="0f2be-105">Understanding how these elements work together is essential to making informed decisions about securing your particular Lync Server 2013 deployment.</span></span>
+<span data-ttu-id="0ec81-104">Dieser Abschnitt enthält eine Übersicht über die grundlegenden Elemente, die das Sicherheitsframework für Microsoft lync Server 2013 bilden.</span><span class="sxs-lookup"><span data-stu-id="0ec81-104">This section provides an overview of the fundamental elements that form the security framework for Microsoft Lync Server 2013.</span></span> <span data-ttu-id="0ec81-105">Grundlegendes zur Zusammenarbeit dieser Elemente ist unerlässlich, um fundierte Entscheidungen zur Sicherung ihrer speziellen lync Server 2013-Bereitstellung zu treffen.</span><span class="sxs-lookup"><span data-stu-id="0ec81-105">Understanding how these elements work together is essential to making informed decisions about securing your particular Lync Server 2013 deployment.</span></span>
 
-<span data-ttu-id="0f2be-106">Es handelt sich um die folgenden Elemente:</span><span class="sxs-lookup"><span data-stu-id="0f2be-106">These elements are as follows:</span></span>
+<span data-ttu-id="0ec81-106">Folgende Komponenten sind beteiligt:</span><span class="sxs-lookup"><span data-stu-id="0ec81-106">These elements are as follows:</span></span>
 
-  - <span data-ttu-id="0f2be-107">Active Directory-Domänendienste (AD DS) bietet ein einzelnes vertrauenswürdiges Back-End-Repository für Benutzerkonten und Netzwerkressourcen.</span><span class="sxs-lookup"><span data-stu-id="0f2be-107">Active Directory Domain Services (AD DS) provides a single trusted back-end repository for user accounts and network resources.</span></span>
+  - <span data-ttu-id="0ec81-107">Die Active Directory-Domänendienste (AD DS) bieten ein zentrales vertrauenswürdiges Back-End-Repository für Benutzerkonten und Netzwerkressourcen.</span><span class="sxs-lookup"><span data-stu-id="0ec81-107">Active Directory Domain Services (AD DS) provides a single trusted back-end repository for user accounts and network resources.</span></span>
 
-  - <span data-ttu-id="0f2be-108">Die rollenbasierte Zugriffskontrolle (RBAC) ermöglicht die Delegation administrativer Aufgaben bei gleichzeitiger Aufrechterhaltung von hohen Sicherheitsstandards.</span><span class="sxs-lookup"><span data-stu-id="0f2be-108">Role-Based Access Control (RBAC) enables you to delegate administrative tasks while maintaining high standards for security.</span></span>
+  - <span data-ttu-id="0ec81-108">Mit der rollenbasierten Zugriffssteuerung (Role-Based Access Control, RBAC) können Sie administrative Aufgaben delegieren und gleichzeitig hohe Sicherheitsstandards aufrecht erhalten.</span><span class="sxs-lookup"><span data-stu-id="0ec81-108">Role-Based Access Control (RBAC) enables you to delegate administrative tasks while maintaining high standards for security.</span></span>
 
-  - <span data-ttu-id="0f2be-109">Die Public Key-Infrastruktur (PKI) verwendet von vertrauenswürdigen Zertifizierungsstellen ausgestellte Zertifikate, um Server zu authentifizieren und die Datenintegrität zu sichern.</span><span class="sxs-lookup"><span data-stu-id="0f2be-109">Public Key Infrastructure (PKI) uses certificates issued by trusted certification authorities (CAs) to authenticate servers and ensure data integrity.</span></span>
+  - <span data-ttu-id="0ec81-109">Die Public Key-Infrastruktur (PKI) verwendet Zertifikate, die von vertrauenswürdigen Zertifizierungsstellen ausgestellt wurden, um Server zu authentifizieren und die Datenintegrität sicherzustellen.</span><span class="sxs-lookup"><span data-stu-id="0ec81-109">Public Key Infrastructure (PKI) uses certificates issued by trusted certification authorities (CAs) to authenticate servers and ensure data integrity.</span></span>
 
-  - <span data-ttu-id="0f2be-p102">Transport Layer Security (TLS), HTTPS über SSL (HTTPS) und Mutual TLS (MTLS) ermöglichen die Endpunktauthentifizierung und IM-Verschlüsselung. Punkt-zu-Punkt-Audio-, Video- und Anwendungsfreigabestreams werden über SRTP (Secure Real-Time Transport Protocol) verschlüsselt.</span><span class="sxs-lookup"><span data-stu-id="0f2be-p102">Transport Layer Security (TLS), HTTPS over SSL (HTTPS), and mutual TLS (MTLS) enable endpoint authentication and IM encryption. Point-to-point audio, video, and application sharing streams are encrypted using Secure Real-Time Transport Protocol (SRTP).</span></span>
+  - <span data-ttu-id="0ec81-p102">TLS (Transport Layer Security), HTTPS über SSL (HTTPS) und MTLS (Mutual TLS) ermöglichen die Authentifizierung von Endgeräten und die Sofortnachrichtenverschlüsselung. Point-to-Point-Audio-, Video- und Anwendungsfreigabe-Datenströme werden mit dem Secure Real-Time Transport Protocol (SRTP) verschlüsselt.</span><span class="sxs-lookup"><span data-stu-id="0ec81-p102">Transport Layer Security (TLS), HTTPS over SSL (HTTPS), and mutual TLS (MTLS) enable endpoint authentication and IM encryption. Point-to-point audio, video, and application sharing streams are encrypted using Secure Real-Time Transport Protocol (SRTP).</span></span>
 
-  - <span data-ttu-id="0f2be-112">Branchenstandardprotokolle für die Benutzerauthentifizierung, falls möglich.</span><span class="sxs-lookup"><span data-stu-id="0f2be-112">Industry-standard protocols for user authentication, where possible.</span></span>
+  - <span data-ttu-id="0ec81-112">Standardprotokolle zur Authentifizierung von Benutzern, sofern möglich.</span><span class="sxs-lookup"><span data-stu-id="0ec81-112">Industry-standard protocols for user authentication, where possible.</span></span>
 
-  - <span data-ttu-id="0f2be-113">Windows PowerShell bietet Sicherheitsfeatures, die standardmäßig aktiviert sind, sodass Benutzer keine einfachen oder unwissentlichen Skripts ausführen können.</span><span class="sxs-lookup"><span data-stu-id="0f2be-113">Windows PowerShell provides security features that are enabled by default so that users cannot easily or unknowingly run scripts.</span></span>
+  - <span data-ttu-id="0ec81-113">Windows PowerShell-Sicherheitsfeatures, die standardmäßig aktiviert sind, sodass die Benutzer nicht auf einfache Weise oder unwissentlich Skripts ausführen können.</span><span class="sxs-lookup"><span data-stu-id="0ec81-113">Windows PowerShell provides security features that are enabled by default so that users cannot easily or unknowingly run scripts.</span></span>
 
-<span data-ttu-id="0f2be-114">Diese grundlegenden Sicherheitselemente arbeiten zusammen, um vertrauenswürdige Benutzer, Server, Verbindungen und Vorgänge zu definieren, um eine sichere Grundlage für lync Server 2013 zu gewährleisten.</span><span class="sxs-lookup"><span data-stu-id="0f2be-114">These fundamental security elements work together to define trusted users, servers, connections, and operations to help ensure a secure foundation for Lync Server 2013.</span></span>
+<span data-ttu-id="0ec81-114">Diese grundlegenden Sicherheitselemente arbeiten zusammen, um vertrauenswürdige Benutzer, Server, Verbindungen und Vorgänge zu definieren, um eine sichere Grundlage für lync Server 2013 sicherzustellen.</span><span class="sxs-lookup"><span data-stu-id="0ec81-114">These fundamental security elements work together to define trusted users, servers, connections, and operations to help ensure a secure foundation for Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0f2be-115">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="0f2be-115">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="0ec81-115">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="0ec81-115">In This Section</span></span>
 
-<span data-ttu-id="0f2be-116">In den Themen in diesem Abschnitt wird beschrieben, wie jedes dieser grundlegenden Elemente funktioniert, um die Sicherheit Ihrer lync Server-Infrastruktur zu verbessern.</span><span class="sxs-lookup"><span data-stu-id="0f2be-116">The topics in this section describe how each of these fundamental elements works to enhance the security of your Lync Server infrastructure.</span></span>
+<span data-ttu-id="0ec81-116">In den Themen in diesem Abschnitt wird beschrieben, wie diese grundlegenden Elemente verwendet werden, um die Sicherheit Ihrer lync Server Infrastruktur zu verbessern.</span><span class="sxs-lookup"><span data-stu-id="0ec81-116">The topics in this section describe how each of these fundamental elements works to enhance the security of your Lync Server infrastructure.</span></span>
 
-  - [<span data-ttu-id="0f2be-117">Active Directory-Domänendienste für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0f2be-117">Active Directory Domain Services for Lync Server 2013</span></span>](lync-server-2013-active-directory-domain-services-for-lync-server.md)
+  - [<span data-ttu-id="0ec81-117">Active Directory-Domänendienste für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0ec81-117">Active Directory Domain Services for Lync Server 2013</span></span>](lync-server-2013-active-directory-domain-services-for-lync-server.md)
 
-  - [<span data-ttu-id="0f2be-118">Rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC) für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0f2be-118">Role-based access control (RBAC) for Lync Server 2013</span></span>](lync-server-2013-role-based-access-control-rbac.md)
+  - [<span data-ttu-id="0ec81-118">Rollenbasierte Zugriffssteuerung (Role Based Access Control, RBAC) für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0ec81-118">Role-based access control (RBAC) for Lync Server 2013</span></span>](lync-server-2013-role-based-access-control-rbac.md)
 
-  - [<span data-ttu-id="0f2be-119">Infrastruktur öffentlicher Schlüssel für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0f2be-119">Public Key Infrastructure for Lync Server 2013</span></span>](lync-server-2013-public-key-infrastructure.md)
+  - [<span data-ttu-id="0ec81-119">Öffentliche Schlüsselinfrastruktur für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0ec81-119">Public Key Infrastructure for Lync Server 2013</span></span>](lync-server-2013-public-key-infrastructure.md)
 
-  - [<span data-ttu-id="0f2be-120">TLS und MTLS für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0f2be-120">TLS and MTLS for Lync Server 2013</span></span>](lync-server-2013-tls-and-mtls.md)
+  - [<span data-ttu-id="0ec81-120">TLS und MTLS für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0ec81-120">TLS and MTLS for Lync Server 2013</span></span>](lync-server-2013-tls-and-mtls.md)
 
-  - [<span data-ttu-id="0f2be-121">Verschlüsselung für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0f2be-121">Encryption for Lync Server 2013</span></span>](lync-server-2013-encryption.md)
+  - [<span data-ttu-id="0ec81-121">Verschlüsselung für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0ec81-121">Encryption for Lync Server 2013</span></span>](lync-server-2013-encryption.md)
 
-  - [<span data-ttu-id="0f2be-122">Benutzer-und Clientauthentifizierung für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0f2be-122">User and client authentication for Lync Server 2013</span></span>](lync-server-2013-user-and-client-authentication.md)
+  - [<span data-ttu-id="0ec81-122">Benutzer-und Clientauthentifizierung für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0ec81-122">User and client authentication for Lync Server 2013</span></span>](lync-server-2013-user-and-client-authentication.md)
 
-  - [<span data-ttu-id="0f2be-123">Windows PowerShell und Lync Server 2013-Verwaltungstools</span><span class="sxs-lookup"><span data-stu-id="0f2be-123">Windows PowerShell and Lync Server 2013 management tools</span></span>](lync-server-2013-windows-powershell-and-lync-server-management-tools.md)
+  - [<span data-ttu-id="0ec81-123">Windows PowerShell-und lync Server 2013-Verwaltungstools</span><span class="sxs-lookup"><span data-stu-id="0ec81-123">Windows PowerShell and Lync Server 2013 management tools</span></span>](lync-server-2013-windows-powershell-and-lync-server-management-tools.md)
 
 </div>
 
