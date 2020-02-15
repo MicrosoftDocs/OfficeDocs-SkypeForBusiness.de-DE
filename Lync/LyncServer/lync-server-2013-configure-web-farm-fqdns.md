@@ -12,20 +12,20 @@ ms:contentKeyID: 48185481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bd01b02cef8d806f390b6b700fa42acd37e27d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fedaf9fdc48e067b20a956e8945e43469b967011
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733765"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048078"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-web-farm-fqdns-for-lync-server-2013"></a>Konfigurieren von Webfarm-FQDNs für Lync Server 2013
+# <a name="configure-web-farm-fqdns-for-lync-server-2013"></a>Konfigurieren von Webfarm-FQDNs für lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41733765"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-29_
+_**Letztes Änderungsstand des Themas:** 2013-03-29_
 
-Wenn Sie die Konfiguration des Standard Edition-Servers, des Front-End-Pools, des Director-oder Director-Pools in Topology Builder definiert haben, konfigurieren Sie einen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für externe Webdienste. Während des Anmeldeprozesses eines Clients, der sich im Standard Edition-Server oder-Front-End-Pool befindet, werden die konfigurierten Webdienste-FQDNs über die in-Band-Bereitstellung gesendet. Wenn Sie die externe Webdienste-URL hinzufügen oder ändern müssen, verwenden Sie den Topologie-Generator, um die Webdienstkonfiguration mithilfe des in diesem Thema beschriebenen Verfahrens zu konfigurieren oder neu zu konfigurieren.
+Wenn Sie die Konfiguration der Standard Edition-Server, Front-End-Pool, Director oder Directorpool im Topologie-Generator definiert haben, konfigurieren Sie einen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für externe Webdienste. Während des Anmeldeprozesses eines Clients, der in der Standard Edition-Server oder Front-End-Pool verwaltet wird, werden die konfigurierten FQDNs der Webdienste über die in-Band-Bereitstellung gesendet. Wenn Sie die URL für externe Webdienste hinzufügen oder ändern müssen, verwenden Sie den Topologie-Generator, um die Webdienstkonfiguration mit dem Verfahren in diesem Thema zu konfigurieren oder neu zu konfigurieren.
 
 <div>
 
 ## <a name="to-configure-an-external-pool-fqdn-for-web-services"></a>So konfigurieren Sie einen externen Pool-FQDN für Webdienste
 
-1.  Starten Sie den Topologie-Generator: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topology Builder**.
+1.  Starten Sie den Topologie-Generator: Klicken Sie im **Startmenü**auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topologie-Generator**.
 
-2.  Klicken Sie im Topologie-Generator in der Konsolenstruktur unter **Front Ends der Standard Edition**, **Enterprise Edition-Front-Ends**und **Directors**mit der rechten Maustaste auf den Namen des Pools, den Sie bearbeiten möchten, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+2.  Klicken Sie im Topologie-Generator in der Konsolenstruktur unter **Standard Edition-Front-End**, **Enterprise Edition-Front-End**und **Directors**mit der rechten Maustaste auf den Namen des Pools, den Sie bearbeiten möchten, und klicken Sie dann auf **Eigenschaften bearbeiten**.
 
-3.  Fügen Sie im Abschnitt **Webdienst** den **FQDN externer Webdienste**hinzu, oder bearbeiten Sie ihn.
+3.  Fügen Sie im Abschnitt **Webdienste** den **externen Webdienste-FQDN**hinzu, oder bearbeiten Sie ihn.
 
-4.  Überprüfen und Anpassen der **Abhör Anschlüsse** für http und HTTPS Die Standardeinstellungen lauten wie folgt:
+4.  Überprüfen und Anpassen der **Überwachungs Ports** für http und HTTPS. Die Standardeinstellungen sind:
     
-      - **Abhör Anschlüsse:** HTTP 8080, HTTPS 4443
+      - **Abhör-Ports:** HTTP 8080, HTTPS 4443
     
       - **Veröffentlichte Ports:** HTTP 80, HTTPS 443
     
-    Hierbei handelt **es sich um den Port** , in dem die externen Webdienste so konfiguriert werden, dass Sie Anforderungen vom Reverseproxy empfangen, und die **veröffentlichten** Ports sind die Ports, die extern vom Reverse-Proxy veröffentlicht werden und während der in-Band-Bereitstellung an Clients mitgeteilt werden.
+    Dabei handelt es sich bei den **abhörenden Ports** um den Port, für den die externen Webdienste für den Empfang von Anforderungen vom Reverseproxy konfiguriert werden, und die **veröffentlichten** Ports sind die Ports, die extern vom Reverseproxy veröffentlicht werden und den Clients während der in-Band-Bereitstellung mitgeteilt werden.
 
 5.  Wenn Sie Ihre Ergänzungen und Updates abgeschlossen haben, klicken Sie auf **OK** , um den Vorgang fortzusetzen.
 
@@ -65,12 +65,12 @@ Wenn Sie die Konfiguration des Standard Edition-Servers, des Front-End-Pools, de
     
 
     > [!IMPORTANT]  
-    > Nachdem die Veröffentlichung erfolgreich abgeschlossen wurde, wird möglicherweise ein Link angezeigt, der Sie darüber informiert, dass weitere Schritte ausgeführt werden müssen. Wenn Sie auf den Link klicken, wird eine Liste der Server geöffnet, die von den im Topologie-Generator vorgenommenen Änderungen betroffen sind, die erfordern, dass Sie den lync Server-Bereitstellungs-Assistenten auf jedem aufgelisteten Server erneut ausführen, um die Konfiguration für hinzugefügte, entfernte oder geänderte Komponenten zu aktualisieren.
+    > Nachdem die Veröffentlichung erfolgreich abgeschlossen wurde, wird möglicherweise ein Link angezeigt, in dem Sie darüber informiert werden, dass zusätzliche Schritte ausgeführt werden müssen. Wenn Sie auf den Link klicken, wird eine Liste der Server geöffnet, die von den im Topologie-Generator vorgenommenen Änderungen betroffen sind, sodass Sie den lync Server-Bereitstellungs-Assistenten auf jedem aufgelisteten Server erneut ausführen müssen, um die Konfiguration für hinzugefügte, entfernte oder geänderte Komponenten zu aktualisieren.
 
     
     </div>
 
-7.  Wiederholen Sie diese Schritte für jeden Standard Edition-Server, Front-End-Pool, Director-oder Director-Pool in der Organisation.
+7.  Wiederholen Sie diese Schritte für jeden Standard Edition-Server, Front-End-Pool, Director oder Directorpool in der Organisation.
 
 </div>
 

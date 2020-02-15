@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Neue Funktionen der Reaktionsgruppenanwendung'
+title: 'Lync Server 2013: neue Reaktionsgruppenanwendung-Features'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184196
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bddf1f670ef2a0a246100564962b2f69db741186
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f98261aaf40413c52598465338c9c198aca435f9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755899"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048309"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-response-group-application-features-in-lync-server-2013"></a>Neue Funktionen der Reaktionsgruppenanwendung in Lync Server 2013
+# <a name="new-response-group-application-features-in-lync-server-2013"></a>Neue Reaktionsgruppenanwendung Features in lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41755899"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-29_
+_**Letztes Änderungsstand des Themas:** 2012-10-29_
 
-Mit der reaktionsgruppenanwendung können Sie eingehende Anrufe an bestimmte Personen zu speziellen Zwecken wie Kundendienst, internem Helpdesk oder allgemeinen Telefonsupport für eine Abteilung weiterleiten und in die Warteschlange einreihen.
+Mithilfe der Reaktionsgruppenanwendung können Sie eingehende Anrufe an benannte Personen mit speziellen Aufgabenbereichen weiterleiten – z. B. an den Kundendienst, ein internes Helpdesk oder die allgemeine Telefonunterstützung für eine Abteilung – oder den Anruf in der Warteschleife platzieren.
 
-Die folgenden Features der reaktionsgruppenanwendung sind in lync Server 2013 neu:
+Die folgenden Reaktionsgruppenanwendung Features sind in lync Server 2013 neu:
 
   - **Manager-Rolle**
     
-    Lync Server 2013 führt eine neue Rolle des Antwortgruppen-Managers ein. Nun gibt es zwei Verwaltungsrollen für Antwortgruppen: Antwortgruppen-Manager und Antwortgruppen Administrator. Während Reaktionsgruppen Administratoren weiterhin ein beliebiges Element für eine Reaktionsgruppe konfigurieren können, können Manager nur bestimmte Elemente nur für Antwortgruppen konfigurieren, die Sie besitzen.
+    Lync Server 2013 stellt eine neue Rolle für Reaktionsgruppen-Manager vor. Nun gibt es zwei Verwaltungsrollen für Reaktionsgruppen: Reaktionsgruppen-Manager und Reaktionsgruppen Administrator. Während Reaktionsgruppen Administratoren immer noch ein beliebiges Element für eine beliebige Reaktionsgruppe konfigurieren können, können Manager nur bestimmte Elemente konfigurieren, nur für Ihre eigenen Reaktionsgruppen.
     
-    Diese Verbesserungen im Verwaltungsmodell nutzen die Skalierbarkeit der Reaktionsgruppe, insbesondere bei umfangreichen Bereitstellungsszenarien.
+    Dies stellt – insbesondere mit Blick auf umfangreiche Bereitstellungsszenarien – eine Verbesserung im Verwaltungsmodell bezüglich der Skalierbarkeit von Reaktionsgruppen dar.
 
-  - **Hohe Verfügbarkeit**
+  - **Hochverfügbarkeit**
     
-    Die Unterstützung für die Reaktionsgruppe in Form einer SQL Server-Spiegelung ist als Teil der allgemeinen Konfiguration und Bereitstellung von Hochverfügbarkeits Funktionen für lync Server 2013 aktiviert. Wenn Sie für eine höhere Verfügbarkeit konfigurieren und die Verbindung mit dem primären Back-End-Server verlieren, ist die Funktion der Reaktionsgruppe nicht von der Nutzung des gespiegelten Back-End-Servers betroffen.
+    Die Unterstützung für hohe Verfügbarkeit für den Reaktionsgruppenanwendung in Form von SQL Server Spiegelung wird als Teil der Gesamtkonfiguration und der Bereitstellung der hohen Verfügbarkeit für lync Server 2013 aktiviert. Wenn Sie Ihre Konfiguration auf hohe Verfügbarkeit auslegen und es zu einer Unterbrechung der Verbindung zum primären Back-End-Server kommt, ist die Reaktionsgruppenfunktion davon nicht beeinträchtigt, weil auf einen gespiegelten Back-End-Server zugegriffen werden kann.
     
-    Die Unterstützung für die SQL Server-Spiegelung für die reaktionsgruppenanwendung kann nicht einzeln aktiviert oder außerhalb der gesamten lync Server 2013-Konfiguration mit höherer Verfügbarkeit konfiguriert werden.
+    Unterstützung für SQL Server Spiegelung für das Reaktionsgruppenanwendung kann nicht einzeln aktiviert oder konfiguriert werden, außerhalb der gesamten lync Server 2013 Konfiguration für hohe Verfügbarkeit.
 
   - **Notfallwiederherstellung**
     
-    Die Unterstützung für die Disaster Recovery für die reaktionsgruppenanwendung wird im Rahmen der Konfiguration und Bereitstellung der gekoppelten Front-End-Pools aktiviert, die Teil der gesamten lync Server 2013-Konfiguration für die Disaster Recovery sind. Darüber hinaus unterstützen Cmdlets für das Importieren und Exportieren von Reaktionsgruppen den Failoverprozess für den Sicherungspool und den Failback-Prozess im primären Pool oder in einem neuen Pool. Wenn ein Ausfall im primären Pool auftritt, können Reaktionsgruppen für den Sicherungspool Failover durchgeführt werden, und bei einem Ausfall ist der primäre Pool oder ein neuer Pool wieder fehlerhaft.
+    Die Unterstützung für die Notfallwiederherstellung für den Reaktionsgruppenanwendung wird als Teil der Konfiguration und Bereitstellung der gekoppelten Front-End-Pools aktiviert, die Teil der gesamten lync Server 2013 Notfall Wiederherstellungskonfiguration sind. Darüber hinaus unterstützen die Cmdlets der Reaktionsgruppe den Failoverprozess zum Sicherungspool sowie den Failbackprozess zum primären oder zu einem neuen Pool. Bei einem Ausfall des primären Pools kann für die Reaktionsgruppen ein Failover zum Sicherungspool durchgeführt werden, und nach der Wiederherstellung kann ein Failback zum primären oder zu einem neuen Pool durchgeführt werden.
 
 <div id="sectionSection0" class="section">
 
@@ -66,7 +66,7 @@ Die folgenden Features der reaktionsgruppenanwendung sind in lync Server 2013 ne
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planen von Reaktionsgruppen in Lync Server 2013](lync-server-2013-planning-for-response-groups.md)  
+[Planen von Reaktionsgruppen in lync Server 2013](lync-server-2013-planning-for-response-groups.md)  
   
 
 </div>

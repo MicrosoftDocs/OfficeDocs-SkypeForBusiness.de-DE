@@ -12,16 +12,16 @@ ms:contentKeyID: 48183930
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65d43f0641d61b60d05c11176fe38866a137e7fc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6a559cd21bbd7f17c8e9a7c41a3965f5c71cf836
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763919"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048406"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41763919"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-02-14_
+_**Letztes Änderungsstand des Themas:** 2014-02-14_
 
 Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Server 2013 und Microsoft lync 2013 beziehen.
 
@@ -59,7 +59,7 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 <td><p>Ermöglicht es internen Benutzern, Audio- und Videodaten für externe Benutzer (d. h. Benutzer, die nicht bei Ihrem internen Netzwerk angemeldet sind) freizugeben.</p></td>
 </tr>
 <tr class="even">
-<td><p>ACP (Audio Conferencing Provider)</p></td>
+<td><p>AG</p></td>
 <td><p>Ein Drittanbieter, der Audiokonferenzdienste über Festnetz (Public Switched Telephone Network, PSTN) bereitstellt.</p></td>
 </tr>
 <tr class="odd">
@@ -67,7 +67,7 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 <td><p>Gibt Lync-Systemadministratoren die Möglichkeit, Pools, Server und Netzwerke in mehreren Rechenzentren über das öffentliche Internet zu überwachen.</p></td>
 </tr>
 <tr class="even">
-<td><p>Audiokonferenzanbieter</p></td>
+<td><p>Audiokonferenzdienstanbieter</p></td>
 <td><p>Ein Drittanbieter, der Audiokonferenzdienste über Festnetz (Public Switched Telephone Network, PSTN) bereitstellt.</p></td>
 </tr>
 <tr class="odd">
@@ -75,7 +75,7 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 <td><p>Ein integriertes Tool, mit dem vor dem tatsächlichen Anruf ein Testanruf ausgeführt werden kann. Dadurch wird sichergestellt, dass keine schwerwiegenden Netzwerk- oder anderweitigen Probleme vorliegen, die die Anrufqualität beeinträchtigen könnten.</p></td>
 </tr>
 <tr class="even">
-<td><p>Übertragung</p></td>
+<td><p>Broadcast</p></td>
 <td><p>Eine Übermittlung an mehrere Empfänger. In Kommunikationssystemen und Netzwerken ist eine Übertragungsnachricht eine Nachricht, die an alle Stationen verteilt wird.</p></td>
 </tr>
 <tr class="odd">
@@ -83,7 +83,7 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 <td><p>Ein Anruf, der den Vermittlungsserver umgeht.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nummer des geparkten Anrufs</p></td>
+<td><p>Orbit zum Parken von Anrufen</p></td>
 <td><p>Eine Nummer, die die Anwendung zum Parken von Anrufen einem geparkten Anruf zuweist.</p></td>
 </tr>
 <tr class="odd">
@@ -91,7 +91,7 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 <td><p>Eine Rückrufoption, mit der ein ausgehender Anruf über die geschäftliche Rufnummer getätigt werden kann. Die Person, die den Anruf annimmt, sieht die geschäftliche Rufnummer des Anrufers in dessen Anrufer-ID.</p></td>
 </tr>
 <tr class="even">
-<td><p>Angerufener</p></td>
+<td><p>aufgerufene</p></td>
 <td><p>Person, die der Anrufer anruft.</p></td>
 </tr>
 <tr class="odd">
@@ -103,7 +103,7 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 <td><p>Ein digitales Videogerät, das zum Aufzeichnen von bewegten Bildern und Audio in einem digitalen Format verwendet wird.</p></td>
 </tr>
 <tr class="odd">
-<td><p>zentraler Verwaltungsserver</p></td>
+<td><p>Zentraler Verwaltungsserver</p></td>
 <td><p>Die Serverrolle (eine pro Organisation) auf einem Front-End-Pool in der Bereitstellung, die Konfigurationsdaten verwaltet und allen Servern mit Lync Server bereitstellt. Sie stellt auch die Lync Server-Verwaltungsshell und Funktionen für die Dateiübertragung zur Verfügung.</p></td>
 </tr>
 <tr class="even">
@@ -112,7 +112,7 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 </tr>
 <tr class="odd">
 <td><p>Clientversionsrichtlinie</p></td>
-<td><p>Ein Satz von Clientversionsregeln, der definiert, welche Aktionen ausgeführt werden sollen, wenn Benutzer sich mit bestimmten Clients und Clientversionen anzumelden versuchen.</p></td>
+<td><p>Ein Satz von Clientversionsregeln, der definiert, welche Aktionen ausgeführt werden sollen, wenn Benutzer sich mit bestimmten Clients und Clienhtversionen anzumelden versuchen.</p></td>
 </tr>
 <tr class="even">
 <td><p>Telefonkonferenz</p></td>
@@ -120,7 +120,7 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 </tr>
 <tr class="odd">
 <td><p>Konferenzdienst</p></td>
-<td><p>Intern oder extern gehosteter Dienst für Benutzer zum Veranstalten von Konferenzen mit mehreren Teilnehmern auf ihren Computern.  </p></td>
+<td><p>Intern oder extern gehosteter Dienst für Benutzer zum Veranstalten von Konferenzen mit mehreren Teilnehmern auf ihren Computern.</p></td>
 </tr>
 <tr class="even">
 <td><p>Kontaktliste</p></td>
@@ -128,18 +128,18 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 </tr>
 <tr class="odd">
 <td><p>Aufgezeichnete Unterhaltungen</p></td>
-<td><p>Ordner in Outlook, in dem Chatnachrichten und Telefonunterhaltungen gespeichert werden.</p></td>
+<td><p>Ordner in Outlook, in dem Sofortnachrichten und Telefonunterhaltungen gespeichert werden.</p></td>
 </tr>
 <tr class="even">
 <td><p>Datenkonferenzen</p></td>
-<td><p>Eine Methode zur Echtzeitkommunikation, bei der Teilnehmer verschiedene Daten- und Dokumenttypen austauschen und gemeinsam bearbeiten können. Die Sitzung kann auf einem internen Server, in einem im Internet gehosteten Dienst oder in beiden gehostet werden. </p></td>
+<td><p>Eine Methode zur Echtzeitkommunikation, bei der Teilnehmer verschiedene Daten- und Dokumenttypen austauschen und gemeinsam bearbeiten können. Die Sitzung kann auf einem internen Server, in einem im Internet gehosteten Dienst oder in beiden gehostet werden.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Auswahlkonferenz</p></td>
+<td><p>Hinauswahlkonferenzen</p></td>
 <td><p>Ein Feature, bei dem der A/V-Konferenzserver den Benutzer anruft und der Benutzer den Anruf annimmt, um der Konferenz beizutreten.</p></td>
 </tr>
 <tr class="even">
-<td><p>Mehrfrequenzverfahren</p></td>
+<td><p>Dual-Tone Multifrequency (DTMF, Mehrfrequenzverfahren)</p></td>
 <td><p>Signalsystem von Tonwahltelefonen, in dem jeder Ziffer zwei bestimmte Frequenzen zugeordnet sind.</p></td>
 </tr>
 <tr class="odd">
@@ -155,7 +155,7 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 <td><p>Dienst, der Informationen zum Standort eines Anrufers liefert, der den Notruf 911 anruft (nur in den USA).</p></td>
 </tr>
 <tr class="even">
-<td><p>Erweiterte Referentenbedienelemente</p></td>
+<td><p>Erweiterte Steuerelemente für Referenten</p></td>
 <td><p>Eine Sammlung von Steuerelementen für Lync-Besprechungshosts und -referenten, die ein optimales Arbeiten entsprechend der Art der Besprechung, Anzahl der Teilnehmer, Inhalte und/oder der für die Teilnehmer verfügbaren Videoquellen ermöglicht.</p></td>
 </tr>
 <tr class="odd">
@@ -164,7 +164,7 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 </tr>
 <tr class="even">
 <td><p>Sofortnachrichten-Konferenzdienst</p></td>
-<td><p>Dienst, der auf einem Front-End-Server mit Lync Server oder Office Communications Server ausgeführt wird und Eingaben mehrerer Clients in einer Chatnachrichtensitzung mit mehreren Teilnehmern zusammenführt und verwaltet.</p></td>
+<td><p>Dienst, der auf einem Front-End-Server mit Lync Server oder Office Communications Server ausgeführt wird und Eingaben mehrerer Clients in einer Sofortnachrichtensitzung mit mehreren Teilnehmern zusammenführt und verwaltet.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Join Launcher</p></td>
@@ -172,10 +172,10 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 </tr>
 <tr class="even">
 <td><p>Location Information Server</p></td>
-<td><p>Ein Netzwerkknoten, der ursprünglich in der „National Emergency Number Association i2“-Netzwerkarchitektur definiert wurde, die eine Zwischenlösung für die Bereitstellung von Notrufdiensten – E9-1-1-Diensten (9-1-1 [erweitert]) – für VoIP-Telefoniebenutzer ermöglicht. </p></td>
+<td><p>Ein Netzwerkknoten, der ursprünglich in der "National Emergency Number Association i2"-Netzwerkarchitektur definiert wurde, die eine Zwischenlösung für die Bereitstellung von Notrufdiensten (E9-1-1-Diensten (9-1-1 [erweitert]) für VoIP-Telefoniebenutzer ermöglicht.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Standortinformationsdienst</p></td>
+<td><p>Standortinformationsdienst (Location Information Service)</p></td>
 <td><p>Ein Webdienst, der eine Tabelle mit Netzwerkelementen und Standorten zur Verwendung durch Clients von Enhanced 9-1-1 (E9-1-1) verwaltet.</p></td>
 </tr>
 <tr class="even">
@@ -184,11 +184,11 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 </tr>
 <tr class="odd">
 <td><p>Lync 2013 VDI-Plug-In</p></td>
-<td><p>Ermöglicht das Tätigen von Audio- und Videoanrufen sowie Besprechungen über Softphone (Peer-zu-Peer und mit mehreren Teilnehmern) ohne die mit Wartezeit, Jitter und Paketverlusten verbundenen Probleme.</p></td>
+<td><p>Ermöglicht die Durchführung von Audio- und Videoanrufen sowie Besprechungen über Softphone (Peer-zu-Peer und mit mehreren Teilnehmern) ohne die mit Wartezeit, Jitter und Paketverlusten verbundenen Probleme.</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync-Besprechung</p></td>
-<td><p>Die terminierten oder Ad-hoc-Besprechungen, die mit Lync ausgeführt werden können. Eine Lync-Besprechung ermöglicht die Interaktion mit Personen über Video, Audio, Instant Messaging und Inhaltsfreigabe. </p></td>
+<td><p>Die terminierten oder Ad-hoc-Besprechungen, die mit Lync ausgeführt werden können. Eine Lync-Besprechung ermöglicht die Interaktion mit Personen über Video, Audio, Instant Messaging und Inhaltsfreigabe.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync-Besprechungsfenster</p></td>
@@ -199,11 +199,11 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 <td><p>Die auf Windows PowerShell basierende Befehlszeilen-Schnittstellen, die verschiedene Cmdlets zum Steuern der Verwaltung und Automatisierung bietet.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lync Web Scheduler</p></td>
-<td><p>Ein webbasiertes Tool zum Planen und Verwalten von Besprechungen für Benutzer, die keinen Zugriff auf Microsoft Outlook haben oder ein Windows-fremdes Betriebssystem verwenden. Mit dem Lync Web Scheduler können Sie neue Besprechungen erstellen, vorhandene Besprechungen ändern und Einladungen über Ihr bevorzugtes E-Mail-Programm versenden.</p></td>
+<td><p>Lync-Webplaner</p></td>
+<td><p>Ein webbasiertes Tool zum Planen und Verwalten von Besprechungen für Benutzer, die keinen Zugriff auf Microsoft Outlook haben oder ein Windows-fremdes Betriebssystem verwenden. Mit dem Lync-Webplaner können Sie neue Besprechungen erstellen, vorhandene Besprechungen ändern und Einladungen über Ihr bevorzugtes E-Mail-Programm versenden.</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync-to-Phone</p></td>
+<td><p>Lync-zu-Telefon</p></td>
 <td><p>Ein optionales Feature von Lync Online, mit dem Benutzer über Lync Anrufe in das Festnetz tätigen und aus dem Festnetz erhalten können. Dieses Feature steht nur VoIP-Plan-Kunden zur Verfügung, und Administratoren müssen sich bei einem Lync-to-Phone-Anbieter registrieren lassen, um das Feature zu erhalten.</p></td>
 </tr>
 <tr class="odd">
@@ -211,12 +211,12 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 <td><p>Ein Gerät, das Schallwellen in analoge elektrische Signale umwandelt. Mit zusätzlicher Hardware lässt sich die Mikrofonausgabe in digitale Daten konvertieren, die ein Computer verarbeiten kann, z. B. zum Aufzeichnen von Multimediadokumenten oder zum Analysieren des Tonsignals.</p></td>
 </tr>
 <tr class="even">
-<td><p>Microsoft Lync Server Mobility Service</p></td>
-<td><p>Dieser Dienst unterstützt Lync-Funktionen, z. B. Instant Messaging, Anwesenheit und Kontakte, auf den folgenden mobilen Geräten: iPhone, iPad, Android, Windows Phone und Nokia.</p></td>
+<td><p>Microsoft Lync Server-Mobilitätsdienst</p></td>
+<td><p>Dieser Dienst unterstützt Lync-Funktionen, z. B. Instant Messaging (IM), Anwesenheit und Kontakte, auf den folgenden mobilen Geräten: iPhone, iPad, Android, Windows Phone und Nokia.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Microsoft Push-Benachrichtigungsdienst</p></td>
-<td><p>Ein Push-Benachrichtigungsdienst, der neue Ereignisse, z. B. eine Instant Messaging-Einladung oder einen entgangenen Anruf, an das Windows Phone-Mobilgerät sendet.</p></td>
+<td><p>Microsoft Pushbenachrichtigungsdienst</p></td>
+<td><p>Ein Pushbenachrichtigungsdienst, der neue Ereignisse, z. B. eine Instant Messaging-Einladung oder einen entgangenen Anruf, an das Windows Phone-Mobilgerät sendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>MPOP (Multiple Points Of Presence)</p></td>
@@ -243,7 +243,7 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 <td><p>Ermöglicht es Benutzern, in einer Lync-Besprechung OneNote-Besprechungsnotizen zu erstellen und auszutauschen. Notizen werden in einer Lync-Besprechung als angedockt angezeigt, wobei die Teilnehmerlisten in den Besprechungsnotizen aktualisiert werden können und für alle Teilnehmer einsehbar sind.</p></td>
 </tr>
 <tr class="even">
-<td><p>Umsetzungsregel (ausgehend)</p></td>
+<td><p>Ausgehende Übersetzungsregel</p></td>
 <td><p>Eine Regel, die Telefonnummern in das lokale Wählformat konvertiert, um die Interaktion mit Nebenstellenanlagen (Private Branch Exchange, PBX) zu ermöglichen.</p></td>
 </tr>
 <tr class="odd">
@@ -259,11 +259,11 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 <td><p>Eines der Attribute, das über den Status des Benutzers, d. h. Verfügbarkeit und Kommunikationsbereitschaft, informiert.</p></td>
 </tr>
 <tr class="even">
-<td><p>Präsentieren</p></td>
+<td><p>vorhanden</p></td>
 <td><p>Freigabeaktivität, in diesem Fall das Präsentieren einer PowerPoint-Präsentation. Nur das PowerPoint-Dokument wird gezeigt, und nur der Referent kann den gezeigten Inhalt bearbeiten.</p></td>
 </tr>
 <tr class="odd">
-<td><p>PSTN-Verwendungseinträge</p></td>
+<td><p>PSTN-Verwendungsdatensätze</p></td>
 <td><p>PSTN-Verwendungsdatensätze (Public Switched Telephone Network, Festnetz) geben eine Klasse von Anrufen an (z. B. interne Anrufe, Ortsgespräche oder Ferngespräche), die von bestimmten Benutzern oder Benutzergruppen in einer Organisation getätigt werden dürfen.</p></td>
 </tr>
 <tr class="even">
@@ -276,10 +276,10 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 </tr>
 <tr class="even">
 <td><p>Lync-Schnellmenü</p></td>
-<td><p>Eine Menüleiste, die neben dem Bildbereich eines Kontakts in der Lync-Kontaktliste angezeigt wird und die verfügbaren Kommunikationsmodi anzeigt: „Chat“, „Anruf“, „Video“ und „Karte anzeigen“.</p></td>
+<td><p>Eine Menüleiste, die neben dem Bildbereich eines Kontakts in der Lync-Kontaktliste angezeigt wird und die verfügbaren Kommunikationsmodi anzeigt: IM, Anruf, Video und Karte anzeigen.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Rückruf</p></td>
+<td><p>begrüssungston</p></td>
 <td><p>Ein Feature, mit dem ein Anruf nach einer definierten Zeitspanne an die Person zurückgeleitet wird, die ihn geparkt hat, damit der Anrufer nicht auf unbestimmte Zeit in der Warteschleife bleibt.</p></td>
 </tr>
 <tr class="even">
@@ -292,7 +292,7 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 </tr>
 <tr class="even">
 <td><p>Survivable Branch Server</p></td>
-<td><p>Ein Server mit Windows Server, der bestimmte vorgegebene Hardwareanforderungen erfüllt und auf dem Software für die Lync Server-Registrierung und den Vermittlungsserver installiert ist. Wie Survivable Branch Appliances kann dieses Gerät Ausfallsicherheit für VoIP-Funktionen für Zweigstellenbenutzer während eines WAN-Ausfalls bereitstellen.  </p></td>
+<td><p>Ein Server mit Windows Server, der bestimmte vorgegebene Hardwareanforderungen erfüllt und auf dem Software für die Lync Server-Registrierung und den Vermittlungsserver installiert ist. Wie Survivable Branch Appliances kann dieses Gerät Ausfallsicherheit für VoIP-Funktionen für Zweigstellenbenutzer während eines WAN-Ausfalls bereitstellen.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Themenfeeds</p></td>
@@ -311,36 +311,36 @@ Dieses Thema enthält Begriffe und Definitionen, die sich auf Microsoft lync Ser
 <td><p>Stellt Anwesenheitsinformationen bereit und ermöglicht die Verwaltung von Einstellungen.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Dienst vom Typ Benutzerdienste</p></td>
+<td><p>Dienst für Benutzerdienste</p></td>
 <td><p>Ein Lync Server-Dienst, der die Verwaltung von Anwesenheitsinformationen für Benutzer unterstützt und die Verwaltung von Besprechungen und Konferenzen ermöglicht.</p></td>
 </tr>
 <tr class="even">
 <td><p>Videoanruf</p></td>
-<td><p>Ein Anruf, bei dem Lync-Benutzer über Peer-zu-Peer-Funktionen miteinander verbunden werden. Die Benutzer können einen Videoanruf starten, indem sie in der Ansicht „Kontakte“ auf einen Kontakt zeigen und dann auf das Symbol für Videoanrufe klicken.</p></td>
+<td><p>Ein Anruf, bei dem Lync-Benutzer über Peer-zu-Peer-Funktionen miteinander verbunden werden. Die Benutzer können einen Videoanruf starten, indem sie in der Ansicht Kontakte auf einen Kontakt zeigen und dann auf das Symbol für Videoanrufe klicken.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Video ist möglich</p></td>
 <td><p>Ein Status auf einer Lync-Kontaktkarte, der angibt, dass eine Kamera aktiviert ist.</p></td>
 </tr>
 <tr class="even">
-<td><p>Benachrichtigungen über die Videoqualität</p></td>
+<td><p>Benachrichtigungen zur Videoqualität</p></td>
 <td><p>Benachrichtigungen an Lync-Benutzer über die Qualität des Netzwerks, der Computer, der Kamera und der Lichtverhältnisse.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Videospotlight</p></td>
-<td><p>Ein Modus, mit dem Referenten den Videofeed einer bestimmten Person auswählen können, sodass alle Teilnehmer der Besprechung nur diesen Teilnehmer sehen.</p></td>
+<td><p>Ein Modus, mit dem Referenten den Video Feed einer Person auswählen können, sodass jeder Teilnehmer an der Besprechung nur diesen Teilnehmer sieht.</p></td>
 </tr>
 <tr class="even">
 <td><p>VoIP-Richtlinien</p></td>
-<td><p>Definieren für jeden Benutzer, Standort oder jede Organisation, dem bzw. der sie zugewiesen sind, einen Satz Anruffunktionen, der aktiviert oder deaktiviert werden kann, um festzulegen, welche Enterprise-VoIP-Funktionen den Benutzern zur Verfügung stehen. Außerdem eine Gruppe von PSTN-Verwendungsdatensätzen, die definieren, welche Arten von Anrufen erlaubt sind. </p></td>
+<td><p>Definieren für jeden Benutzer, Standort oder jede Organisation, dem bzw. der sie zugewiesen sind, einen Satz Anruffunktionen, der aktiviert oder deaktiviert werden kann, um festzulegen, welche Enterprise-VoIP-Funktionen den Benutzern zur Verfügung stehen. Außerdem eine Gruppe von PSTN-Verwendungsdatensätzen, die definieren, welche Arten von Anrufen erlaubt sind.</p></td>
 </tr>
 <tr class="odd">
 <td><p>VoIP-Route</p></td>
-<td><p>Eine Route mit Anweisungen, die Lync Server mitteilen, wie Anrufe von Enterprise-VoIP-Benutzern an Telefonnummern im Festnetz (Public Switched Telephone Network, PSTN) oder in einer Nebenstellenanlage (Private Branch Exchange, PBX) weitergeleitet werden sollen. </p></td>
+<td><p>Eine Route mit Anweisungen, die Lync Server mitteilen, wie Anrufe von Enterprise-VoIP-Benutzern an Telefonnummern im Festnetz (Public Switched Telephone Network, PSTN) oder in einer Nebenstellenanlage (Private Branch Exchange, PBX) weitergeleitet werden sollen.</p></td>
 </tr>
 <tr class="even">
 <td><p>Webkonferenzen</p></td>
-<td><p>Vom Webkonferenzdienst bereitgestellte Funktionen wie etwa Datenfreigabe und das Hochladen von Dokumenten und PowerPoint-Präsentationen mithilfe von Whiteboards und Desktopfreigabe. </p></td>
+<td><p>Vom Webkonferenzdienst bereitgestellte Funktionen wie etwa Datenfreigabe und das Hochladen von Dokumenten und PowerPoint-Präsentationen mithilfe von Whiteboards und Desktopfreigabe.</p></td>
 </tr>
 </tbody>
 </table>

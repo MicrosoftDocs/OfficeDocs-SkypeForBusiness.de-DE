@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Neue IPv6-Funktionen'
+title: 'Lync Server 2013: neue IPv6-Features'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185929
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4228dd3a10924fdddcff2c23e2784740e3192039
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 682dda5cd6da569f15d209a3cc1c8a2cc943d750
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739405"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048446"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-ipv6-features-in-lync-server-2013"></a>Neue IPv6-Funktionen in Lync Server 2013
+# <a name="new-ipv6-features-in-lync-server-2013"></a>Neue IPv6-Features in lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41739405"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-08-16_
+_**Letztes Änderungsstand des Themas:** 2012-08-16_
 
-Lync Server 2013 enthält Unterstützung für IPv6-Adressen. Aufgrund einer zunehmenden Anzahl von Geräten, die IP-Adressen erfordern, wird die Anzahl der verfügbaren IPv4-Adressen, bei denen es sich um 32-Bit-Adressen handelt, ausgeführt. IPv6 bietet eine viel größere Anzahl verfügbarer Adressen, da es 128-Bit-Adressen verwendet. Die Verwendung von IPv6-Adressen in Ihrer Umgebung hängt von der Unterstützung für IPv6 in den von Ihnen verwendeten Geräten ab.
+Lync Server 2013 enthält Unterstützung für IPv6-Adressen. Aufgrund einer steigenden Anzahl von Geräten, die IP-Adressen erfordern, wird die Anzahl der verfügbaren IPv4-Adressen, die 32-Bit-Adressen aufweisen, nicht mehr zur Verfügung stehen. IPv6 stellt eine weitaus größere Anzahl verfügbarer Adressen bereit, da es 128-Bit-Adressen verwendet. Die Verwendung von IPv6-Adressen in Ihrer Umgebung hängt von der Unterstützung von IPv6 in den Geräten ab, die Sie verwenden.
 
-Da viele vorhandene Geräte IPv6 noch nicht unterstützen, wird ein vollständiger Übergang von IPv4 zu IPv6 wahrscheinlich mehrere Jahre dauern. Daher umfasst lync Server 2013 Unterstützung für Netzwerkumgebungen mit nur IPv4-Adressen, nur IPv6-Adressen und Dual-Stack-Adressen (IPv4 und IPv6).
+Da viele vorhandene Geräte IPv6 noch nicht unterstützen, wird ein vollständiger Übergang von IPv4 zu IPv6 wahrscheinlich mehrere Jahre dauern. Daher umfasst lync Server 2013 Unterstützung für Netzwerkumgebungen mit nur IPv4-Adressen, nur IPv6-Adressen und Dual-Stack-(IPv4-und IPv6-) Adressen.
 
 <div>
 

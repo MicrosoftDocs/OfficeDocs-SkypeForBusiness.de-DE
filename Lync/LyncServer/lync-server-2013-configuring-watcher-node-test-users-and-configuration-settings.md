@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren von Watcher-Knotentest Benutzern und Konfigurationseinstellungen
+title: Konfigurieren von Testbenutzern und Konfigurationseinstellungen für Watcher-Knoten
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185048
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3713844d5d2364459a28c5919bb1d32d421d706
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f5373984e3a4349d73974d9f3b6c243999fbb165
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733665"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045807"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>Konfigurieren von Watcher-Knotentest Benutzern und Konfigurationseinstellungen in lync Server 2013
+# <a name="configuring-watcher-node-test-users-and-configuration-settings-in-lync-server-2013"></a>Konfigurieren von Testbenutzern und Konfigurationseinstellungen für Watcher-Knoten in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41733665"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-07-29_
+_**Letztes Änderungsstand des Themas:** 2013-07-29_
 
 Nachdem Sie den Computer konfiguriert haben, der als Watcher-Knoten agieren wird, müssen Sie die folgenden Schritte ausführen:
 
-1.  Erstellen Sie die Testkonten, die von diesen Watcher-Knoten verwendet werden sollen. Wenn Sie die Aushandlungsauthentifizierungsmethode verwenden, müssen Sie auch das Cmdlet [Set-CsTestUserCredential](https://technet.microsoft.com/en-us/library/JJ205341(v=OCS.15)) verwenden, um die Verwendung dieser Testkonten auf dem Watcher-Knoten zu aktivieren.
+1.  Erstellen Sie die von diesen Watcher-Knoten zu verwendenden Testkonten. Wenn Sie die Aushandlungsauthentifizierungsmethode verwenden, müssen Sie auch das Cmdlet [Set-CsTestUserCredential](https://technet.microsoft.com/library/JJ205341(v=OCS.15)) verwenden, um die Verwendung dieser Testkonten auf dem Watcher-Knoten zu aktivieren.
 
 2.  Aktualisieren Sie die Konfigurationseinstellungen für den Watcher-Knoten.
 
 In diesem Abschnitt werden folgende Themen behandelt:
 
-  - Konfigurieren von Test Benutzerkonten
+  - Konfigurieren von Testbenutzerkonten
 
-  - Konfigurieren eines Basis Überwachungs Knotens mit den standardmäßigen synthetischen Transaktionen
+  - Konfigurieren eines einfachen Watcher-Knotens mit den synthetischen Standardtransaktionen
 
   - Konfigurieren erweiterter Tests
 
@@ -57,27 +57,27 @@ In diesem Abschnitt werden folgende Themen behandelt:
 
 <div>
 
-## <a name="configuring-test-user-accounts"></a>Konfigurieren von Test Benutzerkonten
+## <a name="configuring-test-user-accounts"></a>Konfigurieren von Testbenutzerkonten
 
-Test Benutzer müssen keine tatsächlichen Personen darstellen, Sie müssen jedoch gültige Active Directory-Domänendienstkonten sein. Darüber hinaus müssen diese Konten für lync Server 2013 aktiviert sein, Sie müssen über gültige SIP-Adressen verfügen und für Enterprise-VoIP aktiviert sein (um die synthetische Test-CsPstnPeerToPeerCall-Transaktion zu verwenden). Wenn Sie die TrustedServer-Authentifizierungsmethode verwenden, müssen Sie lediglich sicherstellen, dass diese Konten vorhanden sind und wie hier angegeben konfiguriert wurden. Sie sollten für jeden zu testenden Pool mindestens drei Testbenutzer zuweisen.
+Test Benutzer müssen keine tatsächlichen Personen darstellen, Sie müssen jedoch Active Directory-Domänendienste Konten gültig sein; Darüber hinaus müssen diese Konten für lync Server 2013 aktiviert sein, Sie müssen über gültige SIP-Adressen verfügen und für Enterprise-VoIP aktiviert sein (für die Verwendung der synthetischen Test-CsPstnPeerToPeerCall-Transaktion). Wenn Sie die TrustedServer-Authentifizierungsmethode verwenden, müssen Sie lediglich sicherstellen, dass diese Konten vorhanden sind und gemäß den Angaben in diesem  Dokument konfiguriert wurden. Sie sollten für jeden zu testenden Pool mindestens drei Testbenutzer zuweisen.
 
-Wenn Sie die Negotiate-Authentifizierungsmethode verwenden, müssen Sie auch das Cmdlet " **festlegen-CsTestUserCredential** " und die lync Server-Verwaltungsshell verwenden, damit diese Testkonten mit den synthetischen Transaktionen funktionieren. Sie können dies tun, indem Sie einen Befehl wie den folgenden ausführen. (Bei diesen Befehlen wird davon ausgegangen, dass die drei Active Directory-Benutzerkonten bereits erstellt wurden und diese Konten für lync Server 2013 aktiviert wurden.):
+Wenn Sie die Negotiate-Authentifizierungsmethode verwenden, müssen Sie auch das Cmdlet " **CsTestUserCredential** " und die lync Server-Verwaltungsshell verwenden, damit diese Testkonten mit den synthetischen Transaktionen arbeiten können. Dazu können Sie einen Befehl ausführen, der dem Folgenden ähnelt. (Bei diesen Befehlen wird davon ausgegangen, dass die drei Active Directory Benutzerkonten bereits erstellt wurden und diese Konten für lync Server 2013 aktiviert wurden.):
 
     Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
     Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
     Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 
-Beachten Sie, dass Sie nicht nur die SIP-Adresse, sondern auch den Benutzernamen und das Kennwort angeben müssen. Wenn Sie das Kennwort nicht angeben, werden Sie von CsTestUserCredential zur Eingabe dieser Informationen aufgefordert. Der Benutzername kann mit dem oben gezeigten\\Domänennamen-Benutzernamenformat oder mithilfe des Formats Benutzer Name@Domain Name angegeben werden. Zum Beispiel:
+Beachten Sie, dass Sie nicht nur die SIP-Adresse, sondern auch den Benutzernamen und das Kennwort einbeziehen müssen. Wenn Sie das Kennwort nicht einschließen, werden Sie von CsTestUserCredential zur Eingabe dieser Informationen aufgefordert. Der Benutzername kann mit dem oben aufgeführten Domänennamen\\-Benutzernamenformat oder mit dem Format User Name@Domain Name angegeben werden; Zum Beispiel:
 
     -UserName "watcher3@litwareinc.com"
 
-Um zu überprüfen, ob die Anmeldeinformationen des Testbenutzers erstellt wurden, führen Sie diese Befehle in der lync Server-Verwaltungsshell aus:
+Um sicherzustellen, dass die Testbenutzer Anmeldeinformationen erstellt wurden, führen Sie diese Befehle in der lync Server-Verwaltungsshell aus:
 
     Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
     Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
     Get-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com"
 
-Ähnliche Informationen sollten für jeden Nutzer zurückgegeben werden:
+Daraufhin sollten für jeden Benutzer Informationen zurückgegeben werden, die den Folgenden ähneln:
 
     UserName                        Password
     --------                        --------
@@ -87,13 +87,13 @@ Um zu überprüfen, ob die Anmeldeinformationen des Testbenutzers erstellt wurde
 
 <div>
 
-## <a name="configuring-a-basic-watcher-node-with-the-default-synthetic-transactions"></a>Konfigurieren eines Basis Überwachungs Knotens mit den standardmäßigen synthetischen Transaktionen
+## <a name="configuring-a-basic-watcher-node-with-the-default-synthetic-transactions"></a>Konfigurieren eines einfachen Watcher-Knotens mit den synthetischen Standardtransaktionen
 
-Nachdem die Testbenutzer erstellt wurden, können Sie einen Watcher-Knoten erstellen, indem Sie einen ähnlichen Befehl wie den folgenden verwenden:
+Nachdem die Testbenutzer erstellt wurden, können Sie mithilfe eines Befehls, der dem Folgenden ähnelt, einen Watcher-Knoten erstellen:
 
     New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
 
-Mithilfe dieses Befehls wird ein neuer Watcher-Knoten erstellt, für den die Standardeinstellungen verwendet werden und der die Standardgruppe synthetischer Transaktionen ausführt. Für den neuen Watcher-Knoten werden zudem die Testbenutzer watcher1@litwareinc.com, watcher2@litwareinc.com und watcher3@litwareinc.com verwendet. Wenn der Watcher-Knoten die TrustedServer-Authentifizierung verwendet, können die drei Testkonten alle gültigen Benutzerkonten sein, die für Active Directory und lync Server aktiviert sind. Wenn der Watcher-Knoten die Negotiate-Authentifizierungsmethode verwendet, müssen Sie diese Benutzerkonten für Watcher-Knoten auch mithilfe des Cmdlets " **festlegen-CsTestUserCredential** " aktivieren.
+Mithilfe dieses Befehls wird ein neuer Watcher-Knoten erstellt, für den die Standardeinstellungen verwendet werden und der die Standardgruppe synthetischer Transaktionen ausführt. Für den neuen Watcher-Knoten werden zudem die Testbenutzer "watcher1@litwareinc.com", "watcher2@litwareinc.com" und "watcher3@litwareinc.com" verwendet. Wenn der Watcher-Knoten die TrustedServer-Authentifizierung verwendet, können die drei Testkonten alle gültigen Benutzerkonten sein, die für Active Directory und lync Server aktiviert sind. Wenn der Watcher-Knoten die Aushandlungsauthentifizierungsmethode verwendet, müssen Sie diese Benutzerkonten auch für den Watcher-Knoten aktivieren, indem Sie das Cmdlet **Set-CsTestUserCredential** verwenden.
 
 </div>
 
@@ -101,27 +101,27 @@ Mithilfe dieses Befehls wird ein neuer Watcher-Knoten erstellt, für den die Sta
 
 ## <a name="configuring-extended-tests"></a>Konfigurieren erweiterter Tests
 
-Wenn Sie das öffentlich geschaltete Telefonnetz (PSTN-Test) aktivieren möchten, das die Konnektivität mit dem öffentlich geschalteten Telefonnetz überprüft, müssen Sie beim Einrichten des Watcher-Knotens einige zusätzliche Einstellungen vornehmen. Zunächst müssen Sie die Testbenutzer dem PSTN-Testtyps zuordnen. Führen Sie dazu in der lync Server-Verwaltungsshell einen ähnlichen Befehl wie den folgenden aus:
+Wen Sie den PSTN-Test (Public Switched Telephone Network, Telefonfestnetz) aktivieren möchten, mit dessen Hilfe die Verbindung mit dem Telefonfestnetz überprüft wird, müssen Sie beim Einrichten des Watcher-Knotens einige zusätzliche Konfigurationsschritte ausführen. Zuerst müssen Sie die Testbenutzer dem PSTN-Testtyp zuweisen. Führen Sie dazu einen Befehl wie den folgenden aus dem lync Server-Verwaltungsshell aus:
 
     $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"  -Name "Contoso Provider Test" -TestType PSTN
 
-Beachten Sie, dass die Ergebnisse dieses Befehls in einer Variablen gespeichert werden müssen. In diesem Beispiel handelt es sich um eine Variable mit dem Namen $pstnTest.
+Beachten Sie, dass die Ergebnisse dieses Befehls in einer Variable gespeichert werden müssen. In diesem Beispiel handelt es sich dabei um die Variable "$pstnTest".
 
-An diesem Punkt können Sie das Cmdlet **New-CsWatcherNodeConfiguration** verwenden, um den in der Variablen $pstnTest gespeicherten Testtyp einem lync Server 2013-Pool zuzuordnen. Mit dem folgenden Befehl wird beispielsweise eine neue Watcher-Knoten Konfiguration für den Pool ATL-CS-001.litwareinc.com erstellt, wobei die drei zuvor erstellten Testbenutzer hinzugefügt und auch der PSTN-Testtyp hinzugefügt wurde:
+Zu diesem Zeitpunkt können Sie das Cmdlet **New-CsWatcherNodeConfiguration** verwenden, um den in der Variablen $pstnTest gespeicherten Testtyp einem lync Server 2013-Pool zuzuordnen. Mithilfe des folgenden Befehls wird beispielsweise eine neue Watcher-Knotenkonfiguration für den Pool "atl-cs-001.litwareinc.com" erstellt, wobei die drei zuvor erstellten Testbenutzer und der PSTN-Testtyp hinzugefügt werden:
 
     New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
 
-Beachten Sie, dass der vorhergehende Befehl fehlschlägt, wenn Sie die lync Server Core-Dateien und die RTCLocal-Datenbank auf dem Watcher-Knoten Computer nicht installiert haben.
+Beachten Sie, dass der obige Befehl fehlschlägt, wenn Sie die lync Server Kerndateien und die RTCLocal-Datenbank nicht auf dem Watcher-Knoten Computer installiert haben.
 
-Um mehrere VoIP-Richtlinien zu testen, müssen Sie mit dem Cmdlet **New-CsExtendedTest** einen erweiterten Test für jede Richtlinie erstellen. Die diesem Test zugewiesenen Benutzer sollten mit den gewünschten VoIP-Richtlinien konfiguriert sein. Die erweiterten Tests werden dann mithilfe eines Befehls, der der folgenden ähnelt, an das Cmdlet **New-CsWatcherNodeConfiguration** übergeben:
+Wenn Sie mehrere VoIP-Richtlinien testen möchten, müssen Sie für alle Richtlinien mithilfe des Cmdlets **New-CsExtendedTest** einen erweiterten Test erstellen. Die diesem Test zugewiesenen Benutzer müssen mit den gewünschten VoIP-Richtlinien konfiguriert werden. Anschließend werden die erweiterten Tests mithilfe eines Befehls, der dem Folgenden ähnelt, an das Cmdlet **New-CsWatcherNodeConfiguration** übergeben:
 
     -ExtendedTests @{Add=$pstnTest1,$pstnTest2,$pstnTest3}
 
-Wenn New-CsWatcherNodeConfiguration ohne Verwendung des Parameters Tests aufgerufen wird, bedeutet dies, dass nur die synthetischen Standardtransaktionen (und die angegebene erweiterte synthetische Transaktion) für den neuen Watcher-Knoten aktiviert werden. Dies bedeutet, dass der Watcher-Knoten die folgenden Komponenten testet:
+Wenn "New-CsWatcherNodeConfiguration" ohne den Parameter "Tests" aufgerufen wird, bedeutet dies, dass für den neuen Watcher-Knoten nur die synthetischen Standardtransaktionen (und die angegebene erweiterte synthetische Transaktion) aktiviert werden. Demnach testet der Watcher-Knoten die folgenden Komponenten:
 
   - Registrierung
 
-  - IM
+  - Chat
 
   - GroupIM
 
@@ -135,9 +135,9 @@ Wenn New-CsWatcherNodeConfiguration ohne Verwendung des Parameters Tests aufgeru
 
   - ABWQ (Adressbuchwebdienst)
 
-  - PSTN (PSTN-Gateway-Aufrufe, als erweiterter Test angegeben. Standardmäßig ist PSTN deaktiviert. Der Test ist in diesem Fall nur aktiviert, weil der Befehl PSTN mithilfe des ExtendedTests-Parameters aktiviert hat.)
+  - PSTN (PSTN-Gatewayanrufe, angegeben als erweiterter Test. PSTN ist standardmäßig deaktiviert. Der Test wird in diesem Fall nur aktiviert, weil der Befehl PSTN mithilfe des Parameters "ExtendedTests" aktiviert hat.)
 
-Das bedeutet auch, dass die folgenden Komponenten nicht standardmäßig getestet werden:
+Dies bedeutet auch, dass die folgenden Komponenten standardmäßig nicht getestet werden:
 
   - AVEdgeConnectivity
 
@@ -149,7 +149,7 @@ Das bedeutet auch, dass die folgenden Komponenten nicht standardmäßig getestet
 
   - PersistentChatMessage
 
-  - DataConference
+  - Dataconference
 
   - XmppIM
 
@@ -161,7 +161,7 @@ Das bedeutet auch, dass die folgenden Komponenten nicht standardmäßig getestet
 
 ## <a name="adding-and-removing-synthetic-transactions"></a>Hinzufügen und Entfernen synthetischer Transaktionen
 
-Nachdem ein Watcher-Knoten konfiguriert wurde, können Sie das Cmdlet " **CsWatcherNodeConfiguration** " verwenden, um synthetische Transaktionen vom Knoten hinzuzufügen oder daraus zu entfernen. Wenn Sie beispielsweise dem Watcher-Knoten den Test PersistentChatMessage hinzufügen möchten, verwenden Sie die Add-Methode und einen Befehl, der dem Folgenden ähnelt:
+Nachdem ein Watcher-Knoten konfiguriert wurde, können Sie dem Knoten mithilfe des Cmdlets **Set-CsWatcherNodeConfiguration** synthetische Transaktionen hinzufügen oder Knoten daraus entfernen. Wenn Sie beispielsweise dem Watcher-Knoten den Test "PersistentChatMessage" hinzufügen möchten, verwenden Sie die Add-Methode und einen Befehl, der dem Folgenden ähnelt:
 
     Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage"}
 
@@ -169,21 +169,21 @@ Sie können mehrere Tests hinzufügen, indem Sie die Testnamen durch Kommas vone
 
     Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
 
-Beachten Sie, dass ein Fehler auftritt, wenn ein oder mehrere dieser Tests (beispielsweise dataconference) bereits auf dem Watcher-Knoten aktiviert sind. In diesem Fall erhalten Sie eine Fehlermeldung, die der Folgenden ähnelt:
+Beachten Sie, dass ein Fehler auftritt, wenn einer oder mehrere dieser Tests (z. B. "DataConference") bereits für den Watcher-Knoten aktiviert wurden. In diesem Fall erhalten Sie eine Fehlermeldung, die der Folgenden ähnelt:
 
     Set-CsWatcherNodeConfiguration : There is a duplicate key sequence 'DataConference' for the 'urn:schema:Microsoft.Rtc.Management.Settings.WatcherNode.2010:TestName' key or unique identity constraint.
 
-Wenn dieser Fehler auftritt, werden keine Änderungen wirksam. Der Befehl sollte erneut ausgeführt werden, wenn der doppelte Test entfernt wurde.
+Wenn dieser Fehler auftritt, werden keine Änderungen wirksam. Führen Sie den Befehl erneut aus, nachdem Sie den doppelten Test entfernt haben.
 
-Wenn Sie eine synthetische Transaktion von einem Watcher-Knoten entfernen möchten, verwenden Sie die Remove-Methode anstelle der Add-Methode. Mithilfe des folgenden Befehls wird beispielsweise der ABWQ-Test aus einem Watcher-Knoten entfernt:
+Wenn Sie eine synthetische Transaktion aus einem Watcher-Knoten entfernen möchten, verwenden Sie anstelle der Add-Methode die Remove-Methode. Mithilfe des folgenden Befehls wird beispielsweise der ABWQ-Test aus einem Watcher-Knoten entfernt:
 
     Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Remove="ABWQ"}
 
-Sie können auch die Replace-Methode verwenden, um alle derzeit aktivierten Tests durch einen oder mehrere neue Tests zu ersetzen. Wenn Sie beispielsweise nur einen Watcher-Knoten zum Ausführen des im-Tests verwenden möchten, können Sie diesen mithilfe dieses Befehls konfigurieren:
+Sie können auch die Replace-Methode verwenden, um alle momentan aktivierten Tests durch einen oder mehrere neue Tests zu ersetzen. Wenn Sie beispielsweise möchten, dass ein Watcher-Knoten nur den IM-Test ausführt, können Sie dieses Verhalten mithilfe des folgenden Befehls konfigurieren:
 
     Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Replace="IM"}
 
-Wenn Sie den vorhergehenden Befehl ausführen, werden alle synthetischen Transaktionen auf dem angegebenen Watcher-Knoten mit Ausnahme von Chat deaktiviert.
+Wenn Sie den zuvor aufgeführten Befehl ausführen, werden mit Ausnahme von IM alle synthetischen Transaktionen für den angegebenen Watcher-Knoten deaktiviert.
 
 </div>
 
@@ -195,7 +195,7 @@ Wenn Sie die Tests anzeigen möchten, die einem Watcher-Knoten zugewiesen wurden
 
     Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests
 
-Der vorhergehende Befehl gibt je nach den synthetischen Transaktionen, die dem Knoten zugewiesen wurden, ähnliche Informationen zurück:
+Mithilfe des zuvor genannten Befehls werden je nach den synthetischen Transaktionen, die dem Knoten zugewiesen wurden, Informationen zurückgegeben, die den Folgenden ähneln:
 
     Registration
     IM
@@ -210,17 +210,17 @@ Der vorhergehende Befehl gibt je nach den synthetischen Transaktionen, die dem K
 
 
 > [!TIP]
-> Wenn Sie die synthetischen Transaktionen in alphabetischer Reihenfolge anzeigen möchten, verwenden Sie stattdessen den folgenden Befehl:<BR>Get-CsWatcherNodeConfiguration – Identity "ATL-CS-001.litwareinc.com" | Select-Object – expando-Tests | Sortieren-Objekt
+> Wenn Sie die synthetischen Transaktionen in alphabetischer Reihenfolge anzeigen möchten, verwenden Sie stattdessen den folgenden Befehl:<BR>Get-CsWatcherNodeConfiguration –Identity "atl-cs-001.litwareinc.com" | Select-Object –ExpandProperty Tests | Sort-Object
 
 
 
 </div>
 
-Um zu überprüfen, ob ein Watcher-Knoten erstellt wurde, geben Sie in der lync Server-Verwaltungsshell den folgenden Befehl ein:
+Um zu überprüfen, ob ein Watcher-Knoten erstellt wurde, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein:
 
     Get-CsWatcherNodeConfiguration
 
-Sie erhalten ähnliche Informationen:
+Daraufhin werden Informationen zurückgegeben, die den Folgenden ähneln:
 
     Identity      : atl-cs-001.litwareinc.com
     TestUsers     : {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com ...}
@@ -228,21 +228,21 @@ Sie erhalten ähnliche Informationen:
     TargetFqdn    : atl-cs-001.litwareinc.com
     PortNumber    : 5061
 
-Um zu überprüfen, ob der Watcher-Knoten ordnungsgemäß konfiguriert wurde, geben Sie in der lync Server-Verwaltungsshell den folgenden Befehl ein:
+Um zu überprüfen, ob der Watcher-Knoten ordnungsgemäß konfiguriert wurde, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein:
 
     Test-CsWatcherNodeConfiguration
 
-Mit dem vorhergehenden Befehl wird jeder Watcher-Knoten in Ihrer Bereitstellung getestet und Ihnen Informationen mitgeteilt, beispielsweise ob:
+Mithilfe des vorherigen Befehls werden alle Watcher-Knoten in Ihrer Bereitstellung getestet, und Sie erhalten Informationen zu Folgendem:
 
-  - Die erforderliche Registrierungsstelle-Rolle wurde installiert.
+  - Ob die erforderliche Registrar-Rolle installiert wurde.
 
-  - Der erforderliche Registrierungsschlüssel wurde für Sie erstellt, als Sie "Satz-CsWatcherNodeConfiguration" ausgeführt haben.
+  - Ob der erforderliche Registrierungsschlüssel für Sie erstellt wurde, als Sie "Set-CsWatcherNodeConfiguration" ausgeführt haben.
 
-  - Auf Ihren Servern wird die richtige Version von lync Server ausgeführt.
+  - Auf Ihren Servern wird die richtige Version von lync Server.
 
-  - Ihre Ports sind ordnungsgemäß konfiguriert.
+  - Ob Ihre Ports ordnungsgemäß konfiguriert wurden.
 
-  - Ihre zugewiesenen Testbenutzer verfügen über die erforderlichen Anmeldeinformationen.
+  - Ob die zugewiesenen Testbenutzer über die erforderlichen Anmeldeinformationen verfügen.
 
 </div>
 

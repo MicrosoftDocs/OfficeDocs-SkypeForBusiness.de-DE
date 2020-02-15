@@ -12,16 +12,16 @@ ms:contentKeyID: 63969651
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 78e756de75dda7d7b0a96d9a49233818a5c86576
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee9869d5e7a5e3a48451478de334ee656543f6f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745620"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050267"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745620"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-11-03_
+_**Letztes Änderungsstand des Themas:** 2014-11-03_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-11-03_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des <strong>Test-CsPersistentChatMessage-</strong> Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets <strong>Test-cspersistentchatmessage "</strong> verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPersistentChatMessage&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,17 +66,17 @@ _**Letztes Änderungsdatum des Themas:** 2014-11-03_
 
 ## <a name="description"></a>Beschreibung
 
-Das Cmdlet **Test-CsPersistentChatMessage** überprüft, ob ein paar Testbenutzer Nachrichten mithilfe des beständigen Chat Diensts austauschen können. Zu diesem Zweck protokolliert das Cmdlet die beiden Benutzer in lync Server 2013, verbindet die Benutzer mit einem beständigen Chatroom, tauscht ein paar Nachrichten aus, beendet den Chatroom und loggt sich von den beiden Benutzern ab. Beachten Sie, dass beim Aufrufen dieses Cmdlets ein Fehler auftritt, wenn Sie keine Chatrooms erstellt haben oder wenn den beiden Testbenutzerkonten keine Richtlinie für beständigen Chat zugewiesen wird, die Ihnen den Zugriff auf den beständigen Chatdienst gewährt.
+Das Cmdlet **Test-cspersistentchatmessage "** überprüft, ob ein paar Testbenutzer Nachrichten mithilfe des Diensts für beständigen Chat austauschen können. Hierzu protokolliert das Cmdlet die beiden Benutzer in lync Server 2013, verbindet die Benutzer mit einem beständigen Chatroom, tauscht ein Nachrichtenpaar aus, verlässt dann den Chatroom und meldet die beiden Benutzer ab. Beachten Sie, dass Aufrufe dieses Cmdlets fehlschlagen, wenn Sie keine Chatrooms erstellt haben oder wenn den beiden Testbenutzerkonten keine Richtlinie für beständigen Chat zugewiesen ist, die Ihnen Zugriff auf den Dienst für beständigen Chat gewährt.
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Mit den im folgenden Beispiel gezeigten Befehlen testen Sie die Fähigkeit eines Benutzer Paars\\("litwareinc Pilar\\und" litwareinc kenmyer), sich bei lync Server 2013 anzumelden und dann Nachrichten mithilfe des beständigen Chat Diensts auszutauschen. Dazu verwendet der erste Befehl im Beispiel das Cmdlet " **Get-Credential** ", um ein Windows PowerShell-Anmeldeinformationsobjekt für die Befehlszeilenschnittstelle zu erstellen, das den Namen und das Kennwort des Benutzers Pilar Ackerman enthält. (Da der Anmeldename, "litwareinc\\Pilar, als Parameter enthalten war, erfordert das Dialogfeld Windows PowerShell-Anmeldeinformationen nur, dass der Administrator das Kennwort für das Pilar Ackerman-Konto eingegeben hat.) Das resultierende Credentials-Objekt wird dann in einer Variablen mit dem Namen $cred 1 gespeichert. Der zweite Befehl führt dieselbe Aufgabe aus, wobei dieses Mal ein Anmeldeinformationsobjekt für das Ken Myers-Konto zurückgegeben wird.
+Die im folgenden Beispiel gezeigten Befehle testen die Fähigkeit eines Benutzer Paares (litwareinc\\Pilar und litwareinc\\kenmyer), sich bei lync Server 2013 anzumelden und dann Nachrichten mit dem Dienst für beständigen Chat auszutauschen. Dazu wird im ersten Befehl des Beispiels das Cmdlet **Get-Credential** verwendet, um ein Windows PowerShell-Befehlszeilen-Schnittstellen Anmeldeinformationsobjekt zu erstellen, das den Namen und das Kennwort des Benutzers Pilar Ackerman enthält. (Da der Anmeldename litwareinc\\Pilar als Parameter angegeben wurde, erfordert das Dialogfeld Windows PowerShell Anmeldeinformationen nur den Administrator, das Kennwort für das Pilar Ackerman-Konto einzugeben.) Das resultierende Credentials-Objekt wird dann in einer Variablen mit dem Namen "$cred 1" gespeichert. Der zweite Befehl hat die gleiche Aufgabe, nur gibt dieser ein Objekt mit Anmeldeinformationen für das Konto "Ken Myer" zurück.
 
-Wenn die Anmeldeinformationsobjekte in der Hand sind, bestimmt der dritte Befehl, ob sich diese beiden Benutzer bei lync Server 2013 anmelden und Nachrichten mithilfe des beständigen Chats austauschen können. Um diese Aufgabe auszuführen, wird das Cmdlet **Test-CsPersistentChatMessage** mit den folgenden Parametern aufgerufen: TargetFqdn (der FQDN des registrierungspools); SenderSipAddress (die SIP-Adresse des ersten Testbenutzers); SenderCredential (das Windows PowerShell-Objekt, das die Anmeldeinformationen für denselben Benutzer enthält); ReceiverSipAddress (die SIP-Adresse des anderen Testbenutzers); und ReceiverCredential (das Windows PowerShell-Objekt, das die Anmeldeinformationen für den anderen Testbenutzer enthält).
+Wenn die Credential-Objekte in der Hand sind, bestimmt der dritte Befehl, ob sich diese beiden Benutzer bei lync Server 2013 anmelden und Nachrichten mithilfe des beständigen Chats austauschen können. Um diese Aufgabe auszuführen, wird das Cmdlet **Test-cspersistentchatmessage "** mit den folgenden Parametern aufgerufen: TargetFqdn (FQDN des Registrierungsstellen Pools); "Sendersipaddress" (die SIP-Adresse für den ersten Testbenutzer); SenderCredential (das Windows PowerShell-Objekt, das die Anmeldeinformationen für diesen Benutzer enthält); "Receiversipaddress" (die SIP-Adresse für den anderen Testbenutzer); und ReceiverCredential (das Windows PowerShell-Objekt, das die Anmeldeinformationen für den anderen Testbenutzer enthält).
 
     $cred1 = Get-Credential "litwareinc\pilar"
     $cred2 = Get-Credential "litwareinc\kenmyer"
@@ -87,29 +87,29 @@ Wenn die Anmeldeinformationsobjekte in der Hand sind, bestimmt der dritte Befehl
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn der angegebene Benutzer über eine gültige Standortrichtlinie verfügt, erhalten Sie eine ähnliche Ausgabe, wobei die Eigenschaft Ergebnis als **erfolgreich**markiert ist:
+Wenn der angegebene Benutzer über eine gültige Standortrichtlinie verfügt, erhalten Sie eine ähnliche Ausgabe, wobei die Result-Eigenschaft als **Success**markiert ist:
 
 Ziel-FQDN: ATL-CS-001.litwareinc.com
 
-Ergebnis: Erfolg
+Ergebnis: Success
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
 Fehlermeldung:
 
 Diagnose
 
-Wenn die angegebenen Benutzer Nachrichten nicht mithilfe des beständigen Chat Diensts austauschen können, wird das Ergebnis als **Fehler**angezeigt, und weitere Informationen werden in den Eigenschaften Fehler und Diagnose aufgezeichnet:
+Wenn die angegebenen Benutzer Nachrichten nicht mit dem Dienst für beständigen Chat austauschen können, wird das Ergebnis als **Fehler**angezeigt, und in den Eigenschaften Error und Diagnostic werden zusätzliche Informationen aufgezeichnet:
 
-Warnung: Fehler beim Lesen der Registrierungsstellen-Portnummer für die angegebene vollqualifizierte
+Warnung: Fehler beim Lesen der Registrierungs Portnummer für die angegebene vollqualifizierte
 
-Domänenname (FQDN). Verwenden der standardmäßigen Registrierungs Portnummer Ausnahme
+Domänenname (FQDN). Verwenden der standardmäßigen Registrierungsstellen-Portnummer. Ausnahme
 
 System. InvalidOperationException: kein übereinstimmender Cluster in der Topologie gefunden.
 
-am
+auf
 
 Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryRetri
 
@@ -119,23 +119,23 @@ Ziel-FQDN: ATL-CS-001.litwareinc.com
 
 Ergebnis: Fehler
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
-Fehlermeldung: 10060, Fehler bei einem Verbindungsversuch, weil die verbundene Partei
+Fehlermeldung: 10060, ein Verbindungsversuch ist fehlgeschlagen, da die verbundene Partei
 
-hat nach einer bestimmten Zeit nicht richtig reagiert, oder
+nach einem bestimmten Zeitraum nicht ordnungsgemäß reagiert oder
 
-Fehler beim Herstellen einer Verbindung, weil der verbundene Host
+Fehler bei hergestellter Verbindung, da der verbundene Host
 
 Fehler bei der \[Antwort 2001:4898: E8: f39e: 5c9a: ad83:81b3:\]9944:5061
 
 Innere Ausnahme: ein Verbindungsversuch ist fehlgeschlagen, da die
 
-die verbundene Partei hat nach einer gewissen Zeit nicht richtig reagiert
+die verbundene Partei hat nach einer bestimmten Zeit nicht ordnungsgemäß reagiert.
 
-Zeit, oder die Verbindung konnte nicht hergestellt werden, weil der verbundene Host
+Zeit oder Fehler bei hergestellter Verbindung, weil verbundener Host
 
-hat nicht reagiert
+Fehler beim Antworten
 
 \[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944\]: 5061
 
@@ -147,11 +147,11 @@ Diagnose
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Nachfolgend finden Sie einige häufige Gründe, warum **Test-CsPersistentChatMessage** möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, warum das **Testen von cspersistentchatmessage "** möglicherweise fehlschlägt:
 
-  - Es wurde ein falscher Parameterwert angegeben. Die erforderlichen Testkonten sind möglicherweise nicht vorhanden oder wurden ordnungsgemäß erstellt.
+  - Ein falscher Parameterwert wurde angegeben. Die erforderlichen Testkonten sind möglicherweise nicht vorhanden oder wurden ordnungsgemäß erstellt.
 
-  - Möglicherweise hat ein Netzwerkproblem zu einer unerwarteten Verzögerung geführt, bei der der Test zeitverzögert wurde.
+  - Möglicherweise wurde ein Netzwerkproblem verursacht eine unerwartete Verzögerung, die den Test Zeitüberschreitung.
 
 </div>
 
@@ -160,9 +160,9 @@ Nachfolgend finden Sie einige häufige Gründe, warum **Test-CsPersistentChatMes
 ## <a name="see-also"></a>Siehe auch
 
 
-[Grant-CsPersistentChatPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsPersistentChatPolicy)  
-[New-CsPersistentChatPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsPersistentChatPolicy)  
-[Set-CsPersistentChatPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatPolicy)  
+[Grant-cspersistentchatpolicy "](https://docs.microsoft.com/powershell/module/skype/Grant-CsPersistentChatPolicy)  
+[New-cspersistentchatpolicy "](https://docs.microsoft.com/powershell/module/skype/New-CsPersistentChatPolicy)  
+[Gruppe-cspersistentchatpolicy "](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatPolicy)  
   
 
 </div>

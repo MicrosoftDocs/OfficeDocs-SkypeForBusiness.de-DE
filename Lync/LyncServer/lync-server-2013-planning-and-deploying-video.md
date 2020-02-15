@@ -12,20 +12,20 @@ ms:contentKeyID: 48185558
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2662a6397bc096969ca73baab096bc886de65ce3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3938ca54278f71d8f51ecacfe3fdc3278ec59679
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755155"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050257"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-and-deploying-video-in-lync-server-2013"></a>Planen und Bereitstellen von Video in lync Server 2013
+# <a name="planning-and-deploying-video-in-lync-server-2013"></a>Planen und Bereitstellen von Videos in lync Server 2013
 
 </div>
 
@@ -35,26 +35,26 @@ ms.locfileid: "41755155"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-Lync Server 2013 stellt die folgenden neuen Videofeatures vor:
+In lync Server 2013 werden die folgenden neuen Videofeatures vorgestellt:
 
-  - **HD-Video**   Benutzer können Auflösungen bis zur Full High Definition (HD) (d. 1920 x 1080) in zwei-Parteien-anrufen und mehrteiligen Konferenzen erleben.
+  - **HD-Video**   Benutzer können Auflösungen bis zu Full High Definition (HD) (1920 x 1080) in zwei-Parteien-anrufen und Konferenzen mit mehreren Teilnehmern durchführen.
 
-  - **Katalogansicht**   in Videokonferenzen mit mehr als zwei Personen können Benutzer Videos der Teilnehmer an der Konferenz sehen. Wenn die Konferenz mehr als fünf Teilnehmer umfasst, werden in der obersten Zeile nur Videos von den aktivsten Teilnehmern angezeigt, und für die anderen Teilnehmer wird ein Foto angezeigt.
+  - **Galerieansicht**   in Videokonferenzen mit mehr als zwei Personen können Benutzer Videos von Teilnehmern in der Konferenz sehen. Bei Konferenzen mit mehr als fünf Teilnehmern werden nur die Videos der aktivsten Teilnehmer in der obersten Reihe angezeigt, und für die anderen Teilnehmer wird ein Foto angezeigt.
 
-  - **H. 264-Video**   der h. 264-Videocodec ist jetzt der Standard zum Codieren von Video auf lync 2013-Clients. H. 264-Video unterstützt eine größere Auswahl an Auflösungen und Frameraten und verbessert die Video Skalierbarkeit.
+  - **H. 264-Video**   der h. 264-Videocodec ist jetzt der Standard für die Codierung von Video auf lync 2013 Clients. H.264-Video unterstützt mehr Auflösungen und Frameraten und verbessert die Videoskalierbarkeit.
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Server 2013 unterstützt weiterhin den VC1-Codec für die Interoperabilität mit früheren lync-Versionen. Details und Hintergrundinformationen zum neuen Videocodec finden Sie im Blog-Artikel "Video Interoperabilität in lync 2013" unter Jeff Schertz <A class=uri href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</A>.
+    > Lync Server 2013 unterstützt weiterhin den VC1-Codec für die Interoperabilität mit früheren Versionen von lync. Details und Hintergrundinformationen zum neuen Videocodec finden Sie im Blog Artikel "Video Interoperability in lync 2013" unter von Jeff Schertz <A class=uri href="http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/">http://blog.schertz.name/2012/07/video-interoperability-in-lync-2013/</A>.
 
     
     </div>
 
-In diesem Abschnitt wird beschrieben, wie Sie die Bandbreite für Video in lync Server 2013 verwalten und Videofeatures konfigurieren.
+In diesem Abschnitt wird beschrieben, wie Sie Bandbreite für Video in lync Server 2013 verwalten und Videofunktionen konfigurieren.
 
 <div>
 
@@ -66,7 +66,7 @@ In diesem Abschnitt wird beschrieben, wie Sie die Bandbreite für Video in lync 
 
   - [Konfigurieren von Video Beispielszenarien für lync Server 2013](lync-server-2013-configuring-video-example-scenarios.md)
 
-  - [Interoperabilitäts Überlegungen für Videokonferenzen in lync Server 2013](lync-server-2013-interoperability-considerations-for-video-conferencing.md)
+  - [Überlegungen zur Interoperabilität für Videokonferenzen in lync Server 2013](lync-server-2013-interoperability-considerations-for-video-conferencing.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planen der öffentlichen Instant Messaging-Konnektivität'
+title: 'Lync Server 2013: Planen der Verbindung mit öffentlichen Instant Messaging-Diensten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185698
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7885d17e708f2073006131862f06d93d9057fb3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b3b1ad49a24e1236dbea837c596beff5e9605902
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725235"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049897"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-public-instant-messaging-connectivity-in-lync-server-2013"></a>Planen der öffentlichen Instant Messaging-Konnektivität in lync Server 2013
+# <a name="planning-for-public-instant-messaging-connectivity-in-lync-server-2013"></a>Planen der Verbindung mit öffentlichen Instant Messaging-Diensten in lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41725235"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-10-07_
+_**Letztes Änderungsstand des Themas:** 2013-10-07_
 
-Die öffentliche Instant Messaging-Konnektivität ist eine Klasse des Föderations-und ist so konfiguriert, dass Ihre internen und externen lync Server 2013-Benutzer Kontakte aus einem der folgenden hinzufügen können:
+Die Verbindung mit öffentlichen Instant Messaging-Diensten ist eine Klasse von Verbund und wird so konfiguriert, dass Ihre internen und externen lync Server 2013-Benutzer Kontakte aus einem der folgenden Elemente hinzufügen können:
 
   - Messenger-Kontakte
 
-  - Yahoo\! Kontakte
+  - Yahoo\! contacts
 
   - America Online (AOL)-Kontakte
 
@@ -51,33 +51,33 @@ Die öffentliche Instant Messaging-Konnektivität ist eine Klasse des Föderatio
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>Ab dem 1. September, 2012, ist die Microsoft lync Public Chat-Benutzerabonnementlizenz (PIC USL) nicht mehr für den Kauf für neue oder erneuernde Vereinbarungen verfügbar. Kunden mit aktiven Lizenzen sind in der Lage, weiterhin mit Yahoo! zu verbünden Messenger bis zum Shutdown-Datum des Diensts. Datum des Endes des Lebenszyklus von Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">unter Unterstützung für öffentliche Instant Messenger-Konnektivität in lync Server 2013</A>.</P>
+> <P>Seit dem 1. September 2012 ist die Microsoft lync Public Chat Connectivity User Subscription License (PIC USL) nicht mehr für den Kauf für neue oder erneuerte Verträge verfügbar. Kunden mit aktiven Lizenzen können weiterhin mit Yahoo! zusammenarbeiten. Messenger bis zum Datum der Beendigung des Diensts. Ein End-of-Life-Datum vom Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for Public Instant Messenger Connectivity in lync Server 2013</A>.</P>
 > <LI>
-> <P>Bei der PIC-USL handelt es sich um eine pro Benutzer/Monat-Abonnementlizenz, die für lync Server oder Office Communications Server für die Föderation mit Yahoo! erforderlich ist. Messenger. Die Möglichkeit von Microsoft, diesen Dienst bereitzustellen, war von der Unterstützung durch Yahoo! abhängig, deren zugrunde liegende Vereinbarung nicht verlängert werden sollte.</P>
+> <P>Bei der PIC-USL handelt es sich um eine Abonnementlizenz pro Benutzer pro Monat, die für lync Server oder Office Communications Server erforderlich ist, um mit Yahoo! zu verbünden. Messenger. Die Fähigkeit von Microsoft, diesen Dienst bereitzustellen, wurde von der Unterstützung von Yahoo! abhängig gemacht, die zugrunde liegende Vereinbarung, für die nicht erneuert wird.</P>
 > <LI>
-> <P>Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen Organisationen und Personen in der ganzen Welt. Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-und Gerätelizenzen außerhalb der lync-Standard CAL erforderlich. Skype Federation wird dieser Liste hinzugefügt und ermöglicht es lync-Benutzern, Hunderte von Millionen von Personen über Chat und Sprache zu erreichen.</P></LI></UL>
+> <P>Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen verschiedenen Organisationen und mit Einzelpersonen auf der ganzen Welt. Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-/Gerätelizenzen außerhalb der lync-Standard-CAL erforderlich. Skype Federation wird dieser Liste hinzugefügt, sodass lync-Benutzer über Chat und Voice Hunderte von Millionen von Benutzern erreichen können.</P></LI></UL>
 
 
 
 </div>
 
-Für diese Föderations Klasse sind die folgenden Planungsüberlegungen erforderlich:
+Für diese Partnerverbundklasse sind die folgenden Planungsüberlegungen erforderlich:
 
-  - Benutzer von Windows Live Messenger können neben Instant Messaging auch eine Peer-to-Peer-Audio/visuelle Kommunikation mit lync Server 2013-Benutzern führen. Ihre Edgeserver müssen bestimmte Port-und Protokollanforderungen erfüllen. Ausführliche Informationen finden Sie unter [ermitteln externer A/V-Firewall-und Portanforderungen für lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md).
+  - Windows Live Messenger-Benutzer können über Peer-to-Peer-Audio/visuelle Kommunikation mit lync Server 2013-Benutzern sowie Chatnachrichten verfügen. Ihre Edgeserver müssen bestimmte Port-und Protokollanforderungen erfüllen. Ausführliche Informationen finden Sie unter [bestimmen der externen A/V-Firewall und Portanforderungen für lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md).
 
-  - Yahoo Instant Messaging hat keine eindeutigen Anforderungen, außer denen, die normalerweise bei der Planung und Bereitstellung des typischen Edgeserver verwendet werden, der Föderation bereitstellt.
+  - Yahoo Instant Messaging hat keine eindeutigen Anforderungen, außer denen, die in der Regel für die Planung und Bereitstellung der typischen Edgeserver verwendet werden, die den Verbund bereitstellt.
 
-  - Für America Online ist es erforderlich, dass Ihr Edge-Server-Zertifikat, das dem Access-Edgedienst zugewiesen ist, über eine erweiterte Client-Schlüsselverwendung verfügt.
+  - Für America Online ist es erforderlich, dass Ihr Edgeserver Zertifikat, das dem Zugriffs-Edgedienst zugewiesen ist, über eine verstärkte Schlüsselverwendung für Clients verfügt (EKU).
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Zertifikats Zusammenfassung – öffentliche Instant Messaging-Konnektivität in lync Server 2013](lync-server-2013-certificate-summary-public-instant-messaging-connectivity.md)
+  - [Zertifikatzusammenfassung für die Verbindung mit öffentlichen Instant Messaging-Diensten in lync Server 2013](lync-server-2013-certificate-summary-public-instant-messaging-connectivity.md)
 
-  - [Port Zusammenfassung – öffentliche Instant Messaging-Konnektivität in lync Server 2013](lync-server-2013-port-summary-public-instant-messaging-connectivity.md)
+  - [Port Zusammenfassung – Verbindung mit öffentlichen Instant Messaging-Diensten in lync Server 2013](lync-server-2013-port-summary-public-instant-messaging-connectivity.md)
 
-  - [DNS-Zusammenfassung – öffentliche Instant Messaging-Konnektivität in lync Server 2013](https://technet.microsoft.com/en-us/library/jj618375\(v=ocs.15\))
+  - [DNS-Zusammenfassung – Verbindung mit öffentlichen Instant Messaging-Diensten in lync Server 2013](https://technet.microsoft.com/library/jj618375\(v=ocs.15\))
 
 </div>
 

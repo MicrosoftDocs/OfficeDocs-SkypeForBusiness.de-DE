@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Erstellen oder Ändern eines Netzwerkbereichs'
+title: 'Lync Server 2013: Erstellen oder Ändern einer netzwerkregion'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185281
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75011a28567da8a6e386c42f272ee1510b8ceddc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a7052109e5fe6bb7bc96a25a7ef443b9e22a07c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722562"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046048"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-network-region-in-lync-server-2013"></a>Erstellen oder Ändern eines Netzwerkbereichs in lync Server 2013
+# <a name="create-or-modify-a-network-region-in-lync-server-2013"></a>Erstellen oder Ändern einer netzwerkregion in lync Server 2013
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41722562"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-*Netzwerkregionen* sind die Netzwerkhubs oder Backbones, die in der Konfiguration der Anruf Zulassungs Steuerung, E9-1-1 und medienumgehung verwendet werden. Gehen Sie wie folgt vor, um netzwerkregionen zu erstellen oder zu ändern. Wenn Sie beispielsweise bereits netzwerkregionen für ein Sprachfeature erstellt haben, müssen Sie keine neuen netzwerkregionen erstellen. für andere erweiterte Enterprise-VoIP-Features werden dieselben netzwerkregionen verwendet. Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregion ändern, um funktionsspezifische Einstellungen anzuwenden. Wenn Sie z. B. Netzwerkregionen für E9-1-1 erstellt haben (denen kein zentraler Standort zugeordnet werden muss) und Sie zu einem späteren Zeitpunkt die Anrufsteuerung bereitstellen, müssen Sie die Definitionen der Netzwerkregionen ändern und einen zentralen Standort angeben. Ausführliche Informationen finden Sie unter [Konfigurieren von netzwerkregionen für CAC in lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).
+Bei einer *Netzwerkregion* handelt es sich um den Netzwerkhub oder Netzwerkbackbone, der in der Konfiguration von Anrufsteuerung, E9-1-1 und Medienumgehung verwendet wird. Verwenden Sie die folgenden Verfahren, um Netzwerkregionen zu erstellen oder zu ändern. Wenn Sie beispielsweise bereits Netzwerkregionen für eine VoIP-Funktion erstellt haben, müssen Sie keine neuen Netzwerkregionen erstellen, da dieselben Netzwerkregionen für weitere Enterprise VoIP-Funktionen verwendet werden können. Sie müssen jedoch möglicherweise eine vorhandene Definition einer Netzwerkregion ändern, um funktionsspezifische Einstellungen anzuwenden. Wenn Sie z. B. Netzwerkregionen für E9-1-1 erstellt haben (denen kein zentraler Standort zugeordnet werden muss) und Sie zu einem späteren Zeitpunkt die Anrufsteuerung bereitstellen, müssen Sie die Definitionen der Netzwerkregionen ändern und einen zentralen Standort angeben. Ausführliche Informationen finden Sie unter [configure Network Regions for CAC in lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).
 
 <div>
 
 
 > [!NOTE]  
-> Alle funktionsspezifischen Anforderungen für Netzwerkbereichs Definitionen sind in den Bereitstellungsthemen für das Feature dokumentiert.
+> Funktionsspezifische Anforderungen für die Netzwerkregionendefinitionen sind in den Bereitstellungsthemen der jeweiligen Funktion dokumentiert.
 
 
 
 </div>
 
-Details zum Arbeiten mit netzwerkregionen finden Sie in der Dokumentation zur lync Server-Verwaltungsshell für die folgenden Cmdlets:
+Ausführliche Informationen zum Arbeiten mit netzwerkregionen finden Sie in der lync Server-Verwaltungsshell Dokumentation für die folgenden Cmdlets:
 
   - [New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)
 
   - [Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)
+  - [Gruppe-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)
 
   - [Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegion)
 
 <div>
 
-## <a name="create-a-network-region"></a>Erstellen eines Netzwerkbereichs
+## <a name="create-a-network-region"></a>Erstellen einer Netzwerkregion
 
-Erstellen Sie einen Netzwerkbereich, der von der Anrufsteuerung, E9-1-1 oder Media Bypass verwendet werden kann.
+Erstellen Sie eine Netzwerkregion, die für Anrufsteuerung, E9-1-1 oder Medienumgehung verwendet werden kann.
 
 <div>
 
-## <a name="to-create-a-network-region-using-lync-server-management-shell"></a>So erstellen Sie einen Netzwerkbereich mithilfe der lync Server-Verwaltungsshell
+## <a name="to-create-a-network-region-using-lync-server-management-shell"></a>So erstellen Sie eine netzwerkregion mithilfe von lync Server-Verwaltungsshell
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Führen Sie das Cmdlet New-CsNetworkRegion aus, um Netzwerkregionen zu erstellen:
+2.  Führen Sie das Cmdlet "New-CsNetworkRegion" aus, um Netzwerkregionen zu erstellen:
     
         New-CsNetworkRegion -Identity <String> -CentralSite <String>
     
@@ -79,7 +79,7 @@ Erstellen Sie einen Netzwerkbereich, der von der Anrufsteuerung, E9-1-1 oder Med
     
         New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
     
-    In diesem Beispiel wird eine Netzwerkregion NorthAmerica erstellt, die einem zentralen Standort mit der Standort-ID CHICAGO zugeordnet wird.
+    In diesem Beispiel wird eine Netzwerkregion "NorthAmerica" erstellt, die einem zentralen Standort mit der Standort-ID "CHICAGO" zugeordnet wird.
 
 3.  Zum Abschließen der Erstellung von Netzwerkregionen für Ihre Topologie wiederholen Sie Schritt 2 mit Einstellungen für weitere Netzwerkregionen.
 
@@ -87,9 +87,9 @@ Erstellen Sie einen Netzwerkbereich, der von der Anrufsteuerung, E9-1-1 oder Med
 
 <div>
 
-## <a name="to-create-a-network-region-using-lync-server-control-panel"></a>So erstellen Sie einen Netzwerkbereich mithilfe der lync Server-Systemsteuerung
+## <a name="to-create-a-network-region-using-lync-server-control-panel"></a>So erstellen Sie eine netzwerkregion mithilfe von lync Server-Systemsteuerung
 
-1.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**.
 
@@ -97,13 +97,13 @@ Erstellen Sie einen Netzwerkbereich, der von der Anrufsteuerung, E9-1-1 oder Med
 
 4.  Klicken Sie auf **Neu**.
 
-5.  Klicken Sie auf der Seite **Neue Region** auf **Name** und geben Sie einen Namen für die Netzwerkregion ein.
+5.  Klicken Sie auf der Seite **Neue Region** auf **Name**, und geben Sie einen Namen für die Netzwerkregion ein.
 
 6.  Klicken Sie auf **Zentraler Standort** und anschließend auf einen zentralen Standort in der Liste.
 
-7.  Klicken Sie optional auf **Beschreibung** und geben Sie zusätzliche Informationen zur Beschreibung dieses Netzwerkstandorts ein.
+7.  Klicken Sie optional auf **Beschreibung**, und geben Sie zusätzliche Informationen zur Beschreibung dieses Netzwerkstandorts ein.
 
-8.  Klicken Sie auf **Commit ausführen**.
+8.  Klicken Sie auf **Commit**.
 
 9.  Zum Abschließen der Erstellung von Netzwerkregionen für Ihre Topologie wiederholen Sie die Schritte 4 bis 8 mit Einstellungen für weitere Regionen.
 
@@ -113,17 +113,17 @@ Erstellen Sie einen Netzwerkbereich, der von der Anrufsteuerung, E9-1-1 oder Med
 
 <div>
 
-## <a name="modify-a-network-region"></a>Ändern eines Netzwerkbereichs
+## <a name="modify-a-network-region"></a>Ändern einer Netzwerkregion
 
-Ändern Sie die Einstellungen für einen vorhandenen Netzwerkbereich, um Änderungen an den grundlegenden Bereichs Informationen oder Änderungen anzupassen, die für ein neues Feature erforderlich sind.
+Ändern Sie die Einstellungen für eine vorhandenen Netzwerkregion in Übereinstimmung mit Änderungen der grundlegenden Regioneninformationen oder Änderungen, die für eine neue Funktion erforderlich sind.
 
 <div>
 
-## <a name="to-modify-a-network-region-using-lync-server-management-shell"></a>So ändern Sie einen Netzwerkbereich mithilfe der lync Server-Verwaltungsshell
+## <a name="to-modify-a-network-region-using-lync-server-management-shell"></a>So ändern Sie eine netzwerkregion mithilfe von lync Server-Verwaltungsshell
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Führen Sie das Cmdlet Set-CsNetworkRegion aus, um eine vorhandene Netzwerkregion zu ändern:
+2.  Führen Sie das Cmdlet "Set-CsNetworkRegion" aus, um eine vorhandene Netzwerkregion zu ändern:
     
         Set-CsNetworkRegion -Identity <String> -CentralSite <String>
     
@@ -131,7 +131,7 @@ Erstellen Sie einen Netzwerkbereich, der von der Anrufsteuerung, E9-1-1 oder Med
     
         Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
     
-    In diesem Beispiel wird die zuvor in diesem Thema erstellte Netzwerkregion „NorthAmerica“ bearbeitet, indem die Beschreibung geändert wird. Wenn für die Region „NorthAmerica“ bereits eine Beschreibung vorhanden ist, wird diese durch den neuen Wert ersetzt, andernfalls legt dieser Befehl die Beschreibung fest.
+    In diesem Beispiel wird die zuvor in diesem Thema erstellte Netzwerkregion "NorthAmerica" bearbeitet, indem die Beschreibung geändert wird. Wenn für die Region "NorthAmerica" bereits eine Beschreibung vorhanden ist, wird diese durch den neuen Wert ersetzt, andernfalls legt dieser Befehl die Beschreibung fest.
 
 3.  Zum Ändern weiterer Netzwerkregionen wiederholen Sie Schritt 2 mit Einstellungen für andere Regionen.
 
@@ -139,9 +139,9 @@ Erstellen Sie einen Netzwerkbereich, der von der Anrufsteuerung, E9-1-1 oder Med
 
 <div>
 
-## <a name="to-modify-a-network-region-using-lync-server-control-panel"></a>So ändern Sie einen Netzwerkbereich mithilfe der lync Server-Systemsteuerung
+## <a name="to-modify-a-network-region-using-lync-server-control-panel"></a>So ändern Sie eine netzwerkregion mithilfe von lync Server-Systemsteuerung
 
-1.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**.
 
@@ -155,7 +155,7 @@ Erstellen Sie einen Netzwerkbereich, der von der Anrufsteuerung, E9-1-1 oder Med
 
 7.  Klicken Sie auf **Commit ausführen**.
 
-8.  Zum Abschließen der Änderung von Netzwerkregionen wiederholen Sie die Schritte 4 bis 7 mit Einstellungen für weitere Regionen.
+8.  Zum Abschließen der Änderung von Netzwerkregionen wiederholen Sie die Schritte 4 bis 7 mit Einstellungen für weitere Regionen.
 
 </div>
 

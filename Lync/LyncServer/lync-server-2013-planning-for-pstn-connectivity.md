@@ -12,16 +12,16 @@ ms:contentKeyID: 48183684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec12aa5e579aed30e61c7cd34eab444e807c628f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 811f69e8286e341b7769a58d03c42d0a43e63075
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725255"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049907"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41725255"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Eine VoIP-Lösung für Unternehmen muss ein- und ausgehende PSTN-Anrufe (Public Switched Telephone Network, Telefonfestnetz) ermöglichen, ohne dass die Dienstqualität (Quality of Service, QoS) in irgendeiner Weise beeinträchtigt wird. Benutzer, die Anrufe tätigen und empfangen, sollten sich der zugrunde liegenden Technologie nicht bewusst sein: ein Anruf zwischen der Enterprise-VoIP-Infrastruktur und dem PSTN sollte aus Sicht des Benutzers wie nur ein weiterer Telefonanruf aussehen.
+Eine VoIP-Lösung für Unternehmen muss ein- und ausgehende PSTN-Anrufe (Public Switched Telephone Network, Telefonfestnetz) ermöglichen, ohne dass die Dienstqualität (Quality of Service, QoS) in irgendeiner Weise beeinträchtigt wird. Benutzer, die Anrufe tätigen und empfangen, sollten sich der zugrunde liegenden Technologie nicht bewusst sein: aus Sicht des Benutzers sollte ein Anruf zwischen der Enterprise-VoIP-Infrastruktur und dem PSTN wie nur ein weiterer Telefonanruf aussehen.
 
-Lync Server 2013 bietet zuverlässige, skalierbare PSTN-Konnektivität mithilfe der folgenden Optionen:
+Lync Server 2013 bietet mithilfe der folgenden Optionen eine zuverlässige, skalierbare PSTN-Konnektivität:
 
   - **SIP-Trunks** mit einem Anbieter von Internettelefoniediensten (Internet Telephony Service Provider, ITSP)
 
@@ -47,7 +47,7 @@ Lync Server 2013 bietet zuverlässige, skalierbare PSTN-Konnektivität mithilfe 
 
   - **Direkte SIP-Verbindungen** mit einer Nebenstellenanlage
 
-Je nach Größe, geographischer Abdeckung und vorhandener VoIP-Infrastruktur können Unternehmen eine, zwei oder sogar alle drei Optionen an verschiedenen Speicherorten verwenden.
+Je nach Größe, geografischer Abdeckung und der vorhandenen Enterprise-VoIP-Infrastruktur kann ein Unternehmen eine, zwei oder sogar alle drei dieser Optionen an verschiedenen Standorten einsetzen.
 
 <div>
 
@@ -57,11 +57,11 @@ Je nach Größe, geographischer Abdeckung und vorhandener VoIP-Infrastruktur kö
 
   - [Direkte SIP-Verbindungen in lync Server 2013](lync-server-2013-direct-sip-connections.md)
 
-  - [M:N trunk in lync Server 2013](lync-server-2013-m-n-trunk.md)
+  - [M:n-trunk trunk in lync Server 2013](lync-server-2013-m-n-trunk.md)
 
   - [Übersetzungsregeln in lync Server 2013](lync-server-2013-translation-rules.md)
 
-  - [Planen des VoIP-Routings für ausgehende Anrufe in Lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md)
+  - [Planen der ausgehenden VoIP-Weiterleitung in lync Server 2013](lync-server-2013-planning-outbound-voice-routing.md)
 
 </div>
 

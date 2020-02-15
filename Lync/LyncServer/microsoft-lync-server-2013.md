@@ -12,16 +12,16 @@ ms:contentKeyID: 48184592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88de2c999b82621ddb0b176b49fc74dfac4a6371
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 442d94cbaf9ad7c3352cbd17ad88f3d84e716b61
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763629"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050407"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41763629"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-03-14_
+_**Letztes Änderungsstand des Themas:** 2014-03-14_
 
-Die Microsoft lync Server 2013-Kommunikationssoftware bietet Instant Messaging (im), Anwesenheits-, Konferenz-und Telefonie-Lösungen, die die Anforderungen an die Zusammenarbeit auf Unternehmensebene unterstützen können.
+Microsoft lync Server 2013 Kommunikationssoftware bietet Instant Messaging (Sofortnachrichten), Anwesenheits-, Konferenz-und Telefonie-Lösungen, die Anforderungen an die Zusammenarbeit auf Unternehmensebene unterstützen können.
 
-Möchten Sie eine Kopie der lync Server 2013-Dokumentation herunterladen? Sie können die **LyncServer2013\_ITPro** compiled Help (. chm)-Datei aus dem Microsoft Download Center [http://go.microsoft.com/fwlink/p/?LinkID=331103](http://go.microsoft.com/fwlink/p/?linkid=331103)unter herunterladen.
+Möchten Sie eine Kopie der lync Server 2013 Dokumentation herunterladen? Sie können die **LyncServer2013\_ITPro** compiled Help (. chm)-Datei aus dem Microsoft Download Center [http://go.microsoft.com/fwlink/p/?LinkID=331103](http://go.microsoft.com/fwlink/p/?linkid=331103)herunterladen.
 
-In den folgenden Tabellen sind die Themen in der lync Server 2013-Dokumentationsbibliothek aufgeführt.
+In den folgenden Tabellen werden die Themen in der lync Server 2013 Dokumentationsbibliothek aufgeführt.
 
 <div>
 
@@ -111,13 +111,13 @@ In den folgenden Tabellen sind die Themen in der lync Server 2013-Dokumentations
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-planning.md">Planen von lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-planning.md">Planning for lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Online anzeigen: <a href="lync-server-2013-planning-for-your-organization.md">Organisationsplanung für lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-determining-your-infrastructure-requirements.md">Ermitteln der Infrastrukturanforderungen für lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-determining-your-infrastructure-requirements.md">bestimmen der Infrastrukturanforderungen für lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Online anzeigen: <a href="lync-server-2013-network-planning.md">Netzwerkplanung für lync Server 2013</a></p></td>
@@ -126,40 +126,40 @@ In den folgenden Tabellen sind die Themen in der lync Server 2013-Dokumentations
 <td><p>Online anzeigen: <a href="lync-server-2013-capacity-planning.md">Kapazitätsplanung für lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-high-availability-and-disaster-recovery.md">Planen von Höchstverfügbarkeit und Disaster Recovery in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-high-availability-and-disaster-recovery.md">Planung für hohe Verfügbarkeit und Notfallwiederherstellung in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-manageability-and-virtualization.md">Planen von Verwaltbarkeit und Virtualisierung in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-manageability-and-virtualization.md">Planen der Verwaltbarkeit und Virtualisierung in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md">Planen von Front-End-Servern, Sofortnachrichten und Anwesenheitsinformationen in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md">Planen von Front-End-Servern, Chatnachrichten und Anwesenheitsinformationen in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Online anzeigen: <a href="lync-server-2013-planning-for-conferencing.md">Planen von Konferenzen in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-external-user-access.md">Planen des Zugriffs auf externe Benutzer in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-external-user-access.md">Planen des Zugriffs durch externe Benutzer in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-enterprise-voice.md">Planen von Enterprise-VoIP in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-enterprise-voice.md">Planning for Enterprise Voice in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-monitoring.md">Planen der Überwachung in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-monitoring.md">Planning for Monitoring in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-archiving.md">Planen der Archivierung in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-archiving.md">Planning for Archiving in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-planning-and-deploying-video.md">Planen und Bereitstellen von Video in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-planning-and-deploying-video.md">Planen und Bereitstellen von Videos in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-persistent-chat-server.md">Planen des beständigen Chat Servers in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-persistent-chat-server.md">Planning for persistent Chat Server in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-exchange-server-integration.md">Planen der Exchange Server-Integration in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-exchange-server-integration.md">Planen der Exchange Server Integration in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-clients-and-devices.md">Planen von Clients und Geräten in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-clients-and-devices.md">Planning for Clients and Devices in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Online anzeigen: <a href="lync-server-2013-planning-for-remote-call-control.md">Planen der Remoteanrufsteuerung in lync Server 2013</a></p></td>
@@ -168,7 +168,7 @@ In den folgenden Tabellen sind die Themen in der lync Server 2013-Dokumentations
 <td><p>Online anzeigen: <a href="lync-server-2013-planning-for-mobility.md">Planen der Mobilität in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-security.md">Planen der Sicherheit in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-security.md">Planning for Security in lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -178,7 +178,7 @@ In den folgenden Tabellen sind die Themen in der lync Server 2013-Dokumentations
 
 <div>
 
-## <a name="deployment"></a>Bereitstellung
+## <a name="deployment"></a>Bereitstellung)
 
 
 <table>
@@ -190,13 +190,13 @@ In den folgenden Tabellen sind die Themen in der lync Server 2013-Dokumentations
 <td><p>Online anzeigen: <a href="lync-server-2013-deployment.md">Bereitstellung von lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-deploying-lync-server.md">Bereitstellen von lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-deploying-lync-server.md">Deploying lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-deploying-external-user-access.md">Bereitstellen des Zugriffs externer Benutzer in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-deploying-external-user-access.md">Bereitstellen von externem Benutzer Zugriff in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-deploying-enterprise-voice.md">Bereitstellen von Enterprise-VoIP in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-deploying-enterprise-voice.md">Deploying Enterprise Voice in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Online anzeigen: <a href="lync-server-2013-deploying-conferencing.md">Bereitstellen von Konferenzen in lync Server 2013</a></p></td>
@@ -205,25 +205,25 @@ In den folgenden Tabellen sind die Themen in der lync Server 2013-Dokumentations
 <td><p>Online anzeigen: <a href="lync-server-2013-deploying-monitoring.md">Bereitstellen der Überwachung in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-deploying-archiving.md">Bereitstellen der Archivierung in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-deploying-archiving.md">Deploying Archiving in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-planning-and-deploying-video.md">Planen und Bereitstellen von Video in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-planning-and-deploying-video.md">Planen und Bereitstellen von Videos in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-deploying-branch-sites.md">Bereitstellen von Zweigstellen in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-deploying-branch-sites.md">Deploying Branch Sites in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-deploying-persistent-chat-server.md">Bereitstellen eines beständigen Chat Servers in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-deploying-persistent-chat-server.md">Deploying persistent Chat Server in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-deploying-clients-and-devices.md">Bereitstellen von Clients und Geräten in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-deploying-clients-and-devices.md">Deploying Clients and Devices in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-planning-and-deploying-unified-contact-store.md">Planen und Bereitstellen von Unified Contact Store in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-planning-and-deploying-unified-contact-store.md">Planen und Bereitstellen des einheitlichen Kontaktspeichers in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Verwalten von Server-zu-Server-Authentifizierung (OAuth) und Partneranwendungen in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Verwalten der Server-zu-Server-Authentifizierung (OAuth) und der Partneranwendungen in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Online anzeigen: <a href="lync-server-2013-updating-from-the-evaluation-version.md">Aktualisieren von der Evaluierungsversion von lync Server 2013</a></p></td>
@@ -232,7 +232,7 @@ In den folgenden Tabellen sind die Themen in der lync Server 2013-Dokumentations
 <td><p>Online anzeigen: <a href="lync-server-2013-deploying-remote-call-control.md">Bereitstellen der Remoteanrufsteuerung in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-deploying-mobility.md">Bereitstellen von Mobilität in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-deploying-mobility.md">Deploying Mobility in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Online anzeigen: <a href="lync-server-2013-health-configuration-in-lync-server.md">Integritäts Konfiguration in lync Server 2013</a></p></td>
@@ -248,7 +248,7 @@ In den folgenden Tabellen sind die Themen in der lync Server 2013-Dokumentations
 
 <div>
 
-## <a name="lync-server-hybrid-deployments"></a>Lync Server-Hybrid Bereitstellungen
+## <a name="lync-server-hybrid-deployments"></a>Lync Server Hybrid Bereitstellungen
 
 
 <table>
@@ -279,13 +279,13 @@ In den folgenden Tabellen sind die Themen in der lync Server 2013-Dokumentations
 <td><p>Online anzeigen: <a href="migration.md">Migration</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="migration-from-lync-server-2010-to-lync-server-2013.md">Migration von lync Server 2010 zu lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="migration-from-lync-server-2010-to-lync-server-2013.md">Migration from lync Server 2010 to lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Migration von Office Communications Server 2007 R2 zu lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Migration from Office Communications Server 2007 R2 to lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md">Migration von lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppenchat zu lync Server 2013, beständiger Chat Server</a></p></td>
+<td><p>Online anzeigen: <a href="migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md">Migration from lync Server 2010, Group Chat oder Office Communications Server 2007 R2 Group Chat to lync Server 2013, persistent Chat Server</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -307,28 +307,28 @@ In den folgenden Tabellen sind die Themen in der lync Server 2013-Dokumentations
 <td><p>Online anzeigen: <a href="lync-server-2013-operations.md">Vorgänge in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-lync-server-administrative-tools.md">lync Server 2013-Verwaltungstools</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-lync-server-administrative-tools.md">lync Server 2013 Verwaltungstools</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Online anzeigen: <a href="lync-server-2013-managing-users-in-lync-server.md">Verwalten von Benutzern in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-managing-the-lync-server-topology.md">Verwalten der lync Server 2013-Topologie</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-managing-the-lync-server-topology.md">Verwalten der lync Server 2013 Topologie</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-delegating-administrative-control-of-lync-server.md">Delegieren der administrativen Steuerung von lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-delegating-administrative-control-of-lync-server.md">delegierende administrative Kontrolle über lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Online anzeigen: <a href="lync-server-2013-managing-im-and-presence-settings.md">Verwalten von Chat-und Anwesenheitseinstellungen in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="managing-lync-server-2013-persistent-chat-server.md">Verwalten von lync Server 2013, beständiger Chat Server</a></p></td>
+<td><p>Online anzeigen: <a href="managing-lync-server-2013-persistent-chat-server.md">Managing lync Server 2013, persistent Chat Server</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-managing-voice-routing.md">Verwalten des VoIP-Routings in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-managing-voice-routing.md">Managing Voice Routing in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-managing-call-management-features.md">Verwalten von Anruf Verwaltungsfeatures in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-managing-call-management-features.md">Verwalten von anrufverwaltungsfunktionen in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Online anzeigen: <a href="lync-server-2013-managing-meetings-and-conferences.md">Verwalten von Besprechungen und Konferenzen in lync Server 2013</a></p></td>
@@ -337,37 +337,37 @@ In den folgenden Tabellen sind die Themen in der lync Server 2013-Dokumentations
 <td><p>Online anzeigen: <a href="lync-server-2013-managing-devices-phones-and-client-applications.md">Verwalten von Geräten, Telefonen und Clientanwendungen in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Verwalten des Föderations-und des externen Zugriffs auf lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Verwalten des Verbunds und des externen Zugriffs auf lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-managing-archiving.md">Verwalten der lync Server 2013-Archivierung</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-managing-archiving.md">Managing lync Server 2013 Archiving</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-managing-lync-server-authentication.md">Verwalten der lync Server 2013-Authentifizierung</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-managing-lync-server-authentication.md">Verwalten der lync Server 2013 Authentifizierung</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md">Verwalten der lync Server 2013-Netzwerkinfrastruktur</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-managing-the-lync-server-2013-network-infrastructure.md">Verwalten der lync Server 2013 Netzwerkinfrastruktur</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md">Verwalten von erweiterten 9-1-1 und dem Standortdienst in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-managing-enhanced-9-1-1-and-the-location-service.md">Managing Enhanced 9-1-1 and the Location Service in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-managing-lync-server-services-and-server-roles.md">Verwalten von lync Server 2013-Diensten und-Server Rollen</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-managing-lync-server-services-and-server-roles.md">Managing lync Server 2013 Services and Server Roles</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Online anzeigen: <a href="lync-server-2013-managing-applications.md">Verwalten von Anwendungen in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md">Verwalten von lync Server 2013 Disaster Recovery, Hochverfügbarkeits-und Sicherungsdienst</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md">Verwalten von lync Server 2013 Notfallwiederherstellung, hoher Verfügbarkeit und Sicherungsdienst</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-backing-up-and-restoring-lync-server.md">Sichern und Wiederherstellen von lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-backing-up-and-restoring-lync-server.md">Sichern und Wiederherstellen lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-monitoring-and-health-configuration.md">Überwachungs-und Integritäts Konfiguration in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-monitoring-and-health-configuration.md">Überwachung und Integritäts Konfiguration in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-lync-server-management-shell.md">lync Server 2013-Verwaltungsshell</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-lync-server-management-shell.md">lync Server 2013 Management Shell</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Online anzeigen: <a href="lync-server-2013-lync-server-best-practices-analyzer.md">lync Server 2013 Best Practices Analyzer</a></p></td>
@@ -392,7 +392,7 @@ In den folgenden Tabellen sind die Themen in der lync Server 2013-Dokumentations
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-security.md">Planen der Sicherheit in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-planning-for-security.md">Planning for Security in lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -402,7 +402,7 @@ In den folgenden Tabellen sind die Themen in der lync Server 2013-Dokumentations
 
 <div>
 
-## <a name="schema-reference"></a>Schema Referenz
+## <a name="schema-reference"></a>Schemareferenz
 
 
 <table>
@@ -414,16 +414,16 @@ In den folgenden Tabellen sind die Themen in der lync Server 2013-Dokumentations
 <td><p>Online anzeigen: <a href="lync-server-2013-schema-reference.md">Schema Referenz für lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-call-detail-recording-cdr-database-schema.md">CdR-Datenbankschema (Call Detail Recording) in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-call-detail-recording-cdr-database-schema.md">KDS-Datenbankschema (Call Detail Recording) in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Online anzeigen: <a href="lync-server-2013-quality-of-experience-qoe-database-schema.md">QoE-Datenbankschema (Quality of Experience) in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Online anzeigen: <a href="lync-server-2013-persistent-chat-database-schema.md">Datenbankschema für beständiges Chat in lync Server 2013</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-persistent-chat-database-schema.md">Datenbankschema für beständigen Chat in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Online anzeigen: <a href="lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md">Active Directory-Schemaerweiterungen,-Klassen und-Attribute, die von lync Server 2013 verwendet werden</a></p></td>
+<td><p>Online anzeigen: <a href="lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md">Active Directory Schemaerweiterungen, Klassen und Attribute, die von lync Server 2013 verwendet werden</a></p></td>
 </tr>
 </tbody>
 </table>

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77bad1729c67c363dc56eaf8788e57caabd51876
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e1db2211f174c18c160262c1f62c55a178b2cda4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722425"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045918"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41722425"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
 Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen oder zu ändern.
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-create-or-modify-a-queue"></a>So verwenden Sie die lync Server-Systemsteuerung zum Erstellen oder Ändern einer Warteschlange
+## <a name="to-use-lync-server-control-panel-to-create-or-modify-a-queue"></a>So verwenden Sie lync Server-Systemsteuerung zum Erstellen oder Ändern einer Warteschlange
 
-1.  Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
+1.  Melden Sie sich als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
     
     <div>
     
@@ -54,13 +54,13 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
     </div>
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Reaktionsgruppen** und dann auf **Warteschleife**.
 
 4.  Führen Sie auf der Seite **Warteschleife** einen der folgenden Schritte aus:
     
-      - Klicken Sie zum Erstellen einer neuen Warteschleife auf **Neu**. Geben Sie in **Dienst auswählen** den Namen des **ApplicationServer**-Diensts, zu dem Sie die Warteschleife hinzufügen möchten, vollständig oder teilweise in das Suchfeld ein. Klicken Sie in der Dienstliste auf den gewünschten Dienst und klicken Sie dann auf **OK**.
+      - Klicken Sie zum Erstellen einer neuen Warteschleife auf **Neu**. Geben Sie in **Dienst auswählen** den Namen des **ApplicationServer**-Diensts, zu dem Sie die Warteschleife hinzufügen möchten, vollständig oder teilweise in das Suchfeld ein. Klicken Sie in der Dienstliste auf den gewünschten Dienst, und klicken Sie dann auf **OK**.
     
       - Geben Sie den Warteschleifennamen vollständig oder teilweise in das Suchfeld ein, um eine vorhandene Warteschleife zu ändern. Klicken Sie in der Warteschleifenliste auf die gewünschte Warteschleife, klicken Sie auf **Bearbeiten** und dann auf **Details anzeigen**.
 
@@ -70,9 +70,9 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
 
 7.  Geben Sie in **Gruppen** die Gruppen an, die Sie der Warteschleife zuweisen möchten. Führen Sie einen der folgenden Schritte aus:
     
-      - Klicken Sie auf **Auswählen**, um eine Gruppe zu der Warteschleife hinzuzufügen. Geben Sie im Suchfeld **Gruppen auswählen** den Namen der Agentgruppe, die Sie der Warteschleife zuweisen möchten, teilweise oder vollständig ein, klicken Sie auf die gewünschte Agentgruppe und klicken Sie dann auf **OK**.
+      - Klicken Sie auf **Auswählen**, um eine Gruppe zu der Warteschleife hinzuzufügen. Geben Sie im Suchfeld **Gruppen auswählen** den Namen der Agentgruppe, die Sie der Warteschleife zuweisen möchten, teilweise oder vollständig ein, klicken Sie auf die gewünschte Agentgruppe, und klicken Sie dann auf **OK**.
     
-      - Um eine Gruppe aus der Warteschleife zu entfernen, klicken Sie in der Liste der Agentgruppen auf die Gruppe, die Sie entfernen möchten und klicken Sie dann auf **Entfernen**.
+      - Um eine Gruppe aus der Warteschleife zu entfernen, klicken Sie in der Liste der Agentgruppen auf die Gruppe, die Sie entfernen möchten, und klicken Sie dann auf **Entfernen**.
     
       - Um die Reihenfolge zu ändern, in der Agents durchsucht werden, klicken Sie in der Liste der Agentgruppen auf eine Gruppe und klicken Sie dann auf den Pfeil nach oben oder nach unten.
         
@@ -85,7 +85,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
         
         </div>
 
-8.  Wenn Sie eine Höchstdauer für die Wartezeit eines Anrufers festlegen möchten, bevor ein Agent den Anruf entgegennimmt, aktivieren Sie das Kontrollkästchen **Timeout für Warteschleife aktivieren** und führen Sie eine der folgenden Aktionen aus:
+8.  Wenn Sie eine Höchstdauer für die Wartezeit eines Anrufers festlegen möchten, bevor ein Agent den Anruf entgegennimmt, aktivieren Sie das Kontrollkästchen **Timeout für Warteschleife aktivieren**, und führen Sie eine der folgenden Aktionen aus:
     
     1.  Geben Sie in **Timeout (Sekunden)** die maximale Anzahl von Sekunden an, die ein Anrufer auf die Entgegennahme des Anrufs durch einen Agent wartet.
     
@@ -95,15 +95,15 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
       - Klicken Sie auf **Trennen**, um die Verbindung nach Ablauf der angegebenen Zeitdauer zu trennen.
     
-      - Um den Anruf an die Voicemail weiterzuleiten, klicken Sie auf **an Voicemail weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** eine Voicemail-Adresse im Format\<SIP\>@\<: username\> Domain Name ein (beispielsweise SIP:Bob@contoso.com).
+      - Um den Anruf an Voicemail weiterzuleiten, klicken Sie auf **an Voicemail weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** eine Voicemail-Adresse im Format SIP\<:\>@\<username Domain\> Name ein (beispielsweise SIP:Bob@contoso.com).
     
-      - Wenn Sie den Anruf an eine andere Telefonnummer weiterleiten möchten, klicken Sie auf **an Telefonnummer weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** die\<Telefon\>@\<Nummer im\> Format SIP: Number Domain Name ein (beispielsweise SIP:+14255550121@contoso.com).
+      - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **an Telefonnummer weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** die Telefonnummer\<im\>@\<Format SIP\> : Number Domain Name ein (beispielsweise SIP:+14255550121@contoso.com).
     
-      - Wenn Sie den Anruf an einen anderen Benutzer weiterleiten möchten, klicken Sie auf **an SIP-Adresse weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** den URI\<für\>@\<den Benutzer\>im Format SIP: username Domain Name ein.
+      - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **an SIP-Adresse weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** den URI für den\<Benutzer\>@\<im Format\>SIP: username Domain Name ein.
     
-      - Klicken Sie auf **An andere Warteschleife weiterleiten** und suchen Sie dann die gewünschte Warteschleife, um den Anruf an eine andere Warteschleife weiterzuleiten.
+      - Klicken Sie auf **An andere Warteschleife weiterleiten**, und suchen Sie dann die gewünschte Warteschleife, um den Anruf an eine andere Warteschleife weiterzuleiten.
 
-9.  Um eine maximale Anzahl der Anrufe anzugeben, die in der Warteschleife enthalten sein können, aktivieren Sie das Kontrollkästchen **Warteschleifenüberlauf aktivieren** und führen Sie dann die folgenden Schritte aus:
+9.  Um eine maximale Anzahl der Anrufe anzugeben, die in der Warteschleife enthalten sein können, aktivieren Sie das Kontrollkästchen **Warteschleifenüberlauf aktivieren**, und führen Sie dann die folgenden Schritte aus:
     
     1.  Wählen Sie im Feld **Maximale Anzahl von Anrufen** die maximale Anzahl von Anrufen aus, die die Warteschleife enthalten soll.
     
@@ -115,15 +115,15 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
       - Klicken Sie auf **Trennen**, um die Verbindung nach Ablauf der angegebenen Zeitdauer zu trennen.
     
-      - Um den Anruf an die Voicemail weiterzuleiten, klicken Sie auf **an Voicemail weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** eine Voicemail-Adresse im Format\<SIP\>@\<: username\> Domain Name ein (beispielsweise SIP:Bob@contoso.com).
+      - Um den Anruf an Voicemail weiterzuleiten, klicken Sie auf **an Voicemail weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** eine Voicemail-Adresse im Format SIP\<:\>@\<username Domain\> Name ein (beispielsweise SIP:Bob@contoso.com).
     
-      - Wenn Sie den Anruf an eine andere Telefonnummer weiterleiten möchten, klicken Sie auf **an Telefonnummer weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** die\<Telefon\>@\<Nummer im\> Format SIP: Number Domain Name ein (beispielsweise SIP:+14255550121@contoso.com).
+      - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **an Telefonnummer weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** die Telefonnummer\<im\>@\<Format SIP\> : Number Domain Name ein (beispielsweise SIP:+14255550121@contoso.com).
     
-      - Wenn Sie den Anruf an einen anderen Benutzer weiterleiten möchten, klicken Sie auf **an SIP-Adresse weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** den URI\<für\>@\<den Benutzer\>im Format SIP: username Domain Name ein.
+      - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **an SIP-Adresse weiterleiten**, und geben Sie dann im Feld **SIP-Adresse** den URI für den\<Benutzer\>@\<im Format\>SIP: username Domain Name ein.
     
-      - Klicken Sie auf **An andere Warteschleife weiterleiten** und suchen Sie dann die gewünschte Warteschleife, um den Anruf an eine andere Warteschleife weiterzuleiten.
+      - Klicken Sie auf **An andere Warteschleife weiterleiten**, und suchen Sie dann die gewünschte Warteschleife, um den Anruf an eine andere Warteschleife weiterzuleiten.
 
-10. Klicken Sie auf **Commit ausführen**.
+10. Klicken Sie auf **Commit**.
 
 </div>
 
@@ -131,7 +131,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
 
 ## <a name="to-use-windows-powershell-to-create-or-modify-a-queue"></a>So verwenden Sie Windows PowerShell zum Erstellen oder Ändern einer Warteschlange
 
-1.  Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
+1.  Melden Sie sich als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
     
     <div>
     
@@ -142,9 +142,9 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
     </div>
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Erstellen Sie die Ansage, die abgespielt werden soll, wenn der Schwellenwert für den Warteschleifen-Timeout erreicht wurde und speichern Sie diesen in einer Variable. Führen Sie an der Eingabeaufforderung Folgendes aus:
+3.  Erstellen Sie die Ansage, die abgespielt werden soll, wenn der Schwellenwert für den Warteschleifen-Timeout erreicht wurde, und speichern Sie diesen in einer Variable. Führen Sie an der Eingabeaufforderung Folgendes aus:
     
         $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
@@ -156,12 +156,12 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
 
     > [!NOTE]  
-    > Verwenden Sie das <STRONG>Import-CsRgsAudioFile</STRONG>-Cmdlet, um eine Audiodatei als Ansage zu verwenden. Ausführliche Informationen finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">importieren-CsRgsAudioFile</A>.
+    > Verwenden Sie das Cmdlet <STRONG>Import-CsRgsAudioFile</STRONG>, um eine Audiodatei für die Ansage zu verwenden. Ausführliche Informationen finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
     
     </div>
 
-4.  Legen Sie die auszuführende Aktion fest, wenn der Schwellenwert für den Warteschleifen-Timeout erreicht wurde und speichern Sie diesen in einer Variable. Führen Sie an der Eingabeaufforderung Folgendes aus:
+4.  Legen Sie die auszuführende Aktion fest, wenn der Schwellenwert für den Warteschleifen-Timeout erreicht wurde, und speichern Sie diesen in einer Variable. Führen Sie an der Eingabeaufforderung Folgendes aus:
     
         $actionTO = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
@@ -169,7 +169,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
 
     > [!NOTE]  
-    > Details zu möglichen Aktionen und deren Syntax finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
+    > Ausführliche Informationen zu möglichen Aktionen und deren Syntax finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
 
     
     </div>
@@ -178,7 +178,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
         $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
 
-5.  Erstellen Sie die Ansage, die abgespielt werden soll, wenn der Schwellenwert für den Warteschleifen-Überlauf erreicht wurde und speichern Sie diesen in einer Variable. Führen Sie an der Eingabeaufforderung Folgendes aus:
+5.  Erstellen Sie die Ansage, die abgespielt werden soll, wenn der Schwellenwert für den Warteschleifen-Überlauf erreicht wurde, und speichern Sie diesen in einer Variable. Führen Sie an der Eingabeaufforderung Folgendes aus:
     
         $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
     
@@ -190,12 +190,12 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
 
     > [!NOTE]  
-    > Verwenden Sie das <STRONG>Import-CsRgsAudioFile</STRONG>-Cmdlet, um eine Audiodatei als Ansage zu verwenden. Ausführliche Informationen finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">importieren-CsRgsAudioFile</A>.
+    > Verwenden Sie das Cmdlet <STRONG>Import-CsRgsAudioFile</STRONG>, um eine Audiodatei für die Ansage zu verwenden. Ausführliche Informationen finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile">Import-CsRgsAudioFile</A>.
 
     
     </div>
 
-6.  Legen Sie die auszuführende Aktion fest, wenn der Schwellenwert für den Warteschleifen-Überlauf erreicht wurde und speichern Sie diesen in einer Variable. Führen Sie an der Eingabeaufforderung Folgendes aus:
+6.  Legen Sie die auszuführende Aktion fest, wenn der Schwellenwert für den Warteschleifen-Überlauf erreicht wurde, und speichern Sie diesen in einer Variable. Führen Sie an der Eingabeaufforderung Folgendes aus:
     
         $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
     
@@ -203,16 +203,16 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
 
     > [!NOTE]  
-    > Details zu möglichen Aktionen und deren Syntax finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
+    > Ausführliche Informationen zu möglichen Aktionen und deren Syntax finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction">New-CsRgsCallAction</A>.
 
     
     </div>
     
-    Beispiel:
+    Zum Beispiel:
     
         $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
 
-7.  Rufen Sie den Dienstnamen für den Reaktionsgruppendienst ab und weisen Sie ihn einer Variablen zu. Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
+7.  Dienstnamen für den Reaktionsgruppendienst abrufen und diesen einer Variable zuweisen. Führen Sie an der Eingabeaufforderung Folgendes aus:
     
         $serviceId="service:"+(Get-CSService | ?{$_.Applications -Like "*RGS*"}).ServiceId;
 
@@ -224,7 +224,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
 
     > [!NOTE]  
-    > Details zum Erstellen der Agentengruppe finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A>
+    > Ausführliche Informationen zum Erstellen der Agentengruppe finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup">New-CsRgsAgentGroup</A>
 
     
     </div>
@@ -233,11 +233,11 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
         $q = New-CsRgsQueue -Parent <saved service ID from previous step> -Name "<name of queue>" [-Description "<description for queue>"] [-TimeoutThreshold <# seconds before call times out>] [-TimeoutAction <saved timeout action>] [-OverflowThreshold <# calls queue can hold>] [-OverflowCandidate <call to be acted on when overflow threshold met>] [-OverflowAction <saved overflow action>] [-AgentGroupIDList(<agent group identity>)];
     
-    Beispiel:
+    Zum Beispiel:
     
         $q = New-CsRgsQueue -Parent $serviceId -Name "Help Desk" -Description "Contoso Help Desk" -TimeoutThreshold 300 -TimeoutAction $actionTO -OverflowThreshold 10 -OverflowCandidate NewestCall -OverflowAction $actionOV -AgentGroupIDList($agid.Identity;
 
-10. Bestätigen Sie, dass die Warteschleife erstellt wurde. Führen Sie folgenden Befehl aus:
+10. Bestätigen dass die Warteschleife erstellt wurde. Führen Sie folgenden Befehl aus:
     
         Get-CsRgsQueue -Name "Help Desk"
 
@@ -248,12 +248,12 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Neu – CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)  
-[Satz-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsQueue)  
+[New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/New-CsRgsQueue)  
+[Gruppe-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsQueue)  
 [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/New-CsRgsPrompt)  
-[Neu – CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)  
+[New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/New-CsRgsCallAction)  
 [Get-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsQueue)  
-[Importieren-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
+[Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/Import-CsRgsAudioFile)  
 [Remove-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/Remove-CsRgsQueue)  
   
 

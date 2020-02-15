@@ -12,16 +12,16 @@ ms:contentKeyID: 49733667
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04a80b13cc7fd1bd88ce8b361b08938719f5929b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f3fb02e36927c10f5a4f66f0e4908a26e440b555
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744915"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045908"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41744915"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
 Verwenden Sie die Verfahren in diesem Abschnitt, um vertrauenswürdige Anwendungen für lync Server 2013 zu verwalten.
 
@@ -43,7 +43,7 @@ Verwenden Sie die Verfahren in diesem Abschnitt, um vertrauenswürdige Anwendung
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Verwalten von vertrauenswürdigen Anwendungen in lync Server 2013](lync-server-2013-managing-trusted-applications.md)
+  - [Verwalten vertrauenswürdiger Anwendungen in lync Server 2013](lync-server-2013-managing-trusted-applications.md)
 
 </div>
 
@@ -60,7 +60,7 @@ Verwenden Sie die Verfahren in diesem Abschnitt, um vertrauenswürdige Anwendung
 ## <a name="see-also"></a>Siehe auch
 
 
-[Verwalten von vertrauenswürdigen Anwendungen in lync Server 2013](lync-server-2013-managing-trusted-applications.md)  
+[Verwalten vertrauenswürdiger Anwendungen in lync Server 2013](lync-server-2013-managing-trusted-applications.md)  
   
 
 </div>

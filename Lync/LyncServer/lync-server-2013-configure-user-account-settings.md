@@ -12,20 +12,20 @@ ms:contentKeyID: 48185200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7b74056587a192ec81f0dffb0044fb76e7698960
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 19bb9bbba1d9a247b2c33a4ae0fd95f9a8e4553a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733805"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048168"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-user-account-settings-in-lync-server-2013"></a>Konfigurieren der Benutzerkontoeinstellungen  in Lync Server 2013
+# <a name="configure-user-account-settings-in-lync-server-2013"></a>Konfigurieren von Benutzerkontoeinstellungen in lync Server 2013
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41733805"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-05_
+_**Letztes Änderungsstand des Themas:** 2012-10-05_
 
-Teilnehmer an Einwahlkonferenzen geben ihre Telefonnummer oder Durchwahl sowie eine PIN ein, um als authentifizierte Benutzer an Konferenzen teilzunehmen. Für die Authentifizierung ist der in lync Server-Benutzerkonten angegebene Telefon **Leitungs-URI** erforderlich.
+Teilnehmer an Einwahlkonferenzen geben ihre Telefonnummer oder Durchwahl sowie eine PIN ein, um als authentifizierte Benutzer an Konferenzen teilzunehmen. Der in lync Server Benutzerkonten angegebene Telefonie- **Anschluss-URI** ist für die Authentifizierung erforderlich.
 
-In diesem Thema wird beschrieben, wie Sie einem einzelnen Benutzerkonto einen **Anschluss-URI** zuweisen. Wenn Sie mehreren Benutzerkonten einen **Anschluss-URI** zuweisen möchten, können Sie ein Skript erstellen, das das Cmdlet **Set-CsUser** verwendet. Details zur Verwendung eines Beispielskripts zum Zuweisen von **Leitungs-URI** zu mehreren Benutzerkonten finden Sie unter "Zuweisen von [http://go.microsoft.com/fwlink/p/?linkId=196945](http://go.microsoft.com/fwlink/p/?linkid=196945)Leitungs-URIs zu mehreren Benutzern" unter.
+In diesem Thema wird beschrieben, wie Sie einem einzelnen Benutzerkonto einen **Anschluss-URI** zuweisen. Wenn Sie mehreren Benutzerkonten einen **Anschluss-URI** zuweisen möchten, können Sie ein Skript erstellen, das das Cmdlet **Set-CsUser** verwendet. Ausführliche Informationen zur Verwendung eines Beispielskripts zum Zuweisen von Verbindungs- **URI** zu mehreren Benutzerkonten finden Sie unter "Zuweisen von Verbindungs-URIs [http://go.microsoft.com/fwlink/p/?linkId=196945](http://go.microsoft.com/fwlink/p/?linkid=196945)zu mehreren Benutzern" unter.
 
 <div>
 
 ## <a name="to-configure-user-account-settings"></a>So konfigurieren Sie die Benutzerkontoeinstellungen
 
-1.  Melden Sie sich beim Computer als Mitglied der Gruppe „RTCUniversalServerAdmins“ oder als Benutzer mit der Rolle **Cs-UserAdministrator** oder **CsAdministrator** an.
+1.  Melden Sie sich beim Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle **Cs-UserAdministrator** oder **CsAdministrator** an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
 
-4.  Geben Sie in das Suchfeld den Namen des Benutzers ein, den Sie für Einwahlkonferenzen konfigurieren möchten, oder klicken Sie auf **Filter hinzufügen**, um Suchfelder anzugeben und klicken Sie dann auf **Suchen**.
+4.  Geben Sie in das Suchfeld den Namen des Benutzers ein, den Sie für Einwahlkonferenzen konfigurieren möchten, oder klicken Sie auf **Filter hinzufügen**, um Suchfelder anzugeben, und klicken Sie dann auf **Suchen**.
 
-5.  Doppelklicken Sie auf den Benutzernamen, um das Dialogfeld **lync Server-Benutzer bearbeiten** zu öffnen.
+5.  Doppelklicken Sie auf den Benutzernamen, um das Dialogfeld **Benutzer lync Server bearbeiten** zu öffnen.
 
-6.  Geben Sie unter **Telefonie** in das Feld **Anschluss-URI** eine eindeutige, normalisierte Telefonnummer ein (beispielsweise tel:+14255550200).
+6.  Geben Sie unter **Telefonie** in das Feld **Anschluss-URI** eine eindeutige, normalisierte Telefonnumer ein (beispielsweise tel:+14255550200).
     
     <div>
     
 
     > [!NOTE]  
-    > Sie können <STRONG>Anschluss-URI</STRONG> nur angeben, wenn <STRONG>Telefonie</STRONG> auf <STRONG>Nur von PC zu PC</STRONG>, <STRONG>Enterprise-VoIP</STRONG>, <STRONG>Remoteanrufsteuerung</STRONG> oder <STRONG>Nur Remoteanrufsteuerung</STRONG> festgelegt ist.
+    > Sie können den <STRONG>Anschluss-URI</STRONG> nur angeben, wenn die <STRONG>Telefonie</STRONG> nur auf <STRONG>PC-zu-PC</STRONG>, <STRONG>Enterprise-VoIP</STRONG>, <STRONG>Remoteanrufsteuerung</STRONG> oder <STRONG>Remoteanrufsteuerung</STRONG>festgelegt ist.
 
     
     </div>
