@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planung des standortbasierten Routings'
+title: 'Lync Server 2013: Planen des standortbasierten Routings'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34a2dc25aa80e45d7e24f3a91a18b2dd83a4d554
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 307b4d696fdf4348649eb9363d252c7f1d0f8d12
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41751905"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-location-based-routing-in-lync-server-2013"></a>Planung des standortbasierten Routings in Lync Server 2013
+# <a name="planning-for-location-based-routing-in-lync-server-2013"></a>Planen des standortbasierten Routings in lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41751905"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-07-31_
+_**Letztes Änderungsstand des Themas:** 2013-07-31_
 
-Die Informationen in diesem Thema beziehen sich auf kumulierte Updates für Lync Server 2013: February 2013.
+Die Informationen in diesem Thema beziehen sich auf kumulative Updates für lync Server 2013: Februar 2013.
 
-Standortbasiertes Routing ermöglicht das Einschränken des Routings von anrufen zwischen VoIP-Endpunkten und PSTN-Endpunkten basierend auf dem Standort der Gesprächspartner. Standortbasiertes Routing ist Teil der lync Server 2013 Enterprise Voice-Infrastruktur. Standortbasiertes Routing ist ein Anruf Verwaltungsfeature, das steuert, wie Anrufe von lync Server 2013 CU1 weitergeleitet werden. Sie erzwingt Anruf Autorisierungsregeln, um festzulegen, ob Anrufe auf der Grundlage des geografischen Standorts des lync-Anrufers an PBX-oder PSTN-Endpunkte weitergeleitet werden können.
+Das standortbasierte Routing ermöglicht das Einschränken des Routings von anrufen zwischen VoIP-Endpunkten und PSTN-Endpunkten basierend auf dem Standort der Parteien im Anruf. Das standortbasierte Routing ist Teil der lync Server 2013 Enterprise-VoIP-Infrastruktur. Das standortbasierte Routing ist ein Anruf Verwaltungsfeature, das steuert, wie Anrufe von lync Server 2013 ku1 weitergeleitet werden. Es erzwingt Anruf Autorisierungsregeln, ob Anrufe basierend auf dem geografischen Standort des lync-Anrufers an PBX-oder PSTN-Endpunkte weitergeleitet werden können.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Übersicht über standortbasiertes Routing in lync Server 2013](lync-server-2013-overview-of-location-based-routing.md)
+  - [Übersicht über das standortbasierte Routing in lync Server 2013](lync-server-2013-overview-of-location-based-routing.md)
 
-  - [Anleitungen für das standortbasierte Routing in Lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)
+  - [Leitfaden für standortbasiertes Routing in lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)
 
-  - [Szenarien für das standortbasierte Routing in Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)
+  - [Szenarien für das standortbasierte Routing in lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)
 
-  - [Technische Überlegungen zum standortbasierten Routing in Lync Server 2013](lync-server-2013-technical-considerations-for-location-based-routing.md)
+  - [Technische Überlegungen zum standortbasierten Routing in lync Server 2013](lync-server-2013-technical-considerations-for-location-based-routing.md)
 
-  - [Client- und Serverunterstützung für standortbasiertes Routing in Lync Server 2013](lync-server-2013-client-and-server-support-for-location-based-routing.md)
+  - [Client-und Server Unterstützung für standortbasiertes Routing in lync Server 2013](lync-server-2013-client-and-server-support-for-location-based-routing.md)
 
-  - [Vom standortbasierten Routing nicht unterstützte Funktionen in Lync Server 2013](lync-server-2013-capabilities-not-supported-by-location-based-routing.md)
+  - [Von Standort basiertem Routing in lync Server 2013 nicht unterstützte Funktionen](lync-server-2013-capabilities-not-supported-by-location-based-routing.md)
 
-  - [Bereitstellungsvorgang beim standortbasierten Routing in Lync Server 2013](lync-server-2013-deployment-process-for-location-based-routing.md)
+  - [Bereitstellungsprozess für standortbasiertes Routing in lync Server 2013](lync-server-2013-deployment-process-for-location-based-routing.md)
 
   - [Standortbasiertes Routing für Konferenzen in lync Server 2013](lync-server-2013-location-based-routing-for-conferencing.md)
 
@@ -68,7 +68,7 @@ Standortbasiertes Routing ermöglicht das Einschränken des Routings von anrufen
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planen von Enterprise-VoIP in lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  
+[Planung von Enterprise-VoIP in lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  
   
 
 </div>

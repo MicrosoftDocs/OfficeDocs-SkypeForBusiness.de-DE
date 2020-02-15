@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Neue Funktionen'
+title: Lync Server 2013 neuer Features
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed5fa866c178a6e859cfba5eff92e2f6ba13b23a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2cbcb6a3945fbe367f9f4ef706287399631c95c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743235"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048476"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-features-in-lync-server-2013"></a>Neue Funktionen in Lync Server 2013
+# <a name="new-features-in-lync-server-2013"></a>Neue Features in lync Server 2013
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41743235"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-04_
+_**Letztes Änderungsstand des Themas:** 2012-10-04_
 
-Lync Server 2013 führt viele neue Features zusammen mit signifikanten Verbesserungen der vorhandenen Funktionen ein. Dieser Abschnitt enthält eine allgemeine Einführung in diese neuen Features und Verbesserungen.
+In lync Server 2013 werden zahlreiche neue Features sowie bedeutende Verbesserungen an vorhandenen Funktionen vorgestellt. Dieser Abschnitt bietet eine allgemeine Einführung in diese neuen Funktionen und Verbesserungen.
 
-Die Diskussionen über neue Features in lync Server 2013 sind unter den Themen in diesem Abschnitt gruppiert.
+Diskussionen über neue Features in lync Server 2013 werden zu den Themen in diesem Abschnitt gruppiert.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Neue Verwaltungs- und Administrationsfunktionen in Lync Server 2013](lync-server-2013-new-management-and-administration-features.md)
+  - [Neue Verwaltungs-und Verwaltungsfeatures in lync Server 2013](lync-server-2013-new-management-and-administration-features.md)
 
-  - [Topologieänderungen in Lync Server 2013](lync-server-2013-topology-changes.md)
+  - [Topologie-Änderungen in lync Server 2013](lync-server-2013-topology-changes.md)
 
-  - [Neue Funktionen für Notfallwiederherstellung und hohe Verfügbarkeit in Lync Server 2013](lync-server-2013-new-disaster-recovery-and-high-availability-features.md)
+  - [Neue Features für die Notfallwiederherstellung und hohe Verfügbarkeit in lync Server 2013](lync-server-2013-new-disaster-recovery-and-high-availability-features.md)
 
-  - [Neue Virtualisierungsfunktionen in Lync Server 2013](lync-server-2013-new-virtualization-features.md)
+  - [Neue Features für die Virtualisierung in lync Server 2013](lync-server-2013-new-virtualization-features.md)
 
-  - [Neue Funktionen für Chat und Anwesenheit in Lync Server 2013](lync-server-2013-new-im-and-presence-features.md)
+  - [Neue Sofortnachrichten-und Anwesenheitsfunktionen in lync Server 2013](lync-server-2013-new-im-and-presence-features.md)
 
-  - [Neue Konferenzfunktionen in Lync Server 2013](lync-server-2013-new-conferencing-features.md)
+  - [Neue Konferenzfeatures in lync Server 2013](lync-server-2013-new-conferencing-features.md)
 
-  - [Neue Funktionen für den externen Benutzerzugriff in Lync Server 2013](lync-server-2013-new-features-for-external-user-access.md)
+  - [Neue Features für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-new-features-for-external-user-access.md)
 
-  - [Neue Enterprise-VoIP-Funktionen in Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)
+  - [Neue Enterprise-VoIP-Funktionen in lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)
 
-  - [Neue Überwachungsfunktionen in Lync Server 2013](lync-server-2013-new-monitoring-features.md)
+  - [Neue Überwachungsfeatures in lync Server 2013](lync-server-2013-new-monitoring-features.md)
 
-  - [Neue Funktionen für die Archivierung in Lync Server 2013](lync-server-2013-new-archiving-features.md)
+  - [Neue Archivierungs Features in lync Server 2013](lync-server-2013-new-archiving-features.md)
 
-  - [Neue Funktinen für die Exchange Server-Integration in Lync Server 2013](lync-server-2013-new-exchange-server-integration-features.md)
+  - [Neue Exchange Server Integrationsfeatures in lync Server 2013](lync-server-2013-new-exchange-server-integration-features.md)
 
-  - [Neue Funktionen für den Server für beständigen Chat in Lync Server 2013](lync-server-2013-new-persistent-chat-server-features.md)
+  - [Neue Features für den Server für beständigen Chat in lync Server 2013](lync-server-2013-new-persistent-chat-server-features.md)
 
-  - [Neue IPv6-Funktionen in Lync Server 2013](lync-server-2013-new-ipv6-features.md)
+  - [Neue IPv6-Features in lync Server 2013](lync-server-2013-new-ipv6-features.md)
 
-  - [Neue Funktion für einheitlichen Kontaktspeicher in Lync Server 2013](lync-server-2013-new-unified-contact-store-feature.md)
+  - [Neuer Unified Contact Store-Feature in lync Server 2013](lync-server-2013-new-unified-contact-store-feature.md)
 
-  - [Neue Videofunktionen in Lync Server 2013](lync-server-2013-new-video-features.md)
+  - [Neue Videofunktionen in lync Server 2013](lync-server-2013-new-video-features.md)
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Ausgehende Anrufe'
+title: 'Lync Server 2013: ausgehende Anrufe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a353cecbf1cdc1ff411c2cfe7c57edcd909c5c8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ca0cdc7781143b0e76ff83a980f00da58c814f02
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755639"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049567"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="outgoing-calls-in-lync-server-2013"></a>Ausgehende Anrufe in Lync Server 2013
+# <a name="outgoing-calls-in-lync-server-2013"></a>Ausgehende Anrufe in lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41755639"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-09_
+_**Letztes Änderungsstand des Themas:** 2013-03-09_
 
-Das Routing von ausgehenden Anrufen von Benutzern, die für standortbasierte Routings aktiviert sind, ist vom Netzwerkspeicherort des Endpunkts des Benutzers betroffen. Die folgende Tabelle zeigt, wie sich der standortbasierte Routing auf das Routing von ausgehenden Anrufen auswirkt, abhängig von der Position des Endpunkts des Anrufers.
+Das Routing von ausgehenden Anrufen von Benutzern, die für standortbasiertes Routing aktiviert sind, wird von der Netzwerkadresse des Endpunkts des Benutzers beeinflusst. In der folgenden Tabelle wird veranschaulicht, wie sich das standortbasierte Routing auf das Routing ausgehender Anrufe in Abhängigkeit von der Position des Endpunkts des Anrufers auswirkt.
 
-### <a name="caller-placing-an-outbound-call-to-the-pstn"></a>Der Anrufer tätigt einen ausgehenden Anruf in das öffentliche Telefonnetz
+### <a name="caller-placing-an-outbound-call-to-the-pstn"></a>Anrufer, der einen ausgehenden Anruf an das PSTN abgibt
 
 <table>
 <colgroup>
@@ -50,20 +50,20 @@ Das Routing von ausgehenden Anrufen von Benutzern, die für standortbasierte Rou
 <thead>
 <tr class="header">
 <th></th>
-<th>Der Benutzerendpunkt befindet sich an einem Netzwerkstandort, der für standortbasiertes Routing aktiviert ist</th>
-<th>Der Benutzerendpunkt befindet sich an einem unbekannten Netzwerkstandort oder einem Standort, der nicht für standortbasiertes Routing aktiviert ist</th>
+<th>Benutzer Endpunkt befindet sich an einem Netzwerkstandort, der für standortbasiertes Routing aktiviert ist</th>
+<th>Benutzer Endpunkt befindet sich an einem unbekannten Netzwerkstandort oder ist für standortbasiertes Routing nicht aktiviert</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Autorisierung ausgehender Anrufe</p></td>
-<td><p>Der Anruf wird basierend auf der VoIP-Richtlinie des Benutzers autorisiert</p></td>
-<td><p>Der Anruf wird basierend auf der VoIP-Richtlinie des Benutzers autorisiert</p></td>
+<td><p>Autorisierung für ausgehende Anrufe</p></td>
+<td><p>Anruf wird basierend auf der VoIP-Richtlinie des Benutzers autorisiert</p></td>
+<td><p>Anruf wird basierend auf der VoIP-Richtlinie des Benutzers autorisiert</p></td>
 </tr>
 <tr class="even">
-<td><p>Routing ausgehender Anrufe</p></td>
-<td><p>Das Routing des Anrufs erfolgt gemäß der VoIP-Routingrichtlinie des Netzwerkstandorts</p></td>
-<td><p>Der Anruf wird gemäß der VoIP-Richtlinie des Benutzers geroutet, jedoch nur durch Trunks, die nicht für standortbasiertes Routing aktiviert sind (sofern verfügbar)</p></td>
+<td><p>Weiterleitung des ausgehenden Anrufs</p></td>
+<td><p>Der Anruf wird entsprechend der VoIP-Routing Richtlinie des Netzwerkstandorts weitergeleitet.</p></td>
+<td><p>Der Anruf wird entsprechend der VoIP-Richtlinie des Benutzers und nur über Trunks weitergeleitet, die nicht für standortbasiertes Routing aktiviert sind (sofern verfügbar)</p></td>
 </tr>
 </tbody>
 </table>
@@ -74,7 +74,7 @@ Das Routing von ausgehenden Anrufen von Benutzern, die für standortbasierte Rou
 ## <a name="see-also"></a>Siehe auch
 
 
-[Szenarien für das standortbasierte Routing in Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Szenarien für das standortbasierte Routing in lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

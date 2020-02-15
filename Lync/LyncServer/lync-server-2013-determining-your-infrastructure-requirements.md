@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Ermitteln Ihrer Infrastrukturanforderungen'
+title: 'Lync Server 2013: Bestimmen der Infrastrukturanforderungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9a90b1e2b79532273b9035bc6614aa5bdd2ff96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5446972b10bd761cb5958dbfc2a3762698e4311
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762463"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049317"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="determining-your-infrastructure-requirements-for-lync-server-2013"></a>Ermitteln Ihrer Infrastrukturanforderungen für Lync Server 2013
+# <a name="determining-your-infrastructure-requirements-for-lync-server-2013"></a>Bestimmen der Infrastrukturanforderungen für lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41762463"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-10_
+_**Letztes Änderungsstand des Themas:** 2012-09-10_
 
-Sie müssen die Infrastrukturanforderungen für Ihre Bereitstellung ermitteln und verstehen, damit Sie planen können, wie diese Anforderungen erfüllt werden, bevor Sie lync Server bereitstellen.
+Sie müssen die Infrastrukturanforderungen für Ihre Bereitstellung identifizieren und verstehen, damit Sie planen können, wie diese Anforderungen erfüllt werden, bevor Sie lync Server bereitstellen.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Ermitteln Ihrer Systemanforderungen für Lync Server 2013](lync-server-2013-determining-your-system-requirements.md)
+  - [Bestimmen der Systemanforderungen für lync Server 2013](lync-server-2013-determining-your-system-requirements.md)
 
-  - [Active Directory-Infrastrukturanforderungen für Lync Server 2013](lync-server-2013-active-directory-infrastructure-requirements.md)
+  - [Active Directory Infrastrukturanforderungen für lync Server 2013](lync-server-2013-active-directory-infrastructure-requirements.md)
 
-  - [Anforderungen in Bezug auf die Zertifikatinfrastruktur für Lync Server 2013](lync-server-2013-certificate-infrastructure-requirements.md)
+  - [Anforderungen an die Zertifikatinfrastruktur für lync Server 2013](lync-server-2013-certificate-infrastructure-requirements.md)
 
-  - [IIS-Anforderungen (Internetinformationsdienste) in Lync Server 2013](lync-server-2013-internet-information-services-iis-requirements.md)
+  - [Internet Information Services (IIS) Anforderungen in lync Server 2013](lync-server-2013-internet-information-services-iis-requirements.md)
 
 </div>
 

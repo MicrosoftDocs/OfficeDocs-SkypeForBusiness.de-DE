@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Erstellen oder Ändern einer neuen Richtlinienregel für Clientversionen'
+title: 'Lync Server 2013: Erstellen oder Ändern einer neuen clientversionsrichtlinien Regel'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 50873758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 442341c51ef6477f72fb9e88cdea5fe7fc527aa8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ae209caef3910ad08d09391cb13de4e1e0ceb7a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722445"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045998"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-new-client-version-policy-rule-in-lync-server-2013"></a>Erstellen oder Ändern einer neuen Richtlinienregel für Clientversionen in lync Server 2013
+# <a name="create-or-modify-a-new-client-version-policy-rule-in-lync-server-2013"></a>Erstellen oder Ändern einer neuen clientversionsrichtlinien Regel in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41722445"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-01-21_
+_**Letztes Änderungsstand des Themas:** 2013-01-21_
 
-Client Versionsrichtlinien Regeln definieren die Aktionen, die ausgeführt werden sollen, wenn Benutzer versuchen, sich mit bestimmten Clients und Clientversionen anzumelden. Sie können in der lync Server 2013-Systemsteuerung einzelne Regeln für eine clientversionsrichtlinie erstellen oder ändern.
+Regeln für Client Versionsrichtlinien definieren die Aktionen, die ausgeführt werden sollten, wenn Benutzer versuchen, sich mit bestimmten Clients und Clientversionen anzumelden. Sie können in lync Server 2013 Systemsteuerung einzelne Regeln für eine clientversionsrichtlinie erstellen oder ändern.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Regeln werden in der Reihenfolge der Rangfolge aufgelistet. Wenn Sie beispielsweise über eine Regel verfügen, mit der Clients, auf denen Version 1,5 ausgeführt wird, eine Verbindung herstellen können, gefolgt von einer Regel, die Clients mit einer älteren Version als 2,0 blockiert, hat die erste Regel Vorrang, und Clients, auf denen Version 1,5 ausgeführt wird, können eine Verbindung herstellen.
+> Regeln werden in der Reihenfolge ihrer Rangfolge aufgeführt. Wenn Sie beispielsweise über eine Regel verfügen, mit der Clients, auf denen Version 1,5 ausgeführt wird, eine Verbindung herstellen können, gefolgt von einer Regel, die verhindert, dass Clients eine ältere Version als 2,0 ausgeführt haben, hat die erste Regel Vorrang, und Clients, auf denen Version 1,5 ausgeführt wird, können eine Verbindung herstellen.
 
 
 
@@ -51,86 +51,86 @@ Client Versionsrichtlinien Regeln definieren die Aktionen, die ausgeführt werde
 
 <div>
 
-## <a name="to-create-or-modify-client-version-policy-rules-with-lync-server-control-panel"></a>So erstellen oder ändern Sie clientversionsrichtlinien Regeln mit der lync Server-Systemsteuerung
+## <a name="to-create-or-modify-client-version-policy-rules-with-lync-server-control-panel"></a>So erstellen oder ändern Sie clientversionsrichtlinien Regeln mit lync Server-Systemsteuerung
 
-1.  [Erstellen oder Ändern einer neuen clientversionsrichtlinie in lync Server 2013](lync-server-2013-create-or-modify-a-new-client-version-policy.md) mit der lync Server-Systemsteuerung.
+1.  [Erstellen oder ändern Sie eine neue clientversionsrichtlinie in lync Server 2013](lync-server-2013-create-or-modify-a-new-client-version-policy.md) mit lync Server-Systemsteuerung.
 
-2.  Führen Sie auf der Seite **Client-Versionsrichtlinie bearbeiten** eine der folgenden Aktionen aus:
+2.  Führen Sie auf der Seite **Client Versionsrichtlinie bearbeiten** eine der folgenden Aktionen aus:
     
-      - Klicken Sie auf **neu** , um eine neue clientversionsregel zu erstellen.
+      - Klicken Sie auf **Neu**, um eine neue Clientversionsrichtlinie zu erstellen.
     
-      - Klicken Sie in der Liste auf einen der definierten Clienttypen, und klicken Sie dann auf **Details anzeigen**.
+      - Klicken Sie auf einen der definierten Clienttypen in der Liste, und klicken Sie dann auf **Details einblenden**.
     
     <div>
     
 
     > [!NOTE]  
-    > Sie können Platzhalter zum Angeben des Clienttyps verwenden.
+    > Sie können den Clienttyp mithilfe von Platzhalterzeichen angeben.
 
     
     </div>
 
-3.  Wählen Sie im **Benutzer-Agent**einen Clienttyp aus.
+3.  Wählen Sie unter **Benutzer-Agent** einen Clienttyp aus.
 
-4.  Führen Sie unter **Versionsnummer**die folgenden Aktionen aus:
+4.  Führen Sie unter **Versionsnummer** die folgenden Aktionen aus:
     
-      - Geben Sie in der **Hauptversion**die Nummer ein, die der Hauptversion des Clients entspricht.
+      - Geben Sie in **Hauptversion** die Nummer ein, die der Hauptversion des Clients entspricht.
     
-      - Geben Sie in der **Nebenversion**die Zahl ein, die der Nebenversion des Clients entspricht.
+      - Geben Sie in **Nebenversion** die Nummer ein, die der Nebenversion des Clients entspricht.
     
-      - Geben Sie in **Build**die Zahl ein, die der Haupt-und Nebenversion des Clients entspricht.
+      - Geben Sie in **Build** die Nummer ein, die der Haupt- und Nebenversion des Clients entspricht.
     
-      - Geben Sie in **Update**die Nummer ein, die der aktualisierten Version des Clients entspricht.
+      - Geben Sie in **Update** die Nummer ein, die der aktualisierten Version des Clients entspricht.
     
     <div>
     
 
     > [!NOTE]  
-    > Sie können Platzhalter verwenden, um die Versionsnummer des Clients anzugeben.
+    > Sie können die Clientversionsnummer mithilfe von Platzhalterzeichen angeben.
 
     
     </div>
 
-5.  Wenn Sie den übereinstimmenden Vorgang für die Client Version angeben möchten, die Sie in den vorherigen Schritten angegeben haben, klicken Sie im **Vergleichsvorgang**auf eine der folgenden Optionen:
+5.  Klicken Sie unter **Vergleichsvorgang** auf eine der folgenden Optionen, um den Vergleichsvorgang für die in den vorherigen Schritten angegebene Clientversion festzulegen:
     
-      - **Identisch mit**
+      - **Gleich**
     
-      - **Ist nicht**
+      - **Ungleich**
     
       - **Neuer als**
     
-      - **Neuer als oder identisch mit**
+      - **Neuer als oder gleich**
     
       - **Älter als**
     
-      - **Älter als oder identisch mit**
+      - **Älter als oder gleich**
 
-6.  Wenn Sie die Aktion angeben möchten, die ausgeführt werden soll, wenn die Kriterien in den vorherigen Schritten erfüllt sind, klicken Sie in **Aktion**auf eine der folgenden Optionen:
+6.  Klicken Sie unter **Aktion** auf eine der folgenden Optionen, um die Aktion anzugeben, die bei Übereinstimmung mit dem angegebenen Kriterium ausgeführt werden soll:
     
-      - Klicken Sie auf **zulassen**, damit sich der Client anmelden kann.
+      - Klicken Sie auf **Zulassen**, um die Anmeldung des Clients zu erlauben.
     
-      - Wenn Sie zulassen möchten, dass der Client sich beim Windows Server Update-Dienst oder Microsoft Update anmeldet und Updates erhält, klicken Sie auf **zulassen und aktualisieren**. Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt ist.
+      - Klicken Sie auf **Zulassen und aktualisieren**, um dem Client die Anmeldung zu erlauben und Updates über Windows Server Update Service oder Microsoft Update abzurufen. Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt wurde.
         
         <div>
         
 
         > [!NOTE]  
-        > Wenn Sie diese Aktion auswählen, wird eine Benachrichtigung angezeigt, wenn sich die Benutzer das nächste Mal bei lync 2013 anmelden. Die Benachrichtigung weist darauf hin, dass ein Update verfügbar ist, selbst wenn etwaige Updates noch nicht in Windows Server Update Service oder Microsoft Update veröffentlicht wurden. Um Unklarheiten zu vermeiden, sollten Sie diese Aktion erst dann auswählen, wenn Updates verfügbar gemacht wurden.
+        > Durch Auswahl dieser Aktion wird eine Benachrichtigung angezeigt, wenn sich Benutzer das nächste Mal bei lync 2013 anmelden. Die Benachrichtigung weist darauf hin, dass ein Update verfügbar ist, selbst wenn etwaige Updates noch nicht in Windows Server Update Service oder Microsoft Update veröffentlicht wurden. Um Unklarheiten zu vermeiden, sollten Sie diese Aktion erst dann auswählen, wenn Updates verfügbar gemacht wurden.
 
         
         </div>
     
-      - Klicken Sie auf **Allow with URL**, damit der Client sich anmelden und eine Meldung darüber anzeigen kann, wo eine andere Client Version heruntergeladen werden kann. Sie geben die URL später in diesem Verfahren an.
+      - Klicken Sie auf **Mit URL zulassen**, um die Anmeldung des Clients zu erlauben und den Benutzer in einer Meldung darauf hinzuweisen, wo eine andere Clientversion heruntergeladen werden kann. Sie geben die URL später in diesem Verfahren an.
     
-      - Klicken Sie auf **blockieren**, um zu verhindern, dass der Client sich anmeldet.
+      - Um die Anmeldung des Clients zu verhindern, klicken Sie auf **Blockieren**.
     
-      - Klicken Sie auf **blockieren und aktualisieren**, um zu verhindern, dass der Client sich anmeldet und dem Client das Empfangen von Updates vom Windows Server Update-Dienst oder Microsoft Update ermöglicht. Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt ist.
+      - Klicken Sie auf **Blockieren und aktualisieren**, um dem Client die Anmeldung zu verweigern und Updates über Windows Server Update Service oder Microsoft Update abzurufen. Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt wurde.
     
-      - Wenn Sie verhindern möchten, dass der Client sich anmeldet und eine Meldung darüber anzeigt, wo eine andere Client Version heruntergeladen werden soll, klicken Sie auf **mit URL blockieren**. Sie geben die URL später in diesem Verfahren an.
+      - Klicken Sie auf **Mit URL blockieren**, um die Anmeldung des Clients zu verweigern und den Benutzer in einer Meldung darauf hinzuweisen, wo eine andere Clientversion heruntergeladen werden kann. Sie geben die URL später in diesem Verfahren an.
 
-7.  Optional Wenn Sie im vorherigen Schritt auf **Allow with URL** oder **Block with URL** geklickt haben, geben Sie die Client Download-URL ein, die in die Nachricht in **URL**aufgenommen werden soll.
+7.  (Optional) Wenn Sie im vorherigen Schritt auf **Mit URL zulassen** oder **Mit URL blockieren** geklickt haben, geben Sie unter **URL** die URL für den Clientdownload ein.
 
-8.  Klicken Sie auf **OK**und dann auf **Commit**.
+8.  Klicken Sie auf **OK** und dann auf **Commit ausführen**.
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183910
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4a0f85e93588e725e825fee22a8c2e95b74095b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6537309f8c2a787c94897fa9f529c1abf8fd4791
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764953"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047938"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scheduling-details-for-meetings-in-lync-server-2013"></a>Planen von Details für Besprechungen in lync Server 2013
+# <a name="scheduling-details-for-meetings-in-lync-server-2013"></a>Planungsdetails für Besprechungen in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41764953"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-04_
+_**Letztes Änderungsstand des Themas:** 2012-10-04_
 
-Nachdem sichergestellt wurde, dass zum angefragten Zeitpunkt keine weitere Besprechung anberaumt ist, planen die zuständigen Supportmitarbeiter die Besprechung im Pool für große Besprechungen ein. Verwenden Sie das Online Besprechungs-Add-in für lync, das mit dem lync Server 2013-Client installiert ist, um diese Aufgabe mithilfe der Anmeldeinformationen eines für lync Server aktivierten Benutzers im dedizierten groß Besprechungs Pool auszuführen.
+Nachdem Sie überprüft haben, um sicherzustellen, dass keine andere Besprechung zum gewünschten Zeitpunkt geplant ist, plant der große Besprechungs Mitarbeiter, der die Anforderung verarbeitet, die Besprechung im großen Besprechungs Pool. Verwenden Sie das Online-Besprechungs-Add-in für lync, das mit dem lync Server 2013-Client installiert ist, um diese Aufgabe auszuführen, wobei die Anmeldeinformationen eines Benutzers verwendet werden, der für lync Server im dedizierten großen Besprechungs Pool aktiviert ist.
 
-Um die bestmögliche Benutzerfreundlichkeit zu erzielen, ist es wichtig, die große Besprechung mit den richtigen Zugriffsebenen und Besprechungseinstellungen zu planen, die den Bedürfnissen des Besprechungsorganisators entsprechen. Wir empfehlen die folgenden Planungseinstellungen, die in den lync-Besprechungsoptionen konfiguriert sind:
+Um die bestmögliche Benutzerfreundlichkeit zu erzielen, ist es wichtig, die große Besprechung mit den richtigen Zugriffsebenen und Besprechungseinstellungen zu planen, die den Bedürfnissen des Besprechungsorganisators entsprechen. Wir empfehlen die folgenden Planungseinstellungen, die in lync-Besprechungsoptionen konfiguriert sind:
 
   - Verwenden Sie einen neuen Besprechungsraum für jede große Besprechung, anstatt den dedizierten Besprechungsraum erneut zu verwenden.
 
   - Geben Sie die Zugriffsebene für die Besprechung wie folgt an:
     
-      - Wenn mindestens eine Einladung außerhalb der Organisation ist, setzen Sie den Besprechungs Zugriffstyp auf " **jeder" (keine Einschränkungen**. Dadurch vermeiden Sie, dass Sie während der laufenden Besprechung einen möglicherweise großen Wartebereich verwalten müssen.
+      - Wenn mindestens ein eingeladener Benutzer nicht zur Organisation gehört, legen Sie den Zugriffstyp für die Besprechung auf **Alle Personen (keine Einschränkungen)** fest. Dadurch vermeiden Sie, dass sie während der laufenden Besprechung einen möglicherweise großen Wartebereich verwalten müssen.
     
       - Wenn die Besprechung nur intern ist, legen Sie den Zugriffstyp für die Besprechung auf **Jeder innerhalb meiner Organisation** fest.
         
@@ -53,7 +53,7 @@ Um die bestmögliche Benutzerfreundlichkeit zu erzielen, ist es wichtig, die gro
         
 
         > [!NOTE]  
-        > Vermeiden Sie die Festlegung des Besprechungszugriffs Typs für Personen, die <STRONG>ich aus meinem Unternehmen einlade</STRONG> , denn wenn Sie diese Einstellung verwenden, müssen Organisatoren alle Benutzer-e-Mail-Adressen zur Liste der eingeladenen hinzufügen, und Sie können keine Verteilergruppe einladen.<BR>Vermeiden Sie es, den Besprechungs Zugriffstyp <STRONG>nur auf ich, den Organisator der Besprechung</STRONG> , festzulegen, da für diese Einstellung erforderlich ist, dass jeder Besprechungsteilnehmer, einschließlich Referenten, zur Besprechungs Laufzeit in die Lobby gestellt wird. Die Person, die für die Ausführung der umfangreichen Besprechung verantwortlich ist, muss die Lobby Liste ständig überwachen und neue Benutzer in der Lobby aufnehmen.
+        > Vermeiden Sie es, den Zugriffstyp für die Besprechung auf <STRONG>Von mir eingeladene Personen in meinem Unternehmen</STRONG> festzulegen. Wenn Sie diese Einstellung verwenden, müssen Besprechungsorganisatoren die E-Mail-Adressen aller Benutzer zur Eingeladenenliste hinzufügen, und Sie können keine Verteilergruppe einladen.<BR>Vermeiden Sie es, den Zugriffstyp für die Besprechung auf <STRONG>Nur ich, der Besprechungsorganisator</STRONG> festzulegen, da diese Einstellung erfordert, dass jeder Besprechungsteilnehmer, auch die Referenten, zur Laufzeit der Besprechung zum Wartebereich hinzugefügt werden muss. Der Verantwortliche für die Durchführung der großen Besprechung muss dann ständig die Wartebereichsliste überwachen und neue Benutzer im Wartebereich zur Besprechung zulassen.
 
         
         </div>
@@ -85,7 +85,7 @@ Um die bestmögliche Benutzerfreundlichkeit zu erzielen, ist es wichtig, die gro
     
 
     > [!NOTE]  
-    > Indem Sie Referenten explizit verwalten, können Sie die Anzahl der Referenten steuern, sodass Sie die Referenten auf eine klein genug Zahl begrenzen können, um eine effektive große Besprechung zu ermöglichen. Wenn die Mehrheit der Besprechungsteilnehmer über die Rolle "Teilnehmer" verfügt, kann dadurch die Wahrscheinlichkeit verringert werden, dass Personen versehentlich die Steuerung der Präsentation übernehmen, eine PowerPoint-Präsentation löschen, Referenten stumm schalten/stumm schalten und andere Unterbrechungen der Besprechung durchführen.
+    > Indem Sie die Referenten explizit verwalten, können Sie ihre Anzahl steuern und auf eine so kleine Zahl begrenzen, dass eine effektive große Besprechung möglich ist. Wenn die Mehrheit der Besprechungsteilnehmer nur eine Teilnehmerrolle hat, verringert sich die Wahrscheinlichkeit, dass Personen versehentlich die Steuerung der Präsentation übernehmen, eine PowerPoint-Präsentation löschen, Referenten stummschalten bzw. die Stummschaltung aufheben oder die Besprechung auf andere Weise stören.
 
     
     </div>
@@ -94,7 +94,7 @@ Um die bestmögliche Benutzerfreundlichkeit zu erzielen, ist es wichtig, die gro
 
   - Aktivieren Sie die Option **Video von Teilnehmern blockieren**, um sicherzustellen, dass nur Referenten Videoinhalte in die Besprechung übertragen können.
 
-Die folgende Abbildung zeigt die empfohlenen Einstellungen für das Online Besprechungs-Add-in für lync.
+In der folgenden Abbildung sind die empfohlenen Einstellungen für das Online-Besprechungs-Add-in für lync dargestellt.
 
 ![54e4e70d-06b0-45cd-8d94-bab649cd5dc0](images/JJ204823.54e4e70d-06b0-45cd-8d94-bab649cd5dc0(OCS.15).jpg "54e4e70d-06b0-45cd-8d94-bab649cd5dc0")
 

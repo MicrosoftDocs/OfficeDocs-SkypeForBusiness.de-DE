@@ -12,16 +12,16 @@ ms:contentKeyID: 48183283
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a720a9bc1245146d816fe3c42bbf8e24020a134
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e0795e29fb52171af32ecbde62a6ecddcfa00931
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747255"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050327"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41747255"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-25_
+_**Letztes Änderungsstand des Themas:** 2012-06-25_
 
-Sie können Best Practices Analyzer verwenden, um Ihre lync Server 2013-Umgebung auf Probleme zu überprüfen und Berichte zu erstellen und die Ergebnisse eines aktuellen oder vorherigen Scans anzuzeigen. Bevor Sie Best Practices Analyzer zum Durchsuchen Ihrer Umgebung ausführen, müssen Sie sicherstellen, dass das Konto, das Sie zum Ausführen des Scans verwenden möchten, über die erforderlichen Rechte und Berechtigungen verfügt und dass alle Installationsvoraussetzungen erfüllt sind.
+Sie können Best Practices Analyzer zum Überprüfen Ihrer lync Server 2013 Umgebung auf Probleme und Erstellen von Berichten sowie zum Anzeigen der Ergebnisse einer aktuellen oder vorherigen Überprüfung verwenden. Bevor Sie Best Practices Analyzer zum Überprüfen Ihrer Umgebung ausführen, müssen Sie sicherstellen, dass das Konto, das Sie zum Ausführen der Überprüfung verwenden möchten, über die erforderlichen Rechte und Berechtigungen verfügt und dass alle Installationsvoraussetzungen erfüllt sind.
 
 <div>
 
@@ -45,7 +45,7 @@ Sie können Best Practices Analyzer verwenden, um Ihre lync Server 2013-Umgebung
 
   - [Gruppenmitgliedschaften und Benutzerrechte Anforderungen für Best Practices Analyzer in lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md)
 
-  - [Voraussetzungen für die Ausführung von Best Practices Analyzer in lync Server 2013](lync-server-2013-requirements-for-running-best-practices-analyzer.md)
+  - [Anforderungen für die Ausführung von Best Practices Analyzer in lync Server 2013](lync-server-2013-requirements-for-running-best-practices-analyzer.md)
 
 </div>
 

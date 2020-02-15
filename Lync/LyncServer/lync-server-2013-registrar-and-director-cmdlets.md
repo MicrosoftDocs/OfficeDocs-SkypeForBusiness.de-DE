@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Registrierungsstellen-und Director-Cmdlets'
+title: 'Lync Server 2013: Cmdlets für Registrierungsstellen und Directors'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5512b80d5860c94d379c5c5d43e51cdb8ac5177
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc457a8b37f515a85ff9de32ab8922e8dd6ac93b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746855"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050737"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="registrar-and-director-cmdlets-in-lync-server-2013"></a>Registrierungsstellen-und Director-Cmdlets in lync Server 2013
+# <a name="registrar-and-director-cmdlets-in-lync-server-2013"></a>Cmdlets für Registrierungsstellen und Directors in lync Server 2013
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "41746855"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-09_
+_**Letztes Änderungsstand des Themas:** 2012-10-09_
 
-Registrierungsstellen und Directors werden zum Authentifizieren von Anmeldeanforderungen und zum Verwalten von Informationen über den Benutzerstatus und die Verfügbarkeit verwendet. Mit den Cmdlets Registrar und Director können Sie die Konfigurationseinstellungen für diese Server verwalten.
+Registrierungen und Directors dienen zum Authentifizieren von Anmeldeanforderungen und zum Verwalten von Informationen zu Status und Verfügbarkeit von Benutzern. Die Cmdlets für Registrierung und Directors ermöglichen Ihnen das Verwalten von Konfigurationseinstellungen für diese Server.
 
 <div>
 
-## <a name="registrar-and-director-cmdlets"></a>Registrierungsstellen-und Director-Cmdlets
+## <a name="registrar-and-director-cmdlets"></a>Cmdlets für Registrierung und Directors
 
-Die folgende Liste enthält Cmdlets, die sich direkt auf die Verwaltung von Registrierungsstellen und Directors beziehen:
+In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Verwaltung von Registrierung und Directors eingesetzt werden:
 
-**Registratoren und Direktoren**
+**Registrierungen und Directors**
 
   - <span></span>  
-    [Satz-CsDirector](https://technet.microsoft.com/en-us/library/Gg398565(v=OCS.15))
+    [Gruppe-CsDirector](https://technet.microsoft.com/library/Gg398565(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Reset-CsPoolRegistrarState](https://technet.microsoft.com/en-us/library/JJ619172(v=OCS.15))
+    [Reset-CsPoolRegistrarState](https://technet.microsoft.com/library/JJ619172(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Satz-CsRegistrar](https://technet.microsoft.com/en-us/library/Gg398993(v=OCS.15))
+    [Gruppe-CsRegistrar](https://technet.microsoft.com/library/Gg398993(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsRegistrarConfiguration](https://technet.microsoft.com/en-us/library/Gg398483(v=OCS.15))
+    [Get-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398483(v=OCS.15))
 
   - <span></span>  
-    [Neu – CsRegistrarConfiguration](https://technet.microsoft.com/en-us/library/Gg425893(v=OCS.15))
+    [New-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg425893(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsRegistrarConfiguration](https://technet.microsoft.com/en-us/library/Gg398482(v=OCS.15))
+    [Remove-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398482(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsRegistrarConfiguration](https://technet.microsoft.com/en-us/library/Gg398764(v=OCS.15))
+    [Gruppe-CsRegistrarConfiguration](https://technet.microsoft.com/library/Gg398764(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsRegistration](https://technet.microsoft.com/en-us/library/Gg412737(v=OCS.15))
+    [Test-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15))
 
 </div>
 

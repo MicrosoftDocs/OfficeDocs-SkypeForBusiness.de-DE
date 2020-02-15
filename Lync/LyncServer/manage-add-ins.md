@@ -12,16 +12,16 @@ ms:contentKeyID: 48185204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55a14e84404d11f4b52bc6438991ae070ca8806a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 11b30c4edba62873eddf89ce1967e9d158fee1bd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757179"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048496"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757179"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-06_
+_**Letztes Änderungsstand des Themas:** 2012-10-06_
 
-So erstellen Sie ein neues Add-in für beständigen Chat Server
+So erstellen Sie ein neues Add-in für den beständigen Chat Server
 
     New-CsPersistentChatAddin -Name Contoso -PersistentChatPoolFqdn client.contoso.com -Url http://contoso.com 
 
 <div>
 
-## <a name="create-get-set-or-remove-an-add-in"></a>Erstellen, abrufen, einrichten oder Entfernen eines Add-ins
+## <a name="create-get-set-or-remove-an-add-in"></a>Add-In erstellen, abrufen, festlegen oder entfernen
 
 So erstellen Sie ein neues Add-in
 
@@ -53,13 +53,13 @@ So erstellen Sie ein neues Add-in
 
 
 > [!IMPORTANT]  
-> PersistentChatPoolFqdn &lt;-&gt; Zeichenfolge ist nur erforderlich, wenn mehr als ein beständiger Chat Server Pool vorhanden ist.
+> PersistentChatPoolFqdn &lt;-&gt; Zeichenfolge ist nur erforderlich, wenn es mehr als einen Server Pool für beständigen Chat gibt.
 
 
 
 </div>
 
-So erhalten Sie ein Add-in
+So rufen Sie ein Add-in ab
 
     Get-CsPersistentChatAddin -Identity <String>]
 
@@ -67,7 +67,7 @@ oder
 
     Get-CsPersistentChatAddin -PersistentChatPoolFqdn <String>
 
-So setzen Sie ein Add-in
+So legen Sie ein Add-in fest
 
     Set-CsPersistentChatAddIn -Instance <AddinObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 

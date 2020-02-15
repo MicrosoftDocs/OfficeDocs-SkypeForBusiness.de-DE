@@ -12,20 +12,20 @@ ms:contentKeyID: 48183298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bc19c35893b12aae7842be5fc474f7831b7f979
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0679915e73061e550e01c0809fd5c5b20b566ff6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724395"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050717"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="registration-table-in-lync-server-2013"></a>Registration-Tabelle in Lync Server 2013
+# <a name="registration-table-in-lync-server-2013"></a>Registrierungstabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41724395"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Jeder Datensatz steht für ein Benutzer Registrierungs Ereignis.
+Jeder Datensatz stellt ein Benutzerregistrierungsereignis dar.
 
 
 <table>
@@ -58,18 +58,18 @@ Jeder Datensatz steht für ein Benutzer Registrierungs Ereignis.
 <tbody>
 <tr class="odd">
 <td><p><strong>SessionID</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Uhrzeit der Sitzungsanforderung. Wird in Verbindung mit <strong>SessionIdSeq</strong> verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle Dialogfelder in lync Server 2013</a> .</p></td>
+<td><p>Datum/Uhrzeit</p></td>
+<td><p>Primär, Fremd</p></td>
+<td><p>Zeitpunkt der Sitzungsanforderung. Wird zusammen mit <strong>SessionIdSeq</strong> verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit <strong>SessionID</strong> -Mal verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle Dialogfelder in lync Server 2013</a> .</p></td>
+<td><p>Primary, Foreign</p></td>
+<td><p>ID zur Identifikation der Sitzung. Wird zusammen mit <strong>SessionIdTime</strong> verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserID</strong></p></td>
+<td><p><strong>UserId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
 <td><p>Die Benutzer-ID. Weitere Informationen finden Sie <a href="lync-server-2013-users-table.md">in der Tabelle Benutzer in lync Server 2013</a> .</p></td>
@@ -78,23 +78,23 @@ Jeder Datensatz steht für ein Benutzer Registrierungs Ereignis.
 <td><p><strong>EndpointId</strong></p></td>
 <td><p>uniqueidentifier</p></td>
 <td></td>
-<td><p>Eine GUID, um einen Registrierungs Endpunkt zu identifizieren. In der Regel verfügt das Register-Ereignis vom gleichen Computer desselben Benutzers über die gleiche Endpunkt-ID. Unterschiedliche Computer verfügen über eine andere Endpunkt-ID.</p></td>
+<td><p>Eine GUID (Globally Unique Identifier) zur Kennzeichnung eines Registrierungsendpunkts. In der Regel hat jedes Registrierungsereignis vom gleichen Computer des gleichen Benutzers die gleiche Endpunkt-ID. Verschiedene Computer haben unterschiedliche Endpunkt-IDs.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EndpointEra</strong></p></td>
 <td><p>uniqueIdentifier</p></td>
 <td></td>
-<td><p>Die ID, mit der Registrierungen unterschieden werden, die denselben Benutzer und denselben Endpunkt einbeziehen.</p>
+<td><p>ID zum Unterscheiden von Registrierungen, die denselben Benutzer und denselben Endpunkt betreffen.</p>
 <p>Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ClientVersionId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Client Version des aktuellen Benutzers. Weitere Informationen finden Sie <a href="lync-server-2013-clientversions-table.md">in der ClientVersions-Tabelle in lync Server 2013</a> .</p></td>
+<td><p>Die Clientversion des aktuellen Benutzers. Weitere Informationen finden Sie <a href="lync-server-2013-clientversions-table.md">in der Client Versions-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Registrator</strong></p></td>
+<td><p><strong>Registrierungsstelle</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
 <td><p>Die ID des Registrierungsservers, der für die Registrierung verwendet wird. Weitere Informationen finden Sie <a href="lync-server-2013-servers-table.md">in der Tabelle Server in lync Server 2013</a> .</p></td>
@@ -103,80 +103,80 @@ Jeder Datensatz steht für ein Benutzer Registrierungs Ereignis.
 <td><p><strong>Pool-Nr</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Die ID des Pools, in dem die Sitzung erfasst wurde. Weitere Informationen finden Sie <a href="lync-server-2013-pools-table.md">in der Tabelle Pools in lync Server 2013</a> .</p></td>
+<td><p>ID des Pools, in dem die Sitzung erfasst wurde. Weitere Informationen finden Sie <a href="lync-server-2013-pools-table.md">in der Tabelle Pools in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EdgeServerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Edge-Server die Registrierung wird durchlaufen. Weitere Informationen finden Sie <a href="lync-server-2013-edgeservers-table.md">in der EdgeServers-Tabelle in lync Server 2013</a> .</p></td>
+<td><p>Der Edgeserver, über den die Registrierung läuft. Weitere Informationen finden Sie <a href="lync-server-2013-edgeservers-table.md">in der EdgeServers-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>"IsInternal</strong></p></td>
+<td><p><strong>IsInternal</strong></p></td>
 <td><p>Bit</p></td>
 <td></td>
-<td><p>Gibt an, ob der Benutzer intern angemeldet ist oder nicht.</p></td>
+<td><p>Ob der Benutzer von innerhalb angemeldet ist oder nicht.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsUserServiceAvailable</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td></td>
-<td><p>Gibt an, ob die UserService verfügbar ist.</p></td>
+<td><p>Ob der Benutzerdienst verfügbar ist oder nicht.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IsPrimaryRegistrar</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td></td>
-<td><p>Ob Sie sich bei der primären Registrierungsstelle registrieren oder nicht.</p></td>
+<td><p>Ob die Registrierung bei der primären Registrierung erfolgt oder nicht.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsPrimaryRegistrarCentral</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td></td>
-<td><p>Gibt an, ob der Benutzer bei einer Survivable Branch-Appliance registriert ist.</p>
+<td><p>Gibt an, ob der Benutzer mit einer Survivable Branch Appliance registriert ist.</p>
 <p>Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Registrierung</strong></p></td>
-<td><p>datetime</p></td>
+<td><p><strong>Registerzeit</strong></p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td></td>
-<td><p>Registrierungszeit.</p></td>
+<td><p>Der Zeitpunkt der Registrierung.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Registrierung</strong></p></td>
-<td><p>datetime</p></td>
+<td><p><strong>Deregisterzeit</strong></p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td></td>
-<td><p>Zeit für die Registrierung.</p></td>
+<td><p>Der Zeitpunkt der Aufhebung der Registrierung.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Response Code</strong></p></td>
+<td><p><strong>ResponseCode</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Antwortcode der Registrierungsanforderung.</p></td>
+<td><p>Der Antwortcode der Registrierungsanforderung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Diagnose-Nr</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Diagnose-ID der Registrierungsanforderung. Dies gibt an, dass der Typ der diagnostischen Informationen.</p></td>
+<td><p>Die Diagnose-ID der Registrierungsanforderung. Diese gibt den Diagnoseinformationstyp an.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceID</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Das Gerät, von dem die Registrierungsanforderung stammt. Weitere Informationen finden Sie <a href="lync-server-2013-devices-table.md">in der Tabelle Devices in lync Server 2013</a> .</p></td>
+<td><p>Das Gerät, von dem die Registrierungsanforderung stammt. Weitere Informationen finden Sie <a href="lync-server-2013-devices-table.md">in der Tabelle "Geräte" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeRegisterTypeId</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Fremd</p></td>
-<td><p>Der Grund für die Deregistrierung, wie "Benutzer initiiert", "Registrierung abgelaufen", "Client Fehler" und vieles mehr. Weitere Informationen finden Sie <a href="lync-server-2013-deregistertype-table.md">in der Tabelle deregistertype in lync Server 2013</a> .</p></td>
+<td><p>Der Grund für die Aufhebung der Registrierung, z. B. vom Benutzer initiiert, Registrierung abgelaufen, Fehler beim Client usw. Weitere Informationen finden Sie <a href="lync-server-2013-deregistertype-table.md">in der deregistertype-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IPAddress</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
-<td><p>Die IP-Adresse des Endpunkts, bei dem der Benutzer registriert ist. Dies kann eine IPv4-Adresse oder eine IPv6-Adresse sein.</p>
+<td><p>IP-Adresse des Endpunkts, mit dem sich der Benutzer registriert hat. Dies kann eine IPv4- oder eine IPv6-Adresse sein.</p>
 <p>Dieses Feld wurde in Microsoft lync Server 2013 eingeführt.</p></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anzeigen von Netzwerk-Subnetz-Informationen'
+title: 'Lync Server 2013: Anzeigen von Informationen zum Netzwerk-Subnetz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733636
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8609c2254084a1693f909692349176928d28ec92
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 45510f596e953fd322f1df06d8deefa78a2a6569
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757249"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046358"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-subnet-information-in-lync-server-2013"></a>Anzeigen von Netzwerk-Subnetz-Informationen in lync Server 2013
+# <a name="viewing-network-subnet-information-in-lync-server-2013"></a>Anzeigen von Informationen zum Netzwerk-Subnetz in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41757249"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Sie können das folgende Verfahren verwenden, um ein Netzwerk-Subnetz anzuzeigen. In der lync Server-Systemsteuerung können Sie ein Netzwerk-Subnetz erstellen, ändern oder löschen. Details zum Erstellen oder Ändern von Netzwerk-Subnetzen finden Sie unter Erstellen oder Ändern von Netzwerk-Subnetzen [in lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md).
+Mit dem folgenden Verfahren können Sie ein Netzwerksubnetz anzeigen. Im lync Server-Systemsteuerung können Sie ein Netzwerk-Subnetz erstellen, ändern oder löschen. Ausführliche Informationen zum Erstellen oder Ändern von Netzwerksubnetzen finden Sie unter [Create or Modify Network subsubnets in lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md).
 
 <div>
 
-## <a name="to-view-a-network-subnet"></a>So zeigen Sie ein Netzwerk-Subnetz an
+## <a name="to-view-a-network-subnet"></a>So zeigen Sie ein Netzwerksubnetz an
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder gleichwertige Benutzerrechte hat) oder der CsAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Subnetz**.
 
@@ -55,30 +55,30 @@ Sie können das folgende Verfahren verwenden, um ein Netzwerk-Subnetz anzuzeigen
     
 
     > [!NOTE]  
-    > Sie können jeweils nur ein Subnetz anzeigen.
+    > Sie können nur jeweils ein Subnetz anzeigen.
 
     
     </div>
 
-5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**....
+5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
 </div>
 
 <div>
 
-## <a name="viewing-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerk-Subnet-Konfigurationsinformationen mithilfe von Windows PowerShell-Cmdlets
+## <a name="viewing-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerk-Subnetz-Konfigurationsinformationen mithilfe von Windows PowerShell-Cmdlets
 
-Netzwerk-Subnetz-Informationen können mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkSubnet angezeigt werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Informationen zum Netzwerk-Subnetz können mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkSubnet angezeigt werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
 ## <a name="to-view-network-subnet-information"></a>So zeigen Sie Netzwerk-Subnetz-Informationen an
 
-  - Wenn Sie Informationen zu allen Netzwerk-Subnetzen anzeigen möchten, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
+  - Geben Sie zum Anzeigen von Informationen zu allen Netzwerksubnetzen den folgenden Befehl in das lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsNetworkSubnet
     
-    Es werden etwa folgende Informationen zurückgegeben:
+    Hiermit werden Informationen zurückgegeben, die so oder ähnlich aussehen:
     
         Identity      : 172.11.15.0
         MaskBits      : 28
@@ -88,7 +88,7 @@ Netzwerk-Subnetz-Informationen können mithilfe von Windows PowerShell und dem C
 
 </div>
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet) .
+Weitere Informationen finden Sie im Hilfethema für das Cmdlet [Get-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet).
 
 </div>
 
@@ -98,7 +98,7 @@ Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsNetworkSubnet](
 
 
 [Erstellen oder Ändern von Netzwerk-Subnetzen in lync Server 2013](lync-server-2013-create-or-modify-network-subnets.md)  
-[Löschen von Netzwerk-Subnetzen in lync Server 2013](lync-server-2013-deleting-network-subnets.md)  
+[Löschen von Netzwerk Subnetzen in lync Server 2013](lync-server-2013-deleting-network-subnets.md)  
   
 
 </div>

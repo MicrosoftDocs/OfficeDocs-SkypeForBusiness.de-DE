@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planen und Bereitstellen von Unified Contact Store'
+title: 'Lync Server 2013: Planen und Bereitstellen des einheitlichen Kontaktspeichers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9685902f44793ba2cd446827ef13e88266b548af
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2fe98de82378b84c75f538e34bd2ce768a4ceb9b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725615"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050787"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-and-deploying-unified-contact-store-in-lync-server-2013"></a>Planen und Bereitstellen von Unified Contact Store in lync Server 2013
+# <a name="planning-and-deploying-unified-contact-store-in-lync-server-2013"></a>Planen und Bereitstellen des einheitlichen Kontaktspeichers in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41725615"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-14_
+_**Letztes Änderungsstand des Themas:** 2012-06-14_
 
-Der Unified Contact Store ist eine Funktion, die eine konsistente Kontakt Umgebung für Microsoft Office-Produkte bietet. Dieses Feature ermöglicht Benutzern, alle Kontaktinformationen in Exchange 2013 zu speichern, damit die Informationen Global in lync, Exchange, Outlook und Outlook Web Access zur Verfügung stehen.
+Beim einheitlichen Kontaktspeicher handelt es sich um ein Feature, das ein einheitliches Arbeiten mit Kontakten in allen Microsoft Office-Produkten ermöglicht. Mit diesem Feature können Benutzer alle Kontaktinformationen in Exchange 2013 speichern, sodass die Informationen Global in lync, Exchange, Outlook und Outlook Web Access zur Verfügung stehen.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Anforderungen für den einheitlichen Kontaktspeicher in Lync Server 2013](lync-server-2013-requirements-for-unified-contact-store.md)
+  - [Anforderungen für den einheitlichen Kontaktspeicher in lync Server 2013](lync-server-2013-requirements-for-unified-contact-store.md)
 
-  - [Bereitstellen des einheitlichen Kontaktspeichers in Lync Server 2013](lync-server-2013-deploying-unified-contact-store.md)
+  - [Bereitstellen des einheitlichen Kontaktspeichers in lync Server 2013](lync-server-2013-deploying-unified-contact-store.md)
 
 </div>
 

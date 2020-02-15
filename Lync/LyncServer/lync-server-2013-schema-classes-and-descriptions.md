@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Schema Klassen und Beschreibungen'
+title: 'Lync Server 2013: Schema Klassen und-Beschreibungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5080af0977457f5c4a75d2f121e75560b0f24524
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3063e0dd6288f4b9248c93de57a6182a7ab20a8f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764933"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049397"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41764933"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-30_
+_**Letztes Änderungsstand des Themas:** 2012-10-30_
 
-In diesem Abschnitt werden alle von lync Server 2013 verwendeten Schemaklassen beschrieben.
+In diesem Abschnitt werden alle Schemaklassen beschrieben, die von lync Server 2013 verwendet werden.
 
 <div>
 
-## <a name="schema-classes-and-descriptions"></a>Schema Klassen und Beschreibungen
+## <a name="schema-classes-and-descriptions"></a>Schemaklassen und Beschreibungen
 
 
 <table>
@@ -54,313 +54,313 @@ In diesem Abschnitt werden alle von lync Server 2013 verwendeten Schemaklassen b
 <tr class="header">
 <th>Klasse</th>
 <th>Beschreibung</th>
-<th>Kommentare</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>E-Mail-Empfänger</p></td>
-<td><p>Exchange Unified Messaging (um)-e-Mail-Empfänger.</p></td>
-<td><p>Diese Auxiliary-Klasse wird für Exchange um freigegeben.</p></td>
+<td><p>Mail-Recipient</p></td>
+<td><p>Exchange Unified Messaging (um) e-Mail-Empfänger.</p></td>
+<td><p>Diese Erweiterungsklasse wird für Exchange um freigegeben.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-ApplicationContacts</p></td>
-<td><p>Diese Klasse ist ein Container für mehrere Anwendungskontakte und enthält keine Attribute selbst.</p></td>
+<td><p>msRTCSIP-ApplicationContacts</p></td>
+<td><p>Diese Klasse ist ein Container für mehrere Anwendungskontakte und enthält selbst keine Attribute.</p></td>
 <td><p>Neu in Microsoft Office Communications Server 2007 R2.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-ApplicationServer</p></td>
-<td><p>Diese Klasse enthält den Eintrag für den Dienst Kontrollpunkt für eine Instanz von Unified Communications Application Services (UCAS).</p></td>
+<td><p>msRTCSIP-ApplicationServer</p></td>
+<td><p>Diese Klasse enthält den Eintrag für den Dienststeuerungspunkt für eine Instanz von Unified Communications-Anwendungsdiensten.</p></td>
 <td><p>Neu in Office Communications Server 2007 R2.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-ApplicationServerService</p></td>
-<td><p>Diese Klasse stellt eine Zuordnung von einem bestimmten Pool zu seinem Anwendungsdienst bereit.</p></td>
+<td><p>msRTCSIP-ApplicationServerService</p></td>
+<td><p>Diese Klasse stellt eine Zuordnung zwischen einem bestimmten Pool und dem Anwendungsdienst bereit.</p></td>
 <td><p>Neu in Communications Server 2007 R2.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-ApplicationServerSettings</p></td>
-<td><p>Diese Auxiliary-Klasse für Attribut msRTCSIP-ApplicationServer enthält Attribute, die Einstellungen für Instanzen des Anwendungsdiensts darstellen.</p></td>
+<td><p>msRTCSIP-ApplicationServerSettings</p></td>
+<td><p>Diese Auxiliary-Klasse für msRTCSIP-ApplicationServer hält Attribute, die Einstellungen für Instanzen des Anwendungsdienst darstellen.</p></td>
 <td><p>Neu in Communications Server 2007 R2.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-Archiv (veraltet)</p></td>
-<td><p>Diese Auxiliary-Klasse für Attribut msRTCSIP-Global Container enthält alle Einstellungen im Zusammenhang mit der Archivierung.</p></td>
+<td><p>msRTCSIP-Archive (veraltet)</p></td>
+<td><p>Diese Erweiterungsklasse zu "msRTCSIP-GlobalContainer" enthält alle Einstellungen, die sich auf die Archivierung beziehen.</p></td>
 <td><p>In lync Server 2010 veraltet.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-ArchivingServer (veraltet)</p></td>
-<td><p>Diese Klasse stellt einen einzelnen Instant Messaging-Archivierungs Server dar. Eine Instanz dieser Klasse wird erstellt, wenn ein Computer als Instant Messaging-Archivierungs Server aktiviert wird, beispielsweise einen Computer, auf dem der Instant Messaging-Archivierungsdienst installiert ist.</p></td>
+<td><p>msRTCSIP-ArchivingServer (veraltet)</p></td>
+<td><p>Diese Klasse stellt einen einzelnen Instant Messaging-Archivierungsserver dar. Eine Instanz dieser Klasse wird erstellt, wenn ein Computer als Instant Messaging-Archivierungsserver (z. B. ein Computer, auf dem der Instant Messaging-Archivierungsdienst installiert ist) aktiviert wird.</p></td>
 <td><p>In lync Server 2010 veraltet.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-ConferenceDirectories</p></td>
-<td><p>Diese Klasse ist ein Container für mehrere Instanzen von Konferenz Verzeichnissen und enthält keine Attribute selbst.</p></td>
+<td><p>msRTCSIP-conferencedirectories "</p></td>
+<td><p>Diese Klasse ist ein Container für mehrere Instanzen von Konferenzverzeichnissen und enthält selbst keine Attribute.</p></td>
 <td><p>Neu in Communications Server 2007 R2.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-ConferenceDirectory</p></td>
+<td><p>msRTCSIP-ConferenceDirectory</p></td>
 <td><p>Diese Klasse enthält Attribute, die Einstellungen für ein bestimmtes Konferenzverzeichnis darstellen.</p></td>
 <td><p>Neu in Communications Server 2007 R2.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-ConnectionPoint</p></td>
-<td><p>Generic Service Control Point (SCP), um den Computer als einen Server mit lync Server festzulegen.</p></td>
+<td><p>msRTCSIP-ConnectionPoint</p></td>
+<td><p>Allgemeiner Dienststeuerungspunkt (Service Control Points, SCP) zum Angeben des Computers als Server mit lync Server.</p></td>
 <td><p>Neu in lync 2010.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-DefaultCWABank</p></td>
-<td><p>Diese Auxiliary-Klasse enthält die Einstellungen für eine Microsoft lync Web App-Bank.</p></td>
+<td><p>msRTCSIP-DefaultCWABank</p></td>
+<td><p>Diese Auxiliary-Klasse beinhaltet die Einstellungen für eine Microsoft lync Web App Bank.</p></td>
 <td><p>Neu in Communications Server 2007 R2.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-Domäne</p></td>
-<td><p>Diese Klasse enthält Attribute, die die konfigurierten Domänen der SIP-Registrierungsstelle definieren.</p></td>
+<td><p>msRTCSIP-Domäne</p></td>
+<td><p>Diese Klasse enthält Attribute, die die konfigurierten Domänen der SIP-Registrierung definieren.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-EdgeProxy</p></td>
-<td><p>Dieser Klassencontainer stellt einen einzelnen Access-Edgedienst dar. Da ein Access-Edgedienst im Umkreisnetzwerk bereitgestellt wird und Kunden in der Regel keinen Zugriff auf Active Directory-Domänendienste aus dem Umkreisnetzwerk zulassen, sind Instanzen des Access-Edgedienst nicht dem Active Directory-Netzwerk des Intranets beigetreten. Daher werden Zugriffsproxys nicht automatisch in AD DS registriert. Der Administrator muss das vorhanden sein jeder Instanz von Access Edge Service in AD DS manuell konfigurieren.</p></td>
+<td><p>msRTCSIP-EdgeProxy</p></td>
+<td><p>Dieser Klassencontainer stellt einen einzelnen Zugriffs-Edgedienst dar. Da ein Zugriffs-Edgedienst im Umkreisnetzwerk bereitgestellt wird und Kunden normalerweise nicht Active Directory-Domänendienste Zugriff aus dem Umkreisnetzwerk zulassen, werden Instanzen von Zugriffs-Edgedienst nicht mit dem Active Directory Netzwerk des Intranets verbunden. Somit werden Zugriffsproxys nicht automatisch in AD DS registriert. Der Administrator muss das vorhanden sein jeder Instanz von Zugriffs-Edgedienst in AD DS manuell konfigurieren.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-EnterpriseMCUSettings</p></td>
-<td><p>Diese Erweiterungsklasse für Attribut msRTCSIP-MCU enthält Attribute, die Einstellungen für Konferenzserver darstellen.</p></td>
+<td><p>msRTCSIP-EnterpriseMCUSettings</p></td>
+<td><p>Diese Erweiterungsklasse zu "msRTCSIP-MCU" enthält Attribute, die Einstellungen für Konferenzserver darstellen.</p></td>
 <td><p>Neu in Microsoft Office Communications Server 2007.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-EnterpriseMediationServerSettings</p></td>
-<td><p>Diese Auxiliary-Klasse für Attribut msRTCSIP-MediationServer enthält Attribute, die Einstellungen für Vermittlungsserver darstellen.</p></td>
+<td><p>msRTCSIP-EnterpriseMediationServerSettings</p></td>
+<td><p>Diese Erweiterungsklasse zu "msRTCSIP-MediationServer" enthält Attribute, die Einstellungen für Vermittlungsserver darstellen.</p></td>
 <td><p>Neu in Office Communications Server 2007.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-EnterpriseServerSettings</p></td>
-<td><p>Diese Auxiliary-Klasse für Attribut msRTCSIP-Server enthält Attribute, die Einstellungen für SIP-Server darstellen.</p></td>
+<td><p>msRTCSIP-EnterpriseServerSettings</p></td>
+<td><p>Diese Erweiterungsklasse zu "msRTCSIP-Server" enthält Attribute, die Einstellungen für SIP-Server darstellen.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-Federation</p></td>
-<td><p>Diese Auxiliary-Klasse für Attribut msRTCSIP-Global Container enthält alle Einstellungen, die sich auf den Verbund beziehen.</p></td>
+<td><p>msRTCSIP-Partnerverbund</p></td>
+<td><p>Diese Erweiterungsklasse zu "msRTCSIP-GlobalContainer" enthält alle Einstellungen, die sich auf den Partnerverbund beziehen.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-Global Container</p></td>
-<td><p>Diese Klasse enthält alle Einstellungen, die in einer lync Server-Bereitstellung gelten.</p></td>
+<td><p>msRTCSIP-Global Container</p></td>
+<td><p>Diese Klasse umfasst alle Einstellungen, die in einer lync Server-Bereitstellung gelten.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-GlobalUserPolicy (veraltet)</p></td>
-<td><p>Diese Klasse stellt eine einzelne Office Communications Server-Besprechungsrichtlinie dar.</p></td>
+<td><p>msRTCSIP-GlobalUserPolicy (veraltet)</p></td>
+<td><p>Diese Klasse stellt eine einzelne Office Communications Server Besprechungsrichtlinie dar.</p></td>
 <td><p>In lync Server 2010 veraltet.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-GlobalTopologySetting</p></td>
-<td><p>Das Setting-Objekt der lokalen globalen Topologie.</p></td>
+<td><p>msRTCSIP-GlobalTopologySetting</p></td>
+<td><p>Das lokale Einstellungsobjekt für die globale Topologie.</p></td>
 <td><p>Neu in lync Server 2010.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-GlobalTopologySettings</p></td>
-<td><p>Container, in dem globale Topologie-Einstellungsobjekte enthalten sind.</p></td>
+<td><p>msRTCSIP-GlobalTopologySettings</p></td>
+<td><p>Container mit Einstellungsobjekten für die globale Topologie.</p></td>
 <td><p>Neu in lync Server 2010.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-LocalNormalization</p></td>
-<td><p>Diese Klasse ist ein Container, der eine Instanz einer Standort Normalisierungsregel darstellt.</p></td>
+<td><p>msRTCSIP-LocalNormalization</p></td>
+<td><p>Diese Klasse ist ein Container und stellt eine Instanz einer Standortnormalisierungsregel dar.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-LocationContactMapping</p></td>
-<td><p>Diese Klasse wird von der Conferencing Attendant-Anwendung erstellt und enthält Attribute, mit denen Konferenz Telefonnummern nach Regionen kategorisiert werden.</p></td>
+<td><p>msRTCSIP-LocationContactMapping</p></td>
+<td><p>Diese Klasse wird vom Konferenzzentrale erstellt und hält Attribute, die zum Kategorisieren von Konferenztelefon Nummern nach Regionen verwendet werden.</p></td>
 <td><p>Neu in Communications Server 2007 R2.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-LocationContactMappings</p></td>
-<td><p>Diese Klasse ist ein Container für mehrere Instanzen von Standortkontaktzuordnungen und enthält keine Attribute selbst.</p></td>
+<td><p>msRTCSIP-LocationContactMappings</p></td>
+<td><p>Diese Klasse ist ein Container für mehrere Instanzen von Standortkontaktzuordnungen und enthält selbst keine Attribute.</p></td>
 <td><p>Neu in Communications Server 2007 R2.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-LocationProfile</p></td>
-<td><p>Diese Klasse ist ein Container, der ein bestimmtes Standortprofil darstellt.</p></td>
+<td><p>msRTCSIP-LocationProfile</p></td>
+<td><p>Diese Klasse ist ein Container und stellt ein bestimmtes Standortprofil dar.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-LocationProfiles (veraltet)</p></td>
-<td><p>Diese Klasse ist ein Container für mehrere Standortprofile und enthält keine Attribute selbst.</p></td>
+<td><p>msRTCSIP-LocationProfiles (veraltet)</p></td>
+<td><p>Diese Klasse ist ein Container für mehrere Standortprofile und enthält selbst keine Attribute.</p></td>
 <td><p>In lync Server 2010 veraltet.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-LocalNormalizations (veraltet)</p></td>
-<td><p>Diese Klasse ist ein Container für mehrere lokale Normalisierungsregeln und enthält keine Attribute selbst.</p></td>
+<td><p>msRTCSIP-LocalNormalizations (veraltet)</p></td>
+<td><p>Diese Klasse ist ein Container für mehrere lokale Normalisierungsregeln und enthält selbst keine Attribute.</p></td>
 <td><p>In lync Server 2010 veraltet.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-MCU</p></td>
+<td><p>msRTCSIP-MCU</p></td>
 <td><p>Diese Klasse stellt einen einzelnen Konferenzserver dar.</p></td>
 <td><p>Neu in Communications Server 2007.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-MCUFactories</p></td>
-<td><p>Diese Klasse enthält mehrere Attribut msRTCSIP-MCUFactory-Klassen und besitzt keine Attribute selbst.</p></td>
+<td><p>msRTCSIP-MCUFactories</p></td>
+<td><p>Diese Klasse enthält mehrere msRTCSIP-MCUFactory-Klassen und weist selbst keine Attribute auf.</p></td>
 <td><p>Neu in Communications Server 2007.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-MCUFactory</p></td>
-<td><p>Bei dieser Klasse handelt es sich um einen Container, der eine Konferenz Server Factory für einen einzelnen Medientyp darstellt. Eine Instanz dieser Klasse wird erstellt, wenn der erste Konferenzserver für diesen bestimmten Typ und Lieferanten aktiviert ist.</p></td>
+<td><p>msRTCSIP-MCUFactory</p></td>
+<td><p>Diese Klasse ist ein Container und stellt eine Zuordnungsinstanz für Konferenzserver für einen einzelnen Medientyp dar. Eine Instanz dieser Klasse wird erstellt, sobald der erste Konferenzserver für diesen spezifischen Typ und Hersteller aktiviert wird.</p></td>
 <td><p>Neu in Communications Server 2007.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-MCUFactoryService</p></td>
-<td><p>Diese Klasse stellt eine Zuordnung von einem bestimmten Pool zu seiner Konferenz Server Factory bereit.</p></td>
+<td><p>msRTCSIP-MCUFactoryService</p></td>
+<td><p>Diese Klasse stellt eine Zuordnung zwischen einem bestimmten Pool und der dazugehörigen Zuordnungsinstanz für Konferenzserver bereit.</p></td>
 <td><p>Neu in Communications Server 2007.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-MediationServer</p></td>
-<td><p>Diese Klasse enthält den Eintrag für den Dienst Kontrollpunkt für einen Vermittlungs Server.</p></td>
+<td><p>msRTCSIP-MediationServer</p></td>
+<td><p>Diese Klasse enthält den Eintrag für den Dienststeuerungspunkt eines Vermittlungsservers.</p></td>
 <td><p>Neu in Communications Server 2007.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-Besprechung (veraltet)</p></td>
-<td><p>Diese Auxiliary-Klasse für Attribut msRTCSIP-Global Container enthält Attribute, die konfigurierbare Besprechungseinstellungen darstellen.</p></td>
+<td><p>msRTCSIP-Meeting (veraltet)</p></td>
+<td><p>Diese Erweiterungsklasse zu "msRTCSIP-GlobalContainer" enthält Attribute, die konfigurierbare Besprechungseinstellungen darstellen.</p></td>
 <td><p>In lync Server 2010 veraltet.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP – Mobilität</p></td>
-<td><p>Container, in dem die globalen Mobilitätseinstellungen gespeichert sind.</p></td>
+<td><p>msRTCSIP-Mobilität</p></td>
+<td><p>Container zum Speichern der globalen Mobilitätseinstellungen.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-MonitoringServer</p></td>
-<td><p>Diese Klasse enthält Attribute, die Einstellungen für einen einzelnen Überwachungs Server darstellen.</p></td>
+<td><p>msRTCSIP-MonitoringServer</p></td>
+<td><p>Diese Klasse umfasst Attribute, die Einstellungen für einen einzelnen Monitoring Server darstellen.</p></td>
 <td><p>Neu in Communications Server 2007 R2.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-PhoneRoute (veraltet)</p></td>
-<td><p>Bei dieser Klasse handelt es sich um einen Container, der eine Instanz einer Least Cost-Route zu einem Gateway oder einer Gruppe von Gateways darstellt. Diese Informationen werden von allen Enterprise-Pools oder Servern mit Standard Edition verwendet, um ausgehende Anrufe auf die kostengünstigste Weise an das öffentlich geschaltete Telefonnetz (PSTN) weiterzuleiten.</p></td>
+<td><p>msRTCSIP-PhoneRoute (veraltet)</p></td>
+<td><p>Diese Klasse ist ein Container und stellt eine Instanz einer Least-Cost-Route zu einem Gateway oder einem Satz mehrerer Gateways dar. Diese Informationen werden von allen Enterprise-Pools oder Standard Edition-Servern verwendet, um ausgehende Gespräche möglichst kosteneffizient an das PSTN-Netzwerk weiterzuleiten.</p></td>
 <td><p>In lync Server 2010 veraltet.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-PhoneRoutes (veraltet)</p></td>
-<td><p>Diese Klasse ist ein Container für mehrere, kostengünstigste Routen und enthält keine Attribute selbst.</p></td>
+<td><p>msRTCSIP-PhoneRoutes (veraltet)</p></td>
+<td><p>Diese Klasse ist ein Container für mehrere Least-Cost-Routen und enthält selbst keine Attribute.</p></td>
 <td><p>In lync Server 2010 veraltet.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-Richtlinien (veraltet)</p></td>
-<td><p>Diese Klasse enthält mehrere lync Server-Richtlinien Klassen und hat keine Attribute selbst.</p></td>
+<td><p>msRTCSIP-Policies (veraltet)</p></td>
+<td><p>Diese Klasse enthält mehrere lync Server Richtlinien Klassen und weist selbst keine Attribute auf.</p></td>
 <td><p>In lync Server 2010 veraltet.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-Pool</p></td>
-<td><p>Diese Klasse stellt einen einzelnen lync Server-Pool dar.</p></td>
+<td><p>msRTCSIP-Pool</p></td>
+<td><p>Diese Klasse stellt einen einzelnen lync Server Pool dar.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-Pools</p></td>
-<td><p>Diese Klasse enthält mehrere lync Server-Pools und hat keine Attribute selbst.</p></td>
+<td><p>msRTCSIP-Pools</p></td>
+<td><p>Diese Klasse enthält mehrere lync Server Pools und verfügt über keine Attribute selbst.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-PoolService</p></td>
-<td><p>Diese Klasse stellt den Kontrollpunkt des Dienst Steuerelements pointservice eines Pools dar. Für Benutzer, die in einem Pool gehostet werden, wird Ihr Attribut msRTCSIP-PrimaryHomeServer-Attribut auf eine Instanz dieser Klasse verweisen.</p></td>
+<td><p>msRTCSIP-PoolService</p></td>
+<td><p>Diese Klasse stellt den Dienststeuerungspunkt eines Pools dar. Das msRTCSIP-PrimaryHomeServer-Attribut von Benutzern in einem Pool zeigt auf eine Instanz dieser Klasse.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-Anwesenheitsinformationen</p></td>
-<td><p>Container, in dem die globalen Anwesenheitseinstellungen gespeichert sind.</p></td>
+<td><p>msRTCSIP-Anwesenheit</p></td>
+<td><p>Container zum Speichern der globalen Anwesenheitseinstellungen.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-Registrar</p></td>
-<td><p>Diese Hilfsklasse für Attribut msRTCSIP-Global Container enthält Attribute, die Benutzereinstellungen darstellen, die von den SIP-Registrierungs Servern verwaltet werden.</p></td>
+<td><p>msRTCSIP-Registrar</p></td>
+<td><p>Diese Erweiterungsklasse zu "msRTCSIP-GlobalContainer" enthält Attribute, die von den SIP-Registrierungsservern verwaltete Benutzereinstellungen darstellen.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-RouteUsage (veraltet)</p></td>
-<td><p>Bei dieser Klasse handelt es sich um einen Container, der eine Instanz einer Telefonrouten Verwendung darstellt. Eine Telefonroute-Nutzungsklasse besteht aus einem Attributfeld und einem Beschreibungsfeld. Das Attributfeld definiert einen Verwendungstyp. Im Feld Beschreibung können Administratoren die Verwendung dieses Attributs auf der Telefonroute beschreiben.</p></td>
+<td><p>msRTCSIP-RouteUsage (veraltet)</p></td>
+<td><p>Diese Klasse ist ein Container und stellt eine Instanz einer Telefonroutenverwendung dar. Eine Verwendungsklasse für Telefonrouten besteht aus einem Attribut- und einem Beschreibungsfeld. Das Attributfeld definiert einen Verwendungstyp. Im Beschreibungsfeld können Administratoren Hinweise zur Verwendung dieses Attributs in der Telefonroute angeben.</p></td>
 <td><p>In lync Server 2010 veraltet.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-RouteUsages (veraltet)</p></td>
-<td><p>Diese Klasse enthält mehrere Instanzen der Attribut msRTCSIP-RouteUsage-Klasse und hat keine Attribute selbst.</p></td>
+<td><p>msRTCSIP-RouteUsages (veraltet)</p></td>
+<td><p>Diese Klasse enthält mehrere Instanzen der Klasse "msRTCSIP-RouteUsage" und weist selbst keine Attribute auf.</p></td>
 <td><p>In lync Server 2010 veraltet.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-Suche</p></td>
-<td><p>Diese Auxiliary-Klasse für Attribut msRTCSIP-Global Container enthält Attribute, die den Umfang der Suchergebnisse einschränken und steuern.</p></td>
+<td><p>msRTCSIP-Suche</p></td>
+<td><p>Diese Erweiterungsklasse zu "msRTCSIP-GlobalContainer" enthält Attribute, die den Umfang von Suchergebnissen begrenzen und steuern.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-Server</p></td>
-<td><p>Diese Klasse steht für einen einzelnen Server, auf dem lync Server ausgeführt wird.</p></td>
+<td><p>msRTCSIP-Server</p></td>
+<td><p>Diese Klasse stellt einen einzelnen Server mit lync Server dar.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-Service</p></td>
-<td><p>Diese Klasse enthält den Container für globale Einstellungen und Attribut msRTCSIP-Domänenobjekte.</p></td>
+<td><p>msRTCSIP-Service</p></td>
+<td><p>Diese Klasse enthält den Container für globale Einstellungen und msRTCSIP-Domain-Objekte.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-TrustedMCU</p></td>
+<td><p>msRTCSIP-TrustedMCU</p></td>
 <td><p>Diese Klasse enthält Attribute, die Einstellungen für einen vertrauenswürdigen Konferenzserver darstellen.</p></td>
 <td><p>Neu in Communications Server 2007.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-TrustedMCUs</p></td>
-<td><p>Diese Klasse enthält mehrere Instanzen der Attribut msRTCSIP-TrustedMCU-Klasse und hat keine Attribute selbst.</p></td>
+<td><p>msRTCSIP-TrustedMCUs</p></td>
+<td><p>Diese Klasse enthält mehrere Instanzen der Klasse "msRTCSIP-TrustedMCU" und weist selbst keine Attribute auf.</p></td>
 <td><p>Neu in Communications Server 2007.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-TrustedProxies</p></td>
-<td><p>Diese Klasse enthält mehrere Attribut msRTCSIP-TrustedProxy-Klassen und enthält keine Attribute selbst.</p></td>
+<td><p>msRTCSIP-TrustedProxies</p></td>
+<td><p>Diese Klasse enthält mehrere msRTCSIP-TrustedProxy-Klassen und weist selbst keine Attribute auf.</p></td>
 <td><p>Neu in Communications Server 2007.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-TrustedProxy</p></td>
-<td><p>Diese Klasse ist ein Container, der einen Server mit Proxy Server darstellt. Eine Instanz dieser Klasse wird erstellt, wenn ein neuer Proxy Server auf einem Computer aktiviert wird, der mit AD DS verbunden ist.</p></td>
+<td><p>msRTCSIP-TrustedProxy</p></td>
+<td><p>Diese Klasse ist ein Container und stellt einen Server dar, auf dem ein Proxyserver ausgeführt wird. Eine Instanz dieser Klasse wird erstellt, sobald ein neuer Proxyserver auf einem Computer aktiviert wird, der Mitglied von AD DS ist.</p></td>
 <td><p>Neu in Communications Server 2007.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-TrustedServer</p></td>
+<td><p>msRTCSIP-TrustedServer</p></td>
 <td><p>Diese Klasse enthält Attribute, die Einstellungen für einen vertrauenswürdigen Server darstellen.</p></td>
 <td><p>-</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-TrustedService</p></td>
-<td><p>Diese Klasse ist ein Container, der einen vertrauenswürdigen Dienst darstellt, der mithilfe einer Global routingfähigen Benutzer-Agent-URI-Adresse (GRUU) geroutet werden kann. Eine Instanz dieser Klasse wird erstellt, wenn ein neuer Server aktiviert wird, der von lync Server als vertrauenswürdig eingestuft wird. Dieser vertrauenswürdige Server muss einer Active Directory-Domäne angehören.</p></td>
+<td><p>msRTCSIP-TrustedService</p></td>
+<td><p>Diese Klasse ist ein Container und stellt einen vertrauenswürdigen Dienst dar, der unter Verwendung einer GRUU-Adresse (Globally Routable User Agent URI) routingfähig ist. Eine Instanz dieser Klasse wird erstellt, wenn ein neuer Server aktiviert wird, der von lync Server als vertrauenswürdig eingestuft wird. Dieser vertrauenswürdige Server muss Mitglied einer Active Directory-Domäne sein.</p></td>
 <td><p>Neu in Communications Server 2007.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-TrustedServices</p></td>
-<td><p>Diese Klasse ist ein Container für mehrere GRUU-Server und enthält keine Attribute selbst.</p></td>
+<td><p>msRTCSIP-TrustedServices</p></td>
+<td><p>Diese Klasse ist ein Container für mehrere GRUU-Server und enthält selbst keine Attribute.</p></td>
 <td><p>Neu in Communications Server 2007.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-TrustedWebComponentsServer</p></td>
+<td><p>msRTCSIP-TrustedWebComponentsServer</p></td>
 <td><p>Diese Klasse enthält Attribute, die die Einstellungen für eine vertrauenswürdige Webkomponente darstellen.</p></td>
 <td><p>Neu in Communications Server 2007.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-TrustedWebComponentsServers</p></td>
-<td><p>Diese Klasse enthält mehrere Instanzen der Attribut msRTCSIP-TrustedWebComponentServer-Klasse und hat keine Attribute selbst.</p></td>
+<td><p>msRTCSIP-TrustedWebComponentsServers</p></td>
+<td><p>Diese Klasse enthält mehrere Instanzen der Klasse "msRTCSIP-TrustedWebComponentServer" und weist selbst keine Attribute auf.</p></td>
 <td><p>Neu in Communications Server 2007.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-UnifiedCommunications (veraltet)</p></td>
-<td><p>Diese Auxiliary-Klasse für Attribut msRTCSIP-Global Container enthält Attribute, die sich auf Unified Communications beziehen.</p></td>
+<td><p>msRTCSIP-UnifiedCommunications (veraltet)</p></td>
+<td><p>Diese Erweiterungsklasse zu "msRTCSIP-GlobalContainer" enthält Attribute, die Unified Communications betreffen.</p></td>
 <td><p>In lync Server 2010 veraltet.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-Webkomponenten</p></td>
-<td><p>Diese Klasse enthält den pointservice-Kontrollpunkt für Dienst Steuerelemente für Internet Information Server (IIS). Es identifiziert einen Server als Web Components-Server.</p></td>
+<td><p>msRTCSIP-Webkomponenten</p></td>
+<td><p>Diese Klasse enthält den Dienststeuerungspunkt für Internetinformationsdienste (Internet Information Services, IIS). Sie identifiziert einen Server als Webkomponentenserver.</p></td>
 <td><p>Neu in Communications Server 2007.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attribut msRTCSIP-WebComponentsService</p></td>
-<td><p>Diese Klasse stellt eine Zuordnung von einem bestimmten Pool zu den Webkomponenten bereit, die vom Pool verwendet werden.</p></td>
+<td><p>msRTCSIP-WebComponentsService</p></td>
+<td><p>Diese Klasse liefert eine Zuordnung zwischen einem bestimmten Pool und den Webkomponenten, die für diesen Pool verwendet werden.</p></td>
 <td><p>Neu in Communications Server 2007.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Attribut msRTCSIP-WebComponentSettings</p></td>
-<td><p>Diese zusätzliche Klasse für Attribut msRTCSIP-Webkomponenten enthält Attribute, die Einstellungen für Webkomponenten darstellen.</p></td>
+<td><p>msRTCSIP-WebComponentSettings</p></td>
+<td><p>Diese Erweiterungsklasse zu "msRTCSIP-WebComponents" enthält Attribute, die Einstellungen für Webkomponenten darstellen.</p></td>
 <td><p>Neu in Communications Server 2007.</p></td>
 </tr>
 </tbody>

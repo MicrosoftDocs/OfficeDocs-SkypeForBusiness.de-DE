@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Aktivieren oder Deaktivieren von Hot Desking'
+title: 'Lync Server 2013: Aktivieren oder Deaktivieren des Hot deskings'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c56d7ae13be9afa3af7e4732242a86f4be4c458
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 42da4f35c78e182ac988b1185bf797e3cb88ddd5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736035"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050057"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-hot-desking-in-lync-server-2013"></a>Aktivieren oder Deaktivieren von Hot Desking in lync Server 2013
+# <a name="enable-or-disable-hot-desking-in-lync-server-2013"></a>Aktivieren oder Deaktivieren des Hot deskings in lync Server 2013
 
 </div>
 
@@ -35,26 +35,26 @@ ms.locfileid: "41736035"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-20_
+_**Letztes Änderungsstand des Themas:** 2013-02-20_
 
-Sie können Telefone im öffentlichen Bereich als *Hot-Desk-Telefone*einrichten. Mit Hot-Desk-Telefonen können sich Benutzer bei Ihrem eigenen Benutzerkonto anmelden und nach der Anmeldung die lync Server-Features und ihre eigenen Benutzerprofileinstellungen verwenden. Hot-Desking wird mithilfe von Clientrichtlinien verwaltet: zum Aktivieren oder Deaktivieren der Hot-Desk-Funktion müssen Sie die Clientrichtlinien ändern, die von ihren Telefonen im öffentlichen Bereich verwendet werden. Details zum Ermitteln der Konferenzrichtlinien, die ihren Telefonen im öffentlichen Bereich zugewiesen wurden, finden Sie unter [Anzeigen von allgemeinen Telefon Informationen in lync Server 2013](lync-server-2013-view-common-area-phone-information.md).
+Sie können Telefone für gemeinsame Bereiche als Telefon *Apparate*einrichten. Bei Hot-Desk-Telefonen können sich Benutzer bei Ihrem eigenen Benutzerkonto anmelden und nach der Anmeldung lync Server Funktionen und ihre eigenen Benutzerprofileinstellungen verwenden. Das Hot Desking wird mithilfe von Clientrichtlinien verwaltet: zum Aktivieren oder Deaktivieren des Hot deskings müssen Sie die Clientrichtlinien ändern, die von ihren Telefonen in öffentlichen Bereichen verwendet werden. Ausführliche Informationen zum Bestimmen der Konferenzrichtlinien, die ihren Telefonen für gemeinsame Bereiche zugewiesen wurden, finden Sie unter [Anzeigen von Telefon Informationen zu öffentlichen Bereichen in lync Server 2013](lync-server-2013-view-common-area-phone-information.md).
 
-Sie verwenden den EnableHotdesking-Parameter des Cmdlets **New-CSClientPolicy** oder das Cmdlet " **Satz-CSClientPolicy** ", um die Hot-Desk-Funktion auf einem Smartphone wie folgt zu aktivieren oder zu deaktivieren. Führen Sie diese Cmdlets entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell aus. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
-
-<div>
-
+Verwenden Sie den EnableHotdesking-Parameter des **New-CSClientPolicy-** Cmdlets oder das Cmdlet " **setCSClientPolicy** ", um das Hot Desking auf einem Telefon wie folgt zu aktivieren oder zu deaktivieren. Führen Sie diese Cmdlets entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell aus. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
-## <a name="enabling-hot-desking"></a>Aktivieren von Hot-Desking
 
-  - Wenn Sie die Hot-Desk-Funktion für ein Telefon im öffentlichen Bereich aktivieren möchten, müssen Sie die Clientrichtlinie ändern, die diesem Telefon (oder einer Sammlung von Telefonen) zugewiesen wurde.
+<div>
+
+## <a name="enabling-hot-desking"></a>Aktivieren von Hot Desking
+
+  - Um das Hot Desking für ein Telefon im öffentlichen Bereich zu aktivieren, müssen Sie die Clientrichtlinie ändern, die diesem Telefon (oder einer Sammlung von Telefonen) zugewiesen wurde.
     
-    Nachdem Sie die zu ändernde Richtlinie identifiziert haben, besteht der nächste Schritt darin, das Cmdlet " **setCsClientPolicy** " zu verwenden, um den EnableHotdesking-Parameter auf "true" festzulegen. Beispiel:
+    Nachdem Sie die Richtlinie identifiziert haben, die geändert werden muss, müssen Sie im nächsten Schritt das Cmdlet "CsClientPolicy" verwenden, um den EnableHotdesking **-** Parameter auf "true" festzulegen. Beispiel:
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $True
 
-  - Alternativ können Sie das Cmdlet **New-CsClientPolicy** verwenden, um eine neue Clientrichtlinie zu erstellen, die eine Hot-Desk-Funktion ermöglicht. Beispiel:
+  - Alternativ können Sie das Cmdlet **New-CsClientPolicy** verwenden, um eine neue Clientrichtlinie zu erstellen, die das Hot Desking ermöglicht. Beispiel:
     
         New-CsClientPolicy -Identity "NewCommonAreaPhonePolicy" - EnableHotdesking $True
 
@@ -64,7 +64,7 @@ Sie verwenden den EnableHotdesking-Parameter des Cmdlets **New-CSClientPolicy** 
 
 
 > [!IMPORTANT]  
-> Nachdem diese Richtlinie erstellt wurde, müssen Sie Sie den entsprechenden Telefonen im öffentlichen Bereich zuweisen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Zuweisen von Richtlinien in lync Server 2013 zu einem gemeinsamen Bereichs Telefon</A>.
+> Nachdem diese Richtlinie erstellt wurde, müssen Sie Sie den entsprechenden Telefonen im öffentlichen Bereich zuweisen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-assign-policies-to-a-common-area-phone.md">Zuweisen von Richtlinien in lync Server 2013 zu einem Telefon im öffentlichen Bereich</A>.
 
 
 
@@ -72,15 +72,15 @@ Sie verwenden den EnableHotdesking-Parameter des Cmdlets **New-CSClientPolicy** 
 
 <div>
 
-## <a name="disabling-hot-desking"></a>Deaktivieren des Hot-Desking
+## <a name="disabling-hot-desking"></a>Deaktivieren von Hot Desking
 
-  - Um die Hot-Desk-Funktion für ein Telefon im öffentlichen Bereich zu deaktivieren, setzen Sie den EnableHotdesking-Parameter des Cmdlets " **CsClientPolicy** " auf den Standardwert false zurück. Beispiel:
+  - Wenn Sie das Hot Desking für ein Telefon in einem öffentlichen Bereich deaktivieren möchten, setzen Sie den Parameter EnableHotdesking des Cmdlets **setCsClientPolicy** auf den Standardwert false zurück. Beispiel:
     
         Set-CsClientPolicy -Identity "CommonAreaPhonePolicy" - EnableHotdesking $False
 
 </div>
 
-Ausführliche Informationen finden Sie in den Hilfethemen zum Cmdlet [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) und dem Cmdlet " [Satz-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) ".
+Ausführliche Informationen finden Sie in den Hilfethemen für das [New-CsClientPolicy-](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) Cmdlet und das Cmdlet "Set [-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) ".
 
 </div>
 

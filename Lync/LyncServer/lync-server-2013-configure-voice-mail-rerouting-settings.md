@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von Einstellungen für die Voicemailumleitung'
+title: 'Lync Server 2013: Konfigurieren von Einstellungen für die Voicemail-Umleitung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4ea243e87490bcabd48c866cce525d6bbd17077
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5fa98050e026c90438b1df0811daa4b5235c9732
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733845"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048138"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-voice-mail-rerouting-settings-in-lync-server-2013"></a>Konfigurieren von Einstellungen für die Voicemailumleitung in Lync Server 2013
+# <a name="configure-voice-mail-rerouting-settings-in-lync-server-2013"></a>Konfigurieren von Einstellungen für das Umleiten von Voicemail in lync Server 2013
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41733845"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-18_
+_**Letztes Änderungsstand des Themas:** 2012-10-18_
 
-Überlebensfähige Zweigstellen-Appliances und überlebensfähige Verzweigungs Server können bei einem WAN-Ausfall die Überlebensfähigkeit von Sprachnachrichten für Zweig Benutzer gewährleisten, wenn Exchange Unified Messaging (um) auf dem zentralen Standort installiert ist und eine Exchange um-Nachrichten automatische Telefonzentrale (AA) bereitgestellt wird. Wir empfehlen, dass Ihr Exchange-Administrator die AA so konfiguriert, dass nur Nachrichten akzeptiert werden, wodurch andere generische Funktionen wie die Übertragung an einen Benutzer oder die Übertragung an einen Operator deaktiviert werden. Alternativ können Sie eine generische AA-oder AA-Karte verwenden, die für die Weiterleitung des Anrufs angepasst wurde.
+Survivable Branch Appliances und Survivable Branch-Server können während eines WAN-Ausfalls die Überlebensfähigkeit von Voicemail für Zweigstellenbenutzer ermöglichen, wenn Exchange Unified Messaging (um) am zentralen Standort installiert ist und eine Exchange um automatische Nachrichtenzentrale (AA) bereitgestellt wird. Es wird empfohlen, dass Ihr Exchange-Administrator die AA so konfigurieren, dass nur Nachrichten akzeptiert werden, wodurch andere generische Funktionen wie die Übertragung an einen Benutzer oder die Übertragung an einen Operator deaktiviert werden. Alternativ können Sie ein generisches AA oder ein AA-Benutzerdefiniert verwenden, um den Anruf weiterzuleiten.
 
-Ausführliche Informationen finden Sie im Abschnitt "Vorbereiten auf die Überlebensfähigkeit von Voicemail" in der Planning-Dokumentation unter Anforderungen an die [Sicherheit von Zweigstellen für lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md) .
+Ausführliche Informationen finden Sie im Abschnitt "Vorbereiten der Überlebensfähigkeit von Voicemail" der Anforderungen an die [Ausfallsicherheit für Zweigstellenstandorte für lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md) in der Planungsdokumentation.
 
 <div>
 
-## <a name="to-configure-voice-mail-survivability"></a>So konfigurieren Sie die Überlebensfähigkeit von Voicemail
+## <a name="to-configure-voice-mail-survivability"></a>So konfigurieren Sie die Ausfallsicherheit für VoIP-Funktionen
 
-1.  Bitten Sie Ihren Exchange-Administrator, die AA so zu konfigurieren, dass nur Nachrichten akzeptiert werden (in der Exchange-Shell verwenden Sie das folgende Cmdlet: **UMAutoAttendant \<AA-Name\> -CallSomeoneEnabled $false**. Der Parameter, der angibt, dass das verlassen von Nachrichten (*SendVoiceMsgEnabled*) zulässig ist, ist standardmäßig wahr.
+1.  Bitten Sie Ihren Exchange-Administrator, die AA so zu konfigurieren, dass nur Nachrichten akzeptiert werden (verwenden Sie in der Exchange-Shell das folgende Cmdlet: **UMAutoAttendant \<AA Name\> -CallSomeoneEnabled $false**. Der Parameter, der angibt, dass das verlassen von Nachrichten zulässig ist (*SendVoiceMsgEnabled*), ist standardmäßig true.
 
-2.  Verwenden Sie in der lync Server-Verwaltungsshell das Cmdlet **New-CSVoiceMailReroutingConfiguration** , um die AA-Telefonnummer als Telefonnummer der Exchange UM-Telefonzentrale in der Konfiguration der Voicemail-Umleitung auf der Survivable Branch-Appliance oder dem Überlebenden Branch-Server festzulegen.
+2.  Verwenden Sie im lync Server-Verwaltungsshell das Cmdlet **New-CSVoiceMailReroutingConfiguration** , um die AA-Telefonnummer Exchange um als Telefonnummer der automatischen Telefonzentrale in der Konfiguration für die Voicemail-Umleitung auf dem Survivable Branch Appliance oder Survivable Branch Server festzulegen.
     
     <div>
     
 
     > [!NOTE]  
-    > Wenn Sie die Einstellung Voicemail-Umleitung später ändern müssen, verwenden Sie dazu das Cmdlet " <STRONG>Satz-CsVoiceMailReRoutingConfiguration</STRONG> ". Ausführliche Informationen zu <STRONG>New-</STRONG> und CSVoiceMailReroutingConfiguration finden Sie in den Shell <STRONG>-</STRONG>Hilfethemen.
+    > Wenn Sie die Voicemailumleitungseinstellungen ändern müssen, verwenden Sie das Cmdlet <STRONG>Set-CsVoiceMailReRoutingConfiguration</STRONG>. Ausführliche Informationen zu den Cmdlets <STRONG>New-</STRONG> und <STRONG>Set-CSVoiceMailReroutingConfiguration</STRONG> finden Sie in den Hilfethemen der Shell.
 
     
     </div>
 
-3.  Legen Sie die Exchange-um-Teilnehmerzugriffsnummer fest, die dem Exchange um-Wählplan des Zweig Benutzers als die Exchange um-Teilnehmerzugriffsnummer in der Konfiguration der Voicemail-Umleitung auf der Survivable Branch-Appliance oder dem Survivable Branch-Server entspricht.
+3.  Legen Sie die Exchange um Teilnehmerzugriffsnummer, die den Exchange UM Wähleinstellungen des Zweig Benutzers entspricht, als Exchange um Teilnehmerzugriffsnummer in der Konfiguration für die Voicemail-Umleitung auf dem Survivable Branch Appliance oder Survivable Branch Server fest.
     
     <div>
     
 
     > [!NOTE]  
-    > Konfigurieren Sie den Wählplan der Exchange um-Benutzer so, dass nur ein Wählplan für alle Verzweigungs Benutzer vorgesehen ist, die während eines WAN-Ausfalls Zugriff auf die Funktion "Voicemail erhalten" benötigen.
+    > Konfigurieren Sie die Exchange UM Wähleinstellungen der Benutzer so, dass allen Zweigstellenbenutzern nur ein Wählplan zugeordnet ist, der während eines WAN-Ausfalls auf die Funktion Get Voice Mail zugreifen muss.
 
     
     </div>
 
-**Nächster Schritt** für Survivor-Branch-Appliances oder Survivable Branch-Server: [Privatbenutzer auf einer Survivable Branch-Appliance oder einem Server in lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).
+**Nächster Schritt** für Survivable Branch Appliances oder Survivable Branch Servers: [Privatbenutzer auf einem Survivable Branch Appliance oder Server in lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).
 
 </div>
 

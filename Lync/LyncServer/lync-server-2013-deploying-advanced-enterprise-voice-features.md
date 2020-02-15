@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Bereitstellen von erweiterten Enterprise-VoIP-Features'
+title: 'Lync Server 2013: Bereitstellung erweiterter Enterprise-VoIP-Funktionen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5780c06fb9903075ad50631d57a738099eef15e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c29d679b047f5ccf616102c4b96c8468150fd77f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729576"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047735"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-advanced-enterprise-voice-features-in-lync-server-2013"></a>Bereitstellen von erweiterten Enterprise-VoIP-Features in lync Server 2013
+# <a name="deploying-advanced-enterprise-voice-features-in-lync-server-2013"></a>Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in lync Server 2013
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41729576"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-22_
+_**Letztes Änderungsstand des Themas:** 2012-09-22_
 
 Nachdem Sie die grundlegende Enterprise-VoIP-Funktionalität für Ihre Organisation konfiguriert haben, können Sie optional eine oder mehrere erweiterte Enterprise-VoIP-Funktionen bereitstellen. Verwenden Sie hierzu die Verfahren in diesem Abschnitt.
 
-Ausführliche Informationen zu den erweiterten Enterprise-VoIP-Features finden Sie in den folgenden Abschnitten der [Planning für lync Server 2013](lync-server-2013-planning.md) -Dokumentation:
+Ausführliche Informationen zu den erweiterten Enterprise-VoIP-Funktionen finden Sie in den folgenden Abschnitten der Dokumentation zur [Planung von lync Server 2013](lync-server-2013-planning.md) :
 
-  - [Planen des Anrufsteuerungsdiensts in Lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)
+  - [Planung der Anrufsteuerung in lync Server 2013](lync-server-2013-planning-for-call-admission-control.md)
 
-  - [Planen von Notrufdiensten (E9-1-1) in Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
+  - [Planung von Notrufdiensten (E9-1-1) in lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md)
 
-  - [Planung der Medienumgehung in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
+  - [Planen der medienumgehung in lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Informationen zu Netzwerkregionen, Standorten und Subnetzen in Lync Server 2013](lync-server-2013-about-network-regions-sites-and-subnets.md)
+  - [Informationen zu netzwerkregionen, Standorten und Subnetzen in lync Server 2013](lync-server-2013-about-network-regions-sites-and-subnets.md)
 
-  - [Erstellen oder Ändern eines Netzwerkbereichs in lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md)
+  - [Erstellen oder Ändern einer netzwerkregion in lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md)
 
-  - [Erstellen oder Ändern eines Netzwerkstandorts in Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md)
+  - [Erstellen oder Ändern eines Netzwerkstandorts in lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md)
 
-  - [Zuordnen eines Subnetzes zu einem Netzwerkstandort in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [Zuordnen eines Subnetzes zu einem Netzwerkstandort in lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
   - [Konfigurieren der Anrufsteuerung in lync Server 2013](lync-server-2013-configure-call-admission-control.md)
 
-  - [Konfigurieren von E9-1-1 in Lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md)
+  - [Konfigurieren von Enhanced 9-1-1 in lync Server 2013](lync-server-2013-configure-enhanced-9-1-1.md)
 
-  - [Konfigurieren der Medienumgehung in Lync Server 2013](lync-server-2013-configure-media-bypass.md)
+  - [Konfigurieren der medienumgehung in lync Server 2013](lync-server-2013-configure-media-bypass.md)
 
 </div>
 

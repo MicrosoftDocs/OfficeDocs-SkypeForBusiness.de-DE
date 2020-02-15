@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Servertabelle'
+title: 'Lync Server 2013: Server Tabelle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184890
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1d0cdb5733e6fc6e21d1dcda1fff6214332de6b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b1a400387d88637fc45bcd3342ebbadb2bec6edf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732415"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049117"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-table-in-lync-server-2013"></a>Servertabelle in Lync Server 2013
+# <a name="server-table-in-lync-server-2013"></a>Server Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732415"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-Die Server Tabelle ist eine unterstützende Tabelle. Jeder Datensatz steht für einen Server.
+Bei der Server-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz steht für einen Server.
 
 
 <table>
@@ -60,32 +60,32 @@ Die Server Tabelle ist eine unterstützende Tabelle. Jeder Datensatz steht für 
 <td><p><strong>ServerKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutige Nummer, die den Server identifiziert.</p></td>
+<td><p>Eindeutige Zahl, die den Server identifiziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FQDNOrIP</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Index</p></td>
-<td><p>Mac-Adresszeichenfolge.</p></td>
+<td><p>MAC-Adresszeichenfolge.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Servertyp</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>1: Vermittlungs Server</p>
-<p>2: a/v Conferencing Server16394: a/v Edge service32769: Gateway</p></td>
+<td><p>1: Vermittlungsserver</p>
+<p>2: A/V-Konferenzserver16394: A/V-Edgedienst32769: Gateway</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Poolname</strong></p></td>
 <td><p>nvarchar (512)</p></td>
 <td></td>
-<td><p>Pool, zu dem der Server gehört. Gilt nur für den A/V-Konferenz Server.</p></td>
+<td><p>Pool, zu dem der Server gehört. Gilt nur für den A/V-Konferenzserver.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td></td>
-<td><p>Nur für interne Verwendung.</p></td>
+<td><p>Ausschließlich für interne Zwecke.</p></td>
 </tr>
 </tbody>
 </table>

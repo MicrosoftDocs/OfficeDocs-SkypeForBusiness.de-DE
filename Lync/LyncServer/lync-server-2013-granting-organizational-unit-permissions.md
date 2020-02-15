@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Gewähren von Berechtigungen für die Organisationseinheit'
+title: 'Lync Server 2013: Erteilen von Berechtigungen für Organisationseinheiten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 084fb8cdebeda06d4441879f08f830021b65d2e3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 945fdfcb6b1f8e8a977bec079b920e13e932e942
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763909"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048396"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="granting-organizational-unit-permissions-in-lync-server-2013"></a>Gewähren von Berechtigungen für die Organisationseinheit in Lync Server 2013
+# <a name="granting-organizational-unit-permissions-in-lync-server-2013"></a>Erteilen von Berechtigungen für Organisationseinheiten in lync Server 2013
 
 </div>
 
@@ -35,59 +35,59 @@ ms.locfileid: "41763909"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-05-14_
+_**Letztes Änderungsstand des Themas:** 2012-05-14_
 
-Sie können das Cmdlet **Grant-CsOuPermission** verwenden, um den Objekten in bestimmten Organisationseinheiten (Organizational Units, OUs) Berechtigungen zu erteilen, damit Mitglieder der von Forest Preparation erstellten RTC-universellen Gruppen auf diese zugreifen können, ohne Mitglieder der Gruppe der Domänenadministratoren zu sein. Die der angegebenen Organisationseinheit hinzugefügten Berechtigungen sind dieselben Berechtigungen, die das Cmdlet **enable-CsAdDomain** den Computern und Benutzer Containern während der Domänenvorbereitung hinzufügt.
+Mithilfe des Cmdlets **Grant-CsOuPermission** können Sie auch Objekten in bestimmten Organisationseinheiten Berechtigungen gewähren, sodass Mitglieder der während der Gesamtstrukturvorbereitung erstellten universellen RTC-Gruppen auf diese Objekte zugreifen können, ohne Mitglieder der Gruppe "Domänen-Admins" zu sein. Bei den Berechtigungen, die Sie der angegebenen Organisationseinheit hinzufügen, handelt es sich um die gleichen Berechtigungen, die das Cmdlet **Enable-CsAdDomain** während der Domänenvorbereitung den Containern für Computer und Benutzer hinzufügt.
 
-Verwenden Sie das Cmdlet **Test-CsOuPermission** , um die Berechtigungen zu überprüfen, die Sie mithilfe des Cmdlets **Grant-CsOuPermission** eingerichtet haben.
+Verwenden Sie das Cmdlet **Test-CsOuPermission** zum Überprüfen der Berechtigungen, die Sie mit dem Cmdlet **Grant-CsOuPermission** gewähren.
 
-Sie können das Cmdlet **REVOKE-CsOuPermission** verwenden, um Berechtigungen zu entfernen, die Sie mit dem Cmdlet **Grant-CsOuPermission** erteilt haben.
+Mit dem Cmdlet **Revoke-CsOuPermission** können Sie Berechtigungen entfernen, die Sie mit dem Cmdlet **Grant-CsOuPermission** zugewiesen haben.
 
 <div>
 
-## <a name="to-grant-ou-permissions"></a>So erteilen Sie ou-Berechtigungen
+## <a name="to-grant-ou-permissions"></a>So gewähren Sie Organisationseinheitenberechtigungen
 
-1.  Melden Sie sich bei einem Computer mit lync Server 2013 in der Domäne an, in der Sie ou-Berechtigungen erteilen möchten. Verwenden Sie ein Konto, das ein Mitglied der Gruppe "Domänen-Admins" oder der Gruppe "Organisations-Admins" ist, wenn sich die Organisationseinheit in einer anderen untergeordneten Domäne befindet.
+1.  Melden Sie sich an einem Computer mit lync Server 2013 in der Domäne an, in der Sie Organisationseinheiten Berechtigungen erteilen möchten. Verwenden Sie ein Konto, das Mitglied der Gruppe "Domänen-Admins" oder der Gruppe "Organisations-Admins" ist, wenn sich die OU in einer anderen untergeordneten Domäne befindet.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Führen Sie folgenden Befehl aus:
+3.  Ausführen
     
         Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     
-    Wenn Sie den Parameter Domain nicht angeben, ist der Standardwert die lokale Domäne.
+    Wenn Sie den Parameter "Domain" nicht angeben, wird standardmäßig die lokale Domäne verwendet.
 
 </div>
 
 <div>
 
-## <a name="to-verify-ou-permissions"></a>So überprüfen Sie die OU-Berechtigungen
+## <a name="to-verify-ou-permissions"></a>So überprüfen Sie Organisationseinheitenberechtigungen
 
-1.  Melden Sie sich bei einem Computer mit lync Server 2013 in der Domäne an, in der Sie die mit dem Cmdlet **Grant-CsOuPermission** gewährten ou-Berechtigungen überprüfen möchten. Verwenden Sie ein Konto, das ein Mitglied der Gruppe "Domänen-Admins" oder der Gruppe "Organisations-Admins" ist, wenn sich die Organisationseinheit in einer anderen untergeordneten Domäne befindet.
+1.  Melden Sie sich an einem Computer mit lync Server 2013 in der Domäne an, in der Sie die mit dem Cmdlet **Grant-CsOuPermission** gewährten ou-Berechtigungen überprüfen möchten. Verwenden Sie ein Konto, das Mitglied der Gruppe "Domänen-Admins" oder der Gruppe "Organisations-Admins" ist, wenn sich die OU in einer anderen untergeordneten Domäne befindet.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Führen Sie folgenden Befehl aus:
+3.  Ausführen
     
         Test-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     
-    Wenn Sie den Parameter Domain nicht angeben, ist der Standardwert die lokale Domäne.
+    Wenn Sie den Parameter "Domain" nicht angeben, wird standardmäßig die lokale Domäne verwendet.
 
 </div>
 
 <div>
 
-## <a name="to-revoke-ou-permissions"></a>So widerrufen Sie ou-Berechtigungen
+## <a name="to-revoke-ou-permissions"></a>So entziehen Sie Organisationseinheitenberechtigungen
 
-1.  Melden Sie sich bei einem Computer mit lync Server 2013 in der Domäne an, in der Sie die vom Cmdlet **Grant-CsOuPermission** gewährten ou-Berechtigungen widerrufen möchten. Verwenden Sie ein Konto, das ein Mitglied der Gruppe "Domänen-Admins" oder der Gruppe "Organisations-Admins" ist, wenn sich die Organisationseinheit in einer anderen untergeordneten Domäne befindet.
+1.  Melden Sie sich an einem Computer mit lync Server 2013 in der Domäne an, in der Sie Organisationseinheiten Berechtigungen widerrufen möchten, die vom Cmdlet **Grant-CsOuPermission** erteilt wurden. Verwenden Sie ein Konto, das Mitglied der Gruppe "Domänen-Admins" oder der Gruppe "Organisations-Admins" ist, wenn sich die OU in einer anderen untergeordneten Domäne befindet.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Führen Sie folgenden Befehl aus:
+3.  Ausführen
     
         Revoke-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU> [-Domain <Domain FQDN>]
     
-    Wenn Sie den Parameter Domain nicht angeben, ist der Standardwert die lokale Domäne.
+    Wenn Sie den Parameter "Domain" nicht angeben, wird standardmäßig die lokale Domäne verwendet.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Installieren der Operations Manager-Agentendateien'
+title: 'Lync Server 2013: Installieren der Operations Manager-Agent-Dateien'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f75e9b6f8c3f7eb7151cf0d67a62f5e2a03a65f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 48624e3f93ebb133743680a01399444137385a0f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725955"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048239"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-operation-manager-agent-files-in-lync-server-2013"></a>Installieren der Operations Manager-Agentendateien in lync Server 2013
+# <a name="installing-the-operation-manager-agent-files-in-lync-server-2013"></a>Installieren der Operations Manager-Agent-Dateien in lync Server 2013
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41725955"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-20_
+_**Letztes Änderungsstand des Themas:** 2012-10-20_
 
-Führen Sie die folgenden Schritte aus, um die Operations Manager-Agentendateien auf dem Computer zu installieren.
+Führen Sie die folgenden Schritte aus, um die Operations Manager-Agentdateien auf dem Computer zu installieren.
 
-1.  Doppelklicken Sie auf Ihrem System Center-Setup Medium auf **SetupOM. exe**.
+1.  Doppelklicken Sie auf den System Center-Setupmedien auf **SetupOM.exe**.
 
-2.  Klicken Sie im System Center Operation Manager-Setup auf **Operations Manager-Agent installieren**.
+2.  Klicken Sie im System Center Operations Manager-Setupprogramm auf **Operations Manager-Agent installieren**.
 
-3.  Klicken Sie im System Center-Setup-Assistenten auf der Seite Willkommen beim Setup-Assistenten von **System Center Operations Manager** auf **weiter**.
+3.  Klicken Sie im System Center-Setup-Assistenten auf der Willkommensseite**** des Assistenten auf **Weiter**.
 
-4.  Wählen Sie auf der Seite **Zielordner** den Ordner aus, in dem die Operations Manager-Agentendateien installiert werden sollen, und klicken Sie dann auf **weiter**.
+4.  Wählen Sie auf der Seite **Zielordner** den Ordner aus, in dem die Operations Manager-Agentdateien installiert werden sollen, und klicken Sie dann auf **Weiter**.
 
-5.  Wählen Sie auf der Seite **Verwaltungsgruppenkonfiguration** die Option **Verwaltungsgruppeninformationen angeben**aus, und klicken Sie dann auf **weiter**.
+5.  Wählen Sie auf der Seite **Verwaltungsgruppenkonfiguration** die Option **Verwaltungsgruppeninformationen angeben** aus, und klicken Sie dann auf **Weiter**.
 
-6.  Geben Sie auf der Seite **Verwaltungsgruppenkonfiguration** den Namen Ihrer Operations Manager-Verwaltungsgruppe im Feld **Verwaltungsgruppenname** ein, und geben Sie dann den Hostnamen Ihres Operations Manager-Servers (beispielsweise ATL-SCOM-001) im Feld **Verwaltungsserver** ein. Wenn Sie die von Operations Manager verwendete Portnummer geändert haben, geben Sie die neue Portnummer in das Feld Verwaltungs Server Port ein. Andernfalls können Sie den Port mit dem Standardwert 5723 und dann auf **weiter**klicken.
+6.  Geben Sie auf der Seite **Verwaltungsgruppenkonfiguration** in das Feld **Verwaltungsgruppenname** den Namen Ihrer Operations Manager-Verwaltungsgruppe ein, und geben Sie dann den Hostnamen Ihres Operations Manager-Servers (beispielsweise ATL-SCOM-001) in das Feld **Verwaltungsserver** ein. Wenn Sie die von Operations Manager verwendete Portnummer geändert haben, geben Sie die neue Portnummer in das Feld Verwaltungs Server Port ein. Belassen Sie andernfalls den Port mit dem Standardwert 5723, und klicken Sie auf **weiter**.
 
-7.  Wählen Sie auf der Seite **Agent-Aktionskonto** die Option **Lokales System**aus, und klicken Sie dann auf **weiter**.
+7.  Wählen Sie auf der Seite **Agentaktionskonto** die Option **Lokales System** aus, und klicken Sie dann auf **Weiter**.
 
-8.  Wählen Sie auf der Seite **Microsoft Update** die Option **Ich möchte Microsoft Update nicht verwenden**aus, und klicken Sie dann auf **weiter**.
+8.  Wählen Sie auf der Seite **Microsoft Update** die Option **Ich möchte Microsoft Update nicht verwenden** aus, und klicken Sie dann auf **Weiter**.
 
-9.  Klicken Sie auf der Seite **bereit zur Installation** auf **Installieren**.
+9.  Klicken Sie auf der Seite **Bereit zum Installieren** auf **Installieren**.
 
-10. Klicken Sie auf der Seite **abschließen des Setup-Assistenten von System Center Operations Manager** auf **Fertig stellen**.
+10. Klicken Sie auf der Seite **Fertigstellen des System Center Operations Manager-Setup-Assistenten** auf **Fertig stellen**.
 
 11. Klicken Sie auf **Beenden**.
 
-Wenn Sie System Center 2007 R2 verwenden, können Sie überprüfen, ob der Agent erstellt wurde, indem Sie auf **Start**klicken, auf **Alle Programme**klicken, auf **System Center Operations Manager 2007 R2**klicken und dann auf **Operations Manager-Shell**klicken. Geben Sie in der Operations Manager-Shell den folgenden Windows PowerShell-Befehl ein, und drücken Sie dann die EINGABETASTE:
+Wenn Sie System Center 2007 R2 verwenden, können Sie überprüfen, ob der Agent erstellt wurde, indem Sie auf **Start**, auf **Alle Programme**, auf **System Center Operations Manager 2007 R2**und dann auf **Operations Manager-Shell**klicken. Geben Sie in der Operations Manager-Shell den folgenden Windows PowerShell Befehl ein, und drücken Sie dann die EINGABETASTE:
 
     Get-Agent 
 
-Auf dem Bildschirm wird eine Liste aller Operations Manager-Agents angezeigt.
+Eine Liste aller Operations Manager-Agents wird angezeigt.
 
-Wenn Sie System Center 2012 verwenden, führen Sie diesen Befehl aus der Shell für Operations 2012-Manager aus:
+Falls Sie System Center 2012 verwenden, führen Sie den folgenden Befehl in der Operations Manager 2012-Shell aus:
 
     Get-SCOMAgent
 

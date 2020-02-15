@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Testen des PSTN-Anruf Routings'
+title: 'Lync Server 2013: Testen des Routings von PSTN-Telefon anrufen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969598
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2dabe54fb2ba4df864d172015efb62ef161c77cb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 750efc8ced1dbb4c048d10c879f0bfa2dd4a4f32
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745595"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050227"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a>Testen des PSTN-Anruf Routings in lync Server 2013
+# <a name="testing-pstn-phone-call-routing-in-lync-server-2013"></a>Testen der PSTN-Anrufweiterleitung in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745595"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-11-01_
+_**Letztes Änderungsstand des Themas:** 2014-11-01_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-11-01_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des <strong>Test-CsInterTrunkRouting-</strong> Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets <strong>Test-csintertrunkrouting "</strong> verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsInterTrunkRouting&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,15 +66,15 @@ _**Letztes Änderungsdatum des Themas:** 2014-11-01_
 
 ## <a name="description"></a>Beschreibung
 
-Das Cmdlet **Test-CsInterTrunkRouting** überprüft, ob Anrufe von einem SIP an einen anderen weitergeleitet werden können. Dazu erhält das Cmdlet eine Telefonnummer und eine trunk-Konfiguration. In **Test-CsInterTrunkRouting** werden dann übereinstimmende Routen und übereinstimmende PSTN-Verwendungen für die angegebene Nummer zurückgemeldet. Beachten Sie, dass Anrufe nur zwischen Trunks geroutet werden können, wenn die Trunks ein Zahlenmuster aufweisen, das der angegebenen Telefonnummer entspricht, und nur, wenn die Trunks mindestens eine PSTN-Nutzung aufweisen.
+Das Cmdlet **Test-csintertrunkrouting "** überprüft, ob Anrufe von einem SIP an einen anderen weitergeleitet werden können. Hierzu erhält das Cmdlet eine Telefonnummer und eine trunkkonfiguration. In **Test-csintertrunkrouting "** werden dann übereinstimmende Routen und übereinstimmende PSTN-Verwendungen für die angegebene Nummer zurückgemeldet. Beachten Sie, dass Anrufe nur dann zwischen Trunks geroutet werden können, wenn die Trunks über ein Nummernmuster verfügen, das mit der angegebenen Telefonnummer übereinstimmt, und nur dann, wenn die Trunks mindestens eine PSTN-Nutzung aufweisen.
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Die folgenden Befehle geben die übereinstimmenden Routen und die übereinstimmenden Telefonverwendungen zurück, mit denen Benutzer die Telefonnummer 1-206-555-1219 mit den trunk-Konfigurationseinstellungen für die Website "Redmond" anrufen können.
+Die unten gezeigten Befehle geben die übereinstimmenden Routen und übereinstimmenden Telefonverwendungen zurück, mit denen Benutzer die Telefonnummer 1-206-555-1219 mithilfe der trunkkonfigurationseinstellungen für den Standort "Redmond" anrufen können.
 
     $trunk = Get-CsTrunkConfiguration -Identity "site:Redmond"
     
@@ -84,7 +84,7 @@ Die folgenden Befehle geben die übereinstimmenden Routen und die übereinstimme
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
 Wenn Anrufe von einem SIP an einen anderen weitergeleitet werden können, erhalten Sie eine ähnliche Ausgabe wie die folgende:
 
@@ -96,15 +96,15 @@ RedmondRoute LocalUsage {RedmondRoute}
 
 Wenn der Test nicht erfolgreich war, erhalten Sie eine ähnliche Ausgabe wie die folgende:
 
-Test-CsInterTrunkRouting: die Argument Transformation für Parameter kann nicht verarbeitet werden
+Test-csintertrunkrouting ": Argument Transformation für Parameter kann nicht verarbeitet werden
 
-'TrunkConfiguration'. Ungültiger TrunkConfigurationsetting (Parameter). Angeben eines
+"TrunkConfiguration". Ungültiger TrunkConfigurationsetting (-Parameter). Geben Sie einen
 
 gültige Einstellung (Parameter), und versuchen Sie es dann erneut.
 
-Zeile: 1 Zeichen: 79
+In der Reihe: 1 Char: 79
 
-\+Test-CsInterTrunkRouting-TargetNumber "Tel: + 12065551219"
+\+Test-csintertrunkrouting "-TargetNumber" Tel: + 12065551219 "
 
 \-TrunkConfiguration $t...
 
@@ -112,7 +112,7 @@ Zeile: 1 Zeichen: 79
 
 ~~
 
-\+CategoryInfo: InvalidData: (:) \[Test-CsInterTrunkRouting\], par
+\+CategoryInfo: InvalidData: (:) \[Test-csintertrunkrouting "\], par
 
 ameterBindingArgumentTransformationException
 
@@ -126,9 +126,9 @@ TC. Management. Voice. Cmdlets. TestOcsInterTrunkRoutingCmdlet
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Nachfolgend finden Sie einige häufige Gründe, warum **Test-CsInterTrunkRouting** möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, warum das **Testen von csintertrunkrouting "** möglicherweise fehlschlägt:
 
-  - Sie haben ungültige Parameter angegeben. Der trunk ist möglicherweise noch nicht richtig konfiguriert, und die angegebene Ziel Nummer ist möglicherweise falsch oder ungültig.
+  - Sie haben ungültige Parameter angegeben. Der trunk ist möglicherweise noch nicht ordnungsgemäß konfiguriert, und die angegebene Ziel Nummer ist möglicherweise falsch oder ungültig.
 
 </div>
 
@@ -137,7 +137,7 @@ Nachfolgend finden Sie einige häufige Gründe, warum **Test-CsInterTrunkRouting
 ## <a name="see-also"></a>Siehe auch
 
 
-[Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk)  
+[Get-cstrunk "](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunk)  
 [Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration)  
   
 

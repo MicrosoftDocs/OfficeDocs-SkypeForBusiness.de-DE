@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konferenz Ansicht'
+title: 'Lync Server 2013: Ansicht "Konferenzen"'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733803
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36278c1053c2b5737e0de6caf914c050db93ea4b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56f292a35f5e4f24ba5226e06a308e780ce5c687
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741605"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049046"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conferences-view-in-lync-server-2013"></a>Konferenz Ansicht in lync Server 2013
+# <a name="conferences-view-in-lync-server-2013"></a>Ansicht "Konferenzen" in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741605"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
-In der Ansicht "Konferenzen" werden Informationen zu den Konferenzen gespeichert. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
+Die Konferenzansicht enthält Informationen zu den Konferenzen. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
 
 
 <table>
@@ -56,64 +56,64 @@ In der Ansicht "Konferenzen" werden Informationen zu den Konferenzen gespeichert
 <tbody>
 <tr class="odd">
 <td><p><strong>SessionID</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>Uhrzeit der Sitzungsanforderung. Wird in Verbindung mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle Dialogfelder in lync Server 2013</a> .</p></td>
+<td><p>Datum/Uhrzeit</p></td>
+<td><p>Zeitpunkt der Sitzungsanforderung. Wird zusammen mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren.. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit SessionID-Mal verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle Dialogfelder in lync Server 2013</a> .</p></td>
+<td><p>ID zur Identifikation der Sitzung. Wird zusammen mit SessionIdTime verwendet, um eine Konferenzinstanz eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>URI für die Konferenz.</p></td>
+<td><p>Der URI für die Konferenz.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Der Typ des Konferenz-URIs. Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Der Typ des Konferenz-URI. Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConfInstance</strong></p></td>
 <td><p>uniqueidentifier</p></td>
-<td><p>Wird für wiederkehrende Konferenzen verwendet. Jede Instanz einer Besprechungsserie hat dieselbe ConferenceUri, aber eine andere ConfInstance.</p></td>
+<td><p>Wird für wiederkehrende Konferenzen verwendet. Jede Instanz einer wiederkehrenden Konferenz hat die gleiche ConferenceUri, aber eine andere ConfInstance.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceStartTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>Startzeit für die Konferenz.</p></td>
+<td><p>Datum/Uhrzeit</p></td>
+<td><p>Die Startzeit für die Konferenz.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceEndTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>Endzeit für die Konferenz.</p></td>
+<td><p>Datum/Uhrzeit</p></td>
+<td><p>Die Endzeit für die Konferenz.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OrganizerUri</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>Der URI des Benutzers, der die Konferenz organisiert hat.</p></td>
+<td><p>Der URI des Benutzers, der die Sitzung organisiert hat.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Organizer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Der Typ des URIs des Benutzers, der die Konferenz organisiert hat. Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Der URI-Typ des Benutzers, der die Konferenz organisiert hat. Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>OrganizerTenant</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Der Mandant des Benutzers, der die Konferenz organisiert hat. Weitere Informationen finden Sie <a href="lync-server-2013-tenants-table.md">in der Tabelle Mandanten in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Vollständig qualifizierter Domänenname des Pools, in dem die Konferenz gehostet wurde.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Der vollqualifizierte Domänenname des Pools, von dem die Konferenz gehostet wurde.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Kennzeichnen</strong></p></td>
+<td><p><strong>Wert</strong></p></td>
 <td><p>smallint</p></td>
-<td><p>Bitmaske, die Konferenz Attribute enthält. Mögliche Werte:</p>
-<p>0X01 – synthetische Transaktion</p></td>
+<td><p>Eine Bitmaske, die Konferenzattribute enthält. Mögliche Werte sind:</p>
+<p>0X01 – Synthetische Transaktion</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Conference-Tabelle'
+title: 'Lync Server 2013: Konferenz Tabelle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4941dc3ef59630cd77cfb0f8a51407d15ca628f7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 733b3fc6fa77f8f18de1a5c79be86a5aea340cec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756979"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048586"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conference-table-in-lync-server-2013"></a>Conference-Tabelle in Lync Server 2013
+# <a name="conference-table-in-lync-server-2013"></a>Konferenz Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756979"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-Die Konferenz Tabelle ist eine unterstützende Tabelle. Jeder Datensatz steht für eine Konferenz oder eine Peer-to-Peer-Sitzung.
+Bei der Conference-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz steht für eine Konferenz oder Peer-zu-Peer-Sitzung.
 
 
 <table>
@@ -60,25 +60,25 @@ Die Konferenz Tabelle ist eine unterstützende Tabelle. Jeder Datensatz steht f�
 <td><p><strong>ConferenceKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutige Nummer, die diesen Konferenz Eintrag kennzeichnet.</p></td>
+<td><p>Eindeutige Zahl, die diesen Konferenzdatensatz identifiziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConfURI</strong></p></td>
 <td><p>nvarchar (450)</p></td>
-<td><p>eindeutigen</p></td>
-<td><p>Konferenz-URI, wenn es sich um eine Konferenz handelt, oder wenn es sich um eine Peer-to-Peer-Sitzung handelt.</p></td>
+<td><p>eindeutige</p></td>
+<td><p>Konferenz-URI, falls dies eine Konferenz ist, oder Dialogkennung, wenn dies eine Peer-zu-Peer-Sitzung ist.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Prüfsumme</strong></p></td>
 <td><p>int</p></td>
 <td><p>Index</p></td>
-<td><p>Die Prüfsumme des Konferenz-URIs. Diese wird intern verwendet.</p></td>
+<td><p>Prüfsumme der Konferenz-URI. Für interne Zwecke.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td></td>
-<td><p>Nur für interne Verwendung.</p></td>
+<td><p>Ausschließlich für interne Zwecke.</p></td>
 </tr>
 </tbody>
 </table>

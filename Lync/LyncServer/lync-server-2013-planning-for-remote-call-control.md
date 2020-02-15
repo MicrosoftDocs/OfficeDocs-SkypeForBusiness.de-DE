@@ -12,16 +12,16 @@ ms:contentKeyID: 48184371
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4c07674be037c7d2fe06d6e2811dcd3264cc6db
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7a2faff08d5517809d4cfb11d00711a146accc61
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725225"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050727"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,68 +35,68 @@ ms.locfileid: "41725225"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-05_
+_**Letztes Änderungsstand des Themas:** 2012-09-05_
 
-In lync Server 2013 ermöglicht die Unterstützung von Szenarien für die Remoteanrufsteuerung, dass Benutzer Ihre PBX-Telefone (Private Branch Exchange) mithilfe von lync 2013 auf Ihren Desktopcomputern steuern können. In diesem Abschnitt werden die Features für die Remoteanrufsteuerung und die Anforderungen für die Bereitstellung der Remoteanrufsteuerung beschrieben.
+In lync Server 2013 ermöglicht die Unterstützung für Remote Anruf Steuerungs Szenarien Benutzern die Steuerung Ihrer PBX-Telefone (Private Branch Exchange) mithilfe von lync 2013 auf Ihren Desktopcomputern. In diesem Abschnitt werden die Remoteanrufsteuerungsfunktionen sowie die Anforderungen für die Bereitstellung der Remoteanrufsteuerung beschrieben.
 
-Durch die Integration zwischen einer Telefonanlage und lync Server 2013 können Benutzer, die für die Remoteanrufsteuerung aktiviert sind, die lync 2013-Benutzeroberfläche verwenden, um Anrufe auf Ihren Telefonanlagen zu steuern, und zwar wie folgt:
+Durch die Integration zwischen einer Nebenstellenanlage und lync Server 2013 können Benutzer, die für die Remoteanrufsteuerung aktiviert sind, die lync 2013-Benutzeroberfläche verwenden, um Anrufe auf Ihren PBX-Telefonen auf folgende Weise zu steuern:
 
 <div>
 
 
 > [!NOTE]  
-> Letztendlich bestimmen die Funktionen der Telefonanlage, die das PBX-Telefon eines Benutzers hostet, die Features für die Remoteanrufsteuerung, die für diesen Benutzer verfügbar sein werden.
+> Welche Remoteanrufsteuerungsfunktionen für den Benutzern letztendlich verfügbar sind, hängt von den Funktionen der Nebenstellenanlage ab, die zum Hosten des Nebenstellentelefons eines Benutzers verwendet wird.
 
 
 
 </div>
 
-  - Führen eines ausgehenden Anrufs
+  - Tätigen eines ausgehenden Anrufs
 
-  - Annehmen eines eingehenden Anrufs
+  - Beantworten eines eingehenden Anrufs
 
-  - Annehmen eines eingehenden Anrufs mit einer Chatnachricht
+  - Beantworten eines eingehenden Anrufs mit einer Sofortnachricht
     
     <div>
     
 
     > [!NOTE]  
-    > Das heißt, wenn die Telefonnummer des Anrufers einer Chat Adresse in der globalen Adressliste (GAL) Ihrer Organisation, in der lync-Kontaktliste des berufenen oder in der Organisation eines Verbundpartners zugeordnet werden kann.
+    > Das heißt, wenn die Telefonnummer des Anrufers einer Sofortnachrichtenadresse in der globalen Adressliste (GAL) Ihrer Organisation, in der lync-Kontaktliste des angerufenen oder in der Organisation eines Verbundpartners zugeordnet werden kann.
 
     
     </div>
 
-  - Anruf weiterleiten
+  - Weiterleiten eines Anrufs
 
   - Weiterleiten eines eingehenden Anrufs
 
-  - Anrufe in Wartestellung setzen
+  - Halten von Anrufen
 
-  - Wechseln zwischen mehreren gleichzeitigen anrufen
+  - Wechseln zwischen mehreren gleichzeitigen Anrufen
 
-  - Annehmen eines zweiten Anrufs während eines Anrufs (also Anklopfen)
+  - Beantworten eines zweiten Anrufs, nachdem bereits ein Anruf entgegengenommen wurde (Anklopffunktion)
 
-  - Dial Dual-Tone-mehr Frequenz (DTMF)-Ziffern
+  - DTMF-Ziffern (Dial Dual-Tone Multifrequency, Mehrfrequenzverfahren)
 
-  - Geben Sie im Unterhaltungsfenster Notizen in Microsoft Office OneNote-Notizenprogramm ein.
+  - Eingabe von Notizen im Fenster "Unterhaltung" in Microsoft Office OneNote
 
-Wenn ein Benutzer für die Remoteanrufsteuerung aktiviert ist, stellt lync 2013 dem Benutzer zudem die folgenden Anrufinformationen zur Verfügung:
+Wenn ein Benutzer für die Remoteanrufsteuerung aktiviert ist, stellt lync 2013 dem Benutzer außerdem die folgenden Anrufinformationen zur Verfügung:
 
-  - Kennung eines Anrufers anhand des Namens, wenn die Telefonnummer des Anrufers in der Liste "Kontakte" des Microsoft Office Outlook-Messaging-und-Zusammenarbeits-Clients, der lync-Kontaktliste oder der GAL Ihrer Organisation aktiviert ist.
+  - Kennung eines Anrufers nach Namen, wenn die Telefonnummer des Anrufers in der Kontaktliste eines Benutzers mit Remoteanrufsteuerung Microsoft Office Outlook-Messaging und-Zusammenarbeitsclient, lync-Kontaktliste oder der GAL Ihrer Organisation vorhanden ist.
 
-  - Frühere eingehende und ausgehende Anrufe, die im Ordner "Konversations Verlauf" in Outlook gespeichert sind.
+  - Vergangene eingehende und ausgehende Anrufe, die im Ordner "Unterhaltungsverlauf" in Outlook gespeichert sind.
 
-  - Benachrichtigungen über verpasste Anrufe, die an den Outlook-Posteingangsordner des Benutzers gesendet werden, aber nur generiert werden, wenn lync ausgeführt wird, wenn der eingehende Anruf eingegangen ist.
+  - Benachrichtigungen über verpasste Anrufe, die an den Outlook-Posteingangsordner des Benutzers gesendet werden, aber nur generiert werden, wenn lync beim Empfang des eingehenden Anrufs läuft.
 
 <div>
 
-## <a name="remote-call-control-and-enterprise-voice"></a>Remote Anrufsteuerung und Enterprise-VoIP
+## <a name="remote-call-control-and-enterprise-voice"></a>Remoteanrufsteuerung und Enterprise-VoIP
 
-Obwohl die Features für die Remoteanrufsteuerung von den Enterprise-VoIP-Features getrennt sind und Benutzer nicht für beide Funktionen aktiviert werden können, bietet Enterprise-VoIP eine Teilmenge der Features, die auch für Benutzer verfügbar sind, die für die Remoteanrufsteuerung aktiviert sind. Wenn Enterprise-VoIP bereitgestellt wird, können Benutzer, die für die Remoteanrufsteuerung aktiviert sind, lync für den Zugriff auf die folgenden Enterprise-VoIP-Features verwenden:
+Obwohl Funktionen zur Remoteanrufsteuerung von Enterprise-VoIP-Features getrennt sind und Benutzer nicht für beide aktiviert werden können, bietet Enterprise-VoIP eine Teilmenge der Features, die auch für Benutzer verfügbar sind, die für die Remoteanrufsteuerung aktiviert sind. Wenn Enterprise-VoIP bereitgestellt wird, können Benutzer, die für die Remoteanrufsteuerung aktiviert sind, lync für den Zugriff auf die folgenden Enterprise-VoIP-Funktionen verwenden:
 
   - Tätigen und empfangen von Audioanrufen an einen anderen lync-Client
 
-  - Teilnehmen am Audioteil einer Konferenz, die von einem Benutzer erstellt wurde, der für Enterprise-VoIP aktiviert ist
+  - Teilnahme am Audioteil einer Konferenz, die von einem Benutzer erstellt wurde, der für Enterprise-VoIP aktiviert ist
 
 </div>
 
@@ -104,7 +104,7 @@ Obwohl die Features für die Remoteanrufsteuerung von den Enterprise-VoIP-Featur
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Bereitstellungsaufgaben für die Remoteanrufsteuerung in Lync Server 2013](lync-server-2013-deployment-tasks-for-remote-call-control.md)
+  - [Bereitstellungsaufgaben für die Remoteanrufsteuerung in lync Server 2013](lync-server-2013-deployment-tasks-for-remote-call-control.md)
 
 </div>
 

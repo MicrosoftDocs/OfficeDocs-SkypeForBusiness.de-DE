@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Ändern der Einstellungen für Geräte Aktualisierungsprotokolldateien'
+title: 'Lync Server 2013: Ändern von Einstellungen für Geräte Aktualisierungsprotokolldateien'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184975
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88d75086f0532205c2897f7e86d49f50072aaa89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 770682cfed17d9b029688275469351c1cfdf9f4d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756929"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050547"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41756929"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Mithilfe der lync Server-Systemsteuerung oder der lync Server-Verwaltungsshell können Sie die Einstellungen für die Protokollierung von Geräte Aktualisierungsinformationen in Ihrer Organisation ändern. In der folgenden Tabelle wird aufgezeigt, welche Einstellungen änderbar sind und welches Tool (e) Sie verwenden, um die Einstellungen zu ändern.
+Sie können mithilfe von lync Server-Systemsteuerung oder lync Server-Verwaltungsshell Einstellungen für die Protokollierung von Geräte Aktualisierungsinformationen in Ihrer Organisation ändern. Die folgende Tabelle zeigt, welche Einstellungen geändert werden können und welche Tools Sie zum Ändern der Einstellungen verwenden.
 
-Protokolleinstellungen können global oder pro Website geändert und angewendet werden.
+Protokolleinstellungen können global oder pro Standort geändert und angewendet werden.
 
 
 <table>
@@ -49,37 +49,37 @@ Protokolleinstellungen können global oder pro Website geändert und angewendet 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Zu ändern</th>
+<th>Ändern</th>
 <th>Verwendung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Die maximale Größe (in Bytes) für eine Protokolldatei</p></td>
+<td><p>Die maximale Größe (in Byte) für eine Protokolldatei</p></td>
 <td><p>Lync Server-Systemsteuerung</p>
-<p>oder</p>
+<p>- oder -</p>
 <p>Lync Server-Verwaltungsshell</p></td>
 </tr>
 <tr class="even">
-<td><p>Die maximale Menge an Informationen (in Bytes), die im Cache gespeichert werden können</p></td>
+<td><p>Die maximale Menge an Informationen (in Bytes), die im Cache gespeichert werden können.</p></td>
 <td><p>Lync Server-Systemsteuerung</p>
-<p>oder</p>
+<p>- oder -</p>
 <p>Lync Server-Verwaltungsshell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Wie oft (in Minuten), um zwischengespeicherte Informationen in die Protokolldatei zu schreiben</p></td>
+<td><p>Wie oft (in Minuten) zwischengespeicherte Informationen in die Protokolldatei geschrieben werden sollen</p></td>
 <td><p>Lync Server-Systemsteuerung</p>
-<p>oder</p>
+<p>- oder -</p>
 <p>Lync Server-Verwaltungsshell</p></td>
 </tr>
 <tr class="even">
-<td><p>Wie lange (in Tagen) Protokolldateien aufbewahrt werden</p></td>
+<td><p>Wie lange (in Tagen), um Protokolldateien beizubehalten</p></td>
 <td><p>Lync Server-Systemsteuerung</p>
-<p>oder</p>
+<p>- oder -</p>
 <p>Lync Server-Verwaltungsshell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Zeitpunkt (Tageszeit) zum Überprüfen auf abgelaufene Dateien, die gelöscht werden sollen</p></td>
+<td><p>Wann (Tageszeit) zum Überprüfen auf abgelaufene Dateien, die gelöscht werden sollten</p></td>
 <td><p>Lync Server-Verwaltungsshell</p></td>
 </tr>
 <tr class="even">
@@ -87,7 +87,7 @@ Protokolleinstellungen können global oder pro Website geändert und angewendet 
 <td><p>Lync Server-Verwaltungsshell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Welche Protokolldatei Typen beibehalten werden sollen</p></td>
+<td><p>Welche Protokolldatei Typen aufbewahrt werden sollen</p></td>
 <td><p>Lync Server-Verwaltungsshell</p></td>
 </tr>
 </tbody>
@@ -96,25 +96,25 @@ Protokolleinstellungen können global oder pro Website geändert und angewendet 
 
 <div>
 
-## <a name="to-change-logging-settings-by-using-lync-server-control-panel"></a>So ändern Sie die Protokollierungseinstellungen mithilfe der lync Server-Systemsteuerung
+## <a name="to-change-logging-settings-by-using-lync-server-control-panel"></a>So ändern Sie die Protokollierungseinstellungen mithilfe von lync Server-Systemsteuerung
 
-1.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf **geräteprotokoll Konfiguration**.
+2.  Klicken Sie in der linken Navigationsleiste auf **Clients** und dann auf **Geräteprotokollkonfiguration**.
 
-3.  Doppelklicken Sie auf der Seite **Device Log-Konfiguration** auf die Konfiguration, die Sie ändern möchten.
+3.  Doppelklicken Sie auf der Seite **Geräteprotokollkonfiguration** auf die Konfiguration, die Sie ändern möchten.
 
-4.  Ändern Sie im Dialogfeld **Protokolleinstellung bearbeiten** eine der folgenden Einstellungen:
+4.  Ändern Sie im Dialogfeld **Protokolleinstellung bearbeiten** die folgenden Einstellungen:
     
-      - **Maximale Dateigröße (Bytes)**   gibt die maximale Größe an, die eine Protokolldatei erhalten kann, bevor Sie bereinigt wird. Der Standardwert ist 1.024.000 Bytes (1 MB).
+      - **Maximale Dateigröße (Bytes)**   gibt die maximale Größe an, mit der eine Protokolldatei gelöscht werden kann, bevor Sie bereinigt wird. Der Standardwert beträgt 1.024.000 (1 MB).
     
-      - **Maximale Cachegröße (Bytes)**   gibt die maximale Informationsmenge (in Byte) an, die im Protokolldatei Cache gespeichert werden kann, bevor dieser Cache gelöscht werden muss und die Daten in eine Protokolldatei geschrieben werden. Der Standardwert ist 512.000 Bytes (0,5 MB).
+      - **Maximale Cachegröße (Bytes)**   gibt die maximale Menge an Informationen (in Byte) an, die im Protokolldatei Cache aufbewahrt werden können, bevor dieser Cache gelöscht werden muss und die Daten in eine Protokolldatei geschrieben werden. Der Standardwert beträgt 512.000 (0,5 MB).
     
-      - **Die Anzahl der Minuten zum Leeren des Caches (1-60)**   gibt an, wie häufig im Protokolldatei Cache gespeicherte Informationen in die eigentliche Protokolldatei geschrieben werden. Nachdem die Daten protokolliert wurden, wird der Cache gelöscht. Der Standardwert ist fünf Minuten.
+      - **Anzahl der Minuten für das Leeren des Caches (1-60)**   gibt an, wie oft im Protokolldatei Cache gespeicherte Informationen in die tatsächliche Protokolldatei geschrieben werden. Nachdem die Daten protokolliert wurden, wird der Cache geleert. Der Standardwert beträgt fünf Minuten.
     
-      - **Anzahl der Tage für die Beibehaltung von Protokolldateien (1-365)**   gibt an, wie viele Tage die Protokolldateien aufbewahrt werden, bevor Sie gelöscht werden. Der Standardwert ist 10 Tage.
+      - **Anzahl der Tage für die Aufbewahrung von Protokolldateien (1-365)**   gibt an, wie viele Tage die Protokolldateien aufbewahrt werden, bevor Sie gelöscht werden. Der Standardwert beträgt 10 Tage.
 
-5.  Klicken Sie auf **Commit ausführen**.
+5.  Klicken Sie auf **Commit**.
 
 </div>
 
@@ -122,25 +122,25 @@ Protokolleinstellungen können global oder pro Website geändert und angewendet 
 
 ## <a name="changing-logging-settings-by-using-windows-powershell-cmdlets"></a>Ändern der Protokollierungseinstellungen mithilfe von Windows PowerShell-Cmdlets
 
-Einstellungen für die Geräteupdate Protokolldatei können mithilfe von Windows PowerShell und dem Cmdlet " **Satz-CsDeviceUpdateConfiguration** " geändert werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden.
+Einstellungen für die Geräteupdate Protokolldatei können mithilfe von Windows PowerShell und dem Cmdlet "Cmdlet **festlegen** " geändert werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden.
 
 <div>
 
 
 > [!NOTE]  
-> Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Remote-PowerShell" unter.
+> Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>mithilfe von Remote-PowerShell" unter.
 
 
 
 </div>
 
-Die folgenden Beispiele zeigen eine Reihe von Möglichkeiten, wie Sie mit " **CsDeviceUpdateConfiguration** " Einstellungen ändern können.
+Die folgenden Beispiele zeigen eine Reihe von Möglichkeiten, mit denen Sie die Einstellungen mithilfe von " **CsDeviceUpdateConfiguration** " ändern können.
 
 <div>
 
 ## <a name="to-modify-the-maximum-log-file-size-and-the-log-cleanup-interval"></a>So ändern Sie die maximale Protokolldateigröße und das Protokoll Bereinigungsintervall
 
-  - Mit dem folgenden Befehl werden die Einstellungen für das Geräteupdate Protokoll geändert, die auf die Redmond-Website angewendet wurden. In diesem Beispiel ist die maximale Protokolldateigröße auf 204800 Bytes und das Protokoll Bereinigungsintervall auf 14 Tage eingestellt.
+  - Mit dem folgenden Befehl werden die Einstellungen für das Geräteupdate Protokoll geändert, die auf den Standort "Redmond" angewendet wurden. In diesem Beispiel wird die maximale Größe der Protokolldatei auf 204800 Byte festgelegt, und das Intervall für die Protokoll Bereinigung wird auf 14 Tage festgelegt.
     
         Set-CsDeviceUpdateConfiguration -Identity "site:Redmond" -MaxLogFileSize 204800 -LogCleanUpInterval 14.00:00:00
 
@@ -148,15 +148,15 @@ Die folgenden Beispiele zeigen eine Reihe von Möglichkeiten, wie Sie mit " **Cs
 
 <div>
 
-## <a name="to-modify-the-log-cleanup-time-of-day"></a>So ändern Sie die Zeit für die Protokoll Bereinigung
+## <a name="to-modify-the-log-cleanup-time-of-day"></a>So ändern Sie die Zeit des Protokoll Bereinigungs Tags
 
-  - Mit diesem Befehl wird die Protokoll Bereinigungszeit für die Website "Redmond" auf 3:00 Uhr festgelegt.
+  - Mit diesem Befehl wird die Zeit für die Protokoll Bereinigung für den Standort "Redmond" auf 3:00 Uhr festgelegt.
     
         Set-CsDeviceUpdateConfiguration -Identity "site:Redmond" -LogCleanupTimeOfDay 03:00
 
 </div>
 
-Ausführliche Informationen finden Sie im Hilfethema zum Cmdlet " [Satz-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration) ".
+Ausführliche Informationen finden Sie im Hilfethema zum Cmdlet " [CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsDeviceUpdateConfiguration) ".
 
 </div>
 

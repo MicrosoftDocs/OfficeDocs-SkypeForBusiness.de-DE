@@ -12,16 +12,16 @@ ms:contentKeyID: 48183236
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05ca3b20d78d20f4c442edcb3a5722700c3e14a5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2c706503ac334e6af3077e1f64418962bc825718
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725599"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050517"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41725599"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-14_
+_**Letztes Änderungsstand des Themas:** 2012-06-14_
 
-Lync Server 2013 enthält Unterstützung für IP-Version 6-Adressen (IPv6) sowie die fortgesetzte Unterstützung von IPv4-Adressen (IP Version 4). Bei IPv4-Adressen handelt es sich um 32-Bit-Adressen, die einem Computer die Kommunikation über das Internet ermöglichen. Aufgrund der weltweit steigenden Anzahl von Geräten sind die verfügbaren IPv4-Adressen nicht mehr verfügbar. Aus diesem Grund werden viele neue Geräte in die Verwendung von IPv6-Adressen verschoben. IPv6-Adressen haben die gleiche Funktion wie IPv4-Adressen (und bieten einige zusätzliche Features), anstelle von lediglich 32 Bit werden von IPv6-Adressen jedoch 128 Bit verwendet. Dadurch steht nicht nur ein neuer Satz, sondern auch eine größere Anzahl an Adressen zur Verfügung. Eine typische IPv4-Adresse sieht ungefähr wie folgt aus: 192.0.2.235, wohingegen eine IPv6-Adresse wie folgt aussieht: 2001:0db8:85a3:0000:0000:8a2e: 0370:7334. Die Änderung der Formatierung und Funktionalität für Geräte, die IPv6-Adressen verwenden, erfordert in ihrer lync Server 2013-Installation verschiedene Überlegungen zur Bereitstellung und Konfiguration.
+Lync Server 2013 enthält Unterstützung für IPv6-Adressen (IP Version 6) sowie die weitere Unterstützung von IPv4-Adressen (IP Version 4). IPv4-Adressen sind 32-Bit-Adressen, mit denen ein Computer über das Internet kommunizieren kann. Aufgrund der weltweit steigenden Anzahl von Geräten sind die verfügbaren IPv4-Adressen nicht mehr verfügbar. Aus diesem Grund werden viele neue Geräte in die Verwendung von IPv6-Adressen verschoben. IPv6-Adressen führen dieselbe Funktion wie IPv4-Adressen aus (mit einigen zusätzlichen Funktionen), aber anstatt nur 32-Bits zu verwenden, verwenden IPv6-Adressen 128-Bits. Dies bietet nicht nur eine neue Gruppe von Adressen, sondern auch eine weitaus größere Anzahl von Adressen. Eine typische IPv4-Adresse sieht etwa so aus: 192.0.2.235, wohingegen eine IPv6-Adresse wie folgt aussieht: 2001:0db8:85a3:0000:0000:8a2e: 0370:7334. Die Änderung der Formatierung und Funktionalität für Geräte, die IPv6-Adressen verwenden, erfordert in ihrer lync Server 2013 Installation verschiedene Überlegungen zur Bereitstellung und Konfiguration.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Übersicht über IP-Adresstypen für Lync Server 2013](lync-server-2013-overview-of-ip-address-types.md)
+  - [Übersicht über IP-Adresstypen für lync Server 2013](lync-server-2013-overview-of-ip-address-types.md)
 
-  - [Technische Anforderungen für IPv6 in Lync Server 2013](lync-server-2013-technical-requirements-for-ipv6.md)
+  - [Technische Anforderungen für IPv6 in lync Server 2013](lync-server-2013-technical-requirements-for-ipv6.md)
 
-  - [Überlegungen zu Migration und Koexistenz für IPv6 in Lync Server 2013](lync-server-2013-migration-and-coexistence-considerations-for-ipv6.md)
+  - [Überlegungen zu Migration und Koexistenz für IPv6 in lync Server 2013](lync-server-2013-migration-and-coexistence-considerations-for-ipv6.md)
 
   - [Konfigurieren von IP-Adresstypen in lync Server 2013](lync-server-2013-configure-ip-address-types.md)
 

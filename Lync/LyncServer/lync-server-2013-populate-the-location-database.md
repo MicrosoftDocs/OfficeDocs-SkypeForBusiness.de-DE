@@ -12,16 +12,16 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a93cee85afec1e3943af692d598d0d02ab678d58
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d7b443e257ee45c15974ba96a50b8217113ac942
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747645"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048339"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41747645"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-17_
+_**Letztes Änderungsstand des Themas:** 2012-09-17_
 
-Zum automatischen Suchen nach Clients in einem Netzwerk müssen Sie zunächst die Standortdatenbank mithilfe einer Netzwerk-*Wiremap* auffüllen, die Netzwerkelemente physischen Adressen (d. h. Postanschriften) zuordnet. Sie können Subnetze, drahtlose Zugriffspunkte, Switches und Ports verwenden, um die Wiremap zu definieren.
+Um Clients in einem Netzwerk automatisch zu finden, müssen Sie zunächst die Standortdatenbank mit einem Netzwerk- *Wiremap*füllen, das Netzwerkelemente den Civic-Adressen (also Straße) zuordnet. Sie können Subnetze, drahtlose Zugriffspunkte, Switches und Ports verwenden, um die Wiremap zu definieren.
 
-Sie können der Standortdatenbank Adressen einzeln oder unter Verwendung einer CSV-Datei per Massenvorgang hinzufügen. Die CSV-Datei muss dabei die in der folgenden Tabelle beschriebenen Spaltenformate aufweisen.
+Sie können der Standortdatenbank einzeln oder in Massen eine Adresse hinzufügen, indem Sie eine CSV-Datei verwenden, die die in der folgenden Tabelle beschriebenen Spaltenformate enthält.
 
-Wenn Sie ein ELIN-Gateway (Emergency Location Identification Number) verwenden, schließen Sie für jeden Standort die ELIN in das Feld **Unternehmensname** ein. Sie können für jeden Standort mehrere ELINs eingeben, jeweils durch ein Semikolon voneinander getrennt.
+Wenn Sie ein Elin-Gateway (Emergency Location Identification Number) verwenden, schließen Sie die Elin in das Feld **CompanyName** für jeden Standort ein. Sie können mehrere Elins für jede Position einschließen, die jeweils durch ein Semikolon voneinander getrennt sind.
 
 
 <table>
@@ -51,60 +51,60 @@ Wenn Sie ein ELIN-Gateway (Emergency Location Identification Number) verwenden, 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Netzwerkelement</th>
+<th>Netzwerk Element</th>
 <th>Erforderliche Spalten</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Drahtloser Zugriffspunkt</strong></p></td>
-<td><p>&lt;BSSID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;Hausnummer&gt;,&lt;HouseNumberSuffix&gt;,&lt;&gt;,...</p>
-<p>... &lt;Straßennamen&gt;,&lt;"streetsuffix"&gt;,&lt;postdirectional&gt;,&lt;Ort&gt;,&lt;Bundes&gt;Land&lt;,&gt;PLZ&lt;, Land&gt;</p></td>
+<td><p><strong>Drahtloser Zugriffspfad</strong></p></td>
+<td><p>&lt;BSSID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;Hausnummer&gt;,&lt;HouseNumberSuffix&gt;,&lt;Vorrichtungs&gt;,...</p>
+<p>... &lt;Streetname&gt;,&lt;"streetsuffix"&gt;&lt;, Post Directional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;&gt;PostalCode&lt;, Country&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Subnetz</strong></p></td>
-<td><p>&lt;Subnet&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;Hausnummer&gt;,&lt;HouseNumberSuffix&gt;,&lt;&gt;,...</p>
-<p>... &lt;Straßennamen&gt;,&lt;"streetsuffix"&gt;,&lt;postdirectional&gt;,&lt;Ort&gt;,&lt;Bundes&gt;Land&lt;,&gt;PLZ&lt;, Land&gt;</p></td>
+<td><p>&lt;Subnetz&gt;,&lt;Beschreibung&gt;,&lt;Speicherort&gt;,&lt;CompanyName&gt;,&lt;Hausnummer&gt;,&lt;HouseNumberSuffix&gt;,&lt;Vorrichtungs&gt;,...</p>
+<p>... &lt;Streetname&gt;,&lt;"streetsuffix"&gt;&lt;, Post Directional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;&gt;PostalCode&lt;, Country&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Port</strong></p></td>
-<td><p>&lt;&gt;Chassis-&lt;PortIDSubType&gt;,&lt;&gt;Port-Nr&lt;,&gt;Description&lt;,&gt;Location&lt;,&gt;CompanyName&lt;,&gt;Hausnummer&lt;,&gt;HouseNumberSuffix,...</p>
-<p>... &lt;&gt;Richtungs-,&lt;Straßennamen&gt;-&lt;,&gt;"streetsuffix"&lt;-,&gt;postdirectional-&lt;&gt;&lt;&gt;&lt;&lt;, Stadt&gt;-, Bundesland-, PLZ-, Land&gt;</p></td>
+<td><p>&lt;&gt;Chassis-&lt;PortIDSubType&gt;,&lt;Port-&gt;Nr&lt;,&gt;Description&lt;,&gt;Location&lt;,&gt;CompanyName&lt;,&gt;Hausnummer&lt;,&gt;HouseNumberSuffix,...</p>
+<p>... &lt;Predirectional&gt;,&lt;streetname&gt;,&lt;"streetsuffix"&gt;,&lt;Post Directional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;&gt;PostalCode&lt;, Country&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Switch</strong></p></td>
-<td><p>&lt;&gt;Chassis-&lt;Nr&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;Hausnummer&gt;,&lt;HouseNumberSuffix,&gt;,...</p>
-<p>... &lt;Straßennamen&gt;,&lt;"streetsuffix"&gt;,&lt;postdirectional&gt;,&lt;Ort&gt;,&lt;Bundes&gt;Land&lt;,&gt;PLZ&lt;, Land&gt;</p></td>
+<td><p>&lt;Fahrgestell-&gt;Nr&lt;,&gt;Beschreibung&lt;,&gt;Speicherort&lt;,&gt;CompanyName&lt;,&gt;Hausnummer&lt;,&gt;HouseNumberSuffix&lt;, Vorrichtungs&gt;,...</p>
+<p>... &lt;Streetname&gt;,&lt;"streetsuffix"&gt;&lt;, Post Directional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;&gt;PostalCode&lt;, Country&gt;</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Wenn Sie die Standortdatenbank nicht auffüllen und die Eigenschaft **Standort erforderlich** in der Standortrichtlinie auf **Ja** oder **Haftungsausschluss** festgelegt ist, wird der Benutzer vom Client aufgefordert, den Standort manuell einzugeben.
+Wenn Sie die Standortdatenbank nicht auffüllen und der Speicherort, der in der ortungsrichtlinie **erforderlich** ist, auf **Ja** oder **Haftungsausschluss**festgelegt ist, fordert der Client den Benutzer auf, einen Speicherort manuell einzugeben.
 
-Details zum Auffüllen der Standortdatenbank finden Sie in der Dokumentation zur lync Server-Verwaltungsshell für die folgenden Cmdlets:
+Ausführliche Informationen zum Auffüllen der Standortdatenbank finden Sie in der lync Server-Verwaltungsshell Dokumentation für die folgenden Cmdlets:
 
   - **Get-CsLisSubnet**
 
-  - **Satz-CsLisSubnet**
+  - **Gruppe-CsLisSubnet**
 
   - Remove-CsLisSubnet
 
   - **Get-CsLisWirelessAccessPoint**
 
-  - **Satz-CsLisWirelessAccessPoint**
+  - **Gruppe-CsLisWirelessAccessPoint**
 
   - **Remove-CsLisWirelessAccessPoint**
 
   - **Get-CsLisSwitch**
 
-  - **Satz-CsLisSwitch**
+  - **Gruppe-CsLisSwitch**
 
   - **Remove-CsLisSwitch**
 
   - **Get-CsLisPort**
 
-  - **Satz-CsLisPort**
+  - **Gruppe-CsLisPort**
 
   - **Remove-CsLisPort**
 
@@ -112,15 +112,15 @@ Details zum Auffüllen der Standortdatenbank finden Sie in der Dokumentation zur
 
 ## <a name="to-add-network-elements-to-the-location-database"></a>So fügen Sie der Standortdatenbank Netzwerkelemente hinzu
 
-1.  Führen Sie das folgende Cmdlet aus, um der Standortdatenbank einen Subnetzstandort hinzuzufügen.
+1.  Führen Sie das folgende Cmdlet aus, um der Standortdatenbank einen Subnetz-Speicherort hinzuzufügen.
     
         Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    Für ELIN-Gateways geben Sie die ELIN in das Feld „Unternehmensname“ ein. Sie können mehrere ELINs eingeben. Beispiel:
+    Legen Sie für Elin-Gateways die Elin in das Feld CompanyName. Sie können mehr als ein Elin einschließen. Beispiel:
     
         Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    Alternativ dazu können Sie auch folgende Cmdlets ausführen und eine Datei namens „subnets.csv“ verwenden, um Subnetzstandorte per Massenvorgang zu aktualisieren.
+    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "Subnetze. csv" verwenden, um Massenaktualisierungen für Subnet-Speicherorte durchzuführen.
     
         $g = Import-Csv subnets.csv
         $g | Set-CsLisSubnet
@@ -129,27 +129,27 @@ Details zum Auffüllen der Standortdatenbank finden Sie in der Dokumentation zur
     
         Set-CsLisWirelessAccessPoint -BSSID 0A-23-CD-16-AA-2E -Description "Wireless1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
     
-    Alternativ dazu können Sie auch folgende Cmdlets ausführen und eine Datei namens „waps.csv“ verwenden, um drahtlose Standorte per Massenvorgang zu aktualisieren.
+    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "WAPs. csv" zum Massenaktualisieren von drahtlos Standorten verwenden.
     
         $g = Import-Csv waps.csv
         $g | Set-CsLisWirelessAccessPoint
 
-3.  Führen Sie das folgende Cmdlet aus, um der Standortdatenbank Switchstandorte hinzuzufügen.
+3.  Führen Sie das folgende Cmdlet aus, um der Standortdatenbank Switch-Standorte hinzuzufügen.
     
         Set-CsLisSwitch-ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
     
-    Alternativ dazu können Sie auch folgende Cmdlets ausführen und eine Datei namens „switches.csv“ verwenden, um Switchstandorte per Massenvorgang zu aktualisieren.
+    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "Switches. csv" zum Massenaktualisieren von Switch-Standorten verwenden.
     
         $g = Import-Csv switches.csv
         $g | Set-CsLisSwitch
 
-4.  Führen Sie das folgende Cmdlet aus, um der Standortdatenbank Portstandorte hinzuzufügen.
+4.  Führen Sie das folgende Cmdlet aus, um der Standortdatenbank Port Speicherorte hinzuzufügen.
     
         Set-CsLisPort -ChassisID 0C-23-CD-16-AA-CC -PortID 0A-abcd -Description "Port1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
     
-    Der Standardwert für PortIDSubType lautet LocallyAssigned. Sie können den Wert auch auf InterfaceAlias oder InterfaceName festlegen.
+    Der Standardwert für PortIDSubType ist LocallyAssigned. Sie können ihn auch auf InterfaceAlias oder InterfaceName festlegen.
     
-    Alternativ dazu können Sie auch folgende Cmdlets ausführen und eine Datei namens „ports.csv“ verwenden, um Portstandorte per Massenvorgang zu aktualisieren.
+    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "Ports. csv" zum Massenaktualisieren von Port Speicherorten verwenden.
     
         $g = Import-Csv ports.csv
         $g | Set-CsLisPort

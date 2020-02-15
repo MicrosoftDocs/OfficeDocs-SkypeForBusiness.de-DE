@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Vorbereiten der Wiederherstellung von lync Server'
+title: 'Lync Server 2013: Vorbereiten der Wiederherstellung lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541490
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2e6516ee1162c02f2bebc8c385c2f41e87d7781
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 70a011109c985f126c591698f3ea572242498771
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724895"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050457"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-to-restore-lync-server-2013"></a>Vorbereiten der Wiederherstellung von lync Server 2013
+# <a name="preparing-to-restore-lync-server-2013"></a>Vorbereiten der Wiederherstellung lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41724895"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+_**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Bevor Sie mit dem Wiederherstellen von Servern und Datenbankennach einem Fehler beginnen, müssen Sie Folgendes ermitteln:
+Sie müssen Folgendes bestimmen, bevor Sie nach einem aufgetretenen Fehler mit dem Wiederherstellen von Servern und Datenbanken beginnen:
 
   - Was muss wiederhergestellt werden?
 
@@ -45,11 +45,11 @@ Bevor Sie mit dem Wiederherstellen von Servern und Datenbankennach einem Fehler 
 
 <div>
 
-## <a name="determining-what-to-restore"></a>Bestimmen, was wiederhergestellt werden soll
+## <a name="determining-what-to-restore"></a>Bestimmen der wiederherzustellenden Komponenten
 
-In diesem Thema wird beschrieben, wie lync Server-Ausfälle wiederhergestellt werden, die auf der Ebene des Servers, Pools oder zentralen Verwaltungsspeichers auftreten. Wenn der zentrale Verwaltungsspeicher fehlschlägt, funktioniert Ihre lync Server-Bereitstellung weiterhin, aber Sie können keine Konfigurationsänderungen vornehmen. Wenn ein Back-End-Server oder Standard Edition-Server ausfällt, funktioniert der Benutzerpool nicht mehr. Wenn ein anderer Server ausfällt, hängt die Größe des Fehlers von der Serverrolle ab, die der Server ausführt, und davon, ob der Server mindestens eine Datenbank hostet.
+In diesem Thema wird beschrieben, wie Sie lync Server Ausfälle wiederherstellen, die auf der Ebene des Servers, des Pools oder des zentralen Verwaltungsspeichers auftreten. Wenn der zentrale Verwaltungsspeicher fehlschlägt, funktioniert Ihre lync Server-Bereitstellung weiterhin, aber Sie können keine Konfigurationsänderungen vornehmen. Wenn ein Back-End-Server oder Standard Edition-Server Fehler auftritt, wird der Benutzerpool nicht mehr funktionsfähig. Wenn ein anderer Server ausfällt, hängt die Größe des Fehlers von der Serverrolle ab, auf der der Server ausgeführt wird, und davon, ob der Server mindestens eine Datenbank hostet.
 
-### <a name="what-to-restore"></a>Was wiederhergestellt werden soll
+### <a name="what-to-restore"></a>Wiederherzustellende Komponenten
 
 <table>
 <colgroup>
@@ -58,8 +58,8 @@ In diesem Thema wird beschrieben, wie lync Server-Ausfälle wiederhergestellt we
 </colgroup>
 <thead>
 <tr class="header">
-<th>Wenn dies nicht möglich ist</th>
-<th>Lesen Sie diesen Abschnitt:</th>
+<th>Bei einem Fehler dieser Komponente:</th>
+<th>Siehe diesen Abschnitt:</th>
 </tr>
 </thead>
 <tbody>
@@ -68,40 +68,40 @@ In diesem Thema wird beschrieben, wie lync Server-Ausfälle wiederhergestellt we
 <td><p><a href="lync-server-2013-restoring-a-standard-edition-server.md">Wiederherstellen eines Standard Edition-Servers in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>zentraler Verwaltungsspeicher</p></td>
-<td><p><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">Wiederherstellen des Servers, auf dem der zentrale Verwaltungsspeicher in lync Server 2013 gehostet wird</a></p></td>
+<td><p>zentralen Verwaltungsspeicher</p></td>
+<td><p><a href="lync-server-2013-restoring-the-server-hosting-the-central-management-store.md">Wiederherstellen des Servers, der den zentralen Verwaltungsspeicher in lync Server 2013 hostet</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Enterprise Edition-Back-End</p></td>
 <td><p><a href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Wiederherstellen eines Enterprise Edition-Back-End-Servers in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Enterprise Edition, gespiegelt, primärer Back-End-Server</p></td>
-<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">Wiederherstellen eines gespiegelten Enterprise Edition-Back-End-Servers in lync Server 2013 – primär</a></p></td>
+<td><p>Enterprise Edition-gespiegelter Back-End-primärer Server</p></td>
+<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md">Wiederherstellen eines gespiegelten Enterprise Edition-Back-End-Servers in lync Server 2013-Primary</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Enterprise Edition, gespiegelt, sekundärer Back-End-Server</p></td>
-<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Wiederherstellen eines gespiegelten Enterprise Edition-Back-End-Servers in lync Server 2013 – Spiegelung</a></p></td>
+<td><p>Enterprise Edition-gespiegelte Back-End-sekundären Server</p></td>
+<td><p><a href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Wiederherstellen eines gespiegelten Enterprise Edition-Back-End-Servers in lync Server 2013-Mirror</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Jeder Enterprise Edition-Server, auf dem eine Serverrolle ausgeführt wird, beispielsweise ein Front-End-Server, ein Edgeserver, Director, Mediation Server oder beständiger Chat Server.</p></td>
+<td><p>Jede Enterprise Edition-Server, die eine Serverrolle ausführt, beispielsweise eine Front-End-Server, Edgeserver, Director, Vermittlungsserver oder persistent Chat Server.</p></td>
 <td><p><a href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Wiederherstellen eines Enterprise Edition-Mitgliedsservers in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ein ganzer lync Server-Pool</p></td>
-<td><p><a href="lync-server-2013-restoring-a-lync-server-pool.md">Wiederherstellen eines lync Server-Pools in lync Server 2013</a></p></td>
+<td><p>Gesamter lync Server Pool</p></td>
+<td><p><a href="lync-server-2013-restoring-a-lync-server-pool.md">Wiederherstellen eines lync Server Pools in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Enterprise Edition-Dateispeicher</p></td>
 <td><p><a href="lync-server-2013-restoring-a-file-store.md">Wiederherstellen eines Dateispeichers in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Eine eigenständige Überwachungsdatenbank oder eine Archivierungsdatenbank</p></td>
+<td><p>Ein eigenständiges Überwachungsdatenbank oder Archivierungsdatenbank</p></td>
 <td><p><a href="lync-server-2013-restoring-monitoring-or-archiving-data.md">Wiederherstellen von Überwachungs-oder Archivierungsdaten in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Eine eigenständige Datenbank für beständigen Chat</p></td>
-<td><p><a href="lync-server-2013-restoring-persistent-chat-data.md">Wiederherstellen beständiger Chat-Daten in lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-restoring-persistent-chat-data.md">Wiederherstellen von Daten für beständigen Chat in lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -111,64 +111,64 @@ In diesem Thema wird beschrieben, wie lync Server-Ausfälle wiederhergestellt we
 
 <div>
 
-## <a name="gathering-hardware-software-and-tools"></a>Sammeln von Hardware, Software und Tools
+## <a name="gathering-hardware-software-and-tools"></a>Zusammenstellen der Hardware, Software und Tools
 
-Wenn Sie einen Server wiederherstellen, müssen Sie mit einem neuen oder sauberen Computer beginnen. Darüber hinaus müssen Sie die folgende Hardware und Software zur Verfügung haben:
+Beim Wiederherstellen eines Servers müssen Sie mit einem neuen oder neu formatierten Computer beginnen. Darüber hinaus benötigen Sie die folgende Hardware und Software zur Verfügung:
 
-  - Ein sauberer oder neuer Server mit dem gleichen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) wie der fehlerhafte Server.
+  - Ein neu formatierter oder neuer Server mit demselben vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) wie der fehlerhafte Server.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Wenn Sie das Betriebssystem installieren, stellen Sie sicher, dass Sie das Computerkonto nicht in den Active Directory-Domänendiensten löschen, und überprüfen Sie, ob die Gruppen Berechtigungen für das Konto beibehalten werden.
+    > Wenn Sie das Betriebssystem installieren, stellen Sie sicher, dass Sie das Computerkonto nicht in Active Directory-Domänendienste löschen, und vergewissern Sie sich, dass die Gruppen Berechtigungen für das Konto beibehalten werden.
 
     
     </div>
 
-  - Installationssoftware für das Betriebssystem. Verwenden Sie zum Installieren des Betriebssystems die Server Bereitstellungsverfahren und-Konfigurationen, die von Ihrer Organisation eingerichtet wurden. Wenn Sie den Dienst wiederherstellen, sollten diese Verfahren und Konfigurationsanforderungen zur Verfügung stehen.
+  - Installationssoftware für das Betriebssystem. Verwenden Sie zum Installieren des Betriebssystem die Verfahren und Konfigurationen Ihrer Organisation für die Serverbereitstellung. Diese Verfahren und Konfigurationsanforderungen sollten beim Wiederherstellen des Diensts verfügbar sein.
 
-  - Installationssoftware für SQL Server 2012 oder SQL Server 2008 R2 Wenn Sie einen Datenbankserver installieren möchten, verwenden Sie die entsprechende Version von SQL Server und die von Ihrer Organisation eingerichteten Datenbankserver Bereitstellungsverfahren und-Konfigurationen. Wenn Sie den Dienst wiederherstellen, sollten diese Verfahren und Konfigurationsanforderungen zur Verfügung stehen.
+  - Installationssoftware für SQL Server 2012 oder SQL Server 2008 R2. Verwenden Sie zum Installieren eines Datenbankservers die entsprechende SQL Server-Version sowie die Verfahren und Konfigurationen Ihrer Organisation für die Datenbankserverbereitstellung. Diese Verfahren und Konfigurationsanforderungen sollten beim Wiederherstellen des Diensts verfügbar sein.
     
     <div>
     
 
     > [!NOTE]  
-    > Der lync Server-Bereitstellungs-Assistent installiert SQL Server 2012 Express auf jedem Standard Edition-Server und auf einem beliebigen anderen lync Server-Server automatisch, wenn ein lokaler Konfigurationsspeicher installiert ist, es sei denn, Sie haben SQL Server 2012 oder SQL Server 2008 R2 auf vorinstalliert. der Server.
+    > Der Assistent für die lync Server-Bereitstellung installiert SQL Server 2012 Express automatisch auf jedem Standard Edition-Server und auf einem anderen lync Server Server, wenn ein lokaler Konfigurationsspeicher installiert ist, es sei denn, Sie haben SQL Server 2012 oder SQL Server 2008 R2 vorinstalliert. dem Server.
 
     
     </div>
 
-  - Software zum Aufnehmen von System Bildern.
+  - Software zum Erstellen von Systemimages.
     
     <div>
     
 
     > [!TIP]  
-    > Wir empfehlen, dass Sie nach der Installation des Betriebssystems und SQL Server und vor dem Starten der Wiederherstellung eine Image-Kopie des Systems erstellen, damit Sie dieses Bild als Rollback-Point verwenden können, falls während der Wiederherstellung etwas schief geht.
+    > Es wird empfohlen, eine Abbild Kopie des Systems zu erstellen, nachdem Sie das Betriebssystem und die SQL Server installiert haben, und bevor Sie die Wiederherstellung starten, damit Sie dieses Bild als Rollback-Punkt verwenden können, falls bei der Wiederherstellung ein Fehler aufgetreten ist.
 
     
     </div>
 
-  - Lync Server 2013-Installationssoftware. Der lync Server-Bereitstellungs-Assistent befindet sich im lync Server-Installationsordner \\oder\\auf\\den Medien unter Setup amd64 Setup. exe.
+  - Lync Server 2013 Installationssoftware. Der lync Server-Bereitstellungs-Assistent befindet sich im lync Server Installationsordner oder \\auf\\dem\\Medium unter Setup amd64 Setup. exe.
 
 Während der Wiederherstellung verwenden Sie die folgenden Tools:
 
-  - Cmdlets der lync Server-Verwaltungsshell
+  - Lync Server-Verwaltungsshell-Cmdlets
 
-  - Import-CsUserData
+  - Import-csuserdata "
 
   - Tools zum Wiederherstellen von Windows-Ordnern
 
   - Topologie-Generator
 
-  - SQL Server-Datenbankdienstprogramme wie SQL Server Management Studio
+  - SQL Server-Datenbankhilfsprogramme wie z. B. SQL Server Management Studio
 
 </div>
 
 <div>
 
-## <a name="preparing-to-restore-a-server"></a>Vorbereiten der Wiederherstellung eines Servers
+## <a name="preparing-to-restore-a-server"></a>Vorbereitungen für die Wiederherstellung eines Servers
 
 Bevor Sie den Server wiederherstellen, müssen Sie die folgenden Schritte ausführen:
 
@@ -176,23 +176,23 @@ Bevor Sie den Server wiederherstellen, müssen Sie die folgenden Schritte ausfü
 
 2.  Wenn es sich bei dem Server um einen Back-End-Server handelt, installieren Sie SQL Server 2012 oder SQL Server 2008 R2.
 
-3.  Wiederherstellen oder Erneutes Registrieren Ihrer Zertifikate. Ausführliche Informationen zu Zertifikaten finden Sie unter "zusätzliche Sicherungsanforderungen" in den [Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Data](lync-server-2013-backup-and-restoration-requirements-data.md).
+3.  Stellen Sie Ihre Zertifikate wieder her oder registrieren Sie Sie erneut. Ausführliche Informationen zu Zertifikaten finden Sie unter "Additional Backup Requirements" in [Backup and Recovery Requirements in lync Server 2013: Data](lync-server-2013-backup-and-restoration-requirements-data.md).
 
-4.  Erstellen Sie ein Abbild des Systems, bevor Sie die Wiederherstellung starten, um es als Rollback-Punkt zu verwenden, falls während der Wiederherstellung etwas schief geht.
+4.  Erstellen Sie ein Abbild des Systems, bevor Sie die Wiederherstellung als Rollback-Punkt verwenden, falls während der Wiederherstellung ein Fehler auftritt.
 
 <div>
 
 
 > [!NOTE]  
-> Den lync Server-Bereitstellungs-Assistenten und Cmdlets, die in den Vorgehensweisen in diesem Thema beschrieben sind, und Verwandte Themen, legen Sie alle erforderlichen Zugriffssteuerungslisten (ACLs) an.
+> Mit dem lync Server-Bereitstellungs-Assistenten und den in den Verfahren in diesem Thema und verwandten Themen beschriebenen Cmdlets werden alle erforderlichen Zugriffssteuerungslisten (Access Control Lists, ACLs) festgelegt.
 
 
 
 </div>
 
-Überprüfen Sie, ob die Hardware und die Software, die Sie für die Komponenten benötigen, die Sie wiederherstellen möchten, verfügbar sind, bevor Sie die Wiederherstellung starten. Nachdem Sie das Betriebssystem und SQL Server installiert haben, können die meisten Schritte in den folgenden Wiederherstellungsverfahren Remote ausgeführt werden. Die Ausnahmen sind in den Verfahren angegeben.
+Stellen Sie sicher, dass die Hardware und die Software, die Sie für die wiederherzustellenden Komponenten benötigen, verfügbar sind, bevor Sie die Wiederherstellung starten. Nachdem Sie das Betriebssystem und SQL Server installiert haben, können die meisten Schritte in den folgenden Wiederherstellungsverfahren remote ausgeführt werden. In den Verfahren wird auf die Ausnahmen hingewiesen.
 
-Darüber hinaus sollten Sie den Sicherungs-und Wiederherstellungsplan Ihrer Organisation und die Informationen aus ihrer letzten Sicherung, wie etwa die Informationen in den Arbeitsblättern in diesem Dokument (Details finden Sie unter [Sicherungs-und Wiederherstellungs Arbeitsblätter für lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)), verfügbar sein, bevor Sie mit der Wiederherstellung beginnen.
+Sie sollten auch den Sicherungs-und Wiederherstellungsplan Ihrer Organisation und die Informationen aus der letzten Sicherung haben, beispielsweise die Informationen in den Arbeitsblättern in diesem Dokument (Ausführliche Informationen finden Sie unter [Sicherungs-und Wiederherstellungs Arbeitsblätter für lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)), die verfügbar sind, bevor Sie mit der Wiederherstellung beginnen.
 
 </div>
 

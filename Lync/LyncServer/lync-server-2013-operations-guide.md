@@ -12,20 +12,20 @@ ms:contentKeyID: 63969658
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21b4f3e0a9beaae9419b11bf7353319b3b3ad2b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d797f638121f09eacc9b1472feed0a0b84e2a74
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755789"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049527"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="operations-guide-for-lync-server-2013"></a>Operations Guide for Lync Server 2013
+# <a name="operations-guide-for-lync-server-2013"></a>Betriebsanleitung für lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755789"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-08-18_
+_**Letztes Änderungsstand des Themas:** 2014-08-18_
 
-In diesem Dokument werden die operativen Prozesse, Aufgaben und Tools beschrieben, die für die Verwaltung einer Microsoft lync Server 2013-Kommunikationssoftware Umgebung erforderlich sind. Es wird erläutert, wie lync Server 2013 entsprechend dem Microsoft Operations Framework (MOF)-Modell verwaltet wird, und es wird Ihnen beim Entwerfen einer effizienten Umgebung für das operative Management helfen, einschließlich der Implementierung von Zeitplänen, Prozessen und Verfahren zum Verwalten einer effiziente Arbeitsumgebung.
+In diesem Dokument werden die Betriebsprozesse, Aufgaben und Tools beschrieben, die für die Verwaltung einer Microsoft lync Server 2013 Kommunikationssoftware Umgebung erforderlich sind. In diesem Artikel wird erklärt, wie Sie lync Server 2013 entsprechend dem Microsoft Operations Framework (MOF)-Modell verwalten, und Sie unterstützen Sie beim Entwerfen einer effizienten Betriebsverwaltungsumgebung, einschließlich der Implementierung von Zeitplänen, Prozessen und Verfahren zur Verwaltung einer effiziente Arbeitsumgebung.
 
 <div>
 
@@ -45,17 +45,17 @@ In diesem Dokument werden die operativen Prozesse, Aufgaben und Tools beschriebe
 
 Die folgenden Abschnitte sind enthalten:
 
-  - [Bewährte Methoden für lync Server 2013-Umgebungen](lync-server-2013-best-practices-for-lync-server-environments.md)
+  - [Bewährte Methoden für lync Server 2013 Umgebungen](lync-server-2013-best-practices-for-lync-server-environments.md)
 
-  - [Tägliche Aufgaben in Lync Server 2013](lync-server-2013-daily-tasks.md)
+  - [Tägliche Aufgaben in lync Server 2013](lync-server-2013-daily-tasks.md)
 
-  - [Wöchentliche Aufgaben in Lync Server 2013](lync-server-2013-weekly-tasks.md)
+  - [Wöchentliche Aufgaben in lync Server 2013](lync-server-2013-weekly-tasks.md)
 
   - [Monatliche Aufgaben in lync Server 2013](lync-server-2013-monthly-tasks.md)
 
   - [Erforderliche Aufgaben in lync Server 2013](lync-server-2013-as-needed-tasks.md)
 
-  - [Vorgangs Checklisten für lync Server 2013](lync-server-2013-operations-checklists.md)
+  - [Betriebs Prüflisten für lync Server 2013](lync-server-2013-operations-checklists.md)
 
   - [Überwachen von lync Server 2013 mit System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)
 
@@ -72,10 +72,10 @@ Es wird davon ausgegangen, dass Ihre Microsoft lync Server 2013-Bereitstellung a
 ## <a name="see-also"></a>Siehe auch
 
 
-[Erste Schritte in Lync Server 2013](lync-server-2013-getting-started.md)  
+[Erste Schritte mit lync Server 2013](lync-server-2013-getting-started.md)  
 [Planen von lync Server 2013](lync-server-2013-planning.md)  
 [Bereitstellung von lync Server 2013](lync-server-2013-deployment.md)  
-[Verwaltungsshell für Lync Server 2013](lync-server-2013-lync-server-management-shell.md)  
+[Lync Server 2013 Management-Shell](lync-server-2013-lync-server-management-shell.md)  
   
 
 </div>

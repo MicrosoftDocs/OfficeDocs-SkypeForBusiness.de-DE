@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Bereitstellen von Mobilität'
+title: 'Lync Server 2013: Deploying Mobility'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185805
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ea96278ad965538923b619e84ea059c0d6c7953
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f70b94d5a529a3fce46ac2b199e079f6be1e5bd0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740945"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048756"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-mobility-in-lync-server-2013"></a>Bereitstellen von Mobilität in Lync Server 2013
+# <a name="deploying-mobility-in-lync-server-2013"></a>Bereitstellen von Mobilität in lync Server 2013
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41740945"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-08_
+_**Letztes Änderungsstand des Themas:** 2012-09-08_
 
-Wenn Sie das Mobilitätsfeature von lync Server 2013 bereitstellen, können mobile Benutzer unterstützte mobile Geräte für lync-Funktionen wie Instant Messaging (im), Anwesenheitsinformationen und Kontakte verwenden.
+Wenn Sie das lync Server 2013 Mobilitätsfeature bereitstellen, können mobile Benutzer unterstützte mobile Geräte für lync-Funktionen wie Instant Messaging (Sofortnachrichten), Anwesenheit und Kontakte verwenden.
 
-Details zu den Anforderungen für die Bereitstellung des Mobilitätsfeatures finden Sie unter [Planen der Mobilität in lync Server 2013](lync-server-2013-planning-for-mobility.md).
+Ausführliche Informationen zu den Anforderungen für die Bereitstellung des Mobilitätsfeatures finden Sie unter [Planning for Mobility in lync Server 2013](lync-server-2013-planning-for-mobility.md).
 
-Dieser Abschnitt führt Sie durch die Schritte zum Bereitstellen und Überprüfen der Mobilitäts-und automatischen Erkennungs Features.
+Dieser Abschnitt führt Sie durch die Schritte zum Bereitstellen und Überprüfen der Mobilitäts-und automatischen Ermittlungsfunktionen.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Erstellen von DNS-Einträgen für den AutoErmittlungsdienst in Lync Server 2013](lync-server-2013-creating-dns-records-for-the-autodiscover-service.md)
+  - [Erstellen von DNS-Einträgen für den AutoErmittlungsdienst in lync Server 2013](lync-server-2013-creating-dns-records-for-the-autodiscover-service.md)
 
-  - [Ändern der Zertifikate für Mobilität in Lync Server 2013](lync-server-2013-modifying-certificates-for-mobility.md)
+  - [Ändern von Zertifikaten für Mobilität in lync Server 2013](lync-server-2013-modifying-certificates-for-mobility.md)
 
-  - [Konfigurieren des Reverseproxys für Mobilität in Lync Server 2013](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)
+  - [Konfigurieren des Reverse-Proxys für Mobilität in lync Server 2013](lync-server-2013-configuring-the-reverse-proxy-for-mobility.md)
 
-  - [Konfigurieren der AutoErmittlung in Lync Server 2013 für Mobilität mit hybriden Bereitstellungen](lync-server-2013-configuring-autodiscover-for-mobility-with-hybrid-deployments.md)
+  - [Konfigurieren der AutoErmittlung in lync Server 2013 für Mobilität mit hybridbereitstellungen](lync-server-2013-configuring-autodiscover-for-mobility-with-hybrid-deployments.md)
 
-  - [Überprüfen der Mobilitätsbereitstellung in Lync Server 2013](lync-server-2013-verifying-your-mobility-deployment.md)
+  - [Überprüfen der Mobilitätsbereitstellung in lync Server 2013](lync-server-2013-verifying-your-mobility-deployment.md)
 
-  - [Konfigurieren von Pushbenachrichtigungen in Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)
+  - [Konfigurieren von Push-Benachrichtigungen in lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)
 
-  - [Konfigurieren der Mobilitätsrichtlinie in Lync Server 2013](lync-server-2013-configuring-mobility-policy.md)
+  - [Konfigurieren von mobilitätsrichtlinien in lync Server 2013](lync-server-2013-configuring-mobility-policy.md)
 
 </div>
 

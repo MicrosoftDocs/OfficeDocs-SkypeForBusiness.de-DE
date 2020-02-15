@@ -1,5 +1,5 @@
 ---
-title: Migrieren von Telefonen für gemeinsame Bereiche
+title: Migireren von Telefonen für gemeinsame Bereiche
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733604
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cba32f8aa95b870190280aebd94d51bdbeec0f2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c7abaa29d2383f80a6f822eaa5d524197996500b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762953"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047823"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrate-common-area-phones"></a>Migrieren von Telefonen für gemeinsame Bereiche
+# <a name="migrate-common-area-phones"></a>Migireren von Telefonen für gemeinsame Bereiche
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41762953"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-29_
+_**Letztes Änderungsstand des Themas:** 2012-09-29_
 
-Telefone im öffentlichen Bereich sind IP-Telefone, die sich am häufigsten in einem freigegebenen Arbeitsbereich oder in einem gemeinsamen Bereich befinden, beispielsweise in einer Lobby, einer Küche oder einem Factory-Stockwerk. Telefone im öffentlichen Bereich müssen nicht mit einem Computer verbunden sein, um die lync Server UC-Funktionalität bereitzustellen. Nachdem Sie eine lync Server 2010-Bereitstellung zu lync Server 2013 migriert haben, müssen Sie auch die Kontaktobjekte migrieren, die mit dem Legacy-Telefon des öffentlichen Bereichs verknüpft sind. Mithilfe der lync Server-Verwaltungsshell rufen Sie zunächst alle Kontaktobjekte ab, die mit den Telefonen des lync Server 2010-common areas verknüpft sind, und verschieben diese Objekte dann in den lync Server 2013-Pool.
+Telefone in öffentlichen Bereichen sind IP-Telefone, die sich am häufigsten in einem gemeinsamen Arbeitsbereich oder in einem gemeinsamen Bereich befinden, wie beispielsweise eine Lobby, eine Küche oder ein Factory Floor. Telefone für gemeinsame Bereiche müssen nicht mit einem Computer verbunden sein, um lync Server UC-Funktionalität bereitzustellen. Nachdem Sie eine lync Server 2010-Bereitstellung in lync Server 2013 migriert haben, müssen Sie auch die Kontaktobjekte migrieren, die dem Legacy-Telefon für gemeinsame Bereiche zugeordnet sind. Mit lync Server-Verwaltungsshell werden zunächst alle Contact-Objekte abgerufen, lync Server 2010 die mit den Telefonen für gemeinsame Bereiche verbunden sind, und diese Objekte dann in den lync Server 2013-Pool zu übertragen.
 
-**Migrieren von Telefonen für gemeinsame Bereiche**
+**Migireren von Telefonen für gemeinsame Bereiche**
 
-1.  Öffnen Sie auf dem lync Server 2013-Front-End-Server die lync Server-Verwaltungsshell.
+1.  Öffnen Sie auf dem lync Server 2013-Front-End-Server lync Server-Verwaltungsshell.
 
-2.  Geben Sie in der Befehlszeile Folgendes ein:
+2.  Geben Sie an der Befehlszeile Folgendes ein:
     
         Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsCommonAreaPhone -Target pool02.contoso.net
 
-3.  Um zu überprüfen, ob alle Kontaktobjekte in den lync Server 2013-Pool verschoben wurden, geben Sie aus der lync Server-Verwaltungsshell Folgendes ein:
+3.  Um zu überprüfen, ob alle Kontaktobjekte in den lync Server 2013 Pool verschoben wurden, geben Sie im lync Server-Verwaltungsshell Folgendes ein:
     
         Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool02.contoso.net"}
     
-    Überprüfen Sie, ob alle Kontaktobjekte jetzt dem lync Server 2013-Pool zugeordnet sind.
+    Überprüfen Sie, ob jetzt alle Contact-Objekte dem lync Server 2013-Pool zugeordnet sind.
 
 </div>
 

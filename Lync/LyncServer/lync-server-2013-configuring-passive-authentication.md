@@ -12,20 +12,20 @@ ms:contentKeyID: 54973690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a2e52f957a8aba7e69e97b0ec2100ffbc5a190c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a50cb75bdf833468d6974b9ddce1b282c1872d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756329"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046338"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-passive-authentication"></a>Konfigurieren der passiven Authentifizierung in lync Server 2013
+# <a name="configuring-lync-server-2013-passive-authentication"></a>Konfigurieren lync Server 2013 passiven Authentifizierung
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756329"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-07-11_
+_**Letztes Änderungsstand des Themas:** 2013-07-11_
 
-Im folgenden Abschnitt wird beschrieben, wie Sie lync Server 2013 mit kumulativen Updates konfigurieren: Juli 2013, um die passive Authentifizierung zu unterstützen. Nach der Aktivierung müssen lync-Benutzer, die für die zweistufige Authentifizierung aktiviert sind, eine physische oder virtuelle Smartcard sowie eine gültige PIN verwenden, um sich mit dem lync 2013 mit kumulativen Updates zu anmelden: Juli 2013-Client.
+Im folgenden Abschnitt wird beschrieben, wie Sie lync Server 2013 mit kumulativen Updates konfigurieren: Juli 2013 zur Unterstützung der passiven Authentifizierung. Sobald aktiviert, müssen lync-Benutzer, die für die zweistufige Authentifizierung aktiviert sind, eine physische oder virtuelle Smartcard sowie eine gültige PIN verwenden, um sich mit dem lync 2013 mit kumulativen Updates anzumelden: July 2013 Client.
 
 <div class="">
 
 
 > [!NOTE]  
-> Kunden wird dringend empfohlen, die passive Authentifizierung für Registrierungsstellen und Webdienste auf Dienstebene zu aktivieren. Wenn die passive Authentifizierung für Registrierungsstellen und Webdienste auf globaler Ebene aktiviert ist, führt dies wahrscheinlich zu organisationsweiten Authentifizierungsfehlern für Benutzer, die sich nicht mit der lync-2013 mit kumulativen Updates anmelden: Juli 2013 Client-Desktop Client.
+> Es wird dringend empfohlen, dass Kunden die passive Authentifizierung für Registrar und Webdienste auf Dienstebene aktivieren. Wenn die passive Authentifizierung für Registrierungsstellen-und Webdienste auf globaler Ebene aktiviert ist, führt dies wahrscheinlich zu organisationsweiten Authentifizierungsfehlern für Benutzer, die sich nicht mit dem lync 2013 mit kumulierten Updates anmelden: Clientdesktop Client für Juli 2013.
 
 
 
@@ -53,15 +53,15 @@ Im folgenden Abschnitt wird beschrieben, wie Sie lync Server 2013 mit kumulative
 
 ## <a name="web-service-configuration"></a>Webdienstkonfiguration
 
-In den folgenden Schritten wird die Erstellung einer angepassten Webdienstkonfiguration für Directorserver, Enterprise Pools und Standard Edition-Server, die für die passive Authentifizierung aktiviert werden sollen, beschrieben.
+In den folgenden Schritten wird beschrieben, wie Sie eine benutzerdefinierte Webdienstkonfiguration für Directors, Enterprise-Pools und Standard Edition-Server erstellen, die für die passive Authentifizierung aktiviert werden.
 
 **So erstellen Sie eine benutzerdefinierte Webdienstkonfiguration**
 
-1.  Melden Sie sich bei Ihrem lync Server 2013 mit kumulativen Updates an: Juli 2013-Front-End-Server mit einem lync-Administratorkonto.
+1.  Melden Sie sich bei Ihrem lync Server 2013 mit kumulierten Updates an: July 2013-Front-End-Server mit einem lync-Administratorkonto.
 
-2.  Starten Sie die lync Server 2013-Verwaltungsshell.
+2.  Starten Sie die lync Server 2013 Management-Shell.
 
-3.  Erstellen Sie über die Befehlszeile der lync Server-Verwaltungsshell eine neue Webdienstkonfiguration für jeden Director-, Enterprise-Pool-und Standard Edition-Server, der für die passive Authentifizierung aktiviert ist, indem Sie den folgenden Befehl ausführen:
+3.  Erstellen Sie über die Befehlszeile lync Server-Verwaltungsshell eine neue Webdienstkonfiguration für jeden Director, Enterprise-Pool und Standard Edition-Server, die für die passive Authentifizierung aktiviert werden, indem Sie den folgenden Befehl ausführen:
     ```powershell
     New-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
     ```
@@ -70,20 +70,20 @@ In den folgenden Schritten wird die Erstellung einer angepassten Webdienstkonfig
     
 
     > [!WARNING]  
-    > Der Wert für den vollqualifizierten Domänennamen in „WsFedPassiveMetadataUri“ ist der Name des Partnerverbunddiensts Ihres AD FS 2.0-Servers. Sie können den Wert des Namens des Partnerverbunddiensts in der AD FS 2.0-Verwaltungskonsole abrufen, indem Sie im Navigationsbereich auf <STRONG>Dienst</STRONG> klicken und dann <STRONG>Eigenschaften des Verbunddiensts bearbeiten</STRONG> auswählen.
+    > Der Wert für den "wsfedpassivemetadatauri"-FQDN ist der Verbunddienst Name des AD FS 2.0 Servers. Den Wert des Verbunddienst namens finden Sie in der AD FS 2.0-Verwaltungskonsole, indem Sie im Navigationsbereich mit der rechten Maustaste auf <STRONG>Dienst</STRONG> klicken und dann <STRONG>Eigenschaften von Verbunddienst bearbeiten</STRONG>auswählen.
 
     
     </div>
 
-4.  Überprüfen Sie, ob die Werte von „UseWsFedPassiveAuth“ und „WsFedPassiveMetadataUri“ richtig festgelegt wurden, indem Sie den folgenden Befehl ausführen:
+4.  Stellen Sie sicher, dass die Werte UseWsFedPassiveAuth und "wsfedpassivemetadatauri" ordnungsgemäß festgelegt wurden, indem Sie den folgenden Befehl ausführen:
      ```powershell
      Get-CsWebServiceConfiguration -identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
      ```
-5.  Für Clients stellt die passive Authentifizierung die am wenigsten vorzuziehende Authentifizierungsmethode für die Authentifizierung mithilfe von Webtickets dar. Für alle Directors, Enterprise-Pools und Standard Edition-Server, die für die passive Authentifizierung aktiviert werden, müssen alle anderen Authentifizierungstypen in lync-Webdiensten deaktiviert werden, indem Sie den folgenden Befehl ausführen:
+5.  Für Clients ist die passive Authentifizierung die am wenigsten bevorzugte Authentifizierungsmethode für die WebTICKET-Authentifizierung. Für alle Directors, Enterprise-Pools und Standard Edition-Server, die für die passive Authentifizierung aktiviert werden sollen, müssen alle anderen Authentifizierungstypen in lync Webdienste deaktiviert werden, indem Sie den folgenden Befehl ausführen:
     ```powershell
     Set-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
      ```
-6.  Überprüfen Sie, ob alle anderen Authentifizierungstypen erfolgreich deaktiviert wurden, indem Sie den folgenden Befehl ausführen:
+6.  Stellen Sie sicher, dass alle anderen Authentifizierungstypen erfolgreich deaktiviert wurden, indem Sie den folgenden Befehl ausführen:
     ```powershell
     Get-CsWebServiceConfiguration -Identity "Service:WebServer:LyncPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
      ```
@@ -91,15 +91,15 @@ In den folgenden Schritten wird die Erstellung einer angepassten Webdienstkonfig
 
 <div>
 
-## <a name="proxy-configuration"></a>Proxykonfiguration
+## <a name="proxy-configuration"></a>Proxy Konfiguration
 
-Wenn die Zertifikatauthentifizierung für lync-Webdienste deaktiviert ist, verwendet der lync-Client einen abzüglich bevorzugten Authentifizierungstyp wie Kerberos oder NTLM, um sich beim Registrierungsstellendienst zu authentifizieren. Die Zertifikatauthentifizierung wird weiterhin benötigt, um dem lync-Client das Abrufen eines webtickets zu ermöglichen, aber Kerberos und NTLM müssen für den Registrierungsdienst deaktiviert sein.
+Wenn die Zertifikatauthentifizierung für lync Webdienste deaktiviert ist, verwendet der lync-Client einen abzüglich bevorzugten Authentifizierungstyp wie Kerberos oder NTLM, um sich beim Registrierungsstellendienst zu authentifizieren. Die Zertifikatauthentifizierung ist weiterhin erforderlich, damit der lync-Client ein WebTICKET abrufen kann, jedoch müssen Kerberos und NTLM für den Registrierungsstellendienst deaktiviert werden.
 
-In den folgenden Schritten wird die Erstellung einer angepassten Proxykonfiguration für Edge Pools, Enterprise Pools und Standard Edition-Server, die für die passive Authentifizierung aktiviert werden sollen, beschrieben.
+In den folgenden Schritten wird beschrieben, wie Sie eine benutzerdefinierte Proxykonfiguration für Edge-Pools, Enterprise-Pools und Standard Edition-Server erstellen, die für die passive Authentifizierung aktiviert werden.
 
 **So erstellen Sie eine benutzerdefinierte Proxykonfiguration**
 
-1.  Erstellen Sie über die Befehlszeile der lync Server-Verwaltungsshell eine neue Proxykonfiguration für jeden lync Server 2013 mit kumulativen Updates: Juli 2013 Edge-Pool, Enterprise-Pool und Standard Edition-Server, die für die passive Authentifizierung aktiviert werden, indem Sie die folgenden Befehle:
+1.  Erstellen Sie über die Befehlszeile lync Server-Verwaltungsshell eine neue Proxykonfiguration für jeden lync Server 2013 mit kumulierten Updates: 2013. Juli-Edge-Pool, Enterprise-Pool und Standard Edition-Server, die für die passive Authentifizierung aktiviert werden, indem Sie den folgenden Befehl ausführen: folgenden Befehle aus:
     
        ```powershell
         New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" 
@@ -111,7 +111,7 @@ In den folgenden Schritten wird die Erstellung einer angepassten Proxykonfigurat
         -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
        ```
 
-2.  Überprüfen Sie, ob alle anderen Proxyauthentifizierungsarten erfolgreich deaktiviert wurden, indem Sie den folgenden Befehl ausführen:
+2.  Stellen Sie sicher, dass alle anderen Proxy Authentifizierungstypen erfolgreich deaktiviert wurden, indem Sie den folgenden Befehl ausführen:
     ```powershell
     Get-CsProxyConfiguration -Identity "Service:Registrar:LyncPool01.contoso.com"
          | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth

@@ -1,5 +1,5 @@
 ---
-title: Veröffentlichen von Office Web Apps Server mithilfe eines Reverseproxyservers
+title: Veröffentlichen von Office-webapps-Servern mithilfe eines Reverse-Proxyservers
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43a81fff75adbeadb6cfcead3316dab2c89b4269
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c1d1dae773c96cfa6d16994e5b3c6aec2504b16c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724585"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045988"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>Veröffentlichen von Office Web Apps Server in lync Server 2013 mit einem Reverse Proxy Server
+# <a name="publishing-office-web-apps-server-in-lync-server-2013-using-a-reverse-proxy-server"></a>Veröffentlichen von Office-webapps-Servern in lync Server 2013 mithilfe eines Reverse-Proxyservers
 
 </div>
 
@@ -35,77 +35,77 @@ ms.locfileid: "41724585"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-25_
+_**Letztes Änderungsstand des Themas:** 2013-02-25_
 
-Wenn Sie externe Benutzer (also Benutzer, die sich außerhalb der Firewall Ihrer Organisation anmelden) für den Zugriff auf Office Web Apps Server PowerPoint-Präsentationen verwenden möchten, müssen Sie Office Web Apps Server und einen Reverse-Proxy Server wie Microsoft Forefront verwenden. Threat Management-Gateway. Das bedeutet auch, dass Sie eine Website Veröffentlichungsregel erstellen und konfigurieren müssen. Mithilfe dieser Regel wird sichergestellt, dass Benutzer eine Verbindung mit dem Server herstellen können. Wenn Sie keinen Zugriff auf externe Benutzer bereitstellen müssen, müssen Sie keine Veröffentlichungsregel für Websites konfigurieren.
+Wenn Sie möchten, dass externe Benutzer (also Benutzer, die sich außerhalb der Firewall Ihrer Organisation anmelden) Zugriff auf Office-webapps Server-PowerPoint-Präsentationen haben, müssen Sie Office-webappsserver und einen Reverse-Proxy Server wie Microsoft Forefront verwenden. Threat Management-Gateway. Das bedeutet auch, dass Sie eine Website-Veröffentlichungsregel erstellen und konfigurieren müssen. Diese Regel hilft sicherzustellen, dass Benutzer eine Verbindung mit dem Server herstellen können. Wenn Sie keinen Zugriff auf externe Benutzer benötigen, müssen Sie keine Website-Veröffentlichungsregel konfigurieren.
 
-Führen Sie die folgenden Schritte aus, um eine Website Veröffentlichungsregel im Forefront Threat Management-Gateway zu konfigurieren:
+Führen Sie das folgende Verfahren aus, um in Forefront Threat Management Gateway eine Website-Veröffentlichungsregel zu konfigurieren:
 
-1.  Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft Forefront TMG**, und klicken Sie dann auf **Forefront TMG-Verwaltung**.
+1.  Klicken Sie im **Startmenü **auf **Alle Programme**, dann auf **Microsoft Forefront TMG** und anschließend auf **Forefront TMG Management**.
 
-2.  Klicken Sie in Forefront TMG mit der rechten Maustaste auf **Firewall-Richtlinie**, zeigen Sie auf **neu**, und klicken Sie dann auf **Website Veröffentlichungsregel**.
+2.  Klicken Sie in Forefront TMG mit der rechten Maustaste auf **Firewallrichtlinie** zeigen Sie auf **Neu**, und klicken Sie dann auf **Website-Veröffentlichungsregel**.
 
-3.  Geben Sie im Assistenten für neue Webveröffentlichungsregel auf der Seite **Willkommen bei der neuen Webveröffentlichungsregel-Assistent** einen Namen für die neue Regel in das Feld **Name der Webveröffentlichungs** Regel ein (beispielsweise **Office Web Apps-Server Regel**), und klicken Sie dann auf **weiter**.
+3.  Geben Sie im Assistenten für neue Webveröffentlichungsregeln auf der **Willkommensseite** im Feld **Name der Webveröffentlichungsregel** einen Namen für Ihre neue Regel ein (z. B. **Office Web Apps-Serverregel**), und klicken Sie dann auf **Weiter**.
 
-4.  Wählen Sie auf der Seite **Regelaktion angeben** die Option **zulassen** aus, und klicken Sie dann auf **weiter**.
+4.  Klicken Sie auf der Seite **Regelaktion festlegen** auf **Zulassen** und dann auf **Weiter**.
 
-5.  Wählen Sie auf der Seite **Veröffentlichungs** **eine einzelne Website oder ein Lastenausgleichsmodul veröffentlichen** aus, und klicken Sie dann auf **weiter**.
+5.  Aktivieren Sie auf der Seite **Veröffentlichungstyp** die Option **Einzelne Website oder Lastenausgleich veröffentlichen**, und klicken Sie dann auf **Weiter**.
 
-6.  Wählen Sie auf der Seite **Server Verbindungssicherheit** die Option SSL verwenden aus, um **eine Verbindung mit dem veröffentlichten Webserver oder der Serverfarm herzustellen** , und klicken Sie dann auf **weiter**.
+6.  Klicken Sie auf der Seite **Sicherheit der Serververbindung** auf **SSL verwenden, um eine Verbindung zum veröffentlichten Webserver oder zur Serverfarm herzustellen**, und klicken Sie dann auf **Weiter**.
 
-7.  Geben Sie auf der Seite **interne Veröffentlichungs Details** den FQDN Ihres Office Web Apps-Servers (beispielsweise **officewebapps01.contoso.com**) in das Feld **interner Websitename** ein, und klicken Sie dann auf **weiter**. Der Name, der im Feld **interner Websitename** eingegeben wurde, muss im Feld Betreff oder im Feld Subject Alternative Name des Zertifikats angezeigt werden, das Sie Office Web Apps Server zugewiesen haben.
+7.  Geben Sie auf der Seite **Interne Veröffentlichungsdetails** im Feld **Interner Sitename** den FQDN Ihres Office Web Apps-Servers ein (z. B. **officewebapps01.contoso.com**), und klicken Sie dann auf **Weiter**. Der im Feld **Interner Sitename** eingegebene Name muss im Betrefffeld oder dem Feld "Alternativer Antragstellername" des Zertifikats angezeigt werden, das Sie dem Office Web Apps-Server zugeordnet haben.
 
-8.  **Geben / ** Sie auf der Seite **interne Veröffentlichungs Details** im Feld **Pfad (optional)** ein, und klicken Sie dann auf **weiter**. Mit der\* /-Syntax wird sichergestellt, dass alle Ordner und Unterordner der Website veröffentlicht werden.
+8.  **Geben / ** Sie auf der Seite **interne Veröffentlichungs Details** im Feld **Pfad (optional)** ein, und klicken Sie dann auf **weiter**. Mithilfe der\* /-Syntax wird sichergestellt, dass alle Ordner und Unterordner für die Website veröffentlicht werden.
 
-9.  Wählen Sie auf der Seite Details für den **öffentlichen Namen** diesen Domänennamen aus der Dropdownliste **Accept Request for** **(Typ below)** aus, und geben Sie dann im Feld öffentlicher Name den vollqualifizierten für Ihren Office Web Apps-Server ein. Dieser Name sollte der Name sein, der für den Zugriff auf Ihre Website verwendet wird. Wenn Sie beispielsweise über die URL http://officewebapps01.contoso.com auf Ihre Website zugreifen, sollten Sie **officewebapps01.contoso.com** in das Feld **Öffentlicher Name** eingeben.
+9.  Wählen Sie auf der Seite **Details des öffentlichen Namen** in der Dropdownliste **Anforderungen annehmen für** die Option **Diesen Domänennamen (unten eingeben)**, und geben Sie dann den vollqualifizierten Domänennamen für Ihren Office Web Apps-Server in das Feld "Öffentlicher Name" ein. Dieser Name sollte der Name für den Zugriff auf Ihre Website sein. Wenn beispielsweise über die URL http://officewebapps01.contoso.com auf Ihre Website zugegriffen wird, sollten Sie **officewebapps01.contoso.com** in das Feld **Öffentlicher Name** eingeben.
 
 10. Klicken Sie auf **Weiter**.
 
-11. Klicken Sie auf der Seite **Weblistener auswählen** auf **neu**.
+11. Klicken Sie auf der Seite **Weblistener auswählen** auf **Neu**.
 
-12. Geben Sie im Assistenten für neue Weblistener-Definition einen Namen für den neuen Weblistener (beispielsweise **SSL**) in das Feld **Weblistener-Name** ein, und klicken Sie dann auf **weiter**.
+12. Geben Sie im Assistenten für neue Weblistenerdefinition im Feld **Weblistenername**einen Namen für den neuen Weblistener ein (z. B. **SSL**), und klicken Sie dann auf **Weiter**.
 
-13. Wählen Sie auf der Seite **Client Verbindungssicherheit** die Option **SSL-gesicherte Verbindungen mit Clients anfordern** aus, und klicken Sie dann auf **weiter**.
+13. Wählen Sie auf der Seite **Sicherheit der Clientverbindung** die Option **Sichere SSL-Verbindungen mit Clients erforderlich** aus, und klicken Sie dann auf **Weiter**.
 
-14. Wählen Sie auf der Seite **Weblistener-IP-Adressen** die Option **extern**aus, wählen Sie **intern**aus, und klicken Sie dann auf **weiter**.
+14. Wählen Sie auf der Seite **Weblistener-IP-Adressen** die Optionen **Extern** und **Intern**, und klicken Sie dann auf **Weiter**.
 
-15. Wählen Sie auf der Seite **Listener SSL-Zertifikate** die Option **einzelnes Zertifikat für diesen Weblistener verwenden** aus, und klicken Sie dann auf **Zertifikat auswählen**.
+15. Wählen Sie auf der Seite **Listener-SSL-Zertifikate** die Option **Ein einziges Zertifikat für diesen Weblistener verwenden**, und klicken Sie dann auf **Zertifikat auswählen**.
 
-16. Wählen Sie im Dialogfeld **Zertifikat auswählen** das für diesen Weblistener zu verwendende Zertifikat aus, und klicken Sie dann auf **auswählen**.
+16. Wählen Sie im Dialogfeld **Zertifikat auswählen** das Zertifikat aus, das für diesen Weblistener verwendet werden soll, und klicken Sie dann auf **Auswählen**
 
-17. Klicken Sie auf der Seite **Listener SSL-Zertifikate** auf **weiter**.
+17. Klicken Sie auf der Seite **Listener-SSL-Zertifikate** auf **Weiter**.
 
-18. Wählen Sie auf der Seite **Authentifizierungseinstellungen** in der Dropdown **Liste Wählen Sie aus, wie Clients Anmeldeinformationen für Forefront TMG bereitstellen** die Option **keine Authentifizierung** aus, und klicken Sie dann auf **weiter**.
+18. Wählen Sie auf der Seite **Authentifizierungseinstellungen** in der Dropdownliste **Legen Sie fest, wie die Clients die Anmeldeinformationen an Forefront TMG übermitteln sollen** die Option **Keine Authentifizierung** aus, und klicken Sie dann auf **Weiter**.
 
-19. Klicken Sie auf der Seite **Einstellungen für einmaliges Anmelden** auf **weiter**.
+19. Klicken Sie auf der Seite **Einstellungen für einmaliges Anmelden (SSO)** auf **Weiter**.
 
-20. Überprüfen Sie auf der Seite zum **abschließen des neuen Weblistener-Assistenten** die Zusammenfassung der von Ihnen vorgenommenen Konfigurationsoptionen. Wenn Sie fertig sind, klicken Sie auf **Fertig stellen**.
+20. Überprüfen Sie auf der Seite **Fertigstellen des Assistenten** die Zusammenfassung der Konfigurationsauswahlen, und klicken Sie anschließend auf **Fertig stellen**.
 
-21. Klicken Sie auf der Seite **Weblistener auswählen** auf **weiter**.
+21. Klicken Sie auf der Seite **Weblistener auswählen** auf **Weiter**.
 
-22. Wählen Sie auf der Seite **Authentifizierungsdelegierung** die Option **keine Delegierung aus, aber der Client kann sich direkt** über die **Option wählen Sie die Methode aus, die von Forefront TMG für die Authentifizierung bei der veröffentlichten Web Server** -Dropdownliste verwendet wird, und klicken Sie dann auf **weiter**.
+22. Wählen Sie auf der Seite **Authentifizierungsdelegierung** in der Dropdownliste **Legen Sie die Methode fest, mit der Forefront TMG sich beim veröffentlichten Webserver authentifizieren soll** die Option **Keine Delegierung, aber direkte Authentifizierung des Clients**, und klicken Sie dann auf **Weiter**.
 
-23. Überprüfen Sie auf der Seite **Benutzersätze** , ob die entsprechenden Benutzersätze aufgelistet sind. Standardmäßig ist dies der Benutzersatz **alle Benutzer** . Klicken Sie auf **Hinzufügen** , um andere Benutzergruppen hinzuzufügen, die Sie möglicherweise definiert haben. Wenn Sie fertig sind, klicken Sie auf **weiter**.
+23. Bestätigen Sie auf der Seite **Benutzersätze**, dass die richtigen Benutzersätze aufgeführt sind. Standardmäßig ist dies der Benutzersatz **Alle Benutzer**. Klicken Sie auf **Hinzufügen**, um ggf. andere Benutzersätze hinzuzufügen, die Sie definiert haben. Klicken Sie anschließend auf **Weiter**.
 
-24. Klicken Sie auf der Seite zum **Abschließen der neuen Webveröffentlichungsregel** auf **Fertig stellen**.
+24. Klicken Sie auf der Seite **Fertigstellen des Assistenten** auf **Fertig stellen**.
 
-Beachten Sie, dass das Klicken auf " **Fertig stellen** " nicht bedeutet, dass Sie den Vorgang abgeschlossen haben. Das bedeutet, dass dies nicht automatisch angewendet wird und die neue Regel aktiviert wird. Stattdessen müssen Sie auf die Schaltfläche "über **nehmen** " klicken, die auf der Forefront TMG-Benutzeroberfläche angezeigt wird. Wenn Sie auf über **nehmen** klicken, wird das Dialogfeld **Beschreibung der Konfigurationsänderung** angezeigt. Klicken Sie in diesem Dialogfeld auf über **nehmen** , um die neue Veröffentlichungsregel zu aktivieren.
+Beachten Sie, dass der Prozess nicht durch Klicken auf **Fertig stellen** abgeschlossen ist, d. h. die neue Regel wird dadurch nicht angewendet und aktiviert. Stattdessen müssen Sie auf der Forefront TMG- Benutzeroberfläche auf die Schaltfläche **Anwenden** klicken. Wenn Sie auf **Anwenden** klicken, wird das Dialogfeld **Configuration Change Description** angezeigt. Klicken Sie in diesem Dialogfeld auf **Anwenden**, um die neue Veröffentlichungsregel zu aktivieren.
 
-Nachdem die neue Regel angewendet wurde, müssen Sie einige kleinere Änderungen an der Regel vornehmen, um sicherzustellen, dass die Benutzer die neuen PowerPoint-Präsentationsfunktionen verwenden können. Verwenden Sie dazu das folgende Verfahren:
+Nachdem die neue Regel angewendet wurde, müssen Sie einige geringfügige Änderungen an der Regel vornehmen, um sicherzustellen, dass Benutzer die neuen PowerPoint-Präsentationsfunktionen verwenden können. Verwenden Sie hierzu das folgende Verfahren.
 
-1.  Klicken Sie in Forefront TMG mit der rechten Maustaste auf den Namen der neuen Veröffentlichungsregel, und klicken Sie dann auf **Eigenschaften**.
+1.  Klicken Sie in Forefront TMG mit der rechten Maustaste auf die neue Veröffentlichungsregel, und klicken Sie dann auf **Eigenschaften**.
 
-2.  Wählen Sie im Dialogfeld **Eigenschaften** auf der Registerkarte **an** die Option **Weiterleiten des ursprünglichen Hostheaders statt des eigentlichen**aus.
+2.  Wählen Sie im Dialogfeld **Eigenschaften** auf der Registerkarte **Bis** die Option **Ursprünglichen Hostheader anstelle des aktuellen Headers weiterleiten**.
 
-3.  Klicken Sie auf der Registerkarte **Datenverkehr** auf **Filtern** , und klicken Sie dann auf **http konfigurieren**.
+3.  Klicken Sie auf der Registerkarte **Verkehr** auf **Filtern** und dann auf **HTTP konfigurieren**.
 
-4.  Deaktivieren Sie im Dialogfeld **http-Richtlinie für Regel konfigurieren** das Kontrollkästchen **Normalisierung über** prüfen, und klicken Sie dann auf **OK**.
+4.  Deaktivieren Sie im Dialogfeld **HTTP-Richtlinie für diese Regel konfigurieren** das Kontrollkästchen **Normalisierung überprüfen**, und klicken Sie dann auf **OK**.
 
 5.  Klicken Sie im Dialogfeld **Eigenschaften** auf **OK**.
 
-6.  Klicken Sie in Forefront TMG auf über **nehmen** , um die Änderungen zu aktivieren. Wenn das Dialogfeld **Beschreibung der Konfigurationsänderung** angezeigt wird, klicken Sie auf über **nehmen**.
+6.  Klicken Sie in Forefront TMG auf **Anwenden**, um die Änderungen zu übernehmen. Wenn das Dialogfeld **Configuration Change Description** angezeigt wird, klicken Sie auf **Anwenden**.
 
-Nach Abschluss der Installation können Sie Ihren Office Web Apps-Server mit den Verfahren im Thema über [Prüfen der Konfiguration von Office Web Apps Server in lync Server 2013](lync-server-2013-validating-the-configuration-of-office-web-apps-server.md)testen.
+Nach Abschluss der Installation können Sie Ihren Office-webapps-Server mithilfe der Verfahren im Thema über [Prüfen der Konfiguration von Office-webapps Server in lync Server 2013](lync-server-2013-validating-the-configuration-of-office-web-apps-server.md)testen.
 
 </div>
 

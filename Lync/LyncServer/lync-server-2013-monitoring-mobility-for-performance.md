@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Überwachen der Mobilität für die Leistung'
+title: 'Lync Server 2013: Überwachen der Mobilität für Leistung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184908
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53bd9c3450617d4fd1db54b52efe0b0938c84c8b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 131a6a4dd6fffb3081ff2b1dee58318afd525eaa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756819"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048038"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a>Überwachen der Mobilität für die Leistung in lync Server 2013
+# <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a>Überwachen der Mobilität auf Leistung in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756819"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-14_
+_**Letztes Änderungsstand des Themas:** 2013-02-14_
 
-Der lync Server Mobility Service (MCX) und die Unified Communications Web-API (UCWA) erhöhen die Auslastung von Front-End-Servern und Front-End-Pools. Mobile Geräte, die eine Verbindung mit dem Server beibehalten, auch wenn die Mobile Anwendung minimiert ist, wie etwa Android-und Nokia-Geräte mit lync 2010 Mobile sowie Android-und Apple-Geräte, auf denen lync 2013 Mobile ausgeführt wird, stellen eine größere Belastung als Geräte dar, die die Verbindung zum Server wird beendet, wenn die Mobile Anwendung minimiert wird. Nimmt die Nutzung der Mobilitätsdienste zu, müssen Sie die Mobilitätsleistung überwachen, um festzustellen, ob die Kapazität erhöht werden muss.
+Der lync Server Mobilitätsdienst (MCX) und die Unified Communications Web API (UCWA) die Last auf Front-End-Servern und Front-End-Pools zu verbessern. Mobile Geräte, die eine Verbindung mit dem Server auch dann aufrecht erhalten, wenn die Mobile Anwendung minimiert ist, wie etwa Android-und Nokia-Geräte, auf denen lync 2010 Mobile ausgeführt wird, sowie Android-und Apple-Geräte, auf denen lync 2013 Mobile ausgeführt wird, stellen eine höhere Last als Geräte dar, die Beenden Sie die Verbindung mit dem Server, wenn die Mobile Anwendung minimiert ist. Wenn Ihre Mobilitäts Nutzung zunimmt, müssen Sie die Mobilitätsleistung überwachen, um zu ermitteln, wann Sie Ihre Kapazität erhöhen müssen.
 
 Die Mobilitätsleistung wird durch mehrere Limits beeinflusst:
 
@@ -49,19 +49,19 @@ Die Mobilitätsleistung wird durch mehrere Limits beeinflusst:
 
   - IIS-Warteschlangenlänge
 
-Andere Grenzwerte für Server, die die Mobilitätsleistung beeinflussen können, sind maximal zwölf gleichzeitige Anmeldungen, Authentifizierungen, Sitzungs Verlängerungen und Kündigungen. Diese Höchstwerte müssen für die meisten Bereitstellungen nicht geändert werden.
+Andere Grenzwerte für Server, die die Mobilitätsleistung beeinflussen können, sind maximal zwölf gleichzeitige Anmeldungen, Authentifizierungen, Sitzungs Verlängerungen und Terminierungen. Diese Maximalwerte müssen für die meisten Bereitstellungen nicht geändert werden.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Überwachen der Speicher Kapazitätsgrenzwerte von Servern in lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)
+  - [Überwachen der Kapazitätsgrenzwerte für Server Speicher in lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)
 
-  - [Überwachen des mobilitätsdiensts und der UCWA-Verwendung in lync Server 2013](lync-server-2013-monitoring-mobility-service-and-ucwa-usage.md)
+  - [Überwachen des mobilitätsdiensts und der UCWA Verwendung in lync Server 2013](lync-server-2013-monitoring-mobility-service-and-ucwa-usage.md)
 
-  - [Konfigurieren des mobilitätsdiensts für die Höchstleistung in lync Server 2013](lync-server-2013-configuring-mobility-service-for-high-performance.md)
+  - [Konfigurieren des mobilitätsdiensts für hohe Leistung in lync Server 2013](lync-server-2013-configuring-mobility-service-for-high-performance.md)
 
-  - [Überwachen von IIS-Anforderungs Protokollierungs Protokolldateien in lync Server 2013](lync-server-2013-monitoring-iis-request-tracing-log-files.md)
+  - [Überwachen von Protokolldateien für die Protokollierung von IIS-Anforderungen in lync Server 2013](lync-server-2013-monitoring-iis-request-tracing-log-files.md)
 
   - [Mobilitäts Leistungsindikatoren in lync Server 2013](lync-server-2013-mobility-performance-counters.md)
 

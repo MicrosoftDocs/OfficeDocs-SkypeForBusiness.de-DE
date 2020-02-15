@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Neue Funktion für die Anrufer-ID'
+title: 'Lync Server 2013: neue Funktion für Anrufer-ID'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e62a74342e7501810edda4d0f46ff36aa80d76f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f168f0779da1ba1d2b3bd6549135234f2cec563e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765796"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050107"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-caller-id-feature-in-lync-server-2013"></a>Neue Funktion für die Anrufer-ID in Lync Server 2013
+# <a name="new-caller-id-feature-in-lync-server-2013"></a>Neue Funktion für Anrufer-ID in lync Server 2013
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "41765796"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-05_
+_**Letztes Änderungsstand des Themas:** 2012-10-05_
 
-Lync Server 2013 bietet dem Administrator die Flexibilität, das Format der Telefonnummer des anrufenden Teilnehmers zu ändern. Dieses Feature für die Rufnummernanzeige ermöglicht es dem Administrator, die Telefonnummer des anrufenden Teilnehmers in ein Wählformat zu ändern, das bei Bedarf vom trunk-Peer verstanden wird. So können Sie zum Beispiel eine Übersetzungsregel schreiben, die die Angabe „+44“ am Beginn einer Wählzeichenfolge entfernt und durch „0144“ ersetzt.
+Lync Server 2013 bietet dem Administrator die Flexibilität, das Format der Telefonnummer des anrufenden Teilnehmers zu ändern. Diese Anrufer-ID-Präsentationsfunktion ermöglicht es dem Administrator, die Telefonnummer des Anrufers mit einem Wählformat zu ändern, das von dem trunk-Peer bei Bedarf verstanden wird. So können Sie zum Beispiel eine Übersetzungsregel schreiben, die die Angabe "+44" am Beginn einer Wählzeichenfolge entfernt und durch "0144" ersetzt.
 
-Mit lync Server 2013 können Sie die Telefonnummer des Anrufers und die Telefonnummer des Anrufers nach Bedarf in unterschiedliche Formate übersetzen. Diese Flexibilität ermöglicht es lync Server 2013, als trunk Übersetzer zwischen verschiedenen Telefoniesysteme zu fungieren.
+Nun kann bei lync Server 2013 sowohl die Telefonnummer des Anrufers als auch die Telefonnummer des angerufenen nach Bedarf in verschiedene Formate übersetzt werden. Durch diese Flexibilität können lync Server 2013 als trunk Übersetzer zwischen verschiedenen Telefoniesysteme fungieren.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Neue Enterprise-VoIP-Funktionen in Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
+[Neue Enterprise-VoIP-Funktionen in lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

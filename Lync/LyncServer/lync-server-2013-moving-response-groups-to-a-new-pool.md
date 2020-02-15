@@ -12,16 +12,16 @@ ms:contentKeyID: 48185538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96740d8937f1548952d41d5674ef3e66cd29e2b6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 41d739ae79998fe3dbf3acadba2b2f480a960a30
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756709"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046278"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41756709"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Lync Server 2013 führt eine neue Cmdlet-Unterstützung für das Verschieben von Reaktionsgruppen aus einem Pool in einen anderen Pool ein, selbst wenn der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) anders ist.
+In lync Server 2013 wird die Unterstützung neuer Cmdlets für das Verschieben von Reaktionsgruppen von einem Pool in einen anderen Pool eingeführt, auch wenn der vollqualifizierte Domänenname (FQDN) unterschiedlich ist.
 
-Führen Sie die Schritte in der folgenden Vorgehensweise aus, um Reaktionsgruppen aus einem Front-End-Pool in einen anderen Front-End-Pool mit einem anderen FQDN zu verschieben.
+Führen Sie die Schritte im folgenden Verfahren aus, um Reaktionsgruppen von einem Front-End-Pool in eine andere Front-End-Pool mit einem anderen FQDN zu verlagern.
 
 <div>
 
 
 > [!NOTE]  
-> In einer Koexistenz-Umgebung können Sie Reaktionsgruppen nur zwischen lync Server 2013&nbsp;-Front-End-Pools verschieben.
+> In einer Umgebung mit Koexistenz können Sie Reaktionsgruppen nur zwischen lync Server 2013&nbsp;-Front-End-Pools verlagern.
 
 
 
@@ -53,11 +53,11 @@ Führen Sie die Schritte in der folgenden Vorgehensweise aus, um Reaktionsgruppe
 
 <div>
 
-## <a name="to-move-response-groups-to-a-pool-with-a-different-fqdn"></a>So verschieben Sie Antwortgruppen in einen Pool mit einem anderen FQDN
+## <a name="to-move-response-groups-to-a-pool-with-a-different-fqdn"></a>So verschieben Sie Reaktionsgruppen in einen Pool mit einem unterschiedlichen FQDN
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Exportieren Sie die Antwortgruppen im Quell Pool. Geben Sie in der Befehlszeile Folgendes ein:
+2.  Exportieren Sie die Reaktionsgruppen im Quellpool. Geben Sie an der Befehlszeile Folgendes ein:
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source FQDN>" -FileName "<export file name>"
     
@@ -65,15 +65,15 @@ Führen Sie die Schritte in der folgenden Vorgehensweise aus, um Reaktionsgruppe
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:source.contoso.com" -FileName "C:\RgsExportSource.zip"
     
-    Wenn Sie die Antwortgruppen aus dem Quell Pool während des Exports entfernen möchten, schließen Sie den Parameter – RemoveExportedConfiguration ein. Beispiel:
+    Geben Sie den –RemoveExportedConfiguration-Parameter an, um die Reaktionsgruppen während des Exports aus dem Quellpool zu entfernen. Beispiel:
     
         Export-CsRgsConfiguration -Source ApplicationServer:source.contoso.com -FileName "C:\RgsExportSource.zip" -RemoveExportedConfiguration
 
-3.  Importieren Sie die Antwortgruppen in den Ziel Pool, und weisen Sie den Ziel Pool als neuen Besitzer zu. Geben Sie in der Befehlszeile Folgendes ein:
+3.  Importieren Sie die Reaktionsgruppen in den Zielpool, und weisen Sie den Zielpool als neuen Besitzer zu. Geben Sie an der Befehlszeile Folgendes ein:
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<destination pool>" -FileName "<export file name>" -OverwriteOwner
     
-    Wenn Sie auch die Einstellungen für die Reaktionsgruppe auf Anwendungsebene aus dem Quell Pool in den Ziel Pool kopieren möchten, schließen Sie den Parameter – ReplaceExistingRgsSettings ein. Pro Pool können Sie nur eine Gruppe von Einstellungen auf Anwendungsebene definieren. Wenn Sie die Einstellungen auf Anwendungsebene aus dem Quell Pool in den Ziel Pool kopieren, ersetzen die Einstellungen des Quell Pools die Einstellungen für den Ziel Pool. Wenn Sie die Einstellungen auf Anwendungsebene nicht aus dem Quell Pool kopieren, gelten die vorhandenen Einstellungen aus dem Ziel Pool für die importierten Antwortgruppen.
+    Wenn Sie auch die Einstellungen auf Reaktionsgruppenanwendung Ebene aus dem Quell Pool in den Ziel Pool kopieren möchten, schließen Sie den Parameter – ReplaceExistingRgsSettings ein. Pro Pool können Sie nur eine Gruppe von Einstellungen auf Anwendungsebene definieren. Wenn Sie die Einstellungen auf Anwendungsebene aus dem Quell Pool in den Ziel Pool kopieren, ersetzen die Einstellungen aus dem Quell Pool die Einstellungen für den Ziel Pool. Wenn Sie die Einstellungen auf Anwendungsebene nicht aus dem Quell Pool kopieren, gelten die vorhandenen Einstellungen aus dem Ziel Pool für die importierten Reaktionsgruppen.
     
     Beispiel:
     
@@ -83,12 +83,12 @@ Führen Sie die Schritte in der folgenden Vorgehensweise aus, um Reaktionsgruppe
     
 
     > [!NOTE]  
-    > Zu den Einstellungen auf Anwendungsebene gehören die standardmäßige Musik-in-situ-Konfiguration, die standardmäßige Musik-in-halten-Audiodatei, die Kulanzzeit für den Agenten-Rückruf und die Kontextkonfiguration des Anrufs. Führen Sie das Cmdlet " <STRONG>Get-CsRgsConfiguration</STRONG> " aus, um diese Konfigurationseinstellungen anzuzeigen. Details zu diesem Cmdlet finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>.
+    > Zu den Einstellungen auf Anwendungsebene gehören die Standardkonfiguration für die Musikeinspielung in der Warteschleife, die Standardaudiodatei für die Musikeinspielung in der Warteschleife, die Toleranzperiode für den Rückruf bei Halten des Agents sowie die Anrufkontextkonfiguration. Zum Anzeigen dieser Konfigurationseinstellungen führen Sie das <STRONG>Get-CsRgsConfiguration</STRONG>-Cmdlet aus. Ausführliche Informationen zu diesem Cmdlet finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsRgsConfiguration">Get-CsRgsConfiguration</A>.
 
     
     </div>
 
-4.  Überprüfen Sie, ob der Import erfolgreich war, indem Sie die Konfiguration der importierten Reaktionsgruppe wie folgt anzeigen:
+4.  Überprüfen Sie wie folgt, ob der Import erfolgreich ausgeführt wurde, indem Sie die importierte Reaktionsgruppenkonfiguration anzeigen:
     
       - Überprüfen Sie, ob alle Workflows importiert wurden. Geben Sie an der Befehlszeile Folgendes ein:
         
@@ -98,7 +98,7 @@ Führen Sie die Schritte in der folgenden Vorgehensweise aus, um Reaktionsgruppe
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<destination pool FQDN>"
     
-      - Überprüfen Sie, ob alle Agentengruppen importiert wurden. Geben Sie an der Befehlszeile Folgendes ein:
+      - Überprüfen Sie, ob alle Agentgruppen importiert wurden. Geben Sie an der Befehlszeile Folgendes ein:
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<destination pool FQDN>"
     
@@ -110,11 +110,11 @@ Führen Sie die Schritte in der folgenden Vorgehensweise aus, um Reaktionsgruppe
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<destination pool FQDN>" 
 
-5.  Überprüfen Sie, ob der Import erfolgreich war, indem Sie eine der Antwortgruppen anrufen und überprüfen, ob der Anruf richtig gehandhabt wurde.
+5.  Überprüfen Sie, ob erfolgreich importiert wurde, indem Sie eine der Reaktionsgruppen anrufen und prüfen, ob der Anruf ordnungsgemäß abgewickelt wird.
 
-6.  Anfordern von Agents, die Mitglieder von formellen Agentengruppen sind, um sich bei ihren Agentengruppen im Ziel Pool anzumeldet.
+6.  Fordern Sie Agents, die Mitglieder von formellen Agentgruppen sind, auf, sich bei ihren Agentgruppen im Zielpool anzumelden.
 
-7.  Wenn Sie die Antwortgruppen zuvor nicht aus dem Quell Pool entfernt haben, entfernen Sie die Antwortgruppen aus dem Quell Pool. Geben Sie in der Befehlszeile Folgendes ein:
+7.  Falls Sie zuvor die Reaktionsgruppen nicht aus dem Quellpool entfernt haben, entfernen Sie nun die Reaktionsgruppen aus dem Quellpool. Geben Sie an der Befehlszeile Folgendes ein:
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<source pool FQDN> -RemoveExportedConfiguration -FileName "<temporary export file name>"
     

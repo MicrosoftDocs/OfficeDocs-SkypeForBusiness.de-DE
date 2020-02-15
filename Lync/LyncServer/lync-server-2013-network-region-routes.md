@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Strecken des Netzwerkbereichs'
+title: 'Lync Server 2013: Netzwerk Regions Routen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e84c2b0114393a0d9234e18af8af7c8c98f3d8b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 83db08d7e0630a74ae5c4366afb3b18ed9d7e567
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765896"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049107"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="network-region-routes-in-lync-server-2013"></a>Netzwerkbereichs Routen in lync Server 2013
+# <a name="network-region-routes-in-lync-server-2013"></a>Netzwerk Regions Routen in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765896"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+_**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Eine *Netzwerk Regions Route* definiert die Route zwischen zwei netzwerkregionen. Für jedes Paar von netzwerkregionen in der Bereitstellung für die Anrufsteuerung ist eine Netzwerk Regions Route erforderlich. So kann jede Netzwerkregion innerhalb der Bereitstellung auf alle anderen Regionen zugreifen. Verwenden Sie die Verfahren in diesem Abschnitt, um Netzwerkbereichs Routen anzuzeigen, zu erstellen, zu ändern oder zu löschen.
+Eine *Netzwerkregionsroute* definiert die Route zwischen zwei Netzwerkregionen. Für jedes Netzwerkregionenpaar in Ihrer Anrufsteuerungsbereitstellung ist eine Netzwerkregionsroute erforderlich. So kann jede Netzwerkregion innerhalb der Bereitstellung auf alle anderen Regionen zugreifen. Verwenden Sie die Verfahren in diesem Abschnitt zum Anzeigen, Erstellen, Ändern oder Löschen von Netzwerkregionsrouten.
 
 <div>
 
@@ -45,9 +45,9 @@ Eine *Netzwerk Regions Route* definiert die Route zwischen zwei netzwerkregionen
 
   - [Erstellen oder Ändern von netzwerkregionen in lync Server 2013](lync-server-2013-creating-or-modifying-network-regions.md)
 
-  - [Anzeigen von Routeninformationen zu netzwerkregionen in lync Server 2013](lync-server-2013-viewing-network-region-route-information.md)
+  - [Anzeigen von Routeninformationen für netzwerkregionen in lync Server 2013](lync-server-2013-viewing-network-region-route-information.md)
 
-  - [Löschen vorhandener Netzwerkbereichs Routen in lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md)
+  - [Löschen vorhandener Netzwerk Regions Routen in lync Server 2013](lync-server-2013-deleting-existing-network-region-routes.md)
 
 </div>
 
@@ -55,7 +55,7 @@ Eine *Netzwerk Regions Route* definiert die Route zwischen zwei netzwerkregionen
 
 ## <a name="reference"></a>Referenz
 
-[Bereitstellen von erweiterten Enterprise-VoIP-Features in lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+[Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
 </div>
 

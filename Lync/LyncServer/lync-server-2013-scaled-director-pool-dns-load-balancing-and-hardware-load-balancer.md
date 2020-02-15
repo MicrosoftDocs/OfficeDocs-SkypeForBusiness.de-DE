@@ -1,5 +1,5 @@
 ---
-title: Skalierter Directorpool – DNS-Lastenausgleich und Hardwarelastenausgleich
+title: Skalierte Directorpool-DNS-Lastenausgleich und Hardwaregerät zum Lastenausgleich
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185023
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16203f7e291b7957793e71872483c93f2d1d04d0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af050cbef7c75bb7b403dc4ef74c4750a9e8b3c3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764993"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049737"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="scaled-director-pool---dns-load-balancing-and-hardware-load-balancer-in-lync-server-2013"></a>Skalierter Directorpool – DNS-Lastenausgleich und Hardwarelastenausgleich in Lync Server 2013
+# <a name="scaled-director-pool---dns-load-balancing-and-hardware-load-balancer-in-lync-server-2013"></a>Skalierte Directorpool-DNS-Lastenausgleich und Hardwarelastenausgleich in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41764993"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-22_
+_**Letztes Änderungsstand des Themas:** 2012-10-22_
 
-Ein skalierten Director-Pool, in dem mehr als ein Director zur Behandlung zusätzlicher Kapazität bereitgestellt wird und eine hohe Verfügbarkeit bereitgestellt wird, erfordert Lastenausgleich, um die Client-und Server Kommunikation an alle Mitglieder des Pools zu verteilen. Ein Director hostet Webdienste ähnlich wie ein Front-End-Pool. Um den Lastenausgleich bereitzustellen, können Sie entweder den Hardwarelastenausgleich oder den Lastenausgleich für DNS (Domain Name System) oder den Hardwarelastenausgleich verwenden. Für die Webdienste ist ein Hardware Lastenausgleich erforderlich, und allein der DNS-Lastenausgleich bietet nicht die für die Webdienste erforderlichen Funktionen.
+Eine skalierte Directorpool, in der mehrere Directors bereitgestellt werden, um zusätzliche Kapazität zu verarbeiten und hohe Verfügbarkeit bereitzustellen, erfordert Lastenausgleich, um die Client-und Server Kommunikation an alle Mitglieder des Pools zu verteilen. Ein Director hostet Webdienste ähnlich wie ein Front-End-Pool. Für die Bereitstellung des Lastenausgleichs können Sie entweder den Hardwarelastenausgleich oder DNS-Lastenausgleich (Domain Name System) und den Hardwarelastenausgleich verwenden. Der Hardwarelastenausgleich ist für die Webdienste erforderlich, und der DNS-Lastenausgleich allein bietet nicht die für Webdienste erforderlichen Funktionen.
 
-In den folgenden Themen werden die Planungsüberlegungen zum Bereitstellen eines Director-Pools mithilfe des DNS-Lastenausgleichs in Verbindung mit dem Hardwarelastenausgleich beschrieben. Wenn Sie beabsichtigen, den Hardwarelastenausgleich, aber nicht den DNS-Lastenausgleich für den Director-Pool zu verwenden, lesen Sie das Thema [skalierten Director-Pool – Hardwarelastenausgleich in lync Server 2013, in](lync-server-2013-scaled-director-pool-hardware-load-balancer.md) dem die Planungsanforderungen für diese Topologie beschrieben sind.
+In den folgenden Themen werden die Planungsüberlegungen für die Bereitstellungeines Directorpool mithilfe des DNS-Lastenausgleichs in Verbindung mit dem Hardwarelastenausgleich beschrieben. Wenn Sie den Hardwarelastenausgleich, jedoch nicht den DNS-Lastenausgleich für den Directorpool verwenden möchten, lesen Sie das Thema [skalierte Directorpool-Hardwaregerät zum Lastenausgleich in lync Server 2013, in](lync-server-2013-scaled-director-pool-hardware-load-balancer.md) dem die Planungsanforderungen für diese Topologie beschrieben werden.
 
-![Skalierter Director-Pool](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "Skalierter Director-Pool")
+![Skalierter Directorpool](images/JJ205142.35a78a7a-b781-4c8f-951e-168451ba6a65(OCS.15).jpg "Skalierter Directorpool")
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Zertifikatzusammenfassung für DNS- und Hardwarelastenausgleich in Lync Server 2013](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
+  - [Zertifikatzusammenfassung-DNS-und HLB-Lastenausgleich in lync Server 2013](lync-server-2013-certificate-summary-dns-and-hlb-load-balanced.md)
 
-  - [Portzusammenfassung für DNS- und Hardwarelastenausgleich in Lync Server 2013](lync-server-2013-port-summary-dns-and-hlb-load-balanced.md)
+  - [Port Zusammenfassung-DNS-und HLB-Lastenausgleich in lync Server 2013](lync-server-2013-port-summary-dns-and-hlb-load-balanced.md)
 
-  - [DNS-Zusammenfassung für DNS- und Hardwarelastenausgleich in Lync Server 2013](lync-server-2013-dns-summary-dns-and-hlb-load-balanced.md)
+  - [DNS-Zusammenfassung-DNS-und HLB-Lastenausgleich in lync Server 2013](lync-server-2013-dns-summary-dns-and-hlb-load-balanced.md)
 
 </div>
 

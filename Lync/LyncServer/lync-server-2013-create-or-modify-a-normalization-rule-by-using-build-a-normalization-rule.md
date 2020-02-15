@@ -1,5 +1,5 @@
 ---
-title: Erstellen oder Ändern einer Normalisierungsregel mithilfe der Regel zum Erstellen einer Normalisierung
+title: Erstellen oder Ändern einer Normalisierungsregel mit Normalisierungsregel erstellen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185889
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 519d4d8ee00e0922d40155c541b0f869df095ab1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bc758fa99bd14dff345d7efa9d4c96b151abca57
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722345"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045938"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,70 +35,70 @@ ms.locfileid: "41722345"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Führen Sie die folgenden Schritte aus, wenn Sie eine Normalisierungsregel in der lync Server-Systemsteuerung erstellen oder ändern möchten. Wenn Sie eine Normalisierungsregel manuell erstellen oder ändern möchten, finden Sie Informationen dazu unter [Manuelles Erstellen oder Ändern einer Normalisierungsregel in lync Server 2013](lync-server-2013-create-or-modify-a-normalization-rule-manually.md).
+Führen Sie die folgenden Schritte aus, wenn Sie eine Normalisierungsregel in lync Server-Systemsteuerung erstellen oder ändern möchten. Wenn Sie eine Normalisierungsregel manuell erstellen oder ändern möchten, finden Sie weitere Informationen unter [erstellen oder Ändern einer Normalisierungsregel manuell in lync Server 2013](lync-server-2013-create-or-modify-a-normalization-rule-manually.md).
 
 <div>
 
-## <a name="to-define-a-rule-by-using-build-a-normalization-rule"></a>So definieren Sie eine Regel mithilfe der Regel zum Erstellen einer Normalisierung
+## <a name="to-define-a-rule-by-using-build-a-normalization-rule"></a>So definieren Sie eine Regel mit dem Erstellen einer Normalisierungsregel
 
-1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Melden Sie sich am Computer als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied der CsVoiceAdministrator-, CsServerAdministrator-oder CsAdministrator-Rolle an. Ausführliche Informationen finden Sie unter [Delegate Setup Permissions in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Optional Führen Sie die Schritte unter [Erstellen eines Wählplans in lync Server 2013](lync-server-2013-create-a-dial-plan.md) bis Schritt 11 aus, oder [Ändern Sie einen Wählplan in lync Server 2013](lync-server-2013-modify-a-dial-plan.md) bis Schritt 10.
+3.  Optional Führen Sie die Schritte unter [Erstellen von Wähleinstellungen in lync Server 2013](lync-server-2013-create-a-dial-plan.md) bis Schritt 11 oder [Ändern eines Wählplans in lync Server 2013](lync-server-2013-modify-a-dial-plan.md) bis Schritt 10 aus.
 
-4.  Geben Sie unter **Neue Normalisierungsregel** oder **Normalisierungsregel bearbeiten** im Feld **Name** einen beschreibenden Namen für das zu normalisierende Nummernmuster ein (beispielsweise **5DigitExtension**).
+4.  Geben Sie unter **neue Normalisierungsregel** oder **Normalisierungsregel bearbeiten**einen Namen ein, der das im **Namen** normalisierte Nummernmuster beschreibt (beispielsweise **5DigitExtension**).
 
-5.  (Optional) Geben Sie in **Beschreibung** eine Beschreibung der Normalisierungsregel ein (beispielsweise „Übersetzt 5-stellige Durchwahlnummern“).
+5.  Optional Geben Sie in **Beschreibung**eine Beschreibung der Normalisierungsregel ein (beispielsweise "übersetzt 5-stellige Durchwahlnummern").
 
-6.  Geben Sie im Abschnitt **Normalisierungsregel erstellen** Werte in die folgenden Felder ein:
+6.  Geben Sie unter **Normalisierungsregel erstellen**Werte in die folgenden Felder ein:
     
-      - **Anfangsziffern**   (optional) geben Sie die führenden Ziffern für gewählte Nummern an, die mit dem Muster übereinstimmen sollen. Geben Sie beispielsweise **425** ein, wenn das Muster für gewählte Nummern gelten soll, die mit 425 beginnen.
+      - **Starting digits**   (optional) geben Sie die führenden Ziffern von gewählten Nummern an, die mit dem Muster übereinstimmen sollen. Geben Sie beispielsweise **425** ein, wenn das Muster mit den gewählten Nummern beginnend mit 425 übereinstimmen soll.
     
-      - **Länge**   geben Sie die Anzahl der Ziffern im übereinstimmenden Muster an, und wählen Sie aus, ob das Muster genau mit dieser Länge übereinstimmen soll, wie gewählte Nummern, die mindestens diese Länge aufweisen, oder mit gewählten Nummern beliebiger Länge übereinstimmen.
+      - **Length**   geben Sie die Anzahl der Stellen im übereinstimmenden Muster an, und wählen Sie aus, ob das Muster genau mit dieser Länge übereinstimmen soll, mit ausgewählten Nummern, die mindestens diese Länge aufweisen, oder mit den gewählten Nummern einer beliebigen Länge übereinstimmen.
     
-      - **Zu entfern**   Ende Ziffern (optional) geben Sie die Anzahl der Anfangsziffern an, die aus den gewählten Nummern entfernt werden sollen, die das Muster erfüllen soll.
+      - **Zu entfern**   Ende Ziffern (optional) geben Sie die Anzahl der Start Ziffern an, die aus gewählten Nummern entfernt werden sollen, die mit dem Muster übereinstimmen sollen.
     
-      - **Zu addier**   Ende Ziffern (optional) geben Sie Ziffern an, die zu gewählten Nummern hinzugefügt werden sollen, die dem Muster entsprechen sollen.
+      - **Hinzuzufügende**   Ziffern (optional) geben Sie Ziffern an, die gewählten Nummern hinzugefügt werden sollen, die mit dem Muster übereinstimmen sollen.
     
-    Die in diesen Feldern eingegebenen Werte werden in den Feldern **Muster für Vergleich** und **Übersetzungsregel** widergespiegelt. Wenn Sie beispielsweise **Anfangsziffern** leer lassen, den Wert **7** in das Feld **Länge** eingeben und **Genau** auswählen und den Wert **0** unter **Zu entfernende Ziffern** wählen, ergibt sich in **Muster für Vergleich** der folgende reguläre Ausdruck:
+    Die Werte, die Sie in diese Felder eingeben, werden in **Übereinstimmung mit Muster** und **Übersetzungsregel**übernommen. Wenn Sie beispielsweise **Start Ziffern** leer lassen, geben Sie **7** in das Feld **length** ein, und wählen Sie **genau**aus, und geben Sie **0** in **Ziffern zum Entfernen**an, sodass der resultierende reguläre Ausdruck im **Muster mit folgendem übereinstimmt** :
     
     **^ (\\d{7}) $**
 
-7.  Geben Sie in **Übersetzungsregel** ein Muster für das Format der übersetzten E.164-Telefonnummern ein:
+7.  Geben Sie in **Übersetzungsregel**ein Muster für das Format der übersetzten E. 164-Telefonnummern wie folgt an:
     
-      - Ein Wert, der die Anzahl von Ziffern repräsentiert, die im Vergleichsmuster angegeben ist. Wenn das Übereinstimmungsmuster beispielsweise **^ (\\d{7}) $** ist, stellt **$1** in der Übersetzungsregel siebenstellige Wähl Nummern dar.
+      - Ein Wert, der die Anzahl der im übereinstimmenden Muster angegebenen Ziffern darstellt. Wenn das übereinstimmende Musterbeispiels Weise **^ (\\d{7}) $** ist, dann **$1** in der Übersetzungsregel 7-stellige gewählte Nummern darstellt.
     
-      - (Optional) Geben Sie einen Wert in das Feld **Hinzuzufügende Ziffern** ein, um Ziffern anzugeben, die der übersetzten Nummer vorangestellt werden (z. B. **+1425**).
+      - Optional Geben Sie einen Wert in das Feld **Ziffern hinzufügen** ein, um Ziffern anzugeben, die der übersetzten Zahl vorangestellt werden sollen (beispielsweise **+ 1425**).
     
-    Wenn Muster für die **Übereinstimmung** beispielsweise **^ (\\d{7}) $** als Muster für gewählte Nummern und die **Übersetzungsregel** **+ 1425 $1** als Muster für E. 164-Telefonnummern enthält, normalisiert die Regel 5550100 auf + 14255550100.
+    Enthält beispielsweise das Muster für die **Übereinstimmung** **^\\({7}d) $** , da das Muster für gewählte Nummern und die **Übersetzungsregel** **+ 1425 $1** als Muster für E. 164-Telefonnummern enthält, normalisiert die Regel 5550100 bis + 14255550100.
 
-8.  (Optional) Falls die Normalisierungsregel eine interne Telefonnummer des Unternehmens ergibt, klicken Sie auf **Interne Durchwahl**.
+8.  Optional Wenn die Normalisierungsregel eine interne Telefonnummer für Ihre Organisation ergibt, wählen Sie **interne Durchwahl**aus.
 
-9.  (Optional) Geben Sie eine Nummer zum Testen der Normalisierungsregel ein und klicken Sie auf **Los**. Die Testergebnisse werden unterhalb von **Geben Sie eine Testnummer ein** angezeigt.
+9.  Optional Geben Sie eine Zahl ein, um die Normalisierungsregel zu testen, und klicken Sie dann auf **go**. Die Testergebnisse werden unterhalb von **Geben Sie eine Testnummer ein** angezeigt.
     
     <div>
     
 
     > [!NOTE]
-    > Sie können eine Normalisierungsregel speichern, die den Test nicht bestanden hat und sie später neu konfigurieren. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-test-voice-routing.md">Testen des VoIP-Routings in lync Server 2013</A>.
+    > Sie können eine Normalisierungsregel speichern, die den Test noch nicht besteht, und Sie dann später neu konfigurieren. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-test-voice-routing.md">Testen der VoIP-Weiterleitung in lync Server 2013</A>.
 
     
     </div>
 
-10. Klicken Sie auf **OK**, um die Normalisierungsregel zu speichern.
+10. Klicken Sie auf **OK** , um die Normalisierungsregel zu speichern.
 
-11. Klicken Sie auf **OK**, um die Wähleinstellungen zu speichern.
+11. Klicken Sie auf **OK** , um die Wähleinstellungen zu speichern.
 
-12. Klicken Sie auf der Seite **Wählplan** auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**.
+12. Klicken Sie auf der Seite **Wähleinstellungen** auf **Commit** und anschließend auf **Commit für alle**.
     
     <div>
     
 
     > [!NOTE]
-    > Jedes Mal, wenn Sie eine Normalisierungsregel erstellen oder ändern, müssen Sie den Befehl <STRONG>Commit für alle</STRONG> ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in lync Server 2013</A> in der Betriebsdokumentation.
+    > Wenn Sie eine Normalisierungsregel erstellen oder ändern, müssen Sie den Befehl <STRONG>Commit all</STRONG> ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in lync Server 2013</A> in der Betriebsdokumentation.
 
     
     </div>
@@ -110,13 +110,13 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine Normalisierungsregel in de
 ## <a name="see-also"></a>Siehe auch
 
 
-[Manuelles Erstellen oder Ändern einer Normalisierungsregel in Lync Server 2013](lync-server-2013-create-or-modify-a-normalization-rule-manually.md)  
-[Erstellen eines Wählplans in lync Server 2013](lync-server-2013-create-a-dial-plan.md)  
-[Ändern eines Wählplans in Lync Server 2013](lync-server-2013-modify-a-dial-plan.md)  
-[Veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in lync Server 2013](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
+[Manuelles Erstellen oder Ändern einer Normalisierungsregel in lync Server 2013](lync-server-2013-create-or-modify-a-normalization-rule-manually.md)  
+[Erstellen von Wähleinstellungen in lync Server 2013](lync-server-2013-create-a-dial-plan.md)  
+[Ändern von Wähleinstellungen in lync Server 2013](lync-server-2013-modify-a-dial-plan.md)  
+[Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in lync Server 2013](lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md)  
 
 
-[Testen des VoIP-Routings in Lync Server 2013](lync-server-2013-test-voice-routing.md)  
+[Testen des VoIP-Routings in lync Server 2013](lync-server-2013-test-voice-routing.md)  
   
 
 </div>

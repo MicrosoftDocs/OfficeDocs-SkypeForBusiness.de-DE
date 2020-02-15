@@ -12,16 +12,16 @@ ms:contentKeyID: 48184043
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 926cc7e45fe3e57c189b01ff92da49342506dc2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bde8694cb5249cd5c284bfadc89d9784ca76ac31
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763073"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048846"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41763073"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Sie können eine Benutzerrichtlinie oder eine Website Richtlinie löschen. Die globale Richtlinie kann nicht entfernt werden. Wenn Sie versuchen, die globale Richtlinie zu löschen, setzt lync Server 2013 die Richtlinie automatisch auf die Standardwerte zurück.
+Benutzer- und Standortrichtlinien können gelöscht werden. Die globale Richtlinie kann nicht entfernt werden. Wenn Sie versuchen, die globale Richtlinie zu löschen, setzt lync Server 2013 die Richtlinie automatisch auf die Standardwerte zurück.
 
 <div>
 
 
 > [!NOTE]  
-> Wenn Sie die Microsoft Exchange-Integration für Ihre Bereitstellung aktiviert haben, Steuern Exchange-Richtlinien, ob die Archivierung für die Benutzer aktiviert ist, die sich in Exchange 2013 befinden, und dass ihre Postfächer in-situ-Speicher abgelegt werden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Einrichten von Richtlinien für die Archivierung in lync Server 2013 bei Verwendung der Exchange Server-Integration</A> in der Bereitstellungsdokumentation.
+> Wenn Sie Microsoft Exchange Integration für Ihre Bereitstellung aktiviert haben, Steuern Exchange-Richtlinien, ob die Archivierung für die Benutzer aktiviert ist, die in Exchange 2013 verwaltet werden, und dass ihre Postfächer im Compliance-Archiv platziert werden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Einrichten von Richtlinien für die Archivierung in lync Server 2013 bei Verwendung Exchange Server Integration</A> in die Bereitstellungsdokumentation.
 
 
 
@@ -51,17 +51,17 @@ Sie können eine Benutzerrichtlinie oder eine Website Richtlinie löschen. Die g
 
 <div>
 
-## <a name="to-delete-a-user-or-site-policy-for-archiving"></a>So löschen Sie einen Benutzer oder eine Website Richtlinie für die Archivierung
+## <a name="to-delete-a-user-or-site-policy-for-archiving"></a>So löschen Sie eine Benutzer- oder Standortrichtlinie für die Archivierung
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsArchivingAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich von einem Benutzerkonto, das der CsArchivingAdministrator- oder der CsAdministrator-Rolle zugeordnet ist, auf einem beliebigen Computer Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie auf der linken Navigationsleiste auf **Überwachung und Archivierung** und anschließend auf **Archivierungsrichtlinie**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Überwachung und Archivierung** und dann auf **Archivierungsrichtlinie**.
 
 4.  Klicken Sie in der Liste der Archivierungsrichtlinien auf die zu löschende Benutzer- oder Standortrichtlinie, auf **Bearbeiten** und dann auf **Löschen**.
 
-5.  Klicken Sie auf **Commit ausführen**.
+5.  Klicken Sie auf **Commit**.
 
 </div>
 
@@ -69,13 +69,13 @@ Sie können eine Benutzerrichtlinie oder eine Website Richtlinie löschen. Die g
 
 ## <a name="removing-archiving-policies-by-using-windows-powershell-cmdlets"></a>Entfernen von Archivierungsrichtlinien mithilfe von Windows PowerShell-Cmdlets
 
-Archivierungsrichtlinien können mithilfe von Windows PowerShell und dem Cmdlet **Remove-CsArchivingPolicy** gelöscht werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Archivierungsrichtlinien können mithilfe von Windows PowerShell und dem Cmdlet **Remove-CsArchivingPolicy** gelöscht werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
-## <a name="to-remove-a-specified-archiving-policy"></a>So entfernen Sie eine bestimmte Archivierungsrichtlinie
+## <a name="to-remove-a-specified-archiving-policy"></a>So entfernen Sie eine angegebene Archivierungsrichtlinie
 
-  - Als Beispiel löscht **Remove-CsArchivingPolicy** die Richtlinie mit der Identitäts Website: Redmond. Beachten Sie, dass Benutzer, die zuvor von der Website Richtlinie verwaltet werden, automatisch durch die globale Archivierungsrichtlinie gesteuert werden, wenn eine auf dem Website Bereich konfigurierte Richtlinie gelöscht wird. Mit dem folgenden Befehl wird die auf die Redmond-Website angewendete Archivierung entfernt:
+  - **Remove-CsArchivingPolicy** löscht beispielsweise die Richtlinie mit der Identität "site:Redmond". Wenn Sie eine auf Standortebene konfigurierte Richtlinie löschen, werden Benutzer, die zuvor durch die Standortrichtlinie verwaltet wurden, automatisch durch die globale Archivierungsrichtlinie verwaltet. Mit dem folgenden Befehl wird die Archivierung für den Standort "Redmond" entfernt:
     
         Remove-CsArchivingPolicy -Identity site:Redmond
 
@@ -83,9 +83,9 @@ Archivierungsrichtlinien können mithilfe von Windows PowerShell und dem Cmdlet 
 
 <div>
 
-## <a name="to-remove-all-the-archiving-policies-applied-to-the-per-user-scope"></a>So entfernen Sie alle auf den Benutzerbereich angewendeten Archivierungsrichtlinien
+## <a name="to-remove-all-the-archiving-policies-applied-to-the-per-user-scope"></a>So entfernen Sie alle auf Benutzerebene angewendeten Archivierungsrichtlinien
 
-  - Mit diesem Befehl werden alle auf den Benutzerbereich angewendeten Archivierungsrichtlinien entfernt:
+  - Mit diesem Befehl werden alle Archivierungsrichtlinien entfernt, die auf der Benutzerbasis festgelegt wurden:
     
         Get-CsArchivingPolicy -Filter "tag:*" | Remove-CsArchivingPolicy
 
@@ -110,7 +110,7 @@ Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Remove-CsArchivingPol
 ## <a name="see-also"></a>Siehe auch
 
 
-[Verwalten der Archivierung interner und externer Kommunikation in lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
+[Verwalten der Archivierung von interner und externer Kommunikation in lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)  
   
 
 </div>

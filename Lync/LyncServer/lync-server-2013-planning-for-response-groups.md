@@ -12,20 +12,20 @@ ms:contentKeyID: 48184608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 087c6fa4518f90fdfca6b752386e0eed3b5162bb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a627da511dcaf82512e2fd41f9cb434ab4d476c5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725195"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050627"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-response-groups-in-lync-server-2013"></a>Planen von Reaktionsgruppen in Lync Server 2013
+# <a name="planning-for-response-groups-in-lync-server-2013"></a>Planen von Reaktionsgruppen in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41725195"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-19_
+_**Letztes Änderungsstand des Themas:** 2012-06-19_
 
-Wenn Ihre Organisation über Gruppen von Personen verfügt, die bestimmte Anrufarten beantworten und verwalten, beispielsweise für den Kundendienst, einen internen Helpdesk oder allgemeinen Telefonsupport für eine Abteilung, können Sie die lync Server Response Group-Anwendung zum Verwalten dieser Typen bereitstellen. von anrufen. Die Antwortgruppen Anwendung leitet eingehende Anrufe an bezeichnete Personen weiter, die als Agents bezeichnet werden. Sie können die Nutzung von Telefonsupport Diensten erhöhen und den Aufwand für die Ausführung dieser Dienste mithilfe von Reaktionsgruppen reduzieren. In diesem Abschnitt werden Planungsüberlegungen für die Reaktionsgruppe beschrieben.
+Wenn Ihre Organisation über Personengruppen verfügt, die bestimmte Anruftypen beantworten und verwalten, beispielsweise für den Kundendienst, ein internes Helpdesk oder für eine Abteilung Allgemeine Telefonunterstützung, können Sie die lync Server Reaktionsgruppenanwendung zur Verwaltung dieser Typen bereitstellen. von anrufen. In der Reaktionsgruppenanwendung werden eingehende Anrufe an designierte Personen weitergeleitet und in die Warteschlangen eingereiht, die als Agents bezeichnet werden. Sie können die Verwendung von Telefonsupport Diensten verbessern und den Aufwand für die Ausführung dieser Dienste mithilfe von Reaktionsgruppen reduzieren. In diesem Abschnitt werden Planungsüberlegungen für Reaktionsgruppen beschrieben.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Übersicht über die reaktionsgruppenanwendung in lync Server 2013](lync-server-2013-overview-of-the-response-group-application.md)
+  - [Übersicht über die Reaktionsgruppenanwendung in lync Server 2013](lync-server-2013-overview-of-the-response-group-application.md)
 
-  - [Von Reaktionsgruppen verwendete Komponenten in Lync Server 2013](lync-server-2013-components-used-by-response-group.md)
+  - [Von der Reaktionsgruppe in lync Server 2013 verwendete Komponenten](lync-server-2013-components-used-by-response-group.md)
 
-  - [Technische Anforderungen für Reaktionsgruppen in Lync Server 2013](lync-server-2013-technical-requirements-for-response-group.md)
+  - [Technische Voraussetzungen für Reaktionsgruppen in lync Server 2013](lync-server-2013-technical-requirements-for-response-group.md)
 
-  - [Für Reaktionsgruppen unterstützte Clients in Lync Server 2013](lync-server-2013-clients-supported-for-response-group.md)
+  - [Für Reaktionsgruppen unterstützte Clients in lync Server 2013](lync-server-2013-clients-supported-for-response-group.md)
 
-  - [Kapazitätsplanung für Reaktionsgruppen in Lync Server 2013](lync-server-2013-capacity-planning-for-response-group.md)
+  - [Kapazitätsplanung für Reaktionsgruppen in lync Server 2013](lync-server-2013-capacity-planning-for-response-group.md)
 
   - [Bereitstellungsprozess für die Reaktionsgruppe in lync Server 2013](lync-server-2013-deployment-process-for-response-group.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von Ansagen für nicht zugewiesene Nummern'
+title: 'Lync Server 2013: Konfigurieren von Ankündigungen für nicht zugewiesene Nummern'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184035
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52d7e8ad1aa4fcfe3db9aabee61e317810707194
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6442ed90050df22df77c41773619bedb5ee3ff72
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726525"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048349"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-announcements-for-unassigned-numbers-in-lync-server-2013"></a>Konfigurieren von Ansagen für nicht zugewiesene Nummern in Lync Server 2013
+# <a name="configuring-announcements-for-unassigned-numbers-in-lync-server-2013"></a>Konfigurieren von Ankündigungen für nicht zugewiesene Nummern in lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41726525"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-11_
+_**Letztes Änderungsstand des Themas:** 2012-09-11_
 
-Bei der Ankündigungs Anwendung handelt es sich um ein Enterprise-VoIP-Feature, mit dem Sie konfigurieren können, was mit Anrufen zu nicht zugewiesenen Erweiterungen geschieht (Erweiterungen, die für Ihre Organisation gültig sind, aber keiner Person oder einem Telefon zugeordnet sind). So können Sie beispielsweise Anrufe an nicht zugewiesene Nummern konfigurieren, um eine Nachricht wiederzugeben oder an ein anderes Ziel oder beides übertragen zu werden.
+Bei der Ankündigungsanwendung handelt es sich um eine Enterprise-VoIP-Funktion, mit der Sie konfigurieren können, was mit Aufrufen von nicht zugewiesenen Erweiterungen geschieht (Erweiterungen, die für Ihre Organisation gültig sind, aber keiner Person oder einem Telefon zugewiesen sind). Beispielsweise können Sie Anrufe für nicht zugewiesene Nummern so konfigurieren, dass eine Nachricht wiedergegeben oder an ein anderes Ziel oder beides übertragen wird.
 
-Die Ankündigungs Anwendung wird auf dem Front-End-Server oder Standard Edition-Server als Feature der reaktionsgruppenanwendung installiert, wenn Sie Enterprise-VoIP bereitstellen. Sie müssen Ansagen konfigurieren, indem Sie Audiodateien hochladen oder die Text-zu-Sprache-Funktion und die Tabelle nicht zugewiesener Nummern konfigurieren.
+Das Ankündigungsanwendung wird als ein Feature von Reaktionsgruppenanwendung auf der Front-End-Server oder Standard Edition-Server installiert, wenn Sie Enterprise-VoIP bereitstellen. Sie müssen Ansagen konfigurieren, indem Sie Audiodateien hochladen oder die Text-zu-Sprache-Funktion konfigurieren und die Tabelle nicht zugewiesener Nummern definieren.
 
-Dieser Abschnitt führt Sie durch die Konfiguration von lync Server-Ankündigungen. Es wird davon ausgegangen, dass Sie die Planungsabschnitte in Bezug auf Ankündigungen bereits gelesen und einen Enterprise Edition-Server oder einen Standard Edition-Server mit Enterprise-VoIP bereitgestellt haben.
+Dieser Abschnitt führt Sie durch die Konfiguration von lync Server Ankündigungen. Es wird davon ausgegangen, dass Sie bereits die Planungsabschnitte im Zusammenhang mit Ankündigungen gelesen und eine Enterprise Edition-Server oder ein Standard Edition-Server mit Enterprise-VoIP bereitgestellt haben.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Konfigurationsvoraussetzungen und -rollen für Ansagen in Lync Server 2013](lync-server-2013-announcement-configuration-prerequisites-and-roles.md)
+  - [Voraussetzungen und Rollen für die Ankündigungs Konfiguration in lync Server 2013](lync-server-2013-announcement-configuration-prerequisites-and-roles.md)
 
-  - [Bereitstellungsprozess für die Ankündigungs Anwendung in lync Server 2013](lync-server-2013-deployment-process-for-the-announcement-application.md)
+  - [Bereitstellungsprozess für die Ankündigungsanwendung in lync Server 2013](lync-server-2013-deployment-process-for-the-announcement-application.md)
 
-  - [Erstellen einer Ankündigung in lync Server 2013](lync-server-2013-create-an-announcement.md)
+  - [Erstellen einer Ansage in lync Server 2013](lync-server-2013-create-an-announcement.md)
 
-  - [Konfigurieren der Tabelle nicht zugewiesener Nummern in Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md)
+  - [Konfigurieren der Tabelle nicht zugewiesener Nummern in lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md)
 
   - [Optional Überprüfen der Ankündigungs Bereitstellung in lync Server 2013](lync-server-2013-optional-verify-announcement-deployment.md)
 
@@ -64,7 +64,7 @@ Dieser Abschnitt führt Sie durch die Konfiguration von lync Server-Ankündigung
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planen der Anruf Verwaltungsfeatures in lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  
+[Planen von Funktionen für die Anrufverwaltung in lync Server 2013](lync-server-2013-planning-for-call-management-features.md)  
   
 
 </div>

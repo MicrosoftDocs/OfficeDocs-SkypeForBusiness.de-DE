@@ -12,16 +12,16 @@ ms:contentKeyID: 48183802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a407d8eeb1ad9e318ff2f960f8cb7d62b1e3a9f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4be7b878d3d9b6457fbda7a081db9b6b6cb80314
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757119"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045837"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757119"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-17_
+_**Letztes Änderungsstand des Themas:** 2012-10-17_
 
-Die CodecDescription-Tabelle ordnet eindeutige Codec-IDs dem zugehörigen Codec zu. Codecs werden verwendet, um digitale Signale für die Übertragung und Übertragung zu kodieren und diese Signale zur Wiedergabe zu decodieren. Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
+Die CodecDescription-Tabelle ordnet eindeutige Codec-IDs Ihrem entsprechenden Codec zu. Codecs werden zur Codierung digitaler Signale für die Übertragung und Ausstrahlung verwendet und dann zur Dekodierung dieser Signale für die Wiedergabe. Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
 
 
 <table>
@@ -60,13 +60,13 @@ Die CodecDescription-Tabelle ordnet eindeutige Codec-IDs dem zugehörigen Codec 
 <td><p><strong>CodecDescriptionKey</strong></p></td>
 <td><p>smallint</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutiger Bezeichner, der dem Codec zugewiesen ist.</p></td>
+<td><p>Eindeutige ID, die dem Codec zugewiesen ist.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>CodecDescription</strong></p></td>
 <td><p>varchar (256)</p></td>
-<td><p>Eindeutigen</p></td>
-<td><p>Eindeutige Beschreibung des Codecs, der dem CodecDescriptionKey entspricht.</p></td>
+<td><p>Eigen</p></td>
+<td><p>Eindeutige Beschreibung des Codecs, der dem  CodecDescriptionKey entspricht.</p></td>
 </tr>
 </tbody>
 </table>

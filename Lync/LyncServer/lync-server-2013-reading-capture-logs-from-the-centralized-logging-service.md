@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Lesen von Erfassungs Protokollen vom zentralen Protokollierungsdienst'
+title: 'Lync Server 2013: Lesen von Erfassungs Protokollen aus dem zentralisierten Protokollierungsdienst'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2713c9a1209aad4a96fcb3a76afaf7c2bc61c0dc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5abf7b2f6962dbf38f90f52ff82c54b035d9aa0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724555"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050177"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>Lesen von Aufnahme Protokollen vom zentralisierten Protokollierungsdienst in lync Server 2013
+# <a name="reading-capture-logs-from-the-centralized-logging-service-in-lync-server-2013"></a>Lesen von Erfassungs Protokollen aus dem zentralisierten Protokollierungsdienst in lync Server 2013
 
 </div>
 
@@ -35,76 +35,76 @@ ms.locfileid: "41724555"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-28_
+_**Letztes Änderungsstand des Themas:** 2016-12-28_
 
-Sie erkennen den wirklichen Vorteil des zentralen Protokollierungsdiensts, nachdem Sie die Suche ausgeführt haben, und Sie verfügen über eine Datei, mit der Sie ein gemeldetes Problem nachvollziehen können. Es gibt eine Reihe von Möglichkeiten, wie Sie die Datei lesen können. Die Ausgabedatei befindet sich in einem Standardtextformat, und Sie können Notepad. exe oder alle anderen Programme verwenden, die es Ihnen ermöglichen, eine Textdatei zu öffnen und zu lesen. Für größere Dateien und komplexere Probleme können Sie ein Tool wie Snooper. exe verwenden, das zum Lesen und Analysieren der Protokollierungsausgabe vom zentralen Protokollierungsdienst entwickelt wurde. Snooper ist in den lync Server 2013-Debug-Tools enthalten, die als separater Download zur Verfügung stehen. Sie können die lync Server 2013-Debug-Tools hier [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)herunterladen:. Wenn Sie die lync Server 2013-Debug-Tools installieren, werden keine kurzen Schnitte und Menüelemente erstellt. Nachdem Sie die lync Server 2013-Debug-Tools installiert haben, öffnen Sie den Windows-Explorer, ein Befehlszeilenfenster oder die lync Server-Verwaltungsshell, und wechseln Sie zu dem\\Verzeichnis (\\Standardspeicherort) C\\: Programmdateien Microsoft lync Server 2013 Debug-Tools. Doppelklicken Sie auf Snooper. exe, oder geben Sie Snooper. exe ein, und drücken Sie dann die EINGABETASTE, wenn Sie die Befehlszeile oder die lync Server-Verwaltungsshell verwenden.
+Sie erkennen den tatsächlichen Vorteil des zentralisierten Protokollierungsdiensts nach dem Ausführen der Suche, und Sie verfügen über eine Datei, die Sie zum Aufspüren eines gemeldeten Problems verwenden können. Es gibt eine Reihe von Möglichkeiten, wie Sie die Datei lesen können. Die Ausgabedatei hat ein Standardtextformat und Sie können Notepad. exe oder andere Programme verwenden, mit denen Sie eine Textdatei öffnen und lesen können. Für größere Dateien und komplexere Probleme können Sie ein Tool wie Snooper. exe verwenden, das zum Lesen und Analysieren der Protokollierungsausgabe vom zentralisierten Protokollierungsdienst entwickelt wurde. Snooper ist in den lync Server 2013 Debug-Tools enthalten, die als separater Download zur Verfügung stehen. Sie können die lync Server 2013 Debug-Tools hier herunter [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)laden:. Wenn Sie die lync Server 2013 Debug-Tools installieren, werden keine Kurzschnitte und Menüelemente erstellt. Nachdem Sie die lync Server 2013 Debug-Tools installiert haben, öffnen Sie Windows Explorer, ein Befehlszeilenfenster oder lync Server-Verwaltungsshell und wechseln Sie zum Verzeichnis (Standardspeicherort) C\\: Programm\\Dateien\\Microsoft lync Server 2013 Debugging-Tools. Doppelklicken Sie auf Snooper. exe, oder geben Sie Snooper. exe ein, und drücken Sie dann die EINGABETASTE, wenn Sie die Befehlszeile oder lync Server-Verwaltungsshell verwenden.
 
 <div>
 
 
 > [!IMPORTANT]  
-> In diesem Thema sollen keine Problembehandlungstechniken beschrieben und behandelt werden. Die Problembehandlung und die damit verbundenen Prozesse sind ein komplexes Thema. Details zu den Grundlagen der Problembehandlung und zur Problembehandlung bei bestimmten Arbeitslasten finden Sie im Microsoft lync <A href="http://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>Server 2010 Resource Kit-Handbuch unter. Die Prozesse und Verfahren gelten weiterhin für lync Server 2013.
+> Die Absicht dieses Themas ist nicht detailliert und besprechen die Problembehandlungstechniken. Die Problembehandlung und die Prozesse um Sie herum sind ein komplexes Thema. Ausführliche Informationen zur grundlegenden Problembehandlung und zur Problembehandlung bei bestimmten Arbeitsauslastungen finden <A href="http://go.microsoft.com/fwlink/p/?linkid=211003">https://go.microsoft.com/fwlink/p/?linkId=211003</A>Sie im Microsoft lync Server 2010 Resource Kit-Buch unter. Die Prozesse und Verfahren gelten weiterhin für lync Server 2013.
 
 
 
 </div>
 
-Lync Server 2013 führt eine aktualisierte Version von Snooper mit einigen neuen Features ein. Der folgende Screenshot zeigt die Version von Snooper von Office Communications Server 2007.
+Lync Server 2013 stellt eine aktualisierte Version von Snooper vor, die einige neue Features enthält. Der folgende Screenshot zeigt die Version von Snooper aus Office Communications Server 2007.
 
 ![Office Communications 2007-Version von Snooper.](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office Communications 2007-Version von Snooper.")
 
-Der folgende Screenshot zeigt die neue Version von Snooper, die in den lync Server 2013-Debug-Tools enthalten ist.
+Der folgende Screenshot zeigt die neue Version von Snooper, die in den lync Server 2013 Debug-Tools enthalten ist.
 
-![Lync Server 2013-Version von Snooper.](images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Lync Server 2013-Version von Snooper.")
+![Lync Server 2013 Version von Snooper.](images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Lync Server 2013 Version von Snooper.")
 
 Der folgende Screenshot zeigt die Symbolleiste mit häufig verwendeten Funktionen.
 
-![Snooper 2013-Symbolleiste.](images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Snooper 2013-Symbolleiste.")
+![Snooper 2013 Toolbar.](images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Snooper 2013 Toolbar.")
 
-Und das neueste Feature, das einen Wert hinzufügt, ist die Diagrammansicht Flussdiagramm (Anruffluss). Sie wählen einen Nachrichtenfluss auf dem Reiter **Nachricht** und klicken Sie auf die Schaltfläche **Anruffluss** . Während Sie die Nachrichten durchlaufen, wird das Anruffluss Diagramm mit neuen Daten aktualisiert.
+Und das neueste Feature, das einen Wert hinzufügt, ist die Diagrammansicht Flussdiagramm (Anruffluss). Sie wählen einen Nachrichtenfluss auf der Registerkarte **Nachricht** aus und klicken auf die Schaltfläche **Anruffluss** . Während Sie die Nachrichten durchlaufen, wird das Anruffluss Diagramm mit neuen Daten aktualisiert.
 
-![Snooper 2013-Anruffluss Diagramm](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Snooper 2013-Anruffluss Diagramm")
+![Snooper 2013-Anruffluss Diagramm.](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Snooper 2013-Anruffluss Diagramm.")
 
-Sie können mit der Maus auf die Diagrammansicht zeigen und Details zu den Nachrichten und dem Inhalt der Flüsse und Nachrichten sowie zu den Serverelementen abrufen. Klicken Sie auf einen beliebigen Anruffluss Pfeil, um in der Ansicht Nachrichten zu der Nachricht zu wechseln.
+Sie können mit dem Mauszeiger auf die Diagrammansicht zeigen und Details zu den Nachrichten und dem Inhalt der Fluss-und Nachrichtenübermittlung sowie der Server Elemente abrufen. Klicken Sie auf einen Anruffluss Pfeil, um zur Nachricht in der Ansicht Nachrichten zu wechseln.
 
-![Nachrichtendetails des Anruffluss Diagramms.](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "Nachrichtendetails des Anruffluss Diagramms.")
+![Nachrichtendetails zum Anruffluss Diagramm.](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "Nachrichtendetails zum Anruffluss Diagramm.")
 
 <div>
 
 ## <a name="to-open-a-log-file-in-snooper"></a>So öffnen Sie eine Protokolldatei in Snooper
 
-1.  Zum Öffnen von Protokolldateien mithilfe von Snooper benötigen Sie Lesezugriff für die Protokolldateien. Für den Zugriff auf die Protokolldateien mithilfe von Snooper müssen Sie ein Mitglied der rollenbasierten Zugriffssteuerungs-Sicherheitsgruppe „CsAdministrator“ oder „CsServerAdministrator“ oder einer benutzerdefinierten rollenbasierten Zugriffssteuerungsrolle sein, die eine dieser beiden Gruppen enthält.
+1.  Um Snooper zu verwenden und Protokolldateien zu öffnen, benötigen Sie Lesezugriff auf die Protokolldateien. Um Snooper verwenden und auf die Protokolldateien zugreifen zu können, müssen Sie Mitglied der CsAdministrator-oder der CsServerAdministrator-Sicherheitsgruppe (Role-Based Access Control) oder einer benutzerdefinierten RBAC-Rolle sein, die eine dieser beiden Gruppen enthält.
 
-2.  Wechseln Sie nach der Installation der lync Server-Debugging-Tools (LyncDebugTools. msi) mithilfe von Windows-Explorer oder über die Befehlszeile in den Speicherort von Snooper. exe. Standardmäßig befinden sich die Debug-Tools unter C:\\Programmdateien\\Microsoft lync Server 2013\\-Debugging-Tools. Führen Sie „Snooper.exe“ mittels Doppelklick aus.
+2.  Ändern Sie nach der Installation der lync Server Debugging-Tools (LyncDebugTools. msi) das Verzeichnis in den Speicherort von Snooper. exe mithilfe von Windows Explorer oder über die Befehlszeile. Standardmäßig befinden sich die Debug-Tools in C:\\Program Files\\Microsoft lync Server 2013\\Debugging Tools. Doppelklicken Sie auf oder führen Sie Snooper. exe aus.
 
-3.  Nachdem Snooper geöffnet wurde, klicken Sie mit der rechten Maustaste auf **File** (Datei), klicken Sie auf **OpenFile** (Datei öffnen), suchen Sie nach Ihren Protokolldateien, wählen Sie eine Datei im Dialogfeld **Open** (Öffnen) aus und klicken Sie dann auf **Open** (Öffnen).
+3.  Nachdem Snooper geöffnet wurde, klicken Sie mit der rechten Maustaste auf **Datei**, klicken Sie auf **OpenFile**, suchen Sie nach ihren Protokolldateien, wählen Sie im Dialogfeld **Öffnen** eine Datei aus, und klicken Sie dann auf **Öffnen**.
 
-4.  Die Ablaufverfolgungsmeldungen**** werden auf der Registerkarte **Trace** (Ablaufverfolgung) angezeigt. Klicken Sie auf die Registerkarte **Messages** (Nachrichten), um die Nachrichteninhalte der erfassten Ablaufverfolgungen anzuzeigen.
+4.  Die **Ablauf Verfolgungs** Meldungen der Protokolldatei werden auf der Registerkarte **Ablaufverfolgung** angezeigt. Klicken Sie auf die Registerkarte **Nachrichten** , um den Nachrichteninhalt der gesammelten Ablaufverfolgungen anzuzeigen.
 
 </div>
 
 <div>
 
-## <a name="to-display-a-call-flow-diagram"></a>So zeigen Sie ein Anrufflussdiagramm an
+## <a name="to-display-a-call-flow-diagram"></a>So zeigen Sie ein Anruffluss Diagramm an
 
-1.  Zum Öffnen von Protokolldateien mithilfe von Snooper benötigen Sie Lesezugriff für die Protokolldateien. Für den Zugriff auf die Protokolldateien mithilfe von Snooper müssen Sie ein Mitglied der rollenbasierten Zugriffssteuerungs-Sicherheitsgruppe „CsAdministrator“ oder „CsServerAdministrator“ oder einer benutzerdefinierten rollenbasierten Zugriffssteuerungsrolle sein, die eine dieser beiden Gruppen enthält.
+1.  Um Snooper zu verwenden und Protokolldateien zu öffnen, benötigen Sie Lesezugriff auf die Protokolldateien. Um Snooper verwenden und auf die Protokolldateien zugreifen zu können, müssen Sie Mitglied der CsAdministrator oder der CsServerAdministrator-Sicherheitsgruppen für rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC) oder einer benutzerdefinierten RBAC-Rolle sein, die eine dieser beiden Gruppen enthält.
 
-2.  Öffnen Sie eine Protokolldatei und klicken Sie auf die Registerkarte **Messages** (Nachrichten), wählen Sie eine Unterhaltung in der Nachrichtenansicht aus oder wählen Sie eine Ablaufverfolgungskomponente auf der Registerkarte **Trace** (Ablaufverfolgung) aus.
+2.  Öffnen Sie eine Protokolldatei, klicken Sie auf die Registerkarte **Nachrichten** , wählen Sie eine Unterhaltung in der Ansicht Nachrichten aus, oder wählen Sie auf der Registerkarte **Ablauf** Verfolgung eine Ablauf Verfolgungs Komponente
 
-3.  Klicken Sie auf **Call Flow** (Anruffluss).
+3.  Klicken Sie auf **Anruffluss**.
     
     <div>
     
 
     > [!NOTE]  
-    > Wenn Sie auf eine Nachricht oder Ablaufverfolgung klicken, die nicht Bestandteil eines Anrufflusses ist, wird das Diagramm nicht angezeigt. Außerdem wird unten in Snooper die Statusmeldung angezeigt, dass diese Nachricht nicht für den Anruffluss in Frage kommt. Wählen Sie eine andere Nachricht oder Ablaufverfolgung aus. Der Anruffluss wird angezeigt, falls die Nachricht oder Ablaufverfolgung Bestandteil eines Anrufflusses ist.
+    > Wenn Sie auf eine Nachricht oder Ablaufverfolgung klicken, die nicht Teil eines Anrufflusses ist, wird das Diagramm nicht angezeigt, und es wird eine Statusmeldung unten in Snooper angezeigt, die besagt, dass "diese Nachricht nicht für callfow geeignet ist". Wählen Sie eine andere Nachricht oder Ablaufverfolgung aus, und der Anruffluss wird angezeigt, wenn die Nachricht oder Ablaufverfolgung Teil eines Anrufflusses ist.
 
     
     </div>
 
-4.  Navigieren Sie in den Nachrichten oder Ablaufverfolgungszeilen und überprüfen Sie, ob das Anrufflussdiagramm aktualisiert oder geändert und ein neues Diagramm angezeigt wird.
+4.  Navigieren Sie durch die Nachrichten oder die Ablauf Verfolgungszeilen, und notieren Sie, ob das Anruffluss Diagramm aktualisiert oder geändert wird, um ein neues Diagramm anzuzeigen.
 
-5.  Zeigen Sie auf Elemente, um Informationen zu Anrufnachrichten, Endpunkten und sonstigen Komponenten anzuzeigen.
+5.  Bewegen Sie den Mauszeiger über Elemente, um Informationen zu Anruf Nachrichten, Endpunkten und anderen Komponenten zu erhalten.
 
 </div>
 

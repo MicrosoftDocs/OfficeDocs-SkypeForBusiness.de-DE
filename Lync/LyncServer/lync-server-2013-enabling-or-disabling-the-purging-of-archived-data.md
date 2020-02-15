@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Aktivieren oder Deaktivieren des Bereinigens von archivierten Daten'
+title: 'Lync Server 2013: Aktivieren oder Deaktivieren der Löschung archivierter Daten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183678
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b06d21cc0154ea57bc028c87c835e4de9a00f1b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3e62ff615b4e2fcf5ec10f470993f985db0363a4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735655"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049157"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-or-disabling-the-purging-of-archived-data-in-lync-server-2013"></a>Aktivieren oder Deaktivieren des Bereinigens archivierter Daten in lync Server 2013
+# <a name="enabling-or-disabling-the-purging-of-archived-data-in-lync-server-2013"></a>Aktivieren oder Deaktivieren der Löschung archivierter Daten in lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41735655"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-In der lync Server 2013-Systemsteuerung verwenden Sie Archivierungs Konfigurationen, um das Bereinigen zu aktivieren und zu deaktivieren und die Implementierung der Bereinigung zu konfigurieren. Dies umfasst die folgenden Archivierungs Konfigurationen:
+In lync Server 2013 Systemsteuerung verwenden Sie Archivierungs Konfigurationen, um die Bereinigung zu aktivieren und zu deaktivieren und zu konfigurieren, wie das Löschen implementiert wird. Dies schließt die folgenden Archivierungskonfigurationen ein:
 
-  - Eine globale Konfiguration, die standardmäßig beim Bereitstellen von lync Server 2013 erstellt wird.
+  - Eine globale Konfiguration, die standardmäßig erstellt wird, wenn Sie lync Server 2013 bereitstellen.
 
-  - Optionale Konfigurationen auf Websiteebene und auf Poolebene, die Sie erstellen und verwenden können, um anzugeben, wie die Archivierung für bestimmte Websites oder Pools implementiert werden soll.
+  - Optionale Konfigurationen auf Standort- und Poolebene, die Sie zum Angeben der Implementierungsart für spezielle Standorte oder Pools erstellen und verwenden können.
 
-Sie haben zunächst Archivierungs Konfigurationen eingerichtet, wenn Sie die Archivierung bereitstellen, aber Sie können Konfigurationen nach der Bereitstellung ändern, hinzufügen und löschen. Ausführliche Informationen zur Implementierung von Archivierungs Konfigurationen, einschließlich der Optionen, die Sie angeben können, und der Hierarchie der Archivierungs Konfigurationen finden Sie unter [Funktionsweise der Archivierung in lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, Bereitstellungsdokumentation oder in der Betriebsdokumentation.
+Sie legen Archivierungskonfigurationen anfangs fest, wenn Sie Archivierungen bereitstellen, Sie können jedoch nach der Bereitstellung Konfigurationen ändern, hinzufügen und löschen. Ausführliche Informationen zur Implementierung von Archivierungs Konfigurationen, einschließlich der Optionen, die Sie angeben können, und der Hierarchie der Archivierungs Konfigurationen finden Sie unter [How Archiving Works in lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, in der Bereitstellungsdokumentation oder in der Betriebsdokumentation.
 
 <div>
 
 
 > [!NOTE]  
-> Wenn Sie die Archivierung für Benutzer verwenden möchten, die in lync Server 2013 verwaltet werden, müssen Sie Archivierungsrichtlinien so konfigurieren, dass Sie angeben, ob die Archivierung für die interne Kommunikation, für die externe Kommunikation oder für beide aktiviert werden soll. Standardmäßig ist die Archivierung für die interne oder externe Kommunikation nicht aktiviert. Bevor Sie die Archivierung in einer beliebigen Richtlinie aktivieren, sollten Sie die geeigneten Archivierungs Konfigurationen für Ihre Bereitstellung und optional für bestimmte Websites und Pools angeben, wie in diesem Abschnitt beschrieben. Details zum Aktivieren der Archivierung finden Sie unter <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Konfigurieren und Zuweisen von Archivierungsrichtlinien in lync Server 2013</A> in der Bereitstellungsdokumentation.<BR>Wenn Sie nach der Bereitstellung der Archivierung entscheiden, dass Sie die Microsoft Exchange-Integration zum Speichern von Archivierungsdaten und-Dateien auf Exchange 2013-Servern verwenden möchten und alle Ihre Benutzer auf Ihren Exchange 2013-Servern gespeichert sind, sollten Sie die SQL Server-Datenbankkonfiguration entfernen. aus Ihrer Topologie. Dazu müssen Sie den Topology Builder verwenden. Ausführliche Informationen finden Sie unter Ändern der Optionen für die <A href="lync-server-2013-changing-archiving-database-options.md">Archivierungsdatenbank in lync Server 2013</A> in der Betriebsdokumentation.
+> Um die Archivierung für Benutzer zu verwenden, die in lync Server 2013 verwaltet werden, müssen Sie Archivierungsrichtlinien konfigurieren, um anzugeben, ob die Archivierung für die interne Kommunikation, für die externe Kommunikation oder für beides aktiviert werden soll. In der Standardeinstellung ist die Archivierung weder für die interne noch für die externe Kommunikation aktiviert. Bevor Sie die Archivierung mithilfe von Richtlinien aktivieren, sollten Sie die entsprechenden Archivierungskonfigurationen für Ihre Bereitstellung und optional auch für bestimmte Standorte und Pools festlegen, so wie in diesem Abschnitt beschrieben. Ausführliche Informationen zum Aktivieren der Archivierung finden Sie unter <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Konfigurieren und Zuweisen von Archivierungsrichtlinien in lync Server 2013</A> in der Bereitstellungsdokumentation.<BR>Wenn Sie nach der Bereitstellung der Archivierung, die Sie Microsoft Exchange Integration zum Speichern von Archivierungsdaten und-Dateien auf Exchange 2013 Servern verwenden möchten und alle Ihre Benutzer auf Ihren Exchange 2013 Servern verwaltet werden, entscheiden, sollten Sie die SQL Server Datenbankkonfiguration entfernen. aus Ihrer Topologie. Sie müssen den Topologie-Generator verwenden, um dies zu tun. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-changing-archiving-database-options.md">Ändern von Archivierungsdatenbank Optionen in lync Server 2013</A> in der Betriebsdokumentation.
 
 
 
@@ -57,25 +57,25 @@ Sie haben zunächst Archivierungs Konfigurationen eingerichtet, wenn Sie die Arc
 
 <div>
 
-## <a name="to-enable-or-disable-purging-for-archiving"></a>So aktivieren oder deaktivieren Sie die Bereinigung für die Archivierung
+## <a name="to-enable-or-disable-purging-for-archiving"></a>So aktivieren oder deaktivieren Sie den Löschvorgang für die Archivierung
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsArchivingAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich von einem Benutzerkonto, das der CsArchivingAdministrator- oder der CsAdministrator-Rolle zugeordnet ist, auf einem beliebigen Computer Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie auf der linken Navigationsleiste auf **Überwachung und Archivierung** und anschließend auf **Archivierungskonfiguration**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Überwachung und Archivierung** und dann auf **Archivierungskonfiguration**.
 
-4.  Klicken Sie in der Liste der Archivierungskonfigurationen auf den Namen der betreffenden Konfiguration auf globaler, Standort- oder Poolebene. Klicken Sie auf **Bearbeiten** und auf **Details anzeigen** und führen Sie dann eine der folgenden Aktionen aus:
+4.  Klicken Sie in der Liste der Archivierungskonfigurationen auf den Namen der entsprechenden globalen, Standort- oder Poolkonfiguration. Klicken Sie dann auf **Bearbeiten** und auf **Details anzeigen**, und gehen Sie anschließend folgendermaßen vor.
     
-      - Aktivieren Sie zum Starten des Löschvorgangs das Kontrollkästchen **Bereinigungsfunktion für alle Archivierungsdaten aktivieren** und führen Sie einen der folgenden Schritte aus:
+      - Zum Aktivieren des Löschvorgangs aktivieren Sie das Kontrollkästchen **Löschen von Archivierungsdaten aktivieren**, und führen Sie einen der folgenden Schritte aus:
         
-          - Wenn Sie alle Datensätze löschen möchten, klicken Sie auf **Löschen von exportierten und gespeicherten Archivierungsdaten nach einer Höchstdauer von (Tage)** und geben Sie die Anzahl der Tage an.
+          - Zum Löschen aller Datensätze klicken Sie auf **Exportierte Archivierungsdaten und gespeicherte Archivierungsdaten löschen nach spätestens (Tage)**, und geben Sie die Anzahl der Tage an.
         
           - Klicken Sie auf **Nur exportierte Archivierungsdaten löschen**, um nur die exportierten Daten zu löschen.
     
-      - Deaktivieren Sie zum Beenden des Löschvorgangs das Kontrollkästchen **Bereinigungsfunktion für alle Archivierungsdaten aktivieren**.
+      - Zum Deaktivieren des Löschvorgangs deaktivieren Sie das Kontrollkästchen **Löschen von Archivierungsdaten aktivieren**.
 
-5.  Klicken Sie auf **Commit ausführen**.
+5.  Klicken Sie auf **Commit**.
 
 </div>
 
@@ -83,29 +83,29 @@ Sie haben zunächst Archivierungs Konfigurationen eingerichtet, wenn Sie die Arc
 
 ## <a name="enabling-or-disabling-the-purging-of-archiving-data-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren des Löschens von Archivierungsdaten mithilfe von Windows PowerShell-Cmdlets
 
-Das Aktivieren und Deaktivieren der automatischen Bereinigung von Archivierungsdaten kann mithilfe von Windows PowerShell und dem Cmdlet " **CsArchivingConfiguration** " verwaltet werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Das Aktivieren und Deaktivieren der automatischen Bereinigung von Archivierungsdaten kann mit Windows PowerShell und dem Cmdlet " **CsArchivingConfiguration** " verwaltet werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
 ## <a name="to-enable-the-purging-of-all-archiving-data"></a>So aktivieren Sie das Löschen aller Archivierungsdaten
 
-  - Um das Löschen aller Archivierungsdaten zu aktivieren, muss die **EnablePurging** -Eigenschaft auf true ($true) festgelegt werden. Beispiel:
+  - Um das Löschen aller Archivierungsdaten zu ermöglichen, legen Sie die **"enablepurging"** -Eigenschaft auf true ($true) fest. Beispiel:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
     
-    Nachdem dieser Befehl ausgeführt wurde, löscht lync Server jeden Tag alle Archivierungsdaten Sätze, die älter als der für die **"keeparchivingdatafordays"** -Eigenschaft angegebene Wert sind.
+    Nach dem Ausführen dieses Befehls werden lync Server alle Archivierungsdaten Sätze, die älter sind als der für die **"keeparchivingdatafordays"** -Eigenschaft angegebene Wert, jeden Tag gelöscht.
 
 </div>
 
 <div>
 
-## <a name="to-enable-the-purging-only-of-exported-archiving-data"></a>So aktivieren Sie das Bereinigen der exportierten Archivierungsdaten
+## <a name="to-enable-the-purging-only-of-exported-archiving-data"></a>So aktivieren Sie das Löschen von exportierten Archivierungsdaten
 
-  - Um das Löschen auf das Archivieren von Datensätzen zu begrenzen, die in eine Datendatei exportiert wurden (mithilfe des Cmdlets [Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) ), müssen Sie auch die PurgeExportedArchivesOnly-Eigenschaft auf true festlegen ($true). Beispiel:
+  - Zum Begrenzen des Löschvorgangs auf Archivierungsdaten Sätze, die in eine Datendatei exportiert wurden (mithilfe des [Export-CsArchivingData-](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) Cmdlets), müssen Sie auch die "purgeexportedarchivesonly"-Eigenschaft auf true ($true) festlegen. Beispiel:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     
-    Nachdem dieser Befehl ausgeführt wurde, löscht lync Server nur Archivierungsdaten Sätze, die zwei Kriterien erfüllen: 1) Sie sind älter als der für die **"keeparchivingdatafordays"** -Eigenschaft angegebene Wert; und 2) Sie wurden mit dem Cmdlet **Export-CsArchivingData** exportiert.
+    Nach Ausführung dieses Befehls löscht lync Server nur Archivierungsdaten Sätze, die zwei Kriterien erfüllen: 1) Sie sind älter als der für die **"keeparchivingdatafordays"** -Eigenschaft angegebene Wert; und 2) Sie wurden mit dem **Export-CsArchivingData-** Cmdlet exportiert.
 
 </div>
 
@@ -113,13 +113,13 @@ Das Aktivieren und Deaktivieren der automatischen Bereinigung von Archivierungsd
 
 ## <a name="to-disable-the-purging-of-all-archiving-data"></a>So deaktivieren Sie das Löschen aller Archivierungsdaten
 
-  - Um das automatisierte Löschen von Archivierungsdaten Sätzen zu deaktivieren, setzen Sie die **EnablePurging** -Eigenschaft auf false ($false). Beispiel:
+  - Wenn Sie das automatische Löschen von Archivierungsdaten Sätzen deaktivieren möchten, legen Sie die **"enablepurging"** -Eigenschaft auf false ($false) fest. Beispiel:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 
 </div>
 
-Weitere Informationen, einschließlich zusätzlicher Optionen zum Bereinigen von Archivierungsdaten, finden Sie im Hilfethema zum Cmdlet " [setCsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsArchivingConfiguration) ".
+Weitere Informationen, einschließlich zusätzlicher Optionen zum Löschen von Archivierungsdaten, finden Sie im Hilfethema für das Cmdlet " [setCsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsArchivingConfiguration) ".
 
 </div>
 
@@ -132,7 +132,7 @@ Weitere Informationen, einschließlich zusätzlicher Optionen zum Bereinigen von
 
 
 [Konfigurieren und Zuweisen von Archivierungsrichtlinien in lync Server 2013](lync-server-2013-configuring-and-assigning-archiving-policies.md)  
-[Verwalten von Archivierungs Konfigurationsoptionen in lync Server 2013 für Ihre Organisation, ihre Websites und Pools](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
+[Verwalten von Archivierungs Konfigurationsoptionen in lync Server 2013 für Ihre Organisation, Standorte und Pools](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
   
 
 </div>

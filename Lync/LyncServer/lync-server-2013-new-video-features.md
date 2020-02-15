@@ -12,20 +12,20 @@ ms:contentKeyID: 48185355
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46172b2996905b763f4b646a52c2c0ea95fc30b4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bbff93abc864acee730b0d31cc4b05a84915573f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755869"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048426"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-video-features-in-lync-server-2013"></a>Neue Videofunktionen in Lync Server 2013
+# <a name="new-video-features-in-lync-server-2013"></a>Neue Videofunktionen in lync Server 2013
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "41755869"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-08-16_
+_**Letztes Änderungsstand des Themas:** 2012-08-16_
 
-Lync Server 2013 stellt die folgenden neuen Videofeatures vor:
+In lync Server 2013 werden die folgenden neuen Videofeatures vorgestellt:
 
-  - **HD-Video**   Benutzer können Auflösungen bis zu HD 1080p in zwei-Parteien-anrufen und mehrteiligen Konferenzen erleben.
+  - **HD-Video**   Benutzer können Auflösungen bis zu HD 1080p in Gesprächen mit zwei Teilnehmern und Konferenzen mit mehreren Teilnehmern durchführen.
 
-  - **Katalogansicht**   in Videokonferenzen mit mehr als zwei Personen können Benutzer Videos der Teilnehmer an der Konferenz sehen. Wenn die Konferenz mehr als fünf Teilnehmer umfasst, werden in der obersten Zeile nur Videos von den aktivsten Teilnehmern angezeigt, und für die anderen Teilnehmer wird ein Foto angezeigt.
+  - **Galerieansicht**   in Videokonferenzen mit mehr als zwei Personen können Benutzer Videos von Teilnehmern in der Konferenz sehen. Wenn die Konferenz über mehr als fünf Teilnehmer verfügt, wird in der obersten Zeile nur Video von den aktivsten Teilnehmern angezeigt, und für die anderen Teilnehmer wird ein Foto angezeigt.
 
-  - **H. 264-Video**   der h. 264-Videocodec ist jetzt der Standard zum Codieren von Video auf lync 2013-Clients. H. 264-Video unterstützt eine größere Auswahl an Auflösungen und Frameraten und verbessert die Video Skalierbarkeit.
+  - **H. 264-Video**   der h. 264-Videocodec ist jetzt der Standard für die Codierung von Video auf lync 2013 Clients. H.264-Video unterstützt mehr Auflösungen und Frameraten und verbessert die Videoskalierbarkeit.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planen und Bereitstellen von Video in lync Server 2013](lync-server-2013-planning-and-deploying-video.md)  
+[Planen und Bereitstellen von Videos in lync Server 2013](lync-server-2013-planning-and-deploying-video.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren eines sekundären Standort Informationsdiensts'
+title: 'Lync Server 2013: Konfigurieren einer sekundären Standortinformationsdienst'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183334
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2b7ee9383939e8df5466d615f6fda4a2af33c2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 50d63d8316c9ce18bdf8677686a655046601b326
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741365"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048148"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-a-secondary-location-information-service-in-lync-server-2013"></a>Konfigurieren eines sekundären Standort Informationsdiensts in lync Server 2013
+# <a name="configure-a-secondary-location-information-service-in-lync-server-2013"></a>Konfigurieren einer sekundären Standortinformationsdienst in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41741365"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-30_
+_**Letztes Änderungsstand des Themas:** 2012-10-30_
 
-Lync Server 2013 stellt eine Webdienstschnittstelle bereit, die Sie verwenden können, um den standortinformationsdienst auf eine SLS-Datenbank (Secondary Location Source) zu verweisen. Die Webdienstschnittstelle, die eine Verbindung mit der SLS-Datenbank herstellt, muss dem Location Information Service-WSDL entsprechen. Wenn sowohl eine Standortdatenbank als auch eine sekundäre Standortdatenbank konfiguriert sind, fragt der standortinformationsdienst zuerst die Standortdatenbank ab, und wenn keine Übereinstimmung gefunden wird, sendet die standortanforderung vom Client an die SLS-Datenbank. Wenn der Standort im SLS vorhanden ist, sendet der standortinformationsdienst den Standort dann zurück an den Client.
+Lync Server 2013 stellt eine Webdienstschnittstelle bereit, die Sie verwenden können, um das Standortinformationsdienst auf eine SLS-Datenbank (Secondary Location Source) zu deuten. Die Webdienstschnittstelle, die eine Verbindung mit der SLS-Datenbank herstellt, muss Standortinformationsdienst WSDL entsprechen. Wenn sowohl eine Standortdatenbank als auch eine sekundäre Standortdatenbank konfiguriert sind, fragt der Standortinformationsdienst zunächst die Standortdatenbank ab, und wenn keine Übereinstimmung gefunden wird, sendet die standortanforderung vom Client an die SLS-Datenbank. Wenn der Speicherort im SLS vorhanden ist, sendet der Standortinformationsdienst den Standort dann zurück an den Client.
 
-Ausführliche Informationen finden Sie in der Dokumentation zur lync Server-Verwaltungsshell für das folgende Cmdlet:
+Ausführliche Informationen finden Sie in der lync Server-Verwaltungsshell Dokumentation für das folgende Cmdlet:
 
-  - **Satz-CsWebServiceConfiguration**
+  - **Gruppe-CsWebServiceConfiguration**
 
 <div>
 
-## <a name="to-configure-secondary-location-database"></a>So konfigurieren Sie die sekundäre Standortdatenbank
+## <a name="to-configure-secondary-location-database"></a>So konfigurieren Sie die sekundäre Standortdatenbank (SLS)
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 2.  Führen Sie das folgende Cmdlet aus, um die URL für den Speicherort der SLS-Datenbank zu konfigurieren.
     

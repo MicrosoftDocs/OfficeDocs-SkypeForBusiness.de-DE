@@ -12,16 +12,16 @@ ms:contentKeyID: 48185241
 ms.date: 12/08/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb5366f7e3d4c2aba81b5b8b25873ea22d54c3a6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 45282476beac35df7248c4ef6bd04c6642a0f1e2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765846"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049036"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765846"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-12-05_
+_**Letztes Änderungsstand des Themas:** 2014-12-05_
 
-In diesem Thema werden Änderungen an Cmdlets der lync Server-Verwaltungsshell erläutert, die sich direkt auf die Clientverwaltung beziehen. Lync Server 2013 führt verschiedene neue Parameter ein und verwirft Parameter für Features, die auf andere Weise konfiguriert werden können.
+In diesem Thema werden Änderungen an lync Server-Verwaltungsshell-Cmdlets erläutert, die direkt mit der Clientverwaltung in Zusammenhangstehen. In lync Server 2013 werden mehrere neue Parameter eingeführt, und Parameter für Features, die mit anderen Mitteln konfiguriert werden können, werden veraltet.
 
 <div>
 
@@ -53,7 +53,7 @@ In diesem Thema werden Änderungen an Cmdlets der lync Server-Verwaltungsshell e
 <thead>
 <tr class="header">
 <th>Neu</th>
-<th>Cmdlet "lync Server-Verwaltungsshell"</th>
+<th>Lync Server-Verwaltungsshell-Cmdlet</th>
 <th>Beschreibung</th>
 </tr>
 </thead>
@@ -61,58 +61,58 @@ In diesem Thema werden Änderungen an Cmdlets der lync Server-Verwaltungsshell e
 <tr class="odd">
 <td><p>TracingLevel</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Wenn Sie auf "true" festgelegt ist, wird die Software Ablaufverfolgung in lync aktiviert. Wenn Sie auf false festgelegt ist, wird die Software Ablaufverfolgung deaktiviert. Bei der Software Ablaufverfolgung wird eine detaillierte Aufzeichnung aller Elemente des Programms (einschließlich nach Verfolgungs-API-aufrufen) unterhalten. Die Ablaufverfolgung ist für Entwickler und das Supportpersonal der Anwendung hauptsächlich hilfreich. Diese Einstellung entspricht der Gruppenrichtlinieneinstellung &quot;Communications Server 2007 R2 aktivieren der Ablaufverfolgung für Communicator. &quot; Die Einstellungen lauten wie folgt:</p>
+<td><p>Bei Festlegung auf "true" wird die Software Ablaufverfolgung in lync aktiviert; bei Festlegung auf "false" wird die Software Ablaufverfolgung deaktiviert. Die Softwareablaufverfolgung umfasst das Aufzeichnen detaillierter Informationen zu allen Abläufen in einem Programm (einschließlich API-Aufrufe). Die Ablaufverfolgung ist vor allem für Entwickler und Anwendungssupport Mitarbeiter hilfreich. Diese Einstellung entspricht der Einstellung &quot;Communications Server 2007 R2 Gruppenrichtlinie die Ablaufverfolgung für Communicator aktivieren. &quot; Die Einstellungen lauten wie folgt:</p>
 <ul>
 <li><p>Off = Ablaufverfolgung ist deaktiviert, und der Benutzer kann diese Einstellung nicht ändern.</p></li>
-<li><p>Light = minimale Nachverfolgung wird ausgeführt, und der Benutzer kann diese Einstellung nicht ändern.</p></li>
-<li><p>On = Verbose-Ablaufverfolgung wird ausgeführt, und der Benutzer kann diese Einstellung nicht ändern.</p></li>
+<li><p>Light = minimale Ablaufverfolgung wird ausgeführt, und der Benutzer kann diese Einstellung nicht ändern.</p></li>
+<li><p>On = ausführliche Ablaufverfolgung wird ausgeführt, und der Benutzer kann diese Einstellung nicht ändern.</p></li>
 </ul>
-<p>Standardmäßig ist TracingLevel auf einen NULL-Wert festzulegen. Das bedeutet, dass die minimale Ablaufverfolgung ausgeführt wird, aber der Benutzer kann diese minimale Ablaufverfolgung aktivieren oder deaktivieren.</p></td>
+<p>Standardmäßig ist TracingLevel auf einen NULL-Wert festgelegt. Das bedeutet, dass eine minimale Ablaufverfolgung durchgeführt wird, der Benutzer jedoch diese minimale Ablaufverfolgung aktivieren oder deaktivieren kann.</p></td>
 </tr>
 <tr class="even">
-<td><p>EnableMediaRedirection</p></td>
+<td><p>"Enablemediaredirection"</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Wenn der Wert auf true ($true) festgelegt ist, können Audio-und Videodatenströme vom anderen Netzwerkdatenverkehr getrennt werden, was wiederum Clientgeräten ermöglicht, Audio-und Videodaten lokal zu codieren und zu decodieren. Die Medien Umleitung führt in der Regel zu einer niedrigeren Bandbreitennutzung, höherer Serverskalierbarkeit und einer optimierten Benutzererfahrung im Vergleich zu ähnlichen Techniken wie Geräte-Remoting oder Codec-Komprimierung.</p></td>
+<td><p>Bei Festlegung auf "true" ($true) können Audio-und Videostreams von anderem Netzwerkdatenverkehr getrennt werden, dies wiederum ermöglicht Clientgeräten das Codieren und Decodieren von Audio-und Videodaten lokal. Die Medien Umleitung führt in der Regel zu einer niedrigeren Bandbreitennutzung, höherer Serverskalierbarkeit und einer optimalen Benutzererfahrung im Vergleich zu ähnlichen Techniken wie Geräte Remoting oder Codec-Komprimierung.</p></td>
 </tr>
 <tr class="odd">
 <td><p>AllowLargeMeetings</p></td>
 <td><p>CsConferencing</p></td>
-<td><p>Wenn Sie auf "true" festgelegt ist, werden &quot;alle lync-Besprechungen als große Besprechungen behandelt. &quot; Bei einer großen Besprechung werden Einschränkungen für die Anzahl der Benachrichtigungen, die an die Teilnehmer gesendet werden, sowie die Größe des standardmäßig übermittelten Besprechungs Arbeitsplans festgestellt.</p></td>
+<td><p>Bei Festlegung auf "true" werden alle lync- &quot;Besprechungen als große Besprechungen behandelt. &quot; Bei einer großen Besprechung werden Einschränkungen für die Anzahl der Benachrichtigungen, die an die Teilnehmer gesendet werden, zusätzlich zur Größe der standardmäßig übermittelten Besprechungsliste erteilt.</p></td>
 </tr>
 <tr class="even">
 <td><p>DisablePowerPointAnnotations</p></td>
 <td><p>CsConferencing</p></td>
-<td><p>Bei Festlegung auf true ($true) können Benutzer keine Anmerkungen zu PowerPoint-Folien hinzufügen, die in einer Konferenz verwendet werden. Je nach dem Wert der AllowAnnotations-Eigenschaft können die Benutzer jedoch weiterhin auf andere Whiteboard-Features zugreifen. Der Standardwert ist "falsch", was bedeutet, dass PowerPoint-Anmerkungen zulässig sind.</p></td>
+<td><p>Bei Festlegung auf "true" ($true) können Benutzer keine Anmerkungen zu PowerPoint-Folien hinzufügen, die in einer Konferenz verwendet werden. (Abhängig vom Wert der AllowAnnotations-Eigenschaft) können Benutzer jedoch weiterhin auf andere Whiteboardfunktionen zugreifen. Der Standardwert ist false, was bedeutet, dass PowerPoint-Anmerkungen zulässig sind.</p></td>
 </tr>
 <tr class="odd">
 <td><p>AllowSharedNotes</p></td>
 <td><p>CsConferencing</p></td>
-<td><p>Wenn auf "true" (der Standardwert) festgelegt ist, werden alle geöffneten OneNote-Notizbücher, die mit der Konferenz verknüpft sind, automatisch mit Informationen wie Konferenzteilnehmern und Details zu den während der Konferenz freigegebenen Inhalten aktualisiert.</p></td>
+<td><p>Bei Festlegung auf "true" (Standardwert) werden alle geöffneten OneNote-Notizbücher, die mit der Konferenz verknüpft sind, automatisch mit Informationen wie Konferenzteilnehmern und Details zu Inhalten aktualisiert, die während der Konferenz freigegeben wurden.</p></td>
 </tr>
 <tr class="even">
 <td><p>EnableInviteCustomization</p></td>
 <td><p>CsMeetingConfiguration</p></td>
-<td><p>Wird zusammen mit den anderen neuen CsMeetingConfiguration-Parametern verwendet, um die vom Online Besprechungs-Add-in für lync 2013 generierten Besprechungseinladungen anzupassen.</p></td>
+<td><p>Wird zusammen mit den anderen neuen CsMeetingConfiguration-Parametern verwendet, um die vom Online-Besprechungs-Add-in generierten Besprechungseinladungen für lync 2013 anzupassen.</p></td>
 </tr>
 <tr class="odd">
 <td><p>LogoURL</p></td>
 <td><p>CsMeetingConfiguration</p></td>
-<td><p>Fügt dem Logo Ihrer Organisation alle Einladungen hinzu, die vom Online Besprechungs-Add-in für lync 2013 generiert wurden. Sie geben die URL eines GIF-oder JPG-Bilds an.</p></td>
+<td><p>Fügt das Logo Ihrer Organisation allen Einladungen hinzu, die vom Online-Besprechungs-Add-in für lync 2013 generiert wurden. Sie geben die URL eines GIF-oder JPG-Bilds an.</p></td>
 </tr>
 <tr class="even">
 <td><p>HelpUrl</p></td>
 <td><p>CsMeetingConfiguration</p></td>
-<td><p>Fügt die Hilfe-oder Support-URL Ihrer Organisation zu allen Einladungen hinzu, die vom Online Besprechungs-Add-in für lync 2013 generiert wurden.</p></td>
+<td><p>Fügt die Hilfe-oder Support-URL Ihrer Organisation zu allen Einladungen hinzu, die vom Online-Besprechungs-Add-in für lync 2013 generiert wurden.</p></td>
 </tr>
 <tr class="odd">
 <td><p>LegalURL</p></td>
 <td><p>CsMeetingConfiguration</p></td>
-<td><p>Fügt allen Einladungen, die vom Online Besprechungs-Add-in für lync 2013 generiert wurden, juristischen Text oder Verzichts Text hinzu. Sie geben die URL für den Speicherort des Texts an.</p></td>
+<td><p>Fügt alle Einladungen, die vom Online-Besprechungs-Add-in für lync 2013 generiert wurden, juristischen Text oder Haftungsausschluss Text hinzu. Sie geben die URL für den Speicherort des Texts an.</p></td>
 </tr>
 <tr class="even">
 <td><p>CustomFooterText</p></td>
 <td><p>CsMeetingConfiguration</p></td>
-<td><p>Fügt allen Einladungen, die vom Online Besprechungs-Add-in für lync 2013 generiert wurden, eine benutzerdefinierte Fußzeile hinzu. Sie geben die URL für den Speicherort des benutzerdefinierten Fußzeilentexts an.</p></td>
+<td><p>Fügt eine benutzerdefinierte Fußzeile zu allen Einladungen hinzu, die vom Online-Besprechungs-Add-in für lync 2013 generiert wurden. Sie geben die URL für den Speicherort des benutzerdefinierten Fußzeilentexts an.</p></td>
 </tr>
 </tbody>
 </table>
@@ -132,7 +132,7 @@ In diesem Thema werden Änderungen an Cmdlets der lync Server-Verwaltungsshell e
 <thead>
 <tr class="header">
 <th>Parameter</th>
-<th>Cmdlet "lync Server-Verwaltungsshell"</th>
+<th>Lync Server-Verwaltungsshell-Cmdlet</th>
 <th>Beschreibung</th>
 </tr>
 </thead>
@@ -140,27 +140,27 @@ In diesem Thema werden Änderungen an Cmdlets der lync Server-Verwaltungsshell e
 <tr class="odd">
 <td><p>CustomizedHelpUrl</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Dieser Parameter wurde für die Verwendung mit lync Server 2013 veraltet. Bei Verwendung in Verbindung mit EnableEnterpriseCustomizedHelp ermöglicht dieser Parameter einer Organisation, eine URL anzugeben, damit Benutzer, die auf das Menü "Hilfe" in lync geklickt haben, eine angepasste Hilfe anzeigen können.</p></td>
+<td><p>Dieser Parameter ist für die Verwendung mit lync Server 2013 veraltet. Bei Verwendung in Verbindung mit EnableEnterpriseCustomizedHelp wurde mit diesem Parameter eine Organisation zur Angabe einer URL aktiviert, sodass Benutzer, die auf das Hilfemenü in lync geklickt haben, eine angepasste Hilfe anzeigen können.</p></td>
 </tr>
 <tr class="even">
 <td><p>EnableEnterpriseCustomizedHelp</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Dieser Parameter wurde für die Verwendung mit lync Server 2013 veraltet. Wenn dieser Parameter in Verbindung mit CustomizedHelpUrl verwendet wird, konnten Organisationen angepasste Hilfe anzeigen.</p></td>
+<td><p>Dieser Parameter ist für die Verwendung mit lync Server 2013 veraltet. Wenn dieser Parameter in Verbindung mit CustomizedHelpUrl verwendet wird, konnten Organisationen angepasste Hilfe anzeigen.</p></td>
 </tr>
 <tr class="odd">
 <td><p>EnableSQMData</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Der EnableSQMData-Parameter des Cmdlets "Satz-CSClientPolicy" wurde in lync Server 2013 entfernt. Stattdessen können Sie die freigegebene Gruppenrichtlinieneinstellung für Software Quality Management (qm)-Daten verwenden, um die Benutzeroberfläche für die Option zur Verbesserung der Benutzerfreundlichkeit auf der Seite lync-Client-allgemeine Optionen zu ermitteln:</p>
+<td><p>Der Parameter EnableSQMData des Cmdlets "CSClientPolicy" wurde in lync Server 2013 entfernt. Stattdessen können Sie die freigegebene Gruppenrichtlinieneinstellung für QM-Daten (Software Quality Management) verwenden, um die Benutzeroberfläche für die Option zur Verbesserung der Benutzerfreundlichkeit auf der Seite Allgemeine lync-Clientoptionen zu bestimmen:</p>
 <p>HKEY_CURRENT_USER \software\policies\microsoft\office\common\qmenable</p>
 <p>Werte</p>
-<p>1 = Anzeige und Aktivieren des Kontrollkästchens (der Benutzer kann das Kontrollkästchen deaktivieren)</p>
-<p>0 = deaktivieren und Deaktivieren des Kontrollkästchens (Benutzer können nicht überschreiben)</p>
-<p>NULL = der Wert wird durch das Office-Setup festgelegt, und das Kontrollkästchen wird angezeigt, damit die Benutzer Ihre Auswahl treffen können.</p></td>
+<p>1 = anzeigen und Aktivieren des Kontrollkästchens (der Benutzer kann das Kontrollkästchen deaktivieren)</p>
+<p>0 = das Kontrollkästchen deaktivieren und deaktivieren (Benutzer kann nicht außer Kraft gesetzt werden)</p>
+<p>NULL = der Wert wird durch das Office-Setup festgelegt, und das Kontrollkästchen wird angezeigt, damit Benutzer sich bei Ihrer Wahl festlegen können.</p></td>
 </tr>
 <tr class="even">
 <td><p>AllowExchangeContactStore</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Dieser Parameter wurde entfernt. Wenn Sie stattdessen lync Server 2013 bereitstellen und die Topologie veröffentlichen, ist der Unified Contact Store standardmäßig für alle Benutzer aktiviert. Dies bedeutet, dass alle Kontakte eines Benutzers in Exchange aufbewahrt werden und in lync, Outlook und Outlook Web Access zur Verfügung stehen. Sie können das Cmdlet "festlegen-CsUserServicesPolicy" verwenden, um die verfügbaren Unified Contact Store-Benutzer anzupassen. Sie können Benutzer Global, nach Website, nach Mandanten oder nach Einzelpersonen oder Gruppen von Personen aktivieren. Ausführliche Informationen finden Sie unter <a href="lync-server-2013-enable-users-for-unified-contact-store.md">Aktivieren von Benutzern für den Unified Contact Store in lync Server 2013</a>.</p></td>
+<td><p>Dieser Parameter wurde entfernt. Wenn Sie stattdessen lync Server 2013 bereitstellen und die Topologie veröffentlichen, wird der einheitliche Kontaktspeicher standardmäßig für alle Benutzer aktiviert. Dies bedeutet, dass alle Kontakte eines Benutzers in Exchange aufbewahrt werden und in lync, Outlook und Outlook Web Access verfügbar sind. Mit dem Cmdlet "csuserservicespolicy" "können Sie anpassen, welche Benutzer einen einheitlichen Kontaktspeicher zur Verfügung stellen. Sie können Benutzer Global, nach Standort, nach Mandanten oder nach Einzelpersonen oder Personengruppen aktivieren. Ausführliche Informationen finden Sie unter <a href="lync-server-2013-enable-users-for-unified-contact-store.md">Aktivieren von Benutzern für den einheitlichen Kontaktspeicher in lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MAPIPollInterval</p></td>
@@ -170,7 +170,7 @@ In diesem Thema werden Änderungen an Cmdlets der lync Server-Verwaltungsshell e
 <tr class="even">
 <td><p>DisableICE</p></td>
 <td><p>CsClientPolicy</p></td>
-<td><p>Dieser Parameter war in lync 2013 veraltet.</p></td>
+<td><p>Dieser Parameter wurde in lync 2013 veraltet.</p></td>
 </tr>
 </tbody>
 </table>

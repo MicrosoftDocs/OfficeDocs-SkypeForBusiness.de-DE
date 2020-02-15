@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013-Planung
+title: Lync Server 2013 Planung
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184302
 ms.date: 12/10/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eba5a563612a395a7f252aecb5992a64d04b5221
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b60f2cb767dc37d06c2c55547b0bf8cfae366cc4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725165"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050567"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41725165"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-12-09_
+_**Letztes Änderungsstand des Themas:** 2014-12-09_
 
 In den Themen in diesem Abschnitt wird beschrieben, wie Sie eine erfolgreiche lync Server-Bereitstellung planen.
 
@@ -43,41 +43,41 @@ In den Themen in diesem Abschnitt wird beschrieben, wie Sie eine erfolgreiche ly
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Organisationsplanung für Lync Server 2013](lync-server-2013-planning-for-your-organization.md)
+  - [Organisationsplanung für lync Server 2013](lync-server-2013-planning-for-your-organization.md)
 
-  - [Ermitteln Ihrer Infrastrukturanforderungen für Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md)
+  - [Bestimmen der Infrastrukturanforderungen für lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md)
 
   - [Netzwerkplanung für lync Server 2013](lync-server-2013-network-planning.md)
 
   - [Kapazitätsplanung für lync Server 2013](lync-server-2013-capacity-planning.md)
 
-  - [Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)
+  - [Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)
 
-  - [Planen von Verwaltbarkeit und Virtualisierung in lync Server 2013](lync-server-2013-planning-for-manageability-and-virtualization.md)
+  - [Planen der Verwaltbarkeit und Virtualisierung in lync Server 2013](lync-server-2013-planning-for-manageability-and-virtualization.md)
 
-  - [Planen für Front-End-Server, Chat und Anwesenheit in Lync Server 2013](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)
+  - [Planen von Front-End-Servern, Chatnachrichten und Anwesenheitsinformationen in lync Server 2013](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)
 
-  - [Planen von Konferenzen in Lync Server 2013](lync-server-2013-planning-for-conferencing.md)
+  - [Planen von Konferenzen in lync Server 2013](lync-server-2013-planning-for-conferencing.md)
 
-  - [Planen des Zugriffs externer Benutzer in Lync Server 2013](lync-server-2013-planning-for-external-user-access.md)
+  - [Planen des Zugriffs durch externe Benutzer in lync Server 2013](lync-server-2013-planning-for-external-user-access.md)
 
-  - [Planen von Enterprise-VoIP in lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)
+  - [Planung von Enterprise-VoIP in lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)
 
-  - [Planen der Überwachung in Lync Server 2013](lync-server-2013-planning-for-monitoring.md)
+  - [Planen der Überwachung in lync Server 2013](lync-server-2013-planning-for-monitoring.md)
 
-  - [Planen der Archivierung in Lync Server 2013](lync-server-2013-planning-for-archiving.md)
+  - [Planen der Archivierung in lync Server 2013](lync-server-2013-planning-for-archiving.md)
 
-  - [Planen für den Server für beständigen Chat in Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md)
+  - [Planen von Servern für beständigen Chat in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md)
 
-  - [Planen der Exchange Server-Integration in lync Server 2013](lync-server-2013-planning-for-exchange-server-integration.md)
+  - [Planen der Exchange Server Integration in lync Server 2013](lync-server-2013-planning-for-exchange-server-integration.md)
 
   - [Planen von Clients und Geräten in lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md)
 
   - [Planen der Remoteanrufsteuerung in lync Server 2013](lync-server-2013-planning-for-remote-call-control.md)
 
-  - [Planen der Mobilität in Lync Server 2013](lync-server-2013-planning-for-mobility.md)
+  - [Planen der Mobilität in lync Server 2013](lync-server-2013-planning-for-mobility.md)
 
-  - [Planen für mehr Sicherheit in Lync Server 2013](lync-server-2013-planning-for-security.md)
+  - [Planen der Sicherheit in lync Server 2013](lync-server-2013-planning-for-security.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5efb1b928ce7b4bafbbff20ad31872fe12735fe0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4e5724978347b50db2790e4d5798aace8489acbb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736993"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046258"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Kapazitätsplanung für Reaktionsgruppen in Lync Server 2013
+# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Kapazitätsplanung für Reaktionsgruppen in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41736993"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-29_
+_**Letztes Änderungsstand des Themas:** 2012-10-29_
 
 <div id="sectionSection0" class="section">
 
@@ -79,8 +79,8 @@ In der folgenden Tabelle wird das Benutzermodell der Reaktionsgruppe beschrieben
 <tbody>
 <tr class="odd">
 <td><p>Eingehende Anrufe pro Sekunde</p></td>
-<td><p>16</p></td>
-<td><p>2</p></td>
+<td><p>16 </p></td>
+<td><p>2 </p></td>
 </tr>
 <tr class="even">
 <td><p>Gleichzeitige mit interaktiver Sprachantwort (IVR) oder Wartemusik (MoH) verbundene Anrufe</p></td>
@@ -88,14 +88,14 @@ In der folgenden Tabelle wird das Benutzermodell der Reaktionsgruppe beschrieben
 <td><p>60</p></td>
 </tr>
 <tr class="odd">
-<td><p>Gleichzeitige anonyme Sitzungen (ohne Chat)</p></td>
+<td><p>Gleichzeitige anonyme Sitzungen (ohne Instant Messaging)</p></td>
 <td><p>224</p></td>
 <td><p>28</p></td>
 </tr>
 <tr class="even">
-<td><p>Gleichzeitige anonyme Sitzungen (mit Chat)</p></td>
+<td><p>Gleichzeitige anonyme Sitzungen (mit Instant Messaging)</p></td>
 <td><p>64</p></td>
-<td><p>8</p></td>
+<td><p>8 </p></td>
 </tr>
 <tr class="odd">
 <td><p>Aktive Agents (formell und informell)</p></td>

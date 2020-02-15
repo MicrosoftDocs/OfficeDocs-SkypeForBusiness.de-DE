@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Bereitstellen von mobilen Clients'
+title: 'Lync Server 2013: Bereitstellen mobiler Clients'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185854
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b4b3d0e47172af35464cbd95e56a762f3d590fa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cd27963546b45425d6ddd134ce716b475f3dd1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757629"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050607"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,18 +35,18 @@ ms.locfileid: "41757629"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-19_
+_**Letztes Änderungsstand des Themas:** 2013-02-19_
 
-Lync 2013-Apps für mobile Clients bieten Instant Messaging (im), erweiterte Anwesenheitsinformationen und Telefonie für Benutzer in Ihrer Organisation, die über ein Smartphone oder ein Telefon mit einer professionellen Version von Windows Mobile eine Verbindung herstellen. Sie können Ihre Benutzer anweisen, lync 2013 zu installieren, indem Sie Sie an den App Marketplace für Ihr Mobiltelefon weiterleiten.
+Lync 2013 Apps für mobile Clients bieten Instant Messaging (Sofortnachrichten), erweiterte Anwesenheitsinformationen und Telefonie für Benutzer in Ihrer Organisation, die eine Verbindung von einem Smartphone oder einem Telefon mit einer Professional Edition von Windows Mobile herstellen. Sie können Ihre Benutzer anweisen, lync 2013 zu installieren, indem Sie Sie an den App-Marktplatz für Ihr Mobiltelefon weiterleiten.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 unterstützt auch lync 2010 für mobile Clients. Einzelheiten finden Sie in den folgenden Artikeln in der TechNet-Bibliothek von lync Server 2010: 
+> Lync Server 2013 unterstützt auch lync 2010 für mobile Clients. Ausführliche Informationen finden Sie in den folgenden Artikeln in der TechNet-Bibliothek lync Server 2010: 
 > <UL>
 > <LI>
-> <P>"Planen für mobile Clients" bei <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</P>
+> <P>"Planung für mobile Clients" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=235955">http://go.microsoft.com/fwlink/p/?LinkID=235955</A>.</P>
 > <LI>
 > <P>"Bereitstellen von mobilen Clients <A href="http://go.microsoft.com/fwlink/p/?linkid=236068">http://go.microsoft.com/fwlink/p/?LinkID=236068</A>" unter.</P></LI></UL>
 

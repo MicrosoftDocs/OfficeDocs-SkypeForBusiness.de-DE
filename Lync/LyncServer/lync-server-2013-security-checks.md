@@ -12,16 +12,16 @@ ms:contentKeyID: 63969572
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03b9b966aaea9c74b0fbd9c0306aa559fd981419
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e93a9e220ddb89b7b82dc3df20709a3268907d5e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764913"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048936"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,16 +35,16 @@ ms.locfileid: "41764913"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-08-18_
+_**Letztes Änderungsstand des Themas:** 2014-08-18_
 
-Führen Sie regelmäßige Sicherheitsüberprüfungen aus, wie etwa Firewallregeln, Benutzerrechte, Gruppenmitgliedschaft, Rechte an Stellvertretungen usw.
+Durchführen regelmäßiger Sicherheitsüberprüfungen wie Firewallregeln, Benutzerrechte, Gruppenmitgliedschaften, Stellvertretungs Rechte usw.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planen für mehr Sicherheit in Lync Server 2013](lync-server-2013-planning-for-security.md)  
+[Planen der Sicherheit in lync Server 2013](lync-server-2013-planning-for-security.md)  
   
 
 </div>

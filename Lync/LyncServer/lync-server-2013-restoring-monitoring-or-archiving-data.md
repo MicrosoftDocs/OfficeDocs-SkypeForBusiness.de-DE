@@ -12,16 +12,16 @@ ms:contentKeyID: 51541483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9621fe3c1905dbd34fd3b4da39b2562c608d6355
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8840869e972f0c178360b0b50644d352b8db85df
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733165"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050417"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,61 +35,61 @@ ms.locfileid: "41733165"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-18_
+_**Letztes Änderungsstand des Themas:** 2013-02-18_
 
-Das Wiederherstellen von Überwachungs-und Archivierungsdaten ist nicht erforderlich, um den lync-Server nach einem Fehler in Betrieb zu nehmen. Wenn die Überwachung und Archivierung von Daten jedoch für Ihre Organisation von entscheidender Bedeutung ist, möchten Sie die Daten nach dem erneuten Erstellen der Datenbanken wiederherstellen.
+Das Wiederherstellen von Überwachungs-und Archivierungsdaten ist nicht erforderlich, um nach einem Ausfall lync Server aufzunehmen und auszuführen. Wenn Überwachungs-und Archivierungsdaten jedoch für Ihre Organisation wichtig sind, sollten Sie die Daten wiederherstellen, nachdem Sie die Datenbanken neu erstellt haben.
 
-Im folgenden Verfahren wird beschrieben, wie Sie mithilfe von SQL Server Management Studio Archivierungs-oder Überwachungsdaten wiederherstellen.
+Im folgenden Verfahren wird die Verwendung von SQL Server Management Studio zum Wiederherstellen von Archivierungs-oder Überwachungsdaten beschrieben.
 
 <div>
 
-## <a name="to-restore-monitoring-or-archiving-data-from-a-backup-file"></a>So stellen Sie die Überwachung oder Archivierung von Daten aus einer Sicherungsdatei wieder her
+## <a name="to-restore-monitoring-or-archiving-data-from-a-backup-file"></a>So stellen Sie Überwachungs-oder Archivierungsdaten aus einer Sicherungsdatei wieder her
 
-1.  Melden Sie sich bei dem Server an, den Sie als Mitglied der Gruppe Administratoren auf dem lokalen Computer oder einer Gruppe mit entsprechenden Benutzerrechten wiederherstellen.
+1.  Melden Sie sich bei dem Server an, den Sie als Mitglied der Gruppe Administratoren auf dem lokalen Computer oder einer Gruppe mit gleichwertigen Benutzerrechten wiederherstellen.
 
 2.  Öffnen Sie SQL Server Management Studio: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft SQL Server 2012** oder **Microsoft SQL Server 2008 R2**, und klicken Sie dann auf **SQL Server Management Studio**.
 
-3.  Stellen Sie unter **Herstellen einer Verbindung**mit dem Server eine Verbindung mit der SQL Server-Instanz her, indem Sie mindestens den Namen des Servers und die Authentifizierungsinformationen angeben.
+3.  Stellen Sie unter **Verbindung mit Server herstellen**eine Verbindung mit der SQL Server Instanz her, indem Sie mindestens den Namen des Servers und die Authentifizierungsinformationen angeben.
 
 4.  Klicken Sie im **Objekt-Explorer**mit der rechten Maustaste auf **Datenbanken**, und klicken Sie dann auf **Datenbank wiederherstellen**.
 
-5.  Klicken Sie unter **Seite auswählen**auf **Allgemein**, und wählen Sie dann in **zur Datenbank** den Datenbanknamen wie folgt aus:
+5.  Klicken Sie unter **Seite auswählen**auf **Allgemein**, und wählen Sie dann in **Datenbank** den Datenbanknamen wie folgt aus:
     
-      - Wählen Sie für eine Archivierungsdatenbank **LcsLog**aus.
+      - Wählen Sie für ein Archivierungsdatenbank die Option **LcsLog**aus.
     
-      - Wählen Sie für eine CDR-Datenbank (Call Detail Recording) **LcsCDR**aus.
+      - Wählen Sie für eine KDS-Datenbank (Call Detail Recording) die Option **LcsCDR**aus.
     
-      - Wählen Sie für eine QoE-Datenbank (Quality of Experience) **Datenbank QoEMetrics werden**aus.
+      - Wählen Sie für eine QoE-Datenbank (Quality of Experience) die Option **QoEMetrics**aus.
 
-6.  Klicken Sie auf **vom Gerät**.
+6.  Klicken Sie auf **von Gerät**.
 
-7.  Klicken Sie unter **Wählen Sie die wieder**herzustellenden Sicherungssätze auf die Sicherungsdatei, und klicken Sie dann auf **Wiederherstellen**.
+7.  Klicken Sie unter **Wählen Sie die wiederherzustellenden Sicherungssätze aus**auf die Sicherungsdatei, und klicken Sie dann auf **Wiederherstellen**.
 
-8.  Klicken Sie unter **Seite auswählen**auf **Optionen**, stellen Sie sicher, dass sich der Datendateipfad und der Protokollpfad im richtigen Ordner befinden, und klicken Sie dann auf **OK**.
+8.  Klicken Sie unter **Seite auswählen**auf **Optionen**, stellen Sie sicher, dass sich der Pfad und der Protokollpfad der Datendatei im richtigen Ordner befinden, und klicken Sie dann auf **OK**.
 
 </div>
 
 <div>
 
-## <a name="to-make-sure-that-access-control-lists-acls-are-correct"></a>So stellen Sie sicher, dass Zugriffssteuerungslisten (ACLs) korrekt sind
+## <a name="to-make-sure-that-access-control-lists-acls-are-correct"></a>So stellen Sie sicher, dass Zugriffssteuerungslisten (Access Control Lists, ACLs) korrekt sind
 
 1.  Erweitern Sie **Datenbanken**, erweitern Sie die Datenbank Archivierung oder Überwachung, erweitern Sie **Sicherheit**, und erweitern Sie dann **Benutzer**.
 
-2.  Überprüfen Sie, ob die RTCComponentUniversalServices der Domänengruppe als Benutzer vorhanden ist.
+2.  Stellen Sie sicher, dass die Domänengruppe RTCComponentUniversalServices als Benutzer vorhanden ist.
 
-3.  Wenn RTCComponentUniversalServices unter **Benutzer**nicht vorhanden ist, gehen Sie folgendermaßen vor:
+3.  Wenn RTCComponentUniversalServices unter **Benutzer**nicht vorhanden ist, gehen Sie wie folgt vor:
     
-    1.  Klicken Sie mit der rechten Maustaste auf **Benutzer**, und klicken Sie dann auf **neuer Benutzer**.
+    1.  Klicken Sie mit der rechten Maustaste auf **Benutzer**, und klicken Sie anschließend auf **Neuer Benutzer**.
     
-    2.  Geben Sie unter **Anmeldename**den fehlenden Gruppennamen RTCComponentUniversalServices ein.
+    2.  Geben Sie unter **Anmeldename**den fehlenden Gruppennamen RTCComponentUniversalServices.
     
-    3.  Wählen Sie unter **Datenbankrollenmitgliedschaft**die Berechtigung **serverRole** aus, und klicken Sie dann auf **OK**.
+    3.  Wählen Sie unter **Mitgliedschaft in Datenbankrollen**die Berechtigung **serverRole** aus, und klicken Sie dann auf **OK**.
     
     <div>
     
 
     > [!NOTE]  
-    > Sie müssen den Archivierungs-oder Überwachungsdienst nicht erneut starten.
+    > Sie müssen den Archivierungs-oder Überwachungsdienst nicht neu starten.
 
     
     </div>

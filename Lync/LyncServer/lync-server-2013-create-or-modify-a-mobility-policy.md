@@ -12,16 +12,16 @@ ms:contentKeyID: 49733884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f64e74b389b268027e06b2f4103b0c828c5be6f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 469b7789de98cee3d399e09c9cec4396fdb365e9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758049"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048686"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41758049"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Sie können mobilitätsrichtlinien erstellen oder ändern, um mobilen Benutzern die Verwendung unterstützter mobiler Geräte für lync-Funktionen wie Instant Messaging (im), Anwesenheitsinformationen und Kontakte zu ermöglichen. Sie können mobilitätsrichtlinien in der lync Server 2013-Systemsteuerung oder in der lync Server 2013-Verwaltungsshell erstellen oder ändern.
+Sie können mobilitätsrichtlinien erstellen oder ändern, um mobilen Benutzern die Verwendung unterstützter mobiler Geräte für lync-Funktionen wie Instant Messaging (Sofortnachrichten), Anwesenheit und Kontakte zu ermöglichen. Sie können mobilitätsrichtlinien in lync Server 2013 Systemsteuerung oder lync Server 2013 Verwaltungsshell erstellen oder ändern.
 
 <div>
 
-## <a name="to-create-a-mobility-policy-with-lync-server-control-panel"></a>So erstellen Sie eine Mobilitätsrichtlinie mit der lync Server-Systemsteuerung
+## <a name="to-create-a-mobility-policy-with-lync-server-control-panel"></a>So erstellen Sie eine Mobilitätsrichtlinie mit lync Server-Systemsteuerung
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Navigationsschaltfläche **Mobilitätsrichtlinie** .
 
-4.  Klicken Sie auf der Seite **Mobilitätsrichtlinie** auf **neu**, und führen Sie eine der folgenden Aktionen aus:
+4.  Klicken Sie auf der Seite **Mobilitätsrichtlinie** auf **neu**, und führen Sie einen der folgenden Schritte aus:
     
-    1.  Wenn Sie eine Website Mobilitätsrichtlinie erstellen möchten, klicken Sie auf **Website Richtlinie**, klicken Sie auf eine Website, klicken Sie auf **OK**, überprüfen Sie die Standardeinstellungen, und nehmen Sie bei Bedarf alle gewünschten Änderungen vor.
+    1.  Klicken Sie zum Erstellen einer Website Mobilitätsrichtlinie auf **Website Richtlinie**, klicken Sie auf einen Standort, klicken Sie auf **OK**, überprüfen Sie die Standardeinstellungen, und nehmen Sie bei Bedarf Änderungen vor.
     
-    2.  Wenn Sie eine Benutzer Mobilitätsrichtlinie erstellen möchten, klicken Sie auf **Benutzerrichtlinie**, geben Sie einen Namen ein, überprüfen Sie die Standardeinstellungen, und nehmen Sie bei Bedarf Änderungen vor.
+    2.  Um eine Benutzer Mobilitätsrichtlinie zu erstellen, klicken Sie auf **Benutzerrichtlinie**, geben Sie einen Namen ein, überprüfen Sie die Standardeinstellungen, und nehmen Sie bei Bedarf Änderungen vor.
 
 5.  Klicken Sie auf **Commit ausführen**.
 
@@ -61,19 +61,19 @@ Sie können mobilitätsrichtlinien erstellen oder ändern, um mobilen Benutzern 
 
 <div>
 
-## <a name="to-modify-a-mobility-policy-with-lync-server-control-panel"></a>So ändern Sie eine Mobilitätsrichtlinie mit der lync Server-Systemsteuerung
+## <a name="to-modify-a-mobility-policy-with-lync-server-control-panel"></a>So ändern Sie eine Mobilitätsrichtlinie mit lync Server-Systemsteuerung
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Navigationsschaltfläche **Mobilitätsrichtlinie** .
 
 4.  Klicken Sie auf der Seite **Mobilitätsrichtlinie** auf eine der vorhandenen mobilitätsrichtlinien.
 
-5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
+5.  Klicken Sie im Menü **Bearbeiten** auf **Details einblenden**.
 
-6.  Bearbeiten Sie alle Einstellungen.
+6.  Bearbeiten Sie eine der Einstellungen.
 
 7.  Klicken Sie auf **Commit ausführen**.
 
@@ -83,25 +83,25 @@ Sie können mobilitätsrichtlinien erstellen oder ändern, um mobilen Benutzern 
 
 ## <a name="creating-external-access-policies-by-using-windows-powershell-cmdlets"></a>Erstellen von Richtlinien für den externen Zugriff mithilfe von Windows PowerShell-Cmdlets
 
-Mit Windows PowerShell und dem Cmdlet **New-CsMobilityPolicy** können Sie mobilitätsrichtlinien (im Bereich "Website" oder "pro Benutzer") erstellen. Darüber hinaus können Sie das Cmdlet " **Satz-CsMobilityPolicy** " verwenden, um Ihre vorhandenen Richtlinien einschließlich der globalen Richtlinie zu ändern. Diese Cmdlets können entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Sie können mobilitätsrichtlinien (auf Standortebene oder auf Benutzerebene) erstellen, indem Sie Windows PowerShell und das Cmdlet **New-CsMobilityPolicy** verwenden. Darüber hinaus können Sie mit dem Cmdlet " **CsMobilityPolicy** " alle vorhandenen Richtlinien ändern, einschließlich der globalen Richtlinie. Diese Cmdlets können entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
-## <a name="to-create-a-mobility-policy-at-the-site-scope"></a>So erstellen Sie eine Mobilitätsrichtlinie im Website Bereich
+## <a name="to-create-a-mobility-policy-at-the-site-scope"></a>So erstellen Sie eine Mobilitätsrichtlinie auf Standortebene
 
-  - Mit diesem Befehl wird eine neue Mobilitätsrichtlinie für die Website "Redmond" erstellt:
+  - Mit diesem Befehl wird eine neue Mobilitätsrichtlinie für den Standort "Redmond" erstellt:
     
         New-CsMobilityPolicy -Identity "site:Redmond"
     
-    Da im vorhergehenden Befehl keine Parameter (mit Ausnahme des Parameters zur obligatorischen Identität) angegeben wurden, verwenden die Richtlinien die Standardwerte für alle zugehörigen Eigenschaften.
+    Da im vorherigen Befehl keine Parameter (außer dem obligatorischen Identity-Parameter) angegeben wurden, werden die Standardwerte für alle Eigenschaften der Richtlinie verwendet.
 
 </div>
 
 <div>
 
-## <a name="to-create-a-mobility-policy-at-the-per-user-scope"></a>So erstellen Sie eine Mobilitätsrichtlinie für einzelne Benutzer
+## <a name="to-create-a-mobility-policy-at-the-per-user-scope"></a>So erstellen Sie eine Mobilitätsrichtlinie auf Benutzerebene
 
-  - Wenn Sie eine Mobilitätsrichtlinie für den Benutzerbereich erstellen möchten, geben Sie eine eindeutige Identität für die Richtlinie an:
+  - Um eine Mobilitätsrichtlinie auf Benutzerebene zu erstellen, geben Sie eine eindeutige Identität für die Richtlinie an:
     
         New-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
@@ -111,7 +111,7 @@ Mit Windows PowerShell und dem Cmdlet **New-CsMobilityPolicy** können Sie mobil
 
 ## <a name="to-change-a-single-property-value-when-creating-a-mobility-policy"></a>So ändern Sie einen einzelnen Eigenschaftswert beim Erstellen einer Mobilitätsrichtlinie
 
-  - Zum Erstellen von Richtlinien, die unterschiedliche Eigenschaftswerte verwenden, schließen Sie den entsprechenden Parameter-und Parameterwert ein. Mit diesem Befehl wird beispielsweise eine Mobilitätsrichtlinie erstellt, die den Anruf über die Arbeit deaktiviert:
+  - Um Richtlinien mit unterschiedlichen Eigenschaftswerten zu erstellen, schließen Sie den entsprechenden Parameter und Parameterwert ein. Mit diesem Befehl wird beispielsweise eine Mobilitätsrichtlinie erstellt, mit der die Funktion "Anruf über Arbeit" deaktiviert wird:
     
         New-CsMobilityPolicy -Identity "site:Redmond" -EnableOutsideVoice $False
 
@@ -121,7 +121,7 @@ Mit Windows PowerShell und dem Cmdlet **New-CsMobilityPolicy** können Sie mobil
 
 ## <a name="to-change-multiple-property-values-when-creating-a-mobility-policy"></a>So ändern Sie beim Erstellen einer Mobilitätsrichtlinie mehrere Eigenschaftswerte
 
-  - Mehrere Eigenschaftswerte können geändert werden, indem Sie mehrere Parameter angeben. Mit diesem Befehl wird beispielsweise eine Richtlinie erstellt, die sowohl Mobilität als auch Anruf über die Arbeit deaktiviert:
+  - Mehrere Eigenschaftswerte können durch die Angabe mehrerer Parameter geändert werden. Mit diesem Befehl wird beispielsweise eine Richtlinie erstellt, die sowohl die Mobilität als auch die Funktion "Anruf über" deaktiviert:
     
         New-CsMobilityPolicy "site:Redmond" -EnableMobility $False -EnableOutsideVoice $False
 
@@ -136,7 +136,7 @@ Ausführliche Informationen finden Sie im Hilfethema zu den Cmdlets [New-CsMobil
 ## <a name="see-also"></a>Siehe auch
 
 
-[Konfigurieren der Mobilitätsrichtlinie in Lync Server 2013](lync-server-2013-configuring-mobility-policy.md)  
+[Konfigurieren von mobilitätsrichtlinien in lync Server 2013](lync-server-2013-configuring-mobility-policy.md)  
   
 
 </div>

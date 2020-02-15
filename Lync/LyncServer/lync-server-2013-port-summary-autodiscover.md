@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Port Zusammenfassung – AutoErmittlung'
+title: 'Lync Server 2013: Port Zusammenfassung-AutoErmittlung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 945e3ed9d532f27676e250c29ab415646bd967ec
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 605aee0d4054c482140ae66ba460931d4658274d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747625"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049297"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="port-summary---autodiscover-in-lync-server-2013"></a>Port Zusammenfassung – AutoErmittlung in lync Server 2013
+# <a name="port-summary---autodiscover-in-lync-server-2013"></a>Port Zusammenfassung-AutoErmittlung in lync Server 2013
 
 </div>
 
@@ -35,26 +35,26 @@ ms.locfileid: "41747625"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-05_
+_**Letztes Änderungsstand des Themas:** 2013-03-05_
 
-Der lync Server 2013-AutoErmittlungsdienst wird auf dem Director-und Front-End-Pool Server ausgeführt und kann `lyncdiscover.<domain>` , `lyncdiscoverinternal.<domain>` wenn er in DNS mithilfe der und Hosteinträge veröffentlicht wird, von Clients zum Auffinden von lync Server-Features verwendet werden. Damit Mobile Geräte mit lync Mobile die AutoErmittlung verwenden können, müssen Sie möglicherweise zuerst die Listen alternativer Zertifikats Subjekte auf jedem Director und Front-End-Server ändern, auf dem der AutoErmittlungsdienst ausgeführt wird. Darüber hinaus ist es möglicherweise erforderlich, die Listen Betreff alternativer Name auf Zertifikaten zu ändern, die für externe Webdienst Veröffentlichungsregeln für umgekehrte Proxys verwendet werden.
+Der lync Server 2013 AutoErmittlungsdienst wird auf dem Director-und Front-End-Pool-Server ausgeführt und kann, wenn `lyncdiscover.<domain>` er `lyncdiscoverinternal.<domain>` in DNS mit den und Hosteinträgen veröffentlicht wird, von Clients zum Auffinden von lync Server Features verwendet werden. Damit Mobile Geräte, die lync Mobile ausführen, die AutoErmittlung verwenden, müssen Sie möglicherweise zuerst die Liste alternativer Zertifikatsantrags Teller Namen auf einem beliebigen Director ändern und Front-End-Server den AutoErmittlungsdienst ausführen. Darüber hinaus kann es erforderlich sein, die Listen Betreff alternativer Namen auf Zertifikaten zu ändern, die für externe Webdienst-Veröffentlichungsregeln für Reverse-Proxies verwendet werden.
 
-Die Entscheidung darüber, ob die Listen Betreff alternativer Namen in umgekehrten Proxys verwendet werden, basiert darauf, ob Sie den AutoErmittlungsdienst auf Port 80 oder auf Port 443 veröffentlichen:
+Die Entscheidung, ob Listen für alternative Antragstellernamen in umgekehrten Proxys verwendet werden sollen, basiert darauf, ob Sie den AutoErmittlungsdienst auf Port 80 oder an Port 443 veröffentlichen:
 
-  - **Veröffentlicht auf Port 80**   für mobile Geräte sind keine Zertifikat Änderungen erforderlich, wenn die ursprüngliche Abfrage des AutoErmittlungsdiensts über Port 80 erfolgt. Dies liegt daran, dass Mobile Geräte, auf denen lync ausgeführt wird, auf den Reverse-Proxy auf Port 80 extern zugreifen und dann intern auf Port 8080 an einen Director oder Front-End-Server umgeleitet werden.
+  - **Veröffentlicht auf Port 80**   für mobile Geräte sind keine Zertifikat Änderungen erforderlich, wenn die erste Abfrage an den AutoErmittlungsdienst über Port 80 erfolgt. Dies liegt daran, dass Mobile Geräte, auf denen lync läuft, extern auf den Reverseproxy auf Port 80 zugreifen und dann an Port 8080 intern an einen Director oder Front-End-Server weitergeleitet werden.
 
-  - **Veröffentlicht am Port 443**   die Liste der alternativen Betreff-Namen für Zertifikate, die von der externen Webdienste- `lyncdiscover.<sipdomain>` Veröffentlichungsregel verwendet werden, muss einen Eintrag für jede SIP-Domäne innerhalb Ihrer Organisation enthalten.
+  - **Veröffentlicht am Port 443**   die Liste der alternativen Antragstellernamen für Zertifikate, die von der Veröffentlichungsregel für `lyncdiscover.<sipdomain>` externe Webdienste verwendet werden, muss einen Eintrag für jede SIP-Domäne in Ihrer Organisation enthalten.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Für neue Installationen oder Upgrades von lync Server 2010, bei denen Sie Mobility bereitgestellt haben, haben Sie entweder Port 80 für die AutoErmittlung des mobilitätsdiensts verwendet oder Zertifikate mit dem richtigen Antragstellernamen und den alternativen Subjektnamen neu ausgestellt. Überprüfen Sie die Zertifikate auf Ihrem Director und dem Front-End-Server, um den ausgewählten Pfad zu bestätigen.
+    > Für neue Installationen oder Upgrades von lync Server 2010, in denen Sie Mobility bereitgestellt haben, haben Sie entweder Port 80 für die AutoErmittlung des mobilitätsdiensts oder erneute Zertifikate mit dem richtigen Antragstellernamen und den alternativen Antragstellernamen verwendet. Überprüfen Sie die Zertifikate auf Ihrem Director und Front-End-Server, um zu bestätigen, welchen Pfad Sie ausgewählt haben.
 
     
     </div>
 
-### <a name="firewall-details-for-reverse-proxy-server-external-interface"></a>Firewall-Details für Reverse Proxy Server: externe Schnittstelle
+### <a name="firewall-details-for-reverse-proxy-server-external-interface"></a>Firewalldetails für Reverseproxyserver: externe Schnittstelle
 
 <table>
 <colgroup>
@@ -74,21 +74,21 @@ Die Entscheidung darüber, ob die Listen Betreff alternativer Namen in umgekehrt
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP/80</p></td>
-<td><p>Beliebig</p></td>
-<td><p>Reverse Proxy-Listener</p></td>
-<td><p>Optional Umleitung zu HTTPS, wenn der Benutzer http://&lt;publishedSiteFQDN&gt;eingibt. Dies ist auch bei Verwendung von Office Web Apps für Conferencing und dem AutoErmittlungsdienst für mobile Geräte, die lync ausführen, in Situationen erforderlich, in denen die Organisation das Zertifikat des externen Webdienst-Veröffentlichungsregel nicht ändern möchte.</p></td>
+<td><p>Any</p></td>
+<td><p>Reverseproxylistener</p></td>
+<td><p>Optional Umleitung zu HTTPS, wenn der Benutzer http://&lt;publishedSiteFQDN&gt;eingibt. Auch erforderlich, wenn Office-webapps für Konferenzen und der AutoErmittlungsdienst für mobile Geräte, auf denen lync ausgeführt wird, in Situationen verwendet werden, in denen die Organisation das Zertifikat für die Veröffentlichungsregel für externe Webdienste nicht ändern möchte.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/443</p></td>
-<td><p>Beliebig</p></td>
-<td><p>Reverse Proxy-Listener</p></td>
-<td><p>Adressbuch Downloads, Adressbuch-Webabfrage Dienst, AutoErmittlung, Clientupdates, Besprechungsinhalte, Geräte Updates, Gruppenerweiterung, Office Web Apps für Konferenzen, Einwahlkonferenzen und Besprechungen.</p></td>
+<td><p>Any</p></td>
+<td><p>Reverseproxylistener</p></td>
+<td><p>Adressbuch Downloads, Adressbuch-Webabfragedienst, AutoErmittlung, Clientupdates, Besprechungsinhalte, Geräteaktualisierungen, Gruppenerweiterung, Office-Webanwendungen für Konferenzen, Einwahlkonferenzen und Besprechungen.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="firewall-details-for-reverse-proxy-server-internal-interface"></a>Firewall-Details für Reverse Proxy Server: interne Schnittstelle
+### <a name="firewall-details-for-reverse-proxy-server-internal-interface"></a>Firewalldetails für Reverseproxyserver: interne Schnittstelle
 
 <table>
 <colgroup>
@@ -108,15 +108,15 @@ Die Entscheidung darüber, ob die Listen Betreff alternativer Namen in umgekehrt
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP/8080</p></td>
-<td><p>Interne Reverse-Proxy-Schnittstelle</p></td>
-<td><p>Front-End-Server, Front-End-Pool, Director, Director-Pool, Office Web Apps für Konferenzen</p></td>
-<td><p>Erforderlich, wenn der AutoErmittlungsdienst für mobile Geräte mit lync in Situationen verwendet wird, in denen die Organisation das Zertifikat für die Veröffentlichungsregel für externe Webdienste nicht ändern möchte. Datenverkehr, der an Port 80 auf der externen Schnittstelle des Reverse Proxys gesendet wird, wird von der internen Schnittstelle des Reverse-Proxys an einen Pool auf Port 8080 umgeleitet, sodass die Pool-Webdienste Sie vom internen Webverkehr unterscheiden können.</p></td>
+<td><p>Interne Reverseproxyschnittstelle</p></td>
+<td><p>Front-End-Server, Front-End-Pool, Director, Directorpool, Office-Webanwendungen für Konferenzen</p></td>
+<td><p>Erforderlich, wenn der AutoErmittlungsdienst für mobile Geräte, auf denen lync ausgeführt wird, in Situationen verwendet wird, in denen die Organisation das Zertifikat für die Veröffentlichungsregel für externe Webdienste nicht ändern möchte. Datenverkehr, der an Port 80 der externen Reverseproxyschnittstelle gesendet wird, wird an einen Pool an Port 8080 der internen Reverseproxyschnittstelle umgeleitet, sodass die Poolwebdienste diesen vom internen Webdatenverkehr unterscheiden können.</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP/4443</p></td>
-<td><p>Interne Reverse-Proxy-Schnittstelle</p></td>
-<td><p>Front-End-Server, Front-End-Pool, Director, Director-Pool, Office Web Apps für Konferenzen</p></td>
-<td><p>Datenverkehr, der an Port 443 auf der externen Schnittstelle des Reverse Proxys gesendet wird, wird von der internen Schnittstelle des Reverse-Proxys an einen Pool auf Port 4443 umgeleitet, sodass die Pool-Webdienste Sie vom internen Webverkehr unterscheiden können.</p></td>
+<td><p>Interne Reverseproxyschnittstelle</p></td>
+<td><p>Front-End-Server, Front-End-Pool, Director, Directorpool, Office-Webanwendungen für Konferenzen</p></td>
+<td><p>Datenverkehr, der an Port 80 der externen Reverseproxyschnittstelle gesendet wird, wird an einen Pool an Port 8080 der internen Reverseproxyschnittstelle umgeleitet, sodass die Poolwebdienste diesen vom internen Webdatenverkehr unterscheiden können.</p></td>
 </tr>
 </tbody>
 </table>

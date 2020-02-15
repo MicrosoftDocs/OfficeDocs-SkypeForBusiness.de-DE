@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Bereitstellen von Zweigstellen'
+title: 'Lync Server 2013: Bereitstellen von Zweigstellenstandorten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: facfda5d1d7ce67ea08f71cbfb943792eeced7a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: edacf70cf4a8b899857864c400fa92f78bb0d94b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729505"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049517"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-branch-sites-in-lync-server-2013"></a>Bereitstellen von Zweigstellen in Lync Server 2013
+# <a name="deploying-branch-sites-in-lync-server-2013"></a>Bereitstellen von Zweigstellenstandorten in lync Server 2013
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41729505"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Zweigstellenbenutzer erhalten die meisten ihrer lync Server 2013-Funktionen von dem Server am zentralen Standort, dem die Zweigstelle zugeordnet ist. Jede Verzweigungs Website ist genau einem zentralen Standort zugeordnet. Zum Bereitstellen von Anrufen in das und aus dem PSTN (Public Switched Telephone Network) kann eine Verzweigungs Website eine der folgenden Aktionen enthalten:
+Zweigstellenbenutzer erhalten den Großteil ihrer lync Server 2013 Funktionalität von dem Server am zentralen Standort, dem der Zweigstellenstandort zugeordnet ist. Jede Zweigstelle ist mit genau einem zentralen Standort verbunden. Zum Tätigen und Entgegennehmen von Anrufen aus dem Telefonfestnetz (Public Switched Telephone Network, PSTN) kann ein Zweigstellenstandort eine der folgenden Komponenten umfassen:
 
-  - Ein PSTN-Gateway und möglicherweise ein Meditations Server
+  - Ein PSTN-Gateway und optional einen Vermittlungsserver
 
-  - Ein SIP-Trunk
+  - Einen SIP-Trunk
 
-  - Eine vorhandene VoIP-Infrastruktur mit einer PBX (Private Branch Exchange)
+  - Eine vorhandene VoIP-Infrastruktur mit einer Nebenstellenanlage
 
-  - Eine Survivable-Branch-Appliance
+  - Ein Survivable Branch Appliance
 
-  - Ein Survivable-Branch-Server
+  - Ein Survivable Branch Server
 
-Zweigstellen mit einer überlebensfähigen Branch-Appliance oder einem Survivable Branch-Server sind in Zeiten von Wide-Area-Netzwerk-oder zentralen Standortausfällen widerstandsfähiger als Zweigstellen ohne eine dieser Lösungen. Beispielsweise können Benutzer in einer Website mit einer überlebensfähigen Branch-Appliance oder einem Überlebenden Branch-Server weiterhin PSTN-Anrufe tätigen und empfangen, wenn das Netzwerk, das die Verzweigungs Website mit dem zentralen Standort verbindet, ausgefallen ist. Eine weitere Möglichkeit zum Erreichen einer Ausfallsicherheit für Zweigstellen ist die Verwendung eines PSTN-Gateways oder eines SIP-Trunks mit einer vollständigen lync Server-Bereitstellung auf der Zweigstelle.
+Zweigstellenstandorte mit einem Survivable Branch Appliance oder einem Survivable Branch Server sind in Zeiten größerer Netzwerk-oder zentraler Standortausfälle widerstandsfähiger als Zweigstellenstandorte ohne eine dieser Lösungen. Beispielsweise können Benutzer bei einer Website mit einer Survivable Branch Appliance oder einer Survivable Branch Server, die bereitgestellt werden, weiterhin PSTN-Anrufe tätigen und empfangen, wenn das Netzwerk, das den Zweigstellenstandort mit dem zentralen Standort verbindet, nicht aktiv ist. Eine weitere Möglichkeit zum Erreichen von Ausfallsicherheit für Zweigstellenstandorte ist die Verwendung eines PSTN-Gateways oder eines SIP-Trunks mit einer vollständigen lync Server-Bereitstellung am Zweigstellenstandort.
 
-Details dazu, welche Verzweigungs Website Bereitstellung für Ihre Organisation richtig ist, einschließlich Voraussetzungen und andere Planungsüberlegungen, finden Sie unter [Planen der PSTN-Konnektivität in lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) und [Planen der sprach Stabilität von Branch-Site in lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) in der Planungsdokumentation.
+Ausführliche Informationen dazu, welche Zweigstellenbereitstellung für Ihre Organisation geeignet ist, einschließlich Voraussetzungen und anderen Planungsüberlegungen, finden Sie unter [Planning for PSTN Connectivity in lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) und [Planning for Branch-Site Voice Resilienz in lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) in der Planungsdokumentation.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Bereitstellen der PSTN-Konnektivität an einem Zweigstellenstandort in Lync Server 2013](lync-server-2013-providing-pstn-connectivity-at-a-branch-site.md)
+  - [Bereitstellen der PSTN-Konnektivität an einem Zweigstellenstandort in lync Server 2013](lync-server-2013-providing-pstn-connectivity-at-a-branch-site.md)
 
-  - [Bereitstellen einer Survivable Branch Appliance oder eines Survivable Branch Servers mit Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)
+  - [Bereitstelleneiner Survivable Branch Appliance oder eines Servers mit lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server.md)
 
 </div>
 

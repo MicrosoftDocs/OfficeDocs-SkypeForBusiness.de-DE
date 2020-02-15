@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Ausführen eines Failbacks für den Server für beständigen Chat'
+title: 'Lync Server 2013: Fehler beim zurückhalten des Servers für beständigen Chat'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184396
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca00a71c88b917b9e59f2e9039e7960b51f64157
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7a0e7bef65773c20c5d97a1b625d2ef39255f64
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756169"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045968"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failing-back-persistent-chat-server-in-lync-server-2013"></a>Ausführen eines Failbacks für den Server für beständigen Chat in Lync Server 2013
+# <a name="failing-back-persistent-chat-server-in-lync-server-2013"></a>Fehler beim wieder beständigen Chat Server in lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41756169"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-02-05_
+_**Letztes Änderungsstand des Themas:** 2014-02-05_
 
-In diesem Verfahren werden die erforderlichen Schritte zum Wiederherstellen nach einem Server Fehler des beständigen Chats und zum Wiederherstellen von Vorgängen aus dem primären Rechenzentrum erläutert.
+In diesem Verfahren werden die erforderlichen Schritte zum Wiederherstellen nach einem Server Ausfall für beständigen Chat und zum erneuten Einrichten von Vorgängen aus dem primären Rechenzentrum beschrieben.
 
-Beim Server Ausfall des beständigen Chats leidet das primäre Rechenzentrum unter einem vollständigen Ausfall, und die primäre und die Spiegeldatenbank werden nicht mehr zur Verfügung gestellt. Für das primäre Rechenzentrum erfolgt ein Failover auf den Sicherungsserver.
+Während des Server Ausfalls eines beständigen Chats leidet das primäre Rechenzentrum unter einem vollständigen Ausfall, und die primäre und die Spiegeldatenbank werden nicht mehr verfügbar sein. Für das primäre Rechenzentrum erfolgt ein Failover auf den Sicherungsserver.
 
-Wenn das primäre Rechenzentrum wieder verfügbar ist und die Server wiederhergestellt sind, wird anhand der folgenden Verfahrensweise der normale Betrieb wieder aufgenommen. Bei diesem Verfahren wird davon ausgegangen, dass das primäre Rechenzentrum vom Totalausfall wiederhergestellt wurde und dass die MGC-Datenbank und die mgccomp-Datenbank mithilfe des Topologie-Generators neu erstellt und neu installiert wurden.
+Wenn das primäre Rechenzentrum wieder verfügbar ist und die Server wiederhergestellt sind, wird anhand der folgenden Verfahrensweise der normale Betrieb wieder aufgenommen. Bei dem Verfahren wird davon ausgegangen, dass das primäre Rechenzentrum aus dem Gesamtausfall wiederhergestellt wurde und dass die MGC-Datenbank und die mgccomp-Datenbank mithilfe des Topologie-Generators neu erstellt und neu installiert wurden.
 
-Bei dem Verfahren wird auch davon ausgegangen, dass während des Failovers keine neuen Spiegelungs-und Sicherungsserver bereitgestellt wurden und dass der einzige bereitgestellte Server der Sicherungsserver und sein Spiegelserver ist, wie unter [fehlerhafte Chat Server in lync Server 2013](lync-server-2013-failing-over-persistent-chat-server.md)definiert.
+Bei diesem Verfahren wird auch davon ausgegangen, dass während des Failovers kein neuer Spiegel-und Sicherungsserver bereitgestellt wurde und dass der einzige bereitgestellte Server der Sicherungsserver und der zugehörige Spiegelserver ist, wie in [Failover über den Server für beständigen Chat in lync Server 2013](lync-server-2013-failing-over-persistent-chat-server.md)definiert.
 
-Mit den folgenden Schritten soll die Konfiguration so wiederhergestellt werden, wie sie vor dem Ausfall vorlag, der zu dem Failover vom primären Server auf den Sicherungsserver geführt hat.
+Mit den folgenden Schritten soll die Konfiguration so wiederhergestellt werden, wie sie vor dem Ausfall, der zu dem Failover vom primären Server auf den Sicherungsserver geführt hat, vorlag.
 
 <div>
 
-## <a name="to-fail-back-persistent-chat-server"></a>So führen Sie einen Ausfall des beständigen Chat Servers aus
+## <a name="to-fail-back-persistent-chat-server"></a>So führen Sie einen Fehler zurück für persistent Chat Server
 
-1.  Löschen Sie alle Server aus der Active Server-Liste des beständigen `Set-CsPersistentChatActiveServer` Chat Servers mithilfe des Cmdlets aus der lync Server-Verwaltungsshell. Dadurch wird verhindert, dass alle beständigen Chat Server während des Failback eine Verbindung mit der MGC-Datenbank und der mgccomp-Datenbank herstellen.
+1.  Löschen Sie alle Server aus der Liste der aktiven Server für beständigen `Set-CsPersistentChatActiveServer` Chat Server, indem Sie das Cmdlet aus dem lync Server-Verwaltungsshell verwenden. Dadurch wird verhindert, dass alle Server für beständigen Chat während des Failback eine Verbindung mit der MGC-Datenbank und der mgccomp-Datenbank herstellen.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Der SQL Server-Agent auf dem Back-End-Server des sekundären beständigen Chat Servers sollte unter einem privilegierten Konto ausgeführt werden. Dieses Konto muss insbesondere über die folgenden Berechtigungen verfügen: 
+    > Der SQL Server-Agent auf dem sekundären persistent Chat Server-Back-End-Server sollte unter einem privilegierten Konto betrieben werden. Dieses Konto muss insbesondere über die folgenden Berechtigungen verfügen: 
     > <UL>
     > <LI>
     > <P>Lesezugriff auf die Netzwerkfreigabe, in der Sicherungen abgelegt werden sollen</P>
@@ -69,29 +69,29 @@ Mit den folgenden Schritten soll die Konfiguration so wiederhergestellt werden, 
 
 2.  Deaktivieren Sie die Spiegelung für die mgc-Sicherungsdatenbank:
     
-    1.  Stellen Sie mithilfe von SQL Server Management Studio eine Verbindung mit der Sicherungs MGC-Instanz her.
+    1.  Stellen Sie mit SQL Server Management Studio eine Verbindung mit der MGC-Sicherungsinstanz her.
     
-    2.  Klicken Sie mit der rechten Maustaste auf die mgc-Datenbank, zeigen Sie auf **Aufgaben** und klicken Sie dann auf **Spiegeln**.
+    2.  Klicken Sie mit der rechten Maustaste auf die mgc-Datenbank, zeigen Sie auf **Aufgaben**, und klicken Sie dann auf **Spiegeln**.
     
     3.  Klicken Sie auf **Spiegelung entfernen**.
     
-    4.  Klicken Sie anschließend auf **OK**.
+    4.  Klicken Sie auf **OK**.
     
     5.  Führen Sie die gleichen Schritte mit der mgccomp-Datenbank durch.
 
-3.  Sichern Sie die mgc-Datenbank, damit sie in der neuen primären Datenbank wiederhergestellt werden kann:
+3.  Sichern Sie die mgc-Datenbank, damit Sie in der neuen primären Datenbank wiederhergestellt werden kann:
     
-    1.  Stellen Sie mithilfe von SQL Server Management Studio eine Verbindung mit der Sicherungs MGC-Instanz her.
+    1.  Stellen Sie mit SQL Server Management Studio eine Verbindung mit der MGC-Sicherungsinstanz her.
     
-    2.  Klicken Sie mit der rechten Maustaste auf die mgc-Datenbank, zeigen Sie auf **Aufgaben** und klicken Sie dann auf **Sichern**. Das Dialogfeld **Datenbank sichern** wird angezeigt.
+    2.  Klicken Sie mit der rechten Maustaste auf die mgc-Datenbank, zeigen Sie auf **Aufgaben**, und klicken Sie dann auf **Sichern**. Das Dialogfeld **Datenbank sichern** wird angezeigt.
     
-    3.  Wählen Sie unter **Sicherungstyp** die Option **Vollständig** aus.
+    3.  Wählen Sie in **Sicherungstyp** die Option **Vollständig** aus.
     
-    4.  Klicken Sie unter **Sicherungskomponente** auf **Datenbank**.
+    4.  Klicken Sie bei **Sicherungskomponente** auf **Datenbank**.
     
-    5.  Akzeptieren Sie den Standardnamen für den Sicherungssatz, der in **Name** vorgeschlagen wird, oder geben Sie einen anderen Namen ein.
+    5.  Akzeptieren Sie den Standardnamen für den Sicherungssatz, der in **Name** vorgeschlagen wird, oder geben Sie eine anderen Namen ein.
     
-    6.  * \<Optional\> * Geben Sie im Feld **Beschreibung**eine Beschreibung für den Sicherungssatz ein.
+    6.  * \<Optional\> * Geben Sie unter **Beschreibung**eine Beschreibung des Sicherungssatzes ein.
     
     7.  Entfernen Sie den standardmäßigen Sicherungsspeicherort aus der Zielliste.
     
@@ -101,42 +101,42 @@ Mit den folgenden Schritten soll die Konfiguration so wiederhergestellt werden, 
 
 4.  Stellen Sie die primäre Datenbank unter Verwendung der im vorherigen Schritt erstellten Sicherungsdatenbank wieder her.
     
-    1.  Stellen Sie mithilfe von SQL Server Management Studio eine Verbindung mit der primären MGC-Instanz her.
+    1.  Stellen Sie mit SQL Server Management Studio eine Verbindung mit der primären MGC-Instanz her.
     
-    2.  Klicken Sie mit der rechten Maustaste auf die mgc-Datenbank, zeigen Sie auf **Aufgaben**, zeigen Sie auf **Wiederherstellen** und klicken Sie dann auf **Datenbank**. Das Dialogfeld **Datenbank wiederherstellen** wird angezeigt.
+    2.  Klicken Sie mit der rechten Maustaste auf die mgc-Datenbank, zeigen Sie auf **Aufgaben**, zeigen Sie auf **Wiederherstellen**, und klicken Sie dann auf **Datenbank**. Das Dialogfeld **Datenbank wiederherstellen** wird angezeigt.
     
     3.  Wählen Sie **Von Medium** aus.
     
-    4.  Klicken Sie auf die Schaltfläche zum Durchsuchen. Das Dialogfeld **Sicherung angeben** wird geöffnet. Wählen Sie in **Sicherungsmedium** die Option **Datei** aus. Klicken Sie auf **Hinzufügen**, wählen Sie die Sicherungsdatei aus, die Sie in Schritt 3 erstellt haben, und klicken Sie dann auf **OK**.
+    4.  Klicken Sie auf die Schaltfläche zum Durchsuchen. Das Dialogfeld **Sicherung angeben** wird geöffnet. Wählen Sie in **Sicherungsmedium** die Option **Datei** aus. Klicken Sie auf **Hinzufügen**, wählen Sie die Sicherungsdatei aus, die Sie in Schritt 3 erstellt haben, und klicken Sie dann auf **OK**.
     
     5.  Wählen Sie in **Wählen Sie die wiederherzustellenden Sicherungssätze aus** die Sicherung aus.
     
-    6.  Klicken Sie im Bereich **Seite auswählen** auf **Optionen**.
+    6.  Klicken Sie auf **Optionen** im Bereich **Seite auswählen**.
     
-    7.  Aktivieren Sie unter **Wiederherstellungsoptionen** die Option **Vorhandene Datenbank überschreiben**.
+    7.  Aktivieren Sie in **Wiederherstellungsoptionen** die Option **Vorhandene Datenbank überschreiben**.
     
     8.  Aktivieren Sie in **Wiederherstellungsstatus** die Option **Datenbank betriebsbereit belassen**.
     
     9.  Klicken Sie auf **OK**, um mit dem Wiederherstellungsvorgang zu beginnen.
 
-5.  Konfigurieren Sie den SQL Server-Protokollversand für die primäre Datenbank. Führen Sie die Verfahren unter [Konfigurieren des beständigen Chat Servers für die Hochverfügbarkeits-und Disaster Recovery in lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) aus, um den Protokollversand für die primäre MGC-Datenbank festzulegen.
+5.  Konfigurieren Sie SQL Server Protokollversand für die primäre Datenbank. Führen Sie die Verfahren unter [Konfigurieren des Servers für beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung in lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) aus, um den Protokollversand für die primäre MGC-Datenbank einzurichten.
 
-6.  Setzen Sie die aktiven Server für den beständigen Chat Server. Verwenden Sie in der lync Server-Verwaltungsshell das Cmdlet " **Satz-CsPersistentChatActiveServer** ", um die Liste der aktiven Server einzurichten.
+6.  Legen Sie den Server für beständigen Chat als aktive Server fest. Verwenden Sie im lync Server-Verwaltungsshell das Cmdlet " **CsPersistentChatActiveServer** ", um die Liste der aktiven Server festzulegen.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Alle aktiven Server müssen sich im gleichen Rechenzentrum wie die neue primäre Datenbank oder in einem Rechenzentrum befinden, das über eine Verbindung mit geringer Latenz und hohen Bandbreite zur Datenbank verfügt.
+    > Alle aktiven Server müssen sich in demselben Datencenter wie die neue Primärdatenbank befinden oder in einem Datencenter, das über eine Datenbankverbindung mit geringer Wartezeit und hoher Bandbreite verfügt.
 
     
     </div>
 
-Das Wiederherstellen des Pools in seinem normalen Zustand führt den folgenden Windows PowerShell-Befehl aus:
+Wenn Sie den normalen Zustand des Pools wiederherstellen, führen Sie den folgenden Windows PowerShell Befehl aus:
 
     Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet " [Satz-CsPersistentChatState](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatState) ".
+Weitere Informationen finden Sie im Hilfethema für das Cmdlet " [cspersistentchatstate"](https://docs.microsoft.com/powershell/module/skype/Set-CsPersistentChatState) ".
 
 </div>
 

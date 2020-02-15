@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Serverhardwareplattformen'
+title: Lync Server 2013 Server-Hardwareplattformen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185395
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95c8b0e9b1e13d845672cff07d30b7f2ac1a5b22
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e352153e4cc2386a159ac11f27f8ba4f5beb09f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764873"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048666"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-hardware-platforms-for-lync-server-2013"></a>Serverhardwareplattformen für Lync Server 2013
+# <a name="server-hardware-platforms-for-lync-server-2013"></a>Server Hardwareplattformen für lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41764873"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2016-07-28_
+_**Letztes Änderungsstand des Themas:** 2016-07-28_
 
-Serverfunktionen von lync Server 2013 und Computern, auf denen lync Server-Verwaltungstools ausgeführt werden, erfordern 64-Bit-Hardware.
+Lync Server 2013 Server Rollen und Computer, auf denen lync Server Verwaltungstools betrieben werden, benötigen 64-Bit-Hardware.
 
-Die spezifische Hardware, die für die lync Server 2013-Bereitstellung verwendet wird, kann abhängig von der Größe und den Verwendungsanforderungen variieren. In diesem Abschnitt wird die empfohlene Hardware beschrieben. Wenngleich es sich hier nicht um Anforderungen, sondern um Empfehlungen handelt, kann der Einsatz von Hardware, die diesen Empfehlungen nicht entspricht, zu erheblichen Leistungsproblemen und sonstigen Problemen führen.
+Die für lync Server 2013 Bereitstellung verwendete spezifische Hardware kann je nach Größe und Verwendungsanforderungen variieren. In diesem Abschnitt wird die empfohlene Hardware beschrieben. Obwohl es sich hierbei um Empfehlungen handelt, nicht um Anforderungen, kann die Verwendung von Hardware, die diese Empfehlungen nicht erfüllt, zu erheblichen Leistungsproblemen und anderen Problemen führen.
 
 <div>
 
-## <a name="recommended-hardware-platform"></a>Empfohlene Hardwareplattform
+## <a name="recommended-hardware-platform"></a>Empfohlene Hardware Plattform
 
-Für eine optimale Leistung empfehlen wir, dass Sie lync Server auf Servern mit Hardware ausführen, die die Anforderungen in der folgenden Tabelle erfüllt. Wenn Sie weniger leistungsfähige Hardware verwenden, treten möglicherweise Funktionsprobleme oder eine schlechte Leistung auf. Beachten Sie, dass diese Hardwareanforderungen höher als in früheren Versionen von lync Server sind, hauptsächlich deshalb, weil in lync Server 2013 alle Front-End-Server SQL Server ausführen.
+Um eine optimale Leistung zu erzielen, sollten Sie lync Server auf Servern mit Hardware ausführen, die die Anforderungen in der folgenden Tabelle erfüllen. Wenn Sie weniger leistungsfähige Hardware verwenden, können Funktionsprobleme oder eine schlechte Leistung auftreten. Beachten Sie, dass diese Hardwareanforderungen höher sind als bei früheren Versionen von lync Server, vor allem, weil in lync Server 2013 alle Front-End-Server SQL Server ausführen.
 
 <div>
 
 
 > [!NOTE]  
-> NIC-Teaming wird unterstützt und sollte für lync Server transparent sein. Ausführliche Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server-oder lync Server-und Netzwerkadapter-Teaming</A>.
+> NIC-Teaming wird unterstützt und sollte für lync Server transparent sein. Ausführliche Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/p/?linkid=389910">Communications Server oder lync Server und Netzwerkadapter-Teaming</A>.
 
 
 
 </div>
 
-### <a name="recommended-hardware-for-front-end-servers-back-end-servers-standard-edition-servers-persistent-chat-servers-and-persistent-chat-store-and-persistent-chat-compliance-store-back-end-server-roles-for-persistent-chat-server"></a>Empfohlene Hardware für Front-End-Server, Back-End-Server, Standard Edition-Server, Server für beständigen Chat, Speicher für beständigen Chat und Compliance-Speicher für beständigen Chat (Back-End-Serverrollen für Server für beständigen Chat)
+### <a name="recommended-hardware-for-front-end-servers-back-end-servers-standard-edition-servers-persistent-chat-servers-and-persistent-chat-store-and-persistent-chat-compliance-store-back-end-server-roles-for-persistent-chat-server"></a>Empfohlene Hardware für Front-End-Server, Back-End-Server, Standard Edition-Server, persistent Chat-Server und persistent Chat Store und Compliance Store für beständigen Chat (Back-End-Serverrollen für den Server für beständigen Chat)
 
 <table>
 <colgroup>
@@ -73,30 +73,30 @@ Für eine optimale Leistung empfehlen wir, dass Sie lync Server auf Servern mit 
 <tbody>
 <tr class="odd">
 <td><p>CPU</p></td>
-<td><p>64-Bit-Dualprozessor, Sechskern, mindestens 2,26 GHz.</p>
-<p>Intel Itanium-Prozessoren werden für lync Server-Serverrollen nicht unterstützt.</p></td>
+<td><p>64-Bit Dualprozessor, Hex-Core, 2,26 Gigahertz (GHz) oder höher.</p>
+<p>Intel Itanium-Prozessoren werden für lync Server-Server Rollen nicht unterstützt.</p></td>
 </tr>
 <tr class="even">
 <td><p>Arbeitsspeicher</p></td>
-<td><p>32 GB.</p></td>
+<td><p>32 Gigabyte (GB).</p></td>
 </tr>
 <tr class="odd">
-<td><p>Festplatte</p></td>
+<td><p>Datenträger</p></td>
 <td><ul>
-<li><p>Mindestens 8 Festplattenlaufwerke mit 10.000 U/min und mindestens 72 GB freiem Speicherplatz</p>
-<p>Zwei Festplatten sollten RAID 1 verwenden und sechs Festplatten sollten RAID 10 verwenden.</p>
+<li><p>8 oder mehr 10.000 RPM-Festplatten mit mindestens 72 GB freiem Speicherplatz.</p>
+<p>Zwei der Datenträger sollten RAID 1 verwenden, und sechs sollten RAID 10 verwenden.</p>
 <p>-Oder</p></li>
-<li><p>Festkörperlaufwerke (SSDs) mit einer ähnlichen Leistung wie 8 mechanische Festplattenlaufwerke mit 10.000 U/min.</p></li>
+<li><p>Solid State Drives (SSDs), die ähnliche Leistung wie mechanische Festplattenlaufwerke mit 8 10.000-rpm bieten.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Netzwerk</p></td>
 <td><ul>
-<li><p>1 Dual-Port-Netzwerkadapter, mindestens 1 GBit/s (2 werden empfohlen, wofür ein Teamvorgang mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse erforderlich ist).</p>
+<li><p>1 Dual-Port-Netzwerkadapter, 1 Gbit/s oder höher (2 wird empfohlen, für die ein Teaming mit einer einzelnen Mac-Adresse und einer einzelnen IP-Adresse erforderlich ist).</p>
 <div>
 
 > [!NOTE]  
-> Dualkonfigurationen oder mehrfach vernetzte Konfigurationen werden für Front-End-Server, Back-End-Server, Standard Edition-Server und Server für beständigen Chat nicht unterstützt.<BR>ILO/DRAC/usw. Verbindungen, die nicht dem Betriebs System ausgesetzt sind und zur Überwachung und Verwaltung der Server Hardware verwendet werden, stellen keinen mehrfach vernetzten Server dar und werden daher unterstützt.
+> Duale oder Multi-Homed-Konfigurationen werden für Front-End-Server, Back-End-Server, Standard Edition-Server und Server für beständigen Chat nicht unterstützt.<BR>ILO/DRAC/etc. Verbindungen, die nicht dem Betriebs System ausgesetzt sind und zum Überwachen und Verwalten der Server Hardware verwendet werden, stellen keinen Multi-Homed-Server dar und werden daher unterstützt.
 
 
 </div></li>
@@ -123,39 +123,39 @@ Für eine optimale Leistung empfehlen wir, dass Sie lync Server auf Servern mit 
 <tr class="odd">
 <td><p>CPU</p></td>
 <td><ul>
-<li><p>64-Bit-Dualprozessor, Quad-Core, 2,0 Gigahertz (GHz) oder höher</p>
+<li><p>Dualprozessor mit 64 Bit, Quad-Core, 2,0 Gigahertz (GHz) oder höher.</p>
 <p>-Oder</p></li>
-<li><p>64-Bit-4-Wege-Prozessor, Dual-Core, 2,0 GHz oder höher</p></li>
+<li><p>64-Bit-4-Wege-Prozessor, Dual-Core, 2,0 GHz oder höher.</p></li>
 </ul>
-<p>Intel Itanium-Prozessoren werden für lync Server-Serverrollen nicht unterstützt.</p></td>
+<p>Intel Itanium-Prozessoren werden für lync Server-Server Rollen nicht unterstützt.</p></td>
 </tr>
 <tr class="even">
 <td><p>Arbeitsspeicher</p></td>
 <td><p>16 Gigabyte (GB).</p></td>
 </tr>
 <tr class="odd">
-<td><p>Festplatte</p></td>
+<td><p>Datenträger</p></td>
 <td><ul>
-<li><p>4 oder mehr 10.000-rpm-Festplattenlaufwerke mit mindestens 72 GB freiem Speicherplatz.</p>
-<p>Die Festplatten sollten in einer 2x-RAID-1-Konfiguration sein.</p>
+<li><p>4 oder mehr 10.000 RPM-Festplatten mit mindestens 72 GB freiem Speicherplatz.</p>
+<p>Die Datenträger sollten sich in einer 2X-RAID-1-Konfiguration befinden.</p>
 <p>-Oder</p></li>
-<li><p>Festkörperlaufwerke (SSDs) mit einer ähnlichen Leistung wie 4 mechanische Festplattenlaufwerke mit 10.000 U/min.</p></li>
+<li><p>Solid State Drives (SSDs), die ähnliche Leistung wie mechanische Festplattenlaufwerke mit 4 10.000-rpm bieten.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Netzwerk</p></td>
 <td><ul>
-<li><p>1 Dual-Port-Netzwerkadapter, mindestens 1 GBit/s (2 werden empfohlen, wofür ein Teamvorgang mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse erforderlich ist). zwei Netzwerkschnittstellen sind auf Edge-Servern erforderlich und werden auf eigenständigen Vermittlungsservern unterstützt.</p></li>
+<li><p>1 Dual-Port-Netzwerkadapter, 1 Gbit/s oder höher (2 wird empfohlen, für die ein Teaming mit einer einzelnen Mac-Adresse und einer einzelnen IP-Adresse erforderlich ist). 2 Netzwerkschnittstellen sind auf Edge-Servern erforderlich und werden auf eigenständigen Vermittlungsservern unterstützt.</p></li>
 </ul>
 <div>
 
 > [!NOTE]  
-> Dual-oder Multi-Homed-Konfigurationen werden für Directors nicht unterstützt.<BR>ILO/DRAC/usw. Verbindungen, die nicht dem Betriebs System ausgesetzt sind und zur Überwachung und Verwaltung der Server Hardware verwendet werden, stellen keinen mehrfach vernetzten Server dar und werden daher unterstützt.
+> Duale oder Multi-Homed-Konfigurationen werden für Directors nicht unterstützt.<BR>ILO/DRAC/etc. Verbindungen, die nicht dem Betriebs System ausgesetzt sind und zum Überwachen und Verwalten der Server Hardware verwendet werden, stellen keinen Multi-Homed-Server dar und werden daher unterstützt.
 
 
 </div>
-<p>Für Edgeserver sind zwei Netzwerkschnittstellen erforderlich, bei denen es sich um Dual-Port-Netzwerkadapter, 1 Gbit/s oder höher (oder zwei gekoppelte Netzwerkadapter, für insgesamt vier) handelt, wobei jedes Paar mit einer einzelnen Mac-Adresse und einer einzelnen IP-Adresse für insgesamt zwei Paare zusammengestellt wird.</p>
-<p>Die Installation zusätzlicher Netzwerkschnittstellenkarten (NICs), um die Konfiguration einer bestimmten PSTN-IP-Adresse zu ermöglichen, wird auf eigenständigen Vermittlungsservern unterstützt.</p></td>
+<p>Edgeserver benötigen zwei Netzwerkschnittstellen mit zwei Netzwerkadaptern, 1 Gbit/s oder höher (oder zwei gekoppelte Netzwerkadapter für insgesamt vier, wobei jedes Paar mit einer einzelnen Mac-Adresse und einer einzelnen IP-Adresse zusammenarbeitet, wobei insgesamt zwei Paare verwendet werden).</p>
+<p>Die Installation zusätzlicher Netzwerkschnittstellenkarten (NICs), um die Konfiguration einer bestimmten PSTN-IP-Adresse zuzulassen, wird auf eigenständigen Vermittlungsservern unterstützt.</p></td>
 </tr>
 </tbody>
 </table>

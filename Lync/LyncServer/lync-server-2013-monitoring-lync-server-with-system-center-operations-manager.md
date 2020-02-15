@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Überwachen von lync Server mit System Center Operations Manager'
+title: 'Lync Server 2013: Überwachung lync Server mit System Center Operations Manager'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969636
 ms.date: 05/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b5a251853efe20cc867f78f4f932e2c43efd22c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 341901ce6d467818e6aac433f7d8ca4dca37adef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756829"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048048"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41756829"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-05-06_
+_**Letztes Änderungsstand des Themas:** 2015-05-06_
 
-Das lync Server Management Pack (MP) ist Ihre Überwachungslösung für die Überwachung einer lync Server-Bereitstellung.
+Das lync Server Management Pack (MP) ist Ihre Überwachungslösung, die Sie für die Überwachung der lync Server-Bereitstellung auswählen.
 
-Der MP-Code implementiert herkömmliches Ereignisprotokoll und Leistungsindikator basierte Instrumentation und ermöglicht die neu verfügbare Instrumentation in lync Server, wie beispielsweise paar Ereignisse (Fehler/Erfolg) für mehrere wichtige Integritätsindikatoren und die vollständige Implementierung der neuen synthetischen\* Transaktionen (Test-CS Windows PowerShell-Cmdlets).
+Die MP implementiert herkömmliches Ereignisprotokoll-und Leistungsindikator basierte Instrumentation und ermöglicht die neu verfügbare Instrumentation in lync Server, wie beispielsweise paar Ereignisse (Fehler/Erfolg) für mehrere wichtige Integritätsindikatoren, und implementiert auch die neuen synthetischen Transaktionen (\* Test-CS Windows PowerShell-Cmdlets).
 
-Das lync Server 2013-Management Pack und die zugehörige Dokumentation finden Sie unter [http://go.microsoft.com/fwlink/p/?LinkId=400468](http://go.microsoft.com/fwlink/p/?linkid=400468). Dies wird empfohlen, wenn Sie System Center Operations Manager 2012 ausführen.
+Das lync Server 2013 Management Pack und die dazugehörige Dokumentation finden Sie unter [http://go.microsoft.com/fwlink/p/?LinkId=400468](http://go.microsoft.com/fwlink/p/?linkid=400468). Dies wird empfohlen, wenn Sie System Center Operations Manager 2012 ausführen.
 
 </div>
 

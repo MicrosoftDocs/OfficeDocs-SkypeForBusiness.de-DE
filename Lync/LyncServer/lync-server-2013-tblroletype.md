@@ -12,20 +12,20 @@ ms:contentKeyID: 48183577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba6b5041453b0965fafc12ada2be62ec42316f89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ab96d6cd090ebaaa9e33ddf1672ab704ee371f8b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731185"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046148"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblroletype-in-lync-server-2013"></a>tblRoleType in Lync Server 2013
+# <a name="tblroletype-in-lync-server-2013"></a>tblRoleType in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731185"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-25_
+_**Letztes Änderungsstand des Themas:** 2012-06-25_
 
-tblRoleType ist eine statische Nachschlagetabelle mit Rollentypen und zugehörigen Berechtigungssätzen.
+tblRoleType ist eine statische Nachschlagetabelle mit Rollentypen und ihren zugeordneten Berechtigungssätzen.
 
 ### <a name="columns"></a>Spalten
 
@@ -58,29 +58,29 @@ tblRoleType ist eine statische Nachschlagetabelle mit Rollentypen und zugehörig
 <tr class="odd">
 <td><p>rtypeID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>ID des Rollentyps.</p></td>
+<td><p>Role Type ID.</p></td>
 </tr>
 <tr class="even">
 <td><p>rtypeDesc</p></td>
-<td><p>nvarchar (256); nicht NULL</p></td>
+<td><p>nvarchar (256), not null</p></td>
 <td><p>Beschreibung des Rollentyps. Es gibt vier verfügbare Rollen:</p>
 <ul>
-<li><p>Mitglied: Chatroom-Mitglied</p></li>
-<li><p>Manager: Chat Room Manager</p></li>
-<li><p>Geäußert: Referent für einen Chatroom für Auditorium</p></li>
+<li><p>Mitglied: Chat Room Member</p></li>
+<li><p>Manager: Chat Raum Manager</p></li>
+<li><p>Voiced: Referent für einen Auditorium-Chatroom</p></li>
 <li><p>Creator: kann Chatrooms erstellen</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>rtypeAllowedPermSet</p></td>
 <td><p>bigint, nicht NULL</p></td>
-<td><p>Der Berechtigungssatz für die Rolle. Die verwendeten Bits sind:</p>
+<td><p>Berechtigungssatzes für die Rolle. Die verwendeten Bits sind:</p>
 <ul>
 <li><p>2: true, wenn die Rolle Knoten verwalten kann.</p></li>
 <li><p>4: true, wenn die Rolle untergeordnete Knoten erstellen kann.</p></li>
-<li><p>7: true, wenn die Rolle einem Chatroom (oder Chatrooms einer Kategorie) beitreten kann.</p></li>
-<li><p>8: true, wenn die Rolle in einem Chatroom (oder in Chatrooms einer Kategorie) chatten kann.</p></li>
-<li><p>10: true, wenn die Rolle das Chat-Protokoll lesen kann, selbst wenn Sie nicht zu einem Chatroom gehört.</p></li>
+<li><p>7: true, wenn die Rolle einem Chatroom (oder Chatrooms für Kinder einer Kategorie) beitreten kann.</p></li>
+<li><p>8: true, wenn die Rolle in einem Chatroom (oder in Chatrooms für Kinder einer Kategorie) chatten kann.</p></li>
+<li><p>10: true, wenn die Rolle den Chatverlauf lesen kann, auch wenn Sie keinem Chatroom beigetreten ist.</p></li>
 <li><p>11: true, wenn die Rolle den Chatroom sehen kann. (Dies wird durch Faktoren wie Bereich und Sichtbarkeit weiter verfeinert.)</p></li>
 <li><p>12: true, wenn die Rolle in einem Auditorium-Chatroom chatten kann.</p></li>
 <li><p>13: true, wenn die Rolle Sichtbarkeitsregeln beim Anzeigen von Knoten umgehen kann.</p></li>
@@ -90,7 +90,7 @@ tblRoleType ist eine statische Nachschlagetabelle mit Rollentypen und zugehörig
 </table>
 
 
-### <a name="key"></a>Schlüssel
+### <a name="key"></a>Key
 
 <table>
 <colgroup>

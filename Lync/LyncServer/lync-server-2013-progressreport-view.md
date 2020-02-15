@@ -12,16 +12,16 @@ ms:contentKeyID: 49733790
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fa8d73981490503b26b77b79be6f42aab77703e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 916fb459e71460249b47719ab4a4c07f8d082e4d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747245"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049617"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41747245"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
-In der ProgressReport-Ansicht werden Informationen zu abgeschlossenen Sitzungen gespeichert. Fortschrittsberichte werden nur für Anrufe und Sitzungen geschrieben, die von lync Server 2013 für diagnostische Zwecke nützlich sein können. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
+Die ProgressReport-Ansicht speichert Informationen über abgeschlossene Sitzungen. Fortschrittsberichte werden nur für Anrufe geschrieben und für Sitzungen, die Lync Server 2013 als hilfreich für Diagnosezwecke ermittelt. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
 
 <div>
 
 
 > [!NOTE]  
-> Die Felder "Fehler", "ErrorReportSeq" und "ProgressReportSeq" beziehen sich nicht unbedingt auf Fehler, sondern auf Nachrichten, die den Status von anrufen oder Nachrichten angeben.
+> Die Felder ErrorTime, ErrorReportSeq und ProgressReportSeq verweisen nicht notwendigerweise auf Fehler, sondern auf Nachrichten, die den Status von Anrufen oder Nachrichten angeben.
 
 
 
@@ -65,19 +65,19 @@ In der ProgressReport-Ansicht werden Informationen zu abgeschlossenen Sitzungen 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Fehlerzeit</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>Zeitpunkt des Fehlers. Wird in Verbindung mit ErrorReportSeq verwendet, um einen Fehler eindeutig zu identifizieren.</p></td>
+<td><p><strong>Fehler</strong></p></td>
+<td><p>Datum/Uhrzeit</p></td>
+<td><p>Zeitpunkt des Fehlers. Wird zusammen mit "ErrorReportSeq" verwendet, um einen Fehler eindeutig zu bestimmen.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ErrorReportSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Die ID-Nummer, um den Fehler zu identifizieren. Wird in Verbindung mit Fehlerzeit verwendet, um einen Fehler eindeutig zu identifizieren.</p></td>
+<td><p>ID-Nummer zum Bestimmen des Fehlers. Wird zusammen mit "ErrorTime" verwendet, um einen Fehler eindeutig zu bestimmen.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ProgressReportSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>ID zum Identifizieren des Statusberichts Wird verwendet, um Fortschrittsberichte desselben Fehlerberichts zu unterscheiden.</p></td>
+<td><p>ID zum Bestimmen des Fortschrittsberichts. Wird zum Unterscheiden von Fortschrittsberichten desselben Fehlerberichts verwendet.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MsDiagId</strong></p></td>
@@ -85,29 +85,29 @@ In der ProgressReport-Ansicht werden Informationen zu abgeschlossenen Sitzungen 
 <td><p>Diagnose-ID für den Fehlerbericht.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Quelle</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Name des Servers, der den Fehler verursacht hat (wenn der Bericht von einer Serverkomponente gesendet wurde).</p></td>
+<td><p><strong>Source</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Name des Servers, von dem der Fehler stammt (wenn der Bericht von einer Serverkomponente gesendet wurde).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Anwendung</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Der Name der Anwendung, die den Fehler verursacht hat (wenn der Bericht von einer Serverkomponente gesendet wurde).</p></td>
+<td><p><strong>Application</strong></p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Name der Anwendung, von der der Fehler stammt (wenn der Bericht von einer Serverkomponente gesendet wurde).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Telemetrie</strong></p></td>
 <td><p>uniqueidentifier</p></td>
-<td><p>Eindeutiger Bezeichner, in dem die Verknüpfungszeit Informationen für die verschiedenen an einer Konferenz beteiligten Komponenten korreliert werden.</p></td>
+<td><p>Eindeutiger Bezeichner, der die Informationen über den Zeitpunkt des Beitritts für verschiedene in einer Konferenz beteiligten Komponenten korreliert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSetupTime</strong></p></td>
 <td><p>int</p></td>
-<td><p>Zeit (in Millisekunden), die für eine bestimmte Komponente erforderlich ist, um an einer Konferenz teilzunehmen.</p></td>
+<td><p>Für eine bestimmte Komponente erforderliche Zeit (in Millisekunden), um an einer Konferenz teilzunehmen.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MsDiagHeader</strong></p></td>
 <td><p>varchar (max)</p></td>
-<td><p>Weitere Fehlerinformationen.</p></td>
+<td><p>Zusätzliche Fehlerinformationen.</p></td>
 </tr>
 </tbody>
 </table>

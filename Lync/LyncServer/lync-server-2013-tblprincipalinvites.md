@@ -12,20 +12,20 @@ ms:contentKeyID: 48184141
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75d842772c8c0e02352eacf7f80711aa79c29461
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4316e86d29013587b2302d18a840a4a1859f9ad
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731525"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047988"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalinvites-in-lync-server-2013"></a>tblPrincipalInvites in Lync Server 2013
+# <a name="tblprincipalinvites-in-lync-server-2013"></a>tblPrincipalInvites in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731525"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-25_
+_**Letztes Änderungsstand des Themas:** 2012-06-25_
 
-tblPrincipalInvites enthält Einladungen für alle bereitgestellten Benutzer für alle Knoten, bei denen die automatische Einladung aktiviert ist.
+tblPrincipalInvites enthält Einladungen für alle bereitgestellten Benutzer aller Knoten, für die die Funktion der automatischen Einladung (Auto-Invite) aktiviert ist.
 
 ### <a name="columns"></a>Spalten
 
@@ -57,13 +57,13 @@ tblPrincipalInvites enthält Einladungen für alle bereitgestellten Benutzer fü
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>int, nicht NULL</p></td>
-<td><p>Prinzipal-ID.</p></td>
+<td><p>int, not null</p></td>
+<td><p>Prinzipal-ID</p></td>
 </tr>
 <tr class="even">
 <td><p>invID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Eindeutige sequenzielle Zahl (pro Prinzipal-ID), die aus der tblLastInviteId-Tabelle generiert wurde.</p></td>
+<td><p>Eindeutige fortlaufende Zahl (pro Prinzipal-ID), generiert von der tblLastInviteId-Tabelle.</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeID</p></td>
@@ -72,8 +72,8 @@ tblPrincipalInvites enthält Einladungen für alle bereitgestellten Benutzer fü
 </tr>
 <tr class="even">
 <td><p>createdOn</p></td>
-<td><p>DateTime, nicht NULL</p></td>
-<td><p>Zeitpunkt der Erstellung.</p></td>
+<td><p>datetime, nicht NULL</p></td>
+<td><p>Zeitpunkt des Erstellens.</p></td>
 </tr>
 </tbody>
 </table>
@@ -94,16 +94,16 @@ tblPrincipalInvites enthält Einladungen für alle bereitgestellten Benutzer fü
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;prinID, Knoten-Nr.&gt;</p></td>
+<td><p>&lt;prinID, Knoten-Nr&gt;</p></td>
 <td><p>Primärschlüssel</p></td>
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>Fremdschlüssel mit Lookup in der tblPrincipal. prinID-Tabelle.</p></td>
+<td><p>Fremdschlüssel mit Abfrage der tblPrincipal.prinID-Tabelle.</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeID</p></td>
-<td><p>Fremdschlüssel mit Lookup in der tblNode. Node-Tabelle</p></td>
+<td><p>Fremdschlüssel mit Abfrage der tblNode.nodeID-Tabelle.</p></td>
 </tr>
 </tbody>
 </table>

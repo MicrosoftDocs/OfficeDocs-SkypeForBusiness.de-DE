@@ -12,20 +12,20 @@ ms:contentKeyID: 48183823
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d91c67620a87fdd91a1755592175e8cf2964d259
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a3c9e3b3aaecef519a2fbc23d5955a5be4fa0d0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741145"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048646"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="creating-dns-records-for-the-autodiscover-service-in-lync-server-2013"></a>Erstellen von DNS-Einträgen für den AutoErmittlungsdienst in Lync Server 2013
+# <a name="creating-dns-records-for-the-autodiscover-service-in-lync-server-2013"></a>Erstellen von DNS-Einträgen für den AutoErmittlungsdienst in lync Server 2013
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41741145"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-06-20_
+_**Letztes Änderungsstand des Themas:** 2014-06-20_
 
-Für Ihre lync Mobile-Benutzer müssen Sie die AutoErmittlung aktivieren, und ein Teil davon umfasst das Erstellen einiger DNS-Einträge (Domain Name System). Je nach Ihren Anforderungen benötigen Sie Folgendes:
+Ihre mobilen lync-Benutzer müssen AutoDiscovery aktivieren, und ein Teil davon umfasst das Erstellen einiger Domain Name System (DNS)er Datensätze. Je nach Ihren Anforderungen benötigen Sie Folgendes:
 
-  - Ein interner DNS-Eintrag zur Unterstützung von mobilen Benutzern, die im Netzwerk Ihrer Organisation eine Verbindung herstellen.
+  - Ein interner DNS-Eintrag zur Unterstützung mobiler Benutzer, die im Netzwerk Ihrer Organisation eine Verbindung herstellen.
 
-  - Ein externer oder öffentlicher DNS-Eintrag zur Unterstützung von mobilen Benutzern, die eine Verbindung mit dem Internet herstellen
+  - Einen externen oder öffentlichen DNS-Eintrag zur Unterstützung mobiler Benutzer, die eine Verbindung über das Internet herstellen
 
 Warum beides? Sie müssen sowohl einen internen DNS-Eintrag als auch einen externen DNS-Eintrag für jede SIP-Domäne erstellen.
 
-Die von Ihnen erstellten DNS-Einträge können entweder als (Host-) Datensätze oder als CNAME-Einträge angezeigt werden. Um Ihnen zu helfen, führen wir die folgenden Schritte zum Erstellen dieser internen und externen DNS-Einträge aus. Wenn Sie weitere Informationen zu den DNS-Anforderungen für mobile Benutzer benötigen, können Sie die [technischen Voraussetzungen für die Mobilität in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md)lesen.
+Bei den von Ihnen erstellten DNS-Einträgen kann es sich entweder um einen (Host-) Eintrag oder um CNAME-Einträge handeln. Um Ihnen zu helfen, erfahren Sie, wie Sie diese internen und externen DNS-Einträge unten erstellen. Wenn Sie weitere Informationen zu den DNS-Anforderungen für mobile Benutzer benötigen, können Sie die [technischen Voraussetzungen für Mobilität in lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md)lesen.
 
 <div>
 
 ## <a name="creating-an-internal-dns-cname-record"></a>Erstellen eines internen DNS-CNAME-Eintrags
 
-1.  Wenn Sie einen internen DNS-Eintrag erstellen möchten, müssen Sie sich bei einem DNS-Server in Ihrem Netzwerk mit einem Domänenkonto anmelden, das entweder ein Mitglied der Gruppe der Domänenadministratoren oder ein Mitglied der DnsAdmins-Gruppe ist.
+1.  Um einen internen DNS-Eintrag zu erstellen, müssen Sie sich bei einem DNS-Server in Ihrem Netzwerk mit einem Domänenkonto anmelden, das entweder Mitglied der Gruppe "Domänen-Admins" oder ein Mitglied der Gruppe "DnsAdmins" ist.
 
-2.  Öffnen Sie das DNS-Administrator-Snap-in: Klicken Sie auf **Start**, klicken Sie auf **Verwaltung**, und klicken Sie dann auf **DNS**.
+2.  Öffnen Sie das DNS-Verwaltungs-Snap-In: Klicken Sie auf **Start**, auf **Verwaltung** und dann auf **DNS**.
 
-3.  Erweitern Sie in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für die Active Directory-Domäne, in der der lync Server 2013 Director-Pool und der Front-End-Pool installiert sind. (Beispiel: contoso. local).
+3.  Erweitern Sie in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für die Active Directory Domäne, in der Ihre lync Server 2013 Directorpool und Front-End-Pool installiert sind. (beispielsweise "contoso. local").
 
-4.  Überprüfen Sie, ob ein Host-a-Eintrag (AAAA für IPv6) für Ihren Director-Pool für einen internen DNS-Eintrag vorhanden ist, und geben Sie einen Host einen Eintrag für den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) Ihres Director-Pools (beispielsweise lyncwebdir01. contoso. local) ein. Wenn dies nicht der Fall ist, verwenden Sie möglicherweise keinen Director-Pool, und Sie müssen den FQDN für Ihren Front-End-Pool oder sogar einen einzelnen Server-FQDN verwenden, wenn dies Ihr Setup ist.
+4.  Prüfen Sie, ob ein Host-a-Eintrag (AAAA für IPv6) für Ihren Directorpool für einen internen DNS-Eintrag vorhanden ist, sollte ein Host-a-Eintrag für den internen Webdienste vollqualifizierten Domänennamen (FQDN) für Ihre Directorpool vorhanden sein (beispielsweise lyncwebdir01. contoso. local). Wenn dies nicht der Fall ist, verwenden Sie möglicherweise keinen Directorpool, und Sie müssen den FQDN für Ihren Front-End-Pool oder sogar einen einzelnen Server-FQDN verwenden, falls dies Ihr Setup ist.
 
-5.  Beachten Sie Folgendes: Überprüfen Sie, ob ein Host a (AAAA für IPv6)-Eintrag für Ihren Front-End-Pool für einen internen DNS-Eintrag vorhanden ist, ein Host-a-Eintrag (oder AAAA-Eintrag) für den internen Webdienst-FQDN für Ihren Front-End-Pool vorhanden sein soll (beispielsweise , lyncwebpool01. contoso. local). Wenn dies nicht der Fall ist, müssen Sie den FQDN für den Front-End-Server oder den Standard Edition-Server notieren.
+5.  Achten Sie darauf, dass ein Host-a-Eintrag (AAAA für IPv6) für die Front-End-Pool eines internen DNS-Eintrags vorhanden ist, dass ein Host-a-Eintrag (oder AAAA) für den internen Webdienste FQDN für Ihre Front-End-Pool vorhanden sein muss (beispielsweise , lyncwebpool01. contoso. local). Wenn dies nicht der Fall ist, müssen Sie den FQDN für den Front-End-Server oder Standard Edition-Server notieren.
 
-6.  Sobald Sie wissen, welche Host A (oder AAAA)-Einträge vorhanden sind, erweitern Sie in der Konsolenstruktur Ihres DNS-Servers **Forward-Lookupzonen** für Ihre SIP-Domäne (beispielsweise contoso.com).
+6.  Wenn Sie wissen, welche Host-a-(oder AAAA)-Einträge vorhanden sind, erweitern Sie in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für Ihre SIP-Domäne (beispielsweise contoso.com).
 
-7.  Klicken Sie mit der rechten Maustaste auf den SIP-Domänennamen, und klicken Sie dann auf **Neuer Alias (CNAME)**.
+7.  Klicken Sie mit der rechten Maustaste auf den Namen der SIP-Domäne, und klicken Sie dann auf **Neuer Alias (CNAME)**.
 
-8.  Geben Sie unter **Aliasname**den Namen lyncdiscoverinternal als Hostnamen für die interne URL des AutoErmittlungsdiensts ein.
+8.  Geben Sie unter **Aliasname**"lyncdiscoverinternal" als Hostnamen für die interne AutoErmittlungsdienst-URL ein.
 
-9.  Geben Sie im **vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für den Ziel Host**den internen Webdienst-FQDN für Ihren Director-Pool ein, oder suchen Sie nach ihm (beispielsweise lyncwebdir01. contoso. local), und klicken Sie dann auf **OK**.
+9.  Geben Sie im **vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für den Zielhost**den internen Webdienste FQDN für den Directorpool ein (beispielsweise lyncwebdir01. contoso. local), oder klicken Sie auf **OK**.
 
-10. Sie müssen einen neuen CNAME-Eintrag für die AutoErmittlung in der Forward-Lookupzone jeder SIP-Domäne erstellen, die Sie in ihrer lync Server 2013-Umgebung unterstützen.
+10. Sie müssen einen neuen CNAME-Eintrag für die AutoErmittlung in der Forward-Lookupzone jeder SIP-Domäne erstellen, die Sie in ihrer lync Server 2013 Umgebung unterstützen.
 
 </div>
 
@@ -77,23 +77,23 @@ Die von Ihnen erstellten DNS-Einträge können entweder als (Host-) Datensätze 
 
 ## <a name="creating-an-external-dns-cname-record"></a>Erstellen eines externen DNS-CNAME-Eintrags
 
-1.  Wenn Sie einen externen DNS-CNAME-Eintrag erstellen möchten, müssen Sie eine Verbindung mit Ihrem öffentlichen DNS-Anbieter herstellen, und führen Sie dann die folgenden Schritte aus. Wir können nicht genau beschreiben, wohin Sie in der Umgebung Ihres DNS-Anbieters wechseln, da es verschiedene Methoden zur Verwaltung Ihres externen DNS geben kann, aber wir hoffen, dass diese Schritte hilfreich sind.
+1.  Zum Erstellen eines externen DNS-CNAME-Eintrags müssen Sie eine Verbindung mit Ihrem öffentlichen DNS-Anbieter herstellen und dann unsere Schritte ausführen. Wir können nicht genau beschreiben, wo Sie in die Umgebung Ihres DNS-Anbieters wechseln, da es unterschiedliche Möglichkeiten zur Verwaltung Ihres externen DNS geben kann, aber wir hoffen, dass diese Schritte hilfreich sind.
 
 2.  Melden Sie sich bei Ihrem externen DNS-Anbieter mit einem Konto an, das DNS-Einträge in dieser Umgebung erstellen kann.
 
-3.  Für diese Umgebung sollte bereits eine SIP-Domäne erstellt werden. Erweitern Sie die **Forward-Lookupzone** für diese SIP-Domäne, oder wählen Sie Sie auf andere Weise abhängig von der verwendeten externen DNS-Schnittstelle aus.
+3.  Sie sollten bereits eine SIP-Domäne für diese Umgebung erstellt haben. Erweitern Sie die **Forward-Lookupzone** für diese SIP-Domäne, oder wählen Sie Sie auf andere Weise je nach verwendeter externer DNS-Schnittstelle aus.
 
-4.  Sie sollten bereits einen Host-a-Eintrag (AAAA für IPv6) für Ihren Director-Pool (wie lyncwebexdir01.contoso.com) sehen, um sicherzustellen, dass er vorhanden ist. Wenn dies nicht der Fall ist, verwenden Sie möglicherweise keinen Director-Pool. Wenn dies der Fall ist, müssen Sie den FQDN Ihres Front-End-Pools verwenden, oder wenn Sie dies für einen einzelnen Server, für Ihren Front-End-Server oder Standard Edition-Server tun.
+4.  Sie sollten bereits einen Host-a-Eintrag (AAAA für IPv6) für Ihre Directorpool (beispielsweise lyncwebexdir01.contoso.com) sehen, also bestätigen Sie, dass dieser vorhanden ist. Wenn dies nicht der Fall ist, verwenden Sie möglicherweise keine Directorpool. Wenn dies der Fall ist, müssen Sie den FQDN des Front-End-Pools verwenden, oder wenn Sie dies für einen einzelnen Server, für den Front-End-Server oder Standard Edition-Server tun.
 
-5.  Außerdem müssen Sie sicherstellen, dass ein Host a (AAAA für IPv6)-Eintrag für den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) Ihres externen Webdiensts für Ihren Front-End-Pool (wie lyncwebextpool01.contoso.com) vorhanden ist, oder einen FQDN für den FQDN Ihres Single Servers, wenn Sie über keinen Front-End-Pool verfügen. Wie im vorherigen Schritt beschrieben, benötigen Sie diese unten, wenn Sie nicht über einen Director-Pool verfügen.
+5.  Sie müssen außerdem sicherstellen, dass ein Host-a-Eintrag (AAAA für IPv6) für Ihren externen Webdienste vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für Ihre Front-End-Pool (beispielsweise lyncwebextpool01.contoso.com) oder ein FQDN für Ihren Einzelserver-FQDN vorhanden ist, wenn Sie über keine Front-End-Pool verfügen. Wie im vorherigen Schritt erwähnt, benötigen Sie diese weiter unten, wenn Sie keine Directorpool haben.
 
-6.  Wählen Sie jetzt im geeigneten Format für Ihren externen DNS-Anbieter die Option zum Erstellen eines **neuen Alias (CNAME)** (Dies kann eine Menüoption oder ein Link sein, abhängig vom Format des DNS-Anbieters).
+6.  Wählen Sie nun im entsprechenden Format für Ihren externen DNS-Anbieter die Option zum Erstellen eines **neuen Alias (CNAME)** (Dies kann eine Menüoption oder ein Link sein, je nach Format des DNS-Anbieters).
 
-7.  Es sollte eine Form von **Alias Namen** -Textfeld geben wie beim internen DNS sollten Sie lyncdiscover als Hostnamen für die URL des externen AutoErmittlungsdiensts eingeben.
+7.  Es sollte eine Form von **Alias Namen** -Textfeld geben wie beim internen DNS sollten Sie lyncdiscover als Hostnamen für die externe AutoErmittlungsdienst-URL eingeben.
 
-8.  Es sollte auch eine Form eines **vollqualifizierten Domänennamens (Fully Qualified Domain Name, FQDN) für** das Textfeld "Zielhost" geben, hier können Sie den FQDN der externen Webdienste für Ihren Director-Pool eingeben (beispielsweise lyncwebexdir01.contoso.com) und dann auf OK klicken oder alle Aktionen im externen DNS ausführen, um die Erstellung dieses Eintrags zu akzeptieren. Wie in Schritt 4 oben zu sehen ist, müssen Sie, falls Sie nicht über einen Director-Pool verfügen, den FQDN des Front-End-Pools oder den von Ihnen eingerichteten Single-Server-FQDN verwenden.
+8.  Es sollte auch eine Form eines **vollqualifizierten Domänennamens (Fully Qualified Domain Name, FQDN) für das Textfeld Zielhost** geben, hier geben Sie den externen Webdienste-FQDN für Ihre Directorpool ein (beispielsweise lyncwebexdir01.contoso.com), und klicken Sie dann auf OK, oder nehmen Sie alle Aktionen im externen DNS vor, um die Erstellung dieses Eintrags zu akzeptieren. Wie in Schritt 4 oben erwähnt, müssen Sie, wenn Sie nicht über ein Directorpool verfügen, den Front-End-Pool-FQDN oder den FQDN des Einzelservers verwenden, den Sie eingerichtet haben, je nach Bedarf.
 
-9.  Sie müssen einen neuen CNAME-Eintrag für die AutoErmittlung in der Forward-Lookupzone jeder SIP-Domäne erstellen, die in ihrer lync 2013-Umgebung unterstützt wird.
+9.  Sie müssen einen neuen CNAME-Eintrag für die AutoErmittlung in der Forward-Lookupzone jeder SIP-Domäne erstellen, die in ihrer lync 2013 Umgebung unterstützt wird.
 
 </div>
 
@@ -101,29 +101,29 @@ Die von Ihnen erstellten DNS-Einträge können entweder als (Host-) Datensätze 
 
 ## <a name="creating-an-internal-dns-a-record"></a>Erstellen eines internen DNS-A-Eintrags
 
-1.  Wenn Sie einen internen DNS-Eintrag erstellen möchten, melden Sie sich bei einem DNS-Server in Ihrem Netzwerk mit einem Domänenkonto an, das ein Mitglied der Gruppe "Domain Admins" oder ein Mitglied der DnsAdmins-Gruppe ist.
+1.  Um einen internen DNS-Eintrag zu erstellen, melden Sie sich bei einem DNS-Server in Ihrem Netzwerk mit einem Domänenkonto an, das Mitglied der Gruppe "Domänen-Admins" oder ein Mitglied der Gruppe "DnsAdmins" ist.
 
-2.  Öffnen Sie das DNS-Administrator-Snap-in: Klicken Sie auf **Start**, klicken Sie auf **Verwaltung**, und klicken Sie dann auf **DNS**.
+2.  Öffnen Sie das DNS-Verwaltungs-Snap-In: Klicken Sie auf **Start**, auf **Verwaltung** und dann auf **DNS**.
 
-3.  Für einen internen DNS-Eintrag erweitern Sie in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für Ihre Active Directory-Domäne (beispielsweise contoso. local), in der der lync Server 2013 Director-Pool und der Front-End-Pool installiert sind.
+3.  Erweitern Sie für einen internen DNS-Eintrag in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für Ihre Active Directory Domäne (beispielsweise "contoso. local"), in der Ihre lync Server 2013 Directorpool und Front-End-Pool installiert sind.
 
-4.  Überprüfen Sie, ob ein Host-a-Eintrag (AAAA für IPv6) für Ihren Director-Pool für einen internen DNS-Eintrag vorhanden ist, und geben Sie einen Host einen Eintrag für den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) Ihres Director-Pools (beispielsweise lyncwebdir01. contoso. local) ein. Wenn dies nicht der Fall ist, verwenden Sie möglicherweise keinen Director-Pool, und Sie müssen die IP-Adresse für Ihren Front-End-Pool oder sogar eine einzelne Server-IP-Adresse verwenden, wenn dies Ihr Setup ist.
+4.  Prüfen Sie, ob ein Host-a-Eintrag (AAAA für IPv6) für Ihren Directorpool für einen internen DNS-Eintrag vorhanden ist, sollte ein Host-a-Eintrag für den internen Webdienste vollqualifizierten Domänennamen (FQDN) für Ihre Directorpool vorhanden sein (beispielsweise lyncwebdir01. contoso. local). Wenn dies nicht der Fall ist, verwenden Sie möglicherweise keine Directorpool, und Sie müssen die IP-Adresse für Ihre Front-End-Pool oder sogar eine IP-Adresse für einen einzelnen Server verwenden, falls dies Ihr Setup ist.
 
-5.  Beachten Sie Folgendes: Überprüfen Sie, ob ein Host a (AAAA für IPv6)-Eintrag für Ihren Front-End-Pool für einen internen DNS-Eintrag vorhanden ist, ein Host-a-Eintrag (oder AAAA-Eintrag) für den internen Webdienst-FQDN für Ihren Front-End-Pool vorhanden sein soll (beispielsweise , lyncwebpool01. contoso. local). Wenn dies nicht der Fall ist, müssen Sie die IP-Adresse für den Front-End-Server oder den Standard Edition-Server notieren.
+5.  Achten Sie darauf, dass ein Host-a-Eintrag (AAAA für IPv6) für die Front-End-Pool eines internen DNS-Eintrags vorhanden ist, dass ein Host-a-Eintrag (oder AAAA) für den internen Webdienste FQDN für Ihre Front-End-Pool vorhanden sein muss (beispielsweise , lyncwebpool01. contoso. local). Wenn dies nicht der Fall ist, müssen Sie die IP-Adresse für die Front-End-Server oder Standard Edition-Server notieren.
 
-6.  Sobald Sie wissen, welche Host A (oder AAAA)-Einträge vorhanden sind, erweitern Sie in der Konsolenstruktur Ihres DNS-Servers **Forward-Lookupzonen** für Ihre SIP-Domäne (beispielsweise contoso.com).
+6.  Wenn Sie wissen, welche Host-a-(oder AAAA)-Einträge vorhanden sind, erweitern Sie in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für Ihre SIP-Domäne (beispielsweise contoso.com).
 
-7.  Klicken Sie mit der rechten Maustaste auf den SIP-Domänennamen, und klicken Sie dann auf **neuer Host (A oder AAAA)**.
+7.  Klicken Sie mit der rechten Maustaste auf den Namen der SIP-Domäne, und klicken Sie dann auf **Neuer Host (A oder AAAA)**.
 
-8.  Geben Sie unter **Name**den Namen lyncdiscoverinternal als Hostname für die interne URL des AutoErmittlungsdiensts ein.
+8.  Geben Sie unter **Name**den Namen "lyncdiscoverinternal" als Hostnamen für die interne URL des AutoErmittlungsdiensts ein.
 
-9.  Geben Sie unter **IP-Adresse**die interne Webdienste-IP-Adresse des Directors ein (oder geben Sie bei Verwendung eines Load Balancer die virtuelle IP (VIP) des Director Load Balancer ein). Wie in Schritt 4 oben festgestellt, müssen Sie möglicherweise die IP-Adresse des Front-End-Servers oder des Standard Edition-Servers eingeben, oder wenn Sie ein Lastenausgleichsmodul verwenden, geben Sie den VIP des Load Balancer des Front-End-Pools ein.
+9.  Geben Sie unter **IP-Adresse**die interne Webdienste-IP-Adresse des Directors ein (oder geben Sie bei Verwendung eines Lastenausgleichs die virtuelle IP (VIP) des Director-Lastenausgleichs) ein. Wie in Schritt 4 oben erwähnt, müssen Sie möglicherweise die IP-Adresse des Front-End-Server oder Standard Edition-Server eingeben oder, wenn Sie einen Lastenausgleichsmodul verwenden, den VIP des Front-End-Pool Lastenausgleichs eingeben.
 
-10. Klicken Sie auf **Host hinzufügen**, und klicken Sie dann auf **OK**.
+10. Klicken Sie auf **Host hinzufügen** und dann auf **OK**.
 
-11. Wenn Sie einen zusätzlichen a-oder AAAA-Eintrag erstellen möchten, wiederholen Sie die Schritte 8 bis 10, und unter Berücksichtigung dessen, dass Sie neue Auto Ermittlungs-a-oder AAAA-Einträge in der Forward-Lookupzone jeder SIP-Domäne erstellen müssen, die in ihrer lync Server 2013-Umgebung unterstützt wird.
+11. Wenn Sie einen zusätzlichen a-oder AAAA-Eintrag erstellen möchten, wiederholen Sie die Schritte 8 bis 10, und beachten Sie dabei, dass Sie in der Forward-Lookupzone jeder SIP-Domäne, die in ihrer lync Server 2013 Umgebung unterstützt wird, neue a-oder AAAA-Einträge für die AutoErmittlung erstellen müssen.
 
-12. Wenn Sie mit dem Erstellen eines (für IPv6-, AAAA)-Datensatzes fertig sind, klicken Sie auf **Fertig**.
+12. Klicken Sie auf **Fertig**, wenn Sie das Erstellen von A-Einträgen (für IPv6, AAAA) abgeschlossen haben.
 
 </div>
 
@@ -131,23 +131,23 @@ Die von Ihnen erstellten DNS-Einträge können entweder als (Host-) Datensätze 
 
 ## <a name="creating-an-external-dns-a-record"></a>Erstellen eines externen DNS-A-Eintrags
 
-1.  Wenn Sie einen externen DNS-Eintrag erstellen möchten, stellen Sie eine Verbindung mit Ihrem öffentlichen DNS-Anbieter her, und führen Sie dann die folgenden Schritte aus. Wir können nicht genau beschreiben, wohin Sie in der Umgebung Ihres DNS-Anbieters wechseln, da es verschiedene Methoden zur Verwaltung Ihres externen DNS geben kann, aber wir hoffen, dass diese Schritte hilfreich sind.
+1.  Wenn Sie einen externen DNS-Eintrag erstellen möchten, stellen Sie eine Verbindung mit Ihrem öffentlichen DNS-Anbieter her, und führen Sie dann die folgenden Schritte aus. Wir können nicht genau beschreiben, wo Sie in die Umgebung Ihres DNS-Anbieters wechseln, da es unterschiedliche Möglichkeiten zur Verwaltung Ihres externen DNS geben kann, aber wir hoffen, dass diese Schritte hilfreich sind.
 
 2.  Sie müssen als Konto angemeldet sein, das DNS-Einträge in dieser Umgebung erstellen kann.
 
-3.  Erweitern Sie für einen externen DNS-Eintrag in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für Ihre SIP-Domäne (beispielsweise contoso.com). Erweitern Sie für einen externen DNS-Eintrag in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für Ihre SIP-Domäne (beispielsweise contoso.com).
+3.  Wenn Sie einen externen DNS-Eintrag erstellen, erweitern Sie in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für die SIP-Domäne (z. B. "contoso.com"). Wenn Sie einen externen DNS-Eintrag erstellen, erweitern Sie in der Konsolenstruktur des DNS-Servers **Forward-Lookupzonen** für die SIP-Domäne (z. B. "contoso.com").
 
-4.  Sie sollten bereits einen Host-a-Eintrag (AAAA für IPv6) für Ihren Director-Pool (wie lyncwebexdir01.contoso.com) sehen, um sicherzustellen, dass er da ist und was die IP-Adresse ist. Wenn dies nicht der Fall ist, verwenden Sie möglicherweise keinen Director-Pool. Wenn dies der Fall ist, müssen Sie die IP-Adresse des Front-End-Pools verwenden, oder wenn Sie dies für einen einzelnen Server, für Ihren Front-End-Server oder Standard Edition-Server tun. Beachten Sie, dass sich Ihre Server auch hinter einem Load-Balancer oder einem Reverse-Proxy befinden können. Notieren Sie sich die IP-Adressen, und führen Sie die folgenden Schritte aus.
+4.  Sie sollten bereits einen Host-a-Eintrag (AAAA für IPv6) für Ihre Directorpool (beispielsweise lyncwebexdir01.contoso.com) sehen, also bestätigen Sie, dass er vorhanden ist und was die IP-Adresse ist. Wenn dies nicht der Fall ist, verwenden Sie möglicherweise keine Directorpool. Wenn dies der Fall ist, müssen Sie die IP-Adresse des Front-End-Pools verwenden, oder wenn Sie dies für einen einzelnen Server, für den Front-End-Server oder Standard Edition-Server tun. Beachten Sie, dass sich Ihre Server möglicherweise auch hinter einem Lastenausgleichsmodul oder einem Reverseproxy befinden. Notieren Sie sich die IP-Adressen, und führen Sie die folgenden Schritte aus.
 
-5.  Darüber hinaus müssen Sie sicherstellen, dass ein Host a (AAAA für IPv6)-Eintrag für den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) Ihres externen Webdiensts für Ihren Front-End-Pool (wie lyncwebextpool01.contoso.com) oder eine IP-Adresse für Ihre lync-Installation mit einem Server vorhanden ist, wenn Sie keine Front-End-Pools. Wie im vorherigen Schritt beschrieben, benötigen Sie diese unten, wenn Sie nicht über einen Director-Pool verfügen.
+5.  Sie müssen außerdem sicherstellen, dass ein Host-a-Eintrag (AAAA für IPv6) für Ihren externen Webdienste vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für Ihre Front-End-Pool (beispielsweise lyncwebextpool01.contoso.com) oder eine IP-Adresse für die Einzelserver-lync-Installation vorhanden ist, wenn Sie keine Front-End-Pool. Wie im vorherigen Schritt erwähnt, benötigen Sie diese weiter unten, wenn Sie keine Directorpool haben.
 
-6.  Wählen Sie jetzt im geeigneten Format für Ihren externen DNS-Anbieter die Option zum Erstellen eines **neuen Hosts a oder AAAA** (Dies kann eine Menüoption oder ein Link sein, abhängig vom Format des DNS-Anbieters).
+6.  Wählen Sie nun im entsprechenden Format für Ihren externen DNS-Anbieter die Option zum Erstellen eines **neuen Hosts a oder AAAA** (Dies kann eine Menüoption oder ein Link sein, je nach Format des DNS-Anbieters).
 
-7.  Es sollte einen Ort geben, an dem Sie einen **Namen**eingeben können, und geben Sie lyncdiscover als Hostnamen für die URL des externen AutoErmittlungsdiensts ein.
+7.  Es sollte einen Ort geben, um einen **Namen**einzugeben, geben Sie lyncdiscover als Hostnamen für die externe AutoErmittlungsdienst-URL ein.
 
-8.  Es sollte auch ein Textfeld für die **IP-Adresse** vorhanden sein, in dem Sie die IP-Adresse für Ihr Director-Pool (beispielsweise lyncwebexdir01.contoso.com) oder möglicherweise die IP-Adresse des Load Balancer Ihres Pools (oder eine Reverse-Proxy-IP-Adresse, die zum gleichen führt) eingeben und dann auf OK klicken oder die Aktion im externen DNS durchführen, um die Erstellung dieses Eintrags Wie in Schritt 4 oben erwähnt, müssen Sie, falls Sie keinen Director-Pool besitzen, die IP-Adresse des Front-End-Pools oder die IP-Adresse des Einzelservers verwenden, die Sie eingerichtet haben.
+8.  Es sollte auch ein **IP-Adress** Textfeld vorhanden sein, in dem Sie die IP-Adresse für Ihre Directorpool eingeben (beispielsweise lyncwebexdir01.contoso.com) oder möglicherweise die IP-Adresse des Lastenausgleichs Ihres Pools (oder eine Reverse-Proxy-IP, die dazu führt) und dann auf OK klicken oder eine beliebige Aktion im externen DNS durchführen, um die Erstellung dieses Eintrags zu akzeptieren. Wie in Schritt 4 oben erwähnt, müssen Sie, wenn Sie nicht über ein Directorpool verfügen, die Front-End-Pool-IP-Adresse oder die IP-Adresse eines einzelnen Servers verwenden, die Sie eingerichtet haben, je nach Bedarf.
 
-9.  Sie müssen einen neuen Auto Ermittlungs-a-oder AAAA-Eintrag in der Forward-Lookupzone jeder SIP-Domäne erstellen, die in ihrer lync 2013-Umgebung unterstützt wird.
+9.  Sie müssen einen neuen Auto Ermittlungs Eintrag a oder AAAA in der Forward-Lookupzone jeder SIP-Domäne erstellen, die in ihrer lync 2013 Umgebung unterstützt wird.
 
 </div>
 

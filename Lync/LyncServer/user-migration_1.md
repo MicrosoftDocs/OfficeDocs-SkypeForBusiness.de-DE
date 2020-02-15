@@ -12,16 +12,16 @@ ms:contentKeyID: 48185056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2fec27e51722eea889c7256e6cbb777481b9016
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 494ef02b232891eedf9b42a15a7db03b8cdc175b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738605"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048896"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41738605"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-Eine allgemein anerkannte bewährte Methode für Migrationen besteht darin, mehrere Testbenutzer zu erstellen und diese zum Durchführen von Systemtests zu verwenden. Nachdem Sie diese Konten erfolgreich verschoben und getestet haben, sollten Sie eine Gruppe von Pilotproduktionsbenutzern identifizieren und deren Konten verschieben und Validierungstests durchführen. Wenn Sie zufrieden stellende Ergebnisse erzielen, können Sie die restlichen Benutzer auf die neue Bereitstellung verschieben.
+Eine allgemein akzeptierte bewährte Methode für Migrationen besteht darin, mehrere Testbenutzer zu erstellen und sie zur Durchführung von Systemtests zu verwenden. Nach einer erfolgreichen Verschiebung und Prüfung der Konten der Benutzer sollten Sie eine Gruppe von Pilotproduktionsbenutzern bestimmen und die dazugehörigen Konten verschieben und Validierungstests an diesen Konten durchführen. Wenn Sie zufriedenstellende Ergebnisse  erhalten, können Sie die restlichen Benutzer in die neue Bereitstellung verschieben.
 
 </div>
 

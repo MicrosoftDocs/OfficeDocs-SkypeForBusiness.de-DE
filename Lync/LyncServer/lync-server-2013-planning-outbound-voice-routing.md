@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planen des VoIP-Routings für ausgehende Anrufe'
+title: 'Lync Server 2013: Planen des ausgehenden VoIP-Routings'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d33fbe8d15b78bed9dd651cd7facf35a8249f64
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1fbcb976ed4f3d1464b6b956ef60dc1d00bd6907
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747665"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050577"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-outbound-voice-routing-in-lync-server-2013"></a>Planen des VoIP-Routings für ausgehende Anrufe in Lync Server 2013
+# <a name="planning-outbound-voice-routing-in-lync-server-2013"></a>Planen der ausgehenden VoIP-Weiterleitung in lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41747665"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Das Routing für ausgehende Anrufe bezieht sich auf Anrufe, die für ein öffentliches Switched Telephone Network (PSTN) Gateway, trunk oder Private Branch Exchange (PBX) bestimmt sind. Wenn ein Benutzer einen Anruf eingibt, normalisiert der Server die Telefonnummer bei Bedarf in das E. 164-Format und versucht, ihn mit einem SIP-URI zu vergleichen. Ermittelt der Server keine Übereinstimmung, wird die Routinglogik für ausgehende Anrufe basierend auf der bereitgestellten Wählzeichenfolge angewendet. Sie können diese Logik durch Konfigurieren der Servereinstellungen definieren, die in der folgenden Tabelle beschrieben sind.
+Das Routing ausgehender Anrufe wird auf Anrufe angewendet, die an ein PSTN-Gateway (Public Switched Telephone Network) , einen Trunk oder eine Nebenstellenanlage gerichtet sind. Wenn ein Benutzer einen Anruf tätigt, normalisiert der Server die Rufnummer ggf., indem er diese in das E.164-Format übersetzt und versucht, sie einem SIP-URI zuzuordnen. Ermittelt der Server keine Übereinstimmung, wird die Routinglogik für ausgehende Anrufe basierend auf der bereitgestellten Wählzeichenfolge angewendet. Sie können diese Logik durch Konfigurieren der Servereinstellungen definieren, die in der folgenden Tabelle beschrieben werden.
 
-### <a name="lync-server-outbound-call-routing-settings"></a>Ausgehende Anruf Routing Einstellungen für lync Server
+### <a name="lync-server-outbound-call-routing-settings"></a>Einstellungen für das Routing ausgehender Anrufe in Lync Server
 
 <table>
 <colgroup>
@@ -54,20 +54,20 @@ Das Routing für ausgehende Anrufe bezieht sich auf Anrufe, die für ein öffent
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Wählplan</p></td>
-<td><p>Ein Wählplan ist ein benannter Satz von Normalisierungsregeln, mit deren Hilfe Telefonnummern als Bestandteil der Telefonautorisierung und Anrufweiterleitung für einen benannten Standort, für einzelne Benutzer oder für Kontaktobjekte in ein einzelnes Standardformat (E.164) übersetzt werden.</p></td>
+<td><p>Wähleinstellungen</p></td>
+<td><p>Wähleinstellungen sind benannte Sätze aus Normalisierungsregeln, mit deren Hilfe Telefonnummern als Bestandteil der Telefonautorisierung und Anrufweiterleitung für einen benannten Standort, einzelne Benutzer oder Kontaktobjekte in ein einzelnes Standardformat (E.164) übersetzt werden.</p></td>
 </tr>
 <tr class="even">
 <td><p>Normalisierungsregel</p></td>
-<td><p>Normalisierungsregeln definieren das Routing von Rufnummern in unterschiedlichen Formaten für benannte Standorte, Benutzer oder Kontaktobjekte. Ein und dieselbe Wählzeichenfolge kann je nach dem Standort, an dem sie gewählt wurde, und je nach der anrufenden Person bzw. dem anrufenden Kontaktobjekt unterschiedlich interpretiert und übersetzt werden. Eine Gruppe von Normalisierungsregeln, die einem bestimmten Standort zugeordnet sind, bildet einen Wählplan.</p></td>
+<td><p>Normalisierungsregeln definieren das Routing von Rufnummern in unterschiedlichen Formaten für den benannten Standort, Benutzer oder das Kontaktobjekt. Ein und dieselbe Wählzeichenfolge kann je nach Standort, an dem sie gewählt wurde, und je nach Person oder Kontaktobjekt, die bzw. das den Anruf tätigt, unterschiedlich interpretiert und übersetzt werden. Eine Gruppe von Normalisierungsregeln, die einem bestimmten Standort zugeordnet sind, bildet einen Satz mit Wähleinstellungen.</p></td>
 </tr>
 <tr class="odd">
 <td><p>VoIP-Richtlinie</p></td>
-<td><p>Eine VoIP-Richtlinie ordnet einem Benutzer oder einer Benutzergruppe mindestens einen PSTN-Verwendungseintrag zu. Außerdem enthält eine VoIP-Richtlinie immer eine Liste der Anruffunktionen, die Sie aktivieren oder deaktivieren können.</p></td>
+<td><p>Eine VoIP-Richtlinie ordnet einem Benutzer oder einer Benutzergruppe mindestens einen PSTN-Verwendungsdatensatz zu. Eine VoIP-Richtlinie stellt darüber hinaus eine Liste der Anruffunktionen bereit, die Sie aktivieren oder deaktivieren können.</p></td>
 </tr>
 <tr class="even">
-<td><p>PSTN-Verwendungseintrag</p></td>
-<td><p>Ein PSTN-Verwendungseintrag gibt eine Klasse von Anrufen an (z. B. interne Anrufe, Ortsgespräche oder Ferngespräche), die von bestimmten Benutzern oder Benutzergruppen in einer Organisation getätigt werden dürfen.</p></td>
+<td><p>PSTN-Verwendungsdatensatz</p></td>
+<td><p>Ein PSTN-Verwendungsdatensatz gibt eine Anrufklasse (z. B. interne Anrufe, Ortsgespräche oder Ferngespräche) an, die von bestimmten Benutzern oder Benutzergruppen in einer Organisation getätigt werden dürfen.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Anrufroute</p></td>
@@ -81,19 +81,19 @@ Das Routing für ausgehende Anrufe bezieht sich auf Anrufe, die für ein öffent
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-In diesem Abschnitt finden Sie Richtlinien für die Konfiguration der folgenden Routingserver Einstellungen für ausgehende Anrufe:
+In diesem Abschnitt werden Richtlinien zum Konfigurieren der folgenden Servereinstellungen für das Ausgangsrouting bereitgestellt:
 
   - <span></span>  
     [Wählpläne und Normalisierungsregeln in lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md)
 
   - <span></span>  
-    [VoIP-Richtlinien in Lync Server 2013](lync-server-2013-voice-policies.md)
+    [VoIP-Richtlinien in lync Server 2013](lync-server-2013-voice-policies.md)
 
   - <span></span>  
-    [PSTN-Verwendungsdatensätze in Lync Server 2013](lync-server-2013-pstn-usage-records.md)
+    [PSTN-Verwendungsdaten Sätze in lync Server 2013](lync-server-2013-pstn-usage-records.md)
 
   - <span></span>  
-    [VoIP-Routen in Lync Server 2013](lync-server-2013-voice-routes.md)
+    [VoIP-Routen in lync Server 2013](lync-server-2013-voice-routes.md)
 
 </div>
 

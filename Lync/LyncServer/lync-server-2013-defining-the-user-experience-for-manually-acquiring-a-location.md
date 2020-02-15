@@ -12,20 +12,20 @@ ms:contentKeyID: 48185435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46b5913547ab7d5030ca40070de36b4deb1f6a89
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 56cb653b1058bd73cf57842d77b734a9e96eaf10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728325"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045878"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-user-experience-for-manually-acquiring-a-location-in-lync-server-2013"></a>Definieren der Benutzeroberfläche für den manuellen Erwerb eines Speicherorts in lync Server 2013
+# <a name="defining-the-user-experience-for-manually-acquiring-a-location-in-lync-server-2013"></a>Definieren der Benutzeroberfläche für den manuellen Erwerb eines Standorts in lync Server 2013
 
 </div>
 
@@ -35,16 +35,16 @@ ms.locfileid: "41728325"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-03_
+_**Letztes Änderungsstand des Themas:** 2012-10-03_
 
-Wenn ein Client sich außerhalb des Netzwerks oder in einem nicht definierten Subnetz befindet, kann der Benutzer manuell einen Standort eingeben. Bei einem Notruf wird der Anruf jedoch zuerst an ein nationales/regionales Telefoncenter für Notrufe (Emergency Call Response Center, ECRC) und erst anschließend an eine Rettungsleitstelle (Public Safety Answering Point, PSAP) weitergeleitet. Der Anrufer wird vom ECRC zur Angabe seines Standorts aufgefordert und anschließend wird der Notruf anhand der bereitgestellten Informationen an die entsprechende Rettungsleitstelle weitergeleitet.
+Wenn ein Client sich außerhalb des Netzwerks oder in einem nicht definierten Subnetz befindet, kann der Benutzer manuell einen Standort eingeben. Bei einem Notruf wird der Anruf jedoch zuerst an ein nationales/regionales Telefoncenter für Notrufe (Emergency Call Response Center, ECRC) und erst anschließend an eine Rettungsleitstelle (Public Safety Answering Point, PSAP) weitergeleitet. Der Anrufer wird vom ECRC zur Angabe seines Standorts aufgefordert, und anschließend wird der Notruf anhand der bereitgestellten Informationen an die entsprechende Rettungsleitstelle weitergeleitet wird.
 
-  - **Sollten Benutzer zur Eingabe eines Speicherorts aufgefordert werden, wenn Sie nicht automatisch vom standortinformationsdienst bereitgestellt werden?**  
+  - **Sollten Benutzer zur Eingabe eines Speicherorts aufgefordert werden, wenn dieser nicht automatisch vom Standortinformationsdienst bereitgestellt wird?**  
     Wenn ein Client sich beispielsweise in einem nicht definierten Subnetz, zu Hause, in einem Hotel oder an einem anderen Standort außerhalb des Netzwerks befindet, sollte der Benutzer zur Eingabe eines Standorts aufgefordert werden?
     
-    Sie können die Einstellung **Standort erforderlich** in der Standortrichtlinie konfigurieren, um das Clientverhalten zu definieren. Lautet die Einstellung „Nein“, wird der Benutzer nicht zur Eingabe eines Standorts aufgefordert. Lautet die Einstellung „Ja“, wird der Benutzer zur Eingabe eines Standorts aufgefordert, kann die Eingabeaufforderung jedoch verwerfen. Mit der Einstellung „Haftungsausschluss“ wird der Benutzer zur Eingabe eines Standorts aufgefordert. Wenn er dann versucht, diese Aufforderung zu verwerfen, wird ein Haftungsausschluss angezeigt. In allen Fällen kann der Benutzer den Client weiterhin verwenden.
+    Sie können die Einstellung **Standort erforderlich** in der ortungsrichtlinie konfigurieren, um das Clientverhalten zu definieren. Wenn Sie diesen Wert auf "Nein" festlegen, wird der Benutzer nicht zur Eingabe eines Speicherorts aufgefordert. Wenn Sie diesen Wert auf Yes festlegen, bedeutet dies, dass der Benutzer zur Eingabe eines Speicherorts aufgefordert wird, die Eingabeaufforderung jedoch entlassen werden kann. Wenn Sie diesen Wert auf Haftungsausschluss festlegen, bedeutet dies, dass der Benutzer zur Eingabe eines Standorts aufgefordert wird und ein Haftungsausschluss angezeigt wird, wenn er versucht, die Eingabeaufforderung zu schließen. In allen Fällen kann der Benutzer den Client weiterhin wie gewohnt verwenden.
 
-Wenn ein Benutzer einen Standort manuell eingibt, wird dieser basierend auf der MAC-Adresse des Standardgateways des Clientnetzwerks zugeordnet und in einer benutzerspezifischen Tabelle auf dem Client gespeichert. Wenn der Benutzer zu einem zuvor gespeicherten Speicherort zurückkehrt, legt sich der lync-Client automatisch an diesen Speicherort fest.
+Wenn ein Benutzer manuell einen Standort eingibt, wird dieser basierend auf der MAC-Adresse des Standardgateways für das Netzwerk des Clients zugeordnet und in einer benutzerspezifischen Tabelle auf dem Client gespeichert. Kehrt der Benutzer an einen zuvor gespeicherten Standort zurück, wird der Lync-Client automatisch auf diesen Standort eingestellt.
 
 <div>
 

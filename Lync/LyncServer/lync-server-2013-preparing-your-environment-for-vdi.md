@@ -12,20 +12,20 @@ ms:contentKeyID: 48185052
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57a3fb2563e287f24d49c23a468b4a44528707b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1d1da845950ddd70502a1e59db980c423aedba7d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747275"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049877"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="preparing-your-lync-server-2013-environment-for-vdi"></a>Vorbereiten der Lync Server 2013-Umgebung für VDI
+# <a name="preparing-your-lync-server-2013-environment-for-vdi"></a>Vorbereiten der lync Server 2013 Umgebung für VDI
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41747275"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-22_
+_**Letztes Änderungsstand des Themas:** 2013-02-22_
 
-Um die Umgebung für das lync-VDI-Plug-in vorzubereiten, muss der Administrator die folgenden Schritte ausführen.
+Um die Umgebung für das lync VDI-Plug-in vorzubereiten, muss der Administrator die folgenden Schritte ausführen.
 
-1.  Stellen Sie in lync Server 2013 sicher, dass EnableMediaRedirection für alle VDI-Benutzer auf true festgelegt ist. Ausführliche Informationen finden Sie in den Hilfethemen zum Cmdlet [New-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) und dem Cmdlet " [Satz-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) ".
+1.  Stellen Sie in lync Server 2013 sicher, dass "enablemediaredirection" für alle VDI-Benutzer auf true festgelegt ist. Ausführliche Informationen finden Sie in den Hilfethemen für das [New-CsClientPolicy-](https://docs.microsoft.com/powershell/module/skype/New-CsClientPolicy) Cmdlet und das Cmdlet "Set [-CsClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) ".
 
-2.  Installieren Sie auf dem Rechenzentrums Computer den lync 2013-Client auf allen virtuellen Computern.
+2.  Installieren Sie auf dem Computer mit dem Rechenzentrum den lync 2013 Client auf allen virtuellen Computern.
 
 3.  Installieren Sie auf den lokalen Computern das lync VDI-Plug-in.
 

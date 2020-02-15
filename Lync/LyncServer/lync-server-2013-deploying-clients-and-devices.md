@@ -12,16 +12,16 @@ ms:contentKeyID: 48185915
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 20a28df76c87df01ab39e3c3113c3c4beaa09347
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7e405ef520af5533f89475eeaf53d2fd35eaad87
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729445"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049357"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41729445"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-04-03_
+_**Letztes Änderungsstand des Themas:** 2015-04-03_
 
-In diesem Abschnitt werden die Verfahren zum Bereitstellen von lync Server 2013-Clients und-Geräten erläutert.
+In diesem Abschnitt werden die Verfahren für die Bereitstellung von lync Server 2013 Clients und Geräten beschrieben.
 
 <div>
 
@@ -45,9 +45,9 @@ In diesem Abschnitt werden die Verfahren zum Bereitstellen von lync Server 2013-
 
   - [Bereitstellen von lync-Clients in lync Server 2013](lync-server-2013-deploying-lync-clients.md)
 
-  - [Configure the client experience with Skype for Business](configure-the-skype-for-business-client-in-lync-server-2013.md)
+  - [Konfigurieren der Clientumgebung mit Skype for Business](configure-the-skype-for-business-client-in-lync-server-2013.md)
 
-  - [Bereitstellen des Lync VDI-Plug-Ins in Lync Server 2013](lync-server-2013-deploying-the-lync-vdi-plug-in.md)
+  - [Bereitstellen des lync VDI-Plug-ins in lync Server 2013](lync-server-2013-deploying-the-lync-vdi-plug-in.md)
 
   - [Bereitstellen von lync Web App in lync Server 2013](lync-server-2013-deploying-lync-web-app.md)
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48183661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7574169c5a8c9cb660a81b384711a4937056b37
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 94d7a8fc9a2cea4fc59a9ec404486042225915df
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735629"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050657"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41735629"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Wenn Sie Microsoft lync Server 2013 installieren, wird Quality of Service (QoS) nicht für alle in Ihrer Organisation verwendeten Geräte aktiviert, die ein anderes Betriebssystem als Windows verwenden. Sie können dies überprüfen, indem Sie in der lync Server 2013-Verwaltungsshell den folgenden Befehl ausführen:
+Wenn Sie Microsoft lync Server 2013 installieren, wird Quality of Service (QoS) für keine Geräte aktiviert, die in Ihrer Organisation verwendet werden, die ein anderes Betriebssystem als Windows verwenden. Sie können dies überprüfen, indem Sie den folgenden Befehl in der lync Server 2013 Management-Shell ausführen:
 
     Get-CsMediaConfiguration
 
-Angenommen, Sie haben keine Änderungen an Ihren Medien Konfigurationseinstellungen vorgenommen, sollten Sie Informationen ähnlich wie in diesem Fall wieder finden:
+Sofern Sie noch keine Änderungen an den Medienkonfigurationseinstellungen vorgenommen haben, sollten ähnliche Informationen wie die folgenden zurückgegeben werden:
 
     Identity                          : Global
     EnableQoS                         : False
@@ -52,13 +52,13 @@ Angenommen, Sie haben keine Änderungen an Ihren Medien Konfigurationseinstellun
     EnableH264Codec                   : True
     EnableAdaptiveBandwidthEstimation : True
 
-Wenn die EnableQoS-Eigenschaft auf "false" (wie in der vorhergehenden Ausgabe) festgelegt ist, bedeutet dies, dass die Dienstqualität für Computer und Geräte, die ein anderes Betriebssystem als Windows verwenden, nicht aktiviert ist. QoS ist standardmäßig für lync Phone Edition-Geräte aktiviert. Es ist jedoch möglich, die Quality of Service für lync Phone Edition zu deaktivieren.
+Wenn die EnableQoS-Eigenschaft auf false (wie in der vorherigen Ausgabe) festgelegt ist, bedeutet dies, dass die Dienstqualität für Computer und Geräte nicht aktiviert ist, die ein anderes Betriebssystem als Windows verwenden. QoS ist für lync Phone Edition-Geräte standardmäßig aktiviert; Es ist jedoch möglich, die Dienstqualität für lync Phone Edition zu deaktivieren.
 
-Führen Sie den folgenden Befehl in der lync Server-Verwaltungsshell aus, um Quality of Service im globalen Bereich zu aktivieren:
+Führen Sie den folgenden Befehl in der lync Server-Verwaltungsshell aus, um die Dienstqualität auf globaler Ebene zu aktivieren:
 
     Set-CsMediaConfiguration -EnableQoS $True
 
-Der obige Befehl aktiviert QoS im globalen Bereich; Beachten Sie jedoch, dass die Einstellungen für die Medienkonfiguration auch auf den Website Bereich angewendet werden können. Wenn Sie die Dienstqualität für eine Website aktivieren müssen, müssen Sie beim Aufrufen von "CsMediaConfiguration" die Identität der Konfigurationseinstellungen angeben. Mit diesem Befehl wird beispielsweise QoS für die Website "Redmond" aktiviert:
+Mit dem obigen Befehl wird QoS auf globaler Ebene aktiviert. Es ist jedoch wichtig, dass die Medienkonfigurationseinstellungen auch auf Standortebene angewendet werden können. Wenn Sie QoS für einen Standort aktivieren möchten, müssen Sie beim Aufruf von Set-CsMediaConfiguration die Identität der Konfigurationseinstellungen angeben. Mit dem folgenden Befehl wird QoS beispielsweise für den Standort Redmond aktiviert:
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $True
 
@@ -66,7 +66,7 @@ Der obige Befehl aktiviert QoS im globalen Bereich; Beachten Sie jedoch, dass di
 
 
 > [!NOTE]  
-> Müssen Sie QoS im Website Bereich aktivieren? Das hängt davon ab. Dem Website Bereich zugewiesene Einstellungen haben Vorrang vor den dem globalen Bereich zugewiesenen Einstellungen. Angenommen, Sie haben QoS im globalen Bereich aktiviert, aber für den Website Bereich deaktiviert (für die Website "Redmond"). In diesem Fall ist die Dienstqualität für die Website "Redmond" deaktiviert; Das liegt daran, dass die Websiteeinstellungen Vorrang haben. Um QoS für die Redmond-Website zu aktivieren, müssen Sie die Medien Konfigurationseinstellungen verwenden, die auf diese Website angewendet werden.
+> Müssen Sie QoS auf Standortebene aktivieren? Das kommt darauf an. Einstellungen auf Standortebene haben Vorrang vor globalen Einstellungen. Angenommen, Sie haben QoS auf globaler Ebene aktiviert, aber auf Standortebene (für den Standort Redmond) deaktiviert. In diesem Fall wird QoS für den Standort Redmond deaktiviert, da die Standorteinstellungen Vorrang haben. Um QoS für den Standort Redmond zu aktivieren, müssen Sie entsprechende Medienkonfigurationseinstellungen auf den Standort anwenden.
 
 
 
@@ -80,9 +80,9 @@ Sie können QoS für Geräte deaktivieren, die ein anderes Betriebssystem als Wi
 
     Set-CsMediaConfiguration -Identity site:Redmond -EnableQoS $False
 
-Dadurch haben Sie die Möglichkeit, QoS in einigen Teilen Ihres Netzwerks (beispielsweise auf der Website "Redmond") zu implementieren, während Sie die Dienstqualität für andere Teile Ihres Netzwerks deaktiviert lassen.
+Auf diese Weise können Sie QoS in einigen Bereichen des Netzwerks implementieren (z. B. für den Standort Redmond), während QoS für andere Bereiche des Netzwerks deaktiviert bleibt.
 
-QoS kann nur mithilfe von Windows PowerShell aktiviert und deaktiviert werden diese Optionen stehen in der lync Server-Systemsteuerung nicht zur Verfügung.
+QoS kann nur mit Windows PowerShell aktiviert und deaktiviert werden, wenn diese Optionen im lync Server-Systemsteuerung nicht verfügbar sind.
 
 </div>
 

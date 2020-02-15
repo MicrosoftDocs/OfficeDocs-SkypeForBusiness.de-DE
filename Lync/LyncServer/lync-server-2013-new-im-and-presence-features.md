@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Neue Funktionen für Chat und Anwesenheit'
+title: 'Lync Server 2013: neue Sofortnachrichten-und Anwesenheitsfeatures'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16144eaee77e8eebed4f3bbb7b5e37ba8ec29107
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b5a2a9183aeceacc70937cc90b30a54287361af2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758627"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048456"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-im-and-presence-features-in-lync-server-2013"></a>Neue Funktionen für Chat und Anwesenheit in Lync Server 2013
+# <a name="new-im-and-presence-features-in-lync-server-2013"></a>Neue Sofortnachrichten-und Anwesenheitsfunktionen in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41758627"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-Microsoft lync Server 2013 fügt die folgenden neuen Chat-und Anwesenheitsfeatures hinzu, um die lync-Umgebung Ihrer Benutzer zu bereichern.
+In Microsoft lync Server 2013 werden die folgenden neuen Sofortnachrichten-und Anwesenheitsfeatures hinzugefügt, um die lync-Umgebung Ihrer Benutzer zu bereichern.
 
-  - Wenn Ihre Organisation auch Exchange 2013 ausführt, können Benutzer einen einheitlichen Kontaktspeicher nutzen. Benutzer können Ihre Kontakte in Outlook 2013, Outlook Web App sowie in lync 2013 verwalten.
+  - Wenn Ihre Organisation auch Exchange 2013 ausführt, können Benutzer einen einheitlichen Kontaktspeicher nutzen. Benutzer können Ihre Kontakte sowohl in Outlook 2013, Outlook Web App als auch in lync 2013 verwalten.
 
-  - Ihre Benutzer können Sofortnachrichten und Anwesenheitsinformationen mit Benutzern von öffentlichen Chat Anbietern austauschen, die aufgrund des **XMPP-Integrations** Features von lync Server 2013 das Extensible Messaging-und Anwesenheits Protokoll, wie etwa Google Talk, verwenden. In Front-End-Server und Edgeserver integrierte XMPP-Integration, die Sie aktivieren und konfigurieren können, um dieses Feature zu ermöglichen.
+  - Ihre Benutzer können Chatnachrichten und Anwesenheitsinformationen mit Benutzern von öffentlichen Instant Messaging-Anbietern austauschen, die das Extensible Messaging and Presence Protocol (beispielsweise Google Talk) aufgrund der **XMPP-Integrations** Funktion von lync Server 2013 verwenden. Die XMPP-Integration ist in Front-End-Server und Edgeserver integriert und kann aktiviert werden, damit dieses Feature verwendet werden kann.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Aktivieren von Benutzern für den einheitlichen Kontaktspeicher in Lync Server 2013](lync-server-2013-enable-users-for-unified-contact-store.md)  
+[Aktivieren von Benutzern für den einheitlichen Kontaktspeicher in lync Server 2013](lync-server-2013-enable-users-for-unified-contact-store.md)  
 
 
-[Planen der erweiterbaren Messaging-und Anwesenheits Protokoll (XMPP)-Föderation in lync Server 2013](lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md)  
+[Planen des XMPP-Verbunds (Extensible Messaging and Presence Protocol) in lync Server 2013](lync-server-2013-planning-for-extensible-messaging-and-presence-protocol-xmpp-federation.md)  
   
 
 </div>

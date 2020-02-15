@@ -12,20 +12,20 @@ ms:contentKeyID: 48183308
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48516f307a084d30fde06a03548119e0ada34d6a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03f5a65b11c610849c5b9d031f24d236dcbcf332
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731505"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048506"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblcompliancedata-in-lync-server-2013"></a>tblComplianceData in Lync Server 2013
+# <a name="tblcompliancedata-in-lync-server-2013"></a>tblComplianceData in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731505"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+_**Letztes Änderungsstand des Themas:** 2012-09-12_
 
-tblComplianceData enthält die Konformitätsereignisse, die noch nicht vom Kompatibilitätsadapter verarbeitet wurden.
+"tblComplianceData" enthält die Kompatibilitätsereignisse, die noch nicht vom Kompatibilitätsadapter verarbeitet wurden.
 
 ### <a name="columns"></a>Spalten
 
@@ -58,25 +58,25 @@ tblComplianceData enthält die Konformitätsereignisse, die noch nicht vom Kompa
 <tr class="odd">
 <td><p>cmplEventID</p></td>
 <td><p>bigint, nicht NULL</p></td>
-<td><p>Ereignis-ID.</p></td>
+<td><p>Ereignis-ID</p></td>
 </tr>
 <tr class="even">
 <td><p>entryDate</p></td>
 <td><p>smalldatetime, nicht NULL</p></td>
-<td><p>Zeitpunkt der Einfügung (kann für cmplType = 9 weit in der Zukunft liegen, da der Eintrag nur ein Platzhalter in diesem Fall ist).</p></td>
+<td><p>Zeitpunkt des Einfügevorgangs (kann für "cmplType=9" in ferner Zukunft liegen, da der Eintrag in diesem Fall nur ein Platzhalter ist).</p></td>
 </tr>
 <tr class="odd">
 <td><p>cmplType</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Art des Konformitäts Ereignisses:</p>
+<td><p>Typ des Kompatibilitätsereignisses:</p>
 <ul>
 <li><p>1: Chat</p></li>
 <li><p>2: Backchat</p></li>
-<li><p>3: Herunterladen von Dateien</p></li>
-<li><p>4: Hochladen von Dateien</p></li>
-<li><p>9: provisorische Dateiübertragung</p></li>
-<li><p>10: Löschen des Chats (mit Replace)</p></li>
-<li><p>11: Chat-Bereinigung</p></li>
+<li><p>3: Dateidownload</p></li>
+<li><p>4: Dateiupload</p></li>
+<li><p>9: Vorläufige Dateiübertragung</p></li>
+<li><p>10: Chatlöschung (mit Ersatz)</p></li>
+<li><p>11: Chatbereinigung</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -86,34 +86,34 @@ tblComplianceData enthält die Konformitätsereignisse, die noch nicht vom Kompa
 </tr>
 <tr class="odd">
 <td><p>cmplChannelUri</p></td>
-<td><p>nvarchar (255); nicht NULL</p></td>
-<td><p>Kanal Uniform Resource Identifier (URI).</p></td>
+<td><p>nvarchar (255), nicht NULL</p></td>
+<td><p>Kanal-URI (Uniform Resource Identifier)</p></td>
 </tr>
 <tr class="even">
 <td><p>cmplChatID</p></td>
 <td><p>bigint</p></td>
-<td><p>Chat-ID (entsprechend der tblChat. Chat-Tabelle).</p></td>
+<td><p>Chat-ID (entsprechend der Tabelle "tblChat.chatId").</p></td>
 </tr>
 <tr class="odd">
 <td><p>cmplUserID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Prinzipal-ID des Plakats (entsprechend der tblPrincipal. prinID-Tabelle).</p></td>
+<td><p>Prinzipal-ID des Bereitstellers (entsprechend der Tabelle "tblPrincipal.prinID").</p></td>
 </tr>
 <tr class="even">
 <td><p>cmplUserUri</p></td>
-<td><p>nvarchar (255); nicht NULL</p></td>
-<td><p>Benutzer-URI.</p></td>
+<td><p>nvarchar (255), nicht NULL</p></td>
+<td><p>Benutzer-URI</p></td>
 </tr>
 <tr class="odd">
 <td><p>cmplMessage</p></td>
 <td><p>nvarchar (max)</p></td>
-<td><p>Nachricht (Codierung hängt von cmplType ab).</p></td>
+<td><p>Nachricht (Codierung abhängig von "cmplType").</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Schlüssel
+### <a name="key"></a>Key
 
 <table>
 <colgroup>

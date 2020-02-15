@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren der Authentifizierung in der lync Server-Systemsteuerung'
+title: 'Lync Server 2013: Konfigurieren der Authentifizierung im lync Server-Systemsteuerung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6588058527fb438af393f6eb1132e19895c0f564
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 998b3e0f2429ca32238a49f5df72973ac0f49687
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734841"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049767"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41734841"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+_**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Die Themen in diesem Abschnitt enthalten Schritt-für-Schritt-Verfahren für Aufgaben, die Sie mithilfe der **Sicherheits** Gruppe in der Systemsteuerung von lync Server 2013 ausführen können.
+Die Themen in diesem Abschnitt bieten schrittweise Anleitungen für Aufgaben, die Sie mit der **Sicherheits** Gruppe in lync Server 2013 Systemsteuerung ausführen können.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Erstellen von Registrierungs Konfigurationseinstellungen in lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md)
+  - [Erstellen von Registrierungsstellen-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-create-registrar-configuration-settings.md)
 
-  - [Ändern vorhandener Registrierungs Konfigurationseinstellungen in lync Server 2013](lync-server-2013-modify-existing-registrar-configuration-settings.md)
+  - [Ändern vorhandener Registrierungsstellen-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-modify-existing-registrar-configuration-settings.md)
 
-  - [Löschen vorhandener Registrierungs Konfigurationseinstellungen in lync Server 2013](lync-server-2013-delete-existing-registrar-configuration-settings.md)
+  - [Löschen vorhandener Registrierungsstellen-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-delete-existing-registrar-configuration-settings.md)
 
-  - [Erstellen neuer Webdienst-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-create-new-web-service-configuration-settings.md)
+  - [Erstellen neuer Konfigurationseinstellungen für den Webdienst in lync Server 2013](lync-server-2013-create-new-web-service-configuration-settings.md)
 
-  - [Ändern vorhandener Konfigurationseinstellungen für den Webdienst in lync Server 2013](lync-server-2013-modify-existing-web-service-configuration-settings.md)
+  - [Ändern vorhandener Webdienst-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-modify-existing-web-service-configuration-settings.md)
 
   - [Löschen vorhandener Webdienst-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-delete-existing-web-service-configuration-settings.md)
 
@@ -62,7 +62,7 @@ Die Themen in diesem Abschnitt enthalten Schritt-für-Schritt-Verfahren für Auf
 ## <a name="see-also"></a>Siehe auch
 
 
-[Verwalten von Besprechungen und Konferenzen in Lync Server 2013](lync-server-2013-managing-meetings-and-conferences.md)  
+[Verwalten von Besprechungen und Konferenzen in lync Server 2013](lync-server-2013-managing-meetings-and-conferences.md)  
   
 
 </div>

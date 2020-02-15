@@ -12,16 +12,16 @@ ms:contentKeyID: 48185253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9bc8f0f9f6e0296f279cb09495a92fd9950625e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8268720754f0f34fa24a5a5c7beef9ac21b5d3e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731105"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048259"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41731105"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Sie können die lync Server-Systemsteuerung verwenden, um Details zu jedem Dienst anzuzeigen, der auf einem bestimmten Computer in Ihrer Topologie ausgeführt wird. Sie können den Status jedes Diensts und Details wie die zugehörigen Datenbanken, Ports und abhängigen Dienste anzeigen.
+Sie können lync Server-Systemsteuerung verwenden, um Details zu jedem Dienst anzuzeigen, der auf einem bestimmten Computer in Ihrer Topologie läuft. Sie können den Status der einzelnen Dienste und Details wie die zugeordneten Datenbanken, Ports und abhängigen Dienste anzeigen.
 
 <div>
 
-## <a name="to-view-details-for-a-service"></a>So zeigen Sie Details zu einem Dienst an
+## <a name="to-view-details-for-a-service"></a>So zeigen Sie Details für einen Dienst an
 
-1.  Melden Sie sich bei einem Benutzerkonto, das einer der vordefinierten Administratorrollen für lync Server 2013 zugewiesen ist, bei jedem Computer in ihrer internen Bereitstellung an. Details zu den vordefinierten Administratorrollen, die in lync Server 2013 zur Verfügung stehen, finden Sie unter [Planen der rollenbasierten Zugriffssteuerung in lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+1.  Melden Sie sich bei einem Benutzerkonto, das einer der vordefinierten Administratorrollen für lync Server 2013 zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an. Ausführliche Informationen zu den in lync Server 2013 verfügbaren vordefinierten Administratorrollen finden Sie unter [Planning for Role-Based Access Control in lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status**.
 
-4.  Sortieren oder Durchsuchen Sie auf der **Status** Seite die Liste, und klicken Sie dann auf den Computer, den Sie anzeigen möchten.
+4.  Sortieren oder Durchsuchen Sie die Liste auf der Seite **Status** , und klicken Sie dann auf den Computer, den Sie anzeigen möchten.
 
 5.  Klicken Sie auf **Eigenschaften**.
 
-6.  Sortieren Sie im Fenster **Computer Detail anzeigen** die Liste der Dienste, falls erforderlich, und klicken Sie auf den Dienst, den Sie anzeigen möchten.
+6.  Sortieren Sie im Fenster **Computer Details anzeigen** bei Bedarf die Liste der Dienste, und klicken Sie auf den Dienst, den Sie anzeigen möchten.
 
-7.  Führen Sie bei Bedarf eine der folgenden Aktionen aus:
+7.  Führen Sie bei Bedarf einen der folgenden Schritte aus:
     
-      - Wenn Sie den aktuellen Status dieses bestimmten Diensts anzeigen möchten, klicken Sie auf **Dienststatus abrufen**.
+      - Klicken Sie auf **Dienststatus abrufen**, um den aktuellen Status des betreffenden Diensts anzuzeigen.
     
-      - Wenn Sie die Details für diesen bestimmten Dienst anzeigen möchten, klicken Sie auf **Eigenschaften** , und klicken Sie dann auf **Schließen**.
+      - Klicken Sie auf **Eigenschaften** , und klicken Sie dann auf **Schließen**, um die Details für diesen bestimmten Dienst anzuzeigen.
     
       - Klicken Sie auf **Schließen**, um zur Liste aller Computer in Ihrer Topologie zurückzukehren.
 
@@ -70,7 +70,7 @@ Sie können die lync Server-Systemsteuerung verwenden, um Details zu jedem Diens
 ## <a name="see-also"></a>Siehe auch
 
 
-[Verwalten der Lync Server 2013-Topologie](lync-server-2013-managing-the-lync-server-topology.md)  
+[Verwalten der lync Server 2013 Topologie](lync-server-2013-managing-the-lync-server-topology.md)  
   
 
 </div>

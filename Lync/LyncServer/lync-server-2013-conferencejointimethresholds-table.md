@@ -12,16 +12,16 @@ ms:contentKeyID: 48183855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: baf29af4b9d1f2b026271b84cb54436e8f4b233f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 280202a83828757c3caca20c21795453ad4f133f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740055"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049167"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41740055"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Die Tabelle "ConferenceJoinTimeThresholds" enthält die Klassifizierungs Grenzen, die vom Zusammenfassungsbericht "Konferenzteilnahme Zeit" verwendet werden. Der Bericht "Konferenz Teilzeit-Zusammenfassung" fasst die Zeitspanne zusammen, die der Benutzer für eine erfolgreiche Teilnahme an einer Konferenz benötigt. Diese Zeitwerte werden sowohl als Mittelwert als auch in einer der folgenden Kategorien angezeigt:
+Die Tabelle ConferenceJoinTimeThresholds enthält die Klassifizierungsgrenzwerte, die vom zusammenfassenden Bericht über den Zeitpunkt des Konferenzbeitritts verwendet werden. Der Bericht über den Zeitpunkt des Konferenzbeitritts enthält eine Zusammenfassung der Zeit, die Benutzer benötigen, um einer Konferenz erfolgreich beizutreten. Diese Zeitwerte werden sowohl als Durchschnitt als auch in einer der folgenden Kategorien gemeldet:
 
-  - Weniger als 2 Sekunden.
+  - Weniger als 2 Sekunden.
 
-  - Zwischen 2 Sekunden und 5 Sekunden.
+  - Zwischen 2 Sekunden und 5 Sekunden.
 
-  - Zwischen 5 Sekunden und 10 Sekunden.
+  - Zwischen 5 Sekunden und 10 Sekunden.
 
   - Mehr als 10 Sekunden.
 
-Die Tabelle ConferenceJoinTimeThresholds enthält die Klassifizierungs Werte 2 Sekunden, 5 Sekunden und 10 Sekunden.
+Die Tabelle ConferenceJoinTimeThresholds enthält die Klassifizierungswerte 2 Sekunden, 5 Sekunden und 10 Sekunden.
 
 Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
 
@@ -72,17 +72,17 @@ Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
 <td><p><strong>Schwellenwert</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutiger Bezeichner für die Klassifizierung.</p></td>
+<td><p>Eindeutige ID für die Klassifizierung.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ThresholdValue</strong></p></td>
+<td><p><strong>Schwellenwert</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Obergrenze für die Klassifizierung. Gültige Werte sind:</p>
+<td><p>Oberer Grenzwert für die Klassifizierung. Gültige Werte sind:</p>
 <ol>
-<li><p>2</p></li>
-<li><p>5</p></li>
-<li><p>10</p></li>
+<li><p>2 </p></li>
+<li><p>5 </p></li>
+<li><p>10 </p></li>
 </ol></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Entfernen von lync für Windows Phone'
+title: 'Lync Server 2013: lync für Windows Phone entfernen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e0b3183433050420fa9b995638121e2838c438e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4b2f55e88ff48c2719a56756501ac239b756858b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746775"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050487"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41746775"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-19_
+_**Letztes Änderungsstand des Themas:** 2013-02-19_
 
-Führen Sie die folgenden Schritte aus, um die lync 2013 für Windows Phone-Anwendung vom mobilen Gerät zu entfernen:
+Führen Sie die folgenden Schritte aus, um die lync 2013 für Windows Phone Anwendung vom mobilen Gerät zu entfernen:
 
-1.  Wischen Sie auf dem mobilen Gerät vom Startbildschirm aus, um die Anwendungsliste anzuzeigen.
+1.  Führen Sie auf der Startseite des mobilen Geräts eine Streifbewegung durch, um die Anwendungsliste anzuzeigen.
 
-2.  Tippen und halten Sie die lync-Anwendung, und wählen Sie dann **deinstallieren**aus.
+2.  Tippen Sie auf die Lync-Anwendung, und halten Sie den Finger gedrückt, und wählen Sie **Deinstallieren** aus.
 
 </div>
 

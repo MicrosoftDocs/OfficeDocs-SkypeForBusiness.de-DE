@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Grundlegendes zu AutoErmittlung'
+title: 'Lync Server 2013: Understanding AutoErmittlung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9d885654f9222ce3d3e9fb7b03e9b388f0ca0a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f57dd0158f4a9b6c798d1b968353e5f84b55d46e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744825"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046108"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="understanding-autodiscover-in-lync-server-2013"></a>Grundlegendes zu AutoErmittlung in lync Server 2013
+# <a name="understanding-autodiscover-in-lync-server-2013"></a>Grundlegendes zur AutoErmittlung in lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41744825"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-06-03_
+_**Letztes Änderungsstand des Themas:** 2013-06-03_
 
-Der lync Server 2013-AutoErmittlungsdienst ist ein Feature, das ursprünglich in Microsoft lync Server 2010 als Teil des kumulativen Updates für lync Server 2010: November 2011 eingeführt wurde. Dieses kumulative Update hat nicht nur Korrekturen, sondern auch Unterstützung für lync Mobile-und lync 2013-Clients bereitgestellt.
+Der lync Server 2013 AutoErmittlungsdienst ist ein Feature, das ursprünglich in Microsoft lync Server 2010 als Teil des kumulativen Updates für lync Server 2010: November 2011 eingeführt wurde. Dieses kumulative Update hat zusätzlich zu Korrekturen Unterstützung für lync Mobile und lync 2013 Clients bereitgestellt.
 
-In lync Server 2013 ist der AutoErmittlungsdienst ein integraler Bestandteil des Vorgangs externer und interner mobiler Clients, und die AutoErmittlung wird auch auf neue Clients ausgedehnt, wie etwa die kürzlich eingeführte lync Windows Store-App für Windows 8. Die AutoErmittlung wird auch von den lync 2013-Desktop Clients verwendet. AutoErmittlung wird in lync Server durch die erforderlichen DNS-Einträge (Domain Name System) **lyncdiscover\< . Domäne\> ** und **lyncdiscoverinternal.\< Domäne\>** aus. Darüber hinaus bevorzugen neuere Versionen des lync 2010-und lync 2013-Desktop Clients die AutoErmittlung über die DNS-SRV-Einträge (Domain Name System), wobei nur DNS-SRV-Einträge verwendet werden, wenn lyncdiscover. \<Domäne\> oder lyncdiscoverinternal. \<die\> Domäne reagiert nicht oder wird nicht aufgelöst. Die lync Windows Store-App für Windows 8 und lync Mobile verwendet die AutoErmittlung ausschließlich und bezieht sich nicht auf die herkömmlichen DNS-SRV-Einträge.
+In lync Server 2013 ist der AutoErmittlungsdienst ein integraler Bestandteil des Betriebs externer und interner mobiler Clients, und die AutoErmittlung wird auch auf neue Clients ausgedehnt, beispielsweise auf die kürzlich eingeführte lync Windows Store-App für Windows 8. Die AutoErmittlung wird auch von den lync 2013-Desktop Clients verwendet. Die AutoErmittlung wird in lync Server durch die erforderlichen DNS-Einträge (Domain Name System) **lyncdiscover erkannt.\< Domäne\> ** und **"lyncdiscoverinternal".\< Domäne\>**. Darüber hinaus bevorzugen neuere Versionen der lync 2010 und lync 2013 Desktop Clients die AutoErmittlung über die DNS-SRV-Einträge (Domain Name System), wobei DNS-SRV-Einträge nur bei lyncdiscover verwendet werden. \<Domäne\> oder "lyncdiscoverinternal". \<die\> Domäne reagiert nicht oder wird nicht aufgelöst. Die lync Windows Store-App für Windows 8 und lync Mobile verwendet die AutoErmittlung ausschließlich und bezieht sich nicht auf die herkömmlichen DNS-SRV-Einträge.
 
-In lync Server 2013 wird die AutoErmittlung erweitert, um dem Client zu kommunizieren, welche Elemente, Features und Kommunikationsmethoden dem Client zur Verfügung stehen. Die Informationen werden über eine Anforderung kommuniziert, die vom Client gesendet wird, und die lync Server-Webdienste antwortet mit einer klar definierten Antwort, mit der der Name der für den Client verfügbaren Namen benannt wird, und wie Sie diese Features im Format der AutoErmittlung kontaktieren können. Antwortdokument.
+In lync Server 2013 wird die AutoErmittlung erweitert, um dem Client mitzuteilen, welche Elemente, Features und Kommunikationsmethoden dem Client zur Verfügung stehen. Die Informationen werden über eine vom Client gesendete Anforderung kommuniziert, und die lync Server-Webdienste antwortet mit einer klar definierten Antwort, die den Namen für den Client bereitstellt, und wie diese Features im Format der AutoErmittlung kontaktiert werden. Antwortdokument.
 
-Die beste Methode, um das Antwortdokument für die AutoErmittlung zu verstehen, einschließlich der Art und Weise, wie die Webdienste Features an Clients über dieses Dokument übermitteln, besteht darin, jede Zeile in einer typischen Antwort des lync Web Service-Antwortdokuments für die automatische Erkennung zu analysieren und zu definieren.
+Die beste Möglichkeit zum Verständnis des Antwortdokuments für die AutoErmittlung, einschließlich der Kommunikation der Webdienste mit Clients über dieses Dokument, besteht darin, die einzelnen Leitungen in einer typischen Antwort aus dem lync-Webdienst-Antwortdokument für die automatische Erkennung zu analysieren und zu definieren.
 
 <div class="">
 
 
 > [!NOTE]  
-> In den Details, die Folgen, hat sich der Benutzer bereits auf dem Stammserver authentifiziert, indem er auf eine Authentifizierungsanforderung reagiert.
+> In den folgenden Details hat sich der Benutzer bereits beim Stammserver authentifiziert, indem er auf eine Authentifizierungsanforderung antwortet.
 
 
 
@@ -59,7 +59,7 @@ Die beste Methode, um das Antwortdokument für die AutoErmittlung zu verstehen, 
 
 
 > [!NOTE]  
-> Der lync-Auto Ermittlungs-Webdienst ist in den <STRONG>Microsoft Office-Protokollen</STRONG> im Abschnitt <STRONG>Open Specifications</STRONG> der <STRONG>Microsoft Developer Network</STRONG> (MSDN)-Bibliothek definiert. Ausführliche Informationen finden Sie im vollständigen Spezifikationsdokument "lync autodiscover Web Service Protocol" unter <A href="http://go.microsoft.com/fwlink/?linkid=273839">http://go.microsoft.com/fwlink/?LinkId=273839</A>:. Details zur Authentifizierung finden Sie unter "OC Authentication Web Service Protocol" unter <A href="http://go.microsoft.com/fwlink/?linkid=279015">http://go.microsoft.com/fwlink/?LinkId=279015</A>.
+> Der lync autodiscover-Webdienst ist in den <STRONG>Microsoft Office-Protokollen</STRONG> im Abschnitt <STRONG>Open Specifications</STRONG> der MSDN-Bibliothek ( <STRONG>Microsoft Developer Network</STRONG> ) definiert. Ausführliche Informationen finden Sie im vollständigen Spezifikationsdokument "lync autodiscover-Webdienstprotokoll" unter <A href="http://go.microsoft.com/fwlink/?linkid=273839">http://go.microsoft.com/fwlink/?LinkId=273839</A>:. Ausführliche Informationen zur Authentifizierung finden Sie unter "OC Authentication-Webdienstprotokoll" <A href="http://go.microsoft.com/fwlink/?linkid=279015">http://go.microsoft.com/fwlink/?LinkId=279015</A>unter.
 
 
 
@@ -67,11 +67,11 @@ Die beste Methode, um das Antwortdokument für die AutoErmittlung zu verstehen, 
 
 <div>
 
-## <a name="the-lync-server-web-service-autodiscover-response"></a>Die Antwort auf die AutoErmittlung des lync Server-Webdiensts
+## <a name="the-lync-server-web-service-autodiscover-response"></a>Die Antwort des lync Server-Webdienst-AutoErmittlungsdiensts
 
-Die Antwort, die beim Senden der Auto Ermittlungsanforderung zurückgegeben wird, ist für einen internen oder externen Client identisch. Einige Parameter, die Standort abhängig sind, können sich ändern. Wenn eine Clientanforderung empfangen wird, der tatsächliche Pool aber nicht mit der Kontaktperson ist, wird der Benutzerpool für diesen Benutzer festgesetzt. Ein Kollege, dessen Benutzerkonto sich in einem anderen Pool befindet, sich aber vom gleichen Office aus anmeldet, würde eine etwas andere Antwort erhalten. Die Antwort gibt den richtigen Front-End-Server oder Front-End-Pool für diesen Benutzer an.
+Die beim Senden der Auto Ermittlungsanforderung zurückgegebene Antwort ist für einen internen oder externen Client identisch. Einige Parameter, die Standort fähig sind, können sich ändern. Wenn eine Clientanforderung empfangen wird, der tatsächliche Pool jedoch nicht mit dem Kontakt aufgenommen wurde, wird der Home-Pool des Benutzers für diesen Benutzer festgelegt. Ein Kollege, dessen Benutzerkonto sich in einem anderen Pool befindet, sich aber vom gleichen Büro aus einloggt, würde eine etwas andere Antwort erhalten. Die Antwort gibt die richtige Front-End-Server oder Front-End-Pool für diesen Benutzer an.
 
-Ein Beispiel für ein Antwortdokument für die AutoErmittlung:
+Ein Beispiel für ein Auto Ermittlungs Antwortdokument:
 
     <AutodiscoverResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AccessLocation="External">
        <User>
@@ -99,13 +99,13 @@ Ein Beispiel für ein Antwortdokument für die AutoErmittlung:
 
 <div>
 
-## <a name="autodiscover-response-document-details"></a>Details des Auto Ermittlungs Antwortdokuments
+## <a name="autodiscover-response-document-details"></a>Details zum Auto Ermittlungs Antwort-Dokument
 
-Das Antwortdokument für die AutoErmittlung kann in einem von zwei Formaten vorliegen. Das Standardformat ist eine JSON (JavaScript Object Notation). Das andere Format ist das XML-Dokument (Extensible Markup Language). Der XML-Code wird für dieses Beispiel verwendet. Die Anforderung und Antwort sind vorhersehbar, da das Dokument über ein definiertes Schema verfügt, das das Format bestimmt. Die Zeile im Dokument, die das verwendete Schema beschreibt, ist die erste Zeile in der Anforderung oder Antwort:
+Das Antwortdokument der AutoErmittlung kann in einem von zwei Formaten vorliegen. Das Standardformat ist ein JavaScript Object Notation (JSON). Das andere Format ist XML-Dokument (Extensible Markup Language). In diesem Beispiel wird der XML-Code verwendet. Die Anforderung und die Antwort sind vorhersehbar, da das Dokument über ein definiertes Schema verfügt, das das Format bestimmt. Die im Dokument beschriebene Textfolge, die das verwendete Schema beschreibt, ist die erste in der Anforderung oder Antwort:
 
     <AutodiscoverResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AccessLocation="External">
 
-Die Definition von **Zugriffsort = "extern"** gibt an, dass die Anforderung von einem externen Benutzer vorgenommen wurde.
+Die Definition von **Zugriffsort = "extern"** gibt an, dass die Anforderung von einem externen Benutzer gestellt wurde.
 
     <SipServerInternalAccess fqdn="pool01.contoso.com" port="5061"/>
 
@@ -113,7 +113,7 @@ Die Definition von **Zugriffsort = "extern"** gibt an, dass die Anforderung von 
 
     <SipServerExternalAccess fqdn="sip.contoso.com" port="5061"/>
 
-SipServerInternalAccess und SipServerExternalAccess werden zurzeit nicht verwendet. Diese Einträge sind für die spätere Verwendung reserviert.
+SipServerInternalAccess und SipServerExternalAccess werden derzeit nicht verwendet. Diese Einträge sind für die zukünftige Verwendung reserviert.
 
     <SipClientInternalAccess fqdn=" pool01.contoso.com" port="443"/>
 
@@ -121,7 +121,7 @@ SipServerInternalAccess und SipServerExternalAccess werden zurzeit nicht verwend
 
     <SipClientExternalAccess fqdn="sip.contoso.com " port="443"/>
 
-SipClientInternalAccess und SipClientExternalAccess beschreiben den vollqualifizierten Domänennamen und-Port, den ein interner oder externer Client für den Zugriff auf den festgelegten SIP-Server verwendet. Der lync-Desktop Client und die lync Windows Store-App verwenden diese Einträge basierend auf Ihrem Standort (intern oder extern), um den Director oder Front-End-Server zu finden.
+SipClientInternalAccess und SipClientExternalAccess beschreiben den vollqualifizierten Domänennamen und den Port, der von einem internen oder externen Client für den Zugriff auf den definierten SIP-Server verwendet wird. Der lync-Desktop Client und die lync Windows Store-App verwenden diese Einträge basierend auf Ihrem Standort (intern oder extern), um den Director oder Front-End-Server zu finden.
 
     <Link token="Internal/Autodiscover" href="https://webinternal.contoso.net/Autodiscover/AutodiscoverService.svc/root"/>
 
@@ -129,7 +129,7 @@ SipClientInternalAccess und SipClientExternalAccess beschreiben den vollqualifiz
 
     <Link token ="External/Autodiscover" href="https://webexternal.contoso.com/Autodiscover/AutodiscoverService.svc/root"/>
 
-Die `Autodiscover` Verweise enthalten die Dienst Einstiegspunkte für den AutoErmittlungsdienst. Das Token-Attribut enthält den Namen des Diensts, und die href-Eigenschaft ist eine URL, die für den Client definiert, in dem der Dienst gefunden werden kann. Clients in einem externen Netzwerk verwenden `External/Autodiscover`. Der AutoErmittlungsdienst wird als Teil des Bereitstellungsprozesses installiert. `Internal/Autodiscover`wird derzeit nicht verwendet und ist für die spätere Verwendung reserviert.
+Die `Autodiscover` Verweise enthalten die Dienst Einstiegspunkte für den AutoErmittlungsdienst. Das Token-Attribut enthält den Namen des Diensts, und der href ist eine URL, die für den Client definiert, in dem der Dienst gefunden werden kann. Clients in einem externen Netzwerk verwenden die `External/Autodiscover`. Der AutoErmittlungsdienst wird als Teil des Bereitstellungsprozesses installiert. `Internal/Autodiscover`wird derzeit nicht verwendet und ist für die zukünftige Verwendung reserviert.
 
     <Link token="Internal/AuthBroker" href="https://webinternal.contoso.net/Reach/sip.svc"/>
 
@@ -137,7 +137,7 @@ Die `Autodiscover` Verweise enthalten die Dienst Einstiegspunkte für den AutoEr
 
     <Link token="External/AuthBroker" href="https://webexternal.contoso.com/Reach/sip.svc"/>
 
-Die `AuthBroker` Verweise enthalten die Dienst Einstiegspunkte für den internen und den externen Authentifizierungsbroker Dienst, in diesem Fall SIP. svc. Das Token-Attribut enthält den Namen des Diensts, und die href-Eigenschaft ist eine URL, die für den Client definiert, in dem der Dienst gefunden werden kann. Clients im internen Netzwerk mit Verwendung `Internal/AuthBroker`. Clients in einem externen Netzwerk verwenden `External/AuthBroker`. Der AuthBroker-Dienst wird als Teil des Bereitstellungsprozesses ihrer internen lync Server 2013-Bereitstellungs Webdienste installiert.
+Die `AuthBroker` Verweise enthalten die Dienst Einstiegspunkte für den internen und den externen Authentifizierungsbroker-Dienst, in diesem Fall "SIP. svc". Das Token-Attribut enthält den Namen des Diensts, und der href ist eine URL, die für den Client definiert, in dem der Dienst gefunden werden kann. Clients im internen Netzwerk werden mit verwendet `Internal/AuthBroker`. Clients in einem externen Netzwerk verwenden die `External/AuthBroker`. Der AuthBroker-Dienst wird als Teil des Bereitstellungsprozesses ihrer internen lync Server 2013-Bereitstellungs-Webdienste installiert.
 
     <Link token="Internal/WebScheduler" href="https://webinternal.contoso.net/Scheduler"/>
 
@@ -145,7 +145,7 @@ Die `AuthBroker` Verweise enthalten die Dienst Einstiegspunkte für den internen
 
     <Link token="External/WebScheduler" href="https://webexternal.contoso.com/Scheduler"/>
 
-Das `WebScheduler` Token verweist auf die URLs für den Clientzugriff auf die webbasierte Planung für lync Server-Konferenzen. Derzeit wird nur die `External/WebScheduler` verwendet. Der Webplaner wird im Rahmen des Bereitstellungsprozesses ihrer internen lync Server 2013-Bereitstellungs Webdienste installiert.
+Das `WebScheduler` Token verweist auf die URLs für den Clientzugriff auf die webbasierte Planung für lync Server Konferenzen. Derzeit wird nur der `External/WebScheduler` verwendet. Der WebScheduler wird als Teil des Bereitstellungsprozesses ihrer internen lync Server 2013-Bereitstellungs-Webdienste installiert.
 
     <Link token="Internal/Mcx" href="https://webexternal.contoso.net/Mcx/McxService.svc"/>
 
@@ -153,7 +153,7 @@ Das `WebScheduler` Token verweist auf die URLs für den Clientzugriff auf die we
 
     <Link token="External/Mcx" href="https://webexternal.contoso.com/Mcx/McxService.svc"/>
 
-`Internal/Mcx`und `External/Mcx` sind die Speicherorte der Mobilitätsdienste, die im kumulativen Update für lync Server 2010: November 2011 eingeführt wurden. Diese Verweise werden weiterhin von lync 2010 Mobile auf allen unterstützten Geräten verwendet. Der MCX-Dienst wird als Teil des Bereitstellungsprozesses ihrer internen lync Server 2013-Bereitstellungs Webdienste installiert.
+`Internal/Mcx`und `External/Mcx` sind die Speicherorte der Mobilitätsdienste, die im kumulativen Update für lync Server 2010 eingeführt wurden: November 2011. Diese Verweise werden weiterhin von lync 2010 Mobile auf allen unterstützten Geräten verwendet. Der MCX-Dienst wird als Teil des Bereitstellungsprozesses ihrer internen lync Server 2013-Bereitstellungs-Webdienste installiert.
 
     <Link token="Internal/Ucwa" href="https://webinternal.contoso.net/ucwa/v1/applications"/>
 
@@ -165,7 +165,7 @@ Das `WebScheduler` Token verweist auf die URLs für den Clientzugriff auf die we
 
     <Link token="Ucwa" href="https://webexternal.contoso.com/ucwa/v1/applications"/>
 
-**Internal/Ucwa**, **External/Ucwa** und **Ucwa** bieten Clients einen Mittel für den Zugriff auf die Unified Communications Web Application-Programmierschnittstelle (Ucwa-API oder einfach Ucwa). `Internal/Ucwa`und `External/Ucwa` virtuelle Verzeichnisse sind Zugriffspunkte, die für zukünftige Funktionserweiterungen reserviert sind und nicht verwendet werden. Das `Ucwa` virtuelle Verzeichnis wird für Microsoft lync Mobile (eingeführt mit lync Server 2013) auf allen unterstützten Geräten verwendet. Der UCWA-Dienst wird als Teil des Bereitstellungsprozesses ihrer internen lync Server 2013-Bereitstellungs Webdienste installiert.
+**Interne/Ucwa**, **External/Ucwa** und **Ucwa** bieten Clients einen Mittel für den Zugriff auf die Unified Communications-Webanwendungs-Programmierschnittstelle (Ucwa-API oder einfach Ucwa). `Internal/Ucwa`und `External/Ucwa` virtuelle Verzeichnisse sind Zugriffspunkte, die für die zukünftige Funktionserweiterung reserviert sind und nicht verwendet werden. Das `Ucwa` virtuelle Verzeichnis wird für Microsoft lync Mobile (mit lync Server 2013 eingeführt) auf allen unterstützten Geräten verwendet. Der UCWA-Dienst wird als Teil des Bereitstellungsprozesses ihrer internen lync Server 2013-Bereitstellungs-Webdienste installiert.
 
     <Link token="Internal/XFrame" href="https://webinternal.contoso.net/Autodiscover/XFrame/XFrame.html"/>
 
@@ -177,11 +177,11 @@ Das `WebScheduler` Token verweist auf die URLs für den Clientzugriff auf die we
 
     <Link token="XFrame" href="https://webexternal.contoso.com/Autodiscover/XFrame/XFrame.html"/>
 
-`Internal/XFrame`, **External/Xframe** und **Xframe** bieten Zugriff auf UCWA-basierte Serveranwendungen. Xframe wird als Teil des Bereitstellungsprozesses ihrer internen lync Server 2013-Bereitstellungs Webdienste installiert.
+`Internal/XFrame`, **External/Xframe** und **Xframe** bieten Zugriff für UCWA-basierte Serveranwendungen. Xframe wird als Teil des Bereitstellungsprozesses ihrer internen lync Server 2013-Bereitstellungs-Webdienste installiert.
 
     <Link token="Self" href="https://webexternal.contoso.net/Autodiscover/AutodiscoverService.svc/root/user"/>
 
-Das `Self` Token bezieht sich auf spezifische Informationen für den Client (Benutzer Antworttyp), der die Anforderung vornimmt. Der Client, der diese Anforderung gestellt hat, war extern, und dieser autodiscover-Verweis bezieht sich auf den Benutzer Teil des AutoErmittlungsdiensts.
+Das `Self` Token bezieht sich auf spezifische Informationen für den Client (Benutzer Antworttyp), der die Anforderung macht. Der Client, der diese Anforderung gestellt hat, war extern, und dieser Verweis auf die AutoErmittlung bezieht sich auf den Benutzer Teil des AutoErmittlungsdiensts.
 
 </div>
 
@@ -192,7 +192,7 @@ Das `Self` Token bezieht sich auf spezifische Informationen für den Client (Ben
 ## <a name="see-also"></a>Siehe auch
 
 
-[Systemanforderungen für Komponenten für den Zugriff durch externe Benutzer für Lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md)  
+[System Anforderungen für Komponenten für den Zugriff durch externe Benutzer für lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md)  
 [Planen der AutoErmittlung in lync Server 2013](lync-server-2013-planning-for-autodiscover.md)  
   
 

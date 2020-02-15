@@ -1,5 +1,5 @@
 ---
-title: Aktivieren von Benutzern für Enterprise-VoIP und für Telefonsystem in Office 365 Voicemail
+title: Aktivieren von Benutzern für Enterprise-VoIP-Online und Telefon System in Office 365 Voicemail
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,47 +18,47 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: Erfahren Sie, wie Sie das Telefon System in Office 365 Voice Services für Ihre Skype for Business-Benutzer aktivieren.
-ms.openlocfilehash: f4fdd2a9a3da58f6804fa65acf96ba2b8fac682e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: In diesem Artikel erfahren Sie, wie Sie das Telefon System in Office 365 VoIP-Dienste für Ihre Skype for Business-Benutzer aktivieren.
+ms.openlocfilehash: ae1443fa0f0725b6cbbe722703f24af02139c12d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802205"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050197"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Aktivieren von Benutzern für Enterprise-VoIP und für Telefonsystem in Office 365 Voicemail
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Aktivieren von Benutzern für Enterprise-VoIP-Online und Telefon System in Office 365 Voicemail
  
-Erfahren Sie, wie Sie das Telefon System in Office 365 Voice Services für Ihre Skype for Business-Benutzer aktivieren.
+In diesem Artikel erfahren Sie, wie Sie das Telefon System in Office 365 VoIP-Dienste für Ihre Skype for Business-Benutzer aktivieren.
   
-Der letzte Schritt beim Bereitstellen von Telefonsystem in Office 365 mit lokalen PSTN-Konnektivität besteht darin, Ihre Benutzer für das Telefonsystem in Office 365 und Voicemail zu aktivieren. Um diese Funktionen aktivieren zu können, muss Ihnen als Benutzer in Office 365 die globale Administratorrolle zugewiesen sein, und Sie müssen in der Lage sein, Remote-PowerShell auszuführen. Sie müssen die Schritte in diesem Abschnitt für alle Benutzerkonten ausführen, für die Enterprise-VoIP für Skype for Business Online noch nicht aktiviert ist.
+Der letzte Schritt bei der Bereitstellung von Telefonsystem in Office 365 mit lokaler PSTN-Konnektivität besteht darin, Ihre Benutzer für das Telefonsystem in Office 365 und Voicemail zu aktivieren. Um diese Funktionen zu aktivieren, müssen Sie ein Benutzer mit der Rolle Office 365 globalen Administrators sein und Remote-PowerShell ausführen können. Sie müssen die Schritte in diesem Thema für alle Benutzerkonten ausführen, für die Enterprise-VoIP für Skype for Business Online noch nicht aktiviert ist.
   
-## <a name="enable-phone-system-in-office-365-voice-services"></a>Aktivieren des Telefonsystems in Office 365 Voice Services
+## <a name="enable-phone-system-in-office-365-voice-services"></a>Aktivieren des Telefonsystems in Office 365 VoIP-Diensten
 
-Wenn Sie einen Benutzer für das Telefon System in Office 365 Voice und Voicemail aktivieren möchten, müssen Sie einige erste Schritte ausführen, beispielsweise überprüfen, ob der Skype for Business Online-Connector auf Ihren Servern bereitgestellt wird, und Ihre Benutzer für die gehostete Voicemail aktivieren.
+Wenn Sie einen Benutzer für das Telefon System in Office 365 Voice und Voicemail aktivieren möchten, müssen Sie einige anfängliche Schritte ausführen, um zu überprüfen, ob der Skype for Business Online-Connector auf Ihren Servern bereitgestellt wurde, und Ihre Benutzer für gehostete Voicemails zu aktivieren.
   
 ### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>So aktivieren Sie Ihre Benutzer für das Telefon System in Office 365 Voice und Voicemail
 
-1. Bevor Sie beginnen, überprüfen Sie, ob der Skype for Business Online Connector (Windows PowerShell-Modul) auf Ihren Front-End-Servern bereitgestellt wird. Wenn dies nicht der Fall ist, können Sie Sie aus [dem Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=39366)herunterladen. Weitere Informationen zur Verwendung dieses Moduls finden Sie unter [Konfigurieren Ihres Computers für die Skype for Business Online-Verwaltung](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
+1. Bevor Sie beginnen, sollten Sie sicherstellen, dass der Skype for Business Online Connector (Windows PowerShell-Modul) auf Ihren Front-End-Servern bereitgestellt wird. Wenn dies nicht der Fall ist, können Sie es aus [dem Download Center](https://www.microsoft.com/download/details.aspx?id=39366)herunterladen. Weitere Informationen zur Verwendung dieses Moduls finden Sie unter [Konfigurieren Ihres Computers für Skype for Business Online Verwaltung](https://technet.microsoft.com/library/dn362839%28v=ocs.15%29.aspx).
     
-2. Starten von Windows PowerShell als Administrator
+2. Starten Sie Windows PowerShell als Administrator.
     
-3. Machen Sie folgende Eingabe und drücken Sie die EINGABETASTE:
+3. Geben Sie Folgendes ein, und drücken Sie die EINGABETASTE:
     
    ```powershell
    Import-Module skypeonlineconnector
    ```
 
-4. Machen Sie folgende Eingabe und drücken Sie die EINGABETASTE:
+4. Geben Sie Folgendes ein, und drücken Sie die EINGABETASTE:
     
    ```powershell
    $cred = Get-Credential
    ```
 
-    Nachdem Sie die EINGABETASTE gedrückt haben, sollte das Windows PowerShell-Dialogfeld für die Eingabe von Anmeldeinformationen angezeigt werden.
+    Nachdem Sie die EINGABETASTE gedrückt haben, sollte das Dialogfeld Windows PowerShell Anmeldeinformationen angezeigt werden.
     
-5. Geben Sie Ihren Mandantenadministrator-Benutzernamen und Ihr Kennwort ein und klicken Sie dann auf **OK**.
+5. Geben Sie den Benutzernamen und das Kennwort Ihres Mandanten Administrators ein, und klicken Sie auf **OK**.
     
-6. Machen Sie folgende Eingaben im PowerShell-Fenster und drücken Sie anschließend die EINGABETASTE:
+6. Geben Sie im PowerShell-Fenster Folgendes ein, und drücken Sie die EINGABETASTE:
     
    ```powershell
    $Session = New-CsOnlineSession -Credential $cred -Verbose
@@ -70,9 +70,9 @@ Wenn Sie einen Benutzer für das Telefon System in Office 365 Voice und Voicemai
    Import-PSSession $Session -AllowClobber
    ```
 
-    Wenn PowerShell auf einem Skype for Business-Server ausgeführt wird, sind die lokalen Cmdlets für Skype for Business bereits geladen, wenn Sie PowerShell öffnen. Sie müssen den-AllowClobber-Parameter angeben, damit die Online-Cmdlets die lokalen Cmdlets mit demselben Namen überschreiben können.
+    Beim Ausführen von PowerShell auf einem Skype for Business Server werden die lokalen Skype for Business-Cmdlets bereits geladen, wenn Sie PowerShell öffnen. Sie müssen den Parameter-AllowClobber angeben, damit die Online-Cmdlets die lokalen Cmdlets mit dem gleichen Namen überschreiben können.
     
-8. Verwenden Sie das Cmdlet „Set-CsUser“ wie folgt, um Ihrem Benutzer die Eigenschaften „$EnterpriseVoiceEnabled“ und „$HostedVoiceMail“ zuzuweisen:
+8. Verwenden Sie das Cmdlet "CsUser", um dem Benutzer die Eigenschaften $EnterpriseVoiceEnabled und $HostedVoiceMail wie folgt zuzuweisen:
     
    ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -85,96 +85,96 @@ Wenn Sie einen Benutzer für das Telefon System in Office 365 Voice und Voicemai
    ```
 
     > [!NOTE]
-    > Sie können einen Benutzer genauso über seine SIP-Adresse, den Benutzerprinzipalnamen (UPN), den Domänennamen (Domäne\Benutzername) und den Displaynamen in Active Directory („Bob Kelly“) kenntlich machen. 
+    > Sie können einen Benutzer auch über seine SIP-Adresse, den Benutzerprinzipalnamen (User Principal Name, UPN), den Domänennamen und den Benutzernamen (Domäne \ Benutzername) und den Anzeigenamen in Active Directory ("Bob Kelly") angeben. 
   
-## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a>Aktualisieren des Leitungs-URIs und des Wählplans für Benutzer, die für das Telefon System in Office 365 aktiviert sind
+## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a>Aktualisieren Sie den Anschluss-URI und die Wähleinstellungen für Benutzer, die für das Telefon System in Office 365 aktiviert sind.
 
-In diesem Abschnitt wird beschrieben, wie Sie den Zeilen-URI und den Wählplan für für Telefonsysteme aktivierte Benutzer in Office 365 aktualisieren. 
+In diesem Abschnitt wird beschrieben, wie Sie den Leitungs-URI und die Wähleinstellungen für für Telefonsysteme aktivierte Benutzer in Office 365 aktualisieren. 
   
-### <a name="to-update-the-line-uri"></a>So aktualisieren Sie die Anschluss-URI
+### <a name="to-update-the-line-uri"></a>So aktualisieren Sie den Anschluss-URI
 
-1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2. Benutzen Sie das Startmenü oder die Verknüpfung auf dem Desktop, um die Systemsteuerung von Skype for Business Server zu öffnen.
+2. Verwenden Sie das Startmenü oder die Verknüpfung auf dem Desktop, um die Skype for Business Server-Systemsteuerung zu öffnen.
     
     > [!NOTE]
-    > Alternativ können Sie ein Browserfenster öffnen und dort die Admin-URL eingeben, um zur Systemsteuerung von Skype for Business Server zu gelangen. 
+    > Sie können auch ein Browserfenster öffnen und die Administrator-URL eingeben, um die Skype for Business Server-Systemsteuerung zu öffnen. 
   
 3. Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
     
-4. Geben Sie im Feld **Benutzer suchen** einen Teil oder den vollständigen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos ein, das aktiviert werden soll und klicken Sie dann auf **Suchen**.
+4. Geben Sie im Feld **Benutzer suchen** einen Teil oder den vollständigen Anzeigenamen, Vornamen, Nachnamen, SAM-Kontonamen (Security Accounts Manager), die SIP-Adresse oder den Anschluss-URI (Uniform Resource Identifier) des Benutzerkontos ein, das aktiviert werden soll, und klicken Sie dann auf **Suchen**.
     
-5. Klicken Sie in der Tabelle auf das Skype for Business-Benutzerkonto, dessen Anschluss-URI Sie ändern möchten.
+5. Klicken Sie in der Tabelle auf das Skype for Business Benutzerkonto, für das Sie den Anschluss-URI ändern möchten.
     
-6. Klicken Sie auf **Anschluss-URI** und geben Sie eine eindeutige, normalisierte Telefonnummer ein (z. B. Tel:+14255550200). Klicken Sie dann auf **Commit ausführen**.
+6. Klicken Sie auf **Leitungs-URI**, und geben Sie eine eindeutige, normalisierte Telefonnummer ein (beispielsweise Tel: + 14255550200). Klicken Sie dann auf **Commit**.
     
-## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>Aktualisieren des Wählplans mithilfe lokaler Windows PowerShell-Cmdlets
+## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>Aktualisieren der Wähleinstellungen mithilfe von lokalen Windows PowerShell-Cmdlets
 
-Sie können Wählpläne für einzelne Benutzer mit Windows PowerShell und dem Cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) zuweisen. Sie können dieses Cmdlet entweder über den Skype for Business Server 2015 oder über eine Remotesitzung von Windows PowerShell ausführen.
+Sie können benutzerspezifische Wählpläne mit Windows PowerShell und dem Cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) zuweisen. Sie können dieses Cmdlet entweder im Skype for Business Server 2015 oder in einer Remotesitzung von Windows PowerShell ausführen.
   
-### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer einen benutzerbasierten Wählplan zu
+### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer einen Wählplan pro Benutzer zu
 
-- Verwenden Sie das Cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) , um dem Benutzer Ken Myers den benutzerseitigen Wähl Plan redmonddialplan "zuzuweisen:
+- Verwenden Sie das [Grant-CsDialPlan-](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) Cmdlet, um den benutzerseitigen Wählplan "redmonddialplan" dem Benutzer Ken Myers zuzuweisen:
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName "RedmondDialPlan"
   ```
 
-### <a name="to-assign-a-per-user-dial-plan-to-multiple-users"></a>So weisen Sie mehreren Benutzern einen benutzerbasierten Wählplan zu
+### <a name="to-assign-a-per-user-dial-plan-to-multiple-users"></a>So weisen Sie mehreren Benutzern einen Wählplan pro Benutzer zu
 
-- Mit dem folgenden Befehl wird der benutzerbasierte Wählplan „RedmondDialPlan“ allen Benutzern zugewiesen, die in Redmond arbeiten. Weitere Informationen zu dem in diesem Befehl verwendeten LdapFilter-Parameter finden Sie in der Dokumentation für das Cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) :
+- Mit dem folgenden Befehl wird der benutzerspezifische Wählplan "redmonddialplan" allen Benutzern zugewiesen, die in der Stadt Redmond arbeiten. Weitere Informationen zum LdapFilter-Parameter, der in diesem Befehl verwendet wird, finden Sie in der Dokumentation zum Cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) :
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
   ```
 
 > [!NOTE]
-> Möglicherweise verwenden Sie entweder globale oder Benutzerwähleinstellungen für Onlinebenutzer. Standortwählpläne können nicht verwendet werden, weil sie nur für Benutzer gelten, die lokal verwaltet werden und einem lokalen Standort zugewiesen sind. 
+> Sie können entweder globale oder Benutzer-Wählpläne für Online-Benutzer verwenden. Website Wähl Pläne können nicht verwendet werden, da diese nur für Benutzer gelten, die lokal gehostet werden und einem lokalen Standort zugewiesen sind. 
   
-### <a name="to-unassign-a-per-user-dial-plan"></a>So heben Sie die Zuweisung eines benutzerbasierten Wählplans auf
+### <a name="to-unassign-a-per-user-dial-plan"></a>So heben Sie die Zuweisung von benutzerbezogenen Wähleinstellungen auf
 
-- Verwenden Sie das Cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) , um die Zuweisung von benutzerseitigen Wählplänen aufzuheben, die Ken Myers zuvor zugewiesen wurden. Nachdem die Zuweisung des benutzerbezogenen Wählplans aufgehoben wurde, wird „Ken Myer“ automatisch mithilfe des globalen Wählplans oder des Wählplans auf Dienstebene für seine erweiterte Registrierungsstelle oder sein PSTN-Gateway verwaltet. Ein Wählplan auf Dienstebene hat Vorrang vor dem globalen Wählplan.
+- Verwenden Sie das [Grant-CsDialPlan-](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) Cmdlet, um die Zuweisung aller benutzerbezogenen Wähleinstellungen aufzuheben, die Ken Myers zuvor zugewiesen wurden. Nachdem der benutzerbezogene Wählplan nicht zugewiesen wurde, wird Ken Myers automatisch mithilfe der globalen Wähleinstellungen oder des Dienstbereichs Wähl Plans verwaltet, der seiner Registrierungsstelle oder dem PSTN-Gateway zugewiesen ist. Ein Dienstbereich Wähleinstellungen hat Vorrang vor den globalen Wähleinstellungen:
     
   ```powershell
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
   ```
 
-## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>Aktualisieren der Richtlinien für das VoIP-Routing mithilfe von lokalen Windows PowerShell-Cmdlets
+## <a name="update-the-voice-routing-policies-using-on-premises-windows-powershell-cmdlets"></a>Aktualisieren der VoIP-Routing Richtlinien mithilfe von lokalen Windows PowerShell-Cmdlets
 
-In diesem Abschnitt wird beschrieben, wie Sie die VoIP-Routing Richtlinien für Benutzer, die für das Telefon System aktiviert sind, in Office 365 aktualisieren.
+In diesem Abschnitt wird beschrieben, wie Sie die VoIP-Routing Richtlinien für in Office 365 für Telefonsysteme aktivierte Benutzer aktualisieren.
   
-Telefon System in Office 365 Benutzern muss eine VoIP-Routing Richtlinie zugewiesen sein, damit Anrufe erfolgreich weitergeleitet werden können. Das ist anders als bei lokalen Unternehmens-VoIP-Benutzern, denen eine VoIP-Richtlinie zugewiesen sein muss, damit Anrufe erfolgreich weitergeleitet werden können. Die VoIP-Routing Richtlinie sollte PSTN-Nutzungen enthalten, die autorisierte Anrufe und Routen für Telefonsysteme in Office 365-Benutzern definieren. Sie können diese PSTN-Verwendungen aus vorhandenen VoIP-Richtlinien in neue Richtlinien für das VoIP-Routing kopieren. Weitere Informationen finden Sie unter [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Telefon System in Office 365 Benutzern muss eine VoIP-Routing Richtlinie zugewiesen sein, damit Anrufe erfolgreich weitergeleitet werden können. Dies unterscheidet sich von lokalen Business Voice-Benutzern, denen eine VoIP-Richtlinie zugewiesen werden muss, damit Anrufe erfolgreich weitergeleitet werden können. Die VoIP-Routing Richtlinie sollte PSTN-Verwendungen enthalten, die autorisierte Anrufe und Routen für das Telefon System in Office 365 Benutzern definieren. Sie können diese PSTN-Verwendungen aus vorhandenen VoIP-Richtlinien in neue VoIP-Routing Richtlinien kopieren. Weitere Informationen finden Sie unter [New-csvoiceroutingpolicy "](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
-> Alle Telefonsysteme in Office 365 Benutzern wird dieselbe Online-VoIP-Richtlinie mit dem Namen BusinessVoice zugewiesen, in der die zulässigen Anruffunktionen definiert sind. So können Sie beispielsweise Gleichzeitiges Klingeln zulassen. 
+> Alle Telefonsysteme in Office 365 Benutzern wird dieselbe Online Sprachrichtlinie namens BusinessVoice zugewiesen, die die zulässigen Anruffunktionen definiert. lassen Sie beispielsweise gleichzeitigen Ring zu. 
   
-### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine Richtlinie für das VoIP-Routing auf Benutzerebene zu
+### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine VoIP-Routing Richtlinie pro Benutzer zu
 
-- Verwenden Sie das Cmdlet [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) , um dem Benutzer Ken Myers die benutzerspezifische VoIP-Routing Richtlinien-RedmondVoiceRoutingPolicy zuzuweisen:
+- Verwenden Sie das [Grant-csvoiceroutingpolicy "-](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) Cmdlet, um die benutzerbasierte VoIP-Routing Richtlinie" redmondvoiceroutingpolicy "dem Benutzer Ken Myers zuzuweisen:
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
-### <a name="to-assign-a-per-user-voice-routing-policy-to-multiple-users"></a>So weisen Sie mehreren Benutzern eine Richtlinie für das VoIP-Routing auf Benutzerebene zu
+### <a name="to-assign-a-per-user-voice-routing-policy-to-multiple-users"></a>So weisen Sie mehreren Benutzern eine benutzerspezifische VoIP-Routing Richtlinie zu
 
-- Mit dem nächsten Befehl wird die benutzerbasierte Richtlinie „RedmondVoiceRoutingPolicy“ allen Benutzern in der Stadt Redmond zugewiesen. Weitere Informationen zu dem in diesem Befehl verwendeten LdapFilter-Parameter finden Sie unter [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
+- Mit dem folgenden Befehl wird die benutzerspezifische VoIP-Routing Richtlinie "redmondvoiceroutingpolicy" allen Benutzern zugewiesen, die in der Stadt Redmond arbeiten. Weitere Informationen zum LdapFilter-Parameter, der in diesem Befehl verwendet wird, finden Sie unter [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
     
   ```powershell
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsVoiceRoutingPolicy -PolicyName "RedmondVoiceRoutingPolicy"
   ```
 
     > [!NOTE]
-    > Möglicherweise verwenden Sie entweder globale Einstellungen oder Einstellungen für das VoIP-Routing für Onlinebenutzer. Standortrichtlinien für das VoIP-Routing können nicht verwendet werden, weil sie nur für Benutzer gelten, die lokal verwaltet werden und einem lokalen Standort zugewiesen sind. 
+    > Sie können entweder globale oder Benutzer-VoIP-Routing Richtlinien für Online-Benutzer verwenden. Website VoIP-Routing Richtlinien können nicht verwendet werden, da diese nur für Benutzer gelten, die lokal gehostet werden und einem lokalen Standort zugewiesen sind. 
   
-### <a name="to-unassign-a-per-user-voice-routing-policy"></a>So heben Sie die Zuweisung einer Richtlinie für das VoIP-Routing auf Benutzerebene auf
+### <a name="to-unassign-a-per-user-voice-routing-policy"></a>So heben Sie die Zuweisung einer VoIP-Routing Richtlinie pro Benutzer auf
 
-- Verwenden Sie die Grant-CsVoiceRoutingPolicy, um die Zuweisung einer benutzerseitigen VoIP-Routing Richtlinie aufzuheben, die Ken Myers zuvor zugewiesen wurde. Nachdem die Zuweisung der benutzerbezogenen VoIP-Routingrichtlinie aufgehoben ist, wird „Ken Myer“ automatisch über die globale VoIP-Routingrichtlinie verwaltet.
+- Verwenden Sie das Grant-csvoiceroutingpolicy ", um die Zuweisung einer benutzerbasierten VoIP-Routing Richtlinie aufzuheben, die Ken Myers zuvor zugewiesen wurde. Nachdem die Zuweisung der VoIP-Routing Richtlinie pro Benutzer aufgehoben wurde, wird Ken Myers automatisch mithilfe der globalen VoIP-Routing Richtlinie verwaltet.
     
   ```powershell
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-    Weitere Informationen finden Sie unter [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).
+    Weitere Informationen finden Sie unter [Grant-csvoiceroutingpolicy "](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps).
     
 

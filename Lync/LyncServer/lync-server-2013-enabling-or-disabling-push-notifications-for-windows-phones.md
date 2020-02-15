@@ -12,20 +12,20 @@ ms:contentKeyID: 49733767
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d1b4c8f1f86fa1456230ad4695de0f5b8c56d406
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 01a30a7e0effbcd9d80f30bccf68edb9804641f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735630"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048118"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-or-disabling-push-notifications-for-windows-phones-in-lync-server-2013"></a>Aktivieren oder Deaktivieren von Push-Benachrichtigungen für Windows-Telefone in lync Server 2013
+# <a name="enabling-or-disabling-push-notifications-for-windows-phones-in-lync-server-2013"></a>Aktivieren oder Deaktivieren von Push-Benachrichtigungen für Windows Phones in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41735630"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Push-Benachrichtigungen in Form von Signalen, Symbolen oder Benachrichtigungen können auch dann an ein Windows Phone gesendet werden, wenn die Mobile Anwendung inaktiv ist. Push-Benachrichtigungen benachrichtigt einen Benutzer über Ereignisse wie eine neue oder verpasste Chat Einladung und Voicemail. Sie können Push-Benachrichtigungen für Windows Phone-Geräte entweder mithilfe der lync Server 2013-Systemsteuerung oder der lync Server 2013-Verwaltungsshell aktivieren oder deaktivieren.
+Push-Benachrichtigungen in Form von Abzeichen, Symbolen oder Warnungen können an eine Windows Phone gesendet werden, auch wenn die Mobile Anwendung inaktiv ist. Mit Pushbenachrichtigungen werden Benutzer über Ereignisse informiert, beispielsweise neue oder entgangene Chateinladungen oder Voicemail. Sie können Push-Benachrichtigungen für Windows Phone Geräte aktivieren oder deaktivieren, indem Sie entweder lync Server 2013 Systemsteuerung oder lync Server 2013 Management Shell verwenden.
 
 <div>
 
-## <a name="to-enable-push-notifications-for-windows-phone-by-using-lync-server-control-panel"></a>So aktivieren Sie Push-Benachrichtigungen für Windows Phone mithilfe der lync Server-Systemsteuerung
+## <a name="to-enable-push-notifications-for-windows-phone-by-using-lync-server-control-panel"></a>So aktivieren Sie Push-Benachrichtigungen für Windows Phone mithilfe von lync Server-Systemsteuerung
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Schaltfläche Navigations **Benachrichtigungskonfiguration** .
+3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Navigationsschaltfläche **Pushbenachrichtigungskonfiguration**.
 
 4.  Klicken Sie auf der Seite **Konfiguration der Push-Benachrichtigung** auf die Website, die Sie bearbeiten möchten, klicken Sie auf das Menü **Bearbeiten** , und klicken Sie dann auf **Details anzeigen**.
 
-5.  Klicken Sie auf das Kontrollkästchen **Microsoft-Push-Benachrichtigungen aktivieren** .
+5.  Aktivieren Sie das Kontrollkästchen **Microsoft-Pushbenachrichtigungen aktivieren**.
 
 6.  Klicken Sie auf **Commit ausführen**.
 
@@ -59,19 +59,19 @@ Push-Benachrichtigungen in Form von Signalen, Symbolen oder Benachrichtigungen k
 
 <div>
 
-## <a name="to-disable-push-notifications-for-windows-phone-by-using-lync-server-control-panel"></a>So deaktivieren Sie Push-Benachrichtigungen für Windows Phone mithilfe der lync Server-Systemsteuerung
+## <a name="to-disable-push-notifications-for-windows-phone-by-using-lync-server-control-panel"></a>So deaktivieren Sie Push-Benachrichtigungen für Windows Phone mithilfe von lync Server-Systemsteuerung
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Schaltfläche Navigations **Benachrichtigungskonfiguration** .
+3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Navigationsschaltfläche **Pushbenachrichtigungskonfiguration**.
 
 4.  Klicken Sie auf der Seite **Konfiguration der Push-Benachrichtigung** auf die Website, die Sie bearbeiten möchten, klicken Sie auf das Menü **Bearbeiten** , und klicken Sie dann auf **Details anzeigen**.
 
-5.  Deaktivieren Sie das Kontrollkästchen **Microsoft-Push-Benachrichtigungen aktivieren** .
+5.  Deaktivieren Sie das Kontrollkästchen **Microsoft-Pushbenachrichtigungen aktivieren**.
 
-6.  Klicken Sie auf **Commit ausführen**.
+6.  Klicken Sie auf **Commit**.
 
 </div>
 
@@ -79,7 +79,7 @@ Push-Benachrichtigungen in Form von Signalen, Symbolen oder Benachrichtigungen k
 
 ## <a name="enabling-or-disabling-push-notifications-for-windows-phone-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren von Push-Benachrichtigungen für Windows Phone mithilfe von Windows PowerShell-Cmdlets
 
-Sie können Push-Benachrichtigungen für Windows Phone mithilfe des Cmdlets " **festlegen-CsPushNotificationConfiguration** " aktivieren oder deaktivieren. Sie können dieses Cmdlet entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Sie können Push-Benachrichtigungen für Windows Phone aktivieren oder deaktivieren, indem Sie das Cmdlet "Cmdlet **festlegen-CsPushNotificationConfiguration** " verwenden. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
@@ -95,13 +95,13 @@ Sie können Push-Benachrichtigungen für Windows Phone mithilfe des Cmdlets " **
 
 ## <a name="to-disable-push-notifications-for-windows-phone"></a>So deaktivieren Sie Push-Benachrichtigungen für Windows Phone
 
-  - Um Push-Benachrichtigungen für Windows Phone zu deaktivieren, legen Sie den Wert der EnableMicrosoftPushNotificationService-Eigenschaft auf false fest ($false). Beispiel:
+  - Wenn Sie Push-Benachrichtigungen für Windows Phone deaktivieren möchten, legen Sie den Wert der EnableMicrosoftPushNotificationService-Eigenschaft auf false ($false) fest. Beispiel:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableMicrosoftPushNotificationService $False
 
 </div>
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet " [Satz-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPushNotificationConfiguration) ".
+Weitere Informationen dazu finden Sie im Hilfethema für das Cmdlet [Set-CsPushNotificationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPushNotificationConfiguration).
 
 </div>
 
@@ -110,7 +110,7 @@ Weitere Informationen finden Sie im Hilfethema zum Cmdlet " [Satz-CsPushNotifica
 ## <a name="see-also"></a>Siehe auch
 
 
-[Konfigurieren von Pushbenachrichtigungen in Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  
+[Konfigurieren von Push-Benachrichtigungen in lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)  
   
 
 </div>

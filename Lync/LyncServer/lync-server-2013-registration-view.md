@@ -12,16 +12,16 @@ ms:contentKeyID: 49733718
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 120f0cb40bb3401a327e495a460db400a9359891
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a7418c5aa80e35d783517a86626dd2b77a393e1d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746845"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050707"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746845"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
 In der Registrierungs Ansicht werden Informationen zur Benutzerregistrierung gespeichert. Diese Ansicht wurde in lync Server 2013 eingeführt.
 
@@ -56,17 +56,17 @@ In der Registrierungs Ansicht werden Informationen zur Benutzerregistrierung ges
 <tbody>
 <tr class="odd">
 <td><p><strong>SessionID</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>Uhrzeit der Sitzungsanforderung. Wird in Verbindung mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle Dialogfelder in lync Server 2013</a> .</p></td>
+<td><p>Datum/Uhrzeit</p></td>
+<td><p>Zeitpunkt der Sitzungsanforderung. Wird zusammen mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren.. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit SessionID-Mal verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle Dialogfelder in lync Server 2013</a> .</p></td>
+<td><p>ID zur Identifikation der Sitzung. Wird zusammen mit SessionIdTime verwendet, um eine Konferenzinstanz eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Registrierung</strong></p></td>
-<td><p>datetime</p></td>
+<td><p><strong>Registerzeit</strong></p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td><p>Zeitpunkt, zu dem die Registrierung erfolgte.</p></td>
 </tr>
 <tr class="even">
@@ -76,64 +76,64 @@ In der Registrierungs Ansicht werden Informationen zur Benutzerregistrierung ges
 </tr>
 <tr class="odd">
 <td><p><strong>UserUriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Der Typ des URIs des registrierten Benutzers. Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>URI-Typ des registrierten Benutzers. Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserTenant</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Der Mandant des registrierten Benutzers. Weitere Informationen finden Sie <a href="lync-server-2013-tenants-table.md">in der Tabelle Mandanten in lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Mandant des registrierten Benutzers. Weitere Informationen finden Sie <a href="lync-server-2013-tenants-table.md">in der Tabelle Mandanten in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>EndpointId</strong></p></td>
 <td><p>uniqueidentifier</p></td>
-<td><p>Eindeutiger Bezeichner des Endpunkts des Benutzers, bei dem registriert ist.</p></td>
+<td><p>Eindeutiger Bezeichner des Endpunkts des Benutzers, der registriert ist.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>EndpointEra</strong></p></td>
 <td><p>uniqueidentifier</p></td>
-<td><p>Eindeutiger Bezeichner, der zur Unterscheidung von Registrierungen verwendet wird, die denselben Benutzer und denselben Endpunkt einbeziehen.</p></td>
+<td><p>Eindeutiger Bezeichner zum unterscheiden von Registrierungen, bei denen derselbe Benutzer und derselbe Endpunkt verwendet wird.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeRegisterType</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>Zeitpunkt, zu dem die Registrierung erfolgte.</p></td>
+<td><p>Datum/Uhrzeit</p></td>
+<td><p>Zeitpunkt, zu dem die Registrierung aufgetreten ist.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeRegisterReason</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Grund für die Deregistrierung.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Grund für die Aufhebung der Registrierung.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClientVersion</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Die Version des Clients, die von dem registrierten Benutzer verwendet wurde.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Version des Clients, die von dem Benutzer verwendet wird, der registriert ist.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Clienttyp</strong></p></td>
+<td><p><strong>ClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>Der Client, der von dem registrierten Benutzer verwendet wird. Weitere Informationen finden Sie <a href="lync-server-2013-useragentdef-table.md">in der UserAgentDef-Tabelle in lync Server 2013</a> .</p></td>
+<td><p>Client, der vom registrierten Benutzer verwendet wird. Weitere Informationen finden Sie <a href="lync-server-2013-useragentdef-table.md">in der UserAgentDef-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Die Kategorie des Clients, der von dem registrierten Benutzer verwendet wird.</p></td>
+<td><p>Die Kategorie des Clients, der von dem Benutzer verwendet wird, der registriert ist.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IPAddress</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Die IP-Adresse, bei der der Benutzer registriert ist. Dies kann eine IPv4-oder IPv6-Adresse sein.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>IP-Adresse, mit der der Benutzer registriert hat. Hierbei kann es sich um eine IPv4-oder IPv6-Adresse handeln.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Dialogfeld-Nr</strong></p></td>
+<td><p><strong>ID</strong></p></td>
 <td><p>varstring (775)</p></td>
-<td><p>SIP-Dialogfeld-ID. Das Format des is:</p>
+<td><p>SIP-Dialog-ID. Das Format von ist:</p>
 <p>Dialogfeld; from-Tag; to-Tag</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Response Code</strong></p></td>
+<td><p><strong>ResponseCode</strong></p></td>
 <td><p>int</p></td>
-<td><p>SIP-Antwortcode für die Sitzungseinladung Dieses Feld wird in der Regel von Daten ausgefüllt, die aus der anfänglichen Einladungsnachricht in der Sitzung generiert wurden. Wenn keine Einladungsnachricht vorhanden ist, wird das Feld mit dem Datum und der Uhrzeit der ersten relevanten SIP-Nachricht gefüllt (Bye, Cancel, Nachricht oder info).</p></td>
+<td><p>SIP-Antwortcode auf die Sitzungseinladung. Dieses Feld wird typischerweise mit Daten aufgefüllt, die von der ersten INVITE-Nachricht in der Sitzung generiert werden. Ist keine INVITE-Nachricht vorhanden, wird das Feld mit dem Datum und der Uhrzeit der ersten relevanten SIP-Nachricht (BYE, CANCEL, MESSAGE oder INFO) aufgefüllt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Diagnose-Nr</strong></p></td>
@@ -142,32 +142,32 @@ In der Registrierungs Ansicht werden Informationen zur Benutzerregistrierung ges
 </tr>
 <tr class="even">
 <td><p><strong>Registrierungsstelle</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>FQDN der Registrierungsstelle.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Der FQDN des Pools, in dem die Daten für die Sitzung erfasst wurden.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Vollqualifizierter Domänenname des Pools, der die Daten für die Sitzung erfasst hat.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>EdgeServer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Der FQDN des Edge-Servers, der von dem registrierten Benutzer verwendet wird.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Der FQDN des Edgeserver, der von dem Benutzer verwendet wird, der registriert ist.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>"IsInternal</strong></p></td>
-<td><p>bit</p></td>
-<td><p>Gibt an, ob sich der Benutzer vom internen Netzwerk anmeldet.</p></td>
+<td><p><strong>IsInternal</strong></p></td>
+<td><p>Bit</p></td>
+<td><p>Gibt an, ob sich der Benutzer aus dem internen Netzwerk angemeldet hat.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IsUserServiceAvailable</strong></p></td>
-<td><p>bit</p></td>
-<td><p>Gibt an, ob die UserService zur Registrierungszeit verfügbar war.</p></td>
+<td><p>Bit</p></td>
+<td><p>Gibt an, ob das UserService zum Zeitpunkt der Registrierung verfügbar war.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsPrimaryRegistrar</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td><p>Gibt an, ob die Registrierung bei der primären Registrierungsstelle erfolgte.</p></td>
 </tr>
 <tr class="even">
@@ -177,13 +177,13 @@ In der Registrierungs Ansicht werden Informationen zur Benutzerregistrierung ges
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceManufacturer</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Hersteller des registrierten Geräts. Weitere Informationen finden Sie <a href="lync-server-2013-manufacturers-table.md">in der Tabelle "Hersteller" in lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Hersteller des registrierten Geräts. Weitere Informationen finden Sie <a href="lync-server-2013-manufacturers-table.md">in der Tabelle Hersteller in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceHardwareVersion</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Hardware Version des registrierten Geräts. Weitere Informationen finden Sie <a href="lync-server-2013-hardwareversions-table.md">in der HardwareVersions-Tabelle in lync Server 2013</a> .</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Hardware Version des registrierten Geräts. Weitere Informationen finden Sie <a href="lync-server-2013-hardwareversions-table.md">in der Hardware Versions-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>

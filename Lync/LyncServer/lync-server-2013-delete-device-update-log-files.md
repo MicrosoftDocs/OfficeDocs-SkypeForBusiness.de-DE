@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Löschen von Geräte Update Protokolldateien'
+title: 'Lync Server 2013: Löschen von Protokolldateien für Geräte Updates'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c684978445f727dc155fade59654ff6e2866f084
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f5b8ed6d087bb7b80ba93aead7c3ab530c82000
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734205"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048486"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-device-update-log-files-in-lync-server-2013"></a>Löschen von Geräte Aktualisierungsprotokolldateien in lync Server 2013
+# <a name="delete-device-update-log-files-in-lync-server-2013"></a>Löschen von Protokolldateien für Geräte Updates in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41734205"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Der Geräte Update-Webdienst speichert eine umfangreiche Sammlung von Protokolldateien. Diese Sammlung umfasst sowohl Überwachungsprotokolle, die vom Dienst selbst durchgeführt werden, als auch Protokolldateien, die von Clientgeräten hochgeladen wurden. Um zu verhindern, dass der Server mit den Device Update-Webdienstprotokollen gefüllt wird, möchten Sie ihn wahrscheinlich von Protokolldateien löschen, die für eine bestimmte Anzahl von Tagen in Umlauf sind. Sie können diese Anzahl von Tagen basierend auf den Aktualisierungsaktivitäten und der Anzahl der Clientgeräte in Ihrer Organisation und mithilfe der lync Server-Systemsteuerung oder der lync Server-Verwaltungsshell festlegen.
+Der Geräte Update-Webdienst behält eine umfangreiche Sammlung von Protokolldateien bei. Diese Auflistung umfasst sowohl vom Dienst selbst durchgeführte Überwachungsprotokolle als auch von Clientgeräten hochgeladene Protokolldateien. Um zu verhindern, dass sich der Server mit den Protokollen des Geräte Update-Webdiensts füllt, sollten Sie ihn wahrscheinlich von Protokolldateien löschen, die für eine bestimmte Anzahl von Tagen vorhanden waren. Legen Sie diese Anzahl von Tagen basierend auf der Aktualisierungsaktivität und der Anzahl der Clientgeräte in Ihrer Organisation sowie mithilfe von lync Server-Systemsteuerung oder lync Server-Verwaltungsshell fest.
 
 <div>
 
-## <a name="to-clear-the-device-update-log-by-using-lync-server-control-panel"></a>So löschen Sie das Geräte Aktualisierungsprotokoll mithilfe der lync Server-Systemsteuerung
+## <a name="to-clear-the-device-update-log-by-using-lync-server-control-panel"></a>So löschen Sie das Geräte Aktualisierungsprotokoll mithilfe von lync Server-Systemsteuerung
 
-1.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf **geräteprotokoll Konfiguration**.
+2.  Klicken Sie in der linken Navigationsleiste auf **Clients** und dann auf **Geräteprotokollkonfiguration**.
 
-3.  Doppelklicken Sie auf der Seite **Device Log-Konfiguration** auf die Konfiguration, die Sie ändern möchten.
+3.  Doppelklicken Sie auf der Seite **Geräteprotokollkonfiguration** auf die Konfiguration, die Sie ändern möchten.
 
-4.  Legen Sie im Dialogfeld **Protokolleinstellung bearbeiten** in **Anzahl von Tagen, um Protokolldateien zu speichern (1-365)** eine Anzahl von Tagen fest.
+4.  Stellen Sie im Dialogfeld **Protokolleinstellung bearbeiten** in der **Anzahl der Tage, die Protokolldateien aufbewahrt werden sollen (1-365)** eine Anzahl von Tagen ein.
 
-5.  Klicken Sie auf **Commit ausführen**. Alle Dateien, die mehr als die angegebene Anzahl von Tagen auf dem Server vorhanden sind, werden gelöscht. Diese Einstellung wird auf diese Konfiguration angewendet, bis Sie Sie ändern.
+5.  Klicken Sie auf **Commit ausführen**. Alle Dateien, die sich auf dem Server für mehr als die angegebene Anzahl von Tagen befinden, werden gelöscht. Diese Einstellung wird auf diese Konfiguration angewendet, bis Sie Sie ändern.
 
 </div>
 
@@ -59,13 +59,13 @@ Der Geräte Update-Webdienst speichert eine umfangreiche Sammlung von Protokolld
 
 ## <a name="clearing-the-device-update-log-by-using-the-windows-powershell-cmdlets"></a>Löschen des Geräte Aktualisierungsprotokolls mithilfe der Windows PowerShell-Cmdlets
 
-Sie können Geräte Aktualisierungsprotokolle mithilfe von Windows PowerShell und dem Cmdlet " **Clear-CsDeviceUpdateLog** " löschen. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden.
+Sie können Geräte Aktualisierungsprotokolle mit Windows PowerShell und dem Cmdlet **Clear-CsDeviceUpdateLog** löschen. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden.
 
 <div>
 
 
 > [!NOTE]  
-> Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Remote-PowerShell" unter.
+> Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>mithilfe von Remote-PowerShell" unter.
 
 
 
@@ -75,7 +75,7 @@ Sie können Geräte Aktualisierungsprotokolle mithilfe von Windows PowerShell un
 
 ## <a name="to-clear-device-update-logs-on-one-server"></a>So löschen Sie Geräte Aktualisierungsprotokolle auf einem Server
 
-  - Mit dem folgenden Befehl wird das Geräte Aktualisierungsprotokoll auf dem Webserver ATL-CS-001.litwareinc.com gelöscht. Alle Protokolleinträge, die mehr als 10 Tage alt sind (der durch den DaysBack-Parameter angegebene Wert), werden aus dem Protokoll entfernt.
+  - Mit dem folgenden Befehl wird das Geräte Aktualisierungsprotokoll auf dem Webserver ATL-CS-001.litwareinc.com gelöscht. Alle Protokolleinträge, die älter als 10 Tage sind (der durch den DaysBack-Parameter angegebene Wert), werden aus dem Protokoll entfernt.
     
         Clear-CsDeviceUpdateLog -Identity "service:WebServer:atl-cs-001.litwareinc.com" -DaysBack 10
 
@@ -85,13 +85,13 @@ Sie können Geräte Aktualisierungsprotokolle mithilfe von Windows PowerShell un
 
 ## <a name="to-clear-all-device-update-logs"></a>So löschen Sie alle Geräte Aktualisierungsprotokolle
 
-  - Dieser Befehl entfernt veraltete Einträge (in diesem Beispieleinträge, die mehr als 10 Tage alt sind) aus allen Geräte Aktualisierungs Protokollen, die derzeit in Ihrer Organisation verwendet werden.
+  - Mit diesem Befehl werden veraltete Einträge aus allen derzeit in Ihrer Organisation verwendeten Geräte Aktualisierungs Protokollen entfernt (in diesem Beispieleinträge, die älter als 10 Tage sind).
     
         Get-CsService -WebServer | Foreach-Object {Clear-CsDeviceUpdateLog -Identity $_.Identity -DaysBack 10}
 
 </div>
 
-Ausführliche Informationen finden Sie im Hilfethema zum Cmdlet " [Clear-CsDeviceUpdateLog](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateLog) ".
+Ausführliche Informationen finden Sie im Hilfethema zum Cmdlet [Clear-CsDeviceUpdateLog](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateLog) .
 
 </div>
 

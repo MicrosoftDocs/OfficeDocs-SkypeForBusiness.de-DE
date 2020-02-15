@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Definieren der Netzwerkelemente, die zum Ermitteln des Standorts verwendet werden'
+title: 'Lync Server 2013: Definieren der zum Bestimmen des Standorts verwendeten Netzwerkelemente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d71d222fd6784c32ecf0228fff2f33188d2afae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 192aee50f55332a591430f30246870a7d1400b18
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728335"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050067"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-network-elements-used-to-determine-location-in-lync-server-2013"></a>Definieren der Netzwerkelemente, die zum Ermitteln des Standorts in lync Server 2013 verwendet werden
+# <a name="defining-the-network-elements-used-to-determine-location-in-lync-server-2013"></a>Definieren der Netzwerkelemente, die zum Bestimmen des Standorts in lync Server 2013 verwendet werden
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41728335"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-29_
+_**Letztes Änderungsstand des Themas:** 2012-10-29_
 
-Wenn Sie Ihre lync Server-Infrastruktur zur Unterstützung der automatischen Erkennung von clientstandorten einrichten, müssen Sie zunächst entscheiden, welche Netzwerkelemente Sie verwenden möchten, um Anrufern Standorte zuzuordnen. In lync Server 2013 können Sie die folgenden Layer 2-und Layer 3-Netzwerkelemente mit Speicherorten verknüpfen:
+Wenn Sie Ihre lync Server-Infrastruktur für die Unterstützung der automatischen Clientstandort Erkennung einrichten, müssen Sie zunächst entscheiden, welche Netzwerkelemente Sie verwenden, um Anrufern Standorte zuzuordnen. In lync Server 2013 können Sie die folgenden Layer 2-und Layer 3-Netzwerkelemente mit Standorten verknüpfen:
 
-  - Adressen für drahtlosen Zugriffspunkt (BSSID, Basic Service Set Identification) (Layer 2)
+  - Adressen für drahtlosen Zugriffspunk (BSSID, Basic Service Set Identification) (Layer 2)
 
   - LLDP-Switch-Port (Layer 2)
 
@@ -49,7 +49,7 @@ Wenn Sie Ihre lync Server-Infrastruktur zur Unterstützung der automatischen Erk
 
   - Client-MAC-Adressen (Layer 2)
 
-Die Netzwerkelemente werden gemäß ihrer Rangfolge aufgelistet. Wenn ein Client mithilfe von mehr als einem Netzwerkelement gefunden werden kann, verwendet lync Server die Rangfolge, um zu bestimmen, welcher Mechanismus verwendet werden soll.
+Die Netzwerkelemente werden gemäß ihrer Rangfolge aufgelistet. Wenn ein Client mit mehr als einem Netzwerkelement gefunden werden kann, verwendet lync Server die Rangfolge, um den zu verwendenden Mechanismus zu ermitteln.
 
 Die folgenden Abschnitte enthalten weitere Einzelheiten zur Verwendung der einzelnen Netzwerkelemente.
 
@@ -57,7 +57,7 @@ Die folgenden Abschnitte enthalten weitere Einzelheiten zur Verwendung der einze
 
 
 > [!IMPORTANT]  
-> Wenn Sie Netzwerkelemente verwenden, um Anrufern Standorte zuzuordnen, ist es äußerst wichtig, dass Sie die Datenbank des Standort Informationsdiensts auf dem neuesten Stand halten. Wenn Sie beispielsweise ein Netzwerkelement hinzufügen oder ändern (z. B. einen drahtlosen Zugriffspunkt), müssen Sie den alten Eintrag löschen und den neuen Eintrag in der Standortdatenbank hinzufügen.
+> Wenn Sie Netzwerkelemente zum Zuordnen von Anrufern zu Standorten verwenden, ist es äußerst wichtig, dass Sie die Standortinformationsdienst-Datenbank auf dem neuesten Stand halten. Wenn Sie beispielsweise ein Netzwerkelement hinzufügen oder ändern (angenommen Sie fügen z. B. einen drahtlosen Zugriffspunkt hinzu), müssen Sie den alten Eintrag löschen und den neuen Eintrag in der Standortdatenbank hinzufügen.
 
 
 
@@ -67,9 +67,9 @@ Die folgenden Abschnitte enthalten weitere Einzelheiten zur Verwendung der einze
 
 ## <a name="wireless-access-point"></a>Drahtloser Zugriffspunkt
 
-Wenn ein Client drahtlos eine Verbindung mit dem Netzwerk herstellt, verwendet die standortanforderung die BSSID-Adresse des WAP, um dessen Standort festzulegen. Wenn der Client Roaming hat, ist der angezeigte WAP möglicherweise nicht der nächstgelegene, und es ist sogar möglich, einen WAP aufzunehmen, der sich auf einer anderen Etage des Gebäudes befindet. Um anzugeben, dass die Position Näherungswert ist, können Sie den Positionswert mit einem near-oder Close-Deskriptor voranstellen.
+Wenn ein Client drahtlos eine Verbindung mit dem Netzwerk herstellt, verwendet die standortanforderung die BSSID-Adresse des WAP, um den Speicherort zu ermitteln. Wenn der Client Roaming durchführt, ist der angegebene WAP möglicherweise nicht der nächste, und es ist sogar möglich, einen WAP auf einem anderen Stockwerk des Gebäudes zu holen. Um anzugeben, dass der Speicherort ungefähr ist, können Sie den Location-Wert mit einem near-oder Close-to-Deskriptor voranstellen.
 
-Bei dieser Standortmethode wird davon ausgegangen, dass die BSSID der einzelnen Zugriffspunkte statisch ist. Wenn der Zugriffspunktanbieter jedoch dynamisch zugewiesene BSSIDs verwendet, könnte sich die von einem Zugriffspunkt erhaltene BSSID ändern (dies kann beispielsweise bei einer Konfigurationsänderung für den Zugriffspunkt auftreten) und könnte für die drahtlosen Clients die Situation auftreten, dass sie keinen Standort erhalten. Um diese Möglichkeit zu verhindern, müssen Sie die Datenbank für den standortinformationsdienst mit ERLs für alle möglichen BSSID-Adressen auffüllen, die von jedem WAP verwendet werden.
+Bei dieser Standortmethode wird davon ausgegangen, dass die BSSID der einzelnen Zugriffspunkte statisch ist. Wenn der Zugriffspunktanbieter jedoch dynamisch zugewiesene BSSIDs verwendet, könnte sich die von einem Zugriffspunkt erhaltene BSSID ändern (dies kann beispielsweise bei einer Konfigurationsänderung für den Zugriffspunkt auftreten) und für die drahtlosen Clients könnte die Situation auftreten, dass sie keinen Standort erhalten. Um diese Möglichkeit zu verhindern, müssen Sie die Standortinformationsdienst Datenbank mit ERLs für alle möglichen BSSID-Adressen auffüllen, die von den einzelnen WAP-Adressen verwendet werden.
 
 </div>
 
@@ -83,7 +83,7 @@ Verwaltete Ethernet-Switches, die LLDP-MED (Link Layer Discovery Protocol-Media 
 
 
 > [!NOTE]  
-> Lync Server 2013 unterstützt die Verwendung von LLDP-MED zum Ermitteln von Speicherorten nur von lync Phone Edition-Geräten und lync 2013, die unter Windows 8 ausgeführt werden. Wenn Sie Layer 2-Daten auf switchebene verwenden müssen, um den Speicherort anderer auf einem drahtgebundenen PC basierender lync-Clients zu ermitteln, müssen Sie die Client-Mac-Adressen Methode verwenden.
+> Lync Server 2013 unterstützt die Verwendung von LLDP-MED zur Bestimmung von Speicherorten nur für lync Phone Edition-Geräte und lync 2013, die auf Windows 8 durchführen. Wenn Sie Layer 2-Daten auf switchebene verwenden müssen, um den Speicherort anderer drahtgebundener PC-basierter lync-Clients zu ermitteln, müssen Sie die Client MAC-Adress Methode verwenden.
 
 
 
@@ -95,7 +95,7 @@ Verwaltete Ethernet-Switches, die LLDP-MED (Link Layer Discovery Protocol-Media 
 
 ## <a name="subnet"></a>Subnetz
 
-Layer 3-IP-Subnetze stellen einen Mechanismus bereit, der von allen lync Server-Clients unterstützt wird, die zum automatischen Erkennen des Client Standorts verwendet werden können. Die Verwendung von IP-Subnetzen ist die einfachste Methode zur Ermittlung von Standorten, um verkabelte Clients zu konfigurieren und zu verwalten. Bevor Sie sich für die Verwendung von Subnetzen entscheiden, sollten Sie jedoch anhand der folgenden Fragen ermitteln, ob die Standortgenauigkeit des Subnetzes für eine präzise Ermittlung des Clientstandorts ausreicht:
+Layer 3-IP-Subnetze bieten einen Mechanismus, der von allen lync Server-Clients unterstützt wird, die zum automatischen Erkennen des Client Standorts verwendet werden können. Die Verwendung von IP-Subnetzen ist die einfachste Methode zur Ermittlung von Standorten, um verkabelte Clients zu konfigurieren und zu verwalten. Bevor Sie sich für die Verwendung von Subnetzen entscheiden, sollten Sie jedoch anhand der folgenden Fragen ermitteln, ob die Standortgenauigkeit des Subnetzes für eine präzise Ermittlung des Clientstandorts ausreicht:
 
   - Umfassen ein oder mehrere Client-Subnetze verschiedene Etagen?
 
@@ -103,7 +103,7 @@ Layer 3-IP-Subnetze stellen einen Mechanismus bereit, der von allen lync Server-
 
   - Welchen Etagenbereich umfassen die einzelnen Client-Subnetze?
 
-Wenn das Subnetz einen zu großen Bereich umfasst, müssen Sie möglicherweise eine andere Methode zum Ermitteln der Clients verwenden. Es wird empfohlen, dass Kunden – sofern möglich – ihre IP-Subnetzverwendung neu anordnen, um die Anforderungen für die Standortgenauigkeit in Erwartungsregellisten zu erfüllen, statt die Kosten und Komplexität von SNMP-basierten Drittanbieter-Lösungen tragen zu müssen.
+Wenn das Subnetz einen zu großen Bereich umfasst, müssen Sie möglicherweise eine andere Methode zum Ermitteln der Clients verwenden. Es wird empfohlen, sofern möglich, dass Kunden ihre IP-Subnetzverwendung neu anordnen, um die Anforderungen für die Standortgenauigkeit in Erwartungsregellisten zu erfüllen, statt die Kosten und Komplexität von SNMP-basierten Drittanbieter-Lösungen tragen zu müssen.
 
 </div>
 
@@ -111,13 +111,13 @@ Wenn das Subnetz einen zu großen Bereich umfasst, müssen Sie möglicherweise e
 
 ## <a name="client-mac-address"></a>Client-MAC-Adresse
 
-Wenn Sie die Mac-Adresse eines Clientcomputers zum Auffinden eines Anrufers verwenden möchten, benötigen Sie verwaltete Ethernet-Switches, und Sie müssen eine SNMP-Lösung eines Drittanbieters bereitstellen, die die Mac-Adressen von lync-Clients ermitteln kann, die mit diesen Switches verbunden sind. Die SNMP-Lösung fragt kontinuierlich die verwalteten Switches ab, um die aktuellen Zuordnungen der Endpunkt-Mac-Adressen abzurufen, die mit jedem Port verbunden sind, und ruft die entsprechenden Port-IDs ab. Während der Anforderung eines lync-Clients an den standortinformationsdienst fragt der standortinformationsdienst die Drittanbieteranwendung mithilfe der Mac-Adresse des Clients ab und gibt dann alle übereinstimmenden Switch-IP-Adressen und Port-IDs zurück. Der standortinformationsdienst verwendet diese Informationen, um seinen veröffentlichten Layer 2-Wiremap nach einem übereinstimmenden Datensatz abzufragen, und gibt den Speicherort an den Client zurück. Wenn Sie diese Option verwenden, stellen Sie sicher, dass die Switch-Port-IDs zwischen der SNMP-Anwendung und den veröffentlichten Speicherort-Datensätzen konsistent sind.
+Um die Mac-Adresse eines Clientcomputers zum Auffinden eines Anrufers zu verwenden, benötigen Sie Managed Ethernet Switches und müssen eine Drittanbieter-SNMP-Lösung bereitstellen, mit der die Mac-Adressen von lync-Clients ermittelt werden, die mit diesen Switches verbunden sind (oder über diese). Die SNMP-Lösung fragt kontinuierlich die verwalteten Switches ab, um die aktuellen Zuordnungen der Endpunkt-Mac-Adressen abzurufen, die mit jedem Port verbunden sind, und ruft die entsprechenden Port-IDs ab. Während der Anforderung eines lync-Clients an den Standortinformationsdienst fragt der Standortinformationsdienst die Drittanbieteranwendung mithilfe der Mac-Adresse des Clients ab und gibt dann alle übereinstimmenden Switch-IP-Adressen und Port-IDs zurück. Der Standortinformationsdienst verwendet diese Informationen zum Abfragen seiner veröffentlichten Schicht 2-Wiremap nach einem übereinstimmenden Datensatz und gibt den Speicherort an den Client zurück. Wenn Sie diese Option verwenden, stellen Sie sicher, dass die Switch-Port-IDs zwischen der SNMP-Anwendung und den veröffentlichten Datensätzen der Speicherort Datenbank konsistent sind.
 
 <div>
 
 
 > [!NOTE]  
-> Einige SNMP-Lösungen von Drittanbietern können nicht verwaltete Zugriffs Schalter unterstützen. Wenn der Switch, der den lync-Client nicht verwaltet, aber über einen Uplink zu einem verwalteten Verteilungs Schalter verfügt, kann der verwaltete Switch der SNMP-Anwendung die Mac-Adressen der Clients melden, die mit dem Zugriffs Schalter verbunden sind. Mithilfe dieser Informationen kann der standortinformationsdienst den Standort des Benutzers ermitteln. Es ist jedoch möglich, allen Anschlüssen des nicht verwalteten Switches nur ein einzelnes Erl zuzuweisen, sodass die Standort Spezifität nur auf der Chassis-Ebene des Zugriffs Schalters und nicht auf der Portebene verfügbar ist.
+> Einige SNMP-Lösungen von Drittanbietern können nicht verwaltete Zugriffs Switches unterstützen. Wenn der Switch, von dem der lync-Client verwaltet wird, aber über einen Uplink an eine verwaltete Verteilungsoption verfügt, kann der verwaltete Switch der SNMP-Anwendung die Mac-Adressen der mit dem Zugriffs Schalter verbundenen Clients zurückerstatten. Mithilfe dieser Informationen kann der Standortinformationsdienst den Speicherort des Benutzers ermitteln. Es ist jedoch möglich, allen Ports auf dem nicht verwalteten Switch nur ein einzelnes Erl zuzuweisen, sodass die Standort Spezifität nur auf der Chassis-Ebene des Zugriffs Switches und nicht auf der Portebene zur Verfügung steht.
 
 
 

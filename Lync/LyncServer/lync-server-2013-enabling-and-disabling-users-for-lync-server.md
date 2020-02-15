@@ -12,16 +12,16 @@ ms:contentKeyID: 49733698
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da4624a682899befa4ff8d780c0d9a6d6646279c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 02a66ead4e88b6a8460ab728fecbd3f21be03141
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735855"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046328"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41735855"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Sie können Active Directory-Benutzer aus lync Server 2013 aktivieren, vorübergehend deaktivieren oder entfernen.
+Sie können Active Directory Benutzer in lync Server 2013 aktivieren, vorübergehend deaktivieren oder entfernen.
 
 <div>
 
@@ -56,9 +56,9 @@ Sie können Active Directory-Benutzer aus lync Server 2013 aktivieren, vorüberg
 ## <a name="see-also"></a>Siehe auch
 
 
-[Verwalten von Benutzern in Lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)  
+[Verwalten von Benutzern in lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)  
 [Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)  
-[Deaktivieren-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)  
+[Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Testen von lync Server 2013-Skalierbarkeit
+title: Testen der lync Server 2013 Skalierbarkeit
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d702b0a197e6e81fbc6833ca58968a10d8dd3fff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b23bd731e123c8dba78c3919f9f2a1ff1a6fd1cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732775"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049887"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41732775"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
-Lync Server 2013 stellt die Server Infrastruktur für alle lync Server-Echtzeitkommunikationen bereit, einschließlich Instant Messaging (im) und Anwesenheits-, Konferenz-und Enterprise-VoIP. Dazu gehören alle Features, die die Hardwareressourcen eines lync Server 2013-Pools verwenden und sich daher auf Leistung und Skalierung auswirken. Alle Organisationen verwenden nicht alle Funktionen gleichermaßen.
+Lync Server 2013 stellt die Server Infrastruktur für alle lync Server Echtzeitkommunikation bereit, einschließlich Instant Messaging (Sofortnachrichten) und Anwesenheit, Konferenzen und Enterprise-VoIP. Dies umfasst alle Features, die die Hardwareressourcen eines lync Server 2013 Pools verwenden und sich daher auf Leistung und Skalierung auswirken. Nicht alle Organisationen verwenden alle Features gleichermaßen.
 
-Beispielsweise können einige Organisationen Video in Konferenzen sehr stark verwenden, während andere wenig oder gar keine Videonutzung haben könnten. Einige Organisationen bevorzugen die PowerPoint-Folien Freigabe für die Anwendungsfreigabe, während andere das Gegenteil bevorzugen. Organisationen, die Enterprise-VoIP bereitstellen, können die reaktionsgruppenanwendung möglicherweise stark verwenden oder nicht. In den meisten Organisationen werden Überwachungsserver bereitgestellt, aber nicht viele von Ihnen stellen Archivierungsserver bereit. Darüber hinaus verfügen Organisationen nicht alle über die gleichen Infrastrukturen wie Hardwarekapazitäten, Netzwerkkapazitäten und die Anzahl der Pools und die Größe der bereitgestellten Pools. Die Vielfalt der Features und Infrastrukturen stellt eine Herausforderung für Skalierbarkeitstests dar – es ist nicht möglich, alle möglichen Kombinationen von Features und Infrastrukturen zu simulieren.
+Einige Organisationen können beispielsweise Videos in Konferenzen sehr stark verwenden, während andere möglicherweise wenig oder gar keine Videonutzung haben. Einige Organisationen bevorzugen PowerPoint-Folien Freigaben für die Anwendungsfreigabe, während andere das Gegenteil bevorzugen. Für Organisationen, die Enterprise-VoIP bereitstellen, wird die Reaktionsgruppenanwendung möglicherweise stark verwendet. In den meisten Organisationen werden Monitoring Server bereitgestellt, aber nicht viele von Ihnen stellen Archivierungsserver bereit. Darüber hinaus verfügen Organisationen nicht alle über die gleichen Infrastrukturen, einschließlich Hardwarekapazitäten, Netzwerkkapazitäten und der Anzahl der bereitgestellten Pools und der Größe von Pools. Die Vielfalt an Features und Infrastrukturen stellt eine Herausforderung für Skalierbarkeitstests dar – es ist nicht möglich, alle möglichen Kombinationen von Features und Infrastrukturen zu simulieren.
 
-Um die Unterstützung der Skalierbarkeit für lync Server zu ermitteln, führen wir Tests mit allen lync Server-Features gleichzeitig aus, basierend auf einem durchschnittlichen Nutzungsmodell (Benutzermodell). Um ein geeignetes Benutzermodell für lync Server-Arbeitsauslastungen zu ermitteln, analysieren wir viele Datenpunkte, einschließlich Kundenbefragungen, Feedback aus dem Microsoft-Programm zur Verbesserung der Benutzerfreundlichkeit, lync Server-Nutzungsdaten aus der internen IT-Abteilung bei Microsoft, und Daten, die aus unserem Live Meeting-Service gewonnen wurden. In vielen Fällen weist das Benutzermodell eine Neigung zu schwereren Lasten auf, um einen bequemen Seitenrand für die Verwendung innerhalb einer Organisation bereitzustellen.
+Um die Skalierbarkeits Unterstützung für lync Server zu ermitteln, führen wir Tests durch, indem wir alle lync Server Funktionen gleichzeitig verwenden, basierend auf einem durchschnittlichen Verwendungsmodell (Benutzermodell). Um ein geeignetes Benutzermodell für lync Server Arbeitsauslastungen zu ermitteln, analysieren wir viele Datenpunkte, einschließlich Kundenumfragen, Feedback aus dem Microsoft-Programm zur Verbesserung der Benutzerfreundlichkeit, lync Server Nutzungsdaten aus der internen IT-Abteilung bei Microsoft, und Daten, die aus unserem Live Meeting-Dienst gewonnen wurden. In vielen Fällen ist das Benutzermodell für umfangreichere Auslastungen ausgelegt, um eine bequeme Nutzung innerhalb einer Organisation zu ermöglichen.
 
-In unseren Skalierbarkeitstests richten wir lync Server 2013-Pools entsprechend den empfohlenen Hardware-und Software Spezifikationen ein, einschließlich Infrastrukturkomponenten wie Active Directory-Domänendienste, Hardwarelastenausgleichs und Firewalls. Wir haben lync Server-Umgebungen so eingerichtet, dass Sie den typischen Umgebungen in der realen Welt entsprechen. Anschließend verwenden wir das Stress-und Leistungs Tool von lync Server 2013, um lync Server 2013-Lasten zu simulieren (basierend auf unserem Benutzermodell). .
+In unseren Skalierbarkeitstests richten wir lync Server 2013 Pools gemäß den empfohlenen Hardware-und Software Spezifikationen ein, einschließlich Infrastrukturkomponenten wie Active Directory-Domänendienste, Hardwarelastenausgleich und Firewalls. Wir richten lync Server Umgebungen so nah wie möglich an typischen Umgebungen in der realen Welt ein. Anschließend verwenden wir das lync Server 2013 Stress and Performance-Tool, um lync Server 2013 Lasten zu simulieren (basierend auf unserem Benutzermodell). .
 
-Wir führen mehrere Iterationen von Skalierbarkeitstests durch, einschließlich mehrerer dreiwöchiger Test Läufe. Wir verwenden die Ergebnisse aller Tests, um bei der Leistungsoptimierung zu helfen und die Unterstützung für die Skalierbarkeits Nummern in unserem Benutzermodell zu überprüfen.
+Wir führen die Skalierbarkeitstests mehrmals aus (einschließlich mehrerer dreiwöchiger Testläufe). Die Ergebnisse aller Tests verwenden wir dann zur Leistungsoptimierung und zum Überprüfen der Unterstützung der Skalierbarkeitszahlen in unserem Benutzermodell.
 
 </div>
 

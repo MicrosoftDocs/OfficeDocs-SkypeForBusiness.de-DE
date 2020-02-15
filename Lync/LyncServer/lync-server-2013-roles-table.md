@@ -12,20 +12,20 @@ ms:contentKeyID: 48185893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 251b266d18be3b472f4a22a635d134f6fe3dc77e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d3c241f685e9acc24b82acab1c7f50e1e15754b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732965"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050817"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="roles-table-in-lync-server-2013"></a>Roles-Tabelle in Lync Server 2013
+# <a name="roles-table-in-lync-server-2013"></a>Tabelle "Roles" in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41732965"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Die Tabelle "Rollen" ist eine statische Tabelle, in der die Liste möglicher Konferenz Rollen wie Teilnehmer und Referenten gespeichert ist.
+Die Tabelle "Roles" ist eine statische Tabelle, in der die Liste möglicher Konferenz Rollen wie Teilnehmer und Referenten gespeichert wird.
 
 
 <table>
@@ -64,13 +64,13 @@ Die Tabelle "Rollen" ist eine statische Tabelle, in der die Liste möglicher Kon
 </tr>
 <tr class="even">
 <td><p><strong>Rolle</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
-<td><p>Zulässige Werte:</p>
+<td><p>Gültige Werte:</p>
 <ul>
-<li><p>0 – unbekannt</p></li>
-<li><p>1-Referent</p></li>
-<li><p>2 – Teilnehmer</p></li>
+<li><p>0 – Unbekannt</p></li>
+<li><p>1 – Referent</p></li>
+<li><p>2-Teilnehmer</p></li>
 </ul></td>
 </tr>
 </tbody>

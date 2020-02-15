@@ -12,16 +12,16 @@ ms:contentKeyID: 48185364
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53e63bf6063803364a679a3cc0724ec1cbeae1a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 85bee37f748f0356458770c742f26e704132ad6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755599"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049957"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41755599"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-19_
+_**Letztes Änderungsstand des Themas:** 2012-09-19_
 
-Sie können lync Server 2013, Best Practices Analyzer verwenden, um Probleme mit der Bereitstellung von lync Server 2013 zu identifizieren und zu beheben. Der lync Server 2013, Best Practices Analyzer, sammelt Konfigurationsinformationen aus lync Server 2013-Komponenten.
+Sie können lync Server 2013, Best Practices Analyzer verwenden, um Probleme mit ihrer lync Server 2013-Bereitstellung zu identifizieren und zu beheben. Der lync Server 2013, Best Practices Analyzer sammelt Konfigurationsinformationen aus lync Server 2013 Komponenten.
 
-Mit dem richtigen Netzwerkzugriff kann der Best Practices Analyzer Server untersuchen, die Active Directory-Domänendienste, Exchange Server Unified Messaging (um) und lync Server 2013 ausführen. Sie können Best Practices Analyzer verwenden, um folgende Aktionen auszuführen:
+Mit dem richtigen Netzwerkzugriff kann der Best Practices Analyzer Server mit Active Directory-Domänendienste, Exchange Server Unified Messaging (um) und lync Server 2013 untersuchen. Sie können Best Practices Analyzer verwenden, um Folgendes zu tun:
 
-  - Proaktive Prüfungen durchführen und überprüfen, ob die Konfiguration entsprechend den empfohlenen bewährten Methoden festgesetzt wurde.
+  - Proaktives durchführen von Prüfungen, überprüfen, ob die Konfiguration gemäß den empfohlenen bewährten Methoden festgelegt wurde.
 
-  - Sie müssen die erforderlichen Updates für lync Server 2013 automatisch erkennen.
+  - Automatische Erkennung erforderlicher Updates für lync Server 2013.
 
-  - Erstellen Sie eine Liste der Probleme, wie etwa suboptimale Konfigurationseinstellungen, nicht unterstützte Optionen, fehlende Updates oder Methoden, die wir nicht empfehlen.
+  - Erstellen Sie eine Liste von Problemen, beispielsweise suboptimale Konfigurationseinstellungen, nicht unterstützte Optionen, fehlende Updates oder Methoden, die nicht empfohlen werden.
 
-  - Hilft Ihnen bei der Behebung und Behebung spezifischer Probleme.
+  - Unterstützen Sie bei der Problembehandlung und bei der Behebung bestimmter Probleme.
 
-Best Practices Analyzer bietet die folgenden Features:
+Best Practices Analyzer stellt die folgenden Funktionen bereit:
 
   - Minimale Installationsvoraussetzungen.
 
@@ -59,17 +59,17 @@ Best Practices Analyzer bietet die folgenden Features:
 
   - Modernste Systemanalyse.
 
-Best Practices Analyzer verwendet eine Reihe von XML-Konfigurationsdateien, um die Informationen zu ermitteln, die von ihrer lync Server 2013-Umgebung gesammelt werden. Neben der Überprüfung der Active Directory-Domänendienste werden Quellen wie die Registrierung des Windows Server-Betriebssystems und die Einstellungen in Windows-Verwaltungsinstrumentation (WMI) überprüft.
+Best Practices Analyzer verwendet eine Reihe von XML-Konfigurationsdateien, um die Informationen zu ermitteln, die aus ihrer lync Server 2013 Umgebung gesammelt werden. Neben der Überprüfung von Active Directory-Domänendienste werden Quellen wie die Windows Server-Betriebssystemregistrierung und Einstellungen in der Windows-Verwaltungsinstrumentation (WMI) überprüft.
 
-Best Practices Analyzer vergleicht die gesammelten Daten mit einer Reihe vordefinierter Regeln für die Einstellungen und Konfigurationen von lync Server 2013-Bereitstellungen.
+Best Practices Analyzer vergleicht die erfassten Daten mit einer Reihe vordefinierter Regeln für die Einstellungen und Konfigurationen lync Server 2013 Bereitstellungen.
 
-Nach dem Vergleich der gesammelten Daten mit den vordefinierten Regeln meldet das Tool Probleme. Für jedes von ihm gemeldete Problem bietet Best Practices Analyzer Informationen dazu, was in der gescannten lync Server 2013-Umgebung und der empfohlenen Konfiguration gefunden wurde. Best Practices Analyzer enthält auch Links zu ausführlicheren Informationen zu den spezifischen Problemen.
+Nachdem die gesammelten Daten mit den vordefinierten Regeln verglichen wurden, meldet das Tool Probleme. Best Practices Analyzer enthält für jedes Problem, das es meldet, Informationen darüber, was in der geprüften lync Server 2013 Umgebung gefunden wurde, und die empfohlene Konfiguration. Best Practices Analyzer enthält auch Links zu ausführlicheren Informationen zu den spezifischen Problemen.
 
 <div>
 
 
 > [!NOTE]  
-> Der lync Server 2013, Best Practices Analyzer, sammelt Konfigurationsinformationen nur von lync Server 2013-Komponenten. Sie können die vorherigen Versionen des Tools verwenden, um frühere Umgebungen zu überprüfen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Voraussetzungen für die Ausführung von Best Practices Analyzer in lync Server 2013</A>.
+> Der lync Server 2013, Best Practices Analyzer sammelt Konfigurationsinformationen nur aus lync Server 2013-Komponenten. Sie können die vorherigen Versionen des Tools verwenden, um frühere Umgebungen zu überprüfen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-requirements-for-running-best-practices-analyzer.md">Requirements for Running Best Practices Analyzer in lync Server 2013</A>.
 
 
 

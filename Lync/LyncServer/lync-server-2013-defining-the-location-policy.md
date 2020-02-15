@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Definieren der Standortrichtlinie'
+title: 'Lync Server 2013: Definieren der ortungsrichtlinie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185553
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: feb7550412fa6cdcda3a8fc4dd9b7913912c34e1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9842b5bec4b635566288998d6e8110fcc51463d7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728355"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048198"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="defining-the-location-policy-for-lync-server-2013"></a>Definieren der Standortrichtlinie für lync Server 2013
+# <a name="defining-the-location-policy-for-lync-server-2013"></a>Definieren der ortungsrichtlinie für lync Server 2013
 
 </div>
 
@@ -35,61 +35,61 @@ ms.locfileid: "41728355"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-29_
+_**Letztes Änderungsstand des Themas:** 2012-10-29_
 
 Jede Standortrichtlinie enthält die folgenden Informationen:
 
-  - **Notfalldienste aktiviert**  
-    Wenn dieser Wert **Ja**ist, ist der Client für E9-1-1 aktiviert. Wenn ein Client registriert wird, versucht er, einen Standort vom standortinformationsdienst abzurufen, und die Standortinformationen werden als Teil eines Notrufs aufgenommen.
+  - **Notrufdienste aktiviert**  
+    Wenn dieser Wert " **Yes**" lautet, ist der Client für E9-1-1 aktiviert. Wenn ein Client registriert wird, versucht er, einen Speicherort aus dem Standortinformationsdienst abzurufen, und enthält die Standortinformationen als Teil eines Notrufs.
 
 <!-- end list -->
 
-  - **Ort erforderlich**  
-    Diese Einstellung wird nur verwendet, wenn " **Emergency Services Enabled** " auf " **Ja**" festgelegt ist.
+  - **Standort erforderlich**  
+    Diese Einstellung wird nur verwendet, wenn **Emergency Services Enabled** auf **Ja**festgelegt ist.
     
-    Sie können die Einstellung **Standort erforderlich** konfigurieren, um das Clientverhalten zu definieren. Wenn der Wert auf **Nein** festgelegt wird, bedeutet dies, dass der Benutzer nicht zur Angabe eines Standorts aufgefordert wird. Wenn der Wert auf **Ja** festgelegt wird, bedeutet dies, dass der Benutzer zur Angabe eines Standorts aufgefordert wird; er kann die Aufforderung aber verwerfen. Wenn Sie den Wert auf **Disclaimer** setzen, wird der Benutzer aufgefordert, einen Speicherort einzugeben, und es wird auch ein Haftungsausschluss angezeigt, wenn er versucht, die Eingabeaufforderung zu schließen. In allen Fällen kann der Benutzer den Client weiterhin verwenden.
+    Sie können die Einstellung **Standort erforderlich** konfigurieren, um das Clientverhalten zu definieren. Lautet die Einstellung **Nein**, so wird der Benutzer nicht zur Eingabe eines Standorts aufgefordert. Lautet die Einstellung **Ja**, wird der Benutzer zur Eingabe eines Standorts aufgefordert, kann die Eingabeaufforderung jedoch verwerfen. Mit der Einstellung **Haftungsausschluss** wird der Benutzer zur Eingabe eines Standorts aufgefordert. Wenn der Benutzer versucht, diese Aufforderung zu verwerfen, wird ebenfalls ein Haftungsausschluss angezeigt. In allen Fällen kann der Benutzer den Client weiterhin verwenden.
     
     <div>
     
 
     > [!NOTE]  
-    > Der Haftungsausschluss wird nicht angezeigt, wenn der Benutzer vor der Aktivierung für E9-1-1 bereits manuell einen Standort eingegeben hat. Aktualisierte Versionen des Haftungsausschlusses werden Benutzern nicht angezeigt, die den Haftungsausschluss bereits angezeigt haben. 
+    > Der Haftungsausschluss wird nicht angezeigt, wenn der Benutzer vor der Aktivierung für E9-1-1 bereits manuell einen Standort eingegeben hat. Aktualisierte Versionen des Haftungsausschlusses werden Benutzern nicht angezeigt, die den Haftungsausschluss bereits angezeigt haben.
 
     
     </div>
 
 <!-- end list -->
 
-  - **Haftungsausschluss der erweiterten Notfalldienste**  
-    Diese Einstellung gibt den Haftungsausschluss an, der Benutzern angezeigt wird, wenn sie die Eingabeaufforderung für einen Standort verwerfen. In lync Server 2013 können Sie mithilfe der ortungsrichtlinie verschiedene Haftungsausschlüsse für verschiedene Gebietsschemas oder verschiedene Gruppen von Benutzern festlegen.
+  - **Haftungsausschluss der erweiterten Notrufdienste**  
+    Diese Einstellung gibt den Haftungsausschluss an, der Benutzern angezeigt wird, wenn sie die Eingabeaufforderung für einen Standort verwerfen. In lync Server 2013 können Sie die ortungsrichtlinie verwenden, um unterschiedliche Haftungsausschlüsse für unterschiedliche Gebietsschemas oder unterschiedliche Benutzergruppen festzulegen.
     
     <div>
     
 
     > [!NOTE]  
-    > Diese Einstellung für Standortrichtlinien unterscheidet sich von lync Server 2010, bei dem Sie das Cmdlet " <STRONG>festlegen-CsEnhancedEmergencyServiceDisclaimer</STRONG> " verwendet haben, um einen globalen Haftungsausschluss für die gesamte Organisation festzulegen. Wenn bereits ein globaler Haftungsausschluss vorhanden ist, müssen Sie diesen Haftungsausschluss in der Standortrichtlinie angeben. Das bedeutet, dass lync Server 2013 nur in der Standortrichtlinie angegebene Haftungsausschlüsse verwendet.
+    > Diese Standortrichtlinien Einstellung unterscheidet sich von lync Server 2010, wobei Sie das Cmdlet "Cmdlet <STRONG>festlegen</STRONG> " verwendet haben, um einen globalen Haftungsausschluss für die gesamte Organisation festzulegen. Falls bereits ein globaler Haftungsausschluss vorhanden ist, müssen Sie diesen Haftungsausschluss in der Standortrichtlinie angeben. Das bedeutet, dass lync Server 2013 nur in der ortungsrichtlinie angegebene Haftungsausschlüsse verwendet.
 
     
     </div>
 
 <!-- end list -->
 
-  - **Notfall Wahl Zeichenfolge**  
-    Diese Wählzeichenfolge (abzüglich des führenden "+", aber einschließlich einer Normalisierung, die vom Wählplan des lync-Benutzers ausgeführt wird) bedeutet, dass ein Anruf ein Notruf ist. Die **Notrufwählzeichenfolge** veranlasst den Client, Standort- und Rückrufinformationen mit dem Anruf zu übermitteln.
+  - **Notrufwählzeichenfolge**  
+    Diese Wählzeichenfolge (ohne das vorangestellte Pluszeichen "+", aber einschließlich etwaiger Normalisierungen durch den Wählplan des Lync-Benutzers) kennzeichnet einen Anruf als Notruf. Die **Notrufwählzeichenfolge** veranlasst den Client, Standort- und Rückrufinformationen mit dem Anruf zu übermitteln.
     
     <div>
     
 
     > [!NOTE]  
-    > Wenn in Ihrer Organisation kein Präfix für den Zugriff auf externe Leitungen verwendet wird, müssen Sie keine entsprechende Normalisierungsregel für Wähleinstellungen erstellen, die der 911-Zeichenfolge vor dem Senden des Anrufs an ausgehendes Routing auf einem lync-Pool Server ein "+" hinzufügt. Das "+" wird dem lync-Client automatisch als Ergebnis der ortungsrichtlinie vorangestellt. Wenn Ihre Website jedoch ein externes Zugriffs Präfix verwendet, müssen Sie der entsprechenden Wähl Plan Richtlinie eine Normalisierungsregel hinzufügen, die das Präfix für den externen Zugriff abstreift und das "+" hinzufügt. Wenn Ihr Standort beispielsweise ein Präfix für den externen Zugriff von 9 verwendet und ein Benutzer 9&nbsp;911 anwählt, um einen Notruf zu tätigen, wird der Client seine Wähl Plan Richtlinie verwenden, um diese auf + 911 zu normalisieren, bevor die gewählte Nummer von den Routen im Standortprofil des Anrufers ausgewertet wird.
+    > Wenn in Ihrer Organisation kein Präfix für den Zugriff auf externe Leitungen verwendet wird, müssen Sie keine entsprechende Normalisierungsregel für den Wählplan erstellen, die vor dem Senden des Anrufs an das ausgehende Routing auf einem lync-Pool Server ein "+" zur Zeichenfolge "911" hinzufügt. Das "+" wird dem lync-Client als Ergebnis der ortungsrichtlinie automatisch vorangestellt. Wenn Ihre Website jedoch ein externes Zugriffs Präfix verwendet, müssen Sie der entsprechenden Wähl Plan Richtlinie eine Normalisierungsregel hinzufügen, mit der das Präfix für den externen Zugriff entfernt und das Pluszeichen "+" hinzugefügt wird. Wenn Ihr Standort beispielsweise ein externes Zugriffs Präfix von 9 verwendet und ein Benutzer 9&nbsp;911 zum Platzieren eines Notrufs wählt, verwendet der Client seine Wähl Plan Richtlinie, um diese auf + 911 zu normalisieren, bevor die gewählte Nummer von den Routen im Standortprofil des Anrufers ausgewertet wird.
 
     
     </div>
 
 <!-- end list -->
 
-  - **Notrufnummern-Zeichenfolgen Masken**  
-    Eine durch Semikolons getrennte Liste von Wählzeichenfolgen, die in die angegebene **Notruf Zeichenfolge**übersetzt werden. So können Sie beispielsweise 112 hinzufügen, die für den größten Teil Europas die Notrufnummer ist. Ein Besucher von lync-Benutzern aus Europa weiß möglicherweise nicht, dass 911 die US-Notfallnummer ist, aber Sie können 112 anrufen und dasselbe Ergebnis erzielen. Geben Sie wie bei der Notruf Zeichenfolge keine "+" vor jeder Zahl ein, und wenn Sie die Zugriffscodes für externe Leitungen verwenden, stellen Sie sicher, dass in der Wähl Plan Richtlinie des Benutzers Normalisierungsregeln vorhanden sind, um die Zugriffscode Ziffer abzustreifen.
+  - **Masken für Notrufwählzeichenfolge**  
+    Eine durch Semikolons getrennte Liste mit Wählzeichenfolgen, die in die angegebene **Notrufwählzeichenfolge** übersetzt wird. Angenommen, Sie möchten "112" hinzufügen, die in Europa am weitesten verbreitete Notrufnummer. Ein Lync-Benutzer aus Europa auf Besuch weiß u. U. nicht, dass die US-Notrufnummer "911" lautet. Er kann jedoch "112" wählen und dasselbe Ergebnis erzielen. Wie bei der Notrufzeichenfolge verwenden Sie vor den Nummern kein Pluszeichen "+", und wenn Sie Codes für den Zugriff auf externe Leitungen verwenden, stellen Sie sicher, dass in der Wählplanrichtlinie des Benutzers Normalisierungsregeln vorhanden sind, die die Ziffer des Zugriffscodes entfernen.
 
 <!-- end list -->
 
@@ -100,7 +100,7 @@ Jede Standortrichtlinie enthält die folgenden Informationen:
     
 
     > [!NOTE]  
-    > Einer Standortrichtlinie kann nur eine Verwendung zugewiesen werden. Diese PSTN-Verwendung setzt die PSTN-Verwendungen außer Kraft, die der VoIP-Richtlinie des Benutzers zugewiesen sind. Dies gilt jedoch nur für Anrufe, die mit der Notrufwählzeichenfolge oder einer der Masken für Notrufwählzeichenfolgen abgesetzt werden.
+    > Einer Standortrichtlinie kann nur eine Verwendung zugewiesen werden. Diese PSTN-Verwendung setzt die PSTN-Verwendungen außer Kraft, die der VoIP-Richtlinie des Benutzers zugewiesen sind. Dies gilt jedoch nur für Anrufe, die mit der Notrufwählzeichenfolge oder einer der Masken für Notrufwählzeichenfolge abgesetzt werden.
 
     
     </div>
@@ -113,17 +113,17 @@ Jede Standortrichtlinie enthält die folgenden Informationen:
 <!-- end list -->
 
   - **Konferenz-URI**  
-    Gibt eine DID-Nummer (Direct Inward Dialing) an (in der Regel eine Sicherheitsdesknummer), die bei einem Notruf per Konferenz zugeschaltet werden soll.  
+    Gibt eine DID-Nummer (Direct Inward Dialing) an (in der Regel eine Sicherheitsdesknummer), die bei einem Notruf per Konferenz zugeschaltet werden soll.
 
 <!-- end list -->
 
   - **Konferenzmodus**  
-    Gibt an, ob bei der Zuschaltung des Konferenz-URI zum Notruf eine unidirektionale oder bidirektionale Kommunikation verwendet wird. 
+    Gibt an, ob bei der Zuschaltung des Konferenz-URI zum Notruf eine unidirektionale oder bidirektionale Kommunikation verwendet wird.
 
 <!-- end list -->
 
   - **Standortaktualisierungsintervall**  
-    Gibt die Zeitspanne (in Stunden) zwischen Clientanforderungen für ein Standort Update vom standortinformationsdienst an. Dieser Wert kann auf einen beliebigen Wert zwischen 1 und 12 festgelegt werden. Der Standardwert lautet 4.
+    Gibt die Zeitspanne (in Stunden) zwischen Clientanforderungen für eine Standortaktualisierung aus dem Standortinformationsdienst an. Der Wert kann auf einen beliebigen Wert zwischen 1 und 12 festgelegt werden. Der Standardwert ist 4.
 
 </div>
 

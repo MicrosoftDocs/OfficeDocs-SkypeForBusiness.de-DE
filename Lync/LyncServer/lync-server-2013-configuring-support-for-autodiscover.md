@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren der Unterstützung für AutoErmittlung'
+title: 'Lync Server 2013: Konfigurieren der Unterstützung für die AutoErmittlung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 779929d270fa4ae2f8eec59a954c2273ff61b44f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 79511202ddc9e413e313d12f881e7079f088c473
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734806"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046068"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41734806"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-01-21_
+_**Letztes Änderungsstand des Themas:** 2013-01-21_
 
-Der **AutoErmittlungsdienst** für lync Server-Webdienste erschien zunächst im kumulativen Update für lync Server 2010: November 2011. Dieses Update wurde von der ersten Version von lync Mobile-Clients begleitet. Der AutoErmittlungsdienst hat die Mobilitätsdienste, den so genannten MCX-Dienst, verfügbar gemacht.
+Der **AutoErmittlungsdienst** für lync Server-Webdienste erschien zunächst im lync Server 2010 kumulativen Update: November 2011. Dieses Update wurde von der ersten Version von lync Mobile-Clients begleitet. Der AutoErmittlungsdienst hat die Mobilitätsdienste verfügbar gemacht, die als MCX-Dienst bezeichnet werden.
 
-Der AutoErmittlungsdienst fungiert als einzelner Standort für alle Clients, um Informationen zu den verfügbaren Diensten und Features anzufordern und zu erfahren, wie Sie sich an die Mitarbeiter wenden können – entweder durch einen vollqualifizierten Domänennamen oder einen webuniform Resource Locator-Verweis. Die AutoErmittlung macht eine Reihe von Features verfügbar, und jeder Client stellt Anforderungen basierend auf den Features, die der Client verwenden kann, zur Verfügung. Beispielsweise wird ein lync 2013-Desktop Client autodiscvoer verwenden, um die externen Webdienste zu ermitteln, verwendet aber nicht die Mobilitätsdienste (MCX). Damit Ihre Clients die für Sie verfügbaren Features richtig definieren und aktivieren können, sollten die Szenarien definiert werden, die es einem Client ermöglichen, Auto Ermittlungs Einträge effektiv zu finden und zu verwenden. Zur Verwendung von autodoscover erfordert Ihre Bereitstellung, dass ein Reverse Proxy die lync Server-Webdienste veröffentlicht, dass DNS-Einträge für das Auflösen von DNS-Abfragen für den lync Server-AutoErmittlungsdienst und die lync Server-Webdienste konfiguriert sind und dass die Zertifikatdienste für Ihr spezifisches Szenario ordnungsgemäß konfiguriert sind.
+Der AutoErmittlungsdienst fungiert als ein einzelner Standort für alle Clients, um Informationen darüber anzufordern, welche Dienste und Features verfügbar sind, und wie Sie mit den Vermittlern Kontakt aufnehmen können – entweder durch einen vollqualifizierten Domänennamen oder eine webuniform Resource Locator-Referenz. Die AutoErmittlung macht eine Reihe von Features verfügbar, und jeder Client stellt Anforderungen basierend auf den Features, die der Client verwenden kann, zur Verfügung. Beispielsweise verwendet ein Desktop lync 2013-Client autodiscvoer, um die externen Webdienste zu ermitteln, verwendet jedoch nicht die Mobilitätsdienste (MCX). Um Ihre Clients ordnungsgemäß zu definieren und zu aktivieren, um die verfügbaren Features zu verwenden, sollten die Szenarien definiert werden, die es einem Client ermöglichen, Auto Ermittlungs Einträge effektiv zu finden und zu verwenden. Für die Verwendung von autodoscover erfordert die Bereitstellung, dass ein Reverseproxy die lync Server-Webdienste veröffentlicht, dass DNS-Einträge so konfiguriert sind, dass DNS-Abfragen für den lync Server AutoErmittlungsdienst und lync Server Webdienste aufgelöst werden und dass die Zertifikatdienste für Ihr spezifisches Szenario ordnungsgemäß konfiguriert sind.
 
 <div>
 
 
 > [!TIP]  
-> Technische Informationen dazu, welche Elemente in der Auto Ermittlungsanforderung/-Antwort ausgeführt werden, finden Sie unter <A href="lync-server-2013-understanding-autodiscover.md">Grundlegendes zu AutoErmittlung in lync Server 2013</A>.
+> Technische Details zu den Elementen in der Anforderung/Antwort der AutoErmittlung finden Sie unter <A href="lync-server-2013-understanding-autodiscover.md">Understanding AutoErmittlung in lync Server 2013</A>.
 
 
 
 </div>
 
-Die folgenden Informationen und Tabellen definieren pro Szenario, welche Konfigurationen (sofern vorhanden) Sie implementieren müssen, um die vollständige und effektive Verwendung des AutoErmittlungsdiensts bereitzustellen. Die Informationen in den folgenden Themen sind spezifisch für Microsoft lync Server 2013. Wenn Sie nach Anleitungen zum Planen der Mobilität für lync Server 2010 suchen, lesen Sie [http://go.microsoft.com/fwlink/?LinkId=275113](http://go.microsoft.com/fwlink/?linkid=275113). Informationen zum Bereitstellen von Mobility für lync Server 2010 finden Sie unter[http://go.microsoft.com/fwlink/?LinkId=275114](http://go.microsoft.com/fwlink/?linkid=275114)
+Die folgenden Informationen und Tabellen definieren pro Szenario, welche Konfigurationen (falls vorhanden) Sie implementieren müssen, um die vollständige und effektive Verwendung des AutoErmittlungsdiensts bereitzustellen. Die Informationen in den folgenden Themen sind spezifisch für Microsoft lync Server 2013. Informationen zum Planen der Mobilität für lync Server 2010 finden Sie unter [http://go.microsoft.com/fwlink/?LinkId=275113](http://go.microsoft.com/fwlink/?linkid=275113). Informationen zum Bereitstellen von Mobilität für lync Server 2010 finden Sie unter[http://go.microsoft.com/fwlink/?LinkId=275114](http://go.microsoft.com/fwlink/?linkid=275114)
 
 <div>
 

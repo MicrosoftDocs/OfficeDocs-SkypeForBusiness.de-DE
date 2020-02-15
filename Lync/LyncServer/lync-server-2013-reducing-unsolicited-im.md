@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Reduzieren von nicht angeforderten Chatnachrichten'
+title: 'Lync Server 2013: Reduzieren von unerwünschten Sofortnachrichten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 62625493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0f8326d6fa9f85b202e0ea2dcbe3fed63a723aa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5574930d6474a75ca4a35219df7cd2e3e2431b15
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724449"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050127"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="reducing-unsolicited-im-for-lync-server-2013"></a>Reduzieren von nicht angeforderten Chatnachrichten für Lync Server 2013
+# <a name="reducing-unsolicited-im-for-lync-server-2013"></a>Reduzieren von unerwünschten Sofortnachrichten für lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41724449"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-12-05_
+_**Letztes Änderungsstand des Themas:** 2013-12-05_
 
-Die intelligente Chat Filter-Anwendung schützt Ihre Microsoft lync Server 2013-Bereitstellung vor den häufigsten Viren mit minimaler Beeinträchtigung der Benutzererfahrung. Der intelligente Chat-Filter bietet Folgendes:
+Die intelligente Sofortnachrichten-Filter Anwendung schützt Ihre Microsoft lync Server 2013-Bereitstellung vor den häufigsten Viren mit minimaler Beeinträchtigung der Benutzeroberfläche. Der intelligente Sofortnachrichtenfilter bietet folgende Funktionen:
 
-  - Erweiterte URL-Filterung
+  - Verbesserte URL-Filterung
 
-  - Verbesserte Filter für die Dateiübertragung
+  - Verbesserte Filterung von Dateiübertragungen
 
-Verwenden Sie den intelligenten Chatfilter, um Filter so zu konfigurieren, dass unerwünschte oder potenziell schädliche Sofortnachrichten von unbekannten Endpunkten außerhalb der Unternehmensfirewall blockiert werden. Sie konfigurieren Filter, indem Sie die Kriterien angeben, die verwendet werden sollen, um zu bestimmen, was blockiert werden soll, beispielsweise Sofortnachrichten mit Links und Dateien mit bestimmten Erweiterungen.
+Konfigurieren Sie mit dem intelligenten Sofortnachrichtenfilter Filter zum Blockieren unerwünschter oder potenziell schädlicher Sofortnachrichten von unbekannten Endpunkten außerhalb der Unternehmensfirewall. Zum Konfigurieren von Filtern geben Sie die Kriterien an, anhand derer die zu blockierenden Elemente, z. B. Sofortnachrichten mit Links und Dateien mit bestimmten Erweiterungen, ermittelt werden sollen.
 
-Bevor Sie die intelligente Chat-Nachrichten Filter Anwendung bereitstellen, sollten Sie wissen, wie Filteroptionen angewendet werden, wenn Nachrichten von einem lync Server 2013-Server an einen anderen weitergeleitet werden. Die Art und Weise, wie diese Filteroptionen angewendet werden, ist konsistent, unabhängig davon, ob sich die Server in einer einzelnen Organisation oder unternehmensübergreifend befinden. Diese Konsistenz bezieht sich auf die Art und Weise, in der benutzerdefinierte Hinweise und Warnungstexte in Nachrichten eingefügt und serverübergreifend gesendet werden.
+Bevor Sie die Filteranwendung für den intelligenten Chat Nachrichtendienst bereitstellen, sollten Sie wissen, wie Filteroptionen angewendet werden, wenn Nachrichten von einem lync Server 2013 Server an einen anderen weitergeleitet werden. Die Art der Anwendung von Filteroptionen ist konsistent, unabhängig davon, ob die Server sich in einer einzigen Organisation oder in mehreren Organisationen befinden. Diese Konsistenz betrifft die Art und Weise, wie benutzerdefinierte Hinweise und Warntexte in Nachrichten eingefügt und über Server übermittelt werden.
 
-Die empfohlene Filteroption besteht darin, Sofortnachrichten mit Hyperlinks zuzulassen, aber den intelligenten Chat-Filter zum Deaktivieren der Verknüpfung zu erzwingen, indem Sie einen Unterstrich davor einfügen. Wenn Sie diese Option auswählen, haben Sie die zusätzliche Möglichkeit, eine Benachrichtigung an Benutzer zu verfassen, die am Anfang jeder Chatnachricht angezeigt wird, die einen Link enthält.
+Es empfiehlt sich, die Filteroptionen so einzustellen, dass Sofortnachrichten mit Hyperlinks zugelassen sind, der intelligente Sofortnachrichtenfilter jedoch einen Unterstrich davor einfügen muss, damit der Link deaktiviert wird. Wenn Sie diese Option auswählen, können Sie zusätzlich einen Hinweis an die Benutzer verfassen, der am Anfang jeder Sofortnachricht angezeigt wird, die einen Hyperlink enthält.
 
-Eine zweite Filteroption besteht darin, Sofortnachrichten mit nicht geänderten Hyperlinks zu ermöglichen. Wenn Sie diese Option auswählen, haben Sie die zusätzliche Option (empfohlen) zum Verfassen einer Warnung für Benutzer, die in jede Nachricht eingefügt wird.
+Eine zweite Filteroption besteht darin, Sofortnachrichten mit nicht veränderten Hyperlinks zuzulassen. Wenn Sie diese Option auswählen, können Sie zusätzlich eine Warnung an die Benutzer verfassen (empfohlen), die in jede Nachricht eingefügt wird.
 
-Eine dritte Möglichkeit besteht darin, alle Sofortnachrichten, die Links enthalten, zu blockieren. Wenn Sie diese Option auswählen, sendet der Server eine Warnung an den Benutzer. Sie müssen diese Warnung schreiben.
+Eine dritte Option besteht darin, alle Sofortnachrichten mit Hyperlinks zu blockieren. Wenn Sie diese Option wählen, sendet der Server eine Warnung an den Benutzer. Diese Warnung müssen Sie selbst verfassen.
 
 </div>
 

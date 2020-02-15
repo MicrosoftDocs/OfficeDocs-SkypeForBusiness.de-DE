@@ -12,16 +12,16 @@ ms:contentKeyID: 49733754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c60e018a86ec0838791d5fc46845460b5f039f23
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d6eb00b5efcd811d0fbf1397bce5f8b965c9110
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741155"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046348"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41741155"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-12_
+_**Letztes Änderungsstand des Themas:** 2012-11-12_
 
-Die Server-zu-Server-Authentifizierung umfasst in der Regel drei Entitäten: die beiden Server, die miteinander kommunizieren müssen, und einen Sicherheitstoken-Server eines Drittanbieters. Wenn zwei Server (beispielsweise Server A und Server B) kommunizieren müssen, beginnen diese beiden Server in der Regel mit einem tokenserver, und Sie erhalten ein gegenseitig vertrauenswürdiges Sicherheitstoken. Server a stellen Sie dann dieses Sicherheitstoken auf Server B (und umgekehrt) als eine Möglichkeit dar, um seine Authentizität und Zuverlässigkeit zu gewährleisten.
+An einer Authentifizierung zwischen Servern sind üblicherweise drei Entitäten beteiligt: Die beiden Server, die miteinander kommunizieren müssen, und ein Sicherheitstokenserver eines Drittanbieters. Wenn zwei Server (z. B. Server A und Server B) miteinander kommunizieren müssen, beginnen beide Server in der Regel damit, dass sie einen Tokenserver kontaktieren und ein gegenseitig als vertrauenswürdig eingestuftes Sicherheitstoken erhalten. Server A präsentiert das Sicherheitstoken dann Server B (und umgekehrt), womit beide ihre Authentizität und Vertrauenswürdigkeit nachweisen.
 
-Das ist jedoch eine allgemeine Regel. Lync Server 2013, Microsoft Exchange Server 2013 und Microsoft SharePoint Server 2013 müssen keinen tokenserver eines Drittanbieters verwenden, wenn Sie miteinander kommunizieren. Das liegt daran, dass diese Serverprodukte Sicherheitstoken erstellen können, die voneinander akzeptiert werden können, ohne dass ein separater tokenserver erforderlich ist. (Diese Funktion steht nur in lync Server 2013, Exchange 2013 und SharePoint Server 2013 zur Verfügung. Wenn Sie die Server-zu-Server-Authentifizierung für andere Server, einschließlich anderer Microsoft-Serverprodukte, einrichten müssen, müssen Sie dies unter Verwendung eines tokenserver eines Drittanbieters tun.)
+Dies ist jedoch eine allgemeine Regel. Lync Server 2013, Microsoft Exchange Server 2013 und Microsoft SharePoint Server 2013 müssen bei der Kommunikation miteinander keinen tokenserver eines Drittanbieters verwenden. Das liegt daran, dass diese Serverprodukte Sicherheitstoken erstellen können, die miteinander akzeptiert werden können, ohne dass ein separater tokenserver erforderlich ist. (Diese Funktion steht nur in lync Server 2013, Exchange 2013 und SharePoint Server 2013 zur Verfügung. Wenn Sie die Server-zu-Server-Authentifizierung für andere Server, einschließlich anderer Microsoft-Serverprodukte, einrichten müssen, müssen Sie dies mit einem Drittanbieter-tokenserver tun.)
 
-Damit Sie die Server-zu-Server-Authentifizierung zwischen lync Server und Exchange einrichten können, müssen Sie zwei Schritte ausführen: 1) Sie müssen jedem Server die entsprechenden Zertifikate zuweisen. und 2) Sie müssen jeden Server als Partneranwendung des anderen Servers konfigurieren: Dies bedeutet, dass Sie lync Server 2013 so konfigurieren müssen, dass es sich um eine Partneranwendung für Exchange 2013 handelt, und Sie müssen Exchange 2013 so konfigurieren, dass es sich um eine Partneranwendung für lync Server 2013 handelt.
+Um die Server-zu-Server-Authentifizierung zwischen lync Server und Exchange einzurichten, müssen Sie zwei Dinge tun: 1) Sie müssen jedem Server die entsprechenden Zertifikate zuweisen. und, 2) Sie müssen jeden Server als Partneranwendung des anderen Servers konfigurieren: das heißt, Sie müssen lync Server 2013 als Partneranwendung für Exchange 2013 konfigurieren, und Sie müssen Exchange 2013 als Partneranwendung für lync Server 2013 konfigurieren.
 
 <div>
 
 ## <a name="configuring-lync-server-2013-to-be-a-partner-application-for-exchange-2013"></a>Konfigurieren von lync Server 2013 als Partner Anwendung für Exchange 2013
 
-Die einfachste Möglichkeit, lync Server 2013 auf eine Partneranwendung mit Exchange 2013 zu konfigurieren, besteht darin, das configure-EnterprisePartnerApplication. ps1-Skript auszuführen, ein Windows PowerShell-Skript, das mit Exchange 2013 ausgeliefert wird. Um dieses Skript ausführen zu können, müssen Sie die URL für das Dokument für die lync Server-authentifizierungsmetadaten angeben. Dies ist in der Regel der vollqualifizierte Domänenname des lync Server 2013-Pools, gefolgt vom Suffix/Metadata/JSON/1. Beispiel:
+Am einfachsten können Sie lync Server 2013 als Partneranwendung mit Exchange 2013 konfigurieren, indem Sie das configure-EnterprisePartnerApplication. ps1-Skript ausführen, ein Windows PowerShelles Skript, das mit Exchange 2013 ausgeliefert wird. Um dieses Skript auszuführen, müssen Sie die URL für das Dokument lync Server authentifizierungsmetadaten angeben. Dabei handelt es sich normalerweise um den vollqualifizierten Domänennamen des lync Server 2013 Pools gefolgt vom Suffix/Metadata/JSON/1. Beispiel:
 
     https://atl-cs-001.litwareinc.com/metadata/json/1
 
-Wenn Sie lync Server als Partneranwendung konfigurieren möchten, öffnen Sie die Exchange-Verwaltungsshell, und führen Sie einen ähnlichen Befehl aus (vorausgesetzt, Exchange wurde auf Laufwerk C: installiert und verwendet den Standardordnerpfad):
+Wenn Sie lync Server als Partneranwendung konfigurieren möchten, öffnen Sie das Exchange-Verwaltungsshell, und führen Sie einen Befehl wie den folgenden aus (vorausgesetzt, dass Exchange auf Laufwerk C: installiert wurde und der Standardordnerpfad verwendet wird):
 
     "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-cs-001.litwareinc.com/metadata/json/1' -ApplicationType Lync"
 
-Nachdem Sie die Partneranwendung konfiguriert haben, empfiehlt es sich, Internet Informationsdienste (IIS) auf Ihrem Exchange-Postfach und den Clientzugriffsservern zu beenden und neu zu starten. Sie können IIS neu starten, indem Sie einen ähnlichen Befehl verwenden, mit dem der Dienst auf dem Computer "ATL-Exchange-001" neu gestartet wird:
+Nach dem Konfigurieren der Partneranwendung wird empfohlen, Internet Information Services (IIS) auf Ihrem Exchange-Postfach und den Clientzugriffsservern zu beenden und neu zu starten. Sie können IIS mithilfe eines Befehls, der dem folgenden ähnelt, neu starten, um den Dienst auf dem Computer mit ATL-Exchange-001 neu zu starten:
 
     iisreset atl-exchange-001
 
-Dieser Befehl kann in der Exchange-Verwaltungsshell oder in einem anderen Befehlsfenster ausgeführt werden, das unter Administratorprivilegien ausgeführt wird.
+Dieser Befehl kann in der Exchange-Verwaltungsshell oder in einem anderen Befehlsfenster ausgeführt werden, das unter Administratorrechten ausgeführt wird.
 
 </div>
 
@@ -67,25 +67,25 @@ Dieser Befehl kann in der Exchange-Verwaltungsshell oder in einem anderen Befehl
 
 ## <a name="configuring-exchange-2013-to-be-a-partner-application-for-lync-server-2013"></a>Konfigurieren von Exchange 2013 als Partner Anwendung für lync Server 2013
 
-Nachdem Sie lync Server 2013 als Partneranwendung für Exchange 2013 konfiguriert haben, müssen Sie Exchange so konfigurieren, dass es sich um eine Partneranwendung für lync Server handelt. Dies kann mithilfe der lync Server-Verwaltungsshell und dem Angeben des Dokuments für die authentifizierungsmetadaten für Exchange erfolgen. Dies ist in der Regel der URI des Exchange-AutoErmittlungsdiensts, gefolgt vom Suffix/Metadata/JSON/1. Beispiel:
+Nachdem Sie lync Server 2013 als Partneranwendung für Exchange 2013 konfiguriert haben, müssen Sie Exchange als Partneranwendung für lync Server konfigurieren. Hierzu können Sie die lync Server-Verwaltungsshell verwenden und das Dokument "authentifizierungsmetadaten" für Exchange angeben. Dies ist normalerweise der URI des Exchange-AutoErmittlungsdiensts, gefolgt vom Suffix/Metadata/JSON/1. Beispiel:
 
     https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 
-In lync Server werden Partneranwendungen mithilfe des Cmdlets [New-CsPartnerApplication](https://technet.microsoft.com/en-us/library/JJ204628(v=OCS.15)) konfiguriert. Zusätzlich zur Angabe des Metadaten-URIs sollten Sie auch die Vertrauensebene der Anwendung auf Full festlegen. Dadurch kann Exchange sowohl sich selbst als auch alle autorisierten Benutzer im Bereich darstellen. Beispiel:
+In lync Server werden Partneranwendungen mithilfe des [New-cspartnerapplication "-](https://technet.microsoft.com/library/JJ204628(v=OCS.15)) Cmdlets konfiguriert. Zusätzlich zur Angabe des Metadaten-URI sollten Sie auch die Vertrauensebene der Anwendung auf Full festlegen. Dadurch kann Exchange sowohl sich selbst als auch alle autorisierten Benutzer im Bereich darstellen. Beispiel:
 
     New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 
-Sie können eine Partneranwendung auch erstellen, indem Sie den Skriptcode, der in der Dokumentation zur Server-zu-Server-Authentifizierung von lync Server 2013 gefunden wurde, kopieren und ändern. Weitere Informationen finden Sie im Artikel [Verwalten von Server-zu-Server-Authentifizierung (OAuth) und Partneranwendungen in lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) .
+Alternativ können Sie eine Partneranwendung erstellen, indem Sie den Skriptcode kopieren und ändern, der in der Dokumentation lync Server 2013 Server-zu-Server-Authentifizierung enthalten ist. Weitere Informationen finden Sie im Artikel [Managing Server-to-Server Authentication (OAuth) and Partner Applications in lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) .
 
-Wenn Sie erfolgreich Partneranwendungen für lync Server und Exchange konfiguriert haben, bedeutet dies, dass Sie auch die Server-zu-Server-Authentifizierung zwischen den beiden Produkten erfolgreich konfiguriert haben. Lync Server 2013 enthält ein Windows PowerShell-Cmdlet, [Test-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15)), mit dem Sie überprüfen können, ob die Server-zu-Server-Authentifizierung ordnungsgemäß konfiguriert wurde und der lync Server-Speicherdienst eine Verbindung mit Exchange 2013 herstellen kann. Das Cmdlet führt dazu eine Verbindung mit dem Postfach eines Exchange 2013-Benutzers, wobei ein Element in den Ordner "Konversations Verlauf" für diesen Benutzer geschrieben wird, und dann optional das Element gelöscht.
+Wenn Sie Partneranwendungen sowohl für lync Server als auch für Exchange erfolgreich konfiguriert haben, bedeutet dies, dass Sie die Server-zu-Server-Authentifizierung zwischen den beiden Produkten erfolgreich konfiguriert haben. Lync Server 2013 enthält ein Windows PowerShell-Cmdlet, [Test-csexstorageconnectivity "](https://technet.microsoft.com/library/JJ204740(v=OCS.15)), mit dem Sie sicherstellen können, dass die Server-zu-Server-Authentifizierung ordnungsgemäß konfiguriert wurde und dass der lync Server-Speicherdienst eine Verbindung mit Exchange 2013 herstellen kann. Das Cmdlet tut dies, indem eine Verbindung mit dem Postfach eines Exchange 2013 Benutzers hergestellt wird, ein Element in den Ordner Unterhaltungsverlauf für diesen Benutzer geschrieben wird und dann optional das Element gelöscht wird.
 
-Um die Integration von lync Server 2013 und Exchange 2013 zu testen, führen Sie in der lync Server-Verwaltungsshell einen ähnlichen Befehl wie den folgenden aus:
+Um die Integration von lync Server 2013 und Exchange 2013 zu testen, führen Sie einen Befehl wie den folgenden aus der lync Server-Verwaltungsshell aus:
 
     Test-CsExStorageConnectivity -SipUri "sip:kenmyer@litwareinc.com"
 
-Im vorangehenden Befehl stellt der SipUri die SIP-Adresse eines Benutzers mit einem Konto in Exchange 2013 dar; Ihr Befehl schlägt fehl, da es sich nicht um ein gültiges Benutzerkonto handelt.
+Im vorherigen Befehl stellt die SipUri die SIP-Adresse eines Benutzers mit einem Konto auf Exchange 2013 dar; der Befehl schlägt fehl, da es sich nicht um ein gültiges Benutzerkonto handelt.
 
-Wenn der Test erfolgreich war und die Verbindung hergestellt ist, können Sie mit der Konfiguration optionaler Funktionen (z. B. der Integration der Archivierung und des einheitlichen Kontaktspeichers) fortfahren.
+Wenn der Test erfolgreich war und die Verbindung hergestellt ist, können Sie mit der Konfiguration optionaler Funktionen, wie der Integration der Archivierung und dem einheitlichen Kontaktspeicher fortfahren.
 
 </div>
 

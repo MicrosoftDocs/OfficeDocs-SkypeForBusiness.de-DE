@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planen von VoIP-Ausfallsicherheit für Zweigstellen'
+title: 'Lync Server 2013: Planen von VoIP-Ausfallsicherheit für Zweigstellenstandorte'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 004790da7562374284e11e28c6e89836a924f654
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 310197cac1f7d75d84cc7c978f9aa7a6f6c66dc9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754755"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050747"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-branch-site-voice-resiliency-in-lync-server-2013"></a>Planen von VoIP-Ausfallsicherheit für Zweigstellen in Lync Server 2013
+# <a name="planning-for-branch-site-voice-resiliency-in-lync-server-2013"></a>Planen von VoIP-Ausfallsicherheit für Zweigstellenstandorte in lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41754755"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Wenn Sie eine Ausfallsicherheit für Zweigstellen, also den Enterprise-VoIP-Dienst mit hoher Verfügbarkeit, bereitstellen möchten, stehen Ihnen drei Möglichkeiten zur Verfügung:
+Wenn Sie Ausfallsicherheit für Zweigstellenstandorte bieten möchten, also einen Enterprise-VoIP-Dienst mit hoher Verfügbarkeit, stehen Ihnen drei Optionen zur Verfügung:
 
   - Survivable Branch Appliance
 
   - Survivable Branch Server
 
-  - Eine vollständige lync Server-Bereitstellung auf der Zweigstelle
+  - Eine vollständige lync Server-Bereitstellung am Zweigstellenstandort
 
-Dieser Leitfaden hilft Ihnen bei der Beurteilung, welche Stabilitäts Lösung für Ihre Organisation am besten geeignet ist und welche PSTN-Konnektivitäts-Lösung auf der Grundlage ihrer Resilienz-Lösung zu verwenden ist. Darüber hinaus können Sie die Bereitstellung der von Ihnen ausgewählten Lösung vorbereiten, indem Sie Voraussetzungen und andere Planungsüberlegungen beschreiben.
+Dieses Handbuch unterstützt Sie bei der Auswertung, welche Ausfallsicherheitslösung am besten für Ihre Organisation geeignet ist. Zudem erfahren Sie, welche PSTN-Anbindung für Ihre Ausfallsicherheitslösung verwendet werden sollte. Darüber hinaus erhalten Sie Unterstützung bei der Vorbereitung auf die Bereitstellung der gewählten Lösung, indem die Voraussetzungen und andere Planungsaspekte erläutert werden.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Ausfallsicherheitsfunktionen für Zweigstellenstandorte in Lync Server 2013](lync-server-2013-branch-site-resiliency-features.md)
+  - [Ausfallsicherheit für Zweigstellenstandorte in lync Server 2013](lync-server-2013-branch-site-resiliency-features.md)
 
-  - [Ausfallsicherheitslösungen für Zweigstellenstandorte in Lync Server 2013](lync-server-2013-branch-site-resiliency-solutions.md)
+  - [Ausfall Sicherheitslösungen für Zweigstellenstandorte in lync Server 2013](lync-server-2013-branch-site-resiliency-solutions.md)
 
-  - [Anforderungen für die Ausfallsicherheit an Zweigstellenstandorten für Lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md)
+  - [Anforderungen für Ausfallsicherheit für Zweigstellenstandorte für lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md)
 
 </div>
 

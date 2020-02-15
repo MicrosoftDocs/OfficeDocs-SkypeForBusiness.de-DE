@@ -12,16 +12,16 @@ ms:contentKeyID: 50873756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1469bb017f9597bcd1fffba54f39e62dc0bd6e96
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8464e64c3de1e85f823bb3e1b5dac4dd1837effd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722435"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41722435"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Sie können clientversionsrichtlinien verwenden, um die Versionen der Clients anzugeben, die in Ihrer Umgebung unterstützt werden. Die Verwendung der Client Versionsverwaltung kann dazu beitragen, die Kosten für die Unterstützung mehrerer Clientversionen zu senken. Darüber hinaus kann die Benutzeroberfläche insgesamt verbessert werden, da die verfügbaren Features durch die frühere Version des Clients limitiert werden können, wenn frühere und spätere Versionen von Clients interagieren. Sie können clientversionsrichtlinien über die lync Server 2013-Systemsteuerung oder die lync Server 2013-Verwaltungsshell erstellen oder ändern.
+Mithilfe von clientversionsrichtlinien können Sie die Versionen von Clients angeben, die in Ihrer Umgebung unterstützt werden. Die Verwendung der Client Versionsverwaltung kann dazu beitragen, die mit der Unterstützung mehrerer Clientversionen verbundenen Kosten zu reduzieren. Es kann auch die gesamtbenutzerfreundlichkeit verbessern, da die verfügbaren Features bei einer Interaktion mit früheren und höheren Versionen der Clients durch die frühere Version des Clients limitiert werden können. Sie können clientversionsrichtlinien in lync Server 2013 Systemsteuerung oder lync Server 2013 Verwaltungsshell erstellen oder ändern.
 
 <div>
 
-## <a name="to-create-or-modify-client-version-policies-by-using-lync-server-control-panel"></a>So erstellen oder ändern Sie clientversionsrichtlinien mithilfe der lync Server-Systemsteuerung
+## <a name="to-create-or-modify-client-version-policies-by-using-lync-server-control-panel"></a>So erstellen oder ändern Sie clientversionsrichtlinien mithilfe von lync Server-Systemsteuerung
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Clients**.
     
@@ -53,18 +53,18 @@ Sie können clientversionsrichtlinien verwenden, um die Versionen der Clients an
     
 
     > [!NOTE]  
-    > Die Registerkarte <STRONG>Client Versionsrichtlinie</STRONG> ist standardmäßig aktiviert.
+    > Die Registerkarte <STRONG>Clientversionsrichtlinie</STRONG> ist standardmäßig ausgewählt.
 
     
     </div>
 
 4.  Führen Sie auf der Seite **Client Versionsrichtlinie** eine der folgenden Aktionen aus:
     
-      - Wenn Sie eine clientversionsrichtlinie erstellen möchten, klicken Sie auf **neu**, wählen Sie **Website Richtlinie**, **Pool Richtlinie**oder **Benutzerrichtlinie**aus, und klicken Sie dann auf **OK**.
+      - Um eine clientversionsrichtlinie zu erstellen, klicken Sie auf **neu**, wählen Sie **Standortrichtlinie**, **Pool Richtlinie**oder **Benutzerrichtlinie**aus, und klicken Sie dann auf **OK**.
     
-      - Wenn Sie die globale Richtlinie oder eine andere vorhandene clientversionsrichtlinie ändern möchten, wählen Sie die Richtlinie aus, klicken Sie auf **Bearbeiten**und dann auf **Details anzeigen**.
+      - Um die globale Richtlinie oder eine andere vorhandene clientversionsrichtlinie zu ändern, wählen Sie die Richtlinie aus, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**.
 
-5.  Erstellen oder ändern Sie auf der Seite **Richtlinie zum Bearbeiten der Client Version** Regeln, wie unter [erstellen oder Ändern einer neuen clientversionsrichtlinien Regel in lync Server 2013](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)beschrieben.
+5.  Erstellen oder ändern Sie auf der Seite **clientversionsrichtlinie bearbeiten** in lync Server 2013 die in [erstellen oder Ändern einer neuen clientversionsrichtlinien Regel](lync-server-2013-create-or-modify-a-new-client-version-policy-rule.md)beschriebenen Regeln.
 
 </div>
 
@@ -72,13 +72,13 @@ Sie können clientversionsrichtlinien verwenden, um die Versionen der Clients an
 
 ## <a name="creating-or-modifying-client-version-policies-by-using-windows-powershell-cmdlets"></a>Erstellen oder Ändern von Client Versionsrichtlinien mithilfe von Windows PowerShell-Cmdlets
 
-Sie können clientversionsrichtlinien mithilfe des Cmdlets **New-CsClientVersionPolicy** erstellen und mithilfe des Cmdlets " **Satz-CsClientVersionPolicy** " ändern. Diese Cmdlets können entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Sie können clientversionsrichtlinien erstellen, indem Sie das Cmdlet **New-CsClientVersionPolicy** verwenden, und Sie mithilfe des Cmdlets "Cmdlet" **festlegen-CsClientVersionPolicy** ändern. Diese Cmdlets können entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
-## <a name="to-create-a-new-site-scoped-client-version-policy"></a>So erstellen Sie eine neue Richtlinie für Clientversionen mit Website Bereich
+## <a name="to-create-a-new-site-scoped-client-version-policy"></a>So erstellen Sie eine neue clientversionsrichtlinie für Standort Bereiche
 
-  - Mit dem folgenden Befehl wird eine neue clientversionsrichtlinie erstellt, die auf die Redmond-Website angewendet wurde. Da keine zusätzlichen Parameter angegeben werden, werden in der neuen Richtlinie die Standardeinstellungen für Clientversionen verwendet.
+  - Mit dem folgenden Befehl wird eine neue clientversionsrichtlinie erstellt, die auf den Standort "Redmond" angewendet wird. Da keine zusätzlichen Parameter angegeben werden, verwendet die neue Richtlinie die Standardeinstellungen für Clientversionen.
     
         New-CsClientVersionPolicy -Identity "site:Redmond"
 
@@ -86,15 +86,15 @@ Sie können clientversionsrichtlinien mithilfe des Cmdlets **New-CsClientVersion
 
 <div>
 
-## <a name="to-create-a-new-per-user-client-version-policy"></a>So erstellen Sie eine neue Richtlinie für benutzerspezifische Clientversionen
+## <a name="to-create-a-new-per-user-client-version-policy"></a>So erstellen Sie eine neue clientversionsrichtlinie pro Benutzer
 
-  - Verwenden Sie zum Erstellen einer benutzerbezogenen Richtlinie einen Befehl wie den folgenden:
+  - Verwenden Sie einen Befehl wie den folgenden, um eine benutzerspezifische Richtlinie zu erstellen:
     
         New-CsClientVersionPolicy -Identity "RedmondClientVersionPolicy"
 
 </div>
 
-Ausführliche Informationen finden Sie in den Hilfethemen zum Cmdlet [New-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsClientVersionPolicy) und dem Cmdlet " [Satz-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionPolicy) ".
+Ausführliche Informationen finden Sie in den Hilfethemen für das [New-CsClientVersionPolicy-](https://docs.microsoft.com/powershell/module/skype/New-CsClientVersionPolicy) Cmdlet und das Cmdlet "Set [-CsClientVersionPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientVersionPolicy) ".
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183875
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8b425ce1e0627645f84223f36f6fc0de18b5af8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7c5c74a11adfb3785196352f3c03772028e73ec9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734395"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045847"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-routes-for-outbound-calls-in-lync-server-2013"></a>Konfigurieren von VoIP-Routen für ausgehende Anrufe in Lync Server 2013
+# <a name="configuring-voice-routes-for-outbound-calls-in-lync-server-2013"></a>Konfigurieren von VoIP-Routen für ausgehende Anrufe in lync Server 2013
 
 </div>
 
@@ -35,38 +35,38 @@ ms.locfileid: "41734395"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Eine lync Server 2013-VoIP-Route verknüpft Zielrufnummern mit einem oder mehreren PSTN-Gateways (Public Switched Telephone Network) oder SIP-Stämmen sowie einem oder mehreren PSTN-Nutzungsdaten Sätzen.
+Eine lync Server 2013 VoIP-Route ordnet Zielrufnummern ein oder mehrere PSTN-Gateways (Public Switched Telephone Network) oder SIP-Trunks sowie mindestens einen PSTN-Verwendungsdaten Satz zu.
 
-**So zeigen Sie VoIP-Routen mithilfe der lync Server-Systemsteuerung an**
+**So zeigen Sie VoIP-Routen mithilfe von lync Server-Systemsteuerung an**
 
-1.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  Klicken Sie auf **VoIP-Routing**.
 
 3.  Klicken Sie auf **Route**.
 
-4.  Doppelklicken Sie auf eine VoIP-Route, um weitere Eigenschaften aus der Liste der VoIP-Routen anzuzeigen, oder wählen Sie die Route aus, und klicken Sie auf **Bearbeiten**. Klicken Sie dann auf **Details anzeigen**.
+4.  Doppelklicken Sie auf eine VoIP-Route, um zusätzliche Eigenschaften aus der Liste der VoIP-Routen anzuzeigen, oder wählen Sie die Route aus, und klicken Sie auf **Bearbeiten**. Klicken Sie dann auf **Details anzeigen**.
     
     <div>
     
 
     > [!NOTE]  
-    > Sie können nur detaillierte Informationen zu einer einzelnen Route gleichzeitig anzeigen.
+    > Sie können nur jeweils für eine einzelne Route Detailinformationen anzeigen.
 
     
     </div>
 
 **So zeigen Sie VoIP-Routen mithilfe von Windows PowerShell an**
 
-  - Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**. VoIP-Routen können mithilfe von Windows PowerShell und dem Cmdlet **Get-CsVoiceRoute** angezeigt werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+  - Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**. VoIP-Routen können mit Windows PowerShell und dem Cmdlet **Get-CsVoiceRoute** angezeigt werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
     
-    Wenn Sie Informationen zu allen VoIP-Routen anzeigen möchten, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
+    Wenn Sie Informationen zu allen VoIP-Routen anzeigen möchten, geben Sie den folgenden Befehl in das lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsVoiceRoute
     
-    Es werden etwa folgende Informationen zurückgegeben:
+    Hiermit werden Informationen zurückgegeben, die so oder ähnlich aussehen:
     
         Identity          : global
         Priority          : -1
@@ -103,7 +103,7 @@ Eine lync Server 2013-VoIP-Route verknüpft Zielrufnummern mit einem oder mehrer
 ## <a name="see-also"></a>Siehe auch
 
 
-[Verwalten des VoIP-Routings in Lync Server 2013](lync-server-2013-managing-voice-routing.md)  
+[Verwalten des VoIP-Routings in lync Server 2013](lync-server-2013-managing-voice-routing.md)  
   
 
 </div>

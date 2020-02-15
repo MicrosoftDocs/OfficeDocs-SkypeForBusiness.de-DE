@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planen der Darstellung der freigegebenen Zeile'
+title: 'Lync Server 2013: Planen der Darstellung freigegebener Leitungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 72522136
 ms.date: 03/21/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 755bff84b8902e346135139d1c8c5b26c55605c1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fdb4f8ad407950f8d3180d030ede03a1e93cf0b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755165"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050597"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="plan-for-shared-line-appearance-in-lync-server-2013"></a>Planen der Darstellung der freigegebenen Zeile in lync Server 2013
+# <a name="plan-for-shared-line-appearance-in-lync-server-2013"></a>Planen der Darstellung freigegebener Leitungen in lync Server 2013
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41755165"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2016-03-21_
+_**Letztes Änderungsstand des Themas:** 2016-03-21_
 
-Lesen Sie dieses Thema, um zu erfahren, wie Sie in lync Server 2013, Kumulatives Update April 2016, die Darstellung der freigegebenen Leitung planen.
+Lesen Sie dieses Thema, um zu erfahren, wie Sie die gemeinsame Darstellung von Leitungen (SLA) in lync Server 2013, Kumulatives Update April 2016, planen.
 
-Die Darstellung der freigegebenen Zeile ist ein Feature in lync Server 2013, Kumulatives Update April 2016 für die Behandlung mehrerer Anrufe an eine bestimmte Nummer, die als freigegebene Nummer bezeichnet wird. SLA kann alle Enterprise-VoIP-aktivierten lync-Benutzer als freigegebene Nummer mit mehreren Zeilen konfigurieren, um auf mehrere Anrufe zu reagieren. Die Anrufe werden für die freigegebene Nummer nicht tatsächlich empfangen, sondern an Benutzer weitergeleitet, die als Stellvertretungen für die freigegebene Nummer fungieren. Jeder Delegierte kann den Anruf annehmen, während die restlichen Teilnehmer eine Benachrichtigung auf dem Telefon erhalten, wer den Anruf aufgenommen hat und welche Zeile damit ausgelastet ist. Die Anzahl der Zeilen und die Stellvertretungen können für eine freigegebene Nummer in SLA konfiguriert werden. Darüber hinaus können erweiterte Optionen wie BusyOption (was in einer Situation geschieht, wenn alle Zeilen ausgelastet sind) und MissedCallOption (der Fall, in dem keiner der Stellvertretungen einen Anruf annimmt) auch für eine freigegebene Nummer konfiguriert werden.
+Die Darstellung freigegebener Leitungen ist ein Feature in lync Server 2013, Kumulatives Update April 2016 für die Verarbeitung mehrerer Anrufe für eine bestimmte Nummer, die als freigegebene Nummer bezeichnet wird. Mit SLA können alle Enterprise-VoIP-aktivierten lync-Benutzer als freigegebene Nummer mit mehreren Zeilen konfiguriert werden, um auf mehrere Anrufe zu reagieren. Die Anrufe werden nicht tatsächlich auf der freigegebenen Nummer empfangen, sondern werden an Benutzer weitergeleitet, die als Stellvertreter für die freigegebene Nummer fungieren. Jeder der Stellvertretungen kann den Anruf annehmen, während der Rest der Stellvertreter eine Benachrichtigung auf seinem Telefon erhält, wer den Anruf abgeholt hat und welche Leitung damit beschäftigt geworden ist. Sowohl die Anzahl der Zeilen als auch die Stellvertretungen können für eine freigegebene Nummer in SLA konfiguriert werden. Darüber hinaus können erweiterte Optionen wie BusyOption (was in einer Situation passiert, wenn alle Zeilen beschäftigt sind) und MissedCallOption (der Fall, in dem keine der Stellvertreter einen Anruf abruft) auch für eine freigegebene Nummer konfiguriert werden.
 
-SLA wird nur auf den folgenden Telefongeräten unterstützt (es wird für lync-Clients auf Computern, Mobiltelefonen oder anderen Geräten nicht unterstützt):
+SLA wird nur auf den folgenden Telefongeräten unterstützt (wird für lync-Clients auf Computern, Mobiltelefonen oder anderen Geräten nicht unterstützt):
 
-  - Polycom VVX300 mit Firmwareupdate 5.4.1
+  - Polycom VVX300 mit Firmware-Update 5.4.1
 
-  - Polycom VVX400 mit Firmwareupdate 5.4.1
+  - Polycom VVX400 mit Firmware-Update 5.4.1
 
-  - Polycom VVX500 mit Firmwareupdate 5.4.1
+  - Polycom VVX500 mit Firmware-Update 5.4.1
 
-  - Polycom VVX600 mit Firmwareupdate 5.4.1
+  - Polycom VVX600 mit Firmware-Update 5.4.1
 
 SLA ist ein neues Feature in lync Server 2013, Kumulatives Update April 2016.
 
-Informationen zum Bereitstellen von SLA finden Sie unter [Bereitstellen der freigegebenen Leitungsdarstellung in lync Server 2013](lync-server-2013-deploy-shared-line-appearance.md).
+Informationen zum Bereitstellen von SLA finden Sie unter [Deploy Shared Online Appearance in lync Server 2013](lync-server-2013-deploy-shared-line-appearance.md).
 
 <div>
 
-## <a name="feature-list"></a>Liste der Funktionen
+## <a name="feature-list"></a>Funktionsliste
 
-Das Einrichten einer SLA-Gruppe macht Folgendes möglich:
+Das Einrichten einer SLA-Gruppe ermöglicht Folgendes:
 
-  - Alle Stellvertretungen in der Gruppe können eingehende Anrufe für dieselbe gemeinsam genutzte Nummer annehmen. Diese Anrufe können Festnetz- oder SIP-Anrufe sein.
+  - Alle Stellvertretungen in der Gruppe können eingehende Anrufe an dieselbe freigegebene Nummer beantworten. Die Anrufe können PSTN-basiert oder auf SIP-Basis erfolgen.
 
-  - Stellvertretungen können Anrufe halten und annehmen.
+  - Stellvertretungen können Anrufe abhalten und annehmen.
 
-  - Stellvertretungen können Anrufe an eine Nummer außerhalb der SLA-Gruppe weiterleiten.
+  - Delegaten können Anrufe an eine Nummer außerhalb der SLA-Gruppe weiterleiten.
 
-  - Stellvertretungen bekommen angezeigt, wie viele Anrufe es aktuell für die gemeinsam genutzte Nummer gibt, und sie können den Status jedes einzelnen Anrufs einsehen.
+  - Stellvertretungen können sehen, wie viele Anrufe derzeit für die freigegebene Nummer verwendet werden, und den Status jedes dieser Anrufe anzeigen.
 
-  - Sie können eine maximale Anzahl gleichzeitiger Anrufe für die gemeinsam genutzte Nummer konfigurieren. Sie können auch einstellen, wie zusätzliche Anrufe behandelt werden sollen, wenn die maximale Anzahl erreicht worden ist. Zusätzliche Anrufe können mit einem Besetztzeichen abgewiesen, an eine alternative Nummer oder an Voicemail weitergeleitet werden.
+  - Sie können eine maximale Anzahl gleichzeitiger Anrufe für die freigegebene Nummer konfigurieren. Sie können auch festlegen, wie zusätzliche Anrufe verarbeitet werden sollen, nachdem dieser Höchstwert erreicht wurde. Überschüssige Anrufe können mit einem Besetztzeichen zurückgewiesen, an eine Alternative Nummer weitergeleitet oder an Voicemail weitergeleitet werden.
 
-  - Sie können konfigurieren, wie entgangene Anrufe (solche, die nach einer festgelegten Zeit nicht angenommen worden sind) behandelt werden sollen. Wenn Sie Voicemail für die Gruppenidentität aktivieren, gehen entgangene Anrufe automatisch an die Voicemail. Wenn Voicemail für die Gruppenidentität (gemeinsam genutzte Nummer) nicht aktiviert ist, können Sie wählen, ob entgangene Anrufe mit einem Besetztzeichen abgewiesen, an eine alternative Nummer weitergeleitet oder getrennt werden sollen.
+  - Sie können konfigurieren, wie verpasste Anrufe (Anrufe, die nach einer bestimmten Zeit nicht aufgenommen wurden) verarbeitet werden sollen. Wenn Sie Voicemail für die Gruppenidentität aktivieren, gehen verpasste Anrufe automatisch zu Voicemail. Wenn für die Gruppenidentität (freigegebene Nummer) keine Voicemail aktiviert ist, können Sie auswählen, dass verpasste Anrufe mit einem Besetztzeichen abgelehnt, an eine Alternative Nummer weitergeleitet oder getrennt werden.
 
 </div>
 

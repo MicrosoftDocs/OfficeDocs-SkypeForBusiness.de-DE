@@ -12,20 +12,20 @@ ms:contentKeyID: 48184050
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 781c9e312044193cb6195ee849a880bea6e08485
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47d014d9c2748a5e6479c0f86ebd32255f3361ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756219"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046008"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="export-voice-routing-test-cases-in-lync-server-2013"></a>Exportieren von Testfällen für das VoIP-Routing in Lync Server 2013
+# <a name="export-voice-routing-test-cases-in-lync-server-2013"></a>Exportieren von Testfällen für das VoIP-Routing in lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41756219"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Testfälle bieten Ihnen die Möglichkeit, VoIP-Routen in Ihrer Organisation zu testen: Sie definieren solche Dinge wie die Nummer, die gewählt werden soll, und die Richtlinie für Wähleinstellungen und VoIP, die verwendet werden soll, und lync Server kann dann überprüfen, ob die angegebene Nummer unter diesen Bedingungen erfolgreich an das PSTN-Netzwerk weitergeleitet.
+Testfälle bieten Ihnen die Möglichkeit, VoIP-Routen in Ihrer Organisation zu testen: Sie definieren beispielsweise die Nummer, die gewählt werden soll, und die Wähleinstellungen und die VoIP-Richtlinie, die verwendet werden sollen, und lync Server können dann anhand dieser Bedingungen überprüfen, ob die angegebene Nummer erfolgreich an das PSTN-Netzwerk weitergeleitet.
 
-Testfälle, die mithilfe der lync Server-Systemsteuerung erstellt werden können, werden in der Regel nur auf dem Server gespeichert, auf dem der Fall ursprünglich erstellt und ausgeführt wurde. Diese Testfälle können jedoch als XML-Dateien (mit der Erweiterung. vtest) exportiert und dann auf anderen Servern importiert werden. Auf diese Weise können Sie dieselben Tests auf verschiedenen Computern ausführen, die sich an unterschiedlichen Stellen in Ihrer Topologie befinden.
+Testfälle, die mithilfe von lync Server-Systemsteuerung erstellt werden können, werden normalerweise nur auf dem Server gespeichert, auf dem der Fall ursprünglich erstellt und ausgeführt wurde. Sie können jedoch in Form von XML-Dateien (mit der Erweiterung VTEST) exportiert und dann auf anderen Servern importiert werden. Auf diese Weise können Sie die gleichen Tests auf verschiedenen Computern an unterschiedlichen Standorten in Ihrer Topologie durchführen.
 
 <div>
 
-## <a name="to-export-a-voice-routing-test-case"></a>So exportieren Sie einen Test Case für VoIP-Routing
+## <a name="to-export-a-voice-routing-test-case"></a>So exportieren Sie einen Testfall für das VoIP-Routing
 
-1.  Klicken Sie in der lync Server-Systemsteuerung auf **VoIP-Routing** , und klicken Sie dann auf **VoIP-Routing testen**.
+1.  Klicken Sie in lync Server-Systemsteuerung auf **VoIP-Routing** , und klicken Sie dann auf VoIP- **Routing testen**.
 
-2.  Wählen Sie auf der Registerkarte **VoIP-Routing testen** den Testfall (oder Testfälle) aus, der exportiert werden soll. Wenn Sie mehrere Testfälle auswählen möchten, klicken Sie auf den ersten zu exportierenden Fall, halten Sie dann die STRG-Taste gedrückt, und wählen Sie die zu exportierenden zusätzlichen Fälle aus.
+2.  Wählen Sie auf der Registerkarte **VoIP-Routing testen** den Testfall (oder die Testfälle) aus, die exportiert werden sollen. Sie können mehrere Fälle auswählen, indem Sie auf den ersten Fall klicken, der exportiert werden soll, und beim Klicken auf weitere Fälle die STRG-Taste gedrückt halten.
 
-3.  Klicken Sie auf **Aktion**und dann auf **Test Cases exportieren**.
+3.  Klicken Sie auf **Aktion** und dann auf **Testfälle exportieren**.
 
-4.  Wählen Sie im Dialogfeld **Speichern** unter einen Ordner zum Speichern der exportierten Testfälle aus, und geben Sie im Feld **Dateiname** einen Namen für die resultierende XML-Datei ein. Beachten Sie, dass alle diese Testfälle in einer einzelnen XML-Datei gespeichert werden, wenn Sie mehrere Test Cases exportieren.
+4.  Wählen Sie im Dialogfeld **Speichern unter** einen Ordner aus, in dem die exportierten Testfälle gespeichert werden sollen, und geben Sie einen Namen für die resultierende XML-Datei im Feld **Dateiname** ein. Wenn Sie mehrere Testfälle exportieren, werden alle Testfälle in einer einzelnen XML-Datei gespeichert.
 
-5.  Klicken Sie auf **Speichern**, um die Test Cases zu speichern.
+5.  Klicken Sie auf **Speichern**, um die Testfälle zu speichern.
 
 </div>
 
@@ -62,7 +62,7 @@ Testfälle, die mithilfe der lync Server-Systemsteuerung erstellt werden können
 ## <a name="see-also"></a>Siehe auch
 
 
-[Importieren von Testfällen für das VoIP-Routing in Lync Server 2013](lync-server-2013-import-voice-routing-test-cases.md)  
+[Importieren von Testfällen für das VoIP-Routing in lync Server 2013](lync-server-2013-import-voice-routing-test-cases.md)  
   
 
 </div>

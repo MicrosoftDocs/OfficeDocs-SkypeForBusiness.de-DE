@@ -1,5 +1,5 @@
 ---
-title: Anforderungen an Sicherheit und Konfiguration für Enterprise-VoIP
+title: Sicherheits-und Konfigurationsvoraussetzungen für Enterprise-VoIP
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6530e00a942e2e839eaf4bc2d069212b746e2504
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e4fb37047ec57d281e47d1c03c2f52ed455dcdf7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732574"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048966"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Voraussetzungen für Sicherheit und Konfiguration für Enterprise-VoIP in lync Server 2013
+# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-lync-server-2013"></a>Sicherheits-und Konfigurationsvoraussetzungen für Enterprise-VoIP in lync Server 2013
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "41732574"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-18_
+_**Letztes Änderungsstand des Themas:** 2012-10-18_
 
-Überprüfen Sie, ob Ihre Infrastruktur die folgenden Sicherheits-, Benutzer Konfigurations-und Szenario-spezifischen Hardwarevoraussetzungen erfüllt.
+Stellen Sie sicher, dass Ihre Infrastruktur die folgenden Anforderungen an Sicherheit, Benutzerkonfiguration und die szenariospezifische Hardware erfüllt.
 
 <div>
 
-## <a name="administrative-rights-and-certificate-infrastructure"></a>Administratorrechte und Zertifikatinfrastruktur
+## <a name="administrative-rights-and-certificate-infrastructure"></a>Administrative Rechte und Zertifikatinfrastruktur
 
-Stellen Sie sicher, dass Ihre Umgebung mit den folgenden administrativen Benutzergruppen und der Zertifikatinfrastruktur für die Verwendung während des Enterprise-VoIP-Bereitstellungsprozesses konfiguriert ist.
+Stellen Sie sicher, dass Ihre Umgebung für die Enterprise-VoIP-Bereitstellung mit den folgenden administrativen Benutzergruppen und der angegebenen Zertifikatinfrastruktur konfiguriert ist.
 
-  - Administratoren, die Enterprise-VoIP bereitstellen, sollten Mitglieder der RTCUniversalServerAdmins-Gruppe sein.
+  - Administratoren, die Enterprise-VoIP bereitstellen, sollten Mitglied der Gruppe "RTCUniversalServerAdmins" sein.
 
   - Administratoren, die die Konfigurationsaufgaben ausführen, müssen über geeignete Rechte verfügen:
     
       - **CsVoiceAdministrator:** Diese Administratorrolle kann VoIP-Konfigurationsaufgaben ausführen, VoIP-Anwendungen verwalten und Endbenutzern VoIP-Richtlinien zuweisen.
     
-      - **CsUserAdministrator:** Diese Administratorrolle kann Benutzereigenschaften verwalten, z. B. die Aktivierung von Enterprise-VoIP für einen Benutzer. Diese Administratorrolle kann außerdem benutzerbasierte Richtlinien zuweisen. Hiervon ausgenommen sind die Archivierungsrichtlinie, das Verschieben von Benutzern, das Verwalten von Telefonen in öffentlichen Bereichen und das Verwalten von analogen Geräten.
+      - **CsUserAdministrator:** Diese Administratorrolle kann Benutzereigenschaften verwalten, z. B. die Aktivierung von Enterprise-VoIP für einen Benutzer. Diese Administratorrolle kann außerdem Richtlinien auf Benutzerebene zuweisen. Hiervon ausgenommen ist die Archivierungsrichtlinie, das Verschieben von Benutzern, das Verwalten von Telefonen in öffentlichen Bereichen und das Verwalten von analogen Geräten.
     
-      - **CsAdministrator:** Diese Administratorrolle kann sämtliche Aufgaben ausführen, die mit „CsVoiceAdministrator“ und „CsUserAdministrator“ ausgeführt werden können.
+      - **CsAdministrator:** Diese Administratorrolle kann sämtliche Aufgaben ausführen, die mit "CsVoiceAdministrator" und "CsUserAdministrator" ausgeführt werden können.
     
     <div>
     
 
     > [!NOTE]
-    > Mit der Delegierung können mehr Administratoren an ihrer lync Server-Bereitstellung teilnehmen, ohne unnötigen Zugriff auf Ressourcen zu öffnen.
+    > Die Delegierung ermöglicht es mehr Administratoren, an ihrer lync Server-Bereitstellung teilzunehmen, ohne unnötigen Zugriff auf Ressourcen zu öffnen.
 
     
     </div>
 
-  - Eine Managed Key-Infrastruktur (MKI) wurde mithilfe einer Zertifizierungsstelleninfrastruktur von Microsoft oder einem Drittanbieter bereitgestellt und konfiguriert.
+  - Es wurde mithilfe einer Zertifizierungsstelleninfrastruktur von Microsoft oder einem Drittanbieter eine Managed Key-Infrastruktur (MKI) bereitgestellt und konfiguriert.
     
     <div>
     
 
     > [!NOTE]
-    > Details zu den Zertifikatanforderungen in lync Server finden Sie unter <A href="lync-server-2013-certificate-infrastructure-requirements.md">Zertifikatsinfrastruktur Anforderungen für lync Server 2013</A> in der Planungsdokumentation.
+    > Ausführliche Informationen zu den Zertifikatanforderungen in lync Server finden Sie unter <A href="lync-server-2013-certificate-infrastructure-requirements.md">Certificate Infrastructure Requirements for lync Server 2013</A> in der Planungsdokumentation.
 
     
     </div>
@@ -81,15 +81,15 @@ Stellen Sie sicher, dass Ihre Umgebung mit den folgenden administrativen Benutze
 
 ## <a name="user-configuration"></a>Benutzerkonfiguration
 
-Wenn Sie den Vermittlungsserver mit jedem Front-End-Pool oder Standard Edition-Server während der Front-End-Bereitstellung zusammengestellt haben, wurden die für Enterprise-VoIP erforderlichen Benutzereinstellungen während der Installation der Dateien für diese Server Rollen automatisch konfiguriert.
+Wenn Sie die Vermittlungsserver bei der Front-End-Bereitstellung mit jedem Front-End-Pool oder Standard Edition-Server zusammengestellt haben, wurden die für Enterprise-VoIP erforderlichen Benutzereinstellungen während der Installation der Dateien für diese Server Rollen automatisch konfiguriert.
 
-Wenn Sie die Enterprise-VoIP-Arbeitsauslastung zu diesem Zeitpunkt neu bereitstellen, bevor Sie mit dem Bereitstellungsprozess beginnen, legen Sie für jeden Benutzer, den Sie für Enterprise-VoIP aktivieren möchten, eine primäre Telefonnummer fest. Als Administrator sind Sie dafür verantwortlich, die Eindeutigkeit dieser Nummer sicherzustellen. Vor der Implementierung müssen alle primären Telefonnummern normalisiert (korrekt formatiert) und mithilfe der lync Server-Systemsteuerung in die Eigenschaft des jeweiligen Benutzer- **URI** kopiert werden.
+Wenn Sie Enterprise-VoIP neu bereitstellen, müssen Sie vor Beginn der Bereitstellung eine primäre Rufnummer für jeden Benutzer bereitstellen, der für Enterprise-VoIP aktiviert werden soll. Als Administrator sind Sie dafür verantwortlich, die Eindeutigkeit dieser Nummer sicherzustellen. Vor der Implementierung müssen alle primären Telefonnummern normalisiert (ordnungsgemäß formatiert) und in die **URI** -Eigenschaft jedes Benutzers mit lync Server-Systemsteuerung kopiert werden.
 
 <div>
 
 
 > [!NOTE]
-> Beispiele für primäre Telefonnummern, die für die Bereitstellung von Enterprise-VoIP erforderlich sind, finden Sie im Abschnitt " <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Wählpläne und Normalisierungsregeln" 2013 im</A> Abschnitt " <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Wählpläne und Normalisierungsregeln</A> " in lync Server 2013 in der Planning-Dokumentation.
+> Beispiele für primäre Telefonnummern, die für die Bereitstellung von Enterprise-VoIP erforderlich sind, finden Sie in der Planungsdokumentation unter <A href="lync-server-2013-dial-plans-and-normalization-rules.md">lync Server 2013</A> Abschnitt Wähl <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Einstellungen und Normalisierungsregeln in lync Server 2013</A> .
 
 
 
@@ -99,11 +99,11 @@ Wenn Sie die Enterprise-VoIP-Arbeitsauslastung zu diesem Zeitpunkt neu bereitste
 
 <div>
 
-## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Nächste Schritte: Installieren von Dateien oder Konfigurieren der PSTN-Konnektivität
+## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Nächste Schritte: Installieren von Dateien oder Konfigurieren der PSTN-Anbindung
 
-Nachdem Sie die Voraussetzungen für Software und Umwelt für Enterprise-VoIP überprüft haben, können Sie die folgenden Inhalte für folgende Zwecke verwenden:
+Nachdem Sie überprüft haben, dass die Software- und Umgebungsanforderungen für Enterprise-VoIP erfüllt sind, können Sie die folgenden Schritte ausführen:
 
-  - Installieren Sie den Vermittlungsserver, wie unter [Installieren der Dateien für den Vermittlungsserver in lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md)beschrieben, aber nur, wenn Sie einen eigenständigen Vermittlungsserver oder-Pool bereitstellen möchten, da Vermittlungsserver als Teil des Front-End-Pools oder des Standard Edition-Server Bereitstellungsprozesses installiert werden, wenn Sie zusammengestellt sind.
+  - Installieren Sie die Vermittlungsserver, wie in [Installieren der Dateien für Vermittlungsserver in lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md)beschrieben, jedoch nur, wenn Sie eine eigenständige Vermittlungsserver oder einen Pool bereitstellen möchten, da Vermittlungsserver im Rahmen des Front-End-Pool-oder Standard Edition-Server Bereitstellungsprozesses installiert werden.
 
   - Oder beginnen Sie mit der Konfiguration von Einstellungen für die Weiterleitung von Anrufen für Enterprise-VoIP-Benutzer, wie unter [Konfigurieren von Trunks in lync Server 2013](lync-server-2013-configuring-trunks.md)beschrieben.
 

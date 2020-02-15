@@ -12,20 +12,20 @@ ms:contentKeyID: 48184262
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 484948a01c82dc8ca256e3e50e484c94a9b81de4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a4d5a0024c273dbef8fee16f1fb4b3372692ab4f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731555"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42049237"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblcomplianceparticipant-in-lync-server-2013"></a>tblComplianceParticipant in Lync Server 2013
+# <a name="tblcomplianceparticipant-in-lync-server-2013"></a>tblComplianceParticipant in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41731555"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+_**Letztes Änderungsstand des Themas:** 2012-09-12_
 
 tblComplianceParticipant enthält die aktuellen Teilnehmer pro Kanal und pro Server.
 
@@ -57,45 +57,45 @@ tblComplianceParticipant enthält die aktuellen Teilnehmer pro Kanal und pro Ser
 <tbody>
 <tr class="odd">
 <td><p>channelUri</p></td>
-<td><p>nvarchar (255); nicht NULL</p></td>
-<td><p>Kanal Uniform Resource Identifier (URI).</p></td>
+<td><p>nvarchar (255), nicht NULL</p></td>
+<td><p>Kanal-URI (Uniform Resource Identifier).</p></td>
 </tr>
 <tr class="even">
-<td><p>UserID</p></td>
+<td><p>userId</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Prinzipal-ID des Teilnehmers (entsprechend der Tabelle tblPrincipal. prinID).</p></td>
+<td><p>Prinzipal-ID des Teilnehmers (entsprechend der tblPrincipal.prinID-Tabelle).</p></td>
 </tr>
 <tr class="odd">
 <td><p>joinedAt</p></td>
 <td><p>bigint, nicht NULL</p></td>
-<td><p>Zeitstempel des Joining-Ereignisses</p></td>
+<td><p>Zeitstempel des Ereignisses des Beitritts.</p></td>
 </tr>
 <tr class="even">
 <td><p>partedAt</p></td>
 <td><p>bigint</p></td>
-<td><p>NULL, wenn der Teilnehmer noch verbunden ist. Der Zeitstempel des Kanals, der das Ereignis verlässt, wenn nicht NULL.</p>
-<p>Diese Einträge werden schließlich entfernt, wenn alle Übersetzer das Ereignis verarbeiten.</p></td>
+<td><p>NULL, wenn der Teilnehmer noch immer teilnimmt. Der Zeitstempel des Ereignisses des Verlassens des Kanals, sofern nicht NULL.</p>
+<p>Diese Einträge werden schließlich entfernt, wenn das Ereignis von allen Konvertern verarbeitet wird.</p></td>
 </tr>
 <tr class="odd">
 <td><p>userUri</p></td>
-<td><p>nvarchar (255); nicht NULL</p></td>
-<td><p>Benutzer-URI.</p></td>
+<td><p>nvarchar(255), nicht NULL</p></td>
+<td><p>Benutzer-URI</p></td>
 </tr>
 <tr class="even">
 <td><p>ServerID</p></td>
 <td><p>int</p></td>
-<td><p>Serveridentität (wie in der Tabelle tblServerIdentity. Server-ID).</p></td>
+<td><p>Serveridentität (wie in tblServerIdentity.serverID).</p></td>
 </tr>
 <tr class="odd">
 <td><p>SessionID</p></td>
 <td><p>bigint</p></td>
-<td><p>Server Sitzung. Hierbei handelt es sich um eine Zufallszahl, die bei jedem Start eines Chat-Diensts generiert wird. Sie wird zur Unterscheidung von Sitzungen zum Zweck der Identifizierung verwaister Teilnehmer verwendet.</p></td>
+<td><p>Serversitzung. Zufallszahl, die nach jedem Starten eines Chatdiensts generiert wird. Wird zur Unterscheidung von Sitzungen verwendet, mit dem Zweck, verwaiste Teilnehmer zu identifizieren.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Schlüssel
+### <a name="key"></a>Key
 
 <table>
 <colgroup>
