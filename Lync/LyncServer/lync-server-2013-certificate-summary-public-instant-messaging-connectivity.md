@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Zertifikats Zusammenfassung – öffentliche Instant Messaging-Konnektivität'
+title: 'Lync Server 2013: Zertifikatzusammenfassung – Verbindung mit öffentlichen Instant Messaging-Diensten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49105657
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c93e79eed643d608ac9ab04516222227fc7c1f6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8e2cce89560c885ad04e03c77d0542289221f1ec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736635"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031109"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Zertifikats Zusammenfassung – öffentliche Instant Messaging-Konnektivität in lync Server 2013
+# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Zertifikatzusammenfassung für die Verbindung mit öffentlichen Instant Messaging-Diensten in lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41736635"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-19_
+_**Letztes Änderungsstand des Themas:** 2013-02-19_
 
-Wenn Sie Zertifikate für die öffentliche Instant Messaging-Konnektivität konfigurieren möchten, sollten Sie zuerst feststellen, dass sich nichts von anderen SIP Federation-Typen oder sogar Standard-Edgeserver-Zertifikaten unterscheidet, es sei denn, dass America Online (AOL) eine eindeutige Zertifikatkonfiguration. Neben der üblichen Server-Erweiterte Schlüsselverwendung (EKU) erfordert America Online, dass das Zertifikat oder die Zertifikate (im Fall eines Edge-Pools) auch die Client-EKU enthalten. Die Client-EKU ist eine Ergänzung zum Zertifikat und Teil des externen öffentlichen Zertifikats, das Ihrem Edgeserver zugewiesen ist.
+Um Zertifikate für die Verbindung mit öffentlichen Instant Messaging-Diensten zu konfigurieren, sollten Sie zunächst bemerken, dass es nichts anderes als andere SIP-Verbundtypen oder sogar Standard Edgeserver Zertifikate gibt, außer dass America Online (AOL) eine eindeutige Zertifikatkonfiguration. Zusätzlich zur üblichen Server Enhanced Key Usage (EKU) erfordert America Online, dass das Zertifikat oder die Zertifikate (im Fall eines Edgepool) auch den Client-EKU enthalten. Die EKU des Clients ist eine Ergänzung des Zertifikats und ist Teil des externen öffentlichen Zertifikats, das Ihrem Edgeserver zugewiesen ist.
 
 <div>
 
-## <a name="certificate-summary--public-instant-messaging-connectivity"></a>Zusammenfassung des Zertifikats – öffentliche Instant Messaging-Konnektivität
+## <a name="certificate-summary--public-instant-messaging-connectivity"></a>Zertifikatzusammenfassung – Verbindung mit öffentlichen Instant Messaging-Diensten
 
 
 <table>
@@ -54,25 +54,25 @@ Wenn Sie Zertifikate für die öffentliche Instant Messaging-Konnektivität konf
 <thead>
 <tr class="header">
 <th>Komponente</th>
-<th>Name des Antragstellers</th>
-<th>Subject Alternative Names (San)/Order</th>
-<th>Kommentare</th>
+<th>Antragstellername</th>
+<th>Alternative Antragstellernamen (SAN)/Reihenfolge</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Extern/Access-Edge</p></td>
+<td><p>Externer Edgeserver/Zugriffsedge</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>sip.fabrikam.com</p></td>
-<td><p>Das Zertifikat muss von einer öffentlichen Zertifizierungsstelle sein und über die Server-EKU und den Client-EKU verfügen, wenn öffentliche Chat Verbindungen mit AOL bereitgestellt werden sollen. Das Zertifikat wird den externen Edgeserver-Schnittstellen für Folgendes zugewiesen:</p>
+<td><p>Das Zertifikat muss von einer öffentlichen Zertifizierungsstelle sein und über die Server-EKU und den Client-EKU verfügen, wenn die Verbindung mit AOL mit öffentlichen Instant Messaging-Diensten bereitgestellt werden soll. Das Zertifikat wird den externen Edgeserver-Schnittstellen für Folgendes zugewiesen:</p>
 <ul>
 <li><p>Zugriffs-Edgedienst</p></li>
 <li><p>Webkonferenz-Edgedienst</p></li>
 <li><p>A/V-Edgedienst</p></li>
 </ul>
-<p>Beachten Sie, dass Sans automatisch dem Zertifikat basierend auf ihren Definitionen im Topologie-Generator hinzugefügt werden. Für zusätzliche SIP-Domänen und andere Einträge, die Sie unterstützen müssen, fügen Sie nach Bedarf San-Einträge hinzu. Der Antragstellername wird im San repliziert und muss für den korrekten Betrieb vorhanden sein.</p></td>
+<p>Beachten Sie, dass SANs dem Zertifikat automatisch hinzugefügt werden, basierend auf Ihren Definitionen im Topologie-Generator. Sie können SAN-Einträge für zusätzliche SIP-Domänen und andere Einträge, die Sie unterstützen müssen, nach Bedarf hinzufügen. Der Antragstellername wird im SAN repliziert und muss zum korrekten Betrieb vorhanden sein.</p></td>
 </tr>
 </tbody>
 </table>
@@ -85,7 +85,7 @@ Wenn Sie Zertifikate für die öffentliche Instant Messaging-Konnektivität konf
 ## <a name="see-also"></a>Siehe auch
 
 
-[Szenarien für den Zugriff durch externe Benutzer in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)  
+[Szenarien für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)  
   
 
 </div>

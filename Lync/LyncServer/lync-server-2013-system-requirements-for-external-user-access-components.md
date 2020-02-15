@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Systemanforderungen für Komponenten für den Zugriff durch externe Benutzer'
+title: 'Lync Server 2013: System Anforderungen für Komponenten für den Zugriff durch externe Benutzer'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8407f7fa407713f6feff6123e5526c779d3bfd3d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c8548c1d8dd456d3bb65d98dd639aec71c236fc5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764271"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031209"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="system-requirements-for-external-user-access-components-for-lync-server-2013"></a>Systemanforderungen für Komponenten für den Zugriff durch externe Benutzer für Lync Server 2013
+# <a name="system-requirements-for-external-user-access-components-for-lync-server-2013"></a>System Anforderungen für Komponenten für den Zugriff durch externe Benutzer für lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41764271"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-01-17_
+_**Letztes Änderungsstand des Themas:** 2013-01-17_
 
-Zu den System Anforderungen für Edge-Komponenten gehören Hardware-, Software-und Zusammenstellungs Anforderungen für Edgeserver, Reverse-Proxy Server und optionale Directors, die Sie bereitstellen möchten.
+Zu den System Anforderungen für Edge-Komponenten gehören Hardware-, Software-und Zusammenarbeitsanforderungen für Edgeserver, Reverse-Proxy Server und optionale Directors, die Sie bereitstellen möchten.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Erforderliche Komponenten für den Zugriff durch externe Benutzer in Lync Server 2013](lync-server-2013-components-required-for-external-user-access.md)
+  - [Erforderliche Komponenten für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-components-required-for-external-user-access.md)
 
-  - [Konfigurationsanforderungen für den Reverse Proxy in lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md)
+  - [Konfigurationsanforderungen für Reverse Proxy in lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md)
 
-  - [Anforderungen an das Hardwaregerät zum Lastenausgleich für Lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md)
+  - [Anforderungen an das Hardware Gerät zum Lastenausgleich für lync Server 2013](lync-server-2013-hardware-load-balancer-requirements.md)
 
-  - [Hardware- und Softwareanforderungen für Edgekomponenten in Lync Server 2013](lync-server-2013-hardware-and-software-requirements-for-edge-components.md)
+  - [Hardware-und Softwareanforderungen für Edge-Komponenten in lync Server 2013](lync-server-2013-hardware-and-software-requirements-for-edge-components.md)
 
-  - [Unterstützte Serverkollokation für Edgekomponenten in Lync Server 2013](lync-server-2013-supported-server-collocation-for-edge-components.md)
+  - [Unterstützte Server Zusammenstellungen für Edge-Komponenten in lync Server 2013](lync-server-2013-supported-server-collocation-for-edge-components.md)
 
 </div>
 

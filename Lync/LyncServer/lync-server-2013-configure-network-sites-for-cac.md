@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von Netzwerk Websites für CAC'
+title: 'Lync Server 2013: Konfigurieren von Netzwerkstandorten für die Anrufsteuerung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185144
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0958c74d6f1ce587886b7a8456aee44381c00ff5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f449d26515c6790ec8582676ca57ed897f12dc40
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758363"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030819"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-network-sites-for-cac-in-lync-server-2013"></a>Konfigurieren von Netzwerk Websites für CAC in lync Server 2013
+# <a name="configure-network-sites-for-cac-in-lync-server-2013"></a>Konfigurieren von Netzwerkstandorten für die Anrufsteuerung in lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41758363"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-05_
+_**Letztes Änderungsstand des Themas:** 2012-09-05_
 
 <div class=" ">
 
 
 > [!IMPORTANT]  
-> Wenn Sie bereits Netzwerk Websites für E9-1-1 oder Media Bypass erstellt haben, können Sie die vorhandenen Netzwerk Websites so ändern, dass ein bandbreitenrichtlinienprofil mithilfe des Cmdlets " <STRONG>CsNetworkSite</STRONG> " angewendet wird. Ein Beispiel für das Ändern einer Netzwerk Website finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-site.md">erstellen oder Ändern einer Netzwerk Website in lync Server 2013</A>.
+> Wenn Sie bereits Netzwerkstandorte für E9-1-1 oder medienumgehung erstellt haben, können Sie die vorhandenen Netzwerkstandorte so ändern, dass ein bandbreitenrichtlinienprofil mithilfe des Cmdlets " <STRONG>CsNetworkSite</STRONG> " angewendet wird. Ein Beispiel für das Ändern eines Netzwerkstandorts finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-site.md">erstellen oder Ändern eines Netzwerkstandorts in lync Server 2013</A>.
 
 
 
 </div>
 
-*Netzwerk Websites* sind die Büros oder Standorte innerhalb der einzelnen netzwerkregionen der Anruf Zulassungs Steuerung (CAC), E9-1-1 und Media Bypass-Bereitstellungen. Führen Sie die folgenden Verfahren aus, um Netzwerk Websites zu erstellen, die in der Beispiel Netzwerktopologie für CAC an Netzwerk Websites ausgerichtet sind. In diesen Verfahren wird gezeigt, wie Netzwerk Websites erstellt und konfiguriert werden, die durch WAN-Bandbreite eingeschränkt sind, und daher Bandbreitenrichtlinien erforderlich sind, die den Echt Zeit Durchsatz von Audio-oder Videodaten einschränken.
+*Netzwerkstandorte* sind die Büros oder Standorte in den einzelnen netzwerkregionen der Anrufsteuerung (Call Admission Control, CAC), E9-1-1 und Medien Umgehungs Bereitstellungen. Verwenden Sie die folgenden Verfahren, um Netzwerkstandorte zu erstellen, die an Netzwerkstandorten in der Beispiel Netzwerktopologie für die Anrufsteuerung ausgerichtet sind. Diese Verfahren zeigen, wie Sie Netzwerkstandorte erstellen und konfigurieren, die von der WAN-Bandbreite abhängig sind, und daher Bandbreitenrichtlinien benötigen, die den Datenfluss in Echtzeit über Audio oder Video begrenzen.
 
-Im Beispiel für die CAC-Bereitstellung verfügt die Region Nordamerika über sechs Websites. Drei dieser Websites sind durch die WAN-Bandbreite beschränkt: Reno, Portland und Albuquerque. Die anderen drei Websites, die *nicht* von der WAN-Bandbreite abhängig sind: New York, Chicago und Detroit. Ein Beispiel zum Erstellen oder Ändern dieser anderen Netzwerk Websites finden Sie unter [erstellen oder Ändern einer Netzwerk Website in lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).
+In der Beispielbereitstellung für die Anrufsteuerung verfügt die Region "Nordamerika" über sechs Standorte. Drei dieser Standorte sind von der WAN-Bandbreite eingeschränkt: Reno, Portland und Albuquerque. Die anderen drei Standorte, die *nicht* durch WAN-Bandbreite eingeschränkt sind: New York, Chicago und Detroit. Ein Beispiel für das Erstellen oder Ändern dieser anderen Netzwerkstandorte finden Sie unter [erstellen oder Ändern eines Netzwerkstandorts in lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md).
 
-Informationen zum Anzeigen der Beispiel Netzwerktopologie finden Sie unter [Beispiel: Sammeln Ihrer Anforderungen für die Anrufsteuerung in lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in der Planungsdokumentation.
+Informationen zum Anzeigen der Beispiel Netzwerktopologie finden Sie unter [example: Gathering your Requirements for Call Admission Control in lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) in der Planungsdokumentation.
 
 <div class=" ">
 
 
 > [!NOTE]  
-> Im folgenden Verfahren wird die lync Server-Verwaltungsshell zum Erstellen einer Netzwerk Website verwendet. Details zur Verwendung der lync Server-Systemsteuerung zum Erstellen einer Netzwerk Website finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-site.md">erstellen oder Ändern einer Netzwerk Website in lync Server 2013</A>.
+> Im folgenden Verfahren wird lync Server-Verwaltungsshell zum Erstellen eines Netzwerkstandorts verwendet. Ausführliche Informationen zur Verwendung von lync Server-Systemsteuerung zum Erstellen eines Netzwerkstandorts finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-site.md">erstellen oder Ändern eines Netzwerkstandorts in lync Server 2013</A>.
 
 
 
@@ -65,11 +65,11 @@ Informationen zum Anzeigen der Beispiel Netzwerktopologie finden Sie unter [Beis
 
 <div>
 
-## <a name="to-create-network-sites-for-call-admission-control"></a>So erstellen Sie Netzwerk Websites für die Anrufsteuerung
+## <a name="to-create-network-sites-for-call-admission-control"></a>So erstellen Sie Netzwerkstandorte für die Anrufsteuerung
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Führen Sie das Cmdlet **New-CsNetworkSite** aus, um Netzwerk Websites zu erstellen und auf jede Website ein entsprechendes bandbreitenrichtlinienprofil anzuwenden. Führen Sie beispielsweise den folgenden Befehl aus:
+2.  Führen Sie das Cmdlet **New-CsNetworkSite** aus, um Netzwerkstandorte zu erstellen und ein entsprechendes bandbreitenrichtlinienprofil auf jeden Standort anzuwenden. Führen Sie beispielsweise den folgenden Befehl aus:
     
        ```powershell
         New-CsNetworkSite -NetworkSiteID Reno -Description "NA:Branch office for sales force" -NetworkRegionID NorthAmerica -BWPolicyProfileID 10MB_Link
@@ -83,7 +83,7 @@ Informationen zum Anzeigen der Beispiel Netzwerktopologie finden Sie unter [Beis
         New-CsNetworkSite -NetworkSiteID Albuquerque -Description "NA:Branch office for SouthWest sales" -NetworkRegionID EMEA -BWPolicyProfileID 10MB_Link
        ```
 
-3.  Um das Erstellen von Netzwerk Websites für die gesamte Beispieltopologie abzuschließen, wiederholen Sie Schritt 2 für die Netzwerk Websites mit Bandbreiteneinschränkungen in den Regionen EMEA und APAC.
+3.  Zum Abschließen der Erstellung von Netzwerkstandorten für die gesamte Beispieltopologie wiederholen Sie Schritt 2 für die Netzwerkstandorte mit Bandbreiteneinschränkungen in den Regionen EMEA und APAC.
 
 </div>
 

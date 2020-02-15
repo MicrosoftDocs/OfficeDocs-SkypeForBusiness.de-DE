@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Standort Trend Bericht'
+title: 'Lync Server 2013: Standort-Trend Bericht'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26f825a33eeb90817685c1694a5c6579110ffcd6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e74cf4e763272f2309e358120abb12b0424aa40b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762143"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030939"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41762143"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-06_
+_**Letztes Änderungsstand des Themas:** 2012-06-06_
 
 Der Standort-Trendbericht enthält Angaben über den Verlauf der Anrufqualität für Netzwerkstandorte.
 
@@ -62,9 +62,9 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie beim Standort-Tren
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Von</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 Uhr</p>
+<p>07.07.2012 13:00</p>
 <p>Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
@@ -72,9 +72,9 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie beim Standort-Tren
 <p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Bis</strong></p></td>
+<td><p><strong>Ziel</strong></p></td>
 <td><p>Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 Uhr</p>
+<p>07.07.2012 13:00</p>
 <p>Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
@@ -85,17 +85,17 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie beim Standort-Tren
 <td><p><strong>Intervall</strong></p></td>
 <td><p>Zeitintervall. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
-<li><p>Stündlich (maximal 25 Stunden können angezeigt werden)</p></li>
-<li><p>Täglich (maximal 31 Tage können angezeigt werden)</p></li>
-<li><p>Wöchentlich (maximal 12 Wochen können angezeigt werden)</p></li>
+<li><p>Stündlich (maximal 25 Stunden können angezeigt werden)</p></li>
+<li><p>Täglich (maximal 31 Tage können angezeigt werden)</p></li>
+<li><p>Wöchentlich (maximal 12 Wochen können angezeigt werden)</p></li>
 </ul>
-<p>Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Beispiel: Wenn Sie das Intervall „Täglich“ mit dem Startdatum 01.01.2011 und dem Enddatum 28.02.2011 ausgewählt haben, werden Daten für die Tage 01.08.2011 12:00 Uhr bis 01.09.2011 12:00 Uhr angezeigt (d. h. Daten für insgesamt 31 Tage).</p></td>
+<p>Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Beispiel: Wenn Sie das Intervall "Täglich" mit dem Startdatum 01.01.2011 und dem Enddatum 28.02.2011 ausgewählt haben, werden Daten für die Tage 01.08.2011 12:00 Uhr bis 01.09.2011 12:00 Uhr angezeigt (d. h. Daten für insgesamt 31 Tage).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Zugriffstyp</strong></p></td>
 <td><p>Gibt an, ob der Client am internen oder am externen Netzwerk angemeldet wurde, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
-<li><p>[Alle]</p></li>
+<li><p>Alle</p></li>
 <li><p>Intern</p></li>
 <li><p>Extern</p></li>
 </ul></td>
@@ -104,16 +104,16 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie beim Standort-Tren
 <td><p><strong>Netzwerktyp</strong></p></td>
 <td><p>Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
-<li><p>[Alle]</p></li>
-<li><p>Verkabelt</p></li>
-<li><p>Funk</p></li>
+<li><p>Alle</p></li>
+<li><p>Wired</p></li>
+<li><p>Drahtlos</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>VPN</strong></p></td>
 <td><p>Gibt an, ob ein externer Client eine VPN-Verbindung (Virtual Private Network) verwendete, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
-<li><p>[Alle]</p></li>
+<li><p>Alle</p></li>
 <li><p>VPN</p></li>
 <li><p>Nicht-VPN</p></li>
 </ul></td>

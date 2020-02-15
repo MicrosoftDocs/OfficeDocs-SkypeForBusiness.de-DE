@@ -12,16 +12,16 @@ ms:contentKeyID: 48183884
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86d5032defc7322e96662dcfe6357bd30c598e45
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a5ba14f24694bf3b9485e60102007a0bfee788c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735605"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031089"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,24 +35,24 @@ ms.locfileid: "41735605"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-06_
+_**Letztes Änderungsstand des Themas:** 2012-06-06_
 
-Während der Clientregistrierung verwendet lync Server eine ortungsrichtlinie, um die E9-1-1-Eigenschaften für Enterprise-VoIP-Benutzer zu konfigurieren. Diese Richtlinie enthält die Einstellungen, die definieren, wie E9-1-1 implementiert wird. Beispielsweise enthält die Standortrichtlinie Informationen wie die Notrufnummern Zeichenfolge und ob ein Benutzer manuell einen Standort eingeben muss, wenn der standortinformationsdienst nicht automatisch einen Speicherort bereitstellt. Eine vollständige Definition einer Standortrichtlinie finden Sie unter [Definieren der Standortrichtlinie für lync Server 2013](lync-server-2013-defining-the-location-policy.md).
+Während der Clientregistrierung verwendet lync Server eine ortungsrichtlinie, um die E9-1-1-Eigenschaften für Enterprise-VoIP-aktivierte Benutzer zu konfigurieren. Diese Richtlinie enthält die Einstellungen, die definieren, wie E9-1-1 implementiert wird. Die ortungsrichtlinie enthält beispielsweise Informationen wie die Notrufnummern Zeichenfolge und gibt an, ob ein Benutzer einen Speicherort manuell eingeben muss, wenn der Standortinformationsdienst nicht automatisch einen Ort bereitstellt. Eine vollständige Definition einer ortungsrichtlinie finden Sie unter [Definieren der ortungsrichtlinie für lync Server 2013](lync-server-2013-defining-the-location-policy.md).
 
-Lync Server kann Clients, die auf einem Subnetz basieren, oder Benutzern, die auf einer globalen, pro-Site-oder pro-Benutzer-Richtlinie basieren, eine ortungsrichtlinie zuweisen. Damit Sie entscheiden können, wie Sie die Benutzer aktivieren können, sollten Sie zunächst die folgenden Fragen beantworten.
+Lync Server können Clients basierend auf dem Subnetz oder Benutzern basierend auf einer globalen, Standort-oder benutzerbezogenen Richtlinie eine ortungsrichtlinie zuweisen. Beantworten Sie zunächst die folgenden Fragen, bevor Sie sich für eine Methode zum Aktivieren der Benutzer für E9-1-1 entscheiden.
 
-  - **Beabsichtigen Sie, alle Benutzer zu aktivieren oder die Unterstützung auf bestimmte geografische Bereiche des Unternehmens zu begrenzen?**  
-    Sie können allen Benutzern in Ihrem Unternehmen einen Standort zuweisen, indem Sie eine globale Standortrichtlinie verwenden. Wenn Sie jedoch eine Standortrichtlinie einer lync Server-Netzwerk Website zuweisen und dann Subnetze zur Website hinzufügen, können Sie die E9-1-1-Unterstützung auf ausgewählte Standorte innerhalb des Unternehmens begrenzen und das Routingverhalten von E9-1-1 pro Website angeben.
-
-<!-- end list -->
-
-  - **Beabsichtigen Sie, einzelne Benutzer über eine Benutzerrichtlinie zu aktivieren?**  
-    Sie können Standortrichtlinien bestimmten Benutzern oder öffentlichen Telefon Kontaktobjekten direkt zuweisen, wenn Sie Ihre E9-1-1-Unterstützung anpassen möchten.
+  - **Planen Sie die Aktivierung für alle Benutzer, oder soll die Unterstützung auf spezifische geografische Bereiche innerhalb des Unternehmens beschränkt werden?**  
+    Sie können allen Benutzern in Ihrem Unternehmen einen Standort zuweisen, indem Sie eine globale Ortungsrichtlinie verwenden. Durch das Zuweisen einer ortungsrichtlinie zu einem lync Server Netzwerkstandort und das anschließende Hinzufügen von Subnetzen zum Standort können Sie die E9-1 -1-Unterstützung jedoch auf ausgewählte Standorte innerhalb des Unternehmens beschränken und das Routingverhalten für E9-1-1 pro Standort angeben.
 
 <!-- end list -->
 
-  - **Wenn Clients außerhalb des Netzwerks oder mit einem nicht definierten Subnetz verbunden sind, sollten die Clients weiterhin für E9-1-1 aktiviert sein?**  
-    Wenn Benutzern eine Global-, Site-oder pro-User-ortungsrichtlinie zugewiesen ist, kann es erforderlich sein, einen Standort manuell in den Client einzugeben, wenn sich der Client nicht in einem definierten Subnetz befindet oder vom standortinformationsdienst kein Standort gefunden wurde. Ausführliche Informationen finden Sie unter [Definieren der Benutzeroberfläche für den manuellen Erwerb eines Speicherorts in lync Server 2013](lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md).
+  - **Planen Sie die Aktivierung einzelner Benutzer über eine Benutzerrichtlinie?**  
+    Sie können bestimmten Benutzern oder Kontaktobjekten von Telefonen in öffentlichen Bereichen direkt Ortungsrichtlinien zuweisen, wenn Sie die E9-1-1-Unterstützung anpassen möchten.
+
+<!-- end list -->
+
+  - **Sollen Clients auch dann für E9-1-1 aktiviert werden, wenn sie sich außerhalb des Netzwerks bewegen oder sich von einem undefinierten Subnetz aus verbinden?**  
+    Wenn Benutzern eine globale Standort-, Standort-oder benutzerspezifische ortungsrichtlinie zugewiesen ist, kann Sie zur manuellen Eingabe eines Standorts in den Client verpflichtet werden, wenn sich der Client nicht in einem definierten Subnetz befindet oder wenn der Standortinformationsdienst keinen Ort gefunden hat. Ausführliche Informationen finden Sie unter [Definieren der Benutzeroberfläche für den manuellen Erwerb eines Standorts in lync Server 2013](lync-server-2013-defining-the-user-experience-for-manually-acquiring-a-location.md).
 
 </div>
 

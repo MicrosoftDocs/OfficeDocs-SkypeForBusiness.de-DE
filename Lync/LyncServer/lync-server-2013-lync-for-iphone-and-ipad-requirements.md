@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anforderungen für lync für iPhone und iPad'
+title: 'Lync Server 2013: lync für iPhone und iPad-Anforderungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541462
 ms.date: 06/02/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc80d20006b63c2af50d10aa51150ebfa75b7a88
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 969674ea6e426178ecb040d9474fc8fec85395cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765483"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030889"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-for-iphone-and-ipad-requirements-in-lync-server-2013"></a>Lync für iPhone und iPad-Anforderungen in lync Server 2013
+# <a name="lync-for-iphone-and-ipad-requirements-in-lync-server-2013"></a>Anforderungen für lync für iPhone und iPad in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765483"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-06-01_
+_**Letztes Änderungsstand des Themas:** 2015-06-01_
 
-Damit Microsoft lync 2013 für iPhone oder Microsoft lync 2013 für iPad unterstützt wird, muss das Gerät die folgenden Voraussetzungen erfüllen:
+Um Microsoft lync 2013 für iPhone oder Microsoft lync 2013 für iPad zu unterstützen, muss das Gerät die folgenden Anforderungen erfüllen:
 
   - iPhone 6 mobiles digitales Gerät mit Apple IOS 8 oder der neuesten Version.
 
@@ -45,7 +45,7 @@ Damit Microsoft lync 2013 für iPhone oder Microsoft lync 2013 für iPad unterst
 
   - iPhone 4 mobiles digitales Gerät mit Apple IOS 7 oder der neuesten Version.
 
-  - iPad 2 oder eine neuere Version mobiles digitales Gerät mit Apple IOS 7 oder der neuesten Version.
+  - iPad 2 oder höher mobiles digitales Gerät mit Apple IOS 7 oder der neuesten Version.
 
   - iPad Mini mobiles digitales Gerät mit Apple IOS 7 oder der neuesten Version.
 

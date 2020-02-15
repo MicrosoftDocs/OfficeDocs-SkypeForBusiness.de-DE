@@ -12,16 +12,16 @@ ms:contentKeyID: 48184846
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e0b5e7b060d056a785e80fdf29ded718d120bc1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ca09c54b324f07361a7333fc577a2b3b9e35aaef
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735795"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030488"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,41 +35,41 @@ ms.locfileid: "41735795"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Medienumgehungseinstellungen gelten global für eine Microsoft lync Server 2013-Bereitstellung. Die medienumgehung ermöglicht Anrufe, den Vermittlungs Server zu umgehen. Ausführliche Informationen zur Verwendung der medienumgehung finden Sie unter [Planen der medienumgehung in lync Server 2013](lync-server-2013-planning-for-media-bypass.md) im Abschnitt Planung.
+Die Einstellungen für die medienumgehung gelten global für eine Microsoft lync Server 2013-Bereitstellung. Die Medienumgehung ermöglicht bei Anrufen die Umgehung des Vermittlungsservers. Ausführliche Informationen zur Verwendung der medienumgehung finden Sie unter [Planning for Media Bypass in lync Server 2013](lync-server-2013-planning-for-media-bypass.md) im Abschnitt Planning.
 
-Sie können die medienumgehung in der lync Server-Systemsteuerung aktivieren und konfigurieren.
+Sie können die medienumgehung im lync Server-Systemsteuerung aktivieren und konfigurieren.
 
 <div>
 
-## <a name="to-enable-and-configure-media-bypass"></a>So aktivieren und konfigurieren Sie die medienumgehung
+## <a name="to-enable-and-configure-media-bypass"></a>So aktivieren und konfigurieren Sie die Medienumgehung
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder gleichwertige Benutzerrechte hat) oder der CsAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** , und klicken Sie dann auf **Global**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Global**.
 
-4.  Klicken Sie auf der Seite **Global** auf die **globale** Konfiguration. Es gibt immer nur eine Konfiguration, und Sie wird immer als "Global" bezeichnet.
+4.  Klicken Sie auf der Seite **Global** auf die Konfiguration **Global**. Es ist immer nur eine Konfiguration vorhanden, und diese trägt stets den Namen "Global".
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
-6.  Klicken Sie auf der Seite **globale Einstellungen bearbeiten** auf das Kontrollkästchen **medienumgehung aktivieren** .
+6.  Aktivieren Sie auf der Seite **Globale Einstellungen bearbeiten** auf das Kontrollkästchen **Medienumgehung aktivieren**.
 
 7.  Wählen Sie eine der folgenden Optionen aus:
     
-      - **Immer umgehen**   wählen Sie diese Option aus, um bei allen Anrufen medienumgehung zu versuchen. Diese Option steht nicht zur Verfügung, wenn die Anrufsteuerung (Call Admission Control, CAC) aktiviert ist. Wenn CAC nicht aktiviert ist, wählen Sie diese Option in den folgenden Fällen aus:
+      - **Immer umgehen**   wählen Sie diese Option aus, um die medienumgehung für alle Anrufe zu versuchen. Diese Option ist nicht verfügbar, wenn die Anrufsteuerung aktiviert ist. Ist die Anrufsteuerung nicht aktiviert, wählen Sie diese Option in den folgenden Situationen:
         
-          - Die Bandbreitensteuerung ist nicht erforderlich.
+          - Es besteht keine Notwendigkeit zur Bandbreitensteuerung.
         
-          - Es besteht keine Notwendigkeit für eine fein abgestimmte Konfiguration, um festzustellen, wann eine Umgehung erfolgen soll.
+          - Es ist keine fein abgestimmte Konfiguration erforderlich, mit der die Anforderung einer Medienumgehung erkannt wird.
         
-          - Es besteht eine vollständige Konnektivität zwischen Gateways und Clients.
+          - Zwischen Gateways und Clients ist vollständige Konnektivität gegeben.
     
-      - **Verwenden von Websites und der Regions Konfiguration**   wenn CAC aktiviert ist, ist diese Option standardmäßig aktiviert und kann nicht geändert werden. Wenn diese Option ausgewählt ist, werden Netzwerk Konfigurations Websites und-Regionen verwendet, um zu ermitteln, wann eine medienumgehung möglich ist. Wenn Sie diese Option auswählen, können Sie die Umgehung für Websites aktivieren, die nicht zugeordnet sind. Aktivieren Sie das Kontrollkästchen **Umgehung für nicht zugeordnete Websites aktivieren** nur, wenn Sie über eine oder mehrere große Websites verfügen, die dem gleichen Bereich zugeordnet sind, die keine Bandbreiteneinschränkungen aufweisen (beispielsweise eine große zentrale Website), und Sie verfügen auch über einige Verzweigungs Websites, die dem gleichen Bereich zugeordnet sind, für den es keine Bandbreiteneinschränkungen gibt. Wenn Sie die Umgehung für nicht zugeordnete Websites aktivieren, wird die Konfiguration optimiert, da Sie nur die Subnetze angeben, die den Zweigstellen zugeordnet sind, anstatt alle Subnetze anzugeben, die allen Websites zugeordnet sind. Wir empfehlen, dass Sie das Kontrollkästchen **Bypass für nicht zugeordnete Websites aktivieren** nicht aktivieren, wenn CAC aktiviert ist.
+      - **Verwenden von Websites und Regions Konfiguration**   wenn die Anrufsteuerung aktiviert ist, ist diese Option standardmäßig aktiviert und kann nicht geändert werden. Ist diese Option ausgewählt, wird anhand der Standorte und Regionen in der Netzwerkkonfiguration ermittelt, ob eine Medienumgehung möglich ist. Wenn Sie diese Option auswählen, können Sie eine Umgehung für Standorte aktivieren, die nicht zugeordnet sind. Aktivieren Sie das Kontrollkästchen **Umgehung für nicht zugeordnete Standorte aktivieren** nur dann, wenn Sie über einen oder mehrere große Standorte ohne Bandbreiteneinschränkungen verfügen (z. B. ein großer Hauptstandort), die mit einer bestimmten Region verknüpft sind, und Sie außerdem über einige Zweigstellen mit Bandbreiteneinschränkungen verfügen, die mit derselben Region verknüpft sind. Wenn Sie die Umgehung für nicht zugeordnete Standorte aktivieren, wird die Konfiguration optimiert, da Sie nur die mit den Zweigstandorten verknüpften Subnetze angeben, statt sämtliche, mit allen Standorten verknüpfte Subnetze angeben zu müssen. Es wird empfohlen, das Kontrollkästchen **Umgehung für nicht zugeordnete Standorte** nicht zu aktivieren, wenn die Anrufsteuerung aktiviert ist.
 
-8.  Klicken Sie auf **Commit** , um Ihre Änderungen zu speichern.
+8.  Klicken Sie auf **Commit**, um Ihre Änderungen zu speichern.
 
 </div>
 
@@ -81,10 +81,10 @@ Sie können die medienumgehung in der lync Server-Systemsteuerung aktivieren und
 [Deaktivieren der Netzwerkmedien Umgehung in lync Server 2013](lync-server-2013-disabling-network-media-bypass.md)  
 
 
-[Globale Medien Umgehungs Optionen in lync Server 2013](lync-server-2013-global-media-bypass-options.md)  
+[Optionen für die globale medienumgehung in lync Server 2013](lync-server-2013-global-media-bypass-options.md)  
 
 
-[Planung der Medienumgehung in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
+[Planen der medienumgehung in lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
   
 
 </div>

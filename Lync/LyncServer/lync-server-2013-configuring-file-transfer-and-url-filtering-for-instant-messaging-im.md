@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren der Dateiübertragung und der URL-Filterung für Sofortnachrichten (im)
+title: Konfigurieren der Dateiübertragung und der URL-Filterung für Chatnachrichten
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183440
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6c5a6053118b14b68c49a7fdaa6f444aca7ad23
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b741418790c5faf11c566afb27a477a67beb71ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729025"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030609"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,51 +35,51 @@ ms.locfileid: "41729025"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Das intelligente Chat-Filter Tool schützt Ihre lync Server 2013-Bereitstellung vor der Verbreitung der häufigsten Virenarten mit minimalem Abbau der Benutzerfreundlichkeit. Verwenden Sie den intelligenten Chatfilter, um Filter so zu konfigurieren, dass unerwünschte oder potenziell schädliche Sofortnachrichten von unbekannten Endpunkten außerhalb der Unternehmensfirewall blockiert werden. Sie konfigurieren Filter, indem Sie die Kriterien angeben, die verwendet werden sollen, um zu bestimmen, was blockiert werden soll, beispielsweise Sofortnachrichten, die Links mit bestimmten Präfixen und Dateien mit bestimmten Erweiterungen enthalten.
+Mit dem intelligenten Sofortnachrichten-Filter Tool können Sie Ihre lync Server 2013-Bereitstellung vor der Verbreitung der häufigsten Virenarten mit minimaler Beeinträchtigung der Benutzerfreundlichkeit schützen. Konfigurieren Sie mit dem intelligenten Sofortnachrichtenfilter Filter zum Blockieren unerwünschter oder potenziell schädlicher Sofortnachrichten von unbekannten Endpunkten außerhalb der Unternehmensfirewall. Sie konfigurieren Filter, indem Sie die Kriterien angeben, die verwendet werden sollen, um zu bestimmen, was blockiert werden soll, beispielsweise Sofortnachrichten mit Hyperlinks mit bestimmten Präfixen und Dateien mit bestimmten Erweiterungen.
 
-Der intelligente Chat Filter bietet die folgenden Optionen:
+Der intelligente Chat Filter bietet Folgendes:
 
   - Erweiterte URL-Filterung.
 
   - Erweiterte Dateiübertragungsfilterung.
 
-Das Konfigurieren intelligenter Chat Filter umfasst Folgendes:
+Das Konfigurieren eines intelligenten Sofortnachrichtenfilters umfasst Folgendes:
 
   - Konfigurieren der URL-Filterung
 
-  - Konfigurieren der Dateiübertragungsfilterung
+  - Konfigurieren der Dateiübertragungsfilterung.
 
 <div>
 
-## <a name="how-filtering-options-are-applied-to-instant-messages"></a>Anwenden von Filteroptionen auf Sofortnachrichten
+## <a name="how-filtering-options-are-applied-to-instant-messages"></a>Anwenden von Filteroptionen auf Chatnachrichten
 
-Bevor Sie das intelligente Chatnachrichten Filter Tool bereitstellen, müssen Sie wissen, wie Filteroptionen angewendet werden, wenn Nachrichten von einem lync Server 2013-Server an einen anderen weitergeleitet werden. Die Art und Weise, wie diese Filteroptionen angewendet werden, ist konsistent, unabhängig davon, ob sich die Server in einer einzelnen Organisation oder unternehmensübergreifend befinden. Diese Konsistenz bezieht sich auf die Art und Weise, wie angepasste Benachrichtigungs-und Warnungstexte in Nachrichten eingefügt und serverübergreifend gesendet werden.
+Vor dem Bereitstellen des intelligenten Chatnachrichten Filter-Tools müssen Sie verstehen, wie Filteroptionen angewendet werden, wenn Nachrichten von einem lync Server 2013 Server an einen anderen weitergeleitet werden. Die Art der Anwendung von Filteroptionen ist konsistent, unabhängig davon, ob die Server sich in einer einzigen Organisation oder in mehreren Organisationen befinden. Diese Konsistenz gilt für die Art und Weise, in der die benutzerdefinierten Benachrichtigungs-und Warn Texte in Nachrichten eingefügt und über Server gesendet werden.
 
 <div>
 
 
 > [!NOTE]
-> Der Sofortnachrichtenfilter erhöht die Anzahl der CPU-Ressourcen, die für die Verarbeitung von URLs in einer Nachricht erforderlich sind. Dieser Anstieg der CPU-Nachfrage wirkt sich auch auf die Leistung von lync Server aus.
+> Der Instant Messaging-Filter erhöht die Menge an CPU-Ressourcen, die zum Verarbeiten von URLs in einer Nachricht erforderlich sind. Dieser Anstieg der CPU-Nachfrage wirkt sich auch auf die Leistung von lync Server aus.
 
 
 
 </div>
 
-Mithilfe der Seite " **URL-Filter** " in der **Chat-und Anwesenheits** Gruppe in der lync Server-Systemsteuerung können Sie einige oder alle Links blockieren oder eine Warnung konfigurieren. Die Warnung wird am Anfang einer Sofortnachricht eingefügt, die einen Link enthält, wenn Sie die Option " **Hyperlink-Präfix** " auf " **Warnmeldung senden**" auswählen.
+Mithilfe der Seite **URL-Filter** in der **Chat-und Anwesenheits** Gruppe in lync Server-Systemsteuerung können Sie einige oder alle Hyperlinks blockieren oder eine Warnung konfigurieren. Die Warnung wird am Anfang einer Sofortnachricht eingefügt, die einen Hyperlink enthält, wenn Sie die Option **Hyperlink** -Präfix **senden Warnmeldung**auswählen.
 
-Wenn eine Sofortnachricht von einem Server zu einem anderen reist, gelten die folgenden allgemeinen Richtlinien:
+Wenn eine Sofortnachricht von einem Server auf einen anderen übertragen wird, gelten die folgenden allgemeinen Richtlinien:
 
-  - Wenn ein Server eine Chatnachricht blockiert (weil Sie auf der Seite **URL-Filter** das Kontrollkästchen **URLs mit Dateierweiterung blockieren** aktiviert haben oder wenn Sie die Option **Hyperlink-Präfix** - **Links blockieren**ausgewählt haben), wird eine Fehlermeldung an den Client zurückgegeben. Nachfolgende Server empfangen diese Sofortnachricht nicht.
+  - Wenn ein Server eine Sofortnachricht blockiert (da Sie das Kontrollkästchen **URLs mit Dateierweiterung blockieren** auf der Seite **URL-Filter** aktiviert haben oder wenn Sie die Option Hyperlinks für **Hyperlink-Präfix** **blockieren**ausgewählt haben), wird eine Fehlermeldung an den Client zurückgegeben. Nachfolgende Server erhalten diese Sofortnachricht nicht.
 
-  - Wenn ein Server (Server1) eine Warnung zu einer Sofortnachricht hinzufügt, die einen aktiven Link enthält, kann ein nach folgender Server (Server2), der diese Sofortnachricht empfängt, weiterhin eine andere Aktion auf der Grundlage dieses aktiven Links in der Chatnachricht durchführen und die Sofortnachricht oder eine Warnung hinzufügen. Wenn Server2 nur zum Hinzufügen einer Warnung für diese URL konfiguriert ist, wird die zuvor von Server1 hinzugefügte Warnung entfernt, und die auf Server2 konfigurierte Warnung wird am Anfang der Sofortnachricht hinzugefügt.
+  - Wenn ein Server (Server1) eine Warnung zu einer Sofortnachricht hinzufügt, die einen aktiven Hyperlink enthält, kann ein folgender Server (Server2), der diese Sofortnachricht empfängt, nach wie vor eine andere Aktion basierend auf diesem in der Sofortnachricht vorhandenen aktiven Hyperlink ausführen und den Block Sofortnachricht oder Warnung hinzufügen. Wenn Server2 nur zum Hinzufügen einer Warnung für diese URL konfiguriert ist, wird die zuvor von Server1 hinzugefügte Warnung entfernt, und die auf Server2 konfigurierte Warnung wird am Anfang der Sofortnachricht hinzugefügt.
 
 <div>
 
 
 > [!NOTE]
-> Wenn Sie lync Server 2013 in einer gemischten Umgebung ausführen, ist Live Communications Server 2005 mit SP1 die Mindestversion, die für die Verwendung der intelligenten Chat Filter-Anwendung erforderlich ist. Der intelligente Chat-Filter wird auf Live Communications Server 2005 ohne SP1 nicht unterstützt.
+> Wenn Sie lync Server 2013 in einer gemischten Umgebung verwenden, ist Live Communications Server 2005 mit SP1 die minimale Version, die für die Verwendung der intelligenten Chat Filter Anwendung erforderlich ist. Der intelligente Chat Filter wird auf Live Communications Server 2005 ohne SP1 nicht unterstützt.
 
 
 
@@ -89,7 +89,7 @@ Wenn eine Sofortnachricht von einem Server zu einem anderen reist, gelten die fo
 
 ## <a name="url-filtering"></a>URL-Filterung
 
-URLs werden gemäß Ihrem Link Präfix gefiltert. Die folgenden Beispiele sind gültige Präfixe:
+URLs werden entsprechend Ihrem Hyperlink-Präfix gefiltert. Die folgenden Beispiele sind gültige Präfixe:
 
   - www\*.
 
@@ -97,36 +97,36 @@ URLs werden gemäß Ihrem Link Präfix gefiltert. Die folgenden Beispiele sind g
 
   - http
 
-Wenn Sie den Sofortnachrichtenfilter nicht so konfigurieren, dass eine URL-Filterung durchgeführt wird, werden alle URLs, die in Sofortnachrichten enthalten sind, über den Server unverändert übergeben. Wenn Sie den Sofortnachrichtenfilter so konfigurieren, dass URL-Filterung durchgeführt wird, werden URLs in Sofortnachrichten entsprechend den Optionen gefiltert, die Sie im Dialogfeld **URL-Filter bearbeiten** oder **neuer URL-Filter** ausgewählt haben.
+Wenn Sie den Instant Messaging-Filter nicht so konfigurieren, dass eine URL-Filterung durchgeführt wird, werden alle in Chatnachrichten enthaltenen URLs ohne Änderung über den Server übergeben. Wenn Sie den Instant Messaging-Filter so konfigurieren, dass die URL-Filterung durchgeführt wird, werden URLs in Chatnachrichten entsprechend den Optionen gefiltert, die Sie im Dialogfeld **URL-Filter bearbeiten** oder **neuer URL** -Filter ausgewählt haben.
 
-  - **URL-Filter**   aktivieren diese Option aktiviert die URL-Filterung für die globale Bereitstellung oder für die von Ihnen ausgewählte Website.
+  - **URL-Filter**   aktivieren mit dieser Option wird die URL-Filterung für die globale Bereitstellung oder für die von Ihnen ausgewählte Website aktiviert.
 
-  - **Blockieren von URLs mit Dateierweiterung**   der Sofortnachrichtenfilter blockiert alle aktiven Intranet-oder Internet-URLs, die eine Datei mit einer Erweiterung enthalten, die im Dialogfeld **Dateifilter bearbeiten** unter **zu blockierende Dateityperweiterungen** aufgeführt ist. Wenn eine URL blockiert ist, wird dem Absender eine Fehlermeldung angezeigt. Wenn diese Option ausgewählt ist, hat diese Option Vorrang vor allen anderen Filteroptionen für alle Dateierweiterungen, **die unter zu blockierende Dateityperweiterungen**definiert sind.
+  - **Blockieren von URLs mit Dateierweiterung**   der Sofortnachrichtenfilter blockiert alle aktiven Intranet-oder Internet-URLs, die eine Datei mit einer im Dialogfeld **Dateifilter bearbeiten** unter **Dateityperweiterungen** aufgeführten Erweiterung enthalten. Wenn eine URL blockiert wird, wird dem Absender eine Fehlermeldung angezeigt. Wenn diese Option aktiviert ist, hat diese Option Vorrang vor allen anderen Filteroptionen für alle Dateierweiterungen, **die unter Dateityperweiterungen definiert sind, die blockiert werden sollen**.
     
     <div>
     
 
     > [!IMPORTANT]
-    > Das Filtern von Dateierweiterungen ist auf standardmäßige Dateinamen limitiert. Das Filtern funktioniert möglicherweise nicht mit Dateierweiterungen, die in anderen Namen eingebettet sind.
+    > Das Filtern von Dateierweiterungen ist auf Standarddatei Namen limitiert. Das Filtern funktioniert möglicherweise nicht mit Dateierweiterungen, die in andere Namen eingebettet sind.
 
     
     </div>
 
-Wenn Sie konfigurieren möchten, wie Hyperlinks in Sofortnachrichtenunterhaltungen gehandhabt werden, wählen Sie eine der folgenden Optionen unter **Link-Präfix**aus:
+Wählen Sie eine der folgenden Optionen unter **Link Prefix**aus, um zu konfigurieren, wie Hyperlinks in Sofortnachrichtenunterhaltungen behandelt werden:
 
-  - **Sie können keine**   URLs in Nachrichten filtern, die über den Server gesendet werden. Wenn Sie diese Option auswählen, wird das Feld **Nachricht zulassen** angezeigt. Geben Sie im Feld **Nachricht zulassen** den Hinweis an, den Sie am Anfang jeder Sofortnachricht mit Links einfügen möchten. Dieser Hinweis kann aus maximal 65535 Zeichen bestehen.
+  - ****   URLs in Nachrichten nicht Filtern werden über den Server gesendet. Wenn Sie diese Option auswählen, wird das Feld **Nachricht zulassen** angezeigt. Geben Sie im Feld **Nachricht zulassen** den Hinweis an, den Sie am Anfang jeder Sofortnachricht mit Hyperlinks einfügen möchten. Dieser Hinweis kann aus maximal 65535 Zeichen bestehen.
 
-  - **Blockieren von Links**   die Zustellung von Sofortnachrichten mit aktiven Links wird von lync Server blockiert, und dem Absender wird eine Fehlermeldung angezeigt.
+  - **Blockieren von Hyperlinks**   die Zustellung von Sofortnachrichten mit aktiven Hyperlinks wird von lync Server blockiert, und dem Absender wird eine Fehlermeldung angezeigt.
 
-  - **Warnungsnachricht**   senden lync Server erlaubt aktive Links in Sofortnachrichten, enthält aber eine Warnung. Wenn Sie diese Option auswählen, wird das Dialogfeld **Warnmeldung** angezeigt. Im Feld **Warnung** müssen Sie die Warnung eingeben, die Sie in Sofortnachrichten mit gültigen Hyperlinks einbeziehen möchten. Mit dieser Warnung können Sie beispielsweise die möglichen Gefahren für das Klicken auf einen unbekannten Link angeben, oder es kann auf die relevanten Richtlinien und Anforderungen Ihrer Organisation verweisen. Die Warnung darf maximal 65535 Zeichen lang sein.
+  - **Warnmeldung**   senden lync Server erlaubt aktive Hyperlinks in Chatnachrichten, enthält jedoch eine Warnung. Wenn Sie diese Option auswählen, wird das **Warn Meldungs** Feld angezeigt. Im **Warn Meldungs** Feld müssen Sie die Warnung eingeben, die in Chatnachrichten enthalten sein soll, die gültige Hyperlinks enthalten. Beispielsweise kann diese Warnung die potenziellen Gefahren für das Klicken auf einen unbekannten Link angeben oder sich auf die relevanten Richtlinien und Anforderungen Ihrer Organisation berufen. Die Warnung darf nicht mehr als 65535 Zeichen enthalten.
 
-Wenn Sie **Links blockieren** oder **Warnmeldung senden**auswählen, stehen die folgenden Optionen zur Verfügung:
+Wenn Sie **Hyperlinks blockieren** oder **Warnmeldung senden**auswählen, stehen die folgenden Optionen zur Verfügung:
 
-  - **Lokale Intranet-Links**   ausschließen der Sofortnachrichtenfilter blockiert nur Internet-URLs. URLs für Standorte innerhalb Ihres Intranets werden ungeändert über den Server weitergeleitet. Die Intranet-URLs, die von einzelnen Servern mit lync Server übertragen werden, hängen jedoch davon ab, welche Typen von lokalen Websites als Teil ihrer Intranetzone angesehen werden. Informationen zum Überprüfen der Intranet-Zoneneinstellungen eines Servers finden Sie unter [Ändern des Standard-URL-Filters in lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)unter "so konfigurieren Sie Ihre Intraneteinstellungen in Internet Explorer".
+  - **Lokale Intranet-Hyperlinks**   ausschließen der Sofortnachrichtenfilter blockiert nur Internet-URLs. URLs für Standorte in Ihrem Intranet werden unverändert über den Server übergeben. Die Intranet-URLs, die einzelne Server lync Server übergeben, hängen jedoch davon ab, welche Arten von lokalen Websites als Teil ihrer Intranetzone betrachtet werden. Informationen zum Überprüfen der Intranet-Zoneneinstellungen eines Servers finden Sie unter "so konfigurieren Sie die Einstellungen für Intraneteinstellungen in Internet Explorer" unter [Ändern des Standard-URL-Filters in lync Server 2013](lync-server-2013-modify-the-default-url-filter.md).
 
-  - **Filtern Sie diese Link Präfixe**   , um auszuwählen, welche Präfixe blockiert werden sollen, klicken Sie auf **auswählen**, und fügen Sie dann im Feld **Link Präfix auswählen**die Präfixe der Liste **Hyperlink-Präfixe** hinzu.
+  - **Filtern Sie diese Verknüpfungs Präfixe**   , um auszuwählen, welche Präfixe Sie blockieren möchten, klicken Sie auf **auswählen**, und fügen Sie dann im Feld **Hyperlink-Präfix auswählen**die Präfixe zur Liste **Hyperlink-Präfixe** hinzu.
     
-    Alle Präfixe mit Ausnahme von **href** müssen mit einem Punkt oder einem Doppelpunkt oder einem Sternchen, gefolgt von einem Punkt, enden. Gültige Präfixe können alle Zeichen in der Gruppe gültiger URL-Zeichen mit Ausnahme des Sternchens\*() enthalten. Der Satz gültiger URL-Zeichen lautet: \# \*+/0123456789 = @abcdefghijklmnopqrstuvwxyz ^\_ \` abcdefghijklmnopqrstuvwxyz | ~
+    Alle Präfixe mit Ausnahme von **href** müssen mit einem Punkt oder einem Doppelpunkt oder einem Sternchen, gefolgt von einem Punkt enden. Gültige Präfixe können beliebige Zeichen im Satz gültiger URL-Zeichen enthalten, außer dem Sternchen (\*). Die Gruppe gültiger URL-Zeichen lautet: \# \*+/0123456789 = @abcdefghijklmnopqrstuvwxyz ^\_ \` abcdefghijklmnopqrstuvwxyz | ~
 
 </div>
 
@@ -134,33 +134,33 @@ Wenn Sie **Links blockieren** oder **Warnmeldung senden**auswählen, stehen die 
 
 ## <a name="file-transfer-filtering"></a>Dateiübertragungsfilterung
 
-Filter Übertragungsfilter wirken sich sowohl auf Sofortnachrichten als auch auf Konferenzen aus. Bei Konferenzen wirken sich diese Einstellungen auf das Handzettel Feature in den Office Live Meeting 2007-Client-und Multimedia-Wiedergabe Features aus.
+Filter Übertragungs Filterung wirkt sich sowohl auf Chatnachrichten als auch auf Konferenzen aus. Bei Konferenzen wirken sich diese Einstellungen auf die handzettelfunktion in den Features Office Live Meeting 2007 Client-und Multimedia-Wiedergabe aus.
 
 <div>
 
 
 > [!NOTE]
-> Lync Server bietet außerdem Einstellungen für die Dateiübertragung. Diese serverseitige Option wird zusätzlich zu den in lync Server verfügbaren clientseitigen Steuerelementen angeboten.
+> Lync Server bietet auch Optionen zum Festlegen von Dateiübertragungen. Diese serverseitige Option wird zusätzlich zu den clientseitigen Steuerelementen angeboten, die in lync Server verfügbar sind.
 
 
 
 </div>
 
-Sie können Dateiübertragungen während Sofortnachrichtenunterhaltungen filtern, wenn Sie die handzettelfunktion im Office Live Meeting 2007-Client verwenden, und für Multimedia-Wiedergabe Features für alle Dateitypen. Sie können die folgenden Optionen festlegen, um Dateiübertragungen zu steuern:
+Sie können Dateiübertragungen während Sofortnachrichtenunterhaltungen filtern, wenn Sie das Handzettel Feature im Office Live Meeting 2007-Client verwenden, sowie für Multimedia-Wiedergabefunktionen für alle Dateitypen. Sie können die folgenden Optionen festlegen, um Dateiübertragungen zu steuern:
 
   - **Dateifilter**   aktivieren mit dieser Option wird die Dateifilterung für die globale Bereitstellung oder für die von Ihnen ausgewählte Website aktiviert.
     
-    Wenn Sie den Dateifilter aktivieren, können Sie eine der folgenden Optionen in **Dateiübertragung**auswählen:
+    Wenn Sie den Dateifilter aktivieren, können Sie eine der folgenden Optionen bei der **Dateiübertragung**auswählen:
     
-      - **Blockieren bestimmter Dateitypen**   Sie geben an, welche Dateiübertragungsanforderungen vom Server gefiltert werden sollen, indem Sie eine Liste der zu blockierenden Dateierweiterungen angeben. Einträge in der Liste können alle Standardzeichen, aber nicht das Platzhalterzeichen (\*) enthalten. Im Office Live Meeting 2007-Client ist die handzettelfunktion aktiviert, aber jede Datei mit dieser Erweiterung kann nicht hochgeladen oder heruntergeladen werden. Wenn Sie das Kontrollkästchen **URLs mit Dateierweiterung blockieren** in den Einstellungen für einen URL-Filter auswählen, der auf der Registerkarte **URL-Filter** aufgelistet ist, verwendet der URL-Filter dieselbe Liste, um aktive Hyperlinks zu blockieren, die eine dieser Dateierweiterungen enthalten. Wenn Sie auswählen möchten, welche Dateitypen blockiert werden sollen, klicken Sie auf **auswählen**, und fügen Sie dann im Feld **Dateityp**die Dateierweiterungen zur Liste **ausgewählte Dateityperweiterungen** hinzu.
+      - **Blockieren bestimmter Dateitypen**   Sie geben an, welche Dateiübertragungsanforderungen vom Server gefiltert werden, indem Sie eine Liste der zu blockierenden Dateierweiterungen angeben. Einträge in der Liste können alle Standardzeichen enthalten, jedoch nicht das Platzhalterzeichen\*(). Im Office Live Meeting 2007-Client ist das Handzettel Feature aktiviert, aber jede Datei mit dieser Erweiterung kann nicht hochgeladen oder heruntergeladen werden. Wenn Sie das Kontrollkästchen **URLs mit Dateierweiterung blockieren** für die Einstellungen für einen URL-Filter aktivieren, der auf der Registerkarte **URL-Filter** aufgeführt ist, verwendet der URL-Filter diese Liste, um aktive Hyperlinks zu blockieren, die eine dieser Dateierweiterungen enthalten. Um auszuwählen, welche Dateitypen Sie blockieren möchten, klicken Sie auf **auswählen**, und fügen Sie dann unter **Dateityp**die Dateierweiterungen der Liste **ausgewählte Dateitypen Erweiterungen** hinzu.
     
-      - **Blockieren der gesamte**   Server löscht alle Sofortnachrichten, die Dateiübertragungsanforderungen enthalten, und gibt eine Fehlermeldung an den Absender der Anforderung zurück. Das Handzettel Feature im Office Live Meeting 2007-Client ist deaktiviert.
+      - **Alle blockieren der**   Server löscht alle Sofortnachrichten, die Dateiübertragungsanforderungen enthalten, und gibt eine Fehlermeldung an den Absender der Anforderung zurück. Das Handzettel Feature im Office Live Meeting 2007-Client ist deaktiviert.
 
 <div>
 
 
 > [!IMPORTANT]
-> Das Filtern von Dateierweiterungen ist auf standardmäßige Dateinamen limitiert. Das Filtern funktioniert möglicherweise nicht mit Dateierweiterungen, die in anderen Namen eingebettet sind.
+> Das Filtern von Dateierweiterungen ist auf Standarddatei Namen limitiert. Das Filtern funktioniert möglicherweise nicht mit Dateierweiterungen, die in andere Namen eingebettet sind.
 
 
 
@@ -176,9 +176,9 @@ Sie können Dateiübertragungen während Sofortnachrichtenunterhaltungen filtern
 
   - [Ändern des standardmäßigen dateiübertragungsfilters in lync Server 2013](lync-server-2013-modify-the-default-file-transfer-filter.md)
 
-  - [Erstellen eines neuen dateiübertragungsfilters in lync Server 2013 für eine bestimmte Website](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)
+  - [Erstellen eines neuen dateiübertragungsfilters in lync Server 2013 für einen bestimmten Standort](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)
 
-  - [Ändern des Standard-URL-Filters in lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)
+  - [Ändern des standardmäßigen URL-Filters in lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)
 
   - [Erstellen eines neuen URL-Filters in lync Server 2013 zur Behandlung von Hyperlinks in Chat Unterhaltungen](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)
 
@@ -189,7 +189,7 @@ Sie können Dateiübertragungen während Sofortnachrichtenunterhaltungen filtern
 ## <a name="see-also"></a>Siehe auch
 
 
-[Verwalten von Einstellungen für Chat und Anwesenheit in Lync Server 2013](lync-server-2013-managing-im-and-presence-settings.md)  
+[Verwalten von Chat-und Anwesenheitseinstellungen in lync Server 2013](lync-server-2013-managing-im-and-presence-settings.md)  
   
 
 </div>

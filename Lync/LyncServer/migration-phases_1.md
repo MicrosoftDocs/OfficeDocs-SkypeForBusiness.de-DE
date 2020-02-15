@@ -12,16 +12,16 @@ ms:contentKeyID: 48184494
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec2e90dfa2133817236001406704dfbb78d22bf0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b0aa69ce085c3d60e71f2bf465c91143dd812010
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730935"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030689"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41730935"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-08-29_
+_**Letztes Änderungsstand des Themas:** 2012-08-29_
 
-In den folgenden Phasen wird der Prozess einer Pool Migration von Office Communications Server 2007 R2 zu lync Server 2013 beschrieben.
+In den folgenden Phasen wird der Prozess einer Pool Migration von Office Communications Server 2007 R2 auf lync Server 2013 beschrieben.
 
   - [Phase 1: Planen der Migration von Office Communications Server 2007 R2](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [Phase 2: Vorbereitung der Migration](phase-2-prepare-for-migration_1.md)
+  - [Phase 2: Vorbereiten der Migration](phase-2-prepare-for-migration_1.md)
 
-  - [Phase 3: Bereitstellen des lync Server 2013-pilotpools](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
+  - [Phase 3: Bereitstellen lync Server 2013 pilotpools](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
 
   - [Phase 4: Zusammenführen von Topologien](phase-4-merge-topologies.md)
 
   - [Phase 5: Konfigurieren des pilotpools](phase-5-configure-the-pilot-pool.md)
 
-  - [Phase 6: Verschieben von Benutzern in den Pilot Pool](phase-6-move-users-to-the-pilot-pool.md)
+  - [Phase 6: Migrieren von Benutzern zum Pilot Pool](phase-6-move-users-to-the-pilot-pool.md)
 
-  - [Phase 7: Hinzufügen von lync Server 2013 Edge-Server zu Pilot Pool](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
+  - [Phase 7: Hinzufügen von lync Server 2013 Edgeserver zu einem Pilot Pool](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [Phase 8: Wechseln von der Pilotbereitstellung in die Produktionsumgebung](phase-8-move-from-pilot-deployment-into-production.md)
+  - [Phase 8: Umsteigen von der Pilotbereitstellung in die Produktion](phase-8-move-from-pilot-deployment-into-production.md)
 
   - [Phase 9: Ausführen von Aufgaben nach der Migration](phase-9-complete-post-migration-tasks.md)
 
-  - [Phase 10: Legacy Website der decommission](phase-10-decommission-legacy-site.md)
+  - [Phase 10: decommission Legacy Site](phase-10-decommission-legacy-site.md)
 
 </div>
 

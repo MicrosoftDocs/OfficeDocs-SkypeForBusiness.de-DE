@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Testen von Audiokonferenzen von Drittanbietern'
+title: 'Lync Server 2013: Testen von Drittanbieter-Audiokonferenzen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969576
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a90aab3b0aec4fce46b311baccd0f28f2e7101b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d2897e085ea35e17d65719874ecf103ed7f1475d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745445"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031159"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>Testen von Audiokonferenzen von Drittanbietern in lync Server 2013
+# <a name="testing-third-party-audio-conferencing-in-lync-server-2013"></a>Testen von Drittanbieter-Audiokonferenzen in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745445"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-11-01_
+_**Letztes Änderungsstand des Themas:** 2014-11-01_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-11-01_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsAudioConferencingProvider-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsAudioConferencingProvider verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAudioConferencingProvider&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,25 +66,25 @@ _**Letztes Änderungsdatum des Themas:** 2014-11-01_
 
 ## <a name="description"></a>Beschreibung
 
-Bei einem Audiokonferenzdienst handelt es sich um ein drittanbieterunternehmen, das Organisationen Konferenzdienste bereitstellt. Audiokonferenz-Anbieter ermöglichen unter anderem, dass Benutzer, die sich außerhalb des Standorts befinden und nicht mit dem Unternehmensnetzwerk oder dem Internet verbunden sind, am Audioteil einer Konferenz oder Besprechung teilnehmen können. Audiokonferenz-Anbieter bieten häufig Highend-Dienste wie Live-Übersetzungen, Transkriptionen und Live-Unterstützung für pro-Konferenz-Nutzer.
+Bei einem Audiokonferenzanbieter handelt es sich um ein Drittanbieterunternehmen, das Konferenzdienste für Organisationen bereitstellt. Audiokonferenzanbieter bieten Benutzern u. a. die Möglichkeit, von außerhalb eines Standorts und ohne Verbindung mit dem Unternehmensnetzwerk oder dem Internet am Audioteil einer Konferenz oder Besprechung teilzunehmen. Audiokonferenzanbieter stellen oft hochwertige Dienstleistungen wie Simultanübersetzung, Transkription und operatorgestützte Livekonferenzen bereit.
 
-Das Cmdlet **Test-CsAudioConferencingProvider** wird verwendet, um zu überprüfen, ob ein Benutzer eine Verbindung mit seinem Audiokonferenz-Anbieter herstellen kann. Beachten Sie, dass dieses Cmdlet auf eine von zwei Arten ausgeführt werden kann. Viele Administratoren verwenden die CsHealthMonitoringConfiguration-Cmdlets, um Testbenutzer für die einzelnen registrierungspools einzurichten. Diese Testbenutzer stellen ein paar Benutzerkonten dar, die für die Verwendung mit synthetischen Transaktionen vorkonfiguriert wurden. (In der Regel handelt es sich hierbei um Testkonten und nicht um Konten, die tatsächlichen Benutzern gehören.) Wenn Testbenutzer für einen Pool konfiguriert sind, können Administratoren das Cmdlet **Test-CsAudioConferencingProvider** für diesen Pool ausführen, ohne die Identität des an dem Test beteiligten Benutzerkontos angeben zu müssen (und die Anmeldeinformationen einzugeben).
+Das Cmdlet **Test-CsAudioConferencingProvider** wird verwendet, um zu überprüfen, ob ein Benutzer in der Lage ist, eine Verbindung mit seinem Audiokonferenz-Anbieter herzustellen. Beachten Sie, dass dieses Cmdlet auf zwei Arten ausgeführt werden kann. Viele Administratoren verwenden die Cmdlets vom Typ "CsHealthMonitoringConfiguration", um für jeden Registrierungsstellenpool Testbenutzer einzurichten. Bei diesen Testbenutzern handelt es sich um ein Paar von Benutzerkonten, das für synthetische Transaktionen vorkonfiguriert wurde. (In der Regel handelt es sich um Testkonten und nicht um Konten, die tatsächlichen Benutzern angehören.) Wenn Testbenutzer für einen Pool konfiguriert sind, können Administratoren das **Test-CsAudioConferencingProvider-** Cmdlet für diesen Pool ausführen, ohne die Identität (und die Anmeldeinformationen für) des an dem Test beteiligten Benutzerkontos angeben zu müssen.
 
-Alternativ können Administratoren das Cmdlet **Test-CsAudioConferencingProvider** unter Verwendung eines tatsächlichen Benutzerkontos ausführen. Wenn Sie den Test mit einem tatsächlichen Benutzerkonto durchführen möchten, müssen Sie den Anmeldenamen und das Kennwort für dieses Konto angeben.
+Alternativ können Administratoren das Cmdlet **Test-CsAudioConferencingProvider** mit einem tatsächlichen Benutzerkonto ausführen. Denken Sie beim Ausführen der Tests mit einem tatsächlichen Benutzerkonto daran, dass Sie den Anmeldenamen und das Kennwort jedes Benutzers angeben müssen.
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Beispiel 1 überprüft, ob ein für den Pool ATL-CS-001.litwareinc.com definierter Testbenutzer in der Lage ist, eine Verbindung mit seinem Audiokonferenz-Anbieter herzustellen. Dieser Befehl setzt voraus, dass mindestens ein Testbenutzer für den Pool definiert ist. Wenn für ATL-CS-001.litwareinc.com keine Testbenutzer definiert wurden, schlägt der Befehl fehl; Das liegt daran, dass das Cmdlet **Test-CsAudioConferencingProvider** nicht weiß, welcher Benutzer im Test verwendet werden soll. Wenn Sie für einen Pool keine Testbenutzer definiert haben, müssen Sie den "usersipaddress"-Parameter und die Anmeldeinformationen des Benutzerkontos angeben, das der Befehl verwenden soll, wenn die Verbindung mit einem Audiokonferenzdienst überprüft wird.
+In Beispiel 1 wird überprüft, ob ein für den Pool ATL-CS-001.litwareinc.com definierter Testbenutzer in der Lage ist, eine Verbindung mit seinem Audiokonferenz-Anbieter herzustellen. Für diesen Befehl muss mindestens ein Testbenutzer für den Pool definiert sein. Wenn keine Testbenutzer für ATL-CS-001.litwareinc.com definiert wurden, tritt beim Befehl ein Fehler auf. Das liegt daran, dass das **Test-CsAudioConferencingProvider-** Cmdlet nicht weiß, welcher Benutzer im Test verwendet werden soll. Wenn Sie für einen Pool keine Testbenutzer definiert haben, müssen Sie den UserSipAddress-Parameter und die Anmeldeinformationen des Benutzerkontos einschließen, das der Befehl bei der Überprüfung der Verbindung mit einem Anbieter für Audiokonferenzen verwenden sollte.
 
     Test-CsAudioConferencingProvider -TargetFqdn atl-cs-001.litwareinc.com 
 
-Die in Beispiel 2 gezeigten Befehle testen die Möglichkeit eines bestimmten Benutzers (\\"litwareinc kenmyer), eine Verbindung zu seinem Audiokonferenz-Anbieter herzustellen. Dazu verwendet der erste Befehl im Beispiel das Cmdlet "Get-Credential", um ein Windows PowerShell-Anmeldeinformationsobjekt für die Befehlszeilenschnittstelle zu erstellen, das den Namen und das Kennwort des Benutzers Ken Myers enthält. (Da der Anmeldename "litwareinc\\kenmyer als Parameter enthalten ist, muss das Windows PowerShell-Dialogfeld Anmeldeinformationen anfordern nur dem Administrator das Kennwort für das Ken Myers-Konto eingeben.) Das resultierende Credentials-Objekt wird in einer Variablen mit dem Namen $Credential gespeichert.
+Die in Beispiel 2 gezeigten Befehle testen die Fähigkeit eines bestimmten Benutzers (\\litwareinc kenmyer), eine Verbindung mit seinem Anbieter für Audiokonferenzen herzustellen. Dazu wird im ersten Befehl des Beispiels das Cmdlet Get-Credential verwendet, um ein Windows PowerShell-Befehlszeilen-Schnittstellen Anmeldeinformationsobjekt zu erstellen, das den Namen und das Kennwort des Benutzers Ken Myers enthält. (Da der Anmeldename litwareinc\\kenmyer als Parameter angegeben wurde, muss das Dialogfeld Windows PowerShell Anmeldeinformationen nur den Administrator zum Eingeben des Kennworts für das Ken Myers-Konto angeben.) Das resultierende Credentials-Objekt wird in einer Variablen namens $Credential gespeichert.
 
-Der zweite Befehl überprüft dann, ob dieser Benutzer eine Verbindung mit seinem Audiokonferenz-Anbieter herstellen kann. Um diese Aufgabe auszuführen, wird das Cmdlet Test-CsAudioConferencingProvider zusammen mit drei Parametern aufgerufen: TargetFqdn (dem FQDN des registrierungspools); UserCredential (das Windows PowerShell-Objekt, das die Benutzeranmeldeinformationen von Ken Myers enthält); und "usersipaddress" (die SIP-Adresse, die den angegebenen Benutzeranmeldeinformationen entspricht).
+Der zweite Befehl prüft anschließend, ob dieser Benutzer eine Verbindung mit dem Audiokonferenzanbieter herstellen kann. Zur Ausführung dieser Aufgabe wird das Cmdlet Test-CsAudioConferencingProvider zusammen mit drei Parametern aufgerufen: TargetFqdn (FQDN des Registrierungsstellen Pools); UserCredential (das Windows PowerShell-Objekt, das die Benutzeranmeldeinformationen von Ken Myers enthält); und UserSipAddress (die SIP-Adresse, die den angegebenen Benutzeranmeldeinformationen entspricht).
 
     $credential = Get-Credential "litwareinc\kenmyer" 
     Test-CsAudioConferencingProvider -TargetFqdn atl-cs-001.litwareinc.com -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
@@ -93,49 +93,49 @@ Der zweite Befehl überprüft dann, ob dieser Benutzer eine Verbindung mit seine
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn der Audiokonferenz-Anbieter ordnungsgemäß konfiguriert ist, erhalten Sie eine ähnliche Ausgabe, wobei die Eigenschaft Ergebnis als **erfolgreich** markiert ist:
+Wenn der Anbieter für Audiokonferenzen ordnungsgemäß konfiguriert ist, erhalten Sie eine ähnliche Ausgabe, wobei die Result-Eigenschaft als Success markiert ist **:**
 
 Ziel-FQDN: ATL-SQL-001.litwareinc.com
 
-Ergebnis: Erfolg
+Ergebnis: Success
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
 Fehlermeldung:
 
 Diagnose
 
-Wenn sich der angegebene Benutzer nicht anmelden oder sich abmelden kann, wird das Ergebnis als **Fehler**angezeigt, und weitere Informationen werden in den Eigenschaften Fehler und Diagnose aufgezeichnet:
+Wenn sich der angegebene Benutzer nicht anmelden oder abmelden kann, wird das Ergebnis als **Fehler**angezeigt, und in den Eigenschaften Error und Diagnostic werden zusätzliche Informationen aufgezeichnet:
 
 Ziel-FQDN: ATL-SQL-001.litwareinc.com
 
 Ergebnis: Fehler
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
-Fehlermeldung: 10060, Fehler bei einem Verbindungsversuch, weil die verbundene Partei
+Fehlermeldung: 10060, ein Verbindungsversuch ist fehlgeschlagen, da die verbundene Partei
 
-hat nach einer bestimmten Zeit nicht richtig reagiert, oder
+nach einem bestimmten Zeitraum nicht ordnungsgemäß reagiert oder
 
-Fehler beim Herstellen einer Verbindung, weil der verbundene Host
+Fehler bei hergestellter Verbindung, da der verbundene Host
 
 Fehler bei der \[Antwort 2001:4898: E8: f39e: 5c9a: ad83:81b3:\]9944:5061
 
 Innere Ausnahme: ein Verbindungsversuch ist fehlgeschlagen, da die
 
-die verbundene Partei hat nach einer gewissen Zeit nicht richtig reagiert
+die verbundene Partei hat nach einer bestimmten Zeit nicht ordnungsgemäß reagiert.
 
-Zeit, oder die Verbindung konnte nicht hergestellt werden, weil der verbundene Host
+Zeit oder Fehler bei hergestellter Verbindung, weil verbundener Host
 
-hat nicht reagiert
+Fehler beim Antworten
 
 \[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944\]: 5061
 
 Diagnose
 
-Die vorherige Ausgabe enthält beispielsweise die Notiz "die verbundene Partei hat nicht richtig reagiert", die in der Regel auf ein Problem mit dem Edgeserver hindeutet.
+Die vorherige Ausgabe enthält beispielsweise den Hinweis "der verbundene Teilnehmer hat nicht ordnungsgemäß reagiert", der in der Regel ein Problem mit dem Edgeserver angibt.
 
 </div>
 
@@ -143,11 +143,11 @@ Die vorherige Ausgabe enthält beispielsweise die Notiz "die verbundene Partei h
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Nachfolgend finden Sie einige häufige Gründe, warum **Test-CsAudioConferencingProvider** möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, warum das **Testen von CsAudioConferencingProvider** möglicherweise fehlschlägt:
 
-  - Es wurde ein falscher Parameterwert angegeben. Wie im vorherigen Beispiel gezeigt, müssen die optionalen Parameter richtig konfiguriert sein, oder der Test schlägt fehl. Führen Sie den Befehl ohne die optionalen Parameter erneut aus, und überprüfen Sie, ob dies erfolgreich war.
+  - Ein falscher Parameterwert wurde angegeben. Wie im vorherigen Beispiel gezeigt, müssen die optionalen Parameter ordnungsgemäß konfiguriert sein, oder der Test schlägt fehl. Führen Sie den Befehl ohne die optionalen Parameter erneut aus, und überprüfen Sie, ob dies erfolgreich ist.
 
-  - Beachten Sie, dass der Test fehlschlägt, wenn dem vom **Test-CsAudioConferencingProvider-** Cmdlet verwendeten Benutzer kein Audiokonferenz-Anbieter zugewiesen wurde.
+  - Beachten Sie, dass der Test fehlschlägt, wenn der Benutzer, der mit dem Cmdlet **Test-CsAudioConferencingProvider** beschäftigt ist, keinem Anbieter für Audiokonferenzen zugewiesen wurde.
 
   - Dieser Befehl schlägt fehl, wenn der Edgeserver falsch konfiguriert oder noch nicht bereitgestellt wurde.
 

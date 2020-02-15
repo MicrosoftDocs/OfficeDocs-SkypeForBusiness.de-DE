@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: lync für Windows Phone-Anforderungen'
+title: 'Lync Server 2013: lync für Windows Phone Anforderungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541514
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ea0721b69ff8c7fa666a77f96123c9f605092ae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f5ea73784e025cb1270451706d5a59628020b629
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765473"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030879"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-for-windows-phone-requirements-in-lync-server-2013"></a>Lync für Windows Phone-Anforderungen in lync Server 2013
+# <a name="lync-for-windows-phone-requirements-in-lync-server-2013"></a>Lync für Windows Phone Anforderungen in lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41765473"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-20_
+_**Letztes Änderungsstand des Themas:** 2013-02-20_
 
-Microsoft lync 2013 für Windows phone bietet Instant Messaging (im), erweiterte Anwesenheitsinformationen und Telefonie für Benutzer in Ihrer Organisation, die über ein Smartphone oder ein Windows Professional-Mobilgerät eine Verbindung herstellen. Mit mobilen Geräten können Benutzer die Reichweite von lync 2013 erweitern. In diesem Thema werden Planungsüberlegungen für lync 2013 für Windows Phone beschrieben, die das Identifizieren von Voraussetzungen und technischen Anforderungen, erforderlichen Komponenten und Bereitstellungsanleitungen beinhalten.
+Microsoft lync 2013 für Windows phone bietet Instant Messaging (Sofortnachrichten), erweiterte Anwesenheitsinformationen und Telefonie für Benutzer in Ihrer Organisation, die eine Verbindung von einem Smartphone oder einem mobilen Windows Professional-Gerät herstellen. Mobile Geräte ermöglichen Benutzern, die Reichweite von lync 2013 zu erweitern. In diesem Thema werden Planungsüberlegungen für lync 2013 für Windows Phone beschrieben, die die Ermittlung von Voraussetzungen und technischen Anforderungen, erforderlichen Komponenten und Bereitstellungsanleitungen umfassen.
 
 <div>
 
-## <a name="lync-for-windows-phone-prerequisites"></a>Voraussetzungen für lync für Windows Phone
+## <a name="lync-for-windows-phone-prerequisites"></a>Lync für Windows Phone-Voraussetzungen
 
-Im folgenden finden Sie die Voraussetzungen für lync 2013 für Windows phone.
+Im folgenden finden Sie die lync 2013 für Windows Phone Voraussetzungen.
 
   - Windows Phone 8, Codename "Apollo" oder die neueste Version.
 
-  - Das Windows Phone-Gerät muss über die neuesten Updates verfügen, die von Microsoft bereitgestellt wurden. Ausführliche Informationen finden Sie unter Windows Phone 8-Update [http://go.microsoft.com/fwlink/p/?LinkID=281961](http://go.microsoft.com/fwlink/p/?linkid=281961)Verlauf unter.
+  - Das Windows Phone Gerät muss über die neuesten Updates verfügen, die von Microsoft verfügbar sind. Ausführliche Informationen finden Sie unter Windows Phone 8 Updateverlauf [http://go.microsoft.com/fwlink/p/?LinkID=281961](http://go.microsoft.com/fwlink/p/?linkid=281961)unter.
 
-  - Auf dem Gerät muss 12 MB verfügbarer Speicherplatz vorhanden sein.
+  - Auf dem Gerät müssen 12 MB Speicherplatz verfügbar sein.
 
   - Der Benutzer muss einen Sprach- und Datendienstvertrag bei einem Netzbetreiber abgeschlossen haben.
 

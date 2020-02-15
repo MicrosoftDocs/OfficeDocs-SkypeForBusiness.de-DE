@@ -12,16 +12,16 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d6bf9f79725f1f4812ac1e1c1c3c0e3217b939b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 76105b9bee5ce35801196b5a4cd20b2a1feed3e7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728935"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030629"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41728935"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-12_
+_**Letztes Änderungsstand des Themas:** 2013-03-12_
 
-Zur Bereitstellung von Enterprise-VoIP müssen Sie Folgendes konfigurieren:
+Um Enterprise-VoIP bereitzustellen, müssen Sie Folgendes konfigurieren:
 
-  - Erstellen eines Stamms
+  - Erstellen eines Trunks
 
   - Definieren einer VoIP-Richtlinie
 
   - Definieren einer VoIP-Route
 
-  - Enable Users for Enterprise Voice
+  - Aktivieren von Benutzern für Enterprise-VoIP
 
 <div>
 
-## <a name="create-a-trunk"></a>Erstellen eines Stamms
+## <a name="create-a-trunk"></a>Erstellen eines Trunks
 
-Sie müssen Trunks in Ihrer Enterprise-VoIP-Bereitstellung definieren. Für standortbasiertes Routing müssen Sie eine trunk-Konfiguration pro trunk erstellen. Verwenden Sie den lync Server Topology Builder, um Ihre Trunks zu definieren, und verwenden Sie den lync Server Windows PowerShell-Befehl, New-CsTrunkConfiguration oder die lync Server-Systemsteuerung, um die entsprechenden Trunk-Konfigurationen zu definieren. Weitere Informationen zum Aktivieren von Standort basiertem Routing auf Trunk-Konfigurationen finden Sie im Abschnitt Aktivieren des standortbasierten Routings für Trunks im Thema Aktivieren des [standortbasierten Routings in lync Server 2013](lync-server-2013-enabling-location-based-routing.md). In diesem Beispiel werden in der folgenden Tabelle die in diesem Szenario verwendeten Trunks veranschaulicht.
+Sie müssen Trunks in Ihrer Enterprise-VoIP-Bereitstellung definieren. Für das standortbasierte Routing müssen Sie eine trunkkonfiguration pro trunk erstellen. Verwenden Sie den lync Server Topologie-Generator, um Ihre Trunks zu definieren, und verwenden Sie den lync Server Windows PowerShell-Befehl, New-CsTrunkConfiguration oder den lync Server-Systemsteuerung, um die entsprechenden Trunk Konfigurationen zu definieren. Weitere Informationen zum Aktivieren des standortbasierten Routings auf Trunk Konfigurationen finden Sie im Abschnitt Aktivieren des standortbasierten Routings für Trunks, im Thema Aktivieren des [standortbasierten Routings in lync Server 2013](lync-server-2013-enabling-location-based-routing.md). In diesem Beispiel werden in der folgenden Tabelle die Trunks dargestellt, die in diesem Szenario verwendet werden.
 
 Weitere Informationen finden Sie unter [Definieren zusätzlicher Trunks im Topologie-Generator in lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md).
 
@@ -66,7 +66,7 @@ Weitere Informationen finden Sie unter [Definieren zusätzlicher Trunks im Topol
 </colgroup>
 <thead>
 <tr class="header">
-<th>Trunk-Name</th>
+<th>Trunk Name</th>
 <th>Systemtyp</th>
 <th>Name</th>
 <th>Ort</th>
@@ -89,14 +89,14 @@ Weitere Informationen finden Sie unter [Definieren zusätzlicher Trunks im Topol
 <td><p>MS1</p></td>
 </tr>
 <tr class="odd">
-<td><p>Trunk 3 del-PBX</p></td>
+<td><p>Trunk 3 del-Nebenstellenanlage</p></td>
 <td><p>PBX</p></td>
 <td><p>DEL-PBX</p></td>
 <td><p>Delhi</p></td>
 <td><p>MS1</p></td>
 </tr>
 <tr class="even">
-<td><p>Trunk 4 Hyd-PBX</p></td>
+<td><p>Trunk 4 Hyd-Nebenstellenanlage</p></td>
 <td><p>PBX</p></td>
 <td><p>Hyd-PBX</p></td>
 <td><p>Hyderabad</p></td>
@@ -117,9 +117,9 @@ Weitere Informationen finden Sie unter [Definieren zusätzlicher Trunks im Topol
 
 ## <a name="defines-voice-policies"></a>Definiert VoIP-Richtlinien
 
-Sie müssen VoIP-Richtlinien für Ihre Enterprise-VoIP-Bereitstellung definieren. Definieren Sie eine VoIP-Richtlinie, um standortbasierte Routing Einschränkungen für eine Teilmenge von Benutzern zu erzwingen, wenn nur eine Teilmenge von Ihnen für die Verwendung von Standort basiertem Routing erforderlich ist. In diesem Beispiel werden in der folgenden Tabelle die in diesem Szenario verwendeten VoIP-Richtlinien veranschaulicht. Nur Einstellungen, die für standortbasierte Routings spezifisch sind, sind in der Tabelle zu Illustrationszwecken enthalten.
+Sie müssen VoIP-Richtlinien für Ihre Enterprise-VoIP-Bereitstellung definieren. Definieren Sie eine VoIP-Richtlinie zum Erzwingen von standortbasierten Routing Einschränkungen für eine Teilmenge von Benutzern, wenn nur eine Teilmenge davon für die Verwendung des standortbasierten Routings erforderlich ist. In diesem Beispiel werden in der folgenden Tabelle die in diesem Szenario verwendeten VoIP-Richtlinien erläutert. Zur Veranschaulichung werden nur Einstellungen, die für das standortbasierte Routing spezifisch sind, in der Tabelle aufgeführt.
 
-Weitere Informationen finden Sie unter [Konfigurieren von VoIP-Richtlinien und PSTN-Verwendungsdatensätzen, um die Anruffunktionen und-Berechtigungen in lync Server 2013 zu autorisieren](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).
+Weitere Informationen finden Sie unter [Konfigurieren von VoIP-Richtlinien und PSTN-Verwendungsdatensätzen zum Autorisieren von Anruffunktionen und-Berechtigungen in lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).
 
 
 <table>
@@ -137,19 +137,19 @@ Weitere Informationen finden Sie unter [Konfigurieren von VoIP-Richtlinien und P
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>VoIP-Richtlinienkennung</p></td>
+<td><p>VoIP-Richtlinien-ID</p></td>
 <td><p>VoIP-Richtlinie für Delhi</p></td>
 <td><p>Hyderabad-VoIP-Richtlinie</p></td>
 </tr>
 <tr class="even">
-<td><p>PSTN-Nutzungen</p></td>
-<td><p>Nutzung von Delhi, Nutzung von Telefonanlagen, Telefonanlagen Hyd</p></td>
-<td><p>Hyderabad-Nutzung, Nutzung von Telefonanlagen Hyd, Telefonanlagen Nutzung</p></td>
+<td><p>PSTN-Verwendungen</p></td>
+<td><p>Verwendung von Delhi, PBX del Usage, PBX Hyd</p></td>
+<td><p>Verwendung von Hyderabad, Nebenstellenanlagen Hyd, PBX del Usage</p></td>
 </tr>
 <tr class="odd">
 <td><p>PreventPSTNTollBypass</p></td>
-<td><p>Falsch</p></td>
-<td><p>Falsch</p></td>
+<td><p>False</p></td>
+<td><p>False</p></td>
 </tr>
 </tbody>
 </table>
@@ -166,7 +166,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von VoIP-Richtlinien und P
 
 ## <a name="define-voice-routes"></a>Definieren von VoIP-Routen
 
-Sie müssen VoIP-Routen für Ihre Enterprise-VoIP-Bereitstellung definieren. In diesem Beispiel werden in der folgenden Tabelle die in diesem Szenario verwendeten VoIP-Routen veranschaulicht. Nur Einstellungen, die für standortbasierte Routings spezifisch sind, sind in der Tabelle zu Illustrationszwecken enthalten.
+Sie müssen VoIP-Routen für Ihre Enterprise-VoIP-Bereitstellung definieren. In diesem Beispiel werden in der folgenden Tabelle die in diesem Szenario verwendeten VoIP-Routen dargestellt. Zur Veranschaulichung werden nur Einstellungen, die für das standortbasierte Routing spezifisch sind, in der Tabelle aufgeführt.
 
 Weitere Informationen finden Sie unter [Konfigurieren von VoIP-Routen für ausgehende Anrufe in lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
 
@@ -193,22 +193,22 @@ Weitere Informationen finden Sie unter [Konfigurieren von VoIP-Routen für ausge
 <td><p>Name</p></td>
 <td><p>Delhi-Route</p></td>
 <td><p>Hyderabad-Route</p></td>
-<td><p>PBX del-Route</p></td>
+<td><p>Nebenstellenanlage del Route</p></td>
 <td><p>PBX-Hyd-Route</p></td>
 </tr>
 <tr class="even">
-<td><p>PSTN-Nutzungen</p></td>
+<td><p>PSTN-Verwendungen</p></td>
 <td><p>Delhi-Nutzung</p></td>
 <td><p>Hyderabad-Nutzung</p></td>
-<td><p>Telefonanlagen Nutzung</p></td>
-<td><p>Verwendung von PBX-Hyd</p></td>
+<td><p>PBX del-Nutzung</p></td>
+<td><p>PBX-Hyd-Verwendung</p></td>
 </tr>
 <tr class="odd">
 <td><p>Stamm</p></td>
 <td><p>Trunk 1 del-GW</p></td>
 <td><p>Trunk 2 Hyd-GW</p></td>
-<td><p>Trunk 3 del-PBX</p></td>
-<td><p>Trunk 4 Hyd-PBX</p></td>
+<td><p>Trunk 3 del-Nebenstellenanlage</p></td>
+<td><p>Trunk 4 Hyd-Nebenstellenanlage</p></td>
 </tr>
 </tbody>
 </table>
@@ -223,9 +223,9 @@ Weitere Informationen finden Sie unter [Konfigurieren von VoIP-Routen für ausge
 
 <div>
 
-## <a name="enable-users-for-enterprise-voice"></a>Enable Users for Enterprise Voice
+## <a name="enable-users-for-enterprise-voice"></a>Aktivieren von Benutzern für Enterprise-VoIP
 
-Aktivieren Sie Benutzer für Enterprise-VoIP, und weisen Sie Ihnen eine VoIP-Richtlinie zu, die Sie zuvor definiert haben. In diesem Beispiel wird in der folgenden Tabelle die in diesem Szenario verwendete Aufgabe veranschaulicht. Nur Einstellungen, die für standortbasierte Routings spezifisch sind, sind in der Tabelle zu Illustrationszwecken enthalten.
+Aktivieren Sie Benutzer für Enterprise-VoIP, und weisen Sie Ihnen eine VoIP-Richtlinie zu, die Sie zuvor definiert haben. In diesem Beispiel wird in der folgenden Tabelle die in diesem Szenario verwendete Zuweisung dargestellt. Zur Veranschaulichung werden nur Einstellungen, die für das standortbasierte Routing spezifisch sind, in der Tabelle aufgeführt.
 
 Weitere Informationen finden Sie unter [Aktivieren von Benutzern für Enterprise-VoIP in lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).
 
@@ -239,13 +239,13 @@ Weitere Informationen finden Sie unter [Aktivieren von Benutzern für Enterprise
 <thead>
 <tr class="header">
 <th></th>
-<th>Benutzer in Delhi</th>
+<th>Benutzer, die sich in Delhi befinden</th>
 <th>Benutzer, die sich in Hyderabad befinden</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Zugehörige VoIP-Richtlinie</p></td>
+<td><p>Zugeordnete VoIP-Richtlinie</p></td>
 <td><p>VoIP-Richtlinie für Delhi</p></td>
 <td><p>Hyderabad-VoIP-Richtlinie</p></td>
 </tr>
@@ -270,7 +270,7 @@ Weitere Informationen finden Sie unter [Aktivieren von Benutzern für Enterprise
 ## <a name="see-also"></a>Siehe auch
 
 
-[Konfigurieren von standortbasiertem Routing in Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
+[Konfigurieren des standortbasierten Routings in lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
   
 
 </div>

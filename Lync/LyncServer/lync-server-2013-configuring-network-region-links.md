@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von Netzwerk Regions Verknüpfungen'
+title: 'Lync Server 2013: Konfigurieren von Netzwerk Regions Links'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184829
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d069bb5215fc977a35481a916f49e86fa644284
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ccafd4302897a8768164f9f085f382e2ad806c2d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743475"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030519"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-network-region-links-in-lync-server-2013"></a>Konfigurieren von Netzwerkbereichs Links in lync Server 2013
+# <a name="configuring-network-region-links-in-lync-server-2013"></a>Konfigurieren von Netzwerk Regions Links in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41743475"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Sie können Verknüpfungen zwischen zwei netzwerkregionen als Teil der Anrufsteuerung (Call Admission Control, CAC) konfigurieren. Regionen in einem Netzwerk sind über die physische WAN-Konnektivität (Wide Area Network) verbunden. Sie können die lync Server-Systemsteuerung verwenden, um eine Verknüpfung zwischen zwei netzwerkregionen zu definieren und die Bandbreiteneinschränkungen für Audio-und Videoverbindungen zwischen diesen Regionen festzulegen. Details zum Löschen einer vorhandenen Netzwerk Regions Verknüpfung finden Sie unter [Löschen von Netzwerkbereichs Links in lync Server 2013](lync-server-2013-deleting-network-region-links.md).
+Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregionen konfigurieren. Regionen in einem Netzwerk sind über eine physische WAN-Verbindung (Wide Area Network, Fernnetz) verbunden. Sie können die lync Server-Systemsteuerung verwenden, um eine Verknüpfung zwischen zwei netzwerkregionen zu definieren und die Bandbreitenbeschränkungen für Audio-und Videoverbindungen zwischen diesen Regionen festzulegen. Ausführliche Informationen zum Löschen einer vorhandenen Netzwerk Regions Verbindung finden Sie unter [Löschen von Netzwerk Regions Links in lync Server 2013](lync-server-2013-deleting-network-region-links.md).
 
 <div>
 
-## <a name="to-create-a-network-region-link"></a>So erstellen Sie eine Netzwerk Regions Verknüpfung
+## <a name="to-create-a-network-region-link"></a>So erstellen Sie eine Netzwerkregionenverbindung
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder gleichwertige Benutzerrechte hat) oder der CsAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Regions Link**.
+3.  Klicken Sie auf der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Regionenverbindung**.
 
-4.  Klicken Sie auf der Seite **Regions Link** auf **neu**.
+4.  Klicken Sie auf der Seite **Regionenverbindung** auf **Neu**.
 
-5.  Geben Sie im Feld **neuer Bereich**einen Wert in das Feld **Name** ein.
+5.  Geben Sie im Abschnitt **Neue Regionenverbindung** im Feld **Name** einen Wert ein.
     
     <div>
     
@@ -62,33 +62,33 @@ Sie können Verknüpfungen zwischen zwei netzwerkregionen als Teil der Anrufsteu
     
     </div>
 
-6.  Wählen Sie in der Dropdownliste **netzwerkregion \#1** einen der beiden zu verknüpfende Regionen aus.
+6.  Wählen Sie in der Dropdownliste **netzwerkregion \#1** eine der beiden Regionen aus, die verknüpft werden sollen.
 
-7.  Wählen Sie in der Dropdownliste **netzwerkregion \#2** die andere Region aus, die verknüpft werden soll. Diese Region muss sich von der für netzwerkregion \#1 ausgewählten Region unterscheiden.
+7.  Wählen Sie in der Dropdownliste **netzwerkregion \#2** den anderen zu verknüpfenden Bereich aus. Diese Region muss sich von der für die netzwerkregion \#1 ausgewählten Region unterscheiden.
 
-8.  Optional Wenn Sie Bandbreiteneinschränkungen für Audio-oder Videoanrufe zwischen diesen Regionen festlegen möchten, wählen Sie in der Dropdownliste **bandbreitenrichtlinie** ein Profil für Bandbreitenrichtlinien aus.
+8.  (Optional) Wenn Sie Bandbreitenbeschränkungen für Audio- oder Videoanrufe zwischen diesen Regionen festlegen möchten, wählen Sie ein Bandbreitenrichtlinienprofil in der Dropdownliste **Bandbreitenrichtlinie** aus.
 
-9.  Klicken Sie auf **Commit ausführen**.
+9.  Klicken Sie auf **Commit**.
 
 </div>
 
 <div>
 
-## <a name="to-modify-a-network-region-link"></a>So ändern Sie eine Netzwerk Regions Verknüpfung
+## <a name="to-modify-a-network-region-link"></a>So ändern Sie eine Netzwerkregionenverbindung
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder gleichwertige Benutzerrechte hat) oder der CsAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Regions Link**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Regionenverbindung**.
 
-4.  Klicken Sie auf der Seite **Regions Link** auf den zu ändernden Bereichs Link.
+4.  Klicken Sie auf der Seite **Regionenverbindung** auf die Regionenverbindung, die Sie ändern möchten.
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
-6.  Im **Link "Region bearbeiten**" können Sie die verknüpften Regionen oder das bandbreitenrichtlinienprofil für diesen Link ändern.
+6.  Im Abschnitt **Regionenverbindung bearbeiten** können Sie die verknüpften Regionen oder das Bandbreitenrichtlinienprofil für diese Region ändern.
 
-7.  Klicken Sie auf **Commit ausführen**.
+7.  Klicken Sie auf **Commit**.
 
 </div>
 
@@ -97,11 +97,11 @@ Sie können Verknüpfungen zwischen zwei netzwerkregionen als Teil der Anrufsteu
 ## <a name="see-also"></a>Siehe auch
 
 
-[Löschen von Netzwerkbereichs Links in lync Server 2013](lync-server-2013-deleting-network-region-links.md)  
+[Löschen von Netzwerk Regions Links in lync Server 2013](lync-server-2013-deleting-network-region-links.md)  
 
 
 [New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
-[Set-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
+[Gruppe-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegionLink)  
 [Remove-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegionLink)  
 [Get-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
   

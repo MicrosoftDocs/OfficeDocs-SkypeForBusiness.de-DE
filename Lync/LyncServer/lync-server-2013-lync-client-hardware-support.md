@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Unterstützung für Lync Client-Hardware'
+title: 'Lync Server 2013: Unterstützung für lync-Clienthardware'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 907e3244e7c9410d6b6c8f7d61517a7ef5055c6c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4c51adcb773769abc4dfc553d8dc5dd72a0df152
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765526"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030929"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-client-hardware-support-in-lync-server-2013"></a>Unterstützung für Lync Client-Hardware in Lync Server 2013
+# <a name="lync-client-hardware-support-in-lync-server-2013"></a>Unterstützung für lync-Clienthardware in lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41765526"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-12-14_
+_**Letztes Änderungsstand des Themas:** 2012-12-14_
 
-In diesem Abschnitt werden die empfohlene Hardware für lync 2013 und das Online Besprechungs-Add-in für lync 2013 beschrieben.
+In diesem Abschnitt wird die empfohlene Hardware für lync 2013 und das Online-Besprechungs-Add-in für lync 2013 beschrieben.
 
-### <a name="recommended-hardware-for-lync-2013-and-the-online-meeting-add-in-for-lync-2013"></a>Empfohlene Hardware für lync 2013 und das Online Besprechungs-Add-in für lync 2013
+### <a name="recommended-hardware-for-lync-2013-and-the-online-meeting-add-in-for-lync-2013"></a>Empfohlene Hardware für lync 2013 und das Online-Besprechungs-Add-in für lync 2013
 
 <table>
 <colgroup>
@@ -55,19 +55,19 @@ In diesem Abschnitt werden die empfohlene Hardware für lync 2013 und das Online
 <tbody>
 <tr class="odd">
 <td><p>Computer/Prozessor</p></td>
-<td><p>Intel Pentium 4, AMD Athlon 64 oder Äquivalent</p></td>
+<td><p>Intel Pentium 4, AMD Athlon 64 oder gleichwertig</p></td>
 </tr>
 <tr class="even">
 <td><p>Arbeitsspeicher</p></td>
-<td><p>2 Gigabyte (GB) Arbeitsspeicher</p></td>
+<td><p>2 GB RAM</p></td>
 </tr>
 <tr class="odd">
-<td><p>Daten und Sprache</p></td>
-<td><p>Mindestens 1,6 Gigahertz (GHz) oder schnellerer Prozessor. Wir empfehlen 2,0 Gigahertz (32-Bit oder 64-Bit).</p></td>
+<td><p>Daten und VoIP</p></td>
+<td><p>Prozessor mit mindestens 1,6 GHz. Empfohlen werden 2,0 GHz (32 Bit oder 64 Bit).</p></td>
 </tr>
 <tr class="even">
 <td><p>Video</p></td>
-<td><p>Anzeigen <a href="lync-server-2013-lync-client-video-requirements.md">der lync-Client Video Anforderungen für lync Server 2013</a></p></td>
+<td><p>Weitere Informationen finden Sie unter <a href="lync-server-2013-lync-client-video-requirements.md">lync-Client-Video Anforderungen für lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Bildschirmauflösung</p></td>
@@ -76,28 +76,28 @@ In diesem Abschnitt werden die empfohlene Hardware für lync 2013 und das Online
 <tr class="even">
 <td><p>Grafikhardware</p></td>
 <td><ul>
-<li><p>Unterstützung für die Microsoft DirectX 9-Anwendungsprogrammierschnittstelle</p></li>
-<li><p>128 Megabyte (MB) Grafikspeicher (zumindest). Wir empfehlen 256 MB Grafikspeicher.</p></li>
-<li><p>Treiber für Windows-Anzeigetreiber</p></li>
-<li><p>Pixel-Shader 2,0 in Hardware</p></li>
-<li><p>32 Bits pro Pixel</p></li>
+<li><p>Unterstützung für Microsoft DirectX 9-API</p></li>
+<li><p>128 MB Grafikspeicher (mindestens). Empfohlen werden 256 MB Grafikspeicher.</p></li>
+<li><p>WDDM-Treiber (Windows Display Driver Model)</p></li>
+<li><p>Pixel Shader 2.0-Hardware</p></li>
+<li><p>32 Bit pro Pixel</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>Telefonie</p></td>
-<td><p>Mikrofon und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät (e). Empfohlene Geräte:</p>
+<td><p>Mikrofon und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät. Empfohlene Geräte:</p>
 <ul>
-<li><p>Telefone mit dem Logo "optimized for Microsoft lync" (siehe Telefone und Geräte, die für Microsoft <a href="http://go.microsoft.com/fwlink/p/?linkid=208938">http://go.microsoft.com/fwlink/p/?LinkID=208938</a> lync unter für eine Liste qualifiziert sind)</p></li>
+<li><p>Telefone mit dem Logo "optimized for Microsoft lync" (siehe Telefone und Geräte, die für Microsoft <a href="http://go.microsoft.com/fwlink/p/?linkid=208938">http://go.microsoft.com/fwlink/p/?LinkID=208938</a> lync qualifiziert sind, finden Sie unter für eine Liste)</p></li>
 <li><p>Telefone, auf denen lync Phone Edition ausgeführt wird</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Video Quelle</p></td>
+<td><p>Videoquelle</p></td>
 <td><p>USB 2,0-Videokamera oder Polycom CX5000 HD-Gerät (RoundTable-Gerät)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Bandbreite</p></td>
-<td><p>Informationen <a href="lync-server-2013-network-bandwidth-requirements-for-media-traffic.md">zu den Anforderungen an die Netzwerkbandbreite für Mediendatenverkehr in lync Server 2013</a></p></td>
+<td><p>Weitere Informationen finden Sie unter Anforderungen an die <a href="lync-server-2013-network-bandwidth-requirements-for-media-traffic.md">Netzwerkbandbreite für Mediendatenverkehr in lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>

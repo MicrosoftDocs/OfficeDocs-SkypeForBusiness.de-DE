@@ -12,16 +12,16 @@ ms:contentKeyID: 49733688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a78071697750a95bb8832585ea036dc90aa984da
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 511f6e9c3b0b4e3caf614fdd00d71fc0ac84e524
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736375"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030959"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41736375"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Führen Sie die folgenden Schritte aus, um eine konferenzrichtlinie auf Benutzerebene oder auf Websiteebene zu löschen.
+Führen Sie die folgenden Schritte aus, um eine Konferenzrichtlinie auf Benutzer- oder Standortebene zu löschen.
 
 <div>
 
 
 > [!NOTE]  
-> Sie können die globale konferenzrichtlinie nicht löschen.
+> Die globale Konferenzrichtlinie kann nicht gelöscht werden.
 
 
 
@@ -51,15 +51,15 @@ Führen Sie die folgenden Schritte aus, um eine konferenzrichtlinie auf Benutzer
 
 <div>
 
-## <a name="to-delete-a-site-or-user-conferencing-policy"></a>So löschen Sie eine Website-oder Benutzer konferenzrichtlinie
+## <a name="to-delete-a-site-or-user-conferencing-policy"></a>So löschen Sie eine Konferenzrichtlinie auf Benutzer- oder Standortebene
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Konferenzen** , und klicken Sie dann auf **konferenzrichtlinie**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Konferenz** und dann auf **Konferenzrichtlinie**.
 
-4.  Klicken Sie in der Liste der Konferenzrichtlinien auf die zu löschende Benutzer- oder Standortrichtlinie, klicken Sie auf **Bearbeiten** und dann auf **Löschen**.
+4.  Klicken Sie in der Liste der Konferenzrichtlinien auf die Standort-oder Benutzerrichtlinie, die Sie löschen möchten, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Löschen**.
 
 </div>
 
@@ -67,11 +67,11 @@ Führen Sie die folgenden Schritte aus, um eine konferenzrichtlinie auf Benutzer
 
 ## <a name="removing-conferencing-policies-by-using-windows-powershell-cmdlets"></a>Entfernen von Konferenzrichtlinien mithilfe von Windows PowerShell-Cmdlets
 
-Sie können Konferenzrichtlinien mithilfe der lync Server-Verwaltungsshell und des Cmdlets **Remove-CsConferencingPolicy** löschen. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Sie können Konferenzrichtlinien mit lync Server-Verwaltungsshell und dem Cmdlet **Remove-CsConferencingPolicy** löschen. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
-## <a name="to-remove-a-specified-conferencing-policy"></a>So entfernen Sie eine bestimmte konferenzrichtlinie
+## <a name="to-remove-a-specified-conferencing-policy"></a>So entfernen Sie eine angegebene Konferenzrichtlinie
 
   - Mit dem folgenden Befehl wird die Konferenzrichtlinie mit dem Identitätswert "RedmondConferencingPolicy" entfernt:
     
@@ -81,9 +81,9 @@ Sie können Konferenzrichtlinien mithilfe der lync Server-Verwaltungsshell und d
 
 <div>
 
-## <a name="to-remove-all-of-the-conferencing-policies-applied-to-the-per-user-scope"></a>So entfernen Sie alle auf den Benutzerbereich angewendeten Konferenzrichtlinien
+## <a name="to-remove-all-of-the-conferencing-policies-applied-to-the-per-user-scope"></a>So entfernen Sie alle auf Benutzerebene angewendeten Konferenzrichtlinien
 
-  - Mit dem folgenden Befehl werden alle im Benutzerbereich konfigurierten Konferenzrichtlinien entfernt:
+  - Mit dem folgenden Befehl werden alle Konferenzrichtlinien entfernt, die auf Benutzerebene konfiguriert sind:
     
         Get-CsConferencingPolicy -Filter "tag:*" | Remove-CsConferencingPolicy
 
@@ -91,9 +91,9 @@ Sie können Konferenzrichtlinien mithilfe der lync Server-Verwaltungsshell und d
 
 <div>
 
-## <a name="to-remove-all-of-the-conferencing-polices-that-allow-recording-by-external-users"></a>So entfernen Sie alle Konferenzrichtlinien, die die Aufzeichnung durch externe Benutzer zulassen
+## <a name="to-remove-all-of-the-conferencing-polices-that-allow-recording-by-external-users"></a>So entfernen Sie alle Konferenzrichtlinien, die Aufzeichnungen durch externe Benutzer zulassen
 
-  - Mit dem folgenden Befehl werden alle Konferenzrichtlinien gelöscht, mit denen externe Benutzer die Konferenz aufzeichnen können:
+  - Mit dem folgenden Befehl werden alle Konferenzrichtlinien gelöscht, die externen Benutzern das Aufzeichnen der Konferenz erlauben:
     
         Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 

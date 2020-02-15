@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Zertifikatzusammenfassung für DNS- und Hardwarelastenausgleich'
+title: 'Lync Server 2013: Zertifikatzusammenfassung-DNS-und HLB-Lastenausgleich'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184676
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8cd6d86844629544b54670eb07c3433d19f99f2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 44b89f1b305b99d86fd1843ac61625083a5fb51b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736655"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031129"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>Zertifikatzusammenfassung für DNS- und Hardwarelastenausgleich in Lync Server 2013
+# <a name="certificate-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a>Zertifikatzusammenfassung-DNS-und HLB-Lastenausgleich in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41736655"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-22_
+_**Letztes Änderungsstand des Themas:** 2012-10-22_
 
-Die Zertifikatanforderungen für einen Director mit DNS-Lastenausgleich und einem Hardware Lastenausgleichsmodul verwenden ein Standardzertifikat, das einen Antragstellernamen und einen alternativen Betreff für Dienste enthält, die der Director empfangen kann. Für jeden Director im Pool wird ein Zertifikat angefordert. Beachten Sie, dass der Hardwarelastenausgleich nur den Datenverkehr vom Reverseproxy abgleicht. Darüber hinaus gibt es ein OAuth-Token Zertifikat für Server-zu-Server-Authentifizierungszwecke, das auf jedem Server installiert ist.
+Zertifikatanforderungen für einen Director mit DNS-Lastenausgleich und ein Hardwaregerät zum Lastenausgleich verwenden ein Standardzertifikat, das einen Antragstellernamen und alternative Antragstellernamen für Dienste verwendet, die der Director empfangen kann. Ein Zertifikat wird für jeden Director im Pool angefordert. Bedenken Sie dabei, dass das Hardwaregerät zum Lastenausgleich den Lastenausgleich nur für den Datenverkehr durchführt, der vom Reverseproxy ausgeht. Außerdem gibt es ein OAuth-Token-Zertifikat für die Authentifizierung von Server zu Server, das auf jedem Server installiert wird.
 
 ### <a name="certificates-for-director"></a>Zertifikate für Director
 
@@ -52,8 +52,8 @@ Die Zertifikatanforderungen für einen Director mit DNS-Lastenausgleich und eine
 <tr class="header">
 <th>Komponente</th>
 <th>Antragstellername</th>
-<th>Subject Alternative Names (San)</th>
-<th>Kommentare</th>
+<th>Alternative Antragstellernamen</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -66,9 +66,9 @@ Die Zertifikatanforderungen für einen Director mit DNS-Lastenausgleich und eine
 <p>meet.contoso.com</p>
 <p>lyncdiscoverinternal.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
-<p>(Optional) *. contoso.com</p></td>
-<td><p>Director-Zertifikate können entweder von einer intern verwalteten Zertifizierungsstelle (Certification Authority, ca) oder von einer öffentlichen Zertifizierungsstelle angefordert werden.</p>
-<p>Der Director antwortet auf Anforderungen vom Reverse-Proxy im Umkreis oder vom Edgeserver. Interne Clients verwenden den Director nicht.</p>
+<p>(Optional) *.contoso.com</p></td>
+<td><p>Director-Zertifikate können von einer intern verwalteten Zertifizierungsstelle (Certification Authority, ca) oder von einer öffentlichen Zertifizierungsstelle angefordert werden.</p>
+<p>Der Director antwortet auf Anfragen vom Reverseproxy im Umkreis oder von der Edgeserver. Für interne Clients wird der Director nicht verwendet.</p>
 <p>Oder ein Platzhaltereintrag für die einfachen URLs</p></td>
 </tr>
 <tr class="even">
@@ -78,11 +78,11 @@ Die Zertifikatanforderungen für einen Director mit DNS-Lastenausgleich und eine
 <td><div>
 
 > [!IMPORTANT]  
-> Beachten Sie, dass die minimale Schlüssellänge 1024 ist, aber möglicherweise eine Warnung angezeigt wird, dass die empfohlene Mindestlänge von 2048 Bits beträgt.
+> Beachten Sie, dass die minimale Schlüssellänge 1024 Bit beträgt. Dennoch ist es möglich, dass Sie eine Warnmeldung erhalten, die besagt, dass die empfohlene Mindestlänge 2048 Bit beträgt.
 
 
 </div>
-<p>Das OAuthTokenIssuer-Zertifikat ist ein Single-Purpose-Zertifikat zum Zweck der Authentifizierung von Servern in einer großen Umgebung und kann von einer internen Zertifizierungsstelle oder von einer öffentlichen Zertifizierungsstelle angefordert werden. Das Zertifikat ist erforderlich.</p></td>
+<p>Das OAuthTokenIssuer-Zertifikat dient ausschließlich zum Authentifizieren von Servern in einer großen Umgebung und kann von einer internen oder öffentlichen Zertifizierungsstelle angefordert werden. Das Zertifikat ist erforderlich.</p></td>
 </tr>
 </tbody>
 </table>

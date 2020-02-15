@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von standortbasiertem Routing'
+title: 'Lync Server 2013: Konfigurieren des standortbasierten Routings'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803946
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0e82ae8a0dd9961bfeb9d2a513cb77b0affb2c4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31e8877c4691decfe0c2e65fd820e97432e095aa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762813"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030559"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-location-based-routing-in-lync-server-2013"></a>Konfigurieren von standortbasiertem Routing in Lync Server 2013
+# <a name="configuring-location-based-routing-in-lync-server-2013"></a>Konfigurieren des standortbasierten Routings in lync Server 2013
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "41762813"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-12_
+_**Letztes Änderungsstand des Themas:** 2013-03-12_
 
-Lync Server 2013 CU1, standortbasiertes Routing ist eine Funktion von Enterprise-VoIP. Standortbasiertes Routing ist ein Anruf Verwaltungsfeature, das steuert, wie Anrufe von lync Server 2013 CU1 weitergeleitet werden. Sie erzwingt Einschränkungen, ob Anrufe an PBX-oder PSTN-Ziele basierend auf dem Standort des lync-Anrufers weitergeleitet werden können. Standortbasiertes Routing wendet Anruf Autorisierungsregeln für PSTN-Anrufe auf der Grundlage des Netzwerkspeicherorts des Anrufers an. Der Standort des Anrufers wird anhand der Netzwerk Website bestimmt, die dem Netzwerk-Subnetz zugeordnet ist, an dem der Anrufer angeschlossen ist. Zum Konfigurieren des standortbasierten Routings muss zuerst Enterprise-VoIP bereitgestellt und dann netzwerkregionen,-Standorte und-Subnetze konfiguriert werden. Damit wird die Grundlage für die Aktivierung des standortbasierten Routings eingerichtet.
+Lync Server 2013 ku1 ist das standortbasierte Routing ein Feature von Enterprise-VoIP. Das standortbasierte Routing ist ein Anruf Verwaltungsfeature, das steuert, wie Anrufe von lync Server 2013 ku1 weitergeleitet werden. Es erzwingt Einschränkungen, ob Anrufe basierend auf dem Standort des lync-Anrufers an PBX-oder PSTN-Ziele weitergeleitet werden können. Das standortbasierte Routing wendet Anruf Autorisierungsregeln basierend auf dem Netzwerkstandort des Anrufers auf PSTN-Anrufe an. Der Speicherort des Anrufers wird basierend auf dem Netzwerkstandort bestimmt, der dem Netzwerk Subnetz zugeordnet ist, mit dem der Anrufer verbunden ist. Zum Konfigurieren des standortbasierten Routings müssen Sie zunächst Enterprise-VoIP bereitstellen und dann netzwerkregionen, Standorte und Subnetze konfigurieren. Dadurch wird die Grundlage für die Aktivierung des standortbasierten Routings eingerichtet.
 
-Vor der Bereitstellung von Standort basiertem Routing müssen Sie zuerst Enterprise-VoIP bereitstellen und netzwerkregionen,-Standorte und Netzwerk-Subnetze an Ihre Netzwerk Websites anschließen. Nach Abschluss des Vorgangs können Sie standortbasiertes Routing konfigurieren. Eine schrittweise Anleitung zum Konfigurieren von netzwerkregionen,-Websites und-Subnetzen finden Sie unter [Bereitstellen von erweiterten Enterprise-VoIP-Features in lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+Vor der Bereitstellung des standortbasierten Routings müssen Sie zunächst Enterprise-VoIP bereitstellen und netzwerkregionen,-Standorte und Netzwerk-Subnetze ihren Netzwerkstandorten zuordnen. Nach Abschluss des Vorgangs können Sie das standortbasierte Routing konfigurieren. Schritte zum Konfigurieren von netzwerkregionen, Standorten und Subnetzen finden Sie unter [Deploying Advanced Enterprise Voice Features in lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
-Dieser Abschnitt führt Sie durch die Konfiguration des standortbasierten Routings mit dem folgenden Beispiel als Abbildung.
+Dieser Abschnitt führt Sie durch die Konfiguration des standortbasierten Routings mit dem folgenden Beispiel als Illustration.
 
-![Beispiel für standortbasiertes Routing für Enterprise-VoIP](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "Beispiel für standortbasiertes Routing für Enterprise-VoIP")
+![Beispiel für Enterprise-VoIP-standortbasiertes Routing](images/JJ994036.b6ef5afc-36ac-406f-8ec2-a87532b20612(OCS.15).png "Beispiel für Enterprise-VoIP-standortbasiertes Routing")
 
   
-In der folgenden Tabelle sind die in diesem Beispiel definierten Benutzer dargestellt.
+In der folgenden Tabelle werden die in diesem Beispiel definierten Benutzer dargestellt.
 
 
 <table>
@@ -65,32 +65,32 @@ In der folgenden Tabelle sind die in diesem Beispiel definierten Benutzer darges
 <tbody>
 <tr class="odd">
 <td><p>Lync</p></td>
-<td><p>Firmensitz in Delhi</p></td>
+<td><p>Unternehmenszentrale in Delhi</p></td>
 <td><p>Del-lync-1, del-lync-2, del-lync-3</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync</p></td>
-<td><p>Firmensitz in Hyderabad</p></td>
+<td><p>Firmenzentrale in Hyderabad</p></td>
 <td><p>Hyd-lync-1, Hyd-lync-2, Hyd-lync-3</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync</p></td>
-<td><p>Unbekannt (z.b. Hotel)</p></td>
+<td><p>Unbekannt (d. h. Hotel)</p></td>
 <td><p>Unk-LYNC-1</p></td>
 </tr>
 <tr class="even">
 <td><p>PBX</p></td>
-<td><p>Firmensitz in Delhi</p></td>
+<td><p>Unternehmenszentrale in Delhi</p></td>
 <td><p>Del-PBX-1, del-PBX-2</p></td>
 </tr>
 <tr class="odd">
 <td><p>PBX</p></td>
-<td><p>Firmensitz in Hyderabad</p></td>
+<td><p>Firmenzentrale in Hyderabad</p></td>
 <td><p>Hyd-PBX-1, Hyd-PBX-2</p></td>
 </tr>
 <tr class="even">
-<td><p>Telefonfestnetz (PSTN)</p></td>
-<td><p>Unbekannten</p></td>
+<td><p>PSTN</p></td>
+<td><p>Unbekannt</p></td>
 <td><p>PSTN-1, PSTN-2, PSTN-3</p></td>
 </tr>
 </tbody>
@@ -98,7 +98,7 @@ In der folgenden Tabelle sind die in diesem Beispiel definierten Benutzer darges
 
   
 
-In der folgenden Tabelle sind die in dieser Beispielumgebung dargestellten Systeme dargestellt.
+Die folgende Tabelle stellt die in dieser Beispielumgebung dargestellten Systeme dar.
 
 
 <table>
@@ -116,13 +116,13 @@ In der folgenden Tabelle sind die in dieser Beispielumgebung dargestellten Syste
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync Server 2013 CU1-Pool</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Lync Server 2013 ku1-Pool</p></td>
+<td><p>Beliebiger Wert</p></td>
 <td><p>LS-PL1</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync Server 2013 CU1, Vermittlungsserver</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Lync Server 2013 ku1, Vermittlungsserver</p></td>
+<td><p>Beliebiger Wert</p></td>
 <td><p>MS-PL1</p></td>
 </tr>
 <tr class="odd">
@@ -136,12 +136,12 @@ In der folgenden Tabelle sind die in dieser Beispielumgebung dargestellten Syste
 <td><p>Hyd-GW</p></td>
 </tr>
 <tr class="odd">
-<td><p>Telefonanlage 1</p></td>
+<td><p>Nebenstellenanlage 1</p></td>
 <td><p>Delhi</p></td>
 <td><p>DEL-PBX</p></td>
 </tr>
 <tr class="even">
-<td><p>PBX 2</p></td>
+<td><p>Nebenstellenanlage 2</p></td>
 <td><p>Hyderabad</p></td>
 <td><p>Red-PBX</p></td>
 </tr>
@@ -155,7 +155,7 @@ In der folgenden Tabelle sind die in dieser Beispielumgebung dargestellten Syste
 
   - [Konfigurieren von Enterprise-VoIP in lync Server 2013](lync-server-2013-configuring-enterprise-voice.md)
 
-  - [Bereitstellen von netzwerkregionen,-Websites und-Subnetzen in lync Server 2013](lync-server-2013-deploying-network-regions-sites-and-subnets.md)
+  - [Bereitstellen von netzwerkregionen, Standorten und Subnetzen in lync Server 2013](lync-server-2013-deploying-network-regions-sites-and-subnets.md)
 
   - [Aktivieren des standortbasierten Routings in lync Server 2013](lync-server-2013-enabling-location-based-routing.md)
 
@@ -166,7 +166,7 @@ In der folgenden Tabelle sind die in dieser Beispielumgebung dargestellten Syste
 ## <a name="see-also"></a>Siehe auch
 
 
-[Bereitstellen von erweiterten Enterprise-VoIP-Features in lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)  
+[Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)  
   
 
 </div>

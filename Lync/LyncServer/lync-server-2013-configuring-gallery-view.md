@@ -12,16 +12,16 @@ ms:contentKeyID: 48184069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06054e1728245c87e8bf35419d3890f4e379543a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 096272a2347c400a81e6d4684873c5f5828136a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728845"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030589"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,59 +35,59 @@ ms.locfileid: "41728845"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-30_
+_**Letztes Änderungsstand des Themas:** 2012-10-30_
 
-In lync Server 2013 konfigurieren Sie Videokonferenzen in der Katalogansicht in Konferenzrichtlinien. Die Katalogansicht ist standardmäßig aktiviert. Wenn Sie die Katalogansicht nicht zulassen oder nur für einige Benutzer zulassen möchten, müssen Sie das Feature in Konferenzrichtlinien deaktivieren.
+In lync Server 2013 konfigurieren Sie Videokonferenzen für die Galerieansicht in der konferenzrichtlinie. Die Galerieansicht ist standardmäßig aktiviert. Wenn Sie nicht möchten, dass die Galerieansicht verwendet wird, oder wenn diese Ansicht nur von bestimmten Benutzern verwendet werden soll, müssen Sie diese Funktion in der Konferenzrichtlinie deaktivieren.
 
-Wenn das Video eines Konferenzteilnehmers nicht zur Verfügung steht, kann die Benutzeroberfläche für die Galerieansicht verbessert werden, wenn Sie Fotos mit hoher Auflösung, ein neues Feature in lync Server 2013, bereitstellen. Fotos mit hoher Auflösung bieten eine Alternative zu den kleineren, in den Active Directory-Domänendiensten gespeicherten Kontaktfotos mit begrenzter Auflösung. Fotos mit hoher Auflösung werden im Exchange 2013-Postfach eines Benutzers gespeichert, und daher müssen Sie lync Server 2013 in Exchange 2013 integrieren. Ausführliche Informationen finden Sie im NextHop-Blog Artikel "Integration von Exchange 2013 und lync Server 2013" unter [http://go.microsoft.com/fwlink/p/?LinkId=260987](http://go.microsoft.com/fwlink/p/?linkid=260987).
+Wenn das Video eines Konferenzteilnehmers nicht verfügbar ist, kann die Benutzeroberfläche der Galerieansicht verbessert werden, wenn Sie hochauflösende Fotos bereitstellen, ein neues Feature in lync Server 2013. Hochauflösende Fotos bieten eine Alternative zu den kleineren, begrenzten Auflösungen von Kontaktfotos, die in Active Directory-Domänendienste gespeichert sind. Hochauflösende Fotos werden im Exchange 2013 Postfach eines Benutzers gespeichert und erfordern daher die Integration von lync Server 2013 mit Exchange 2013. Ausführliche Informationen finden Sie im NextHop-Blog Artikel "integrieren von Exchange 2013 und lync Server 2013" unter [http://go.microsoft.com/fwlink/p/?LinkId=260987](http://go.microsoft.com/fwlink/p/?linkid=260987).
 
 <div>
 
 
 > [!NOTE]  
-> Die Inhalte der Blogs und die zugehörige URL können ohne vorherige Ankündigung geändert werden.
+> Der Inhalt jedes Blogs und die dazugehörige URL kann ohne vorherige Ankündigung geändert werden.
 
 
 
 </div>
 
-Sie können die Parameter für die Katalogansicht mithilfe der lync Server 2013-Systemsteuerung oder mithilfe eines der folgenden Cmdlets anzeigen oder ändern:
+Sie können die Parameter der Katalogansicht mithilfe lync Server 2013 Systemsteuerung oder mithilfe eines der folgenden Cmdlets anzeigen oder ändern:
 
   - **Get-CsConferencingPolicy**
 
-  - **Set-CsConferencingPolicy**
+  - **Gruppe-CsConferencingPolicy**
 
   - **New-CsConferencingPolicy**
 
-Konfigurieren Sie die Katalogansicht mit den folgenden konferenzrichtlinieneinstellungen:
+Konfigurieren der Galerieansicht mit den folgenden Konferenzrichtlinieneinstellungen:
 
-  - **AllowMultiview**   dieser Parameter steuert, ob ein Benutzer die Möglichkeit hat, Videokonferenzen in der Katalogansicht zu organisieren. Dieser Parameter gilt für geplante und Ad-hoc-Besprechungen, die vom Benutzer erstellt wurden.
+  - **AllowMultiview**   mit diesem Parameter wird gesteuert, ob ein Benutzer zum Organisieren von Videokonferenzen in der Galerieansicht berechtigt ist. Die Festlegung des Parameters gilt für geplante Besprechungen ebenso wie für Ad-hoc-Besprechungen, die vom Benutzer erstellt werden.
     
-    Beispiele
+    Beispiele:
     
-      - Dieser Parameter ist für Benutzer A auf true festgelegt, der in einem lync Server 2013-Pool verwaltet wird. Besprechungen, die von einem Benutzer organisiert werden, ermöglichen es Benutzern, mehreren Videostreams beizutreten und zu empfangen.
+      - Dieser Parameter ist für Benutzer a, der in einem lync Server 2013 Pool verwaltet wird, auf true festgelegt. Von Benutzer A organisierte Besprechungen ermöglichen Benutzern das Hinzufügen und empfangen mehrerer Videostreams.
     
-      - Dieser Parameter wird für Benutzer B auf "false" festgelegt, der sich in einem lync Server 2013-Pool befindet. Besprechungen, die von Benutzer B organisiert werden, sind mit einem einzelnen Videostream vergleichbar mit der Videokonferenz, die von lync Server 2010 bereitgestellt wird.
+      - Dieser Parameter wird für Benutzer B auf "false" festgelegt, der in einem lync Server 2013 Pool verwaltet wird. Von Benutzer B organisierte Besprechungen weisen einen einzelnen Videostream auf, der der von lync Server 2010 bereitgestellten Videokonferenz ähnelt.
     
-    Dieser Parameter bestimmt, wer Besprechungen organisieren kann, die mehrere Videostreams zulassen. Teilnehmern an Besprechungen, die mehrere Videostreams zulassen, ist es möglich, auf der Grundlage ihrer individuellen Berechtigungen mehrere Videostreams zu empfangen (siehe Beschreibung des EnableMultiviewJoin-Parameters).
+    Dieser Parameter legt fest, welche Benutzer Besprechungen mit mehreren Videostreams organisieren können. Teilnehmer von Besprechungen, bei denen mehrere Videostreams zulässig sind, können diese empfangen, wenn sie dazu berechtigt sind (siehe Beschreibung für den EnableMultiviewJoin-Parameter). Andernfalls ist dies nicht möglich.
 
-  - **EnableMultiviewJoin**   dieser Parameter steuert, ob ein Teilnehmer an einer Besprechung in Besprechungen, die ihn zulassen, die videoerfahrung in der Galerieansicht erhält. Dieser Parameter steuert die Benutzererfahrung in jeder Besprechung, an der Sie teilnehmen.
+  - **EnableMultiviewJoin**   mit diesem Parameter wird gesteuert, ob ein Teilnehmer an einer Besprechung in Besprechungen, die ihn zulassen, das Videoerlebnis "Gallery View" erhält. Der Parameter wirkt sich auf alle Besprechungen aus, an denen ein Benutzer teilnimmt.
     
-    Beispiele
+    Beispiele:
     
-      - Dieser Parameter wird für Benutzer c auf "true" festgelegt, um mehrere Videostreams empfangen zu können, wenn Sie an einer Besprechung teilnehmen, die von Benutzer a organisiert oder gestartet wurde. Benutzer c erhält einen einzelnen Videostream, der der Videokonferenz ähnelt, die von lync Server 2010 bereitgestellt wird, wenn teilnehmen an einer Besprechung, die von Benutzer B organisiert oder gestartet wurde.
+      - Dieser Parameter ist für Benutzer c auf true festgelegt. Benutzer c kann mehrere Videostreams empfangen, wenn er an einer Besprechung teilnimmt, die von Benutzer a organisiert oder gestartet wird. Benutzer c erhält einen einzelnen Videostream, der der Videokonferenz ähnelt, die von lync Server 2010 bereitgestellt wird, wenn Teilnahme an einer Besprechung, die von Benutzer B organisiert oder gestartet wurde.
     
-      - Dieser Parameter wird für Benutzer d auf "false" festgelegt und erhält einen einzelnen Videostream, der der Videokonferenz ähnelt, die von lync Server 2010 bei der Teilnahme an einer Besprechung, die von Benutzer a oder Benutzer B organisiert wurde, bereitgestellt wird.
+      - Dieser Parameter wird für Benutzer d auf "false" festgelegt. Benutzer d erhält einen einzelnen Videostream, der der Videokonferenz ähnelt, die von lync Server 2010 bei der Teilnahme an einer von Benutzer a oder Benutzer B organisierten Besprechung bereitgestellt wird.
 
-Das folgende Verfahren ist ein Beispiel für die Verwendung der lync Server-Verwaltungsshell zum Aktivieren von Videokonferenzen in der Katalogansicht.
+Das folgende Verfahren ist ein Beispiel für die Verwendung von lync Server-Verwaltungsshell zum Aktivieren von Videokonferenzen in der Galerieansicht.
 
 <div>
 
-## <a name="to-modify-conferencing-policy-for-gallery-view-video-conferencing"></a>So ändern Sie die konferenzrichtlinie für Videokonferenzen in der Katalogansicht
+## <a name="to-modify-conferencing-policy-for-gallery-view-video-conferencing"></a>So bearbeiten Sie die Konferenzrichtlinie für Videokonferenzen in der Galerieansicht
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Führen Sie in der Befehlszeile das folgende Cmdlet aus, um die konferenzrichtlinie zu bearbeiten:
+2.  Führen Sie das folgende Cmdlet über die Befehlszeile aus, um die Konferenzrichtlinie zu bearbeiten:
     
         Set-CsConferencingPolicy -Identity Pool01ConferencingPolicy -AllowMultiview $true -EnableMultiviewJoin $true 
 

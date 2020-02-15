@@ -12,16 +12,16 @@ ms:contentKeyID: 48183474
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53021b37baca7a859c79a6c47bfbf3d587a3466d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a955133dcadfc1966225b643467e5640c81d128
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764015"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030669"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,23 +35,23 @@ ms.locfileid: "41764015"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-17_
+_**Letztes Änderungsstand des Themas:** 2012-09-17_
 
-Das empfohlene und unterstützte Migrationsverfahren für lync Server 2013 ist eine parallele Migration. In diesem Thema wird beschrieben, warum Sie die parallele Migration verwenden sollten, und Sie enthält auch Informationen zum Testen der Koexistenz.
+Das empfohlene und unterstützte Migrationsverfahren für lync Server 2013 ist die parallele Migration. In diesem Thema wird beschrieben, warum Sie die parallele Migration verwenden sollten und auch Informationen zum Testen der Koexistenz enthält.
 
 <div>
 
 ## <a name="side-by-side-migration"></a>Parallele Migration
 
-In fast jeder Migration sollten Sie den parallelen Migrationspfad verwenden. Bei einer parallelen Migration stellen Sie einen neuen Server mit lync Server 2013 zusammen mit einem entsprechenden Server bereit, auf dem lync Server 2010 ausgeführt wird, und übertragen dann Vorgänge auf den neuen Server. Wenn ein Rollback zu lync Server 2010 erforderlich ist, müssen Sie die Vorgänge nur zurück zu den ursprünglichen Servern verschieben. Beachten Sie, dass in dieser Situation alle neuen Besprechungen, die mit aktualisierten Clients geplant sind, nicht funktionieren, und die Clients müssten ebenfalls heruntergestuft werden.
+Am besten wenden Sie für jede Migration das Verfahren der parallelen Migration an. Bei einer parallelen Migration stellen Sie einen neuen Server mit lync Server 2013 neben einem entsprechenden Server bereit, auf dem lync Server 2010 ausgeführt wird, und übertragen anschließend Vorgänge auf den neuen Server. Wenn ein Rollback auf lync Server 2010 erforderlich ist, müssen Sie nur die Vorgänge zurück auf die ursprünglichen Server verschieben. Bedenken Sie, dass in diesem Fall neue Besprechungen, die mit aktualisierten Clients geplant wurden, nicht funktionieren und dass auch für die Clients ein Downgrade erforderlich wäre.
 
 </div>
 
 <div>
 
-## <a name="coexistence-testing"></a>Koexistenz testen
+## <a name="coexistence-testing"></a>Koexistenztest
 
-Nachdem Sie lync Server 2013 parallel mit lync Server 2010 bereitgestellt haben, stellt die Bereitstellung einen Teststatus für die Koexistenz von lync Server 2013 und lync Server 2010 dar. In diesem Zustand ist es wichtig, zu testen und sicherzustellen, dass Dienste gestartet werden, jeder Standort verwaltet werden kann und Clients mit aktuellen und älteren Benutzern kommunizieren können. Vor der Migration aller Benutzer ist es sehr wichtig, dass Sie den Zustand jeder Bereitstellung verstehen und sicherstellen, dass jede Bereitstellung funktionsfähig ist und ordnungsgemäß funktioniert. In der Regel ist die Koexistenz Testphase während des Pilottests von lync Server 2013 vorhanden. Ältere Benutzer werden für einen bestimmten Zeitraum nach lync Server 2013 verschoben, um sicherzustellen, dass die Anwendungskompatibilität und die Features und Funktionen ordnungsgemäß funktionieren. Nach Pilottests werden Benutzer und Anwendungen in die Produktionsversion von lync Server 2013 verschoben, und die Legacy Pools und-Anwendungen von lync Server 2010 werden eingestellt.
+Nachdem Sie lync Server 2013 parallel mit lync Server 2010 bereitgestellt haben, stellt die Bereitstellung einen Testzustand der Koexistenz von lync Server 2013 und lync Server 2010 dar. In diesem Status ist es wichtig, zu testen und sicherzustellen, dass Dienste gestartet werden können, jeder Standort verwalten werden kann und die Clients mit Benutzern der aktuellen und der Vorgängerversion kommunizieren können. Vor dem Migrieren aller Benutzer sollten Sie unbedingt den Status jeder Bereitstellung festgestellt und sich vergewissert haben, dass jede Bereitstellung ordnungsgemäß funktioniert. In der Regel besteht die Testphase der Koexistenz während der Pilottests von lync Server 2013. Ältere Benutzer werden für einen bestimmten Zeitraum in lync Server 2013 verschoben, um sicherzustellen, dass Anwendungskompatibilität und Features und Funktionen ordnungsgemäß funktionieren. Nach Pilottests werden Benutzer und Anwendungen in die Produktionsversion von lync Server 2013 verschoben, und die Legacy Pools und-Anwendungen von lync Server 2010 werden zurückgezogen.
 
 </div>
 

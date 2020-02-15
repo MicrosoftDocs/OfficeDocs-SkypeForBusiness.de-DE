@@ -12,16 +12,16 @@ ms:contentKeyID: 48184096
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0ca42092b33632dbc7aed84808499b13ab0843c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8daf27670f7820a64cd7a91fe350ba7345c9463e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762513"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030799"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,44 +35,44 @@ ms.locfileid: "41762513"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-03_
+_**Letztes Änderungsstand des Themas:** 2012-10-03_
 
-Lync Server verwendet SIP-Trunks, um einen Notruf mit dem E9-1-1-Dienstanbieter zu verbinden. Sie können Notrufdienst-SIP-Trunks für E9-1-1 an einem zentralen Standort, an mehreren zentralen Standorten oder an jeder Zweigstelle einrichten. Wenn jedoch die WAN-Verbindung zwischen dem Standort des Anrufers und dem Standort, an dem der Notfalldienst-SIP-Trunk gehostet wird, nicht verfügbar ist, ist für einen Anruf von einem Benutzer am nicht verbundenen Standort ein spezieller Telefonverwendungseintrag in der VoIP-Richtlinie des Benutzers erforderlich, der den Anruf über das lokale PSTN-Gateway an das ECRC weiterleitet. Das gleiche trifft zu, wenn in der Anrufsteuerung Begrenzungen für gleichzeitige Anrufe aktiviert sind.
+Lync Server verwendet SIP-Trunks, um einen Notruf mit dem E9-1 -1-Dienstanbieter zu verbinden. Sie können Notfalldienst-SIP-Trunks für E9-1-1 an einem zentralen Standort, an mehreren zentralen Standorten oder an jedem Zweigstellenstandort einrichten. Wenn jedoch die WAN-Verbindung zwischen dem Standort des Anrufers und dem Standort, der den SIP-Trunk Dienst hostet, nicht verfügbar ist, benötigt ein Anruf, der von einem Benutzer am getrennten Standort getätigt wird, einen speziellen Telefonverwendungseintrag in der VoIP-Richtlinie des Benutzers, der den Anruf an den ECRC über das lokale PSTN-Gateway (Public Switched Telephone Network). Das gleiche gilt, wenn die Anrufsteuerung gleichzeitige Anruf Grenzwerte wirksam macht.
 
 <div>
 
 
 > [!NOTE]  
-> Es gibt zwei Möglichkeiten, einen SIP-Trunk in einer lync Server-Umgebung zu implementieren: 
+> Es gibt zwei Möglichkeiten, einen SIP-Trunk in einer lync Server Umgebung zu implementieren: 
 > <UL>
 > <LI>
-> <P>Verwenden Sie mehrfach vernetzte Vermittlungsserver, die ihre nach außen gerichteten, öffentlich weitergeleiteten Schnittstellen verwenden, um mit dem SIP-Trunk-Anbieter zu kommunizieren.</P>
+> <P>Verwenden Sie mehrfach vernetzte Vermittlungsserver, die ihre nach außen gerichteten öffentlich weitergeleiteten Schnittstellen verwenden, um mit dem SIP-Trunk Anbieter zu kommunizieren.</P>
 > <LI>
-> <P>Verwenden Sie einen lokalen Session Border Controller (SBC), um einen sicheren abgrenzungspunkt zwischen den Vermittlungsservern und den Diensten des SIP Trunk-Anbieters bereitzustellen.</P></LI></UL>Wenn Sie sich für die zweite Methode entscheiden, stellen Sie sicher, dass die Marke/das Modell des von Ihnen ausgewählten SBC die Weitergabe von PIDF-LO (Presence Information Data Format Location Object)-Standortdaten als Teil der SIP INVITE unterstützt. Andernfalls gehen die Anrufe ohne Standortinformationen beim Anbieter für die Notrufunterstützung ein. Ausführliche Informationen zu zertifizierten SBCS finden Sie unter "für Microsoft lync qualifizierte Infrastruktur <A href="http://go.microsoft.com/fwlink/p/?linkid=248425">http://go.microsoft.com/fwlink/p/?LinkId=248425</A>".<BR>Über E9-1-1-Dienstanbieter erhalten Sie Zugriff auf ein SBC-Paar, um Redundanz zu gewährleisten. Sie müssen mehrere Entscheidungen bezüglich der Mediations Server Topologie und der Konfiguration des Anruf Routings treffen. Möchten Sie beide SBCs als gleichwertig behandeln und Roundrobinrouting für Anrufe zwischen ihnen verwenden oder werden Sie einen SBC als primären und den anderen als sekundären SBC festlegen?
+> <P>Verwenden Sie einen lokalen Session Border Controller (SBC), um einen sicheren Abgrenzungs Pfad zwischen den Vermittlungsservern und den Diensten des SIP-Trunk Anbieters bereitzustellen.</P></LI></UL>Wenn Sie die letztere Methode auswählen, müssen Sie sicherstellen, dass die von Ihnen ausgewählte SBC-Marke und das Modell zertifiziert wurden und unterstützt die Übergabe von Anwesenheitsinformationen im Daten Format Location-Objekt (PIDF-Lo) als Teil der SIP-INVITE-Daten. Andernfalls werden die Anrufe bei dem Notrufdienst Anbieter eintreffen, der von den Standortinformationen entfernt wurde. Ausführliche Informationen zu zertifizierten SBCS finden Sie unter "qualifizierte Infrastruktur für Microsoft lync <A href="http://go.microsoft.com/fwlink/p/?linkid=248425">http://go.microsoft.com/fwlink/p/?LinkId=248425</A>" unter.<BR>Mit E9-1-1-Dienstanbietern erhalten Sie Zugriff auf ein SBCS-Paar für Redundanz. Sie müssen mehrere Entscheidungen hinsichtlich der Vermittlungsserver Topologie und der Anruf Weiterleitungskonfiguration treffen. Werden Sie beide SBCS als gleichwertige Peers behandeln und das Round-Robin-Routing für Anrufe zwischen Ihnen verwenden, oder werden Sie einen SBC als primären und den anderen als sekundären angeben?
 
 
 
 </div>
 
-Details zum Bereitstellen eines SIP-Trunks in lync Server finden Sie unter [wie kann ich SIP-Trunking in lync Server 2013 implementieren?](lync-server-2013-how-do-i-implement-sip-trunking.md). Zur einfacheren Bereitstellung der SIP-Trunks für E9-1-1 sollten Sie zunächst die folgenden Fragen beantworten.
+Ausführliche Informationen zum Bereitstellen eines SIP-Trunks in lync Server finden Sie unter [wie kann ich SIP-Trunking in lync Server 2013 implementieren?](lync-server-2013-how-do-i-implement-sip-trunking.md). Die folgenden Fragen helfen Ihnen bei der Entscheidung, wie die SIP-Trunks für E9-1-1 bereitgestellt werden.
 
-  - **Soll der SIP-Trunk über eine dedizierte geleaste oder eine gemeinsam genutzte Internetverbindung bereitgestellt werden?**  
-    Es ist wichtig, dass jederzeit Notrufe getätigt werden können. Eine dedizierte Leitung bietet eine Verbindung, die nicht durch anderen Datenverkehr im Netzwerk belegt ist, und ermöglicht gleichzeitig die Implementierung von QoS. Denken Sie daran, dass eine IPSec-Verschlüsselung erforderlich ist, wenn Sie beim Herstellen einer Verbindung mit Anbietern für die Notrufunterstützung über das öffentliche Internet die Vertraulichkeit von Notrufen gewährleisten müssen.
-
-<!-- end list -->
-
-  - **Ist Ihre E9-1-1-Bereitstellung für die Notfalltoleranz konzipiert?**  
-    Da es sich um eine Lösung für Notrufe handelt, ist die Ausfallsicherheit von grundlegender Bedeutung. Stellen Sie Ihre primären und sekundären Vermittlungsserver und SIP-Stämme in Disaster-toleranten Speicherorten bereit. Es empfiehlt sich, den primären Vermittlungsserver den Benutzern, die er unterstützt, am nächsten zu stellen und Failover-Anrufe über den sekundären Vermittlungsserver (an einem anderen geografischen Standort) weiterzuleiten.
+  - **Sollten Sie den SIP-Trunk über eine dedizierte geleaste oder eine gemeinsam genutzte Internetverbindung bereitstellen?**  
+    Es ist wichtig, dass Notrufe immer eine Verbindung herstellen. Eine dedizierte Leitung bietet eine Verbindung, die nicht von anderen Datenverkehr im Netzwerk getrennt wird, und bietet Ihnen die Möglichkeit zur Implementierung von Quality of Service (QoS). Denken Sie daran, dass die IPSec-Verschlüsselung erforderlich ist, wenn Sie über das öffentliche Internet eine Verbindung mit Dienstanbietern für die Notfalldienste herstellen und die Vertraulichkeit von Notrufen sicherstellen müssen.
 
 <!-- end list -->
 
-  - **Sollten Sie einen separaten SIP-Trunk für jeden Zweigstellenstandort bereitstellen?**  
-    Lync Server bietet verschiedene Strategien für die Behandlung von VoIP-Flexibilität in Zweigniederlassungen, einschließlich: mit belastbaren Datennetzwerken, Bereitstellen eines SIP-Trunks an jeder Verzweigung oder durch Drücken von Anrufen an das lokale Gateway während Ausfällen. Ausführliche Informationen finden Sie unter [SIP-Trunking in der Zweigstelle in lync Server 2013](lync-server-2013-branch-site-sip-trunking.md).
+  - **Ist Ihre E9-1-1-Bereitstellung für die Notfalltoleranz ausgelegt?**  
+    Da es sich hierbei um eine Notfalllösung handelt, ist die Ausfallsicherheit wichtig. Stellen Sie Ihre primären und sekundären Vermittlungsserver und SIP-Trunks an Notfall toleranten Speicherorten bereit. Es empfiehlt sich, die primäre Vermittlungsserver bereitzustellen, die den von ihr unterstützten Benutzern am nächsten ist, und Failover-Anrufe über das sekundäre Vermittlungsserver (an einem anderen geografischen Standort) weiterleiten.
 
 <!-- end list -->
 
-  - **Ist die Anrufsteuerung aktiviert?**  
-    Lync Server behandelt keine Notrufe anders als normale Anrufe. Aus diesem Grund kann sich die Bandbreitenverwaltung oder Anrufsteuerung negativ auf die E9-1-1-Konfiguration auswirken. Notrufe werden möglicherweise blockiert oder zum lokalen PSTN-Gateway geroutet, wenn die Anrufsteuerung aktiviert ist und der konfigurierte Grenzwert für die Verbindung überschritten wird, über die Notrufe geroutet werden. Wie bereits in diesem Thema besprochen verfügen solche Anrufe über keine Standortdaten und müssen manuell an das ECRC weitergeleitet werden.
+  - **Sollten Sie einen separaten SIP-Trunk für jede Zweigstelle bereitstellen?**  
+    Lync Server bietet verschiedene Strategien für die Handhabung von VoIP-Ausfallsicherheit in Zweigstellen, darunter: belastbare Datennetzwerke, Bereitstellungeines SIP-Trunks in jeder Filiale oder Pushen von Anrufen beim lokalen Gateway während Ausfällen. Ausführliche Informationen finden Sie unter [Branch Site SIP Trunking in lync Server 2013](lync-server-2013-branch-site-sip-trunking.md).
+
+<!-- end list -->
+
+  - **Ist die Anrufsteuerung (Call Admission Control, CAC) aktiviert?**  
+    In lync Server werden Notrufe nicht anders als bei normalen anrufen behandelt. Aus diesem Grund kann sich die Bandbreitenverwaltung oder die Anrufsteuerung (Call Admission Control, CAC) negativ auf eine E9-1-1-Konfiguration auswirken. Notfallanrufe werden blockiert oder an das lokale PSTN-Gateway weitergeleitet, wenn eine Anrufsteuerung aktiviert ist und die konfigurierte Grenze für einen Link überschritten wird, an dem Notrufe weitergeleitet werden. Wie weiter oben in diesem Thema erwähnt, werden solche Anrufe keine Standortdaten haben und müssen manuell an die ECRC weitergeleitet werden.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733874
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 612b944d35e3e8158622a4d18105074f5888daca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dfdb2e252ec50ca73471f22a59d8f9d1f65f4908
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735845"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41735845"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Verwenden Sie die Verfahren in diesem Abschnitt, um die medienumgehung mithilfe der lync Server-Systemsteuerung zu aktivieren oder zu deaktivieren. Ausführliche Informationen zur Verwendung der medienumgehung finden Sie unter [Planen der medienumgehung in lync Server 2013](lync-server-2013-planning-for-media-bypass.md).
+Verwenden Sie die Verfahren in diesem Abschnitt, um die medienumgehung mithilfe der lync Server-Systemsteuerung zu aktivieren oder zu deaktivieren. Ausführliche Informationen zur Verwendung der medienumgehung finden Sie unter [Planning for Media Bypass in lync Server 2013](lync-server-2013-planning-for-media-bypass.md).
 
 <div>
 
@@ -57,7 +57,7 @@ Verwenden Sie die Verfahren in diesem Abschnitt, um die medienumgehung mithilfe 
 [Übersicht über die medienumgehung in lync Server 2013](lync-server-2013-overview-of-media-bypass.md)  
 
 
-[Planung der Medienumgehung in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
+[Planen der medienumgehung in lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183366
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b1b5096c087661bf5afadd2668d6d1bb7ac8330
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1f733397483693ad4c18418f3e82b9f99cfa640f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731565"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031189"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tbladcookie-in-lync-server-2013"></a>tblADCookie in Lync Server 2013
+# <a name="tbladcookie-in-lync-server-2013"></a>tblADCookie in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731565"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-25_
+_**Letztes Änderungsstand des Themas:** 2012-06-25_
 
-tblADCookie enthält die aktuellen LDAP-Synchronisierungs Cookies (Lightweight Directory Access Protocol).
+"tblADCookie" enthält die aktuellen Cookies für die LDAP-Synchronisierung (Lightweight Directory Access Protocol).
 
 ### <a name="columns"></a>Spalten
 
@@ -58,27 +58,27 @@ tblADCookie enthält die aktuellen LDAP-Synchronisierungs Cookies (Lightweight D
 <tr class="odd">
 <td><p>prinGuid</p></td>
 <td><p>GUID, nicht NULL</p></td>
-<td><p>Prinzipal-GUID der zu überwachenden Domäne.</p></td>
+<td><p>Prinzipal-GUID der überwachten Domäne.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDCHost</p></td>
 <td><p>nvarchar (255)</p></td>
-<td><p>Vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des aktuellen Domänencontrollers, der für die Synchronisierung von Active Directory-Domänendiensten verwendet wird. Hat einen Informationswert.</p></td>
+<td><p>Vollqualifizierter Domänenname (FQDN) des aktuellen Domänencontrollers, der für Active Directory-Domänendienste Synchronisierung verwendet wird. Weist einen Informationswert auf.</p></td>
 </tr>
 <tr class="odd">
 <td><p>adcContent</p></td>
-<td><p>Bild (binär)</p></td>
-<td><p>Active Directory-Synchronisierungs Cookie</p></td>
+<td><p>image (binary)</p></td>
+<td><p>Cookie für die Active Directory-Synchronisierung.</p></td>
 </tr>
 <tr class="even">
 <td><p>lastUpdated</p></td>
-<td><p>datetime</p></td>
-<td><p>Zeitstempel mit der Zeilen Aktualisierungszeit.</p></td>
+<td><p>Datum/Uhrzeit</p></td>
+<td><p>Zeitstempel der Aktualisierungszeit der Zeile.</p></td>
 </tr>
 <tr class="odd">
 <td><p>lockedUntil</p></td>
-<td><p>datetime</p></td>
-<td><p>Zeit, bis die Zeile für Änderungen gesperrt ist. Dies ist Teil eines Software-Interlock-Mechanismus, der sicherstellt, dass nur einer der Chat Dienste die Active Directory-Synchronisierung gleichzeitig durchführt.</p></td>
+<td><p>Datum/Uhrzeit</p></td>
+<td><p>Zeitpunkt bis zu dem die Zeile für Änderungen gesperrt ist. Dies ist Teil eines Sperrmechanismus der Software, durch den sichergestellt ist, dass nur jeweils ein Chatdienst die Active Directory-Synchronisierung durchführt.</p></td>
 </tr>
 </tbody>
 </table>
@@ -104,7 +104,7 @@ tblADCookie enthält die aktuellen LDAP-Synchronisierungs Cookies (Lightweight D
 </tr>
 <tr class="even">
 <td><p>prinGuid</p></td>
-<td><p>Fremdschlüssel mit Lookup in der Principal. prinGuid-Tabelle.</p></td>
+<td><p>Fremdschlüssel mit Abfrage der Principal.prinGuid-Tabelle.</p></td>
 </tr>
 </tbody>
 </table>

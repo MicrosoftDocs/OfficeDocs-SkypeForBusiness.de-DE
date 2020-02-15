@@ -12,16 +12,16 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d3b46e2b80d9ad5a4b08108d1dc2bad03cf5f0f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a8a5e0ec0ab94dcba48917338f130b5de1a98f91
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757139"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030679"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41757139"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-Verwenden Sie die folgenden Voraussetzungen und detaillierten Schritte zum Migrieren von lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppen-Chat zu lync Server 2013, beständiger Chat Server.
+Verwenden Sie die folgenden Voraussetzungen und detaillierten Schritte zum Migrieren von lync Server 2010, Gruppenchats oder Office Communications Server 2007 R2 Gruppenchats zu lync Server 2013 persistent Chat Server.
 
 <div>
 
 ## <a name="prerequisites-for-migration"></a>Voraussetzungen für die Migration
 
-Stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllt haben, bevor Sie entweder lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppen-Chat zu lync Server 2013, beständiger Chat Server, migrieren.
+Stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllt haben, bevor Sie entweder lync Server 2010, Gruppenchat oder Office Communications Server 2007 R2 Gruppenchat in lync Server 2013 persistent Chat Server migrieren.
 
-1.  Bereitstellen von mindestens einem lync Server 2013-Pool Wenn Sie über mehrere lync Server 2013-Pools verfügen, entscheiden Sie, welcher lync Server 2013-Pool als privater Pool für den neuen lync Server 2013-Serverpool für beständige Chats festgelegt wird.
+1.  Stellen Sie mindestens einen lync Server 2013 Pool bereit. Wenn Sie über mehrere lync Server 2013 Pools verfügen, müssen Sie entscheiden, welcher lync Server 2013 Pool als Home-Pool für den neuen beständiger Chat von lync Server 2013 Server Pool verwendet wird.
 
-2.  Installieren Sie den Serverpool des lync Server 2013, beständigen Chats. Sie ist leer (keine Kategorien, Räume oder Add-Ins). Bevor Sie Ihre Legacy Kategorien,-Räume oder-Add-ins migrieren, können Sie Räume, Kategorien oder Add-Ins in ihrer lync Server 2013-Bereitstellung des beständigen Chats erstellen.
+2.  Installieren Sie den Server Pool für beständigen Chat lync Server 2013. Sie wird leer sein (keine Kategorien, Räume oder Add-Ins). Bevor Sie Ihre Legacy Kategorien,-Räume oder-Add-ins migrieren, können Sie Räume, Kategorien oder Add-Ins in ihrer lync Server 2013-Server Bereitstellung für beständigen Chat erstellen.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Beachten Sie, dass diese neu erstellten Elemente Konflikte mit Legacy Elementen verursachen können, die Sie migrieren. Vermeiden Sie Namenskonflikte; Andernfalls werden Sie überschrieben, wenn die Legacydaten migriert werden.
+    > Beachten Sie, dass diese neu erstellten Elemente möglicherweise mit Legacy Elementen in Konflikt stehen, die Sie migrieren. Vermeiden von Namenskonflikten Andernfalls werden Sie bei der Migration der Legacydaten überschrieben.
 
     
     </div>
@@ -64,47 +64,47 @@ Stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllt haben, bevor
 
 ## <a name="preparing-the-source-data-for-migration"></a>Vorbereiten der Quelldaten für die Migration
 
-Führen Sie die folgenden Schritte aus, um die Quelldaten für die Migration richtig vorzubereiten.
+Führen Sie die folgenden Schritte aus, um die Quelldaten für die Migration ordnungsgemäß vorzubereiten.
 
-1.  Sichern Sie die Quelldatenbanken für lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppen-Chat. Details zum Sichern von SQL Server finden Sie unter "Übersicht über Sicherungen (SQL Server)" unter <http://go.microsoft.com/fwlink/p/?linkid=254851>.
+1.  Sichern Sie die Quelldatenbanken entweder für lync Server 2010, Gruppenchat oder Office Communications Server 2007 R2 Gruppenchat. Ausführliche Informationen zum Sichern von SQL Server finden Sie unter "Übersicht über Sicherungen (SQL Server)" <http://go.microsoft.com/fwlink/p/?linkid=254851>unter.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Die Active Directory-Domänendienste sollten identisch sein. Als Bedingung für die Migration können Sie nicht zu einem Pool in einer anderen Bereitstellung (insbesondere in einer anderen Active Directory-Gesamtstruktur) migrieren.
+    > Active Directory-Domänendienste sollte identisch sein. Als Bedingung für die Migration können Sie nicht zu einem Pool in einer anderen Bereitstellung migrieren (insbesondere in einer anderen Active Directory Gesamtstruktur).
 
     
     </div>
 
-2.  Überprüfen Sie Ihre lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppen-Chatrooms und die Kategorie-Konfiguration. Alle Änderungen an Kategorien, Räumen oder Add-Ins in Ihrer vorhandenen Legacy Bereitstellung werden vom Gruppen-Chat-Verwaltungs Tool ausgeführt.
+2.  Überprüfen Sie Ihre lync Server 2010, Gruppenchats oder Chaträume für Chats in Office Communications Server 2007 R2 Gruppen und die Kategorien Konfiguration. Alle Änderungen an Kategorien, Räumen oder Add-Ins in Ihrer vorhandenen Legacy-Bereitstellung werden vom Gruppen Chat-Verwaltungs Tool ausgeführt.
     
     <div>
     
 
     > [!TIP]  
-    > Alle Änderungen an Kategorien, Räumen oder Add-Ins in ihrer lync Server 2013-Bereitstellung des beständigen Chats werden von der lync Server Control Panel-oder Windows PowerShell-Cmdlets ausgeführt.
+    > Alle Änderungen an Kategorien, Chatrooms oder Add-Ins in ihrer lync Server 2013, die Bereitstellung von persistent Chat Server werden von den Cmdlets lync Server-Systemsteuerung oder Windows PowerShell ausgeführt.
 
     
     </div>
     
-    Führen Sie die folgenden Schritte aus, um Ihr Legacy System für die Migration vorzubereiten.
+    Führen Sie die folgenden Schritte aus, um Ihr Legacy System auf die Migration vorzubereiten.
     
-    1.  Der beständige Chat Server unterstützt eine einzelne Ebene von Kategorien, anders als eine Tiefe hierarchische Gruppe von Kategorien. Nach der Migration werden den Unterkategorien vollständige übergeordnete Kategorienamen vorangestellt. Möglicherweise möchten Sie die vorhandene Kategorienstruktur vereinfachen und glätten, damit die resultierende Struktur Ihren Anforderungen entspricht.
+    1.  Der Server für beständigen Chat unterstützt eine einzelne Ebene von Kategorien, im Gegensatz zu einer tiefen hierarchischen Gruppe von Kategorien. Nach der Migration wird den Unterkategorien der vollständige Name der übergeordneten Kategorie vorangestellt. Möglicherweise möchten Sie die vorhandene Kategorienstruktur vereinfachen und so reduzieren, dass die resultierende Struktur Ihren Anforderungen entspricht.
     
-    2.  Überprüfen Sie die **Manager** in der Stammkategorie. Wenn Manager auf dieser Ebene vorhanden sind, werden diese Benutzer nach der Migration als **Manager zu allen Chatrooms** hinzugefügt. Wenn dies für Ihre Organisation nicht erforderlich ist, müssen Sie diese Manager aus der Stammkategorie entfernen.
+    2.  Überprüfen Sie die **Manager** in der Stammkategorie. Wenn auf dieser Ebene Manager vorhanden sind, werden diese Benutzer nach der Migration als **Manager zu allen Chatrooms** hinzugefügt. Wenn dies für Ihre Organisation nicht erforderlich ist, müssen Sie diese Manager aus der Stammkategorie entfernen.
     
-    3.  Überprüfen Sie die Länge von Raumnamen. Wenn die Räume unter einer untergeordneten Kategorie vorhanden sind, werden Sie nach der Migration aufgrund vereinfachter Kategorie-Strukturen mit den vollständigen übergeordneten Kategorienamen belegt. Die Benennungs Grenze ist 256 Zeichen, einschließlich übergeordneter Kategorienamen. Sie müssen die Länge der Raumnamen überprüfen und möglicherweise die Länge verkürzen, wenn Sie zu lang sind.
+    3.  Überprüfen Sie die Länge von Raum Namen. Wenn die Räume unter einer untergeordneten Kategorie vorhanden sind, werden Sie nach der Migration aufgrund vereinfachter Kategorien Strukturen mit den vollständigen übergeordneten Kategorienamen vorangestellt. Die Benennungs Grenze beträgt 256 Zeichen, einschließlich übergeordneter Kategorienamen. Sie müssen die Länge der Raumnamen überprüfen und möglicherweise die Länge kürzen, wenn Sie zu lang sind.
     
-    4.  Wenn in lync Server 2013 die Einstellungen für die Kategorie- **Einladungen** auf "true" festgelegt sind, können Sie für Einladungen zu Räumen unter dieser Kategorie "wahr" oder "falsch" auswählen. Wenn die Einstellungen für die Kategorie-Einladungen aber auf "falsch" festgelegt sind, werden in Räumen unter dieser Kategorie Einladungen deaktiviert. Vor der Migration müssen Sie die Einladungseinstellungen in ihrer älteren lync Server-Gruppen-Chat Server Version zurücksetzen, wenn Sie möchten, dass Raum (e) unter einer bestimmten Kategorie vorhanden ist. Andernfalls zeigt lync Server 2013 während der Migration Warnungen an und legt Räume auf den Standardwert false fest.
+    4.  Wenn die Einstellungen für Kategorie- **Einladungen** in lync Server 2013 auf "true" festgelegt sind, können Sie "true" oder "false" für Einladungen zu Räumen unter dieser Kategorie auswählen. Wenn die Einstellungen für Kategorie-Einladungen jedoch auf "false" festgelegt sind, sind für die Räume unter dieser Kategorie Einladungen deaktiviert. Vor der Migration müssen Sie die Einstellungen für die Einladung in Ihrer Legacy-lync Server-Gruppen Chat Server Version zurücksetzen, wenn Sie möchten, dass in einer bestimmten Kategorie Raum (e) vorhanden sind. Andernfalls zeigt lync Server 2013 während der Migration Warnungen an und legt die Räume auf den Standardwert false fest.
     
-    5.  Wenn Sie Dateien in Chatrooms verwendet haben, müssen Sie die Dateien nach der Migration manuell in den neuen beständigen Chat-Dateispeicher herunterladen. Die Tools tun dies nicht.
+    5.  Wenn Sie Dateien in Chatrooms verwendet haben, müssen Sie die Dateien nach der Migration manuell in den neuen Dateispeicher für beständigen Chat einbetten. Die Tools tun dies nicht.
     
-    6.  Wenn Sie Verbundbenutzer und Chatrooms mit Verbundbenutzern hatten, beachten Sie, dass der Server für beständigen Chat keine Föderation unterstützt. Räume mit Verbundbenutzern werden migriert. die Benutzer können jedoch nicht auf die Inhalte zugreifen, da der Verbundzugriff nicht unterstützt wird.
+    6.  Wenn Sie Verbundbenutzer und-Räume mit Verbundbenutzern hatten, beachten Sie, dass der Server für beständigen Chat keinen Partnerverbund unterstützt. Räume mit Verbundbenutzern werden migriert; die Benutzer können jedoch nicht auf den Inhalt zugreifen, da der Verbundzugriff nicht unterstützt wird.
     
-    7.  Identifizieren Sie die Chatrooms, die Sie nicht migrieren möchten, und markieren Sie Sie als deaktiviert.
+    7.  Identifizieren Sie die Räume, die nicht migriert werden sollen, und markieren Sie Sie als deaktiviert.
     
-    8.  Ermitteln Sie das Datum, über das Sie den Chatroom-Inhalt migrieren möchten. So möchten Sie beispielsweise Nachrichten nicht vor dem 1. Januar 2010 migrieren, da diese Nachrichten möglicherweise veraltet oder für die Migration nicht relevant sind.
+    8.  Bestimmen Sie das Datum, über dem der Chatroom-Inhalt migriert werden soll. Beispielsweise können Sie Nachrichten nicht vor dem 1. Januar 2010 migrieren, da diese Nachrichten möglicherweise veraltet sind oder für die Migration nicht relevant sind.
 
 </div>
 
@@ -112,58 +112,58 @@ Führen Sie die folgenden Schritte aus, um die Quelldaten für die Migration ric
 
 ## <a name="performing-the-migration"></a>Durchführen der Migration
 
-Führen Sie die folgenden Schritte aus, um Ihren Legacy-Gruppen-Chat Server zu migrieren.
+Führen Sie die folgenden Schritte aus, um Ihren Legacy-Gruppen Chat Server zu migrieren.
 
-1.  Beenden Sie lync Server 2010, Gruppen-Chat, Office Communications Server 2007 R2-Gruppenchat oder lync Server 2013, beständige Chat Server Dienste. Damit alle Dienste gestoppt werden können, sollten Sie dies zu einem Zeitpunkt planen, zu dem genügend Ausfallzeiten vorhanden sind. Vergewissern Sie sich wie zuvor beschrieben, dass Sie Ihre aktuelle Gruppen-Chat-Datenbank sichern.
+1.  Beenden Sie die lync Server 2010, Gruppenchat, Office Communications Server 2007 R2 Gruppenchat oder lync Server 2013, Server Dienste für beständigen Chat. Alle Dienste müssen angehalten werden, daher sollten Sie dies zu einem Zeitpunkt planen, an dem genügend Ausfallzeiten vorhanden sind. Wie bereits beschrieben, müssen Sie die aktuelle Gruppen Chat Datenbank sichern.
 
-2.  Führen Sie das Cmdlet "Windows PowerShell **Export-CsPersistentChatData** " als Mitglied der Administratorrolle "beständiger Chat" (CsPersistentChatAdministrator) aus. Details zu den Export/Import-Cmdlets finden Sie unter [Problembehandlung bei der Server Konfiguration für beständigen Chat mit Windows PowerShell-Cmdlets in lync Server 2013](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md).
+2.  Führen Sie das Windows PowerShell **-Cmdlet Export-CsPersistentChatData** als Mitglied der Administratorrolle für beständigen Chat ("cspersistentchatadministrator") aus. Ausführliche Informationen zu den Export/Import-Cmdlets finden Sie unter [Troubleshooting persistent Chat Server Configuration using Windows PowerShell Cmdlets in lync Server 2013](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md).
     
     Überprüfen Sie die exportierten Inhalte.
 
-3.  Bevor Sie zum Importieren bereit sind, beenden Sie lync Server 2013, Server Dienste für beständigen Chat. Damit alle Dienste gestoppt werden können, sollten Sie dies zu einem Zeitpunkt planen, zu dem genügend Ausfallzeiten vorhanden sind.
+3.  Bevor Sie den Import vorbereiten können, fahren Sie lync Server 2013 Server Dienste für beständigen Chat herunter. Alle Dienste müssen angehalten werden, daher sollten Sie dies zu einem Zeitpunkt planen, an dem genügend Ausfallzeiten vorhanden sind.
 
-4.  Führen Sie eine Sicherungskopie der persistenten Chat-Datenbank aus, wenn Sie vor der Migration Kategorien, Räume oder Add-Ins in ihrer lync Server 2013-Bereitstellung erstellt haben. Der Export/Import-Prozess kann die Legacydaten in die lync Server 2013-Bereitstellung zusammenführen, doch Sie möchten die Datenbank sichern, falls dieser Inhalt versehentlich überschrieben wird (beispielsweise, wenn Benennungskonflikte weiterhin vorhanden sind).
+4.  Führen Sie eine Sicherung der Datenbank für beständigen Chat aus, wenn Sie vor der Migration Kategorien, Räume oder Add-Ins in ihrer lync Server 2013-Bereitstellung erstellt haben. Der Export/Import-Prozess kann die Legacydaten in die lync Server 2013-Bereitstellung zusammenführen, aber Sie sollten die Datenbank sichern, falls der Inhalt versehentlich überschrieben wird (beispielsweise wenn noch Benennungskonflikte bestehen).
 
-5.  Führen Sie das Windows PowerShell **-Import-CsPersistentChatData-** Cmdlet (Import Tool) mit einem **WhatIf** -Befehl aus, um den Back-End-Server des beständigen Chat Server Pools mit migrierten Daten zu füllen. Einige Konvertierungen erfolgen im Prozess, um dem vereinfachten Verwaltungsmodell gerecht zu werden. Beheben Sie alle angezeigten Fehler oder Warnungen.
+5.  Führen Sie das Windows PowerShell **Import-CsPersistentChatData-** Cmdlet (Import Tool) mit dem Befehl **WhatIf** aus, um den Back-End-Server des Server Pools für beständigen Chat mit migrierten Daten aufzufüllen. Einige Konvertierungen geschehen im Prozess, um das vereinfachte Verwaltungsmodell aufzunehmen. Beheben Sie alle angezeigten Fehler oder Warnungen.
 
-6.  Führen Sie das Cmdlet "beständiger Chat Server Windows PowerShell **-Import-CsPersistentChatData** " als Mitglied der Administratorrolle "beständiger Chat" (CsPersistentChatAdministrator) aus. Details zu den Export/Import-Cmdlets finden Sie unter [Problembehandlung bei der Server Konfiguration für beständigen Chat mit Windows PowerShell-Cmdlets in lync Server 2013](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md).
+6.  Führen Sie den Server für beständigen Chat Windows PowerShell Cmdlets **Import-CsPersistentChatData** als Mitglied der Rolle "Administratorrollen für beständigen Chat" ("cspersistentchatadministrator") aus. Ausführliche Informationen zu den Export/Import-Cmdlets finden Sie unter [Troubleshooting persistent Chat Server Configuration using Windows PowerShell Cmdlets in lync Server 2013](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md).
 
-7.  Sie müssen alle hochgeladenen Dateien (den gesamten Ordner) in den neuen lync Server 2013-Dateispeicher für persistente Chats übertragen.
+7.  Sie müssen alle hochgeladenen Dateien (den gesamten Ordner) in den Dateispeicher des neuen lync Server 2013 persistent Chats xcopy.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Lync 2013 (Client) unterstützt das Hochladen oder Anzeigen von Dateien in Chatrooms nicht. Sie können den Legacyclient weiterhin verwenden, um Dateien im Chatroom zu Posten und anzuzeigen.
+    > Der lync 2013 (Client) unterstützt das Hochladen oder Anzeigen von Dateien in Chatrooms nicht. Sie können den Legacy-Client weiterhin verwenden, um Dateien im Chatroom zu veröffentlichen und anzuzeigen.
 
     
     </div>
 
-8.  Portieren Sie lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppen-Chat-Nachschlage Server-URI zum lync Server 2013-Kontaktobjekt für beständigen Chat Server. Die folgenden Schritte sind erforderlich, wenn sich entweder Ihr lync 2010-Gruppen-Chat oder die Office Communicator 2007 R2-Gruppen-Chat-Clients nach der Migration ohne clientseitige Konfigurationsänderungen mit dem neuesten lync 2013, beständigen Chat (Client) verbinden müssen:
+8.  Portieren Sie den lync Server 2010-, Gruppenchat-oder Office Communications Server 2007 R2 Gruppenchat-Suchserver-URI in das Kontaktobjekt für den lync Server 2013 persistent Chat Server. Die folgenden Schritte sind erforderlich, wenn Ihre lync 2010 Gruppenchats oder Office Communicator 2007 R2 Gruppenchatclients nach der Migration ohne clientseitige Konfigurationsänderungen eine Verbindung mit dem neuesten lync 2013, beständigen Chat (Client) herstellen müssen:
     
-      - Löschen Sie das\<OCSChat@ Domain\>Name. com Lookup Server-Benutzerkonto. Dies wurde verwendet, um auf den Nachschlage Dienst in lync Server 2010, Gruppen-Chat, zu verweisen. Sie können den Pool deinstallieren und vertrauenswürdige Einträge später entfernen.
+      - Löschen Sie das\<Benutzerkonto\>OCSChat@ Domain Name. com Lookup Server. Dies wurde verwendet, um auf den Suchdienst in lync Server 2010, Gruppen Chat, zu deuten. Sie können den Pool deinstallieren und später vertrauenswürdige Einträge entfernen.
     
-      - Erstellen Sie einen Legacy Endpunkt (Kontaktobjekt für beständigen Chat Server), indem Sie das Windows PowerShell **-Cmdlet New-CsPersistentChatEndpoint**mit dem identischen SIP-URI ausführen, damit der Legacyclient effektiv funktioniert, wenn der Dienst neu gestartet wird.
+      - Erstellen Sie einen Legacy Endpunkt (Kontaktobjekt für beständigen Chat Server), indem Sie das Windows PowerShell **-Cmdlet New-cspersistentchatendpoint "** mit dem identischen SIP-URI ausführen, sodass der Legacyclient beim Neustart des Diensts effektiv funktioniert.
     
-    Der obligatorische Migrationsprozess ist an diesem Punkt abgeschlossen. Lync 2010-Gruppen-Chats (Clients) oder Office Communicator 2007 R2-Gruppen-Chat (Clients) können jetzt transparent eine Verbindung mit dem neuen beständigen Chat Server Pool herstellen.
+    Der obligatorische Migrationsprozess ist an dieser Position abgeschlossen. Lync 2010 Gruppenchat (Clients) oder Office Communicator 2007 R2 Gruppenchat (Clients) können jetzt transparent eine Verbindung mit dem neuen Server Pool für beständigen Chat herstellen.
     
-    Befolgen Sie diese zusätzlichen Schritte zur Außerbetriebnahme für lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppen-Chat.
+    Befolgen Sie diese zusätzlichen außerbetriebnahmes Schritte für lync Server 2010, Gruppenchat oder Office Communications Server 2007 R2 Gruppenchat.
 
-9.  Starten Sie die Server Dienste für beständigen Chat, indem Sie alle Computer im neuen beständigen Chat Serverpool aktivieren.
+9.  Starten Sie die Server Dienste für beständigen Chat, indem Sie alle Computer im neuen Serverpool für beständigen Chat aktivieren.
 
-10. Verwenden Sie die lync Server-Systemsteuerung und die Windows PowerShell-Cmdlets, um zu überprüfen, ob die Daten erfolgreich migriert wurden.
+10. Verwenden Sie die Cmdlets lync Server-Systemsteuerung und Windows PowerShell, um zu überprüfen, ob die Daten erfolgreich migriert wurden.
 
-11. Deinstallieren Sie den lync 2010-Gruppen-Chat oder den Office Communicator 2007 R2-Gruppen-Chat von den Computern im Gruppen-Chat-Server Pool.
+11. Deinstallieren Sie lync 2010 Gruppenchat oder Office Communicator 2007 R2 Gruppenchat von den Computern im Gruppenchat Server-Pool.
 
-12. Löschen Sie die vertrauenswürdige Anwendung und den vertrauenswürdigen Anwendungspool mithilfe von Windows PowerShell-Cmdlets. Dadurch werden diese Elemente aus dem zentralen Verwaltungsspeicher und den zugehörigen TSE (Trusted Service Entries) aus dem Active Directory gelöscht. Alternativ funktioniert dieser Schritt mithilfe des Topologie-Generators (die vertrauenswürdigen Anwendungen/Pools verfügen ebenfalls über einen dedizierten Knoten).
+12. Löschen Sie den vertrauenswürdigen Anwendungspool mit Windows PowerShell-Cmdlets. Dadurch werden diese Elemente aus dem zentralen Verwaltungsspeicher und den zugeordneten TSE (Trusted Service Entries) aus dem Active Directory gelöscht. Alternativ funktioniert dieser Schritt mithilfe des Topologie-Generators (die vertrauenswürdigen Anwendungen/Pools verfügen ebenfalls über einen dedizierten Knoten).
 
-13. Sie können jetzt beginnen, die Funktion des beständigen Chat Servers über die neuen Clients zu aktivieren. Ausführliche Informationen zum Aktivieren des Servers für beständigen Chat finden Sie unter [Bereitstellen eines persistenten Chat Servers in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
+13. Sie können jetzt mit dem Aktivieren der Funktion für beständigen Chat Server über die neuen Clients beginnen. Ausführliche Informationen zum Aktivieren des Servers für beständigen Chat finden Sie unter [Deploying persistent Chat Server in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Lync Server 2013 unterstützt mehrere Server Pools für beständigen Chat. Wir unterstützen allerdings die Migration eines lync 2010-Gruppen-oder Office&nbsp;Communications Server 2007 R2-Gruppen-Chat Pools zu einem einzelnen lync Server 2013, beständigen Chat Serverpool. Sie können weitere neue Server Pools für beständigen Chat in Ihrer Bereitstellung hinzufügen, um die regulatorischen Anforderungen zu erfüllen (beispielsweise das Beibehalten von Daten in einer bestimmten geografischen Region).
+    > Lync Server 2013 unterstützt mehrere Server Pools für beständigen Chat. Wir unterstützen jedoch die Migration eines lync 2010 Gruppenchats&nbsp;oder Office Communications Server 2007 R2 Gruppen-Chat Pools in einen einzelnen lync Server 2013 Server Pool für beständigen Chat. Sie können zusätzliche neue Server Pools für beständigen Chat in Ihrer Bereitstellung hinzufügen, um die regulatorischen Anforderungen zu erfüllen (beispielsweise das Beibehalten von Daten in einer bestimmten Geografie).
 
     
     </div>
