@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Einrichten von Edgeservern'
+title: 'Lync Server 2013: Einrichten von Edge-Servern'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183354
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7621d8d8cfb22e774bd13f767c37e49321d3e0a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a3702038781010ce56887ba39c89d09c23bffdbd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764621"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037605"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-edge-servers-in-lync-server-2013"></a><span data-ttu-id="a80a9-102">Einrichten von Edgeservern in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a80a9-102">Setting up Edge Servers in Lync Server 2013</span></span>
+# <a name="setting-up-edge-servers-in-lync-server-2013"></a><span data-ttu-id="93a8d-102">Einrichten von Edge-Servern in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a8d-102">Setting up Edge Servers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41764621"
 
 <span> </span>
 
-<span data-ttu-id="a80a9-103">_**Letztes Änderungsdatum des Themas:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="a80a9-103">_**Topic Last Modified:** 2012-09-08_</span></span>
+<span data-ttu-id="93a8d-103">_**Letztes Änderungsstand des Themas:** 2012-09-08_</span><span class="sxs-lookup"><span data-stu-id="93a8d-103">_**Topic Last Modified:** 2012-09-08_</span></span>
 
-<span data-ttu-id="a80a9-104">Die primären Aufgaben, die zum Einrichten von Edgeserver erforderlich sind, sind bei der Installation eines einzelnen Edge-Servers oder eines Lastenausgleichs Pools von Edge-Servern identisch, mit der Ausnahme, dass ein Pool von Hardwarelastenausgleich-Edgeserver die Bereitstellung der Lastenausgleichs Komponenten und zusätzliche Schritte für Replizieren der Einrichtung auf mehreren Edge-Servern</span><span class="sxs-lookup"><span data-stu-id="a80a9-104">The primary tasks required to set up Edge Servers are the same for installing a single Edge Server or a load-balanced pool of Edge Servers, except that a pool of hardware load balanced Edge Servers requires deployment of the load balancers and additional steps for replicating the set up on multiple Edge Servers.</span></span>
+<span data-ttu-id="93a8d-104">Die Aufgaben zum Einrichten von Edgeservern entsprechen grundsätzlich denen zum Installieren eines einzelnen Edgeservers oder eines Edgeserverpools mit Lastenausgleich. Bei einem Pool von Edgeservern mit Lastenausgleich müssen jedoch zusätzlich die Lastenausgleichsmodule bereitgestellt und weitere Schritte ausgeführt werden, um die Einrichtung auf mehrere Edgeserver zu replizieren.</span><span class="sxs-lookup"><span data-stu-id="93a8d-104">The primary tasks required to set up Edge Servers are the same for installing a single Edge Server or a load-balanced pool of Edge Servers, except that a pool of hardware load balanced Edge Servers requires deployment of the load balancers and additional steps for replicating the set up on multiple Edge Servers.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a80a9-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="a80a9-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="93a8d-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="93a8d-105">In This Section</span></span>
 
-  - [<span data-ttu-id="a80a9-106">Einrichten von Netzwerkschnittstellen für Edgeserver in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a80a9-106">Set up network interfaces for Edge Servers in Lync Server 2013</span></span>](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
+  - [<span data-ttu-id="93a8d-106">Einrichten von Netzwerkschnittstellen für Edgeserver in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a8d-106">Set up network interfaces for Edge Servers in Lync Server 2013</span></span>](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
 
-  - [<span data-ttu-id="a80a9-107">Install prerequiInstallieren der erforderlichen Software auf Edgeservern für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a80a9-107">Install prerequisite software on Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
+  - [<span data-ttu-id="93a8d-107">Installieren der erforderlichen Software auf Edge-Servern für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a8d-107">Install prerequisite software on Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
 
-  - [<span data-ttu-id="a80a9-108">Exportieren der Lync Server 2013-Topologie und Kopieren auf externe Medien zur Edgeinstallation</span><span class="sxs-lookup"><span data-stu-id="a80a9-108">Export your Lync Server 2013 topology and copy it to external media for edge installation</span></span>](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
+  - [<span data-ttu-id="93a8d-108">Exportieren der lync Server 2013 Topologie und kopieren auf externe Medien für die Edge-Installation</span><span class="sxs-lookup"><span data-stu-id="93a8d-108">Export your Lync Server 2013 topology and copy it to external media for edge installation</span></span>](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
 
-  - [<span data-ttu-id="a80a9-109">Installieren von Edgeservern für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a80a9-109">Install Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-edge-servers.md)
+  - [<span data-ttu-id="93a8d-109">Installieren von Edge-Servern für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a8d-109">Install Edge Servers for Lync Server 2013</span></span>](lync-server-2013-install-edge-servers.md)
 
-  - [<span data-ttu-id="a80a9-110">Einrichten von Edgezertifikaten für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a80a9-110">Set up Edge certificates for Lync Server 2013</span></span>](lync-server-2013-set-up-edge-certificates.md)
+  - [<span data-ttu-id="93a8d-110">Einrichten von Edge-Zertifikaten für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a8d-110">Set up Edge certificates for Lync Server 2013</span></span>](lync-server-2013-set-up-edge-certificates.md)
 
-  - [<span data-ttu-id="a80a9-111">Starten der Edgeserver in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a80a9-111">Start Edge Servers in Lync Server 2013</span></span>](lync-server-2013-start-edge-servers.md)
+  - [<span data-ttu-id="93a8d-111">Starten der Edgeserver in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a8d-111">Start Edge Servers in Lync Server 2013</span></span>](lync-server-2013-start-edge-servers.md)
 
-  - [<span data-ttu-id="a80a9-112">Einrichten von Reverseproxyservern für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a80a9-112">Setting up reverse proxy servers for Lync Server 2013</span></span>](lync-server-2013-setting-up-reverse-proxy-servers.md)
+  - [<span data-ttu-id="93a8d-112">Einrichten von Reverse-Proxyservern für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="93a8d-112">Setting up reverse proxy servers for Lync Server 2013</span></span>](lync-server-2013-setting-up-reverse-proxy-servers.md)
 
 </div>
 

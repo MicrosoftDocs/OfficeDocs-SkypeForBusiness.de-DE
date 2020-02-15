@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: CsAddressBookConfiguration für Adressbuchverwaltung'
+title: 'Lync Server 2013: Festlegen von CsAddressBookConfiguration für die Adressbuchverwaltung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a45d5fb9e8ea6eb4b37c34c5347c37c6c9bfe940
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7897d1441746430310d392456adacc6756f469d0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732365"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="set-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="5bd80-102">Einrichten von CsAddressBookConfiguration für die Adressbuchverwaltung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5bd80-102">Set-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>
+# <a name="set-csaddressbookconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="9b56d-102">Festlegen von CsAddressBookConfiguration für die Adressbuchverwaltung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9b56d-102">Set-CsAddressBookConfiguration for Address Book management in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,24 +35,24 @@ ms.locfileid: "41732365"
 
 <span> </span>
 
-<span data-ttu-id="5bd80-103">_**Letztes Änderungsdatum des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="5bd80-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="9b56d-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="9b56d-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="5bd80-104">Personen, die dieses Cmdlet ausführen können: Standardmäßig sind Mitglieder der folgenden Gruppen autorisiert, das Cmdlet "Satz-CsAddressBookConfiguration" lokal auszuführen: RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="5bd80-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the Set-CsAddressBookConfiguration cmdlet locally: RTCUniversalServerAdmins.</span></span> <span data-ttu-id="5bd80-105">Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller rollenbasierten zugriffssteuerungsrollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben):</span><span class="sxs-lookup"><span data-stu-id="5bd80-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="9b56d-p101">Dieses Cmdlet kann von folgenden Benutzern ausgeführt werden: Standardmäßig dürfen Mitglieder der folgenden Gruppen das Cmdlet "Set-CsAddressBookConfiguration" lokal ausführen: RTCUniversalServerAdmins. Geben Sie den folgenden Befehl an der Windows PowerShell-Eingabeaufforderung ein, um eine Liste aller rollenbasierten Zugriffssteuerungsrollen zurückzugeben, die diesem Cmdlet zugewiesen wurden (einschließlich der benutzerdefinierten rollenbasierten Zugriffssteuerungsrollen, die Sie selbst erstellt haben):</span><span class="sxs-lookup"><span data-stu-id="9b56d-p101">Who can run this cmdlet: By default, members of the following groups are authorized to run the Set-CsAddressBookConfiguration cmdlet locally: RTCUniversalServerAdmins. To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsAddressBookConfiguration"}
 
-<span data-ttu-id="5bd80-106">CsAddressBookConfiguration ist mit dem Cmdlet New-CsAddressBookConfiguration vergleichbar, mit der Ausnahme, dass es verwendet wird, um eine vorhandene Konfiguration zu ändern.</span><span class="sxs-lookup"><span data-stu-id="5bd80-106">Set-CsAddressBookConfiguration is similar to the New-CsAddressBookConfiguration cmdlet, except it is used to modify an existing configuration.</span></span>
+<span data-ttu-id="9b56d-106">"Set-CsAddressBookConfiguration" ähnelt dem Cmdlet "New-CsAddressBookConfiguration", wird jedoch zum Ändern einer vorhandenen Konfiguration verwendet.</span><span class="sxs-lookup"><span data-stu-id="9b56d-106">Set-CsAddressBookConfiguration is similar to the New-CsAddressBookConfiguration cmdlet, except it is used to modify an existing configuration.</span></span>
 
-<span data-ttu-id="5bd80-107">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="5bd80-107">For example:</span></span>
+<span data-ttu-id="9b56d-107">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="9b56d-107">For example:</span></span>
 
     Set-CsAddressBookConfiguration -identity site:Redmond -RunTimeOfDay 23:00
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="5bd80-108">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="5bd80-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9b56d-108">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="9b56d-108">See Also</span></span>
 
 
-[<span data-ttu-id="5bd80-109">Set-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="5bd80-109">Set-CsAddressBookConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsAddressBookConfiguration)  
+[<span data-ttu-id="9b56d-109">Gruppe-CsAddressBookConfiguration</span><span class="sxs-lookup"><span data-stu-id="9b56d-109">Set-CsAddressBookConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsAddressBookConfiguration)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184710
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf52f501a11f8a7268914a856d8d044c68abb341
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9c38799334dc2cb8f4858082f06212750bcc5dfb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742425"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037907"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="getting-started-with-lync-server-2013"></a><span data-ttu-id="3228d-102">Erste Schritte in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3228d-102">Getting started with Lync Server 2013</span></span>
+# <a name="getting-started-with-lync-server-2013"></a><span data-ttu-id="fdfb7-102">Erste Schritte mit lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fdfb7-102">Getting started with Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41742425"
 
 <span> </span>
 
-<span data-ttu-id="3228d-103">_**Letztes Änderungsdatum des Themas:** 2015-04-03_</span><span class="sxs-lookup"><span data-stu-id="3228d-103">_**Topic Last Modified:** 2015-04-03_</span></span>
+<span data-ttu-id="fdfb7-103">_**Letztes Änderungsstand des Themas:** 2015-04-03_</span><span class="sxs-lookup"><span data-stu-id="fdfb7-103">_**Topic Last Modified:** 2015-04-03_</span></span>
 
-<span data-ttu-id="3228d-104">Lync Server 2013 bietet zahlreiche Funktionen, um die Zusammenarbeit und Kommunikation in Ihrer Organisation zu verbessern.</span><span class="sxs-lookup"><span data-stu-id="3228d-104">Lync Server 2013 offers many features to enhance collaboration and communication in your organization.</span></span> <span data-ttu-id="3228d-105">Viele dieser Funktionen sind im Vergleich zu den in früheren Versionen verfügbaren Features neu.</span><span class="sxs-lookup"><span data-stu-id="3228d-105">Many of these features are new compared to what was available in previous versions.</span></span> <span data-ttu-id="3228d-106">Die Themen in diesem Abschnitt geben einen kurzen Überblick über die neuen Funktionen.</span><span class="sxs-lookup"><span data-stu-id="3228d-106">The topics in this section give a brief overview of the new capabilities.</span></span>
+<span data-ttu-id="fdfb7-104">Lync Server 2013 bietet viele Features, um die Zusammenarbeit und Kommunikation in Ihrer Organisation zu verbessern.</span><span class="sxs-lookup"><span data-stu-id="fdfb7-104">Lync Server 2013 offers many features to enhance collaboration and communication in your organization.</span></span> <span data-ttu-id="fdfb7-105">Bei vielen dieser Funktionen handelt es sich um neue Funktionen, die in vorherigen Versionen nicht verfügbar waren.</span><span class="sxs-lookup"><span data-stu-id="fdfb7-105">Many of these features are new compared to what was available in previous versions.</span></span> <span data-ttu-id="fdfb7-106">Die Themen des vorliegenden Abschnitts liefern einen kurzen Überblick über die neuen Funktionen.</span><span class="sxs-lookup"><span data-stu-id="fdfb7-106">The topics in this section give a brief overview of the new capabilities.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="3228d-107">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="3228d-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="fdfb7-107">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="fdfb7-107">In This Section</span></span>
 
-  - [<span data-ttu-id="3228d-108">Einführung in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3228d-108">Introduction to Lync Server 2013</span></span>](lync-server-2013-introduction.md)
+  - [<span data-ttu-id="fdfb7-108">Einführung in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fdfb7-108">Introduction to Lync Server 2013</span></span>](lync-server-2013-introduction.md)
 
-  - [<span data-ttu-id="3228d-109">Neue Funktionen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3228d-109">New features in Lync Server 2013</span></span>](lync-server-2013-new-features.md)
+  - [<span data-ttu-id="fdfb7-109">Neue Features in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fdfb7-109">New features in Lync Server 2013</span></span>](lync-server-2013-new-features.md)
 
-  - [<span data-ttu-id="3228d-110">Neue Clientfunktionen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3228d-110">New client features in Lync Server 2013</span></span>](lync-server-2013-new-client-features.md)
+  - [<span data-ttu-id="fdfb7-110">Neue Clientfeatures in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fdfb7-110">New client features in Lync Server 2013</span></span>](lync-server-2013-new-client-features.md)
 
-  - [<span data-ttu-id="3228d-111">Configure the client experience with Skype for Business</span><span class="sxs-lookup"><span data-stu-id="3228d-111">Configure the client experience with Skype for Business</span></span>](configure-the-skype-for-business-client-in-lync-server-2013.md)
+  - [<span data-ttu-id="fdfb7-111">Konfigurieren der Clientumgebung mit Skype for Business</span><span class="sxs-lookup"><span data-stu-id="fdfb7-111">Configure the client experience with Skype for Business</span></span>](configure-the-skype-for-business-client-in-lync-server-2013.md)
 
-  - [<span data-ttu-id="3228d-112">Anmerkungen zu dieser Version für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3228d-112">Release notes for Lync Server 2013</span></span>](lync-server-2013-release-notes.md)
+  - [<span data-ttu-id="fdfb7-112">Anmerkungen zur Version für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fdfb7-112">Release notes for Lync Server 2013</span></span>](lync-server-2013-release-notes.md)
 
 </div>
 

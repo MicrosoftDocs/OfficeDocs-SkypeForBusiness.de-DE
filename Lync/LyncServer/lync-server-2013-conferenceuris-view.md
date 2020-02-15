@@ -12,20 +12,20 @@ ms:contentKeyID: 49733750
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59b5a88cc24e66fb3938b10a5ceeb8c461be2db3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ff28e9fcbf6ddc8b69a0b7962195854fda1151f2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741565"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040844"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conferenceuris-view-in-lync-server-2013"></a><span data-ttu-id="b2014-102">ConferenceUris-Ansicht in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2014-102">ConferenceUris view in Lync Server 2013</span></span>
+# <a name="conferenceuris-view-in-lync-server-2013"></a><span data-ttu-id="4f048-102">ConferenceUris-Ansicht in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4f048-102">ConferenceUris view in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741565"
 
 <span> </span>
 
-<span data-ttu-id="b2014-103">_**Letztes Änderungsdatum des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="b2014-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="4f048-103">_**Letztes Änderungsstand des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="4f048-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="b2014-104">In der ConfernceUris-Ansicht werden Informationen zu den URIs gespeichert, die an Konferenzsitzungen teilgenommen haben.</span><span class="sxs-lookup"><span data-stu-id="b2014-104">The ConfernceUris view stores information about the URIs that have participated in conference sessions.</span></span> <span data-ttu-id="b2014-105">Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="b2014-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="4f048-104">Die Ansicht "ConfernceUris" speichert Informationen über die URIs, die an Konferenzsitzungen teilgenommen haben.</span><span class="sxs-lookup"><span data-stu-id="4f048-104">The ConfernceUris view stores information about the URIs that have participated in conference sessions.</span></span> <span data-ttu-id="4f048-105">Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.</span><span class="sxs-lookup"><span data-stu-id="4f048-105">This view was introduced in Microsoft Lync Server 2013.</span></span>
 
 
 <table>
@@ -48,26 +48,26 @@ ms.locfileid: "41741565"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b2014-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="b2014-106">Column</span></span></th>
-<th><span data-ttu-id="b2014-107">Datentyp</span><span class="sxs-lookup"><span data-stu-id="b2014-107">Data Type</span></span></th>
-<th><span data-ttu-id="b2014-108">Details</span><span class="sxs-lookup"><span data-stu-id="b2014-108">Details</span></span></th>
+<th><span data-ttu-id="4f048-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="4f048-106">Column</span></span></th>
+<th><span data-ttu-id="4f048-107">Datentyp</span><span class="sxs-lookup"><span data-stu-id="4f048-107">Data Type</span></span></th>
+<th><span data-ttu-id="4f048-108">Details</span><span class="sxs-lookup"><span data-stu-id="4f048-108">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b2014-109">ConferenceUriId</span><span class="sxs-lookup"><span data-stu-id="b2014-109">ConferenceUriId</span></span></p></td>
-<td><p><span data-ttu-id="b2014-110">int</span><span class="sxs-lookup"><span data-stu-id="b2014-110">int</span></span></p></td>
-<td><p><span data-ttu-id="b2014-111">Eindeutige Zahl, die den Konferenz-URI kennzeichnet.</span><span class="sxs-lookup"><span data-stu-id="b2014-111">Unique number identifying the conference URI.</span></span></p></td>
+<td><p><span data-ttu-id="4f048-109">ConferenceUriId</span><span class="sxs-lookup"><span data-stu-id="4f048-109">ConferenceUriId</span></span></p></td>
+<td><p><span data-ttu-id="4f048-110">int</span><span class="sxs-lookup"><span data-stu-id="4f048-110">int</span></span></p></td>
+<td><p><span data-ttu-id="4f048-111">Eindeutige Zahl, die den Konferenz-URI identifiziert.</span><span class="sxs-lookup"><span data-stu-id="4f048-111">Unique number identifying the conference URI.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b2014-112">ConferenceUri</span><span class="sxs-lookup"><span data-stu-id="b2014-112">ConferenceUri</span></span></p></td>
-<td><p><span data-ttu-id="b2014-113">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="b2014-113">nvarchar(450)</span></span></p></td>
-<td><p><span data-ttu-id="b2014-114">URI der Konferenz.</span><span class="sxs-lookup"><span data-stu-id="b2014-114">URI of the conference.</span></span></p></td>
+<td><p><span data-ttu-id="4f048-112">ConferenceUri</span><span class="sxs-lookup"><span data-stu-id="4f048-112">ConferenceUri</span></span></p></td>
+<td><p><span data-ttu-id="4f048-113">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="4f048-113">nvarchar(450)</span></span></p></td>
+<td><p><span data-ttu-id="4f048-114">URI der Konferenz.</span><span class="sxs-lookup"><span data-stu-id="4f048-114">URI of the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b2014-115">ConferenceUriType</span><span class="sxs-lookup"><span data-stu-id="b2014-115">ConferenceUriType</span></span></p></td>
-<td><p><span data-ttu-id="b2014-116">nvarchar(256)</span><span class="sxs-lookup"><span data-stu-id="b2014-116">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="b2014-117">Typ des Konferenz-URI.</span><span class="sxs-lookup"><span data-stu-id="b2014-117">Type of conference URI.</span></span> <span data-ttu-id="b2014-118">Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="b2014-118">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
+<td><p><span data-ttu-id="4f048-115">ConferenceUriType</span><span class="sxs-lookup"><span data-stu-id="4f048-115">ConferenceUriType</span></span></p></td>
+<td><p><span data-ttu-id="4f048-116">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="4f048-116">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="4f048-117">Typ des URI.</span><span class="sxs-lookup"><span data-stu-id="4f048-117">Type of conference URI.</span></span> <span data-ttu-id="4f048-118">Weitere Informationen finden Sie <a href="lync-server-2013-uritypes-table.md">in der UriTypes-Tabelle in lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="4f048-118">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 </tbody>
 </table>

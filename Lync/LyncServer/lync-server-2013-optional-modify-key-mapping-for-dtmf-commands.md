@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: (Optional) Ändern der Tastenzuordnung für DTMF-Befehle'
+title: 'Lync Server 2013: (optional) Ändern der Tastenzuordnung für DTMF-Befehle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185563
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 036092f1199ad0e361f8509b36930410685ece21
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dd1a6d9d2cf2e97f7b04209d1ca8aab7bdc23456
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755739"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051127"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="optional-modify-key-mapping-for-dtmf-commands-in-lync-server-2013"></a><span data-ttu-id="e7d10-102">(Optional) Ändern der Tastenzuordnung für DTMF-Befehle in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e7d10-102">(Optional) Modify key mapping for DTMF commands in Lync Server 2013</span></span>
+# <a name="optional-modify-key-mapping-for-dtmf-commands-in-lync-server-2013"></a><span data-ttu-id="19676-102">Optional Ändern der Tastenzuordnung für DTMF-Befehle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="19676-102">(Optional) Modify key mapping for DTMF commands in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41755739"
 
 <span> </span>
 
-<span data-ttu-id="e7d10-103">_**Letztes Änderungsdatum des Themas:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="e7d10-103">_**Topic Last Modified:** 2012-09-30_</span></span>
+<span data-ttu-id="19676-103">_**Letztes Änderungsstand des Themas:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="19676-103">_**Topic Last Modified:** 2012-09-30_</span></span>
 
-<span data-ttu-id="e7d10-104">Benutzer von Einwahlkonferenzen können auf der Telefontastatur auf Tasten drücken, um DTMF-Befehle (Dual-Tone Multi-Frequency) durchzuführen.</span><span class="sxs-lookup"><span data-stu-id="e7d10-104">Dial-in conferencing users can press keys on the telephone keypad to perform dual-tone multi-frequency (DTMF) commands.</span></span> <span data-ttu-id="e7d10-105">Mit DTMF-Befehlen können Benutzer, die sich bei einer Konferenz einwählen, Konferenzeinstellungen (wie Muting und Aufheben der Stummschaltung oder sperren und Entsperren der Konferenz) über die Tastatur auf dem Telefon steuern.</span><span class="sxs-lookup"><span data-stu-id="e7d10-105">DTMF commands enable users who dial in to a conference to control conference settings (such as muting and unmuting themselves or locking and unlocking the conference) by using the keypad on their telephone.</span></span> <span data-ttu-id="e7d10-106">Sie können Cmdlets verwenden, um die für die DTMF-Befehle verwendeten Tasten zu ändern.</span><span class="sxs-lookup"><span data-stu-id="e7d10-106">You can use cmdlets to modify the keys used for the DTMF commands.</span></span> <span data-ttu-id="e7d10-107">Dieser Schritt ist optional.</span><span class="sxs-lookup"><span data-stu-id="e7d10-107">This step is optional.</span></span>
+<span data-ttu-id="19676-p101">Einwahlkonferenzbenutzer können DTMF-Befehle (Dual-Tone Multi-Frequency) mithilfe der Tasten ihres Telefons ausführen. Mit DTMF-Befehlen können Benutzer, die sich bei einer Konferenz einwählen, Konferenzeinstellungen mit der Telefontastatur steuern (z. B. eigene Person stummschalten bzw. Stummschaltung der eigenen Person aufheben oder Konferenz sperren bzw. entsperren). Sie können Cmdlets verwenden, um die Tastaturzuordnung für die DTMF-Befehle zu ändern. Dieser Schritt ist optional.</span><span class="sxs-lookup"><span data-stu-id="19676-p101">Dial-in conferencing users can press keys on the telephone keypad to perform dual-tone multi-frequency (DTMF) commands. DTMF commands enable users who dial in to a conference to control conference settings (such as muting and unmuting themselves or locking and unlocking the conference) by using the keypad on their telephone. You can use cmdlets to modify the keys used for the DTMF commands. This step is optional.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="e7d10-108">Details zu diesen Cmdlets und den möglichen DTMF-Optionen finden Sie unter Dokumentation zur lync Server-Verwaltungsshell oder Befehlszeilenhilfe zur lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="e7d10-108">For details about these cmdlets and the possible DTMF options, see Lync Server Management Shell documentation or Lync Server Management Shell command-line Help.</span></span>
+> <span data-ttu-id="19676-108">Ausführliche Informationen zu diesen Cmdlets und den möglichen DTMF-Optionen finden Sie in lync Server-Verwaltungsshell Dokumentation oder lync Server-Verwaltungsshell Befehlszeilenhilfe.</span><span class="sxs-lookup"><span data-stu-id="19676-108">For details about these cmdlets and the possible DTMF options, see Lync Server Management Shell documentation or Lync Server Management Shell command-line Help.</span></span>
 
 
 
@@ -51,19 +51,19 @@ ms.locfileid: "41755739"
 
 <div>
 
-## <a name="to-modify-the-key-mapping-of-dtmf-commands"></a><span data-ttu-id="e7d10-109">So ändern Sie die Tastenzuordnung von DTMF-Befehlen</span><span class="sxs-lookup"><span data-stu-id="e7d10-109">To modify the key mapping of DTMF commands</span></span>
+## <a name="to-modify-the-key-mapping-of-dtmf-commands"></a><span data-ttu-id="19676-109">So ändern Sie die Tastaturzuordnung für DTMF-Befehle</span><span class="sxs-lookup"><span data-stu-id="19676-109">To modify the key mapping of DTMF commands</span></span>
 
-1.  <span data-ttu-id="e7d10-110">Melden Sie sich bei dem Computer als Mitglied der **RTCUniversalServerAdmins** -Gruppe oder als Mitglied der Rolle **CS-ServerAdministrator** oder **CsAdministrator** an.</span><span class="sxs-lookup"><span data-stu-id="e7d10-110">Log on to the computer as a member of the **RTCUniversalServerAdmins** group, or as a member of the **Cs-ServerAdministrator** or **CsAdministrator** role.</span></span>
+1.  <span data-ttu-id="19676-110">Melden Sie sich beim Computer als Mitglied der Gruppe **RTCUniversalServerAdmins** oder als Benutzer mit der Rolle **Cs-ServerAdministrator** oder **CsAdministrator** an.</span><span class="sxs-lookup"><span data-stu-id="19676-110">Log on to the computer as a member of the **RTCUniversalServerAdmins** group, or as a member of the **Cs-ServerAdministrator** or **CsAdministrator** role.</span></span>
 
-2.  <span data-ttu-id="e7d10-111">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="e7d10-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="19676-111">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="19676-111">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="e7d10-112">Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:</span><span class="sxs-lookup"><span data-stu-id="e7d10-112">Run the following at the command prompt:</span></span>
+3.  <span data-ttu-id="19676-112">Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:</span><span class="sxs-lookup"><span data-stu-id="19676-112">Run the following at the command prompt:</span></span>
     
         Get-CsDialinConferencingDtmfConfiguration
     
-    <span data-ttu-id="e7d10-113">Dieses Cmdlet gibt die DTMF-Einstellungen zurück, die für Einwahlkonferenzen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="e7d10-113">This cmdlet returns the DTMF settings used for dial-in conferencing.</span></span>
+    <span data-ttu-id="19676-113">Dieses Cmdlet gibt die in Einwahlkonferenzen verwendeten DTMF-Einstellungen zurück.</span><span class="sxs-lookup"><span data-stu-id="19676-113">This cmdlet returns the DTMF settings used for dial-in conferencing.</span></span>
 
-4.  <span data-ttu-id="e7d10-114">Führen Sie das folgende Cmdlet aus, und geben Sie den zu bedruckenden Schlüssel für jede Option an, die Sie ändern möchten:</span><span class="sxs-lookup"><span data-stu-id="e7d10-114">Run the following cmdlet and specify the key to be pressed for each option that you want to change:</span></span>
+4.  <span data-ttu-id="19676-114">Führen Sie das folgende Cmdlet aus, und geben Sie für jede Option, die Sie ändern möchten, die gewünschte Taste an:</span><span class="sxs-lookup"><span data-stu-id="19676-114">Run the following cmdlet and specify the key to be pressed for each option that you want to change:</span></span>
     
         Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
         [-AdmitAll <default key is 8>] [-AudienceMuteCommand <default key is 4>]
@@ -71,15 +71,15 @@ ms.locfileid: "41755739"
         [-HelpCommand <default key is 1>] [-LockUnlockConferenceCommand <default key is 7>]
         [-MuteUnmuteCommand <default key is 6>] [-PrivateRollCallCommand <default key is 3>]
     
-    <span data-ttu-id="e7d10-115">Mit diesem Cmdlet werden die DTMF-Einstellungen geändert, die für Einwahlkonferenzen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="e7d10-115">This cmdlet modifies the DTMF settings used for dial-in conferencing.</span></span>
+    <span data-ttu-id="19676-115">Dieses Cmdlet ändert die in Einwahlkonferenzen verwendeten DTMF-Einstellungen.</span><span class="sxs-lookup"><span data-stu-id="19676-115">This cmdlet modifies the DTMF settings used for dial-in conferencing.</span></span>
     
-    <span data-ttu-id="e7d10-116">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="e7d10-116">For example:</span></span>
+    <span data-ttu-id="19676-116">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="19676-116">For example:</span></span>
     
         Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
     
-    <span data-ttu-id="e7d10-117">In diesem Beispiel wird die gedrückte Taste getauscht, um Ankündigungen zu aktivieren oder zu deaktivieren, und die Taste, die gedrückt wird, um alle Teilnehmer stummzuschalten und die Stummschaltung aufzuheben.</span><span class="sxs-lookup"><span data-stu-id="e7d10-117">This example swaps the key that is pressed to enable or disable announcements and the key that is pressed to mute and unmute all participants.</span></span> <span data-ttu-id="e7d10-118">Da keine Identität angegeben wird, gelten diese Änderungen für die globalen DTMF-Einstellungen.</span><span class="sxs-lookup"><span data-stu-id="e7d10-118">Because no Identity is specified, these changes apply to the global DTMF settings.</span></span>
+    <span data-ttu-id="19676-p102">In diesem Beispiel wird die Taste zur Aktivierung und Deaktivierung von Ankündigungen mit der Taste zur Stummschaltung und Aufhebung der Stummschaltung aller Teilnehmer getauscht. Da für "Identity" kein Wert angegeben ist, werden diese Änderungen auf die globalen DTMF-Einstellungen angewendet.</span><span class="sxs-lookup"><span data-stu-id="19676-p102">This example swaps the key that is pressed to enable or disable announcements and the key that is pressed to mute and unmute all participants. Because no Identity is specified, these changes apply to the global DTMF settings.</span></span>
 
-5.  <span data-ttu-id="e7d10-119">(Optional) Zum Erstellen zusätzlicher DTMF-Befehlssätze für bestimmte Standorte verwenden Sie das Cmdlet **New-CsDialinConferencingDtmfConfiguration** mit dem Identitätswert eines Standorts.</span><span class="sxs-lookup"><span data-stu-id="e7d10-119">(Optional) To create additional sets of DTMF commands for specific sites, use the **New-CsDialinConferencingDtmfConfiguration** cmdlet with a site identity.</span></span> <span data-ttu-id="e7d10-120">Beim Erstellen neuer DTMF-Einstellungen für Standorte haben die Standorteinstellungen Vorrang vor den globalen Einstellungen.</span><span class="sxs-lookup"><span data-stu-id="e7d10-120">When you create new DTMF settings for sites, the site settings take precedence over the global settings.</span></span> <span data-ttu-id="e7d10-121">Ausführliche Informationen finden Sie unter Dokumentation zur lync Server-Verwaltungsshell oder Befehlszeilenhilfe zur lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="e7d10-121">For details, see Lync Server Management Shell documentation or Lync Server Management Shell command-line Help.</span></span>
+5.  <span data-ttu-id="19676-119">(Optional) Zum Erstellen zusätzlicher DTMF-Befehlssätze für bestimmte Standorte verwenden Sie das Cmdlet **New-CsDialinConferencingDtmfConfiguration** mit dem Identitätswert eines Standorts.</span><span class="sxs-lookup"><span data-stu-id="19676-119">(Optional) To create additional sets of DTMF commands for specific sites, use the **New-CsDialinConferencingDtmfConfiguration** cmdlet with a site identity.</span></span> <span data-ttu-id="19676-120">Beim Erstellen neuer DTMF-Einstellungen für Standorte haben die Standorteinstellungen Vorrang vor den globalen Einstellungen.</span><span class="sxs-lookup"><span data-stu-id="19676-120">When you create new DTMF settings for sites, the site settings take precedence over the global settings.</span></span> <span data-ttu-id="19676-121">Ausführliche Informationen finden Sie unter lync Server-Verwaltungsshell Dokumentation oder lync Server-Verwaltungsshell Befehlszeilenhilfe.</span><span class="sxs-lookup"><span data-stu-id="19676-121">For details, see Lync Server Management Shell documentation or Lync Server Management Shell command-line Help.</span></span>
 
 </div>
 

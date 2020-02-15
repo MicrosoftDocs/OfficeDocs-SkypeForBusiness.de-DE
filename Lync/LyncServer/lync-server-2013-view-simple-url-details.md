@@ -12,20 +12,20 @@ ms:contentKeyID: 48184399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f77c860d58ecc391298b88f4e1855ddd80199d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71f507f35d8fe616617a2782840cfcf41719ed45
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757429"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038027"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-simple-url-details-in-lync-server-2013"></a><span data-ttu-id="bfab3-102">Anzeigen von einfachen URL-Details in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bfab3-102">View simple URL details in Lync Server 2013</span></span>
+# <a name="view-simple-url-details-in-lync-server-2013"></a><span data-ttu-id="e3ca9-102">Anzeigen von Details zu einfachen URLs in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e3ca9-102">View simple URL details in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "41757429"
 
 <span> </span>
 
-<span data-ttu-id="bfab3-103">_**Letztes Änderungsdatum des Themas:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="bfab3-103">_**Topic Last Modified:** 2012-10-11_</span></span>
+<span data-ttu-id="e3ca9-103">_**Letztes Änderungsstand des Themas:** 2012-10-11_</span><span class="sxs-lookup"><span data-stu-id="e3ca9-103">_**Topic Last Modified:** 2012-10-11_</span></span>
 
-<span data-ttu-id="bfab3-104">Sie können die lync Server 2013-Systemsteuerung verwenden, um einfache URL-Details für Ihre lync Server 2013-Umgebung anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="bfab3-104">You can use Lync Server 2013 Control Panel to view simple URL details for your Lync Server 2013 environment.</span></span> <span data-ttu-id="bfab3-105">Einfache URLs erleichtern Benutzern die Teilnahme an Besprechungen und erleichtern Administratoren den Zugriff auf Verwaltungstools.</span><span class="sxs-lookup"><span data-stu-id="bfab3-105">Simple URLs make it easier for users to join meetings, and they make it easier for administrators to get to administrative tools.</span></span> <span data-ttu-id="bfab3-106">Ausführliche Informationen finden Sie unter [Planen einfacher URLs in lync Server 2013](lync-server-2013-planning-for-simple-urls.md).</span><span class="sxs-lookup"><span data-stu-id="bfab3-106">For details, see [Planning for simple URLs in Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).</span></span>
+<span data-ttu-id="e3ca9-104">Sie können lync Server 2013 Systemsteuerung verwenden, um einfache URL-Details für Ihre lync Server 2013 Umgebung anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="e3ca9-104">You can use Lync Server 2013 Control Panel to view simple URL details for your Lync Server 2013 environment.</span></span> <span data-ttu-id="e3ca9-105">Über einfache URLs können Benutzer leichter an Konferenzen teilnehmen und Administratoren einfacher zu Verwaltungstools gelangen.</span><span class="sxs-lookup"><span data-stu-id="e3ca9-105">Simple URLs make it easier for users to join meetings, and they make it easier for administrators to get to administrative tools.</span></span> <span data-ttu-id="e3ca9-106">Ausführliche Informationen finden Sie unter [Planning for Simple URLs in lync Server 2013](lync-server-2013-planning-for-simple-urls.md).</span><span class="sxs-lookup"><span data-stu-id="e3ca9-106">For details, see [Planning for simple URLs in Lync Server 2013](lync-server-2013-planning-for-simple-urls.md).</span></span>
 
 <div>
 
-## <a name="to-view-simple-url-details"></a><span data-ttu-id="bfab3-107">So zeigen Sie einfache URL-Details an</span><span class="sxs-lookup"><span data-stu-id="bfab3-107">To view Simple URL details</span></span>
+## <a name="to-view-simple-url-details"></a><span data-ttu-id="e3ca9-107">So zeigen Sie Details der einfachen URL an</span><span class="sxs-lookup"><span data-stu-id="e3ca9-107">To view Simple URL details</span></span>
 
-1.  <span data-ttu-id="bfab3-108">Melden Sie sich mit einem Benutzerkonto, dem die Rolle „CsServerAdministrator“, „CsAdministrator“, „CsHelpDesk“ oder „CsViewOnlyAdministrator“ zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="bfab3-108">From a user account that is assigned to the CsServerAdministrator, CsAdministrator, CsHelpDesk, or CsViewOnlyAdministrator role, log on to any computer in your internal deployment.</span></span> <span data-ttu-id="bfab3-109">Details zu den vordefinierten Administratorrollen, die in lync Server 2013 zur Verfügung stehen, finden Sie unter [Planen der rollenbasierten Zugriffssteuerung in lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).</span><span class="sxs-lookup"><span data-stu-id="bfab3-109">For details about the predefined administrative roles available in Lync Server 2013, see [Planning for role-based access control in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).</span></span>
+1.  <span data-ttu-id="e3ca9-108">Melden Sie sich über ein Benutzerkonto, das der CsServerAdministrator-, CsAdministrator-, "cshelpdesk"-oder CsViewOnlyAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="e3ca9-108">From a user account that is assigned to the CsServerAdministrator, CsAdministrator, CsHelpDesk, or CsViewOnlyAdministrator role, log on to any computer in your internal deployment.</span></span> <span data-ttu-id="e3ca9-109">Ausführliche Informationen zu den in lync Server 2013 verfügbaren vordefinierten Administratorrollen finden Sie unter [Planning for Role-Based Access Control in lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).</span><span class="sxs-lookup"><span data-stu-id="e3ca9-109">For details about the predefined administrative roles available in Lync Server 2013, see [Planning for role-based access control in Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).</span></span>
 
-2.  <span data-ttu-id="bfab3-110">Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="bfab3-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="bfab3-111">Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="bfab3-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="e3ca9-110">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="e3ca9-110">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="e3ca9-111">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="e3ca9-111">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="bfab3-112">Klicken Sie in der linken Navigationsleiste auf **Topologie** , und klicken Sie dann auf **einfache URL**.</span><span class="sxs-lookup"><span data-stu-id="bfab3-112">In the left navigation bar, click **Topology** and then click **Simple URL**.</span></span>
+3.  <span data-ttu-id="e3ca9-112">Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Einfache URL**.</span><span class="sxs-lookup"><span data-stu-id="e3ca9-112">In the left navigation bar, click **Topology** and then click **Simple URL**.</span></span>
 
-4.  <span data-ttu-id="bfab3-113">Klicken Sie auf der Seite **einfache URL** auf eine Spaltenüberschrift, um die Liste bei Bedarf zu sortieren.</span><span class="sxs-lookup"><span data-stu-id="bfab3-113">On the **Simple URL** page, click a column heading to sort the list, if needed.</span></span>
+4.  <span data-ttu-id="e3ca9-113">Klicken Sie auf der Seite **Einfache URL** auf eine Spaltenüberschrift, um die Liste ggf. zu sortieren.</span><span class="sxs-lookup"><span data-stu-id="e3ca9-113">On the **Simple URL** page, click a column heading to sort the list, if needed.</span></span>
 
-5.  <span data-ttu-id="bfab3-114">Wählen Sie den Namen aus, für den Sie einfache URL-Details anzeigen möchten, und klicken Sie dann auf **Eigenschaften**.</span><span class="sxs-lookup"><span data-stu-id="bfab3-114">Select the name for which you want to see simple URL details, and then click **Properties**.</span></span>
+5.  <span data-ttu-id="e3ca9-114">Wählen Sie den Namen aus, für den Sie die Details zur einfachen URL anzeigen möchten, und klicken Sie auf **Eigenschaften**.</span><span class="sxs-lookup"><span data-stu-id="e3ca9-114">Select the name for which you want to see simple URL details, and then click **Properties**.</span></span>
 
-6.  <span data-ttu-id="bfab3-115">Wenn Sie alle Details angezeigt haben, klicken Sie auf **Schließen**.</span><span class="sxs-lookup"><span data-stu-id="bfab3-115">When you are finished viewing details, click **Close**.</span></span>
+6.  <span data-ttu-id="e3ca9-115">Wenn Sie mit der Anzeige der Details fertig sind, klicken Sie auf **Schließen**.</span><span class="sxs-lookup"><span data-stu-id="e3ca9-115">When you are finished viewing details, click **Close**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="bfab3-116">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="bfab3-116">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e3ca9-116">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="e3ca9-116">See Also</span></span>
 
 
-[<span data-ttu-id="bfab3-117">Verwalten der Lync Server 2013-Topologie</span><span class="sxs-lookup"><span data-stu-id="bfab3-117">Managing the Lync Server 2013 topology</span></span>](lync-server-2013-managing-the-lync-server-topology.md)  
+[<span data-ttu-id="e3ca9-117">Verwalten der lync Server 2013 Topologie</span><span class="sxs-lookup"><span data-stu-id="e3ca9-117">Managing the Lync Server 2013 topology</span></span>](lync-server-2013-managing-the-lync-server-topology.md)  
   
 
 </div>

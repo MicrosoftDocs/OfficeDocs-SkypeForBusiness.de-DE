@@ -12,20 +12,20 @@ ms:contentKeyID: 48185641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bb42f32313acd3609b21180ddaef90c53c27564
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 45f7db796a4edab00918b0353e9b635f4615ba9a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762153"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046778"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="location-report-in-lync-server-2013"></a><span data-ttu-id="501ea-102">Standortbericht in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="501ea-102">Location Report in Lync Server 2013</span></span>
+# <a name="location-report-in-lync-server-2013"></a><span data-ttu-id="992c0-102">Standortbericht in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="992c0-102">Location Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41762153"
 
 <span> </span>
 
-<span data-ttu-id="501ea-103">_**Letztes Änderungsdatum des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="501ea-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="992c0-103">_**Letztes Änderungsstand des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="992c0-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="501ea-p101">Der Standortbericht enthält nach dem Netzwerkstandort (also nach dem Netzwerksubnetz) gruppierte Informationen zu Metriken für die Anrufqualität. Falls bei Ihren Benutzern Probleme im Zusammenhang mit Anrufen auftreten, können Sie mithilfe dieses Berichts bestimmen, ob diese Probleme weitverbreitet sind oder ob sie weitgehend auf ein bestimmtes Netzwerksegment beschränkt sind.</span><span class="sxs-lookup"><span data-stu-id="501ea-p101">The Location Report provides information about call quality metrics grouped by network location (that is, by network subnet). If your users are experiencing problems with their calls, this report can help you determine if those problems are widespread or if they are largely confined to a given network segment.</span></span>
+<span data-ttu-id="992c0-104">Der Standortbericht enthält Informationen zu Metriken für die Anrufqualität, gruppiert nach dem Netzwerkspeicherort (im Netzwerk-Subnetz).</span><span class="sxs-lookup"><span data-stu-id="992c0-104">The Location Report provides information about call quality metrics grouped by network location (that is, by network subnet).</span></span> <span data-ttu-id="992c0-105">Wenn Ihre Benutzer Probleme mit ihren anrufen haben, kann dieser Bericht Ihnen helfen zu ermitteln, ob diese Probleme weit verbreitet sind oder ob Sie weitgehend auf ein bestimmtes Netzwerksegment beschränkt sind.</span><span class="sxs-lookup"><span data-stu-id="992c0-105">If your users are experiencing problems with their calls, this report can help you determine if those problems are widespread or if they are largely confined to a given network segment.</span></span>
 
 <div>
 
-## <a name="accessing-the-location-report"></a><span data-ttu-id="501ea-106">Zugriff auf den Standortbericht</span><span class="sxs-lookup"><span data-stu-id="501ea-106">Accessing the Location Report</span></span>
+## <a name="accessing-the-location-report"></a><span data-ttu-id="992c0-106">Zugreifen auf den Standortbericht</span><span class="sxs-lookup"><span data-stu-id="992c0-106">Accessing the Location Report</span></span>
 
-<span data-ttu-id="501ea-p102">Auf den Standortbericht greifen Sie auf der Startseite „Überwachungsberichte“ zu. Sie können einen Drilldown für den Anruflistenbericht ausführen, indem Sie auf eine der folgenden Metriken klicken:</span><span class="sxs-lookup"><span data-stu-id="501ea-p102">The Location Report is accessed from the Monitoring Reports home page. You can drill down to the Call List Report by clicking either of the following metrics:</span></span>
+<span data-ttu-id="992c0-107">Auf den Standortbericht kann über die Startseite für Überwachungsberichte zugegriffen werden.</span><span class="sxs-lookup"><span data-stu-id="992c0-107">The Location Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="992c0-108">Sie können den Call List Report anzeigen lassen, indem Sie auf eine der folgenden Metriken klicken:</span><span class="sxs-lookup"><span data-stu-id="992c0-108">You can drill down to the Call List Report by clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="501ea-109">Anruflautstärke</span><span class="sxs-lookup"><span data-stu-id="501ea-109">Call volume</span></span>
+  - <span data-ttu-id="992c0-109">Anrufvolumen</span><span class="sxs-lookup"><span data-stu-id="992c0-109">Call volume</span></span>
 
-  - <span data-ttu-id="501ea-110">Prozentsatz der Anrufe schlechter Qualität</span><span class="sxs-lookup"><span data-stu-id="501ea-110">Poor call percentage</span></span>
+  - <span data-ttu-id="992c0-110">Prozentsatz der Anrufe schlechter Qualität</span><span class="sxs-lookup"><span data-stu-id="992c0-110">Poor call percentage</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="501ea-111">Filter</span><span class="sxs-lookup"><span data-stu-id="501ea-111">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="992c0-111">Filter</span><span class="sxs-lookup"><span data-stu-id="992c0-111">Filters</span></span>
 
-<span data-ttu-id="501ea-112">Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen.</span><span class="sxs-lookup"><span data-stu-id="501ea-112">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="501ea-113">Beispielsweise können Sie die Daten im Standortbericht nach Kriterien wie dem Standort, von dem der Anruf stammt, oder der Art der Verbindung (Funk oder Kabel) filtern.</span><span class="sxs-lookup"><span data-stu-id="501ea-113">For example, the Location Report enables you to filter on such things as the location where a call was originated or whether the call took place on a wireless or a wired connection.</span></span> <span data-ttu-id="501ea-114">Sie können außerdem festlegen, wie Daten gruppiert werden sollen.</span><span class="sxs-lookup"><span data-stu-id="501ea-114">You can also choose how data should be grouped.</span></span> <span data-ttu-id="501ea-115">In diesem Fall werden Anrufe nach Stunde, Tag, Woche oder Monat zusammengefasst.</span><span class="sxs-lookup"><span data-stu-id="501ea-115">In this case, calls are grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="992c0-112">Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen.</span><span class="sxs-lookup"><span data-stu-id="992c0-112">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="992c0-113">Beispielsweise können Sie mit dem Standortbericht nach Dingen suchen, die den Standort haben, an dem ein Anruf entstanden ist, oder ob der Anruf über eine drahtlose oder eine kabelgebundene Verbindung stattfand.</span><span class="sxs-lookup"><span data-stu-id="992c0-113">For example, the Location Report enables you to filter on such things as the location where a call was originated or whether the call took place on a wireless or a wired connection.</span></span> <span data-ttu-id="992c0-114">Sie können außerdem festlegen, wie Daten gruppiert werden sollen.</span><span class="sxs-lookup"><span data-stu-id="992c0-114">You can also choose how data should be grouped.</span></span> <span data-ttu-id="992c0-115">In diesem Fall werden die Anrufe nach Stunde, Tag, Woche oder Monat zusammengefasst.</span><span class="sxs-lookup"><span data-stu-id="992c0-115">In this case, calls are grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="501ea-116">In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Standortbericht verwenden können.</span><span class="sxs-lookup"><span data-stu-id="501ea-116">The following table lists the filters that you can use with the Location Report.</span></span>
+<span data-ttu-id="992c0-116">In der folgenden Tabelle sind die Filter aufgeführt, die Sie mit dem Standortbericht verwenden können.</span><span class="sxs-lookup"><span data-stu-id="992c0-116">The following table lists the filters that you can use with the Location Report.</span></span>
 
-### <a name="location-report-filters"></a><span data-ttu-id="501ea-117">Filter im Standortbericht</span><span class="sxs-lookup"><span data-stu-id="501ea-117">Location Report Filters</span></span>
+### <a name="location-report-filters"></a><span data-ttu-id="992c0-117">Standort Berichtsfilter</span><span class="sxs-lookup"><span data-stu-id="992c0-117">Location Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -68,55 +68,55 @@ ms.locfileid: "41762153"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="501ea-118">Name</span><span class="sxs-lookup"><span data-stu-id="501ea-118">Name</span></span></th>
-<th><span data-ttu-id="501ea-119">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="501ea-119">Description</span></span></th>
+<th><span data-ttu-id="992c0-118">Name</span><span class="sxs-lookup"><span data-stu-id="992c0-118">Name</span></span></th>
+<th><span data-ttu-id="992c0-119">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="992c0-119">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="501ea-120"><strong>Von</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-120"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-p104">Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</span><span class="sxs-lookup"><span data-stu-id="501ea-p104">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="501ea-123">7/7/2012 1:00 Uhr</span><span class="sxs-lookup"><span data-stu-id="501ea-123">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="501ea-p105">Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</span><span class="sxs-lookup"><span data-stu-id="501ea-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="501ea-126">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="501ea-126">7/7/2012</span></span></p>
-<p><span data-ttu-id="501ea-127">Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</span><span class="sxs-lookup"><span data-stu-id="501ea-127">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="501ea-128">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="501ea-128">7/3/2012</span></span></p>
-<p><span data-ttu-id="501ea-129">Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</span><span class="sxs-lookup"><span data-stu-id="501ea-129">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="992c0-120"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-120"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-p104">Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</span><span class="sxs-lookup"><span data-stu-id="992c0-p104">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="992c0-123">07.07.2012 13:00</span><span class="sxs-lookup"><span data-stu-id="992c0-123">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="992c0-p105">Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</span><span class="sxs-lookup"><span data-stu-id="992c0-p105">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="992c0-126">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="992c0-126">7/7/2012</span></span></p>
+<p><span data-ttu-id="992c0-127">Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</span><span class="sxs-lookup"><span data-stu-id="992c0-127">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="992c0-128">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="992c0-128">7/3/2012</span></span></p>
+<p><span data-ttu-id="992c0-129">Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</span><span class="sxs-lookup"><span data-stu-id="992c0-129">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="501ea-130"><strong>Bis</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-130"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-p106">Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</span><span class="sxs-lookup"><span data-stu-id="501ea-p106">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="501ea-133">7/7/2012 1:00 Uhr</span><span class="sxs-lookup"><span data-stu-id="501ea-133">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="501ea-p107">Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</span><span class="sxs-lookup"><span data-stu-id="501ea-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="501ea-136">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="501ea-136">7/7/2012</span></span></p>
-<p><span data-ttu-id="501ea-137">Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</span><span class="sxs-lookup"><span data-stu-id="501ea-137">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="501ea-138">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="501ea-138">7/3/2012</span></span></p>
-<p><span data-ttu-id="501ea-139">Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</span><span class="sxs-lookup"><span data-stu-id="501ea-139">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="992c0-130"><strong>Ziel</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-130"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-p106">Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</span><span class="sxs-lookup"><span data-stu-id="992c0-p106">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="992c0-133">07.07.2012 13:00</span><span class="sxs-lookup"><span data-stu-id="992c0-133">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="992c0-p107">Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</span><span class="sxs-lookup"><span data-stu-id="992c0-p107">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="992c0-136">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="992c0-136">7/7/2012</span></span></p>
+<p><span data-ttu-id="992c0-137">Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</span><span class="sxs-lookup"><span data-stu-id="992c0-137">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="992c0-138">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="992c0-138">7/3/2012</span></span></p>
+<p><span data-ttu-id="992c0-139">Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</span><span class="sxs-lookup"><span data-stu-id="992c0-139">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="501ea-140"><strong>Standort des Anrufers</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-140"><strong>Caller location</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-p108">Das IP-Subnetz des Benutzers, der den Anruf ausgeführt hat. Sie können nur <strong>[Alle]</strong> auswählen, um alle Subnetze anzugeben.</span><span class="sxs-lookup"><span data-stu-id="501ea-p108">IP subnet of the user who placed the call. You can only select <strong>[All]</strong> to indicate all subnets.</span></span></p></td>
+<td><p><span data-ttu-id="992c0-140"><strong>Speicherort des Anrufers</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-140"><strong>Caller location</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-141">IP-Subnetz des Benutzers, der den Anruf getätigt hat.</span><span class="sxs-lookup"><span data-stu-id="992c0-141">IP subnet of the user who placed the call.</span></span> <span data-ttu-id="992c0-142">Sie können nur <strong>[alle]</strong> auswählen, um alle Subnetze anzugeben.</span><span class="sxs-lookup"><span data-stu-id="992c0-142">You can only select <strong>[All]</strong> to indicate all subnets.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="501ea-143"><strong>Standort des Angerufenen</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-143"><strong>Callee location</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-p109">Das IP-Subnetz des Benutzers, der den Anruf empfangen hat. Sie können nur <strong>[Alle]</strong> auswählen, um alle Subnetze anzugeben.</span><span class="sxs-lookup"><span data-stu-id="501ea-p109">IP subnet of the user who received the call. You can only select <strong>[All]</strong> to indicate all subnets.</span></span></p></td>
+<td><p><span data-ttu-id="992c0-143"><strong>Speicherort des angerufenen</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-143"><strong>Callee location</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-144">IP-Subnetz des Benutzers, der den Anruf empfangen hat.</span><span class="sxs-lookup"><span data-stu-id="992c0-144">IP subnet of the user who received the call.</span></span> <span data-ttu-id="992c0-145">Sie können nur <strong>[alle]</strong> auswählen, um alle Subnetze anzugeben.</span><span class="sxs-lookup"><span data-stu-id="992c0-145">You can only select <strong>[All]</strong> to indicate all subnets.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="501ea-146"><strong>Netzwerktyp</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-146"><strong>Network type</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-p110">Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="501ea-p110">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="992c0-146"><strong>Netzwerktyp</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-146"><strong>Network type</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-p110">Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="992c0-p110">Indicates the type of network the client was connected to when the call was placed. Select one of the following:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="501ea-149">[Alle]</span><span class="sxs-lookup"><span data-stu-id="501ea-149">[All]</span></span></p></li>
-<li><p><span data-ttu-id="501ea-150">Verkabelt</span><span class="sxs-lookup"><span data-stu-id="501ea-150">Wired</span></span></p></li>
-<li><p><span data-ttu-id="501ea-151">Funk</span><span class="sxs-lookup"><span data-stu-id="501ea-151">Wireless</span></span></p></li>
+<li><p><span data-ttu-id="992c0-149">Alle</span><span class="sxs-lookup"><span data-stu-id="992c0-149">[All]</span></span></p></li>
+<li><p><span data-ttu-id="992c0-150">Wired</span><span class="sxs-lookup"><span data-stu-id="992c0-150">Wired</span></span></p></li>
+<li><p><span data-ttu-id="992c0-151">Drahtlos</span><span class="sxs-lookup"><span data-stu-id="992c0-151">Wireless</span></span></p></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="501ea-152"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-152"><strong>VPN</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-p111">Gibt an, ob ein externer Client eine VPN-Verbindung (Virtual Private Network) verwendete, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="501ea-p111">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="992c0-152"><strong>VPN</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-152"><strong>VPN</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-p111">Gibt an, ob ein externer Client eine VPN-Verbindung (Virtual Private Network) verwendete, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="992c0-p111">Indicates whether an external client was using a virtual private network (VPN) connection when the call was placed. Select one of the following:</span></span></p>
 <ol>
-<li><p><span data-ttu-id="501ea-155">[Alle]</span><span class="sxs-lookup"><span data-stu-id="501ea-155">[All]</span></span></p></li>
-<li><p><span data-ttu-id="501ea-156">VPN</span><span class="sxs-lookup"><span data-stu-id="501ea-156">VPN</span></span></p></li>
-<li><p><span data-ttu-id="501ea-157">Nicht-VPN</span><span class="sxs-lookup"><span data-stu-id="501ea-157">Non-VPN</span></span></p></li>
+<li><p><span data-ttu-id="992c0-155">Alle</span><span class="sxs-lookup"><span data-stu-id="992c0-155">[All]</span></span></p></li>
+<li><p><span data-ttu-id="992c0-156">VPN</span><span class="sxs-lookup"><span data-stu-id="992c0-156">VPN</span></span></p></li>
+<li><p><span data-ttu-id="992c0-157">Nicht-VPN</span><span class="sxs-lookup"><span data-stu-id="992c0-157">Non-VPN</span></span></p></li>
 </ol></td>
 </tr>
 </tbody>
@@ -127,11 +127,11 @@ ms.locfileid: "41762153"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="501ea-158">Metriken</span><span class="sxs-lookup"><span data-stu-id="501ea-158">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="992c0-158">Metriken</span><span class="sxs-lookup"><span data-stu-id="992c0-158">Metrics</span></span>
 
-<span data-ttu-id="501ea-159">In der folgenden Tabelle werden die Metriken aufgelistet, die im Standortbericht angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="501ea-159">The following table lists the information provided in the Location Report.</span></span>
+<span data-ttu-id="992c0-159">In der folgenden Tabelle sind die Informationen aufgeführt, die im Standortbericht angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="992c0-159">The following table lists the information provided in the Location Report.</span></span>
 
-### <a name="location-report-metrics"></a><span data-ttu-id="501ea-160">Metriken im Standortbericht</span><span class="sxs-lookup"><span data-stu-id="501ea-160">Location Report Metrics</span></span>
+### <a name="location-report-metrics"></a><span data-ttu-id="992c0-160">Metriken für den Standortbericht</span><span class="sxs-lookup"><span data-stu-id="992c0-160">Location Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -141,68 +141,68 @@ ms.locfileid: "41762153"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="501ea-161">Name</span><span class="sxs-lookup"><span data-stu-id="501ea-161">Name</span></span></th>
-<th><span data-ttu-id="501ea-162">Kann nach dieser Metrik sortiert werden?</span><span class="sxs-lookup"><span data-stu-id="501ea-162">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="501ea-163">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="501ea-163">Description</span></span></th>
+<th><span data-ttu-id="992c0-161">Name</span><span class="sxs-lookup"><span data-stu-id="992c0-161">Name</span></span></th>
+<th><span data-ttu-id="992c0-162">Kann nach dieser Metrik sortiert werden?</span><span class="sxs-lookup"><span data-stu-id="992c0-162">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="992c0-163">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="992c0-163">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="501ea-164"><strong>Subnetz des Anrufers</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-164"><strong>Caller subnet</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-165">Nein</span><span class="sxs-lookup"><span data-stu-id="501ea-165">No</span></span></p></td>
-<td><p><span data-ttu-id="501ea-166">Das IP-Subnetz des Benutzers, der den Anruf ausgeführt hat.</span><span class="sxs-lookup"><span data-stu-id="501ea-166">IP subnet of the user who placed the call.</span></span></p></td>
+<td><p><span data-ttu-id="992c0-164"><strong>Subnetz des Anrufers</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-164"><strong>Caller subnet</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-165">Nein</span><span class="sxs-lookup"><span data-stu-id="992c0-165">No</span></span></p></td>
+<td><p><span data-ttu-id="992c0-166">IP-Subnetz des Benutzers, der den Anruf getätigt hat.</span><span class="sxs-lookup"><span data-stu-id="992c0-166">IP subnet of the user who placed the call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="501ea-167"><strong>Subnetz des Angerufenen</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-167"><strong>Callee subnet</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-168">Nein</span><span class="sxs-lookup"><span data-stu-id="501ea-168">No</span></span></p></td>
-<td><p><span data-ttu-id="501ea-169">Das IP-Subnetz des Benutzers, der den Anruf empfangen hat.</span><span class="sxs-lookup"><span data-stu-id="501ea-169">IP subnet of the user who received the call.</span></span></p></td>
+<td><p><span data-ttu-id="992c0-167"><strong>Subnetz des angerufenen</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-167"><strong>Callee subnet</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-168">Nein</span><span class="sxs-lookup"><span data-stu-id="992c0-168">No</span></span></p></td>
+<td><p><span data-ttu-id="992c0-169">IP-Subnetz des Benutzers, der den Anruf empfangen hat.</span><span class="sxs-lookup"><span data-stu-id="992c0-169">IP subnet of the user who received the call.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="501ea-170"><strong>Anruflautstärke</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-170"><strong>Call volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-171">Ja</span><span class="sxs-lookup"><span data-stu-id="501ea-171">Yes</span></span></p></td>
-<td><p><span data-ttu-id="501ea-172">Die Gesamtzahl der getätigten Anrufe.</span><span class="sxs-lookup"><span data-stu-id="501ea-172">Total number of calls placed.</span></span></p></td>
+<td><p><span data-ttu-id="992c0-170"><strong>Anruflautstärke</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-170"><strong>Call volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-171">Ja</span><span class="sxs-lookup"><span data-stu-id="992c0-171">Yes</span></span></p></td>
+<td><p><span data-ttu-id="992c0-172">Die Gesamtzahl der getätigten Anrufe.</span><span class="sxs-lookup"><span data-stu-id="992c0-172">Total number of calls placed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="501ea-173"><strong>Prozentsatz der Anrufe schlechter Qualität</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-173"><strong>Poor call percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-174">Ja</span><span class="sxs-lookup"><span data-stu-id="501ea-174">Yes</span></span></p></td>
-<td><p><span data-ttu-id="501ea-p112">Der Prozentsatz der Anrufe, die als Anrufe schlechter Qualität klassifiziert werden. Dies sind Anrufe, bei denen für mindestens eine der gemessenen Metriken der zulässige Wert überschritten wurde (z. B. ein Anruf mit übermäßigem Jitter).</span><span class="sxs-lookup"><span data-stu-id="501ea-p112">Percentage of calls classified as poor calls. A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
+<td><p><span data-ttu-id="992c0-173"><strong>Prozentsatz der Anrufe schlechter Qualität</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-173"><strong>Poor call percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-174">Ja</span><span class="sxs-lookup"><span data-stu-id="992c0-174">Yes</span></span></p></td>
+<td><p><span data-ttu-id="992c0-175">Prozentsatz der Anrufe, die als schlechte Anrufe klassifiziert wurden.</span><span class="sxs-lookup"><span data-stu-id="992c0-175">Percentage of calls classified as poor calls.</span></span> <span data-ttu-id="992c0-176">Dies sind Anrufe, bei denen für mindestens eine der gemessenen Metriken der zulässige Wert überschritten wurde (z. B. ein Anruf mit übermäßigem Jitter).</span><span class="sxs-lookup"><span data-stu-id="992c0-176">A poor call is any call which at least one of the measured metrics exceeded the allowed value (for example, a call that experienced excessive jitter).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="501ea-177"><strong>Roundtrip (ms)</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-177"><strong>Round trip (ms)</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-178">Ja</span><span class="sxs-lookup"><span data-stu-id="501ea-178">Yes</span></span></p></td>
-<td><p><span data-ttu-id="501ea-p113">Die durchschnittliche Zeit (in Millisekunden), die ein RTP-Paket (Real-time Transport Protocol) benötigt, um zu einem anderen Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 100 ms oder weniger gilt als akzeptable Qualität.</span><span class="sxs-lookup"><span data-stu-id="501ea-p113">Average amount of (in milliseconds) required for a real-time transport protocol (RTP) packet to travel to another endpoint and then back. Round-trip times of 100 milliseconds or less are considered of acceptable quality.</span></span></p>
-<p><span data-ttu-id="501ea-p114">Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routingkonfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.</span><span class="sxs-lookup"><span data-stu-id="501ea-p114">High round-trip values can be caused by international call routing, a routing misconfiguration, or an overloaded media server. High round-trip times result in difficulties with two-way, real-time audio conversations.</span></span></p></td>
+<td><p><span data-ttu-id="992c0-177"><strong>Roundtrip (ms)</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-177"><strong>Round trip (ms)</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-178">Ja</span><span class="sxs-lookup"><span data-stu-id="992c0-178">Yes</span></span></p></td>
+<td><p><span data-ttu-id="992c0-p113">Die durchschnittliche Zeit (in Millisekunden), die ein RTP-Paket (Real-Time Transport Protocol) benötigt, um zu einem anderen Endpunkt und wieder zurück zu gelangen. Eine Roundtripzeit von 100 ms oder weniger gilt als akzeptable Qualität.</span><span class="sxs-lookup"><span data-stu-id="992c0-p113">Average amount of (in milliseconds) required for a real-time transport protocol (RTP) packet to travel to another endpoint and then back. Round-trip times of 100 milliseconds or less are considered of acceptable quality.</span></span></p>
+<p><span data-ttu-id="992c0-p114">Hohe Roundtripwerte können durch internationale Anrufweiterleitung, eine falsche Routingkonfiguration oder einen überlasteten Medienserver verursacht werden. Sie führen zu Problemen bei bidirektionalen Echtzeit-Audiounterhaltungen.</span><span class="sxs-lookup"><span data-stu-id="992c0-p114">High round-trip values can be caused by international call routing, a routing misconfiguration, or an overloaded media server. High round-trip times result in difficulties with two-way, real-time audio conversations.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="501ea-183"><strong>Beeinträchtigung (MOS)</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-183"><strong>Degradation (MOS)</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-184">Ja</span><span class="sxs-lookup"><span data-stu-id="501ea-184">Yes</span></span></p></td>
-<td><p><span data-ttu-id="501ea-185">Die durchschnittliche Beeinträchtigung der Qualität, die gemäß Mean Opinion Score (MOS) während eines Anrufs auftrat.</span><span class="sxs-lookup"><span data-stu-id="501ea-185">Average amount of mean opinion score (MOS) degradation experienced during a call.</span></span> <span data-ttu-id="501ea-186">Die Beeinträchtigungswerte liegen zwischen 0,0 (schlecht) und 5,0 (gut).</span><span class="sxs-lookup"><span data-stu-id="501ea-186">Degradation values can range from a low of 0.0 to a high of 5.0.</span></span> <span data-ttu-id="501ea-187">Ein Wert von 0,5 oder weniger gilt als akzeptable Beeinträchtigung.</span><span class="sxs-lookup"><span data-stu-id="501ea-187">A value of 0.5 or less represents acceptable degradation.</span></span> <span data-ttu-id="501ea-188">Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ.</span><span class="sxs-lookup"><span data-stu-id="501ea-188">Historically, mean options scores were calculated by having users rate the quality of a call on a scale of 1-to-5.</span></span> <span data-ttu-id="501ea-189">In lync Server verwendet lync Server einen Satz von Algorithmen, um vorherzusagen, wie Benutzer einen Anruf bewertet hätten.</span><span class="sxs-lookup"><span data-stu-id="501ea-189">In Lync Server, Lync Server uses a set of algorithms to predict how users would have rated a call.</span></span></p>
-<p><span data-ttu-id="501ea-p116">Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.</span><span class="sxs-lookup"><span data-stu-id="501ea-p116">High degradation values can be caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server or endpoint. High degradation results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="992c0-183"><strong>Beeinträchtigung (MOS)</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-183"><strong>Degradation (MOS)</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-184">Ja</span><span class="sxs-lookup"><span data-stu-id="992c0-184">Yes</span></span></p></td>
+<td><p><span data-ttu-id="992c0-185">Die durchschnittliche Beeinträchtigung der Qualität, die gemäß Mean Opinion Score (MOS) während eines Anrufs auftrat.</span><span class="sxs-lookup"><span data-stu-id="992c0-185">Average amount of mean opinion score (MOS) degradation experienced during a call.</span></span> <span data-ttu-id="992c0-186">Die Beeinträchtigungswerte liegen zwischen 0,0 (schlecht) und 5,0 (gut).</span><span class="sxs-lookup"><span data-stu-id="992c0-186">Degradation values can range from a low of 0.0 to a high of 5.0.</span></span> <span data-ttu-id="992c0-187">Ein Wert von 0,5 oder besser gilt als akzeptable Beeinträchtigung.</span><span class="sxs-lookup"><span data-stu-id="992c0-187">A value of 0.5 or less represents acceptable degradation.</span></span> <span data-ttu-id="992c0-188">Früher wurden Mean Opinion Scores berechnet, indem man Benutzer die Qualität eines Telefongesprächs auf einer Skala von 1 bis 5 bewerten ließ.</span><span class="sxs-lookup"><span data-stu-id="992c0-188">Historically, mean options scores were calculated by having users rate the quality of a call on a scale of 1-to-5.</span></span> <span data-ttu-id="992c0-189">In lync Server verwendet lync Server eine Reihe von Algorithmen, um vorherzusagen, wie Benutzer einen Anruf bewertet hätten.</span><span class="sxs-lookup"><span data-stu-id="992c0-189">In Lync Server, Lync Server uses a set of algorithms to predict how users would have rated a call.</span></span></p>
+<p><span data-ttu-id="992c0-p116">Hohe Beeinträchtigungswerte können durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver oder Endpunkt verursacht werden. Eine hohe Beeinträchtigung führt zu verzerrter oder unterbrochener Sprachübertragung.</span><span class="sxs-lookup"><span data-stu-id="992c0-p116">High degradation values can be caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server or endpoint. High degradation results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="501ea-192"><strong>Paketverlust</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-192"><strong>Packet loss</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-193">Ja</span><span class="sxs-lookup"><span data-stu-id="501ea-193">Yes</span></span></p></td>
-<td><p><span data-ttu-id="501ea-p117">Die durchschnittliche Rate an RTP-Paketverlusten. Zu Paketverlusten kommt es, wenn RTP-Pakete (RTP ist ein Protokoll für die Übertragung von Audio und Video über das Internet) ihr Ziel nicht erreichen. Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.</span><span class="sxs-lookup"><span data-stu-id="501ea-p117">Average rate of RTP packet loss. (Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server. Packet loss typically results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="992c0-192"><strong>Paketverlust</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-192"><strong>Packet loss</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-193">Ja</span><span class="sxs-lookup"><span data-stu-id="992c0-193">Yes</span></span></p></td>
+<td><p><span data-ttu-id="992c0-p117">Die durchschnittliche Rate an RTP-Paketverlusten. Zu Paketverlusten kommt es, wenn RTP-Pakete (RTP ist ein Protokoll für die Übertragung von Audio und Video über das Internet) ihr Ziel nicht erreichen. Hohe Verlustraten werden allgemein durch Überlastung, zu geringe Bandbreite, Funknetzüberlastung oder -interferenzen oder durch einen überlasteten Medienserver verursacht. Paketverluste führen in der Regel zu verzerrter oder unterbrochener Sprachübertragung.</span><span class="sxs-lookup"><span data-stu-id="992c0-p117">Average rate of RTP packet loss. (Packet loss occurs when RTP packets, a protocol used for transmitting audio and video across the Internet, failed to reach their destination.) High loss rates are generally caused by congestion, lack of bandwidth, wireless congestion or interference, or an overloaded media server. Packet loss typically results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="501ea-197"><strong>Jitter</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-197"><strong>Jitter</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-198">Ja</span><span class="sxs-lookup"><span data-stu-id="501ea-198">Yes</span></span></p></td>
-<td><p><span data-ttu-id="501ea-199">Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde.</span><span class="sxs-lookup"><span data-stu-id="501ea-199">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="501ea-200">(Jitter ist ein Maß für die &quot;Zittern&quot; eines Anrufs.) Starke Jitterwerte werden in der Regel durch Überlastung oder einen überladenen Medienserver verursacht, was zu verzerrten oder verlorenen Audiodaten führt.</span><span class="sxs-lookup"><span data-stu-id="501ea-200">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="992c0-197"><strong>Jitter</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-197"><strong>Jitter</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-198">Ja</span><span class="sxs-lookup"><span data-stu-id="992c0-198">Yes</span></span></p></td>
+<td><p><span data-ttu-id="992c0-199">Der durchschnittliche Jitter, der zwischen dem Eintreffen von RTP-Paketen ermittelt wurde.</span><span class="sxs-lookup"><span data-stu-id="992c0-199">Average jitter detected between RTP packet arrivals.</span></span> <span data-ttu-id="992c0-200">(Jitter ist ein Maß für die &quot;Zittern&quot; eines Aufrufs.) Hohe Jitter-Werte werden normalerweise durch Überlastung oder einen überladenen Medienserver verursacht und führen zu verzerrten oder verlorenen Audiodaten.</span><span class="sxs-lookup"><span data-stu-id="992c0-200">(Jitter is a measure of the &quot;shakiness&quot; of a call.) High jitter values are typically caused by congestion or an overloaded media server, and result in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="501ea-201"><strong>Ausblendungsverhältnis der Reparatur</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-201"><strong>Healer concealed ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-202">Ja</span><span class="sxs-lookup"><span data-stu-id="501ea-202">Yes</span></span></p></td>
-<td><p><span data-ttu-id="501ea-p119">Das durchschnittliche Verhältnis zwischen ausgeblendeten Audiosamples und der Gesamtzahl der Samples. (Ausgeblendete Audiosamples sind ein Verfahren zum „Glätten“ der „holprigen“ Übertragung, die normalerweise von verworfenen Netzwerkpaketen verursacht wird.) Ein hoher Wert gibt an, dass wegen Paketverlusten oder Jitters Verlustausblendung in großem Umfang angewendet wurde und führt zu verzerrter oder unterbrochener Sprachübertragung.</span><span class="sxs-lookup"><span data-stu-id="501ea-p119">Average ratio of concealed audio samples to the total to the total number of samples. (A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.) High values indicate significant levels of loss concealment applied caused by packet loss or jitter, and results in distorted or lost audio.</span></span></p></td>
+<td><p><span data-ttu-id="992c0-201"><strong>Ausblendungsverhältnis der Reparatur</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-201"><strong>Healer concealed ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-202">Ja</span><span class="sxs-lookup"><span data-stu-id="992c0-202">Yes</span></span></p></td>
+<td><p><span data-ttu-id="992c0-p119">Das durchschnittliche Verhältnis zwischen ausgeblendeten Audiosamples und der Gesamtzahl der Samples. (Ausgeblendete Audiosamples sind ein Verfahren zum "Glätten" der "holprigen" Übertragung, die normalerweise von verworfenen Netzwerkpaketen verursacht wird.) Ein hoher Wert gibt an, dass wegen Paketverlusten oder Jitters Verlustausblendung in großem Umfang angewendet wurde und führt zu verzerrter oder unterbrochener Sprachübertragung.</span><span class="sxs-lookup"><span data-stu-id="992c0-p119">Average ratio of concealed audio samples to the total to the total number of samples. (A concealed audio sample is a technique used to smooth out the abrupt transition that would usually be caused by dropped network packets.) High values indicate significant levels of loss concealment applied caused by packet loss or jitter, and results in distorted or lost audio.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="501ea-205"><strong>Streckungsverhältnis der Reparatur</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-205"><strong>Healer stretched ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-206">Ja</span><span class="sxs-lookup"><span data-stu-id="501ea-206">Yes</span></span></p></td>
-<td><p><span data-ttu-id="501ea-p120">Das durchschnittliche Verhältnis zwischen gestreckten Audiosamples und der Gesamtzahl der Samples. (Gestrecktes Audio ist ein Verfahren zum Dehnen von Audiodaten, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplestreckung in hohem Umfang aufgetreten ist und führt zu roboterhafter oder verzerrter Sprachqualität.</span><span class="sxs-lookup"><span data-stu-id="501ea-p120">Average ratio of stretched audio samples to the total to the total number of samples. (Stretched audio is audio that has been expanded to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample stretching caused by jitter, and result in audio sounding robotic or distorted.</span></span></p></td>
+<td><p><span data-ttu-id="992c0-205"><strong>Streckungsverhältnis der Reparatur</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-205"><strong>Healer stretched ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-206">Ja</span><span class="sxs-lookup"><span data-stu-id="992c0-206">Yes</span></span></p></td>
+<td><p><span data-ttu-id="992c0-p120">Das durchschnittliche Verhältnis zwischen gestreckten Audiosamples und der Gesamtzahl der Samples. (Gestrecktes Audio ist ein Verfahren zum Dehnen von Audiodaten, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplestreckung in hohem Umfang aufgetreten ist und führt zu roboterhafter oder verzerrter Sprachqualität.</span><span class="sxs-lookup"><span data-stu-id="992c0-p120">Average ratio of stretched audio samples to the total to the total number of samples. (Stretched audio is audio that has been expanded to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample stretching caused by jitter, and result in audio sounding robotic or distorted.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="501ea-209"><strong>Komprimierungsverhältnis der Reparatur</strong></span><span class="sxs-lookup"><span data-stu-id="501ea-209"><strong>Healer compressed ratio</strong></span></span></p></td>
-<td><p><span data-ttu-id="501ea-210">Ja</span><span class="sxs-lookup"><span data-stu-id="501ea-210">Yes</span></span></p></td>
-<td><p><span data-ttu-id="501ea-p121">Das durchschnittliche Verhältnis zwischen komprimierten Audiosamples und der Gesamtzahl der Samples. (Komprimiertes Audio sind Audiodaten, die komprimiert wurden, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplekomprimierung in hohem Umfang angewendet wurde und führt zu einer zu schnellen Sprachwiedergabe oder zu verzerrter Sprachqualität.</span><span class="sxs-lookup"><span data-stu-id="501ea-p121">Average ratio of compressed audio samples to the total number of samples. (Compressed audio is audio that has been compressed to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample compression caused by jitter, and result in audio sounding accelerated or distorted.</span></span></p></td>
+<td><p><span data-ttu-id="992c0-209"><strong>Komprimierungsverhältnis der Reparatur</strong></span><span class="sxs-lookup"><span data-stu-id="992c0-209"><strong>Healer compressed ratio</strong></span></span></p></td>
+<td><p><span data-ttu-id="992c0-210">Ja</span><span class="sxs-lookup"><span data-stu-id="992c0-210">Yes</span></span></p></td>
+<td><p><span data-ttu-id="992c0-p121">Das durchschnittliche Verhältnis zwischen komprimierten Audiosamples und der Gesamtzahl der Samples. (Komprimiertes Audio sind Audiodaten, die komprimiert wurden, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplekomprimierung in hohem Umfang angewendet wurde und führt zu zu schneller Sprachwiedergabe oder zu verzerrter Sprachqualität.</span><span class="sxs-lookup"><span data-stu-id="992c0-p121">Average ratio of compressed audio samples to the total number of samples. (Compressed audio is audio that has been compressed to help maintain call quality when a dropped network packet has been detected.) High values indicate significant levels of sample compression caused by jitter, and result in audio sounding accelerated or distorted.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Wiederherstellen von Konferenzinhalten mithilfe des Sicherungsdiensts'
+title: 'Lync Server 2013: Wiederherstellen von Konferenz Inhalten mithilfe des Sicherungsdiensts'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 873ca354ca592eb6bc317b579a0a6f5008e6a172
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d8fb791362718b2bce5e7c13c0cc6aab779d954f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733195"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051077"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a><span data-ttu-id="6f22b-102">Wiederherstellen von Konferenzinhalten mithilfe des Sicherungsdiensts in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6f22b-102">Restoring conference contents using the Backup Service in Lync Server 2013</span></span>
+# <a name="restoring-conference-contents-using-the-backup-service-in-lync-server-2013"></a><span data-ttu-id="7caa2-102">Wiederherstellen von Konferenz Inhalten mithilfe des Sicherungsdiensts in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7caa2-102">Restoring conference contents using the Backup Service in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41733195"
 
 <span> </span>
 
-<span data-ttu-id="6f22b-103">_**Letztes Änderungsdatum des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="6f22b-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="7caa2-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="7caa2-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="6f22b-104">Wenn die Konferenz Informationen, die im Dateispeicher eines Front-End-Pools gespeichert sind, nicht mehr zur Verfügung stehen.</span><span class="sxs-lookup"><span data-stu-id="6f22b-104">If the conference information stored in the file store of a Front End pool becomes unavailable.</span></span> <span data-ttu-id="6f22b-105">Sie müssen diese Informationen so wiederherstellen, dass Benutzer, die im Pool verwaltet werden, ihre Konferenzdaten beibehalten.</span><span class="sxs-lookup"><span data-stu-id="6f22b-105">you must restore this information so that users homed on the pool retain their conference data.</span></span> <span data-ttu-id="6f22b-106">Wenn der Front-End-Pool, in dem Konferenzdaten verloren gegangen sind, mit einem anderen Front-End-Pool gekoppelt ist, können Sie die Daten mithilfe des Sicherungsdiensts wiederherstellen.</span><span class="sxs-lookup"><span data-stu-id="6f22b-106">If the Front End pool which has lost conference data is paired with another Front End pool, you can use the Backup Service to restore the data.</span></span>
+<span data-ttu-id="7caa2-p101">Wenn die im Dateispeicher eines Front-End-Pools gespeicherten Informationen zu Konferenzen nicht mehr verfügbar sind, müssen Sie diese Informationen wiederherstellen, sodass die Konferenzdaten von Benutzern, die in diesem Pool verwaltet werden, erhalten bleiben. Wenn der Front-End-Pool, der Konferenzdaten verloren hat, mit einem anderen Front-End-Pool kombiniert wird, können Sie den Sicherungsdienst zur Wiederherstellung der Daten nutzen.</span><span class="sxs-lookup"><span data-stu-id="7caa2-p101">If the conference information stored in the file store of a Front End pool becomes unavailable. you must restore this information so that users homed on the pool retain their conference data. If the Front End pool which has lost conference data is paired with another Front End pool, you can use the Backup Service to restore the data.</span></span>
 
-<span data-ttu-id="6f22b-107">Sie müssen diese Aufgabe auch ausführen, wenn ein gesamter Pool fehlgeschlagen ist und Sie die Benutzer nicht mit einem Sicherungspool durchführen müssen.</span><span class="sxs-lookup"><span data-stu-id="6f22b-107">You must also perform this task if an entire pool has failed and you have to fail over its users to a backup pool.</span></span> <span data-ttu-id="6f22b-108">Wenn diese Benutzer wieder in ihren ursprünglichen Pool zurückgekehrt sind, müssen Sie diese Vorgehensweise verwenden, um Ihre Konferenzinhalte wieder in ihren ursprünglichen Pool zu kopieren.</span><span class="sxs-lookup"><span data-stu-id="6f22b-108">When these users are failed back over to their original pool, you must use this procedure to copy their conference content back to their original pool as well.</span></span>
+<span data-ttu-id="7caa2-p102">Sie müssen diese Aufgabe auch ausführen, wenn ein ganzer Pool ausfällt und Sie einen Failover seiner Benutzer in einen Sicherungspool durchführen müssen. Wenn für diese Benutzer ein Failover zurück in den ursprünglichen Pool durchgeführt wird, müssen Sie dieses Verfahren nutzen, um ihre Konferenzinhalte ebenfalls zurück in ihren ursprünglichen Pool zu kopieren.</span><span class="sxs-lookup"><span data-stu-id="7caa2-p102">You must also perform this task if an entire pool has failed and you have to fail over its users to a backup pool. When these users are failed back over to their original pool, you must use this procedure to copy their conference content back to their original pool as well.</span></span>
 
-<span data-ttu-id="6f22b-109">Gehen Sie davon aus, dass pool1 mit Pool2 gekoppelt ist und die Konferenzdaten in pool1 verloren gehen.</span><span class="sxs-lookup"><span data-stu-id="6f22b-109">Assume that Pool1 is paired with Pool2, and the conference data in Pool1 is lost.</span></span> <span data-ttu-id="6f22b-110">Sie können das folgende Cmdlet verwenden, um den Sicherungsdienst aufzurufen, um den Inhalt wiederherzustellen:</span><span class="sxs-lookup"><span data-stu-id="6f22b-110">You can use the following cmdlet to invoke the Backup Service to restore the contents:</span></span>
+<span data-ttu-id="7caa2-109">Es wird davon ausgegangen, dass Pool1 mit Pool2 kombiniert wird und die Konferenzdaten in Pool1 verlorengehen.</span><span class="sxs-lookup"><span data-stu-id="7caa2-109">Assume that Pool1 is paired with Pool2, and the conference data in Pool1 is lost.</span></span> <span data-ttu-id="7caa2-110">Sie können das folgende Cmdlet verwenden, um den Sicherungsdienst aufzurufen, um den Inhalt wiederherzustellen:</span><span class="sxs-lookup"><span data-stu-id="7caa2-110">You can use the following cmdlet to invoke the Backup Service to restore the contents:</span></span>
 
     Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-<span data-ttu-id="6f22b-111">Das Wiederherstellen der Konferenzinhalte kann je nach Größe einige Zeit in Anspruch nehmen.</span><span class="sxs-lookup"><span data-stu-id="6f22b-111">Restoring the conference contents may take some time, depending on their size.</span></span> <span data-ttu-id="6f22b-112">Sie können das folgende Cmdlet verwenden, um den Prozessstatus zu überprüfen:</span><span class="sxs-lookup"><span data-stu-id="6f22b-112">You can use the following cmdlet to check the process status:</span></span>
+<span data-ttu-id="7caa2-p104">Die Wiederherstellung der Konferenzinhalte kann je nach ihrer Größe einige Zeit dauern. Sie können den Status des Vorgangs mithilfe des folgenden Cmdlets prüfen:</span><span class="sxs-lookup"><span data-stu-id="7caa2-p104">Restoring the conference contents may take some time, depending on their size. You can use the following cmdlet to check the process status:</span></span>
 
     Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
 
-<span data-ttu-id="6f22b-113">Der Vorgang erfolgt, wenn dieses Cmdlet den Wert des Steady-State-Werts für das Datenkonferenz Modul zurückgibt.</span><span class="sxs-lookup"><span data-stu-id="6f22b-113">The process is done when this cmdlet returns a value of Steady State for the data conference module.</span></span>
+<span data-ttu-id="7caa2-113">Der Vorgang ist abgeschlossen, wenn das Cmdlet für das Datenkonferenzmodul einen Wert für ein stabiles System anzeigt.</span><span class="sxs-lookup"><span data-stu-id="7caa2-113">The process is done when this cmdlet returns a value of Steady State for the data conference module.</span></span>
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184325
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 013860ea52773f4109c56bd71d37a9f4b8938225
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 742bb5d8e8f29edf0397c9bb9fa12592087ea517
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763839"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038717"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="import-voice-routing-test-cases-in-lync-server-2013"></a><span data-ttu-id="a3a0e-102">Importieren von Testfällen für das VoIP-Routing in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a3a0e-102">Import voice routing test cases in Lync Server 2013</span></span>
+# <a name="import-voice-routing-test-cases-in-lync-server-2013"></a><span data-ttu-id="9fb14-102">Importieren von Testfällen für das VoIP-Routing in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9fb14-102">Import voice routing test cases in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41763839"
 
 <span> </span>
 
-<span data-ttu-id="a3a0e-103">_**Letztes Änderungsdatum des Themas:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="a3a0e-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="9fb14-103">_**Letztes Änderungsstand des Themas:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="9fb14-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="a3a0e-104">Testfälle bieten Ihnen die Möglichkeit, VoIP-Routen in Ihrer Organisation zu testen: Sie definieren solche Dinge wie die Nummer, die gewählt werden soll, und die Richtlinie für Wähleinstellungen und VoIP, die verwendet werden soll, und lync Server 2013 kann dann überprüfen, ob die angegebene Nummer aufgrund dieser Bedingungen Erfolg haben kann. sfully an das PSTN-Netzwerk weitergeleitet werden.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-104">Test cases provide a way for you to test voice routes in your organization: you define such things as the number to be dialed and the dial plan and voice policy to be employed, and Lync Server 2013 can then verify that, given those conditions, the supplied number can successfully be routed to the PSTN network.</span></span>
+<span data-ttu-id="9fb14-104">Testfälle bieten Ihnen die Möglichkeit, VoIP-Routen in Ihrer Organisation zu testen: Sie definieren beispielsweise die Nummer, die gewählt werden soll, und die Wähleinstellungen und die VoIP-Richtlinie, die verwendet werden sollen, und lync Server 2013 können dann überprüfen, ob die angegebene Nummer bei diesen Bedingungen Erfolg haben kann. sfully werden an das PSTN-Netzwerk weitergeleitet.</span><span class="sxs-lookup"><span data-stu-id="9fb14-104">Test cases provide a way for you to test voice routes in your organization: you define such things as the number to be dialed and the dial plan and voice policy to be employed, and Lync Server 2013 can then verify that, given those conditions, the supplied number can successfully be routed to the PSTN network.</span></span>
 
-<span data-ttu-id="a3a0e-105">Testfälle, die mithilfe der lync Server-Systemsteuerung erstellt werden können, werden in der Regel nur auf dem Server gespeichert, auf dem der Fall ursprünglich erstellt und ausgeführt wurde.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-105">Test cases, which can be created by using Lync Server Control Panel, are typically saved only on the server where the case was originally created and run.</span></span> <span data-ttu-id="a3a0e-106">Diese Testfälle können jedoch als XML-Dateien (mit der Erweiterung. vtest) exportiert und dann auf anderen Servern importiert werden.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-106">However, these test cases can be exported as XML files (with the .vtest extension) and then imported on other servers.</span></span> <span data-ttu-id="a3a0e-107">Auf diese Weise können Sie dieselben Tests auf verschiedenen Computern ausführen, die sich an unterschiedlichen Stellen in Ihrer Topologie befinden.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-107">This enables you to run the same tests on different computers located at different points in your topology.</span></span>
+<span data-ttu-id="9fb14-105">Testfälle, die mithilfe von lync Server-Systemsteuerung erstellt werden können, werden normalerweise nur auf dem Server gespeichert, auf dem der Fall ursprünglich erstellt und ausgeführt wurde.</span><span class="sxs-lookup"><span data-stu-id="9fb14-105">Test cases, which can be created by using Lync Server Control Panel, are typically saved only on the server where the case was originally created and run.</span></span> <span data-ttu-id="9fb14-106">Sie können jedoch in Form von XML-Dateien (mit der Erweiterung VTEST) exportiert und dann auf anderen Servern importiert werden.</span><span class="sxs-lookup"><span data-stu-id="9fb14-106">However, these test cases can be exported as XML files (with the .vtest extension) and then imported on other servers.</span></span> <span data-ttu-id="9fb14-107">Auf diese Weise können Sie den gleichen Test auf verschiedenen Computern, die sich an unterschiedlichen Stellen in Ihrer Topologie befinden, ausführen.</span><span class="sxs-lookup"><span data-stu-id="9fb14-107">This enables you to run the same tests on different computers located at different points in your topology.</span></span>
 
 <div>
 
-## <a name="to-import-a-voice-routing-test-case"></a><span data-ttu-id="a3a0e-108">So importieren Sie einen Test Case für VoIP-Routing</span><span class="sxs-lookup"><span data-stu-id="a3a0e-108">To import a voice routing test case</span></span>
+## <a name="to-import-a-voice-routing-test-case"></a><span data-ttu-id="9fb14-108">So importieren Sie einen Testfall für das VoIP-Routing</span><span class="sxs-lookup"><span data-stu-id="9fb14-108">To import a voice routing test case</span></span>
 
-1.  <span data-ttu-id="a3a0e-109">Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-109">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="a3a0e-110">Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="a3a0e-110">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="9fb14-109">Melden Sie sich am Computer als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied der CsVoiceAdministrator-, CsServerAdministrator-oder CsAdministrator-Rolle an.</span><span class="sxs-lookup"><span data-stu-id="9fb14-109">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the CsVoiceAdministrator, CsServerAdministrator, or CsAdministrator role.</span></span> <span data-ttu-id="9fb14-110">Ausführliche Informationen finden Sie unter [Delegate Setup Permissions in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="9fb14-110">For details, see [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="a3a0e-111">Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="a3a0e-112">Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="a3a0e-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="9fb14-111">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="9fb14-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="9fb14-112">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="9fb14-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="a3a0e-113">Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing**.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-113">In the left navigation bar, click **Voice Routing**.</span></span>
+3.  <span data-ttu-id="9fb14-113">Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing**.</span><span class="sxs-lookup"><span data-stu-id="9fb14-113">In the left navigation bar, click **Voice Routing**.</span></span>
 
-4.  <span data-ttu-id="a3a0e-114">Klicken Sie im Menü **Aktionen** auf **Testfälle importieren**.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-114">On the **Actions** menu, click **Import test cases**.</span></span>
+4.  <span data-ttu-id="9fb14-114">Klicken Sie im Menü **Aktionen** auf **Testfälle importieren**.</span><span class="sxs-lookup"><span data-stu-id="9fb14-114">On the **Actions** menu, click **Import test cases**.</span></span>
 
-5.  <span data-ttu-id="a3a0e-115">Suchen Sie die Testfalldatei (vtest), die Sie importieren möchten, und klicken Sie dann auf **Öffnen**.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-115">Find the test case file (.vtest) that you want to import, and then click **Open**.</span></span>
+5.  <span data-ttu-id="9fb14-115">Suchen Sie nach der Testfalldatei (.VTEST), die Sie importieren möchten, und klicken Sie dann auf **Öffnen**.</span><span class="sxs-lookup"><span data-stu-id="9fb14-115">Find the test case file (.vtest) that you want to import, and then click **Open**.</span></span>
 
-6.  <span data-ttu-id="a3a0e-116">Klicken Sie auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-116">Click **Commit**, and then click **Commit all**.</span></span>
+6.  <span data-ttu-id="9fb14-116">Klicken Sie auf **Commit** und anschließend auf **Commit für alle**.</span><span class="sxs-lookup"><span data-stu-id="9fb14-116">Click **Commit**, and then click **Commit all**.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="a3a0e-117">Wenn Sie eine vtest-Datei importieren, müssen Sie den Befehl <STRONG>Commit all</STRONG> ausführen, um den Testfall zu veröffentlichen.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-117">Whenever you import a .vtest file, you must run the <STRONG>Commit all</STRONG> command to publish the test case.</span></span> <span data-ttu-id="a3a0e-118">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in lync Server 2013</A> in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="a3a0e-118">For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.</span></span>
+    > <span data-ttu-id="9fb14-117">Jedes Mal, wenn Sie eine VTEST-Datei importieren, müssen Sie den Befehl <STRONG>Commit für alle</STRONG> ausführen, um den Testfall zu veröffentlichen.</span><span class="sxs-lookup"><span data-stu-id="9fb14-117">Whenever you import a .vtest file, you must run the <STRONG>Commit all</STRONG> command to publish the test case.</span></span> <span data-ttu-id="9fb14-118">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in lync Server 2013</A> in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="9fb14-118">For details, see <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Publish pending changes to the voice routing configuration in Lync Server 2013</A> in the Operations documentation.</span></span>
 
     
     </div>
@@ -70,10 +70,10 @@ ms.locfileid: "41763839"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a3a0e-119">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="a3a0e-119">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9fb14-119">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="9fb14-119">See Also</span></span>
 
 
-[<span data-ttu-id="a3a0e-120">Exportieren von Testfällen für das VoIP-Routing in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a3a0e-120">Export voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-export-voice-routing-test-cases.md)  
+[<span data-ttu-id="9fb14-120">Exportieren von Testfällen für das VoIP-Routing in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9fb14-120">Export voice routing test cases in Lync Server 2013</span></span>](lync-server-2013-export-voice-routing-test-cases.md)  
   
 
 </div>
