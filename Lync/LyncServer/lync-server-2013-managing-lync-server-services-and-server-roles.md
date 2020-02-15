@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verwalten von Lync Server 2013-Diensten und -Serverrollen'
+title: 'Lync Server 2013: Verwalten von lync Server Diensten und-Server Rollen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 650c3afba4aa38282867f28db4e0f142b2315212
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5ca7fd0277bf04149376f21964c08d6002564823
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743357"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034395"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-lync-server-2013-services-and-server-roles"></a><span data-ttu-id="53c71-102">Verwalten von Lync Server 2013-Diensten und -Serverrollen</span><span class="sxs-lookup"><span data-stu-id="53c71-102">Managing Lync Server 2013 services and server roles</span></span>
+# <a name="managing-lync-server-2013-services-and-server-roles"></a><span data-ttu-id="96b6e-102">Verwalten von lync Server 2013 Diensten und Server Rollen</span><span class="sxs-lookup"><span data-stu-id="96b6e-102">Managing Lync Server 2013 services and server roles</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41743357"
 
 <span> </span>
 
-<span data-ttu-id="53c71-103">_**Letztes Änderungsdatum des Themas:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="53c71-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="96b6e-103">_**Letztes Änderungsstand des Themas:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="96b6e-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="53c71-104">Mit den Verfahren in diesem Abschnitt können Sie die verschiedenen Dienste und Serverrollen in lync Server 2013 verwalten.</span><span class="sxs-lookup"><span data-stu-id="53c71-104">You can use the procedures in this section to manage the various services and server roles in Lync Server 2013.</span></span>
+<span data-ttu-id="96b6e-104">Mithilfe der Verfahren in diesem Abschnitt können Sie die verschiedenen Dienste und Serverrollen in lync Server 2013 verwalten.</span><span class="sxs-lookup"><span data-stu-id="96b6e-104">You can use the procedures in this section to manage the various services and server roles in Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="53c71-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="53c71-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="96b6e-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="96b6e-105">In This Section</span></span>
 
-  - [<span data-ttu-id="53c71-106">Audio/Video-Edgeserver (A/V) in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53c71-106">Audio/Video (A/V) Edge Servers in Lync Server 2013</span></span>](lync-server-2013-audio-video-a-v-edge-servers.md)
+  - [<span data-ttu-id="96b6e-106">Audio/Video-Edgeserver (A/V) in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="96b6e-106">Audio/Video (A/V) Edge Servers in Lync Server 2013</span></span>](lync-server-2013-audio-video-a-v-edge-servers.md)
 
-  - [<span data-ttu-id="53c71-107">Konfigurieren eines neuen vertrauenswürdigen Anwendungsservers in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53c71-107">Configure a new trusted application server in Lync Server 2013</span></span>](lync-server-2013-configure-a-new-trusted-application-server.md)
+  - [<span data-ttu-id="96b6e-107">Konfigurieren eines neuen vertrauenswürdigen Anwendungsservers in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="96b6e-107">Configure a new trusted application server in Lync Server 2013</span></span>](lync-server-2013-configure-a-new-trusted-application-server.md)
 
-  - [<span data-ttu-id="53c71-108">Verwalten von lync Server 2013-Diensten</span><span class="sxs-lookup"><span data-stu-id="53c71-108">Managing Lync Server 2013 services</span></span>](lync-server-2013-managing-lync-server-services.md)
+  - [<span data-ttu-id="96b6e-108">Verwalten von lync Server 2013 Diensten</span><span class="sxs-lookup"><span data-stu-id="96b6e-108">Managing Lync Server 2013 services</span></span>](lync-server-2013-managing-lync-server-services.md)
 
-  - [<span data-ttu-id="53c71-109">Verwalten des Adressbuchdiensts in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53c71-109">Administering the Address Book Service in Lync Server 2013</span></span>](lync-server-2013-administering-the-address-book-service.md)
+  - [<span data-ttu-id="96b6e-109">Verwalten des Adressbuchdiensts in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="96b6e-109">Administering the Address Book Service in Lync Server 2013</span></span>](lync-server-2013-administering-the-address-book-service.md)
 
-  - [<span data-ttu-id="53c71-110">Ändern der Webdienste-URL in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53c71-110">Change the Web Services URL in Lync Server 2013</span></span>](lync-server-2013-change-the-web-services-url.md)
+  - [<span data-ttu-id="96b6e-110">Ändern der Webdienste-URL in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="96b6e-110">Change the Web Services URL in Lync Server 2013</span></span>](lync-server-2013-change-the-web-services-url.md)
 
 </div>
 

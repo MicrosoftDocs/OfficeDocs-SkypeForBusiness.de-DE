@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Liste von QoE-Tabellen'
+title: 'Lync Server 2013: Liste der QoE-Tabellen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3161415b65c8e85ace7968ab29d86c0d0c5387a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3b15cab5a39e74cbbc1813fb9d4f5ce56d777408
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765393"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033754"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="list-of-qoe-tables-in-lync-server-2013"></a><span data-ttu-id="dbea2-102">Liste von QoE-Tabellen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dbea2-102">List of QoE tables in Lync Server 2013</span></span>
+# <a name="list-of-qoe-tables-in-lync-server-2013"></a><span data-ttu-id="16e9d-102">Liste der QoE-Tabellen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="16e9d-102">List of QoE tables in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41765393"
 
 <span> </span>
 
-<span data-ttu-id="dbea2-103">_**Letztes Änderungsdatum des Themas:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="dbea2-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="16e9d-103">_**Letztes Änderungsstand des Themas:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="16e9d-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="dbea2-104">Das Datenbankschema besteht aus den folgenden Tabellen.</span><span class="sxs-lookup"><span data-stu-id="dbea2-104">The database schema consists of the following tables.</span></span>
+<span data-ttu-id="16e9d-104">Das Datenbankschema besteht aus den folgenden Tabellen.</span><span class="sxs-lookup"><span data-stu-id="16e9d-104">The database schema consists of the following tables.</span></span>
 
-<span data-ttu-id="dbea2-105">**Unterstützende Tabellen**</span><span class="sxs-lookup"><span data-stu-id="dbea2-105">**Supporting Tables**</span></span>
+<span data-ttu-id="16e9d-105">\*\*Unterstützungstabellen \*\*</span><span class="sxs-lookup"><span data-stu-id="16e9d-105">**Supporting Tables**</span></span>
 
 
 <table>
@@ -49,124 +49,124 @@ ms.locfileid: "41765393"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="dbea2-106"><strong>Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-106"><strong>Table</strong></span></span></th>
-<th><span data-ttu-id="dbea2-107"><strong>Beschreibung</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-107"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="16e9d-106"><strong>Table</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-106"><strong>Table</strong></span></span></th>
+<th><span data-ttu-id="16e9d-107"><strong>Beschreibung</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-107"><strong>Description</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-108"><a href="lync-server-2013-appsharingmetricsthreshold-table.md">AppSharingMetricsThreshold-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-108"><a href="lync-server-2013-appsharingmetricsthreshold-table.md">AppSharingMetricsThreshold table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-109">Speichert optimale und akzeptable Werte für die Qualität der Erfahrungs Metrik, die bei der Anwendungsfreigabe verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="dbea2-109">Stores optimal and acceptable values for the Quality of Experience metrics used with application sharing.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-108"><a href="lync-server-2013-appsharingmetricsthreshold-table.md">AppSharingMetricsThreshold-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-108"><a href="lync-server-2013-appsharingmetricsthreshold-table.md">AppSharingMetricsThreshold table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-109">Speichert optimale und zulässige Werte für Quality of Experience-Metriken, die bei der Anwendungsfreigabe verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="16e9d-109">Stores optimal and acceptable values for the Quality of Experience metrics used with application sharing.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-110"><a href="lync-server-2013-codecdescription-table.md">CodecDescription-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-110"><a href="lync-server-2013-codecdescription-table.md">CodecDescription table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-111">Ordnet eindeutige Codec-IDs dem zugehörigen Codec zu.</span><span class="sxs-lookup"><span data-stu-id="dbea2-111">Maps unique codec identifiers to their corresponding codec.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-110"><a href="lync-server-2013-codecdescription-table.md">CodecDescription-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-110"><a href="lync-server-2013-codecdescription-table.md">CodecDescription table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-111">Ordnet eindeutige Codec-IDs dem entsprechenden Codec zu.</span><span class="sxs-lookup"><span data-stu-id="16e9d-111">Maps unique codec identifiers to their corresponding codec.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-112"><a href="lync-server-2013-ipaddress-table.md">IPAddress-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-112"><a href="lync-server-2013-ipaddress-table.md">IPAddress table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-113">Ordnet IP-Adressen den eindeutigen IP-Adress Bezeichnern zu, die an anderer Stelle in der Datenbank für die Qualität der Erfahrung verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="dbea2-113">Maps IP addresses to the unique IP address identifiers used elsewhere in the Quality of Experience database.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-112"><a href="lync-server-2013-ipaddress-table.md">IPAddress-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-112"><a href="lync-server-2013-ipaddress-table.md">IPAddress table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-113">Ordnet IP-Adressen den eindeutigen IP-Adress-IDs zu, die anderswo in der QoE (Quality of Experience)-Datenbank verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="16e9d-113">Maps IP addresses to the unique IP address identifiers used elsewhere in the Quality of Experience database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-114"><a href="lync-server-2013-networkconnectiondetail-table.md">NetworkConnectionDetail-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-114"><a href="lync-server-2013-networkconnectiondetail-table.md">NetworkConnectionDetail table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-115">Ordnet Netzwerkverbindungstypen den Netzwerk Verbindungs Bezeichnern zu, die an anderer Stelle in der Datenbank für die Qualität der Erfahrung verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="dbea2-115">Maps network connection types to the network connection identifiers used elsewhere in the Quality of Experience database.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-114"><a href="lync-server-2013-networkconnectiondetail-table.md">NetworkConnectionDetail-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-114"><a href="lync-server-2013-networkconnectiondetail-table.md">NetworkConnectionDetail table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-115">Ordnet Netzwerkverbindungstypen den Netzwerkverbindungs-IDs zu, die anderswo in der QoE (Quality of Experience)-Datenbank verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="16e9d-115">Maps network connection types to the network connection identifiers used elsewhere in the Quality of Experience database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-116"><a href="lync-server-2013-purgesettings-table-qoe.md">PurgeSettings-Tabelle (QoE) in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-116"><a href="lync-server-2013-purgesettings-table-qoe.md">PurgeSettings table (QoE) in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-117">Speichert Informationen, die angeben, ob (und wann) veraltete Quality of Experience-Datensätze automatisch aus der QoE-Datenbank gelöscht werden.</span><span class="sxs-lookup"><span data-stu-id="dbea2-117">Stores information that specifies if (and when) outdated Quality of Experience records will automatically be deleted from the QoE database.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-116"><a href="lync-server-2013-purgesettings-table-qoe.md">PurgeSettings-Tabelle (QoE) in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-116"><a href="lync-server-2013-purgesettings-table-qoe.md">PurgeSettings table (QoE) in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-117">Speichert Informationen, mit denen angegeben wird, ob (und wann) veraltete QoE-(Quality of Experience)-Kommunikationsdatensätze automatisch aus der QoE-Datenbank gelöscht werden.</span><span class="sxs-lookup"><span data-stu-id="16e9d-117">Stores information that specifies if (and when) outdated Quality of Experience records will automatically be deleted from the QoE database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-118"><a href="lync-server-2013-traceroute-table.md">TraceRoute-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-118"><a href="lync-server-2013-traceroute-table.md">TraceRoute table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-119">Speichert Routinginformationen für Anrufe.</span><span class="sxs-lookup"><span data-stu-id="dbea2-119">Stores routing information for calls.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-118"><a href="lync-server-2013-traceroute-table.md">TraceRoute-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-118"><a href="lync-server-2013-traceroute-table.md">TraceRoute table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-119">Speichert Routinginformationen für Anrufe.</span><span class="sxs-lookup"><span data-stu-id="16e9d-119">Stores routing information for calls.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-120"><a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef-Tabelle (QoE) in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-120"><a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef table (QoE) in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-121">Ordnet die Bezeichner des Benutzer-Agents den beschreibenden Namen des Agents zu.</span><span class="sxs-lookup"><span data-stu-id="dbea2-121">Maps user agent identifiers to the agent’s descriptive names.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-120"><a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef-Tabelle (QoE) in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-120"><a href="lync-server-2013-useragentdef-table-qoe.md">UserAgentDef table (QoE) in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-121">Ordnet Benutzeragent-IDs den beschreibenden Namen von Agents zu.</span><span class="sxs-lookup"><span data-stu-id="16e9d-121">Maps user agent identifiers to the agent’s descriptive names.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-122"><a href="lync-server-2013-videometricsthreshold-table.md">VideoMetricsThreshold-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-122"><a href="lync-server-2013-videometricsthreshold-table.md">VideoMetricsThreshold table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-123">Speichert optimale und akzeptable Werte für die Qualität der bei Videoanrufen verwendeten Metriken für die Erfahrung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-123">Stores optimal and acceptable values for the Quality of Experience metrics used with video calls.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-122"><a href="lync-server-2013-videometricsthreshold-table.md">VideoMetricsThreshold-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-122"><a href="lync-server-2013-videometricsthreshold-table.md">VideoMetricsThreshold table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-123">Speichert optimale und zulässige Werte für Quality of Experience-Metriken, die bei Videoanrufen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="16e9d-123">Stores optimal and acceptable values for the Quality of Experience metrics used with video calls.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-124"><a href="lync-server-2013-useragent-table.md">UserAgent-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-124"><a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-125">Speichert SIP-Benutzer-Agent (Session Initiation Protocol)-Zeichenfolgen und UA-Typen, die in Audio-und Videositzungen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="dbea2-125">Stores Session Initiation Protocol (SIP) User Agent (UA) strings and UA types used in audio and video sessions.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-124"><a href="lync-server-2013-useragent-table.md">UserAgent-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-124"><a href="lync-server-2013-useragent-table.md">UserAgent table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-125">Speichert in Audio- und Videositzungen verwendete Session Initiation-Protokolle (SIP), Benutzer-Agent-Zeichenfolgen (UA) und UA-Typen.</span><span class="sxs-lookup"><span data-stu-id="16e9d-125">Stores Session Initiation Protocol (SIP) User Agent (UA) strings and UA types used in audio and video sessions.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-126"><a href="lync-server-2013-user-table.md">User-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-126"><a href="lync-server-2013-user-table.md">User table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-127">Speichert Benutzer-, Konferenz-und Telefon-URIs, die in Audio-und Videositzungen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="dbea2-127">Stores user, conference, and phone URIs used in audio and video sessions.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-126"><a href="lync-server-2013-user-table.md">Benutzertabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-126"><a href="lync-server-2013-user-table.md">User table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-127">Speichert in Audio- und Videositzungen verwendete Benutzer-, Konferenz- und Telefon-URIs.</span><span class="sxs-lookup"><span data-stu-id="16e9d-127">Stores user, conference, and phone URIs used in audio and video sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-128"><a href="lync-server-2013-endpoint-table.md">Endpoint-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-128"><a href="lync-server-2013-endpoint-table.md">Endpoint table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-129">Speichert FQDN-Computernamen von Endpunkten, die an Audio-und Videositzungen teilnehmen.</span><span class="sxs-lookup"><span data-stu-id="dbea2-129">Stores FQDN computer names of endpoints participating in audio and video sessions.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-128"><a href="lync-server-2013-endpoint-table.md">Endpunkt Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-128"><a href="lync-server-2013-endpoint-table.md">Endpoint table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-129">Speichert FQDN-Computernamen von Endpunkten, die an Audio- und Videositzungen teilnehmen.</span><span class="sxs-lookup"><span data-stu-id="16e9d-129">Stores FQDN computer names of endpoints participating in audio and video sessions.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-130"><a href="lync-server-2013-pool-table.md">Pool-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-130"><a href="lync-server-2013-pool-table.md">Pool table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-131">Speichert die Namen der Pools, zu denen Metrikdaten gehören.</span><span class="sxs-lookup"><span data-stu-id="dbea2-131">Stores the names of pools to which metrics data belongs.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-130"><a href="lync-server-2013-pool-table.md">Pool Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-130"><a href="lync-server-2013-pool-table.md">Pool table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-131">Speichert die Namen von Pools, zu denen metrische Daten gehören.</span><span class="sxs-lookup"><span data-stu-id="16e9d-131">Stores the names of pools to which metrics data belongs.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-132"><a href="lync-server-2013-device-table.md">Device-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-132"><a href="lync-server-2013-device-table.md">Device table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-133">Speichert Aufnahmegeräte und rendergeräte, die in Audio-und Videogesprächen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="dbea2-133">Stores capture devices and render devices which are used in an audio/video calls.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-132"><a href="lync-server-2013-device-table.md">Gerätetabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-132"><a href="lync-server-2013-device-table.md">Device table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-133">Speichert bei Audio-/Videoanrufen verwendete Aufnahme- und Darstellungsgeräte.</span><span class="sxs-lookup"><span data-stu-id="16e9d-133">Stores capture devices and render devices which are used in an audio/video calls.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-134"><a href="lync-server-2013-devicedriver-table.md">DeviceDriver-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-134"><a href="lync-server-2013-devicedriver-table.md">DeviceDriver table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-135">Speichert den Treiber für das Aufnahmegerät und das Render-Gerät, die in Audio-und Videoanrufen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="dbea2-135">Stores driver for the capture device and the render device which are used in audio/video calls.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-134"><a href="lync-server-2013-devicedriver-table.md">ACPITreiber-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-134"><a href="lync-server-2013-devicedriver-table.md">DeviceDriver table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-135">Speichert den Treiber für das Aufnahmegerät und das Darstellungsgerät, die bei Audio-/Videoanrufen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="16e9d-135">Stores driver for the capture device and the render device which are used in audio/video calls.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-136"><a href="lync-server-2013-conference-table.md">Conference-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-136"><a href="lync-server-2013-conference-table.md">Conference table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-137">Speichert Konferenz-URIs für Konferenzszenarien oder Dialogfelder für andere Szenarien.</span><span class="sxs-lookup"><span data-stu-id="dbea2-137">Stores Conference URIs for conference scenarios or DialogID for other scenarios.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-136"><a href="lync-server-2013-conference-table.md">Konferenz Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-136"><a href="lync-server-2013-conference-table.md">Conference table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-137">Speichert Konferenz-URIs für Konferenzszenarien oder die Dialog-ID für andere Szenarien.</span><span class="sxs-lookup"><span data-stu-id="16e9d-137">Stores Conference URIs for conference scenarios or DialogID for other scenarios.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-138"><a href="lync-server-2013-sessioncorrelation-table.md">SessionCorrelation-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-138"><a href="lync-server-2013-sessioncorrelation-table.md">SessionCorrelation table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-139">Speichert CorrelationId für PSTN-Anrufe.</span><span class="sxs-lookup"><span data-stu-id="dbea2-139">Stores CorrelationID for PSTN calls.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-138"><a href="lync-server-2013-sessioncorrelation-table.md">SessionCorrelation-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-138"><a href="lync-server-2013-sessioncorrelation-table.md">SessionCorrelation table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-139">Speichert die Korrelations-ID für PSTN-Anrufe.</span><span class="sxs-lookup"><span data-stu-id="16e9d-139">Stores CorrelationID for PSTN calls.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-140"><a href="lync-server-2013-payloaddescription-table.md">PayloadDescription-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-140"><a href="lync-server-2013-payloaddescription-table.md">PayloadDescription table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-141">Speichert den in Audio-und Videoanrufen verwendeten Codec.</span><span class="sxs-lookup"><span data-stu-id="dbea2-141">Stores the Codec used in audio/video calls.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-140"><a href="lync-server-2013-payloaddescription-table.md">PayloadDescription-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-140"><a href="lync-server-2013-payloaddescription-table.md">PayloadDescription table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-141">Speichert die bei Audio-/Videoanrufen verwendeten Codecs.</span><span class="sxs-lookup"><span data-stu-id="16e9d-141">Stores the Codec used in audio/video calls.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-142"><a href="lync-server-2013-appliedbandwidthsource-table.md">AppliedBandwidthSource-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-142"><a href="lync-server-2013-appliedbandwidthsource-table.md">AppliedBandwidthSource table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-143">Speichert die in Audio-und Videoanrufen verwendete Bandbreiten Quelle.</span><span class="sxs-lookup"><span data-stu-id="dbea2-143">Stores the bandwidth source used in audio/video calls.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-142"><a href="lync-server-2013-appliedbandwidthsource-table.md">AppliedBandwidthSource-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-142"><a href="lync-server-2013-appliedbandwidthsource-table.md">AppliedBandwidthSource table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-143">Speichert die bei Audio-/Videoanrufen verwendete Bandbreitenquelle.</span><span class="sxs-lookup"><span data-stu-id="16e9d-143">Stores the bandwidth source used in audio/video calls.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-144"><a href="lync-server-2013-macaddress-table.md">MacAddress-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-144"><a href="lync-server-2013-macaddress-table.md">MacAddress table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-145">Speichert die Mac-Adresse der Endpunkte, die an Audio-und Videositzungen teilnehmen.</span><span class="sxs-lookup"><span data-stu-id="dbea2-145">Stores the MAC address of the endpoints participating in audio and video sessions.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-144"><a href="lync-server-2013-macaddress-table.md">MACAddress-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-144"><a href="lync-server-2013-macaddress-table.md">MacAddress table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-145">Speichert die MAC-Adresse der Endpunkte, die an Audio- und Videositzungen teilnehmen.</span><span class="sxs-lookup"><span data-stu-id="16e9d-145">Stores the MAC address of the endpoints participating in audio and video sessions.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-146"><a href="lync-server-2013-dialog-table.md">Dialog-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-146"><a href="lync-server-2013-dialog-table.md">Dialog table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-147">Speichert die Dialog-ID für Audio-und Videositzungen.</span><span class="sxs-lookup"><span data-stu-id="dbea2-147">Stores the Dialog ID of audio and video sessions.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-146"><a href="lync-server-2013-dialog-table.md">Dialog Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-146"><a href="lync-server-2013-dialog-table.md">Dialog table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-147">Speichert die Dialog-ID von Audio- und Videositzungen.</span><span class="sxs-lookup"><span data-stu-id="16e9d-147">Stores the Dialog ID of audio and video sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-148"><a href="lync-server-2013-region-table.md">Region-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-148"><a href="lync-server-2013-region-table.md">Region table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-149">Speichert die in der NCS-Einstellung definierte netzwerkregion.</span><span class="sxs-lookup"><span data-stu-id="dbea2-149">Stores the network region defined in NCS setting.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-148"><a href="lync-server-2013-region-table.md">Region-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-148"><a href="lync-server-2013-region-table.md">Region table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-149">Speichert die in der NCS-Einstellung festgelegte Netzwerkregion.</span><span class="sxs-lookup"><span data-stu-id="16e9d-149">Stores the network region defined in NCS setting.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-150"><a href="lync-server-2013-usersite-table.md">UserSite-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-150"><a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-151">Speichert die in der NCS-Einstellung definierte Netzwerk Website.</span><span class="sxs-lookup"><span data-stu-id="dbea2-151">Stores the network site defined in NCS setting.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-150"><a href="lync-server-2013-usersite-table.md">UserSite-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-150"><a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-151">Speichert den in der NCS-Einstellung festgelegten Netzwerkstandort.</span><span class="sxs-lookup"><span data-stu-id="16e9d-151">Stores the network site defined in NCS setting.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-152"><a href="lync-server-2013-subnet-table.md">Subnet-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-152"><a href="lync-server-2013-subnet-table.md">Subnet table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-153">Speichert das in der NCS-Einstellung definierte Subnetz.</span><span class="sxs-lookup"><span data-stu-id="dbea2-153">Stores the subnet defined in NCS setting.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-152"><a href="lync-server-2013-subnet-table.md">Subnet-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-152"><a href="lync-server-2013-subnet-table.md">Subnet table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-153">Speichert das in der NCS-Einstellung festgelegte Subnetz.</span><span class="sxs-lookup"><span data-stu-id="16e9d-153">Stores the subnet defined in NCS setting.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-154"><a href="lync-server-2013-monitoredregionlink-table.md">MonitoredRegionLink-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-154"><a href="lync-server-2013-monitoredregionlink-table.md">MonitoredRegionLink table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-155">Speichert den in der NCS-Einstellung definierten Link "Region".</span><span class="sxs-lookup"><span data-stu-id="dbea2-155">Stores the region link defined in NCS setting.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-154"><a href="lync-server-2013-monitoredregionlink-table.md">MonitoredRegionLink-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-154"><a href="lync-server-2013-monitoredregionlink-table.md">MonitoredRegionLink table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-155">Speichert den in der NCS-Einstellung festgelegten Regionslink.</span><span class="sxs-lookup"><span data-stu-id="16e9d-155">Stores the region link defined in NCS setting.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-156"><a href="monitoredusersitelink-table.md">MonitoredUserSiteLink-Tabelle</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-156"><a href="monitoredusersitelink-table.md">MonitoredUserSiteLink table</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-157">Speichert die in der NCS-Einstellung definierten Netzwerkstandort Links.</span><span class="sxs-lookup"><span data-stu-id="dbea2-157">Stores the network site links defined in NCS setting.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-156"><a href="monitoredusersitelink-table.md">MonitoredUserSiteLink-Tabelle</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-156"><a href="monitoredusersitelink-table.md">MonitoredUserSiteLink table</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-157">Speichert die in der NCS-Einstellung festgelegten Netzwerkstandortverknüpfungen.</span><span class="sxs-lookup"><span data-stu-id="16e9d-157">Stores the network site links defined in NCS setting.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-158"><a href="lync-server-2013-endpointsubnet-table.md">EndpointSubnet-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-158"><a href="lync-server-2013-endpointsubnet-table.md">EndpointSubnet table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-159">Speichert das Subnetz des Endpunkts, der an einer Audio-und Videositzung teilnimmt.</span><span class="sxs-lookup"><span data-stu-id="dbea2-159">Stores the subnet of the endpoint participating in an audio and video session.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-158"><a href="lync-server-2013-endpointsubnet-table.md">EndpointSubnet-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-158"><a href="lync-server-2013-endpointsubnet-table.md">EndpointSubnet table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-159">Speichert das Subnetz des Endpunkts, der an einer Audio- und Videositzung teilnimmt.</span><span class="sxs-lookup"><span data-stu-id="16e9d-159">Stores the subnet of the endpoint participating in an audio and video session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-160"><a href="lync-server-2013-server-table.md">Servertabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-160"><a href="lync-server-2013-server-table.md">Server table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-161">Speichert den FQDN oder die IP-Adresse des Servers, den das Medium durchläuft.</span><span class="sxs-lookup"><span data-stu-id="dbea2-161">Stores the FQDN or IP address of the server the media goes through.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-160"><a href="lync-server-2013-server-table.md">Server Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-160"><a href="lync-server-2013-server-table.md">Server table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-161">Speichert den FQDN oder die IP-Adresse des Servers, über den der Mediendatenverkehr erfolgt.</span><span class="sxs-lookup"><span data-stu-id="16e9d-161">Stores the FQDN or IP address of the server the media goes through.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="dbea2-162">**Tabellen für Metrikdaten**</span><span class="sxs-lookup"><span data-stu-id="dbea2-162">**Tables for metrics data**</span></span>
+<span data-ttu-id="16e9d-162">**Tabellen für metrische Daten**</span><span class="sxs-lookup"><span data-stu-id="16e9d-162">**Tables for metrics data**</span></span>
 
 
 <table>
@@ -176,52 +176,52 @@ ms.locfileid: "41765393"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="dbea2-163"><strong>Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-163"><strong>Table</strong></span></span></th>
-<th><span data-ttu-id="dbea2-164"><strong>Beschreibung</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-164"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="16e9d-163"><strong>Table</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-163"><strong>Table</strong></span></span></th>
+<th><span data-ttu-id="16e9d-164"><strong>Beschreibung</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-164"><strong>Description</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-165"><a href="lync-server-2013-appsharingstream-table.md">AppSharingStream-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-165"><a href="lync-server-2013-appsharingstream-table.md">AppSharingStream table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-166">Speichert die Qualität der Erfahrungswerte für die netzwerkdatenströme, die für die Anwendungsfreigabe verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="dbea2-166">Stores Quality of Experience metrics for the network streams used for application sharing.</span></span> <span data-ttu-id="dbea2-167">Metrik für die Qualität der Erfahrung für die netzwerkdatenströme, die für die Anwendungsfreigabe verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="dbea2-167">Quality of Experience metrics for the network streams used for application sharing.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-165"><a href="lync-server-2013-appsharingstream-table.md">AppSharingStream-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-165"><a href="lync-server-2013-appsharingstream-table.md">AppSharingStream table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-p101">Speichert QoE (Quality of Experience)-Metriken für die Netzwerkdatenströme, die bei der Anwendungsfreigabe verwendet werden. QoE (Quality of Experience)-Metriken für die Netzwerkdatenströme, die bei der Anwendungsfreigabe verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="16e9d-p101">Stores Quality of Experience metrics for the network streams used for application sharing. Quality of Experience metrics for the network streams used for application sharing.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-168"><a href="lync-server-2013-session-table.md">Session-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-168"><a href="lync-server-2013-session-table.md">Session table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-169">Speichert allgemeine Informationen zu einer Audio-oder Audio/Video-Sitzung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-169">Stores overall information about an audio or audio/video session.</span></span> <span data-ttu-id="dbea2-170">Eine Sitzung ist als Audio-oder Video-SIP-Dialogfeld zwischen zwei Endpunkten definiert.</span><span class="sxs-lookup"><span data-stu-id="dbea2-170">A session is defined as an audio or video SIP dialog between two endpoints.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-168"><a href="lync-server-2013-session-table.md">Sitzungstabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-168"><a href="lync-server-2013-session-table.md">Session table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-169">Speichert allgemeine Informationen zu einer Audio- oder Videositzung.</span><span class="sxs-lookup"><span data-stu-id="16e9d-169">Stores overall information about an audio or audio/video session.</span></span> <span data-ttu-id="16e9d-170">Eine Sitzung ist ein Audio- oder Video-SIP-Dialog zwischen zwei Endpunkten.</span><span class="sxs-lookup"><span data-stu-id="16e9d-170">A session is defined as an audio or video SIP dialog between two endpoints.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-171"><a href="lync-server-2013-medialine-table.md">MediaLine-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-171"><a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-172">Speichert Informationen zu jeder medienzeile in einer Sitzung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-172">Stores information about each media line in a session.</span></span> <span data-ttu-id="dbea2-173">Eine medienzeile ist eine Sammlung von einem oder mehreren Audio-und Videodatenströmen.</span><span class="sxs-lookup"><span data-stu-id="dbea2-173">A media line is a collection of one or more audio and video streams.</span></span> <span data-ttu-id="dbea2-174">In der Regel besitzt eine einzelne medienzeile zwei Streams, entweder Audio oder Video.</span><span class="sxs-lookup"><span data-stu-id="dbea2-174">Typically, a single media line will have two streams, either audio or video.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-171"><a href="lync-server-2013-medialine-table.md">Medientabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-171"><a href="lync-server-2013-medialine-table.md">MediaLine table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-p103">Speichert Informationen zu jeder Medienzeile in einer Sitzung. Eine Medienzeile ist eine Sammlung von mindestens einem Audio- und Videostream. In der Regel enthält eine einzelne Medienzeile zwei Streams, entweder Audio oder Video.</span><span class="sxs-lookup"><span data-stu-id="16e9d-p103">Stores information about each media line in a session. A media line is a collection of one or more audio and video streams. Typically, a single media line will have two streams, either audio or video.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-175"><a href="lync-server-2013-audiostream-table.md">AudioStream-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-175"><a href="lync-server-2013-audiostream-table.md">AudioStream table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-176">Speichert Qualitäts Metriken für Audio-Medien für jeden Audiostream in der Medien Linie.</span><span class="sxs-lookup"><span data-stu-id="dbea2-176">Stores audio media quality metrics for each audio stream in the media line.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-175"><a href="lync-server-2013-audiostream-table.md">AudioStream-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-175"><a href="lync-server-2013-audiostream-table.md">AudioStream table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-176">Speichert Audiomedien-Qualitätsmetriken für jeden Audiostream in der Medienzeile.</span><span class="sxs-lookup"><span data-stu-id="16e9d-176">Stores audio media quality metrics for each audio stream in the media line.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-177"><a href="lync-server-2013-audiosignal-table.md">AudioSignal-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-177"><a href="lync-server-2013-audiosignal-table.md">AudioSignal table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-178">Speichert Qualitäts Metriken für Audiomedien in der medienzeile.</span><span class="sxs-lookup"><span data-stu-id="dbea2-178">Stores audio media quality metrics in the media line.</span></span> <span data-ttu-id="dbea2-179">Dazu gehören akustische Echo Unterdrückungs-und AGC-Metriken (Automatic Gain Control).</span><span class="sxs-lookup"><span data-stu-id="dbea2-179">This includes acoustic echo cancellation (AEC) and automatic gain control (AGC) metrics.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-177"><a href="lync-server-2013-audiosignal-table.md">AudioSignal-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-177"><a href="lync-server-2013-audiosignal-table.md">AudioSignal table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-178">Speichert die Qualitäts Metriken für Audiodaten in der Medienleiste.</span><span class="sxs-lookup"><span data-stu-id="16e9d-178">Stores audio media quality metrics in the media line.</span></span> <span data-ttu-id="16e9d-179">Dazu gehören die Metriken für akustische Echo Abbrüche (AEC) und automatische Gain-Steuerung (AGC).</span><span class="sxs-lookup"><span data-stu-id="16e9d-179">This includes acoustic echo cancellation (AEC) and automatic gain control (AGC) metrics.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-180"><a href="lync-server-2013-videostream-table.md">VideoStream-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-180"><a href="lync-server-2013-videostream-table.md">VideoStream table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-181">Speichert Qualitäts Metriken für Video Medien für jeden Audiostream in der Medien Linie.</span><span class="sxs-lookup"><span data-stu-id="dbea2-181">Stores video media quality metrics for each audio stream in the media line.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-180"><a href="lync-server-2013-videostream-table.md">Videostream-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-180"><a href="lync-server-2013-videostream-table.md">VideoStream table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-181">Speichert Videomedien-Qualitätsmetriken für jeden Audiostream in der Medienzeile.</span><span class="sxs-lookup"><span data-stu-id="16e9d-181">Stores video media quality metrics for each audio stream in the media line.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-182"><a href="lync-server-2013-audioclientevent-table.md">AudioClientEvent-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-182"><a href="lync-server-2013-audioclientevent-table.md">AudioClientEvent table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-183">Speichert die von der Client Veranstaltung gesammelten Qualitäts Metriken für Audio-Medien.</span><span class="sxs-lookup"><span data-stu-id="dbea2-183">Stores audio media quality metrics collected from the client event.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-182"><a href="lync-server-2013-audioclientevent-table.md">AudioClientEvent-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-182"><a href="lync-server-2013-audioclientevent-table.md">AudioClientEvent table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-183">Speichert aus dem Clientereignis empfangene Audiomedien-Qualitätsmetriken.</span><span class="sxs-lookup"><span data-stu-id="16e9d-183">Stores audio media quality metrics collected from the client event.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-184"><a href="lync-server-2013-videoclientevent-table.md">VideoClientEvent-Tabelle in Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="dbea2-184"><a href="lync-server-2013-videoclientevent-table.md">VideoClientEvent table in Lync Server 2013</a></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-185">Speichert Qualitäts Metriken für Video Medien, die vom Clientereignis gesammelt wurden.</span><span class="sxs-lookup"><span data-stu-id="dbea2-185">Stores video media quality metrics collected from the client event.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-184"><a href="lync-server-2013-videoclientevent-table.md">Video Client Event-Tabelle in lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="16e9d-184"><a href="lync-server-2013-videoclientevent-table.md">VideoClientEvent table in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-185">Speichert aus dem Clientereignis empfangene Videomedien-Qualitätsmetriken.</span><span class="sxs-lookup"><span data-stu-id="16e9d-185">Stores video media quality metrics collected from the client event.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-186"><strong>DiagnosticData-Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-186"><strong>DiagnosticData Table</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-187">Speichert Diagnosedaten, die nur für die interne Verwendung vorgesehen sind.</span><span class="sxs-lookup"><span data-stu-id="dbea2-187">Stores diagnostic data which is for internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-186"><strong>DiagnosticData-Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-186"><strong>DiagnosticData Table</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-187">Speichert Diagnosedaten ausschließlich für die interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="16e9d-187">Stores diagnostic data which is for internal use only.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="dbea2-188">**Tabellen für Zusammenfassungsdaten**</span><span class="sxs-lookup"><span data-stu-id="dbea2-188">**Tables for summary data**</span></span>
+<span data-ttu-id="16e9d-188">**Tabellen für Zusammenfassungsdaten**</span><span class="sxs-lookup"><span data-stu-id="16e9d-188">**Tables for summary data**</span></span>
 
 
 <table>
@@ -231,28 +231,28 @@ ms.locfileid: "41765393"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="dbea2-189"><strong>Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-189"><strong>Table</strong></span></span></th>
-<th><span data-ttu-id="dbea2-190"><strong>Beschreibung</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-190"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="16e9d-189"><strong>Table</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-189"><strong>Table</strong></span></span></th>
+<th><span data-ttu-id="16e9d-190"><strong>Beschreibung</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-190"><strong>Description</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-191"><strong>ServerSummary-Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-191"><strong>ServerSummary Table</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-192">Speichert Zusammenfassungsdaten für die Server, diese Daten werden nur für QoE-Berichte (Quality of Experience) verwendet.</span><span class="sxs-lookup"><span data-stu-id="dbea2-192">Stores summary data for the servers, these data is used for Quality of Experience (QoE) reporting only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-191"><strong>ServerSummary-Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-191"><strong>ServerSummary Table</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-192">Speichert Zusammenfassungsdaten für die Server. Diese Daten werden nur für Quality of Experience-Berichte (QoE) verwendet.</span><span class="sxs-lookup"><span data-stu-id="16e9d-192">Stores summary data for the servers, these data is used for Quality of Experience (QoE) reporting only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-193"><strong>UserSummary-Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-193"><strong>UserSummary Table</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-194">Speichert Zusammenfassungsdaten für Benutzer, diese Daten werden nur für QoE-Berichte verwendet.</span><span class="sxs-lookup"><span data-stu-id="dbea2-194">Stores summary data for users, these data is used for QoE reporting only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-193"><strong>UserSummary-Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-193"><strong>UserSummary Table</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-194">Speichert Zusammenfassungsdaten für Benutzer. Diese Daten werden nur für Quality of Experience-Berichte (QoE) verwendet.</span><span class="sxs-lookup"><span data-stu-id="16e9d-194">Stores summary data for users, these data is used for QoE reporting only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-195"><strong>CallTypeSummary-Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-195"><strong>CallTypeSummary Table</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-196">Speichern von Zusammenfassungsdaten für Anruftypen werden diese Daten nur für QoE-Berichte verwendet.</span><span class="sxs-lookup"><span data-stu-id="dbea2-196">Store summary data for call types, these data is used for QoE reporting only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-195"><strong>CallTypeSummary-Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-195"><strong>CallTypeSummary Table</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-196">Speichert Zusammenfassungsdaten für Anruftypen. Diese Daten werden nur für Quality of Experience-Berichte (QoE) verwendet.</span><span class="sxs-lookup"><span data-stu-id="16e9d-196">Store summary data for call types, these data is used for QoE reporting only.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="dbea2-197">**Tabellen für die interne Verwendung durch Monitoring Server**</span><span class="sxs-lookup"><span data-stu-id="dbea2-197">**Tables for Internal Use by Monitoring Server**</span></span>
+<span data-ttu-id="16e9d-197">**Tabellen des Monitoring Servers für die interne Verwendung**</span><span class="sxs-lookup"><span data-stu-id="16e9d-197">**Tables for Internal Use by Monitoring Server**</span></span>
 
 
 <table>
@@ -262,70 +262,70 @@ ms.locfileid: "41765393"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="dbea2-198"><strong>Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-198"><strong>Table</strong></span></span></th>
-<th><span data-ttu-id="dbea2-199"><strong>Beschreibung</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-199"><strong>Description</strong></span></span></th>
+<th><span data-ttu-id="16e9d-198"><strong>Table</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-198"><strong>Table</strong></span></span></th>
+<th><span data-ttu-id="16e9d-199"><strong>Beschreibung</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-199"><strong>Description</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-200"><strong>DbConfigDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-200"><strong>DbConfigDateTime</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-201">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-201">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-200"><strong>DbConfigDateTime</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-200"><strong>DbConfigDateTime</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-201">Ausschließlich für interne Zwecke.</span><span class="sxs-lookup"><span data-stu-id="16e9d-201">For internal use only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-202"><strong>DbConfigInt</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-202"><strong>DbConfigInt</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-203">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-203">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-202"><strong>DbConfigInt</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-202"><strong>DbConfigInt</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-203">Ausschließlich für interne Zwecke.</span><span class="sxs-lookup"><span data-stu-id="16e9d-203">For internal use only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-204"><strong>Frontend-Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-204"><strong>FrontEnd Table</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-205">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-205">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-204"><strong>FrontEnd-Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-204"><strong>FrontEnd Table</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-205">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="16e9d-205">For internal use only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-206"><strong>Aufgaben Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-206"><strong>Task Table</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-207">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-207">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-206"><strong>Aufgabentabelle</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-206"><strong>Task Table</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-207">Ausschließlich für interne Zwecke.</span><span class="sxs-lookup"><span data-stu-id="16e9d-207">For internal use only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-208"><strong>SummaryTableConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-208"><strong>SummaryTableConfiguration</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-209">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-209">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-208"><strong>SummaryTableConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-208"><strong>SummaryTableConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-209">Ausschließlich für interne Zwecke.</span><span class="sxs-lookup"><span data-stu-id="16e9d-209">For internal use only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-210"><strong>Dberrormessage</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-210"><strong>DbErrorMessage</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-211">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-211">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-210"><strong>Dberrormessage</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-210"><strong>DbErrorMessage</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-211">Ausschließlich für interne Zwecke.</span><span class="sxs-lookup"><span data-stu-id="16e9d-211">For internal use only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-212"><strong>MetricsThreshold</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-212"><strong>MetricsThreshold</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-213">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-213">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-212"><strong>MetricsThreshold</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-212"><strong>MetricsThreshold</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-213">Ausschließlich für interne Zwecke.</span><span class="sxs-lookup"><span data-stu-id="16e9d-213">For internal use only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-214"><strong>DaylightSavingYears</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-214"><strong>DaylightSavingYears</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-215">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-215">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-214"><strong>DaylightSavingYears</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-214"><strong>DaylightSavingYears</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-215">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="16e9d-215">For internal use only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-216"><strong>TimeZoneConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-216"><strong>TimeZoneConfiguration</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-217">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-217">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-216"><strong>TimeZoneConfiguration</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-216"><strong>TimeZoneConfiguration</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-217">Ausschließlich für interne Zwecke.</span><span class="sxs-lookup"><span data-stu-id="16e9d-217">For internal use only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-218"><strong>Zeitzonen</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-218"><strong>TimeZones</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-219">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-219">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-218"><strong>TimeZones</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-218"><strong>TimeZones</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-219">Nur zur internen Verwendung.</span><span class="sxs-lookup"><span data-stu-id="16e9d-219">For internal use only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-220"><strong>CallSummary-Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-220"><strong>CallSummary Table</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-221">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-221">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-220"><strong>CallSummary-Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-220"><strong>CallSummary Table</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-221">Ausschließlich für interne Zwecke.</span><span class="sxs-lookup"><span data-stu-id="16e9d-221">For internal use only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-222"><strong>DeviceCallSumary-Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-222"><strong>DeviceCallSumary Table</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-223">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-223">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-222"><strong>DeviceCallSumary-Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-222"><strong>DeviceCallSumary Table</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-223">Ausschließlich für interne Zwecke.</span><span class="sxs-lookup"><span data-stu-id="16e9d-223">For internal use only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-224"><strong>Mandantentabelle</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-224"><strong>Tenant Table</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-225">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-225">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-224"><strong>Tenant-Tabelle</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-224"><strong>Tenant Table</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-225">Ausschließlich für interne Zwecke.</span><span class="sxs-lookup"><span data-stu-id="16e9d-225">For internal use only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="dbea2-226"><strong>VideoCallSummaryTable</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-226"><strong>VideoCallSummaryTable</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-227">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-227">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-226"><strong>VideoCallSummaryTable</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-226"><strong>VideoCallSummaryTable</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-227">Ausschließlich für interne Zwecke.</span><span class="sxs-lookup"><span data-stu-id="16e9d-227">For internal use only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="dbea2-228"><strong>ASCallSummaryTable</strong></span><span class="sxs-lookup"><span data-stu-id="dbea2-228"><strong>ASCallSummaryTable</strong></span></span></p></td>
-<td><p><span data-ttu-id="dbea2-229">Nur für interne Verwendung.</span><span class="sxs-lookup"><span data-stu-id="dbea2-229">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="16e9d-228"><strong>ASCallSummaryTable</strong></span><span class="sxs-lookup"><span data-stu-id="16e9d-228"><strong>ASCallSummaryTable</strong></span></span></p></td>
+<td><p><span data-ttu-id="16e9d-229">Ausschließlich für interne Zwecke.</span><span class="sxs-lookup"><span data-stu-id="16e9d-229">For internal use only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

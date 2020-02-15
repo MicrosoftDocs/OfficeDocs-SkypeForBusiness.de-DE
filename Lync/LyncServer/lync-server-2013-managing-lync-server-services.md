@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verwalten von lync Server-Diensten'
+title: 'Lync Server 2013: Verwalten von lync Server Diensten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c79731117c7ba1e04f55bad3a308cca9225621d3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db05bdc9f2c22bb46b34249a86979cb80b55cc7f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756129"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034385"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-lync-server-2013-services"></a><span data-ttu-id="e64d8-102">Verwalten von lync Server 2013-Diensten</span><span class="sxs-lookup"><span data-stu-id="e64d8-102">Managing Lync Server 2013 services</span></span>
+# <a name="managing-lync-server-2013-services"></a><span data-ttu-id="5d4a4-102">Verwalten von lync Server 2013 Diensten</span><span class="sxs-lookup"><span data-stu-id="5d4a4-102">Managing Lync Server 2013 services</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756129"
 
 <span> </span>
 
-<span data-ttu-id="e64d8-103">_**Letztes Änderungsdatum des Themas:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="e64d8-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="5d4a4-103">_**Letztes Änderungsstand des Themas:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="5d4a4-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="e64d8-104">Führen Sie die Verfahren in diesem Abschnitt aus, um lync Server 2013-Dienste auf der Seite **Topologie** zu verwalten.</span><span class="sxs-lookup"><span data-stu-id="e64d8-104">Use the procedures in this section to manage Lync Server 2013 services from the **Topology** page.</span></span>
+<span data-ttu-id="5d4a4-104">Verwenden Sie die Verfahren in diesem Abschnitt, um lync Server 2013 Dienste auf der Seite **Topologie** zu verwalten.</span><span class="sxs-lookup"><span data-stu-id="5d4a4-104">Use the procedures in this section to manage Lync Server 2013 services from the **Topology** page.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e64d8-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="e64d8-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5d4a4-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="5d4a4-105">In This Section</span></span>
 
-  - [<span data-ttu-id="e64d8-106">Anzeigen des Status der auf einem Computer ausgeführten Dienste in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e64d8-106">View the status of services running on a computer in Lync Server 2013</span></span>](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
+  - [<span data-ttu-id="5d4a4-106">Anzeigen des Status von auf einem Computer ausgeführten Diensten in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5d4a4-106">View the status of services running on a computer in Lync Server 2013</span></span>](lync-server-2013-view-the-status-of-services-running-on-a-computer.md)
 
 </div>
 

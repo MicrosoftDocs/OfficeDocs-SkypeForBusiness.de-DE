@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Bereitstellen einer Survivable Branch Appliance oder eines Survivable Branch Servers'
+title: 'Lync Server 2013: Bereitstelleneiner Survivable Branch Appliance oder eines Servers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185643
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca6fae79854356951701eaf6040fb436e787acd2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 445df692041e24f8a4e134836ea9f6a63561a2ca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729585"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034757"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a><span data-ttu-id="02107-102">Bereitstellen einer Survivable Branch Appliance oder eines Survivable Branch Servers mit Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="02107-102">Deploying a Survivable Branch Appliance or Server with Lync Server 2013</span></span>
+# <a name="deploying-a-survivable-branch-appliance-or-server-with-lync-server-2013"></a><span data-ttu-id="f404d-102">Bereitstelleneiner Survivable Branch Appliance oder eines Servers mit lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f404d-102">Deploying a Survivable Branch Appliance or Server with Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,19 @@ ms.locfileid: "41729585"
 
 <span> </span>
 
-<span data-ttu-id="02107-103">_**Letztes Änderungsdatum des Themas:** 2014-12-10_</span><span class="sxs-lookup"><span data-stu-id="02107-103">_**Topic Last Modified:** 2014-12-10_</span></span>
+<span data-ttu-id="f404d-103">_**Letztes Änderungsstand des Themas:** 2014-12-10_</span><span class="sxs-lookup"><span data-stu-id="f404d-103">_**Topic Last Modified:** 2014-12-10_</span></span>
 
-<span data-ttu-id="02107-104">Die flexible Enterprise-VoIP-Funktion bezieht sich auf die Flexibilität von Branch-Site, das heißt, die Möglichkeit zum Bereitstellen von kontinuierlichem Enterprise-VoIP-Service für Zweigstellenbenutzer, falls der Link zur zentralen Website nicht mehr zur Verfügung steht.</span><span class="sxs-lookup"><span data-stu-id="02107-104">Resilient Enterprise Voice refers to branch-site resiliency, that is, the ability to provide continuous Enterprise Voice service to branch site users in the event that the link to the central site becomes unavailable.</span></span>
+<span data-ttu-id="f404d-104">Belastbare Enterprise-VoIP bezieht sich auf die Ausfallsicherheit von Zweigstellenstandorten, also auf die Möglichkeit, den Zweigstellenbenutzern kontinuierliche Enterprise-VoIP-Dienste bereitzustellen, falls der Link zum zentralen Standort nicht mehr verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="f404d-104">Resilient Enterprise Voice refers to branch-site resiliency, that is, the ability to provide continuous Enterprise Voice service to branch site users in the event that the link to the central site becomes unavailable.</span></span>
 
-<span data-ttu-id="02107-105">Für kleine und mittelständische Zweigstellen (Zweigstellen mit 25 bis 1.000 Benutzern) empfehlen wir die Bereitstellung einer Survival-Branch-Appliance, die PSTN-Anrufe (Public Switched Telephone Network) mit dem integrierten PSTN-Gateway oder einem SIP-Trunk zu einem Telefon beendet. Dienstanbieter.</span><span class="sxs-lookup"><span data-stu-id="02107-105">For small and medium-sized branch sites (branch sites with 25 to 1,000 users), we recommend deploying a Survivable Branch Appliance, which will terminate public switched telephone network (PSTN) calls by using its built-in PSTN gateway or a SIP trunk to a telephone service provider.</span></span> <span data-ttu-id="02107-106">Eine Survivable Branch-Appliance ist ein Gerät eines Drittanbieters, das einen Blade-Server mit dem Betriebssystem Windows Server 2008 R2, lync Server 2013 Registrar, Mediation Server-Software und einem PSTN-Gateway umfasst, alles in einem einzigen Appliance-Chassis.</span><span class="sxs-lookup"><span data-stu-id="02107-106">A Survivable Branch Appliance is a third-party device that includes a blade server running the Windows Server 2008 R2 operating system, Lync Server 2013 Registrar, Mediation Server software, and a PSTN gateway, all in a single appliance chassis.</span></span>
+<span data-ttu-id="f404d-105">Für kleine und mittelgroße Zweigstellenstandorte (Zweigstellen mit 25 bis 1.000 Benutzern) wird die Bereitstellungeines Survivable Branch Appliance empfohlen, mit dem das Telefon Festnetz (Public Switched Telephone Network, PSTN) mithilfe des integrierten PSTN-Gateways oder eines SIP-Trunks an ein Telefon beendet wird. Dienstanbieter.</span><span class="sxs-lookup"><span data-stu-id="f404d-105">For small and medium-sized branch sites (branch sites with 25 to 1,000 users), we recommend deploying a Survivable Branch Appliance, which will terminate public switched telephone network (PSTN) calls by using its built-in PSTN gateway or a SIP trunk to a telephone service provider.</span></span> <span data-ttu-id="f404d-106">Ein Survivable Branch Appliance ist ein Gerät eines Drittanbieters, das einen Blade-Server mit dem Windows Server 2008 R2-Betriebssystem, lync Server 2013 Registrierungsstelle, Vermittlungsserver Software und einem PSTN-Gateway in einem einzigen Gerätegehäuse enthält.</span><span class="sxs-lookup"><span data-stu-id="f404d-106">A Survivable Branch Appliance is a third-party device that includes a blade server running the Windows Server 2008 R2 operating system, Lync Server 2013 Registrar, Mediation Server software, and a PSTN gateway, all in a single appliance chassis.</span></span>
 
-<span data-ttu-id="02107-107">Für Zweigstellen mit 1.000-5.000-Benutzern und kein robustes WAN empfehlen wir einen Überlebenden Branch-Server, der mit einem PSTN-Gateway oder einem SIP-Trunk an einen Telefondienstanbieter angeschlossen ist.</span><span class="sxs-lookup"><span data-stu-id="02107-107">For branch sites with 1,000 to 5,000 users and no resilient WAN, we recommend a Survivable Branch Server connected to either a PSTN gateway or a SIP trunk to a telephone service provider.</span></span> <span data-ttu-id="02107-108">Ein Survivable Branch Server ist ein Windows Server-basierter Computer, auf dem die Registrierungsstelle und die Mediationsserver Software installiert ist.</span><span class="sxs-lookup"><span data-stu-id="02107-108">A Survivable Branch Server is a Windows Server-based computer that has Registrar and Mediation Server software installed on it.</span></span>
-
-<div>
-
-
-> [!NOTE]  
-> <span data-ttu-id="02107-109">Für Zweigstellen, die mehr als 5.000-Benutzer und dedizierte lync Server-Administratoren sind, empfehlen wir eine vollständige lync Server 2013-Bereitstellung, die von der des zentralen Standorts getrennt ist.</span><span class="sxs-lookup"><span data-stu-id="02107-109">For branch sites with more than 5,000 users and dedicated Lync Server administrators, we recommend a full Lync Server 2013 deployment, separate from that of the central site.</span></span><BR><span data-ttu-id="02107-110">Ausführliche Informationen zum Auswählen der besten Resilienz-Lösung für die Zweigstellen in Ihrer Organisation, einschließlich Voraussetzungen und Planungsüberlegungen, finden Sie unter Anforderungen an die <A href="lync-server-2013-branch-site-resiliency-requirements.md">Stabilität der Zweigstelle für lync Server 2013</A> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="02107-110">For details about choosing the best resiliency solution for the branch sites in your organization, including prerequisites and planning considerations, see <A href="lync-server-2013-branch-site-resiliency-requirements.md">Branch-site resiliency requirements for Lync Server 2013</A> in the Planning documentation.</span></span>
-
-
-
-</div>
+<span data-ttu-id="f404d-107">Für Zweigstellen mit 1.000 bis 5.000-Benutzern und ohne ausfallsicheres WAN empfehlen wir eine Survivable Branch Server, die mit einem PSTN-Gateway oder einem SIP-Trunk an einen Telefonanbieter verbunden ist.</span><span class="sxs-lookup"><span data-stu-id="f404d-107">For branch sites with 1,000 to 5,000 users and no resilient WAN, we recommend a Survivable Branch Server connected to either a PSTN gateway or a SIP trunk to a telephone service provider.</span></span> <span data-ttu-id="f404d-108">Ein Survivable Branch Server ist ein Windows Server-basierter Computer, auf dem die Registrierungsstellen-und Vermittlungsserver Software installiert ist.</span><span class="sxs-lookup"><span data-stu-id="f404d-108">A Survivable Branch Server is a Windows Server-based computer that has Registrar and Mediation Server software installed on it.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="02107-111">Benutzer, die sich in einer Überlebenden lync Server-Branch-Appliance befinden, können keine neuen Chatrooms erstellen oder die raumkarte für vorhandene Räume anzeigen.</span><span class="sxs-lookup"><span data-stu-id="02107-111">Users who are homed on a Lync Server Survivable Branch Appliance are unable to create new chat rooms or view the room card for existing rooms.</span></span>
+> <span data-ttu-id="f404d-109">Für Zweigstellenstandorte mit mehr als 5.000 Benutzern und dedizierten lync Server Administratoren wird eine vollständige lync Server 2013-Bereitstellung empfohlen, die sich von der des zentralen Standorts unterscheidet.</span><span class="sxs-lookup"><span data-stu-id="f404d-109">For branch sites with more than 5,000 users and dedicated Lync Server administrators, we recommend a full Lync Server 2013 deployment, separate from that of the central site.</span></span><BR><span data-ttu-id="f404d-110">Ausführliche Informationen zur Auswahl der besten ausfallsicherheitslösung für die Zweigstellenstandorte in Ihrer Organisation, einschließlich Voraussetzungen und Planungsüberlegungen, finden Sie unter Anforderungen an die <A href="lync-server-2013-branch-site-resiliency-requirements.md">Ausfallsicherheit an Zweigstellenstandorten für lync Server 2013</A> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="f404d-110">For details about choosing the best resiliency solution for the branch sites in your organization, including prerequisites and planning considerations, see <A href="lync-server-2013-branch-site-resiliency-requirements.md">Branch-site resiliency requirements for Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
@@ -65,26 +55,36 @@ ms.locfileid: "41729585"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="02107-112">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="02107-112">In This Section</span></span>
 
-  - [<span data-ttu-id="02107-113">Bereitstellen einer Survivable Branch Appliance oder eines Survivable Branch Servers mit Lync Server 2013 – Aufgaben am zentralen Standort</span><span class="sxs-lookup"><span data-stu-id="02107-113">Deploying a Survivable Branch Appliance or Server with Lync Server 2013 - central site tasks</span></span>](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md)
+> [!NOTE]  
+> <span data-ttu-id="f404d-111">Benutzer, die in einer lync Server Survivable Branch Appliance verwaltet werden, können keine neuen Chatrooms erstellen oder die raumkarte für vorhandene Räume anzeigen.</span><span class="sxs-lookup"><span data-stu-id="f404d-111">Users who are homed on a Lync Server Survivable Branch Appliance are unable to create new chat rooms or view the room card for existing rooms.</span></span>
 
-  - [<span data-ttu-id="02107-114">Bereitstellen einer Survivable Branch Appliance oder eines Survivable Branch Servers mit Lync Server 2013 – Aufgaben am Zweigstellenstandort</span><span class="sxs-lookup"><span data-stu-id="02107-114">Deploy a Survivable Branch Appliance or Server with Lync Server 2013 - branch site task</span></span>](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)
 
-  - [<span data-ttu-id="02107-115">Konfigurieren von Benutzern für Ausfallsicherheit für Zweigstellenstandorte in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="02107-115">Configuring users for branch site resiliency in Lync Server 2013</span></span>](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
-
-  - [<span data-ttu-id="02107-116">Verwalten von Benutzern in einer Survivable Branch Appliance oder auf einem Survivable Branch Server in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="02107-116">Home users on a Survivable Branch Appliance or Server in Lync Server 2013</span></span>](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)
-
-  - [<span data-ttu-id="02107-117">Anhänge: Survivable Branch Appliances und Survivable Branch Server in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="02107-117">Appendices: Survivable Branch Appliances and Servers in Lync Server 2013</span></span>](lync-server-2013-appendices-survivable-branch-appliances-and-servers.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="02107-118">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="02107-118">See Also</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f404d-112">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="f404d-112">In This Section</span></span>
+
+  - [<span data-ttu-id="f404d-113">Bereitstelleneiner Survivable Branch Appliance oder eines Servers mit lync Server 2013-zentralen Websiteaufgaben</span><span class="sxs-lookup"><span data-stu-id="f404d-113">Deploying a Survivable Branch Appliance or Server with Lync Server 2013 - central site tasks</span></span>](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md)
+
+  - [<span data-ttu-id="f404d-114">Bereitstelleneiner Survivable Branch Appliance oder eines Servers mit lync Server 2013-Branch-Standort Aufgabe</span><span class="sxs-lookup"><span data-stu-id="f404d-114">Deploy a Survivable Branch Appliance or Server with Lync Server 2013 - branch site task</span></span>](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md)
+
+  - [<span data-ttu-id="f404d-115">Konfigurieren von Benutzern für Ausfallsicherheit für Zweigstellenstandorte in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f404d-115">Configuring users for branch site resiliency in Lync Server 2013</span></span>](lync-server-2013-configuring-users-for-branch-site-resiliency.md)
+
+  - [<span data-ttu-id="f404d-116">Privatbenutzer auf einem Survivable Branch Appliance oder Server in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f404d-116">Home users on a Survivable Branch Appliance or Server in Lync Server 2013</span></span>](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md)
+
+  - [<span data-ttu-id="f404d-117">Anhänge: Survivable Branch Appliances und Server in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f404d-117">Appendices: Survivable Branch Appliances and Servers in Lync Server 2013</span></span>](lync-server-2013-appendices-survivable-branch-appliances-and-servers.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="f404d-118">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="f404d-118">See Also</span></span>
 
 
-[<span data-ttu-id="02107-119">Bereitstellen von Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="02107-119">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)  
+[<span data-ttu-id="f404d-119">Bereitstellen von Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f404d-119">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)  
   
 
 </div>

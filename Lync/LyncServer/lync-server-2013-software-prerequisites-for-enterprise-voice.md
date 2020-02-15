@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Erforderliche Software für Enterprise-VoIP'
+title: 'Lync Server 2013: Software Voraussetzungen für Enterprise-VoIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb85a8da9fe0d009f46ef23b919aeb9fd006fab4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dc6c5e5f3f9fc92f56ee1f044419f67f5ded32ce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731895"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987020"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="c8bc6-102">Erforderliche Software für Enterprise-VoIP in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c8bc6-102">Software prerequisites for Enterprise Voice in Lync Server 2013</span></span>
+# <a name="software-prerequisites-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="0ef0c-102">Software Voraussetzungen für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0ef0c-102">Software prerequisites for Enterprise Voice in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41731895"
 
 <span> </span>
 
-<span data-ttu-id="c8bc6-103">_**Letztes Änderungsdatum des Themas:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="c8bc6-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="0ef0c-103">_**Letztes Änderungsstand des Themas:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="0ef0c-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="c8bc6-104">Überprüfen Sie, ob die Infrastruktur, in der Sie Enterprise-VoIP bereitstellen möchten, die folgenden Softwarevoraussetzungen erfüllt:</span><span class="sxs-lookup"><span data-stu-id="c8bc6-104">Verify that the infrastructure in which you intend to deploy Enterprise Voice meets the following software prerequisites:</span></span>
+<span data-ttu-id="0ef0c-104">Stellen Sie sicher, dass die zur Bereitstellung von Enterprise-VoIP vorgesehene Infrastruktur die folgenden Softwareanforderungen erfüllt:</span><span class="sxs-lookup"><span data-stu-id="0ef0c-104">Verify that the infrastructure in which you intend to deploy Enterprise Voice meets the following software prerequisites:</span></span>
 
-  - <span data-ttu-id="c8bc6-105">Lync Server 2013 Standard Edition oder Enterprise Edition ist in Ihrem Netzwerk installiert und betriebsbereit.</span><span class="sxs-lookup"><span data-stu-id="c8bc6-105">Lync Server 2013 Standard Edition or Enterprise Edition is installed and operational on your network.</span></span>
+  - <span data-ttu-id="0ef0c-105">Lync Server 2013 Standard Edition oder Enterprise Edition ist in Ihrem Netzwerk installiert und betriebsbereit.</span><span class="sxs-lookup"><span data-stu-id="0ef0c-105">Lync Server 2013 Standard Edition or Enterprise Edition is installed and operational on your network.</span></span>
 
-  - <span data-ttu-id="c8bc6-106">Alle Edgeserver werden in Ihrem Umkreisnetzwerk bereitgestellt und in Betrieb genommen, einschließlich Edgeserver mit Access Edge-Dienst, a/V-Edgedienst, Webkonferenz-Edgedienst und einem Reverse-Proxy.</span><span class="sxs-lookup"><span data-stu-id="c8bc6-106">All Edge Servers are deployed and operational in your perimeter network, including Edge Servers running Access Edge service, A/V Edge service, Web Conferencing Edge service, and a reverse proxy.</span></span>
+  - <span data-ttu-id="0ef0c-106">Alle Edgeserver werden in Ihrem Umkreisnetzwerk bereitgestellt und in Betrieb genommen, einschließlich Edgeserver mit Zugriffs-Edgedienst, A/V-Edgedienst, Webkonferenz-Edgedienst und einem Reverseproxy.</span><span class="sxs-lookup"><span data-stu-id="0ef0c-106">All Edge Servers are deployed and operational in your perimeter network, including Edge Servers running Access Edge service, A/V Edge service, Web Conferencing Edge service, and a reverse proxy.</span></span>
 
-  - <span data-ttu-id="c8bc6-107">Entweder Microsoft Exchange Server 2007 Service Pack 3 (SP3), Microsoft Exchange Server 2010 oder Microsoft Exchange Server 2013 ist für die Integration von Exchange Unified Messaging mit lync Server erforderlich und bietet umfangreiche Benachrichtigungen und Anrufprotokoll Informationen für die Lync-Endpunkte</span><span class="sxs-lookup"><span data-stu-id="c8bc6-107">Either Microsoft Exchange Server 2007 Service Pack 3 (SP3), Microsoft Exchange Server 2010 or Microsoft Exchange Server 2013 is required for integrating Exchange Unified Messaging with Lync Server and to provide rich notifications and call log information to the Lync endpoints.</span></span>
+  - <span data-ttu-id="0ef0c-107">Für die Integration von Exchange Unified Messaging mit lync Server ist entweder Microsoft Exchange Server 2007 Service Pack 3 (SP3), Microsoft Exchange Server 2010 oder Microsoft Exchange Server 2013 erforderlich, und Sie erhalten umfangreiche Benachrichtigungen und Anrufprotokoll Informationen für Lync-Endpunkte.</span><span class="sxs-lookup"><span data-stu-id="0ef0c-107">Either Microsoft Exchange Server 2007 Service Pack 3 (SP3), Microsoft Exchange Server 2010 or Microsoft Exchange Server 2013 is required for integrating Exchange Unified Messaging with Lync Server and to provide rich notifications and call log information to the Lync endpoints.</span></span>
 
-  - <span data-ttu-id="c8bc6-108">Mindestens ein Benutzer wurde für lync Server erstellt und aktiviert.</span><span class="sxs-lookup"><span data-stu-id="c8bc6-108">One or more users have been created and enabled for Lync Server.</span></span>
+  - <span data-ttu-id="0ef0c-108">Mindestens ein Benutzer wurde für lync Server erstellt und aktiviert.</span><span class="sxs-lookup"><span data-stu-id="0ef0c-108">One or more users have been created and enabled for Lync Server.</span></span>
 
-  - <span data-ttu-id="c8bc6-109">Lync-Clients und-Geräte wurden erfolgreich bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="c8bc6-109">Lync clients and devices have been successfully deployed.</span></span>
+  - <span data-ttu-id="0ef0c-109">Lync-Clients und-Geräte wurden erfolgreich bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="0ef0c-109">Lync clients and devices have been successfully deployed.</span></span>
 
-  - <span data-ttu-id="c8bc6-110">Der Topologie-Generator ist auf einem Server in Ihrem Netzwerk installiert.</span><span class="sxs-lookup"><span data-stu-id="c8bc6-110">Topology Builder is installed on a server on your network.</span></span>
+  - <span data-ttu-id="0ef0c-110">Der Topologie-Generator wird auf einem Server in Ihrem Netzwerk installiert.</span><span class="sxs-lookup"><span data-stu-id="0ef0c-110">Topology Builder is installed on a server on your network.</span></span>
 
 <div>
 
-## <a name="next-steps-verify-security-and-configuration-prerequisites"></a><span data-ttu-id="c8bc6-111">Nächste Schritte: Überprüfen der Voraussetzungen für Sicherheit und Konfiguration</span><span class="sxs-lookup"><span data-stu-id="c8bc6-111">Next Steps: Verify Security and Configuration Prerequisites</span></span>
+## <a name="next-steps-verify-security-and-configuration-prerequisites"></a><span data-ttu-id="0ef0c-111">Nächste Schritte: Überprüfen der Anforderungen an Sicherheit und Konfiguration</span><span class="sxs-lookup"><span data-stu-id="0ef0c-111">Next Steps: Verify Security and Configuration Prerequisites</span></span>
 
-<span data-ttu-id="c8bc6-112">Nachdem Sie die Softwarevoraussetzungen für Enterprise-VoIP überprüft haben, können Sie die Dokumentation verwenden, um die Bereitstellung von Enterprise-VoIP weiter vorzubereiten:</span><span class="sxs-lookup"><span data-stu-id="c8bc6-112">After verifying software prerequisites for Enterprise Voice, you can use the documentation to continue preparing for deploying Enterprise Voice:</span></span>
+<span data-ttu-id="0ef0c-112">Nachdem Sie sich vergewissert haben, dass die Softwareanforderungen für Enterprise-VoIP erfüllt wurden, können Sie anhand der folgenden Dokumentation die Bereitstellung von Enterprise-VoIP weiter vorbereiten:</span><span class="sxs-lookup"><span data-stu-id="0ef0c-112">After verifying software prerequisites for Enterprise Voice, you can use the documentation to continue preparing for deploying Enterprise Voice:</span></span>
 
-1.  <span data-ttu-id="c8bc6-113">Überprüfen Sie die Sicherheits-, Benutzer-und Hardware Vergünstigungen, wie unter [Sicherheits-und Konfigurationsvoraussetzungen für Enterprise-VoIP in lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)beschrieben.</span><span class="sxs-lookup"><span data-stu-id="c8bc6-113">Verify security, user configuration, and hardware perquisites, as described in [Security and configuration prerequisites for Enterprise Voice in Lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md).</span></span>
+1.  <span data-ttu-id="0ef0c-113">Überprüfen Sie die Sicherheit, Benutzerkonfiguration und Hardware Vergünstigungen, wie unter [Sicherheits-und Konfigurationsvoraussetzungen für Enterprise-VoIP in lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)beschrieben.</span><span class="sxs-lookup"><span data-stu-id="0ef0c-113">Verify security, user configuration, and hardware perquisites, as described in [Security and configuration prerequisites for Enterprise Voice in Lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md).</span></span>
 
-2.  <span data-ttu-id="c8bc6-114">Installieren Sie den Vermittlungsserver, wie unter [Installieren der Dateien für den Vermittlungsserver in lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md)beschrieben, aber *nur* , wenn Sie einen eigenständigen Vermittlungsserver oder-Pool bereitstellen möchten, da Vermittlungsserver als Teil des Front-End-Pools oder des Standard Edition-Server Bereitstellungsprozesses installiert werden, wenn Sie zusammengestellt sind.</span><span class="sxs-lookup"><span data-stu-id="c8bc6-114">Install the Mediation Server, as described in [Install the files for Mediation Server in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), but *only* if you want to deploy a stand-alone Mediation Server or pool because Mediation Servers are installed as part of the Front End pool or Standard Edition server deployment process when collocated.</span></span>
+2.  <span data-ttu-id="0ef0c-114">Installieren Sie die Vermittlungsserver, wie in [Installieren der Dateien für Vermittlungsserver in lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md)beschrieben, jedoch *nur* , wenn Sie eine eigenständige Vermittlungsserver oder einen Pool bereitstellen möchten, da Vermittlungsserver im Rahmen des Front-End-Pool-oder Standard Edition-Server Bereitstellungsprozesses installiert werden.</span><span class="sxs-lookup"><span data-stu-id="0ef0c-114">Install the Mediation Server, as described in [Install the files for Mediation Server in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), but *only* if you want to deploy a stand-alone Mediation Server or pool because Mediation Servers are installed as part of the Front End pool or Standard Edition server deployment process when collocated.</span></span>
 
-3.  <span data-ttu-id="c8bc6-115">Konfigurieren Sie trunk-Verbindungen, um PSTN-Konnektivität für Benutzer bereitzustellen, wie unter [Konfigurieren von Trunks in lync Server 2013](lync-server-2013-configuring-trunks.md)beschrieben.</span><span class="sxs-lookup"><span data-stu-id="c8bc6-115">Configure trunk connections to provide PSTN connectivity for users, as described in [Configuring trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md).</span></span>
+3.  <span data-ttu-id="0ef0c-115">Konfigurieren Sie trunk Verbindungen für die Bereitstellung der PSTN-Konnektivität für Benutzer, wie unter [Configuring Trunks in lync Server 2013](lync-server-2013-configuring-trunks.md)beschrieben.</span><span class="sxs-lookup"><span data-stu-id="0ef0c-115">Configure trunk connections to provide PSTN connectivity for users, as described in [Configuring trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md).</span></span>
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Testen der lync Phone Edition-Anmeldung'
+title: 'Lync Server 2013: Testen der Anmeldung von lync Phone Edition'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969583
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bfce8b1e034fd9772e10178366b0ed524fdbd55
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dbacccabc98829c90e01dc49099b65b829274c82
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745665"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034585"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-lync-phone-edition-login-in-lync-server-2013"></a><span data-ttu-id="e6923-102">Testen der lync Phone Edition-Anmeldung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6923-102">Testing Lync Phone Edition login in Lync Server 2013</span></span>
+# <a name="testing-lync-phone-edition-login-in-lync-server-2013"></a><span data-ttu-id="850bb-102">Testen von lync Phone Edition Anmeldung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="850bb-102">Testing Lync Phone Edition login in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745665"
 
 <span> </span>
 
-<span data-ttu-id="e6923-103">_**Letztes Änderungsdatum des Themas:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="e6923-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="850bb-103">_**Letztes Änderungsstand des Themas:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="850bb-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "41745665"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e6923-104">Überprüfungszeitplan</span><span class="sxs-lookup"><span data-stu-id="e6923-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="e6923-105">Täglich</span><span class="sxs-lookup"><span data-stu-id="e6923-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="850bb-104">Überprüfungszeitplan</span><span class="sxs-lookup"><span data-stu-id="850bb-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="850bb-105">Täglich</span><span class="sxs-lookup"><span data-stu-id="850bb-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e6923-106">Test Tool</span><span class="sxs-lookup"><span data-stu-id="e6923-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="e6923-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="e6923-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="850bb-106">Test Tool</span><span class="sxs-lookup"><span data-stu-id="850bb-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="850bb-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="850bb-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e6923-108">Erforderliche Berechtigungen</span><span class="sxs-lookup"><span data-stu-id="e6923-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="e6923-109">Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</span><span class="sxs-lookup"><span data-stu-id="e6923-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="e6923-110">Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsPhoneBootstrap-Cmdlets verfügt.</span><span class="sxs-lookup"><span data-stu-id="e6923-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsPhoneBootstrap cmdlet.</span></span> <span data-ttu-id="e6923-111">Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</span><span class="sxs-lookup"><span data-stu-id="e6923-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="850bb-108">Erforderliche Berechtigungen</span><span class="sxs-lookup"><span data-stu-id="850bb-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="850bb-109">Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</span><span class="sxs-lookup"><span data-stu-id="850bb-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="850bb-110">Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-csphonebootstrap aus verfügt.</span><span class="sxs-lookup"><span data-stu-id="850bb-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsPhoneBootstrap cmdlet.</span></span> <span data-ttu-id="850bb-111">Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</span><span class="sxs-lookup"><span data-stu-id="850bb-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsPhoneBootstrap&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,109 +64,109 @@ ms.locfileid: "41745665"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="e6923-112">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="e6923-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="850bb-112">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="850bb-112">Description</span></span>
 
-<span data-ttu-id="e6923-113">Mit dem Cmdlet Test-CsPhoneBootstrap können Administratoren überprüfen, ob ein bestimmter Benutzer – unter Verwendung der ihm zugewiesenen Telefonnummer und der ihm zugewiesenen PIN – sich über ein lync 2013 Phone Edition-kompatibles Gerät am System anmelden kann.</span><span class="sxs-lookup"><span data-stu-id="e6923-113">The Test-CsPhoneBootstrap cmdlet enables administrators to verify that a given user—using the phone number and PIN assigned to him or her—can log on to the system from a Lync 2013 Phone Edition-compatible device.</span></span> <span data-ttu-id="e6923-114">(Für die Ausführung des Tests ist eigentlich kein Gerät erforderlich.)</span><span class="sxs-lookup"><span data-stu-id="e6923-114">(No device is actually needed to run the test.)</span></span>
+<span data-ttu-id="850bb-113">Mit dem Cmdlet Test-csphonebootstrap aus können Administratoren überprüfen, ob ein bestimmter Benutzer – unter Verwendung der ihm zugewiesenen Telefonnummer und PIN – sich über ein lync 2013 Phone Edition kompatibles Gerät beim System anmelden kann.</span><span class="sxs-lookup"><span data-stu-id="850bb-113">The Test-CsPhoneBootstrap cmdlet enables administrators to verify that a given user—using the phone number and PIN assigned to him or her—can log on to the system from a Lync 2013 Phone Edition-compatible device.</span></span> <span data-ttu-id="850bb-114">(Zum Ausführen des Tests ist tatsächlich kein Gerät erforderlich.)</span><span class="sxs-lookup"><span data-stu-id="850bb-114">(No device is actually needed to run the test.)</span></span>
 
-<span data-ttu-id="e6923-115">Damit Test-CsPhoneBootstrap seine Prüfung durchführen kann, muss der Registrierungspool, der das getestete Benutzerkonto hostet, mithilfe von DHCP auffindbar sein.</span><span class="sxs-lookup"><span data-stu-id="e6923-115">In order for Test-CsPhoneBootstrap to make its check, the Registrar pool that hosts the user account being tested must be discoverable using DHCP.</span></span> <span data-ttu-id="e6923-116">Um zu ermitteln, ob eine Registrierungsstelle auf diese Weise auffindbar ist, verwenden Sie das Cmdlet Get-CsRegistrarConfiguration, und überprüfen Sie den Wert der EnableDHCPServer-Eigenschaft.</span><span class="sxs-lookup"><span data-stu-id="e6923-116">To determine whether a Registrar is discoverable in this manner, use the cmdlet Get-CsRegistrarConfiguration and check the value of the EnableDHCPServer property.</span></span> <span data-ttu-id="e6923-117">Wenn diese Eigenschaft auf "false" festgelegt ist, müssen Sie "CsRegistrarConfiguration" verwenden, um den Eigenschaftswert auf "true" festzulegen und die Registrierungsstelle mithilfe von DHCP auffindbar zu machen.</span><span class="sxs-lookup"><span data-stu-id="e6923-117">If this property is set to False, you must use Set-CsRegistrarConfiguration to set the property value to True and make the Registrar discoverable using DHCP.</span></span> <span data-ttu-id="e6923-118">Dies kann auch über den Enterprise-DHCP-Server und die Konfiguration der lync Server-spezifischen Optionen erfolgen.</span><span class="sxs-lookup"><span data-stu-id="e6923-118">This can also be done by using Enterprise DHCP Server and configuring the Lync Server-specific options.</span></span>
+<span data-ttu-id="850bb-115">Damit Test-CsPhoneBootstrap den Test durchführen kann, muss der Registrierungsstellenpool, der das zu testende Benutzerkonto hostet, mit DHCP erkannt werden.</span><span class="sxs-lookup"><span data-stu-id="850bb-115">In order for Test-CsPhoneBootstrap to make its check, the Registrar pool that hosts the user account being tested must be discoverable using DHCP.</span></span> <span data-ttu-id="850bb-116">Um zu ermitteln, ob eine Registrierungsstelle auf diese Weise erkannt werden kann, verwenden Sie das Cmdlet Get-CsRegistrarConfiguration, und überprüfen Sie den Wert der EnableDHCPServer-Eigenschaft.</span><span class="sxs-lookup"><span data-stu-id="850bb-116">To determine whether a Registrar is discoverable in this manner, use the cmdlet Get-CsRegistrarConfiguration and check the value of the EnableDHCPServer property.</span></span> <span data-ttu-id="850bb-117">Wenn diese Eigenschaft auf false festgelegt ist, müssen Sie mit setCsRegistrarConfiguration den Eigenschaftswert auf true festlegen und die Registrierungsstelle mithilfe von DHCP auffindbar machen.</span><span class="sxs-lookup"><span data-stu-id="850bb-117">If this property is set to False, you must use Set-CsRegistrarConfiguration to set the property value to True and make the Registrar discoverable using DHCP.</span></span> <span data-ttu-id="850bb-118">Dies kann auch mithilfe des Enterprise-DHCP-Servers und der Konfiguration der lync Server spezifischen Optionen erfolgen.</span><span class="sxs-lookup"><span data-stu-id="850bb-118">This can also be done by using Enterprise DHCP Server and configuring the Lync Server-specific options.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="e6923-119">Ausführen des Tests</span><span class="sxs-lookup"><span data-stu-id="e6923-119">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="850bb-119">Durchführen des Tests</span><span class="sxs-lookup"><span data-stu-id="850bb-119">Running the test</span></span>
 
-<span data-ttu-id="e6923-120">Damit Sie das Cmdlet Test-CsPhoneBootstrap ausführen können, müssen Sie mindestens die Telefonnummer und die persönliche Identifikationsnummer (PIN) des Clients für einen gültigen lync Server-Benutzer angeben.</span><span class="sxs-lookup"><span data-stu-id="e6923-120">To run the Test-CsPhoneBootstrap cmdlet, you must, at a minimum, supply the phone number and client personal identification number (PIN) for a valid Lync Server user.</span></span> <span data-ttu-id="e6923-121">Dieser Befehl testet beispielsweise die Anmeldefähigkeit des Benutzers, der die Telefonnummer 12065551219 und die PIN 0712 hat:</span><span class="sxs-lookup"><span data-stu-id="e6923-121">For example, this command tests the logon ability for the user who has the phone number 12065551219 and the PIN 0712:</span></span>
+<span data-ttu-id="850bb-120">Damit Sie das Cmdlet Test-csphonebootstrap aus ausführen können, müssen Sie mindestens die Telefonnummer und die persönliche Identifikationsnummer (PIN) des Clients für einen gültigen lync Server Benutzer angeben.</span><span class="sxs-lookup"><span data-stu-id="850bb-120">To run the Test-CsPhoneBootstrap cmdlet, you must, at a minimum, supply the phone number and client personal identification number (PIN) for a valid Lync Server user.</span></span> <span data-ttu-id="850bb-121">Beispielsweise testet dieser Befehl die Anmeldefähigkeit für den Benutzer mit der Telefonnummer 12065551219 und dem PIN 0712:</span><span class="sxs-lookup"><span data-stu-id="850bb-121">For example, this command tests the logon ability for the user who has the phone number 12065551219 and the PIN 0712:</span></span>
 
     Test-CsPhoneBootstrap -PhoneOrExt "+12065551219" -Pin "0712"
 
-<span data-ttu-id="e6923-122">Für eine umfassendere Überprüfung können Sie auch die SIP-Adresse des Benutzers angeben.</span><span class="sxs-lookup"><span data-stu-id="e6923-122">For a more comprehensive check, you can also include the user’s SIP address.</span></span> <span data-ttu-id="e6923-123">In diesem Fall müssen die Telefonnummer, die Client-PIN und die SIP-Adresse gültig sein, damit der Test erfolgreich ist:</span><span class="sxs-lookup"><span data-stu-id="e6923-123">In that case, the phone number, client PIN, and SIP address must all be valid for the test to succeed:</span></span>
+<span data-ttu-id="850bb-122">Für eine umfassendere Überprüfung können Sie auch die SIP-Adresse des Benutzers einschließen.</span><span class="sxs-lookup"><span data-stu-id="850bb-122">For a more comprehensive check, you can also include the user’s SIP address.</span></span> <span data-ttu-id="850bb-123">In diesem Fall müssen die Telefonnummer, die Client-PIN und die SIP-Adresse gültig sein, damit der Test erfolgreich ausgeführt wird:</span><span class="sxs-lookup"><span data-stu-id="850bb-123">In that case, the phone number, client PIN, and SIP address must all be valid for the test to succeed:</span></span>
 
     Test-CsPhoneBootstrap -PhoneOrExt "+12065551219" -Pin "0712" -UserSipAddress "sip:kenmyer@litwareinc.com"
 
-<span data-ttu-id="e6923-124">Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsPhoneBootstrap](https://docs.microsoft.com/powershell/module/skype/Test-CsPhoneBootstrap) .</span><span class="sxs-lookup"><span data-stu-id="e6923-124">For more information, see the Help documentation for the [Test-CsPhoneBootstrap](https://docs.microsoft.com/powershell/module/skype/Test-CsPhoneBootstrap) cmdlet.</span></span>
+<span data-ttu-id="850bb-124">Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-csphonebootstrap aus](https://docs.microsoft.com/powershell/module/skype/Test-CsPhoneBootstrap) .</span><span class="sxs-lookup"><span data-stu-id="850bb-124">For more information, see the Help documentation for the [Test-CsPhoneBootstrap](https://docs.microsoft.com/powershell/module/skype/Test-CsPhoneBootstrap) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="e6923-125">Ermitteln von Erfolg oder Misserfolg</span><span class="sxs-lookup"><span data-stu-id="e6923-125">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="850bb-125">Bestimmen des Erfolgs oder Fehlers</span><span class="sxs-lookup"><span data-stu-id="850bb-125">Determining success or failure</span></span>
 
-<span data-ttu-id="e6923-126">Wenn der angegebene Benutzer eine Verbindung mit lync Server herstellen konnte, erhalten Sie eine ähnliche Ausgabe, wobei die Result-Eigenschaft als erfolgreich markiert wurde **:**</span><span class="sxs-lookup"><span data-stu-id="e6923-126">If the specified user was able to connect to Lync Server, you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
+<span data-ttu-id="850bb-126">Wenn der angegebene Benutzer eine Verbindung mit lync Server herstellen konnte, erhalten Sie eine ähnliche Ausgabe, wobei die Result-Eigenschaft als Success markiert wurde **:**</span><span class="sxs-lookup"><span data-stu-id="850bb-126">If the specified user was able to connect to Lync Server, you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
 
-<span data-ttu-id="e6923-127">TargetUrihttps://atl-cs-001.litwareinc.com:443/CertProv/</span><span class="sxs-lookup"><span data-stu-id="e6923-127">TargetUri : https://atl-cs-001.litwareinc.com:443/CertProv/</span></span>
+<span data-ttu-id="850bb-127">TargetUrihttps://atl-cs-001.litwareinc.com:443/CertProv/</span><span class="sxs-lookup"><span data-stu-id="850bb-127">TargetUri : https://atl-cs-001.litwareinc.com:443/CertProv/</span></span>
 
-<span data-ttu-id="e6923-128">CertProvisioningService. svc</span><span class="sxs-lookup"><span data-stu-id="e6923-128">CertProvisioningService.svc</span></span>
+<span data-ttu-id="850bb-128">CertProvisioningService. svc</span><span class="sxs-lookup"><span data-stu-id="850bb-128">CertProvisioningService.svc</span></span>
 
-<span data-ttu-id="e6923-129">TargetFqdn: ATL-CS-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="e6923-129">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="850bb-129">TargetFqdn: ATL-CS-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="850bb-129">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="e6923-130">Ergebnis: Erfolg</span><span class="sxs-lookup"><span data-stu-id="e6923-130">Result : Success</span></span>
+<span data-ttu-id="850bb-130">Ergebnis: Success</span><span class="sxs-lookup"><span data-stu-id="850bb-130">Result : Success</span></span>
 
-<span data-ttu-id="e6923-131">Latenz: 00:00:06.3981276</span><span class="sxs-lookup"><span data-stu-id="e6923-131">Latency : 00:00:06.3981276</span></span>
+<span data-ttu-id="850bb-131">Wartezeit: 00:00:06.3981276</span><span class="sxs-lookup"><span data-stu-id="850bb-131">Latency : 00:00:06.3981276</span></span>
 
-<span data-ttu-id="e6923-132">Fehler</span><span class="sxs-lookup"><span data-stu-id="e6923-132">Error :</span></span>
+<span data-ttu-id="850bb-132">Fehler</span><span class="sxs-lookup"><span data-stu-id="850bb-132">Error :</span></span>
 
-<span data-ttu-id="e6923-133">Diagnose</span><span class="sxs-lookup"><span data-stu-id="e6923-133">Diagnosis :</span></span>
+<span data-ttu-id="850bb-133">Diagnose</span><span class="sxs-lookup"><span data-stu-id="850bb-133">Diagnosis :</span></span>
 
-<span data-ttu-id="e6923-134">Wenn der angegebene Benutzer keine Verbindung herstellen konnte, wird das Ergebnis als Fehler angezeigt, und weitere Informationen werden in den Eigenschaften Fehler und Diagnose aufgezeichnet:</span><span class="sxs-lookup"><span data-stu-id="e6923-134">If the specified user was not able to make a connection, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="850bb-134">Wenn der angegebene Benutzer keine Verbindung herstellen konnte, wird das Ergebnis als Fehler angezeigt, und in den Eigenschaften Error und Diagnostic werden zusätzliche Informationen aufgezeichnet:</span><span class="sxs-lookup"><span data-stu-id="850bb-134">If the specified user was not able to make a connection, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="e6923-135">TargetFqdn: ATL-CS-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="e6923-135">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="850bb-135">TargetFqdn: ATL-CS-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="850bb-135">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="e6923-136">Ergebnis: Fehler</span><span class="sxs-lookup"><span data-stu-id="e6923-136">Result : Failure</span></span>
+<span data-ttu-id="850bb-136">Ergebnis: Fehler</span><span class="sxs-lookup"><span data-stu-id="850bb-136">Result : Failure</span></span>
 
-<span data-ttu-id="e6923-137">Latenz: 00:00:04.1993845</span><span class="sxs-lookup"><span data-stu-id="e6923-137">Latency : 00:00:04.1993845</span></span>
+<span data-ttu-id="850bb-137">Wartezeit: 00:00:04.1993845</span><span class="sxs-lookup"><span data-stu-id="850bb-137">Latency : 00:00:04.1993845</span></span>
 
-<span data-ttu-id="e6923-138">Fehler: Fehler – es wurde keine Antwort für den Web-Ticket-Dienst empfangen.</span><span class="sxs-lookup"><span data-stu-id="e6923-138">Error : ERROR - No response received for Web-Ticket service.</span></span>
+<span data-ttu-id="850bb-138">Fehler: Fehler – es wurde keine Antwort für den WebTICKET Dienst empfangen.</span><span class="sxs-lookup"><span data-stu-id="850bb-138">Error : ERROR - No response received for Web-Ticket service.</span></span>
 
-<span data-ttu-id="e6923-139">Diagnose</span><span class="sxs-lookup"><span data-stu-id="e6923-139">Diagnosis :</span></span>
+<span data-ttu-id="850bb-139">Diagnose</span><span class="sxs-lookup"><span data-stu-id="850bb-139">Diagnosis :</span></span>
 
-<span data-ttu-id="e6923-140">In der vorherigen Ausgabe wird angegeben, dass der Test fehlgeschlagen ist, weil der Web-Ticket Dienst nicht reagiert hat.</span><span class="sxs-lookup"><span data-stu-id="e6923-140">The previous output states that the test failed because the Web Ticket service did not respond.</span></span> <span data-ttu-id="e6923-141">Dies kann auf ein Problem mit dem Dienst selbst zurückzuführen sein, oder es kann daran liegen, dass die SIP-Adresse, die Telefonnummer oder die Client-PIN an Test-CsPhoneBootstrap übergeben wurde.</span><span class="sxs-lookup"><span data-stu-id="e6923-141">This could be due to a problem with the service itself, or it might be due to the SIP address, phone number, or client PIN passed to Test-CsPhoneBootstrap.</span></span> <span data-ttu-id="e6923-142">Sie können die SIP-Adresse und Telefonnummer des Benutzers mithilfe eines Befehls wie den folgenden überprüfen:</span><span class="sxs-lookup"><span data-stu-id="e6923-142">You can verify the user’s SIP address and phone number by using a command similar to this one:</span></span>
+<span data-ttu-id="850bb-140">Die vorherige Ausgabe besagt, dass der Test fehlgeschlagen ist, da der webticketdienst nicht antwortete.</span><span class="sxs-lookup"><span data-stu-id="850bb-140">The previous output states that the test failed because the Web Ticket service did not respond.</span></span> <span data-ttu-id="850bb-141">Dies kann auf ein Problem mit dem Dienst selbst oder auf die SIP-Adresse, Telefonnummer oder Client-Pin zurückzuführen sein, die an Test-csphonebootstrap aus übergeben wurde.</span><span class="sxs-lookup"><span data-stu-id="850bb-141">This could be due to a problem with the service itself, or it might be due to the SIP address, phone number, or client PIN passed to Test-CsPhoneBootstrap.</span></span> <span data-ttu-id="850bb-142">Sie können die SIP-Adresse und Telefonnummer des Benutzers überprüfen, indem Sie einen Befehl wie den folgenden verwenden:</span><span class="sxs-lookup"><span data-stu-id="850bb-142">You can verify the user’s SIP address and phone number by using a command similar to this one:</span></span>
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object SipAddress, LineUri
 
-<span data-ttu-id="e6923-143">Und Sie können überprüfen, ob der Benutzer über eine gültige Pin verfügt, indem Sie einen Befehl wie folgt verwenden:</span><span class="sxs-lookup"><span data-stu-id="e6923-143">And you can verify that the user has a valid PIN by using a command as follows:</span></span>
+<span data-ttu-id="850bb-143">Sie können überprüfen, ob der Benutzer über eine gültige Pin verfügt, indem Sie einen Befehl wie folgt verwenden:</span><span class="sxs-lookup"><span data-stu-id="850bb-143">And you can verify that the user has a valid PIN by using a command as follows:</span></span>
 
     Get-CsClientPinInfo -Identity "sip:kenmyer@litwareinc.com" 
 
-<span data-ttu-id="e6923-144">Wenn Test-CsPhoneBootstrap fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, wobei dieser Zeitpunkt einschließlich des Verbose-Parameters lautet:</span><span class="sxs-lookup"><span data-stu-id="e6923-144">If Test-CsPhoneBootstrap fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
+<span data-ttu-id="850bb-144">Wenn Test-csphonebootstrap aus fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, dieses Mal einschließlich des Parameters verbose:</span><span class="sxs-lookup"><span data-stu-id="850bb-144">If Test-CsPhoneBootstrap fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
 
     Test-CsPhoneBootstrap -PhoneOrExt "+12065551219" -Pin "0712" -Verbose
 
-<span data-ttu-id="e6923-145">Wenn der Verbose-Parameter enthalten ist, gibt Test-CsPhoneBootstrap eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als die Möglichkeit des angegebenen Benutzers zur Anmeldung bei lync Server überprüft wurde.</span><span class="sxs-lookup"><span data-stu-id="e6923-145">When the Verbose parameter is included, Test-CsPhoneBootstrap will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server.</span></span> <span data-ttu-id="e6923-146">Hier sehen Sie beispielsweise einen Teil der Ausgabe für eine erfolglose Anmeldung, eine Sitzung, in der eine falsche PIN enthalten war:</span><span class="sxs-lookup"><span data-stu-id="e6923-146">For example, here is a portion of the output for an unsuccessful logon, a session in which an incorrect PIN was included:</span></span>
+<span data-ttu-id="850bb-145">Wenn der Verbose-Parameter enthalten ist, gibt Test-csphonebootstrap aus eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als er die Fähigkeit des angegebenen Benutzers zur Anmeldung bei lync Server überprüft hat.</span><span class="sxs-lookup"><span data-stu-id="850bb-145">When the Verbose parameter is included, Test-CsPhoneBootstrap will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server.</span></span> <span data-ttu-id="850bb-146">Hier ist beispielsweise ein Teil der Ausgabe für eine nicht erfolgreiche Anmeldung, eine Sitzung, in der eine falsche PIN enthalten war:</span><span class="sxs-lookup"><span data-stu-id="850bb-146">For example, here is a portion of the output for an unsuccessful logon, a session in which an incorrect PIN was included:</span></span>
 
-<span data-ttu-id="e6923-147">Verwenden der PIN-Authentifizierung\\mit Telefon extern: 12065551219-PIN: 0712</span><span class="sxs-lookup"><span data-stu-id="e6923-147">Using PIN auth with Phone\\Ext : 12065551219 Pin : 0712</span></span>
+<span data-ttu-id="850bb-147">Verwenden der PIN-Authentifizierung\\mit Telefon-ext: 12065551219-PIN: 0712</span><span class="sxs-lookup"><span data-stu-id="850bb-147">Using PIN auth with Phone\\Ext : 12065551219 Pin : 0712</span></span>
 
-<span data-ttu-id="e6923-148">Web-Ticket konnte nicht abgerufen werden</span><span class="sxs-lookup"><span data-stu-id="e6923-148">Could not get web ticket</span></span>
+<span data-ttu-id="850bb-148">Das Webdienst Ticket konnte nicht abgerufen werden.</span><span class="sxs-lookup"><span data-stu-id="850bb-148">Could not get web ticket</span></span>
 
-<span data-ttu-id="e6923-149">Kontroll</span><span class="sxs-lookup"><span data-stu-id="e6923-149">CHECK :</span></span>
+<span data-ttu-id="850bb-149">Kontroll</span><span class="sxs-lookup"><span data-stu-id="850bb-149">CHECK :</span></span>
 
-<span data-ttu-id="e6923-150">\-Die Webdienst-URL ist gültig, und die Webdienste funktionieren.</span><span class="sxs-lookup"><span data-stu-id="e6923-150">\- Web service url is valid and the web services are functional</span></span>
+<span data-ttu-id="850bb-150">\-Die Webdienst-URL ist gültig, und die Webdienste sind funktionsfähig.</span><span class="sxs-lookup"><span data-stu-id="850bb-150">\- Web service url is valid and the web services are functional</span></span>
 
-<span data-ttu-id="e6923-151">\-Wenn Sie die\\PhoneNo-Pin zur Authentifizierung verwenden, stellen Sie sicher, dass Sie mit dem Benutzer-URI übereinstimmen</span><span class="sxs-lookup"><span data-stu-id="e6923-151">\- If using PhoneNo\\PIN to authenticate, make sure they match the user uri</span></span>
+<span data-ttu-id="850bb-151">\-Wenn Sie die\\PhoneNo-Pin zur Authentifizierung verwenden, stellen Sie sicher, dass Sie mit dem Benutzer-URI übereinstimmen.</span><span class="sxs-lookup"><span data-stu-id="850bb-151">\- If using PhoneNo\\PIN to authenticate, make sure they match the user uri</span></span>
 
-<span data-ttu-id="e6923-152">\-Stellen Sie bei\\Verwendung der NTLM-Kerberos-Authentifizierung sicher, dass Sie gültige Anmeldeinformationen angegeben haben.</span><span class="sxs-lookup"><span data-stu-id="e6923-152">\- If using NTLM\\Kerberos auth, make sure you provided valid credentials</span></span>
+<span data-ttu-id="850bb-152">\-Wenn Sie NTLM\\-Kerberos-Authentifizierung verwenden, stellen Sie sicher, dass Sie gültige Anmeldeinformationen angegeben haben</span><span class="sxs-lookup"><span data-stu-id="850bb-152">\- If using NTLM\\Kerberos auth, make sure you provided valid credentials</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="e6923-153">Gründe, warum der Test fehlgeschlagen ist</span><span class="sxs-lookup"><span data-stu-id="e6923-153">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="850bb-153">Gründe, warum der Test fehlgeschlagen ist</span><span class="sxs-lookup"><span data-stu-id="850bb-153">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="e6923-154">Nachfolgend finden Sie einige häufige Gründe, warum Test-CsPhoneBootstrap möglicherweise fehlschlägt:</span><span class="sxs-lookup"><span data-stu-id="e6923-154">Here are some common reasons why Test-CsPhoneBootstrap might fail:</span></span>
+<span data-ttu-id="850bb-154">Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von csphonebootstrap aus möglicherweise fehlschlägt:</span><span class="sxs-lookup"><span data-stu-id="850bb-154">Here are some common reasons why Test-CsPhoneBootstrap might fail:</span></span>
 
-  - <span data-ttu-id="e6923-155">Möglicherweise haben Sie eine ungültige SIP-Adresse angegeben.</span><span class="sxs-lookup"><span data-stu-id="e6923-155">You might have specified a SIP address that is not valid.</span></span> <span data-ttu-id="e6923-156">Sie können überprüfen, ob eine SIP-Adresse richtig ist, indem Sie einen Befehl wie den folgenden verwenden:</span><span class="sxs-lookup"><span data-stu-id="e6923-156">You can verify that a SIP address is correct by using a command such as this one:</span></span>
+  - <span data-ttu-id="850bb-155">Möglicherweise haben Sie eine ungültige SIP-Adresse angegeben.</span><span class="sxs-lookup"><span data-stu-id="850bb-155">You might have specified a SIP address that is not valid.</span></span> <span data-ttu-id="850bb-156">Sie können überprüfen, ob eine SIP-Adresse korrekt ist, indem Sie einen Befehl wie den folgenden verwenden:</span><span class="sxs-lookup"><span data-stu-id="850bb-156">You can verify that a SIP address is correct by using a command such as this one:</span></span>
     
         Get-CsUser -Identity "sip:kenmyer@litwareinc.com"
 
-  - <span data-ttu-id="e6923-157">Möglicherweise haben Sie eine ungültige PIN angegeben.</span><span class="sxs-lookup"><span data-stu-id="e6923-157">You might have specified a PIN that is not valid.</span></span> <span data-ttu-id="e6923-158">Obwohl Sie die PIN-Nummer des Benutzers nicht abrufen können, können Sie überprüfen, ob der Benutzer mindestens über eine PIN-Nummer verfügt, indem Sie einen ähnlichen Befehl wie den folgenden verwenden:</span><span class="sxs-lookup"><span data-stu-id="e6923-158">Although you can't retrieve the user’s PIN number, you can verify that the user at least has a PIN number by using a command similar to this:</span></span>
+  - <span data-ttu-id="850bb-157">Möglicherweise haben Sie eine ungültige PIN angegeben.</span><span class="sxs-lookup"><span data-stu-id="850bb-157">You might have specified a PIN that is not valid.</span></span> <span data-ttu-id="850bb-158">Die PIN-Nummer des Benutzers kann zwar nicht abgerufen werden, aber Sie können überprüfen, ob der Benutzer mindestens über eine PIN-Nummer verfügt, indem Sie einen Befehl wie den folgenden verwenden:</span><span class="sxs-lookup"><span data-stu-id="850bb-158">Although you can't retrieve the user’s PIN number, you can verify that the user at least has a PIN number by using a command similar to this:</span></span>
     
         Get-CsClientPinInfo -Identity "sip:kenmyer@litwareinc.com"
 
-  - <span data-ttu-id="e6923-159">Möglicherweise haben Sie eine ungültige Telefonnummer angegeben.</span><span class="sxs-lookup"><span data-stu-id="e6923-159">You might have specified a phone number that is not valid.</span></span> <span data-ttu-id="e6923-160">Sie können das Telefon eines Benutzers überprüfen, indem Sie einen Befehl wie den folgenden verwenden:</span><span class="sxs-lookup"><span data-stu-id="e6923-160">You can verify a user’s phone by using a command similar to the following:</span></span>
+  - <span data-ttu-id="850bb-159">Möglicherweise haben Sie eine ungültige Telefonnummer angegeben.</span><span class="sxs-lookup"><span data-stu-id="850bb-159">You might have specified a phone number that is not valid.</span></span> <span data-ttu-id="850bb-160">Sie können das Telefon eines Benutzers überprüfen, indem Sie einen Befehl wie den folgenden verwenden:</span><span class="sxs-lookup"><span data-stu-id="850bb-160">You can verify a user’s phone by using a command similar to the following:</span></span>
     
         Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object LineUri
 
-  - <span data-ttu-id="e6923-161">Der Registrierungspool ist nicht DHCP-fähig.</span><span class="sxs-lookup"><span data-stu-id="e6923-161">The Registrar pool is not DHCP-enabled.</span></span> <span data-ttu-id="e6923-162">Wenn Sie feststellen möchten, ob Ihr Registrierungspool für DHCP aktiviert ist, führen Sie das Cmdlet "Get-CsRegistrarConfiguration" aus, und überprüfen Sie den Wert der EnableDHCPServer-Eigenschaft.</span><span class="sxs-lookup"><span data-stu-id="e6923-162">To determine whether your Registrar pool is enabled for DHCP, run the Get-CsRegistrarConfiguration cmdlet and check the value of the EnableDHCPServer property.</span></span> <span data-ttu-id="e6923-163">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="e6923-163">For example:</span></span>
+  - <span data-ttu-id="850bb-161">Der registrierungsstellenpool ist nicht DHCP-fähig.</span><span class="sxs-lookup"><span data-stu-id="850bb-161">The Registrar pool is not DHCP-enabled.</span></span> <span data-ttu-id="850bb-162">Um zu ermitteln, ob Ihr registrierungsstellenpool für DHCP aktiviert ist, führen Sie das Cmdlet Get-CsRegistrarConfiguration aus, und überprüfen Sie den Wert der EnableDHCPServer-Eigenschaft.</span><span class="sxs-lookup"><span data-stu-id="850bb-162">To determine whether your Registrar pool is enabled for DHCP, run the Get-CsRegistrarConfiguration cmdlet and check the value of the EnableDHCPServer property.</span></span> <span data-ttu-id="850bb-163">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="850bb-163">For example:</span></span>
     
         Get-CsRegistrarConfiguration -Identity "global"
 

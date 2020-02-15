@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Testen der Sprachkonfiguration'
+title: 'Lync Server 2013: Testen der VoIP-Konfiguration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969605
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9532327640be12351143632813d403edddf5c437
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2894d61a4dabd174315e24a225392bde7a893300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746045"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42018206"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-configuration-in-lync-server-2013"></a><span data-ttu-id="9e499-102">Testen der Sprachkonfiguration in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e499-102">Test voice configuration in Lync Server 2013</span></span>
+# <a name="test-voice-configuration-in-lync-server-2013"></a><span data-ttu-id="80e65-102">Testen der VoIP-Konfiguration in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="80e65-102">Test voice configuration in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746045"
 
 <span> </span>
 
-<span data-ttu-id="9e499-103">_**Letztes Änderungsdatum des Themas:** 2014-05-20_</span><span class="sxs-lookup"><span data-stu-id="9e499-103">_**Topic Last Modified:** 2014-05-20_</span></span>
+<span data-ttu-id="80e65-103">_**Letztes Änderungsstand des Themas:** 2014-05-20_</span><span class="sxs-lookup"><span data-stu-id="80e65-103">_**Topic Last Modified:** 2014-05-20_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "41746045"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9e499-104">Überprüfungszeitplan</span><span class="sxs-lookup"><span data-stu-id="9e499-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="9e499-105">Monatlich</span><span class="sxs-lookup"><span data-stu-id="9e499-105">Monthly</span></span></p></td>
+<td><p><span data-ttu-id="80e65-104">Überprüfungszeitplan</span><span class="sxs-lookup"><span data-stu-id="80e65-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="80e65-105">Monatlich</span><span class="sxs-lookup"><span data-stu-id="80e65-105">Monthly</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9e499-106">Test Tool</span><span class="sxs-lookup"><span data-stu-id="9e499-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="9e499-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="9e499-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="80e65-106">Test Tool</span><span class="sxs-lookup"><span data-stu-id="80e65-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="80e65-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="80e65-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9e499-108">Erforderliche Berechtigungen</span><span class="sxs-lookup"><span data-stu-id="9e499-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="9e499-109">Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</span><span class="sxs-lookup"><span data-stu-id="9e499-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="9e499-110">Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsVoiceTestConfiguration-Cmdlets verfügt.</span><span class="sxs-lookup"><span data-stu-id="9e499-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsVoiceTestConfiguration cmdlet.</span></span> <span data-ttu-id="9e499-111">Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</span><span class="sxs-lookup"><span data-stu-id="9e499-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="80e65-108">Erforderliche Berechtigungen</span><span class="sxs-lookup"><span data-stu-id="80e65-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="80e65-109">Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</span><span class="sxs-lookup"><span data-stu-id="80e65-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="80e65-110">Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-csvoicetestconfiguration getestet verfügt.</span><span class="sxs-lookup"><span data-stu-id="80e65-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsVoiceTestConfiguration cmdlet.</span></span> <span data-ttu-id="80e65-111">Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</span><span class="sxs-lookup"><span data-stu-id="80e65-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceTestConfiguration&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -64,88 +64,88 @@ ms.locfileid: "41746045"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="9e499-112">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="9e499-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="80e65-112">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="80e65-112">Description</span></span>
 
-<span data-ttu-id="9e499-113">Lync Server umfasst mehrere Windows PowerShell-Cmdlets (wie Test-CsVoiceRoute und Test-CsVoicePolicy, Test-CsTrunkConfiguration), mit denen Sie überprüfen können, ob die einzelnen Teile Ihrer Enterprise-VoIP-Infrastruktur – VoIP-Routen, VoIP Richtlinien, SIP-Stämme, funktionieren wie erwartet.</span><span class="sxs-lookup"><span data-stu-id="9e499-113">Lync Server includes several Windows PowerShell cmdlets (such as Test-CsVoiceRoute and Test-CsVoicePolicy, Test-CsTrunkConfiguration) that enable you to verify that the individual pieces of your Enterprise Voice infrastructure – voice routes, voice policies, SIP trunks – are working as expected.</span></span>
+<span data-ttu-id="80e65-113">Lync Server enthält mehrere Windows PowerShell-Cmdlets (wie Test-CsVoiceRoute und Test-CsVoicePolicy, Test-CsTrunkConfiguration), mit denen Sie sicherstellen können, dass die einzelnen Teile Ihrer Enterprise-VoIP-Infrastruktur – VoIP-Routen, VoIP Richtlinien, SIP-Trunks – funktionieren wie erwartet.</span><span class="sxs-lookup"><span data-stu-id="80e65-113">Lync Server includes several Windows PowerShell cmdlets (such as Test-CsVoiceRoute and Test-CsVoicePolicy, Test-CsTrunkConfiguration) that enable you to verify that the individual pieces of your Enterprise Voice infrastructure – voice routes, voice policies, SIP trunks – are working as expected.</span></span>
 
-<span data-ttu-id="9e499-114">Während es bei Enterprise-VoIP wichtig ist, dass alle einzelnen Teile funktionieren: Es ist möglich, eine gültige VoIP-Route, eine gültige VoIP-Richtlinie und einen gültigen SIP-Stamm zu haben, aber die Benutzer können dennoch keine Telefonanrufe tätigen oder empfangen.</span><span class="sxs-lookup"><span data-stu-id="9e499-114">While it’s important with Enterprise Voice that all the individual pieces work: it’s possible to have a valid voice route, a valid voice policy, and a valid SIP trunk, but still have users unable to make or receive phone calls.</span></span> <span data-ttu-id="9e499-115">Aus diesem Grund bietet lync Server auch die Möglichkeit, Sprachtest Konfigurationen zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="9e499-115">Because of that, Lync Server also provides the ability to create voice test configurations.</span></span> <span data-ttu-id="9e499-116">Sprachtest Konfigurationen stellen allgemeine Enterprise-VoIP-Szenarien dar: Sie können beispielsweise eine VoIP-Route, eine VoIP-Richtlinie und einen Wählplan angeben und dann überprüfen, ob diese einzelnen Elemente in der Lage sind, zusammenzuarbeiten, um einen Telefondienst bereitzustellen.</span><span class="sxs-lookup"><span data-stu-id="9e499-116">Voice test configurations represent common Enterprise Voice scenarios: you can specify such things as a voice route, a voice policy, and a dial plan, and then verify that those individual items are work able to work together to provide phone service.</span></span> <span data-ttu-id="9e499-117">Darüber hinaus können Sie Ihre Erwartungen in einem bestimmten Szenario überprüfen.</span><span class="sxs-lookup"><span data-stu-id="9e499-117">In addition, you can validate your expectations in a given scenario.</span></span> <span data-ttu-id="9e499-118">Angenommen, Sie gehen davon aus, dass die Kombination aus Wählplan A und VoIP-Richtlinie B dazu führen würde, dass Anrufe über die VoIP-Route C weitergeleitet werden. Sie können die sprach Route C als ExpectedRoute eingeben.</span><span class="sxs-lookup"><span data-stu-id="9e499-118">For example, suppose that you expect that the combination of dial plan A and voice policy B would result in calls being routed over voice route C. You can enter voice route C as the ExpectedRoute.</span></span> <span data-ttu-id="9e499-119">Wenn Sie den Test ausführen und die VoIP-Route C nicht verwendet wird, wird der Test als fehlerhaft markiert.</span><span class="sxs-lookup"><span data-stu-id="9e499-119">When you run the test, if voice route C is not employed then the test will be marked as having failed.</span></span>
+<span data-ttu-id="80e65-114">Während es bei Enterprise-VoIP wichtig ist, dass alle einzelnen Teile funktionieren: Es ist möglich, eine gültige VoIP-Route, eine gültige VoIP-Richtlinie und einen gültigen SIP-Trunk zu haben, aber Benutzer können weiterhin keine Telefonanrufe tätigen oder empfangen.</span><span class="sxs-lookup"><span data-stu-id="80e65-114">While it’s important with Enterprise Voice that all the individual pieces work: it’s possible to have a valid voice route, a valid voice policy, and a valid SIP trunk, but still have users unable to make or receive phone calls.</span></span> <span data-ttu-id="80e65-115">Aus diesem Grund bietet lync Server auch die Möglichkeit, Sprachtest Konfigurationen zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="80e65-115">Because of that, Lync Server also provides the ability to create voice test configurations.</span></span> <span data-ttu-id="80e65-116">Sprachtest Konfigurationen stellen gängige Enterprise-VoIP-Szenarien dar: Sie können beispielsweise eine VoIP-Route, eine VoIP-Richtlinie und einen Wählplan angeben und dann überprüfen, ob diese einzelnen Elemente zusammenarbeiten können, um den Telefondienst bereitzustellen.</span><span class="sxs-lookup"><span data-stu-id="80e65-116">Voice test configurations represent common Enterprise Voice scenarios: you can specify such things as a voice route, a voice policy, and a dial plan, and then verify that those individual items are work able to work together to provide phone service.</span></span> <span data-ttu-id="80e65-117">Darüber hinaus können Sie Ihre Erwartungen in einem bestimmten Szenario überprüfen.</span><span class="sxs-lookup"><span data-stu-id="80e65-117">In addition, you can validate your expectations in a given scenario.</span></span> <span data-ttu-id="80e65-118">Nehmen wir beispielsweise an, dass Sie davon ausgehen, dass die Kombination aus Wähleinstellungen und VoIP-Richtlinie B dazu führen würde, dass Anrufe über die VoIP-Route C weitergeleitet würden. Sie können die VoIP-Route C als ExpectedRoute eingeben.</span><span class="sxs-lookup"><span data-stu-id="80e65-118">For example, suppose that you expect that the combination of dial plan A and voice policy B would result in calls being routed over voice route C. You can enter voice route C as the ExpectedRoute.</span></span> <span data-ttu-id="80e65-119">Wenn Sie den Test ausführen, wenn die VoIP-Route C nicht verwendet wird, wird der Test als fehlgeschlagen markiert.</span><span class="sxs-lookup"><span data-stu-id="80e65-119">When you run the test, if voice route C is not employed then the test will be marked as having failed.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="9e499-120">Ausführen des Tests</span><span class="sxs-lookup"><span data-stu-id="9e499-120">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="80e65-120">Durchführen des Tests</span><span class="sxs-lookup"><span data-stu-id="80e65-120">Running the test</span></span>
 
-<span data-ttu-id="9e499-121">Bevor Sie sprach Konfigurations Sammlungen mithilfe von Windows PowerShell testen, müssen Sie zuerst das Cmdlet Get-CsVoiceTestConfiguration verwenden, um eine Instanz dieser Konfigurationseinstellungen abzurufen.</span><span class="sxs-lookup"><span data-stu-id="9e499-121">Before testing Voice configuration collections using Windows PowerShell, you must first use the Get-CsVoiceTestConfiguration cmdlet to retrieve an instance of these configuration settings.</span></span> <span data-ttu-id="9e499-122">Diese Instanz muss dann an den Test-CsVoiceTestConfiguration umgeleitet werden.</span><span class="sxs-lookup"><span data-stu-id="9e499-122">That instance must then be piped to the Test-CsVoiceTestConfiguration.</span></span> <span data-ttu-id="9e499-123">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="9e499-123">For example:</span></span>
+<span data-ttu-id="80e65-121">Vor dem Testen von VoIP-Konfigurations Sammlungen mit Windows PowerShell müssen Sie zunächst das Cmdlet Get-csvoicetestconfiguration getestet verwenden, um eine Instanz dieser Konfigurationseinstellungen abzurufen.</span><span class="sxs-lookup"><span data-stu-id="80e65-121">Before testing Voice configuration collections using Windows PowerShell, you must first use the Get-CsVoiceTestConfiguration cmdlet to retrieve an instance of these configuration settings.</span></span> <span data-ttu-id="80e65-122">Diese Instanz muss dann an das Test-csvoicetestconfiguration getestet weitergeleitet werden.</span><span class="sxs-lookup"><span data-stu-id="80e65-122">That instance must then be piped to the Test-CsVoiceTestConfiguration.</span></span> <span data-ttu-id="80e65-123">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="80e65-123">For example:</span></span>
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration" | Test-CsVoiceTestConfiguration`
 
-<span data-ttu-id="9e499-124">Verwenden Sie stattdessen diesen Befehl, um alle Konfigurationseinstellungen für den Sprachtest gleichzeitig zu überprüfen:</span><span class="sxs-lookup"><span data-stu-id="9e499-124">To validate all the voice test configuration settings at the same time, use this command instead:</span></span>
+<span data-ttu-id="80e65-124">Verwenden Sie den folgenden Befehl, um alle Konfigurationseinstellungen für die VoIP-Tests gleichzeitig zu überprüfen:</span><span class="sxs-lookup"><span data-stu-id="80e65-124">To validate all the voice test configuration settings at the same time, use this command instead:</span></span>
 
 `Get-CsVoiceTestConfiguration | Test-CsVoiceTestConfiguration`
 
-<span data-ttu-id="9e499-125">Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet Test-CsVoiceTestConfiguration.</span><span class="sxs-lookup"><span data-stu-id="9e499-125">For more information, see the Help documentation for the Test-CsVoiceTestConfiguration cmdlet.</span></span>
+<span data-ttu-id="80e65-125">Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet Test-csvoicetestconfiguration getestet.</span><span class="sxs-lookup"><span data-stu-id="80e65-125">For more information, see the Help documentation for the Test-CsVoiceTestConfiguration cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="9e499-126">Ermitteln von Erfolg oder Misserfolg</span><span class="sxs-lookup"><span data-stu-id="9e499-126">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="80e65-126">Bestimmen des Erfolgs oder Fehlers</span><span class="sxs-lookup"><span data-stu-id="80e65-126">Determining success or failure</span></span>
 
-<span data-ttu-id="9e499-127">Das Cmdlet Test-CsVoiceTestConfiguration meldet, ob ein Test fehlgeschlagen oder erfolgreich war, und bietet zusätzliche Informationen zu jedem erfolgreichen Test, wie etwa die Übersetzungsregel, die VoIP-Route und die PSTN-Nutzung, die zum Ausführen der Aufgabe verwendet wird:</span><span class="sxs-lookup"><span data-stu-id="9e499-127">The Test-CsVoiceTestConfiguration cmdlet reports whether a test failed or succeeded, and provides additional information about each successful test, such as the translation rule, voice route, and PSTN usage used to complete the task:</span></span>
+<span data-ttu-id="80e65-127">Das Cmdlet Test-csvoicetestconfiguration getestet meldet, ob ein Test fehlgeschlagen oder erfolgreich war, und stellt zusätzliche Informationen zu jedem erfolgreichen Test bereit, wie etwa die Übersetzungsregel, die VoIP-Route und die PSTN-Verwendung, die zum Abschließen der Aufgabe verwendet werden:</span><span class="sxs-lookup"><span data-stu-id="80e65-127">The Test-CsVoiceTestConfiguration cmdlet reports whether a test failed or succeeded, and provides additional information about each successful test, such as the translation rule, voice route, and PSTN usage used to complete the task:</span></span>
 
-<span data-ttu-id="9e499-128">Ergebnis: Erfolg</span><span class="sxs-lookup"><span data-stu-id="9e499-128">Result:             Success</span></span>
+<span data-ttu-id="80e65-128">Ergebnis: Success</span><span class="sxs-lookup"><span data-stu-id="80e65-128">Result:             Success</span></span>
 
-<span data-ttu-id="9e499-129">TranslatedNumber: + 15551234</span><span class="sxs-lookup"><span data-stu-id="9e499-129">TranslatedNumber:   +15551234</span></span>
+<span data-ttu-id="80e65-129">TranslatedNumber: + 15551234</span><span class="sxs-lookup"><span data-stu-id="80e65-129">TranslatedNumber:   +15551234</span></span>
 
-<span data-ttu-id="9e499-130">MatchingRule: Description =; Muster = ^ (\\d{4}) $; Übersetzung = +\\1 d; Name = Test; IsInternalExtension = falsch</span><span class="sxs-lookup"><span data-stu-id="9e499-130">MatchingRule:       Description=;Pattern=^(\\d{4})$;Translation=+1\\d;Name=Test;IsInternalExtension=False</span></span>
+<span data-ttu-id="80e65-130">MatchingRule: Description =; Muster = ^ (\\d{4}) $; Übersetzung = +\\1 d; Name = Test; IsInternalExtension = false</span><span class="sxs-lookup"><span data-stu-id="80e65-130">MatchingRule:       Description=;Pattern=^(\\d{4})$;Translation=+1\\d;Name=Test;IsInternalExtension=False</span></span>
 
-<span data-ttu-id="9e499-131">FirstMatchingRoute: Website: Redmond</span><span class="sxs-lookup"><span data-stu-id="9e499-131">FirstMatchingRoute: site:Redmond</span></span>
+<span data-ttu-id="80e65-131">FirstMatchingRoute: Site: Redmond</span><span class="sxs-lookup"><span data-stu-id="80e65-131">FirstMatchingRoute: site:Redmond</span></span>
 
-<span data-ttu-id="9e499-132">MatchingUsage: lokal</span><span class="sxs-lookup"><span data-stu-id="9e499-132">MatchingUsage:      Local</span></span>
+<span data-ttu-id="80e65-132">MatchingUsage: lokal</span><span class="sxs-lookup"><span data-stu-id="80e65-132">MatchingUsage:      Local</span></span>
 
-<span data-ttu-id="9e499-133">Wenn der Test fehlschlägt, wird das Ergebnis als Fehler gemeldet:</span><span class="sxs-lookup"><span data-stu-id="9e499-133">If the test fails then the result is reported as Fail:</span></span>
+<span data-ttu-id="80e65-133">Wenn der Test fehlschlägt, wird das Ergebnis als Fehler gemeldet:</span><span class="sxs-lookup"><span data-stu-id="80e65-133">If the test fails then the result is reported as Fail:</span></span>
 
-<span data-ttu-id="9e499-134">Ergebnis: Fehler</span><span class="sxs-lookup"><span data-stu-id="9e499-134">Result:             Fail</span></span>
+<span data-ttu-id="80e65-134">Ergebnis: Fail</span><span class="sxs-lookup"><span data-stu-id="80e65-134">Result:             Fail</span></span>
 
-<span data-ttu-id="9e499-135">TranslatedNumber:</span><span class="sxs-lookup"><span data-stu-id="9e499-135">TranslatedNumber:</span></span>   
+<span data-ttu-id="80e65-135">TranslatedNumber:</span><span class="sxs-lookup"><span data-stu-id="80e65-135">TranslatedNumber:</span></span>   
 
-<span data-ttu-id="9e499-136">FirstMatchingRoute:</span><span class="sxs-lookup"><span data-stu-id="9e499-136">FirstMatchingRoute:</span></span>
+<span data-ttu-id="80e65-136">FirstMatchingRoute:</span><span class="sxs-lookup"><span data-stu-id="80e65-136">FirstMatchingRoute:</span></span>
 
-<span data-ttu-id="9e499-137">MatchingUsage:</span><span class="sxs-lookup"><span data-stu-id="9e499-137">MatchingUsage:</span></span>      
+<span data-ttu-id="80e65-137">MatchingUsage:</span><span class="sxs-lookup"><span data-stu-id="80e65-137">MatchingUsage:</span></span>      
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="9e499-138">Gründe, warum der Test fehlgeschlagen ist</span><span class="sxs-lookup"><span data-stu-id="9e499-138">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="80e65-138">Gründe, warum der Test fehlgeschlagen ist</span><span class="sxs-lookup"><span data-stu-id="80e65-138">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="9e499-139">Da die Tests für die Sprachtest Konfiguration verschiedene Elemente – einschließlich VoIP-Richtlinien, Wählpläne, VoIP-Routen usw. – testen, gibt es verschiedene Faktoren, die zu einem fehlgeschlagenen Test führen können.</span><span class="sxs-lookup"><span data-stu-id="9e499-139">Because voice test configuration testing tests several different items – including voice policies, dial plans, voice routes, and so on – there are several different factors that could result in a failed test.</span></span> <span data-ttu-id="9e499-140">Wenn ein Test fehlschlägt, sollte der erste Schritt darin liegen, die Konfigurationseinstellungen mithilfe des Cmdlets Get-CsVoiceTestConfiguration selbst zu überprüfen:</span><span class="sxs-lookup"><span data-stu-id="9e499-140">If a test fails, your first step should be to review the configuration settings themselves by using the Get-CsVoiceTestConfiguration cmdlet:</span></span>
+<span data-ttu-id="80e65-139">Da Tests für die Sprachtest Konfiguration verschiedene Elemente – einschließlich VoIP-Richtlinien, Wähleinstellungen, VoIP-Routen usw. – testen, gibt es verschiedene Faktoren, die zu einem fehlgeschlagenen Test führen können.</span><span class="sxs-lookup"><span data-stu-id="80e65-139">Because voice test configuration testing tests several different items – including voice policies, dial plans, voice routes, and so on – there are several different factors that could result in a failed test.</span></span> <span data-ttu-id="80e65-140">Wenn ein Test fehlschlägt, sollte der erste Schritt darin liegen, die Konfigurationseinstellungen selbst mithilfe des Cmdlets Get-csvoicetestconfiguration getestet zu überprüfen:</span><span class="sxs-lookup"><span data-stu-id="80e65-140">If a test fails, your first step should be to review the configuration settings themselves by using the Get-CsVoiceTestConfiguration cmdlet:</span></span>
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration"`
 
-<span data-ttu-id="9e499-141">Wenn die Einstellungen anscheinend richtig konfiguriert sind, führen Sie den Test erneut aus, während Sie den Verbose-Parameter einbeziehen:</span><span class="sxs-lookup"><span data-stu-id="9e499-141">If the settings seem to be configured correctly, re-run the test while including the Verbose parameter:</span></span>
+<span data-ttu-id="80e65-141">Wenn die Einstellungen scheinbar ordnungsgemäß konfiguriert sind, führen Sie den Test erneut aus, während Sie den Verbose-Parameter einschließen:</span><span class="sxs-lookup"><span data-stu-id="80e65-141">If the settings seem to be configured correctly, re-run the test while including the Verbose parameter:</span></span>
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration" | Test-CsVoiceTestConfiguration`
 
-<span data-ttu-id="9e499-142">Der Verbose-Parameter stellt eine Schritt-für-Schritt-Konto für jede Aktion bereit, die von Test-CsVoiceTestConfiguration ausgeführt wird, wie in diesem Beispiel gezeigt:</span><span class="sxs-lookup"><span data-stu-id="9e499-142">The Verbose parameter will provide a step-by-step account of each action taken by Test-CsVoiceTestConfiguration as shown in this example:</span></span>
+<span data-ttu-id="80e65-142">Der Parameter Verbose stellt eine schrittweise Anleitung zu jeder von Test-csvoicetestconfiguration getestet ausgeführten Aktion bereit, wie in diesem Beispiel gezeigt wird:</span><span class="sxs-lookup"><span data-stu-id="80e65-142">The Verbose parameter will provide a step-by-step account of each action taken by Test-CsVoiceTestConfiguration as shown in this example:</span></span>
 
-<span data-ttu-id="9e499-143">Ausführlich: Wähleinstellungen werden geladen: "Global"</span><span class="sxs-lookup"><span data-stu-id="9e499-143">VERBOSE: Loading dial plan: "Global"</span></span>
+<span data-ttu-id="80e65-143">Ausführlich: Wähleinstellungen werden geladen: "Global"</span><span class="sxs-lookup"><span data-stu-id="80e65-143">VERBOSE: Loading dial plan: "Global"</span></span>
 
-<span data-ttu-id="9e499-144">Verbose: Laden der VoIP-Richtlinie: "redmonddialplan" "</span><span class="sxs-lookup"><span data-stu-id="9e499-144">VERBOSE: Loading voice policy: "RedmondDialPlan"</span></span>
+<span data-ttu-id="80e65-144">Verbose: Laden der VoIP-Richtlinie: "" redmonddialplan ""</span><span class="sxs-lookup"><span data-stu-id="80e65-144">VERBOSE: Loading voice policy: "RedmondDialPlan"</span></span>
 
-<span data-ttu-id="9e499-145">Dieses Schritt-für-Schritt-Konto bietet möglicherweise einen nützlichen Anhaltspunkt dafür, wo der Test tatsächlich fehlgeschlagen ist.</span><span class="sxs-lookup"><span data-stu-id="9e499-145">This step-by-step account might provide a useful clue as to where the test actually failed.</span></span> <span data-ttu-id="9e499-146">Wenn dies nicht der Fall ist, können Sie dann andere Windows PowerShell-Cmdlets verwenden (beispielsweise Test-CsVoicePolicy) und mit der Überprüfung der einzelnen Komponenten, die in den Einstellungen für die sprach Test Konfiguration enthalten sind, methodisch beginnen.</span><span class="sxs-lookup"><span data-stu-id="9e499-146">If not, you can then use other Windows PowerShell cmdlets (such as Test-CsVoicePolicy) and methodically begin to verify the individual components that are included in the voice test configuration settings.</span></span>
+<span data-ttu-id="80e65-145">Dieses Schritt-für-Schritt-Konto kann einen nützlichen Anhaltspunkt dafür liefern, wo der Test tatsächlich fehlgeschlagen ist.</span><span class="sxs-lookup"><span data-stu-id="80e65-145">This step-by-step account might provide a useful clue as to where the test actually failed.</span></span> <span data-ttu-id="80e65-146">Wenn dies nicht der Fall ist, können Sie dann andere Windows PowerShell-Cmdlets (wie Test-CsVoicePolicy) verwenden und methodisch beginnen, die einzelnen Komponenten zu überprüfen, die in den Konfigurationseinstellungen für den VoIP-Test enthalten sind.</span><span class="sxs-lookup"><span data-stu-id="80e65-146">If not, you can then use other Windows PowerShell cmdlets (such as Test-CsVoicePolicy) and methodically begin to verify the individual components that are included in the voice test configuration settings.</span></span>
 
-<span data-ttu-id="9e499-147">Beachten Sie außerdem, dass es möglich ist, dass ein Test einen Anruf weiterleiten kann und dennoch als Fehler gekennzeichnet ist. Dies kann auftreten, wenn Sie Werte für ExpectedRoute, ExpectedTranslatedNumber und ExpectedUsage eingeben und diese Erwartungen nicht erfüllt werden.</span><span class="sxs-lookup"><span data-stu-id="9e499-147">In addition to that, be aware that it’s possible for a test to be able to route a call and yet still be marked as a failure; that can occur if you enter values for ExpectedRoute, ExpectedTranslatedNumber, and ExpectedUsage, and any of those expectations are not met.</span></span> <span data-ttu-id="9e499-148">Nehmen wir beispielsweise an, dass Sie die VoIP-Route C als Ihre erwartete VoIP-Route eingeben, der Test aber den Anruf tatsächlich mit der VoIP-Route D abgeschlossen hat. In diesem Fall wird der Test als fehlerhaft markiert, weil die erwartete VoIP-Route nicht verwendet wurde.</span><span class="sxs-lookup"><span data-stu-id="9e499-148">For example, suppose that you enter voice route C as your expected voice route, but the test actually completes the call using voice route D. In that case the test will be marked as Failed because the expected voice route was not used.</span></span> <span data-ttu-id="9e499-149">Wenn ein Test fehlschlägt, entfernen Sie möglicherweise die Werte für ExpectedRoute, ExpectedTranslatedNumber und ExpectedUsage, und führen Sie dann den Test erneut aus.</span><span class="sxs-lookup"><span data-stu-id="9e499-149">If a test fails, you might remove the values for ExpectedRoute, ExpectedTranslatedNumber, and ExpectedUsage and then re-run the test.</span></span> <span data-ttu-id="9e499-150">Damit können Sie feststellen, ob es sich um einen Fehler handelt, weil der Anruf nicht abgeschlossen werden konnte, oder weil Sie eine Aufgabe erwarten, die Sie tatsächlich erhalten haben.</span><span class="sxs-lookup"><span data-stu-id="9e499-150">That will help you determine whether the failure was because the call couldn't be completed, or because you expect one thing and actually received another.</span></span>
+<span data-ttu-id="80e65-147">Beachten Sie außerdem, dass es möglich ist, dass ein Test einen Anruf weiterleitet und dennoch als Fehler gekennzeichnet wird. Dies kann vorkommen, wenn Sie Werte für ExpectedRoute, ExpectedTranslatedNumber und ExpectedUsage eingeben und diese Erwartungen nicht erfüllt werden.</span><span class="sxs-lookup"><span data-stu-id="80e65-147">In addition to that, be aware that it’s possible for a test to be able to route a call and yet still be marked as a failure; that can occur if you enter values for ExpectedRoute, ExpectedTranslatedNumber, and ExpectedUsage, and any of those expectations are not met.</span></span> <span data-ttu-id="80e65-148">Nehmen wir beispielsweise an, dass Sie die VoIP-Route C als erwartete VoIP-Route eingeben, aber der Test schließt den Anruf tatsächlich mithilfe der VoIP-Route D ab. In diesem Fall wird der Test als fehlgeschlagen markiert, da die erwartete VoIP-Route nicht verwendet wurde.</span><span class="sxs-lookup"><span data-stu-id="80e65-148">For example, suppose that you enter voice route C as your expected voice route, but the test actually completes the call using voice route D. In that case the test will be marked as Failed because the expected voice route was not used.</span></span> <span data-ttu-id="80e65-149">Wenn ein Test fehlschlägt, können Sie die Werte für ExpectedRoute, ExpectedTranslatedNumber und ExpectedUsage entfernen und dann den Test erneut ausführen.</span><span class="sxs-lookup"><span data-stu-id="80e65-149">If a test fails, you might remove the values for ExpectedRoute, ExpectedTranslatedNumber, and ExpectedUsage and then re-run the test.</span></span> <span data-ttu-id="80e65-150">Das hilft Ihnen zu ermitteln, ob der Fehler aufgetreten ist, weil der Anruf nicht abgeschlossen werden konnte oder weil Sie eine Sache erwarten und tatsächlich eine andere erhalten haben.</span><span class="sxs-lookup"><span data-stu-id="80e65-150">That will help you determine whether the failure was because the call couldn't be completed, or because you expect one thing and actually received another.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9e499-151">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="9e499-151">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="80e65-151">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="80e65-151">See Also</span></span>
 
 
-[<span data-ttu-id="9e499-152">Test-CsVoiceTestConfiguration</span><span class="sxs-lookup"><span data-stu-id="9e499-152">Test-CsVoiceTestConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceTestConfiguration)  
+[<span data-ttu-id="80e65-152">Test-csvoicetestconfiguration getestet</span><span class="sxs-lookup"><span data-stu-id="80e65-152">Test-CsVoiceTestConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceTestConfiguration)  
   
 
 </div>

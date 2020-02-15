@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Überprüfen der Normalisierung und des Routings von sprach Nummern'
+title: 'Lync Server 2013: Überprüfen der Normalisierung und des Routings von VoIP-Nummern'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969633
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16739595878b0c67b37f988295a4b02877a3a6fd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cbc15dc47a7eeee0b7fb4bd49ba5ea2584e94fe7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757929"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a><span data-ttu-id="3d9e7-102">Überprüfen der Normalisierung und des Routings von sprach Nummern in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d9e7-102">Validating voice number normalization and routing in Lync Server 2013</span></span>
+# <a name="validating-voice-number-normalization-and-routing-in-lync-server-2013"></a><span data-ttu-id="2bc5b-102">Überprüfen der Normalisierung und des Routings von sprach Nummern in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2bc5b-102">Validating voice number normalization and routing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "41757929"
 
 <span> </span>
 
-<span data-ttu-id="3d9e7-103">_**Letztes Änderungsdatum des Themas:** 2014-05-19_</span><span class="sxs-lookup"><span data-stu-id="3d9e7-103">_**Topic Last Modified:** 2014-05-19_</span></span>
+<span data-ttu-id="2bc5b-103">_**Letztes Änderungsstand des Themas:** 2014-05-19_</span><span class="sxs-lookup"><span data-stu-id="2bc5b-103">_**Topic Last Modified:** 2014-05-19_</span></span>
 
-<span data-ttu-id="3d9e7-104">Korrekte Zahlen Normalisierung und-Routing ist für die funktionelle Enterprise-VoIP-Umgebung sehr wichtig.</span><span class="sxs-lookup"><span data-stu-id="3d9e7-104">Correct number normalization and routing is very important for functional Enterprise Voice environment.</span></span> <span data-ttu-id="3d9e7-105">Besonders bei Migrationen von der privaten Branch Exchange (PBX) zur eigenständigen lync Server-Umgebung besteht einer der Schlüssel für eine erfolgreiche Migration darin, alle vorhandenen Wählregeln anzuzeigen und zu dokumentieren und geeignete Normalisierungsregeln, VoIP-Richtlinien zu erstellen. Telefon Nutzungen und-Routen.</span><span class="sxs-lookup"><span data-stu-id="3d9e7-105">Especially during migrations from private branch exchange (PBX) to stand-alone Lync Server environment, one of the keys to successful migration is to reveal and document all existing dialing rules, and create appropriate normalization rules, voice policies, phone usages and routes.</span></span>
+<span data-ttu-id="2bc5b-104">Die richtige Normalisierung und Weiterleitung von Nummern ist für eine funktionale Enterprise-VoIP-Umgebung sehr wichtig.</span><span class="sxs-lookup"><span data-stu-id="2bc5b-104">Correct number normalization and routing is very important for functional Enterprise Voice environment.</span></span> <span data-ttu-id="2bc5b-105">Vor allem bei Migrationen von einer Nebenstellenanlage zur eigenständigen lync Server Umgebung ist einer der Schlüssel für eine erfolgreiche Migration das aufdecken und dokumentieren aller vorhandenen Wählregeln sowie das Erstellen geeigneter Normalisierungsregeln, VoIP-Richtlinien, Telefonverwendungen und-Routen.</span><span class="sxs-lookup"><span data-stu-id="2bc5b-105">Especially during migrations from private branch exchange (PBX) to stand-alone Lync Server environment, one of the keys to successful migration is to reveal and document all existing dialing rules, and create appropriate normalization rules, voice policies, phone usages and routes.</span></span>
 
-<span data-ttu-id="3d9e7-106">Das Überprüfen der Normalisierung und des Routings von Zahlen ist nicht nur bei Migrationen wichtig, sondern auch im normalen, stabilen Betrieb des Systems.</span><span class="sxs-lookup"><span data-stu-id="3d9e7-106">Validating number normalization and routing is important not only during migrations but also during normal, stable operation of the system.</span></span>
+<span data-ttu-id="2bc5b-106">Das Validieren von Nummern Normalisierung und-Routing ist nicht nur bei Migrationen wichtig, sondern auch während eines normalen, stabilen Betriebs des Systems.</span><span class="sxs-lookup"><span data-stu-id="2bc5b-106">Validating number normalization and routing is important not only during migrations but also during normal, stable operation of the system.</span></span>
 
-<span data-ttu-id="3d9e7-107">Wir empfehlen, diese Überprüfung täglich mithilfe der lync Server-Systemsteuerung durchzuführen, beginnend mit der Entwicklung einer robusten Reihe von Testfällen für den aktuellen Satz von Normalisierungsregeln, die in den globalen lync Server-Einstellungen veröffentlicht wurden.</span><span class="sxs-lookup"><span data-stu-id="3d9e7-107">We recommend conducting this validation daily by using the Lync Server Control Panel, starting with developing a robust set of test cases against the current set of normalization rules that were published in the Lync Server global settings.</span></span> <span data-ttu-id="3d9e7-108">Diese Testfälle sollten täglich ausgeführt werden, um alle unerwünschten Änderungen hervorzuheben, die an den Wähleinstellungen vorgenommen und zugesichert wurden.</span><span class="sxs-lookup"><span data-stu-id="3d9e7-108">These test cases should be run daily to highlight any unwanted changes that were made and committed to the dial plan.</span></span>
+<span data-ttu-id="2bc5b-107">Es wird empfohlen, diese Überprüfung täglich mithilfe der lync Server-Systemsteuerung durchzuführen, beginnend mit der Entwicklung einer robusten Reihe von Testfällen für den aktuellen Satz von Normalisierungsregeln, die in den lync Server globalen Einstellungen veröffentlicht wurden.</span><span class="sxs-lookup"><span data-stu-id="2bc5b-107">We recommend conducting this validation daily by using the Lync Server Control Panel, starting with developing a robust set of test cases against the current set of normalization rules that were published in the Lync Server global settings.</span></span> <span data-ttu-id="2bc5b-108">Diese Testfälle sollten täglich ausgeführt werden, um unerwünschte Änderungen hervorzuheben, die für die Wähleinstellungen vorgenommen wurden und für die ein Commit ausgeführt wurde.</span><span class="sxs-lookup"><span data-stu-id="2bc5b-108">These test cases should be run daily to highlight any unwanted changes that were made and committed to the dial plan.</span></span>
 
-<span data-ttu-id="3d9e7-109">Die lync Server-Systemsteuerung unterstützt Sie auch beim visualisieren, testen, ändern, archivieren und Freigeben von Konfigurationsinformationen zum VoIP-Routing sowie zum Ändern von Regeln für die Normalisierung von Unternehmens-und sprach Nummern, Wählpläne, VoIP-Richtlinien und Routen.</span><span class="sxs-lookup"><span data-stu-id="3d9e7-109">Lync Server Control Panel also helps you visualize, test, change, archive, and share configuration information about voice routing and in changing Enterprise Voice number normalization rules, dial plans, voice policy, and routes.</span></span> <span data-ttu-id="3d9e7-110">Es bietet zusätzliche Funktionen für folgende Aktionen:</span><span class="sxs-lookup"><span data-stu-id="3d9e7-110">It has additional features for doing the following:</span></span>
+<span data-ttu-id="2bc5b-109">Lync Server-Systemsteuerung unterstützt Sie auch beim visualisieren, testen, ändern, archivieren und Freigeben von Konfigurationsinformationen für das VoIP-Routing sowie beim Ändern von Normalisierungsregeln für Enterprise-VoIP,-Wählpläne,-VoIP-Richtlinien und-Routen.</span><span class="sxs-lookup"><span data-stu-id="2bc5b-109">Lync Server Control Panel also helps you visualize, test, change, archive, and share configuration information about voice routing and in changing Enterprise Voice number normalization rules, dial plans, voice policy, and routes.</span></span> <span data-ttu-id="2bc5b-110">Es verfügt über zusätzliche Funktionen für Folgendes:</span><span class="sxs-lookup"><span data-stu-id="2bc5b-110">It has additional features for doing the following:</span></span>
 
-  - <span data-ttu-id="3d9e7-111">Exportieren und importieren oder Sichern von VoIP-Routingdaten zwischen Systemen.</span><span class="sxs-lookup"><span data-stu-id="3d9e7-111">Exporting and importing or backing up voice routing data between systems.</span></span>
+  - <span data-ttu-id="2bc5b-111">Exportieren und importieren oder Sichern von VoIP-Routingdaten zwischen Systemen.</span><span class="sxs-lookup"><span data-stu-id="2bc5b-111">Exporting and importing or backing up voice routing data between systems.</span></span>
 
-  - <span data-ttu-id="3d9e7-112">Testen Sie Konfigurationsänderungen, bevor Sie Sie in ein Live System hochladen.</span><span class="sxs-lookup"><span data-stu-id="3d9e7-112">Testing configuration changes before uploading them to a live system.</span></span>
+  - <span data-ttu-id="2bc5b-112">Testen von Konfigurationsänderungen vor dem Hochladen auf ein Live-System.</span><span class="sxs-lookup"><span data-stu-id="2bc5b-112">Testing configuration changes before uploading them to a live system.</span></span>
 
-  - <span data-ttu-id="3d9e7-113">Erstellen und Ausführen von Konfigurations Testfälle, um die Nutzbarkeit von Routingdaten nach dem vornehmen von Änderungen zu gewährleisten, aber bevor Sie die Änderungen an einem bereitgestellten System durchführen.</span><span class="sxs-lookup"><span data-stu-id="3d9e7-113">Creating and running configuration test cases to help ensure the usability of routing data after you make changes to it, but before committing them the changes to a deployed system.</span></span>
+  - <span data-ttu-id="2bc5b-113">Erstellen und Ausführen von Konfigurations Testfälle, um die Verwendbarkeit von Routingdaten zu gewährleisten, nachdem Sie Änderungen daran vorgenommen haben, aber bevor Sie die Änderungen an einem bereitgestellten System vornehmen.</span><span class="sxs-lookup"><span data-stu-id="2bc5b-113">Creating and running configuration test cases to help ensure the usability of routing data after you make changes to it, but before committing them the changes to a deployed system.</span></span>
 
-  - <span data-ttu-id="3d9e7-114">Erstellen und Ändern von Nummern Normalisierungsregeln, Standortprofilen, VoIP-Richtlinien und Routingdaten, ohne die erforderlichen regulären Ausdrücke zu schreiben.</span><span class="sxs-lookup"><span data-stu-id="3d9e7-114">Creating and changing number normalization rules, location profiles, voice policy, and routing data without writing the necessary regular expressions.</span></span>
+  - <span data-ttu-id="2bc5b-114">Erstellen und Ändern von Nummern Normalisierungsregeln, Standortprofilen, VoIP-Richtlinien und Routingdaten, ohne die erforderlichen regulären Ausdrücke zu schreiben.</span><span class="sxs-lookup"><span data-stu-id="2bc5b-114">Creating and changing number normalization rules, location profiles, voice policy, and routing data without writing the necessary regular expressions.</span></span>
 
-  - <span data-ttu-id="3d9e7-115">Analysieren eines Standortprofils zur Kompatibilität mit der lync Server Phone Edition</span><span class="sxs-lookup"><span data-stu-id="3d9e7-115">Analyzing a location profile for compatibility with the Lync Server Phone Edition.</span></span>
+  - <span data-ttu-id="2bc5b-115">Analysieren eines Standortprofils zur Kompatibilität mit dem lync Server Phone Edition.</span><span class="sxs-lookup"><span data-stu-id="2bc5b-115">Analyzing a location profile for compatibility with the Lync Server Phone Edition.</span></span>
 
-  - <span data-ttu-id="3d9e7-116">Weitere Informationen zu VoIP-Routing Tests finden Sie unter [Testen des VoIP-Routings in lync Server 2013](lync-server-2013-test-voice-routing.md)</span><span class="sxs-lookup"><span data-stu-id="3d9e7-116">More information about voice routing tests can be found at [Test voice routing in Lync Server 2013](lync-server-2013-test-voice-routing.md)</span></span>
+  - <span data-ttu-id="2bc5b-116">Weitere Informationen zu VoIP-Routing Tests finden Sie unter [Test Voice Routing in lync Server 2013](lync-server-2013-test-voice-routing.md)</span><span class="sxs-lookup"><span data-stu-id="2bc5b-116">More information about voice routing tests can be found at [Test voice routing in Lync Server 2013](lync-server-2013-test-voice-routing.md)</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="3d9e7-117">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="3d9e7-117">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2bc5b-117">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="2bc5b-117">See Also</span></span>
 
 
-[<span data-ttu-id="3d9e7-118">Testen des VoIP-Routings in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3d9e7-118">Test voice routing in Lync Server 2013</span></span>](lync-server-2013-test-voice-routing.md)  
+[<span data-ttu-id="2bc5b-118">Testen des VoIP-Routings in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2bc5b-118">Test voice routing in Lync Server 2013</span></span>](lync-server-2013-test-voice-routing.md)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0902150170d51aa590afc8b3d02c887968a2031
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4b0efc4a6a9e9f195705801969b8459c17855388
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41751975"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036685"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-lync-server-2013-hybrid-deployments"></a><span data-ttu-id="3166f-102">Planen der Bereitstellung von lync Server 2013-hybridbereitstellungen</span><span class="sxs-lookup"><span data-stu-id="3166f-102">Planning for Lync Server 2013 hybrid deployments</span></span>
+# <a name="planning-for-lync-server-2013-hybrid-deployments"></a><span data-ttu-id="14681-102">Planen von lync Server 2013 hybridbereitstellungen</span><span class="sxs-lookup"><span data-stu-id="14681-102">Planning for Lync Server 2013 hybrid deployments</span></span>
 
 </div>
 
@@ -35,61 +35,61 @@ ms.locfileid: "41751975"
 
 <span> </span>
 
-<span data-ttu-id="3166f-103">_**Letztes Änderungsdatum des Themas:** 2016-05-25_</span><span class="sxs-lookup"><span data-stu-id="3166f-103">_**Topic Last Modified:** 2016-05-25_</span></span>
+<span data-ttu-id="14681-103">_**Letztes Änderungsstand des Themas:** 2016-05-25_</span><span class="sxs-lookup"><span data-stu-id="14681-103">_**Topic Last Modified:** 2016-05-25_</span></span>
 
-<span data-ttu-id="3166f-104">Berücksichtigen Sie beim Planen einer hybridbereitstellung die folgenden Anforderungen für Benutzer und Ihre Netzwerkinfrastruktur.</span><span class="sxs-lookup"><span data-stu-id="3166f-104">You should consider the following requirements for users and your network infrastructure while planning for a hybrid deployment.</span></span>
+<span data-ttu-id="14681-104">Bei der Planung einer hybridbereitstellung sollten Sie die folgenden Anforderungen für Benutzer und Ihre Netzwerkinfrastruktur berücksichtigen.</span><span class="sxs-lookup"><span data-stu-id="14681-104">You should consider the following requirements for users and your network infrastructure while planning for a hybrid deployment.</span></span>
 
 <div>
 
-## <a name="infrastructure-requirements"></a><span data-ttu-id="3166f-105">Infrastrukturanforderungen</span><span class="sxs-lookup"><span data-stu-id="3166f-105">Infrastructure Requirements</span></span>
+## <a name="infrastructure-requirements"></a><span data-ttu-id="14681-105">Infrastrukturanforderungen</span><span class="sxs-lookup"><span data-stu-id="14681-105">Infrastructure Requirements</span></span>
 
-<span data-ttu-id="3166f-106">Sie müssen die folgenden in Ihrer Umgebung konfiguriert haben, um eine hybridbereitstellung implementieren und bereitstellen zu können.</span><span class="sxs-lookup"><span data-stu-id="3166f-106">You must have the following configured in your environment in order to implement and deploy a hybrid deployment.</span></span>
+<span data-ttu-id="14681-106">In Ihrer Umgebung muss Folgendes konfiguriert sein, damit Sie eine hybridbereitstellung implementieren und bereitstellen können.</span><span class="sxs-lookup"><span data-stu-id="14681-106">You must have the following configured in your environment in order to implement and deploy a hybrid deployment.</span></span>
 
-  - <span data-ttu-id="3166f-107">Ein Microsoft Office 365-Mandant mit aktiviertem Skype for Business Online.</span><span class="sxs-lookup"><span data-stu-id="3166f-107">A Microsoft Office 365 tenant with Skype for Business Online enabled.</span></span> <span data-ttu-id="3166f-108">Beachten Sie, dass Sie nur einen einzelnen Mandanten für eine Hybrid Konfiguration mit Ihrer lokalen Bereitstellung verwenden können.</span><span class="sxs-lookup"><span data-stu-id="3166f-108">Note that you can use only a single tenant for a hybrid configuration with your on-premises deployment.</span></span>
+  - <span data-ttu-id="14681-107">Ein Microsoft Office 365-Mandant mit aktivierter Skype for Business Online.</span><span class="sxs-lookup"><span data-stu-id="14681-107">A Microsoft Office 365 tenant with Skype for Business Online enabled.</span></span> <span data-ttu-id="14681-108">Beachten Sie, dass Sie für eine Hybrid Konfiguration mit Ihrer lokalen Bereitstellung nur einen einzelnen Mandanten verwenden können.</span><span class="sxs-lookup"><span data-stu-id="14681-108">Note that you can use only a single tenant for a hybrid configuration with your on-premises deployment.</span></span>
 
-  - <span data-ttu-id="3166f-109">Eine einzelne lokale Bereitstellung (Infrastruktur) von Skype for Business Server oder lync Server, die in einer unterstützten Topologie bereitgestellt wird.</span><span class="sxs-lookup"><span data-stu-id="3166f-109">A single on-premises deployment (infrastructure) of Skype for Business Server or Lync Server that is deployed in a supported topology.</span></span> <span data-ttu-id="3166f-110">Siehe Topologie-Anforderungen.</span><span class="sxs-lookup"><span data-stu-id="3166f-110">See Topology Requirements.</span></span>
+  - <span data-ttu-id="14681-109">Eine einzelne lokale Bereitstellung (Infrastruktur) von Skype for Business Server oder lync Server, die in einer unterstützten Topologie bereitgestellt wird.</span><span class="sxs-lookup"><span data-stu-id="14681-109">A single on-premises deployment (infrastructure) of Skype for Business Server or Lync Server that is deployed in a supported topology.</span></span> <span data-ttu-id="14681-110">Siehe Topologie-Anforderungen.</span><span class="sxs-lookup"><span data-stu-id="14681-110">See Topology Requirements.</span></span>
     
-    <span data-ttu-id="3166f-111">Informationen zum Konfigurieren ihrer lync Server 2013-oder lync Server 2010-Bereitstellung für hybride finden Sie unter [Konfigurieren von lync Server 2013-hybridbereitstellungen](lync-server-2013-configuring-hybrid-deployments.md).</span><span class="sxs-lookup"><span data-stu-id="3166f-111">For information about configuring your Lync Server 2013 or Lync Server 2010 deployment for hybrid, see [Configuring Lync Server 2013 hybrid deployments](lync-server-2013-configuring-hybrid-deployments.md).</span></span>
+    <span data-ttu-id="14681-111">Informationen zum Konfigurieren der lync Server 2013 oder lync Server 2010-Bereitstellung für hybridbereitstellungen finden Sie unter [Configuring lync Server 2013 Hybrid Deployments](lync-server-2013-configuring-hybrid-deployments.md).</span><span class="sxs-lookup"><span data-stu-id="14681-111">For information about configuring your Lync Server 2013 or Lync Server 2010 deployment for hybrid, see [Configuring Lync Server 2013 hybrid deployments](lync-server-2013-configuring-hybrid-deployments.md).</span></span>
 
-  - <span data-ttu-id="3166f-112">Skype for Business Server 2015-Verwaltungstools.</span><span class="sxs-lookup"><span data-stu-id="3166f-112">Skype for Business Server 2015 administrative tools.</span></span> <span data-ttu-id="3166f-113">Wenn Sie lync Server 2013 oder lync Server 2010 verwenden, können Sie die Verwaltungstools von lync Server 2013 verwenden.</span><span class="sxs-lookup"><span data-stu-id="3166f-113">If you are using Lync Server 2013 or Lync Server 2010, you can use the Lync Server 2013 administrative tools.</span></span>
+  - <span data-ttu-id="14681-112">Skype for Business Server 2015 Verwaltungstools.</span><span class="sxs-lookup"><span data-stu-id="14681-112">Skype for Business Server 2015 administrative tools.</span></span> <span data-ttu-id="14681-113">Wenn Sie lync Server 2013 oder lync Server 2010 verwenden, können Sie die lync Server 2013 Verwaltungstools verwenden.</span><span class="sxs-lookup"><span data-stu-id="14681-113">If you are using Lync Server 2013 or Lync Server 2010, you can use the Lync Server 2013 administrative tools.</span></span>
 
-  - <span data-ttu-id="3166f-114">Um die einmalige Anmeldung bei Office 365 zu unterstützen, damit Benutzer dieselben Anmeldeinformationen für die Anmeldung bei Office verwenden können, während Sie lokal tätig sind, können Sie die Kenn Wort Synchronisierungsfeatures von Azure Active Directory (AAD) Connect verwenden.</span><span class="sxs-lookup"><span data-stu-id="3166f-114">To support Single Sign-on with Office 365 so that users can use the same login credentials for signing in to Office as they do on-premises, you can use the password sync features of Azure Active Directory (AAD) Connect.</span></span> <span data-ttu-id="3166f-115">Sie können auch die Active Directory Federation Services (AD FS) für das einmalige Anmelden mit Office 365 verwenden.</span><span class="sxs-lookup"><span data-stu-id="3166f-115">You can also use Active Directory Federation Services (AD FS) for single sign-on with Office 365.</span></span>
+  - <span data-ttu-id="14681-114">Zur Unterstützung des einmaligen Anmeldens mit Office 365, damit Benutzer dieselben Anmeldeinformationen für die Anmeldung bei Office verwenden können, wenn diese lokal Vorgehen, können Sie die Kenn Wort Synchronisierungsfeatures von Azure Active Directory (AAD) Connect verwenden.</span><span class="sxs-lookup"><span data-stu-id="14681-114">To support Single Sign-on with Office 365 so that users can use the same login credentials for signing in to Office as they do on-premises, you can use the password sync features of Azure Active Directory (AAD) Connect.</span></span> <span data-ttu-id="14681-115">Sie können auch Active Directory Verbunddienste (AD FS) für einmaliges Anmelden mit Office 365 verwenden.</span><span class="sxs-lookup"><span data-stu-id="14681-115">You can also use Active Directory Federation Services (AD FS) for single sign-on with Office 365.</span></span>
     
-    <span data-ttu-id="3166f-116">Weitere Informationen finden Sie unter [integrieren Ihrer lokalen Identitäten in Azure Active Directory](http://go.microsoft.com/fwlink/p/?linkid=619754).</span><span class="sxs-lookup"><span data-stu-id="3166f-116">For more information, see [Integrating your on-premises identities with Azure Active Directory](http://go.microsoft.com/fwlink/p/?linkid=619754).</span></span>
+    <span data-ttu-id="14681-116">Weitere Informationen finden Sie unter [Integrieren Ihrer lokalen Identitäten in Azure Active Directory](http://go.microsoft.com/fwlink/p/?linkid=619754).</span><span class="sxs-lookup"><span data-stu-id="14681-116">For more information, see [Integrating your on-premises identities with Azure Active Directory](http://go.microsoft.com/fwlink/p/?linkid=619754).</span></span>
 
-  - <span data-ttu-id="3166f-117">Eine einzige Lösung für die Verzeichnissynchronisierung, damit Ihre lokalen und Online aktiven Active Directory-Objekte synchronisiert bleiben.</span><span class="sxs-lookup"><span data-stu-id="3166f-117">A single directory synchronization solution to keep your on-premises and online Active Directory objects synchronized.</span></span> <span data-ttu-id="3166f-118">Details zur Verzeichnissynchronisierung finden Sie unter [Tools für die Verzeichnis Integration](http://go.microsoft.com/fwlink/p/?linkid=530320).</span><span class="sxs-lookup"><span data-stu-id="3166f-118">For details about Directory Synchronization, see [Directory Integration Tools](http://go.microsoft.com/fwlink/p/?linkid=530320).</span></span>
+  - <span data-ttu-id="14681-117">Eine einzelne Verzeichnis Synchronisierungslösung, mit der Sie Ihre lokalen und Online Active Directory-Objekte synchron halten.</span><span class="sxs-lookup"><span data-stu-id="14681-117">A single directory synchronization solution to keep your on-premises and online Active Directory objects synchronized.</span></span> <span data-ttu-id="14681-118">Ausführliche Informationen zur Verzeichnissynchronisierung finden Sie unter [Directory Integration Tools](http://go.microsoft.com/fwlink/p/?linkid=530320).</span><span class="sxs-lookup"><span data-stu-id="14681-118">For details about Directory Synchronization, see [Directory Integration Tools](http://go.microsoft.com/fwlink/p/?linkid=530320).</span></span>
 
 </div>
 
 <div>
 
-## <a name="lync-client-support"></a><span data-ttu-id="3166f-119">Lync-Client Unterstützung</span><span class="sxs-lookup"><span data-stu-id="3166f-119">Lync Client Support</span></span>
+## <a name="lync-client-support"></a><span data-ttu-id="14681-119">Lync-Client Unterstützung</span><span class="sxs-lookup"><span data-stu-id="14681-119">Lync Client Support</span></span>
 
-<span data-ttu-id="3166f-120">Es gibt einige Unterschiede bei den Features, die in lync-Clients unterstützt werden, sowie die Features, die in lokalen und Online Umgebungen zur Verfügung stehen.</span><span class="sxs-lookup"><span data-stu-id="3166f-120">There are some differences in the features supported in Lync clients, as well as the features available in on-premises and online environments.</span></span> <span data-ttu-id="3166f-121">Bevor Sie sich entscheiden, wo Sie die Benutzer in Ihrer Organisation privatisieren möchten, können Sie die Clientunterstützung für die verschiedenen Konfigurationen von lync Server anzeigen.</span><span class="sxs-lookup"><span data-stu-id="3166f-121">Before you decide where you want to home users in your organization, you can view the client support for the various configurations of Lync Server.</span></span> <span data-ttu-id="3166f-122">Die folgenden Clients werden von Skype for Business Online in einer lync-hybridbereitstellung unterstützt:</span><span class="sxs-lookup"><span data-stu-id="3166f-122">The following clients are supported with Skype for Business Online in a Lync hybrid deployment:</span></span>
+<span data-ttu-id="14681-120">Es gibt einige Unterschiede in den Features, die in lync-Clients unterstützt werden, sowie die Features, die in lokalen und Online-Umgebungen zur Verfügung stehen.</span><span class="sxs-lookup"><span data-stu-id="14681-120">There are some differences in the features supported in Lync clients, as well as the features available in on-premises and online environments.</span></span> <span data-ttu-id="14681-121">Bevor Sie entscheiden, wo Benutzer in Ihrer Organisation zu Hause sein sollen, können Sie die Clientunterstützung für die verschiedenen Konfigurationen von lync Server anzeigen.</span><span class="sxs-lookup"><span data-stu-id="14681-121">Before you decide where you want to home users in your organization, you can view the client support for the various configurations of Lync Server.</span></span> <span data-ttu-id="14681-122">Die folgenden Clients werden mit Skype for Business Online in einer lync-hybridbereitstellung unterstützt:</span><span class="sxs-lookup"><span data-stu-id="14681-122">The following clients are supported with Skype for Business Online in a Lync hybrid deployment:</span></span>
 
-  - <span data-ttu-id="3166f-123">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="3166f-123">Lync 2010</span></span>
+  - <span data-ttu-id="14681-123">Lync 2010</span><span class="sxs-lookup"><span data-stu-id="14681-123">Lync 2010</span></span>
 
-  - <span data-ttu-id="3166f-124">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="3166f-124">Lync 2013</span></span>
+  - <span data-ttu-id="14681-124">Lync 2013</span><span class="sxs-lookup"><span data-stu-id="14681-124">Lync 2013</span></span>
 
-  - <span data-ttu-id="3166f-125">Windows Store-App für Lync</span><span class="sxs-lookup"><span data-stu-id="3166f-125">Lync Windows Store app</span></span>
+  - <span data-ttu-id="14681-125">Lync Windows Store-App</span><span class="sxs-lookup"><span data-stu-id="14681-125">Lync Windows Store app</span></span>
 
-  - <span data-ttu-id="3166f-126">Lync Web App</span><span class="sxs-lookup"><span data-stu-id="3166f-126">Lync Web App</span></span>
+  - <span data-ttu-id="14681-126">Lync Web App</span><span class="sxs-lookup"><span data-stu-id="14681-126">Lync Web App</span></span>
 
-  - <span data-ttu-id="3166f-127">Lync Mobile</span><span class="sxs-lookup"><span data-stu-id="3166f-127">Lync Mobile</span></span>
+  - <span data-ttu-id="14681-127">Lync Mobile</span><span class="sxs-lookup"><span data-stu-id="14681-127">Lync Mobile</span></span>
 
-  - <span data-ttu-id="3166f-128">Lync für Mac 2011</span><span class="sxs-lookup"><span data-stu-id="3166f-128">Lync for Mac 2011</span></span>
+  - <span data-ttu-id="14681-128">Lync für Mac 2011</span><span class="sxs-lookup"><span data-stu-id="14681-128">Lync for Mac 2011</span></span>
 
-  - <span data-ttu-id="3166f-129">Lync Room System</span><span class="sxs-lookup"><span data-stu-id="3166f-129">Lync Room System</span></span>
+  - <span data-ttu-id="14681-129">Lync-Raumsystem</span><span class="sxs-lookup"><span data-stu-id="14681-129">Lync Room System</span></span>
 
-  - <span data-ttu-id="3166f-130">Lync Basic 2013</span><span class="sxs-lookup"><span data-stu-id="3166f-130">Lync Basic 2013</span></span>
+  - <span data-ttu-id="14681-130">Lync Basic 2013</span><span class="sxs-lookup"><span data-stu-id="14681-130">Lync Basic 2013</span></span>
 
-<span data-ttu-id="3166f-131">Details zum Client Support finden Sie unter den folgenden Themen:</span><span class="sxs-lookup"><span data-stu-id="3166f-131">For details about client support, see the following topics:</span></span>
+<span data-ttu-id="14681-131">Ausführliche Informationen zur Clientunterstützung finden Sie in den folgenden Themen:</span><span class="sxs-lookup"><span data-stu-id="14681-131">For details about client support, see the following topics:</span></span>
 
-  - [<span data-ttu-id="3166f-132">Clients für lync Online</span><span class="sxs-lookup"><span data-stu-id="3166f-132">Clients for Lync Online</span></span>](http://go.microsoft.com/fwlink/?linkid=281902)
+  - [<span data-ttu-id="14681-132">Clients für lync Online</span><span class="sxs-lookup"><span data-stu-id="14681-132">Clients for Lync Online</span></span>](http://go.microsoft.com/fwlink/?linkid=281902)
 
-  - [<span data-ttu-id="3166f-133">Clientvergleichstabellen für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3166f-133">Client comparison tables for Lync Server 2013</span></span>](lync-server-2013-desktop-client-comparison-tables.md)
+  - [<span data-ttu-id="14681-133">Client Vergleichstabellen für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="14681-133">Client comparison tables for Lync Server 2013</span></span>](lync-server-2013-desktop-client-comparison-tables.md)
 
-  - [<span data-ttu-id="3166f-134">Vergleichstabellen für mobile Clients für Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3166f-134">Mobile client comparison tables for Lync Server 2013</span></span>](lync-server-2013-mobile-client-comparison-tables.md)
+  - [<span data-ttu-id="14681-134">Vergleichstabellen für mobile Clients für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="14681-134">Mobile client comparison tables for Lync Server 2013</span></span>](lync-server-2013-mobile-client-comparison-tables.md)
 
 </div>
 
@@ -97,85 +97,85 @@ ms.locfileid: "41751975"
 
 <div>
 
-## <a name="topology-requirements"></a><span data-ttu-id="3166f-135">Anforderungen im Hinblick auf die Topologie</span><span class="sxs-lookup"><span data-stu-id="3166f-135">Topology Requirements</span></span>
+## <a name="topology-requirements"></a><span data-ttu-id="14681-135">Anforderungen im Hinblick auf die Topologie</span><span class="sxs-lookup"><span data-stu-id="14681-135">Topology Requirements</span></span>
 
-<span data-ttu-id="3166f-136">Wenn Sie Ihre Bereitstellung für Hybrid mit Skype for Business Online konfigurieren möchten, müssen Sie über eine der folgenden unterstützten Topologien verfügen:</span><span class="sxs-lookup"><span data-stu-id="3166f-136">To configure your deployment for hybrid with Skype for Business Online, you need to have one of the following supported topologies:</span></span>
+<span data-ttu-id="14681-136">Um Ihre Bereitstellung für Hybrid mit Skype for Business Online zu konfigurieren, müssen Sie über eine der folgenden unterstützten Topologien verfügen:</span><span class="sxs-lookup"><span data-stu-id="14681-136">To configure your deployment for hybrid with Skype for Business Online, you need to have one of the following supported topologies:</span></span>
 
-  - <span data-ttu-id="3166f-137">Eine Skype for Business Server 2015-Bereitstellung mit allen Servern, auf denen Skype for Business Server 2015 ausgeführt wird.</span><span class="sxs-lookup"><span data-stu-id="3166f-137">A Skype for Business Server 2015 deployment with all servers running Skype for Business Server 2015.</span></span>
+  - <span data-ttu-id="14681-137">Eine Skype for Business Server 2015 Bereitstellung mit allen Servern, auf denen Skype for Business Server 2015 läuft.</span><span class="sxs-lookup"><span data-stu-id="14681-137">A Skype for Business Server 2015 deployment with all servers running Skype for Business Server 2015.</span></span>
 
-  - <span data-ttu-id="3166f-138">Eine lync Server 2013-Bereitstellung mit allen Servern, auf denen lync Server 2013 ausgeführt wird.</span><span class="sxs-lookup"><span data-stu-id="3166f-138">A Lync Server 2013 deployment with all servers running Lync Server 2013.</span></span>
+  - <span data-ttu-id="14681-138">Eine lync Server 2013 Bereitstellung mit allen Servern, auf denen lync Server 2013 läuft.</span><span class="sxs-lookup"><span data-stu-id="14681-138">A Lync Server 2013 deployment with all servers running Lync Server 2013.</span></span>
 
-  - <span data-ttu-id="3166f-139">Eine lync Server 2010-Bereitstellung mit allen Servern, auf denen lync Server 2010 mit den neuesten kumulativen Updates ausgeführt wird.</span><span class="sxs-lookup"><span data-stu-id="3166f-139">A Lync Server 2010 deployment with all servers running Lync Server 2010 with the latest cumulative updates.</span></span>
+  - <span data-ttu-id="14681-139">Eine lync Server 2010 Bereitstellung mit allen Servern, auf denen lync Server 2010 mit den neuesten kumulativen Updates läuft.</span><span class="sxs-lookup"><span data-stu-id="14681-139">A Lync Server 2010 deployment with all servers running Lync Server 2010 with the latest cumulative updates.</span></span>
     
-      - <span data-ttu-id="3166f-140">Auf dem Verbund-Edgeserver und dem Server für den nächsten Hop vom Verbund-Edgeserver muss lync Server 2010 mit den neuesten kumulativen Updates ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="3166f-140">The federation Edge Server and next hop server from the federation Edge Server must be running Lync Server 2010 with the latest cumulative updates.</span></span>
+      - <span data-ttu-id="14681-140">Der Verbund Edgeserver und der Server für den nächsten Hop aus dem Verbund Edgeserver müssen lync Server 2010 mit den neuesten kumulativen Updates laufen.</span><span class="sxs-lookup"><span data-stu-id="14681-140">The federation Edge Server and next hop server from the federation Edge Server must be running Lync Server 2010 with the latest cumulative updates.</span></span>
     
-      - <span data-ttu-id="3166f-141">Die Verwaltungs Tools für Skype for Business Server 2015 oder lync Server 2013 müssen auf mindestens einem Server oder einer Verwaltungsarbeitsstation installiert sein.</span><span class="sxs-lookup"><span data-stu-id="3166f-141">The Skype for Business Server 2015 or Lync Server 2013 Administrative Tools must be installed on at least one server or management workstation.</span></span>
+      - <span data-ttu-id="14681-141">Die Skype for Business Server 2015-oder lync Server 2013-Verwaltungs Tools müssen auf mindestens einem Server oder einer Verwaltungsarbeitsstation installiert sein.</span><span class="sxs-lookup"><span data-stu-id="14681-141">The Skype for Business Server 2015 or Lync Server 2013 Administrative Tools must be installed on at least one server or management workstation.</span></span>
 
-  - <span data-ttu-id="3166f-142">Eine gemischte lync Server 2013-und Skype for Business Server 2015-Bereitstellung mit den folgenden Server Rollen in mindestens einer Website mit Skype for Business Server 2015:</span><span class="sxs-lookup"><span data-stu-id="3166f-142">A mixed Lync Server 2013 and Skype for Business Server 2015 deployment with the following server roles in at least one site running Skype for Business Server 2015:</span></span>
+  - <span data-ttu-id="14681-142">Eine gemischte lync Server 2013-und Skype for Business Server 2015-Bereitstellung mit den folgenden Server Rollen an mindestens einer Website mit Skype for Business Server 2015:</span><span class="sxs-lookup"><span data-stu-id="14681-142">A mixed Lync Server 2013 and Skype for Business Server 2015 deployment with the following server roles in at least one site running Skype for Business Server 2015:</span></span>
     
-      - <span data-ttu-id="3166f-143">Mindestens ein Enterprise-Pool- oder Standard Edition-Server </span><span class="sxs-lookup"><span data-stu-id="3166f-143">At least one Enterprise Pool or Standard Edition server</span></span>
+      - <span data-ttu-id="14681-143">Mindestens ein Enterprise-Pool oder Standard Edition-Server</span><span class="sxs-lookup"><span data-stu-id="14681-143">At least one Enterprise Pool or Standard Edition server</span></span>
     
-      - <span data-ttu-id="3166f-144">Der dem SIP-Partnerverbund zugeordnete Director-Pool, falls vorhanden</span><span class="sxs-lookup"><span data-stu-id="3166f-144">The Director Pool associated with SIP federation, if it exists</span></span>
+      - <span data-ttu-id="14681-144">Der dem SIP-Partnerverbund zugeordnete Director-Pool, falls vorhanden</span><span class="sxs-lookup"><span data-stu-id="14681-144">The Director Pool associated with SIP federation, if it exists</span></span>
     
-      - <span data-ttu-id="3166f-145">Der dem SIP-Partnerverbund zugeordnete Edgepool</span><span class="sxs-lookup"><span data-stu-id="3166f-145">The Edge Pool associated with SIP federation</span></span>
+      - <span data-ttu-id="14681-145">Dem SIP-Partnerverbund zugeordneter Edge-Pool</span><span class="sxs-lookup"><span data-stu-id="14681-145">The Edge Pool associated with SIP federation</span></span>
 
-  - <span data-ttu-id="3166f-146">Eine gemischte lync Server 2010-und Skype for Business Server 2015-Bereitstellung mit den folgenden Serverrollen in mindestens einer Website mit Skype for Business Server 2015:</span><span class="sxs-lookup"><span data-stu-id="3166f-146">A mixed Lync Server 2010 and Skype for Business Server 2015 deployment with the following servers roles in at least one site running Skype for Business Server 2015:</span></span>
+  - <span data-ttu-id="14681-146">Eine gemischte lync Server 2010-und Skype for Business Server 2015-Bereitstellung mit den folgenden Serverrollen an mindestens einem Standort, auf dem Skype for Business Server 2015 läuft:</span><span class="sxs-lookup"><span data-stu-id="14681-146">A mixed Lync Server 2010 and Skype for Business Server 2015 deployment with the following servers roles in at least one site running Skype for Business Server 2015:</span></span>
     
-      - <span data-ttu-id="3166f-147">Mindestens ein Enterprise-Pool- oder Standard Edition-Server </span><span class="sxs-lookup"><span data-stu-id="3166f-147">At least one Enterprise Pool or Standard Edition server</span></span>
+      - <span data-ttu-id="14681-147">Mindestens ein Enterprise-Pool oder Standard Edition-Server</span><span class="sxs-lookup"><span data-stu-id="14681-147">At least one Enterprise Pool or Standard Edition server</span></span>
     
-      - <span data-ttu-id="3166f-148">Der dem SIP-Partnerverbund zugeordnete Director-Pool, falls vorhanden</span><span class="sxs-lookup"><span data-stu-id="3166f-148">The Director Pool associated with SIP federation, if it exists</span></span>
+      - <span data-ttu-id="14681-148">Der dem SIP-Partnerverbund zugeordnete Director-Pool, falls vorhanden</span><span class="sxs-lookup"><span data-stu-id="14681-148">The Director Pool associated with SIP federation, if it exists</span></span>
     
-      - <span data-ttu-id="3166f-149">Der dem SIP-Partnerverbund zugeordnete Edgepool für den Standort</span><span class="sxs-lookup"><span data-stu-id="3166f-149">The Edge Pool associated with SIP federation for the Site</span></span>
+      - <span data-ttu-id="14681-149">Der dem SIP-Partnerverbund für den Standort zugeordnete Edge-Pool</span><span class="sxs-lookup"><span data-stu-id="14681-149">The Edge Pool associated with SIP federation for the Site</span></span>
 
-  - <span data-ttu-id="3166f-150">Eine gemischte lync Server 2010-und lync Server 2013-Bereitstellung mit den folgenden Server Rollen in mindestens einer Website mit lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="3166f-150">A mixed Lync Server 2010 and Lync Server 2013 deployment with the following server roles in at least one site running Lync Server 2013:</span></span>
+  - <span data-ttu-id="14681-150">Eine gemischte lync Server 2010-und lync Server 2013-Bereitstellung mit den folgenden Server Rollen an mindestens einer Website mit lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="14681-150">A mixed Lync Server 2010 and Lync Server 2013 deployment with the following server roles in at least one site running Lync Server 2013:</span></span>
     
-      - <span data-ttu-id="3166f-151">Mindestens ein Enterprise-Pool- oder Standard Edition-Server am Standort</span><span class="sxs-lookup"><span data-stu-id="3166f-151">At least one Enterprise Pool or Standard Edition server in the site</span></span>
+      - <span data-ttu-id="14681-151">Mindestens ein Enterprise-Pool oder Standard Edition-Server am Standort</span><span class="sxs-lookup"><span data-stu-id="14681-151">At least one Enterprise Pool or Standard Edition server in the site</span></span>
     
-      - <span data-ttu-id="3166f-152">Der dem SIP-Partnerverbund zugeordnete Director-Pool, falls am Standort vorhanden</span><span class="sxs-lookup"><span data-stu-id="3166f-152">The Director Pool associated with SIP federation, if it exists in the site</span></span>
+      - <span data-ttu-id="14681-152">Der dem SIP-Partnerverbund zugeordnete Director-Pool, falls dieser in der Website vorhanden ist</span><span class="sxs-lookup"><span data-stu-id="14681-152">The Director Pool associated with SIP federation, if it exists in the site</span></span>
     
-      - <span data-ttu-id="3166f-153">Der dem SIP-Partnerverbund zugeordnete Edgepool für den Standort</span><span class="sxs-lookup"><span data-stu-id="3166f-153">The Edge Pool associated with SIP federation for the site</span></span>
+      - <span data-ttu-id="14681-153">Der dem SIP-Partnerverbund für den Standort zugeordnete Edge-Pool</span><span class="sxs-lookup"><span data-stu-id="14681-153">The Edge Pool associated with SIP federation for the site</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="3166f-154">Die gesamte Benutzerverwaltung, einschließlich des Benutzers, der zwischen lokal und UNRESOLVED_TOKEN_VAL (skypeforbusiness) Online wechselt, muss mithilfe der neuesten installierten Version der Verwaltungstools ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="3166f-154">All user management, including user moves between on-premises and UNRESOLVED_TOKEN_VAL(skypeforbusiness) Online, needs to be done using the latest installed version of the administrative tools.</span></span> <span data-ttu-id="3166f-155">Die Verwaltungstools müssen auf einem separaten Server installiert sein, auf dem der Zugriff auf die vorhandene lokale Bereitstellung und das Internet verbunden ist.</span><span class="sxs-lookup"><span data-stu-id="3166f-155">The administrative tools must be installed on a separate server that has connect access to the existing on-premises deployment and to the Internet.</span></span> <span data-ttu-id="3166f-156">Das Cmdlet <A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">Move-CsUser</A> zum Verschieben von Benutzern aus Ihrer lokalen Bereitstellung in UNRESOLVED_TOKEN_VAL (skype16_online) muss über die Verwaltungstools ausgeführt werden, die mit Ihrer lokalen Bereitstellung verbunden sind.</span><span class="sxs-lookup"><span data-stu-id="3166f-156">The <A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">Move-CsUser</A> cmdlet to move users from your on-premises deployment to UNRESOLVED_TOKEN_VAL(skype16_online) must be run from the administrative tools connected to your on-premises deployment.</span></span>
+> <span data-ttu-id="14681-154">Die gesamte Benutzerverwaltung, einschließlich der Benutzer Verschiebungen zwischen lokalen und UNRESOLVED_TOKEN_VAL Online (skypeforbusiness), muss mithilfe der neuesten installierten Version der Verwaltungstools ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="14681-154">All user management, including user moves between on-premises and UNRESOLVED_TOKEN_VAL(skypeforbusiness) Online, needs to be done using the latest installed version of the administrative tools.</span></span> <span data-ttu-id="14681-155">Die Verwaltungstools müssen auf einem separaten Server installiert sein, der über einen Connect-Zugriff auf die vorhandene lokale Bereitstellung und das Internet verfügt.</span><span class="sxs-lookup"><span data-stu-id="14681-155">The administrative tools must be installed on a separate server that has connect access to the existing on-premises deployment and to the Internet.</span></span> <span data-ttu-id="14681-156">Das Cmdlet " <A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">CsUser</A> ", um Benutzer von Ihrer lokalen Bereitstellung in UNRESOLVED_TOKEN_VAL (skype16_online) zu verlagern, muss über die Verwaltungstools ausgeführt werden, die mit Ihrer lokalen Bereitstellung verbunden sind.</span><span class="sxs-lookup"><span data-stu-id="14681-156">The <A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">Move-CsUser</A> cmdlet to move users from your on-premises deployment to UNRESOLVED_TOKEN_VAL(skype16_online) must be run from the administrative tools connected to your on-premises deployment.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="3166f-157">Weitere Informationen zu unterstützten Topologien finden Sie unter [Unterstützte Topologien in lync Server 2013](lync-server-2013-supported-topologies.md)und [lync Server 2013-Referenz Topologien für Enterprise-Hybrid Bereitstellungen](http://go.microsoft.com/fwlink/p/?linkid=398709).</span><span class="sxs-lookup"><span data-stu-id="3166f-157">For more information about supported topologies, see [Supported topologies in Lync Server 2013](lync-server-2013-supported-topologies.md), and [Lync Server 2013 Reference Topologies for Enterprise Hybrid Deployments](http://go.microsoft.com/fwlink/p/?linkid=398709).</span></span>
+<span data-ttu-id="14681-157">Weitere Informationen zu unterstützten Topologien finden Sie unter [Unterstützte Topologien in lync Server 2013](lync-server-2013-supported-topologies.md)und [lync Server 2013 Referenz Topologien für Enterprise-Hybrid Bereitstellungen](http://go.microsoft.com/fwlink/p/?linkid=398709).</span><span class="sxs-lookup"><span data-stu-id="14681-157">For more information about supported topologies, see [Supported topologies in Lync Server 2013](lync-server-2013-supported-topologies.md), and [Lync Server 2013 Reference Topologies for Enterprise Hybrid Deployments](http://go.microsoft.com/fwlink/p/?linkid=398709).</span></span>
 
-<span data-ttu-id="3166f-158">Informationen zur Problembehandlung von hybridbereitstellungen und zum Verbinden von PowerShell mit lync Online finden Sie unter [lync online: Problembehandlung bei lync PowerShell und Hybrid](http://go.microsoft.com/fwlink/p/?linkid=306718).</span><span class="sxs-lookup"><span data-stu-id="3166f-158">For troubleshooting information about hybrid deployments and connecting PowerShell to Lync Online, see [Lync Online: Lync PowerShell and Hybrid Troubleshooting](http://go.microsoft.com/fwlink/p/?linkid=306718).</span></span>
-
-</div>
-
-<div>
-
-## <a name="requirements-for-federation-allowedblocked-lists"></a><span data-ttu-id="3166f-159">Voraussetzungen für zugelassene/blockierte Listen für Föderationen</span><span class="sxs-lookup"><span data-stu-id="3166f-159">Requirements for Federation Allowed/Blocked Lists</span></span>
-
-<span data-ttu-id="3166f-p108">Die Liste der zugelassenen Domänen enthält Domänen, für die ein Partner-Edge-FQDN (vollqualifizierter Domänenname) konfiguriert ist. Diese werden mitunter als *zulässige Partnerserver* oder *direkte Verbundpartner* bezeichnet. Sie sollten mit dem Unterschied zwischen einem öffentlichen Partnerverbund und einem geschlossenen Partnerverbund vertraut sein, der in lokalen Bereitstellungen als *Partnerermittlung* bzw. *Liste der zulässigen Partnerdomänen* bezeichnet wird.</span><span class="sxs-lookup"><span data-stu-id="3166f-p108">The Allowed domains list includes domains that have a partner Edge fully qualified domain name (FQDN) configured. These are sometimes referred to as *allowed partner servers* or *direct federation partners*. You should be familiar with the difference between Open Federation and Closed Federation, referred to as *partner discovery* and *allowed partner domain list*, respectively, in on-premises deployments.</span></span>
-
-<span data-ttu-id="3166f-163">Die folgenden Anforderungen müssen erfüllt sein, um eine Hybridbereitstellung erfolgreich zu konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="3166f-163">The following requirements must be met to successfully configure a hybrid deployment:</span></span>
-
-  - <span data-ttu-id="3166f-p109">Der Domänenabgleich muss für die lokale Bereitstellung und den Office 365-Mandanten identisch konfiguriert sein. Wenn die Partnerermittlung für die lokale Bereitstellung aktiviert ist, muss der öffentliche Partnerverbund für den Onlinemandaten konfiguriert sein. Wenn die Partnerermittlung nicht aktiviert ist, muss für den Onlinemandanten der geschlossene Partnerverbund konfiguriert sein.</span><span class="sxs-lookup"><span data-stu-id="3166f-p109">Domain matching must be configured the same for your on-premises deployment and your Office 365 tenant. If partner discovery is enabled on the on-premises deployment, then open federation must be configured for your online tenant. If partner discovery is not enabled, then closed federation must be configured for your online tenant.</span></span>
-
-  - <span data-ttu-id="3166f-167">Die Liste der blockierten Domänen in der lokalen Bereitstellung muss genau mit der Liste der blockierten Domänen für den Onlinemandanten übereinstimmen.</span><span class="sxs-lookup"><span data-stu-id="3166f-167">The Blocked domains list in the on-premises deployment must exactly match the Blocked domains list for your online tenant.</span></span>
-
-  - <span data-ttu-id="3166f-168">Die Liste der zugelassenen Domänen in der lokalen Bereitstellung muss genau mit der Liste der zugelassenen Domänen für den Onlinemandanten übereinstimmen.</span><span class="sxs-lookup"><span data-stu-id="3166f-168">The Allowed domains list in the on-premises deployment must exactly match the Allowed domains list for your online tenant.</span></span>
-
-  - <span data-ttu-id="3166f-169">Der Verbund muss für die externe Kommunikation für den Online Mandanten aktiviert sein, der über die lync Online-Systemsteuerung konfiguriert wird.</span><span class="sxs-lookup"><span data-stu-id="3166f-169">Federation must be enabled for the external communications for the online tenant, which is configured by using the Lync Online Control Panel.</span></span>
+<span data-ttu-id="14681-158">Informationen zur Problembehandlung bei hybridbereitstellungen und zum Verbinden von PowerShell mit lync Online finden Sie unter [lync online: lync PowerShell and Hybrid Troubleshooting](http://go.microsoft.com/fwlink/p/?linkid=306718).</span><span class="sxs-lookup"><span data-stu-id="14681-158">For troubleshooting information about hybrid deployments and connecting PowerShell to Lync Online, see [Lync Online: Lync PowerShell and Hybrid Troubleshooting](http://go.microsoft.com/fwlink/p/?linkid=306718).</span></span>
 
 </div>
 
 <div>
 
-## <a name="dns-settings"></a><span data-ttu-id="3166f-170">DNS-Einstellungen</span><span class="sxs-lookup"><span data-stu-id="3166f-170">DNS Settings</span></span>
+## <a name="requirements-for-federation-allowedblocked-lists"></a><span data-ttu-id="14681-159">Anforderungen für zugelassene/blockierte Verbund Listen</span><span class="sxs-lookup"><span data-stu-id="14681-159">Requirements for Federation Allowed/Blocked Lists</span></span>
 
-<span data-ttu-id="3166f-171">Beim Erstellen von DNS-Einträgen für hybridbereitstellungen sollten alle externen lync-DNS-Einträge auf die lokale Infrastruktur verweisen.</span><span class="sxs-lookup"><span data-stu-id="3166f-171">When creating DNS records for hybrid deployments, all Lync external DNS records should point to the on-premises infrastructure.</span></span> <span data-ttu-id="3166f-172">Details zu den erforderlichen DNS-Einträgen finden Sie unter [Domain Name System (DNS) Requirements for lync Server 2013](lync-server-2013-domain-name-system-dns-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="3166f-172">For details on required DNS records, please refer to [Domain Name System (DNS) requirements for Lync Server 2013](lync-server-2013-domain-name-system-dns-requirements.md).</span></span>
+<span data-ttu-id="14681-160">Die Liste der zugelassenen Domänen enthält Domänen, für die der vollqualifizierte Domänenname (FQDN) des Partner Edges konfiguriert ist.</span><span class="sxs-lookup"><span data-stu-id="14681-160">The Allowed domains list includes domains that have a partner Edge fully qualified domain name (FQDN) configured.</span></span> <span data-ttu-id="14681-161">Diese werden manchmal als *zugelassene Partnerserver* oder *direkte Verbundpartner*bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="14681-161">These are sometimes referred to as *allowed partner servers* or *direct federation partners*.</span></span> <span data-ttu-id="14681-162">Sie sollten mit dem Unterschied zwischen Open Federation und Closed Federation vertraut sein, der in lokalen Bereitstellungen als *Partner Discovery* und *zugelassene Partnerdomänen Liste*bezeichnet wird.</span><span class="sxs-lookup"><span data-stu-id="14681-162">You should be familiar with the difference between Open Federation and Closed Federation, referred to as *partner discovery* and *allowed partner domain list*, respectively, in on-premises deployments.</span></span>
 
-<span data-ttu-id="3166f-173">Darüber hinaus müssen Sie sicherstellen, dass die in der folgenden Tabelle erläuterte DNS-Auflösung in Ihrer lokalen Bereitstellung funktioniert:</span><span class="sxs-lookup"><span data-stu-id="3166f-173">Additionally you need to ensure that the DNS resolution described in the following table works in your on-premises deployment:</span></span>
+<span data-ttu-id="14681-163">Die folgenden Anforderungen müssen erfüllt sein, um eine hybridbereitstellung erfolgreich zu konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="14681-163">The following requirements must be met to successfully configure a hybrid deployment:</span></span>
+
+  - <span data-ttu-id="14681-164">Der Domänen Abgleich muss für die lokale Bereitstellung und den Office 365 Mandanten identisch konfiguriert werden.</span><span class="sxs-lookup"><span data-stu-id="14681-164">Domain matching must be configured the same for your on-premises deployment and your Office 365 tenant.</span></span> <span data-ttu-id="14681-165">Wenn die Partner Ermittlung für die lokale Bereitstellung aktiviert ist, muss Open Federation für Ihren Online-Mandanten konfiguriert werden.</span><span class="sxs-lookup"><span data-stu-id="14681-165">If partner discovery is enabled on the on-premises deployment, then open federation must be configured for your online tenant.</span></span> <span data-ttu-id="14681-166">Wenn die Partner Ermittlung nicht aktiviert ist, muss Closed Federation für Ihren Online-Mandanten konfiguriert werden.</span><span class="sxs-lookup"><span data-stu-id="14681-166">If partner discovery is not enabled, then closed federation must be configured for your online tenant.</span></span>
+
+  - <span data-ttu-id="14681-167">Die Liste blockierter Domänen in der lokalen Bereitstellung muss genau mit der Liste der blockierten Domänen für den Online Mandanten übereinstimmen.</span><span class="sxs-lookup"><span data-stu-id="14681-167">The Blocked domains list in the on-premises deployment must exactly match the Blocked domains list for your online tenant.</span></span>
+
+  - <span data-ttu-id="14681-168">Die Liste der zugelassenen Domänen in der lokalen Bereitstellung muss genau mit der Liste der zugelassenen Domänen für den Online Mandanten übereinstimmen.</span><span class="sxs-lookup"><span data-stu-id="14681-168">The Allowed domains list in the on-premises deployment must exactly match the Allowed domains list for your online tenant.</span></span>
+
+  - <span data-ttu-id="14681-169">Der Partnerverbund muss für die externe Kommunikation für den Online Mandanten aktiviert sein, der über die lync Online-Systemsteuerung konfiguriert ist.</span><span class="sxs-lookup"><span data-stu-id="14681-169">Federation must be enabled for the external communications for the online tenant, which is configured by using the Lync Online Control Panel.</span></span>
+
+</div>
+
+<div>
+
+## <a name="dns-settings"></a><span data-ttu-id="14681-170">DNS-Einstellungen</span><span class="sxs-lookup"><span data-stu-id="14681-170">DNS Settings</span></span>
+
+<span data-ttu-id="14681-171">Beim Erstellen von DNS-Einträgen für hybridbereitstellungen sollten alle externen lync-DNS-Einträge auf die lokale Infrastruktur hinweisen.</span><span class="sxs-lookup"><span data-stu-id="14681-171">When creating DNS records for hybrid deployments, all Lync external DNS records should point to the on-premises infrastructure.</span></span> <span data-ttu-id="14681-172">Ausführliche Informationen zu den erforderlichen DNS-Einträgen finden Sie unter [Domain Name System (DNS) Anforderungen für lync Server 2013](lync-server-2013-domain-name-system-dns-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="14681-172">For details on required DNS records, please refer to [Domain Name System (DNS) requirements for Lync Server 2013](lync-server-2013-domain-name-system-dns-requirements.md).</span></span>
+
+<span data-ttu-id="14681-173">Außerdem müssen Sie sicherstellen, dass die in der folgenden Tabelle beschriebene DNS-Auflösung in Ihrer lokalen Bereitstellung funktioniert:</span><span class="sxs-lookup"><span data-stu-id="14681-173">Additionally you need to ensure that the DNS resolution described in the following table works in your on-premises deployment:</span></span>
 
 
 <table>
@@ -186,37 +186,37 @@ ms.locfileid: "41751975"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3166f-174">DNS-Eintrag</span><span class="sxs-lookup"><span data-stu-id="3166f-174">DNS record</span></span></p></td>
-<td><p><span data-ttu-id="3166f-175">Aufzulösen durch</span><span class="sxs-lookup"><span data-stu-id="3166f-175">Resolvable by</span></span></p></td>
-<td><p><span data-ttu-id="3166f-176">DNS-Anforderung</span><span class="sxs-lookup"><span data-stu-id="3166f-176">DNS requirement</span></span></p></td>
+<td><p><span data-ttu-id="14681-174">DNS-Eintrag</span><span class="sxs-lookup"><span data-stu-id="14681-174">DNS record</span></span></p></td>
+<td><p><span data-ttu-id="14681-175">Auflösbar durch</span><span class="sxs-lookup"><span data-stu-id="14681-175">Resolvable by</span></span></p></td>
+<td><p><span data-ttu-id="14681-176">DNS-Anforderung</span><span class="sxs-lookup"><span data-stu-id="14681-176">DNS requirement</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3166f-177">DNS-SRV-Eintrag für _sipfederationtls. _tcp. &lt;sipdomain.com&gt; für alle unterstützten SIP-Domänen, die in Access Edge external IP (s) aufgelöst werden</span><span class="sxs-lookup"><span data-stu-id="3166f-177">DNS SRV record for _sipfederationtls._tcp.&lt;sipdomain.com&gt; for all supported SIP domains resolving to Access Edge external IP(s)</span></span></p></td>
-<td><p><span data-ttu-id="3166f-178">Edgeserver</span><span class="sxs-lookup"><span data-stu-id="3166f-178">Edge server(s)</span></span></p></td>
-<td><p><span data-ttu-id="3166f-p111">Aktivieren Sie Partnerverbundkommunikation in einer Hybridkonfiguration. Der Edgeserver muss wissen, wohin der Datenverkehr im Partnerverbund für die zwischen lokal und online aufgeteilte SIP-Domäne geleitet werden soll.</span><span class="sxs-lookup"><span data-stu-id="3166f-p111">Enable federated communication in a hybrid configuration. The Edge Server needs to know where to route federated traffic for the SIP domain that is split between on premises and online.</span></span></p></td>
+<td><p><span data-ttu-id="14681-177">DNS-SRV-Eintrag für _sipfederationtls. _tcp. &lt;sipdomain.com&gt; für alle unterstützten SIP-Domänen, die auf Edge-externe IP (s) zugreifen</span><span class="sxs-lookup"><span data-stu-id="14681-177">DNS SRV record for _sipfederationtls._tcp.&lt;sipdomain.com&gt; for all supported SIP domains resolving to Access Edge external IP(s)</span></span></p></td>
+<td><p><span data-ttu-id="14681-178">Edgeserver (s)</span><span class="sxs-lookup"><span data-stu-id="14681-178">Edge server(s)</span></span></p></td>
+<td><p><span data-ttu-id="14681-179">Aktivieren Sie die Verbundkommunikation in einer Hybrid Konfiguration.</span><span class="sxs-lookup"><span data-stu-id="14681-179">Enable federated communication in a hybrid configuration.</span></span> <span data-ttu-id="14681-180">Die Edgeserver müssen wissen, wo der Verbunddatenverkehr für die SIP-Domäne, die zwischen lokal und Online aufgeteilt ist, weitergeleitet werden soll.</span><span class="sxs-lookup"><span data-stu-id="14681-180">The Edge Server needs to know where to route federated traffic for the SIP domain that is split between on premises and online.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3166f-181">DNS-A-Eintrag/Einträge für den Edge-Webkonferenzdienst-FQDN, zum Beispiel „webcon.contoso.com“, aufgelöst zu der externen IP/den IPs des Webkonferenzdienst-Edgeservers</span><span class="sxs-lookup"><span data-stu-id="3166f-181">DNS A record(s) for Edge Web Conferencing Service FQDN, e.g. webcon.contoso.com resolving to Web Conferencing Edge external IP(s)</span></span></p></td>
-<td><p><span data-ttu-id="3166f-182">Über internes Unternehmensnetzwerk verbundene Benutzercomputer</span><span class="sxs-lookup"><span data-stu-id="3166f-182">Internal corporate network connected users’ computers</span></span></p></td>
-<td><p><span data-ttu-id="3166f-p112">Versetzen Sie Onlinebenutzer in die Lage, in lokal gehosteten Besprechungen Inhalte zu präsentieren oder zu betrachten. Entsprechende Inhalte sind unter anderem PowerPoint-Dateien, Whiteboards, Umfragen und freigegebene Notizen. </span><span class="sxs-lookup"><span data-stu-id="3166f-p112">Enable online users to present or view content in on-premises hosted meetings. Content includes PowerPoint files, whiteboards, polls, and shared notes.</span></span></p></td>
+<td><p><span data-ttu-id="14681-181">DNS-A-Einträge für den FQDN des Edge-Webkonferenz Diensts, beispielsweise webcon.contoso.com auflösen in Webkonferenz-Edge-externe IP (s)</span><span class="sxs-lookup"><span data-stu-id="14681-181">DNS A record(s) for Edge Web Conferencing Service FQDN, e.g. webcon.contoso.com resolving to Web Conferencing Edge external IP(s)</span></span></p></td>
+<td><p><span data-ttu-id="14681-182">Interne Unternehmensnetzwerk verbundene Benutzer Computer</span><span class="sxs-lookup"><span data-stu-id="14681-182">Internal corporate network connected users’ computers</span></span></p></td>
+<td><p><span data-ttu-id="14681-183">Ermöglichen Sie Online-Benutzern das präsentieren oder Anzeigen von Inhalten in lokalen gehosteten Besprechungen.</span><span class="sxs-lookup"><span data-stu-id="14681-183">Enable online users to present or view content in on-premises hosted meetings.</span></span> <span data-ttu-id="14681-184">Der Inhalt enthält PowerPoint-Dateien, Whiteboards, Umfragen und freigegebene Notizen.</span><span class="sxs-lookup"><span data-stu-id="14681-184">Content includes PowerPoint files, whiteboards, polls, and shared notes.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="3166f-185">Je nachdem, wie DNS in Ihrer Organisation konfiguriert ist, müssen Sie möglicherweise der intern gehosteten DNS-Zone für die entsprechenden SIP-Domäne(n) diese Einträge hinzufügen, um die interne DNS-Auflösung dieser Datensätze zu gewährleisten.</span><span class="sxs-lookup"><span data-stu-id="3166f-185">Depending on how DNS is configured in your organization, you may need to add these records to the internal hosted DNS zone for the corresponding SIP domain(s) to provide internal DNS resolution to these records.</span></span>
+<span data-ttu-id="14681-185">Je nachdem, wie DNS in Ihrer Organisation konfiguriert ist, müssen Sie diese Einträge möglicherweise der internen gehosteten DNS-Zone für die entsprechenden SIP-Domänen hinzufügen, um die interne DNS-Auflösung für diese Einträge bereitzustellen.</span><span class="sxs-lookup"><span data-stu-id="14681-185">Depending on how DNS is configured in your organization, you may need to add these records to the internal hosted DNS zone for the corresponding SIP domain(s) to provide internal DNS resolution to these records.</span></span>
 
 </div>
 
 <div>
 
-## <a name="firewall-considerations"></a><span data-ttu-id="3166f-186">Firewall-Überlegungen</span><span class="sxs-lookup"><span data-stu-id="3166f-186">Firewall Considerations</span></span>
+## <a name="firewall-considerations"></a><span data-ttu-id="14681-186">Überlegungen zu Firewalls</span><span class="sxs-lookup"><span data-stu-id="14681-186">Firewall Considerations</span></span>
 
-<span data-ttu-id="3166f-p113">Die Computer in Ihrem Netzwerk müssen Standard-Internet-DNS-Lookups ausführen können. Wenn diese Computer Standard-Internetwebsites erreichen können, erfüllt Ihr Netzwerk diese Anforderung.</span><span class="sxs-lookup"><span data-stu-id="3166f-p113">Computers on your network must be able to perform standard Internet DNS lookups. If these computers can reach standard Internet sites, your network meets this requirement.</span></span>
+<span data-ttu-id="14681-187">Computer in Ihrem Netzwerk müssen in der Lage sein, standardmäßige Internet-DNS-Lookups durchzuführen.</span><span class="sxs-lookup"><span data-stu-id="14681-187">Computers on your network must be able to perform standard Internet DNS lookups.</span></span> <span data-ttu-id="14681-188">Wenn diese Computer Standard-Internetwebsites erreichen können, erfüllt Ihr Netzwerk diese Anforderung.</span><span class="sxs-lookup"><span data-stu-id="14681-188">If these computers can reach standard Internet sites, your network meets this requirement.</span></span>
 
-<span data-ttu-id="3166f-189">Je nach Standort Ihres Microsoft Online Services-Rechenzentrums müssen Sie auch Ihre Netzwerkfirewall-Geräte so konfigurieren, dass Sie Verbindungen basierend auf Platzhalter-Domänennamen (beispielsweise alle Daten \*Verkehr von Outlook.com) akzeptieren.</span><span class="sxs-lookup"><span data-stu-id="3166f-189">Depending on the location of your Microsoft Online Services data center, you must also configure your network firewall devices to accept connections based on wildcard domain names (for example, all traffic from \*.outlook.com).</span></span> <span data-ttu-id="3166f-190">Wenn die Firewalls Ihrer Organisation Konfigurationen mit Platzhalternamen nicht unterstützen, müssen Sie die IP-Adressbereiche, die Sie zulassen möchten, und die angegebenen Ports manuell festlegen.</span><span class="sxs-lookup"><span data-stu-id="3166f-190">If your organization’s firewalls do not support wildcard name configurations, you will have to manually determine the IP address ranges that you would like to allow and the specified ports.</span></span>
+<span data-ttu-id="14681-189">Je nach Speicherort Ihres Microsoft Online Services-Rechenzentrums müssen Sie auch die Netzwerkfirewall-Geräte so konfigurieren, dass Verbindungen basierend auf Platzhalterdomänen Namen akzeptiert werden (beispielsweise der gesamte \*Datenverkehr von. Outlook.com).</span><span class="sxs-lookup"><span data-stu-id="14681-189">Depending on the location of your Microsoft Online Services data center, you must also configure your network firewall devices to accept connections based on wildcard domain names (for example, all traffic from \*.outlook.com).</span></span> <span data-ttu-id="14681-190">Wenn die Firewalls Ihrer Organisation keine Platzhalternamen Konfigurationen unterstützen, müssen Sie die IP-Adressbereiche, die Sie zulassen möchten, und die angegebenen Ports manuell bestimmen.</span><span class="sxs-lookup"><span data-stu-id="14681-190">If your organization’s firewalls do not support wildcard name configurations, you will have to manually determine the IP address ranges that you would like to allow and the specified ports.</span></span>
 
-<span data-ttu-id="3166f-191">Weitere Informationen finden Sie im Hilfethema [Office 365-URLs und IP-Adressbereiche](http://go.microsoft.com/fwlink/p/?linkid=252942).</span><span class="sxs-lookup"><span data-stu-id="3166f-191">Refer to the Help topic [Office 365 URLs and IP address ranges](http://go.microsoft.com/fwlink/p/?linkid=252942).</span></span>
+<span data-ttu-id="14681-191">Weitere Informationen finden Sie im Hilfethema [Office 365 URLs und IP-Adressbereiche](http://go.microsoft.com/fwlink/p/?linkid=252942).</span><span class="sxs-lookup"><span data-stu-id="14681-191">Refer to the Help topic [Office 365 URLs and IP address ranges](http://go.microsoft.com/fwlink/p/?linkid=252942).</span></span>
 
 </div>
 
@@ -224,9 +224,9 @@ ms.locfileid: "41751975"
 
 <div>
 
-## <a name="port-and-protocol-requirements"></a><span data-ttu-id="3166f-192">Port-und Protokollanforderungen</span><span class="sxs-lookup"><span data-stu-id="3166f-192">Port and Protocol Requirements</span></span>
+## <a name="port-and-protocol-requirements"></a><span data-ttu-id="14681-192">Port-und Protokollanforderungen</span><span class="sxs-lookup"><span data-stu-id="14681-192">Port and Protocol Requirements</span></span>
 
-<span data-ttu-id="3166f-193">Zusätzlich zu den Portanforderungen für die interne lync Server 2013-Kommunikation müssen Sie auch die folgenden Ports konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="3166f-193">In addition to the port requirements for internal Lync Server 2013 communication, you must also configure the following ports.</span></span>
+<span data-ttu-id="14681-193">Zusätzlich zu den Portanforderungen für die interne lync Server 2013 Kommunikation müssen Sie auch die folgenden Ports konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="14681-193">In addition to the port requirements for internal Lync Server 2013 communication, you must also configure the following ports.</span></span>
 
 
 <table>
@@ -236,50 +236,50 @@ ms.locfileid: "41751975"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3166f-194">Protokoll/Port</span><span class="sxs-lookup"><span data-stu-id="3166f-194">Protocol / Port</span></span></th>
-<th><span data-ttu-id="3166f-195">Anwendungen</span><span class="sxs-lookup"><span data-stu-id="3166f-195">Applications</span></span></th>
+<th><span data-ttu-id="14681-194">Protokoll/Port</span><span class="sxs-lookup"><span data-stu-id="14681-194">Protocol / Port</span></span></th>
+<th><span data-ttu-id="14681-195">Applications</span><span class="sxs-lookup"><span data-stu-id="14681-195">Applications</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3166f-196">TCP 443</span><span class="sxs-lookup"><span data-stu-id="3166f-196">TCP 443</span></span></p></td>
-<td><p><span data-ttu-id="3166f-197">Eingehend öffnen</span><span class="sxs-lookup"><span data-stu-id="3166f-197">Open inbound</span></span></p>
+<td><p><span data-ttu-id="14681-196">TCP 443</span><span class="sxs-lookup"><span data-stu-id="14681-196">TCP 443</span></span></p></td>
+<td><p><span data-ttu-id="14681-197">Geöffnet, eingehend</span><span class="sxs-lookup"><span data-stu-id="14681-197">Open inbound</span></span></p>
 <ul>
-<li><p><span data-ttu-id="3166f-198">Active Directory-Verbunddienste (Verbundserver Rolle)</span><span class="sxs-lookup"><span data-stu-id="3166f-198">Active Directory Federation Services (federation server role)</span></span></p>
-<p><span data-ttu-id="3166f-199">Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Grundlegendes zu AD FS-Rollendiensten</a>.</span><span class="sxs-lookup"><span data-stu-id="3166f-199">For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Understanding AD FS Role Services</a>.</span></span></p></li>
-<li><p><span data-ttu-id="3166f-200">Active Directory-Verbunddienste (Proxy Serverrolle)</span><span class="sxs-lookup"><span data-stu-id="3166f-200">Active Directory Federation Services (proxy server role)</span></span></p></li>
-<li><p><span data-ttu-id="3166f-201">Microsoft Online Services-Portal</span><span class="sxs-lookup"><span data-stu-id="3166f-201">Microsoft Online Services Portal</span></span></p></li>
-<li><p><span data-ttu-id="3166f-202">Mein Unternehmens Portal</span><span class="sxs-lookup"><span data-stu-id="3166f-202">My Company Portal</span></span></p></li>
-<li><p><span data-ttu-id="3166f-203">Outlook Web App</span><span class="sxs-lookup"><span data-stu-id="3166f-203">Outlook Web App</span></span></p></li>
-<li><p><span data-ttu-id="3166f-204">Lync-Client (Kommunikation mit lync Online von einem lokalen lync-Server)</span><span class="sxs-lookup"><span data-stu-id="3166f-204">Lync client (communication to Lync Online from on-premises Lync Server)</span></span></p></li>
+<li><p><span data-ttu-id="14681-198">Active Directory-Verbunddienste (Active Directory Federation Services, AD FS) (Verbundserverrolle)</span><span class="sxs-lookup"><span data-stu-id="14681-198">Active Directory Federation Services (federation server role)</span></span></p>
+<p><span data-ttu-id="14681-199">Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Understanding AD FS Role Services</a>.</span><span class="sxs-lookup"><span data-stu-id="14681-199">For more information, see <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Understanding AD FS Role Services</a>.</span></span></p></li>
+<li><p><span data-ttu-id="14681-200">Active Directory-Verbunddienste (Proxyserverrolle)</span><span class="sxs-lookup"><span data-stu-id="14681-200">Active Directory Federation Services (proxy server role)</span></span></p></li>
+<li><p><span data-ttu-id="14681-201">Microsoft Online Services-Portal</span><span class="sxs-lookup"><span data-stu-id="14681-201">Microsoft Online Services Portal</span></span></p></li>
+<li><p><span data-ttu-id="14681-202">Unternehmensportal</span><span class="sxs-lookup"><span data-stu-id="14681-202">My Company Portal</span></span></p></li>
+<li><p><span data-ttu-id="14681-203">Outlook Web App</span><span class="sxs-lookup"><span data-stu-id="14681-203">Outlook Web App</span></span></p></li>
+<li><p><span data-ttu-id="14681-204">Lync-Client (Kommunikation mit lync Online von lokalen lync Server)</span><span class="sxs-lookup"><span data-stu-id="14681-204">Lync client (communication to Lync Online from on-premises Lync Server)</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3166f-205">TCP 80 und 443</span><span class="sxs-lookup"><span data-stu-id="3166f-205">TCP 80 and 443</span></span></p></td>
-<td><p><span data-ttu-id="3166f-206">Eingehend öffnen</span><span class="sxs-lookup"><span data-stu-id="3166f-206">Open inbound</span></span></p>
+<td><p><span data-ttu-id="14681-205">TCP 80 und 443</span><span class="sxs-lookup"><span data-stu-id="14681-205">TCP 80 and 443</span></span></p></td>
+<td><p><span data-ttu-id="14681-206">Geöffnet, eingehend</span><span class="sxs-lookup"><span data-stu-id="14681-206">Open inbound</span></span></p>
 <ul>
-<li><p><span data-ttu-id="3166f-207">Microsoft Online Services-Verzeichnis Synchronisierungs Tool</span><span class="sxs-lookup"><span data-stu-id="3166f-207">Microsoft Online Services Directory Synchronization Tool</span></span></p></li>
+<li><p><span data-ttu-id="14681-207">Microsoft Online Services-Verzeichnissynchronisierungstool</span><span class="sxs-lookup"><span data-stu-id="14681-207">Microsoft Online Services Directory Synchronization Tool</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3166f-208">TCP 5061</span><span class="sxs-lookup"><span data-stu-id="3166f-208">TCP 5061</span></span></p></td>
-<td><p><span data-ttu-id="3166f-209">Inbound/Outbound auf dem Edgeserver öffnen</span><span class="sxs-lookup"><span data-stu-id="3166f-209">Open inbound/outbound on the Edge Server</span></span></p></td>
+<td><p><span data-ttu-id="14681-208">TCP 5061</span><span class="sxs-lookup"><span data-stu-id="14681-208">TCP 5061</span></span></p></td>
+<td><p><span data-ttu-id="14681-209">Eingehend/ausgehend im Edgeserver öffnen</span><span class="sxs-lookup"><span data-stu-id="14681-209">Open inbound/outbound on the Edge Server</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3166f-210">PSOM/TLS 443</span><span class="sxs-lookup"><span data-stu-id="3166f-210">PSOM/TLS 443</span></span></p></td>
-<td><p><span data-ttu-id="3166f-211">Eingehende/ausgehende Datenfreigabesitzungen öffnen</span><span class="sxs-lookup"><span data-stu-id="3166f-211">Open inbound/outbound for data sharing sessions</span></span></p></td>
+<td><p><span data-ttu-id="14681-210">PSOM/TLS 443</span><span class="sxs-lookup"><span data-stu-id="14681-210">PSOM/TLS 443</span></span></p></td>
+<td><p><span data-ttu-id="14681-211">Öffnen von eingehenden/ausgehenden Datenfreigabesitzungen</span><span class="sxs-lookup"><span data-stu-id="14681-211">Open inbound/outbound for data sharing sessions</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3166f-212">STUN/TCP 443</span><span class="sxs-lookup"><span data-stu-id="3166f-212">STUN/TCP 443</span></span></p></td>
-<td><p><span data-ttu-id="3166f-213">Eingehend/ausgehend für Audio-, Video-und Anwendungsfreigabesitzungen öffnen</span><span class="sxs-lookup"><span data-stu-id="3166f-213">Open inbound/outbound for audio, video, application sharing sessions</span></span></p></td>
+<td><p><span data-ttu-id="14681-212">STUN/TCP 443</span><span class="sxs-lookup"><span data-stu-id="14681-212">STUN/TCP 443</span></span></p></td>
+<td><p><span data-ttu-id="14681-213">Öffnen eines eingehenden/ausgehenden für Audio-, Video-, Anwendungsfreigabesitzungen</span><span class="sxs-lookup"><span data-stu-id="14681-213">Open inbound/outbound for audio, video, application sharing sessions</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3166f-214">STUN/UDP 3478</span><span class="sxs-lookup"><span data-stu-id="3166f-214">STUN/UDP 3478</span></span></p></td>
-<td><p><span data-ttu-id="3166f-215">Eingehende/ausgehende für Audio-und Videositzungen öffnen</span><span class="sxs-lookup"><span data-stu-id="3166f-215">Open inbound/outbound for audio and video sessions</span></span></p></td>
+<td><p><span data-ttu-id="14681-214">STUN/UDP 3478</span><span class="sxs-lookup"><span data-stu-id="14681-214">STUN/UDP 3478</span></span></p></td>
+<td><p><span data-ttu-id="14681-215">Öffnen von eingehenden/ausgehenden Daten für Audio-und Videositzungen</span><span class="sxs-lookup"><span data-stu-id="14681-215">Open inbound/outbound for audio and video sessions</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="3166f-216">RTP/TCP 50000-59999</span><span class="sxs-lookup"><span data-stu-id="3166f-216">RTP/TCP 50000-59999</span></span></p></td>
-<td><p><span data-ttu-id="3166f-217">Open Outbound für Audio-und Videositzungen</span><span class="sxs-lookup"><span data-stu-id="3166f-217">Open outbound for audio and video sessions</span></span></p></td>
+<td><p><span data-ttu-id="14681-216">RTP/TCP 50000-59999</span><span class="sxs-lookup"><span data-stu-id="14681-216">RTP/TCP 50000-59999</span></span></p></td>
+<td><p><span data-ttu-id="14681-217">Offener Ausgang für Audio-und Videositzungen</span><span class="sxs-lookup"><span data-stu-id="14681-217">Open outbound for audio and video sessions</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -289,43 +289,43 @@ ms.locfileid: "41751975"
 
 <div>
 
-## <a name="user-accounts-and-data"></a><span data-ttu-id="3166f-218">Benutzerkonten und-Daten</span><span class="sxs-lookup"><span data-stu-id="3166f-218">User Accounts and Data</span></span>
+## <a name="user-accounts-and-data"></a><span data-ttu-id="14681-218">Benutzerkonten und-Daten</span><span class="sxs-lookup"><span data-stu-id="14681-218">User Accounts and Data</span></span>
 
-<span data-ttu-id="3166f-219">In einer lync Server 2013-hybridbereitstellung müssen alle Benutzer, die Sie in lync Online verwenden möchten, zunächst in der lokalen Bereitstellung erstellt werden, damit das Benutzerkonto in den Active Directory-Domänendiensten erstellt wird.</span><span class="sxs-lookup"><span data-stu-id="3166f-219">In a Lync Server 2013 hybrid deployment, any user that you want to home in Lync Online must first be created in the on-premises deployment, so that the user account is created in Active Directory Domain Services.</span></span> <span data-ttu-id="3166f-220">Sie können den Benutzer dann in Skype for Business Online verschieben, wodurch die Kontaktliste des Benutzers verschoben wird.</span><span class="sxs-lookup"><span data-stu-id="3166f-220">You can then move the user to Skype for Business Online, which will move the user’s contact list.</span></span>
+<span data-ttu-id="14681-219">In einer lync Server 2013 hybridbereitstellung müssen alle Benutzer, die in lync online zu Hause sein sollen, zuerst in der lokalen Bereitstellung erstellt werden, damit das Benutzerkonto in Active Directory-Domänendienste erstellt wird.</span><span class="sxs-lookup"><span data-stu-id="14681-219">In a Lync Server 2013 hybrid deployment, any user that you want to home in Lync Online must first be created in the on-premises deployment, so that the user account is created in Active Directory Domain Services.</span></span> <span data-ttu-id="14681-220">Anschließend können Sie den Benutzer zu Skype for Business Online, der die Kontaktliste des Benutzers verschiebt, weitergeben.</span><span class="sxs-lookup"><span data-stu-id="14681-220">You can then move the user to Skype for Business Online, which will move the user’s contact list.</span></span>
 
-<span data-ttu-id="3166f-221">Wenn Sie Benutzerkonten zwischen Ihren lokalen lync-und lync Online-Bereitstellungen mit AD FS und Dirsync synchronisieren, müssen Sie die Ad-Konten für alle lync-Benutzer in Ihrer Organisation zwischen Ihren lokalen und Online lync-Bereitstellungen synchronisieren, auch wenn Benutzer werden nicht in lync Online verschoben.</span><span class="sxs-lookup"><span data-stu-id="3166f-221">When you synchronize user accounts between your Lync on-premises and Lync Online deployments with AD FS and Dirsync, you need to synchronize the AD accounts for all Lync users in your organization between your on-premises and online Lync deployments, even if users are not moved to Lync Online.</span></span> <span data-ttu-id="3166f-222">Wenn Sie nicht alle Benutzer synchronisieren, funktioniert die Kommunikation zwischen lokalen und Onlinebenutzern in Ihrem Unternehmen möglicherweise nicht erwartungsgemäß.</span><span class="sxs-lookup"><span data-stu-id="3166f-222">If you do not synchronize all users, communication between on-premises and online users in your organization may not work as expected.</span></span>
+<span data-ttu-id="14681-221">Wenn Sie Benutzerkonten zwischen Ihren lokalen lync-und lync Online-Bereitstellungen mit AD FS und Dirsync synchronisieren, müssen Sie die Ad-Konten für alle lync-Benutzer in Ihrer Organisation zwischen Ihren lokalen und Online-lync-Bereitstellungen synchronisieren, selbst wenn Benutzer werden nicht in lync Online verschoben.</span><span class="sxs-lookup"><span data-stu-id="14681-221">When you synchronize user accounts between your Lync on-premises and Lync Online deployments with AD FS and Dirsync, you need to synchronize the AD accounts for all Lync users in your organization between your on-premises and online Lync deployments, even if users are not moved to Lync Online.</span></span> <span data-ttu-id="14681-222">Wenn Sie nicht alle Benutzer synchronisieren, funktioniert die Kommunikation zwischen lokalen und Online Benutzern in Ihrer Organisation möglicherweise nicht wie erwartet.</span><span class="sxs-lookup"><span data-stu-id="14681-222">If you do not synchronize all users, communication between on-premises and online users in your organization may not work as expected.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="3166f-223">Wenn der Benutzer mithilfe des Online Portals für Office 365 erstellt wird, wird das Benutzerkonto nicht mit lokalem Active Directory synchronisiert, und der Benutzer ist nicht im lokalen Active Directory vorhanden.</span><span class="sxs-lookup"><span data-stu-id="3166f-223">If the user is created by using the online portal for Office 365, the user account will not be synchronized with on-premises Active Directory, and the user will not exist in the on-premises Active Directory.</span></span> <span data-ttu-id="3166f-224">Wenn Sie bereits Benutzer in lync online erstellt haben und Hybrid mit einem lokalen lync-Server konfigurieren möchten, lesen Sie <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Verschieben von Benutzern aus lync Online in lync lokal in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="3166f-224">If you have already created users in Lync Online, and want to configure hybrid with an on-premises Lync Server, see <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Moving users from Lync Online to Lync on-premises in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="14681-223">Wenn der Benutzer mithilfe des Online Portals für Office 365 erstellt wird, wird das Benutzerkonto nicht mit lokalen Active Directory synchronisiert, und der Benutzer wird nicht in der lokalen Active Directory vorhanden sein.</span><span class="sxs-lookup"><span data-stu-id="14681-223">If the user is created by using the online portal for Office 365, the user account will not be synchronized with on-premises Active Directory, and the user will not exist in the on-premises Active Directory.</span></span> <span data-ttu-id="14681-224">Wenn Sie bereits Benutzer in lync online erstellt haben und Hybrid mit einer lokalen lync Server konfigurieren möchten, finden Sie weitere Informationen unter <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Verschieben von Benutzern von lync Online in lync lokal in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="14681-224">If you have already created users in Lync Online, and want to configure hybrid with an on-premises Lync Server, see <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Moving users from Lync Online to Lync on-premises in Lync Server 2013</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="3166f-225">Sie sollten bei der Planung einer Hybridbereitstellung auch die folgenden benutzerbezogenen Aspekte berücksichtigen.</span><span class="sxs-lookup"><span data-stu-id="3166f-225">You should also consider the following user-related issues when planning for a hybrid deployment.</span></span>
+<span data-ttu-id="14681-225">Bei der Planung einer hybridbereitstellung sollten Sie auch die folgenden benutzerbezogenen Probleme berücksichtigen.</span><span class="sxs-lookup"><span data-stu-id="14681-225">You should also consider the following user-related issues when planning for a hybrid deployment.</span></span>
 
-  - <span data-ttu-id="3166f-226">**Benutzer Kontakte**   die Höchstgrenze für Kontakte für lync Online-Benutzer lautet 250.</span><span class="sxs-lookup"><span data-stu-id="3166f-226">**User contacts**   The limit for contacts for Lync Online users is 250.</span></span> <span data-ttu-id="3166f-227">Alle darüber hinausgehenden Kontakte werden aus der Kontaktliste des Benutzers entfernt, wenn das Konto nach Lync Online verschoben wird.</span><span class="sxs-lookup"><span data-stu-id="3166f-227">Any contacts beyond that number will be removed from the user’s contact list when the account is moved to Lync Online.</span></span>
+  - <span data-ttu-id="14681-226">**Benutzer Kontakte**   der Grenzwert für Kontakte für lync Online Benutzer lautet 250.</span><span class="sxs-lookup"><span data-stu-id="14681-226">**User contacts**   The limit for contacts for Lync Online users is 250.</span></span> <span data-ttu-id="14681-227">Alle Kontakte außerhalb dieser Nummer werden aus der Kontaktliste des Benutzers entfernt, wenn das Konto in lync Online verschoben wird.</span><span class="sxs-lookup"><span data-stu-id="14681-227">Any contacts beyond that number will be removed from the user’s contact list when the account is moved to Lync Online.</span></span>
 
-  - <span data-ttu-id="3166f-228">**Sofortnachrichten und Anwesenheits**   Benutzer-Kontaktlisten, Gruppen und Zugriffssteuerungslisten (ACLs) werden mit dem Benutzerkonto migriert.</span><span class="sxs-lookup"><span data-stu-id="3166f-228">**Instant Messaging and Presence**   User contact lists, groups, and access control lists (ACLs) are migrated with the user account.</span></span>
+  - <span data-ttu-id="14681-228">\*\*\*\*   Kontaktlisten, Gruppen und Zugriffssteuerungslisten (ACLs) für Chatnachrichten und Anwesenheits Benutzer werden mit dem Benutzerkonto migriert.</span><span class="sxs-lookup"><span data-stu-id="14681-228">**Instant Messaging and Presence**   User contact lists, groups, and access control lists (ACLs) are migrated with the user account.</span></span>
 
-  - <span data-ttu-id="3166f-229">**Konferenzdaten, Besprechungsinhalte und geplante Besprechungen**   dieser Inhalt wird nicht mit dem Benutzerkonto migriert.</span><span class="sxs-lookup"><span data-stu-id="3166f-229">**Conferencing data, meeting content, and scheduled meetings**   This content is not migrated with the user account.</span></span> <span data-ttu-id="3166f-230">Benutzer müssen Besprechungen neu planen, nachdem ihre Konten zu Lync Online migriert wurden.</span><span class="sxs-lookup"><span data-stu-id="3166f-230">Users must reschedule meetings after their accounts are migrated to Lync Online.</span></span>
+  - <span data-ttu-id="14681-229">**Konferenzdaten, Besprechungsinhalte und geplante Besprechungen**   dieser Inhalt wird nicht mit dem Benutzerkonto migriert.</span><span class="sxs-lookup"><span data-stu-id="14681-229">**Conferencing data, meeting content, and scheduled meetings**   This content is not migrated with the user account.</span></span> <span data-ttu-id="14681-230">Benutzer müssen Besprechungen neu planen, nachdem Ihre Konten zu lync Online migriert wurden.</span><span class="sxs-lookup"><span data-stu-id="14681-230">Users must reschedule meetings after their accounts are migrated to Lync Online.</span></span>
 
 </div>
 
 <div>
 
-## <a name="user-policies-and-features"></a><span data-ttu-id="3166f-231">Benutzerrichtlinien und-Features</span><span class="sxs-lookup"><span data-stu-id="3166f-231">User Policies and Features</span></span>
+## <a name="user-policies-and-features"></a><span data-ttu-id="14681-231">Benutzerrichtlinien und-Features</span><span class="sxs-lookup"><span data-stu-id="14681-231">User Policies and Features</span></span>
 
-  - <span data-ttu-id="3166f-232">In einer lync Server 2013-Hybridumgebung können Benutzer für Sofortnachrichten, Sprachanrufe und Besprechungen entweder lokal oder Online aktiviert sein, jedoch nicht beides gleichzeitig.</span><span class="sxs-lookup"><span data-stu-id="3166f-232">In a Lync Server 2013 hybrid environment, users can be enabled for Instant Messaging, voice, and meetings either on-premises or online, but not both simultaneously.</span></span>
+  - <span data-ttu-id="14681-232">In einer lync Server 2013-Hybridumgebung können Benutzer sowohl lokal als auch online, aber nicht beides gleichzeitig für Chatnachrichten, VoIP und Besprechungen aktiviert werden.</span><span class="sxs-lookup"><span data-stu-id="14681-232">In a Lync Server 2013 hybrid environment, users can be enabled for Instant Messaging, voice, and meetings either on-premises or online, but not both simultaneously.</span></span>
 
-  - <span data-ttu-id="3166f-233">**Lync-Client**     einige Benutzer benötigen möglicherweise eine neue Client Version, wenn Sie nach lync Online verschoben werden.</span><span class="sxs-lookup"><span data-stu-id="3166f-233">**Lync Client**    Some users may require a new client version when they are moved to Lync Online.</span></span> <span data-ttu-id="3166f-234">Für Office Communications Server 2007 R2 müssen Benutzer vor der Migration zu lync Online in einen lync Server 2013-Pool verschoben werden.</span><span class="sxs-lookup"><span data-stu-id="3166f-234">For Office Communications Server 2007 R2, users must be moved to a Lync Server 2013 pool prior to migration to Lync Online.</span></span>
+  - <span data-ttu-id="14681-233">**Lync-Client**     einige Benutzer benötigen möglicherweise eine neue Client Version, wenn Sie in lync Online verschoben werden.</span><span class="sxs-lookup"><span data-stu-id="14681-233">**Lync Client**    Some users may require a new client version when they are moved to Lync Online.</span></span> <span data-ttu-id="14681-234">Für Office Communications Server 2007 R2 müssen Benutzer vor der Migration zu lync Online in einen lync Server 2013 Pool verschoben werden.</span><span class="sxs-lookup"><span data-stu-id="14681-234">For Office Communications Server 2007 R2, users must be moved to a Lync Server 2013 pool prior to migration to Lync Online.</span></span>
     
-    <span data-ttu-id="3166f-235">Weitere Informationen zum Client Support finden Sie unter [Clients für lync Online](http://go.microsoft.com/fwlink/p/?linkid=281902) und [unterstützte lync-Clients und Netzwerk-Portkonfigurationen](http://go.microsoft.com/fwlink/p/?linkid=281901).</span><span class="sxs-lookup"><span data-stu-id="3166f-235">For more information about client support, see [Clients for Lync Online](http://go.microsoft.com/fwlink/p/?linkid=281902) and [Supported Lync clients and network port configurations](http://go.microsoft.com/fwlink/p/?linkid=281901).</span></span>
+    <span data-ttu-id="14681-235">Weitere Informationen zur Clientunterstützung finden Sie unter [Clients for lync Online](http://go.microsoft.com/fwlink/p/?linkid=281902) und [Supported lync Clients and Network Port Configurations](http://go.microsoft.com/fwlink/p/?linkid=281901).</span><span class="sxs-lookup"><span data-stu-id="14681-235">For more information about client support, see [Clients for Lync Online](http://go.microsoft.com/fwlink/p/?linkid=281902) and [Supported Lync clients and network port configurations](http://go.microsoft.com/fwlink/p/?linkid=281901).</span></span>
 
-  - <span data-ttu-id="3166f-236">**Lokale Richtlinien und Konfiguration (nicht-Benutzer)**   Online-und lokale Richtlinien erfordern eine separate Konfiguration.</span><span class="sxs-lookup"><span data-stu-id="3166f-236">**On-premises policies and configuration (non-user)**   Online and on-premises policies require separate configuration.</span></span> <span data-ttu-id="3166f-237">Sie können keine globalen Richtlinien festlegen, die für beide Umgebungen gelten.</span><span class="sxs-lookup"><span data-stu-id="3166f-237">You cannot set global policies that apply to both.</span></span>
+  - <span data-ttu-id="14681-236">**Lokale Richtlinien und Konfiguration (nicht-Benutzer)**   Online-und lokale Richtlinien erfordern eine separate Konfiguration.</span><span class="sxs-lookup"><span data-stu-id="14681-236">**On-premises policies and configuration (non-user)**   Online and on-premises policies require separate configuration.</span></span> <span data-ttu-id="14681-237">Sie können keine globalen Richtlinien festlegen, die für beides gelten.</span><span class="sxs-lookup"><span data-stu-id="14681-237">You cannot set global policies that apply to both.</span></span>
 
 </div>
 

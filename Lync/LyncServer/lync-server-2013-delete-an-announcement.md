@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Löschen einer Ankündigung'
+title: 'Lync Server 2013: Löschen einer Ansage'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733588
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91a15057e4785a16e7fc632422573ee02d1d920b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a7c21a6b44d31514cc9addc800b2ae0812a5ad3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736425"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035971"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-announcement-in-lync-server-2013"></a><span data-ttu-id="f8dc1-102">Löschen einer Ankündigung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f8dc1-102">Delete an announcement in Lync Server 2013</span></span>
+# <a name="delete-an-announcement-in-lync-server-2013"></a><span data-ttu-id="ddeaf-102">Löschen einer Ansage in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ddeaf-102">Delete an announcement in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,28 @@ ms.locfileid: "41736425"
 
 <span> </span>
 
-<span data-ttu-id="f8dc1-103">_**Letztes Änderungsdatum des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="f8dc1-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="ddeaf-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="ddeaf-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="f8dc1-104">Gehen Sie wie folgt vor, um eine Ankündigung zu löschen, die für Anrufe an nicht zugewiesene Nummern verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="f8dc1-104">Use the following procedure to delete an announcement that is used for calls to unassigned numbers.</span></span>
+<span data-ttu-id="ddeaf-104">Führen Sie die folgenden Schritte aus, um eine Ankündigung zu löschen, die für Anrufe bei nicht zugewiesenen Nummern
+verwendet werden soll.</span><span class="sxs-lookup"><span data-stu-id="ddeaf-104">Use the following procedure to delete an announcement that is used for calls to unassigned numbers.</span></span>
 
 <div>
 
-## <a name="to-delete-an-announcement"></a><span data-ttu-id="f8dc1-105">So löschen Sie eine Ansage</span><span class="sxs-lookup"><span data-stu-id="f8dc1-105">To delete an announcement</span></span>
+## <a name="to-delete-an-announcement"></a><span data-ttu-id="ddeaf-105">So löschen Sie eine Ankündigung</span><span class="sxs-lookup"><span data-stu-id="ddeaf-105">To delete an announcement</span></span>
 
-1.  <span data-ttu-id="f8dc1-106">Melden Sie sich bei dem Computer an, auf dem die lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist, wie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md)beschrieben.</span><span class="sxs-lookup"><span data-stu-id="f8dc1-106">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
+1.  <span data-ttu-id="ddeaf-106">Melden Sie sich an dem Computer an, auf dem lync Server-Verwaltungsshell als Mitglied der RTCUniversalServerAdmins-Gruppe oder mit den erforderlichen Benutzerrechten installiert ist, wie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md)beschrieben.</span><span class="sxs-lookup"><span data-stu-id="ddeaf-106">Log on to the computer where Lync Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in [Delegate setup permissions in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).</span></span>
 
-2.  <span data-ttu-id="f8dc1-107">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="f8dc1-107">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="ddeaf-107">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="ddeaf-107">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="f8dc1-p101">Listen Sie alle Ansagen in Ihrer Organisation auf. Führen Sie an der Eingabeaufforderung Folgendes aus:</span><span class="sxs-lookup"><span data-stu-id="f8dc1-p101">List all the announcements in your organization. At the command line, run:</span></span>
+3.  <span data-ttu-id="ddeaf-p101">Listen Sie alle Ankündigungen in Ihrer Organisation auf. Führen Sie an der Eingabeaufforderung Folgendes aus:</span><span class="sxs-lookup"><span data-stu-id="ddeaf-p101">List all the announcements in your organization. At the command line, run:</span></span>
     
         Get-CsAnnouncement
 
-4.  <span data-ttu-id="f8dc1-p102">Suchen Sie in der Ergebnisliste nach der zu löschenden Ansage und kopieren Sie die GUID. Führen Sie an der Eingabeaufforderung dann Folgendes aus:</span><span class="sxs-lookup"><span data-stu-id="f8dc1-p102">In the resulting list, locate the announcement you want to delete, and copy the GUID. Then, at the command line, run:</span></span>
+4.  <span data-ttu-id="ddeaf-p102">Suchen Sie in der Ergebnisliste nach der zu löschenden Ankündigung, und kopieren Sie die GUID. Führen Sie an der Eingabeaufforderung dann Folgendes aus:</span><span class="sxs-lookup"><span data-stu-id="ddeaf-p102">In the resulting list, locate the announcement you want to delete, and copy the GUID. Then, at the command line, run:</span></span>
     
         Remove-CsAnnouncement -Identity "<Service:service ID/guid>" 
     
-    <span data-ttu-id="f8dc1-112">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="f8dc1-112">For example:</span></span>
+    <span data-ttu-id="ddeaf-112">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="ddeaf-112">For example:</span></span>
     
         Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
     
@@ -63,7 +64,7 @@ ms.locfileid: "41736425"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="f8dc1-113">Ausführliche Informationen zu weiteren Optionen finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> und <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.</span><span class="sxs-lookup"><span data-stu-id="f8dc1-113">For details about more options, see <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> and <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.</span></span>
+    > <span data-ttu-id="ddeaf-113">Ausführliche Informationen zu weiteren Optionen finden Sie unter <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> und <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.</span><span class="sxs-lookup"><span data-stu-id="ddeaf-113">For details about more options, see <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement">Get-CsAnnouncement</A> and <A href="https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement">Remove-CsAnnouncement</A>.</span></span>
 
     
     </div>
@@ -72,14 +73,14 @@ ms.locfileid: "41736425"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f8dc1-114">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="f8dc1-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ddeaf-114">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="ddeaf-114">See Also</span></span>
 
 
-[<span data-ttu-id="f8dc1-115">Erstellen einer Ankündigung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f8dc1-115">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)  
+[<span data-ttu-id="ddeaf-115">Erstellen einer Ansage in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ddeaf-115">Create an announcement in Lync Server 2013</span></span>](lync-server-2013-create-an-announcement.md)  
 
 
-[<span data-ttu-id="f8dc1-116">Remove-CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="f8dc1-116">Remove-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement)  
-[<span data-ttu-id="f8dc1-117">Get-CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="f8dc1-117">Get-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement)  
+[<span data-ttu-id="ddeaf-116">Remove-CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="ddeaf-116">Remove-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsAnnouncement)  
+[<span data-ttu-id="ddeaf-117">Get-CsAnnouncement</span><span class="sxs-lookup"><span data-stu-id="ddeaf-117">Get-CsAnnouncement</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAnnouncement)  
   
 
 </div>
