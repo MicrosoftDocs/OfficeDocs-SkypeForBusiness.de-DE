@@ -12,20 +12,20 @@ ms:contentKeyID: 48183523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73ac5a7cf26c97b31daf5785a90fac102c50e480
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d7078c36763fb5c582f62c5b4ff7ddedf9cd100
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764191"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42027336"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblenumattribute-in-lync-server-2013"></a><span data-ttu-id="b3a72-102">tblEnumAttribute in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3a72-102">tblEnumAttribute in Lync Server 2013</span></span>
+# <a name="tblenumattribute-in-lync-server-2013"></a><span data-ttu-id="a4bce-102">tblEnumAttribute in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a4bce-102">tblEnumAttribute in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764191"
 
 <span> </span>
 
-<span data-ttu-id="b3a72-103">_**Letztes Änderungsdatum des Themas:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="b3a72-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+<span data-ttu-id="a4bce-103">_**Letztes Änderungsstand des Themas:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="a4bce-103">_**Topic Last Modified:** 2012-09-12_</span></span>
 
-<span data-ttu-id="b3a72-104">tblEnumAttribute ist eine hart codierte Tabelle, die die Sichtbarkeits-und Verhaltensattribute enthält, die in der Knoten Tabelle verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="b3a72-104">tblEnumAttribute is a hardcoded table that contains the Visibility and Behavior attributes that are used in the Node table.</span></span>
+<span data-ttu-id="a4bce-104">"EnumAttribute" ist eine hardkodierte Tabelle, mit den Attributen "Visibility" und "Behavior", die in der "Node"-Tabelle verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="a4bce-104">tblEnumAttribute is a hardcoded table that contains the Visibility and Behavior attributes that are used in the Node table.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="b3a72-105">Spalten</span><span class="sxs-lookup"><span data-stu-id="b3a72-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="a4bce-105">Spalten</span><span class="sxs-lookup"><span data-stu-id="a4bce-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,27 +49,27 @@ ms.locfileid: "41764191"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b3a72-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="b3a72-106">Column</span></span></th>
-<th><span data-ttu-id="b3a72-107">Typ</span><span class="sxs-lookup"><span data-stu-id="b3a72-107">Type</span></span></th>
-<th><span data-ttu-id="b3a72-108">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="b3a72-108">Description</span></span></th>
+<th><span data-ttu-id="a4bce-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="a4bce-106">Column</span></span></th>
+<th><span data-ttu-id="a4bce-107">Typ</span><span class="sxs-lookup"><span data-stu-id="a4bce-107">Type</span></span></th>
+<th><span data-ttu-id="a4bce-108">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="a4bce-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b3a72-109">AttributeID</span><span class="sxs-lookup"><span data-stu-id="b3a72-109">attributeID</span></span></p></td>
-<td><p><span data-ttu-id="b3a72-110">smallint, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="b3a72-110">smallint, not null</span></span></p></td>
-<td><p><span data-ttu-id="b3a72-111">Die ID des Attributs.</span><span class="sxs-lookup"><span data-stu-id="b3a72-111">ID of the attribute.</span></span></p></td>
+<td><p><span data-ttu-id="a4bce-109">AttributeID</span><span class="sxs-lookup"><span data-stu-id="a4bce-109">attributeID</span></span></p></td>
+<td><p><span data-ttu-id="a4bce-110">smallint, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="a4bce-110">smallint, not null</span></span></p></td>
+<td><p><span data-ttu-id="a4bce-111">ID des Attributs.</span><span class="sxs-lookup"><span data-stu-id="a4bce-111">ID of the attribute.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b3a72-112">AttributeName</span><span class="sxs-lookup"><span data-stu-id="b3a72-112">attributeName</span></span></p></td>
-<td><p><span data-ttu-id="b3a72-113">nvarchar (256); nicht NULL</span><span class="sxs-lookup"><span data-stu-id="b3a72-113">nvarchar (256), not null</span></span></p></td>
-<td><p><span data-ttu-id="b3a72-114">Name des Attributs.</span><span class="sxs-lookup"><span data-stu-id="b3a72-114">Name of the attribute.</span></span></p></td>
+<td><p><span data-ttu-id="a4bce-112">AttributeName</span><span class="sxs-lookup"><span data-stu-id="a4bce-112">attributeName</span></span></p></td>
+<td><p><span data-ttu-id="a4bce-113">nvarchar (256), nicht NULL</span><span class="sxs-lookup"><span data-stu-id="a4bce-113">nvarchar (256), not null</span></span></p></td>
+<td><p><span data-ttu-id="a4bce-114">Name des Attributs.</span><span class="sxs-lookup"><span data-stu-id="a4bce-114">Name of the attribute.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="b3a72-115">Schlüssel</span><span class="sxs-lookup"><span data-stu-id="b3a72-115">Key</span></span>
+### <a name="key"></a><span data-ttu-id="a4bce-115">Key</span><span class="sxs-lookup"><span data-stu-id="a4bce-115">Key</span></span>
 
 <table>
 <colgroup>
@@ -78,20 +78,20 @@ ms.locfileid: "41764191"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b3a72-116">Spalte</span><span class="sxs-lookup"><span data-stu-id="b3a72-116">Column</span></span></th>
-<th><span data-ttu-id="b3a72-117">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="b3a72-117">Description</span></span></th>
+<th><span data-ttu-id="a4bce-116">Spalte</span><span class="sxs-lookup"><span data-stu-id="a4bce-116">Column</span></span></th>
+<th><span data-ttu-id="a4bce-117">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="a4bce-117">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b3a72-118">AttributeID</span><span class="sxs-lookup"><span data-stu-id="b3a72-118">attributeID</span></span></p></td>
-<td><p><span data-ttu-id="b3a72-119">Primärschlüssel</span><span class="sxs-lookup"><span data-stu-id="b3a72-119">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="a4bce-118">AttributeID</span><span class="sxs-lookup"><span data-stu-id="a4bce-118">attributeID</span></span></p></td>
+<td><p><span data-ttu-id="a4bce-119">Primärschlüssel</span><span class="sxs-lookup"><span data-stu-id="a4bce-119">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="table-values"></a><span data-ttu-id="b3a72-120">Tabellenwerte</span><span class="sxs-lookup"><span data-stu-id="b3a72-120">Table Values</span></span>
+### <a name="table-values"></a><span data-ttu-id="a4bce-120">Tabellenwerte</span><span class="sxs-lookup"><span data-stu-id="a4bce-120">Table Values</span></span>
 
 <table>
 <colgroup>
@@ -100,18 +100,18 @@ ms.locfileid: "41764191"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="b3a72-121">AttributeID</span><span class="sxs-lookup"><span data-stu-id="b3a72-121">attributeID</span></span></th>
-<th><span data-ttu-id="b3a72-122">AttributeName</span><span class="sxs-lookup"><span data-stu-id="b3a72-122">attributeName</span></span></th>
+<th><span data-ttu-id="a4bce-121">AttributeID</span><span class="sxs-lookup"><span data-stu-id="a4bce-121">attributeID</span></span></th>
+<th><span data-ttu-id="a4bce-122">AttributeName</span><span class="sxs-lookup"><span data-stu-id="a4bce-122">attributeName</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b3a72-123">1</span><span class="sxs-lookup"><span data-stu-id="b3a72-123">1</span></span></p></td>
-<td><p><span data-ttu-id="b3a72-124">Sichtbarkeit.</span><span class="sxs-lookup"><span data-stu-id="b3a72-124">Visibility.</span></span></p></td>
+<td><p><span data-ttu-id="a4bce-123">1 </span><span class="sxs-lookup"><span data-stu-id="a4bce-123">1</span></span></p></td>
+<td><p><span data-ttu-id="a4bce-124">Sicht.</span><span class="sxs-lookup"><span data-stu-id="a4bce-124">Visibility.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b3a72-125">2</span><span class="sxs-lookup"><span data-stu-id="b3a72-125">2</span></span></p></td>
-<td><p><span data-ttu-id="b3a72-126">Verhalten.</span><span class="sxs-lookup"><span data-stu-id="b3a72-126">Behavior.</span></span></p></td>
+<td><p><span data-ttu-id="a4bce-125">2 </span><span class="sxs-lookup"><span data-stu-id="a4bce-125">2</span></span></p></td>
+<td><p><span data-ttu-id="a4bce-126">Verhalten.</span><span class="sxs-lookup"><span data-stu-id="a4bce-126">Behavior.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -119,10 +119,10 @@ ms.locfileid: "41764191"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b3a72-127">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="b3a72-127">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a4bce-127">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="a4bce-127">See Also</span></span>
 
 
-[<span data-ttu-id="b3a72-128">tblNode in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b3a72-128">tblNode in Lync Server 2013</span></span>](lync-server-2013-tblnode.md)  
+[<span data-ttu-id="a4bce-128">tblNode in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a4bce-128">tblNode in Lync Server 2013</span></span>](lync-server-2013-tblnode.md)  
   
 
 </div>
