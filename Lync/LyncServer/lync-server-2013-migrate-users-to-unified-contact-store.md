@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Migrieren von Benutzern zum einheitlichen Kontaktspeicher'
+title: 'Lync Server 2013: Migrieren von Benutzern zu einem einheitlichen Kontaktspeicher'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a57ea93af90176009fff43ed4dcca9f1880a658
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d170fa183e045203398725a7b7ec4bdd4c38203
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766046"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039322"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrate-users-to-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="55d35-102">Migrieren von Benutzern zum einheitlichen Kontaktspeicher in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="55d35-102">Migrate users to unified contact store in Lync Server 2013</span></span>
+# <a name="migrate-users-to-unified-contact-store-in-lync-server-2013"></a><span data-ttu-id="0406b-102">Migrieren von Benutzern zu einem einheitlichen Kontaktspeicher in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0406b-102">Migrate users to unified contact store in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41766046"
 
 <span> </span>
 
-<span data-ttu-id="55d35-103">_**Letztes Änderungsdatum des Themas:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="55d35-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="0406b-103">_**Letztes Änderungsstand des Themas:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="0406b-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="55d35-104">Die Kontakte eines Benutzers werden automatisch auf den Exchange 2013-Server migriert, wenn der Benutzer:</span><span class="sxs-lookup"><span data-stu-id="55d35-104">A user's contacts are automatically migrated to the Exchange 2013 server when the user:</span></span>
+<span data-ttu-id="0406b-104">Die Kontakte eines Benutzers werden in den folgenden Fällen automatisch zum Exchange 2013-Server migriert:</span><span class="sxs-lookup"><span data-stu-id="0406b-104">A user's contacts are automatically migrated to the Exchange 2013 server when the user:</span></span>
 
-  - <span data-ttu-id="55d35-105">Dem Benutzer muss eine Benutzerdienstrichtlinie zugewiesen worden sein, für die die Option „UcsAllowed“ auf „True“ gesetzt ist.</span><span class="sxs-lookup"><span data-stu-id="55d35-105">Has been assigned a user services policy that has UcsAllowed set to True.</span></span>
+  - <span data-ttu-id="0406b-105">Dem Benutzer muss eine Benutzerdiensterichtlinie zugewiesen worden sein, für die die Option "UcsAllowed" auf "True" gesetzt ist.</span><span class="sxs-lookup"><span data-stu-id="0406b-105">Has been assigned a user services policy that has UcsAllowed set to True.</span></span>
 
-  - <span data-ttu-id="55d35-106">Wurde mit einem Exchange 2013-Postfach bereitgestellt und hat sich mindestens einmal beim Postfach angemeldet.</span><span class="sxs-lookup"><span data-stu-id="55d35-106">Has been provisioned with an Exchange 2013 mailbox and has signed into the mailbox at least once.</span></span>
+  - <span data-ttu-id="0406b-106">Wurde mit einem Exchange 2013 Postfachs und mindestens einmal im Postfach angemeldet.</span><span class="sxs-lookup"><span data-stu-id="0406b-106">Has been provisioned with an Exchange 2013 mailbox and has signed into the mailbox at least once.</span></span>
 
-  - <span data-ttu-id="55d35-107">Meldet sich mit einem Rich-Client mit lync 2013 an.</span><span class="sxs-lookup"><span data-stu-id="55d35-107">Logs in by using a Lync 2013 rich client.</span></span>
+  - <span data-ttu-id="0406b-107">Meldet sich mit einem lync 2013 Rich-Client an.</span><span class="sxs-lookup"><span data-stu-id="0406b-107">Logs in by using a Lync 2013 rich client.</span></span>
 
-<span data-ttu-id="55d35-108">Wenn sich der Benutzer mit einem lync 2010-oder früheren Client anmeldet oder wenn der Benutzer nicht mit einem Exchange 2013-Server verbunden ist, wird die Richtlinie für Benutzer Dienste ignoriert, und die Kontakte des Benutzers verbleiben in lync Server.</span><span class="sxs-lookup"><span data-stu-id="55d35-108">If the user logs in with a Lync 2010 or earlier client, or if the user is not connected to an Exchange 2013 server, the user services policy is ignored and the user's contacts remain in Lync Server.</span></span>
+<span data-ttu-id="0406b-108">Wenn sich der Benutzer mit einem lync 2010 oder einem früheren Client anmeldet oder wenn der Benutzer nicht mit einem Exchange 2013 Server verbunden ist, wird die Benutzer Dienste-Richtlinie ignoriert, und die Kontakte des Benutzers bleiben in lync Server.</span><span class="sxs-lookup"><span data-stu-id="0406b-108">If the user logs in with a Lync 2010 or earlier client, or if the user is not connected to an Exchange 2013 server, the user services policy is ignored and the user's contacts remain in Lync Server.</span></span>
 
-<span data-ttu-id="55d35-109">Verwenden Sie eine der folgenden Methoden, um zu ermitteln, ob die Kontakte eines Benutzers migriert wurden:</span><span class="sxs-lookup"><span data-stu-id="55d35-109">You can determine whether a user's contacts have been migrated by using either of the following methods:</span></span>
+<span data-ttu-id="0406b-109">Verwenden Sie eine der folgenden Methoden, um zu ermitteln, ob die Kontakte eines Benutzers migriert wurden:</span><span class="sxs-lookup"><span data-stu-id="0406b-109">You can determine whether a user's contacts have been migrated by using either of the following methods:</span></span>
 
-  - <span data-ttu-id="55d35-110">Überprüfen Sie den folgenden Registrierungsschlüssel auf dem Clientcomputer:</span><span class="sxs-lookup"><span data-stu-id="55d35-110">Check the following registry key on the client computer:</span></span>
+  - <span data-ttu-id="0406b-110">Überprüfen Sie den folgenden Registrierungsschlüssel auf dem Clientcomputer:</span><span class="sxs-lookup"><span data-stu-id="0406b-110">Check the following registry key on the client computer:</span></span>
     
-    <span data-ttu-id="55d35-111">HKEY\_aktuelle\_Benutzer\\Software\\Microsoft\\Office\\15,0\\lync\\\<SIP-\>\\URL UCS</span><span class="sxs-lookup"><span data-stu-id="55d35-111">HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync\\\<SIP URL\>\\UCS</span></span>
+    <span data-ttu-id="0406b-111">HKEY\_aktuelle\_Benutzer\\Software\\Microsoft\\Office\\15,0\\lync\\\<SIP URL\>\\UCS</span><span class="sxs-lookup"><span data-stu-id="0406b-111">HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\15.0\\Lync\\\<SIP URL\>\\UCS</span></span>
     
-    <span data-ttu-id="55d35-112">Wenn die Kontakte des Benutzers in Exchange 2013 gespeichert sind, enthält dieser Schlüssel den Wert InUCSMode mit dem Wert 2165.</span><span class="sxs-lookup"><span data-stu-id="55d35-112">If the user's contacts are stored in Exchange 2013, this key contains a value of InUCSMode with a value of 2165.</span></span>
+    <span data-ttu-id="0406b-112">Wenn die Kontakte des Benutzers in Exchange 2013 gespeichert sind, enthält dieser Schlüssel den Wert InUCSMode mit dem Wert 2165.</span><span class="sxs-lookup"><span data-stu-id="0406b-112">If the user's contacts are stored in Exchange 2013, this key contains a value of InUCSMode with a value of 2165.</span></span>
 
-  - <span data-ttu-id="55d35-113">Führen Sie das Cmdlet **Test-CsUnifiedContactStore** aus.</span><span class="sxs-lookup"><span data-stu-id="55d35-113">Run the **Test-CsUnifiedContactStore** cmdlet.</span></span> <span data-ttu-id="55d35-114">Geben Sie in der Befehlszeile der lync Server-Verwaltungsshell Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="55d35-114">At the Lync Server Management Shell command line, type:</span></span>
+  - <span data-ttu-id="0406b-113">Führen Sie das Cmdlet **Test-CsUnifiedContactStore** aus.</span><span class="sxs-lookup"><span data-stu-id="0406b-113">Run the **Test-CsUnifiedContactStore** cmdlet.</span></span> <span data-ttu-id="0406b-114">Geben Sie an der lync Server-Verwaltungsshell Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="0406b-114">At the Lync Server Management Shell command line, type:</span></span>
     
         Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
     
-    <span data-ttu-id="55d35-115">Wenn**Test-CsUnifiedContactStore** erfolgreich ist, wurden die Kontakte des Benutzers zum einheitlichen Kontaktspeicher migriert.</span><span class="sxs-lookup"><span data-stu-id="55d35-115">If **Test-CsUnifiedContactStore** succeeds, the user's contacts were migrated to unified contact store.</span></span>
+    <span data-ttu-id="0406b-115">Ist **Test-CsUnifiedContactStore** erfolgreich, wurden die Kontakte des Benutzers zum einheitlichen Kontaktspeicher migriert.</span><span class="sxs-lookup"><span data-stu-id="0406b-115">If **Test-CsUnifiedContactStore** succeeds, the user's contacts were migrated to unified contact store.</span></span>
 
 </div>
 

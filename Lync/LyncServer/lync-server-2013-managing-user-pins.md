@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verwalten von Benutzer Pins'
+title: 'Lync Server 2013: Verwalten von Benutzer-Pins'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733706
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34c3603d7fa0dc3c5b2c1d40319bbf30c1d09b63
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c66cfd395f3fd48da401d4e6d72b37aae386e0d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742175"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42045557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-user-pins-in-lync-server-2013"></a><span data-ttu-id="68b39-102">Verwalten von Benutzer Pins in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68b39-102">Managing user PINs in Lync Server 2013</span></span>
+# <a name="managing-user-pins-in-lync-server-2013"></a><span data-ttu-id="1ca3d-102">Verwalten von Benutzer-Pins in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ca3d-102">Managing user PINs in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "41742175"
 
 <span> </span>
 
-<span data-ttu-id="68b39-103">_**Letztes Änderungsdatum des Themas:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="68b39-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="1ca3d-103">_**Letztes Änderungsstand des Themas:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="1ca3d-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="68b39-104">Führen Sie die folgenden Verfahren aus, um die Einwahlkonferenz-Pins der Benutzer über den Abschnitt **Benutzer** der Systemsteuerung von lync Server 2013 zu verwalten.</span><span class="sxs-lookup"><span data-stu-id="68b39-104">Use the following procedures to manage users’ dial-in conferencing PINs from the **Users** section of Lync Server 2013 Control Panel.</span></span>
+<span data-ttu-id="1ca3d-104">Verwenden Sie die folgenden Verfahren, um die Einwahlkonferenz-Pins von Benutzern im Abschnitt **Benutzer** lync Server 2013 Systemsteuerung zu verwalten.</span><span class="sxs-lookup"><span data-stu-id="1ca3d-104">Use the following procedures to manage users’ dial-in conferencing PINs from the **Users** section of Lync Server 2013 Control Panel.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="68b39-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="68b39-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="1ca3d-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="1ca3d-105">In This Section</span></span>
 
-  - [<span data-ttu-id="68b39-106">Einrichten der PIN für Einwahlkonferenzen eines Benutzers in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68b39-106">Set a user's dial-in conferencing PIN in Lync Server 2013</span></span>](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)
+  - [<span data-ttu-id="1ca3d-106">Festlegen der Einwahlkonferenz-PIN eines Benutzers in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ca3d-106">Set a user's dial-in conferencing PIN in Lync Server 2013</span></span>](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)
 
-  - [<span data-ttu-id="68b39-107">Anzeigen von Benutzer-PIN-Informationen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68b39-107">View user PIN information in Lync Server 2013</span></span>](lync-server-2013-view-user-pin-information.md)
+  - [<span data-ttu-id="1ca3d-107">Anzeigen von Benutzer-PIN-Informationen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ca3d-107">View user PIN information in Lync Server 2013</span></span>](lync-server-2013-view-user-pin-information.md)
 
-  - [<span data-ttu-id="68b39-108">Sperren oder Entsperren einer Benutzer-PIN in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68b39-108">Lock or unlock a user PIN in Lync Server 2013</span></span>](lync-server-2013-lock-or-unlock-a-user-pin.md)
+  - [<span data-ttu-id="1ca3d-108">Sperren oder Entsperren einer Benutzer-PIN in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ca3d-108">Lock or unlock a user PIN in Lync Server 2013</span></span>](lync-server-2013-lock-or-unlock-a-user-pin.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="68b39-109">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="68b39-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1ca3d-109">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="1ca3d-109">See Also</span></span>
 
 
-[<span data-ttu-id="68b39-110">Zuweisen einer pro-Benutzer-PIN-Richtlinie in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="68b39-110">Assign a per-user PIN policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-pin-policy.md)  
+[<span data-ttu-id="1ca3d-110">Zuweisen einer benutzerbasierten PIN-Richtlinie in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ca3d-110">Assign a per-user PIN policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-pin-policy.md)  
   
 
 </div>
