@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Neue Funktionen'
+title: Lync Server 2013 neuer Features
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed5fa866c178a6e859cfba5eff92e2f6ba13b23a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2cbcb6a3945fbe367f9f4ef706287399631c95c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743235"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42048476"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-features-in-lync-server-2013"></a><span data-ttu-id="e6c95-102">Neue Funktionen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6c95-102">New features in Lync Server 2013</span></span>
+# <a name="new-features-in-lync-server-2013"></a><span data-ttu-id="bb229-102">Neue Features in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb229-102">New features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41743235"
 
 <span> </span>
 
-<span data-ttu-id="e6c95-103">_**Letztes Änderungsdatum des Themas:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="e6c95-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+<span data-ttu-id="bb229-103">_**Letztes Änderungsstand des Themas:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="bb229-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-<span data-ttu-id="e6c95-104">Lync Server 2013 führt viele neue Features zusammen mit signifikanten Verbesserungen der vorhandenen Funktionen ein.</span><span class="sxs-lookup"><span data-stu-id="e6c95-104">Lync Server 2013 introduces many new features, along with significant enhancements to existing functionality.</span></span> <span data-ttu-id="e6c95-105">Dieser Abschnitt enthält eine allgemeine Einführung in diese neuen Features und Verbesserungen.</span><span class="sxs-lookup"><span data-stu-id="e6c95-105">This section provides a high-level introduction to these new features and enhancements.</span></span>
+<span data-ttu-id="bb229-104">In lync Server 2013 werden zahlreiche neue Features sowie bedeutende Verbesserungen an vorhandenen Funktionen vorgestellt.</span><span class="sxs-lookup"><span data-stu-id="bb229-104">Lync Server 2013 introduces many new features, along with significant enhancements to existing functionality.</span></span> <span data-ttu-id="bb229-105">Dieser Abschnitt bietet eine allgemeine Einführung in diese neuen Funktionen und Verbesserungen.</span><span class="sxs-lookup"><span data-stu-id="bb229-105">This section provides a high-level introduction to these new features and enhancements.</span></span>
 
-<span data-ttu-id="e6c95-106">Die Diskussionen über neue Features in lync Server 2013 sind unter den Themen in diesem Abschnitt gruppiert.</span><span class="sxs-lookup"><span data-stu-id="e6c95-106">Discussions of new features in Lync Server 2013 are grouped among the topics in this section.</span></span>
+<span data-ttu-id="bb229-106">Diskussionen über neue Features in lync Server 2013 werden zu den Themen in diesem Abschnitt gruppiert.</span><span class="sxs-lookup"><span data-stu-id="bb229-106">Discussions of new features in Lync Server 2013 are grouped among the topics in this section.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e6c95-107">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="e6c95-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="bb229-107">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="bb229-107">In This Section</span></span>
 
-  - [<span data-ttu-id="e6c95-108">Neue Verwaltungs- und Administrationsfunktionen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6c95-108">New management and administration features in Lync Server 2013</span></span>](lync-server-2013-new-management-and-administration-features.md)
+  - [<span data-ttu-id="bb229-108">Neue Verwaltungs-und Verwaltungsfeatures in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb229-108">New management and administration features in Lync Server 2013</span></span>](lync-server-2013-new-management-and-administration-features.md)
 
-  - [<span data-ttu-id="e6c95-109">Topologieänderungen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6c95-109">Topology changes in Lync Server 2013</span></span>](lync-server-2013-topology-changes.md)
+  - [<span data-ttu-id="bb229-109">Topologie-Änderungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb229-109">Topology changes in Lync Server 2013</span></span>](lync-server-2013-topology-changes.md)
 
-  - [<span data-ttu-id="e6c95-110">Neue Funktionen für Notfallwiederherstellung und hohe Verfügbarkeit in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6c95-110">New disaster recovery and high availability features in Lync Server 2013</span></span>](lync-server-2013-new-disaster-recovery-and-high-availability-features.md)
+  - [<span data-ttu-id="bb229-110">Neue Features für die Notfallwiederherstellung und hohe Verfügbarkeit in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb229-110">New disaster recovery and high availability features in Lync Server 2013</span></span>](lync-server-2013-new-disaster-recovery-and-high-availability-features.md)
 
-  - [<span data-ttu-id="e6c95-111">Neue Virtualisierungsfunktionen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6c95-111">New virtualization features in Lync Server 2013</span></span>](lync-server-2013-new-virtualization-features.md)
+  - [<span data-ttu-id="bb229-111">Neue Features für die Virtualisierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb229-111">New virtualization features in Lync Server 2013</span></span>](lync-server-2013-new-virtualization-features.md)
 
-  - [<span data-ttu-id="e6c95-112">Neue Funktionen für Chat und Anwesenheit in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6c95-112">New IM and presence features in Lync Server 2013</span></span>](lync-server-2013-new-im-and-presence-features.md)
+  - [<span data-ttu-id="bb229-112">Neue Sofortnachrichten-und Anwesenheitsfunktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb229-112">New IM and presence features in Lync Server 2013</span></span>](lync-server-2013-new-im-and-presence-features.md)
 
-  - [<span data-ttu-id="e6c95-113">Neue Konferenzfunktionen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6c95-113">New conferencing features in Lync Server 2013</span></span>](lync-server-2013-new-conferencing-features.md)
+  - [<span data-ttu-id="bb229-113">Neue Konferenzfeatures in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb229-113">New conferencing features in Lync Server 2013</span></span>](lync-server-2013-new-conferencing-features.md)
 
-  - [<span data-ttu-id="e6c95-114">Neue Funktionen für den externen Benutzerzugriff in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6c95-114">New features for external user access in Lync Server 2013</span></span>](lync-server-2013-new-features-for-external-user-access.md)
+  - [<span data-ttu-id="bb229-114">Neue Features für den Zugriff durch externe Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb229-114">New features for external user access in Lync Server 2013</span></span>](lync-server-2013-new-features-for-external-user-access.md)
 
-  - [<span data-ttu-id="e6c95-115">Neue Enterprise-VoIP-Funktionen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6c95-115">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)
+  - [<span data-ttu-id="bb229-115">Neue Enterprise-VoIP-Funktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb229-115">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)
 
-  - [<span data-ttu-id="e6c95-116">Neue Überwachungsfunktionen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6c95-116">New Monitoring features in Lync Server 2013</span></span>](lync-server-2013-new-monitoring-features.md)
+  - [<span data-ttu-id="bb229-116">Neue Überwachungsfeatures in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb229-116">New Monitoring features in Lync Server 2013</span></span>](lync-server-2013-new-monitoring-features.md)
 
-  - [<span data-ttu-id="e6c95-117">Neue Funktionen für die Archivierung in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6c95-117">New Archiving features in Lync Server 2013</span></span>](lync-server-2013-new-archiving-features.md)
+  - [<span data-ttu-id="bb229-117">Neue Archivierungs Features in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb229-117">New Archiving features in Lync Server 2013</span></span>](lync-server-2013-new-archiving-features.md)
 
-  - [<span data-ttu-id="e6c95-118">Neue Funktinen für die Exchange Server-Integration in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6c95-118">New Exchange Server integration features in Lync Server 2013</span></span>](lync-server-2013-new-exchange-server-integration-features.md)
+  - [<span data-ttu-id="bb229-118">Neue Exchange Server Integrationsfeatures in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb229-118">New Exchange Server integration features in Lync Server 2013</span></span>](lync-server-2013-new-exchange-server-integration-features.md)
 
-  - [<span data-ttu-id="e6c95-119">Neue Funktionen für den Server für beständigen Chat in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6c95-119">New Persistent Chat Server features in Lync Server 2013</span></span>](lync-server-2013-new-persistent-chat-server-features.md)
+  - [<span data-ttu-id="bb229-119">Neue Features für den Server für beständigen Chat in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb229-119">New Persistent Chat Server features in Lync Server 2013</span></span>](lync-server-2013-new-persistent-chat-server-features.md)
 
-  - [<span data-ttu-id="e6c95-120">Neue IPv6-Funktionen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6c95-120">New IPv6 features in Lync Server 2013</span></span>](lync-server-2013-new-ipv6-features.md)
+  - [<span data-ttu-id="bb229-120">Neue IPv6-Features in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb229-120">New IPv6 features in Lync Server 2013</span></span>](lync-server-2013-new-ipv6-features.md)
 
-  - [<span data-ttu-id="e6c95-121">Neue Funktion für einheitlichen Kontaktspeicher in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6c95-121">New unified contact store feature in Lync Server 2013</span></span>](lync-server-2013-new-unified-contact-store-feature.md)
+  - [<span data-ttu-id="bb229-121">Neuer Unified Contact Store-Feature in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb229-121">New unified contact store feature in Lync Server 2013</span></span>](lync-server-2013-new-unified-contact-store-feature.md)
 
-  - [<span data-ttu-id="e6c95-122">Neue Videofunktionen in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e6c95-122">New video features in Lync Server 2013</span></span>](lync-server-2013-new-video-features.md)
+  - [<span data-ttu-id="bb229-122">Neue Videofunktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bb229-122">New video features in Lync Server 2013</span></span>](lync-server-2013-new-video-features.md)
 
 </div>
 

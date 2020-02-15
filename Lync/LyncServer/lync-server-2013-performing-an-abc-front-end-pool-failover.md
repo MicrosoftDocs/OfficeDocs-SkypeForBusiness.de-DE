@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Durchführen eines Failovers des ABC-Front-End-Pools'
+title: 'Lync Server 2013: Ausführen eines ABC-Front-End-Pool Failovers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541489
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 155d8224b80e614ac8609c007a16072e9d3a5c60
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9fd0be7bbde714a380473dc8b470437a9fee4cdc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755275"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050317"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="performing-an-abc-front-end-pool-failover-in-lync-server-2013"></a><span data-ttu-id="d376c-102">Durchführen eines ABC-Front-End-Pool-Failovers in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d376c-102">Performing an ABC Front End pool failover in Lync Server 2013</span></span>
+# <a name="performing-an-abc-front-end-pool-failover-in-lync-server-2013"></a><span data-ttu-id="6d0f0-102">Ausführen eines ABC-Front-End-Pool-Failovers in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d0f0-102">Performing an ABC Front End pool failover in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41755275"
 
 <span> </span>
 
-<span data-ttu-id="d376c-103">_**Letztes Änderungsdatum des Themas:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="d376c-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="6d0f0-103">_**Letztes Änderungsstand des Themas:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="6d0f0-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="d376c-104">In den beiden Themen in diesem Abschnitt wird das Verfahren für die Durchführung eines ABC-Pool-Failovers in lync Server 2013 beschrieben, in dem zwei lync Server-Front-End-Pools a und B vorhanden sind und Pool a nicht mehr wiederhergestellt werden kann.</span><span class="sxs-lookup"><span data-stu-id="d376c-104">The two topics in this section describe the procedure for performing an ABC pool failover in Lync Server 2013, where there are paired Lync Server Front End pools A and B, and pool A becomes unrecoverable.</span></span> <span data-ttu-id="d376c-105">Mit diesem Verfahren erstellen Sie einen neuen Front-End-Pool C mit einem neuen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN).</span><span class="sxs-lookup"><span data-stu-id="d376c-105">Using this procedure, you create a new Front End pool C with a new fully qualified domain name (FQDN).</span></span> <span data-ttu-id="d376c-106">Pool C wird aus den Informationen aus einem fehlerhaften Pool A erstellt. Das Verfahren umfasst auch die Kopplung von Pools B und C.</span><span class="sxs-lookup"><span data-stu-id="d376c-106">Pool C is constructed from the information from failed pool A. The procedure also includes pairing together pools B and C.</span></span>
+<span data-ttu-id="6d0f0-104">In den beiden Themen dieses Abschnitts wird das Verfahren zum Ausführen eines ABC-Pool-Failovers in lync Server 2013 beschrieben, in dem die lync Server-Front-End-Pools a und B gepaart sind und Pool a nicht mehr behebbar ist.</span><span class="sxs-lookup"><span data-stu-id="6d0f0-104">The two topics in this section describe the procedure for performing an ABC pool failover in Lync Server 2013, where there are paired Lync Server Front End pools A and B, and pool A becomes unrecoverable.</span></span> <span data-ttu-id="6d0f0-105">Mit diesem Verfahren erstellen Sie ein neues Front-End-Pool C mit einem neuen vollqualifizierten Domänennamen (FQDN).</span><span class="sxs-lookup"><span data-stu-id="6d0f0-105">Using this procedure, you create a new Front End pool C with a new fully qualified domain name (FQDN).</span></span> <span data-ttu-id="6d0f0-106">Pool C wird aus den Informationen aus dem fehlerhaften Pool A erstellt. Das Verfahren umfasst auch die Zusammenkopplung von Pools B und C.</span><span class="sxs-lookup"><span data-stu-id="6d0f0-106">Pool C is constructed from the information from failed pool A. The procedure also includes pairing together pools B and C.</span></span>
 
-  - [<span data-ttu-id="d376c-107">Backup-Voraussetzungen für ABC-Pool-Failover in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d376c-107">Backup prerequisites for ABC pool failover in Lync Server 2013</span></span>](lync-server-2013-backup-prerequisites-for-abc-pool-failover.md)
+  - [<span data-ttu-id="6d0f0-107">Sicherungs Voraussetzungen für das Failover von ABC-Pools in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d0f0-107">Backup prerequisites for ABC pool failover in Lync Server 2013</span></span>](lync-server-2013-backup-prerequisites-for-abc-pool-failover.md)
 
-  - [<span data-ttu-id="d376c-108">ABC-Failover-Verfahren im Front-End-Pool in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d376c-108">Front End pool ABC failover procedure in Lync Server 2013</span></span>](lync-server-2013-front-end-pool-abc-failover-procedure.md)
+  - [<span data-ttu-id="6d0f0-108">Front-End-Pool ABC-Failover-Verfahren in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d0f0-108">Front End pool ABC failover procedure in Lync Server 2013</span></span>](lync-server-2013-front-end-pool-abc-failover-procedure.md)
 
 </div>
 
