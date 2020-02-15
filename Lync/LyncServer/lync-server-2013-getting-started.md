@@ -12,20 +12,20 @@ ms:contentKeyID: 48184710
 ms.date: 04/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf52f501a11f8a7268914a856d8d044c68abb341
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9c38799334dc2cb8f4858082f06212750bcc5dfb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742425"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037907"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="getting-started-with-lync-server-2013"></a>Erste Schritte in Lync Server 2013
+# <a name="getting-started-with-lync-server-2013"></a>Erste Schritte mit lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41742425"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-04-03_
+_**Letztes Änderungsstand des Themas:** 2015-04-03_
 
-Lync Server 2013 bietet zahlreiche Funktionen, um die Zusammenarbeit und Kommunikation in Ihrer Organisation zu verbessern. Viele dieser Funktionen sind im Vergleich zu den in früheren Versionen verfügbaren Features neu. Die Themen in diesem Abschnitt geben einen kurzen Überblick über die neuen Funktionen.
+Lync Server 2013 bietet viele Features, um die Zusammenarbeit und Kommunikation in Ihrer Organisation zu verbessern. Bei vielen dieser Funktionen handelt es sich um neue Funktionen, die in vorherigen Versionen nicht verfügbar waren. Die Themen des vorliegenden Abschnitts liefern einen kurzen Überblick über die neuen Funktionen.
 
 <div>
 
@@ -45,13 +45,13 @@ Lync Server 2013 bietet zahlreiche Funktionen, um die Zusammenarbeit und Kommuni
 
   - [Einführung in Lync Server 2013](lync-server-2013-introduction.md)
 
-  - [Neue Funktionen in Lync Server 2013](lync-server-2013-new-features.md)
+  - [Neue Features in lync Server 2013](lync-server-2013-new-features.md)
 
-  - [Neue Clientfunktionen in Lync Server 2013](lync-server-2013-new-client-features.md)
+  - [Neue Clientfeatures in lync Server 2013](lync-server-2013-new-client-features.md)
 
-  - [Configure the client experience with Skype for Business](configure-the-skype-for-business-client-in-lync-server-2013.md)
+  - [Konfigurieren der Clientumgebung mit Skype for Business](configure-the-skype-for-business-client-in-lync-server-2013.md)
 
-  - [Anmerkungen zu dieser Version für Lync Server 2013](lync-server-2013-release-notes.md)
+  - [Anmerkungen zur Version für lync Server 2013](lync-server-2013-release-notes.md)
 
 </div>
 

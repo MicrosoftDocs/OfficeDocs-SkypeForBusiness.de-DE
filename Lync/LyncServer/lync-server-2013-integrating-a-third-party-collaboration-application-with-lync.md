@@ -12,20 +12,20 @@ ms:contentKeyID: 48183224
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82b95f79202cbf96568b98dcb802e97bf4ca2d32
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 075c8289a55683b18b0a006319b426c94796f9cd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725865"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="integrating-a-third-party-collaboration-application-with-lync-server-2013"></a>Integrieren einer Drittanbieter-Zusammenarbeitsanwendung in lync Server 2013
+# <a name="integrating-a-third-party-collaboration-application-with-lync-server-2013"></a>Integrieren einer Anwendung für die Zusammenarbeit eines Drittanbieters mit lync Server 2013
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41725865"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-20_
+_**Letztes Änderungsstand des Themas:** 2013-02-20_
 
-Sie können lync 2013 in eine beliebige Anwendung für die Online Zusammenarbeit von Drittanbietern integrieren, indem Sie der Registrierung Informationen zur Anwendung hinzufügen. Sie können lync 2013 verwenden, um Datenkonferenz Sitzungen zu starten, die auf einem internen Server, einem Internet basierten Dienst oder in beiden gehostet werden. Die Zusammenarbeits-oder Datenkonferenz Sitzung kann über die Kontaktliste oder über eine vorhandene Chat-, sprach-oder Videositzung gestartet werden. Lync 2013 fungiert nur als Vehikel für das Starten der Anwendung. Alle vorhandenen lync 2013-Unterhaltungen bleiben nach Beginn der Online Zusammenarbeitssitzung aktiv.
+Sie können lync 2013 in eine beliebige Anwendung für die Online Zusammenarbeit von Drittanbietern integrieren, indem Sie der Registrierung Informationen zur Anwendung hinzufügen. Sie können lync 2013 verwenden, um Datenkonferenz Sitzungen zu starten, die auf einem internen Server, einem Internet basierten Dienst oder beides gehostet werden. Die Zusammenarbeits-oder Datenkonferenz Sitzung kann aus der Kontaktliste oder aus einer vorhandenen Chat-, sprach-oder Videositzung gestartet werden. Lync 2013 fungiert nur als das Vehikel für das Starten der Anwendung. Alle vorhandenen lync 2013 Unterhaltungen bleiben aktiv, nachdem die Online Zusammenarbeitssitzung begonnen hat.
 
-In den folgenden Abschnitten wird beschrieben, wie Sie lync 2013 mit Internet basierten und Server basierten Zusammenarbeitsanwendungen integrieren.
+In den folgenden Abschnitten wird beschrieben, wie Sie lync 2013 in Internet basierte und serverbasierte Zusammenarbeitsanwendungen integrieren.
 
 <div>
 
-## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>Integrieren einer Internet basierten Zusammenarbeitsanwendung in lync 2013
+## <a name="integrating-an-internet-based-collaboration-application-with-lync-2013"></a>Integrieren einer Anwendung für Internet basierte Zusammenarbeit mit lync 2013
 
-Im Allgemeinen sind die Schritte, die für die Integration einer Drittanbieter-Zusammenarbeitsanwendung erforderlich sind, wie folgt:
+Im Allgemeinen müssen die folgenden Schritte ausgeführt werden, um eine Drittanbieteranwendung für die Zusammenarbeit zu integrieren:
 
 1.  Der Registrierung werden Informationen zur Anwendung hinzugefügt.
 
-2.  Der Organisator meldet sich bei lync 2013 an und wählt Kontakte für die Datenfreigabe und Zusammenarbeit aus. Oder der Organisator befindet sich möglicherweise bereits in einer Unterhaltung und entscheidet sich, Datenkonferenzen hinzuzufügen.
+2.  Der Organisator meldet sich bei lync 2013 an und wählt Kontakte für die Datenfreigabe und Zusammenarbeit aus. Oder der Organisator befindet sich bereits in einer Unterhaltung und beschließt, eine Datenkonferenz zu starten.
 
-3.  Lync 2013 liest die Registrierung, startet die Zusammenarbeitsanwendung und sendet dann eine benutzerdefinierte SIP-Nachricht – eine appINVITE – an die ausgewählten Teilnehmer.
+3.  Lync 2013 die Registrierung liest, startet die Zusammenarbeitsanwendung und sendet dann eine benutzerdefinierte SIP-Nachricht – ein appINVITE – an die ausgewählten Teilnehmer.
 
-4.  Die Teilnehmer akzeptieren die Einladung, und die Zusammenarbeitsanwendung wird auf dem Computer jeder Person gestartet. Lync 2013 verwendet die Registrierung, um zu ermitteln, welche Zusammenarbeitsanwendung verwendet werden soll, und startet dann die Anwendung mithilfe der Parameter, die in der appINVITE-Nachricht enthalten sind.
+4.  Die Teilnehmer nehmen die Einladung an, und die Zusammenarbeitsanwendung wird auf dem Computer der einzelnen Personen gestartet. Lync 2013 verwendet die Registrierung, um zu bestimmen, welche Zusammenarbeitsanwendung verwendet werden soll, und startet diese Anwendung dann mithilfe der Parameter, die in der appINVITE-Nachricht enthalten sind.
 
-In der folgenden Tabelle werden die Registrierungseinträge beschrieben, die für die Integration einer Internet basierten Zusammenarbeitsanwendung in lync 2013 erforderlich sind. Diese Einträge werden in der Registrierung an folgendem Speicherort gespeichert:
+In der folgenden Tabelle werden die Registrierungseinträge beschrieben, die für die Integration einer Internet basierten Zusammenarbeitsanwendung mit lync 2013 erforderlich sind. Diese Einträge werden an folgendem Speicherort in der Registrierung gespeichert:
 
-  - HKEY\_-\_Software\\\\für lokale\\Computer\\Microsoft\\Office\\15,0 lync\\SessionManager-apps\\-Parameter
+  - HKEY\_local\_Machine\\Software\\Microsoft\\Office\\15,0\\lync\\SessionManager\\-\\apps-Parameter
 
-### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>Registrierungseinträge für eine Internet basierte Zusammenarbeitsanwendung
+### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>Registrierungseinträge für eine internetbasierte Anwendung für die Zusammenarbeit
 
 <table>
 <colgroup>
@@ -78,34 +78,34 @@ In der folgenden Tabelle werden die Registrierungseinträge beschrieben, die fü
 <tr class="odd">
 <td><p>Name</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Der Anwendungsname für lync 2013-Menüs.</p></td>
+<td><p>Der Name der Anwendung für lync 2013 Menüs.</p></td>
 </tr>
 <tr class="even">
 <td><p>SmallIcon</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Pfad zu 16 Pixel x 16-Pixel-Symbol, BMP oder PNG.</p></td>
+<td><p>Pfad zu Symbol mit 16 Pixel x 16 Pixel, BMP oder PNG.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Pfad</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Teilnehmerpfad zum Starten der Anwendung für die Online Zusammenarbeit.</p></td>
+<td><p>Teilnehmerpfad zum Starten der Anwendung für die Onlinezusammenarbeit.</p></td>
 </tr>
 <tr class="even">
 <td><p>OriginatorPath</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Organizer-Pfad zum Starten der Anwendung für die Online Zusammenarbeit. Dieser Pfad kann einen oder mehrere benutzerdefinierte Parameter enthalten, die im Unterschlüssel Parameters definiert sind. Zum Beispiel<code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code></p></td>
+<td><p>Organisatorpfad zum Starten der Anwendung für die Onlinezusammenarbeit. Dieser Pfad kann einen oder mehrere benutzerdefinierte Parameter enthalten, die im Unterschlüssel "Parameters" definiert sind. Beispiel: <code>https://meetserv.adatum.com/cc/%param1%/join?id=%param2%&amp;role=present&amp;pw=%param3%</code></p></td>
 </tr>
 <tr class="odd">
 <td><p>SessionType</p></td>
 <td><p>DWORD</p></td>
-<td><p>0 = lokale Sitzung. Die Anwendung wird auf dem lokalen Computer gestartet.</p>
-<p>1 = Sitzung mit zwei Teilnehmern (Standard). Lync 2013 startet die Anwendung lokal und sendet dann eine Systembenachrichtigung an den anderen Benutzer. Der andere Benutzer klickt auf die Benachrichtigung und startet die angegebene Anwendung auf Ihrem Computer.</p>
-<p>2 = mehrteilige Sitzung. Lync 2013 startet die Anwendung lokal und sendet dann System Benachrichtigungen an die anderen Benutzer und fordert Sie auf, die angegebene Anwendung auf Ihrem eigenen Computer zu starten.</p></td>
+<td><p>0 = Lokale Sitzung. Die Anwendung wird auf dem lokalen Computer gestartet.</p>
+<p>1 = Sitzung mit zwei Teilnehmern (Standardeinstellung). Lync 2013 startet die Anwendung lokal und sendet dann eine Systembenachrichtigung an den anderen Benutzer. Der andere Benutzer klickt auf die Benachrichtigung und startet die angegebene Anwendung auf seinem Computer.</p>
+<p>2 = mehrteilige Sitzung. Lync 2013 startet die Anwendung lokal und sendet dann System Benachrichtigungen an die anderen Benutzer, woraufhin Sie aufgefordert werden, die angegebene Anwendung auf Ihrem eigenen Computer zu starten.</p></td>
 </tr>
 <tr class="even">
 <td><p>ExensibleMenu</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Eine Liste der Menüs, in denen dieser Befehl angezeigt wird, getrennt durch Semikolons. Mögliche Werte:</p>
+<td><p>Eine Liste der Menüs, in denen dieser Befehl angezeigt wird, getrennt durch Semikolons. Mögliche Werte sind:</p>
 <ul>
 <li><p>MainWindowActions</p></li>
 <li><p>MainWindowRightClick</p></li>
@@ -113,7 +113,7 @@ In der folgenden Tabelle werden die Registrierungseinträge beschrieben, die fü
 <li><p>ConversationWindowButton</p></li>
 <li><p>ConversationWindowRightClick</p></li>
 </ul>
-<p>Wenn ExtensibleMenu nicht definiert ist, werden die Standardwerte MainWindowRightClick und ConversationWindowActions verwendet.</p></td>
+<p>Wenn "ExtensibleMenu" nicht definiert ist, werden die Standardwerte von "MainWindowRightClick" und "ConversationWindowActions" verwendet.</p></td>
 </tr>
 </tbody>
 </table>
@@ -121,7 +121,7 @@ In der folgenden Tabelle werden die Registrierungseinträge beschrieben, die fü
 
 In der folgenden Tabelle werden die Registrierungseinträge für Parameter beschrieben. Diese Einträge finden Sie unter HKEY\_aktuelle\_Benutzer\\Software\\Microsoft\\Office\\15,0\\lync\\SessionManager\\-\\apps-Parameter.
 
-### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>Registrierungseinträge für eine Internet basierte Zusammenarbeitsanwendung
+### <a name="registry-entries-for-an-internet-based-collaboration-application"></a>Registrierungseinträge für eine internetbasierte Anwendung für die Zusammenarbeit
 
 <table>
 <colgroup>
@@ -138,25 +138,25 @@ In der folgenden Tabelle werden die Registrierungseinträge für Parameter besch
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Parameter1</p></td>
+<td><p>Param1</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Wird in tokenformat (<code>%Parm1%</code>) verwendet, um dem Registrierungsschlüssel OriginatorPath benutzerspezifische Werte hinzuzufügen.</p></td>
+<td><p>Wird im Tokenformat (<code>%Parm1%</code>) verwendet, um dem Registrierungsschlüssel OriginatorPath benutzerspezifische Werte hinzuzufügen.</p></td>
 </tr>
 <tr class="even">
-<td><p>Parameter2</p></td>
+<td><p>Param2</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Siehe parameter1.</p></td>
+<td><p>Siehe Param1.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Param3</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Siehe parameter1.</p></td>
+<td><p>Siehe Param1.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Die folgenden Beispiel Registrierungseinstellungen integrieren den Adatum-Zusammenarbeits Client in lync 2013:
+Im folgenden Beispiel werden die Registrierungseinstellungen Adatum-Zusammenarbeits Client mit lync 2013 integriert:
 
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Lync\SessionManager]
@@ -182,13 +182,13 @@ Die folgenden Beispiel Registrierungseinstellungen integrieren den Adatum-Zusamm
 
 <div>
 
-## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>Integrieren einer Server basierten Zusammenarbeitsanwendung in lync 2013
+## <a name="integrating-a-server-based-collaboration-application-with-lync-2013"></a>Integrieren einer Server basierten Zusammenarbeitsanwendung mit lync 2013
 
-Die Einstellungen zum Hinzufügen von Befehlen zum Starten einer Server basierten Zusammenarbeitsanwendung in lync 2013 ähneln denen im vorherigen Abschnitt, in dem eine Internet basierte Zusammenarbeitsanwendung mit lync 2013 integriert wurde. Die OriginatorPath ist jedoch nicht erforderlich, und einige Werte werden geändert. Registrierungseinträge werden an folgendem Speicherort gespeichert:
+Die Einstellungen zum Hinzufügen von Befehlen zum Starten einer Server basierten Zusammenarbeitsanwendung in lync 2013 ähneln denen im vorherigen Abschnitt und integrieren eine Internet basierte Zusammenarbeitsanwendung mit lync 2013. "OriginatorPath" ist jedoch nicht erforderlich, und einige Werte sind geändert. Registrierungseinträge werden an folgendem Speicherort eingefügt:
 
-  - HKEY\_-\_Software\\\\für lokale\\Computer\\Microsoft\\Office\\15,0 lync\\SessionManager-apps\\-Parameter
+  - HKEY\_local\_Machine\\Software\\Microsoft\\Office\\15,0\\lync\\SessionManager\\-\\apps-Parameter
 
-### <a name="registry-entries-for-a-server-based-collaboration-application"></a>Registrierungseinträge für eine Server basierte Zusammenarbeitsanwendung
+### <a name="registry-entries-for-a-server-based-collaboration-application"></a>Registrierungseinträge für eine serverbasierte Anwendung für die Zusammenarbeit
 
 <table>
 <colgroup>
@@ -207,34 +207,34 @@ Die Einstellungen zum Hinzufügen von Befehlen zum Starten einer Server basierte
 <tr class="odd">
 <td><p>Name</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Der Name der Anwendung, wie er im Menü angezeigt wird.</p></td>
+<td><p>Name der Anwendung, wie er im Menü angezeigt wird.</p></td>
 </tr>
 <tr class="even">
-<td><p>Applicationtype</p></td>
+<td><p>ApplicationType</p></td>
 <td><p>DWORD</p></td>
-<td><p>Wert = 1. Legt den Anwendungstyp auf Protocol fest. In diesem Fall gelten die anderen möglichen Werte nicht. Wenn es nicht vorhanden ist, wird applicationtype auf 0 (ausführbare Datei) gesetzt.</p></td>
+<td><p>Wert = 1. Legt den Anwendungstyp auf "protocol" fest. Die weiteren möglichen Werte gelten in diesem Fall nicht. Wenn der Wert nicht vorhanden ist, wird applicationtype auf 0 (ausführbar) festgelegt.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Pfad</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Das Protokoll, das zum Starten der Zusammenarbeitsanwendung verwendet wird. Für Live Meeting 2007 ist der Wert von Path auf <code>meet:%conf-uri%</code>gesetzt.</p></td>
+<td><p>Zum Starten der Anwendung für die Zusammenarbeit verwendetes Protokoll. Für Live Meeting 2007 ist der Wert von Path auf <code>meet:%conf-uri%</code>festgelegt.</p></td>
 </tr>
 <tr class="even">
 <td><p>SessionType</p></td>
 <td><p>DWORD</p></td>
-<td><p>0 = lokale Sitzung. Die Anwendung wird auf dem lokalen Computer gestartet.</p>
-<p>1 = Sitzung mit zwei Teilnehmern (Standard). Lync 2013 startet die Anwendung lokal und sendet dann eine Systembenachrichtigung an den anderen Benutzer. Der andere Benutzer klickt auf die Benachrichtigung und startet die angegebene Anwendung auf Ihrem Computer.</p>
-<p>2 = mehrteilige Sitzung. Lync 2013 startet die Anwendung lokal und sendet dann System Benachrichtigungen an die anderen Benutzer und fordert Sie auf, die angegebene Anwendung auf Ihrem Computer zu starten.</p></td>
+<td><p>0 = Lokale Sitzung. Die Anwendung wird auf dem lokalen Computer gestartet.</p>
+<p>1 = Sitzung mit zwei Teilnehmern (Standardeinstellung). Lync 2013 startet die Anwendung lokal und sendet dann eine Systembenachrichtigung an den anderen Benutzer. Der andere Benutzer klickt auf die Benachrichtigung und startet die angegebene Anwendung auf seinem Computer.</p>
+<p>2 = mehrteilige Sitzung. Lync 2013 startet die Anwendung lokal und sendet dann System Benachrichtigungen an die anderen Benutzer, woraufhin Sie aufgefordert werden, die angegebene Anwendung auf Ihrem Computer zu starten.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MCUType</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Data = der Servertyp.</p></td>
+<td><p>DATA = Typ des Servers.</p></td>
 </tr>
 <tr class="even">
 <td><p>ExtensibleMenu</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Eine Liste der Menüs, in denen dieser Befehl angezeigt wird, getrennt durch Semikolons. Mögliche Werte:</p>
+<td><p>Eine Liste der Menüs, in denen dieser Befehl durch Semikolons getrennt angezeigt wird. Mögliche Werte sind:</p>
 <ul>
 <li><p>MainWindowActions</p></li>
 <li><p>MainWindowRightClick</p></li>
@@ -242,7 +242,7 @@ Die Einstellungen zum Hinzufügen von Befehlen zum Starten einer Server basierte
 <li><p>ConversationWindowButton</p></li>
 <li><p>ConversationWindowRightClick</p></li>
 </ul>
-<p>Wenn ExtensibleMenu nicht definiert ist, werden die Standardwerte MainWindowRightClick und ConversationWindowActions verwendet.</p></td>
+<p>Wenn "ExtensibleMenu" nicht definiert ist, werden die Standardwerte von "MainWindowRightClick" und "ConversationWindowActions" verwendet.</p></td>
 </tr>
 </tbody>
 </table>

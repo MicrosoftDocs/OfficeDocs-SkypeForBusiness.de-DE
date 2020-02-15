@@ -12,16 +12,16 @@ ms:contentKeyID: 48184924
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84c70cae521deebecf30e7c8ec6505b18e9842fa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9d5cc3106ffaabd6aee985c225f6cc13fdd5fbb6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755499"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050937"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41755499"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Die medienumgehung ist nützlich, wenn Sie die Anzahl der bereitgestellten Vermittlungsserver minimieren möchten. In der Regel wird ein Vermittlungs Server Pool an einem zentralen Standort bereitgestellt, und er steuert Gateways an Zweigstellen. Durch Aktivierung der Medienumgehung können Mediendaten für PSTN-Anrufe (Telefonfestnetz) von Clients an Zweigstellenstandorten direkt durch die Gateways an diesen Standorten geleitet werden. Lync Server 2013-ausgehende Anrufrouten und Enterprise-VoIP-Richtlinien müssen ordnungsgemäß konfiguriert sein, damit PSTN-Anrufe von Clients an einem Zweigstellenstandort an das entsprechende Gateway weitergeleitet werden.
+Die Medienumgehung ist nützlich, wenn Sie die Anzahl von bereitgestellten Vermittlungsservern reduzieren möchten. Üblicherweise wird ein Vermittlungsserverpool an einem zentralen Standort bereitgestellt und steuert die Gateways an den Zweigstellenstandorten. Durch Aktivierung der Medienumgehung können Mediendaten für PSTN-Anrufe (Telefonfestnetz) von Clients an Zweigstellenstandorten direkt durch die Gateways an diesen Standorten geleitet werden. Lync Server 2013 ausgehenden Anrufrouten und Enterprise-VoIP-Richtlinien müssen ordnungsgemäß konfiguriert sein, damit PSTN-Anrufe von Clients an einem Zweigstellenstandort an das entsprechende Gateway weitergeleitet werden.
 
-In Wi-Fi-Netzwerken treten üblicherweise mehr Paketverluste auf als in verkabelten Netzwerken. Die Wiederherstellung der Daten aus diesen Paketen kann normalerweise nicht mithilfe von Gateways durchgeführt werden. Daher wird empfohlen, die Qualität eines Wi-Fi-Netzwerks auszuwerten, bevor Sie entscheiden, ob die Medienumgehung für ein Funksubnetz aktiviert werden soll. Darüber hinaus muss erwogen werden, ob eine geringere Latenz zu Lasten der Dateiwiederherstellung nach Paketverlusten akzeptabel ist. RTAudio - ein Codec für Anrufe, die den Vermittlungsserver nicht umgehen - eignet sich besser für die Verarbeitung von Paketverlusten.
+In Wi-Fi-Netzwerken treten üblicherweise mehr Paketverluste auf als in verkabelten Netzwerken. Die Wiederherstellung der Daten aus diesen Paketen kann normalerweise nicht mithilfe von Gateways durchgeführt werden. Daher wird empfohlen, die Qualität eines Wi-Fi-Netzwerks auszuwerten, bevor Sie entscheiden, ob die Medienumgehung für ein Funksubnetz aktiviert werden soll. Darüber hinaus muss erwogen werden, ob eine geringere Latenz zu Lasten der Dateiwiederherstellung nach Paketverlusten akzeptabel ist. RTAudio – ein Codec für Anrufe, die den Vermittlungsserver nicht umgehen – eignet sich besser für die Verarbeitung von Paketverlusten.
 
 Nachdem Ihre Enterprise-VoIP-Struktur vorhanden ist, ist die Planung der medienumgehung einfach.
 
@@ -55,11 +55,11 @@ Nachdem Ihre Enterprise-VoIP-Struktur vorhanden ist, ist die Planung der medienu
 
 Wenn Sie die Medienumgehung aktivieren, wird automatisch eine eindeutige Umgehungs-ID für eine Netzwerkregion und für alle Netzwerkstandorte ohne Bandbreiteneinschränkungen innerhalb dieser Region generiert. Standorte mit Bandbreiteneinschränkungen innerhalb der Region und Standorte, die über WAN-Verbindungen mit Bandbreiteneinschränkungen mit der Region verbunden sind, erhalten jeweils eine eigene eindeutige Umgehungs-IDs.
 
-Wenn ein Benutzer einen Anruf an das PSTN tätigt, vergleicht der Vermittlungs Server die Bypass-ID des Client-Subnets mit der Bypass-ID des Gateway-Subnetzes. Wenn die beiden Umgehungs-IDs übereinstimmen, wird für den Anruf die Medienumgehung verwendet. Wenn die Bypass-IDs nicht übereinstimmen, müssen Medien für den Anruf über den Vermittlungs Server fließen.
+Wenn ein Benutzer das PSTN anruft, vergleicht der Vermittlungsserver die Umgehungs-ID des Client-Subnetzes mit der Bypass-ID des Gateway-Subnetzes. Wenn die beiden Umgehungs-IDs übereinstimmen, wird für den Anruf die Medienumgehung verwendet. Wenn die Umgehungs-IDs nicht übereinstimmen, müssen Medien für den Aufruf durch den Vermittlungsserver fließen.
 
-Erhält ein Benutzer einen Anruf aus dem PSTN, vergleicht der Client des Benutzers seine Umgehungs-ID mit der des PSTN-Gateways. Wenn die beiden IDs übereinstimmen, fließt das Medium direkt vom Gateway zum Client, wobei der Vermittlungs Server umgangen wird.
+Erhält ein Benutzer einen Anruf aus dem PSTN, vergleicht der Client des Benutzers seine Umgehungs-ID mit der des PSTN-Gateways. Wenn die beiden Umgehungs-IDs übereinstimmen, fließt das Medium direkt vom Gateway zum Client, und die Vermittlungsserver wird übersprungen.
 
-Nur lync 2010 oder höher Clients und Geräte unterstützen Medien Umgehungs Interaktionen mit einem Vermittlungs Server.
+Nur lync 2010 oder höher als Clients und Geräte unterstützen Medien Umgehungs Interaktionen mit einem Vermittlungsserver.
 
 <div>
 
@@ -76,9 +76,9 @@ Nur lync 2010 oder höher Clients und Geräte unterstützen Medien Umgehungs Int
 ## <a name="see-also"></a>Siehe auch
 
 
-[Modi für die Medienumgehung in Lync Server 2013](lync-server-2013-media-bypass-modes.md)  
-[Medienumgehung und Anrufsteuerung in Lync Server 2013](lync-server-2013-media-bypass-and-call-admission-control.md)  
-[Technische Anforderungen für die Medienumgehung in Lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md)  
+[Medien Umgehungs Modi in lync Server 2013](lync-server-2013-media-bypass-modes.md)  
+[Medienumgehung und Anrufsteuerung in lync Server 2013](lync-server-2013-media-bypass-and-call-admission-control.md)  
+[Technische Anforderungen für die medienumgehung in lync Server 2013](lync-server-2013-technical-requirements-for-media-bypass.md)  
   
 
 </div>

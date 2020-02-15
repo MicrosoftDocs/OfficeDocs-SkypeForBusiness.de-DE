@@ -1,5 +1,5 @@
 ---
-title: Installationsanforderungen
+title: Setup
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16a23ab96b25fa3ba5da846fc5967053fdac041b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d09980e7a34e5c565fe8282a665cede654a725a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763985"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038257"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setup"></a>Installationsanforderungen
+# <a name="setup"></a>Setup
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41763985"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-04-22_
+_**Letztes Änderungsstand des Themas:** 2014-04-22_
 
-Führen Sie die folgenden Anweisungen aus, um die Tools zu installieren, die im Rahmen des lync Server 2013-Stress-und-Leistungstools bereitgestellt werden.
+Befolgen Sie diese Anweisungen, um die im Rahmen von lync Server 2013 Stress and Performance Tool bereitgestellten Tools zu installieren.
 
 <div>
 
-## <a name="installing-the-stress-and-performance-tool"></a>Installieren des Stress-und Leistungstools
+## <a name="installing-the-stress-and-performance-tool"></a>Installieren des Belastungs-und Leistungstools
 
-Führen Sie die Windows Installer-Datei, **CapacityPlanningTool. msi**, auf jedem Clientcomputer aus, den Sie zum Simulieren des Benutzer Verkehrs verwenden werden. Auf diesen Clientcomputern dürfen keine lync Server-Komponenten ausgeführt werden.
+Führen Sie die Windows Installer-Datei **CapacityPlanningTool. msi**auf jedem Clientcomputer aus, den Sie verwenden werden, um den Benutzerdatenverkehr zu simulieren. Auf diesen Clientcomputern dürfen keine lync Server Komponenten durchführen.
 
 </div>
 

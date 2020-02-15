@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anzeigen von PSTN-Nutzungsdaten Sätzen'
+title: 'Lync Server 2013: Anzeigen von PSTN-Verwendungsdatensätzen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184361
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2551c8bbc40429d7e5bc4af45cae862991381a8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 84ba8e2091a88238caee188f3542b76f652129c4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756679"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038037"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-pstn-usage-records-in-lync-server-2013"></a>Anzeigen von PSTN-Nutzungsdaten Sätzen in lync Server 2013
+# <a name="view-pstn-usage-records-in-lync-server-2013"></a>Anzeigen von PSTN-Verwendungsdatensätzen in lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41756679"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-22_
+_**Letztes Änderungsstand des Themas:** 2013-02-22_
 
-Ein PSTN-Nutzungsdaten Satz (Public Switched Telephone Network) gibt eine Anruf Klasse (wie internes, lokales oder Ferngespräch) an, die von verschiedenen Benutzern oder Gruppen von Benutzern in einer Organisation vorgenommen werden kann. Ausführliche Informationen finden Sie in der Planning-Dokumentation unter [PSTN-Verwendungsdaten Sätze in lync Server 2013](lync-server-2013-pstn-usage-records.md) .
+Ein PSTN-Verwendungsdatensatz gibt eine Anrufklasse (z. B. interne Anrufe, Ortsgespräche oder Ferngespräche) an, die von den verschiedenen Benutzern oder Benutzergruppen in einer Organisation getätigt werden dürfen. Ausführliche Informationen finden Sie unter [PSTN-Verwendungsdaten Sätze in lync Server 2013](lync-server-2013-pstn-usage-records.md) in der Planungsdokumentation.
 
 <div>
 
-## <a name="to-view-a-pstn-usage-record-by-using-lync-server-control-panel"></a>So zeigen Sie einen PSTN-Verwendungs Eintrag mithilfe der lync Server-Systemsteuerung an
+## <a name="to-view-a-pstn-usage-record-by-using-lync-server-control-panel"></a>So zeigen Sie einen PSTN-Verwendungsdaten Satz mithilfe von lync Server-Systemsteuerung an
 
-1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Melden Sie sich am Computer als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied der CsVoiceAdministrator-, CsServerAdministrator-oder CsAdministrator-Rolle an. Ausführliche Informationen finden Sie unter [Delegate Setup Permissions in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing** und dann auf **PSTN-Verwendung**.
 
-4.  Markieren Sie auf der Seite **PSTN-Verwendung** den PSTN-Verwendungsdatensatz, den Sie anzeigen möchten. Klicken Sie dann auf **Bearbeiten** und anschließend auf **Details anzeigen**.
+4.  Markieren Sie auf der Seite **PSTN-Verwendung** den PSTN-Verwendungsdatensatz, die Sie anzeigen möchten. Klicken Sie dann auf **Bearbeiten** und anschließend auf **Details anzeigen**.
     
     <div>
     
@@ -64,26 +64,26 @@ Ein PSTN-Nutzungsdaten Satz (Public Switched Telephone Network) gibt eine Anruf 
 
 <div>
 
-## <a name="viewing-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Informationen zur PSTN-Nutzung mithilfe von Windows PowerShell-Cmdlets
+## <a name="viewing-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von PSTN-Verwendungsinformationen mithilfe von Windows PowerShell-Cmdlets
 
-Sie können PSTN-Nutzungen auch mithilfe von Windows PowerShell und dem Cmdlet **Get-CsPstnUsage** anzeigen. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Sie können auch PSTN-Verwendungen anzeigen, indem Sie Windows PowerShell und das Cmdlet **Get-CsPstnUsage** verwenden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
-## <a name="to-view-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>So zeigen Sie die Informationen zur PSTN-Nutzung mithilfe von Windows PowerShell-Cmdlets an
+## <a name="to-view-pstn-usage-information-by-using-windows-powershell-cmdlets"></a>So zeigen Sie PSTN-Verwendungsinformationen mithilfe von Windows PowerShell-Cmdlets an
 
-  - Wenn Sie Informationen zu allen PSTN-Verwendungen anzeigen möchten, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
+  - Wenn Sie Informationen zu allen PSTN-Verwendungen anzeigen möchten, geben Sie den folgenden Befehl in das lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsPstnUsage
     
-    Mit diesem Befehl werden Informationen ähnlich der folgenden zurückgegeben:
+    Mit diesem Befehl werden Informationen nach folgendem Muster zurückgegeben:
     
         Identity : Global
         Usage    : {Internal, Local, Long Distance}
 
 </div>
 
-Ausführliche Informationen finden Sie unter [Get-CsPstnUsage](https://docs.microsoft.com/powershell/module/skype/Get-CsPstnUsage).
+Weitere Einzelheiten dazu finden Sie unter [Get-CsPstnUsage](https://docs.microsoft.com/powershell/module/skype/Get-CsPstnUsage).
 
 </div>
 

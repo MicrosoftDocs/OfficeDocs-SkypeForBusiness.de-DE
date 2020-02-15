@@ -1,5 +1,5 @@
 ---
-title: Leistungs Szenarien für das Stress-und Leistungs Tool von Skype for Business Server 2015
+title: Leistungs Szenarien für das Skype for Business Server 2015 Stress and Performance Tool
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -13,44 +13,44 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
-description: Aufgaben, die Sie ausführen müssen, um Skype for Business Server 2015 für Leistungs-und Auslastungstests zu konfigurieren, indem Sie das Tool Stress und Leistung verwenden.
-ms.openlocfilehash: 343378d0b0d763d8a290e8d1e930a64c5d114bdb
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Aufgaben, die Sie ausführen müssen, um Skype for Business Server 2015 für Leistungs-und Auslastungstests zu konfigurieren, verwenden Sie das Tool für Stress und Leistung.
+ms.openlocfilehash: 5531627ab7d5072d32dfcf60fed41eac47f5373f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41803875"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983850"
 ---
-# <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Leistungs Szenarien für das Stress-und Leistungs Tool von Skype for Business Server 2015
+# <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Leistungs Szenarien für das Skype for Business Server 2015 Stress and Performance Tool
  
-Aufgaben, die Sie ausführen müssen, um Skype for Business Server 2015 für Leistungs-und Auslastungstests zu konfigurieren, indem Sie das Tool Stress und Leistung verwenden.
+Aufgaben, die Sie ausführen müssen, um Skype for Business Server 2015 für Leistungs-und Auslastungstests zu konfigurieren, verwenden Sie das Tool für Stress und Leistung.
   
-Zum Ausführen des Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool) muss die Skype for Business Server 2015-Topologie zunächst für für Sie relevante Szenarien konfiguriert werden. Wenn Skype for Business Server 2015 nicht konfiguriert ist oder falsch konfiguriert ist, schlägt die Auslastungssimulation höchstwahrscheinlich fehl. Mit dem Stress-und Leistungstool für Skype for Business Server 2015 stellen wir Beispiele für Skype for Business Server-Verwaltungsshell-Skripts und grundlegende Ressourcendateien als Teil des [Tool Downloads](https://www.microsoft.com/download/details.aspx?id=50367)zur Verfügung. Diese können als Ausgangspunkt für die Konfiguration Ihrer Skype for Business Server-Bereitstellung verwendet werden. In diesem Artikel werden die bereitgestellten Windows PowerShell-Beispiele beschrieben.
+Damit Sie das Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool) ausführen können, muss die Skype for Business Server 2015 Topologie zunächst für die für Sie relevanten Szenarien konfiguriert werden. Wenn Skype for Business Server 2015 nicht konfiguriert ist oder nicht ordnungsgemäß konfiguriert ist, kann es sein, dass die Auslastungssimulation sehr wahrscheinlich fehlschlägt. Mit dem Skype for Business Server 2015 Stress and Performance-Tool werden Beispiel-Skype for Business Server-Verwaltungsshell-Skripts und grundlegende Ressourcendateien als Teil des [Tool Downloads](https://www.microsoft.com/download/details.aspx?id=50367)bereitgestellt. Diese können als Ausgangspunkt für die Konfiguration Ihrer Skype for Business Server-Bereitstellung verwendet werden. In diesem Artikel werden die bereitgestellten Windows PowerShell Beispiele beschrieben.
   
 > [!NOTE]
-> In diesem Thema wird Ihnen nicht geholfen, die Konfiguration von Skype for Business Server 2015 im Allgemeinen zu beschreiben. Details zum Arbeiten mit Windows PowerShell in Skype for Business Server 2015 finden Sie in der Dokumentation zur Skype for Business Server-Verwaltungsshell unter Einfügen-Einführung hier. 
+> In diesem Thema wird nicht beschrieben, wie Sie Skype for Business Server 2015 im allgemeinen konfigurieren, sondern auch andere Planungs-und Bereitstellungsthemen. Ausführliche Informationen zum Arbeiten mit Windows PowerShell in Skype for Business Server 2015 finden Sie in der Dokumentation zur Skype for Business Server Management Shell unter INSERT Introduction here. 
   
-## <a name="about-running-skype-for-business-server-management-shell-scripts"></a>Informationen zum Ausführen von Skripts für die Verwaltung von Skype for Business Server-Verwaltungsshell
+## <a name="about-running-skype-for-business-server-management-shell-scripts"></a>Informationen zum Durchführen von Skype for Business Server-Verwaltungsshell-Skripts
 
-Wir stellen Beispiel-PowerShell-Skripts bereit, mit denen Sie Ihre Auslastungssimulationen vorbereiten können. Da diese Skripts für die Auslastungssimulation vorgesehen sind, finden Sie Sie einfach und frei zügig. , Die möglicherweise nicht für Ihre Produktionsumgebung geeignet sind. Wir betonen erneut, dass es sich bei diesen Skripts um Beispiele handelt, Sie müssen Sie überprüfen und in vielen Fällen Änderungen vornehmen, die für Ihre Umgebung relevant sind, bevor Sie Sie praktisch nutzen können. Wir gehen davon aus, dass Sie mindestens das Wiederherstellungsskript der Antwortdienst Gruppe (RSG) mit Ihrer Topologie ändern müssten (um die Agents anzugeben, die den Agentengruppen zugewiesen sind). Sie müssen dies aber nicht ausführen, wenn Sie dies nicht benötigen.
+Wir stellen Beispiel-PowerShell-Skripts bereit, mit denen Sie Ihre Auslastungssimulationen vorbereiten können. Da diese Skripts für die Lastsimulation vorgesehen sind, finden Sie diese einfach und frei zügig. Dies ist möglicherweise nicht für Ihre Produktionsumgebung geeignet. Wir betonen erneut, dass es sich bei diesen Skripts um Beispiele handelt, Sie müssen diese überprüfen und in vielen Fällen Änderungen vornehmen, die für Ihre Umgebung relevant sind, bevor Sie Sie praktisch nutzen können. Es wird davon ausgegangen, dass Sie das Wiederherstellungsskript für die Reaktions Dienstgruppe (RSG) mit der Topologie im Hinterkopf ändern müssen (um die Agents anzugeben, die den Agentgruppen zugewiesen sind). Sie müssen dies jedoch nicht ausführen, wenn Sie dies nicht tun müssen.
   
 > [!CAUTION]
-> Achten Sie bitte darauf, diese Beispiele zu überprüfen und zu verstehen. Skripts überschreiben alle vorhandenen Einstellungen in der Topologie, wenn Sie ausgeführt werden. 
+> Achten Sie darauf, diese Beispiele zu überprüfen und zu verstehen. Bei der Ausführung werden in Skripts alle vorhandenen Einstellungen in der Topologie überschrieben. 
   
-## <a name="stress-and-performance-tool-client-version-names"></a>Versionsnamen für Spannungs-und Leistungs Tool-Client
+## <a name="stress-and-performance-tool-client-version-names"></a>Client Versionsnamen für Stress und Leistungs Tool
 
-Möglicherweise müssen Sie die Richtlinie für die Client Versionsüberprüfung konfigurieren, wenn Sie die Einstellungen zuvor von den Standardwerten geändert haben. Wenn Sie sich nicht sicher sind, sehen Sie in der [Dokumentation zur Client Version](https://msdn.microsoft.com/en-us/vsto/jj923060)nach.
+Möglicherweise müssen Sie die Richtlinie für die Client Versionsüberprüfung konfigurieren, wenn Sie zuvor die Einstellungen von den Standardwerten geändert haben. Wenn Sie sich nicht sicher sind, überprüfen Sie die [Dokumentation zur Client Versionsüberprüfung](https://msdn.microsoft.com/vsto/jj923060).
   
-Das Tool "Spannung und Leistung" verwendet standardmäßig die folgenden Benutzer-Agent-Versionen, wenn Sie mit Skype for Business Server 2015 kommunizieren:
+Das Tool Stress and Performance verwendet bei der Kommunikation mit Skype for Business Server 2015 standardmäßig die folgenden Versionen des Benutzer-Agents:
   
-- LSPT/15.0.0.0 (Skype for Business Server 2015 Stress-und Leistungs Tool)
+- LSPT/15.0.0.0 (Skype for Business Server 2015 Stress and Performance Tool)
     
 - OCPHONE/. 0.522
     
-Für den Mobilitäts Client (UCWA) in LyncPerfTool:
+Für den Mobility-Client (UCWA) in LyncPerfTool:
   
-- UCWA-perf-Tool/Webkonferenz
+- UCWA perf-Tool/Webkonferenz
     
-- UCWA perf Tool/Mobil
+- UCWA perf Tool/Mobile
     
 

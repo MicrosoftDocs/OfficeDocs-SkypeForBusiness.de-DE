@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Einstellungen für die besprechungskonfiguration'
+title: 'Lync Server 2013: Besprechungs Konfigurationseinstellungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733637
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa234a4420c1bec54cd673eb59d254e07deab8f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9b5a3176067d7ec9927165bd13b6b1a34dfb00d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766056"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039458"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="meeting-configuration-settings-in-lync-server-2013"></a>Konfigurationseinstellungen für Besprechungen in lync Server 2013
+# <a name="meeting-configuration-settings-in-lync-server-2013"></a>Besprechungs Konfigurationseinstellungen in lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41766056"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-In lync Server 2013 definieren Konferenzrichtlinien die Benutzer Planung und-Teilnahme, und die Einstellungen für Besprechungsteilnahme, die sich auf der Seite "besprechungskonfiguration" befinden, definieren Folgendes:
+In lync Server 2013 definiert die konferenzrichtlinie die Benutzer Planungs-und Teilnahmeerfahrung, und die Einstellungen für den besprechungsbeitritt, die auf der Seite besprechungskonfiguration gespeichert sind, definieren Folgendes:
 
-  - Werden Benutzer, die sich über das Telefonfestnetz (PSTN, Public Switched Telephone Network) einwählen, in den Wartebereich umgeleitet?
+  - Ob Benutzer, die sich aus dem Telefonfestnetz einwählen, zum Wartebereich weitergeleitet werden
 
-  - Welche Benutzer können als Referenten fungieren?
+  - Wer als Referent agieren darf
 
-  - Wird der Konferenztyp standardmäßig zugeordnet?
+  - Ob der Konferenztyp standardmäßig zugewiesen wird
 
-  - Werden anonyme Benutzer (ohne Authentifizierung) standardmäßig zugelassen?
+  - Ob anonyme (nicht authentifizierte) Benutzer standardmäßig zugelassen werden
 
-In den Themen in diesem Abschnitt wird beschrieben, wie Sie die Einstellungen für die Besprechungsteilnahme konfigurieren.
+Die Themen in diesem Abschnitt beschreiben die Konfiguration von Einstellungen für den Besprechungsbeitritt.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Anzeigen von Einstellungen für die besprechungskonfiguration in lync Server 2013](lync-server-2013-view-meeting-configuration-settings.md)
+  - [Anzeigen von Besprechungs Konfigurationseinstellungen in lync Server 2013](lync-server-2013-view-meeting-configuration-settings.md)
 
-  - [Erstellen oder Ändern einer Sammlung von Einstellungen für die besprechungskonfiguration in lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)
+  - [Erstellen oder Ändern einer Sammlung von Besprechungs Konfigurationseinstellungen in lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)
 
   - [Löschen einer vorhandenen Sammlung von Besprechungs Konfigurationseinstellungen in lync Server 2013](lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md)
 

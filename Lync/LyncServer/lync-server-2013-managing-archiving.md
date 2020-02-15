@@ -12,16 +12,16 @@ ms:contentKeyID: 48184003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3bb7ecac5204fc42b44e919dbbab8e9b720acc7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 16c9b901575e844954b9dd3454c4ecc7c86e7c3b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738865"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037215"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41738865"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-10_
+_**Letztes Änderungsstand des Themas:** 2012-10-10_
 
-Wenn Sie die Archivierung für Ihre Organisation bereitstellen, geben Sie die anfängliche Konfiguration während der Bereitstellung an. Es kann jedoch vorkommen, dass Sie ändern möchten, wie Sie die Archivierungsunterstützung für das tägliche Management implementieren oder neue Anforderungen in Ihrer Organisation erfüllen möchten. Möglicherweise müssen Sie den Archivierungs Support für eine bestimmte Website, einen Pool oder für Benutzer in Ihrer Organisation anders einrichten. Für Benutzer, die in lync Server 2013 verwaltet werden, erstellen und Anpassen Sie Archivierungsrichtlinien und-Konfigurationen. Wenn Sie die Microsoft Exchange-Integration verwenden, müssen Sie auch die Exchange 2013-Einstellungen konfigurieren. Dieser Abschnitt enthält Informationen und Verfahren, mit denen Sie Änderungen an ihrer Archivierungs Bereitstellung vornehmen können.
+Die ursprüngliche Konfiguration wird beim Bereitstellen der Archivierung in Ihrer Organisation vorgenommen. Zu einem späteren Zeitpunkt kann es jedoch wünschenswert oder notwendig sein, die Implementierung der Archivierungsunterstützung an alltägliche Verwaltungsvorgänge oder neue Herausforderungen anzupassen. Beispielsweise kann es sein, dass Sie die Archivierungsunterstützung für einen bestimmten Standort, einen bestimmten Pool oder bestimmte Benutzer in Ihrer Organisation verändern müssen. Für Benutzer, die in lync Server 2013 verwaltet werden, müssen Sie die Archivierungsrichtlinien und-Konfigurationen erstellen und anpassen. Wenn Sie Microsoft Exchange Integration verwenden, müssen Sie auch Exchange 2013 Einstellungen konfigurieren. In diesem Abschnitt finden Sie Informationen und Verfahren, mit denen Sie Änderungen an Ihrer Archivierungsbereitstellung vornehmen können.
 
 <div>
 
@@ -45,13 +45,13 @@ Wenn Sie die Archivierung für Ihre Organisation bereitstellen, geben Sie die an
 
   - [Funktionsweise der Archivierung in lync Server 2013](lync-server-2013-how-archiving-works.md)
 
-  - [Verwalten der Archivierung interner und externer Kommunikation in lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)
+  - [Verwalten der Archivierung von interner und externer Kommunikation in lync Server 2013](lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md)
 
-  - [Verwalten von Archivierungs Konfigurationsoptionen in lync Server 2013 für Ihre Organisation, ihre Websites und Pools](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
+  - [Verwalten von Archivierungs Konfigurationsoptionen in lync Server 2013 für Ihre Organisation, Standorte und Pools](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
 
-  - [Ändern der Optionen für die Archivierungsdatenbank in lync Server 2013](lync-server-2013-changing-archiving-database-options.md)
+  - [Ändern von Archivierungsdatenbank Optionen in lync Server 2013](lync-server-2013-changing-archiving-database-options.md)
 
-  - [Exportieren von archivierten Daten aus lync Server 2013](lync-server-2013-exporting-archived-data.md)
+  - [Exportieren archivierter Daten aus lync Server 2013](lync-server-2013-exporting-archived-data.md)
 
 </div>
 

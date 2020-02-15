@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von Firewalls und Ports für den externen Benutzerzugriff'
+title: 'Lync Server 2013: Konfigurieren von Firewalls und Ports für den Zugriff durch externe Benutzer'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b10ad0826e0b15ff42b47dc6c732b2b60500f8b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 514c93cff5d3050ae94d1057b57fb703e92696ba
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726585"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037705"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-firewalls-and-ports-for-external-user-access-in-lync-server-2013"></a>Konfigurieren von Firewalls und Ports für den externen Benutzerzugriff in Lync Server 2013
+# <a name="configure-firewalls-and-ports-for-external-user-access-in-lync-server-2013"></a>Konfigurieren von Firewalls und Ports für den Zugriff durch externe Benutzer in lync Server 2013
 
 </div>
 
@@ -35,16 +35,16 @@ ms.locfileid: "41726585"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-05-21_
+_**Letztes Änderungsstand des Themas:** 2012-05-21_
 
-Um Firewalls und Ports zu konfigurieren, müssen Sie Sie für Edgeserver, Reverse-Proxy Server und möglicherweise Hardwarelastenausgleichs (für eine skalierte Bereitstellung, die keinen DNS-Lastenausgleich verwendet) konfigurieren. Dieser Abschnitt enthält Informationen über Firewall-und Portanforderungen für alle Edgeserver-Komponenten und die Konfiguration von Firewall-Ports für Edgeserver. Weitere Informationen zum Konfigurieren von Ports für Reverse-Proxy Server finden Sie unter [Einrichten von Reverse-Proxyservern für lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md). Wenn Sie eine skalierte Edge-Topologie bereitstellen und anstelle des DNS-Lastenausgleichs den Hardwarelastenausgleich verwenden, finden Sie weitere Informationen zum Konfigurieren von Ports für Hardwarelastenausgleichs in der Planning-Dokumentation unter [skalierter konsolidierter Edge mit Hardwarelastenausgleichs in lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md) .
+Um Firewalls und Ports zu konfigurieren, müssen Sie Sie für Edgeserver, Reverse-Proxy Server und möglicherweise Hardwarelastenausgleichs konfigurieren (für eine skalierte Bereitstellung, die keinen DNS-Lastenausgleich verwendet). Dieser Abschnitt enthält Informationen zu Firewall-und Portanforderungen für alle Edgeserver Komponenten und die Konfiguration von Firewall-Ports für Edgeserver. Ausführliche Informationen zum Konfigurieren von Ports für Reverse-Proxy Server finden Sie unter [Einrichten von Reverse-Proxyservern für lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md). Wenn Sie eine skalierte Edge-Topologie bereitstellen und anstelle des DNS-Lastenausgleichs einen Hardwarelastenausgleich verwenden, finden Sie weitere Informationen zum Konfigurieren von Ports für Hardwaregeräte zum Lastenausgleich unter [skalierter konsolidierter Edgeserver mit Hardwarelastenausgleichs in lync Server 2013](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md) in der Planungsdokumentation.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Ermitteln der Anforderungen für externe A/V-Firewalls und Ports für Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
+[Ermitteln der Anforderungen für externe A/V-Firewalls und Ports für lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
   
 
 </div>

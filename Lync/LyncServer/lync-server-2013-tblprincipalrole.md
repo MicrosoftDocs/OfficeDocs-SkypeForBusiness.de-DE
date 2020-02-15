@@ -12,20 +12,20 @@ ms:contentKeyID: 48185597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de125c0f314bd0ba72b9bbd463201b12d3e19eea
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ddab28b269cf2b720d6935fa6d50f4bf9ea3084a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731175"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038587"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalrole-in-lync-server-2013"></a>tblPrincipalRole in Lync Server 2013
+# <a name="tblprincipalrole-in-lync-server-2013"></a>tblPrincipalRole in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731175"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+_**Letztes Änderungsstand des Themas:** 2012-09-12_
 
-tblPrincipalRole enthält explizite Rollen, die Knoten zugewiesen sind.
+tblPrincipalRole enthält explizite Rollen, die Knoten zugeordnet sind.
 
 ### <a name="columns"></a>Spalten
 
@@ -58,22 +58,22 @@ tblPrincipalRole enthält explizite Rollen, die Knoten zugewiesen sind.
 <tr class="odd">
 <td><p>prinRoleNodeID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Die Knoten-ID, auf die sich die Rolle bezieht.</p></td>
+<td><p>Knoten-ID, auf die sich die Rolle bezieht.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinRolePrinID</p></td>
-<td><p>int, nicht NULL</p></td>
-<td><p>Prinzipal-ID.</p></td>
+<td><p>int, not null</p></td>
+<td><p>Prinzipal-ID</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinRoleTypeID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Rollentyp-ID (aus tblRoleType).</p></td>
+<td><p>Rollentyp-ID (von tblRoleType).</p></td>
 </tr>
 <tr class="even">
 <td><p>prinRoleUpdatedBy</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Die ID des Prinzipals, der diesen Eintrag zuletzt aktualisiert hat.</p></td>
+<td><p>ID des Prinzipals, der diesen Eintrag zuletzt aktualisiert hat.</p></td>
 </tr>
 </tbody>
 </table>
@@ -99,15 +99,15 @@ tblPrincipalRole enthält explizite Rollen, die Knoten zugewiesen sind.
 </tr>
 <tr class="even">
 <td><p>prinRoleNodeID</p></td>
-<td><p>Fremdschlüssel mit Lookup in der tblNode. Node-Tabelle</p></td>
+<td><p>Fremdschlüssel mit Abfrage der tblNode.nodeID-Tabelle.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinRolePrinID</p></td>
-<td><p>Fremdschlüssel mit Lookup in der tblPrincipal. prinID-Tabelle.</p></td>
+<td><p>Fremdschlüssel mit Abfrage der tblPrincipal.prinID-Tabelle.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinRoleTypeID</p></td>
-<td><p>Fremdschlüssel mit Lookup in der tblRoleType. rtypeID-Tabelle.</p></td>
+<td><p>Fremdschlüssel mit Abfrage der tblRoleType.rtypeID-Tabelle.</p></td>
 </tr>
 </tbody>
 </table>

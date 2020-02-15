@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anzeigen von Netzwerk Website Informationen'
+title: 'Lync Server 2013: Anzeigen von Netzwerkstandort Informationen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d3c6b0e4855cd8620205a70d6538465c32c0f0d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d3d6ee36e77a36e614019f4c29b563a4e7b25469
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757259"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046438"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-network-site-information-in-lync-server-2013"></a>Anzeigen von Netzwerk Website Informationen in lync Server 2013
+# <a name="viewing-network-site-information-in-lync-server-2013"></a>Anzeigen von Netzwerkstandort Informationen in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41757259"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Netzwerk Websites sind die Büros oder Standorte, die in den einzelnen Regionen einer Anrufannahme Steuerung oder erweiterten 9-1-1-Bereitstellung konfiguriert sind. Sie können Netzwerk Website Informationen entweder in der lync Server 2013-Systemsteuerung oder in der lync Server-Verwaltungsshell anzeigen. Details zum Erstellen oder Ändern von Netzwerk Websites finden Sie unter [erstellen oder Ändern von Netzwerk Websites in lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md).
+Netzwerkstandorte sind Büros, Niederlassungen oder Standorte, die in jeder Region einer Bereitstellung für einen Anrufsteuerungsdienst oder Notfalldienst (E9-1-1) konfiguriert sind. Sie können Informationen zu Netzwerk Websites entweder in lync Server 2013 Systemsteuerung oder in lync Server-Verwaltungsshell anzeigen. Ausführliche Informationen zum Erstellen oder Ändern von Netzwerkstandorten finden Sie unter [erstellen oder Ändern von Netzwerkstandorten in lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md).
 
 <div>
 
-## <a name="to-view-network-site-information-in-lync-server-control-panel"></a>So zeigen Sie Netzwerk Website Informationen in der lync Server-Systemsteuerung an
+## <a name="to-view-network-site-information-in-lync-server-control-panel"></a>So zeigen Sie Netzwerkstandort Informationen in lync Server-Systemsteuerung an
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder gleichwertige Benutzerrechte hat) oder der CsAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** , und klicken Sie dann auf **Website**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Standort**.
 
 4.  Klicken Sie auf der Seite **Website** auf die Website, die Sie anzeigen möchten.
     
@@ -55,7 +55,7 @@ Netzwerk Websites sind die Büros oder Standorte, die in den einzelnen Regionen 
     
 
     > [!NOTE]  
-    > Sie können nur Informationen für eine Website gleichzeitig anzeigen.
+    > Sie können jeweils nur Informationen für einen Standort anzeigen.
 
     
     </div>
@@ -66,19 +66,19 @@ Netzwerk Websites sind die Büros oder Standorte, die in den einzelnen Regionen 
 
 <div>
 
-## <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerk Website Informationen mithilfe von Windows PowerShell-Cmdlets
+## <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerkstandort Informationen mithilfe von Windows PowerShell-Cmdlets
 
-Sie können Netzwerk Website Informationen mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkSite anzeigen. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Sie können Informationen zum Netzwerkstandort mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkSite anzeigen. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
-## <a name="to-view-network-site-information"></a>So zeigen Sie Netzwerk Website Informationen an
+## <a name="to-view-network-site-information"></a>So zeigen Sie Netzwerkstandortinformationen an
 
-  - Wenn Sie Informationen zu allen Ihren Netzwerk Websites anzeigen möchten, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
+  - Wenn Sie Informationen zu allen Netzwerkstandorten anzeigen möchten, geben Sie den folgenden Befehl in das lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsNetworkSite
     
-    Es werden etwa folgende Informationen zurückgegeben:
+    Hiermit werden Informationen zurückgegeben, die so oder ähnlich aussehen:
     
         Identity          : Redmond
         NetworkSiteID     : Redmond
@@ -90,7 +90,7 @@ Sie können Netzwerk Website Informationen mithilfe von Windows PowerShell und d
 
 </div>
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite) .
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite).
 
 </div>
 
@@ -99,8 +99,8 @@ Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Get-CsNetworkSite](ht
 ## <a name="see-also"></a>Siehe auch
 
 
-[Erstellen oder Ändern von Netzwerk Websites in lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)  
-[Löschen einer vorhandenen Netzwerk Website in lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md)  
+[Erstellen oder Ändern von Netzwerkstandorten in lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)  
+[Löschen eines vorhandenen Netzwerkstandorts in lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md)  
   
 
 </div>

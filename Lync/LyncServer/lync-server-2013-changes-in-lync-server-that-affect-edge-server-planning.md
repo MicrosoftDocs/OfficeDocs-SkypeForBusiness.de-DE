@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Änderungen in Lync Server, die die Planung für Edgeserver betreffen'
+title: 'Lync Server 2013: Änderungen an lync Server, die sich auf die Edgeserver Planung auswirken'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73eda15acbce7eb4b47a0a52602776e8fc830b0e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c859df611ea2ad33b36bb7392dfcf2e2b9c5ae94
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730145"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037295"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="changes-in-lync-server-2013-that-affect-edge-server-planning"></a>Änderungen in Lync Server 2013, die die Planung für Edgeserver betreffen
+# <a name="changes-in-lync-server-2013-that-affect-edge-server-planning"></a>Änderungen in lync Server 2013, die sich auf die Edgeserver Planung auswirken
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41730145"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-22_
+_**Letztes Änderungsstand des Themas:** 2012-10-22_
 
-Lync Server 2013 führt neue Features ein, die die Features und Kommunikationsmethoden für Ihre Benutzer erweitern. Darüber hinaus führt lync Server 2013 Änderungen an vorhandenen Diensten durch, um die Dienste, die für Ihre Organisation verfügbar sind, besser zu integrieren und zu erweitern. Es folgt eine Zusammenfassung der Änderungen, die sich auf die Planung und Bereitstellung von lync Server 2013-Edgeserver-Diensten auswirken können.
+In lync Server 2013 werden neue Features vorgestellt, die die Features und Kommunikationsmethoden für Ihre Benutzer erweitern. Darüber hinaus führt lync Server 2013 Änderungen an vorhandenen Diensten durch, um die für Ihre Organisation verfügbaren Dienste besser zu integrieren und zu erweitern. Im folgenden finden Sie eine Zusammenfassung der Änderungen, die sich auf die Planung und Bereitstellung von lync Server 2013 Edgeserver Diensten auswirken können.
 
 <div>
 
 ## <a name="support-for-ipv6-addressing"></a>Unterstützung für IPv6-Adressierung
 
-Lync Server 2013 unterstützt die IPv6-Adressierung für alle Edgeserver-Dienste. Wenn Sie IPv6-Adressen für die Schnittstellen über die Konfiguration in Windows Server bereitgestellt haben, können Sie IPv6-Adressen in ihrer Edge-Server-Konfiguration über die IP-Adressenkonfiguration im Topologie-Generator verwenden. Darüber hinaus unterstützt das Extensible Messaging and Presence Protocol (XMPP) IPv6. Es ist keine zusätzliche Konfiguration erforderlich. Wenn IPv6 in der Topologie konfiguriert ist, wird in XMPP IPv6 (sofern erforderlich) verwendet.
+Lync Server 2013 unterstützt die IPv6-Adressierung für alle Edgeserver Dienste. Wenn Sie IPv6-Adressen für die Schnittstellen über die Konfiguration in Windows Server bereitgestellt haben, können Sie IPv6-Adressen in ihrer Edgeserver Konfiguration über die IP-Adresskonfiguration im Topologie-Generator verwenden. Außerdem wird IPv6 auch vom XMPP-Protokoll unterstützt. Zusätzliche Konfigurationsschritte sind nicht erforderlich. Wenn IPv6 in der Topologie konfiguriert ist, wird es (wo erforderlich) von XMPP genutzt.
 
-Eine zusätzliche Anforderung zur Unterstützung von IPv6 in lync Server 2013 ist das Erstellen von Domänennamen-Systemdaten Sätzen für Datensätze, die ermittelt und in eine IPv6-Adresse aufgelöst werden müssen. IPv6 DNS verwendet Hosteinträge, die als **AAAA** definiert sind und als "Quad-A" bezeichnet werden. Andere Datensatztypen sind mit Ihren IPv4-Pendants konsistent.
+Eine zusätzliche Anforderung zur Unterstützung von IPv6 in lync Server 2013 besteht darin, Domänennamen-Systemeinträge für Datensätze zu erstellen, die ermittelt und in eine IPv6-Adresse aufgelöst werden müssen. IPv6-DNS arbeitet mit Host-Einträgen, die als **AAAA** ("Quad-A") definiert werden. Andere Typen von Einträgen entsprechen ihren IPv4-Gegenstücken.
 
 </div>
 
 <div>
 
-## <a name="support-for-extensible-messaging-and-presence-protocol-xmpp-deployment"></a>Unterstützung für die Bereitstellung von Extensible Messaging and Presence Protocol (XMPP)
+## <a name="support-for-extensible-messaging-and-presence-protocol-xmpp-deployment"></a>Unterstützung für XMPP-Bereitstellung (Extensible Messaging and Presence Protocol)
 
-Edgeserver führt einen vollständig integrierten XMPP-Proxy (auf den Edgeserver bereitgestellt) und ein XMPP-Gateway (bereitgestellt auf Ihren Front-End-Servern) ein. Sie können die XMPP-Föderation als optionale Komponente bereitstellen. Durch Hinzufügen und Konfigurieren des XMPP-Proxys und des XMPP-Gateways können Sie Ihren Microsoft lync 2013-Benutzern das Hinzufügen von Kontakten aus XMPP-basierten Partnern für Sofortnachrichten (im) und Anwesenheitsfunktionen ermöglichen.
+Edgeserver stellt einen vollständig integrierten XMPP-Proxy (auf den Edgeserver bereitgestellt) und ein XMPP-Gateway (bereitgestellt auf Ihren Front-End-Servern) vor. Sie können einen XMPP-Verbund als optionale Komponente bereitstellen. Indem Sie den XMPP-Proxy und das XMPP-Gateway hinzufügen und konfigurieren, können Sie Ihren Microsoft lync 2013 Benutzern das Hinzufügen von Kontakten aus XMPP-basierten Partnern für Chatnachrichten und Anwesenheit ermöglichen.
 
 <div>
 
 
 > [!NOTE]  
-> Derzeit bieten die XMPP-Dienste in Edgeserver nur Chatnachrichten und Anwesenheitsinformationen zwischen lync Server-Clients und XMPP-basierten Kontakten. Darüber hinaus wird XMPP nur an einer einzigen Website gehostet.
+> Derzeit stellen die XMPP-Dienste in Edgeserver nur Chatnachrichten und Anwesenheitsinformationen zwischen lync Server-Clients und XMPP-basierten Kontakten bereit. Außerdem wird XMPP nur an einem einzigen Standort gehostet.
 
 
 
@@ -69,7 +69,7 @@ Edgeserver führt einen vollständig integrierten XMPP-Proxy (auf den Edgeserver
 
 
 > [!IMPORTANT]  
-> Die XMPP-Fähigkeit von Lync Server 2013 wird von Microsoft für den Instant-Messaging-Partnerverbund mit Google Talk getestet und unterstützt. Wenden Sie sich bei anderen XMPP-Systemen an den Drittanbieter, um zu überprüfen, ob dieser den Partnerverbund mit Lync Server 2013 unterstützt, und Empfehlungen bei Bereitstellung und Problembehandlung zu erhalten.
+> Die XMPP-Funktion von lync Server 2013 wird von Microsoft für den Partnerverbund mit Google Talk getestet und unterstützt. Wenden Sie sich für alle anderen XMPP-Systeme an den Drittanbieter, um zu überprüfen, ob der Partnerverbund mit lync Server 2013 und für alle Bereitstellungs-oder Problem Behandlungsempfehlungen unterstützt wird.
 
 
 
@@ -79,43 +79,43 @@ Edgeserver führt einen vollständig integrierten XMPP-Proxy (auf den Edgeserver
 
 <div>
 
-## <a name="support-for-rolling-audiovideo-authentication-and-server-to-server-authentication-certificates"></a>Unterstützung für die rollende Audio/Video-Authentifizierung und Server-zu-Server-Authentifizierungszertifikate
+## <a name="support-for-rolling-audiovideo-authentication-and-server-to-server-authentication-certificates"></a>Unterstützung für parallele Audio-/Video-Authentifizierung und Server-zu-Server-Authentifizierungszertifikate
 
-Ein Zertifikat wird verwendet, um Token zu generieren, die für Clients und andere Verbraucher des A/V-Authentifizierungsdiensts und für die Server-zu-Server-Authentifizierung ausgestellt werden. Das Audio/Video-Authentifizierungszertifikat ist vom Typ *AudioVideoAuthentication* und das Server-zu-Server-Authentifizierungszertifikat vom Typ *OAuthTokenIssuer*.
+Ein Zertifikat wird zum Generieren von Token verwendet, die für Clients und andere Abnehmer des A/V-Authentifizierungsdiensts und für die Server-zu-Server-Kommunikation ausgestellt werden. Das Audio-/Video-Authentifizierungszertifikat hat den Typ *AudioVideoAuthentication*, und das Server-zu-Server-Authentifizierungszertifikat ist vom Typ *OAuthTokenIssuer*.
 
-Bei der Audio-und Video Authentifizierung werden Token zur Authentifizierung von Port Zuordnungsanforderungen verwendet, und die Token werden bis zu 8 Stunden zwischengespeichert – die Standardlebensdauer des Tokens. Im Normalbetrieb ist dies eine sehr zuverlässige Methode zum Erstellen und Verteilen von Authentifizierungs Material an die a/V-Consumer. Zertifikate weisen jedoch eine begrenzte Lebensdauer auf und verfallen mit einem vordefinierten Datum und einer vordefinierten Uhrzeit (basierend auf dem Erstellungsdatum und den Richtlinien, die bei der Zertifizierungsstelle, die das Zertifikat erstellt hat, in der Regel 2 Jahre für diesen Zertifikattyp) erzwungen wurden. Wenn das Zertifikat abläuft, werden alle Token, die vom abgelaufenen Zertifikat erstellt und von Consumern zwischengespeichert wurden, ungültig. Alle Versuche, ein Token zu verwenden, das mit einem abgelaufenen Zertifikat erstellt wurde, können zu fehlgeschlagenen Medien Relay-Zuweisungen führen, und alle aktuellen Audio/Video-Sitzungen schlagen fehl. Der Client muss ein neues Token erwerben, das von einem gültigen Zertifikat erstellt wurde, um die normale Audio-und Video Funktionalität fortzusetzen.
+Bei der Audio-/Video-Authentifizierung dienen Token zum Authentifizieren von Portzuordnungsanforderungen, wobei die Token für bis zu acht Stunden zwischengespeichert werden (was die standardmäßige Lebensdauer des Token ist). Im normalen Betrieb ist das eine sehr zuverlässige Methode zum Erstellen und Weitergeben von Authentifizierungsmaterialien an die A/V-Abnehmer. Zertifikate haben jedoch eine begrenzte Lebenszeit und laufen zu einem vorab festgelegten Zeitpunkt ab (je nach dem Erstellungsdatum und den umgesetzten Richtlinien bei der CA, die das Zertifikat erstellt hat – bei Zertifikaten dieses Typs für gewöhnlich 2 Jahre). Bei Ablauf des Zertifikats werden alle damit erstellten und von Abnehmern zwischengespeicherten Token ungültig. Alle Versuche, ein Token zu verwenden, das mit einem abgelaufenen Zertifikat erstellt wurde, würden zu Fehlern bei Media-Relay-Zuordnungen und aktuellen Audio-/Videositzungen führen. Um den normalen Audio-/Videobetrieb wieder aufzunehmen, müsste der Client ein neues Token abrufen, das mit einem gültigen Zertifikat erstellt wurde.
 
-Die Server-zu-Server-Authentifizierung wird von einem globalen Zertifikat verwaltet, das angefordert und auf alle Server in der Bereitstellung angewendet wird. Das Zertifikat ist für die Authentifizierung von Servern in lync Server 2013 sowie für die Authentifizierung bei Exchange 2013 und Microsoft SharePoint Server 2013 verantwortlich. Weitere Informationen zur Funktionsweise der Server-zu-Server-Authentifizierung finden Sie unter [Verwalten von Server-zu-Server-Authentifizierung (OAuth) und Partneranwendungen in lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md). Ein sehr wichtiger Unterschied zwischen dem Authentifizierungsprozess für Audio/Video und dem Server-zu-Server-Authentifizierungsprozess ist die Lebensdauer der Authentifizierung oder Tokens. Bei der Audio/Video-Authentifizierung läuft die Authentifizierung nach acht Stunden ab. Die Server-zu-Server-Authentifizierung hat eine Lebensdauer von 24 Stunden. Sie müssen für jeden der Zertifikattypen entsprechend planen.
+Die Server-zu-Server-Authentifizierung erfolgt mithilfe eines globalen Zertifikats, das für alle Server in der Bereitstellung angefordert und übernommen wird. Das Zertifikat ist für die Authentifizierung von Servern in lync Server 2013 sowie für die Authentifizierung bei Exchange 2013 und Microsoft SharePoint Server 2013 verantwortlich. Weitere Informationen zur Funktionsweise der Server-zu-Server-Authentifizierung finden Sie unter [Managing Server-to-Server Authentication (OAuth) and Partner Applications in lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md). Ein sehr wichtiger Unterschied zwischen dem Audio-/Video-Authentifizierungsprozess und dem Server-zu-Server-Authentifizierungsprozess besteht in der Lebensdauer der Authentifizierung oder Token. Bei Audio-/Video-Authentifizierung läuft die Authentifizierung nach 8 Stunden ab. Die Server-zu-Server-Authentifizierung hat eine Lebensdauer von 24 Stunden. Das müssen Sie bei Ihren Planungen entsprechend berücksichtigen.
 
-Neu bei lync Server 2013 ist die Möglichkeit, ein Ersatz-Audio/Video-Authentifizierungszertifikat und ein Server-zu-Server-Authentifizierungszertifikat im Vorfeld des Ablaufs des aktuellen Zertifikats zu inszenieren. Das neue Zertifikat wird dann zum Generieren neuer Token oder neuer Authentifizierungsanforderungen verwendet. das alte Zertifikat bleibt jedoch erhalten, um die aktuellen Sitzungen und Authentifizierungen zu überprüfen. Dadurch wird verhindert, dass nahezu alle Fehler aufgrund von Token-und Zertifikat ablaufen effektiv verhindert werden. Details zu diesem Feature und zur Konfiguration finden Sie unter Staging von [AV-und OAuth-Zertifikaten in lync Server 2013 using-Rolle in der Gruppe-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)
+Neu für lync Server 2013 ist die Möglichkeit, ein Ersatz-Audio/Video-Authentifizierungszertifikat und ein Server-zu-Server-Authentifizierungszertifikat im Vorfeld des Ablaufs des aktuellen Zertifikats zu inszenieren. Das neue Zertifikat wird dann zum Generieren neuer Tokens oder neuer Authentifizierungsanforderungen verwendet. behält jedoch das alte Zertifikat für die Überprüfung der aktuellen Sitzungen und Authentifizierungen bei.. Dadurch werden nahezu alle Fehler aufgrund von Token-und Zertifikat Ablauf wirksam verhindert. Ausführliche Informationen zu diesem Feature und zu seiner Konfiguration finden Sie unter [Staging AV and OAuth certificates in lync Server 2013 using-Roll in CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate)
 
 </div>
 
 <div>
 
-## <a name="reduced-reliance-on-cookie-based-affinity"></a>Geringere Abhängigkeit von der Cookie-basierten Affinität
+## <a name="reduced-reliance-on-cookie-based-affinity"></a>Geringere Abhängigkeit von Cookie-basierter Affinität
 
-In früheren Versionen von lync Server und Office Communications Server wurde die Cookie-basierte Affinität von den Webdiensten verwendet, um sicherzustellen, dass der Client-und Webdienste-Sitzungszustand beibehalten wurde. Lync Server 2013-Webdienste verwenden einen integrierten Affinitäts Mechanismus, der die meisten Anforderungen für die Cookie-basierte Affinität beseitigt.
+In früheren Versionen von lync Server und Office Communications Server wurde die Cookie-basierte Affinität von den Webdiensten verwendet, um sicherzustellen, dass der Client-und Webdienst Sitzungszustand beibehalten wurde. Lync Server 2013-Webdienste verwenden einen integrierten Affinitäts Mechanismus, der die meisten Anforderungen an die Cookie-basierte Affinität eliminiert.
 
 <div>
 
 
 > [!WARNING]  
-> Der Mobile Microsoft lync 2010-Client muss weiterhin eine auf Cookies basierende Affinität verwenden und erfordert die Konfiguration von Cookie-basierter Affinität, bis Sie alle Clients auf den bevorstehenden Microsoft lync Mobile-Client migriert haben (das Datum der Veröffentlichung, das noch nicht festgelegt wurde).
+> Der Microsoft lync 2010 Mobile-Client muss weiterhin eine Cookie-basierte Affinität verwenden und eine Konfiguration der Cookie-basierten Affinität erfordern, bis Sie alle Clients zum bevorstehenden Microsoft lync Mobile-Client migriert haben (Veröffentlichungsdatum noch nicht festgelegt).
 
 
 
 </div>
 
-Details zur Cookie-basierten Affinität in lync Server 2013 finden Sie unter [Komponenten, die für den Zugriff durch externe Benutzer in lync Server 2013 erforderlich](lync-server-2013-components-required-for-external-user-access.md)sind.
+Ausführliche Informationen zur Cookie-basierten Affinität in lync Server 2013 finden Sie unter [für den Zugriff durch externe Benutzer in lync Server 2013 erforderliche Komponenten](lync-server-2013-components-required-for-external-user-access.md).
 
 </div>
 
 <div>
 
-## <a name="autodiscover-enhancements"></a>Verbesserungen bei AutoErmittlung
+## <a name="autodiscover-enhancements"></a>Verbesserungen bei der AutoErmittlungs-Funktion
 
-Das Feature AutoErmittlung in lync Server 2013 ermöglicht es Clients, zusätzliche Features zu finden, die für die Kommunikation zur Verfügung gestellt werden. Die AutoErmittlung wurde erstmals im kumulativen Update für lync Server 2010: November 2011 für Mobilität und Microsoft lync 2010 Mobile eingeführt. Das Feature AutoErmittlung (auch bekannt durch die DNS-Eintragsnamen LyncDiscover und LyncDiscoverInternal) ermöglicht es Clients, Mobilitätsdienste (für Microsoft lync 2010 Mobile-Clients), die Microsoft lync Web App und den lync Web Scheduler zu finden und zu verwenden sowie Kommunikation mit Microsoft Exchange Server und SharePoint Server. AutoErmittlung wird als normaler Teil der Einrichtung und Bereitstellung Ihrer Infrastruktur und lync Server 2013-Server installiert. Der Topologie-Generator und der lync Server-Bereitstellungs-Assistent eliminieren die meisten Konfigurationsaufgaben, die im kumulativen Update für lync Server 2010: November 2011 erforderlich waren.
+Das Auto Ermittlungs Feature in lync Server 2013 ermöglicht Clients das Auffinden zusätzlicher Features, die für die Kommunikation verfügbar gemacht werden. Die AutoErmittlung wurde erstmals im kumulativen Update für lync Server 2010: November 2011 für Mobilität und Microsoft lync 2010 Mobile eingeführt. Das Auto Ermittlungs Feature (auch bekannt durch die DNS-Eintragsnamen LyncDiscover und "lyncdiscoverinternal") ermöglicht Clients das Auffinden und Verwenden von Mobilitätsdiensten (für Microsoft lync 2010 Mobile Clients), die Microsoft lync Web App und den lync-Webplaner sowie Kommunikation mit Exchange Server und SharePoint Server. Die AutoErmittlung wird als normaler Teil des Setups und der Bereitstellung Ihrer Infrastruktur und lync Server 2013 Server installiert. Mit dem Topologie-Generator und dem lync Server-Bereitstellungs-Assistenten werden die meisten Konfigurationsaufgaben beseitigt, die im kumulativen Update für lync Server 2010 erforderlich waren: November 2011.
 
 </div>
 
@@ -123,13 +123,13 @@ Das Feature AutoErmittlung in lync Server 2013 ermöglicht es Clients, zusätzli
 
 ## <a name="services-for-mobile-clients"></a>Dienste für mobile Clients
 
-In dem kumulativen Update für lync Server 2010: November 2011, Mobilitätsdienste in lync Server 2013, mit denen Mobiltelefone mit lync Mobile-und Tablet-Geräten mit unterstützten Apple IOS-, Android-, Windows Phone-oder Nokia-mobilen Geräten ausgeführt werden können Aktivitäten wie das Senden und empfangen von Sofortnachrichten, das Anzeigen von Kontakten und das Anzeigen von Anwesenheitsinformationen. Darüber hinaus unterstützen Mobile Geräte einige Enterprise-VoIP-Features, wie beispielsweise klicken, um an einer Konferenz teilzunehmen, über Arbeit zu anrufen, eine Rufnummer zu erreichen, Voicemail und Benachrichtigungen über verpasste Anrufe zu erhalten.
+Im kumulativen Update für lync Server 2010: November 2011 wurden Mobilitätsdienste in lync Server 2013 für Mobiltelefone, auf denen lync Mobile und Tablet-Geräte mit unterstützten Apple IOS-, Android-, Windows Phone-oder Nokia-Mobilgeräten ausgeführt werden, für die Ausführung von Aktivitäten wie das Senden und empfangen von Chatnachrichten, das Anzeigen von Kontakten und das Anzeigen von Anwesenheitsinformationen. Zudem unterstützen Mobilgeräte einige Enterprise-VoIP-Features, beispielsweise die Teilnahme an einer Besprechung durch Klicken, geschäftlich Anrufen, Erreichbarkeit unter einer Nummer, Voicemail und Anrufe in Abwesenheit.
 
 <div>
 
 
 > [!NOTE]  
-> Die Mobilitätsdienste verwenden den Reverse-Proxy und veröffentlichte Dienste, die auf Ihren Front-End-Servern bereitgestellt werden. Für Edgeserver sind keine Änderungen erforderlich. Minimal benötigen Sie ausgehende SIP/TCP/5061from auf dem Server, auf dem der lync Server Access Edge-Dienst ausgeführt wird.
+> Die Mobilitätsdienste verwenden den Reverseproxy und veröffentlichte Dienste, die auf Ihren Front-End-Servern bereitgestellt sind. Änderungen an Edgeservern sind nicht erforderlich. Minimal benötigen Sie ausgehende SIP/TCP/5061from auf dem Server, auf dem die lync Server Zugriffs-Edgedienst läuft.
 
 
 
@@ -141,7 +141,7 @@ In dem kumulativen Update für lync Server 2010: November 2011, Mobilitätsdiens
 
 ## <a name="director-role-is-optional"></a>Director-Rolle ist optional
 
-Die Rolle des Director-Servers in der lync Server 2013-Topologie wurde nicht geändert. Sie hostet weiterhin Webdienste, authentifiziert eingehende Benutzeranforderungen und leitet externe Benutzer an deren Home-Pool weiter. Wenn der Director von einer empfohlenen Rolle in eine optionale Rolle geändert wird, beabsichtigt Microsoft nicht, den Wert des Directors zu schmälern. Das Ziel besteht darin, die Serveranzahl und andere Hardwareanforderungen (beispielsweise Hardwarelastenausgleichs für den Director) zu verringern, ohne die Features und Funktionen zu beeinträchtigen. Da die Front-End-Server dieselbe Aufgabe wie der Director ausführen können, ohne dass dies Auswirkungen auf die bereitgestellten Dienste hat, können Sie Directors bereitstellen, wenn Sie sich dafür entscheiden. Sie können den Director sicher ausschließen, dass der Front-End-Server die gleichen Dienste anstelle eines Directors bereitstellt.
+Die Rolle des Director-Servers in der lync Server 2013-Topologie wurde nicht geändert. Er hostet weiterhin Webdienste, authentifiziert vorab eingehende Benutzeranfragen und leitet externe Benutzer zu deren Home-Pool. Wenn Sie den Director von einer empfohlenen Rolle in eine optionale Rolle ändern, beabsichtigt Microsoft nicht, den Wert des Directors zu verringern. Das Ziel besteht darin, die Anzahl von Servern und andere Hardwareanforderungen zu reduzieren (beispielsweise Hardwarelastenausgleich für den Director), ohne dass Features und Funktionen beeinträchtigt werden. Da die Front-End-Server dieselbe Aufgabe wie der Director ausführen können und keine Auswirkungen auf die bereitgestellten Dienste haben, können Sie Directors bereitstellen, wenn Sie sich für entscheiden. Sie können den Director sicher mit Sicherheit ausschließen, dass die Front-End-Server dieselben Dienste anstelle eines Directors bereitstellen.
 
 </div>
 

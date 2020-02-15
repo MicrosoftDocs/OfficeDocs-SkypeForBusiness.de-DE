@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Sicherstellen, dass Wählplänen Regionen zugewiesen wurden'
+title: 'Lync Server 2013: sicherstellen, dass den Wählplänen Regionen zugewiesen wurden'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd8790671157b823464a3b4b594ea8428a888f46
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f25ca766ab7292aeeba0d2e621eccff5a0c47fb8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739605"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037565"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="make-sure-dial-plans-lync-server-2013-have-assigned-regions"></a>Sicherstellen, dass die Wähleinstellungen lync Server 2013 Regionen zugewiesen haben
+# <a name="make-sure-dial-plans-lync-server-2013-have-assigned-regions"></a>Sicherstellen, dass den Wählplänen lync Server 2013 zugewiesene Regionen zugewiesen sind
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41739605"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2010-11-02_
+_**Letztes Änderungsstand des Themas:** 2010-11-02_
 
-Für Wählpläne, die für Einwahlkonferenzen verwendet werden, muss ein **Bereich für Einwahlkonferenzen** angegeben werden, um Zugriffsnummern für Einwahlkonferenzen mit den entsprechenden Wähleinstellungen zu verknüpfen. Wenn Sie einen Satz mit Wähleinstellungen einrichten, geben Sie die Region für Einwahlkonferenzen an, die für diese Wähleinstellungen gilt. Wenn Sie die Einwahl Zugriffsnummer erstellen, wählen Sie dann die Regionen aus, die die Zugriffsnummer den entsprechenden Wählplänen zuordnen.
+Wähleinstellungen, die für Einwahlkonferenzen verwendet werden, müssen eine **Region für Einwahlkonferenzen** enthalten, um Zugriffsnummern für Einwahlkonferenzen den entsprechenden Wähleinstellungen zuzuordnen. Wenn Sie einen Satz mit Wähleinstellungen einrichten, geben Sie die Region für Einwahlkonferenzen an, die für diese Wähleinstellungen gilt. Wenn Sie anschließend die Zugriffsnummern für Einwahlkonferenzen erstellen, wählen Sie die Regionen aus, welche die Zugriffsnummern den geeigneten Wähleinstellungen zuordnen.
 
-Da es wichtig ist, einen Bereich für alle Wählpläne anzugeben, empfehlen wir, dass Sie diese Vorgehensweise verwenden, um zu überprüfen, ob alle Wählpläne Regionen aufweisen. Dieser Schritt ist optional.
+Da es wichtig ist, eine Region für alle Wähleinstellungen anzugeben, wird empfohlen, mit diesem Verfahren das Vorhandensein von Regionen für alle Wähleinstellungen zu überprüfen. Dieser Schritt ist optional.
 
-Verwenden Sie das Cmdlet **Get-CsDialPlan** , um zu überprüfen, ob der Bereich für alle Wählpläne für Einwahlkonferenzen festgesetzt ist. Wenn die Region in bestimmten Wählplänen nicht vorhanden ist, können Sie die Region über das Cmdlet **Set-CsDialPlan** festlegen. Sie können auch die lync Server-Systemsteuerung verwenden, um den Bereich in vorhandenen Wählplänen zu aktualisieren. Ausführliche Informationen zur Verwendung der lync Server-Systemsteuerung finden Sie unter [Ändern von Wähleinstellungen in lync Server 2013](lync-server-2013-modify-a-dial-plan.md).
+Verwenden Sie das Cmdlet **Get-CsDialPlan** um zu überprüfen, ob für alle Wähleinstellungen eine Region festgelegt wurde. Wenn die Region in einem Satz mit Wähleinstellungen fehlt, können Sie die Region mit dem Cmdlet **Set-CsDialPlan** festlegen. Sie können auch lync Server-Systemsteuerung verwenden, um die Region in vorhandenen Wählplänen zu aktualisieren. Ausführliche Informationen zur Verwendung von lync Server-Systemsteuerung finden Sie unter [Modify a Dial Plan in lync Server 2013](lync-server-2013-modify-a-dial-plan.md).
 
 <div>
 
 ## <a name="to-verify-whether-dial-plans-have-the-region-property-set"></a>So überprüfen Sie, ob für Wähleinstellungen die Region festgelegt wurde
 
-1.  Melden Sie sich beim Computer als Mitglied der Gruppe „RTCUniversalServerAdmins“ oder als Benutzer mit der Rolle **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** oder **CsAdministrator** an.
+1.  Melden Sie sich beim Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** oder **CsAdministrator** an.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 3.  Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
@@ -61,7 +61,7 @@ Verwenden Sie das Cmdlet **Get-CsDialPlan** , um zu überprüfen, ob der Bereich
     
     In diesem Beispiel werden alle für Ihre Organisation konfigurierten Wähleinstellungen zurückgegeben.
 
-4.  Überprüfen Sie die zurückgegebenen Wähleinstellungen, um fehlende Regionen für Einwahlkonferenzen zu ermitteln. Ausführliche Informationen finden Sie in der Dokumentation zur lync Server-Verwaltungsshell.
+4.  Überprüfen Sie die zurückgegebenen Wähleinstellungen, um fehlende Regionen für Einwahlkonferenzen zu ermitteln. Ausführliche Informationen finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 </div>
 
@@ -69,9 +69,9 @@ Verwenden Sie das Cmdlet **Get-CsDialPlan** , um zu überprüfen, ob der Bereich
 
 ## <a name="to-set-the-region-property-for-a-dial-plan"></a>So legen Sie die Region für einen Satz mit Wähleinstellungen fest
 
-1.  Melden Sie sich beim Computer als Mitglied der Gruppe „RTCUniversalServerAdmins“ oder als Benutzer mit der Rolle **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** oder **CsAdministrator** an.
+1.  Melden Sie sich beim Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** oder **CsAdministrator** an.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 3.  Führen Sie für alle Wähleinstellungen, in denen die Region für Einwahlkonferenzen fehlt, den folgenden Befehl aus:
     
@@ -81,7 +81,7 @@ Verwenden Sie das Cmdlet **Get-CsDialPlan** , um zu überprüfen, ob der Bereich
     
         Set-CsDialPlan -Identity Redmond -DialinConferencingRegion "US West Coast"
     
-    In diesem Beispiel wird die Eigenschaft "DialinConferencingRegion" in den Wähleinstellungen mit der Identität "Redmond" in den Wert "US West Coast" geändert. Ausführliche Informationen finden Sie in der Dokumentation zur lync Server-Verwaltungsshell.
+    In diesem Beispiel wird die Eigenschaft "DialinConferencingRegion" in den Wähleinstellungen mit der Identität "Redmond" in den Wert "US West Coast" geändert. Ausführliche Informationen finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 </div>
 

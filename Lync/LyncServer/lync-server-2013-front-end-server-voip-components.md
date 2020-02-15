@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: VoIP-Komponenten des Front-End-Servers'
+title: 'Lync Server 2013: Front-End-Server VoIP-Komponenten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bab5751fc0291047f3795731f379d1e14f5f12b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2439099b6dd6da8ef03c7f811848ee590caaf20a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739735"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038017"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="front-end-server-voip-components-for-lync-server-2013"></a>Front-End-Server-VoIP-Komponenten für lync Server 2013
+# <a name="front-end-server-voip-components-for-lync-server-2013"></a>Front-End-Server von VoIP-Komponenten für lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41739735"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
-Die VoIP-Komponenten, die sich auf Front-End-Servern befinden, sind wie folgt:
+Die VoIP-Komponenten auf Front-End-Servern befinden sich wie folgt:
 
   - Übersetzungsdienst
 
@@ -63,7 +63,7 @@ Der Übersetzungsdienst ist die Serverkomponente, die eine gewählte Nummer gem�
 
 ## <a name="inbound-routing-component"></a>Eingangsroutingkomponente
 
-Die eingehende Routing Komponente verarbeitet eingehende Anrufe weitgehend gemäß den Einstellungen, die von Benutzern auf Ihren Enterprise-VoIP-Clients angegeben werden. Diese Komponente unterstützt außerdem das Delegieren von Anrufen und das gleichzeitige Klingeln, sofern dies vom Benutzer konfiguriert ist. Beispielsweise geben Benutzer an, ob unbeantwortete Anrufe weitergeleitet oder lediglich zur Benachrichtigung protokolliert werden sollen. Wenn die Anrufweiterleitung aktiviert ist, können Benutzer angeben, ob nicht angenommene Anrufe an eine andere Nummer oder an einen Exchange um-Server weitergeleitet werden sollen, der für die Anrufannahme konfiguriert wurde. Die eingehende Routing Komponente wird standardmäßig auf allen Standard Edition-Server-und-Front-End-Servern installiert.
+Die eingehende Routingkomponente verarbeitet eingehende Anrufe im Wesentlichen gemäß den Einstellungen, die von Benutzern auf den Enterprise-VoIP-Clients festgelegt sind. Diese Komponente unterstützt außerdem das Delegieren von Anrufen und das gleichzeitige Klingeln, sofern vom Benutzer konfiguriert. Beispielsweise geben Benutzer an, ob unbeantwortete Anrufe weitergeleitet oder lediglich zur Benachrichtigung protokolliert werden sollen. Wenn die Anrufweiterleitung aktiviert ist, können Benutzer angeben, ob nicht beantwortete Anrufe an eine andere Nummer oder an einen Exchange um Server weitergeleitet werden sollen, der für die Mailboxansage konfiguriert wurde. Die eingehende Routing Komponente wird standardmäßig auf allen Standard Edition-Server-und Front-End-Servern installiert.
 
 </div>
 
@@ -71,7 +71,7 @@ Die eingehende Routing Komponente verarbeitet eingehende Anrufe weitgehend gemä
 
 ## <a name="outbound-routing-component"></a>Ausgangsroutingkomponente
 
-Die Ausgangsroutingkomponente leitet Anrufe an Ziele in Nebenstellenanlagen oder im Telefonfestnetz weiter. Sie wendet (gemäß Definition in der VoIP-Richtlinie für den Benutzer) Anrufautorisierungsregeln auf Anrufer an und ermittelt das optimale PSTN-Gateway für das Routing der einzelnen Anrufe. Die ausgehende Routing Komponente wird standardmäßig auf allen Standard Edition-Server-und-Front-End-Servern installiert.
+Die Ausgangsroutingkomponente leitet Anrufe an Ziele in Nebenstellenanlagen oder im Telefonfestnetz weiter. Sie wendet (gemäß Definition in der VoIP-Richtlinie für den Benutzer) Anrufautorisierungsregeln auf Anrufer an und ermittelt das optimale PSTN-Gateway für das Routing der einzelnen Anrufe. Die ausgehende Routing Komponente wird standardmäßig auf allen Standard Edition-Server-und Front-End-Servern installiert.
 
 Die Ausgangsroutingkomponente verwendet eine Routinglogik, die größtenteils von Netzwerk- oder Telefonieadministratoren gemäß den Anforderungen ihrer Organisationen konfiguriert wird.
 
@@ -79,21 +79,21 @@ Die Ausgangsroutingkomponente verwendet eine Routinglogik, die größtenteils vo
 
 <div>
 
-## <a name="exchange-um-routing-component"></a>Routingkomponente für Exchange UM
+## <a name="exchange-um-routing-component"></a>Routingkomponente für Exchange UM
 
-Die Exchange um-Routingkomponente verarbeitet das Routing zwischen lync Server und Servern, auf denen Exchange Unified Messaging (um) ausgeführt wird, um lync Server mit Unified Messaging-Features zu integrieren.
+Die Exchange um Routingkomponente verarbeitet das Routing zwischen lync Server und Servern mit Exchange Unified Messaging (um), um lync Server mit Unified Messaging-Funktionen zu integrieren.
 
-Die Exchange um-Routingkomponente behandelt auch das Umleiten von Voicemail über das PSTN, wenn Exchange um-Server nicht verfügbar sind. Wenn Sie über Enterprise-VoIP-Benutzer an Zweigstellen verfügen, die nicht über eine stabile WAN-Verbindung zu einem zentralen Standort verfügen, bietet die Survivable Branch-Appliance, die Sie auf der Zweigstelle bereitstellen, die Voicemail-Überlebensfähigkeit von Zweig Benutzern während eines WAN-Ausfalls. Wenn die WAN-Verbindung nicht verfügbar ist, führt die Survivable Branch-Appliance die folgenden Aktionen aus:
+Die Exchange um Routingkomponente behandelt auch das erneute Routing von Voicemail über das PSTN, wenn Exchange um Server nicht verfügbar sind. Wenn Sie über Enterprise-VoIP-Benutzer an Zweigstellenstandorten verfügen, die nicht über eine ausfallsichere WAN-Verbindung mit einem zentralen Standort verfügen, bietet die Survivable Branch Appliance, die Sie am Zweigstellenstandort bereitstellen, für Zweig Benutzer während eines WAN-Ausfalls eine Survivable-Fähigkeit für Voicemail. Wenn die WAN-Verbindung nicht verfügbar ist, führt die Survivable Branch Appliance folgende Aufgaben aus:
 
   - Nicht beantwortete Anrufe werden über das Telefonfestnetz an den Exchange Unified Messaging-Server am zentralen Standort weitergeleitet
 
   - Benutzer haben die Möglichkeit, Voicemailnachrichten über das Telefonfestnetz abzurufen
 
-  - Benachrichtigungen zu verpassten Anrufen werden in einer Warteschlange platziert und auf den Exchange UM-Server hochgeladen, wenn die WAN-Verbindung wieder verfügbar ist.
+  - Benachrichtigungen zu verpassten Anrufen werden in einer Warteschlange platziert und auf den Exchange UM-Server hochgeladen, wenn die WAN-Verbindung wieder verfügbar ist
 
-Zum Aktivieren des Umleitens von Voicemail empfehlen wir, dass Ihr Exchange-Administrator die automatische Exchange UM-Telefonzentrale (AA) so konfiguriert, dass nur Nachrichten akzeptiert werden.
+Zum Aktivieren der Voicemail-Umleitung empfehlen wir, dass Ihr Exchange-Administrator Exchange um automatische Telefonzentrale (AA) so konfiguriert, dass nur Nachrichten akzeptiert werden.
 
-Details zu diesen Features finden Sie unter [Planen der Exchange Unified Messaging-Integration in lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) und [Planen der Stabilität von Enterprise-VoIP in lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md).
+Ausführliche Informationen zu diesen Features finden Sie unter [Planning for Exchange Unified Messaging Integration in lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) and [Planning for Enterprise Voice Resilienz in lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md).
 
 </div>
 
@@ -101,7 +101,7 @@ Details zu diesen Features finden Sie unter [Planen der Exchange Unified Messagi
 
 ## <a name="intercluster-routing-component"></a>Komponente für das clusterübergreifende Routing
 
-Diese Komponente sorgt für das Routing von Anrufen beim primären Registrierungsstellenpool des Anrufempfängers. Wenn dieser Pool nicht verfügbar ist, leitet die Komponente den Anruf an den Backup-Registrierungsstellenpool des Anrufempfängers weiter. Wenn keiner der beiden Pools über das IP-Netzwerk erreicht werden kann, leitet die Komponente für das clusterübergreifende Routing den Anruf über das Telefonfestnetz an die Rufnummer des Benutzers um.
+Diese Komponente sorgt für das Routing von Anrufen beim primären Registrierungspool des Anrufempfängers. Wenn dieser Pool nicht verfügbar ist, leitet die Komponente den Anruf an den Sicherungsregistrierungspool des Anrufempfängers weiter. Wenn keiner der beiden Pools über das IP-Netzwerk erreicht werden kann, leitet die Komponente für das clusterübergreifende Routing den Anruf über das Telefonfestnetz an die Rufnummer des Benutzers um.
 
 </div>
 
@@ -109,13 +109,13 @@ Diese Komponente sorgt für das Routing von Anrufen beim primären Registrierung
 
 ## <a name="other-front-end-server-components-required-for-voip"></a>Andere für VoIP erforderliche Front-End-Serverkomponenten
 
-Andere Komponenten, die sich auf dem Front-End-Server oder Director befinden und die grundlegende Unterstützung für VoIP bieten, aber nicht selbst VoIP-Komponenten sind, umfassen Folgendes:
+Andere Komponenten im Front-End-Server oder Director, die grundlegende Unterstützung für VoIP bieten, aber selbst keine VoIP-Komponenten sind, umfassen Folgendes:
 
-  - **Benutzerdienste.** Die Benutzerdienste führen eine umgekehrte Nummernsuche für die Zielrufnummer jedes eingehenden Anrufs durch und ordnen diese Nummer dem SIP-URI des Zielbenutzers zu. Mithilfe dieser Informationen verteilt die Eingangsroutingkomponente den Anruf an die registrierten SIP-Endpunkte dieses Benutzers. Benutzer Dienste ist eine Hauptkomponente auf allen Front-End-Servern und-Directors.
+  - **Benutzerdienste.** Die Benutzerdienste führen eine umgekehrte Nummernsuche für die Zielrufnummer jedes eingehenden Anrufs durch und ordnen diese Nummer dem SIP-URI des Zielbenutzers zu. Mithilfe dieser Informationen verteilt die Eingangsroutingkomponente den Anruf an die registrierten SIP-Endpunkte dieses Benutzers. User Services ist eine Hauptkomponente auf allen Front-End-Servern und Directors.
 
-  - **Benutzerreplikationsdienst** Extrahiert Benutzer Telefonnummern aus Active Directory-Domänendiensten und schreibt Sie in Tabellen in der RTC-Datenbank, wo Sie für Benutzer Dienste und den Adressbuch Server verfügbar sind. Der Benutzerreplikationsdienst ist eine Hauptkomponente auf allen Front-End-Servern.
+  - **Benutzerreplikationsdienst.** Extrahiert Benutzer Telefonnummern aus Active Directory-Domänendienste und schreibt Sie in Tabellen in der RTC-Datenbank, wo Sie für Benutzer Dienste und Adressbuch Server verfügbar sind. Der Benutzerreplikationsdienst ist eine Hauptkomponente auf allen Front-End-Servern.
 
-  - **Adressbuchserver.** Enthält Informationen zur globalen Adressliste aus Active Directory-Domänendiensten für lync Server-Clients. Sie ruft auch Benutzer-und Kontaktinformationen aus der RTC-Datenbank ab, schreibt die Informationen in die Adressbuchdateien und speichert die Dateien dann in einem freigegebenen Ordner, in dem Sie von lync-Clients heruntergeladen werden. Der Adressbuch Server schreibt die Informationen in die RTCAb-Datenbank, die vom Adressbuch-Webabfrage Dienst verwendet wird, um auf Benutzer Suchabfragen von Microsoft lync 2010 Mobile zu reagieren. Optional werden Unternehmensbenutzer-Telefonnummern, die in die RTC-Datenbank geschrieben wurden, zum Zweck der Bereitstellung von Benutzerkontakten in lync normalisiert. Der Adressbuchdienst wird standardmäßig auf allen Front-End-Servern installiert. Der Adressbuch-Webabfrage Dienst wird standardmäßig mit den Webdiensten auf den einzelnen Front-End-Servern installiert.
+  - **Adressbuchserver.** Enthält Informationen zur globalen Adressliste von Active Directory-Domänendienste an lync Server Clients. Außerdem ruft er Benutzer-und Kontaktinformationen aus der RTC-Datenbank ab, schreibt die Informationen in die Adressbuchdateien und speichert die Dateien dann in einem freigegebenen Ordner, in dem Sie von lync-Clients heruntergeladen werden. Der Adressbuch Server schreibt die Informationen in die RTCAb-Datenbank, die vom Adressbuch-Webabfragedienst verwendet wird, um auf Benutzer Suchabfragen von Microsoft lync 2010 Mobile zu reagieren. Optional werden die Telefonnummern von Unternehmensbenutzern, die in die RTC-Datenbank geschrieben wurden, zum Zweck der Bereitstellung von Benutzerkontakten in lync normalisiert. Der Adressbuchdienst wird standardmäßig auf allen Front-End-Servern installiert. Das Adressbuch-Webabfragedienst wird standardmäßig mit den Webdiensten auf jedem Front-End-Server installiert.
 
 </div>
 

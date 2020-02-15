@@ -12,16 +12,16 @@ ms:contentKeyID: 48183365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e10b8e85f6db445acb21beb6e272e2147e89b474
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73c8c13c4333ea8458d5e8365de03dcace2bcd64
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754345"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037007"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41754345"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-02-10_
+_**Letztes Änderungsstand des Themas:** 2014-02-10_
 
-Die Themen in diesem Abschnitt erläutern die Planungsüberlegungen für die Bereitstellung von Microsoft lync Server 2013-Clients. Unabhängig davon, ob Sie eine neue lync Server 2013-Installation bereitstellen oder von einer vorherigen Bereitstellung migrieren, finden Sie in diesen Themen wichtige Informationen zur Clientplanung.
+In den Themen in diesem Abschnitt werden Planungsüberlegungen für die Bereitstellung Microsoft lync Server 2013 Clients erläutert. Unabhängig davon, ob Sie eine neue lync Server 2013-Installation oder eine Migration von einer vorherigen Bereitstellung bereitstellen, finden Sie in diesen Themen wichtige Informationen zur Clientplanung.
 
 <div>
 
@@ -45,15 +45,15 @@ Die Themen in diesem Abschnitt erläutern die Planungsüberlegungen für die Ber
 
   - [Clients für Lync Server 2013](lync-server-2013-clients.md)
 
-  - [Clientvergleichstabellen für Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md)
+  - [Client Vergleichstabellen für lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md)
 
   - [Client Systemanforderungen für lync Server 2013](lync-server-2013-client-system-requirements.md)
 
   - [Client Richtlinien und-Einstellungen in lync Server 2013](lync-server-2013-client-policies-and-settings.md)
 
-  - [Lync 2013-Kompatibilität](lync-server-2013-lync-2013-compatibility.md)
+  - [Lync 2013 Kompatibilität](lync-server-2013-lync-2013-compatibility.md)
 
-  - [Clientinteroperabilität in Lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md)
+  - [Client Interoperabilität in lync 2013](lync-server-2013-client-interoperability-in-lync-2013.md)
 
   - [Migrationsüberlegungen für Besprechungen in lync Server 2013](lync-server-2013-migration-considerations-for-meetings.md)
 

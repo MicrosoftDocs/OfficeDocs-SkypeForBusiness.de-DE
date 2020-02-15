@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anfordern von Zertifikaten für Edgekomponenten'
+title: 'Lync Server 2013: Anfordern von Zertifikaten für Edge-Komponenten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 096603b48e6a3636a397c4abf7c19c2b4237f132
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 10e7a724edd6e68602e4655a783f953ad1e2bc2c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763317"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046918"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="request-certificates-for-edge-components-in-lync-server-2013"></a>Anfordern von Zertifikaten für Edgekomponenten in Lync Server 2013
+# <a name="request-certificates-for-edge-components-in-lync-server-2013"></a>Anfordern von Zertifikaten für Edge-Komponenten in lync Server 2013
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41763317"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-11-07_
+_**Letztes Änderungsstand des Themas:** 2013-11-07_
 
-Die für die Unterstützung des Zugriffs durch externe Benutzer erforderlichen Zertifikate umfassen Zertifikate, die von einer öffentlichen Zertifizierungsstelle ausgestellt wurden, sowie Zertifikate, die von einer internen Unternehmenszertifizierungsstelle ausgestellt wurden:
+Die erforderlichen Zertifikate für die Unterstützung des Zugriffs durch externe Benutzer umfassen Zertifikate, die von einer öffentlichen Zertifizierungsstelle ausgestellt wurden, sowie Zertifikate, die von einer internen Unternehmenszertifizierungsstelle ausgestellt wurden:
 
-  - Zertifikate, die für die externe Schnittstelle des Edge-Servers und des Reverse-Proxys erforderlich sind, müssen von einer öffentlichen Zertifizierungsstelle ausgestellt werden.
+  - Zertifikate, die für die externe Schnittstelle von Edgeserver und des Reverseproxys erforderlich sind, müssen von einer öffentlichen Zertifizierungsstelle ausgestellt werden.
 
-  - Für die interne Schnittstelle erforderliche Zertifikate können entweder von einer öffentlichen Zertifizierungsstelle oder einer internen Unternehmenszertifizierungsstelle ausgestellt werden. Es wird empfohlen, eine interne Windows Server 2008-Zertifizierungsstelle, Windows Server 2008 R2 ca, Windows Server 2012 ca oder Windows Server 2012 R2 ca zum Erstellen dieser Zertifikate zu verwenden, um die Kosten für die Verwendung öffentlicher Zertifikate zu sparen.
+  - Die für die interne Schnittstelle benötigten Zertifikate können entweder von einer öffentlichen oder von einer internen Unternehmenszertifizierungsstelle ausgestellt werden. Es wird empfohlen, eine interne Windows Server 2008 Zertifizierungsstelle, Windows Server 2008 R2 Zertifizierungsstelle, Windows Server 2012 Zertifizierungsstelle oder Windows Server 2012 R2-Zertifizierungsstelle zum Erstellen dieser Zertifikate zu verwenden, um die Kosten der Verwendung öffentlicher Zertifikate zu sparen.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Es kann einige Zeit dauern, bis Zertifikatanforderungen, insbesondere Anforderungen an öffentliche Zertifizierungsstellen, verarbeitet werden, daher sollten Sie Zertifikate für Ihre Edgeserver früh genug anfordern, um sicherzustellen, dass Sie verfügbar sind, wenn Sie die Bereitstellung Ihrer Edgeserver-Komponenten starten. Eine Zusammenfassung der Zertifikatanforderungen für Edgeserver finden Sie unter <A href="lync-server-2013-certificate-requirements-for-external-user-access.md">Zertifikatanforderungen für den Zugriff durch externe Benutzer in lync Server 2013</A>.
+> Da die Verarbeitung von Zertifikatanforderungen (insbesondere bei Anforderungen an öffentliche Zertifizierungsstellen) mit einem gewissen Zeitaufwand verbunden sein kann, sollten Sie die Zertifikate für Ihre Edgeserver frühzeitig anfordern, um ihre Verfügbarkeit sicherzustellen, wenn Sie mit der Bereitstellung Ihrer Edgeserverkomponenten beginnen. Eine Zusammenfassung der Zertifikatanforderungen für Edgeserver finden Sie unter <A href="lync-server-2013-certificate-requirements-for-external-user-access.md">Certificate Requirements for external User Access in lync Server 2013</A>.
 
 
 
 </div>
 
-Obwohl Sie eine öffentliche Zertifizierungsstelle für das interne Edge-Zertifikat verwenden können, empfiehlt es sich, stattdessen eine interne Unternehmenszertifizierungsstelle für diese anderen Zertifikate zu verwenden, um die Kosten für Zertifikate zu minimieren. Eine Zusammenfassung der Zertifikatanforderungen für Edgeserver finden Sie unter [Zertifikatanforderungen für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
+Wenngleich Sie eine öffentliche Zertifizierungsstelle für das interne Edgezertifikat verwenden können, wird die Verwendung einer internen Unternehmenszertifizierungsstelle für diese anderen Zertifikate empfohlen, um die Kosten für Zertifikate zu minimieren. Eine Zusammenfassung der Zertifikatanforderungen für Edgeserver finden Sie unter [Certificate Requirements for external User Access in lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
 <div>
 
 
 > [!NOTE]  
-> Wenn Sie einen Edgeserver installieren, enthält Setup einen Zertifikat-Assistenten, der die Aufgaben zum anfordern, zuweisen und Installieren von Zertifikaten vereinfacht, wie im Abschnitt <A href="lync-server-2013-set-up-edge-certificates.md">Einrichten von Edge-Zertifikaten für lync Server 2013</A> beschrieben. Wenn Sie vor der Installation eines Edge-Servers Zertifikate anfordern möchten (beispielsweise um Zeit während der eigentlichen Bereitstellung von Edge-Server-Komponenten zu sparen), können Sie dies mit internen Servern tun, sofern Sie sicherstellen, dass die Zertifikate exportierbar sind und alle Erforderlicher Betreff-alternativer Name In dieser Dokumentation werden keine Verfahren für die Verwendung interner Server zum Anfordern von Zertifikaten bereitgestellt.
+> Wenn Sie ein Edgeserver installieren, enthält das Setup einen Zertifikat-Assistenten, der die Aufgaben zum anfordern, zuweisen und Installieren von Zertifikaten erleichtert, wie im Abschnitt <A href="lync-server-2013-set-up-edge-certificates.md">Einrichten von Edge-Zertifikaten für lync Server 2013</A> beschrieben. Wenn Sie vor der Installation eines Edgeserver Zertifikate anfordern möchten (beispielsweise um Zeit bei der tatsächlichen Bereitstellung von Edgeserver Komponenten zu sparen), können Sie dies mithilfe von internen Servern tun, solange Sie sicherstellen, dass die Zertifikate exportierbar sind und alle erforderliche alternative Antragstellernamen. In dieser Dokumentation werden keine Verfahren für die Verwendung interner Server zum Anfordern von Zertifikaten bereitgestellt.
 
 
 
@@ -69,7 +69,7 @@ Obwohl Sie eine öffentliche Zertifizierungsstelle für das interne Edge-Zertifi
 
 ## <a name="request-certificates-from-a-public-ca"></a>Anfordern von Zertifikaten von einer öffentlichen Zertifizierungsstelle
 
-Für die Bereitstellung von Edge-Servern ist ein einzelnes öffentliches Zertifikat für die externen Schnittstellen von Edgeserver erforderlich, das für den Access Edge-Dienst, den Webkonferenz-Edgedienst und für einen/V-Authentifizierungsdienst verwendet wird. Dieses Zertifikat muss über einen exportierbaren privaten Schlüssel verfügen, um sicherzustellen, dass der A/V-Authentifizierungsdienst die gleichen Schlüssel auf allen Edge-Servern in einem Pool verwendet. Der Reverse-Proxy, der mit Microsoft Internet Security and Acceleration (ISA) Server 2006 oder Microsoft Forefront Threat Management Gateway 2010 verwendet wird, erfordert ebenfalls ein öffentliches Zertifikat.
+Für die Edgeserver-Bereitstellung ist ein einzelnes öffentliches Zertifikat für die externen Schnittstellen von Edgeserver erforderlich, das für die Zugriffs-Edgedienst, die Webkonferenz-Edgedienst und für den a/V-Authentifizierungsdienst verwendet wird. Dieses Zertifikat muss über einen exportierbaren privaten Schlüssel verfügen, um sicherzustellen, dass der A/V-Authentifizierungsdienst dieselben Schlüssel auf allen Edgeserver in einem Pool verwendet. Für den Reverseproxy, der mit ISA (Microsoft Internet Security and Acceleration Server) 2006 oder Microsoft Forefront Threat Management Gateway 2010 verwendet wird, ist ebenfalls ein öffentliches Zertifikat erforderlich.
 
 </div>
 
@@ -77,9 +77,9 @@ Für die Bereitstellung von Edge-Servern ist ein einzelnes öffentliches Zertifi
 
 ## <a name="request-certificates-from-an-internal-enterprise-ca"></a>Anfordern von Zertifikaten von einer internen Unternehmenszertifizierungsstelle
 
-Die für die interne Edge-Schnittstelle erforderlichen Zertifikate können entweder von einer öffentlichen Zertifizierungsstelle (Certification Authority, ca) oder einer internen Zertifizierungsstelle ausgestellt werden. Sie können eine interne Unternehmenszertifizierungsstelle verwenden, um die Kosten für Zertifikate zu minimieren. Wenn in Ihrer Organisation eine interne Zertifizierungsstelle bereitgestellt wurde, sollten die Zertifikate für den internen Edge von der internen Zertifizierungsstelle ausgestellt werden. Durch die Verwendung einer internen Unternehmenszertifizierungsstelle für interne Zertifikate können die Kosten für Zertifikate reduziert werden.
+Die für die interne Edgeschnittstelle benötigten Zertifikate können entweder von einer öffentlichen oder von einer internen Zertifizierungsstelle ausgestellt werden. Mithilfe einer internen Unternehmenszertifizierungsstelle können Sie die Kosten für Zertifikate minimieren. Wenn in Ihrer Organisation eine interne Zertifizierungsstelle bereitgestellt wurde, sollten die Zertifikate für die interne Edgeschnittstelle durch die interne Zertifizierungsstelle ausgegeben werden. Das Verwenden einer internen Unternehmenszertifizierungsstelle für interne Zertifikate kann zu einer erheblichen Senkung der Kosten für Zertifikate beitragen.
 
-Eine Zusammenfassung der Zertifikatanforderungen für Edge-Komponenten finden Sie unter [Zertifikatanforderungen für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md). Informationen zum Verwenden einer öffentlichen Zertifizierungsstelle zum Abrufen von Zertifikaten finden Sie unter [anfordern von Zertifikaten für Edge-Komponenten in lync Server 2013](lync-server-2013-request-certificates-for-edge-components.md). Details zum anfordern, installieren und Zuweisen von Zertifikaten finden Sie unter [Einrichten von Edge-Zertifikaten für lync Server 2013](lync-server-2013-set-up-edge-certificates.md).
+Eine Zusammenfassung der Zertifikatanforderungen für Edge-Komponenten finden Sie unter [Certificate Requirements for external User Access in lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md). Ausführliche Informationen zur Verwendung einer öffentlichen Zertifizierungsstelle zum Abrufen von Zertifikaten finden Sie unter [anfordern von Zertifikaten für Edge-Komponenten in lync Server 2013](lync-server-2013-request-certificates-for-edge-components.md). Ausführliche Informationen zum anfordern, installieren und Zuweisen von Zertifikaten finden Sie unter [Einrichten von Edge-Zertifikaten für lync Server 2013](lync-server-2013-set-up-edge-certificates.md).
 
 </div>
 

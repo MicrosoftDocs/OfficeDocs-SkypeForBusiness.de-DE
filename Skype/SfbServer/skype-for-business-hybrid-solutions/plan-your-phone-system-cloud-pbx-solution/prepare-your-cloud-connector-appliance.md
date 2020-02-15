@@ -15,46 +15,46 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
-description: Erfahren Sie, wie Sie Ihre Cloud Connector-Appliance für die Bereitstellung und Verwendung mit dem Telefon System in Office 365 (Cloud PBX) vorbereiten.
-ms.openlocfilehash: 6e6cb71353dc2a2339fe92ce45d0cd3dee9f21a1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Erfahren Sie, wie Sie Ihre Cloud Connector-Appliance für die Bereitstellung und die Verwendung mit dem Telefon System in Office 365 (Cloud PBX) vorbereiten.
+ms.openlocfilehash: 6dbbc7eb1639859f889d6674e9f000507912d35a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814433"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983840"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Vorbereiten der Cloud Connector-Appliance
 
-Erfahren Sie, wie Sie Ihre Cloud Connector-Appliance für die Bereitstellung und Verwendung mit dem Telefon System in Office 365 (Cloud PBX) vorbereiten.
+Erfahren Sie, wie Sie Ihre Cloud Connector-Appliance für die Bereitstellung und die Verwendung mit dem Telefon System in Office 365 (Cloud PBX) vorbereiten.
 
-In diesem Abschnitt wird beschrieben, wie Sie die Installationsdateien für Skype for Business Cloud Connector Edition abrufen, Cloud Connector-Software installieren und Ihre Cloud Connector-Appliance auf die Bereitstellung vorbereiten. Wenn Sie alle Schritte in diesem Abschnitt abgeschlossen haben, sind Sie bereit, Cloud Connector für einen einzelnen Standort oder für mehrere Standorte bereitzustellen. Wenn Sie über eine vorhandene Cloud Connector-Bereitstellung verfügen und noch nicht auf Cloud Connector, Version 2,1, aktualisiert haben, lesen Sie [Upgrade auf eine neue Version von Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md).
-
-> [!NOTE]
-> Microsoft unterstützt die aktuelle Version von Cloud Connector Edition, Version 2,1. Wenn Sie automatische Updates konfiguriert haben, wird Cloud Connector automatisch aktualisiert. Wenn Sie die manuelle Aktualisierung konfiguriert haben, müssen Sie innerhalb von 60 Tagen nach der Veröffentlichung auf Version 2,1 aktualisieren. Microsoft unterstützt die vorherige Version 60 Tage nach der Veröffentlichung von 2,1, um Ihnen Zeit für ein Upgrade zu bieten. 
+In diesem Abschnitt wird beschrieben, wie Sie die Skype for Business Cloud Connector Edition-Installationsdateien abrufen, die Cloud Connector-Software installieren und Ihre Cloud Connector-Appliance für die Bereitstellung vorbereiten. Nachdem Sie alle Schritte in diesem Abschnitt abgeschlossen haben, sind Sie bereit, Cloud Connector für eine einzelne Website oder mehrere Standorte bereitzustellen. Wenn Sie über eine vorhandene Cloud Connector-Bereitstellung verfügen und noch nicht auf Cloud Connector, Version 2,1, aktualisiert haben, lesen Sie [Upgrade auf eine neue Version von Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md).
 
 > [!NOTE]
-> Für Cloud Connector Version 2,1 und höher muss die Host-Appliance .NET Framework 4.6.1 oder höher installiert haben. 
+> Microsoft unterstützt die aktuelle Version von Cloud Connector Edition, Version 2,1. Wenn Sie die automatische Aktualisierung konfiguriert haben, wird Cloud Connector automatisch aktualisiert. Wenn Sie die manuelle Aktualisierung konfiguriert haben, müssen Sie innerhalb von 60 Tagen nach der Veröffentlichung auf Version 2,1 aktualisieren. Microsoft unterstützt die vorherige Version 60 Tage nach der Veröffentlichung von 2,1, damit Sie Zeit zum Upgrade erhalten. 
+
+> [!NOTE]
+> Für Cloud Connector, Version 2,1 und höher, muss die Host-Appliance .NET Framework 4.6.1 oder höher installiert haben. 
 
 > [!IMPORTANT]
-> Für eine erfolgreiche Bereitstellung verwenden Sie beim Ausführen der Cmdlets zum Konfigurieren von Skype for Business Cloud Connector Edition immer dieselbe Konsolensitzung wie die, in der Sie begonnen haben. Vermeiden Sie es während der Bereitstellung und Konfiguration, zwischen verschiedenen Sitzungen zu wechseln. 
+> Verwenden Sie für eine erfolgreiche Bereitstellung beim Ausführen der Cmdlets zum Konfigurieren Skype for Business Cloud Connector Edition immer dieselbe Konsolensitzung wie die, die Sie in gestartet haben. Vermeiden Sie während der Bereitstellung und Konfiguration das Wechseln zu anderen Sitzungen. 
 
 > [!NOTE]
-> Es gibt einige Schritte, die Sie nur für die erste Appliance in der Bereitstellung ausführen: Erstellen einer Freigabe für das Standortverzeichnis, Herunterladen der Bits und Vorbereiten einer VHDX-Datei (Virtual Hard Disk, virtuelle Festplatte) anhand des ISO-Images von Windows Server. 
+> Es gibt einige Schritte, die Sie nur für die erste Appliance in Ihrer Bereitstellung ausführen: Erstellen einer Freigabe für das Websiteverzeichnis, Herunterladen der Bits und Vorbereiten einer Virtual Hard Disk (VHDX)-Datei aus dem Windows Server-ISO-Image. 
 
-## <a name="download-the-skype-for-business-cloud-connector-edition-installer"></a>Herunterladen des Installationsprogramms für Skype for Business Cloud Connector Edition
+## <a name="download-the-skype-for-business-cloud-connector-edition-installer"></a>Laden Sie den Skype for Business Cloud Connector Edition-Installer herunter.
 
-1. Laden Sie auf dem Hostserver, auf dem der Cloud Connector VMS ausgeführt wird, die [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller)Installationsdateien herunter:. 
+1. Laden Sie auf dem Hostserver, auf dem die Cloud Connector-VMS ausgeführt werden sollen [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller), die Installationsdateien herunter:. 
 
     > [!IMPORTANT]
-    > Der Hostserver muss in der Lage sein, während der Installation von Cloud Connector eine Internetverbindung herzustellen, da während der Installation zusätzliche Dateien heruntergeladen werden. 
+    > Der Hostserver muss während der Installation von Cloud Connector auf das Internet zugreifen können, da während der Installation zusätzliche Dateien heruntergeladen werden. 
 
-2. Führen Sie das Installationsprogramm aus und akzeptieren Sie während der Installation die Standardwerte.
+2. Führen Sie das Installationsprogramm aus, und übernehmen Sie die Standardwerte während der Installation.
 
 3. Bestätigen Sie, dass die Installation erfolgreich abgeschlossen wurde.
 
 ## <a name="verify-the-installation-and-configure-the-environment"></a>Überprüfen der Installation und Konfigurieren der Umgebung
 
-1. Öffnen Sie eine PowerShell-Konsole als Administrator, und stellen Sie sicher, dass die Skype for Business Cloud Connector Edition-Cmdlets mit dem folgenden Cmdlet verfügbar sind:
+1. Öffnen Sie eine PowerShell-Konsole als Administrator, und vergewissern Sie sich, dass die Skype for Business Cloud Connector Edition-Cmdlets mit dem folgenden Cmdlet verfügbar sind:
 
    ```powershell
    Get-Command *-Cc*
@@ -62,255 +62,255 @@ In diesem Abschnitt wird beschrieben, wie Sie die Installationsdateien für Skyp
 
     Der Befehl sollte eine Liste der Cmdlets für Skype for Business Cloud Connector Edition zurückgeben.
 
-2. Die VHDs, SfBBits und VersionInfo-Dateien werden im **Websiteverzeichnis** gespeichert.
+2. Die VHD-, SfBBits-und VERSIONINFO-Dateien werden im **Websiteverzeichnis**gespeichert.
 
-    Den Speicherort des **Websiteverzeichnisses** können Sie mit dem folgenden Cmdlet ermitteln:
+    Sie können den Speicherort des **Websiteverzeichnisses** mit dem folgenden Cmdlet ermitteln:
 
    ```powershell
    Get-CcSiteDirectory
    ```
 
-    Der Befehl sollte einen Speicherort in Ihrem Dateisystem zurückgeben. Bei dem Speicherort kann es sich um einen lokalen Ordner oder um eine Dateifreigabe handeln. Der Standardspeicherort für das **Websiteverzeichnis** lautet „%USERPROFILE%\CloudConnector\SiteRoot“. Der Standardspeicherort sollte in der ersten für jeden Standort erstellten Appliance in eine Dateifreigabe geändert werden.
+    Der Befehl sollte einen Speicherort in Ihrem Dateisystem zurückgeben. Bei dem Speicherort kann es sich um einen lokalen Ordner oder eine Dateifreigabe handeln. Der Standardspeicherort für das **Websiteverzeichnis** lautet:%USERPROFILE%\CloudConnector\SiteRoot. Der Standardspeicherort sollte in eine Dateifreigabe auf der ersten Appliance geändert werden, die an jedem Standort erstellt wurde.
 
-    Für den ausgewählten Speicherort muss Folgendes gelten:
+    Der Speicherort, den Sie auswählen, muss wie folgt lauten:
 
-   - Er wurde in der ersten an jedem Standort erstellten Appliance erstellt.
+   - Erstellt auf der ersten Appliance, die an jedem Standort erstellt wurde.
 
-   - Es handelt sich um einen freigegebenen Ordner, auf den andere Hostserver (Appliances) am gleichen Standort zugreifen können.
+   - Ein freigegebener Ordner, auf den andere Hostserver (Appliances) am gleichen Standort zugreifen können.
 
-     Um das **Websiteverzeichnis** auf einen anderen Speicherort als den Standard festzulegen, führen Sie das folgende Cmdlet aus:
+     Um das **Websiteverzeichnis** auf einen anderen Speicherort als den Standardwert festzulegen, führen Sie das folgende Cmdlet aus:
 
    ```powershell
    Set-CcSiteDirectory <UNC File path>
    ```
 
-    Wenn Sie Hochverfügbarkeit (HA) für den Standort bereitstellen, vergewissern Sie sich, dass Sie das Cmdlet zum Festlegen des **Websiteverzeichnisses** auf den gleichen Speicherort auf jedem Hostserver innerhalb des Standorts ausführen.
+    Wenn Sie hohe Verfügbarkeit für die Website bereitstellen, stellen Sie sicher, dass Sie das-Cmdlet ausführen, um das **Websiteverzeichnis** auf jedem Hostserver innerhalb des Standorts auf denselben Speicherort festzulegen.
 
-    Wenn Sie sich anmelden und jede Appliance auf der Website bereitstellen, stellen Sie sicher, dass das aktuelle Anmeldekonto über den richtigen Zugriff auf das **Websiteverzeichnis**verfügt.
+    Wenn Sie sich anmelden und jede Appliance am Standort bereitstellen, stellen Sie sicher, dass Ihr aktuelles Anmeldekonto über den richtigen Zugriff auf das **Websiteverzeichnis**verfügt.
 
-3. Das **Appliance-Verzeichnis** ist das lokal arbeitende Stammverzeichnis für Skype for Business Cloud Connector Edition und der Speicherort, an dem externe Zertifikate, Instanzen und Protokolle gespeichert werden. Der Standardspeicherort ist: %USERPROFILE%\CloudConnector\ApplianceRoot.
+3. Das **Appliance-Verzeichnis** ist das lokale Arbeits Stammverzeichnis für Skype for Business Cloud Connector Edition und der Speicherort, an dem externe Zertifikate, Instanzen und Protokolle gespeichert werden. Der Standardspeicherort ist:%USERPROFILE%\CloudConnector\ApplianceRoot.
 
-    Um den Speicherort des **Appliance-Verzeichnisses** zu suchen, führen Sie das folgende Cmdlet aus:
+    Führen Sie das folgende Cmdlet aus, um den Speicherort des **Appliance-Verzeichnisses**zu ermitteln:
 
    ```powershell
    Get-CcApplianceDirectory
    ```
 
-    Um das **Appliance-Verzeichnis** auf einen anderen Speicherort als den Standard festzulegen, führen Sie das folgende Cmdlet aus:
+    Um das **Appliance-Verzeichnis** auf einen anderen Speicherort als den Standardwert festzulegen, führen Sie das folgende Cmdlet aus:
 
    ```powershell
    Set-CcApplianceDirectory <File path>
    ```
 
-    Als Appliance-Verzeichnis sollte ein lokaler Ordner in der Appliance festgelegt sein. Sie sollten das Appliance- **Verzeichnis** nur einrichten, bevor Sie die Bereitstellung von Skype for Business Cloud Connector Edition starten. Wenn Sie das Verzeichnis nach der Bereitstellung ändern, müssen Sie den Hostserver erneut bereitstellen.
+    Das Appliance-Verzeichnis sollte auf einen lokalen Ordner der Appliance festgelegt sein. Legen Sie das Appliance- **Verzeichnis** nur vor dem Start der Skype for Business Cloud Connector Edition-Bereitstellung fest. Wenn Sie Sie nach der Bereitstellung ändern, müssen Sie den Hostserver erneut bereitstellen.
 
     > [!IMPORTANT]
     > Der Pfad zum **Appliance-Verzeichnis** darf keine Leerzeichen enthalten.
 
-## <a name="set-the-path-for-the-external-edge-certificate"></a>Festlegen des Pfads für das externe Zertifikat des Edges
+## <a name="set-the-path-for-the-external-edge-certificate"></a>Festlegen des Pfads für das Zertifikat für externe Edges
 
-- Führen Sie das folgende Cmdlet aus, um den Pfad einschließlich des Dateinamens zum externen Zertifikat des Edges festzulegen. Beispiel: „C:\certs\cce\ap.contoso.com.pfx“. Das Zertifikat muss private Schlüssel enthalten.
+- Führen Sie das folgende Cmdlet aus, um den Pfad einschließlich des Datei namens auf das externe Edge-Zertifikat festzulegen. Beispiel: C:\certs\cce\ap.contoso.com.pfx. Das Zertifikat muss private Schlüssel enthalten.
 
   ```powershell
   Set-CcExternalCertificateFilePath -Path <Full path to External certificate, including file name> -Target EdgeServer
   ```
 
     > [!NOTE]
-    > Beachten Sie, dass der Parameter „-Target“ speziell für Version 1.4.2 und höher gilt. 
+    > Beachten Sie, dass der-target-Parameter für die Versionen 1.4.2 und höher spezifisch ist. 
 
-    Geben Sie den vollständigen Pfad einschließlich Dateinamen zum externen Zertifikat an. Das Zertifikat kann lokal oder in einer Dateifreigabe gespeichert werden. Wenn das Zertifikat in einem freigegebenen Ordner gespeichert ist, muss der freigegebene Ordner auf der ersten Appliance jeder Website erstellt werden und muss von anderen Appliances, die derselben Website angehören, zugänglich sein. Dieses Cmdlet kopiert das externe Zertifikat in das **Appliance-Verzeichnis**.
+    Geben Sie den vollständigen Pfad zum externen Zertifikat an, einschließlich des Datei namens. Das Zertifikat kann lokal oder in einer Dateifreigabe gespeichert werden. Wenn das Zertifikat in einem freigegebenen Ordner gespeichert ist, muss der freigegebene Ordner auf der ersten Appliance jedes Standorts erstellt werden und von anderen Appliances, die demselben Standort angehören, zugänglich sein. Dieses Cmdlet kopiert das externe Zertifikat in das **Appliance-Verzeichnis**.
 
     > [!IMPORTANT]
-    > **Wenn Sie auf Cloud Connector, Version 1.4.2 oder höher, aktualisiert haben**, stellen Sie sicher, dass Ihr vorbereitetes externes Zertifikat private Schlüssel sowie die vollständige Zertifikatkette einschließlich des Zertifikats der Stammzertifizierungsstelle und der Zertifikate der Zwischenzertifizierungsstellen enthält. **Wenn Sie noch NICHT auf Cloud Connector, Version 1.4.2, aktualisiert haben**, stellen Sie sicher, dass Ihr vorbereitetes externes Zertifikat private Schlüssel enthält. Dieses externe Zertifikat muss von einer Zertifizierungsstelle ausgestellt sein, der Windows standardmäßig vertraut.
+    > **Wenn Sie auf Cloud Connector, Version 1.4.2 oder höher, aktualisiert haben**, stellen Sie sicher, dass Ihr vorbereitetes externes Zertifikat private Schlüssel und die vollständige Zertifikatkette einschließlich des Stammzertifizierungsstellen-Zertifikats und der Zwischenzertifizierungsstellen Zertifikate enthält. **Wenn Sie noch nicht auf Cloud Connector, Version 1.4.2, aktualisiert haben**, stellen Sie sicher, dass das vorbereitete externe Zertifikat private Schlüssel enthält. Dieses externe Zertifikat muss von einer Zertifizierungsstelle ausgestellt werden, die standardmäßig von Windows als vertrauenswürdig eingestuft wird.
 
-## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Festlegen des Pfads für das externe Zertifikat des PSTN-Gateways/SBC
+## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Festlegen des Pfads für das externe PSTN-Gateway/SBC-Zertifikat
 
-Wenn Sie zwischen dem Vermittlungsserver und dem PSTN-Gateway/SBC TLS verwenden, führen Sie das folgende Cmdlet aus, um den Pfad (einschließlich des Dateinamens) zum Gatewayzertifikat festzulegen. Beispiel: C:\certs\cce\sbc.contoso.com.cer. Das Zertifikat muss die Stammzertifizierungsstelle und die Zwischenkette für das Zertifikat enthalten, das dem Gateway zugewiesen ist:
+Wenn Sie TLS zwischen dem Vermittlungsserver und dem PSTN-Gateway/SBC verwenden, führen Sie das folgende Cmdlet aus, um den Pfad einschließlich des Datei namens auf das Gateway-Zertifikat festzulegen. Beispiel: C:\certs\cce\sbc.contoso.com.cer. Das Zertifikat muss die Stammzertifizierungsstelle und die zwischen Kette für das dem Gateway zugewiesene Zertifikat enthalten:
 
 ```powershell
 Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, including file name> -Target MediationServer 
 ```
 
 > [!NOTE]
-> Beachten Sie, dass der Parameter „-Target“ speziell für Version 1.4.2 und höher gilt. 
+> Beachten Sie, dass der-target-Parameter für die Versionen 1.4.2 und höher spezifisch ist. 
 
-## <a name="create-virtual-switches-in-hyper-v-manager"></a>Erstellen von virtuellen Switches in Hyper-V-Manager
+## <a name="create-virtual-switches-in-hyper-v-manager"></a>Erstellen virtueller Switches in Hyper-V-Manager
 
-1. Öffnen Sie den **Hyper-V Manager** > **Virtual Switch Manager**, und wählen Sie **neuer virtueller Switch-Manager**aus.
+1. Öffnen Sie den**Virtual Switch Manager**für **Hyper-V Manager** > , und wählen Sie **neuer virtueller Switch-Manager**aus.
 
-2. Erstellen Sie einen externen virtuellen Switch, und binden Sie ihn an den physischen Netzwerkadapter, der mit Ihrer internen Netzwerkdomäne verbunden ist:
+2. Erstellen Sie einen externen virtuellen Switch, und binden Sie ihn an den physischen Netzwerkadapter, der mit ihrer internen Netzwerkdomäne verbunden ist:
 
-    Wählen Sie **Gemeinsames Verwenden dieses Netzwerkadapters für das Verwaltungsbetriebssystem zulassen** für diesen virtuellen Switch aus.
+    Wählen Sie **Verwaltung Betriebssystem zulassen aus, um diesen Netzwerkadapter** für diesen virtuellen Switch freizugeben.
 
-3. Erstellen Sie einen externen virtuellen Switch, und binden Sie ihn an den physikalischen Netzwerkadapter, der an das Internet weitergeleitet wird:
+3. Erstellen Sie einen externen virtuellen Switch, und binden Sie ihn an den physischen Netzwerkadapter, der an das Internet weitergeleitet wird:
 
-    Deaktivieren Sie für diesen virtuellen Switch die Option **Management-Betriebssystem zulassen, um diesen Netzwerkadapter freizugeben** .
+    Deaktivieren Sie die Option Verwaltungsbetriebssystem für diesen virtuellen Switch **freigeben, um diesen Netzwerkadapter freizugeben** .
 
-4. Legen Sie den Namen des Schalters fest, der Ihr Umkreisnetzwerk mit Ihrem internen Netzwerkdomänen- **SFB CCE Corpnet-Switch**verbindet.
+4. Legen Sie den Namen des Switches, der Ihr Umkreisnetzwerk mit ihrer internen Netzwerkdomäne verbindet, mit dem **SFB CCE Corpnet Switch**fest.
 
-    Legen Sie den Namen des Schalters fest, der Ihr Umkreisnetzwerk mit dem Internet- **Switch des SFB CCE**verbindet.
+    Legen Sie den Namen des Switches fest, der Ihr Umkreisnetzwerk mit dem Internet- **Switch des SFB CCE**verbindet.
 
-## <a name="update-the-cloudconnectorini-configuration-file"></a>Aktualisieren der Konfigurationsdatei „CloudConnector.ini“
+## <a name="update-the-cloudconnectorini-configuration-file"></a>Aktualisieren der Konfigurationsdatei "cloudconnector. ini
 
-Bereiten Sie die Datei CloudConnector. ini unter Verwendung der Informationen vor, die Sie unter [Ermitteln von Bereitstellungs Parametern](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) im Thema [Planen von Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) gesammelt haben.
+Bereiten Sie die Datei "cloudconnector. ini mit den Informationen vor, die Sie unter [bestimmen der Bereitstellungsparameter](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) im Thema [Planen für Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) gesammelt haben.
 
-Führen Sie zum Aktualisieren der Datei zunächst das folgende Cmdlet aus, um die Beispielvorlage (CloudConnector.Sample.ini) zu erhalten:
+Um die Datei zu aktualisieren, führen Sie zuerst das folgende Cmdlet aus, um die Beispielvorlage ("cloudconnector. Sample. ini) abzurufen:
 
 ```powershell
 Export-CcConfigurationSampleFile
 ```
 
-Die Beispielvorlage wird im **Appliance-Verzeichnis** gespeichert.
+Die Beispielvorlage wird im Appliance- **Verzeichnis**gespeichert.
 
-Nachdem Sie sie mit den Werten für Ihre Umgebung aktualisiert haben, speichern Sie die Datei als „CloudConnector.ini“ im **Appliance-Verzeichnis**. Sie können **Get-CcApplianceDirectory** ausführen, um den Pfad zum **Appliance-Verzeichnis** zu ermitteln.
+Nachdem Sie es mit den Werten für Ihre Umgebung aktualisiert haben, speichern Sie die Datei als "cloudconnector. ini im **Appliance-Verzeichnis**. Sie können **Get-CcApplianceDirectory** ausführen, um den Pfad zum **Appliance-Verzeichnis**zu ermitteln.
 
-Beachten Sie Folgendes beim Aktualisieren der INI-Datei:
+Berücksichtigen Sie beim Aktualisieren der INI-Datei Folgendes:
 
 > [!NOTE]
-> In diesem Abschnitt werden nicht alle Werte für die INI-Datei besprochen, sondern nur die wichtigsten. Eine vollständige Liste finden Sie im Abschnitt [Festlegen von Bereitstellungs Parametern](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) im Thema [Planen von Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) . Weitere Informationen zu den Werten, die Sie für zusätzliche Appliances oder neue Standorte ändern müssen, finden Sie unter [Bereitstellung eines einzelnen Standort mit hoher Verfügbarkeit im Vergleich zur Bereitstellung mehrerer Standorte](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) im Thema [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
+> Nicht alle Werte für die. ini-Datei werden in diesem Abschnitt behandelt, sondern nur diejenigen, die eine besondere Überlegung haben. Eine vollständige Liste finden Sie im Abschnitt [bestimmen der Bereitstellungsparameter](plan-skype-for-business-cloud-connector-edition.md#BKMK_SiteParams) im Thema [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md) . Weitere Informationen darüber, welche Werte für zusätzliche Appliances oder neue Websites geändert werden müssen, finden Sie unter [Single Site with High Availability (ha) im Vergleich zu Multi-Site-Bereitstellungen](deploy-multiple-sites-in-cloud-connector.md#BKMK_SingleSitecomparedtomulti-site) im Thema [deploy multiple Sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
 
-- **SiteName:** Der Standardwert lautet **Site1**. Sie müssen ihn aktualisieren, bevor Sie Cloud Connector bereitstellen können. Der Grund: Wenn Sie **Register-CcAppliance** ausführen, um eine Appliance an einem vorhandenen oder neuen Standort zu registrieren, bestimmt das Cmdlet anhand von **SiteName**, welcher Standort registriert werden soll.
+- **Sitename:** Der Standardwert ist **site1**. Sie müssen es vor der Bereitstellung von Cloud Connector aktualisieren, da das Cmdlet beim Ausführen von **Register-ccappliance "** zum Registrieren einer Appliance auf einem vorhandenen oder neuen Standort den Standort Sitename **verwendet, um zu** ermitteln, welche Website registriert werden soll.
 
-     Wenn Sie die Appliance an einem neuen Standort registrieren möchten, muss der Wert für **SiteName** eindeutig sein und sich von dem für vorhandene Standorte unterscheiden. Wenn Sie die Appliance auf einer vorhandenen Website registrieren möchten, muss der Wert für **Sitename** in der INI-Datei mit dem in Ihrer Office 365-Mandanten Konfiguration definierten Namen übereinstimmen. Wenn Sie eine Konfigurationsdatei von einem Standort an einen anderen kopieren, stellen Sie sicher, dass Sie den Wert für **SiteName** für jeden Standort entsprechend aktualisieren.
+     Wenn Sie die Appliance auf einem neuen Standort registrieren möchten, muss der Wert von **Sitename** eindeutig sein und sich von vorhandenen Websites unterscheiden. Wenn Sie die Appliance auf einem vorhandenen Standort registrieren möchten, muss der Wert für **Sitename** in. ini mit dem in der Office 365 Mandanten Konfiguration definierten Namen übereinstimmen. Wenn Sie eine Konfigurationsdatei von einer Website in eine andere kopieren, stellen Sie sicher, dass Sie den Wert **für Sitename für jeden** Standort entsprechend aktualisieren.
 
-- **ServerName:** Der Servername sollte nicht den Domänennamen enthalten und ist auf 15 Zeichen begrenzt. 
+- **Servername:** Der Servername sollte nicht den Domänennamen enthalten und sollte auf 15 Zeichen reduziert werden.
 
-- **Hardwaretyp:** Wenn Sie den Wert nicht auf NULL festlegen oder belassen, wird der Standardwert **Normal** verwendet. Verwenden Sie **Normal** , wenn Sie die größere Version von Cloud Connector zur Unterstützung von 500-gleichzeitigen Anrufen pro Hostcomputer planen, wie in [Plan für Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md)beschrieben. Verwenden Sie **Minimum** für eine kleinere Bereitstellung, die 50 gleichzeitige Anrufe unterstützt.
+- **Hardwaretyp:** Wenn Sie den Wert nicht auf NULL festlegen oder beibehalten, wird der Standardwert **Normal** verwendet. Verwenden Sie **Normal** , wenn Sie die größere Version von Cloud Connector zur Unterstützung von 500 gleichzeitigen Anrufen pro Hostcomputer bereitstellen möchten, wie unter [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md)beschrieben. Verwenden Sie **mindestens** für eine kleinere Bereitstellung, die 50 gleichzeitige Anrufe unterstützt.
 
-- **Virtuelle Switches für Internet/Unternehmensnetzwerk/Verwaltung**: Fügen Sie die Namen der virtuellen Switches hinzu, die Sie erstellt haben. Für den virtuellen Switch für die Verwaltung behalten Sie den Standardwert bei. Das Bereitstellungsskript erstellt den virtuellen Switch für die Verwaltung zu Beginn der Bereitstellung und löscht ihn, sobald die Bereitstellung abgeschlossen ist.
+- **Virtuelle Switches für Internet/Corpnet/Verwaltung:**: Fügen Sie den Namen der virtuellen Switches hinzu, die Sie erstellt haben. Lassen Sie den Standardwert für den virtuellen Switch für die Verwaltung unverändert. Das Bereitstellungsskript erstellt den virtuellen Switch für die Verwaltung zu Beginn der Bereitstellung und löscht ihn, sobald die Bereitstellung abgeschlossen ist.
 
-- **ManagementIPPrefix:** „ManagementIPPrefix“ im Netzwerkabschnitt muss ein anderes Subnetz als das der anderen internen IPs sein. Beispiel: Der Standardwert für „ManagementIPPrefix“ lautet 192.168.213.0, während die AD-IP-Adresse 192.168.0.238 lautet.
+- **ManagementIPPrefix:** ManagementIPPrefix im Abschnitt "Netzwerk" muss ein anderes Subnetz als andere interne IPS sein. Wenn beispielsweise der Standardwert angezeigt wird, ist ManagementIPPrefix 192.168.213.0, während AD-IPAddress 192.168.0.238 ist.
 
-    Die Bereitstellungsskripts erstellen auf jedem virtuellen Computer einen Verwaltungs-Netzwerkadapter, weisen eine Verwaltungs-IP zu und verbinden diese mit einem virtuellen Switch für die Verwaltung. Dadurch kann der Hostserver über dieses Verwaltungsnetzwerk eine Verbindung zu jedem virtuellen Computer herstellen und diesen verwalten. Der virtuelle Switch für die Verwaltung wird gelöscht, nachdem die Bereitstellung abgeschlossen ist.
+    Die Bereitstellungsskripts erstellen einen Verwaltungsnetzwerkadapter auf jedem virtuellen Computer, weisen eine Verwaltungs-IP zu und verbinden ihn mit einem virtuellen Switch für die Verwaltung. Dadurch kann der Hostserver über dieses Verwaltungsnetzwerk eine Verbindung zu jedem virtuellen Computer herstellen und ihn verwalten. Der virtuelle Verwaltungs Switch wird gelöscht, wenn die Bereitstellung abgeschlossen ist.
 
-- **Spezifische Konfigurationen für die Basis-VM:** Die Einstellungen in diesem Abschnitt müssen für das Cmdlet **Convert-CcIsoToVhdx** konfiguriert werden.
+- **Grundlegende VM-spezifische Konfigurationen:** Die Einstellungen in diesem Abschnitt müssen für das Cmdlet **Convert-CcIsoToVhdx** konfiguriert werden.
 
-    Während der Vorbereitung des Basis-VM-Images wird die Basis-VM mit dem internen Netzwerkswitch verbunden. Die folgenden Einstellungen sind entscheidend, damit die VM auf das Internet zugreifen kann:
+    Während der Vorbereitung des Basis-VM-Images wird die Basis-VM mit dem internen Netzwerk Switch verbunden. Die folgenden Einstellungen sind wichtig, damit die VM auf das Internet zugreifen kann:
 
-  - [Common]BaseVMIP: die IP-Adresse des Unternehmensnetzwerks, die dem virtuellen Basiscomputer zugewiesen wird.
+  - Common BaseVMIP: die Corpnet-IP-Adresse, die der Basis-VM zugewiesen werden soll.
 
-  - [Network]CorpnetDefaultGateway: das Standard-Gateway, das dem virtuellen Basiscomputer zugewiesen wird.
+  - Netzwerk CorpnetDefaultGateway: das Standardgateway, das der Basis-VM zugewiesen wird.
 
-  - [Network]CorpnetDNSIPAddress: die DNS-IP-Adresse, die dem virtuellen Basiscomputer zugewiesen wird.
+  - Netzwerk CorpnetDNSIPAddress: die DNS-IP-Adresse, die der Basis-VM zugewiesen werden soll.
 
-  - [Network]WSUSServer: die IP-Adresse des Windows Server Update Service.
+  - Netzwerk WSUSServer: die IP-Adresse des Windows Server-Update Diensts.
 
-  - [Network]WSUSStatusServer: die IP-Adresse des Statusservers für den Windows Server Update Service.
+  - Netzwerk WSUSStatusServer: die IP-Adresse des Windows Server Update Service-Statusservers.
 
-  - „[Network]EnableReferSupport“: Damit wird definiert, ob SIP REFER-Unterstützung in der Trunk-Konfiguration Ihrer IP-PBX aktiviert oder deaktiviert ist.
+  - Netzwerk "Enablerefersupport": Dadurch wird definiert, ob SIP-Refer-Unterstützung für die trunk Konfiguration für Ihre IP/Nebenstellenanlage aktiviert oder deaktiviert ist.
 
-- **Interne IPs:**
+- **Interne IPS:**
 
-  - Stellen Sie sicher, dass die Subnetzmaske CorpnetIPPrefixLength korrekt ist.
+  - Stellen Sie sicher, dass Subnetzmaske CorpnetIPPrefixLength korrekt ist.
 
   - Stellen Sie sicher, dass für diese internen IPS keine IP-Konflikte vorhanden sind.
 
-- **Externe IPs:**
+- **Externe IPS:**
 
-  - Für Mr Public IP: Geben Sie entweder ExternalMRIPs für nicht-NAT oder ExternalMRPublicIPs für NAT an.
+  - Für Mr Public IP: Geben Sie entweder "externalmrips" für nicht-NAT oder ExternalMRPublicIPs für NAT an.
 
-  - ExternalSIPIPs und ExternalMRIPs können identisch sein.
+  - ExternalSIPIPs und "externalmrips" können identisch sein.
 
-  - Stellen Sie sicher, dass die Subnetzmaske InternetIPPrefixLength korrekt ist.
+  - Stellen Sie sicher, dass Subnetzmaske InternetIPPrefixLength korrekt ist.
 
-  - Stellen Sie sicher, dass für diese externen IPS keine IP-Konflikte vorhanden sind.
+  - Stellen Sie sicher, dass es keine IP-Konflikte für diese externen IPS gibt.
 
-- **Gateways:**
+- **Gateways**
 
-  - Wenn Sie nur ein Gateway haben, entfernen Sie den Abschnitt für das sekundäre Gateway. Bei mehr als zwei Gateways erstellen Sie zusätzliche Abschnitte, indem Sie den vorhandenen Abschnitt kopieren und einfügen und ihn dann aktualisieren.
+  - Wenn Sie nur ein Gateway haben, entfernen Sie den Abschnitt für das sekundäre Gateway. Wenn Sie über mehr als zwei Gateways verfügen, erstellen Sie zusätzliche Abschnitte, indem Sie das vorhandene kopieren und einfügen und dann aktualisieren.
 
-  - Stellen Sie sicher, dass die IP-Adresse und der Port des bzw. der Gateways korrekt sind.
+  - Stellen Sie sicher, dass die IP-Adresse und der Port der Gateways korrekt sind.
 
-  - Um HA auf PSTN-Gateway-Ebene zu unterstützen, belassen Sie die sekundären Gateways, und fügen Sie alle weiteren Gateways hinzu, die Sie verwenden möchten. Sie können einen vorhandenen Eintrag kopieren und einfügen und dann aktualisieren.
+  - Um die PSTN-Gatewayebene ha zu unterstützen, lassen Sie das sekundäre Gateway, und fügen Sie alle zusätzlichen Gateways hinzu, die Sie verwenden werden. Sie können einen vorhandenen Eintrag kopieren und einfügen und ihn dann aktualisieren.
 
-- Optional können Sie den LocalRoute-Wert aktualisieren, um ausgehende Rufnummern zu begrenzen.
+- Optional können Sie den LocalRoute-Wert aktualisieren, um ausgehende Rufnummern einzuschränken.
 
 ## <a name="download-the-bits-to-the-site-directory"></a>Laden Sie die Bits in das Websiteverzeichnis herunter.
 
-Führen Sie das folgende Cmdlet aus, um die Bits und Versionsinformationsdateien in das **Websiteverzeichnis** herunterzuladen:
+Führen Sie das folgende Cmdlet aus, um die Bits-und Versions Informationsdateien in das **Websiteverzeichnis**herunterzuladen:
 
 ```powershell
 Start-CcDownload
 ```
 
 > [!NOTE]
-> Diesen Schritt müssen Sie nur für die erste Appliance ausführen. 
+> Sie müssen diesen Schritt nur für die erste Appliance ausführen. 
 
-## <a name="prepare-base-virtual-disk-vhdx-from-the-downloaded-iso-file"></a>Vorbereiten des virtuellen Basisdatenträgers (VHDX) anhand der heruntergeladenen ISO-Datei
+## <a name="prepare-base-virtual-disk-vhdx-from-the-downloaded-iso-file"></a>Vorbereiten des virtuellen Basisdatenträgers (VHDX) aus der heruntergeladenen ISO-Datei
 
-In diesem Schritt wird eine virtuelle Festplattendatei (VHDX) vom Windows Server 2012 ISO-Image vorbereitet. Die VHDX wird zum Erstellen der virtuellen Computer während der Bereitstellung verwendet. Ein temporärer virtueller Computer (Basis-VM) wird erstellt, und Windows Server 2012 wird aus der ISO-Datei installiert. Nach Erstellen des virtuellen Computers werden einige erforderliche Komponenten installiert und das neueste Windows-Update angewendet. Zum Abschluss wird der virtuelle Basiscomputer generalisiert (sysprep) und bereinigt, sodass nur die generierte virtuelle Festplattendatei zurückbleibt.
+In diesem Schritt wird eine VHDX-Datei (Virtual Hard Disk) aus dem Windows Server 2012 ISO-Abbild vorbereitet. Die VHDX wird zum Erstellen virtueller Computer während der Bereitstellung verwendet. Ein temporärer virtueller Computer (Basis-VM) wird erstellt, und Windows Server 2012 werden aus der ISO-Datei installiert. Nachdem die VM erstellt wurde, werden einige erforderliche Komponenten installiert, und das neueste Windows-Update wird angewendet. Am Ende wird die Basis-VM generalisiert (Sysprep) und bereinigt, sodass nur die generierte virtuelle Datenträgerdatei bleibt.
 
 > [!NOTE]
-> Diesen Schritt müssen Sie nur für die erste Appliance ausführen. 
+> Sie müssen diesen Schritt nur für die erste Appliance ausführen. 
 
-Bevor Sie mit diesem Schritt fortfahren, vergewissern Sie sich, dass der Switch für das Unternehmensnetzwerk erstellt wurde. Bestätigen Sie auch, dass die folgenden Einstellungen in der Datei „CloudConnector.ini“ richtig konfiguriert sind:
+Bevor Sie mit diesem Schritt fortfahren, stellen Sie sicher, dass der Corpnet-Schalter erstellt wird. Vergewissern Sie sich außerdem, dass die folgenden Einstellungen in der Datei "cloudconnector. ini ordnungsgemäß konfiguriert sind:
 
-- [Network]CorpnetSwitchName
+- Netzwerk CorpnetSwitchName
 
-- [Common]BaseVMIP
+- Common BaseVMIP
 
-- [Network]CorpnetIPPrefixLength
+- Netzwerk CorpnetIPPrefixLength
 
-- [Network]CorpnetDefaultGateway
+- Netzwerk CorpnetDefaultGateway
 
-- [Network]CorpnetDNSIPAddress
+- Netzwerk CorpnetDNSIPAddress
 
-Starten Sie eine PowerShell-Konsole als Administrator und führen Sie das folgende Cmdlet aus, um das ISO-Image in eine virtuelle Festplatte (VHD) zu konvertieren:
+Starten Sie eine PowerShell-Konsole als Administrator, und führen Sie das folgende Cmdlet aus, um das ISO-Abbild auf eine virtuelle Festplatte (VHD) zu konvertieren:
 
 ```powershell
 Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 ```
 
-Geben Sie den vollständigen Pfad einschließlich Dateinamen zum ISO-Image an. Beispiel: C:\ISO\WindowsServer2012R2.iso.
+Geben Sie den vollständigen Pfad einschließlich des Datei namens in das ISO-Abbild ein. Beispiel: C:\ISO\WindowsServer2012R2.ISO.
 
-Die erstellte VHD-Datei wird im Ordner \Bits\VHD des **Websiteverzeichnisses** gespeichert. Sie können den Pfad zum **Websiteverzeichnis** abrufen, indem Sie **Get-CcSiteDirectory** ausführen.
+Die erstellte VHD-Datei wird im Ordner \Bits\VHD des **Websiteverzeichnisses** gespeichert. Sie können den Pfad zum **Websiteverzeichnis** abrufen, indem Sie das **Get-CcSiteDirectory-** Objekt durchführen.
 
 > [!IMPORTANT]
-> Standardmäßig sind auf dem virtuellen Basiscomputer keine Proxyeinstellungen konfiguriert. Wenn in Ihrer Netzwerkumgebung ein Proxy erforderlich ist, um den virtuellen Computer über Windows Update zu aktualisieren, sollten Sie beim Ausführen von "Convert-CcIsoToVhdx" den Schalter-PauseBeforeUpdate hinzufügen. Das Skript wird vor Windows Update angehalten, und Sie haben die Möglichkeit, Proxy auf dem virtuellen Computer manuell einzurichten. Nachdem der Proxy eingerichtet ist und der VM auf das Internet zugreifen kann, können Sie das Skript wieder aufnehmen und die verbleibenden Schritte ausführen. 
+> Standardmäßig sind Proxyeinstellungen nicht auf der Basis-VM konfiguriert. Wenn ein Proxy in Ihrer Netzwerkumgebung erforderlich ist, um den virtuellen Computer über Windows Update zu aktualisieren, sollten Sie den-PauseBeforeUpdate-Schalter bei der Ausführung von "Convert-CcIsoToVhdx" hinzufügen. Das Skript wird vor Windows Update angehalten, und Sie haben die Möglichkeit, einen Proxy für die VM manuell einzurichten. Nachdem der Proxy eingerichtet wurde und der VM auf das Internet zugreifen kann, können Sie das Skript fortsetzen, um die verbleibenden Schritte abzuschließen. 
 
-### <a name="create-vhds-for-a-multi-site-deployment"></a>Erstellen von VHDs für eine Bereitstellung mit mehreren Standorten
+### <a name="create-vhds-for-a-multi-site-deployment"></a>Erstellen von virtuellen Festplatten für eine Bereitstellung mit mehreren Standorten
 
-Dieser optionale Schritt ist nur auf Bereitstellungen mit mehreren Standorten anwendbar.
+Dies ist ein optionaler Schritt, der nur für Bereitstellungen mit mehreren Standorten gilt.
 
-Wenn Sie eine Bereitstellung mit mehreren Standorten bereitstellen, ist es nicht erforderlich, das ISO für jeden Standort in VHD zu konvertieren. Sie können die für den ersten Standort erstellte VHDX für einen zweiten Standort auf den Hostserver kopieren.
+Wenn Sie eine Bereitstellung mit mehreren Standorten bereitstellen, müssen Sie die ISO nicht für jeden Standort in eine VHD konvertieren. Sie können die für die erste Website erstellte VHDX für einen zweiten Standort auf den Hostserver kopieren.
 
- Kopieren Sie die Datei auf dem Hostserver für eine weitere Website in den gleichen Dateispeicherort (Ordner " **Websiteverzeichnis** \Bits\VHD") und mit demselben Dateinamen.
+ Kopieren Sie die Datei an denselben Dateispeicherort ( **Standortverzeichnis** \Bits\VHD-Ordner) und denselben Dateinamen auf dem Hostserver für einen zusätzlichen Standort.
 
-## <a name="set-the-powershell-execution-policy-to-remotesigned"></a>Festlegen der PowerShell-Ausführungsrichtlinie auf „RemoteSigned“
+## <a name="set-the-powershell-execution-policy-to-remotesigned"></a>Festlegen der PowerShell-Ausführungsrichtlinie auf RemoteSigned
 
-Für die bereitgestellten PowerShell-Skripts muss die Ausführungsrichtlinie auf „RemoteSigned“ festgelegt werden. Um die aktuelle Einstellung anzuzeigen, öffnen Sie eine PowerShell-Konsole als Administrator und führen Sie dann das folgende Cmdlet aus:
+Für die bereitgestellten PowerShell-Skripts muss die Ausführungsrichtlinie auf RemoteSigned festgelegt werden. Um die aktuelle Einstellung anzuzeigen, öffnen Sie eine PowerShell-Konsole als Administrator, und führen Sie dann das folgende Cmdlet aus:
 
 ```powershell
 Get-ExecutionPolicy
 ```
 
-Wenn die Einstellung nicht „RemoteSigned“ lautet, führen Sie das folgende Cmdlet aus, um sie zu ändern:
+Wenn er nicht auf "RemoteSigned" festgelegt ist, führen Sie das folgende Cmdlet aus, um es zu ändern:
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
 
-## <a name="change-local-group-policy-on-the-host-machine-versions-141-and-earlier"></a>Ändern lokaler Gruppenrichtlinien auf dem Hostcomputer (Version 1.4.1 und niedriger)
+## <a name="change-local-group-policy-on-the-host-machine-versions-141-and-earlier"></a>Ändern der lokalen Gruppenrichtlinie auf dem Hostcomputer (Version 1.4.1 und früher)
 
 > [!NOTE]
-> Diese Aufgabe ist für Cloud Connector, Version 1.4.2 und höher, nicht erforderlich. 
+> Diese Aufgabe ist für Cloud Connector-Versionen 1.4.2 und höher nicht erforderlich. 
 
-Das Konto „CceService“ wird bei der Bereitstellung von Skype for Business Cloud Connector Edition erstellt. Sie führt den Cloud Connector-Verwaltungsdienst aus und erfordert die Berechtigung zum Deinstallieren von cloudconnector. msi. Sie müssen die Gruppenrichtlinieneinstellung auf dem Cloud Connector-Hostcomputer ändern, um anzugeben, dass die Benutzerregistrierung bei der Abmeldung des Benutzers nicht entladen werden soll. Führen Sie die folgenden Schritte aus:
+Das "cceservice"-Konto wird während der Skype for Business Cloud Connector Edition-Bereitstellung erstellt. Er führt den Cloud Connector-Verwaltungsdienst aus und erfordert die Berechtigung zum Deinstallieren von "cloudconnector. msi. Sie müssen die Gruppenrichtlinieneinstellung auf dem Cloud Connector-Hostcomputer ändern, um anzugeben, dass die Benutzerregistrierung nicht entladen werden soll, wenn sich der Benutzer abmeldet. Führen Sie die folgenden Schritte aus:
 
-### <a name="to-change-the-group-policy-setting"></a>So ändern Sie die Gruppenrichtlinie
+### <a name="to-change-the-group-policy-setting"></a>So ändern Sie die Gruppenrichtlinieneinstellung
 
-1. Öffnen Sie den **Gruppenrichtlinien-Editor** , indem Sie "gpedit. msc" ausführen.
+1. Öffnen Sie den **Gruppenrichtlinien-Editor** , indem Sie gpedit. msc verwenden.
 
-2. Navigieren Sie im **Gruppenrichtlinien-Editor** zu „Administrative Vorlagen > System > UserProfile“ und zur Option, das Entladen der Benutzerregistrierung bei Abmelden des Benutzers nicht zu erzwingen.  
+2. Navigieren Sie im **Gruppenrichtlinien-Editor**zu Administrative Vorlagen > System > User Profile, um die Benutzerregistrierung beim Abmelden des Benutzers nicht gewaltsam zu entladen >. 
 
-3. Setzen Sie den Wert auf **Enabled**.
+3. Legen Sie den Wert auf **aktiviert**fest.
 
-## <a name="set-up-your-office-365-tenant"></a>Einrichten des Office 365-Mandanten
+## <a name="set-up-your-office-365-tenant"></a>Einrichten des Office 365-Mandanten
 
-Ein Office 365-Mandant mit Skype for Business Online und Telefon System in Office 365 ist erforderlich. Stellen Sie sicher, dass Ihr Mandant eingerichtet und konfiguriert ist, bevor Sie versuchen, Cloud Connector zu verwenden.
+Ein Office 365 Mandant mit Skype for Business Online-und Telefon System in Office 365 ist erforderlich. Stellen Sie sicher, dass Ihr Mandant eingerichtet und konfiguriert ist, bevor Sie versuchen, Cloud Connector zu verwenden.
 
-Bei einigen Setupschritten von Office 365 müssen Sie die Mandanten-Remote-PowerShell (TRPS) verwenden, um Ihren Office 365-Mandanten zu konfigurieren. **Die Installation sollte auf dem Hostserver erfolgen.** Sie können das Skype for Business Online-Modul für PowerShell von: [Skype for Business Online, Windows PowerShell-Modul](https://www.microsoft.com/en-us/download/details.aspx?id=39366)herunterladen.
+Für einige Office 365-Setupschritte müssen Sie die mandantenfähige Remote-PowerShell (TRPS) zum Konfigurieren Ihres Office 365 Mandanten verwenden. **Diese sollte auf dem Hostserver installiert sein.** Sie können das Skype for Business Online Modul für PowerShell unter: [Skype for Business Online, Windows PowerShell Module](https://www.microsoft.com/download/details.aspx?id=39366)herunterladen.
 
-Erstellen Sie ein dediziertes Skype for Business-Administratorkonto für die Cloud Connector Online-Verwaltung, beispielsweise CceOnlineManagmentAdministrator. Dieses Konto wird von der Appliance verwendet, um eine Appliance hinzuzufügen oder zu entfernen, automatische Betriebssystemaktualisierung zu aktivieren oder zu deaktivieren oder automatische Binärdateiaktualisierung zu aktivieren oder zu deaktivieren. Legen Sie das Kennwort für dieses Konto so fest, dass es nie abläuft, damit Sie es nicht jedes Mal für den Dienst ändern müssen, wenn es abläuft.
+Erstellen Sie ein dediziertes Skype for Business Administratorkonto für die Online Verwaltung von Cloud Connector, beispielsweise CceOnlineManagmentAdministrator. Dieses Konto wird von Appliance zum Hinzufügen oder Entfernen von Appliance, aktivieren oder Deaktivieren des automatischen Betriebssystemupdates, aktivieren oder Deaktivieren der automatischen binären Aktualisierung verwendet. Legen Sie das Kennwort für dieses Konto so fest, dass es nie abläuft, damit Sie es nicht bei jedem Ablauf des Diensts ändern müssen.
 
 

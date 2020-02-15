@@ -12,20 +12,20 @@ ms:contentKeyID: 48185867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a76052297e527e24fd3daf0c03d02661c7ddc255
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 74aec0a6fe0edc288dfaae57a146c52cf9a0babe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754455"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037113"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-call-park-disaster-recovery-in-lync-server-2013"></a>Planen der Notfallwiederherstellung für das Parken von Anrufen in Lync Server 2013
+# <a name="planning-for-call-park-disaster-recovery-in-lync-server-2013"></a>Planen der Notfallwiederherstellung für das Parken von Anrufen in lync Server 2013
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41754455"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-30_
+_**Letztes Änderungsstand des Themas:** 2012-10-30_
 
-In diesem Abschnitt werden einige Möglichkeiten beschrieben, wie Sie die Anwendung für den Parken von Anrufen für die Disaster Recovery und einige Überlegungen für den Disaster Recovery-Prozess vorbereiten.
+In diesem Abschnitt werden einige Möglichkeiten beschrieben, wie Sie die Anwendung zum Parken von Anrufen für die Notfallwiederherstellung und einige Überlegungen für den Notfall Wiederherstellungsprozess vorbereiten.
 
 <div>
 
-## <a name="preparing-for-call-park-disaster-recovery"></a>Vorbereiten der Disaster Recovery für den Anruf Park
+## <a name="preparing-for-call-park-disaster-recovery"></a>Vorbereiten der Notfallwiederherstellung für das Parken von Anrufen
 
-Beachten Sie bei der Vorbereitung und Durchführung von Disaster Recovery-Verfahren Folgendes:
+Beachten Sie bei der Vorbereitung und Durchführung von Notfallwiederherstellungsverfahren Folgendes.
 
-  - Planen Sie die Disaster Recovery, wenn Sie Ihre Kapazitätsplanung durchführen. Für die Disaster Recovery-Kapazität sollte jeder Pool in einem gekoppelten Pool in der Lage sein, die Arbeitslasten der Anruf Park Dienste in beiden Pools zu bewältigen. Details zur Kapazitätsplanung des Anruf Parks finden Sie unter [Kapazitätsplanung für den Parken von Anrufen in lync Server 2013](lync-server-2013-capacity-planning-for-call-park.md).
+  - Planen Sie die Notfallwiederherstellung gleichzeitig mit der Kapazitätsplanung. Für die Notfall Wiederherstellungs Kapazität sollte jeder Pool in einem gekoppelten Pool in der Lage sein, die Arbeitslasten der Dienste zum Parken von Anrufen in beiden Pools zu verarbeiten. Ausführliche Informationen zur Kapazitätsplanung für das Parken von Anrufen finden Sie unter [Kapazitätsplanung für das Parken von Anrufen in lync Server 2013](lync-server-2013-capacity-planning-for-call-park.md).
 
-  - Während der Disaster Recovery verwenden Benutzer, die im Rahmen des Failovers an den Sicherungspool umgeleitet wurden, den Anruf Park Dienst, der im Sicherungspool ausgeführt wird. Daher erfordert die Unterstützung für den Parken von Anrufen während der Disaster Recovery, dass die Anwendung für den Parken von Anrufen sowohl im primären Pool als auch im Sicherungspool bereitgestellt und aktiviert wird.
+  - Während der Notfallwiederherstellung verwenden Benutzer, die im Rahmen des Failovers an den Sicherungspool umgeleitet wurden, den Dienst zum Parken von anrufen, der im Sicherungspool ausgeführt wird. Unterstützung für das Parken von Anrufen während der Notfallwiederherstellung erfordert daher, dass die Anwendung zum Parken von Anrufen sowohl im primären Pool als auch im Sicherungspool bereitgestellt und aktiviert wird.
 
-  - Jeder Pool muss über einen gültigen Bereich von Orbit-Nummern für Benutzer verfügen, die in diesem Pool verwaltet werden, um Sie für Park Anrufe zu verwenden.
+  - Jeder Pool muss über einen gültigen Bereich von Orbit-Nummern für Benutzer verfügen, die in diesem Pool verwaltet werden und für das Parken von Anrufen verwendet werden.
 
-  - Bewahren Sie immer eine separate Sicherungskopie jeder angepassten Musik auf, die für den Anruf Park hochgeladen wurde. Diese Dateien werden im Rahmen des lync Server 2013-Wiederherstellungsprozesses nicht gesichert und gehen verloren, wenn die Dateien, die in den Pool hochgeladen wurden, beschädigt, beschädigt oder gelöscht wurden.
+  - Halten Sie immer eine separate Sicherungskopie aller benutzerdefinierten Wartemusik, die für das Parken von Anrufen hochgeladen wurde. Diese Dateien werden nicht als Teil des lync Server 2013 Notfall Wiederherstellungsprozesses gesichert und gehen verloren, wenn die in den Pool hochgeladenen Dateien beschädigt, beschädigt oder gelöscht werden.
 
 </div>
 
 <div>
 
-## <a name="call-park-disaster-recovery-considerations"></a>Überlegungen zur Disaster Recovery in Park anrufen
+## <a name="call-park-disaster-recovery-considerations"></a>Überlegungen zur Notfallwiederherstellung beim Parken von Anrufen
 
-Pro Pool können Sie nur einen Satz von Einstellungen für die Anwendungskonfiguration des Anruf Parks und eine angepasste Musik-zu-halten-Audiodatei definieren. Zu diesen Einstellungen gehören der Schwellenwert für Timeout, Musik in Wartestellung, maximale Anruf Abzugs Versuche und Timeout-URI. Führen Sie das Cmdlet " **Get-CsCpsConfiguration** " aus, um diese Konfigurationseinstellungen anzuzeigen. Details zum Cmdlet **Get-CsCpsConfiguration** finden Sie unter [Get-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCpsConfiguration).
+Sie können nur eine Gruppe von Anwendung zum Parken von Anrufen Konfigurationseinstellungen und eine benutzerdefinierte Audiodatei pro Pool definieren. Zu diesen Einstellungen gehören der Schwellenwert für Timeout, Wartemusik, maximale Anzahl von Anruf Angriffen und Timeout-URI. Führen Sie das Cmdlet **Get-CsCpsConfiguration** aus, um diese Konfigurationseinstellungen anzuzeigen. Ausführliche Informationen zum Cmdlet **Get-CsCpsConfiguration** finden Sie unter [Get-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCpsConfiguration).
 
-Bei der Wiederherstellung des Notfalls verwendet Call Park die Anwendung "Parken" im Backup-Pool, sodass die Einstellungen im primären Pool nicht gesichert werden. Wenn der primäre Pool nicht wiederhergestellt werden kann und Sie einen neuen Pool zum Ersetzen des primären Pools bereitstellen, gehen die Einstellungen des primären Pools verloren, und Sie müssen die Einstellungen für den Anruf Park und alle angepassten Music-on-halten-Audiodateien im neuen Pool neu konfigurieren.
+Während der Notfallwiederherstellung verwendet das Parken von Anrufen die Anwendung zum Parken von Anrufen im Sicherungspool, daher werden Einstellungen im primären Pool nicht gesichert. Wenn der primäre Pool nicht wiederhergestellt werden kann und Sie einen neuen Pool zum Ersetzen des primären Pools bereitstellen, gehen die Einstellungen aus dem primären Pool verloren, und Sie müssen die Einstellungen für das Parken von Anrufen und alle angepassten Musikdateien im neuen Pool neu konfigurieren.
 
-Wenn Sie einen neuen Pool mit einem anderen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) bereitstellen, um den primären Pool zu ersetzen, müssen Sie dem FQDN des neuen Pools alle orbitbereiche für den Anruf Bereich zuweisen, die dem primären Pool zugeordnet waren. Wenn Sie dem neuen Pool Umlaufbahn Bereiche erneut zuweisen möchten, können Sie entweder die lync Server-Systemsteuerung oder das Cmdlet " **Satz-CsCallParkOrbit** " verwenden. Details zum Cmdlet " **setCsCallParkOrbit** " finden Sie unter [Satz-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit).
+Wenn Sie einen neuen Pool mit einem anderen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) bereitstellen, um den primären Pool zu ersetzen, müssen Sie alle Bereiche des Orbits für das Parken von anrufen, die dem primären Pool zugeordnet sind, dem FQDN des neuen Pools zuweisen. Um orbitbereiche erneut dem neuen Pool zuzuweisen, können Sie entweder lync Server-Systemsteuerung oder das Cmdlet " **Sets-CsCallParkOrbit** " verwenden. Ausführliche Informationen zum Cmdlet " **CsCallParkOrbit** " finden Sie unter [festlegen-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit).
 
 </div>
 

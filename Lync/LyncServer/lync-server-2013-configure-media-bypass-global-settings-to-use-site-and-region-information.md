@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren der globalen Einstellungen für die Medienumgehung zur Verwendung von Standort- und Regionsinformationen
+title: Konfigurieren der globalen Einstellungen für die medienumgehung zur Verwendung von Standort-und Regionsinformationen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac820c444f894aabf060c06d6f034f7d92b696c2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c9b875693fb1fb7c9cfca4ae845709c874b0e8c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757749"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038317"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-media-bypass-global-settings-in-lync-server-2013-to-use-site-and-region-information"></a>Configure media bypass global settings in Lync Server 2013 to use site and region information
+# <a name="configure-media-bypass-global-settings-in-lync-server-2013-to-use-site-and-region-information"></a>Konfigurieren der globalen Einstellungen für die medienumgehung in lync Server 2013 zur Verwendung von Standort-und Regionsinformationen
 
 </div>
 
@@ -35,44 +35,44 @@ ms.locfileid: "41757749"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
 <div>
 
 
 > [!NOTE]
-> In diesem Thema wird davon ausgegangen, dass Sie die medienumgehung für alle trunk Verbindungen vom Vermittlungs Server zu einem Peer (einem PSTN-Gateway (Public Switched Telephone Network), einer IP-Telefonanlage oder einem Session Border Controller (SBC) bei einem Internet-Telefoniedienst bereits konfiguriert haben. Anbieter (ITSP) für eine bestimmte Website oder einen bestimmten Dienst, für die Medien den Vermittlungs Server umgehen sollen.<BR>In diesem Thema wird auch davon ausgegangen, dass Sie alle zentralen Websites und Zweigstellen im Topologie-Generator auf eine Weise definiert haben, die dem Netzwerkbereich, der Netzwerk Website und der Subnet-Konfiguration entspricht, die Sie gemäß den Schritten unter <A href="lync-server-2013-create-or-modify-a-network-region.md">erstellen oder Ändern eines Netzwerkbereichs in lync Server 2013</A>, <A href="lync-server-2013-create-or-modify-a-network-site.md">erstellen oder Ändern einer Netzwerk Website in lync Server 2013</A>und Verknüpfen eines Subnetzes <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">mit einer Netzwerk 2013 Website</A> Wenn Sie nicht übereinstimmen, ist die medienumgehung nicht erfolgreich.
+> In diesem Thema wird davon ausgegangen, dass Sie die Medienumgehung bereits für Trunkverbindungen zwischen dem Vermittlungsserver und einem Peer (PSTN)-Gateway, einer IP-Nebenstellenanlage oder dem Session Border Controller (SBC) eines Anbieters von Internettelefoniediensten (ITSP) für einen bestimmten Standort oder Dienst konfiguriert haben, für den die Medienverarbeitung durch den Vermittlungsserver umgangen werden soll.<BR>In diesem Thema wird auch davon ausgegangen, dass Sie alle zentralen Standorte und Zweigstellen im Topologie-Generator so definiert haben, dass Sie mit der netzwerkregion, dem Netzwerkstandort und der Subnetz Konfiguration übereinstimmen, die Sie gemäß den Schritten unter <A href="lync-server-2013-create-or-modify-a-network-region.md">erstellen oder Ändern einer netzwerkregion in lync Server 2013</A>, <A href="lync-server-2013-create-or-modify-a-network-site.md">erstellen oder Ändern eines Netzwerkstandorts in lync Server 2013</A>und einem <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">Netzwerkstandort in lync Server 2013 zuordnen</A>. Falls die Konfigurationen nicht übereinstimmen, ist die Medienumgehung nicht erfolgreich.
 
 
 
 </div>
 
-Zusätzlich zum Aktivieren der medienumgehung für einzelne trunk-Verbindungen, die einem Peer zugeordnet sind, müssen Sie auch die globalen Einstellungen konfigurieren. Wenn Sie die Schritte in diesem Thema zum Konfigurieren globaler Einstellungen für die medienumgehung verwenden, wird davon ausgegangen, dass eine oder beide der folgenden Situationen Ihre Konfiguration beeinflussen:
+Zusätzlich zur Aktivierung der Medienumgehung für einzelne Trunkverbindungen, die einem Peer zugeordnet sind, müssen Sie auch die globalen Einstellungen konfigurieren. Wenn Sie die globalen Einstellungen für die Medienumgehung anhand der hier beschriebenen Schritte durchführen, wird vorausgesetzt, dass eine der folgenden Bedingungen für Ihre Konfiguration zutrifft:
 
-  - Sie verfügen *nicht* über eine gute Verbindung zwischen lync Server-Endpunkten und allen Peers, für die Sie die medienumgehung für die trunk-Verbindung konfiguriert haben.
+  - Sie verfügen *nicht* über eine gute Konnektivität zwischen lync Server Endpunkten und allen Peers, für die Sie die medienumgehung für die trunkverbindung konfiguriert haben.
 
-  - Die Anrufannahme Steuerung (CAC) für die Bandbreitenverwaltung ist aktiviert.
+  - Die Anrufsteuerung (Call Admission Control, CAC) zur Bandbreitenverwaltung ist aktiviert.
     
     <div>
     
 
     > [!NOTE]
-    > Details zu den Überlegungen für die Anrufsteuerung und die medienumgehung finden Sie im Abschnitt "Anrufsteuerung für PSTN-Verbindungen" im Abschnitt " <A href="lync-server-2013-media-bypass-and-mediation-server.md">medienumgehung und Vermittlungsserver" in lync Server 2013</A> in der Planungsdokumentation.
+    > Ausführliche Informationen zu den Überlegungen zur Anrufsteuerung und zur medienumgehung finden Sie im Abschnitt "Anrufsteuerung für PSTN-Verbindungen" unter <A href="lync-server-2013-media-bypass-and-mediation-server.md">medienumgehung und Vermittlungsserver in lync Server 2013</A> in der Planungsdokumentation.
 
     
     </div>
 
 Die Informationen zu Netzwerkregionen und Netzwerkstandorten werden sowohl für die Anrufsteuerung als auch für die Medienumgehung verwendet, wenn beide der erweiterten Enterprise-VoIP-Funktionen aktiviert sind. Wenn Sie daher die Anrufsteuerung bereits konfiguriert haben, müssen Sie das folgende Verfahren zum Bearbeiten von Standort- und Regioneninformationen nicht speziell für die Medienumgehung ausführen. Führen Sie die Schritte des folgenden Verfahrens aus, wenn Sie noch keine Netzwerkregionen und Standorte für die Anrufsteuerung konfiguriert haben und die Einstellungen für die Medienumgehung ändern möchten.
 
-Oder führen Sie die folgenden Schritte aus, wenn Sie Website-und Regionsinformationen verwenden möchten, um die Umgehungs Entscheidung zu treffen, aber nicht die Möglichkeit haben, die Anrufsteuerung zu aktivieren. In diesem Fall müssen die Links zur Bandbreitenbeschränkung weiterhin über Netzwerk-standortübergreifende Richtlinien dargestellt werden, wie unter Erstellen von Netzwerk-standortübergreifenden [Richtlinien in lync Server 2013](lync-server-2013-create-network-intersite-policies.md)beschrieben. In diesem Fall sind die tatsächlichen Bandbreiteneinschränkungen nicht so wichtig, da die Anrufsteuerung nicht aktiviert wurde. Stattdessen werden diese Links zum Partitionieren von Subnetzen verwendet, um diejenigen anzugeben, die keine Bandbreitenbeschränkungen aufweisen und daher die medienumgehung verwenden können. Beachten Sie, dass dies auch der Fall ist, wenn die Anrufsteuerung und die medienumgehung aktiviert sind.
+Oder führen Sie diese Schritte aus, wenn die Informationen zu Standorten und Regionen für Entscheidungen zur Medienumgehung herangezogen werden sollen, Sie jedoch nicht die Anrufsteuerung aktivieren möchten. In diesem Fall müssen Links zur Bandbreiteneinschränkung weiterhin über Netzwerk-standortübergreifende Richtlinien dargestellt werden, wie unter [Create Network Standort-Richtlinien in lync Server 2013](lync-server-2013-create-network-intersite-policies.md)beschrieben. Die tatsächlichen Bandbreiteneinschränkungen sind hierbei weniger wichtig, da die Anrufsteuerung nicht aktiviert wurde. Stattdessen werden diese Verbindungen zur Partitionierung von Subnetzen verwendet, um Verbindungen mit Bandbreitenbeschränkungen anzugeben, die für die Medienumgehung eingesetzt werden können. Beachten Sie, dass dies auch gilt, wenn sowohl die Anrufsteuerung als auch die Medienumgehung aktiviert wurden.
 
-Damit die Umgehungsfunktion ordnungsgemäß funktioniert, muss die Konsistenz zwischen einer Website, wie Sie im Topologie-Generator definiert ist, und der Definition beim Konfigurieren von netzwerkregionen und Netzwerk Websites bestehen. Wenn Sie beispielsweise über eine Verzweigungs Website verfügen, die Sie im Topologie-Generator definiert haben, als ob nur ein PSTN-Gateway bereitgestellt wurde, muss diese Verzweigungs Website mit einer Enterprise-VoIP-Richtlinie konfiguriert werden, die es den Benutzern der Zweigstelle ermöglicht, ihre PSTN-Anrufe über das PSTN weiterzuleiten. Gateway an der Verzweigungs Website.
+Damit die Umgehung ordnungsgemäß funktioniert, muss außerdem Konsistenz zwischen einem Standort gemäß Definition im Topologie-Generator und wie er definiert ist, wenn Sie netzwerkregionen und Netzwerkstandorte konfigurieren. Wenn Sie beispielsweise einen Zweigstellenstandort haben, den Sie im Topologie-Generator als nur ein PSTN-Gateway festgelegt haben, muss dieser Zweigstellenstandort mit einer Enterprise-VoIP-Richtlinie konfiguriert werden, mit der Zweigstellenbenutzer ihre PSTN-Anrufe über das PSTN weiterleiten können. Gateway am Zweigstellenstandort.
 
 <div>
 
 ## <a name="to-configure-site-and-region-information-for-media-bypass"></a>So konfigurieren Sie Informationen zu Standorten und Regionen für die Medienumgehung
 
-1.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**.
 
@@ -80,7 +80,7 @@ Damit die Umgehungsfunktion ordnungsgemäß funktioniert, muss die Konsistenz zw
 
 4.  Aktivieren Sie auf der Seite **Globale Einstellungen bearbeiten** das Kontrollkästchen **Medienumgehung aktivieren**.
 
-5.  Klicken Sie auf **Standort- und Regionskonfiguration verwenden**.
+5.  Klicken Sie auf **Konfiguration von Standorten und Regionen verwenden**.
 
 6.  Falls erforderlich, aktivieren Sie das Kontrollkästchen **Umgehung für nicht zugeordnete Standorte aktivieren**.
     
@@ -88,20 +88,20 @@ Damit die Umgehungsfunktion ordnungsgemäß funktioniert, muss die Konsistenz zw
     
 
     > [!NOTE]
-    > Aktivieren Sie dieses Kontrollkästchen nur, wenn Sie über einen oder mehrere große Standorte ohne Bandbreiteneinschränkungen verfügen (z. B. ein großer Hauptstandort), die einer bestimmten Region zugeordnet sind, und Sie außerdem über einige Zweigniederlassungen mit Bandbreiteneinschränkungen verfügen, die derselben Region zugeordnet sind. Wenn Sie die Umgehung für nicht zugeordnete Standorte aktivieren, wird die Konfiguration optimiert, da Sie nur die den Zweigniederlassungen zugeordneten Subnetze angeben, statt sämtliche, allen Standorten zugeordnete Subnetze angeben zu müssen. Es wird empfohlen, dieses Kontrollkästchen nicht zu aktivieren, wenn die Anrufsteuerung aktiviert wurde.
+    > Aktivieren Sie dieses Kontrollkästchen nur dann, wenn Sie über einen oder mehrere große Standorte ohne Bandbreiteneinschränkungen verfügen (z. B. ein großer Hauptstandort), die einer bestimmten Region zugeordnet sind, und Sie außerdem über einige Zweigstellen mit Bandbreiteneinschränkungen verfügen, die derselben Region zugeordnet sind. Wenn Sie die Umgehung für nicht zugeordnete Standorte aktivieren, wird die Konfiguration optimiert, da Sie nur die den Zweigstandorten zugeordneten Subnetze angeben, statt sämtliche, allen Standorten zugeordnete Subnetze angeben zu müssen. Es wird empfohlen, dieses Kontrollkästchen nicht zu aktivieren, wenn die Anrufsteuerung aktiviert wurde.
 
     
     </div>
 
-7.  Klicken Sie auf **Commit ausführen**.
+7.  Klicken Sie auf **Commit**.
 
-Fügen Sie als nächstes Subnetze zur Netzwerk Website hinzu, wie in [Zuordnen von Subnetzen mit Netzwerk Websites für die medienumgehung in lync Server 2013](lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md)beschrieben. (Die eigentlichen Verfahren zum Verknüpfen von Subnetzen mit Netzwerkstandorten werden unter [Zuordnen eines Subnetzes zu einer Netzwerk Website in lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)beschrieben.) Nachdem Sie alle Subnetze mit Netzwerk Websites verknüpft haben, ist die Medien Umgehungs Bereitstellung abgeschlossen.
+Fügen Sie dann dem Netzwerkstandort Subnetze hinzu, wie in [Zuordnen von Subnetzen mit Netzwerkstandorten für die medienumgehung in lync Server 2013](lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md)beschrieben. (Die tatsächlichen Verfahren zum Zuordnen von Subnetzen zu Netzwerkstandorten werden in [Zuordnen eines Subnetzes mit einem Netzwerkstandort in lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)beschrieben.) Nachdem Sie alle Subnetze mit Netzwerkstandorten verknüpft haben, ist die Bereitstellung der medienumgehung abgeschlossen.
 
 <div>
 
 
 > [!IMPORTANT]
-> Wenn Sie noch keine Netzwerkregionen und Netzwerkstandorte erstellt haben, müssen Sie dies nachholen, bevor Sie mit der Bereitstellung der Medienumgehung fortfahren können. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-region.md">erstellen oder Ändern eines Netzwerkbereichs in lync Server 2013</A> und <A href="lync-server-2013-create-or-modify-a-network-site.md">erstellen oder Ändern einer Netzwerk Website in lync Server 2013</A>.
+> Wenn Sie noch keine Netzwerkregionen und Netzwerkstandorte erstellt haben, müssen Sie dies nachholen, bevor Sie mit der Bereitstellung der Medienumgehung fortfahren können. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-create-or-modify-a-network-region.md">erstellen oder Ändern einer netzwerkregion in lync Server 2013</A> und <A href="lync-server-2013-create-or-modify-a-network-site.md">erstellen oder Ändern eines Netzwerkstandorts in lync Server 2013</A>.
 
 
 
@@ -114,7 +114,7 @@ Fügen Sie als nächstes Subnetze zur Netzwerk Website hinzu, wie in [Zuordnen v
 ## <a name="see-also"></a>Siehe auch
 
 
-[Zuordnen von Subnetzen zu Netzwerk Websites zur medienumgehung in lync Server 2013](lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md)  
+[Zuordnen von Subnetzen zu Netzwerkstandorten für die medienumgehung in lync Server 2013](lync-server-2013-associate-subnets-with-network-sites-for-media-bypass.md)  
   
 
 </div>

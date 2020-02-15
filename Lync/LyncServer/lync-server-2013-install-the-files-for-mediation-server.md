@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Installieren der Dateien für den Vermittlungsserver'
+title: 'Lync Server 2013: Installieren der Dateien für Vermittlungsserver'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c84d5fc2c863e0e56af275a4bee084652742eeac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7549d5efad333038dd6633c0c74192b3293933ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763679"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046942"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-the-files-for-mediation-server-in-lync-server-2013"></a>Installieren der Dateien für den Vermittlungsserver in lync Server 2013
+# <a name="install-the-files-for-mediation-server-in-lync-server-2013"></a>Installieren der Dateien für Vermittlungsserver in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41763679"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-08-06_
+_**Letztes Änderungsstand des Themas:** 2012-08-06_
 
-Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie mindestens als lokaler Administrator beim Server angemeldet sein und ein Domänenbenutzerkonto verwenden, das mindestens Mitglied der Gruppe „RTCUniversalReadOnlyAdmins“ ist.
+Um dieses Verfahren erfolgreich abzuschließen, sollten Sie am Server mindestens als lokaler Administrator und als Domänenbenutzer angemeldet sein, der mindestens Mitglied der Gruppe RTCUniversalReadOnlyAdmins ist.
 
-Führen Sie die Schritte in diesem Thema aus, um den Bereitstellungs-Assistenten für lync Server 2013 auszuführen, um die Dateien für den Vermittlungsserver auf einem Computer zu installieren, den Sie einem Mediationsserver Pool hinzugefügt haben, als Sie den Pool mithilfe von Topologie-Generator definiert und veröffentlicht haben. Wenn Sie den Mediationsserver für Dateien installieren, können Sie auch das für jeden Computer in einem vermittlungsserverpool erforderliche Zertifikat installieren und zuweisen.
+Führen Sie die Schritte in diesem Thema aus, um lync Server 2013-Bereitstellungs-Assistenten auszuführen, um die Dateien für Vermittlungsserver auf einem Computer zu installieren, den Sie einem Vermittlungsserver Pool hinzugefügt haben, als Sie den Pool mithilfe des Topologie-Generators definiert und veröffentlicht haben. Bei der Installation von Dateien Vermittlungsserver müssen Sie auch das für jeden Computer in einem Vermittlungsserver-Pool erforderliche Zertifikat installieren und zuweisen.
 
-Wenn Sie auf dieser Website bereits Vermittlungsserver bereitgestellt haben, die sich auf den Front-End-Pools oder dem Standard Edition-Server befinden, können Sie dieses Thema überspringen und stattdessen die [Konfiguration von Trunks in lync Server 2013](lync-server-2013-configuring-trunks.md)fortsetzen.
+Wenn Sie auf dieser Website bereits Vermittlungsserver in den Front-End-Pools oder Standard Edition-Server bereitgestellt haben, können Sie dieses Thema überspringen und stattdessen mit der [Konfiguration von Trunks in lync Server 2013](lync-server-2013-configuring-trunks.md)fortfahren.
 
 <div>
 
 
 > [!NOTE]  
-> In diesem Thema wird davon ausgegangen, dass Sie bereits einen eigenständigen vermittlungsserverpool definiert und veröffentlicht haben, wie unter <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">Definieren eines Vermittlungsservers im Topologie-Generator in lync Server 2013</A> und <A href="lync-server-2013-publish-the-topology.md">Veröffentlichen der Topologie in lync Server 2013</A> in der Bereitstellungsdokumentation beschrieben ist. und Sie sichergestellt haben, dass die Computer im Vermittlungs Server Pool die Voraussetzungen erfüllen, die unter <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Software Voraussetzungen für Enterprise-VoIP in lync Server 2013</A> und <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">Sicherheits-und Konfigurationsvoraussetzungen für Enterprise-Komponenten beschrieben sind Sprachausgabe in lync Server 2013</A>
+> In diesem Thema wird davon ausgegangen, dass Sie bereits einen eigenständigen Vermittlungsserver Pool definiert und veröffentlicht haben, wie unter <A href="lync-server-2013-define-a-mediation-server-in-topology-builder.md">define a Vermittlungsserver in Topology Builder in lync Server 2013</A> beschrieben, und <A href="lync-server-2013-publish-the-topology.md">Veröffentlichen der Topologie in lync Server 2013</A> in der Bereitstellungsdokumentation und dass Sie sichergestellt haben, dass die Computer im Vermittlungsserver Pool die unter <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">Software Voraussetzungen für Enterprise-VoIP in lync Server 2013</A> beschriebenen Voraussetzungen erfüllen <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md"> Voice in lync Server 2013</A>.
 
 
 
@@ -55,35 +55,35 @@ Wenn Sie auf dieser Website bereits Vermittlungsserver bereitgestellt haben, die
 
 <div>
 
-## <a name="to-install-the-files-for-a-stand-alone-mediation-server-pool"></a>So installieren Sie die Dateien für einen eigenständigen Vermittlungsserverpool
+## <a name="to-install-the-files-for-a-stand-alone-mediation-server-pool"></a>So installieren Sie die Dateien für einen eigenständigen Vermittlungsserver Pool
 
 1.  Klicken Sie auf dem Installationsmedium mit der \<rechten Maustaste\>auf Installationsmedien**\\Setup\\amd64\\Setup. exe**, und klicken Sie dann auf **als Administrator ausführen**.
 
 2.  Klicken Sie auf der Seite **Installationsspeicherort** auf **OK**.
 
-3.  Klicken Sie auf der Seite **Endbenutzer-Lizenzvertrag** auf **Ich stimme zu** und klicken Sie anschließend auf **OK**. (Dieser Schritt ist erforderlich, um fortfahren zu können.)
+3.  Klicken Sie auf der Seite **Endbenutzer-Lizenzvertrag** auf **Ich akzeptiere**, und klicken Sie dann auf **OK**. (Erforderlich, um den Vorgang fortzusetzen.)
 
-4.  Klicken Sie auf der Seite mit dem **Bereitstellungs-Assistenten von lync Server 2010** auf **lync Server System installieren oder aktualisieren**.
+4.  Klicken Sie auf der Seite **lync Server 2010-Bereitstellungs-Assistenten** auf **lync Server System installieren oder aktualisieren**.
 
-5.  Klicken Sie neben **Schritt 1: Lokalen Konfigurationsspeicher installieren** auf **Ausführen** und folgen Sie den Anweisungen auf dem Bildschirm.
+5.  Klicken Sie neben **Schritt 1: lokalen Konfigurationsspeicher installieren**auf **Ausführen**, und folgen Sie dann den Anweisungen auf dem Bildschirm.
 
-6.  Übernehmen Sie auf der Seite **Lokales Replikat des zentralen Verwaltungsspeichers konfigurieren** die Standardeinstellung **Direkt aus zentralem Verwaltungsspeicher abrufen** und klicken Sie auf **Weiter**.
+6.  Übernehmen Sie auf der Seite **lokales Replikat von zentraler Verwaltungsspeicher konfigurieren** den Standard **Abruf direkt aus der zentraler Verwaltungsspeicher**, und klicken Sie dann auf **weiter**.
 
-7.  Wenn der Taskstatus auf der Seite **Befehle ausführen** als **Abgeschlossen** angezeigt wird, klicken Sie auf **Fertig stellen**.
+7.  Wenn der Aufgabenstatus als **abgeschlossen**angezeigt wird, klicken Sie auf der Seite **Befehle werden ausgeführt** auf **Fertig stellen**.
 
-8.  Klicken Sie neben **Schritt 2: Einrichten oder Entfernen von lync Server-Komponenten**auf **Ausführen**, und klicken Sie dann auf **weiter**.
+8.  Klicken Sie neben **Schritt 2: lync Server Komponenten einrichten oder entfernen**auf **Ausführen**, und klicken Sie dann auf **weiter**.
 
-9.  Wenn der Taskstatus auf der Seite **Befehle ausführen** als **Abgeschlossen** angezeigt wird, klicken Sie auf **Fertig stellen**.
+9.  Wenn der Aufgabenstatus als **abgeschlossen**angezeigt wird, klicken Sie auf der Seite **Befehle werden ausgeführt** auf **Fertig stellen**.
 
-10. Klicken Sie neben **Schritt 3: Zertifikate anfordern, installieren oder zuweisen** auf **Ausführen**. Folgen Sie den Anweisungen auf dem Bildschirm und übernehmen Sie die Standardeinstellungen. Da der Vermittlungsserver ein Zertifikat benötigt, müssen Sie **Schritt 3** zweimal ausführen: einmal zum Ausstellen und noch einmal zum Zuweisen des erforderlichen Zertifikats.
+10. Klicken Sie neben **Schritt 3: Zertifikate anfordern, installieren oder zuweisen**auf **Ausführen**. Folgen Sie den Anweisungen auf dem Bildschirm, und akzeptieren Sie die Standardeinstellungen. Für den Vermittlungsserver ist ein Zertifikat erforderlich, und Sie führen **Schritt 3** zweimal aus: einmal, um das erforderliche Zertifikat auszustellen und es erneut zuzuweisen.
 
-11. Wenn das Zertifikat ordnungsgemäß ausgestellt und zugewiesen wurde, klicken Sie neben **Schritt 4: Dienste starten** auf **Ausführen** und folgen Sie den Anweisungen auf dem Bildschirm.
+11. Wenn das Zertifikat ausgestellt und ordnungsgemäß zugewiesen wurde, klicken Sie neben **Schritt 4: Dienste starten**auf **Ausführen**, und folgen Sie dann den Anweisungen auf dem Bildschirm.
 
-12. Wenn **Schritt 4** erfolgreich abgeschlossen wurde, starten Sie den Server neu und melden Sie sich als Mitglied der Gruppe „Domänen-Admins“ an.
+12. Wenn **Schritt 4** erfolgreich abgeschlossen wurde, starten Sie den Server neu, und melden Sie sich als Mitglied der Admins-Gruppe am Server an.
 
-13. Überprüfen Sie auf dem Computer, auf dem Sie die lync Server-Systemsteuerung ausführen, auf der Seite **Topologie** der lync Server-Systemsteuerung, dass der Dienststatus des Vermittlungsservers als grünes Häkchen angezeigt wird. Wenn ein rotes X angezeigt wird, wählen Sie den Vermittlungsserver aus. Klicken Sie im Menü **Aktion** auf **Alle Dienste starten**.
+13. Überprüfen Sie auf dem Computer, auf dem Sie lync Server-Systemsteuerung durchführen, auf der Seite **Topologie** von lync Server-Systemsteuerung, ob der Dienststatus der Vermittlungsserver als grünes Häkchen angezeigt wird. Wenn stattdessen ein rotes X angezeigt wird, wählen Sie das Vermittlungsserver aus. Klicken Sie im Menü **Aktion** auf **alle Dienste starten**.
 
-Wenn Sie dem vermittlungsserverpool mehr als einen Computer hinzugefügt haben, führen Sie die Schritte in diesem Verfahren auf allen anderen Computern im vermittlungsserverpool aus. Wenn Sie keine Dateien für den Vermittlungsserver für andere Computer installieren müssen, führen Sie die Verfahren unter [Konfigurieren von Trunks in lync Server 2013](lync-server-2013-configuring-trunks.md) aus, um die Einstellungen für die trunk-Verbindung zwischen diesem vermittlungsserverpool (oder allen Vermittlungsservern an einem Standort) und seinem Peer zu konfigurieren.
+Wenn Sie dem Vermittlungsserver Pool mehr als einen Computer hinzugefügt haben, führen Sie die Schritte in diesem Verfahren auf allen anderen Computern im Vermittlungsserver-Pool aus. Wenn Sie keine Dateien für Vermittlungsserver für andere Computer installieren müssen, befolgen Sie die Verfahren unter Konfigurieren von [Trunks in lync Server 2013](lync-server-2013-configuring-trunks.md) , um Einstellungen für die trunkverbindung zwischen diesem Vermittlungsserver Pool (oder allen Vermittlungsservern an einem Standort) und seinem Peer zu konfigurieren.
 
 </div>
 
@@ -92,7 +92,7 @@ Wenn Sie dem vermittlungsserverpool mehr als einen Computer hinzugefügt haben, 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Anforderungen an Zertifikate für interne Server in Lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md)  
+[Zertifikatanforderungen für interne Server in lync Server 2013](lync-server-2013-certificate-requirements-for-internal-servers.md)  
   
 
 </div>

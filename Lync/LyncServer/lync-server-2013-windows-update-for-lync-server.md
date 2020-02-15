@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Windows Update für Lync Server'
+title: 'Lync Server 2013: Windows Update für lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 62625495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57949b051468241e18d8a121e9d79bc1fdb378f7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e70ac17e27508a7922d8353e6142b3b5f05b34e9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727395"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="windows-update-for-lync-server-2013"></a>Windows Update für Lync Server 2013
+# <a name="windows-update-for-lync-server-2013"></a>Windows Update für lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41727395"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-12-05_
+_**Letztes Änderungsstand des Themas:** 2013-12-05_
 
-Regelmäßiges Überprüfen und Anwenden von Updates und Sicherheitsupdates mithilfe von Windows Update Services. Dadurch werden Sicherheitsrisiken in anderen Systemkomponenten verhindert, die dazu führen können, dass Angreifer Zugriff auf Server mit Microsoft lync Server 2013 mit Administratorrechten erhalten und dadurch lync Server 2013 gefährden.
+Suchen Sie in regelmäßigen Abständen über den Dienst Windows Update nach Aktualisierungen und Sicherheitsupdates, und installieren Sie diese. Dadurch werden Sicherheitsrisiken in anderen Systemkomponenten verhindert, die dazu führen können, dass Angreifer Zugriff auf Server erhalten, die Microsoft lync Server 2013 mit Administratorrechten ausführen, und dadurch die lync Server 2013 gefährden.
 
-Updates für Microsoft SQL Server 2008 Express (64-Bit Edition) werden auf jedem lync Server 2013 Standard Edition-Server (für die Back-End-Datenbank) und auf allen anderen lync Server 2013-Serverrollen (für den lokalen Konfigurationsspeicher) ausgeführt, es sei denn, Sie haben diese aktualisiert Datenbanken zu SQL Server 2008 R2 Express. Sie sollten diese Datenbanken im Rahmen der routinemäßigen Aktualisierung des Sicherheitsupdates berücksichtigen, ebenso wie SQL Server in der Back-End-Datenbank eines Front-End-Pools, der Überwachungsdatenbank und der Archivierungsdatenbank.
+Updates für Microsoft SQL Server 2008 Express (64-Bit-Edition) werden auf jeder lync Server 2013 Standard Edition-Server (für die Back-End-Datenbank) und auf allen anderen lync Server 2013-Server Rollen (für den lokalen Konfigurationsspeicher) ausgeführt, es sei denn, Sie haben diese aktualisiert. Datenbanken zu SQL Server 2008 R2 Express. Genauso wie SQL Server in der Back-End-Datenbank eines Front-End-Pools, der Überwachungsdatenbank und der Archivierungsdatenbank sollten Sie diese Datenbanken als Bestandteil der regelmäßigen Wartung mit Sicherheitsupdates betrachten.
 
 <div>
 
-## <a name="best-practice"></a>Bewährte Methode
+## <a name="best-practice"></a>Bewährte Methoden
 
-  - Mit Windows Update auf dem Laufenden bleiben.
+  - Mit Windows Update auf dem neuesten Stand bleiben.
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f13087202b15cf9b25f0c32741c396c48f628908
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fe3d41021016d6d6e21e7112597bb6206dc46d95
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758557"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="voipdetails-table-in-lync-server-2013"></a>VoipDetails-Tabelle in Lync Server 2013
+# <a name="voipdetails-table-in-lync-server-2013"></a>VoipDetails-Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41758557"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Jeder Datensatz steht für 1 2-Party-Anrufe, bei denen mindestens ein Nutzer ein VoIP-Nutzer ist.
+Jeder Datensatz steht für einen Anruf mit zwei Teilnehmern, wovon  mindestens einer ein VoIP-Benutzer ist.
 
 
 <table>
@@ -58,63 +58,63 @@ Jeder Datensatz steht für 1 2-Party-Anrufe, bei denen mindestens ein Nutzer ein
 <tbody>
 <tr class="odd">
 <td><p><strong>SessionID</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td><p>Primary</p></td>
-<td><p>Uhrzeit der Sitzungsanforderung. Wird in Verbindung mit <strong>SessionIdSeq</strong> verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle Dialogfelder in lync Server 2013</a> .</p></td>
+<td><p>Zeitpunkt der Sitzungsanforderung. Wird zusammen mit <strong>SessionIdSeq</strong> verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Die ID-Nummer, um die Sitzung zu identifizieren. Wird in Verbindung mit <strong>SessionID</strong> -Mal verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle Dialogfelder in lync Server 2013</a> .</p></td>
+<td><p>ID zur Identifikation der Sitzung. Wird zusammen mit <strong>SessionIdTime</strong> verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie <a href="lync-server-2013-dialogs-table.md">in der Tabelle "Dialoge" in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromNumberId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p><strong>Telefonnummer</strong> des Anrufers. Weitere Informationen finden Sie <a href="lync-server-2013-phones-table.md">in der Tabelle Telefone in lync Server 2013</a> . Wenn nicht NULL und <strong>FromGatewayId</strong> nicht NULL ist, war der Aufrufer ein PSTN-Benutzer.</p></td>
+<td><p><strong>PhoneId</strong> des Anrufers. Weitere Informationen finden Sie <a href="lync-server-2013-phones-table.md">in der Tabelle Telefone in lync Server 2013</a> . Wenn nicht NULL und <strong>FromGatewayId</strong> ist nicht NULL, handelt es sich beim Anrufer um einen PSTN-Benutzer.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConnectedNumberId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p><strong>Telefonnummer</strong> des anrufempfängers. Weitere Informationen finden Sie <a href="lync-server-2013-phones-table.md">in der Tabelle Telefone in lync Server 2013</a> . Wenn nicht NULL und <strong>togateway</strong> -Nr NULL ist, war der Anrufempfänger ein PSTN-Benutzer.</p></td>
+<td><p><strong>PhoneId</strong> des Anrufempfängers. Weitere Informationen finden Sie <a href="lync-server-2013-phones-table.md">in der Tabelle Telefone in lync Server 2013</a> . Wenn nicht NULL und <strong>FromGatewayId</strong> ist nicht NULL, handelt es sich beim Anrufempfänger um einen PSTN-Benutzer.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromMediationServerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Der Vermittlungs Server, aus dem der Anruf kommt. Weitere Informationen finden Sie <a href="lync-server-2013-mediationservers-table.md">in der MediationServers-Tabelle in lync Server 2013</a> .</p></td>
+<td><p>Der Vermittlungsserver, von dem der Anruf kommt. Weitere Informationen finden Sie <a href="lync-server-2013-mediationservers-table.md">in der MediationServers-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ToMediationServerId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Der Vermittlungs Server wird aufgerufen. Weitere Informationen finden Sie <a href="lync-server-2013-mediationservers-table.md">in der MediationServers-Tabelle in lync Server 2013</a> .</p></td>
+<td><p>Der Vermittlungsserver, an den der Anruf geht. Weitere Informationen finden Sie <a href="lync-server-2013-mediationservers-table.md">in der MediationServers-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FromGatewayId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Gateway, aus dem der Anruf kommt. Weitere Informationen finden Sie <a href="lync-server-2013-gateways-table.md">in der Tabelle Gateways in lync Server 2013</a> .</p></td>
+<td><p>Das Gateway, von dem der Anruf kommt. Weitere Informationen finden Sie <a href="lync-server-2013-gateways-table.md">in der Tabelle Gateways in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Togatewayservernummer</strong></p></td>
+<td><p><strong>Togateways</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Gateway, an das der Anruf geht. Weitere Informationen finden Sie <a href="lync-server-2013-gateways-table.md">in der Tabelle Gateways in lync Server 2013</a> .</p></td>
+<td><p>Das Gateway, an das der Anruf geht. Weitere Informationen finden Sie <a href="lync-server-2013-gateways-table.md">in der Tabelle Gateways in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DisconnectedbyURIId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Der URI des Benutzers, der den Anruf getrennt hat, wenn der Benutzer über einen URI verfügt. Weitere Informationen finden Sie <a href="lync-server-2013-users-table.md">in der Tabelle Benutzer in lync Server 2013</a> .</p></td>
+<td><p>URI des Benutzers, der den Anruf unterbrochen hat, sofern der Benutzer über einen URI verfügt. Weitere Informationen finden Sie <a href="lync-server-2013-users-table.md">in der Tabelle Benutzer in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DisconnectedbyPhoneId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Die ID des Telefons, das den Anruf getrennt hat, wurde von einem Telefon getrennt. Weitere Informationen finden Sie <a href="lync-server-2013-phones-table.md">in der Tabelle Telefone in lync Server 2013</a> .</p></td>
+<td><p>ID des Telefons, das den Anruf unterbrochen hat, sofern der Anruf von einem Telefon unterbrochen wurde. Weitere Informationen finden Sie <a href="lync-server-2013-phones-table.md">in der Tabelle Telefone in lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planen des Parkens von Anrufen'
+title: 'Lync Server 2013: Planung für das Parken von Anrufen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 068c574cc21a3f81d91491da521911aa56c5ce83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0f42d4b61302b17d8d6247d7a9a1dcc5dbe6b218
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754385"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037037"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-call-park-in-lync-server-2013"></a>Planen des Parkens von Anrufen in Lync Server 2013
+# <a name="planning-for-call-park-in-lync-server-2013"></a>Planung für das Parken von Anrufen in lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41754385"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-07_
+_**Letztes Änderungsstand des Themas:** 2012-09-07_
 
-Mit der Anwendung lync Server-Anruf parken können Enterprise-VoIP-Benutzer einen Anruf in Wartestellung setzen und später von einem beliebigen Telefon aus abrufen. Der Benutzer, der den Anruf abgestellt hat, kann entweder die von Call Park zur Verfügung gestellte Umlaufbahn Nummer wählen, um den geparkten Anruf abzurufen, oder einen externen Mechanismus wie Instant Messaging oder ein Pagingsystem verwenden, um eine andere Person zu bitten, den Anruf abzurufen. Dieser Abschnitt enthält Planungsinformationen, die speziell für das Parken von Anrufen spezifisch sind.
+Die lync Server Anwendung zum Parken von Anrufen ermöglicht es Enterprise-VoIP-Benutzern, einen Anruf einzuhalten und diesen dann später von einem beliebigen Telefon aus abzurufen. Der Benutzer, der den Anruf geparkt hat, kann entweder die Nummer des Orbits wählen, die von der Funktion zum Parken von Anrufen bereitgestellt wird, um den geparkten Anruf wiederaufzunehmen, oder einen anderen Benutzer mithilfe eines externen Mechanismus auffordern, die Nummer abzurufen (beispielsweise über ein Chat- oder Paging-System). Dieser Abschnitt enthält Planungsinformationen, die für das Parken von Anrufen spezifisch sind.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Übersicht über den Parken von Anrufen in lync Server 2013](lync-server-2013-overview-of-call-park.md)
+  - [Übersicht über das Parken von Anrufen in lync Server 2013](lync-server-2013-overview-of-call-park.md)
 
-  - [Komponenten für das Parken von Anrufen in Lync Server 2013](lync-server-2013-components-used-by-call-park.md)
+  - [Für das Parken von Anrufen in lync Server 2013 verwendete Komponenten](lync-server-2013-components-used-by-call-park.md)
 
-  - [Technische Anforderungen für das Parken von Anrufen in Lync Server 2013](lync-server-2013-technical-requirements-for-call-park.md)
+  - [Technische Anforderungen für das Parken von Anrufen in lync Server 2013](lync-server-2013-technical-requirements-for-call-park.md)
 
-  - [Unterstützte Clients für das Parken von Anrufen in Lync Server 2013](lync-server-2013-clients-supported-for-call-park.md)
+  - [Für das Parken von Anrufen unterstützte Clients in lync Server 2013](lync-server-2013-clients-supported-for-call-park.md)
 
-  - [Kapazitätsplanung für das Parken von Anrufen in Lync Server 2013](lync-server-2013-capacity-planning-for-call-park.md)
+  - [Kapazitätsplanung für das Parken von Anrufen in lync Server 2013](lync-server-2013-capacity-planning-for-call-park.md)
 
-  - [Bereitstellungsprozess für den Parken von Anrufen in lync Server 2013](lync-server-2013-deployment-process-for-call-park.md)
+  - [Bereitstellungsprozess für das Parken von Anrufen in lync Server 2013](lync-server-2013-deployment-process-for-call-park.md)
 
 </div>
 

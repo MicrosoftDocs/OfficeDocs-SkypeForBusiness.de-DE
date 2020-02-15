@@ -12,16 +12,16 @@ ms:contentKeyID: 54973692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44df62031e679c641b4c7dbe6b5c205e1ae899e8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a49fb76019fbb3bc3356fed5de7a67b0e3a10350
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728965"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046378"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,45 +35,45 @@ ms.locfileid: "41728965"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-07-03_
+_**Letztes Änderungsstand des Themas:** 2013-07-03_
 
-Im folgenden Abschnitt wird beschrieben, wie Sie eine Unternehmensstammzertifizierungsstelle konfigurieren, um die Smartcard-Authentifizierung zu unterstützen. Informationen zum Installieren einer Unternehmensstammzertifizierungsstelle finden Sie unter Installieren einer Unternehmensstammzertifizierungsstelle [http://go.microsoft.com/fwlink/p/?LinkID=313364](http://go.microsoft.com/fwlink/p/?linkid=313364)unter.
+Im folgenden Abschnitt wird beschrieben, wie Sie eine Unternehmensstammzertifizierungsstelle (Certification Authority, ca) zur Unterstützung der Smartcard-Authentifizierung konfigurieren. Informationen zum Installieren einer Stammzertifizierungsstelle für Unternehmen finden Sie unter Installieren einer Stamm Zertifizierungs [http://go.microsoft.com/fwlink/p/?LinkID=313364](http://go.microsoft.com/fwlink/p/?linkid=313364)Stelle für Unternehmen unter.
 
 <div>
 
-## <a name="configuring-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>Konfigurieren einer Unternehmensstammzertifizierungsstelle zur Unterstützung der Smartcard-Authentifizierung
+## <a name="configuring-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>Konfigurieren einer Stammzertifizierungsstelle für Unternehmen zur Unterstützung der Smartcard-Authentifizierung
 
-In den folgenden Schritten wird das Konfigurieren einer Stammzertifizierungsstelle im Unternehmen zur Unterstützung der SmartCard-Authentifizierung beschrieben:
+In den folgenden Schritten wird das Konfigurieren einer Stammzertifizierungsstelle für Unternehmen zur Unterstützung der Smartcard-Authentifizierung beschrieben:
 
-1.  Melden Sie sich beim CA-Computer des Unternehmens mit dem Konto eines Domänenadministrators an.
+1.  Melden Sie sich mit einem Domänenadministratorkonto beim Enterprise-Zertifizierungsstellencomputer an.
 
-2.  Starten Sie den System-Manager und überprüfen Sie, ob die Zertifizierungsstellen-Webregistrierungsrolle installiert ist.
+2.  Starten Sie System-Manager, und stellen Sie sicher, dass die Webregistrierungs Rolle der Zertifizierungsstelle installiert ist.
 
-3.  Öffnen Sie im Menü **Verwaltungstools** die Verwaltungskonsole **Zertifizierungsstelle**.
+3.  Öffnen Sie im Menü **Verwaltungs Tools** die Verwaltungskonsole der **Zertifizierungsstelle** .
 
-4.  Erweitern Sie im Navigationsbereich den Knoten **Zertifizierungsstelle**.
+4.  Erweitern Sie im Navigationsbereich die Option **Zertifizierungsstelle**.
 
-5.  Klicken Sie mit der rechten Maustaste auf **Zertifikatvorlagen**, wählen Sie **Neu** und anschließend **Auszustellende Zertifikatvorlage** aus.
+5.  Klicken Sie mit der rechten Maustaste auf **Zertifikatvorlagen**, wählen Sie **neu**, und wählen Sie dann **Auszustellende Zertifikatvorlage**aus.
 
-6.  Wählen Sie **Enrollment Agent**, **SmartCard-Benutzer** und **SmartCard-Anmeldung** aus.
+6.  Wählen Sie **Registrierungs-Agent**, Smartcard- **Benutzer**und Smartcard- **Anmeldung**aus.
 
-7.  Klicken Sie anschließend auf **OK**.
+7.  Klicken Sie auf **OK**.
 
 8.  Klicken Sie mit der rechten Maustaste auf **Zertifikatvorlagen**.
 
-9.  Wählen Sie **Verwalten** aus.
+9.  Wählen Sie **Manage**aus.
 
-10. Öffnen Sie die Eigenschaften der Vorlage „SmartCard-Benutzer“.
+10. Öffnen Sie die Eigenschaften der Smartcard-Benutzervorlage.
 
-11. Klicken Sie auf die Registerkarte **Sicherheit**.
+11. Klicken Sie auf die Registerkarte **Sicherheit** .
 
 12. Ändern Sie die Berechtigungen wie folgt:
     
-      - Fügen Sie einzelne AD-Konten mit den Berechtigungen „Lesen/Registrieren (Zulassen)“ hinzu, oder
+      - Hinzufügen einzelner Benutzer Ad-Konten mit Berechtigungen zum Lesen/registrieren (zulassen) oder
     
-      - Fügen Sie eine Sicherheitsgruppe hinzu, die SmartCard-Benutzer mit den Berechtigungen „Lesen/Registrieren (Zulassen)“ enthält, hinzu, oder
+      - Hinzufügen einer Sicherheitsgruppe, die Smartcard-Benutzer mit Berechtigungen zum Lesen/registrieren (zulassen) enthält, oder
     
-      - Fügen Sie die Gruppe „Domänenbenutzer“ mit den Berechtigungen „Lesen/Registrieren (Zulassen“) hinzu
+      - Hinzufügen der Gruppe "Domänenbenutzer" mit Berechtigungen zum Lesen/registrieren (zulassen)
 
 </div>
 

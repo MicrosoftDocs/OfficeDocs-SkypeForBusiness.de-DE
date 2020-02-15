@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Adressbuchserver-Cmdlets'
+title: 'Lync Server 2013: Cmdlets für den Adressbuch Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183793
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5117b7a17d607ec995df371fd0cd80fd7c05aeab
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1782dbc22b94ed492878c545df70fa1bdaaeeeb3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737995"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038447"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="address-book-server-cmdlets-in-lync-server-2013"></a>Cmdlets des Adressbuchservers in lync Server 2013
+# <a name="address-book-server-cmdlets-in-lync-server-2013"></a>Cmdlets für den Adressbuch Server in lync Server 2013
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "41737995"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-26_
+_**Letztes Änderungsstand des Themas:** 2012-06-26_
 
-Adressbuchserver sind Vermittler zwischen Active Directory-Domänendiensten und Microsoft lync Server 2013. Der Adressbuchserver stellt sicher, dass die in lync Server 2013 gespeicherten Benutzerinformationen mit den in Active Directory gespeicherten Benutzerinformationen synchron sind. Dies erfolgt durch regelmäßiges Synchronisieren von Adressbuchdateien mit Informationen, die in der Benutzerdatenbank gespeichert sind. Lync Server enthält wiederum eine Reihe von Cmdlets für die Verwaltung von Adressbuch Servern.
+Adressbuchserver sind Vermittler zwischen Active Directory-Domänendienste und Microsoft lync Server 2013. Der Adressbuchserver stellt sicher, dass die in lync Server 2013 gespeicherten Benutzerinformationen mit den in Active Directory gespeicherten Benutzerinformationen synchron sind. Hierzu werden die Adressbuchdateien regelmäßig mit den in der Benutzerdatenbank gespeicherten Informationen synchronisiert. Lync Server enthält wiederum eine Reihe von Cmdlets zum Verwalten von Adressbuch Servern.
 
 <div>
 
-## <a name="address-book-server-cmdlets"></a>Adressbuch Server-Cmdlets
+## <a name="address-book-server-cmdlets"></a>Cmdlets für Adressbuchserver
 
-In der lync Server-Systemsteuerung können die Adressbuchserver Einstellungen nicht konfiguriert werden. Windows PowerShell ist das wichtigste Tool für die Verwaltung dieser Einstellungen. Die folgende Liste enthält Cmdlets, die sich direkt auf die Verwaltung des Adressbuchservers beziehen:
+Die Adressbuch Server Einstellungen können in lync Server-Systemsteuerung nicht konfiguriert werden. Windows PowerShell ist das primäre Tool für die Verwaltung dieser Einstellungen. In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Verwaltung von Adressbuchservern eingesetzt werden:
 
 **Adressbuchserver**
 
   - <span></span>  
-    [Get-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg398132(v=OCS.15))
+    [Get-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398132(v=OCS.15))
 
   - <span></span>  
-    [Neu – CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg398395(v=OCS.15))
+    [New-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398395(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg398934(v=OCS.15))
+    [Remove-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg398934(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsAddressBookConfiguration](https://technet.microsoft.com/en-us/library/Gg412784(v=OCS.15))
+    [Gruppe-CsAddressBookConfiguration](https://technet.microsoft.com/library/Gg412784(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Update-CsAddressBook](https://technet.microsoft.com/en-us/library/Gg398194(v=OCS.15))
+    [Update-CsAddressBook](https://technet.microsoft.com/library/Gg398194(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Debug-CsAddressBookReplication](https://technet.microsoft.com/en-us/library/JJ205232(v=OCS.15))
+    [Debug-csaddressbookreplication "](https://technet.microsoft.com/library/JJ205232(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsAddressBookService](https://technet.microsoft.com/en-us/library/Gg398661(v=OCS.15))
+    [Test-CsAddressBookService](https://technet.microsoft.com/library/Gg398661(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsAddressBookWebQuery](https://technet.microsoft.com/en-us/library/Gg398773(v=OCS.15))
+    [Test-CsAddressBookWebQuery](https://technet.microsoft.com/library/Gg398773(v=OCS.15))
 
 </div>
 

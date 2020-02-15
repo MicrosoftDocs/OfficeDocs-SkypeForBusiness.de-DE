@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren der Nummernbereiche für die Gruppenanruf Abholung'
+title: 'Lync Server 2013: Konfigurieren der Nummernbereiche für die gruppenanrufannahme'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51541529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13bd822dda38dd3b6cb5d6b801460ad463375e62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 47639ea1e158ce5cb4e6463b1fb953fc50412c79
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729845"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037675"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729845"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-22_
+_**Letztes Änderungsstand des Themas:** 2013-02-22_
 
-Die Abholung von Gruppen anrufen basiert auf der Anwendung "Parken". Wenn Sie die Gruppenanruf Abholung bereitstellen, konfigurieren Sie die Orbit-Tabelle des Anruf Parks mit Bereichen von Telefonnummern, die als Gruppennummern für die Anruf Abholung festgelegt sind. Bei diesen Gruppennummern handelt es sich um Nummern, die Benutzer wählen, um Anrufe anzunehmen, die an einen Benutzer eingehen.
+Die gruppenanrufannahme basiert auf dem Anwendung zum Parken von anrufen. Wenn Sie die gruppenanrufannahme bereitstellen, konfigurieren Sie die Orbit-Tabelle für das Parken von Anrufen mit Bereichen von Telefonnummern, die als Nummern für die Anrufannahme Gruppe festgelegt sind. Bei diesen Gruppennummern handelt es sich um die Nummern, die Benutzer wählen, um Anrufe abzuholen, die für einen anderen Benutzer Klingeln.
 
-Wie bei Orbitnummern zum Parken von Anrufen muss es sich auch bei Nummern für die Gruppenanrufannahme um virtuelle Durchwahlen handeln, denen kein Benutzer oder Telefon zugewiesen ist. Jeder Front-End-Pool, in dem Sie die Gruppenanruf Abholung bereitstellen, kann über einen oder mehrere Bereiche der Gruppennummern für die Anruf Abholung verfügen. Die Gruppennummern Bereiche müssen in der lync Server-Bereitstellung global eindeutig sein.
+Wie die Umlaufbahn Nummern für die Anrufannahme müssen Gruppennummern für die Anrufannahme virtuelle Erweiterungen sein, denen kein Benutzer oder Telefon zugewiesen ist. Jede Front-End-Pool, in der Sie die gruppenanrufannahme bereitstellen, kann über einen oder mehrere Bereiche der Anrufannahme Gruppennummern verfügen. Die Gruppennummern Bereiche müssen in der lync Server-Bereitstellung global eindeutig sein.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Create or modify a Group Call Pickup number range in Lync Server 2013](lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md)
+  - [Erstellen oder Ändern eines Nummernbereichs für die gruppenanrufannahme in lync Server 2013](lync-server-2013-create-or-modify-a-group-call-pickup-number-range.md)
 
   - [Löschen eines Gruppenanruf-Pickup-Nummernbereichs in lync Server 2013](lync-server-2013-delete-a-group-call-pickup-number-range.md)
 

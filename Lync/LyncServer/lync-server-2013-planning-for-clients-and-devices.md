@@ -12,16 +12,16 @@ ms:contentKeyID: 48184598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89ddf40f5f713481ddda36a072c2fd5b91e3f80f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f4a35eb8d388a42bb15a5ea71a1016ac355bf0ff
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725445"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037017"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41725445"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-04_
+_**Letztes Änderungsstand des Themas:** 2012-06-04_
 
-In den Themen in diesem Abschnitt wird beschrieben, wie Sie für lync Server 2013-Clients und-Geräte in Ihrer Organisation planen.
+In den Themen in diesem Abschnitt wird beschrieben, wie Sie lync Server 2013-Clients und-Geräte in Ihrer Organisation planen.
 
 <div>
 
@@ -45,7 +45,7 @@ In den Themen in diesem Abschnitt wird beschrieben, wie Sie für lync Server 201
 
   - [Planen von Clients in lync Server 2013](lync-server-2013-planning-for-clients.md)
 
-  - [Planen für mobile Clients in lync Server 2013](lync-server-2013-planning-for-mobile-clients.md)
+  - [Planen von mobilen Clients in lync Server 2013](lync-server-2013-planning-for-mobile-clients.md)
 
   - [Planen von Geräten in lync Server 2013](lync-server-2013-planning-for-devices.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Serverrollen'
+title: Lync Server 2013 Server Rollen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b22115bf137c388fd6cd15103ac882056affa4f6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 093161cec5a13ac12840776dec731773782966c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764853"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051327"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="server-roles-in-lync-server-2013"></a>Serverrollen in Lync Server 2013
+# <a name="server-roles-in-lync-server-2013"></a>Server Rollen in lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764853"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-10-07_
+_**Letztes Änderungsstand des Themas:** 2013-10-07_
 
-Jeder Server, auf dem lync Server ausgeführt wird, führt mindestens eine *Serverrolle*aus. Eine Serverrolle ist ein definierter Satz von lync Server-Funktionen, die von diesem Server bereitgestellt werden. Sie müssen nicht alle verfügbaren Serverrollen in Ihrem Netzwerk bereitstellen. Installieren Sie lediglich die Serverrollen, die die erforderliche Funktionalität enthalten.
+Jeder Server, auf dem lync Server ausgeführt wird, führt mindestens eine *Serverrolle*aus. Eine Serverrolle ist eine definierte Gruppe von lync Server Funktionalitäten, die von diesem Server bereitgestellt werden. Sie müssen nicht alle verfügbaren Serverrollen in Ihrem Netzwerk bereitstellen. Installieren Sie lediglich die Serverrollen, die erforderliche Funktionalität bereitstellen.
 
-Auch wenn Sie mit den Serverrollen in lync Server nicht vertraut sind, kann das Planungs Tool Sie auf der Grundlage der gewünschten Features zur besten Lösung für die Server führen, die Sie bereitstellen müssen. Dieser Abschnitt enthält eine kurze Übersicht über die Serverrollen und die allgemeinen Features, die Sie bereitstellen:
+Selbst wenn Sie mit den Serverrollen in lync Server nicht vertraut sind, kann das Planungs Tool Sie auf der Grundlage der gewünschten Features zur optimalen Lösung für die bereitzustellenden Server führen. Dieser Abschnitt bietet eine kurze Übersicht über die Serverrollen und die allgemeinen Funktionen, die diese bereitstellen:
 
   - Standard Edition-Server
 
@@ -53,21 +53,21 @@ Auch wenn Sie mit den Serverrollen in lync Server nicht vertraut sind, kann das 
 
   - Front-End-Server für beständigen Chat
 
-  - Beständiger Chat Speicher (beständiger Chat-Back-End-Server)
+  - Beständiger Chatspeicher (Back-End-Server für beständigen Chat)
 
-  - Kompatibilitäts Speicher für beständigen Chat (Kompatibilitäts-Compliance-Back-End-Server)
+  - Kompatibilitätsspeicher für beständigen Chat (Back-End-Server zur Kompatibilität für beständigen Chat)
 
-Um Skalierbarkeit und hohe Verfügbarkeit zu bieten, können Sie für die meisten Serverrollen *Pools* mit mehreren Servern bereitstellen, auf denen dieselbe Serverrolle ausgeführt wird. Auf allen Servern innerhalb eines Pools muss dieselbe Serverrolle ausgeführt werden. Bei den meisten Typen von Pools in lync Server müssen Sie ein Lastenausgleichsmodul bereitstellen, um den Datenverkehr zwischen den verschiedenen Servern im Pool zu verbreiten. Lync Server unterstützt sowohl DNS (Domain Name System)-Lastenausgleich als auch Hardwarelastenausgleichs.
+Um Skalierbarkeit und hohe Verfügbarkeit zu bieten, können Sie für die meisten Serverrollen *Pools* mit mehreren Servern bereitstellen, auf denen dieselbe Serverrolle ausgeführt wird. Auf allen Servern innerhalb eines Pools muss dieselbe Serverrolle ausgeführt werden. Bei den meisten pooltypen in lync Server müssen Sie einen Lastenausgleich bereitstellen, um den Datenverkehr zwischen den verschiedenen Servern im Pool zu verteilen. Lync Server unterstützt sowohl Domain Name System (DNS) Lastenausgleich als auch Hardwaregeräte zum Lastenausgleich.
 
 <div>
 
 ## <a name="standard-edition-server"></a>Standard Edition-Server
 
-Der Standard Edition-Server ist für kleine Organisationen und für Pilotprojekte großer Organisationen konzipiert. Damit können viele der Features von lync Server, einschließlich der erforderlichen Datenbanken, auf einem einzelnen Server ausgeführt werden. Dies ermöglicht Ihnen, lync Server-Funktionen zu einem niedrigeren Preis zu nutzen, bietet jedoch keine echte Lösung mit hoher Verfügbarkeit.
+Der Standard Edition-Server eignet sich für kleine Organisationen und für Pilotprojekte großer Organisationen. Viele der Features von lync Server, einschließlich der erforderlichen Datenbanken, können auf einem einzelnen Server ausgeführt werden. Auf diese Weise können Sie lync Server Funktionalität zu niedrigeren Kosten Nutzen, jedoch keine echte Hochverfügbarkeitslösung anbieten.
 
-Der Standard Edition-Server ermöglicht Ihnen die Verwendung von Instant Messaging (im), Anwesenheitsfunktionen, Konferenzen und Enterprise-VoIP, die alle auf einem Server ausgeführt werden.
+Standard Edition-Server können Sie Instant Messaging (Sofortnachrichten), Anwesenheitsinformationen, Konferenzen und Enterprise-VoIP verwenden, die alle auf einem einzigen Server auszuführen sind.
 
-Verwenden Sie für eine Lösung mit hoher Verfügbarkeit die lync Server Enterprise Edition.
+Verwenden Sie lync Server Enterprise Edition für eine hoch verfügbare Lösung.
 
 </div>
 
@@ -75,45 +75,45 @@ Verwenden Sie für eine Lösung mit hoher Verfügbarkeit die lync Server Enterpr
 
 ## <a name="front-end-server-and-back-end-server"></a>Front-End-Server und Back-End-Server
 
-In lync Server Enterprise Edition ist der Front-End-Server die Hauptserver Rolle und führt viele grundlegende lync-Serverfunktionen aus. Der Front-End-Server ist zusammen mit den Back-End-Servern die einzige Server Rolle, die für eine lync Server Enterprise Edition-Bereitstellung erforderlich ist.
+In lync Server Enterprise Edition ist der Front-End-Server die Haupt Server Rolle und führt viele grundlegende lync Server Funktionen aus. Die Front-End-Server, zusammen mit den Back-End-Servern, sind die einzigen Server Rollen, die in einer lync Server Enterprise Edition-Bereitstellung erforderlich sind.
 
-Bei einem *Front-End-Pool* handelt es sich um einen Satz von Front-End-Servern, die identisch konfiguriert sind und zusammenarbeiten, um Dienste für eine gemeinsame Gruppe von Benutzern bereitzustellen. Ein Pool mit mehreren Servern, auf denen dieselbe Rolle ausgeführt wird, bietet Skalierbarkeit und Failoverfunktionen.
+Bei einem *Front-End-Pool* handelt es sich um einen Satz von Front-End-Servern mit identischer Konfiguration, die gemeinsam zur Bereitstellung von Diensten für eine gemeinsame Benutzergruppe eingesetzt werden. Ein Pool mit mehreren Servern, auf denen dieselbe Rolle ausgeführt wird, bietet Skalierbarkeit und Failoverfunktionen.
 
-Der Front-End-Server enthält Folgendes:
+Der Front-End-Server bietet u. a. die folgenden Funktionen:
 
-  - Benutzerauthentifizierung und-Registrierung
+  - Benutzerauthentifizierung und -registrierung
 
-  - Anwesenheitsinformationen und Kontaktkarten Austausch
+  - Anwesenheitsinformationen und Visitenkartenaustausch
 
-  - Erweiterung von Adressbuchdiensten und Verteilerlisten
+  - Adressbuchdienste und Verteilerlistenerweiterung
 
-  - Chat-Funktionen, einschließlich mehrteiliger Chat Konferenzen
+  - Sofortnachrichtenfunktionalität, einschließlich Sofortnachrichtenkonferenzen mit mehreren Teilnehmern
 
-  - Webkonferenzen, PSTN-Einwahlkonferenzen und a/V-Konferenzen (falls bereitgestellt)
+  - Webkonferenzen, PSTN-Einwahlkonferenzen und A/V-Konferenzen (sofern bereitgestellt)
 
-  - Anwendungshosting, für beide Anwendungen, die in lync Server enthalten sind (beispielsweise Konferenzzentrale und reaktionsgruppenanwendung) und Anwendungen von Drittanbietern
+  - Anwendungshosting für beide Anwendungen, die in lync Server enthalten sind (beispielsweise Konferenzzentrale und Reaktionsgruppenanwendung) und Anwendungen von Drittanbietern
 
-  - Optional eine Überwachungsfunktion, um Nutzungsinformationen in Form von Kommunikationsdatensätzen und Daten zu Anruffehlern zu erfassen. Diese Informationen enthalten Metriken zur Qualität der Medien (Audio und Video), die in Ihrem Netzwerk für Enterprise-Sprachanrufe und A/V-Konferenzen durchlaufen werden.
+  - Optional eine Überwachungsfunktion, um Nutzungsinformationen in Form von Kommunikationsdatensätzen und Daten zu Anruffehlern zu erfassen. Diese Informationen liefern Metriken zur Qualität der Medien (Audio und Video), die Ihr Netzwerk für Enterprise-VoIP-Anrufe und A/V-Konferenzen durchlaufen.
 
   - Webkomponenten zu unterstützten webbasierten Aufgaben wie Webplaner und Join Launcher.
 
-  - Optional eine Archivierung der Chatnachrichtenkommunikation und Besprechungsinhalte, um rechtliche Vorgaben einzuhalten. Ausführliche Informationen finden Sie unter [Planen der Archivierung in lync Server 2013](lync-server-2013-planning-for-archiving.md) in der Planungsdokumentation.
+  - Optional eine Archivierung der Sofortnachrichtenkommunikation und Besprechungsinhalte, um rechtliche Vorgaben einzuhalten. Ausführliche Informationen finden Sie unter [Planning for Archiving in lync Server 2013](lync-server-2013-planning-for-archiving.md) in der Planungsdokumentation.
     
-    In lync Server 2010 und früheren Versionen waren Überwachung und Archivierung getrennte Server Rollen, nicht auf dem Front-End-Server.
+    In lync Server 2010 und früheren Versionen waren Überwachung und Archivierung getrennte Server Rollen, die nicht auf Front-End-Server nebeneinander standen.
 
   - Optional, sofern der beständige Chat aktiviert ist, Webdienste für den beständigen Chat für die Chatroom-Verwaltung und Webdienste für den beständigen Chat für das Hochladen/Herunterladen von Dateien.
 
 Front-End-Pools bilden außerdem den primären Speicher für Benutzer- und Konferenzdaten. Die Informationen zu den einzelnen Benutzern werden auf drei Front-End-Servern im Pool repliziert und auf den Back-End-Servern gesichert.
 
-Darüber hinaus führt ein Front-End-Pool in der Bereitstellung auch den *zentralen Verwaltungs Server*aus, der grundlegende Konfigurationsdaten für alle Server mit lync Server verwaltet und bereitstellt. Der zentrale Verwaltungs Server bietet auch die lync Server-Verwaltungsshell und die Dateiübertragungsfunktionen.
+Darüber hinaus wird in einer Front-End-Pool in der Bereitstellung auch der *zentrale Verwaltungs Server*ausgeführt, der grundlegende Konfigurationsdaten für alle Server verwaltet und bereitstellt, auf denen lync Server ausgeführt wird. Der zentrale Verwaltungs Server bietet auch lync Server-Verwaltungsshell-und Dateiübertragungsfunktionen.
 
-Die Back-End-Server sind Datenbankserver mit Microsoft SQL Server, die die Datenbankdienste für den Front-End-Pool bereitstellen. Die Back-End-Server dienen als Sicherungsspeicher für die Benutzer-und Konferenzdaten des Pools und sind die primären Speicher für andere Datenbanken wie die Datenbank der Reaktionsgruppe. Sie können einen einzelnen Back-End-Server verwenden, aber für Failover empfiehlt sich eine Lösung, die die SQL Server-Spiegelung verwendet. Back-End-Server führen keine lync Server-Software aus.
+Bei den Back-End-Servern handelt es sich um Datenbankserver mit Microsoft SQL Server, die die Datenbankdienste für die Front-End-Pool bereitstellen. Die Back-End-Server dienen als Sicherungsspeicher für die Benutzer-und Konferenzdaten des Pools und sind die primären Speicher für andere Datenbanken wie die Reaktionsgruppen Datenbank. Sie können einen einzelnen Back-End-Server verwenden, aber eine Lösung, die SQL Server Spiegelung verwendet, wird für ein Failover empfohlen. Back-End-Server führen keine lync Server Software aus.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Es wird nicht empfohlen, abstimmen lync Server-Datenbanken mit anderen Datenbanken zu verwenden. Andernfalls können Verfügbarkeit und Leistung beeinträchtigt werden.
+> Es wird nicht empfohlen, abstimmen lync Server Datenbanken mit anderen Datenbanken zu verwenden. Andernfalls können Verfügbarkeit und Leistung beeinträchtigt werden.
 
 
 
@@ -127,7 +127,7 @@ Die in den Datenbanken auf einem Back-End-Server gespeicherten Daten umfassen An
 
 ## <a name="edge-server"></a>Edgeserver
 
-Edge-Server ermöglicht Ihren Benutzern die Kommunikation und Zusammenarbeit mit Benutzern außerhalb der Firewalls der Organisation. Diese externen Benutzer können die eigenen Benutzer der Organisation einbeziehen, die derzeit an einem externen Standort arbeiten, Benutzer aus Föderationspartner Organisationen und externe Benutzer, die eingeladen wurden, an Konferenzen teilzunehmen, die in ihrer lync Server-Bereitstellung gehostet werden. Edge-Server ermöglicht auch die Konnektivität mit öffentlichen Chat Diensten wie Windows Live, AOL, Yahoo\!und Google Talk.
+Edgeserver ermöglicht Ihren Benutzern die Kommunikation und Zusammenarbeit mit Benutzern außerhalb der Firewalls der Organisation. Zu diesen externen Benutzern können die eigenen Benutzer der Organisation gehören, die derzeit extern arbeiten, Benutzer aus Verbundpartner Organisationen und externe Benutzer, die eingeladen wurden, an Konferenzen teilzunehmen, die in ihrer lync Server-Bereitstellung gehostet werden. Edgeserver ermöglicht auch die Konnektivität mit öffentlichen Instant Messaging-Verbindungs Diensten, einschließlich Windows Live,\!AOL, Yahoo und Google Talk.
 
 <div>
 
@@ -135,21 +135,21 @@ Edge-Server ermöglicht Ihren Benutzern die Kommunikation und Zusammenarbeit mit
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>Ab dem 1. September, 2012, ist die Microsoft lync Public im Connectivity-Benutzerabonnementlizenz ("PIC USL") nicht mehr für den Kauf von neuen oder erneuernden Vereinbarungen verfügbar. Kunden mit aktiven Lizenzen sind in der Lage, weiterhin mit Yahoo! zu verbünden Messenger, bis der Dienst das Datum beendet hat. Datum des Endes des Lebenszyklus von Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">unter Unterstützung für öffentliche Instant Messenger-Konnektivität in lync Server 2013</A>.</P>
+> <P>Seit dem 1. September 2012 ist die Microsoft lync Public Chat Connectivity-Benutzerabonnementlizenz ("PIC USL") nicht mehr für neue oder erneuerte Verträge verfügbar. Kunden mit aktiven Lizenzen können weiterhin mit Yahoo! zusammenarbeiten. Messenger, bis der Dienst das Datum heruntergefahren hat. Ein End-of-Life-Datum vom Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for Public Instant Messenger Connectivity in lync Server 2013</A>.</P>
 > <LI>
-> <P>Bei der PIC-USL handelt es sich um eine Abonnementlizenz pro Benutzer pro Monat, die für die Föderation von lync Server oder Office Communications Server mit Yahoo! erforderlich ist. Messenger. Die Möglichkeit von Microsoft, diesen Dienst bereitzustellen, war von der Unterstützung durch Yahoo! abhängig, deren zugrunde liegende Vereinbarung abgewickelt wird.</P>
+> <P>Bei der PIC-USL handelt es sich um eine Abonnementlizenz pro Benutzer pro Monat, die für lync Server oder Office Communications Server für die Zusammensetzung mit Yahoo! erforderlich ist. Messenger. Die Fähigkeit von Microsoft, diesen Dienst bereitzustellen, wurde von der Unterstützung von Yahoo! abhängig gemacht, die zugrunde liegende Vereinbarung, für die die Rückabwicklung erfolgt.</P>
 > <LI>
-> <P>Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen Organisationen und Personen in der ganzen Welt. Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-und Gerätelizenzen außerhalb der lync-Standard CAL erforderlich. Skype Federation wird dieser Liste hinzugefügt und ermöglicht es lync-Benutzern, Hunderte von Millionen von Personen mit Chat und Sprache zu erreichen.</P></LI></UL>
+> <P>Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen verschiedenen Organisationen und mit Einzelpersonen auf der ganzen Welt. Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-/Gerätelizenzen außerhalb der lync-Standard-CAL erforderlich. Skype Federation wird dieser Liste hinzugefügt, sodass lync-Benutzer Hunderte Millionen von Benutzern mit Chat und VoIP erreichen können.</P></LI></UL>
 
 
 
 </div>
 
-Durch die Bereitstellung von Edge Server werden auch Mobilitätsdienste aktiviert, die die lync-Funktionalität auf mobilen Geräten unterstützen. Benutzer können mit unterstützten mobilen Geräten (Apple iOS, Android, Windows Phone oder Nokia) Aktionen wie Senden und Empfangen von Chatnachrichten, Anzeigen von Kontakten und Anzeigen der Anwesenheit ausführen. Darüber hinaus unterstützen Mobile Geräte einige Enterprise-VoIP-Features, wie beispielsweise klicken, um an einer Konferenz teilzunehmen, über Arbeit anzurufen, eine Rufnummer zu erreichen, Voicemail und verpasste Anrufe zu tätigen. Die Mobilitätsfunktion unterstützt auch *Pushbenachrichtigungen* für mobile Geräte, die das Ausführen von Anwendungen im Hintergrund nicht unterstützen. Eine Pushbenachrichtigung ist eine an ein mobiles Gerät gesendete Benachrichtigung über ein Ereignis, das auftritt, wenn eine mobile Anwendung inaktiv ist.
+Bei der Bereitstellung des Edgeservers werden außerdem die Mobilitätsdienste aktiviert, mit denen die Lync-Funktionalität auf mobilen Geräten unterstützt wird. Benutzer können mit unterstützten mobilen Geräten (Apple iOS, Android, Windows Phone oder Nokia) Aktionen ausführen wie Senden und Empfangen von Sofortnachrichten, Anzeigen von Kontakten und Anzeigen der Anwesenheit. Zudem unterstützen mobile Geräte einige Enterprise-VoIP-Features, beispielsweise die Teilnahme an einer Besprechung durch Klicken, Geschäftlich anrufen, Erreichbarkeit unter einer Nummer, Voicemail und Anrufe in Abwesenheit. Das Mobilitätsfeature unterstützt auch *Pushbenachrichtigungen* für mobile Geräte, die das Ausführen von Anwendungen im Hintergrund nicht unterstützen. Eine Pushbenachrichtigung ist eine an ein mobiles Gerät gesendete Benachrichtigung über ein Ereignis, das auftritt, wenn eine mobile Anwendung inaktiv ist.
 
-Die Edgeserver umfassen außerdem einen vollständig integrierten XMPP-Proxy (Extensible Messaging and Presence Protocol), wobei das XMPP-Gateway auf den Front-End-Servern integriert ist. Sie können diese XMPP-Komponenten so konfigurieren, dass Ihre lync Server 2013-Benutzer Kontakte aus XMPP-basierten Partnern (wie Google Talk) für Sofortnachrichten und Anwesenheitsinformationen hinzufügen können.
+Die Edgeserver umfassen außerdem einen vollständig integrierten XMPP-Proxy (Extensible Messaging and Presence Protocol), wobei das XMPP-Gateway auf den Front-End-Servern integriert ist. Sie können diese XMPP-Komponenten so konfigurieren, dass Ihre lync Server 2013-Benutzer Kontakte von XMPP-basierten Partnern (wie Google Talk) für Chatnachrichten und Anwesenheitsinformationen hinzufügen können.
 
-Ausführliche Informationen finden Sie unter [Planen des Zugriffs externer Benutzer in lync Server 2013](lync-server-2013-planning-for-external-user-access.md) in der Planungsdokumentation.
+Ausführliche Informationen finden Sie unter [Planning for external User Access in lync Server 2013](lync-server-2013-planning-for-external-user-access.md) in der Planungsdokumentation.
 
 </div>
 
@@ -157,9 +157,9 @@ Ausführliche Informationen finden Sie unter [Planen des Zugriffs externer Benut
 
 ## <a name="mediation-server"></a>Vermittlungsserver
 
-Mediation Server ist eine notwendige Komponente für die Implementierung von Enterprise-VoIP und Einwahlkonferenzen. Der Vermittlungs Server übersetzt Signalisierungen und in einigen Konfigurationen Medien zwischen Ihrer internen lync Server-Infrastruktur und einem PSTN-Gateway (Public Switched Telephone Network), IP-PBX oder einem SIP-Trunk (Session Initiation Protocol). Sie können den Vermittlungsserver auf dem gleichen Server wie dem Front-End-Server ausführen oder in einen eigenständigen vermittlungsserverpool unterteilt.
+Vermittlungsserver ist eine notwendige Komponente für die Implementierung von Enterprise-VoIP und Einwahlkonferenzen. Vermittlungsserver übersetzt das signalisieren und in einigen Konfigurationen Medien zwischen der internen lync Server-Infrastruktur und einem PSTN-Gateway (Public Switched Telephone Network), einer IP-Nebenstellenanlage oder einem SIP-Trunk (Session Initiation Protocol). Sie können den Vermittlungsserver gemeinsam mit dem Front-End-Sever auf demselben Server oder getrennt in einem eigenständigen Vermittlungsserverpool ausführen.
 
-Ausführliche Informationen finden Sie in der Planning-Dokumentation unter [Mediation Server Component in lync Server 2013](lync-server-2013-mediation-server-component.md) .
+Ausführliche Informationen finden Sie unter [Vermittlungsserver-Komponente in lync Server 2013](lync-server-2013-mediation-server-component.md) in der Planungsdokumentation.
 
 </div>
 
@@ -167,7 +167,7 @@ Ausführliche Informationen finden Sie in der Planning-Dokumentation unter [Medi
 
 ## <a name="director"></a>Director
 
-Directors können lync Server-Benutzeranforderungen authentifizieren, jedoch keine Benutzerkonten oder Anwesenheits-oder Konferenzdienste. Directors sind zur Verbesserung der Sicherheit insbesondere in Bereitstellungen nützlich, in denen der Zugriff durch externe Benutzer aktiviert ist. Der Director kann Anforderungen authentifizieren, bevor sie an interne Server weitergeleitet werden. Bei Denial-of-Service-Angriffen enden die Angriffe beim Director und erreichen nicht die Front-End-Server. Ausführliche Informationen finden Sie unter [Szenarien für den Director in lync Server 2013](lync-server-2013-scenarios-for-the-director.md) in der Planungsdokumentation.
+Directors können lync Server Benutzeranforderungen authentifizieren, aber keine Benutzerkonten zu Hause oder Anwesenheits-oder Konferenzdienste bereitstellen. Directors sind zur Verbesserung der Sicherheit insbesondere in Bereitstellungen nützlich, in denen der Zugriff durch externe Benutzer aktiviert ist. Der Director kann Anforderungen authentifizieren, bevor sie an interne Server weitergeleitet werden. Bei Denial-of-Service-Angriffen enden die Angriffe beim Director und erreichen nicht die Front-End-Server. Ausführliche Informationen finden Sie unter [Szenarien für den Director in lync Server 2013](lync-server-2013-scenarios-for-the-director.md) in der Planungsdokumentation.
 
 </div>
 
@@ -177,9 +177,9 @@ Directors können lync Server-Benutzeranforderungen authentifizieren, jedoch kei
 
 Durch den beständigen Chat können Benutzer an themenbasierten Unterhaltungen mit mehreren Teilnehmern teilnehmen, die langfristig erhalten bleiben. Auf dem Front-End-Server für beständigen Chat wird der beständige Chatdienst ausgeführt. Auf dem Back-End-Server für beständigen Chat werden die Chatverlaufsdaten sowie Informationen zu Kategorien und Chatrooms gespeichert. Auf dem optionalen Back-End-Server zur Kompatibilität für den beständigen Chat können Chatinhalte sowie Kompatibilitätsereignisse zum Zweck der Einhaltung von Bestimmungen gespeichert werden.
 
-Auf Servern mit lync Server Standard Edition kann auch beständiger Chat auf demselben Server ausgeführt werden. Der Front-End-Server für beständigen Chat mit Enterprise Edition-Front-End-Server kann nicht collocate werden.
+Server, auf denen lync Server Standard Edition ausgeführt wird, können auch beständigen Chat auf demselben Server ausführen. Sie können den Front-End-Server für beständigen Chat nicht mit Enterprise Edition-Front-End-Server collocate.
 
-Ausführliche Informationen finden Sie unter [Planen des beständigen Chat Servers in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md).
+Ausführliche Informationen finden Sie unter [Planning for persistent Chat Server in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md).
 
 </div>
 
@@ -191,10 +191,10 @@ Ausführliche Informationen finden Sie unter [Planen des beständigen Chat Serve
 [Vermittlungsserver Komponente in lync Server 2013](lync-server-2013-mediation-server-component.md)  
 
 
-[Planen der Archivierung in Lync Server 2013](lync-server-2013-planning-for-archiving.md)  
-[Planen des Zugriffs externer Benutzer in Lync Server 2013](lync-server-2013-planning-for-external-user-access.md)  
-[Szenarien für den Director in Lync Server 2013](lync-server-2013-scenarios-for-the-director.md)  
-[Planen für den Server für beständigen Chat in Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md)  
+[Planen der Archivierung in lync Server 2013](lync-server-2013-planning-for-archiving.md)  
+[Planen des Zugriffs durch externe Benutzer in lync Server 2013](lync-server-2013-planning-for-external-user-access.md)  
+[Szenarien für den Director in lync Server 2013](lync-server-2013-scenarios-for-the-director.md)  
+[Planen von Servern für beständigen Chat in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md)  
   
 
 </div>

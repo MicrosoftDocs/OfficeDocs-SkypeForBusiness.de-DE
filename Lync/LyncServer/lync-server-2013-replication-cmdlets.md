@@ -12,16 +12,16 @@ ms:contentKeyID: 48185527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e1772a538330c897cdcc77e75e7ad796792c1d2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 25a9de5a754545aa49c4a7d9dda6b8378f448eab
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724235"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050847"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,52 +35,52 @@ ms.locfileid: "41724235"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-09_
+_**Letztes Änderungsstand des Themas:** 2012-10-09_
 
-Die Replikations-Cmdlets bieten eine Möglichkeit, die lync Server-Replikation zu überwachen und zu verwalten. Sie können diese Cmdlets verwenden, um Replikationseinstellungen zu konfigurieren. So überwachen Sie den Replikationsfortschritt und die Replikation auf einem Server manuell erzwingen.
+Die Cmdlets für die Replikation bieten Ihnen die Möglichkeit, lync Server Replikation zu überwachen und zu verwalten. Sie können mit diesen Cmdlets Replikationseinstellungen konfigurieren, den Replikationsfortschritt überwachen und die Replikation auf einem Server manuell erzwingen.
 
 <div>
 
-## <a name="replication-cmdlets"></a>Replikations-Cmdlets
+## <a name="replication-cmdlets"></a>Cmdlets für die Replikation
 
-Die folgende Liste enthält Cmdlets, die sich direkt auf die Verwaltung der Replikation beziehen:
+In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Replikationsverwaltung eingesetzt werden:
 
-**Replikations**
+**Replikation**
 
   - <span></span>  
-    [Debug-CsInterPoolReplication](https://technet.microsoft.com/en-us/library/JJ619185(v=OCS.15))
+    [Debug-CsInterPoolReplication](https://technet.microsoft.com/library/JJ619185(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Invoke-CsManagementStoreReplication](https://technet.microsoft.com/en-us/library/Gg413060(v=OCS.15))
+    [Invoke-CsManagementStoreReplication](https://technet.microsoft.com/library/Gg413060(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsManagementStoreReplicationStatus](https://technet.microsoft.com/en-us/library/Gg399052(v=OCS.15))
+    [Get-CsManagementStoreReplicationStatus](https://technet.microsoft.com/library/Gg399052(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Enable-CsReplica](https://technet.microsoft.com/en-us/library/Gg425965(v=OCS.15))
+    [Enable-csreplica "](https://technet.microsoft.com/library/Gg425965(v=OCS.15))
 
   - <span></span>  
-    [Test-CsReplica](https://technet.microsoft.com/en-us/library/JJ205289(v=OCS.15))
+    [Test-csreplica "](https://technet.microsoft.com/library/JJ205289(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398548(v=OCS.15))
+    [Get-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398548(v=OCS.15))
 
   - <span></span>  
-    [Neu – CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg399059(v=OCS.15))
+    [New-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg399059(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg425738(v=OCS.15))
+    [Remove-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg425738(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsUserReplicatorConfiguration](https://technet.microsoft.com/en-us/library/Gg398540(v=OCS.15))
+    [Gruppe-CsUserReplicatorConfiguration](https://technet.microsoft.com/library/Gg398540(v=OCS.15))
 
 </div>
 

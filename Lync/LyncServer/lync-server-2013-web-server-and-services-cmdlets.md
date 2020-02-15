@@ -12,20 +12,20 @@ ms:contentKeyID: 48183326
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffd517f46d6d1793ad1f947f56b1d7e423bfb269
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2f65acbee339a868f7656b853a9bc611f567c381
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758505"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041264"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="web-server-and-services-cmdlets-in-lync-server-2013"></a>Webserver-und Dienste-Cmdlets in lync Server 2013
+# <a name="web-server-and-services-cmdlets-in-lync-server-2013"></a>Cmdlets für Webserver und Dienste in lync Server 2013
 
 </div>
 
@@ -35,101 +35,101 @@ ms.locfileid: "41758505"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-18_
+_**Letztes Änderungsstand des Themas:** 2013-02-18_
 
-Viele Microsoft lync Server 2013-Komponenten sind webbasiert: Diese Komponenten verwenden entweder Webdienste oder Webseiten, um Ihre Aufgaben auszuführen. Mit den Webserver-und Webdienste-Cmdlets können Sie beispielsweise Webservereinstellungen konfigurieren und einfache URLs verwalten. Einfache URLs erleichtern Benutzern die Teilnahme an Besprechungen und Konferenzen und erleichtern Administratoren die Anmeldung bei der lync Server 2013-Systemsteuerung.
+Viele Microsoft lync Server 2013 Komponenten sind webbasiert: Diese Komponenten verwenden entweder Webdienste oder Webseiten, um Ihre Aufgaben auszuführen. Mithilfe der Cmdlets für Webserver und -dienste können Sie unter anderem Webservereinstellungen konfigurieren und einfache URLs verwalten. Einfache URLs erleichtern Benutzern die Teilnahme an Besprechungen und Konferenzen und erleichtern Administratoren die Anmeldung bei der lync Server 2013-Systemsteuerung.
 
 <div>
 
-## <a name="web-server-and-web-services-cmdlets"></a>Webserver-und Webdienste-Cmdlets
+## <a name="web-server-and-web-services-cmdlets"></a>Cmdlets für Webserver und -dienste
 
-Die folgende Liste enthält Cmdlets, die sich direkt auf die Verwaltung von Webservern und Webdiensten beziehen:
+In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Verwaltung von Webservern und Webdiensten eingesetzt werden:
 
-**Web Server und Dienste**
+**Webserver und Webdienste**
 
   - <span></span>  
-    [Neu – CsSimpleUrl](https://technet.microsoft.com/en-us/library/Gg398180(v=OCS.15))
+    [New-CsSimpleUrl](https://technet.microsoft.com/library/Gg398180(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsSimpleUrlConfiguration](https://technet.microsoft.com/en-us/library/Gg398392(v=OCS.15))
+    [Get-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg398392(v=OCS.15))
 
   - <span></span>  
-    [Neu – CsSimpleUrlConfiguration](https://technet.microsoft.com/en-us/library/Gg425813(v=OCS.15))
+    [New-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg425813(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsSimpleUrlConfiguration](https://technet.microsoft.com/en-us/library/Gg398515(v=OCS.15))
+    [Remove-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg398515(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsSimpleUrlConfiguration](https://technet.microsoft.com/en-us/library/Gg412991(v=OCS.15))
+    [Gruppe-CsSimpleUrlConfiguration](https://technet.microsoft.com/library/Gg412991(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Neu – CsSimpleUrlEntry](https://technet.microsoft.com/en-us/library/Gg425902(v=OCS.15))
+    [New-CsSimpleUrlEntry](https://technet.microsoft.com/library/Gg425902(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsWebOrigin](https://technet.microsoft.com/en-us/library/JJ950236(v=OCS.15))
+    [New-CsWebOrigin](https://technet.microsoft.com/library/JJ950236(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Satz-CsWebServer](https://technet.microsoft.com/en-us/library/Gg398759(v=OCS.15))
+    [Gruppe-CsWebServer](https://technet.microsoft.com/library/Gg398759(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsWebServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg425751(v=OCS.15))
+    [Get-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg425751(v=OCS.15))
 
   - <span></span>  
-    [Neu – CsWebServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398440(v=OCS.15))
+    [New-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398440(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsWebServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398266(v=OCS.15))
+    [Remove-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398266(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsWebServiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398396(v=OCS.15))
+    [Gruppe-CsWebServiceConfiguration](https://technet.microsoft.com/library/Gg398396(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsWebTrustedCACertificate](https://technet.microsoft.com/en-us/library/Gg412746(v=OCS.15))
+    [New-CsWebTrustedCACertificate](https://technet.microsoft.com/library/Gg412746(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [New-CsKerberosAccount](https://technet.microsoft.com/en-us/library/Gg398485(v=OCS.15))
+    [New-CsKerberosAccount](https://technet.microsoft.com/library/Gg398485(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398526(v=OCS.15))
+    [Get-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398526(v=OCS.15))
 
   - <span></span>  
-    [New-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398074(v=OCS.15))
+    [New-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398074(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg413052(v=OCS.15))
+    [Remove-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg413052(v=OCS.15))
 
   - <span></span>  
-    [Set-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg398232(v=OCS.15))
+    [Gruppe-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg398232(v=OCS.15))
 
   - <span></span>  
-    [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg425938(v=OCS.15))
+    [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Set-CsKerberosAccountPassword](https://technet.microsoft.com/en-us/library/Gg398659(v=OCS.15))
+    [Gruppe-CsKerberosAccountPassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsWebApp](https://technet.microsoft.com/en-us/library/Hh689989(v=OCS.15))
+  - [Test-CsWebApp](https://technet.microsoft.com/library/Hh689989(v=OCS.15))
 
-  - [Test-CsWebAppAnonymous](https://technet.microsoft.com/en-us/library/Hh690041(v=OCS.15))
+  - [Test-CsWebAppAnonymous](https://technet.microsoft.com/library/Hh690041(v=OCS.15))
 
 </div>
 

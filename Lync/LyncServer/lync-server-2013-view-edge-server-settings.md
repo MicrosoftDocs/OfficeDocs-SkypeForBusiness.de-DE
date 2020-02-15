@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anzeigen von Edgeserver-Einstellungen'
+title: 'Lync Server 2013: Anzeigen von Edgeserver Einstellungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969612
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6eaab70f2f6d651d6446aaa4a569277494b7a9ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e978e28ea2c9d64a842c40237f1e5943c30d0a41
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738739"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051609"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-edge-server-settings-in-lync-server-2013"></a>Anzeigen von Edgeserver-Einstellungen in lync Server 2013
+# <a name="view-edge-server-settings-in-lync-server-2013"></a>Anzeigen von Edgeserver Einstellungen in lync Server 2013
 
 </div>
 
@@ -35,51 +35,51 @@ ms.locfileid: "41738739"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-05-20_
+_**Letztes Änderungsstand des Themas:** 2014-05-20_
 
-Allgemeine Edgeserver-Konfigurationen sollten anhand der Daten in der Konfigurationsverwaltungsdatenbank überprüft werden, um sicherzustellen, dass alle Änderungen gemäß den definierten Änderungskontrollverfahren dokumentiert wurden.
+Allgemeine Edgeserver Konfigurationen sollten anhand der Daten in der Konfigurationsverwaltungsdatenbank überprüft werden, damit sichergestellt ist, dass alle Änderungen gemäß den definierten Änderungskontrollverfahren dokumentiert wurden.
 
-Weitere Prüfungen können die in den folgenden Abschnitten beschriebenen enthalten:
+Weitere Überprüfungen könnten die in den folgenden Abschnitten beschriebenen umfassen:
 
 <div>
 
-## <a name="verify-the-allow-and-block-lists"></a>Überprüfen der Listen "zulassen" und "blockieren"
+## <a name="verify-the-allow-and-block-lists"></a>Überprüfen der Zulassungs-und Sperrlisten
 
-Überprüfen Sie die SIP-URI-Listen "zulassen" und "blockieren" für Verbunddomänen, um zu ermitteln, ob aufgelistete Namespaces weiterhin gültig sind.
+Überprüfen Sie die Listen SIP-URI "zulassen" und "blockieren" für Verbunddomänen, um zu ermitteln, ob aufgelistete Namespaces noch gültig sind.
 
-Sie können Windows PowerShell verwenden, um die zulässigen und blockierten Listen anzuzeigen. Führen Sie den folgenden Windows PowerShell-Befehl aus, um die Domänen in der Liste zugelassene Domänen zu überprüfen:
+Sie können Windows PowerShell verwenden, um die zulässigen und blockierten Listen anzuzeigen. Um die Domänen in der Liste zugelassene Domänen zu überprüfen, führen Sie den folgenden Windows PowerShell Befehl aus:
 
 `Get-CsAllowedDomain`
 
-Dieser Befehl gibt ähnliche Informationen für die Domänen in der Liste der zulässigen Domänen zurück:
+Dieser Befehl gibt Informationen wie diese für die Domänen in der Liste der zugelassenen Domänen zurück:
 
-Identität: contoso.com
+Identity: contoso.com
 
 Domäne: contoso.com
 
-ProxyFqdn :
+ProxyFqdn
 
 Kommentar
 
-MarkForMonitoring: falsch
+MarkForMonitoring: false
 
 Kommentar
 
-Verwenden Sie den folgenden Befehl, um die Domänen in der Liste der blockierten Domänen zu überprüfen:
+Verwenden Sie den folgenden Befehl, um die Domänen in der Liste blockierter Domänen zu überprüfen:
 
 `Get-CsBlockedDomain`
 
-Sie erhalten wiederum Informationen wie diesen für jede blockierte Domäne:
+Sie erhalten wiederum Informationen wie diese für jede blockierte Domäne:
 
-Identität: tailspintoys.com
+Identity: tailspintoys.com
 
 Domäne: tailspintoys.com
 
-Mit Windows PowerShell können Sie auch überprüfen, ob Sie eine Verbindung mit den Domänen in der Liste der zulässigen Domänen herstellen können. Mit diesem Befehl wird beispielsweise die Verbindung zwischen Ihrem Edgeserver (dem TargetFqdn) und dem Verbunddomänen-contoso.com überprüft:
+Mit Windows PowerShell können Sie auch überprüfen, ob Sie eine Verbindung mit den Domänen in der Liste der zugelassenen Domänen herstellen können. Mit diesem Befehl wird beispielsweise die Verbindung zwischen dem Edgeserver (TargetFqdn) und der contoso.com der Verbunddomäne überprüft:
 
 `Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"`
 
-Dieser Befehl überprüft die Verbindung zwischen Ihrem Edgeserver und allen Domänen, die in der Liste der zulässigen Domänen enthalten sind:
+Mit diesem Befehl wird die Verbindung zwischen Ihrem Edgeserver und allen Domänen überprüft, die in der Liste der zugelassenen Domänen gefunden werden:
 
 `Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Domain}`
 
@@ -91,7 +91,7 @@ Dieser Befehl überprüft die Verbindung zwischen Ihrem Edgeserver und allen Dom
 
 Wenn mehrere Edgeserver in einem Lastenausgleichsarray bereitgestellt werden, sollten Sie überprüfen, ob alle Edgeserver im Array auf die gleiche Weise konfiguriert sind.
 
-Sie können die Einstellungen für Edgeserver im Detailbereich der lync Server 2013-Erweiterung für das Computerverwaltungs-Snap-in anzeigen.
+Sie können Einstellungen für Edgeserver im Detailbereich der lync Server 2013-Erweiterung für das Snap-in "Computer Verwaltung" anzeigen.
 
 </div>
 

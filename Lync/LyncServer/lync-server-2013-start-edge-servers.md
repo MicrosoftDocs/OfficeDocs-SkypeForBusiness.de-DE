@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Starten der Edgeserver'
+title: 'Lync Server 2013: Start Edge Servers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185963
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2488e81c0512e8698337209161558b2789cd2f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 948529b62e9752010b9b4ad808f681dd1797f2d9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764421"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038797"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="start-edge-servers-in-lync-server-2013"></a>Starten der Edgeserver in Lync Server 2013
+# <a name="start-edge-servers-in-lync-server-2013"></a>Starten der Edgeserver in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41764421"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-01-16_
+_**Letztes Änderungsstand des Themas:** 2012-01-16_
 
-Nachdem Sie die Einrichtung der Edgeserver und Load-Balancer abgeschlossen haben, müssen Sie die Dienste auf jedem Edgeserver starten.
+Nachdem Sie die Einstellungen für die Edgeserver und Lastenausgleichsmodule abgeschlossen haben, müssen Sie die Dienste auf jeder Edgeserver starten.
 
 <div>
 
 ## <a name="to-start-the-services"></a>So starten Sie die Dienste
 
-1.  Klicken Sie auf jedem Edgeserver im Bereitstellungs-Assistenten neben **Schritt 4: Dienste starten**auf **Ausführen**.
+1.  Klicken Sie auf jeder Edgeserver im Bereitstellungs-Assistenten neben **Schritt 4: Dienste starten**auf **Ausführen**.
 
-2.  Überprüfen Sie auf der Seite **lync Server 15-Dienste starten** die Liste der Dienste, und klicken Sie dann auf **weiter** , um die Dienste zu starten.
+2.  Überprüfen Sie auf der Seite **lync Server 15 Dienste starten** die Liste der Dienste, und klicken Sie dann auf **weiter** , um die Dienste zu starten.
 
 3.  Nachdem die Dienste gestartet wurden, klicken Sie auf **Fertig stellen** , um den Assistenten zu schließen.
 
 4.  Klicken Sie unter **Schritt 4: Dienste starten**auf **Dienst Status (optional)**.
 
-5.  Überprüfen Sie in der Microsoft Management Console (MMC) **Dienste** auf dem Server, ob alle lync Server 2013-Dienste ausgeführt werden.
+5.  Überprüfen Sie in der Microsoft Management Console (MMC) **Dienste** auf dem Server, ob alle lync Server 2013 Dienste aktiv sind.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tägliche Aufgaben'
+title: 'Lync Server 2013: tägliche Aufgaben'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969666
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d63aff308b23e52284988a184e5e9d72beaca26
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc14c72f614e6e062afc089236182def0d86e634
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728675"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041054"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="daily-tasks-in-lync-server-2013"></a>Tägliche Aufgaben in Lync Server 2013
+# <a name="daily-tasks-in-lync-server-2013"></a>Tägliche Aufgaben in lync Server 2013
 
 </div>
 
@@ -35,30 +35,30 @@ ms.locfileid: "41728675"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-01-26_
+_**Letztes Änderungsstand des Themas:** 2015-01-26_
 
-Um die Verfügbarkeit und Zuverlässigkeit der lync Server 2013-Bereitstellung zu gewährleisten, sollten Sie im Rahmen des täglichen routinemäßigen Monitors und der Testelemente, die für die Funktionsweise des Systems wichtig sind, einschließlich der physikalischen Plattform, des Betriebssystems und alle wichtigen lync Server 2013-Dienste. Vorbeugende Wartung und proaktive Überwachung helfen Ihnen bei der Ermittlung potenzieller Fehler und Probleme, die sich negativ auf die lync Server 2013-Bereitstellung auswirken können.
+Um die Verfügbarkeit und Zuverlässigkeit der lync Server 2013-Bereitstellung sicherzustellen, sollten Sie im Rahmen der täglichen Routineüberwachung und Testen von Elementen, die für die Funktionsweise des Systems wichtig sind, einschließlich der physischen Plattform, des Betriebssystems und alle wichtigen lync Server 2013 Dienste. Vorbeugende Wartung und proaktive Überwachung helfen Ihnen bei der Ermittlung möglicher Fehler und Probleme, die sich negativ auf die lync Server 2013-Bereitstellung auswirken können.
 
-Das Überwachen der lync Server 2013-Bereitstellung umfasst das Überprüfen auf Probleme mit Verbindungen, Diensten, Server Ressourcen und Systemressourcen. Windows Server-Betriebssysteme, zusammen mit System Center Operations Manager und lync Server, bieten Ihnen zahlreiche Überwachungstools und-Dienste, um sicherzustellen, dass die lync Server-Organisation reibungslos läuft. Wenn diese Technologien gemeinsam implementiert werden, können Administratoren Warnungen erhalten, wenn oder bevor Probleme auftreten.
+Das Überwachen der lync Server 2013-Bereitstellung umfasst das Überprüfen auf Probleme mit Verbindungen, Diensten, Server Ressourcen und Systemressourcen. Windows Server-Betriebssysteme, zusammen mit System Center Operations Manager und lync Server Ihnen zahlreiche Überwachungstools und-Dienste zur Verfügung stellen, um sicherzustellen, dass die lync Server Organisation reibungslos ausgeführt wird. Wenn diese Technologien gemeinsam implementiert werden, können Administratoren Warnungen erhalten, wenn oder bevor Probleme auftreten.
 
-Eine tägliche Überwachung bietet unter anderem die folgenden Vorteile:
+Im Folgenden werden die wichtigsten Vorteile der täglichen Überwachung vorgestellt:
 
-  - Erfüllen der Leistungs- und Verfügbarkeitsanforderungen definierter SLAs
+  - Erfüllen der Leistungs-und Verfügbarkeitsanforderungen definierter SLAs
 
-  - Erfolgreiches Abschließen spezieller administrativer Aufgaben wie tägliche Sicherungsvorgänge und Überprüfen der Serverintegrität
+  - Erfolgreiche Ausführung bestimmter administrativer Aufgaben wie tägliche Sicherungsvorgänge und Überprüfen der Serverintegrität.
 
-  - Erkennen und Behandeln von Problemen wie Engpässe in der Serverleistung oder ein Bedarf für zusätzliche Ressourcen, bevor sich die Probleme auf die Produktivität auswirken
+  - Erkennen und Beheben von Problemen wie Engpässen in der Serverleistung oder benötigen zusätzlicher Ressourcen, bevor diese die Produktivität beeinträchtigen.
 
-Mithilfe von täglichen Wartungsaufgaben kann das Administrationsteam ein Kriterium oder eine Baseline für den normalen Systembetrieb in der Organisation definieren oder einrichten und anormale Aktivitäten erkennen. Es ist wichtig, diese täglichen Wartungsaufgaben zu implementieren, damit das Verwaltungsteam Daten zur lync Server 2013-Infrastruktur erfassen und verwalten kann, wie etwa Nutzungs Ebenen, mögliche Leistungsengpässe und administrative Änderungen.
+Tägliche Wartungsaufgaben unterstützen das Verwaltungsteam beim Definieren oder Festlegen von Kriterien oder Grundlinien für normale Systemvorgänge innerhalb der Organisation und zum erkennen anormaler Aktivitäten. Es ist wichtig, diese täglichen Wartungsaufgaben zu implementieren, damit das Verwaltungsteam Daten über die lync Server 2013 Infrastruktur erfassen und verwalten kann, wie etwa Nutzungsgrade, mögliche Leistungsengpässe und administrative Änderungen.
 
-Verwenden Sie die [Tägliche Aufgabenprüfliste](lync-server-2013-operations-checklists.md), um die Leistung täglicher Aufgaben zu organisieren.
+Zur Unterstützung der Organisation der Leistung von täglichen Aufgaben verwenden Sie die [Checkliste tägliche Aufgaben](lync-server-2013-operations-checklists.md).
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Tägliche Aufgabenprüfliste](lync-server-2013-operations-checklists.md)  
+[Prüfliste für tägliche Aufgaben](lync-server-2013-operations-checklists.md)  
   
 
 </div>

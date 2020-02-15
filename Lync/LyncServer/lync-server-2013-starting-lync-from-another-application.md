@@ -12,16 +12,16 @@ ms:contentKeyID: 48184184
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dafb8295d3070cd9f38e8691e654146978156d45
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c22f5e365e47ae7b6a41cd6e917b87718e07ac9e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764401"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038757"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41764401"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-20_
+_**Letztes Änderungsstand des Themas:** 2013-02-20_
 
-Sie können Befehlszeilenparameter verwenden, um lync 2013 schnell zu starten. Wenn ein Benutzer beispielsweise in einer anderen Anwendung auf eine Telefonnummer klickt, kann die Anwendung eine Instanz von lync 2013 starten und einen Anruf an diese Nummer initiieren.
+Sie können Befehlszeilenparameter verwenden, um lync 2013 schnell zu starten. Wenn ein Benutzer beispielsweise auf eine Telefonnummer in einer anderen Anwendung klickt, kann die Anwendung eine Instanz von lync 2013 starten und einen Anruf an diese Nummer initiieren.
 
-Lync 2013 kann auch eine durch Semikolons getrennte Liste der Kontaktnamen für mehrteilige Konferenzen erkennen.
+Lync 2013 können auch eine durch Semikolons getrennte Liste von Kontaktnamen für Mehrparteienkonferenzen erkennen.
 
-Wenn lync 2013 so konfiguriert ist, dass die Anmeldung beim Start automatisch erfolgt, wird beim Starten von lync 2013 mit Befehlszeilenparametern das lync-Hauptfenster geöffnet. Wenn lync nicht so konfiguriert ist, dass sich beim Start automatisch anmelden, wird das Anmeldefenster geöffnet.
+Wenn lync 2013 für die automatische Anmeldung beim Start konfiguriert ist, wird beim Starten von lync 2013 mit Befehlszeilenparametern das lync-Hauptfenster geöffnet. Wenn Lync nicht für die automatische Anmeldung beim Starten konfiguriert ist, wird das Anmeldefenster geöffnet.
 
-In der folgenden Tabelle sind die verfügbaren Parameter aufgeführt.
+Die folgende Tabelle zeigt die verfügbaren Parameter.
 
-### <a name="lync-2013-command-line-parameters"></a>Lync 2013-Befehlszeilenparameter
+### <a name="lync-2013-command-line-parameters"></a>Lync 2013 Befehlszeilenparameter
 
 <table>
 <colgroup>
@@ -56,7 +56,7 @@ In der folgenden Tabelle sind die verfügbaren Parameter aufgeführt.
 <thead>
 <tr class="header">
 <th>Erweiterung</th>
-<th>Format der Daten</th>
+<th>Datenformat</th>
 <th>Aktion</th>
 </tr>
 </thead>
@@ -64,41 +64,41 @@ In der folgenden Tabelle sind die verfügbaren Parameter aufgeführt.
 <tr class="odd">
 <td><p>Tel</p></td>
 <td><p>Tel-URI</p></td>
-<td><p>Öffnet das Unterhaltungsfenster für einen Audioanruf, wählt aber nicht die angegebene Nummer.</p></td>
+<td><p>Öffnet das Fenster "Unterhaltung" für einen Audioanruf, die angegebene Nummer wird jedoch nicht gewählt.</p></td>
 </tr>
 <tr class="even">
 <td><p>callto</p></td>
-<td><p>Tel:, SIP: oder Typ Tel-URI</p></td>
-<td><p>Öffnet das Unterhaltungsfenster für einen Audioanruf, wählt aber nicht die angegebene Nummer.</p></td>
+<td><p>"tel:", "sip:" oder Telefon-URI, der eingegeben werden kann</p></td>
+<td><p>Öffnet das Fenster "Unterhaltung" für einen Audioanruf, die angegebene Nummer wird jedoch nicht gewählt.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SIP</p></td>
 <td><p>SIP-URI</p></td>
-<td><p>Öffnet das Unterhaltungsfenster mit dem angegebenen SIP-URI (Uniform Resource Identifier) in der Teilnehmerliste.</p></td>
+<td><p>Öffnet das Fenster "Unterhaltung" mit dem angegebenen SIP-URI (Uniform Resource Identifier) in der Teilnehmerliste.</p></td>
 </tr>
 <tr class="even">
 <td><p>SIPs</p></td>
 <td><p>SIP-URI</p></td>
-<td><p>Wenn lync 2013 für die Verwendung des TLS-Protokolls (Transport Layer Security) konfiguriert ist, funktioniert genau wie SIP:. Wenn TLS nicht verwendet wird, wird ein Dialogfeld angezeigt, in dem der Benutzer informiert wird, dass eine höhere Sicherheitsstufe erforderlich ist.</p></td>
+<td><p>Wenn lync 2013 für die Verwendung des TLS-Protokolls (Transport Layer Security) konfiguriert ist, funktioniert genau wie bei SIP:. Wenn TLS nicht verwendet wird, wird der Benutzer in einem Dialogfeld informiert, dass eine höhere Sicherheitsstufe erforderlich ist.</p></td>
 </tr>
 <tr class="odd">
 <td><p>conf</p></td>
-<td><p>SIP-URI der Konferenz, an der Sie teilnehmen möchten</p></td>
-<td><p>Wenn URI selbst ist, wird der Fokus instanziiert, und es wird eine Liste mit nur einer Rost geschützten Ansicht angezeigt. Andernfalls wird die Liste der Teilnehmer angezeigt, aber die Einladung wird nicht gesendet.</p></td>
+<td><p>SIP-URI der Konferenz, an welcher der Benutzer teilnehmen möchte</p></td>
+<td><p>Bei Verwendung des URI-Werts "self" wird das Konferenzzustandsobjekt instanziiert, und es wird ausschließlich die Konferenzliste angezeigt. Andernfalls wird die Listenansicht geöffnet, eine INVITE-Anforderung wird jedoch nicht gesendet.</p></td>
 </tr>
 <tr class="even">
 <td><p>Chat</p></td>
 <td><p>SIP-URI</p></td>
-<td><p>Zeigt ein Chat-Fenster mit dem SIP-URI an. Akzeptiert mehrere SIP-URIs, die in Spitze&lt;&gt;Klammern () ohne Trennzeichen angegeben sind.</p>
+<td><p>Zeigt ein Fenster "Unterhaltung" mit dem SIP-URI an, in dem ausschließlich Sofortnachrichten gesendet werden können. Akzeptiert mehrere SIP-URIs, die innerhalb von&lt;&gt;spitzen Klammern () ohne Trennzeichen angegeben werden.</p>
 <pre><code>im:&lt;sip:user1@host&gt;&lt;sip:user2@host&gt;</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-Die folgende Tabelle enthält Beispiele für diese Befehlszeilenparameter.
+In der folgenden Tabelle sind Beispiele für diese Befehlszeilenparameter aufgeführt.
 
-### <a name="command-line-parameter-examples"></a>Beispiele für Befehlszeilen Parameter
+### <a name="command-line-parameter-examples"></a>Beispiele für Befehlszeilenparameter
 
 <table>
 <colgroup>
@@ -114,23 +114,23 @@ Die folgende Tabelle enthält Beispiele für diese Befehlszeilenparameter.
 <tbody>
 <tr class="odd">
 <td><p>Tel: + 14255550101</p></td>
-<td><p>Öffnet eine nur-Telefon-Ansicht mit + 14255550101.</p></td>
+<td><p>Öffnet eine Nur-Telefon-Ansicht mit +14255550101.</p></td>
 </tr>
 <tr class="even">
-<td><p>Callto: Tel: + 14255550101</p></td>
-<td><p>Öffnet eine nur-Telefon-Ansicht mit + 14255550101.</p></td>
+<td><p>Callto:tel:+ 14255550101</p></td>
+<td><p>Öffnet eine Nur-Telefon-Ansicht mit +14255550101.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Callto:sip:kazuto@litwareinc.com</p></td>
-<td><p>Öffnet eine nur-Telefon-Ansicht mit Kazuto@litwareinc.com.</p></td>
+<td><p>Öffnet eine Nur-Telefon-Ansicht mit kazuto@litwareinc.com.</p></td>
 </tr>
 <tr class="even">
 <td><p>sip:kazuto@litwareinc.com</p></td>
-<td><p>Öffnet ein Unterhaltungsfenster mit Kazuto@litwareinc.com.</p></td>
+<td><p>Öffnet ein Fenster "Unterhaltung" mit kazuto@litwareinc.com.</p></td>
 </tr>
 <tr class="odd">
 <td><p>conf: SIP:https://meet.contoso.com/kazuto/7322994</p></td>
-<td><p>Öffnet ein Unterhaltungsfenster und zeigt die Optionen für die Teilnahme an einer Besprechung an.</p></td>
+<td><p>Öffnet ein Unterhaltungsfenster und zeigt Besprechungs-audioverknüpfungs Optionen an.</p></td>
 </tr>
 </tbody>
 </table>

@@ -11,26 +11,26 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
-description: 'Zusammenfassung: Hier erfahren Sie, wo Sie Informationen zu den von Skype for Business Server verwendeten SQL Server Reporting Services finden.'
-ms.openlocfilehash: 1e15ce0d05675f4e448f49424be375d574429cd4
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: 'Zusammenfassung: erfahren Sie, wo Sie Informationen zu SQL Server von Skype for Business Server verwendeten Reporting Services finden.'
+ms.openlocfilehash: dc0063e8ed173292cdb0b084e1ac7bd50841d0d7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41789973"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030458"
 ---
 # <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>Installieren von SQL Server Reporting Services in Skype for Business Server 
  
-**Zusammenfassung:** Hier erfahren Sie, wo Sie Informationen zu den von Skype for Business Server verwendeten SQL Server Reporting Services finden.
+**Zusammenfassung:** Erfahren Sie, wo Sie Informationen zu SQL Server von Skype for Business Server verwendeten Reporting Services finden.
   
-Skype for Business Server kann SQL Server Reporting Services (SSRS) verwenden, um Berichte anzuzeigen und zu überwachen. Wenn Sie auf diese Funktion zurückgreifen möchten, müssen Reporting Services installiert und konfiguriert sein.
+Skype for Business Server können SQL Server Reporting Services (SSRS) zum Anzeigen und Überwachen von Berichten verwenden. Um diese Funktion nutzen zu können, müssen Reporting Services installiert und konfiguriert sein.
   
-## <a name="install-sql-server-reporting-services"></a>Installieren von SQL Server Reporting Services
+## <a name="install-sql-server-reporting-services"></a>Installieren von SQL Server Reporting Services
 
-Wenn Sie beabsichtigen, Skype for Business Server-Überwachungsberichte zu verwenden (Weitere Informationen finden Sie im nächsten Artikel dieser Dokumentation), müssen Sie zuerst SQL Server Reporting Services installieren. Reporting Services kann zur gleichen Zeit installiert werden, wenn Sie Microsoft SQL Server oder nach der Installation von SQL Server installieren. Wenn Sie SQL Server nicht installiert haben, befolgen Sie die Anweisungen weiter oben in dieser Dokumentation. Stellen Sie bei der Installation von SQL Server sicher, dass Sie auf der Seite Featureauswahl die Option Reporting Services auswählen. , In dem SQL Server Reporting Services installiert wird.
+Wenn Sie Skype for Business Server-Überwachungsberichte verwenden möchten (Weitere Informationen finden Sie im nächsten Artikel dieser Dokumentation), müssen Sie zuerst SQL Server Reporting Services installieren; Reporting Services kann gleichzeitig installiert werden, wenn Sie Microsoft SQL Server oder nach der Installation von SQL Server zu einem beliebigen Zeitpunkt installieren. Wenn Sie SQL Server nicht installiert haben, befolgen Sie die weiter oben in dieser Dokumentation beschriebenen Anweisungen. Achten Sie beim Installieren von SQL Server darauf, dass Sie auf der Seite Featureauswahl die Option Reporting Services auswählen. Damit wird SQL Server Reporting Services installiert.
   
-Informationen zum Installieren von SQL Server Reporting Services finden Sie unter [SQL Server Reporting Services (SSRS)](https://technet.microsoft.com/en-us/library/ms159106.aspx).
+Informationen zum Installieren von SQL Server Reporting Services finden Sie unter [SQL Server Reporting Services (SSRS)](https://technet.microsoft.com/library/ms159106.aspx).
   
-Wenn Sie SQL Server ohne SQL Server Reporting Services installiert haben, können Sie dieses Feature gemäß der entsprechenden Vorgehensweise für SQL Server Reporting Services installieren. 
+Wenn Sie SQL Server bereits installiert haben, aber SQL Server Reporting Services nicht installiert haben, können Sie dieses Feature hinzufügen, indem Sie die entsprechenden Anweisungen für SQL Server Reporting Services befolgen. 
   
 

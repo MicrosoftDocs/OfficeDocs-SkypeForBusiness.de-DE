@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: weitere Cmdlets für Serverrollen'
+title: 'Lync Server 2013: Cmdlets anderer Server Rollen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa633bb9a1d5abcf34feb027b3fd364c5ad6b4cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 43a4c63851e45ea1763650d8e908427672bd7fbf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755649"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047339"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="other-server-role-cmdlets-in-lync-server-2013"></a>Andere Cmdlets für Serverrollen in lync Server 2013
+# <a name="other-server-role-cmdlets-in-lync-server-2013"></a>Weitere Cmdlets für Serverrollen in lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41755649"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-03-21_
+_**Letztes Änderungsstand des Themas:** 2012-03-21_
 
-Diese Cmdlets bieten Möglichkeiten zum Verwalten von "einmaligen" Serverrollen (wie dem Konferenzserver), die nicht in Serverrollen Kategorien wie Edgeserver oder Adressbuchserver passen.
+Diese Cmdlets bieten die Möglichkeit zum Verwalten von Serverrollen, die sich in keine Serverrollenkategorie (wie Edgeserver oder Adressbuchserver) einordnen lassen – beispielsweise der Konferenzserver.
 
 <div>
 
-## <a name="other-server-role-and-cmdlets"></a>Andere Server Rollen und Cmdlets
+## <a name="other-server-role-and-cmdlets"></a>Cmdlets für sonstige Serverrollen
 
-Die folgende Liste enthält Cmdlets, die sich direkt auf die Verwaltung anderer Serverrollen und Dienste beziehen:
+In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Verwaltung sonstiger Serverrollen und Dienste eingesetzt werden:
 
-**Andere Server Rollen**
+**Sonstige Serverrollen**
 
   - <span></span>  
-    [Satz-CsConferenceServer](https://technet.microsoft.com/en-us/library/Gg398738(v=OCS.15))
+    [Gruppe-CsConferenceServer](https://technet.microsoft.com/library/Gg398738(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Satz-CsUserServer](https://technet.microsoft.com/en-us/library/Gg413026(v=OCS.15))
+    [Gruppe-CsUserServer](https://technet.microsoft.com/library/Gg413026(v=OCS.15))
 
 </div>
 

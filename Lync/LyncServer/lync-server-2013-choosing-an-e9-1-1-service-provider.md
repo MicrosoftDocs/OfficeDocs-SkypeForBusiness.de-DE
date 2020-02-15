@@ -12,16 +12,16 @@ ms:contentKeyID: 48184198
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5f10ba311ce5d626348e4b1837f73768cc2c4ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 68087115e303cbe964c0b3f8ae52318074ce4382
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729875"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037245"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41729875"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-06_
+_**Letztes Änderungsstand des Themas:** 2012-06-06_
 
-Der E9-1-1-Service-Anbieter leitet Notrufe, die von lync Server stammen, auf der Grundlage der im Anruf enthaltenen Standortinformationen an den richtigen PSAP (Public Safety Answering Point) weiter.
+Der E9-1 -1-Dienstanbieter leitet Notrufe aus lync Server an den richtigen Anrufbeantworter (Public Safety Answering Points, Rettungsleitstelle) basierend auf den im Anruf enthaltenen Standortinformationen weiter.
 
-Um E9-1-1 als Teil einer lync Server-Bereitstellung zu unterstützen, müssen Sie den E9-1-1-Routingdienst von einem lync Open Interoperability-Programm mit qualifiziertem E9-1-1-Dienstanbieter beziehen. Wählen Sie den Anbieter, der die Anforderungen Ihrer Organisation am besten erfüllt.
+Zur Unterstützung von E9-1-1 im Rahmen einer lync Server-Bereitstellung müssen Sie den E9-1-1-Routingdienst von einem qualifizierten E9-1 -1-Dienstanbieter für lync Open Interoperability Program erhalten. Wählen Sie den Anbieter, der die Anforderungen Ihrer Organisation am besten erfüllt.
 
 </div>
 

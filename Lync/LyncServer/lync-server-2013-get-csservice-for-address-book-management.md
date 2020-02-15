@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Get-CsService für die Verwaltung von Adressbüchern'
+title: 'Lync Server 2013: Get-CsService für die Adressbuchverwaltung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 656c1aa545a1f10e49c5ff60b51c20386854d146
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d41d0d3fe8960f286cfe9bed1f27ae08d43c9fe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763579"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037947"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Get-CsService für die Verwaltung von Adressbüchern in lync Server 2013
+# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Get-CsService für die Adressbuchverwaltung in lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41763579"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Wer dieses Cmdlet ausführen kann: Standardmäßig sind Mitglieder der folgenden Gruppen autorisiert, das Cmdlet "Get-CsService" lokal auszuführen: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller rollenbasierten zugriffssteuerungsrollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben):
+Dieses Cmdlet kann von folgenden Benutzern ausgeführt werden: Standardmäßig sind Mitglieder der folgenden Gruppen autorisiert, das Cmdlet "Get-CsService" lokal auszuführen: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Geben Sie den folgenden Befehl an der Windows PowerShell-Eingabeaufforderung ein, um eine Liste aller rollenbasierten Zugriffssteuerungsrollen zurückzugeben, die diesem Cmdlet zugewiesen wurden (einschließlich der benutzerdefinierten rollenbasierten Zugriffssteuerungsrollen, die Sie selbst erstellt haben):
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsService"}
 
-Get-CsService ist wertvoll, um die aktuelle Konfiguration der definierten Webdienste Ihrer Infrastruktur abzurufen und anzuzeigen. Wenn Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools und den Parameter Webserver definieren, gibt das Cmdlet die webbasierten Dienste zurück, die von Ihrem Server angeboten werden, einschließlich des Adressbuch Handlers und der Erweiterungs-URIs der Verteilerliste.
+Get-CsService ist wertvoll, um die aktuelle Konfiguration der definierten Webdienste der Infrastruktur abzurufen und anzuzeigen. Bei Definition des vollqualifizierten Domänennamens des Pools (Fully Qualified Domain Name, FQDN) und des Parameters "WebServer" gibt das Cmdlet die von Ihrem Server angebotenen webbasierten Dienste zurück, einschließlich des Adressbuchhandlers und der URIs für die Verteilerlistenerweiterung.
 
 Beispiel:
 
@@ -53,7 +53,7 @@ Identität: Webserver:pool01. contoso. net
 
 Filestore: Filestore:DC01. contoso. net
 
-UserServer: UserServer:pool01. contoso. net
+"User Server:" User Server:pool01. contoso. net
 
 PrimaryHttpPort: 80
 
@@ -131,11 +131,11 @@ InternalFqdn: internalweb.contoso.net
 
 DependentServiceList: {Registrar:pool01. contoso. net, ConferencingServer:pool01. contoso. net}
 
-Service-Nr: 1-Webdienste-1
+Dienst-Nr: 1-Webservices-1
 
-Website-Nr: Website: Redmond
+Website-Nr: Standort: Redmond
 
-PoolFqdn: pool01.contoso.net
+Poolfqdn ": pool01.contoso.net
 
 Version: 5
 

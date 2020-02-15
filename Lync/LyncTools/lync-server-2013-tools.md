@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013-Tools
+title: Lync Server 2013 Tools
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 52253957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d440cc6339f77c43a2371411127fe820aa3092a4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 35d58ddd116a91c66a23c3ab81c0d4c879bfa356
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763995"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038327"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-tools"></a>Lync Server 2013-Tools
+# <a name="lync-server-2013-tools"></a>Lync Server 2013 Tools
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41763995"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-14_
+_**Letztes Änderungsstand des Themas:** 2013-03-14_
 
 Die folgenden Tools stehen für lync Server 2013 zur Verfügung:
 
@@ -43,11 +43,11 @@ Die folgenden Tools stehen für lync Server 2013 zur Verfügung:
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-[Belastungs-und Leistungstool für Lync Server 2013](lync-server-2013-stress-and-performance-tool.md)
+[Lync Server 2013-Tool für Stress und Leistung](lync-server-2013-stress-and-performance-tool.md)
 
-[Dokumentation zur lync Server 2013 Resource Kit-Tools](lync-server-2013-resource-kit-tools-documentation.md)
+[Dokumentation zu lync Server 2013 Resource Kit-Tools](lync-server-2013-resource-kit-tools-documentation.md)
 
-[Lync Server 2013-Ressourcensatz Tools für beständigen Chat](lync-server-2013-persistent-chat-resource-kit-tools.md)
+[Beständiger Chat von lync Server 2013 Resource Kit-Tools](lync-server-2013-persistent-chat-resource-kit-tools.md)
 
 </div>
 

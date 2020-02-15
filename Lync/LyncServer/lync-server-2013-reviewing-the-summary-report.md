@@ -12,16 +12,16 @@ ms:contentKeyID: 51541459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fdcde0c82f2b1b157db13fe22ee5cb792a4c1c6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bf9b53c295aa2616c5886ab9383f46e64c300a99
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732995"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051499"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41732995"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+_**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Der lync Server-Administrator Bericht ist der erste von vier wertvollen Berichten, die Ihren Entwurf detailliert dokumentieren. Die Informationen in diesem Bericht und die anderen drei zugehörigen Berichte sind eine hervorragende Dokumentation für Ihre Informationstechnologie Teams:
+Der Lync Server-Administratorbericht ist der erste von vier Berichten mit wertvollen Informationen, der Ihren Entwurf detailliert dokumentiert. Die Informationen in diesem Bericht sowie den drei weiteren Berichten stellen eine ausgezeichnete Dokumentation für Ihre IT-Teams dar:
 
-![Allgemeine Zusammenfassung – Verwaltungsbericht](images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "Allgemeine Zusammenfassung – Verwaltungsbericht")
+![Allgemeiner zusammenfassender Administrator Bericht](images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "Allgemeiner zusammenfassender Administrator Bericht")
 
   - Zertifikatbericht
 
@@ -47,16 +47,16 @@ Der lync Server-Administrator Bericht ist der erste von vier wertvollen Berichte
 
   - DNS-Bericht
 
-Der Zusammenfassungsbericht enthält allgemeine Konfigurationsinformationen zu Ihrem Edgenetzwerk. In ihm werden Standort, vollqualifizierter Domänenname (Fully Qualified Domain Name, FQDN) und IP-Adresse sowie die Art des Netzwerks dokumentiert und Kommentare zu spezifischen Rollen bereitgestellt.
+Der Zusammenfassungsbericht enthält allgemeine Konfigurationsinformationen zu Ihrem Edgenetzwerk. Der Speicherort, der vollqualifizierte Domänenname (FQDN) und die IP-Adresse, der Netzwerktyp und die für eine bestimmte Rolle spezifischen Kommentare werden dokumentiert.
 
-Der für den Entwurf verantwortliche Benutzer und alle Teams, die für Bereitstellung, Verwaltung und Wartung der Infrastruktur sorgen, sollten den Zusammenfassungsbericht prüfen, um die Richtigkeit der Informationen sicherzustellen und Fehler zu minimieren.
+Der Designer und jedes der Teams, die die Infrastruktur bereitstellen, verwalten und warten, sollten den Zusammenfassungsbericht auf Richtigkeit überprüfen und sicherstellen, dass die Fehler mindestens erfüllt werden.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Überprüfen der Administratorberichte in Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
+[Überprüfen der Administrator Berichte in lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
   
 
 </div>

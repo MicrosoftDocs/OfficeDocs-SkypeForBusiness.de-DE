@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Notfallwiederherstellung eines Front-End-Pools'
+title: 'Lync Server 2013: Front-End-Pool Notfallwiederherstellung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 751234b4f3a9a903612d8354abe26f6a2d960ead
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: baa2326a827959d7d21286152950e1025ad2f457
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739765"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038087"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-disaster-recovery-in-lync-server-2013"></a>Notfallwiederherstellung eines Front-End-Pools in Lync Server 2013
+# <a name="front-end-pool-disaster-recovery-in-lync-server-2013"></a>Front-End-Pool Notfallwiederherstellung in lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41739765"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-17_
+_**Letztes Änderungsstand des Themas:** 2012-09-17_
 
-Die Themen in diesem Abschnitt erläutern die Funktionen für die Hochverfügbarkeits-und Disaster Recovery-Front-End-Pools in lync Server 2013.
+In den Themen in diesem Abschnitt werden die Funktionen für hohe Verfügbarkeit und Notfallwiederherstellung für Front-End-Pools in lync Server 2013 erläutert.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Planen der Bildung von Front-End-Poolpaaren in Lync Server 2013](lync-server-2013-planning-for-front-end-pool-pairing.md)
+  - [Planen der Front-End-Pool Kopplung in lync Server 2013](lync-server-2013-planning-for-front-end-pool-pairing.md)
 
   - [Benutzererfahrung beim Pool Fehler in lync Server 2013](lync-server-2013-user-experience-during-pool-failure.md)
 
-  - [Höhere Verfügbarkeit von Back-End-Servern in lync Server 2013](lync-server-2013-back-end-server-high-availability.md)
+  - [Hohe Verfügbarkeit von Back-End-Servern in lync Server 2013](lync-server-2013-back-end-server-high-availability.md)
 
-  - [Höhere Verfügbarkeit von Dateien in lync Server 2013](lync-server-2013-file-sharing-high-availability.md)
+  - [Hohe Verfügbarkeit der Dateifreigabe in lync Server 2013](lync-server-2013-file-sharing-high-availability.md)
 
 </div>
 

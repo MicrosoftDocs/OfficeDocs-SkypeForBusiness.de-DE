@@ -1,5 +1,5 @@
 ---
-title: Staging von AV-und OAuth-Zertifikaten mithilfe von-Rolle in der Gruppe-CsCertificate
+title: Staging von AV-und OAuth-Zertifikaten mithilfe von-Roll in der Gruppe-CsCertificate
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49354387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 583ab13e50cac7c7a8b345a2ea2cf4c4e1e38d7f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a85d39fb80075e4de817c4343040d358ad41eeb5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764431"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038837"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="staging-av-and-oauth-certificates-in-lync-server-2013-using--roll-in-set-cscertificate"></a>Staging von AV-und OAuth-Zertifikaten in lync Server 2013 using-Rolle in der Gruppe-CsCertificate
+# <a name="staging-av-and-oauth-certificates-in-lync-server-2013-using--roll-in-set-cscertificate"></a>Staging von AV-und OAuth-Zertifikaten in lync Server 2013 using-Roll in der Gruppe CsCertificate
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764431"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-13_
+_**Letztes Änderungsstand des Themas:** 2012-11-13_
 
-Audio/Video (a/V)-Kommunikation ist eine wichtige Komponente von Microsoft lync Server 2013. Features wie Anwendungsfreigabe und Audio-und Videokonferenzen basieren auf den Zertifikaten, die dem a/v-Edgedienst, insbesondere dem a/v-Authentifizierungsdienst, zugewiesen sind.
+Die Kommunikation zwischen Audio und Video (a/V) ist eine wichtige Komponente von Microsoft lync Server 2013. Features wie Anwendungsfreigabe und Audio-und Videokonferenzen basieren auf den Zertifikaten, die dem A/V-Edgedienst zugewiesen sind, insbesondere dem A/V-Authentifizierungsdienst.
 
 <div>
 
@@ -45,60 +45,60 @@ Audio/Video (a/V)-Kommunikation ist eine wichtige Komponente von Microsoft lync 
 > [!IMPORTANT]
 > <OL>
 > <LI>
-> <P>Dieses neue Feature ist für den A/V-Edgedienst und das <EM>OAuthTokenIssuer</EM> -Zertifikat konzipiert. Andere Zertifikattypen können zusammen mit dem a/v-Edgedienst und dem OAuth-Zertifikattyp bereitgestellt werden, profitieren aber nicht vom Koexistenzsystem, das vom a/v-Edgedienst-Zertifikat bereitgestellt wird.</P>
+> <P>Dieses neue Feature wurde für die A/V-Edgedienst und das <EM>OAuthTokenIssuer</EM> -Zertifikat entwickelt. Andere Zertifikattypen können zusammen mit dem A/V-Edgedienst-und OAuth-Zertifikattyp bereitgestellt werden, profitieren jedoch nicht von dem Verhalten der Koexistenz, das das A/V-Edgedienst Zertifikat enthält.</P>
 > <LI>
-> <P>Die in der lync Server-Verwaltungsshell verwendeten PowerShell-Cmdlets für die Verwaltung von Microsoft lync Server 2013-Zertifikaten bezieht sich auf das A/V-Edgedienst Zertifikat als <EM>AudioVideoAuthentication</EM> -Zertifikattyp und das OAuthServer-Zertifikat als Typ <EM>OAuthTokenIssuer</EM>. Im restlichen Thema – und zur eindeutigen Identifizierung der Zertifikate – wird mit demselben ID-Typ, <EM>AudioVideoAuthentication</EM> und <EM>OAuthTokenIssuer</EM>, auf sie verwiesen.</P></LI></OL>
+> <P>Die lync Server-Verwaltungsshell PowerShell-Cmdlets, mit denen Microsoft lync Server 2013 Zertifikate verwaltet werden, bezieht sich auf das A/V-Edgedienst Zertifikat als <EM>AudioVideoAuthentication</EM> -Zertifikattyp und das OAuthServer-Zertifikat als Typ <EM>OAuthTokenIssuer</EM>. Für den Rest dieses Themas und zur eindeutigen Identifizierung der Zertifikate werden diese von demselben Bezeichnertyp, <EM>AudioVideoAuthentication</EM> und <EM>OAuthTokenIssuer</EM>, referenziert.</P></LI></OL>
 
 
 
 </div>
 
-Der a/v-Authentifizierungsdienst ist für das Ausgeben von Token verantwortlich, die von Clients und anderen a/v-Consumern verwendet werden. Die Token werden aus Attributen auf dem Zertifikat generiert, und wenn das Zertifikat abläuft, führt dies zu einem Verbindungsabbruch und einer Anforderung, erneut mit einem neuen Token zu verbinden, das vom neuen Zertifikat generiert wird. Ein neues Feature in lync Server 2013 wird dieses Problem lindern – die Möglichkeit, ein neues Zertifikat im Vorfeld des alten zu inszenieren, das abläuft und es ermöglicht, dass beide Zertifikate während eines bestimmten Zeitraums weiterhin funktionieren. Dieses Feature verwendet aktualisierte Funktionen im Cmdlet "CsCertificate" der lync Server-Verwaltungsshell. Mit dem neuen Parameter – Rolle, mit dem vorhandenen Parameter – EffectiveDate, wird das neue AudioVideoAuthentication-Zertifikat im Zertifikatspeicher platziert. Das ältere AudioVideoAuthentication-Zertifikat bleibt für ausgestellte Token weiterhin gültig. Beginnend mit dem Setzen des neuen AudioVideoAuthentication-Zertifikats wird die folgende Reihe von Ereignissen auftreten:
+Der a/v-Authentifizierungsdienst ist für die Ausstellung von Token verantwortlich, die von Clients und anderen a/v-Consumern verwendet werden. Die Token werden aus Attributen auf dem Zertifikat generiert, und wenn das Zertifikat abläuft, resultieren Verbindungsverlust und Anforderung zum erneuten Beitritt mit einem neuen Token, das vom neuen Zertifikat generiert wird. Durch ein neues Feature in lync Server 2013 wird dieses Problem behoben – die Möglichkeit, ein neues Zertifikat im Vorfeld des alten zu inszenieren und zu ermöglichen, dass beide Zertifikate für einen bestimmten Zeitraum weiterhin funktionsfähig sind. Dieses Feature verwendet aktualisierte Funktionen im lync Server-Verwaltungsshell-Cmdlet "Sets-CsCertificate". Der neue Parameter – Roll mit dem vorhandenen Parameter – EffectiveDate ", platziert das neue AudioVideoAuthentication-Zertifikat im Zertifikatspeicher. Das ältere AudioVideoAuthentication-Zertifikat bleibt weiterhin für ausgestellte Token erhalten, für die validiert werden soll. Beginnend mit dem Setzen des neuen AudioVideoAuthentication-Zertifikats wird die folgende Reihe von Ereignissen ausgeführt:
 
 <div>
 
 
 > [!TIP]
-> Mithilfe der lync Server-Verwaltungsshell-Cmdlets für die Verwaltung von Zertifikaten können Sie für jeden Zweck auf dem Edgeserver getrennte und unterschiedliche Zertifikate anfordern. Die Verwendung des Zertifikat-Assistenten im lync Server-Bereitstellungs-Assistenten unterstützt Sie beim Erstellen von Zertifikaten, ist in der Regel aber der <STRONG>Standardtyp</STRONG> , mit dem alle Zertifikat Verwendungen für den Edgeserver auf einem einzigen Zertifikat kombiniert werden. Die empfohlene Vorgehensweise bei Verwendung der Funktion für rollende Zertifikate besteht darin, das AudioVideoAuthentication-Zertifikat von den anderen Zertifikatzwecken zu lösen. Sie können ein Zertifikat vom Typ „Standard“ bereitstellen, doch nur der AudioVideoAuthentication-Teil des kombinierten Zertifikats profitiert von dem Staging. Ein Benutzer, der an (beispielsweise) einer Sofortnachrichtenunterhaltung teilhat, wenn das Zertifikat abläuft, muss sich abmelden und wieder anmelden, um das neue Zertifikat zu verwenden, das dem Access Edge-Dienst zugeordnet ist. Ein ähnliches Verhalten tritt für einen Benutzer ein, der mit dem Webkonferenz-Edgedienst an einer Webkonferenz teilnimmt. Das OAuthTokenIssuer-Zertifikat ist ein bestimmter Typ, der auf allen Servern freigegeben ist. Sie erstellen und verwalten das Zertifikat an einer zentralen Stelle, und das Zertifikat wird im zentralen Verwaltungsspeicher für alle anderen Server gespeichert.
+> Mithilfe der lync Server-Verwaltungsshell-Cmdlets zum Verwalten von Zertifikaten können Sie separate und unterschiedliche Zertifikate für jeden Zweck auf dem Edgeserver anfordern. Die Verwendung des Zertifikat-Assistenten im lync Server Bereitstellungs-Assistenten unterstützt Sie beim Erstellen von Zertifikaten, ist in der Regel jedoch der <STRONG>Standardtyp</STRONG> , bei dem alle Zertifikat Verwendungen für das Edgeserver auf ein einzelnes Zertifikat verwendet werden. Die empfohlene Vorgehensweise bei der Verwendung des Features für das parallele Zertifikat besteht darin, das AudioVideoAuthentication-Zertifikat von den anderen Zertifikats Zwecken zu entkoppeln. Sie können ein Zertifikat des Standardtyps bereitstellen und inszenieren, aber nur der AudioVideoAuthentication-Teil des kombinierten Zertifikats profitiert von der stagingfunktion. Ein Benutzer, der an einer (beispielsweise) Chatnachrichten Unterhaltung beteiligt ist, wenn das Zertifikat abläuft, muss sich abmelden und wieder anmelden, um das dem Zugriffs-Edgedienst zugeordnete neue Zertifikat verwenden zu können. Ein ähnliches Verhalten tritt für einen Benutzer auf, der an einer Webkonferenz beteiligt ist, indem Sie das Webkonferenz-Edgedienst verwenden. Das OAuthTokenIssuer-Zertifikat ist ein bestimmter Typ, der für alle Server freigegeben ist. Sie erstellen und verwalten das Zertifikat an einer einzigen Stelle, und das Zertifikat wird im zentralen Verwaltungsspeicher für alle anderen Server gespeichert.
 
 
 
 </div>
 
-Zusätzliche Informationen werden benötigt, um die Optionen und Anforderungen bei der Verwendung des Set-CsCertificate-Cmdlets zum Bereitstellen von Zertifikaten vor dem Ablauf des aktuellen Zertifikats nachvollziehen zu können. Der Parameter „–Roll“ ist wichtig, dient jedoch nur einem Zweck. Wenn Sie ihn als Parameter festlegen, informieren Sie damit „Set-CsCertificate“, dass Sie Informationen zum betroffenen durch „–Type“ definierten Zertifikat (z. B. AudioVideoAuthentication und OAuthTokenIssuer) bereitstellen werden, wenn es am durch „–EffectiveDate“ definierten Zeitpunkt gültig wird.
+Zusätzliche Informationen werden benötigt, um die Optionen und Anforderungen bei der Verwendung des Set-CsCertificate-Cmdlet zum Bereitstellen von Zertifikaten vor dem Ablauf des aktuellen Zertifikats nachvollziehen zu können. Der Parameter "–Roll" ist wichtig, dient jedoch nur einem Zweck. Wenn Sie es als Parameter definieren, erklären Sie "CsCertificate", dass Sie Informationen zu dem Zertifikat bereitstellen, das von – Type (beispielsweise AudioVideoAuthentication und OAuthTokenIssuer) betroffen sein wird, wenn das Zertifikat effektiv definiert von – EffectiveDate ".
 
-**-Rolle:** Der-Rolle-Parameter ist erforderlich und weist Abhängigkeiten auf, die zusammen mit ihm bereitgestellt werden müssen. Parameter, die zum Festlegen der betroffenen Zertifikate und ihrer Anwendungsweise erforderlich sind:
+**-Roll:** Der-Roll-Parameter ist erforderlich und enthält Abhängigkeiten, die zusammen mit ihm angegeben werden müssen. Parameter, die zum Festlegen der betroffenen Zertifikate und ihrer Anwendungsweise erforderlich sind:
 
-**-EffectiveDate:** Der Parameter – EffectiveDate definiert, wann das neue Zertifikat mit dem aktuellen Zertifikat gemeinsam aktiv wird. Die – EffectiveDate kann in der Nähe der Ablaufzeit des aktuellen Zertifikats liegen, oder es kann einen längeren Zeitraum dauern. Ein Empfohlenes Mindest-EffectiveDate für das AudioVideoAuthentication-Zertifikat wäre 8 Stunden, was die standardmäßige Token-Lebensdauer für AV-Edgedienst-Token ist, die mit dem AudioVideoAuthentication-Zertifikat ausgegeben werden.
+**-EffectiveDate ":** Der Parameter – EffectiveDate "definiert, wann das neue Zertifikat zusammen mit dem aktuellen Zertifikat Co-aktiv werden soll. Die – EffectiveDate "kann nahe der Ablaufzeit des aktuellen Zertifikats liegen, oder es kann einen längeren Zeitraum dauern. Ein empfohlenes Minimum – EffectiveDate "für das AudioVideoAuthentication-Zertifikat wäre 8 Stunden, was die Standard Gültigkeitsdauer des Tokens für AV-Edgedienst-Token ist, die mit dem AudioVideoAuthentication-Zertifikat ausgegeben werden.
 
-Für das Bereitstellen der OAuthTokenIssuer-Zertifikate liegen verschiedene Anforderungen für die Vorlaufzeit vor, bevor das Zertifikat wirksam werden kann. Der Mindestwert des OAuthTokenIssuer-Zertifikats für die Vorlaufzeit sollte 24 Stunden vor der Ablaufzeit des aktuellen Zertifikats betragen. Die erweiterte Vorlaufzeit für die Koexistenz ist durch andere Serverrollen begründet, die von dem OAuthTokenIssuer-Zertifikat (beispielsweise Exchange Server) abhängen, das eine längere Aufbewahrungszeit für durch Zertifikate erstellte Authentifizierungs- und Verschlüsselungsschlüsselelemente besitzt.
+Für das Bereitstellen der OAuthTokenIssuer-Zertifikate liegen verschiedene Anforderungen für die Durchlaufzeit vor, bevor das Zertifikat wirksam werden kann. Der Mindestwert des OAuthTokenIssuer-Zertifikats für die Durchlaufzeit sollte 24 Stunden vor der Ablaufzeit des aktuellen Zertifikats betragen. Die erweiterte Durchlaufzeit für die Koexistenz ist durch andere Serverrollen begründet, die von dem OAuthTokenIssuer-Zertifikat (beispielsweise Exchange Server) abhängen, das eine längere Aufbewahrungszeit für durch Zertifikate erstellte Authentifizierungs- und Verschlüsselungsschlüsselelemente besitzt.
 
-**-Fingerabdruck:** Der Fingerabdruck ist ein Attribut des Zertifikats, das für dieses Zertifikat eindeutig ist. Mit dem Parameter „–Thumbprint“ wird das Zertifikat ermittelt, das von den Aktionen des Cmdlets „Set-CsCertificate“ betroffen ist.
+**-Fingerabdruck:** Bei dem Fingerabdruck handelt es sich um ein Attribut des Zertifikats, das für dieses Zertifikat eindeutig ist. Mit dem Parameter "–Thumbprint" wir das Zertifikat ermittelt, das von den Aktionen des Cmdlets "Set-CsCertificate" betroffen ist.
 
-**-Geben Sie Folgendes ein:** Der Parameter – Type kann einen einzelnen Zertifikat Verwendungstyp oder eine durch trennzeichengetrennte Liste der Zertifikat Verwendungstypen akzeptieren. Die Zertifikattypen geben für das Cmdlet und den Server an, worin der Zweck des Zertifikats besteht. Geben Sie beispielsweise AudioVideoAuthentication ein, um den A/V-Edgedienst und den AV-Authentifizierungsdienst zu verwenden. Wenn Sie verschiedene Zertifikattypen zum gleichen Zeitpunkt bereitstellen möchten, müssen Sie die längste effektive Mindestvorlaufzeit für die Zertifikate berücksichtigen. Sie müssen beispielsweise Zertifikate vom Typ „AudioVideoAuthentication“ und vom Typ „OAuthTokenIssuer“ bereitstellen. Als Mindestwert muss für „-EffectiveDate“ der höhere Wert der beiden Zertifikate festgelegt werden, in diesem Fall der Wert des Zertifikats „OAuthTokenIssuer“, dessen Mindestvorlaufzeit 24 Stunden beträgt. Wenn Sie das Zertifikat „AudioVideoAuthentication“ nicht mit einer Vorlaufzeit von 24 Stunden bereitstellen möchten, stellen Sie es separat mit einem Ihren Anforderungen entsprechenden Wert für „EffectiveDate“ bereit.
+**-Geben Sie Folgendes ein:** Der Parameter – Type kann einen einzelnen Zertifikat Verwendungstyp oder eine durch trennzeichengetrennte Liste mit Zertifikat Verwendungstypen akzeptieren. Die Zertifikattypen geben für das Cmdlet und den Server an, worin der Zweck des Zertifikats besteht. Geben Sie beispielsweise AudioVideoAuthentication für die Verwendung durch den A/V-Edgedienst und den AV-Authentifizierungsdienst ein. Wenn Sie verschiedene Zertifikattypen zum gleichen Zeitpunkt bereitstellen möchten, müssen Sie die längste effektive Mindestdurchlaufzeit für die Zertifikate berücksichtigen. Sie müssen beispielsweise Zertifikate vom Typ "AudioVideoAuthentication" und Typ "OAuthTokenIssuer" bereitstellen. Als Mindestwert muss für "–EffectiveDate" der höhere Wert der beiden Zertifikate festgelegt werden, in diesem Fall der Wert des Zertifikats "OAuthTokenIssuer", dessen Mindestdurchlaufzeit 24 Stunden beträgt. Wenn Sie das Zertifikat "AudioVideoAuthentication" nicht mit einer Durchlaufzeit von 24 Stunden bereitstellen möchten, stellen Sie es separat mit einem Ihren Anforderungen entsprechenden Wert für "EffectiveDate" bereit.
 
 <div>
 
-## <a name="to-update-or-renew-an-av-edge-service-certificate-with-a-roll-and--effectivedate-parameters"></a>So aktualisieren oder erneuern Sie ein a/V-Edgedienst-Zertifikat mit einem – Rollen-und-EffectiveDate-Parameter
+## <a name="to-update-or-renew-an-av-edge-service-certificate-with-a-roll-and--effectivedate-parameters"></a>So aktualisieren oder erneuern Sie ein A/V-Edgedienst-Zertifikat mit den Parametern "– Roll" und "-EffectiveDate" "
 
-1.  Melden Sie sich auf dem lokalen Computer als Mitglied der Gruppe "Administratoren" an.
+1.  Melden Sie sich beim lokalen Computer als Mitglied der Gruppe Administratoren an.
 
-2.  Fordern Sie ein Erneuerungs-oder neues AudioVideoAuthentication-Zertifikat mit exportier barem privaten Schlüssel für das vorhandene Zertifikat im a/V-Edgedienst an.
+2.  Fordern Sie ein Erneuerungs-oder neues AudioVideoAuthentication-Zertifikat mit exportier barem privaten Schlüssel für das vorhandene Zertifikat im A/V-Edgedienst an.
 
-3.  Importieren Sie das neue AudioVideoAuthentication-Zertifikat auf den Edgeserver und alle anderen Edgeserver in Ihrem Pool (wenn Sie einen Pool bereitgestellt haben).
+3.  Importieren Sie das neue AudioVideoAuthentication-Zertifikat in den Edgeserver und alle anderen Edgeserver in Ihrem Pool (sofern ein Pool bereitgestellt wurde).
 
-4.  Konfigurieren Sie das importierte Zertifikat mit dem Cmdlet „Set-CsCertificate“ und verwenden Sie den Parameter „–Roll“ mit dem Parameter „–EffectiveDate“. Das Gültigkeitsdatum sollte als Ablaufzeit des aktuellen Zertifikats (14:00:00 Uhr) minus Tokenlebensdauer (standardmäßig acht Stunden) festgelegt werden. Dadurch erhalten wir eine Uhrzeit, zu der das Zertifikat auf "aktiv" festgesetzt werden muss, \<und\>ist die Zeichenfolge – EffectiveDate: "7/22/2012 6:00:00 am".
+4.  Konfigurieren Sie das importierte Zertifikat mit dem Cmdlet "Set-CsCertificate", und verwenden Sie den Parameter "–Roll" mit dem Parameter "–EffectiveDate". Das Gültigkeitsdatum sollte als Ablaufzeit des aktuellen Zertifikats (14:00:00 Uhr) minus Tokengültigkeitsdauer (standardmäßig acht Stunden) festgelegt werden. Dies gibt uns eine Zeit, für die das Zertifikat auf aktiv festgelegt werden muss, und ist \<die\>Zeichenfolge – EffectiveDate ":" 7/22/2012 6:00:00 am ".
     
     <div>
     
 
     > [!IMPORTANT]
-    > Bei einem Edge-Pool müssen alle AudioVideoAuthentication-Zertifikate bereitgestellt und durch das Datum und die Uhrzeit bereitgestellt werden, die durch den – EffectiveDate-Parameter des ersten bereitgestellten Zertifikats definiert sind, um mögliche A/V-KOMMUNIKATIONSUNTERBRECHUNGEN zu vermeiden, weil das ältere Zertifikat abläuft, bevor alle Client-und Consumer-Token mithilfe des neuen Zertifikats erneuert wurden.
+    > Für eine Edgepool müssen Sie alle AudioVideoAuthentication-Zertifikate bereitstellen und mit dem Datum und der Uhrzeit bereitstellen, die durch den Parameter – EffectiveDate "des ersten bereitgestellten Zertifikats definiert wurden, um mögliche A/V-KOMMUNIKATIONSUNTERBRECHUNGEN zu vermeiden, da das ältere Zertifikat abläuft, bevor alle Client-und Consumer-Token mithilfe des neuen Zertifikats erneuert wurden.
 
     
     </div>
     
-    Der Befehl „Set-CsCertificate“ mit den Parametern „–Roll“ und „–EffectiveTime“:
+    Der Befehl "Set-CsCertificate" mit den Parametern "–Roll" und "–EffectiveTime":
     
         Set-CsCertificate -Type AudioVideoAuthentication -Thumbprint <thumb print of new certificate> -Roll -EffectiveDate <date and time for certificate to become active>
     
@@ -115,13 +115,13 @@ Für das Bereitstellen der OAuthTokenIssuer-Zertifikate liegen verschiedene Anfo
     
     </div>
 
-Mit einer optischen Zeitachse können Sie den Vorgang besser verstehen, der von „Set-CsCertificate“, „-Roll“ und „–EffectiveDate“ zum Bereitstellen eines neuen Zertifikats für die Ausstellung neuer AudioVideoAuthentication-Token verwendet wird, während weiterhin mit einem vorhandenen Zertifikat das von Benutzern verwendete AudioVideoAuthentication-Zertifikat validiert wird.
+Mit einer optischen Zeitachse können Sie den besser verstehen, der von "Set-CsCertificate", "-Roll" und "–EffectiveDate" zum Bereitstellen eines neuen Zertifikats für die Aussstellung neuer AudioVideoAuthentication-Token verwendet wird, während weiterhin mit einem vorhandenen Zertifikat das von Benutzern verwendete AudioVideoAuthentication-Zertifikat validiert wird.
 
-Im folgenden Beispiel wird vom Administrator festgelegt, dass das A/V-Edgedienst-Zertifikat um 2:00:00 Uhr am 07/22/2012 abläuft. Er fordert und empfängt ein neues Zertifikat und importiert es auf jeden Edgeserver in seinem Pool. Um 2 Uhr auf 07/22/2012 beginnt er mit der Ausführung von Get-CsCertificate mit – Rolle,-Fingerabdruck, der der Fingerabdruck Zeichenfolge des neuen Zertifikats entspricht, und – Effektivzeit, die auf 07/22/2012 6:00:00 Uhr eingestellt ist. Er führt diesen Befehl auf jedem Edgeserver aus.
+Im folgenden Beispiel bestimmt der Administrator, dass das A/V-Edgedienst Zertifikat um 2:00:00 Uhr am 07/22/2012 abläuft. Er fordert und empfängt ein neues Zertifikat und importiert es in jeden Edgeserver in seinem Pool. Am 22.07.2012 um 14 Uhr startet er die Ausführung von "Get-CsCertificate" mit "–Roll", "-Thumbprint" (dieser Wert entspricht der Fingerabdruckzeichenfolge des neuen Zertifikats) und "–EffectiveTime" (für diesen Wert ist 22.07.2012 6:00:00 Uhr festgelegt). Er führt diesen Befehl für jede Edgeserver aus.
 
-![Verwenden des Rollen-und des EffectiveDate-Parameters](images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "Verwenden des Rollen-und des EffectiveDate-Parameters")
+![Verwenden der Parameter "Roll" und "EffectiveDate" ".](images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "Verwenden der Parameter "Roll" und "EffectiveDate" ".")
 
-Wenn die effektive Zeit erreicht ist (7/22/2012 6:00:00 Uhr), werden alle neuen Token vom neuen Zertifikat ausgestellt. Bei der Validierung von Token werden die Token zunächst anhand des neuen Zertifikats überprüft. Schlägt die Überprüfung fehl, wird das alte Zertifikat verwendet. Die Vorgehensweise, erst das neue und anschließend das alte Zertifikat zu verwenden, wird bis zur Ablaufzeit des alten Zertifikats fortgesetzt. Nachdem das alte Zertifikat abgelaufen ist (7/22/2012 2:00:00 Uhr), werden Token nur vom neuen Zertifikat überprüft. Das alte Zertifikat kann mithilfe des Cmdlets „Remove-CsCertificate“ mit dem Parameter „–Previous“ sicher entfernt werden.
+Wird das Gültigkeitsdatum (22.07.2012 6:00:00 Uhr) erreicht, werden alle neuen Token vom neuen Zertifikat ausgestellt. Bei der Validierung von Token werden die Token zunächst anhand des neuen Zertifikats überprüft. Schlägt die Überprüfung fehl, wird das alte Zertifikat verwendet. Die Vorgehensweise, erst das neue und anschließend das alte Zertifikat zu verwenden, wird bis zur Ablaufzeit des alten Zertifikats fortgesetzt. Sobald das alte Zertifikat abgelaufen ist (22.07.2012 14:00:00 Uhr), werden Token nur durch das neue Zertifikat überprüft. Das alte Zertifikat kann mithilfe des Cmdlets "Remove-CsCertificate" mit dem Parameter "–Previous" sicher entfernt werden.
 
     Remove-CsCertificate -Type AudioVideoAuthentication -Previous
 
@@ -129,17 +129,17 @@ Wenn die effektive Zeit erreicht ist (7/22/2012 6:00:00 Uhr), werden alle neuen 
 
 <div>
 
-## <a name="to-update-or-renew-an-oauthtokenissuer-certificate-with-a-roll-and--effectivedate-parameters"></a>So aktualisieren oder erneuern Sie ein OAuthTokenIssuer-Zertifikat mit einem – Rollen-und-EffectiveDate-Parameter
+## <a name="to-update-or-renew-an-oauthtokenissuer-certificate-with-a-roll-and--effectivedate-parameters"></a>So aktualisieren oder erneuen Sie ein OAuthTokenIssuer-Zertifikat mit den Parametern "–Roll" und "-EffectiveDate"
 
-1.  Melden Sie sich auf dem lokalen Computer als Mitglied der Gruppe "Administratoren" an.
+1.  Melden Sie sich beim lokalen Computer als Mitglied der Gruppe Administratoren an.
 
-2.  Fordern Sie ein Erneuerungs-oder neues OAuthTokenIssuer-Zertifikat mit exportier barem privaten Schlüssel für das vorhandene Zertifikat im a/V-Edgedienst an.
+2.  Fordern Sie ein Erneuerungs-oder neues OAuthTokenIssuer-Zertifikat mit exportier barem privaten Schlüssel für das vorhandene Zertifikat im A/V-Edgedienst an.
 
-3.  Importieren Sie das neue OAuthTokenIssuer-Zertifikat in einen Front-End-Server in Ihrem Pool (wenn Sie einen Pool bereitgestellt haben). Das OAuthTokenIssuer-Zertifikat wird global repliziert und muss auf den Servern in Ihrer Bereitstellung aktualisiert und erneuert werden. Als Beispiel wird der Front-End-Server verwendet.
+3.  Importieren Sie das neue OAuthTokenIssuer-Zertifikat in einen Front-End-Server in Ihrem Pool (sofern ein Pool bereitgestellt wurde). Das OAuthTokenIssuer-Zertifikat wird global repliziert und muss auf den Servern in Ihrer Bereitstellung aktualisiert und erneuert werden. Die Front-End-Server wird als Beispiel verwendet.
 
-4.  Konfigurieren Sie das importierte Zertifikat mit dem Cmdlet „Set-CsCertificate“ und verwenden Sie den Parameter „–Roll“ mit dem Parameter „–EffectiveDate“. Das Gültigkeitsdatum sollte als Ablaufzeit des aktuellen Zertifikats (14:00:00 Uhr) minus mindestens 24 Stunden festgelegt werden.
+4.  Konfigurieren Sie das importierte Zertifikat mit dem Cmdlet "Set-CsCertificate", und verwenden Sie den Parameter "–Roll" mit dem Parameter "–EffectiveDate". Das Gültigkeitsdatum sollte als Ablaufzeit des aktuellen Zertifikats (14:00:00 Uhr) minus Tokengültigkeitsdauer (standardmäßig acht Stunden) festgelegt werden.
     
-    Der Befehl „Set-CsCertificate“ mit den Parametern „–Roll“ und „–EffectiveTime“:
+    Der Befehl "Set-CsCertificate" mit den Parametern "–Roll" und "–EffectiveTime":
     
         Set-CsCertificate -Type OAuthTokenIssuer -Thumbprint <thumb print of new certificate> -Roll -EffectiveDate <date and time for certificate to become active>
     
@@ -156,7 +156,7 @@ Wenn die effektive Zeit erreicht ist (7/22/2012 6:00:00 Uhr), werden alle neuen 
     
     </div>
 
-Wenn die effektive Zeit erreicht ist (7/21/2012 1:00:00 Uhr), werden alle neuen Token vom neuen Zertifikat ausgestellt. Bei der Validierung von Token werden die Token zunächst anhand des neuen Zertifikats überprüft. Schlägt die Überprüfung fehl, wird das alte Zertifikat verwendet. Die Vorgehensweise, erst das neue und anschließend das alte Zertifikat zu verwenden, wird bis zur Ablaufzeit des alten Zertifikats fortgesetzt. Nachdem das alte Zertifikat abgelaufen ist (7/22/2012 2:00:00 Uhr), werden Token nur vom neuen Zertifikat überprüft. Das alte Zertifikat kann mithilfe des Cmdlets „Remove-CsCertificate“ mit dem Parameter „–Previous“ sicher entfernt werden.
+Wird das Gültigkeitsdatum (21.07.2012 01:00:00 Uhr) erreicht, werden alle neuen Token vom neuen Zertifikat ausgestellt. Bei der Validierung von Token werden die Token zunächst anhand des neuen Zertifikats überprüft. Schlägt die Überprüfung fehl, wird das alte Zertifikat verwendet. Die Vorgehensweise, erst das neue und anschließend das alte Zertifikat zu verwenden, wird bis zur Ablaufzeit des alten Zertifikats fortgesetzt. Sobald das alte Zertifikat abgelaufen ist (22.07.2012 14:00:00 Uhr), werden Token nur durch das neue Zertifikat überprüft. Das alte Zertifikat kann mithilfe des Cmdlets "Remove-CsCertificate" mit dem Parameter "–Previous" sicher entfernt werden.
 
     Remove-CsCertificate -Type OAuthTokenIssuer -Previous
 
@@ -167,13 +167,13 @@ Wenn die effektive Zeit erreicht ist (7/21/2012 1:00:00 Uhr), werden alle neuen 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planen von Edgeserver-Zertifikaten in Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md)  
-[Verwalten von Server-zu-Server-Authentifizierung (OAuth) und Partneranwendungen in lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)  
+[Planen von Edgeserver Zertifikaten in lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md)  
+[Verwalten der Server-zu-Server-Authentifizierung (OAuth) und der Partneranwendungen in lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md)  
 
 
-[Einrichten von Edgezertifikaten für Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)  
-[Set-CsCertificate](https://technet.microsoft.com/en-us/library/Gg398518(v=OCS.15))  
-[Remove-CsCertificate](https://technet.microsoft.com/en-us/library/Gg412895(v=OCS.15))  
+[Einrichten von Edge-Zertifikaten für lync Server 2013](lync-server-2013-set-up-edge-certificates.md)  
+[Gruppe-CsCertificate](https://technet.microsoft.com/library/Gg398518(v=OCS.15))  
+[Remove-CsCertificate](https://technet.microsoft.com/library/Gg412895(v=OCS.15))  
   
 
 </div>

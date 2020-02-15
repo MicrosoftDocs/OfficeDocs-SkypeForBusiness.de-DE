@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planen von VoIP-Ausfallsicherheit für den zentralen Standort'
+title: 'Lync Server 2013: Planen der VoIP-Ausfallsicherheit für den zentralen Standort'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184164
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fbeda869c078e6adfce18088545428170b356980
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 11f1f6a44530bbb6bdabde4f39b3e63bd0b5c1c9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41754355"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037027"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>Planen von VoIP-Ausfallsicherheit für den zentralen Standort in Lync Server 2013
+# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>Planen der VoIP-Ausfallsicherheit für den zentralen Standort in lync Server 2013
 
 </div>
 
@@ -35,58 +35,58 @@ ms.locfileid: "41754355"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-10-30_
+_**Letztes Änderungsstand des Themas:** 2013-10-30_
 
-In zunehmendem Maße haben Unternehmen mehrere Websites, die sich auf der ganzen Welt verteilen. Die Verwaltung von Notfalldiensten, der Zugriff auf den Helpdesk und die Möglichkeit, wichtige Geschäftsaufgaben auszuführen, wenn eine zentrale Website nicht mehr zur Verfügung steht, ist für die Lösung von Enterprise-VoIP-Resilienz unerlässlich. Wenn eine zentrale Website nicht mehr verfügbar ist, müssen die folgenden Bedingungen erfüllt sein:
+Immer mehr Unternehmen verfügen über mehrere Standorte, die weltweit verteilt sind. Die Verwaltung von Notfalldiensten, der Zugriff auf das Helpdesk und die Möglichkeit, wichtige geschäftliche Aufgaben auszuführen, wenn ein zentraler Standort außer Betrieb ist, sind für alle Lösungen für die Ausfallsicherheit von Enterprise-VoIP unerlässlich. Wenn ein zentraler Standort nicht länger verfügbar ist, muss Folgendes sichergestellt werden:
 
-  - Sprach-Failover muss bereitgestellt werden.
+  - Bereitstellung von VoIP-Failover.
 
-  - Benutzer, die sich normalerweise beim Front-End-Pool am zentralen Standort registrieren, müssen sich mit einem alternativen Front-End-Pool registrieren können. Dies kann durch Erstellen mehrerer DNS-SRV-Einträge erfolgen, die jeweils zu einem Director-Pool oder einem Front-End-Pool in jeder ihrer zentralen Websites aufgelöst werden. Sie können die Priorität und die Gewichtung der SRV-Einträge anpassen, damit Benutzer, die von dieser zentralen Website bedient werden, den entsprechenden Director und den Front-End-Pool vor denen in anderen SRV-Einträgen erhalten.
+  - Benutzer, die sich normalerweise beim Front-End-Pool am zentralen Standort registrieren, müssen sich mit einem alternativen Front-End-Pool registrieren können. Dies kann durch Erstellen mehrerer DNS-SRV-Einträge geschehen, die jeweils in eine Directorpool oder Front-End-Pool an jedem zentralen Standort aufgelöst werden. Sie können die Priorität und die Gewichtung der SRV-Einträge anpassen, sodass Benutzer, die von diesem zentralen Standort bedient werden, den entsprechenden Director und Front-End-Pool vor denen in anderen SRV-Einträgen erhalten.
 
-  - Anrufe an und von Benutzern, die sich an anderen Standorten befinden, müssen an das PSTN umgeleitet werden.
+  - Eingehende und ausgehende Anrufe von Benutzern an anderen Standorten müssen an das Telefonfestnetz umgeleitet werden.
 
-In diesem Thema wird die empfohlene Lösung zum Sichern der VoIP-Stabilität der zentralen Website beschrieben.
+In diesem Thema wird die empfohlene Lösung zum Sicherstellen der VoIP-Ausfallsicherheit für einen zentralen Standort beschrieben.
 
 <div>
 
 ## <a name="architecture-and-topology"></a>Architektur und Topologie
 
-Für die Planung der sprach Stabilität an einem zentralen Standort ist ein grundlegendes Verständnis der zentralen Rolle erforderlich, die von der lync Server 2013-Registrierungsstelle beim Aktivieren des sprach Failovers gespielt wird. Die lync Server-Registrierungsstelle ist eine Serverrolle, die die Clientregistrierung und-Authentifizierung ermöglicht und Routingdienste bereitstellt. Es befindet sich zusammen mit anderen Komponenten auf einem Standard Edition-Server, Front-End-Server, Director oder Survivable Branch-Appliance. Ein Registrierungspool besteht aus Registrierungsdiensten, die im Front-End-Pool ausgeführt werden und sich am gleichen Standort befinden. Der Front-End-Pool muss Lastenausgleich sein. DNS-Lastenausgleich wird empfohlen, der Hardwarelastenausgleich ist jedoch akzeptabel. Ein lync-Client ermittelt den Front-End-Pool mithilfe des folgenden Ermittlungsmechanismus:
+Für die Planung der VoIP-Ausfallsicherheit an einem zentralen Standort ist ein grundlegendes Verständnis der zentralen Rolle erforderlich, die die lync Server 2013 Registrierungsstelle beim Aktivieren des VoIP-Failovers spielt. Die lync Server Registrierungsstelle ist eine Server Rolle, die die Clientregistrierung und-Authentifizierung ermöglicht und Routingdienste bereitstellt. Sie befindet sich zusammen mit anderen Komponenten auf einem Standard Edition-Server, Front-End-Server, Director oder Survivable Branch Appliance. Ein registrierungsstellenpool besteht aus Registrierungsdiensten, die auf der Front-End-Pool und an derselben Website installiert sind. Die Front-End-Pool muss Lastenausgleich aufweisen. Empfohlen wird der DNS-Lastenausgleich, der Einsatz eines Hardwaregeräts zum Lastenausgleich ist jedoch ebenfalls möglich. Ein lync-Client ermittelt die Front-End-Pool über den folgenden Erkennungsmechanismus:
 
 1.  DNS-SRV-Eintrag
 
-2.  AutoDiscovery Web Service (neu in lync Server 2013)
+2.  AutoErmittlungsdienst (neu in lync Server 2013)
 
 3.  DHCP-Option 120
 
-Nachdem der lync-Client eine Verbindung mit dem Front-End-Pool hergestellt hat, wird er vom Load Balancer an einen der Front-End-Server im Pool weitergeleitet. Dieser Front-End-Server leitet den Client wiederum an eine bevorzugte Registrierungsstelle im Pool um.
+Nachdem der lync-Client eine Verbindung mit dem Front-End-Pool hergestellt hat, wird er vom Lastenausgleich an einen der Front-End-Server im Pool geleitet. Durch diese Front-End-Server wird der Client wiederum an eine bevorzugte Registrierungsstelle im Pool umgeleitet.
 
-Jeder Benutzer, der für Enterprise-VoIP aktiviert ist, wird einem bestimmten Registrar-Pool zugewiesen, der zum primären Registrierungspool des Benutzers wird. An einer bestimmten Website teilen sich in der Regel Hunderte oder Tausende von Benutzern einen einzigen primären Registrierungspool. Zum berücksichtigen des Verbrauchs von Ressourcen für zentrale Websites durch alle Zweigstellenbenutzer, die auf die zentrale Website für Anwesenheit, Konferenz oder Failover angewiesen sind, empfehlen wir, dass Sie die einzelnen Verzweigungs Websitebenutzer als Benutzer berücksichtigen, die bei der zentralen Website registriert sind. Derzeit gibt es keine Beschränkungen für die Anzahl der Benutzer von Zweigstellen, einschließlich der Benutzer, die bei einer Survivable Branch-Appliance registriert sind.
+Jeder für Enterprise-VoIP aktivierte Benutzer wird einem bestimmten registrierungsstellenpool zugewiesen, der zum primären registrierungsstellenpool des Benutzers wird. Typischerweise verwenden Hunderte oder Tausende Benutzer an einem Standort einen einzigen primären Registrierungspool gemeinsam. Um den Verbrauch der Ressourcen eines zentralen Standorts durch Zweigstellenbenutzer zu ermitteln, die für Anwesenheits-, Konferenz- oder Failoverfunktionen vom zentralen Standort abhängen, sollten Sie jeden Zweigstellenbenutzer als Benutzer betrachten, der für den zentralen Standort registriert ist. Derzeit gibt es keine Beschränkungen für die Anzahl der Zweigstellenbenutzer, einschließlich der Benutzer, die mit einem Survivable Branch Appliance registriert sind.
 
-Um die sprach Sicherheit bei einem zentralen Standortausfall zu gewährleisten, muss der primäre Registrierungspool über einen einzelnen dedizierten Sicherungs Registrierungs Registrierungspool an einer anderen Website verfügen. Die Sicherung kann mithilfe der Stabilitäts Einstellungen des Topologie-Generators konfiguriert werden. Unter der Voraussetzung, dass eine stabile WAN-Verbindung zwischen den beiden Websites besteht, werden Benutzer, deren primärer Registrierungspool nicht mehr verfügbar ist, automatisch an den sicherungsregistrierungspool weitergeleitet.
+Zum Gewährleisten von VoIP-Ausfallsicherheit beim Ausfall eines zentralen Standorts muss der primäre Registrierungspool über einen einzelnen designierten Sicherungsregistrierungspool verfügen, der sich an einem anderen Standort befindet. Die Sicherung kann mithilfe von Ausfall Sicherheitseinstellungen für den Topologie-Generator konfiguriert werden. Vorausgesetzt, dass eine ausfallsichere WAN-Leitung zwischen den beiden Standorten besteht, werden Benutzer des nicht mehr verfügbaren primären Registrierungspools automatisch an den Sicherungsregistrierungspool geleitet.
 
-Die folgenden Schritte beschreiben den Client Ermittlungs-und Registrierungsprozess:
+Der Such- und Registrierungsprozess des Clients umfasst die folgenden Schritte:
 
-1.  Ein Client erkennt lync Server über DNS-SRV-Einträge. In lync Server 2013 können DNS-SRV-Einträge so konfiguriert werden, dass mehr als ein FQDN an die DNS-SRV-Abfrage zurückgegeben wird. Wenn Enterprise Contoso beispielsweise über drei zentrale Standorte (Nordamerika, Europa und Asien – Pazifik) und einen Director-Pool an jedem zentralen Standort verfügt, können DNS-SRV-Einträge auf die FQDNs des Director-Pools in jedem der drei Speicherorte verweisen. Solange der Director-Pool an einem der Speicherorte verfügbar ist, kann der Client eine Verbindung mit dem lync-Server für den ersten Hop herstellen.
+1.  Ein Client erkennt lync Server über DNS-SRV-Einträge. In lync Server 2013 können DNS-SRV-Einträge so konfiguriert werden, dass mehr als ein FQDN an die DNS-SRV-Abfrage zurückgegeben wird. Beispiel: Wenn das Unternehmen Contoso über drei zentrale Standorte (in Nordamerika, Europa und im asiatisch-pazifischen Raum) sowie einen Director-Pool an jedem zentralen Standort verfügt, können DNS-SRV-Einträge auf die vollqualifizierten Domänennamen der Director-Pools an jedem dieser drei Standorte verweisen. Solange die Directorpool an einem der Standorte verfügbar ist, kann der Client eine Verbindung mit dem ersten Hop-lync Server herstellen.
     
     <div>
     
 
     > [!NOTE]  
-    > Die Verwendung eines Director-Pools ist optional. Stattdessen kann ein Front-End-Pool verwendet werden.
+    > Die Verwendung eines Directorpool ist optional. Stattdessen kann ein Front-End-Pool verwendet werden.
 
     
     </div>
 
-2.  Der Director-Pool informiert den lync-Client über den primären Registrierungspool und den sicherungsregistrierungspool des Benutzers.
+2.  Das Directorpool informiert den lync-Client über den primären Registrierungspool des Benutzers und den sicherungsregistrierungspool.
 
-3.  Der lync-Client versucht zunächst, eine Verbindung mit dem primären Registrierungspool des Benutzers herzustellen. Wenn der primäre Registrierungspool verfügbar ist, akzeptiert die Registrierungsstelle die Registrierung. Wenn der primäre Registrierungspool nicht verfügbar ist, versucht der lync-Client, eine Verbindung mit dem sicherungsregistrierungspool herzustellen. Wenn der sicherungsregistrierungspool verfügbar ist und festgestellt hat, dass der primäre Registrierungspool des Benutzers nicht verfügbar ist (durch Erkennen eines fehlenden Heartbeats für ein angegebenes Failover-Intervall), akzeptiert der sicherungsregistrierungspool die Registrierung des Benutzers. Nachdem die Sicherungs Registrierungsstelle festgestellt hat, dass die primäre Registrierungsstelle wieder verfügbar ist, leitet der sicherungsregistrierungspool Failover-lync-Clients an Ihren primären Pool um.
+3.  Der lync-Client versucht zuerst, eine Verbindung mit dem primären Registrierungspool des Benutzers herzustellen. Wenn der primäre Registrierungspool verfügbar ist, wird die Registrierung akzeptiert. Wenn der primäre registrierungsstellenpool nicht verfügbar ist, versucht der lync-Client, eine Verbindung mit dem Sicherungs registrierungsstellenpool herzustellen. Wenn der Sicherungsregistrierungspool verfügbar ist und festgestellt hat, dass der primäre Registrierungspool des Benutzers nicht verfügbar ist (kein Empfang des Heartbeatsignals innerhalb eines festgelegten Failoverintervalls), akzeptiert der Sicherungsregistrierungspool die Registrierung des Benutzers. Nachdem die Sicherungs Registrierungsstelle festgestellt hat, dass die primäre Registrierungsstelle wieder verfügbar ist, leitet der Sicherungs Registrierungsstellen-Pool Failover-lync-Clients an Ihren primären Pool weiter.
 
-Die folgende Abbildung zeigt die empfohlene Topologie zur Gewährleistung der Stabilität des zentralen Standorts. Die beiden Standorte sind durch eine stabile WAN-Verbindung verbunden. Wenn die zentrale Website nicht mehr verfügbar ist, werden Benutzer, die diesem Pool zugewiesen sind, zur Registrierung an die Sicherungswebsite weitergeleitet.
+Die folgende Abbildung zeigt die empfohlene Topologie zum Gewährleisten von Ausfallsicherheit für einen zentralen Standort. Die zwei Standorte sind über eine ausfallsichere WAN-Leitung verbunden. Wenn der zentrale Standort ausfällt, werden Benutzer, die diesem Pool zugewiesen sind, zur Registrierung an den Sicherungsstandort umgeleitet.
 
-**Empfohlene Topologie für die sprach Stabilität von Central Site**
+**Empfohlene Topologie für VoIP-Ausfallsicherheit an einem zentralen Standort**
 
-![Topologie für Voice-resliency für zentrale Websites](images/Gg398347.19ea3e74-8a5c-488c-a34e-fc180ab9a50a(OCS.15).jpg "Topologie für Voice-resliency für zentrale Websites")
+![Topologie für VoIP-resliency für den zentralen Standort](images/Gg398347.19ea3e74-8a5c-488c-a34e-fc180ab9a50a(OCS.15).jpg "Topologie für VoIP-resliency für den zentralen Standort")
 
 </div>
 
@@ -94,23 +94,23 @@ Die folgende Abbildung zeigt die empfohlene Topologie zur Gewährleistung der St
 
 ## <a name="requirements-and-recommendations"></a>Anforderungen und Empfehlungen
 
-Die folgenden Voraussetzungen und Empfehlungen für die Implementierung der VoIP-Flexibilität für die zentrale Website sind für die meisten Organisationen geeignet:
+Die folgenden Anforderungen und Empfehlungen für die Implementierung von VoIP-Ausfallsicherheit an einem zentralen Standort gelten für die meisten Organisationen:
 
-  - Die Websites, auf denen sich die primären und die Sicherungs registrierungspools befinden, sollten über eine stabile WAN-Verbindung verbunden sein.
+  - Die Standorte, an denen sich der primäre und der Sicherungsregistrierungspool befinden, sollten über eine ausfallsichere WAN-Leitung verbunden sein.
 
-  - Jede zentrale Website muss einen Registrierungspool enthalten, der aus einer oder mehreren Registrierungsstellen besteht.
+  - Jeder zentrale Standort muss über einen Registrierungspool mit mindestens einer Registrierung verfügen.
 
-  - Jeder Registrierungspool muss mithilfe des DNS-Lastenausgleichs, des Hardwarelastenausgleichs oder beider Lastenausgleich erfolgen. Detaillierte Informationen zum Planen Ihrer Lastenausgleichskonfiguration finden Sie unter [Lastenausgleichsanforderungen für lync Server 2013](lync-server-2013-load-balancing-requirements.md).
+  - Jeder registrierungsstellenpool muss mithilfe des DNS-Lastenausgleichs, des Hardwarelastenausgleichs oder beider Lastenausgleich erfolgen. Ausführliche Informationen zum Planen der Lastenausgleichskonfiguration finden Sie unter [Lastenausgleichsanforderungen für lync Server 2013](lync-server-2013-load-balancing-requirements.md).
 
-  - Jeder Benutzer muss einem primären registrierungsstellenpool mithilfe des lync Server-Verwaltungsshell-Cmdlets " **CsUser** " oder der lync Server-Systemsteuerung zugewiesen werden.
+  - Jeder Benutzer muss einem primären registrierungsstellenpool zugewiesen werden, indem er entweder das lync Server-Verwaltungsshell-Cmdlet " **CsUser** " oder den lync Server-Systemsteuerung verwendet.
 
-  - Der primäre Registrierungspool muss über einen einzelnen sicherungsregistrierungspool an einem anderen zentralen Standort verfügen.
+  - Der primäre Registrierungspool muss über einen einzelnen Sicherungsregistrierungspool an einem anderen zentralen Standort verfügen.
 
-  - Der primäre Registrierungspool muss so konfiguriert sein, dass ein Failover zum sicherungsregistrierungspool durchführen kann. Standardmäßig ist die primäre Registrierungsstelle so eingestellt, dass Sie nach einem Intervall von 300 Sekunden ein Failover für den sicherungsregistrierungspool durchführen kann. Sie können dieses Intervall mithilfe des lync Server 2013-Topologie-Generators ändern.
+  - Für den primären Registrierungspool muss ein Failover auf den Sicherungsregistrierungspool konfiguriert sein. In der Standardeinstellung ist für die primäre Registrierung ein Failover auf den Sicherungsregistrierungspool nach 300 Sekunden festgelegt. Sie können dieses Intervall mithilfe des lync Server 2013 Topologie-Generators ändern.
 
-  - Konfigurieren Sie eine Failover-Route, wie im Thema "[Konfigurieren einer Failover-Route in lync Server 2013](lync-server-2013-configuring-a-failover-route.md)" in der Planning-Dokumentation beschrieben. Geben Sie bei der Konfiguration der Route ein Gateway an, das sich an einem anderen Standort als dem Gateway befindet, das auf der primären Route angegeben ist.
+  - Konfigurieren Sie eine Failover-Route, wie im Thema "[Konfigurieren einer Failover-Route in lync Server 2013](lync-server-2013-configuring-a-failover-route.md)" in der Planungsdokumentation beschrieben. Geben Sie beim Konfigurieren der Route ein Gateway an, das sich an einem anderen Standort befindet als das in der primären Route angegebene Gateway.
 
-  - Wenn die zentrale Website Ihren primären Verwaltungsserver enthielt und die Website wahrscheinlich für einen längeren Zeitraum nicht mehr zur Verfügung steht, müssen Sie Ihre Verwaltungstools auf der Sicherungswebsite erneut installieren. Andernfalls können Sie keine Verwaltungseinstellungen ändern.
+  - Wenn sich Ihr primärer Verwaltungsserver am zentralen Standort befindet und dieser Standort wahrscheinlich für einen längeren Zeitraum ausfällt, müssen Sie Ihre Verwaltungstools am Sicherungsstandort erneut installieren. Andernfalls können keine Verwaltungseinstellungen geändert werden.
 
 </div>
 
@@ -118,7 +118,7 @@ Die folgenden Voraussetzungen und Empfehlungen für die Implementierung der VoIP
 
 ## <a name="dependencies"></a>Abhängigkeiten
 
-Lync Server hängt von den folgenden Infrastruktur-und Softwarekomponenten ab, um die sprach Sicherheit zu gewährleisten:
+Lync Server hängt von den folgenden Infrastruktur-und Softwarekomponenten ab, um die VoIP-Ausfallsicherheit zu gewährleisten:
 
 
 <table>
@@ -133,19 +133,19 @@ Lync Server hängt von den folgenden Infrastruktur-und Softwarekomponenten ab, u
 </tr>
 <tr class="even">
 <td><p>DNS</p></td>
-<td><p>Auflösen von SRV-Einträgen und Datensätzen für Server-Server-und Server-Client-Konnektivität</p></td>
+<td><p>Auflösen von SRV- und A-Einträgen für Konnektivität zwischen Servern bzw. zwischen Servern und Clients</p></td>
 </tr>
 <tr class="odd">
-<td><p>Exchange-und Exchange-Webdienste (EWS)</p></td>
-<td><p>Kontaktspeicher; Kalenderdaten</p></td>
+<td><p>Exchange und Exchange-Webdienste</p></td>
+<td><p>Speicherung von Kontakten, Kalenderdaten</p></td>
 </tr>
 <tr class="even">
 <td><p>Exchange Unified Messaging und Exchange-Webdienste</p></td>
-<td><p>Anrufprotokolle, voicemailliste, Voicemail</p></td>
+<td><p>Anrufprotokolle, Voicemailliste, Voicemail</p></td>
 </tr>
 <tr class="odd">
-<td><p>DHCP-Optionen 120</p></td>
-<td><p>Wenn der DNS-SRV nicht zur Verfügung steht, versucht der Client, DHCP-Option 120 zu verwenden, um die Registrierungsstelle zu ermitteln. Damit dies funktioniert, muss entweder ein DHCP-Server konfiguriert sein, oder lync Server 2013 DHCP muss aktiviert sein. Ausführliche Informationen finden Sie unter Hardware-und Software Anforderungen für die Stabilität des Zweigstellen Standorts in den Anforderungen an die <a href="lync-server-2013-branch-site-resiliency-requirements.md">Stabilität des Zweigstellen Standorts für den lync Server 2013</a> -Abschnitt.</p></td>
+<td><p>DHCP Options 120</p></td>
+<td><p>Wenn DNS-SRV nicht verfügbar ist, versucht der Client, DHCP Option 120 für die Suche nach der Registrierung zu verwenden. Damit dies funktioniert, muss entweder ein DHCP-Server konfiguriert sein, oder lync Server 2013 DHCP muss aktiviert sein. Ausführliche Informationen finden Sie unter Hardware-und Software Anforderungen für Ausfallsicherheit für Zweigstellenstandorte in <a href="lync-server-2013-branch-site-resiliency-requirements.md">Anforderungen für die Ausfallsicherheit an Zweigstellenstandorten für lync Server 2013</a> Abschnitt.</p></td>
 </tr>
 </tbody>
 </table>
@@ -155,57 +155,57 @@ Lync Server hängt von den folgenden Infrastruktur-und Softwarekomponenten ab, u
 
 <div>
 
-## <a name="survivable-voice-features"></a>Überlebende sprach Features
+## <a name="survivable-voice-features"></a>VoIP-Funktionen mit Ausfallsicherheit
 
-Wenn die Voraussetzungen und Empfehlungen implementiert wurden, werden die folgenden Sprachfeatures vom sicherungsregistrierungspool bereitgestellt:
+Wenn die vorstehenden Anforderungen und Empfehlungen implementiert wurden, werden die folgenden VoIP-Funktionen vom Sicherungsregistrierungspool bereitgestellt:
 
   - Ausgehende PSTN-Anrufe
 
-  - Eingehende PSTN-Anrufe, wenn der Telefoniedienstanbieter die Möglichkeit unterstützt, ein Failover zu einer Sicherungswebsite durchführen zu können
+  - Eingehende PSTN-Anrufe, wenn der Telefoniedienstanbieter das Failover auf einen Sicherungsstandort unterstützt
 
-  - Enterprise-Anrufe zwischen Benutzern am gleichen Standort und zwischen zwei unterschiedlichen Websites
+  - Enterprise-Anrufe zwischen Benutzern, die sich entweder am selben oder an zwei verschiedenen Standorten befinden
 
-  - Einfache Anrufbehandlung, einschließlich Anruf halten, abrufen und übertragen
+  - Grundlegende Anrufbehandlung, einschließlich Halten, Wiederaufnahme und Übergabe
 
-  - Instant Messaging mit zwei Teilnehmern und Freigeben von Audio und Video zwischen Benutzern am gleichen Standort
+  - Instant Messaging mit zwei Teilnehmern sowie Freigabe von Audio- und Videoinhalten zwischen Benutzern am selben Standort
 
-  - Anrufweiterleitung, gleichzeitiges Klingeln von Endpunkten, Anrufdelegierung und Team Anrufdienste, aber nur, wenn beide Teilnehmer die Delegation oder alle Teammitglieder anrufen, auf der gleichen Website konfiguriert sind.
+  - Anrufweiterleitung, gleichzeitiges Klingeln von Endgeräten, Anrufdelegierung und Teamanrufdienste (jedoch nur, wenn beide Teilnehmer für die Anrufdelegierung oder alle Teammitglieder am selben Standort konfiguriert sind).
 
-  - Vorhandene Telefone und Clients funktionieren weiterhin.
+  - Vorhandene Telefone und Clients sind weiterhin funktionsfähig.
 
   - Aufzeichnung von Kommunikationsdatensätzen (KDS)
 
   - Authentifizierung und Autorisierung
 
-Je nachdem, wie Sie konfiguriert sind, funktionieren die folgenden Sprachfeatures möglicherweise nicht, wenn eine primäre zentrale Website nicht mehr zur Verfügung steht:
+Abhängig von ihrer Konfiguration können die folgenden VoIP-Funktionen beim Ausfall eines primären zentralen Standorts verwendet werden oder nicht:
 
-  - Voicemail-Einzahlung und-Abruf
+  - Hinterlassen und Abrufen von Voicemail
     
-    Wenn Sie Exchange um verfügbar machen möchten, wenn der primäre zentrale Standort außer Dienst ist, müssen Sie eine der folgenden Aktionen ausführen:
+    Wenn Exchange UM beim Ausfall des primären zentralen Standorts verfügbar sein soll, führen Sie einen der folgenden Schritte aus:
     
-      - Ändern Sie die DNS-SRV-Einträge so, dass die Exchange um-Server am zentralen Standort auf Exchange-Exchange um-Server an einem anderen Standort verweisen.
+      - Ändern Sie DNS-SRV-Einträge so, dass die Exchange UM-Server am zentralen Standort auf Exchange UM-Sicherungsserver an einem anderen Standort verweisen.
     
-      - Konfigurieren Sie die Exchange UM-Wähleinstellungen für jeden Benutzer so, dass Exchange um-Server sowohl am zentralen Standort als auch an der Sicherungswebsite eingeschlossen werden, die Exchange um-Server jedoch als deaktiviert festlegen. Wenn der primäre Standort nicht mehr verfügbar ist, muss der Exchange-Administrator die Exchange um-Server auf der Sicherungswebsite als aktiviert kennzeichnen.
+      - Konfigurieren Sie die Exchange UM Wähleinstellungen für die einzelnen Benutzer so, dass Sie Exchange um Server am zentralen Standort und am Sicherungsstandort einschließen, jedoch die Sicherung Exchange um Server als deaktiviert festlegen. Wenn der primäre Standort nicht mehr verfügbar ist, muss der Exchange-Administrator die Exchange um Server am Sicherungsstandort als aktiviert kennzeichnen.
     
-    Wenn keine der vorhergehenden Lösungen möglich ist, steht Exchange um nicht zur Verfügung, wenn die zentrale Website nicht mehr zur Verfügung steht.
+    Wenn keine der oben genannten Lösungen möglich ist, sind Exchange um nicht verfügbar, falls der zentrale Standort nicht mehr verfügbar ist.
 
-  - Konferenzen aller Typen
+  - Alle Konferenztypen
     
-    Ein Benutzer, der ein Failover auf eine Sicherungswebsite durchgeführt hat, kann an einer Konferenz teilnehmen, die von einem Organisator erstellt oder gehostet wird, dessen Pool verfügbar ist, aber keine Konferenz im eigenen primären Pool erstellen oder hosten kann, die nicht mehr verfügbar ist. Ebenso können andere Benutzer nicht an Konferenzen teilnehmen, die im primären Pool des betroffenen Benutzers gehostet werden.
+    Ein Benutzer, für den ein Failover auf einen Sicherungsstandort durchgeführt wurde, kann an einer Konferenz teilnehmen, die von einem Organisator erstellt oder gehostet wird, dessen Pool verfügbar ist. In seinem eigenen primären Pool, der nicht länger verfügbar ist, kann der Benutzer jedoch keine Konferenz erstellen oder hosten. Gleichermaßen können auch keine anderen Benutzer an Konferenzen teilnehmen, die im betroffenen primären Pool des Benutzers gehostet werden.
 
-Die folgenden Sprachfeatures funktionieren nicht, wenn eine primäre zentrale Website nicht mehr zur Verfügung steht:
+Die folgenden VoIP-Funktionen können nicht verwendet werden, wenn ein primärer zentraler Standort ausfällt:
 
-  - Automatische Telefonzentrale
+  - Automatische Konferenzzentrale
 
-  - Anwesenheits-und auf den textbasierendes Routing
+  - Anwesenheits- und DNS-basiertes Routing
 
   - Aktualisieren der Einstellungen für die Anrufweiterleitung
 
-  - Reaktionsgruppendienst und Anruf parken
+  - Reaktionsgruppendienst und Parken von Anrufen
 
-  - Bereitstellungneuer Telefone und Clients
+  - Bereitstellen neuer Telefone und Clients
 
-  - Adressbuch-Websuche
+  - Adressbuchwebsuche
 
 </div>
 
@@ -214,7 +214,7 @@ Die folgenden Sprachfeatures funktionieren nicht, wenn eine primäre zentrale We
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planen von VoIP-Ausfallsicherheit für Zweigstellen in Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md)  
+[Planen von VoIP-Ausfallsicherheit für Zweigstellenstandorte in lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md)  
   
 
 </div>

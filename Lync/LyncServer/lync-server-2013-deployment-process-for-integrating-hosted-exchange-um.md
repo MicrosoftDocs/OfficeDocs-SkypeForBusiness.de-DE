@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Bereitstellungsprozess für die Integration gehosteter Exchange UM-Dienste'
+title: 'Lync Server 2013: Bereitstellungsprozess für die Integration von gehosteten Exchange um'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b314ea3bd7a88264a72c804c7c67ed3baa819972
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cdab3e470037780d871f9ac6a5eba549497cd23a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762623"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038127"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-integrating-hosted-exchange-um-with-lync-server-2013"></a>Bereitstellungsprozess für die Integration gehosteter Exchange UM-Dienste in Lync Server 2013
+# <a name="deployment-process-for-integrating-hosted-exchange-um-with-lync-server-2013"></a>Bereitstellungsprozess für die Integration gehosteter Exchange um mit lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762623"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-25_
+_**Letztes Änderungsstand des Themas:** 2012-09-25_
 
-Bei der effektiven Planung für die Integration von lync Server 2013 in gehostete Exchange Unified Messaging (um) müssen Sie Folgendes berücksichtigen:
+Für eine effektive Planung für die Integration von lync Server 2013 mit gehosteten Exchange Unified Messaging (um) müssen Sie Folgendes berücksichtigen:
 
-  - Voraussetzungen für die Integration von lync Server 2013 in Hosted Exchange um
+  - Voraussetzungen für die Integration von lync Server 2013 mit gehosteten Exchange um
 
   - Erforderliche Schritte während des Integrationsprozesses
 
 <div>
 
-## <a name="deployment-prerequisites-for-integrating-with-hosted-exchange-um"></a>Voraussetzungen für die Bereitstellung für die Integration in Hosted Exchange um
+## <a name="deployment-prerequisites-for-integrating-with-hosted-exchange-um"></a>Bereitstellungsvoraussetzungen für die Integration in gehostete Exchange UM-Dienste
 
-Bevor Sie mit dem Integrationsprozess beginnen können, müssen Sie bereits lync Server 2013 (mindestens einen Front-End-Pool oder einen Standard Edition-Server), einen Edgeserver und lync 2013-oder lync 2010-Clients bereitgestellt haben.
+Bevor Sie mit dem Integrationsprozess beginnen können, müssen Sie bereits lync Server 2013 bereitgestellt haben (mindestens eine Front-End-Pool oder ein Standard Edition-Server), eine Edgeserver und lync 2013 oder lync 2010 Clients.
 
 </div>
 
@@ -55,7 +55,7 @@ Bevor Sie mit dem Integrationsprozess beginnen können, müssen Sie bereits lync
 
 ## <a name="integration-process"></a>Integrationsprozess
 
-Die folgende Tabelle enthält eine Übersicht über den gehosteten Exchange um-Integrationsprozess. Ausführliche Informationen zu Bereitstellungsschritten finden Sie unter [Bereitstellen von lync Server 2013-Benutzern für Voicemail](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md) in der Bereitstellungsdokumentation für gehostete Exchange um.
+Die folgende Tabelle zeigt eine Übersicht über den Integrationsprozess der gehosteten Exchange Unified Messaging-Dienste. Ausführliche Informationen zu Bereitstellungsschritten finden Sie unter [providing lync Server 2013 users Voice Mail on Hosted Exchange um](lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md) in der Bereitstellungsdokumentation.
 
 
 <table>
@@ -75,47 +75,47 @@ Die folgende Tabelle enthält eine Übersicht über den gehosteten Exchange um-I
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Konfigurieren Sie den Edgeserver.</p></td>
+<td><p>Konfigurieren des Edgeservers</p></td>
 <td><ol>
 <li><p>Konfigurieren Sie den Edgeserver für einen Partnerverbund.</p></li>
-<li><p>Manuelles Replizieren von Daten auf den Edgeserver</p></li>
-<li><p>Konfigurieren Sie den Hostinganbieter auf dem Edgeserver.</p></li>
+<li><p>Replizieren Sie die Daten manuell auf den Edgeserver.</p></li>
+<li><p>Konfigurieren Sie den Hostingprovider auf dem Edgeserver.</p></li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md">Konfigurieren des Edgeservers für die Integration in gehostete Exchange UM-Dienste</a></p></td>
+<td><p><a href="lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md">Konfigurieren der Edgeserver für die Integration in gehostete Exchange um</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Konfigurieren der Richtlinie für gehostete Voicemail</p></td>
 <td><ol>
-<li><p>Ändern Sie entweder die Global Hosted Voicemail-Richtlinie, oder erstellen Sie eine neue gehostete Voicemail-Richtlinie mit Website-oder pro-Benutzer-Bereich.</p></li>
-<li><p>Weisen Sie für Richtlinien mit benutzerspezifischem Bereich die Richtlinie Benutzern oder Gruppen zu.</p></li>
+<li><p>Ändern Sie entweder die globale Richtlinie für gehostete Voicemail, oder erstellen Sie eine neue Richtlinie für gehostete Voicemail auf Standort- oder Benutzerebene.</p></li>
+<li><p>Weisen Sie auf Benutzerebene erstellte Richtlinien den geeigneten Benutzern oder Gruppen zu.</p></li>
 </ol></td>
 <td><p>RTCUniversalServerAdmins</p></td>
-<td><p><a href="lync-server-2013-manage-hosted-voice-mail-policies.md">Verwalten von Richtlinien für gehostete Voicemail in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-manage-hosted-voice-mail-policies.md">Verwalten von Richtlinien für gehostete Voicemail in lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Aktivieren von Benutzern für gehostete Voicemails</p></td>
+<td><p>Aktivieren von Benutzerkonten für gehostete Voicemail</p></td>
 <td><ul>
 <li><p>Konfigurieren Sie Benutzerkonten für Benutzer, deren Postfächer sich in einem gehosteten Exchange-Dienst befinden.</p></li>
 </ul></td>
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p><a href="lync-server-2013-enable-users-for-hosted-voice-mail.md">Aktivieren von Benutzern für gehostete Voicemail in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-enable-users-for-hosted-voice-mail.md">Aktivieren von Benutzern für gehostete Voicemail in lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Konfigurieren von gehosteten Kontaktobjekten</p></td>
 <td><ol>
-<li><p>Erstellen Sie Kontaktobjekte für die automatische Telefonzentrale für gehostete Exchange um.</p></li>
-<li><p>Erstellen von Kontaktobjekten für den Abonnenten Zugriff für gehostete Exchange um.</p></li>
+<li><p>Erstellen Sie Kontaktobjekte für automatische Telefonzentralen für gehostete Exchange UM-Dienste.</p></li>
+<li><p>Erstellen Sie Kontaktobjekte für den Teilnehmerzugriff für gehostete Exchange UM-Dienste.</p></li>
 </ol></td>
 <td><p>RTCUniversalUserAdmins</p>
 <div>
 
 > [!NOTE]  
-> Zum Erstellen, ändern oder Entfernen von Kontaktobjekten muss der Benutzer, der das Cmdlet New-CsExUmContact, CsExUmContact oder Remove-CsExUmContact ausführt, über die richtige Berechtigung für die Active Directory-Organisationseinheit verfügen, in der die neuen Kontaktobjekte gespeichert sind. Diese Berechtigungen können gewährt werden, indem das Cmdlet Grant-CsOUPermission ausgeführt wird. Ausführliche Informationen finden Sie in der Dokumentation zur lync Server-Verwaltungsshell.
+> Zum Erstellen, Ändern oder Entfernen von Kontaktobjekten muss der Benutzer, der das Cmdlet "New-CsExUmContact", "Set-CsExUmContact" oder "Remove-CsExUmContact" ausführt, über geeignete Berechtigungen für die Active Directory-Organisationseinheit (Organizational Unit, OU) verfügen, in der die neuen Kontaktobjekte gespeichert werden. Diese Berechtigungen können mit dem Cmdlet "Grant-CsOUPermission" gewährt werden. Ausführliche Informationen finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
 
 </div></td>
-<td><p><a href="lync-server-2013-create-contact-objects-for-hosted-exchange-um.md">Erstellen von Kontaktobjekten für gehostete Exchange UM-Dienste in Lync Server 2013</a></p></td>
+<td><p><a href="lync-server-2013-create-contact-objects-for-hosted-exchange-um.md">Erstellen von Contact-Objekten für gehostete Exchange um in lync Server 2013</a></p></td>
 </tr>
 </tbody>
 </table>

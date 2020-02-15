@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Fehler Verteilungs Bericht'
+title: 'Lync Server 2013: Bericht über Fehlerverteilung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183849
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5250b03aef3fb77de2cbeefa4688a150c9b4a302
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 291097d645884d4c5146b48a69e5355db71e2193
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765173"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046608"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failure-distribution-report-in-lync-server-2013"></a>Bericht zur Fehlerverteilung in lync Server 2013
+# <a name="failure-distribution-report-in-lync-server-2013"></a>Bericht über Fehlerverteilung in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41765173"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-21_
+_**Letztes Änderungsstand des Themas:** 2012-10-21_
 
 Der Bericht über Fehlerverteilung ordnet Sitzungen, bei denen ein Fehler aufgetreten ist, in folgende Kategorien ein:
 
@@ -53,7 +53,7 @@ Der Bericht über Fehlerverteilung ordnet Sitzungen, bei denen ein Fehler aufget
 
   - Häufigste Empfängerbenutzer
 
-  - Häufigste Absenderbenutzer-Agenten
+  - Häufigste Absenderbenutzer-Agents
 
 Anhand dieser Kategorien können Sie genau bestimmen, wo ein Problem aufgetreten ist und in einigen Fällen auch die Ursache feststellen. Angenommen, an einem Tag sind bei 242 Audio- und Videositzungen Fehler aufgetreten. Wenn Sie sich den Bericht über Fehlerverteilung ansehen, stellen Sie möglicherweise fest, dass 237 dieser gescheiterten Sitzungen im Dublin-Pool aufgetreten sind. Dies gibt Ihnen einen guten Ausgangspunkt zum Einkreisen der Ursache und Diagnostizieren dieser Fehler. Wenn Sie in der Kategorie **Häufigste Pools** auf den Dublin-Pool klicken, sehen Sie einen Bericht über Fehlerverteilung nur für diesen Pool. Sie können dann mit der Analyse des Dublin-Pools beginnen, um herauszufinden, warum es so viele Schwierigkeiten gab.
 
@@ -61,31 +61,31 @@ Anhand dieser Kategorien können Sie genau bestimmen, wo ein Problem aufgetreten
 
 ## <a name="viewing-the-failure-distribution-report"></a>Anzeigen des Berichts über Fehlerverteilung
 
-Sie können auf den Bericht über Fehlerverteilung von einem der folgenden Berichte zugreifen, indem Sie entweder auf die Metrik **Anzahl der erwarteten Fehler** oder **Anzahl der unerwarteten Fehler** klicken:
+Sie können auf den Bericht über Fehlerverteilung von einem beliebigen der folgenden Berichte zugreifen, indem Sie entweder auf die Metrik **Anzahl der erwarteten Fehler** oder **Anzahl der unerwarteten Fehler** klicken:
 
-  - [Bericht "Top-Fehler" in lync Server 2013](lync-server-2013-top-failures-report.md)
+  - [Bericht über die häufigsten Fehler in lync Server 2013](lync-server-2013-top-failures-report.md)
 
   - [Konferenz Diagnosebericht in lync Server 2013](lync-server-2013-conference-diagnostic-report.md)
 
-  - [Diagnosebericht zur Peer-to-Peer-Aktivität in lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)
+  - [Diagnosebericht über Peer-to-Peer-Aktivitäten in lync Server 2013](lync-server-2013-peer-to-peer-activity-diagnostic-report.md)
 
-Im Bericht Fehlerverteilung können Sie auf eine der folgenden Metriken klicken, um den [fehlerlistenbericht in lync Server 2013](lync-server-2013-failure-list-report.md)anzuzeigen:
+Im Bericht über Fehlerverteilung können Sie auf eine der folgenden Metriken klicken, um den [fehlerlistenbericht in lync Server 2013](lync-server-2013-failure-list-report.md)anzuzeigen:
 
-  - Wichtigste Diagnosegründe (Sitzungen)
+  - Häufigste Diagnosegründe (Sitzungen)
 
-  - Wichtigste Modalitäten (Sitzungen)
+  - Häufigste Modalitäten (Sitzungen)
 
-  - Wichtigste Pools (Sitzungen)
+  - Häufigste Pools (Sitzungen)
 
-  - Wichtigste Quellen (Sitzungen)
+  - Häufigste Quellen (Sitzungen)
 
-  - Wichtigste Komponenten (Sitzungen)
+  - Häufigste Komponenten (Sitzungen)
 
-  - Wichtigste Absenderbenutzer (Sitzungen)
+  - Häufigste Absenderbenutzer (Sitzungen)
 
-  - Wichtigste Empfängerbenutzer (Sitzungen)
+  - Häufigste Empfängerbenutzer (Sitzungen)
 
-  - Wichtigste Absenderbenutzer-Agenten (Sitzungen)
+  - Häufigste Absenderbenutzer-Agents (Sitzungen)
 
 </div>
 
@@ -93,7 +93,7 @@ Im Bericht Fehlerverteilung können Sie auf eine der folgenden Metriken klicken,
 
 ## <a name="using-the-failure-distribution-report"></a>Verwenden des Berichts über Fehlerverteilung
 
-Je nach Ihrer Monitorgröße und Bildschirmauflösung werden einige Daten im Bericht über Fehlerverteilung möglicherweise abgeschnitten, wenn Sie auf dem Bildschirm angezeigt werden. Dies ist insbesondere bei Agent-Benutzern der Fall, die sehr lange Bezeichnungen haben können. Auf dem Bildschirm wird ein Benutzer-Agent mit dem Namen „UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Lync 2013)“ z. B. nur teilweise angezeigt:
+Je nach Ihrer Monitorgröße und Bildschirmauflösung werden einige Daten im Bericht über Fehlerverteilung möglicherweise abgeschnitten, wenn Sie auf dem Bildschirm angezeigt werden. Dies ist insbesondere bei Agent-Benutzern der Fall, die sehr lange Bezeichnungen haben können. Auf dem Bildschirm wird ein Benutzer-Agent mit dem Namen "UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Lync 2013)" z. B. nur teilweise angezeigt:
 
 UCCAPI/4.0.7400.0 OC/4.0.7400.0 (Microsoft Ly...
 
@@ -107,11 +107,11 @@ Eine interessante Metrik, nach der Sie im Bericht über Fehlerverteilung filtern
 
 ## <a name="filters"></a>Filter
 
-Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. Mit dem Bericht über Fehlerverteilung können Sie beispielsweise nach Kriterien wie dem Aktivitätstyp (Peer-to-Peer-Sitzung oder Konferenzsitzung) oder nach der Diagnose-ID der jeweiligen fehlgeschlagenen Sitzung filtern.
+Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. Mit dem Bericht über Fehlerverteilung können Sie beispielsweise nach Kriterien wie dem Aktivitätstyp (Peer-zu-Peer-Sitzung oder Konferenzsitzung) oder nach der Diagnose-ID der jeweiligen fehlgeschlagenen Sitzung filtern.
 
 In der folgenden Tabelle sind die Filter aufgeführt, die Sie im Bericht über Fehlerverteilung verwenden können.
 
-### <a name="failure-distribution-report-filters"></a>Bericht über Fehlerverteilung - Filter
+### <a name="failure-distribution-report-filters"></a>Bericht über Fehlerverteilung – Filter
 
 <table>
 <colgroup>
@@ -126,9 +126,9 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie im Bericht über F
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Von</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 Uhr</p>
+<p>07.07.2012 13:00</p>
 <p>Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
@@ -136,9 +136,9 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie im Bericht über F
 <p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Bis</strong></p></td>
+<td><p><strong>Ziel</strong></p></td>
 <td><p>Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 Uhr</p>
+<p>07.07.2012 13:00</p>
 <p>Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
@@ -147,13 +147,13 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie im Bericht über F
 </tr>
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
-<td><p>Vollqualifizierter Domänenname (FQDN) des Registrierungspools oder Edgeservers. Sie können einen einzelnen Pool auswählen oder auf <strong>[Alle]</strong> klicken, um die Daten für alle Pools anzuzeigen. Diese Dropdownliste wird basierend auf den Datensätzen in der Datenbank automatisch ausgefüllt.</p></td>
+<td><p>Vollqualifizierter Domänenname (FQDN) des Registrar-Pools oder Edgeservers. Sie können einen einzelnen Pool auswählen, oder auf <strong>[Alle]</strong> klicken, um die Daten für alle Pools anzuzeigen. Diese Dropdownliste wird basierend auf den Datensätzen in der Datenbank automatisch ausgefüllt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Aktivitätstyp</strong></p></td>
 <td><p>Aktivitätstyp, nach dem gefiltert wird. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
-<li><p>[Alle]</p></li>
+<li><p>Alle</p></li>
 <li><p>Peer-to-Peer</p></li>
 <li><p>Konferenz</p></li>
 </ul></td>
@@ -162,16 +162,16 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie im Bericht über F
 <td><p><strong>Sitzungskategorie</strong></p></td>
 <td><p>Gibt an, ob die betreffende Aktivität erfolgreich war oder nicht. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
-<li><p>[Alle]</p></li>
-<li><p>Erfolg</p></li>
+<li><p>Alle</p></li>
+<li><p>Success</p></li>
 <li><p>Erwarteter Fehler</p></li>
 <li><p>Unerwarteter Fehler</p></li>
 </ul>
-<p>Bei &quot;einem erwarteten&quot; Fehler handelt es sich um einen Fehler, der erwartet wird. Hat beispielsweise ein Benutzer seinen Status auf „Nicht stören“ gesetzt, ist zu erwarten, dass alle Anrufe an diesen Benutzer fehlschlagen. Bei &quot;einem unerwarteten Fehler&quot; handelt es sich um einen Fehler, der in einem ansonsten fehlerhaften System auftreten kann. Beispielsweise sollte ein Anruf nicht abgebrochen werden, während der Anrufer sich in der Warteschleife befindet. In diesem Fall würde der Fehler als „unerwartet“ gekennzeichnet.</p></td>
+<p>Ein &quot;erwarteter&quot; Fehler ist ein Fehler, der voraussichtlich eintreten wird. Hat beispielsweise ein Benutzer seinen Status auf "Nicht stören" gesetzt, ist zu erwarten, dass alle Anrufe an diesen Benutzer fehlschlagen. Ein &quot;unerwarteter Fehler&quot; ist ein Fehler, der in einem ansonsten fehlerhaften System auftritt. Beispielsweise sollte ein Anruf nicht abgebrochen werden, während der Anrufer sich in der Warteschleife befindet. In diesem Fall würde der Fehler als "unerwartet" gekennzeichnet.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Diagnose-ID</strong></p></td>
-<td><p>Eindeutige ID (in der Form eines Headers vom Typ „ms-diagnostics“), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt. Diagnostics-Header sind optional (SIP-Sitzungen ohne diese Header sind möglich) und Diagnose-IDs werden nur für Sitzungen berichtet, bei denen Probleme aufgetreten sind.</p></td>
+<td><p>Eindeutige ID (in der Form eines Headers vom Typ "ms-diagnostics"), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt. Diagnostics-Header sind optional (SIP-Sitzungen ohne diese Header sind möglich) und Diagnose-IDs werden nur für Sitzungen berichtet, bei denen Probleme aufgetreten sind.</p></td>
 </tr>
 </tbody>
 </table>
@@ -202,12 +202,12 @@ In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Rang</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Relative Rangordnung der fehlgeschlagenen Sitzungen basierend auf Diagnose-IDs. Die Diagnose-ID ist eine eindeutige ID (in der Form eines Headers vom Typ „ms-diagnostics“), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt.</p></td>
+<td><p>Relative Rangordnung der fehlgeschlagenen Sitzungen basierend auf Diagnose-IDs. Die Diagnose-ID ist eine eindeutige ID (in der Form eines Headers vom Typ "ms-diagnostics"), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Häufigste Diagnosegründe</strong></p></td>
+<td><p><strong>Wichtigste Diagnosegründe</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>In einer Sitzung generierte Diagnose-ID.</p></td>
 </tr>
@@ -245,12 +245,12 @@ In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Rang</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Relative Rangordnung basierend auf der gescheiterten Sitzung und auf dem Sitzungstyp (z. B. Audio-/Video-Konferenz oder Peer-to-Peer-Dateiübertragungssitzung).</p></td>
+<td><p>Relative Rangordnung basierend auf der gescheiterten Sitzung und auf dem Sitzungstyp (z. B. Audio-/Video-Konferenz oder Peer-zu-Peer-Dateiübertragungssitzung).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Häufigste Modalitäten</strong></p></td>
+<td><p><strong>Wichtigste Modalitäten</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Sitzungstyp</p></td>
 </tr>
@@ -288,19 +288,19 @@ In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Rang</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Relative Rangfolge der fehlgeschlagenen Sitzungen auf Grundlage des registrierungspools oder des Edge-Servers, auf dem die Sitzung ausgeführt wurde.</p></td>
+<td><p>Relative Rangfolge der fehlgeschlagenen Sitzungen basierend auf dem registrierungsstellenpool oder Edgeserver, in der die Sitzung durchgeführt wurde.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Häufigste Pools</strong></p></td>
+<td><p><strong>Wichtigste Pools</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Der Name des registrierungspools oder des Edge-Servers.</p></td>
+<td><p>Name des registrierungspools oder Edgeserver.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Sitzungen</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die Gesamtzahl der fehlgeschlagenen Sitzungen pro Registrierungspool oder Edgeserver.</p></td>
+<td><p>Die Gesamtzahl der fehlgeschlagenen Sitzungen pro registrierungsstellenpool oder Edgeserver.</p></td>
 </tr>
 </tbody>
 </table>
@@ -331,12 +331,12 @@ In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Rang</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Relative Rangordnung der fehlgeschlagenen Sitzungen pro Computer.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Häufigste Quellen</strong></p></td>
+<td><p><strong>Wichtigste Quellen</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Name des Computers, auf dem die Sitzung fehlgeschlagen ist.</p></td>
 </tr>
@@ -355,7 +355,7 @@ In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen 
 
 ## <a name="metrics-for-top-components"></a>Metriken für die wichtigsten Komponenten
 
-In der folgenden Tabelle sind die Informationen aufgeführt, die im Fehler Verteilungs Bericht basierend auf den Microsoft lync Server 2010-Komponenten bereitgestellt werden, bei denen die meisten Fehler aufgetreten sind.
+In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen Informationen aufgeführt, basierend auf den Microsoft lync Server 2010-Komponenten, bei denen die meisten Fehler auftraten.
 
 ### <a name="metrics-for-top-components"></a>Metriken für die wichtigsten Komponenten
 
@@ -374,12 +374,12 @@ In der folgenden Tabelle sind die Informationen aufgeführt, die im Fehler Verte
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Rang</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Relative Rangfolge fehlerhafter Sitzungen basierend auf der lync Server 2010-Komponente (beispielsweise ExumRouting, GroupChat oder MediationServer).</p></td>
+<td><p>Relative Rangfolge der fehlgeschlagenen Sitzungen basierend auf lync Server 2010-Komponente (beispielsweise ExumRouting, GroupChat oder MediationServer).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Häufigste Komponenten</strong></p></td>
+<td><p><strong>Wichtigste Komponenten</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Name der für die fehlgeschlagene Sitzung verwendeten Komponente.</p></td>
 </tr>
@@ -396,11 +396,11 @@ In der folgenden Tabelle sind die Informationen aufgeführt, die im Fehler Verte
 
 <div>
 
-## <a name="metrics-for-top-from-users"></a>Metriken für die wichtigsten Absenderbenutzer
+## <a name="metrics-for-top-from-users"></a>Metriken für die wichtigsten "Von Benutzer"
 
-In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen Informationen aufgeführt, basierend auf den Benutzern, bei denen beim Versuch, jemanden anzurufen, die meisten Fehler auftraten (als Absenderbenutzer bezeichnet).
+In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen Informationen aufgeführt, basierend auf den Benutzern, bei denen beim Versuch, jemanden anzurufen, die meisten Fehler auftraten (als "Von Benutzer" bezeichnet).
 
-### <a name="metrics-for-top-from-users"></a>Metriken für die wichtigsten Absenderbenutzer
+### <a name="metrics-for-top-from-users"></a>Metriken für die wichtigsten "Von Benutzer"
 
 <table>
 <colgroup>
@@ -417,12 +417,12 @@ In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Rang</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Relative Rangordnung der fehlgeschlagenen Sitzungen basierend auf dem Benutzer, der zur Teilnahme an der Sitzung eingeladen wurde.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Häufigste Absenderbenutzer</strong></p></td>
+<td><p><strong>Wichtigste "Von Benutzer"</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>SIP-Adresse des Benutzers, der zur Teilnahme an der Sitzung eingeladen wurde.</p></td>
 </tr>
@@ -439,9 +439,9 @@ In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen 
 
 <div>
 
-## <a name="metrics-for-top-to-users"></a>Metriken für die wichtigsten Empfängerbenutzer
+## <a name="metrics-for-top-to-users"></a>Metriken für die wichtigsten "An Benutzer"
 
-In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen Informationen aufgeführt, basierend auf den Benutzern, bei denen die meisten Fehler auftraten, wenn sie von einem anderen Benutzer angerufen wurden (als Empfängerbenutzer bezeichnet).
+In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen Informationen aufgeführt, basierend auf den Benutzern, bei denen die meisten Fehler auftraten, wenn sie von einem anderen Benutzer angerufen wurden (als "An Benutzer" bezeichnet).
 
 
 <table>
@@ -459,12 +459,12 @@ In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Rang</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Relative Rangordnung der fehlgeschlagenen Sitzungen basierend auf dem Benutzer, der die Sitzung initiiert hat.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Häufigste Empfängerbenutzer</strong></p></td>
+<td><p><strong>Wichtigste "An Benutzer"</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>SIP-Adresse des Benutzers, der die Sitzung initiiert hat.</p></td>
 </tr>
@@ -481,11 +481,11 @@ In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen 
 
 <div>
 
-## <a name="metrics-for-top-user-agents"></a>Metriken für die wichtigsten Benutzer-Agenten
+## <a name="metrics-for-top-user-agents"></a>Metriken für die wichtigsten Benutzer-Agents
 
 In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen Informationen aufgeführt, basierend auf der Endpunktsoftware, bei der die meisten Fehler auftraten.
 
-### <a name="metrics-for-top-user-agents"></a>Metriken für die wichtigsten Benutzer-Agenten
+### <a name="metrics-for-top-user-agents"></a>Metriken für die wichtigsten Benutzer-Agents
 
 <table>
 <colgroup>
@@ -502,12 +502,12 @@ In der folgenden Tabelle sind die im Bericht über Fehlerverteilung enthaltenen 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Rang</strong></p></td>
+<td><p><strong>Rank</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Relative Rangordnung der fehlgeschlagenen Sitzungen basierend auf dem in der Sitzung verwendeten Benutzer-Agent (Software), z. B. RTCC/4.0.0.0 Inbound Routing/4.0.0.0.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Wichtigste Benutzer-Agenten</strong></p></td>
+<td><p><strong>Wichtigste Benutzer-Agents</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Name des in der fehlgeschlagenen Sitzung verwendeten Benutzer-Agent.</p></td>
 </tr>

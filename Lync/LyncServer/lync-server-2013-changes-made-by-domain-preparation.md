@@ -12,16 +12,16 @@ ms:contentKeyID: 48184845
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cbdd1fa1fbb5bd7a396e17f478326a9e4dd700f8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fb693f79470e7d68a1aaf662c9ab82b8bafa5c39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730105"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037255"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41730105"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2010-10-18_
+_**Letztes Änderungsstand des Themas:** 2010-10-18_
 
-In der folgenden Tabelle sind die Zugriffssteuerungseinträge (ACEs) aufgeführt, die von der Domänenvorbereitung für den Domänenstamm erstellt werden. Alle ACEs werden geerbt, sofern nicht anders angegeben.
+In der folgenden Tabelle sind die ACEs (Access Control Entries, Zugriffssteuerungseinträge) aufgeführt, die während der Domänenvorbereitung im Domänenstamm erstellt werden. Alle ACEs werden vererbt, sofern nicht anders angegeben.
 
 <div id="sectionSection0" class="section">
 
-### <a name="aces-added-to-domain-root"></a>ACEs, die dem Domänenstamm hinzugefügt wurden
+### <a name="aces-added-to-domain-root"></a>Zum Domänenstamm hinzugefügte ACEs
 
 <table style="width:100%;">
 <colgroup>
@@ -64,7 +64,7 @@ In der folgenden Tabelle sind die Zugriffssteuerungseinträge (ACEs) aufgeführt
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Read-Container (nicht geerbt)</p></td>
+<td><p>Read Container (nicht vererbt)</p></td>
 <td><p><strong>Ja</strong></p></td>
 <td><p><strong>Ja</strong></p></td>
 <td><p>Nein</p></td>
@@ -72,7 +72,7 @@ In der folgenden Tabelle sind die Zugriffssteuerungseinträge (ACEs) aufgeführt
 <td><p>Nein</p></td>
 </tr>
 <tr class="even">
-<td><p>Lesen der Benutzer-PropertySet-Benutzerkonto Einschränkungen</p></td>
+<td><p>Read User PropertySet User-Account-Restrictions</p></td>
 <td><p><strong>Ja</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Nein</p></td>
@@ -80,7 +80,7 @@ In der folgenden Tabelle sind die Zugriffssteuerungseinträge (ACEs) aufgeführt
 <td><p>Nein</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lesen der Benutzer-PropertySet Personal-Informationen</p></td>
+<td><p>Read User PropertySet Personal-Information</p></td>
 <td><p><strong>Ja</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Nein</p></td>
@@ -88,7 +88,7 @@ In der folgenden Tabelle sind die Zugriffssteuerungseinträge (ACEs) aufgeführt
 <td><p>Nein</p></td>
 </tr>
 <tr class="even">
-<td><p>Lesen der Benutzer-PropertySet-allgemeine Informationen</p></td>
+<td><p>Read User PropertySet General-Information</p></td>
 <td><p><strong>Ja</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Nein</p></td>
@@ -96,7 +96,7 @@ In der folgenden Tabelle sind die Zugriffssteuerungseinträge (ACEs) aufgeführt
 <td><p>Nein</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lesen der Benutzer-PropertySet-öffentlichen Informationen</p></td>
+<td><p>Read User PropertySet Public-Information</p></td>
 <td><p><strong>Ja</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Nein</p></td>
@@ -104,7 +104,7 @@ In der folgenden Tabelle sind die Zugriffssteuerungseinträge (ACEs) aufgeführt
 <td><p>Nein</p></td>
 </tr>
 <tr class="even">
-<td><p>Read User PropertySet RTCUserSearchProperty-Satz</p></td>
+<td><p>Read User PropertySet RTCUserSearchProperty-Set</p></td>
 <td><p><strong>Ja</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Nein</p></td>
@@ -120,7 +120,7 @@ In der folgenden Tabelle sind die Zugriffssteuerungseinträge (ACEs) aufgeführt
 <td><p>Nein</p></td>
 </tr>
 <tr class="even">
-<td><p>Schreiben von Benutzer Eigenschafts Proxy-Adressen</p></td>
+<td><p>Write User Property Proxy-Addresses</p></td>
 <td><p>Nein</p></td>
 <td><p>Nein</p></td>
 <td><p><strong>Ja</strong></p></td>
@@ -128,7 +128,7 @@ In der folgenden Tabelle sind die Zugriffssteuerungseinträge (ACEs) aufgeführt
 <td><p>Nein</p></td>
 </tr>
 <tr class="odd">
-<td><p>Schreiben von Benutzer-Eigenschaftssatz-RTCUserSearchProperty</p></td>
+<td><p>Write User PropertySet RTCUserSearchProperty-Set</p></td>
 <td><p>Nein</p></td>
 <td><p>Nein</p></td>
 <td><p><strong>Ja</strong></p></td>
@@ -136,7 +136,7 @@ In der folgenden Tabelle sind die Zugriffssteuerungseinträge (ACEs) aufgeführt
 <td><p>Nein</p></td>
 </tr>
 <tr class="even">
-<td><p>Schreiben von Benutzer-PropertySet-RTCPropertySet</p></td>
+<td><p>Write User PropertySet RTCPropertySet</p></td>
 <td><p>Nein</p></td>
 <td><p>Nein</p></td>
 <td><p><strong>Ja</strong></p></td>
@@ -144,7 +144,7 @@ In der folgenden Tabelle sind die Zugriffssteuerungseinträge (ACEs) aufgeführt
 <td><p>Nein</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lesen von PropertySet DS-Replikation-abrufen – Änderungen aller Active Directory-Objekte</p></td>
+<td><p>Read PropertySet DS-Replication-Get-Changes für alle Active Directory-Objekte</p></td>
 <td><p>Nein</p></td>
 <td><p>Nein</p></td>
 <td><p>Nein</p></td>
@@ -155,9 +155,9 @@ In der folgenden Tabelle sind die Zugriffssteuerungseinträge (ACEs) aufgeführt
 </table>
 
 
-In der folgenden Tabelle sind die ACEs aufgeführt, die von der Domänenvorbereitung in den drei integrierten Containern erstellt werden: Benutzer, Computer und Domänencontroller. Alle ACEs werden geerbt, sofern nicht anders angegeben.
+In der folgenden Tabelle sind die ACEs (Access Control Entries, Zugriffssteuerungseinträge) aufgeführt, die während der Domänenvorbereitung in den drei integrierten Containern erstellt werden: für Benutzer, Computer und Domänencontroller. Alle ACEs werden vererbt, sofern nicht anders angegeben.
 
-### <a name="aces-added-to-built-in-containers"></a>ACEs, die zu integrierten Containern hinzugefügt wurden
+### <a name="aces-added-to-built-in-containers"></a>Zu integrierten Containern hinzugefügte ACEs
 
 <table>
 <colgroup>
@@ -174,7 +174,7 @@ In der folgenden Tabelle sind die ACEs aufgeführt, die von der Domänenvorberei
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Read-Container (nicht geerbt)</p></td>
+<td><p>Read Container (nicht vererbt)</p></td>
 <td><p><strong>Ja</strong></p></td>
 <td><p><strong>Ja</strong></p></td>
 </tr>

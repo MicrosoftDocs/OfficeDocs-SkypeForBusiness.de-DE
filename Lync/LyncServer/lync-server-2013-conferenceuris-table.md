@@ -12,20 +12,20 @@ ms:contentKeyID: 48185160
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3cacbaf4e8c7c826ae2e00e9c86b44cc8387f315
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 143e2b44c5b5ddd9cbf630ac17267e0747029aed
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741575"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040854"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="conferenceuris-table-in-lync-server-2013"></a>ConferenceUris-Tabelle in Lync Server 2013
+# <a name="conferenceuris-table-in-lync-server-2013"></a>ConferenceUris-Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41741575"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-05-25_
+_**Letztes Änderungsstand des Themas:** 2012-05-25_
 
-Die Tabelle ConfereneUris ist eine unterstützende Tabelle, in der eine Liste der verschiedenen Konferenz-URIs gespeichert ist, die an Konferenzsitzungen teilgenommen haben, die in der Datenbank aufgezeichnet wurden. Jeder Datensatz in der Tabelle steht für einen Konferenz-URI.
+Bei der ConferenceUris-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Darin wird eine Liste der verschiedenen Konferenz-URIs gespeichert, die an in der Datenbank aufgezeichneten Konferenzsitzungen beteiligt waren. Jeder Datensatz in der Tabelle steht für einen Konferenz-URI.
 
 
 <table>
@@ -58,15 +58,15 @@ Die Tabelle ConfereneUris ist eine unterstützende Tabelle, in der eine Liste de
 <tbody>
 <tr class="odd">
 <td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>datetime</p></td>
+<td><p>Datum/Uhrzeit</p></td>
 <td><p>Primary</p></td>
-<td><p>Zeitstempel, intern verwendet.</p></td>
+<td><p>Zeitstempel; zu internen Zwecken.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ConferenceUriId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutige Nummer, die diesen Konferenz-URI kennzeichnet.</p></td>
+<td><p>Eindeutige Zahl, die diesen Konferenz-URI identifiziert.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ConferenceUri</strong></p></td>
@@ -78,13 +78,13 @@ Die Tabelle ConfereneUris ist eine unterstützende Tabelle, in der eine Liste de
 <td><p><strong>Prüfsumme</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Prüfsumme von ConferenceUri. Wird verwendet, um die Geschwindigkeit von Datenbanksuchen zu erhöhen.</p></td>
+<td><p>Prüfsumme von ConferenceUri. Wird verwendet, um die Geschwindigkeit von Datenbanksuchvorgängen zu steigern.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>URI-Typ wie conf: Chat für im-Konferenz oder conf: Audio-Video für Audio/Video-Konferenz. Weitere Informationen finden Sie in der Tabelle <a href="lync-server-2013-uritypes-table.md">UriTypes in der lync Server 2013</a> -Tabelle.</p></td>
+<td><p>URI-Typ, beispielsweise conf: Chat für Sofortnachrichtenkonferenz oder conf: Audio-Video für Audio/Videokonferenz. Weitere Informationen finden Sie in der Tabelle <a href="lync-server-2013-uritypes-table.md">UriTypes in lync Server 2013</a> Tabelle.</p></td>
 </tr>
 </tbody>
 </table>

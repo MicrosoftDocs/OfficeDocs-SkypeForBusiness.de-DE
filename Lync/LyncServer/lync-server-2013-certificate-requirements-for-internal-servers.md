@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anforderungen an Zertifikate für interne Server'
+title: 'Lync Server 2013: Zertifikatanforderungen für interne Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183270
 ms.date: 02/17/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0351ab4f54273e1eccc09992ab933525cc2527ae
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f5b3da640ca4aa9f7b53c072802a2f7f727759dc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736785"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038427"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Anforderungen an Zertifikate für interne Server in Lync Server 2013
+# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Zertifikatanforderungen für interne Server in lync Server 2013
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41736785"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2017-02-17_
+_**Letztes Änderungsstand des Themas:** 2017-02-17_
 
-Zu den internen Servern, auf denen lync Server ausgeführt wird und für die Zertifikate erforderlich sind, gehören Standard Edition-Server, Enterprise Edition-Front-End-Server, Vermittlungsserver und Director. In der folgenden Tabelle sind die Zertifikatanforderungen für diese Server aufgeführt. Sie können den lync Server-Zertifikat-Assistenten verwenden, um diese Zertifikate anzufordern.
+Zu den internen Servern, auf denen lync Server ausführt und für die Zertifikate erforderlich sind, gehören Standard Edition-Server, Enterprise Edition Front-End-Server, Vermittlungsserver und Director. Die folgende Tabelle zeigt die Zertifikatanforderungen für diese Server. Sie können den Assistenten für lync Server Zertifikate verwenden, um diese Zertifikate anzufordern.
 
 <div>
 
 
 > [!TIP]  
-> Platzhalterzertifikate werden für die alternativen Subjektnamen unterstützt, die mit den einfachen URLs im Front-End-Pool, Front-End-Server oder Director verknüpft sind. Details zur Unterstützung von Platzhalterzertifikaten finden Sie unter <A href="lync-server-2013-wildcard-certificate-support.md">Unterstützung für Platzhalterzertifikate in lync Server 2013</A>.
+> Platzhalterzertifikate werden für die alternativen Antragstellernamen unterstützt, die den einfachen URLs im Front-End-Pool, Front-End-Server oder Director zugeordnet sind. Ausführliche Informationen zur Unterstützung von Platzhalterzertifikaten finden Sie unter <A href="lync-server-2013-wildcard-certificate-support.md">Wildcard Certificate Support in lync Server 2013</A>.
 
 
 
 </div>
 
-Obwohl eine interne Unternehmenszertifizierungsstelle für interne Server empfohlen wird, können Sie auch eine öffentliche Zertifizierungsstelle verwenden. Eine Liste der öffentlichen Zertifizierungsstellen, die Zertifikate zur Verfügung stellen, die bestimmte Anforderungen für Unified Communications (UC)-Zertifikate erfüllen und mit Microsoft zusammenarbeiten, um sicherzustellen, dass Sie mit dem lync Server-Zertifikat-Assistenten funktionieren, finden Sie im [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)Artikel Microsoft Knowledge Base 929395, "Unified Communications Certificate Partners für Exchange Server und für Communications Server" unter.
+Wenngleich für interne Server die Verwendung einer internen Unternehmenszertifizierungsstelle empfohlen wird, können Sie auch eine öffentliche Zertifizierungsstelle verwenden. Eine Liste der öffentlichen Zertifizierungsstellen mit Zertifikaten, die bestimmte Anforderungen an Unified Communications-Zertifikate (UC) erfüllen und mit Microsoft zusammenarbeiten, um sicherzustellen, dass Sie mit dem Assistenten für lync Server Zertifikate kompatibel sind, finden Sie in [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)Artikel Microsoft Knowledge Base 929395, "Unified Communications Certificate Partners for Exchange Server and for Communications Server" unter.
 
-Die Kommunikation mit anderen Anwendungen und Servern, wie etwa Exchange 2013, erfordert ein Zertifikat, das von den anderen Anwendungen und Produkten unterstützt wird. Für die 2013-Version unterstützen lync Server 2013 und andere Microsoft-Serverprodukte, einschließlich Exchange 2013 und SharePoint Server, das Open Authorization (OAuth)-Protokoll für die Server-zu-Server-Authentifizierung und-Autorisierung. Ausführliche Informationen finden Sie unter [Verwalten der Server-zu-Server-Authentifizierung (OAuth) und der Partneranwendungen in lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) in der Bereitstellungsdokumentation oder in der Betriebsdokumentation.
+Für die Kommunikation mit anderen Anwendungen und Servern wie Exchange 2013 ist ein Zertifikat erforderlich, das von den anderen Anwendungen und Produkten unterstützt wird. Für das 2013-Release, lync Server 2013 und andere Microsoft-Serverprodukte, einschließlich Exchange 2013 und SharePoint Server, wird das Open Authorization (OAuth)-Protokoll für die Server-zu-Server-Authentifizierung und-Autorisierung unterstützt. Ausführliche Informationen finden Sie unter [Managing Server-to-Server Authentication (OAuth) and Partner Applications in lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) in der Bereitstellungsdokumentation oder in der Betriebsdokumentation.
 
-Für Verbindungen von Clients mit Windows 7-Betriebssystem, Windows Server 2008-Betriebssystem, Windows Server 2008 R2-Betriebssystem, Windows Vista-Betriebssystem und Microsoft lync Phone Edition umfasst lync Server 2013 Unterstützung für (aber nicht require) Zertifikate, die mit der SHA-256-kryptografischen Hashfunktion signiert wurden. Um den externen Zugriff mithilfe von SHA-256 zu unterstützen, wird das externe Zertifikat von einer öffentlichen Zertifizierungsstelle mithilfe von SHA-256 ausgestellt.
+Für Verbindungen von Clients, die Windows 7 Betriebssystem, Windows Server 2008 Betriebssystem, Windows Server 2008 R2-Betriebssystem, Windows Vista Betriebssystem und Microsoft lync Phone Edition ausführen, enthält lync Server 2013 Unterstützung für (aber keine erfordern) Zertifikate, die mit der kryptografischen Hashfunktion von SHA-256 signiert wurden. Damit der externe Zugriff über SHA-256 unterstützt wird, wird das externe Zertifikat von einer öffentlichen Zertifizierungsstelle ausgestellt, die SHA-256 verwendet.
 
-In den folgenden Tabellen werden die Zertifikatanforderungen nach Serverrolle für Front-End-Pools und Standard Edition-Server angezeigt. Dies sind standardmäßige Webserverzertifikate, privater Schlüssel, nicht exportierbarer Server.
+In der folgenden Tabelle werden die Zertifikatanforderungen nach Serverrolle für Front-End-Pools und Standard Edition-Server aufgeführt. Es handelt sich in allen Fällen um standardmäßige, nicht exportierbare Webserverzertifikate mit privatem Schlüssel.
 
-Beachten Sie, dass die erweiterte Schlüsselverwendung von Server automatisch konfiguriert wird, wenn Sie mit dem Zertifikat-Assistenten Zertifikate anfordern.
+Beachten Sie, dass die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU) für Server automatisch konfiguriert wird, wenn Sie den Zertifikat-Assistenten zum Anfordern von Zertifikaten verwenden.
 
 <div>
 
 
 > [!NOTE]  
-> Jeder Zertifikatsanzeige Name muss im Computerspeicher eindeutig sein.
+> Jeder Zertifikatanzeige Name muss im Computerspeicher eindeutig sein.
 
 
 
@@ -73,13 +73,13 @@ Beachten Sie, dass die erweiterte Schlüsselverwendung von Server automatisch ko
 
 
 > [!NOTE]  
-> Wenn Sie sipinternal.contoso.com oder sipexternal.contoso.com in Ihrem DNS konfiguriert haben, müssen Sie diese im alternativen Antragstellernamen des Zertifikats hinzufügen.
+> Wenn Sie sipinternal.contoso.com oder sipexternal.contoso.com in Ihrem DNS konfiguriert haben, müssen Sie Sie im alternativen Antragstellernamen des Zertifikats hinzufügen.
 
 
 
 </div>
 
-### <a name="certificates-for-standard-edition-server"></a>Zertifikate für den Standard Edition-Server
+### <a name="certificates-for-standard-edition-server"></a>Zertifikate für Standard Edition-Server
 
 <table>
 <colgroup>
@@ -92,23 +92,23 @@ Beachten Sie, dass die erweiterte Schlüsselverwendung von Server automatisch ko
 <thead>
 <tr class="header">
 <th>Zertifikat</th>
-<th>Name des Antragstellers/gebräuchlicher Name</th>
+<th>Antragstellername/Allgemeiner Name</th>
 <th>Alternativer Antragstellername</th>
 <th>Beispiel</th>
-<th>Kommentare</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Standard</p></td>
-<td><p>Vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools</p></td>
-<td><p>FQDN des Pools und der FQDN des Servers</p>
+<td><p>Vollqualifizierter Domänenname (FQDN) des Pools</p></td>
+<td><p>FQDN des Pools und FQDN des Servers</p>
 <p>Wenn mehrere SIP-Domänen vorhanden sind und die automatische Clientkonfiguration aktiviert wurde, erkennt der Zertifikat-Assistent die unterstützten FQDNs für SIP-Domänen und fügt diese hinzu.</p>
-<p>Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich (Domain Name System) festgelegt ist, benötigen Sie auch Einträge für „sip.sipDomäne“ (für jede vorhandene SIP-Domäne).</p></td>
-<td><p>SN=se01.contoso.com; SAN=se01.contoso.com</p>
-<p>Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch „SAN=sip.contoso.com; SAN=sip.fabrikam.com“.</p></td>
-<td><p>Auf dem Standard Edition-Server entspricht der Server-FQDN dem FQDN des Pools.</p>
-<p>Der Assistent erkennt alle SIP-Domänen, die Sie während der Installation angegeben haben, und fügt sie automatisch zum alternativen Antragstellernamen (SAN) hinzu.</p>
+<p>Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich (Domain Name System) festgelegt ist, benötigen Sie auch Einträge für "sip.sipDomäne" (für jede vorhandene SIP-Domäne).</p></td>
+<td><p>SN = SE01. contoso. com; San = SE01. contoso. com</p>
+<p>Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch "SAN=sip.contoso.com; SAN=sip.fabrikam.com".</p></td>
+<td><p>Auf einem Standard Edition-Server entspricht der Server-FQDN dem Pool-FQDN.</p>
+<p>Der Assistent erkennt alle SIP-Domänen, die Sie während der Installation angegeben haben, und fügt sie dem alternativen Antragstellernamen (SAN) automatisch hinzu.</p>
 <p>Sie können dieses Zertifikat auch für die Server-zu-Server-Authentifizierung verwenden.</p></td>
 </tr>
 <tr class="even">
@@ -117,16 +117,16 @@ Beachten Sie, dass die erweiterte Schlüsselverwendung von Server automatisch ko
 <td><p>Jeder der folgenden:</p>
 <ul>
 <li><p>Interner Web-FQDN (entspricht dem FQDN des Servers)</p></li>
-<li><p>Einfache Besprechungs-URLs</p></li>
-<li><p>Einfache URLs vom Typ „Dialin“</p></li>
-<li><p>Einfache URLs vom Typ „Admin“</p></li>
+<li><p>Einfache URLs vom Typ "Meet"</p></li>
+<li><p>Einfache URLs vom Typ "Dialin"</p></li>
+<li><p>Einfache URL vom Typ "Admin"</p></li>
 <li><p>Oder ein Platzhaltereintrag für die einfachen URLs</p></li>
 </ul></td>
-<td><p>SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</p>
+<td><p>SN = SE01. contoso. com; San = SE01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com; San = admin. contoso. com</p>
 <p>Mit einem Platzhalterzertifikat:</p>
-<p>SN=se01.contoso.com; SAN=se01.contoso.com; SAN=*.contoso.com</p></td>
-<td><p>Sie können den internen Web-FQDN im Topologie-Generator nicht außer Kraft setzen.</p>
-<p>Wenn Sie über mehrere einfache URLs für Besprechungen verfügen, müssen Sie diese als Alternativen Betreff-Namen angeben.</p>
+<p>SN = SE01. contoso. com; San = SE01. contoso. com; San = *. contoso. com</p></td>
+<td><p>Sie können den internen webfqdn im Topologie-Generator nicht außer Kraft setzen.</p>
+<p>Wenn Sie über mehrere einfache URLs vom Typ "Meet" verfügen, müssen Sie alle als alternative Antragstellernamen einbeziehen.</p>
 <p>Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.</p></td>
 </tr>
 <tr class="odd">
@@ -135,21 +135,21 @@ Beachten Sie, dass die erweiterte Schlüsselverwendung von Server automatisch ko
 <td><p>Jeder der folgenden:</p>
 <ul>
 <li><p>Externer Web-FQDN</p></li>
-<li><p>Einfache URLs vom Typ „Dialin“</p></li>
-<li><p>Einfache Besprechungs-URLs pro SIP-Domäne</p></li>
+<li><p>Einfache URLs vom Typ "Dialin"</p></li>
+<li><p>Erfüllen einfacher URLs pro SIP-Domäne</p></li>
 <li><p>Oder ein Platzhaltereintrag für die einfachen URLs</p></li>
 </ul></td>
-<td><p>SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</p>
+<td><p>SN = SE01. contoso. com; San = webcon01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com</p>
 <p>Mit einem Platzhalterzertifikat:</p>
-<p>SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=*.contoso.com</p></td>
-<td><p>Wenn Sie über mehrere einfache URLs für Besprechungen verfügen, müssen Sie diese als Alternativen Betreff-Namen angeben.</p>
+<p>SN = SE01. contoso. com; San = webcon01. contoso. com; San = *. contoso. com</p></td>
+<td><p>Wenn Sie über mehrere einfache URLs vom Typ "Meet" verfügen, müssen Sie alle als alternative Antragstellernamen einbeziehen.</p>
 <p>Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="certificates-for-front-end-server-in-a-front-end-pool"></a>Zertifikate für den Front-End-Server in einem Front-End-Pool
+### <a name="certificates-for-front-end-server-in-a-front-end-pool"></a>Zertifikate für Front-End-Server in einem Front-End-Pool
 
 <table>
 <colgroup>
@@ -162,41 +162,41 @@ Beachten Sie, dass die erweiterte Schlüsselverwendung von Server automatisch ko
 <thead>
 <tr class="header">
 <th>Zertifikat</th>
-<th>Name des Antragstellers/gebräuchlicher Name</th>
+<th>Antragstellername/Allgemeiner Name</th>
 <th>Alternativer Antragstellername</th>
 <th>Beispiel</th>
-<th>Kommentare</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Standard</p></td>
 <td><p>FQDN des Pools</p></td>
-<td><p>FQDN des Pools und FQDN des Servers.</p>
+<td><p>FQDN des Pools und FQDN des Servers</p>
 <p>Wenn mehrere SIP-Domänen vorhanden sind und die automatische Clientkonfiguration aktiviert wurde, erkennt der Zertifikat-Assistent die unterstützten FQDNs für SIP-Domänen und fügt diese hinzu.</p>
-<p>Wenn dieser Pool der Server für die automatische Anmeldung für Clients ist und in Gruppenrichtlinien strikter DNS-Abgleich erforderlich ist, benötigen Sie auch Einträge für SIP. sipdomain (für jede SIP-Domäne, die Sie haben).</p></td>
-<td><p>SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com </p>
-<p>Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch „SAN=sip.contoso.com; SAN=sip.fabrikam.com“.</p></td>
-<td><p>Der Assistent erkennt alle SIP-Domänen, die Sie während der Installation angegeben haben, und fügt sie automatisch zum alternativen Antragstellernamen (SAN) hinzu.</p>
+<p>Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch Einträge für "sip.sipDomäne" (für jede vorhandene SIP-Domäne).</p></td>
+<td><p>SN = EEpool. contoso. com; San = EEpool. contoso. com; San = ee01. contoso. com</p>
+<p>Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch "SAN=sip.contoso.com; SAN=sip.fabrikam.com".</p></td>
+<td><p>Der Assistent erkennt alle SIP-Domänen, die Sie während der Installation angegeben haben, und fügt sie dem alternativen Antragstellernamen (SAN) automatisch hinzu.</p>
 <p>Sie können dieses Zertifikat auch für die Server-zu-Server-Authentifizierung verwenden.</p></td>
 </tr>
 <tr class="even">
-<td><p>Web-intern</p></td>
+<td><p>Web, intern</p></td>
 <td><p>FQDN des Pools</p></td>
 <td><p>Jeder der folgenden:</p>
 <ul>
-<li><p>Interner Web-FQDN (entspricht NICHT dem FQDN des Servers)</p></li>
+<li><p>Interner FQDN des Webs (nicht identisch mit dem FQDN des Servers)</p></li>
 <li><p>Server-FQDN</p></li>
 <li><p>Lync-Pool-FQDN</p></li>
-<li><p>Einfache Besprechungs-URLs</p></li>
-<li><p>Einfache URLs vom Typ „Dialin“</p></li>
-<li><p>Einfache URLs vom Typ „Admin“</p></li>
+<li><p>Einfache URLs vom Typ "Meet"</p></li>
+<li><p>Einfache URLs vom Typ "Dialin"</p></li>
+<li><p>Einfache URL vom Typ "Admin"</p></li>
 <li><p>Oder ein Platzhaltereintrag für die einfachen URLs</p></li>
 </ul></td>
-<td><p>SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</p>
+<td><p>SN = ee01. contoso. com; San = ee01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com; San = admin. contoso. com</p>
 <p>Mit einem Platzhalterzertifikat:</p>
-<p>SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=*.contoso.com</p></td>
-<td><p>Wenn Sie über mehrere einfache URLs für Besprechungen verfügen, müssen Sie diese als Alternativen Betreff-Namen angeben.</p>
+<p>SN = ee01. contoso. com; San = ee01. contoso. com; San = *. contoso. com</p></td>
+<td><p>Wenn Sie über mehrere einfache URLs vom Typ "Meet" verfügen, müssen Sie alle als alternative Antragstellernamen einbeziehen.</p>
 <p>Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.</p></td>
 </tr>
 <tr class="odd">
@@ -205,14 +205,14 @@ Beachten Sie, dass die erweiterte Schlüsselverwendung von Server automatisch ko
 <td><p>Jeder der folgenden:</p>
 <ul>
 <li><p>Externer Web-FQDN</p></li>
-<li><p>Einfache URLs vom Typ „Dialin“</p></li>
-<li><p>Einfache URLs vom Typ „Admin“</p></li>
+<li><p>Einfache URLs vom Typ "Dialin"</p></li>
+<li><p>Einfache URL vom Typ "Admin"</p></li>
 <li><p>Oder ein Platzhaltereintrag für die einfachen URLs</p></li>
 </ul></td>
-<td><p>SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</p>
+<td><p>SN = ee01. contoso. com; San = webcon01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com</p>
 <p>Mit einem Platzhalterzertifikat:</p>
-<p>SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=*.contoso.com</p></td>
-<td><p>Wenn Sie über mehrere einfache URLs für Besprechungen verfügen, müssen Sie diese als Alternativen Betreff-Namen angeben.</p>
+<p>SN = ee01. contoso. com; San = webcon01. contoso. com; San = *. contoso. com</p></td>
+<td><p>Wenn Sie über mehrere einfache URLs vom Typ "Meet" verfügen, müssen Sie alle als alternative Antragstellernamen einbeziehen.</p>
 <p>Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.</p></td>
 </tr>
 </tbody>
@@ -231,7 +231,7 @@ Beachten Sie, dass die erweiterte Schlüsselverwendung von Server automatisch ko
 <thead>
 <tr class="header">
 <th>Zertifikat</th>
-<th>Name des Antragstellers/gebräuchlicher Name</th>
+<th>Antragstellername/Allgemeiner Name</th>
 <th>Alternativer Antragstellername</th>
 <th>Beispiel</th>
 </tr>
@@ -240,26 +240,26 @@ Beachten Sie, dass die erweiterte Schlüsselverwendung von Server automatisch ko
 <tr class="odd">
 <td><p>Standard</p></td>
 <td><p>FQDN des Director-Pools</p></td>
-<td><p>FQDN des Directors, FQDN des Director-Pools</p>
-<p>Wenn dieser Pool der Server für die automatische Anmeldung für Clients ist und in Gruppenrichtlinien strikter DNS-Abgleich erforderlich ist, benötigen Sie auch Einträge für SIP. sipdomain (für jede SIP-Domäne, die Sie haben).</p></td>
+<td><p>Director-FQDN, FQDN des Director-Pools</p>
+<p>Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch Einträge für "sip.sipDomäne" (für jede vorhandene SIP-Domäne).</p></td>
 <td><p>SN = dir-Pool.contoso.com; San = dir-Pool.contoso.com; San = dir01. contoso. com</p>
-<p>Wenn dieser Director-Pool der Server für die automatische Anmeldung für Clients ist und in Gruppenrichtlinien strikter DNS-Abgleich erforderlich ist, benötigen Sie auch San = SIP. contoso. com; San = SIP. fabrikam. com</p></td>
+<p>Wenn es sich bei diesem Director-Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch "SAN=sip.contoso.com; SAN=sip.fabrikam.com".</p></td>
 </tr>
 <tr class="even">
-<td><p>Web-intern</p></td>
+<td><p>Web, intern</p></td>
 <td><p>FQDN des Servers</p></td>
 <td><p>Jeder der folgenden:</p>
 <ul>
 <li><p>Interner Web-FQDN (entspricht dem FQDN des Servers)</p></li>
 <li><p>Server-FQDN</p></li>
 <li><p>Lync-Pool-FQDN</p></li>
-<li><p>Einfache Besprechungs-URLs</p></li>
-<li><p>Einfache URLs vom Typ „Dialin“</p></li>
-<li><p>Einfache URLs vom Typ „Admin“</p></li>
+<li><p>Einfache URLs vom Typ "Meet"</p></li>
+<li><p>Einfache URLs vom Typ "Dialin"</p></li>
+<li><p>Einfache URL vom Typ "Admin"</p></li>
 <li><p>Oder ein Platzhaltereintrag für die einfachen URLs</p></li>
 </ul></td>
-<td><p>SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</p>
-<p>SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=*.contoso.com</p></td>
+<td><p>SN = dir01. contoso. com; San = dir01. contoso. com; San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com; San = admin. contoso. com</p>
+<p>SN = dir01. contoso. com; San = dir01. contoso. com San = *. contoso. com</p></td>
 </tr>
 <tr class="odd">
 <td><p>Web, extern</p></td>
@@ -267,21 +267,21 @@ Beachten Sie, dass die erweiterte Schlüsselverwendung von Server automatisch ko
 <td><p>Jeder der folgenden:</p>
 <ul>
 <li><p>Externer Web-FQDN</p></li>
-<li><p>Einfache URLs vom Typ „Dialin“</p></li>
-<li><p>Einfache URLs vom Typ „Admin“</p></li>
+<li><p>Einfache URLs vom Typ "Dialin"</p></li>
+<li><p>Einfache URL vom Typ "Admin"</p></li>
 <li><p>Oder ein Platzhaltereintrag für die einfachen URLs</p></li>
 </ul></td>
-<td><p>Der FQDN des Director External Web muss vom Front-End-Pool oder Front-End-Server abweichen.</p>
-<p>SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</p>
-<p>SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=*.contoso.com</p></td>
+<td><p>Der externe Director-webfqdn muss sich von dem Front-End-Pool oder Front-End-Server unterscheiden.</p>
+<p>SN = dir01. contoso. com; San = directorwebcon01. contoso. com San = Meet. contoso. com; San = Meet. fabrikam. com; San = dialin. contoso. com</p>
+<p>SN = dir01. contoso. com; San = directorwebcon01. contoso. com San = *. contoso. com</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Wenn Sie über einen eigenständigen vermittlungsserverpool verfügen, benötigen die Vermittlungsserver jeweils die in der folgenden Tabelle aufgelisteten Zertifikate. Wenn Sie den Vermittlungs Server mit den Front-End-Servern collocate, genügen die Zertifikate, die in der Tabelle "Zertifikate für Front-End-Server im Front-End-Pool" weiter oben in diesem Thema aufgeführt sind.
+Wenn Sie über einen eigenständigen Vermittlungsserverpool verfügen, muss jeder der darin enthaltenen Vermittlungsserver über die in der folgenden Tabelle aufgelisteten Zertifikate verfügen. Wenn Sie einen Vermittlungsserver mit den Front-End-Servern verbinden, reichen die in der Tabelle "Zertifikate für Front-End-Server im Front-End-Pool" (weiter oben) aufgeführten Zertifikate aus.
 
-### <a name="certificates-for-stand-alone-mediation-server"></a>Zertifikate für eigenständigen Vermittlungs Server
+### <a name="certificates-for-stand-alone-mediation-server"></a>Zertifikate für eigenständige Vermittlungsserver
 
 <table>
 <colgroup>
@@ -293,7 +293,7 @@ Wenn Sie über einen eigenständigen vermittlungsserverpool verfügen, benötige
 <thead>
 <tr class="header">
 <th>Zertifikat</th>
-<th>Name des Antragstellers/gebräuchlicher Name</th>
+<th>Antragstellername/Allgemeiner Name</th>
 <th>Alternativer Antragstellername</th>
 <th>Beispiel</th>
 </tr>
@@ -303,14 +303,14 @@ Wenn Sie über einen eigenständigen vermittlungsserverpool verfügen, benötige
 <td><p>Standard</p></td>
 <td><p>FQDN des Pools</p></td>
 <td><p>FQDN des Pools</p>
-<p>FQDN des Pool Mitgliedsservers</p></td>
-<td><p>SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net</p></td>
+<p>FQDN des Poolmitgliedsservers</p></td>
+<td><p>SN = medsvr-Pool.contoso.net; San = medsvr-Pool.contoso.net; San = medsvr01. contoso. net</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="certificates-for-survivable-branch-appliance"></a>Zertifikate für Survivable Branch Appliance
+### <a name="certificates-for-survivable-branch-appliance"></a>Zertifikate für eine Survivable Branch Appliance
 
 <table>
 <colgroup>
@@ -322,7 +322,7 @@ Wenn Sie über einen eigenständigen vermittlungsserverpool verfügen, benötige
 <thead>
 <tr class="header">
 <th>Zertifikat</th>
-<th>Name des Antragstellers/gebräuchlicher Name</th>
+<th>Antragstellername/Allgemeiner Name</th>
 <th>Alternativer Antragstellername</th>
 <th>Beispiel</th>
 </tr>
@@ -330,9 +330,9 @@ Wenn Sie über einen eigenständigen vermittlungsserverpool verfügen, benötige
 <tbody>
 <tr class="odd">
 <td><p>Standard</p></td>
-<td><p>FQDN der Anwendung</p></td>
-<td><p>SIP. &lt;sipdomain&gt; (benötigt einen Eintrag pro SIP-Domäne)</p></td>
-<td><p>SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com</p></td>
+<td><p>FQDN der Appliance</p></td>
+<td><p>SIP. &lt;sipdomain "&gt; (benötigt einen Eintrag pro SIP-Domäne)</p></td>
+<td><p>SN = sba01. contoso. net; San = SIP. contoso. com; San = SIP. fabrikam. com</p></td>
 </tr>
 </tbody>
 </table>
@@ -343,7 +343,7 @@ Wenn Sie über einen eigenständigen vermittlungsserverpool verfügen, benötige
 ## <a name="see-also"></a>Siehe auch
 
 
-[Unterstützung von Platzhalterzertifikaten in Lync Server 2013](lync-server-2013-wildcard-certificate-support.md)  
+[Unterstützung von Platzhalterzertifikaten in lync Server 2013](lync-server-2013-wildcard-certificate-support.md)  
   
 
 </div>

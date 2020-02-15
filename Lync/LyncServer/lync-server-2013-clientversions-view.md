@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: ClientVersions-Ansicht'
+title: 'Lync Server 2013: Client Versions-Ansicht'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733825
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fd25da49e8a3b6ad7838ff27a4472e711b97421
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a7e62fbf56d270c6d2d0c65415dc28dd30e4449
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756409"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046668"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="clientversions-view-in-lync-server-2013"></a>ClientVersions-Ansicht in lync Server 2013
+# <a name="clientversions-view-in-lync-server-2013"></a>Client Versions-Ansicht in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756409"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
-In der ClientVersions-Ansicht werden Informationen zu den verschiedenen Clienttypen und-Versionen gespeichert, die an Sitzungen teilgenommen haben, die in der Datenbank aufgezeichnet wurden. Jeder Datensatz in der Ansicht stellt eine Client Version dar. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
+In der Client Versions-Ansicht werden Informationen zu den verschiedenen Clienttypen und-Versionen gespeichert, die an Sitzungen teilgenommen haben, die in der Datenbank aufgezeichnet wurden. Jeder Datensatz in der Ansicht stellt eine Client Version dar. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
 
 <div>
 
 
 > [!NOTE]  
-> Für bestimmte Spalten können mehrere Datensätze vorhanden sein.
+> Es kann mehrere Datensätze für bestimmte Spalten geben.
 
 
 
@@ -65,24 +65,24 @@ In der ClientVersions-Ansicht werden Informationen zu den verschiedenen Clientty
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>VersionID</strong></p></td>
+<td><p><strong>VersionId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Eindeutige Nummer, die diesen Clienttyp und die Version identifiziert.</p></td>
+<td><p>Eindeutige Zahl, die den Clienttyp und die Clientversion identifiziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Version</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td><p>Stellt den Benutzer-Agent dar.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Clienttyp</strong></p></td>
+<td><p><strong>ClientType</strong></p></td>
 <td><p>int</p></td>
-<td><p>Der Typ des Clients.</p></td>
+<td><p>Typ des Clients.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ClientCategory</strong></p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Die Kategorie, zu der der Client gehört. Beispielsweise gehört der Client Conferencing_Attendant_1 .0 zu ClientCategory CAA.</p></td>
+<td><p>Kategorie, zu der der Client gehört. Beispielsweise gehört der Client Conferencing_Attendant_1 .0 zu ClientCategory CAA.</p></td>
 </tr>
 </tbody>
 </table>

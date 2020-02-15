@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Ausführen großer Besprechungen'
+title: 'Lync Server 2013: große Besprechungen durchführen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185603
 ms.date: 01/17/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e3dacecfcb619d9b2a7142c562572f60b121894
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efc7d3d105b09f3a917829e5610396b49f43d923
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765053"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051017"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="running-large-meetings-in-lync-server-2013"></a>Ausführen von umfangreichen Besprechungen in lync Server 2013
+# <a name="running-large-meetings-in-lync-server-2013"></a>Durchführen großer Besprechungen in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765053"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2019-01-17_
+_**Letztes Änderungsstand des Themas:** 2019-01-17_
 
-Bei Hunderten oder Tausenden von Benutzern in einer Besprechung empfiehlt es sich, eine Person zu haben, die sich um die Moderation der Onlinesitzung einer großen Besprechung kümmert. Hierbei kann es sich um eine delegierte Person des Besprechungsorganisators oder ein Mitglied des Supportpersonals für große Besprechungen der Organisation handeln. Der Besprechungsmoderator muss beim Planen der Besprechung als Referent hinzugefügt werden. Es ist allerdings auch möglich, einen Teilnehmer der Onlinebesprechung auf die höhere Funktion eines Referenten zu setzen, während die Besprechung bereits läuft.
+Bei mehreren hundert bis tausend Benutzern in einer Besprechung empfiehlt es sich, dass eine dedizierte Person die Onlinesitzung einer großen Besprechung moderiert. Diese dedizierte Person kann eine Stellvertretung des Besprechungsorganisators oder ein Mitglied des Teams für die Großkunden Unterstützung für Besprechungen sein. Es ist wichtig, dass der dedizierte Besprechungs Moderator zum Zeitpunkt der geplanten Besprechung als Referent hinzugefügt wird, obwohl es möglich ist, einen Online-Besprechungsteilnehmer zur Referenten Rolle zu fördern, während die Besprechung ausgeführt wird.
 
-Der Moderator der Besprechung kann die folgenden Referenten Funktionen von lync Server 2013-Clients verwenden, um die große Besprechung zu verwalten:
+Der Besprechungs Moderator kann die folgenden Referenten Funktionen lync Server 2013 Clients verwenden, um die große Besprechung zu verwalten:
 
-- Ändern von Besprechungszugriffs Typen
+- Ändern von Besprechungszugriffs Typen.
 
-- Laden Sie weitere Teilnehmer während der Besprechung mithilfe der Drag & Drop-Funktion von lync, dem Anrufen von anrufen oder per e-Mail ein.
+- Einladen zusätzlicher Teilnehmer während der Besprechung mit Drag & Drop-Funktion, Telefonanruf oder e-Mail.
 
-- Verwalten von Besprechungsinhalten, einschließlich Hochladen von Inhalten, Löschen von Inhalten und wechseln zwischen aktiven Inhalten
+- Verwalten von Besprechungsinhalten, einschließlich Hochladen von Inhalten, Löschen von Inhalten und wechseln von aktivem Inhalt.
 
 </div>
 

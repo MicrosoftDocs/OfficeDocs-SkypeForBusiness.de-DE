@@ -12,16 +12,16 @@ ms:contentKeyID: 48183578
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a04a798a69279ebef6c4917938ead2fd88a49805
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b0478bec0d78b56061cf68d9efabe5e78a60bad4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735055"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037837"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,29 +35,29 @@ ms.locfileid: "41735055"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-02_
+_**Letztes Änderungsstand des Themas:** 2012-11-02_
 
-Nachdem Sie ein Benutzerkonto in Active Directory-Benutzer und-Computer aktiviert haben, können Sie die lync Server-Systemsteuerung verwenden, um neue lync Server 2013-Benutzerkonten zu erstellen und zu aktivieren, indem Sie einen Active Directory-Benutzer zu lync Server hinzufügen.
+Nachdem Sie ein Benutzerkonto in Active Directory Benutzer und Computer aktiviert haben, können Sie lync Server-Systemsteuerung verwenden, um neue lync Server 2013 Benutzerkonten zu erstellen und zu aktivieren, indem Sie einen Active Directory Benutzer zu lync Server hinzufügen.
 
 <div>
 
-## <a name="to-add-and-enable-a-new-lync-server-user"></a>So fügen Sie einen neuen lync Server-Benutzer hinzu und aktivieren ihn
+## <a name="to-add-and-enable-a-new-lync-server-user"></a>So fügen Sie einen neuen lync Server Benutzer hinzu und aktivieren ihn
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
 
 4.  Klicken Sie auf **Benutzer aktivieren**.
 
-5.  Klicken Sie im Dialogfeld **neuer lync Server-Benutzer** auf **Hinzufügen**.
+5.  Klicken Sie im Dialogfeld **neue lync Server Benutzer** auf **Hinzufügen**.
 
-6.  Geben Sie im Feld Benutzer suchen den gesamten oder den ersten Teil des Namens, den Anzeigenamen, den Vornamen, den **Nachnamen** , den Kontonamen, die e-Mail-Adresse, den Benutzerprinzipalnamen (User Principal Name, UPN) oder die Telefonnummer des gewünschten Active Directory-Benutzerkontos ein, und klicken Sie dann auf **Suchen**.
+6.  Geben Sie im Feld **Benutzer suchen** den vollständigen oder ersten Teil des Namens, des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens (Security Accounts Manager), der e-Mail-Adresse, des Benutzerprinzipalnamens (User Principal Name, UPN) oder der Telefonnummer des gewünschten Active Directory Benutzerkontos ein, und klicken Sie dann auf **Suchen**.
 
-7.  Wählen Sie in der Tabelle das Konto aus, das Sie zu lync Server hinzufügen möchten, und klicken Sie dann auf **OK**.
+7.  Wählen Sie in der Tabelle das Konto aus, das Sie lync Server hinzufügen möchten, und klicken Sie dann auf **OK**.
 
-8.  Weisen Sie den Benutzer einem Pool zu, geben Sie zusätzliche Details an, und weisen Sie die Richtlinien dem gewünschten Benutzer zu, und klicken Sie dann auf **aktivieren**.
+8.  Weisen Sie den Benutzer einem Pool zu, geben Sie weitere Details an, und weisen Sie die Richtlinien dem gewünschten Benutzer zu, und klicken Sie dann auf **aktivieren**.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Zertifikatzusammenfassung für einen skalierten Directorpool (Hardwarelastenausgleich)
+title: Zertifikatzusammenfassung für skalierte Directorpool, Hardwaregerät zum Lastenausgleich
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efcecbd1ec0c486e888a8c7303e450f75abf05bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 79f0ed7eea237c459ec3d42526f25a2b02429906
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736585"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038387"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="certificate-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Zertifikatzusammenfassung für einen skalierten Directorpool (Hardwarelastenausgleich) in Lync Server 2013
+# <a name="certificate-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Zertifikatzusammenfassung für skalierte Directorpool, Hardwaregerät zum Lastenausgleich in lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41736585"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-20_
+_**Letztes Änderungsstand des Themas:** 2012-10-20_
 
-Die Zertifikatanforderungen für einen Director mit einem Hardware Lastenausgleichsmodul verwenden ein Standardzertifikat, das einen Antragstellernamen und einen alternativen Betreff für Dienste enthält, die vom Director-Pool empfangen werden können. Für jeden Director im Pool wird ein Zertifikat angefordert. Darüber hinaus gibt es ein OAuth-Token Zertifikat für Server-zu-Server-Authentifizierungszwecke, das auf jedem Server installiert ist.
+Zertifikatanforderungen für einen Director mit einem Hardwaregerät zum Lastenausgleich verwenden ein Standardzertifikat, das über einen Antragstellernamen und alternative Antragstellernamen für Dienste verfügt, die der Directorpool empfangen kann. Ein Zertifikat wird für jeden Director im Pool angefordert. Darüber hinaus ist ein OAuth-Tokenzertifikat für die Authentifizierung zwischen Servern verfügbar, das auf jedem Server installiert wird.
 
-### <a name="certificates-for-a-scaled-director-using-a-hardware-load-balancer"></a>Zertifikate für einen skalierten Director mit einem Hardware-Lastenausgleichsmodul
+### <a name="certificates-for-a-scaled-director-using-a-hardware-load-balancer"></a>Zertifikate für einen skalierten Director mit einem Hardwaregerät zum Lastenausgleich
 
 <table>
 <colgroup>
@@ -52,8 +52,8 @@ Die Zertifikatanforderungen für einen Director mit einem Hardware Lastenausglei
 <tr class="header">
 <th>Komponente</th>
 <th>Antragstellername</th>
-<th>Subject Alternative Names (San)</th>
-<th>Kommentare</th>
+<th>Alternative Antragstellernamen</th>
+<th>Anmerkungen</th>
 </tr>
 </thead>
 <tbody>
@@ -66,9 +66,9 @@ Die Zertifikatanforderungen für einen Director mit einem Hardware Lastenausglei
 <p>meet.contoso.com</p>
 <p>lyncdiscoverinternal.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
-<p>(Optional) *. contoso.com</p></td>
-<td><p>Director-Zertifikate können entweder von einer intern verwalteten Zertifizierungsstelle (Certification Authority, ca) oder von einer öffentlichen Zertifizierungsstelle angefordert werden.</p>
-<p>Der Director antwortet auf Anforderungen vom Reverse-Proxy im Umkreis oder vom Edgeserver.</p>
+<p>(Optional) *.contoso.com</p></td>
+<td><p>Director-Zertifikate können von einer intern verwalteten Zertifizierungsstelle (Certification Authority, ca) oder von einer öffentlichen Zertifizierungsstelle angefordert werden.</p>
+<p>Der Director antwortet auf Anfragen vom Reverseproxy im Umkreis oder von der Edgeserver.</p>
 <p>Oder ein Platzhaltereintrag für die einfachen URLs</p></td>
 </tr>
 <tr class="even">
@@ -79,10 +79,10 @@ Die Zertifikatanforderungen für einen Director mit einem Hardware Lastenausglei
 
 
 > [!IMPORTANT]
-> Beachten Sie, dass die minimale Schlüssellänge 1024 ist, aber möglicherweise eine Warnung angezeigt wird, dass die empfohlene Mindestlänge von 2048 Bits beträgt.
+> Beachten Sie, dass die minimale Schlüssellänge 1024 Bit beträgt. Dennoch ist es möglich, dass Sie eine Warnmeldung erhalten, die besagt, dass die empfohlene Mindestlänge 2048 Bit beträgt.
 
 
-<p>Das OAuthTokenIssuer-Zertifikat ist ein Single-Purpose-Zertifikat zum Zweck der Authentifizierung von Servern in einer großen Umgebung und kann von einer internen Zertifizierungsstelle oder von einer öffentlichen Zertifizierungsstelle angefordert werden. Das Zertifikat ist erforderlich.</p></td>
+<p>Das OAuthTokenIssuer-Zertifikat dient ausschließlich zum Authentifizieren von Servern in einer großen Umgebung und kann von einer internen oder öffentlichen Zertifizierungsstelle angefordert werden. Das Zertifikat ist erforderlich.</p></td>
 </tr>
 </tbody>
 </table>

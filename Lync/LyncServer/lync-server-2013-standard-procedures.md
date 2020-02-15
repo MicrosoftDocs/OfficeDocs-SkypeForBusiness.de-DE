@@ -12,16 +12,16 @@ ms:contentKeyID: 63969581
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5160e67d13b7ff3ea1502c093a0ed010d176568f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e59c3c4a1b76b7f3549f53721e29aa1e34085334
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731865"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038817"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,30 +35,30 @@ ms.locfileid: "41731865"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-08-18_
+_**Letztes Änderungsstand des Themas:** 2014-08-18_
 
-Verschiedene Ressourcen können Ihnen dabei helfen zu definieren, welche Standardverfahren in der Organisation erforderlich sind und wie diese ausgeführt werden. Da jede Organisation eindeutig ist, müssen Sie diese Ressourcen möglicherweise zusätzlich anpassen und an die täglichen Anforderungen anpassen. Standard mäßige Betriebsverfahren werden geändert, und die Dokumentation muss gelegentlich überarbeitet werden. Während Änderungen vorgenommen werden, sollte der Change Management-Prozess, wie er in den Dienstverwaltungsfunktionen des Microsoft-Betriebssystems definiert ist, ermitteln, wie sich die einzelnen Änderungen auf die Art und Weise beeinflussen, wie und wann administrative Aufgaben ausgeführt werden. Verwenden Sie die Change Management-Funktion, um die prozedurale Dokumentation zu aktualisieren und zu steuern. Wir empfehlen, dass operative Aufgaben in verwaltbare Arbeitslasten aufgeteilt werden, bei denen Aufgaben täglich, wöchentlich, monatlich und bedarfsorientiert ausgeführt werden. Tägliche Aufgaben konzentrieren sich auf Aspekte, die für die Funktionsweise eines Systems sehr wichtig sind, und die monatlichen Aufgaben würden sich mehr auf die Gewährleistung der langfristigen Gesundheit eines Systems konzentrieren. Die Aufgaben, die ausgeführt werden müssen, können in die folgenden Kategorien aufgeteilt werden:
+Mithilfe verschiedener Ressourcen können Sie definieren, welche Standardverfahren in der Organisation erforderlich sind und wie Sie ausgeführt werden. Da jede Organisation eindeutig ist, müssen Sie diese Ressourcen möglicherweise zusätzlich anpassen und an die täglichen Anforderungen anpassen. Standard mäßige Betriebsverfahren ändern sich, und die Dokumentation muss gelegentlich überarbeitet werden. Wenn Änderungen vorgenommen werden, sollte der Change Management-Prozess, wie in den Dienstverwaltungsfunktionen des Microsoft-Betriebssystems definiert, feststellen, wie sich die einzelnen Änderungen wahrscheinlich auf die Ausführung von Verwaltungsaufgaben auswirken. Verwenden Sie die Change Management-Funktion, um die Verfahrensdokumentation zu aktualisieren und zu steuern. Es wird empfohlen, dass Betriebsaufgaben in verwaltbare Arbeitslasten aufgeteilt werden, wobei Aufgaben täglich, wöchentlich, monatlich und bei Bedarf ausgeführt werden. Tägliche Aufgaben konzentrieren sich auf Aspekte, die für die Funktionsweise eines Systems sehr wichtig sind, und monatliche Aufgaben würden sich stärker auf die Sicherstellung der langfristigen Integrität eines Systems konzentrieren. Die Aufgaben, die ausgeführt werden müssen, können in die folgenden Kategorien unterteilt werden:
 
-  - [Tägliche Aufgaben in Lync Server 2013](lync-server-2013-daily-tasks.md)
+  - [Tägliche Aufgaben in lync Server 2013](lync-server-2013-daily-tasks.md)
 
-  - [Wöchentliche Aufgaben in Lync Server 2013](lync-server-2013-weekly-tasks.md)
+  - [Wöchentliche Aufgaben in lync Server 2013](lync-server-2013-weekly-tasks.md)
 
   - [Monatliche Aufgaben in lync Server 2013](lync-server-2013-monthly-tasks.md)
 
   - [Erforderliche Aufgaben in lync Server 2013](lync-server-2013-as-needed-tasks.md)
 
-Verwenden Sie beim Vorbereiten der Dokumentation zur Betriebsverwaltung die Checklisten, um sicherzustellen, dass die erforderlichen Aufgaben zum richtigen Zeitpunkt ausgeführt werden. Detaillierte Informationen zum Vorbereiten von Vorgangs Prüflisten finden Sie in den Beispiel Prüflisten in Vorgangs Prüflisten.
+Verwenden Sie bei der Vorbereitung der Dokumentation für die Betriebsverwaltung Checklisten, um sicherzustellen, dass die erforderlichen Aufgaben zum richtigen Zeitpunkt ausgeführt werden. Ausführliche Informationen zum Vorbereiten von Betriebs Prüflisten finden Sie in den Beispiel-Prüflisten in Operations Checklisten.
 
-Häufig übernimmt die Änderungsverwaltung die Stelle, an der die Systemverwaltung abgeschlossen ist. Wenn ein Vorgang von einem Standardverfahren abgedeckt wird, ist er Teil der Systemverwaltungsfunktion. Wenn für einen Vorgang keine Standardprozedur vorhanden ist, sollte er mit der Change Management-Funktion behandelt werden.
+Häufig wird die Änderungsverwaltung dort aktiv, wo die Systemverwaltung ihre Aufgabe abgeschlossen hat. Wenn eine Aufgabe durch ein Standardverfahren beschrieben wird, ist die Teil der Systemverwaltungsfunktion. Wenn keine Standardprozedur für eine Aufgabe vorhanden ist, sollte Sie mithilfe der Change Management-Funktion behandelt werden.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Tägliche Aufgabenprüfliste](lync-server-2013-operations-checklists.md)  
-[Checkliste für wöchentliche Aufgaben](lync-server-2013-operations-checklists.md)  
-[Checkliste für monatliche Aufgaben](lync-server-2013-operations-checklists.md)  
+[Prüfliste für tägliche Aufgaben](lync-server-2013-operations-checklists.md)  
+[Prüfliste für wöchentliche Aufgaben](lync-server-2013-operations-checklists.md)  
+[Prüfliste für monatliche Aufgaben](lync-server-2013-operations-checklists.md)  
   
 
 </div>

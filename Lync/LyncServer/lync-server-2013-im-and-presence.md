@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Chat und Anwesenheit'
+title: Lync Server 2013 Chat und Anwesenheit
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184398
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57f57d4fae488a7d4946a0adb1f8350d02114a7d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a7713f7b09602aed01ac20e5a76a361e04277a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742385"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038777"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="im-and-presence-in-lync-server-2013"></a>Chat und Anwesenheit in Lync Server 2013
+# <a name="im-and-presence-in-lync-server-2013"></a>Chat und Anwesenheitsinformationen in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41742385"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-10-07_
+_**Letztes Änderungsstand des Themas:** 2013-10-07_
 
-Instant Messaging (im) und Anwesenheit werden in jeder lync Server-Bereitstellung automatisch installiert.
+Instant Messaging (Sofortnachrichten) und Anwesenheit werden in jeder lync Server-Bereitstellung automatisch installiert.
 
-Mit *Anwesenheits* Informationen können Benutzer sich zur richtigen Zeit mit der richtigen Kommunikationsform an Kollegen wenden und so zu einer produktiveren Arbeitsumgebung führen. Die Anwesenheit eines Benutzers ist eine Sammlung von Informationen, die Verfügbarkeit, Kommunikationsbereitschaft, zusätzliche Notizen (wie Standort und Status) sowie die Art und Weise, wie der Benutzer kontaktiert werden kann. Der Anwesenheitsstatus wird in lync Server mit Bildern, Standortinformationen und einem umfangreichen Satz an Anwesenheitsstatus verbessert, in dem "aus Arbeit", "nicht stören" und "gleich zurück", zusätzlich zu den grundlegenden Zuständen wie "verfügbar", "beschäftigt" und "in einer Konferenz" enthalten sind. Administratoren können auch benutzerdefinierte, organisationsspezifische Anwesenheitsstatus definieren.
+*Anwesenheitsinformationen* ermöglichen es Benutzern, Kollegen zum richtigen Zeitpunkt und über den richtigen Kommunikationskanal zu erreichen und erhöhen so die Produktivität in der Arbeitsumgebung. Zu den Anwesenheitsinformationen eines Benutzers gehören Informationen wie Verfügbarkeit, Kommunikationsbereitschaft, weitere Hinweise (z. B. Standort und Status) und Angaben dazu, über welchen Kommunikationskanal der Benutzer erreichbar ist. Präsenz wird in lync Server mit Bildern, Standortinformationen und einem umfangreichen Satz von Anwesenheitsstatus verbessert, der "aus Arbeit", "nicht stören" und "gleich wieder da", zusätzlich zu den grundlegenden Zuständen wie "verfügbar", "beschäftigt" und "in einer Konferenz" umfasst. Administratoren können außerdem benutzerdefinierte, organisationsspezifische Anwesenheitszustände definieren.
 
-Mit den Optionen für die Kontaktverwaltung und den Benutzer Zugriff können Benutzer steuern, welche Informationen andere Personen sehen können. Benutzer können unterschiedliche Ebenen von Kontakten einrichten, die jeweils unterschiedliche Ebenen von Anwesenheitsinformationen anzeigen können.
+Mit der Kontaktverwaltung und den Benutzerzugriffsoptionen können Benutzer steuern, welche Informationen anderen Benutzern angezeigt werden. Benutzer können verschiedene Kontaktebenen festlegen, für die jeweils verschiedene Stufen von Anwesenheitsinformationen angezeigt werden.
 
-Wenn Sie sich einfach eine Kontaktliste ansehen, können Benutzer alles finden, was Sie auf einen Blick wissen müssen. Einfache farbige Symbole deuten auf den Anwesenheitsstatus anderer Benutzer hin, und Bild und Standort werden ebenfalls angezeigt.
+Mit einem einfachen Blick auf eine Kontaktliste erhalten Benutzer alle für sie relevanten Informationen. Einfache farbige Symbole weisen auf den Anwesenheitsstatus anderer Benutzer hin, und es werden Bilder und Standorte angezeigt.
 
-Bei der Integration zwischen lync Server und anderen Produkten wie Outlook und SharePoint wird immer dann der Status und die Kontaktinformationen angezeigt, wenn der Name eines Kontakts angezeigt wird, beispielsweise in einer e-Mail-Nachricht oder auf einer Teamwebsite. Wenn Sie Exchange 2013 bereitstellen, können lync Server und Exchange 2013 zudem einen einheitlichen Kontaktspeicher freigeben, auf den Clients eines der beiden Produkte zugreifen können.
+Bei der Integration von lync Server und anderen Produkten wie Outlook und SharePoint wird jedes Mal, wenn der Name eines Kontakts angezeigt wird, beispielsweise in einer e-Mail-Nachricht oder auf einer Teamwebsite, auch der Status und die Kontaktinformationen angezeigt. Wenn Sie Exchange 2013 bereitstellen, können lync Server und Exchange 2013 darüber hinaus einen einheitlichen Kontaktspeicher freigeben, auf den von Clients der beiden Produkte zugegriffen werden kann.
 
-Mit Chatnachrichten in lync Server können Benutzer sich schnell und zeitnah über Informationen informieren. Wenn Sie möchten, können Ihre Benutzer auch mit Benutzern von öffentlichen Chat Netzwerken wie MSN/Windows Live, Yahoo\!und AOL kommunizieren. Beachten Sie, dass für öffentliche Chat Verbindungen mit Windows Live, AOL und Yahoo möglicherweise eine separate Lizenz erforderlich ist.\! Lync Server umfasst auch die Kompatibilität von Extensible Messaging and Presence Protocol (XMPP), damit Ihre Benutzer Chatnachrichten und Anwesenheitsinformationen mit Benutzern von XMPP-Diensten wie Google Talk austauschen können.
+Mit Chatnachrichten in lync Server können sich Benutzer schnell und zeitnah informieren. Wenn es Ihnen lieber ist, können Ihre Benutzer auch mit Benutzern öffentlicher Chat Netzwerke wie MSN/Windows Live, Yahoo\!und AOL kommunizieren. Beachten Sie, dass für Verbindungen mit öffentlichen Chat Diensten mit Windows Live, AOL und Yahoo möglicherweise eine separate Lizenz erforderlich ist.\! Lync Server umfasst auch die Kompatibilität mit dem Extensible Messaging and Presence Protocol (XMPP), damit Ihre Benutzer Chatnachrichten und Anwesenheitsinformationen mit Benutzern von XMPP-Diensten wie Google Talk austauschen können.
 
 <div>
 
@@ -55,21 +55,21 @@ Mit Chatnachrichten in lync Server können Benutzer sich schnell und zeitnah üb
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>Ab dem 1. September, 2012, ist die Microsoft lync Public im Connectivity-Benutzerabonnementlizenz ("PIC USL") nicht mehr für den Kauf von neuen oder erneuernden Vereinbarungen verfügbar. Kunden mit aktiven Lizenzen sind in der Lage, weiterhin mit Yahoo! zu verbünden Messenger, bis der Dienst das Datum beendet hat. Datum des Endes des Lebenszyklus von Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">unter Unterstützung für öffentliche Instant Messenger-Konnektivität in lync Server 2013</A>.</P>
+> <P>Seit dem 1. September 2012 ist die Microsoft lync Public Chat Connectivity-Benutzerabonnementlizenz ("PIC USL") nicht mehr für neue oder erneuerte Verträge verfügbar. Kunden mit aktiven Lizenzen können weiterhin mit Yahoo! zusammenarbeiten. Messenger, bis der Dienst das Datum heruntergefahren hat. Ein End-of-Life-Datum vom Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for Public Instant Messenger Connectivity in lync Server 2013</A>.</P>
 > <LI>
-> <P>Bei der PIC-USL handelt es sich um eine Abonnementlizenz pro Benutzer pro Monat, die für die Föderation von lync Server oder Office Communications Server mit Yahoo! erforderlich ist. Messenger. Die Möglichkeit von Microsoft, diesen Dienst bereitzustellen, war von der Unterstützung durch Yahoo! abhängig, deren zugrunde liegende Vereinbarung abgewickelt wird.</P>
+> <P>Bei der PIC-USL handelt es sich um eine Abonnementlizenz pro Benutzer pro Monat, die für lync Server oder Office Communications Server für die Zusammensetzung mit Yahoo! erforderlich ist. Messenger. Die Fähigkeit von Microsoft, diesen Dienst bereitzustellen, wurde von der Unterstützung von Yahoo! abhängig gemacht, die zugrunde liegende Vereinbarung, für die die Rückabwicklung erfolgt.</P>
 > <LI>
-> <P>Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen Organisationen und Personen in der ganzen Welt. Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-und Gerätelizenzen außerhalb der lync-Standard CAL erforderlich. Skype Federation wird dieser Liste hinzugefügt und ermöglicht es lync-Benutzern, Hunderte von Millionen von Personen mit Chat und Sprache zu erreichen.</P></LI></UL>
+> <P>Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen verschiedenen Organisationen und mit Einzelpersonen auf der ganzen Welt. Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-/Gerätelizenzen außerhalb der lync-Standard-CAL erforderlich. Skype Federation wird dieser Liste hinzugefügt, sodass lync-Benutzer Hunderte Millionen von Benutzern mit Chat und VoIP erreichen können.</P></LI></UL>
 
 
 
 </div>
 
-Der Konversations Verlauf ermöglicht Benutzern, alte Chat Unterhaltungen nachzuverfolgen und Informationen abzurufen, die möglicherweise bereits vor Monaten von Chatnachrichten mitgeteilt wurden.
+Anhand der aufgezeichneten Unterhaltungen können Benutzer ihre älteren Sofortnachrichten verfolgen und Informationen abrufen, die möglicherweise Monate zuvor per Sofortnachricht mitgeteilt wurden.
 
-Das Feature "beständiger Chat" ermöglicht Benutzern die Teilnahme an mehrteiligen, themenbasierten Konversationen, die im Laufe der Zeit fortbestehen. Nachrichten, die in Chatrooms (Diskussionsforen) gepostet wurden, können persistent sein (im Laufe der Zeit verfügbar), damit Personen an verschiedenen Standorten und Abteilungen teilnehmen können, selbst wenn Sie nicht alle gleichzeitig online sind.
+Mit dem Feature für beständigen Chat können Benutzer an mehrteiligen, themenbasierten Unterhaltungen teilnehmen, die im Laufe der Zeit beibehalten werden. In Chatrooms (Diskussionsforen) veröffentlichte Nachrichten können langlebig sein (d. h. dauerhaft verfügbar), sodass Benutzer aus unterschiedlichen Standorten und Abteilungen an dem Chat teilnehmen können, selbst wenn sie nicht alle zum gleichen Zeitpunkt online sind.
 
-Wenn Ihre Organisation Konformitätsrichtlinien beachten muss, können Sie eine Nachrichten Archivierungsfunktion bereitstellen, um den Inhalt von Sofortnachrichten für alle Benutzer in Ihrer Organisation oder nur für bestimmte Benutzer, die Sie angeben, zu archivieren. Wenn Sie auch Exchange 2013 bereitstellen, kann Ihr im-Archiv in das in-situ-Speicherfeature von Exchange integriert werden, um eine einheitliche Verwaltungsoberfläche für Ihre Compliance bereitzustellen.
+Wenn Ihre Organisation rechtliche Vorschriften bezüglich Compliance einhalten muss, können Sie eine Archivierungsfunktion für Nachrichten bereitstellen, um die Inhalte von Sofortnachrichten für alle Benutzer in Ihrer Organisation oder auch nur für bestimmte festgelegte Benutzer zu archivieren. Wenn Sie auch Exchange 2013 bereitstellen, kann Ihr Chat Archiv in das in-situ-Speicherfeature von Exchange integriert werden, um eine einfache Verwaltungserfahrung für ihre Kompatibilität bereitzustellen.
 
 </div>
 

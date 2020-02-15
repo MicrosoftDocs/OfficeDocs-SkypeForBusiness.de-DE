@@ -1,5 +1,5 @@
 ---
-title: Einrichten von Richtlinien für die Archivierung bei Verwendung der Exchange Server-Integration
+title: Einrichten von Richtlinien für die Archivierung bei Verwendung Exchange Server Integration
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184742
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6eccac54e75dff4ba0c4af29e0f14d6e48068ae1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eac425f08e3522c4ed885036c144c4c0f12e37b9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764591"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040874"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-policies-for-archiving-in-lync-server-2013-when-using-exchange-server-integration"></a>Einrichten von Richtlinien für die Archivierung in lync Server 2013 bei Verwendung der Exchange Server-Integration
+# <a name="setting-up-policies-for-archiving-in-lync-server-2013-when-using-exchange-server-integration"></a>Einrichten von Richtlinien für die Archivierung in lync Server 2013 bei Verwendung der Exchange Server Integration
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41764591"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-09_
+_**Letztes Änderungsstand des Themas:** 2012-10-09_
 
-Wenn für Benutzer, die sich in Exchange 2013 befinden, ihre Postfächer in-situ-Speicher abgelegt werden, Steuern Exchange-in-situ-Speicherrichtlinien die Archivierung für diese Benutzer. Wenn Sie die Microsoft Exchange-Integration für Ihre Bereitstellung verwenden, überschreiben Exchange 2013-Richtlinien lync Server-Archivierungsrichtlinien für Benutzer, die in Exchange 2013 verwaltet werden. Informationen zum Konfigurieren von Exchange-Archivierungsrichtlinien finden Sie in der Exchange 2013-Dokumentation. Ausführliche Informationen zum Einrichten von Benutzerrichtlinien für Benutzer, die sich in lync Server 2013 befinden, finden Sie unter [Einrichten von Benutzerrichtlinien für die Archivierung in lync Server 2013](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md) in der Bereitstellungsdokumentation. Ausführliche Informationen zur Funktionsweise von Richtlinien finden Sie unter [Funktionsweise der Archivierung in lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, Bereitstellungsdokumentation oder in der Betriebsdokumentation.
+Wenn Benutzer, die in Exchange 2013 verwaltet werden, ihre Postfächer in in-situ-Speicher einlagern, Steuern Sie die Archivierung für diese Benutzer in Exchange in-situ-Aufbewahrungsrichtlinien. Wenn Sie Microsoft Exchange Integration für Ihre Bereitstellung verwenden, überschreiben Exchange 2013-Richtlinien lync Server Archivierungsrichtlinien für Benutzer, die in Exchange 2013 verwaltet werden. Informationen zum Konfigurieren von Exchange-Archivierungsrichtlinien finden Sie in der Exchange 2013 Dokumentation. Ausführliche Informationen zum Einrichten von Benutzerrichtlinien für Benutzer, die in lync Server 2013 verwaltet werden, finden Sie unter [Einrichten von Benutzerrichtlinien für die Archivierung in lync Server 2013](lync-server-2013-setting-up-user-policies-for-archiving-in-lync-server.md) in der Bereitstellungsdokumentation. Ausführliche Informationen zur Funktionsweise von Richtlinien finden Sie unter [How Archiving Works in lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, in der Bereitstellungsdokumentation oder in der Betriebsdokumentation.
 
 <div>
 
 
 > [!NOTE]
-> Wenn Sie Exchange 2013 und lync Server 2013 in derselben Gesamtstruktur bereitstellen, steuern Ihre Exchange 2013 in-situ-Speicherrichtlinien die Archivierung. Wenn Sie Exchange 2013 und lync Server 2013 in getrennten Gesamtstrukturen bereitstellen, lesen Sie "Bereitstellen von lync Server und Microsoft Exchange in verschiedenen Gesamtstrukturen" in der <A href="lync-server-2013-deployment-checklist-for-archiving.md">Bereitstellungsprüfliste für die Archivierung in lync Server 2013</A>.
+> Wenn Sie Exchange 2013 und lync Server 2013 in derselben Gesamtstruktur bereitstellen, wird die Archivierung in den Exchange 2013-Richtlinien für in-situ-Speicherung gesteuert. Wenn Sie Exchange 2013 und lync Server 2013 in getrennten Gesamtstrukturen bereitstellen, finden Sie weitere Informationen unter "Deploying lync Server and Microsoft Exchange in different Forests" in <A href="lync-server-2013-deployment-checklist-for-archiving.md">Deployment Checkliste for Archiving in lync Server 2013</A>.
 
 
 

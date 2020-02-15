@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verwalten der Konfiguration des Zugriffsedge für Ihre Organisation'
+title: 'Lync Server 2013: Verwalten der Zugriffs-Edge-Konfiguration für Ihre Organisation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48679555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4739599f92b9189a208e1bb320a53b82d66a3a9c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e54e74df2b965be3445b28dd5ca53a708a548c77
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733445"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037555"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-access-edge-configuration-for-your-organization-in-lync-server-2013"></a>Verwalten der Konfiguration des Zugriffsedge für Ihre Organisation in Lync Server 2013
+# <a name="manage-access-edge-configuration-for-your-organization-in-lync-server-2013"></a>Verwalten der Zugriffs-Edge-Konfiguration für Ihre Organisation in lync Server 2013
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41733445"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Diese Dokumentation ist vorläufig und kann geändert werden. Leere Themen sind als Platzhalter enthalten.
+Dies ist eine vorläufige Dokumentation und kann jederzeit geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
 
 Nachdem Sie einen oder mehrere Edgeserver bereitgestellt haben, müssen Sie die Typen des externen Domänen-oder Anbieter Zugriffs, den Remotebenutzerzugriff und den anonymen Benutzer Zugriff auf Konferenzen über die Edgeserver aktivieren, die für Ihre Organisation unterstützt werden.
 
-Zu diesen Optionen gehören die folgenden Zugriffsarten, die über die Seite " **Zugriffs-Edge-Konfiguration** " konfiguriert werden können:
+Zu diesen Optionen gehören die folgenden Zugriffsarten, die auf der Seite **Zugriffs-Edgekonfiguration** konfiguriert werden können:
 
-  - **Aktivieren von Föderations-und öffentlichen Chat Verbindungen**   aktivieren Sie diese Option, wenn Sie den Benutzer Zugriff auf Partnerdomänen für Föderationen unterstützen möchten. Diese Einstellung gilt für SIP-Föderations-und XMPP-Föderationen, die für globale, Website-oder benutzerbereiche auf der Seite " **externe Zugriffsrichtlinie** " konfiguriert sind. Damit die Verbund Einstellungen angewendet werden, müssen Sie die Verbundunterstützung auf beiden Seiten konfigurieren.
+  - **Enable Federation and Public Chat Connectivity**   aktivieren Sie diese Option, wenn Sie den Benutzer Zugriff auf Verbundpartner Domänen unterstützen möchten. Diese Einstellung gilt gleichermaßen für SIP- und XMPP-Partnerverbunde, die auf der Seite **Externe Zugriffsrichtlinie** für die Bereiche "Global", "Standort" oder "Benutzer" konfiguriert sind. Damit die Partnerverbundeinstellungen gelten, müssen Sie die Partnerverbundunterstützung auf beiden Seiten konfigurieren.
     
-    Es gibt zwei Optionen, die optionale Einstellungen für die Erkennung von Verbundpartnern sind, und ob Archivierungs verzichte (Benachrichtigung an verbundene Kontakte, mit denen Sie kommunizieren, dass Ihre Bereitstellung die Archivierung aktiviert hat und dass die Kommunikation Details werden archiviert) werden an Kontakte gesendet
+    Es sind zwei Optionen vorhanden, bei denen es sich um optionale Einstellungen zur Erkennung von Verbundpartnern handelt. Damit wird auch festgelegt, ob Archivierungshaftungsausschlüsse (Benachrichtigung an Verbundkontakte, mit denen Sie kommunizieren, dass für Ihre Bereitstellung die Archivierung aktiviert ist und dass Kommunikationsdetails archiviert werden) an Kontakte gesendet werden.
     
-      - **Aktivieren der Partnerdomänen Ermittlung**   durch Auswahl dieser Option wird die automatische Ermittlung von Domänen ermöglicht, mit denen Sie eine Föderation durchsetzen können. Lync Server 2013 verwendet DNS-Einträge (Domain Name System), um zu versuchen, Domänen zu finden, die nicht in der Liste der zulässigen Domänen aufgeführt sind, den eingehenden Datenverkehr von ermittelten Partner Partnern automatisch auswerten und den Datenverkehr basierend auf der Vertrauensstufe einschränken oder blockieren. die Anzahl der Datenverkehr und die Administratoreinstellungen. Wenn Sie diese Option nicht auswählen, wird der Verbundbenutzer Zugriff nur für Benutzer in den Domänen aktiviert, die Sie in die Liste zugelassene Domänen aufnehmen. Unabhängig davon, ob Sie diese Option auswählen, können Sie angeben, dass einzelne Domänen blockiert oder zulässig sein sollen, einschließlich der Beschränkung des Zugriffs auf bestimmte Server, auf denen der Access-Edgedienst in der Verbunddomäne ausgeführt wird. Ausführliche Informationen finden Sie unter [Konfigurieren der Unterstützung für zulässige externe Domänen in lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).
+      - **Partnerdomänen Ermittlung**   aktivieren Wenn Sie diese Option auswählen, wird die automatische Erkennung von Domänen aktiviert, mit denen Sie eine Föderation durcharbeiten können. Lync Server 2013 verwendet Domain Name System (DNS) Datensätze, um zu versuchen, Domänen zu ermitteln, die nicht in der Liste zugelassene Domänen aufgeführt sind, und den eingehenden Datenverkehr von erkannten Partner Partnern automatisch auswerten und den Datenverkehr basierend auf der Vertrauensebene einschränken oder blockieren Umfang des Datenverkehrs und Administratoreinstellungen. Wenn Sie diese Option nicht auswählen, wird der Verbundbenutzer Zugriff nur für Benutzer in den Domänen aktiviert, die Sie in die Liste zugelassene Domänen einschließen. Unabhängig davon, ob Sie diese Option auswählen, können Sie angeben, dass einzelne Domänen blockiert oder zugelassen werden sollen, einschließlich der Einschränkung des Zugriffs auf bestimmte Server, auf denen die Zugriffs-Edgedienst in der Verbunddomäne aufgeführt wird. Ausführliche Informationen finden Sie unter [Konfigurieren der Unterstützung für zugelassene externe Domänen in lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).
     
-      - **Archivierungs Ausschluss an verbundene Partner**   senden wenn Sie diese Option aktivieren, können Sie eine Nachricht zur Archivierung des Disclaimers an verbundene Partner senden, die Ihnen mitteilt, dass Kommunikationsdetails aufgezeichnet werden. Wenn Sie die externe Kommunikation mit Verbundpartner Domänen archivieren, sollten Sie die Benachrichtigung über Archivierungs Verzicht aktivieren, um die Partner zu warnen, dass Ihre Nachrichten und Kommunikationsdetails von Ihrer Bereitstellung archiviert werden. Details zur Archivierung finden Sie unter [Definieren Ihrer Anforderungen für die Archivierung in lync Server 2013](lync-server-2013-defining-your-requirements-for-archiving.md).
+      - **Archivierungs Disclaimer an Verbundpartner**   senden wenn Sie diese Option auswählen, wird das Senden einer Archivierungs haftungsaus Schluss Nachricht an Verbundpartner ermöglicht, die Ihnen mitteilen, dass Kommunikationsdetails aufgezeichnet werden. Wenn Sie die externe Kommunikation mit Verbundpartnerdomänen archivieren, sollten Sie die Benachrichtigung über den Archivierungshaftungsausschluss aktivieren, um die Partner über die Archivierung ihrer Nachrichten und Kommunikationsdetails durch Ihre Bereitstellung in Kenntnis zu setzen. Ausführliche Informationen zur Archivierung finden Sie unter [Definieren der Anforderungen für die Archivierung in lync Server 2013](lync-server-2013-defining-your-requirements-for-archiving.md).
 
-  - **Aktivieren des Remotebenutzerzugriffs**   aktivieren Sie diese Option, wenn Sie möchten, dass Benutzer in Ihrer Organisation, die sich außerhalb Ihrer Firewall befinden, wie Telecommuter und Benutzer, die unterwegs sind, eine Verbindung mit lync Server herstellen können. Ausführliche Informationen finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs in lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md).
+  - **Remotebenutzerzugriff**   aktivieren aktivieren Sie diese Option, wenn Benutzer in Ihrer Organisation, die sich außerhalb Ihrer Firewall befinden, wie etwa Telearbeiter und Benutzer, die unterwegs sind, eine Verbindung mit lync Server herstellen können sollen. Ausführliche Informationen finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs in lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md).
 
-  - **Aktivieren von anonymen Benutzern für den Zugriff auf Konferenzen**   aktivieren Sie diese Option, wenn interne Benutzer externe anonyme Benutzer zu Konferenzen einladen möchten, die Sie organisieren. Wenn Sie diese Einstellung aktivieren, können anonyme Benutzer nur für Konferenzen zugelassen werden. Informationen zum Konfigurieren der Konferenzumgebung und der Optionen, die definieren, wie und was Ihre Benutzer mit Konferenzen und für die Einbeziehung anonymer Benutzer tun können, finden Sie unter Details unter [erstellen oder Ändern von Konferenzbenutzer Oberflächen für eine Website oder Benutzer](https://technet.microsoft.com/en-us/library/gg429715\(v=ocs.15\)) und [Konferenzrichtlinien Einstellungsreferenz für lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
+  - **Aktivieren anonymer Benutzer für den Zugriff auf Konferenzen**   aktivieren Sie diese Option, wenn interne Benutzer externe anonyme Benutzer zu Konferenzen einladen möchten, die Sie organisieren. Wenn Sie diese Einstellung aktivieren, sind nur anonyme Benutzer für Konferenzen zugelassen. Informationen zum Konfigurieren der Konferenzfunktionen und-Optionen, die definieren, wie und was Ihre Benutzer mit Konferenzen und für die Einbindung anonymer Benutzer tun können, finden Sie unter Details unter [Create or Modify Conferencing User Experience for a Site or users](https://technet.microsoft.com/library/gg429715\(v=ocs.15\)) and [Conferencing Policy Settings Reference for lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
 
 <div>
 
 
 > [!NOTE]  
-> Neben der Unterstützung für den Zugriff durch externe Benutzer können Sie auch Richtlinien konfigurieren, um die Verwendung des Remotebenutzerzugriffs in Ihrer Organisation zu steuern, bevor Benutzer Zugriff auf externe Benutzer erhalten. Details zum Erstellen, konfigurieren und Anwenden von Richtlinien für den Zugriff durch externe Benutzer finden Sie unter Verwalten von Richtlinien für den <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">externen Zugriff in lync Server 2013</A>.
+> Zusätzlich zur Unterstützung des Zugriffs externer Benutzer können Sie auch Richtlinien konfigurieren, mit denen die Verwendung des Remotebenutzerzugriffs in Ihrer Organisation gesteuert wird, bevor Benutzer den Zugriff für externe Benutzer verwenden können. Ausführliche Informationen zum Erstellen, konfigurieren und Anwenden von Richtlinien für den Zugriff durch externe Benutzer finden Sie unter <A href="lync-server-2013-manage-external-access-policy-for-your-organization.md">Manage External Access Policy in lync Server 2013</A>.
 
 
 
 </div>
 
-**Anzeigen von Informationen zur Access-Edge-Konfiguration mithilfe von Windows PowerShell-Cmdlets**
+**Anzeigen von Informationen zur Zugriffs-Edge-Konfiguration mithilfe von Windows PowerShell-Cmdlets**
 
-  - Informationen zur Access-Edge-Konfiguration können mithilfe von Windows PowerShell und dem Cmdlet **Get-csaccessedgeconfiguration nicht angeben** angezeigt werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+  - Informationen zur Zugriffs-Edge-Konfiguration können mit Windows PowerShell und dem Cmdlet **Get-csaccessedgeconfiguration nicht angeben** angezeigt werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
     
-    Wenn Sie Informationen zu allen Einstellungen für die Zugriffs-Edge-Konfiguration anzeigen möchten, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
+    Geben Sie den folgenden Befehl in das lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE, um Informationen zu allen Einstellungen für die Zugriffs-Edge-Konfiguration anzuzeigen:
     
         Get-CsAccessEdgeConfiguration
     
-    Es werden etwa folgende Informationen zurückgegeben:
+    Hiermit werden Informationen zurückgegeben, die so oder ähnlich aussehen:
     
         Identity                               : Global
         AllowAnonymousUsers                    : False
@@ -99,17 +99,17 @@ Zu diesen Optionen gehören die folgenden Zugriffsarten, die über die Seite " *
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Aktivieren oder Deaktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten in Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)
+  - [Aktivieren oder Deaktivieren der Verbund-und Public Chat-Konnektivität in lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)
 
-  - [Aktivieren oder Deaktivieren der Suche von Verbundpartnern in Lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)
+  - [Aktivieren oder Deaktivieren der Ermittlung von Partnerverbund Partnern in lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)
 
-  - [Aktivieren oder Deaktivieren des Versands eines Archivierungshaftungsausschlusses an Verbundpartner in Lync Server 2013](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
+  - [Aktivieren oder Deaktivieren des Sendens von Archivierungs Haftungsausschlüssen an Verbundpartner in lync Server 2013](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
 
-  - [Aktivieren oder Deaktivieren des Zugriffs durch Remotebenutzer in Lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md)
+  - [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs in lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md)
 
-  - [Aktivieren oder Deaktivieren des Zugriffs durch anonyme Benutzer in Lync Server 2013](lync-server-2013-enable-or-disable-anonymous-user-access.md)
+  - [Aktivieren oder Deaktivieren des Zugriffs anonymer Benutzer in lync Server 2013](lync-server-2013-enable-or-disable-anonymous-user-access.md)
 
-  - [Zuweisen von Konferenzrichtlinien zur Unterstützung anonymer Benutzer in Lync Server 2013](lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md)
+  - [Zuweisen von Konferenzrichtlinien zur Unterstützung anonymer Benutzer in lync Server 2013](lync-server-2013-assign-conferencing-policies-to-support-anonymous-users.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 370008a5b33cc7eb45802fb02bdd9a873184ed5a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f9cd8d15e81a54085624fab2dc751759d8196c48
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765163"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041044"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="failure-list-report-in-lync-server-2013"></a>Bericht zur Fehlerliste in lync Server 2013
+# <a name="failure-list-report-in-lync-server-2013"></a>Fehlerlistenbericht in lync Server 2013
 
 </div>
 
@@ -35,50 +35,50 @@ ms.locfileid: "41765163"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-07-02_
+_**Letztes Änderungsstand des Themas:** 2012-07-02_
 
-Der Fehlerlistenbericht enthält ausführliche Informationen über die einzelnen Teilnehmer, die an einer fehlerhaften Peer-to-Peer-Sitzung oder Konferenzsitzung beteiligt waren. Diese Informationen umfassen den URI des Benutzers, bei dem das Problem aufgetreten ist, sowie den SIP-Antwortcode und die Diagnose-ID, die dem Fehler zugeordnet sind.
+Der fehlerlistenbericht enthält Informationen zu den einzelnen Teilnehmern, die an einer fehlgeschlagenen Peer-to-Peer-oder Konferenzsitzung teilgenommen haben. Diese Informationen umfassen den URI des Benutzers, der das Problem auftrat, sowie den SIP-Antwortcode und die Diagnose-ID, die dem Fehler zugeordnet sind.
 
 <div>
 
-## <a name="accessing-the-failure-list-report"></a>Zugriff auf den Fehlerlistenbericht
+## <a name="accessing-the-failure-list-report"></a>Zugriff auf den fehlerlistenbericht
 
-Auf den Bericht Fehlerliste wird zugegriffen, indem Sie auf eine der folgenden Metriken im [Fehler Verteilungs Bericht in lync Server 2013](lync-server-2013-failure-distribution-report.md)klicken:
+Der Zugriff auf den fehlerlistenbericht erfolgt durch Klicken auf eine der folgenden Metriken im [Bericht über Fehlerverteilung in lync Server 2013](lync-server-2013-failure-distribution-report.md):
 
-  - Wichtigste Diagnosegründe (Sitzungen)
+  - Häufigste Diagnosegründe (Sitzungen)
 
-  - Wichtigste Modalitäten (Sitzungen)
+  - Häufigste Modalitäten (Sitzungen)
 
-  - Wichtigste Pools (Sitzungen)
+  - Häufigste Pools (Sitzungen)
 
-  - Wichtigste Quellen (Sitzungen)
+  - Häufigste Quellen (Sitzungen)
 
-  - Wichtigste Komponenten (Sitzungen)
+  - Häufigste Komponenten (Sitzungen)
 
-  - Wichtigste Absenderbenutzer (Sitzungen)
+  - Häufigste Absenderbenutzer (Sitzungen)
 
-  - Wichtigste Empfängerbenutzer (Sitzungen)
+  - Häufigste Empfängerbenutzer (Sitzungen)
 
-  - Wichtigste Absenderbenutzer-Agenten (Sitzungen)
+  - Häufigste Absenderbenutzer-Agents (Sitzungen)
 
-Im Bericht Fehlerliste können Sie auf den [Bericht Peer-to-Peer-Sitzungsdetails in lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) zugreifen, indem Sie auf die Sitzungs Detail Metrik für eine Peer-to-Peer-Sitzung klicken. Sie können ebenfalls auf den detaillierten Konferenzbericht zugreifen, indem Sie auf die Konferenzmetrik für eine Konferenz klicken.
+Im fehlerlistenbericht können Sie auf den [Detailbericht über Peer-to-Peer-Sitzungen in lync Server 2013](lync-server-2013-peer-to-peer-session-detail-report.md) zugreifen, indem Sie auf die Metrik Sitzungsdetails für eine Peer-to-Peer-Sitzung klicken. Sie können auch auf den Konferenz Detail Bericht zugreifen, indem Sie auf die Konferenz Metrik für eine Konferenz klicken.
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-failure-list-report"></a>Bestmögliche Verwendung des Fehlerlistenberichts
+## <a name="making-the-best-use-of-the-failure-list-report"></a>Optimale Verwendung des Fehlerlisten Berichts
 
-Im Fehlerlistenbericht können Sie eine Beschreibung für jeden Antwortcode bzw. jede Diagnose-ID sehen, indem Sie einfach den Mauszeiger über diesen Wert halten. Wenn Sie zum Beispiel Ihre Maus über die Diagnose-ID 7025 halten, wird in einer QuickInfo folgender Text angezeigt:
+Im fehlerlistenbericht können Sie einfach eine Beschreibung für jeden Antwortcode oder jede Diagnose-ID anzeigen, indem Sie die Maus über diesen Wert halten. Wenn Sie beispielsweise die Maus über die Diagnose-ID 7025 halten, wird Folgendes in einer QuickInfo angezeigt:
 
-Interner Serverfehler erstellt Medien für Benutzer.
+Interner Serverfehler beim Erstellen von Medien für den Benutzer.
 
-Dabei muss beachtet werden, dass der Fehlerlistenbericht weder eine einfache Methode zum direkten Abrufen einer Liste aller Benutzer, die an mindestens einer fehlerhaften Sitzung beteiligt waren, noch eine Methode zur Ermittlung der Benutzer, die am häufigsten an einer fehlerhaften Sitzung beteiligt waren, darstellt. (Zum einen hat der fehlerlistenbericht keine Filterfunktionen.) Wenn Sie die Daten exportieren und dann in eine Datei mit Komma getrennten Werten konvertieren, können Sie Windows PowerShell verwenden, um Antworten auf Fragen wie diese zu finden. Nehmen Sie beispielsweise an, dass Sie die Daten in a speichern. CSV-Datei mit dem\\Namen\\C\_: Datenfehler Liste. CSV. Auf Basis der in dieser Datei gespeicherten Daten können mithilfe dieses Befehls alle Benutzer aufgelistet werden, die an mindestens einer fehlerhaften Sitzung beteiligt waren:
+Beachten Sie, dass der fehlerlistenbericht keine einfache Möglichkeit bietet, eine Liste aller Benutzer direkt abzurufen, die an mindestens einer fehlgeschlagenen Sitzung teilgenommen haben, und es ist auch nicht möglich, festzustellen, welche Benutzer am häufigsten an einem fehlgeschlagenen Vorgang beteiligt waren. Sitzung. (Für eine Sache hat der fehlerlistenbericht keine Filterfunktionen.) Wenn Sie die Daten jedoch exportieren und dann in eine Datei mit Komma getrennten Werten konvertieren, können Sie Windows PowerShell verwenden, um die Antworten auf Fragen wie diese zu finden. Nehmen Sie beispielsweise an, dass Sie die Daten in a speichern. CSV-Datei namens C\\:\\Data\_Failure List. CSV. Basierend auf den in dieser Datei gespeicherten Daten listet dieser Befehl alle Benutzer auf, die an mindestens einer fehlgeschlagenen Sitzung beteiligt waren:
 
     $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
     $failure |Sort-Object "From user" | Select-Object "From user" -Unique
 
-Die Ausgabe für den Befehl ist eine Liste, die der folgenden Liste ähnelt:
+Dieser Befehl gibt eine Liste zurück, die der folgenden ähnelt:
 
     From user
     ----
@@ -88,12 +88,12 @@ Die Ausgabe für den Befehl ist eine Liste, die der folgenden Liste ähnelt:
     David.Ahs@litwareinc.com
     Ken.Myer@litwareinc.com
 
-Diese beiden Befehle melden die Gesamtzahl der fehlerhaften Sitzungen zurück, an denen Benutzer beteiligt waren:
+Mit diesen beiden Befehlen wird die Gesamtzahl der fehlerhaften Sitzungen zurückgemeldet, an denen jeder Benutzer beteiligt war:
 
     $failures = Import-Csv -Path "C:\Data\Failure_List.csv"
     $failures | Group-Object "From user" | Select-Object Count, Name | Sort-Object -Property Count -Descending
 
-Die zurückgegebenen Daten sehen so ähnlich aus, wie diese:
+Es werden Daten nach dem folgenden Muster zurückgegeben:
 
     Count    Name
      -----    ----
@@ -109,7 +109,7 @@ Die zurückgegebenen Daten sehen so ähnlich aus, wie diese:
 
 ## <a name="filters"></a>Filter
 
-Keine. Sie können den Fehlerlistenbericht nicht filtern.
+Keine. Sie können den fehlerlistenbericht nicht filtern.
 
 </div>
 
@@ -117,9 +117,9 @@ Keine. Sie können den Fehlerlistenbericht nicht filtern.
 
 ## <a name="metrics"></a>Metriken
 
-In der folgenden Tabelle sind die im Fehlerlistenbericht enthaltenen Informationen für jeden fehlerhaften Anruf aufgeführt.
+In der folgenden Tabelle sind die Informationen aufgeführt, die im fehlerlistenbericht für jeden fehlgeschlagenen Anruf angegeben werden.
 
-### <a name="failure-list-report-metrics"></a>Metriken des Fehlerlistenberichts
+### <a name="failure-list-report-metrics"></a>Metriken des Fehlerlisten Berichts
 
 <table>
 <colgroup>
@@ -136,44 +136,44 @@ In der folgenden Tabelle sind die im Fehlerlistenbericht enthaltenen Information
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Gemeldeter Zeitpunkt</strong></p></td>
+<td><p><strong>Gemeldete Zeit</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Datum und Uhrzeit der Aufzeichnung des Berichts.</p></td>
+<td><p>Datum und Uhrzeit, an dem bzw. zu der der Bericht erfasst wurde.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Anforderung</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Typ der fehlerhaften SIP-Anforderung. Beispiel: INVITE oder BYE.</p></td>
+<td><p>Typ der fehlerhaften SIP-Anforderung. Beispielsweise invite oder bye.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Antwortcode</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>SIP-Antwortcode, der bei einem Konferenzfehler gesendet wurde.</p></td>
+<td><p>SIP-Antwortcode, der bei einem Konferenz Fehler gesendet wurde.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Diagnose-ID</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Eindeutige ID (in der Form eines Headers vom Typ „ms-diagnostics“), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt.</p></td>
+<td><p>Eindeutige ID (in der Form eines Headers vom Typ "ms-diagnostics"), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Beitrittszeitraum (ms)</strong></p></td>
+<td><p><strong>Join Cost time (MS)</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Zeitraum (in Millisekunden), der erforderlich ist, damit der Benutzer der Konferenz beitreten kann.</p></td>
+<td><p>Zeit (in Millisekunden), die der Benutzer benötigt, um an der Konferenz teilzunehmen.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Absenderbenutzer</strong></p></td>
+<td><p><strong>Von Benutzer</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Die SIP-Adresse des Benutzers, der den Anruf initiiert hat.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Von Benutzeragent</strong></p></td>
+<td><p><strong>Von Benutzer-Agent</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Software, die vom Endpunkt des Benutzers, der den Anruf initiiert hat, verwendet wird.</p></td>
+<td><p>Software, die vom Endpunkt des Benutzers verwendet wird, der den Anruf initiiert hat.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>An Benutzer</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>SIP-Adresse des Benutzers, der angerufen wurde.</p></td>
+<td><p>SIP-Adresse des Benutzers, der aufgerufen wurde.</p></td>
 </tr>
 </tbody>
 </table>

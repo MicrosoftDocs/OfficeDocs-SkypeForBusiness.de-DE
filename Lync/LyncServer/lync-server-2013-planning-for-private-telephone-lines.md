@@ -12,16 +12,16 @@ ms:contentKeyID: 48184909
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0df93d8a8de73a3119e7ca9a1a7abd76e9157a17
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a0369ea671860b29c8cf7f7e1d9e0b894770c6d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725315"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037365"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41725315"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-11_
+_**Letztes Änderungsstand des Themas:** 2013-02-11_
 
-Lync Server 2013 führt die Möglichkeit ein, Benutzern zusätzlich zu Ihrer primären Telefonleitung eine zweite private Telefonleitung zur Verfügung zu stellen. Privatleitungen werden oft Führungskräften und anderen Mitarbeitern zugewiesen, die eine nicht gelistete Telefonnummer wünschen, unter der sie direkt erreicht werden können.
+Mit lync Server 2013 können Benutzer zusätzlich zu Ihrer primären Telefonleitung eine zweite private Telefonleitung erhalten. Privatleitungen werden oft Führungskräften und anderen Mitarbeitern zugewiesen, die eine nicht gelistete Telefonnummer wünschen, unter der sie direkt erreicht werden können.
 
-Private Telefonleitungen können nur mit der lync Server-Verwaltungsshell konfiguriert werden. Mit der lync Server-Systemsteuerung können keine privaten Telefonanschlüsse konfiguriert werden. Private Telefonleitungen sollten nur in Bereitstellungen von lync Server und nicht in gemischten Bereitstellungen konfiguriert werden.
+Private Telefonleitungen können nur mit dem lync Server-Verwaltungsshell konfiguriert werden. Private Telefonleitungen können nicht mit dem lync Server-Systemsteuerung konfiguriert werden. Private Telefonleitungen sollten nur in Bereitstellungen von lync Server und nicht in gemischten Bereitstellungen konfiguriert werden.
 
 <div>
 
@@ -55,9 +55,9 @@ Auch wenn das Konzept einer zweiten, privaten Telefonleitung grundsätzlich einf
 
   - Ein Benutzer mit einer Privatleitung verfügt nur über ein Postfach für Voicemail und erhält Benachrichtigungen über verpasste Anrufe nur unter einer einzigen E-Mail-Adresse.
 
-  - Ein Benutzer mit einer Privatleitung besitzt keine zweite SIP-Adresse und eine zweite, private Telefonleitung bedeutet nicht, dass ein Benutzer im Netzwerk zweimal vorhanden ist (wie eine zweite Chat-Identität).
+  - Ein Benutzer mit einer Privatleitung besitzt keine zweite SIP-Adresse, und eine zweite, private Telefonleitung bedeutet nicht, dass ein Benutzer im Netzwerk zweimal vorhanden ist (wie eine zweite Instant Messaging-Identität).
 
-  - Privatleitungen stehen nur für lokale Bereitstellungen zur Verfügung. Sie sind für gehostete Bereitstellungen von lync Server nicht verfügbar.
+  - Privatleitungen stehen nur für lokale Bereitstellungen zur Verfügung. Sie stehen in gehosteten Bereitstellungen von lync Server nicht zur Verfügung.
 
 </div>
 
@@ -67,13 +67,13 @@ Auch wenn das Konzept einer zweiten, privaten Telefonleitung grundsätzlich einf
 
   - Die Rufnummern für Privatleitungen werden nicht in den Telefonverzeichnissen oder Kontaktlisten aufgeführt, die von den Active Directory-Domänendiensten abgeleitet werden.
 
-  - Keine der folgenden Funktionen steht für eine Privatleitung zur Verfügung: Anrufweiterleitung, Teamanruf, Gruppenanrufannahme, Delegierung, benutzerdefinierte Anrufweiterleitung und Reaktionsgruppenanwendung.
+  - Keine der folgenden Features ist mit einer privaten Telefonleitung verfügbar: Anrufweiterleitung, Teamanruf, Delegierung, Team Klingeln, gruppenanrufannahme und Reaktionsgruppenanwendung.
 
-  - Anrufe an eine Privatleitung weisen einen bestimmten Rufton auf und in der Systembenachrichtigung für den Anruf wird dem Benutzer mitgeteilt, dass der Anruf auf der Privatleitung eingeht.
+  - Anrufe an eine Privatleitung weisen einen bestimmten Rufton auf, und in der Systembenachrichtigung für den Anruf wird dem Benutzer mitgeteilt, dass der Anruf auf der Privatleitung eingeht.
 
-  - Anrufe an die Privatleitung werden immer durchgestellt. Sie folgen keinen „Nicht stören“-Regeln.
+  - Anrufe an die Privatleitung werden immer durchgestellt. Sie folgen keinen "Nicht stören"-Regeln.
 
-  - Privatleitungen sind nur eingehend und können nicht zum Tätigen ausgehender Anrufe verwendet werden. Wenn ein Benutzer mit einer Privatleitung einen Anruf tätigt, geht der Anruf von der primären Telefonleitung des Benutzers aus. Der Benutzername oder die primäre Telefonnummer des Benutzers wird dabei nicht vor dem angerufenen Teilnehmer verborgen.
+  - Privatleitungen sind nur eingehend und können nicht zum Tätigen ausgehender Anrufe verwendet werden. Wenn ein Benutzer mit einer Privatleitung einen Anruf tätigt, geht der Anruf von der primären Telefonleitung des Benutzers aus. Der Benutzername oder die primäre Telefonnummer des Benutzers werden dabei nicht vor dem angerufenen Teilnehmer verborgen.
 
 </div>
 
@@ -89,9 +89,9 @@ Auch wenn das Konzept einer zweiten, privaten Telefonleitung grundsätzlich einf
 
   - Die Rufnummer für eine Privatleitung wird im Kommunikationsdatensatz ebenso aufgezeichnet wie die Rufnummer für die primäre Telefonleitung eines Benutzers, jedoch mit dem Hinweis, dass es sich um eine private Rufnummer handelt.
 
-  - Nachdem ein Benutzer einen Anruf auf einer Privatleitung angenommen hat, wird der Anruf genau wie ein Anruf auf der primären Telefonleitung des Benutzers behandelt. Wenn beispielsweise ein Benutzer, der einen Anruf über eine private Telefonleitung erhält, den Anruf weiterleitet oder andere zu einem Konferenzanruf auffordert, wird der Name des Benutzers in lync 2013 angezeigt, und die Telefonnummer für die primäre Telefonleitung des Benutzers wird in der Rufnummernanzeige angezeigt.
+  - Nachdem ein Benutzer einen Anruf auf einer Privatleitung angenommen hat, wird der Anruf genau wie ein Anruf auf der primären Telefonleitung des Benutzers behandelt. Wenn beispielsweise ein Benutzer, der einen Anruf über eine private Telefonleitung erhält, den Anruf weiterleitet oder andere zu einer Telefonkonferenz auffordert, wird der Name des Benutzers in lync 2013 angezeigt, und die Telefonnummer für die primäre Telefonleitung des Benutzers wird in der Anrufer-ID angezeigt.
 
-  - Genau wie bei einer primären Telefonleitung kann ein Benutzer einen Anruf von der Privatleitung aus weiterschalten, also vor der Annahme an ein anderes Ziel umleiten, z. B. an ein Mobiltelefon oder eine private Rufnummer.
+  - Genau wie bei einer primären Telefonleitung kann ein Benutzer einen Anruf von der Privatleitung aus weiterschalten, also vor der Annahme an ein anderes Ziel umleiten, z. B. ein Mobiltelefon oder eine private Rufnummer.
     
     <div>
     
@@ -125,7 +125,7 @@ Neben den technischen Aspekten der Erstellung und Verwaltung von Privatleitungen
 
 
 > [!NOTE]  
-> Die Privatleitung wird in Active Directory als Attribut „msRTCSIP-PrivateLine“ des Benutzerobjekts gespeichert. Standardmäßig haben alle Mitglieder der Gruppe der authentifizierten Benutzer Lesezugriff auf dieses Attribut.
+> Die Privatleitung wird in Active Directory als msRTCSIP-PrivateLine-Attribut des Benutzerobjekts gespeichert. Standardmäßig haben alle Mitglieder der Gruppe der authentifizierten Benutzer Lesezugriff auf dieses Attribut.
 
 
 
@@ -135,13 +135,13 @@ Neben den technischen Aspekten der Erstellung und Verwaltung von Privatleitungen
 
 ## <a name="assigning-telephone-numbers"></a>Zuweisen von Rufnummern
 
-Konten für neue Benutzer, die private Telefonleitungen benötigen, werden auf die gleiche Weise wie Konten ohne private Telefonleitungen erstellt, und zwar mithilfe der lync Server-Systemsteuerung oder der lync Server-Verwaltungsshell.
+Konten für neue Benutzer, die private Telefonleitungen benötigen, werden auf die gleiche Weise wie Konten ohne private Telefonleitungen mit lync Server-Systemsteuerung oder lync Server-Verwaltungsshell erstellt.
 
-Verwenden Sie das Cmdlet " **CsUser** " in der lync Server-Verwaltungsshell, um einer privaten Telefonleitung für einen Benutzer eine Telefonnummer zuzuweisen, beispielsweise " **CsUser-Identity" SIP:Joe@Contoso.com "-Privatsphäre" Tel: + 14255551212 "**.
+Verwenden Sie das Cmdlet " **CsUser** " in der lync Server-Verwaltungsshell, um eine Telefonnummer für eine private Telefonleitung für einen Benutzer zuzuweisen, beispielsweise " **CsUser-Identity" SIP:Joe@Contoso.com "-private-Hotline" Tel: + 14255551212 "**.
 
-Telefonnummern für private Telefonleitungen können zwischen 3 und 15 Nummern lang sein und müssen dem Präfix "Tel:" vorangestellt werden. Sie können eine beliebige Ortsvorwahl und eine beliebige Landes-/Regionsvorwahl besitzen, sofern Ihre Organisation für die betreffende Orts- und Landes-/Regionsvorwahl DID-Nummern (Direct Inward Dialing) verwendet.
+Telefonnummern für private Telefonleitungen können zwischen 3 und 15 Nummern lang sein und müssen dem Präfix "Tel:" vorangestellt sein. Sie können eine beliebige Ortsvorwahl und eine beliebige Landes-/Regionsvorwahl besitzen, sofern Ihre Organisation für die betreffende Orts- und Landes-/Regionsvorwahl DID-Nummern (Direct Inward Dialing) verwendet.
 
-Details zu Cmdlets und zur lync Server-Verwaltungsshell finden Sie in der Dokumentation zur [lync Server 2013-Verwaltungsshell](lync-server-2013-lync-server-management-shell.md) .
+Ausführliche Informationen zu Cmdlets und lync Server-Verwaltungsshell finden Sie in der Dokumentation zur [lync Server 2013 Verwaltungsshell](lync-server-2013-lync-server-management-shell.md) .
 
 </div>
 
@@ -149,7 +149,7 @@ Details zu Cmdlets und zur lync Server-Verwaltungsshell finden Sie in der Dokume
 
 ## <a name="private-telephone-lines-in-mixed-deployments"></a>Privatleitungen in gemischten Bereitstellungen
 
-Private Telefonleitungen sollten nur für Bereitstellungen von lync Server konfiguriert werden. Bei einer Bereitstellung, bei der sowohl lync Server-als auch Office Communications Server 2007-oder Office Communications Server 2007 R2-Server vorhanden sind, schlägt das Routing des Anrufs fehl, da der Server bei einer früheren Version versucht, eine private Telefonleitung anzurufen Führen Sie eine Reverse-Number-Suche auf einem privaten Telefonanschluss durch.
+Private Telefonleitungen sollten nur für Bereitstellungen von lync Server konfiguriert werden. In einer Bereitstellung, in der sowohl lync Server-als auch Office Communications Server 2007-oder Office Communications Server 2007 R2 Server vorhanden sind, tritt beim Routing des Anrufs ein Fehler auf, wenn ein Benutzer in einer früheren Version versucht, eine private Telefonleitung anzurufen, da der Server nicht Führen Sie eine umgekehrte Nummernsuche für eine private Telefonleitung aus.
 
 </div>
 

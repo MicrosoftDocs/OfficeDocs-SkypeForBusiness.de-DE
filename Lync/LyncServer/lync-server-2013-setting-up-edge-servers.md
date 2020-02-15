@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Einrichten von Edgeservern'
+title: 'Lync Server 2013: Einrichten von Edge-Servern'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183354
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7621d8d8cfb22e774bd13f767c37e49321d3e0a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a3702038781010ce56887ba39c89d09c23bffdbd
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764621"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037605"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-edge-servers-in-lync-server-2013"></a>Einrichten von Edgeservern in Lync Server 2013
+# <a name="setting-up-edge-servers-in-lync-server-2013"></a>Einrichten von Edge-Servern in lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41764621"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-08_
+_**Letztes Änderungsstand des Themas:** 2012-09-08_
 
-Die primären Aufgaben, die zum Einrichten von Edgeserver erforderlich sind, sind bei der Installation eines einzelnen Edge-Servers oder eines Lastenausgleichs Pools von Edge-Servern identisch, mit der Ausnahme, dass ein Pool von Hardwarelastenausgleich-Edgeserver die Bereitstellung der Lastenausgleichs Komponenten und zusätzliche Schritte für Replizieren der Einrichtung auf mehreren Edge-Servern
+Die Aufgaben zum Einrichten von Edgeservern entsprechen grundsätzlich denen zum Installieren eines einzelnen Edgeservers oder eines Edgeserverpools mit Lastenausgleich. Bei einem Pool von Edgeservern mit Lastenausgleich müssen jedoch zusätzlich die Lastenausgleichsmodule bereitgestellt und weitere Schritte ausgeführt werden, um die Einrichtung auf mehrere Edgeserver zu replizieren.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Einrichten von Netzwerkschnittstellen für Edgeserver in Lync Server 2013](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
+  - [Einrichten von Netzwerkschnittstellen für Edgeserver in lync Server 2013](lync-server-2013-set-up-network-interfaces-for-edge-servers.md)
 
-  - [Install prerequiInstallieren der erforderlichen Software auf Edgeservern für Lync Server 2013](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
+  - [Installieren der erforderlichen Software auf Edge-Servern für lync Server 2013](lync-server-2013-install-prerequisite-software-on-edge-servers.md)
 
-  - [Exportieren der Lync Server 2013-Topologie und Kopieren auf externe Medien zur Edgeinstallation](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
+  - [Exportieren der lync Server 2013 Topologie und kopieren auf externe Medien für die Edge-Installation](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md)
 
-  - [Installieren von Edgeservern für Lync Server 2013](lync-server-2013-install-edge-servers.md)
+  - [Installieren von Edge-Servern für lync Server 2013](lync-server-2013-install-edge-servers.md)
 
-  - [Einrichten von Edgezertifikaten für Lync Server 2013](lync-server-2013-set-up-edge-certificates.md)
+  - [Einrichten von Edge-Zertifikaten für lync Server 2013](lync-server-2013-set-up-edge-certificates.md)
 
-  - [Starten der Edgeserver in Lync Server 2013](lync-server-2013-start-edge-servers.md)
+  - [Starten der Edgeserver in lync Server 2013](lync-server-2013-start-edge-servers.md)
 
-  - [Einrichten von Reverseproxyservern für Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md)
+  - [Einrichten von Reverse-Proxyservern für lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md)
 
 </div>
 

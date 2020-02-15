@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013; Erstellen von Netzwerk interregions-Routen
+title: Lync Server 2013; Erstellen von Netzwerk interregions Routen
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,16 +13,16 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3909c41328e18302ef1104ac05d9a7c7987f57d6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2259f47608b09ad7cff54ee0dc9b6be57502ee10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727385"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041134"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,29 +36,29 @@ ms.locfileid: "41727385"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-20_
+_**Letztes Änderungsstand des Themas:** 2012-10-20_
 
-Eine *Netzwerk-interregions-Route* definiert die Route zwischen zwei netzwerkregionen. Für jedes Paar von netzwerkregionen in der Bereitstellung für die Anrufsteuerung ist eine Netzwerk-interregions-Route erforderlich. So kann jede Netzwerkregion innerhalb der Bereitstellung auf alle anderen Regionen zugreifen.
+Eine *regionenübergreifende Netzwerkroute* definiert die Route zwischen zwei Netzwerkregionen. Für jedes Netzwerkregionenpaar in Ihrer Anrufsteuerungsbereitstellung ist eine regionenübergreifende Netzwerkroute erforderlich. So kann jede Netzwerkregion innerhalb der Bereitstellung auf alle anderen Regionen zugreifen.
 
-Während die Region Links Bandbreiteneinschränkungen für die Verbindungen zwischen Regionen festlegt, bestimmt eine interregions Route, welchen verknüpften Pfad die Verbindung von einem Bereich zu einem anderen durchlaufen wird.
+Während die Regionenverbindungen Bandbreiteneinschränkungen für Verbindungen zwischen Regionen festlegen, bestimmt eine regionenübergreifende Route, welchen Verknüpfungspfad die Verbindung von einer Region zur anderen nimmt.
 
-Details zum Arbeiten mit Netzwerk interregions-Routen finden Sie in der Dokumentation zur lync Server-Verwaltungsshell für die folgenden Cmdlets:
+Ausführliche Informationen zum Arbeiten mit Netzwerk-zwischen Regionen-Routen finden Sie in der lync Server-Verwaltungsshell Dokumentation für die folgenden Cmdlets:
 
   - [New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterRegionRoute)
 
   - [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterRegionRoute)
 
-  - [Set-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)
+  - [Gruppe-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterRegionRoute)
 
   - [Remove-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterRegionRoute)
 
-In der Beispieltopologie müssen Netzwerk interregions-Routen für jedes der drei Regions Paare definiert werden: Nordamerika/EMEA, EMEA/APAC und Nordamerika/APAC.
+In der Beispieltopologie müssen für jedes der drei Regionenpaare regionenübergreifende Netzwerkrouten definiert werden: "North America/EMEA", "EMEA/APAC" und "North America/APAC".
 
 <div>
 
-## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a>So erstellen Sie Netzwerk interregions-Routen mithilfe der lync Server-Verwaltungsshell
+## <a name="to-create-network-interregion-routes-by-using-lync-server-management-shell"></a>So erstellen Sie Netzwerk interregions-Routen mithilfe von lync Server-Verwaltungsshell
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 2.  Führen Sie das Cmdlet **New-CsNetworkInterRegionRoute** aus, um die erforderlichen Routen zu definieren. Führen Sie beispielsweise den folgenden Befehl aus:
     
@@ -78,7 +78,7 @@ In der Beispieltopologie müssen Netzwerk interregions-Routen für jedes der dre
     
 
     > [!NOTE]  
-    > Für die Route Nordamerika/APAC-Netzwerk Interregion sind zwei Netzwerk Regions Verknüpfungen erforderlich, da zwischen Ihnen keine direkte Netzwerk Regions Verbindung besteht.
+    > Für die regionenübergreifende Netzwerkroute "North America/APAC" werden zwei Netzwerkregionenverbindungen benötigt, da zwischen diesen beiden Regionen keine direkte Netzwerkregionenverbindung vorhanden ist.
 
     
     </div>
@@ -87,9 +87,9 @@ In der Beispieltopologie müssen Netzwerk interregions-Routen für jedes der dre
 
 <div>
 
-## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a>So erstellen Sie Netzwerk interregions-Routen mithilfe der lync Server-Systemsteuerung
+## <a name="to-create-network-interregion-routes-by-using-lync-server-control-panel"></a>So erstellen Sie Netzwerk interregions-Routen mithilfe von lync Server-Systemsteuerung
 
-1.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**.
 
@@ -97,26 +97,26 @@ In der Beispieltopologie müssen Netzwerk interregions-Routen für jedes der dre
 
 4.  Klicken Sie auf **Neu**.
 
-5.  Klicken Sie auf der Seite **neue Regions Route** auf **Name** , und geben Sie dann einen Namen für die Route des Netzwerk interregions ein.
+5.  Klicken Sie auf der Seite **Neue Regionenroute** auf **Name**, und geben Sie einen Namen für die regionenübergreifende Netzwerkroute ein.
 
-6.  Klicken Sie auf **netzwerkregion \#1**, und klicken Sie dann in der Liste auf einen Netzwerkbereich, den Sie an \#netzwerkregion 2 weiterleiten möchten.
+6.  Klicken Sie auf **netzwerkregion \#1**, und klicken Sie dann auf eine netzwerkregion in der Liste, die Sie zu \#netzwerkregion 2 weiterleiten möchten.
 
-7.  Klicken Sie auf **netzwerkregion \#2**, und klicken Sie dann in der Liste auf einen Netzwerkbereich, den Sie an \#netzwerkregion 1 weiterleiten möchten.
+7.  Klicken Sie auf **netzwerkregion \#2**, und klicken Sie dann auf eine netzwerkregion in der Liste, die Sie zu \#netzwerkregion 1 weiterleiten möchten.
 
-8.  Klicken Sie neben dem Feld **Netzwerk Regions Verknüpfungen** auf **Hinzufügen** , und fügen Sie dann einen Netzwerk Regions Link hinzu, der in der Netzwerk interregions-Route verwendet wird.
+8.  Klicken Sie neben dem Feld **Netzwerkregionenverbindungen** auf **Hinzufügen**, und fügen Sie eine Netzwerkregionenverbindung hinzu, die in der regionenübergreifenden Netzwerkroute verwendet werden soll.
     
     <div class=" ">
     
 
     > [!NOTE]  
-    > Wenn Sie eine Route für zwei Netzwerkregionen erstellen, die nicht über eine direkte Netzwerkregionenverbindung verbunden sind, müssen alle erforderlichen Verbindungen zum Vervollständigen der Route hinzugefügt werden. Beispielsweise erfordert die Route Nordamerika/APAC-Netzwerk Interregion zwei Netzwerk Regions Verknüpfungen, da zwischen Ihnen keine direkte Netzwerk Regions Verbindung besteht.
+    > Wenn Sie eine Route für zwei Netzwerkregionen erstellen, die nicht über eine direkte Netzwerkregionenverbindung verbunden sind, müssen alle erforderlichen Verbindungen zum Vervollständigen der Route hinzugefügt werden. Für die regionenübergreifende Netzwerkroute "North America/APAC" werden beispielsweise zwei Netzwerkregionenverbindungen benötigt, da zwischen diesen beiden Regionen keine direkte Netzwerkregionenverbindung vorhanden ist.
 
     
     </div>
 
-9.  Klicken Sie auf **Commit ausführen**.
+9.  Klicken Sie auf **Commit**.
 
-10. Um das Erstellen von Netzwerk interregions-Routen für Ihre Topologie abzuschließen, wiederholen Sie die Schritte 4 bis 9 mit Einstellungen für andere Netzwerk interregions-Routen.
+10. Wiederholen Sie die Schritte 4 bis 9 mit Einstellungen für andere regionenübergreifende Netzwerkrouten, um die Erstellung von regionenübergreifenden Netzwerkrouten für Ihre Topologie abzuschließen.
 
 </div>
 

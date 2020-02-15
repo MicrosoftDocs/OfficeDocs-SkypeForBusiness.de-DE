@@ -12,20 +12,20 @@ ms:contentKeyID: 48184325
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 013860ea52773f4109c56bd71d37a9f4b8938225
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 742bb5d8e8f29edf0397c9bb9fa12592087ea517
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763839"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038717"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="import-voice-routing-test-cases-in-lync-server-2013"></a>Importieren von Testfällen für das VoIP-Routing in Lync Server 2013
+# <a name="import-voice-routing-test-cases-in-lync-server-2013"></a>Importieren von Testfällen für das VoIP-Routing in lync Server 2013
 
 </div>
 
@@ -35,33 +35,33 @@ ms.locfileid: "41763839"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+_**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Testfälle bieten Ihnen die Möglichkeit, VoIP-Routen in Ihrer Organisation zu testen: Sie definieren solche Dinge wie die Nummer, die gewählt werden soll, und die Richtlinie für Wähleinstellungen und VoIP, die verwendet werden soll, und lync Server 2013 kann dann überprüfen, ob die angegebene Nummer aufgrund dieser Bedingungen Erfolg haben kann. sfully an das PSTN-Netzwerk weitergeleitet werden.
+Testfälle bieten Ihnen die Möglichkeit, VoIP-Routen in Ihrer Organisation zu testen: Sie definieren beispielsweise die Nummer, die gewählt werden soll, und die Wähleinstellungen und die VoIP-Richtlinie, die verwendet werden sollen, und lync Server 2013 können dann überprüfen, ob die angegebene Nummer bei diesen Bedingungen Erfolg haben kann. sfully werden an das PSTN-Netzwerk weitergeleitet.
 
-Testfälle, die mithilfe der lync Server-Systemsteuerung erstellt werden können, werden in der Regel nur auf dem Server gespeichert, auf dem der Fall ursprünglich erstellt und ausgeführt wurde. Diese Testfälle können jedoch als XML-Dateien (mit der Erweiterung. vtest) exportiert und dann auf anderen Servern importiert werden. Auf diese Weise können Sie dieselben Tests auf verschiedenen Computern ausführen, die sich an unterschiedlichen Stellen in Ihrer Topologie befinden.
+Testfälle, die mithilfe von lync Server-Systemsteuerung erstellt werden können, werden normalerweise nur auf dem Server gespeichert, auf dem der Fall ursprünglich erstellt und ausgeführt wurde. Sie können jedoch in Form von XML-Dateien (mit der Erweiterung VTEST) exportiert und dann auf anderen Servern importiert werden. Auf diese Weise können Sie den gleichen Test auf verschiedenen Computern, die sich an unterschiedlichen Stellen in Ihrer Topologie befinden, ausführen.
 
 <div>
 
-## <a name="to-import-a-voice-routing-test-case"></a>So importieren Sie einen Test Case für VoIP-Routing
+## <a name="to-import-a-voice-routing-test-case"></a>So importieren Sie einen Testfall für das VoIP-Routing
 
-1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Melden Sie sich am Computer als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied der CsVoiceAdministrator-, CsServerAdministrator-oder CsAdministrator-Rolle an. Ausführliche Informationen finden Sie unter [Delegate Setup Permissions in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing**.
 
 4.  Klicken Sie im Menü **Aktionen** auf **Testfälle importieren**.
 
-5.  Suchen Sie die Testfalldatei (vtest), die Sie importieren möchten, und klicken Sie dann auf **Öffnen**.
+5.  Suchen Sie nach der Testfalldatei (.VTEST), die Sie importieren möchten, und klicken Sie dann auf **Öffnen**.
 
-6.  Klicken Sie auf **Commit ausführen** und anschließend auf **Commit für alle Elemente ausführen**.
+6.  Klicken Sie auf **Commit** und anschließend auf **Commit für alle**.
     
     <div>
     
 
     > [!NOTE]  
-    > Wenn Sie eine vtest-Datei importieren, müssen Sie den Befehl <STRONG>Commit all</STRONG> ausführen, um den Testfall zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in lync Server 2013</A> in der Betriebsdokumentation.
+    > Jedes Mal, wenn Sie eine VTEST-Datei importieren, müssen Sie den Befehl <STRONG>Commit für alle</STRONG> ausführen, um den Testfall zu veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration.md">Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in lync Server 2013</A> in der Betriebsdokumentation.
 
     
     </div>
@@ -73,7 +73,7 @@ Testfälle, die mithilfe der lync Server-Systemsteuerung erstellt werden können
 ## <a name="see-also"></a>Siehe auch
 
 
-[Exportieren von Testfällen für das VoIP-Routing in Lync Server 2013](lync-server-2013-export-voice-routing-test-cases.md)  
+[Exportieren von Testfällen für das VoIP-Routing in lync Server 2013](lync-server-2013-export-voice-routing-test-cases.md)  
   
 
 </div>

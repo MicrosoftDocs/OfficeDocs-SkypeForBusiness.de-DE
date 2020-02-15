@@ -12,20 +12,20 @@ ms:contentKeyID: 49733651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e35f9bcd1238141aada9bc5bfd9b802c10ffc6ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 29d283b7c935cb41f14b2a7048eedd369d378f44
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725815"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040974"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="integration-of-persistent-chat-management-tools-in-lync-server-2013"></a>Integration von Verwaltungstools für beständigen Chat in Lync Server 2013
+# <a name="integration-of-persistent-chat-management-tools-in-lync-server-2013"></a>Integration von Verwaltungstools für beständigen Chat in lync Server 2013
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "41725815"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-08-16_
+_**Letztes Änderungsstand des Themas:** 2012-08-16_
 
-Lync Server 2013 vereinfacht die Verwaltung des beständigen Chat Servers, indem die Verwaltungstools mit den Tools für den restlichen lync Server integriert werden.
+Lync Server 2013 vereinfacht die Verwaltung von Servern für beständigen Chat, indem die Verwaltungstools mit den für den Rest lync Server verwendeten Tools integriert werden.
 
-Der Server für beständigen Chat umfasst eine in die lync Server Control Panel integrierte Benutzeroberfläche für administrative Benutzer. Darüber hinaus enthält der Server für beständigen Chat eine Sammlung von Windows PowerShell-Cmdlets zum Verwalten und Verwalten von beständigen Chat Server Kategorien, Räumen (einschließlich Löschen von Räumen und bereinigen veralteter Inhalte) und Add-Ins.
+Der Server für beständigen Chat enthält eine in die lync Server-Systemsteuerung integrierte administrative Benutzeroberfläche. Der Server für beständigen Chat enthält außerdem eine Sammlung von Windows PowerShell-Cmdlets zum Verwalten und Verwalten von Server Kategorien für beständigen Chat, von Räumen (einschließlich Löschen von Räumen und Entfernen veralteter Inhalte) und Add-Ins.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Übersicht über den Server für beständigen Chat in Lync Server 2013](lync-server-2013-overview-of-persistent-chat-server.md)  
+[Übersicht über den Server für beständigen Chat in lync Server 2013](lync-server-2013-overview-of-persistent-chat-server.md)  
 
 
 [Verwalten von Lync Server 2013 Persistent Chat Server](managing-lync-server-2013-persistent-chat-server.md)  

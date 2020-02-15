@@ -1,5 +1,5 @@
 ---
-title: Übersicht über lync Server 2013 A/V-Konferenzen
+title: Lync Server 2013 A/V-Konferenzen (Übersicht)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 49733747
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 405d44f9128ef4c8120a6a8389f8d566b6880b2a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dd73e1356e42aca8dc4159143287371dd66f0688
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735205"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037967"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,47 +35,47 @@ ms.locfileid: "41735205"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-13_
+_**Letztes Änderungsstand des Themas:** 2012-10-13_
 
-A/V-Konferenzen ermöglichen Audio-und Videokommunikation in Echtzeit zwischen Ihren Benutzern. Wenn Sie Konferenzen bereitstellen, können Sie auswählen, ob Sie Webkonferenzen und A/V-Konferenzen oder nur Webkonferenzen aktivieren und verwenden möchten.
+A/V-Konferenzen ermöglichen die Echtzeit-Audio-und Videokommunikation zwischen Ihren Benutzern. Wenn Sie die Konferenzfunktion bereitstellen, können Sie entweder sowohl Webkonferenzen als auch A/V-Konferenzen oder nur Webkonferenzen aktivieren.
 
-Zum Planen von A/V-Konferenzen müssen Sie die erforderliche Netzwerkbandbreite für den Typ der Konferenzmedien kennen, die in Ihrer Organisation verwendet werden. Dies könnten z. B. Audio, Video und Panoramavideo sein.
+Zum Planen von A/V-Konferenzen müssen Sie die erforderliche Netzwerkbandbreite für den Typ der Konferenzmedien kennen, die in Ihrer Organisation verwendet werden. Dies kann Audio-, Video-und Panorama Video umfassen.
 
-Bevor Sie Benutzer für A/V-Konferenzen aktivieren, stellen Sie sicher, dass Ihr Netzwerk die resultierende Last verarbeiten kann. Eine zu geringe Netzwerkbandbreite kann zu einem stark beeinträchtigten Benutzererlebnis führen. Sie können die Anrufsteuerung (Call Admission Control, CAC) verwenden, um die von A/V-Konferenzen verwendete Netzwerkbandbreite zu verwalten. Dies ist für eingeschränkte Netzwerke wichtig, beispielsweise bei Verbindungen mit beschränkter Bandbreite zwischen Zentrale und Niederlassungen. Ausführliche Informationen finden Sie unter Übersicht über die [Anrufsteuerung in lync Server 2013](lync-server-2013-overview-of-call-admission-control.md). Details zu den Anforderungen an die Medien Bandbreite finden Sie unter Anforderungen an die [Netzwerkbandbreite für Mediendatenverkehr in lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).
+Bevor Sie Benutzer für A/V-Konferenzen aktivieren, müssen Sie sicherstellen, dass Ihr Netzwerk die resultierende Last verarbeiten kann. Ohne ausreichende Netzwerkbandbreite kann die Benutzeroberfläche stark beeinträchtigt werden. Sie können die Anrufsteuerung (Call Admission Control, CAC) verwenden, um die von A/V-Konferenzen verwendete Netzwerkbandbreite zu verwalten. Dies ist für eingeschränkte Netzwerke wichtig, beispielsweise für Verbindungen mit beschränkter Bandbreite zwischen zentralen und Zweigstellenstandorten. Ausführliche Informationen finden Sie unter [Overview of Call Admission Control in lync Server 2013](lync-server-2013-overview-of-call-admission-control.md). Ausführliche Informationen zu den Anforderungen an die Medien Bandbreite finden Sie unter Anforderungen an die [Netzwerkbandbreite für Mediendatenverkehr in lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).
 
-Bei Bereitstellung der Audiokonferenzfunktion in Ihrem Netzwerk benötigen Ihre Benutzer Audiogeräte (z. B. Headsets), um an einer Audiokonferenz teilzunehmen. Wenn Sie Videokonferenzen bereitstellen, benötigen die Benutzer Videogeräte, wie Webcams. Wir empfehlen die Verwendung von UC-Geräten (Unified Communications), die von Microsoft für alle Gerätetypen zertifiziert sind, um eine optimale Benutzererfahrung zu gewährleisten. Details zu UC-zertifizierten Geräten finden Sie unter "Telefone und Geräte für lync" [http://go.microsoft.com/fwlink/p/?LinkId=263861](http://go.microsoft.com/fwlink/p/?linkid=263861)unter. Für Audio-oder Videogeräte, die Gerätebereitstellung und die Benutzerschulung sind wichtige Schritte, die Sie beachten und planen können.
+Wenn Sie Audiokonferenzen in Ihrem Netzwerk bereitstellen, benötigen Ihre Benutzer Audiogeräte wie Headsets, um an einer Audiokonferenz teilzunehmen. Bei der Bereitstellung von Videokonferenzen müssen Sie Videogeräte wie Webcams für Benutzer bereitstellen. Es wird empfohlen, UC-Geräte (Unified Communications) zu verwenden, die von Microsoft für alle Gerätetypen zertifiziert sind, um eine optimale Benutzerfreundlichkeit sicherzustellen. Ausführliche Informationen zu UC-zertifizierten Geräten finden Sie unter "Telefone und Geräte für lync [http://go.microsoft.com/fwlink/p/?LinkId=263861](http://go.microsoft.com/fwlink/p/?linkid=263861)" unter. Für Audio-oder Videogeräte sind die Gerätebereitstellung und die Benutzerschulung wichtige Schritte, die Sie berücksichtigen und planen müssen.
 
-In den folgenden Abschnitten werden die Features für Audio-und Videokonferenzen beschrieben, einschließlich Informationen zum Verwalten der Bandbreite und zum Auswählen der entsprechenden Clients.
+In den folgenden Abschnitten werden die Funktionen für Audio-und Videokonferenzen beschrieben, einschließlich Informationen zum Verwalten der Bandbreite und zum Auswählen der entsprechenden Clients.
 
 <div>
 
 ## <a name="audio-conferencing-features"></a>Audiokonferenz-Features
 
-Lync Server 2013 bietet verschiedene Features, die Sie zum Konfigurieren der Audiokonferenz-Oberfläche für den Benutzer verwenden können, einschließlich der folgenden:
+Lync Server 2013 bietet verschiedene Features, mit denen Sie die Audiokonferenz-Benutzeroberfläche für den Benutzer konfigurieren können, einschließlich der folgenden:
 
-  - **Zuschauer Stummschaltung**   der Referent kann diese Einstellung verwenden, um alle Audio-Teilnehmer in der Konferenz stummzuschalten und die Konferenz in einen Zustand zu versetzen, in dem nicht Referenten die Stummschaltung selbst aufheben können.
+  - **Benutzergruppe stumm**   der Referent kann diese Einstellung verwenden, um alle Audioteiler in der Konferenz stummzuschalten und die Konferenz in einen Zustand versetzen, in dem nicht-Referenten sich selbst nicht entmuten können.
 
-  - **Conferencing Entry/Exit-Ankündigungen**   Wenn Sie Einwahlkonferenzen aktiviert haben, können Referenten diese Einstellung verwenden, um ein-und ausgehende Ankündigungen zu aktivieren oder zu deaktivieren, um Ablenkungen zu minimieren, während eine Konferenz läuft.
+  - **Conferencing Entry/Exit Announcements**   Wenn Sie Einwahlkonferenzen aktiviert haben, können Referenten diese Einstellung verwenden, um die Eingabe-und Beendigungs Ankündigungen zu aktivieren oder zu deaktivieren, um Ablenkungen während einer Konferenz zu minimieren.
 
-  - **Wenn Sie einen Benutzer hinzufügen, indem Sie**   Referenten und Teilnehmer auswählen, denen die Berechtigung erteilt wurde, können Sie den Konferenzen PSTN-Nummern hinzufügen und die Konferenz an diese Nummern anwählen.
+  - **Durch das Hinzufügen eines Benutzers durch das anwählen**   von Referenten und Teilnehmern, denen die Berechtigung erteilt wurde, können den Konferenzen PSTN-Nummern hinzugefügt werden, und die Konferenz kann für diese Nummern gewählt werden.
 
 </div>
 
 <div>
 
-## <a name="video-conferencing-features"></a>Video Konferenz Features
+## <a name="video-conferencing-features"></a>Video Konferenzfunktionen
 
-Lync Server 2013 bietet verschiedene Features, mit denen Sie die Videokonferenzfunktionalität für den Benutzer konfigurieren können, einschließlich der folgenden:
+Lync Server 2013 bietet verschiedene Features, mit denen Sie die Videokonferenzumgebung für den Benutzer konfigurieren können, einschließlich der folgenden:
 
-  - **Katalogansicht**   in Videokonferenzen, die mehr als zwei Personen aufweisen, sehen Benutzer automatisch alle Teilnehmer der Konferenz. Wenn die Konferenz mehr als fünf Teilnehmer hat, werden in der ersten Zeile die Videos der aktivsten Teilnehmer angezeigt und für die übrigen Teilnehmer Fotos. Die Videoaushandlung ist standardmäßig aktiviert. Details zum Konfigurieren oder Deaktivieren von mehrteiligen Videos finden Sie unter [Konfigurieren der Videobandbreite in lync Server 2013](lync-server-2013-configuring-video-bandwidth.md).
+  - **Galerieansicht**   in Videokonferenzen mit mehr als zwei Personen sehen Benutzer automatisch alle Mitglieder der Konferenz. Wenn die Konferenz über mehr als fünf Teilnehmer verfügt, wird das Video der aktivsten Teilnehmer in der obersten Zeile angezeigt, und für die anderen Teilnehmer wird nur das Foto angezeigt. Video mit mehreren Teilern ist standardmäßig aktiviert. Ausführliche Informationen zum Konfigurieren oder Deaktivieren von Video für mehrteilige Videos finden Sie unter [Konfigurieren der Videobandbreite in lync Server 2013](lync-server-2013-configuring-video-bandwidth.md).
 
-  - **Panorama Video**   wenn ein RoundTable-Videokonferenz Gerät im Konferenzraum installiert ist, bietet dieses Feature eine vollständige 360-Grad-Ansicht des Konferenzraums. Panoramavideo ist nur mit Round Table verfügbar.
+  - **Panorama Video**   wenn im Konferenzraum ein RoundTable-Videokonferenz Gerät installiert ist, bietet dieses Feature eine vollständige 360 Grad Ansicht des Konferenzraums. Der Panorama-Video Strip ist nur für RoundTable-Geräte verfügbar.
 
-  - **Referenten nur Videomodus**   Referenten können die Besprechung so konfigurieren, dass nur das Video des Referenten angezeigt wird. Dies verhindert bei großen Besprechungen Ablenkungen, wenn mehrere Videostreams verfügbar und mit verschiedenen Quellen verbunden sind. Dieser Modus wird auch auf Videos angewendet, die mit Round Table-Geräte aufgenommen und bereitgestellt werden.
+  - **Referent nur Videomodus**   Referenten können die Besprechung so konfigurieren, dass nur das Video des Referenten angezeigt wird. Dadurch werden Ablenkungen in großen Besprechungen verhindert, wenn mehrere Videostreams verfügbar sind und verschiedene Quellen gesperrt werden. Dieser Modus gilt auch für von RoundTable-Geräten erfasste und bereitgestellte Videos.
 
-  - **HD-Video**   Benutzer können Auflösungen bis zu HD 1080p in zwei-Parteien-anrufen und mehrteiligen Konferenzen erleben.
+  - **HD-Video**   Benutzer können Auflösungen bis zu HD 1080p in Gesprächen mit zwei Teilnehmern und Konferenzen mit mehreren Teilnehmern durchführen.
 
-  - **Video Spotlight**   -Referenten können die Besprechung so konfigurieren, dass nur das Video von einem ausgewählten Teilnehmer, der eine Videoquelle ist, von den anderen Teilnehmern der Konferenz gesehen wird. Dieser Modus wird auch auf Videos angewendet, die mit Round Table-Geräten aufgenommen und bereitgestellt werden.
+  - ****   Referenten für Video Spotlight können die Besprechung so konfigurieren, dass nur das Video eines ausgewählten Teilnehmers, der eine Videoquelle ist, von den anderen Teilnehmern in der Konferenz angezeigt wird. Dieser Modus gilt auch für Videos, die von RoundTable-Geräten für Panorama Video erfasst und bereitgestellt werden.
 
 </div>
 

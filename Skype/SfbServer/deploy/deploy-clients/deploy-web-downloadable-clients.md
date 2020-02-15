@@ -11,48 +11,48 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
-description: 'Zusammenfassung: Bereitstellen der Skype for Business Web App-und Skype-Besprechungs-APP, die mit Skype for Business verwendet wird.'
-ms.openlocfilehash: 5f4cc14ab3774096846053e6da41647c1987a1dd
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: 'Zusammenfassung: Bereitstellen der mit Skype for Business verwendeten Skype for Business-Webanwendung und der Skype-Besprechungs-app.'
+ms.openlocfilehash: 7f6bebbc9950a7eb5da202c3b818b1288c811f17
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41768958"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029046"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Bereitstellen von Webdownload-Clients in Skype for Business Server
 
-**Zusammenfassung:** Stellen Sie die Skype for Business 2015 Web App und die Skype-Besprechungs-App bereit, die mit Skype for Business Server verwendet wird.
+**Zusammenfassung:** Stellen Sie die mit Skype for Business Server verwendete Skype for Business 2015-Webanwendung und Skype-Besprechungs-App bereit.
 
-Skype for Business Web App ist ein Internet-Informationsdienste (IIS)-WebClient, der auf dem Server installiert ist, auf dem Skype for Business Server ausgeführt wird, und wird standardmäßig bei Bedarf für Besprechungs Benutzer bereitgestellt, die noch nicht über den Skype for Business-Client verfügen. Diese Besprechungs Benutzer verbinden sich häufiger als außerhalb Ihres Netzwerks. Wenn ein Benutzer auf eine Besprechungs-URL klickt, aber nicht über den Skype for Business-Client verfügt, wird dem Benutzer die Möglichkeit angezeigt, mit der neuesten Version von Skype for Business Web App, Skype-Besprechungs-APP oder Skype for Business für Mac an der Besprechung teilzunehmen.
+Skype for Business-Webanwendung ist ein Internet Information Services (IIS)er WebClient, der auf dem Server mit Skype for Business Server installiert ist und standardmäßig bei Bedarf für Besprechungs Benutzer bereitgestellt wird, die nicht bereits über den Skype for Business-Client verfügen. Diese Besprechungs Benutzer verbinden häufiger als keine Verbindung von außerhalb Ihres Netzwerks. Wenn ein Benutzer auf eine Besprechungs-URL klickt, aber der Skype for Business-Client nicht installiert ist, wird dem Benutzer die Möglichkeit geboten, an der Besprechung teilzunehmen, indem er die neueste Version von Skype for Business-Webanwendung, Skype-Besprechungs-APP oder Skype for Business für Mac verwendet.
 
-Die sprach-, Video-und Freigabefunktionen in Skype for Business Web App erfordern ein Microsoft ActiveX-Steuerelement, das vom Browser des Benutzers als Plug-in verwendet wird. Sie können entweder das ActiveX-Steuerelement im Voraus installieren oder es Benutzern gestatten, es zu installieren, wenn Sie dazu aufgefordert werden, was geschieht, wenn Sie Skype for Business Web App zum ersten Mal verwenden oder wenn Sie zum ersten Mal auf ein Feature zugreifen, das das ActiveX-Steuerelement erfordert.
+Für die sprach-, Video-und Freigabefunktionen in Skype for Business-Webanwendung ist ein Microsoft-ActiveX-Steuerelement erforderlich, das vom Browser des Benutzers als Plugin verwendet wird. Sie können entweder das ActiveX-Steuerelement im Voraus installieren oder Benutzern erlauben, es zu installieren, wenn Sie dazu aufgefordert werden, was geschieht, wenn Sie Skype for Business-Webanwendung zum ersten Mal verwenden oder wenn Sie erstmals auf ein Feature zugreifen, für das das ActiveX-Steuerelement erforderlich ist.
 
 > [!NOTE]
-> Bei der Bereitstellung von Skype for Business Server Edge Server ist für den Skype for Business Web App-Clientzugriff ein HTTPS-Reverseproxy im Umkreisnetzwerk erforderlich. Außerdem müssen Sie einfache URLs veröffentlichen. Ausführliche Informationen finden Sie unter [Einrichten von Reverse-Proxy Servern](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) und [DNS-Anforderungen für einfache URLs in Skype for Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
+> In Skype for Business Server Edgeserver-Bereitstellungen ist ein HTTPS-Reverseproxy im Umkreisnetzwerk für den Zugriff auf Skype for Business webapp-Client erforderlich. Sie müssen zudem einfache URLs. Ausführliche Informationen finden Sie unter [Setting up Reverse Proxy Servers](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) and [DNS Requirements for Simple URLs in Skype for Business Server](../../plan-your-deployment/network-requirements/simple-urls.md).
 
-## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Aktivieren der mehrstufigen Authentifizierung für Skype for Business Web App
+## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Aktivieren der mehrstufigen Authentifizierung für Skype for Business-Webanwendung
 <a name="MFA"> </a>
 
-Skype for Business Web App, Skype-Besprechungs-APP und Skype for Business für Mac unterstützen die mehrstufige Authentifizierung. Zusätzlich zu Benutzername und Kennwort können Sie zusätzliche Authentifizierungsmethoden wie Smartcards oder Pins anfordern, um Benutzer zu authentifizieren, die von externen Netzwerken beitreten, wenn Sie sich bei Skype for Business-Besprechungen anmelden. Sie können die mehrstufige Authentifizierung aktivieren, indem Sie den Active Directory Federation Service (AD FS)-Verbundserver bereitstellen und die passive Authentifizierung in Skype for Business Server aktivieren. Nach der Konfiguration von AD FS werden externe Benutzer, die versuchen, an Skype for Business-Besprechungen teilzunehmen, mit einer AD FS-Website für mehrstufige Authentifizierung angezeigt, die die Herausforderung Benutzername und Kennwort zusammen mit allen weiteren Authentifizierungsmethoden enthält, die Sie konfiguriert haben.
+Skype for Business-Webanwendung, Skype-Besprechungs-APP und Skype for Business für Mac unterstützen die mehrstufige Authentifizierung. Neben Benutzername und Kennwort können Sie zusätzliche Authentifizierungsmethoden wie Smartcards oder Pins zur Authentifizierung von Benutzern benötigen, die von externen Netzwerken beitreten, wenn Sie sich bei Skype for Business Besprechungen anmelden. Sie können die mehrstufige Authentifizierung aktivieren, indem Sie den Verbundserver Active Directory Verbunddienst (AD FS) bereitstellen und die passive Authentifizierung in Skype for Business Server aktivieren. Nachdem AD FS konfiguriert wurde, werden externe Benutzer, die versuchen, an Skype for Business Besprechungen teilzunehmen, mit einer AD FS-mehrstufigen Authentifizierungs Webseite angezeigt, die die Benutzernamen-und Kenn Wort Herausforderung sowie alle weiteren Authentifizierungsmethoden enthält, die Sie konfiguriert haben.
 
 > [!IMPORTANT]
 > Im Folgenden finden Sie wichtige Erwägungen, wenn Sie planen, Active Directory-Verbunddienste für die mehrstufige Authentifizierung zu konfigurieren
 
-- Mehrstufige ADFS-Authentifizierung funktioniert, wenn der Besprechungsteilnehmer und der Organisator sich beide in der gleichen Organisation befinden oder beide aus einer AD FS-Partnerverbundorganisation stammen. Die mehrstufige ADFS-Authentifizierung funktioniert nicht für Lync-Partnerverbundbenutzer, da sie von der Webinfrastruktur von Lync Server aktuell nicht unterstützt wird.
+- Die mehrstufige ADFS-Authentifizierung funktioniert, wenn sich der Besprechungsteilnehmer und der Organisator sowohl in derselben Organisation als auch in einer AD FS-Verbundorganisation befinden. Die mehrstufige ADFS-Authentifizierung funktioniert nicht für lync-Verbundbenutzer, da Sie von der lync Server-Webinfrastruktur derzeit nicht unterstützt wird.
 
-- Wenn Sie Hardware-Lastenausgleichsgeräte verwenden, aktivieren Sie die Cookie-Persistenz auf den Lastenausgleichsgeräten, damit alle Anfragen von den Skype for Business Web App-oder Besprechungs-App-Clients vom gleichen Front-End-Server verarbeitet werden.
+- Wenn Sie Hardwarelastenausgleichs verwenden, aktivieren Sie die Dauerhaftigkeit von Cookies für die Lastenausgleichsmodule, damit alle Anforderungen von den App-Clients für Skype for Business-Webanwendungen oder-Besprechungen von derselben Front-End-Server verarbeitet werden.
 
-- Wenn Sie eine vertrauende Vertrauensstellung zwischen Skype for Business Server und AD FS-Servern einrichten, weisen Sie eine Lebensdauer von Token zu, die lang genug ist, um die maximale Länge Ihrer Skype for Business-Besprechungen zu überspannen. Normalerweise genügt eine Tokengültigkeitsdauer von 240 Minuten.
+- Wenn Sie eine Vertrauensstellung der vertrauenden Seite zwischen Skype for Business Server und AD FS-Servern einrichten, weisen Sie eine Lebensdauer von Token zu, die lang genug ist, um die maximale Länge Ihrer Skype for Business Besprechungen zu überspannen. Gewöhnlich genügt eine Gültigkeitsdauer des Token von 240 Minuten.
 
-- Diese Konfiguration gilt nicht für mobile Lync-Clients.
+- Diese Konfiguration gilt nicht für lync Mobile-Clients.
 
 ### <a name="configure-multi-factor-authentication"></a>Konfigurieren der mehrstufigen Authentifizierung
 
-1. Installieren Sie eine AD FS-Verbundserverrolle. Ausführliche Informationen finden Sie im [Bereitstellungshandbuch für Active Directory-Verbunddienste 2,0](https://go.microsoft.com/fwlink/p/?linkid=267511)
+1. Installieren Sie eine Active Directory-Verbunddienste-Verbundserverrolle. Ausführliche Informationen finden Sie im [Bereitstellungshandbuch für Active Directory Verbunddienste 2,0](https://go.microsoft.com/fwlink/p/?linkid=267511)
 
-2. Erstellen Sie Zertifikate für AD FS. Weitere Informationen finden Sie im Abschnitt ["Verbundserver Zertifikate"](https://go.microsoft.com/fwlink/p/?LinkId=285376) im Abschnitt Planen und Bereitstellen von AD FS zur Verwendung mit dem Thema für einmaliges Anmelden.
+2. Erstellen von Zertifikaten für AD FS. Weitere Informationen finden Sie im Abschnitt ["Verbundserver Zertifikate"](https://go.microsoft.com/fwlink/p/?LinkId=285376) im Thema Planen und Bereitstellen von AD FS für die Verwendung mit einmaligem Anmelden.
 
-3. Führen Sie über die Windows PowerShell-Befehlszeilenschnittstelle den folgenden Befehl aus:
+3. Führen Sie über die Befehlszeilenschnittstelle Windows PowerShell den folgenden Befehl aus:
 
     ```powershell
     add-pssnapin Microsoft.Adfs.powershell
@@ -72,41 +72,41 @@ Skype for Business Web App, Skype-Besprechungs-APP und Skype for Business für M
    Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
    ```
 
-## <a name="disable-branchcache"></a>Deaktivieren von BranchCache 
+## <a name="disable-branchcache"></a>Deaktivieren von BranchCache
 <a name="MFA"> </a>
 
-Das BranchCache-Feature in Windows 7 und Windows Server 2008 R2 kann die Web-Komponenten von Skype for Business Web App stören. Wenn Sie Probleme mit Skype for Business Web App-Benutzern vermeiden möchten, stellen Sie sicher, dass BranchCache nicht aktiviert ist.
+Das BranchCache-Feature in Windows 7 und Windows Server 2008 R2 kann die Webkomponenten von Skype for Business Webanwendung stören. Stellen Sie sicher, dass BranchCache nicht aktiviert ist, um Probleme für Skype for Business-Webanwendung-Benutzer zu vermeiden.
 
-Details zum Deaktivieren von BranchCache finden Sie im [BranchCache-Bereitstellungshandbuch](https://docs.microsoft.com/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
+Ausführliche Informationen zum Deaktivieren von BranchCache finden Sie im [BranchCache-Bereitstellungshandbuch](https://docs.microsoft.com/windows-server/networking/branchcache/deploy/branchcache-deployment-guide).
 
-## <a name="verifying-skype-for-business-web-app-deployment"></a>Überprüfen der Bereitstellung von Skype for Business Web App
+## <a name="verifying-skype-for-business-web-app-deployment"></a>Überprüfen Skype for Business Webanwendungs-Bereitstellung
 <a name="MFA"> </a>
 
-Mit dem Cmdlet „Test-CsUcwaConference“ können Sie überprüfen, ob zwei Testbenutzer über die Unified Communications-Web-API (UCWA) an einer Konferenz teilnehmen können. Details zu diesem Cmdlet finden Sie unter [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) in der Dokumentation zur Skype for Business Server-Verwaltungsshell.
+Sie können das Cmdlet "Test-CsUcwaConference" verwenden, um sicherzustellen, dass ein Paar von Testbenutzern in einer Konferenz unter Verwendung der Unified Communications-Web-API (UCWA) teilnehmen können. Ausführliche Informationen zu diesem Cmdlet finden Sie unter [Test-CsUcwaConference](https://docs.microsoft.com/powershell/module/skype/test-csucwaconference?view=skype-ps) in der Dokumentation zur Skype for Business Server Management Shell.
 
-## <a name="troubleshooting-plug-in-installation-on-windows-server-2008-r2"></a>Problembehandlung der Plug-in-Installation unter Windows Server 2008 R2
+## <a name="troubleshooting-plug-in-installation-on-windows-server-2008-r2"></a>Problembehandlung bei der Plug-in-Installation auf Windows Server 2008 R2
 <a name="MFA"> </a>
 
-Wenn die Installation des Plug-Ins auf einem Computer mit Windows Server 2008 R2 fehlschlägt, müssen Sie möglicherweise die Internet Explorer-Sicherheitseinstellung oder die DisableMSI-Registrierungsschlüsseleinstellung ändern.
+Wenn die Installation des Plug-Ins auf einem Computer mit Windows Server 2008 R2 fehlschlägt, müssen Sie möglicherweise die Einstellung Internet Explorer Security oder die Einstellung des Registrierungsschlüssels DisableMSI ändern.
 
 ### <a name="modify-the-security-setting-in-internet-explorer"></a>Ändern der Sicherheitseinstellung in Internet Explorer
 
 1. Öffnen Sie Internet Explorer.
 
-2. Klicken Sie auf **Extras**, auf **Internetoptionen** und anschließend auf **Erweitert**.
+2. Klicken Sie auf **Extras**, dann auf **Internetoptionen** und anschließend auf **Erweitert**.
 
-3. Scrollen Sie nach unten zum Abschnitt **Sicherheit**.
+3. Führen Sie einen Bildlauf zum Bereich **Sicherheit** durch.
 
 4. Deaktivieren Sie **Verschlüsselte Seiten nicht auf dem Datenträger speichern**, und klicken Sie dann auf **OK**.
 
     > [!NOTE]
-    > Wenn diese Option ausgewählt ist, wird auch bei dem Versuch, eine Anlage von Skype for Business Web App herunterzuladen, ein Fehler verursacht.
+    > Wenn diese Einstellung aktiviert ist, wird beim Versuch, eine Anlage aus Skype for Business-Webanwendung herunterzuladen, auch ein Fehler ausgelöst.
 
 5. Nehmen Sie an der Besprechung erneut teil. Das Plug-In sollte ohne Fehler Elemente herunterladen.
 
-### <a name="modify-the-disablemsi-registry-setting"></a>Ändern der Registrierungseinstellung für „DisableMSI“
+### <a name="modify-the-disablemsi-registry-setting"></a>Ändern der Registrierungseinstellung für DisableMSI
 
-1. Klicken Sie auf  **Start ** und dann auf  **Ausführen**.
+1. Klicken Sie auf **Start** und dann auf **Ausführen**.
 
 2. Geben Sie **regedit** ein, um auf den Registrierungs-Editor zuzugreifen.
 
@@ -116,44 +116,44 @@ Wenn die Installation des Plug-Ins auf einem Computer mit Windows Server 2008 R2
 
 5. Nehmen Sie an der Besprechung erneut teil.
 
-## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional-skype-for-business-server-2015-only"></a>Aktivieren der Skype-Besprechungs-App zum Ersetzen von Skype for Business Web App (optional, nur Skype for Business Server 2015)
+## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional-skype-for-business-server-2015-only"></a>Skype-Besprechungs-App aktivieren, um Skype for Business-Webanwendung zu ersetzen (optional, nur Skype for Business Server 2015)
 <a name="SMA_Enable"> </a>
 
-Diese Vorgehensweise ist optional und gilt für Skype for Business Server 2015 CU5 und höher. Wenn Sie Sie nicht verwenden, werden externe Benutzer weiterhin mit Skype for Business Web App an Besprechungen teilnehmen.
+Dieses Verfahren ist optional und gilt für Skype for Business Server 2015 CU5 und höher. Wenn Sie Sie nicht verwenden, werden externe Benutzer weiterhin mit Skype for Business-Webanwendung an Besprechungen teilnehmen.
 
-### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a>Aktivieren der vereinfachten Teilnahme an Besprechungen und der Skype-Besprechungs-App
+### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a>Aktivieren der APP für vereinfachte Besprechungsteilnahme und Skype-Besprechungen
 
-1. Wenn Sie den Zugriff auf das Content Delivery Network (CDN) aktivieren, haben Benutzer die Möglichkeit, eine Verbindung mit CDN Online herzustellen und die Skype-Besprechungs-app (unter Windows) und Skype for Business für Mac (unter Mac) zu erhalten und die vereinfachte Besprechung zu nutzen.
+1. Wenn Sie den Zugriff auf das Inhalts Zustellungs Netzwerk (CDN) aktivieren, haben Benutzer die Möglichkeit, eine Verbindung mit CDN Online herzustellen und die Skype-Besprechungs-app (unter Windows) und Skype for Business für Mac (auf dem Mac) zu erhalten, und die vereinfachte Teilnahme an einem besprechungsbeitritt wird verwendet.
 
    ```powershell
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
    ```
 
-2. Clientseitige Protokollierung der Telemetrie über die Besprechungsteilnahme-Webseite oder die Skype-Besprechungs-APP an Microsoft-Server senden (der Befehl wird standardmäßig auf "falsch" festgelegt).
+2. Clientseitige Protokollierung von Telemetrie über die Besprechungs Mitgliedschafts Webseite oder die Skype-Besprechungs-APP an Microsoft-Server senden lassen (der Befehl ist standardmäßig auf "false" festgelegt).
 
    ```powershell
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    Informationen, die an Microsoft gesendet werden, unterliegen der strikten Einhaltung der [Skype for Business-Datensammlungsmethoden](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    Informationen, die an Microsoft gesendet werden, unterliegen strenger Einhaltung [Skype for Business Datensammlungsverfahren](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
-3. Stellen Sie das Timeout ein, bevor Sie auf die lokal gehostete Skype for Business Web App-Umgebung zurückgreifen, wenn CDN nicht verfügbar ist. Der Standardwert entspricht 6 Sekunden. Wenn der Wert auf 0 festgelegt ist, tritt kein Timeout ein.
+3. Legen Sie das Timeout fest, bevor Sie auf das Lokal gehostete Skype for Business-Webanwendungs Erlebnis zurückgreifen, wenn CDN nicht verfügbar ist. Der Standardwert ist 6 Sekunden. Wenn dieser Wert auf 0 festgelegt ist, wird kein Timeout verwendet.
 
    ```powershell
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
 
 > [!NOTE]
-> Bei MeetingUxUseCdn in Skype for Business Server 2015 Kumulatives Update 5 ist der Standardwert auf false festgelegt. Dies führt zu einem Problem, bei dem Skype for Business für Mac-Client nicht in der Lage ist, als Gast an den Besprechungen von nicht verbundenen Partnern teilzunehmen, selbst wenn der Skype for Business-Administrator MeetingUxUseCdn auf "true" festgelegt hat. Damit dies funktioniert, muss Skype for Business Server 2015 über das kumulative Update 7, 6.0.9319.534 oder höher verfügen. Weitere Informationen finden Sie unter [Aktivieren der Skype-Besprechungs-APP, um Skype for Business Web App in Skype for Business Server 2015 zu ersetzen](https://support.microsoft.com/kb/4132312).
+> Bei MeetingUxUseCdn in Skype for Business Server 2015 kumulativen Update 5 wird der Standardwert auf false festgelegt. Dies führt zu einem Problem, bei dem Skype for Business für Mac-Client nicht als Gast an Besprechungen von nicht-Verbundpartnern teilnehmen kann, auch wenn Skype for Business Administrator MeetingUxUseCdn auf true festgelegt hat. Damit dies funktioniert, muss Skype for Business Server 2015 das kumulative Update 7, 6.0.9319.534 oder höher haben. Weitere Informationen finden Sie unter [Aktivieren der Skype-Besprechungs-App zum Ersetzen Skype for Business-Webanwendung in Skype for Business Server 2015](https://support.microsoft.com/kb/4132312).
 
 
 ## <a name="see-also"></a>Siehe auch
 <a name="SMA_Enable"> </a>
 
-[Planen von Besprechungs Clients (app für Web App und Besprechungen)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
+[Planen von Besprechungs Clients (app für Webanwendungen und Besprechungen)](../../plan-your-deployment/clients-and-devices/meetings-clients.md)
 
-[Konfigurieren der Seite "Besprechungsteilnahme" in Skype for Business Server](../../manage/conferencing/meeting-join-page.md)
+[Konfigurieren der Seite für den besprechungsbeitritt in Skype for Business Server](../../manage/conferencing/meeting-join-page.md)
 
-[Datenschutzbestimmungen für Microsoft Online Services](https://www.microsoft.com/en-us/privacystatement/OnlineServices/Default.aspx)
+[Datenschutzerklärung von Microsoft](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx)
 
-[Lizenzierungsbestimmungen und-Dokumentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;amp;DocumentTypeId=31)
+[Lizenzierungsbedingungen und Dokumentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;amp;DocumentTypeId=31)

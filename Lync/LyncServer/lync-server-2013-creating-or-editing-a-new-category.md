@@ -12,20 +12,20 @@ ms:contentKeyID: 48706005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 88ca98ade04110aa2c6543e7f368d0fcd9b3e627
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fec264c0abf8b0482e451b47a0c419ffc206253d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722366"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046398"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="creating-or-editing-a-new-category-in-lync-server-2013"></a>Erstellen oder Bearbeiten einer neuen Kategorie in Lync Server 2013
+# <a name="creating-or-editing-a-new-category-in-lync-server-2013"></a>Erstellen oder Bearbeiten einer neuen Kategorie in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41722366"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-06_
+_**Letztes Änderungsstand des Themas:** 2012-10-06_
 
-Informationen zum Erstellen einer neuen Kategorie finden Sie unter [Konfigurieren von Kategorien in lync Server 2013](lync-server-2013-configure-categories.md) in der Bereitstellungsdokumentation. Wenn Sie ein beständiger Chat-Administrator sind, können Sie mithilfe der lync Server Control Panel-oder Windows PowerShell-Cmdlets Kategorien erstellen.
+Informationen zum Erstellen einer neuen Kategorie finden Sie unter [configure categories in lync Server 2013](lync-server-2013-configure-categories.md) in der Bereitstellungsdokumentation. Als Administrator für beständigen Chat können Sie Kategorien mithilfe der Cmdlets lync Server-Systemsteuerung oder Windows PowerShell erstellen.
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5608aa36a76fe59743ed8bb24e88514822a893e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 521996e17c3827b0d2c7e7796a8e95b73f805a04
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765996"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051207"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoredregionlink-table-in-lync-server-2013"></a>MonitoredRegionLink-Tabelle in Lync Server 2013
+# <a name="monitoredregionlink-table-in-lync-server-2013"></a>MonitoredRegionLink-Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41765996"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-Die Tabelle MonitoredRegionLink ist eine unterstützende Tabelle. Jeder Datensatz steht für einen Link zwischen zwei Ländern/Regionen.
+Die MonitoredRegionLink-Tabelle ist eine unterstützende Tabelle. Jeder Datensatz stellt eine Verknüpfung zwischen zwei Ländern/Regionen dar.
 
 
 <table>
@@ -59,14 +59,14 @@ Die Tabelle MonitoredRegionLink ist eine unterstützende Tabelle. Jeder Datensat
 <tr class="odd">
 <td><p><strong>Region1Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Wird in der <a href="lync-server-2013-region-table.md">Tabelle "Region" in lync Server 2013</a>referenziert.</p></td>
+<td><p>Primär, Fremd</p></td>
+<td><p>Referenziert aus der <a href="lync-server-2013-region-table.md">Region-Tabelle in lync Server 2013</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Region2Key</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Wird in der <a href="lync-server-2013-region-table.md">Tabelle "Region" in lync Server 2013</a>referenziert.</p></td>
+<td><p>Primär, Fremd</p></td>
+<td><p>Referenziert aus der <a href="lync-server-2013-region-table.md">Region-Tabelle in lync Server 2013</a>.</p></td>
 </tr>
 </tbody>
 </table>

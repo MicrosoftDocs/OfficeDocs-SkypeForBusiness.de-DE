@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anmelden bei und Verwenden von Lync 2013 auf dem virtuellen Computer'
+title: 'Lync Server 2013: anmelden und Verwenden von lync 2013 auf dem virtuellen Computer'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184318
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40c5c18c4e991c3b53e37e090e7f2d960a32f71c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e530f24150bac692717cefb2412712bf3bf8dd1c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732035"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037545"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="signing-in-and-using-lync-2013-on-the-virtual-machine"></a>Anmelden bei und Verwenden von Lync 2013 auf dem virtuellen Computer
+# <a name="signing-in-and-using-lync-2013-on-the-virtual-machine"></a>Anmelden und Verwenden von lync 2013 auf dem virtuellen Computer
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41732035"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-03_
+_**Letztes Änderungsstand des Themas:** 2012-10-03_
 
-Nachdem das VDI-Plug-in aktiviert wurde, treten die folgenden Schritte auf, wenn sich der Benutzer bei lync 2013 anmeldet.
+Nachdem das VDI-Plug-in aktiviert wurde, werden die folgenden Schritte ausgeführt, wenn sich der Benutzer bei lync 2013 anmeldet.
 
-1.  Der Benutzer gibt seine Anmeldeinformationen in den lync 2013-Client ein, der auf dem virtuellen Computer ausgeführt wird.
+1.  Der Benutzer gibt seine Anmeldeinformationen im lync 2013-Client ein, der auf dem virtuellen Computer läuft.
 
-2.  Nachdem lync die Verfügbarkeit des VDI-Plug-ins erkannt hat, fordert lync den Benutzer auf, seine Anmeldeinformationen erneut einzugeben. In diesem Dialogfeld sollten die Benutzer das Kontrollkästchen **Kennwort speichern** aktivieren, damit sie die Anmeldeinformationen bei folgenden Anmeldevorgängen nicht erneut eingeben müssen.
+2.  Nachdem lync die Verfügbarkeit des VDI-Plug-ins erkannt hat, fordert lync den Benutzer auf, seine Anmeldeinformationen erneut einzugeben. Es wird empfohlen, in diesem Dialogfeld das Kontrollkästchen **Kennwort speichern** zu aktivieren, damit der Benutzer seine Anmeldeinformationen bei folgenden Anmeldevorgängen nicht erneut eingeben muss.
 
-3.  Lync beginnt die Kopplung mit dem VDI-Plug-in. Bevor die Kopplung abgeschlossen ist, zeigt der Client zwei Symbole in der lync-Statusleiste an. Das Symbol in der unteren linken Ecke zeigt an, dass keine Audiogeräte verfügbar sind, und das blinkende Symbol in der unteren rechten Ecke zeigt an, dass die VDI-Kopplung in Bearbeitung ist (siehe Abbildung).
+3.  Lync beginnt mit dem VDI-Plug-in zu koppeln. Bevor die Kopplung abgeschlossen ist, zeigt der Client zwei Symbole in der lync-Statusleiste an. Das Symbol in der linken oberen Ecke gibt an, dass keine Audiogeräte verfügbar sind, und das blinkende Symbol unten rechts zeigt an, dass die VDI-Kopplung in Bearbeitung ist, wie in der folgenden Abbildung dargestellt:
     
     ![Lync-VDI-Symbol mit erfolgreicher Kopplung](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Lync-VDI-Symbol mit erfolgreicher Kopplung")  
 
 4.  Nach einer erfolgreichen VDI-Kopplung ändern sich die Symbole und zeigen nun das für Anrufe verwendete Audiogerät bzw. den Erfolg der VDI-Kopplung an:
     
-    ![Lync-VDI-Kopplungs Symbol mit Erfolg](images/JJ204948.57be3387-a3e5-4949-831e-f5ff9fcc5598(OCS.15).png "Lync-VDI-Kopplungs Symbol mit Erfolg")  
+    ![Lync-VDI-Paarungs Symbol mit Erfolg](images/JJ204948.57be3387-a3e5-4949-831e-f5ff9fcc5598(OCS.15).png "Lync-VDI-Paarungs Symbol mit Erfolg")  
 
-5.  Nach lync-Paaren mit dem VDI-Plug-in kann der Benutzer seine Anwesenheit auf lync-kompatiblen Geräten sehen, die mit dem lokalen Computer verbunden sind. Der Benutzer kann nun wie gewohnt Anrufe tätigen und annehmen.
+5.  Nachdem lync mit dem VDI-Plug-in paarweise zusammengepaßt hat, kann der Benutzer seine Anwesenheit auf lync-kompatiblen Geräten sehen, die mit dem lokalen Computer verbunden sind. Nun kann der Benutzer Anrufe wie gewohnt tätigen oder entgegennehmen.
 
 </div>
 

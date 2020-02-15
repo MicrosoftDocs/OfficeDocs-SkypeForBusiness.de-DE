@@ -12,16 +12,16 @@ ms:contentKeyID: 63969637
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c096edc0267501bb17870a5c018e4b6b0c513422
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d916ba2123f6a34150a9fe5c9c3977d75743dae0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745845"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037047"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745845"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-06-05_
+_**Letztes Änderungsstand des Themas:** 2014-06-05_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsKerberosAccountAssignment-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsKerberosAccountAssignment verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsKerberosAccountAssignment&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,33 +66,33 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-05_
 
 ## <a name="description"></a>Beschreibung
 
-Mit dem Cmdlet Test-CsKerberosAccountAssignment können Sie überprüfen, ob ein Kerberos-Konto einer bestimmten Website zugeordnet ist, dass dieses Konto ordnungsgemäß konfiguriert ist und dass das Konto wie erwartet funktioniert. Kerberos-Konten sind Computerkonten, die als Authentifizierungs Prinzipal für alle Computer in einer Website fungieren können, auf denen Internet Information Server (IIS) ausgeführt wird. Da diese Konten das Kerberos-Authentifizierungsprotokoll verwenden, werden die Konten als Kerberos-Konten bezeichnet, und der neue Authentifizierungsprozess wird als Kerberos-Webauthentifizierung bezeichnet. Auf diese Weise können Sie alle IIS-Server mithilfe eines einzelnen Kontos verwalten.
+Mit dem Cmdlet Test-CsKerberosAccountAssignment können Sie sicherstellen, dass einem bestimmten Standort ein Kerberos-Konto zugeordnet ist, dass dieses Konto ordnungsgemäß konfiguriert ist und dass das Konto wie erwartet funktioniert. Bei Kerberos-Konten handelt es sich um Computerkonten, die als Authentifizierungs Prinzipal für alle Computer an einem Standort dienen können, auf dem Internet Information Server (IIS) verwendet wird. Da diese Konten das Kerberos-Authentifizierungsprotokoll verwenden, werden die Konten als Kerberos-Konten bezeichnet, und der neue Authentifizierungsprozess wird als Kerberos-Webauthentifizierung bezeichnet. Auf diese Weise können Sie alle IIS-Server mithilfe eines einzigen Kontos verwalten.
 
-Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg425938(v=OCS.15)) .
+Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15)) .
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Standardmäßig werden in Test-CsKerberosAccountAssignment nur sehr wenige Ausgaben auf dem Bildschirm angezeigt. Stattdessen werden vom Cmdlet zurückgegebene Informationen in eine HTML-Datei geschrieben. Aus diesem Grund empfehlen wir, dass Sie den Verbose-Parameter und den Berichtsparameter jederzeit einfügen, wenn Sie Test-CsKerberosAccountAssignment ausführen. Der Verbose-Parameter bietet eine etwas detailliertere Ausgabe auf dem Bildschirm, während das Cmdlet ausgeführt wird. Mit dem Parameter Report können Sie einen Dateipfad und einen Dateinamen für die von Test-CsKerberosAccountAssignment generierte HTML-Datei angeben. Wenn Sie den Berichtsparameter nicht angeben, wird die HTML-Datei automatisch in Ihrem Benutzerordner gespeichert und erhält einen ähnlichen Namen wie den folgenden: ce84964a-c4da-4622-AD34-c54ff3ed361f. html.
+Standardmäßig zeigt Test-CsKerberosAccountAssignment sehr wenig Ausgabe auf dem Bildschirm an. Stattdessen werden vom Cmdlet zurückgegebene Informationen in eine HTML-Datei geschrieben. Aus diesem Grund wird empfohlen, dass Sie den Verbose-Parameter und den Report-Parameter immer dann einbeziehen, wenn Sie Test-CsKerberosAccountAssignment ausführen. Der Verbose-Parameter stellt eine etwas detailliertere Ausgabe auf dem Bildschirm bereit, während das Cmdlet ausgeführt wird. Mit dem Parameter Report können Sie einen Dateipfad und einen Dateinamen für die von Test-CsKerberosAccountAssignment generierte HTML-Datei angeben. Wenn Sie den Parameter "Report" nicht angeben, wird die HTML-Datei automatisch im Ordner "Users" gespeichert und erhält einen ähnlichen Namen wie den folgenden: ce84964a-c4da-4622-AD34-c54ff3ed361f. html.
 
-Sie müssen auch eine Websiteidentität angeben, wenn Sie Test-CsKerberosAccountAssignment ausführen. Kerberos-Konten werden im Website Bereich zugewiesen.
+Sie müssen auch eine Websiteidentität angeben, wenn Sie Test-CsKerberosAccountAssignment ausführen. Kerberos-Konten werden auf Standortebene zugewiesen.
 
-Der folgende Befehl führt Test-CsKerberosAccountAssignment aus und speichert die Ausgabe in einer Datei mit dem Namen C\\:\\Logs KerberosTest. html:
+Mit dem folgenden Befehl wird Test-CsKerberosAccountAssignment ausgeführt, und die Ausgabe wird in einer Datei mit dem\\Namen\\C: Logs KerberosTest. html gespeichert:
 
     Test-CsKerberosAccountAssignment -Identity "site:Redmond" -Report "C:\Logs\KerberosTest.html" -Verbose
 
-Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/en-us/library/Gg425938(v=OCS.15)) .
+Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsKerberosAccountAssignment](https://technet.microsoft.com/library/Gg425938(v=OCS.15)) .
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Das Cmdlet "Test-CsKerberosAccountAssignment" gibt keinen einfachen Hinweis auf Erfolg oder Fehler zurück. Stattdessen müssen Sie die generierte HTML-Datei mit Internet Explorer anzeigen.
+Das Cmdlet Test-CsKerberosAccountAssignment gibt keinen einfachen Hinweis auf Erfolg oder Fehler zurück. Stattdessen müssen Sie die generierte HTML-Datei mit Internet Explorer anzeigen.
 
 </div>
 
@@ -100,27 +100,27 @@ Das Cmdlet "Test-CsKerberosAccountAssignment" gibt keinen einfachen Hinweis auf 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Nachfolgend finden Sie einige häufige Gründe, warum Test-CsKerberosAccountAssignment möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsKerberosAccountAssignment möglicherweise fehlschlägt:
 
-  - Sie haben möglicherweise eine falsche Websiteidentität angegeben. Wenn Sie eine Liste der gültigen Websiteidentität zurückgeben möchten, verwenden Sie diesen Befehl:
+  - Möglicherweise haben Sie eine falsche Websiteidentität angegeben. Verwenden Sie diesen Befehl, um eine Liste gültiger Websiteidentität zurückzugeben:
     
         Get-CsSite | Select-Identity Identity
     
-    Eine Websiteidentität sieht in der Regel wie folgt aus:
+    Eine Websiteidentität sieht normalerweise folgendermaßen aus:
     
     Website: Redmond
 
-  - Der angegebenen Website ist möglicherweise kein Kerberos-Konto zugewiesen. Sie können feststellen, ob einem Standort ein Kerberos-Konto zugewiesen ist, indem Sie einen Befehl wie den folgenden ausführen:
+  - Der angegebenen Website ist möglicherweise kein Kerberos-Konto zugewiesen. Sie können ermitteln, ob einem Standort ein Kerberos-Konto zugewiesen ist, indem Sie einen Befehl wie den folgenden ausführen:
     
         Get-CsKerberosAccountAssignment -Identity "site:Redmond"
 
-  - Ihr Kerberos-Konto hat möglicherweise ein Kennwort, das nicht gültig ist. Wenn die folgende Fehlermeldung im Bericht angezeigt wird, müssen Sie wahrscheinlich das Kennwort für das Kerberos-Konto zurücksetzen:
+  - Ihr Kerberos-Konto verfügt möglicherweise über ein gültiges Kennwort. Wenn die folgende Fehlermeldung in Report angezeigt wird, müssen Sie wahrscheinlich das Kennwort für das Kerberos-Konto zurücksetzen:
     
     InvalidKerberosConfiguration: die Kerberos-Konfiguration ist ungültig.
     
-    InvalidKerberosConfiguration: die Kerberos-Konfiguration für ATL-cs001.litwareinc.com ist ungültig. Das erwartete zugewiesene Konto ist "litwareinc\\kerberostest. Stellen Sie sicher, dass das Konto nicht abgelaufen ist und das konfigurierte Kennwort auf dem Computer dem Active Directory-Kennwort des Kontos entspricht.
+    InvalidKerberosConfiguration: die Kerberos-Konfiguration auf ATL-cs001.litwareinc.com ist ungültig. Das erwartete zugewiesene Konto ist litwareinc\\kerberostest. Stellen Sie sicher, dass das Konto nicht abgelaufen ist und dass das konfigurierte Kennwort auf dem Computer mit dem Active Directory Kennwort des Kontos übereinstimmt.
     
-    Sie können das Kennwort mit dem Cmdlet " [Satz-CsKerberosAccountPassword](https://technet.microsoft.com/en-us/library/Gg398659(v=OCS.15)) " festlegen.
+    Sie können das Kennwort mit dem Cmdlet " [CsKerberosAccountPassword](https://technet.microsoft.com/library/Gg398659(v=OCS.15)) " festlegen.
 
 </div>
 

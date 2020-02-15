@@ -12,20 +12,20 @@ ms:contentKeyID: 48184599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3df3cbd4d71a1decc3607263f2e98b159dc29b2e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b99fd96b16d19305ea5bb63ea9f84096ef6117c7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735865"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046648"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enable-users-for-unified-contact-store-in-lync-server-2013"></a>Aktivieren von Benutzern für den einheitlichen Kontaktspeicher in Lync Server 2013
+# <a name="enable-users-for-unified-contact-store-in-lync-server-2013"></a>Aktivieren von Benutzern für den einheitlichen Kontaktspeicher in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41735865"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-07_
+_**Letztes Änderungsstand des Themas:** 2012-10-07_
 
-Wenn Sie lync Server 2013 bereitstellen und die Topologie veröffentlichen, ist der Unified Contact Store standardmäßig für alle Benutzer aktiviert. Sie müssen keine weiteren Schritte Unternehmen, um den Unified Contact Store nach der Bereitstellung von lync Server 2013 zu aktivieren. Sie können jedoch das Cmdlet " **festlegen-CsUserServicesPolicy** " verwenden, um die verfügbaren Unified Contact Store-Benutzer anzupassen. Sie können dieses Feature Global, nach Website, nach Mandanten oder nach Einzelpersonen oder Gruppen von Personen aktivieren.
+Wenn Sie lync Server 2013 bereitstellen und die Topologie veröffentlichen, ist der einheitliche Kontaktspeicher standardmäßig für alle Benutzer aktiviert. Sie müssen keine zusätzlichen Aktionen ausführen, um den einheitlichen Kontaktspeicher zu aktivieren, nachdem Sie lync Server 2013 bereitgestellt haben. Sie können jedoch das Cmdlet " **csuserservicespolicy"** "verwenden, um die Verfügbarkeit von Benutzern mit einheitlichem Kontaktspeicher anzupassen. Sie können diese Funktion Global, nach Standort, vom Mandanten oder von Einzelpersonen oder Personengruppen aktivieren.
 
 <div>
 
 ## <a name="to-enable-users-for-unified-contact-store"></a>So aktivieren Sie Benutzer für den einheitlichen Kontaktspeicher
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 2.  Führen Sie einen der folgenden Schritte aus:
     
-      - Um den Unified Contact Store für alle lync Server-Benutzer Global zu aktivieren, geben Sie in der Befehlszeile Folgendes ein:
+      - Geben Sie an der Befehlszeile Folgendes ein, um den einheitlichen Kontaktspeicher Global für alle lync Server Benutzer zu aktivieren:
         
             Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
     
-      - Um den Unified Contact Store für die Benutzer an einer bestimmten Website zu aktivieren, geben Sie in der Befehlszeile Folgendes ein:
+      - Wenn Sie den einheitlichen Kontaktspeicher für die Benutzer an einem bestimmten Standort aktivieren möchten, geben Sie in der Befehlszeile Folgendes ein:
         
             New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
         
@@ -59,7 +59,7 @@ Wenn Sie lync Server 2013 bereitstellen und die Topologie veröffentlichen, ist 
         
             New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
     
-      - Um den Unified Contact Store nach Mandanten zu aktivieren, geben Sie in der Befehlszeile Folgendes ein:
+      - Wenn Sie den einheitlichen Kontaktspeicher nach Mandant aktivieren möchten, geben Sie in der Befehlszeile Folgendes ein:
         
             Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
         
@@ -67,7 +67,7 @@ Wenn Sie lync Server 2013 bereitstellen und die Topologie veröffentlichen, ist 
         
             Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
     
-      - Wenn Sie den Unified Contact Store für bestimmte Benutzer aktivieren möchten, geben Sie in der Befehlszeile Folgendes ein:
+      - Wenn Sie den einheitlichen Kontaktspeicher für bestimmte Benutzer aktivieren möchten, geben Sie in der Befehlszeile Folgendes ein:
         
             New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
             Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">

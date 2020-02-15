@@ -1,5 +1,5 @@
 ---
-title: Federation (Planning Tool)
+title: Partnerverbund (Planungs Tool)
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,24 +12,24 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
-description: Edgeserver können so konfiguriert werden, dass Sie Ihren internen und externen Benutzern den Zugriff auf Kontakte in Partnerorganisationen oder-Diensten gestatten.
-ms.openlocfilehash: 09f525a8941714fab4d4353add5a96d2e2ed11ce
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Edgeserver können so konfiguriert werden, dass ihren internen und externen Benutzern der Zugriff auf Kontakte in Partnerorganisationen oder-Diensten ermöglicht wird.
+ms.openlocfilehash: 9a54bd99c579cc1cc1a99faf9eab18f19262e456
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816404"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037695"
 ---
-# <a name="federation-planning-tool"></a>Federation (Planning Tool)
+# <a name="federation-planning-tool"></a>Partnerverbund (Planungs Tool)
  
-Edgeserver können so konfiguriert werden, dass Sie Ihren internen und externen Benutzern den Zugriff auf Kontakte in Partnerorganisationen oder-Diensten gestatten.
+Edgeserver können so konfiguriert werden, dass ihren internen und externen Benutzern der Zugriff auf Kontakte in Partnerorganisationen oder-Diensten ermöglicht wird.
   
- Der Verbund funktioniert wie bei Microsoft lync 2013. Ausführliche Informationen zur Vorbereitung Ihrer Umgebung für den Partnerverbund finden Sie in den folgenden Themen:
+ Der Verbund funktioniert wie bei Microsoft lync 2013. Weitere Informationen zum Vorbereiten Ihrer Umgebung für den Verbund finden Sie in den folgenden Themen:
   
-- [Planen der lync Server 2013-und Office Communications Server-Föderation](https://technet.microsoft.com/en-us/library/jj205335%28v=ocs.15%29.aspx)
+- [Planung für lync Server 2013 und Office Communications Server Partnerverbund](https://technet.microsoft.com/library/jj205335%28v=ocs.15%29.aspx)
     
-- [Planen der öffentlichen Instant Messaging-Konnektivität in lync Server 2013](https://technet.microsoft.com/en-us/library/jj205349%28v=ocs.15%29.aspx)
+- [Planen der Verbindung mit öffentlichen Instant Messaging-Diensten in lync Server 2013](https://technet.microsoft.com/library/jj205349%28v=ocs.15%29.aspx)
     
-- [Planen der erweiterbaren Messaging-und Anwesenheits Protokoll (XMPP)-Föderation in lync Server 2013](https://technet.microsoft.com/en-us/library/jj205107%28v=ocs.15%29.aspx)
+- [Planen des XMPP-Verbunds (Extensible Messaging and Presence Protocol) in lync Server 2013](https://technet.microsoft.com/library/jj205107%28v=ocs.15%29.aspx)
     
 

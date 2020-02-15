@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Prüfliste für die Bereitstellung von SIP-Trunks'
+title: 'Lync Server 2013: Prüfliste für SIP-Trunk Bereitstellung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184891
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef670fc4ae9e8a9acba3277a00fc0daf6ff766b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7260397f219ad3dac8e666431693f59caf51729c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764491"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037455"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="sip-trunk-deployment-checklist-for-lync-server-2013"></a>Prüfliste für die Bereitstellung von SIP-Trunks für Lync Server 2013
+# <a name="sip-trunk-deployment-checklist-for-lync-server-2013"></a>Prüfliste für SIP-Trunk Bereitstellung für lync Server 2013
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "41764491"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Bevor Sie einen SIP-Trunk bereitstellen können, müssen Sie und Ihr Dienstanbieter einige grundlegende Verbindungsinformationen zu ihren jeweiligen SIP-Trunk-Endpunkten austauschen.
+Bevor Sie einen SIP-Trunk bereitstellen können, müssen Sie und Ihr Dienstanbieter einige grundlegende Verbindungsinformationen zu ihren jeweiligen Endpunkten des SIP-Trunks austauschen.
 
-Rufen Sie die folgenden Informationen für jedes ITSP-Gateway ab, mit dem Sie eine Verbindung herstellen:
+Für jedes ITSP-Gateway, mit dem Sie eine Verbindung herstellen, benötigen Sie die folgenden Informationen:
 
   - IP-Adresse
 
-  - Vollständig qualifizierter Domänenname (FQDN)
+  - Vollqualifizierter Domänenname (FQDN)
 
 <div>
 
 
 > [!NOTE]  
-> Der Dienstanbieter fordert Sie möglicherweise auf, mit mehr als einem ITSP-Gateway zu verbinden. In diesem Fall müssen Sie eine Verbindung zwischen jedem ITSP-Gateway und jedem Vermittlungs Server in Ihrem Pool konfigurieren.
+> Der Dienstanbieter bittet Sie möglicherweise, eine Verbindung mit mehreren ITSP-Gateways herzustellen. In diesem Fall müssen Sie eine Verbindung zwischen jedem ITSP-Gateway und jedem Vermittlungsserver in Ihrem Pool konfigurieren.
 
 
 
 </div>
 
-Die Informationen, die Sie Ihrem Dienstanbieter geben, hängen von Ihrem SIP Trunk-Verbindungstyp ab:
+Die Informationen, die Sie für Ihren Dienstanbieter bereitstellen, hängen vom Verbindungstyp Ihres SIP-Trunks ab:
 
-  - Für Multiprotocol-Label-Switching (MPLS) oder private Netzwerkverbindungen geben Sie der ITSP die öffentlich routingfähige IP-Adresse des Routers in Ihrem Umkreisnetzwerk (auch bekannt als DMZ, demilitarisierte Zone und geschirmtes Subnetz). Überprüfen Sie, ob der Gateway-oder Session Border Controller (SBC) am ITSP diese Adresse erreichen kann. Geben Sie dem ITSP auch den FQDN Ihres Vermittlungsservers.
+  - Für MPLS (Multiprotocol Label Switching)- oder private Netzwerkverbindungen stellen Sie dem ITSP die öffentlich routingfähige IP-Adresse des Routers in Ihrem Umkreisnetzwerk (auch als Demilitarized Zone, DMZ, und überwachtes Subnetz bezeichnet) bereit. Stellen Sie sicher, dass diese Adresse vom Gateway oder Session Border Controller (SBC) auf der ITSP-Seite kontaktiert werden kann. Geben Sie dem ITSP auch den FQDN ihrer Vermittlungsserver.
 
-  - Geben Sie für VPN-Verbindungen (virtuelles privates Netzwerk) der ITSP die IP-Adresse Ihres VPN-Servers ein.
+  - Für VPN-Verbindungen (Virtual Private Network) teilen Sie dem ITSP die IP-Adresse Ihres VPN-Servers mit.
 
 <div>
 
 ## <a name="certificate-considerations"></a>Überlegungen zu Zertifikaten
 
-Wenn Sie feststellen möchten, ob Sie ein Zertifikat für SIP-Trunking benötigen, erkundigen Sie sich bei Ihrem ITSP zu Protokollunterstützung:
+Fragen Sie Ihren ITSP nach den unterstützten Protokollen, um zu ermitteln, ob Sie ein Zertifikat für das SIP-Trunking benötigen:
 
-1.  Wenn Ihr ITSP nur TCP (Transmission Control Protocol) unterstützt, benötigen Sie kein Zertifikat.
+1.  Wenn Ihr ITSP nur TCP unterstützt, benötigen Sie kein Zertifikat.
 
-2.  Wenn Ihr ITSP TLS (Transport Layer Security) unterstützt, muss Ihnen der ITSP ein Zertifikat zur Verfügung stellen.
+2.  Wenn Ihr ITSP Unterstützung für TLS (Transport Layer Security) bietet, muss Ihnen der ITSP ein Zertifikat bereitstellen.
 
 <div>
 
 
 > [!NOTE]  
-> SIP funktioniert in Verbindung mit RTP (Real-Time Transport Protocol) oder SRTP (Secure Real-Time Transport Protocol), den Protokollen, die die eigentlichen Sprach Daten in VoIP-Anrufen (Voice over Internet Protocol) verwalten.
+> SIP wird mit RTP (Real-time Transport Protocol) oder SRTP (Secure Real-time Transport Protocol) eingesetzt, den Protokollen für die eigentlichen VoIP-Daten in VoIP-Anrufen.
 
 
 
@@ -87,13 +87,13 @@ Wenn Sie feststellen möchten, ob Sie ein Zertifikat für SIP-Trunking benötige
 
 ## <a name="deployment-process"></a>Bereitstellungsprozess
 
-Führen Sie die folgenden Schritte aus, um die lync Server-Seite der SIP Trunk-Verbindung zu implementieren:
+Führen Sie die folgenden Schritte aus, um die lync Server Seite der SIP-trunkverbindung zu implementieren:
 
-1.  Erstellen und konfigurieren Sie mithilfe des lync Server Topology Builder die SIP-Domänentopologie. Ausführliche Informationen finden Sie unter [definieren und Konfigurieren einer Topologie im Topologie-Generator für lync Server 2013](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md) in der Bereitstellungsdokumentation.
+1.  Erstellen und konfigurieren Sie mithilfe des lync Server Topologie-Generators die SIP-Domänentopologie. Ausführliche Informationen finden Sie unter [definieren und Konfigurieren einer Topologie im Topologie-Generator für lync Server 2013](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md) in der Bereitstellungsdokumentation.
 
-2.  Konfigurieren Sie mithilfe der lync Server-Systemsteuerung das VoIP-Routing für die neue SIP-Domäne. Ausführliche Informationen finden Sie unter [Konfigurieren von Trunks in lync Server 2013](lync-server-2013-configuring-trunks.md) in der Bereitstellungsdokumentation.
+2.  Konfigurieren Sie mithilfe der lync Server-Systemsteuerung das VoIP-Routing für die neue SIP-Domäne. Ausführliche Informationen finden Sie unter [Configuring Trunks in lync Server 2013](lync-server-2013-configuring-trunks.md) in der Bereitstellungsdokumentation.
 
-3.  Testen Sie die Konnektivität mithilfe des Cmdlets **Test-CsPstnOutboundCall** . Ausführliche Informationen finden Sie in der Dokumentation zur lync Server-Verwaltungsshell oder in der Hilfe zur lync Server-Verwaltungsshell.
+3.  Testen Sie die Konnektivität mithilfe des Cmdlets **Test-CsPstnOutboundCall**. Ausführliche Informationen finden Sie in der lync Server-Verwaltungsshell Dokumentation oder in der Hilfe zu lync Server-Verwaltungsshell.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: Überwachen, Starten und Beenden der Dienste für beständigen Chat
+title: Überwachen, starten und Beenden der Dienste für beständigen Chat
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183291
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5d6f5a80a52c4bb506240dfbdf5a28929c6f3f1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 398821ebd955c99b6da6430815062f9907b04cf9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756779"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047625"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="monitoring-starting-and-stopping-the-persistent-chat-services-in-lync-server-2013"></a>Überwachen, Starten und Beenden der Dienste für beständigen Chat in Lync Server 2013
+# <a name="monitoring-starting-and-stopping-the-persistent-chat-services-in-lync-server-2013"></a>Überwachen, starten und Beenden der Dienste für beständigen Chat in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756779"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-06_
+_**Letztes Änderungsstand des Themas:** 2012-10-06_
 
-Die beständigen Chat Dienste und die beständigen Chat-Konformitäts Dienste sind Teil der lync Server 2013-Topologie und können daher mithilfe der Windows PowerShell-Cmdlets " **Get-CsWindowsService**", " **Stop-CsWindowsService**" und " **Start-CsWindowsService**" überwacht, gestoppt und gestartet werden.
+Die Dienste für beständigen Chat und die Kompatibilitäts Dienste für beständigen Chat sind Teil der lync Server 2013 Topologie und können daher mithilfe der Cmdlets "Windows PowerShell", " **Get-CsWindowsService**", " **Stop-CsWindowsService**" und " **Start-CsWindowsService**" überwacht, angehalten und gestartet werden.
 
 </div>
 

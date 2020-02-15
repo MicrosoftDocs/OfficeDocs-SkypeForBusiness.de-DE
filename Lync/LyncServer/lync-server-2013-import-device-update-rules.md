@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Importieren von Geräte Update Regeln'
+title: 'Lync Server 2013: Importieren von geräteaktualisierungsregeln'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803967
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 872f729584f14011d18920a676c32205d38c7f62
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7c0700606966713d9828f538d37600a718dcd43
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763849"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038727"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41763849"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Geräteaktualisierungsregeln können nur mithilfe von Windows PowerShell und dem Cmdlet " **Import-CsDeviceUpdate** " importiert werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden.
+Geräteaktualisierungsregeln können nur mit Windows PowerShell und dem Cmdlet **Import-CsDeviceUpdate** importiert werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden.
 
 <div>
 
 
 > [!NOTE]  
-> Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Remote-PowerShell" unter.
+> Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>mithilfe von Remote-PowerShell" unter.
 
 
 
@@ -56,7 +56,7 @@ Geräteaktualisierungsregeln können nur mithilfe von Windows PowerShell und dem
 
 ## <a name="to-import-device-update-rules-to-a-single-web-server"></a>So importieren Sie geräteaktualisierungsregeln auf einen einzelnen Webserver
 
-  - Mit dem folgenden Befehl werden geräteaktualisierungsregeln auf den Webserver ATL-CS-001.litwareinc.com importiert:
+  - Der folgende Befehl importiert geräteaktualisierungsregeln auf den Webserver ATL-CS-001.litwareinc.com:
     
         Import-CsDeviceUpdate -Identity "service:WebServer:atl-cs-001.litwareinc.com" -FileName C:\Updates\UCUpdates.cab
 
@@ -64,15 +64,15 @@ Geräteaktualisierungsregeln können nur mithilfe von Windows PowerShell und dem
 
 <div>
 
-## <a name="to-import-device-update-rules-to-all-your-web-servers"></a>So importieren Sie geräteaktualisierungsregeln auf alle Ihre Webserver
+## <a name="to-import-device-update-rules-to-all-your-web-servers"></a>So importieren Sie geräteaktualisierungsregeln auf alle Webserver
 
-  - In diesem Beispiel werden geräteaktualisierungsregeln in alle Webserver importiert, die in Ihrer Organisation bereitgestellt werden. Damit dieser Befehl funktioniert, müssen die Ordner \\ \\-\\ATL-FS-001.litwareinc.com-Updates freigegeben und allen Webservern zur Verfügung stehen.
+  - In diesem Beispiel werden geräteaktualisierungsregeln auf alle in Ihrer Organisation bereitgestellten Webserver importiert. Damit dieser Befehl funktioniert, müssen die Ordner \\ \\ATL-FS-001.litwareinc.com\\-Updates freigegeben und für alle Webserver verfügbar sein.
     
         Get-CsService -WebServer | ForEach-Object {Import-CsDeviceUpdate -Identity $_.Identity -FileName \\atl-fs-001.litwareinc.com\Updates\UCUpdates.cab}
 
 </div>
 
-Ausführliche Informationen finden Sie im Hilfethema zum Cmdlet " [Import-CsDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) ".
+Ausführliche Informationen finden Sie im Hilfethema zum [Import-CsDeviceUpdate-](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) Cmdlet.
 
 </div>
 
@@ -81,7 +81,7 @@ Ausführliche Informationen finden Sie im Hilfethema zum Cmdlet " [Import-CsDevi
 ## <a name="see-also"></a>Siehe auch
 
 
-[Anzeigen von Informationen zu Geräte Update Regeln in lync Server 2013](lync-server-2013-view-information-about-device-update-rules.md)  
+[Anzeigen von Informationen zu geräteaktualisierungsregeln in lync Server 2013](lync-server-2013-view-information-about-device-update-rules.md)  
 [Genehmigen einer geräteaktualisierungsregel in lync Server 2013](lync-server-2013-approve-a-device-update-rule.md)  
   
 

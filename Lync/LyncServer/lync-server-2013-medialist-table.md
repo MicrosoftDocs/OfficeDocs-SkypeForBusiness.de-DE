@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: MediaList-Tabelle'
+title: 'Lync Server 2013: medialist-Tabelle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183579
 ms.date: 07/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b92c8a0a6957eed00cf4e25f60ce2e0ff24d1fd2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6fe16e903a1dfbc958336dca68903ca80770995d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762993"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42039489"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="medialist-table-in-lync-server-2013"></a>MediaList-Tabelle in Lync Server 2013
+# <a name="medialist-table-in-lync-server-2013"></a>Medialist-Tabelle in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41762993"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2016-07-12_
+_**Letztes Änderungsstand des Themas:** 2016-07-12_
 
 Die MediaList-Tabelle ist eine statische Tabelle, in der die Liste der verschiedenen Medientypen gespeichert ist.
 
@@ -57,19 +57,19 @@ Die MediaList-Tabelle ist eine statische Tabelle, in der die Liste der verschied
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>MediaId</strong></p></td>
+<td><p><strong>Mediaid</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Primary</p></td>
 <td><p>Werte: 1-7</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Media</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>Medien</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
-<td><p>Statische Zuordnung von MediaID- und Media-Werten</p>
+<td><p>Statische Zuordnung von Medien-und Medien Werten:</p>
 <ul>
-<li><p>1 – im</p></li>
-<li><p>2 - Dateiübertragung</p></li>
+<li><p>1 – Chat</p></li>
+<li><p>2 – Dateiübertragung</p></li>
 <li><p>3 – Remoteunterstützung</p></li>
 <li><p>4 – Anwendungsfreigabe</p></li>
 <li><p>5 – Audio</p></li>
@@ -81,7 +81,7 @@ Die MediaList-Tabelle ist eine statische Tabelle, in der die Liste der verschied
 </table>
 
 
-Wenn Sie versuchen, den Modalitätstyp für die Werte in LcsCDR.SessionDetailsView.MediaTypes zu bestimmen, müssen Sie das folgende Join-Snippet verwenden: 
+Wenn Sie den modaltyp für die Werte in LcsCDR. SessionDetailsView. mediatypes zu bestimmen ermitteln möchten, müssen Sie den folgenden Join-Codeausschnitt verwenden:
 
     LEFT JOIN on Media.MediaId = MediaList.MediaId
 

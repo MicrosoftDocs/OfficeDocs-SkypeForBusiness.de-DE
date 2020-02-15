@@ -12,16 +12,16 @@ ms:contentKeyID: 63969606
 ms.date: 07/07/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fcf6679481d4f35a457eb72960a8ae999b004d3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 45781238f7fb8aa461e050f2e8f0cbf04e45a950
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745825"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038177"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745825"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2016-07-07_
+_**Letztes Änderungsstand des Themas:** 2016-07-07_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2016-07-07_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein und über Administrator Rechte für SQL Server verfügen.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des <strong>Test-CsDatabase-</strong> Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein und über Administrator Rechte für den SQL Server verfügen.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets <strong>Test-CsDatabase</strong> verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDatabase&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,27 +66,27 @@ _**Letztes Änderungsdatum des Themas:** 2016-07-07_
 
 ## <a name="description"></a>Beschreibung
 
-Das Cmdlet **Test-CsDatabase** überprüft die Konnektivität mit einer oder mehreren lync Server 2013-Datenbanken. Beim Ausführen liest das Cmdlet **Test-CsDatabase** die lync Server-Topologie, versucht, eine Verbindung mit relevanten Datenbankenherzustellen, und gibt dann den Erfolg oder Misserfolg jedes einzelnen Versuchs zurück. Wenn eine Verbindung hergestellt werden kann, meldet das Cmdlet auch Informationen wie den Datenbanknamen, die SQL Server-Versionsinformationen und den Speicherort aller installierten Spiegeldatenbanken zurück.
+Das Cmdlet **Test-CsDatabase** überprüft die Konnektivität mit einer oder mehreren lync Server 2013 Datenbanken. Bei der Ausführung liest das Cmdlet **Test-CsDatabase** die lync Server Topologie, versucht, eine Verbindung mit relevanten Datenbankenherzustellen, und meldet dann den Erfolg oder das Fehlschlagen der einzelnen Versuche zurück. Wenn eine Verbindung hergestellt werden kann, meldet das Cmdlet auch Informationen wie Datenbankname, SQL Server-Version und den Ort der installierten Spiegeldatenbanken.
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Der in Beispiel 1 gezeigte Befehl überprüft die Konfiguration der zentralen Verwaltungsdatenbank.
+Der Befehl im ersten Beispiel dient zum Überprüfen der Konfiguration der zentralen Verwaltungsdatenbank.
 
     Test-CsDatabase -CentralManagementDatabase
 
-Beispiel 2 überprüft alle lync Server-Datenbanken, die auf dem Computer ATL-SQL-001.litwareinc.com installiert sind.
+In Beispiel 2 werden alle auf dem Computer ATL-SQL-001.litwareinc.com installierten lync Server Datenbanken überprüft.
 
     Test-CsDatabase -ConfiguredDatabases -SqlServerFqdn "atl-sql-001.litwareinc.com"
 
-In Beispiel 3 wird die Überprüfung nur für die auf dem Computer ATL-SQL-001.litwareinc.com installierte Archivierungsdatenbank durchgeführt. Beachten Sie, dass der SqlInstanceName-Parameter enthalten ist, um die SQL Server-Instanz (Archinst) anzugeben, in der sich die Archivierungsdatenbank befindet.
+Im dritten Beispiel wird nur die auf dem Computer "atl-sql-001.litwareinc.com" installierte Archivierungsdatenbank überprüft. Beachten Sie, dass der Parameter "SqlInstanceName" verwendet wird, um die SQL Server-Instanz ("Archinst") anzugeben, in der sich die Archivierungsdatenbank befindet.
 
     Test-CsDatabase -DatabaseType "Archiving" -SqlServerFqdn "atl-sql-001.litwareinc.com" -SqlInstanceName "archinst"
 
-Der in Beispiel 4 angezeigte Befehl überprüft die auf dem lokalen Computer installierten Datenbanken.
+Mit dem Befehl in Beispiel 4 werden die auf dem lokalen Computer installierten Datenbanken überprüft.
 
     Test-CsDatabase -LocalService
 
@@ -94,11 +94,11 @@ Der in Beispiel 4 angezeigte Befehl überprüft die auf dem lokalen Computer ins
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn die Datenbankverbindung ordnungsgemäß konfiguriert ist, erhalten Sie eine ähnliche Ausgabe, wobei die Eigenschaft erfolgreich als **wahr**markiert ist:
+Wenn die Datenbankverbindung ordnungsgemäß konfiguriert ist, erhalten Sie eine ähnliche Ausgabe, wobei die Succeed-Eigenschaft mit **true**gekennzeichnet ist:
 
-SqlServerFqdn: ATL-SQL-001.litwareinc.com
+Sqlserverfqdn "nicht: ATL-SQL-001.litwareinc.com
 
 SqlInstanceName: RTC
 
@@ -118,7 +118,7 @@ InstalledVersion
 
 Erfolgreich: true
 
-SqlServerFqdn: ATL-SQL-001.litwareinc.com
+Sqlserverfqdn "nicht: ATL-SQL-001.litwareinc.com
 
 SqlInstanceName: RTC
 
@@ -138,9 +138,9 @@ InstalledVersion
 
 Erfolgreich: true
 
-Wenn die Datenbank richtig konfiguriert ist, aber weiterhin verfügbar ist, wird das Feld erfolgreich als **falsch**angezeigt, und es werden weitere Warnungen und Informationen bereitgestellt:
+Wenn die Datenbank ordnungsgemäß konfiguriert ist, aber weiterhin verfügbar ist, wird das Feld erfolgreich als **false**angezeigt, und es werden zusätzliche Warnungen und Informationen bereitgestellt:
 
-SqlServerFqdn: ATL-SQL-001.litwareinc.com
+Sqlserverfqdn "nicht: ATL-SQL-001.litwareinc.com
 
 SqlInstanceName: RTC
 
@@ -158,9 +158,9 @@ ExpectedVersion : 10.13.2
 
 InstalledVersion
 
-Erfolgreich: falsch
+Erfolgreich: false
 
-SqlServerFqdn: ATL-CS-001.litwareinc.com
+Sqlserverfqdn "nicht: ATL-CS-001.litwareinc.com
 
 SqlInstanceName: RTC
 
@@ -178,11 +178,11 @@ ExpectedVersion: 3.1.1
 
 InstalledVersion
 
-Erfolgreich: falsch
+Erfolgreich: false
 
-Warnung: bei Test-CsDatabase sind Fehler aufgetreten. Konsultieren Sie die Protokolldatei für eine
+Warnung: bei Test-CsDatabase sind Fehler aufgetreten. Konsultieren Sie die Protokolldatei für einen
 
-detaillierte Analyse und um sicherzustellen, dass alle Fehler (2) und Warnungen (0) behandelt werden
+detaillierte Analyse und sicherstellen, dass alle Fehler (2) und Warnungen (0) adressiert werden
 
 bevor Sie fortfahren.
 
@@ -198,9 +198,9 @@ Warnung: detaillierte Ergebnisse finden Sie unter
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Nachfolgend finden Sie einige häufige Gründe, warum **Test-CsDatabase** möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, warum das **Testen von CsDatabase** möglicherweise fehlschlägt:
 
-  - Es wurde ein falscher Parameterwert angegeben. Wenn die optionalen Parameter verwendet werden, müssen Sie ordnungsgemäß konfiguriert sein, oder der Test schlägt fehl. Führen Sie den Befehl ohne die optionalen Parameter erneut aus, und überprüfen Sie, ob dies erfolgreich war.
+  - Ein falscher Parameterwert wurde angegeben. Wenn die optionalen Parameter verwendet werden, müssen Sie ordnungsgemäß konfiguriert sein, oder der Test kann nicht ausgeführt werden. Führen Sie den Befehl ohne die optionalen Parameter erneut aus, und überprüfen Sie, ob dies erfolgreich ist.
 
   - Dieser Befehl schlägt fehl, wenn die Datenbank falsch konfiguriert oder noch nicht bereitgestellt wurde.
 
@@ -211,7 +211,7 @@ Nachfolgend finden Sie einige häufige Gründe, warum **Test-CsDatabase** mögli
 ## <a name="see-also"></a>Siehe auch
 
 
-[Get-CsDatabaseMirrorState](https://docs.microsoft.com/powershell/module/skype/Get-CsDatabaseMirrorState)  
+[Get-csdatabasemirrorstate "](https://docs.microsoft.com/powershell/module/skype/Get-CsDatabaseMirrorState)  
 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
 [Get-CsUserDatabaseState](https://docs.microsoft.com/powershell/module/skype/Get-CsUserDatabaseState)  
   

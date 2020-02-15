@@ -1,5 +1,5 @@
 ---
-title: Installieren der lync Server 2013-Core-Dateien und der RTCLocal-Datenbank
+title: Installieren der lync Server 2013-Hauptdateien und der RTCLocal-Datenbank
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da8f0dd1fb83c595ed444a487d0321c571a09315
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c8502e1af9ddb607c25ed04429f6b5bb7fbfe980
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725995"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046808"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a>Installieren der lync Server 2013-Core-Dateien und der RTCLocal-Datenbank
+# <a name="installing-the-lync-server-2013-core-files-and-the-rtclocal-database"></a>Installieren der lync Server 2013-Hauptdateien und der RTCLocal-Datenbank
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41725995"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-20_
+_**Letztes Änderungsstand des Themas:** 2012-10-20_
 
-Führen Sie die folgenden Schritte aus, um die Core-Dateien von lync Server 2013 auf einem Computer zu installieren. Die RTCLocal-Datenbank wird automatisch installiert, wenn Sie die Core-Dateien installieren. Beachten Sie, dass Sie SQL Server nicht auf den Watcher-Knoten installieren müssen. Stattdessen wird SQL Server Express automatisch für Sie installiert.
+Um die lync Server 2013 Kerndateien auf einem Computer zu installieren, führen Sie das folgende Verfahren aus. Die RTCLocal-Datenbank wird automatisch bei der Installation der Hauptdateien installiert. Beachten Sie, dass Sie SQL Server nicht auf den Watcher-Knoten installieren müssen. Stattdessen wird SQL Server Express automatisch für Sie installiert.
 
-So installieren Sie die lync Server 2013-Core-Dateien und die RTCLocal-Datenbank:
+So installieren Sie die lync Server 2013 Kerndateien und die RTCLocal-Datenbank:
 
-1.  Klicken Sie auf dem Watcher-Knoten Computer auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Zubehör**, klicken Sie mit der rechten Maustaste auf **Eingabeaufforderung**, und klicken Sie dann auf **als Administrator ausführen**.
+1.  Klicken Sie auf dem Computer mit den Watcher-Knoten auf **Start**, **Alle Programme**, **Zubehör**, klicken Sie mit der rechten Maustaste auf **Eingabeaufforderung**, und klicken Sie dann auf **Als Administrator ausführen**.
 
 2.  Geben Sie im Konsolenfenster den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE, und verwenden Sie den entsprechenden Pfad zu ihren lync Server-Setupdateien:
     
         D:\Setup.exe /BootstrapLocalMgmt
 
-Um zu überprüfen, ob die zentralen lync Server-Komponenten erfolgreich installiert wurden, klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**. Geben Sie in der lync Server 2013-Verwaltungsshell den folgenden Windows PowerShell-Befehl ein, und drücken Sie dann die EINGABETASTE:
+Um sicherzustellen, dass die Kern lync Server Komponenten erfolgreich installiert wurden, klicken Sie auf **Start**, auf **Alle Programme**, auf **lync Server 2013**und dann auf **lync Server-Verwaltungsshell**. Geben Sie in der lync Server 2013 Verwaltungsshell den folgenden Windows PowerShell Befehl ein, und drücken Sie dann die EINGABETASTE:
 
     Get-CsWatcherNodeConfiguration
 
-Wenn Sie diesen Befehl zum ersten Mal ausführen, werden keine Daten zurückgegeben, da Sie noch keine Watcher-Knoten Computer konfiguriert haben. Solange der Befehl ausgeführt wird, ohne einen Fehler zurückzugeben, können Sie davon ausgehen, dass das lync Server-Setup erfolgreich abgeschlossen wurde.
+Bei der ersten Ausführung dieses Befehls werden keine Daten zurückgegeben, da noch keine Computer mit Watcher-Knoten konfiguriert wurden. Solange der Befehl ausgeführt wird, ohne dass ein Fehler zurückgegeben wird, können Sie davon ausgehen, dass das lync Server-Setup erfolgreich abgeschlossen wurde.
 
-Wenn sich Ihr Watcher-Knoten Computer in Ihrem Umkreisnetzwerk befindet, können Sie den folgenden Befehl ausführen, um die Installation von lync Server 2013 zu überprüfen:
+Wenn sich der Monitor Knoten Computer in Ihrem Umkreisnetzwerk befindet, können Sie den folgenden Befehl ausführen, um die Installation von lync Server 2013 zu überprüfen:
 
     Get-CsPinPolicy
 
-Je nach der Anzahl der für die Verwendung in Ihrer Organisation konfigurierten Richtlinien für die persönliche Identifikationsnummer (PIN) erhalten Sie Informationen ähnlich wie die folgenden:
+Sie erhalten in etwa folgende Informationen, abhängig von der Anzahl der zur Verwendung in Ihrer Organisation konfigurierten PIN-Richtlinien:
 
     Identity             : Global
     Description          :
@@ -67,7 +67,7 @@ Je nach der Anzahl der für die Verwendung in Ihrer Organisation konfigurierten 
     PINLifetime          : 0
     MaximumLogonAttempts :
 
-Wenn Sie Informationen zu Ihren PIN-Richtlinien sehen, bedeutet dies, dass Sie die Kernkomponenten erfolgreich installiert haben.
+Werden Informationen zu Ihren PIN-Richtlinien angezeigt, weist das darauf hin, dass die Hauptkomponenten erfolgreich installiert wurden.
 
 </div>
 

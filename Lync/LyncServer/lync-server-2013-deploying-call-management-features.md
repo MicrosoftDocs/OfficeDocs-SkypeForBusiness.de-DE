@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Bereitstellen von Funktionen zur Anrufverwaltung'
+title: 'Lync Server 2013: Bereitstellen von Funktionen für die Anrufverwaltung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d67e0fdae8c8936df615640e3d641a5794c7350b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 33d3c659e90f2e6603cc114f27b7d800f20a0be4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729435"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038237"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-call-management-features-in-lync-server-2013"></a>Bereitstellen von Anruf Verwaltungsfeatures in lync Server 2013
+# <a name="deploying-call-management-features-in-lync-server-2013"></a>Bereitstellen von anrufverwaltungsfunktionen in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729435"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-12-18_
+_**Letztes Änderungsstand des Themas:** 2012-12-18_
 
-Enterprise-VoIP-anrufverwaltungsfunktionen steuern, wie eingehende Anrufe weitergeleitet und beantwortet werden. Lync Server 2013 bietet die folgenden anrufverwaltungsfunktionen:
+Enterprise-VoIP-anrufverwaltungsfunktionen steuern, wie eingehende Anrufe weitergeleitet und beantwortet werden. Lync Server 2013 bietet die folgenden Funktionen für die Anrufverwaltung:
 
-  - **Park anrufen:** Ermöglicht es sprach Benutzern, einen Anruf vorübergehend zu parken und ihn dann vom gleichen Telefon oder einem anderen Telefon aus abzuwählen.
+  - **Parken von anrufen:** Ermöglicht VoIP-Benutzern das vorübergehende Parken eines Anrufs und das anschließende abholen über dasselbe Telefon oder ein anderes Telefon.
 
-  - **Gruppen Abholung:** Ermöglicht Benutzern das annehmen von Anrufen an einen anderen Benutzer, der einer Pickup-Gruppe zugewiesen ist, indem Sie die Nummer für die Anruf-Abhol Gruppe wählen.
+  - **Gruppen Abholung:** Ermöglicht Benutzern, Anrufe an einen anderen Benutzer zu beantworten, der einer Pickup-Gruppe zugewiesen ist, indem er die Nummer der Anrufannahme Gruppe wählt.
 
-  - **Reaktionsgruppe:** Leitet eingehende Anrufe an Gruppen von Agents weiter, indem Sie Sammelanschlüsse oder Fragen und Antworten zu Interaktionen (Interactive Voice Response) verwenden.
+  - **Reaktionsgruppe:** Leitet eingehende Anrufe an Gruppen von Agents mithilfe von Sammelanschlüssen oder interaktiven Sprachantwort-Fragen und-Antworten weiter.
 
-  - **Ankündigung:** Wiedergabe einer Nachricht für Anrufe an eine nicht zugewiesene Nummer oder Weiterleiten des Anrufs an einem anderen Ort oder in beiden Fällen.
+  - **Ansage:** Gibt eine Nachricht für Anrufe an, die an eine nicht zugewiesene Nummer gesendet werden, oder leitet den Anruf an einer anderen Stelle oder beides weiter.
 
 In diesem Abschnitt wird beschrieben, wie Sie diese anrufverwaltungsfunktionen während einer Enterprise-VoIP-Bereitstellung konfigurieren.
 
@@ -53,13 +53,13 @@ In diesem Abschnitt wird beschrieben, wie Sie diese anrufverwaltungsfunktionen w
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Konfigurieren des Parkens von Anrufen in Lync Server 2013](lync-server-2013-configuring-call-park.md)
+  - [Konfigurieren des Parkens von Anrufen in lync Server 2013](lync-server-2013-configuring-call-park.md)
 
-  - [Konfigurieren der Gruppenanruf Abholung in lync Server 2013](lync-server-2013-configuring-group-call-pickup.md)
+  - [Konfigurieren der gruppenanrufannahme in lync Server 2013](lync-server-2013-configuring-group-call-pickup.md)
 
-  - [Konfigurieren von Reaktionsgruppen in Lync Server 2013](lync-server-2013-configuring-response-group.md)
+  - [Konfigurieren der Reaktionsgruppe in lync Server 2013](lync-server-2013-configuring-response-group.md)
 
-  - [Konfigurieren von Ansagen für nicht zugewiesene Nummern in Lync Server 2013](lync-server-2013-configuring-announcements-for-unassigned-numbers.md)
+  - [Konfigurieren von Ankündigungen für nicht zugewiesene Nummern in lync Server 2013](lync-server-2013-configuring-announcements-for-unassigned-numbers.md)
 
 </div>
 

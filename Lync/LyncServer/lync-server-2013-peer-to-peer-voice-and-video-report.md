@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Peer-to-Peer-sprach-und Video Bericht'
+title: 'Lync Server 2013: Bericht über Peer-zu-Peer-sprach-und-Video Funktion'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68cddb8296a94ff5d5b084895024d7379a42022c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 974f403f65b494964affc4fbdc4880820ecb2db2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755285"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038657"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Peer-zu-Peer-sprach-und Video Bericht in lync Server 2013
+# <a name="peer-to-peer-voice-and-video-report-in-lync-server-2013"></a>Bericht über Peer-zu-Peer-sprach-und-Video Funktion in lync Server 2013
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41755285"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-21_
+_**Letztes Änderungsstand des Themas:** 2012-10-21_
 
-Der Bericht über Peer-to-Peer-Sprach- und -Videoaktivität bietet eine detaillierte Aufstellung der Sprach- und -Videoanrufe für einen bestimmten Zeitraum (z. B. Anrufe pro Stunde oder Anrufe pro Tag). Darüber hinaus können Sie mit diesem Bericht alle getätigten Sprach- und Videoanrufe oder aber nur die erfolgreichen bzw. fehlgeschlagenen Anrufe anzeigen. In diesem Bericht werden die Anrufinformationen in den folgenden Kategorien angezeigt:
+Der Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität bietet eine detaillierte Aufstellung der Sprach- und -Videoanrufe für einen bestimmten Zeitraum (z. B. Anrufe pro Stunde oder Anrufe pro Tag). Darüber hinaus können Sie mit diesem Bericht alle getätigten Sprach- und Videoanrufe oder aber nur die erfolgreichen bzw. fehlgeschlagenen Anrufe anzeigen. In diesem Bericht werden die Anrufinformationen in den folgenden Kategorien angezeigt:
 
   - Anrufe pro Pool
 
-  - Anrufe pro Anruftyp (beispielsweise ein lync-zu-lync-Anruf im Vergleich zu einem lync-Anruf an eine Person im PSTN-Netzwerk)
+  - Aufrufe pro Anruftyp (beispielsweise ein lync-zu-lync-Anruf im Vergleich zu einem lync-Anruf an eine Person im PSTN-Netzwerk)
 
   - Anrufe pro Zugriffstyp (beim internen Netzwerk angemeldete Benutzer bzw. beim externen Netzwerk angemeldete Benutzer)
 
-  - Anrufe pro Vermittlungs Server
+  - Anrufe pro Vermittlungsserver
 
 <div>
 
-## <a name="to-access-the-peer-to-peer-voice-and-video-report"></a>So greifen Sie auf den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität zu
+## <a name="to-access-the-peer-to-peer-voice-and-video-report"></a>So greifen Sie auf den Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität zu
 
-Auf den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität können Sie nur zugreifen, indem Sie den zusammenfassenden Bericht über Peer-to-Peer-Aktivität öffnen und dann auf die folgenden Metriken klicken:
+Auf den Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität können Sie nur zugreifen, indem Sie den zusammenfassenden Bericht über Peer-zu-Peer-Aktivität öffnen und dann auf die folgenden Metriken klicken:
 
-  - Peer-to-Peer-Audiositzungen insgesamt
+  - Peer-zu-Peer-Audiositzungen insgesamt
 
-  - Gesamtdauer der Peer-to-Peer-Audiositzungen in Minuten
+  - Gesamtdauer der Peer-zu-Peer-Audiositzung in Minuten
 
-  - Peer-to-Peer-Videositzungen insgesamt
+  - Peer-zu-Peer-Videositzungen insgesamt
 
-  - Gesamtdauer der Peer-to-Peer-Videositzungen in Minuten
+  - Gesamtdauer der Peer-zu-Peer-Videositzung in Minuten
 
 </div>
 
 <div>
 
-## <a name="to-make-the-best-use-of-the-peer-to-peer-voice-and-video-report"></a>So nutzen Sie den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität optimal
+## <a name="to-make-the-best-use-of-the-peer-to-peer-voice-and-video-report"></a>So nutzen Sie den Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität optimal
 
-Es gibt eine Reihe von Möglichkeiten, um den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität zu filtern. Diese Filteroptionen sind jedoch standardmäßig ausgeblendet. Klicken Sie zum Anzeigen der verfügbaren Filteroptionen auf die Schaltfläche **Parameter ein-/ausblenden** in der oberen rechten Ecke des Berichtfensters.
+Es gibt eine Reihe von Möglichkeiten, um den Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität zu filtern. Diese Filteroptionen sind jedoch standardmäßig ausgeblendet. Zum Anzeigen der verfügbaren Filteroptionen klicken Sie auf die Schaltfläche **Parameter ein-/ausblenden** in der oberen rechten Ecke des Berichtfensters.
 
 </div>
 
@@ -75,9 +75,9 @@ Es gibt eine Reihe von Möglichkeiten, um den Bericht über Peer-to-Peer-Sprach-
 
 ## <a name="filters"></a>Filter
 
-Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über Peer-to-Peer-Sprach- und -Videoaktivität verwenden können.
+Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität verwenden können.
 
-### <a name="peer-to-peer-voice-and-video-report-filters"></a>Filter im Bericht über Peer-to-Peer-Sprach- und -Videoaktivität
+### <a name="peer-to-peer-voice-and-video-report-filters"></a>Filter im Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität
 
 <table>
 <colgroup>
@@ -92,9 +92,9 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Von</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 Uhr</p>
+<p>07.07.2012 13:00</p>
 <p>Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
@@ -102,9 +102,9 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 <p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Bis</strong></p></td>
+<td><p><strong>Ziel</strong></p></td>
 <td><p>Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 Uhr</p>
+<p>07.07.2012 13:00:00 Uhr</p>
 <p>Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
@@ -115,18 +115,18 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 <td><p><strong>Intervall</strong></p></td>
 <td><p>Zeitintervall. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
-<li><p>Stündlich (maximal 25 Stunden können angezeigt werden)</p></li>
-<li><p>Täglich (maximal 31 Tage können angezeigt werden)</p></li>
-<li><p>Wöchentlich (maximal 12 Wochen können angezeigt werden)</p></li>
-<li><p>Monatlich (maximal 12 Monate können angezeigt werden)</p></li>
+<li><p>Stündlich (maximal 25 Stunden können angezeigt werden)</p></li>
+<li><p>Täglich (maximal 31 Tage können angezeigt werden)</p></li>
+<li><p>Wöchentlich (maximal 12 Wochen können angezeigt werden)</p></li>
+<li><p>Monatlich (maximal 12 Monate werden angezeigt)</p></li>
 </ul>
-<p>Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Wenn Sie beispielsweise das Tagesintervall mit einem Anfangstermin von 7/7/2012 und einem Enddatum von 2/28/2012 auswählen, werden die Daten für die Tage 8/7/2012 12:00 Uhr bis 9/7/2012 12:00 Uhr angezeigt (also insgesamt 31 Tage).</p></td>
+<p>Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Beispiel: Wenn Sie das Intervall Täglich mit dem Startdatum 07.08.2012 und dem Enddatum 28.09.2012 ausgewählt haben, werden Daten für die Tage 07.08.2012 12:00 Uhr bis 07.09.2012 12:00 Uhr angezeigt (d. h. Daten für insgesamt 31 Tage).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Medientyp</strong></p></td>
 <td><p>Gibt den Typ der in der Sitzung verwendeten Medien an. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
-<li><p>Both</p></li>
+<li><p>In beide Richtungen</p></li>
 <li><p>Audio</p></li>
 <li><p>Video</p></li>
 </ul></td>
@@ -135,13 +135,13 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 <td><p><strong>Anrufanordnung</strong></p></td>
 <td><p>Gibt an, ob die Sitzung erfolgreich oder fehlerhaft war. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
-<li><p>[Alle]</p></li>
+<li><p>Alle</p></li>
 <li><p>Erfolgreiche Anrufe</p></li>
 <li><p>Fehlerhafte Anrufe</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>Bericht nach</strong></p></td>
+<td><p><strong>Bericht nach:</strong></p></td>
 <td><p>Gibt die Werte an, die in dem Bericht verwendet werden sollen. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
 <li><p>Sitzungsanzahl</p></li>
@@ -156,11 +156,11 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a>Metriken für den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität nach Pool
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a>Metriken für den Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität nach Pool
 
-In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über Peer-to-Peer-Sprach- und -Videoaktivität für jeden Pool angegeben werden.
+In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität für jeden Pool angegeben werden.
 
-### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a>Metriken für den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität nach Pool
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-pool"></a>Metriken für den Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität nach Pool
 
 <table>
 <colgroup>
@@ -179,7 +179,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
 <tr class="odd">
 <td><p><strong>Pool</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Name des registrierungspools oder des Edge-Servers, der für den Anruf verwendet wird.</p></td>
+<td><p>Name des registrierungspools oder Edgeserver, der für den Anruf verwendet wird.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Datum/Uhrzeit</strong></p></td>
@@ -187,7 +187,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
 <td><p>Zeitpunkt (Datum und Uhrzeit), zu dem der Anruf stattfand.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Gesamt</strong></p></td>
+<td><p><strong>Total</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Gesamtzahl der Sitzungen bzw. Gesamtzahl der Nachrichten.</p></td>
 </tr>
@@ -199,11 +199,11 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a>Metriken für den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität nach Anruftyp
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a>Metriken für den Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität nach Anruftyp
 
-In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über Peer-to-Peer-Sprach- und -Videoaktivität für jeden Anruftyp angegeben werden.
+In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität für jeden Anruftyp angegeben werden.
 
-### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a>Metriken für den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität nach Anruftyp
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-call-type"></a>Metriken für den Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität nach Anruftyp
 
 <table>
 <colgroup>
@@ -236,7 +236,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
 <td><p>Zeitpunkt (Datum und Uhrzeit), zu dem der Anruf stattfand.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Gesamt</strong></p></td>
+<td><p><strong>Total</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Gesamtzahl der Sitzungen bzw. Gesamtzahl der Nachrichten.</p></td>
 </tr>
@@ -248,11 +248,11 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a>Metriken für den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität nach Zugriffstyp
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a>Metriken für den Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität nach Zugriffstyp
 
-In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über Peer-to-Peer-Sprach- und -Videoaktivität für jeden Netzwerkzugriffstyp angegeben werden.
+In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität für jeden Netzwerkzugriffstyp angegeben werden.
 
-### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a>Metriken für den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität nach Zugriffstyp
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-access-type"></a>Metriken für den Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität nach Zugriffstyp
 
 <table>
 <colgroup>
@@ -269,7 +269,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Aktivitätstyp</strong></p></td>
+<td><p><strong>Zugriffstyp</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Gibt an, ob die Clients am internen oder am externen Netzwerk angemeldet wurden, als der Anruf getätigt wurde. Diese Metrik hat normalerweise einen der folgenden Werte:</p>
 <ul>
@@ -284,7 +284,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
 <td><p>Zeitpunkt (Datum und Uhrzeit), zu dem der Anruf stattfand.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Gesamt</strong></p></td>
+<td><p><strong>Total</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Gesamtzahl der Sitzungen bzw. Gesamtzahl der Nachrichten.</p></td>
 </tr>
@@ -296,11 +296,11 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>Metriken für den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität nach Vermittlungsserver
+## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>Metriken für den Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität nach Vermittlungsserver
 
-In der folgenden Tabelle sind die Informationen aufgeführt, die im Peer-to-Peer-sprach-und Video Bericht für jeden Vermittlungs Server bereitgestellt werden.
+In der folgenden Tabelle sind die Informationen aufgeführt, die im Bericht über Peer-zu-Peer-sprach-und-Video Daten für jede Vermittlungsserver angegeben werden.
 
-### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>Metriken für den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität nach Vermittlungsserver
+### <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>Metriken für den Bericht über Peer-zu-Peer-Sprach- und -Videoaktivität nach Vermittlungsserver
 
 <table>
 <colgroup>
@@ -319,7 +319,7 @@ In der folgenden Tabelle sind die Informationen aufgeführt, die im Peer-to-Peer
 <tr class="odd">
 <td><p><strong>Vermittlungsserver</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Der Name des Vermittlungsservers.</p></td>
+<td><p>Name des Vermittlungsserver.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Datum/Uhrzeit</strong></p></td>
@@ -327,7 +327,7 @@ In der folgenden Tabelle sind die Informationen aufgeführt, die im Peer-to-Peer
 <td><p>Zeitpunkt (Datum und Uhrzeit), zu dem der Anruf stattfand.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Gesamt</strong></p></td>
+<td><p><strong>Total</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Gesamtzahl der Sitzungen bzw. Gesamtzahl der Nachrichten.</p></td>
 </tr>

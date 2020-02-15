@@ -1,5 +1,5 @@
 ---
-title: Installieren der lync Server-Verwaltungstools
+title: Installieren von lync Server Verwaltungstools
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733773
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 614bce64839283fd953b926e0dbab2eed3638c5f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7c12cf90e076ba66f997353dd058b0c3df8f57bc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734165"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037375"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-lync-server-administration-tools"></a>Installieren der lync Server-Verwaltungstools
+# <a name="install-lync-server-administration-tools"></a>Installieren von lync Server Verwaltungstools
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41734165"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-In diesem Thema wird beschrieben, wie Sie die Verwaltungstools installieren, die Sie zum Bereitstellen und Verwalten von lync Server 2013 verwenden müssen. Sie können die Verwaltungstools auch auf anderen Computern installieren, beispielsweise in dedizierten Verwaltungskonsolen.
+In diesem Thema wird beschrieben, wie Sie die Verwaltungstools installieren, die Sie für die Bereitstellung und Verwaltung von lync Server 2013 verwenden müssen. Sie können die Verwaltungstools auch auf anderen Computern installieren, beispielsweise auf dedizierten Verwaltungskonsolen.
 
 <div>
 
-## <a name="to-install-the-lync-server-2013-administrative-tools"></a>So installieren Sie die lync Server 2013-Verwaltungstools
+## <a name="to-install-the-lync-server-2013-administrative-tools"></a>So installieren Sie die lync Server 2013 Verwaltungstools
 
-1.  Führen Sie auf dem lync Server 2013-Front-End-Server das lync Server 2013-Setup aus.
+1.  Führen Sie im lync Server 2013 Front-End-Server lync Server 2013 Setup aus.
 
-2.  Wählen Sie auf der Seite mit dem Bereitstellungs-Assistenten von lync Server 2013 die Option **Verwaltungs Tools installieren** aus.
+2.  Wählen Sie auf der Seite lync Server 2013-Bereitstellungs-Assistenten die Option **Verwaltungs Tools installieren** aus.
     
     ![Lync Server 2013-Bereitstellungs-Assistent, Willkommensseite](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013-Bereitstellungs-Assistent, Willkommensseite")
 
@@ -56,7 +56,7 @@ In diesem Thema wird beschrieben, wie Sie die Verwaltungstools installieren, die
 ## <a name="see-also"></a>Siehe auch
 
 
-[Lync Server 2013-Verwaltungstools](lync-server-2013-lync-server-administrative-tools.md)  
+[Lync Server 2013 Verwaltungstools](lync-server-2013-lync-server-administrative-tools.md)  
   
 
 </div>

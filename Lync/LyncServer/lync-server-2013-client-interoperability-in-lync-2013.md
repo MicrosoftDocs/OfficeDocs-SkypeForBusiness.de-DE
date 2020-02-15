@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Clientinteroperabilität in Lync 2013'
+title: 'Lync Server 2013: Client Interoperabilität in lync 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b28d0de09a46a2be8b968e55c8f551e397da6ae8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dc807d65c76a1307ccd8532e644f9f9d23ffc69e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756759"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="client-interoperability-in-lync-2013"></a>Clientinteroperabilität in Lync 2013
+# <a name="client-interoperability-in-lync-2013"></a>Client Interoperabilität in lync 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756759"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2016-03-04_
+_**Letztes Änderungsstand des Themas:** 2016-03-04_
 
-In diesem Thema wird erläutert, wie Microsoft lync Server 2013-Clients mit Clients aus früheren Versionen von lync Server und Office Communications Server koexistieren und mit ihnen interagieren können.
+In diesem Thema wird erläutert, wie Microsoft lync Server 2013 Clients in früheren Versionen von lync Server und Office Communications Server nebeneinander bestehen und mit Clients interagieren können.
 
 <div>
 
 ## <a name="server-and-client-compatibility"></a>Server-und Client Kompatibilität
 
-In der folgenden Tabelle sind die unterstützten Kombinationen von Clientversionen und Server Versionen aufgeführt. Diese Tabelle gibt an, ob die Anmeldung unterstützt wird, wenn der Client versucht, eine Verbindung mit dem angegebenen Server herzustellen. Lync Server 2013 unterstützt die vorherige Client Version. Im Gegensatz zu früheren Versionen unterstützt lync Server 2010 die neuen lync 2013-Clients. Dadurch können Organisationen, die von lync Server 2010 upgraden, neue Clients unabhängig von lync Server-Upgrades bereitstellen.
+In der folgenden Tabelle ist aufgeführt, welche Kombinationen von Client- und Serverversionen unterstützt werden. Diese Tabelle gibt an, ob die Anmeldung unterstützt wird, wenn der Client versucht, eine Verbindung mit dem angezeigten Server herzustellen. Lync Server 2013 unterstützt die vorherige Client Version. Im Gegensatz zu früheren Versionen unterstützt lync Server 2010 auch die neuen lync 2013-Clients. Auf diese Weise können Organisationen, die ein Upgrade von lync Server 2010 durchführen, neue Clients unabhängig von lync Server Upgrades Ausrollen.
 
 
 <table>
@@ -70,7 +70,7 @@ In der folgenden Tabelle sind die unterstützten Kombinationen von Clientversion
 </tr>
 <tr class="even">
 <td><p>Lync 2013 Basic</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
 </tr>
@@ -82,20 +82,20 @@ In der folgenden Tabelle sind die unterstützten Kombinationen von Clientversion
 </tr>
 <tr class="even">
 <td><p>Lync 2010</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync 2010 Attendant</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync 2010-Gruppenchat</p></td>
-<td><p>Supported1</p></td>
-<td><p>Supported2</p></td>
+<td><p>Lync 2010 Gruppen Chat</p></td>
+<td><p>Unterstützt1</p></td>
+<td><p>Unterstützt2</p></td>
 <td><p>Nicht zutreffend</p></td>
 </tr>
 <tr class="odd">
@@ -105,7 +105,7 @@ In der folgenden Tabelle sind die unterstützten Kombinationen von Clientversion
 <td><p>Nicht unterstützt</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync 2010-Teilnehmer</p></td>
+<td><p>Lync 2010 Attendee</p></td>
 <td><p>Nicht Supported3</p></td>
 <td><p>Unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
@@ -113,30 +113,30 @@ In der folgenden Tabelle sind die unterstützten Kombinationen von Clientversion
 <tr class="odd">
 <td><p>Office Communicator 2007 R2</p></td>
 <td><p>Interoperable4</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 </tr>
 <tr class="even">
-<td><p>Microsoft Office Communications Server 2007 R2-Vermittlung</p></td>
+<td><p>Microsoft Office Communications Server 2007 R2 Attendant</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 </tr>
 <tr class="odd">
 <td><p>Office Communicator 2007</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Live Meeting 2007</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows Store-App für Lync</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Lync Windows Store-App</p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
 </tr>
@@ -144,15 +144,15 @@ In der folgenden Tabelle sind die unterstützten Kombinationen von Clientversion
 </table>
 
 
-Informationen zu 1Für finden Sie unter [Migration von lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppenchat zu lync Server 2013, beständiger Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md).
+Details zu 1Für finden Sie unter [Migration from lync Server 2010, Group Chat oder Office Communications Server 2007 R2 Group Chat to lync Server 2013, persistent Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md).
 
-2in Microsoft lync Server 2010, die Gruppen-Chatfunktionalität war mit dem Gruppen-Chat Server, einer vertrauenswürdigen Drittanbieteranwendung für lync Server 2010, verfügbar. Lync 2013-Clients sind nicht mit lync Server 2010, Gruppen-Chat, kompatibel.
+2in Microsoft lync Server 2010 war die gruppenchatfunktion mit dem Gruppenchat Server, einer vertrauenswürdigen Drittanbieteranwendung für lync Server 2010, verfügbar. Lync 2013 Clients sind nicht mit lync Server 2010, Gruppen Chat, kompatibel.
 
-3Lync Web App 2013 bietet nun eine vollständige Besprechungs Erfahrung, einschließlich Computer Audio und-Video, und gilt als Ersatz für lync 2010 Attendee. Lync 2010 Attendee stellt nur dann eine Verbindung mit lync Server 2013 her, wenn Sie einen nicht unterstützten Browser verwenden (Internet Explorer 6 oder Internet Explorer 7) und Windows XP.
+3Lync-Webanwendung 2013 bietet nun eine umfassende Besprechungs Erfahrung, einschließlich Computer-Audio und-Video, und gilt als Ersatz für lync 2010 Attendee. Lync 2010 Attendee stellt nur dann eine Verbindung mit lync Server 2013 her, wenn Sie einen nicht unterstützten Browser (Internet Explorer 6 oder Internet Explorer 7) und Windows XP verwenden.
 
-4Die-Anwesenheits-und Chat Features in Office Communicator 2007 R2 sind mit lync Server 2013 kompatibel, die Konferenzfeatures jedoch nicht. Während der Migration von Office Communications Server 2007 R2 eignet sich Office Communicator 2007 R2 für Anwesenheits-und Chat Interoperabilität, doch Benutzer sollten lync Web App 2013 verwenden, um an lync Server 2013-Besprechungen teilzunehmen.
+4Die-Anwesenheits-und Chat-Features in Office Communicator 2007 R2 sind mit lync Server 2013 kompatibel, die Konferenzfunktionen jedoch nicht. Während der Migration von Office Communications Server 2007 R2 ist Office Communicator 2007 R2 für die Interoperabilität von Anwesenheits-und Chatfunktionen geeignet, aber Benutzer sollten lync Web App 2013 verwenden, um lync Server 2013 Besprechungen beizutreten.
 
-5 Einschränkungen finden Sie unter "Konferenz Feature-Unterstützung für lync 2013-Clients in lync Server 2010-Besprechungen" weiter unten in diesem Thema.
+5 Informationen zu Einschränkungen finden Sie unter "Unterstützung von Konferenzfeatures für lync 2013 Clients in lync Server 2010 Besprechungen" weiter unten in diesem Thema.
 
 </div>
 
@@ -160,25 +160,25 @@ Informationen zu 1Für finden Sie unter [Migration von lync Server 2010, Gruppen
 
 ## <a name="interoperability-among-clients"></a>Interoperabilität zwischen Clients
 
-Mit der Version lync Server 2013 können verschiedene Clientversionen nahtlos in Peer-zu-Peer-und Konferenzszenarien interagieren. In diesem Abschnitt wird die Verfügbarkeit von Features erläutert, wenn Benutzer mit anderen Benutzern interagieren, die unterschiedliche Versionen von Clients und Servern verwenden.
+Mit der lync Server 2013-Version können verschiedene Clientversionen nahtlos in Peer-zu-Peer-und Konferenzszenarien interagieren. In diesem Abschnitt wird die Verfügbarkeit von Features erläutert, wenn Benutzer mit anderen Benutzern interagieren, die unterschiedliche Versionen von Clients und Servern verwenden.
 
 <div>
 
-## <a name="peer-to-peer-feature-support"></a>Unterstützung von Peer-zu-Peer-Features
+## <a name="peer-to-peer-feature-support"></a>Unterstützung von Peer-zu-Peer-Funktionen
 
-Peer-zu-Peer-Features werden für Benutzer unterstützt, die in unterschiedlichen Versionen des Servers unterschiedliche Clientversionen verwenden. Die Benutzeroberfläche und die verfügbaren Features stehen im Einklang mit den Funktionen des Benutzer Clients und der Version des Servers, bei dem der Benutzer angemeldet ist. Anders ausgedrückt:
+Peer-to-Peer-Funktionen werden für Benutzer unterstützt, die in verschiedenen Versionen des Servers verwaltet werden und unterschiedliche Clientversionen verwenden. Die Endbenutzeroberfläche und die verfügbaren Features stehen im Einklang mit den Funktionen des Clients des Benutzers und der Version des Servers, bei dem der Benutzer angemeldet ist. Anders ausgedrückt:
 
-  - Wenn ein Benutzer bei lync Server 2013 mit einem älteren Client angemeldet ist, verfügt der Benutzer über die gleiche Erfahrung, die er verwendet. Keines der neuen Features, die in lync Server 2013 eingeführt wurden, wird verfügbar sein, bis der Client des Benutzers aktualisiert wird. Beispiele sind Video Katalogansicht, HD-Video, aktualisierte PowerPoint-Freigabe und die Option zum stumm schalten aller Teilnehmer-Audio-und-Videoanrufe nach dem Besprechungseintrag. Die neuen Features werden in den [neuen Konferenzfeatures in lync Server 2013](lync-server-2013-new-conferencing-features.md) und Neuerungen [für Clients in lync Server 2013](lync-server-2013-what-s-new-for-clients.md)erläutert.
+  - Wenn ein Benutzer bei lync Server 2013 mit einem älteren Client angemeldet ist, hat der Benutzer die gleiche Erfahrung wie er verwendet wird. Keines der in lync Server 2013 eingeführten neuen Features ist verfügbar, bis der Client des Benutzers aktualisiert wird. Beispiele hierfür sind Video Galerie-Ansicht, HD-Video, aktualisierte PowerPoint-Freigabe und die Option zum stumm schalten aller Teilnehmer-Audio-und-Videodaten beim Besprechungseintrag. Die neuen Features werden in [neuen Konferenzfeatures in lync Server 2013](lync-server-2013-new-conferencing-features.md) und Neuerungen [für Clients in lync Server 2013](lync-server-2013-what-s-new-for-clients.md)erläutert.
 
-  - Wenn ein Benutzer bei lync Server 2010 mit einem lync 2013-Client angemeldet ist, stehen alle neuen Features, die nicht von lync Server 2010 unterstützt werden, erst zur Verfügung, wenn der Benutzer zu lync Server 2013 verschoben wird.
+  - Wenn ein Benutzer bei lync Server 2010 mit einem lync 2013-Client angemeldet ist, sind alle neuen Features, die nicht von lync Server 2010 unterstützt werden, erst verfügbar, wenn der Benutzer zu lync Server 2013 verschoben wird.
 
-In der folgenden Tabelle wird die Verfügbarkeit von Features in Peer-to-Peer-Sitzungen verglichen, bei denen der Client entweder bei lync Server 2013 oder lync Server 2010 angemeldet ist.
+In der folgenden Tabelle wird die Verfügbarkeit von Features in Peer-to-Peer-Sitzungen verglichen, in denen der Client entweder lync Server 2013 oder lync Server 2010 angemeldet ist.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Web App und lync 2010 Attendee sind Besprechungs reine Clients, die nicht in dieser Tabelle enthalten sind.
+> Lync Web App und lync 2010 Attendee sind Besprechungs bezogene Clients, die nicht in dieser Tabelle enthalten sind.
 
 
 
@@ -267,11 +267,11 @@ In der folgenden Tabelle wird die Verfügbarkeit von Features in Peer-to-Peer-Si
 <td><p>Ja</p></td>
 <td><p>Ja</p></td>
 <td><p>Ja</p></td>
-<td><p>Ja1</p></td>
+<td><p>Yes1</p></td>
 <td><p>Ja</p></td>
 </tr>
 <tr class="even">
-<td><p>Öffentlicher Chat (AOL, Yahoo!)</p></td>
+<td><p>Öffentliche Chatnachrichten (AOL, Yahoo!)</p></td>
 <td><p>Ja</p></td>
 <td><p>Ja</p></td>
 <td></td>
@@ -280,7 +280,7 @@ In der folgenden Tabelle wird die Verfügbarkeit von Features in Peer-to-Peer-Si
 <td></td>
 </tr>
 <tr class="odd">
-<td><p>Öffentlicher Chat (MSN, Windows Live Messenger)</p></td>
+<td><p>Öffentliche Chatnachrichten (MSN, Windows Live Messenger)</p></td>
 <td><p>Ja</p></td>
 <td><p>Ja</p></td>
 <td><p>Ja</p></td>
@@ -298,11 +298,11 @@ In der folgenden Tabelle wird die Verfügbarkeit von Features in Peer-to-Peer-Si
 > [!IMPORTANT]  
 > <UL>
 > <LI>
-> <P>Ab dem 1. September, 2012, ist die Microsoft lync Public Chat-Benutzerabonnementlizenz (PIC USL) nicht mehr für den Kauf für neue oder erneuernde Vereinbarungen verfügbar. Kunden mit aktiven Lizenzen sind in der Lage, weiterhin mit Yahoo! zu verbünden Messenger bis zum Shutdown-Datum des Diensts. Datum des Endes des Lebenszyklus von Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">unter Unterstützung für die öffentliche Instant Messenger-Konnektivität in lync Server 2013</A>.</P>
+> <P>Seit dem 1. September 2012 ist die Microsoft lync Public Chat Connectivity User Subscription License (PIC USL) nicht mehr für den Kauf für neue oder erneuerte Verträge verfügbar. Kunden mit aktiven Lizenzen können weiterhin mit Yahoo! zusammenarbeiten. Messenger bis zum Datum der Beendigung des Diensts. Ein End-of-Life-Datum vom Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for Public Instant Messenger Connectivity in lync Server 2013</A>..</P>
 > <LI>
-> <P>Bei der PIC-USL handelt es sich um eine pro Benutzer/Monat-Abonnementlizenz, die für lync Server oder Office Communications Server für die Föderation mit Yahoo! erforderlich ist. Messenger. Die Möglichkeit von Microsoft, diesen Dienst bereitzustellen, war von der Unterstützung durch Yahoo! abhängig, deren zugrunde liegende Vereinbarung nicht verlängert werden sollte.</P>
+> <P>Bei der PIC-USL handelt es sich um eine Abonnementlizenz pro Benutzer pro Monat, die für lync Server oder Office Communications Server erforderlich ist, um mit Yahoo! zu verbünden. Messenger. Die Fähigkeit von Microsoft, diesen Dienst bereitzustellen, wurde von der Unterstützung von Yahoo! abhängig gemacht, die zugrunde liegende Vereinbarung, für die nicht erneuert wird.</P>
 > <LI>
-> <P>Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen Organisationen und Personen in der ganzen Welt. Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-und Gerätelizenzen außerhalb der lync-Standard CAL erforderlich. Skype Federation wird dieser Liste hinzugefügt und ermöglicht es lync-Benutzern, Hunderte von Millionen von Personen über Chat und Sprache zu erreichen.</P></LI></UL>
+> <P>Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen verschiedenen Organisationen und mit Einzelpersonen auf der ganzen Welt. Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-/Gerätelizenzen außerhalb der lync-Standard-CAL erforderlich. Skype Federation wird dieser Liste hinzugefügt, sodass lync-Benutzer über Chat und Voice Hunderte von Millionen von Benutzern erreichen können.</P></LI></UL>
 
 
 
@@ -314,7 +314,7 @@ In der folgenden Tabelle wird die Verfügbarkeit von Features in Peer-to-Peer-Si
 
 
 > [!NOTE]  
-> Die Desktop Freigabe zwischen Office Communicator 2007 R2 und Skype for Business 2015 kann nicht vom neueren Client initiiert werden, wenn die Benutzeroberfläche des Skype for Business 2015-Clients erzwungen wird.
+> Die Desktop Freigabe zwischen Office Communicator 2007 R2 und Skype for Business 2015 kann nicht vom neueren Client initiiert werden, wenn die Skype for Business 2015 Client-Benutzeroberfläche erzwungen wird.
 
 
 
@@ -324,27 +324,27 @@ In der folgenden Tabelle wird die Verfügbarkeit von Features in Peer-to-Peer-Si
 
 <div>
 
-## <a name="conferencing-feature-support-for-lync-2013-clients-in-lync-server-2010-meetings"></a>Unterstützung von Konferenzfeatures für lync 2013-Clients in lync Server 2010-Besprechungen
+## <a name="conferencing-feature-support-for-lync-2013-clients-in-lync-server-2010-meetings"></a>Unterstützung von Konferenzfeatures für lync 2013 Clients in lync Server 2010 Besprechungen
 
-Wenn Benutzer mit einem lync 2013-Client an lync Server 2010-Besprechungen teilnehmen, können Sie mit den folgenden Ausnahmen auf lync 2013-Clientfeatures zugreifen:
+Wenn Benutzer lync Server 2010 Besprechungen mit einem lync 2013-Clientteil nehmen, haben Sie Zugriff auf lync 2013-Clientfeatures mit den folgenden Ausnahmen:
 
-  - In den Verwaltungsoptionen für **Teilnehmer** , auf die durch zeigen auf das Symbol "Personen" im Besprechungsfenster zugegriffen werden kann, funktioniert die Option **keine Besprechung im Chat** .
+  - In den Verwaltungsoptionen für **Teilnehmer** , auf die durch den Hinweis auf das Symbol Personen im Besprechungsfenster zugegriffen werden kann, funktioniert die Option **keine Besprechungs-Chat** Funktion nicht.
 
-  - Die Katalogansicht funktioniert in Videokonferenzen nicht. Der Benutzer sieht nur den aktiven Lautsprecher und nicht alle Lautsprecher. In der Liste der Optionen zum **Wählen eines Layouts** steht die **Katalogansicht** nicht zur Verfügung.
+  - Die Katalogansicht funktioniert nicht in Videokonferenzen. Der Benutzer sieht anstelle aller Lautsprecher nur den aktiven Lautsprecher. In der Liste der Optionen zum **Auswählen eines Layouts** ist die **Katalogansicht** nicht verfügbar.
 
   - Die Teilnehmerliste wird standardmäßig in Videokonferenzen angezeigt.
 
-  - Wenn Sie mit der rechten Maustaste auf einen Benutzer in der Teilnehmerliste klicken, sind die Optionen für das **Video Spotlight** und die **PIN-zu-Katalog** -Teilnehmer-Verwaltung Sperren nicht verfügbar.
+  - Wenn Sie mit der rechten Maustaste auf einen Benutzer in der Teilnehmerliste klicken, sind die Verwaltungsoptionen **Video Spotlight** und **PIN-an-Katalog** -Teilnehmerverwaltung Sperren nicht verfügbar.
 
 </div>
 
 <div>
 
-## <a name="conferencing-feature-support-in-lync-server-2013-meetings"></a>Unterstützung von Konferenzfeatures in lync Server 2013-Besprechungen
+## <a name="conferencing-feature-support-in-lync-server-2013-meetings"></a>Unterstützung von Konferenzfeatures in lync Server 2013 Besprechungen
 
-Lync Server 2013 bietet neue Konferenzfeatures, die Benutzern zur Verfügung stehen, nachdem Ihre Konten nach lync Server 2013 verschoben wurden und sich mit dem lync 2013-Client anmelden. Beispiele sind Video Katalogansicht, HD-Video, PowerPoint-Freigabe und die Option zum stumm schalten aller Teilnehmer-Audio-und-Videoanrufe nach dem Besprechungseintrag. Die neuen Features werden in den [neuen Konferenzfeatures in lync Server 2013](lync-server-2013-new-conferencing-features.md) und Neuerungen [für Clients in lync Server 2013](lync-server-2013-what-s-new-for-clients.md)erläutert.
+Lync Server 2013 stellt neue Konferenzfeatures bereit, die Benutzern zur Verfügung stehen, nachdem Ihre Konten in lync Server 2013 verschoben wurden und sich mit dem lync 2013-Client anmelden. Beispiele hierfür sind Video Galerie-Ansicht, HD-Video, PowerPoint-Freigabe und die Option zum stumm schalten aller Teilnehmer-Audio-und-Videodaten beim Besprechungseintrag. Die neuen Features werden in [neuen Konferenzfeatures in lync Server 2013](lync-server-2013-new-conferencing-features.md) und Neuerungen [für Clients in lync Server 2013](lync-server-2013-what-s-new-for-clients.md)erläutert.
 
-In lync Server 2013-Besprechungen werden bestimmte Konferenzfeatures für Benutzer unterstützt, die in unterschiedlichen Versionen des Servers verwaltet werden und unterschiedliche Clients und Clientversionen verwenden. Wenn Clients an einer lync Server 2013-Besprechung teilnehmen, haben Benutzer Zugriff auf die Features und Funktionen, die in dieser Tabelle gezeigt werden.
+In lync Server 2013 Besprechungen werden bestimmte Konferenzfeatures für Benutzer unterstützt, die in unterschiedlichen Versionen des Servers verwaltet werden und unterschiedliche Clients und Clientversionen verwenden. Wenn Clients an einer lync Server 2013 Besprechung teilnehmen, haben Benutzer Zugriff auf die in dieser Tabelle gezeigten Features und Funktionen.
 
 
 <table style="width:100%;">
@@ -369,7 +369,7 @@ In lync Server 2013-Besprechungen werden bestimmte Konferenzfeatures für Benutz
 <th>PowerPoint</th>
 <th>Dateiübertragung</th>
 <th>Whiteboard</th>
-<th>Abruf</th>
+<th>Abrufen</th>
 </tr>
 </thead>
 <tbody>
@@ -412,7 +412,7 @@ In lync Server 2013-Besprechungen werden bestimmte Konferenzfeatures für Benutz
 <td><p>Ja</p></td>
 <td><p>Ja</p></td>
 <td><p>Ja</p></td>
-<td><p>Ja3</p></td>
+<td><p>Yes3</p></td>
 <td><p>Ja</p></td>
 <td><p>Ja</p></td>
 <td><p>Ja</p></td>
@@ -434,11 +434,11 @@ In lync Server 2013-Besprechungen werden bestimmte Konferenzfeatures für Benutz
 
 1 in Office Communicator 2007 R2 steht nur die Desktopfreigabe (und nicht die Programmfreigabe) zur Verfügung.
 
-2 lync Server 2013 verwendet einen aktualisierten Mechanismus zum Hochladen von PowerPoint-Dateien. Lync Web App-Benutzer, die an einer Besprechung teilnehmen, die ursprünglich auf lync Server 2010 geplant war, können PowerPoint-Präsentationen anzeigen und darin navigieren, jedoch keine PowerPoint-Dateien hochladen.
+2 lync Server 2013 verwendet einen aktualisierten Mechanismus für das Hochladen von PowerPoint-Dateien. Lync Web App Benutzer, die einer Besprechung beitreten, die ursprünglich auf lync Server 2010 geplant war, können PowerPoint-Präsentationen anzeigen und navigieren, jedoch keine PowerPoint-Dateien hochladen.
 
-3 Wenn die Besprechung auf lync Server 2013 geplant war und PowerPoint-Folien von einem lync 2013-Client hochgeladen wurden, haben lync 2010-Benutzer nur Zugriff auf die Folien. Wenn umgekehrt die PowerPoint-Folien von einem lync 2010-Benutzer hochgeladen wurden, können lync Server 2013-Benutzer die Ansicht und Folien anzeigen und, wenn der Office Web Apps-Server konfiguriert ist, auf neue Funktionen zugreifen, beispielsweise Anzeige mit höherer Auflösung, Animationen, Folienübergänge und Eingebettetes Video. Weitere Informationen finden Sie unter [Konfigurieren der Integration in Office Web Apps Server und lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+3 Wenn die Besprechung in lync Server 2013 geplant wurde und PowerPoint-Folien von einem lync 2013-Client hochgeladen wurden, verfügen lync 2010 Benutzer über einen schreibgeschützten Zugriff auf die Folien. Wenn umgekehrt die PowerPoint-Folien von einem lync 2010-Benutzer hochgeladen wurden, können lync Server 2013 Benutzer anzeigen und Folien und, falls Office-webapps-Server konfiguriert ist, auf neue Funktionen wie höhere Auflösung, Animationen, Folienübergänge und Eingebettetes Video. Weitere Informationen finden Sie unter [Konfigurieren der Integration mit Office-webapps Server und lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
-4Die-Anwesenheits-und Chat Features in Office Communicator 2007 R2 sind mit lync Server 2013 kompatibel, die Konferenzfeatures jedoch nicht. Während der Migration von Office Communications Server 2007 R2 eignet sich Office Communicator 2007 R2 für Anwesenheits-und Chat Interoperabilität, doch Benutzer sollten lync Web App 2013 verwenden, um an lync Server 2013-Besprechungen teilzunehmen.
+4Die-Anwesenheits-und Chat-Features in Office Communicator 2007 R2 sind mit lync Server 2013 kompatibel, die Konferenzfunktionen jedoch nicht. Während der Migration von Office Communications Server 2007 R2 ist Office Communicator 2007 R2 für die Interoperabilität von Anwesenheits-und Chatfunktionen geeignet, aber Benutzer sollten lync Web App 2013 verwenden, um lync Server 2013 Besprechungen beizutreten.
 
 </div>
 
@@ -448,19 +448,19 @@ In lync Server 2013-Besprechungen werden bestimmte Konferenzfeatures für Benutz
 
 ## <a name="scheduling-add-in-support"></a>Planen der Add-in-Unterstützung
 
-Die Server Unterstützung für die verschiedenen Terminplan-Add-Ins ist mit der Kompatibilität zwischen Server-und Clientversionen konsistent. Im Allgemeinen werden die folgenden Planungs-Add-Ins in lync Server 2013 unterstützt. In früheren Versionen von Add-Ins werden jedoch keine neuen lync 2013-Add-in-Features bereitgestellt, wie beispielsweise die Option zum stumm schalten aller Teilnehmer-Audio-und-Videoanrufe nach dem Besprechungseintrag.
+Die Server Unterstützung für die unterschiedlichen Planungs-Add-Ins ist konsistent mit der Server-und Client Versionskompatibilität. Im Allgemeinen werden die folgenden Planungs-Add-Ins in lync Server 2013 unterstützt. In früheren Versionen von Add-Ins werden jedoch keine neuen lync 2013-Add-in-Features bereitgestellt, wie beispielsweise die Option zum stumm schalten aller Teilnehmer-Audio-und-Videos beim Besprechungseintrag.
 
-  - **Das Online Besprechungs-Add-in für lync 2013**   bietet dieselben Funktionen wie das Online Besprechungs-Add-in für lync 2010 mit dem Hinzufügen von Steuerelementen für Teilnehmer-stumm Schaltungen, mit denen Besprechungsorganisatoren Konferenzen planen können, bei denen die Teilnehmer Audio und Videostandard mäßig stumm geschaltet sind. Administratoren können die Besprechungseinladungen des Unternehmens auch anpassen, indem Sie ein benutzerdefiniertes Logo, eine Support-URL, eine URL zur rechtlichen Verzichtserklärung oder einen benutzerdefinierten Fußzeilentext hinzufügen.
+  - **Das Online-Besprechungs-Add-in für lync 2013**   bietet dieselben Features wie das Online-Besprechungs-Add-in für lync 2010, wobei die Teilnehmer-stumm Schaltungs Steuerelemente hinzugefügt werden, mit deren Hilfe Besprechungsorganisatoren Konferenzen planen können, für die die Teilnehmer-Audio und-Videostandard mäßig stumm geschaltet sind. Administratoren können die Besprechungseinladungen der Organisation auch anpassen, indem Sie ein benutzerdefiniertes Logo, eine Support-URL, eine URL für einen rechtlichen Haftungsausschluss oder benutzerdefinierter Fußzeilentext hinzufügen.
 
-  - **Das Online Besprechungs-Add-in für lync 2010**   bietet Zeitplanung für lync-Besprechungen und entfernt die Möglichkeit zum Planen von Office Live Meeting-Konferenzen.
+  - **Das Online-Besprechungs-Add-in für lync 2010**   bietet Zeitpläne für lync-Besprechungen und entfernt die Möglichkeit, Office Live Meeting Konferenzen zu planen.
 
-  - **Das Office Communicator 2007 R2 Conferencing-Add-in**   bietet Terminplanung für Office Live Meeting-Konferenzen und Office Communicator 2007 R2-Konferenzen. 
+  - **Office Communicator 2007 R2 Konferenz-Add-in**   bietet Zeitplanung für Office Live Meeting Konferenzen und Office Communicator 2007 R2 Konferenzen. 
 
 <div>
 
 
 > [!NOTE]  
-> Live Meeting-Konferenzen können auf lync Server 2013 nicht geplant werden.
+> Live Meeting Konferenzen können nicht für lync Server 2013 geplant werden.
 
 
 
@@ -476,7 +476,7 @@ Die Server Unterstützung für die verschiedenen Terminplan-Add-Ins ist mit der 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Terminplanungs-Client</th>
+<th>Planen des Clients</th>
 <th>Lync Server 2013</th>
 <th>Lync Server 2010</th>
 <th>Office Communications Server 2007 R2</th>
@@ -484,27 +484,27 @@ Die Server Unterstützung für die verschiedenen Terminplan-Add-Ins ist mit der 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Online Besprechungs-Add-in für lync 2013 (kann mit Office 2013, Outlook 2010 und Outlook 2007 verwendet werden)</p></td>
+<td><p>Online-Besprechungs-Add-in für lync 2013 (kann mit Office 2013, Outlook 2010 und Outlook 2007 verwendet werden)</p></td>
 <td><p>Unterstützt</p></td>
-<td><p>Unterstützt (neue Add-in-Features sind nicht verfügbar)</p></td>
+<td><p>Unterstützt (neue Add-in-Features nicht verfügbar)</p></td>
 <td><p>Nicht unterstützt</p></td>
 </tr>
 <tr class="even">
-<td><p>Lync 2013 Web Scheduler</p></td>
+<td><p>Lync 2013-Webplaner</p></td>
 <td><p>Unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
 </tr>
 <tr class="odd">
-<td><p>Onlinebesprechungs-Add-In für Lync 2010</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Online-Besprechungs-Add-in für lync 2010</p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 <td><p>Nicht unterstützt</p></td>
 </tr>
 <tr class="even">
 <td><p>Office Communicator 2007 R2-Konferenz-Add-in</p></td>
 <td><p>Nicht unterstützt</p></td>
-<td><p>Unterstützt </p></td>
+<td><p>Unterstützt</p></td>
 <td><p>Unterstützt</p></td>
 </tr>
 </tbody>
@@ -515,11 +515,11 @@ Die Server Unterstützung für die verschiedenen Terminplan-Add-Ins ist mit der 
 
 <div>
 
-## <a name="support-for-joining-meetings"></a>Unterstützung für die Teilnahme an Besprechungen
+## <a name="support-for-joining-meetings"></a>Unterstützung für den Beitritt zu Besprechungen
 
-Alle Clients, die von lync Server 2013 unterstützt werden, dürfen an lync 2013-Besprechungen teilnehmen. Da es sich bei lync Web App um eine Webkomponente des Servers handelt, wird in den Fällen, in denen lync Web App für die Teilnahme an einer lync Server 2013-Besprechung verwendet wird, immer die neuere Version von lync Web App verwendet.
+Alle von lync Server 2013 unterstützten Clients dürfen lync 2013 Besprechungen beitreten. Da lync Web App eine Webkomponente des Servers ist, wird in Fällen, in denen lync Web App für den Beitritt zu einer lync Server 2013 Besprechung verwendet wird, die neuere Version von lync Web App immer verwendet.
 
-Lync 2013-Clients können an Besprechungen teilnehmen, die in lync 2010 und Office Communications Server 2007 R2 mit skalierten Funktionen gehostet werden. In-Meeting-Features sind durch die Version des Servers, auf dem die Besprechung gehostet wird, limitiert.
+Lync 2013 Clients können Besprechungen, die auf lync 2010 gehostet werden, und Office Communications Server 2007 R2 mit heruntergestuften Funktionen verbinden. In-Meeting-Features sind durch die Version des Servers, auf dem die Besprechung gehostet wird, limitiert.
 
 </div>
 
@@ -529,8 +529,8 @@ Lync 2013-Clients können an Besprechungen teilnehmen, die in lync 2010 und Offi
 
 
 [Lync Windows Store-App-Anforderungen für lync Server 2013](lync-server-2013-lync-windows-store-app-requirements.md)  
-[Neue Konferenzfunktionen in Lync Server 2013](lync-server-2013-new-conferencing-features.md)  
-[Neue Funktionen für Clients in Lync Server 2013](lync-server-2013-what-s-new-for-clients.md)  
+[Neue Konferenzfeatures in lync Server 2013](lync-server-2013-new-conferencing-features.md)  
+[Neuerungen für Clients in lync Server 2013](lync-server-2013-what-s-new-for-clients.md)  
   
 
 </div>

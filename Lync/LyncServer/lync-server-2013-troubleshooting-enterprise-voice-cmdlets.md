@@ -12,16 +12,16 @@ ms:contentKeyID: 48183697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 499da8c727237a581af55e56aec3517a7a427e44
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8ef88ac7a55480df050719fa1a85a056df8a02ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745035"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046508"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,68 +35,68 @@ ms.locfileid: "41745035"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-20_
+_**Letztes Änderungsstand des Themas:** 2012-06-20_
 
-Das Einrichten von Enterprise-VoIP im Rahmen Ihrer Microsoft lync Server 2013-Implementierung umfasst das Erstellen von Routen, Richtlinien und Regeln, die alle zusammenarbeiten müssen, um sicherzustellen, dass eingehende und ausgehende Anrufe wie erwartet abgeschlossen werden. Die lync Server-Verwaltungsshell umfasst Cmdlets, die zum Testen von Verbindungen und Pfaden sowie zur Behandlung von Problemen, die während der Implementierung auftreten können, verwendet werden können.
+Das Einrichten von Enterprise-VoIP im Rahmen Ihrer Microsoft lync Server 2013 Implementierung umfasst das Erstellen von Routen, Richtlinien und Regeln, die alle zusammenarbeiten müssen, um sicherzustellen, dass eingehende und ausgehende Anrufe wie erwartet abgeschlossen werden. Lync Server-Verwaltungsshell enthält Cmdlets, die zum Testen von Verbindungen und Pfaden sowie zur Behandlung von Problemen, die während der Implementierung auftreten können, verwendet werden können.
 
 <div>
 
-## <a name="troubleshooting-enterprise-voice-cmdlets"></a>Problembehandlung bei Enterprise-VoIP-Cmdlets
+## <a name="troubleshooting-enterprise-voice-cmdlets"></a>Cmdlets für die Problembehandlung von Enterprise-VoIP
 
-Die folgenden Cmdlets können verwendet werden, um Enterprise-VoIP-Verbindungen zu testen und zu beheben.
+Die folgenden Cmdlets können für das Testen von Enterprise-VoIP-Verbindungen sowie für die Problembehandlung eingesetzt werden.
 
-**Problembehandlung bei Enterprise-VoIP-Cmdlets**
-
-  - <span></span>  
-    [Get-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398815(v=OCS.15))
+**Cmdlets für die Problembehandlung von Enterprise-VoIP**
 
   - <span></span>  
-    [Remove-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398804(v=OCS.15))
+    [Get-CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398815(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsVoiceConfiguration](https://technet.microsoft.com/en-us/library/Gg398967(v=OCS.15))
+    [Remove-CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398804(v=OCS.15))
+
+  - <span></span>  
+    [Gruppe-CsVoiceConfiguration](https://technet.microsoft.com/library/Gg398967(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412957(v=OCS.15))
+    [Get-csvoicetestconfiguration getestet](https://technet.microsoft.com/library/Gg412957(v=OCS.15))
 
   - <span></span>  
-    [Neu – CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398961(v=OCS.15))
+    [New-csvoicetestconfiguration getestet](https://technet.microsoft.com/library/Gg398961(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg412813(v=OCS.15))
+    [Remove-csvoicetestconfiguration getestet](https://technet.microsoft.com/library/Gg412813(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398614(v=OCS.15))
+    [Gruppe-csvoicetestconfiguration getestet](https://technet.microsoft.com/library/Gg398614(v=OCS.15))
 
   - <span></span>  
-    [Test-CsVoiceTestConfiguration](https://technet.microsoft.com/en-us/library/Gg398260(v=OCS.15))
+    [Test-csvoicetestconfiguration getestet](https://technet.microsoft.com/library/Gg398260(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsDialPlan](https://technet.microsoft.com/en-us/library/Gg399024(v=OCS.15))
+    [Test-CsDialPlan](https://technet.microsoft.com/library/Gg399024(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsVoiceNormalizationRule](https://technet.microsoft.com/en-us/library/Gg399003(v=OCS.15))
+    [Test-CsVoiceNormalizationRule](https://technet.microsoft.com/library/Gg399003(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsVoicePolicy](https://technet.microsoft.com/en-us/library/Gg398310(v=OCS.15))
+    [Test-CsVoicePolicy](https://technet.microsoft.com/library/Gg398310(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsVoiceRoute](https://technet.microsoft.com/en-us/library/Gg425873(v=OCS.15))
+    [Test-CsVoiceRoute](https://technet.microsoft.com/library/Gg425873(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsVoiceUser](https://technet.microsoft.com/en-us/library/Gg413013(v=OCS.15))
+    [Test-CsVoiceUser](https://technet.microsoft.com/library/Gg413013(v=OCS.15))
 
 </div>
 

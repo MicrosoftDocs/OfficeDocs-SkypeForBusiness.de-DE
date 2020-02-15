@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Orts basiertes Routing und beratende Anruf Übertragungen'
+title: 'Lync Server 2013: standortbasiertes Routing und beratende Anruf Übertragungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 56335089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e433baf180b8e4abf50ec374848204bf6628eb0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a72ddbba79bf0de777c8567164475ab573d09a2c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765333"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046788"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="location-based-routing-and-consultative-call-transfers-in-lync-server-2013"></a>Übertragungen von standortbasierten Routing-und beratenden anrufen in lync Server 2013
+# <a name="location-based-routing-and-consultative-call-transfers-in-lync-server-2013"></a>Standortbasiertes Routing und Anrufweiterleitung in lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41765333"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-07-31_
+_**Letztes Änderungsstand des Themas:** 2013-07-31_
 
-Neben der Durchsetzung von Standort basiertem Routing zu lync-Besprechungen erzwingt die standortbasierte Routing Konferenz Anwendung standortbasierte Routing Einschränkungen für beratende Anruf Übertragungen, die an PSTN-Endpunkte abtreten. Bei einer beratenden Anrufübertragung handelt es sich um einen Anruf zwischen zwei Parteien, bei dem eine der Parteien den Anruf an einen neuen Nutzer übermittelt. Ein PSTN-Endpunkt ruft beispielsweise Benutzer a (lync-aufgerufener) auf. Benutzer A bestimmt, dass der PSTN-Benutzer an Benutzer B weitergeleitet werden soll (lync-Benutzer). Der Benutzer A platziert den Anruf mit dem PSTN-Benutzer in Wartestellung und ruft Benutzer b an, der sich mit dem PSTN-Benutzer unterhalten möchte. Benutzer a übergibt den Anruf in Wartestellung an Benutzer B.
+Zusätzlich zum Erzwingen eines standortbasierten Routings für lync-Besprechungen erzwingt die standortbasierte Routing Konferenz Anwendung standortbasierte Routing Einschränkungen für Anrufe, die an PSTN-Endpunkten austreten. Bei einer beratenden Anrufweiterleitung handelt es sich um einen Anruf zwischen zwei Parteien, bei dem eine der Parteien den Anruf an einen neuen Benutzer überträgt. Ein PSTN-Endpunkt ruft beispielsweise Benutzer a (lync-angerufener) auf. Benutzer A bestimmt, dass der PSTN-Benutzer an Benutzer B (lync-Benutzer) weitergeleitet werden soll. Benutzer a platziert den Anruf mit dem PSTN-Benutzer in der Warteschleife und ruft Benutzer b an, der mit dem PSTN-Benutzer zu sprechen akzeptiert. Der Benutzer a übergibt den Anruf einhalten an Benutzer B.
 
-**Anruffluss bei einer Anrufdurchstellung mit Ankündigung**
+**Anruffluss für Anrufweiterleitung mit beratender Funktion**
 
-![Standortbasiertes Routing für Konferenzen (Diagramm)](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "Standortbasiertes Routing für Konferenzen (Diagramm)")
+![Standortbasiertes Routing für Konferenz Diagramm](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "Standortbasiertes Routing für Konferenz Diagramm")
 
-Wenn ein für standortbasiertes Routing aktivierter Benutzer eine beratende Anrufübertragung eines PSTN-Endpunkts initiiert (wie in der vorhergehenden Abbildung dargestellt), werden zwei aktive Anrufe, ein Anruf zwischen dem PSTN-Benutzer und dem lync-Benutzer a und der andere zwischen lync-Benutzer a und lync-Benutzer B erstellt. Das folgende Verhalten wird von der standortbasierten Routing Konferenz Anwendung erzwungen:
+Wenn ein Benutzer, der für standortbasiertes Routing aktiviert ist, eine beratende Anrufweiterleitung eines PSTN-Endpunkts initiiert (wie in der obigen Abbildung dargestellt), werden zwei aktive Anrufe, ein Anruf zwischen dem PSTN-Benutzer und dem lync-Benutzer a und der andere zwischen lync-Benutzer a und lync-Benutzer B erstellt. Das folgende Verhalten wird von der standortbasierten Routing Konferenz Anwendung erzwungen:
 
-  - Wenn das SIP Trunk-Routing des PSTN-Anrufs autorisiert ist, den PSTN-Anruf an die Netzwerk Website weiterzuleiten, auf der sich der lync-Benutzer B (also das Übertragungsziel) befindet, wird die Anrufübertragung zugelassen. Andernfalls wird die Übertragung von beratenden anrufen blockiert. Diese Autorisierung erfolgt auf der Grundlage des Standorts der übertragenen Partei, die sich am gleichen Netzwerkstandort wie der SIP-Stamm befindet, der den aktiven Anruf an den PSTN-Endpunkt weiterleitet.
+  - Wenn das SIP-Trunk Routing der PSTN-Anruf autorisiert ist, den PSTN-Anruf an den Netzwerkstandort weiterzuleiten, auf dem sich der lync-Benutzer B (also das Übertragungsziel) befindet, wird die Anrufweiterleitung zugelassen. Andernfalls wird die beratende Anrufweiterleitung blockiert. Diese Autorisierung wird basierend auf dem Standort des übertragenen Teilnehmers am gleichen Netzwerkstandort wie der SIP-Trunk ausgeführt, der den aktiven Anruf an den PSTN-Endpunkt weiterleitet.
 
-  - Wenn der SIP-Trunk-Routing der eingehende PSTN-Anruf nicht autorisiert ist, Anrufe an die Netzwerk Website weiterzuleiten, auf der sich die übertragene Partei (lync-Benutzer B) befindet oder sich die übertragene Partei an einer unbekannten Netzwerk Website befindet, wird die beratende Anrufübertragung an das PSTN durchgeführt. Endpunkt (dh Anrufübergabe Ziel) wird blockiert.
+  - Wenn das SIP-Trunk Routing der eingehende PSTN-Anruf nicht zum Weiterleiten von Anrufen an den Netzwerkstandort autorisiert ist, auf dem sich der übermittelte Teilnehmer (lync User B) befindet oder sich der übertragene Teilnehmer an einem unbekannten Netzwerkstandort befindet, wird die Anrufweiterleitung an das PSTN weitergeleitet. Endpunkt (dh Anruf Übertragungsziel) wird blockiert.
 
-In der folgenden Tabelle wird beschrieben, wie standortbasierte Routing Einschränkungen von der standortbasierten Routing Konferenz Anwendung für Beratenden Anruf Übertragungen angewendet werden. Zwar sind Nebenstellenanlagenendgeräte nicht direkt einem Netzwerkstandort zugewiesen, aber die SIP-Vermittlungsleitung, an die die jeweilige Nebenstellenanlage angeschlossen ist, kann einem Netzwerkstandort zugewiesen sein. Daher kann ein Nebenstellenanlagenendgerät indirekt einem Netzwerkstandort zugewiesen sein.
+In der folgenden Tabelle wird beschrieben, wie standortbasierte Routing Einschränkungen von der standortbasierten Routing Konferenz Anwendung für beratende Anruf Übertragungen angewendet werden. Obwohl PBX-Endpunkte keinem Netzwerkstandort direkt zugeordnet sind, kann dem SIP-Trunk, mit dem die Nebenstellenanlage verbunden ist, ein Netzwerkstandort zugewiesen werden. Daher kann der PBX-Endpunkt indirekt einem Netzwerkstandort zugeordnet werden.
 
 
 <table>
@@ -60,69 +60,69 @@ In der folgenden Tabelle wird beschrieben, wie standortbasierte Routing Einschr�
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Netzwerkstandort des Teilnehmers, dessen Anruf durchgestellt wird</p></td>
-<td><p>Netzwerk Website des Anruf Weiterleitungs Ziels</p></td>
+<td><p>Netzwerkstandort der Anruf übertragenden Partei</p></td>
+<td><p>Netzwerkstandort des Anruf Übertragungs Ziels</p></td>
 <td><p>Verhalten</p></td>
 </tr>
 <tr class="even">
-<td><p>Endpunkt im öffentlichen Telefonnetz</p></td>
-<td><p>Lync-Benutzer an derselben Netzwerk Website (also Website 1)</p></td>
-<td><p>Eine beratende Übertragung ist zulässig.</p></td>
+<td><p>PSTN-Endpunkt</p></td>
+<td><p>Lync-Benutzer am gleichen Netzwerkstandort (also Standort 1)</p></td>
+<td><p>Beratende Übertragung wird zugelassen</p></td>
 </tr>
 <tr class="odd">
-<td><p>Endpunkt im öffentlichen Telefonnetz</p></td>
+<td><p>PSTN-Endpunkt</p></td>
 <td><p>Lync-Benutzer an verschiedenen Netzwerkstandorten (also Standort 2)</p></td>
-<td><p>Eine beratende Übertragung ist nicht zulässig.</p></td>
+<td><p>Die beratende Übertragung wird nicht zugelassen.</p></td>
 </tr>
 <tr class="even">
-<td><p>Endpunkt im öffentlichen Telefonnetz</p></td>
-<td><p>Lync-Benutzer in einer unbekannten Netzwerk Website</p></td>
-<td><p>Eine beratende Übertragung ist nicht zulässig.</p></td>
+<td><p>PSTN-Endpunkt</p></td>
+<td><p>Lync-Benutzer an einem unbekannten Netzwerkstandort</p></td>
+<td><p>Die beratende Übertragung wird nicht zugelassen.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Endpunkt im öffentlichen Telefonnetz</p></td>
-<td><p>Federated lync-Benutzer</p></td>
-<td><p>Eine beratende Übertragung ist nicht zulässig.</p></td>
+<td><p>PSTN-Endpunkt</p></td>
+<td><p>Verbund-lync-Benutzer</p></td>
+<td><p>Die beratende Übertragung wird nicht zugelassen.</p></td>
 </tr>
 <tr class="even">
-<td><p>Endpunkt im öffentlichen Telefonnetz</p></td>
-<td><p>PBX-Endpunkt am gleichen Standort (also Standort 1)</p></td>
-<td><p>Eine beratende Übertragung ist zulässig.</p></td>
+<td><p>PSTN-Endpunkt</p></td>
+<td><p>Nebenstellen Endpunkt am gleichen Standort (Standort 1)</p></td>
+<td><p>Beratende Übertragung wird zugelassen</p></td>
 </tr>
 <tr class="odd">
-<td><p>Endpunkt im öffentlichen Telefonnetz</p></td>
-<td><p>PBX-Endpunkt an verschiedenen Standorten (also Standort 2)</p></td>
-<td><p>Eine beratende Übertragung ist nicht zulässig.</p></td>
+<td><p>PSTN-Endpunkt</p></td>
+<td><p>Nebenstellen Endpunkt an verschiedenen Standorten (also Standort 2)</p></td>
+<td><p>Die beratende Übertragung wird nicht zugelassen.</p></td>
 </tr>
 <tr class="even">
-<td><p>PBX-Endpunkt am gleichen Standort (also Standort 1)</p></td>
-<td><p>Endpunkt im öffentlichen Telefonnetz</p></td>
-<td><p>Eine beratende Übertragung ist zulässig.</p></td>
+<td><p>Nebenstellen Endpunkt am gleichen Standort (Standort 1)</p></td>
+<td><p>PSTN-Endpunkt</p></td>
+<td><p>Beratende Übertragung wird zugelassen</p></td>
 </tr>
 <tr class="odd">
-<td><p>PBX-Endpunkt an einer anderen Website (also Standort 2)</p></td>
-<td><p>Endpunkt im öffentlichen Telefonnetz</p></td>
-<td><p>Eine beratende Übertragung ist nicht zulässig.</p></td>
+<td><p>Nebenstellen Endpunkt an einem anderen Standort (also Standort 2)</p></td>
+<td><p>PSTN-Endpunkt</p></td>
+<td><p>Die beratende Übertragung wird nicht zugelassen.</p></td>
 </tr>
 <tr class="even">
-<td><p>PBX-Endpunkt auf einer beliebigen Website</p></td>
-<td><p>Lync-Benutzer an derselben Netzwerk Website (also Website 1)</p></td>
-<td><p>Eine beratende Übertragung ist zulässig.</p></td>
+<td><p>PBX-Endpunkt an einem beliebigen Standort</p></td>
+<td><p>Lync-Benutzer am gleichen Netzwerkstandort (also Standort 1)</p></td>
+<td><p>Beratende Übertragung wird zugelassen</p></td>
 </tr>
 <tr class="odd">
-<td><p>PBX-Endpunkt auf einer beliebigen Website</p></td>
+<td><p>PBX-Endpunkt an einem beliebigen Standort</p></td>
 <td><p>Lync-Benutzer an verschiedenen Netzwerkstandorten (also Standort 2)</p></td>
-<td><p>Eine beratende Übertragung ist zulässig.</p></td>
+<td><p>Beratende Übertragung wird zugelassen</p></td>
 </tr>
 <tr class="even">
-<td><p>PBX-Endpunkt auf einer beliebigen Website</p></td>
-<td><p>Lync-Benutzer in einer unbekannten Netzwerk Website</p></td>
-<td><p>Eine beratende Übertragung ist zulässig.</p></td>
+<td><p>PBX-Endpunkt an einem beliebigen Standort</p></td>
+<td><p>Lync-Benutzer an einem unbekannten Netzwerkstandort</p></td>
+<td><p>Beratende Übertragung wird zugelassen</p></td>
 </tr>
 <tr class="odd">
-<td><p>PBX-Endpunkt auf einer beliebigen Website</p></td>
-<td><p>Federated lync-Benutzer</p></td>
-<td><p>Eine beratende Übertragung ist zulässig.</p></td>
+<td><p>PBX-Endpunkt an einem beliebigen Standort</p></td>
+<td><p>Verbund-lync-Benutzer</p></td>
+<td><p>Beratende Übertragung wird zugelassen</p></td>
 </tr>
 </tbody>
 </table>

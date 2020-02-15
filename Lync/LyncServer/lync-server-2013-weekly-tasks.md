@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Wöchentliche Aufgaben'
+title: 'Lync Server 2013: wöchentliche Aufgaben'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969650
 ms.date: 08/20/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b973d5d69e6e4609a1dff3029b0ad0b05ec3a936
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 87d3f87b37b8c0fe29c4dee76467a9e07931551a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758495"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42041214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="weekly-tasks-in-lync-server-2013"></a>Wöchentliche Aufgaben in Lync Server 2013
+# <a name="weekly-tasks-in-lync-server-2013"></a>Wöchentliche Aufgaben in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758495"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-08-17_
+_**Letztes Änderungsstand des Themas:** 2015-08-17_
 
-Wöchentliche Aufgaben sind im Allgemeinen mit dem sammeln und Analysieren von Protokollen und Berichten verbunden.
+Wöchentliche Aufgaben beziehen sich im Allgemeinen auf das Sammeln und Analysieren von Protokollen und Berichten.
 
 <div>
 
-## <a name="archive-event-logs"></a>Archivieren von Ereignisprotokollen
+## <a name="archive-event-logs"></a>Archiv Ereignisprotokolle
 
-Wenn Ereignisprotokolle nicht so konfiguriert sind, dass Ereignisse nach Bedarf überschrieben werden, müssen Sie regelmäßig archiviert und gelöscht werden. Diese Aktion ist besonders wichtig für Sicherheitsprotokolle, die möglicherweise bei der Untersuchung von Sicherheitsverstößen erforderlich sind.
+Wenn Ereignisprotokolle nicht so konfiguriert sind, dass Ereignisse nach Bedarf überschrieben werden, müssen Sie regelmäßig archiviert und gelöscht werden. Diese Aktion ist besonders wichtig für Sicherheitsprotokolle, die bei der Untersuchung versuchter Sicherheitsverletzungen möglicherweise erforderlich sind.
 
 In Ihrer Organisation müssen Richtlinien und Verfahren für die Protokoll Archivierung definiert werden.
 
@@ -53,7 +53,7 @@ In Ihrer Organisation müssen Richtlinien und Verfahren für die Protokoll Archi
 
 ## <a name="create-reports"></a>Erstellen von Berichten
 
-Erstellen Sie Statusberichte, die Ihnen bei der Kapazitätsplanung, SLA-Bewertungen und Leistungsanalyse helfen. Verwenden Sie tägliche Daten aus dem Ereignisprotokoll und dem System Monitor, um Berichte auf Datenträger, Arbeitsspeicher und CPU-Auslastung zu erstellen. Verwenden Sie System Center Operations Manager, um Verfügbarkeits-und Verfügbarkeitsberichte zu erstellen.
+Erstellen von Statusberichten zur Unterstützung bei der Kapazitätsplanung, SLA-Überprüfungen und Leistungsanalyse. Verwenden Sie tägliche Daten aus dem Ereignisprotokoll und dem System Monitor, um Berichte zu Datenträgern, Arbeitsspeicher und CPU-Auslastung zu erstellen. Verwenden Sie System Center Operations Manager zum Generieren von Verfügbarkeits-und Verfügbarkeitsberichten.
 
 In Ihrer Organisation müssen Richtlinien und Verfahren für Statusberichte definiert werden.
 
@@ -61,31 +61,31 @@ In Ihrer Organisation müssen Richtlinien und Verfahren für Statusberichte defi
 
 <div>
 
-## <a name="incident-reports"></a>Vorfallberichte
+## <a name="incident-reports"></a>Schadensberichte
 
-Führen Sie eine wöchentliche Überprüfung der vorfallberichte Ihrer Organisation durch, die sich auf lync Server beziehen. Diese Überprüfung sollte Folgendes umfassen:
+Führen Sie eine wöchentliche Überprüfung der vorfallberichte Ihrer Organisation durch, die sich auf lync Server beziehen. Diese Überwachung sollte Folgendes umfassen:
 
-  - Die am häufigsten generierten, behobenen und ausstehenden Vorfälle.
+  - Die am häufigsten generierten, aufgelösten und ausstehenden Vorfälle.
 
   - Lösungen für ungelöste Vorfälle.
 
-  - Aktualisieren von Berichten, um neue Trouble-Tickets einzubeziehen.
+  - Aktualisieren von Berichten, um neue Trouble Tickets einzuschließen.
 
-  - Aktualisieren eines Dokument-Repositorys zur Fehlerbehebung und zur Obduktion über Ausfälle
+  - Aktualisieren eines Dokument-Repositorys für die Problem Behandlungs Anleitungen und Post mortem über Ausfälle.
 
-Da das Vorfall Überwachungssystem Ihrer Organisation eine Wahl ist, die von lync Server unabhängig ist, sind bestimmte Anweisungen oder Zeiger nicht verfügbar. Konsultieren Sie die Dokumentation für das System, das Ihre Organisation ausgewählt hat.
+Da das Vorfall Verfolgungssystem Ihrer Organisation unabhängig von lync Server ausgewählt werden kann, sind bestimmte Anweisungen oder Zeiger nicht verfügbar. Lesen Sie in der Dokumentation zu dem System, das Ihre Organisation ausgewählt hat.
 
 </div>
 
 <div>
 
-## <a name="check-iis-logs-and-performance"></a>Überprüfen von IIS-Protokollen und-Leistung
+## <a name="check-iis-logs-and-performance"></a>Überprüfen der IIS-Protokolle und-Leistung
 
-Führen Sie eine wöchentliche Überprüfung der Internet Informationsdienste (IIS)-Protokolle und-Leistung durch. Weitere Informationen zum Überwachen von IIS-Protokollen und-Leistung finden Sie unter [Übersicht über die Ereignisprotokollierung in Windows Server 2003 (IIS)](http://go.microsoft.com/fwlink/?linkid=36077). Die Überprüfung sollte Folgendes umfassen:
+Führen Sie eine wöchentliche Überprüfung der Internet Information Services (IIS) Protokolle und der Leistung durch. Weitere Informationen zum Überwachen von IIS-Protokollen und-Leistung finden Sie unter [Windows Server 2003 Internet Information Services (IIS) Ereignisprotokollierung (Übersicht](http://go.microsoft.com/fwlink/?linkid=36077)). Die Überprüfung sollte Folgendes umfassen:
 
-  - Webdienst-Cache-Leistungsindikatoren zum Überwachen des WWW-Dienst Caches.
+  - Webdienst-Cache Indikatoren zum Überwachen des WWW-Dienst Caches.
 
-  - ASP-Leistungsindikatoren (Active Server Pages) zum Überwachen von Anwendungen, die als ASP ausgeführt werden.
+  - ASP-Indikatoren (Active Server Pages) zum Überwachen von Anwendungen, die als ASP ausgeführt werden.
 
 </div>
 
@@ -103,21 +103,21 @@ Führen Sie eine wöchentliche Überprüfung der Internet Informationsdienste (I
 
 4.  Führen Sie auf der Registerkarte **Datenbank** die folgenden Aktionen aus:
     
-    1.  Wenn Sie den Namen der Datenbank anzeigen möchten, erweitern Sie **Allgemeine Einstellungen**, und zeigen Sie den Datenbanknamen an.
+    1.  Um den Namen der Datenbank anzuzeigen, erweitern Sie **Allgemeine Einstellungen**, und zeigen Sie den Datenbanknamen an.
     
-    2.  Wenn Sie die aktuellen Benutzer Zusammenfassungs Statistiken für den Pool abrufen möchten, erweitern Sie **Benutzer Zusammenfassungsberichte**, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.
+    2.  Um aktuelle Benutzer Zusammenfassungs Statistiken für den Pool abzurufen, erweitern Sie **Benutzer Zusammenfassungsberichte**, klicken Sie auf **wechseln**, und zeigen Sie die Ergebnisse an.
     
-    3.  Wenn Sie aktuelle Daten pro Benutzer für einen einzelnen Benutzer des Pools abrufen möchten, erweitern Sie **Benutzer Berichte**, geben Sie den SIP-URI des Benutzers ein, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.
+    3.  Zum Abrufen aktueller benutzerbezogener Daten für einen einzelnen Benutzer des Pools erweitern Sie **Berichte pro Benutzer**, geben Sie den SIP-URI des Benutzers ein, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.
 
-Wenn Sie aktuelle Konferenz Zusammenfassungs Statistiken für den Pool abrufen möchten, erweitern Sie **Konferenz Zusammenfassungsberichte**, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.
+Um aktuelle Konferenz Zusammenfassungs Statistiken für den Pool abzurufen, erweitern Sie **Konferenz Zusammenfassungsberichte**, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.
 
 </div>
 
 <div>
 
-## <a name="check-for-security-and-lync-server-updates"></a>Überprüfen auf Sicherheits-und lync Server-Updates
+## <a name="check-for-security-and-lync-server-updates"></a>Überprüfen der Sicherheit und lync Server Updates
 
-Identifizieren Sie alle neuen Service Packs, Hotfixes oder Updates. Testen Sie diese gegebenenfalls in einem Testlabor, und verwenden Sie die Änderungskontrollverfahren, um die Bereitstellung auf den Produktionsservern zu arrangieren. Außerdem sind Updates für lync Server-Komponenten jetzt als Teil von Windows Update verfügbar. Alle lync Server-Komponenten Updates müssen gleichzeitig auf allen Servern mit lync Server aktualisiert werden, für die die Updates gelten.
+Identifizieren Sie neue Service Packs, Hotfixes oder Updates. Testen Sie diese gegebenenfalls in einem Test Labor, und ordnen Sie die Bereitstellung auf den Produktionsservern mithilfe der Änderungskontrollverfahren an. Außerdem sind lync Server Komponenten Aktualisierungen jetzt im Rahmen von Windows Update verfügbar. Alle lync Server-Komponenten Updates müssen gleichzeitig auf allen Servern mit lync Server aktualisiert werden, für die die Updates gelten.
 
 </div>
 
@@ -125,43 +125,43 @@ Identifizieren Sie alle neuen Service Packs, Hotfixes oder Updates. Testen Sie d
 
 ## <a name="run-the-lync-server-2013-best-practice-analyzer"></a>Ausführen des lync Server 2013 Best Practice Analyzer
 
-Das lync Server 2013 Best Practices Analyzer-Tool ist ein Diagnosetool, das Konfigurationsinformationen sammelt und bestimmt, ob die Konfiguration gemäß den bewährten Methoden von Microsoft festgelegt ist. Die Dokumentation für dieses Tool finden Sie unter [lync Server 2013 Best Practices Analyzer](lync-server-2013-lync-server-best-practices-analyzer.md).
+Das lync Server 2013 Best Practices Analyzer ist ein Diagnosetool, das Konfigurationsinformationen sammelt und ermittelt, ob die Konfiguration gemäß den bewährten Methoden von Microsoft festgelegt wurde. Dokumentation zu diesem Tool finden Sie unter [lync Server 2013 Best Practices Analyzer](lync-server-2013-lync-server-best-practices-analyzer.md).
 
-Das Tool vergleicht die Konfigurationsdaten Ihrer Bereitstellung mit einer Reihe vordefinierter Regeln für lync Server und meldet potenzielle Probleme. Für jedes gemeldete Problem bietet das Tool die aktuelle Konfiguration in der lync Server-Umgebung und die empfohlene Konfiguration.
+Das Tool vergleicht die Konfigurationsdaten Ihrer Bereitstellung mit einer Reihe vordefinierter Regeln für lync Server und meldet potenzielle Probleme. Für jedes gemeldete Problem stellt das Tool die aktuelle Konfiguration in der lync Server Umgebung und die empfohlene Konfiguration bereit.
 
-Mit dem richtigen Netzwerkzugriff kann das Tool Ihre AD DS und Server untersuchen, auf denen lync Server 2013 ausgeführt wird, um folgende Aktionen auszuführen:
+Mit dem richtigen Netzwerkzugriff kann das Tool Ihre AD DS und Server untersuchen, auf denen lync Server 2013 ausführen, um folgende Aktionen auszuführen:
 
-  - Proaktive Durchführung von Integritätsprüfungen und überprüfen, ob die Konfiguration gemäß den empfohlenen bewährten Methoden festzulegen ist
+  - Proaktives durchführen von Integritätsprüfungen, überprüfen, ob die Konfiguration gemäß den empfohlenen bewährten Methoden festgelegt wurde
 
-  - Erstellen einer Liste von Problemen, beispielsweise suboptimal-Konfigurationseinstellungen oder nicht unterstützte oder nicht empfohlene Optionen
+  - Erstellen einer Liste von Problemen, beispielsweise suboptimale Konfigurationseinstellungen oder nicht unterstützte oder nicht empfohlene Optionen
 
-  - Beurteilen des allgemeinen Zustands eines Systems
+  - Beurteilen der allgemeinen Integrität eines Systems
 
-  - Hilfe zur Problembehandlung bei bestimmten Problemen
+  - Hilfe bei der Behandlung bestimmter Probleme
 
-  - Aufforderung zum Herunterladen von Updates, wenn diese verfügbar sind
+  - Aufforderung zum Herunterladen von Updates, sofern diese verfügbar sind
 
-  - Bereitstellen von Online-und lokalen Dokumentation zu gemeldeten Problemen und einbeziehen von Tipps zur Problembehandlung
+  - Bereitstellen von Online-und lokalen Dokumentationen zu gemeldeten Problemen und einschließen von Tipps zur Problembehandlung
 
-  - Generieren von Konfigurationsinformationen, die zur späteren Überprüfung erfasst werden können
+  - Generieren von Konfigurationsinformationen, die für eine spätere Überprüfung erfasst werden können
 
-Stellen Sie sicher, dass RTCBPA. msi auf allen lync Server 2013-Servern installiert ist, und erstellen Sie einen wöchentlichen Status Prüfbericht. Notieren Sie sich die Ergebnisse, und korrigieren Sie, falls erforderlich.
-
-</div>
-
-<div>
-
-## <a name="review-sla-performance-figures"></a>Überprüfen der SLA-Leistungskennzahlen
-
-Überprüfen Sie die wichtigsten Leistungsdaten für die vorherige Woche. Überprüfen Sie die Leistung mit den Anforderungen der SLA. Erkennen von Trends und Elementen, die ihre Ziele nicht erreicht haben
+Stellen Sie sicher, dass die RTCBPA. msi auf allen lync Server 2013 Servern installiert ist, und generieren Sie einen wöchentlichen Integritäts Prüfungsbericht. Notieren Sie sich die Ergebnisse und korrigieren Sie, falls erforderlich.
 
 </div>
 
 <div>
 
-## <a name="review-system-center-operations-manager-management-pack-and-quality-of-experience-reports"></a>Überprüfen von System Center Operations Manager-Management Pack und Berichte zur Qualität der Erfahrung
+## <a name="review-sla-performance-figures"></a>Überprüfen der SLA-Leistungszahlen
 
-Beziehen und überprüfen Sie das lync Server 2013-Management Pack und die Qualität der Erfahrungsberichte.
+Überprüfen Sie die wichtigsten Leistungsdaten für die vorherige Woche. Überprüfen der Leistung anhand der Anforderungen der SLA. Identifizieren von Trends und Elementen, die ihre Ziele nicht erreicht haben.
+
+</div>
+
+<div>
+
+## <a name="review-system-center-operations-manager-management-pack-and-quality-of-experience-reports"></a>Überprüfen von System Center Operations Manager Management Pack und Quality of Experience-Berichten
+
+Abrufen und überprüfen lync Server 2013 Management Packs und Quality of Experience-Berichte.
 
 </div>
 
@@ -179,17 +179,17 @@ Beziehen und überprüfen Sie das lync Server 2013-Management Pack und die Quali
 
 4.  Führen Sie auf der Registerkarte **Datenbank** die folgenden Aktionen aus:
     
-    1.  Wenn Sie den Namen der Datenbank anzeigen möchten, erweitern Sie **Allgemeine Einstellungen**, und zeigen Sie den Datenbanknamen an.
+    1.  Um den Namen der Datenbank anzuzeigen, erweitern Sie **Allgemeine Einstellungen**, und zeigen Sie den Datenbanknamen an.
     
-    2.  Wenn Sie die aktuellen Benutzer Zusammenfassungs Statistiken für den Pool abrufen möchten, erweitern Sie **Benutzer Zusammenfassungsberichte**, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.
+    2.  Um aktuelle Benutzer Zusammenfassungs Statistiken für den Pool abzurufen, erweitern Sie **Benutzer Zusammenfassungsberichte**, klicken Sie auf **wechseln**, und zeigen Sie die Ergebnisse an.
     
-    3.  Wenn Sie aktuelle Daten pro Benutzer für einen einzelnen Benutzer des Pools abrufen möchten, erweitern Sie **Benutzer Berichte**, geben Sie den SIP-URI des Benutzers ein, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.
+    3.  Zum Abrufen aktueller benutzerbezogener Daten für einen einzelnen Benutzer des Pools erweitern Sie **Berichte pro Benutzer**, geben Sie den SIP-URI des Benutzers ein, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.
 
-Wenn Sie aktuelle Konferenz Zusammenfassungs Statistiken für den Pool abrufen möchten, erweitern Sie **Konferenz Zusammenfassungsberichte**, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.
+Um aktuelle Konferenz Zusammenfassungs Statistiken für den Pool abzurufen, erweitern Sie **Konferenz Zusammenfassungsberichte**, klicken Sie auf **Gehe**zu, und zeigen Sie die Ergebnisse an.
 
 Für jeden Enterprise-Pool können Administratoren die Registerkarte **Datenbank** verwenden, um den Datenbanknamen anzuzeigen und Berichte aus der Datenbank abzurufen und anzuzeigen.
 
-### <a name="database-reports-and-descriptions"></a>Datenbankberichte und Beschreibungen
+### <a name="database-reports-and-descriptions"></a>Datenbankberichte und-Beschreibungen
 
 <table>
 <colgroup>
@@ -198,7 +198,7 @@ Für jeden Enterprise-Pool können Administratoren die Registerkarte **Datenbank
 </colgroup>
 <thead>
 <tr class="header">
-<th>Abschnittsüberschrift</th>
+<th>Abschnitt</th>
 <th>Beschreibung</th>
 </tr>
 </thead>
@@ -207,22 +207,22 @@ Für jeden Enterprise-Pool können Administratoren die Registerkarte **Datenbank
 <td><p>Benutzer Zusammenfassungsberichte</p></td>
 <td><p>Dbanalyze/v/Report: diag [/SQLServer: Wert]</p>
 <p>In diesem Abschnitt werden aggregierte Informationen zu Benutzern in einem Pool angezeigt, beispielsweise die Anzahl der aktivierten Benutzer, die durchschnittliche Anzahl der Kontakte pro Benutzer und die Anzahl der Benutzer für bestimmte Features.</p>
-<p>Wenn Sie diese Berichte verwenden, können die folgenden Informationen hilfreich sein:</p>
+<p>Wenn Sie diese Berichte verwenden, sind die folgenden Informationen möglicherweise hilfreich:</p>
 <ul>
-<li><p>Ein aktivierter Benutzer ist ein Benutzer, der mit dem Snap-in Active Directory-Benutzer und-Computer für lync Server 2013 aktiviert ist.</p></li>
+<li><p>Ein aktivierter Benutzer ist ein Benutzer, der mithilfe des Snap-Ins Active Directory Benutzer und Computer für lync Server 2013 aktiviert ist.</p></li>
 <li><p>Ein aktiver Benutzer ist ein Benutzer, der sich angemeldet oder registriert hat.</p></li>
-<li><p>Die Zusammenfassungsberichte bieten auch eine Reihe von statistischen Informationen zu Kontakten. Diese Statistiken gelten nur für die Bevölkerung von Benutzern, die sich mindestens einmal angemeldet haben und die mindestens einen Kontakt haben. Daher wird normalerweise keine minimale Anzahl von Kontakten von 0 angezeigt. Wenn ein Benutzer über keine Kontakte verfügt (aber aktiv ist, in dem sich der Benutzer registriert hat), wird möglicherweise für einige Statistik &lt;Felder&gt; leer angezeigt:</p></li>
+<li><p>Die zusammenfassenden Berichte bieten auch eine Reihe von statistischen Informationen über Kontakte. Diese Statistiken sind nur für die Auffüllung von Benutzern gültig, die sich mindestens einmal angemeldet haben und die mindestens einen Kontakt haben. Folglich wird normalerweise keine Mindestanzahl von Kontakten von 0 angezeigt. Wenn ein Benutzer über keine Kontakte verfügt (aber aktiv ist, in dem der Benutzer registriert ist), wird aufgrund dieses Verhaltens möglicherweise Folgendes &lt;angezeigt&gt; : Empty für einige Statistikfelder.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Berichte pro Benutzer</p></td>
 <td><p>Dbanalyze/v/Report: Datenträger [/SQLServer: Wert]</p>
-<p>Im Gegensatz zu den Zusammenfassungsberichten, die über eine Benutzerpopulation berechnet werden, handelt es sich um Berichte über einen bestimmten Benutzer.</p></td>
+<p>Im Gegensatz zu den Zusammenfassungsberichten, die für eine Benutzer Auffüllung berechnet werden, handelt es sich um Berichte über einen bestimmten Benutzer.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Konferenz Zusammenfassungsberichte</p></td>
 <td><p>Dbanalyze/v/Report: conf [/SQLServer: Wert]</p>
-<p>In diesem Abschnitt werden aggregierte Informationen zu Konferenz Zusammenfassungs Statistiken für den Pool angezeigt, beispielsweise die Anzahl aktiver Konferenzen und die Gesamtzahl der Teilnehmer.</p></td>
+<p>In diesem Abschnitt werden aggregierte Informationen zu Konferenz Zusammenfassungs Statistiken für den Pool angezeigt, beispielsweise die Anzahl der aktiven Konferenzen und die Gesamtzahl der Teilnehmer.</p></td>
 </tr>
 </tbody>
 </table>
@@ -232,33 +232,33 @@ Für jeden Enterprise-Pool können Administratoren die Registerkarte **Datenbank
 
 <div>
 
-## <a name="running-bandwidth-utilization-analyzer"></a>Ausführen von Bandbreiten Auslastungsanalyse
+## <a name="running-bandwidth-utilization-analyzer"></a>Ausführung des Bandbreiten Auslastungsanalyse Programms
 
-Bandwidth Utilization Analyzer ist ein Tool, das Berichte über verschiedene Ansichten des Bandbreitenverbrauchs durch die UC-Endpunkte über WAN-Verbindungen im Unternehmensnetzwerk erstellt. Diese Berichte können verwendet werden, um das aktuelle Muster der Bandbreitennutzung zu verstehen und bei der Planung der Bandbreitenkapazität zu helfen. Das Tool durchläuft außerdem die Bandbreitenkapazität, die verschiedenen Verbindungen zugewiesen ist.
+Bandwidth Auslastung Analyzer ist ein Tool, das Berichte über verschiedene Ansichten der Bandbreitennutzung durch die UC-Endpunkte über WAN-Verbindungen im Unternehmensnetzwerk erstellt. Diese Berichte können verwendet werden, um das aktuelle Muster der Bandbreitennutzung zu verstehen und die Planung der Bandbreitenkapazität zu unterstützen. Außerdem wird die Bandbreitenkapazität durchlaufen, die verschiedenen Links zugewiesen ist.
 
-Das Tool bietet folgende Funktionen:
+Dieses Tool führt folgende Schritte aus:
 
-  - Generiert bestimmte Berichte für die audionutzung über das Netzwerk
+  - Generiert spezifische Berichte für die audionutzung über das Netzwerk.
 
-  - Hilfe bei einer effektiveren Kapazitätsplanung und Iteration der Bandbreitenkapazität, die verschiedenen Verbindungen zugewiesen ist
+  - Hilft bei der effektiveren Kapazitätsplanung und Iteration der Bandbreitenkapazität, die verschiedenen Links zugeordnet ist.
 
-Der Bandbreiten Auslastungs Analysator kann grafische Plots von Bandbreiten Kapazitäts-und Nutzungsberichten generieren. Sie sind wie folgt:
+Bandbreiten Auslastungsanalyse kann grafische Plots von Bandbreitenkapazität und Nutzungsberichten generieren. Sie sind wie folgt:
 
   - Alle WAN-Verbindungen im Unternehmensnetzwerk
 
-  - Gefiltert nach ausgewählten WAN-Links, die ausgewählt wurden
+  - Gefiltert nach ausgewählten WAN-Verbindungen, die ausgewählt wurden
 
-  - Gefiltert nach WAN-Verbindungen, die die Verbindungskapazität überschritten haben
+  - Gefiltert nach WAN-Verbindungen, die die Link Kapazität überschritten haben
 
-  - Gefiltert nach WAN-Links, die die bereitgestellte Bandbreite unter Verwenden
+  - Gefiltert nach WAN-Verbindungen, die die bereitgestellte Bandbreite unter Verwenden
 
-  - Filtern nach WAN-Links, die kritische Ebenen erreichen (eine Bandbreitennutzung, die größer als 90 Prozent der Bandbreitenkapazität der WAN-Verbindung ist)
+  - Filtern nach WAN-Verbindungen, die kritische Ebenen erreicht haben (Bandbreitenauslastung von mehr als 90% der Bandbreitenkapazität der WAN-Verbindung)
 
-  - Nach WAN-Verknüpfungstyp gefiltert – Netzwerk-Standort-Links, interregionale Links und Links innerhalb einer Website
+  - Gefiltert nach WAN-Linktyp – Netzwerkstandort Verknüpfungen, interregionale Links und Links innerhalb eines Standorts
 
-  - Gefiltert nach Netzwerkregion
+  - Gefiltert nach netzwerkregion
 
-Die Dokumentation zu diesem Tool finden Sie in der [Dokumentation zur lync Server 2013 Resource Kit-Tools](http://go.microsoft.com/fwlink/?linkid=623245).
+Dokumentation zu diesem Tool finden Sie in der [Dokumentation zum lync Server 2013 Resource Kit-Tools](http://go.microsoft.com/fwlink/?linkid=623245).
 
 </div>
 
@@ -267,7 +267,7 @@ Die Dokumentation zu diesem Tool finden Sie in der [Dokumentation zur lync Serve
 ## <a name="see-also"></a>Siehe auch
 
 
-[Checkliste für wöchentliche Aufgaben](lync-server-2013-operations-checklists.md)  
+[Prüfliste für wöchentliche Aufgaben](lync-server-2013-operations-checklists.md)  
   
 
 </div>

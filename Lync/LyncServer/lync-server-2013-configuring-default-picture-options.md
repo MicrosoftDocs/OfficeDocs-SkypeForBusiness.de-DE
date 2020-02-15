@@ -12,16 +12,16 @@ ms:contentKeyID: 56280893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e551d069da9a3afb7a884c28096dd97ab3702539
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 912bf3c2c30474755fbefd7399f110ae898fc104
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758149"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046428"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41758149"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-22_
+_**Letztes Änderungsstand des Themas:** 2013-03-22_
 
-Standardmäßig werden die Bilder der Benutzer automatisch angezeigt. Wenn Benutzer Ihre Bilder ausblenden möchten, können Sie die Option " **mein Bild ausblenden** " im lync-Client auswählen. Diese Einstellung wird jedoch von einigen anderen Office-Anwendungen ignoriert.
+Standardmäßig werden die Bilder von Benutzern automatisch angezeigt. Wenn Benutzer Ihre Bilder ausblenden möchten, können Sie die Option " **meine Grafik ausblenden** " im lync-Client auswählen. Diese Einstellung wird jedoch von einigen anderen Office-Anwendungen ignoriert.
 
-Wenn die Möglichkeit zum Anzeigen von Bildern, auch wenn Sie vom Benutzer deaktiviert werden, problematisch ist, können Sie die Einstellungen für die lync-Bildanzeige Global oder für eine Website oder einen Dienst ändern, damit die Bilder der Benutzer nicht standardmäßig angezeigt werden. Verwenden Sie das folgende Cmdlet der lync Server-Verwaltungsshell, damit die Bilder des Benutzers nur angezeigt werden, wenn Sie die Option " **mein Bild anzeigen** " im Client explizit auswählen:
+Wenn die Möglichkeit zum Anzeigen von Bildern auch beim Ausschalten durch den Benutzer ein Problem ist, können Sie die Einstellungen für die lync-Bildanzeige Global oder für eine Website oder einen Dienst ändern, sodass die Bilder der Benutzer standardmäßig nicht angezeigt werden. Verwenden Sie das folgende lync Server-Verwaltungsshell-Cmdlet, damit die Bilder des Benutzers nicht angezeigt werden, es sei denn, Sie wählen explizit die Option " **eigenes Bild anzeigen** " im Client aus:
 
     Set-CsPrivacyConfiguration -DisplayPublishedPhotoDefault $False
 
-Weitere Informationen zu diesem Cmdlet finden Sie in der Dokumentation zur lync Server-Verwaltungsshell unter [CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPrivacyConfiguration) .
+Weitere Informationen zu diesem Cmdlet finden Sie in der Dokumentation zu " [CsPrivacyConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsPrivacyConfiguration) " in der lync Server-Verwaltungsshell.
 
 </div>
 

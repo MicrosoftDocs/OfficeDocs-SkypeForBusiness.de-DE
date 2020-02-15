@@ -12,20 +12,20 @@ ms:contentKeyID: 48184399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f77c860d58ecc391298b88f4e1855ddd80199d8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71f507f35d8fe616617a2782840cfcf41719ed45
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757429"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038027"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-simple-url-details-in-lync-server-2013"></a>Anzeigen von einfachen URL-Details in lync Server 2013
+# <a name="view-simple-url-details-in-lync-server-2013"></a>Anzeigen von Details zu einfachen URLs in lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41757429"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-11_
+_**Letztes Änderungsstand des Themas:** 2012-10-11_
 
-Sie können die lync Server 2013-Systemsteuerung verwenden, um einfache URL-Details für Ihre lync Server 2013-Umgebung anzuzeigen. Einfache URLs erleichtern Benutzern die Teilnahme an Besprechungen und erleichtern Administratoren den Zugriff auf Verwaltungstools. Ausführliche Informationen finden Sie unter [Planen einfacher URLs in lync Server 2013](lync-server-2013-planning-for-simple-urls.md).
+Sie können lync Server 2013 Systemsteuerung verwenden, um einfache URL-Details für Ihre lync Server 2013 Umgebung anzuzeigen. Über einfache URLs können Benutzer leichter an Konferenzen teilnehmen und Administratoren einfacher zu Verwaltungstools gelangen. Ausführliche Informationen finden Sie unter [Planning for Simple URLs in lync Server 2013](lync-server-2013-planning-for-simple-urls.md).
 
 <div>
 
-## <a name="to-view-simple-url-details"></a>So zeigen Sie einfache URL-Details an
+## <a name="to-view-simple-url-details"></a>So zeigen Sie Details der einfachen URL an
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle „CsServerAdministrator“, „CsAdministrator“, „CsHelpDesk“ oder „CsViewOnlyAdministrator“ zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an. Details zu den vordefinierten Administratorrollen, die in lync Server 2013 zur Verfügung stehen, finden Sie unter [Planen der rollenbasierten Zugriffssteuerung in lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).
+1.  Melden Sie sich über ein Benutzerkonto, das der CsServerAdministrator-, CsAdministrator-, "cshelpdesk"-oder CsViewOnlyAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an. Ausführliche Informationen zu den in lync Server 2013 verfügbaren vordefinierten Administratorrollen finden Sie unter [Planning for Role-Based Access Control in lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md).
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Topologie** , und klicken Sie dann auf **einfache URL**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Einfache URL**.
 
-4.  Klicken Sie auf der Seite **einfache URL** auf eine Spaltenüberschrift, um die Liste bei Bedarf zu sortieren.
+4.  Klicken Sie auf der Seite **Einfache URL** auf eine Spaltenüberschrift, um die Liste ggf. zu sortieren.
 
-5.  Wählen Sie den Namen aus, für den Sie einfache URL-Details anzeigen möchten, und klicken Sie dann auf **Eigenschaften**.
+5.  Wählen Sie den Namen aus, für den Sie die Details zur einfachen URL anzeigen möchten, und klicken Sie auf **Eigenschaften**.
 
-6.  Wenn Sie alle Details angezeigt haben, klicken Sie auf **Schließen**.
+6.  Wenn Sie mit der Anzeige der Details fertig sind, klicken Sie auf **Schließen**.
 
 </div>
 
@@ -62,7 +62,7 @@ Sie können die lync Server 2013-Systemsteuerung verwenden, um einfache URL-Deta
 ## <a name="see-also"></a>Siehe auch
 
 
-[Verwalten der Lync Server 2013-Topologie](lync-server-2013-managing-the-lync-server-topology.md)  
+[Verwalten der lync Server 2013 Topologie](lync-server-2013-managing-the-lync-server-topology.md)  
   
 
 </div>

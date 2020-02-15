@@ -12,20 +12,20 @@ ms:contentKeyID: 48185137
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a262cab2145013d83cdae573d98b5db17e0e890
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 326a428003a7836adef588942765909b753124ce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734775"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040964"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-supported-client-versions-in-lync-server-2013"></a>Konfigurieren von unterstützten Clientversionen in lync Server 2013
+# <a name="configuring-supported-client-versions-in-lync-server-2013"></a>Konfigurieren unterstützter Clientversionen in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41734775"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-12-14_
+_**Letztes Änderungsstand des Themas:** 2012-12-14_
 
-In lync Server 2013 können Sie clientversionsrichtlinien einrichten, um die Versionen der Clients anzugeben, die in Ihrer Umgebung unterstützt werden. Darüber hinaus können Sie die globale Client Versions Konfiguration verwenden, um eine Standardaktion für Clients anzugeben, für die noch keine Versionsrichtlinie definiert ist und daher nicht explizit unterstützt oder eingeschränkt wird.
+In lync Server 2013 können Sie clientversionsrichtlinien einrichten, um die Versionen von Clients anzugeben, die in Ihrer Umgebung unterstützt werden. Darüber hinaus können Sie mithilfe der globalen Clientversionskonfiguration eine Standardaktion für Clients angeben, für die noch keine Versionsrichtlinie definiert ist und die deshalb nicht explizit unterstützt oder eingeschränkt werden.
 
-Sie können auch clientversionsrichtlinien verwenden, um Clientupdates zu verwalten. Wenn Sie eine clientversionsrichtlinie festlegen und die Optionen **zulassen und aktualisieren** sowie **blockieren und aktualisieren**verwenden, erhalten Clients aktualisierte Software vom Windows Server Update-Dienst (wenn Sie diesen Dienst verwenden) oder von Microsoft Update.
+Sie können auch mithilfe von Clientversionsrichtlinien Clientupdates verwalten. Wenn Sie eine Clientversionsrichtlinie festlegen und die Optionen **Zulassen und Upgrade** und **Blockieren und Upgrade** verwenden, erhalten Clients aktualisierte Software vom Windows Server Update Service (falls Sie diesen Dienst nutzen) oder von Microsoft Update.
 
 <div>
 
-## <a name="client-version-policy-settings"></a>Client Versionsrichtlinien Einstellungen
+## <a name="client-version-policy-settings"></a>Einstellungen für die Clientversionsrichtlinie
 
-Die standardmäßige clientversionsrichtlinie setzt voraus, dass alle Clients lync ausführen. Wenn Clients in Ihrer Umgebung frühere Versionen von Communicator ausführen, müssen Sie möglicherweise die Client Versionsregeln neu konfigurieren, um zu verhindern, dass Clients und Geräte beim Herstellen einer Verbindung mit lync Server 2013 unerwartet blockiert oder aktualisiert werden. Sie können die Standardregel ändern, oder Sie können eine höhere Regel in der Liste der Client Versionsrichtlinien hinzufügen, um die Standardregel zu überschreiben. Darüber hinaus sollten Sie die Client Versionsrichtlinie so konfigurieren, dass die neuesten Updates erforderlich sind, da kumulative Updates (CUS) freigegeben werden. Ausführliche Informationen finden Sie unter [angeben der Clientanwendungen, die für die Anmeldung bei lync Server 2013](lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013.md) in der Betriebsdokumentation verwendet werden können.
+Die standardmäßige clientversionsrichtlinie erfordert, dass alle Clients lync ausführen. Wenn Clients in Ihrer Umgebung frühere Versionen von Communicator ausgeführt werden, müssen Sie möglicherweise die Client Versionsregeln neu konfigurieren, um zu verhindern, dass Clients und Geräte beim Herstellen einer Verbindung mit lync Server 2013 unerwartet blockiert oder aktualisiert werden. Sie können die Standardregel ändern oder in der Liste Client Versionsrichtlinie eine höhere Regel hinzufügen, um die Standardregel außer Kraft zu setzen. Darüber hinaus sollten Sie die Client Versionsrichtlinie so konfigurieren, dass die neuesten Updates erforderlich sind, da kumulative Updates (CUS) veröffentlicht werden. Ausführliche Informationen finden Sie unter [angeben der Clientanwendungen,](lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013.md) die für die Anmeldung bei lync Server 2013 in der Betriebsdokumentation verwendet werden können.
 
 </div>
 

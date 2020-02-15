@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Zusätzliche Serverunterstützung und Anforderungen'
+title: 'Lync Server 2013: zusätzliche Server Unterstützung und-Anforderungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f111b80bc88b632ff1020f45e899f220edeb7d5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2d8eb02f0cf178807c656520787024d79ab0f09b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738008"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038487"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="additional-server-support-and-requirements-in-lync-server-2013"></a>Zusätzliche Serverunterstützung und Anforderungen in Lync Server 2013
+# <a name="additional-server-support-and-requirements-in-lync-server-2013"></a>Zusätzliche Server Unterstützung und-Anforderungen in lync Server 2013
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41738008"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-12-09_
+_**Letztes Änderungsstand des Themas:** 2013-12-09_
 
-Zusätzlich zu der Softwareunterstützung, die in den anderen Abschnitten dieser Dokumentation zur unter Stützungs Dokumentation beschrieben wird, weist lync Server 2013 die folgenden Supporteinschränkungen auf:
+Zusätzlich zu der in den anderen Abschnitten dieser Unterstützungsdokumentation beschriebenen Softwareunterstützung verfügt lync Server 2013 über die folgenden Supporteinschränkungen:
 
-  - Lync Server 2013 unterstützt DNS (Domain Name System) und den Hardwarelastenausgleich für bestimmte Server Rollen. Sie unterstützt auch den Anwendungslastenausgleich für Vermittlungsserver, falls dies angemessen ist. Einzelheiten zur Verwendung der einzelnen Informationen finden Sie in der Planungsdokumentation.
+  - Lync Server 2013 unterstützt Domain Name System (DNS)-und Hardwarelastenausgleich für bestimmte Server Rollen. Außerdem wird der Anwendungslastenausgleich für Vermittlungsserver nach Bedarf unterstützt. Ausführliche Informationen dazu, in welchen Fällen welcher Lastenausgleich eingesetzt wird, finden Sie in der Planungsdokumentation.
 
-  - Lync Server 2013 verwendet das dlx (Distribution List Expansion Protocol) zum Erweitern von Verteilerlisten. Dieses Protokoll gibt auch die Webdienstmethode an, die zum Abrufen der Mitgliedschaft einer Verteilerliste verwendet wird. Microsoft Exchange Server unterstützt dynamische Gruppen, denen keine Mitglieder statisch zugewiesen sind. Stattdessen werden Abfragen gespeichert, die ausgewertet werden, wenn die Gruppe erweitert wird. DLX unterstützt keine dynamischen Verteilerlisten. Diese dlx-Einschränkung gilt für alle Versionen von lync Server.
+  - Lync Server 2013 verwendet das dlx (Distribution List Expansion Protocol), um Verteilerlisten zu erweitern. Dieses Protokoll legt außerdem die Webdienstmethode fest, die zum Erhalten der Mitgliedschaft in einer Verteilerliste verwendet wird. Exchange Server unterstützt dynamische Gruppen, denen keine Mitglieder statisch zugewiesen sind. Stattdessen werden darin Abfragen gespeichert, die beim Erweitern der Gruppe ausgewertet werden. DLX unterstützt keine dynamischen Verteilerlisten. Diese dlx-Einschränkung gilt für alle Versionen von lync Server.
 
-  - Der Assistent zum Aktivieren des Benutzers unterstützt keine automatische Konvertierung von nicht englischen Zeichen in einen SIP-kompatiblen URI, daher müssen Sie die SIP-Adresse manuell ändern.
+  - Der Assistent zum Aktivieren von Benutzern unterstützt nicht die automatische Konvertierung nicht-englischer Zeichen in einen SIP-kompatiblen URI, daher müssen Sie die SIP-Adresse manuell ändern.
 
-  - Informationen zu Servern, auf denen Antivirus-Software ausgeführt wird, finden Sie unter [Ausschlüsse für Antivirus-Scans für lync Server 2013](lync-server-2013-antivirus-scanning-exclusions.md) für vorgeschlagene Viren Ausschlüsse und andere sicherheitsrelevante Empfehlungen.
+  - Für Server, auf denen Antivirensoftware installiert ist, finden Sie unter [Antivirus Scanning Ausschlüsse für lync Server 2013](lync-server-2013-antivirus-scanning-exclusions.md) für vorgeschlagene Viren Ausschlüsse und andere sicherheitsrelevante Empfehlungen.
 
-  - Wenn Sie IPSec verwenden, empfiehlt es sich, IPSec über die für Audio-und Videodatenverkehr verwendeten Portbereiche zu deaktivieren. Ausführliche Informationen finden Sie unter [IPsec-Ausnahmen in lync Server 2013](lync-server-2013-ipsec-exceptions.md) in der Planungsdokumentation.
+  - Wenn Sie IPsec verwenden, wird empfohlen, IPsec für die Portbereiche zu deaktivieren, die für die Übertragung von Audio- und Videodaten verwendet werden. Ausführliche Informationen finden Sie unter [IPSec Exceptions in lync Server 2013](lync-server-2013-ipsec-exceptions.md) in der Planungsdokumentation.
 
-  - Wenn Ihre Organisation eine QoS-Infrastruktur (Quality of Service) verwendet, wird das Mediensubsystem auf den Betrieb innerhalb der vorhandenen Infrastruktur ausgelegt. Ausführliche Informationen zum Implementieren von QoS finden Sie unter [Verwalten von Quality of Service (QoS) in lync Server 2013](lync-server-2013-managing-quality-of-service-qos.md) in der Betriebsdokumentation.
+  - Wenn Ihre Organisation eine QoS-Infrastruktur (Quality of Service) verwendet, wird das Mediensubsystem auf den Betrieb innerhalb der vorhandenen Infrastruktur ausgelegt. Ausführliche Informationen zum Implementieren von QoS finden Sie unter [Managing Quality of Service (QoS) in lync Server 2013](lync-server-2013-managing-quality-of-service-qos.md) in der Betriebsdokumentation.
 
-  - Die Verwendung der Firewall des Betriebssystems wird unterstützt. Lync Server 2013 verwaltet die Firewall-Ausnahmen für die Betriebssystem Firewall, mit Ausnahme der Microsoft SQL Server-Datenbanksoftware. Details zu den Anforderungen der SQL Server-Firewall finden Sie in der SQL Server-Dokumentation.
+  - Die Verwendung der Betriebssystemfirewall wird unterstützt. Lync Server 2013 verwaltet die Firewall-Ausnahmen für die Betriebssystem Firewall, mit Ausnahme von Microsoft SQL Server-Datenbanksoftware. Ausführliche Informationen zu den Anforderungen hinsichtlich der Firewall für SQL Server finden Sie in der SQL Server-Dokumentation.
 
-  - Die externen Schnittstellen, die zum Implementieren der Unterstützung für den Zugriff durch externe Benutzer verwendet werden, müssen sich in einem separaten Subnetz befinden, *nicht* im gleichen Netzwerk wie die internen Schnittstellen.
+  - Die zum Implementieren der Unterstützung für den externen Benutzerzugriff verwendeten externen Schnittstellen müssen sich in einem separaten Subnetz befinden, *nicht* in demselben Netzwerk wie die internen Schnittstellen.
 
-  - Die XMPP-Fähigkeit von Lync Server 2013 wird von Microsoft für den Instant-Messaging-Partnerverbund mit Google Talk getestet und unterstützt. Wenden Sie sich bei anderen XMPP-Systemen an den Drittanbieter, um zu überprüfen, ob dieser den Partnerverbund mit Lync Server 2013 unterstützt, und Empfehlungen bei Bereitstellung und Problembehandlung zu erhalten.
+  - Die XMPP-Funktion von lync Server 2013 wird von Microsoft für den Partnerverbund mit Google Talk getestet und unterstützt. Wenden Sie sich für alle anderen XMPP-Systeme an den Drittanbieter, um zu überprüfen, ob der Partnerverbund mit lync Server 2013 und für alle Bereitstellungs-oder Problem Behandlungsempfehlungen unterstützt wird.
 
-  - Mit der Veröffentlichung von lync Server 2013 kumulativen Updates: Juli 2013 unterstützt lync Server 2013 jetzt die zweistufige Authentifizierung. Weitere Informationen finden Sie unter [zweistufige Authentifizierung in lync Server 2013](lync-server-2013-planning-for-and-deploying-two-factor-authentication.md).
+  - Mit der Veröffentlichung lync Server 2013 kumulativen Updates: Juli 2013 unterstützt lync Server 2013 jetzt die zweistufige Authentifizierung. Weitere Informationen finden Sie unter [zweistufige Authentifizierung in lync Server 2013](lync-server-2013-planning-for-and-deploying-two-factor-authentication.md).
 
-  - Für die meisten internen Server ist ein Zertifikattyp erforderlich, der als **Open Authentication** (OAuth) definiert ist. Sie müssen während der **Anforderungs-, Installations-und** Zertifikat Phase des lync Server-Bereitstellungs-Assistenten ein OAuth-Zertifikat anfordern und zuweisen. Die Mindestgröße für einen OAuth-Zertifikatschlüssel lautet 1024-Bits. Eine Warnung wird möglicherweise angezeigt, wenn Sie ein Zertifikat mit einer Schlüssellänge von weniger als 2048 Bits anfordern. Um potenzielle Probleme zu vermeiden, falls eine Schlüssellänge von 2048 anstelle einer Warnung erzwungen wird, wird dringend empfohlen, immer eine Schlüssellänge von 2048 für OAuth-Zertifikate zu verwenden.
+  - Für die meisten internen Server ist ein Zertifikattyp erforderlich, der als **Open Authentication** (OAuth) definiert ist. Sie müssen während der **Anforderungs-, install-und Assign** -Phase des lync Server-Bereitstellungs-Assistenten ein OAuth-Zertifikat anfordern und zuweisen. Die Mindestgröße für einen OAuth-Zertifikatschlüssel beträgt 1024 Bit. Eine Warnung wird möglicherweise angezeigt, wenn Sie ein Zertifikat mit einer Schlüssellänge von weniger als 2048 Bits anfordern. Um potenzielle Probleme zu vermeiden, falls eine Schlüssellänge von 2048 anstelle von Warnungen erzwungen wird, wird dringend empfohlen, immer eine Schlüssellänge von 2048 für OAuth-Zertifikate zu verwenden.
 
-  - Lync Server 2013 und Microsoft Exchange Server 2010 Service Pack 1 (SP1) funktionieren mit Unterstützung für FIPS (Federal Information Processing Standard) 140-2-Algorithmen, wenn die Windows Server 2008 R2-Betriebssysteme so konfiguriert sind, dass Sie die FIPS 140-2-Algorithmen für Systemkryptografie. Zum Implementieren der FIPS-Unterstützung müssen Sie jeden Server mit lync Server 2013 so konfigurieren, dass er unterstützt wird. Ausführliche Informationen zu FIPS-kompatiblen Algorithmen und zur Implementierung der FIPS-Unterstützung finden Sie im Microsoft Knowledge Base-Artikel 811833, "System Kryptographie: Verwenden von FIPS-kompatiblen Algorithmen für Verschlüsselung, Hashing und Signatur Sicherheit in Windows XP und späteren Windows [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)-Versionen unter. Details zu FIPS 140-2-Unterstützung und Einschränkungen in Exchange 2010 finden Sie unter "Exchange 2010 SP1 und Unterstützung für FIPS- [http://go.microsoft.com/fwlink/p/?linkId=205335](http://go.microsoft.com/fwlink/p/?linkid=205335)konforme Algorithmen" unter.
+  - Lync Server 2013 und Microsoft Exchange Server 2010 Service Pack 1 (SP1) funktionieren mit Unterstützung für FIPS (Federal Information Processing Standard) 140-2-Algorithmen, wenn die Windows Server 2008 R2-Betriebssysteme so konfiguriert sind, dass Sie die FIPS 140-2-Algorithmen für Systemkryptografie. Um die FIPS-Unterstützung zu implementieren, müssen Sie jeden Server konfigurieren, der lync Server 2013 ausführt, um ihn zu unterstützen. Ausführliche Informationen zu FIPS-kompatiblen Algorithmen und zur Implementierung der FIPS-Unterstützung finden Sie im Microsoft Knowledge Base-Artikel 811833, "System Cryptography: Verwenden von FIPS-kompatiblen Algorithmen für Verschlüsselung, Hashing und Signieren von Sicherheitseinstellungen in Windows XP und höheren [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)Windows-Versionen unter. Ausführliche Informationen zur Unterstützung von FIPS 140-2 und zu Einschränkungen in Exchange 2010 finden Sie unter "Exchange 2010 SP1 und Unterstützung für [http://go.microsoft.com/fwlink/p/?linkId=205335](http://go.microsoft.com/fwlink/p/?linkid=205335)FIPS-konforme Algorithmen" unter.
 
-Lync Server 2013 erfordert die Installation anderer Software auf bestimmten Komponenten vor oder während der Bereitstellung. Dazu gehören Software, die mit dem Betriebssystem, herunterladbarer Software und Software zur Verfügung steht, die während der Installation von lync Server 2013 automatisch installiert wird. Im folgenden finden Sie eine Liste zusätzlicher Software, die erforderlich sein kann:
+Lync Server 2013 erfordert die Installation anderer Software auf bestimmten Komponenten vor oder während der Bereitstellung. Dies umfasst Software, die mit dem Betriebssystem, herunterladbare Software und Software zur Verfügung steht, die bei der Installation von lync Server 2013 automatisch installiert wird. In der folgenden Liste wird zusätzliche Software aufgeführt, die möglicherweise erforderlich ist:
 
   - Windows Update
 
   - Windows Identity Foundation
 
-  - Microsoft .NET 4,5-Framework
+  - Microsoft .NET 4,5 Framework
 
   - Microsoft Visual C++ 2012 Redistributable
     
@@ -77,22 +77,22 @@ Lync Server 2013 erfordert die Installation anderer Software auf bestimmten Komp
     
 
     > [!NOTE]  
-    > Microsoft Visual C++ 2012 Redistributable wird automatisch installiert, wenn Sie lync Server 2013 installieren. Sie sollten keine andere Version installieren und verwenden.
+    > Microsoft Visual C++ 2012 Redistributable wird bei der Installation von lync Server 2013 automatisch installiert. Sie sollten keine andere Version installieren und verwenden.
 
     
     </div>
 
-  - URL-umschreibungs Modul, Version 2,0, verteilbare
+  - URL Rewrite Module Version 2.0 Redistributable
 
   - Windows Media Format-Laufzeitkomponente
 
-  - Windows PowerShell, Version 3,0
+  - Windows PowerShell Version 3,0
 
-  - Microsoft Silverlight 4-Browser-Plug-in (Silverlight-4.0.50524.0 oder die neueste Version der lync Server-Systemsteuerung)
+  - Microsoft Silverlight 4-Browser-Plug-In (Silverlight 4.0.50524.0 oder neueste Version für die Lync Server-Systemsteuerung)
 
-  - Tools für Active Directory-Domänendienste
+  - Active Directory-Domänendienste Tools
 
-Einige dieser Softwareanforderungen gelten nur für bestimmte Serverrollen oder Komponenten. Details zu diesen Softwareanforderungen finden Sie unter [zusätzliche Softwareanforderungen für lync Server 2013](lync-server-2013-additional-software-requirements.md) in der Planungsdokumentation.
+Einige dieser Softwareanforderungen gelten nur für bestimmte Serverrollen oder Komponenten. Ausführliche Informationen zu diesen Softwareanforderungen finden Sie unter [zusätzliche Softwareanforderungen für lync Server 2013](lync-server-2013-additional-software-requirements.md) in der Planungsdokumentation.
 
 </div>
 

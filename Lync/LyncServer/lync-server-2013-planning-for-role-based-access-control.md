@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planen für die rollenbasierte Zugriffssteuerung'
+title: 'Lync Server 2013: Planen der rollenbasierten Zugriffssteuerung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183962
 ms.date: 01/28/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b89e4bdc075783d33bebcfb85398b1b627e1bf1c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fb7a359620c7e93565c0d4ef49c813ff0966989c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41750475"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42046628"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>Planen für die rollenbasierte Zugriffssteuerung in Lync Server 2013
+# <a name="planning-for-role-based-access-control-in-lync-server-2013"></a>Planen der rollenbasierten Zugriffssteuerung in lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41750475"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-01-27_
+_**Letztes Änderungsstand des Themas:** 2015-01-27_
 
-Damit Sie administrative Aufgaben delegieren und gleichzeitig hohe Standards für die Sicherheit aufrecht erhalten können, bietet lync Server 2013 rollenbasierte Zugriffssteuerung. Mit RBAC wird Administratorprivilegien gewährt, indem Benutzeradministratorrollen zugewiesen werden. Lync Server 2013 umfasst zahlreiche integrierte Administratorrollen und ermöglicht Ihnen außerdem, neue Rollen zu erstellen und eine benutzerdefinierte Liste mit Cmdlets für jede neue Rolle festzulegen. Sie können auch Skripten von Cmdlets zu den zulässigen Aufgaben von vordefinierten und benutzerdefinierten RBAC-Rollen hinzufügen.
+Damit Sie administrative Aufgaben delegieren und gleichzeitig hohe Sicherheitsstandards beibehalten können, bietet lync Server 2013 rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC). Bei der rollenbasierten Zugriffssteuerung werden administrative Berechtigungen erteilt, indem Benutzer Administratorrollen zugewiesen werden. Lync Server 2013 enthält eine umfangreiche Reihe integrierter Administratorrollen und ermöglicht Ihnen außerdem das Erstellen neuer Rollen und das Angeben einer benutzerdefinierten Liste von Cmdlets für jede neue Rolle. Sie können außerdem den erlaubten Aufgaben der vordefinierten und der benutzerdefinierten rollenbasierten Zugriffssteuerung Skripte von Cmdlets hinzufügen.
 
 <div>
 
-## <a name="better-server-security-and-centralization"></a>Bessere Server Sicherheit und Zentralisierung
+## <a name="better-server-security-and-centralization"></a>Verbesserte Serversicherheit und Zentralisierung
 
-Mit RBAC basieren Zugriff und Autorisierung exakt auf der lync-Server Rolle eines Benutzers. Auf diese Weise wird die Verwendung der Sicherheitspraxis von "Least Privilege" ermöglicht, sodass Administratoren und Benutzern nur die Rechte gewährt werden, die für Ihren Auftrag erforderlich sind.
+Bei RBAC basiert der Zugriff und die Autorisierung genau auf der lync Server Rolle eines Benutzers. So können Sie dem Sicherheitsprinzip "so wenige Rechte wie möglich" folgen, bei dem Administratoren und Benutzer nur die Rechte erhalten, die sie für ihre Arbeit benötigen.
 
 <div>
 
 
 > [!IMPORTANT]  
-> RBAC-Einschränkungen funktionieren nur für Administratoren, die Remote arbeiten, entweder über die lync Server-Systemsteuerung oder die lync Server-Verwaltungsshell. Ein Benutzer, der auf einem Server mit lync Server sitzt, ist nicht durch RBAC eingeschränkt. Daher ist die physische Sicherheit Ihres lync-Servers wichtig, um RBAC-Einschränkungen beizubehalten.
+> RBAC-Einschränkungen funktionieren nur für Administratoren, die Remote arbeiten, indem Sie entweder die lync Server-Systemsteuerung oder lync Server-Verwaltungsshell verwenden. Ein Benutzer, der auf einem Server mit lync Server sitzt, wird nicht durch RBAC eingeschränkt. Daher ist die physische Sicherheit Ihrer lync Server wichtig, um RBAC-Einschränkungen beizubehalten.
 
 
 
@@ -59,11 +59,11 @@ Mit RBAC basieren Zugriff und Autorisierung exakt auf der lync-Server Rolle eine
 
 <div>
 
-## <a name="roles-and-scope"></a>Rollen und Bereich
+## <a name="roles-and-scope"></a>Rollen und Bereiche
 
-In RBAC ist eine *Rolle* aktiviert, um eine Liste von Cmdlets zu verwenden, die für einen bestimmten Typ von Administrator oder Techniker nützlich sein sollen. Ein *Bereich* ist die Gruppe von Objekten, auf die die in einer Rolle definierten Cmdlets angewendet werden können. Die Objekte, auf die sich der Bereich auswirkt, können entweder Benutzerkonten (gruppiert nach Organisationseinheit) oder Server (gruppiert nach Website) sein.
+Bei der rollenbasierten Zugriffssteuerung kann eine *Rolle* eine Liste von Cmdlets verwenden, die für einen bestimmten Administratortyp oder Techniker von Interesse sind. Ein *Bereich* ist der Satz an Objekten, auf den die in einer Rolle definierten Cmdlets angewendet werden können. Bei den Objekten für diesen Bereich kann es sich entweder um Benutzerkonten (gruppiert nach Organisationseinheit) oder um Server (gruppiert nach Standort) handeln.
 
-In der folgenden Tabelle sind die vordefinierten Rollen in lync Server aufgelistet, und es wird eine allgemeine Übersicht über die einzelnen Aufgabentypen angezeigt. Die vierte Spalte zeigt die ähnliche Microsoft Exchange-Serverrolle für jede lync-Serverrolle, sofern vorhanden.
+In der folgenden Tabelle sind die vordefinierten Rollen in lync Server aufgeführt, und es wird eine allgemeine Übersicht über die Aufgabentypen gegeben, die jeweils ausgeführt werden können. In der vierten Spalte wird die ähnliche Exchange Server Rolle für jede lync Server Rolle angezeigt (sofern vorhanden).
 
 ### <a name="predefined-administrative-roles"></a>Vordefinierte Administratorrollen
 
@@ -85,87 +85,87 @@ In der folgenden Tabelle sind die vordefinierten Rollen in lync Server aufgelist
 <tbody>
 <tr class="odd">
 <td><p>CsAdministrator</p></td>
-<td><p>Kann alle administrativen Aufgaben ausführen und alle Einstellungen ändern, einschließlich des Erstellens von Rollen und Zuweisen von Benutzern zu Rollen. Kann eine Bereitstellung erweitern, indem neue Websites, Pools und Dienste hinzugefügt werden.</p></td>
+<td><p>Kann sämtliche Verwaltungsaufgaben ausführen und alle Einstellungen ändern, einschließlich der Erstellung von Rollen und der Zuweisung von Benutzern zu Rollen. Kann eine Bereitstellung erweitern, indem neue Standorte, Pools und Dienste hinzugefügt werden.</p></td>
 <td><p>CSAdministrator</p></td>
 <td><p>Organisationsverwaltung</p></td>
 </tr>
 <tr class="even">
 <td><p>CsUserAdministrator</p></td>
-<td><p>Kann Benutzer für lync Server aktivieren und deaktivieren, Benutzer verschieben und Benutzern vorhandene Richtlinien zuweisen. Richtlinien können nicht geändert werden.</p></td>
+<td><p>Kann Benutzer für lync Server aktivieren und deaktivieren, Benutzer verlagern und vorhandene Richtlinien Benutzern zuweisen. Kann keine Richtlinien bearbeiten.</p></td>
 <td><p>CSUserAdministrator</p></td>
-<td><p>E-Mail-Empfänger</p></td>
+<td><p>Mailempfänger</p></td>
 </tr>
 <tr class="odd">
 <td><p>CsVoiceAdministrator</p></td>
-<td><p>Kann sprachbezogene Einstellungen und Richtlinien erstellen, konfigurieren und verwalten.</p></td>
+<td><p>Kann VoIP-bezogene Einstellungen und Richtlinien erstellen, konfigurieren und verwalten.</p></td>
 <td><p>CSVoiceAdministrator</p></td>
-<td><p>Nicht zutreffend</p></td>
+<td><p>Nicht zutreffend.</p></td>
 </tr>
 <tr class="even">
 <td><p>CsServerAdministrator</p></td>
-<td><p>Kann Server und Dienste verwalten, überwachen und Problembehandlung durchführen. Kann neue Verbindungen mit Servern verhindern, Dienste beenden und starten und Softwareupdates anwenden. Mit Auswirkungen auf die globale Konfiguration können keine Änderungen vorgenommen werden.</p></td>
+<td><p>Kann Server und Dienste verwalten, überwachen und eine Problembehandlung durchführen. Kann neue Verbindungen mit Servern verhindern, Dienste beenden und starten und Softwareupdates anwenden. Kann keine Änderungen mit Auswirkung auf die globale Konfiguration durchführen.</p></td>
 <td><p>CSServerAdministrator</p></td>
-<td><p>Server Verwaltung</p></td>
+<td><p>Serververwaltung</p></td>
 </tr>
 <tr class="odd">
 <td><p>CsViewOnlyAdministrator</p></td>
-<td><p>Kann die Bereitstellung, einschließlich Benutzer-und Server Informationen, anzeigen, um den Bereitstellungsstatus zu überwachen.</p></td>
+<td><p>Kann die Bereitstellung anzeigen, einschließlich Benutzer- und Serverinformationen, um die Bereitstellungsintegrität zu überwachen.</p></td>
 <td><p>CSViewOnlyAdministrator</p></td>
-<td><p>Organisationsverwaltung mit Ansicht</p></td>
+<td><p>Organisationsverwaltung (Nur Lesen)</p></td>
 </tr>
 <tr class="even">
-<td><p>CsHelpDesk</p></td>
-<td><p>Kann die Bereitstellung anzeigen, einschließlich der Eigenschaften und Richtlinien des Benutzers. Kann bestimmte Problembehandlungsaufgaben ausführen. Benutzereigenschaften oder-Richtlinien, Serverkonfiguration oder Dienste können nicht geändert werden.</p></td>
-<td><p>CSHelpDesk</p></td>
+<td><p>"Cshelpdesk"</p></td>
+<td><p>Kann die Bereitstellung anzeigen, Benutzereigenschaften und -richtlinien eingeschlossen. Kann Aufgaben im Rahmen der Problembehandlung ausführen. Kann keine Benutzereigenschaften oder -richtlinien, Serverkonfigurationen oder Dienste ändern.</p></td>
+<td><p>"Cshelpdesk"</p></td>
 <td><p>Helpdesk</p></td>
 </tr>
 <tr class="odd">
-<td><p>CsArchivingAdministrator</p></td>
-<td><p>Kann die Archivierungskonfiguration und-Richtlinien ändern.</p></td>
-<td><p>CSArchivingAdministrator</p></td>
-<td><p>Aufbewahrungsverwaltung, rechtliche Aufbewahrung</p></td>
+<td><p>Csarchivingadministrator "</p></td>
+<td><p>Kann Archivierungskonfiguration und -richtlinien ändern.</p></td>
+<td><p>Csarchivingadministrator "</p></td>
+<td><p>Verwaltung der Aufbewahrung, rechtliche Aufbewahrungspflicht</p></td>
 </tr>
 <tr class="even">
 <td><p>CsResponseGroupAdministrator</p></td>
-<td><p>Kann die Konfiguration der reaktionsgruppenanwendung innerhalb einer Website verwalten.</p></td>
+<td><p>Kann die Konfiguration der Reaktionsgruppenanwendung innerhalb eines Standorts verwalten.</p></td>
 <td><p>CSResponseGroupAdministrator</p></td>
 <td><p>Nicht zutreffend</p></td>
 </tr>
 <tr class="odd">
 <td><p>CsLocationAdministrator</p></td>
-<td><p>Niedrigste Ebene der Rechte für eine erweiterte Verwaltung von 9-1-1 (E9-1-1), einschließlich der Erstellung von E9-1-1-Speicherorten und Netzwerk Bezeichnern sowie deren Zuordnung untereinander. Diese Rolle wird immer mit einem globalen Bereich zugewiesen.</p></td>
+<td><p>Niedrigste Berechtigungsstufe für E9-1-1-Verwaltung (9-1-1 [erweitert]), einschließlich Erstellung von E9-1-1-Standorten und Netzwerk-IDs, sowie deren Zuordnung zueinander. Diese Rolle wird immer mit globalem Gültigkeitsbereich zugewiesen.</p></td>
 <td><p>CSLocationAdministrator</p></td>
 <td><p>Nicht zutreffend</p></td>
 </tr>
 <tr class="even">
-<td><p>CsResponseGroupManager</p></td>
-<td><p>Kann bestimmte Antwortgruppen verwalten.</p></td>
-<td><p>CSResponseGroupManager</p></td>
+<td><p>Rolle csresponsegroupmanager</p></td>
+<td><p>Kann spezifische Reaktionsgruppen verwalten.</p></td>
+<td><p>Rolle csresponsegroupmanager</p></td>
 <td><p>Nicht zutreffend</p></td>
 </tr>
 <tr class="odd">
-<td><p>CsPersistentChatAdministrator</p></td>
-<td><p>Kann das Feature für beständigen Chat und bestimmte beständige Chatrooms verwalten.</p></td>
-<td><p>CSPersistentChatAdministrator</p></td>
+<td><p>"Cspersistentchatadministrator"</p></td>
+<td><p>Kann die Funktion "Beständiger Chat" und spezifische Räume dafür verwalten.</p></td>
+<td><p>"Cspersistentchatadministrator"</p></td>
 <td><p>Nicht zutreffend</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Alle vordefinierten Rollen, die in lync Server ausgeliefert werden, verfügen über einen globalen Bereich. Wenn Sie nur eine begrenzte Anzahl von Servern oder Benutzern verwalten möchten, sollten Sie Benutzern keine Rollen mit globalem Gültigkeitsbereich zuweisen, wenn Sie nur eine begrenzte Anzahl von Servern oder Benutzern verwalten möchten. Um dies zu erreichen, können Sie Rollen erstellen, die auf einer vorhandenen Rolle basieren, jedoch mit einem eingeschränkten Bereich.
+Alle vordefinierten Rollen, die in lync Server ausgeliefert werden, haben einen globalen Bereich. Um dem Prinzip "so wenige Rechte wie möglich" zu folgen, sollten Sie Benutzern keine Rollen mit globalem Bereich zuweisen, wenn sie nur einen beschränkten Satz an Servern oder Benutzern verwalten sollen. Stattdessen können Sie Rollen erstellen, die auf einer bestehenden Rolle basieren, deren Bereich jedoch eingeschränkter ist.
 
 <div>
 
-## <a name="creating-a-scoped-role"></a>Erstellen einer Rolle im Bereich "Bereich"
+## <a name="creating-a-scoped-role"></a>Erstellen einer bereichsbezogenen Rolle
 
-Wenn Sie eine Rolle mit einem eingeschränkten Bereich (einer Rolle mit Gültigkeitsbereich) erstellen, geben Sie den Bereich zusammen mit der vorhandenen Rolle an, auf der er basiert, und der Active Directory-Gruppe, der die Rolle zugewiesen werden soll. Die von Ihnen angegebene Active Directory-Gruppe muss bereits erstellt sein. Das folgende Cmdlet ist ein Beispiel für das Erstellen einer Rolle, die über die Privilegien einer vordefinierten Administratorrolle verfügt, jedoch mit begrenztem Umfang. Sie erstellt eine neue Rolle mit `Site01 Server Administrators`dem Namen. Die Rolle verfügt über die Fähigkeiten der vordefinierten CsServerAdministrator-Rolle, aber nur für die Server, die sich auf der Site01-Website befinden. Damit dieses Cmdlet funktioniert, muss die Site01-Website bereits definiert sein, und es muss bereits eine Univers `Site01 Server Administrators` Elle Sicherheitsgruppe mit dem Namen vorhanden sein.
+Wenn Sie eine Rolle mit begrenztem Bereich erstellen (eine bereichsbezogene Rolle), geben Sie den Bereich zusammen mit der vorhandenen Rolle und der Active Directory Gruppe an, der die Rolle zugewiesen werden soll. Die von Ihnen angegebene Active Directory Gruppe muss bereits erstellt sein. Das folgende Cmdlet ist ein Beispiel für das Erstellen einer Rolle mit den Berechtigungen einer der vordefinierten Administratorrollen, jedoch mit begrenztem Bereich. Es wird eine neue Rolle mit `Site01 Server Administrators`dem Namen erstellt. Die Rolle besitzt die Fähigkeiten der vordefinierten CsServerAdministrator-Rolle, jedoch nur für die Server, die sich am Site01-Standort befinden. Damit dieses Cmdlet funktioniert, muss der Site01-Standort bereits definiert sein, und es muss bereits eine Univers `Site01 Server Administrators` Elle Sicherheitsgruppe mit dem Namen vorhanden sein.
 
     New-CsAdminRole -Identity "Site01 Server Administrators" -Template CsServerAdministrator -ConfigScopes "site:Site01"
 
-Nachdem dieses Cmdlet ausgeführt wurde, verfügen alle Benutzer, die Mitglieder `Site01 Server Administrators` der Gruppe sind, über Serveradministratorrechte für die Server in Site01. Darüber hinaus erhalten alle Benutzer, die dieser universellen Sicherheitsgruppe später hinzugefügt werden, auch die Privilegien dieser Rolle. Beachten Sie, dass die Rolle selbst und die universelle Sicherheitsgruppe, der Sie zugewiesen ist `Site01 Server Administrators`, aufgerufen werden.
+Nachdem dieses Cmdlet ausgeführt wurde, verfügen alle Benutzer, die Mitglied `Site01 Server Administrators` der Gruppe sind, über Serveradministratorrechte für die Server in Site01. Darüber hinaus erhalten alle Benutzer, die dieser universellen Sicherheitsgruppe später hinzugefügt werden, auch die Rechte dieser Rolle. Beachten Sie, dass sowohl die Rolle selbst als auch die universelle Sicherheitsgruppe, der Sie `Site01 Server Administrators`zugewiesen ist, aufgerufen werden.
 
-Im folgenden Beispiel wird der Benutzerbereich anstelle des Serverbereichs eingeschränkt. Sie erstellt eine `Sales Users Administrator` Rolle, um die Benutzerkonten in der Organisationseinheit "Sales" zu verwalten. Die universelle Sicherheitsgruppe SalesUsersAdministrator muss bereits erstellt sein, damit dieses Cmdlet funktioniert.
+Im folgenden Beispiel wird der Serverbereich auf den Benutzerbereich eingeschränkt. Es wird eine `Sales Users Administrator` Rolle zum Verwalten der Benutzerkonten in der Organisationseinheit "Sales" erstellt. Die universelle Sicherheitsgruppe SalesUsersAdministrator muss bereits erstellt sein, damit dieses Cmdlet funktioniert.
 
     New-CsAdminRole -Identity "Sales Users Administrator " -Template CsUserAdministrator -UserScopes "OU:OU=Sales, OU=Lync Tenants, DC=Domain, DC=com"
 
@@ -175,21 +175,21 @@ Im folgenden Beispiel wird der Benutzerbereich anstelle des Serverbereichs einge
 
 ## <a name="creating-a-new-role"></a>Erstellen einer neuen Rolle
 
-Zum Erstellen einer Rolle, die Zugriff auf eine Reihe von Cmdlets hat, die nicht in einer der vordefinierten Rollen enthalten sind, oder auf eine Reihe von Skripten oder Modulen, verwenden Sie erneut eine der vordefinierten Rollen als Vorlage. Beachten Sie, dass Skripts und Module, die Rollen ausführen können, an den folgenden Speicherorten gespeichert werden müssen:
+Um eine Rolle zu erstellen, die Zugriff auf einen Satz von Cmdlets außerhalb der vordefinierten Rollen oder auf einen Satz von Skripts oder Modulen hat, müssen Sie ebenfalls zunächst eine der vordefinierten Rollen als Vorlage verwenden. Beachten Sie, dass Skripts und Module, die Rollen ausführen können sollen, an folgenden Orten gespeichert werden müssen:
 
-  - Der lync-Modul Pfad, der standardmäßig C lautet\\: Program\\Files Common\\Files Microsoft lync Server\\2013\\modules lync
+  - Der lync-Modul Pfad, der standardmäßig C:\\Programmdateien\\allgemeine Dateien\\Microsoft lync Server 2013\\Module\\lync
 
-  - Der Benutzer Skriptpfad, der standardmäßig C lautet:\\Program Files\\Common Files\\Microsoft lync Server 2013\\AdminScripts
+  - Der Benutzer\\Skriptpfad, der standardmäßig C: Programmdateien\\allgemeine Dateien\\Microsoft lync Server 2013 AdminScripts\\
 
-Zum Erstellen einer neuen Rolle verwenden Sie das Cmdlet **New-CsAdminRole** . Bevor Sie **New-CsAdminRole**ausführen, müssen Sie zuerst die zugrunde liegende universelle Sicherheitsgruppe erstellen, die dieser Rolle zugeordnet ist.
+Um eine neue Rolle zu erstellen, verwenden Sie das Cmdlet **New-CsAdminRole**. Vor dem Ausführen von **New-CsAdminRole**müssen Sie zuerst die zugrunde liegende universelle Sicherheitsgruppe erstellen, die dieser Rolle zugeordnet wird.
 
-Die folgenden Cmdlets dienen als Beispiel für das Erstellen einer neuen Rolle. Sie erstellen einen neuen Rollentyp mit `MyHelpDeskScriptRole`dem Namen. Die neue Rolle verfügt über die Fähigkeiten der vordefinierten CsHelpDesk-Rolle und kann die Funktionen zusätzlich in einem Skript mit dem Namen "testscript" ausführen.
+Die folgenden Cmdlet-Beispiele zeigen die Erstellung einer neuen Rolle. Sie erstellen einen neuen Rollentypen mit `MyHelpDeskScriptRole`dem Namen. Die neue Rolle besitzt die Fähigkeiten der vordefinierten Rolle "CsHelpDesk" und kann außerdem die Funktionen in einem Skript namens "testscript" ausführen.
 
     New-CsAdminRole -Identity "MyHelpDeskScriptRole" -Template CsHelpDesk -ScriptModules @{Add="testScript.ps1"}
 
 Damit dieses Cmdlet funktioniert, müssen Sie zuerst die universelle Sicherheitsgruppe MyHelpDeskScriptRole erstellt haben.
 
-Nachdem dieses Cmdlet ausgeführt wurde, können Sie Benutzer dieser Rolle direkt zuweisen (in diesem Fall verfügen Sie über einen globalen Bereich), oder Sie können auf der Grundlage dieser Rolle eine Bereichs Rolle erstellen, wie unter Erstellen einer Rolle im Bereich zuvor in diesem Dokument erläutert.
+Nach der Ausführung dieses Cmdlets können Sie Benutzer direkt dieser Rolle zuweisen (in diesem Fall haben sie globalen Gültigkeitsbereich) oder eine auf dieser Rolle basierende bereichsbezogene Rolle erstellen. Dies wird weiter oben in diesem Dokument unter "Erstellen einer bereichsbezogenen Rolle" beschrieben.
 
 </div>
 
@@ -197,15 +197,15 @@ Nachdem dieses Cmdlet ausgeführt wurde, können Sie Benutzer dieser Rolle direk
 
 ## <a name="assigning-roles-to-users"></a>Zuweisen von Rollen zu Benutzern
 
-Jeder lync-Server Rolle ist eine zugrunde liegende universelle Active Directory-Sicherheitsgruppe zugeordnet. Alle Benutzer, die Sie der zugrunde liegenden Gruppe hinzufügen, erhalten die Fähigkeiten dieser Rolle.
+Jede lync Server Rolle ist einer zugrunde liegenden Active Directory universellen Sicherheitsgruppe zugeordnet. Alle Benutzer, die Sie der zugrunde liegenden Gruppe hinzufügen, erhalten die Fähigkeiten dieser Rolle.
 
-In den Beispielen in den vorherigen Abschnitten wurde eine neue Rolle erstellt und der neuen Rolle eine vorhandene universelle Sicherheitsgruppe zugewiesen. Wenn Sie einer oder mehreren Benutzern eine vorhandene Rolle zuweisen möchten, fügen Sie diese Benutzer der Gruppe hinzu, die der Rolle zugeordnet ist. Sie können diesen Gruppen sowohl einzelne Benutzer als auch universelle Sicherheitsgruppen hinzufügen.
+In den Beispielen in den vorherigen Abschnitten wurde eine neue Rolle erstellt und der neuen Rolle eine vorhandene universelle Sicherheitsgruppe zugewiesen. Wenn Sie einer vorhandenen Rolle einen oder mehrere Benutzer zuweisen möchten, fügen Sie diese Benutzer der Gruppe zu, die der Rolle zugeordnet ist. Sie können diesen Gruppen sowohl einzelne Benutzer als auch universelle Sicherheitsgruppen hinzufügen.
 
-Beispielsweise wird der **CsAdministrator** -Rolle automatisch die universelle Sicherheitsgruppe **CS-Administratoren** in Active Directory gewährt. Diese universelle Sicherheitsgruppe wird in Active Directory erstellt, wenn Sie lync Server bereitstellen. Um einem Benutzer oder einer Gruppe diese Berechtigung zu erteilen, können Sie ihn einfach der Gruppe **CS-Administratoren** hinzufügen.
+Beispielsweise wird die **CsAdministrator** -Rolle automatisch der universellen Sicherheitsgruppe **CS-Administratoren** in Active Directory erteilt. Diese universelle Sicherheitsgruppe wird in Active Directory erstellt, wenn Sie lync Server bereitstellen. Wenn Sie einem Benutzer oder einer Gruppe diese Berechtigungen gewähren möchten, können Sie sie einfach der Gruppe **CS-Administratoren** hinzufügen.
 
-Einem Benutzer können mehrere RBAC-Rollen zugewiesen werden, indem er zu den zugrunde liegenden Active Directory-Gruppen hinzugefügt wird, die jeder Rolle entsprechen.
+Einem Benutzer können mehrere rollenbasierte Zugriffssteuerungsrollen hinzugefügt werden, indem er den zugrunde liegenden Active Directory-Gruppen hinzugefügt wird, die dieser Rolle entsprechen.
 
-Beachten Sie, dass Benutzer, die später der zugrunde liegenden Active Directory-Gruppe hinzugefügt werden, die Fähigkeiten dieser Rolle erhalten, wenn Sie eine Rolle erstellen.
+Beachten Sie, dass beim Erstellen einer Rolle alle Benutzer, die der zugrunde liegenden Active Directory-Gruppe später hinzugefügt werden, die Fähigkeiten dieser Rolle erhalten.
 
 </div>
 
@@ -213,9 +213,9 @@ Beachten Sie, dass Benutzer, die später der zugrunde liegenden Active Directory
 
 ## <a name="modifying-the-abilities-of-a-role"></a>Ändern der Fähigkeiten einer Rolle
 
-Sie können die Liste der Cmdlets und Skripts ändern, die von einer Rolle ausgeführt werden können. Sie können sowohl die Cmdlets und Skripts ändern, die benutzerdefinierte Rollen ausführen können, aber Sie können nur die Skripts für vordefinierte Rollen ändern. Jedes von Ihnen eingegebene Cmdlet kann Cmdlets oder Skripts hinzufügen, entfernen oder ersetzen.
+Sie können die Liste der Cmdlets und Skripts ändern, die von einer Rolle ausgeführt werden können. Sie können sowohl die Cmdlets als auch die Skripts bearbeiten, die von benutzerdefinierten Rollen ausgeführt werden können, bei vordefinierten Rollen können Sie jedoch nur die Skripts bearbeiten. Jedes Cmdlet, das Sie eingeben, kann Cmdlets oder Skripts hinzufügen, entfernen oder ersetzen.
 
-Wenn Sie eine Rolle ändern möchten, verwenden Sie das Cmdlet " **Satz-CsAdminRole** ". Das folgende Cmdlet entfernt ein Skript aus der Rolle.
+Um eine Rolle zu bearbeiten, verwenden Sie das Cmdlet **Set-CsAdminRole**. Mit dem folgenden Cmdlet wird ein Skript aus der Rolle entfernt.
 
     Set-CsAdminRole -Identity "MyHelpDeskScriptRole" -ScriptModules @{Remove="testScript.ps1"}
 
@@ -225,11 +225,11 @@ Wenn Sie eine Rolle ändern möchten, verwenden Sie das Cmdlet " **Satz-CsAdminR
 
 <div>
 
-## <a name="planning-for-rbac"></a>Planen für RBAC
+## <a name="planning-for-rbac"></a>Planen der rollenbasierten Zugriffssteuerung
 
-Berücksichtigen Sie für jede Person, die für Ihre lync Server-Bereitstellung jede Art von Administratorrechten erhalten soll, genau, welche Aufgaben Sie durchführen müssen, und weisen Sie Sie den Rollen mit den für Ihren Auftrag erforderlichen geringsten Rechten und Umfang zu. Falls erforderlich, können Sie das Cmdlet " **Satz-CsAdminRole** " verwenden, um eine neue Rolle mit nur den für die Aufgaben dieser Person erforderlichen Cmdlets zu erstellen.
+Berücksichtigen Sie für jede Person, die eine beliebige Anzahl von Administratorrechten für Ihre lync Server-Bereitstellung erhalten soll, genau, welche Aufgaben Sie durchführen müssen, und weisen Sie Sie Rollen mit den geringsten Rechten und dem für Ihren Auftrag erforderlichen Bereich zu. Falls erforderlich, können Sie das Cmdlet " **CsAdminRole** " verwenden, um eine neue Rolle mit nur den für die Aufgaben dieser Person erforderlichen Cmdlets zu erstellen.
 
-Benutzer mit der CsAdministrator-Rolle können alle Typen von Rollen, einschließlich Rollen basierend auf CsAdministrator, erstellen und Ihnen Benutzer zuweisen. Die bewährte Methode besteht darin, die CsAdministrator-Rolle einem sehr kleinen Satz vertrauenswürdiger Benutzer zuzuweisen.
+Benutzer mit der Rolle "CsAdministrator" können Rollen jeglichen Typs erstellen – auf "CsAdministrator" basierende Rollen eingeschlossen – und diesen Rollen Benutzer zuweisen. Als bewährte Methode sollte die Rolle "CsAdministrator" nur einem sehr kleinen Kreis vertrauenswürdiger Benutzer zugewiesen werden.
 
 </div>
 

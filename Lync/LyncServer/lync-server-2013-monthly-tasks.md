@@ -12,16 +12,16 @@ ms:contentKeyID: 63969654
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d4a7ae6009c7e34c49d0e49bea131b6cc03fd15
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5c2ced4d5d61a51ff3e25422ba9486887b72470a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756769"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42047463"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41756769"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-08-18_
+_**Letztes Änderungsstand des Themas:** 2014-08-18_
 
-Die monatlichen Aufgaben konzentrieren sich darauf, die langfristige Gesundheit eines Systems zu gewährleisten.
+Die monatlichen Aufgaben konzentrieren sich auf die Sicherstellung der langfristigen Integrität eines Systems.
 
 <div>
 
@@ -47,27 +47,27 @@ Die folgenden Aufgaben sollten monatlich ausgeführt werden:
 
   - [Anzeigen des Status globaler Einstellungen für eine Gesamtstruktur in lync Server 2013](lync-server-2013-viewing-status-of-global-settings-for-a-forest.md)
 
-  - [Anzeigen von Edgeserver-Einstellungen in lync Server 2013](lync-server-2013-view-edge-server-settings.md)
+  - [Anzeigen von Edgeserver Einstellungen in lync Server 2013](lync-server-2013-view-edge-server-settings.md)
 
-  - [Überprüfen der lync Server 2013-Serverzertifikate](lync-server-2013-check-lync-server-2013-server-certificates.md)
+  - [Überprüfen lync Server 2013 Server Zertifikaten](lync-server-2013-check-lync-server-2013-server-certificates.md)
 
-  - [Überprüfen der trunk-Konfiguration für eine Telefonnummer in lync Server 2013](lync-server-2013-check-trunk-configuration-against-a-phone-number.md)
+  - [Überprüfen der trunkkonfiguration anhand einer Telefonnummer in lync Server 2013](lync-server-2013-check-trunk-configuration-against-a-phone-number.md)
 
-  - [Überprüfen von VoIP-Normalisierungsregeln in lync Server 2013](lync-server-2013-check-voice-normalization-rules.md)
+  - [Überprüfen der VoIP-Normalisierungsregeln in lync Server 2013](lync-server-2013-check-voice-normalization-rules.md)
 
-  - [Testen einer Telefonnummer für eine VoIP-Richtlinie in lync Server 2013](lync-server-2013-test-telephone-number-against-a-voice-policy.md)
+  - [Testen der Telefonnummer für eine VoIP-Richtlinie in lync Server 2013](lync-server-2013-test-telephone-number-against-a-voice-policy.md)
 
-  - [Testen einer Telefonnummer für eine VoIP-Route in lync Server 2013](lync-server-2013-test-telephone-number-against-a-voice-route.md)
+  - [Testen der Telefonnummer für eine VoIP-Route in lync Server 2013](lync-server-2013-test-telephone-number-against-a-voice-route.md)
 
-  - [Testen der Sprachkonfiguration in lync Server 2013](lync-server-2013-test-voice-configuration.md)
+  - [Testen der VoIP-Konfiguration in lync Server 2013](lync-server-2013-test-voice-configuration.md)
 
   - [Testen von VoIP-Regeln,-Routen und-Richtlinien in lync Server 2013](lync-server-2013-test-voice-rules-routes-and-policies.md)
 
-  - [Testen des Web App-Zugriffs in lync Server 2013](lync-server-2013-test-web-app-access.md)
+  - [Testen des webapp-Zugriffs in lync Server 2013](lync-server-2013-test-web-app-access.md)
 
-  - [Testen des anonymen Web App-Zugriffs in lync Server 2013](lync-server-2013-test-anonymous-web-app-access.md)
+  - [Testen des anonymen webapp-Zugriffs in lync Server 2013](lync-server-2013-test-anonymous-web-app-access.md)
 
-  - [Testen des Zugriffs von mobilen Benutzern in lync Server 2013](lync-server-2013-test-mobile-user-access.md)
+  - [Testen des Zugriffs auf mobile Benutzer in lync Server 2013](lync-server-2013-test-mobile-user-access.md)
 
   - [Testen der Fähigkeit von mobilen Benutzern zum Austauschen von Chatnachrichten in lync Server 2013](lync-server-2013-test-mobile-users-ability-to-exchange-instant-messages.md)
 
@@ -77,7 +77,7 @@ Die folgenden Aufgaben sollten monatlich ausgeführt werden:
 
   - [Kapazitätsüberprüfung in lync Server 2013](lync-server-2013-capacity-review.md)
 
-  - [Notfallwiederherstellungstest in Lync Server 2013](lync-server-2013-disaster-recovery-test.md)
+  - [Notfall Wiederherstellungstest in lync Server 2013](lync-server-2013-disaster-recovery-test.md)
 
 </div>
 
@@ -86,7 +86,7 @@ Die folgenden Aufgaben sollten monatlich ausgeführt werden:
 ## <a name="see-also"></a>Siehe auch
 
 
-[Checkliste für monatliche Aufgaben](lync-server-2013-operations-checklists.md)  
+[Prüfliste für monatliche Aufgaben](lync-server-2013-operations-checklists.md)  
   
 
 </div>

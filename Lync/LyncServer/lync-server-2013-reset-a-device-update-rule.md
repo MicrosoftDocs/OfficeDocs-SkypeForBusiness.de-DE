@@ -12,16 +12,16 @@ ms:contentKeyID: 51803980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36a85ed29f6bf4838428af302904d80a2f792388
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c1079236ceab3fda42b1920675761f272333d264
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723765"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42050997"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41723765"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Wenn Ihnen die Funktionsweise eines Updates auf Ihren Testgeräten nicht gefällt, können Sie die geräteaktualisierungsregel zurücksetzen, wodurch der Status der Regel ausstehend entfernt und das Update von den Testgeräten deinstalliert wird.
+Wenn Ihnen die Art und Weise, wie ein Update auf Ihren Testgeräten funktioniert, nicht gefällt, können Sie die geräteaktualisierungsregel zurücksetzen, die den ausstehenden Status der Regel entfernt und das Update von den Testgeräten deinstalliert.
 
-Sie können eine geräteaktualisierungsregel entweder mithilfe der lync Server-Systemsteuerung oder mit Windows PowerShell entfernen.
+Sie können eine geräteaktualisierungsregel entweder mithilfe von lync Server-Systemsteuerung oder Windows PowerShell entfernen.
 
 <div>
 
 
 > [!NOTE]  
-> Wenn Sie eine Regel deinstallieren möchten, die Sie bereits genehmigt haben (also ein Rollup durchgeführt haben), stellen Sie Sie wieder her. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-restore-a-device-update-rule.md">Wiederherstellen einer geräteaktualisierungsregel in lync Server 2013</A>.
+> Um eine Regel zu deinstallieren, die Sie bereits genehmigt haben (Dies ist ein Rollback), stellen Sie Sie wieder her. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-restore-a-device-update-rule.md">Wiederherstellen einer geräteaktualisierungsregel in lync Server 2013</A>.
 
 
 
@@ -53,29 +53,29 @@ Sie können eine geräteaktualisierungsregel entweder mithilfe der lync Server-S
 
 <div>
 
-## <a name="to-reset-a-device-update-rule-by-using-lync-server-control-panel"></a>So setzen Sie eine geräteaktualisierungsregel mithilfe der lync Server-Systemsteuerung zurück
+## <a name="to-reset-a-device-update-rule-by-using-lync-server-control-panel"></a>So setzen Sie eine geräteaktualisierungsregel mithilfe von lync Server-Systemsteuerung zurück
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Schaltfläche **Geräte Update** -Navigation.
+3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Navigationsschaltfläche **Geräte Update** .
 
-4.  Führen Sie auf der Seite **Device Update** eine der folgenden Aktionen aus:
+4.  Führen Sie auf der Seite **Geräte Update** einen der folgenden Schritte aus:
     
       - Um eine Regel zurückzusetzen, wählen Sie die Regel aus, die Sie zurücksetzen möchten.
     
-      - Wenn Sie alle Regeln zurücksetzen möchten, klicken Sie im Menü **Bearbeiten** auf **Alles markieren**.
+      - Klicken Sie im Menü **Bearbeiten** auf **Alle auswählen**, um alle Regeln zurückzusetzen.
     
       - Wenn Sie alle Regeln für eine Marke zurücksetzen möchten, verwenden Sie das Menü **Marken** Spalte.
 
-5.  Klicken Sie auf **Aktion**und dann auf **ausstehende Updates Abbrechen**.
+5.  Klicken Sie auf **Aktion**, und klicken Sie dann auf **ausstehende Updates Abbrechen**.
     
     <div>
     
 
     > [!TIP]  
-    > Wenn Sie sicher sind, dass Sie die von Ihnen stornierten geräteaktualisierungsregeln nie aufrollen möchten, sollten Sie Sie möglicherweise löschen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-remove-a-device-update-rule.md">Entfernen einer geräteaktualisierungsregel in lync Server 2013</A>.
+    > Wenn Sie sicher sind, dass Sie die von Ihnen abgebrochenen geräteaktualisierungsregeln nie Ausrollen möchten, können Sie Sie möglicherweise löschen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-remove-a-device-update-rule.md">Entfernen einer geräteaktualisierungsregel in lync Server 2013</A>.
 
     
     </div>
@@ -86,13 +86,13 @@ Sie können eine geräteaktualisierungsregel entweder mithilfe der lync Server-S
 
 ## <a name="resetting-a-device-update-rule-by-using-windows-powershell-cmdlets"></a>Zurücksetzen einer geräteaktualisierungsregel mithilfe von Windows PowerShell-Cmdlets
 
-Geräteaktualisierungsregeln können auch mithilfe von Windows PowerShell und dem Cmdlet **Reset-CsDeviceUpdateRule** zurückgesetzt werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden.
+Geräteaktualisierungsregeln können auch mithilfe von Windows PowerShell und dem Cmdlet **Reset-CsDeviceUpdateRule** zurückgesetzt werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden.
 
 <div>
 
 
 > [!NOTE]  
-> Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>Remote-PowerShell" unter.
+> Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>mithilfe von Remote-PowerShell" unter.
 
 
 
@@ -102,7 +102,7 @@ Geräteaktualisierungsregeln können auch mithilfe von Windows PowerShell und de
 
 ## <a name="to-reset-a-specific-device-update-rule-on-a-server"></a>So setzen Sie eine bestimmte geräteaktualisierungsregel auf einem Server zurück
 
-  - Mit dem folgenden Befehl wird die geräteaktualisierungsregel d5ce3c10-2588-420A-82ac-dc2d9b1222ff9 auf dem Webserver ATL-CS-001.litwareinc.com zurückgesetzt:
+  - Mit dem folgenden Befehl wird die geräteaktualisierungsregel d5ce3c10-2588-420A-82ac-dc2d9b1222ff9 "auf dem Webserver ATL-CS-001.litwareinc.com zurückgesetzt:
     
         Reset-CsDeviceUpdateRule -Identity "service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9"
 
@@ -120,9 +120,9 @@ Geräteaktualisierungsregeln können auch mithilfe von Windows PowerShell und de
 
 <div>
 
-## <a name="to-reset-all-the-device-updates-rules-that-have-a-specific-brand"></a>So setzen Sie alle Geräteupdate Regeln mit einer bestimmten Marke zurück
+## <a name="to-reset-all-the-device-updates-rules-that-have-a-specific-brand"></a>So setzen Sie alle Geräteupdate Regeln zurück, die eine bestimmte Marke aufweisen
 
-  - In diesem Beispiel werden alle Geräte Updates in der gesamten Organisation, die eine Marke von Microsoft aufweisen, zurückgesetzt:
+  - In diesem Beispiel werden alle Geräte Updates in der gesamten Organisation zurückgesetzt, deren Marke Microsoft entspricht:
     
         Get-CsDeviceUpdateRule | Where-Object {$_.Brand -eq "Microsoft"} | Reset-CsDeviceUpdateRule
 

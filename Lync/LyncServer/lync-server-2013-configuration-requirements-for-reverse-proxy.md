@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurationsanforderungen für Reverse-Proxy'
+title: 'Lync Server 2013: Konfigurationsanforderungen für Reverse Proxy'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37a2a535ddaa90efa2f4140236b52788fa58e41a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: efa0124bb66974755a7cae0ab799dc66cc48fd1e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741375"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42040533"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Konfigurationsanforderungen für den Reverse Proxy in lync Server 2013
+# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a>Konfigurationsanforderungen für Reverse Proxy in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41741375"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-05_
+_**Letztes Änderungsstand des Themas:** 2013-03-05_
 
-Lync Server 2013 erlegt den externen Clients einige Anforderungen auf, die an die externen Webdienste weitergegeben werden, die auf dem Director, Director-Pool, Front-End-Server oder Front-End-Pool gehostet werden. Der Reverse-Proxy ist auch für die Veröffentlichung des Office Web Apps-Servers verantwortlich, wenn Sie Ihren Benutzern Konferenzen anbieten.
+Lync Server 2013 auferlegt eine Reihe von Anforderungen für die Kommunikation vom externen Client, die dann an die externen Webdienste übergeben werden, die auf dem Director, Directorpool, Front-End-Server oder Front-End-Pool gehostet werden. Der Reverseproxy ist auch für die Veröffentlichung des Office-webapps-Servers zuständig, wenn Sie den Benutzern Konferenzen anbieten.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server 2013 gibt keinen bestimmten Reverse-Proxy an, den Sie verwenden müssen. Lync Server 2013 definiert nur betriebliche Anforderungen, die der Reverse-Proxy erfüllen muss. In der Regel kann der umgekehrte Proxy, den Sie bereits in Ihrer Infrastruktur bereitgestellt haben, die Anforderungen erfüllen.
+> In lync Server 2013 wird kein bestimmter Reverseproxy angegeben, den Sie verwenden müssen. In lync Server 2013 werden nur die betrieblichen Anforderungen definiert, die der Reverseproxy in der Lage sein muss. In der Regel können der Reverseproxy, den Sie bereits in Ihrer Infrastruktur bereitgestellt haben, die Anforderungen erfüllen.
 
 
 
@@ -51,31 +51,31 @@ Lync Server 2013 erlegt den externen Clients einige Anforderungen auf, die an di
 
 <div>
 
-## <a name="reverse-proxy-requirements"></a>Reverse Proxy-Anforderungen
+## <a name="reverse-proxy-requirements"></a>Reverseproxyanforderungen
 
-Die funktionsvorgänge, die lync Server 2013 von einem Reverse-Proxy erwartet, sind:
+Bei den Funktions Vorgängen, die von einem Reverseproxy erwartet werden, handelt es sich um folgende Aufgaben: lync Server 2013
 
-  - Verwenden Sie Secure Socket Layer (SSL) und TLS (Transport Layer Security) mithilfe von Zertifikaten, die von einer öffentlichen Zertifizierungsstelle zum Herstellen einer Verbindung mit den veröffentlichten externen Webdiensten des Director-, Director-Pools, Front-End-Servers oder Front-End-Pools erworben wurden. Der Director und der Front-End-Server können in einem Lastenausgleichspool mithilfe von Hardwarelastenausgleichs verwendet werden.
+  - Verwenden Sie SSL (Secure Socket Layer) und TLS (Transport Layer Security) mithilfe von Zertifikaten, die von einer öffentlichen Zertifizierungsstelle erworben wurden, um eine Verbindung mit den veröffentlichten externen Webdiensten des Directors, Directorpool, Front-End-Server oder Front-End-Pool herzustellen. Der Director und der Front-End-Server können sich in einem Lastenausgleichspool mit Hardwarelastenausgleich befinden.
 
-  - In der Lage, interne Websites mithilfe von Zertifikaten für die Verschlüsselung zu veröffentlichen oder Sie bei Bedarf über ein unverschlüsseltes Mittel zu veröffentlichen.
+  - Die Möglichkeit, interne Websites mit Zertifikaten für die Verschlüsselung zu veröffentlichen oder Sie bei Bedarf über einen unverschlüsselten Weg zu veröffentlichen.
 
-  - Sie können eine intern gehostete Website extern mit einem vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) veröffentlichen.
+  - Kann eine intern gehostete Website extern mithilfe eines vollqualifizierten Domänennamens (Fully Qualified Domain Name, FQDN) veröffentlichen.
 
-  - Kann alle Inhalte der gehosteten Website veröffentlichen. Standardmäßig können Sie die ** / ** von den meisten Webservern erkannte Direktive verwenden, um "alle Inhalte auf dem Webserver veröffentlichen" zu verstehen. Sie können die Direktive auch ändern, beispielsweise **/UWCA/\***, was bedeutet, dass "alle Inhalte unter dem virtuellen Verzeichnis Ucwa veröffentlicht werden".
+  - Alle Inhalte der gehosteten Website können veröffentlicht werden. Standardmäßig können Sie die ** / ** von den meisten Webservern erkannte Direktive verwenden, um "alle Inhalte auf dem Webserver veröffentlichen" zu verstehen. Sie können die Direktive auch ändern, beispielsweise **/UWCA/\***, was bedeutet "Veröffentlichen aller Inhalte unter dem virtuellen Verzeichnis Ucwa".
 
-  - Muss konfigurierbar sein, damit SSL (Secure Sockets Layer) und/oder TLS-Verbindungen (Transport Layer Security) mit Clients erforderlich sind, die Inhalte von einer veröffentlichten Website anfordern.
+  - Muss konfigurierbar sein, damit Secure Sockets Layer (SSL) und/oder TLS-Verbindungen (Transport Layer Security) mit Clients erforderlich sind, die Inhalte von einer veröffentlichten Website anfordern.
 
-  - Sie müssen Zertifikate mit San-Einträgen (Subject Alternative Name) akzeptieren.
+  - Zertifikate mit den Einträgen des alternativen Antragstellernamens müssen akzeptiert werden.
 
-  - Muss in der Lage sein, die Bindung eines Zertifikats an einen Listener oder eine Schnittstelle zu ermöglichen, über die der FQDN des externen Webdiensts aufgelöst wird. Listenerkonfigurationen sind Schnittstellen vorzuziehen. Viele Listener können in einer einzelnen Schnittstelle konfiguriert werden.
+  - Muss in der Lage sein, das Binden eines Zertifikats an einen Listener oder eine Schnittstelle zuzulassen, über die der FQDN der externen Webdienste aufgelöst wird. Listener-Konfigurationen sind Schnittstellen vorzuziehen. Viele Listener können auf einer einzigen Schnittstelle konfiguriert werden.
 
-  - Muss für die Konfiguration der Hostheader Behandlung zugelassen werden. Häufig muss der vom anfordernden Client gesendete ursprüngliche Hostheader transparent übergeben werden, anstatt vom Reverse-Proxy geändert zu werden.
+  - Die Konfiguration der Hostheader Behandlung muss zugelassen werden. Häufig muss der vom anfordernden Client gesendete ursprüngliche Hostheader transparent übergeben werden, anstatt vom Reverseproxy geändert zu werden.
 
-  - Bridging des SSL-und TLS-Datenverkehrs von einem extern definierten Port (beispielsweise TCP 443) zu einem anderen definierten Port (beispielsweise TCP 4443). Der Reverse-Proxy entschlüsselt das Paket möglicherweise beim Empfang und verschlüsselt das Paket beim Senden erneut.
+  - Überbrückung von SSL-und TLS-Datenverkehr von einem extern definierten Port (beispielsweise TCP 443) an einen anderen definierten Port (beispielsweise TCP 4443). Der Reverseproxy kann das Paket beim Empfang entschlüsseln und dann das Paket beim Senden erneut verschlüsseln.
 
-  - Bridging des unverschlüsselten TCP-Datenverkehrs von einem Port (beispielsweise TCP 80) zu einem anderen (beispielsweise TCP 8080).
+  - Überbrückung von unverschlüsseltem TCP-Datenverkehr von einem Port (beispielsweise TCP 80) an einen anderen (beispielsweise TCP 8080).
 
-  - Erlauben Sie die Konfiguration von oder akzeptieren Sie die NTLM-Authentifizierung, keine Authentifizierung und Pass-Through-Authentifizierung.
+  - Zulassen der Konfiguration von, oder akzeptieren, NTLM-Authentifizierung, keine Authentifizierung und Pass-Through-Authentifizierung.
 
 </div>
 

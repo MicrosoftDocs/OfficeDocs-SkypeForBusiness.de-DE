@@ -12,16 +12,16 @@ ms:contentKeyID: 51541523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e870b68d1252ea5a203b3c334299fb65b6a56512
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c0643cf250e00b447bfac8a1b32c2a3038cff139
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733215"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051087"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41733215"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-18_
+_**Letztes Änderungsstand des Themas:** 2013-02-18_
 
-Wenn auf einem Server, auf dem eine der folgenden Serverrollen ausgeführt wird, ein Fehler auftritt, führen Sie die Schritte in diesem Thema aus, um den Server wiederherzustellen. Wenn mehrere Server unabhängig voneinander auftreten, führen Sie das Verfahren für jeden Server aus.
+Wenn ein Server mit einer der folgenden Serverrollen ausfällt, führen Sie das Verfahren in diesem Thema aus, um den Server wiederherzustellen. Sollten mehrere Server unabhängig voneinander ausfallen, führen Sie diese Schritte für jeden einzelnen Server aus.
 
   - Front-End-Server
 
@@ -53,7 +53,7 @@ Wenn auf einem Server, auf dem eine der folgenden Serverrollen ausgeführt wird,
 
 
 > [!TIP]  
-> Wir empfehlen, dass Sie eine Image-Kopie des Systems erstellen, bevor Sie mit der Wiederherstellung beginnen. Sie können dieses Bild als Rollback-Punkt verwenden, falls während der Wiederherstellung etwas schief geht. Möglicherweise möchten Sie das Abbild kopieren, nachdem Sie das Betriebssystem und SQL Server installiert haben, und die Zertifikate wiederherstellen oder erneut registrieren.
+> Es wird empfohlen, eine Abbild Kopie des Systems zu erstellen, bevor Sie mit der Wiederherstellung beginnen. Sie können dieses Bild als Rollback-Argument verwenden, falls während der Wiederherstellung etwas schief geht. Möglicherweise möchten Sie das Abbild kopieren, nachdem Sie das Betriebssystem installiert und SQL Server und die Zertifikate wiederhergestellt oder erneut registriert haben.
 
 
 
@@ -63,32 +63,32 @@ Wenn auf einem Server, auf dem eine der folgenden Serverrollen ausgeführt wird,
 
 ## <a name="to-restore-a-member-server"></a>So stellen Sie einen Mitgliedsserver wieder her
 
-1.  Beginnen Sie mit einem sauberen oder neuen Server, der den gleichen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) wie der fehlerhafte Server aufweist, installieren Sie das Betriebssystem, und stellen Sie die Zertifikate dann wieder her oder registrieren Sie Sie erneut.
+1.  Beginnen Sie mit einem sauberen oder neuen Server mit dem gleichen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) als fehlerhaften Server, installieren Sie das Betriebssystem, und stellen Sie dann die Zertifikate wieder her oder registrieren Sie Sie erneut.
     
     <div>
     
 
     > [!NOTE]  
-    > Befolgen Sie die Server Bereitstellungsverfahren Ihrer Organisation, um diesen Schritt ausführen zu können.
+    > Gehen Sie nach den in Ihrer Organisation gültigen Verfahren für die Serverbereitstellung vor, um diesen Schritt durchzuführen.
 
     
     </div>
 
-2.  Melden Sie sich von einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist, bei dem Server an, den Sie wiederherstellen möchten.
+2.  Melden Sie sich von einem Benutzerkonto, das Mitglied der Gruppe RTCUniversalServerAdmins ist, bei dem Server an, den Sie wiederherstellen.
 
-3.  Navigieren Sie zum lync Server-Installationsordner oder-Medium, und starten Sie den lync Server- \\Bereitstellungs-Assistenten unter Setup\\amd64\\Setup. exe.
+3.  Wechseln Sie zum lync Server Installationsordner oder Medien, und starten Sie den lync Server-Bereitstellungs \\-\\Assistenten\\, der sich unter Setup amd64 Setup. exe befindet.
 
-4.  Folgen Sie dem Bereitstellungs-Assistenten, um folgende Aktionen auszuführen:
+4.  Folgen Sie dem Bereitstellungs-Assistenten, um folgende Schritte auszuführen:
     
-    1.  Führen Sie **Schritt 1: Installieren des lokalen Konfigurationsspeichers** aus, um die lokalen Konfigurationsdateien zu installieren.
+    1.  Führen Sie **Schritt 1: Lokalen Konfigurationsspeicher installieren** aus, um die lokalen Konfigurationsdateien zu installieren.
     
-    2.  Führen **Sie Schritt 2: Einrichten oder Entfernen von lync Server-Komponenten** aus, um die lync Server-Serverrolle zu installieren.
+    2.  Führen **Sie Schritt 2: Einrichten oder Entfernen von lync Server Komponenten** aus, um die lync Server-Server Rolle zu installieren.
     
-    3.  Führen Sie **Schritt 3 aus: anfordern, installieren oder Zuweisen von Zertifikaten** zum Zuweisen der Zertifikate.
+    3.  Führen Sie **Schritt 3: Zertifikate anfordern, installieren oder zuweisen** aus, um die Zertifikate zuzuweisen.
     
-    4.  Führen Sie **Schritt 4: Dienste starten** aus, um Dienste auf dem Server zu starten.
+    4.  Führen Sie **Schritt 4: Dienste starten** aus, um die Dienste auf dem Server zu starten.
     
-    Details zum Ausführen des Bereitstellungs-Assistenten finden Sie in der Bereitstellungsdokumentation für die Serverrolle, die Sie wiederherstellen.
+    Ausführliche Informationen zum Ausführen des Bereitstellungs-Assistenten finden Sie in der Bereitstellungsdokumentation für die Serverrolle, die Sie wiederherstellen.
 
 </div>
 

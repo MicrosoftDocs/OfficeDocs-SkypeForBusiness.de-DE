@@ -12,16 +12,16 @@ ms:contentKeyID: 51541417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 394f73c83f1981e4c4ee1528c1623f6424d2a85a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a856a44a82af84f4881e487c5f853deeede72e07
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743565"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42038307"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41743565"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-19_
+_**Letztes Änderungsstand des Themas:** 2013-02-19_
 
-Es gibt verschiedene Hardware-, Software-und Systemkonfigurations Anforderungen, die Sie zum Ausführen des lync Server 2013-Stress-und-Leistungstools benötigen.
+Es gibt verschiedene Hardware-, Software-und Systemkonfigurations Anforderungen, die Sie zum Ausführen des lync Server 2013 Stress-und Leistungstools benötigen.
 
 <div>
 
 ## <a name="client-hardware-requirements"></a>Client Hardware Anforderungen
 
-Zum Ausführen des lync Server 2013-Leistungs-und Leistungstools für die lync Server 2013-Bereitstellung benötigen Sie für jeden 4.500-Benutzer, dessen Auslastung Sie simulieren möchten, mindestens einen dedizierten Computer, der die folgenden minimalen Hardwareanforderungen erfüllt:
+Um das Tool für die lync Server 2013 Spannung und Leistung in ihrer lync Server 2013-Bereitstellung auszuführen, benötigen Sie für jeden 4.500-Benutzer, dessen Auslastung Sie simulieren möchten, mindestens einen dedizierten Computer, der die folgenden minimalen Hardwareanforderungen erfüllt:
 
-  - 1 Gigabitnetzwerkadapter
+  - 1 Gigabit-Netzwerkadapter
 
-  - 8 GB Arbeitsspeicher
+  - 8 GB RAM
 
-  - 2 Dual-Core-Prozessoren (Central Processing Units, CPUs)
+  - 2 Dual-Core-zentral Verarbeitungseinheiten (CPUs)
 
 </div>
 
@@ -57,17 +57,17 @@ Zum Ausführen des lync Server 2013-Leistungs-und Leistungstools für die lync S
 
 ## <a name="client-software-requirements"></a>Client Software Anforderungen
 
-Die unterstützten Betriebssysteme sind für das Ausführen des lync Server 2013-Stress-und-Leistungstools auf Ihrer lync Server 2013-Bereitstellung:
+Zum Ausführen des lync Server 2013 Stress and Performance-Tools in ihrer lync Server 2013-Bereitstellung sind die folgenden Betriebssysteme unterstützt:
 
-  - Betriebssystem Windows Server 2012
+  - Windows Server 2012 Betriebssystem
 
-  - Windows Server 2008-Betriebssystem (64-Bit-Edition)
+  - Windows Server 2008 Betriebssystem (64-Bit-Edition)
 
-Ihr Clientcomputer muss die folgenden Softwareanforderungen erfüllen:
+Der Clientcomputer muss die folgenden Softwareanforderungen erfüllen:
 
-  - Sie müssen die [Microsoft .NET Framework 4,5](http://go.microsoft.com/fwlink/?linkid=143212) -Runtime installiert haben.
+  - Sie müssen die [Microsoft .NET Framework 4.5](http://go.microsoft.com/fwlink/?linkid=143212) Laufzeit installiert haben.
 
-  - Unter Windows Server 2008/Windows Server 2012 muss das Feature "Desktop Experience" aktiviert sein.
+  - In Windows Server 2008/Windows Server 2012 muss das Feature "Desktop Darstellung" aktiviert sein.
 
   - Sie müssen das [Microsoft Visual C++ 2012 Redistributable Package](http://go.microsoft.com/fwlink/?linkid=143216) (x64) installiert haben.
 
@@ -77,7 +77,7 @@ Ihr Clientcomputer muss die folgenden Softwareanforderungen erfüllen:
 
 
 > [!IMPORTANT]  
-> Microsoft Unified Communications Managed API (UCMA) 4,0-Bibliotheken sind im Installationspaket enthalten, daher ist UCMA nicht erforderlich und sollte nicht auf Clientcomputern installiert werden.
+> Verwaltete API von Microsoft Unified Communications (UCMA) 4,0-Bibliotheken sind im Installationspaket enthalten, daher ist UCMA nicht erforderlich und sollte nicht auf Clientcomputern installiert werden.
 
 
 
@@ -89,15 +89,15 @@ Ihr Clientcomputer muss die folgenden Softwareanforderungen erfüllen:
 
 ## <a name="configuration-requirements"></a>Konfigurationsanforderungen
 
-Die Computer, auf denen das Stress-und Leistungs Tool lync Server 2013 ausgeführt wird, müssen entsprechend den folgenden Anforderungen konfiguriert sein:
+Die Computer, auf denen das lync Server 2013 Stress-und Leistungs Tool ausgeführt wird, müssen entsprechend den folgenden Anforderungen konfiguriert werden:
 
 1.  Sie müssen als Mitglied der Gruppe "Domänen" oder "lokale Administratoren" angemeldet sein.
 
-2.  Das lync Server 2013-Stress-und-Leistungs Tool (LyncPerfTool. exe) kann nicht auf einem Computer ausgeführt werden, auf dem ebenfalls lync Server 2013-Komponenten ausgeführt werden.
+2.  Lync Server 2013 Stress and Performance Tool (LyncPerfTool. exe) kann nicht auf einem Computer ausgeführt werden, auf dem auch lync Server 2013-Komponenten ausgeführt werden.
 
-3.  Sie müssen das lync Server 2013-Benutzer Erstellungstool (UserProvisioningTool. exe) auf dem Front-End-Server oder auf dem Standard Edition-Server ausführen, auf dem sich die Benutzerkonten befinden. Wenn das Tool mehrmals ausgeführt wird, muss jeder Benutzer, der für Microsoft Unified Communications aktiviert ist, über eine eindeutige Telefonnummer verfügen.
+3.  Sie müssen das lync Server 2013-Benutzer Erstellungstool (UserProvisioningTool. exe) auf der Front-End-Server oder auf dem Standard Edition-Server ausführen, in dem sich die Benutzerkonten befinden. Wenn das Tool mehrmals ausgeführt wird, muss jeder Benutzer, der für Microsoft Unified Communications aktiviert ist, über eine eindeutige Telefonnummer verfügen.
 
-4.  Die Größe der Auslagerungsdatei sollte vom System verwaltet werden, oder Sie sollte mindestens 1,5 mal so viel RAM auf dem System aufweisen.
+4.  Die Größe der Auslagerungsdatei sollte vom System verwaltet werden oder sollte mindestens 1,5 mal so groß sein wie der RAM-Wert des Systems.
 
 </div>
 

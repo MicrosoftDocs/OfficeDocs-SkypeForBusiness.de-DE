@@ -12,20 +12,20 @@ ms:contentKeyID: 49733784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11cd9e2bb894f5fcb2230d08939d29852fba3fcd
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ccb92b69c16f6dd45eedb584f0f63294dcbea4c0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738815"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037133"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-call-admission-control-in-lync-server-2013"></a>Verwalten der Anruf Zulassungs Steuerung in lync Server 2013
+# <a name="managing-call-admission-control-in-lync-server-2013"></a>Verwalten der Anrufsteuerung in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41738815"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Der Anrufsteuerungsdienst ermittelt anhand der verfügbaren Netzwerkbandbreite, ob Kommunikationssitzungen (beispielsweise Sprach- oder Videoanrufe) in Echtzeit eingerichtet werden dürfen. Führen Sie die folgenden Verfahren aus, um unterschiedliche CAC-Features für Ihre lync Server 2013-Umgebung zu verwalten.
+Der Anrufsteuerungsdienst ermittelt anhand der verfügbaren Netzwerkbandbreite, ob Kommunikationssitzungen (beispielsweise Sprach- oder Videoanrufe) in Echtzeit eingerichtet werden dürfen. Verwenden Sie die folgenden Verfahren, um verschiedene CAC-Funktionen für Ihre lync Server 2013 Umgebung zu verwalten.
 
 <div>
 
@@ -45,11 +45,11 @@ Der Anrufsteuerungsdienst ermittelt anhand der verfügbaren Netzwerkbandbreite, 
 
   - [Aktivieren der Anrufsteuerung in lync Server 2013](lync-server-2013-enabling-call-admission-control.md)
 
-  - [Verwalten von Netzwerkbandbreite-Richtlinienprofilen in lync Server 2013](lync-server-2013-managing-network-bandwidth-policy-profiles.md)
+  - [Verwalten von Netzwerkband breiten Richtlinienprofilen in lync Server 2013](lync-server-2013-managing-network-bandwidth-policy-profiles.md)
 
   - [Netzwerkregionen in lync Server 2013](lync-server-2013-network-regions.md)
 
-  - [Netzwerkbereichs Routen in lync Server 2013](lync-server-2013-network-region-routes.md)
+  - [Netzwerk Regions Routen in lync Server 2013](lync-server-2013-network-region-routes.md)
 
   - [Anrufsteuerung für Websites in lync Server 2013](lync-server-2013-call-admission-control-for-sites.md)
 
@@ -57,7 +57,7 @@ Der Anrufsteuerungsdienst ermittelt anhand der verfügbaren Netzwerkbandbreite, 
 
   - [Verknüpfen von netzwerkregionen in lync Server 2013](lync-server-2013-linking-network-regions.md)
 
-  - [Verwalten von Netzwerk-Subnetzen in lync Server 2013](lync-server-2013-managing-network-subnets.md)
+  - [Verwalten von Netzwerk Subnetzen in lync Server 2013](lync-server-2013-managing-network-subnets.md)
 
 </div>
 
