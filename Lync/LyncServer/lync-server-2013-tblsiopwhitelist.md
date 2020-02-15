@@ -12,20 +12,20 @@ ms:contentKeyID: 48183310
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d85fc3dd6575433b605d6ce9100aacfde56782e5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 86ffecf185ab0c32c45e910d1821a33cbcabaea3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764065"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029176"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblsiopwhitelist-in-lync-server-2013"></a><span data-ttu-id="2a392-102">tblSiopWhiteList in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2a392-102">tblSiopWhiteList in Lync Server 2013</span></span>
+# <a name="tblsiopwhitelist-in-lync-server-2013"></a><span data-ttu-id="cbb9a-102">tblSiopWhiteList in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cbb9a-102">tblSiopWhiteList in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41764065"
 
 <span> </span>
 
-<span data-ttu-id="2a392-103">_**Letztes Änderungsdatum des Themas:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="2a392-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+<span data-ttu-id="cbb9a-103">_**Letztes Änderungsstand des Themas:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="cbb9a-103">_**Topic Last Modified:** 2012-06-28_</span></span>
 
-<span data-ttu-id="2a392-104">tblSiopWhiteList ist die Liste der registrierten Add-Ins, die Knoten zugeordnet werden können.</span><span class="sxs-lookup"><span data-stu-id="2a392-104">tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.</span></span>
+<span data-ttu-id="cbb9a-104">Bei "tblSiopWhiteList" handelt es sich um die Liste der registrierten Add-Ins, die mit Knoten verknüpft werden können.</span><span class="sxs-lookup"><span data-stu-id="cbb9a-104">tblSiopWhiteList is the list of registered add-ins that can be associated with nodes.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="2a392-105">Spalten</span><span class="sxs-lookup"><span data-stu-id="2a392-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="cbb9a-105">Spalten</span><span class="sxs-lookup"><span data-stu-id="cbb9a-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,32 +49,32 @@ ms.locfileid: "41764065"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2a392-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="2a392-106">Column</span></span></th>
-<th><span data-ttu-id="2a392-107">Typ</span><span class="sxs-lookup"><span data-stu-id="2a392-107">Type</span></span></th>
-<th><span data-ttu-id="2a392-108">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="2a392-108">Description</span></span></th>
+<th><span data-ttu-id="cbb9a-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="cbb9a-106">Column</span></span></th>
+<th><span data-ttu-id="cbb9a-107">Typ</span><span class="sxs-lookup"><span data-stu-id="cbb9a-107">Type</span></span></th>
+<th><span data-ttu-id="cbb9a-108">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="cbb9a-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2a392-109">siopID</span><span class="sxs-lookup"><span data-stu-id="2a392-109">siopID</span></span></p></td>
-<td><p><span data-ttu-id="2a392-110">GUID, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="2a392-110">GUID, not null</span></span></p></td>
-<td><p><span data-ttu-id="2a392-111">GUID des Add-Ins.</span><span class="sxs-lookup"><span data-stu-id="2a392-111">GUID of the add-in.</span></span></p></td>
+<td><p><span data-ttu-id="cbb9a-109">siopID</span><span class="sxs-lookup"><span data-stu-id="cbb9a-109">siopID</span></span></p></td>
+<td><p><span data-ttu-id="cbb9a-110">GUID, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="cbb9a-110">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="cbb9a-111">GUID des Add-Ins.</span><span class="sxs-lookup"><span data-stu-id="cbb9a-111">GUID of the add-in.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2a392-112">siopName</span><span class="sxs-lookup"><span data-stu-id="2a392-112">siopName</span></span></p></td>
-<td><p><span data-ttu-id="2a392-113">nvarchar (50); nicht NULL</span><span class="sxs-lookup"><span data-stu-id="2a392-113">nvarchar (50), not null</span></span></p></td>
-<td><p><span data-ttu-id="2a392-114">Anzeigename des Add-Ins.</span><span class="sxs-lookup"><span data-stu-id="2a392-114">Display-name of the add-in.</span></span></p></td>
+<td><p><span data-ttu-id="cbb9a-112">siopName</span><span class="sxs-lookup"><span data-stu-id="cbb9a-112">siopName</span></span></p></td>
+<td><p><span data-ttu-id="cbb9a-113">nvarchar (50), nicht NULL</span><span class="sxs-lookup"><span data-stu-id="cbb9a-113">nvarchar (50), not null</span></span></p></td>
+<td><p><span data-ttu-id="cbb9a-114">Anzeigename des Add-Ins.</span><span class="sxs-lookup"><span data-stu-id="cbb9a-114">Display-name of the add-in.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2a392-115">siopUrl</span><span class="sxs-lookup"><span data-stu-id="2a392-115">siopUrl</span></span></p></td>
-<td><p><span data-ttu-id="2a392-116">nvarchar (255); nicht NULL</span><span class="sxs-lookup"><span data-stu-id="2a392-116">nvarchar (255), not null</span></span></p></td>
-<td><p><span data-ttu-id="2a392-117">Die URL des Add-Ins.</span><span class="sxs-lookup"><span data-stu-id="2a392-117">URL of the add-in.</span></span></p></td>
+<td><p><span data-ttu-id="cbb9a-115">siopUrl</span><span class="sxs-lookup"><span data-stu-id="cbb9a-115">siopUrl</span></span></p></td>
+<td><p><span data-ttu-id="cbb9a-116">nvarchar (255), nicht NULL</span><span class="sxs-lookup"><span data-stu-id="cbb9a-116">nvarchar (255), not null</span></span></p></td>
+<td><p><span data-ttu-id="cbb9a-117">URL des Add-Ins.</span><span class="sxs-lookup"><span data-stu-id="cbb9a-117">URL of the add-in.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a><span data-ttu-id="2a392-118">Schlüssel</span><span class="sxs-lookup"><span data-stu-id="2a392-118">Key</span></span>
+### <a name="key"></a><span data-ttu-id="cbb9a-118">Key</span><span class="sxs-lookup"><span data-stu-id="cbb9a-118">Key</span></span>
 
 <table>
 <colgroup>
@@ -83,14 +83,14 @@ ms.locfileid: "41764065"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2a392-119">Spalte</span><span class="sxs-lookup"><span data-stu-id="2a392-119">Column</span></span></th>
-<th><span data-ttu-id="2a392-120">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="2a392-120">Description</span></span></th>
+<th><span data-ttu-id="cbb9a-119">Spalte</span><span class="sxs-lookup"><span data-stu-id="cbb9a-119">Column</span></span></th>
+<th><span data-ttu-id="cbb9a-120">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="cbb9a-120">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2a392-121">siopID</span><span class="sxs-lookup"><span data-stu-id="2a392-121">siopID</span></span></p></td>
-<td><p><span data-ttu-id="2a392-122">Primärschlüssel</span><span class="sxs-lookup"><span data-stu-id="2a392-122">Primary key.</span></span></p></td>
+<td><p><span data-ttu-id="cbb9a-121">siopID</span><span class="sxs-lookup"><span data-stu-id="cbb9a-121">siopID</span></span></p></td>
+<td><p><span data-ttu-id="cbb9a-122">Primärschlüssel</span><span class="sxs-lookup"><span data-stu-id="cbb9a-122">Primary key.</span></span></p></td>
 </tr>
 </tbody>
 </table>

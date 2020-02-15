@@ -12,20 +12,20 @@ ms:contentKeyID: 48184646
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9805f505896cb27b7e895c0a586ffff3c6847fdb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af8c376620c37af533aabec318ccbf1b1b745978
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757849"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028766"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-advanced-e9-1-1-features-in-lync-server-2013"></a><span data-ttu-id="8fc4f-102">Konfigurieren der erweiterten E9-1-1-Features in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8fc4f-102">Configure advanced E9-1-1 features in Lync Server 2013</span></span>
+# <a name="configure-advanced-e9-1-1-features-in-lync-server-2013"></a><span data-ttu-id="ac441-102">Konfigurieren der erweiterten E9-1-1-Features in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ac441-102">Configure advanced E9-1-1 features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41757849"
 
 <span> </span>
 
-<span data-ttu-id="8fc4f-103">_**Letztes Änderungsdatum des Themas:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="8fc4f-103">_**Topic Last Modified:** 2012-06-06_</span></span>
+<span data-ttu-id="ac441-103">_**Letztes Änderungsstand des Themas:** 2012-06-06_</span><span class="sxs-lookup"><span data-stu-id="ac441-103">_**Topic Last Modified:** 2012-06-06_</span></span>
 
-<span data-ttu-id="8fc4f-104">Lync Server 2013 umfasst die folgenden Features, die Sie verwenden können, um Ihre E9-1-1-Bereitstellung anzupassen:</span><span class="sxs-lookup"><span data-stu-id="8fc4f-104">Lync Server 2013 includes the following features that you can use to customize your E9-1-1 deployment:</span></span>
+<span data-ttu-id="ac441-104">Lync Server 2013 umfasst die folgenden Features, die Sie zum Anpassen Ihrer E9-1-1-Bereitstellung verwenden können:</span><span class="sxs-lookup"><span data-stu-id="ac441-104">Lync Server 2013 includes the following features that you can use to customize your E9-1-1 deployment:</span></span>
 
-  - <span data-ttu-id="8fc4f-105">Eine Webdienstschnittstelle zum Verbinden des Standort Informationsservers mit einer SNMP-Anwendung.</span><span class="sxs-lookup"><span data-stu-id="8fc4f-105">A web service interface to connect the Location Information Server to an SNMP application.</span></span>
+  - <span data-ttu-id="ac441-105">Eine Webdienstschnittstelle, um den Location Information Server mit einer SNMP-Anwendung zu verbinden.</span><span class="sxs-lookup"><span data-stu-id="ac441-105">A web service interface to connect the Location Information Server to an SNMP application.</span></span>
 
-  - <span data-ttu-id="8fc4f-106">Eine Webdienstschnittstelle zum Herstellen einer Verbindung mit einer sekundären Standort Quelldatenbank.</span><span class="sxs-lookup"><span data-stu-id="8fc4f-106">A web service interface to connect to a Secondary Location Source database.</span></span>
+  - <span data-ttu-id="ac441-106">Eine Webdienstschnittstelle für die Verbindung mit einer sekundären Standortdatenbank (Secondary Location Source, SLS).</span><span class="sxs-lookup"><span data-stu-id="ac441-106">A web service interface to connect to a Secondary Location Source database.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="8fc4f-107">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="8fc4f-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ac441-107">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="ac441-107">In This Section</span></span>
 
-  - [<span data-ttu-id="8fc4f-108">Konfigurieren einer SNMP-Anwendung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8fc4f-108">Configure an SNMP application in Lync Server 2013</span></span>](lync-server-2013-configure-an-snmp-application.md)
+  - [<span data-ttu-id="ac441-108">Konfigurieren einer SNMP-Anwendung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ac441-108">Configure an SNMP application in Lync Server 2013</span></span>](lync-server-2013-configure-an-snmp-application.md)
 
-  - [<span data-ttu-id="8fc4f-109">Konfigurieren eines sekundären Standort Informationsdiensts in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8fc4f-109">Configure a secondary Location Information service in Lync Server 2013</span></span>](lync-server-2013-configure-a-secondary-location-information-service.md)
+  - [<span data-ttu-id="ac441-109">Konfigurieren einer sekundären Standortinformationsdienst in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ac441-109">Configure a secondary Location Information service in Lync Server 2013</span></span>](lync-server-2013-configure-a-secondary-location-information-service.md)
 
 </div>
 

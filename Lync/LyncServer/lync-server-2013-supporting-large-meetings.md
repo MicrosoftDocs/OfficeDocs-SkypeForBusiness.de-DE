@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: unterstützen von umfangreichen Besprechungen'
+title: 'Lync Server 2013: Unterstützung für große Besprechungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d2c36d99bc5af62771aabb643df1223db3a291c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 73c9a5d2ad4688f622298378c84b61574048a3b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764301"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029756"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supporting-large-meetings-using-lync-server-2013"></a><span data-ttu-id="faba8-102">Unterstützen von umfangreichen Besprechungen mit lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="faba8-102">Supporting large meetings using Lync Server 2013</span></span>
+# <a name="supporting-large-meetings-using-lync-server-2013"></a><span data-ttu-id="414bf-102">Unterstützen großer Besprechungen mit lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="414bf-102">Supporting large meetings using Lync Server 2013</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41764301"
 
 <span> </span>
 
-<span data-ttu-id="faba8-103">_**Letztes Änderungsdatum des Themas:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="faba8-103">_**Topic Last Modified:** 2012-10-03_</span></span>
+<span data-ttu-id="414bf-103">_**Letztes Änderungsstand des Themas:** 2012-10-03_</span><span class="sxs-lookup"><span data-stu-id="414bf-103">_**Topic Last Modified:** 2012-10-03_</span></span>
 
-<span data-ttu-id="faba8-104">Große Besprechungen folgen nicht dem im vorherigen Abschnitt beschriebenen Testmodell, da Sie die folgenden Merkmale aufweisen:</span><span class="sxs-lookup"><span data-stu-id="faba8-104">Large meetings do not follow the test model described in the previous section because they have the following characteristics:</span></span>
+<span data-ttu-id="414bf-104">Große Besprechungen folgen nicht dem im vorherigen Abschnitt beschriebenen Testmodell, da Sie die folgenden Merkmale aufweisen:</span><span class="sxs-lookup"><span data-stu-id="414bf-104">Large meetings do not follow the test model described in the previous section because they have the following characteristics:</span></span>
 
-  - <span data-ttu-id="faba8-105">Das Besprechungsformat entspricht einem 1:n-Format.</span><span class="sxs-lookup"><span data-stu-id="faba8-105">The meeting format is a one-to-many presentation.</span></span>
+  - <span data-ttu-id="414bf-105">Das Besprechungs Format ist eine 1: n-Präsentation.</span><span class="sxs-lookup"><span data-stu-id="414bf-105">The meeting format is a one-to-many presentation.</span></span>
 
-  - <span data-ttu-id="faba8-106">Ein oder wenige Benutzer fungieren als Referenten, und alle anderen Benutzer sind Teilnehmer.</span><span class="sxs-lookup"><span data-stu-id="faba8-106">One or a few users are presenters, and everyone else participates only as attendees.</span></span>
+  - <span data-ttu-id="414bf-106">Ein oder mehrere Benutzer sind Referenten, und alle anderen Personen sind nur als Teilnehmer beteiligt.</span><span class="sxs-lookup"><span data-stu-id="414bf-106">One or a few users are presenters, and everyone else participates only as attendees.</span></span>
 
-  - <span data-ttu-id="faba8-107">Die Freigabe von PowerPoint-Präsentationen stellt die Hauptaktivität hinsichtlich der Datenzusammenarbeit dar.</span><span class="sxs-lookup"><span data-stu-id="faba8-107">PowerPoint presentation sharing is the main data collaboration activity.</span></span>
+  - <span data-ttu-id="414bf-107">PowerPoint-Präsentations Freigabe ist die Hauptaktivität der Datenzusammenarbeit.</span><span class="sxs-lookup"><span data-stu-id="414bf-107">PowerPoint presentation sharing is the main data collaboration activity.</span></span>
 
-  - <span data-ttu-id="faba8-108">Die Übertragung von Audiosignalen ist erforderlich, Videobilder können ebenfalls übertragen werden.</span><span class="sxs-lookup"><span data-stu-id="faba8-108">Audio is required and video may also be used.</span></span>
+  - <span data-ttu-id="414bf-108">Audio ist erforderlich, und Video kann auch verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="414bf-108">Audio is required and video may also be used.</span></span>
 
-  - <span data-ttu-id="faba8-109">Eine dedizierte Person, im Allgemeinen entweder der Besprechungsorganisator oder ein Assistent des Organisators, richtet die Besprechung rechtzeitig ein.</span><span class="sxs-lookup"><span data-stu-id="faba8-109">A dedicated person, generally either the meeting organizer or an assistant to the organizer sets up the meeting well in advance.</span></span>
+  - <span data-ttu-id="414bf-109">Eine dedizierte Person, in der Regel entweder der Besprechungsorganisator oder ein Assistent des Organisators, richtet die Besprechung rechtzeitig im Voraus ein.</span><span class="sxs-lookup"><span data-stu-id="414bf-109">A dedicated person, generally either the meeting organizer or an assistant to the organizer sets up the meeting well in advance.</span></span>
 
-  - <span data-ttu-id="faba8-110">Spezielle Mitarbeiter (nicht die Referenten) führen durch die Besprechung, kümmern sich um das Herstellen von Verbindungen zu Onlinebesprechungen, stellen sicher, dass das Teilen von Audio-, Video- und Folieninhalten funktioniert, verwalten den Wartebereich und die Benutzerrollen, schalten Teilnehmer stumm bzw. heben deren Stummschaltung auf, nehmen Fragen entgegen und verwalten Aufzeichnungen nach Bedarf.</span><span class="sxs-lookup"><span data-stu-id="faba8-110">Dedicated staff (not the presenters) runs the meeting, including connecting to an online meeting, verifying that audio, video, and slide sharing work, managing lobby and user roles, muting and unmuting participants, taking questions, and managing recordings, as appropriate.</span></span>
+  - <span data-ttu-id="414bf-110">Dedizierte Mitarbeiter (nicht die Referenten) führen die Besprechung aus, einschließlich der Verbindung mit einer Onlinebesprechung, der Überprüfung, ob Audio-, Video-und Folien Freigaben ausgeführt werden, die Verwaltung von Lobby-und Benutzerrollen, das stumm schalten und stumm schalten von Teilnehmern, das nehmen von Fragen und das Verwalten von Aufzeichnungen, wie entsprechenden.</span><span class="sxs-lookup"><span data-stu-id="414bf-110">Dedicated staff (not the presenters) runs the meeting, including connecting to an online meeting, verifying that audio, video, and slide sharing work, managing lobby and user roles, muting and unmuting participants, taking questions, and managing recordings, as appropriate.</span></span>
 
-<span data-ttu-id="faba8-111">Zur Unterstützung von umfangreichen Besprechungen mit bis zu 1000 Benutzern müssen die Probleme im Zusammenhang mit dem freigegebenen Hardwaremodell und dem nicht Reservierungs Modell behoben werden.</span><span class="sxs-lookup"><span data-stu-id="faba8-111">Supporting large meetings of up to 1000 users requires addressing the issues related to both the shared hardware model and the no-reservation model.</span></span>
+<span data-ttu-id="414bf-111">Die Unterstützung großer Besprechungen mit bis zu 1000 Benutzern erfordert die Behebung der Probleme im Zusammenhang mit dem freigegebenen Hardwaremodell und dem nicht Reservierungs Modell.</span><span class="sxs-lookup"><span data-stu-id="414bf-111">Supporting large meetings of up to 1000 users requires addressing the issues related to both the shared hardware model and the no-reservation model.</span></span>
 
-<span data-ttu-id="faba8-112">Um ausreichende Speicherressourcen sowie die erforderliche CPU-Leistung für Besprechungen mit bis zu 1.000 Teilnehmern bereitstellen zu können, sollten auf dem Front-End-Server, der als Host fungiert, keine anderen Sofortnachrichten-, Anwesenheits- oder Enterprise-VoIP-Arbeitslasten verarbeitet werden.</span><span class="sxs-lookup"><span data-stu-id="faba8-112">To have sufficient CPU and memory resources for meetings of up to 1000 users, the hosting Front End Servers should not host any other instant messaging (IM) and presence or Enterprise Voice workloads.</span></span> <span data-ttu-id="faba8-113">Es sollte auch keine anderen Besprechungen hosten, unabhängig von der Größe der anderen Besprechungen.</span><span class="sxs-lookup"><span data-stu-id="faba8-113">It should also not host any other meetings, regardless of the size of the other meetings.</span></span> <span data-ttu-id="faba8-114">Das bedeutet, dass für das Hosten von Besprechungen mit bis zu 1000 Benutzern ein separater lync Server-Pool eingerichtet werden muss, der für das Hosten von umfangreichen Besprechungen mit bis zu 1000 Benutzern dediziert ist.</span><span class="sxs-lookup"><span data-stu-id="faba8-114">This means that hosting meetings of up to 1000 users requires setting up a separate Lync Server pool that is dedicated to hosting large meetings of up to 1000 users.</span></span>
+<span data-ttu-id="414bf-112">Um über ausreichende CPU-und Arbeitsspeicherressourcen für Besprechungen mit bis zu 1000 Benutzern verfügen zu können, sollten die hostenden Front-End-Server keine anderen Chatnachrichten und Anwesenheits-oder Enterprise-VoIP-Arbeitslasten hosten.</span><span class="sxs-lookup"><span data-stu-id="414bf-112">To have sufficient CPU and memory resources for meetings of up to 1000 users, the hosting Front End Servers should not host any other instant messaging (IM) and presence or Enterprise Voice workloads.</span></span> <span data-ttu-id="414bf-113">Es sollte auch keine anderen Besprechungen hosten, unabhängig von der Größe der anderen Besprechungen.</span><span class="sxs-lookup"><span data-stu-id="414bf-113">It should also not host any other meetings, regardless of the size of the other meetings.</span></span> <span data-ttu-id="414bf-114">Dies bedeutet, dass das Hosten von Besprechungen mit bis zu 1000 Benutzern einen separaten lync Server Pool einrichten muss, der für das Hosten großer Besprechungen mit bis zu 1000 Benutzern vorgesehen ist.</span><span class="sxs-lookup"><span data-stu-id="414bf-114">This means that hosting meetings of up to 1000 users requires setting up a separate Lync Server pool that is dedicated to hosting large meetings of up to 1000 users.</span></span>
 
-<span data-ttu-id="faba8-115">Ein lync-Server Pool, der für das Hosten von umfangreichen Besprechungen dediziert ist, sollte nur eine Besprechung mit bis zu 1000 Benutzern gleichzeitig hosten, sodass Besprechungszeiten im Voraus über einen Out-of-Band-Planungsprozess reserviert werden müssen, um eine dedizierte Unterstützung vom Front-End-Serv zu gewährleisten. ERS.</span><span class="sxs-lookup"><span data-stu-id="faba8-115">A Lync Server pool that is dedicated to hosting large meetings should host one and only one meeting of up to 1000 users at the same time, so meeting times need to be reserved in advance via an out of band scheduling process to ensure dedicated support from the Front End Servers.</span></span> <span data-ttu-id="faba8-116">Wenn Sie mehrere große Besprechungen gleichzeitig unterstützen möchten, empfiehlt es sich, mehrere dedizierte große Besprechungs Pools einzurichten.</span><span class="sxs-lookup"><span data-stu-id="faba8-116">To support more than one large meeting at the same time, we recommend setting up multiple dedicated large-meeting pools.</span></span>
+<span data-ttu-id="414bf-115">Ein lync Server Pool, der für das Hosten großer Besprechungen vorgesehen ist, sollte nur eine Besprechung mit bis zu 1000 Benutzern gleichzeitig hosten, sodass Besprechungszeiten vorab über einen Out-of-Band-Planungsprozess reserviert werden müssen, um die dedizierte Unterstützung von der Front-End-Serv sicherzustellen. ERS.</span><span class="sxs-lookup"><span data-stu-id="414bf-115">A Lync Server pool that is dedicated to hosting large meetings should host one and only one meeting of up to 1000 users at the same time, so meeting times need to be reserved in advance via an out of band scheduling process to ensure dedicated support from the Front End Servers.</span></span> <span data-ttu-id="414bf-116">Zur gleichzeitigen Unterstützung mehrerer großer Besprechungen wird empfohlen, mehrere dedizierte große Besprechungs Pools einzurichten.</span><span class="sxs-lookup"><span data-stu-id="414bf-116">To support more than one large meeting at the same time, we recommend setting up multiple dedicated large-meeting pools.</span></span>
 
-<span data-ttu-id="faba8-117">Wir empfehlen, dass eine dedizierte Person den Online-Teil einer groß Besprechung ausführt und überwacht.</span><span class="sxs-lookup"><span data-stu-id="faba8-117">We recommend that a dedicated person run and monitor the online portion of a large meeting.</span></span> <span data-ttu-id="faba8-118">Diese Person kann je nach den Einstellungen des Unternehmens der Organisator, die Stellvertretung des Organisators oder Referenten oder ein Mitglied des dedizierten Teams für große Besprechungen sein.</span><span class="sxs-lookup"><span data-stu-id="faba8-118">This person might be the organizer, delegate of the organizer or presenter, or a member of the dedicated large meeting support team, depending on the organization’s preferences.</span></span>
+<span data-ttu-id="414bf-117">Es wird empfohlen, dass eine dedizierte Person den Online Teil einer großen Besprechung ausführt und überwacht.</span><span class="sxs-lookup"><span data-stu-id="414bf-117">We recommend that a dedicated person run and monitor the online portion of a large meeting.</span></span> <span data-ttu-id="414bf-118">Diese Person ist möglicherweise der Organisator, Stellvertreter des Organisators oder Referenten oder ein Mitglied des Support Teams für große Besprechungen, je nach den Einstellungen der Organisation.</span><span class="sxs-lookup"><span data-stu-id="414bf-118">This person might be the organizer, delegate of the organizer or presenter, or a member of the dedicated large meeting support team, depending on the organization’s preferences.</span></span>
 
-<span data-ttu-id="faba8-119">In den folgenden Abschnitten wird beschrieben, wie Sie einen dedizierten Pool für umfangreiche Besprechungen implementieren, einschließlich bewährter Methoden für die Verwendung von lync Server 2013 zur Unterstützung großer Besprechungs Szenarien.</span><span class="sxs-lookup"><span data-stu-id="faba8-119">In the following sections, we describe how to implement a dedicated pool for large meetings, including best practices for using Lync Server 2013 to support large meeting scenarios.</span></span>
+<span data-ttu-id="414bf-119">In den folgenden Abschnitten wird beschrieben, wie Sie einen dedizierten Pool für große Besprechungen implementieren, einschließlich bewährter Methoden für die Verwendung von lync Server 2013 zur Unterstützung großer Besprechungs Szenarien.</span><span class="sxs-lookup"><span data-stu-id="414bf-119">In the following sections, we describe how to implement a dedicated pool for large meetings, including best practices for using Lync Server 2013 to support large meeting scenarios.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="faba8-120">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="faba8-120">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="414bf-120">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="414bf-120">In This Section</span></span>
 
-  - [<span data-ttu-id="faba8-121">Einrichten der Unterstützung für umfangreiche Besprechungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="faba8-121">Setting up support for large meetings in Lync Server 2013</span></span>](lync-server-2013-setting-up-support-for-large-meetings.md)
+  - [<span data-ttu-id="414bf-121">Einrichten der Unterstützung für große Besprechungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="414bf-121">Setting up support for large meetings in Lync Server 2013</span></span>](lync-server-2013-setting-up-support-for-large-meetings.md)
 
-  - [<span data-ttu-id="faba8-122">Verwalten von umfangreichen Besprechungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="faba8-122">Managing large meetings in Lync Server 2013</span></span>](lync-server-2013-managing-large-meetings.md)
+  - [<span data-ttu-id="414bf-122">Verwalten großer Besprechungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="414bf-122">Managing large meetings in Lync Server 2013</span></span>](lync-server-2013-managing-large-meetings.md)
 
 </div>
 

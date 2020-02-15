@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von SQL Server'
+title: 'Lync Server 2013: Configure SQL Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184699
 ms.date: 01/22/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a074da011f02b0a78d0886badc991651bb7d9c91
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 28ab80634e7aeb4c3385c1fb60f0290a9cfe14ac
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733875"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42028926"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-sql-server-in-lync-server-2013"></a><span data-ttu-id="15b34-102">Konfigurieren von SQL Server in Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="15b34-102">Configure SQL Server in Lync Server 2013</span></span>
+# <a name="configure-sql-server-in-lync-server-2013"></a><span data-ttu-id="06ca1-102">Konfigurieren von SQL Server in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06ca1-102">Configure SQL Server in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41733875"
 
 <span> </span>
 
-<span data-ttu-id="15b34-103">_**Letztes Änderungsdatum des Themas:** 2015-01-22_</span><span class="sxs-lookup"><span data-stu-id="15b34-103">_**Topic Last Modified:** 2015-01-22_</span></span>
+<span data-ttu-id="06ca1-103">_**Letztes Änderungsstand des Themas:** 2015-01-22_</span><span class="sxs-lookup"><span data-stu-id="06ca1-103">_**Topic Last Modified:** 2015-01-22_</span></span>
 
-<span data-ttu-id="15b34-104">Für jede Datenbank, die Sie bereitstellen, können Sie eine einzelne SQL Server-Instanz für alle Datenbanken für Ihre lync Server 2013-Bereitstellung verwenden, die auf einem Daten Bank Server bereitgestellt werden können.</span><span class="sxs-lookup"><span data-stu-id="15b34-104">For each database that you deploy, you can use a single SQL Server instance for all databases for your Lync Server 2013 deployment that can be collocated on a database server.</span></span> <span data-ttu-id="15b34-105">Ausführliche Informationen zur Daten Bank Zusammenstellung finden Sie unter [unterstützte Server Zusammenstellung in lync Server 2013](lync-server-2013-supported-server-collocation.md) in der Dokumentation zur Unterstützung.</span><span class="sxs-lookup"><span data-stu-id="15b34-105">For details about database collocation, see [Supported server collocation in Lync Server 2013](lync-server-2013-supported-server-collocation.md) in the Supportability documentation.</span></span>
+<span data-ttu-id="06ca1-104">Für jede Datenbank, die Sie bereitstellen, können Sie eine einzelne SQL Server Instanz für alle Datenbanken für Ihre lync Server 2013-Bereitstellung verwenden, die auf einem Daten Bank Server zusammengestellt werden kann.</span><span class="sxs-lookup"><span data-stu-id="06ca1-104">For each database that you deploy, you can use a single SQL Server instance for all databases for your Lync Server 2013 deployment that can be collocated on a database server.</span></span> <span data-ttu-id="06ca1-105">Ausführliche Informationen zur Daten Bank Zusammenstellung finden Sie unter [Supported Server Colocation in lync Server 2013](lync-server-2013-supported-server-collocation.md) in der Unterstützungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="06ca1-105">For details about database collocation, see [Supported server collocation in Lync Server 2013](lync-server-2013-supported-server-collocation.md) in the Supportability documentation.</span></span>
 
-<span data-ttu-id="15b34-106">Darüber hinaus muss jede SQL Server-Instanz installiert und verfügbar sein, bevor Sie die Schritte im Topologie-Generator ausführen, die die Datenbankeneinrichten, oder die Datenbanken mit Windows PowerShell-Cmdlets manuell erstellen.</span><span class="sxs-lookup"><span data-stu-id="15b34-106">Additionally, each SQL Server instance must be installed and available prior to completing the steps in Topology Builder that set up the databases, or manually creating the databases with Windows PowerShell cmdlets.</span></span> <span data-ttu-id="15b34-107">Details zur Unterstützung von SQL Server finden Sie unter [Hardware-Setup für lync Server 2013](lync-server-2013-hardware-setup.md).</span><span class="sxs-lookup"><span data-stu-id="15b34-107">For details about SQL Server supportability, see [Hardware setup for Lync Server 2013](lync-server-2013-hardware-setup.md).</span></span>
+<span data-ttu-id="06ca1-106">Darüber hinaus muss jede SQL Server Instanz vor dem Ausführen der Schritte im Topologie-Generator, mit dem die Datenbanken eingerichtet wurden, oder manuelles Erstellen der Datenbanken mit Windows PowerShell-Cmdlets installiert und verfügbar sein.</span><span class="sxs-lookup"><span data-stu-id="06ca1-106">Additionally, each SQL Server instance must be installed and available prior to completing the steps in Topology Builder that set up the databases, or manually creating the databases with Windows PowerShell cmdlets.</span></span> <span data-ttu-id="06ca1-107">Ausführliche Informationen zur SQL Server-Unterstützung finden Sie unter [Hardware-Setup für lync Server 2013](lync-server-2013-hardware-setup.md).</span><span class="sxs-lookup"><span data-stu-id="06ca1-107">For details about SQL Server supportability, see [Hardware setup for Lync Server 2013](lync-server-2013-hardware-setup.md).</span></span>
 
 <div>
 
-## <a name="to-install-microsoft-sql-server-2012"></a><span data-ttu-id="15b34-108">So installieren Sie Microsoft SQL Server 2012</span><span class="sxs-lookup"><span data-stu-id="15b34-108">To install Microsoft SQL Server 2012</span></span>
+## <a name="to-install-microsoft-sql-server-2012"></a><span data-ttu-id="06ca1-108">So installieren Sie Microsoft SQL Server 2012</span><span class="sxs-lookup"><span data-stu-id="06ca1-108">To install Microsoft SQL Server 2012</span></span>
 
-  - <span data-ttu-id="15b34-109">Weitere Informationen finden Sie in der Microsoft SQL Server <https://technet.microsoft.com/en-us/library/bb500395(v=sql.110).aspx>2012-Dokumentation unter:.</span><span class="sxs-lookup"><span data-stu-id="15b34-109">See the Microsoft SQL Server 2012 documentation at: <https://technet.microsoft.com/en-us/library/bb500395(v=sql.110).aspx>.</span></span>
+  - <span data-ttu-id="06ca1-109">Siehe Microsoft SQL Server 2012-Dokumentation unter: <https://technet.microsoft.com/library/bb500395(v=sql.110).aspx>.</span><span class="sxs-lookup"><span data-stu-id="06ca1-109">See the Microsoft SQL Server 2012 documentation at: <https://technet.microsoft.com/library/bb500395(v=sql.110).aspx>.</span></span>
 
 </div>
 

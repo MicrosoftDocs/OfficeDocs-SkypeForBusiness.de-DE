@@ -12,20 +12,20 @@ ms:contentKeyID: 49733599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0aa0b83e2e206421300d16faf220b3fa0bb81503
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 31a6036421dd84f466df0f2353b6d5264e0680c2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762923"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029106"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrate-existing-meetings-and-meeting-content"></a><span data-ttu-id="de2d9-102">Migrieren vorhandener Besprechungen und Besprechungsinhalte</span><span class="sxs-lookup"><span data-stu-id="de2d9-102">Migrate existing meetings and meeting content</span></span>
+# <a name="migrate-existing-meetings-and-meeting-content"></a><span data-ttu-id="808dd-102">Migrieren vorhandener Besprechungen und Besprechungsinhalte</span><span class="sxs-lookup"><span data-stu-id="808dd-102">Migrate existing meetings and meeting content</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41762923"
 
 <span> </span>
 
-<span data-ttu-id="de2d9-103">_**Letztes Änderungsdatum des Themas:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="de2d9-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="808dd-103">_**Letztes Änderungsstand des Themas:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="808dd-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="de2d9-104">Wenn ein Benutzerkonto von lync Server 2010 auf einen lync Server 2013-Server verschoben wird, werden die folgenden Informationen mit diesem Benutzerkonto verschoben:</span><span class="sxs-lookup"><span data-stu-id="de2d9-104">When a user account is moved from Lync Server 2010 to a Lync Server 2013 server, the following information is moved with that user account:</span></span>
+<span data-ttu-id="808dd-104">Wenn ein Benutzerkonto von lync Server 2010 auf einen lync Server 2013 Server verschoben wird, werden die folgenden Informationen mit diesem Benutzerkonto verschoben:</span><span class="sxs-lookup"><span data-stu-id="808dd-104">When a user account is moved from Lync Server 2010 to a Lync Server 2013 server, the following information is moved with that user account:</span></span>
 
-  - <span data-ttu-id="de2d9-105">**Besprechungen, die der Benutzer bereits geplant**hat.</span><span class="sxs-lookup"><span data-stu-id="de2d9-105">**Meetings already scheduled by the user**.</span></span> <span data-ttu-id="de2d9-106">Dazu gehören das Verschieben von Konferenz Verzeichnissen und Konferenzdaten.</span><span class="sxs-lookup"><span data-stu-id="de2d9-106">This includes moving the conferencing directories and conferencing data.</span></span>
+  - <span data-ttu-id="808dd-p101">**Vom Benutzer bereits geplante Besprechungen**: Dies beinhaltet das Verschieben von Konferenzverzeichnissen und Konferenzdaten.</span><span class="sxs-lookup"><span data-stu-id="808dd-p101">**Meetings already scheduled by the user**. This includes moving the conferencing directories and conferencing data.</span></span>
 
-  - <span data-ttu-id="de2d9-107">**Persönliche Identifikationsnummer (PIN) des Benutzers**.</span><span class="sxs-lookup"><span data-stu-id="de2d9-107">**User’s personal identification number (PIN)**.</span></span> <span data-ttu-id="de2d9-108">Die aktuelle PIN des Benutzers funktioniert weiterhin, bis er abläuft oder der Benutzer eine neue PIN anfordert.</span><span class="sxs-lookup"><span data-stu-id="de2d9-108">The user’s current PIN continues to work until it expires or the user requests a new PIN.</span></span>
+  - <span data-ttu-id="808dd-p102">**Die persönliche Identifikationsnummer (PIN) des Benutzers**: Die aktuelle PIN des Benutzers ist weiterhin solange gültig, bis sie abläuft oder der Benutzer eine neue PIN anfordert.</span><span class="sxs-lookup"><span data-stu-id="808dd-p102">**User’s personal identification number (PIN)**. The user’s current PIN continues to work until it expires or the user requests a new PIN.</span></span>
 
-<span data-ttu-id="de2d9-109">Die folgenden Benutzerkontoinformationen werden nicht auf den neuen Server verschoben.</span><span class="sxs-lookup"><span data-stu-id="de2d9-109">The following user account information does not move to the new server.</span></span>
+<span data-ttu-id="808dd-109">Die folgenden Benutzerkontoinformationen werden nicht auf den neuen Server verschoben:</span><span class="sxs-lookup"><span data-stu-id="808dd-109">The following user account information does not move to the new server.</span></span>
 
-  - <span data-ttu-id="de2d9-110">**Besprechungsinhalt**.</span><span class="sxs-lookup"><span data-stu-id="de2d9-110">**Meeting content**.</span></span> <span data-ttu-id="de2d9-111">Verwenden Sie den Parameter **-MoveConferenceData** als Teil des Cmdlets **Move-CsUser** , um den während einer Besprechung freigegebenen Inhalt zu verschieben, beispielsweise PowerPoint, Whiteboard, Anlagen oder Umfragedaten.</span><span class="sxs-lookup"><span data-stu-id="de2d9-111">In order to move the content shared during a meeting, for example PowerPoint, Whiteboard, attachments or poll data, use the **-MoveConferenceData** parameter as part of the **Move-CsUser** cmdlet.</span></span>
+  - <span data-ttu-id="808dd-p103">**Besprechungsinhalte**: Um den während einer Besprechung freigegebenen Inhalt zu verschieben, z. B. PowerPoint- oder Whiteboard-Inhalt, Anlagen oder Umfragedaten, verwenden Sie den **-MoveConferenceData**-Parameter als Teil des **Move-CsUser**-Cmdlets.</span><span class="sxs-lookup"><span data-stu-id="808dd-p103">**Meeting content**. In order to move the content shared during a meeting, for example PowerPoint, Whiteboard, attachments or poll data, use the **-MoveConferenceData** parameter as part of the **Move-CsUser** cmdlet.</span></span>
 
 </div>
 

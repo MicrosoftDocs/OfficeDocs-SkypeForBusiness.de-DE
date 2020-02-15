@@ -1,5 +1,5 @@
 ---
-title: Voraussetzungen für Gruppenanruf-Pickup-Konfiguration und Benutzerrechte
+title: Konfigurationsvoraussetzungen und Benutzerrechte für Gruppenanruf Pickups
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ed2a44ccd1730de2ebede4b08c1a4d3d7e0da9d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d1f5387ac7c67e01e3c4473367e1256cf07181a3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763879"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42030398"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a><span data-ttu-id="99003-102">Voraussetzungen für Gruppenanruf-Pickup-Konfiguration und Benutzerrechte in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="99003-102">Group Call Pickup configuration prerequisites and user rights in Lync Server 2013</span></span>
+# <a name="group-call-pickup-configuration-prerequisites-and-user-rights-in-lync-server-2013"></a><span data-ttu-id="17e9c-102">Konfigurieren von Voraussetzungen und Benutzerrechten für Gruppenanruf Pickups in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="17e9c-102">Group Call Pickup configuration prerequisites and user rights in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,53 +35,53 @@ ms.locfileid: "41763879"
 
 <span> </span>
 
-<span data-ttu-id="99003-103">_**Letztes Änderungsdatum des Themas:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="99003-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="17e9c-103">_**Letztes Änderungsstand des Themas:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="17e9c-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="99003-104">Bei der Gruppenanruf Abholung handelt es sich um ein Anruf Verwaltungsfeature, das standardmäßig bei der Bereitstellung von Enterprise-VoIP installiert wird.</span><span class="sxs-lookup"><span data-stu-id="99003-104">Group Call Pickup is a call management feature that is installed by default when you deploy Enterprise Voice.</span></span> <span data-ttu-id="99003-105">In diesem Thema wird beschrieben, was Sie benötigen, bevor Sie die Gruppenanruf Abholung und die Benutzerrechte konfigurieren können, die Sie zum Ausführen von Konfigurationsaufgaben benötigen.</span><span class="sxs-lookup"><span data-stu-id="99003-105">This topic describes what you need to have in place before you can configure Group Call Pickup and the user rights that you need to perform configuration tasks.</span></span>
+<span data-ttu-id="17e9c-104">Bei der gruppenanrufannahme handelt es sich um eine anrufverwaltungsfunktion, die bei der Bereitstellung von Enterprise-VoIP standardmäßig installiert wird.</span><span class="sxs-lookup"><span data-stu-id="17e9c-104">Group Call Pickup is a call management feature that is installed by default when you deploy Enterprise Voice.</span></span> <span data-ttu-id="17e9c-105">In diesem Thema wird beschrieben, was Sie benötigen, bevor Sie die gruppenanrufannahme und die Benutzerrechte konfigurieren können, die Sie zum Ausführen von Konfigurationsaufgaben benötigen.</span><span class="sxs-lookup"><span data-stu-id="17e9c-105">This topic describes what you need to have in place before you can configure Group Call Pickup and the user rights that you need to perform configuration tasks.</span></span>
 
-<span data-ttu-id="99003-106">In diesem Abschnitt wird davon ausgegangen, dass Sie die Planungsdokumentation gelesen haben, die sich auf die Gruppenanruf Abholung bezieht (siehe [Planen der Gruppenanruf Abholung in lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)).</span><span class="sxs-lookup"><span data-stu-id="99003-106">This section assumes that you have read the planning documentation related to Group Call Pickup (see [Planning for Group Call Pickup in Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)).</span></span>
+<span data-ttu-id="17e9c-106">In diesem Abschnitt wird davon ausgegangen, dass Sie die Planungsdokumentation zur gruppenanrufannahme gelesen haben (Weitere Informationen finden Sie unter [Planning for Group Call Pickup in lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)).</span><span class="sxs-lookup"><span data-stu-id="17e9c-106">This section assumes that you have read the planning documentation related to Group Call Pickup (see [Planning for Group Call Pickup in Lync Server 2013](lync-server-2013-planning-for-group-call-pickup.md)).</span></span>
 
 <div>
 
-## <a name="group-call-pickup-configuration-prerequisites"></a><span data-ttu-id="99003-107">Voraussetzungen für Gruppenanruf-Pickup-Konfiguration</span><span class="sxs-lookup"><span data-stu-id="99003-107">Group Call Pickup Configuration Prerequisites</span></span>
+## <a name="group-call-pickup-configuration-prerequisites"></a><span data-ttu-id="17e9c-107">Konfigurationsvoraussetzungen für Gruppenanruf Pickups</span><span class="sxs-lookup"><span data-stu-id="17e9c-107">Group Call Pickup Configuration Prerequisites</span></span>
 
-<span data-ttu-id="99003-108">Für die Gruppenanruf Abholung sind die folgenden Komponenten erforderlich:</span><span class="sxs-lookup"><span data-stu-id="99003-108">Group Call Pickup requires the following components:</span></span>
+<span data-ttu-id="17e9c-108">Für die Gruppenanruf Abholung sind die folgenden Komponenten erforderlich:</span><span class="sxs-lookup"><span data-stu-id="17e9c-108">Group Call Pickup requires the following components:</span></span>
 
-  - <span data-ttu-id="99003-109">Anwendungsdienst</span><span class="sxs-lookup"><span data-stu-id="99003-109">Application service</span></span>
+  - <span data-ttu-id="17e9c-109">Anwendungsdienst</span><span class="sxs-lookup"><span data-stu-id="17e9c-109">Application service</span></span>
 
-  - <span data-ttu-id="99003-110">Anwendung zum Parken von Anrufen</span><span class="sxs-lookup"><span data-stu-id="99003-110">Call Park application</span></span>
+  - <span data-ttu-id="17e9c-110">Anwendung zum Parken von Anrufen</span><span class="sxs-lookup"><span data-stu-id="17e9c-110">Call Park application</span></span>
 
-<span data-ttu-id="99003-111">Diese Komponenten werden automatisch installiert, wenn Sie Enterprise-VoIP bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="99003-111">These components are installed automatically when you deploy Enterprise Voice.</span></span>
+<span data-ttu-id="17e9c-111">Diese Komponenten werden automatisch installiert, wenn Sie Enterprise-VoIP bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="17e9c-111">These components are installed automatically when you deploy Enterprise Voice.</span></span>
 
 </div>
 
 <div>
 
-## <a name="group-call-pickup-configuration-user-rights"></a><span data-ttu-id="99003-112">Benutzerrechte für Gruppenanruf-Pickup-Konfiguration</span><span class="sxs-lookup"><span data-stu-id="99003-112">Group Call Pickup Configuration User Rights</span></span>
+## <a name="group-call-pickup-configuration-user-rights"></a><span data-ttu-id="17e9c-112">Gruppenanruf-Pickup-Konfiguration Benutzerrechte</span><span class="sxs-lookup"><span data-stu-id="17e9c-112">Group Call Pickup Configuration User Rights</span></span>
 
-<span data-ttu-id="99003-113">Sie verwenden die folgenden Verwaltungstools, um die Gruppenanruf Abholung zu konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="99003-113">You use the following administrative tools to configure Group Call Pickup:</span></span>
+<span data-ttu-id="17e9c-113">Verwenden Sie die folgenden Verwaltungstools zum Konfigurieren der gruppenanrufannahme:</span><span class="sxs-lookup"><span data-stu-id="17e9c-113">You use the following administrative tools to configure Group Call Pickup:</span></span>
 
-  - <span data-ttu-id="99003-114">Lync Server-Verwaltungsshell</span><span class="sxs-lookup"><span data-stu-id="99003-114">Lync Server Management Shell</span></span>
+  - <span data-ttu-id="17e9c-114">Lync Server-Verwaltungsshell</span><span class="sxs-lookup"><span data-stu-id="17e9c-114">Lync Server Management Shell</span></span>
 
-  - <span data-ttu-id="99003-115">SEFAUtil Resource Kit-Tool</span><span class="sxs-lookup"><span data-stu-id="99003-115">SEFAUtil resource kit tool</span></span>
+  - <span data-ttu-id="17e9c-115">SEFAUtil Resource Kit-Tool</span><span class="sxs-lookup"><span data-stu-id="17e9c-115">SEFAUtil resource kit tool</span></span>
 
-<span data-ttu-id="99003-116">Verwenden Sie die lync Server-Verwaltungsshell zum Erstellen und Verwalten von Anruf-Abhol Gruppen in der Orbit-Tabelle des Anruf Parks.</span><span class="sxs-lookup"><span data-stu-id="99003-116">Use Lync Server Management Shell to create and manage call pickup groups in the Call Park orbit table.</span></span> <span data-ttu-id="99003-117">Verwenden Sie das SEFAUtil Resource Kit-Tool, um eine Anruf Abhol Gruppe zuzuweisen und die Gruppenanruf Abholung für Benutzer zu aktivieren oder die Gruppenanruf Abholung für Benutzer zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="99003-117">Use the SEFAUtil resource kit tool to assign a call pickup group and enable Group Call Pickup for users or to disable Group Call Pickup for users.</span></span>
+<span data-ttu-id="17e9c-116">Verwenden Sie lync Server-Verwaltungsshell zum Erstellen und Verwalten von Anrufgruppen in der Orbit-Tabelle für das Parken von anrufen.</span><span class="sxs-lookup"><span data-stu-id="17e9c-116">Use Lync Server Management Shell to create and manage call pickup groups in the Call Park orbit table.</span></span> <span data-ttu-id="17e9c-117">Verwenden Sie das SEFAUtil Resource Kit-Tool, um eine Anrufannahme Gruppe zuzuweisen und die gruppenanrufannahme für Benutzer zu aktivieren oder um die gruppenanrufannahme für Benutzer zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="17e9c-117">Use the SEFAUtil resource kit tool to assign a call pickup group and enable Group Call Pickup for users or to disable Group Call Pickup for users.</span></span>
 
-<span data-ttu-id="99003-118">Die Konfiguration der Gruppenanruf Abholung erfordert je nach Aufgabe eine der folgenden Administratorrollen:</span><span class="sxs-lookup"><span data-stu-id="99003-118">Configuring Group Call Pickup requires any of the following administrative roles, depending on the task:</span></span>
+<span data-ttu-id="17e9c-118">Für die Konfiguration der gruppenanrufannahme sind je nach Aufgabe die folgenden Administratorrollen erforderlich:</span><span class="sxs-lookup"><span data-stu-id="17e9c-118">Configuring Group Call Pickup requires any of the following administrative roles, depending on the task:</span></span>
 
-  - <span data-ttu-id="99003-119">**CsVoiceAdministrator:** Diese Administratorrolle kann alle sprachbezogenen Einstellungen und Richtlinien erstellen, konfigurieren und verwalten.</span><span class="sxs-lookup"><span data-stu-id="99003-119">**CsVoiceAdministrator:** This administrator role can create, configure, and manage all voice-related settings and policies.</span></span>
+  - <span data-ttu-id="17e9c-119">**CsVoiceAdministrator:** Diese Administratorrolle kann alle VoIP-bezogenen Einstellungen und Richtlinien erstellen, konfigurieren und verwalten.</span><span class="sxs-lookup"><span data-stu-id="17e9c-119">**CsVoiceAdministrator:** This administrator role can create, configure, and manage all voice-related settings and policies.</span></span>
 
-  - <span data-ttu-id="99003-120">**CsUserAdministrator:** Mit dieser Administratorrolle kann die Gruppenanruf Abholung für Benutzer aktiviert werden.</span><span class="sxs-lookup"><span data-stu-id="99003-120">**CsUserAdministrator:** This administrator role can enable Group Call Pickup for users.</span></span> <span data-ttu-id="99003-121">Diese Administratorrolle verfügt auch über die schreibgeschützte Ansicht Zugriff auf alle Sprachkonfigurationen.</span><span class="sxs-lookup"><span data-stu-id="99003-121">This administrator role also has read-only view access to all voice configurations.</span></span>
+  - <span data-ttu-id="17e9c-120">**CsUserAdministrator:** Diese Administratorrolle kann die gruppenanrufannahme für Benutzer aktivieren.</span><span class="sxs-lookup"><span data-stu-id="17e9c-120">**CsUserAdministrator:** This administrator role can enable Group Call Pickup for users.</span></span> <span data-ttu-id="17e9c-121">Diese Administratorrolle hat außerdem schreibgeschützten Zugriff auf alle VoIP-Konfigurationen.</span><span class="sxs-lookup"><span data-stu-id="17e9c-121">This administrator role also has read-only view access to all voice configurations.</span></span>
 
-  - <span data-ttu-id="99003-122">**CsServerAdministrator:** Diese Administratorrolle kann Server und Dienste verwalten, überwachen und Problembehandlung durchführen.</span><span class="sxs-lookup"><span data-stu-id="99003-122">**CsServerAdministrator:** This administrator role can manage, monitor, and troubleshoot servers and services.</span></span>
+  - <span data-ttu-id="17e9c-122">**CsServerAdministrator:** Diese Administratorrolle kann Server und Dienste verwalten, überwachen und Problembehandlung durchführen.</span><span class="sxs-lookup"><span data-stu-id="17e9c-122">**CsServerAdministrator:** This administrator role can manage, monitor, and troubleshoot servers and services.</span></span>
 
-  - <span data-ttu-id="99003-123">**CsAdministrator:** Diese Administratorrolle kann alle Aufgaben von CsVoiceAdministrator, CsServerAdministrator und CsUserAdministrator ausführen.</span><span class="sxs-lookup"><span data-stu-id="99003-123">**CsAdministrator:** This administrator role can perform all of the tasks of CsVoiceAdministrator, CsServerAdministrator, and CsUserAdministrator.</span></span>
+  - <span data-ttu-id="17e9c-123">**CsAdministrator:** Diese Administratorrolle kann alle Aufgaben von CsVoiceAdministrator, CsServerAdministrator und CsUserAdministrator ausführen.</span><span class="sxs-lookup"><span data-stu-id="17e9c-123">**CsAdministrator:** This administrator role can perform all of the tasks of CsVoiceAdministrator, CsServerAdministrator, and CsUserAdministrator.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="99003-124">Details zu Administratorrechten finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planen der rollenbasierten Zugriffssteuerung in lync Server 2013</A> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="99003-124">For details about administrative rights, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="17e9c-124">Ausführliche Informationen zu Administratorrechten finden Sie unter <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for Role-Based Access Control in lync Server 2013</A> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="17e9c-124">For details about administrative rights, see <A href="lync-server-2013-planning-for-role-based-access-control.md">Planning for role-based access control in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
@@ -91,13 +91,13 @@ ms.locfileid: "41763879"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="99003-125">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="99003-125">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="17e9c-125">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="17e9c-125">See Also</span></span>
 
 
-[<span data-ttu-id="99003-126">Bereitstellen von Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="99003-126">Deploying Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deploying-enterprise-voice.md)  
+[<span data-ttu-id="17e9c-126">Bereitstellen von Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="17e9c-126">Deploying Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deploying-enterprise-voice.md)  
 
 
-[<span data-ttu-id="99003-127">Planen der Anruf Verwaltungsfeatures in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="99003-127">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
+[<span data-ttu-id="17e9c-127">Planen von Funktionen für die Anrufverwaltung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="17e9c-127">Planning for call management features in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-management-features.md)  
   
 
 </div>
