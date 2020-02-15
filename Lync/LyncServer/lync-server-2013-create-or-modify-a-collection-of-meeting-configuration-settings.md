@@ -1,5 +1,5 @@
 ---
-title: Erstellen oder Ändern einer Sammlung von Konfigurationseinstellungen für Besprechungen
+title: Erstellen oder Ändern einer Sammlung von Besprechungs Konfigurationseinstellungen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a5f80066a68b45e062a351478bea93a5c2e8fd0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d1bfa41eebf8231a1118ca16c83ca8f27ecb4244
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763337"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035479"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-meeting-configuration-settings-in-lync-server-2013"></a>Erstellen oder Ändern einer Sammlung von Einstellungen für die besprechungskonfiguration in lync Server 2013
+# <a name="create-or-modify-a-collection-of-meeting-configuration-settings-in-lync-server-2013"></a>Erstellen oder Ändern einer Sammlung von Besprechungs Konfigurationseinstellungen in lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41763337"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Sie können die Einstellungen auf der Seite "besprechungskonfiguration" verwenden, um verschiedene Merkmale der Besprechungsteilnahme zu definieren. Standardmäßig definieren die globalen Einstellungen die Verknüpfungs Umgebung. Sie können auch Einstellungen auf Websiteebene und auf Poolebene für Besprechungen erstellen. Wenn Sie Einstellungen auf der Poolebene erstellen, gelten diese für alle Besprechungen, die von dem jeweiligen Pool gehostet werden. Wenn Sie keine Einstellungen auf der Poolebene erstellen, gelten die auf der Standortebene definierten Einstellungen (sofern vorhanden). Sind keine Einstellungen auf der Standortebene definiert, werden die globalen Einstellungen auf sämtliche Besprechungen angewendet.
+Sie können die Einstellungen auf der Seite besprechungskonfiguration verwenden, um verschiedene Merkmale der Besprechungsteilnahme zu definieren. Standardmäßig definieren die globalen Einstellungen die Verknüpfungs Umgebung. Sie können auch Besprechungs Verknüpfungseinstellungen auf Websiteebene und Poolebene erstellen. Wenn Sie Einstellungen auf Poolebene erstellen, gelten diese Einstellungen für alle Besprechungen, die von diesem Pool gehostet werden. Wenn Sie keine Einstellungen auf Poolebene erstellen, gelten die Einstellungen auf Websiteebene, sofern vorhanden. Wenn Sie keine Einstellungen auf Websiteebene definieren, gelten die globalen Einstellungen für alle Besprechungen.
 
 <div>
 
-## <a name="to-create-new-meeting-join-settings"></a>So erstellen Sie neue Besprechungs Verknüpfungseinstellungen
+## <a name="to-create-new-meeting-join-settings"></a>So erstellen Sie neue Einstellungen für den besprechungsbeitritt
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Konferenzen** , und klicken Sie dann auf **besprechungskonfiguration**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Konferenzen** und dann auf **Besprechungskonfiguration**.
 
-4.  Klicken Sie auf der Seite **Besprechungskonfiguration** auf **Neu** und führen Sie eine der folgenden Aktionen aus:
+4.  Klicken Sie auf der Seite **besprechungskonfiguration** auf **neu**, und führen Sie eine der folgenden Aktionen aus:
     
-      - Klicken Sie auf **Standortkonfiguration**, um eine Richtlinie auf Standortebene zu erstellen. Geben Sie im Suchfeld **Standort auswählen** einen Teil oder den gesamten Namen des Standorts ein, für den Sie Einstellungen für den Besprechungsbeitritt definieren möchten. Klicken Sie in der resultierenden Liste der Standorte auf den gewünschten Standort und klicken Sie auf **OK**.
+      - Klicken Sie auf **Websitekonfiguration**, um eine Richtlinie auf Standortebene zu erstellen. Geben Sie im Feld **Website Suche auswählen** den vollständigen oder Teil des Namens der Website ein, für die Sie die Einstellungen für den besprechungsbeitritt definieren möchten. Klicken Sie in der resultierenden Liste der Standorte auf den gewünschten Standort, und klicken Sie auf **OK**.
     
-      - Klicken Sie auf **Poolkonfiguration**, um eine Richtlinie auf Poolebene zu erstellen. Geben Sie im Suchfeld **Dienst auswählen** einen Teil oder den gesamten Namen des Pooldienstes ein, für den Sie Einstellungen für den Besprechungsbeitritt definieren möchten. Klicken Sie in der resultierenden Liste der Dienste auf den gewünschten Pool und klicken Sie auf **OK**.
+      - Klicken Sie zum Erstellen einer Richtlinie auf Poolebene auf **Poolkonfiguration**. Geben Sie im Suchfeld **Dienst auswählen einen** Teil oder den vollständigen Namen des Pool Diensts ein, für den Sie die Einstellungen für den besprechungsbeitritt definieren möchten. Klicken Sie in der daraufhin angezeigten Liste mit den Diensten auf den gewünschten Pool, und klicken Sie dann auf **OK**.
 
-5.  Deaktivieren Sie das Kontrollkästchen **PSTN-Anrufer umgehen Wartebereich**, um Teilnehmer, die sich über das Festnetz einwählen, zunächst an den Wartebereich weiterzuleiten. In der Standardeinstellung gelangen Anrufer, die sich über das Festnetz einwählen, direkt zur Besprechung.
+5.  Deaktivieren Sie das Kontrollkästchen **PSTN-Anrufer umgehen Lobby**, um Teilnehmer, die sich über das Festnetz einwählen, zunächst an die Lobby weiterzuleiten. In der Standardeinstellung gelangen Anrufer, die sich über das Festnetz einwählen, direkt zur Besprechung.
 
-6.  Legen Sie im Abschnitt **Als Referenten festlegen** fest, wer in der Besprechung als Referent agieren kann:
+6.  Legen Sie im Abschnitt **Als Referent benennen** fest, wer in der Besprechung als Referent agieren kann:
     
       - Klicken Sie auf **Keiner**, um nur dem Organisator die Rolle des Referenten zuzuweisen.
     
@@ -65,28 +65,28 @@ Sie können die Einstellungen auf der Seite "besprechungskonfiguration" verwende
     
       - Klicken Sie auf **Jeder**, um allen Teilnehmern das Agieren als Referent zu ermöglichen.
 
-7.  Wenn der Organisator bei der Planung einer Besprechung einen Konferenztyp auswählen soll, deaktivieren Sie das Kontrollkästchen **Konferenztyp standardmäßig zugewiesen**. In der Standardeinstellung wird der Konferenztyp automatisch zugewiesen.
+7.  Wenn der Organisator bei der Planung einer Besprechung einen Konferenztyp auswählen soll, deaktivieren Sie das Kontrollkästchen **Konferenztyp standardmäßig zuweisen**. In der Standardeinstellung wird der Konferenztyp automatisch zugewiesen.
 
 8.  Wenn Sie verhindern möchten, dass anonyme (nicht authentifizierte) Benutzer automatisch zugelassen werden, deaktivieren Sie das Kontrollkästchen **Anonyme Benutzer standardmäßig zulassen**. In der Standardeinstellung werden anonyme Benutzer automatisch für Besprechungen zugelassen.
 
-9.  Führen Sie die folgenden Schritte aus, um die Besprechungseinladung anzupassen, die an die Teilnehmer gesendet wird. Beachten Sie, dass für URLs und den benutzerdefinierten Fußzeilentext eine maximale Größe von 1 KB gilt. Wenn Sie, mit Ausnahme von **Hilfe-URL**, keinen Wert für die Anpassungen angeben, werden sie nicht in die Besprechung aufgenommen. Wenn Sie keine benutzerdefinierte Hilfe-URL angeben, wird die standardmäßige Hilfe-URL für lync in der Einladung angezeigt.
+9.  Gehen Sie folgendermaßen vor, um die Besprechungseinladung anzupassen, die an die Teilnehmer gesendet wird. Beachten Sie, dass die maximale Länge für URLs und benutzerdefinierter Fußzeilentext 1KB ist. Wenn Sie für die Anpassungen keinen Wert angeben, werden diese nicht in die Besprechung aufgenommen, außer bei der **Hilfe-URL**. Wenn Sie keine benutzerdefinierte Hilfe-URL einschließen, wird die standardmäßige Hilfe-URL für lync in der Einladung angezeigt.
     
-      - Zum Anpassen des Logos, das in der Besprechungseinladung angezeigt wird, geben Sie in **Logo-URL** den Speicherort des Logos ein.
+      - Um das Logo anzupassen, das in der Besprechungseinladung angezeigt wird, geben Sie in **Logo-URL**den Speicherort des Logos ein.
         
         <div>
         
 
         > [!NOTE]
-        > Das Logo muss ein GIF- oder JPG-Bild mit einer Größe von 188 x 30 Pixel sein.
+        > Das Logo muss ein GIF-oder JPG-Bild mit einer Größe von 188 x 30 Pixel sein.
 
         
         </div>
     
-      - Zum Anpassen des Hilfetexts, der in der Besprechungseinladung angezeigt wird, geben Sie in **Hilfe-URL** den Speicherort des Hilfetexts ein.
+      - Um den Hilfetext anzupassen, der in der Besprechungseinladung angezeigt wird, geben Sie in der **Hilfe-URL**den Speicherort des Hilfetexts ein.
     
-      - Zum Anpassen der rechtlichen Hinweise, die in der Besprechungseinladung angezeigt werden, geben Sie in **URL zu rechtlichen Hinweisen** den Speicherort der rechtlichen Hinweise ein.
+      - Um den rechtlichen Text anzupassen, der in der Besprechungseinladung angezeigt wird, geben Sie unter **rechtlicher Text**die Adresse des rechtlichen Texts ein.
     
-      - Zum Anpassen des Fußzeilentexts, der in der Besprechungseinladung angezeigt wird, geben Sie in **Benutzerdefinierter Fußzeilentext** Text ein.
+      - Zum Anpassen des Fußzeilentexts, der in der Besprechungseinladung angezeigt wird, geben Sie in **benutzerdefinierter Fußzeilen**Text Text ein.
 
 10. Klicken Sie auf **Commit ausführen**.
 
@@ -96,15 +96,15 @@ Sie können die Einstellungen auf der Seite "besprechungskonfiguration" verwende
 
 ## <a name="to-modify-an-existing-collection-of-meeting-configurations"></a>So ändern Sie eine vorhandene Sammlung von Besprechungs Konfigurationen
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Konferenzen** , und klicken Sie dann auf **besprechungskonfiguration**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Konferenzen** und dann auf **Besprechungskonfiguration**.
 
-4.  Klicken Sie in der Liste mit den Besprechungskonfigurationen auf die Konfiguration, die Sie ändern möchten, klicken Sie auf **Bearbeiten** und dann auf **Details einblenden**.
+4.  Klicken Sie in der Liste der Besprechungs Konfigurationen auf die Konfiguration, die Sie ändern möchten, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**.
 
-5.  Ändern Sie in **Besprechungskonfiguration bearbeiten** beliebige Konfigurationseinstellungen. Hiervon ausgenommen ist der Konfigurationsname, dieser kann nicht geändert werden.
+5.  Ändern Sie in **besprechungskonfiguration bearbeiten**alle Konfigurationseinstellungen außer dem Konfigurationsnamen, der nicht geändert werden kann.
 
 6.  Klicken Sie auf **Commit ausführen**.
 
@@ -112,19 +112,19 @@ Sie können die Einstellungen auf der Seite "besprechungskonfiguration" verwende
 
 <div>
 
-## <a name="creating-new-meeting-configuration-settings-by-using-windows-powershell-cmdlets"></a>Erstellen von neuen Besprechungs Konfigurationseinstellungen mithilfe von Windows PowerShell-Cmdlets
+## <a name="creating-new-meeting-configuration-settings-by-using-windows-powershell-cmdlets"></a>Erstellen neuer Besprechungs Konfigurationseinstellungen mithilfe von Windows PowerShell-Cmdlets
 
-Die Einstellungen für die besprechungskonfiguration können mit Windows PowerShell und dem Cmdlet New-CsMeetingConfiguration (nur im Website Bereich) erstellt werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Besprechungs Konfigurationseinstellungen können (nur auf Standortebene) mithilfe Windows PowerShell und des Cmdlets New-CsMeetingConfiguration erstellt werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
 ## <a name="to-create-meeting-configuration-settings-that-use-the-default-values"></a>So erstellen Sie Besprechungs Konfigurationseinstellungen, die die Standardwerte verwenden
 
-  - Dieser Befehl erstellt einen neuen Satz von Besprechungs Konfigurationseinstellungen für die Website "Redmond":
+  - Mit diesem Befehl wird eine neue Gruppe von Besprechungs Konfigurationseinstellungen für den Standort "Redmond" erstellt:
     
         New-CsMeetingConfiguration -Identity "site:Redmond"
     
-    Da im vorherigen Befehl keine weiteren Parameter (außer dem obligatorischen Identity-Parameter) angegeben wurden, werden in den neuen Besprechungskonfigurationseinstellungen für alle Eigenschaften die Standardwerte verwendet.
+    Da im vorherigen Befehl keine Parameter (außer dem obligatorischen Identity-Parameter) angegeben wurden, werden in den neuen Besprechungs Konfigurationseinstellungen die Standardwerte für alle Eigenschaften verwendet.
 
 </div>
 
@@ -132,7 +132,7 @@ Die Einstellungen für die besprechungskonfiguration können mit Windows PowerSh
 
 ## <a name="to-change-a-property-value-when-creating-meeting-configuration-settings"></a>So ändern Sie einen Eigenschaftswert beim Erstellen von Besprechungs Konfigurationseinstellungen
 
-  - Um Einstellungen zu erstellen, die andere Eigenschaftswerte verwenden, geben Sie einfach den entsprechenden Parameter und Parameterwert ein. Wenn Sie beispielsweise eine Auflistung von Besprechungskonfigurationseinstellungen erstellen möchten, die standardmäßig jeden als Referent zu einer Besprechung zulassen, verwenden Sie den folgenden Befehl:
+  - Zum Erstellen von Einstellungen, die verschiedene Eigenschaftswerte verwenden, geben Sie einfach den entsprechenden Parameter und den Parameterwert an. Um beispielsweise eine Sammlung von Besprechungs Konfigurationseinstellungen zu erstellen, die standardmäßig jeder zu einer Besprechung als Referent zulässt, verwenden Sie einen Befehl wie den folgenden:
     
         New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 
@@ -142,13 +142,13 @@ Die Einstellungen für die besprechungskonfiguration können mit Windows PowerSh
 
 ## <a name="to-change-multiple-property-values-when-creating-meeting-configuration-settings"></a>So ändern Sie beim Erstellen von Besprechungs Konfigurationseinstellungen mehrere Eigenschaftswerte
 
-  - Mehrere Eigenschaftswerte können geändert werden, indem Sie mehrere Parameter angeben. Dieser Befehl gibt beispielsweise jeder zu einer Besprechung als Referent an und erzwingt auch, dass PSTN-Benutzer in der Lobby warten, bis Sie formell zur Besprechung zugelassen sind:
+  - Mehrere Eigenschaftswerte können durch die Angabe mehrerer Parameter geändert werden. Dieser Befehl gibt beispielsweise alle Personen zu einer Besprechung als Referenten an und zwingt PSTN-Benutzer dazu, in der Lobby zu warten, bis Sie offiziell zur Besprechung zugelassen sind:
     
         New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 
 </div>
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet [New-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg398065(v=OCS.15)) .
+Weitere Informationen finden Sie im Hilfethema zum [New-CsMeetingConfiguration-](https://technet.microsoft.com/library/Gg398065(v=OCS.15)) Cmdlet.
 
 </div>
 

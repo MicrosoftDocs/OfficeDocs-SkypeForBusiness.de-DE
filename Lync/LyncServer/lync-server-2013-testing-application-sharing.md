@@ -12,16 +12,16 @@ ms:contentKeyID: 63969629
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab428e5bbfb5ffc58fa7b1d092cd7fc04b117226
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2797a116bddb73543a27553faa55650b9ad16e8d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745855"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036645"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745855"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-11-01_
+_**Letztes Änderungsstand des Themas:** 2014-11-01_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-11-01_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsASConference-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-csasconference "verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsASConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,25 +66,25 @@ _**Letztes Änderungsdatum des Themas:** 2014-11-01_
 
 ## <a name="description"></a>Beschreibung
 
-Das Cmdlet **Test-CsASConference** überprüft, ob ein paar Testbenutzer an einer Onlinekonferenz teilnehmen können, die die Anwendungsfreigabe umfasst. Dazu registriert das Cmdlet die beiden Benutzer mit lync Server 2013 und verwendet dann eines der Benutzerkonten, um eine neue Konferenz zu erstellen, die die Freigabe von Anwendungen umfasst. Das Cmdlet überprüft dann, ob der zweite Benutzer an dieser Konferenz teilnehmen kann.
+Das Cmdlet **Test-csasconference "** überprüft, ob ein Testbenutzer Paar an einer Onlinekonferenz teilnehmen kann, die die Anwendungsfreigabe umfasst. Hierzu registriert das Cmdlet die beiden Benutzer mit lync Server 2013 und verwendet dann eines der Benutzerkonten, um eine neue Konferenz zu erstellen, die die Freigabe von Anwendungen umfasst. Anschließend prüft das Cmdlet, ob der zweite Benutzer dieser Konferenz beitreten kann.
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Der in Beispiel 1 gezeigte Befehl überprüft, ob eine Anwendungsfreigabe Konferenz im Pool ATL-CS-001.litwareinc.com durchgeführt werden kann. Bei diesem Befehl wird davon ausgegangen, dass Sie ein paar Testbenutzer für den angegebenen Pool konfiguriert haben. Wenn keine solchen Testbenutzer vorhanden sind, wird der Befehl nicht ausgeführt.
+Der Befehl in Beispiel 1 prüft, ob in Pool "atl-cs-001.litwareinc.com" eine Konferenz zur Anwendungsfreigabe stattfinden kann. Dieser Befehl setzt voraus, dass Sie ein Testbenutzerpaar für den angegebenen Pool konfiguriert haben. Wenn keine Testbenutzer vorhanden sind, schlägt der Befehl fehl.
 
     Test-CsASConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Beispiel 2 testet die Möglichkeit des Join-Startprogrammdiensts, an einer Konferenz zur Anwendungsfreigabe im Pool ATL-CS-001.litwareinc.com teilzunehmen. Beachten Sie, dass dieser Befehl nur den Dienst selbst testet; Sie benötigen keine mobilen Geräte, um den Befehl auszuführen.
+In Beispiel 2 wird gestestet, ob der Join Launcher Service an einer Konferenz zur Anwendungsfreigabe in Pool "atl-cs-001.litwareinc.com" teilnehmen kann. Mit diesem Befehl wird nur der Dienst getestet, für die Ausführung des Befehls sind keine Mobilgeräte erforderlich.
 
     Test-CsASConference -TargetFqdn "atl-cs-001.litwareinc.com" -TestJoinLauncher 
 
-Die in Beispiel 2 gezeigten Befehle testen die Möglichkeit eines Paars von Benutzern\\("litwareinc Pilar\\und" litwareinc kenmyer), sich bei lync Server 2013 anzumelden und dann eine Konferenz zur Anwendungsfreigabe durchzuführen. Dazu wird im ersten Befehl im Beispiel das Cmdlet Get-Credential verwendet, um ein Windows PowerShell-Anmeldeinformationsobjekt für die Befehlszeilenschnittstelle zu erstellen, das den Namen und das Kennwort des Benutzers Pilar Ackerman enthält. (Da der Anmeldename, "litwareinc\\Pilar, als Parameter hinzugefügt wurde, erfordert das Dialogfeld Windows PowerShell-Anmeldeinformationen nur, dass der Administrator das Kennwort für das Pilar Ackerman-Konto eingegeben hat.) Das resultierende Anmeldeinformationsobjekt wird dann in einer Variablen mit dem Namen $cred 1 gespeichert. Der zweite Befehl führt dieselbe Aufgabe aus, wobei dieses Mal ein Anmeldeinformationsobjekt für das Ken Myers-Konto zurückgegeben wird.
+Die in Beispiel 2 gezeigten Befehle testen die Fähigkeit eines Benutzer Paares (\\litwareinc Pilar und\\litwareinc kenmyer), sich bei lync Server 2013 anzumelden und dann eine Anwendungsfreigabe Konferenz durchzuführen. Dazu wird im ersten Befehl des Beispiels das Cmdlet Get-Credential verwendet, um ein Windows PowerShell-Befehlszeilen-Schnittstellen Anmeldeinformationsobjekt zu erstellen, das den Namen und das Kennwort des Benutzers Pilar Ackerman enthält. (Da der Anmeldename litwareinc\\Pilar als Parameter angegeben wurde, muss das Dialogfeld Windows PowerShell Anmeldeinformationen nur den Administrator zum Eingeben des Kennworts für das Pilar Ackerman-Konto angeben.) Das resultierende Credential-Objekt wird dann in einer Variablen mit dem Namen "$cred 1" gespeichert. Der zweite Befehl hat die gleiche Aufgabe, nur gibt dieser ein Objekt mit Anmeldeinformationen für das Konto "Ken Myer" zurück.
 
-Wenn die Anmeldeinformationsobjekte in der Hand sind, bestimmt der dritte Befehl, ob sich diese beiden Benutzer bei lync Server 2013 anmelden und eine Konferenz zur Anwendungsfreigabe durchführen können. Um diese Aufgabe auszuführen, wird das Cmdlet **Test-CsASConference** zusammen mit den folgenden Parametern aufgerufen: TargetFqdn (der FQDN des registrierungspools); SenderSipAddress (die SIP-Adresse des ersten Testbenutzers); SenderCredential (das Windows PowerShell-Objekt, das die Anmeldeinformationen für denselben Benutzer enthält); ReceiverSipAddress (die SIP-Adresse des anderen Testbenutzers); und ReceiverCredential (das Windows PowerShell-Objekt, das die Anmeldeinformationen für den anderen Testbenutzer enthält).
+Wenn die Credential-Objekte in der Hand sind, bestimmt der dritte Befehl, ob sich diese beiden Benutzer bei lync Server 2013 anmelden und eine Anwendungsfreigabe Konferenz durchführen können. Zur Ausführung dieser Aufgabe wird das Cmdlet **Test-csasconference "** zusammen mit den folgenden Parametern aufgerufen: TargetFqdn (FQDN des Registrierungsstellen Pools); "Sendersipaddress" (die SIP-Adresse für den ersten Testbenutzer); SenderCredential (das Windows PowerShell-Objekt, das die Anmeldeinformationen für diesen Benutzer enthält); "Receiversipaddress" (die SIP-Adresse für den anderen Testbenutzer); und ReceiverCredential (das Windows PowerShell-Objekt, das die Anmeldeinformationen für den anderen Testbenutzer enthält).
 
     $cred1 = Get-Credential "litwareinc\pilar" 
     $cred2 = Get-Credential "litwareinc\kenmyer" 
@@ -94,47 +94,47 @@ Wenn die Anmeldeinformationsobjekte in der Hand sind, bestimmt der dritte Befehl
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn die Anwendungsfreigabe ordnungsgemäß konfiguriert ist, erhalten Sie eine ähnliche Ausgabe, wobei die Eigenschaft Ergebnis als **erfolgreich** markiert ist:
+Wenn die Anwendungsfreigabe ordnungsgemäß konfiguriert ist, erhalten Sie eine ähnliche Ausgabe, wobei die Result-Eigenschaft als Success markiert wurde **:**
 
 Ziel-FQDN: ATL-CS-001.litwareinc.com
 
-Ergebnis: Erfolg
+Ergebnis: Success
 
-Latenz: 00:00:01
+Wartezeit: 00:00:01
 
 Fehlermeldung:
 
 Diagnose
 
-Wenn die angegebenen Benutzer keine Anwendungen freigeben können, wird das Ergebnis als Fehler angezeigt, und weitere Informationen werden in den Eigenschaften Fehler und Diagnose aufgezeichnet:
+Wenn die angegebenen Benutzer keine Anwendungen freigeben können, wird das Ergebnis als Fehler angezeigt, und in den Eigenschaften Error und Diagnostic werden zusätzliche Informationen aufgezeichnet:
 
 Ziel-FQDN: ATL-CS-001.litwareinc.com
 
 Ergebnis: Fehler
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
-Fehlermeldung: 10060, Fehler bei einem Verbindungsversuch, weil die verbundene Partei
+Fehlermeldung: 10060, ein Verbindungsversuch ist fehlgeschlagen, da die verbundene Partei
 
-hat nach einer bestimmten Zeit nicht richtig reagiert, oder
+nach einem bestimmten Zeitraum nicht ordnungsgemäß reagiert oder
 
-Fehler beim Herstellen einer Verbindung, weil der verbundene Host
+Fehler bei hergestellter Verbindung, da der verbundene Host
 
-Fehler beim Antworten 10.188.116.96:5061
+Fehler beim Antworten auf 10.188.116.96:5061
 
 Innere Ausnahme: ein Verbindungsversuch ist fehlgeschlagen, da die
 
-die verbundene Partei hat nach einer gewissen Zeit nicht richtig reagiert
+die verbundene Partei hat nach einer bestimmten Zeit nicht ordnungsgemäß reagiert.
 
-Zeit, oder die Verbindung konnte nicht hergestellt werden, weil der verbundene Host
+Zeit oder Fehler bei hergestellter Verbindung, weil verbundener Host
 
-Fehler beim Antworten 10.188.116.96:5061
+Fehler beim Antworten auf 10.188.116.96:5061
 
 Diagnose
 
-Die vorherige Ausgabe enthält beispielsweise die Notiz "die verbundene Partei hat nicht richtig reagiert", die in der Regel auf ein Problem mit dem Edgeserver hindeutet.
+Die vorherige Ausgabe enthält beispielsweise den Hinweis "der verbundene Teilnehmer hat nicht ordnungsgemäß reagiert", der in der Regel ein Problem mit dem Edgeserver angibt.
 
 </div>
 
@@ -142,11 +142,11 @@ Die vorherige Ausgabe enthält beispielsweise die Notiz "die verbundene Partei h
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Nachfolgend finden Sie einige häufige Gründe, warum **Test-CsASConference** möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, warum das **Testen von csasconference "** möglicherweise fehlschlägt:
 
-  - Es wurde ein falscher Parameterwert angegeben. Wenn die optionalen Parameter verwendet werden, müssen Sie ordnungsgemäß konfiguriert sein, oder der Test schlägt fehl. Führen Sie den Befehl ohne die optionalen Parameter erneut aus, und überprüfen Sie, ob dies erfolgreich war.
+  - Ein falscher Parameterwert wurde angegeben. Wenn die optionalen Parameter verwendet werden, müssen Sie ordnungsgemäß konfiguriert sein, oder der Test kann nicht ausgeführt werden. Führen Sie den Befehl ohne die optionalen Parameter erneut aus, und überprüfen Sie, ob dies erfolgreich ist.
 
-  - Dieser Befehl schlägt fehl, wenn den Testbenutzern eine konferenzrichtlinie zugewiesen wurde, die verhindert, dass Sie die Anwendungsfreigabe verwenden können.
+  - Dieser Befehl schlägt fehl, wenn dem Testbenutzer eine konferenzrichtlinie zugewiesen wurde, die verhindert, dass die Anwendungsfreigabe verwendet wird.
 
   - Dieser Befehl schlägt fehl, wenn der Edgeserver falsch konfiguriert oder noch nicht bereitgestellt wurde.
 
@@ -158,7 +158,7 @@ Nachfolgend finden Sie einige häufige Gründe, warum **Test-CsASConference** m�
 
 
 [Get-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsConferencingPolicy)  
-[Test-CsDataConference](https://docs.microsoft.com/powershell/module/skype/Test-CsDataConference)  
+[Test-csdataconference "](https://docs.microsoft.com/powershell/module/skype/Test-CsDataConference)  
   
 
 </div>

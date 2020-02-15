@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: veröffentlichen ausstehender Änderungen in der VoIP-Routingkonfiguration'
+title: 'Lync Server 2013: Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185974
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aac5c30cb73ef428d0571a1a0fe6853dbf70db4c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: eec5236f6b40d332617e2e2a5dedeb6a77d752b9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724615"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-lync-server-2013"></a>Veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in lync Server 2013
+# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-lync-server-2013"></a>Veröffentlichen von ausstehenden Änderungen an der VoIP-Routingkonfiguration in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41724615"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-08-07_
+_**Letztes Änderungsstand des Themas:** 2012-08-07_
 
-Wenn Sie Änderungen an den Konfigurationseinstellungen auf den Seiten in der Gruppe **VoIP-Routing** vorgenommen haben, führen Sie zum Überprüfen, Veröffentlichen oder Verwerfen der ausstehenden Änderungen die folgenden Schritte aus.
+Nachdem Sie Änderungen an den Konfigurationseinstellungen auf den Seiten in der Gruppe **VoIP-Routing** vorgenommen haben, führen Sie dieses Verfahren aus, um die ausstehenden Änderungen zu überprüfen, zu veröffentlichen oder abzubrechen.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Stellen Sie sicher, dass jeweils nur ein Benutzer Änderungen an den Konfigurationseinstellungen für das VoIP-Routing vornimmt.<BR>Alle ausstehenden Änderungen müssen gleichzeitig über den Befehl <STRONG>Commit für alle Element ausführen</STRONG> veröffentlicht werden. Es ist nicht möglich, nur ausgewählte ausstehende Änderungen zu veröffentlichen. Führen Sie den Befehl <STRONG>Noch nicht übernommene Änderungen überprüfen</STRONG> aus, bevor Sie ausstehende Änderungen veröffentlichen, und verwerfen Sie Konfigurationsänderungen, die nicht veröffentlicht werden sollen.<BR>Wenn Sie die Seiten in der Gruppe <STRONG>VoIP-Routing</STRONG> verlassen, bevor Sie für ausstehende Änderungen ein Commit ausführen, gehen alle ausstehenden Änderungen verloren. Sie können die aktuelle Konfiguration (einschließlich ausstehender Änderungen) jedoch in eine VoIP-Konfigurationsdatei exportieren und die aktualisierte Konfiguration anschließend importieren und veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-export-a-voice-route-configuration-file.md">Exportieren einer sprach Routen-Konfigurationsdatei in lync Server 2013</A>.
+> Stellen Sie sicher, dass nur ein Benutzer gleichzeitig die Konfigurationseinstellungen für das VoIP-Routing ändert.<BR>Alle ausstehenden Änderungen müssen gleichzeitig veröffentlicht werden, indem der Befehl <STRONG>Commit</STRONG> ausführen ausgeführt wird. Ausstehende Änderungen können nicht selektiv veröffentlicht werden. Führen Sie vor dem Veröffentlichen von ausstehenden Änderungen den Befehl nicht <STRONG>Commit für Änderungen überprüfen</STRONG> aus, und löschen Sie alle Konfigurationsänderungen, die nicht veröffentlicht werden sollen.<BR>Wenn Sie von den Seiten in der VoIP- <STRONG>Routing</STRONG> Gruppe Weg navigieren, bevor Sie ausstehende Änderungen committen, gehen alle ausstehenden Änderungen verloren. Sie können die aktuelle Konfiguration (einschließlich ausstehender Änderungen) jedoch in eine sprach Konfigurationsdatei exportieren und anschließend die aktualisierte Konfiguration importieren und veröffentlichen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-export-a-voice-route-configuration-file.md">Export a Voice Route Configuration File in lync Server 2013</A>.
 
 
 
@@ -51,29 +51,29 @@ Wenn Sie Änderungen an den Konfigurationseinstellungen auf den Seiten in der Gr
 
 <div>
 
-## <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>So überprüfen, veröffentlichen oder verwerfen Sie Konfigurationsänderungen für das VoIP-Routing
+## <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>So überprüfen, veröffentlichen oder kündigen Sie Konfigurationsänderungen für das VoIP-Routing
 
-1.  Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an. Ausführliche Informationen finden Sie unter [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+1.  Melden Sie sich am Computer als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied der CsVoiceAdministrator-, CsServerAdministrator-oder CsAdministrator-Rolle an. Ausführliche Informationen finden Sie unter [Delegate Setup Permissions in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing**.
 
-4.  Nehmen Sie die gewünschten Konfigurationsänderungen an den Einstellungen auf den einzelnen Seiten der Gruppe **VoIP-Routing** vor.
+4.  Nehmen Sie die gewünschten Konfigurationsänderungen an den Einstellungen auf jeder Seite der **VoIP-Routing** Gruppe vor.
 
-5.  Wählen Sie im Menü **Commit** die Option **Noch nicht übernommene Änderungen überprüfen** aus, um ausstehende Änderungen zu überprüfen, ohne sie zu veröffentlichen.
+5.  Um ausstehende Änderungen zu überprüfen, ohne Sie zu veröffentlichen, wählen Sie im Menü **Commit** die Option nicht **übernommene Änderungen überprüfen** aus.
 
-6.  Führen Sie eine der folgenden Aktionen aus, um ausstehende Änderungen zu verwerfen:
+6.  Wenn Sie die ausstehenden Änderungen abbrechen möchten, führen Sie einen der folgenden Schritte aus:
     
-      - Wählen Sie im Menü **Commit** die Option **Alle noch nicht übernommenen Änderungen verwerfen** aus.
+      - Wählen Sie im Menü **Commit** die Option **alle nicht übernommenen Änderungen abbrechen** aus.
     
-      - Wechseln Sie auf der Seite **VoIP-Routing** zur Registerkarte mit ausstehenden Änderungen, die verworfen werden sollen, wählen Sie das Element mit den ausstehenden Änderungen aus, klicken Sie auf **Commit** und klicken Sie dann auf **Ausgewählte Änderungen verwerfen**.
+      - Navigieren Sie zur Registerkarte der **VoIP-Routing** Seite mit ausstehenden Änderungen, die Sie abbrechen möchten, wählen Sie das Element mit den ausstehenden Änderungen aus, klicken Sie auf **Commit**, und klicken Sie dann auf **ausgewählte Änderungen abbrechen**.
 
-7.  Nachdem Sie alle ausstehenden Änderungen überprüft und die Änderungen verworfen haben, die nicht veröffentlicht werden sollen, klicken Sie auf **Commit** und dann auf **Commit für alle Element ausführen**.
+7.  Nachdem Sie alle ausstehenden Änderungen überprüft und alle gelöscht haben, die nicht veröffentlicht werden sollen, klicken Sie auf **Commit**, und klicken Sie dann auf **Commit für alle**.
 
-8.  Klicken Sie im Dialogfeld **VoIP-Konfigurationseinstellungen, für die kein Commit ausgeführt wurde**, das eine Liste aller ausstehenden Änderungen enthält, auf **OK**.
+8.  Klicken Sie im Dialogfeld **VoIP-Konfigurationseinstellungen ohne Commit** , in dem eine Liste aller ausstehenden Änderungen angezeigt wird, auf **OK**.
     
-    Wenn die lync Server-Systemsteuerung die Änderungen übernommen hat, wird die Meldung **erfolgreich veröffentlichte sprach Routingkonfiguration** angezeigt.
+    Wenn lync Server-Systemsteuerung die Änderungen übernommen hat, wird die Meldung **erfolgreich veröffentlichter VoIP-Routing-Konfiguration** angezeigt.
 
 </div>
 

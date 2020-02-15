@@ -1,5 +1,5 @@
 ---
-title: Bewährte Methoden für den Server für beständigen Chat
+title: Bewährte Methoden für beständigen Chat Server
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 119bc67622928ec2e60f082e72322e7b0b923c2e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 10790495f38a469218e00f6906cad589f96c57e5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743675"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034455"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-server-best-practices"></a>Bewährte Methoden für den Server für beständigen Chat
+# <a name="persistent-chat-server-best-practices"></a>Bewährte Methoden für beständigen Chat Server
 
 </div>
 
@@ -35,26 +35,26 @@ ms.locfileid: "41743675"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-06_
+_**Letztes Änderungsstand des Themas:** 2012-10-06_
 
-Wenn Sie Ihre Kategorien und beständige Chatrooms erstellen und Ihr Scoping und Ihre Mitgliedschaft entwerfen, können Ihnen die folgenden Tipps bei der Planung helfen:
+Wenn Sie Ihre Kategorien und beständige Chatrooms erstellen und Ihr Bereichs-und Mitgliedschafts Design entwerfen, können Ihnen die folgenden Tipps bei der Planung helfen:
 
-  - Wenn in Ihrem Unternehmen keine ethische Mauer erforderlich ist, schränken Sie den Bereich in der Kategoriestruktur nicht ein. Fügen Sie alle Ihre Benutzer in den Bereich einer Kategorie ein, und erstellen Sie alle Chatrooms in dieser Kategorie. Verwenden Sie anschließend nur Mitgliedschaftslisten, um den Zugriff auf jeden Chatroom zu gewähren oder einzuschränken.
+  - Wenn in Ihrem Unternehmen keine "Chinesische Mauer" notwendig ist, schränken Sie den Bereich in der Kategoriestruktur nicht ein. Nehmen Sie alle Benutzer in den Bereich einer Kategorie auf, und erstellen Sie alle Chatrooms in dieser Kategorie. Verwenden Sie dann nur Mitgliederlisten, um den Zugriff auf die einzelnen Chatrooms zu erteilen oder zu beschränken.
 
-  - In den meisten Fällen sollten Sie es Benutzern ermöglichen, neue Chatrooms zu erstellen, damit Diskussionen zu neuen Themen zu einem beliebigen Zeitpunkt gestartet werden können. Machen Sie dies, indem Sie die Liste der **Ersteller** auf die gleiche Weise wie die **AllowedMembers** -Liste erstellen. Wenn Sie jedoch nur einem zentralen Support Team oder bestimmten Benutzern das Erstellen von Räumen gestatten möchten, stellen Sie die Liste der **Ersteller** als geeignete Teilmenge dar.
+  - In den meisten Fällen sollten Sie zulassen, dass die Benutzer neue Chatrooms erstellen können. Dann können jederzeit Diskussionen über neue Themen aufgenommen werden. Dazu müssen die Listen **Creators** und **AllowedMembers** identisch sein. Wenn Sie jedoch nur einem zentralen Supportteam oder bestimmten Benutzern das Erstellen von Chatrooms erlauben möchten, sollte die Liste **Creators** die entsprechenden Benutzer enthalten.
 
-  - Geben Sie jedem Chatroom einen vollständigen Namen und eine Beschreibungs Zusammenfassung, die beschreibt, wo er in Ihre Organisation passt. Da Benutzer den Kategorienamen nicht sehen können, wenn Sie den Chatroom verwenden, können Sie sich nicht darauf verlassen, dass der Kategorienname Benutzern hilft, das vorgesehene Diskussionsforum für den Chatroom zu ermitteln.
+  - Geben Sie für jeden Chatroom einen vollständigen Namen und eine zusammenfassende Beschreibung ein, damit die Benutzer den Chatroom innerhalb Ihrer Organisation richtig zuordnen können. Da die Benutzer den Kategorienamen nicht sehen können, wenn sie den Chatroom verwenden, hilft der Kategoriename den Benutzern nicht unbedingt, das vorgesehene Diskussionsforum für den Chatroom zu erkennen.
 
-  - Möglicherweise möchten Sie einen benutzerdefinierten Raum Erstellungs Workflow haben, wenn bestimmte Benennungskonventionen oder andere Zugriffssteuerungen oder Validierungen implementiert werden. Mit der Konfiguration für beständigen Chat können Sie die **RoomManagementUrl** auf einen Host anpassen. Wenn Benutzer beispielsweise auf **einen Chatroom** in Ihrem lync-Client erstellen klicken, können Sie an Ihre benutzerdefinierte Lösung umgeleitet werden.
+  - Sie können einen benutzerdefinierten Workflow zum Erstellen von Chatrooms verwenden, falls bestimmte Benennungskonventionen oder sonstige Zugriffssteuerungen oder Überprüfungen implementiert werden müssen. Mit der Konfiguration für beständigen Chat können Sie die **RoomManagementUrl** auf etwas anpassen, das Sie hosten. Wenn Benutzer beispielsweise auf **einen Chatroom** in Ihrem lync-Client erstellen klicken, können Sie zu Ihrer benutzerdefinierten Lösung umgeleitet werden.
 
-  - Erstellen Sie eine Vielzahl von Add-Ins, mit denen Sie die Erfahrung von Chatrooms verbessern können, indem Sie andere Geschäftsdaten in Chatrooms einbringen. Administratoren müssen die Add-Ins registrieren, die im System zugelassen werden sollen. Chatroom-Manager und-Entwickler können aus der Liste der zulässigen Add-Ins für diejenigen auswählen, die für die jeweiligen Chatrooms am relevantesten sind.
+  - Sie können eine Vielzahl von Add-Ins erstellen, mit der Sie die Verwendung von Chatrooms optimieren können, indem andere Geschäftsdaten in Chatrooms eingebracht werden. Administratoren müssen die Add-Ins registrieren, die im System zulässig sein sollen. Chatroommanager und -ersteller können in der Liste der zulässigen Add-Ins die für ihre Chatrooms relevantesten Add-Ins auswählen.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Verwalten von Kategorien, Chatrooms und Add-Ins in Lync Server 2013](lync-server-2013-managing-categories-rooms-and-add-ins.md)  
+[Verwalten von Kategorien, Räumen und Add-Ins in lync Server 2013](lync-server-2013-managing-categories-rooms-and-add-ins.md)  
   
 
 </div>

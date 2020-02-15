@@ -12,20 +12,20 @@ ms:contentKeyID: 48185746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d04b94fe5d31c4105d58651b2bc5fa5635bddde
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4289d79be09b1bfbcb9d11e53d97ef2ee9a37dca
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735405"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41993520"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enterprise-voice-prerequisites-for-lync-server-2013"></a>Voraussetzungen für Enterprise-VoIP für Lync Server 2013
+# <a name="enterprise-voice-prerequisites-for-lync-server-2013"></a>Voraussetzungen für Enterprise-VoIP für lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41735405"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-08-06_
+_**Letztes Änderungsstand des Themas:** 2012-08-06_
 
-Um die optimale Benutzerfreundlichkeit bei der Bereitstellung von Enterprise-VoIP zu gewährleisten, stellen Sie sicher, dass Ihre IT-Infrastruktur, Ihr Netzwerk und ihre Systeme die in den Themen in diesem Abschnitt beschriebenen Voraussetzungen erfüllen
+Um bei der Bereitstellung von Enterprise-VoIP bestmöglich zu sein, stellen Sie sicher, dass Ihre IT-Infrastruktur, Ihr Netzwerk und ihre Systeme die in den Themen in diesem Abschnitt beschriebenen Voraussetzungen erfüllen.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Erforderliche Software für Enterprise-VoIP in Lync Server 2013](lync-server-2013-software-prerequisites-for-enterprise-voice.md)
+  - [Software Voraussetzungen für Enterprise-VoIP in lync Server 2013](lync-server-2013-software-prerequisites-for-enterprise-voice.md)
 
-  - [Voraussetzungen für Sicherheit und Konfiguration für Enterprise-VoIP in lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
+  - [Sicherheits-und Konfigurationsvoraussetzungen für Enterprise-VoIP in lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cf7ba9c9fb267e8c65c3ba672850c04eb95a459
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 461b578613a90a0df33e3145ed19e1709db45206
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740565"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034947"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="contenttypes-table-in-lync-server-2013"></a>ContentTypes-Tabelle in Lync Server 2013
+# <a name="contenttypes-table-in-lync-server-2013"></a>ContentTypes-Tabelle in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41740565"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2010-11-07_
+_**Letztes Änderungsstand des Themas:** 2010-11-07_
 
 Die ContentTypes-Tabelle ist eine unterstützende Tabelle, in der eine Liste der Inhaltstypen gespeichert wird, die sowohl in Peer-to-Peer-Sitzungen als auch in Konferenzsitzungen verwendet werden. Jeder Datensatz in der Tabelle stellt einen Inhaltstyp dar.
 
@@ -57,14 +57,14 @@ Die ContentTypes-Tabelle ist eine unterstützende Tabelle, in der eine Liste der
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ContentTypeID</strong></p></td>
+<td><p><strong>ContentTypeId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutige Zahl, die den Inhaltstyp kennzeichnet.</p></td>
+<td><p>Eindeutige Zahl zum Identifizieren des Inhaltstyps.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ContentType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td> </td>
 <td><p>Name des Inhaltstyps.</p></td>
 </tr>

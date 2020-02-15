@@ -1,5 +1,5 @@
 ---
-title: Anzeigen der aktuellen Benutzer im Lync Server 2010-Pool
+title: Anzeigen von aktuellen Benutzern in lync Server 2010 Pool
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da91f6a7247f152599f740aebaa7ebea09c852bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fadc7b822fe1bdd04c170031407fe0441bfdc2f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730755"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036183"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-current-users-in-lync-server-2010-pool"></a>Anzeigen der aktuellen Benutzer im Lync Server 2010-Pool
+# <a name="view-current-users-in-lync-server-2010-pool"></a>Anzeigen von aktuellen Benutzern in lync Server 2010 Pool
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41730755"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-26_
+_**Letztes Änderungsstand des Themas:** 2012-09-26_
 
-Bevor Sie die verschiedenen Möglichkeiten zum Verschieben von Benutzern zwischen Pools kennen lernen, müssen wir zunächst ermitteln, welche Benutzer im Legacy lync Server 2010-Pool vorhanden sind. In der folgenden Abbildung finden Sie in der Spalte "Registrar Pool" sechs Benutzer, die für den Legacy-lync Server 2010-Pool konfiguriert sind. Hierbei handelt es sich um die Testbenutzer, die wir in den lync Server 2013-Pool verschieben werden.
+Bevor Sie die verschiedenen Möglichkeiten zum Migrieren von Benutzern zwischen Pools kennen lernen, müssen wir zunächst ermitteln, welche Benutzer im lync Server 2010 Pool der Vorgängerversion vorhanden sind. In der folgenden Abbildung werden in der Spalte Registrierungspool sechs Benutzer identifiziert, die für den lync Server 2010 Pool der Vorgängerversion konfiguriert sind. Hierbei handelt es sich um die Testbenutzer, die wir in den lync Server 2013-Pool umsetzen werden.
 
-**So zeigen Sie die Liste der Benutzer im lync Server 2010-Pool an**
+**So zeigen Sie die Liste der Benutzer im lync Server 2010 Pool an**
 
-1.  Melden Sie sich beim lync Server 2010-Front-End-Server mit einem Konto an, das ein Mitglied der RTCUniversalServerAdmins-Gruppe oder ein Mitglied der Administratorrolle CsAdministrator oder CsUserAdministrator ist.
+1.  Melden Sie sich beim lync Server 2010 Front-End-Server mit einem Konto an, das Mitglied der RTCUniversalServerAdmins-Gruppe oder Mitglied der Administratorrolle CsAdministrator oder CsUserAdministrator ist.
 
 2.  Öffnen Sie die **Lync Server-Systemsteuerung**.
 
-3.  Klicken Sie auf **Benutzer** und anschließend auf **Suchen**.
+3.  Klicken Sie auf **Benutzer**, dann auf die Suche und auf **Suchen**.
 
-**Die lync Server 15-Systemsteuerung**
+**Die Lync Server 15-Systemsteuerung**
 
-![Lync Server-Systemsteuerung, Dialogfeld ' Benutzer verschieben '](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync Server-Systemsteuerung, Dialogfeld ' Benutzer verschieben '")
+![Lync Server-Systemsteuerung, Dialogfeld "Benutzer Verschiebe"](images/JJ721870.a2bce284-0392-4db3-9bb2-9f12699738e7(OCS.15).jpg "Lync Server-Systemsteuerung, Dialogfeld "Benutzer Verschiebe"")
 
 </div>
 

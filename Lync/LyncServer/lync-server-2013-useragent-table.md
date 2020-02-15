@@ -12,20 +12,20 @@ ms:contentKeyID: 48185582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25d1cd6b48b09ad3083499ec3f173772d242ba6b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ba13a18436c7a55ca68931ff2794fd584be84f9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744395"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007624"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="useragent-table-in-lync-server-2013"></a>UserAgent-Tabelle in Lync Server 2013
+# <a name="useragent-table-in-lync-server-2013"></a>UserAgent-Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744395"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-05-25_
+_**Letztes Änderungsstand des Themas:** 2012-05-25_
 
-Die UserAgent-Tabelle ist eine unterstützende Tabelle, in der eine Liste der verschiedenen Benutzer-Agents gespeichert ist, die an Sitzungen teilgenommen haben, die in der Datenbank aufgezeichnet wurden. Jeder Datensatz in der Tabelle steht für einen Benutzer-Agent
+Die UserAgent-Tabelle ist eine unterstützende Tabelle, in der eine Liste der verschiedenen Benutzer-Agents gespeichert wird, die an Sitzungen teilgenommen haben, die in der Datenbank aufgezeichnet wurden. Jeder Datensatz in der Tabelle stellt einen Benutzer-Agent dar.
 
 
 <table>
@@ -60,29 +60,29 @@ Die UserAgent-Tabelle ist eine unterstützende Tabelle, in der eine Liste der ve
 <td><p><strong>UserAgentKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutige Nummer, die diesen Benutzer-Agent kennzeichnet.</p></td>
+<td><p>Eindeutige Zahl, die diesen Benutzer-Agent identifiziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserAgent</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Eindeutigen</p></td>
-<td><p>Benutzer-Agent-Zeichenfolge.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Eigen</p></td>
+<td><p>Zeichenfolge des Benutzer-Agents.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UAType</strong></p></td>
 <td><p>smallint</p></td>
 <td><p> </p></td>
-<td><p>1 ist ein Vermittlungs Server.</p>
-<p>2 ist ein/V-Konferenz Server.</p>
+<td><p>1 ist Vermittlungsserver.</p>
+<p>2 ist A/V-Konferenzserver.</p>
 <p>4 ist lync.</p>
-<p>8 ist IP Phone.</p>
-<p>16 ist eine Live Meeting-Konsole.</p>
-<p>32 ist ein Bereitstellungs Überprüfungs Tool (Thrombose).</p>
+<p>8 ist IP-Telefon.</p>
+<p>16 ist Live Meeting Konsole.</p>
+<p>32 ist das Bereitstellungs Überprüfungs Tool (Thrombose).</p>
 <p>64 ist lync auf Macintosh-Computern.</p>
 <p>128 ist Office Communications Server 2007 R2 Attendant.</p>
-<p>256 ist ein Konferenzankündigungsdienst.</p>
-<p>512 ist eine automatische Konferenzzentrale.</p>
-<p>1024 ist eine reaktionsgruppenanwendung.</p>
+<p>256 ist der Konferenzankündigungsdienst.</p>
+<p>512 ist eine automatische Telefonzentrale für Konferenzen.</p>
+<p>1024 ist Reaktionsgruppenanwendung.</p>
 <p>2048 ist außerhalb der Sprachsteuerung.</p></td>
 </tr>
 </tbody>

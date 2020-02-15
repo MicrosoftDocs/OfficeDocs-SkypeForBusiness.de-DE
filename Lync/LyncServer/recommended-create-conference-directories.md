@@ -1,5 +1,5 @@
 ---
-title: Erstellen von Konferenzverzeichnissen (empfohlen)
+title: Empfohlen Erstellen von Konferenz Verzeichnissen
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 63146389
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d525951dcb77ee365c9c83461f678c26ae53af6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 37f4a0dbd2caf7e9a04354e0b0670dcbb47adb1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727335"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035841"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="recommended-create-conference-directories"></a>Erstellen von Konferenzverzeichnissen (empfohlen)
+# <a name="recommended-create-conference-directories"></a>Empfohlen Erstellen von Konferenz Verzeichnissen
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41727335"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-10-03_
+_**Letztes Änderungsstand des Themas:** 2014-10-03_
 
 Konferenzverzeichnisse verwalten eine Zuordnung zwischen der alphanumerischen Besprechungs-ID, die ein Teilnehmer für die Teilnahme an einer Konferenz bei Verwendung von lync 2013 verwendet, und der numerischen Konferenz-ID, die ein Teilnehmer für Einwahlkonferenzen verwendet, um an der Konferenz teilzunehmen. Das Format der Konferenz-ID lautet folgendermaßen:
 
     <housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
 
-Indem mehrere Konferenzverzeichnisse erstellt werden, wird sichergestellt, dass Konferenz-IDs kurz bleiben, solange keine sehr große Anzahl Konferenzen erstellt wurde. Um etwa sechsstellige Konferenz-IDs zu erhalten, wird in einer Organisation mit einer typischen Konferenzanzahl pro Benutzer empfohlen, pro 999 Benutzer im Pool je ein Konferenzverzeichnis zu erstellen. Mit dieser Richtlinie können die Konferenz-IDs in der Regel klein gehalten werden. Sobald die Anzahl der Konferenzverzeichnisse (in den Pools) 9 übersteigt, wird die Konferenz-ID-Nummer jedoch größer, um zusätzliche Konferenzen zu unterstützen.
+Indem mehrere Konferenzverzeichnisse erstellt werden, wird sichergestellt, dass Konferenz-IDs kurz bleiben, solange keine sehr große Anzahl Konferenzen erstellt wurde. Um etwa sechsstellige Konferenz-IDs zu erhalten, wird in einer Organisation mit einer typischen Konferenzanzahl pro Benutzer empfohlen, pro 999 Benutzer im Pool je ein Konferenzverzeichnis zu erstellen. Wenn diese Richtlinie eingehalten wird, bleiben die Konferenz-IDs in der Regel kurz. Sobald die Anzahl der Konferenzverzeichnisse (in den Pools) 9 überschreitet, wird die Länge der Konferenz-ID jedoch erweitert, um zusätzliche Konferenzen zu unterstützen.
 
 <div>
 
 ## <a name="creating-a-conference-directory"></a>Erstellen eines Konferenz Verzeichnisses
 
-1.  Geben Sie in der lync Server-Verwaltungsshell das folgende Cmdlet ein:
+1.  Geben Sie in lync Server-Verwaltungsshell das folgende Cmdlet ein:
     
         New-CsConferenceDirectory -Identity <XdsGlobalRelativeIdentity> -HomePool <String> [-Confirm [<SwitchParameter>]] [-Force <SwitchParameter>] [-WhatIf [<SwitchParameter>]]
     
-    Im folgenden Beispiel wird ein Konferenzverzeichnis mit der Identität 42, die auf dem Pool ATL-CS-001.litwareinc.com gehostet wird, erstellt:
+    Im folgenden Beispiel wird ein Konferenzverzeichnis mit der Identität 42 erstellt, die im Pool ATL-CS-001.litwareinc.com gehostet wird:
     
         New-CsConferenceDirectory -Identity 42 -HomePool "atl-cs-001.litwareinc.com"
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Erstellen neuer Webdienst-Konfigurationseinstellungen'
+title: 'Lync Server 2013: Erstellen neuer Konfigurationseinstellungen für den Webdienst'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8c3e81379eb411b2b77129e51b59ce675887394
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e91246feaad4d5375f7f7a93597f9bc754e7b613
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740215"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007114"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-new-web-service-configuration-settings-in-lync-server-2013"></a>Erstellen neuer Webdienst-Konfigurationseinstellungen in lync Server 2013
+# <a name="create-new-web-service-configuration-settings-in-lync-server-2013"></a>Erstellen neuer Konfigurationseinstellungen für den Webdienst in lync Server 2013
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41740215"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Sie können die **Webdienst** Seite verwenden, um die Authentifizierungsmethoden für den Zugriff auf lync Server 2013-Verwandte Webserver und Webdienste zu konfigurieren.
+Sie können die Seite **Webdienst** verwenden, um die Authentifizierungsmethoden für den Zugriff auf lync Server 2013 zugehörige Webserver und Webdienste zu konfigurieren.
 
-Führen Sie die folgenden Schritte aus, um eine neue Webdienstrichtlinie zu erstellen.
+Führen Sie die folgenden Schritte aus, um eine neue webdienstrichtlinie zu erstellen.
 
 <div>
 
-## <a name="to-create-new-web-service-configuration-settings"></a>So erstellen Sie neue Webdienst-Konfigurationseinstellungen
+## <a name="to-create-new-web-service-configuration-settings"></a>So erstellen Sie neue Webdienste-Konfigurationseinstellungen
 
-1.  Melden Sie sich bei einem Benutzerkonto, das ein Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder über entsprechende Benutzerrechte verfügt) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, bei jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.
+1.  Melden Sie sich von einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe (oder gleichwertigen Benutzerrechten) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, an jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Sicherheit** und dann auf **Webdienst**.
 
-4.  Klicken Sie auf der Seite **Webdienst** auf **Neu** und führen Sie eine der folgenden Aktionen aus:
+4.  Klicken Sie auf der Seite **Webdienst** auf **neu**, und führen Sie eine der folgenden Aktionen aus:
     
-      - Zum Konfigurieren des Webdiensts für einen Standort klicken Sie auf **Standortkonfiguration**. Klicken Sie in **Standort auswählen** auf den Standort, auf den die Webdienstrichtlinie angewendet werden soll, und anschließend auf **OK**.
+      - Klicken Sie auf **Websitekonfiguration**, um den Webdienst für eine Website zu konfigurieren. Klicken Sie unter **Standort auswählen**auf den Standort, auf den die webdienstrichtlinie angewendet werden soll, und klicken Sie dann auf **OK**.
     
-      - Zum Konfigurieren des Webdiensts für einen Pool klicken Sie auf **Poolkonfiguration**. Klicken Sie in **Dienst auswählen** auf den Dienst, auf den die Webdienstrichtlinie angewendet werden soll, und anschließend auf **OK**.
+      - Klicken Sie zum Konfigurieren des Webdiensts für einen Pool auf **Poolkonfiguration**. Klicken Sie unter **Dienst auswählen**auf den Dienst, auf den die webdienstrichtlinie angewendet wird, und klicken Sie auf **OK**.
 
-5.  Wählen Sie im Abschnitt **Neue Webdiensteinstellung** unter **Integrierte Windows-Authentifizierung** die Option **Aushandeln**, **Integrierte Windows-Authentifizierung** oder **Keine** aus.
+5.  Wählen Sie unter **neue Webdienst Einstellung**unter **integrierte Windows-Authentifizierung**die **Option Aushandeln**, **integrierte Windows-Authentifizierung**oder **keine**aus.
 
-6.  Wählen Sie je nach Funktionen der Clients und der Unterstützung in Ihrer Umgebung eine oder mehrere der folgenden Optionen aus:
+6.  Wählen Sie je nach Funktionen der Clients und der Unterstützung in Ihrer Umgebung, eine oder mehrere der folgenden Optionen:
     
-      - **PIN-Authentifizierung aktivieren**: Clients werden über eine PIN authentifiziert.
+      - **PIN-Authentifizierung aktivieren** – Clients werden über eine PIN authentifiziert.
     
-      - **Zertifikatauthentifizierung aktivieren**: Die Server im Pool stellen Zertifikate an Clients aus.
+      - **Zertifikatauthentifizierung aktivieren** – Die Server im Pool geben Zertifikate an die Clients aus.
     
-      - **Download einer Zertifikatkette aktivieren**: Server können die Zertifikatkette für das jeweilige Zertifikat herunterladen.
+      - **Download einer Zertifikatkette aktivieren** – Server können die Zertifikatkette für das jeweilige Zertifikat herunterladen.
 
 7.  Klicken Sie auf **Commit ausführen**.
 

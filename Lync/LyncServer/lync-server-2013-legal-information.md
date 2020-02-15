@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Rechtliche Informationen'
+title: Lync Server 2013 rechtliche Informationen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9486431d320a5ba081afd85daa3b5e295028a12
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 84def7e711a18762f4473bbda5946a14eff3b1e8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757999"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034927"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="legal-information-for-lync-server-2013"></a>Rechtliche Informationen zu Lync Server 2013
+# <a name="legal-information-for-lync-server-2013"></a>Rechtliche Informationen für lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41757999"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2011-02-22_
+_**Letztes Änderungsstand des Themas:** 2011-02-22_
 
-Dieses Dokument wird ohne Mängelgewähr bereitgestellt. Die in diesem Dokument enthaltenen Informationen und zum Ausdruck gebrachten Ansichten, auch URL- und andere Internet-Websitebezüge, können ohne vorherige Ankündigung geändert werden.
+Dieses Dokument wird “wie besehen” bereitgestellt. Die in diesen Unterlagen enthaltenen Angaben und Daten, einschließlich URLs und anderen Verweisen auf Internetwebsites, können ohne vorherige Ankündigung geändert werden.
 
-Die im Dokument verwendeten Beispiele dienen nur zur Veranschaulichung und sind frei erfunden. Ähnlichkeiten mit real existierenden Personen, Unternehmen oder Szenarien sind weder beabsichtigt noch ableitbar.
+Einige der hier dargestellten Beispiele dienen nur zu Illustrationszwecken und sind fiktional. Jegliche Ähnlichkeiten mit oder Verbindungen zur Realität sind rein zufällig.
 
-Dieses Dokument gewährt keine Rechte an dem geistigen Eigentum für Microsoft-Produkte. Es darf für interne Zwecke und als Referenz kopiert und verwendet werden.
+Mit diesem Dokument erhalten Sie keine Rechte an geistigem Eigentum in einem beliebigen Microsoft-Produkt. Sie können dieses Dokument als Kopie für eigene interne Referenzzwecke verwenden.
 
 Copyright © 2013 Microsoft Corporation. Alle Rechte vorbehalten.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verwalten der hohen Verfügbarkeit und Notfallwiederherstellung'
+title: 'Lync Server 2013: Verwalten von hoher Verfügbarkeit und Notfallwiederherstellung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184313
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ca576b5147aaab5d0a9d72178ea29f87013d1a0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 519829c0a59bab7d726056c805dfc79f50272f84
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729275"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006943"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Verwalten der hohen Verfügbarkeit und Notfallwiederherstellung in Lync Server 2013
+# <a name="managing-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Verwalten von hoher Verfügbarkeit und Notfallwiederherstellung in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729275"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-08-03_
+_**Letztes Änderungsstand des Themas:** 2012-08-03_
 
-In den folgenden Themen wird beschrieben, wie Sie die Hochverfügbarkeits-, Disaster Recovery-, Failover-und fehlerhafte Wiederherstellung für beständigen Chat Server konfigurieren.
+In den folgenden Themen wird beschrieben, wie Sie hohe Verfügbarkeit, Notfallwiederherstellung, Failover und fehlerhafte Wiederherstellung für beständigen Chat Server konfigurieren.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Konfigurieren der hohen Verfügbarkeit und der Notfallwiederherstellung für den beständigen Chat in Lync Server 2013](lync-server-2013-configuring-for-persistent-chat-high-availability-and-disaster-recovery.md)
+  - [Konfigurieren der hohen Verfügbarkeit und der Notfallwiederherstellung für beständigen Chat in lync Server 2013](lync-server-2013-configuring-for-persistent-chat-high-availability-and-disaster-recovery.md)
 
-  - [Ausführen eines Failovers bzw. Failbacks für den Server für beständigen Chat in Lync Server 2013](lync-server-2013-failing-over-and-failing-back-persistent-chat-server.md)
+  - [Failover und Ausfall des Servers für beständigen Chat in lync Server 2013](lync-server-2013-failing-over-and-failing-back-persistent-chat-server.md)
 
 </div>
 

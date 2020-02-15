@@ -1,5 +1,5 @@
 ---
-title: Beenden von lync Server 2010-Diensten
+title: Beenden von lync Server 2010 Diensten
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733796
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 630472c67c560438f37fa65607dc817782535963
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fe22268f7376b1744e5997a3f9916395109c9e39
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756029"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035661"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="stop-lync-server-2010-services"></a>Beenden von lync Server 2010-Diensten
+# <a name="stop-lync-server-2010-services"></a>Beenden von lync Server 2010 Diensten
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41756029"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-04_
+_**Letztes Änderungsstand des Themas:** 2012-10-04_
 
-Sie können die lync Server-Systemsteuerung verwenden, um alle lync Server 2010-Dienste zu starten oder zu beenden, die auf einem bestimmten Computer ausgeführt werden, oder um einen bestimmten lync Server 2010-Dienst zu starten oder zu beenden.
+Sie können lync Server-Systemsteuerung verwenden, um alle lync Server 2010-Dienste zu starten oder zu beenden, die auf einem bestimmten Computer laufen, oder um einen bestimmten lync Server 2010 Dienst zu starten oder zu beenden.
 
 <div>
 
-## <a name="to-start-or-stop-all-lync-server-services-on-a-computer"></a>So starten oder beenden Sie alle lync Server-Dienste auf einem Computer
+## <a name="to-start-or-stop-all-lync-server-services-on-a-computer"></a>So starten oder beenden Sie alle Lync Server-Dienste auf einem Computer
 
 1.  Öffnen Sie die Lync Server-Systemsteuerung.
 
 2.  Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status**.
 
-3.  Sortieren oder Durchsuchen Sie auf der **Status** Seite die Liste nach Bedarf, um den Computer zu finden, auf dem die Dienste ausgeführt werden, die Sie starten oder beenden möchten, und klicken Sie darauf.
+3.  Sortieren oder durchsuchen Sie die Liste auf der Seite **Status**, und ermitteln Sie so den Computer, auf dem die Dienste ausgeführt werden, die Sie starten oder beenden möchten. Klicken Sie anschließend auf den Computer.
 
 4.  Klicken Sie auf **Aktion**.
 
-5.  Klicken Sie auf **alle Dienste starten** oder **alle Dienste beenden**.
+5.  Klicken Sie auf **Alle Dienste starten** bzw. auf **Alle Dienste beenden**.
 
 </div>
 
@@ -63,15 +63,15 @@ Sie können die lync Server-Systemsteuerung verwenden, um alle lync Server 2010-
 
 2.  Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status**.
 
-3.  Sortieren oder Durchsuchen Sie auf der **Status** Seite die Liste nach Bedarf, um den Computer zu finden, auf dem der Dienst ausgeführt wird, den Sie starten oder beenden möchten, und klicken Sie darauf.
+3.  Sortieren oder durchsuchen Sie die Liste auf der Seite **Status**, um den Computer zu ermitteln, auf dem der Dienst ausgeführt wird, den Sie starten oder beenden möchten. Klicken Sie anschließend auf den Computer.
 
 4.  Klicken Sie auf **Eigenschaften**.
 
-5.  Sortieren Sie die Liste der Dienste, falls erforderlich, und klicken Sie auf den Dienst, den Sie starten oder beenden möchten.
+5.  Sortieren Sie ggf. die Liste der Dienste, und klicken Sie auf den Dienst, den Sie starten oder beenden möchten.
 
 6.  Klicken Sie auf **Aktion**.
 
-7.  Klicken Sie auf **Dienst starten** oder **Dienst beenden**.
+7.  Klicken Sie auf **Dienst starten** bzw. auf **Dienst beenden**.
 
 8.  Klicken Sie auf **Schließen**.
 

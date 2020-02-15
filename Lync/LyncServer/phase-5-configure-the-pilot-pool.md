@@ -12,16 +12,16 @@ ms:contentKeyID: 48183532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e3d956d4252d73d2aa1d393917a5b3d72976209
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5d337fec0fcb5261e01424f5bcfbad9de07448cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765706"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034245"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765706"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-Nachdem der Pilot Pool erstellt und die Legacy Bereitstellungsinformationen mit lync Server 2013 zusammengeführt wurden, werden in diesem Abschnitt einige Konfigurationen aufgeführt, die für den Pilot Pool durchgeführt werden müssen.
+Nachdem der Pilot Pool erstellt wurde und ältere Bereitstellungsinformationen mit lync Server 2013 zusammengeführt wurden, werden in diesem Abschnitt einige Konfigurationen aufgeführt, die am Pilot Pool vorgenommen werden müssen.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Verbinden des Pilotpools mit Edgeservern der Vorversion](connect-pilot-pool-to-legacy-edge-servers_1.md)
+  - [Verbinden des pilotpools mit Legacy-Edge-Servern](connect-pilot-pool-to-legacy-edge-servers_1.md)
 
-  - [Autorisieren der Verbindung zu Office Communications Server 2007 R2 Edge Server](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
+  - [Autorisieren der Verbindung mit Office Communications Server 2007 R2 Edgeserver](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
 
   - [Überprüfen der Konfigurationseinstellungen](verify-configuration-settings_1.md)
 

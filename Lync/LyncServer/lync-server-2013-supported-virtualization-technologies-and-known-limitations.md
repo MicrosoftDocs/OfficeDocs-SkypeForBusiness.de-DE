@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Unterstützte Virtualisierungstechnologien und bekannte Einschränkungen'
+title: 'Lync Server 2013: unterstützte Technologien für Virtualisierung und bekannte Einschränkungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184428
 ms.date: 02/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf513e9dee4e6a27708c8882519099c825f903f2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 387290f8fb7ab88dcb7bc987c38c4a2e3e71ec5e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731645"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006797"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="supported-virtualization-technologies-and-known-limitations-in-lync-server-2013"></a>Unterstützte Virtualisierungstechnologien und bekannte Einschränkungen in Lync Server 2013
+# <a name="supported-virtualization-technologies-and-known-limitations-in-lync-server-2013"></a>Unterstützte Virtualisierungstechnologie und bekannte Einschränkungen in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41731645"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2017-02-06_
+_**Letztes Änderungsstand des Themas:** 2017-02-06_
 
-Das lync VDI-Plug-in ermöglicht Audio-und Videoanrufe nach unterstützten Virtualisierungstechnologien. Dadurch wird die für Microsoft lync Server 2010 in der [Client-Virtualisierung in Microsoft lync 2010](https://go.microsoft.com/fwlink/?linkid=330447) -Whitepaper skizzierte Funktionalität erweitert. Gemäß Standardtelefonvorschriften ist auch Unterstützung für E911 enthalten. In den folgenden Abschnitten werden die Virtualisierungstechnologien beschrieben, die vom lync-VDI-Plug-in und den bekannten Funktionseinschränkungen unterstützt werden.
+Das lync VDI-Plug-in ermöglicht Audio-und Videoanrufe für unterstützte Virtualisierungstechnologie. Dadurch werden die für Microsoft lync Server 2010 in der [Client-Virtualisierung in Microsoft lync 2010](https://go.microsoft.com/fwlink/?linkid=330447) Whitepaper beschriebenen Funktionen erweitert. In Übereinstimmung mit den standardmäßigen Telefon Richtlinien ist auch die Unterstützung für E911 enthalten. In den folgenden Abschnitten werden die Virtualisierungstechnologien beschrieben, die vom lync VDI-Plug-in und den bekannten Funktionseinschränkungen unterstützt werden.
 
 <div>
 
-## <a name="support-for-virtualization-technologies"></a>Unterstützung für Virtualisierungstechnologien
+## <a name="support-for-virtualization-technologies"></a>Unterstützung für Virtualisierungs-Technologien
 
-Das lync-VDI-Plug-in unterstützt das vollständige Desktop-Remoting im Szenario des persönlichen virtuellen Desktops, aber nicht im Szenario der Remotedesktopsitzung. Diese Szenarien können wie folgt beschrieben werden:
+Das lync VDI-Plug-in unterstützt vollständiges Desktop-Remoting im Szenario für persönliche virtuelle Desktops, jedoch nicht im Szenario mit Remotedesktopsitzungen. Diese Szenarien können wie folgt beschrieben werden:
 
-  - **Unterstützt: Personalisierte virtuelle Desktops oder Virtual Desktop Infrastructure (VDI).**    In diesem Szenario meldet sich jeder Benutzer an einem anpassbaren virtuellen Desktop an und kann Dateien auf dem Desktop speichern, die in allen Sitzungen beibehalten werden. Microsoft Remote Desktop Dienste, VMware Horizon View und Citrix XenDesktop sind Implementierungen, die für die Verwendung mit lync getestet wurden. Informationen zu herstellerspezifischen VDI-Umgebungen und Clienthardware, die von Microsoft getestet wurden, finden Sie unter [für Microsoft lync qualifizierte Infrastruktur](https://go.microsoft.com/fwlink/?linkid=313435).
+  - **Unterstützt: Personalisierte virtuelle Desktops oder virtuelle Desktopinfrastruktur (VDI).**    In diesem Szenario meldet sich jeder Benutzer bei einem anpassbaren virtuellen Desktop an und kann Dateien auf dem Desktop speichern, die in mehreren Sitzungen gespeichert sind. Microsoft Remote Desktop Dienste, VMware Horizon View und Citrix XenDesktop sind Implementierungen, die für die Verwendung mit lync getestet wurden. Informationen zu anbieterspezifischen VDI-Umgebungen und Clienthardware, die von Microsoft getestet wurden, finden Sie unter [für Microsoft lync qualifizierte Infrastruktur](https://go.microsoft.com/fwlink/?linkid=313435).
 
-  - **Nicht unterstützt: Remote Desktop Sitzungen.**    In diesem Szenario meldet sich jeder Benutzer bei einer generischen virtuellen Desktopsitzung an, die nicht angepasst werden kann. Zu den Beispielimplementierungen gehören Microsoft-Remotedesktopsitzungen (RDSH) und Citrix XenApp in Kombination mit Citrix Receiver.
+  - **Nicht unterstützt: Remote Desktop Sitzungen.**    In diesem Szenario meldet sich jeder Benutzer bei einer generischen virtuellen Desktopsitzung an, die nicht angepasst werden kann. Zu den Beispielimplementierungen Gehören Microsoft Remote Desktop Sitzungen (RDSH) und Citrix XenApp in Kombination mit Citrix Receiver.
 
-Das lync-VDI-Plug-in unterstützt keine anderen Virtualisierungstechnologien wie Application Virtualization, was die Verwendung einer Anwendung ermöglicht, ohne dass die vollständige Anwendung lokal installiert werden muss. Zu den Beispielimplementierungen gehören Citrix XenApp und Microsoft Application Virtualization (App-V). Anwendungsstreaming, Anwendungsremoting und gemischte Virtualisierungsmodi (zum Beispiel Anwendungsremoting in vollem Desktopremoting) werden nicht unterstützt.
+Das lync VDI-Plug-in unterstützt keine anderen Virtualisierungstechnologien wie Application Virtualization, die die Verwendung einer Anwendung ermöglichen, ohne dass die vollständige Anwendung lokal installiert werden muss. Zu den Beispielimplementierungen Gehören Citrix XenApp und Microsoft Application Virtualization (App-V). Anwendungsstreaming, Anwendungs Remoting und gemischte Virtualisierungs Modi (beispielsweise Anwendungs Remoting in vollständigem Desktop-Remoting) werden nicht unterstützt.
 
-Um die Erweiterbarkeit zu ermöglichen, wurde das lync VDI-Plug-in für die Verwendung von plattformunabhängigen APIs mit dem Namen Dynamic Virtual Channels (DVCs) entwickelt. Informationen zu Szenarien, die nicht explizit von lync unterstützt werden, finden Sie unter Support-Statements des VDI-Lösungsanbieters.
+Um Erweiterbarkeit zu ermöglichen, wurde das lync VDI-Plug-in für die Verwendung plattformunabhängiger APIs mit dem Namen Dynamic Virtual Channels (DVCs) entwickelt. Informationen zu Szenarien, die nicht explizit von lync unterstützt werden, finden Sie unter Support Statements from the VDI Solution Provider.
 
 </div>
 
@@ -59,29 +59,29 @@ Um die Erweiterbarkeit zu ermöglichen, wurde das lync VDI-Plug-in für die Verw
 
 ## <a name="known-feature-limitations"></a>Bekannte Funktionseinschränkungen
 
-Im folgenden sind bekannte Einschränkungen bei der Verwendung von lync 2013 in einer VDI-Umgebung bekannt:
+Im folgenden sind bekannte Einschränkungen beim Verwenden von lync 2013 in einer VDI-Umgebung bekannt:
 
-  - Es gibt nur begrenzte Unterstützung für die Anonymisierungs Funktionen für Anruf Delegierungen und Reaktionsgruppen-Agents.
+  - Es gibt nur eine beschränkte Unterstützung für Anonymisierungs Funktionen für die Anrufdelegierung und den Reaktionsgruppen-Agent.
 
   - Folgende Features werden nicht unterstützt:
     
       - Integrierte Optimierungsseiten für Audio- und Videogeräte
     
-      - Mehransicht für Video
+      - Video mit mehreren Ansichten.
     
       - Aufzeichnen von Konversationen
     
       - Remote Desktop Dienste (RDS).
     
-      - Anonyme Teilnahme an Besprechungen (also an lync-Besprechungen, die von einer Organisation gehostet werden, die nicht mit Ihrer Organisation in Verbindung steht).
+      - Anonymes Hinzufügen von Besprechungen (also beitreten von lync-Besprechungen, die von einer Organisation gehostet werden, die nicht mit Ihrer Organisation verbunden ist).
     
-      - Verwenden des lync-VDI-Plug-ins zusammen mit einem lync Phone Edition-Gerät.
+      - Verwenden des lync VDI-Plug-ins zusammen mit einem lync Phone Edition-Gerät.
     
       - Anrufkontinuität im Fall eines Netzwerkausfalls
     
-      - Features für benutzerdefinierte Klingeltöne und Wartemusik
+      - Angepasste Klingeltöne und Features für die Musik Aufbewahrung.
 
-  - Das lync-VDI-Plug-in wird in einer Office 365-Umgebung nicht unterstützt.
+  - Das lync VDI-Plug-in wird in einer Office 365 Umgebung nicht unterstützt.
 
 </div>
 

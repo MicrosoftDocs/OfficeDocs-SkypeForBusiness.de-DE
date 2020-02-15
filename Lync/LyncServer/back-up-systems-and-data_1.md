@@ -13,16 +13,16 @@ ms:contentKeyID: 48185118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3d8b50276c2e547ba5f240f429198ef0bca8303
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f31186ffda8cd6c548d83d512c0c795110d4fc4d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724135"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003840"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,9 +36,9 @@ ms.locfileid: "41724135"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-Bevor Sie mit der Migration zu lync Server 2013 beginnen, wird dringend empfohlen, dass Sie eine vollständige Systemsicherung durchführen und das vorhandene System dokumentieren, einschließlich eines Inventars der Benutzerkonten, die sich in jedem Pool befinden, damit Sie ein Rollback zu Office Communications ausführen können. Server 2007 R2, falls dies erforderlich ist. Es stehen mehrere Tools und Programme zum Sichern und Wiederherstellen von Daten, Einstellungen und Systemen zur Verfügung. Details und Verfahren finden Sie unter "Handbuch zur Sicherung und Wiederherstellung von <http://go.microsoft.com/fwlink/p/?linkid=168162>Office Communications Server 2007 R2" unter.
+Bevor Sie mit der Migration zu lync Server 2013 beginnen, wird dringend empfohlen, dass Sie eine vollständige Systemsicherung durchführen und Ihr vorhandenes System dokumentieren, einschließlich eines Inventars von Benutzerkonten, die in jedem Pool verwaltet werden, sodass Sie wieder ein Rollback zu Office Communications ausführen können. Server 2007 R2, falls dies erforderlich ist. Mehrere Tools und Programme stehen für die Sicherung und Wiederherstellung von Daten, Einstellungen und Systemen zur Verfügung. Ausführliche Informationen und Vorgehensweisen finden Sie unter "Office Communications Server 2007 R2 Sicherungs- <http://go.microsoft.com/fwlink/p/?linkid=168162>und Wiederherstellungs Handbuch" unter.
 
 </div>
 

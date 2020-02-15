@@ -13,16 +13,16 @@ ms:contentKeyID: 56558835
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7d0dd6070eb3c69b23f03e56bf542025c221b15
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b7455ba7d98ecc11fcfc6e0c255eb430e213d3f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727979"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42000750"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,44 +36,44 @@ ms.locfileid: "41727979"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-07-05_
+_**Letztes Änderungsstand des Themas:** 2013-07-05_
 
-Wenn Sie mithilfe von Windows PowerShell eine Verbindung mit Skype for Business Online herstellen, stehen Ihnen ungefähr 40-Cmdlets für Skype for Business Online zur Verfügung. Bei der Verwaltung von Skype for Business Online beschränken Sie sich jedoch nicht auf die Verwendung dieser 40-Cmdlets. Zusätzlich zu den Skype for Business Online-Cmdlets können Sie auch alle anderen Windows PowerShell-Cmdlets verwenden, die auf Ihrem Computer installiert sind. (Wenn Sie Windows PowerShell 3,0 installieren, werden auch Hunderte von zentralen Windows PowerShell-Cmdlets installiert.) Ihre Befehle können die Skype for Business Online-Cmdlets und alle anderen auf dem Computer verfügbaren Cmdlets kombinieren und anpassen.
+Wenn Sie über Windows PowerShell eine Verbindung mit Skype for Business Online herstellen, stehen Ihnen ungefähr 40 Skype for Business Online-Cmdlets zur Verfügung. Sie sind jedoch nicht auf die Verwendung von nur den 40-Cmdlets beim Verwalten von Skype for Business Online beschränkte. Zusätzlich zu den Skype for Business Online-Cmdlets können Sie auch alle anderen Windows PowerShell-Cmdlets verwenden, die auf Ihrem Computer installiert sind. (Bei der Installation von Windows PowerShell 3,0 werden auch Hunderte von Kern Windows PowerShell-Cmdlets installiert.) Ihre Befehle können Skype for Business Online-Cmdlets und anderen auf Ihrem Computer verfügbaren Cmdlets mischen und abgleichen.
 
-Obwohl ein vollständiger Kurs in Windows PowerShell 3,0 den Rahmen dieses Artikels sprengt, finden Sie hier einige Beispiele, die zeigen, warum Sie Cmdlets kombinieren und vergleichen können. Zunächst einmal enthält keines der Skype for Business Online-Cmdlets einen Befehl "Drucken", und in der Windows PowerShell-Konsole kann auch kein solcher Befehl gefunden werden. Wie erhalten Sie einen Ausdruck der Informationen, die von einem Cmdlet abgerufen werden? Eine Möglichkeit besteht darin, die Informationen abzurufen und diese Informationen dann an das **Out-Printer-** Cmdlet zu senden:
+Obwohl ein vollständiger Kurs in Windows PowerShell 3,0 über den Rahmen dieses Artikels hinausgeht, finden Sie hier einige Beispiele, die zeigen, warum Sie Cmdlets möglicherweise kombinieren und anpassen möchten. Zunächst enthält keines der Skype for Business Online-Cmdlets einen Print-Befehl, und in der Windows PowerShell Konsole ist auch kein solcher Befehl zu finden. Wie erhalten Sie also einen Ausdruck der von einem Cmdlet abgerufenen Informationen? Eine Möglichkeit besteht darin, die Informationen abzurufen und diese Informationen dann an das **Out-Printer-** Cmdlet zu senden:
 
     Get-CsTenant | Out-Printer
 
-Da keine zusätzlichen Parameter enthalten sind, werden alle vom **Out-Printer-** Cmdlet zurückgegebenen Informationen auf dem Standarddrucker gedruckt.
+Da keine zusätzlichen Parameter enthalten sind, werden alle vom **Out-Printer-** Cmdlet zurückgegebenen Informationen auf den Standarddrucker gedruckt.
 
-Ebenso enthalten keine der Skype for Business Online-Cmdlets einen Parameter, mit dem Sie Daten in einer Datei speichern können. Aber das ist OK: Dieser Befehl verwendet das **Out-File-** Cmdlet, um die zurückgegebenen Informationen in der Textdatei\\C\\: Logs Tenants. txt zu speichern:
+Ebenso enthält keines der Skype for Business Online-Cmdlets einen Parameter, mit dem Sie Daten in einer Datei speichern können. Aber das ist in Ordnung: Dieser Befehl verwendet das **Out-File-** Cmdlet, um die zurückgegebenen Informationen in der Textdatei C:\\Logs\\Mandanten. txt zu speichern:
 
     Get-Tenant | Out-File -FilePath "C:\Logs\Tenants.txt"
 
-Und dieser Befehl verwendet das Cmdlet **"Select-Object"** , um die Daten zu begrenzen, die zurückgegeben und auf dem Bildschirm angezeigt werden. In diesem Beispiel ruft das Cmdlet " [Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/JJ994026(v=OCS.15)) " Informationen zu allen Skype for Business Online-Benutzern ab, und dann wird das Cmdlet **"Select-Object"** verwendet, um die angezeigten Daten auf den Identitätswert und die Archivierungsrichtlinie des Benutzers zu begrenzen:
+Und dieser Befehl verwendet das Cmdlet **Select-Object** , um die zurückgegebenen und auf dem Bildschirm angezeigten Daten zu begrenzen. In diesem Beispiel ruft das Cmdlet [Get-CsOnlineUser](https://technet.microsoft.com/library/JJ994026(v=OCS.15)) Informationen für alle Skype for Business Online Benutzer ab, und dann wird das Cmdlet **Select-Object** verwendet, um die angezeigten Daten auf den Identitätswert des Benutzers und die dazugehörige Archivierungsrichtlinie zu begrenzen:
 
     Get-CsOnlineUser | Select-Object Identity, ArchivingPolicy
 
-Da es Hunderte von Cmdlets gibt, die auf Ihrem Computer verwendet werden können, haben Sie möglicherweise Schwierigkeiten, zu ermitteln, welche Cmdlets für Skype for Business Online-Cmdlets gelten und welche nicht. Wenn Sie eine Liste der Skype for Business Online-Cmdlets (und nur der Skype for Business Online-Cmdlets) zurückgeben möchten, müssen Sie zuerst den Namen des temporären Windows PowerShell-Moduls ermitteln, das alle Skype for Business Online-Cmdlets enthält. Führen Sie dazu diesen Befehl in der Windows PowerShell-Eingabeaufforderung aus:
+Da Hunderte von Cmdlets für die Verwendung auf Ihrem Computer verfügbar sein werden, haben Sie möglicherweise Schwierigkeiten festzustellen, welche Cmdlets Skype for Business Online-Cmdlets sind und welche nicht. Um eine Liste der Skype for Business Online-Cmdlets (und nur Skype for Business Online-Cmdlets) zurückzugeben, müssen Sie zuerst den Namen des temporären Windows PowerShell-Moduls ermitteln, das alle Skype for Business Online-Cmdlets enthält. Führen Sie dazu in der Windows PowerShell-Eingabeaufforderung folgenden Befehl aus:
 
     Get-Module
 
-Auf dem Bildschirm werden Informationen ähnlich der folgenden angezeigt:
+Ähnliche Informationen wie die folgenden werden auf dem Bildschirm angezeigt:
 
     ModuleType Name                 ExportedCommands
     ---------- ----                 ----------------
     Manifest   Microsoft.PowerS...  {Add-Computer, Add-Content, A...}
     Script     tmp_5astd3uh.m5v     {Disable-CsMeetingRoom, Enabl...}
 
-Das Modul mit dem modultype-Skript ist das Modul, das die Skype for Business Online-Cmdlets enthält. Wenn Sie eine Liste dieser Cmdlets zurückgeben möchten, führen Sie das Cmdlet " **Get-Command"** aus, indem Sie den Namen des Skriptmoduls als Modulnamen verwenden:
+Das Modul mit dem modultype-Skript ist das Modul, das die Skype for Business Online-Cmdlets enthält. Führen Sie das Cmdlet **Get-Command** aus, um eine Liste dieser Cmdlets zurückzugeben, und verwenden Sie dabei den Namen des Skriptmoduls als Modulnamen:
 
     Get-Command -Module tmp_5astd3uh.m5v
 
-Es ist möglich, dass Sie mehrere Module mit einem modultype gleich Skript haben könnten. In diesem Fall können Sie den folgenden Befehl ausführen, um herauszufinden, welches Modul das Cmdlet " **Get-CsTenant** " enthält:
+Möglicherweise verfügen Sie über mehrere Module mit einem ModuleType-Wert, der dem Skript entspricht. In diesem Fall können Sie den folgenden Befehl ausführen, um herauszufinden, welches Modul das **Get-CsTenant-** Cmdlet enthält:
 
     Get-Command Get-CsTenant
 
-Das Modul, das für das Cmdlet " **Get-CsTenant** " zurückgegeben wird, ist das Modul, das alle Skype for Business Online-Cmdlets enthält:
+Das Modul, das für das Cmdlet **Get-CsTenant** zurückgegeben wird, ist das Modul, das alle Skype for Business Online-Cmdlets enthält:
 
     CommandType     Name                                               ModuleName
     -----------     ----                                               ----------
@@ -84,7 +84,7 @@ Das Modul, das für das Cmdlet " **Get-CsTenant** " zurückgegeben wird, ist das
 ## <a name="see-also"></a>Siehe auch
 
 
-[Einführung in Windows PowerShell und Skype for Business Online](https://technet.microsoft.com/en-us/library/Dn362785(v=OCS.15))  
+[Eine Einführung in Windows PowerShell und Skype for Business Online](https://technet.microsoft.com/library/Dn362785(v=OCS.15))  
   
 
 </div>

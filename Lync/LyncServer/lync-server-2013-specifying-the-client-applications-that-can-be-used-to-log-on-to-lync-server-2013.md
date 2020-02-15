@@ -12,16 +12,16 @@ ms:contentKeyID: 48185450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 788a0638dee6b9d52a5d954eafb7b4e33bdfd294
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ea0083a28253f5b79e6124dc7733a3ea096f4509
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731875"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006120"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41731875"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-12-11_
+_**Letztes Änderungsstand des Themas:** 2012-12-11_
 
-Mit lync Server 2013 können Sie die Version der Clients angeben, die in Ihrer Umgebung unterstützt werden. Die Verwendung von clientversionsrichtlinien kann dazu beitragen, die Kosten für die Unterstützung mehrerer Clientversionen zu senken. Darüber hinaus kann die Benutzeroberfläche insgesamt verbessert werden, da die verfügbaren Features durch die frühere Version des Clients limitiert werden können, wenn frühere und spätere Versionen von Clients interagieren.
+Lync Server 2013 können Sie die Version von Clients angeben, die in Ihrer Umgebung unterstützt werden. Die Verwendung von clientversionsrichtlinien kann dazu beitragen, die mit der Unterstützung mehrerer Clientversionen verbundenen Kosten zu reduzieren. Es kann auch die gesamtbenutzerfreundlichkeit verbessern, da die verfügbaren Features bei einer Interaktion mit früheren und höheren Versionen der Clients durch die frühere Version des Clients limitiert werden können.
 
 Es gibt drei Komponenten der Client Versionskontrolle:
 
-  - Konfigurationseinstellungen für Clientversionen werden verwendet, um die Client Versionskontrolle entweder global oder für bestimmte Websites zu aktivieren oder zu deaktivieren.
+  - Konfigurationseinstellungen für Clientversionen werden verwendet, um die Client Versionskontrolle entweder global oder für bestimmte Websites ein-oder auszuschalten.
 
-  - Client Versionsrichtlinien werden verwendet, um eine Reihe von Regeln Global oder einer bestimmten Website, einem Pool oder einer Gruppe von Benutzern zuzuweisen.
+  - Client Versionsrichtlinien werden verwendet, um eine Reihe von Regeln Global oder einem bestimmten Standort, Pool oder einer Gruppe von Benutzern zuzuweisen.
 
   - Clientversionsrichtlinien Regeln bilden eine clientversionsrichtlinie und werden verwendet, um die Aktionen zu definieren, die ausgeführt werden sollen, wenn Benutzer versuchen, sich mit bestimmten Clients und Clientversionen anzumelden.
 
@@ -74,7 +74,7 @@ Es gibt drei Komponenten der Client Versionskontrolle:
 ## <a name="see-also"></a>Siehe auch
 
 
-[Verwalten von Geräten, Telefonen und Clientanwendungen in Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+[Verwalten von Geräten, Telefonen und Clientanwendungen in lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: IP Phone-Inventurbericht'
+title: 'Lync Server 2013: Inventurbericht über IP-Telefone'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5fb9bb9a3ae48c8bf2fc9a5122e1b8004e0f6019
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0c99945626105282324202d1fd754cd5d966bc81
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765373"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035097"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Bericht zum IP Phone-Inventar in lync Server 2013
+# <a name="ip-phone-inventory-report-in-lync-server-2013"></a>Inventurbericht über IP-Telefone in lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41765373"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-12_
+_**Letztes Änderungsstand des Themas:** 2012-11-12_
 
 Der Bericht für den IP-Telefonbestand enthält Informationen zu den IP-Telefonen, die derzeit in der Organisation verwendet werden. Er umfasst eine detaillierte Liste der IP-Telefone, die während des angegebenen Berichtszeitraums tatsächlich verwendet wurden. Mithilfe dieses Berichts können Administratoren unter anderem Informationen dazu erhalten, ob alte oder veraltete Telefone vorhanden sind, die ausgetauscht werden sollten. Zudem können Administratoren darauf hingewiesen werden, dass in der Organisation teure Telefone existieren, die kaum verwendet werden. Solche Informationen können außerordentlich wertvoll sein, wenn es darum geht, neue Telefone zu kaufen oder vorhandene Telefone neu zu verteilen. (Ein Benutzer, der sein teures Telefon selten nutzt, kann beispielsweise gebeten werden, sein Telefon mit einem Benutzer zu tauschen, der sein Telefon häufiger verwendet.)
 
-Es sollte beachtet werden, dass dieser Bericht einige Einschränkungen hat, wenn er als echter Inventarbericht verwendet wird. Zum einen listet der Bericht IP Phone einfach alle Telefone auf, die sich während des angegebenen Zeitraums bei lync Server angemeldet haben, sortiert nach der letzten Anmeldezeit. Wenn sich ein Telefon während des angegebenen Zeitraums nicht anmeldet, wird es im Inventurbericht nicht aufgeführt. Dazu gehören Telefone, die sich vor dem Start des Zeitraums anmeldeten und noch während des angegebenen Zeitintervalls angemeldet waren. Angenommen, Sie möchten die gesamte Telefon Inventur für Juli, 2012, sehen. Angenommen, dass mehrere Telefone am lync Server am 30. Juni 2012 angemeldet und noch am 1. Juli angemeldet waren. Diese Telefone werden im Inventarbericht für den 1. Juli nicht angezeigt.
+Es sollte darauf hingewiesen werden, dass dieser Bericht einige Einschränkungen hat, wenn es darum geht, als echter Inventarbericht verwendet zu werden. Für eine Sache listet der IP-Telefon Bericht einfach alle Telefone auf, die sich bei lync Server während des angegebenen Zeitraums angemeldet haben, sortiert nach der letzten Anmeldezeit. Wenn sich ein Telefon während des angegebenen Zeitraums nicht angemeldet hat, wird es nicht im Inventurbericht aufgeführt. Dies umfasst Telefone, die vor dem Start des Zeitraums angemeldet waren und noch während des angegebenen Zeitintervalls angemeldet waren. Nehmen wir beispielsweise an, Sie möchten sich den gesamten Telefon bestand für Juli 2012. Nehmen wir an, dass mehrere Telefone, die am 30. Juni lync Server angemeldet sind, am 2012 und noch am 1. Juli angemeldet waren. Diese Telefone werden nicht im Inventurbericht für den 1. Juli angezeigt.
 
-Beachten Sie auch, dass der Inventurbericht Telefone enthalten kann, die in Ihrer Organisation nicht mehr verwendet werden. Nehmen wir beispielsweise an, dass eine Reihe von Fabrikam-Telefonen am System am 1. Juli 2012 angemeldet sind. fünf Tage später hat Ihre Organisation alle diese Fabrikam-Telefone entfernt und durch ein neues Contoso-Modell ersetzt. Die Fabrikam-Telefone werden nach wie vor im Bericht "Inventar" angezeigt, nur weil Sie sich im Laufe des Monats Juli am System angemeldet haben.
+Weiterhin muss beachtet werden, dass der Bestandsbericht Telefone einschließen kann, die in Ihrer Organisation nicht mehr verwendet werden. Angenommen, eine bestimmte Anzahl Telefone von Fabrikam wurde am 1. Juli 2012 beim System angemeldet. Fünf Tage später hat sich Ihre Organisation dazu entschlossen, diese Fabrikam-Telefone durch ein neueres Modell von Contoso auszutauschen. Die Fabrikam-Telefone werden jedoch weiterhin im "Bestandsbericht" aufgeführt, weil sie im Juli beim System angemeldet wurden.
 
 Darüber hinaus werden im Bericht für den IP-Telefonbestand keine zusammenfassenden Gesamtzahlen für die verschiedenen Telefontypen angegeben. Nehmen wir beispielsweise an, Sie besitzen 105 Telefone vom Typ Polycom CX600. Aus dem Bericht wird nicht ersichtlich, dass Sie 105 solcher Telefone haben. Stattdessen sehen Sie lediglich 105 separate Einträge für das Modell Polycom Cx600. Die einzige Möglichkeit, um herauszufinden, dass für das Modell Polycom Cx600 105 Einträge vorliegen, besteht darin, diese Einträge manuell zu zählen.
 
@@ -59,7 +59,7 @@ Darüber hinaus werden im Bericht für den IP-Telefonbestand keine zusammenfasse
 
 ## <a name="accessing-the-ip-phone-inventory-report"></a>Zugreifen auf den Bericht für den IP-Telefonbestand
 
-Der Zugriff auf den Bericht für den IP-Telefonbestand erfolgt über die Startseite der Überwachungsberichte. Wenn Sie auf die Metrik „Benutzer-URI“ klicken, können Sie auf den Benutzeraktivitätsbericht für den jeweiligen Benutzer zugreifen. Wenn Sie für einen Peer-to-Peer-Anruf auf die Metrik „Letzte Aktivität“ klicken, gelangen Sie zum Detailbericht über Peer-to-Peer-Sitzungen. Wenn Sie für eine Konferenz auf dieselbe Metrik klicken, gelangen Sie zum detaillierten Konferenzbericht.
+Der Zugriff auf den Bericht für den IP-Telefonbestand erfolgt über die Startseite der Überwachungsberichte. Wenn Sie auf die Metrik "Benutzer-URI" klicken, können Sie auf den Benutzeraktivitätsbericht für den jeweiligen Benutzer zugreifen. Wenn Sie für einen Peer-zu-Peer-Anruf auf die Metrik "Letzte Aktivität" klicken, gelangen Sie zum Detailbericht über Peer-zu-Peer-Sitzungen. Wenn Sie für eine Konferenz auf dieselbe Metrik klicken, gelangen Sie zum detaillierten Konferenzbericht.
 
 </div>
 
@@ -67,12 +67,12 @@ Der Zugriff auf den Bericht für den IP-Telefonbestand erfolgt über die Startse
 
 ## <a name="making-the-best-use-of-the-ip-phone-inventory-report"></a>Optimale Nutzung des Berichts für den IP-Telefonbestand
 
-Wenn Sie nur an Nutzungsinformationen für eine bestimmte Art von Telefon interessiert sind (beispielsweise: "wie oft verwenden Benutzer ein Polycom CX600-Telefon?"), können Sie diese Informationen direkt aus dem Inventarbericht für IP-Telefone abrufen, indem Sie für diese bestimmte Art von Telefon filtern. Wenn Sie jedoch Zusammenfassungsinformationen für alle ihre Smartphones (wie viele Personen eine Polycom CX600 verwenden, wie viele eine LG-Nortel-IP8540 usw. verwenden) verwenden möchten, müssen Sie die Daten exportieren und eine andere Anwendung (wie Windows PowerShell) verwenden, um diese Art von Analyse. Nehmen Sie beispielsweise an, dass Sie die Daten in eine Datei mit Komma getrennten Werten (\\C\\:\_Data\_IP\_Phone Inventory Report. CSV) exportieren. In diesem Fall können Sie mit diesen beiden Befehlen Zusammenfassungsdaten für alle Ihre Telefone bereitstellen:
+Wenn Sie nur an Verwendungsinformationen für eine bestimmte Art von Telefon interessiert sind (beispielsweise "wie oft verwenden Benutzer ein Polycom CX600-Telefon?"), können Sie diese Informationen direkt aus dem IP-Telefon Inventurbericht abrufen, indem Sie nach dieser bestimmten Art von Telefon filtern. Wenn Sie jedoch zusammenfassende Informationen für alle Telefone wünschen (wie viele Benutzer eine Polycom CX600 verwenden, wie viele eine LG-Nortel-IP8540 verwenden, usw.), müssen Sie die Daten exportieren und eine andere Anwendung (wie Windows PowerShell) für diesen Typ von verwenden. Analyse. Nehmen Sie beispielsweise an, dass Sie die Daten in eine Datei mit Komma getrennten Werten exportieren\\(\\C\_:\_Data\_IP Phone Inventory Report. CSV). In diesem Fall können Sie diese beiden Befehle verwenden, um zusammenfassende Daten für alle Telefone bereitzustellen:
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones |Group-Object Manufacturer, "Hardware version" | Select-Object Count, Name | Sort-Object Count -Descending
 
-Die zurückgegebenen Daten sehen so ähnlich aus, wie diese:
+Dadurch werden Daten zurückgegeben, die den Folgenden ähneln:
 
     Count    Name
     -----    ----
@@ -88,7 +88,7 @@ Die zurückgegebenen Daten sehen so ähnlich aus, wie diese:
         9    POLYCOM, CX500
         7    Aastra, 6721ip
 
-Gleichermaßen erhalten Sie mithilfe dieser beiden Befehle Informationen dazu, welche Telefone zwar beim System angemeldet, aber tatsächlich nie zum Telefonieren genutzt wurden (der Wert der Metrik „Letzte Aktivität“ ist leer und gibt somit an, dass es keine letzte Aktivität gab):
+Gleichermaßen erhalten Sie mithilfe dieser beiden Befehle Informationen dazu, welche Telefone zwar beim System angemeldet, aber tatsächlich nie zum Telefonieren genutzt wurden (der Wert der Metrik "Letzte Aktivität" ist leer und gibt somit an, dass es keine letzte Aktivität gab):
 
     $phones = Import-Csv "C:\Data\IP_Phone_Inventory_Report.csv"
     $phones | Where-Object {$_."Last activity" -eq ""}
@@ -104,7 +104,7 @@ Dabei werden für alle nicht verwendeten Telefone Daten zurückgegeben, die den 
     Last logoff time : 8/30/2010 5:59:07 PM
     Last activity    :
 
-Eine weitere interessante Möglichkeit zur Verwendung des Inventarberichts für IP-Telefone: Wenn Sie über die Mac-Adresse eines IP-Telefons verfügen, können Sie den Benutzer, der das Telefon zuletzt verwendet hat, einfach über die Adresse in das Textfeld Mac-Adresse eingeben. Der Bericht IP Phone Inventory meldet dann (unter anderem) die SIP-Adresse des Benutzers, der sich zuletzt mit diesem Telefon angemeldet hat. Sie können auch eine SIP-Adresse des Benutzers (im Feld Benutzer-URI-Präfix) eingeben, um alle Telefone festzustellen, die von diesem Benutzer verwendet wurden.
+Eine weitere interessante Möglichkeit, den Bericht über den IP-Telefon bestand zu verwenden, ist Folgendes: Wenn Sie über die Mac-Adresse eines IP-Telefons verfügen, können Sie den Benutzer, der dieses Telefon zuletzt verwendet hat, einfach über die Adresse in das Textfeld Mac-Adresse eingeben. Der Bericht über den IP-Telefon bestand meldet dann (unter anderem) die SIP-Adresse des Benutzers, der sich zuletzt mit dem Telefon angemeldet hat. Alternativ können Sie eine SIP-Adresse des Benutzers eingeben (im Feld Benutzer-URI-Präfix), um alle Telefone zu ermitteln, die von diesem Benutzer verwendet wurden.
 
 </div>
 
@@ -116,7 +116,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder 
 
 In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht für den IP-Telefonbestand verwenden können.
 
-### <a name="ip-phone-inventory-report-filters"></a>Bericht für den IP-Telefonbestand - Filter
+### <a name="ip-phone-inventory-report-filters"></a>Bericht für den IP-Telefonbestand – Filter
 
 <table>
 <colgroup>
@@ -131,9 +131,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht für 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Von</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 Uhr</p>
+<p>07.07.2012 13:00</p>
 <p>Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
@@ -141,9 +141,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht für 
 <p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Bis</strong></p></td>
+<td><p><strong>Ziel</strong></p></td>
 <td><p>Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 Uhr</p>
+<p>07.07.2012 13:00</p>
 <p>Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
@@ -173,18 +173,18 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht für 
 <td><p><strong>Letzte Aktivität vor (Tage)</strong></p></td>
 <td><p>Wählen Sie einen der folgenden Werte:</p>
 <ul>
-<li><p>[Alle]</p></li>
-<li><p>10</p></li>
+<li><p>Alle</p></li>
+<li><p>10 </p></li>
 <li><p>20</p></li>
 <li><p>30</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><strong>Zuletzt abgemeldet vor (Tage):</strong></p></td>
+<td><p><strong>Zuletzt abgemeldet vor (Tage)</strong></p></td>
 <td><p>Wählen Sie einen der folgenden Werte:</p>
 <ul>
-<li><p>[Alle]</p></li>
-<li><p>10</p></li>
+<li><p>Alle</p></li>
+<li><p>10 </p></li>
 <li><p>20</p></li>
 <li><p>30</p></li>
 </ul></td>
@@ -205,7 +205,7 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht für 
 
 In der folgenden Tabelle werden Metriken aufgelistet, die im Bericht für den IP-Telefonbestand angegeben werden.
 
-### <a name="ip-phone-inventory-report-metrics"></a>Bericht für den IP-Telefonbestand - Metriken
+### <a name="ip-phone-inventory-report-metrics"></a>Bericht für den IP-Telefonbestand – Metriken
 
 <table>
 <colgroup>
@@ -254,7 +254,7 @@ In der folgenden Tabelle werden Metriken aufgelistet, die im Bericht für den IP
 <tr class="odd">
 <td><p><strong>Zuletzt abgemeldet um:</strong></p></td>
 <td><p>Ja</p></td>
-<td><p>Datum und Uhrzeit, zu dem das IP-Telefon zuletzt von lync Server abgemeldet wurde.</p></td>
+<td><p>Datum und Uhrzeit, zu denen das IP-Telefon zuletzt von lync Server abgemeldet wurde.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Letzte Aktivität</strong></p></td>

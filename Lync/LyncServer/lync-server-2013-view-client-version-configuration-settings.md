@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Anzeigen der Konfigurationseinstellungen für Clientversionen'
+title: 'Lync Server 2013: Anzeigen von Konfigurationseinstellungen für Clientversionen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 50675353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6c789275cf33b48e27d60de9a9f9846fc230276
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4213008c20181f7525c7cf62eb316820abe66f3f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731115"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007194"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-client-version-configuration-settings-in-lync-server-2013"></a>Anzeigen der Konfigurationseinstellungen für Clientversionen in lync Server 2013
+# <a name="view-client-version-configuration-settings-in-lync-server-2013"></a>Anzeigen von Konfigurationseinstellungen für Clientversionen in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41731115"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Client Version-Konfigurationseinstellungen werden verwendet, um die Client Versionskontrolle zu aktivieren oder zu deaktivieren. Die Konfiguration der globalen Client Version wird mit lync Server 2013 installiert und verwendet, um die Client Versionskontrolle für die gesamte Server Bereitstellung zu aktivieren oder zu deaktivieren. Wenn die globale Konfiguration aktiviert ist, werden alle von Ihnen eingerichteten clientversionsrichtlinien wirksam, wenn Benutzer versuchen, sich anzumelden. Sie können die Konfigurationseinstellungen für Clientversionen in der lync Server 2013-Systemsteuerung oder in der lync Server 2013-Verwaltungsshell anzeigen.
+Konfigurationseinstellungen für Clientversionen werden verwendet, um die Client Versionskontrolle zu aktivieren oder zu deaktivieren. Die Konfiguration der globalen Client Version wird mit lync Server 2013 installiert und dient zum Aktivieren oder Deaktivieren der Client Versionskontrolle für die gesamte Server Bereitstellung. Wenn die globale Konfiguration aktiviert ist, werden alle clientversionsrichtlinien, die Sie in Kraft setzen, wirksam, wenn sich Benutzer anmelden. Sie können die Einstellungen für die Client Versions Konfiguration in lync Server 2013 Systemsteuerung oder in lync Server 2013 Management Shell anzeigen.
 
 <div>
 
@@ -51,11 +51,11 @@ Client Version-Konfigurationseinstellungen werden verwendet, um die Client Versi
 
 <div>
 
-## <a name="to-view-client-version-configuration-settings-by-using-lync-server-control-panel"></a>So zeigen Sie die Konfigurationseinstellungen für Clientversionen mithilfe der lync Server-Systemsteuerung an
+## <a name="to-view-client-version-configuration-settings-by-using-lync-server-control-panel"></a>So zeigen Sie Konfigurationseinstellungen für Clientversionen mithilfe von lync Server-Systemsteuerung an
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Navigationsschaltfläche **Client Versions Konfiguration** .
 
@@ -67,17 +67,17 @@ Client Version-Konfigurationseinstellungen werden verwendet, um die Client Versi
 
 ## <a name="viewing-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Anzeigen von Konfigurationseinstellungen für Client Versionen mithilfe von Windows PowerShell-Cmdlets
 
-Sie können die Konfigurationseinstellungen für Clientversionen mit dem Cmdlet **Get-CsClientVersionConfiguration** anzeigen. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Sie können Konfigurationseinstellungen für Clientversionen mithilfe des Cmdlets **Get-CsClientVersionConfiguration** anzeigen. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
-## <a name="to-view-client-version-configuration-information"></a>So zeigen Sie Client Versions Konfigurationsinformationen an
+## <a name="to-view-client-version-configuration-information"></a>So zeigen Sie Konfigurationsinformationen zur Client Version an
 
-  - Wenn Sie Informationen zu allen Konfigurationseinstellungen Ihrer Client Version anzeigen möchten, geben Sie den folgenden Befehl in der lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
+  - Wenn Sie Informationen zu allen Konfigurationseinstellungen Ihrer Client Version anzeigen möchten, geben Sie den folgenden Befehl in das lync Server-Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
         Get-CsClientVersionConfiguration
     
-    Es werden etwa folgende Informationen zurückgegeben:
+    Hiermit werden Informationen zurückgegeben, die so oder ähnlich aussehen:
     
         Identity      : Global
         DefaultAction : Allow

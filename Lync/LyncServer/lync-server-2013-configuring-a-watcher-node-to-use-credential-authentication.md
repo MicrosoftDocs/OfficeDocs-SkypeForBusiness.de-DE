@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren eines Watcher-Knotens zur Verwendung der Authentifizierung von Anmeldeinformationen'
+title: 'Lync Server 2013: Konfigurieren eines Watcher-Knotens zur Verwendung der Anmeldeinformationen-Authentifizierung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183255
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d0fa67c4ef2688035471d2290ead78123f73239
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d38a06c7ea40bd30f962484c8ce0d882c9633bf0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763409"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035137"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-watcher-node-to-use-credential-authentication-in-lync-server-2013"></a>Konfigurieren eines Watcher-Knotens zur Verwendung der Authentifizierung von Anmeldeinformationen in lync Server 2013
+# <a name="configuring-a-watcher-node-to-use-credential-authentication-in-lync-server-2013"></a>Konfigurieren eines Watcher-Knotens für die Verwendung der Anmeldeinformationen-Authentifizierung in lync Server 2013
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41763409"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-20_
+_**Letztes Änderungsstand des Themas:** 2012-10-20_
 
-Wenn sich Ihr Watcher-Knoten Computer außerhalb des Umkreisnetzwerks befindet, müssen Sie ein etwas anderes Verfahren ausführen, um diesen Watcher-Knoten so zu konfigurieren, dass synthetische Transaktionen ausgeführt werden. Insbesondere sollten Sie keinen vertrauenswürdigen Anwendungspool und eine vertrauenswürdige Anwendung erstellen, und Sie müssen ein Zertifikat installieren, mit dem der Watcher-Knoten Benachrichtigungen an einen Computer im Umkreisnetzwerk senden kann. Das bedeutet, dass Sie zwei getrennte Aufgaben ausführen müssen:
+Wenn Ihr Monitorknotencomputer außerhalb des Umkreisnetzwerks angeordnet ist, müssen Sie ein etwas anderes Verfahren anwenden, um diesen Monitorknoten für die Ausführung synthetischer Transaktionen zu konfigurieren. Beachten Sie, dass Sie keinen Pool mit vertrauenswürdigen Anwendungen und keine vertrauenswürdige Anwendung erstellen sollten und ein Zertifikat installieren müssen, über das der Monitorknoten Benachrichtigungen an einen Computer im Umkreisnetzwerk senden kann. Dies bedeutet, dass Sie zwei separate Schritte ausführen müssen:
 
-  - Aktualisieren der Mitgliedschaft in der RTC Local-Gruppe "nur-Lese-Administratoren" des Computers
+  - Aktualisieren der Mitgliedschaft für die Gruppe "RTC Local Read-only Administrators Group" des Computers
 
-  - Installieren der Watcher-Knoten-Konfigurationsdateien
+  - Installieren der Konfigurationsdateien des Monitorknotens
 
 <div>
 
-## <a name="updating-membership-in-the-rtc-local-read-only-administrators-group"></a>Aktualisieren der Mitgliedschaft in der lokalen RTC-Administratorgruppe "schreibgeschützt"
+## <a name="updating-membership-in-the-rtc-local-read-only-administrators-group"></a>Aktualisieren der Mitgliedschaft in der Gruppe "RTC Local Read-only Administrators"
 
-Wenn sich der Watcher-Knoten außerhalb des Umkreisnetzwerks befindet, müssen Sie das Netzwerkdienstkonto der Gruppe "RTC Local Read-only" auf dem Watcher-Knoten Computer hinzufügen. Führen Sie dazu das folgende Verfahren auf dem Watcher-Knoten aus:
+Wenn der Monitorknoten außerhalb des Umkreisnetzwerks angeordnet ist, müssen Sie das Netzwerkdienstkonto auf dem Computer mit dem Monitorknoten der Gruppe "RTC Local Read-only Administrators" hinzufügen. Führen Sie dazu für den Monitorknoten die folgenden Schritte aus:
 
-1.  Klicken Sie auf **Start**, klicken Sie mit der rechten Maustaste auf **Computer**, und klicken Sie dann auf **Verwalten**.
+1.  Klicken Sie auf **Start**, klicken Sie mit der rechten Maustaste auf **Arbeitsplatz**, und klicken Sie dann auf **Verwalten**.
 
-2.  Erweitern Sie im Server-Manager **Konfiguration**, erweitern Sie **lokale Benutzer und Gruppen**, und klicken Sie dann auf **Gruppen**.
+2.  Erweitern Sie im Server-Manager die Optionen **Konfiguration** und **Lokale Benutzer und Gruppen**, und klicken Sie dann auf **Gruppen**.
 
-3.  Doppelklicken Sie im Bereich Gruppen auf **RTC Local Read-Only-Administratoren**.
+3.  Doppelklicken Sie im Bereich "Gruppen" mit der rechten Maustaste auf **RTC Local Read-only Administrators**.
 
-4.  Klicken Sie im Dialogfeld **Eigenschaften von RTC Local nur-Lese-Administratoren** auf **Hinzufügen**.
+4.  Klicken Sie im Dialogfeld mit den Eigenschaften von **RTC Local Read-only Administrators** auf **Hinzufügen**.
 
-5.  Klicken Sie im Dialogfeld **Benutzer, Computer, Dienstkonten oder Gruppen auswählen** auf **Speicherorte**.
+5.  Klicken Sie im Dialogfeld für die Auswahl von Benutzern, Computern, Dienstkonten oder Gruppen**** auf **Standorte**.
 
-6.  Wählen Sie im Dialogfeld **Speicherorte** den Namen des Watcher-Knoten Computers aus, und klicken Sie dann auf **OK**.
+6.  Wählen Sie im Dialogfeld **Standorte** den Namen des Monitorknotencomputers aus, und klicken Sie dann auf **OK**.
 
-7.  Geben Sie im Feld Geben Sie die **zu wählenden Objektnamen ein den Namen** **Netzwerkdienst**ein, und klicken Sie dann auf **OK**.
+7.  Geben Sie im Feld **Geben Sie die zu verwendenden Objektnamen ein** den Text **Netzwerkdienst** ein, und klicken Sie auf **OK**.
 
-8.  Klicken Sie im Dialogfeld **Eigenschaften von RTC-schreibgeschützten Administratoren** auf **OK**, und schließen Sie dann **Server-Manager**.
+8.  Klicken Sie im Dialogfeld mit den Eigenschaften von **RTC Local Read-only Administrators** auf **OK**, und schließen Sie den **Server-Manager**.
 
 Starten Sie den Monitorknotencomputer neu.
 
@@ -71,9 +71,9 @@ Starten Sie den Monitorknotencomputer neu.
 
 <div>
 
-## <a name="installing-the-watcher-node-configuration-files"></a>Installieren der Watcher-Knoten-Konfigurationsdateien
+## <a name="installing-the-watcher-node-configuration-files"></a>Installieren der Konfigurationsdateien des Monitorknotens
 
-Nachdem der Watcher-Knoten Computer neu gestartet wurde, besteht der nächste Schritt darin, die Datei Watchernode. msi auszuführen. Um diese Datei auszuführen, öffnen Sie die lync Server 2013-Verwaltungsshell, indem Sie auf **Start**klicken, auf **Alle Programme**klicken, auf **lync Server 2013**und dann auf **lync Server-Verwaltungsshell**klicken. Geben Sie in der lync Server-Verwaltungsshell den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE (stellen Sie sicher, dass Sie den tatsächlichen Pfad zu Ihrer Kopie von Watchernode. msi angeben):
+Nachdem der Monitorknotencomputer neu gestartet wurde, ist der nächste Schritt das Ausführen der Datei "Watchernode.msi". Um diese Datei auszuführen, öffnen Sie die lync Server 2013 Verwaltungsshell, indem Sie auf **Start**und **Alle Programme**klicken, auf **lync Server 2013**und dann auf **lync Server-Verwaltungsshell**klicken. Geben Sie im lync Server-Verwaltungsshell den folgenden Befehl ein, und drücken Sie dann die EINGABETASTE (stellen Sie sicher, dass Sie den tatsächlichen Pfad zu Ihrer Kopie von Watchernode. msi angeben):
 
     C:\Tools\Watchernode.msi Authentication=Negotiate
 
@@ -81,7 +81,7 @@ Nachdem der Watcher-Knoten Computer neu gestartet wurde, besteht der nächste Sc
 
 
 > [!NOTE]  
-> Wie bereits erwähnt, kann Watchernode. msi auch über ein Befehlsfenster ausgeführt werden. Klicken Sie zum Öffnen eines Befehlsfensters auf <STRONG>Start</STRONG>, klicken Sie mit der rechten Maustaste auf <STRONG>Eingabeaufforderung</STRONG> und klicken Sie dann auf <STRONG>Als Administrator ausführen</STRONG>. Wenn das Befehlsfenster geöffnet wird, geben Sie den gleichen Befehl wie zuvor gezeigt ein.
+> Wie bereits erwähnt, kann die Datei "Watchernode.msi" auch über ein Befehlsfenster mit Eingabeaufforderung ausgeführt werden. Klicken Sie zum Öffnen eines Befehlsfensters auf <STRONG>Start</STRONG>, klicken Sie mit der rechten Maustaste auf <STRONG>Eingabeaufforderung</STRONG>, und klicken Sie dann auf <STRONG>Als Administrator ausführen</STRONG>. Geben Sie den bereits gezeigten Befehl ein, nachdem das Befehlsfenster geöffnet wurde.
 
 
 

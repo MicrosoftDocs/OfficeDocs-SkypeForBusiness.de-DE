@@ -13,16 +13,16 @@ ms:contentKeyID: 48184883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b808f4cc0eea74253ecf8f360278983f0bf92b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 55c1749a24e89f68ccae858b94d41208fc4b6123
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724205"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42004390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,9 +36,9 @@ ms.locfileid: "41724205"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-29_
+_**Letztes Änderungsstand des Themas:** 2012-09-29_
 
-Im Allgemeinen müssen Sie das Verwaltungstool verwenden, das der Server Version entspricht, die Sie verwalten möchten. Sie können die Verwaltungstools lync Server 2013 und Office Communications Server 2007 R2 nicht auf demselben Computer installieren. Außerdem wird die lync Server 2013-Systemsteuerung nicht automatisch auf jedem Server installiert. Wenn Sie die lync Server 2013-Systemsteuerung installieren möchten, führen Sie die Schritte im Thema [Installieren von lync Server 2013-Verwaltungstools](lync-server-2013-install-lync-server-administrative-tools.md) in der Bereitstellungsdokumentation aus.
+Im Allgemeinen müssen Sie die Verwaltungstools verwenden, die der zu verwaltenden Serverversion entsprechen. Sie können die lync Server 2013 und Office Communications Server 2007 R2 Verwaltungstools auf demselben Computer nicht installieren. Außerdem wird die lync Server 2013-Systemsteuerung nicht automatisch auf jedem Server installiert. Um die lync Server 2013-Systemsteuerung zu installieren, führen Sie das Verfahren im Thema [install lync Server 2013 Administrative Tools](lync-server-2013-install-lync-server-administrative-tools.md) in der Bereitstellungsdokumentation aus.
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbf7d49a14ce45550777c6c122cd799f6a511f76
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 175f7d9cd5417f350dd08873aa748c56d829d86d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737405"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007043"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="delete-an-existing-collection-of-lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Löschen einer vorhandenen Sammlung von lync Phone Edition-Konfigurationseinstellungen in lync Server 2013
+# <a name="delete-an-existing-collection-of-lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Löschen einer vorhandenen Sammlung von lync Phone Edition Konfigurationseinstellungen in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41737405"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Wenn Sie eine Sammlung von Einstellungen für Geräte, auf denen lync Phone Edition ausgeführt wird, nicht mehr verwenden möchten, löschen Sie Sie. Wenn Sie eine Sammlung für eine Website löschen, gelten die globalen Einstellungen für die Telefone auf dieser Website. Sie können die globale Sammlung nicht löschen.
+Wenn Sie eine Sammlung von Einstellungen für Geräte, die lync Phone Edition ausführen, nicht mehr verwenden möchten, löschen Sie Sie. Wenn Sie eine Auflistung für einen Standort löschen, gelten die globalen Einstellungen für die Telefone an diesem Standort. Die globale Auflistung kann nicht gelöscht werden.
 
 <div>
 
 
 > [!NOTE]
-> Anstatt eine Sammlung zu löschen, möchten Sie möglicherweise nur einige Einstellungen ändern. Ausführliche Informationen hierzu finden Sie unter <A href="lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md">erstellen oder Ändern einer Sammlung von lync Phone Edition-Konfigurationseinstellungen in lync Server 2013</A>.
+> Anstatt eine Auflistung zu löschen, können Sie auch nur einige der Einstellungen ändern. Ausführliche Informationen zur Vorgehensweise finden Sie unter <A href="lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md">erstellen oder Ändern einer Sammlung von lync Phone Edition Konfigurationseinstellungen in lync Server 2013</A>.
 
 
 
@@ -53,19 +53,19 @@ Wenn Sie eine Sammlung von Einstellungen für Geräte, auf denen lync Phone Edit
 
 ## <a name="to-delete-a-collection-of-lync-phone-edition-configuration-settings"></a>So löschen Sie eine Sammlung von lync Phone Edition-Konfigurationseinstellungen
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Navigationsschaltfläche **Gerätekonfiguration** .
+3.  Klicken Sie in der linken Navigationsleiste auf **Clients** und dann auf die Navigationsschaltfläche **Gerätekonfiguration**.
 
-4.  Klicken Sie auf der Seite **Device Configuration** auf die Sammlung, die Sie löschen möchten, klicken Sie auf das Menü **Bearbeiten** , und klicken Sie dann auf **Löschen**.
+4.  Klicken Sie auf der Seite **Gerätekonfiguration** auf die Auflistung, die Sie löschen möchten, klicken Sie auf das Menü **Bearbeiten** und dann auf **Löschen**.
     
     <div>
     
 
     > [!NOTE]
-    > Wenn Sie die globale Sammlung löschen, werden die Einstellungen einfach auf die Standardeinstellungen zurückgesetzt. Die Sammlung verschwindet nicht.
+    > Wenn Sie die globale Auflistung löschen, werden die Einstellungen lediglich auf die Standardeinstellungen zurückgesetzt. Die Auflistung verschwindet nicht.
 
     
     </div>
@@ -76,15 +76,15 @@ Wenn Sie eine Sammlung von Einstellungen für Geräte, auf denen lync Phone Edit
 
 <div>
 
-## <a name="removing-lync-phone-edition-configuration-settings-by-using-windows-powershell-cmdlets"></a>Entfernen der lync Phone Edition-Konfigurationseinstellungen mithilfe von Windows PowerShell-Cmdlets
+## <a name="removing-lync-phone-edition-configuration-settings-by-using-windows-powershell-cmdlets"></a>Entfernen von lync Phone Edition-Konfigurationseinstellungen mithilfe von Windows PowerShell-Cmdlets
 
-Sie können die lync Phone Edition-Konfigurationseinstellungen mithilfe von Windows PowerShell und dem Cmdlet **Remove-CsUCConfiguration** löschen. Sie können dieses Cmdlet entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Sie können lync Phone Edition-Konfigurationseinstellungen mithilfe von Windows PowerShell und dem Cmdlet **Remove-CsUCConfiguration** löschen. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
-## <a name="to-remove-a-specified-collection-of-lync-phone-edition-configuration-settings"></a>So entfernen Sie eine bestimmte Sammlung von lync Phone Edition-Konfigurationseinstellungen
+## <a name="to-remove-a-specified-collection-of-lync-phone-edition-configuration-settings"></a>So entfernen Sie eine angegebene Auflistung von lync Phone Edition-Konfigurationseinstellungen
 
-  - Mit diesem Befehl werden die auf die Redmond-Website angewendeten UC-Telefon Konfigurationseinstellungen gelöscht:
+  - Mit diesem Befehl werden die UC-Telefonkonfigurationseinstellungen gelöscht, die am Standort Redmond angewendet werden:
     
         Remove-CsUCPhoneConfiguration -Identity "site:Redmond"
 
@@ -94,7 +94,7 @@ Sie können die lync Phone Edition-Konfigurationseinstellungen mithilfe von Wind
 
 ## <a name="to-remove-all-of-the-lync-phone-edition-configuration-settings-applied-to-the-site-scope"></a>So entfernen Sie alle auf den Website Bereich angewendeten lync Phone Edition-Konfigurationseinstellungen
 
-  - Mit diesem Befehl werden alle auf den Dienstbereich angewendeten UC-Telefon Konfigurationseinstellungen entfernt:
+  - Mit diesem Befehl werden alle UC-Telefoneinstellungen entfernt, die auf Dienstebene angewendet werden:
     
         Get-CsUCPhoneConfiguration -Filter "site:*" | Remove-CsUCPhoneConfiguration
 
@@ -102,15 +102,15 @@ Sie können die lync Phone Edition-Konfigurationseinstellungen mithilfe von Wind
 
 <div>
 
-## <a name="to-remove-all-of-the-lync-phone-edition-configuration-settings-where-phone-locking-is-disabled"></a>So entfernen Sie alle lync Phone Edition-Konfigurationseinstellungen, bei denen die Telefon Sperrung deaktiviert ist
+## <a name="to-remove-all-of-the-lync-phone-edition-configuration-settings-where-phone-locking-is-disabled"></a>So entfernen Sie alle lync Phone Edition-Konfigurationseinstellungen, bei denen die Telefonsperre deaktiviert ist
 
-  - Dieser Befehl löscht eine beliebige Sammlung von UC-Telefon Konfigurationseinstellungen, bei denen die Telefon Sperrung deaktiviert wurde:
+  - Mit diesem Befehl werden alle Auflistungen von UC-Telefonkonfigurationseinstellungen gelöscht, für die die Telefonsperre deaktiviert wurde:
     
         Get-CsUCPhoneConfiguration | Where-Object {$_.EnforcePhoneLock -eq $False} | Remove-CsUCPhoneConfiguration
 
 </div>
 
-Ausführliche Informationen finden Sie unter [Remove-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/Gg398249(v=OCS.15)).
+Ausführliche Informationen finden Sie unter [Remove-CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg398249(v=OCS.15)).
 
 </div>
 

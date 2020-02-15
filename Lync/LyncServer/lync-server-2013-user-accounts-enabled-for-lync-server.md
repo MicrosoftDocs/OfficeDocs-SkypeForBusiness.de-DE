@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Benutzerkonten, die für lync Server aktiviert sind'
+title: 'Lync Server 2013: für lync Server aktivierte Benutzerkonten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184651
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 613d6350fcb405b1ae8beef78c3ee8c8a64a084c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6d51f72f586ab6d5b5094c61ae09d8ac316350b7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744655"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033985"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41744655"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-04-18_
+_**Letztes Änderungsstand des Themas:** 2014-04-18_
 
-Die Themen in diesem Abschnitt enthalten Schritt-für-Schritt-Verfahren zum Konfigurieren von Benutzereinstellungen, die Sie mit der lync Server 2013-Systemsteuerung durchführen können.
+Die Themen in diesem Abschnitt bieten schrittweise Anleitungen zum Konfigurieren von Benutzereinstellungen, die Sie mit der lync Server 2013-Systemsteuerung ausführen können.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Sie können die lync Server-Systemsteuerung nicht zum Verwalten von Benutzern verwenden, die Mitglieder der Gruppe "Active Directory-Domänenadministratoren" sind. Für Benutzer von Domänenadministratoren können Sie die lync Server-Systemsteuerung nur zum Durchführen von schreibgeschützten Suchvorgängen verwenden. Wenn Sie Schreibvorgänge für Benutzer von Domänenadministratoren durchführen möchten (beispielsweise für die lync Server-Systemsteuerung aktivieren oder deaktivieren, Pool-oder Richtlinienzuweisungen ändern, Telefoneinstellungen, SIP-Adresse), müssen Sie Windows PowerShell-Cmdlets verwenden, während Sie als Domänenadministrator angemeldet sind. Details zur Verwendung von Windows PowerShell-Cmdlets zum Verwalten von Benutzern finden Sie unter <A href="lync-server-2013-lync-server-management-shell.md">lync Server 2013-Verwaltungsshell</A>.
+> Sie können lync Server-Systemsteuerung nicht zum Verwalten von Benutzern verwenden, die Mitglied der Gruppe "Active Directory Domänen-Admins" sind. Für Benutzer von Domänenadministratoren können Sie lync Server-Systemsteuerung nur zum Ausführen schreibgeschützter Suchvorgänge verwenden. Zum Ausführen von Schreibvorgängen für Benutzer von Domänenadministratoren (zum Beispiel aktivieren oder deaktivieren für lync Server-Systemsteuerung, Ändern von Pool-oder Richtlinienzuweisungen, Telefonieeinstellungen, SIP-Adresse) müssen Sie Windows PowerShell-Cmdlets verwenden, während Sie als Domänenadministrator Benutzer angemeldet sind. Ausführliche Informationen zur Verwendung von Windows PowerShell-Cmdlets zum Verwalten von Benutzern finden Sie unter <A href="lync-server-2013-lync-server-management-shell.md">lync Server 2013 Management Shell</A>.
 
 
 
 </div>
 
-Wenn Sie eine beliebige lync Server 2013-Verwaltungsaufgabe ausführen, die die Suche nach einem Benutzer oder das Filtern von Benutzersuchergebnissen umfasst, gibt es einige Benutzereigenschaften, die als Attribute in den Active Directory-Domänendiensten vorhanden sind, aber nicht in den globalen Katalog repliziert werden. bis Microsoft Exchange Server bereitgestellt wird. Microsoft Exchange, nicht lync Server, kennzeichnet die folgenden Attribute für die Replikation beim globalen Katalog, wenn die Installation erfolgt:
+Wenn Sie eine lync Server 2013 administrative Aufgabe ausführen, die die Suche nach einem Benutzer oder das Filtern von Benutzersuchergebnissen umfasst, gibt es einige Benutzereigenschaften, die als Attribute in Active Directory-Domänendienste vorhanden sind, aber nicht auf den globalen Katalog repliziert werden. bis Exchange Server bereitgestellt wurde. Microsoft Exchange, nicht lync Server, markiert bei der Installation die folgenden Attribute für die Replikation in den globalen Katalog:
 
 
 <table>
@@ -62,21 +62,21 @@ Wenn Sie eine beliebige lync Server 2013-Verwaltungsaufgabe ausführen, die die 
 <tr class="header">
 <th>Benutzerinformationen</th>
 <th>Adresse und Telefon</th>
-<th>Organisation</th>
+<th>Organization (Organisation)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Initialen</p></td>
-<td><p>Straßenanschrift</p>
+<td><p>Adresse</p>
 <p>Land/Region</p>
 <p>Pager</p>
-<p>Fax</p>
+<p>Fax-</p>
 <p>Mobil</p></td>
-<td><p>Titel</p>
-<p>Unternehmen</p>
+<td><p>Position</p>
+<p>Company</p>
 <p>Abteilung</p>
-<p>Office</p></td>
+<p>Büro</p></td>
 </tr>
 </tbody>
 </table>
@@ -94,9 +94,9 @@ Wenn Sie eine beliebige lync Server 2013-Verwaltungsaufgabe ausführen, die die 
 
   - [Ändern von Benutzerkontoeigenschaften in lync Server 2013](lync-server-2013-modifying-user-account-properties.md)
 
-  - [Verwalten von Richtlinien für den externen Zugriff für Ihre Organisation in Lync Server 2013](lync-server-2013-manage-external-access-policy-for-your-organization.md)
+  - [Verwalten von Richtlinien für den externen Zugriff in lync Server 2013](lync-server-2013-manage-external-access-policy-for-your-organization.md)
 
-  - [Zuweisen von Richtlinien für einzelne Benutzer in lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
+  - [Zuweisen von Richtlinien pro Benutzer in lync Server 2013](lync-server-2013-assigning-per-user-policies.md)
 
 </div>
 
@@ -108,7 +108,7 @@ Wenn Sie eine beliebige lync Server 2013-Verwaltungsaufgabe ausführen, die die 
 [Cmdlets für die Benutzerverwaltung in lync Server 2013](lync-server-2013-user-management-cmdlets.md)  
 
 
-[Verwalten von Benutzern in Lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)  
+[Verwalten von Benutzern in lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Erstellen oder Bearbeiten einer XMPP-Verbundpartnerkonfiguration'
+title: 'Lync Server 2013: Erstellen oder Bearbeiten der XMPP-Partnerkonfiguration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 488665bca5cd2ad1b4d2d91a3c85a6a1ddaa3916
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4410444d1565e61fa80ef8b8db29aad63b4401de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763389"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42032491"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Erstellen oder Bearbeiten einer XMPP-Verbundpartnerkonfiguration in Lync Server 2013
+# <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Erstellen oder Bearbeiten der XMPP-Partnerkonfiguration in lync Server 2013
 
 </div>
 
@@ -35,88 +35,88 @@ ms.locfileid: "41763389"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-09-03_
+_**Letztes Änderungsstand des Themas:** 2014-09-03_
 
-Microsoft lync Server 2013 integriert einen Extensible Messaging and Presence Protocol (XMPP)-Proxy auf dem Edgeserver und ein XMPP-Gateway auf dem Front-End-Server oder Front-End-Pool. Damit Verbindungen von anderen XMPP-Bereitstellungen zugelassen werden, müssen Sie xmpp in der lync Server-Systemsteuerung konfigurieren. Sie konfigurieren die Einstellungen auf einer XMPP-Domänenbasis. Gehen Sie wie folgt vor, um eine neue Partnerzuordnung zu erstellen:
+Microsoft lync Server 2013 integriert einen XMPP-Proxy (Extensible Messaging and Presence Protocol) auf der Edgeserver und ein XMPP-Gateway auf dem Front-End-Server oder Front-End-Pool. Um Verbindungen von anderen XMPP-Bereitstellungen zuzulassen, müssen Sie XMPP im lync Server-Systemsteuerung konfigurieren. Die Einstellungen werden auf XMPP-Domänenbasis konfiguriert. Führen Sie zum Erstellen eines neuen Partnerverbunds die folgenden Schritte aus:
 
 <div>
 
-## <a name="to-create-a-new-federated-partner-or-edit-an-existing-configuration"></a>So erstellen Sie einen neuen Föderationspartner oder bearbeiten eine vorhandene Konfiguration
+## <a name="to-create-a-new-federated-partner-or-edit-an-existing-configuration"></a>So erstellen Sie einen neuen Verbundpartner oder bearbeiten eine vorhandene Konfiguration
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder gleichwertige Benutzerrechte hat) oder der CsAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Föderation und externer Zugriff**, und klicken Sie dann auf **XMPP Federated Partners**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Partnerverbund- und externer Zugriff** und dann auf **XMPP-Verbundpartner**.
 
-4.  Wenn Sie eine neue Konfiguration erstellen möchten, klicken Sie auf **neu** .
+4.  Klicken Sie zum Erstellen einer neuen Konfiguration auf **Neu**.
 
-5.  Wenn Sie eine vorhandene Konfiguration bearbeiten möchten, wählen Sie die Konfiguration aus, und klicken Sie auf **Bearbeiten** .
+5.  Wenn Sie eine vorhandene Konfiguration bearbeiten möchten, wählen Sie die Konfiguration aus, und klicken Sie auf **Bearbeiten**.
 
-6.  Zum Erstellen oder Bearbeiten von Konfigurationen für **XMPP-Verbundpartner**definieren Sie die folgenden Einstellungen:
+6.  Um Konfigurationen für **XMPP-Verbundpartner** zu erstellen oder zu bearbeiten, definieren Sie die folgenden Einstellungen:
 
-7.  **Primäre Domäne** (erforderlich). Die primäre Domäne ist die Basisdomäne des XMPP-Partners. Geben Sie beispielsweise **Fabrikam.com** für den Namen der XMPP-Partnerdomäne ein. Dies ist ein erforderlicher Eintrag.
+7.  **Primäre Domäne** (erforderlich). Die primäre Domäne ist die Basisdomäne des XMPP-Partners. Sie können beispielsweise **fabrikam.com** als Domänennamen für den XMPP-Partner eingeben. Dies ist ein erforderlicher Eintrag.
 
-8.  **Beschreibung**aus. Die Beschreibung ist für Notizen oder andere identifizierende Informationen für diese bestimmte Konfiguration. Dieser Eintrag ist optional.
+8.  **Beschreibung**. Die Beschreibung ist für Notizen oder für andere Identifizierungsinformationen in Bezug auf diese bestimme Konfiguration vorgesehen. Dieser Eintrag ist optional.
 
-9.  **Zusätzliche Domänen**. Zusätzliche Domänen sind Domänen, die Teil der Domäne Ihres XMPP-Partners sind und als Teil der zulässigen XMPP-Kommunikation enthalten sein sollten. Wenn es sich bei der primären Domäne beispielsweise um **Fabrikam.com**handelt, werden alle anderen Domänen aufgelistet, die unter fabrikam.com sind, mit denen Sie über XMPP kommunizieren. So können Sie beispielsweise **Corp.fabrikam.com** und **IT.fabrikam.com** für die Unternehmens-XMPP-Domäne und die XMPP-Domäne Informationstechnologien unter der Haupt-XMPP-Domäne von fabrikam. com eingeben.
+9.  **Zusätzliche Domänen**. Bei den weiteren Domänen handelt es sich um Domänen, die Teil der Domäne Ihres XMPP-Partners sind und in die zulässige XMPP-Kommunikation einbezogen werden sollen. Wenn die primäre Domäne z. B. **fabrikam.com** lautet, führen Sie alle anderen Domänen von "fabrikam.com" auf, mit denen Sie per XMPP kommunizieren möchten. Beispielsweise können Sie **Corp.fabrikam.com** und **IT.fabrikam.com** für die betriebliche XMPP-Domäne und die Information Technologies XMPP-Domäne unter fabrikam. com es Haupt-XMPP-Domäne eingeben.
 
-10. **Partnertyp**. Der **Partnertyp** ist eine erforderliche Einstellung und bietet in einem Dropdownmenü drei Auswahlmöglichkeiten. Sie müssen eine der folgenden Optionen auswählen, um zu beschreiben und zu erzwingen, welche Kontakte hinzugefügt werden können. Sie können Folgendes auswählen:
+10. **Partnertyp**. Der **Partnertyp** ist eine erforderliche Einstellung und bietet eine Auswahl von drei Optionen in einem Dropdownmenü. Wählen Sie eine der folgenden Optionen aus, um zu beschreiben und vorzugeben, welche Kontakte hinzugefügt werden können. Die Optionen lauten:
     
-      - **Federated**. Ein **Federated** -Partner-Typ ist eine vertrauenswürdige Verbindung zwischen einer lync Server-oder Office Communications Server 2007 R2-Partner Bereitstellung.
+      - **Verbund**. Bei einem **Verbund** Partnertyp handelt es sich um eine vertrauenswürdige Verbindung zwischen einer lync Server-oder Office Communications Server 2007 R2 Partner Bereitstellung.
     
-      - **Öffentlich verifiziert**. Ein **öffentlich überprüfter** Partner ist, wenn Kontakte, die Teil einer Bereitstellung sind, die vom Anbieter überprüft werden, der Kontaktliste des Benutzers hinzugefügt werden können. Einladungen können vom lync-Benutzer gesendet werden, oder der lync-Benutzer kann Einladungen vom Partner Kontakt akzeptieren.
+      - **Öffentlich überprüft**. Als **Überprüft öffentlich** gelten Partner, wenn Kontakte, die Teil einer Bereitstellung sind, vom Anbieter überprüft werden und der Kontaktliste Ihres Benutzer hinzugefügt werden können. Einladungen können vom lync-Benutzer gesendet werden, oder der lync-Benutzer kann Einladungen vom Partner Kontakt annehmen.
     
-      - **Öffentlich nicht überprüft**. Eine **öffentliche** nicht überprüfte Beziehung impliziert, dass es zwischen den beiden Bereitstellungen keinen festgelegten und überprüfbaren Status gibt. Ein lync-Benutzer muss den nicht überprüften Kontakt für diesen Kontakt einladen, um den lync-Benutzer in seine Kontaktliste aufnehmen zu können. Beispielsweise ist Google Gtalk kein öffentlicher überprüfter XMPP-Dienst, da es sich um lync Server handelt. Ein GTalk-Benutzer kann den lync-Benutzer nur dann als Kontakt hinzufügen, wenn eine explizite Einladung vom lync-Benutzer gesendet wurde.
+      - **Öffentlich nicht überprüft**. Eine Beziehung vom Typ **Nicht überprüft öffentlich** bedeutet, dass zwischen den beiden Bereitstellungen kein etablierter und überprüfbarer Status besteht. Ein lync-Benutzer muss den nicht überprüften Kontakt für diesen Kontakt einladen, um den lync-Benutzer zu seiner Kontaktliste hinzufügen zu können. Beispielsweise ist Google Gtalk kein öffentlicher überprüfter XMPP-Dienst, der sich auf lync Server bezieht. Ein GTalk-Benutzer kann den lync-Benutzer nur dann als Kontakt hinzufügen, wenn eine explizite Einladung vom lync-Benutzer gesendet wurde.
 
-11. Hinweise zur Datenstrom Aushandlung und den Sicherheitsmethoden Transport Layer Security (TLS) und Software Authentication and Security Layer (SASL):
+11. Anmerkungen zur Datenstromaushandlung und den Sicherheitsmethoden TLS (Transport Layer Security) und SASL (Software Authentication and Security Layer):
     
-    Die **XMPP Standards Foundation** (XSF) und die **Internet Engineering Task Force** (IETF) definieren einen Satz von Regeln und Standards für die Verwendung und Verwaltung von TLS-Clientzertifikaten, TLS-Serverzertifikaten und dem SASL-Mechanismus. Die Verwendung von TLS und SASL ist der erforderliche Prozess zum Sichern des XMPP-Streams. Aus dem XMPP-Standarddokument **XEP-0178**gibt "einen empfohlenen Protokoll Fluss für die Verwendung des SASL-externen Mechanismus mit PKIX-Zertifikaten an, insbesondere dann, wenn ein XMPP-Dienst angibt, dass TLS obligatorisch-zu-Negotiate ist." PKIX, wie in der XSF-Dokumentation angegeben, bezieht sich auf Infrastruktur öffentlicher Schlüssel, auch bekannt als PKI.
+    Die **XMPP Standards Foundation** (XSF) und die **Internet Engineering Task Force** (IETF) definieren einen Satz von Regeln und Standards zum Verwenden und Verwalten von TLS-Clientzertifikaten, TLS-Serverzertifikaten und des SASL-Mechanismus. Das Verwenden von TLS und SASL ist zum Schützen des XMPP-Datenstroms erforderlich. Aus dem Dokument der XMPP Standards Foundation geht hervor, dass **XEP-0178** einen empfohlenen Protokollablauf für die Verwendung des SASL EXTERNAL-Mechanismus mit PKIX-Zertifikaten angibt, insbesondere wenn ein XMPP-Dienst TLS zur Aushandlung erfordert. PKIX bezieht sich gemäß der XSF-Dokumentation auf eine Public Key-Infrastruktur (kurz PKI).
     
-    Weitere Informationen zu den XMPP-Anforderungen finden Sie im XSF-Dokument XEP-0178. Einzelheiten hierzu finden Sie unter "XEP-0178: bewährte Methoden für die Verwendung von SASL External with Certificates". <http://xmpp.org/extensions/xep-0178.html>
+    Weitere Informationen zu den XMPP-Anforderungen finden Sie im XSF-Dokument XEP-0178. Ausführliche Informationen finden Sie unter "XEP-0178: bewährte Methoden für die Verwendung von SASL extern mit Zertifikaten". <http://xmpp.org/extensions/xep-0178.html>
     
-    Weitere Informationen finden Sie im IETF-Dokument "Extensible Messaging and Presence Protocol (XMPP): Core", Abschnitt 5,0 <http://tools.ietf.org/html/rfc6120>, STARTTLS-Aushandlung.
+    Lesen Sie das IETF-Dokument "Extensible Messaging and Presence Protocol (XMPP): Core", Abschnitt 5,0, STARTTLS <http://tools.ietf.org/html/rfc6120>-Verhandlung.
     
-      - **TLS-Aushandlung**. Definiert die TLS-Aushandlungs Regeln. Ein XMPP-Dienst kann TLS erfordern, kann TLS optional machen, oder Sie definieren, dass TLS nicht unterstützt wird. Wenn Sie optional auswählen, bleibt die Anforderung dem XMPP-Dienst für eine obligatorische Aushandlungs Entscheidung überlassen. Informationen zum Anzeigen aller möglichen Einstellungen und Details für SASL-, TLS-und Dialback-Aushandlung – einschließlich Ungültiger und bekannter Fehler Konfigurationen – finden Sie unter [Aushandlungs Einstellungen für XMPP-Verbundpartner in lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
+      - **TLS-Aushandlung**. Definiert die TLS-Aushandlungs Regeln. Ein XMPP-Dienst kann TLS erfordern, kann TLS optional machen, oder Sie definieren, dass TLS nicht unterstützt wird. Bei Auswahl von optional wird die Anforderung für eine obligatorische Aushandlungs Entscheidung für den XMPP-Dienst erfüllt. Um alle möglichen Einstellungen und Details für SASL, TLS und Rückruf-Aushandlung – einschließlich nicht gültiger und bekannter Fehler Konfigurationen – anzuzeigen, finden Sie weitere Informationen unter [Aushandlungs Einstellungen für XMPP-Verbundpartner in lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         
           - <span></span>  
-            **Erforderlich**. Der XMPP-Dienst erfordert TLS-Aushandlung.
+            **Erforderlich**. Der XMPP-Dienst erfordert die TLS-Aushandlung.
         
           - <span></span>  
-            **Optional**. Der XMPP-Dienst gibt an, dass TLS obligatorisch-zu-Negotiate ist.
+            **Optional**. Der XMPP-Dienst gibt an, dass TLS für die Aushandlung erforderlich ist.
         
           - <span></span>  
-            **Nicht unterstützt**. Der XMPP-Dienst unterstützt keine TLS-Funktion.
+            **Nicht unterstützt**. Der XMPP-Dienst unterstützt TLS nicht.
     
-      - **SASL-Aushandlung**. Definiert die SASL-Aushandlungs Regeln. Ein XMPP-Dienst kann SASL erfordern, kann SASL optional machen, oder Sie definieren, dass SASL nicht unterstützt wird. Wenn Sie optional auswählen, bleibt die Anforderung dem Partner XMPP-Dienst für eine obligatorische-zu-Aushandlungs Entscheidung überlassen.
+      - **SASL-Aushandlung**. Definiert die SASL-Aushandlungs Regeln. Ein XMPP-Dienst kann SASL erfordern, kann SASL optional machen, oder Sie definieren, dass SASL nicht unterstützt wird. Wenn Sie die Option optional auswählen, bleibt die Anforderung bis zum Partner-XMPP-Dienst für eine obligatorische-zu-Aushandlungs Entscheidung.
         
         <div>
         
 
         > [!WARNING]  
-        > SASL erfordert TLS. Um SASL verwenden zu können, muss TLS entweder erforderlich oder optional sein. Jede Konfiguration, die SASL als erforderlich oder optional definiert, muss über TLS-Unterstützung verfügen. Wenn Sie auf <STRONG>Commit</STRONG> klicken, um Ihre Änderungen zu speichern, wenn Sie TLS nicht auf erforderlich oder optional festgesetzt haben, werden Sie gewarnt, dass SASL über TLS-Unterstützung verfügen muss und Ihre Änderungen nicht gespeichert werden. Um den Fehler zu beheben, legen Sie TLS auf <STRONG>erforderlich</STRONG> oder <STRONG>optional</STRONG>. Wenn die Verwendung von SASL optional ist und TLS-Aushandlungs Unterstützung nicht möglich ist, müssen Sie die SASL-Aushandlung auf <STRONG>nicht unterstützt</STRONG>setzen. Bestätigen Sie mit dem XMPP-Dienst, was die richtigen Aushandlungsdaten Ströme für TLS und SASL sein müssen, oder die Dienstunterbrechung erfolgt.
+        > SASL erfordert TLS. Um SASL verwenden zu können, muss TLS entweder erforderlich oder optional sein. TLS muss in jeder Konfiguration unterstützt werden, die SASL entweder als erforderlich oder optional definiert. Wenn Sie auf<STRONG>Commit ausführen</STRONG> klicken, um Ihre Änderungen zu speichern, und TLS nicht als erforderlich oder optional festgelegt haben, wird eine Warnung angezeigt. Diese besagt, dass SASL eine TLS-Unterstützung erfordert, und Ihre Änderungen werden nicht gespeichert. Legen Sie TLS auf <STRONG>Erforderlich</STRONG> oder <STRONG>Optional</STRONG> fest, um den Fehler zu beheben. Wenn die Verwendung von SASL optional und die Unterstützung der TLS-Aushandlung nicht möglich ist, müssen Sie die SASL-Aushandlung auf <STRONG>Nicht unterstützt</STRONG> festlegen. Überprüfen Sie für den XMPP-Dienst, wie die Aushandlungsdatenströme für TLS und SASL genau aussehen müssen, um eine Dienstunterbrechung zu verhindern.
 
         
         </div>
         
           - <span></span>  
-            **Erforderlich**. Der XMPP-Dienst erfordert SASL-Aushandlung.
+            **Erforderlich**. Der XMPP-Dienst erfordert die SASL-Aushandlung.
         
           - <span></span>  
-            **Optional**. Der XMPP-Dienst gibt an, dass SASL obligatorisch-zu-Negotiate ist.
+            **Optional**. Der XMPP-Dienst gibt an, dass SASL für die Aushandlung erforderlich ist.
         
           - <span></span>  
-            **Nicht unterstützt**. SASL wird vom XMPP-Dienst nicht unterstützt.
+            **Nicht unterstützt**. Der XMPP-Dienst unterstützt SASL nicht.
     
-      - **Dialback-Aushandlung**. Dialback-Aushandlung wird vom XSF im Dokument **XEP-220: Server Dialback** <http://xmpp.org/extensions/xep-0220.html>definiert. Der Server Dialback-Prozess verwendet das Domain Name System (DNS) und einen autorisierenden Server, um zu überprüfen, ob die Anforderung von einem gültigen XMPP-Partner kam. Zu diesem Zweck erstellt der ursprüngliche Server eine Nachricht eines bestimmten Typs mit einem generierten Dialback-Schlüssel und schlägt den empfangenden Server in DNS nach. Der ursprüngliche Server sendet den Schlüssel in einem XML-Datenstrom an den resultierenden DNS-Lookup, vermutlich den empfangenden Server. Nach Erhalt des Schlüssels über den XML-Datenstrom antwortet der empfangende Server nicht auf den ursprünglichen Server, sondern sendet den Schlüssel an einen bekannten autorisierenden Server. Der autorisierende Server überprüft, ob der Schlüssel entweder gültig oder ungültig ist. Wenn dies nicht der Fall ist, antwortet der empfangende Server nicht auf den ursprünglichen Server. Wenn der Schlüssel gültig ist, informiert der empfangende Server den Ursprungsserver, dass Identität und Schlüssel gültig sind und die Konversation beginnen kann.
+      - **Rückruf-Aushandlung**. Rückruf-Aushandlung wird durch die XSF in Document **XEP-220: Server Rückruf** <http://xmpp.org/extensions/xep-0220.html>definiert. Der Serverrückrufprozess verwendet das Domain Name System (DNS) und einen autoritativen Server, um zu überprüfen, ob die Anforderung von einem gültigen XMPP-Partner stammt. Hierzu erstellt der Ausgangsserver eine Meldung eines bestimmten Typs mit einem generierten Rückrufschlüssel und schlägt den empfangenden Server im DNS nach. Der Ausgangsserver sendet den Schlüssel in einem XML-Datenstrom an den resultierenden DNS-Lookup, wahrscheinlich an den empfangenden Server. Wenn der Schlüssel über den XML-Datenstrom empfangen wird, antwortet der empfangende Server dem Ausgangsserver nicht, sondern sendet den Schlüssel aber an einen bekannten autoritativen Server. Der autoritative Server überprüft die Gültigkeit des Schlüssels. Wenn der Schlüssel nicht gültig ist, antwortet der empfangende Server dem Ausgangsserver nicht. Wenn der Schlüssel gültig ist, informiert der empfangende Server den Ausgangsserver, dass die Identität und der Schlüssel gültig sind und dass die Unterhaltung beginnen kann.
         
-        Es gibt zwei gültige Zustände für **Dialback-Aushandlung**:
-        
-          - <span></span>  
-            **True**. Der XMPP-Server ist für die Verwendung von Dialback-Aushandlung konfiguriert, wenn eine Anforderung von einem Ursprungsserver empfangen werden soll.
+        Für die **Rückrufaushandlung** gibt es zwei gültige Statusangaben:
         
           - <span></span>  
-            **False**. Der XMPP-Server ist nicht für die Verwendung von Dialback-Aushandlung konfiguriert, und wenn eine Anforderung von einem Ursprungsserver empfangen werden soll, wird Sie ignoriert.
+            **True**. Der XMPP-Server ist für die Verwendung der Rückrufaushandlung konfiguriert, wenn eine Anforderung von einem Ausgangsserver eingeht.
+        
+          - <span></span>  
+            **False**. Der XMPP-Server ist nicht für die Verwendung der Rückruf-Aushandlung konfiguriert, und wenn eine Anforderung von einem ursprünglichen Server empfangen werden soll, wird Sie ignoriert.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Richtlinien für die Integration lokaler Unified Messaging-Dienste'
+title: 'Lync Server 2013: Richtlinien für die Integration von lokalen Unified Messaging-Funktionen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f3e57245f0a8edf5b545f9a67547e6be6f63399
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1be763250edf7222b900aef88665b3e360e8125c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739615"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006221"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="guidelines-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>Richtlinien für die Integration lokaler Unified Messaging-Dienste in Lync Server 2013
+# <a name="guidelines-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>Richtlinien für die Integration von lokalen Unified Messaging-und lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41739615"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-25_
+_**Letztes Änderungsstand des Themas:** 2012-09-25_
 
-Im Folgenden sind Richtlinien und bewährte Methoden aufgeführt, die Sie beim Bereitstellen von Enterprise-VoIP berücksichtigen sollten:
+Im folgenden sind Richtlinien und bewährte Methoden für die Bereitstellung von Enterprise-VoIP zu berücksichtigen:
 
 <div>
 
@@ -49,28 +49,28 @@ Im Folgenden sind Richtlinien und bewährte Methoden aufgeführt, die Sie beim B
 
 </div>
 
-  - Bereitstellen eines lync Server 2013 Standard Edition-Servers oder eines Front-End-Pools Details zur Installation finden Sie unter [Bereitstellen von lync Server 2013](lync-server-2013-deploying-lync-server.md) in der Bereitstellungsdokumentation.
+  - Bereitstelleneiner lync Server 2013 Standard Edition-Server oder eines Front-End-Pool. Ausführliche Informationen zur Installation finden Sie unter [Deploying lync Server 2013](lync-server-2013-deploying-lync-server.md) in der Bereitstellungsdokumentation.
 
   - Besprechen Sie mit den Exchange-Administratoren, wer welche Aufgaben ausführt, um eine reibungslose und erfolgreiche Integration sicherzustellen.
 
-  - Stellen Sie die Exchange-Postfachserverrollen in jeder Exchange Unified Messaging (um)-Gesamtstruktur bereit, in der Sie die Benutzer für Exchange um aktivieren möchten. Ausführliche Informationen zum Installieren von Exchange-Serverrollen finden Sie in der Dokumentation zu Microsoft Exchange Server 2013.
+  - Stellen Sie die Exchange-Postfachserverrollen in jeder Exchange Unified Messaging (um) Gesamtstruktur bereit, in der Sie Benutzer für Exchange um aktivieren möchten. Ausführliche Informationen zum Installieren von Exchange-Serverrollen finden Sie in der Microsoft Exchange Server 2013 Dokumentation.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Wenn Exchange Unified Messaging (um) installiert ist, ist es für die Verwendung eines selbstsignierten Zertifikats konfiguriert.<BR>Das selbstsignierte Zertifikat ermöglicht lync Server 2013 und Exchange um jedoch nicht, sich gegenseitig zu vertrauen, weshalb es notwendig ist, ein separates Zertifikat von einer Zertifizierungsstelle anzufordern, der beide Server Vertrauen.
+    > Wenn Exchange Unified Messaging (um) installiert ist, ist es für die Verwendung eines selbstsignierten Zertifikats konfiguriert.<BR>Das selbstsignierte Zertifikat ermöglicht jedoch nicht, dass lync Server 2013 und Exchange um einander vertrauen, weshalb es erforderlich ist, ein separates Zertifikat von einer Zertifizierungsstelle anzufordern, der beide Server Vertrauen.
 
     
     </div>
 
-  - Wenn lync Server 2013 und Exchange um in verschiedenen Gesamtstrukturen installiert sind, konfigurieren Sie jede Exchange-Gesamtstruktur so, dass Sie der lync Server 2013-Gesamtstruktur und der lync Server 2013-Gesamtstruktur vertrauen, um jeder Exchange-Gesamtstruktur zu vertrauen. Darüber hinaus können Sie die Exchange um-Einstellungen der Benutzer für die Benutzerobjekte in der lync Server 2013-Gesamtstruktur festlegen, indem Sie in der Regel ein Skript oder ein Gesamtstrukturübergreifendes Tool verwenden, beispielsweise Identity Lifecycle Manager (ILM).
+  - Wenn lync Server 2013 und Exchange um in unterschiedlichen Gesamtstrukturen installiert sind, konfigurieren Sie jede Exchange-Gesamtstruktur so, dass Sie der lync Server 2013 Gesamtstruktur und der lync Server 2013 Gesamtstruktur als vertrauenswürdig eingestuft wird. Legen Sie außerdem die Exchange um Einstellungen der Benutzer für die Benutzerobjekte in der lync Server 2013 Gesamtstruktur fest, in der Regel mithilfe eines Skripts oder eines gesamtstrukturübergreifenden Tools wie Identity Lifecycle Manager (ILM).
 
   - Installieren Sie bei Bedarf die Exchange-Verwaltungskonsole zur Verwaltung Ihrer Unified Messaging-Server.
 
   - Beziehen Sie gültige Rufnummern für Outlook Voice Access und für die automatische Telefonzentrale.
 
-  - Wenn Sie eine frühere Exchange-Version als Microsoft Exchange Server 2010 Service Pack 1 (SP1) verwenden, koordinieren Sie die Namen für Exchange um SIP-URI-Wählpläne und Enterprise-VoIP-Wählpläne.
+  - Wenn Sie eine Version von Exchange um früher als Microsoft Exchange Server 2010 Service Pack 1 (SP1) verwenden, koordinieren Sie die Namen für Exchange um SIP-URI-Wählpläne und Enterprise-VoIP-Wähl Pläne.
 
 <div>
 
@@ -80,7 +80,7 @@ Im Folgenden sind Richtlinien und bewährte Methoden aufgeführt, die Sie beim B
 
 
 > [!IMPORTANT]  
-> Wir empfehlen, dass Sie mindestens zwei Server bereitstellen, auf denen Exchange um-Dienste für jeden Exchange um-SIP-URI-Wählplan ausgeführt wird, den Sie für Ihre Organisation konfigurieren. Zusätzlich zu einer höheren Kapazität bietet die Bereitstellung redundanter Server eine hohe Verfügbarkeit. Bei einem Serverfehler kann lync Server 2013 so konfiguriert werden, dass ein Failover zu einem anderen Server ausgeführt wird.
+> Es wird empfohlen, mindestens zwei Server bereitzustellen, auf denen Exchange um Dienste für alle Exchange um SIP-URI-Wähleinstellungen, die Sie für Ihre Organisation konfigurieren, durchführen. Neben der erweiterten Kapazität bietet die Bereitstellung redundanter Server eine hohe Verfügbarkeit. Bei einem Serverausfall können lync Server 2013 so konfiguriert werden, dass ein Failover auf einen anderen Server ausgeführt wird.
 
 
 
@@ -90,9 +90,9 @@ Die folgenden Beispielkonfigurationen bieten Ausfallsicherheit für Exchange UM
 
 **Beispiel 1: Exchange UM-Ausfallsicherheit**
 
-![Exchange um-Beispiel 1](images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "Exchange um-Beispiel 1")
+![Exchange um Beispiel 1](images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "Exchange um Beispiel 1")
 
-In Beispiel 1 sind die Exchange UM-Server 1 und 2 im Rechenzentrum "Tukwila" aktiviert, die Exchange UM-Server 3 und 4 im Rechenzentrum "Dublin". Bei einem Exchange UM-Ausfall in Tukwila sollten die DNS-A-Einträge für die Server 1 und 2 so konfiguriert sein, dass sie auf den Server 3 bzw. 4 zeigen. Bei einem Exchange UM-Ausfall in Dublin sollten die DNS-A-Einträge für die Server 3 und 4 so konfiguriert sein, dass sie auf den Server 1 bzw. 2 zeigen.
+In Beispiel 1 sind Exchange um Server 1 und 2 im Rechenzentrum von Tukwila aktiviert, und Exchange um Server 3 und 4 sind im Dublin-Rechenzentrum aktiviert. Bei einem Exchange um Ausfall in Tukwila sollte die Domain Name System (DNS) A-Einträge für Server 1 und 2 so konfiguriert werden, dass Sie auf Server 3 und 4 verweist. Bei einem Exchange um Ausfall in Dublin sollten die DNS-A-Einträge für Server 3 und 4 so konfiguriert werden, dass Sie auf Server 1 und 2 verweist.
 
 <div>
 
@@ -103,7 +103,7 @@ In Beispiel 1 sind die Exchange UM-Server 1 und 2 im Rechenzentrum "Tukwila"
 > <LI>
 > <P>Verwenden Sie ein Zertifikat mit einem Platzhalter im alternativen Antragstellernamen.</P>
 > <LI>
-> <P>Tragen Sie die vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) der einzelnen Exchange UM-Server als alternativen Antragstellernamen ein.</P></LI></UL>
+> <P>Geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) der vier Exchange um Server im San ein.</P></LI></UL>
 
 
 
@@ -111,17 +111,17 @@ In Beispiel 1 sind die Exchange UM-Server 1 und 2 im Rechenzentrum "Tukwila"
 
 **Beispiel 2: Exchange UM-Ausfallsicherheit**
 
-![Exchange um-Beispiel 2](images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "Exchange um-Beispiel 2")
+![Exchange um Beispiel 2](images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "Exchange um Beispiel 2")
 
 In Beispiel 2 sind die Exchange UM-Server 1 und 2 bei normalen Betriebsbedingungen im Rechenzentrum "Tukwila" aktiviert, die Exchange UM-Server 3 und 4 im Rechenzentrum "Dublin". Alle vier Server sind in den SIP-URI-Wähleinstellungen der Benutzer in Tukwila enthalten, die Server 3 und 4 sind deaktiviert. Wenn Exchange UM z. B. in Tukwila ausfällt, sollten die Exchange UM-Server 1 und 2 deaktiviert und die Exchange UM-Server 3 und 4 aktiviert werden, damit der Exchange UM-Datenverkehr in Tukwila an die Server in Dublin geroutet wird.
 
-Details zum Aktivieren oder Deaktivieren von Unified Messaging auf Exchange 2013 finden Sie unter "Integration von Exchange 2013 um mit lync Server" unter [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372).
+Ausführliche Informationen zum Aktivieren oder Deaktivieren von Unified Messaging für Exchange 2013 finden Sie unter "integrieren Exchange 2013 um mit lync Server" unter [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372).
 
-Details zum Aktivieren oder Deaktivieren von Unified Messaging auf Microsoft Exchange Server 2010 finden Sie unter:
+Ausführliche Informationen zum Aktivieren oder Deaktivieren von Unified Messaging für Microsoft Exchange Server 2010 finden Sie unter:
 
-  - "Unified Messaging auf Exchange 2010 aktivieren" unter [http://go.microsoft.com/fwlink/p/?LinkId=204418](http://go.microsoft.com/fwlink/p/?linkid=204418).
+  - "Aktivieren von Unified Messaging bei Exchange 2010" [http://go.microsoft.com/fwlink/p/?LinkId=204418](http://go.microsoft.com/fwlink/p/?linkid=204418)unter.
 
-  - "Unified Messaging auf Exchange 2010 deaktivieren" unter [http://go.microsoft.com/fwlink/p/?LinkId=204416](http://go.microsoft.com/fwlink/p/?linkid=204416).
+  - "Deaktivieren von Unified Messaging auf Exchange 2010" [http://go.microsoft.com/fwlink/p/?LinkId=204416](http://go.microsoft.com/fwlink/p/?linkid=204416)unter.
 
 </div>
 
@@ -130,7 +130,7 @@ Details zum Aktivieren oder Deaktivieren von Unified Messaging auf Microsoft Exc
 ## <a name="see-also"></a>Siehe auch
 
 
-[Bereitstellungsprozess für die Integration von lokalen Unified Messaging-Diensten und Lync Server 2013](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)  
+[Bereitstellungsprozess für die Integration von lokalen Unified Messaging-und lync Server 2013](lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md)  
   
 
 </div>

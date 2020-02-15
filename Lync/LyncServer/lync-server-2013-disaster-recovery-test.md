@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Notfallwiederherstellungstest'
+title: 'Lync Server 2013: Notfall Wiederherstellungstest'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969571
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7c6c3b7c3b5d78324fe9c674650dd94338baea4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4fc04381e315375fe0d5858c9a12ad577f6c8baf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739195"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disaster-recovery-test-in-lync-server-2013"></a>Notfallwiederherstellungstest in Lync Server 2013
+# <a name="disaster-recovery-test-in-lync-server-2013"></a>Notfall Wiederherstellungstest in lync Server 2013
 
 </div>
 
@@ -35,64 +35,64 @@ ms.locfileid: "41739195"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-01-26_
+_**Letztes Änderungsstand des Themas:** 2015-01-26_
 
-Führen Sie eine Systemwiederherstellung für einen lync Server 2013-Pool Server aus, um Ihren dokumentierten Disaster Recovery-Prozess zu testen. Mit diesem Test wird ein vollständiger Hardwarefehler für einen Server simuliert, und es wird sichergestellt, dass die Ressourcen, Pläne und Daten für die Wiederherstellung verfügbar sind. Versuchen Sie, den Fokus des Tests monatlich zu drehen, damit Ihre Organisation den Fehler eines anderen Servers oder eines anderen Geräts jedes Mal testet.
+Führen Sie eine Systemwiederherstellung für einen lync Server 2013 Pool Server aus, um Ihren dokumentierten Notfall Wiederherstellungsprozess zu testen. Bei diesem Test wird ein vollständiger Hardwarefehler für einen Server simuliert, und es wird sichergestellt, dass die Ressourcen, Pläne und Daten für die Wiederherstellung zur Verfügung stehen. Versuchen Sie, den Fokus des Tests jeden Monat zu drehen, damit Ihre Organisation jedes Mal den Fehler eines anderen Servers oder eines anderen Geräts testet.
 
-Beachten Sie, dass der Zeitplan, nach dem Organisationen Notfallwiederherstellungstests durchführen, unterschiedlich ist. Es ist sehr wichtig, dass Notfallwiederherstellungstests nicht ignoriert oder vernachlässigt werden.
+Beachten Sie, dass der Zeitplan, nach dem Organisationen Notfall Wiederherstellungstests durchführen, unterschiedlich ist. Es ist sehr wichtig, dass Tests zur Notfallwiederherstellung nicht ignoriert oder vernachlässigt werden.
 
 <div>
 
 
-Exportieren Sie Ihre lync Server 2013-Topologie,-Richtlinien und-Konfigurationseinstellungen in eine Datei. Unter anderem kann diese Datei nach einem Upgrade, einem Hardwareausfall oder einem anderen Problem, das zu Datenverlust geführt hat, zum Wiederherstellen dieser Informationen im zentralen Verwaltungsspeicher verwendet werden.
+Exportieren Sie die lync Server 2013 Topologie, Richtlinien und Konfigurationseinstellungen in eine Datei. Diese Datei kann unter anderem dann verwendet werden, um diese Informationen im zentralen Verwaltungsspeicher wiederherzustellen, nachdem ein Upgrade, ein Hardwarefehler oder ein anderes Problem zu Datenverlust geführt hat.
 
-Importieren Sie Ihre lync Server 2013-Topologie,-Richtlinien und-Konfigurationseinstellungen entweder in den zentralen Verwaltungsspeicher oder auf den lokalen Computer, wie in den folgenden Befehlen gezeigt:
+Importieren Sie die lync Server 2013 Topologie, Richtlinien und Konfigurationseinstellungen in den zentralen Verwaltungsspeicher oder auf den lokalen Computer, wie in den folgenden Befehlen dargestellt:
 
 `Import-CsConfiguration -ByteInput <Byte[]> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
 `Import-CsConfiguration -FileName <String> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
-So sichern Sie Production lync Server 2013-Daten:
+So sichern Sie Produktions lync Server 2013 Daten:
 
-  - Sichern Sie die RTC-und LCSLog-Datenbanken mithilfe des standardmäßigen SQL Server-Sicherungsprozesses, um die Datenbank auf ein Datei-oder Bandspeicher Abbildgerät zu übernehmen.
+  - Sichern Sie die RTC-und LCSLog-Datenbanken, indem Sie den Standard SQL Server Sicherungsvorgang verwenden, um die Datenbank auf ein Datei-oder Bandsicherungsgerät zu kippen.
 
-  - Verwenden Sie eine Sicherungsanwendung von einem Drittanbieter, um die Daten in einer Datei oder auf einem Band zu sichern.
+  - Verwenden Sie die Sicherungsanwendung eines Drittanbieters, um die Daten in Datei oder auf Band zu sichern.
 
-  - Verwenden Sie das Cmdlet „Export-CsUserData“, um einen XML-Export der gesamten RTC-Datenbank zu erstellen.
+  - Verwenden Sie das Cmdlet Export-csuserdata ", um einen XML-Export der gesamten RTC-Datenbank zu erstellen.
 
-  - Verwenden Sie die Dateisystemsicherung oder eine Drittanbieteranwendung, um Besprechungsinhalte und -kompatibilitätsprotokolle zu sichern.
+  - Verwenden Sie die Dateisystemsicherung oder Drittanbieter, um Besprechungsinhalte und Kompatibilitäts Protokolle zu sichern.
 
-  - Verwenden Sie das Befehlszeilentool "Exportieren-CsConfiguration", um die lync Server 2013-Einstellungen zu sichern.
+  - Verwenden Sie das Befehlszeilentool Export-CsConfiguration, um lync Server 2013 Einstellungen zu sichern.
 
-Der erste Schritt in der Failoverprozedur besteht in einer erzwungenen Verschiebung von Benutzern aus dem Produktionspool in den Notfallwiederherstellungspool.
+Der erste Schritt beim Failover-Verfahren umfasst die erzwungene Verlagerung von Benutzern aus dem Produktionspool in den Notfall Wiederherstellungs Pool.
 
-Es handelt sich dabei um eine erzwungene Verschiebung, da der Produktionspool nicht verfügbar ist, um die Benutzerumsetzung zu akzeptieren.
+Dies ist eine erzwungene Verschiebung, da der Produktionspool nicht verfügbar ist, um die Benutzer Verlagerung zu akzeptieren.
 
-Der lync Server 2013 Move-Benutzerprozess ist eine Änderung an einem Attribut für das Benutzerkontoobjekt sowie eine Datensatzaktualisierung in der RTC SQL-Datenbank.
+Der lync Server 2013 Prozess "Benutzer verlegen" ist eine Änderung an einem Attribut für das Benutzerkontoobjekt zusätzlich zu einer Datensatzaktualisierung in der RTC SQL-Datenbank.
 
-Diese Daten können mithilfe der folgenden zwei Prozesse wiederhergestellt werden:
+Diese Daten können über die folgenden beiden Prozesse wiederhergestellt werden:
 
-  - Die RTC-Datenbank kann vom ursprünglichen Sicherungsspeicher Abbild-Gerät aus dem Produktions-SQL Server mithilfe des Standard Wiederherstellungsprozesses von SQL Server oder mithilfe eines Sicherungs-/Wiederherstellungstools eines Drittanbieters wiederhergestellt werden.
+  - Die RTC-Datenbank kann vom ursprünglichen Sicherungsspeicher Gerät aus dem Produktions SQL Server mithilfe des standardmäßigen SQL Server Wiederherstellungsprozesses oder mithilfe eines Sicherungs-/Wiederherstellungstools eines Drittanbieters wiederhergestellt werden.
 
-  - Benutzerkontaktdaten können mit dem Hilfsprogramm DBIMPEXP.exe über die aus dem SQL Server-Produktionsexport erstellte XML-Datei wiederhergestellt werden.
+  - Benutzer Kontaktdaten können mit dem Dienstprogramm DBIMPEXP. exe mithilfe der XML-Datei, die aus dem Export der Produktions SQL Server erstellt wurde, wiederhergestellt werden.
 
-Nach der Wiederherstellung dieser Daten können Benutzer eine Verbindung mit dem Disaster Recovery lync Server 2013-Pool herstellen und wie gewohnt funktionieren.
+Nachdem diese Daten wiederhergestellt wurden, können Benutzer effektiv eine Verbindung mit dem Notfall Wiederherstellungs lync Server 2013-Pool herstellen und wie gewohnt arbeiten.
 
-Damit Benutzer eine Verbindung mit dem Disaster Recovery lync Server 2013-Pool herstellen können, ist eine Änderung des DNS-Eintrags erforderlich.
+Damit Benutzer eine Verbindung mit dem Notfall Wiederherstellungs lync Server 2013-Pool herstellen können, ist eine Änderung des DNS-Eintrags erforderlich.
 
-Clients, die die automatischen Konfigurations-und DNS-SRV-Einträge verwenden, werden auf den lync Server 2013-Produktionspool verwiesen:
+Auf den Produktions lync Server 2013 Pool wird von Clients verwiesen, die die Auto-Konfiguration und DNS-SRV-Einträge von verwenden:
 
   - SRV: \_SIP. \_TLS. \<Domäne\> /CNAME: SIP. \<Domäne\>
 
   - CNAME: SIP. \<Domänen\> /CVC-Pool-1. \<Domäne\>
 
-Zur Vereinfachung des Failovers muss dieser CNAME-Eintrag so aktualisiert werden, dass er auf den DROCSPool-FQDN verweist:
+Zur Vereinfachung des Failovers muss dieser CNAME-Eintrag so aktualisiert werden, dass er auf den FQDN des DROCSPool verweist:
 
   - CNAME: SIP. \<Domänen\> /DROCSPool. \<Domäne\>
 
   - SIP. \<Domäne\>
 
-  - AV.\<Domain\>
+  - AV.\<Domäne\>
 
   - webconf. \<Domäne\>
 
@@ -102,7 +102,7 @@ Zur Vereinfachung des Failovers muss dieser CNAME-Eintrag so aktualisiert werden
 
 
 > [!IMPORTANT]  
-> Detaillierte Verwaltungs-und Verwaltungsverfahren finden Sie unter <A href="lync-server-2013-backing-up-and-restoring-lync-server.md">Sichern und Wiederherstellen von lync Server 2013</A>.
+> Ausführliche Verwaltungs-und Verwaltungsverfahren finden Sie unter <A href="lync-server-2013-backing-up-and-restoring-lync-server.md">Sichern und Wiederherstellen von lync Server 2013</A>.
 
 
 
@@ -115,13 +115,13 @@ Zur Vereinfachung des Failovers muss dieser CNAME-Eintrag so aktualisiert werden
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
-[Cmdlets für Backup und höhere Verfügbarkeit in lync Server 2013](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)  
+[Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
+[Cmdlets für Sicherung und hohe Verfügbarkeit in lync Server 2013](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)  
 
 
-[Importieren-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
-[Sichern und Wiederherstellen von lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)  
-[Verwalten der Notfallwiederherstellung, der hohen Verfügbarkeit und des Sicherungsdiensts in Lync Server 2013](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
+[Import-CsConfiguration](https://docs.microsoft.com/powershell/module/skype/Import-CsConfiguration)  
+[Sichern und Wiederherstellen lync Server 2013](lync-server-2013-backing-up-and-restoring-lync-server.md)  
+[Verwalten von lync Server 2013 Notfallwiederherstellung, hoher Verfügbarkeit und Sicherungsdienst](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
   
 
 </div>

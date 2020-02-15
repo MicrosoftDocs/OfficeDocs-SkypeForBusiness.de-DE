@@ -12,20 +12,20 @@ ms:contentKeyID: 48185152
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfbae47a5f5e99e603e3f095a2e07dbb9b49515f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 49b363e4803d493ed5859455104945d0d1d2d23c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764641"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034235"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="set-up-network-interfaces-for-edge-servers-in-lync-server-2013"></a>Einrichten von Netzwerkschnittstellen für Edgeserver in Lync Server 2013
+# <a name="set-up-network-interfaces-for-edge-servers-in-lync-server-2013"></a>Einrichten von Netzwerkschnittstellen für Edgeserver in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764641"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-08_
+_**Letztes Änderungsstand des Themas:** 2012-09-08_
 
-Bei jedem Edgeserver handelt es sich um einen mehr vernetzten Computer mit externen und internen Schnittstellen. Die DNS-Einstellungen (Domain Name System) des Adapters hängen davon ab, ob im Umkreisnetzwerk DNS-Server vorhanden sind. Wenn DNS-Server im Umkreis vorhanden sind, müssen Sie über eine Zone verfügen, die mindestens einen DNS-a-Eintrag für den Server oder Pool des nächsten Hop enthält (also entweder einen Director oder einen benannten Front-End-Pool), und für externe Abfragen, die Sie auf andere öffentliche DNS-Server verweisen. Wenn keine DNS-Server im Umkreis vorhanden sind, verwenden die Edgeserver externe DNS-Server zum Auflösen von Internet Namen suchen, und jeder Edgeserver verwendet einen Host, um die Servernamen für den nächsten Hop in IP-Adressen aufzulösen.
+Jeder Edgeserver ist ein mehrfach vernetzter Computer mit externen und internen Schnittstellen. Die Einstellungen für den Adapter Domain Name System (DNS) hängen davon ab, ob sich DNS-Server im Umkreisnetzwerk befinden. Wenn sich DNS-Server im Umkreis befinden, müssen Sie über eine Zone mit mindestens einem DNS-a-Eintrag für den nächsten Hop-Server oder-Pool verfügen (also entweder Director oder Designated Front-End-Pool), und für externe Abfragen, die Sie Namenssuche auf andere öffentliche DNS-Server referieren. Wenn im Umkreis keine DNS-Server vorhanden sind, verwenden die Edgeserver (s) externe DNS-Server zum Auflösen von Internet Namen suchen, und jede Edgeserver verwendet einen Host, um die Server Namen des nächsten Hops in IP-Adressen aufzulösen.
 
 <div>
 
@@ -49,7 +49,7 @@ Bei jedem Edgeserver handelt es sich um einen mehr vernetzten Computer mit exter
 </thead>
 <tbody>
 <tr class="odd">
-<td>Aus Sicherheitsgründen empfehlen wir, dass Ihre Edgeserver nicht auf einen DNS-Server zugreifen, der sich im internen Netzwerk befindet.</td>
+<td>Aus Sicherheitsgründen wird empfohlen, dass Ihre Edgeserver nicht auf einen DNS-Server zugreifen können, der sich im internen Netzwerk befindet.</td>
 </tr>
 </tbody>
 </table>
@@ -61,31 +61,31 @@ Bei jedem Edgeserver handelt es sich um einen mehr vernetzten Computer mit exter
 
 ## <a name="to-configure-interfaces-with-dns-servers-in-the-perimeter-network"></a>So konfigurieren Sie Schnittstellen mit DNS-Servern im Umkreisnetzwerk
 
-1.  Installieren Sie zwei Netzwerkadapter für jeden Edgeserver, einen für die interne Schnittstelle und einen für die extern anliegende Schnittstelle.
+1.  Installieren Sie zwei Netzwerkadapter für jeden Edgeserver, einen für die interne Schnittstelle und einen für die extern ausgerichtete Schnittstelle.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Ein Routing vom internen Subnetz zum externen Subnetz (und umgekehrt) darf nicht möglich sein.
+    > Die internen und externen Subnetze dürfen nicht zueinander geroutet werden.
 
     
     </div>
 
-2.  Konfigurieren Sie auf der externen Schnittstelle drei statische IP-Adressen im Subnetz des externen Umkreisnetzwerks (auch bekannt als DMZ, demilitarisierte Zone und geschirmtes Subnetz), und zeigen Sie das Standardgateway auf die interne Schnittstelle der externen Firewall. Konfigurieren Sie die Adapter-DNS-Einstellungen so, dass Sie auf ein paar von Umkreis-DNS-Servern verweisen.
+2.  Konfigurieren Sie auf der externen Schnittstelle drei statische IP-Adressen im Subnetz des externen Umkreisnetzwerks (auch als DMZ, demilitarisierte Zone und überwachtes Subnetz bezeichnet), und richten Sie das Standardgateway auf die interne Schnittstelle der externen Firewall. Konfigurieren Sie die DNS-Einstellungen des Adapters so, dass Sie auf ein paar von Umkreis-DNS-Servern deuten.
     
     <div>
     
 
     > [!NOTE]  
-    > Es ist möglich, nur eine IP-Adresse für diese Schnittstelle zu verwenden, aber dazu müssen Sie die Portzuweisungen auf nicht Standardwerte ändern. Sie bestimmen dies, wenn Sie die Topologie im Topologie-Generator erstellen.
+    > Für diese Schnittstelle ist es möglich, nur eine IP-Adresse zu verwenden, aber dazu müssen Sie die Portzuweisungen in nicht-Standardwerte ändern. Sie bestimmen dies, wenn Sie die Topologie im Topologie-Generator erstellen.
 
     
     </div>
 
-3.  Konfigurieren Sie auf der internen Schnittstelleeine statische IP-Adresse im Subnetz des internen Umkreisnetzwerks, und legen Sie kein Standardgateway an. Konfigurieren Sie die Adapter-DNS-Einstellungen so, dass Sie auf mindestens einen DNS-Server verweisen, vorzugsweise auf ein paar von Umkreis-DNS-Servern.
+3.  Konfigurieren Sie auf der internen Schnittstelleeine statische IP-Adresse im Subnetz des internen Umkreisnetzwerks, und legen Sie kein Standardgateway fest. Konfigurieren Sie die Adapter-DNS-Einstellungen so, dass Sie auf mindestens einen DNS-Server, vorzugsweise ein paar von Umkreis-DNS-Servern, verweist.
 
-4.  Erstellen Sie persistente statische Routen auf der internen Schnittstelle für alle internen Netzwerke, auf denen sich Clients, lync Server 2013 und Exchange Unified Messaging-Server befinden.
+4.  Erstellen Sie persistente statische Routen auf der internen Schnittstelle zu allen internen Netzwerken, in denen sich Clients, lync Server 2013 und Exchange Unified Messaging (um) Server befinden.
 
 </div>
 
@@ -93,33 +93,33 @@ Bei jedem Edgeserver handelt es sich um einen mehr vernetzten Computer mit exter
 
 ## <a name="to-configure-interfaces-without-dns-servers-in-the-perimeter-network"></a>So konfigurieren Sie Schnittstellen ohne DNS-Server im Umkreisnetzwerk
 
-1.  Installieren Sie zwei Netzwerkadapter für jeden Edgeserver, einen für die interne Schnittstelle und einen für die extern anliegende Schnittstelle.
+1.  Installieren Sie zwei Netzwerkadapter für jeden Edgeserver, einen für die interne Schnittstelle und einen für die extern ausgerichtete Schnittstelle.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Ein Routing vom internen Subnetz zum externen Subnetz (und umgekehrt) darf nicht möglich sein.
+    > Die internen und externen Subnetze dürfen nicht zueinander geroutet werden.
 
     
     </div>
 
-2.  Konfigurieren Sie auf der externen Schnittstelle drei statische IP-Adressen im Subnetz des externen Umkreisnetzwerks. Darüber hinaus konfigurieren Sie das Standardgateway auf der externen Schnittstelle. Definieren Sie beispielsweise den mit dem Internet versehenen Router oder die externe Firewall als Standardgateway. Konfigurieren Sie die DNS-Einstellungen so, dass Sie auf einen DNS-Server verweisen, vorzugsweise auf ein paar externer DNS-Server.
+2.  Konfigurieren Sie auf der externen Schnittstelle drei statische IP-Adressen im Subnetz des externen Umkreisnetzwerks. Außerdem konfigurieren Sie das Standardgateway für die externe Schnittstelle. Definieren Sie beispielsweise den mit dem Internet verbundenen Router oder die externe Firewall als Standardgateway. Konfigurieren Sie DNS-Einstellungen so, dass Sie auf einen DNS-Server, vorzugsweise auf ein paar externer DNS-Server, verweist.
     
     <div>
     
 
     > [!NOTE]  
-    > Es ist möglich, aber nicht empfehlenswert, nur eine IP-Adresse für die externe Schnittstelle zu verwenden. Damit dies funktioniert, müssen Sie die Portzuweisungen auf nicht standardmäßige Werte und außerhalb des standardmäßigen Port 443 ändern, der in der Regel für die Clientkommunikation "Firewall-freundlich" ist. Sie bestimmen die IP-Adresseneinstellung und die Porteinstellungen, wenn Sie die Topologie im Topologie-Generator erstellen.
+    > Es ist möglich, aber nicht empfehlenswert, nur so wenige IP-Adressen für die externe Schnittstelle zu verwenden. Damit dies funktioniert, müssen Sie die Portzuweisungen auf nicht standardmäßige Werte und den standardmäßigen Port 443, der normalerweise "Firewall-freundlich" für die Clientkommunikation ist, ändern. Sie bestimmen die IP-Adresseinstellung und die Porteinstellungen beim Erstellen der Topologie im Topologie-Generator.
 
     
     </div>
 
-3.  Konfigurieren Sie auf der internen Schnittstelleeine statische IP-Adresse im Subnetz des internen Umkreisnetzwerks, und legen Sie kein Standardgateway an. Lassen Sie die Adapter-DNS-Einstellungen leer.
+3.  Konfigurieren Sie auf der internen Schnittstelleeine statische IP-Adresse im Subnetz des internen Umkreisnetzwerks, und legen Sie kein Standardgateway fest. Lassen Sie die Adapter-DNS-Einstellungen leer.
 
-4.  Erstellen Sie persistente statische Routen auf der internen Schnittstelle für alle internen Netzwerke, in denen lync-Clients oder-Server mit lync Server 2013 befinden.
+4.  Erstellen Sie persistente statische Routen auf der internen Schnittstelle für alle internen Netzwerke, in denen sich lync-Clients oder-Server mit lync Server 2013 befinden.
 
-5.  Bearbeiten Sie die Hostdatei auf jedem Edgeserver, um einen Eintrag für den nächsten Hop-Server oder die virtuelle IP (VIP) zu enthalten (der Datensatz ist der Director, Standard Edition-Server oder ein Front-End-Pool, der im Topologie-Generator als Adresse des Edge-Servers für den nächsten Hop konfiguriert wurde). Wenn Sie den DNS-Lastenausgleich verwenden, schließen Sie eine Zeile für jedes Mitglied des nächsten Hop-Pools ein.
+5.  Bearbeiten Sie die Hostdatei auf jeder Edgeserver, um einen Datensatz für den nächsten Hop-Server oder die virtuelle IP (VIP) aufzunehmen (der Datensatz ist der Director, Standard Edition-Server oder ein Front-End-Pool, der als Edgeserver nächster Hop-Adresse im Topologie-Generator konfiguriert wurde). Wenn Sie DNS-Lastenausgleich verwenden, fügen Sie für jedes Mitglied des Pools für den nächsten Hop eine Codezeile ein.
 
 </div>
 

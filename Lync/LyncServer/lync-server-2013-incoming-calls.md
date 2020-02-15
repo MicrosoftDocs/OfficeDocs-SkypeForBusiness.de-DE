@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Eingehende Anrufe'
+title: 'Lync Server 2013: eingehende Anrufe'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e70e5a489cbfa581c666374e6535b898727e1fdc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c153af6e14c291189f714f7054f72301d6859a88
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763799"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036835"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="incoming-calls-in-lync-server-2013"></a>Eingehende Anrufe in Lync Server 2013
+# <a name="incoming-calls-in-lync-server-2013"></a>Eingehende Anrufe in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41763799"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-09_
+_**Letztes Änderungsstand des Themas:** 2013-03-09_
 
-Die Weiterleitung eingehender Anrufe an Benutzer, die für standortbasierte Routings aktiviert sind, hängt von der Position des Endpunkts des Benutzers ab. Die Weiterleitung eingehender Anrufe ist auf die folgende Weise betroffen. Wenn ein Benutzer einen eingehenden Anruf an einem Endpunkt hat, der sich in einer standortbasierten Routing fähigen Netzwerk Website befindet, und sich der Endpunkt am gleichen Netzwerkstandort wie das PSTN-Gateway befindet, wird der Anruf weitergeleitet. Wenn ein Benutzer einen eingehenden Anruf an einem Endpunkt hat, der sich in einer standortbasierten Routing fähigen Netzwerk Website befindet, und sich der Endpunkt an einem anderen Netzwerkstandort als dem PSTN-Gateway befindet, wird der Anruf nicht weitergeleitet. Wenn ein Benutzer keine Endpunkte an derselben Netzwerk Website wie das PSTN-Gateway hat, von dem der eingehende Anruf stammt, wird der eingehende Anruf direkt an die Voicemail des Benutzers weitergeleitet, und eine Benachrichtigung über verpasste Anrufe wird an den angerufenen Teilnehmer gesendet.
+Das Routing eingehender Anrufe an Benutzer, die für standortbasiertes Routing aktiviert sind, hängt vom Speicherort des Endpunkts des Benutzers ab. Das Routing eingehender Anrufe wird wie folgt beeinflusst. Wenn ein Benutzer einen eingehenden Anruf an einen Endpunkt hat, der sich an einem standortbasierten Routing fähigen Netzwerkstandort befindet, und sich der Endpunkt am gleichen Netzwerkstandort wie das PSTN-Gateway befindet, wird der Anruf weitergeleitet. Wenn ein Benutzer einen eingehenden Anruf an einen Endpunkt hat, der sich an einem standortbasierten Routing fähigen Netzwerkstandort befindet und sich der Endpunkt an einem anderen Netzwerkstandort befindet als das PSTN-Gateway, wird der Anruf nicht weitergeleitet. Wenn ein Benutzer keine Endpunkte am selben Netzwerkstandort wie das PSTN-Gateway hat, von dem der eingehende Anruf stammt, wird der eingehende Anruf direkt an die Voicemail des Benutzers weitergeleitet, und eine Benachrichtigung über verpasste Anrufe wird an den angerufenen Teilnehmer gesendet.
 
-Die Einstellungen für die Anrufweiterleitung eines Benutzers, der für standortbasiertes Routing aktiviert ist, werden weiterhin erzwungen, die weitergeleiteten Anrufe unterliegen jedoch standortbasierten Routing Einschränkungen des Benutzers.
+Die Anrufweiterleitungseinstellungen eines Benutzers, der für das standortbasierte Routing aktiviert ist, werden weiterhin erzwungen, jedoch werden weitergeleitete Anrufe den standortbasierten Routing Einschränkungen des Benutzers unterworfen.
 
-Die folgende Tabelle zeigt, wie sich der standortbasierte Routing auf das Routing von eingehenden Anrufen auswirkt, abhängig von der Position des Endpunkts des aufgerufenen. Die Netzwerk Website des PSTN-Gateways ist für standortbasiertes Routing aktiviert, und das ortsbasierte Routing ermöglicht nur das Routing von PSTN-Anrufen an Endpunkte innerhalb desselben Netzwerkstandorts.
+In der folgenden Tabelle wird veranschaulicht, wie sich das standortbasierte Routing auf das Routing eingehender Anrufe in Abhängigkeit von der Position des Endpunkts des angerufenen auswirkt. Der Netzwerkstandort des PSTN-Gateways ist für das standortbasierte Routing aktiviert, und das standortbasierte Routing ermöglicht nur das Routing von PSTN-Anrufen an Endpunkte innerhalb desselben Netzwerkstandorts.
 
-### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a>Angerufener empfängt einen eingehenden Anruf aus dem Telefonfestnetz (PSTN)
+### <a name="callee-receiving-an-inbound-call-from-the-pstn"></a>Angerufener empfängt einen eingehenden Anruf aus dem PSTN
 
 <table>
 <colgroup>
@@ -55,17 +55,17 @@ Die folgende Tabelle zeigt, wie sich der standortbasierte Routing auf das Routin
 <thead>
 <tr class="header">
 <th></th>
-<th>Endgerät des Angerufenen befindet sich am selben Netzwerkstandort wie das PSTN-Gateway</th>
-<th>Endgerät des Angerufenen befindet sich nicht am selben Netzwerkstandort wie das PSTN-Gateway</th>
-<th>Endgerät des Angerufenen befindet sich an einem unbekannten Netzwerkstandort oder ist nicht für standortbasiertes Routing aktiviert</th>
+<th>Endpunkt des angerufenen befindet sich am selben Netzwerkstandort wie das PSTN-Gateway</th>
+<th>Der Endpunkt des angerufenen befindet sich nicht am gleichen Netzwerkstandort wie das PSTN-Gateway</th>
+<th>Endpunkt des angerufenen befindet sich an einem unbekannten Netzwerkstandort oder ist für standortbasiertes Routing nicht aktiviert</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Routing eines eingehenden Telefonfestnetzanrufs</p></td>
-<td><p>Eingehender Anruf wird an die Endgeräte des Angerufenen weitergeleitet</p></td>
-<td><p>Eingehender Anruf wird nicht an die Endgeräte des Angerufenen weitergeleitet</p></td>
-<td><p>Eingehender Anruf wird nicht an die Endgeräte des Angerufenen weitergeleitet</p></td>
+<td><p>Routing eines eingehenden PSTN-Anrufs</p></td>
+<td><p>Eingehende Anrufe werden an die Endpunkte des angerufenen weitergeleitet</p></td>
+<td><p>Eingehende Anrufe werden nicht an die Endpunkte des angerufenen weitergeleitet</p></td>
+<td><p>Eingehende Anrufe werden nicht an die Endpunkte des angerufenen weitergeleitet</p></td>
 </tr>
 </tbody>
 </table>
@@ -77,7 +77,7 @@ Die folgende Tabelle zeigt, wie sich der standortbasierte Routing auf das Routin
 ## <a name="see-also"></a>Siehe auch
 
 
-[Szenarien für das standortbasierte Routing in Lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
+[Szenarien für das standortbasierte Routing in lync Server 2013](lync-server-2013-scenarios-for-location-based-routing.md)  
   
 
 </div>

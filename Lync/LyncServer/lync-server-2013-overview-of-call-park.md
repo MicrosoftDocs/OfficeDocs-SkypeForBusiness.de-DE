@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Übersicht über den Parken von Anrufen'
+title: 'Lync Server 2013: Übersicht über das Parken von Anrufen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5deeff873b37c0056bf03c598c39e448cba4379
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4ee07801baec7de4ee04717073dae5c0089501b2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755589"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034355"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-call-park-in-lync-server-2013"></a>Übersicht über den Parken von Anrufen in lync Server 2013
+# <a name="overview-of-call-park-in-lync-server-2013"></a>Übersicht über das Parken von Anrufen in lync Server 2013
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41755589"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-29_
+_**Letztes Änderungsstand des Themas:** 2012-10-29_
 
-Mit der lync Server 2013-Anwendung Parken können Enterprise-VoIP-Benutzer eine der folgenden Aktionen ausführen:
+Im lync Server 2013 Anwendung zum Parken von anrufen können Enterprise-VoIP-Benutzer eine der folgenden Aktionen ausführen:
 
-  - Halten eines Anrufs und anschließendes Entgegennehmen des Anrufs am selben oder an einem anderen Telefon.
+  - Halten Sie einen Anruf gedrückt, und rufen Sie dann den Anruf vom gleichen Telefon oder von einem anderen Telefon ab.
 
-  - Halten eines Anrufs, um ihn an eine Abteilung oder einen allgemeinen Bereich zu übergeben (z. B. die Vertriebsabteilung oder ein Lagerort mit einem Telefon im öffentlichen Bereich).
+  - Halten Sie einen Anruf an, um ihn an eine Abteilung oder einen allgemeinen Bereich zu übertragen (beispielsweise an eine Vertriebsabteilung oder an ein Warehouse, in dem ein Telefon für gemeinsame Bereiche vorhanden ist).
 
-  - Halten eines Anrufs, um weitere Anrufe an einem Telefon entgegennehmen zu können.
+  - Halten Sie einen Anruf gedrückt, und halten Sie das ursprüngliche Anrufbeantworter für andere Anrufe frei.
 
-Wenn ein Benutzer einen Anruf parkt, übergibt lync Server den Anruf an eine temporäre Nummer, die so genannte *Orbit*, in der der Anruf gehalten wird, bis er abgerufen wird, oder es wird ein Timeout festgestellt. Lync Server sendet die Umlaufbahn an den Benutzer, der den Anruf abgestellt hat. Zum Wiederaufnehmen des geparkten Anrufs kann der Benutzer die Orbitnummer wählen oder auf den Orbitlink oder die Schaltfläche im Fenster „Unterhaltung“ klicken.
+Wenn ein Benutzer einen Anruf parkt, übergibt lync Server den Anruf an eine temporäre Nummer, die als *Orbit*bezeichnet wird, wobei der Anruf angehalten wird, bis er abgerufen wird oder ein Timeout auftritt. Lync Server sendet den Orbit an den Benutzer, der den Anruf geparkt hat. Zum Abrufen des geparkten Anrufs kann der Benutzer die Umlaufbahn Nummer wählen oder im Unterhaltungsfenster auf den Orbit-Link oder die Orbit-Schaltfläche klicken.
 
-Der Benutzer, der einen Anruf geparkt hat, kann einen anderen Benutzer mithilfe eines externen Mechanismus (beispielsweise über eine Sofortnachricht oder ein Paging-System) über die Orbitnummer informieren, damit dieser Benutzer den Anruf entgegennehmen kann. Der Benutzer, der den Anruf geparkt hat, kann das Fenster „Unterhaltung“ geöffnet lassen, um eine Benachrichtigung zu erhalten, sobald der Anruf entgegengenommen wurde.
+Der Benutzer, der einen Anruf geparkt hat, kann eine Person Benachrichtigen, um den Anruf mithilfe eines externen Mechanismus, beispielsweise Instant Messaging (Sofortnachrichten) oder eines Auslagerungs Systems, abzurufen, um die orbitnummer an eine andere Person zu übermitteln. Der Benutzer, der den Anruf geparkt hat, kann das Unterhaltungsfenster geöffnet lassen, um eine Benachrichtigung zu erhalten, wenn der Anruf abgerufen wird.
 
-Da Umlaufbahn Bereiche global eindeutig sind, ist es möglich, Anrufe von jeder lync Server-Website oder einem PBX-Telefon abzurufen, wenn Routing entsprechend konfiguriert ist. Wenn der Anruf innerhalb einer konfigurierbaren Zeitdauer nicht wiederaufgenommen wird, wird er erneut an den Benutzer zurückgegeben, der den Anruf geparkt hat. Wenn dieser Benutzer den Anruf nicht beantwortet, wird er an ein Fallbackziel übergeben (z. B. einen Agent), sofern dies konfiguriert wurde. Sie können konfigurieren, wie oft das Telefon erneut läutet (ein- bis zehnmal), bevor der Anruf weitergeleitet wird. Wenn ein weitergeleiteter Anruf nicht entgegengenommen wird, wird die Verbindung unterbrochen. Wenn der Anruf entgegengenommen oder die Verbindung unterbrochen wird, wird der Orbit erneut freigegeben.
+Da Umlaufbahn Bereiche global eindeutig sind, können Anrufe von beliebigen lync Server Standort-oder PBX-Telefonen abgerufen werden, wenn das Routing entsprechend konfiguriert ist. Wenn der Anruf nicht innerhalb einer konfigurierbaren Zeitspanne abgerufen wird, klingelt der Anruf an die Person zurück, die ihn geparkt hat. Wenn diese Person den Rückruf nicht beantwortet, wird der Anruf an ein Fallback-Ziel, beispielsweise an einen Operator, übertragen, falls dies konfiguriert ist. Sie können konfigurieren, wie oft der Anruf klingelt, bevor er von ein bis zehn Mal übertragen wird. Wenn niemand einen übertragenen Anruf beantwortet, wird der Anruf getrennt. Die Umlaufbahn wird freigegeben, wenn der Anruf abgerufen oder getrennt wird.
 
-Wenn Sie die Funktion zum Parken von Anrufen bereitstellen, müssen Sie Durchwahlnummernbereiche zum Parken von Anrufen reservieren. Bei diesen Durchwahlnummern muss es sich um virtuelle Durchwahlnummern handeln, also solche, denen kein Benutzer oder Telefon zugewiesen ist. Anschließend konfigurieren Sie die Orbittabelle für das Parken von Anrufen mit den Durchwahlnummernbereichen und geben an, welcher Anwendungsdienst die Anwendung zum Parken von Anrufen hostet, die die einzelnen Bereiche verarbeitet. Jeder Front-End-Pool verfügt über eine Anruf Park Tabelle auf dem entsprechenden Back-End-Server, der zum Verwalten von Anrufen dient, die auf dem Pool abgestellt werden. Die Liste der Umlaufbahn Bereiche wird im zentralen Verwaltungsspeicher gespeichert und zum Weiterleiten von Umlaufbahnen an den Ziel Pool verwendet. Jeder lync-Server Pool, in dem die Anwendung für das Parken von Anrufen bereitgestellt und konfiguriert ist, kann einen oder mehrere Umlaufbahn Bereiche aufweisen. Umlaufbahn Bereiche müssen in der lync Server-Bereitstellung global eindeutig sein.
+Wenn Sie das Parken von Anrufen bereitstellen, müssen Sie Bereiche für Durchwahlnummern für das Parken von Anrufen reservieren. Diese Erweiterungen müssen virtuelle Erweiterungen sein: Erweiterungen, denen kein Benutzer oder Telefon zugewiesen ist. Anschließend konfigurieren Sie die Orbit-Tabelle für das Parken von Anrufen mit den Bereichen der Durchwahlnummern und geben an, welche Anwendungsdienst die Anwendung zum Parken von Anrufen hostet, die die einzelnen Bereiche behandelt. Jeder Front-End-Pool verfügt auf dem entsprechenden Back-End-Server über eine Parken-Tabelle, die zum Verwalten von Anrufen verwendet wird, die im Pool geparkt sind. Die Liste der orbitbereiche wird im zentralen Verwaltungsspeicher gespeichert und zum Weiterleiten von Umlaufbahnen zum Ziel Pool verwendet. Jeder lync Server Pool, in dem die Anwendung zum Parken von Anrufen bereitgestellt und konfiguriert ist, kann einen oder mehrere Umlaufbahn Bereiche aufweisen. Umlaufbahn Bereiche müssen in der lync Server-Bereitstellung global eindeutig sein.
 
-Sie können darüber hinaus weitere Einstellungen für das Parken von Anrufen konfigurieren, wie z. B., an welches Ziel Anrufe bei einem Timeout umgeleitet werden und ob für den Anrufer Musik wiedergegeben wird, während der Anruf geparkt ist. Außerdem können Sie die Musikdatei angeben, die beim Parken des Anrufs wiedergegeben wird.
+Sie können auch andere Einstellungen für das Parken von anrufen konfigurieren, beispielsweise, wo Anrufe umgeleitet werden, wenn ein Timeout auftritt und ob die Person auf dem Telefon Musik hört, während Sie geparkt hat. Sie können auch die Musikdatei angeben, die wiedergegeben werden soll, während der Anruf gespeichert wird.
 
 <div>
 
 
 > [!NOTE]  
-> Angepasste Musik-in-situ-Dateien für den Parken von Anrufen werden nicht im Rahmen des lync Server 2013-Wiederherstellungsprozesses gesichert und gehen verloren, wenn die Dateien, die in den Pool hochgeladen wurden, beschädigt, beschädigt oder gelöscht wurden. Bewahren Sie stets eine separate Sicherungskopie der für geparkte Anrufe hochgeladenen angepassten Musikdateien auf.
+> Benutzerdefinierte Musik-on-Hold-Dateien für das Parken von Anrufen werden nicht als Teil des lync Server 2013 Notfall Wiederherstellungsprozesses gesichert und gehen verloren, wenn die in den Pool hochgeladenen Dateien beschädigt, beschädigt oder gelöscht werden. Bewahren Sie immer eine separate Sicherungskopie der angepassten Musikdateien auf, die Sie für das Parken von Anrufen hochgeladen haben.
 
 
 
 </div>
 
-Die Anwendung zum Parken von Anrufen ist eine Enterprise-VoIP-Komponente. Wenn Sie Enterprise-VoIP bereitstellen, wird die Anwendung für den Anruf Park automatisch installiert und aktiviert. Bevor Sie den Anruf Park verwenden können, muss der Enterprise Voice-Administrator ihn aber über die VoIP-Richtlinie konfigurieren und für die Benutzer aktivieren.
+Die Anwendung zum Parken von anrufen ist eine Komponente von Enterprise-VoIP. Wenn Sie Enterprise-VoIP bereitstellen, wird das Anwendung zum Parken von Anrufen automatisch installiert und aktiviert. Bevor Sie das Parken von Anrufen verwenden können, muss der Enterprise-VoIP-Administrator es jedoch konfigurieren und für Benutzer über VoIP-Richtlinie aktivieren.
 
 </div>
 

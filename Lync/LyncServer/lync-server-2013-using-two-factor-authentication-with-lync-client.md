@@ -12,16 +12,16 @@ ms:contentKeyID: 55115593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25b5d3305c5d9825342c0293325c9afca96c5a97
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: cbd45e3e54ec9fb6b1a9757c0a46a1454901f749
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743815"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007454"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41743815"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-07-11_
+_**Letztes Änderungsstand des Themas:** 2013-07-11_
 
-In diesem Thema wurde beschrieben, wie Sie die zweistufige Authentifizierung mit lync 2013-Client nutzen können.
+In diesem Thema wird beschrieben, wie Sie die zweistufige Authentifizierung mit lync 2013-Client nutzen.
 
 <div>
 
-## <a name="sign-in-to-lync-2013-for-the-first-time"></a>Erstmaliges Anmelden bei lync 2013
+## <a name="sign-in-to-lync-2013-for-the-first-time"></a>Erstmalige Anmeldung bei lync 2013
 
-Ihre lync-Anmeldeinformationen werden in der Regel automatisch konfiguriert, wenn lync 2013 installiert ist. Wenn Sie lync zum ersten Mal verwenden, müssen Sie den Client möglicherweise manuell starten.
+Die lync-Anmeldeinformationen werden normalerweise bei der Installation von lync 2013 automatisch konfiguriert. Das erste Mal, wenn Sie lync verwenden, müssen Sie den Client möglicherweise manuell starten.
 
-**So können Sie sich zum ersten Mal bei lync anmelden**
+**So melden Sie sich zum ersten Mal bei lync an**
 
 1.  Melden Sie sich beim Netzwerk Ihrer Organisation an.
 
 2.  Wählen Sie **Alle Programme** \> **starten** \> **Microsoft \> lync lync 2013**aus.
     
-    Der Anmeldebildschirm von lync sollte angezeigt werden.
+    Der lync-Anmeldebildschirm sollte angezeigt werden.
     
-      - Wenn das Feld mit der Anmeldeadresse bereits ausgefüllt ist, überprüfen Sie, ob die angezeigte Adresse richtig ist.
+      - Wenn das Feld Anmeldeadresse bereits ausgefüllt ist, vergewissern Sie sich, dass die angezeigte Adresse richtig ist.
     
-      - Wenn dies nicht der Fall ist, oder wenn das Feld leer ist, geben Sie Ihre lync-Anmeldeadresse ein (Dies ist in der Regel identisch mit Ihrer e-Mail-Adresse).
+      - Wenn es nicht richtig ist oder wenn das Feld leer ist, geben Sie Ihre lync-Anmeldeadresse ein (Dies ist normalerweise identisch mit Ihrer e-Mail-Adresse).
     
-      - Wenn ein leeres Kennwortfeld angezeigt wird, geben Sie Ihr Kennwort ein.
+      - Wenn das Feld leeres Kennwort angezeigt wird, fügen Sie Ihr Kennwort ein.
 
-3.  Wählen Sie **Anmelden** aus.
+3.  Wählen Sie **Anmelden**aus.
 
 </div>
 
@@ -67,7 +67,7 @@ Ihre lync-Anmeldeinformationen werden in der Regel automatisch konfiguriert, wen
 
 ## <a name="sign-out-of-lync"></a>Abmelden bei lync
 
-Wenn Sie mit der Verwendung von lync fertig sind, können Sie die Anzeige schließen, sich von Ihrer Sitzung abmelden oder das Programm beenden, und zwar alle über das Menü "Datei". In der folgenden Tabelle werden die Unterschiede zwischen diesen Optionen erläutert.
+Wenn Sie lync abgeschlossen haben, können Sie die Anzeige schließen, sich von Ihrer Sitzung abmelden oder aus dem Programm heraus beenden, und zwar im Menü Datei. In der folgenden Tabelle werden die Unterschiede in den Optionen erläutert.
 
 
 <table>
@@ -79,37 +79,37 @@ Wenn Sie mit der Verwendung von lync fertig sind, können Sie die Anzeige schlie
 <thead>
 <tr class="header">
 <th>Option</th>
-<th>Zweck</th>
+<th>Funktion</th>
 <th>Vorgehensweise</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Schließen</p></td>
-<td><p>Schließt die lync-Anzeige, lässt aber die lync-Sitzung, die mit Ihrer Benutzer-ID identifiziert wurde, weiterhin ausgeführt werden. Dies hat den Sinn, dass Sie weiterhin Benachrichtigungen erhalten und sich mit anderen austauschen können.</p>
-<p>Sie können die Anzeige jederzeit wiederherstellen, indem Sie auf das lync-Symbol in der Taskleiste oder im Infobereich am unteren Rand des Bildschirms klicken.</p></td>
-<td><p>Führen Sie im lync-Hauptfenster eine der folgenden Aktionen aus:</p>
+<td><p>Schließt die lync-Anzeige, lässt jedoch zu, dass die mit Ihrer Benutzer-ID identifizierte lync-Sitzung weiterhin ausgeführt wird. Dies ist so, dass Sie weiterhin Benachrichtigungen erhalten und mit anderen Personen interagieren können.</p>
+<p>Sie können die Anzeige jederzeit wiederherstellen, indem Sie auf der Taskleiste oder im Infobereich am unteren Rand des Bildschirms auf das lync-Symbol klicken.</p></td>
+<td><p>Führen Sie im lync-Hauptfenster einen der folgenden Schritte aus:</p>
 <ol>
-<li><p>Wählen Sie die Schaltfläche <strong>Optionen</strong> und dann <strong>Datei</strong> &gt; <strong>Schließen</strong>aus.</p></li>
-<li><p>Klicken Sie auf die Schaltfläche <strong>Schließen</strong> (X) in der oberen rechten Ecke des Fensters.</p></li>
+<li><p>Klicken Sie auf die Schaltfläche <strong>Optionen</strong> und anschließend auf <strong>Datei</strong> &gt; <strong>Schließen</strong>.</p></li>
+<li><p>Klicken Sie in der oberen rechten Ecke des Fensters auf die Schaltfläche <strong>Schließen</strong> (X).</p></li>
 </ol></td>
 </tr>
 <tr class="even">
 <td><p>Abmelden</p></td>
-<td><p>Beendet die mit Ihrer Benutzer-ID verknüpfte lync-Sitzung, während lync weiterhin im Hintergrund ausgeführt wird. Wenn Sie sich abmelden, wird das Abmeldefenster angezeigt.</p>
+<td><p>Beendet die lync-Sitzung, die Ihrer Benutzer-ID zugeordnet ist, lync wird jedoch weiterhin im Hintergrund ausgeführt. Wenn Sie sich abmelden, wird das Anmeldefenster angezeigt.</p>
 <div>
 
 > [!TIP]  
-> Wählen Sie bei der Abmeldung <STRONG>Meine Anmeldeinformationen löschen</STRONG> aus, um den Datensatz mit Ihrer Anmelde-ID und dem Kennwort vom Computer zu entfernen. Dies vereinfacht möglicherweise den Support bei der Behandlung von Anmeldeproblemen. Außerdem trägt es dazu bei, Ihre Anmeldeinformationen zu sichern, da es nicht autorisierten Benutzern so erschwert wird, sich mit Ihren Anmeldeinformationen anzumelden.
+> Wählen Sie beim abmelden die Option <STRONG>Meine Anmeldeinformationen löschen</STRONG> aus, um den Datensatz Ihrer Anmelde-ID und Ihres Kennworts vom Computer zu entfernen. Dadurch wird möglicherweise die Unterstützung von Personen bei der Behandlung von Anmeldeproblemen erleichtert. Es kann auch dazu beitragen, dass Ihre Anmeldeinformationen sicherer sind, da unbefugte Benutzer sich nicht mit Ihren Anmeldeinformationen anmelden können.
 
 
 </div></td>
-<td><p>Klicken Sie im Hauptfenster von lync auf die Schaltfläche <strong>Optionen</strong> , und wählen Sie dann <strong>Datei</strong> &gt; <strong>Abmelden aus</strong>.</p></td>
+<td><p>Wählen Sie im lync-Hauptfenster die Schaltfläche <strong>Optionen</strong> aus, und wählen Sie dann <strong>Datei</strong> &gt; <strong>Abmelden aus</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Beenden</p></td>
-<td><p>Beendet die lync-Sitzung und beendet lync auf Ihrem Computer. Wenn Sie lync nach dem Beenden erneut starten möchten, wählen Sie <strong></strong> &gt; <strong>Alle Programme</strong> &gt; starten <strong>Microsoft lync</strong> &gt; <strong>lync 2013</strong>aus.</p></td>
-<td><p>Klicken Sie im Hauptfenster von lync auf die Schaltfläche <strong>Optionen</strong> , und wählen Sie dann <strong>Datei</strong> &gt; <strong>Beenden</strong>aus.</p></td>
+<td><p>Beendet die lync-Sitzung und beendet lync auf Ihrem Computer. Wenn Sie lync nach dem Beenden neu starten möchten, wählen Sie <strong></strong> &gt; <strong>Alle Programme</strong> &gt; starten <strong>Microsoft lync</strong> &gt; <strong>lync 2013</strong>aus.</p></td>
+<td><p>Wählen Sie im lync-Hauptfenster die Schaltfläche <strong>Optionen</strong> aus, und wählen Sie dann <strong>Datei</strong> &gt; <strong>Beenden</strong>aus.</p></td>
 </tr>
 </tbody>
 </table>
@@ -121,35 +121,35 @@ Wenn Sie mit der Verwendung von lync fertig sind, können Sie die Anzeige schlie
 
 ## <a name="sign-in-to-lync-with-a-smart-card"></a>Anmelden bei lync mit einer Smartcard
 
-Einige Organisationen verwenden jetzt einen mehrstufigen Anmeldeprozess mit der Bezeichnung zweistufige Authentifizierung, um die Sicherheit für Ihre lync 2013-Benutzer zu erhöhen. Wenn Sie davon ausgehen, dass Sie diese Option verwenden, benötigen Sie eine "Smartcard", um sich bei lync anzumeldet. Smartcards sind in zwei Varianten erhältlich:
+Einige Organisationen verwenden jetzt einen mehrstufigen Anmeldevorgang, die sogenannte zweistufige Authentifizierung, um die Sicherheit für Ihre lync 2013 Benutzer zu verbessern. Wenn Sie diese Option voraussichtlich verwenden, benötigen Sie eine Smartcard zur Anmeldung bei lync. Smartcards gibt es in zwei Varianten: physisch und virtuell:
 
-  - **Physische**   Informationen über die Größe einer Kreditkarte. Sie setzen sie für die Anmeldung in ein SmartCard-Lesegerät ein.
+  - **Physische**   Größe einer Kreditkarte. Sie fügen es bei der Anmeldung in ein Smartcard-Lesegerät ein.
 
-  - **Virtual**   kein physikalisches Objekt, sondern ein elektronischer Bezeichner, der auf einen speziellen Chip auf dem Computer geschrieben wird, der im Wesentlichen die Smartcard auf Ihren Computer aufbaut. Nur für die Verwendung mit Windows 8-Computern verfügbar, die den TPM-Chip (Trusted Platform Module) enthalten.
+  - **Virtual**   kein physisches Objekt, sondern eine elektronische ID, die auf einen speziellen Chip auf Ihrem Computer geschrieben wird, der im Wesentlichen die Smartcard in Ihren Computer einbaut. Nur für die Verwendung mit Windows 8 Computern verfügbar, die den TPM-Chip (Trusted Platform Module) enthalten.
 
 <div>
 
-## <a name="enroll-your-smart-card"></a>Registrieren Ihrer SmartCard
+## <a name="enroll-your-smart-card"></a>Registrieren der Smartcard
 
-Bevor Sie sich mit einer SmartCard anmelden können, muss die Karte „registriert“ werden – das bedeutet, dass Ihre Benutzeranmeldeinformationen für die Karte kenntlich gemacht werden müssen. Dies muss unabhängig davon erfolgen, ob es sich um eine physische oder um eine virtuelle Karte handelt. Dieser Vorgang wurde möglicherweise bereits vom lync Server-Administrator durchgeführt. Erkundigen Sie sich bei ihm, wenn Sie nicht sicher sind, ob dieser Vorgang bereits ausgeführt wurde.
+Bevor Sie sich mit einer Smartcard anmelden können, muss die Karte "registriert" sein, d. h., Ihre Benutzeranmeldeinformationen müssen mit der Karte identifiziert werden. Dies ist der Fall, wenn die Karte physisch oder virtuell ist. Dieser Vorgang wurde möglicherweise bereits von Ihrem lync Server Administrator ausgeführt. Wenden Sie sich an Sie, wenn Sie nicht sicher sind, ob dies geschehen ist.
 
 <div>
 
 
 > [!NOTE]  
-> Da jede virtuelle Smartcard nur dem Gerät zugeordnet ist, auf dem Sie installiert ist, muss für jeden Windows 8-Computer, den Sie verwenden, eine separate Karte registriert werden.
+> Da jede virtuelle Smartcard nur dem Gerät zugeordnet ist, auf dem Sie installiert ist, muss für jeden Windows 8 von Ihnen verwendeten Computer eine separate Karte registriert werden.
 
 
 
 </div>
 
-**So registrieren Sie Ihre SmartCard**
+**So registrieren Sie Ihre Smartcard manuell**
 
-1.  Melden Sie sich bei dem Computer an, auf dem Sie lync ausführen werden.
+1.  Melden Sie sich an dem Computer an, auf dem Sie lync betreiben.
 
-2.  Navigieren Sie im Internet Explorer zur Registrierungsseite der Zertifizierungsstelle Ihrer Organisation.
+2.  Wechseln Sie mithilfe von Internet Explorer zur Webregistrierungs Seite der Zertifizierungsstelle Ihrer Organisation.
     
-    Bitten Sie Ihren lync Server-Administrator um die Webadresse dieser Ressource, wenn Sie Sie nicht bereits haben. Die URL sieht ungefähr wie folgt aus: https://MyCA.\[YourCompanyName\]. com/certsrv.
+    Fragen Sie Ihren lync Server-Administrator nach der Webadresse dieser Ressource, wenn Sie Sie nicht bereits haben. Die URL sieht in etwa wie folgt aus https://MyCA.\: [\]YourCompanyName. com/certsrv.
     
     <div>
     
@@ -160,87 +160,87 @@ Bevor Sie sich mit einer SmartCard anmelden können, muss die Karte „registrie
     
     </div>
 
-3.  Wenn Sie aufgefordert werden, sich auf der Zertifizierungsseite anzumelden, melden Sie sich mit Ihrem Domänenkonto (statt als Administrator Ihres Computers) an.
+3.  Wenn Sie aufgefordert werden, sich bei der Zertifizierungsseite anzumelden, melden Sie sich mit Ihrem Domänenkonto an (statt als Administrator Ihres Computers).
 
-4.  Wählen Sie auf der Begrüßungsseite die Option **Zertifikat anfordern** aus.
+4.  Wählen Sie auf der Willkommensseite der Website die Option **Zertifikat anfordern**aus.
 
-5.  Wählen Sie **Erweiterte Anforderung** aus.
+5.  Wählen Sie **Erweiterte Anforderung**aus.
 
-6.  Wählen Sie **Eine Anforderung an diese Zertifizierungsstelle erstellen und einreichen** und klicken Sie dann auf **Weiter**.
+6.  Wählen Sie **erstellen, und senden Sie eine Anforderung an diese Zertifizierungsstelle, und**klicken Sie dann auf **weiter**.
 
-7.  Jetzt wird eine Seite mit dem Titel SmartCard-Registrierungsstelle angezeigt. Genehmigen Sie die Anfrage, das ActiveX-Steuerelement zu installieren, und füllen Sie dann das Formular für die erweiterte Zertifikatanforderung wie folgt aus:
+7.  Jetzt sehen Sie eine Seite namens Smartcard-Registrierungsstelle. Genehmigen Sie die Anforderung zum Installieren des ActiveX-Steuerelements, und füllen Sie dann das Formular für die erweiterte Zertifikatanforderung wie folgt aus:
     
-    1.  Wählen Sie in der Dropdownliste **Zertifikatvorlage** den Eintrag **SmartCard-Benutzer** aus.
+    1.  Wählen Sie in der Dropdownliste **Zertifikatvorlage** die Option **Smartcard-Benutzer** aus.
     
-    2.  Wählen Sie **Neuen Schlüsselsatz erstellen** aus.
+    2.  Wählen Sie **neuen Schlüssel festlegen erstellen**aus.
     
-    3.  Suchen Sie die Herstellerinformationen auf dem Etikett Ihrer SmartCard und wählen Sie dann den betreffenden Hersteller in der **CSP**-Dropdownliste aus.
+    3.  Suchen Sie die Herstellerinformationen auf dem Etikett Ihrer Smartcard, und wählen Sie diesen Hersteller in der Dropdownliste **CSP** aus.
     
-    4.  Wählen Sie **CSP** als Anforderungsformat aus, wenn dies noch nicht ausgewählt ist.
+    4.  Wählen Sie **CSP** als Anforderungs Format aus, sofern es nicht bereits ausgewählt ist.
     
-    5.  Wählen Sie in der Hashalgorithmus-Dropdownliste den Eintrag **sha1** aus, wenn er noch nicht ausgewählt ist.
+    5.  Wählen Sie in der Dropdownliste Hash Algorithmus die Option **SHA1** aus, sofern Sie noch nicht ausgewählt ist.
     
-    6.  Geben Sie Ihrem Zertifikat einen Namen, den Sie sich merken können und klicken Sie dann auf **Senden**.
+    6.  Geben Sie Ihrem Zertifikat einen Namen, den Sie erkennen, und klicken Sie auf über **Mitteln**.
 
-8.  Legen Sie jetzt Ihre leere SmartCard in das an die Registrierungsstelle angeschlossene SmartCard-Lesegerät und klicken Sie auf **Registrieren**.
+8.  Legen Sie jetzt Ihre leere Smartcard in das Kartenlesegerät ein, das mit der Registrierungsstelle verbunden ist, und klicken Sie auf **registrieren**.
 
-9.  Wenn Sie dazu aufgefordert werden, geben Sie Ihre PIN (Personal Identification Number) ein und klicken Sie dann auf **OK**.
-    
-    <div>
-    
-
-    > [!NOTE]  
-    > Wenn der für Sie zuständige Mitarbeiter des technischen Supports Ihnen keine besondere PIN für die Registrierung Ihrer SmartCard gegeben hat, verwenden Sie die Standard-PIN für SmartCards, nämlich 12345678.
-
-    
-    </div>
-
-10. Aktivieren Sie die Option, die den Benutzer (Sie) zwingt, die PIN bei der ersten Verwendung der SmartCard zu ändern.
-
-11. Legen Sie jetzt Ihre leere SmartCard in das an die Registrierungsstelle angeschlossene SmartCard-Lesegerät und klicken Sie auf **Registrieren**.
-
-12. Wenn Sie dazu aufgefordert werden, geben Sie Ihre PIN (Personal Identification Number) ein und klicken Sie dann auf **OK**.
+9.  Wenn Sie dazu aufgefordert werden, geben Sie Ihre persönliche Identifikationsnummer (PIN) ein, und klicken Sie dann auf **OK**.
     
     <div>
     
 
     > [!NOTE]  
-    > Wenn der für Sie zuständige Mitarbeiter des technischen Supports Ihnen keine besondere PIN für die Registrierung Ihrer SmartCard gegeben hat, verwenden Sie die Standard-PIN für SmartCards, nämlich 12345678.
+    > Wenn Ihr technischer Support-Mitarbeiter Ihnen keine spezielle PIN für die Registrierung Ihrer Smartcard gegeben hat, verwenden Sie den standardmäßigen Smartcard-PIN-Wert, also 12345678.
 
     
     </div>
 
-13. Aktivieren Sie die Option, die den Benutzer (Sie) zwingt, die PIN bei der ersten Verwendung der SmartCard zu ändern.
+10. Wählen Sie die Option aus, um zu erzwingen, dass der Benutzer die PIN ändert, wenn die Smartcard zum ersten Mal verwendet wird.
 
-14. Klicken Sie auf **OK**, um zu bestätigen, dass das angezeigte Zertifikat Ihre Informationen enthält.
+11. Legen Sie jetzt Ihre leere Smartcard in das Kartenlesegerät ein, das mit der Registrierungsstelle verbunden ist, und klicken Sie auf **registrieren**.
 
-15. Sobald der Hinweis angezeigt wird, dass das Zertifikat ausgestellt wurde, klicken Sie auf **Dieses Zertifikat installieren**, um den Registrierungsvorgang abzuschließen.
+12. Wenn Sie dazu aufgefordert werden, geben Sie Ihre persönliche Identifikationsnummer (PIN) ein, und klicken Sie dann auf **OK**.
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > Wenn Ihr technischer Support-Mitarbeiter Ihnen keine spezielle PIN für die Registrierung Ihrer Smartcard gegeben hat, verwenden Sie den standardmäßigen Smartcard-PIN-Wert, also 12345678.
+
+    
+    </div>
+
+13. Wählen Sie die Option aus, um zu erzwingen, dass der Benutzer die PIN ändert, wenn die Smartcard zum ersten Mal verwendet wird.
+
+14. Klicken Sie auf **OK** , um zu bestätigen, dass das angezeigte Zertifikat über Ihre Informationen verfügt.
+
+15. Wenn Sie festgestellt haben, dass das Zertifikat ausgestellt wurde, klicken Sie auf **dieses Zertifikat installieren** , um den Registrierungsvorgang abzuschließen.
 
 </div>
 
 <div>
 
-## <a name="sign-in-to-lync-with-your-smart-card-credentials"></a>Melden Sie sich mit ihren Smartcard-Anmeldeinformationen bei lync an.
+## <a name="sign-in-to-lync-with-your-smart-card-credentials"></a>Anmelden bei lync mit ihren Smartcard-Anmeldeinformationen
 
-Bevor Sie Ihre Smartcard zum ersten Mal verwenden, sollten Sie auf der lync-Anmeldeseite auf **Meine Anmeldeinformationen löschen** klicken. Dadurch werden alle eventuell auf dem Computer gespeicherten Anmeldeinformationen gelöscht und eine mögliche Fehlerquelle ausgeschaltet.
+Bevor Sie Ihre Smartcard zum ersten Mal verwenden, sollten Sie auf der lync-Anmeldeseite auf **Meine Anmeldeinformationen löschen** klicken. Dadurch werden alle auf Ihrem Computer gespeicherten Anmeldeinformationen gelöscht, und eine mögliche Fehlerquelle wird eliminiert.
 
 **So melden Sie sich mit ihren Smartcard-Anmeldeinformationen bei lync an**
 
 1.  Starten Sie den lync-Client.
 
-2.  Geben Sie auf dem Anmeldebildschirm Ihren Benutzerkontonamen für die Anmeldung im Feld **Anmeldeadresse** ein und klicken Sie dann auf **Anmelden**.
+2.  Geben Sie auf dem Anmeldebildschirm den Namen Ihres Anmeldebenutzer Kontos in das Feld **Anmeldeadresse** ein, und klicken Sie dann auf **Anmelden**.
 
-3.  Wenn Sie eine virtuelle SmartCard verwenden, überspringen Sie diesen Schritt.
+3.  Wenn Sie eine virtuelle Smartcard verwenden, überspringen Sie diesen Schritt.
     
-    Wenn Sie eine physische SmartCard verwenden, legen Sie die SmartCard in Ihr SmartCard-Lesegerät ein, wenn Sie dazu aufgefordert werden, und klicken dann auf **OK**, wenn die Karte erkannt wird.
+    Wenn Sie eine physische Smartcard verwenden, legen Sie die Smartcard in das Smartcard-Lesegerät ein, und klicken Sie dazu auf OK, und klicken Sie dann auf **OK** , wenn die Karte erkannt wird.
 
-4.  Geben Sie die PIN-Nummer für Ihre SmartCard ein und klicken Sie dann auf **OK**.
+4.  Geben Sie die PIN-Nummer für Ihre Smartcard ein, und klicken Sie dann auf **OK**.
     
     <div>
     
 
     > [!NOTE]  
-    > Wenn Ihnen keine SmartCard-PIN von Ihrem Supportmitarbeiter zugewiesen wurde, verwenden Sie den Standardwert, nämlich 12345678.
+    > Wenn Sie Ihrer Support Person keine Smartcard-PIN-Nummer zugewiesen haben, verwenden Sie den Standardwert 12345678.
 
     
     </div>

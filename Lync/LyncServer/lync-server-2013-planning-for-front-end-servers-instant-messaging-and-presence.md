@@ -1,5 +1,5 @@
 ---
-title: Planen für Front-End-Server, Chat und Anwesenheit
+title: Planung für Front-End-Server, Instant Messaging und Anwesenheit
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184799
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a481953037ec818378c931a28ce8892c1a486d72
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3d0ec31823f4fe7fc5872f9d4266306186703aa2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41752235"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036745"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Planen für Front-End-Server, Chat und Anwesenheit in Lync Server 2013
+# <a name="planning-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Planen von Front-End-Servern, Chatnachrichten und Anwesenheitsinformationen in lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41752235"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-13_
+_**Letztes Änderungsstand des Themas:** 2012-09-13_
 
-Front-End-Server bieten einen Großteil der lync-Server Funktionalität und sind in jeder lync Server-Bereitstellung enthalten. Instant Messaging (im) und Anwesenheit sind Kernfunktionen von lync Server und werden in jeder lync Server-Installation automatisch bereitgestellt und aktiviert. Die folgenden Abschnitte enthalten weitere Details zu Front-End-Servern, Chat und Anwesenheitsinformationen.
+Front-End-Server bieten einen Großteil der lync Server Funktionalität und sind in jeder lync Server-Bereitstellung enthalten. Instant Messaging (Sofortnachrichten) und Anwesenheit sind Kernfunktionen von lync Server und werden in jeder lync Server Installation automatisch bereitgestellt und aktiviert. In den folgenden Abschnitten finden Sie ausführliche Informationen zu Front-End-Servern, Instant Messaging und Anwesenheit.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Features und Funktionen für Front-End-Server, Chat und Anwesenheit in Lync Server 2013](lync-server-2013-features-and-functionality-of-front-end-servers-instant-messaging-and-presence.md)
+  - [Features und Funktionen von Front-End-Servern, Chatnachrichten und Anwesenheitsinformationen in lync Server 2013](lync-server-2013-features-and-functionality-of-front-end-servers-instant-messaging-and-presence.md)
 
-  - [Definieren der Anforderungen für Front-End-Server, Chat und Anwesenheit in Lync Server 2013](lync-server-2013-defining-your-requirements-for-front-end-servers-instant-messaging-and-presence.md)
+  - [Definieren der Anforderungen für Front-End-Server, Instant Messaging und Anwesenheitsinformationen in lync Server 2013](lync-server-2013-defining-your-requirements-for-front-end-servers-instant-messaging-and-presence.md)
 
-  - [Topologien und Komponenten für Front-End-Server, Chat und Anwesenheit in Lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)
+  - [Topologien und Komponenten für Front-End-Server, Instant Messaging und Anwesenheitsinformationen in lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md)
 
-  - [Technische Anforderungen für Front-End-Server, Chat und Anwesenheit in Lync Server 2013](lync-server-2013-technical-requirements-for-front-end-servers-instant-messaging-and-presence.md)
+  - [Technische Anforderungen für Front-End-Server, Instant Messaging und Anwesenheitsinformationen in lync Server 2013](lync-server-2013-technical-requirements-for-front-end-servers-instant-messaging-and-presence.md)
 
 </div>
 

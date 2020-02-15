@@ -1,5 +1,5 @@
 ---
-title: Migrieren von Archivierungsservern und Monitoring Servern
+title: Migrieren von Archivierungs-und Monitoring Servern
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee3abd26386ad26e3b6628d5b9db873bd17373be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 100ec85b345a744232e9bfab37a2ee11c7f84430
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743775"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036113"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrating-archiving-and-monitoring-servers"></a>Migrieren von Archivierungsservern und Monitoring Servern
+# <a name="migrating-archiving-and-monitoring-servers"></a>Migrieren von Archivierungs-und Monitoring Servern
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "41743775"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-Wenn Sie den Archivierungsserver und den Monitoring Server in Ihrem Office Communications Server 2007 R2 bereitgestellt haben, können Sie diese Server in ihrer lync Server 2013-Umgebung bereitstellen, nachdem Sie Ihre Front-End-Pools migriert haben. Wenn Archivierungs-und Überwachungsfunktionen für Ihre Organisation wichtig sind, sollten Sie jedoch vor der Migration dem Pilot Pool Archivierungs-und Überwachungsdienste hinzufügen, damit die Funktionalität während des Migrationsprozesses zur Verfügung steht.
+Wenn Sie Archivierungsserver und Monitoring Server in Ihrem Office Communications Server 2007 R2 bereitgestellt haben, können Sie diese Server in ihrer lync Server 2013 Umgebung bereitstellen, nachdem Sie Ihre Front-End-Pools migriert haben. Wenn Archivierungs- und Überwachungsfunktionen in Ihrer Organisation jedoch entscheidend sind, sollten Sie Ihrem Pilotpool vor der Migration Archivierungsserver und Monitoring Server hinzufügen, damit diese Funktionen auch während des Migrationsvorgangs zur Verfügung stehen.
 
-Wenn Sie die Archivierungs-und Überwachungsfunktionen während der Migration und Koexistenzphase nutzen möchten, sollten Sie die folgenden Aspekte berücksichtigen:
+Wenn Sie während der Phase der Migration und Koexistenz Archivierungs- und Überwachungsfunktionen benötigen, sollten Sie die folgenden Aspekte berücksichtigen:
 
-  - Archivierungsdaten und Überwachungsdaten werden nicht in die lync Server 2013-Bereitstellung verschoben. Die Daten, die Sie vor dem Stilllegen der Legacyumgebung sichern, sind Ihr Aktivitätsverlauf in Office Communications Server 2007 R2.
+  - Das Archivieren von Daten und Überwachungsdaten wird nicht in die lync Server 2013-Bereitstellung verschoben. Die Daten, die Sie vor der Außerbetriebnahme der Vorgänger Umgebung sichern, sind Ihre Aktivitätshistorie im Office Communications Server 2007 R2.
 
-  - Die Office Communications Server 2007 R2-Version des Archivierungsservers und des Überwachungsservers können nur mit einem Office Communications Server 2007 R2-Front-End-Pool verknüpft werden. In lync Server 2013 sind Archivierung und Überwachung keine Server Rollen mehr, sondern Dienste, die in den Front-End-Pool von lync Server 2013 integriert sind.
+  - Die Office Communications Server 2007 R2 Version von Archivierungsserver und Monitoring Server kann nur einem Office Communications Server 2007 R2 Front-End-Pool zugeordnet werden. In lync Server 2013 sind Archivierung und Überwachung keine Server Rollen mehr, sondern Dienste, die in die lync Server 2013 Front-End-Pool integriert sind.
 
-  - In der Zeit, in der Ihre Legacy-und lync Server 2013-Bereitstellungen koexistieren, sammeln die Office Communications Server 2007 R2-Version des Archivierungsservers und des Überwachungsservers Daten für Benutzer, die in Office Communications Server 2007 R2-Pools verwaltet werden. Die lync Server 2013-Version des Archivierungsservers und des Überwachungsservers sammeln Daten für Benutzer, die in lync Server 2013-Pools verwaltet werden.
+  - Während der Koexistenz Ihrer Legacy-und lync Server 2013-Bereitstellungen werden die Office Communications Server 2007 R2-Version von Archivierungsserver und Monitoring Server Daten für Benutzer sammeln, die in Office Communications Server 2007 R2 Pools verwaltet werden. Die lync Server 2013 Version von Archivierungsserver und Monitoring Server sammeln von Daten für Benutzer, die in lync Server 2013 Pools verwaltet werden.
     
     <div>
     
 
     > [!NOTE]  
-    > Während der Migrationsphase, wenn Sie Ihren Legacy-Edgeserver weiterhin mit dem neuen lync Server 2013-Pilot Pool verwenden, sammelt die Office Communications Server 2007 R2-Version des Archivierungsservers weiterhin Daten für Benutzer, die sich auf Office Communications Server 2007 befinden. R2-Pools und die lync Server 2013-Version des Archivierungsservers sammelt Daten für Benutzer, die in lync Server 2013-Pools verwaltet werden.
+    > Während der Migrationsphase, in der Sie weiterhin den Legacy-Edgeserver mit dem neuen lync Server 2013-Pilot Pool verwenden, sammelt die Office Communications Server 2007 R2-Version von Archivierungsserver weiterhin Daten für Benutzer, die in Office Communications Server 2007 verwaltet werden. R2-Pools und die lync Server 2013 Version von Archivierungsserver sammelt Daten für Benutzer, die in lync Server 2013 Pools verwaltet werden.
 
     
     </div>
 
-  - Wenn Sie eine Archivierungs-und Überwachungslösung eines Drittanbieters in Verbindung mit dem Archivierungsserver und dem Überwachungsserver verwenden, wenden Sie sich an Ihren Anbieter, wenn Sie wissen möchten, wann und wie Sie die Lösung eines Drittanbieters in lync Server 2013 integrieren müssen.
+  - Wenn Sie eine Archivierungs-und Überwachungslösung eines Drittanbieters in Verbindung mit Archivierungsserver und Monitoring Server verwenden, wenden Sie sich an Ihren Anbieter, wann und wie Sie die Drittanbieterlösung mit lync Server 2013 integrieren müssen.
 
 </div>
 

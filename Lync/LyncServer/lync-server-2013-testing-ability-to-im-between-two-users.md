@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Testen der Chat Fähigkeit zwischen zwei Benutzern'
+title: 'Lync Server 2013: Testen der Fähigkeit zum chatten zwischen zwei Benutzern'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969635
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 201aceceadeba3c6c97530925273097fe039bc08
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d08627842b5a58a72801a018e8e8da49fcdeb249
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745895"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42015368"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>Testen der Chat Fähigkeit zwischen zwei Benutzern in lync Server 2013
+# <a name="testing-ability-to-im-between-two-users-in-lync-server-2013"></a>Testen der Fähigkeit zum chatten zwischen zwei Benutzern in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745895"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-06-05_
+_**Letztes Änderungsstand des Themas:** 2014-06-05_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsIM-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsIM verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-05_
 
 ## <a name="description"></a>Beschreibung
 
-Das Cmdlet Test-CsIM überprüft, ob ein paar Testbenutzer Sofortnachrichten austauschen können. Wenn das Cmdlet Test-CsIM aufgerufen wird, versuchen Sie, sich bei einem Paar Testbenutzern mit lync Server anzumelden. Wenn die beiden Anmeldungen erfolgreich sind, startet das Cmdlet dann eine Chatsitzung zwischen den beiden Testbenutzern. (Benutzer 1 lädt Benutzer 2 zu einer Chatsitzung ein, und Benutzer 2 nimmt die Einladung an.) Nachdem Sie überprüft haben, ob Nachrichten zwischen den beiden Benutzern ausgetauscht werden können, beendet Test-CsIM dann die Chatsitzung und protokolliert beide Benutzer vom System.
+Das Cmdlet Test-CsIM überprüft, ob ein paar von Testbenutzern Chatnachrichten austauschen kann. Wenn dieser Vorgang aufgerufen wird, wird das Cmdlet Test-CsIM gestartet, indem versucht wird, sich an einem Paar von Testbenutzern anzumelden, um lync Server. Wenn die beiden Anmeldungen erfolgreich sind, startet das Cmdlet dann eine Sofortnachrichtensitzung zwischen den beiden Testbenutzern. (Benutzer 1 lädt Benutzer 2 zu einer Sofortnachrichtensitzung ein, und Benutzer 2 nimmt die Einladung an.) Nachdem Sie überprüft haben, ob Nachrichten zwischen den beiden Benutzern ausgetauscht werden können, beendet Test-CsIM die Chatsitzung und protokolliert beide Benutzer vom System.
 
 Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsIM](https://docs.microsoft.com/powershell/module/skype/Test-CsIM) .
 
@@ -74,13 +74,13 @@ Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsIM
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet "Test-CsIM" kann mit einem Paar vorkonfigurierter Testkonten ausgeführt werden (siehe Einrichten von Testkonten zum Ausführen von lync Server-Tests) oder der Konten von zwei Benutzern, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den FQDN des zu testenden lync-Server Pools angeben. Beispiel:
+Das Cmdlet Test-CsIM kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten für das Ausführen von lync Server Tests) oder den Konten von zwei Benutzern, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den FQDN des lync Server Pools angeben, der getestet werden soll. Beispiel:
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Damit diese Überprüfung mit tatsächlichen Benutzerkonten ausgeführt werden kann, müssen Sie für jedes Konto zwei Windows PowerShell-Anmeldeinformationsobjekte (Objekte, die den Kontonamen und das Kennwort enthalten) erstellen. Sie müssen dann diese Anmeldeinformationsobjekte und die SIP-Adressen der beiden Konten einbeziehen, wenn Sie Test-CsIM aufrufen:
+Um diese Überprüfung mit tatsächlichen Benutzerkonten auszuführen, müssen Sie zwei Windows PowerShell Credentials-Objekte (Objekte, die den Kontonamen und das Kennwort enthalten) für jedes Konto erstellen. Sie müssen dann diese Credentials-Objekte und die SIP-Adressen der beiden Konten einschließen, wenn Sie Test-CsIM aufrufen:
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
@@ -92,61 +92,61 @@ Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsIM
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn die beiden Benutzer eine Chatsitzung durchführen können, erhalten Sie eine ähnliche Ausgabe, wobei die Eigenschaft Ergebnis als erfolgreich markiert ist **:**
+Wenn die beiden Benutzer eine Chatsitzung abschließen können, erhalten Sie eine ähnliche Ausgabe, wobei die Result-Eigenschaft als Success markiert wurde **:**
 
 TargetFqdn: ATL-CS-001.litwareinc.com
 
-Ergebnis: Erfolg
+Ergebnis: Success
 
-Latenz: 00:00:06.6630911
+Wartezeit: 00:00:06.6630911
 
 Fehler
 
 Diagnose
 
-Wenn die Testbenutzer die Sitzung nicht abschließen können, wird das Ergebnis als Fehler angezeigt, und weitere Informationen werden in den Eigenschaften Fehler und Diagnose aufgezeichnet:
+Wenn die Testbenutzer die Sitzung nicht abschließen können, wird das Ergebnis als Fehler angezeigt, und in den Eigenschaften Error und Diagnostic werden zusätzliche Informationen aufgezeichnet:
 
 TargetFqdn: ATL-CS-001.litwareinc.com
 
 Ergebnis: Fehler
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
 Fehler: 504, Server Timeout
 
-Diagnose: errorCode = 2, Quelle = ATL-CS-001. "litwareinc. com, Reason = siehe
+Diagnose: errorCode = 2, Source = ATL-CS-001. litwareinc. com, Reason = siehe
 
-Antwortcode und Ursachen Ausdruck.
+Antwortcode und Grund Phrase.
 
-Microsoft. RTC. Signalisierungs-DiagnosticHeader
+Microsoft. RTC. Signaling. DiagnosticHeader
 
-Die vorherige Ausgabe besagt beispielsweise, dass der Test fehlgeschlagen ist, weil der angegebene Benutzer nicht gefunden wurde. Sie können feststellen, ob eine SIP-Adresse gültig ist (und ob der Benutzer, der diese SIP-Adresse zugewiesen hat, für lync Server aktiviert wurde), indem Sie den folgenden Befehl ausführen:
+Die vorherige Ausgabe besagt beispielsweise, dass der Test fehlgeschlagen ist, da der angegebene Benutzer nicht gefunden werden konnte. Sie können ermitteln, ob eine SIP-Adresse gültig ist (und ob der Benutzer, dem diese SIP-Adresse zugewiesen wurde, für lync Server aktiviert wurde), indem Sie den folgenden Befehl ausführen:
 
     Get-CsUser "Ken Myer" | Select-Object SipAddress, Enabled
 
-Wenn Test-CsIM fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, wobei dieser Zeitpunkt einschließlich des Verbose-Parameters lautet:
+Wenn Test-CsIM fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, dieses Mal einschließlich des Parameters verbose:
 
     Test-CsIM -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Wenn der Verbose-Parameter enthalten ist, gibt Test-CsIM eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als Sie die Fähigkeit der beiden Test Benutzer zur Teilnahme an einer Chatsitzung überprüft hat. Hier finden Sie beispielsweise eine Beispielausgabe, die auftritt, wenn eine falsche Gruppe von Benutzeranmeldeinformationen (in diesem Fall ein falsches Kennwort) für Test-CsIM bereitgestellt wird:
+Wenn der Verbose-Parameter enthalten ist, gibt Test-CsIM eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als die beiden Test Benutzer die Möglichkeit zur Teilnahme an einer Sofortnachrichtensitzung überprüft haben. Hier ist beispielsweise die Beispielausgabe, die auftritt, wenn eine falsche Gruppe von Benutzeranmeldeinformationen (in diesem Fall ein falsches Kennwort) für Test-CsIM bereitgestellt wird:
 
-Registrierungsanfrage wird gesendet:
+Senden der Registrierungsanforderung:
 
 Ziel-FQDN = ATL-CS-011.litwareinc.com
 
 SIP-Adresse des Benutzers = SIP:kenmyer@litwareinc.com
 
-Registrar Port = 5061
+Registrierungsstelle = 5061
 
-Auth-Typ "IWA" ist ausgewählt.
+Der Authentifizierungstyp "IWA" ist ausgewählt.
 
-Registrierungs Treffer für SIP/ATL-CS-001. "litwareinc. com
+Registrierungs Treffer gegen SIP/ATL-CS-001. litwareinc. com
 
-' Registrieren '-Aktivität abgeschlossen in ' 0,0601795 ' Sek.
+"Registrierung"-Aktivität abgeschlossen in "0,0601795" Sek.
 
-Eine Ausnahme "die Anmeldung wurde abgelehnt. Überprüfen Sie, ob die richtigen Anmeldeinformationen verwendet werden und das Konto aktiv ist. während des Workflows aufgetreten.
+Eine Ausnahme: "das Anmelden wurde verweigert. Stellen Sie sicher, dass die richtigen Anmeldeinformationen verwendet werden und das Konto aktiv ist. während des Workflows aufgetreten.
 
 </div>
 
@@ -154,31 +154,31 @@ Eine Ausnahme "die Anmeldung wurde abgelehnt. Überprüfen Sie, ob die richtigen
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Nachfolgend finden Sie einige häufige Gründe, warum Test-CsIM möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsIM möglicherweise fehlschlägt:
 
   - Sie haben ein ungültiges Benutzerkonto angegeben. Sie können überprüfen, ob ein Benutzerkonto vorhanden ist, indem Sie einen Befehl wie den folgenden ausführen:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - Das Benutzerkonto ist gültig, das Konto ist derzeit aber für lync Server nicht aktiviert. Führen Sie einen Befehl ähnlich der folgenden aus, um zu überprüfen, ob ein Benutzerkonto für lync Server aktiviert ist:
+  - Das Benutzerkonto ist gültig, aber das Konto ist derzeit nicht für lync Server aktiviert. Um zu überprüfen, ob ein Benutzerkonto für lync Server aktiviert ist, führen Sie einen Befehl wie den folgenden aus:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    Wenn die Enabled-Eigenschaft auf false festgelegt ist, bedeutet dies, dass der Benutzer zurzeit nicht für lync Server aktiviert ist.
+    Wenn die Enabled-Eigenschaft auf false festgelegt ist, bedeutet dies, dass der Benutzer derzeit nicht für lync Server aktiviert ist.
 
-  - Der Instant Messaging-Dienst ist möglicherweise nicht verfügbar. Mit lync Server können Sie das System so konfigurieren, dass Sofortnachrichten nicht verfügbar sind, wenn auf die Archivierungsdatenbank nicht zugegriffen werden kann. Sie können dies überprüfen, indem Sie einen Befehl wie den folgenden ausführen:
+  - Der Instant Messaging-Dienst ist möglicherweise nicht verfügbar. Mit lync Server können Sie das System so konfigurieren, dass Sofortnachrichten nicht verfügbar ist, wenn nicht auf die Archivierungsdatenbank zugegriffen werden kann. Sie können dies überprüfen, indem Sie einen Befehl wie den folgenden ausführen:
     
         Get-CsArchivingConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object BlockOnArchiveFailure
     
-    Wenn BlockOnArchiveFailure auf "true" festgelegt ist, sollten Sie ermitteln, ob die Archivierungsdatenbank verfügbar ist. Sie können die Speicherorte ihrer Archivierungsdatenbanken mithilfe des folgenden Befehls zurückgeben:
+    Wenn BlockOnArchiveFailure auf true festgelegt ist, sollten Sie bestimmen, ob die Archivierungsdatenbank verfügbar ist. Mit dem folgenden Befehl können Sie die Speicherorte ihrer Archivierungsdatenbanken zurückgeben:
     
         Get-CsService -ArchivingDatabase
 
-  - Der Archivierungsserver steht möglicherweise nicht zur Verfügung. Mit diesem Befehl können Sie den FQDN ihrer Archivierungsserver abrufen:
+  - Der Archivierungsserver ist möglicherweise nicht verfügbar. Mit dem folgenden Befehl können Sie den FQDN ihrer Archivierungsserver abrufen:
     
         Get-CsService -ArchivingServer
     
-    Sie können dann den entsprechenden Server anpingen, um zu überprüfen, ob er verfügbar ist. Beispiel:
+    Anschließend können Sie den entsprechenden Server anpingen, um sicherzustellen, dass dieser verfügbar ist. Beispiel:
     
         ping atl-archiving-001.litwareinc.com
 

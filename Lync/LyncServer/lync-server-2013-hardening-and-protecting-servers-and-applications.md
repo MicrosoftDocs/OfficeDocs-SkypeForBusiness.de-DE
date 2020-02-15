@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Sichern und Schützen von Servern und Anwendungen'
+title: 'Lync Server 2013: Härten und schützen von Servern und Anwendungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 42b8b9d3fc21c590bda12841cb6002987d4c0650
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6b0a6179e77e4688693fe277748a8933a9dbe911
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739595"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006201"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>Sichern und Schützen von Servern und Anwendungen für Lync Server 2013
+# <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>Härten und schützen von Servern und Anwendungen für lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41739595"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-12-05_
+_**Letztes Änderungsstand des Themas:** 2013-12-05_
 
-Sie sollten Ihr Betriebssystem und ihre Anwendungen entsprechend den bewährten Methoden für diese bestimmte Komponente verhärten und schützen. In diesem Abschnitt wird beschrieben, wie Anwendungsserver gehärtet und Gruppenrichtlinien zum Implementieren von Sicherheits Sperrungen verwendet werden.
+Sie sollten Ihr Betriebssystem und Ihre Anwendungen gemäß den bewährten Methoden für die jeweilige Komponente sichern und schützen. In diesem Abschnitt wird beschrieben, wie Sie Anwendungsserver sichern und schützen und mithilfe von Gruppenrichtlinien Sicherheitssperren implementieren.
 
 <div>
 
 
 > [!NOTE]  
-> Sie können auch die Datenbanken verhärten und schützen, die für die Bereitstellung von Microsoft lync Server 2013 verwendet werden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-hardening-and-protecting-databases.md">Härten und schützen der Datenbanken von lync Server 2013</A>.
+> Sie können auch die für Sie Microsoft lync Server 2013 Bereitstellung verwendeten Datenbanken verhärten und schützen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-hardening-and-protecting-databases.md">Hardening and Protecting the databases of lync Server 2013</A>.
 
 
 
@@ -53,7 +53,7 @@ Sie sollten Ihr Betriebssystem und ihre Anwendungen entsprechend den bewährten 
 
 ## <a name="securing-application-servers"></a>Sichern von Anwendungsservern
 
-Bei Anwendungsservern sollten das Betriebssystem und die Anwendung gehärtet werden. Beispielsweise sollte ein Windows Server 2008-Computer, der für die Ausführung von Microsoft Internet Security and Acceleration (ISA) Server 2006 dediziert ist, aus dem Betriebssystem und aus der Anwendungsperspektive gehärtet werden. Das Minimieren der Anzahl der Dienste, die vom Server ausgeführt und bereitgestellt werden, sollte ein Hauptziel sein.
+Bei Anwendungsservern sollten das Betriebssystem und die Anwendungen gesichert werden. Beispielsweise sollte ein Windows Server 2008-Computer für den Betrieb von Microsoft Internet Security and Acceleration (ISA) Server 2006 auf Betriebssystemebene und auf Anwendungsebene gesichert werden. Dabei sollte die Minimierung der Zahl der Dienste, die vom Server ausgeführt und bereitgestellt werden, ein vorrangiges Ziel sein.
 
 </div>
 
@@ -61,21 +61,21 @@ Bei Anwendungsservern sollten das Betriebssystem und die Anwendung gehärtet wer
 
 ## <a name="securing-virtual-servers"></a>Sichern von virtuellen Servern
 
-Snapshots virtueller Server enthalten Kopien der Datenlaufwerke des Servers und enthalten auch Speicherabbilder von Daten im Arbeitsspeicher, die beide vertrauliche kryptografische Daten enthalten können, die zu Angriffen führen können. Bei Produktionsservern, die mithilfe von Virtualisierung implementiert werden, sollten Sie alle Server-Snapshots deaktivieren oder auf sehr kontrollierte Weise verwalten. Details zum Sichern von virtuellen Hyper-v-Servern finden Sie im Hyper-v-Sicherheitshandbuch [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)unter:.
+Snapshots virtueller Server enthalten Kopien der Datenträger des Servers und enthalten auch Dumps von Daten im Arbeitsspeicher, die beide vertrauliche kryptografische Daten enthalten können, die zu Angriffen führen könnten. Bei Produktionsservern, die mithilfe von Virtualisierung implementiert werden, sollten Sie alle Server-Snapshots deaktivieren oder diese auf sehr kontrollierte Weise verwalten. Ausführliche Informationen zum Sichern virtueller Hyper-v-Server finden Sie im Hyper-v-Sicherheitshandbuch [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)unter:.
 
 </div>
 
 <div>
 
-## <a name="group-policy"></a>Gruppenrichtlinie
+## <a name="group-policy"></a>Gruppenrichtlinien
 
-In Windows Server 2008 und Windows Server 2008 R2 bietet die Gruppenrichtlinie die verzeichnisbasierte Verwaltung der Desktopkonfiguration. Sie können Gruppenrichtlinien zum Implementieren von Sicherheits Sperrungen verwenden, indem Sie für die folgenden Computer-und Benutzereinstellungen in einem Gruppenrichtlinienobjekt definieren:
+In Windows Server 2008 und Windows Server 2008 R2 ermöglichen Gruppenrichtlinien eine verzeichnisbasierte Desktopkonfigurationsverwaltung. Mithilfe von Gruppenrichtlinien können Sie Sicherheitssperren implementieren, indem Sie Computer- und Benutzereinstellungen innerhalb eines Gruppenrichtlinienobjekts (GPO) für folgende Bereiche definieren:
 
   - Registrierungsbasierte Richtlinien
 
   - Sicherheit
 
-  - Software Installation
+  - Softwareinstallation
 
   - Skripts
 
@@ -83,19 +83,19 @@ In Windows Server 2008 und Windows Server 2008 R2 bietet die Gruppenrichtlinie d
 
   - Remoteinstallationsdienste
 
-Zum Bereitstelleneiner Benutzeroberfläche für den Administrator zum Konfigurieren dieser Einstellungen werden administrative Vorlagen mit Betriebssystemversionen, Service Pack-Versionen und einigen Anwendungen, einschließlich lync Server 2013, ausgeliefert.
+Um eine Benutzeroberfläche für den Administrator zum Konfigurieren dieser Einstellungen bereitzustellen, werden administrative Vorlagen mit Betriebssystemversionen, Service Pack-Versionen und einigen Anwendungen einschließlich lync Server 2013 ausgeliefert.
 
 Die Datei "Communicator. adm" ist eine administrative Vorlage, die mit lync Server 2013 ausgeliefert wird, im Verzeichnis%\\windir\\ % inf installiert ist und eine Schnittstelle zu den Gruppenrichtlinieneinstellungen bereitstellt. Jede Einstellung in Communicator. adm entspricht einer Einstellung in der Registrierung, die sich auf das Anwendungsverhalten auswirkt.
 
-Auf die Einstellungen kann von gpedit. dll aus zugegriffen werden, die über die Konsole Active Directory-Benutzer und-Computer und die Gruppenrichtlinien-Verwaltungskonsole (Group Policy Management Console, GPMC) zur Verfügung steht.
+Sie können über die Datei GPedit.dll auf die Einstellungen zugreifen. Diese Datei können Sie über die Konsole Active Directory-Benutzer und -Computer und über die Gruppenrichtlinien-Verwaltungskonsole aufrufen.
 
 </div>
 
 <div>
 
-## <a name="group-policy-security-settings"></a>Sicherheitseinstellungen für Gruppenrichtlinien
+## <a name="group-policy-security-settings"></a>Sicherheitseinstellungen in Gruppenrichtlinien
 
-Gruppenrichtlinien enthalten Sicherheitseinstellungen für ein GPO unter Computer Konfiguration/Windows-Einstellungen/Sicherheitseinstellungen, wenn von "gpedit. dll" aus zugegriffen wird. Sie können Sicherheitsvorlagen importieren, um Sicherheitseinstellungen für das Gruppenrichtlinienobjekt zu konfigurieren. Im Windows Server 2008-Sicherheitshandbuch [http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186) und im Windows Server 2008 R2 Security Compliance Management Toolkit [http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882) finden Sie eine Reihe von Beispielvorlagen, die Sie Ihren Anforderungen entsprechend ändern können.
+Die Gruppenrichtlinie enthält Sicherheitseinstellungen für ein GPO unter Computer Konfiguration/Windows-Einstellungen/Sicherheitseinstellungen beim Zugriff von gpedit. dll. Sie können Sicherheitsvorlagen importieren, um Sicherheitseinstellungen für das GPO zu konfigurieren. Das Windows Server 2008 Security Guide [http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186) and the Windows Server 2008 R2 Security Compliance Management Toolkit unter [http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882) enthält eine Reihe von Beispielvorlagen, die Sie Ihren Anforderungen entsprechend ändern können.
 
 </div>
 
@@ -103,11 +103,11 @@ Gruppenrichtlinien enthalten Sicherheitseinstellungen für ein GPO unter Compute
 
 ## <a name="best-practices"></a>Bewährte Methoden
 
-  - Härten Sie alle Server Betriebssysteme und-Anwendungen aus.
+  - Sichern Sie alle Serverbetriebssysteme und -anwendungen.
 
-  - Schützen Sie Server-Snapshots, und verbessern Sie die Sicherheit aller virtuellen Server.
+  - Schützen Sie Servermomentaufnahmen, und erhöhen Sie die Sicherheit aller virtuellen Server.
 
-  - Verwenden Sie Gruppenrichtlinien, um Sicherheits Sperrungen zu implementieren.
+  - Implementieren Sie Sicherheitssperren mithilfe von Gruppenrichtlinien.
 
 </div>
 

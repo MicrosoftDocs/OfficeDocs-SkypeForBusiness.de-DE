@@ -12,16 +12,16 @@ ms:contentKeyID: 63969575
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3681a3328f0e1e659377947919bbfc782f1fea7c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f351708871df03a04eeb04318e2ea881b3306484
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746465"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006080"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746465"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-08_
+_**Letztes Änderungsstand des Themas:** 2016-12-08_
 
 
 <table>
@@ -46,7 +46,7 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 <tbody>
 <tr class="odd">
 <td><p>Überprüfungszeitplan</p></td>
-<td><p>Nach der ersten lync Server-Bereitstellung. Bei Bedarf, wenn berechtigungsbezogene Probleme auftreten.</p></td>
+<td><p>Nach der anfänglichen lync Server-Bereitstellung. Bei Bedarf, wenn berechtigungsbezogene Probleme auftreten.</p></td>
 </tr>
 <tr class="even">
 <td><p>Test Tool</p></td>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsSetupPermission-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsSetupPermission verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsSetupPermission&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,15 +66,15 @@ _**Letztes Änderungsdatum des Themas:** 2016-12-08_
 
 ## <a name="description"></a>Beschreibung
 
-Standardmäßig können nur Domänenadministratoren eine lync Server-Topologie aktivieren und große Änderungen an der lync Server-Infrastruktur vornehmen. Dies ist kein Problem, solange Ihre Domänenadministratoren und ihre lync Server-Administratoren identisch sind. In vielen Organisationen verfügen lync Server-Administratoren nicht über Administratorrechte für die gesamte Domäne. Standardmäßig bedeutet dies, dass diese Administratoren (als Mitglieder der RTCUniversalServerAdmins-Gruppe definiert) keine Änderungen an der lync Server-Topologie vornehmen können. Um Mitgliedern der RTCUniversalServerAdmins-Gruppe das Recht zu geben, Topologie-Änderungen vorzunehmen, müssen Sie mithilfe des Cmdlets [Grant-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission) die erforderlichen Active Directory-Berechtigungen zuweisen.
+Standardmäßig können nur Domänenadministratoren eine lync Server Topologie aktivieren und umfangreiche Änderungen an der lync Server Infrastruktur vornehmen. Dies ist kein Problem, solange die Domänenadministratoren und die lync Server Administratoren identisch sind. In vielen Organisationen lync Server Administratoren keine Administratorrechte für die gesamte Domäne besitzen. Standardmäßig bedeutet dies, dass diese Administratoren (definiert als Mitglieder der Gruppe "RTCUniversalServerAdmins") keine Änderungen an lync Server Topologie vornehmen können. Um Mitgliedern der RTCUniversalServerAdmins-Gruppe das Recht zu geben, Topologie-Änderungen vorzunehmen, müssen Sie mithilfe des Cmdlets [Grant-CsSetupPermission](https://docs.microsoft.com/powershell/module/skype/Grant-CsSetupPermission) die erforderlichen Active Directory Berechtigungen zuweisen.
 
-Das Cmdlet Test-CsSetupPermission überprüft, ob die erforderlichen Berechtigungen zum Installieren von lync Server oder einer seiner Komponenten für den angegebenen Active Directory-Container konfiguriert sind. Wenn die Berechtigungen nicht zugewiesen sind, können Sie das Grant-CsSetupPermission-Cmdlet ausführen, um Mitgliedern der RTCUniversalServerAdmins-Gruppe das Recht zu gewähren, lync Server zu installieren und zu aktivieren.
+Das Cmdlet Test-CsSetupPermission überprüft, ob die erforderlichen Berechtigungen, die zum Installieren von lync Server oder einer seiner Komponenten erforderlich sind, für den angegebenen Active Directory Container konfiguriert sind. Wenn die Berechtigungen nicht zugewiesen sind, können Sie das Grant-CsSetupPermission-Cmdlet ausführen, um Mitgliedern der RTCUniversalServerAdmins-Gruppe das Recht zu geben, lync Server zu installieren und zu aktivieren.
 
 <div>
 
 
 > [!NOTE]  
-> Eine detaillierte Liste der von Grant-CsSetupPermission zugewiesenen Berechtigungen finden Sie im Blogbeitrag <A href="https://blogs.technet.com/b/jenstr/archive/2011/02/07/grant-cssetuppermission-and-grant-csoupermission.aspx">Grant-CsSetupPermission und Grant-CsOUPermission</A>.
+> Eine detaillierte Liste der Berechtigungen, die von Grant-CsSetupPermission zugewiesen wurden, finden Sie im Blogbeitrag <A href="https://blogs.technet.com/b/jenstr/archive/2011/02/07/grant-cssetuppermission-and-grant-csoupermission.aspx">Grant-CsSetupPermission und Grant-CsOUPermission</A>.
 
 
 
@@ -84,9 +84,9 @@ Das Cmdlet Test-CsSetupPermission überprüft, ob die erforderlichen Berechtigun
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Rufen Sie das Cmdlet Test-CsSetupPermission auf, um zu ermitteln, ob Setup Berechtigungen für einen Active Directory-Container zugewiesen sind. Geben Sie den Distinguished Name des Containers an, der überprüft werden soll. Dieser Befehl überprüft beispielsweise die Setup Berechtigungen für den Container ou = CsServers, DC = "litwareinc, DC = com:
+Rufen Sie das Cmdlet Test-CsSetupPermission auf, um zu bestimmen, ob Setup Berechtigungen für einen Active Directory Container zugewiesen sind. Geben Sie den Distinguished Name des Containers an, der überprüft werden soll. Mit diesem Befehl werden beispielsweise die Setup Berechtigungen für den Container ou = CsServers, DC = litwareinc, DC = com überprüft:
 
     Test-CsSetupPermission -ComputerOU "ou=CsServers,dc=litwareinc,dc=com"
 
@@ -96,21 +96,21 @@ Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Test-CsSetupPermissio
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn Test-CsSetupPermission feststellt, dass die erforderlichen Berechtigungen bereits für einen Active Directory-Container festgelegt wurden, gibt das Cmdlet den Wert "true" zurück:
+Wenn Test-CsSetupPermission feststellt, dass die erforderlichen Berechtigungen bereits für einen Active Directory Container festgelegt wurden, gibt das Cmdlet den Wert true zurück:
 
 Wahr
 
-Wenn Berechtigungen nicht festgelegt werden, gibt Test-CsSetupPermission den Wert false zurück. Beachten Sie, dass dieser Wert in der Regel in viele Warnmeldungen eingeschlossen ist. Beispiel:
+Wenn Berechtigungen nicht festgelegt sind, gibt Test-CsSetupPermission den Wert false zurück. Beachten Sie, dass dieser Wert in der Regel in viele Warnmeldungen eingeschlossen wird. Beispiel:
 
-Warnung: Zugriffssteuerungseintrag (ACE) ATL-CS-001\\RTCUniversalServerAdmins; Ermöglichen ExtendedRight; Keine Keine 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2
+Warnung: Zugriffssteuerungseintrag (Access Control Entry, ACE) ATL\\-CS-001 RTCUniversalServerAdmins; Ermöglichen ExtendedRight; Keine Keine 1131f6aa-9c07-11d1-f79f-00c04fc2dcd2
 
-Warnung: die Zugriffssteuerungseinträge (ACEs) für das Objekt "CN = Computers, DC =" litwareinc, DC = com "sind nicht bereit.
+Warnung: die Zugriffssteuerungseinträge (ACEs) für das Objekt "CN = Computers, DC = litwareinc, DC = com" sind nicht verfügbar.
 
-Falsch
+False
 
-Warnung: die Verarbeitung von "Test-CsSetupPermission" wurde mit Warnungen abgeschlossen. "2"-Warnungen wurden während dieser Ausführung aufgezeichnet.
+Warnung: "Test-CsSetupPermission"-Verarbeitung wurde mit Warnungen abgeschlossen. "2"-Warnungen wurden während dieser Ausführung aufgezeichnet.
 
 Warnung: detaillierte Ergebnisse finden Sie unter "C\\: Users\\admin\\APPDATA\\local\\Temp\\Test-CsSetupPermission-1da99ba6-ABE2-45e4-8b16-dfd244763118. html".
 
@@ -120,7 +120,7 @@ Warnung: detaillierte Ergebnisse finden Sie unter "C\\: Users\\admin\\APPDATA\\l
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Es gibt zwar seltene Ausnahmen, doch wenn Test-CsSetupPermission fehlschlägt, bedeutet dies in der Regel, dass dem angegebenen Active Directory-Container keine Setup Berechtigungen zugewiesen sind. Diese Berechtigungen können mithilfe des Cmdlets Grant-CsSetupPermission zugewiesen werden. Beispielsweise gewährt dieser Befehl dem Container "Computer" im Domänen litwareinc.com Setup Berechtigungen:
+Obwohl es seltene Ausnahmen gibt, wenn Test-CsSetupPermission fehlschlägt, bedeutet dies normalerweise, dass dem angegebenen Active Directory Container keine Setup Berechtigungen zugewiesen sind. Diese Berechtigungen können mithilfe des Cmdlets Grant-CsSetupPermission zugewiesen werden. Beispielsweise erteilt dieser Befehl dem Computer Container in der Domäne litwareinc.com Setup Berechtigungen:
 
     Grant-CsSetupPermission -ComputerOU "cn=Computers,dc=litwareinc,dc=com"
 

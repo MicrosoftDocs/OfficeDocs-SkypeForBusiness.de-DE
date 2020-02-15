@@ -12,16 +12,16 @@ ms:contentKeyID: 51541469
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc199098d27364c3bc5f512a48d2e512c7c9d984
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 29e65fc660285501cf8d2326505ad46ea227e123
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729385"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41729385"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+_**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Der größte Teil der Arbeit, die ein Designer im lync Server 2013, Planungs Tool, besteht darin, die Einträge für die IP-Adressen und vollqualifizierten Domänennamen (FQDNs) für die Einträge im Netzplandiagramm zu definieren. Die Informationen, die auf dieser Seite eingegeben werden, werden in die Berichte und andere Informationen übernommen, die im Planungs Tool enthalten sind.
+Der größte Teil der Arbeit, die ein Designer im lync Server 2013 plant, besteht darin, die Einträge für die IP-Adressen und vollqualifizierten Domänennamen (FQDNs) für die Einträge im Netzplandiagramm zu definieren. Die Informationen, die auf dieser Seite eingegeben werden, werden in die Berichte und andere im Planungs Tool enthaltene Informationen überführt.
 
 ![Planungs Tool-Netzwerkdiagramm](images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "Planungs Tool-Netzwerkdiagramm")
 
-Das Planungs Tool erstellt ein Netzwerkdiagramm mit Standardtext für IP-Adressen und FQDNs.
+Das Planungs Tool erstellt ein Netzplandiagramm mit Standardtext für IP-Adressen und FQDNs.
 
 So bearbeiten Sie das Netzwerkdiagramm und geben Werte ein
 
-1.  Wählen Sie einen Abschnitt des Netzwerks aus, den Sie zuerst bearbeiten möchten. Machen Sie z. B. einen Doppelklick auf den Text **access1.contoso.net**. Geben Sie im nun geöffneten Dialogfeld den tatsächlichen FQDN für den Server „access1.contoso.net“ ein und ersetzen Sie die IP-Adresse 131.107.155.3 durch die tatsächliche IP-Adresse.
+1.  Wählen Sie einen Abschnitt des Netzwerks aus, den Sie bearbeiten möchten. Doppelklicken Sie beispielsweise auf den Text **access1.contoso.com**. Geben Sie im daraufhin geöffneten Dialogfeld den tatsächlichen FQDN des Server access1.contoso.com und die tatsächliche IP-Adresse ein, und ersetzen Sie dabei die 131.107.155.3.
 
 2.  Klicken Sie auf **OK**, um die Einträge zu speichern.
 
@@ -53,24 +53,24 @@ So bearbeiten Sie das Netzwerkdiagramm und geben Werte ein
 
 Eine nützliche Funktion des Planungstools ist die, dass ein Bereich von IP-Adressen und Serverhostnamen inkrementell zugewiesen werden kann. Auf diese Weise muss der für den Entwurf verantwortliche Benutzer die Server in einem Pool nicht einzeln bearbeiten. Beispiel:
 
-1.  Machen Sie einen Doppelklick auf die Front-End-Server im Pool. Wählen Sie im nun geöffneten Dialogfeld die Option **Möchten Sie IP-Adressen und FQDN als Startpunkte für alle äquivalenten Server im Cluster verwenden?**.
+1.  Doppelklicken Sie auf die Front-End-Server im Pool. Wählen Sie im nun geöffneten Dialogfeld die Option **Möchten Sie IP-Adressen und FQDN als Startpunkte für alle äquivalenten Server im Cluster verwenden?**.
 
-2.  Beispielsweise lautet der Startwert für den ersten Server "fe0101.contoso.net", und die IP-Adresse ist auf "192.168.21.222" festgelegt.
+2.  Der Startwert für den ersten Server ist beispielsweise fe0101.contoso.com und die IP-Adresse 192.168.21.122.
 
-3.  Geben Sie in **FQDN des Front-End-Servers** den Wert **fe0.contoso.com** und in **IP-Adresse des Front-End-Servers** die Adresse **192.168.21.131** ein und klicken Sie anschließend auf **OK**.
+3.  Geben Sie **FE0.contoso.com** in **Front-End-Server FQDN**ein, geben Sie **192.168.21.131** in **Front-End-Server IP-Adresse**ein, und klicken Sie dann auf **OK**.
 
-4.  Die Funktion zur automatischen inkrementellen Erhöhung aktualisiert alle Server im Pool von "fe01" bis "fe06" und alle IP-Adressen von 192.168.21.131 bis 136.
+4.  Das Feature für automatische Inkrementierung aktualisiert alle Server im Pool mit "fe01" über "fe06" und die gesamte IP-Adresse von 192.168.21.131 zu 136.
 
-Nachdem Sie die Bearbeitung abgeschlossen haben, speichern Sie die Topologie, indem Sie folgende Schritte ausführen:
+Nachdem Sie alle Bearbeitungen abgeschlossen haben, speichern Sie die Topologie, indem Sie die folgenden Schritte ausführen:
 
-Wenn Sie das Planungs Tool Design speichern möchten, klicken Sie auf **Datei**, und klicken Sie dann auf **Topologie speichern** oder **Topologie speichern**unter. Falls ein Dialogfeld **Planungstool speichern unter** angezeigt wird, geben Sie in **Dateiname** einen Namen für die Datei ein und klicken Sie auf **Speichern**.
+Klicken Sie zum Speichern des Entwurfs des Planungstools auf **Datei**, und klicken Sie dann auf **Topologie speichern** oder **Topologie speichern**unter. Wenn ein Dialogfeld **Planungstool speichern unter** angezeigt wird, geben Sie in **Dateiname** einen Namen für die Datei ein, und klicken Sie dann auf **Speichern**.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Bearbeiten des Entwurfs in Lync Server 2013](lync-server-2013-editing-the-design.md)  
+[Bearbeiten des Entwurfs in lync Server 2013](lync-server-2013-editing-the-design.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Anforderungen für die Netzwerkinfrastruktur in lync Server 2013
+title: Lync Server 2013 Anforderungen an die Netzwerkinfrastruktur
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcded907075b6587eb62ea8b6b76566c4f29ac87
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 93e68a7aecd8c1390993d25d23668813cad0abbf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765916"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008217"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,50 +35,50 @@ ms.locfileid: "41765916"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-18_
+_**Letztes Änderungsstand des Themas:** 2012-10-18_
 
-Die Netzwerkadapterkarte jedes Servers in der lync Server 2013-Topologie muss mindestens 1 Gigabit pro Sekunde (Gbit/s) unterstützen. Im Allgemeinen sollten Sie alle Serverrollen innerhalb der lync Server-Topologie mit einem lokalen Netzwerk (LAN) mit geringer Latenz und großer Bandbreite verbinden. Die Größe des LANs hängt von der Größe der Topologie ab:
+Die Netzwerkadapterkarte jedes Servers in der lync Server 2013 Topologie muss mindestens 1 Gigabit pro Sekunde (Gbit/s) unterstützen. Im Allgemeinen sollten Sie alle Serverrollen innerhalb der lync Server Topologie mit einer geringen Wartezeit und einer hohen Bandbreite für lokales Netzwerk (Local Area Network, LAN) verbinden. Die Größe des LAN ist von der Größe der Topologie abhängig:
 
-  - In Standard Edition-Topologien sollten sich die Server in einem Netzwerk befinden, das 1 Gbit/s Ethernet oder eine Entsprechung unterstützt.
+  - In Standard Edition-Topologien sollten sich die Server in einem Netzwerk befinden, das 1 Gbit/s-Ethernet oder eine gleichwertige unterstützt.
 
-  - In Front-End-Pool Topologien sollten sich die meisten Server in einem Netzwerk befinden, das mehr als 1 Gbit/s unterstützt, insbesondere bei der Unterstützung von Audio/Video-Konferenzen (a/V) und Anwendungsfreigabe.
+  - In Front-End-Pool Topologien sollten sich die meisten Server in einem Netzwerk befinden, das mehr als 1 Gbit/s unterstützt, insbesondere bei der Unterstützung von Audio/Video-Konferenzen und Anwendungsfreigaben (a/V).
 
 Zur Integration in das Telefonfestnetz (Public Switched Telephone Network, PSTN) können Sie entweder T1/E1-Leitungen oder das SIP-Trunking verwenden.
 
 <div>
 
-## <a name="audiovideo-network-requirements"></a>Audio/Video-Netzwerkanforderungen
+## <a name="audiovideo-network-requirements"></a>Netzwerkanforderungen für die Audio/Video-Unterstützung
 
-Zu den Netzwerkanforderungen für Audio/Video (a/V) in einer lync Server-Bereitstellung gehören die folgenden:
+Die Netzwerkanforderungen für Audio/Video (a/V) in einer lync Server-Bereitstellung umfassen Folgendes:
 
-  - Wenn Sie einen einzelnen Edgeserver oder einen Edge-Pool mithilfe des DNS-Lastenausgleichs bereitstellen, können Sie die externe Firewall als NAT konfigurieren. Sie können die interne Firewall nicht als NAT konfigurieren. Details zu diesen Anforderungen finden Sie unter [Ermitteln der externen A/V-Firewall und Portanforderungen für lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md) in der Planungsdokumentation.
+  - Wenn Sie einen einzelnen Edgeserver oder einen Edgepool mithilfe des DNS-Lastenausgleichs bereitstellen, können Sie die externe Firewall als NAT konfigurieren. Sie können keine interne Firewall mit NAT konfigurieren. Ausführliche Informationen zu diesen Anforderungen finden Sie unter [bestimmen der externen A/V-Firewall-und Portanforderungen für lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md) in der Planungsdokumentation.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Wenn Sie über einen Edge-Pool verfügen und ein Hardware-Lastenausgleichsmodul verwenden, müssen Sie öffentliche IP-Adressen auf jedem der Edgeserver verwenden, und Sie können NAT nicht für die Server oder den Pool auf Ihrem NAT-Gerät verwenden (beispielsweise die Firewall oder ein anderes Infrastruktur Gerät, das NAT-inbou ND-oder ausgehenden Datenverkehr). Ausführliche Informationen finden Sie unter <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Port Zusammenfassung – skalierter konsolidierter Edge mit Hardwarelastenausgleichs in lync Server 2013</A> in der Dokumentation zur Planung für den externen Benutzer Zugriff.
+    > Wenn Sie über eine Edgepool verfügen und einen Hardwaregerät zum Lastenausgleich verwenden, müssen Sie auf jedem Edgeserver öffentliche IP-Adressen verwenden, und Sie können NAT nicht für die Server oder den Pool an Ihrem NAT-Gerät verwenden (beispielsweise die Firewall oder ein anderes Infrastruktur Gerät, das NAT inbou ND-oder ausgehenden Datenverkehr). Ausführliche Informationen finden Sie unter <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Port Summary – skalierter konsolidierter Edgeserver mit Hardwarelastenausgleichs in lync Server 2013</A> in der Dokumentation zur Planung externer Benutzerzugriffe.
 
     
     </div>
 
   - Wenn Ihre Organisation eine QoS-Infrastruktur (Quality of Service) verwendet, wird das Mediensubsystem auf den Betrieb innerhalb der vorhandenen Infrastruktur ausgelegt.
 
-  - Wenn Sie IPsec (Internet Protocol Security) verwenden, wird empfohlen, IPsec für die Portbereiche zu deaktivieren, die für die Übertragung von A/V-Datenverkehr verwendet werden. Ausführliche Informationen finden Sie unter [IPsec-Ausnahmen in lync Server 2013](lync-server-2013-ipsec-exceptions.md) in der Planungsdokumentation.
+  - Wenn Sie IPsec (Internet Protocol Security) verwenden, wird empfohlen, IPsec für die Portbereiche zu deaktivieren, die für die Übertragung von A/V-Datenverkehr verwendet werden. Ausführliche Informationen finden Sie unter [IPSec Exceptions in lync Server 2013](lync-server-2013-ipsec-exceptions.md) in der Planungsdokumentation.
 
-Gehen Sie wie folgt vor, um eine optimale Medienqualität zu gewährleisten:
+Mit folgenden Maßnahmen können Sie optimale Medienqualität sicherstellen:
 
-  - Stellen Sie Ihre Netzwerk Links bereit, um den Durchsatz von 65 Kbit/s pro Audio-Stream und 500 KBit/s pro Videostream zu unterstützen, sofern diese während der Spitzennutzungszeiten aktiviert sind. Eine bidirektionale Audio-oder Videositzung besteht aus zwei Streams.
+  - Richten Sie die Netzwerkverbindungen so ein, dass sie bei Spitzenauslastung einen Durchsatz von 65 KBit/s pro Audiostream und 500 KBit/s pro Videostream (sofern aktiviert) unterstützen. Eine bidirektionale Audio- oder Videositzung umfasst zwei Datenströme.
 
-  - Um unerwartete Spitzen im Datenverkehr über dieser Ebene zu bewältigen und die Nutzung im Laufe der Zeit zu vermehren, können lync Server Media-Endpunkte sich an unterschiedliche Netzwerkbedingungen anpassen und Lasten des dreifachen Durchsatzes (siehe vorheriger Absatz) für Audio und Video unterstützen, während Sie immer noch Beibehaltung akzeptabler Qualität. Gehen Sie jedoch nicht davon aus, dass diese Anpassungsfähigkeit ein unter bereitgestelltes Netzwerk unterstützt. In einem unter bereitgestellten Netzwerk wird die Möglichkeit, dass die lync Server-Medien Endpunkte dynamisch mit unterschiedlichen Netzwerkbedingungen (beispielsweise temporärer hoher Paketverlust) umgehen können, verringert.
+  - Um unerwartete Spitzenwerte im Datenverkehr oberhalb dieser Ebene und eine erhöhte Nutzung im Laufe der Zeit zu bewältigen, können sich lync Server Medien Endpunkte an unterschiedliche Netzwerkbedingungen anpassen und Lasten von dreimal so hoch wie der Durchsatz (siehe vorheriger Absatz) für Audio und Video, während die Beibehaltung annehmbarer Qualität. Gehen Sie jedoch nicht davon aus, dass diese Anpassungsfähigkeit ein unter bereitgestelltes Netzwerk unterstützt. In einem untergeordneten Netzwerk wird die Fähigkeit der lync Server Medien Endpunkte, dynamische unterschiedliche Netzwerkbedingungen (beispielsweise ein vorübergehender hoher Paketverlust) zu bewältigen, reduziert.
 
-  - Bei Netzwerk Links, bei denen die Bereitstellung extrem kostspielig und schwierig ist, müssen Sie möglicherweise die Bereitstellung für ein geringeres Datenaufkommen in Frage stellen. Lassen Sie in diesem Szenario die Elastizität der lync Server-Medien Endpunkte den Unterschied zwischen dem Verkehrsaufkommen und dem Höchstwert für den Datenverkehr absorbieren, und zwar zu den Kosten einer gewissen Verringerung der Sprachqualität. Darüber hinaus gibt es eine Verringerung der Kopffreiheit, die sonst zur Aufnahme von plötzlichen Peaks im Verkehr zur Verfügung steht.
+  - Für Netzwerkverbindungen, deren Bereitstellung sehr kostspielig und aufwendig ist, können Sie eine Dimensionierung für ein niedrigeres Datenverkehrsaufkommen erwägen. In diesem Szenario lassen Sie die Elastizität der lync Server Medien Endpunkte den Unterschied zwischen dem Datenverkehrsvolumen und der Spitzen Daten verkehrsstufe absorbieren, wobei sich die Sprachqualität verringert. Gleichzeitig verringert sich der Puffer, der andernfalls zum Auffangen plötzlicher Datenspitzen zur Verfügung steht.
 
-  - Für Links, die kurzfristig nicht richtig bereitgestellt werden können (beispielsweise eine Website mit sehr schlechten WAN-Links), sollten Sie das Deaktivieren von Video für bestimmte Benutzer in Frage stellen.
+  - Bei Verbindungen, die kurzfristig nicht ausreichend dimensioniert werden können (beispielsweise an einem Standort mit sehr schlechten WAN-Verbindungen) kann es ratsam sein, die Videofunktion für bestimmte Benutzer zu deaktivieren.
 
-  - Stellen Sie Ihr Netzwerk bereit, um eine maximale End-to-End-Verzögerung (Latenz) von 150 Millisekunden (MS) unter Spitzenlast zu gewährleisten. Latenz ist die einzige Netzwerk Beeinträchtigung, die lync Server-Medienkomponenten nicht verringern können, und es ist wichtig, die Schwachstellen zu finden und zu eliminieren.
+  - Stellen Sie bei der Netzwerkbereitstellung sicher, dass bei Spitzenauslastung eine maximale End-to-End-Verzögerung (Latenz) von 150 ms auftritt. Latenz ist die einzige Netzwerk Schädigung, die lync Server Medienkomponenten nicht verringern können, und es ist wichtig, die Schwachstellen zu finden und zu beseitigen.
 
-  - Berücksichtigen Sie bei Servern mit Antivirensoftware alle Server, auf denen lync Server ausgeführt wird, in der Ausnahmeliste, um eine optimale Leistung und Audioqualität zu gewährleisten.
+  - Schließen Sie für Server, auf denen Antivirensoftware ausgeführt wird, alle Server mit lync Server in der Ausnahmeliste ein, um optimale Leistung und Audioqualität zu gewährleisten.
 
 </div>
 
@@ -86,7 +86,7 @@ Gehen Sie wie folgt vor, um eine optimale Medienqualität zu gewährleisten:
 
 ## <a name="conferencing-network-requirements"></a>Netzwerkanforderungen für Konferenzen
 
-Die Bandbreite, die zum Herunterladen von Konferenz Inhalten vom IIS-Server (Internet Information Services) verwendet wird, hängt von der Größe des hochgeladenen Inhalts ab.
+Die Bandbreite, die zum Herunterladen von Konferenz Inhalten vom Internet Information Services (IIS) Server verwendet wird, hängt von der Größe der hochgeladenen Inhalte ab.
 
 </div>
 

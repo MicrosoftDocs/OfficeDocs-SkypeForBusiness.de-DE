@@ -12,16 +12,16 @@ ms:contentKeyID: 48185901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69c63e710463a37eecbb7d20edbe5999d0fbb55f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6061f04875d15f163bfb91d8803c488467cadb6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757019"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007874"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757019"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-22_
+_**Letztes Änderungsstand des Themas:** 2012-10-22_
 
-Der Diagnosebericht über die Konferenz enthält Informationen über erfolgreich durchgeführte Konferenzsitzungen und Fehler bei Konferenzsitzungen. Beachten Sie, dass Microsoft lync Server zwischen verschiedenen Arten von Fehlern unterscheidet:
+Der Konferenz Diagnosebericht enthält Informationen über den Erfolg und das Scheitern aller Konferenzsitzungen. Beachten Sie, dass Microsoft lync Server zwischen verschiedenen Arten von Fehlern unterscheidet:
 
-  - **Erwarteter Fehler**. Ein erwarteter Fehler ist typischerweise ein rein technischer Fehler. Ein Beispiel: Angenommen, eine Person startet eine Konferenz, legt aber auf, bevor andere Personen der Konferenz beigetreten sind. Das ist technisch gesehen ein Fehler: Die Konferenz wurde initiiert, aber nicht abgeschlossen. Allerdings wäre das ein Fehler, den Sie durchaus erwarten würden. Bricht nämlich der Organisator die Konferenz ab, bevor andere Personen teilnehmen können, würden Sie die Konferenz nicht als abgeschlossen betrachten.
+  - **Erwarteter Fehler**. Ein erwarteter Fehler ist normalerweise nur im technischsten Sinn ein Fehler. Nehmen wir beispielsweise an, dass jemand eine Konferenz startet, aber auflegt, bevor jeder beitreten kann. Technisch gesehen ist das ein Fehler: die Konferenz wurde initiiert, aber nicht abgeschlossen. Dies ist jedoch ein Fehler, den Sie erwarten würden: Wenn der Organisator die Konferenz abbricht, bevor jemand beitreten kann, wird die Konferenz nicht abgeschlossen.
 
-  - **Unerwarteter Fehler**. Wie der Name schon sagt, ist ein unerwarteter Fehler ein Fehler, dessen Auftreten Sie unter gegebenen Umständen nicht erwarten würden. Ein Beispiel: Angenommen, eine Konferenz konnte nicht durchgeführt werden, weil die Besprechungsrichtlinie des Organisators nicht abgerufen werden konnte. Das ist ein unerwarteter Fehler, denn die Besprechungsrichtlinie eines Benutzers sollte grundsätzlich immer abgerufen werden können.
+  - **Unerwarteter Fehler**: Ein unerwarteter Fehler ist genau das, was der Name aussagt: Ein Fehler, der gemessen an den Umständen nicht zu erwarten ist. Angenommen, Sie rufen eine Person an, und die Person kann den Anruf annehmen. Angenommen, eine Konferenz konnte nicht abgehalten werden, da die Besprechungsrichtlinie des Organisators nicht abgerufen werden konnte. Das ist ein unerwarteter Fehler: Schließlich sollten Sie immer in der Lage sein, die Besprechungsrichtlinie eines Benutzers abzurufen.
 
-Beachten Sie, dass die Summe aus den Werten für Erfolge, erwartete Fehler und unerwartete Fehler nicht immer mit der Angabe für „Sitzungen insgesamt“ übereinstimmt. Beispielsweise können in dem Bericht folgende Werte angegeben werden:
+Beachten Sie, dass die Metriken für "Erfolg", "Erwarteter Fehler" und "Unerwarteter Fehler" nicht zwangsläufig identisch mit der Metrik unter "Sitzungen insgesamt" sind. Im Bericht werden beispielsweise die folgenden Werte angezeigt:
 
 
 <table>
@@ -65,20 +65,20 @@ Beachten Sie, dass die Summe aus den Werten für Erfolge, erwartete Fehler und u
 <tr class="odd">
 <td><p>2024</p></td>
 <td><p>469</p></td>
-<td><p>16</p></td>
+<td><p>16 </p></td>
 <td><p>2521</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Wenn Sie 2.024 + 469 + 16 addieren, ergibt das insgesamt 2.509 Sitzungen, aber in der Spalte „Sitzungen insgesamt“ wird 2.521 angezeigt. Die „fehlenden“ 12 Sitzungen sind Sitzungen, die vom System nicht als erfolgreich oder fehlerhaft kategorisiert werden konnten. Dies ist manchmal der Fall, wenn ein Drittanbieterprodukt einen neuen Diagnosecode einführt, der für die Überwachung von Server unbekannt ist. In einer solchen Situation können Aufrufe, die mit diesem Produkt ausgeführt werden und für die dieser Diagnosecode gemeldet wird, nicht immer eindeutig als Erfolg, erwarteter Fehler oder unerwarteter Fehler kategorisiert werden.
+Wenn Sie 2024 + 469 + 16 hinzufügen, erhalten Sie insgesamt 2.509 Sitzungen, in der Spalte Gesamt Sitzungen werden jedoch insgesamt 2.521 Sitzungen angezeigt. Die "fehlenden" 12 Sitzungen für sind Sitzungen, die vom System nicht als erfolgreich oder nicht erfolgreich kategorisiert werden konnten. Dies ist manchmal der Fall, wenn ein Drittanbieterprodukt einen neuen Diagnosecode einführt, der Monitoring Server nicht vertraut ist. Wenn dies geschieht, können mit diesem Produkt erstellte Anrufe und das melden dieses Diagnosecodes nicht immer als ein Erfolg, ein erwarteter Fehler oder ein unerwarteter Fehler kategorisiert werden.
 
 <div>
 
-## <a name="accessing-the-conference-diagnostic-report"></a>Öffnen des Diagnoseberichts über die Konferenz
+## <a name="accessing-the-conference-diagnostic-report"></a>Zugreifen auf den Konferenz Diagnosebericht
 
-Auf den Diagnosebericht über die Konferenz greifen Sie über die Startseite für Überwachungsberichte zu. Sie können auf den [Bericht Fehlerverteilung in lync Server 2013](lync-server-2013-failure-distribution-report.md) zugreifen, indem Sie auf eine der folgenden Metriken klicken:
+Der Zugriff auf den Konferenz Diagnosebericht erfolgt über die Startseite für Überwachungsberichte. Sie können auf den [Bericht über Fehlerverteilung in lync Server 2013](lync-server-2013-failure-distribution-report.md) zugreifen, indem Sie auf eine der folgenden Metriken klicken:
 
   - Anzahl der unerwarteten Fehler
 
@@ -88,9 +88,9 @@ Auf den Diagnosebericht über die Konferenz greifen Sie über die Startseite fü
 
 <div>
 
-## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>Optimales Nutzen des Diagnoseberichts über die Konferenz
+## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>Optimale Nutzung des Konferenz Diagnoseberichts
 
-Der Diagnosebericht über die Konferenz enthält eine Reihe von Diagrammen. Jede der Spalten in einem Diagramm ist ein Hyperlink. Wenn Sie auf eine Spalte klicken, führen Sie einen Drilldown zum [Fehler Verteilungs Bericht in lync Server 2013](lync-server-2013-failure-distribution-report.md) für diesen Zeitraum und diesen Konferenztyp durch.
+Der Konferenz Diagnosebericht enthält eine Reihe von Diagrammen. Jede der im Diagramm gezeigten Spalten ist eigentlich ein Hyperlink. Wenn Sie auf eine Spalte klicken, führen Sie einen Drilldown zum [Fehler Verteilungs Bericht in lync Server 2013](lync-server-2013-failure-distribution-report.md) für diesen Zeitraum und diesen Konferenztyp aus.
 
 </div>
 
@@ -98,11 +98,11 @@ Der Diagnosebericht über die Konferenz enthält eine Reihe von Diagrammen. Jede
 
 ## <a name="filters"></a>Filter
 
-Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. Beispielsweise können Sie die Daten im Diagnosebericht über Konferenzen nach Kriterien wie etwa dem Konferenztyp (z. B. Konferenzzustandsobjekt-Sitzung) oder dem für die Konferenz verwendeten Edgeserver filtern. Sie können außerdem festlegen, wie Daten gruppiert werden sollen. In diesem Fall werden Konferenzen nach Stunde, Tag, Woche oder Monat zusammengefasst.
+Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. Beispielsweise können Sie mit dem Konferenz Diagnosebericht nach Dingen suchen, die den Typ der Konferenz (beispielsweise eine Fokus basierte Konferenz) oder den in der Konferenz verwendeten Edgeserver filtern. Sie können außerdem festlegen, wie Daten gruppiert werden sollen. In diesem Fall werden Konferenzen nach Stunde, Tag, Woche oder Monat zusammengefasst.
 
-In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Diagnosebericht über die Konferenz verwenden können.
+In der folgenden Tabelle sind die Filter aufgeführt, die Sie mit dem Konferenz Diagnosebericht verwenden können.
 
-### <a name="conference-diagnostic-report-filters"></a>Filter im Diagnosebericht über die Konferenz
+### <a name="conference-diagnostic-report-filters"></a>Filter für Konferenz Diagnoseberichte
 
 <table>
 <colgroup>
@@ -117,9 +117,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Diagnoseberic
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Von</strong></p></td>
+<td><p><strong>From</strong></p></td>
 <td><p>Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 Uhr</p>
+<p>07.07.2012 13:00</p>
 <p>Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
@@ -127,9 +127,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Diagnoseberic
 <p>Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Bis</strong></p></td>
+<td><p><strong>Ziel</strong></p></td>
 <td><p>Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</p>
-<p>7/7/2012 1:00 Uhr</p>
+<p>07.07.2012 13:00</p>
 <p>Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</p>
 <p>7/7/2012</p>
 <p>Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</p>
@@ -140,22 +140,22 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Diagnoseberic
 <td><p><strong>Intervall</strong></p></td>
 <td><p>Zeitintervall. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
-<li><p>Stündlich (maximal 25 Stunden können angezeigt werden)</p></li>
-<li><p>Täglich (maximal 31 Tage können angezeigt werden)</p></li>
-<li><p>Wöchentlich (maximal 12 Wochen können angezeigt werden)</p></li>
-<li><p>Monatlich (maximal 12 Monate können angezeigt werden)</p></li>
+<li><p>Stündlich (maximal 25 Stunden können angezeigt werden)</p></li>
+<li><p>Täglich (maximal 31 Tage können angezeigt werden)</p></li>
+<li><p>Wöchentlich (maximal 12 Wochen können angezeigt werden)</p></li>
+<li><p>Monatlich (maximal 12 Monate werden angezeigt)</p></li>
 </ul>
-<p>Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Wenn Sie beispielsweise das Tagesintervall mit einem Anfangstermin von 7/7/2012 und einem Enddatum von 2/28/2012 auswählen, werden die Daten für die Tage 8/7/2012 12:00 Uhr bis 9/7/2012 12:00 Uhr angezeigt (also insgesamt 31 Tage).</p></td>
+<p>Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Beispiel: Wenn Sie das Intervall Täglich mit dem Startdatum 07.08.2012 und dem Enddatum 28.09.2012 ausgewählt haben, werden Daten für die Tage 07.08.2012 12:00 Uhr bis 07.09.2012 12:00 Uhr angezeigt (d. h. Daten für insgesamt 31 Tage).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Pool</strong></p></td>
-<td><p>Vollqualifizierter Domänenname (FQDN) des Registrierungspools oder Edgeservers. Sie können einen einzelnen Pool auswählen oder auf <strong>[Alle]</strong> klicken, um die Daten für alle Pools anzuzeigen. Diese Dropdownliste wird basierend auf den Datensätzen in der Datenbank automatisch ausgefüllt.</p></td>
+<td><p>Vollqualifizierter Domänenname (FQDN) des Registrierungsstellenpools oder Edgeservers. Sie können einen einzelnen Pool auswählen, oder auf <strong>[Alle]</strong> klicken, um die Daten für alle Pools anzuzeigen. Diese Dropdownliste wird basierend auf den Datensätzen in der Datenbank automatisch ausgefüllt.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Konferenzsitzungen</strong></p></td>
 <td><p>Gibt den Typ der Konferenzsitzung an. Wählen Sie eine der folgenden Optionen aus:</p>
 <ul>
-<li><p>[Alle]</p></li>
+<li><p>Alle</p></li>
 <li><p>Konferenzzustandsobjekt-Sitzungen</p></li>
 <li><p>Alle MCU-Sitzungen</p></li>
 <li><p>Sofortnachrichtenkonferenzen</p></li>
@@ -173,9 +173,9 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Diagnoseberic
 
 ## <a name="metrics"></a>Metriken
 
-In der folgenden Tabelle werden die Metriken aufgelistet, die im Diagnosebericht über die Konferenz für jeden Konferenzsitzungstyp angegeben werden.
+In der folgenden Tabelle sind die Informationen aufgeführt, die im Diagnosebericht über die Konferenz für jeden Typ von Konferenzsitzung bereitgestellt werden.
 
-### <a name="conference-diagnostic-report-metrics"></a>Metriken im Diagnosebericht über die Konferenz
+### <a name="conference-diagnostic-report-metrics"></a>Metriken für den Konferenz Diagnosebericht
 
 <table>
 <colgroup>
@@ -194,23 +194,23 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Diagnosebericht
 <tr class="odd">
 <td><p><strong>Anzahl der erfolgreichen Sitzungen</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die Gesamtzahl der erfolgreich durchgeführten Sitzungen.</p></td>
+<td><p>Die Gesamtzahl der erfolgreichen Konferenzen.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Prozentsatz der erfolgreichen Sitzungen</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Der Prozentsatz der Konferenzen, die ohne nennenswerte Probleme ausgeführt wurden. Errechnet sich durch Dividieren der Anzahl der erfolgreichen Sitzungen durch die Gesamtzahl der Sitzungen.</p></td>
+<td><p>Prozentsatz der Konferenzen, die mit erheblichen Problemen abgeschlossen wurden. Errechnet sich durch Dividieren der Anzahl der erfolgreichen Sitzungen durch die Gesamtzahl der Sitzungen.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Anzahl der erwarteten Fehler</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Die Gesamtzahl der Konferenzen, &quot;bei denen&quot; ein erwarteter Fehler aufgetreten ist.</p>
-<p>Ein erwarteter Fehler ist ein Fehler, der zu erwarten ist. Wenn beispielsweise ein Benutzer seinen Status auf „Nicht stören“ festgelegt hat, ist zu erwarten, dass jeder Anruf an diesen Benutzer fehlschlägt.</p></td>
+<p>Ein erwarteter Fehler ist ein Fehler, dessen Auftreten erwartet wird. Wenn beispielsweise ein Benutzer seinen Status auf Nicht stören festgelegt hat, ist zu erwarten, dass jeder Anruf an diesen Benutzer fehlschlägt.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Prozentsatz der erwarteten Fehler</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Der Prozentsatz der Konferenzen, bei denen ein erwarteter Fehler aufgetreten ist. Errechnet sich durch Dividieren der Anzahl der erwarteten Fehler durch die Gesamtzahl der Sitzungen.</p></td>
+<td><p>Prozentsatz der Konferenzen, bei denen ein erwarteter Fehler auftrat. Errechnet sich durch Dividieren der Anzahl der erwarteten Fehler durch die Gesamtzahl der Sitzungen.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Anzahl der unerwarteten Fehler</strong></p></td>
@@ -221,12 +221,12 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Diagnosebericht
 <tr class="even">
 <td><p><strong>Prozentsatz der unerwarteten Fehler</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Der Prozentsatz der Konferenzen, bei denen ein unerwarteter Fehler aufgetreten ist. Errechnet sich durch Dividieren der Anzahl der unerwarteten Fehler durch die Gesamtzahl der Sitzungen.</p></td>
+<td><p>Prozentsatz der Konferenzen, bei denen ein unerwarteter Fehler auftrat Errechnet sich durch Dividieren der Anzahl der unerwarteten Fehler durch die Gesamtzahl der Sitzungen.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Sitzungen insgesamt</strong></p></td>
 <td><p>Nein</p></td>
-<td><p>Die Gesamtzahl der Konferenzen, einschließlich Konferenzen ohne Fehler, Konferenzen mit Fehlern (sowohl erwarteten als auch unerwarteten) und nicht kategorisierten Konferenzen.</p></td>
+<td><p>Gesamtzahl der Konferenzen, einschließlich erfolgreicher Konferenzen, fehlgeschlagener Konferenzen (sowohl erwartete Fehler als auch unerwartete Fehler) und nicht kategorisierter Konferenzen.</p></td>
 </tr>
 </tbody>
 </table>

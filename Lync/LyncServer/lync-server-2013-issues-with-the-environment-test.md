@@ -12,16 +12,16 @@ ms:contentKeyID: 48185970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65803ff396a9615787291de2d728fe63f3350d0b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b7d077b22c147dd677a5db68636b2c68bfafcf23
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765343"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035047"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,33 +35,33 @@ ms.locfileid: "41765343"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Bewährte Methoden Analyzer bietet eine Möglichkeit, um zu überprüfen, ob Ihre lync Server 2013-Umgebung eine unterstützte Konfiguration ist. Im Rahmen der Active Directory-Domänendienst Überprüfung führt Best Practices Analyzer folgende Schritte aus:
+Best Practices Analyzer bietet Ihnen die Möglichkeit, zu überprüfen, ob Ihre lync Server 2013 Umgebung eine unterstützte Konfiguration ist. Im Rahmen der Active Directory-Domänendienste Überprüfung führt Best Practices Analyzer folgende Schritte aus:
 
-  - Überprüft die Active Directory-Domänendienste-Gesamtstruktur und die Schemavorbereitung.
+  - Überprüft die Active Directory-Domänendienste Gesamtstruktur und Schemavorbereitung.
 
-  - Gibt die Anzahl der Active Directory-Domänendienste-Websites und-Domänen in der Bereitstellung an.
+  - Gibt die Anzahl der Active Directory-Domänendienste Websites und Domänen in der Bereitstellung an.
 
-  - Überprüft die Gesamtstruktur und die Domänenebenen.
+  - Überprüft die Gesamtstruktur-und Domänenebenen.
 
   - Überprüft die Version des Domänencontrollers.
 
-  - Identifiziert den Domänen-, Konfigurations-und Schemanamenskontext.
+  - Gibt den Domänen-, Konfigurations-und Schemanamenskontext an.
 
   - Gibt die Anzahl der aktivierten Benutzer an.
 
-  - Überprüft, wo die globalen Einstellungen für Active Directory-Domänendienste gespeichert sind.
+  - Überprüft, wo die globalen Active Directory-Domänendienste Einstellungen gespeichert werden.
 
-  - Überprüft, ob die Dienstverbindungspunkte für lync Server SKP sind.
+  - Überprüft, ob die Dienstverbindungspunkte (SKP) für lync Server.
 
-  - Identifiziert die Datenbankversion.
+  - Gibt die Datenbankversion an.
 
 <div>
 
 ## <a name="resolving-issues-with-the-environment"></a>Beheben von Problemen mit der Umgebung
 
-Wenn der Umgebungs Test Probleme mit Ihrer Umgebung gefunden hat, werden diese Probleme wahrscheinlich durch Probleme mit Ihrer Active Directory-Konfiguration oder der Softwareebene verursacht, die auf bestimmten Servern ausgeführt wird. Wenn beispielsweise Best Practices Analyzer alle Domänencontroller in Ihrer Umgebung identifiziert, die Windows Server 2000 ausführen, wird eine Warnung ausgegeben, und Sie müssen diese Domänencontroller auf eine unterstützte Version von Windows Server aktualisieren.
+Wenn der Umgebungs Test Probleme mit Ihrer Umgebung festgestellt hat, werden diese Probleme möglicherweise durch Probleme mit Ihrer Active Directory Konfiguration oder durch die auf bestimmten Servern ausgeführten Softwareebenen verursacht. Wenn Best Practices Analyzer beispielsweise Domänencontroller in Ihrer Umgebung identifiziert, auf denen Windows Server 2000 ausgeführt wird, wird eine Warnung ausgegeben, und Sie müssen diese Domänencontroller auf eine unterstützte Version von Windows Server aktualisieren.
 
 </div>
 

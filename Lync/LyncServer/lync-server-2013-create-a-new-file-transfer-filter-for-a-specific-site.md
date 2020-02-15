@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Erstellen eines neuen dateiübertragungsfilters für eine bestimmte Website'
+title: 'Lync Server 2013: Erstellen eines neuen dateiübertragungsfilters für einen bestimmten Standort'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edaf0afabff9d212cdd3b5353a8e54840979f827
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 911f01c4ce104c3cdd641a793065c14bed43abb4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740405"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034897"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-a-new-file-transfer-filter-in-lync-server-2013-for-a-specific-site"></a>Erstellen eines neuen dateiübertragungsfilters in lync Server 2013 für eine bestimmte Website
+# <a name="create-a-new-file-transfer-filter-in-lync-server-2013-for-a-specific-site"></a>Erstellen eines neuen dateiübertragungsfilters in lync Server 2013 für einen bestimmten Standort
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41740405"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-18_
+_**Letztes Änderungsstand des Themas:** 2012-10-18_
 
-Zusätzlich zum Ändern des globalen dateiübertragungsfilters können Sie benutzerdefinierte Dateiübertragungsfilter für bestimmte Websites in ihrer lync Server 2013-Bereitstellung konfigurieren. Details zum Filtern von Dateiübertragungen finden Sie unter [Konfigurieren der Dateiübertragung und der URL-Filterung für Chatnachrichten in lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
+Zusätzlich zum Ändern des globalen dateiübertragungsfilters können Sie benutzerdefinierte Dateiübertragungsfilter für bestimmte Websites in ihrer lync Server 2013-Bereitstellung konfigurieren. Ausführliche Informationen zur Dateiübertragungsfilterung finden Sie unter [Configuring File Transfer and URL Filtering for Instant Messaging (Sofortnachrichten) in lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
 
 <div>
 
-## <a name="to-create-a-file-transfer-filter-for-a-specific-site"></a>So erstellen Sie einen Dateiübertragungsfilter für eine bestimmte Website
+## <a name="to-create-a-file-transfer-filter-for-a-specific-site"></a>So erstellen Sie einen Dateiübertragungsfilter für einen spezifischen Standort
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Chat und Anwesenheit** , und klicken Sie dann auf **Datei Filter**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Chat und Anwesenheit** und dann auf **Dateifilter**.
 
-4.  Klicken Sie auf der Seite **Datei Filter** auf **neu**.
+4.  Klicken Sie auf der Seite **Dateifilter** auf **Neu**.
 
-5.  Klicken Sie im Dialogfeld **Website auswählen** auf die Website, für die Sie den Dateiübertragungsfilter erstellen möchten, und klicken Sie dann auf **OK**.
+5.  Klicken Sie im Dialogfeld **Standort auswählen** auf den Standort, für den Sie den Dateiübertragungsfilter erstellen möchten, und klicken Sie anschließend auf **OK**.
 
-6.  Klicken Sie in **neuer Dateifilter**auf das Kontrollkästchen **Dateifilter aktivieren** .
+6.  Aktivieren Sie im Abschnitt **Neuer Dateifilter** das Kontrollkästchen **Dateifilter aktivieren**.
 
-7.  Klicken Sie im Dropdown-Listenfeld **Dateiübertragung** auf **Alle blockieren** oder **bestimmte Dateitypen blockieren**.
+7.  Klicken Sie im Dropdown-Listenfeld **Dateiübertragung** auf **Alles blockieren** oder **Bestimmte Dateitypen blockieren**.
 
-8.  Wenn Sie auf **Alle blockieren**geklickt haben, fahren Sie mit Schritt 10 fort.
+8.  Wenn Sie auf **Alles blockieren** geklickt haben, fahren Sie mit Schritt 10 fort.
 
-9.  Wenn Sie auf **bestimmte Dateitypen blockieren**geklickt haben, gehen Sie folgendermaßen vor:
+9.  Führen Sie eine der folgenden Aktionen aus, wenn Sie auf die Option **Bestimmte Dateitypen blockieren** geklickt haben:
     
-    1.  Klicken Sie auf **auswählen** , um die Standardliste der Dateitypen Erweiterungen zu ändern, die Sie blockieren möchten.
+    1.  Klicken Sie auf **Auswählen**, um die standardmäßige Liste der Erweiterungen für Dateitypen zu ändern, die blockiert werden sollen.
     
-    2.  Wählen Sie im Dialogfeld **Dateityp** auswählen die Dateitypen aus, die Sie blockieren oder zulassen möchten, indem Sie deren Erweiterungen aus den Kategorien unter **Dateityperweiterungen**hinzufügen oder entfernen.
+    2.  Wählen Sie im Dialogfeld **Dateityp auswählen** die Dateitypen aus, die Sie blockieren oder zulassen möchten, indem Sie die zugehörigen Erweiterungen aus den Kategorien unter **Dateityperweiterungen** entfernen oder sie hinzufügen.
     
-    3.  Wenn die Erweiterung für einen Dateityp, den Sie blockieren möchten, nicht angezeigt wird, geben Sie die Erweiterung in das Textfeld unter **Hinzufügen von Dateityperweiterungen zur Liste**ein, und klicken Sie dann auf **Hinzufügen**.
+    3.  Wenn die Erweiterung des gewünschten Dateityps nicht aufgeführt wird, geben Sie die Erweiterung in das Textfeld unter **Dateityperweiterungen der Liste hinzufügen** ein, und klicken Sie anschließend auf **Hinzufügen**.
     
     4.  Klicken Sie auf **OK**.
 
@@ -83,7 +83,7 @@ Zusätzlich zum Ändern des globalen dateiübertragungsfilters können Sie benut
 [Ändern des standardmäßigen dateiübertragungsfilters in lync Server 2013](lync-server-2013-modify-the-default-file-transfer-filter.md)  
 
 
-[Ändern des Standard-URL-Filters in lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)  
+[Ändern des standardmäßigen URL-Filters in lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185912
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e6474071e7f95228f3c04c4931b4f899df68b40
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee5e58f316acde9e1aadeee80cfccb6ee1b189be
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764411"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007704"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="start-services-on-servers-for-lync-server-2013"></a>Starten von Diensten auf Servern für Lync Server 2013
+# <a name="start-services-on-servers-for-lync-server-2013"></a>Starten von Diensten auf Servern für lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41764411"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-09-03_
+_**Letztes Änderungsstand des Themas:** 2014-09-03_
 
-Um dieses Verfahren erfolgreich abzuschließen, sollten Sie als Benutzer angemeldet sein, der ein Mitglied der RTCUniversalServerAdmins-Gruppe ist oder über die richtigen Berechtigungen delegiert wurde. Details zum Delegieren von Berechtigungen finden Sie im Thema [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie als Mitglied der Gruppe "RTCUniversalServerAdmins" angemeldet sein, oder an Sie müssen geeignete Berechtigungen delegiert worden sein. Ausführliche Informationen zum Delegieren von Berechtigungen finden Sie im Thema [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-Nachdem Sie den lokalen Konfigurationsspeicher auf Ihren Servern installiert, die lync Server 2013-Komponenten installiert und Zertifikate auf einem Front-End-Server oder Front-End-Server konfiguriert haben, müssen Sie die lync Server 2013-Dienste auf dem Server starten. Gehen Sie wie folgt vor, um Dienste auf jedem Front-End-Server in Ihrer Bereitstellung zu starten.
+Nachdem Sie den lokalen Konfigurationsspeicher auf Ihren Servern installiert, die lync Server 2013 Komponenten installiert und Zertifikate auf einem Front-End-Server oder Front-End-Server konfiguriert haben, müssen Sie die lync Server 2013 Dienste auf dem Server starten. Verwenden Sie das folgende Verfahren, um Dienste auf jeder Front-End-Server in Ihrer Bereitstellung zu starten.
 
 <div>
 
-## <a name="to-start-services-on-a-standard-edition-or-front-end-server"></a>So starten Sie Dienste auf einer Standard Edition oder einem Front-End-Server
+## <a name="to-start-services-on-a-standard-edition-or-front-end-server"></a>So starten Sie Dienste auf einer Standard Edition oder Front-End-Server
 
-1.  Klicken Sie im lync Server-Bereitstellungs-Assistenten auf der **lync Server 2013** -Seite neben **Schritt 4: Starten von Diensten**auf **Ausführen** .
+1.  Klicken Sie im lync Server-Bereitstellungs-Assistenten auf der Seite **lync Server 2013** auf **Ausführen** neben **Schritt 4: Dienste starten**.
 
-2.  Klicken Sie auf der Seite **Dienste starten** auf **weiter** , um die lync Server-Dienste auf dem Server zu starten.
+2.  Klicken Sie auf der Seite **Dienste starten** auf **weiter** , um die lync Server Dienste auf dem Server zu starten.
 
 3.  Klicken Sie nach dem erfolgreichen Start aller Dienste auf der Seite **Befehle ausführen** auf **Fertig stellen**.
     
@@ -55,7 +55,7 @@ Nachdem Sie den lokalen Konfigurationsspeicher auf Ihren Servern installiert, di
     
 
     > [!IMPORTANT]  
-    > Der Befehl zum Starten der Dienste auf dem Server ist die beste Methode, um zu melden, dass die Dienste tatsächlich gestartet wurden. Diese Anzeige spiegelt jedoch möglicherweise nicht den tatsächlichen Status des jeweiligen Diensts wider. Wir empfehlen, dass Sie den Schritt <STRONG>Dienst Status (optional)</STRONG> unmittelbar nach dem <STRONG>Start der Dienste</STRONG> verwenden, um die Microsoft Management Console (MMC) zu öffnen und zu bestätigen, dass die Dienste erfolgreich gestartet wurden. Wenn ein lync Server-Dienst nicht gestartet wurde, können Sie mit der rechten Maustaste auf diesen Dienst in der MMC klicken, und klicken Sie dann auf <STRONG>Start</STRONG>.
+    > Der Befehl zum Starten der Dienste auf dem Server ist eine Best-Effort-Methode zum Anzeigen, dass die Dienste wirklich gestartet wurden. Diese Anzeige spiegelt jedoch möglicherweise nicht den tatsächlichen Status des Diensts wider. Es wird empfohlen, den Schritt <STRONG>Dienststatus (optional)</STRONG> unmittelbar nach Ausführung des Schritts <STRONG>Dienste starten</STRONG> auszuführen und mithilfe der Microsoft Management Console (MMC) zu bestätigen, dass die Dienste erfolgreich gestartet wurden. Wenn lync Server Dienst noch nicht gestartet wurde, können Sie in der MMC mit der rechten Maustaste auf diesen Dienst klicken, und klicken Sie dann auf <STRONG>starten</STRONG>.
 
     
     </div>

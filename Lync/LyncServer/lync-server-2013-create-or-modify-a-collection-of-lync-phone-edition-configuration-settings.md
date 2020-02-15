@@ -1,5 +1,5 @@
 ---
-title: Erstellen oder Ändern einer Sammlung von lync Phone Edition-Konfigurationseinstellungen
+title: Erstellen oder Ändern einer Sammlung von lync Phone Edition Konfigurationseinstellungen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733683
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b3eaf347693d079ef713716c5ebd0d8c470feef
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 23248517bc0bba55c600e732c0a7edb96f468713
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763347"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035571"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Erstellen oder Ändern einer Sammlung von lync Phone Edition-Konfigurationseinstellungen in lync Server 2013
+# <a name="create-or-modify-a-collection-of-lync-phone-edition-configuration-settings-in-lync-server-2013"></a>Erstellen oder Ändern einer Sammlung von lync Phone Edition Konfigurationseinstellungen in lync Server 2013
 
 </div>
 
@@ -35,38 +35,38 @@ ms.locfileid: "41763347"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Wenn Sie lync Server installieren, erhalten Sie eine globale Sammlung von lync Phone Edition-Einstellungen. Diese Einstellungen gelten für alle Geräte, auf denen lync Phone Edition in Ihrer Bereitstellung ausgeführt wird. Sie können diese Einstellungen jederzeit ändern. Sie können auch eine neue Sammlung von Einstellungen einrichten, die für die Geräte in einer bestimmten Website gelten. Websiteeinstellungen haben Vorrang vor globalen Einstellungen.
+Wenn Sie lync Server installieren, erhalten Sie eine globale Sammlung von lync Phone Edition-Einstellungen. Diese Einstellungen gelten für alle Geräte, auf denen lync Phone Edition in Ihrer Bereitstellung. Sie können diese Einstellungen jederzeit ändern. Sie können auch eine neue Auflistung der Einstellungen einrichten, die für die Geräte an einem bestimmten Standort gelten. Standorteinstellungen haben Vorrang vor globalen Einstellungen.
 
-Die Konfigurationseinstellungen bestehen aus dem Sammlungsnamen, dem Bereich (Global oder Website), der SIP-Sicherheitseinstellung, dem Protokolliergrad, der sprach Dienstleistungsqualität (QoS), der Einstellung der Telefonsperre und den Details der Telefonsperre, also wie lange die a) die persönliche Identifikationsnummer entsperren ( PIN) muss sein und b) das Telefon bleibt inaktiv, bevor es sich selbst sperrt.
+Zu den Konfigurationseinstellungen zählen der Auflistungsname, der Geltungsbereich (global oder standortweit), die SIP-Sicherheitseinstellung, der Protokolliergrad, die Stufe der VoIP-Dienstqualität (QoS), das Einstellen der Telefonsperre sowie Details zur Telefonsperre, d. h., a) wie lang die Persönliche Identifikationsnummer (PIN-Nummer) sein muss, und b) nach wie viel Zeit im Ruhezustand das Telefon automatisch gesperrt wird.
 
 <div>
 
-## <a name="to-create-a-collection-of-lync-phone-edition-configuration-settings-or-edit-settings-for-an-existing-collection"></a>So erstellen Sie eine Sammlung von lync Phone Edition-Konfigurationseinstellungen oder Bearbeiten von Einstellungen für eine vorhandene Sammlung
+## <a name="to-create-a-collection-of-lync-phone-edition-configuration-settings-or-edit-settings-for-an-existing-collection"></a>So erstellen Sie eine Sammlung von lync Phone Edition Konfigurationseinstellungen oder Bearbeitungseinstellungen für eine vorhandene Sammlung
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Navigationsschaltfläche **Gerätekonfiguration** .
+3.  Klicken Sie in der linken Navigationsleiste auf **Clients** und dann auf die Navigationsschaltfläche **Gerätekonfiguration**.
 
-4.  Führen Sie auf der Seite **Device Configuration** eine der folgenden Aktionen aus:
+4.  Führen Sie auf der Seite **Gerätekonfiguration** einen der folgenden Schritte aus:
     
-      - Wenn Sie eine neue Sammlung von lync Phone Edition-Konfigurationseinstellungen erstellen möchten, klicken Sie auf **neu**, wählen Sie eine Website aus, klicken Sie auf **OK**, überprüfen Sie die Standardeinstellungen, und nehmen Sie bei Bedarf Änderungen vor.
+      - Um eine neue Sammlung von lync Phone Edition Konfigurationseinstellungen zu erstellen, klicken Sie auf **neu**, wählen Sie einen Standort aus, klicken Sie auf **OK**, überprüfen Sie die Standardeinstellungen, und nehmen Sie bei Bedarf Änderungen vor.
     
-      - Wenn Sie eine der Einstellungen in einer vorhandenen Sammlung bearbeiten möchten, klicken Sie auf die Sammlung, klicken Sie auf das Menü **Bearbeiten** , klicken Sie auf **Details anzeigen**, und nehmen Sie dann die gewünschten Änderungen vor.
+      - Zum Bearbeiten von Einstellungen in einer vorhandenen Auflistung klicken Sie auf die Auflistung und dann auf das Menü **Bearbeiten**. Wählen Sie **Details anzeigen** und nehmen Sie Ihre Änderungen vor.
         
         <div>
         
 
         > [!TIP]
-        > Wenn Sie zur Verwendung der Standardeinstellungen für die globale Sammlung zurückkehren möchten, klicken Sie auf die globale Sammlung, klicken Sie auf das Menü <STRONG>Bearbeiten</STRONG> , klicken Sie auf <STRONG>Löschen</STRONG>, und klicken Sie dann auf <STRONG>OK</STRONG>. Dadurch wird die globale Sammlung nicht gelöscht; die Einstellungen werden nur auf die Standardeinstellungen zurückgesetzt.
+        > Wenn Sie wieder die Standardeinstellungen für die globale Auflistung verwenden möchten, klicken Sie auf das Menü <STRONG>Bearbeiten</STRONG>, dann auf <STRONG>Löschen</STRONG> und schließlich auf <STRONG>OK</STRONG>. Hierdurch wird die globale Auflistung nicht gelöscht; die Einstellungen werden lediglich auf die Standardwerte zurückgesetzt.
 
         
         </div>
 
-5.  Klicken Sie auf **Commit ausführen**.
+5.  Klicken Sie auf **Commit**.
 
 </div>
 
@@ -74,17 +74,17 @@ Die Konfigurationseinstellungen bestehen aus dem Sammlungsnamen, dem Bereich (Gl
 
 ## <a name="creating-new-lync-phone-edition-configuration-settings-by-using-windows-powershell-cmdlets"></a>Erstellen neuer lync Phone Edition-Konfigurationseinstellungen mithilfe von Windows PowerShell-Cmdlets
 
-Sie können die Konfigurationseinstellungen für lync Phone Edition (nur im Website Bereich) mithilfe von Windows PowerShell und dem Cmdlet **New-CsUCPhoneConfiguration** erstellen. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Sie können lync Phone Edition Konfigurationseinstellungen können (nur auf Standortebene) mithilfe von Windows PowerShell und dem **New-CsUCPhoneConfiguration-** Cmdlet erstellt werden. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
 ## <a name="to-create-new-lync-phone-edition-configuration-settings-that-use-the-default-values"></a>So erstellen Sie neue lync Phone Edition-Konfigurationseinstellungen, die die Standardwerte verwenden
 
-  - Dieser Befehl erstellt einen neuen Satz von UC-Telefon Konfigurationseinstellungen für die Website "Redmond":
+  - Über diesen Befehl wird ein neuer Satz mit Konfigurationseinstellungen für das UC-Telefon für den Standort in Redmond erstellt:
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond"
     
-    Da im vorherigen Befehl keine weiteren Parameter (außer dem obligatorischen Identity-Parameter) angegeben wurden, werden in der neuen Auflistung von Konfigurationseinstellungen für alle Eigenschaften die Standardwerte verwendet.
+    Da im vorstehenden Befehl (abgesehen vom obligatorischen Identity-Parameter) keine Parameter angegeben wurden, verwendet die neue Auflistung mit Konfigurationseinstellungen für alle enthaltenen Eigenschaften die Standardwerte.
 
 </div>
 
@@ -92,7 +92,7 @@ Sie können die Konfigurationseinstellungen für lync Phone Edition (nur im Webs
 
 ## <a name="to-change-a-single-property-value-when-creating-new-lync-phone-edition-configuration-settings"></a>So ändern Sie einen einzelnen Eigenschaftswert beim Erstellen neuer lync Phone Edition-Konfigurationseinstellungen
 
-  - Um Einstellungen zu erstellen, die andere Eigenschaftswerte verwenden, geben Sie einfach den entsprechenden Parameter und Parameterwert ein. Wenn Sie beispielsweise eine Sammlung von UC-Telefon Konfigurationseinstellungen erstellen möchten, die standardmäßig Telefon sperren erfordern, verwenden Sie einen Befehl wie den folgenden:
+  - Zum Erstellen von Einstellungen, die verschiedene Eigenschaftswerte verwenden, geben Sie einfach den entsprechenden Parameter und den Parameterwert an. Um beispielsweise eine Auflistung von Konfigurationseinstellungen für UC-Telefone zu erstellen, für die standardmäßig die Telefonsperre erforderlich ist, müssen Sie einen Befehl wie den folgenden verwenden:
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond" -EnforcePhoneLock $True
 
@@ -102,13 +102,13 @@ Sie können die Konfigurationseinstellungen für lync Phone Edition (nur im Webs
 
 ## <a name="to-change-multiple-property-values-when-creating-new-lync-phone-edition-configuration-settings"></a>So ändern Sie beim Erstellen neuer lync Phone Edition-Konfigurationseinstellungen mehrere Eigenschaftswerte
 
-  - Mehrere Eigenschaftswerte können geändert werden, indem Sie mehrere Parameter angeben. Mit diesem Befehl wird beispielsweise die Telefon Verriegelung erzwungen und die minimale PIN-Länge auf 8 Ziffern festgelegt:
+  - Mehrere Eigenschaftswerte können durch die Angabe mehrerer Parameter geändert werden. Der folgende Befehl beispielsweise erzwingt die Telefonsperre und legt gleichzeitig als minimale PIN-Länge 8 Ziffern fest:
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond" -EnforcePhoneLock $True -MinPhonePinLength 8
 
 </div>
 
-Ausführliche Informationen finden Sie unter [New-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/Gg398445(v=OCS.15)).
+Ausführliche Informationen finden Sie unter [New-CsUCPhoneConfiguration](https://technet.microsoft.com/library/Gg398445(v=OCS.15)).
 
 </div>
 
@@ -117,9 +117,9 @@ Ausführliche Informationen finden Sie unter [New-CsUCPhoneConfiguration](https:
 ## <a name="see-also"></a>Siehe auch
 
 
-[Löschen einer vorhandenen Sammlung von lync Phone Edition-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)  
+[Löschen einer vorhandenen Sammlung von lync Phone Edition Konfigurationseinstellungen in lync Server 2013](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)  
 [Konfigurieren von Sicherheitseinstellungen für lync Phone Edition in lync Server 2013](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)  
-[Erzwingen der Telefon Sperrung in lync Server 2013](lync-server-2013-enforce-phone-locking.md)  
+[Erzwingen der Telefonsperre in lync Server 2013](lync-server-2013-enforce-phone-locking.md)  
   
 
 </div>

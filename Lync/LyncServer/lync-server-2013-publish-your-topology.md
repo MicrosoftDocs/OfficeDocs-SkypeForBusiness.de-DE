@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Veröffentlichen der Topologie'
+title: 'Lync Server 2013: Veröffentlichen Ihrer Topologie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bd80b5b3dfdb71a054c7600a06e892f1396f048
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 74ca4c34c8c130c5309a3255573b41fce35ef071
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747055"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987310"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="publish-your-topology-in-lync-server-2013"></a>Veröffentlichen der Topologie in Lync Server 2013
+# <a name="publish-your-topology-in-lync-server-2013"></a>Veröffentlichen Ihrer Topologie in lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41747055"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-08_
+_**Letztes Änderungsstand des Themas:** 2012-09-08_
 
-Jedes Mal, wenn Sie die Topologie mithilfe des Topologie-Generators erstellen, müssen Sie die Topologie in einer Datenbank im zentralen Verwaltungsspeicher veröffentlichen, damit die Daten für die Bereitstellung von lync Server 2013 verwendet werden können. Gehen Sie wie folgt vor, um Ihre Topologie zu veröffentlichen.
+Jedes Mal, wenn Sie die Topologie mithilfe des Topologie-Generators erstellen, müssen Sie die Topologie in einer Datenbank im zentralen Verwaltungsspeicher veröffentlichen, damit die Daten für die Bereitstellung von lync Server 2013 verwendet werden können. Führen Sie die folgenden Schritte aus, um Ihre Topologie zu veröffentlichen.
 
 <div>
 
 ## <a name="to-publish-the-topology"></a>So veröffentlichen Sie die Topologie
 
-1.  Starten Sie den Topologie-Generator: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topology Builder**.
+1.  Starten Sie den Topologie-Generator: Klicken Sie im **Startmenü**auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server Topologie-Generator**.
 
 2.  Klicken Sie im Topologie-Generator in der Konsolenstruktur mit der rechten Maustaste auf **lync 2013**, und klicken Sie dann auf **Topologie veröffentlichen**.
 
 3.  Klicken Sie auf der Seite **Willkommen** des Assistenten auf **Weiter**.
 
-4.  Klicken Sie auf der Seite " **Topologie-Generator** " auf " **weiter**".
+4.  Klicken Sie auf der Seite **Topologie-Generator hat einen zentralen Verwaltungsspeicher gefunden** auf **Weiter**.
 
 5.  Klicken Sie auf der Seite **Weitere Datenbanken erstellen** auf **Weiter**.
 
-6.  Wenn der Status angibt, dass die Daten Bank Erstellung erfolgreich war, gehen Sie folgendermaßen vor:
+6.  Wenn die erfolgreiche Erstellung der Datenbank angezeigt wird, führen Sie folgende Schritte aus:
     
       - Klicken Sie zum Anzeigen des Protokolls auf **Protokoll anzeigen**.
     
@@ -63,7 +63,7 @@ Jedes Mal, wenn Sie die Topologie mithilfe des Topologie-Generators erstellen, m
         
 
         > [!IMPORTANT]  
-        > Wenn es sich um eine neue Installation eines Edge-Servers oder eines Edge-Pools handelt, müssen Sie die Edgeserver-Konfiguration von einem vorhandenen Front-End-Server, Front-End-Pool oder Standard Edition-Server exportieren. Informationen zum Exportieren der Konfiguration finden Sie unter <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Exportieren Ihrer lync Server 2013-Topologie und Kopieren der Konfiguration auf externe Medien für die Edge-Installation</A>. Sie importieren die Konfigurationsdatei aus der externen Medien-oder Netzwerkfreigabe während der Setup-und Bereitstellungsphase der Edgeserver über den lync Server-Bereitstellungs-Assistenten.<BR>Sobald die Edgeserver in Betrieb sind und die lokale Configuration Management Store-Datenbank mit der internen Bereitstellung repliziert wird, werden nachfolgende Updates der lync Server 2013-Konfiguration veröffentlicht und auf die Edgeserver repliziert.
+        > Wenn es sich um eine Neuinstallation eines Edgeserver oder Edgepool handelt, müssen Sie die Edgeserver Konfiguration aus einer vorhandenen Front-End-Server, Front-End-Pool oder Standard Edition-Server exportieren. Informationen zum Exportieren der Konfiguration finden Sie unter <A href="lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md">Exportieren der lync Server 2013 Topologie und Kopieren der Konfiguration auf externe Medien für die Edge-Installation</A>. Sie importieren die Konfigurationsdatei von der externen Medien-oder Netzwerkfreigabe während der Setup-und Bereitstellungsphase der Edgeserver über den lync Server-Bereitstellungs-Assistenten.<BR>Sobald die Edgeserver betriebsbereit sind und die lokale Konfigurations Verwaltungsspeicher-Datenbank mit der internen Bereitstellung repliziert wird, werden nachfolgende Updates für die lync Server 2013 Konfiguration veröffentlicht und auf die Edgeserver repliziert.
 
         
         </div>

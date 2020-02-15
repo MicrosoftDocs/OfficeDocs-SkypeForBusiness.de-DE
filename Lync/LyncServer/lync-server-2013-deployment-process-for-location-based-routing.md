@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Bereitstellungsvorgang beim standortbasierten Routing'
+title: 'Lync Server 2013: Bereitstellungsprozess für standortbasiertes Routing'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02e09106bc9d96fbfab2935aec07f3c472f49d6a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 93b26498593038231be527c98e62ee1f13865df1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762603"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035177"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deployment-process-for-location-based-routing-in-lync-server-2013"></a>Bereitstellungsvorgang beim standortbasierten Routing in Lync Server 2013
+# <a name="deployment-process-for-location-based-routing-in-lync-server-2013"></a>Bereitstellungsprozess für standortbasiertes Routing in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762603"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-09_
+_**Letztes Änderungsstand des Themas:** 2013-03-09_
 
-Dieses Thema bietet eine Übersicht über den Prozess, der bei der Konfiguration des standortbasierten Routings erforderlich ist. Sie müssen lync Server Enterprise Edition oder Standard Edition mit Enterprise-VoIP bereitstellen, bevor Sie standortbasiertes Routing konfigurieren. Die für standortbasiertes Routing erforderlichen Komponenten sind bereits installiert und aktiviert, wenn Sie Enterprise-VoIP bereitstellen.
+Dieses Thema bietet eine Übersicht über den Prozess, der bei der Konfiguration des standortbasierten Routings erforderlich ist. Sie müssen lync Server Enterprise Edition oder Standard Edition mit Enterprise-VoIP bereitstellen, bevor Sie das standortbasierte Routing konfigurieren. Die Komponenten, die für das standortbasierte Routing erforderlich sind, sind bereits installiert und aktiviert, wenn Sie Enterprise-VoIP bereitstellen.
 
 ### <a name="location-based-routing-deployment-process"></a>Standortbasierter Routing Bereitstellungsprozess
 
@@ -78,25 +78,25 @@ CsServerAdministrator</p></td>
 <td> </td>
 </tr>
 <tr class="odd">
-<td><p>Konfigurieren von netzwerkregionen,-Websites und-Subnetzen</p></td>
+<td><p>Konfigurieren von netzwerkregionen, Standorten und Subnetzen</p></td>
 <td><ul>
 <li><p>Erstellen von netzwerkregionen</p></li>
-<li><p>Erstellen von Netzwerk Websites</p></li>
-<li><p>Ordnet Subnetze mit Netzwerkstandorten zu</p></li>
+<li><p>Erstellen von Netzwerkstandorten</p></li>
+<li><p>Assoziierte Subnetze mit Netzwerkstandorten</p></li>
 </ul></td>
 <td><p>CSVoiceAdmins<br />
 CsAdministrator<br />
 CsServerAdministrator</p></td>
-<td><p>Informationen zu netzwerkregionen,-Websites und-Subnetzen<br />
-Erstellen oder Ändern eines Netzwerkbereichs<br />
-Erstellen oder Ändern einer Netzwerk Website<br />
-Zuordnen eines Subnetzes zu einer Netzwerk Website</p></td>
+<td><p>Grundlegende Informationen zu Netzwerkregionen, Standorten und Subnetzen<br />
+Erstellen oder Ändern einer Netzwerkregion<br />
+Erstellen oder Ändern eines Netzwerkstandorts<br />
+Zuordnen eines Subnetzes zu einem Netzwerkstandort</p></td>
 </tr>
 <tr class="even">
 <td><p>Konfigurieren des standortbasierten Routings</p></td>
 <td><ul>
-<li><p>Erstellen von VoIP-Routing Richtlinien</p></li>
-<li><p>Separate trunk-Konfiguration pro trunk definieren</p></li>
+<li><p>Erstellen von Richtlinien für das VoIP-Routing</p></li>
+<li><p>Definieren einer separaten trunkkonfiguration pro trunk</p></li>
 <li><p>Ändern von VoIP-Richtlinien</p></li>
 <li><p>Aktivieren der standortbasierten Routing Konfiguration</p></li>
 </ul></td>
@@ -121,11 +121,11 @@ Die folgende Bereitstellung dient zur Veranschaulichung der Mechanismen, die dur
 
 ## <a name="incoming-pstn-calls"></a>Eingehende PSTN-Anrufe
 
-Ein Administrator kann den festgelegten trunk aktivieren, um Anrufe an "Standort 1 Gateway" für standortbasiertes Routing weiterzuleiten und das "Standort 1 Gateway" zu Site 1 zu verknüpfen. Sobald die Option aktiviert ist, werden Anrufe, die über "Standort 1 Gateway" weitergeleitet werden, nur an Benutzer weitergeleitet, die sich in Standort 1 befinden. Alle Anrufe, die über den trunk "Standort 1 Gateway" geleitet werden, der für Benutzer an einer anderen Website bestimmt ist, wie etwa Standort 2, werden blockiert, um eine PSTN-Maut Umgehung zu verhindern.
+Ein Administrator kann den definierten trunk so konfigurieren, dass er Anrufe an das Gateway "Standort 1" für das standortbasierte Routing weiterleitet und das "Standort 1-Gateway" mit Standort 1 verbindet. Nach der Aktivierung werden Anrufe, die über das Gateway "Standort 1" weitergeleitet werden, nur an Benutzer weitergeleitet, die sich an Standort 1 befinden. Alle Anrufe, die über den trunk "Standort 1-Gateway" geleitet werden, der für Benutzer an einem anderen Standort bestimmt ist, wie etwa Standort 2, werden blockiert, um eine PSTN-Maut Umgehung zu verhindern.
 
-Alle eingehenden PSTN-Anrufe über "Standort 1 Gateway" dürfen nur an Endpunkte weitergeleitet werden, die sich in Standort 1 befinden. Wenn beispielsweise "lync-Benutzer 1" zu Website 2 reist, werden alle eingehenden PSTN-Anrufe über "Standort 1 Gateway" nicht an die Endpunkte von "lync User 1" weitergeleitet, die sich in Standort 2 befinden. Dieselbe Routingregel gilt, wenn "lync-Benutzer 1" zu einer unbekannten Netzwerk Website reist, in der der Standort des Benutzers nicht ermittelt werden kann.
+Alle eingehenden PSTN-Anrufe über "Standort 1-Gateway" dürfen nur an Endpunkte an Standort 1 weitergeleitet werden. Wenn beispielsweise "lync Benutzer 1" zu Standort 2 reist, werden alle eingehenden PSTN-Anrufe über "Standort 1-Gateway" nicht an die Endpunkte von "lync User 1" an Standort 2 weitergeleitet. Dieselbe Routingregel gilt, wenn "lync Benutzer 1" zu einem unbekannten Netzwerkstandort reist, in dem der Speicherort des Benutzers nicht ermittelt werden kann.
 
-In der folgenden Tabelle wird die Benutzeroberfläche von "lync User 1" in diesem Kontext erläutert.
+In der folgenden Tabelle wird die Benutzerfreundlichkeit von "lync User 1" in diesem Kontext erläutert.
 
 
 <table>
@@ -138,17 +138,17 @@ In der folgenden Tabelle wird die Benutzeroberfläche von "lync User 1" in diese
 <thead>
 <tr class="header">
 <th></th>
-<th>Lync User 1-Endpunkte, die sich in Network Site 1 befinden</th>
-<th>Lync User 1-Endpunkte, die sich in Network Site 2 befinden</th>
-<th>Lync User 1-Endpunkte, die sich auf einer unbekannten Netzwerk Website befinden</th>
+<th>Lync User 1-Endpunkte an Netzwerkstandort 1</th>
+<th>Lync User 1-Endpunkte an Netzwerkstandort 2</th>
+<th>Lync User 1-Endpunkte befinden sich an einem unbekannten Netzwerkstandort</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Eingehende PSTN-Anrufe an lync-Benutzer 1</p></td>
-<td><p>Anrufe werden an Endpunkte an diesem Speicherort weitergeleitet.</p></td>
-<td><p>Anrufe werden an diesem Standort nicht an Endpunkte weitergeleitet.</p></td>
-<td><p>Anrufe werden an diesem Standort nicht an Endpunkte weitergeleitet.</p></td>
+<td><p>Anrufe werden an diesem Speicherort an Endpunkte weitergeleitet.</p></td>
+<td><p>Anrufe werden an diesem Speicherort nicht an Endpunkte weitergeleitet.</p></td>
+<td><p>Anrufe werden an diesem Speicherort nicht an Endpunkte weitergeleitet.</p></td>
 </tr>
 </tbody>
 </table>
@@ -160,11 +160,11 @@ In der folgenden Tabelle wird die Benutzeroberfläche von "lync User 1" in diese
 
 ## <a name="outgoing-pstn-calls"></a>Ausgehende PSTN-Anrufe
 
-Auf VoIP-Routen wird in beiden VoIP-Richtlinien verwiesen, die Benutzern direkt zugewiesen sind, und für VoIP-Routing Richtlinien, die Netzwerk Websites zugewiesen sind. Beide Richtlinien enthalten Verweise auf Routen, die verwendet werden können, um einen Anruf anders weiterzuleiten. Beispielsweise kann ein Administrator eine VoIP-Routing Richtlinie für alle Benutzer definieren, die sich auf der Netzwerk Website 1 befinden, um alle ausgehenden Anrufe über das "Standort 1 Gateway" weiterzuleiten, während die VoIP-Richtlinie einiger Benutzer eine Route für alle ausgehenden Anrufe über das "Standort-2-Gateway" definiert. Während sich diese Benutzer auf der Netzwerk Website 1 befinden, werden Ihre ausgehenden Anrufe über das "Standort 1 Gateway" weitergeleitet.
+Auf VoIP-Routen wird in beiden VoIP-Richtlinien verwiesen, die direkt Benutzern zugewiesen sind, sowie auf VoIP-Routing Richtlinien, die Netzwerkstandorten zugewiesen sind. Beide Richtlinien enthalten Verweise auf Routen, die verwendet werden können, um einen Anruf anders weiterzuleiten. Beispielsweise kann ein Administrator eine VoIP-Routing Richtlinie für alle Benutzer definieren, die sich im Netzwerkstandort 1 befinden, um alle ausgehenden Anrufe über das Gateway "Standort 1" weiterzuleiten, während die VoIP-Richtlinie einiger Benutzer eine Route für alle ausgehenden Anrufe über das Gateway "Standort 2" definiert. Während sich diese Benutzer im Netzwerkstandort 1 befinden, werden Ihre ausgehenden Anrufe über das Gateway "Standort 1" weitergeleitet.
 
-Wenn sich ein Benutzer in einer Netzwerk Website befindet, die für standortbasiertes Routing konfiguriert ist, setzt die VoIP-Routing Richtlinien Route des Netzwerkstandorts die VoIP-Richtlinien Route des Benutzers außer Kraft. Diese Regel eignet sich besonders für Benutzer, die temporär zu einer anderen Website wechseln. In diesem speziellen Fall wird ein Nutzer immer ein Gateway verwenden, das lokal an seinem Standort liegt; Wenn sich "lync User 3" auf "Website 2" befindet, werden alle ausgehenden Anrufe über "Standort 2-Gateway" weitergeleitet, aber wenn er zu Site 1 reist, werden alle ausgehenden Anrufe, die Sie bei Standort 1 getätigt haben, durch "Standort 1 Gateway" weitergeleitet.
+Wenn sich ein Benutzer an einem Netzwerkstandort befindet, der für das standortbasierte Routing konfiguriert ist, überschreibt die Route der VoIP-Routing Richtlinie des Netzwerkstandorts die VoIP-Richtlinien Route des Benutzers. Diese Regel ist besonders nützlich für Benutzer, die vorübergehend zu einer anderen Website navigieren. In diesem speziellen Fall verwendet ein Benutzer immer ein Gateway, das lokal an seinem Standort ist; Wenn sich "lync User 3" unter "Standort 2" befindet, werden alle ausgehenden Anrufe über "Standort-2-Gateway" weitergeleitet, aber wenn er zu Standort 1 reist, werden alle ausgehenden Anrufe, die bei Standort 1 getätigt werden, über "Standort 1-Gateway" weitergeleitet.
 
-In der folgenden Tabelle wird die Benutzeroberfläche von lync User 1 veranschaulicht, die einen ausgehenden Anruf von den folgenden Netzwerkstandorten aus durchführen.
+In der folgenden Tabelle wird die Benutzererfahrung von lync User 1, die einen ausgehenden Anruf von den folgenden Netzwerkstandorten aus durch zeigt, dargestellt.
 
 
 <table>
@@ -177,23 +177,23 @@ In der folgenden Tabelle wird die Benutzeroberfläche von lync User 1 veranschau
 <thead>
 <tr class="header">
 <th></th>
-<th>Netzwerk Website 1</th>
-<th>Netzwerk Website 2</th>
-<th>Unbekannte Netzwerk Website oder für standortbasiertes Routing nicht aktiviert</th>
+<th>Netzwerkstandort 1</th>
+<th>Netzwerkstandort 2</th>
+<th>Unbekannter Netzwerkstandort oder nicht für standortbasiertes Routing aktiviert</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Autorisierung ausgehender Anrufe</p></td>
-<td><p>Lync-Benutzer-1-VoIP-Richtlinie</p></td>
-<td><p>Lync-Benutzer-1-VoIP-Richtlinie</p></td>
-<td><p>Lync-Benutzer-1-VoIP-Richtlinie</p></td>
+<td><p>Autorisierung für ausgehende Anrufe</p></td>
+<td><p>VoIP-Richtlinie für lync-Benutzer 1</p></td>
+<td><p>VoIP-Richtlinie für lync-Benutzer 1</p></td>
+<td><p>VoIP-Richtlinie für lync-Benutzer 1</p></td>
 </tr>
 <tr class="even">
 <td><p>Weiterleiten von ausgehenden Anrufen</p></td>
-<td><p>Website 1 – VoIP-Routing Richtlinie</p></td>
-<td><p>Website 2 – VoIP-Routing Richtlinie</p></td>
-<td><p>VoIP-Richtlinie des Benutzers und nur für Systeme, die für standortbasiertes Routing nicht aktiviert sind</p></td>
+<td><p>VoIP-Routing Richtlinie für Standort 1</p></td>
+<td><p>VoIP-Routing Richtlinie für Standort 2</p></td>
+<td><p>VoIP-Richtlinie des Benutzers und nur für Systeme, die nicht für standortbasiertes Routing aktiviert sind</p></td>
 </tr>
 </tbody>
 </table>
@@ -203,11 +203,11 @@ In der folgenden Tabelle wird die Benutzeroberfläche von lync User 1 veranschau
 
 <div>
 
-## <a name="call-transfers-and-forwards"></a>Anruf Übertragungen und Weiterleitungen
+## <a name="call-transfers-and-forwards"></a>Anruf Übertragungen und-Weiterleitungen
 
-Wenn Anrufe übertragen oder weitergeleitet werden, wird das Routing von Anrufen vom standortbasierten Routing beeinflusst.
+Bei der Übertragung oder Weiterleitung von Anrufen wird das Routing der Anrufe von Standort basiertem Routing beeinflusst.
 
-Die folgende Tabelle zeigt, wie lync-Benutzer 1 einen PSTN-Anruf an einen anderen lync-Benutzer übertragen oder weiterleiten.
+In der folgenden Tabelle wird lync-Benutzer 1, der einen PSTN-Anruf an einen anderen lync-Benutzer übertragen oder weiterleitet, dargestellt.
 
 
 <table>
@@ -219,24 +219,24 @@ Die folgende Tabelle zeigt, wie lync-Benutzer 1 einen PSTN-Anruf an einen andere
 </colgroup>
 <thead>
 <tr class="header">
-<th>Benutzer initiiert Anrufübertragung oder Weiterleitung</th>
+<th>Benutzer, der die Anrufweiterleitung initiiert oder weiterleitet</th>
 <th>Lync-Benutzer 2</th>
 <th>Lync-Benutzer 4</th>
-<th>Lync-Benutzer in der Netzwerk Website nicht für standortbasiertes Routing aktiviert</th>
+<th>Lync-Benutzer im Netzwerkstandort nicht für standortbasiertes Routing aktiviert</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Lync-Benutzer 1</p></td>
-<td><p>Anrufweiterleitung oder -durchstellung ist erlaubt</p></td>
-<td><p>Anrufweiterleitung oder -durchstellung ist nicht erlaubt</p></td>
-<td><p>Anrufweiterleitung oder -durchstellung ist nicht erlaubt</p></td>
+<td><p>Anrufweiterleitung oder-Übertragung ist zulässig</p></td>
+<td><p>Anrufweiterleitung oder-Übertragung ist nicht zulässig</p></td>
+<td><p>Anrufweiterleitung oder-Übertragung ist nicht zulässig</p></td>
 </tr>
 </tbody>
 </table>
 
   
-Die folgende Tabelle zeigt, wie sich das standortbasierte Routing auf die Weiterleitung des Anrufs auswirkt, basierend auf dem Standort des lync-Benutzers, der übertragen wird (lync User 2, lync User 4 usw.) an einen PSTN-Endpunkt
+Die folgende Tabelle zeigt, wie sich das standortbasierte Routing auf die Weiterleitung des Anrufs auswirkt, basierend auf dem Speicherort des übertragenden lync-Benutzers (lync Benutzer 2, lync-Benutzer 4 usw.) an einen PSTN-Endpunkt.
 
 
 <table>
@@ -248,18 +248,18 @@ Die folgende Tabelle zeigt, wie sich das standortbasierte Routing auf die Weiter
 </colgroup>
 <thead>
 <tr class="header">
-<th>Endpunkt, an den der Anruf übertragen oder weitergeleitet wird</th>
+<th>Endpunkt, an den der Anruf übertragen oder an diese weitergeleitet wird</th>
 <th>Lync-Benutzer 2</th>
 <th>Lync-Benutzer 4</th>
-<th>Lync-Benutzer in der Netzwerk Website nicht für standortbasiertes Routing aktiviert</th>
+<th>Lync-Benutzer im Netzwerkstandort nicht für standortbasiertes Routing aktiviert</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Endpunkt im öffentlichen Telefonnetz</p></td>
-<td><p>Anrufweiterleitung oder-Übertragung wird über Website 1-VoIP-Routing Richtlinie und-Ausstieg über das Website 1-Gateway weitergeleitet</p></td>
-<td><p>Anrufweiterleitung oder-Übertragung wird über die Website 2-VoIP-Routing Richtlinie und den Ausstieg über das Standort-2-Gateway weitergeleitet</p></td>
-<td><p>Anrufweiterleitung oder-Übertragung wird über die lync-Benutzer VoIP-Richtlinie und den Ausstieg über ein Gateway weitergeleitet, das für standortbasiertes Routing nicht aktiviert ist (sofern verfügbar)</p></td>
+<td><p>PSTN-Endpunkt</p></td>
+<td><p>Anrufweiterleitung oder-Übertragung wird über Standort 1-VoIP-Routing Richtlinie und Ausstieg über Standort 1-Gateway weitergeleitet.</p></td>
+<td><p>Anrufweiterleitung oder-Übertragung wird über Standort 2-VoIP-Routing Richtlinie und Ausstieg über Standort-2-Gateway weitergeleitet.</p></td>
+<td><p>Anrufweiterleitung oder-Übertragung wird über die VoIP-Richtlinie für lync-Benutzer weitergeleitet und über ein Gateway nicht für standortbasiertes Routing aktiviert (sofern verfügbar)</p></td>
 </tr>
 </tbody>
 </table>
@@ -269,11 +269,11 @@ Die folgende Tabelle zeigt, wie sich das standortbasierte Routing auf die Weiter
 
 <div>
 
-## <a name="simultaneous-ringing"></a>Paralleles Anrufen
+## <a name="simultaneous-ringing"></a>Gleichzeitiges Klingeln
 
-Sobald standortbasiertes Routing in der Beispieltopologie konfiguriert ist, werden die folgenden Interaktionen erzwungen.
+Nachdem das standortbasierte Routing in der Beispieltopologie konfiguriert wurde, werden die folgenden Interaktionen erzwungen.
 
-In der folgenden Tabelle wird gezeigt, ob das standortbasierte Routing das gleichzeitige Klingeln für verschiedene lync-Benutzer ermöglicht (also lync-Benutzer 2, lync-Benutzer 4 usw.).
+In der folgenden Tabelle wird gezeigt, ob das standortbasierte Routing das gleichzeitige Klingeln für verschiedene lync-Benutzer ermöglicht (also lync User 2, lync User 4 usw.).
 
 
 <table>
@@ -285,10 +285,10 @@ In der folgenden Tabelle wird gezeigt, ob das standortbasierte Routing das gleic
 </colgroup>
 <thead>
 <tr class="header">
-<th>Eingehendes PSTN-Anruf Ziel</th>
+<th>Ziel eines eingehenden PSTN-Anrufs</th>
 <th>Lync-Benutzer 2</th>
 <th>Lync-Benutzer 4</th>
-<th>Lync-Benutzer in der Netzwerk Website nicht für standortbasiertes Routing aktiviert</th>
+<th>Lync-Benutzer im Netzwerkstandort nicht für standortbasiertes Routing aktiviert</th>
 </tr>
 </thead>
 <tbody>
@@ -302,7 +302,7 @@ In der folgenden Tabelle wird gezeigt, ob das standortbasierte Routing das gleic
 </table>
 
   
-In der folgenden Tabelle wird gezeigt, ob ein standortbasiertes Routing das gleichzeitige Anrufen an einen PSTN-Endpunkt von verschiedenen lync-Benutzern ermöglicht (also lync-Benutzer 2, lync-Benutzer 4 usw.).
+In der folgenden Tabelle wird veranschaulicht, ob das standortbasierte Routing das gleichzeitige Klingeln an einen PSTN-Endpunkt von verschiedenen lync-Benutzern ermöglicht (also lync User 2, lync User 4 usw.).
 
 
 <table>
@@ -314,18 +314,18 @@ In der folgenden Tabelle wird gezeigt, ob ein standortbasiertes Routing das glei
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ziel für paralleles Anrufen</th>
+<th>Gleichzeitiges Klingel Ziel</th>
 <th>Lync-Benutzer 2</th>
 <th>Lync-Benutzer 4</th>
-<th>Lync-Benutzer in der Netzwerk Website nicht für standortbasiertes Routing aktiviert</th>
+<th>Lync-Benutzer im Netzwerkstandort nicht für standortbasiertes Routing aktiviert</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lync-Benutzer 1-Mobiltelefon (PSTN-Endpunkt)</p></td>
-<td><p>Anrufweiterleitung über die VoIP-Routing Richtlinie des Netzwerkstandorts und den Ausstieg über das Website 1-Gateway</p></td>
-<td><p>Anrufweiterleitung über die VoIP-Routing Richtlinie des Netzwerkstandorts und den Ausstieg über das Gateway des Standorts 2</p></td>
-<td><p>Anrufweiterleitung über die VoIP-Richtlinie für Anrufer und wird über ein PSTN-Gateway auslaufen, das für standortbasiertes Routing nicht aktiviert ist</p></td>
+<td><p>Mobiltelefon für lync-Benutzer 1 (PSTN-Endpunkt)</p></td>
+<td><p>Anrufweiterleitung über die VoIP-Routing Richtlinie des Netzwerkstandorts und Ausstieg über Standort 1-Gateway</p></td>
+<td><p>Anruf weitergeleitet über die VoIP-Routing Richtlinie von Netzwerkstandort 2 und Ausgangspunkt über Standort 2-Gateway</p></td>
+<td><p>Anrufweiterleitung über die VoIP-Richtlinie für Anrufer und Austritt über ein PSTN-Gateway, das nicht für standortbasiertes Routing aktiviert ist</p></td>
 </tr>
 </tbody>
 </table>
@@ -340,7 +340,7 @@ In der folgenden Tabelle wird gezeigt, ob ein standortbasiertes Routing das glei
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planung des standortbasierten Routings in Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+[Planen des standortbasierten Routings in lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

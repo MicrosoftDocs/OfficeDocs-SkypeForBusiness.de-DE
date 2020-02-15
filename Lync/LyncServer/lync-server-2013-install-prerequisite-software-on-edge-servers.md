@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Installieren der erforderlichen Software auf Edgeservern'
+title: 'Lync Server 2013: Installieren der erforderlichen Software auf Edge-Servern'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 308459789de6ecbd153b66ef160e4a129223e1d1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5086c841f52a83c925367f3a4accfdf5326317a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763699"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008287"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-prerequisite-software-on-edge-servers-for-lync-server-2013"></a>Install prerequiInstallieren der erforderlichen Software auf Edgeservern für Lync Server 2013
+# <a name="install-prerequisite-software-on-edge-servers-for-lync-server-2013"></a>Installieren der erforderlichen Software auf Edge-Servern für lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41763699"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-08_
+_**Letztes Änderungsstand des Themas:** 2012-09-08_
 
-Sie müssen die erforderliche Software auf jedem Edgeserver bereitstellen, den Sie vor der Installation von lync Server 2013 bereitstellen. Dies umfasst die Installation des Betriebssystems auf einem Server, der die Systemanforderungen erfüllt. Details zu den Systemanforderungen, einschließlich der unterstützten Betriebssysteme, finden Sie unter [Systemanforderungen für externe Benutzerzugriffs Komponenten für lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md).
+Sie müssen die erforderliche Software auf jeder Edgeserver bereitstellen, die Sie vor der Installation von lync Server 2013 bereitstellen. Dies umfasst die Installation des Betriebssystems auf einem Server, der die Systemanforderungen erfüllt. Ausführliche Informationen zu den Systemanforderungen, einschließlich der unterstützten Betriebssysteme, finden Sie unter [Systemanforderungen für externe Benutzerzugriffs Komponenten für lync Server 2013](lync-server-2013-system-requirements-for-external-user-access-components.md).
 
 </div>
 

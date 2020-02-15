@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Unterstützung für direkte SIP-Verbindungen'
+title: Unterstützung für lync Server 2013 direkte SIP-Verbindungen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b987069b4b242ab91cf1b4e6a6cadf4113ed387
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: be5a7fc7fba086130775a3f394af435c0d823f04
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762263"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036705"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="direct-sip-connections-support-in-lync-server-2013"></a>Unterstützung für direkte SIP-Verbindungen in Lync Server 2013
+# <a name="direct-sip-connections-support-in-lync-server-2013"></a>Unterstützung für direkte SIP-Verbindungen in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762263"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-29_
+_**Letztes Änderungsstand des Themas:** 2012-06-29_
 
-Lync Server 2013 unterstützt die Verwendung von direkten SIP-Verbindungen, um lync Server 2013 mit einem der folgenden zu verbinden:
+Lync Server 2013 unterstützt die Verwendung von direkten SIP-Verbindungen, um lync Server 2013 mit einer der folgenden Optionen zu verbinden:
 
-  - An IP-PBX 
+  - IP-Nebenstellenanlage
 
-  - A PSTN gateway
+  - PSTN-Gateway
 
-Die Vermittlungsserver in einem lync Server 2013-Pool können mehrere Gateways (Session Border Controllers, SBCS) steuern, die von Telefoniedienstanbieter bereitgestellt werden, oder eine Kombination davon. Darüber hinaus können mehrere Vermittlungsserver im Pool mit einem einzelnen Gateway interagieren.
+Die Vermittlungsserver in einem lync Server 2013 Pool können mehrere Gateways, Session Border Controller (SBCS), die von Telefondienstanbietern bereitgestellt werden, oder eine Kombination daraus steuern. Außerdem ist die Interaktion mehrerer Vermittlungsserver im Pool mit einem einzelnen Gateway möglich.
 
-Sie können das offene Interoperabilitäts Programm Microsoft Unified Communications für die Enterprise-Telefonie-Infrastruktur verwenden, um qualifizierte PSTN-Gateways, IP-PBX-Anlagen und SIP-Trunking-Dienste zu finden. Ausführliche Informationen finden Sie auf [http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)der Microsoft Unified Communications Open Interoperability Program-Website unter.
+Über das Microsoft Unified Communications Open Interoperability Program für die Enterprise-Telefonieinfrastruktur können Sie qualifizierte PSTN-Gateways, IP-Nebenstellenanlagen und SIP-Trunking-Dienste finden. Ausführliche Informationen finden Sie auf [http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)der Website Microsoft Unified Communications Open Interoperability Program unter.
 
-Details zu den Topologie-und Bereitstellungsoptionen für direkte SIP-Verbindungen finden Sie unter [direkte SIP-Verbindungen in lync Server 2013](lync-server-2013-direct-sip-connections.md) in der Planungsdokumentation.
+Ausführliche Informationen zu den Topologie-und Bereitstellungsoptionen für direkte SIP-Verbindungen finden Sie unter [Direct SIP Connections in lync Server 2013](lync-server-2013-direct-sip-connections.md) in der Planungsdokumentation.
 
 </div>
 

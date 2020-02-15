@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Standort des Benutzers'
+title: 'Lync Server 2013: Speicherort des Benutzers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9754b75b941944a445da33750190b9347aeb9313
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bbb581f049e8d45d16ace385fc26908d3d8301b9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744435"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007654"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="users-location-in-lync-server-2013"></a>Standort des Benutzers in Lync Server 2013
+# <a name="users-location-in-lync-server-2013"></a>Speicherort des Benutzers in lync Server 2013
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "41744435"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-03-09_
+_**Letztes Änderungsstand des Themas:** 2013-03-09_
 
-Standortbasiertes Routing nutzt dieselben netzwerkregionen,-Standorte und-Subnetze, wie Sie in lync Server von E9-1-1, CAC und medienumgehung definiert sind, um Anruf Weiterleitungs Einschränkungen anzuwenden, um die PSTN-Maut Umgehung zu verhindern. Der Standort eines Benutzers wird durch das IP-Subnetz der lync-Endpunkte des Benutzers bestimmt, von dem die Verbindung hergestellt wird. Jedes IP-Subnetz ist einem Netzwerkstandort zugeordnet, von denen mehrere zu vom Administrator definierten Netzwerkbereichen zusammengefasst sind. Das standortbasierte Routing wird auf Grundlage des Netzwerkstandorts des Benutzers durchgesetzt.
+Das standortbasierte Routing nutzt dieselben netzwerkregionen, Standorte und Subnetze, die in lync Server verwendet werden, die von E9-1-1, CAC und der medienumgehung definiert wurden, um Anruf Weiterleitungs Einschränkungen anzuwenden, um die PSTN-Maut Umgehung zu verhindern. Der Standort eines Benutzers wird durch das IP-Subnetz der lync-Endpunkte des Benutzers festgelegt, von denen eine Verbindung hergestellt wird. Jedes IP-Subnetz ist einem Netzwerkstandort zugeordnet, der in vom Administrator definierten netzwerkregionen aggregiert wird. Das standortbasierte Routing wird basierend auf dem Netzwerkstandort des Benutzers erzwungen.
 
-Standortbasierte Routingregeln werden pro Netzwerk Website angewendet, was bedeutet, dass ein bestimmter Satz von Regeln auf alle Endpunkte angewendet wird, die für standortbasiertes Routing aktiviert sind, die sich innerhalb desselben Netzwerkstandorts befinden. Administratoren können das standortbasierte Routing auf Netzwerkstandorte anwenden, die dies erfordern.
+Standortbasierte Routingregeln werden auf einer pro Netzwerkstandort Basis angewendet, was bedeutet, dass ein bestimmter Satz von Regeln auf alle für standortbasiertes Routing aktivierten Endpunkte angewendet wird, die sich innerhalb desselben Netzwerkstandorts befinden. Administratoren können standortbasiertes Routing auf Netzwerkstandorte anwenden, für die es erforderlich ist.
 
-Richtlinien für das VoIP-Routing können auf Grundlage von Netzwerkstandorten definiert werden, um ein bestimmtes Gateway in das öffentliche Telefonnetz zu definieren, das dann von allen Benutzern, die sich am gleichen Netzwerkstandort befinden, für Verbindungen mit Rufnummern im öffentlichen Telefonnetz verwendet werden muss. Solche VoIP-Routing Richtlinien haben Vorrang vor dem Routing, das durch die VoIP-Richtlinie des Benutzers definiert wird, wenn sich der Benutzer in einer Netzwerk Website befindet, die für standortbasiertes Routing aktiviert ist, und dadurch das Routing von Anrufen über andere PSTN-Gateways verhindert, die für Standortbasiertes Routing Wenn ein lync-Benutzer einen PSTN-Anruf anlegt, bestimmt die VoIP-Richtlinie des Benutzers, ob der Benutzer zum tätigen des Anrufs autorisiert werden kann. Wenn die VoIP-Richtlinie des Benutzers es dem Benutzer ermöglicht, den Anruf zu tätigen, bestimmt standortbasiertes Routing, von welchem PSTN-Gateway der Anruf ausgehen soll. Standortbasiertes Routing macht diese Ermittlung auf Grundlage des Standorts des Benutzers.
+VoIP-Routing Richtlinien können auf einer pro Netzwerkstandort Basis definiert werden, um ein bestimmtes PSTN-Gateway zu definieren, das von allen Benutzern am Netzwerkstandort zum Anrufen von PSTN-Telefonnummern verwendet werden soll. Solche Richtlinien für das VoIP-Routing haben Vorrang vor dem Routing, das durch die VoIP-Richtlinie des Benutzers definiert wird, wenn sich der Benutzer an einem Netzwerkstandort befindet, der für das standortbasierte Routing aktiviert ist, und er verhindert das Weiterleiten von Anrufen über andere PSTN-Gateways, die für aktiviert sind. Standortbasiertes Routing. Wenn ein lync-Benutzer einen PSTN-Anruf tätigt, bestimmt die VoIP-Richtlinie des Benutzers, ob der Benutzer zum tätigen des Anrufs autorisiert werden kann. Wenn die VoIP-Richtlinie des Benutzers es dem Benutzer ermöglicht, den Anruf zu tätigen, bestimmt das standortbasierte Routing, von welchem PSTN-Gateway der Anruf ausgehen soll. Durch das standortbasierte Routing wird diese Bestimmung basierend auf dem Standort des Benutzers festgelegt.
 
-Der Standort eines Benutzers kann auf folgende Weise kategorisiert werden:
+Ein Benutzer Speicherort kann wie folgt kategorisiert werden:
 
-  - Der Benutzer befindet sich in einer bekannten Netzwerk Website, die für standortbasiertes Routing aktiviert ist, und seine DID-Nummer (Direktwahl) wird auf einem PSTN-Gateway beendet, das sich auf demselben Netzwerkstandort befindet (also Office). Das Routing ausgehender Anrufe erfolgt anhand der VoIP-Routingrichtlinie des Netzwerkstandorts, an dem sich der Benutzer befindet. Aus dem öffentlichen Telefonnetz für den Benutzer eingehende Anrufe werden an Endpunkte geroutet, die sich am gleichen Netzwerkstandort wie das Gateway in das öffentliche Telefonnetz befinden.
+  - Der Benutzer befindet sich an einem bekannten Netzwerkstandort, der für standortbasiertes Routing aktiviert ist, und seine DID-Nummer (direktes Einwahl Telefon) wird auf einem PSTN-Gateway am gleichen Netzwerkstandort (also Office) beendet. Das Routing von ausgehenden Anrufen erfolgt über die VoIP-Routing Richtlinie des Netzwerkstandorts, an dem sich der Benutzer befindet. Eingehende PSTN-Anrufe an den Benutzer werden an Endpunkte geroutet, die sich am selben Netzwerkstandort wie das PSTN-Gateway befinden.
 
-  - Der Benutzer befindet sich an einem bekannten Netzwerkstandort, der sich von dem Netzwerkstandort unterscheidet, an dem sich das Gateway in das öffentliche Telefonnetz befindet (d. h., der Benutzer ist zu einem anderen Unternehmensstandort gereist). Das Routing ausgehender Anrufe erfolgt anhand der VoIP-Routingrichtlinie des Netzwerkstandorts, an dem sich der Benutzer befindet. Für den Benutzer aus dem öffentlichen Telefonnetz eingehende Anrufe werden nicht an Endpunkte geroutet, die sich an anderen Standorten befinden als das Gateway in das öffentliche Telefonnetz, um das Umgehen von Gebühren im öffentlichen Telefonnetz zu vermeiden.
+  - Der Benutzer befindet sich an einem bekannten Netzwerkstandort, der sich vom Netzwerkstandort unterscheidet, auf dem sich das PSTN-Gateway befindet. (d. h., der Benutzer hat in ein anderes Unternehmensbüro gereist). Für das Routing von ausgehenden Anrufen wird die VoIP-Routing Richtlinie des Netzwerkstandorts verwendet, an dem sich der Benutzer befindet. Eingehende PSTN-Anrufe an den Benutzer werden nicht an Endpunkte geroutet, die sich an unterschiedlichen Standorten befinden als das PSTN-Gateway, um eine PSTN-Maut Umgehung zu verhindern.
 
-  - Wenn sich ein Benutzer in einer Netzwerk Website befindet, die der lync Server-Bereitstellung unbekannt ist, basiert das Routing von ausgehenden Anrufen auf der VoIP-Richtlinie, die dem Benutzer für PSTN-Gateways zugewiesen ist, die nicht an standortbasierte Routing Einschränkungen gebunden sind. Eingehende Anrufe aus dem öffentlichen Telefonnetz werden nicht an Endpunkte geroutet, die sich an unbekannten Netzwerkstandorten befinden, um das Umgehen von Gebühren im öffentlichen Telefonnetz zu vermeiden.
+  - Wenn sich ein Benutzer an einem Netzwerkstandort befindet, der der lync Server-Bereitstellung unbekannt ist, basiert das Routing von ausgehenden Anrufen auf der VoIP-Richtlinie, die dem Benutzer für PSTN-Gateways zugewiesen ist, die nicht an standortbasierte Routing Einschränkungen gebunden sind. Eingehende PSTN-Anrufe werden nicht an Endpunkte geroutet, die sich an unbekannten Netzwerkstandorten befinden, um eine PSTN-Maut Umgehung zu verhindern.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Anleitungen für das standortbasierte Routing in Lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)  
+[Leitfaden für standortbasiertes Routing in lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)  
   
 
 </div>

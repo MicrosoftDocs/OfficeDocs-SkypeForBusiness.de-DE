@@ -1,5 +1,5 @@
 ---
-title: Ändern von VoIP-Routen zur Verwendung des neuen lync Server 2013-Vermittlungsservers
+title: Ändern der VoIP-Routen für die Verwendung der neuen lync Server 2013 Vermittlungsserver
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -13,20 +13,20 @@ ms:contentKeyID: 48185069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40f9bed4262adcabdb23e5b5b85e7de43292d18b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c8edaf6c8d912e9784a0a3df6dfe27a45aa873e7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727555"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a>Ändern von VoIP-Routen zur Verwendung des neuen lync Server 2013-Vermittlungsservers
+# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a>Ändern der VoIP-Routen für die Verwendung der neuen lync Server 2013 Vermittlungsserver
 
 </div>
 
@@ -36,37 +36,37 @@ ms.locfileid: "41727555"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Bei diesem Verfahren werden die VoIP-Routen so geändert, dass der lync Server 2013-Vermittlungsserver anstelle des Legacy Office Communications Server 2007 R2-Vermittlungsservers verwendet wird.
+Bei diesem Verfahren werden die VoIP-Routen so geändert, dass die lync Server 2013 Vermittlungsserver anstelle der Legacy Office Communications Server 2007 R2 Vermittlungsserver verwendet werden.
 
 <div>
 
-## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a>So ändern Sie die VoIP-Routen zur Verwendung des neuen Vermittlungsservers
+## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a>So ändern Sie die VoIP-Routen für die Verwendung des neuen Vermittlungsservers
 
-1.  Systemsteuerung für Lync Server 2013
+1.  Lync Server 2013-Systemsteuerung
 
-2.  Wählen Sie im linken Bereich die Option **VoIP-Routing** und dann **Route**aus.
+2.  Wählen Sie im linken Bereich **VoIP-Routing** und dann **Route** aus.
 
-3.  Klicken Sie auf **neu** , um eine neue VoIP-Route zu erstellen.
+3.  Klicken Sie auf **Neu**, um eine neue VoIP-Route zu erstellen.
 
 4.  Füllen Sie die folgenden Felder aus:
     
-      - **Name**: Geben Sie einen aussagekräftigen Namen für die VoIP-Route ein. Für dieses Dokument werden wir **W15PSTNRoute**verwenden.
+      - **Name**: Geben Sie einen beschreibenden Namen für die VoIP-Route ein. Im Rahmen dieses Dokuments wird **W15PSTNRoute** verwendet.
     
-      - **Beschreibung**: Geben Sie eine kurze Beschreibung der VoIP-Route ein.
+      - **Beschreibung**: Geben Sie eine kurze Beschreibung für die VoIP-Route ein.
 
-5.  Überspringen Sie alle verbleibenden Abschnitte, bis Sie **zugeordnete Gateways**erreichen. Klicken Sie auf **Hinzufügen**. Wählen Sie das neue Standardgateway aus, und klicken Sie auf **OK**.
+5.  Überspringen Sie alle verbleibenden Abschnitte, bis Sie zu **Zugeordnete Gateways** gelangen. Klicken Sie auf **Hinzufügen**. Wählen Sie das neue Standardgateway aus, und klicken Sie auf **OK**.
 
-6.  Klicken Sie unter **zugeordnete PSTN-Nutzungen**auf **auswählen**.
+6.  Klicken Sie unter **Zugeordnete PSTN-Verwendungen** auf **Auswählen**.
 
-7.  Wählen Sie auf der Seite **PSTN-Verwendungsdaten Satz auswählen** einen Datensatznamen aus, und klicken Sie dann auf **OK**.
+7.  Wählen Sie auf der Seite **PSTN-Verwendungseintrag auswählen** den Namen eines Eintrags aus, klicken Sie dann auf **OK**.
 
-8.  Klicken Sie auf der Seite **neue VoIP-Route** auf **OK** , um die **VoIP-Route**zu erstellen.
+8.  Klicken Sie auf der Seite **Neue VoIP-Route** auf **OK**, um die **VoIP-Route** zu erstellen.
 
-9.  Wählen Sie auf der Seite **VoIP-Routing** die Option **Route**aus.
+9.  Wählen Sie auf der Seite **VoIP-Routing** die Option **Route** aus.
 
-10. Verschieben Sie die neu erstellte Route an den Anfang der Liste, und wählen Sie dann **Commit**aus.
+10. Verschieben Sie die neu erstellte Route an den Anfang der Liste, und wählen Sie dann **Commit** aus.
 
 </div>
 

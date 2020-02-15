@@ -1,5 +1,5 @@
 ---
-title: Analysieren und Beheben von Problemen, die von Best Practices Analyzer identifiziert werden
+title: Analysieren und Beheben von Problemen, die von Best Practices Analyzer identifiziert wurden
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185751
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 180cbbc79cba7f0379a832688ba7f9073b7b9798
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7926308c69c89c977705d5e4d51d73e78b46d1b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737815"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998280"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41737815"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-25_
+_**Letztes Änderungsstand des Themas:** 2012-06-25_
 
-Best Practices Analyzer nimmt keine Änderungen an Ihrer Umgebung vor, um Probleme zu beheben. Sie erkennt nur potenzielle Probleme und zeigt Informationen dazu an, wie Sie aufgelöst werden können. Wenn Sie Probleme identifizieren, die Sie beheben müssen, müssen Sie die entsprechende Lösung ermitteln. Die Themen in diesem Abschnitt helfen Ihnen, einige der wichtigsten potenziellen Probleme zu identifizieren und zu beheben.
+Best Practices Analyzer macht keine Änderungen an Ihrer Umgebung, um Probleme zu beheben. Sie erkennt nur mögliche Probleme und zeigt Informationen über deren Lösung an. Wenn Sie Probleme identifizieren, die Sie lösen müssen, müssen Sie die entsprechende Lösung bestimmen. Die Themen in diesem Abschnitt helfen Ihnen, einige der wichtigsten potenziellen Probleme zu identifizieren und zu beheben.
 
 <div>
 
@@ -45,7 +45,7 @@ Best Practices Analyzer nimmt keine Änderungen an Ihrer Umgebung vor, um Proble
 
   - [Probleme mit dem Umgebungs Test in lync Server 2013](lync-server-2013-issues-with-the-environment-test.md)
 
-  - [Probleme mit dem Topologie-Test in lync Server 2013](lync-server-2013-issues-with-the-topology-test.md)
+  - [Probleme beim Topologie-Test in lync Server 2013](lync-server-2013-issues-with-the-topology-test.md)
 
 </div>
 

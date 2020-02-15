@@ -12,16 +12,16 @@ ms:contentKeyID: 48184074
 ms.date: 05/01/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54aab5efbca06d918cc2dbeccc0e36aee9d4abf8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ecd505990b9a060c3b669700ea9192dc1ad6b84c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756299"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,13 +35,13 @@ ms.locfileid: "41756299"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-04-30_
+_**Letztes Änderungsstand des Themas:** 2015-04-30_
 
-Um die Qualität des Diensts zu implementieren, sollten Sie identische Portbereiche für die Audio-, Video-und Anwendungsfreigabe auf Ihren Konferenz-, Anwendungs-und Vermittlungsservern konfigurieren. Darüber hinaus dürfen sich diese Portbereiche in keiner Weise überlappen. Wenn Sie ein einfaches Beispiel verwenden möchten, nehmen Sie an, dass Sie die Ports 10000 bis 10999 für Video auf Ihren Konferenzservern verwenden. Das bedeutet, dass Sie auch Ports 10000 bis 10999 für Video auf Ihren Anwendungs-und Vermittlungsservern reservieren müssen. Wenn dies nicht der Fall ist, funktioniert QoS nicht erwartungsgemäß.
+Um eine QoS-Infrastruktur (Quality of Service, Dienstqualität) zu implementieren, wird empfohlen, identische Portbereiche für Audio-, Video- und Anwendungsfreigaben auf Ihren Konferenz-, Anwendungs- und Vermittlungsservern zu konfigurieren. Darüber hinaus sollten Überschneidungen dieser Portbereiche vermieden werden. Ein einfaches Beispiel hierzu: Angenommen, die Ports 10000 bis 10999 werden für die Übertragung von Videos auf Ihren Konferenzservern verwendet. Dies bedeutet, dass die Ports 10000 bis 10999 auch für die Übertragung von Videos auf Ihren Anwendungs- und Vermittlungsservern reserviert werden müssen. Andernfalls kann die Dienstqualität nicht wie vorgesehen gewährleistet werden.
 
-Nehmen Sie entsprechend an, dass Sie die Ports 10000 bis 10999 für Video reservieren, und dann die Ports 10500 bis 11999 für Audio reservieren. Dies kann zu Problemen bei der Dienstqualität führen, da sich die Portbereiche überlappen. Bei QoS muss jede Modalität über einen eindeutigen Satz von Ports verfügen: Wenn Sie Ports 10000 bis 10999 für Video verwenden, müssen Sie einen anderen Bereich verwenden (beispielsweise 11000 bis 11999 für Audio).
+Nehmen Sie analog dazu an, dass die Ports 10000 bis 10999 für die Übertragung von Videos reserviert wurden, während für die Übertragung von Audiosignalen die Ports 10500 bis 11999 vorgesehen sind. Dies kann zu Problemen mit der Dienstqualität führen, weil sich die Portbereiche überschneiden. Die QoS-Infrastruktur verlangt, dass jede Modalität über eine eindeutige Gruppe von Ports verfügt: Wenn Sie die Ports 10000 bis 10999 für die Übertragung von Videos verwenden, müssen Sie einen anderen Bereich (z. B. 11000 bis 11999) für die Übertragung von Audiosignalen verwenden.
 
-Standardmäßig überlappen sich Audio-und Video-Portbereiche in Microsoft lync Server 2013 nicht. die der Anwendungsfreigabe zugewiesenen Portbereiche überlappen sich jedoch sowohl mit dem Audio-als auch dem Video-Portbereich. (Was wiederum bedeutet, dass keiner dieser Bereiche eindeutig ist.) Sie können die vorhandenen Portbereiche für Ihre Konferenz-, Anwendungs-und Vermittlungsserver überprüfen, indem Sie die folgenden drei Befehle in der lync Server 2013-Verwaltungsshell ausführen:
+Standardmäßig überlappen sich Audio-und Video Portbereiche nicht in Microsoft lync Server 2013; die der Anwendungsfreigabe zugewiesenen Portbereiche überlappen sich jedoch sowohl mit den Audio-als auch den Video Portbereichen. (Was wiederum bedeutet, dass keines dieser Bereiche eindeutig ist.) Sie können die vorhandenen Portbereiche für Ihre Konferenz-, Anwendungs-und Vermittlungsserver überprüfen, indem Sie die folgenden drei Befehle in der lync Server 2013 Verwaltungsshell ausführen:
 
     Get-CsService -ConferencingServer | Select-Object Identity, AudioPortStart, AudioPortCount, VideoPortStart, VideoPortCount, AppSharingPortStart, AppSharingPortCount
     
@@ -53,13 +53,13 @@ Standardmäßig überlappen sich Audio-und Video-Portbereiche in Microsoft lync 
 
 
 > [!WARNING]  
-> Wie in den vorstehenden Befehlen zu sehen ist, werden jedem Porttyp – Audio, Video und Anwendungsfreigabe – zwei getrennte Eigenschaftswerte zugewiesen: der Port Start und die Portanzahl. Der Port Start gibt den ersten Port an, der für diese Modalität verwendet wird; Wenn beispielsweise der Audioport-Start gleich 50000 ist, bedeutet dies, dass der erste Port für den Audioverkehr Port 50000 ist. Wenn die Anzahl der Audioanschlüsse 2 ist (was kein gültiger Wert ist, aber hier zur Veranschaulichung verwendet wird), bedeutet dies, dass nur zwei Ports für Audio reserviert sind. Wenn der erste Port Port 50000 ist und insgesamt zwei Ports vorhanden sind, bedeutet dies, dass der zweite Port Port 50001 sein muss (Portbereiche müssen zusammenhängend sein). Infolgedessen wäre der Portbereich für Audio die Ports 50000 bis 50001 inklusive.<BR>Beachten Sie auch, dass Anwendungsserver und Vermittlungsserver nur QoS für Audio unterstützen. Sie müssen die Video-oder Anwendungsfreigabe Anschlüsse auf Ihren Anwendungsservern oder Vermittlungsservern nicht ändern.
+> Wie Sie anhand der vorstehenden Befehle erkennen können, wurden jedem Porttyp – für Audio-, Video- und Anwendungsfreigaben – zwei separate Eigenschaftenwerte zugewiesen: der Portbeginn und die Portanzahl. Der Portbeginn gibt den ersten Port an, der für diese Modalität verwendet wird. Wenn beispielsweise für den Audioportbeginn der Wert "50000" festgelegt wurde, ist der Port 50000 der erste Port, der für die Übertragung von Audiosignalen verwendet wird. Wenn die Audioportanzahl mit 2 angegeben wurde, stehen nur zwei Ports für Audiosignale zur Verfügung. (Dieser Wert dient ausschließlich der Veranschaulichung. Es handelt sich nicht um einen gültigen Wert.) Wenn der erste Port der Port 50000 ist und insgesamt nur zwei Ports vorhanden sind, muss der zweite Port 50001 sein (Portbereiche müssen immer zusammenhängend sein). Der Portbereich für Audiosignale reicht also von Port 50000 bis einschließlich Port 50001.<BR>Beachten Sie ferner, dass Anwendungs- und Vermittlungsserver QoS nur für Audio unterstützen. Es ist nicht erforderlich, die Video- oder Anwendungsfreigabeports in Ihren Anwendungs- oder Vermittlungsservern zu ändern.
 
 
 
 </div>
 
-Wenn Sie die vorstehenden drei Befehle ausführen, sehen Sie, dass die Standard Port Werte für lync Server 2013 wie folgt konfiguriert sind:
+Wenn Sie die drei obigen Befehle ausführen, sehen Sie, dass die Standard Port Werte für lync Server 2013 wie folgt konfiguriert sind:
 
 
 <table>
@@ -72,8 +72,8 @@ Wenn Sie die vorstehenden drei Befehle ausführen, sehen Sie, dass die Standard 
 <thead>
 <tr class="header">
 <th>Eigenschaft</th>
-<th>Konferenz Server</th>
-<th>Anwendungs Server</th>
+<th>Konferenzserver</th>
+<th>Anwendungsserver</th>
 <th>Vermittlungsserver</th>
 </tr>
 </thead>
@@ -118,21 +118,21 @@ Wenn Sie die vorstehenden drei Befehle ausführen, sehen Sie, dass die Standard 
 </table>
 
 
-Wie bereits erwähnt, sollten Sie beim Konfigurieren von lync Server-Ports für QoS sicherstellen, dass: 1) audioporteinstellungen für Ihre Konferenz-, Anwendungs-und Vermittlungsserver identisch sind. und, 2) die Portbereiche überlappen sich nicht. Wenn Sie die obige Tabelle genau betrachten, sehen Sie, dass die Portbereiche für die drei Servertypen identisch sind. So ist beispielsweise der Start-Audioport auf Port 49152 für jeden Servertyp eingestellt, und die Gesamtanzahl der für Audio reservierten Ports auf jedem Server ist ebenfalls identisch: 8348. Die Portbereiche überlappen sich jedoch: Audioanschlüsse beginnen bei Port 49152, aber auch die Ports, die für die Anwendungsfreigabe reserviert sind. Um die Qualität des Diensts optimal zu nutzen, sollte die Anwendungsfreigabe neu konfiguriert werden, um einen eindeutigen Portbereich zu verwenden. So können Sie beispielsweise die Anwendungsfreigabe so konfigurieren, dass Sie bei Port 40803 startet und 8348-Ports verwendet. (Warum 8348-Ports? Wenn Sie diese Werte zusammen--40803 + 8348-hinzufügen, bedeutet dies, dass die Anwendungsfreigabe Ports 40803 über Port 49150 verwendet. Da Audioanschlüsse erst nach Port 49152 gestartet werden, haben Sie keine überlappenden Portbereiche mehr.)
+Wie bereits erwähnt, sollten Sie beim Konfigurieren lync Server-Ports für QoS sicherstellen, dass: 1) audioporteinstellungen in ihren Konferenz-, Anwendungs-und Vermittlungsservern identisch sind; und, 2) die Portbereiche überlappen sich nicht. Wenn Sie sich die obige Tabelle genauer ansehen, werden Sie sehen, dass die Portbereiche in den drei Servertypen identisch sind. Beispielsweise ist der Ausgangs-Audioport auf jedem Servertyp auf Port 49152 festgelegt, und die Gesamtanzahl der Ports, die für Audio auf jedem Server reserviert sind, ist ebenfalls identisch: 8348. Die Portbereiche überlappen sich jedoch: Audioports beginnen bei Port 49152, aber auch die Ports, die für die Anwendungsfreigabe reserviert sind. Um die Dienstqualität optimal nutzen zu können, sollte die Anwendungsfreigabe so konfiguriert werden, dass ein eindeutiger Portbereich verwendet wird. Beispielsweise können Sie die Anwendungsfreigabe so konfigurieren, dass Sie bei Port 40803 beginnt und 8348-Ports verwendet. (Warum 8348 Ports? Wenn Sie diese Werte zusammen addieren--40803 + 8348--bedeutet dies, dass für die Anwendungsfreigabe Ports 40803 bis Port 49150 verwendet werden. Da Audioports erst nach Port 49152 beginnen, können Sie keine überlappenden Portbereiche mehr haben.)
 
-Nachdem Sie den neuen Portbereich für die Anwendungsfreigabe ausgewählt haben, können Sie die Änderung mithilfe des Cmdlets "festlegen-CsConferencingServer" vornehmen. Diese Änderung muss nicht auf Ihren Anwendungsservern oder auf Ihren Vermittlungsservern vorgenommen werden, da diese Server keinen Anwendungsfreigabe Verkehr verarbeiten. Sie müssen nur die Portwerte auf diesen Servern ändern, wenn Sie sich entscheiden, die für den Audioverkehr verwendeten Ports neu zuzuweisen.
+Nachdem Sie den neuen Portbereich für die Anwendungsfreigabe ausgewählt haben, können Sie die Änderungen mit dem Set-CsConferencingServer-Cmdlet vornehmen. Diese Änderungen müssen nicht auf den Anwendungsservern oder auf den Vermittlungsservern durchgeführt werden, da sie keinen Datenverkehr von Anwendungsfreigaben verarbeiten. Sie müssen die Portwerte auf diesen Servern lediglich ändern, wenn Sie die Ports für die Übertragung von Audiosignalen neu zuweisen.
 
-Um die Portwerte für die Anwendungsfreigabe auf einem einzelnen Konferenzserver zu ändern, führen Sie in der lync Server-Verwaltungsshell einen ähnlichen Befehl aus:
+Um die Portwerte für die Anwendungsfreigabe auf einem einzelnen Konferenzserver zu ändern, führen Sie einen Befehl aus dem lync Server-Verwaltungsshell aus, der dem folgenden ähnelt:
 
     Set-CsConferenceServer -Identity ConferencingServer:atl-cs-001.litwareinc.com -AppSharingPortStart 40803 -AppSharingPortCount 8348
 
-Wenn Sie diese Änderungen auf allen Konferenzservern vornehmen möchten, können Sie stattdessen diesen Befehl ausführen:
+Wenn Sie diese Änderung auf allen Portservern vornehmen möchten, führen Sie stattdessen den folgenden Befehl aus:
 
     Get-CsService -ConferencingServer | ForEach-Object {Set-CsConferenceServer -Identity $_.Identity -AppSharingPortStart 40803 -AppSharingPortCount 8348}
 
-Nachdem Sie die Porteinstellungen geändert haben, sollten Sie jeden von den Änderungen betroffenen Dienst beenden und neu starten.
+Halten Sie, nachdem die Porteinstellungen geändert haben, die betroffenen Dienste an, und starten Sie sie neu.
 
-Es ist nicht zwingend erforderlich, dass Ihre Konferenzserver, Anwendungsserver und Vermittlungsserver exakt denselben Portbereich verwenden. die einzige echte Anforderung ist, dass Sie eindeutige Portbereiche auf allen ihren Servern beiseite legen. Die Verwaltung ist jedoch in der Regel einfacher, wenn Sie die gleichen Ports auf allen Servern verwenden.
+Ihre Konferenz-, Anwendungs- und Vermittlungsserver müssen nicht notwendigerweise den gleichen Portbereich verwenden. Allerdings müssen auf allen Servern unbedingt eindeutige Portbereiche reserviert werden. Wenn Sie jedoch die gleichen Portbereiche auf allen Servern verwenden, wird dadurch die Verwaltung deutlich erleichtert.
 
 </div>
 

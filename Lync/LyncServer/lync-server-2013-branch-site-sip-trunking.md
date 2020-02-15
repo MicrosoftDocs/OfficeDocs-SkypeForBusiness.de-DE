@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Branch Site SIP Trunking'
+title: 'Lync Server 2013: SIP-Trunking für Zweigstellenstandorte'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185350
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c31f0f42a10905f784536b08f10370be9694800
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 161964bc7a183672323ac277eae4f3a7ce0d2b82
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741815"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008077"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="branch-site-sip-trunking-in-lync-server-2013"></a>Branch site SIP trunking in Lync Server 2013
+# <a name="branch-site-sip-trunking-in-lync-server-2013"></a>SIP-Trunking für Zweigstellenstandorte in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41741815"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-In einigen Fällen müssen Sie möglicherweise verteilte SIP-Trunking an ausgewählten Zweigstellen implementieren. Wenn Sie feststellen möchten, ob ein SIP-Trunk für eine Zweigstelle benötigt wird, lesen Sie die Informationen unter [wie kann ich SIP-Trunking in lync Server 2013 implementieren?](lync-server-2013-how-do-i-implement-sip-trunking.md).
+In einigen Fällen müssen Sie möglicherweise verteiltes SIP-Trunking an ausgewählten Zweigstellenstandorten implementieren. Um zu ermitteln, ob ein SIP-Trunk für einen Zweigstellenstandort erforderlich ist, lesen Sie die Informationen unter [How do I implement SIP Trunking in lync Server 2013?](lync-server-2013-how-do-i-implement-sip-trunking.md).
 
-Details zu den unterstützten Topologie-Optionen für die Bereitstellung von SIP-Stämmen in Zweigstellen finden Sie unter Lösungen für die [Standort Stabilität in lync Server 2013](lync-server-2013-branch-site-resiliency-solutions.md).
+Ausführliche Informationen zu den unterstützten Topologie-Optionen für die Bereitstellung von SIP-Trunks an Zweigstellenstandorten finden Sie unter [Branch-Site Resilienz Solutions in lync Server 2013](lync-server-2013-branch-site-resiliency-solutions.md).
 
 <div>
 
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>Beispielanalyse für die SIP-Trunkanforderungen an einer Zweigniederlassung
 
-Wenn Sie sich für die Bereitstellung einer Zweigstelle SIP Trunk entscheiden, müssen Sie eine Website spezifische Kostenanalyse durchführen. Beispielsweise sollte ein Unternehmen mit einem zentralen Standort in Redmond, Washington und einer Zweigstelle in New York eine Analyse durchführen, um zu ermitteln, ob ein SIP-Trunk vom Standort New York zu einem lokalen Dienstanbieter implementiert werden soll.
+Wenn Sie sich für die Bereitstellungeines Zweigstellenstandort-SIP-Trunks entscheiden, müssen Sie eine standortspezifische Kostenanalyse durchführen. Beispielsweise sollte ein Unternehmen mit einem zentralen Standort in Redmond, Washington und einem Zweigstellenstandort in New York eine Analyse durchführen, um zu bestimmen, ob ein SIP-Trunk vom Standort New York an einen lokalen Dienstanbieter implementiert werden soll.
 
-Wenn Sie feststellen möchten, ob ein verteilter SIP-Trunk in New York kostengünstig ist, ermitteln Sie, welche Direktwahlnummern (DID) den SIP-Stamm verwenden, und analysieren Sie die Anzahl der Anrufe, die in New York an andere Bereiche als Redmond (425) vorgenommen werden. Sie können für die Verzweigungs Website am zentralen Standort beendet haben. So kann beispielsweise auf der zentralen Website von Redmond die Nummer für die Niederlassung in der New York Branch-Website gehostet werden. Wenn die Kosten für die Implementierung eines verteilten SIP-Trunks kleiner als die Kosten dieser Anrufe sind, sollten Sie einen SIP-Trunk an der New York Branch-Website implementieren.
+Um zu ermitteln, ob ein verteilter SIP-Trunk in New York kostengünstig ist, ermitteln Sie, welche DID-Nummern (Direct Inward Dialing) den SIP-Trunk verwenden sollen, und analysieren Sie die Anzahl der Anrufe, die New York in andere Bereiche als Redmond (425) vornimmt. Sie können die Beendigung für den Zweigstellenstandort am zentralen Standort haben. Beispielsweise kann der zentrale Standort in Redmond die Nummern für den Zweigstellenstandort in New York hosten. Wenn die Kosten für die Implementierung eines verteilten SIP-Trunks niedriger sind als die Kosten für diese Anrufe, sollten Sie einen SIP-Trunk am Zweigstellenstandort in New York implementieren.
 
 </div>
 
@@ -55,7 +55,7 @@ Wenn Sie feststellen möchten, ob ein verteilter SIP-Trunk in New York kostengü
 
 ## <a name="other-branch-site-sip-trunk-requirements"></a>Weitere SIP-Trunkanforderungen für Zweigniederlassungen
 
-Die Entscheidung, ob anstelle eines Gateways ein SIP-Trunk bereitgestellt werden sollte, hängt von der Kostendifferenz bei Ferngesprächen der einzelnen Optionen ab. Wenn Sie eine Verzweigungs Website SIP-Trunk bereitstellen, müssen Sie auch ihre Stabilitäts-und Bandbreitenanforderungen ermitteln. Wenn der Link zwischen Ihrer Zweigstelle und dem zentralen Standort widerstandsfähig ist und über genügend Bandbreite verfügt, können Sie einen SIP-Trunk oder ein Gateway bereitstellen. Sie müssen keine Survivable Branch-Appliance an der Zweigstelle bereitstellen. Wenn der Link zwischen Ihrer Verzweigungs Website und dem zentralen Standort nicht belastbar ist, stellen Sie eine Survivable Branch-Appliance bereit, oder stellen Sie einen überlebensfähigen Verzweigungs Server mit einem Gateway oder SIP-Trunk an der Zweigstelle bereit.
+Die Entscheidung, ob anstelle eines Gateways ein SIP-Trunk bereitgestellt werden sollte, hängt von der Kostendifferenz bei Ferngesprächen der einzelnen Optionen ab. Wenn Sie einen SIP-Trunk für eine Zweigstelle bereitstellen, müssen Sie auch die Ausfallsicherheit und die Bandbreitenanforderungen ermitteln. Wenn die Verbindung zwischen dem Zweigstellenstandort und dem zentralen Standort widerstandsfähig ist und über ausreichende Bandbreite verfügt, können Sie einen SIP-Trunk oder ein Gateway bereitstellen. Sie müssen keine Survivable Branch Appliance an der Zweigstelle bereitstellen. Wenn die Verknüpfung zwischen dem Zweigstellenstandort und dem zentralen Standort nicht belastbar ist, stellen Sie eine Survivable Branch Appliance bereit, oder stellen Sie eine Survivable Branch Server mit einem Gateway oder einem SIP-Trunk am Zweigstellenstandort bereit.
 
 </div>
 

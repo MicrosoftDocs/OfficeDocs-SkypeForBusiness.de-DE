@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Einrichten eines Lync-Partnerverbunds'
+title: 'Lync Server 2013: Einrichten des lync-Verbund'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7df0dd85bac0aa3053fb6a3496d6a13fa1f4a85e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1972155fa48cd8bc96ee0ec4602bd4b08b2a7b17
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764601"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007724"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-lync-federation-in-lync-server-2013"></a>Einrichten eines Lync-Partnerverbunds in Lync Server 2013
+# <a name="setting-up-lync-federation-in-lync-server-2013"></a>Einrichten von lync Federation in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41764601"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-03-27_
+_**Letztes Änderungsstand des Themas:** 2014-03-27_
 
-Wenn Sie bereits Edgeserver oder Server bereitgestellt haben, ist das Hinzufügen der Features für Verbundszenarien direkt. Wenn Sie keine Edgeserver eingerichtet haben, müssen Sie dies zunächst tun. Ausführliche Informationen finden Sie unter: [Planen des Zugriffs externer Benutzer in lync Server 2013](lync-server-2013-planning-for-external-user-access.md) in der Planungsdokumentation und [Bereitstellen des Zugriffs externer Benutzer in lync Server 2013](lync-server-2013-deploying-external-user-access.md) in der Bereitstellungsdokumentation.
+Wenn Sie bereits einen oder mehrere Edgeserver bereitgestellt haben, ist das Hinzufügen der Features für Partnerverbundszenarien ganz einfach. Wenn Sie noch keine Edgeserver eingerichtet haben, müssen Sie diese Einrichtung zuerst durchführen. Ausführliche Informationen finden Sie unter: [Planen des Zugriffs durch externe Benutzer in lync Server 2013](lync-server-2013-planning-for-external-user-access.md) in der Planungsdokumentation und [Bereitstellen des Zugriffs auf externe Benutzer in lync Server 2013](lync-server-2013-deploying-external-user-access.md) in der Bereitstellungsdokumentation.
 
 <div>
 
 
 > [!NOTE]  
-> Wenn Sie beabsichtigen, eine beliebige Kombination aus XMPP-Föderation, lync-Föderation oder öffentlicher Instant Messaging-Konnektivität einzurichten, können Sie Sie gleichzeitig oder einzeln bereitstellen. Wenn Sie die Optionen über den Topologie-Generator und die lync Server-Verwaltungsshell konfigurieren und dann den Bereitstellungs-Assistenten auf dem Edgeserver ausführen, nachdem Sie die Optionen für einen, zwei oder alle drei Föderations Typen konfiguriert haben, können Sie die Anzahl der erforderlichen Schritte reduzieren.
+> Wenn Sie eine beliebige Kombination von XMPP-Partnerverbund, Lync-Partnerverbund oder Konnektivität mit öffentlichen Chatdiensten einrichten möchten, können Sie diese Partnerverbundtypen gleichzeitig oder nacheinander bereitstellen. Wenn Sie die Optionen über den Topologie-Generator und die Lync Server-Verwaltungsshell konfigurieren und dann den Bereitstellungs-Assistenten auf den Edgeserver ausführen, nachdem Sie die Optionen für einen, zwei oder drei Partnerverbundtypen konfiguriert haben, können Sie die Anzahl der erforderlichen Schritte reduzieren.
 
 
 
@@ -51,23 +51,23 @@ Wenn Sie bereits Edgeserver oder Server bereitgestellt haben, ist das Hinzufüge
 
 <div>
 
-## <a name="setting-up-lync-federation-in-topology-builder-and-the-deployment-wizard"></a>Einrichten von lync Federation im Topologie-Generator und im Bereitstellungs-Assistenten
+## <a name="setting-up-lync-federation-in-topology-builder-and-the-deployment-wizard"></a>Einrichten des Lync-Partnerverbunds im Topologie-Generator und im Bereitstellungs-Assistenten
 
-1.  Öffnen Sie auf einem Front-End-Server den Topologie-Generator. Erweitern Sie Edge-Pools, und klicken Sie dann mit der rechten Maustaste auf den Edgeserver oder den Edge-Serverpool. Wählen Sie Eigenschaften bearbeiten aus.
+1.  Öffnen Sie den Topologie-Generator auf einem Front-End-Server. Erweitern Sie die Edgepools, und klicken Sie dann mit der rechten Maustaste auf Ihren Edgeserver oder Edgeserverpool. Wählen Sie Eigenschaften bearbeiten aus.
 
-2.  Wählen Sie in Eigenschaften bearbeiten unter Allgemein die Option Föderation für diesen Edge-Pool aktivieren (Port 5061) aus. Klicken Sie auf OK.
+2.  Klicken Sie in "Eigenschaften bearbeiten" unter "Allgemein" auf "Partnerverbund für diesen Edgepool aktivieren" (Port 5061). Klicken Sie auf "OK".
 
-3.  Klicken Sie auf Aktion, wählen Sie Topologie aus, und wählen Sie veröffentlichen aus. Wenn Sie dazu aufgefordert werden, die Topologie zu veröffentlichen, klicken Sie auf Weiter. Wenn der Veröffentlichungsvorgang abgeschlossen ist, klicken Sie auf Fertig stellen.
+3.  Klicken Sie auf "Aktion", wählen Sie "Topologie", und wählen Sie "Veröffentlichen" aus. Wenn Sie unter "Topologie veröffentlichen" dazu aufgefordert werden, klicken Sie auf "Weiter". Wenn die Veröffentlichung abgeschlossen ist, klicken Sie auf "Fertig stellen".
 
-4.  Öffnen Sie auf dem Edgeserver den lync Server-Bereitstellungs-Assistenten. Klicken Sie auf lync Server System installieren oder aktualisieren und dann auf lync Server-Komponenten einrichten oder entfernen. Klicken Sie erneut auf ausführen.
+4.  Öffnen Sie auf dem Edgeserver den Lync Server-Bereitstellungs-Assistenten. Klicken Sie auf "Lync Server-System installieren oder aktualisieren", und klicken Sie anschließend auf "Lync Server-Komponenten einrichten oder entfernen". Klicken Sie auf "Erneut ausführen".
 
-5.  Klicken Sie bei der Installation von lync Server-Komponenten auf Weiter. Auf dem Zusammenfassungsbildschirm werden die Aktionen während der Ausführung angezeigt. Nachdem die Bereitstellung abgeschlossen ist, klicken Sie auf Protokoll anzeigen, um die verfügbaren Protokolldateien anzuzeigen. Klicken Sie auf Fertig stellen, um die Bereitstellung abzuschließen.
+5.  Klicken Sie unter Lync Server-Komponenten einrichten auf Weiter. Auf dem Zusammenfassungsbild werden die ausgeführten Aktionen angezeigt. Klicken Sie nach Abschluss der Bereitstellung auf Protokoll anzeigen, um die verfügbaren Protokolldateien anzuzeigen. Klicken Sie auf Fertig stellen, um die Bereitstellung abzuschließen.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Sie können diese Option auswählen, aber nur ein Edge-Pool oder Edgeserver in Ihrer Organisation kann extern für den Verbund veröffentlicht werden. Der gesamte Zugriff von Verbundbenutzern, einschließlich öffentlicher Chat-Benutzer, durchlaufen denselben Edge-Pool oder Single Edge-Server. Wenn Ihre Bereitstellung beispielsweise einen Edge-Pool oder einen einzelnen Edgeserver umfasst, der in New York bereitgestellt und in London bereitgestellt wurde, und Sie die Unterstützung der Föderation auf dem New York Edge-Pool oder einem Single Edge-Server aktivieren, wird der Signal Verkehr für verbundene Benutzer durch das New York durchlaufen. Edge-Pool oder Single Edge-Server. Dies gilt auch für die Kommunikation mit Benutzern in London, wenngleich ein interner Benutzer in London, der einen Partnerbenutzer in London anruft, für den A/V-Datenverkehr den Pool oder Edgeserver in London verwendet.
+    > Sie können diese Option auswählen, es kann jedoch nur ein Edgepool oder Edgeserver in Ihrer Organisation extern für den Partnerverbund veröffentlicht werden. Der Zugriff durch Partnerbenutzer, einschließlich Benutzer öffentlicher Sofortnachrichtendienste, erfolgt stets über denselben Edgepool oder einzelnen Edgeserver. Wenn Ihre Bereitstellung beispielsweise je einen Edgepool oder einzelnen Edgeserver in New York und in London umfasst und Sie die Unterstützung des Partnerverbunds für den Edgepool oder einzelnen Edgeserver in New York aktivieren, erfolgt der Signaldatenverkehr für Partnerbenutzer über den Edgepool oder einzelnen Edgeserver in New York. Dies gilt auch für die Kommunikation mit Benutzern in London, wenngleich ein interner Benutzer in London, der einen Partnerbenutzer in London anruft, für den A/V-Datenverkehr den Pool oder Edgeserver in London verwendet.
 
     
     </div>
@@ -78,7 +78,7 @@ Wenn Sie bereits Edgeserver oder Server bereitgestellt haben, ist das Hinzufüge
 
 ## <a name="configuring-federation-with-partners"></a>Konfigurieren des Verbunds mit Partnern
 
-1.  Wenn Sie einen erfolgreichen Verbund mit einem anderen Microsoft lync Server 2013, lync Server 2010, Office Communications Server 2007 R2 oder Office Communicator 2007 einrichten möchten, wählen Sie den Typ des Verbandes aus der folgenden Tabelle aus, und definieren Sie DNS-SRV-Einträge, DNS-Host (a oder AAAA für IPv6) und Konfigurieren von Richtlinien, die für den Typ des Verbandes gelten:
+1.  Zum Einrichten eines erfolgreichen Verbunds mit einem anderen Microsoft lync Server 2013, lync Server 2010, Office Communications Server 2007 R2 oder Office Communicator 2007 wählen Sie den Typ des Verbunds in der folgenden Tabelle aus und definieren DNS-SRV-Einträge, DNS-Host (a oder AAAA für IPv6) und Konfigurieren von Richtlinien für den Typ des Verbunds:
     
     
     <table>
@@ -90,59 +90,59 @@ Wenn Sie bereits Edgeserver oder Server bereitgestellt haben, ist das Hinzufüge
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Föderations</th>
+    <th>Partnerverbundtyp</th>
     <th>DNS-Einträge</th>
-    <th>Richtlinien Definition</th>
+    <th>Richtliniendefinition</th>
     <th>Hinweise</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>Erkannte Partner Domäne</p></td>
-    <td><p>Konfigurieren Sie den SRV-Eintrag im Format _sipfederationtls. _tcp. &lt;externer Domänenname&gt;, wobei der Portwert für den SRV-Eintrag TCP 5061 ist und der Host, der <strong>diesen Dienst anbietet</strong> , als SIP definiert ist. &lt;externer Domänenname&gt; – der FQDN Ihres Access Edge-Diensts. Details zum Erstellen des SRV-Eintrags finden Sie unter <a href="lync-server-2013-configure-dns-for-edge-support.md">Konfigurieren von DNS für die Edge-Unterstützung in lync Server 2013</a> .</p></td>
+    <td><p>Ermittelte Partnerdomäne</p></td>
+    <td><p>Konfigurieren Sie den SRV-Eintrag im Format _sipfederationtls. _tcp. &lt;externer Domänenname&gt;, bei dem der Portwert für den SRV-Eintrag TCP 5061 ist und der Host, der <strong>diesen Dienst anbietet</strong> , als SIP definiert ist. &lt;externer Domänenname&gt; – der FQDN ihrer Zugriffs-Edgedienst. Weitere Informationen zum Erstellen des SRV-Eintrags finden Sie unter <a href="lync-server-2013-configure-dns-for-edge-support.md">Konfigurieren von DNS für die Edge-Unterstützung in lync Server 2013</a> .</p></td>
     <td><ul>
-    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Aktivieren oder Deaktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten in Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Aktivieren oder Deaktivieren der Suche von Verbundpartnern in Lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Aktivieren oder Deaktivieren der Verbund-und Public Chat-Konnektivität in lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Aktivieren oder Deaktivieren der Ermittlung von Partnerverbund Partnern in lync Server 2013</a></p></li>
     </ul></td>
-    <td><p>Frühere Versionen verweisen auf diesen Typ von Federation als <strong>Open Enhanced Federation</strong>. Die Erstellung des SRV-Eintrags ist für diesen Föderations erforderlich und ermöglicht es anderen Partnern, ihre Föderation zu entdecken.</p></td>
+    <td><p>In vorherigen Versionen wurde dieser Partnerverbundtyp als <strong>Offener erweiterter Partnerverbund</strong> definiert. Das Erstellen des SRV-Eintrags ist für diesen Partnerverbundtyp erforderlich und dient dazu, dass andere Partner Ihren Partnerverbund ermitteln können.</p></td>
     </tr>
     <tr class="even">
-    <td><p>Zulässige Partner Domäne</p></td>
-    <td><p>Konfigurieren Sie den SRV-Eintrag im Format _sipfederationtls. _tcp. &lt;externer Domänenname&gt;, wobei der Portwert für den SRV-Eintrag TCP 5061 ist und der Host, der <strong>diesen Dienst anbietet</strong> , als SIP definiert ist. &lt;externer Domänenname&gt; – der FQDN Ihres Access Edge-Diensts. Details zum Erstellen des SRV-Eintrags finden Sie unter <a href="lync-server-2013-configure-dns-for-edge-support.md">Konfigurieren von DNS für die Edge-Unterstützung in lync Server 2013</a> .</p></td>
+    <td><p>Zulässige Partnerdomäne</p></td>
+    <td><p>Konfigurieren Sie den SRV-Eintrag im Format _sipfederationtls. _tcp. &lt;externer Domänenname&gt;, bei dem der Portwert für den SRV-Eintrag TCP 5061 ist und der Host, der <strong>diesen Dienst anbietet</strong> , als SIP definiert ist. &lt;externer Domänenname&gt; – der FQDN ihrer Zugriffs-Edgedienst. Weitere Informationen zum Erstellen des SRV-Eintrags finden Sie unter <a href="lync-server-2013-configure-dns-for-edge-support.md">Konfigurieren von DNS für die Edge-Unterstützung in lync Server 2013</a> .</p></td>
     <td><ul>
-    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Aktivieren oder Deaktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten in Lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Aktivieren oder Deaktivieren der Verbund-und Public Chat-Konnektivität in lync Server 2013</a></p></li>
     </ul></td>
-    <td><p>In früheren Versionen wurde dieser Typ von Federation als <strong>Enhanced Federation</strong>bezeichnet. Die Erstellung des SRV-Eintrags ist für diesen Föderations optional und ermöglicht es anderen Partnern, ihre Föderation zu entdecken. Selbstverständlich handelt es sich hierbei um eine <strong>offene erweiterte Föderation</strong>oder um eine <strong>erkannte Partner Domäne</strong> .</p></td>
+    <td><p>In früheren Versionen wurde dieser Typ von Verbund als <strong>Erweiterter Verbund</strong>bezeichnet. Das Erstellen des SRV-Eintrags ist für diesen Partnerverbundtyp optional und dient dazu, dass andere Partner Ihren Partnerverbund ermitteln können. In diesem Fall handelt es sich natürlich um einen <strong>Offenen erweiterten Partnerverbund</strong> oder eine <strong>Ermittelte Partnerdomäne</strong></p></td>
     </tr>
     <tr class="odd">
-    <td><p>Zulässiger Partner Server</p></td>
-    <td><p>Konfigurieren des SIP-Domänennamens und des Partner-Edgeserver-FQDN als Verbundpartner in Richtlinien</p></td>
+    <td><p>Zulässiger Partnerserver</p></td>
+    <td><p>Konfigurieren Sie den SIP-Domänennamen und den Partner Edgeserver FQDN als Verbundpartner in Richtlinien</p></td>
     <td><ul>
-    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Aktivieren oder Deaktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten in Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-configure-support-for-allowed-external-domains.md">Konfigurieren der Unterstützung für zulässige externe Domänen in Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-configure-support-for-blocked-external-domains.md">Konfigurieren der Unterstützung für blockierte externe Domänen in Lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Aktivieren oder Deaktivieren der Verbund-und Public Chat-Konnektivität in lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-configure-support-for-allowed-external-domains.md">Konfigurieren der Unterstützung für zugelassene externe Domänen in lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-configure-support-for-blocked-external-domains.md">Konfigurieren der Unterstützung für blockierte externe Domänen in lync Server 2013</a></p></li>
     </ul></td>
-    <td><p>Bei diesem Verbundtyp handelt es sich um die Definition einer 1:1-Beziehung, die keine Ermittlung anderer Verbundpartner ermöglicht. Jeder Föderationspartner wird explizit konfiguriert. In früheren Versionen wurde dies als <strong>direkte Föderation</strong> bezeichnet.</p></td>
+    <td><p>Dieser Partnerverbundtyp ist die Definition einer 1:1-Beziehung und lässt die Ermittlung anderer Verbundpartner nicht zu. Jeder Verbundpartner wird explizit konfiguriert. In vorherigen Versionen wurde dies als <strong>Direkter Partnerverbund</strong> bezeichnet.</p></td>
     </tr>
     <tr class="even">
-    <td><p>Hostinganbieter und Anbieter von öffentlichen Chats</p></td>
-    <td><p>Für diese Art von Föderation sind keine spezifischen DNS-Anforderungen definiert.</p></td>
+    <td><p>Hostinganbieter und öffentlicher Chatanbieter</p></td>
+    <td><p>Für diesen Partnerverbundtyp sind keine besonderen DNS-Anforderungen definiert.</p></td>
     <td><ul>
-    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Aktivieren oder Deaktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten in Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Erstellen oder Bearbeiten von öffentlichen SIP-Partnerverbundanbietern in Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Erstellen oder Bearbeiten von gehosteten SIP-Verbundanbietern in Lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Aktivieren oder Deaktivieren der Verbund-und Public Chat-Konnektivität in lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Erstellen oder Bearbeiten von öffentlichen SIP-Verbund Anbietern in lync Server 2013</a></p></li>
+    <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Erstellen oder Bearbeiten von gehosteten SIP-Verbund Anbietern lync Server 2013</a></p></li>
     </ul></td>
-    <td><p>Dieser Verbundtyp definiert Dienste und Hosting-Anbieter, die Sie für Ihre Benutzer konfigurieren möchten. Typische Verwendungen sind die Konfiguration für öffentliche Chat-Anbieter wie Windows Live Messenger, Yahoo! und AOL sowie Hosting-Anbieter wie lync Online und Office 365</p>
+    <td><p>Dieser Partnerverbundtyp definiert Dienste und Hostinganbieter, die Sie für Ihre Benutzer konfigurieren möchten. Zu den typischen Verwendungen gehört die Konfiguration für öffentliche Chatanbieter wie Windows Live Messenger, Yahoo! und AOL sowie Hosting-Anbieter wie lync Online und Office 365</p>
     <div>
 
     > [!IMPORTANT]  
     > <UL>
     > <LI>
-    > <P>Ab dem 1. September, 2012, ist die Microsoft lync Public im Connectivity-Benutzerabonnementlizenz ("PIC USL") nicht mehr für den Kauf von neuen oder erneuernden Vereinbarungen verfügbar. Kunden mit aktiven Lizenzen sind in der Lage, weiterhin mit Yahoo! zu verbünden Messenger, bis der Dienst das Datum beendet hat. Datum des Endes des Lebenszyklus von Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">unter Unterstützung für öffentliche Instant Messenger-Konnektivität in lync Server 2013</A>.</P>
+    > <P>Seit dem 1. September 2012 ist die Microsoft lync Public Chat Connectivity-Benutzerabonnementlizenz ("PIC USL") nicht mehr für neue oder erneuerte Verträge verfügbar. Kunden mit aktiven Lizenzen können weiterhin mit Yahoo! zusammenarbeiten. Messenger, bis der Dienst das Datum heruntergefahren hat. Ein End-of-Life-Datum vom Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for Public Instant Messenger Connectivity in lync Server 2013</A>.</P>
     > <LI>
-    > <P>Bei der PIC-USL handelt es sich um eine Abonnementlizenz pro Benutzer pro Monat, die für die Föderation von lync Server oder Office Communications Server mit Yahoo! erforderlich ist. Messenger. Die Möglichkeit von Microsoft, diesen Dienst bereitzustellen, war von der Unterstützung durch Yahoo! abhängig, deren zugrunde liegende Vereinbarung abgewickelt wird.</P>
+    > <P>Bei der PIC-USL handelt es sich um eine Abonnementlizenz pro Benutzer pro Monat, die für lync Server oder Office Communications Server für die Zusammensetzung mit Yahoo! erforderlich ist. Messenger. Die Fähigkeit von Microsoft, diesen Dienst bereitzustellen, wurde von der Unterstützung von Yahoo! abhängig gemacht, die zugrunde liegende Vereinbarung, für die die Rückabwicklung erfolgt.</P>
     > <LI>
-    > <P>Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen Organisationen und Personen in der ganzen Welt. Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-und Gerätelizenzen außerhalb der lync-Standard CAL erforderlich. Skype Federation wird dieser Liste hinzugefügt und ermöglicht es lync-Benutzern, Hunderte von Millionen von Personen mit Chat und Sprache zu erreichen.</P></LI></UL>
+    > <P>Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen verschiedenen Organisationen und mit Einzelpersonen auf der ganzen Welt. Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-/Gerätelizenzen außerhalb der lync-Standard-CAL erforderlich. Skype Federation wird dieser Liste hinzugefügt, sodass lync-Benutzer Hunderte Millionen von Benutzern mit Chat und VoIP erreichen können.</P></LI></UL>
 
 
     </div></td>
@@ -151,15 +151,15 @@ Wenn Sie bereits Edgeserver oder Server bereitgestellt haben, ist das Hinzufüge
     </table>
 
 
-2.  Definieren und Konfigurieren aller erforderlichen DNS-Hosts (A oder AAAA für IPv6) und DNS-SRV-Einträge
+2.  Definieren und Konfigurieren von erforderlichen DNS-Hosteinträgen (A oder AAAA für IPv6) und DNS-SRV-Einträgen
 
-3.  Definieren und konfigurieren Sie alle Richtlinien mithilfe der lync Server-Systemsteuerung oder mithilfe der lync Server-Verwaltungsshell und der entsprechenden Cmdlets. Ausführliche Informationen zu den Cmdlets der lync Server-Verwaltungsshell finden Sie unter [Föderations-und externe Zugriffs-Cmdlets in lync Server 2013](https://docs.microsoft.com/powershell/module/skype/)
+3.  Definieren und konfigurieren Sie alle Richtlinien mithilfe der lync Server-Systemsteuerung oder mithilfe der lync Server-Verwaltungsshell und der entsprechenden Cmdlets. Ausführliche Informationen zu den lync Server-Verwaltungsshell-Cmdlets finden Sie unter [Verbund-und externer Zugriffs-Cmdlets in lync Server 2013](https://docs.microsoft.com/powershell/module/skype/)
     
     <div>
     
 
     > [!NOTE]  
-    > Lync Room System (LRS) zeigt die Schaltfläche "Verknüpfung" nicht für Besprechungen an, die von Organisatoren in verbundenen lync-Partnern gesendet werden. Damit ein Besprechungs Verknüpfungs Link auf LRS angezeigt wird, muss die sendende Organisation TNEF mithilfe des folgenden Cmdlets aktivieren:<BR><BR><CODE>New-RemoteDomain -DomainName Contoso.com -Name Contoso</CODE><BR><CODE>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</CODE><BR>Beachten Sie, dass dies nicht LRS-spezifisch ist. Outlook und lync würden in diesem Fall auch keine Verknüpfungs Verknüpfungen anzeigen, da MAPI-Eigenschaften nicht transportiert werden, aber im Fall von Outlook kann der Benutzer die Besprechungseinladung öffnen und auf die Besprechungs-URL klicken. Wenn TNEFEnabled auf true festgelegt ist, werden in Exchange 2013 keine MAPI-Eigenschaften wie OnlineMeetingExternalLink und die Schaltfläche "beitreten" auf der Erinnerung angezeigt.
+    > Lync Room System (LRS) zeigt keine Verknüpfungsschaltfläche für Besprechungen an, die von Organisatoren in Partner-lync-Partnern gesendet werden. Damit ein Link zum besprechungsbeitritt auf dem LRS angezeigt wird, muss die sendende Organisation TNEF mithilfe des folgenden Cmdlets aktivieren:<BR><BR><CODE>New-RemoteDomain -DomainName Contoso.com -Name Contoso</CODE><BR><CODE>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</CODE><BR>Beachten Sie, dass dies nicht LRS-spezifisch ist. Outlook und lync würden auch in diesem Fall keine Verknüpfungs Verknüpfungen anzeigen, da MAPI-Eigenschaften nicht transportiert werden, aber im Fall von Outlook kann der Benutzer die Besprechungseinladung öffnen und auf die Besprechungs-URL klicken. Wenn TNEFEnabled auf true festgelegt ist Exchange 2013 keine MAPI-Eigenschaften einschließlich OnlineMeetingExternalLink, und die Schaltfläche beitreten wird in der Erinnerung angezeigt.
 
     
     </div>
@@ -171,8 +171,8 @@ Wenn Sie bereits Edgeserver oder Server bereitgestellt haben, ist das Hinzufüge
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planen von SIP, XMPP Federation und Public Instant Messaging in lync Server 2013](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md)  
-[Verwalten von Partnerverbünden und externem Zugriff auf Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)  
+[Planung für SIP, XMPP-Partnerverbund und öffentliche Chatnachrichten in lync Server 2013](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md)  
+[Verwalten des Verbunds und des externen Zugriffs auf lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)  
   
 
 </div>

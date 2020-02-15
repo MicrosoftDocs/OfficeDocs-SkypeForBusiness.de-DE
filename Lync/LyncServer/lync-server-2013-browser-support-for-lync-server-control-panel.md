@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Browserunterstützung für die Lync Server-Systemsteuerung'
+title: 'Lync Server 2013: Browser Unterstützung für lync Server-Systemsteuerung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43e224e878b645daa355cfa5617ff42c69b61b94
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6fbdd00adb7a71c85d35f7f3834db0bd831ec9a8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741805"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007995"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="browser-support-for-lync-server-2013-control-panel"></a>Browserunterstützung für die Lync Server 2013-Systemsteuerung
+# <a name="browser-support-for-lync-server-2013-control-panel"></a>Browser Unterstützung für lync Server 2013-Systemsteuerung
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41741805"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Lync Server 2013 unterstützt die Verwendung des Topologie-Generators und die lync Server 2013-Systemsteuerung wird unterstützt, wenn Sie die folgenden Browser verwenden:
+Lync Server 2013 unterstützt die Verwendung des Topologie-Generators und lync Server 2013 Systemsteuerung wird unterstützt, wenn die folgenden Browser verwendet werden:
 
-  - Internet Explorer 10, 32-Bit
+  - Internet Explorer 10, 32-Bit-Version
 
-  - Internet Explorer 9, 32-Bit
+  - Internet Explorer 9, 32-Bit-Version
 
-  - Internet Explorer 8, 32-Bit
+  - Internet Explorer 8, 32-Bit-Version
 
 </div>
 

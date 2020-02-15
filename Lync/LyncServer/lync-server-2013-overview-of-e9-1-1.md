@@ -12,20 +12,20 @@ ms:contentKeyID: 48185290
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48b261ed0b173c85ccd076be14d65aa456558830
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a6bc8d1f743db31cd248b750a67121c0c6664d07
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755569"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034335"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-e9-1-1-in-lync-server-2013"></a>Übersicht über E9-1-1 in Lync Server 2013
+# <a name="overview-of-e9-1-1-in-lync-server-2013"></a>Übersicht über E9-1-1 in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41755569"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-29_
+_**Letztes Änderungsstand des Themas:** 2012-10-29_
 
-Microsoft lync Server 2013 unterstützt erweiterte 9-1-1 (E9-1-1)-Aufrufe von lync-Clients und lync Phone Edition-Geräten. Wenn Sie lync Server für E9-1-1 konfigurieren, beinhalten Notrufe, die von lync 2013 oder lync Phone Edition abgesetzt werden, die Informationen zum Emergency Response Location (ERL) aus der Datenbank des Standort Informationsdiensts. ERLs bestehen aus bürgerlichen (also Straßen-) Adressen und anderen Informationen, die dazu beitragen, eine genauere Position in Bürogebäuden und anderen Multitenant-Anlagen zu erkennen. Wenn ein Benutzer einen Notfall Anruf tätigt, leitet lync Server den Audioanruf zusammen mit dem Standort und den Rückrufinformationen über einen Vermittlungsserver an einen E9-1-1-Service-Anbieter weiter. Der E9-1-1-Service-Anbieter verwendet die bürgerliche Adresse des Anrufers, um den Anruf an den öffentlichen Sicherheits Beantwortungs Punkt (PSAP) weiterzuleiten, der dem Aufenthaltsort des Anrufers dient, und sendet einen Notfall-Service-Abfrage Schlüssel (ESQK), den der PSAP verwendet, um den Erl des Anrufers nachschlagen zu können.
+Microsoft lync Server 2013 unterstützt den erweiterten 9-1-1 (E9-1-1)-Aufruf von lync-Clients und lync Phone Edition-Geräten. Wenn Sie lync Server für E9-1-1 konfigurieren, werden Notrufe aus lync 2013-oder lync-Phone Edition Informationen aus dem Notfall Reaktions Standort (ERL) aus der Standortinformationsdienst-Datenbank hinzugefügt. ERLs bestehen aus bürgerlichen (also Straße)-Adressen und anderen Informationen, die helfen, eine genauere Position in Bürogebäuden und anderen Multitenant-Einrichtungen zu identifizieren. Wenn ein Benutzer einen Notruf tätigt, leitet lync Server das Audiosignal zusammen mit dem Standort und den Rückrufinformationen über ein Vermittlungsserver an einen E9-1-1-Dienstanbieter weiter. Der E9-1 -1-Dienstanbieter verwendet die bürgerliche Adresse des Anrufers, um den Anruf an den Rettungsleitstelle (Public Safety Answering Points) weiterzuleiten, der dem Standort des Anrufers dient, und sendet einen Notfalldienst-Abfrage Schlüssel (ESQK), den der Rettungsleitstelle zum Nachschlagen des Erl des Anrufers verwendet.
 
 Lync Server unterstützt zwei Methoden zum Weiterleiten von Notrufen an einen E9-1-1-Dienstanbieter:
 
@@ -45,42 +45,42 @@ Lync Server unterstützt zwei Methoden zum Weiterleiten von Notrufen an einen E9
 
   - Ein ELIN (Emergency Location Identification Number)-Gateway zu einem Festnetz (Public Switched Telephone, PSTN)-basierten E9-1-1-Dienstanbieter
 
-Wenn Sie einen SIP Trunk E9-1-1 Dienstanbieter verwenden, fügen Sie ERLs der Datenbank des Standort Informationsdiensts hinzu, und überprüfen Sie dann die Speicherorte mit einem Master Street Address Guide (MSAG), der vom E9-1-1-Dienstanbieter verwaltet wird. Wenn ein Dienstanbieter E9-1-1 einen Anruf empfängt, der keine Standortinformationen hat oder einen Speicherort aufweist, der nicht mit dem MSAG überprüft wurde, der E9-1-1-Service-Anbieter leitet den Anruf an ein nationales/regionales Notruf Center (ECRC) weiter, das mit speziell geschulten Mitarbeitern besetzt ist, die den Standort des Anrufers, wenn möglich, verbal abrufen und den Anruf manuell an die entsprechende PSAP weiterleiten. (Einige SIP Trunk E9-1-1-Service-Anbieter bieten Kunden auch eine direkte PSTN-Wählnummer (DID) an den ECRC, die ein alternatives Mittel zur Weiterleitung von 9-1-1-anrufen bietet, wenn der SIP-Trunk aus irgendeinem Grund fehlschlägt.)
+Wenn Sie einen SIP-Trunk-E9-1 -1-Dienstanbieter verwenden, fügen Sie ERLs zur Standortinformationsdienst Datenbank hinzu und überprüfen dann die Speicherorte anhand einer Master Street Address Guide (MSAG), die vom E9-1-1-Dienstanbieter verwaltet wird. Wenn ein E9-1 -1-Dienstanbieter einen Anruf erhält, der keine Standortinformationen hat oder keinen Speicherort hat, der nicht mit dem MSAG validiert wurde, der E9-1 -1-Dienstanbieter leitet den Anruf an ein nationales/regionales Emergency Call Response Center (ECRC) weiter, das mit speziell geschulten Mitarbeitern besetzt ist, die den Standort des Anrufers nach Möglichkeit verbal abrufen und den Anruf manuell an die entsprechenden Rettungsleitstelle weiterleiten. (Einige SIP-Trunk-E9-1 -1-Dienstanbieter stellen auch Kunden eine Telefonnummer für das PSTN-Durchwahl Verfahren für die ECRC bereit, die eine alternative Möglichkeit zum Weiterleiten von 9-1-1-anrufen bietet, wenn der SIP-Trunk aus irgendeinem Grund ausfällt.)
 
-Im Gegensatz zu Time Division Multiplexing (TDM) und IP-basierter PBX-Telefone (Private Branch Exchange), die über feste Speicherorte verfügen, kann ein lync-Endpunkt sehr mobil sein. Wenn Sie das E9-1-1-Feature bereitstellen, hilft lync Server dabei, sicherzustellen, dass der Notruf, unabhängig davon, wo sich ein Anrufer befindet, an die PSAP weitergeleitet werden kann, die dem Aufenthaltsort des Anrufers dient. Beispiel: Wenn sich das Hauptbüro eines Benutzers in Redmond, Washington, befindet und der Benutzer einen Notruf von einem Computer in einer Zweigstelle in Wichita, Kansas, absetzt, leitet der SIP-Trunk- oder PSTN-basierte E9-1-1-Dienstanbieter den Anruf an die Rettungsleitstelle in Wichita und nicht an die Rettungsleitstelle in Redmond weiter.
+Im Gegensatz zu TDM (Time Division Multiplexing) und IP-basierten PBX-Telefonen (Private Branch Exchange) mit festen Standorten kann ein lync-Endpunkt sehr mobil sein. Wenn Sie das E9-1-1-Feature bereitstellen, hilft lync Server sicherzustellen, dass sich unabhängig davon, wo sich ein Anrufer befindet, der Notruf an die Rettungsleitstelle weitergeleitet werden kann, die dem Standort des Anrufers dient. Beispiel: Wenn sich das Hauptbüro eines Benutzers in Redmond, Washington, befindet, der Benutzer jedoch einen Notruf von einem Computer in einer Zweigstelle in Wichita, Kansas, absetzt, leitet der SIP-Trunk- oder PSTN-basierte E9-1-1-Dienstanbieter den Anruf an die Rettungsleitstelle in Wichita und nicht an die Rettungsleitstelle in Redmond weiter.
 
-Wenn Sie ein Elin-Gateway verwenden, fügen Sie auch ERLs der Datenbank des Standort Informationsdiensts hinzu, Sie schließen aber auch eine Elin-Nummer für jede Position ein. Die ELIN-Nummer wird während eines Notrufs zur Notrufnummer. Sie müssen dann sicherstellen, dass der PSTN-Netzbetreiber die ELINs in die ALI-Datenbank (Automatic Location Identification, automatische Standortidentifizierung) hochlädt.
+Wenn Sie ein Elin-Gateway verwenden, fügen Sie auch ERLs zur Standortinformationsdienst Datenbank hinzu, aber Sie enthalten auch eine Elin-Nummer für jeden Standort. Die ELIN-Nummer wird während eines Notrufs zur Notrufnummer. Sie müssen dann sicherstellen, dass der PSTN-Netzbetreiber die ELINs in die ALI (Automatic Location Identification)-Datenbank hochlädt.
 
 <div>
 
 
 > [!NOTE]  
-> Mit lync verbundene analoge Geräte können keine Standortinformationen vom standortinformationsdienst empfangen oder den Standort an den E9-1-1-Service-Anbieter übertragen. Wenn Sie einen SIP-Trunk-E9-1-1-Dienstanbieter verwenden und E9-1-1 über analoge Telefone unterstützen müssen, stehen Ihnen zwei Optionen zur Verfügung: 
+> Mit lync verbundene analoge Geräte können keine Standortinformationen von der Standortinformationsdienst oder vom Sendestandort an den E9-1 -1-Dienstanbieter empfangen. Wenn Sie einen SIP-Trunk-E9-1-1-Dienstanbieter verwenden und die Unterstützung für E9-1-1 über analoge Telefone erforderlich ist, stehen Ihnen zwei Optionen zur Verfügung: 
 > <UL>
 > <LI>
-> <P><STRONG>Traditionelle PS-Ali-Option</STRONG>&nbsp;&nbsp;&nbsp;Wenn Sie an jedem Standort, an dem analoge Telefone bereitgestellt werden, über lokale PSTN-Gateways verfügen und auf jedem analogen Telefon ein did vorhanden ist, können Sie den Standort des analogen Geräts direkt mit einem privaten Switch/Automatic Location Identification (PS-Ali)-Dienstanbieter bereitstellen. In diesem Fall konfigurieren Sie speziell gestaltete lync-VoIP-Richtlinien und weisen Sie den Kontaktobjekten des analogen Geräts zu, sodass E9-1-1-Anrufe von diesen Telefonen direkt über das lokale Gateway an den PSTN-Anbieter weiterleiten, der die Website abruft (anstatt das Routing des Anruf an einen E9-1-1-Service-Anbieter SIP-Trunk). Wenn ein Notruf erfolgt, ordnet eine Datenbank bei einem PS-Ali-Anbieter, der dem PSTN-trunk zugeordnet ist, die did-Daten jedes analogen Telefons einem physikalischen Standort zu und stellt diesen Standort dem PSAP zur Verfügung. Diese Einträge müssen mit dem PS-Ali-Dienstanbieter jedes Mal aktualisiert werden, wenn Telefone in andere ERLs verschoben werden.</P>
+> <P><STRONG>Traditionelle PS-Ali-Option</STRONG>&nbsp;&nbsp;&nbsp;Wenn Sie über lokale PSTN-Gateways an jedem Standort verfügen, auf dem analoge Telefone bereitgestellt werden und auf jedem analogen Telefon ein did vorhanden ist, können Sie den Standort des analogen Geräts direkt mit einem privaten Switch/automatischer Standort Identifizierungsdienst (PS-Ali) bereitstellen. In diesem Fall konfigurieren Sie speziell hierfür erstellte Lync-VoIP-Richtlinien und weisen diese den Kontaktobjekten der analogen Geräte zu, sodass E9-1-1-Anrufe von diesen Telefonen direkt über das lokale Gateway an den für den Standort verantwortlichen PSTN-Betreiber weitergeleitet werden (anstatt den Anruf an den SIP-Trunk eines E9-1-1-Dienstanbieters weiterzuleiten). Wird ein Notruf getätigt, ordnet eine dem PSTN-Trunk zugewiesene Datenbank beim PS-ALI-Anbieter die DID jedes analogen Telefons einem physischen Standort zu und stellt diesen Standort der Rettungsleitstelle zur Verfügung. Diese Datensätze müssen beim PS-ALI-Dienstanbieter immer dann aktualisiert werden, wenn Telefone zu anderen ERLs verlegt werden.</P>
 > <LI>
-> <P><STRONG>E9-1-1 Service Provider-Option</STRONG>&nbsp;&nbsp;&nbsp;Sie können die analoge Telefon DIDs und deren zugehörige ERLs mit dem E9-1-1-Dienstanbieter registrieren, wenn dieser vom Dienstanbieter E9-1-1 unterstützt wird. Wenn der Anbieter einen Anruf von lync Server erhält, der keine PIDF-Lo-Daten enthält, kann der Anbieter sehen, ob eine Daten Bank Übereinstimmung für die DID-Nummer des anrufenden Teilnehmers vorliegt. Durch Verwendung des Erl, das aus seiner Datenbank abgerufen wurde, kann der Anbieter den Notruf automatisch an die richtige PSAP weiterleiten, und der PSAP empfängt die did des analogen Geräts und einen ESQK-Eintrag, der es dem Dispatcher ermöglicht, den Standort des Anrufers nachzuschlagen.</P></LI></UL>Wenn Sie ein ELIN-Gateway verwenden und die Unterstützung für E9-1-1 über analoge Telefone erforderlich ist, können Sie dem PS-ALI-Dienstanbieter wie oben in der ersten Option beschrieben den Standort des analogen Geräts direkt zur Verfügung stellen.</div>
+> <P><STRONG>Dienstanbieter Option</STRONG>&nbsp;&nbsp;&nbsp;für E9-1-1 Sie können die analoge Telefon DIDs und die dazugehörigen ERLs mit dem E9-1 -1-Dienstanbieter registrieren, wenn dies vom E9-1-1-Dienstanbieter unterstützt wird. Wenn der Anbieter einen Anruf von lync Server erhält, der keine PIDF-Lo-Daten enthält, kann der Anbieter sehen, ob eine Daten Bank Übereinstimmung für die DID-Nummer des Anrufers vorliegt. Durch die Verwendung des von der Datenbank abgerufenen Erl kann der Anbieter den Notruf automatisch an die richtige Rettungsleitstelle weiterleiten, und der Rettungsleitstelle erhält das analoge Gerät und einen ESQK-Eintrag, mit dem der Dispatcher den Standort des Anrufers nachschlagen kann.</P></LI></UL>Wenn Sie ein ELIN-Gateway verwenden und die Unterstützung für E9-1-1 über analoge Telefone erforderlich ist, können Sie dem PS-ALI-Dienstanbieter wie oben in der ersten Option beschrieben den Standort des analogen Geräts direkt zur Verfügung stellen.</div>
 
-Aus Sicht des lync-Servers kann der E9-1-1-Prozess in zwei Phasen aufgeteilt werden:
+Aus lync Server Perspektive kann der E9-1-1-Prozess in zwei Phasen aufgeteilt werden:
 
-  - Schritt 1: Abrufen eines Standorts
+  - Schritt 1: Abrufen eines Standorts
 
-  - Schritt 2: Weiterleiten des Notrufs an einen E9-1-1-Dienstanbieter
+  - Schritt 2: Weiterleiten des Notrufs an einen E9-1-1-Dienstanbieter
 
 In diesem Abschnitt wird die Funktionsweise dieser Schritte beschrieben.
 
-Wenn Sie Ihre Infrastruktur so konfigurieren möchten, dass der Standort von Clients automatisch erkannt wird, müssen Sie zunächst festlegen, welche Netzwerkelemente verwendet werden sollen, um Anrufer Standorten zuzuordnen. Details zu den möglichen Optionen finden Sie unter [Definieren der Netzwerkelemente, die zum Ermitteln des Standorts in lync Server 2013 verwendet](lync-server-2013-defining-the-network-elements-used-to-determine-location.md)werden.
+Wenn Sie Ihre Infrastruktur so konfigurieren möchten, dass der Standort von Clients automatisch ermittelt wird, müssen Sie zunächst festlegen, welche Netzwerkelemente verwendet werden sollen, um Anrufer Standorten zuzuordnen. Ausführliche Informationen zu den möglichen Optionen finden Sie unter [Definieren der Netzwerkelemente, die zum Bestimmen des Standorts in lync Server 2013 verwendet](lync-server-2013-defining-the-network-elements-used-to-determine-location.md)werden.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Abrufen eines Standorts in Lync Server 2013](lync-server-2013-acquiring-a-location.md)
+  - [Erwerben eines Standorts in lync Server 2013](lync-server-2013-acquiring-a-location.md)
 
-  - [Weiterleiten von E9-1-1-Anrufen mittels SIP-Trunk in Lync Server 2013](lync-server-2013-routing-e9-1-1-calls-by-using-a-sip-trunk.md)
+  - [Weiterleiten von E9-1 -1-Anrufen mithilfe eines SIP-Trunks in lync Server 2013](lync-server-2013-routing-e9-1-1-calls-by-using-a-sip-trunk.md)
 
-  - [Weiterleiten von E9-1-1-Anrufen über ein ELIN-Gateway in Lync Server 2013](lync-server-2013-routing-e9-1-1-calls-by-using-an-elin-gateway.md)
+  - [Weiterleiten von E9-1 -1-Anrufen mithilfe eines Elin-Gateways in lync Server 2013](lync-server-2013-routing-e9-1-1-calls-by-using-an-elin-gateway.md)
 
 </div>
 

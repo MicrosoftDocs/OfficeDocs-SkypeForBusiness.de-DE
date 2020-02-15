@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Planen des Anrufsteuerungsdiensts'
+title: 'Lync Server 2013: Planung der Anrufsteuerung'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185652
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de1f39b32503be758e10f3fbf712acdc07bd956b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aa0d3173b3316d4e4dff704402da94c20aa2c9f9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725465"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006883"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-call-admission-control-in-lync-server-2013"></a>Planen des Anrufsteuerungsdiensts in Lync Server 2013
+# <a name="planning-for-call-admission-control-in-lync-server-2013"></a>Planung der Anrufsteuerung in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41725465"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Für UC-Anwendungen (Unified Communications), die IP-basiert sind, wie Telefonie, Video und Anwendungsfreigabe, wird die verfügbare Bandbreite von Unternehmensnetzwerken im Allgemeinen nicht als limitierender Faktor in LAN-Umgebungen angesehen. Wenn Standorte jedoch über ein WAN verbunden sind, kann die Bandbreite eingeschränkt sein. Wenn ein Zustrom von Netzwerkdatenverkehr eine WAN-Verbindung überzeichnet, werden aktuelle Mechanismen wie Warteschlangen, Pufferung und Paket Abwurf verwendet, um die Überlastung zu beheben. Der zusätzliche Datenverkehr wird üblicherweise verzögert, bis die Überlastung aufgehoben ist, oder gegebenenfalls verworfen. Bei herkömmlichem Datenverkehr kann der Empfängerclient die Daten in solchen Situationen wiederherstellen. Für echtzeitdatenverkehr wie Unified Communications kann die Netzwerküberlastung auf diese Weise nicht aufgelöst werden, da der Unified Communications-Datenverkehr sowohl auf Latenz als auch auf Paketverluste reagiert. Eine Überlastung des WAN kann zu einer unzureichenden Erlebnisqualität für Benutzer führen. Für Echtzeitverkehr in überlasteten Situationen ist es besser, Anrufe zu verweigern, als Verbindungen mit schlechter Qualität bereitzustellen.
+Für UC-Anwendungen (Unified Communications), die IP-basiert sind, wie Telefonie, Video und Anwendungsfreigabe, wird die verfügbare Bandbreite von Unternehmensnetzwerken im Allgemeinen nicht als limitierender Faktor in LAN-Umgebungen betrachtet. Bei WAN-Verbindungen, die Standorte miteinander verbinden, kann die Netzwerkbandbreite jedoch eingeschränkt werden. Wenn ein Zustrom von Netzwerkdatenverkehr eine WAN-Verbindung überzeichnet, werden aktuelle Mechanismen wie Warteschlangen, Pufferung und das Herunterfahren von Paketen verwendet, um die Überlastung zu beheben. Der zusätzliche Datenverkehr wird in der Regel verzögert, bis die Überlastung des Netzwerks oder, falls erforderlich, der Datenverkehr gelöscht wird. Für konventionellen Datenverkehr in solchen Situationen kann der empfangende Client wiederhergestellt werden. Für echtzeitdatenverkehr wie Unified Communications kann die Netzwerküberlastung auf diese Weise nicht aufgelöst werden, da der Unified Communications-Datenverkehr sowohl auf Wartezeit als auch auf Paketverlust reagiert. Überlastung im WAN kann zu einer schlechten Qualität der Benutzerfreundlichkeit (QoE) führen. Für den echtzeitdatenverkehr in überlasteten Bedingungen ist es besser, Anrufe zu verweigern, als Verbindungen mit schlechter Qualität bereitzustellen.
 
-Die Anrufsteuerung (Call Admission Control, CAC) ermittelt, ob ausreichend Netzwerkbandbreite für eine Echtzeitsitzung in akzeptabler Qualität vorhanden ist. In lync Server 2013 steuert CAC den Echtzeitverkehr nur für Audio und Video, hat aber keinen Einfluss auf den Datenverkehr. Wenn der WAN-Standardpfad nicht die erforderliche Bandbreite aufweist, kann die Anrufsteuerung versuchen, den Anruf über einen Internetpfad oder das Festnetz zu leiten. CAC steht nur in lync Server zur Verfügung.
+Anrufsteuerung (Call Admission Control, CAC) bestimmt, ob genügend Netzwerkbandbreite vorhanden ist, um eine Echtzeitsitzung mit akzeptabler Qualität einzurichten. In lync Server 2013 steuert die Anrufsteuerung den echtzeitdatenverkehr nur für Audio und Video, wirkt sich jedoch nicht auf den Datenverkehr aus. Wenn der standardmäßige WAN-Pfad nicht über die erforderliche Bandbreite verfügt, kann CAC versuchen, den Anruf über einen Internet Pfad oder das Telefon Festnetz (Public Switched Telephone Network, PSTN) weiterzuleiten. Die Anrufsteuerung ist nur in lync Server verfügbar.
 
-In diesem Abschnitt wird die Funktionsweise der Anrufsteuerung beschrieben und es wird erläutert, wie die Anrufsteuerung geplant werden kann.
+In diesem Abschnitt wird die Funktion zur Anrufsteuerung beschrieben und erläutert, wie die Anrufsteuerung geplant wird.
 
 <div>
 
 
 > [!NOTE]  
-> Lync Server verfügt über drei erweiterte Enterprise-VoIP-Features: Anrufannahme Steuerung (CAC), Notfalldienste (E9-1-1) und medienumgehung. Eine Übersicht über die Planungsinformationen, die für alle drei Features üblich sind, finden Sie unter <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Netzwerkeinstellungen für die erweiterten Enterprise-VoIP-Features in lync Server 2013</A>.
+> Lync Server verfügt über drei erweiterte Enterprise-VoIP-Funktionen: Anrufsteuerung (Call Admission Control, CAC), Notrufdienste (E9-1-1) und medienumgehung. Eine Übersicht über die Planungsinformationen, die für alle drei dieser Features verwendet werden, finden Sie unter <A href="lync-server-2013-network-settings-for-the-advanced-enterprise-voice-features.md">Netzwerkeinstellungen für die erweiterten Enterprise-VoIP-Funktionen in lync Server 2013</A>.
 
 
 
@@ -59,15 +59,15 @@ In diesem Abschnitt wird die Funktionsweise der Anrufsteuerung beschrieben und e
 
   - [Übersicht über die Anrufsteuerung in lync Server 2013](lync-server-2013-overview-of-call-admission-control.md)
 
-  - [Definieren der Anforderungen Ihrer Organisation für die Anrufsteuerung in Lync Server 2013](lync-server-2013-defining-your-requirements-for-call-admission-control.md)
+  - [Definieren der Anforderungen für die Anrufsteuerung in lync Server 2013](lync-server-2013-defining-your-requirements-for-call-admission-control.md)
 
-  - [Beispiel: Erfassen Ihrer Anforderungen für die Anrufsteuerung in lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)
+  - [Beispiel: Sammeln der Anforderungen für die Anrufsteuerung in lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md)
 
-  - [Komponenten und Topologien für die Anrufsteuerung in Lync Server 2013](lync-server-2013-components-and-topologies-for-cac.md)
+  - [Komponenten und Topologien für die Anrufsteuerung in lync Server 2013](lync-server-2013-components-and-topologies-for-cac.md)
 
-  - [Bewährte Methoden für die Anrufsteuerung in Lync Server 2013](lync-server-2013-best-practices-for-call-admission-control.md)
+  - [Bewährte Methoden für die Anrufsteuerung in lync Server 2013](lync-server-2013-best-practices-for-call-admission-control.md)
 
-  - [Prüfliste für die Bereitstellung der Anrufsteuerung in Lync Server 2013](lync-server-2013-deployment-checklist-for-call-admission-control.md)
+  - [Prüfliste für die Bereitstellung der Anrufsteuerung in lync Server 2013](lync-server-2013-deployment-checklist-for-call-admission-control.md)
 
 </div>
 

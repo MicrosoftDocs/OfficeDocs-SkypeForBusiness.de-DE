@@ -1,5 +1,5 @@
 ---
-title: 'Phase 2: Vorbereitung der Migration'
+title: 'Phase 2: Vorbereiten der Migration'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185920
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85db7e4aea8405bf1ec3f94e491c7007ae8b51ee
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: febd806e55e8e2d6234818ec45eefb33cc3ef708
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757699"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034325"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-2-prepare-for-migration"></a>Phase 2: Vorbereitung der Migration
+# <a name="phase-2-prepare-for-migration"></a>Phase 2: Vorbereiten der Migration
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41757699"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-17_
+_**Letztes Änderungsstand des Themas:** 2012-09-17_
 
-Bevor Sie mit der Migration zu lync Server 2013 von lync Server 2010 beginnen, führen Sie die in diesem Abschnitt beschriebenen Schritte aus.
+Führen Sie die in diesem Abschnitt beschriebenen Schritte aus, bevor Sie mit der Migration zu lync Server 2013 von lync Server 2010 beginnen.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Anwenden von lync Server 2010-Updates](apply-lync-server-2010-updates.md)
+  - [Anwenden von lync Server 2010 Updates](apply-lync-server-2010-updates.md)
 
-  - [Konfigurieren von DNS-Einträgen für die Pilotpoolbereitstellung](configure-dns-records-for-pilot-pool-deployment.md)
+  - [Konfigurieren von DNS-Einträgen für die Bereitstellungeines pilotpools](configure-dns-records-for-pilot-pool-deployment.md)
 
-  - [Ausführen von Best Practices Analyzer](run-best-practices-analyzer.md)
+  - [Ausführen von Best Practice Analyzer](run-best-practices-analyzer.md)
 
   - [Sichern von Systemen und Daten](back-up-systems-and-data.md)
 
-  - [Konfigurieren von Clients für die Migration](configure-clients-for-migration.md)
+  - [Konfigurieren der Clients für die Migration](configure-clients-for-migration.md)
 
-  - [Überprüfen der Lync Server 2010-Umgebung](verify-lync-server-2010-environment.md)
+  - [Überprüfen der lync Server 2010 Umgebung](verify-lync-server-2010-environment.md)
 
 </div>
 

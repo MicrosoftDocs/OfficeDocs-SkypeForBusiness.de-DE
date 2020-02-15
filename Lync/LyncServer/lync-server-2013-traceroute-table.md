@@ -12,16 +12,16 @@ ms:contentKeyID: 48185242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 691b7576d59511428400d14a3ff21109525dc5a1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: afb8cfb65fdf8fdbb4c281127caafd394cb878af
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745065"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036495"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41745065"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-02-21_
+_**Letztes Änderungsstand des Themas:** 2014-02-21_
 
-Die traceroute-Tabelle enthält Routinginformationen aus anrufen. Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
+Die TraceRoute-Tabelle enthält Routinginformationen von Anrufen. Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
 
 
 <table>
@@ -58,31 +58,31 @@ Die traceroute-Tabelle enthält Routinginformationen aus anrufen. Diese Tabelle 
 <tbody>
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
-<td><p>datetime</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Das Datum und die Uhrzeit, zu der der Anruf begonnen hat.</p></td>
+<td><p>Datum/Uhrzeit</p></td>
+<td><p>Primär, Fremd</p></td>
+<td><p>Datum und Uhrzeit des Beginns des Anrufs.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Eindeutiger Bezeichner, der verwendet wird, um zwischen mehreren Anrufen zu unterscheiden, die möglicherweise am gleichen Datum und zur gleichen Zeit begonnen haben.</p></td>
+<td><p>Primär, Fremd</p></td>
+<td><p>Eindeutige ID, die zur Unterscheidung zwischen mehreren Anrufen verwendet wird, die möglicherweise zum gleichen Datum und zur gleichen Uhrzeit  begonnen haben.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MediaLineLabel</strong></p></td>
 <td><p>tinyint</p></td>
-<td><p>Primär, fremd</p></td>
-<td><p>Stellt den Typ der im Anruf verwendeten Videozeile dar. Gültige Werte sind:</p>
+<td><p>Primär, Fremd</p></td>
+<td><p>Stellt den Videozeilentyp dar, der bei dem Anruf verwendet wurde. Gültige Werte sind:</p>
 <ul>
 <li><p>0 – Audio</p></li>
 <li><p>1 – Video</p></li>
-<li><p>2 – Panorama Video</p></li>
-<li><p>3 – Anwendung/Desktop Freigabe</p></li>
+<li><p>2 -- Panoramavideo</p></li>
+<li><p>3 – Anwendungs-/Desktop Freigabe</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p><strong>FromCaller</strong></p></td>
-<td><p>bit</p></td>
+<td><p>Bit</p></td>
 <td><p>Primary</p></td>
 <td><p>Endpunkt, der den Anruf getätigt hat.</p></td>
 </tr>
@@ -96,13 +96,13 @@ Die traceroute-Tabelle enthält Routinginformationen aus anrufen. Diese Tabelle 
 <td><p><strong>IPAddressKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Fremd</p></td>
-<td><p>Eindeutiger Bezeichner für die IP-Adresse. IP-Adressinformationen werden in der <a href="lync-server-2013-ipaddress-table.md">Tabelle IPAddress in lync Server 2013</a>gespeichert.</p></td>
+<td><p>Eindeutige ID für die IP-Adresse. IP-Adressinformationen werden in der <a href="lync-server-2013-ipaddress-table.md">IPAddress-Tabelle in lync Server 2013</a>gespeichert.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>RTT</strong></p></td>
 <td><p>int</p></td>
 <td></td>
-<td><p>Roundtrip-Zeit. Die Roundtrip-Zeit misst die Zeitdauer, die ein Sprachpaket benötigt, um sein Ziel zu erreichen, und sendet dann eine Benachrichtigung, dass es empfangen wurde.</p></td>
+<td><p>Paketumlaufzeit (Roundtrip time). Die Paketumlaufzeit misst die Zeit, die ein Sprachpaket benötigt, um zu seinem Ziel zu gelangen und eine Benachrichtigung über den Empfang zu senden.</p></td>
 </tr>
 </tbody>
 </table>

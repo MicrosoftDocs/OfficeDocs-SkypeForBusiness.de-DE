@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Deaktivieren der Gruppenanruf Abholung für Benutzer'
+title: 'Lync Server 2013: Deaktivieren der gruppenanrufannahme für Benutzer'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7e47b5c3b12997bd05f3721555a5dfdfe692bbc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c03242cf0b3521dada944ccaba30946306c1ff24
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762203"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036595"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a>Deaktivieren der Gruppenanruf Abholung für Benutzer in lync Server 2013
+# <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a>Deaktivieren der gruppenanrufannahme für Benutzer in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41762203"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-01-30_
+_**Letztes Änderungsstand des Themas:** 2013-01-30_
 
-Gehen Sie wie folgt vor, um die Gruppenanruf Abholung für einen Benutzer zu deaktivieren.
+Verwenden Sie das folgende Verfahren, um die gruppenanrufannahme für einen Benutzer zu deaktivieren.
 
 <div>
 
 
 > [!NOTE]  
-> Wenn Sie die Gruppenanruf Abholung für einen Benutzer deaktivieren, wird die dem Benutzer zugewiesene Anrufgruppen Nummer nicht gespeichert. Wenn Sie anschließend die Gruppenanruf Abholung für diesen Benutzer wieder aktivieren möchten, müssen Sie die Nummer für die Anruf-Abhol Gruppe mit dem/enablegrouppickup-Parameter erneut zuweisen.
+> Wenn Sie die gruppenanrufannahme für einen Benutzer deaktivieren, wird die Nummer der Anrufannahme Gruppe, die dem Benutzer zugewiesen wurde, nicht beibehalten. Wenn Sie anschließend die gruppenanrufannahme für diesen Benutzer erneut aktivieren möchten, müssen Sie die Nummer für die Anrufannahme Gruppe mit dem Parameter/enablegrouppickup erneut zuweisen.
 
 
 
@@ -51,11 +51,11 @@ Gehen Sie wie folgt vor, um die Gruppenanruf Abholung für einen Benutzer zu dea
 
 <div>
 
-## <a name="to-disable-group-call-pickup-for-a-user"></a>So deaktivieren Sie die Gruppenanruf Abholung für einen Benutzer
+## <a name="to-disable-group-call-pickup-for-a-user"></a>So deaktivieren Sie die gruppenanrufannahme für einen Benutzer
 
-1.  Melden Sie sich mit Administratorrechten an dem Computer an, auf dem Sie das SEFAUtil-Tool installiert haben.
+1.  Melden Sie sich an dem Computer an, auf dem Sie das SEFAUtil-Tool mit Administratorrechten installiert haben.
 
-2.  Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
+2.  Führen Sie an der Eingabeaufforderung Folgendes aus:
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /disablegrouppickup
     
@@ -71,7 +71,7 @@ Gehen Sie wie folgt vor, um die Gruppenanruf Abholung für einen Benutzer zu dea
 
 
 [Zuweisen von Gruppenanruf-Abhol Nummern zu Benutzern in lync Server 2013](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
-[Aktivieren der Gruppenanruf Abholung für Benutzer in lync Server 2013](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[Aktivieren der gruppenanrufannahme für Benutzer in lync Server 2013](lync-server-2013-enable-group-call-pickup-for-users.md)  
   
 
 </div>

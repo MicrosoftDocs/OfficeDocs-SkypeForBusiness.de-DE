@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Überprüfen von Audio-und Videokonferenzen'
+title: 'Lync Server 2013: Überprüfen von Audio/Video-Konferenzen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969615
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89bb8f38ea650bf64179b917b227d7ccaaf10791
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82abbf918f4b375c10fdf201591e099f5cd4262e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763649"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Überprüfen von Audio-und Videokonferenzen in lync Server 2013
+# <a name="validating-audiovideo-conferences-in-lync-server-2013"></a>Überprüfen von Audio/Video-Konferenzen in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41763649"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-06-05_
+_**Letztes Änderungsstand des Themas:** 2014-06-05_
 
 
 <table>
@@ -58,8 +58,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-05_
 </tr>
 <tr class="even">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsAVConference-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsAVConference verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsAVConference&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -70,9 +70,9 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-05_
 
 ## <a name="description"></a>Beschreibung
 
-Das Cmdlet Test-CsAVConference überprüft, ob zwei Test Benutzer an einer Audio/Video-Konferenz (A/V) teilnehmen können. Wenn das Cmdlet ausgeführt wird, sind die beiden Benutzer am System angemeldet. Nachdem Sie sich erfolgreich angemeldet haben, erstellt der erste Benutzer eine A/V-Konferenz und wartet dann auf die Teilnahme des zweiten Benutzers an dieser Konferenz. Nach einem kurzen Datenaustausch wird die Konferenz gelöscht, und die beiden Testbenutzer werden abgemeldet.
+Das Cmdlet Test-CsAVConference überprüft, ob zwei Test Benutzer an einer Audio/Video-Konferenz (A/V) teilnehmen können. Wenn das Cmdlet durchgeführt wird, werden die zwei Benutzer beim System angemeldet. Nachdem Sie sich erfolgreich angemeldet haben, erstellt der erste Benutzer eine A/V-Konferenz und wartet darauf, dass der zweite Benutzer an dieser Konferenz teilnehmen kann. Nach einem kurzen Datenaustausch wird die Konferenz gelöscht, und die zwei Testbenutzer werden abgemeldet.
 
-Beachten Sie, dass Test-CsAVConference keine eigentliche A/V-Konferenz zwischen den beiden Testbenutzern durchführt. Stattdessen überprüft das Cmdlet, ob die beiden Benutzer alle erforderlichen Verbindungen zum Durchführen einer solchen Konferenz vornehmen können.
+Beachten Sie, dass mit Test-CsAVConference keine tatsächliche A/V-Konferenz zwischen den beiden Testbenutzern durchzuführen ist. Stattdessen überprüft das Cmdlet, ob die beiden Benutzer alle erforderlichen Verbindungen zum Durchführen einer solchen Konferenz herstellen können.
 
 Weitere Beispiele für diesen Befehl finden Sie unter [Test-CsAVConference](https://docs.microsoft.com/powershell/module/skype/Test-CsAVConference).
 
@@ -80,13 +80,13 @@ Weitere Beispiele für diesen Befehl finden Sie unter [Test-CsAVConference](http
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet "Test-CsAVConference" kann mit einem Paar vorkonfigurierter Testkonten ausgeführt werden (siehe Einrichten von Testkonten zum Ausführen von lync Server-Tests) oder der Konten von zwei Benutzern, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den FQDN des zu testenden lync-Server Pools angeben. Beispiel:
+Das Cmdlet Test-CsAVConference kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten für das Ausführen von lync Server Tests) oder den Konten von zwei Benutzern, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den FQDN des lync Server Pools angeben, der getestet werden soll. Beispiel:
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Damit diese Überprüfung mit tatsächlichen Benutzerkonten ausgeführt werden kann, müssen Sie für jedes Konto zwei Windows PowerShell-Anmeldeinformationsobjekte (Objekte, die den Kontonamen und das Kennwort enthalten) erstellen. Sie müssen dann diese Anmeldeinformationsobjekte und die SIP-Adressen der beiden Konten einbeziehen, wenn Sie Test-CsAVConference aufrufen:
+Um diese Überprüfung mit tatsächlichen Benutzerkonten auszuführen, müssen Sie zwei Windows PowerShell Credentials-Objekte (Objekte, die den Kontonamen und das Kennwort enthalten) für jedes Konto erstellen. Sie müssen dann diese Credentials-Objekte und die SIP-Adressen der beiden Konten einschließen, wenn Sie Test-CsAVConference aufrufen:
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
@@ -98,27 +98,27 @@ Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsAV
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn die angegebenen Benutzer eine A/V-Konferenz erfolgreich abschließen können, erhalten Sie eine ähnliche Ausgabe, wobei die Eigenschaft Ergebnis als erfolgreich markiert ist **:**
+Wenn die angegebenen Benutzer eine A/V-Konferenz erfolgreich abschließen können, erhalten Sie eine ähnliche Ausgabe, wobei die Result-Eigenschaft als Success markiert wurde **:**
 
 TargetFqdn: ATL-CS-001.litwareinc.com
 
-Ergebnis: Erfolg
+Ergebnis: Success
 
-Latenz: 00:00:02.6841765
+Wartezeit: 00:00:02.6841765
 
 Fehler
 
 Diagnose
 
-Wenn die Benutzer die Konferenz nicht abschließen können, wird das Ergebnis als Fehler angezeigt, und weitere Informationen werden in den Eigenschaften Fehler und Diagnose aufgezeichnet:
+Wenn die Benutzer die Konferenz nicht abschließen können, wird das Ergebnis als Fehler angezeigt, und in den Eigenschaften Error und Diagnostic werden zusätzliche Informationen aufgezeichnet:
 
 TargetFqdn: ATL-CS-001.litwareinc.com
 
 Ergebnis: Fehler
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
 Fehler: 404, nicht gefunden
 
@@ -128,49 +128,49 @@ Reason = Ziel-URI ist entweder für SIP nicht aktiviert oder nicht
 
 existieren.
 
-Microsoft. RTC. Signalisierungs-DiagnosticHeader
+Microsoft. RTC. Signaling. DiagnosticHeader
 
-In der vorherigen Ausgabe wird beispielsweise festgestellt, dass der Test fehlgeschlagen ist, weil mindestens eines der beiden Benutzerkonten ungültig war, weil das Konto nicht vorhanden ist oder weil das Konto für lync Server nicht aktiviert wurde. Sie können überprüfen, ob die beiden Testkonten vorhanden sind und ob Sie für lync Server aktiviert wurden, indem Sie einen Befehl wie den folgenden ausführen:
+In der vorherigen Ausgabe wird beispielsweise festgestellt, dass der Test fehlgeschlagen ist, da mindestens eines der beiden Benutzerkonten ungültig war, da das Konto nicht vorhanden ist oder das Konto nicht für lync Server aktiviert wurde. Sie können überprüfen, ob die beiden Testkonten vorhanden sind und ob Sie für lync Server aktiviert wurden, indem Sie einen Befehl wie den folgenden ausführen:
 
     "sip:kenmyer@litwareinc.com","sip:davidlongmire@litwareinc.com" | Get-CsUser | Select-Object SipAddress, enabled
 
-Wenn Test-CsAVConference fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, wobei dieser Zeitpunkt einschließlich des Verbose-Parameters lautet:
+Wenn Test-CsAVConference fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, dieses Mal einschließlich des Parameters verbose:
 
     Test-CsAVConference -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Wenn der Verbose-Parameter enthalten ist, gibt CsAVConference eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als Sie die Fähigkeit der angegebenen Benutzer zur Teilnahme an einer AV-Konferenz überprüft hat. Nehmen wir beispielsweise an, dass Ihr Test fehlschlägt und Sie die folgende Diagnose erhalten:
+Wenn der Verbose-Parameter enthalten ist, gibt Test-CsAVConference eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als er die Fähigkeit der angegebenen Benutzer zur Teilnahme an einer AV-Konferenz überprüft hat. Nehmen Sie beispielsweise an, dass Ihr Test fehlschlägt und Sie die folgende Diagnose erhalten:
 
-ErrorCode = 1008, Source = accessproxy. "litwareinc. com; Reason = DNS-SRV-Eintrag konnte nicht aufgelöst werden
+ErrorCode = 1008, Source = accessproxy. litwareinc. com, Reason = DNS-SRV-Eintrag kann nicht aufgelöst werden
 
-Wenn Sie den Test mit dem Verbose-Parameter erneut ausführen, beinhalten die zurückgegebenen schrittweisen Informationen eine Ausgabe, die der folgenden ähnelt:
+Wenn Sie den Test mit dem Verbose-Parameter erneut ausführen, werden die zurückgegebenen Schritt-für-Schritt-Informationen in etwa wie folgt ausgegeben:
 
-Ausführlich: die Aktivität "registrieren" wurde gestartet.
+Ausführlich: Aktivität "registrieren" gestartet.
 
-Registrierungsanfrage wird gesendet:
+Senden der Registrierungsanforderung:
 
 Ziel-FQDN = ATL-CS-001.litwareinc.com
 
 SIP-Adresse des Benutzers = SIP:davidlongmire@litwareinc.com
 
-Registrar Port = 5061.
+Registrierungsstelle Port = 5061.
 
-Auth-Typ "vertrauenswürdig" ist ausgewählt.
+Der Authentifizierungstyp "vertrauenswürdig" ist ausgewählt.
 
-Die Aktivität "registrieren" wurde gestartet.
+Aktivität ' registrieren ' gestartet.
 
-Registrierungsanfrage wird gesendet:
+Senden der Registrierungsanforderung:
 
 Ziel-FQDN = ATL-CS-001.litwareinc.com
 
 SIP-Adresse des Benutzers = SIP:kenmyer@litwareinc.com
 
-Registrar Port = 5061.
+Registrierungsstelle Port = 5061.
 
-Auth-Typ "vertrauenswürdig" ist ausgewählt.
+Der Authentifizierungstyp "vertrauenswürdig" ist ausgewählt.
 
-Eine Ausnahme "der Endpunkt konnte nicht registriert werden. Lesen Sie den ErrorCode aus bestimmten Gründen. während des Workflows aufgetreten
+Eine Ausnahme "der Endpunkt konnte sich nicht registrieren. Lesen Sie den ErrorCode aus einem bestimmten Grund. ' während des Workflows aufgetreten
 
-Die letzte Zeile in dieser Ausgabe gibt an, dass der Benutzer SIP:kenmyer@litwareinc.com sich nicht bei lync Server registrieren konnte. Das bedeutet, dass Sie überprüfen sollten, ob die SIP-Adresse SIP:kenmyer@litwareinc.com gültig ist und dass der zugeordnete Benutzer für lync Server aktiviert ist.
+Die letzte Ausgabe in dieser Ausgabe gibt an, dass sich der Benutzer SIP:kenmyer@litwareinc.com nicht bei lync Server registrieren konnte. Das bedeutet, dass Sie überprüfen sollten, ob die SIP-Adresse SIP:kenmyer@litwareinc.com gültig ist und dass der zugeordnete Benutzer für lync Server aktiviert ist.
 
 </div>
 
@@ -178,17 +178,17 @@ Die letzte Zeile in dieser Ausgabe gibt an, dass der Benutzer SIP:kenmyer@litwar
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Nachfolgend finden Sie einige häufige Gründe, warum Test-CsAVConference möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsAVConference möglicherweise fehlschlägt:
 
   - Sie haben ein ungültiges Benutzerkonto angegeben. Sie können überprüfen, ob ein Benutzerkonto vorhanden ist, indem Sie einen Befehl wie den folgenden ausführen:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - Das Benutzerkonto ist gültig, das Konto ist derzeit aber für lync Server nicht aktiviert. Führen Sie einen Befehl ähnlich der folgenden aus, um zu überprüfen, ob ein Benutzerkonto für lync Server aktiviert ist:
+  - Das Benutzerkonto ist gültig, aber das Konto ist derzeit nicht für lync Server aktiviert. Um zu überprüfen, ob ein Benutzerkonto für lync Server aktiviert ist, führen Sie einen Befehl wie den folgenden aus:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    Wenn die Enabled-Eigenschaft auf false festgelegt ist, bedeutet dies, dass der Benutzer zurzeit nicht für lync Server aktiviert ist.
+    Wenn die Enabled-Eigenschaft auf false festgelegt ist, bedeutet dies, dass der Benutzer derzeit nicht für lync Server aktiviert ist.
 
 </div>
 

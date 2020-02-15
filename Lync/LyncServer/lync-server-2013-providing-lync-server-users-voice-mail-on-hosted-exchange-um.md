@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Bereitstellen von Voicemail für Benutzer für gehostete Exchange Unified Messaging-Dienste'
+title: 'Lync Server 2013: Bereitstellen von Voicemail für lync Server-Benutzer in gehosteten Exchange um'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183752
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 02feacedfc2b0cf7d3f34788c5c9a6ee65d50a9c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7849798b1e9cc01b26b5692509bd19c40da644a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747225"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006853"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="providing-lync-server-2013-users-voice-mail-on-hosted-exchange-um"></a>Bereitstellen von Voicemail für Benutzer von Lync Server 2013 für gehostete Exchange Unified Messaging-Dienste
+# <a name="providing-lync-server-2013-users-voice-mail-on-hosted-exchange-um"></a>Bereitstellen von Voicemail für lync Server 2013-Benutzer in gehosteten Exchange um
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41747225"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-24_
+_**Letztes Änderungsstand des Themas:** 2012-09-24_
 
-Dieser Abschnitt führt Sie durch den Vorgang, in dem Benutzer in einer lokalen lync Server 2013-Bereitstellung mit Voicemail in einem gehosteten Exchange Unified Messaging (um)-Dienst bereitgestellt werden.
+Dieser Abschnitt führt Sie durch den Prozess der Bereitstellung von Benutzern in einer lokalen lync Server 2013-Bereitstellung mit Voicemail in einem gehosteten Exchange Unified Messaging (um)-Dienst.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Erstellen eines DNS-SRV-Eintrags für die Integration in gehostete Exchange UM-Dienste](lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md)
+  - [Erstellen eines DNS-SRV-Eintrags für die Integration in gehostete Exchange um](lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md)
 
-  - [Konfigurieren des Edgeservers für die Integration in gehostete Exchange UM-Dienste](lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md)
+  - [Konfigurieren der Edgeserver für die Integration in gehostete Exchange um](lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md)
 
-  - [Verwalten von Richtlinien für gehostete Voicemail in Lync Server 2013](lync-server-2013-manage-hosted-voice-mail-policies.md)
+  - [Verwalten von Richtlinien für gehostete Voicemail in lync Server 2013](lync-server-2013-manage-hosted-voice-mail-policies.md)
 
-  - [Aktivieren von Benutzern für gehostete Voicemail in Lync Server 2013](lync-server-2013-enable-users-for-hosted-voice-mail.md)
+  - [Aktivieren von Benutzern für gehostete Voicemail in lync Server 2013](lync-server-2013-enable-users-for-hosted-voice-mail.md)
 
-  - [Erstellen von Kontaktobjekten für gehostete Exchange UM-Dienste in Lync Server 2013](lync-server-2013-create-contact-objects-for-hosted-exchange-um.md)
+  - [Erstellen von Contact-Objekten für gehostete Exchange um in lync Server 2013](lync-server-2013-create-contact-objects-for-hosted-exchange-um.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 49733774
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1bbc4ca63a2b2b31a43b5f5a99aa007fedc745b7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2d5dfa79936b5d9162c6907df961dee38fa1fec2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756099"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41992500"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756099"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Sie können die lync Server 2013-PIN-Richtlinien entweder in der lync Server 2013-Systemsteuerung oder in der lync Server-Verwaltungsshell verwalten. Wenden Sie zum Konfigurieren von PIN-Richtlinien für Ihre Organisation die folgenden Verfahren an.
+Sie können lync Server 2013 PIN-Richtlinien entweder über lync Server 2013 Systemsteuerung oder lync Server-Verwaltungsshell verwalten. Wenden Sie zum Konfigurieren von PIN-Richtlinien für Ihre Organisation die folgenden Verfahren an.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Anzeigen von PIN-Richtlinien inforrmation in lync Server 2013](lync-server-2013-view-pin-policy-inforrmation.md)
+  - [PIN-Richtlinie Linien in lync Server 2013 anzeigen](lync-server-2013-view-pin-policy-inforrmation.md)
 
   - [Erstellen einer neuen PIN-Richtlinie in lync Server 2013](lync-server-2013-create-a-new-pin-policy.md)
 
@@ -51,7 +51,7 @@ Sie können die lync Server 2013-PIN-Richtlinien entweder in der lync Server 201
 
   - [Löschen einer PIN-Richtlinie in lync Server 2013](lync-server-2013-delete-a-pin-policy.md)
 
-  - [Zuweisen einer pro-Benutzer-PIN-Richtlinie in lync Server 2013](lync-server-2013-assign-a-per-user-pin-policy.md)
+  - [Zuweisen einer benutzerbasierten PIN-Richtlinie in lync Server 2013](lync-server-2013-assign-a-per-user-pin-policy.md)
 
 </div>
 
@@ -60,7 +60,7 @@ Sie können die lync Server 2013-PIN-Richtlinien entweder in der lync Server 201
 ## <a name="see-also"></a>Siehe auch
 
 
-[Verwalten von Benutzer Pins in lync Server 2013](lync-server-2013-managing-user-pins.md)  
+[Verwalten von Benutzer-Pins in lync Server 2013](lync-server-2013-managing-user-pins.md)  
   
 
 </div>

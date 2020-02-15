@@ -12,16 +12,16 @@ ms:contentKeyID: 49733653
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bface3b7e2515ed7ec8a8f3d78f21e867a6d6c00
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 83ab13e614eb88f4089c0dc87bd8a590455a8ed2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727345"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41727345"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-17_
+_**Letztes Änderungsstand des Themas:** 2012-09-17_
 
-Bevor Sie lync Server 2013 in einem koexistenzstatus mit lync Server 2010 bereitstellen, müssen Sie einige zusätzliche Active Directory-Aufgaben ausführen, um das Schema, die Gesamtstruktur und die Domäne für lync Server 2013 zu konfigurieren. Die Schemaerweiterungen fügen die Active Directory-Klassen und-Attribute hinzu, die für lync Server 2013 erforderlich sind. Weitere Informationen finden Sie im Thema [Vorbereiten der Active Directory-Domänendienste für lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md).
+Vor dem Bereitstellen von lync Server 2013 im koexistenzstatus mit lync Server 2010 müssen Sie einige zusätzliche Active Directory Aufgaben ausführen, um das Schema, die Gesamtstruktur und die Domäne für lync Server 2013 zu konfigurieren. Die Schemaerweiterungen fügen die Active Directory Klassen und Attribute hinzu, die für lync Server 2013 erforderlich sind. Weitere Informationen finden Sie im Thema [vorbereiten Active Directory-Domänendienste für lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md).
 
 **So bereiten Sie Active Directory für lync Server 2013 vor**
 
-1.  Führen Sie auf dem lync Server 2013-Front-End-Server das lync Server 2013-Setup aus.
+1.  Führen Sie im lync Server 2013 Front-End-Server lync Server 2013 Setup aus.
 
-2.  Wählen Sie **Active Directory vorbereiten**aus.
+2.  Wählen Sie **Active Directory vorbereiten** aus.
     
     ![Lync Server 2013-Bereitstellungs-Assistent, Willkommensseite](images/JJ205265.5f88ae18-9c3c-42ea-a91a-836ecf5d515f(OCS.15).jpg "Lync Server 2013-Bereitstellungs-Assistent, Willkommensseite")
 
 3.  Führen Sie die Schritte 1 bis 5 aus.
     
-    ![Bereitstellungs-Assistent, Active Directory-prearat](images/JJ205265.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "Bereitstellungs-Assistent, Active Directory-prearat")
+    ![Bereitstellungs-Assistent, Active Directory prearation](images/JJ205265.eddd9e94-fa70-453f-8810-b99a2bf0844a(OCS.15).jpg "Bereitstellungs-Assistent, Active Directory prearation")
 
 </div>
 

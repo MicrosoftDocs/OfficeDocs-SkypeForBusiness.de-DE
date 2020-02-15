@@ -12,16 +12,16 @@ ms:contentKeyID: 48183515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e1b03e7c64c15d147e09883b9d7580bacbca7be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4cb04adb830e4b7207391675aeabd5f3be315724
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729765"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036223"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729765"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-13_
+_**Letztes Änderungsstand des Themas:** 2012-06-13_
 
-Sie stellen IP-Adresstypen mithilfe von topologieeinstellungen bereit, die Sie im Topologie-Generator konfiguriert haben. In diesem Abschnitt wird beschrieben, wie IP-Adresstypen auf Front-End-Servern, Vermittlungsservern und Edgeserver bereitgestellt werden.
+Sie stellen IP-Adresstypen mithilfe von topologieeinstellungen bereit, die Sie im Topologie-Generator konfigurieren. In diesem Abschnitt wird beschrieben, wie Sie IP-Adresstypen auf Front-End-Servern, Vermittlungsservern und Edge-Servern bereitstellen.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Bereitstellen von IP-Adresstypen auf einem Front-End-Server für Lync Server 2013](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
+  - [Bereitstellen von IP-Adresstypen auf einem Front-End-Server für lync Server 2013](lync-server-2013-deploy-ip-address-types-on-a-front-end-server.md)
 
-  - [Bereitstellen von IP-Adresstypen auf einem Vermittlungsserver für Lync Server 2013](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
+  - [Bereitstellen von IP-Adresstypen auf einem Vermittlungsserver für lync Server 2013](lync-server-2013-deploy-ip-address-types-on-a-mediation-server.md)
 
-  - [Bereitstellen von IP-Adresstypen auf einem Edgeserver für Lync Server 2013](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
+  - [Bereitstellen von IP-Adresstypen auf einem Edgeserver für lync Server 2013](lync-server-2013-deploy-ip-address-types-on-an-edge-server.md)
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 48185466
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b197c4b42542310746568fe351f98c7d991509cf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 227ca68433cfcc41f966e220ffc826357b50d54b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740545"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034937"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41740545"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Sie können der Seite **Testgerät** ein Gerät hinzufügen und mit diesem Gerät anschließend die Funktionalität neuer Updates überprüfen, bevor die Updates auf Produktionsgeräten bereitgestellt werden. Sie können ein Gerät auf globaler Ebene (in der gesamten lync Server-Umgebung) oder auf einer einzigen Website testen. Sie identifizieren ein Testgerät über seine MAC-Adresse (Media Access Control) oder Seriennummer. Wenn Sie ein Gerät hinzufügen, wird es in der Liste auf der Seite **Testgerät** der lync Server-Systemsteuerung angezeigt.
+Sie können ein Gerät zur Seite **Testgerät** hinzufügen und mit diesem Gerät anschließend die Funktionalität neuer Updates überprüfen, bevor die Updates auf Produktionsgeräten bereitgestellt werden. Sie können ein Gerät auf globaler Ebene (in der gesamten lync Server Umgebung) oder an einem einzelnen Standort testen. Sie identifizieren ein Testgerät über seine MAC-Adresse (Media Access Control) oder Seriennummer. Wenn Sie ein Gerät hinzufügen, wird es in der Liste auf der Seite **Test Gerät** des lync Server-Systemsteuerung angezeigt.
 
 <div>
 
 ## <a name="to-add-a-test-device"></a>So fügen Sie ein Testgerät hinzu
 
-1.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-2.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf **Gerät testen**.
+2.  Klicken Sie in der linken Navigationsleiste auf **Clients** und dann auf **Testgerät**.
 
-3.  Klicken Sie auf **neu**, und klicken Sie dann entweder auf **globales Test Gerät** oder auf **Website Test Gerät**.
+3.  Klicken Sie auf **Neu** und anschließend entweder auf **Globales Testgerät** oder **Standorttestgerät**.
 
 4.  Führen Sie einen der folgenden Schritte aus:
     
-      - Wenn Sie auf **globales Test Gerät**geklickt haben, fahren Sie mit dem nächsten Schritt fort.
+      - Wenn Sie auf **Globales Testgerät** geklickt haben, fahren Sie mit dem nächsten Schritt fort.
     
-      - Wenn Sie auf **Website Test Gerät**geklickt haben, wählen Sie in der Liste der verfügbaren Websites eine Website aus, und klicken Sie dann auf **OK**.
+      - Wenn Sie auf **Standorttestgerät** geklickt haben, wählen Sie einen Standort aus der Liste der verfügbaren Standorte aus, und klicken Sie dann auf **OK**.
 
-5.  Geben Sie in **Neues Testgerät**einen Namen für das Gerät in **Device Name**ein.
+5.  Geben Sie unter **Neues Testgerät** im Feld **Gerätename** einen Namen für das Gerät ein.
 
-6.  Klicken Sie unter **Bezeichnertyp**entweder auf **MAC-Adresse** oder auf **Seriennummer**.
+6.  Klicken Sie unterhalb von **ID-Typ** entweder auf **MAC-Adresse** oder **Seriennummer**.
 
-7.  Geben Sie im Feld **eindeutige Kennung** die Mac-Adresse oder die Seriennummer des Geräts ein.
+7.  Geben Sie im Feld **Eindeutige ID** die MAC-Adresse oder die Seriennummer des Geräts ein.
 
 8.  Klicken Sie auf **Commit ausführen**.
 
@@ -69,25 +69,25 @@ Sie können der Seite **Testgerät** ein Gerät hinzufügen und mit diesem Gerä
 
 ## <a name="creating-test-devices-by-using-windows-powershell-cmdlets"></a>Erstellen von Test Geräten mithilfe von Windows PowerShell-Cmdlets
 
-Test Geräte können mithilfe von Windows PowerShell und dem Cmdlet New-CsTestDevice erstellt werden. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Test Geräte können mit Windows PowerShell und dem New-CsTestDevice-Cmdlet erstellt werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
-Beim Erstellen von Testgeräten mit diesem Cmdlet müssen Sie zwei Schritte ausführen:
+Beim Erstellen von Testgeräten mithilfe dieses Cmdlets müssen Sie die folgenden beiden Schritte ausführen:
 
-  - Geben Sie entweder MACAddress oder Seriennummer als IdentifierType an.
+  - Geben Sie MACAddress oder SerialNumber als IdentifierType an.
 
-  - Schließen Sie den Bereich ein, wenn Sie die Geräte Identität angeben. Verwenden Sie zum Erstellen eines neuen Geräts im globalen Bereich eine Syntax ähnlich der folgenden:
+  - Fügen Sie beim Angeben der Geräteidentität die Ebene hinzu. Verwenden Sie zum Erstellen eines neuen Geräts auf globaler Ebene Syntax, die so oder ähnlich aussieht:
     
         -Identity "global/WindowsPhone"
     
-    Verwenden Sie zum Erstellen eines Testgeräts im Website Bereich die Syntax wie folgt:
+    Verwenden Sie zum Erstellen eines neuen Geräts auf Standortebene Syntax, die so oder ähnlich aussieht:
     
         -Identity "site:Redmond/WindowsPhone"
 
 <div>
 
-## <a name="to-create-a-test-device-by-using-the-mac-address"></a>So erstellen Sie ein Testgerät mithilfe der Mac-Adresse
+## <a name="to-create-a-test-device-by-using-the-mac-address"></a>So erstellen Sie ein Test Gerät mithilfe der Mac-Adresse
 
-  - Mit diesem Befehl wird ein Testgerät im globalen Bereich erstellt und die Mac-Adresse als IdentifierType verwendet:
+  - Mit diesem Befehl wird ein Testgerät auf globaler Ebene und mit der MAC-Adresse als IdentifierType erstellt:
     
         New-CsTestDevice -Identity "global/WindowsPhone" -IdentifierType "MACAddress" -Identifier "01:02:03:04:05:06"
 
@@ -95,15 +95,15 @@ Beim Erstellen von Testgeräten mit diesem Cmdlet müssen Sie zwei Schritte ausf
 
 <div>
 
-## <a name="to-create-a-test-device-by-using-the-serial-number"></a>So erstellen Sie ein Testgerät mithilfe der Seriennummer
+## <a name="to-create-a-test-device-by-using-the-serial-number"></a>So erstellen Sie mithilfe der Seriennummer ein Test Gerät
 
-  - Dieser Befehl erstellt ein neues Testgerät im Website Bereich (für die Website "Redmond") und verwendet die fortlaufende Zahl als IdentifierType:
+  - Mit diesem Befehl wird ein neues Testgerät auf Standortebene (für den Standort "Redmond") und mit der Seriennummer als IdentifierType erstellt:
     
         New-CsTestDevice -Identity "site:Redmond/WindowsPhone" -IdentifierType "SerialNumber" -Identifier "01ABC5419JKR55T"
 
 </div>
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet [New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/New-CsTestDevice) .
+Weitere Informationen finden Sie im Hilfethema zum [New-CsTestDevice-](https://docs.microsoft.com/powershell/module/skype/New-CsTestDevice) Cmdlet.
 
 </div>
 

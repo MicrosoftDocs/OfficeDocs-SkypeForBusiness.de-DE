@@ -12,16 +12,16 @@ ms:contentKeyID: 48183565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e8e2cd992e83adb29c43935d4b4c7f223580d53
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dce868d90d2811b36a4f11c159b4e7d9d29b5ffa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757029"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007884"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41757029"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-22_
+_**Letztes Änderungsstand des Themas:** 2012-10-22_
 
 Der detaillierte Konferenzbericht enthält ausführliche Informationen zu allen Benutzern, die an einer Konferenz teilgenommen haben. Sie können beispielsweise Informationen wie Datum und Uhrzeit, an dem bzw. zu der ein Benutzer einer Konferenz beigetreten ist und die Konferenz verlassen hat, sowie den Benutzer-Agent des Endpunkts anzeigen, mit dem der Benutzer mit der Konferenz verbunden wurde. Darüber hinaus können Sie Informationen zu der Rolle des Benutzers in den einzelnen Konferenzen (z. B. Referent oder Teilnehmer) anzeigen. Der vielleicht wichtigste Aspekt ist, dass Sie auf einen Blick erkennen können, welche Benutzer der Konferenz erfolgreich beigetreten und sie abgeschlossen haben und welche Benutzer der Konferenz nicht beitreten konnten und sie daher nicht abgeschlossen haben.
 
@@ -45,13 +45,13 @@ Der detaillierte Konferenzbericht enthält ausführliche Informationen zu allen 
 
 Auf den detaillierten Konferenzbericht kann über die folgenden Berichte zugegriffen werden:
 
-  - Der [Bericht zur Anruf Zulassungs Steuerung in lync Server 2013](lync-server-2013-call-admission-control-report.md) (durch Klicken auf die Detail Metrik für eine Konferenz)
+  - Der [anrufsteuerungsbericht in lync Server 2013](lync-server-2013-call-admission-control-report.md) (durch Klicken auf die Metrik "Detail" für eine Konferenz)
 
   - Der [fehlerlistenbericht in lync Server 2013](lync-server-2013-failure-list-report.md) (durch Klicken auf die Konferenz Metrik)
 
-  - Der [Bericht "Benutzeraktivität" in lync Server 2013](lync-server-2013-user-activity-report.md) (durch Klicken auf die Konferenz-URI-Metrik)
+  - Der [Bericht über Benutzeraktivität in lync Server 2013](lync-server-2013-user-activity-report.md) (durch Klicken auf die Metrik Konferenz-URI)
 
-Im Konferenz Detail Bericht können Sie auf den [Diagnosebericht in lync Server 2013](lync-server-2013-diagnostic-report.md) zugreifen, indem Sie auf die Metrik für den Diagnosebericht (Detail) klicken.
+Aus dem Konferenz Detail Bericht können Sie auf den [Diagnosebericht in lync Server 2013](lync-server-2013-diagnostic-report.md) zugreifen, indem Sie auf die Metrik für den Diagnosebericht (Detail) klicken.
 
 </div>
 
@@ -89,7 +89,7 @@ In der folgenden Tabelle werden die Informationen aus dem Abschnitt zu Konferenz
 <td><p><strong>Konferenz-URI</strong></p></td>
 <td></td>
 <td><p>Der Konferenz zugewiesener URI. Beispiel:</p>
-<p>sip:kmyer@litwareinc.com;gruu;opaque=app:conf:focus:id:drg2y8v4</p></td>
+<p>SIP: kmyer@litwareinc. com; GRUU; Opaque = App: conf: Focus: ID: drg2y8v4</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Pool-FQDN</strong></p></td>
@@ -97,7 +97,7 @@ In der folgenden Tabelle werden die Informationen aus dem Abschnitt zu Konferenz
 <td><p>Vollqualifizierter Domänenname des Registrierungspools oder Edgeservers in einer Sitzung.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Startzeitpunkt</strong></p></td>
+<td><p><strong>Beginn</strong></p></td>
 <td></td>
 <td><p>Datum und Uhrzeit, an dem bzw. zu der Konferenz begann.</p></td>
 </tr>
@@ -107,7 +107,7 @@ In der folgenden Tabelle werden die Informationen aus dem Abschnitt zu Konferenz
 <td><p>SIP-Adresse des Benutzers, der die Sitzung organisiert hat.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Endzeitpunkt</strong></p></td>
+<td><p><strong>Endzeit</strong></p></td>
 <td></td>
 <td><p>Datum und Uhrzeit, an dem bzw. zu der die Konferenz endete.</p></td>
 </tr>
@@ -134,7 +134,7 @@ In der folgenden Tabelle werden die Informationen aus dem Abschnitt zur Konferen
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>User</strong></p></td>
+<td><p><strong>Benutzer</strong></p></td>
 <td></td>
 <td><p>SIP-Adresse des Benutzers, der an der Konferenz teilgenommen hat.</p></td>
 </tr>
@@ -144,17 +144,17 @@ In der folgenden Tabelle werden die Informationen aus dem Abschnitt zur Konferen
 <td><p>Rolle (z. B. Referent) des Konferenzteilnehmers.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Verbindung</strong></p></td>
+<td><p><strong>Konnektivität</strong></p></td>
 <td></td>
-<td><p>Netzwerkverbindungen (in der Regel „From Internal“ oder „From External“) des Teilnehmers.</p></td>
+<td><p>Netzwerkverbindungen (in der Regel "From Internal" oder "From External") des Teilnehmers.</p></td>
 </tr>
 <tr class="even">
-<td><p>Beitrittszeitpunkt</p></td>
+<td><p>Zeitpunkt des Beitritts</p></td>
 <td></td>
 <td><p>Datum und Uhrzeit, an dem bzw. zu der der Teilnehmer der Konferenz beigetreten ist.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Beendigungszeitpunkt</strong></p></td>
+<td><p><strong>Zeitpunkt der Beendigung</strong></p></td>
 <td></td>
 <td><p>Datum und Uhrzeit, an dem bzw. zu der der Teilnehmer die Konferenz verlassen hat.</p></td>
 </tr>
@@ -172,7 +172,7 @@ In der folgenden Tabelle werden die Informationen aus dem Abschnitt zur Konferen
 </table>
 
 
-In der folgenden Tabelle sind die Informationen aufgeführt, die im Abschnitt Konferenz Modalitäten des Konferenz Detail Berichts bereitgestellt werden.
+In der folgenden Tabelle sind die Informationen aufgeführt, die im Abschnitt "Konferenz Modalitäten" des Konferenz Detail Berichts angegeben sind.
 
 ### <a name="conference-modalities-metrics"></a>Konferenzmodalitäten – Metriken
 
@@ -191,17 +191,17 @@ In der folgenden Tabelle sind die Informationen aufgeführt, die im Abschnitt Ko
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>User</strong></p></td>
+<td><p><strong>Benutzer</strong></p></td>
 <td></td>
 <td><p>SIP-Adresse des Benutzers, der an der Konferenz teilgenommen hat.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Beitrittszeitpunkt</strong></p></td>
+<td><p><strong>Zeitpunkt des Beitritts</strong></p></td>
 <td></td>
 <td><p>Datum und Uhrzeit, an dem bzw. zu der der Teilnehmer der Konferenz beigetreten ist.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Beendigungszeitpunkt</strong></p></td>
+<td><p><strong>Zeitpunkt der Beendigung</strong></p></td>
 <td></td>
 <td><p>Datum und Uhrzeit, an dem bzw. zu der ein Teilnehmer die Konferenz verlassen hat.</p></td>
 </tr>

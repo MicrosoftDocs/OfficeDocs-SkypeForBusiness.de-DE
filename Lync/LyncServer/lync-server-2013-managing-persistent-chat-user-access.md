@@ -12,20 +12,20 @@ ms:contentKeyID: 48184211
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9b8c775321cd8eca1be350a3894f0430ced0a74
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 71dde683fed5f1127efd0a966d0de61dcaef65cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756119"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41992970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-persistent-chat-user-access-in-lync-server-2013"></a>Verwalten des Benutzerzugriffs für beständigen Chat in Lync Server 2013
+# <a name="managing-persistent-chat-user-access-in-lync-server-2013"></a>Verwalten des Benutzerzugriffs für beständigen Chat in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41756119"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-06_
+_**Letztes Änderungsstand des Themas:** 2012-10-06_
 
-In den folgenden Themen wird beschrieben, wie Sie die lync Server 2013-Systemsteuerung und die Seite für **beständigen Chat** verwenden, um den Benutzer Zugriff im beständigen Chat zu verwalten. Zum Verwalten des beständigen Chat Servers müssen Sie über beständige Chat-Administratorrechte und-Berechtigungen im System verfügen. Wenn Sie den Server für beständigen Chat installieren, geben Sie einen oder mehrere Benutzer an, die über die erforderlichen Administratorrechte und Berechtigungen für beständigen Chat verfügen. Wenn Sie zusätzlichen Benutzerkontenadministrator Rechte und Berechtigungen erteilen möchten, verwenden Sie **Benutzer und Benutzergruppen verwalten**. Ausführliche Informationen finden Sie unter [Aktivieren eines Benutzers zum Verwalten von Kategorien, Chatrooms sowie Benutzerrechten und Berechtigungen in lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md).
+In den folgenden Themen wird beschrieben, wie Sie mithilfe der lync Server 2013-Systemsteuerung und der Seite für **beständigen Chat** Benutzer Zugriff im beständigen Chat verwalten. Zum Verwalten des Servers für beständigen Chat benötigen Sie Administratorrechte und-Berechtigungen für beständigen Chat im System. Wenn Sie den Server für beständigen Chat installieren, geben Sie mindestens einen Benutzer an, der über die erforderlichen Administratorrechte und-Berechtigungen für beständigen Chat verfügt. Administratorrechte und -berechtigungen für weitere Benutzerkonten können Sie unter **Benutzer und Benutzergruppen verwalten** zuweisen. Ausführliche Informationen finden Sie unter [Aktivieren eines Benutzers zum Verwalten von Kategorien, Chatrooms und Benutzerrechten und-Berechtigungen in lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md).
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Hinzufügen von Domänen von Benutzern und Benutzergruppen zur Chatroomkategorie in Lync Server 2013](lync-server-2013-adding-domains-of-users-and-user-groups-to-the-room-category.md)
+  - [Hinzufügen von Domänen von Benutzern und Benutzergruppen zur raumkategorie in lync Server 2013](lync-server-2013-adding-domains-of-users-and-user-groups-to-the-room-category.md)
 
-  - [Deaktivieren des Hochladens und Herunterladens von Dateien in Chatrooms in Lync Server 2013](lync-server-2013-disabling-uploading-and-downloading-files-in-chat-rooms.md)
+  - [Deaktivieren des Hochladens und Herunterladens von Dateien in Chatrooms in lync Server 2013](lync-server-2013-disabling-uploading-and-downloading-files-in-chat-rooms.md)
 
-  - [Aktivieren eines Benutzers für die Verwaltung von Kategorien, Chatrooms, Benutzerrechten und Berechtigungen in Lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md)
+  - [Aktivieren eines Benutzers zum Verwalten von Kategorien, Chatrooms und Benutzerrechten und Berechtigungen in lync Server 2013](lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b27fc4f3dfc42e9187ea0aee801b3c2115d83ff0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5b45f52a07713973d8f642389513d0e34b5236de
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746035"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42018036"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-routing-in-lync-server-2013"></a>Testen des VoIP-Routings in Lync Server 2013
+# <a name="test-voice-routing-in-lync-server-2013"></a>Testen des VoIP-Routings in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41746035"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-24_
+_**Letztes Änderungsstand des Themas:** 2013-02-24_
 
-Mit der lync Server-Systemsteuerung können Sie die Registerkarte **VoIP-Routing testen** , um testfallszenarien zu konfigurieren. Um einen Test Case zu definieren, geben Sie den Wählplan, die VoIP-Richtlinie, die PSTN-Nutzung und die VoIP-Route an, anhand derer eine bestimmte Telefonnummer getestet werden soll.
+Sie können die Registerkarte **VoIP-Routing testen** lync Server-Systemsteuerung verwenden, um testfallszenarien zu konfigurieren. Zum Definieren eines Testfalls geben Sie den Wählplan, die VoIP-Richtlinie, PSTN-Verwendung und VoIP-Route an, die anhand einer angegebenen Telefonnummer getestet werden sollen.
 
-Bevor Sie Ihre sprach Routingkonfiguration tatsächlich bereitstellen, empfehlen wir, Sie auf verschiedenen Telefonnummern zu testen, um sicherzustellen, dass die Ergebnisse Ihren Erwartungen entsprechen.
+Bevor Sie Ihre VoIP-Routingkonfiguration tatsächlich bereitstellen, wird empfohlen, dass Sie Sie auf verschiedenen Telefonnummern testen, um sicherzustellen, dass die Ergebnisse Ihren Erwartungen entsprechen.
 
 <div>
 
 
 > [!TIP]  
-> Sie können die Befehle Testfälle <STRONG>exportieren</STRONG> und <STRONG>Testfälle importieren</STRONG> verwenden, um sprach Routing Testfälle zu speichern und für die Verwendung auf einem anderen Computer zu importieren.
+> Mithilfe der Befehle <STRONG>Testfälle exportieren</STRONG> und <STRONG>Testfälle importieren</STRONG> können Sie Testfälle für das VoIP-Routing speichern und zur Verwendung auf einem anderen Computer importieren.
 
 
 
@@ -55,7 +55,7 @@ Bevor Sie Ihre sprach Routingkonfiguration tatsächlich bereitstellen, empfehlen
 
 
 > [!WARNING]  
-> Wenn Sie einen Teil Ihrer VoIP-Routingkonfiguration löschen, beispielsweise einen Wählplan, eine VoIP-Richtlinie, eine VoIP-Route oder eine Telefonnutzung, sollten Sie Ihre VoIP-Routing Testfälle überprüfen und aktualisieren. In der lync Server-Systemsteuerung werden Sie nicht auf Test Fälle hingewiesen, die aufgrund geänderter Konfigurationen nicht mehr gültig sind.
+> Wenn Sie einen Teil Ihrer VoIP-Routingkonfiguration löschen, beispielsweise einen Wählplan, eine VoIP-Richtlinie, VoIP-Route oder Telefonverwendung, sollten Sie Ihre Testfälle für das VoIP-Routing überprüfen und aktualisieren. In der lync Server-Systemsteuerung werden Sie nicht auf Test Fälle hingewiesen, die aufgrund von geänderten Konfigurationen nicht mehr gültig sind.
 
 
 
@@ -65,13 +65,13 @@ Bevor Sie Ihre sprach Routingkonfiguration tatsächlich bereitstellen, empfehlen
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Erstellen eines Testfalls für das VoIP-Routing in Lync Server 2013](lync-server-2013-create-a-voice-routing-test-case.md)
+  - [Erstellen eines Testfalls für das VoIP-Routing in lync Server 2013](lync-server-2013-create-a-voice-routing-test-case.md)
 
-  - [Exportieren von Testfällen für das VoIP-Routing in Lync Server 2013](lync-server-2013-export-voice-routing-test-cases.md)
+  - [Exportieren von Testfällen für das VoIP-Routing in lync Server 2013](lync-server-2013-export-voice-routing-test-cases.md)
 
-  - [Importieren von Testfällen für das VoIP-Routing in Lync Server 2013](lync-server-2013-import-voice-routing-test-cases.md)
+  - [Importieren von Testfällen für das VoIP-Routing in lync Server 2013](lync-server-2013-import-voice-routing-test-cases.md)
 
-  - [Ausführen von Tests für das VoIP-Routing in Lync Server 2013](lync-server-2013-running-voice-routing-tests.md)
+  - [Durchführen von Tests für das VoIP-Routing in lync Server 2013](lync-server-2013-running-voice-routing-tests.md)
 
 </div>
 

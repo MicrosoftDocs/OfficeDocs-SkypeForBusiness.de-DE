@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verwalten von Netzwerkbandbreite-Richtlinienprofilen'
+title: 'Lync Server 2013: Verwalten von Richtlinienprofilen für Netzwerkbandbreiten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd960561309bf8d7e82b028b5a2314400763dc4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f536f82042da6f24c981ea9109a2d81d1736a541
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743315"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033704"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-network-bandwidth-policy-profiles-in-lync-server-2013"></a>Verwalten von Netzwerkbandbreite-Richtlinienprofilen in lync Server 2013
+# <a name="managing-network-bandwidth-policy-profiles-in-lync-server-2013"></a>Verwalten von Netzwerkband breiten Richtlinienprofilen in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41743315"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-15_
+_**Letztes Änderungsstand des Themas:** 2012-10-15_
 
-Verwenden Sie die Verfahren in diesem Abschnitt, um Ihre Netzwerkbandbreite-Richtlinienprofile zu verwalten. Details zu den Anforderungen an die Netzwerkbandbreite für Mediendatenverkehr finden Sie unter [Netzwerkbandbreite für Mediendatenverkehr in lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).
+Gehen Sie wie in diesem Abschnitt beschrieben vor, um Ihre Bandbreitenrichtlinienprofile für das Netzwerk zu verwalten. Ausführliche Informationen zu den Anforderungen an die Netzwerkbandbreite für den Mediendatenverkehr finden Sie unter Anforderungen an die [Netzwerkbandbreite für Mediendatenverkehr in lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Anzeigen von Profilinformationen zu Netzwerkbandbreiten in lync Server 2013](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)
+  - [Anzeigen von Richtlinienprofil Informationen für Netzwerkbandbreite in lync Server 2013](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)
 
   - [Erstellen oder Ändern von Bandbreitenrichtlinien Profilen in lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)
 
-  - [Löschen von Netzwerkbandbreite-Richtlinienprofilen in lync Server 2013](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)
+  - [Löschen von Richtlinienprofilen für Netzwerkbandbreite in lync Server 2013](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)
 
 </div>
 

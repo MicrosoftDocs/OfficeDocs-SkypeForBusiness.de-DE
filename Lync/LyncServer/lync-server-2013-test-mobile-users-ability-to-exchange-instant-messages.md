@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Testen der Fähigkeit von mobilen Benutzern zum Austauschen von Sofortnachrichten'
+title: 'Lync Server 2013: Testen der Fähigkeit von mobilen Benutzern zum Austauschen von Chatnachrichten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969638
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db5af113c6ea87a700ca824bcef09b525338f4e6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 84e4a79f511247b3c335872b7a1ec31fb9f2201e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746235"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021326"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746235"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-06-07_
+_**Letztes Änderungsstand des Themas:** 2014-06-07_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-07_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsMcxP2PIM-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsMcxP2PIM verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxP2PIM&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,23 +66,23 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-07_
 
 ## <a name="description"></a>Beschreibung
 
-Mit dem Mobilitätsdienst können Benutzer mobiler Geräte wie folgt vorgehen:
+Mit dem Mobilitätsdienst können Benutzer mobiler Geräte folgende Aufgaben ausführen:
 
-1.  Tauschen Sie Sofortnachrichten und Anwesenheitsinformationen aus.
+1.  Exchange-Sofortnachrichten und Anwesenheitsinformationen.
 
-2.  Speichern und Abrufen von Voicemail intern und nicht mit Ihrem WLAN-Anbieter.
+2.  Speichern und Abrufen von Voicemail intern statt mit Ihrem drahtlosen Anbieter.
 
-3.  Nutzen Sie die Vorteile von lync-Server Funktionen wie Anruf über Arbeit und Einwahlkonferenzen.
+3.  Nutzen Sie lync Server Funktionen wie "Anruf über Arbeit" und "Einwahlkonferenzen".
 
-Das Cmdlet Test-CsMxcP2PIM bietet eine schnelle und einfache Möglichkeit, um zu überprüfen, ob Benutzer den Mobilitätsdienst zum Austauschen von Sofortnachrichten verwenden können.
+Das Cmdlet Test-CsMxcP2PIM bietet eine schnelle und einfache Möglichkeit, um sicherzustellen, dass Benutzer den Mobilitätsdienst zum Austauschen von Sofortnachrichten verwenden können.
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Damit dieser Test ausgeführt werden kann, müssen Sie für jedes Konto zwei Windows PowerShell-Anmeldeinformationsobjekte (Objekte, die den Kontonamen und das Kennwort enthalten) erstellen. Sie müssen dann diese Anmeldeinformationsobjekte und die SIP-Adressen der beiden Konten einbeziehen, wenn Sie Test-CsMcxP2PIM aufrufen:
+Zum Ausführen dieses Tests müssen Sie zwei Windows PowerShell Credentials-Objekte (Objekte, die den Kontonamen und das Kennwort enthalten) für jedes Konto erstellen. Sie müssen dann diese Credentials-Objekte und die SIP-Adressen der beiden Konten einschließen, wenn Sie Test-CsMcxP2PIM aufrufen:
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\pilar"
@@ -95,23 +95,23 @@ Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Test-CsMcxP2PIM](http
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn die beiden Testbenutzer Sofortnachrichten mithilfe des mobilitätsdiensts austauschen können, gibt Test-CsMcxP2PIM den Erfolg des Testergebnisses zurück:
+Wenn die beiden Testbenutzer Chatnachrichten mithilfe des mobilitätsdiensts austauschen können, gibt Test-CsMcxP2PIM Testergebnis Erfolg zurück:
 
 Ziel-FQDN: ATL-CS-001.litwareinc.com
 
 Ziel-URI:http://atl-cs-001.litwareinc.com:443/mcx
 
-Ergebnis: Erfolg
+Ergebnis: Success
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
 Fehlermeldung:
 
 Diagnose
 
-Wenn der Test fehlschlägt, wird das Ergebnis auf Failure gesetzt, und es wird eine detaillierte Fehlermeldung und Diagnose angezeigt:
+Wenn der Test fehlschlägt, wird das Ergebnis auf "Failure" festgelegt, und es wird eine ausführliche Fehlermeldung und Diagnose angezeigt:
 
 Ziel-FQDN: ATL-CS-001.litwareinc.com
 
@@ -119,15 +119,15 @@ Ziel-URI:https://atl-cs-001.litwareinc.com:443/mcx
 
 Ergebnis: Fehler
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
-Fehlermeldung: beim Web-Ticket-Service wurde keine Antwort empfangen.
+Fehlermeldung: Es wurde keine Antwort für den WebTICKET Dienst empfangen.
 
 Innere Ausnahme: die HHTP-Anforderung ist nicht autorisiert mit
 
-Client-Aushandlungs Schema "NTLM". Die Authentifizierung
+Client-Aushandlungs Schema ' NTLM '. Die Authentifizierung
 
-der vom Server empfangene Header lautet "Negotiate, NTLM".
+vom Server empfangene Kopfzeile lautete "aushandeln, NTLM".
 
 Innere Ausnahme: der Remoteserver hat einen Fehler zurückgegeben:
 
@@ -147,11 +147,11 @@ Server: Microsoft-IIS/8.5
 
 WWW-Authenticate: Negotiate, NTLM
 
-X-powered-by: ASP.net
+X-powered by: ASP.net
 
 X-Content-Type-Optionen: nosniff
 
-Datum: Wed, 28 May 2014 19:16:05 GMT
+Date: Mi, 28 May 2014 19:16:05 GMT
 
 Content-length: 6305
 
@@ -161,25 +161,25 @@ Content-length: 6305
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Wenn Test-CsMcxP2PIM fehlschlägt, sollte der erste Schritt darin liegen, zu überprüfen, ob der Mobilitätsdienst ausgeführt wird. Dies kann mithilfe eines Webbrowsers erfolgen, um zu überprüfen, ob auf die Mobilitätsdienst-URL für Ihren lync Server-Pool zugegriffen werden kann. Mit diesem Befehl wird beispielsweise die URL für den Pool ATL-CS-001.litwareinc.com überprüft:
+Wenn Test-CsMcxP2PIM fehlschlägt, sollte der erste Schritt sein, um zu überprüfen, ob der Mobilitätsdienst ausgeführt wird. Dies kann mithilfe eines Webbrowsers erfolgen, um sicherzustellen, dass auf die Mobilitätsdienst-URL für Ihren lync Server-Pool zugegriffen werden kann. Mit diesem Befehl wird beispielsweise die URL für die ATL-CS-001.litwareinc.com des Pools überprüft:
 
     https://atl-cs-001.litwareinc.com/mcx/mcxservice.svc
 
-Wenn der Mobilitätsdienst anscheinend ausgeführt wird, überprüfen Sie, ob die beiden Testbenutzer über gültige lync Server-Konten verfügen. Sie können Kontoinformationen abrufen, indem Sie einen Befehl wie den folgenden verwenden:
+Wenn der Mobilitätsdienst scheinbar ausgeführt wird, stellen Sie sicher, dass Ihre beiden Testbenutzer über gültige lync Server Konten verfügen. Sie können Kontoinformationen mithilfe eines Befehls abrufen, der dem folgenden ähnelt:
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
-Wenn die Enabled-Eigenschaft nicht gleich true ist oder der Befehl fehlschlägt, bedeutet dies, dass der Benutzer kein gültiges lync Server-Konto hat.
+Wenn die Enabled-Eigenschaft nicht gleich true ist oder wenn der Befehl fehlschlägt, bedeutet dies, dass der Benutzer über kein gültiges lync Server Konto verfügt.
 
 Sie sollten auch sicherstellen, dass der Benutzer für Mobilität aktiviert ist. Ermitteln Sie dazu zunächst die Mobilitätsrichtlinie, die dem Konto zugewiesen ist:
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object MobilityPolicy
 
-Nachdem Sie den Richtliniennamen kennen, verwenden Sie das Cmdlet Get-CsMobilityPolicy, um zu überprüfen, ob die fragliche Richtlinie (beispielsweise RedmondMobilityPolicy) die EnableMobility-Eigenschaft auf true festgelegt ist:
+Nachdem Sie den Richtliniennamen kennen, verwenden Sie das Cmdlet Get-CsMobilityPolicy, um zu überprüfen, ob die betreffende Richtlinie (beispielsweise RedmondMobilityPolicy) die EnableMobility-Eigenschaft auf true festgelegt ist:
 
     Get-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-Wenn Sie eine Fehlermeldung mit Authentifizierungs Headern erhalten, bedeutet dies häufig, dass Sie kein gültiges Benutzerkonto angegeben haben. Überprüfen Sie den Benutzernamen und das Kennwort, und versuchen Sie dann erneut, den Test zu testen. Wenn Sie davon überzeugt sind, dass das Benutzerkonto gültig ist, verwenden Sie das Cmdlet Get-CsWebServiceConfiguration, und überprüfen Sie den Wert der UseWindowsAuth-Eigenschaft. Damit erfahren Sie, welche Authentifizierungsmethoden in Ihrer Organisation aktiviert sind. Weitere Tipps zur Problembehandlung beim Mobilitätsdienst finden Sie im Blogbeitrag zur [Problembehandlung von externen lync-Mobilitäts Verbindungsproblemen Schritt-für-Schritt](http://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).
+Wenn Sie eine Fehlermeldung mit Authentifizierungs Headern erhalten, bedeutet dies häufig, dass Sie kein gültiges Benutzerkonto angegeben haben. Überprüfen Sie den Benutzernamen und das Kennwort, und führen Sie den Test erneut aus. Wenn Sie davon überzeugt sind, dass das Benutzerkonto gültig ist, verwenden Sie das Cmdlet Get-CsWebServiceConfiguration, und überprüfen Sie den Wert der UseWindowsAuth-Eigenschaft. Dadurch erfahren Sie, welche Authentifizierungsmethoden in Ihrer Organisation aktiviert sind. Weitere Tipps zur Problembehandlung für den Mobilitätsdienst finden Sie im Blogbeitrag [Troubleshooting External lync Mobility Connectivity Issues Step-by-Step](http://blogs.technet.com/b/nexthop/archive/2012/02/21/troubleshooting-external-lync-mobility-connectivity-issues-step-by-step.aspx).
 
 </div>
 

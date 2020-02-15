@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Testen des Web App-Zugriffs'
+title: 'Lync Server 2013: Testen des webapp-Zugriffs'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969584
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7618bcc9a69d177950bae64354106a67721e822a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a48580561a1a070b44b202e5d49c89261518dafe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746005"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42017846"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-web-app-access-in-lync-server-2013"></a>Testen des Web App-Zugriffs in lync Server 2013
+# <a name="test-web-app-access-in-lync-server-2013"></a>Testen des webapp-Zugriffs in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746005"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-06-07_
+_**Letztes Änderungsstand des Themas:** 2014-06-07_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-07_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsWebApp-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsWebApp verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsWebApp&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,21 +66,21 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-07_
 
 ## <a name="description"></a>Beschreibung
 
-Das Cmdlet Test-CsWebApp überprüft, ob authentifizierte Benutzer mit lync Web App an lync Server-Konferenzen teilnehmen können. Wenn Sie das Cmdlet ausführen, kontaktiert Test-CsWebApp den Web-Ticket Dienst, um Web-Tickets für die angegebenen Benutzer zu erhalten. Diese Tickets fungieren effektiv als "Eintrittskarten" für die lync Server-Konferenz. Wenn die Tickets abgerufen werden können und die Benutzer authentifiziert werden können, setzt sich Test-CsWebApp dann mit dem lync-Server in Verbindung und versucht, getrennte Konferenzen für Chats, Anwendungsfreigabe und Datenzusammenarbeit einzurichten.
+Das Cmdlet Test-CsWebApp überprüft, ob authentifizierte Benutzer lync Server Konferenzen mit der lync Web App teilnehmen können. Wenn Sie das Cmdlet ausführen, kontaktiert Test-CsWebApp den Webdienst, um webtickets für die angegebenen Benutzer zu erhalten. Diese Tickets fungieren effektiv als "Eintrittskarten" für die lync Server Konferenz. Wenn die Tickets abgerufen werden können und die Benutzer authentifiziert werden können, wird Test-CsWebApp dann Kontakt lync Server und versuchen, separate Konferenzen für Chatnachrichten, Anwendungsfreigabe und Datenzusammenarbeit einzurichten.
 
-Beachten Sie, dass Test-CsWebApp nur die APIs und Verbindungen überprüft, die zum Erstellen dieser Konferenzen verwendet werden. Mit dem Cmdlet soll überprüft werden, ob lync Web App zum Erstellen und teilnehmen an Konferenzen verwendet werden kann. Es wird jedoch nicht tatsächlich eine Konferenz erstellt und durchgeführt.
+Beachten Sie, dass mit Test-CsWebApp nur die APIs und Verbindungen überprüft werden, die zum Erstellen dieser Konferenzen verwendet wurden. Das Cmdlet soll sicherstellen, dass lync Web App zum Erstellen und beitreten von Konferenzen verwendet werden kann. Es wird jedoch nicht tatsächlich erstellt und eine Konferenz durchführen.
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet "Test-CsWebApp" kann entweder mit einem vorkonfigurierten Test Konto oder mit den Konten zweier Benutzer ausgeführt werden, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den vollqualifizierten Domänennamen des lync-Server Pools angeben, der getestet wird. Beispiel:
+Das Cmdlet Test-CsWebApp kann entweder mit einem vorkonfigurierten Test Konto oder mit den Konten von zwei Benutzern ausgeführt werden, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den vollqualifizierten Domänennamen des getesteten lync Server Pools angeben. Beispiel:
 
     Test-CsWebApp -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Damit diese Überprüfung mit tatsächlichen Benutzerkonten ausgeführt werden kann, müssen Sie für jedes Konto zwei Windows PowerShell-Anmeldeinformationsobjekte (Objekte, die den Kontonamen und das Kennwort enthalten) erstellen. Sie müssen dann diese Anmeldeinformationsobjekte und die SIP-Adressen der beiden Konten einbeziehen, wenn Sie Test-CsWebApp aufrufen:
+Um diese Überprüfung mit tatsächlichen Benutzerkonten auszuführen, müssen Sie zwei Windows PowerShell Credentials-Objekte (Objekte, die den Kontonamen und das Kennwort enthalten) für jedes Konto erstellen. Sie müssen dann diese Credentials-Objekte und die SIP-Adressen der beiden Konten einschließen, wenn Sie Test-CsWebApp aufrufen:
 
     $cred1 = Get-Credential "litwareinc\kenmyer"
     $cred2 = Get-Credential "litwareinc\pilar"
@@ -93,35 +93,35 @@ Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Test-CsWebApp](https:
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn Test-CsWebApp die Benutzer an Ihren Konferenzen teilnehmen kann, gibt das Cmdlet den Erfolg des Testergebnisses zurück:
+Wenn Test-CsWebApp die Benutzer zu ihren Konferenzen hinzufügen kann, gibt das Cmdlet das Test Ergebnis Success zurück:
 
 Ziel-FQDN:
 
-Ergebnis: Erfolg
+Ergebnis: Success
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
 Fehlermeldung:
 
 Diagnose
 
-Wenn die Benutzer nicht an den erforderlichen Konferenzen teilnehmen können, wird das Testergebnis als Fehler gekennzeichnet. In der Regel wird in Test-CsWebApp auch eine detaillierte Fehlermeldung und Diagnose zurückgemeldet:
+Wenn die Benutzer nicht an den erforderlichen Konferenzen teilnehmen können, wird das Testergebnis als Fehler gekennzeichnet. In der Regel meldet Test-CsWebApp auch eine ausführliche Fehlermeldung und Diagnose zurück:
 
 Ziel-FQDN: ATL-CS-001.litwareinc.com
 
 Ergebnis: Fehler
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
-Fehlermeldung: keine Antwort für Web-Ticket-Service erhalten
+Fehlermeldung: Es wurde keine Antwort für den Webdienst "Ticket Service" empfangen.
 
-Diagnose: die HTTP-Anforderung ist mit dem Client nicht autorisiert
+Diagnose: die HTTP-Anforderung ist nicht autorisiert mit dem Client
 
-Authentifizierungsschema "NTLM". Die Authentifizierung
+Authentifizierungsschema ' NTLM '. Die Authentifizierung
 
-der vom Server empfangene Header lautet "Negotiate, NTLM".
+vom Server empfangene Kopfzeile lautete "aushandeln, NTLM".
 
 </div>
 
@@ -129,11 +129,11 @@ der vom Server empfangene Header lautet "Negotiate, NTLM".
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Bei Test-CsWebApp-Fehlern sind in der Regel Benutzer Authentifizierungsfehler aufgetreten. Wenn Test-CsWebApp fehlschlägt, sollten Sie zuerst überprüfen, ob die angegebenen Benutzer über gültige Benutzerkonten verfügen und für lync Server aktiviert sind. Sie können Kontoinformationen abrufen, indem Sie einen Befehl wie den folgenden verwenden:
+Zu Test-CsWebApp-Fehlern gehören normalerweise Benutzer Authentifizierungsfehler. Wenn Test-CsWebApp fehlschlägt, sollten Sie zunächst überprüfen, ob die angegebenen Benutzer über gültige Benutzerkonten verfügen und für lync Server aktiviert sind. Sie können Kontoinformationen mithilfe eines Befehls abrufen, der dem folgenden ähnelt:
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object Enabled
 
-Wenn die Enabled-Eigenschaft nicht gleich true ist oder der Befehl fehlschlägt, bedeutet dies, dass der Benutzer kein gültiges lync Server-Konto hat. Sie sollten auch sicherstellen, dass die für das Cmdlet angegebenen Kennwörter gültig sind.
+Wenn die Enabled-Eigenschaft nicht gleich true ist oder wenn der Befehl fehlschlägt, bedeutet dies, dass der Benutzer über kein gültiges lync Server Konto verfügt. Sie sollten auch überprüfen, ob die Kennwörter, die Sie für das Cmdlet angegeben haben, gültig sind.
 
 </div>
 

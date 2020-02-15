@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren von lync Server 2013-Szenarien
+title: Konfigurieren von lync Server 2013 Szenarien
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51541420
 ms.date: 12/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 789c3ee8c18b5fb0e92ef9a520152644bebbdde1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 60da62851580487ea04dd1797ed91a1f8acd251b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730719"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036163"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-lync-server-2013-scenarios"></a>Konfigurieren von lync Server 2013-Szenarien
+# <a name="configure-lync-server-2013-scenarios"></a>Konfigurieren von lync Server 2013 Szenarien
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41730719"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2016-12-28_
+_**Letztes Änderungsstand des Themas:** 2016-12-28_
 
-Zum Ausführen des lync Server 2013-Stress-und-Leistungstools (LyncPerfTool) muss die lync Server 2013-Topologie zunächst für die Szenarios konfiguriert werden, die ausgeführt werden. Wenn lync Server 2013 nicht konfiguriert ist oder falsch konfiguriert ist, schlägt die Auslastungssimulation in den meisten Fällen fehl. Mit dem lync Server 2013-Stress-und-Leistungs Tool haben wir Beispielskripts zur lync Server-Verwaltungsshell und grundlegende Ressourcendateien bereitgestellt, die als Ausgangspunkt für die Konfiguration von lync Server 2013 verwendet werden können. In diesem Thema werden die bereitgestellten Windows PowerShell-Beispiele beschrieben. Beachten Sie, dass es nicht das Ziel dieses Themas ist, die Konfiguration von lync Server 2013 im Allgemeinen zu beschreiben. Details zum Arbeiten mit Windows PowerShell in lync Server 2013 finden Sie in der Dokumentation zur lync Server-Verwaltungsshell <https://technet.microsoft.com/en-us/library/gg398474.aspx>unter.
+Zum Ausführen des lync Server 2013 Stress and Performance Tool (LyncPerfTool) muss die lync Server 2013 Topologie zunächst für die Szenarien konfiguriert werden, die ausgeführt werden. Wenn lync Server 2013 nicht konfiguriert ist oder nicht ordnungsgemäß konfiguriert ist, tritt bei der Auslastungssimulation in den meisten Fällen ein Fehler auf. Mit dem lync Server 2013 Stress and Performance-Tool haben wir Beispiel lync Server-Verwaltungsshell Skripts und grundlegende Ressourcendateien bereitgestellt, die als Ausgangspunkt für die Konfiguration von lync Server 2013 verwendet werden können. In diesem Thema werden die bereitgestellten Windows PowerShell Beispiele beschrieben. Beachten Sie, dass es nicht das Ziel dieses Themas ist, die Konfiguration von lync Server 2013 im Allgemeinen zu beschreiben. Ausführliche Informationen zum Arbeiten mit Windows PowerShell in lync Server 2013 finden Sie in der lync Server-Verwaltungsshell Dokumentation <https://technet.microsoft.com/library/gg398474.aspx>unter.
 
 <div>
 
-## <a name="about-running-lync-server-management-shell-scripts"></a>Informationen zum Ausführen von lync Server-Verwaltungsshell-Skripts
+## <a name="about-running-lync-server-management-shell-scripts"></a>Informationen zum Durchführen von lync Server-Verwaltungsshell Skripts
 
-Wir haben Beispielskripts für die lync Server-Verwaltungsshell bereitgestellt, die möglicherweise zur Vorbereitung der Auslastungssimulation verwendet werden. Da die Skripts für die Auslastungssimulation vorgesehen sind, sind Sie einfach und frei zügig und daher möglicherweise nicht für die Produktion geeignet. Alle Skripts sind Beispiele und müssen überprüft und in einigen Fällen geändert werden, um Ihre Topologie wiederzugeben. Wir gehen davon aus, dass das Szenario des Reaktionsgruppendiensts (RGS) mindestens geändert werden muss, um die Agents anzugeben, die den Agentengruppen zugewiesen sind. Sie haben jedoch die Möglichkeit, diese Last nicht zu simulieren.
+Wir haben Beispiel lync Server-Verwaltungsshell Skripts bereitgestellt, die möglicherweise zur Vorbereitung auf die Ausführung der Auslastungssimulation verwendet werden. Da die Skripts für die Lastsimulation vorgesehen sind, sind Sie einfach und frei zügig und daher möglicherweise nicht für die Produktion geeignet. Alle Skripts sind Beispiele und müssen überprüft und in einigen Fällen geändert werden, um Ihre Topologie widerzuspiegeln. Es wird davon ausgegangen, dass das Szenario für den Reaktionsgruppendienst (RGS) geändert werden muss, um die Agents anzugeben, die den Agentgruppen zugewiesen sind. Sie haben jedoch die Möglichkeit, diese Last nicht zu simulieren.
 
 <div>
 
@@ -59,7 +59,7 @@ Wir haben Beispielskripts für die lync Server-Verwaltungsshell bereitgestellt, 
 
 
 > [!NOTE]  
-> Ausführliche Informationen zur Verwendung von Windows PowerShell und der lync Server-Verwaltungsshell finden Sie im Windows PowerShell-Blog zu <A href="https://go.microsoft.com/fwlink/?linkid=203150">https://go.microsoft.com/fwlink/?LinkId=203150</A>lync Server 2013 unter.
+> Ausführliche Informationen zur Verwendung von Windows PowerShell und dem lync Server-Verwaltungsshell finden Sie im lync Server 2013 Windows PowerShell- <A href="https://go.microsoft.com/fwlink/?linkid=203150">https://go.microsoft.com/fwlink/?LinkId=203150</A>Blog unter.
 
 
 
@@ -69,19 +69,19 @@ Wir haben Beispielskripts für die lync Server-Verwaltungsshell bereitgestellt, 
 
 <div>
 
-## <a name="stress-and-performance-tool-client-version-monikers"></a>Client Version-Moniker für Spannungs-und Leistungs Tool
+## <a name="stress-and-performance-tool-client-version-monikers"></a>Client Versions-Moniker für Spannungs-und Leistungs Tool
 
-Möglicherweise müssen Sie die Richtlinie für die Client Versionsüberprüfung konfigurieren, wenn Sie die Einstellungen von den Standardwerten geändert haben. Ausführliche Informationen finden Sie unter "Konfigurieren unterstützter Clientversionen <https://technet.microsoft.com/en-us/library/gg412832(v=ocs.15).aspx>" unter. Das Stress-und Leistungs Tool von lync Server 2013 verwendet die folgenden Benutzer-Agent-Versionen standardmäßig bei der Kommunikation mit lync Server 2013:
+Möglicherweise müssen Sie die Richtlinie für die Client Versionsüberprüfung konfigurieren, wenn Sie die Einstellungen von den Standardwerten geändert haben. Ausführliche Informationen finden Sie unter "Konfigurieren unterstützter Clientversionen <https://technet.microsoft.com/library/gg412832(v=ocs.15).aspx>" unter. Das Tool für die lync Server 2013 Spannung und Leistung verwendet standardmäßig die folgenden Versionen des Benutzer-Agents bei der Kommunikation mit lync Server 2013:
 
   - LSPT/15.0.0.0 (lync Server 2013 Stress and Performance Tool)
 
   - OCPHONE/. 0.522
 
-Diese sind für den Mobilitäts Client (UCWA) in LyncPerfTool:
+Diese sind für den Mobility (UCWA)-Client in LyncPerfTool:
 
-  - Ucwa-perf-Tool/Webkonferenz
+  - Ucwa perf-Tool/Webkonferenz
 
-  - Ucwa perf Tool/Mobil
+  - Ucwa perf Tool/Mobile
 
 </div>
 

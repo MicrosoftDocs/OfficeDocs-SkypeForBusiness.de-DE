@@ -12,16 +12,16 @@ ms:contentKeyID: 48183873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d033621382587367630d9119c2176e976cb2c2d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b022d9780d1498f70fd5918894a1412996731004
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739155"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031239"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,34 +35,34 @@ ms.locfileid: "41739155"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-19_
+_**Letztes Änderungsstand des Themas:** 2012-06-19_
 
-In diesem Abschnitt werden die DNS-Einträge (Domain Name System) erläutert, die für die automatische Clientanmeldung erforderlich sind. Wenn Sie Ihre Standard Edition-Server oder Front-End-Pools bereitstellen, können Sie Ihre Clients so konfigurieren, dass die automatische Ermittlung für die Anmeldung beim entsprechenden Standard Edition-Server oder Front-End-Pool verwendet wird. Wenn Sie planen, dass Ihre Clients eine Verbindung mit lync Server 2013 manuell herstellen müssen, können Sie dieses Thema überspringen.
+In diesem Abschnitt wird erläutert, welche DNS-Einträge (Domain Name System) für die automatische Clientanmeldung erforderlich sind. Wenn Sie Standard Edition-Server oder Front-End-Pools bereitstellen, können Sie Ihre Clients zur automatischen Ermittlung von und Anmeldung am geeigneten Standard Edition-Server oder Front-End-Pool konfigurieren. Wenn Sie planen, dass Ihre Clients manuell mit lync Server 2013 eine Verbindung herstellen müssen, können Sie dieses Thema überspringen.
 
-Um die automatische Clientanmeldung zu unterstützen, müssen Sie Folgendes ausführen:
+Zur Unterstützung der automatischen Clientanmeldung müssen Sie folgende Aufgaben ausführen:
 
-  - Festlegen eines einzelnen Servers oder Pools zum Verteilen und Authentifizieren von Clientanmeldeanforderungen Hierbei kann es sich um einen vorhandenen Server oder Pool in Ihrer Organisation handeln, der Benutzer hostet, oder Sie können einen dedizierten Server oder Pool für diesen Zweck festlegen, der keine Benutzer hostet. Für eine höhere Verfügbarkeit empfehlen wir, einen Front-End-Pool für diese Funktion festzulegen.
+  - Legen Sie einen einzelnen Server oder Pool für die Verteilung und Authentifizierung von Clientanmeldeanforderungen fest. Hierbei kann es sich um einen vorhandenen Server oder Pool handeln, der Benutzer hostet, oder Sie können zu diesem Zweck einen dedizierten Server oder Pool zuweisen, der keine Benutzer hostet. Um eine hohe Verfügbarkeit sicherzustellen, wird empfohlen, einen Front-End-Pool für diese Funktion zuzuweisen.
 
-  - Erstellen Sie einen internen DNS-SRV-Eintrag, um die automatische Clientanmeldung für diesen Server oder Pool zu unterstützen.
+  - Erstellen Sie einen internen DNS-SRV-Eintrag zur Unterstützung der automatischen Clientanmeldung für diesen Server oder Pool.
     
     <div>
     
 
     > [!NOTE]  
-    > In den folgenden Daten Satz Anforderungen bezieht sich die SIP-Domäne auf den Hostbereich der SIP-URIs, die Benutzern zugewiesen sind. Wenn beispielsweise SIP-URIs die Form * @contoso. com aufweisen, ist contoso.com die SIP-Domäne. Die SIP-Domäne unterscheidet sich häufig von der internen Active Directory-Domäne. Eine Organisation kann auch mehrere SIP-Domänen unterstützen.
+    > In den folgenden Eintragsanforderungen bezieht sich die SIP-Domäne auf den Hostabschnitt der SIP-URIs, die Benutzern zugewiesen sind. Wenn die SIP-URIs beispielsweise das Format "*@contoso.com" aufweisen, bezeichnet "contoso.com" die SIP-Domäne. Die SIP-Domäne unterscheidet sich häufig von der internen Active Directory-Domäne. In einer Organisation können auch mehrere SIP-Domänen unterstützt werden.
 
     
     </div>
 
-Wenn Sie die automatische Konfiguration für Ihre Clients aktivieren möchten, müssen Sie einen internen DNS-SRV-Eintrag erstellen, der einen der folgenden Einträge dem vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Front-End-Pools oder Standard Edition-Servers zuordnet, der Anmeldeanforderungen von lync verteilt. Clients
+Um die automatische Konfiguration für Ihre Clients zu aktivieren, müssen Sie einen internen DNS-SRV-Eintrag erstellen, der einen der folgenden Einträge dem vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Front-End-Pool oder Standard Edition-Server zuordnet, der Anmeldeanforderungen von lync verteilt. Clients
 
   - \_sipinternaltls. \_TCP. \<Domäne\> – für interne TLS-Verbindungen
 
-Sie müssen nur einen einzelnen SRV-Eintrag für den Front-End-Pool oder Standard Edition-Server erstellen oder die Anmeldeanforderungen verteilen.
+Sie müssen für den Front-End-Pool oder Standard Edition-Server, der die Anmeldeanforderungen verteilt, nur einen einzigen SRV-Eintrag erstellen.
 
-In der folgenden Tabelle sind einige Beispieldatensätze aufgeführt, die für das fiktive Unternehmen Contoso erforderlich sind, das SIP-Domänen von contoso.com und Retail.contoso.com unterstützt.
+Die folgende Tabelle enthält einige der erforderlichen Beispieleinträge für das fiktive Unternehmen Contoso, das die SIP-Domänen "contoso.com" und "retail.contoso.com" unterstützt.
 
-### <a name="example-of-dns-records-required-for-automatic-client-sign-in-with-multiple-sip-domains"></a>Beispiel für DNS-Einträge, die für die automatische Client Anmeldung mit mehreren SIP-Domänen erforderlich sind
+### <a name="example-of-dns-records-required-for-automatic-client-sign-in-with-multiple-sip-domains"></a>Beispiele für erforderliche DNS-Einträge für die automatische Clientanmeldung bei mehreren SIP-Domänen
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ In der folgenden Tabelle sind einige Beispieldatensätze aufgeführt, die für d
 </colgroup>
 <thead>
 <tr class="header">
-<th>FQDN des Front-End-Pools, der zum Verteilen von Anmeldeanforderungen verwendet wird</th>
+<th>FQDN des Front-End-Pools für die Verteilung von Anmeldeanforderungen</th>
 <th>SIP-Domäne</th>
 <th>DNS-SRV-Eintrag</th>
 </tr>
@@ -81,12 +81,12 @@ In der folgenden Tabelle sind einige Beispieldatensätze aufgeführt, die für d
 <tr class="odd">
 <td><p>pool01.contoso.com</p></td>
 <td><p>contoso.com</p></td>
-<td><p>Ein SRV-Eintrag für _sipinternaltls _tcp. contoso. com-Domäne über Port 5061, der pool01.contoso.com zugeordnet ist</p></td>
+<td><p>Ein SRV-Eintrag für die Domäne "_sipinternaltls._tcp.contoso.com" über Port 5061, der "pool01.contoso.com" zugeordnet ist</p></td>
 </tr>
 <tr class="even">
 <td><p>pool01.contoso.com</p></td>
 <td><p>retail.contoso.com</p></td>
-<td><p>Ein SRV-Eintrag für _sipinternaltls. _tcp. Retail. contoso. com-Domäne über Port 5061, der pool01.contoso.com zugeordnet ist</p></td>
+<td><p>Ein SRV-Eintrag für die Domäne "_sipinternaltls._tcp.retail.contoso.com" über Port 5061, der "pool01.contoso.com" zugeordnet ist</p></td>
 </tr>
 </tbody>
 </table>
@@ -96,7 +96,7 @@ In der folgenden Tabelle sind einige Beispieldatensätze aufgeführt, die für d
 
 
 > [!NOTE]  
-> Standardmäßig befolgen Abfragen für DNS-Einträge den strikten Domänennamen Abgleich zwischen der Domäne im Benutzernamen und dem SRV-Eintrag. Wenn Sie es vorziehen, dass Client-DNS-Abfragen stattdessen Suffix-Abgleich verwenden, können Sie die DisableStrictDNSNaming-Gruppenrichtlinie konfigurieren. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-planning-for-clients-and-devices.md">Planen von Clients und Geräten in lync Server 2013</A> in der Planungsdokumentation.
+> In der Standardeinstellung müssen bei Abfragen für DNS-Einträge die Domänennamen im Benutzernamen und im SRV-Eintrag genau übereinstimmen. Wenn bei DNS-Abfragen des Clients stattdessen die Suffixe verglichen werden sollen, können Sie die Gruppenrichtlinie "DisableStrictDNSNaming" konfigurieren. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-planning-for-clients-and-devices.md">Planning for Clients and Devices in lync Server 2013</A> in der Planungsdokumentation.
 
 
 
@@ -104,9 +104,9 @@ In der folgenden Tabelle sind einige Beispieldatensätze aufgeführt, die für d
 
 <div>
 
-## <a name="example-of-the-certificates-and-dns-records-required-for-automatic-client-sign-in"></a>Beispiel für die für die automatische Client Anmeldung erforderlichen Zertifikate und DNS-Einträge
+## <a name="example-of-the-certificates-and-dns-records-required-for-automatic-client-sign-in"></a>Beispiele für erforderliche Zertifikate und DNS-Einträge für die automatische Clientanmeldung
 
-In diesem Beispiel werden die gleichen Beispiel Namen in der vorhergehenden Tabelle verwendet. Die Contoso-Organisation unterstützt die SIP-Domänen von contoso.com und Retail.contoso.com, und alle Benutzer verfügen über einen SIP-URI in einem der folgenden Formate:
+In diesem Beispiel werden dieselben Beispiele wie in der oben gezeigten Tabelle verwendet. Das Unternehmen Contoso unterstützt die SIP-Domänen "contoso.com" und "retail.contoso.com", und alle Benutzer des Unternehmens verfügen über einen SIP-URI in einem der folgenden Formate:
 
   - \<Benutzer\>@Retail. contoso.com
 

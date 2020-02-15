@@ -12,16 +12,16 @@ ms:contentKeyID: 49733847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29a8bd95af99b6b79b91f84231120c6981eeedb7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 66b68459a1923fcb4a066cafe02c5226b24f9321
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723025"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006411"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41723025"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-29_
+_**Letztes Änderungsstand des Themas:** 2012-09-29_
 
-Beim Erstellen eines lync Server 2013-Pools verwenden Sie den zentralen Verwaltungsspeicher, der lync Server 2010 zugeordnet ist. Wenn Sie den Topologie-Generator bei der ersten Verwendung und nachfolgenden Bearbeitungssitzungen starten, werden Sie aufgefordert, den Speicherort anzugeben, an dem der Topologie-Generator das aktuelle Konfigurationsdokument laden soll. Da Sie bereits eine lync Server 2010-Topologie definiert haben und den zentralen Verwaltungsspeicher eingerichtet haben, sollten Sie eine Topologie aus einer vorhandenen Bereitstellung herunterladen. Der Topologie-Generator liest die Datenbank und ruft die aktuelle Definition ab.
+Beim Erstellen eines lync Server 2013 Pools verwenden Sie die zentraler Verwaltungsspeicher, die lync Server 2010 zugeordnet ist. Beim erstmaligen Starten des Topologie-Generators und in nachfolgenden Bearbeitungssitzungen werden Sie zur Angabe des Speicherorts aufgefordert, an dem der Topologie-Generator das aktuelle Konfigurationsdokument laden soll. Da Sie bereits eine lync Server 2010 Topologie definiert haben und den zentralen Verwaltungsspeicher eingerichtet haben, sollten Sie eine Topologie aus einer vorhandenen Bereitstellung herunterladen. Der Topologie-Generator liest die Informationen aus der Datenbank und ruft die aktuelle Definition ab.
 
 **So laden Sie eine Topologie aus einer vorhandenen Bereitstellung herunter**
 
-1.  Öffnen Sie den **lync Server-Bereitstellungs-Assistenten**.
+1.  Öffnen Sie den**** Lync Server-Bereitstellungs-Assistenten.
 
-2.  Klicken Sie auf der Seite **lync Server 2013 – Deployment-Assistent** auf **Verwaltungs Tools installieren**.
+2.  Klicken Sie auf der Seite **Lync Server 2013 – Bereitstellungs-Assistent** auf **Verwaltungstools installieren**.
 
-3.  Starten Sie den Topologie-Generator: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013** , und klicken Sie dann auf **lync Server Topology Builder**.
+3.  Starten Sie den Topologie-Generator: Klicken Sie im **Startmenü**auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013** , und klicken Sie dann auf **lync Server Topologie-Generator**.
 
-4.  Wählen Sie **Topologie aus vorhandener Bereitstellung herunterladen aus**.
+4.  Wählen Sie **Topologie aus vorhandener Bereitstellung herunterladen** aus.
     
-    ![Einstellungen des Bereitstellungs-Assistenten für Topologie-Generator](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "Einstellungen des Bereitstellungs-Assistenten für Topologie-Generator")
+    ![Einstellungen für den Bereitstellungs-Assistenten für Topologie-Generator](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "Einstellungen für den Bereitstellungs-Assistenten für Topologie-Generator")
 
-5.  Wählen Sie einen Dateinamen aus, und speichern Sie die Topologie mit dem standardmäßigen tbxml-Dateityp.
+5.  Wählen Sie einen Dateinamen aus, und speichern Sie die Topologie als standardmäßigen TBXML-Dateityp.
 
-6.  Erweitern Sie den lync Server-Knoten, wie hier gezeigt, um die verschiedenen Server Rollen in der Bereitstellung anzuzeigen.
+6.  Erweitern Sie den Lync Server-Knoten (siehe Abbildung), um die verschiedenen Serverrollen in der Bereitstellung anzuzeigen.
     
-    ![Allgemeine Eigenschaften des Topology Builder-Servers](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "Allgemeine Eigenschaften des Topology Builder-Servers")
+    ![Topologie-Generator-Serverrolle: Allgemeine Eigenschaften](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "Topologie-Generator-Serverrolle: Allgemeine Eigenschaften")
 
 </div>
 

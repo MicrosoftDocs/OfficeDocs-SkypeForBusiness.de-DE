@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Ausführen synthetischer Transaktionen'
+title: 'Lync Server 2013: synthetische Transaktionen werden ausgeführt'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969593
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b77593ea062f83352592ebe32dbb81b99c1a9613
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 448e96c03b554970b1ee92166908965ee2a6629c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41732795"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="running-synthetic-transactions-in-lync-server-2013"></a>Ausführen synthetischer Transaktionen in lync Server 2013
+# <a name="running-synthetic-transactions-in-lync-server-2013"></a>Durchführen synthetischer Transaktionen in lync Server 2013
 
 </div>
 
@@ -35,18 +35,18 @@ ms.locfileid: "41732795"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-08-18_
+_**Letztes Änderungsstand des Themas:** 2014-08-18_
 
-Synthetische Transaktionen werden in der Regel auf zwei Arten durchgeführt. Sie können die CsHealthMonitoringConfiguration-Cmdlets verwenden, um Testbenutzer für die einzelnen registrierungspools einzurichten. Bei diesen Testbenutzern handelt es sich um ein paar Benutzer, die für die Verwendung mit synthetischen Transaktionen vorkonfiguriert wurden. (In der Regel handelt es sich hierbei um Testkonten und nicht um Konten, die tatsächlichen Benutzern gehören.) Bei Testbenutzern, die für einen Pool konfiguriert sind, können Sie eine synthetische Transaktion für diesen Pool ausführen, ohne die Identitäten (und die Anmeldeinformationen für) der am Test beteiligten Benutzerkonten angeben zu müssen.
+Synthetische Transaktionen werden in der Regel auf zwei Arten ausgeführt. Sie können die CsHealthMonitoringConfiguration-Cmdlets verwenden, um Testbenutzer für jeden Ihrer Registrierungsstellen Pools einzurichten. Bei diesen Testbenutzern handelt es sich um ein paar von Benutzern, die für die Verwendung mit synthetischen Transaktionen vorkonfiguriert wurden. (In der Regel handelt es sich um Testkonten und nicht um Konten, die tatsächlichen Benutzern angehören.) Mit Testbenutzern, die für einen Pool konfiguriert sind, können Sie eine synthetische Transaktion für diesen Pool ausführen, ohne die Identitäten von (und die Anmeldeinformationen für) der an dem Test beteiligten Benutzerkonten anzugeben.
 
-Oder Sie können eine synthetische Transaktion unter Verwendung tatsächlicher Benutzerkonten ausführen. Wenn beispielsweise zwei Benutzer keine Chatnachrichten austauschen können, können Sie eine synthetische Transaktion unter Verwendung dieser beiden Benutzerkonten (anstelle eines Paars von Testkonten) ausführen und dann versuchen, das Problem zu diagnostizieren und zu beheben. Wenn Sie sich entscheiden, eine synthetische Transaktion mit tatsächlichen Benutzerkonten durchzuführen, müssen Sie die Anmeldenamen und Kennwörter für jeden Benutzer angeben.
+Oder Sie können eine synthetische Transaktion mithilfe von tatsächlichen Benutzerkonten ausführen. Wenn beispielsweise zwei Benutzer keine Chatnachrichten austauschen können, können Sie eine synthetische Transaktion mit diesen beiden Benutzerkonten (anstelle eines paar Testkonten) ausführen und dann versuchen, das Problem zu diagnostizieren und zu beheben. Wenn Sie eine synthetische Transaktion mithilfe von tatsächlichen Benutzerkonten durchführen möchten, müssen Sie die Anmeldenamen und Kennwörter für jeden Benutzer angeben.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Konfigurieren von Watcher-Knotentest Benutzern und Konfigurationseinstellungen in lync Server 2013](lync-server-2013-configuring-watcher-node-test-users-and-configuration-settings.md)  
+[Konfigurieren von Testbenutzern und Konfigurationseinstellungen für Watcher-Knoten in lync Server 2013](lync-server-2013-configuring-watcher-node-test-users-and-configuration-settings.md)  
 [Spezielle Einrichtungsanweisungen für synthetische Transaktionen in lync Server 2013](lync-server-2013-special-setup-instructions-for-synthetic-transactions.md)  
   
 

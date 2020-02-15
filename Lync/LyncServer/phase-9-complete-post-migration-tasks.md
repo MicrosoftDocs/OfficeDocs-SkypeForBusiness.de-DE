@@ -12,16 +12,16 @@ ms:contentKeyID: 48183292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cfedd6cc909b1d164df145862c8bd783581ed306
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d28ad5b4f00c724a6344d201cc871fdddf189706
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727375"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034125"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41727375"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-15_
+_**Letztes Änderungsstand des Themas:** 2012-10-15_
 
-In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie nach Abschluss der Migration zu lync Server 2013 ausführen müssen.
+In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie ausführen müssen, nachdem Sie die Migration zu lync Server 2013 abgeschlossen haben.
 
 <div>
 
@@ -47,25 +47,25 @@ In den Themen in diesem Abschnitt werden Aufgaben beschrieben, die Sie nach Absc
 
   - [Migrieren von Zugriffsnummern für die Einwahl](migrate-dial-in-access-numbers_1.md)
 
-  - [Aktivieren von Exchange 2013 Outlook Web App und Chat Integration](enable-exchange-2013-outlook-web-app-and-im-integration.md)
+  - [Aktivieren der Integration von Exchange 2013 Outlook Web App und Chatnachrichten](enable-exchange-2013-outlook-web-app-and-im-integration.md)
 
   - [Migrieren des Adressbuchs](migrate-address-book_1.md)
 
   - [Aktivieren der Remoteanrufsteuerung](enable-remote-call-control.md)
 
-  - [Entfernen von Archivierungsservern und Monitoring Servern der Vorversion](remove-legacy-archiving-and-monitoring-servers_1.md)
+  - [Entfernen von Archivierungs-und Monitoring Servern der Vorversion](remove-legacy-archiving-and-monitoring-servers_1.md)
 
   - [Migrieren des Vermittlungsservers](migrate-mediation-server.md)
 
   - [Konfigurieren von vertrauenswürdigen Anwendungsservern](configure-trusted-application-servers_1.md)
 
-  - [Konfigurieren der Seite für den Besprechungsbeitritt](configure-the-meeting-join-page_1.md)
+  - [Konfigurieren der Seite für den besprechungsbeitritt](configure-the-meeting-join-page_1.md)
 
-  - [Bereitstellen von lync Server 2013-Clients](deploy-lync-server-2013-clients_1.md)
+  - [Bereitstellen von lync Server 2013 Clients](deploy-lync-server-2013-clients_1.md)
 
-  - [Verschieben von Exchange Unified Messaging-Kontaktobjekten](move-exchange-unified-messaging-contact-objects.md)
+  - [Migrieren von Exchange Unified Messaging-Kontaktobjekten](move-exchange-unified-messaging-contact-objects.md)
 
-  - [Überprüfen, ob alle Exchange um-Kontaktobjekte aus dem Legacy Pool entfernt wurden](verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool.md)
+  - [Überprüfen, ob alle Exchange um Kontaktobjekte aus dem Legacy Pool entfernt wurden](verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool.md)
 
 </div>
 

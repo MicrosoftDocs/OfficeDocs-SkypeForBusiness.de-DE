@@ -12,16 +12,16 @@ ms:contentKeyID: 49733723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac02103b99a4524c23d10a2162ea120d1060917b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f96061011087bc3e23f4e57172b85cc9a379a83f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758677"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035961"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41758677"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-18_
+_**Letztes Änderungsstand des Themas:** 2012-10-18_
 
-Gehen Sie wie folgt vor, um mobilitätsrichtlinien für lync Server 2013 zu konfigurieren.
+Verwenden Sie die folgenden Verfahren, um mobilitätsrichtlinien für lync Server 2013 zu konfigurieren.
 
 <div>
 
@@ -45,9 +45,9 @@ Gehen Sie wie folgt vor, um mobilitätsrichtlinien für lync Server 2013 zu konf
 
   - [Erstellen oder Ändern einer Mobilitätsrichtlinie in lync Server 2013](lync-server-2013-create-or-modify-a-mobility-policy.md)
 
-  - [Zuweisen einer Mobilitätsrichtlinie für einzelne Benutzer in lync Server 2013](lync-server-2013-assign-a-per-user-mobility-policy.md)
+  - [Zuweisen einer benutzerbezogenen Mobilitätsrichtlinie in lync Server 2013](lync-server-2013-assign-a-per-user-mobility-policy.md)
 
-  - [Erzwingen der Telefon Sperrung in lync Server 2013](lync-server-2013-enforce-phone-locking.md)
+  - [Erzwingen der Telefonsperre in lync Server 2013](lync-server-2013-enforce-phone-locking.md)
 
 </div>
 
@@ -56,7 +56,7 @@ Gehen Sie wie folgt vor, um mobilitätsrichtlinien für lync Server 2013 zu konf
 ## <a name="see-also"></a>Siehe auch
 
 
-[Planen der Mobilität in Lync Server 2013](lync-server-2013-planning-for-mobility.md)  
+[Planen der Mobilität in lync Server 2013](lync-server-2013-planning-for-mobility.md)  
   
 
 </div>

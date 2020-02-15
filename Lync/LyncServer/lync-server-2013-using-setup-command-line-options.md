@@ -12,16 +12,16 @@ ms:contentKeyID: 48184957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fcf3637ac0d334c2d22ef714891ea0544ee1a6d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: aacaa402b325fbefe13d70dea4f3e74af1d896cb
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744005"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007544"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41744005"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-03_
+_**Letztes Änderungsstand des Themas:** 2012-10-03_
 
 Die Befehlszeile von "Setup.exe" wird nur für wenige Vorgänge des Office-Setups verwendet. Anstelle der Setup-Befehlszeilenoptionen benutzen Sie in der Regel das Office-Anpassungstool und die Datei "Config.xml", um Produkte einzurichten und Funktionen anzupassen.
 
@@ -65,25 +65,25 @@ Die Befehlszeile der Office "Setup.exe" erkennt die in der folgenden Tabelle bes
 </tr>
 <tr class="odd">
 <td><p>/config [Pfad]</p></td>
-<td><p>Gibt die Datei config. XML an, die von Setup während der Installation verwendet wird. Verwenden Sie die/config-Option, um die Datei config. XML anzugeben, die Sie für lync 2013-Installationen angepasst haben, beispielsweise:<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
+<td><p>Gibt die Datei "config. xml" an, die von Setup während der Installation verwendet wird. Verwenden Sie die Option/config, um die Datei config. XML anzugeben, die Sie für lync 2013 Installationen angepasst haben, beispielsweise:<code>/config \\server\share\Lync15\Lync.WW\Config.xml</code></p></td>
 </tr>
 <tr class="even">
-<td><p>/Modify lync</p></td>
-<td><p>Wird mit einer geänderten config.xml-Datei verwendet, um Setup im Wartungsmodus auszuführen und Änderungen an einer vorhandenen Office-Installation durchzuführen. So können Sie beispielsweise die Option/MODIFY verwenden, um lync-Features hinzuzufügen oder zu entfernen.</p></td>
+<td><p>/modify Lync</p></td>
+<td><p>Wird mit einer geänderten Config.xml-Datei verwendet, um das Setup im Wartungsmodus auszuführen und Änderungen an einer vorhandenen Office-Installation durchzuführen. Sie können die Option "/modify" z. B. nutzen, um Lync-Funktionen hinzuzufügen oder zu entfernen.</p></td>
 </tr>
 <tr class="odd">
-<td><p>/Repair lync</p></td>
-<td><p>Führt das Setup auf dem Computer des Benutzers aus, um lync zu reparieren.</p></td>
+<td><p>/repair Lync</p></td>
+<td><p>Führt Setup auf dem Computer des Benutzers aus, um Lync zu reparieren.</p></td>
 </tr>
 <tr class="even">
-<td><p>/Uninstall lync</p></td>
-<td><p>Führt das Setup aus, um lync vom Computer des Benutzers zu entfernen.</p></td>
+<td><p>/uninstall Lync</p></td>
+<td><p>Führt Setup aus, um Lync vom Computer des Benutzers zu entfernen.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Ausführliche Informationen zur Verwendung der Befehlszeilenoptionen für Setup finden Sie <http://go.microsoft.com/fwlink/p/?linkid=267515>unter.
+Ausführliche Informationen zur Verwendung der Setup-Befehlszeilenoptionen finden Sie <http://go.microsoft.com/fwlink/p/?linkid=267515>unter.
 
 </div>
 

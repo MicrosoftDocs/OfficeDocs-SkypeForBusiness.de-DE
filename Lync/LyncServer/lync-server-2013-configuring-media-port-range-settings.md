@@ -12,16 +12,16 @@ ms:contentKeyID: 48183723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 80e835bfcf12495c75612ecee93d87cf3c421651
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1cfde603ace9036ba547ffb0a7ee80c1963ae6cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755939"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008437"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,11 +35,11 @@ ms.locfileid: "41755939"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-18_
+_**Letztes Änderungsstand des Themas:** 2012-10-18_
 
-Einstellungen für den Medienportbereich können die Clientleistung erheblich beeinträchtigen und sollten konfiguriert werden. Sie können diese Einstellungen mithilfe der lync Server-Verwaltungsshell konfigurieren.
+Die Einstellungen für Medienportbereiche können sich erheblich auf die Clientleistung auswirken und sollten konfiguriert werden. Sie können diese Einstellungen mit lync Server-Verwaltungsshell konfigurieren.
 
-### <a name="media-port-range-settings"></a>Einstellungen für den Medien Port Bereich
+### <a name="media-port-range-settings"></a>Einstellungen für den Medienportbereich
 
 <table>
 <colgroup>
@@ -52,28 +52,28 @@ Einstellungen für den Medienportbereich können die Clientleistung erheblich be
 <tr class="header">
 <th>Einstellung</th>
 <th>Beschreibung</th>
-<th>Cmdlet "lync Server-Verwaltungsshell"</th>
+<th>Lync Server-Verwaltungsshell-Cmdlet</th>
 <th>Cmdlet-Parameter</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Portrange\Enabled</p></td>
-<td><p>Gibt an, ob der vom Server gesendete Portbereich vom Client für Medien und Signalisierungen verwendet werden soll. Wird in Verbindung mit den unter Werten MinMediaPort und MaxMediaPort verwendet.</p></td>
+<td><p>Gibt an, ob die vom Server gesendeten Portbereiche vom Client für Medien- und Signaldatenverkehr verwendet werden sollen. Wird gemeinsam mit den Unterwerten "MinMediaPort" und "MaxMediaPort" verwendet.</p></td>
 <td><p><strong>CsConferencingConfiguration</strong></p></td>
-<td><p>ClientMediaPortRangeEnabled</p></td>
+<td><p>Parameter clientmediaportrangeenabled</p></td>
 </tr>
 <tr class="even">
 <td><p>Portrange\MinMediaPort</p></td>
-<td><p>Gibt die für Medien zu verwendende anfangs Portnummer an. Kombiniert mit MaxMediaPort, um den Portbereich anzugeben. Der empfohlene Mindestbereich ist 40-Anschlüsse.</p></td>
+<td><p>Gibt die erste Portnummer an, die für Mediendaten verwendet wird. Gibt in Kombination mit "MaxMediaPort" den Portbereich an. Der empfohlene Mindestbereich umfasst 40 Ports.</p></td>
 <td><p><strong>CsConferencingConfiguration</strong></p></td>
-<td><p>ClientMediaPort (stellt die Anfangs Portnummer dar, die für Client Medien verwendet werden soll)</p></td>
+<td><p>ClientMediaPort (repräsentiert die erste Portnummer, die für Clientmediendaten verwendet wird)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Portrange\MaxMediaPort</p></td>
-<td><p>Gibt die höchste Portnummer an, die für Medien verwendet werden soll. Kombiniert mit MinMediaPort, um den Portbereich anzugeben. Der empfohlene Mindestbereich ist 40-Anschlüsse.</p></td>
+<td><p>Gibt die höchste Portnummer an, die für Mediendaten verwendet wird. Gibt in Kombination mit "MinMediaPort" den Portbereich an. Der empfohlene Mindestbereich umfasst 40 Ports.</p></td>
 <td><p><strong>CsConferencingConfiguration</strong></p></td>
-<td><p>ClientMediaPortRange (zeigt die Gesamtanzahl der für Client Medien verfügbaren Ports an; Standard ist 40)</p></td>
+<td><p>ClientMediaPortRange (gibt die Gesamtanzahl von Ports an, die für Clientmediendaten verfügbar sind; der Standardwert lautet 40)</p></td>
 </tr>
 </tbody>
 </table>
@@ -81,9 +81,9 @@ Einstellungen für den Medienportbereich können die Clientleistung erheblich be
 
 <div>
 
-## <a name="to-configure-media-port-range-settings"></a>So konfigurieren Sie die Einstellungen für den Medien Port Bereich
+## <a name="to-configure-media-port-range-settings"></a>So konfigurieren Sie die Einstellungen für den Medienportbereich
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
 2.  Führen Sie das folgende Cmdlet aus:
     
@@ -91,7 +91,7 @@ Einstellungen für den Medienportbereich können die Clientleistung erheblich be
     
     Dieses Cmdlet gibt die Konfigurationseinstellungen für Konferenzen zurück.
 
-3.  Führen Sie das folgende Cmdlet mit den Parametern und Werten aus, die Sie ändern möchten (Einzelheiten zu den Parametern für dieses Cmdlet finden Sie in der Dokumentation zur lync Server-Verwaltungsshell):
+3.  Führen Sie das folgende Cmdlet mit den Parametern und Werten aus, die Sie ändern möchten (Ausführliche Informationen zu den Parametern für dieses Cmdlet finden Sie in der lync Server-Verwaltungsshell Dokumentation):
     
         Set-CsConferencingConfiguration
     
@@ -99,7 +99,7 @@ Einstellungen für den Medienportbereich können die Clientleistung erheblich be
     
 
     > [!NOTE]  
-    > Sie können zusätzliche Gruppen von Konferenz Konfigurationseinstellungen für bestimmte Websites erstellen. Verwenden Sie das Cmdlet <STRONG>New-CsConferencingConfiguration</STRONG> mit einer Websiteidentität. Wenn Sie neue Konferenz Konfigurationseinstellungen für Websites erstellen, haben die Websiteeinstellungen Vorrang vor den globalen Einstellungen. Ausführliche Informationen finden Sie in der Dokumentation zur lync Server-Verwaltungsshell.
+    > Sie können zusätzliche Sätze mit Konfigurationseinstellungen für Konferenzen für bestimmte Standorte erstellen. Verwenden Sie das Cmdlet <STRONG>New-CsConferencingConfiguration</STRONG> mit einer Standortidentität. Beim Erstellen neuer Konfigurationseinstellungen für Konferenzen für einen Standort haben die Standorteinstellungen Vorrang vor den globalen Einstellungen. Ausführliche Informationen finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell.
 
     
     </div>

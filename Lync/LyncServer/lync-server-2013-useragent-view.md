@@ -12,16 +12,16 @@ ms:contentKeyID: 49733795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 828e81d028fb476362a91c4fa0ab83c5e2c34c20
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7b82d8a03f159aa1c99d53dd06a0811847f77b12
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744415"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007614"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744415"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-03_
+_**Letztes Änderungsstand des Themas:** 2012-10-03_
 
-Die UserAgent-Ansicht speichert Informationen zu den Benutzer-Agents, die an Sitzungen teilgenommen haben, die Datensätze in der Datenbank aufweisen. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
+Die UserAgent-Ansicht speichert Informationen über die Benutzeragenten, die an Sitzungen teilgenommen haben und die über Datensätze in der Datenbank verfügen. Diese Ansicht wurde in Microsoft lync Server 2013 eingeführt.
 
 
 <table>
@@ -57,22 +57,22 @@ Die UserAgent-Ansicht speichert Informationen zu den Benutzer-Agents, die an Sit
 <tr class="odd">
 <td><p>UserAgentKey</p></td>
 <td><p>int</p></td>
-<td><p>Eindeutige Nummer, die diesen Benutzer-Agent kennzeichnet.</p></td>
+<td><p>Eindeutige Zahl, die diesen Benutzer-Agent identifiziert.</p></td>
 </tr>
 <tr class="even">
 <td><p>UserAgent</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Benutzer-Agent-Zeichenfolge.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>Zeichenfolge des Benutzer-Agents.</p></td>
 </tr>
 <tr class="odd">
 <td><p>UAType</p></td>
 <td><p>smallint</p></td>
-<td><p>Der Typ des Benutzer-Agents. Weitere Informationen finden Sie <a href="lync-server-2013-useragent-table.md">in der UserAgent-Tabelle in lync Server 2013</a> .</p></td>
+<td><p>Benutzeragententyp. Weitere Informationen finden Sie <a href="lync-server-2013-useragent-table.md">in der UserAgent-Tabelle in lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p>UACategory</p></td>
 <td><p>nvarchar (64)</p></td>
-<td><p>Die Kategorie, zu der der Benutzer-Agent gehört. Beispielsweise gehört der Benutzer-Agent Conferencing_Attendant_1 .0 zu UACategory CAA.</p></td>
+<td><p>Die Kategorie, der der Benutzer-Agent angehört. Beispielsweise weist der Benutzer-Agent Conferencing_Attendant_1.0 eine UACategory von CAA auf.</p></td>
 </tr>
 </tbody>
 </table>

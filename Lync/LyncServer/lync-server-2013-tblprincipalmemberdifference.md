@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: tblPrincipalMemberDifference'
+title: 'Lync Server 2013: principalmemberdifference'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183379
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: baaf336013ec09b17b8e688889fdf27aa29ef644
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0ca8ccc9c60bdd608992dc3daf085568d34bee69
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764141"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034095"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalmemberdifference-in-lync-server-2013"></a>tblPrincipalMemberDifference in Lync Server 2013
+# <a name="tblprincipalmemberdifference-in-lync-server-2013"></a>principalmemberdifference in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764141"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+_**Letztes Änderungsstand des Themas:** 2012-09-12_
 
-tblPrincipalMemberDifference enthält Gruppenmitgliedschaftsänderungen (sowohl hinzugefügte als auch entfernte Mitglieder), die noch nicht von den späteren Synchronisierungs Schritten von Active Directory-Domänendiensten verarbeitet wurden.
+principalmemberdifference enthält Änderungen an Gruppenmitgliedschaften (sowohl hinzugefügte als auch entfernte Mitglieder), die noch nicht von den späteren Active Directory-Domänendienste Synchronisierungs Schritten verarbeitet wurden.
 
 ### <a name="columns"></a>Spalten
 
@@ -63,18 +63,18 @@ tblPrincipalMemberDifference enthält Gruppenmitgliedschaftsänderungen (sowohl 
 <tr class="even">
 <td><p>memberADPath</p></td>
 <td><p>nvarchar (256)</p></td>
-<td><p>Distinguished Name des Members.</p></td>
+<td><p>Distinguished Name (DN) des Mitglieds.</p></td>
 </tr>
 <tr class="odd">
 <td><p>memberRemoved</p></td>
-<td><p>Bit, nicht NULL</p></td>
-<td><p>False, wenn das Mitglied hinzugefügt wurde. "True", wenn das Element entfernt wurde.</p></td>
+<td><p>bit, nicht NULL</p></td>
+<td><p>FALSE, wenn das Mitglied hinzugefügt wurde. TRUE, wenn das Mitglied entfernt wurde.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Schlüssel
+### <a name="key"></a>Key
 
 <table>
 <colgroup>

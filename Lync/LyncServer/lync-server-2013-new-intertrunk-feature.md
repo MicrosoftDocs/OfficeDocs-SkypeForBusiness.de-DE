@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Neue Funktion für das Routing zwischen Trunks'
+title: 'Lync Server 2013: neues intertrunk-Feature'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 833cfd1e11b885fc4291f2bbbfecb7d6118074e9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c88447434594f940ef28b74212e4db2357d6ce38
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758617"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007774"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-intertrunk-feature-in-lync-server-2013"></a>Neue Funktion für das Routing zwischen Trunks in Lync Server 2013
+# <a name="new-intertrunk-feature-in-lync-server-2013"></a>Neues intertrunk-Feature in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758617"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-08_
+_**Letztes Änderungsstand des Themas:** 2012-10-08_
 
-Lync Server 2013 bietet grundlegende Sitzungsverwaltung durch die Unterstützung von intertrunk-Routing. Mit dieser neuen Funktion kann lync Server Funktionen zur Anrufsteuerung für Downstream-Telefoniesysteme bereitstellen. Mit dem intertrunk-Routing kann lync Server eine IP-Telefonanlage mit einem PSTN-Gateway (Public Switched Telephone Network) verbinden, damit Anrufe von einem PBX-Telefon (Private Branch Exchange) an das PSTN weitergeleitet werden können und eingehende PSTN-Anrufe an ein PBX-Telefon weitergeleitet werden können. In ähnlicher Weise kann lync Server zwei oder mehr IP-PBX-Systeme verbinden, damit Anrufe zwischen PBX-Telefonen von den verschiedenen IP-PBX-Systemen getätigt und empfangen werden können.
+Lync Server 2013 bietet grundlegende Sitzungsverwaltung über die Unterstützung des intertrunk-Routings. Diese neue Funktion ermöglicht lync Server das Bereitstellen von Funktionen für die Anrufsteuerung für nachgeschaltete Telefoniesysteme. Mit dem intertrunk-Routing können lync Server eine IP-Nebenstellenanlage mit einem PSTN-Gateway (Public Switched Telephone Network) verbinden, sodass Anrufe von einem PBX-Telefon (Private Branch Exchange) an das PSTN weitergeleitet werden können und eingehende PSTN-Anrufe an ein PBX-Telefon weitergeleitet werden können. Auf ähnliche Weise können lync Server zwei oder mehr IP-PBX-Systeme miteinander verbinden, sodass Anrufe zwischen Nebenstellen Geräten von den verschiedenen IP-PBX-Systemen getätigt und empfangen werden können.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Zwischen trunk-Routing in lync Server 2013](lync-server-2013-inter-trunk-routing.md)  
-[Neue Enterprise-VoIP-Funktionen in Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
+[Zwischen trunk Routing in lync Server 2013](lync-server-2013-inter-trunk-routing.md)  
+[Neue Enterprise-VoIP-Funktionen in lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

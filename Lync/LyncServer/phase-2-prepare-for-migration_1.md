@@ -1,5 +1,5 @@
 ---
-title: 'Phase 2: Vorbereitung der Migration'
+title: 'Phase 2: Vorbereiten der Migration'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9303c1a1b394216dfaed4adf826edf665fbd0c2b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: dc1007da4b793c837c937d572366ea64230050e8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757689"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034315"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-2-prepare-for-migration"></a>Phase 2: Vorbereitung der Migration
+# <a name="phase-2-prepare-for-migration"></a>Phase 2: Vorbereiten der Migration
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41757689"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-08-24_
+_**Letztes Änderungsstand des Themas:** 2012-08-24_
 
-Bevor Sie mit der Migration zu lync Server 2013 von Office Communications Server 2007 R2 beginnen, führen Sie die in diesem Abschnitt beschriebenen Schritte aus.
+Führen Sie die in diesem Abschnitt beschriebenen Schritte aus, bevor Sie mit der Migration zu lync Server 2013 von Office Communications Server 2007 R2 beginnen.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Anwenden von Office Communications Server 2007 R2-Updates](apply-office-communications-server-2007-r2-updates.md)
+  - [Anwenden von Office Communications Server 2007 R2 Updates](apply-office-communications-server-2007-r2-updates.md)
 
-  - [Konfigurieren von DNS-Einträgen für die Pilotpoolbereitstellung](configure-dns-records-for-pilot-pool-deployment_1.md)
+  - [Konfigurieren von DNS-Einträgen für die Bereitstellungeines pilotpools](configure-dns-records-for-pilot-pool-deployment_1.md)
 
-  - [Ausführen von Best Practices Analyzer](run-best-practices-analyzer_1.md)
+  - [Ausführen von Best Practice Analyzer](run-best-practices-analyzer_1.md)
 
   - [Sichern von Systemen und Daten](back-up-systems-and-data_1.md)
 
-  - [Konfigurieren von Clients für die Migration](configure-clients-for-migration_1.md)
+  - [Konfigurieren der Clients für die Migration](configure-clients-for-migration_1.md)
 
-  - [Überprüfen der Office Communications Server 2007 R2-Umgebung](verify-office-communications-server-2007-r2-environment.md)
+  - [Überprüfen der Office Communications Server 2007 R2 Umgebung](verify-office-communications-server-2007-r2-environment.md)
 
 </div>
 

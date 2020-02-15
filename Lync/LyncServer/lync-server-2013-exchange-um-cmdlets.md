@@ -12,16 +12,16 @@ ms:contentKeyID: 48183786
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2cc9d63189d66e6e5255ca7c0d34a717cc2eb514
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c21d013c35d8f1379d049e0f252ac6c0d3356eb1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756249"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035107"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,79 +35,79 @@ ms.locfileid: "41756249"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-26_
+_**Letztes Änderungsstand des Themas:** 2012-06-26_
 
-Microsoft lync Server 2013 arbeitet mit Exchange Unified Messaging (um) zusammen, um die automatische Telefonzentrale und den Abonnenten Zugriff für gehostete Voicemail zu implementieren. Diese Features können über Cmdlets in der lync Server-Verwaltungsshell verwaltet werden.
+Microsoft lync Server 2013 arbeitet mit Exchange Unified Messaging (um) zusammen, um die automatische Telefonzentrale und den Teilnehmerzugriff für gehostete Voicemail zu implementieren. Diese Features können über Cmdlets im lync Server-Verwaltungsshell verwaltet werden.
 
 <div>
 
-## <a name="exchange-um-cmdlets"></a>Exchange um-Cmdlets
+## <a name="exchange-um-cmdlets"></a>Exchange UM-Cmdlets
 
 Die folgenden Cmdlets können zum Verwalten von Exchange um verwendet werden.
 
-**Exchange UM**
+**Exchange UM**
 
   - <span></span>  
-    [Get-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412725(v=OCS.15))
+    [Get-CsExUmContact](https://technet.microsoft.com/library/Gg412725(v=OCS.15))
 
   - <span></span>  
-    [Move-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
+    [CsExUmContact](https://technet.microsoft.com/library/Gg425842(v=OCS.15))
 
   - <span></span>  
-    [New-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg398139(v=OCS.15))
+    [New-CsExUmContact](https://technet.microsoft.com/library/Gg398139(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsExUmContact](rehttps://technet.microsoft.com/en-us/library/Gg425842(v=OCS.15))
+    [Remove-CsExUmContact](rehttps://technet.microsoft.com/library/Gg425842(v=OCS.15))
 
   - <span></span>  
-    [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/Gg412944(v=OCS.15))
+    [Gruppe-CsExUmContact](https://technet.microsoft.com/library/Gg412944(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsExStorageConnectivity](https://technet.microsoft.com/en-us/library/JJ204740(v=OCS.15))
+  - [Test-csexstorageconnectivity "](https://technet.microsoft.com/library/JJ204740(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsExStorageNotification](https://technet.microsoft.com/en-us/library/JJ205331(v=OCS.15))
+  - [Test-csexstoragenotification "](https://technet.microsoft.com/library/JJ205331(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsExUMConnectivity](https://technet.microsoft.com/en-us/library/JJ204784(v=OCS.15))
+  - [Test-csexumconnectivity "](https://technet.microsoft.com/library/JJ204784(v=OCS.15))
 
 <!-- end list -->
 
-  - [Test-CsExUMVoiceMail](https://technet.microsoft.com/en-us/library/JJ205058(v=OCS.15))
-
-<!-- end list -->
-
-  - <span></span>  
-    [Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398348(v=OCS.15))
-
-  - <span></span>  
-    [Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412829(v=OCS.15))
-
-  - <span></span>  
-    [Neu – CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398653(v=OCS.15))
-
-  - <span></span>  
-    [Remove-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg398211(v=OCS.15))
-
-  - <span></span>  
-    [Satz-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/Gg412722(v=OCS.15))
+  - [Test-csexumvoicemail "](https://technet.microsoft.com/library/JJ205058(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425732(v=OCS.15))
+    [Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398348(v=OCS.15))
 
   - <span></span>  
-    [Neu – CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg425849(v=OCS.15))
+    [Grant-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412829(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg398573(v=OCS.15))
+    [New-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398653(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/en-us/library/Gg412948(v=OCS.15))
+    [Remove-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg398211(v=OCS.15))
+
+  - <span></span>  
+    [Gruppe-CsHostedVoicemailPolicy](https://technet.microsoft.com/library/Gg412722(v=OCS.15))
+
+<!-- end list -->
+
+  - <span></span>  
+    [Get-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/library/Gg425732(v=OCS.15))
+
+  - <span></span>  
+    [New-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/library/Gg425849(v=OCS.15))
+
+  - <span></span>  
+    [Remove-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/library/Gg398573(v=OCS.15))
+
+  - <span></span>  
+    [Gruppe-CsVoicemailReroutingConfiguration](https://technet.microsoft.com/library/Gg412948(v=OCS.15))
 
 </div>
 

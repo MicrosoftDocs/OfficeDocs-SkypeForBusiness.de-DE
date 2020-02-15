@@ -1,5 +1,5 @@
 ---
-title: Vorbereiten der Migration
+title: Bevor Sie mit der Migration beginnen
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 48184202
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f890507ed4f6dd81b90557edd3ce5545fb401cc2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d9dbbb1cd160d66717fe716ee31a8b0712b348ba
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724035"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42003590"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="before-you-begin-the-migration"></a>Vorbereiten der Migration
+# <a name="before-you-begin-the-migration"></a>Bevor Sie mit der Migration beginnen
 
 </div>
 
@@ -36,13 +36,13 @@ ms.locfileid: "41724035"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-08-29_
+_**Letztes Änderungsstand des Themas:** 2012-08-29_
 
-Bevor Sie beginnen, empfehlen wir Ihnen, dieses Dokument und die folgenden Leitfäden zu lesen, um sich mit der Bereitstellung der entsprechenden lync Server 2013-Rollen vertraut zu machen:
+Bevor Sie beginnen, sollten Sie dieses Dokument und die folgenden Anleitungen lesen, um sich mit der Bereitstellung der entsprechenden lync Server 2013 Rollen vertraut zu machen:
 
-  - [Bereitstellen von Lync Server 2013](lync-server-2013-deploying-lync-server.md)
+  - [Bereitstellen von Lync Server 2013](lync-server-2013-deploying-lync-server.md)
 
-  - [Bereitstellen des Zugriffs durch externe Benutzer in Lync Server 2013](lync-server-2013-deploying-external-user-access.md)
+  - [Bereitstellen von externem Benutzer Zugriff in lync Server 2013](lync-server-2013-deploying-external-user-access.md)
 
   - [Bereitstellen von Clients und Geräten in lync Server 2013](lync-server-2013-deploying-clients-and-devices.md)
 

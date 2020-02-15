@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Topologieänderungen'
+title: Lync Server 2013 von Topologie-Änderungen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c4453a9b5b8a5fcd60eaad1e437fd4800caddfba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a993057d3aae52b1c080d05fe9bba4eaff1ebeab
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745175"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036525"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="topology-changes-in-lync-server-2013"></a>Topologieänderungen in Lync Server 2013
+# <a name="topology-changes-in-lync-server-2013"></a>Topologie-Änderungen in lync Server 2013
 
 </div>
 
@@ -35,41 +35,41 @@ ms.locfileid: "41745175"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-Topologie-Anforderungen und-Überlegungen für lync Server 2013 unterscheiden sich von denen für frühere Versionen, wie in diesem Abschnitt beschrieben.
+Topologie-Anforderungen und Überlegungen für lync Server 2013 unterscheiden sich von denen für frühere Versionen, wie in diesem Abschnitt beschrieben.
 
 <div>
 
-## <a name="new-front-end-pools-architecture"></a>Neue Front-End-Pools-Architektur
+## <a name="new-front-end-pools-architecture"></a>Neue Architektur der Front-End-Pools.
 
 In lync Server 2013 wurde die Architektur von Enterprise Edition-Front-End-Pools in eine verteilte Systemarchitektur geändert.
 
-Mit dieser neuen Architektur ist die Back-End-Datenbank nicht mehr der Echtzeitdaten Speicher in einem Pool. Informationen zu einem bestimmten Benutzer werden auf drei Front-End-Servern im Pool aufbewahrt. Für jeden Benutzer fungiert ein Front-End-Server als Master für die Informationen dieses Benutzers, und zwei weitere Front-End-Server dienen als Replikate. Wenn ein Front-End-Server ausfällt, wird ein anderer Front-End-Server, der als Replikat fungiert, automatisch zum Master heraufgestuft.
+Mit dieser neuen Architektur bildet die Back-End-Datenbank nicht mehr den Echtzeit-Datenspeicher in einem Pool. Die Informationen zu einem bestimmten Benutzer befinden sich auf drei Front-End-Servern im Pool. Für jeden Benutzer agiert ein Front-End-Server als Master für die Informationen des jeweiligen Benutzers und zwei weitere Front-End-Server dienen als Replikate. Wenn ein Front-End-Server ausfällt, wird ein anderer Front-End-Server, der als Replikat gedient hat, automatisch zum Master hochgestuft.
 
-Dies geschieht hinter den Kulissen, und Administratoren müssen nicht wissen, welche Front-End-Server die Master für welche Benutzer sind. Diese Verteilung der Datenspeicherung verbessert die Leistung und Skalierbarkeit innerhalb des Pools und beseitigt den einzelnen Fehlerpunkt eines einzelnen Back-End-Servers.
+Dies passiert im Hintergrund und es ist nicht erforderlich, dass Administratoren wissen, welche Front-End-Server als Master für welche Benutzer agieren. Diese Verteilung der Datenspeicherung verbessert die Leistung und Skalierbarkeit innerhalb des Pools und eliminiert den einzelnen Ausfallpunkt eines einzelnen Back-End-Servers.
 
-Der Back-End-Server dient als Sicherungsspeicher für Benutzer-und Konferenzdaten und ist auch der primäre Speicher für andere Datenbanken wie die Datenbank der Reaktionsgruppe.
+Der Back-End-Server dient als Sicherungsspeicher für Benutzer- und Konferenzdaten und stellt außerdem den primären Speicher für andere Datenbanken, wie die Reaktionsgruppendatenbank.
 
-Diese Verbesserungen besagen auch, dass es Änderungen bei der Planung und Verwaltung Ihrer Pools gibt. Wir empfehlen, dass alle Ihre Enterprise Edition-Front-End-Pools mindestens drei Front-End-Server umfassen, um die vollständige Anzahl von Replikaten bereitzustellen, für die die Front-End-Pool-Architektur konzipiert ist. Darüber hinaus müssen Sie bestimmte Verfahren ausführen, wenn Sie einem Front-End-Pool Server hinzufügen, Server davon entfernen oder Server aktualisieren. Weitere Informationen finden Sie unter [Topologien und Komponenten für Front-End-Server, Instant Messaging und Anwesenheitsinformationen in lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).
+Diese Verbesserungen ziehen auch Änderungen bei der Planung und Wartung der Pools nach sich. Es wird empfohlen, dass alle Ihre Enterprise Edition-Front-End-Pools mindestens drei Front-End-Server enthalten, um die vollständige Anzahl von Replikaten bereitzustellen, für die die Front-End-Pool Architektur ausgelegt ist. Darüber hinaus müssen Sie beim Hinzufügen von Servern zu einer Front-End-Pool, beim Entfernen von Servern oder beim Aktualisieren von Servern bestimmte Verfahren befolgen. Weitere Informationen finden Sie unter [Topologien und Komponenten für Front-End-Server, Instant Messaging und Anwesenheit in lync Server 2013](lync-server-2013-topologies-and-components-for-front-end-servers-instant-messaging-and-presence.md).
 
 <div>
 
-## <a name="server-role-topology-changes"></a>Änderungen der Server Rollen Topologie
+## <a name="server-role-topology-changes"></a>Änderungen der Topologie der Serverrolle
 
-Einige Serverrollen, die zuvor auf separaten Servern ausgeführt wurden, werden jetzt in der Front-End-Serverrolle konsolidiert, sodass Sie die Hardwarekosten sparen können.
+Einige Serverrollen, die zuvor auf separaten Servern ausgeführt wurden, sind jetzt in der Front-End-Serverrolle zusammengefasst, was die Hardwarekosten senkt
 
-  - In lync Server 2013 ist der A/V-Konferenzserver immer mit dem Front-End-Server verbunden.
+  - In lync Server 2013 ist A/V-Konferenzserver immer mit Front-End-Server verbunden.
 
-  - Die Front-Ends für Überwachung und Archivierung sind jetzt immer mit dem Front-End-Server verbunden. Für die Überwachung und Archivierung ist immer noch eine separate Back-End-Datenbank erforderlich, die sich auf demselben Server wie die Back-End-Datenbank des Front-End-Pools befindet oder auf separaten Back-End-Servern gehostet werden kann.
+  - Die Front-Ends für die Überwachung und für die Archivierung sind jetzt mit dem Front-End-Server verbunden. Für die Überwachung und die Archivierung ist weiterhin eine separate Back-End-Datenbank erforderlich, die auf demselben Server wie die Back-End-Datenbank des Front-End-Pools verbunden oder auf separaten Back-End-Servern gehostet werden kann.
 
-  - Der beständige Chat Server ist nun eine Serverrolle. In Microsoft lync Server 2010 war der Gruppen-Chat Server eine vertrauenswürdige Anwendung eines Drittanbieters für Microsoft lync Server 2010. In lync Server 2013 wird die Funktion des beständigen Chat Servers mit drei neuen Serverrollen implementiert:
+  - Der Server für beständigen Chat ist jetzt eine Serverrolle. In Microsoft lync Server 2010 war der Gruppen Chat Server eine vertrauenswürdige Drittanbieteranwendung für Microsoft lync Server 2010. In lync Server 2013 wird die Server Funktionalität für beständigen Chat mit drei neuen Serverrollen implementiert:
     
-      - **PersistentChatService:** Die wichtigsten Server Dienste für beständigen Chat, die als Front-End-Rolle implementiert sind
+      - **PersistentChatService:** Haupt Server Dienste für beständigen Chat, die als Front-End-Rolle implementiert sind
     
       - **PersistentChatStore:** Back-End-Server Rolle
     
-      - **PersistentChatComplianceStore:** Back-End-Server Rolle für beständigen Chat
+      - **PersistentChatComplianceStore:** Back-End-Server Rolle für die Compliance für beständigen Chat
 
 </div>
 

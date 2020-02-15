@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 IPsec-Ausnahmen
+title: Lync Server 2013 von IPsec-Ausnahmen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37d5becaab996d6fe4889086d3a68a45ffc1f6d7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db7291674485dec30211d88e2739b0da89fb334f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41733455"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035057"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41733455"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-27_
+_**Letztes Änderungsstand des Themas:** 2012-06-27_
 
-Für Unternehmensnetzwerke, in denen IPSec (Internet Protocol Security) (siehe IETF-RFC 4301-4309) bereitgestellt wurde, muss IPsec über den Portbereich deaktiviert werden, der für die Bereitstellung von Audio-, Video-und Panorama Video verwendet wird. Mit dieser Empfehlung sollen Verzögerungen in der Zuweisung von Medienports vermieden werden, die sich aus dem IPsec-Aushandlungsvorgang ergeben könnten.
+Bei Unternehmensnetzwerken, in denen Internetprotokollsicherheit (Internet Protocol Security, IPsec) (siehe IETF RFC 4301-4309) bereitgestellt wurde, muss IPsec für den Portbereich deaktiviert werden, der zur Übermittlung von Audio-, Video- und Panoramavideodaten verwendet wird. Mit dieser Empfehlung sollen Verzögerungen in der Zuweisung von Medienports vermieden werden, die sich aus dem IPsec-Aushandlungsvorgang ergeben könnten.
 
 In der folgenden Tabelle werden die empfohlenen Einstellungen für IPsec-Ausnahmen erläutert.
 
@@ -67,139 +67,139 @@ In der folgenden Tabelle werden die empfohlenen Einstellungen für IPsec-Ausnahm
 <tbody>
 <tr class="odd">
 <td><p>A/V-Edgeserver, intern eingehend</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
 <td><p>A/V-Edgeserver, intern</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Beliebig </p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V-Edgeserver, extern eingehend</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
 <td><p>A/V-Edgeserver, extern</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Beliebig </p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V-Edgeserver, intern ausgehend</p></td>
 <td><p>A/V-Edgeserver, intern</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
 <td><p>UDP &amp; -TCP</p></td>
-<td><p>Beliebig </p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V-Edgeserver, extern ausgehend</p></td>
 <td><p>A/V-Edgeserver, extern</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Beliebig </p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="odd">
 <td><p>Vermittlungsserver, eingehend</p></td>
-<td><p>Beliebig</p></td>
-<td><p>Vermittlungs-</p>
-<p>server</p></td>
+<td><p>Any</p></td>
+<td><p>Vermittlungs</p>
+<p>Server (s)</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Beliebig </p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="even">
 <td><p>Vermittlungsserver, ausgehend</p></td>
-<td><p>Vermittlungs-</p>
-<p>server</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Vermittlungs</p>
+<p>Server (s)</p></td>
+<td><p>Any</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Beliebig </p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="odd">
 <td><p>Konferenzzentrale, eingehend</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
 <td><p>Front-End-Server, auf dem die Konferenzzentrale ausgeführt wird</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Beliebig </p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="even">
 <td><p>Konferenzzentrale (ausgehend)</p></td>
 <td><p>Front-End-Server, auf dem die Konferenzzentrale ausgeführt wird</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Beliebig </p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="odd">
 <td><p>A/V-Konferenzserver, eingehend</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
 <td><p>Front-End-Server</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Beliebig </p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="even">
 <td><p>A/V-Konferenzen, ausgehend</p></td>
 <td><p>Front-End-Server</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Beliebig </p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="odd">
 <td><p>Exchange, eingehend</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
 <td><p>Exchange Unified Messaging</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Beliebig </p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="even">
 <td><p>Anwendungsfreigabeserver, eingehend</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
 <td><p>Anwendungsfreigabeserver</p></td>
 <td><p>TCP</p></td>
-<td><p>Beliebig</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="odd">
 <td><p>Anwendungsfreigabeserver, ausgehend</p></td>
 <td><p>Anwendungsfreigabeserver</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
 <td><p>TCP</p></td>
-<td><p>Beliebig </p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="even">
 <td><p>Exchange, ausgehend</p></td>
 <td><p>Exchange Unified Messaging</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
 <td><p>UDP und TCP</p></td>
-<td><p>Beliebig </p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 <tr class="odd">
 <td><p>Clients</p></td>
-<td><p>Beliebig </p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
+<td><p>Any</p></td>
 <td><p>UDP</p></td>
 <td><p>Angegebener Medienportbereich</p></td>
-<td><p>Beliebig</p></td>
+<td><p>Any</p></td>
 <td><p>Nicht authentifizieren</p></td>
 </tr>
 </tbody>

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733805
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d87756c88866f6fb1c520afd7fe267cede692cf6
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: e6d0b1d9b523f8b9884a517b1b223c35112caa5f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738800"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006973"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-call-management-features-in-lync-server-2013"></a>Verwalten von Funktionen für die Anrufverwaltung in Lync Server 2013
+# <a name="managing-call-management-features-in-lync-server-2013"></a>Verwalten von anrufverwaltungsfunktionen in lync Server 2013
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41738800"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-12-18_
+_**Letztes Änderungsstand des Themas:** 2012-12-18_
 
-Enterprise-VoIP-anrufverwaltungsfunktionen steuern, wie eingehende Anrufe weitergeleitet und beantwortet werden. Lync Server 2013 bietet die folgenden anrufverwaltungsfunktionen:
+Enterprise-VoIP-anrufverwaltungsfunktionen steuern, wie eingehende Anrufe weitergeleitet und beantwortet werden. Lync Server 2013 bietet die folgenden Funktionen für die Anrufverwaltung:
 
-  - **Park anrufen:** Ermöglicht es sprach Benutzern, einen Anruf vorübergehend zu parken und ihn dann vom gleichen Telefon oder einem anderen Telefon aus abzuwählen.
+  - **Parken von anrufen:** Ermöglicht VoIP-Benutzern das vorübergehende Parken eines Anrufs und das anschließende abholen über dasselbe Telefon oder ein anderes Telefon.
 
-  - **Gruppen Abholung:** Ermöglicht Benutzern das annehmen von anrufen, die für andere Benutzer Klingeln, indem Sie eine Anruf-Abhol Gruppennummer wählen.
+  - **Gruppen Abholung:** Ermöglicht Benutzern das annehmen von anrufen, die für andere Benutzer Klingeln, indem Sie die Nummer einer Anrufannahme Gruppe wählen.
 
-  - **Reaktionsgruppe:** Leitet eingehende Anrufe an Gruppen von Agents weiter, indem Sie Sammelanschlüsse oder Fragen und Antworten zu Interaktionen (Interactive Voice Response) verwenden.
+  - **Reaktionsgruppe:** Leitet eingehende Anrufe an Gruppen von Agents mithilfe von Sammelanschlüssen oder interaktiven Sprachantwort-Fragen und-Antworten weiter.
 
-  - **Ankündigung:** Wiedergabe einer Nachricht für Anrufe an eine nicht zugewiesene Nummer oder Weiterleiten des Anrufs an einem anderen Ort oder in beiden Fällen.
+  - **Ansage:** Gibt eine Nachricht für Anrufe an, die an eine nicht zugewiesene Nummer gesendet werden, oder leitet den Anruf an einer anderen Stelle oder beides weiter.
 
-In diesem Abschnitt wird beschrieben, wie Sie diese Anruf Verwaltungsfeatures in Ihrer Enterprise-VoIP-Bereitstellung verwalten.
+In diesem Abschnitt wird beschrieben, wie Sie diese anrufverwaltungsfunktionen in Ihrer Enterprise-VoIP-Bereitstellung verwalten.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Verwalten des Anruf Parks in lync Server 2013](lync-server-2013-managing-call-park.md)
+  - [Verwalten des Parkens von Anrufen in lync Server 2013](lync-server-2013-managing-call-park.md)
 
-  - [Verwalten der Gruppenanruf Abholung in lync Server 2013](lync-server-2013-managing-group-call-pickup.md)
+  - [Verwalten der gruppenanrufannahme in lync Server 2013](lync-server-2013-managing-group-call-pickup.md)
 
   - [Verwalten von Reaktionsgruppen in lync Server 2013](lync-server-2013-managing-response-groups.md)
 

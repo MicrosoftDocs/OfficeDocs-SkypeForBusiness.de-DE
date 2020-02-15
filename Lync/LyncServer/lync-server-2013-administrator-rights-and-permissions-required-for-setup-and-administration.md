@@ -1,5 +1,5 @@
 ---
-title: Erforderliche Administratorrechte und Gruppenmitgliedschaften für die Installation und Verwaltung
+title: Für Setup und Verwaltung erforderliche Administrator Rechte und-Berechtigungen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185329
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca9fb6982a84ff70791fd4896ab92daf683b9864
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: bea99b254504907b429da831fa6b072b482b61b3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737835"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41998520"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="administrator-rights-and-permissions-required-for-setup-and-administration-of-lync-server-2013"></a>Erforderliche Administratorrechte und Gruppenmitgliedschaften für die Installation und Verwaltung von Lync Server 2013
+# <a name="administrator-rights-and-permissions-required-for-setup-and-administration-of-lync-server-2013"></a>Für die Einrichtung und Verwaltung von lync Server 2013 erforderliche Administrator Rechte und-Berechtigungen
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41737835"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-29_
+_**Letztes Änderungsstand des Themas:** 2012-06-29_
 
-Das Einrichten und Bereitstellen von lync Server 2013 erfordert, dass die Person, die die Software installiert und bereitstellt, Mitglied lokaler oder Domänen ebener Gruppen ist. Verwaltungstools für lync Server 2013 können zusätzliche Berechtigungen erfordern.
+Für die Einrichtung und Bereitstellung von lync Server 2013 muss die Person, die die Software installiert und bereitstellt, Mitglied der lokalen Gruppe oder Gruppen auf Domänenebene sein. Verwaltungstools für lync Server 2013 können zusätzliche Berechtigungen erfordern.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Erforderliche Gruppenmitgliedschaft für Lync Server 2013](lync-server-2013-group-membership-requirements.md)
+  - [Anforderungen an die Gruppenmitgliedschaft für lync Server 2013](lync-server-2013-group-membership-requirements.md)
 
-  - [Delegieren von Setupberechtigungen in Lync Server 2013](lync-server-2013-delegate-setup-permissions.md)
+  - [Delegieren von Setup Berechtigungen in lync Server 2013](lync-server-2013-delegate-setup-permissions.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e79732661152ba0929b62ae64f46b0cbfdb95217
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 50f296fbc333f5a9e7a140c9b9d8ed18725e69a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757239"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036635"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a>Anzeigen von Berichten von Best Practices Analyzer in lync Server 2013
+# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a>Anzeigen von Berichten aus Best Practices Analyzer in lync Server 2013
 
 </div>
 
@@ -35,57 +35,57 @@ ms.locfileid: "41757239"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Wenn Sie Best Practices Analyzer zum Überprüfen Ihrer Umgebung verwenden, geben Sie einen Namen für die Überprüfung an. Nachdem Best Practices Analyzer eine Überprüfung abgeschlossen hat, speichert Sie die Überprüfungsergebnisse in Berichten und speichert Sie unter dem Namen der Überprüfung. Nach Abschluss der Überprüfung können Sie die für diesen Scan generierten Berichte anzeigen, indem Sie direkt auf der Seite **Scannen abgeschlossen** auf **Bericht anzeigen dieser bewährten Methoden prüfen** klicken. Sie können die Berichte auch zu einem späteren Zeitpunkt über diesen Scan oder vorherige Scans anzeigen. Sie können Berichte auf dem lokalen Computer anzeigen, auf dem die Überprüfung ausgeführt wurde, die Überprüfungsergebnisse von einem anderen Computer importieren oder die Scanergebnisse exportieren, um die Berichte auf einem anderen Computer anzuzeigen, auf dem Best Practices Analyzer installiert ist.
+Wenn Sie Best Practices Analyzer zur Überprüfung Ihrer Umgebung verwenden, geben Sie einen Namen für die Überprüfung an. Nach Abschluss der Überprüfung speichert Best Practices Analyzer die Überprüfungsergebnisse in Berichten und speichert diese Berichte unter dem Namen der Überprüfung. Sobald die Überprüfung abgeschlossen ist, können Sie die erstellten Berichte anzeigen, indem Sie direkt auf der Seite **Überprüfung abgeschlossen** auf **Bericht für diese Bewährte Methoden-Überprüfung anzeigen** klicken. Sie können die Berichte für diese oder frühere Überprüfungen auch zu einem späteren Zeitpunkt anzeigen. Sie können die Berichte auf dem lokalen Computer anzeigen, auf dem die Überprüfung erfolgt ist, die Überprüfungsergebnisse von einem anderen Computer importieren oder die Überprüfungsergebnisse exportieren, um sie auf einem Computer anzuzeigen, auf dem Best Practices Analyzer installiert ist.
 
-Die Scan Ergebnisse werden in den folgenden Berichtstypen angezeigt:
+Die Überprüfungsergebnisse werden in den folgenden Arten von Berichten dargestellt:
 
-  - Listen Berichte
+  - Listenberichte
 
   - Strukturberichte
 
-  - Andere Berichte
+  - Sonstige Berichte
 
-Diese Berichte umfassen Fehler, Warnungen und weitere Informationen. Ausführliche Informationen zu jedem dieser Arten von Berichten und Problemen finden Sie unter [Grundlegendes zu berichten, die von Best Practices Analyzer in lync Server 2013 erstellt wurden](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md).
+Diese Berichte umfassen Fehler, Warnungen und andere Informationen. Ausführliche Informationen zu diesen Arten von Berichten und Problemen finden Sie unter [Understanding Reports by Best Practices Analyzer created in lync Server 2013](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md).
 
-Gehen Sie wie folgt vor, um die zuvor von Best Practices Analyzer generierten Scanergebnisse anzuzeigen.
+Verwenden Sie das folgende Verfahren, um die Überprüfungsergebnisse anzuzeigen, die zuvor mit Best Practices Analyzer erstellt wurden.
 
 <div>
 
-## <a name="to-view-reports-from-a-previous-scan"></a>So zeigen Sie Berichte aus einer vorherigen Überprüfung an
+## <a name="to-view-reports-from-a-previous-scan"></a>So zeigen Sie Berichte aus einer früheren Überprüfung an
 
-1.  Melden Sie sich bei einem Computer an, auf dem Best Practices Analyzer installiert ist, und verwenden Sie ein Konto, das Mitglied des lokalen Benutzerkontos ist.
+1.  Melden Sie sich auf einem Computer an, auf dem Best Practices Analyzer installiert ist. Verwenden Sie dabei ein Konto, das Mitglied des Kontos für lokale Benutzer ist.
     
     > [!NOTE]  
-    > Sie können die Ergebnisse eines Scans mit einem Konto anzeigen, das Mitglied der lokalen Gruppe Administratoren ist, aber Sie können nur dann einen Scan ausführen, wenn Sie über die entsprechenden Benutzerrechte und Berechtigungen verfügen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Gruppenmitgliedschaften und Benutzerrechte Anforderungen für Best Practices Analyzer in lync Server 2013</A>.
+    > Sie können zwar die Ergebnisse einer Überprüfung anzeigen, wenn Sie ein Konto verwenden, das Mitglied der lokalen Administratorengruppe ist; Sie können jedoch nur eine Überprüfung ausführen, wenn Sie über die erforderlichen Benutzerrechte und Berechtigungen verfügen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Gruppenmitgliedschaften und Benutzerrechte Anforderungen für Best Practices Analyzer in lync Server 2013</A>.
 
-2.  Klicken Sie auf **Start**, zeigen Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **Best Practices Analyzer**.
+2.  Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **Best Practices Analyzer**.
 
-3.  Klicken Sie auf der **Willkommens** Seite auf **die anzuzeigenden Scanergebnisse auswählen**.
+3.  Klicken Sie im Willkommensbildschirm**** auf **Anzuzeigende Überprüfungsergebnisse auswählen**.
 
-4.  Führen Sie auf der Seite **Wählen Sie eine bewährte Vorgehensweise für die Anzeige aus** , eine der folgenden Aktionen aus:
+4.  Führen Sie auf der Seite **Bewährte Methoden-Überprüfung zum Anzeigen auswählen** einen der folgenden Schritte aus:
     
-      - Wenn Sie Berichte aus der Liste der lokal gespeicherten Scanergebnisse anzeigen möchten, klicken Sie auf den Namen des Scans, und klicken Sie dann auf **Bericht dieser Überprüfung anzeigen**.
+      - Wenn Sie Berichte aus der Liste der lokal gespeicherten Überprüfungsergebnisse anzeigen möchten, klicken Sie auf den Namen der Überprüfung, und klicken Sie dann auf **Bericht für diese Überprüfung anzeigen**.
         
         > [!NOTE]  
-        > Der Best Practices Analyzer erstellt die Liste der lokalen Dateien aus dem &lt;Ordner&gt;\\System Drive Dokumente\\&lt;und&gt;Einstellungen Benutzer-Data\Microsoft\RtcBPA.
+        > Der Best Practices Analyzer erstellt die Liste der lokalen Dateien aus dem &lt;Ordner&gt;\\System Drive Dokumente\\&lt;und&gt;Einstellungen Benutzer Data\Microsoft\RtcBPA.
     
-      - Wenn Sie Berichte zu den Ergebnissen eines Scans anzeigen möchten, die an einem anderen Speicherort gespeichert sind, klicken Sie auf **Scan importieren**, suchen Sie die Datei, die die Überprüfungsergebnisse enthält, und klicken Sie dann auf **Öffnen**.
+      - Wenn Sie Berichte zu Ergebnissen einer Überprüfung anzeigen möchten, die sich an einem anderen Speicherort befinden, klicken Sie auf **Überprüfung importieren**, suchen Sie nach der Datei, in der die Überprüfungsergebnisse enthalten sind, und klicken Sie dann auf **Öffnen**.
         
         > [!NOTE]  
-        > Wenn die Version von Best Practices Analyzer auf diesem Computer nicht mit der Version übereinstimmt, die zum Sammeln der Daten in der importierten Datei verwendet wurde, analysiert das Tool auf Ihrem Computer die Datei möglicherweise erneut, nachdem Sie importiert wurde.
+        > Wenn die Version von Best Practices Analyzer auf diesem Computer nicht mit der Version übereinstimmt, die verwendet wurde, um die Daten in der importierten Datei zu erfassen, wird die Datei von dem Tool auf Ihrem Computer möglicherweise nach dem Import erneut analysiert.
 
-5.  Führen Sie auf der Seite " **Best Practices-Bericht anzeigen** " eine der folgenden Aktionen aus:
+5.  Führen Sie auf der Seite **Bewährte Methoden-Bericht anzeigen** einen der folgenden Schritte aus:
     
-      - Klicken Sie auf **Listen Berichte**, und klicken Sie dann entweder auf die Registerkarte **alle Probleme** oder auf die Registerkarte **Informationselemente** , um Berichte in einer nach Serverkomponente organisierten Liste anzuzeigen.
+      - Wenn Sie Berichte in einer Liste anzeigen möchten, die nach Serverkomponenten angeordnet ist, klicken Sie auf **Berichte auflisten**, und klicken Sie dann entweder auf die Registerkarte **Alle Probleme** oder auf **Informationselemente**.
     
-      - Klicken Sie auf **Strukturberichte**, und klicken Sie dann entweder auf die Registerkarte **detaillierte Ansicht** oder auf die Registerkarte **Zusammenfassungsansicht** , um Berichte als hierarchische Liste anzuzeigen, die nach Arten von Ergebnissen sortiert ist.
+      - Wenn Sie Berichte als hierarchische Liste anzeigen möchten, die nach Ergebnistypen angeordnet ist, klicken Sie auf **Strukturberichte**, und klicken Sie dann entweder auf die Registerkarte **Detaillierte Ansicht** oder auf **Zusammenfassungsansicht**.
     
-      - Wenn Sie andere Berichte anzeigen möchten, klicken Sie auf **Weitere Berichte**.
+      - Wenn Sie sonstige Berichte anzeigen möchten, klicken Sie auf **Sonstige Berichte**.
     
     > [!NOTE]  
-    > Details zu den Berichten zu Best Practices Analyzer und den von Ihnen identifizierten Problemen finden Sie unter <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">anzeigen und arbeiten mit Berichten, die von Best Practices Analyzer in lync Server 2013 erstellt wurden</A> , und <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">analysieren und Beheben von Problemen, die von Best Practices Analyzer in lync Server 2013 identifiziert</A>werden.
+    > Ausführliche Informationen zu den Best Practices Analyzer-Berichten und den identifizierten Problemen finden Sie unter <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">anzeigen und arbeiten mit Berichten, die von Best Practices Analyzer erstellt wurden, in lync Server 2013</A> und <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">analysieren und Beheben von Problemen, die von Best Practices Analyzer in lync Server 2013 identifiziert</A>wurden.
 
 </div>
 

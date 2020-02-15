@@ -12,16 +12,16 @@ ms:contentKeyID: 48184702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2396cb1a157b88d8beb9458006c1c8a44874dba3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a672eea92c820970b3cc4cc1c112c15fcffd641
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744575"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033794"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41744575"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-18_
+_**Letztes Änderungsstand des Themas:** 2013-02-18_
 
-Die in Microsoft lync Server 2013 enthaltenen Cmdlets für die Benutzerverwaltung ermöglichen es Ihnen, lync Server-Benutzerkonten zu aktivieren, zu deaktivieren und zu ändern.
+Mit den in Microsoft lync Server 2013 enthaltenen Cmdlets für die Benutzerverwaltung können Sie lync Server Benutzerkonten aktivieren, deaktivieren und ändern.
 
 <div>
 
 ## <a name="user-management-cmdlets"></a>Cmdlets für die Benutzerverwaltung
 
-Die meisten Verwaltungsaufgaben, die für Benutzer und Benutzerkonten gelten, können über die lync Server-Systemsteuerung ausgeführt werden. Die wichtigsten Ausnahmen sind die Cmdlets, die sich mit Audiokonferenz-Anbietern befassen. Benutzer Verwaltungsaufgaben können mithilfe von Cmdlets aus der lync Server-Verwaltungsshell oder in einem Skript ausgeführt werden. Mithilfe eines Skripts können Sie bestimmte Aufgaben automatisieren. Die folgende Liste enthält Cmdlets, die sich direkt auf die Verwaltung von Benutzern und Benutzerkonten beziehen:
+Die meisten Verwaltungsaufgaben, die für Benutzer und Benutzerkonten gelten, können in der lync Server-Systemsteuerung ausgeführt werden. Eine Ausnahme bilden die Cmdlets zum Konfigurieren von Audiokonferenzanbietern. Benutzerverwaltungsaufgaben können mit Cmdlets aus dem lync Server-Verwaltungsshell oder in einem Skript ausgeführt werden. Durch die Verwendung eines Skripts können bestimmte Aufgaben automatisiert werden. In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Verwaltung von Benutzern und Benutzerkonten eingesetzt werden:
 
   - <span></span>  
     [Get-CsAdContact](https://docs.microsoft.com/powershell/module/skype/Get-CsAdContact)
@@ -55,7 +55,7 @@ Die meisten Verwaltungsaufgaben, die für Benutzer und Benutzerkonten gelten, k�
 
 <!-- end list -->
 
-  - [Get-CsClientAccessLicense](https://docs.microsoft.com/powershell/module/skype/Get-CsClientAccessLicense)
+  - [Get-csclientaccesslicense abrufen](https://docs.microsoft.com/powershell/module/skype/Get-CsClientAccessLicense)
 
 <!-- end list -->
 
@@ -74,7 +74,7 @@ Die meisten Verwaltungsaufgaben, die für Benutzer und Benutzerkonten gelten, k�
 <!-- end list -->
 
   - <span></span>  
-    [Deaktivieren-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)
+    [Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)
 
   - <span></span>  
     [Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)
@@ -83,10 +83,10 @@ Die meisten Verwaltungsaufgaben, die für Benutzer und Benutzerkonten gelten, k�
     [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser)
 
   - <span></span>  
-    [Verschieben-CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)
+    [CsUser](https://docs.microsoft.com/powershell/module/skype/Move-CsUser)
 
   - <span></span>  
-    [Satz-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser)
+    [Gruppe-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser)
 
 <!-- end list -->
 
@@ -97,7 +97,7 @@ Die meisten Verwaltungsaufgaben, die für Benutzer und Benutzerkonten gelten, k�
     [Remove-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Remove-CsUserAcp)
 
   - <span></span>  
-    [Set-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Set-CsUserAcp)
+    [Gruppe-CsUserAcp](https://docs.microsoft.com/powershell/module/skype/Set-CsUserAcp)
 
   - <span></span>  
     [Test-CsAudioConferencingProvider](https://docs.microsoft.com/powershell/module/skype/Test-CsAudioConferencingProvider)
@@ -109,15 +109,15 @@ Die meisten Verwaltungsaufgaben, die für Benutzer und Benutzerkonten gelten, k�
 
 <!-- end list -->
 
-  - [Get-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsUserServicesPolicy)
+  - [Get-csuserservicespolicy "](https://docs.microsoft.com/powershell/module/skype/Get-CsUserServicesPolicy)
 
-  - [Grant-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsUserServicesPolicy)
+  - [Grant-csuserservicespolicy "](https://docs.microsoft.com/powershell/module/skype/Grant-CsUserServicesPolicy)
 
-  - [New-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsUserServicesPolicy)
+  - [New-csuserservicespolicy "](https://docs.microsoft.com/powershell/module/skype/New-CsUserServicesPolicy)
 
-  - [Remove-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsUserServicesPolicy)
+  - [Remove-csuserservicespolicy "](https://docs.microsoft.com/powershell/module/skype/Remove-CsUserServicesPolicy)
 
-  - [Set-CsUserServicesPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsUserServicesPolicy)
+  - [Gruppe-csuserservicespolicy "](https://docs.microsoft.com/powershell/module/skype/Set-CsUserServicesPolicy)
 
 </div>
 

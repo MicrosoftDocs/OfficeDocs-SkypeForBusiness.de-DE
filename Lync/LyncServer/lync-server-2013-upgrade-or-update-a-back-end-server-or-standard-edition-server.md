@@ -1,5 +1,5 @@
 ---
-title: Aktualisieren oder Aktualisieren eines Back-End-Servers oder Standard Edition-Servers
+title: Aktualisieren oder Aktualisieren eines Back-End-Servers oder Standard Edition-Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0526cc7ba6a6abefd066bf07d845ffed3a4107ca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 213a945d27c2c5d0ee2135fd0d96bbe1c29c1971
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744665"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42015358"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a>Aktualisieren oder Aktualisieren eines Back-End-Servers oder Standard Edition-Servers in lync Server 2013
+# <a name="upgrade-or-update-a-back-end-server-or-standard-edition-server-in-lync-server-2013"></a>Aktualisieren oder Aktualisieren eines Back-End-Servers oder Standard Edition-Server in lync Server 2013
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "41744665"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
 In diesem Thema wird erläutert, wie Sie ein Update auf einem Enterprise Edition-Back-End-Server oder einem Standard Edition-Server installieren.
 
-Wenn ein Back-End-Server während eines Upgrades für mindestens 30 Minuten nicht mehr zur Verfügung steht, können Benutzer dann in den Widerstands Modus wechseln. Wenn die Aktualisierung abgeschlossen ist und die Back-End-Server wieder mit den Front-End-Servern im Pool verbunden sind, werden die Benutzer an die vollständige Funktionalität zurückgegeben. Wenn das Upgrade weniger als 30 Minuten dauert, sind die Benutzer davon nicht betroffen.
+Wenn ein Back-End-Server während des Upgrades mindestens 30 Minuten lang ausfällt, können Benutzer in den Ausfall Sicherheitsmodus wechseln. Wenn das Upgrade abgeschlossen ist und die Back-End-Server erneut mit den Front-End-Servern im Pool verbunden sind, werden die Benutzer an die vollständige Funktionalität zurückgegeben. Wenn das Upgrade weniger als 30 Minuten dauern kann, sind die Benutzer nicht betroffen.
 
 <div>
 
-## <a name="to-update-a-back-end-server-or-standard-edition-server"></a>Back-End-Server oder Standard Edition-Server aktualisieren
+## <a name="to-update-a-back-end-server-or-standard-edition-server"></a>So aktualisieren Sie einen Back-End-Server oder Standard Edition-Server
 
-1.  Melden Sie sich am Server, für den Sie das Upgrade vornehmen, als Mitglied der Rolle CsAdministrator an.
+1.  Melden Sie sich am Server, für den Sie das Upgrade vornehmen, als Mitglied der Rolle "CsAdministrator" an.
 
-2.  Laden Sie das Update herunter und extrahieren Sie es auf die lokale Festplatte.
+2.  Laden Sie das Update herunter, und extrahieren Sie es auf die lokale Festplatte.
 
-3.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+3.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-4.  Beenden Sie lync Server-Dienste. Geben Sie in der Befehlszeile Folgendes ein:
+4.  Beenden Sie lync Server Dienste. Geben Sie in die Befehlszeile Folgendes ein:
     
         Stop-CsWindowsService
 
-5.  Beenden Sie den WWW-Dienst (World Wide Web). Geben Sie in der Befehlszeile Folgendes ein:
+5.  Beenden Sie den WWW-Dienst (World Wide Web). Geben Sie in die Befehlszeile Folgendes ein:
     
         net stop w3svc
 
-6.  Schließen Sie alle Fenster der lync Server-Verwaltungsshell.
+6.  Schließen Sie alle lync Server-Verwaltungsshell Fenster.
 
 7.  Installieren Sie das Update.
 
-8.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+8.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-9.  Beenden Sie lync Server Services erneut, um globalen Assemblycache (GAC) – d-Assemblys abzufangen. Geben Sie in der Befehlszeile Folgendes ein:
+9.  Beenden Sie lync Server Dienste erneut, um den globalen Assemblycache (GAC) – d-Assemblys zu erfassen. Geben Sie an der Eingabeaufforderung Folgendes ein:
     
         Stop-CsWindowsService
 
-10. Starten Sie den WWW-Dienst neu. Geben Sie in der Befehlszeile Folgendes ein:
+10. Starten Sie den WWW-Dienst neu. Geben Sie an der Befehlszeile Folgendes ein:
     
         net start w3svc
 
-11. Wenden Sie die von LyncServerUpdateInstaller. exe vorgenommenen Änderungen auf die SQL Server-Datenbanken an, indem Sie eine der folgenden Aktionen ausführen:
+11. Übernehmen Sie die mit "LyncServerUpdateInstaller.exe" vorgenommenen Änderungen für die SQL Server-Datenbanken, indem Sie einen der folgenden Schritte ausführen:
     
-      - Wenn dies ein Enterprise Edition-Back-End-Server ist und auf diesem Server keine zusammengefassten Datenbanken wie Archivierungs-oder Überwachungsdatenbanken vorhanden sind, geben Sie Folgendes an einer Befehlszeile ein:
+      - Wenn es sich um einen Enterprise Edition-Back-End-Server handelt und keine zusammengefassten Datenbanken auf diesem Server vorhanden sind, wie etwa Archivierungs-oder Überwachungsdatenbanken, geben Sie Folgendes an einer Befehlszeile ein:
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>
     
@@ -83,7 +83,7 @@ Wenn ein Back-End-Server während eines Upgrades für mindestens 30 Minuten nich
         
             Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     
-      - Wenn es sich um einen Standard Edition-Server handelt, geben Sie Folgendes an einer Befehlszeile ein:
+      - Wenn es sich um eine Standard Edition-Server handelt, geben Sie Folgendes an einer Befehlszeile ein:
         
             Install-CsDatabase -Update -LocalDatabases
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verwalten von reaktionsgruppenworkflows'
+title: 'Lync Server 2013: Verwalten von Workflows für Reaktionsgruppen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183974
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 489ad3b47b1502c210fc3f66fea3ed751b4f58a2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a01005e9c6d78f521c3987bb36813e2d7eadb11
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765586"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991980"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-group-workflows-in-lync-server-2013"></a>Verwalten von reaktionsgruppenworkflows in lync Server 2013
+# <a name="managing-response-group-workflows-in-lync-server-2013"></a>Verwalten von Workflows für Reaktionsgruppen in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41765586"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
-Ein Workflow der Reaktionsgruppe definiert das Verhalten eines Anrufs ab dem Zeitpunkt, zu dem das Telefon klingelt, bis zu dem Zeitpunkt, zu dem ein Agent den Anruf annimmt. Der Workflow umfasst Warteschlangen-und Routinginformationen und enthält Informationen zu den Gruppen "Hunt Group" oder "Interactive Voice Response (IVR)".
+Ein Workflow für Reaktionsgruppen definiert das Verhalten eines Anrufs ab dem Zeitpunkt, zu dem das Telefon klingelt, bis zu dem Zeitpunkt, zu dem ein Agent den Anruf beantwortet. Der Workflow umfasst Warteschleifen- und Routinginformationen sowie Informationen zu entweder Sammelanschlüssen oder interaktiver Sprachantwort (Interactive Voice Response, IVR).
 
-In den Themen in diesem Abschnitt werden bewährte Methoden für das Entwerfen von IVR-Workflows erläutert, und es wird erläutert, wie benutzerdefinierte Geschäftszeiten und Feiertagssätze erstellt, wie Workflows erstellt oder geändert und Arbeitsgruppen gelöscht werden.
+Die Themen in diesem Abschnitt bieten bewährte Methoden für den Entwurf von IVR-Workflows und erläutern, wie benutzerdefinierte Geschäftszeiten und Feiertagssätze erstellt, Workflows erstellt und geändert und Arbeitsgruppen gelöscht werden.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Entwerfen von Anrufflüssen für interaktive Sprachantwort in Lync Server 2013](lync-server-2013-design-interactive-voice-response-call-flows.md)
+  - [Entwerfen von interaktiven Anrufflüssen für Sprachantworten in lync Server 2013](lync-server-2013-design-interactive-voice-response-call-flows.md)
 
-  - [Optional Definieren der Geschäftszeiten der Reaktionsgruppe in lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)
+  - [Optional Definieren von Geschäftszeiten für Reaktionsgruppen in lync Server 2013](lync-server-2013-optional-define-response-group-business-hours.md)
 
   - [Optional Definieren von Feiertagssätzen für Reaktionsgruppen in lync Server 2013](lync-server-2013-optional-define-response-group-holiday-sets.md)
 

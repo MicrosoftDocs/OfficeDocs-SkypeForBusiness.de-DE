@@ -12,20 +12,20 @@ ms:contentKeyID: 49733728
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a81b46d7bbc3c0652d2352577c11877c44b36608
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3b3ea06d440f8255b9bd2234966733d990fa3040
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729455"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42013468"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploying-conferencing-in-lync-server-2013"></a>Bereitstellen von Konferenzen in Lync Server 2013
+# <a name="deploying-conferencing-in-lync-server-2013"></a>Bereitstellen von Konferenzen in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41729455"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-27_
+_**Letztes Änderungsstand des Themas:** 2012-09-27_
 
-In diesem Abschnitt wird beschrieben, wie Sie Dial in Conferencing und Office Web Apps Server einrichten.
+In diesem Abschnitt wird beschrieben, wie Einwahlkonferenzen und der Office Web Apps Server eingerichet werden.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Konfigurieren von Einwahlkonferenzen in Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
+  - [Konfigurieren von Einwahlkonferenzen in lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
 
-  - [Konfigurieren der Integration mit Office Web Apps Server und Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
+  - [Konfigurieren der Integration mit Office-webapps Server und lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md)
 
-  - [Konfigurieren der Seite für den Besprechungsbeitritt in Lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md)
+  - [Konfigurieren der Seite für den besprechungsbeitritt in lync Server 2013](lync-server-2013-configuring-the-meeting-join-page.md)
 
 </div>
 

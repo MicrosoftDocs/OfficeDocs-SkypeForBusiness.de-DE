@@ -1,5 +1,5 @@
 ---
-title: Umstieg auf einen bereitstehenden Vermittlungsserver zu einem eigenständigen Vermittlungsserver (optional)
+title: Übergang einer verbundenen Vermittlungsserver zu einem eigenständigen Vermittlungsserver (optional)
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c6a76bceb935900521859911ce5398ae2213e22
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 6fe982dca1c1cfda341bd3226b57e7793a948fb7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41738665"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional"></a>Umstieg auf einen bereitstehenden Vermittlungsserver zu einem eigenständigen Vermittlungsserver (optional)
+# <a name="transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server-optional"></a>Übergang einer verbundenen Vermittlungsserver zu einem eigenständigen Vermittlungsserver (optional)
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "41738665"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-Führen Sie das folgende Verfahren aus, um den Vermittlungsserver, der sich auf dem Standard Edition-Server oder-Front-End-Pool befindet, zu einem eigenständigen Vermittlungsserver für eine Bereitstellung mit einem einzelnen Standort zu wechseln.
+Führen Sie das folgende Verfahren aus, um einen Vermittlungsserver, der mit einem Standard Edition-Server oder Front-End-Pool verbunden ist, auf einen eigenständigen Vermittlungsserver für eine Bereitstellung mit einem einzigen Standort umzustellen.
 
 <div>
 
-## <a name="to-transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server"></a>So wechseln Sie einen kombinierten Vermittlungsserver zu einem eigenständigen Vermittlungsserver
+## <a name="to-transition-a-collocated-mediation-server-to-a-stand-alone-mediation-server"></a>So stellen Sie einen verbundenen Vermittlungsserver auf einen eigenständigen Vermittlungsserver um
 
-1.  Öffnen Sie eine vorhandene Topologie aus dem Topologie-Generator.
+1.  Öffen Sie über den Topologie-Generator eine vorhandene Topologie.
 
-2.  Navigieren Sie im linken Bereich zu **Mediations Pools**.
+2.  Navigieren Sie im linken Bereich zu **Vermittlungspools**.
 
-3.  Klicken Sie mit der rechten Maustaste auf **Mediation Pools** , und wählen Sie **neuer Vermittlungs Server**aus.
+3.  Klicken Sie mit der rechten Maustaste auf **Vermittungspools**, und klicken Sie dann auf **Neuer Vermittlungsserver**.
 
-4.  Geben Sie auf der Seite **neuen Mediations Pool definieren** den FQDN des neuen Vermittlungs Server Pools an. Wählen Sie außerdem aus, ob dieser Pool ein Einzelserver-oder ein Pool mit mehreren Servern sein soll, und klicken Sie dann auf **weiter**.
+4.  Geben Sie auf der Seite **Neuen Vermittlungspool definieren** den vollqualifizierten Domänennamen (FQDN) des neuen Vermittlungsserverpools ein. Geben Sie außerdem an, ob dieser Pool einen einzelnen oder mehrere Server enthalten soll, und klicken Sie dann auf **Weiter**.
 
-5.  Wählen Sie den Front-End-Serverpool des nächsten Hop aus, an den der neue Vermittlungsserver eingehende Anrufe weiterleiten soll, und klicken Sie dann auf **weiter**.
+5.  Wählen Sie den nächsten Front-End-Server-Hoppool aus, an den der neue Vermittlungsserver eingehende Anrufe weiterleiten soll, und klicken Sie auf **Weiter**.
 
-6.  Wählen Sie den von dem Vermittlungs Server zu verwendenden Edge-Pool aus, und klicken Sie auf **weiter**.
+6.  Wählen Sie den Edgepool aus, der von dem neuen Vermittlungsserver verwendet werden soll, und klicken Sie auf **Weiter**.
 
-7.  Ordnen Sie auf der Seite **PSTN-Gateways angeben** das vorherige PSTN-Gateway dem Vermittlungs Server zu. Wählen Sie das Gateway aus, und klicken Sie dann auf **Hinzufügen**.
+7.  Ordnen Sie auf der Seite **PSTN-Gateways angeben** das vorherige PSTN-Gateway dem Vermittlungsserver zu. Wählen Sie das Gateway aus, und klicken Sie dann auf **Hinzufügen**.
 
-8.  Klicken Sie auf **Fertig stellen** , um den Assistenten zum **Definieren eines neuen Mediations Pools** zu schließen.
+8.  Klicken Sie auf **Fertig stellen**, um den Assistenten zum Definieren eines neuen Vermittlungspools **** zu schließen.
 
 9.  Wählen Sie im **Topologie-Generator**den obersten Knoten **lync Server 2013**aus.
 
-10. Wählen Sie im Bereich **Aktionen** die Option **Topologie veröffentlichen** aus, und schließen Sie den Assistenten ab.
+10. Klicken Sie im Bereich **Aktionen** auf **Topologie veröffentlichen**, und schließen Sie den Assistenten ab.
 
-11. Führen Sie die Schritte unter [Installieren des Servers für Mediations Dateien in lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) in der Bereitstellungsdokumentation aus, um die Dateien auf dem neuen Vermittlungsserver zu installieren.
+11. Führen Sie die Schritte unter [Installieren der Dateien für Vermittlungsserver in lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md) in der Bereitstellungsdokumentation aus, um die Dateien auf dem neuen Vermittlungsserver zu installieren.
 
-12. Nachdem die Dateien auf dem Vermittlungs Server installiert wurden, kehren Sie zu Topology Builder zurück, und navigieren Sie im linken Bereich zum Pool.
+12. Nachdem die Dateien auf dem Vermittlungsserver installiert worden sind, kehren Sie zum Topologie-Generator zurück, und navigieren Sie im linken Bereich zu dem Pool.
 
-13. Klicken Sie mit der rechten Maustaste auf den Pool, und wählen Sie **Eigenschaften bearbeiten**aus.
+13. Klicken Sie mit der rechten Maustaste auf den Pool, und klicken Sie dann auf **Eigenschaften bearbeiten**.
 
-14. Deaktivieren Sie unter **Mediation Server**das Kontrollkästchen für **Mediation Server aktiviert** , und klicken Sie dann auf **OK**.
+14. Deaktivieren Sie unter **Vermittlungsserver** das Kontrollkästchen **Verbundener Vermittlungsserver aktiviert**, und klicken Sie dann auf **OK**.
 
 15. Wählen Sie im **Topologie-Generator**den obersten Knoten **lync Server 2013**aus.
 
-16. Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen** aus, und schließen Sie den Assistenten ab.
+16. Wählen Sie im Menü **Aktion****Topologie veröffentlichen** aus, und schließen Sie den Assistenten ab.
 
 </div>
 

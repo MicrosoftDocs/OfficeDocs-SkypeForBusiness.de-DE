@@ -1,5 +1,5 @@
 ---
-title: Erstellen eines neuen URL-Filters zur Behandlung von Links in Chat Unterhaltungen
+title: Erstellen eines neuen URL-Filters zur Behandlung von Hyperlinks in Chat Unterhaltungen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48185426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7f6cd39034dbc3114f5b89fb15d252b71149762
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88aa97d270448208170e463370774e6279ea9bf9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740385"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034887"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,31 +35,31 @@ ms.locfileid: "41740385"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-26_
+_**Letztes Änderungsstand des Themas:** 2012-09-26_
 
-Zusätzlich zum Ändern des globalen URL-Filters können Sie benutzerdefinierte URL-Filter für einzelne Websites in ihrer lync Server 2013-Bereitstellung konfigurieren. Details zur URL-Filterung finden Sie unter [Konfigurieren der Dateiübertragung und der URL-Filterung für Chatnachrichten in lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
+Zusätzlich zum Ändern des globalen URL-Filters können Sie benutzerdefinierte URL-Filter für einzelne Websites in ihrer lync Server 2013-Bereitstellung konfigurieren. Ausführliche Informationen zur URL-Filterung finden Sie unter [Configuring File Transfer and URL Filtering for Instant Messaging (Sofortnachrichten) in lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
 
 <div>
 
 ## <a name="to-create-a-new-url-filter"></a>So erstellen Sie einen neuen URL-Filter
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Chat und Anwesenheit**, und klicken Sie dann auf **URL-Filter**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Chat und Anwesenheit** und dann auf **URL-Filter**.
 
-4.  Klicken Sie auf der Seite **URL-Filter** auf **neu**.
+4.  Klicken Sie auf der Seite **URL-Filter** auf **Neu**.
 
-5.  Klicken Sie unter **Website auswählen**auf die Website, für die Sie den URL-Filter erstellen möchten, und klicken Sie dann auf **OK**.
+5.  Klicken Sie im Dialogfeld **Standort auswählen** auf den Standort, für den Sie den URL-Filter erstellen möchten, und klicken Sie anschließend auf **OK**.
 
-6.  Aktivieren Sie im Dialogfeld **neuer URL-Filter** das Kontrollkästchen **URL-Filter aktivieren** , um die URL-Filterung für die Website zu aktivieren.
+6.  Aktivieren Sie im Dialogfeld **Neuer URL-Filter** das Kontrollkästchen **URL-Filter aktivieren**, um die URL-Filterung für den Standort zu aktivieren.
 
-7.  Aktivieren Sie das Kontrollkästchen **URLs mit Dateierweiterung blockieren** , um alle aktiven URLs zu blockieren, die eine Datei mit einer Erweiterung enthalten, die unter **Dateityperweiterungen zum Blockieren** in **Datei Filter bearbeiten**aufgeführt ist.
+7.  Wenn Sie alle aktiven URLs blockieren möchten, die eine Datei mit einer der unter **Dateityperweiterungen, die blockiert werden sollen** aufgeführten Erweiterungen enthalten, aktivieren Sie im Abschnitt **Dateifilter bearbeiten** das Kontrollkästchen **URLs mit Dateierweiterung blockieren**.
 
-8.  Klicken Sie im Dropdown-Listenfeld **Link-Präfix** auf die Option, die dem entspricht, wie URLs in Chat Unterhaltungen behandelt werden sollen.
+8.  Klicken Sie im Dropdown-Listenfeld **Linkpräfix** auf die gewünschte Option zur Verarbeitung von URLs in Sofortnachrichtenunterhaltungen.
     
-    Im Dialogfeld " **zulassen** " können Sie beim Senden von Links, die gesendet werden dürfen, eine Warnmeldung an den Benutzer senden.
+    Über die Option **Nachricht zulassen** wird dem Benutzer beim Senden eines zulässigen Links eine Warnmeldung angezeigt.
 
 9.  Klicken Sie auf **Commit ausführen**.
 
@@ -71,11 +71,11 @@ Zusätzlich zum Ändern des globalen URL-Filters können Sie benutzerdefinierte 
 
 
 [Konfigurieren der Dateiübertragung und der URL-Filterung für Chatnachrichten in lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
-[Erstellen eines neuen dateiübertragungsfilters in lync Server 2013 für eine bestimmte Website](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
+[Erstellen eines neuen dateiübertragungsfilters in lync Server 2013 für einen bestimmten Standort](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
 [Ändern des standardmäßigen dateiübertragungsfilters in lync Server 2013](lync-server-2013-modify-the-default-file-transfer-filter.md)  
 
 
-[Ändern des Standard-URL-Filters in lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)  
+[Ändern des standardmäßigen URL-Filters in lync Server 2013](lync-server-2013-modify-the-default-url-filter.md)  
   
 
 </div>

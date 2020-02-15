@@ -12,20 +12,20 @@ ms:contentKeyID: 48183389
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1021295b375e4f28294ffb1ca5738d651f9ced2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 123535ae3e14669e343c881869304e95ce666040
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734585"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41996180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-trunks-in-lync-server-2013"></a>Konfigurieren von Trunks in Lync Server 2013
+# <a name="configuring-trunks-in-lync-server-2013"></a>Konfigurieren von Trunks in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41734585"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Im Rahmen der Enterprise-VoIP-Bereitstellung können Sie einen trunk zwischen einem Vermittlungs Server und einem oder mehreren der folgenden Peers konfigurieren, um die PSTN-Konnektivität (Public Switched Telephone Network) für Enterprise-VoIP-Clients und-Geräte in Ihrer Organisation bereitzustellen:
+Im Rahmen der Enterprise-VoIP-Bereitstellung können Sie einen trunk zwischen einem Vermittlungsserver und einem oder mehreren der folgenden Peers konfigurieren, um eine PSTN-Konnektivität (Public Switched Telephone Network) für Enterprise-VoIP-Clients und-Geräte in Ihrer Organisation bereitzustellen:
 
   - SIP-Trunkverbindung mit einem Anbieter von Internettelefoniediensten
 
@@ -45,13 +45,13 @@ Im Rahmen der Enterprise-VoIP-Bereitstellung können Sie einen trunk zwischen ei
 
   - Nebenstellenanlage (Private Branch Exchange, PBX)
 
-Ausführliche Informationen finden Sie unter [Planen der PSTN-Konnektivität in lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) in der Planungsdokumentation.
+Ausführliche Informationen finden Sie unter [Planning for PSTN Connectivity in lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) in der Planungsdokumentation.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Bevor Sie die trunk-Konfiguration beginnen, stellen Sie sicher, dass die Topologie erstellt wurde und dass der Vermittlungs Server und sein Peer konfiguriert und miteinander verknüpft wurden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">Definieren eines Gateways im Topologie-Generator in lync Server 2013</A> in der Bereitstellungsdokumentation.
+> Bevor Sie mit der Trunkkonfiguration beginnen, überprüfen Sie, ob die Topologie erstellt und der Vermittlungsserver und der Peer konfiguriert und einander zugeordnet wurden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">define a Gateway in Topology Builder in lync Server 2013</A> in der Bereitstellungsdokumentation.
 
 
 
@@ -61,7 +61,7 @@ Ausführliche Informationen finden Sie unter [Planen der PSTN-Konnektivität in 
 
 
 > [!NOTE]  
-> Als Teil der trunk-Konfiguration können Sie das lync Server 2013-Feature für die medienumgehung aktivieren, mit dem Medien den Vermittlungs Server umgehen können. Trunks kann entweder mit oder ohne aktivierte medienumgehung konfiguriert werden, wir empfehlen jedoch dringend, diese zu aktivieren. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-planning-for-media-bypass.md">Planen der medienumgehung in lync Server 2013</A> in der Planungsdokumentation.
+> Im Rahmen der trunkkonfiguration können Sie die lync Server 2013 medienumgehung aktivieren, die es Medien ermöglicht, das Vermittlungsserver zu umgehen. Trunks können mit oder ohne Medienumgehung konfiguriert werden, die Aktivierung dieser Funktion wird jedoch dringend empfohlen. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-planning-for-media-bypass.md">Planning for Media Bypass in lync Server 2013</A> in der Planungsdokumentation.
 
 
 
@@ -71,25 +71,25 @@ Ausführliche Informationen finden Sie unter [Planen der PSTN-Konnektivität in 
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Mehrere trunk-Unterstützung in lync Server 2013](lync-server-2013-multiple-trunk-support.md)
+  - [Unterstützung mehrerer Trunks in lync Server 2013](lync-server-2013-multiple-trunk-support.md)
 
-  - [Zwischen trunk-Routing in lync Server 2013](lync-server-2013-inter-trunk-routing.md)
+  - [Zwischen trunk Routing in lync Server 2013](lync-server-2013-inter-trunk-routing.md)
 
-  - [Anzeigen von trunk-Konfigurationsinformationen in lync Server 2013](lync-server-2013-view-trunk-configuration-information.md)
+  - [Anzeigen von trunk Konfigurationsinformationen in lync Server 2013](lync-server-2013-view-trunk-configuration-information.md)
 
-  - [Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
+  - [Konfigurieren eines Trunks mit medienumgehung in lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)
 
   - [Konfigurieren eines Trunks ohne medienumgehung in lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
 
-  - [Erstellen einer neuen Sammlung von trunk-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-create-a-new-collection-of-trunk-configuration-settings.md)
+  - [Erstellen Sie in lync Server 2013 eine neue Auflistung von trunkkonfigurationseinstellungen.](lync-server-2013-create-a-new-collection-of-trunk-configuration-settings.md)
 
-  - [Löschen einer vorhandenen Sammlung von SIP-Trunk-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-delete-an-existing-collection-of-sip-trunk-configuration-settings.md)
+  - [Löschen einer vorhandenen Auflistung von SIP-trunkkonfigurationseinstellungen in lync Server 2013](lync-server-2013-delete-an-existing-collection-of-sip-trunk-configuration-settings.md)
 
-  - [Ändern der SIP-Trunk-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-modify-sip-trunk-configuration-settings.md)
+  - [Ändern von SIP-Trunk-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-modify-sip-trunk-configuration-settings.md)
 
-  - [Testen der SIP-Trunk-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-test-sip-trunk-configuration-settings.md)
+  - [Testen von Konfigurationseinstellungen für SIP-Trunks in lync Server 2013](lync-server-2013-test-sip-trunk-configuration-settings.md)
 
-  - [Anzeigen von Informationen zu einzelnen SIP-Stämmen in lync Server 2013](lync-server-2013-view-information-about-individual-sip-trunks.md)
+  - [Anzeigen von Informationen zu einzelnen SIP-Trunks in lync Server 2013](lync-server-2013-view-information-about-individual-sip-trunks.md)
 
 </div>
 
@@ -102,7 +102,7 @@ Ausführliche Informationen finden Sie unter [Planen der PSTN-Konnektivität in 
 
 
 [Planen der PSTN-Konnektivität in lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md)  
-[Planung der Medienumgehung in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
+[Planen der medienumgehung in lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
   
 
 </div>

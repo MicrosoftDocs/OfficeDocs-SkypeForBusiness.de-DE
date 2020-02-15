@@ -12,20 +12,20 @@ ms:contentKeyID: 51541445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfce3bc4242140364005a9a981282ecb90a42d3b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7607fb2f31107e3368fa52167dc5015eb1b71f15
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739455"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034045"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="editing-the-design-in-lync-server-2013"></a>Bearbeiten des Entwurfs in Lync Server 2013
+# <a name="editing-the-design-in-lync-server-2013"></a>Bearbeiten des Entwurfs in lync Server 2013
 
 </div>
 
@@ -35,31 +35,31 @@ ms.locfileid: "41739455"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+_**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Nach Beantwortung der anfänglichen Fragen können Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) und die IP-Adressen der Website bearbeiten. Machen Sie hierzu auf der Seite **Globale Topologie** einen Doppelklick auf den Standort, den Sie bearbeiten möchten.
+Nach Abschluss der ersten Interview Fragen können Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) und die IP-Adressen für die Website bearbeiten. Doppelklicken Sie hierzu auf der Seite **Globale Topologie** auf den Standort, den Sie bearbeiten möchten.
 
-Das Planungs Tool zeigt die Standorttopologie für die ausgewählte Website an. Im unteren Bereich der Seite für den Standort werden vier Registerkarten angezeigt:
+Das Planungs Tool zeigt die Standorttopologie für den ausgewählten Standort an. Im unteren Bereich der Seite für den Standort werden vier Registerkarten angezeigt:
 
-![Standorttopologie des Planungstools](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "Standorttopologie des Planungstools")
+![Planungs Tool-Standorttopologie](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "Planungs Tool-Standorttopologie")
 
-  - Standorttopologie - Die aktuell angezeigte Seite mit einer optischen Übersicht der empfohlenen Topologie.
+  - Standorttopologie – Die aktuell angezeigte Seite mit einer optischen Übersicht der empfohlenen Topologie.
 
-  - Edge-Netzwerkdiagramm – auf der Seite "Edge-Netzwerkdiagramm" werden die meisten Aufgaben im Planungs Tool vom Designer ausgeführt. Das Diagramm zeigt die Netzwerkkonfiguration für eine empfohlene lync Server 2013-Topologie mit bearbeitbaren Einträgen für IP-Adressen und FQDNs für Server, Pool sowie Hardware-und DNS-Lastenausgleichssysteme (Domain Name System) an.
+  - Edge-Netzwerkdiagramm – die Seite "Netzplandiagramm für Edge" ist der Ort, an dem der Designer den Großteil der Arbeit im Planungs Tool ausführt. Das Diagramm zeigt die Netzwerkkonfiguration für eine empfohlene lync Server 2013 Topologie mit editierbaren Einträgen für IP-Adressen und FQDNs für Server, Pools und sowohl Hardware-als auch Domain Name System (DNS) Lastenausgleich an.
 
-  - Edgeverwaltungsbericht - Der Edgeverwaltungsbericht umfasst insgesamt vier Berichte:
+  - Edgeverwaltungsbericht – Der Edgeverwaltungsbericht umfasst insgesamt vier Berichte:
     
     ![Seite "Edge-Administrator Bericht"](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "Seite "Edge-Administrator Bericht"")  
     
-      - Zusammenfassungsbericht – Ein allgemeiner Bericht zu den Einstellungen der Edgenetzwerkkonfiguration. Wenn Sie auf der Seite **Edge-Netzwerkdiagramm** die TCP-IP- und FQDN-Werte der Topologie in die der tatsächlichen Bereitstellung ändern, werden diese Adressen und Namen hier dargestellt. Andernfalls wird hier der Standardtext angezeigt.
+      - Zusammenfassungsbericht – Ein allgemeiner Bericht zu den Einstellungen der Edgenetzwerkkonfiguration. Wenn Sie die Werte auf der Seite **Netzwerkdiagramm für Edge** mit der Topologie TCP/IP und FQDN von, die in der eigentlichen Bereitstellung verwendet werden, bearbeiten, werden diese Adressen und Namen hier dargestellt. Andernfalls wird der Standardtext angezeigt.
     
-      - Zertifikatbericht - Der Zertifikatbericht führt den Antragstellernamen und alternative Antragstellernamen für die Zertifikate auf, die für die Topologie benötigt werden.
+      - Zertifikatbericht – Der Zertifikatbericht führt den Antragstellernamen und alternative Antragstellernamen für die Zertifikate auf, die für die Topologie benötigt werden.
     
-      - Firewallbericht - Im Firewallbericht werden Informationen aufgeführt, die zum Konfigurieren von Umkreisfirewalls in der Infrastruktur benötigt werden. Diese umfassen die IP-Adressen (entweder die Standardwerte oder die bearbeiteten Werte), Serverrolle, Quell-IP und Port, Ziel-IP und Port, Transportprotokoll, Anwendungsprotokoll und relevante Hinweise.
+      - Firewallbericht – Im Firewallbericht werden Informationen aufgeführt, die zum Konfigurieren von Umkreisfirewalls in der Infrastruktur benötigt werden. Dies umfasst die IP-Adressen (entweder die Standardwerte oder bearbeiteten Werte), Serverrolle, Quell-IP und Port, Ziel-IP und Port, Transportprotokoll, Anwendungsprotokoll und relevante Hinweise.
     
-      - DNS-Bericht - Im DNS-Bericht werden Informationen zu den DNS-Einträgen aufgeführt, die Sie erstellen müssen. Hierzu zählen Eintragstyp, FQDN, IP-Adresse und Hinweise zum ordnungsgemäßen Betrieb.
+      - DNS-Bericht – der DNS-Bericht enthält relevante Informationen zu den DNS-Einträgen, die Sie erstellen müssen. Hierzu zählen Eintragstyp, FQDN, IP-Adresse und Hinweise zum ordnungsgemäßen Betrieb.
 
-  - Standortzusammenfassung – Die Standortzusammenfassung liefert einen Überblick über die Auswahl, die entweder bei den anfänglichen Fragen oder durch Angeben der Werte in **Websites entwerfen** getroffen wurde. Es werden auch Kapazitätsinformationen angezeigt.
+  - Website Zusammenfassung – die Website Zusammenfassung enthält eine Übersicht über die Auswahl, die Sie entweder bei der Beantwortung der anfänglichen Interview Fragen oder beim Ausfüllen der Werte in **Design Websites**getroffen haben. Kapazitätsinformationen werden ebenfalls angezeigt.
     
     <div>
     

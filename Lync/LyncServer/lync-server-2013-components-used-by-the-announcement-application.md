@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Von der Ankündigungsanwendung verwendete Komponenten'
+title: 'Lync Server 2013: von der Ankündigungsanwendung verwendete Komponenten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52ef0b1da665f8797f29582e9ce9e1d311287d61
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: a888ca21e26a21103d1c45e74518c3d224d18a7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757049"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007905"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a>Von der Ankündigungsanwendung in Lync Server 2013 verwendete Komponenten
+# <a name="components-used-by-the-announcement-application-in-lync-server-2013"></a>Von der Ankündigungsanwendung in lync Server 2013 verwendete Komponenten
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41757049"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-13_
+_**Letztes Änderungsstand des Themas:** 2012-09-13_
 
-In lync Server 2013 ist die Ankündigungs Anwendung eine Komponente der reaktionsgruppenanwendung. Wenn Sie Enterprise-VoIP bereitstellen, wird die Ankündigungs Anwendung zusammen mit der reaktionsgruppenanwendung automatisch installiert und aktiviert. In diesem Abschnitt werden die Komponenten beschrieben, die die Ankündigungs Anwendung unterstützen.
+In lync Server 2013 ist der Ankündigungsanwendung eine Komponente der Reaktionsgruppenanwendung. Wenn Sie Enterprise-VoIP bereitstellen, wird der Ankündigungsanwendung automatisch zusammen mit dem Reaktionsgruppenanwendung installiert und aktiviert. In diesem Abschnitt werden die Komponenten beschrieben, die den Ankündigungsanwendung unterstützen.
 
 <div>
 
-## <a name="announcement-application-components"></a>Ankündigungs Anwendungskomponenten
+## <a name="announcement-application-components"></a>Komponenten der Ankündigungsanwendung
 
-Die folgenden lync Server-Komponenten unterstützen die Ankündigungs Anwendung:
+Die folgenden lync Server Komponenten unterstützen das Ankündigungsanwendung:
 
-  - **Application Service**   Application Service bietet eine Plattform zum Bereitstellen, hosten und Verwalten von Unified Communications-Anwendungen. Der Anwendungsdienst wird auf jedem Front-End-Server in einem Front-End-Pool und auf jedem Standard Edition-Server automatisch installiert.
+  - **Anwendungsdienst**   Anwendungsdienst bietet eine Plattform zum Bereitstellen, hosten und Verwalten von Unified Communications-Anwendungen. Anwendungsdienst wird automatisch auf jedem Front-End-Server in einem Front-End-Pool und auf jeder Standard Edition-Server installiert.
 
-  - **Reaktionsgruppenanwendung**   die Antwortgruppen Anwendung ist eine der Unified Communications-Anwendungen, die vom Anwendungsdienst gehostet werden. Wenn ein nicht zugewiesener Telefonnummern Bereich so konfiguriert ist, dass er zu einer Ankündigung weitergeleitet wird, ist die reaktionsgruppenanwendung erforderlich, um die an die Telefonnummer vorgenommenen Anrufe weiterzuleiten. (Antwortgruppen Anwendung ist nicht erforderlich, wenn alle Bereiche für die Weiterleitung an Exchange Unified Messaging (um) konfiguriert sind.)
+  - **Reaktionsgruppenanwendung**   das Reaktionsgruppenanwendung ist eine der Unified Communications-Anwendungen, die von Anwendungsdienst gehostet werden. Wenn ein nicht zugewiesener Telefonnummern Bereich für die Weiterleitung an eine Ansage konfiguriert ist, muss der Reaktionsgruppenanwendung die Anrufe an die Telefonnummer weiterleiten. (Reaktionsgruppenanwendung ist nicht erforderlich, wenn alle Bereiche für die Weiterleitung an Exchange Unified Messaging (um) konfiguriert sind.)
 
-  - **Audiodateien**   -Audiodateien werden für Ankündigungen verwendet.
+  - **Audiodateien**   -Audiodateien werden für die Ankündigungen verwendet.
 
-  - **Dateispeicher**   die Ankündigungs Anwendung verwendet den Dateispeicher zum Speichern der Audiodateien.
+  - **Dateispeicher**   der Ankündigungsanwendung verwendet Dateispeicher, um seine Audiodateien zu speichern.
 
-  - **Lync Server Control Panel**   Sie können die lync Server Control Panel verwenden, um die Tabelle nicht zugewiesene Nummern zu konfigurieren.
+  - **Lync Server-Systemsteuerung**   Sie lync Server-Systemsteuerung verwenden können, um die Tabelle nicht zugewiesener Nummern zu konfigurieren.
 
-  - **Lync Server-Verwaltungsshell**   Sie können Cmdlets der lync Server-Verwaltungsshell verwenden, um Ankündigungseinstellungen und die Tabelle "nicht zugewiesene Nummern" zu konfigurieren.
+  - **Lync Server-Verwaltungsshell**   Sie können lync Server-Verwaltungsshell-Cmdlets zum Konfigurieren von Ankündigungseinstellungen und der Tabelle nicht zugewiesener Nummern verwenden.
 
 </div>
 

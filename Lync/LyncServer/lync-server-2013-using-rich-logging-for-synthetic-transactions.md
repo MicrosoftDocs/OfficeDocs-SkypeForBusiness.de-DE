@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Verwenden der Rich-Protokollierung für synthetische Transaktionen'
+title: 'Lync Server 2013: Verwenden der umfangreichen Protokollierung für synthetische Transaktionen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 48efc99a49fd41678d07eef8685bc7f045397aa3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 421b691bd282b858eca64c9756e92dd24aac8b7b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744045"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,42 +35,42 @@ ms.locfileid: "41744045"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-22_
+_**Letztes Änderungsstand des Themas:** 2012-10-22_
 
-Synthetische Transaktionen (eingeführt in Microsoft lync Server 2010) bieten Administratoren eine Möglichkeit, zu überprüfen, ob Benutzer in der Lage sind, häufige Aufgaben wie die Anmeldung am System, den Austausch von Sofortnachrichten oder Anrufe an ein festgelegtes Telefon erfolgreich abzuschließen. über das öffentlich geschaltete Telefonnetz (PSTN). Diese Tests (die als eine Reihe von lync Server-Windows PowerShell-Cmdlets verpackt sind) können manuell von einem Administrator durchgeführt werden, oder Sie können von einer Anwendung wie System Center Operations Manager automatisch ausgeführt werden.
+Synthetische Transaktionen (in Microsoft lync Server 2010 eingeführt) bieten Administratoren die Möglichkeit zu überprüfen, ob Benutzer in der Lage sind, allgemeine Aufgaben wie das Anmelden am System, das Austauschen von Chatnachrichten oder das tätigen von Anrufen an ein Telefon erfolgreich abzuschließen. im Festnetz (Public Switched Telephone Network, PSTN). Diese Tests (die als eine Gruppe von lync Server Windows PowerShell-Cmdlets verpackt sind) können manuell von einem Administrator ausgeführt werden, oder Sie können von einer Anwendung wie System Center Operations Manager automatisch durchgeführt werden.
 
-In lync Server 2010 erwiesen sich synthetische Transaktionen als äußerst hilfreich, um Administratoren bei der Ermittlung von Problemen mit dem System zu unterstützen. So könnte beispielsweise das Cmdlet **Test-CsRegistration** Administratoren darauf hinweisen, dass einige Benutzer Schwierigkeiten bei der Registrierung bei lync Server hatten. Die synthetischen Transaktionen waren jedoch etwas weniger hilfreich, um Administratoren zu helfen, zu ermitteln, warum diese Benutzer Schwierigkeiten bei der Registrierung bei lync Server hatten. Dies war auf die Tatsache zurückzuführen, dass die synthetischen Transaktionen keine detaillierten Protokollierungsinformationen lieferten, die Administratoren bei der Behandlung von Problemen mit lync Server unterstützen könnten. Im besten Fall lieferte die ausführliche Ausgabe einer synthetischen Transaktion schrittweise Informationen, die es einem Administrator ermöglichen könnten, eine fundierte Vermutung darüber zu machen, wo ein Problem wahrscheinlich aufgetreten ist.
+In lync Server 2010 erwiesen sich synthetische Transaktionen als äußerst hilfreich bei der Unterstützung von Administratoren bei der Identifizierung von Problemen mit dem System. Beispielsweise könnte das **Test-CsRegistration-** Cmdlet Administratoren darauf hinweisen, dass sich einige Benutzer bei der Registrierung bei lync Server Schwierigkeiten hatten. Die synthetischen Transaktionen waren jedoch etwas weniger hilfreich, um Administratoren bei der Entscheidung zu unterstützen, warum sich diese Benutzer bei der Registrierung bei lync Server Schwierigkeiten hatten. Dies liegt daran, dass die synthetischen Transaktionen keine detaillierten Protokollierungsinformationen bereitgestellt haben, die Administratoren bei der Behandlung von Problemen mit lync Server unterstützen könnten. Bestenfalls enthielt die ausführliche Ausgabe einer synthetischen Transaktion Schritt-für-Schritt-Informationen, anhand derer ein Administrator aufgrund seiner Erfahrung Vermutungen darüber anstellen konnte, wo wahrscheinlich ein Problem aufgetreten ist.
 
-In Microsoft lync Server 2013 wurden synthetische Transaktionen neu entworfen, um eine umfangreiche Protokollierung bereitzustellen. "Umfangreiche Protokollierung" bedeutet, dass für jede Aktivität, die eine synthetische Transaktion durchführt, Informationen wie diese aufgezeichnet werden:
+In Microsoft lync Server 2013 wurden synthetische Transaktionen neu entworfen, um eine umfangreiche Protokollierung bereitzustellen. "Umfassende Protokollierung" bedeutet, dass für jede Aktivität, die eine synthetische Transaktion unternimmt, Informationen wie die folgenden aufgezeichnet werden:
 
-  - Der Zeitpunkt, zu dem die Aktivität gestartet wurde
+  - Die Uhrzeit, zu der die Aktivität begann
 
-  - Die Zeit, zu der die Aktivität endet
+  - Die Uhrzeit, zu der die Aktivität endetet
 
-  - Die Aktion, die durchgeführt wurde (beispielsweise das Erstellen, verknüpfen oder verlassen einer Konferenz; Anmelden bei lync Server; senden einer Chatnachricht; usw.)
+  - Die Aktion, die ausgeführt wurde (beispielsweise erstellen, hinzufügen oder verlassen einer Konferenz; Anmelden bei lync Server; senden einer Sofortnachricht; usw.)
 
   - Informative oder ausführliche Meldungen bzw. Warn- oder Fehlermeldungen, die beim Ausführen der Aktivität generiert wurden
 
-  - SIP-Registrierungsnachrichten
+  - Meldungen zur SIP-Registrierung
 
-  - Ausnahmedaten Sätze oder Diagnosecodes, die beim Ausführen der Aktivität generiert wurden
+  - Ausnahmedatensätze oder Diagnosecodes, die beim Ausführen der Aktivität generiert wurden
 
-  - Das Ergebnis der Ausführung der Aktivität
+  - Das Resultat der Aktivitätsausführung
 
-Diese Informationen werden jedes Mal automatisch generiert, wenn eine synthetische Transaktion ausgeführt wird. Die Informationen werden jedoch nicht automatisch in einer Protokolldatei angezeigt oder gespeichert. Stattdessen können Administratoren, die eine synthetische Transaktion manuell ausführen, mithilfe des OutLoggerVariable-Parameters eine Windows PowerShell-Variable angeben, in der die Informationen gespeichert werden. Von dort aus können Administratoren dann ein paar Methoden verwenden, die es Ihnen ermöglichen, das Rich-log im XML-oder HTML-Format zu speichern und/oder anzuzeigen.
+Diese Informationen werden jedes Mal automatisch generiert, wenn eine synthetische Transaktion ausgeführt wird. Die Informationen werden jedoch nicht automatisch in einer Protokolldatei angezeigt oder gespeichert. Stattdessen können Administratoren, die eine synthetische Transaktion manuell durchführen, den Parameter OutLoggerVariable verwenden, um eine Windows PowerShell Variable anzugeben, in der die Informationen gespeichert werden. Von dort aus können Administratoren dann ein paar Methoden verwenden, mit denen Sie das umfangreiche Protokoll im XML-oder HTML-Format speichern und/oder anzeigen können.
 
-Beispielsweise können lync Server 2010-Administratoren das Cmdlet **Test-CsRegistration** mithilfe eines Befehls wie den folgenden ausführen:
+Beispielsweise können lync Server 2010 Administratoren das Cmdlet **Test-CsRegistration** ausführen, indem Sie einen Befehl wie den folgenden verwenden:
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com
 
-Administratoren haben die Möglichkeit, den OutLoggerVariable-Parameter und dann den Variablennamen Ihrer Auswahl einzuschließen:
+Administratoren können den Parameter OutLoggerVariable gefolgt von einem Variablennamen ihrer Wahl einfügen:
 
     Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable RegistrationTest
 
 > [!NOTE]  
-> Führen Sie den Variablennamen nicht mit dem $-Zeichen vor. Verwenden Sie einen Variablennamen wie "RegistrationTest" und nicht "$RegistrationTest".
+> Stellen Sie dem Variablennamen kein $-Zeichen voran. Verwenden Sie einen Variablennamen wie RegistrationTest und nicht $RegistrationTest.
 
-Der vorhergehende Befehl gibt Inhalt ähnlich wie den folgenden aus:
+Die Ausgabe des obigen Befehls ist ähnlich wie die folgende:
 
     Target Fqdn   : atl-cs-001.litwareinc.com
     Result        : Failure
@@ -78,20 +78,20 @@ Der vorhergehende Befehl gibt Inhalt ähnlich wie den folgenden aus:
     Error Message : This machine does not have any assigned certificates.
     Diagnosis     :
 
-Für diesen Fehler sind jedoch viel detailliertere Informationen verfügbar, als nur die oben gezeigte Fehlermeldung. Um auf diese Informationen im HTML-Format zuzugreifen, verwenden Sie einen ähnlichen Befehl, um die in der Variablen RegistrationTest gespeicherten Informationen in einer HTML-Datei zu speichern:
+Für diesen Fehler sind jedoch viel ausführlichere Informationen verfügbar, als nur die obige Fehlermeldung. Sie können einen ähnlichen Befehl wie den folgenden verwenden, um auf diese Informationen im HTML-Format zuzugreifen und die in der Variablen RegistrationTest gespeicherten Informationen in einer HTML-Datei zu speichern:
 
     $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 
-Alternativ können Sie die ToXML()-Methode verwenden, um Dateien in einer XML-Datei zu speichern:
+Alternativ können Sie die XML()-Methode verwenden, um Dateien in einer XML-Datei zu speichern:
 
     $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 
-Diese Dateien können dann mit Internet Explorer, Visual Studio oder jeder anderen Anwendung angezeigt werden, die in der Lage ist, HTML/XML-Dateien zu öffnen.
+Diese Dateien können dann mit Internet Explorer, Visual Studio oder einer beliebigen anderen Anwendung angezeigt werden, die HTML/XML-Dateien öffnen kann.
 
-Synthetische Transaktionen, die innerhalb von System Center Operations Manager ausgeführt werden, generieren diese Protokolldateien automatisch für Fehler. Diese Protokolle werden jedoch nicht generiert, wenn die Ausführung fehlschlägt, bevor Windows PowerShell die synthetische Transaktion laden und ausführen kann.
+Synthetische Transaktionen, die von innerhalb von System Center Operations Manager ausgeführt werden, generieren diese Protokolldateien automatisch für Fehler. Diese Protokolle werden jedoch nicht generiert, wenn die Ausführung fehlschlägt, bevor Windows PowerShell die synthetische Transaktion laden und ausführen kann.
 
 > [!IMPORTANT]  
-> Standardmäßig speichert lync Server 2013 Protokolldateien in einem Ordner, der nicht freigegeben ist. Damit diese Protokolle problemlos zugänglich sind, sollten Sie diesen Ordner freigeben (beispielsweise \\ \\ATL-Watcher-001. "litwareinc. com\WatcherNode.
+> Standardmäßig speichert lync Server 2013 Protokolldateien in einem Ordner, der nicht freigegeben ist. Damit diese Protokolle leicht zugänglich sind, sollten Sie diesen Ordner freigeben (beispielsweise \\ \\ATL-Watcher-001. litwareinc. com\WatcherNode.
 
 
 </div>

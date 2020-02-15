@@ -1,5 +1,5 @@
 ---
-title: Cmdlets in Skype for Business Online, die den Mandanten Parameter verwenden
+title: Cmdlets in Skype for Business Online, die den Parameter "Mandant" verwenden
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,54 +13,54 @@ ms:contentKeyID: 56558865
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40f325c55415f97822b1e8c9d21a6d2e80e27273
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 121133ce163b73bd0ddf49faa1db03ae352056d3
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728015"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42000930"
 ---
-# <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>Cmdlets in Skype for Business Online, die den Mandanten Parameter verwenden
+# <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>Cmdlets in Skype for Business Online, die den Parameter "Mandant" verwenden
 
  
 
 
-Wenn Sie die Einstellungen Ihres öffentlichen Anbieters ändern, müssen Sie immer eine Mandanten Identität angeben. Dies gilt auch, wenn Sie nur einen einzigen Mandanten haben. Mit diesem Befehl wird beispielsweise Windows Live als einziger öffentlicher Anbieter festgelegt, mit dem Ihre Benutzer kommunizieren können:
+Wenn Sie Ihre Einstellungen für öffentliche Anbieter ändern, müssen Sie immer eine Mandanten Identität angeben. Dies gilt auch dann, wenn Sie nur einen einzigen Mandanten haben. Mit dem folgenden Befehl wird beispielsweise Windows Live als einziger öffentlicher Anbieter festgelegt, mit dem Ihre Benutzer kommunizieren können:
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-Glücklicherweise müssen Sie die Mandanten-ID (beispielsweise bf19b7db-6960-41e5-A139-2aa373474354) nicht jedes Mal eingeben, wenn Sie eines dieser Cmdlets ausführen. Stattdessen können Sie die Mandanten-ID abrufen, indem Sie das Cmdlet " [Get-CsTenant](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\)) " ausführen, die Mandanten-ID in einer Variablen speichern und diese Variable dann verwenden, wenn Sie eines der anderen Cmdlets aufrufen. Beispiel:
+Glücklicherweise müssen Sie nicht jedes Mal, wenn Sie eines dieser Cmdlets ausführen, die Mandanten-ID eingeben (beispielsweise bf19b7db-6960-41e5-A139-2aa373474354). Stattdessen können Sie die Mandanten-ID abrufen, indem Sie das Cmdlet [Get-CsTenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\)) ausführen, die Mandanten-ID in einer Variablen speichern und diese Variable dann verwenden, wenn Sie eines der anderen Cmdlets aufrufen. Beispiel:
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
 
-Sie können dies auch in einem einzigen Befehl durchführen, indem Sie die Mandanten-ID abrufen und diesen Wert dann an das Cmdlet "setCsTenantPublicProvider" weiterleiten:
+Alternativ können Sie dies in einem einzigen Befehl durchführen, indem Sie die Mandanten-ID abrufen und diesen Wert dann an das Cmdlet "Cmdlet" "CsTenantPublicProvider" weiterleiten:
 
     Get-CsTenant | Select-Object TenantId | ForEach-Object {Set-CsTenantPublicProvider -Tenant $_.TenantId -Provider "WindowsLive"}
 
-Sie müssen die Mandanten-ID nicht angeben, wenn Sie das Cmdlet **Get-CsTenant** aufrufen. Dieser Befehl gibt Informationen zu Ihrem Mandanten zurück:
+Sie müssen die Mandanten-ID nicht angeben, wenn Sie das **Get-CsTenant-** Cmdlet aufrufen. Dieser Befehl gibt Informationen zu Ihrem Mandanten zurück:
 
     Get-CsTenant
 
-Die folgenden Cmdlets akzeptieren eine Mandanten Identität. In diesen Fällen ist der Parameter jedoch optional und muss nicht eingegeben werden, wenn das Cmdlet aufgerufen wird. Stattdessen wird Windows PowerShell die Mandanten Identität basierend auf dem Skype for Business Online-Mandanten, mit dem Sie zurzeit verbunden sind, effektiv eingeben:
+Die folgenden Cmdlets akzeptieren eine Mandanten Identität. In diesen Fällen ist der Parameter jedoch optional und muss beim Aufruf des Cmdlets nicht eingegeben werden. Stattdessen werden Windows PowerShell die Mandanten Identität basierend auf dem Skype for Business Online Mandanten, mit dem Sie derzeit verbunden sind, effektiv eingeben:
 
-  - [Get-CsTenant](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\))
+  - [Get-CsTenant](https://technet.microsoft.com/library/jj994044\(v=ocs.15\))
 
-  - [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080\(v=ocs.15\))
+  - [Gruppe-CsTenantFederationConfiguration](https://technet.microsoft.com/library/jj994080\(v=ocs.15\))
 
-  - [Set-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994046\(v=ocs.15\))
+  - [Gruppe-CsTenantHybridConfiguration](https://technet.microsoft.com/library/jj994046\(v=ocs.15\))
 
-  - [Get-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994072\(v=ocs.15\))
+  - [Get-CsTenantFederationConfiguration](https://technet.microsoft.com/library/jj994072\(v=ocs.15\))
 
-  - [Get-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994034\(v=ocs.15\))
+  - [Get-CsTenantHybridConfiguration](https://technet.microsoft.com/library/jj994034\(v=ocs.15\))
 
-  - [Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/en-us/library/dn362770\(v=ocs.15\))
+  - [Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/library/dn362770\(v=ocs.15\))
 
-Beispielsweise kann das Cmdlet " **Get-CsTenantFederationConfiguration** " mit diesem Befehl aufgerufen werden:
+Beispielsweise kann das **Get-CsTenantFederationConfiguration-** Cmdlet mithilfe dieses Befehls aufgerufen werden:
 
     Get-CsTenantFederationConfiguration
 
-Obwohl dies nicht erforderlich ist, können Sie den Mandanten Parameter einbeziehen, wenn Sie Get-CsTenantFederationConfiguration aufrufen:
+Obwohl dies nicht erforderlich ist, können Sie den Parameter Mandanten einschließen, wenn Sie Get-CsTenantFederationConfiguration aufrufen:
 
     Get-CsTenantFederationConfiguration -Tenant "bf19b7db-6960-41e5-a139-2aa373474354"
 
@@ -68,5 +68,5 @@ Obwohl dies nicht erforderlich ist, können Sie den Mandanten Parameter einbezie
 
 
 [Identitäten, Bereiche und Mandanten in Skype for Business Online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Die Lync Online-Cmdlets](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
+[Die Skype for Business Online-Cmdlets](https://technet.microsoft.com/library/dn362817\(v=ocs.15\))
 

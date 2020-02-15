@@ -12,16 +12,16 @@ ms:contentKeyID: 48242739
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f44de6e3b7756935829b008c585474e08f6f9969
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 376c5788d535cd893b2261dcddcb1fe05d676005
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744715"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41744715"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-01-07_
+_**Letztes Änderungsstand des Themas:** 2013-01-07_
 
-Sie können sicherstellen, dass das Online Besprechungs-Add-in für Microsoft lync 2013 für Benutzer immer aktiviert bleibt, indem Sie eine Richtlinie erstellen, die Sie in die Add-in-Verwaltungsliste für Outlook einfügt. Die Richtlinie für Add-in-Verwaltungs Listen ist in den Office administrative Template-Dateien für die Gruppenrichtlinien-Verwaltungskonsole enthalten. Sie erstellt einen Registrierungsschlüssel unter HKCU\\-\\Software\\Richtlinien\\Microsoft\\Office\\15,0\\Outlook15 Resilienz\\-Add-in. Sie können diesem Schlüssel einen Wert für die Datei "ucaddin. dll" hinzufügen und den Wert für "ucaddin. dll" so konfigurieren, dass er immer aktiviert ist, sodass Benutzer ihn nicht manuell deaktivieren können.
+Sie können sicherstellen, dass das Online Besprechungs-Add-in für Microsoft lync 2013 für Benutzer immer aktiviert bleibt, indem Sie eine Richtlinie erstellen, die Sie in der Add-in-Verwaltungsliste für Outlook einschließt. Die Add-in-Verwaltungs Listen Richtlinie ist in den Office administrative Template-Dateien für die Gruppenrichtlinien-Verwaltungskonsole enthalten. Es erstellt einen Registrierungsschlüssel unter HKCU\\-\\Software\\Richtlinien\\Microsoft\\Office\\15,0\\Outlook15 Resilienz\\-Add-in. Sie können diesem Schlüssel einen Wert für die ucaddin. dll hinzufügen und den Wert von ucaddin. dll so konfigurieren, dass er immer aktiviert ist und die Benutzer ihn nicht manuell deaktivieren können.
 
 <div>
 
 ## <a name="to-add-ucaddindll-to-the-outlook-add-in-list"></a>So fügen Sie der Outlook-Add-in-Liste ucaddin. dll hinzu
 
-  - Fügen Sie dem Registrierungsschlüssel addinlist\\unter HKCU-Software\\Richtlinien\\,\\Microsoft\\Office\\15,0\\Outlook15-\\Flexibilitäts-Add-in, den folgenden Wert hinzu:
+  - Fügen Sie den folgenden Wert zum Add-in-\\Registrierungs\\Schlüssel\\hinzu\\,\\der\\sich\\unter HKCU\\-Software Richtlinien Microsoft Office 15,0 Outlook15-Ausfall-Add-in befindet:
     
-      - Registry Type = reg\_SZ
+      - Registrierungstyp = reg\_SZ
     
-      - Name = ucaddin. dll
+      - Name = ucaddin.dll
     
-      - Wert = 1 (gibt an, dass das Add-in immer aktiviert ist und nicht vom Endbenutzer verwaltet werden kann)
+      - Value = 1 (gibt an, dass das Add-In immer aktiviert ist und vom Benutzer nicht deaktiviert werden kann)
 
 </div>
 

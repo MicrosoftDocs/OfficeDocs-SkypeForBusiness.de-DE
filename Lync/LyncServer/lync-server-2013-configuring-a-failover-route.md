@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren einer Failoverroute'
+title: 'Lync Server 2013: Konfigurieren einer Failover-Route'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184542
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22ebdf359a8cdf5f20ada8740a589b0181c3cc93
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 17477c647d2e5dd5918225486c43b93a29509fb2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741285"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034225"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-a-failover-route-in-lync-server-2013"></a>Konfigurieren einer Failoverroute in Lync Server 2013
+# <a name="configuring-a-failover-route-in-lync-server-2013"></a>Konfigurieren einer Failover-Route in lync Server 2013
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "41741285"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Im folgenden Beispiel wird gezeigt, wie ein Administrator eine Failover-Route für die Verwendung definieren kann, wenn der Dallas-GW1 für die Wartung ausgefallen ist oder anderweitig nicht verfügbar ist. Die folgenden Tabellen veranschaulichen die erforderliche Konfigurationsänderung.
+Im folgenden Beispiel wird gezeigt, wie ein Administrator eine Failoverroute definieren kann, die bei geplanten Wartungsausfällen oder anderen Ausfällen des Gateways „Dallas-GW1“ verwendet wird. In den folgenden Tabellen wird die erforderliche Konfigurationsänderung beschrieben.
 
-### <a name="table-1-user-policy"></a>Tabelle 1 Benutzerrichtlinien
+### <a name="table-1-user-policy"></a>Tabelle 1. Benutzerrichtlinie
 
 <table>
 <colgroup>
@@ -49,7 +49,7 @@ Im folgenden Beispiel wird gezeigt, wie ein Administrator eine Failover-Route f�
 <thead>
 <tr class="header">
 <th>Benutzerrichtlinie</th>
-<th>Telefonnutzung</th>
+<th>Telefonverwendung</th>
 </tr>
 </thead>
 <tbody>
@@ -59,11 +59,11 @@ Im folgenden Beispiel wird gezeigt, wie ein Administrator eine Failover-Route f�
 <p>GlobalPSTNHopoff</p></td>
 </tr>
 <tr class="even">
-<td><p>Lokale Redmond-Richtlinie</p></td>
+<td><p>Richtlinie für Ortsgespräche am Standort Redmond</p></td>
 <td><p>RedmondLocal</p></td>
 </tr>
 <tr class="odd">
-<td><p>Dallas-Anrufrichtlinie</p></td>
+<td><p>Anrufrichtlinie für Dallas</p></td>
 <td><p>DallasUsers</p>
 <p>GlobalPSTNHopoff</p></td>
 </tr>
@@ -71,7 +71,7 @@ Im folgenden Beispiel wird gezeigt, wie ein Administrator eine Failover-Route f�
 </table>
 
 
-### <a name="table-2-routes"></a>Tabelle 2. Routen
+### <a name="table-2-routes"></a>Tabelle 2. Routen
 
 <table>
 <colgroup>
@@ -83,44 +83,44 @@ Im folgenden Beispiel wird gezeigt, wie ein Administrator eine Failover-Route f�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Routenname</th>
+<th>Name der Route</th>
 <th>Nummernmuster</th>
-<th>Telefonnutzung</th>
+<th>Telefonverwendung</th>
 <th>Stamm</th>
 <th>Gateway</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lokale Redmond-Route</p></td>
+<td><p>Route für Ortsgespräche am Standort Redmond</p></td>
 <td><p>^\+1 (425 | 206 | 253) (\d{7}) $</p></td>
 <td><p>Local</p>
 <p>RedmondLocal</p></td>
 <td><p>Trunk1</p>
 <p>Trunk2</p></td>
-<td><p>Rot-GW1</p>
-<p>Rot-GW2</p></td>
+<td><p>Red-GW1</p>
+<p>Red-GW2</p></td>
 </tr>
 <tr class="even">
-<td><p>Lokale Route für Dallas</p></td>
+<td><p>Route für Ortsgespräche am Standort Dallas</p></td>
 <td><p>^\+1 (972 | 214 | 469) (\d{7}) $</p></td>
 <td><p>Local</p></td>
 <td><p>Trunk3</p></td>
 <td><p>Dallas-GW1</p></td>
 </tr>
 <tr class="odd">
-<td><p>Universelle Route</p></td>
+<td><p>Universalroute</p></td>
 <td><p>^\+? (\d *) $</p></td>
 <td><p>GlobalPSTNHopoff</p></td>
 <td><p>Trunk1</p>
 <p>Trunk2</p>
 <p>Trunk3</p></td>
-<td><p>Rot-GW1</p>
-<p>Rot-GW2</p>
+<td><p>Red-GW1</p>
+<p>Red-GW2</p>
 <p>Dallas-GW1</p></td>
 </tr>
 <tr class="even">
-<td><p>Route für Dallas-Benutzer</p></td>
+<td><p>Route für Benutzer in Dallas</p></td>
 <td><p>^\+? (\d *) $</p></td>
 <td><p>DallasUsers</p></td>
 <td><p>Trunk3</p></td>
@@ -130,7 +130,7 @@ Im folgenden Beispiel wird gezeigt, wie ein Administrator eine Failover-Route f�
 </table>
 
 
-In Tabelle 1 wird nach der DallasUsers-Telefonnutzung in der Dallas-Anrufrichtlinie eine Telefonverwendung von GlobalPSTNHopoff hinzugefügt. Dies ermöglicht es anrufen mit der Dallas-Anrufrichtlinie, Routen zu verwenden, die für die GlobalPSTNHopoff-Telefonverwendung konfiguriert sind, wenn eine Route für die DallasUsers-Telefonnutzung nicht verfügbar ist.
+In Tabelle 1 wird die Telefonverwendung „GlobalPSTNHopoff“ nach der Telefonverwendung „DallasUsers“ zur Anrufrichtlinie für Dallas hinzugefügt. Daher können für Anrufe, für die die Anrufrichtlinie für Dallas gilt, Routen verwendet werden, die für „GlobalPSTNHopoff“ konfiguriert sind, wenn eine Route für die Telefonverwendung „DallasUsers“ nicht verfügbar ist.
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von Richtlinien zur Steuerung des Zugriffs durch XMPP-Partnerbenutzer'
+title: 'Lync Server 2013: Konfigurieren von Richtlinien zur Steuerung des Zugriffs durch XMPP-Verbundbenutzer'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48679557
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc79a915d0735f87c0852dff0ba4228b1e391fd8
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1ef7679270410df9c7a6ae6f1fa22858bf7a0b53
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730029"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035257"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-policies-to-control-xmpp-federated-user-access-in-lync-server-2013"></a>Konfigurieren von Richtlinien zur Steuerung des Zugriffs durch XMPP-Partnerbenutzer in Lync Server 2013
+# <a name="configure-policies-to-control-xmpp-federated-user-access-in-lync-server-2013"></a>Konfigurieren von Richtlinien zur Steuerung des Zugriffs durch XMPP-Verbundbenutzer in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41730029"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Diese Dokumentation ist vorläufig und kann geändert werden. Leere Themen sind als Platzhalter enthalten.
+Dies ist eine vorläufige Dokumentation und kann jederzeit geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
 
-Wenn Sie Richtlinien für die Unterstützung von Verbundpartnern des Extensible Messaging and Presence Protocol (XMPP) konfigurieren, gelten die Richtlinien für Benutzer von XMPP-Verbunddomänen, nicht aber für Benutzer von SIP-Chat Diensten (im). (beispielsweise Windows Live) oder SIP-Verbunddomänen. Sie konfigurieren einen **XMPP-Verbund Partner** für jede XMPP-Verbunddomäne, die es Ihren Benutzern ermöglichen soll, Kontakte hinzuzufügen und mit Ihnen zu kommunizieren. Die XMPP-Partner Richtlinien sind nur in einem einzigen Bereich verfügbar, obwohl Sie nicht als globale Richtlinie definiert sind und als globale Richtlinie fungieren. Wenn Sie eine globale, Website-oder Benutzerrichtlinie für XMPP-Verbundpartner definieren möchten, konfigurieren Sie den Richtlinienbereich, indem Sie zunächst die Richtlinie für den externen Zugriff für den erforderlichen Bereich erstellen und konfigurieren. Details zu den Richtlinientypen, die Sie für den externen Zugriff und den Verbund konfigurieren können, finden Sie unter [Verwalten des Föderations-und des externen Zugriffs auf lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md) in der Betriebsdokumentation.
+Beim Konfigurieren von Richtlinien für die Unterstützung von XMPP-Verbundpartnern (extensible Messaging and Presence Protocol) gelten die Richtlinien für Benutzer von XMPP-Partnerverbunddomänen, aber nicht für Benutzer von SIP (Session Initiation Protocol)-Chatdienstanbietern (z. B. Windows Live) oder von SIP-Partnerverbunddomänen. Sie konfigurieren einen **XMPP-Verbund Partner** für jede XMPP-Verbunddomäne, die Sie Ihren Benutzern erlauben möchten, Kontakte hinzuzufügen und mit Ihnen zu kommunizieren. XMPP-Verbundpartner-Richtlinien sind nur in einem einzigen Bereich verfügbar, obwohl Sie nicht als globale Richtlinie definiert sind und als globale Richtlinie fungieren. Um eine globale, Standort-oder Benutzerrichtlinie für XMPP-Verbundpartner zu definieren, konfigurieren Sie den Richtlinienbereich, indem Sie zuerst die Richtlinie für den externen Zugriff für den von Ihnen benötigten Bereich erstellen und konfigurieren. Ausführliche Informationen zu den Typen von Richtlinien, die Sie für den externen Zugriff und den Partnerverbund konfigurieren können, finden Sie unter [Managing Federation and External Access to lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md) in der Betriebsdokumentation.
 
 <div>
 
 
 > [!NOTE]  
-> Alle Richtlinien für den <STRONG>Verbund und den externen Zugriff</STRONG> werden über die in-Band-Bereitstellung angewendet. Die Richtlinien, die für den Benutzer gelten, zu einer Website gehören oder im Bereich Global sind, werden dem Client während der Anmeldung mitgeteilt. Sie können Richtlinien konfigurieren, um den Zugriff auf XMPP-Verbundpartner zu steuern, auch wenn Sie die XMPP-Föderation für Ihre Organisation nicht aktiviert haben. Die von Ihnen konfigurierten Richtlinien werden jedoch nur wirksam, wenn Sie die XMPP-Partner Föderation bereitgestellt, für Ihre Organisation aktiviert und konfiguriert haben. Details zum Bereitstellen und Konfigurieren von XMPP-Partnerverbund finden Sie unter <A href="lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md">Konfigurieren von SIP Federation, XMPP Federation und Public Instant Messaging in lync Server 2013</A> in der Bereitstellungsdokumentation. Wenn Sie eine Benutzerrichtlinie in der Richtlinie für den externen Zugriff zum Steuern von XMPP-Verbundpartnern angeben, gilt die Richtlinie nur für Benutzer, die für lync Server 2013 aktiviert und für die Verwendung der Richtlinie konfiguriert sind.
+> Alle Richtlinien für den <STRONG>Verbund und den externen Zugriff</STRONG> werden über die in-Band-Überstellung angewendet. Die Richtlinien, die für den Benutzer gelten, zu einem Standort gehören oder Global im Bereich sind, werden dem Client während der Anmeldung mitgeteilt. Sie können Richtlinien konfigurieren, um den Zugriff auf XMPP-Verbundpartner zu steuern, selbst wenn Sie den XMPP-Verbund für Ihre Organisation nicht aktiviert haben. Die von Ihnen konfigurierten Richtlinien werden jedoch nur wirksam, wenn Sie einen XMPP-Partnerverbund bereitgestellt, aktiviert und für Ihre Organisation konfiguriert haben. Ausführliche Informationen zum Bereitstellen und Konfigurieren des XMPP-partnerverbunds finden Sie unter <A href="lync-server-2013-configuring-sip-federation-xmpp-federation-and-public-instant-messaging.md">Configuring SIP Federation, XMPP Federation und Public Instant Messaging in lync Server 2013</A> in der Bereitstellungsdokumentation. Wenn Sie außerdem eine Benutzerrichtlinie in der Richtlinie für den externen Zugriff zur Steuerung von XMPP-Verbundpartnern angeben, gilt die Richtlinie nur für Benutzer, die für lync Server 2013 aktiviert und für die Verwendung der Richtlinie konfiguriert sind.
 
 
 
@@ -55,39 +55,39 @@ Wenn Sie Richtlinien für die Unterstützung von Verbundpartnern des Extensible 
 
 ## <a name="to-edit-a-global-policy-for-xmpp-federated-partners"></a>So bearbeiten Sie eine globale Richtlinie für XMPP-Verbundpartner
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder gleichwertige Benutzerrechte hat) oder der CsAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **externer Benutzer Zugriff**, und klicken Sie dann auf **Richtlinie für den externen Zugriff**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Zugriff durch externe Benutzer** und dann auf **Richtlinie für den externen Zugriff**.
 
-4.  Führen Sie auf der Seite " **Richtlinie für den externen Zugriff** " die folgenden Schritte für die globale Richtlinie aus:
+4.  Führen Sie auf der Seite **Richtlinie für den externen Zugriff** folgende Schritte für die globale Richtlinie aus:
 
 5.  Klicken Sie auf die globale Richtlinie, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf Details anzeigen.
 
 6.  Geben Sie eine Beschreibung für die globale Richtlinie an (optional).
 
-7.  Wählen Sie **Kommunikation mit Verbundbenutzern aktivieren**aus.
+7.  Wählen Sie **Kommunikation mit Partnerbenutzern aktivieren** aus.
 
-8.  Wählen Sie **Kommunikation mit XMPP-Verbundbenutzern aktivieren**aus.
+8.  Wählen Sie **Kommunikation mit XMPP-Partnerverbundbenutzern aktivieren** aus.
 
-9.  Klicken Sie auf **Commit** , um Ihre Änderungen an der globalen Richtlinie zu speichern.
+9.  Klicken Sie auf **Commit** , um die Änderungen an der globalen Richtlinie zu speichern.
 
 </div>
 
 <div>
 
-## <a name="to-create-a-site-or-user-policy-for-xmpp-federated-partners"></a>So erstellen Sie eine Website-oder Benutzerrichtlinie für XMPP-Verbundpartner
+## <a name="to-create-a-site-or-user-policy-for-xmpp-federated-partners"></a>So erstellen Sie eine Standort-oder Benutzerrichtlinie für XMPP-Verbundpartner
 
-1.  Klicken Sie auf **neu**, und klicken Sie dann auf **Website Richtlinie** oder **Benutzerrichtlinie**. Klicken Sie unter **Website auswählen**auf die entsprechende Website in der Liste, und klicken Sie dann auf **OK**.
+1.  Klicken Sie auf **neu**, und klicken Sie dann auf **Website Richtlinie** oder **Benutzerrichtlinie**. Klicken Sie im Dialogfeld **Standort auswählen** in der Liste auf den entsprechenden Standort, und klicken Sie dann auf **OK**.
 
-2.  Geben Sie eine Beschreibung für die Website Richtlinie an (optional).
+2.  Geben Sie eine Beschreibung für die Standortrichtlinie an (optional).
 
-3.  Wählen Sie in der Website-oder Benutzerrichtlinie die Option **Kommunikation mit Verbundbenutzern aktivieren**aus.
+3.  Wählen Sie in der Standort-oder Benutzerrichtlinie die Option **Kommunikation mit Verbundbenutzern aktivieren**aus.
 
-4.  Wählen Sie **Kommunikation mit XMPP-Verbundbenutzern aktivieren**aus.
+4.  Wählen Sie **Kommunikation mit XMPP-Partnerverbundbenutzern aktivieren** aus.
 
-5.  Klicken Sie auf **Commit** , um Ihre Änderungen an der Website-oder Benutzerrichtlinie zu speichern.
+5.  Klicken Sie auf **Commit ausführen**, um Ihre Änderungen am Standort oder an der Benutzerrichtlinie zu speichern.
 
 </div>
 
@@ -95,15 +95,15 @@ Wenn Sie Richtlinien für die Unterstützung von Verbundpartnern des Extensible 
 
 ## <a name="to-edit-an-existing-policy-for-xmpp-federated-partners"></a>So bearbeiten Sie eine vorhandene Richtlinie für XMPP-Verbundpartner
 
-1.  Wenn Sie eine vorhandene Richtlinie ändern möchten, wählen Sie die entsprechende Richtlinie in der Liste aus, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**.
+1.  Zum Ändern einer vorhandenen Richtlinie wählen Sie in der Liste die entsprechende Richtlinie aus, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**.
 
 2.  Ändern oder aktualisieren Sie die Beschreibung für die Richtlinie (optional).
 
 3.  Aktivieren oder deaktivieren Sie die Option **Kommunikation mit Verbundbenutzern aktivieren**.
 
-4.  Aktivieren oder deaktivieren Sie die Option **Kommunikation mit XMPP-Verbundbenutzern aktivieren**.
+4.  Wählen Sie oder deaktivieren Sie die Option **Kommunikation mit XMPP-Verbundbenutzern aktivieren**.
 
-5.  Klicken Sie auf **Commit** , um Ihre Änderungen an der Richtlinie zu speichern.
+5.  Klicken Sie auf **Commit** , um die Änderungen an der Richtlinie zu speichern.
 
 </div>
 
@@ -111,15 +111,15 @@ Wenn Sie Richtlinien für die Unterstützung von Verbundpartnern des Extensible 
 
 ## <a name="to-edit-an-existing-policy-for-xmpp-federated-partners-by-using-windows-powershell"></a>So bearbeiten Sie eine vorhandene Richtlinie für XMPP-Verbundpartner mithilfe von Windows PowerShell
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder gleichwertige Benutzerrechte hat) oder der CsAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Geben Sie in der lync Server-Verwaltungsshell Folgendes ein:
+3.  Geben Sie im lync Server-Verwaltungsshell Folgendes ein:
     
         Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false>
     
-    Ein Beispielbefehl, mit dem die globale Richtlinie für den Zugriff durch den Verbundbenutzer auf true (aktiviert) und XMPP-Domänenzugriff auf true festgelegt wird (aktiviert):
+    Ein Beispielbefehl, mit dem die globale Richtlinie für den Verbundbenutzer Zugriff auf true (aktiviert) und XMPP-Domänenzugriff auf true festgelegt wird (aktiviert):
     
         Set-CsExternalAccessPolicy -Identity global -EnableFederationAccess $true -EnableXmppAccess $true
 
@@ -127,17 +127,17 @@ Wenn Sie Richtlinien für die Unterstützung von Verbundpartnern des Extensible 
 
 <div>
 
-## <a name="to-create-a-site-or-user-policy-for-xmpp-federated-partners-using-windows-powershell"></a>So erstellen Sie eine Website-oder Benutzerrichtlinie für XMPP-Verbundpartner mithilfe von Windows PowerShell
+## <a name="to-create-a-site-or-user-policy-for-xmpp-federated-partners-using-windows-powershell"></a>So erstellen Sie eine Standort-oder Benutzerrichtlinie für XMPP-Verbundpartner mit Windows PowerShell
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder gleichwertige Benutzerrechte hat) oder der CsAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Geben Sie in der lync Server-Verwaltungsshell Folgendes ein:
+3.  Geben Sie im lync Server-Verwaltungsshell Folgendes ein:
     
         New-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false>
     
-    Ein Beispielbefehl, der eine Website Richtlinie für die Website "Redmond" für den Verbundbenutzer Zugriff auf den aktivierten und XMPP-Domänenzugriff auf "aktiviert" setzt:
+    Ein Beispielbefehl, mit dem eine Standortrichtlinie für den Standort "Redmond" für den Verbundbenutzer Zugriff auf den aktivierten und den XMPP-Domänenzugriff auf "aktiviert" festgelegt wird:
     
         New-CsExternalAccessPolicy -Identity site:Redmond -EnableFederationAccess $true -EnableXmppAccess $true
 
@@ -147,11 +147,11 @@ Wenn Sie Richtlinien für die Unterstützung von Verbundpartnern des Extensible 
 
 ## <a name="to-delete-an-existing-policy-for-xmpp-federated-partners-by-using-windows-powershell"></a>So löschen Sie eine vorhandene Richtlinie für XMPP-Verbundpartner mithilfe von Windows PowerShell
 
-1.  Melden Sie sich mit einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder dem die Rolle "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich bei einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe ist (oder gleichwertige Benutzerrechte hat) oder der CsAdministrator-Rolle zugewiesen ist, an einem beliebigen Computer in ihrer internen Bereitstellung an.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Geben Sie in der lync Server-Verwaltungsshell Folgendes ein:
+3.  Geben Sie im lync Server-Verwaltungsshell Folgendes ein:
     
         Remove-CsExternalAccessPolicy -Identity <name of global, site or user policy>
     
@@ -170,13 +170,13 @@ Wenn Sie Richtlinien für die Unterstützung von Verbundpartnern des Extensible 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Zuweisen einer Richtlinie für den Zugriff durch externe Benutzer zu einem für Lync aktivierten Benutzer in Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)  
-[Aktivieren oder Deaktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten in Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
+[Zuweisen einer Richtlinie für den externen Benutzer Zugriff zu einem lync-aktivierten Benutzer in lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)  
+[Aktivieren oder Deaktivieren der Verbund-und Public Chat-Konnektivität in lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
 
 
-[Verwalten von XMPP-Verbundpartnern für Ihre Organisation in Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
-[Satz-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy)  
-[Neu – CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsExternalAccessPolicy)  
+[Verwalten von XMPP-Verbundpartnern in lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
+[Gruppe-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsExternalAccessPolicy)  
+[New-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsExternalAccessPolicy)  
 [Get-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsExternalAccessPolicy)  
 [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsExternalAccessPolicy)  
 [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)  

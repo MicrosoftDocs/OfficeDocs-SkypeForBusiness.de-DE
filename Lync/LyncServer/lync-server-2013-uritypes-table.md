@@ -12,20 +12,20 @@ ms:contentKeyID: 48184553
 ms.date: 06/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6f1de8d9ae54a71a04e90a914edbd779aa3e41d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 03d4b2af9c0d746c713a2e98019f278ceb3df6e5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744645"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034005"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="uritypes-table-in-lync-server-2013"></a>UriTypes-Tabelle in Lync Server 2013
+# <a name="uritypes-table-in-lync-server-2013"></a>UriTypes-Tabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744645"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-06-16_
+_**Letztes Änderungsstand des Themas:** 2015-06-16_
 
-Die UriTypes-Tabelle enthält die verschiedenen URI-Typen (Uniform Resource Identifier), die in Microsoft lync Server 2013 überwacht werden.
+Die UriTypes-Tabelle enthält die unterschiedlichen URI-Typen (Uniform Resource Identifier), die in Microsoft lync Server 2013 überwacht werden.
 
 
 <table>
@@ -60,13 +60,13 @@ Die UriTypes-Tabelle enthält die verschiedenen URI-Typen (Uniform Resource Iden
 <td><p><strong>UriTypeId</strong></p></td>
 <td><p>tinyint</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutiger Bezeichner, der einem URI-Typ zugewiesen ist.</p></td>
+<td><p>Eindeutige ID, die einem URI-Typ zugewiesen wird.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UriType</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p><strong>URI</strong></p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
-<td><p>Beschreibungen der verschiedenen URI-Typen. Gültige Werte sind:</p>
+<td><p>Beschreibungen zu verschiedenen URI-Typen. Gültige Werte sind:</p>
 <ul>
 <li><p>1 – Telefon-URI</p></li>
 <li><p>0 – Benutzer-URI</p></li>

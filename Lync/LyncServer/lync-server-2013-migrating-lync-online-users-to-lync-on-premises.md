@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Migrieren von lync Online-Benutzern zu lync lokal'
+title: 'Lync Server 2013: Migrieren von lync Online Benutzern lokal zu lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e76f8c0c40e13d0d9c6b19dee118e1513390d7e7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 15dae97f0c6c507c8e6645ea96e538dba42c29c2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766036"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033334"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>Migrieren von lync Online-Benutzern zu lync lokal in lync Server 2013
+# <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>Migrieren von lync Online Benutzern lokal zu lync in lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41766036"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-11-13_
+_**Letztes Änderungsstand des Themas:** 2015-11-13_
 
 <div class="">
 
 
 > [!IMPORTANT]  
-> Diese Schritte sind nur für die Migration von Benutzerkonten erforderlich, die ursprünglich für lync in lync Online aktiviert waren, bevor Sie lync lokal bereitgestellt haben. Informationen zum Verschieben von Benutzern, die ursprünglich für lync lokal aktiviert wurden und später in lync Online verschoben wurden, finden Sie unter <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Verwalten von Benutzern in einer hybriden lync Server 2013-Bereitstellung</A>.<BR>Darüber hinaus müssen alle Benutzer, die verschoben werden, über Konten im lokalen Active Directory verfügen.
+> Diese Schritte sind nur für die Migration von Benutzerkonten erforderlich, die ursprünglich für lync in lync Online aktiviert waren, bevor Sie lync lokal bereitgestellt haben. Informationen zum Verschieben von Benutzern, die ursprünglich für lync lokal aktiviert waren und dann später in lync Online verschoben wurden, finden Sie unter <A href="lync-server-2013-administering-users-in-a-hybrid-deployment.md">Verwalten von Benutzern in einer hybriden lync Server 2013-Bereitstellung</A>.<BR>Darüber hinaus müssen alle Benutzer, die verschoben werden, über Konten im lokalen Active Directory verfügen.
 
 
 
@@ -49,15 +49,15 @@ _**Letztes Änderungsdatum des Themas:** 2015-11-13_
 
 <div>
 
-## <a name="migrating-user-accounts-originally-enabled-in-lync-online-to-lync-on-premises"></a>Migrieren von Benutzerkonten, die ursprünglich in lync Online aktiviert sind, lokal in lync
+## <a name="migrating-user-accounts-originally-enabled-in-lync-online-to-lync-on-premises"></a>Migrieren von Benutzerkonten, die ursprünglich in lync Online für lync lokal aktiviert wurden
 
 1.  Stellen Sie zunächst sicher, dass Ihre Organisation für Hybrid konfiguriert ist.
     
       - Installieren Sie das Azure Active Directory-Synchronisierungs Tool. Weitere Informationen finden Sie unter <http://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>.
     
-      - Wenn Sie Ihren Benutzern die Verwendung von einmaligem Anmelden für lync Online ermöglichen möchten, installieren Sie die <http://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>Active Directory-Verbunddienste.
+      - Um Ihren Benutzern die Verwendung von einmaligem Anmelden für lync online zu ermöglichen, installieren Sie Active Directory <http://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>Verbunddienste.
     
-      - Geben Sie in Ihrer lokalen Bereitstellung in der lync Server-Verwaltungsshell die folgenden Cmdlets ein, um den Hostinganbieter für lync online zu erstellen:
+      - Geben Sie in Ihrer lokalen Bereitstellung in lync Server-Verwaltungsshell die folgenden Cmdlets ein, um den Hostinganbieter für lync online zu erstellen:
         
            ```PowerShell
            Set-CsAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $true
@@ -67,7 +67,7 @@ _**Letztes Änderungsdatum des Themas:** 2015-11-13_
             New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root
            ```
 
-2.  Vergewissern Sie sich, dass Sie auf Ihren lokalen Edgeserver über die Zertifikatkette verfügen, die die Verbindung zu lync Online ermöglicht, wie in der folgenden Tabelle dargestellt. Sie können diese Kette hier herunterladen:https://support.office.com/article/office-365-certificate-chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb
+2.  Stellen Sie sicher, dass Sie auf Ihren lokalen Edgeserver die Zertifikatkette haben, die die Verbindung mit lync Online ermöglicht, wie in der folgenden Tabelle dargestellt. Sie können diese Kette hier herunterladen:https://support.office.com/article/office-365-certificate-chains-0c03e6b3-e73f-4316-9e2b-bf4091ae96bb
 
 
     <table>
@@ -87,47 +87,47 @@ _**Letztes Änderungsdatum des Themas:** 2015-11-13_
     <td><p>Vertrauenswürdige Stammzertifizierungsstelle</p></td>
     </tr>
     <tr class="even">
-    <td><p>Microsoft Internet Authority (Zertifikat einer neuen Zertifizierungsstelle)</p></td>
-    <td><p>Zwischenzertifizierungsstelle</p></td>
+    <td><p>Microsoft Internet Authority (neues Zertifizierungsstellenzertifikat)</p></td>
+    <td><p>Intermediate-Zertifizierungsstelle</p></td>
     </tr>
     <tr class="odd">
-    <td><p>MSIT Machine Auth CA2 (neue ausstellende CA2)</p></td>
-    <td><p>Zwischenzertifizierungsstelle</p></td>
+    <td><p>MSIT Machine auth Ca2 (New emissioning Ca2)</p></td>
+    <td><p>Intermediate-Zertifizierungsstelle</p></td>
     </tr>
     </tbody>
     </table>
 
-3.  Aktivieren Sie in Ihrem lokalen Active Directory die betroffenen Benutzerkonten für lync lokal. Geben Sie dafür für einen einzelnen Benutzer das folgende Cmdlet ein:
+3.  Aktivieren Sie in Ihrer lokalen Active Directory die betroffenen Benutzerkonten für lync lokal. Sie können dies für einen einzelnen Benutzer tun, indem Sie das folgende Cmdlet eingeben:
     
         Enable-CsUser
         -Identity "username" 
         -SipAddress "sip: username@contoso.com"
         -HostingProviderProxyFqdn "sipfed.online.lync.com"
     
-    Oder erstellen Sie ein Skript, das Benutzernamen aus einer Datei liest und sie als Eingabe für das Cmdlet „Enable-CsUser“ bereitstellt:
+    Sie können auch ein Skript erstellen, das Benutzernamen aus einer Datei liest und diese als Eingabe für das Cmdlet Enable-CsUser bereitstellt:
     
         Enable-CsUser
         -Identity $Identity 
         -SipAddress $SipAddress 
         -HostingProviderProxyFqdn "sipfed.online.lync.com"
 
-4.  Führen Sie Dirsync aus, um die lync Online-Benutzer mit den aktualisierten lokalen lync-Benutzern zu synchronisieren.
+4.  Führen Sie Dirsync aus, um die lync Online Benutzer mit den aktualisierten lokalen lync-Benutzern zu synchronisieren.
 
-5.  Aktualisieren Sie einige DNS-Einträge, um den gesamten SIP-Datenverkehr an lync lokal zu leiten:
+5.  Aktualisieren Sie einige DNS-Einträge, um den gesamten SIP-Datenverkehr lokal an lync weiterzuleiten:
     
-      - Aktualisieren Sie den Eintrag **lyncdiscover.contoso.com** so, dass er auf den FQDN des lokalen Reverseproxyservers verweist.
+      - Aktualisieren Sie den **lyncdiscover.contoso.com** -Eintrag, sodass ein Datensatz auf den FQDN des lokalen Reverse-Proxyservers verweist.
     
-      - Aktualisieren Sie das ***\_SIP *\_ . TLS.contoso.com** SRV-Eintrag, um die öffentliche IP-oder VIP-Adresse des Access Edge-Diensts von lync lokal zu beheben.
+      - Aktualisieren Sie das ***\_SIP *\_ . TLS.contoso.com** -SRV-Eintrag, der in die öffentliche IP-oder VIP-Adresse des Zugriffs-Edgedienst von lync lokal aufgelöst wird.
     
-      - Aktualisieren Sie das ***\_sipfederationtls *\_ . TCP.contoso.com** SRV-Eintrag, um die öffentliche IP-oder VIP-Adresse des Access Edge-Diensts von lync lokal zu beheben.
+      - Aktualisieren Sie das ***\_sipfederationtls *\_ . TCP.contoso.com** -SRV-Eintrag, der in die öffentliche IP-oder VIP-Adresse des Zugriffs-Edgedienst von lync lokal aufgelöst wird.
     
-      - Wenn in Ihrem Unternehmen Split-DNS (manchmal auch als „Split-Brain-DNS“ bezeichnet) verwendet wird, stellen Sie sicher, dass Benutzer, die Namen über die interne DNS-Zone auflösen, an den Front-End-Pool geleitet werden.
+      - Wenn Ihre Organisation Split-DNS verwendet (manchmal auch "Split-Brain-DNS" genannt), stellen Sie sicher, dass Benutzer, die Namen über die interne DNS-Zone auflösen, an den Front-End-Pool weitergeleitet werden.
 
-6.  Geben Sie `Get-CsUser` das Cmdlet ein, um einige Eigenschaften über die Benutzer zu überprüfen, die Sie verschieben möchten. Sie möchten sicherstellen, dass die HostingProviderProxyFQDN auf `"sipfed.online.lync.com"` festgelegte und die SIP-Adressen richtig festgesetzt sind.
+6.  Geben Sie `Get-CsUser` das Cmdlet ein, um einige Eigenschaften zu den Benutzern zu überprüfen, die Sie verschieben möchten. Sie möchten sicherstellen, dass das HostingProviderProxyFQDN auf `"sipfed.online.lync.com"` festgelegt ist und dass die SIP-Adressen richtig festgelegt sind.
 
-7.  Verschieben Sie lync Online-Benutzer in die lokale lync-app.
+7.  Migrieren Sie lync Online Benutzer lokal zu lync.
     
-    Geben Sie Folgendes ein, um einen einzelnen Benutzer zu verschieben:
+    Geben Sie Folgendes ein, um einen einzelnen Benutzer zu verlagern:
     
        ```PowerShell
        $cred = Get-Credential
@@ -137,33 +137,33 @@ _**Letztes Änderungsdatum des Themas:** 2015-11-13_
        Move-CsUser -Identity <username>@contoso.com -Target "<fe-pool>.contoso.com" -Credential $cred -HostedMigrationOverrideURL <URL>
        ```
     
-    Sie können mehrere Benutzer verschieben, indem Sie das Cmdlet **Get-CsUSer** mit dem Parameter –Filter verwenden, um Benutzer mit einer bestimmten Eigenschaft auszuwählen. So können Sie beispielsweise alle lync Online-Benutzer auswählen, indem Sie für {Hosting Provider – EQ "sipfed.online.lync.om"} filtern. Sie können dann die zurückgegebenen Benutzer an das Cmdlet **Move-CsUSer** weiterleiten, wie unten gezeigt.
+    Sie können mehrere Benutzer mithilfe des Cmdlets **Get-CsUSer** mit dem Parameter – Filter migrieren, um die Benutzer mit einer bestimmten Eigenschaft auszuwählen. Sie können beispielsweise alle lync Online Benutzer auswählen, indem Sie nach {Hosting Provider – EQ "sipfed.online.lync.om"} filtern. Anschließend können Sie die zurückgegebenen Benutzer an das Cmdlet " **CsUSer** " weiterleiten, wie unten dargestellt.
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    Das Format der für den **HostedMigrationOverrideUrl** -Parameter angegebenen URL muss die URL des Pools sein, in dem der gehostete Migrationsdienst ausgeführt wird, im folgenden Format *:\<https://Pool\>FQDN/HostedMigration/hostedmigrationService.svc*.
+    Das Format der URL, die für den **HostedMigrationOverrideUrl** -Parameter angegeben ist, muss die URL zum Pool sein, in dem der gehostete Migrationsdienst ausgeführt wird, im folgenden Format: *https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc*.
     
-    Sie können die URL des gehosteten Migrationsdiensts anhand der URL der Lync Online-Systemsteuerung für Ihr Office 365-Mandantenkonto ermitteln.
+    Sie können die URL des gehosteten Migrations Diensts ermitteln, indem Sie die URL für die lync Online-Systemsteuerung für Ihr Office 365-Mandantenkonto anzeigen.
     
     <div>
     
-    ## <a name="to-determine-the-hosted-migration-service-url-for-your-office-365-tenant"></a>So ermitteln Sie die URL des gehosteten Migrationsdiensts für Ihren Office 365-Mandanten
+    ## <a name="to-determine-the-hosted-migration-service-url-for-your-office-365-tenant"></a>So bestimmen Sie die URL des gehosteten Migrations Diensts für den Office 365 Mandanten
     
-    1.  Melden Sie sich als Administrator bei Ihrem Office 365-Mandanten an.
+    1.  Melden Sie sich als Administrator bei Ihrem Office 365-Mandanten an.
     
     2.  Öffnen Sie das **lync Admin Center**.
     
-    3.  Wenn das **lync Admin Center** angezeigt wird, wählen Sie die URL in der Adressleiste bis zu **lync.com**aus, und kopieren Sie Sie. Eine Beispiel-URL sieht ähnlich wie die folgende aus:
+    3.  Wenn das **lync Admin Center** angezeigt wird, wählen Sie die URL in der Adressleiste bis **lync.com**aus, und kopieren Sie Sie. Eine Beispiel-URL sieht wie folgt aus:
         
         `https://webdir0a.online.lync.com/lscp/?language=en-US&tenantID=`
     
-    4.  Ersetzen Sie **webdir** in der URL durch **admin**, womit Sie folgendes Ergebnis erhalten:
+    4.  Ersetzen Sie **WebDir** in der URL durch den **Administrator**, was Folgendes ergibt:
         
         `https://admin0a.online.lync.com`
     
-    5.  Fügen Sie dann folgende Zeichenfolge an die URL an: **/HostedMigration/hostedmigrationservice.svc**.
+    5.  Fügen Sie die folgende Zeichenfolge an die URL an: **/HostedMigration/hostedmigrationservice.svc**.
         
-        Die daraus resultierende URL, die dem Wert der **HostedMigrationOverrideUrl** entspricht, sollte wie folgt aussehen:
+        Die resultierende URL, die dem Wert des **HostedMigrationOverrideUrl**entspricht, sollte wie folgt aussehen:
         
         `https://admin0a.online.lync.com/HostedMigration/hostedmigrationservice.svc`
     
@@ -173,14 +173,14 @@ _**Letztes Änderungsdatum des Themas:** 2015-11-13_
     
 
     > [!NOTE]  
-    > Standardmäßig beträgt die maximale Größe für Transaktionsprotokolldateien der rtcxds-Datenbank 16 GB. Das ist möglicherweise nicht ausreichend, wenn Sie viele Benutzer auf einmal verschieben, insbesondere wenn das Spiegeln aktiviert ist. Sie können dieses Problem umgehen, indem Sie die Dateigröße erhöhen oder die Protokolldateien regelmäßig sichern. Weitere Informationen finden Sie unter <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>.
+    > Die standardmäßige maximale Größe für Transaktionsprotokolldateien der "rtcxds"-Datenbank beträgt 16 GB. Dies ist möglicherweise nicht groß genug, wenn Sie eine große Anzahl von Benutzern gleichzeitig verschieben, insbesondere dann, wenn die Spiegelung aktiviert ist. Um dies zu umgehen, können Sie die Dateigröße vergrößern oder die Protokolldateien regelmäßig sichern. Weitere Informationen finden Sie unter <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>.
 
     
     </div>
 
-8.  Dies ist ein optionaler Schritt. Wenn Sie eine Integration in Exchange 2013 Online benötigen, müssen Sie einen zusätzlichen Hostinganbieter verwenden. Ausführliche Informationen finden Sie unter [Konfigurieren der lokalen lync Server 2013-Integration in Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md).
+8.  Dies ist ein optionaler Schritt. Wenn Sie eine Integration mit Exchange 2013 online durchführen müssen, müssen Sie einen zusätzlichen Hosting-Anbieter verwenden. Ausführliche Informationen finden Sie unter [Configuring on-premises lync Server 2013 Integration with Exchange Online](lync-server-2013-configuring-on-premises-lync-server-integration-with-exchange-online.md).
 
-9.  Die Benutzer sind jetzt verschoben. Geben Sie das folgende Cmdlet ein, um zu überprüfen, ob ein Benutzer korrekte Werte für die in der folgenden Tabelle gezeigten Attribute hat:
+9.  Die Benutzer werden nun verschoben. Geben Sie dieses Cmdlet ein, um zu überprüfen, ob ein Benutzer die richtigen Werte für die in der folgenden Tabelle aufgeführten Attribute aufweist:
     
         Get-CsUser | fl DisplayName,HostingProvider,SipAddress,Enabled
     
@@ -196,38 +196,38 @@ _**Letztes Änderungsdatum des Themas:** 2015-11-13_
     <tr class="header">
     <th>Active Directory-Attribut</th>
     <th>Attributname</th>
-    <th>Korrekter Wert für lync Online-Benutzer</th>
-    <th>Der richtige Wert für lync-lokal Benutzer</th>
+    <th>Korrekter Wert für lync Online Benutzer</th>
+    <th>Korrekter Wert für lync-lokale Benutzer</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
     <td><p>msRTCSIP-DeploymentLocator</p></td>
-    <td><p>HostingProvider</p></td>
+    <td><p>Hostinganbieter</p></td>
     <td><p>sipfed.online.lync.com</p></td>
-    <td><p>SRV:</p></td>
+    <td><p>SRV</p></td>
     </tr>
     <tr class="even">
     <td><p>msRTCSIP-PrimaryUserAddress</p></td>
     <td><p>SIPAddress</p></td>
-    <td><p>sip:username@contoso.com</p></td>
-    <td><p>sip:username@contoso.com</p></td>
+    <td><p>sip:userName@contoso.com</p></td>
+    <td><p>sip:userName@contoso.com</p></td>
     </tr>
     <tr class="odd">
-    <td><p>Attribut msRTCSIP-UserEnabled</p></td>
+    <td><p>msRTCSIP-UserEnabled</p></td>
     <td><p>Aktiviert</p></td>
-    <td><p>Wahr</p></td>
-    <td><p>Wahr</p></td>
+    <td><p>True</p></td>
+    <td><p>True</p></td>
     </tr>
     </tbody>
     </table>
 
 
-10. Jeder Benutzer, der verschoben wurde, muss sich bei lync abmelden und dann wieder anmelden. Wenn Sie sich anmelden, sollten Sie ihre Kontaktlisten überprüfen und bei Bedarf Kontakte hinzufügen.
+10. Jeder Benutzer, der verschoben wurde, muss sich von lync abmelden und sich dann wieder anmelden. Wenn Sie sich anmelden, sollten Sie ihre Kontaktlisten überprüfen und bei Bedarf Kontakte hinzufügen.
     
-    Beachten Sie, dass geplante Besprechungen nicht von lync online zu lync lokal migriert werden. Benutzer müssen diese Besprechungen erneut planen, nachdem sie verschoben wurden.
+    Beachten Sie, dass geplante Besprechungen nicht von lync online zu lync lokal migriert werden. Benutzer müssen diese Besprechungen nach dem Verschieben neu planen.
     
-    Nachdem die DNS-Einträge aktualisiert wurden und alle Benutzer an Premise weitergeleitet werden, weist das Hostinganbieter-Attribut den lync-Benutzer an, entweder SRV-Einträge zu verwenden oder Sie an den Online Anbieter "sipfed.online.lync.com" zu verweisen.
+    Nachdem die DNS-Einträge aktualisiert wurden und alle Benutzer an die Prämisse weitergeleitet wurden, weist das Hostinganbieter-Attribut den lync-Benutzer an, entweder SRV-Einträge zu verwenden oder Sie an den Online Anbieter "sipfed.online.lync.com" zu verweisen.
 
 </div>
 

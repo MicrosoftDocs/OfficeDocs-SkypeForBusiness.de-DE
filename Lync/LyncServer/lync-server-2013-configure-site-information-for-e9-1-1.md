@@ -12,16 +12,16 @@ ms:contentKeyID: 48183824
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 157054343b299e7be1be75d3ee615c27cf74fb83
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4f39760dde02ab573111642d5ec888a321184b41
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730005"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035217"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41730005"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-03_
+_**Letztes Änderungsstand des Themas:** 2012-10-03_
 
-Wenn Sie eine Standortrichtlinie für Subnetze definieren möchten, müssen Sie in beliebiger Reihenfolge Folgendes ausführen:
+Zum Definieren einer Standortrichtlinie für Subnetze müssen Sie folgende Aufgaben in beliebiger Reihenfolge ausführen:
 
-  - Wenden Sie eine ortungsrichtlinie auf die Netzwerk Website an.
+  - Wenden Sie eine Standortrichtlinie auf den Netzwerkstandort an.
 
-  - Fügen Sie die Subnetze zur Netzwerk Website hinzu.
+  - Fügen Sie dem Netzwerkstandort Subnetze hinzu.
 
-Details zu Netzwerk Websites finden Sie unter [lync Server-Websites für lync Server 2013](lync-server-2013-sites.md).
+Ausführliche Informationen zu Netzwerkstandorten finden Sie unter [lync Server Sites for lync Server 2013](lync-server-2013-sites.md).
 
 <div>
 
 
 > [!NOTE]  
-> Wenn Sie Netzwerk Websites für ein anderes Sprachfeature erstellen und E9-1-1 mithilfe der gleichen Websites konfigurieren möchten, können Sie die Websites ändern, die für E9-1-1 verwendet werden sollen.
+> Wenn Sie Netzwerkstandorte für eine weitere VoIP-Funktion erstellen und für dieselben Standorte die erweiterten Notrufdienste (E9-1-1) konfigurieren möchten, können Sie die vorhandenen Standorte zur Verwendung von E9-1-1 ändern.
 
 
 
@@ -59,9 +59,9 @@ Details zu Netzwerk Websites finden Sie unter [lync Server-Websites für lync Se
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Hinzufügen einer Standortrichtlinie zu einer Netzwerk Website in lync Server 2013](lync-server-2013-add-a-location-policy-to-a-network-site.md)
+  - [Hinzufügen einer ortungsrichtlinie zu einem Netzwerkstandort in lync Server 2013](lync-server-2013-add-a-location-policy-to-a-network-site.md)
 
-  - [Zuordnen eines Subnetzes zu einem Netzwerkstandort in Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)
+  - [Zuordnen eines Subnetzes zu einem Netzwerkstandort in lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md)
 
 </div>
 

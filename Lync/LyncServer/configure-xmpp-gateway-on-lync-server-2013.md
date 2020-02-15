@@ -13,16 +13,16 @@ ms:contentKeyID: 49733816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2910766dbb2147fa5d1c51235f10ab2e80826bda
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5d75f2e52daed2968d264a2a3eef1bf16bc35b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723215"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,15 +36,15 @@ ms.locfileid: "41723215"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-10-28_
+_**Letztes Änderungsstand des Themas:** 2013-10-28_
 
-Die letzten Schritte für die Migration Ihres XMPP-Gateways bestehen darin, Zertifikate für den lync Server 2013 Edge-Server zu konfigurieren, das lync Server 2013 XMPP-Gateway bereitzustellen und die DNS-Einträge für das XMPP-Gateway zu aktualisieren. Diese Schritte sollten parallel ausgeführt werden, um die Ausfallzeit Ihres XMPP-Gateways zu minimieren. Bevor Sie diese Schritte ausführen können, müssen alle Benutzer in Ihre Microsoft lync Server 2013-Bereitstellung verschoben werden.
+Die letzten Schritte zur Migration Ihres XMPP-Gateways sind das Konfigurieren von Zertifikaten für die lync Server 2013 Edgeserver, Bereitstellen des lync Server 2013 XMPP-Gateways und Aktualisieren der DNS-Einträge für das XMPP-Gateway. Diese Schritte sollten parallel ausgeführt werden, um die Ausfallzeit Ihres XMPP-Gateways zu minimieren. Alle Benutzer müssen zu Ihrer Microsoft lync Server 2013-Bereitstellung verschoben werden, bevor Sie diese Schritte ausführen.
 
 <div class=" ">
 
 
 > [!IMPORTANT]  
-> Die XMPP-Föderation wird für Benutzer nicht unterstützt, die sich auf Überlebenden Branch-Appliances befinden. Dies gilt sowohl für das Anzeigen von Anwesenheitsinformationen als auch für den Austausch von Chatnachrichten.
+> Der XMPP-Verbund wird für Benutzer, die in Survivable Branch Appliances verwaltet werden, nicht unterstützt. Dies gilt sowohl für das Anzeigen von Anwesenheitsinformationen als auch für den Austausch von Chatnachrichten.
 
 
 
@@ -52,65 +52,65 @@ Die letzten Schritte für die Migration Ihres XMPP-Gateways bestehen darin, Zert
 
 <div>
 
-## <a name="configure-xmpp-gateway-certificates-on-the-lync-server-2013-edge-server"></a>Konfigurieren von XMPP-Gateway-Zertifikaten auf dem lync Server 2013-Edgeserver
+## <a name="configure-xmpp-gateway-certificates-on-the-lync-server-2013-edge-server"></a>Konfigurieren von XMPP-Gatewayzertifikaten auf dem Lync Server 2013-Edgeserver
 
-1.  Klicken Sie auf dem Edgeserver im Bereitstellungs-Assistenten neben **Schritt 3: anfordern, installieren oder Zuweisen von Zertifikaten**auf **erneut ausführen**.
+1.  Klicken Sie auf dem Edgeserver im Bereitstellungs-Assistenten neben **Schritt 3: Zertifikate anfordern, installieren oder zuweisen** auf **Erneut ausführen**.
     
     <div class=" ">
     
 
     > [!TIP]  
-    > Wenn Sie den Edgeserver zum ersten Mal bereitstellen, wird Run anstelle von Run erneut angezeigt.
+    > Wenn Sie den Edgeserver zum ersten Mal bereitstellen, wird anstelle von "Erneut ausführen" die Option "Ausführen" angezeigt.
 
     
     </div>
 
-2.  Klicken Sie auf der Seite **Verfügbare Zertifikataufgaben** auf **Neue Zertifikatsanforderung erstellen**.
+2.  Klicken Sie auf der Seite **Verfügbare Zertifikataufgaben** auf **Neue Zertifikatanforderung erstellen**.
 
-3.  Klicken Sie auf der Seite **Zertifikatanforderung** auf **externes Zertifikat**.
+3.  Klicken Sie auf der Seite **Zertifikatanforderung** auf **Externes Edgezertifikat**.
 
-4.  Aktivieren Sie auf der Seite **verzögerte oder sofortige Anforderung** das Kontrollkästchen **Anforderung jetzt vorbereiten, aber später senden** .
+4.  Aktivieren Sie auf der Seite **Verzögerte oder sofortige Anforderung** das Kontrollkästchen **Anforderung jetzt vorbereiten, jedoch später senden**.
 
-5.  Geben Sie auf der Seite **Zertifikatanforderungsdatei** den vollständigen Pfad und den Dateinamen der Datei ein, in der die Anforderung gespeichert werden soll (beispielsweise\\c\_: CERT,\_"Edge. cer").
+5.  Geben Sie auf der Seite **Zertifikatanforderungsdatei** den vollständigen Pfad und den Dateinamen der Datei ein, in der die Anforderung gespeichert werden soll (beispielsweise\\c\_: Zertifikat "\_Edge. cer").
 
-6.  Aktivieren Sie auf der Seite **Alternative Zertifikatvorlage angeben** für das Kontrollkästchen **Alternative Zertifikatvorlage für die ausgewählte Zertifizierungsstelle verwenden** , um eine andere Vorlage als die standardmäßige Webservervorlage zu verwenden.
+6.  Aktivieren Sie auf der Seite **Alternative Zertifikatvorlage angeben** das Kontrollkästchen **Alternative Zertifikatvorlage für ausgewählte Zertifizierungsstelle verwenden**, um eine andere Vorlage als die Standardvorlage "WebServer" zu verwenden.
 
-7.  Gehen Sie auf der Seite **Name und Sicherheitseinstellungen** wie folgt vor:
+7.  Führen Sie auf der Seite **Namens- und Sicherheitseinstellungen** die folgenden Aufgaben aus:
     
-    1.  Geben Sie unter Anzeige **Name**einen Anzeigenamen für das Zertifikat ein.
+    1.  Geben Sie im Feld **Anzeigename** einen Anzeigenamen für das Zertifikat ein.
     
-    2.  Geben Sie in **Bit length**die Bittiefe (in der Regel den Standardwert von 2048) an.
+    2.  Geben Sie unter **Bitlänge** die Bitlänge ein (normalerweise wird der Standardwert 2048 verwendet).
     
-    3.  Überprüfen Sie, ob das Kontrollkästchen **Zertifikat privater Schlüssel als exportierbar kennzeichnen** aktiviert ist.
+    3.  Stellen Sie sicher, dass das Kontrollkästchen **Privaten Schlüssel des Zertifikats als exportierbar markieren** aktiviert ist.
 
-8.  Geben Sie auf der Seite **Organisationsinformationen** den Namen für die Organisation und die Organisationseinheit ein (beispielsweise eine Abteilung oder Abteilung).
+8.  Geben Sie auf der Seite **Organisationsinformationen** den Namen für die Organisation und Organisationseinheit ein (z. B. eine Gruppe oder Abteilung).
 
-9.  Geben Sie auf der Seite **geographische Informationen** die Standortinformationen an.
+9.  Geben Sie auf der Seite **Geografische Informationen** die Standortinformationen ein.
 
-10. Auf der Seite **Betreffname/Subject Alternative** Names werden die Informationen angezeigt, die automatisch vom Assistenten ausgefüllt werden sollen. Wenn zusätzliche Alternative Namen für Subjekte benötigt werden, geben Sie diese in den nächsten beiden Schritten an.
+10. Auf der Seite **Antragstellername/Alternative Antragstellernamen** werden die Informationen angezeigt, die automatisch vom Assistenten aufgefüllt werden. Wenn zusätzliche alternative Antragstellernamen erforderlich sind, werden diese in den nächsten zwei Schritten angegeben.
 
-11. Aktivieren Sie in der **SIP-Domäneneinstellung auf der Seite Subject Alternate Names (SANs)** das Kontrollkästchen Domäne, um einen SIP hinzuzufügen. \<sipdomain\> -Eintrag in der Liste Subject Alternative Names.
+11. Aktivieren Sie auf der Seite **SIP-Domäneneinstellung für alternative Antragstellernamen (SANs)** das Kontrollkästchen Domäne, um ein SIP hinzuzufügen. \<sipdomain "\> -Eintrag zur Liste der alternativen Antragstellernamen.
 
-12. Geben Sie auf der Seite **configure additional Subject Alternative Names** alle zusätzlichen alternativen Subjektnamen an, die erforderlich sind.
+12. Geben Sie auf der Seite **Zusätzliche alternative Antragstellernamen konfigurieren** zusätzliche alternative Antragstellernamen an, die benötigt werden.
     
     <div class=" ">
     
 
     > [!TIP]  
-    > Wenn der XMPP-Proxy installiert ist, wird standardmäßig der Domänenname (wie contoso.com) in den San-Einträgen ausgefüllt. Wenn Sie weitere Einträge benötigen, fügen Sie Sie in diesem Schritt hinzu.
+    > Bei der Installation des XMPP-Proxys wird in den Einträgen für den alternativen Antragstellernamen standardmäßig der Domänenname (z. B. contoso.com) gefüllt. Wenn Sie weitere Einträge benötigen, fügen Sie diese in diesem Schritt ein.
 
     
     </div>
 
 13. Überprüfen Sie auf der Seite **Anforderungszusammenfassung** die Zertifikatinformationen, die zum Generieren der Anforderung verwendet werden sollen.
 
-14. Nachdem die Befehle ausgeführt wurden, können Sie das **Protokoll anzeigen**oder auf Weiter klicken, um fortzufahren.
+14. Nachdem die Befehle ausgeführt wurden, können Sie auf **Protokoll anzeigen** oder auf Weiter klicken, um den Vorgang fortzusetzen.
 
-15. Auf der Seite **Zertifikatanforderungsdatei** können Sie die generierte CSR-Datei (Certificate Signing Request) anzeigen, indem Sie auf **Fertig stellen** **klicken oder den** Zertifikat-Assistenten verlassen.
+15. Auf der Seite **Zertifikatsanforderungsdatei** können Sie die Signieranforderung für das Zertifikat (CSR-Datei) anzeigen, indem Sie auf **Anzeigen** klicken. Oder beenden Sie den Zertifikat-Assistenten, indem Sie auf **Fertig stellen** klicken.
 
-16. Kopieren Sie die Anforderungsdatei, und senden Sie Sie an Ihre öffentliche Zertifizierungsstelle.
+16. Kopieren Sie die Datei mit der Signieranforderung für das Zertifikat, und übermitteln Sie sie an Ihre öffentliche Zertifizierungsstelle.
 
-17. Nachdem Sie das öffentliche Zertifikat empfangen, importiert und zugewiesen haben, müssen Sie die Edgeserver-Dienste beenden und neu starten. Hierzu geben Sie in der lync Server-Verwaltungskonsole Folgendes ein:
+17. Nachdem das öffentliche Zertifikat empfangen, importiert und zugewiesen wurde, müssen Sie die Edgeserverdienste beenden und neu starten. Geben Sie in der Lync Server-Verwaltungskonsole dazu Folgendes ein:
     
         Stop-CsWindowsService
 
@@ -122,79 +122,80 @@ Die letzten Schritte für die Migration Ihres XMPP-Gateways bestehen darin, Zert
 
 <div>
 
-## <a name="configure-a-new-lync-server-2013-xmpp-gateway"></a>Konfigurieren eines neuen lync Server 2013 XMPP-Gateways
+## <a name="configure-a-new-lync-server-2013-xmpp-gateway"></a>Konfigurieren eines neuen Lync Server 2013-XMPP-Gateways
 
 1.  Öffnen Sie die Lync Server-Systemsteuerung.
 
-2.  Klicken Sie in der linken Navigationsleiste auf **Föderation und externer Zugriff** , und klicken Sie dann auf **XMPP Federated Partners**.
+2.  Klicken Sie in der linken Navigationsleiste auf **Partnerverbund- und
+externer Zugriff** und dann auf **XMPP-Verbundpartner**.
 
-3.  Wenn Sie eine neue Konfiguration erstellen möchten, klicken Sie auf **neu**.
+3.  Klicken Sie auf **Neu**, um eine neue Konfiguration zu erstellen.
 
 4.  Definieren Sie die folgenden Einstellungen:
 
-5.  **Primäre Domäne**     (erforderlich). Die primäre Domäne ist die Basisdomäne des XMPP-Partners. Geben Sie beispielsweise **Fabrikam.com** für den Namen der XMPP-Partnerdomäne ein. Dies ist ein erforderlicher Eintrag.
+5.  **Primäre Domäne**     (erforderlich). Die primäre Domäne ist die Basisdomäne des XMPP-Partners. Sie können beispielsweise **fabrikam.com** als Domänennamen für den XMPP-Partner eingeben. Dies ist ein erforderlicher Eintrag.
 
-6.  **Beschreibung**   die Beschreibung gilt für Notizen oder andere identifizierende Informationen für diese bestimmte Konfiguration. Dieser Eintrag ist optional.
+6.  **Description**   die Beschreibung ist für Notizen oder andere identifizierende Informationen für diese bestimmte Konfiguration. Dieser Eintrag ist optional.
 
-7.  **Zusätzliche**   Domänen zusätzliche Domänen sind Domänen, die Teil der Domäne Ihres XMPP-Partners sind und als Teil der zulässigen XMPP-Kommunikation enthalten sein sollten. Wenn es sich bei der primären Domäne beispielsweise um **Fabrikam.com**handelt, werden alle anderen Domänen aufgelistet, die unter fabrikam.com sind, mit denen Sie über XMPP kommunizieren.
+7.  **Zusätzliche**   Domänen zusätzliche Domänen sind Domänen, die Bestandteil der Domäne Ihres XMPP-Partners sind, die als Teil der zulässigen XMPP-Kommunikation einbezogen werden sollte. Wenn die primäre Domäne z. B. **fabrikam.com** lautet, führen Sie alle anderen Domänen von "fabrikam.com" auf, mit denen Sie per XMPP kommunizieren möchten.
 
-8.  **Partnertyp**   der **Partnertyp** ist eine erforderliche Einstellung. Sie müssen eine der folgenden Optionen auswählen, um zu beschreiben und zu erzwingen, welche Kontakte hinzugefügt werden können. Sie können Folgendes auswählen:
+8.  **Partnertyp**   der **Partnertyp** ist eine erforderliche Einstellung. Wählen Sie eine der folgenden Optionen aus, um zu beschreiben und vorzugeben, welche Kontakte hinzugefügt werden können. Die Optionen lauten:
     
-      - **Der Federated-** **Partner-Typ stellt eine hohe** Vertrauensebene zwischen der lync Server-Bereitstellung und dem XMPP-Partner dar.   Dieser Partnertyp wird für die Föderation mit XMPP-Servern innerhalb desselben Unternehmens oder mit einer festgelegten Geschäftsbeziehung empfohlen.XMPP-Kontakte in Verbundpartnern können:
+      - **Partnerverbund**   ein **Verbund** Partnertyp stellt eine hohe Vertrauensebene zwischen der lync Server-Bereitstellung und dem XMPP-Partner dar.Dieser Partnertyp wird für Verbunde mit XMPP-Servern in demselben Unternehmen oder bei Verwendung einer festen Geschäftsbeziehung empfohlen.Für XMPP-Kontakte bestehen unter "Verbund" folgende Möglichkeiten:
         
-        1.  Fügen Sie lync-Kontakte hinzu, und zeigen Sie deren Anwesenheit ohne ausdrückliche Autorisierung des lync-Benutzers an.
+        1.  Hinzufügen von Lync-Kontakten und Anzeigen der Anwesenheit ohne Schnellautorisierung durch den Lync-Benutzer
         
-        2.  Senden Sie Sofortnachrichten an lync-Kontakte, unabhängig davon, ob der lync-Benutzer Sie in seine Kontaktliste aufgenommen hat.
+        2.  Senden von Chatnachrichten an Lync-Kontakte (unabhängig davon, ob der Lync-Benutzer diese seiner Kontaktliste hinzugefügt hat)
         
-        3.  Anzeigen der Status Notizen eines lync-Benutzers
+        3.  Anzeigen der Statusinformationen von Lync-Benutzern
     
-      - **Öffentlich überprüft**   ein **öffentlicher überprüfte** Partner ist ein öffentlicher XMPP-Anbieter, der als vertrauenswürdig eingestuft wird, um die Identität seiner Benutzer zu überprüfen.XMPP-Kontakte in öffentlich überprüfte Netzwerke können lync-Kontakte hinzufügen und deren Anwesenheit anzeigen und Ihnen Sofortnachrichten senden, ohne die ausdrückliche Autorisierung der lync-Benutzer zu haben.Bei XMPP-Kontakten in öffentlich überprüften Netzwerken werden die Status Notizen der lync-Benutzer nie angezeigt.Diese Einstellung wird nicht empfohlen.
+      - **Public**   verifyed ein **öffentlich überprüfter** Partner ist ein öffentlicher XMPP-Anbieter, der als vertrauenswürdig eingestuft wird, um die Identität seiner Benutzer zu überprüfen.XMPP-Kontakte in Netzwerken vom Typ "Überprüft öffentlich" können Lync-Kontakte hinzufügen, ihre Anwesenheit anzeigen und ihnen Chatnachrichten ohne Schnellautorisierung durch die Lync-Benutzer senden.XMPP-Kontakte in Netzwerken vom Typ "Überprüft öffentlich" können jedoch keine Statusinformationen von Lync-Benutzern anzeigen.Diese Einstellung ist nicht zu empfehlen.
     
-      - **Öffentlich nicht überprüft**   ein **öffentlicher, nicht überprüfter** Partner ist ein öffentlicher XMPP-Anbieter, der nicht als vertrauenswürdig eingestuft wird, um die Identität seiner Benutzer zu überprüfen.XMPP-Benutzer in öffentlichen nicht überprüften Netzwerken können nicht mit lync-Benutzern kommunizieren, es sei denn, der lync-Benutzer hat Sie ausdrücklich autorisiert, indem Sie Sie der Kontaktliste hinzugefügt.Für XMPP-Benutzer in öffentlichen nicht überprüften Netzwerken werden die Status Notizen von lync-Benutzern nie angezeigt.Diese Einstellung wird für alle Föderationen mit öffentlichen XMPP-Anbietern wie Google Talk empfohlen.
+      - **Public unverifyed**   ein **öffentlicher nicht überprüfter** Partner ist ein öffentlicher XMPP-Anbieter, der nicht vertrauenswürdig ist, um die Identität seiner Benutzer zu überprüfen.XMPP-Benutzer in Netzwerken vom Typ "Nicht überprüft öffentlich" können mit Lync-Benutzern nur kommunizieren, wenn der Lync-Benutzer sie per Hinzufügung zur Kontaktliste ausdrücklich dazu autorisiert hat.XMPP-Benutzer in Netzwerken vom Typ "Nicht überprüft öffentlich" können keine Statusinformationen von Lync-Benutzern anzeigen.Diese Einstellung ist für Verbunde mit öffentlichen XMPP-Anbietern wie Google Talk zu empfehlen.
 
-9.  **Verbindungstyp:** Definiert die verschiedenen Regeln und Dialback-Einstellungen.
+9.  **Verbindungstyp:** Dient zum Definieren der verschiedenen Regeln und Rückrufeinstellungen.
     
-      - **TLS-Aushandlung**   definiert die TLS-Aushandlungs Regeln. Ein XMPP-Dienst kann TLS erfordern, kann TLS optional machen, oder Sie definieren, dass TLS nicht unterstützt wird. Wenn Sie optional auswählen, bleibt die Anforderung dem XMPP-Dienst für eine obligatorische Aushandlungs Entscheidung überlassen. Informationen zum Anzeigen aller möglichen Einstellungen und Details für SASL-, TLS-und Dialback-Aushandlung – einschließlich Ungültiger und bekannter Fehler Konfigurationen – finden Sie unter [Aushandlungs Einstellungen für XMPP-Verbundpartner in lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
+      - **TLS-Aushandlung**   definiert die TLS-Aushandlungs Regeln. Ein XMPP-Dienst kann TLS erfordern, kann TLS optional machen, oder Sie definieren, dass TLS nicht unterstützt wird. Bei Auswahl von optional wird die Anforderung für eine obligatorische Aushandlungs Entscheidung für den XMPP-Dienst erfüllt. Um alle möglichen Einstellungen und Details für SASL, TLS und Rückruf-Aushandlung – einschließlich nicht gültiger und bekannter Fehler Konfigurationen – anzuzeigen, finden Sie weitere Informationen unter [Aushandlungs Einstellungen für XMPP-Verbundpartner in lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         
           - <span></span>  
             **Erforderlich**   der XMPP-Dienst erfordert TLS-Aushandlung.
         
           - <span></span>  
-            **Optional**   : der XMPP-Dienst gibt an, dass TLS obligatorisch-zu-Negotiate ist.
+            **Optional**   der XMPP-Dienst gibt an, dass TLS für die Verhandlung obligatorisch ist.
         
           - <span></span>  
-            **Nicht unterstützt**   der XMPP-Dienst unterstützt keine TLS-Funktion.
+            **Nicht unterstützt**   der XMPP-Dienst unterstützt keine TLS-Daten.
     
-      - **SASL-Aushandlung**   definiert die SASL-Aushandlungs Regeln. Ein XMPP-Dienst kann SASL erfordern, kann SASL optional machen, oder Sie definieren, dass SASL nicht unterstützt wird. Wenn Sie optional auswählen, bleibt die Anforderung dem Partner XMPP-Dienst für eine obligatorische-zu-Aushandlungs Entscheidung überlassen.
+      - **Die SASL-Aushandlung**   definiert die SASL-Aushandlungs Regeln. Ein XMPP-Dienst kann SASL erfordern, kann SASL optional machen, oder Sie definieren, dass SASL nicht unterstützt wird. Wenn Sie die Option optional auswählen, bleibt die Anforderung bis zum Partner-XMPP-Dienst für eine obligatorische-zu-Aushandlungs Entscheidung.
         
           - <span></span>  
             **Erforderlich**   der XMPP-Dienst erfordert SASL-Aushandlung.
         
           - <span></span>  
-            **Optional**   zeigt der XMPP-Dienst an, dass SASL obligatorisch-zu-Negotiate ist.
+            **Optional**   der XMPP-Dienst gibt an, dass SASL für die Aushandlung erforderlich ist.
         
           - <span></span>  
-            **Nicht unterstützt**   der XMPP-Dienst unterstützt keine SASL-Funktion.
+            **Nicht unterstützt**   der XMPP-Dienst unterstützt SASL nicht.
     
-      - **Support Server-Dialback-Aushandlung** Der Dialback-Aushandlungsprozess für Support Server verwendet das Domain Name System (DNS) und einen autorisierenden Server, um zu überprüfen, ob die Anforderung von einem gültigen XMPP-Partner kam. Zu diesem Zweck erstellt der ursprüngliche Server eine Nachricht eines bestimmten Typs mit einem generierten Dialback-Schlüssel und schlägt den empfangenden Server in DNS nach. Der ursprüngliche Server sendet den Schlüssel in einem XML-Datenstrom an den resultierenden DNS-Lookup, vermutlich den empfangenden Server. Nach Erhalt des Schlüssels über den XML-Datenstrom antwortet der empfangende Server nicht auf den ursprünglichen Server, sondern sendet den Schlüssel an einen bekannten autorisierenden Server. Der autorisierende Server überprüft, ob der Schlüssel entweder gültig oder ungültig ist. Wenn dies nicht der Fall ist, antwortet der empfangende Server nicht auf den ursprünglichen Server. Wenn der Schlüssel gültig ist, informiert der empfangende Server den Ursprungsserver, dass Identität und Schlüssel gültig sind und die Konversation beginnen kann.
+      - **Unterstützung für Server-Rückruf Verhandlung** Der Rückruf-Aushandlungsprozess des Support Servers verwendet das DNS (Domain Name System) und einen autorisierenden Server, um zu überprüfen, ob die Anforderung von einem gültigen XMPP-Partner stammt. Hierzu erstellt der Ausgangsserver eine Meldung eines bestimmten Typs mit einem generierten Rückrufschlüssel und schlägt den empfangenden Server im DNS nach. Der Ausgangsserver sendet den Schlüssel in einem XML-Datenstrom an den resultierenden DNS-Lookup, wahrscheinlich an den empfangenden Server. Wenn der Schlüssel über den XML-Datenstrom empfangen wird, antwortet der empfangende Server dem Ausgangsserver nicht, sondern sendet den Schlüssel aber an einen bekannten autoritativen Server. Der autoritative Server überprüft die Gültigkeit des Schlüssels. Wenn der Schlüssel nicht gültig ist, antwortet der empfangende Server dem Ausgangsserver nicht. Wenn der Schlüssel gültig ist, informiert der empfangende Server den Ausgangsserver, dass die Identität und der Schlüssel gültig sind und dass die Unterhaltung beginnen kann.
         
-        Es gibt zwei gültige Zustände für **Dialback-Aushandlung**:
-        
-          - <span></span>  
-            **True**   : der XMPP-Server ist für die Verwendung von Dialback-Aushandlung konfiguriert, wenn eine Anforderung von einem Ursprungsserver empfangen werden soll.
+        Für die **Rückrufaushandlung** gibt es zwei gültige Statusangaben:
         
           - <span></span>  
-            **Falsch**   der XMPP-Server ist nicht für die Verwendung von Dialback-Aushandlung konfiguriert, und wenn eine Anforderung von einem Ursprungsserver empfangen werden soll, wird Sie ignoriert.
+            **True**   der XMPP-Server ist für die Verwendung der Rückruf-Aushandlung konfiguriert, wenn eine Anforderung von einem ursprünglichen Server empfangen werden soll.
+        
+          - <span></span>  
+            **False**   der XMPP-Server ist nicht für die Verwendung der Rückruf-Aushandlung konfiguriert, und wenn eine Anforderung von einem ursprünglichen Server empfangen werden soll, wird Sie ignoriert.
 
-10. Klicken Sie auf **Commit** , um Ihre Änderungen an der Website-oder Benutzerrichtlinie zu speichern.
+10. Klicken Sie auf **Commit ausführen**, um die Änderungen an der Standort- oder Benutzerrichtlinie zu speichern.
 
 </div>
 
 <div>
 
-## <a name="update-dns-records-for-lync-server-2013-xmpp-gateway"></a>Aktualisieren von DNS-Einträgen für lync Server 2013 XMPP-Gateway
+## <a name="update-dns-records-for-lync-server-2013-xmpp-gateway"></a>Aktualisieren der DNS-Einträge für das Lync Server 2013-XMPP-Gateway
 
-1.  Zum Konfigurieren von DNS für die XMPP-Föderation fügen Sie den folgenden SRV-Eintrag zu Ihrem\_externen DNS hinzu: XMPP-Server. \_TCP. \<Domänenname\> der SRV-Eintrag wird in den Access-Edge-FQDN des Edge-Servers mit einem Portwert von 5269 aufgelöst.
+1.  Um DNS für den XMPP-Verbund zu konfigurieren, fügen Sie den folgenden SRV-Eintrag zu\_Ihrem externen DNS hinzu: XMPP-Server. \_TCP. \<Domänenname\> der SRV-Eintrag wird in den Zugriffs-Edge-FQDN des Edgeserver mit dem Portwert 5269 aufgelöst.
 
 </div>
 

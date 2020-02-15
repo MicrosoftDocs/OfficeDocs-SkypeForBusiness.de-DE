@@ -12,16 +12,16 @@ ms:contentKeyID: 51541491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c013159de83d258273e381dd54556bcceec056f7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 60c4a3e1563890d64394f3a99141523cb95add38
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723565"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006131"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,26 +35,26 @@ ms.locfileid: "41723565"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-18_
+_**Letztes Änderungsstand des Themas:** 2013-02-18_
 
-Dateispeicher für die Standard Edition befinden sich normalerweise auf dem Standard Edition-Server. Dateispeicher für Enterprise Edition befinden sich in der Regel auf einem Dateiserver oder Cluster. Im folgenden Verfahren wird beschrieben, wie Sie einen Dateispeicher wiederherstellen.
+Dateispeicher für Standard Edition befinden sich normalerweise im Standard Edition-Server. Dateispeicher für Enterprise Edition befinden sich normalerweise auf einem Dateiserver oder Cluster. Im folgenden Verfahren wird beschrieben, wie Sie eine Dateispeicher wiederherstellen.
 
 <div>
 
-## <a name="to-restore-a-file-store"></a>So stellen Sie einen Dateispeicher wieder her
+## <a name="to-restore-a-file-store"></a>So stellen Sie eine Dateispeicher wieder her
 
-1.  Wenn ein Dateispeicher fehlschlägt, kopieren Sie den entsprechenden Dateispeicher\\ aus $Backup in den Dateispeicher Speicherort auf dem Dateiserver oder Standard Edition-Server, und geben Sie dann den Ordner frei.
+1.  Wenn ein Dateispeicher fehlschlägt, kopieren Sie den entsprechenden Dateispeicher\\ aus $Backup an den Dateispeicher Speicherort auf dem Dateiserver oder Standard Edition-Server, und geben Sie dann den Ordner frei.
     
     <div>
     
 
     > [!IMPORTANT]  
-    > Der Pfad und Dateinamen für den wiederhergestellten Dateispeicher sollten exakt mit dem gesicherten Dateispeicher identisch sein, damit die Komponenten, die die Dateien verwenden, darauf zugreifen können.
+    > Der Pfad und der Dateiname für das wiederhergestellte Dateispeicher sollten genau mit dem gesicherten Dateispeicher identisch sein, damit Komponenten, die die Dateien verwenden, darauf zugreifen können.
 
     
     </div>
 
-2.  Legen Sie bei Bedarf die Zugriffssteuerungslisten (ACLs) für den Dateispeicher ab. Geben Sie in der Befehlszeile Folgendes ein:
+2.  Legen Sie bei Bedarf die Zugriffssteuerungslisten (Access Control Lists, ACLs) für die Dateispeicher fest. Geben Sie in die Befehlszeile Folgendes ein:
     
         Enable-CsTopology
     
@@ -62,7 +62,7 @@ Dateispeicher für die Standard Edition befinden sich normalerweise auf dem Stan
     
 
     > [!NOTE]  
-    > Sie müssen diesen Schritt nur ausführen, wenn Sie den Topology Builder während des Wiederherstellungsprozesses nicht anderweitig ausgeführt haben.
+    > Sie müssen diesen Schritt nur ausführen, wenn Sie den Topologie-Generator während des Wiederherstellungsvorgangs nicht anderweitig ausgeführt haben.
 
     
     </div>

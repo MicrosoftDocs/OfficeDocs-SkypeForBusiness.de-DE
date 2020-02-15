@@ -12,16 +12,16 @@ ms:contentKeyID: 48184743
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05bdedc57fca4c51351bcee351c7774c471cc821
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 70e9993134c10b2b90193538239022919db80c4a
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736808"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008477"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,79 +35,79 @@ ms.locfileid: "41736808"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-08_
+_**Letztes Änderungsstand des Themas:** 2012-10-08_
 
-Die Cmdlets für die zentralisierte Protokollierung bieten Administratoren die Möglichkeit, die zentralisierten Protokollierungsfunktionen zu verwalten und zu konfigurieren, die in Microsoft lync Server 2013 eingeführt wurden. Die zentralisierte Protokollierung ermöglicht es Administratoren, die Ereignisablaufverfolgung auf mehreren Computern gleichzeitig zu aktivieren oder zu deaktivieren.
+Die Cmdlets für die zentralisierte Protokollierung bieten Administratoren die Möglichkeit, die in Microsoft lync Server 2013 eingeführten zentralisierten Protokollierungsfunktionen zu verwalten und zu konfigurieren. Durch die zentralisierte Protokollierung können Administratoren die Ereignisablaufverfolgung auf mehreren Computern gleichzeitig aktivieren oder deaktivieren.
 
 <div>
 
-## <a name="centralized-logging-cmdlets"></a>Cmdlets für die zentralisierte Protokollierung
+## <a name="centralized-logging-cmdlets"></a>Zentralisierte Protokollierungs-Cmdlets
 
 Mit den Cmdlets für die zentralisierte Protokollierung können Sie den in lync Server 2013 eingeführten zentralisierten Protokollierungsdienst verwalten:
 
-**Cmdlets für die zentralisierte Protokollierung**
+**Zentralisierte Protokollierungs-Cmdlets**
 
-  - [Get-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619179(v=OCS.15))
+  - [Get-csclsconfiguration "](https://technet.microsoft.com/library/JJ619179(v=OCS.15))
 
-  - [New-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619177(v=OCS.15))
+  - [New-csclsconfiguration "](https://technet.microsoft.com/library/JJ619177(v=OCS.15))
 
-  - [Remove-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619191(v=OCS.15))
+  - [Remove-csclsconfiguration "](https://technet.microsoft.com/library/JJ619191(v=OCS.15))
 
-  - [Set-CsClsConfiguration](https://technet.microsoft.com/en-us/library/JJ619182(v=OCS.15))
-
-<!-- end list -->
-
-  - [Search-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619189(v=OCS.15))
-
-  - [Anzeigen-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619173(v=OCS.15))
-
-  - [Anfang-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619190(v=OCS.15))
-
-  - [Stopp-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619180(v=OCS.15))
-
-  - [Sync-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619169(v=OCS.15))
-
-  - [Update-CsClsLogging](https://technet.microsoft.com/en-us/library/JJ619170(v=OCS.15))
+  - [Gruppe-csclsconfiguration "](https://technet.microsoft.com/library/JJ619182(v=OCS.15))
 
 <!-- end list -->
 
-  - [New-CsClsProvider](https://technet.microsoft.com/en-us/library/JJ619187(v=OCS.15))
+  - [Suche-CsClsLogging](https://technet.microsoft.com/library/JJ619189(v=OCS.15))
+
+  - [Show-CsClsLogging](https://technet.microsoft.com/library/JJ619173(v=OCS.15))
+
+  - [Start-CsClsLogging](https://technet.microsoft.com/library/JJ619190(v=OCS.15))
+
+  - [Stop-CsClsLogging](https://technet.microsoft.com/library/JJ619180(v=OCS.15))
+
+  - [Sync-CsClsLogging](https://technet.microsoft.com/library/JJ619169(v=OCS.15))
+
+  - [Update-CsClsLogging](https://technet.microsoft.com/library/JJ619170(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsClsRegion](https://technet.microsoft.com/en-us/library/JJ204879(v=OCS.15))
-
-  - [New-CsClsRegion](https://technet.microsoft.com/en-us/library/JJ204658(v=OCS.15))
-
-  - [Remove-CsClsRegion](https://technet.microsoft.com/en-us/library/JJ204971(v=OCS.15))
-
-  - [Set-CsClsRegion](https://technet.microsoft.com/en-us/library/JJ204746(v=OCS.15))
+  - [New-CsClsProvider](https://technet.microsoft.com/library/JJ619187(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsClsScenario](https://technet.microsoft.com/en-us/library/JJ205091(v=OCS.15))
+  - [Get-CsClsRegion](https://technet.microsoft.com/library/JJ204879(v=OCS.15))
 
-  - [New-CsClsScenario](https://technet.microsoft.com/en-us/library/JJ205022(v=OCS.15))
+  - [New-CsClsRegion](https://technet.microsoft.com/library/JJ204658(v=OCS.15))
 
-  - [Remove-CsClsScenario](https://technet.microsoft.com/en-us/library/JJ205010(v=OCS.15))
+  - [Remove-CsClsRegion](https://technet.microsoft.com/library/JJ204971(v=OCS.15))
 
-  - [Set-CsClsScenario](https://technet.microsoft.com/en-us/library/JJ204622(v=OCS.15))
-
-<!-- end list -->
-
-  - [Get-CsClsSearchTerm](https://technet.microsoft.com/en-us/library/JJ205061(v=OCS.15))
-
-  - [Set-CsClsSearchTerm](https://technet.microsoft.com/en-us/library/JJ204911(v=OCS.15))
+  - [Gruppe-CsClsRegion](https://technet.microsoft.com/library/JJ204746(v=OCS.15))
 
 <!-- end list -->
 
-  - [Get-CsClsSecurityGroup](https://technet.microsoft.com/en-us/library/JJ205285(v=OCS.15))
+  - [Get-CsClsScenario](https://technet.microsoft.com/library/JJ205091(v=OCS.15))
 
-  - [New-CsClsSecurityGroup](https://technet.microsoft.com/en-us/library/JJ205359(v=OCS.15))
+  - [New-CsClsScenario](https://technet.microsoft.com/library/JJ205022(v=OCS.15))
 
-  - [Remove-CsClsSecurityGroup](https://technet.microsoft.com/en-us/library/JJ204958(v=OCS.15))
+  - [Remove-CsClsScenario](https://technet.microsoft.com/library/JJ205010(v=OCS.15))
 
-  - [Set-CsClsSecurityGroup](https://technet.microsoft.com/en-us/library/JJ204700(v=OCS.15))
+  - [Gruppe-CsClsScenario](https://technet.microsoft.com/library/JJ204622(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsClsSearchTerm](https://technet.microsoft.com/library/JJ205061(v=OCS.15))
+
+  - [Gruppe-CsClsSearchTerm](https://technet.microsoft.com/library/JJ204911(v=OCS.15))
+
+<!-- end list -->
+
+  - [Get-CsClsSecurityGroup](https://technet.microsoft.com/library/JJ205285(v=OCS.15))
+
+  - [New-CsClsSecurityGroup](https://technet.microsoft.com/library/JJ205359(v=OCS.15))
+
+  - [Remove-CsClsSecurityGroup](https://technet.microsoft.com/library/JJ204958(v=OCS.15))
+
+  - [Gruppe-CsClsSecurityGroup](https://technet.microsoft.com/library/JJ204700(v=OCS.15))
 
 </div>
 

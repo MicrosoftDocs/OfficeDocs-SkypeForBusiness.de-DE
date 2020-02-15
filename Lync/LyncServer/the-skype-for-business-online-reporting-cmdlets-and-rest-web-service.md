@@ -1,5 +1,5 @@
 ---
-title: Die Skype for Business Online-Bericht Erstellungs-Cmdlets und der übrige Web Service
+title: Die Cmdlets für die Skype for Business Online Berichterstellung und Rest-Webdienst
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf02e845acc35ff4381b43beb91d798ec49f58d2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9046bb075fba832f0ba7c83697c96a285988fcf7
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756019"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035581"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="the-skype-for-business-online-reporting-cmdlets-and-rest-web-service"></a>Die Skype for Business Online-Bericht Erstellungs-Cmdlets und der übrige Web Service
+# <a name="the-skype-for-business-online-reporting-cmdlets-and-rest-web-service"></a>Die Cmdlets für die Skype for Business Online Berichterstellung und Rest-Webdienst
 
 </div>
 
@@ -35,40 +35,40 @@ ms.locfileid: "41756019"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-09-05_
+_**Letztes Änderungsstand des Themas:** 2014-09-05_
 
-In Verbindung mit den Berichterstellungsfeatures bietet Skype for Business Online Zugriff auf fünf Windows PowerShell-Cmdlets, die dazu beitragen, diese Berichte zu generieren, und Sie können auch von Administratoren verwendet werden, um angepasste Berichtsdaten zurückzugeben. Skype for Business Online enthält auch den anderen (Repräsentations Status Transfer), der von Entwicklern zum Abrufen von benutzerdefinierten Bericht Erstellungsinformationen verwendet werden kann.
+In Verbindung mit den Berichtsfeatures bietet Skype for Business Online Zugriff auf fünf Windows PowerShell-Cmdlets, mit denen diese Berichte generiert werden können und von Administratoren auch zum Zurückgeben benutzerdefinierter Berichtsdaten verwendet werden können. Skype for Business Online enthält auch den Rest (Representational State Transfer), der von Entwicklern zum Abrufen benutzerdefinierter Berichtsinformationen verwendet werden kann.
 
-Zu den für Administratoren verfügbaren Berichterstattungs-Cmdlets gehören:
+Die für Administratoren verfügbaren Berichts-Cmdlets umfassen Folgendes:
 
-  - Get-CsActiveUserReport, das Informationen über die Anzahl aktiver Benutzer enthält (also Benutzer, die sich bei Skype for Business Online angemeldet haben und an mindestens einer Konferenz oder Peer-to-Peer-Kommunikationssitzung teilgenommen haben).
+  - Get-CsActiveUserReport, das Informationen zur Anzahl der aktiven Benutzer bereitstellt (Benutzer, die sich bei Skype for Business Online angemeldet haben und an mindestens einer Konferenz oder einer Peer-to-Peer-Kommunikationssitzung teilgenommen haben).
 
-  - Get-CsAVConferenceTimeReport bietet Informationen über die Zeitdauer (in Minuten), die Benutzer in Audio-und Videokonferenzen verbracht haben.
+  - Get-CsAVConferenceTimeReport, das Informationen über den Zeitraum (in Minuten), den Benutzer in Audio/Video-Konferenzen verbracht haben, bereitstellt.
 
-  - Get-CsConferenceReport, das Informationen über die Anzahl und die Art der Konferenzen enthält, an denen Benutzer teilgenommen haben.
+  - Get-CsConferenceReport, das Informationen über die Anzahl und den Typ von Konferenzen bereitstellt, an denen Benutzer teilgenommen haben.
 
-  - Get-CsP2PAVTimeReport bietet Informationen über die Zeitdauer (in Minuten), die Benutzer in Peer-to-Peer-Sitzungen mit Audio und/oder Video verbracht haben.
+  - Get-CsP2PAVTimeReport, das Informationen über den Zeitraum (in Minuten), den Benutzer in Peer-to-Peer-Sitzungen mit Audio-und/oder Videodaten verbracht haben.
 
-  - Get-CsP2PSessionReport, das Informationen über die Anzahl und den Typ der Peer-to-Peer-Sitzungen enthält, an denen Benutzer teilgenommen haben.
+  - Get-CsP2PSessionReport, das Informationen über die Anzahl und den Typ von Peer-zu-Peer-Sitzungen bereitstellt, an denen Benutzer teilgenommen haben.
 
-Die meisten Administratoren verwenden die Berichte, die im Microsoft 365 Admin Center zur Verfügung stehen: Diese Berichte werden nicht nur automatisch generiert, sondern auch eine grafische Darstellung der Daten bereitgestellt, die häufig leichter zu interpretieren sind als die unformatierten Zahlenwerte, die von der Reporting-Cmdlets. Administratoren, die mit Windows PowerShell vertraut sind, können jedoch mithilfe der Berichterstattungs-Cmdlets Daten zurückgeben, die in den lync Online-Berichten nicht ohne weiteres verfügbar sind. Beispielsweise geben die Berichterstattungs-Cmdlets Informationen zur Sitzungsdauer zurück (die Zeitdauer in Minuten, zu der jede Sitzung dauerte). Die einzelnen Sitzungs dauern sind mithilfe der lync Online-Berichte nicht verfügbar. In der täglichen Ansicht werden in den lync Online-berichten ebenfalls Informationen nur für die vorhergehenden 14 Tage angezeigt. Wenn Sie die Tagesergebnisse für einen anderen Tag überprüfen möchten (beispielsweise ein Datum vor vier Monaten), können Sie dies mithilfe der Berichterstattungs-Cmdlets tun.
+Die meisten Administratoren verwenden die Berichte, die im Microsoft 365 Admin Center zur Verfügung stehen: Diese Berichte werden nicht nur automatisch generiert, sondern bieten auch eine grafische Darstellung der Daten, die häufig einfacher zu interpretieren sind als die unformatierten Zahlenwerte, die von der Cmdlets für die Berichterstellung. Administratoren, die mit Windows PowerShell vertraut sind, können jedoch mithilfe der Cmdlets für die Berichterstellung Daten zurückgeben, die in den lync Online Berichten nicht leicht verfügbar sind. Beispielsweise werden mit den Cmdlets für die Berichterstellung Informationen zur Sitzungsdauer zurückgegeben (der Zeitraum in Minuten, in dem jede Sitzung dauerte). Einzelne Sitzungsdauer sind nicht verfügbar, wenn Sie die lync Online Berichte verwenden. Dementsprechend werden in den lync Online Berichten in der täglichen Ansicht nur Informationen für die vorhergehenden 14 Tage angezeigt. Wenn Sie die Tagessummen für einen anderen Tag (beispielsweise ein Datum aus vier Monaten) überprüfen möchten, können Sie dies mithilfe der Cmdlets für die Berichterstellung tun.
 
-Administratoren sind möglicherweise auch an dem Artikel [mit Excel zum Abrufen von Office 365-Berichtsdaten](http://msdn.microsoft.com/en-us/library/dn781442.aspx)interessiert, in dem erläutert wird, wie Sie das Feature "OData-Datenabfrage" in Microsoft Excel verwenden, um einen benutzerdefinierten Office 365-Bericht zu erstellen. Benutzerdefinierte Berichte bieten Ihnen die Möglichkeit, zu diktieren, welche Daten (und wie viele Daten) vom Office 365-Berichterstattungsdienst zurückgegeben werden. Benutzerdefinierte Berichte ermöglichen Ihnen auch, wie Sie angeben, wie die Daten sortiert und gruppiert werden sollen, und bieten Zugriff auf Informationen, die nicht im Admin Center angezeigt werden.
+Administratoren sind möglicherweise auch an dem Artikel interessiert, der [Excel zum Abrufen von Office 365 Berichtsdaten](http://msdn.microsoft.com/library/dn781442.aspx)verwendet, in dem die Verwendung der OData-Datenabfrage Funktion in Microsoft Excel zum Erstellen eines benutzerdefinierten Office 365-Berichts erläutert wird. Benutzerdefinierte Berichte bieten Ihnen die Möglichkeit zu diktieren, welche Daten (und wie viele Daten) vom Office 365 Berichtsdienst zurückgegeben werden. Mit benutzerdefinierten Berichten können Sie auch solche Dinge tun, die angeben, wie die Daten sortiert und gruppiert werden sollen, und den Zugriff auf Informationen ermöglichen, die nicht im Admin Center angezeigt werden.
 
-Administratoren mit einem Entwicklungshintergrund können mithilfe des RESTful-Webdiensts Informationen abrufen, die nicht im Skype for Business Online Admin Center angezeigt werden. Der restliche Dienst ist mit dem SOAP-Dienst vergleichbar, da jede Technologie eine Möglichkeit bietet, XML-Daten zwischen einem Client und einem Server zu übertragen. Der Service für den Ruhezustand hat jedoch mindestens zwei Vorteile gegenüber dem SOAP-Dienst. Zum einen führt Ruhe XML-Datenübertragungen mit einem standardisierten Format aus, das als Atom-Syndication-Format bezeichnet wird. Im Gegensatz dazu wird SOAP beim Übertragen von Daten mit einem nicht standardmäßigen Format verwendet. Darüber hinaus ist "Ruhe" in der Lage, Daten über Netzwerke zu übertragen, die andere HTTP-Verben als "abrufen" und "Posten" blockieren.
+Administratoren mit Entwicklungshintergrund können mithilfe des Rest-Webdiensts Informationen abrufen, die nicht im Skype for Business Online Admin Center angezeigt werden. Der Rest-Dienst ähnelt dem SOAP-Dienst, da jede Technologie eine Möglichkeit bietet, XML-Daten zwischen einem Client und einem Server zu übertragen. Der Rest-Dienst verfügt jedoch über mindestens zwei Vorteile gegenüber dem SOAP-Dienst. Für einen übernimmt Rest XML-Datenübertragungen unter Verwendung eines standardisierten Formats, das als Atom-Veröffentlichungsformat bezeichnet wird. Im Gegensatz dazu verwendet SOAP ein nicht standardmäßiges Format beim Übertragen von Daten. Darüber hinaus kann Rest Daten über Netzwerke übertragen, die HTTP-Verben außer Get und Post blockieren.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Lync Online-Berichterstellung](https://technet.microsoft.com/en-us/library/dn362827\(v=ocs.15\))  
+[Lync Online Berichterstellung](https://technet.microsoft.com/library/dn362827\(v=ocs.15\))  
 
 
-[Der Office 365-Berichterstellungsdienst](http://msdn.microsoft.com/en-us/library/office/jj984325.aspx)  
-[Kennenlernen des Office 365-Berichts-Webdiensts](http://msdn.microsoft.com/en-us/library/office/jj984321.aspx)  
-[Die Exchange Online-Berichterstattungs-Cmdlets](http://technet.microsoft.com/en-us/library/jj200780\(v=exchg.150\).aspx)  
-[Verwenden von Excel zum Abrufen von Office 365-Berichtsdaten](http://msdn.microsoft.com/en-us/library/dn781442.aspx)  
+[Der Webdienst für die Office 365-Berichterstellung](http://msdn.microsoft.com/library/office/jj984325.aspx)  
+[Informationen zum Webdienst "Office 365-Berichterstellung"](http://msdn.microsoft.com/library/office/jj984321.aspx)  
+[Die Cmdlets für die Exchange Online-Berichterstellung](http://technet.microsoft.com/library/jj200780\(v=exchg.150\).aspx)  
+[Verwenden von Excel zum Abrufen von Office 365-Berichterstellungsdaten](http://msdn.microsoft.com/library/dn781442.aspx)  
   
 
 </div>

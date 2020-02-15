@@ -12,20 +12,20 @@ ms:contentKeyID: 48183993
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3976b98fddc96ad08f3de4413bf8f38ec3525496
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ee16c492a42cb98ff3b5f326bd6f43a57c4d3f56
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764151"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034275"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>tblPrincipalAffiliations in Lync Server 2013
+# <a name="tblprincipalaffiliations-in-lync-server-2013"></a>tblPrincipalAffiliations in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764151"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+_**Letztes Änderungsstand des Themas:** 2012-09-12_
 
-tblPrincipalAffiliations enthält die Haupt Zuordnungen, die Mitgliedschaften an Speicherorten beschreiben, einschließlich Sicherheitsgruppen für Active Directory-Domänendienste, in Active Directory-Containern in Domänen.
+tblPrincipalAffiliations enthält die Haupt Zuordnungen, in denen Mitgliedschaften an Standorten, einschließlich Active Directory-Domänendienste Sicherheitsgruppen, in Active Directory Containern in Domänen beschrieben werden.
 
 ### <a name="columns"></a>Spalten
 
@@ -56,24 +56,24 @@ tblPrincipalAffiliations enthält die Haupt Zuordnungen, die Mitgliedschaften an
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Prinzipal-Nr</p></td>
+<td><p>principalID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Die ID des verbundenen Prinzipals.</p></td>
+<td><p>ID des zugeordneten Prinzipals.</p></td>
 </tr>
 <tr class="even">
 <td><p>affiliationID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Die ID des Prinzipals, der die Zuordnung darstellt. Jeder Prinzipal (mit Ausnahme von System-User-Typen) hat ebenfalls eine Selbstzuordnung.</p></td>
+<td><p>ID des Prinzipals, die für die Zuordnung steht. Jeder Prinzipal (ausgenommen system-user-types) verfügt auch über eine Selbstzuordnung.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Index</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Index. Der Wert für Self-Affiliations ist-1, und für die anderen Zuordnungen wird er sequenziell von 1 innerhalb der einzelnen &lt;Prinzipal-affiliationId&gt; -Buckets erhöht.</p></td>
+<td><p>Index. Der Wert für Self-Affiliations ist-1, und bei den anderen Zuordnungen steigt er nacheinander von 1 innerhalb der einzelnen &lt;affiliationId&gt; -Buckets an.</p></td>
 </tr>
 <tr class="even">
 <td><p>updatedBy</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Prinzipal, der das neueste Update durchführte. Dies ist normalerweise 1, was bedeutet, dass die Active Directory-Synchronisierung erfolgt.</p></td>
+<td><p>Prinzipal, der die letzte Aktualisierung durchführte. Der Wert ist in der Regel 1, was der Active Directory-Synchronisierung entspricht.</p></td>
 </tr>
 </tbody>
 </table>
@@ -98,12 +98,12 @@ tblPrincipalAffiliations enthält die Haupt Zuordnungen, die Mitgliedschaften an
 <td><p>Primärschlüssel</p></td>
 </tr>
 <tr class="even">
-<td><p>Prinzipal-Nr</p></td>
-<td><p>Fremdschlüssel mit Lookup in der tblPrincipal. prinID-Tabelle.</p></td>
+<td><p>principalID</p></td>
+<td><p>Fremdschlüssel mit Abfrage der "tblPrincipal.prinID"-Tabelle.</p></td>
 </tr>
 <tr class="odd">
 <td><p>affiliationID</p></td>
-<td><p>Fremdschlüssel mit Lookup in der tblPrincipal. prinID-Tabelle.</p></td>
+<td><p>Fremdschlüssel mit Abfrage der tblPrincipal.prinID-Tabelle</p></td>
 </tr>
 </tbody>
 </table>

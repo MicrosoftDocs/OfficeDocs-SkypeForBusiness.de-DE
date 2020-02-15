@@ -12,20 +12,20 @@ ms:contentKeyID: 48184755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23a3b907702cda1ae3f528da8890256dd0facce1
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3f9da919b539ce80303889069379aea9abc89e80
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762063"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033724"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-meetings-and-conferences-in-lync-server-2013"></a>Verwalten von Besprechungen und Konferenzen in Lync Server 2013
+# <a name="managing-meetings-and-conferences-in-lync-server-2013"></a>Verwalten von Besprechungen und Konferenzen in lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41762063"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-08-09_
+_**Letztes Änderungsstand des Themas:** 2013-08-09_
 
-Die Themen in diesem Abschnitt enthalten Schritt-für-Schritt-Verfahren für Aufgaben, die Sie mithilfe der Seiten in der Gruppe **Konferenz** in der lync Server-Systemsteuerung ausführen können.
+Die Themen in diesem Abschnitt bieten schrittweise Anleitungen für Aufgaben, die Sie mithilfe der Seiten in der **Konferenz** Gruppe in lync Server-Systemsteuerung ausführen können.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Konfigurationseinstellungen für Besprechungen in lync Server 2013](lync-server-2013-meeting-configuration-settings.md)
+  - [Besprechungs Konfigurationseinstellungen in lync Server 2013](lync-server-2013-meeting-configuration-settings.md)
 
   - [Konferenzrichtlinien in lync Server 2013](lync-server-2013-conferencing-policies.md)
 
   - [Einwahlkonferenzen in lync Server 2013 (Konfiguration/Zugriffsnummern)](lync-server-2013-dial-in-conferencing-configuration-access-numbers.md)
 
-  - [Verwenden von "rufen Sie mich an" mit einem lync-fähigen Telefon und lync Server 2013](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
+  - [Verwenden von "anrufen unter" mit einem lync-fähigen Telefon und lync Server 2013](lync-server-2013-using-call-me-at-with-a-lync-enabled-phone.md)
 
 </div>
 

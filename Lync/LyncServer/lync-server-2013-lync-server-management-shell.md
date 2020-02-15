@@ -12,20 +12,20 @@ ms:contentKeyID: 48184386
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d519b647eae4937af10a38673803484a253baef7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8d8ba2330e59d4f352407d94c6e73f96a5fff816
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742185"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006161"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-2013-management-shell"></a>Verwaltungsshell für Lync Server 2013
+# <a name="lync-server-2013-management-shell"></a>Lync Server 2013 Management-Shell
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41742185"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2017-09-20_
+_**Letztes Änderungsstand des Themas:** 2017-09-20_
 
 <div>
 
 
 > [!NOTE]  
-> Die Skype for Business-Cmdlet-Referenz wurde in docs.Microsoft.com verschoben. Wenn Sie auf die Links unten klicken, gelangen Sie zur neuen docs.Microsoft.com-Seite. Der Inhalt wird nun über GitHub freigegeben und steht für Community-Beiträge zur Verfügung. Möchten Sie einen Beitrag leisten? Schauen Sie sich die Readme-Datei im Repo hier an:<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
+> Die Skype for Business-Cmdlet-Referenz wurde zu docs.Microsoft.com verschoben. Durch Klicken auf die unten aufgeführten Links gelangen Sie zur neuen docs.Microsoft.com-Seite. Der Inhalt ist nun Open sourced und für Community-Beiträge über GitHub verfügbar. Möchten Sie einen Beitrag leisten? Lesen Sie die Readme-Datei im Repo hier:<A href="https://github.com/microsoftdocs/office-docs-powershell">https://github.com/MicrosoftDocs/office-docs-powershell</A>
 
 
 
 </div>
 
-Microsoft lync Server 2010 hat einen umfangreichen Satz neuer und verbesserter Features im Vergleich zu den in Microsoft Office Communications Server 2007 R2 verfügbaren Funktionen eingeführt. Eine Verbesserung ist die Art und Weise, in der Sie Ihre Implementierung verwalten. So gibt es beispielsweise eine neue Benutzeroberfläche, die so genannte lync Server-Systemsteuerung, die eine große Schicht von dem entspricht, was die meisten Personen mit der Microsoft Management Console gewohnt sind. Eine weitere wesentliche Verbesserung der Verwaltbarkeit ist die Einbeziehung von Windows PowerShell.
+In Microsoft lync Server 2010 wurde eine große Menge neuer und verbesserter Features im Vergleich zu den in Microsoft Office Communications Server 2007 R2 verfügbaren Funktionen eingeführt. Eine Verbesserung ist die Methode zur Verwaltung Ihrer Implementierung. Es gibt beispielsweise eine neue Benutzeroberfläche, die als lync Server-Systemsteuerung bezeichnet wird, die eine große Verschiebung von der Verwendung der meisten Personen mit der Microsoft Management Console darstellt. Die andere wesentliche Verbesserung der Verwaltbarkeit ist die Einbeziehung von Windows PowerShell.
 
-Mit Windows PowerShell können Sie Microsoft-Anwendungen über die Befehlszeile verwalten. Enthalten sind eine Befehlszeilenumgebung, produktspezifische Befehle und eine vollständige Skriptsprache. Windows PowerShell wurde erst spät in 2006 als herunterladbare Version für das Windows-Betriebssystem eingeführt und als Befehlszeilenschnittstelle für die Verwaltbarkeit von Microsoft Exchange Server 2007 integriert. Von diesem Zeitpunkt an wurde es weiter ausgebaut, und es wurde in die meisten Microsoft-Serverprodukte integriert, wobei es sich um die neueste Microsoft lync Server 2013 handelt. Lync Server 2010 hat nahezu 550 produktspezifische Cmdlets eingeführt, mit denen Sie alle Aspekte Ihrer Bereitstellung verwalten können.
+Windows PowerShell können Sie Microsoft-Anwendungen über die Befehlszeile verwalten. Windows PowerShell umfasst eine Befehlszeilenumgebung, produktspezifische Befehle und eine vollständige Skriptsprache. Windows PowerShell wurde erst spät in 2006 als herunterladbare Version für das Windows-Betriebssystem eingeführt und als Befehlszeilenschnittstelle für die Verwaltbarkeit von Microsoft Exchange Server 2007 integriert. Von diesem Moment an wuchs es weiter an und wurde in die meisten Microsoft-Server Produkte integriert, wobei die neueste Microsoft lync Server 2013. Lync Server 2010 haben fast 550 produktspezifische Cmdlets eingeführt, mit denen Sie jeden Aspekt Ihrer Bereitstellung verwalten können.
 
-Die folgenden Abschnitte enthalten eine Liste der Cmdlets sowie Beschreibungen der Cmdlets. Diese Informationen stehen auch direkt über die Befehlszeile zur Verfügung. Geben Sie einfach Folgendes an der Eingabeaufforderung der lync Server-Verwaltungsshell ein:
+Die folgenden Abschnitte enthalten eine Liste der Cmdlets sowie Beschreibungen der Cmdlets. Diese Informationen stehen auch direkt über die Befehlszeile zur Verfügung. Geben Sie einfach an der lync Server-Verwaltungsshell Eingabeaufforderung Folgendes ein:
 
     Get-Help <cmdlet name> -Full
 
@@ -59,22 +59,22 @@ Wenn Sie beispielsweise Hilfeinformationen zum Cmdlet **New-CsVoicePolicy** von 
 
     Get-Help New-CsVoicePolicy -Full
 
-Wissenswertes zu Windows PowerShell in lync Server 2013:
+Wissenswerte über Windows PowerShell in lync Server 2013:
 
-  - Zum Ausführen der lync Server-Cmdlets öffnen Sie die lync Server-Verwaltungsshell.
+  - Öffnen Sie zum Ausführen der lync Server-Cmdlets das lync Server-Verwaltungsshell.
     
     <div>
     
 
     > [!WARNING]  
-    > Wenn Sie ein Windows PowerShell-Fenster anstelle der lync Server-Verwaltungsshell öffnen, können Sie die lync Server-Cmdlets standardmäßig nicht ausführen. Wenn Sie die lync Server-Cmdlets in Windows PowerShell ausführen möchten, geben Sie zuerst Folgendes an der Windows PowerShell-Eingabeaufforderung ein:<BR>Importieren – Modul lync
+    > Wenn Sie ein Windows PowerShell Fenster anstatt des lync Server-Verwaltungsshells öffnen, können Sie die lync Server-Cmdlets standardmäßig nicht ausführen. Geben Sie an der Windows PowerShell-Eingabeaufforderung Folgendes ein, um die lync Server-Cmdlets in Windows PowerShell auszuführen:<BR>Import-Module Lync
 
     
     </div>
 
-  - Die lync Server-Verwaltungsshell wird automatisch auf jedem lync Server Enterprise Edition-Front-End-Server oder Standard Edition-Server installiert.
+  - Lync Server-Verwaltungsshell wird automatisch auf allen lync Server Enterprise Edition-Front-End-Server oder-Standard Edition-Server installiert.
 
-  - Neue und aktualisierte Informationen, Beispielskripts und Hilfe für erste Schritte und weitere Informationen zu Windows PowerShell-und Microsoft lync Server 2013-Cmdlets finden Sie im lync Server Windows PowerShell- [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)Blog.
+  - Auf der lync Server Windows PowerShell Blog [https://go.microsoft.com/fwlink/p/?linkId=203150](https://go.microsoft.com/fwlink/p/?linkid=203150)finden Sie neue und aktualisierte Informationen, Beispielskripts und Hilfe zum Thema Windows PowerShell und Microsoft lync Server 2013-Cmdlets.
 
 </div>
 

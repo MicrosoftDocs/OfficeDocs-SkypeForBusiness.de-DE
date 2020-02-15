@@ -1,5 +1,5 @@
 ---
-title: Verbinden einer Survivable Branch Appliance
+title: Verbinden eines Survivable Branch Appliance
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733886
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ef6294deba25998c5ad16254e464b6f682fa660
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 77382343fa7736c90ac208f8d13f81bc74969efa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723165"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006521"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="connect-a-survivable-branch-appliance"></a>Verbinden einer Survivable Branch Appliance
+# <a name="connect-a-survivable-branch-appliance"></a>Verbinden eines Survivable Branch Appliance
 
 </div>
 
@@ -35,64 +35,64 @@ ms.locfileid: "41723165"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-Jede Survivable Branch Appliance (SBA) ist mit einem Front-End-Pool verbunden, der als Backup-Registrar für die SBA fungiert. Wenn der Front-End-Pool zu lync Server 2013 migriert wird, muss die SBA vom lync Server 2010-Front-End-Pool nicht zugeordnet werden, während der Pool aktualisiert wird, nachdem der Pool zu lync Server 2013 migriert wurde, kann die SBA erneut mit dem aktualisierten Front-End-Pool verknüpft werden. Dies umfasst das Löschen des SBA aus der Legacy lync Server 2010-Topologie im Topologie-Generator und das anschließende Hinzufügen der SBA zur lync Server 2013-Topologie. Benutzer, die auf dem Legacy-lync Server 2010 SBA verwaltet werden, müssen zuerst in einen anderen Front-End-Pool verschoben werden, bevor Sie die SBA aus der Topologie entfernen. Sobald die SBA zur lync Server 2013-Topologie hinzugefügt wurde, können diese Benutzer wieder in die SBA verschoben werden. Nachfolgend werden die folgenden Schritte zusammengefasst:
+Jede Survivable Branch Appliance (SBA) ist einer Front-End-Pool zugeordnet, die als Sicherungs Registrierungsstelle für die SBVg dient. Wenn die Front-End-Pool zu lync Server 2013 migriert wird, muss die SBVg von der lync Server 2010 entfernt werden Front-End-Pool während der Pool aktualisiert wird, nachdem der Pool zu lync Server 2013 migriert wurde, kann die SBVg erneut mit der aktualisierten Front-End-Pool verbunden werden. Dies umfasst das Löschen des SBA aus der Legacy lync Server 2010-Topologie im Topologie-Generator und das anschließende Hinzufügen des SBA zur lync Server 2013-Topologie. Benutzer, die auf dem Legacy lync Server 2010 SBA verwaltet werden, müssen zunächst in eine andere Front-End-Pool verschoben werden, bevor Sie die SBA aus der Topologie entfernen. Sobald die SBVg der lync Server 2013-Topologie hinzugefügt wurde, können diese Benutzer wieder in die SBVg verschoben werden. Die dazu erforderlichen Schritte sind im Folgenden zusammengefasst:
 
-1.  Verschieben Sie Branch-Benutzer, die sich auf der Legacy-SBA lync Server 2010 befinden, in einen anderen Front-End-Pool.
+1.  Verlagern Sie Zweigstellenbenutzer, die in der Legacy-SBA-lync Server 2010 sind, in einen anderen Front-End-Pool
 
-2.  Entfernen Sie SBA aus der Legacy lync Server 2010-Topologie, um den vorhandenen Front-End-Pool als Sicherungs Registrierungsstelle zu trennen.
+2.  Entfernen Sie SBA aus der Legacy lync Server 2010-Topologie, um die vorhandene Front-End-Pool als Sicherungs Registrierungsstelle zu trennen.
 
-3.  Fügen Sie SBA zur lync Server 2013-Topologie hinzu, und konfigurieren Sie diesen neuen Front-End-Pool als Sicherungs Registrierungsstelle.
+3.  Fügen Sie SBA zur lync Server 2013-Topologie hinzu, und konfigurieren Sie diese neue Front-End-Pool als Sicherungs Registrierungsstelle.
 
-4.  Verschieben Sie die Benutzer der Verzweigung in den neuen lync Server 2013 SBA.
+4.  Stellen Sie die Zweigstellenbenutzer in den neuen lync Server 2013 SBA.
 
-**Hinzufügen der lync Server 2010 SBA-Verzweigungs Website zu Ihrer Topologie**
+**Hinzufügen lync Server 2010 SBA-Zweigstellen Standorts zu Ihrer Topologie**
 
 1.  Öffnen Sie den **Topologie-Generator**.
 
-2.  Klicken Sie im linken Bereich mit der rechten Maustaste auf **Verzweigungs Websites**, und klicken Sie dann auf **neue Verzweigungs Website**.
+2.  Klicken Sie im linken Bereich mit der rechten Maustaste auf **Zweigstellenstandorte**, und klicken Sie dann auf **Neue Zweigstelle**.
 
-3.  Klicken Sie im Dialogfeld **neue Verzweigungs Website definieren** auf **Name**, und geben Sie dann den Namen der Verzweigungs Website ein.
+3.  Klicken Sie im Dialogfeld **Neuen Zweigstellenstandort definieren** auf **Name**, und geben Sie den Namen für den Zweigstellenstandort ein.
 
-4.  Optional Klicken Sie auf **Beschreibung**, und geben Sie eine aussagekräftige Beschreibung für die Verzweigungs Website ein.
+4.  (Optional) Klicken Sie auf **Beschreibung**, und geben Sie eine aussagekräftige Beschreibung für den Zweigstellenstandort ein.
 
 5.  Klicken Sie auf **Weiter**.
 
-6.  Optional Führen Sie im nächsten Dialogfeld **neue Verzweigungs Website definieren** eine der folgenden Aktionen aus:
+6.  (Optional) Führen Sie im nächsten Dialogfeld **Neuen Zweigstellenstandort definieren** einen der folgenden Schritte aus:
     
-    1.  Klicken Sie auf **Stadt**, und geben Sie dann den Namen des Orts ein, in dem sich die Zweigstelle befindet.
+    1.  Klicken Sie auf **Ort**, und geben Sie den Namen der Stadt ein, in der sich der Zweigstellenstandort befindet.
     
-    2.  Klicken Sie auf **Bundesland/Region**, und geben Sie dann den Namen des Bundeslands oder der Region ein, in dem sich die Verzweigungs Website befindet.
+    2.  Klicken Sie auf **Bundesland/Kanton**, und geben Sie den Namen des Bundeslands bzw. Kantons ein, in dem sich der Zweigstellenstandort befindet.
     
-    3.  Klicken Sie auf **Landesvorwahl**, und geben Sie dann den zweistelligen anrufcode für das Land/die Region ein, in dem sich die Zweigstelle befindet.
+    3.  Klicken Sie auf **Ländercode**, und geben Sie den zweistelligen Ländercode für das Land ein, in dem sich der Zweigstellenstandort befindet.
 
-7.  Klicken Sie auf **weiter**, und führen Sie dann eine der folgenden Aktionen aus:
+7.  Klicken Sie auf **Weiter**, und führen Sie einen der folgenden Schritte aus:
     
-    1.  Wenn Sie eine überlebensfähige lync 2010-Branch-Appliance oder einen Server auf dieser Website verwenden, deaktivieren Sie das Kontrollkästchen **neuen Überlebenden Assistenten öffnen, wenn dieser Assistent geschlossen** wird. Klicken Sie auf **Fertig stellen**.
+    1.  Wenn Sie ein lync 2010-Survivable Branch Appliance oder-Server an dieser Website verwenden, deaktivieren Sie die Option Öffnen Sie den neuen übergebenen **Assistenten, wenn dieser Assistent geschlossen** wird. Klicken Sie auf **Fertig stellen**.
 
-8.  So ordnen Sie den Legacy-lync Server 2010 SBA dem lync Server 2013-Front-End-Pool zu:
+8.  So ordnen Sie das Legacy lync Server 2010 SBA dem lync Server 2013 Front-End-Pool zu:
     
-    1.  Erweitern Sie die erstellte Verzweigungs Website.
+    1.  Erweitern Sie den Zweigstellenstandort, der erstellt wurde.
     
     2.  Klicken Sie mit der rechten Maustaste auf **lync Server 2010** , und klicken Sie dann auf **neu**.
     
     3.  Klicken Sie auf **Survivable Branch Appliance...**
 
-9.  Folgen Sie den Anweisungen im Assistenten, der geöffnet wird. Informationen zu Assistenten Elementen finden Sie unter Definieren einer überlebensfähigen [Verzweigungs Einheit oder eines Servers in lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
+9.  Befolgen Sie die Anweisungen im Assistenten, der geöffnet wird. Informationen zu Assistenten Elementen finden Sie unter [define a Survivable Branch Appliance or Server in lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
     
     <div>
     
 
     > [!NOTE]  
-    > Eine Survivable Branch-Appliance von lync Server 2010 kann nur einem lync Server 2010-Überwachungsspeicher zugeordnet werden.
+    > Ein lync Server 2010 Survivable Branch Appliance kann nur einem lync Server 2010 Überwachungsspeicher zugeordnet werden.
 
     
     </div>
 
-10. Wenn Sie keine Survivable Branch-Appliance oder einen Server an dieser Website verwenden, deaktivieren Sie das Kontrollkästchen **neuen Überlebenden Assistenten öffnen, wenn dieser Assistent geschlossen** wird, und klicken Sie dann auf **Fertig stellen**.
+10. Wenn Sie an diesem Standort keinen Survivable Branch Appliance oder Server verwenden, deaktivieren Sie das Kontrollkästchen **neuen überlebten Assistenten öffnen, wenn dieser Assistent geschlossen** wird, und klicken Sie dann auf **Fertig stellen**.
 
-11. Wiederholen Sie die vorherigen Schritte für jede Verzweigungs Website, die Sie der Topologie hinzufügen möchten.
+11. Wiederholen Sie die vorherigen Schritte für jeden Zweigstellenstandort, den Sie der Topologie hinzufügen möchten.
 
 </div>
 

@@ -12,16 +12,16 @@ ms:contentKeyID: 54973688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee6bc90743e20f69579c86c565395e0375c8bb0b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3d51d4ff13fa6ec07827c638db49d9a75d370e71
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41734465"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41996140"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41734465"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-07-03_
+_**Letztes Änderungsstand des Themas:** 2013-07-03_
 
-In den folgenden Abschnitten werden die erforderlichen Schritte beschrieben, um für eine Bereitstellung zweistufige Authentifizierungen zu konfigurieren. Weitere Informationen zur zweistufigen Authentifizierung finden Sie unter [Aktivieren der mehrstufigen Authentifizierung von Office 365 für Online Administratoren – Grid User Post](http://go.microsoft.com/fwlink/p/?linkid=313332).
+In den folgenden Abschnitten werden die erforderlichen Schritte zum Konfigurieren der zweistufigen Authentifizierung für Ihre Bereitstellung beschrieben. Weitere Informationen zur zweistufigen Authentifizierung finden Sie unter [Enabling Office 365 Multi-Factor Authentication for Online Administrators-Grid User Post](http://go.microsoft.com/fwlink/p/?linkid=313332).
 
 <div>
 
@@ -45,15 +45,15 @@ In den folgenden Abschnitten werden die erforderlichen Schritte beschrieben, um 
 
 [Konfigurieren der Unternehmenszertifizierungsstelle für die Smartcard-Authentifizierung in lync Server 2013](lync-server-2013-configuring-enterprise-ca-for-smart-card-authentication.md)
 
-[Konfigurieren von Windows 8 für die Verwendung virtueller Smartcards mit lync Server 2013](lync-server-2013-configuring-windows-8-for-virtual-smart-cards.md)
+[Konfigurieren Windows 8 für die Verwendung virtueller Smartcards mit lync Server 2013](lync-server-2013-configuring-windows-8-for-virtual-smart-cards.md)
 
 [Registrieren von Benutzern für die Smartcard-Authentifizierung in lync Server 2013](lync-server-2013-enrolling-users-for-smart-card-authentication.md)
 
-[Konfigurieren der Active Directory-Verbunddienste (AD FS 2,0) für lync Server 2013](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
+[Konfigurieren von Active Directory Verbunddiensten (AD FS 2.0) für lync Server 2013](lync-server-2013-configuring-active-directory-federation-services-ad-fs-2-0.md)
 
-[Konfigurieren von AD FS 2,0 zur Unterstützung der Clientauthentifizierung in lync Server 2013](lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md)
+[Konfigurieren AD FS 2.0 zur Unterstützung der Clientauthentifizierung in lync Server 2013](lync-server-2013-configuring-ad-fs-2-0-to-support-client-authentication.md)
 
-[Konfigurieren der passiven Authentifizierung in lync Server 2013](lync-server-2013-configuring-passive-authentication.md)
+[Konfigurieren lync Server 2013 passiven Authentifizierung](lync-server-2013-configuring-passive-authentication.md)
 
 </div>
 

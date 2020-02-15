@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Aktivieren eines Benutzers für die Verwaltung von Kategorien, Chatrooms, Benutzerrechten und Berechtigungen'
+title: 'Lync Server 2013: Aktivieren eines Benutzers zum Verwalten von Kategorien, Chatrooms und Benutzerrechten und-Berechtigungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48706002
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fa2c31a293f13fdca861f4183911272c55a2bad
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7bfa07380a5c6e73b8112cd0a421ed05c33bc1b9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735875"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034787"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions-in-lync-server-2013"></a>Aktivieren eines Benutzers für die Verwaltung von Kategorien, Chatrooms, Benutzerrechten und Berechtigungen in Lync Server 2013
+# <a name="enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions-in-lync-server-2013"></a>Aktivieren eines Benutzers zum Verwalten von Kategorien, Chatrooms und Benutzerrechten und Berechtigungen in lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41735875"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Mitglieder der Rolle **CsPersistentChatAdministrator** (beständiger Chat-Administrator) können anderen Benutzern und sich selbst die Rechte und Berechtigungen des Chatroom-Managers erteilen.
+Mitglieder der **"cspersistentchatadministrator"** -Rolle (Administratoren für beständigen Chat) können Chat Room Manager-Rechte und-Berechtigungen für andere Benutzer und sich selbst erteilen.
 
-Ein beständiger Chat-Administrator kann die folgenden Aktionen ausführen:
+Ein Administrator für beständigen Chat kann Folgendes ausführen:
 
-  - Erstellen Sie Raumkategorien und Chatrooms.
+  - Erstellen von Roomkategorien und Chatrooms
 
-  - Sie haben die Mitgliedschaft in allen Kategorien und Chatrooms eingestellt.
+  - Festlegen der Mitgliedschaft einer Kategorie oder eines Chatrooms
 
-  - Alle Einstellungen aller Kategorien und Chatrooms verwalten.
+  - Verwalten aller Einstellungen für alle Kategorien und Chatrooms
 
-  - Aktivieren oder Deaktivieren der Richtlinie für beständigen Chat Server
+  - Aktivieren oder deaktivieren Sie Richtlinie für den Server für beständigen Chat.
 
-  - Einrichten und Verwalten von Konfigurationseinstellungen in einem beständigen Chat Server Pool.
+  - Festlegen und Verwalten von Konfigurationseinstellungen für einen Server Pool für beständigen Chat.
 
 Ausführliche Informationen finden Sie unter [Hinzufügen eines Administrators für beständigen Chat in lync Server 2013](lync-server-2013-adding-a-persistent-chat-administrator.md) in der Bereitstellungsdokumentation.
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48184648
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 848f4dc19ddf64c53c2dd30ae6ca4c8036b67c79
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3a3571cd93ae5d69fa4a432035284b9a752287b1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764095"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033684"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblprincipalmeta-in-lync-server-2013"></a>tblPrincipalMeta in Lync Server 2013
+# <a name="tblprincipalmeta-in-lync-server-2013"></a>tblPrincipalMeta in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41764095"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+_**Letztes Änderungsstand des Themas:** 2012-09-12_
 
-tblPrincipalMeta enthält die Prinzipale, die aus den Active Directory-Domänendiensten aktualisiert werden müssen.
+tblPrincipalMeta enthält die Prinzipale, die aus Active Directory-Domänendienste aktualisiert werden müssen.
 
 ### <a name="columns"></a>Spalten
 
@@ -58,37 +58,37 @@ tblPrincipalMeta enthält die Prinzipale, die aus den Active Directory-Domänend
 <tr class="odd">
 <td><p>prinID</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Prinzipal-ID.</p></td>
+<td><p>Prinzipal-ID</p></td>
 </tr>
 <tr class="even">
 <td><p>prinAffiliationsDirty</p></td>
-<td><p>Bit, nicht NULL</p></td>
-<td><p>"True", wenn Haupt Zuordnungen aktualisiert werden müssen.</p></td>
+<td><p>bit, nicht NULL</p></td>
+<td><p>TRUE, wenn Prinzipalzuordnungen aktualisiert werden müssen.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAttributesDirty</p></td>
-<td><p>Bit, nicht NULL</p></td>
-<td><p>"True", wenn Prinzipal Attribute aktualisiert werden müssen.</p></td>
+<td><p>bit, nicht NULL</p></td>
+<td><p>TRUE, wenn Prinzipalattribute aktualisiert werden müssen.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDeleted</p></td>
-<td><p>Bit, nicht NULL</p></td>
-<td><p>"True", wenn der Prinzipal gelöscht wurde.</p></td>
+<td><p>bit, nicht NULL</p></td>
+<td><p>TRUE, wenn der Prinzipal gelöscht wurde.</p></td>
 </tr>
 <tr class="odd">
 <td><p>tryCount</p></td>
 <td><p>int</p></td>
-<td><p>Die Anzahl der Versuche, den Prinzipal von AD DS zu aktualisieren, die bisher geschehen sind.</p></td>
+<td><p>Anzahl der Versuche, den Prinzipal über AD DS zu aktualisieren, die bisher ausgeführt wurden.</p></td>
 </tr>
 <tr class="even">
 <td><p>lastTry</p></td>
-<td><p>datetime</p></td>
-<td><p>Zeitstempel des letzten Versuchs, den Prinzipal zu aktualisieren. Kann NULL sein, wenn noch keine Aktualisierung versucht wurde.</p></td>
+<td><p>Datum/Uhrzeit</p></td>
+<td><p>Zeitstempel des letzten Versuchs, den Prinzipal zu aktualisieren. Kann NULL sein, wenn bisher kein Aktualisierungsversuch unternommen wurde.</p></td>
 </tr>
 <tr class="odd">
 <td><p>nextTry</p></td>
-<td><p>datetime</p></td>
-<td><p>Zeitstempel für die nächste geplante Aktualisierung. Kann NULL sein, wenn keine weitere Aktualisierung geplant wurde.</p></td>
+<td><p>Datum/Uhrzeit</p></td>
+<td><p>Zeitstempel für die nächste geplante Aktualisierung. Kann NULL sein, wenn keine weitere Aktualisierung geplant ist.</p></td>
 </tr>
 </tbody>
 </table>
@@ -114,7 +114,7 @@ tblPrincipalMeta enthält die Prinzipale, die aus den Active Directory-Domänend
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>Fremdschlüssel mit Lookup in der tblPrincipal. prinID-Tabelle.</p></td>
+<td><p>Fremdschlüssel mit Abfrage der "tblPrincipal.prinID"-Tabelle.</p></td>
 </tr>
 </tbody>
 </table>

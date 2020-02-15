@@ -12,20 +12,20 @@ ms:contentKeyID: 49733757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe172863d2a1f8e762f8da2d6029f00531e04c70
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 289e210b8f8959c8bee471a73d9dc5680923d80d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743295"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41991930"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="managing-response-groups-in-lync-server-2013-during-a-disaster"></a>Verwalten von Reaktionsgruppen in Lync Server 2013 während eines Notfalls
+# <a name="managing-response-groups-in-lync-server-2013-during-a-disaster"></a>Verwalten von Reaktionsgruppen in lync Server 2013 während eines Notfalls
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41743295"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Lync Server 2013 unterstützt die Ausführung von Reaktionsgruppen im Backup-Pool während der Disaster Recovery. In diesem Abschnitt wird beschrieben, wie Sie bei einem Ausfall Reaktionsgruppen planen, wie Reaktionsgruppen während des Ausfalls funktionieren und welche Schritte für ein Failover und Zurücksetzen von Reaktionsgruppen erforderlich sind.
+Lync Server 2013 unterstützt das Durchführen von Reaktionsgruppen im Sicherungspool während der Notfallwiederherstellung. In diesem Abschnitt wird beschrieben, wie Reaktionsgruppen bei einem Ausfall geplant werden, wie Reaktionsgruppen während des Ausfalls funktionieren und welche Schritte zum Failover und zurücktreten von Reaktionsgruppen erforderlich sind.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Planen der Notfallwiederherstellung für Reaktionsgruppen in Lync Server 2013](lync-server-2013-planning-for-response-group-disaster-recovery.md)
+  - [Planen der Notfallwiederherstellung für Reaktionsgruppen in lync Server 2013](lync-server-2013-planning-for-response-group-disaster-recovery.md)
 
-  - [Abläufe für Reaktionsgruppen während des Ausfalls eines Pools in Lync Server 2013](lync-server-2013-response-group-experience-during-pool-failure.md)
+  - [Reaktionsgruppen Erfahrung in lync Server 2013 während eines Pool Fehlers](lync-server-2013-response-group-experience-during-pool-failure.md)
 
-  - [Verfahren für die Notfallwiederherstellung für Reaktionsgruppen in Lync Server 2013](lync-server-2013-response-group-disaster-recovery-procedures.md)
+  - [Notfallwiederherstellungsverfahren für Reaktionsgruppen in lync Server 2013](lync-server-2013-response-group-disaster-recovery-procedures.md)
 
 </div>
 

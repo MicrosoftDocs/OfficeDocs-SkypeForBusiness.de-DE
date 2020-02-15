@@ -12,20 +12,20 @@ ms:contentKeyID: 48706004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72f9774e53321ff6fe667b3b8c8dcfe0e78bcdaf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 40077d8092f8b0b78b6e9ce78cd16c6f1e0812f0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756719"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008237"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="moving-a-chat-room-from-one-category-to-another-in-lync-server-2013"></a>Verschieben eines Chatrooms von einer Kategorie in eine andere in Lync Server 2013
+# <a name="moving-a-chat-room-from-one-category-to-another-in-lync-server-2013"></a>Verschieben eines Chatrooms von einer Kategorie in eine andere in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41756719"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Wir empfehlen, dass Sie die Kategorie eines beständigen Chatrooms nach dem Erstellen des Chatrooms nicht ändern. Wenn der Chatroom-Manager jedoch über **Creator** -Privilegien in einer anderen Kategorie verfügt, kann er den Chatroom von einer Kategorie in eine andere verschieben. Der Raum wird nicht gelöscht und neu erstellt. Es handelt sich um eine Änderung der Zuordnung innerhalb der Datenbank.
+Es wird empfohlen, die Kategorie eines beständigen Chatrooms nicht zu ändern, nachdem der Chatroom erstellt wurde. Wenn der Chatroom-Manager jedoch über **Creator**-Berechtigungen in einer anderen Kategorie verfügt, kann er den Room von einer Kategorie in eine andere verschieben. Der Room wird hierbei weder gelöscht noch neu erstellt. Es wird lediglich die Zuordnung in der Datenbank geändert.
 
-Das Ändern einer Chatroom-Kategorie sollte selten erfolgen. Eine Kategorie bestimmt die zulässige Mitgliedschaft für den Chatroom, sodass beim Verschieben eines Chatrooms in eine andere Kategorie alle Systemzugriffssteuerungslisten (SACLs), die von der neuen Kategorie nicht mehr unterstützt werden, gelöscht werden. Wenn ein Benutzer beispielsweise Mitglied des Chatrooms und nicht mehr ein **AllowedMember** in der neuen Kategorie ist, wird die Raummitgliedschaft geändert, und der Benutzer wird aus dem Chatroom entfernt.
+Chatroomkategorien sollten eher selten geändert werden. Eine Kategorie legt die erlaubte Mitgliedschaft für einen Chatroom fest. Wenn also der Chatroom in eine andere Kategorie verschoben wird, werden alle Systemzugriffssteuerungslisten (SACLs) gelöscht, die von der neuen Kategorie nicht unterstützt werden. Wenn beispielsweise ein Benutzer Mitglied eines Chatrooms war und nun kein **AllowedMember** der neuen Kategorie mehr ist, wird die Mitgliedschaft für den Chatroom geändert und der Benutzer aus diesem entfernt.
 
-Ausführliche Informationen zum Verschieben eines Chatrooms mithilfe der Windows PowerShell-Befehlszeilenoberfläche finden Sie unter "Room Management" in [Konfigurieren des Servers für beständigen Chat mithilfe von Windows PowerShell-Cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).
+Ausführliche Informationen zum Verschieben eines Chatrooms mithilfe der Befehlszeilenschnittstelle Windows PowerShell finden Sie unter "Raumverwaltung" im Thema [Konfigurieren des Servers für beständigen Chat mithilfe von Windows PowerShell-Cmdlets](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).
 
-Details zum Konfigurieren von Chatrooms finden Sie unter [Konfigurieren von Räumen in lync Server 2013](lync-server-2013-configure-rooms.md) in der Bereitstellungsdokumentation.
+Ausführliche Informationen zum Konfigurieren von Chatrooms finden Sie unter [configure Rooms in lync Server 2013](lync-server-2013-configure-rooms.md) in der Bereitstellungsdokumentation.
 
 </div>
 

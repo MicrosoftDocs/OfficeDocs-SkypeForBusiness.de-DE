@@ -1,5 +1,5 @@
 ---
-title: Beispiel für die Erfassung Ihrer Anforderungen für die Anrufsteuerung
+title: Beispiel für das Sammeln Ihrer Anforderungen für die Anrufsteuerung
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 345f5d7e41dd9da3e6d68c59ce9656d3052c57b5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 204339161cf5af83f0d9e393a0a4db981c0e8445
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756269"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035157"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="example-gathering-your-requirements-for-call-admission-control-in-lync-server-2013"></a>Beispiel: Erfassen Ihrer Anforderungen für die Anrufsteuerung in lync Server 2013
+# <a name="example-gathering-your-requirements-for-call-admission-control-in-lync-server-2013"></a>Beispiel: Sammeln der Anforderungen für die Anrufsteuerung in lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41756269"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Dieses Beispiel führt Sie Schritt für Schritt durch die Planung und Implementierung des Anrufsteuerungsdiensts (Call Admission Control, CAC). Bei diesem Verfahren werden die folgenden allgemeinen Aufgaben ausgeführt:
+Dieses Beispiel führt Sie Schritt für Schritt durch die Planung und Implementierung der Anrufsteuerungsdiensts (Call Admission Control, CAC). Bei diesem Verfahren werden die folgenden allgemeinen Aufgaben ausgeführt:
 
 1.  Identifizieren aller Netzwerkhubs und Backbones (als *Netzwerkregionen* bezeichnet).
 
-2.  Ermitteln Sie die lync Server Central-Website, die die CAC für jede netzwerkregion verwaltet.
+2.  Identifizieren des lync Server zentralen Standorts, der die Anrufsteuerung für jede netzwerkregion verwalten wird.
 
 3.  Identifizieren und Definieren der *Netzwerkstandorte*, die mit jeder Netzwerkregion verbunden sind.
 
-4.  Beschreiben Sie für jede Netzwerk Website, deren Verbindung mit dem WAN von der Bandbreite abhängig ist, die Bandbreitenkapazität der WAN-Verbindung und die Bandbreitenbeschränkungen, die der Netzwerkadministrator für den lync Server-Mediendatenverkehr festgelegt hat (falls zutreffend). Standorte mit WAN-Verbindungen ohne Bandbreiteneinschränkung müssen nicht einbezogen werden.
+4.  Beschreiben Sie für jeden Netzwerkstandort, dessen Verbindung mit dem WAN Bandbreite eingeschränkt ist, die Bandbreitenkapazität der WAN-Verbindung und die Bandbreitenbeschränkungen, die der Netzwerkadministrator für lync Server Mediendatenverkehr festgelegt hat (sofern zutreffend). Standorte mit WAN-Verbindungen ohne Bandbreiteneinschränkung müssen nicht einbezogen werden.
 
 5.  Zuordnen der einzelnen Subnetze in Ihrem Netzwerk zu einem Netzwerkstandort.
 
-6.  Zuordnen der Verbindungen zwischen den Netzwerkregionen. Beschreiben Sie für jeden Link die Bandbreitenkapazität sowie alle Einschränkungen, die der Netzwerkadministrator für den Mediendatenverkehr in lync Server festgelegt hat.
+6.  Zuordnen der Verbindungen zwischen den Netzwerkregionen. Beschreiben Sie für jeden Link die Bandbreitenkapazität und alle Beschränkungen, die der Netzwerkadministrator für lync Server Mediendatenverkehr festgelegt hat.
 
 7.  Definieren einer Route zwischen jedem Netzwerkregionenpaar.
 
@@ -65,26 +65,26 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     
     Die hier vorgestellte Beispieltopologie umfasst drei Netzwerkregionen: Nordamerika, EMEA und APAC. Eine Netzwerkregion enthält verschiedene Netzwerkstandorte. Arbeiten Sie mit Ihrem Netzwerkadministrator zusammen, um die Netzwerkregionen für Ihr Unternehmen zu definieren.
 
-2.  Identifizieren Sie den zentralen Standort, dem jede Netzwerkregion zugeordnet ist. Eine zentrale Website enthält mindestens einen Front-End-Server und ist die lync Server-Bereitstellung, die CAC für den gesamten Mediendatenverkehr verwaltet, der die WAN-Verbindung des Netzwerkbereichs durchläuft.
+2.  Identifizieren Sie den zentralen Standort, dem jede Netzwerkregion zugeordnet ist. Ein zentraler Standort enthält mindestens eine Front-End-Server und ist die lync Server-Bereitstellung, die die Anrufsteuerung für den gesamten Mediendatenverkehr verwaltet, der über die WAN-Verbindung der netzwerkregion geleitet wird.
     
     **Beispielunternehmensnetzwerk mit drei Netzwerkregionen**
     
-    ![Beispiel für eine Netzwerktopologie mit 3 netzwerkregionen](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Beispiel für eine Netzwerktopologie mit 3 netzwerkregionen")  
+    ![Beispiel für eine Netzwerktopologie mit drei netzwerkregionen](images/Gg425827.08937347-250f-488f-ba5f-c256e6afcd8b(OCS.15).jpg "Beispiel für eine Netzwerktopologie mit drei netzwerkregionen")  
     
     <div>
     
 
     > [!NOTE]
-    > Ein MPLS-Netzwerk (Multiprotocol Label Switching) sollte als Netzwerkregion abgebildet werden, bei der jeder geografische Standort über einen entsprechenden Netzwerkstandort verfügt. Ausführliche Informationen finden Sie in der Planungsdokumentation unter dem Thema "<A href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Anrufsteuerung in einem MPLS-Netzwerk mit lync Server 2013</A>".
+    > Ein MPLS-Netzwerk (Multiprotocol Label Switching) sollte als Netzwerkregion abgebildet werden, bei der jeder geografische Standort über einen entsprechenden Netzwerkstandort verfügt. Ausführliche Informationen finden Sie im Thema "<A href="lync-server-2013-call-admission-control-on-an-mpls-network.md">Anrufsteuerung für ein MPLS-Netzwerk mit lync Server 2013</A>" in der Planungsdokumentation.
 
     
     </div>
     
-    In der vorhergehenden Beispiel-Netzwerktopologie gibt es drei netzwerkregionen, die jeweils einen zentralen lync Server-Standort aufweisen, der CAC verwaltet. Der geeignete zentrale Standort für eine Netzwerkregion wird nach geografischer Nähe ausgewählt. Da innerhalb der Netzwerkregionen das Aufkommen an Mediendatenverkehr am höchsten ist, führt die Festlegung nach geografischer Nähe zu einer eigenständigen Konfiguration, die auch dann noch funktionsfähig ist, wenn andere zentrale Standorte ausfallen.
+    In der vorherigen Beispiel Netzwerktopologie gibt es drei netzwerkregionen mit jeweils einem lync Server zentralen Standort, der die Anrufsteuerung verwaltet. Der geeignete zentrale Standort für eine Netzwerkregion wird nach geografischer Nähe ausgewählt. Da innerhalb der Netzwerkregionen das Aufkommen an Mediendatenverkehr am höchsten ist, führt die Festlegung nach geografischer Nähe zu einer eigenständigen Konfiguration, die auch dann noch funktionsfähig ist, wenn andere zentrale Standorte ausfallen.
     
-    In diesem Beispiel ist eine lync Server-Bereitstellung mit dem Namen Chicago der zentrale Standort für die Region Nordamerika.
+    In diesem Beispiel ist eine lync Server-Bereitstellung namens "Chicago" der zentrale Standort für die Region "Nordamerika".
     
-    Alle lync-Benutzer in Nordamerika sind in der Chicago-Bereitstellung auf Servern verwaltet. Die folgende Tabelle zeigt die zentralen Standorte für alle drei Netzwerkregionen.
+    Alle lync-Benutzer in Nordamerika werden auf Servern in der Bereitstellung von Chicago verwaltet. Die folgende Tabelle zeigt die zentralen Standorte für alle drei Netzwerkregionen.
     
     ### <a name="network-regions-and-their-associated-central-sites"></a>Netzwerkregionen und zugeordnete zentrale Standorte
     
@@ -119,14 +119,14 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     
 
     > [!NOTE]
-    > Je nach lync Server-Topologie kann derselbe zentrale Standort mehreren netzwerkregionen zugewiesen werden.
+    > Je nach lync Server Topologie kann derselbe zentrale Standort mehreren netzwerkregionen zugewiesen werden.
 
     
     </div>
 
 3.  Identifizieren Sie für jede Netzwerkregion alle Netzwerkstandorte (Büros oder Zweigstellen), für deren WAN-Verbindungen keine Bandbreiteneinschränkungen gelten. Da diese Standorte keine Bandbreiteneinschränkungen aufweisen, müssen keine Richtlinien für die Anrufsteuerung auf sie angewendet werden.
     
-    Im Beispiel in der folgenden Tabelle gibt es drei Netzwerkstandorte, deren WAN-Verbindungen keine Bandbreiteneinschränkungen aufweisen: „New York“, „Chicago“ und „Detroit“.
+    Im Beispiel in der folgenden Tabelle gibt es drei Netzwerkstandorte, deren WAN-Verbindungen keine Bandbreiteneinschränkungen aufweisen: "New York", "Chicago" und "Detroit".
     
     ### <a name="network-sites-not-constrained-by-wan-bandwidth"></a>Netzwerkstandorte ohne Einschränkungen in Bezug auf die WAN-Bandbreite
     
@@ -162,7 +162,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     
     Um die Audio- und Videoqualität besser sicherstellen zu können, wird für diese Netzwerkstandorte mit Bandbreiteneinschränkungen empfohlen, die WAN-Verbindungen zu überwachen und Richtlinien für die Anrufsteuerung anzuwenden, um den Mediendatenverkehr (Sprache oder Video) von und zu der Netzwerkregion zu beschränken.
     
-    Im Beispiel in der folgenden Tabelle sind drei Netzwerkstandorte vorhanden, deren WAN-Bandbreite eingeschränkt ist: „Portland“, „Reno“ und „Albuquerque“.
+    Im Beispiel in der folgenden Tabelle sind drei Netzwerkstandorte vorhanden, deren WAN-Bandbreite eingeschränkt ist: "Portland", "Reno" und "Albuquerque".
     
     ### <a name="network-sites-constrained-by-wan-bandwidth"></a>Netzwerkstandorte mit Einschränkungen in Bezug auf die WAN-Bandbreite
     
@@ -193,19 +193,19 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     </tbody>
     </table>
     
-    **Anrufsteuerung in der Netzwerkregion „Nordamerika“ mit drei Netzwerkstandorten, die keine Bandbreiteneinschränkung aufweisen (Chicago, New York und Detroit), und drei Netzwerkstandorten mit eingeschränkter WAN-Bandbreite (Portland, Reno und Albuquerque)**
+    **Anrufsteuerung in der Netzwerkregion "Nordamerika" mit drei Netzwerkstandorten, die keine Bandbreiteneinschränkung aufweisen (Chicago, New York und Detroit), und drei Netzwerkstandorten mit eingeschränkter WAN-Bandbreite (Portland, Reno und Albuquerque)**
     
-    ![Beispiel für Netzwerk Websites, die durch WAN-Bandbreite beschränkt sind](images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Beispiel für Netzwerk Websites, die durch WAN-Bandbreite beschränkt sind")  
+    ![Beispiel für Netzwerkstandorte mit eingeschränkter WAN-Bandbreite](images/Gg425827.d9d1f231-db4d-4dd7-8fbc-eb0b6d1e705d(OCS.15).jpg "Beispiel für Netzwerkstandorte mit eingeschränkter WAN-Bandbreite")  
 
 5.  Ermitteln Sie für jede WAN-Verbindung mit eingeschränkter Bandbreite die folgenden Informationen:
     
-      - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten. Wenn diese Grenze durch eine neue Audiositzung überschritten wird, lässt Lync Server den Start der Sitzung nicht zu.
+      - Bandbreiteneinschränkung gesamt, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten. Wenn bei einer neuen Audiositzung dieser Grenzwert überschritten wird, lässt Lync Server die Sitzung nicht starten.
     
-      - Die Bandbreiteneinschränkung, die Sie für jede einzelne Audiositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 175 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
+      - Bandbreiteneinschränkung, die Sie für jede einzelne Audiositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 175 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
     
-      - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Videositzungen festlegen möchten. Wenn diese Grenze durch eine neue Videositzung überschritten wird, lässt Lync Server den Start der Sitzung nicht zu.
+      - Bandbreiteneinschränkung gesamt, die Sie für alle gleichzeitigen Videositzungen festlegen möchten. Wenn eine neue Videositzung dazu führt, dass dieser Grenzwert überschritten wird, lässt Lync Server die Sitzung nicht starten.
     
-      - Die Bandbreiteneinschränkung, die Sie für jede einzelne Videositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 700 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
+      - Bandbreiteneinschränkung, die Sie für jede einzelne Videositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 700 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
     
     ### <a name="network-sites-with-wan-bandwidth-constraint-information-bandwidth-in-kbps"></a>Netzwerkstandorte mit Informationen zur WAN-Bandbreiteneinschränkung (Bandbreite in KBit/s)
     
@@ -234,8 +234,8 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     <tr class="odd">
     <td><p>Albuquerque</p></td>
     <td><p>Nordamerika</p></td>
-    <td><p>5.000</p></td>
-    <td><p>2.000</p></td>
+    <td><p>5,000</p></td>
+    <td><p>2,000</p></td>
     <td><p>175</p></td>
     <td><p>1.400</p></td>
     <td><p>700</p></td>
@@ -252,7 +252,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     <tr class="odd">
     <td><p>Portland</p></td>
     <td><p>Nordamerika</p></td>
-    <td><p>5.000</p></td>
+    <td><p>5,000</p></td>
     <td><p>4.000</p></td>
     <td><p>175</p></td>
     <td><p>2.800</p></td>
@@ -295,7 +295,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     
 
     > [!IMPORTANT]
-    > Jedes Subnetz in Ihrem Netzwerk muss einem Netzwerkstandort zugeordnet sein - selbst dann, wenn für den Netzwerkstandort keine Bandbreiteneinschränkungen gelten. Diese Anforderung gilt, da die Anrufsteuerung mithilfe von Subnetzinformationen ermittelt, an welchem Netzwerkstandort sich ein Endpunkt befindet. Wenn die Standorte beider Sitzungsteilnehmer ermittelt wurden, kann über die Anrufsteuerung festgestellt werden, ob genügend Bandbreite für einen Anruf vorhanden ist. Wird eine Sitzung über eine Verbindung ohne Bandbreiteneinschränkungen hergestellt, wird eine Warnung generiert.<BR>Wenn Sie A/V-Edgeserver (Audio/Video) bereitstellen, müssen die öffentlichen IP-Adressen der jeweiligen Edgeserver dem Netzwerkstandort zugeordnet werden, in dem der Edgeserver bereitgestellt wurde. Jede öffentliche IP-Adresse des A/V-Edgeservers muss in den Netzwerkkonfigurationseinstellungen als Subnetz mit der Subnetzmaske 32 hinzugefügt werden. Wenn Sie beispielsweise A/V-Edgeserver in Chicago bereitstellen, müssen Sie für jede externe IP-Adresse dieser Server ein Subnetz mit der Subnetzmaske 32 erstellen und den Netzwerkstandort „Chicago“ diesen Subnetzen zuordnen. Details zu öffentlichen IP-Adressen finden Sie unter <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Ermitteln der externen A/V-Firewall und Portanforderungen für lync Server 2013</A> in der Planungsdokumentation.
+    > Jedes Subnetz in Ihrem Netzwerk muss einem Netzwerkstandort zugeordnet sein – selbst dann, wenn für den Netzwerkstandort keine Bandbreiteneinschränkungen gelten. Diese Anforderung gilt, da die Anrufsteuerung mithilfe von Subnetzinformationen ermittelt, an welchem Netzwerkstandort sich ein Endpunkt befindet. Wenn die Standorte beider Sitzungsteilnehmer ermittelt wurden, kann über die Anrufsteuerung festgestellt werden, ob genügend Bandbreite für einen Anruf vorhanden ist. Wird eine Sitzung über eine Verbindung ohne Bandbreiteneinschränkungen hergestellt, wird eine Warnung generiert.<BR>Wenn Sie A/V-Edgeserver (Audio/Video) bereitstellen, müssen die öffentlichen IP-Adressen der jeweiligen Edgeserver dem Netzwerkstandort zugeordnet werden, in dem der Edgeserver bereitgestellt wurde. Jede öffentliche IP-Adresse des A/V-Edgeservers muss in den Netzwerkkonfigurationseinstellungen als Subnetz mit der Subnetzmaske 32 hinzugefügt werden. Wenn Sie beispielsweise A/V-Edgeserver in Chicago bereitstellen, müssen Sie für jede externe IP-Adresse dieser Server ein Subnetz mit der Subnetzmaske 32 erstellen und Netzwerkstandort "Chicago" diesen Subnetzen zuordnen. Ausführliche Informationen zu öffentlichen IP-Adressen finden Sie unter <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">bestimmen der externen A/V-Firewall-und Portanforderungen für lync Server 2013</A> in der Planungsdokumentation.
 
     
     </div>
@@ -304,7 +304,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     
 
     > [!NOTE]
-    > Es wird eine KHI-Warnung (Key Health Indicator) ausgegeben. Diese enthält eine Liste der IP-Adressen, die in Ihrem Netzwerk vorhanden, aber keinem Subnetz zugeordnet sind, oder gibt das Subnetz an, das die IP-Adressen enthält, jedoch keinem Netzwerkstandort zugeordnet ist. Diese Warnung wird innerhalb von 8 Stunden nur einmal angezeigt. Nachfolgend finden Sie die relevanten Warnungsinformationen und ein Beispiel:<BR><STRONG>Quelle:</STRONG> CS-bandbreitenrichtliniendienst (Core)<BR><STRONG>Ereignisnummer:</STRONG> 36034<BR><STRONG>Stufe:</STRONG> 2<BR><STRONG>Beschreibung:</STRONG> Die Subnetze für die folgenden IP- &lt;Adressen: die Liste&gt; der IP-Adressen ist entweder nicht konfiguriert, oder die Subnetze sind nicht mit einer Netzwerk Website verbunden.<BR><STRONG>Ursache:</STRONG> Die Subnetze für die entsprechenden IP-Adressen fehlen in den Netzwerkkonfigurationseinstellungen, oder die Subnetze sind nicht mit einer Netzwerk Website verbunden.<BR><STRONG>Auflösung:</STRONG> Fügen Sie den Netzwerkkonfigurationseinstellungen Subnetze hinzu, die der vorhergehenden Liste der IP-Adressen entsprechen, und ordnen Sie jedes Subnetz einer Netzwerk Website zu.<BR>Wenn die Liste der IP-Adressen beispielsweise die Einträge 10.121.248.226 und 10.121.249.20 enthält, sind diese IP-Adressen entweder keinem Subnetz zugeordnet oder das zugeordnete Subnetz gehört keinem Netzwerkstandort an. Wenn die zugehörigen Subnetze für diese Adressen 10.121.248.0/24 und 10.121.249.0/24 lauten, können Sie das Problem wie folgt lösen: 
+    > Es wird eine KHI-Warnung (Key Health Indicator) ausgegeben. Diese enthält eine Liste der IP-Adressen, die in Ihrem Netzwerk vorhanden, aber keinem Subnetz zugeordnet sind, oder gibt das Subnetz an, das die IP-Adressen enthält, jedoch keinem Netzwerkstandort zugeordnet ist. Diese Warnung wird innerhalb von 8 Stunden nur einmal angezeigt. Nachfolgend finden Sie die relevanten Warnungsinformationen und ein Beispiel:<BR><STRONG>Quelle:</STRONG> CS Bandwidth Policy Service (Kern)<BR><STRONG>Ereignisnummer:</STRONG> 36034<BR><STRONG>Ebene:</STRONG> 2<BR><STRONG>Beschreibung:</STRONG> Die Subnetze für die folgenden IP- &lt;Adressen: Liste der&gt; IP-Adressen sind entweder nicht konfiguriert oder die Subnetze sind keinem Netzwerkstandort zugeordnet.<BR><STRONG>Ursache:</STRONG> Die Subnetze für die entsprechenden IP-Adressen fehlen in den Netzwerkkonfigurationseinstellungen, oder die Subnetze sind keinem Netzwerkstandort zugeordnet.<BR><STRONG>Lösung:</STRONG> Fügen Sie den Netzwerkkonfigurationseinstellungen Subnetze hinzu, die der vorherigen Liste der IP-Adressen entsprechen, und ordnen Sie jedes Subnetz einem Netzwerkstandort zu.<BR>Wenn die Liste der IP-Adressen beispielsweise die Einträge 10.121.248.226 und 10.121.249.20 enthält, sind diese IP-Adressen entweder keinem Subnetz zugeordnet, oder das zugeordnete Subnetz gehört keinem Netzwerkstandort an. Wenn die zugehörigen Subnetze für diese Adressen 10.121.248.0/24 und 10.121.249.0/24 lauten, können Sie das Problem wie folgt lösen: 
     > <OL>
     > <LI>
     > <P>Stellen Sie sicher, dass die IP-Adresse 10.121.248.226 dem Subnetz 10.121.248.0/24 und die IP-Adresse 10.121.249.20 dem Subnetz 10.121.249.0/24 zugeordnet ist.</P>
@@ -343,8 +343,8 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     <tr class="odd">
     <td><p>Albuquerque</p></td>
     <td><p>Nordamerika</p></td>
-    <td><p>5.000</p></td>
-    <td><p>2.000</p></td>
+    <td><p>5,000</p></td>
+    <td><p>2,000</p></td>
     <td><p>175</p></td>
     <td><p>1.400</p></td>
     <td><p>700</p></td>
@@ -363,7 +363,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     <tr class="odd">
     <td><p>Portland</p></td>
     <td><p>Nordamerika</p></td>
-    <td><p>5.000</p></td>
+    <td><p>5,000</p></td>
     <td><p>4.000</p></td>
     <td><p>175</p></td>
     <td><p>2.800</p></td>
@@ -404,15 +404,15 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     </table>
 
 
-7.  In der lync Server-Anruf Zulassungs Steuerung werden die Verbindungen zwischen netzwerkregionen als *Regions Verknüpfungen*bezeichnet. Ermitteln Sie für jede Regionenverbindung, ebenso wie für die Netzwerkstandorte, die folgenden Informationen:
+7.  In lync Server Anrufsteuerung werden die Verbindungen zwischen netzwerkregionen als *Regions Verknüpfungen*bezeichnet. Ermitteln Sie für jede Regionenverbindung, ebenso wie für die Netzwerkstandorte, die folgenden Informationen:
     
-      - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten. Wenn diese Grenze durch eine neue Audiositzung überschritten wird, lässt Lync Server den Start der Sitzung nicht zu.
+      - Bandbreiteneinschränkung gesamt, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten. Wenn bei einer neuen Audiositzung dieser Grenzwert überschritten wird, lässt Lync Server die Sitzung nicht starten.
     
-      - Die Bandbreiteneinschränkung, die Sie für jede einzelne Audiositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 175 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
+      - Bandbreiteneinschränkung, die Sie für jede einzelne Audiositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 175 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
     
-      - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Videositzungen festlegen möchten. Wenn diese Grenze durch eine neue Videositzung überschritten wird, lässt Lync Server den Start der Sitzung nicht zu.
+      - Bandbreiteneinschränkung gesamt, die Sie für alle gleichzeitigen Videositzungen festlegen möchten. Wenn eine neue Videositzung dazu führt, dass dieser Grenzwert überschritten wird, lässt Lync Server die Sitzung nicht starten.
     
-      - Die Bandbreiteneinschränkung, die Sie für jede einzelne Videositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 700 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
+      - Bandbreiteneinschränkung, die Sie für jede einzelne Videositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 700 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
     
     **Netzwerkregionenverbindungen mit zugehörigen Bandbreiteneinschränkungen**
     
@@ -445,17 +445,17 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>NA-EMEA-LINK</p></td>
+    <td><p>Na-EMEA-Link</p></td>
     <td><p>Nordamerika</p></td>
     <td><p>EMEA</p></td>
     <td><p>50.000</p></td>
-    <td><p>20.000</p></td>
+    <td><p>20,000</p></td>
     <td><p>175</p></td>
     <td><p>14.000</p></td>
     <td><p>700</p></td>
     </tr>
     <tr class="even">
-    <td><p>EMEA-APAC-LINK</p></td>
+    <td><p>EMEA-APAC-Link</p></td>
     <td><p>EMEA</p></td>
     <td><p>APAC</p></td>
     <td><p>25.000</p></td>
@@ -474,7 +474,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     
 
     > [!NOTE]
-    > Für die Route zwischen den Regionen „Nordamerika“ und „APAC“ sind zwei Verbindungen erforderlich, da keine Region vorhanden ist, die die Regionen direkt miteinander verbindet.
+    > Für die Route zwischen den Regionen "Nordamerika" und "APAC" sind zwei Verbindungen erforderlich, da keine Region vorhanden ist, die die Regionen direkt miteinander verbindet.
 
     
     </div>
@@ -498,19 +498,19 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>NA-EMEA-ROUTE</p></td>
+    <td><p>Na-EMEA-Route</p></td>
     <td><p>Nordamerika</p></td>
     <td><p>EMEA</p></td>
-    <td><p>NA-EMEA-LINK</p></td>
+    <td><p>Na-EMEA-Link</p></td>
     </tr>
     <tr class="even">
-    <td><p>EMEA-APAC-ROUTE</p></td>
+    <td><p>EMEA-APAC-Route</p></td>
     <td><p>EMEA</p></td>
     <td><p>APAC</p></td>
-    <td><p>EMEA-APAC-LINK</p></td>
+    <td><p>EMEA-APAC-Link</p></td>
     </tr>
     <tr class="odd">
-    <td><p>NA-APAC-ROUTE</p></td>
+    <td><p>Na-APAC-Route</p></td>
     <td><p>Nordamerika</p></td>
     <td><p>APAC</p></td>
     <td><p>NA-EMEA-LINK, EMEA-APAC-LINK</p></td>
@@ -521,17 +521,17 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
 9.  Ermitteln Sie für jedes Netzwerkstandortpaar, das durch eine einzelne Verbindung direkt miteinander verbunden wird (als *standortübergreifende* Verbindung bezeichnet), die folgenden Informationen:
     
-      - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten. Wenn diese Grenze durch eine neue Audiositzung überschritten wird, lässt Lync Server den Start der Sitzung nicht zu.
+      - Bandbreiteneinschränkung gesamt, die Sie für alle gleichzeitigen Audiositzungen festlegen möchten. Wenn bei einer neuen Audiositzung dieser Grenzwert überschritten wird, lässt Lync Server die Sitzung nicht starten.
     
-      - Die Bandbreiteneinschränkung, die Sie für jede einzelne Audiositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 175 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
+      - Bandbreiteneinschränkung, die Sie für jede einzelne Audiositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 175 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
     
-      - Die gesamte Bandbreiteneinschränkung, die Sie für alle gleichzeitigen Videositzungen festlegen möchten. Wenn diese Grenze durch eine neue Videositzung überschritten wird, lässt Lync Server den Start der Sitzung nicht zu.
+      - Bandbreiteneinschränkung gesamt, die Sie für alle gleichzeitigen Videositzungen festlegen möchten. Wenn eine neue Videositzung dazu führt, dass dieser Grenzwert überschritten wird, lässt Lync Server die Sitzung nicht starten.
     
-      - Die Bandbreiteneinschränkung, die Sie für jede einzelne Videositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 700 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
+      - Bandbreiteneinschränkung, die Sie für jede einzelne Videositzung festlegen möchten. Die standardmäßige Bandbreiteneinschränkung bei der Anrufsteuerung ist auf 700 KBit/s festgelegt, sie kann jedoch vom Administrator geändert werden.
     
-    **Anrufsteuerung in der Netzwerkregion „Nordamerika“ mit Anzeige der Bandbreitenkapazitäten und -einschränkungen für die standortübergreifende Verbindung zwischen Reno und Albuquerque**
+    **Anrufsteuerung in der Netzwerkregion "Nordamerika" mit Anzeige der Bandbreitenkapazitäten und -einschränkungen für die standortübergreifende Verbindung zwischen Reno und Albuquerque**
     
-    ![Netzwerk Websites, die durch das WAN-Bandbreite-Beispiel beschränkt sind](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Netzwerk Websites, die durch das WAN-Bandbreite-Beispiel beschränkt sind")  
+    ![Netzwerkstandorte mit eingeschränkter WAN-Bandbreite (Beispiel)](images/Gg425827.063e5e1d-b6c8-4e8c-98db-c227c78f671d(OCS.15).jpg "Netzwerkstandorte mit eingeschränkter WAN-Bandbreite (Beispiel)")  
     
     ### <a name="bandwidth-information-for-an-inter-site-link-between-two-network-sites-bandwidth-in-kbps"></a>Bandbreiteninformationen für eine standortübergreifende Verbindung zwischen zwei Netzwerkstandorten (Bandbreite in KBit/s)
     
@@ -560,13 +560,13 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>Reno-Albu-Intersite-Link</p></td>
+    <td><p>Reno-Albu-standortübergreifendes Link</p></td>
     <td><p>Reno</p></td>
     <td><p>Albuquerque</p></td>
-    <td><p>20.000</p></td>
+    <td><p>20,000</p></td>
     <td><p>12.000</p></td>
     <td><p>175</p></td>
-    <td><p>5.000</p></td>
+    <td><p>5,000</p></td>
     <td><p>700</p></td>
     </tr>
     </tbody>
@@ -577,13 +577,13 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Nachdem Sie die erforderlichen Informationen gesammelt haben, können Sie die CAC-Bereitstellung entweder mithilfe der lync Server-Verwaltungsshell oder der lync Server-Systemsteuerung durchführen.
+Nachdem Sie die erforderlichen Informationen gesammelt haben, können Sie die Bereitstellung der Anrufsteuerung mithilfe der lync Server-Verwaltungsshell oder der lync Server-Systemsteuerung durchführen.
 
 <div>
 
 
 > [!NOTE]
-> Obwohl Sie die meisten Netzwerk Konfigurationsaufgaben mithilfe der lync Server-Systemsteuerung ausführen können, müssen Sie zum Erstellen von Subnetzen und standortübergreifenden Links die lync Server-Verwaltungsshell verwenden. Ausführliche Informationen finden Sie in der Dokumentation zur lync Server-Verwaltungsshell für das Cmdlet <STRONG>New-CsNetworkSubnet</STRONG> und das Cmdlet <STRONG>New-CsNetworkIntersitePolicy</STRONG> .
+> Obwohl Sie die meisten Netzwerk Konfigurationsaufgaben mithilfe von lync Server-Systemsteuerung ausführen können, müssen Sie lync Server-Verwaltungsshell verwenden, um Subnetze und standortübergreifende Links zu erstellen. Ausführliche Informationen finden Sie in der lync Server-Verwaltungsshell Dokumentation zum Cmdlet <STRONG>New-CsNetworkSubnet</STRONG> und im Cmdlet <STRONG>New-CsNetworkIntersitePolicy</STRONG> .
 
 
 

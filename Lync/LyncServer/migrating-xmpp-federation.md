@@ -1,5 +1,5 @@
 ---
-title: Migrieren eines XMPP-Partnerverbunds
+title: Migrieren des XMPP-Verbunds
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b72dabd60ea42a84fcf9b15d1d739bc063ddf1c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 64a88712d68418b6c4144c67b6583f2451fb7e10
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762873"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036001"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrating-xmpp-federation"></a>Migrieren eines XMPP-Partnerverbunds
+# <a name="migrating-xmpp-federation"></a>Migrieren des XMPP-Verbunds
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41762873"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-In früheren Versionen von lync Server und Office Communications Server wurde ein Extensible Messaging and Presence Protocol (XMPP)-Gateway bereitgestellt, das als separate Server Rolle bereitgestellt werden kann, um die Föderation mit XMPP-Bereitstellungen zu ermöglichen. In lync Server 2013 kann die XMPP-Funktion als Feature bereitgestellt werden. Die XMPP-Funktionalität ist in zwei Teilen installiert: als XMPP-Proxy, der auf dem lync Server 2013-Edgeserver ausgeführt wird, und dem XMPP-Gateway, das auf dem lync Server 2013-Front-End-Server ausgeführt wird.
+In früheren Versionen von lync Server und Office Communications Server wurde ein XMPP-Gateway (Extensible Messaging and Presence Protocol) bereitgestellt, das als separate Server Rolle bereitgestellt werden könnte, um eine Verbundfunktion mit XMPP-Bereitstellungen zu ermöglichen. In lync Server 2013 kann die XMPP-Funktionalität als Feature bereitgestellt werden. Die XMPP-Funktionalität wird in zwei Teilen installiert: als XMPP-Proxy, der auf dem lync Server 2013 Edgeserver ausgeführt wird, und dem XMPP-Gateway, das auf dem lync Server 2013 Front-End-Server ausgeführt wird.
 
-Aus Sicht der Migration kann ein lync Server-Benutzerkonto in einen lync Server 2013-Pool verschoben und weiterhin das Legacy-XMPP-Gateway verwendet werden. Dies ist nur möglich, wenn der XMPP-Verbundpartner nicht in lync Server 2013 konfiguriert ist.
+Aus Migrations Sicht kann ein lync Server-Benutzerkonto in einen lync Server 2013 Pool verschoben werden und weiterhin das Legacy-XMPP-Gateway verwenden. Dies ist nur möglich, wenn der XMPP-Verbundpartner nicht in lync Server 2013 konfiguriert ist.
 
-Zusammenfassung: Wenn lync Server 2010 mit dem Office Communications Server 2007 R2 XMPP-Gateway bereitgestellt wurde und die XMPP-Föderation für Legacy-lync Server 2010-Benutzer aktiviert wurde, können Sie die XMPP-Föderation zu lync Server 2013 migrieren:
+Zusammenfassend lässt sich feststellen, ob lync Server 2010 mit dem Office Communications Server 2007 R2 XMPP-Gateway und dem XMPP-Verbund bereitgestellt wurde, für ältere lync Server 2010-Benutzer aktiviert wurde, um den XMPP-Verbund zu lync Server 2013 zu migrieren:
 
-1.  Bereitstellen eines lync Server 2013-Pools
+1.  Bereitstellen eines lync Server 2013 Pools.
 
-2.  Bereitstellen eines lync Server 2013-Edgeserver
+2.  Bereitstellen eines lync Server 2013-Edge-Servers
 
-3.  Verschieben aller Benutzer in den lync Server 2013-Pool
+3.  Alle Benutzer in den lync Server 2013 Pool verlagern
 
-4.  Erstellen Sie XMPP-Zugriffsrichtlinien und-Zertifikate für den Edgeserver.
+4.  Erstellen Sie XMPP-Zugriffsrichtlinien und -Zertifikate für den Edgeserver.
 
-5.  Aktivieren Sie die XMPP-Föderation in lync Server 2013. 
+5.  Aktivieren Sie XMPP-Verbund in lync Server 2013. 
 
-6.  Aktualisieren Sie die DNS-Einträge so, dass Sie auf das lync Server 2013 XMPP-Gateway verweisen.
+6.  Aktualisieren Sie die DNS-Einträge so, dass Sie auf das lync Server 2013 XMPP-Gateway verweist.
 
 </div>
 

@@ -13,16 +13,16 @@ ms:contentKeyID: 49733624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7904edf9723dacdd28f69a75bec17cb5db3c2061
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8266097035a284c966ad62672515cb2a64444339
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728139"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006641"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,27 +36,27 @@ ms.locfileid: "41728139"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-04_
+_**Letztes Änderungsstand des Themas:** 2012-10-04_
 
 Nach der Migration zu Microsoft lync Server 2013 müssen Sie einige Aufgaben ausführen, um lync Server 2013 für die Zusammenarbeit mit System Center Operations Manager zu konfigurieren.
 
-  - Wenden Sie lync Server 2010-Updates auf einen Server an, der zum Verwalten der zentralen Ermittlungslogik gewählt wurde.
+  - Wenden Sie lync Server 2010 Updates auf einen Server an, der zur Verwaltung der zentralen Ermittlungslogik gewählt wurde.
 
-  - Aktualisieren Sie den Registrierungsschlüssel des zentralen Discovery Candidate-Servers.
+  - Aktualisieren Sie den Serverregistrierungsschlüssel des Kandidaten für die zentrale Erkennung.
 
-  - Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver so, dass er den Kandidaten für die zentrale Ermittlung außer Kraft setzt.
+  - Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver so, dass der Knoten Kandidaten-zentral Suche außer Kraft gesetzt wird.
 
-Nachfolgend finden Sie Anweisungen zur Durchführung der einzelnen Aufgaben.
+Anweisungen für diese Aufgaben finden Sie unten.
 
-**Wenden Sie lync Server 2010-Updates auf einen Server an, der zum Verwalten der zentralen Ermittlungslogik gewählt wurde.**
+**Wenden Sie lync Server 2010 Updates auf einen Server an, der zur Verwaltung der zentralen Ermittlungslogik gewählt wurde.**
 
-1.  Wählen Sie einen Server aus, auf dem die System Center Operations Manager-Agentdateien installiert sind und als Knoten für die Kandidaten Ermittlung konfiguriert sind.
+1.  Wählen Sie einen Server aus, auf dem die System Center Operations Manager-Agentdateien installiert sind und der als Kandidatenermittlungsknoten konfiguriert ist.
 
-2.  Wenden Sie lync Server 2010-Updates auf diesen Server an. Lesen Sie das Thema [Anwenden von lync Server 2010-Updates](apply-lync-server-2010-updates.md).
+2.  Wenden Sie lync Server 2010 Updates auf diesen Server an. Siehe das Thema [Apply lync Server 2010 Updates](apply-lync-server-2010-updates.md).
 
-**Aktualisieren Sie den Registrierungsschlüssel des zentralen Discovery Candidate-Servers.**
+**Aktualisieren Sie den Serverregistrierungsschlüssel des Kandidaten für die zentrale Erkennung.**
 
-1.  Öffnen Sie auf dem Server, der zum Verwalten der zentralen Ermittlungslogik gewählt wurde, ein Windows PowerShell-Befehlsfenster.
+1.  Öffnen Sie auf dem Server, der für die Verwaltung der zentralen Ermittlungslogik ausgewählt wurde, ein Windows PowerShell Befehlsfenster.
 
 2.  Geben Sie an der Befehlszeile Folgendes ein:
     
@@ -72,22 +72,22 @@ Nachfolgend finden Sie Anweisungen zur Durchführung der einzelnen Aufgaben.
     
 
     > [!NOTE]  
-    > Wenn Sie die Registrierung bearbeiten, tritt möglicherweise ein Fehler auf, dass der Befehl fehlgeschlagen ist, wenn der Registrierungsschlüssel bereits vorhanden ist. Wenn Sie dies erleben, können Sie den Fehler bedenkenlos ignorieren.
+    > Bei jeder Bearbeitung der Registrierung kann eine Fehlermeldung angezeigt werden, dass der Befehl nicht ausgeführt wurde, wenn der Registrierungsschlüssel bereits vorhanden ist. Falls dies der Fall ist, können Sie die Fehlermeldung getrost ignorieren.
 
     
     </div>
 
-**Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver so, dass er den Kandidaten für den Central Discovery Watcher-Knoten außer Kraft setzt.**
+**Konfigurieren Sie Ihren primären System Center Operations Manager-Verwaltungsserver so, dass der Knoten Candidate Central Discovery Watcher außer Kraft gesetzt wird.**
 
-1.  Erweitern Sie auf einem Computer, auf dem die System Center Operations Manager-Konsole installiert wurde, **Management Pack-Objekte** , und wählen Sie dann **Objektermittlungen**aus.
+1.  Erweitern Sie auf einem Computer, auf dem die System Center Operations Manager-Konsole installiert wurde, **Management Pack-Objekte**, und wählen Sie **Objektermittlungen** aus.
 
-2.  Klicken Sie auf **Bereich ändern...**
+2.  Klicken Sie auf **Bereich ändern**.
 
-3.  Wählen Sie auf der Seite **Objekte des Bereichs Management Packs** die Option **ls Discovery Candidate**aus.
+3.  Wählen Sie auf der Seite **Management Pack-Objekte in Bereiche einteilen** den Eintrag **LS-Ermittlungskandidat** aus.
 
-4.  Überschreiben Sie den Wert für den **effektiven ls-Ermittlungs Kandidaten** auf den Namen des Kandidaten Servers, der im vorherigen Verfahren gewählt wurde.
+4.  Überschreiben Sie den **Effektivwert für den LS-Ermittlungskandidaten** mit dem Namen des zuvor ausgewählten Kandidatenservers.
 
-Um Ihre Änderungen abzuschließen, starten Sie den Integritätsdienst auf dem System Center Operations Manager-Stamm Verwaltungs Server erneut.
+Starten Sie zuletzt den Integritätsdienst auf dem System Center Operations Manager-Stammverwaltungsserver neu, um Ihre Änderungen abzuschließen.
 
 </div>
 

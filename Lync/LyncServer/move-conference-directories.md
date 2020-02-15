@@ -1,5 +1,5 @@
 ---
-title: Verschieben von Konferenz Verzeichnissen
+title: Migrieren von Konferenz Verzeichnissen
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ae7633d638571410c93cfefe87d9e333731a4bb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f2f4897df817c4392779169c535199579ac04d9e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727585"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034651"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="move-conference-directories"></a>Verschieben von Konferenz Verzeichnissen
+# <a name="move-conference-directories"></a>Migrieren von Konferenz Verzeichnissen
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "41727585"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-04_
+_**Letztes Änderungsstand des Themas:** 2012-10-04_
 
-Bevor Sie einen Pool außer Betrieb nehmen, müssen Sie für jedes Konferenzverzeichnis in Ihrem Office Communications Server 2007 R2-Pool die folgenden Schritte ausführen.
+Vor dem Außerbetriebnahme eines Pools müssen Sie das folgende Verfahren für jedes Konferenzverzeichnis in Ihrem Office Communications Server 2007 R2 Pool ausführen.
 
 <div>
 
-## <a name="to-move-a-conference-directory-to-lync-server-2013"></a>So verschieben Sie ein Konferenzverzeichnis in lync Server 2013
+## <a name="to-move-a-conference-directory-to-lync-server-2013"></a>So migrieren Sie ein Konferenzverzeichnis in lync Server 2013
 
-1.  Öffnen Sie die lync Server-Verwaltungsshell.
+1.  Öffnen Sie die Lync Server-Verwaltungsshell.
 
-2.  Führen Sie die folgenden Befehle aus, um die Identität der Konferenzverzeichnisse in Ihrer Organisation zu ermitteln:
+2.  Führen Sie die folgenden Befehle aus, um die Identität der Konferenzverzeichnisse in Ihrer Organisation zu beziehen:
     
         Get-CsConferenceDirectory
     
-    Da dieses Cmdlet alle Konferenzverzeichnisse in Ihrer Organisation zurückgibt, möchten Sie möglicherweise die Ergebnisse auf den Pool beschränken, den Sie außer Betrieb nehmen möchten. Wenn Sie beispielsweise einen Pool mit dem vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) pool01.contoso.net:
+    Dieses Cmdlet gibt alle Konferenzverzeichnisse in der Organisation zurück. Deshalb empfiehlt es sich u. U., die Ergebnisse auf den Pool zu beschränken, den Sie außer Betrieb nehmen möchten. Beispiel: Sie möchten einen Pool mit dem vollqualifizierten Domänennamen (FQDN) pool01.contoso.net außer Betrieb nehmen:
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     
-    Dieses Cmdlet gibt alle Konferenzverzeichnisse zurück, in denen die Dienst-ID den FQDN-pool01.contoso.NET enthält.
+    Dieses Cmdlet gibt alle Konferenzverzeichnisse zurück, deren Dienst-ID den FQDN pool01.contoso.net enthält.
 
-3.  Führen Sie für jedes Konferenzverzeichnis im Pool die folgenden Schritte aus, um Konferenzverzeichnisse zu verschieben:
+3.  Führen Sie zum Verschieben von Konferenzverzeichnissen folgenden Befehl für jedes Konferenzverzeichnis in dem Pool aus:
     
         Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
     
@@ -67,13 +67,13 @@ Bevor Sie einen Pool außer Betrieb nehmen, müssen Sie für jedes Konferenzverz
 
 
 > [!NOTE]  
-> Möglicherweise tritt ein Fehler auf, der nachfolgend gezeigt wird, der von der lync Server-Verwaltungsshell verursacht wird, die einen aktualisierten Satz von Berechtigungen aus Active Directory erfordert. Wenn Sie den Fehler beheben möchten, schließen Sie das aktuelle Fenster, öffnen Sie eine neue lync Server-Verwaltungsshell, und führen Sie den Befehl erneut aus.
+> Möglicherweise tritt ein unten dargestellter Fehler auf, der durch die lync Server-Verwaltungsshell, die eine aktualisierte Gruppe von Berechtigungen aus Active Directory erfordern, verursacht wird. Schließen Sie zum Beheben des Fehlers das aktuelle Fenster, und öffnen Sie ein neues lync Server-Verwaltungsshell, und führen Sie den Befehl erneut aus.
 
 
 
 </div>
 
-![Move-CsConferenceDirectory-Fehlerausgabe](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Move-CsConferenceDirectory-Fehlerausgabe")
+![CsConferenceDirectory-Fehlerausgabe](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "CsConferenceDirectory-Fehlerausgabe")
 
 </div>
 

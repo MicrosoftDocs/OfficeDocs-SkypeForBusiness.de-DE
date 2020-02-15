@@ -12,20 +12,20 @@ ms:contentKeyID: 48184245
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43209ccc816e1c5d2c877aa0ac9089c81db4cd08
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc6702a1958dc9e2582cf3d59720f729dbdb5e54
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755579"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034345"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="overview-of-conferencing-in-lync-server-2013"></a>Übersicht über Konferenzen in Lync Server 2013
+# <a name="overview-of-conferencing-in-lync-server-2013"></a>Übersicht über Konferenzen in lync Server 2013
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "41755579"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-30_
+_**Letztes Änderungsstand des Themas:** 2012-09-30_
 
-Wenn Sie Konferenzen bereitstellen, können Sie auswählen, ob Sie Webkonferenzen und A/V-Konferenzen oder nur Webkonferenzen aktivieren und verwenden möchten. Einwahlkonferenzen sind ein Unterbereich der Audiokonferenzen und müssen zusätzlich konfiguriert werden.
+Wenn Sie die Konferenzfunktion bereitstellen, können Sie entweder sowohl Webkonferenzen als auch A/V-Konferenzen oder nur Webkonferenzen aktivieren. Einwahlkonferenzen sind ein Teil von Audiokonferenzen und erfordern zusätzliche Konfiguration.
 
-Wenn alle Arten von Konferenzen aktiviert sind, können Ihre Benutzer die größtmögliche Konferenzumgebung mit einer Kombination aus Instant Messaging (im), Audio, Video, Desktopfreigabe, Folienpräsentationen, Freigabe Anlagen und Freigabe Anwendungen nutzen. Konferenzen können geplant oder ungeplant sein, und Benutzer können während der Vorgehensweise einer Konferenz problemlos Kommunikationsformen hinzufügen. Beispiel: beginnend mit Chat, Hinzufügen von Dokumenten Zusammenarbeit und anschließendes Hinzufügen von Sprache oder Video. Neue Teilnehmer können auch in Echtzeit zu laufenden Konferenzen hinzugefügt werden.
+Wenn alle Konferenztypen aktiviert sind, können Ihre Benutzer die vielfältigen Funktionen für Konferenzumgebungen in beliebiger Kombination nutzen: Instant Messaging, Audio, Video, Desktopfreigabe, Bildschirmpräsentationen, Anlagen- und Anwendungsfreigabe. Konferenzen können geplant oder spontan abgehalten werden, und Benutzer können im Verlauf einer Konferenz auf einfache Weise weitere Kommunikationsoptionen hinzufügen. Beispielsweise kann eine Unterhaltung zunächst nur mit dem Austausch von Sofortnachrichten beginnen und sich im weiteren Verlauf zu einer Sitzung mit Dokumentzusammenarbeit und Übertragung von Sprach- oder Videodaten entwickeln. Neue Teilnehmer können einer laufenden Konferenz in Echtzeit hinzugefügt werden.
 
-Die folgenden Themen enthalten eine Übersicht über die spezifischen Features und Funktionen, die von Webkonferenzen, A/V-Konferenzen und Einwahlkonferenzen bereitgestellt werden.
+Die folgenden Themen bieten einen Überblick über die spezifischen Funktionen und Merkmale von Webkonferenzen, A/V-Konferenzen und Einwahlkonferenzen.
 
 <div>
 

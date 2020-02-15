@@ -1,5 +1,5 @@
 ---
-title: Migrieren analoger Geräte
+title: Migrieren von analogen Geräten
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e809db03cf098bea07f57673ddcbfc019e15f299
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f8e176b03adf3d64b06e7bd9e2a0e72282a1f0f1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762973"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034595"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migrate-analog-devices"></a>Migrieren analoger Geräte
+# <a name="migrate-analog-devices"></a>Migrieren von analogen Geräten
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41762973"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-16_
+_**Letztes Änderungsstand des Themas:** 2012-10-16_
 
-Lync Server bietet Unterstützung für analoge Geräte. Die unterstützten analogen Geräte sind analoge Audio-Telefone und analoge Faxgeräte. Sie können die qualifizierten Gateways so konfigurieren, dass die Verwendung von analogen Geräten in ihrer lync Server-Umgebung unterstützt wird. Nachdem Sie von lync Server 2010 zu lync Server 2013 migriert haben, müssen Sie auch die Kontaktobjekte migrieren, die den analogen Geräten zugeordnet sind. Verwenden Sie die lync Server-Verwaltungsshell, um zuerst alle Kontaktobjekte abzurufen, die mit den analogen Geräten von lync Server 2010 verknüpft sind, und verschieben Sie diese Objekte dann in den lync Server 2013-Pool.
+Lync Server bietet Unterstützung für analoge Geräte. Zu den unterstützten analogen Geräten gehören insbesondere analoge Telefone und Faxgeräte. Sie können die qualifizierten Gateways so konfigurieren, dass die Verwendung von analogen Geräten in ihrer lync Server Umgebung unterstützt wird. Nachdem Sie von lync Server 2010 zu lync Server 2013 migriert haben, müssen Sie auch die Kontaktobjekte migrieren, die den analogen Geräten zugeordnet sind. Verwenden Sie lync Server-Verwaltungsshell, um zunächst alle Contact-Objekte abzurufen, die den lync Server 2010 analogen Geräten zugeordnet sind, und diese Objekte dann in den lync Server 2013-Pool zu übertragen.
 
 <div>
 
 ## <a name="to-migrate-analog-devices"></a>So migrieren Sie analoge Geräte
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Geben Sie in der Befehlszeile Folgendes ein:
+2.  Geben Sie in die Befehlszeile Folgendes ein:
     
         Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsAnalogDevice -Target pool02.contoso.net
 
-3.  Überprüfen Sie, ob alle Kontaktobjekte in den lync Server 2013-Pool verschoben wurden. Geben Sie in der Befehlszeile Folgendes ein:
+3.  Stellen Sie sicher, dass alle Kontaktobjekte in den lync Server 2013 Pool verschoben wurden. Geben Sie in die Befehlszeile Folgendes ein:
     
         Get-CsAnalogDevice -Filter {RegistrarPool -eq "pool02.contoso.net"}
 
-4.  Überprüfen Sie, ob alle Kontaktobjekte jetzt dem lync Server 2013-Pool zugeordnet sind.
+4.  Stellen Sie sicher, dass alle Contact-Objekte nun dem lync Server 2013-Pool zugeordnet sind.
 
 </div>
 

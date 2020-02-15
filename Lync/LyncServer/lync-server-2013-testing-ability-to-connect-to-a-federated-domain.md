@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Testen der Möglichkeit zum Herstellen einer Verbindung mit einer Verbunddomäne'
+title: 'Lync Server 2013: Testen der Fähigkeit, eine Verbindung mit einer Verbunddomäne herzustellen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969653
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f18a8c703b085fe559b3a979ac72d9c0b0dfe38f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82c44cf7cff78fc93054679ae1bc4c66bc6b4c40
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746015"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42016236"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>Testen der Möglichkeit zum Herstellen einer Verbindung mit einer Verbunddomäne von lync Server 2013
+# <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>Testen der Fähigkeit zum Herstellen einer Verbindung mit einer Verbunddomäne von lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746015"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-06-05_
+_**Letztes Änderungsstand des Themas:** 2014-06-05_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsFederatedPartner-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsFederatedPartner verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsFederatedPartner&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-05_
 
 ## <a name="description"></a>Beschreibung
 
-Test-CsFederatedPartner überprüft Ihre Möglichkeiten zum Herstellen einer Verbindung mit der Domäne eines Verbundpartners. Um die Konnektivität zu einer Domäne zu überprüfen, muss diese Domäne in der Sammlung zulässiger (Verbund-) Domänen aufgelistet sein. Mit diesem Befehl können Sie eine Liste der Domänen in der Liste der zulässigen Domänen abrufen:
+Test-CsFederatedPartner überprüft die Fähigkeit, eine Verbindung mit der Domäne eines Verbundpartners herzustellen. Um die Verbindung mit einer Domäne zu überprüfen, muss diese Domäne in der Auflistung zulässiger (Verbund-) Domänen aufgeführt sein. Mit dem folgenden Befehl können Sie eine Liste der Domänen in der Liste der zugelassenen Domänen abrufen:
 
     Get-CsAllowedDomain
 
@@ -76,13 +76,13 @@ Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsFe
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet Test-FederatedPartner erfordert zwei Informationen: den FQDN des Edge-Servers und den FQDN des Partner Partners. Dieser Befehl testet beispielsweise die Möglichkeit zum Herstellen einer Verbindung mit dem Domänen contoso.com:
+Das Cmdlet Test-FederatedPartner erfordert zwei Informationen: den FQDN des Edgeserver und den FQDN des Partnerverbund Partners. Beispielsweise testet dieser Befehl die Möglichkeit, eine Verbindung mit der Domäne contoso.com herzustellen:
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"
 
-Mit diesem Befehl können Sie die Verbindungen zu allen Domänen testen, die sich derzeit in der Liste der zulässigen Domänen befinden:
+Mit diesem Befehl können Sie die Verbindungen zu allen Domänen testen, die sich derzeit in der Liste der zugelassenen Domänen befinden:
 
     Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Identity}
 
@@ -92,39 +92,39 @@ Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsFe
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn die angegebene Domäne kontaktiert werden kann, erhalten Sie eine ähnliche Ausgabe, wobei die Ergebniseigenschaft als erfolgreich markiert wurde **:**
+Wenn Sie eine Verbindung mit der angegebenen Domäne aufnehmen können, erhalten Sie eine ähnliche Ausgabe, wobei die Result-Eigenschaft als Success markiert wurde **:**
 
 TargetFqdn: ATL-CS-001.litwareinc.com
 
-Ergebnis: Erfolg
+Ergebnis: Success
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
 Fehler
 
 Diagnose
 
-Wenn die angegebene Domäne nicht kontaktiert werden kann, wird das Ergebnis als Fehler angezeigt, und weitere Informationen werden in den Eigenschaften Fehler und Diagnose aufgezeichnet:
+Wenn die angegebene Domäne nicht kontaktiert werden kann, wird das Ergebnis als Fehler angezeigt, und in den Eigenschaften Error und Diagnostic werden zusätzliche Informationen aufgezeichnet:
 
 TargetFqdn: ATL-CS-001.litwareinc.com
 
 Ergebnis: Fehler
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
 Fehler: 504, Server Timeout
 
-Diagnose: errorCode = 2, Quelle = ATL-CS-001. "litwareinc. com, Reason = siehe
+Diagnose: errorCode = 2, Source = ATL-CS-001. litwareinc. com, Reason = siehe
 
-Antwortcode und Ursachen Ausdruck.
+Antwortcode und Grund Phrase.
 
-Microsoft. RTC. Signalisierungs-DiagnosticHeader
+Microsoft. RTC. Signaling. DiagnosticHeader
 
-In der vorherigen Ausgabe wird beispielsweise angegeben, dass der Test aufgrund eines Servertimeout Fehlers fehlgeschlagen ist. Dies weist in der Regel auf Netzwerkverbindungsprobleme oder Probleme beim Kontaktieren des Edge-Servers hin.
+Die vorherige Ausgabe besagt beispielsweise, dass der Test aufgrund eines Servertimeout Fehlers fehlgeschlagen ist. Dies deutet normalerweise auf Netzwerkverbindungsprobleme oder Probleme beim Kontakt mit dem Edgeserver hin.
 
-Wenn Test-CsFederatedPartner fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, wobei dieser Zeitpunkt einschließlich des Verbose-Parameters lautet:
+Wenn Test-CsFederatedPartner fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, dieses Mal einschließlich des Parameters verbose:
 
     Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com" -Verbose
 
@@ -134,21 +134,21 @@ Wenn Test-CsFederatedPartner fehlschlägt, möchten Sie möglicherweise den Test
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Nachfolgend finden Sie einige häufige Gründe, warum Test-CsFederatedPartner möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsFederatedPartner möglicherweise fehlschlägt:
 
-  - Der Edgeserver steht möglicherweise nicht zur Verfügung. Mit diesem Befehl können Sie die FQDNs ihrer Edgeserver verwenden:
+  - Die Edgeserver ist möglicherweise nicht verfügbar. Sie können die FQDNs ihrer Edgeserver mithilfe dieses Befehls ausführen:
     
         Get-CsService -EdgeServer | Select-Object PoolFqdn
     
-    Anschließend können Sie die einzelnen Edgeserver anpingen, um zu überprüfen, ob Sie über das Netzwerk darauf zugreifen können. Beispiel:
+    Anschließend können Sie jeden Edgeserver anpingen, um sicherzustellen, dass der Zugriff über das Netzwerk möglich ist. Beispiel:
     
         ping atl-edge-001.litwareinc.com
 
-  - Die angegebene Domäne ist in der Liste zugelassene Domänen möglicherweise nicht aufgeführt. Verwenden Sie diesen Befehl, um die Domänen zu überprüfen, die der Liste zugelassene Domänen hinzugefügt wurden:
+  - Die angegebene Domäne ist möglicherweise nicht in der Liste der zugelassenen Domänen aufgeführt. Verwenden Sie den folgenden Befehl, um die Domänen zu überprüfen, die der Liste der zugelassenen Domänen hinzugefügt wurden:
     
         Get-CsAllowedDomain
     
-    Wenn Sie eine Liste der Domänen sehen möchten, mit denen die Kommunikation von Benutzern blockiert wurde, verwenden Sie diesen Befehl:
+    Wenn Sie eine Liste der Domänen anzeigen möchten, mit denen Benutzer die Kommunikation mit blockiert haben, verwenden Sie den folgenden Befehl:
     
         Get-CsBlockedDomain
 

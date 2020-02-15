@@ -12,16 +12,16 @@ ms:contentKeyID: 63969604
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c533781fedc3bf3d6266bae80e5c59cacbec4874
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ae68b9a5fb2e03fd08fbc7cd06507c54a383197f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745385"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033304"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745385"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-11-01_
+_**Letztes Änderungsstand des Themas:** 2014-11-01_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-11-01_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des <strong>Test-CsExUMVoiceMail-</strong> Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets <strong>Test-csexumvoicemail "</strong> verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsExUMVoiceMail&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,27 +66,27 @@ _**Letztes Änderungsdatum des Themas:** 2014-11-01_
 
 ## <a name="description"></a>Beschreibung
 
-Mit dem Cmdlet **Test-CsExUMVoiceMail** können Administratoren überprüfen, ob ein Benutzer auf den Microsoft Exchange Server 2013 Unified Messaging-Dienst zugreifen und ihn verwenden kann. Zu diesem Zweck stellt das Cmdlet eine Verbindung mit dem Unified Messaging-Dienst her und verlässt eine Voicemail im angegebenen Postfach. Dies kann eine vom System bereitgestellte Voicemail sein, oder es kann sich um eine benutzerdefinierte Nachricht handeln. WAV-Datei, die Sie selbst aufgenommen haben.
+Mit dem Cmdlet **Test-csexumvoicemail "** können Administratoren überprüfen, ob ein Benutzer auf den Microsoft Exchange Server 2013 Unified Messaging-Dienst zugreifen und diese verwenden kann. Hierzu stellt das Cmdlet eine Verbindung mit dem Unified Messaging-Dienst her und hinterlässt eine Voicemail im angegebenen Postfach. Dies kann eine vom System bereitgestellte Voicemail sein, oder es kann eine benutzerdefinierte sein. WAV-Datei, die Sie selbst aufgezeichnet haben.
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Im folgenden Beispiel wird die Exchange Unified Messaging-Voicemail-Konnektivität für den Pool ATL-CS-001.litwareinc.com getestet. Dieser Befehl funktioniert nur, wenn Testbenutzer für den Pool ATL-CS-001.litwareinc.com definiert wurden. Wenn ja, bestimmt der Befehl, ob der erste Testbenutzer Unified Messaging-Voicemail verwenden kann. Wenn Testbenutzer nicht für den Pool konfiguriert wurden, schlägt der Befehl fehl.
+Im folgenden Beispiel wird die Exchange Unified Messaging-voicemailverbindung für den Pool ATL-CS-001.litwareinc.com getestet. Dieser Befehl ist nur möglich, wenn Testbenutzer für den Pool ATL-CS-001.litwareinc.com definiert wurden. Wenn dies der Fall ist, wird mit dem Befehl ermittelt, ob der erste Testbenutzer Unified Messaging-Voicemail verwenden kann. Wenn Testbenutzer nicht für den Pool konfiguriert wurden, tritt beim Ausführen des Befehls ein Fehler auf.
 
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" 
 
-Die im nächsten Beispiel gezeigten Befehle testen die Exchange Unified Messaging-Voicemail-Konnektivität für\\den Benutzer "litwareinc kenmyer. Dazu wird im ersten Befehl im Beispiel das Cmdlet **Get-Credential** verwendet, um ein Windows PowerShell-Befehlszeilenschnittstellen-Anmeldeinformationsobjekt für den Benutzer "litwareinc\\kenmyer zu erstellen. Beachten Sie, dass Sie das Kennwort für dieses Konto angeben müssen, um ein gültiges Anmeldeinformationsobjekt zu erstellen und sicherzustellen, dass das **Test-CsExUMVoiceMail-** Cmdlet seine Überprüfung ausführen kann.
+Die im nächsten Beispiel gezeigten Befehle testen die Exchange Unified Messaging-Voicemail-Konnektivität für\\den Benutzer litwareinc kenmyer. Dazu wird im ersten Befehl des Beispiels das Cmdlet **Get-Credential** verwendet, um ein Windows PowerShell-Objekt der Befehlszeilen-Schnittstellen Anmeldeinformationen für den Benutzer litwareinc\\kenmyer zu erstellen. Beachten Sie, dass Sie das Kennwort für dieses Konto angeben müssen, um ein gültiges Credentials-Objekt zu erstellen und sicherzustellen, dass das **Test-csexumvoicemail "-** Cmdlet seine Überprüfung ausführen kann.
 
-Der zweite Befehl in diesem Beispiel verwendet das angegebene Credentials-Objekt ($x) und die SIP-Adresse des\\Benutzers "litwareinc kenmyer, um zu ermitteln, ob dieser Benutzer eine Verbindung mit der Exchange Unified Messaging-Voicemail herstellen kann.
+Der zweite Befehl in diesem Beispiel verwendet das angegebene Credentials-Objekt ($x) und die SIP-Adresse des\\Benutzers litwareinc kenmyer, um zu bestimmen, ob dieser Benutzer eine Verbindung mit der Exchange Unified Messaging-Voicemail herstellen kann.
 
     $credential = Get-Credential "litwareinc\pilar" 
     
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $credential 
 
-Der im nächsten Beispiel angezeigte Befehl ist eine Variation des Befehls, die in Beispiel 1 gezeigt wird. in diesem Fall ist der OutLoggerVariable-Parameter enthalten, um ein detailliertes Protokoll aller Schritte zu generieren, die vom **Test-CsExUMVoiceMail** cmdletand den Erfolg oder Misserfolg jedes dieser Schritte durchgeführt wurden. Dazu wird der OutLoggerVariable-Parameter neben dem Parameterwert ExumText hinzugefügt. Dies bewirkt, dass detaillierte Protokollierungsinformationen in einer Variablen mit dem Namen $ExumTest gespeichert werden. Im letzten Befehl im Beispiel wird die ToXml ()-Methode verwendet, um die Protokollinformationen in das XML-Format zu konvertieren. Diese XML-Daten werden dann mit dem Cmdlet "Out-File"\\in\\eine Datei mit dem Namen C: Logs VoicemailTest. XML geschrieben.
+Der Befehl im nächsten Beispiel ist eine Variation des Befehls in Beispiel 1 dargestellt; in diesem Fall ist der OutLoggerVariable-Parameter enthalten, um ein detailliertes Protokoll aller Schritte zu generieren, die von der **Test-csexumvoicemail "** ausgeführt werden, um den Erfolg oder Misserfolg jedes dieser Schritte cmdletand. Hierzu wird der Parameter OutLoggerVariable neben dem Parameterwert ExumText hinzugefügt. Dadurch werden ausführliche Protokollierungsinformationen in einer Variablen namens $ExumTest gespeichert. Im letzten Befehl im Beispiel wird die ToXml ()-Methode verwendet, um die Protokollinformationen in das XML-Format zu konvertieren. Diese XML-Daten werden dann mithilfe des Cmdlets Out-File in\\eine\\Datei mit dem Namen C: Logs VoicemailTest. XML geschrieben.
 
     Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -OutLoggerVariable VoicemailTest 
      
@@ -96,29 +96,29 @@ Der im nächsten Beispiel angezeigte Befehl ist eine Variation des Befehls, die 
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn die Exchange-Integration ordnungsgemäß konfiguriert ist, erhalten Sie eine ähnliche Ausgabe, wobei die Eigenschaft Ergebnis als **erfolgreich**markiert ist:
+Wenn die Exchange-Integration ordnungsgemäß konfiguriert ist, erhalten Sie eine ähnliche Ausgabe, wobei die Result-Eigenschaft als **Success**markiert wurde:
 
 Ziel-FQDN: ATL-CS-001.litwareinc.com
 
-Ergebnis: Erfolg
+Ergebnis: Success
 
-Latenz: 00:00:02.9911345
+Wartezeit: 00:00:02.9911345
 
 Fehlermeldung:
 
 Diagnose
 
-Wenn der angegebene Benutzer keine Verbindung mit Voicemail herstellen kann, wird das Ergebnis als **Fehler**angezeigt, und weitere Informationen werden in den Eigenschaften Fehler und Diagnose aufgezeichnet:
+Wenn der angegebene Benutzer keine Verbindung mit der Voicemail herstellen kann, wird das Ergebnis als **Fehler**angezeigt, und in den Eigenschaften Error und Diagnostic werden zusätzliche Informationen aufgezeichnet:
 
-Warnung: Fehler beim Lesen der Registrierungsstellen-Portnummer für die angegebene vollqualifizierte
+Warnung: Fehler beim Lesen der Registrierungs Portnummer für die angegebene vollqualifizierte
 
-Domänenname (FQDN). Verwenden der standardmäßigen Registrierungs Portnummer Ausnahme
+Domänenname (FQDN). Verwenden der standardmäßigen Registrierungsstellen-Portnummer. Ausnahme
 
 System. InvalidOperationException: kein übereinstimmender Cluster in der Topologie gefunden.
 
-am
+auf
 
 Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryRetri
 
@@ -128,23 +128,23 @@ Ziel-FQDN: ATL-CS-001.litwareinc.com
 
 Ergebnis: Fehler
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
-Fehlermeldung: 10060, Fehler bei einem Verbindungsversuch, weil die verbundene Partei
+Fehlermeldung: 10060, ein Verbindungsversuch ist fehlgeschlagen, da die verbundene Partei
 
-hat nach einer bestimmten Zeit nicht richtig reagiert, oder
+nach einem bestimmten Zeitraum nicht ordnungsgemäß reagiert oder
 
-Fehler beim Herstellen einer Verbindung, weil der verbundene Host
+Fehler bei hergestellter Verbindung, da der verbundene Host
 
-Fehler beim Antworten 10.188.116.96:5061
+Fehler beim Antworten auf 10.188.116.96:5061
 
 Innere Ausnahme: ein Verbindungsversuch ist fehlgeschlagen, da die
 
-die verbundene Partei hat nach einer gewissen Zeit nicht richtig reagiert
+die verbundene Partei hat nach einer bestimmten Zeit nicht ordnungsgemäß reagiert.
 
-Zeit, oder die Verbindung konnte nicht hergestellt werden, weil der verbundene Host
+Zeit oder Fehler bei hergestellter Verbindung, weil verbundener Host
 
-Fehler beim Antworten 10.188.116.96:5061
+Fehler beim Antworten auf 10.188.116.96:5061
 
 Diagnose
 
@@ -154,11 +154,11 @@ Diagnose
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Nachfolgend finden Sie einige häufige Gründe, warum **Test-CsExUMVoiceMail** möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, warum das **Testen von csexumvoicemail "** möglicherweise fehlschlägt:
 
-  - Es wurde ein falscher Parameterwert angegeben. Wenn die optionalen Parameter verwendet werden, müssen Sie ordnungsgemäß konfiguriert sein, oder der Test schlägt fehl. Führen Sie den Befehl ohne die optionalen Parameter erneut aus, und überprüfen Sie, ob dies erfolgreich war.
+  - Ein falscher Parameterwert wurde angegeben. Wenn die optionalen Parameter verwendet werden, müssen Sie ordnungsgemäß konfiguriert sein, oder der Test kann nicht ausgeführt werden. Führen Sie den Befehl ohne die optionalen Parameter erneut aus, und überprüfen Sie, ob dies erfolgreich ist.
 
-  - Dieser Befehl schlägt fehl, wenn der Exchange-Server falsch konfiguriert oder noch nicht bereitgestellt wurde.
+  - Dieser Befehl schlägt fehl, wenn der Exchange Server falsch konfiguriert oder noch nicht bereitgestellt wurde.
 
 </div>
 
@@ -167,7 +167,7 @@ Nachfolgend finden Sie einige häufige Gründe, warum **Test-CsExUMVoiceMail** m
 ## <a name="see-also"></a>Siehe auch
 
 
-[Test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity)  
+[Test-csexumconnectivity "](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity)  
   
 
 </div>

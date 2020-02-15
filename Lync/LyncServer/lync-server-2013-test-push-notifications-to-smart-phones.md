@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Testen von Push-Benachrichtigungen an Smartphones'
+title: 'Lync Server 2013: Test Push Notifications to Smart Phones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969626
 ms.date: 03/15/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94daa288757e2a0af446b455b951af9a990147b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 858c1ad3ad5776453a4a48505672c69083de1cc2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746215"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42021216"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746215"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2017-03-15_
+_**Letztes Änderungsstand des Themas:** 2017-03-15_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2017-03-15_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsMcxPushNotification-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsMcxPushNotification verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsMcxPushNotification&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -66,13 +66,13 @@ _**Letztes Änderungsdatum des Themas:** 2017-03-15_
 
 ## <a name="description"></a>Beschreibung
 
-Der Push-Benachrichtigungsdienst (Apple Push Notification Service und Microsoft Push Notification Service) kann Benachrichtigungen zu Ereignissen wie neuen Sofortnachrichten oder neuen Voicemails an mobile Geräte wie iPhones und Windows phones senden, selbst wenn der lync-Client auf diesen Geräten ist zurzeit angehalten oder wird im Hintergrund ausgeführt. Der Push-Benachrichtigungsdienst ist ein Cloud-basierter Dienst, der auf Microsoft-Servern ausgeführt wird. Um die Vorteile von Push-Benachrichtigungen nutzen zu können, müssen Sie in der Lage sein, eine Verbindung mit der Push Notification Clearingstelle herzustellen und von ihr authentifiziert zu werden. Das Cmdlet Test-CsMcxPushNotification ermöglicht Administratoren, zu überprüfen, ob Push-Benachrichtigungsanforderungen über den Edgeserver an das "Push Notification Clearing House" weitergeleitet werden können.
+Der Push Notification Service (Apple Push Notification Service und Microsoft Push Notification Service) kann Benachrichtigungen zu Ereignissen wie neuen Sofortnachrichten oder neuen Voicemails an mobile Geräte wie iPhones und Windows phones senden, selbst wenn der lync-Client auf diesen Geräten ist derzeit angehalten oder wird im Hintergrund ausgeführt. Der Push Notification-Dienst ist ein Cloud-basierter Dienst, der auf Microsoft-Servern läuft. Um die Vorteile von Push-Benachrichtigungen nutzen zu können, müssen Sie in der Lage sein, eine Verbindung mit der Push Notification Clearing House herzustellen und diese zu authentifizieren. Mit dem Cmdlet Test-CsMcxPushNotification können Administratoren überprüfen, ob Push-Benachrichtigungsanforderungen über den Edgeserver an das Clearing House für die Push-Benachrichtigung weitergeleitet werden können.
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
 Um den Push-Benachrichtigungsdienst zu testen, rufen Sie das Cmdlet Test-CsMcxPushNotification auf. Stellen Sie sicher, dass Sie den vollqualifizierten Domänennamen Ihres Edge-Servers angeben:
 
@@ -84,25 +84,25 @@ Weitere Informationen finden Sie im Hilfethema zum Cmdlet [Test-CsMcxPushNotific
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn Test-CsMcxPushNotification erfolgreich ist, gibt das Cmdlet den Erfolg des Testergebnisses zurück:
+Wenn die Test-CsMcxPushNotification erfolgreich ist, gibt das Cmdlet das Testergebnis Success zurück:
 
 TargetFqdn: ATL-CS-001.litwareinc.com
 
-Ergebnis: Erfolg
+Ergebnis: Success
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
 Fehler
 
 Diagnose
 
-Wenn Test-CsMcxPushNotification keine Verbindung mit dem Schiebe Benachrichtigungs-Clearing House herstellen kann, gibt das Cmdlet in der Regel kein Test Ergebnis des Fehlers zurück. Stattdessen wird der Befehl in der Regel vollständig fehlschlagen. Beispiel:
+Wenn Test-CsMcxPushNotification keine Verbindung mit dem Push Notification-Clearing House herstellen kann, gibt das Cmdlet in der Regel kein Test Ergebnis des Fehlers zurück. Stattdessen wird der Befehl normalerweise vollständig fehl. Beispiel:
 
-Test-CsMcxPushNotification: eine 504-Antwort (Server Timeout) wurde vom Netzwerk empfangen, und der Vorgang konnte nicht ausgeführt werden. Weitere Informationen finden Sie in den Ausnahmedetails.
+Test-CsMcxPushNotification: eine 504-Antwort (Server Timeout) wurde aus dem Netzwerk empfangen, und der Vorgang ist fehlgeschlagen. Weitere Informationen finden Sie in den Ausnahmedetails.
 
-Zeile: 1 Zeichen: 27
+In der Reihe: 1 Char: 27
 
 \+Test-CsMcxPushNotification \< \< \< \< -AccessEdgeFqdn lyncedge.mydomain.com
 
@@ -116,33 +116,33 @@ Zeile: 1 Zeichen: 27
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Wenn der Push-Benachrichtigungsdienst fehlschlägt, der in der Regel auf Probleme bei der Kommunikation mit Ihrem Edgeserver oder auf Probleme bei der Kommunikation mit dem Clearing House für die Push-Benachrichtigung hinweist. Wenn beim Ausführen von Test-CsMcxPushNotification Probleme auftreten, sollten Sie zunächst überprüfen, ob der Edgeserver ordnungsgemäß funktioniert. Eine Möglichkeit besteht darin, das Cmdlet Test-CsAVEdgeConnectivity zu verwenden:
+Wenn der Push-Benachrichtigungsdienst fehlschlägt, gibt es normalerweise Probleme mit der Kommunikation mit Ihrem Edgeserver oder Probleme mit der Kommunikation mit dem Push Notification Clearing House. Wenn beim Ausführen von Test-CsMcxPushNotification Probleme auftreten, sollten Sie zunächst überprüfen, ob der Edgeserver ordnungsgemäß funktioniert. Eine Möglichkeit hierfür ist die Verwendung des Test-csavedgeconnectivity "-Cmdlets:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsAVEdgeConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-Mit dieser Prüfung wird überprüft, ob ein angegebener Benutzer eine Verbindung mit dem Edgeserver herstellen kann.
+Mit dieser Überprüfung wird überprüft, ob ein angegebener Benutzer eine Verbindung mit dem Edgeserver herstellen kann.
 
-Wenn der Edgeserver anscheinend ordnungsgemäß funktioniert, bedeutet dies häufig, dass Sie keine Verbindung mit der Push Notification Clearing House herstellen können. Das bedeutet wiederum in der Regel, dass Sie den Clearing House-URI entweder nicht richtig konfiguriert haben oder dass Sie keinen DNS-SRV-Eintrag haben, der auf diese URL verweist. Sie können überprüfen, ob der URI auf den richtigen Wert (SIP:Push@Push.lync.com) festgesetzt ist, indem Sie folgenden Befehl ausführen:
+Wenn der Edgeserver anscheinend ordnungsgemäß funktioniert, bedeutet dies häufig, dass Sie keine Verbindung mit dem Push Notification Clearing House herstellen können. Dies wiederum bedeutet normalerweise, dass Sie den Clearing House-URI entweder nicht ordnungsgemäß konfiguriert haben oder dass Sie keinen DNS-SRV-Eintrag haben, der auf diese URL verweist. Sie können überprüfen, ob der URI auf den korrekten Wert (SIP:Push@Push.lync.com) festgelegt ist, indem Sie den folgenden Befehl ausführen:
 
     Get-CsMcxConfiguration
 
-Wenn die PushNotificationProxyUri-Eigenschaft auf einen anderen Wert als SIP:Push@Push.lync.com festgesetzt ist, können Sie dieses Problem mit dem Cmdlet "Satz-McxConfiguration" beheben. Mit diesem Befehl wird beispielsweise der URI in Ihrer Organisation richtig festgelegt:
+Wenn die PushNotificationProxyUri-Eigenschaft auf einen anderen Wert als SIP:Push@Push.lync.com festgelegt ist, können Sie dieses Problem mithilfe des Cmdlets "setMcxConfiguration" beheben. Mit diesem Befehl wird beispielsweise der URI in Ihrer Organisation ordnungsgemäß festgelegt:
 
     Get-CsMcxConfiguration | Set-CsMcxConfiguration -PushNotificationProxyUri "sip:push@push.lync.com"
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet " [Satz-CsMcxConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsMcxConfiguration) ".
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet " [CsMcxConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsMcxConfiguration) ".
 
-Wenn der URI richtig konfiguriert ist, sollten Sie im nächsten Schritt überprüfen, ob ein DNS-SRV-Eintrag vorhanden ist, der in Ihre SIP-Domäne und Ihren Edge-Server aufgelöst wird. Weitere Informationen zum Konfigurieren dieser Einträge finden Sie im Hilfethema DNS-Anforderungen für Mobilität. Beachten Sie, dass die folgende Fehlermeldung in der Regel auf ein Problem mit DNS-Einträgen hinweist:
+Wenn der URI ordnungsgemäß konfiguriert ist, sollten Sie im nächsten Schritt überprüfen, ob Sie über einen DNS-SRV-Eintrag verfügen, der in Ihre SIP-Domäne und ihren Edgeserver aufgelöst wird. Weitere Informationen zum Konfigurieren dieser Einträge finden Sie im Hilfethema DNS Requirements for Mobility. Beachten Sie, dass die folgende Fehlermeldung in der Regel ein Problem mit DNS-Einträgen angibt:
 
-Eine 504-Antwort (Server Timeout) wurde vom Netzwerk empfangen, und der Vorgang konnte nicht ausgeführt werden. Weitere Informationen finden Sie in den Ausnahmedetails.
+Eine 504-Antwort (Server Timeout) wurde aus dem Netzwerk empfangen, und der Vorgang ist fehlgeschlagen. Weitere Informationen finden Sie in den Ausnahmedetails.
 
 Es ist auch möglich, dass Test-CsMcxConfiguration mit dieser Fehlermeldung fehlschlägt:
 
 Test-CsMcxPushNotification: die Push-Benachrichtigungsanforderung wurde abgelehnt.
 
-Zeile: 1 Zeichen: 27
+In der Reihe: 1 Char: 27
 
 \+Test-CsMcxPushNotification\<\<\<\<
 
@@ -150,18 +150,18 @@ Zeile: 1 Zeichen: 27
 
 \+FullyQualifiedErrorId: WorkflowNotCompleted, Microsoft. RTC. Management. SyntheticTransactions. TestMcxPushNotificationCmdlet
 
-Die Meldung "Push-Benachrichtigungsanforderung wurde abgelehnt" tritt in der Regel auf, wenn Sie die URL-Filterung aktiviert haben und die Präfixe http: und https: blockieren. Sie können bestimmen, welche Präfixe blockiert werden, indem Sie einen Befehl wie den folgenden verwenden:
+Die Meldung "Push Notification Request wurde abgelehnt" tritt normalerweise auf, wenn Sie die URL-Filterung aktiviert haben und die http:-und https:-Präfixe blockieren. Sie können bestimmen, welche Präfixe blockiert werden, indem Sie einen Befehl wie den folgenden verwenden:
 
 ```PowerShell 
  (Get-CsImFilterConfiguration -Identity Global).Prefixes
 ```
 
-Wenn "http:" oder "https:" in den Ergebnissen angezeigt wird, müssen Sie Sie aus der Liste der blockierten Präfixe entfernen, damit Push-Benachrichtigungen funktionieren. Dies kann mithilfe von Befehlen wie den folgenden erfolgen:
+Wenn http: oder https: in den Ergebnissen angezeigt wird, müssen Sie Sie aus der Liste der blockierten Präfixe entfernen, damit Push-Benachrichtigungen funktionieren. Dies kann mithilfe von Befehlen wie den folgenden erfolgen:
 
     Set-CsImFilterConfiguration -Identity site:Redmond -Prefixes @{remove="http:"}
     Set-CsImFilterConfiguration -Identity site:Redmond -Prefixes @{remove="https:"}
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet " [Satz-CsImFilterConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsImFilterConfiguration)".
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet " [CsImFilterConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsImFilterConfiguration)".
 
 </div>
 

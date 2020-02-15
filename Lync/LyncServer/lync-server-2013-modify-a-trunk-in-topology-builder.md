@@ -12,16 +12,16 @@ ms:contentKeyID: 49733709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e1c603aa24a0d31ea87178f740f824ae77f20f4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d5b4c69fdf4b7dbad79f4b9c2627e74ea855cd02
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758647"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035921"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,17 +35,17 @@ ms.locfileid: "41758647"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Führen Sie die folgenden Schritte aus, um die IP-Adresse des alternativen Mediums und den alternativen Bypass-Bezeichner eines Trunks zu ändern.
+Führen Sie die folgenden Schritte aus, um die alternative IP-Adresse für Medien und die alternative ID für die Umgehung eines Trunk zu ändern.
 
 <div>
 
-## <a name="to-modify-the-alternate-media-ip-address-of-a-trunk"></a>So ändern Sie die Alternative Medien-IP-Adresse eines Trunks
+## <a name="to-modify-the-alternate-media-ip-address-of-a-trunk"></a>So ändern Sie die alternative IP-Adresse für Medien eines Trunks
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Führen Sie das Cmdlet "Satz-CsPstnGateway" aus, und ändern Sie das Feld AlternateBypassId in der lync Server-Verwaltungsshell.
+2.  Führen Sie das Cmdlet "CsPstnGateway" aus, und ändern Sie das Feld AlternateBypassId in der lync Server-Verwaltungsshell.
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -RepresentativeMediaIP <IP address>
 
@@ -53,11 +53,11 @@ Führen Sie die folgenden Schritte aus, um die IP-Adresse des alternativen Mediu
 
 <div>
 
-## <a name="to-modify-the-alternate-bypassid-of-a-trunk"></a>So ändern Sie die Alternative Bypass-Nr eines Trunks
+## <a name="to-modify-the-alternate-bypassid-of-a-trunk"></a>So ändern Sie die alternative ID für die Umgehung eines Trunks
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Führen Sie das Cmdlet "Satz-CsPstnGateway" aus, und ändern Sie das Feld AlternateBypassId in der lync Server-Verwaltungsshell.
+2.  Führen Sie das Cmdlet "CsPstnGateway" aus, und ändern Sie das Feld AlternateBypassId in der lync Server-Verwaltungsshell.
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -AlternateBypassID <identifier>
 

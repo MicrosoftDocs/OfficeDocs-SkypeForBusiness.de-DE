@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren von Clients für die Migration
+title: Konfigurieren der Clients für die Migration
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -13,20 +13,20 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 84205c75da4c52aa6c90f3a501c74dd849933d9f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 24c5c530b51b24b23f266786cd763994c4798d1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41727955"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41999190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-clients-for-migration"></a>Konfigurieren von Clients für die Migration
+# <a name="configure-clients-for-migration"></a>Konfigurieren der Clients für die Migration
 
 </div>
 
@@ -36,25 +36,25 @@ ms.locfileid: "41727955"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-11-21_
+_**Letztes Änderungsstand des Themas:** 2013-11-21_
 
-Dieses Thema enthält die empfohlenen Client Bereitstellungsschritte, die Sie vor der Migration zu lync Server 2013 ausführen sollten. Diese Konfigurationsänderungen sollten auf Office Communications Server 2007 R2 erfolgen. Es ist sehr wichtig, dass Sie diese Schritte vor der Migration durchführen. Ausführliche Informationen finden Sie unter [Planen von Clients und Geräten in lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md).
+Dieses Thema enthält die empfohlenen Schritte zur Clientbereitstellung, die Sie vor der Migration zu lync Server 2013 durchführen sollten. Diese Konfigurationsänderungen sollten in Office Communications Server 2007 R2 vorgenommen werden. Es ist sehr wichtig, dass diese Schritte vor der Migration durchgeführt werden. Ausführliche Informationen finden Sie unter [Planning for Clients and Devices in lync Server 2013](lync-server-2013-planning-for-clients-and-devices.md).
 
 <div>
 
 ## <a name="to-configure-clients-prior-to-migration"></a>So konfigurieren Sie Clients vor der Migration
 
-1.  Bereitstellen der neuesten Office Communications Server 2007 R2-Server-, Client-und Geräte Updates (Hotfixes):
+1.  Bereitstellen der neuesten Office Communications Server 2007 R2 Server-, Client-und Geräte Updates (Hotfixes):
     
-      - [Anwenden von Office Communications Server 2007 R2-Updates](apply-office-communications-server-2007-r2-updates.md)
+      - [Anwenden von Office Communications Server 2007 R2 Updates](apply-office-communications-server-2007-r2-updates.md)
     
       - [Beschreibung des kumulativen Updatepakets für Communicator 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=335808)
     
-      - [Abrufen von Software Updates für Geräte](http://go.microsoft.com/fwlink/?linkid=335809)
+      - [Abrufen von Softwareupdates für Geräte](http://go.microsoft.com/fwlink/?linkid=335809)
 
-2.  Verwenden Sie auf Office Communications Server 2007 R2 die Client Versions Filterung, damit nur Office Communications Server 2007 R2-Clients mit den aktuellsten Updates installiert werden können, um sich anzumeldet.
+2.  Verwenden Sie auf Office Communications Server 2007 R2 die Client Versions Filterung, damit nur Office Communications Server 2007 R2 Clients mit den neuesten installierten Updates angemeldet werden können.
 
-3.  Verwenden Sie in Office Communications Server 2007 R2 die Client Versions Filterung, um zu verhindern, dass lync Server 2013-Clients sich anmelden. Befolgen Sie die Schritte unter **Konfigurieren der Client Versions Filterung** unter [http://go.microsoft.com/fwlink/p/?linkId=202488](http://go.microsoft.com/fwlink/p/?linkid=202488) , um die in der folgenden Tabelle aufgelisteten Versionsfilter hinzuzufügen. Weisen Sie für jeden Versionsfilter den Aktions **Block**zu.
+3.  Verwenden Sie auf Office Communications Server 2007 R2 die Client Versions Filterung, um zu verhindern, dass lync Server 2013-Clients sich anmelden. Führen Sie die unter **Konfigurieren der Client Versions Filterung** unter [http://go.microsoft.com/fwlink/p/?linkId=202488](http://go.microsoft.com/fwlink/p/?linkid=202488) beschriebenen Schritte aus, um die in der folgenden Tabelle aufgeführten Versionsfilter hinzuzufügen. Weisen Sie für jeden Versionsfilter die Aktion **Blockieren** zu.
     
     
     <table>
@@ -66,7 +66,7 @@ Dieses Thema enthält die empfohlenen Client Bereitstellungsschritte, die Sie vo
     <thead>
     <tr class="header">
     <th>Client</th>
-    <th>Benutzer-Agent-Kopfzeile</th>
+    <th>Benutzer-Agent-Header</th>
     <th>Version</th>
     </tr>
     </thead>

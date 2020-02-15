@@ -1,5 +1,5 @@
 ---
-title: Erstellen oder Ändern einer Sammlung von Konfigurationseinstellungen für Clientversionen
+title: Erstellen oder Ändern einer Auflistung von Konfigurationseinstellungen für Clientversionen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 50873757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fc50696444ddd0602bbf21fd9e05b5bba6eddde
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 38f70e1d29cd6cd8de3a323829772eab1f9c3452
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722561"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035621"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Erstellen oder Ändern einer Sammlung von Konfigurationseinstellungen für Clientversionen in lync Server 2013
+# <a name="create-or-modify-a-collection-of-client-version-configuration-settings-in-lync-server-2013"></a>Erstellen oder Ändern einer Auflistung von Konfigurationseinstellungen für Clientversionen in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41722561"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Client Version-Konfigurationseinstellungen werden verwendet, um die Client Versionskontrolle zu aktivieren oder zu deaktivieren. Die Konfiguration der globalen Client Version wird mit lync Server installiert und verwendet, um die Client Versionskontrolle für die gesamte Server Bereitstellung zu aktivieren oder zu deaktivieren. Sie können auch Konfigurationseinstellungen für Clientversionen für einzelne Websites konfigurieren. Sie können die Konfigurationseinstellungen für Clientversionen in der lync Server 2013-Systemsteuerung oder in der lync Server 2013-Verwaltungsshell erstellen oder ändern.
+Konfigurationseinstellungen für Clientversionen werden verwendet, um die Client Versionskontrolle zu aktivieren oder zu deaktivieren. Die Konfiguration der globalen Client Version wird mit lync Server installiert und dient zum Aktivieren oder Deaktivieren der Client Versionskontrolle für die gesamte Server Bereitstellung. Sie können auch Konfigurationseinstellungen für Clientversionen für einzelne Websites konfigurieren. Sie können Client Versions Konfigurationseinstellungen in lync Server 2013 Systemsteuerung oder in lync Server 2013 Verwaltungsshell erstellen oder ändern.
 
 <div>
 
@@ -51,33 +51,33 @@ Client Version-Konfigurationseinstellungen werden verwendet, um die Client Versi
 
 <div>
 
-## <a name="to-create-or-modify-client-version-configuration-settings-by-using-lync-server-control-panel"></a>So erstellen oder ändern Sie die Konfigurationseinstellungen für Clientversionen mithilfe der lync Server-Systemsteuerung
+## <a name="to-create-or-modify-client-version-configuration-settings-by-using-lync-server-control-panel"></a>So erstellen oder ändern Sie Konfigurationseinstellungen für Clientversionen mithilfe von lync Server-Systemsteuerung
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Navigationsschaltfläche **Client Versions Konfiguration** .
 
 4.  Führen Sie auf der Seite **Client Versions Konfiguration** die folgenden Aktionen aus:
     
-      - Wenn Sie eine neue Konfiguration erstellen möchten, klicken Sie auf **neu**, wählen Sie eine Website aus, klicken Sie auf **OK** Name, und aktualisieren Sie die Einstellungen.
+      - Um eine neue Konfiguration zu erstellen, klicken Sie auf **neu**, wählen Sie einen Standort aus, klicken Sie auf **OK** Name, und aktualisieren Sie die Einstellungen.
     
-      - Wenn Sie eine Konfiguration ändern möchten, wählen Sie die Konfiguration aus, klicken Sie auf **Bearbeiten**, klicken Sie auf **Details anzeigen**, und nehmen Sie die gewünschten Änderungen an den Einstellungen vor.
+      - Um eine Konfiguration zu ändern, wählen Sie die Konfiguration aus, klicken Sie auf **Bearbeiten**, klicken Sie auf **Details anzeigen**, und nehmen Sie Änderungen an den Einstellungen vor.
 
 </div>
 
 <div>
 
-## <a name="creating-or-modifying-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Erstellen oder Ändern von Client Versions Konfigurationseinstellungen mithilfe von Windows PowerShell-Cmdlets
+## <a name="creating-or-modifying-client-version-configuration-settings-by-using-windows-powershell-cmdlets"></a>Erstellen oder Ändern von Konfigurationseinstellungen für Client Versionen mithilfe von Windows PowerShell-Cmdlets
 
-Sie können Konfigurationseinstellungen für Clientversionen mithilfe des Cmdlets **New-CsClientVersionConfiguration** erstellen und mithilfe des Cmdlets " **Satz-CsClientVersionConfiguration** " ändern. Diese Cmdlets können entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Sie können Konfigurationseinstellungen für Clientversionen mithilfe des **New-CsClientVersionConfiguration-** Cmdlets erstellen und diese mithilfe des Cmdlets " **CsClientVersionConfiguration** " ändern. Diese Cmdlets können entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
-## <a name="to-create-a-new-collection-of-client-version-configuration-settings"></a>So erstellen Sie eine neue Sammlung von Konfigurationseinstellungen für Clientversionen
+## <a name="to-create-a-new-collection-of-client-version-configuration-settings"></a>So erstellen Sie eine neue Auflistung von Konfigurationseinstellungen für Clientversionen
 
-  - Mit dem folgenden Befehl wird eine neue Sammlung von Client Versions-Konfigurationseinstellungen erstellt, die auf die Redmond-Website angewendet wurden. In diesem Beispiel ist die Client Versionsverwaltung für die Redmond-Website deaktiviert.
+  - Mit dem folgenden Befehl wird eine neue Auflistung von Client Versions-Konfigurationseinstellungen erstellt, die auf den Standort "Redmond" angewendet werden. In diesem Beispiel ist die Client Versionsverwaltung für den Standort "Redmond" deaktiviert.
     
         New-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $False
 
@@ -85,9 +85,9 @@ Sie können Konfigurationseinstellungen für Clientversionen mithilfe des Cmdlet
 
 <div>
 
-## <a name="to-enable-client-versioning-for-a-site"></a>So aktivieren Sie die Client Versionsverwaltung für eine Website
+## <a name="to-enable-client-versioning-for-a-site"></a>So aktivieren Sie die Client Versionsverwaltung für einen Standort
 
-  - Mit diesem Befehl wird die Client Versionsverwaltung für die Redmond-Website aktiviert.
+  - Mit diesem Befehl wird die Client Versionsverwaltung für den Standort "Redmond" aktiviert.
     
         Set-CsClientVersionConfiguration -Identity "site:Redmond" -Enabled $True
 
@@ -97,13 +97,13 @@ Sie können Konfigurationseinstellungen für Clientversionen mithilfe des Cmdlet
 
 ## <a name="to-disable-client-versioning-throughout-the-organization"></a>So deaktivieren Sie die Client Versionsverwaltung in der gesamten Organisation
 
-  - In diesem Beispiel ist die Client Versionsverwaltung für alle Konfigurationseinstellungen der Client Version deaktiviert, die in der Organisation verwendet werden.
+  - In diesem Beispiel ist die Client Versionsverwaltung für alle Client Versions Konfigurationseinstellungen deaktiviert, die in der Organisation verwendet werden.
     
         Get-CsClientVersionConfiguration | Set-CsClientVersionConfiguration  -Enabled $False
 
 </div>
 
-Ausführliche Informationen finden Sie im Hilfethema zu den Cmdlets [New-CsClientVersionConfiguration](https://technet.microsoft.com/en-us/library/Gg399029(v=OCS.15)) und [CsClientVersionConfiguration](https://technet.microsoft.com/en-us/library/Gg398623(v=OCS.15)) .
+Ausführliche Informationen finden Sie im Hilfethema zu den Cmdlets [New-CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg399029(v=OCS.15)) und [CsClientVersionConfiguration](https://technet.microsoft.com/library/Gg398623(v=OCS.15)) .
 
 </div>
 

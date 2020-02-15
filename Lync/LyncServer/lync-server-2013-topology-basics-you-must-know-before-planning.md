@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Topologiegrundlagen, die Sie vor der Planung kennen sollten'
+title: Grundlagen der lync Server 2013 Topologie, die Sie vor der Planung kennen müssen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184510
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9034ce0802cce542c8e7b893feaafd618bb56b97
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af22effc5c16f824952806dffe1d6c646b4b7654
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745195"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036585"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a>Topologiegrundlagen, die Sie vor der Planung für Lync Server 2013 kennen sollten
+# <a name="topology-basics-you-must-know-before-planning-for-lync-server-2013"></a>Grundlagen der Topologie, die Sie vor der Planung von lync Server 2013 kennen müssen
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41745195"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-25_
+_**Letztes Änderungsstand des Themas:** 2012-09-25_
 
-Sie müssen kein Experte auf lync Server sein, um das Planungs Tool ausführen zu können. Wenn Sie das Planungs Tool mehrmals ausführen, Fragen anders beantworten und die Ausgabe vergleichen, können Sie sich über lync Server informieren.
+Sie müssen kein Experte für lync Server sein, um das Planungs Tool auszuführen. Wenn Sie das Planungs Tool mehrmals durchführen, Fragen anders beantworten und die Ausgabe vergleichen, ist es eine gute Möglichkeit, sich über lync Server zu informieren.
 
-Bevor Sie sich mit den verschiedenen Komponenten eingehend vertraut machen, sollten Sie die folgenden grundlegenden Aspekte von lync Server 2013-Topologien kennen.
+Bevor Sie sich ausführlicher mit den verschiedenen Komponenten vertraut gemacht haben, sollten Sie sich mit den folgenden grundlegenden Aspekten lync Server 2013 Topologien vertraut machen.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Lync Server-Standorte für Lync Server 2013](lync-server-2013-sites.md)
+  - [Lync Server Websites für lync Server 2013](lync-server-2013-sites.md)
 
-  - [Serverrollen in Lync Server 2013](lync-server-2013-server-roles.md)
+  - [Server Rollen in lync Server 2013](lync-server-2013-server-roles.md)
 
-  - [Unterstützung für hohe Verfügbarkeit und Notfallwiederherstellung in Lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md)
+  - [Unterstützung für hohe Verfügbarkeit und Notfallwiederherstellung in lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md)
 
 </div>
 

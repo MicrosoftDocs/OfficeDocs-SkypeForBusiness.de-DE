@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: DNS-Anforderungen (Domain Name System)'
+title: 'Lync Server 2013: Domain Name System (DNS) Anforderungen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184194
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2eddf86c881875ebbe08fddd6ffa85403dda6b60
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2536e5079009d508765055d31e80efb1b998aa0b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739795"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006291"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="domain-name-system-dns-requirements-for-lync-server-2013"></a>DNS-Anforderungen (Domain Name System) für lync Server 2013
+# <a name="domain-name-system-dns-requirements-for-lync-server-2013"></a>Domain Name System (DNS) Anforderungen für lync Server 2013
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "41739795"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-18_
+_**Letztes Änderungsstand des Themas:** 2012-06-18_
 
-Zum Bereitstellen von lync Server müssen Sie DNS-Einträge (Domain Name System) erstellen, die die Ermittlung von Clients und Servern ermöglichen, und optional die Unterstützung für die automatische Clientanmeldung, wenn Ihre Organisation Sie unterstützen möchte.
+Um lync Server bereitzustellen, müssen Sie Domain Name System (DNS) Datensätze erstellen, die die Ermittlung von Clients und Servern ermöglichen, und optional die Unterstützung für die automatische Clientanmeldung, wenn Ihre Organisation Sie unterstützen möchte.
 
-Lync Server verwendet DNS wie folgt:
+Lync Server verwendet DNS auf folgende Weise:
 
-  - Ermitteln interner Server oder Pools für die Server-zu-Server-Kommunikation.
+  - Zum Erkennen interner Server oder Pools für die Kommunikation zwischen Servern.
 
-  - Damit Clients den Front-End-Pool oder den Standard Edition-Server ermitteln können, der für verschiedene SIP-Transaktionen verwendet wird.
+  - Damit Clients die Front-End-Pool oder Standard Edition-Server finden, die für verschiedene SIP-Transaktionen verwendet werden.
 
-  - Wenn Sie Unified Communications-Geräten (UC) zulassen möchten, die nicht angemeldet sind, um den Front-End-Pool oder den Standard Edition-Server mit dem Geräte Update-Webdienst zu entdecken, beziehen Sie Updates, und senden Sie Protokolle.
+  - Wenn Sie UC-Geräte (Unified Communications) zulassen möchten, die nicht angemeldet sind, können Sie die Front-End-Pool oder Standard Edition-Server ausgeführten Geräte Update-Webdienst ermitteln, Updates abrufen und Protokolle senden.
 
-  - Damit externe Server und Clients eine Verbindung mit Edgeserver oder dem HTTP-Reverseproxy für Sofortnachrichten (im) oder Konferenzen herstellen können.
+  - Damit externe Server und Clients eine Verbindung mit Edgeserver oder dem HTTP-Reverseproxy für Instant Messaging (Sofortnachrichten) oder Konferenzen herstellen können.
 
-  - So ermöglichen Sie externen UC-Geräten das Herstellen einer Verbindung mit dem Geräte Update-Webdienst über Edgeserver oder den HTTP-Reverseproxy und Abrufen von Updates
+  - Damit externe UC-Geräte über Edgeserver oder den HTTP-Reverseproxy eine Verbindung mit dem Geräte Update-Webdienst herstellen und Updates abrufen können.
 
-  - Damit Mobile Clients automatisch Webdienste-Ressourcen ermitteln können, ohne dass die Benutzer URLs in den Geräteeinstellungen manuell eingeben müssen.
+  - Damit mobile Clients automatisch Webdienstressourcen ermitteln können, ohne dass Benutzer in den Geräteeinstellungen manuell URLs eingeben müssen.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Ermitteln von DNS-Anforderungen für Lync Server 2013](lync-server-2013-determine-dns-requirements.md)
+  - [Bestimmen der DNS-Anforderungen für lync Server 2013](lync-server-2013-determine-dns-requirements.md)
 
   - [DNS-Anforderungen für Front-End-Pools in lync Server 2013](lync-server-2013-dns-requirements-for-front-end-pools.md)
 
   - [DNS-Anforderungen für Standard Edition-Server in lync Server 2013](lync-server-2013-dns-requirements-for-standard-edition-servers.md)
 
-  - [DNS-Anforderungen für einfache URLs in Lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md)
+  - [DNS-Anforderungen für einfache URLs in lync Server 2013](lync-server-2013-dns-requirements-for-simple-urls.md)
 
   - [DNS-Anforderungen für die automatische Clientanmeldung in lync Server 2013](lync-server-2013-dns-requirements-for-automatic-client-sign-in.md)
 
-  - [DNS-Anforderungen für Mobilität mit lync Server 2013](lync-server-2013-dns-requirements-for-mobility.md)
+  - [DNS-Anforderungen für die Mobilität mit lync Server 2013](lync-server-2013-dns-requirements-for-mobility.md)
 
   - [DNS-Lastenausgleich in lync Server 2013](lync-server-2013-dns-load-balancing.md)
 

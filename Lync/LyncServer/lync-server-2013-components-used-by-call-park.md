@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Komponenten für das Parken von Anrufen'
+title: 'Lync Server 2013: vom Parken von Anrufen verwendete Komponenten'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185374
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae458d7ef3245e366e4f2bdd61f192401909213b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4a0b6d6bece5fa107e0fe130aab983458acbc0a4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757079"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007935"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="components-used-by-call-park-in-lync-server-2013"></a>Komponenten für das Parken von Anrufen in Lync Server 2013
+# <a name="components-used-by-call-park-in-lync-server-2013"></a>Für das Parken von Anrufen in lync Server 2013 verwendete Komponenten
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41757079"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-13_
+_**Letztes Änderungsstand des Themas:** 2012-09-13_
 
-Die Anwendung Parken wird automatisch installiert, wenn Sie Enterprise-VoIP bereitstellen. Sie aktivieren den Anruf Park durch Konfigurieren der VoIP-Richtlinie. Die folgenden lync Server 2013-Komponenten unterstützen die Anwendung für den Parken von anrufen:
+Das Anwendung zum Parken von Anrufen wird automatisch installiert, wenn Sie Enterprise-VoIP bereitstellen. Sie können das Parken von Anrufen durch Konfigurieren der VoIP-Richtlinie aktivieren. Die folgenden lync Server 2013 Komponenten unterstützen das Anwendung zum Parken von anrufen:
 
-  - **Application Service**   Application Service stellt eine Plattform zum Bereitstellen, hosten und Verwalten von Unified Communications-Anwendungen bereit, beispielsweise die Anwendung für den Parken von anrufen. Der Anwendungsdienst wird auf jedem Front-End-Server in einem Front-End-Pool und auf jedem Standard Edition-Server automatisch installiert.
+  - **Anwendungsdienst**   Anwendungsdienst bietet eine Plattform zum Bereitstellen, hosten und Verwalten von Unified Communications-Anwendungen wie der Anwendung zum Parken von anrufen. Anwendungsdienst wird automatisch auf jedem Front-End-Server in einem Front-End-Pool und auf jeder Standard Edition-Server installiert.
 
-  - **Anwendung für den Park anrufen**   die Anwendung "Parken" ist eine der Unified Communications-Anwendungen, die vom Anwendungsdienst gehostet werden. Sie wird automatisch bei der Bereitstellung von Enterprise-VoIP integriert. Rufen Sie Parkplätze an, ruft Anrufe ab und verwaltet die Orbits des Anruf Parks.
+  - **Anwendung zum Parken von Anrufen**   das Anwendung zum Parken von anrufen ist eine der Unified Communications-Anwendungen, die von Anwendungsdienst gehostet werden. Sie wird automatisch bei der Bereitstellung von Enterprise-VoIP einbezogen. Parken von Parks anrufen und Anrufe abrufen und Orbits für das Parken von Anrufen verwalten.
 
-  - **Music-on-halte-Datei**   wenn Musik aktiviert ist, wird die Musikdatei wiedergegeben, während ein Anruf abgestellt wird. Eine Standard-Musikdatei ist enthalten, wenn die Anwendung für den Parken von Anrufen installiert ist.
+  - **Music-on Hold-Datei**   wenn Music in enabled ist, wird die Musikdatei wiedergegeben, während ein Anruf geparkt wird. Wenn die Anwendung zum Parken von Anrufen installiert ist, wird eine standardmäßige Musikdatei hinzugefügt.
 
-  - **Dateispeicher**   die Anwendung des Anruf Parks verwendet den Dateispeicher, um benutzerdefinierte Audiodateien zu speichern.
+  - **Dateispeicher**   der Anwendung zum Parken von Anrufen verwendet Dateispeicher, um benutzerdefinierte Audiodateien zu speichern.
 
-  - **Lync Server-System**   Steuerung Sie können die lync Server-Systemsteuerung verwenden, um die Orbit-Tabelle des Anruf Parks zu konfigurieren und den Anruf Park für Benutzer zu aktivieren.
+  - **Lync Server-Systemsteuerung**   Sie können lync Server-Systemsteuerung verwenden, um die Orbit-Tabelle für das Parken von Anrufen zu konfigurieren und die Funktion zum Parken von Anrufen für Benutzer zu aktivieren.
 
-  - **Lync Server-Verwaltungsshell**   alle Einstellungen für die Anruf Park Anwendung können mithilfe der lync Server-Verwaltungsshell-Cmdlets ausgeführt werden.
+  - **Lync Server-Verwaltungsshell**   alle Anwendung zum Parken von Anrufen Konfiguration können mithilfe von lync Server-Verwaltungsshell-Cmdlets ausgeführt werden.
 
 </div>
 

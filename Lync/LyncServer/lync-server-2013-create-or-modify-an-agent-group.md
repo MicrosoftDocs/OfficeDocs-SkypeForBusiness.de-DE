@@ -12,16 +12,16 @@ ms:contentKeyID: 48185784
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99fed5bf80979ef807f45ce7e5ecdc8e8a16329b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 90cd385c5310a5b2df01127e870861fa83231d6f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41739555"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41994180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41739555"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-02-07_
+_**Letztes Änderungsstand des Themas:** 2014-02-07_
 
-Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen oder zu ändern.
+Verwenden Sie eines der folgenden Verfahren, um eine Agentengruppe zu erstellen oder zu ändern.
 
 <div>
 
 
 > [!NOTE]  
-> Ein Administrator – beispielsweise CsVoiceAdministrator – muss Benutzer für Enterprise-VoIP und lync Server aktivieren, bevor die Benutzeragenten Gruppen zugewiesen werden können. Wenn Sie einer der Delegierten Antwortgruppen-Manager für einen verwalteten Workflow sind, können Sie Agentengruppen erstellen und die Agentengruppen in den von Ihnen verwalteten Workflows verwenden.
+> Ein Administrator (beispielsweise CsVoiceAdministrator) muss Benutzer für Enterprise-VoIP und-lync Server aktivieren, bevor die Benutzeragenten Gruppen zugewiesen werden können. Wenn Sie einer der Delegierten Reaktionsgruppen-Manager für einen verwalteten Workflow sind, können Sie Agentgruppen erstellen und die Agentengruppen in den von Ihnen verwalteten Workflows verwenden.
 
 
 
@@ -53,7 +53,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
 
 
 > [!IMPORTANT]  
-> Wenn Sie Benutzer als Reaktionsgruppenagents zuweisen, weisen Sie diese darauf hin, dass sie bei aktiviertem Datenschutzmodus nach „RGS-Anwesenheitsmonitor“-Kontakten suchen und sie ihrer Kontaktliste hinzufügen müssen. Agents, deren Datenschutzmodus aktiviert ist, die jedoch „RGS-Anwesenheitsmonitor“ nicht in ihre Kontaktliste aufgenommen haben, können keine Anrufe bei der Reaktionsgruppe annehmen. Agents, deren Datenschutzmodus nicht aktiviert ist, sind davon nicht betroffen.
+> Wenn Sie Benutzer als Reaktionsgruppenagents zuweisen, weisen Sie diese darauf hin, dass sie bei aktiviertem Datenschutzmodus nach "RGS-Anwesenheitsmonitor"-Kontakten suchen und sie ihrer Kontaktliste hinzufügen müssen. Agents, deren Datenschutzmodus aktiviert ist, die jedoch "RGS-Anwesenheitsmonitor" nicht in ihre Kontaktliste aufgenommen haben, können keine Anrufe bei der Reaktionsgruppe annehmen. Agents, deren Datenschutzmodus nicht aktiviert ist, sind davon nicht betroffen.
 
 
 
@@ -61,30 +61,30 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
 
 <div>
 
-## <a name="to-use-lync-server-control-panel-to-create-or-modify-an-agent-group"></a>So verwenden Sie die lync Server-Systemsteuerung zum Erstellen oder Ändern einer Agentengruppe
+## <a name="to-use-lync-server-control-panel-to-create-or-modify-an-agent-group"></a>So verwenden Sie lync Server-Systemsteuerung zum Erstellen oder Ändern einer Agentgruppe
 
-1.  Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
+1.  Melden Sie sich als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
     
     <div>
     
 
     > [!NOTE]  
-    > Wenn Sie einer der delegierten Reaktionsgruppenleiter für einen verwalteten Workflow sind, können Sie Gruppen erstellen und in den von Ihnen verwalteten Workflows verwenden.
+    > Wenn Sie einer der Delegierten Reaktionsgruppen-Manager für einen verwalteten Workflow sind, können Sie Gruppen erstellen und in den von Ihnen verwalteten Workflows verwenden.
 
     
     </div>
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie auf der linken Navigationsleiste auf **Reaktionsgruppen** und dann auf **Gruppe**.
+3.  Klicken Sie in der linken Navigationsleiste auf **Reaktionsgruppen** und dann auf **Gruppe**.
 
 4.  Führen Sie auf der Seite **Gruppe** einen der folgenden Schritte aus:
     
-      - Zum Erstellen einer neuen Agentgruppe klicken Sie auf **Neu**. Geben Sie im Suchfeld **Dienst auswählen** den Namen des **ApplicationServer**-Diensts, dem Sie die Gruppe hinzufügen möchten, ganz oder teilweise ein. Klicken Sie in der nun angezeigten Liste der Dienst auf den gewünschten Dienst und klicken Sie dann auf **OK**.
+      - Klicken Sie auf **neu**, um eine neue Agentengruppe zu erstellen. Geben Sie in das Suchfeld **Dienst auswählen** den vollständigen oder Teil des Namens des **ApplicationServer** -Diensts ein, dem Sie die Gruppe hinzufügen möchten. Klicken Sie in der Dienstliste auf den gewünschten Dienst, und klicken Sie dann auf **OK**.
     
-      - Wenn Sie eine vorhandene Agentgruppe ändern möchten, geben Sie im Suchfeld den Namen der Agentgruppe ganz oder teilweise ein. Klicken Sie in der nun angezeigten Liste auf die gewünschte Gruppe, dann auf **Bearbeiten** und anschließend auf **Details anzeigen**.
+      - Zum Ändern einer vorhandenen Agentgruppe geben Sie den Namen der Agentgruppe ganz oder teilweise in das Suchfeld ein. Klicken Sie in der resultierenden Liste auf die gewünschte Gruppe, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Details anzeigen**.
 
-5.  Geben Sie im Feld **Name** einen aussagekräftigen Namen für die Agentgruppe ein.
+5.  Geben Sie unter **Name**einen identifizierenden Namen für die Agentengruppe ein.
 
 6.  Geben Sie in **Beschreibung** eine Beschreibung für die Gruppe ein.
 
@@ -92,7 +92,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
     
       - Wählen Sie **Informell**, um anzugeben, dass Agents in der Gruppe sich bei der Gruppe weder an- noch abmelden müssen. Agents werden bei der Anmeldung bei lync Server 2013 automatisch bei der Gruppe angemeldet.
     
-      - Klicken Sie auf **Formell**, um festzulegen, dass sich die Agents der Gruppe bei der Gruppe an- oder abmelden müssen. Wenn Sie diese Option auswählen, klicken Sie in lync auf ein Menüelement, um Internet Explorer zu öffnen und eine Webseite-Konsole zum ein-und Ausloggen der Gruppe anzuzeigen.
+      - klicken Sie auf **Formell**, um festzulegen, dass sich die Agents der Gruppe bei der Gruppe an- oder abmelden müssen. Wenn Sie diese Option auswählen, klicken Agents auf ein Menüelement in lync, um Internet Explorer zu öffnen und eine Webseiten Konsole zum ein-und Ausloggen der Gruppe anzuzeigen.
 
 8.  Geben Sie im Feld **Agentwarnungszeit (Sekunden)** an, wie lange das Telefon eines Agents klingelt, bevor der Anruf an den nächsten verfügbaren Agent übergeben wird (die Standardeinstellung ist 20 Sekunden).
     
@@ -100,14 +100,14 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
     
 
     > [!IMPORTANT]  
-    > Die Einstellung für die Agentwarnungszeit darf 180 Sekunden nicht überschreiten. Andernfalls weist die Clientanwendung den Anruf zurück, weil der Zeitgeber für die SIP-Transaktion die maximale Wartezeit erreicht.
+    > Die Einstellung für die Agent-Warnungszeit darf 180 Sekunden nicht überschreiten. Wenn die Agent-Warnungszeit 180 Sekunden überschreitet, lehnt die Clientanwendung den Anruf ab, da der SIP-Transaktionszeitgeber seine maximale Wartezeit erreicht.
 
     
     </div>
 
 9.  Wählen Sie unter **Routingmethode** aus, wie Anrufe an die Agents in der Gruppe weitergeleitet werden:
     
-      - Wenn Sie einen neuen Anruf zuerst an den Agenten anbieten möchten, der am längsten inaktiv war (in lync Server am längsten **vorhanden** oder **inaktiv** war), klicken Sie auf am längsten **Leerlauf**.
+      - Klicken Sie auf **Längster Leerlauf**, um einen neuen Anruf zuerst dem Agent anzubieten, der am längsten im Leerlauf war ( **verfügbar** oder **inaktiv** in lync Server der längste).
     
       - Klicken Sie auf **Parallel**, um einen neuen Anruf simultan allen verfügbaren Agents anzubieten. Der Anruf wird an den ersten Agent übergeben, der diesen annimmt.
     
@@ -115,19 +115,19 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
     
       - Wenn Sie einen neuen Anruf den Agents immer in der Reihenfolge anbieten möchten, in der sie auf der Registerkarte **Agent** aufgeführt sind, klicken Sie auf **Seriell**.
     
-      - Wenn Sie allen Agents einen neuen Anruf anbieten möchten, die bei lync Server 2013 und der reaktionsgruppenanwendung gleichzeitig angemeldet sind, klicken Sie unabhängig von Ihrem aktuellen Anwesenheitsstatus auf **Attendant**. Benutzer von lync 2010 Attendant, die als Agents konfiguriert sind, können alle Anrufe sehen, die warten, und wartende Anrufe in beliebiger Reihenfolge beantworten. Der Anruf wird an den ersten Agenten gesendet, der ihn annimmt, nach dem die anderen lync 2010 Attendant-Benutzer den Anruf nicht mehr sehen.
+      - Wenn Sie einen neuen Anruf für alle Agents anbieten möchten, die sich unabhängig von Ihrer aktuellen Anwesenheit bei lync Server 2013 und dem Reaktionsgruppenanwendung angemeldet haben, klicken Sie auf **Attendant**. Lync 2010 Attendant Benutzer, die als Agents konfiguriert sind, können alle Anrufe sehen, die warten, und wartende Anrufe in beliebiger Reihenfolge beantworten. Der Anruf wird an den ersten Agent gesendet, der ihn akzeptiert, nach dem die anderen lync 2010 Attendant Benutzer den Anruf nicht mehr sehen.
 
 10. Geben Sie auf der Registerkarte **Agents** an, wie Sie Ihre Agentliste erstellen möchten:
     
-      - Um eine benutzerdefinierte Liste von Agents zu verwenden, klicken Sie auf **Eine benutzerdefinierte Gruppe von Agents definieren**. Führen Sie anschließend einen der folgenden Schritte aus:
+      - Um eine benutzerdefinierte Liste von Agents zu verwenden, klicken Sie auf **benutzerdefinierte Gruppe von Agents definieren**, und führen Sie einen der folgenden Schritte aus:
         
-          - Zum Hinzufügen eines Benutzers zur Agentgruppe klicken Sie auf **Agents Auswählen** und geben Sie dann im Suchfeld **Agents auswählen** einen Teil oder den vollständigen Namen des Benutzers ein, der zu dieser Gruppe hinzugefügt werden soll. Klicken Sie anschließend auf **Suchen**. Klicken Sie in der Ergebnisliste auf den betreffenden Benutzer und dann auf **OK**.
+          - Klicken Sie zum Hinzufügen eines Benutzers zur Gruppe Agent auf **auswählen**, und geben Sie dann im Suchfeld **Agents auswählen** den vollständigen oder Teil des Namens des Benutzers ein, den Sie dieser Gruppe hinzufügen möchten, und klicken Sie dann auf **Suchen**. Klicken Sie in der resultierenden Liste der Agents auf den Benutzer, und klicken Sie dann auf **OK**.
         
-          - Zum Entfernen eines Benutzers aus der Agentgruppe klicken Sie in der Liste der Agents auf den Benutzer, der entfernt werden soll und anschließend auf **Entfernen**.
+          - Wenn Sie einen Benutzer aus der Gruppe Agent entfernen möchten, klicken Sie in der Liste der Agents auf den Benutzer, den Sie entfernen möchten, und klicken Sie dann auf **Entfernen**.
         
-          - Zum Ändern der Reihenfolge, in der Agents Anrufe in Gruppen angeboten werden, die entweder Roundrobinrouting oder serielles Routing verwenden, klicken Sie in der Liste der Agents auf einen Benutzer und dann auf den Pfeil nach oben oder den Pfeil nach unten.
+          - Um die Reihenfolge zu ändern, in der Agents in Gruppen angeboten werden, die entweder Round Robin-Routing oder serielles Routing verwenden, klicken Sie in der Liste der Agents auf einen Benutzer, und klicken Sie dann auf den nach-oben-oder nach-unten-Pfeil.
     
-      - Zum Verwenden einer Microsoft Exchange Server-Verteilerliste als Agentgruppe klicken Sie auf **Eine vorhandene E-Mail-Verteilerliste verwenden** und geben Sie dann in **Adresse der Verteilerliste** die E-Mail-Adresse der Verteilerliste an (z. B. NetzwerkSupport@contoso.com).
+      - Wenn Sie eine Exchange Server Verteilerliste als Agentgruppe verwenden möchten, klicken Sie auf **vorhandene e-Mail-Verteilerliste verwenden**, und geben Sie dann in **Verteilerlisten Adresse**die e-Mail-Adresse der Verteilerliste ein (beispielsweise NetworkSupport@contoso.com).
         
         Wenn Sie eine E-Mail-Verteilerliste verwenden, gelten die folgenden Einschränkungen:
         
@@ -135,24 +135,24 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
         
           - Falls die Verteilerliste eine oder mehrere Verteilerlisten enthält, werden die Mitglieder der verschachtelten Verteilerlisten nicht der Agentliste hinzugefügt.
         
-          - Wenn serielles Routing oder Roundrobinrouting ausgewählt ist, leitet der Server einen eingehenden Anruf gemäß Routingmethode und Reihenfolge, in der Agents auf der Verteilerliste angegeben sind, an den geeigneten Agent weiter.
+          - Wenn Serial oder Round Robin Routing ausgewählt ist, bietet der Server einen eingehenden Anruf an den entsprechenden Agent entsprechend der Routingmethode und entsprechend der Reihenfolge, in der Agents in der Verteilerliste aufgeführt sind.
         
-          - Wenn die Verteilerliste Benutzer enthält, für die Lync Server 2010 aktiviert, aber Enterprise Voice nicht aktiviert ist, werden diese der Agentgruppe als dysfunktionelle Agents hinzugefügt. Stellen Sie sicher, dass für alle Mitglieder in der Verteilerliste Enterprise Voice für die Benutzerkonten aktiviert ist.
+          - Wenn die Verteilerliste Benutzer enthält, für die lync Server 2010 aktiviert ist, Enterprise-VoIP jedoch nicht aktiviert ist, werden Sie als dysfunktionale Agents der Gruppe Agent hinzugefügt. Stellen Sie sicher, dass für alle Mitglieder der Verteilerliste Enterprise-VoIP für ihre Benutzerkonten aktiviert ist.
         
         <div>
         
 
         > [!IMPORTANT]  
-        > Wenn Sie eine e-Mail-Verteilerliste verwenden, werden ausgeblendete Mitgliedschaften oder ausgeblendete Listen möglicherweise für den Administrator der Reaktionsgruppe oder für Benutzer sichtbar.
+        > Wenn Sie eine e-Mail-Verteilerliste verwenden, werden ausgeblendete Mitgliedschaften oder ausgeblendete Listen möglicherweise für den Administrator oder die Benutzer der Reaktionsgruppe angezeigt.
 
         
         </div>
         
         Verborgene Mitgliedschaften oder Listen werden unter den folgenden Umständen sichtbar:
         
-          - Wenn eine Verteilerliste so konfiguriert wurde, dass die Mitgliedschaft ausgeblendet ist und der Antwortgruppen Administrator die Verteilerliste der Agentenliste zuordnet, können Benutzer die Gruppe anrufen, um herauszufinden, wer die Mitglieder sind.
+          - Wenn eine Verteilerliste so konfiguriert wurde, dass die Mitgliedschaft ausgeblendet ist und der Reaktionsgruppen Administrator die Verteilerliste der Agentliste zuordnet, können Benutzer die Gruppe aufrufen, um herauszufinden, wer die Mitglieder sind.
         
-          - Wenn eine Verteilerliste so konfiguriert wurde, dass Sie in der globalen Exchange-Adressliste ausgeblendet ist, kann der Antwortgruppen Administrator möglicherweise die Verteilerliste sehen und der Agentenliste zuweisen, wenn der Prozess der Reaktionsgruppe die entsprechenden Benutzerrechte aufweist und Berechtigungen, auch wenn der Administrator nicht über die entsprechenden Benutzerrechte und Berechtigungen verfügt.
+          - Wenn eine Verteilerliste so konfiguriert wurde, dass Sie in der globalen Exchange-Adressliste ausgeblendet ist, kann der Reaktionsgruppen Administrator möglicherweise die Verteilerliste anzeigen und Sie der Liste Agent zuweisen, wenn der Reaktionsgruppen Prozess über die entsprechenden Benutzerrechte verfügt und Berechtigungen, auch wenn der Administrator nicht über die entsprechenden Benutzerrechte und-Berechtigungen verfügt.
 
 11. Klicken Sie auf **Commit ausführen**.
 
@@ -160,13 +160,13 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
 
 <div>
 
-## <a name="to-use-windows-powershell-to-create-or-modify-an-agent-group"></a>So verwenden Sie Windows PowerShell zum Erstellen oder Ändern einer Agentengruppe
+## <a name="to-use-windows-powershell-to-create-or-modify-an-agent-group"></a>So verwenden Sie Windows PowerShell zum Erstellen oder Ändern einer Agentgruppe
 
-1.  Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
+1.  Melden Sie sich als Mitglied der RTCUniversalServerAdmins-Gruppe oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
 
-2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+2.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-3.  Verwenden Sie **New-CsRgsAgentGroup**, um eine neue Agentgruppe zu erstellen. Zum Ändern einer vorhandenen Agentgruppe verwenden Sie **Set-CsRgsAgentGroup**. Führen Sie an der Eingabeaufforderung folgenden Befehl aus:
+3.  Verwenden Sie **New-CsRgsAgentGroup** , um eine neue Agentengruppe zu erstellen. Verwenden Sie zum Ändern einer vorhandenen Agentgruppe die Datei " **CsRgsAgentGroup** ". Führen Sie an der Eingabeaufforderung Folgendes aus:
     
         New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];
     
@@ -178,12 +178,12 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
     
 
     > [!IMPORTANT]  
-    > Die Einstellung für die Agentwarnungszeit darf 180 Sekunden nicht überschreiten. Andernfalls weist die Clientanwendung den Anruf zurück, weil der Zeitgeber für die SIP-Transaktion die maximale Wartezeit erreicht.
+    > Die Einstellung für die Agent-Warnungszeit darf 180 Sekunden nicht überschreiten. Wenn die Agent-Warnungszeit größer als 180 Sekunden ist, lehnt die Clientanwendung den Anruf ab, da der SIP-Transaktionszeitgeber seine maximale Wartezeit erreicht.
 
     
     </div>
 
-4.  Vergewissern Sie sich, dass die Agentgruppe erstellt worden ist. Führen Sie folgenden Befehl aus:
+4.  Vergewissern Sie sich, dass die Agentgruppe erstellt wurde. Ausführen
     
         Get-CsRgsAgentGroup -Name "Help Desk"
 
@@ -199,8 +199,8 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
 
 [Verwalten von Reaktionsgruppen-Agentgruppen in lync Server 2013](lync-server-2013-managing-response-group-agent-groups.md)  
 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
-[Neu – CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup)  
-[Satz-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsAgentGroup)  
+[New-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/New-CsRgsAgentGroup)  
+[Gruppe-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/Set-CsRgsAgentGroup)  
 [Get-CsRgsAgentGroup](https://docs.microsoft.com/powershell/module/skype/Get-CsRgsAgentGroup)  
   
 

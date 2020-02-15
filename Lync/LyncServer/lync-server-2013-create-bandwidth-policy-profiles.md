@@ -12,16 +12,16 @@ ms:contentKeyID: 48185086
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d3eef3ea6dfb349f0f712c1127adb8310d90c27
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ea1e44f7c8c0d81757d6d10a63194de7c0d12c08
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726335"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035801"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,37 +35,37 @@ ms.locfileid: "41726335"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-*Bandbreitenrichtlinien* definieren Einschränkungen zur Bandbreitenauslastung für in Echtzeit übertragene Audio- und Videodaten. Bandbreitenrichtlinien werden auf *Bandbreitenrichtlinienprofile* angewendet, die zur Anrufsteuerung auf mehrere Netzwerkstandorte angewendet werden können.
+*Bandbreitenrichtlinien* definieren Einschränkungen der Bandbreitennutzung für Audio-und Video-Echt Zeit Modalitäten. Bandbreitenrichtlinien werden auf *bandbreitenrichtlinienprofile*angewendet, die auf mehrere Netzwerkstandorte für die Anrufsteuerung angewendet werden können.
 
-Richtlinien darüber, welche Bandbreitengrenzwerte in ihrer CAC-Bereitstellung festgelegt werden sollten, finden Sie unter [Definieren Ihrer Anforderungen für die Anrufsteuerung in lync Server 2013](lync-server-2013-defining-your-requirements-for-call-admission-control.md) in der Planungsdokumentation.
+Richtlinien zu den Bandbreiten Grenzwerten, die Sie in ihrer CAC-Bereitstellung festlegen sollten, finden Sie unter [Definieren der Anforderungen für die Anrufsteuerung in lync Server 2013](lync-server-2013-defining-your-requirements-for-call-admission-control.md) in der Planungsdokumentation.
 
-Details zum Arbeiten mit Bandbreitenrichtlinien und Richtlinienprofilen finden Sie in der Dokumentation zur lync Server-Verwaltungsshell für die folgenden Cmdlets:
+Ausführliche Informationen zum Arbeiten mit Bandbreitenrichtlinien und Richtlinienprofilen finden Sie in der lync Server-Verwaltungsshell Dokumentation zu den folgenden Cmdlets:
 
   - [New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkBandwidthPolicyProfile)
 
   - [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)
 
-  - [Set-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)
+  - [Gruppe-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkBandwidthPolicyProfile)
 
   - [Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
 
-Die im folgenden Verfahren erstellten Beispielrichtlinien legen Einschränkungen für den Audiodatenverkehr insgesamt, einzelne Audiositzungen, den Videodatenverkehr insgesamt und einzelne Videositzungen fest. So legt das Profil mit\_dem 5MB-Link-bandbreitenrichtlinienprofil die folgenden Grenzwerte fest:
+Die im folgenden Verfahren erstellten Beispiel Richtlinien legen Grenzwerte für den gesamten Audioverkehr, einzelne audiositzungen, den gesamten Videodatenverkehr und einzelne Videositzungen fest. Beispielsweise legt das Band\_breiten Richtlinienprofil für 5MB-Link die folgenden Grenzwerte fest:
 
-  - Grenzwert für Audio: 2.000 KBit/s
+  - Grenzwert für Audiodaten: 2.000 Kbit/s
 
-  - Grenzwert für Audiositzung: 200 KBit/s
+  - Grenzwert für Audiositzung: 200 Kbit/s
 
-  - Grenzwert für Video: 1.400 KBit/s
+  - Grenzwert für Video: 1.400 KBit/s
 
-  - Grenzwert für Videositzung: 700 KBit/s
+  - Grenzwert für Video Sitzung: 700 Kbit/s
 
 <div class=" ">
 
 
 > [!NOTE]  
-> Der Mindestgrenzwert für Audiositzungen ist 40 KBit/s. Der Mindestgrenzwert für Videositzungen ist 100 KBit/s.
+> Der Grenzwert für die minimale Audiositzung beträgt 40 Kbit/s. Der Grenzwert für die minimale Video Sitzung beträgt 100 kbit/s.
 
 
 
@@ -73,11 +73,11 @@ Die im folgenden Verfahren erstellten Beispielrichtlinien legen Einschränkungen
 
 <div>
 
-## <a name="to-create-bandwidth-policy-profiles-by-using-management-shell"></a>So erstellen Sie bandbreitenrichtlinienprofile mithilfe der Verwaltungsshell
+## <a name="to-create-bandwidth-policy-profiles-by-using-management-shell"></a>So erstellen Sie bandbreitenrichtlinienprofile mithilfe der Management-Shell
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Führen Sie für jedes Bandbreitenrichtlinienprofil, das Sie erstellen möchten, das Cmdlet „New-CsNetworkBandwidthPolicyProfile“ aus. Führen Sie beispielsweise den folgenden Befehl aus:
+2.  Führen Sie für jedes bandbreitenrichtlinienprofil, das Sie erstellen möchten, das Cmdlet New-CsNetworkBandwidthPolicyProfile aus. Führen Sie beispielsweise den folgenden Befehl aus:
     
        ```powershell
         New-CsNetworkBandwidthPolicyProfile -Identity 5Mb_Link -Description "BW profile for 5Mb links" -AudioBWLimit 2000 -AudioBWSessionLimit 200 -VideoBWLimit 1400  -VideoBWSessionLimit 700
@@ -99,31 +99,31 @@ Die im folgenden Verfahren erstellten Beispielrichtlinien legen Einschränkungen
 
 <div>
 
-## <a name="to-create-bandwidth-policy-profiles-by-using-lync-server-control-panel"></a>So erstellen Sie bandbreitenrichtlinienprofile mithilfe der lync Server-Systemsteuerung
+## <a name="to-create-bandwidth-policy-profiles-by-using-lync-server-control-panel"></a>So erstellen Sie bandbreitenrichtlinienprofile mithilfe von lync Server-Systemsteuerung
 
-1.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+1.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**.
 
-3.  Klicken Sie auf die Navigationsschaltfläche **Richtlinienprofil**.
+3.  Klicken Sie auf die Navigationsschaltfläche **Richtlinienprofil** .
 
 4.  Klicken Sie auf **Neu**.
 
-5.  Klicken Sie auf der Seite **Neues Richtlinienprofil** auf **Name** und geben Sie einen Namen für das Bandbreitenrichtlinienprofil ein.
+5.  Klicken Sie auf der Seite **Neues Richtlinienprofil** auf **Name** , und geben Sie dann einen Namen für das bandbreitenrichtlinienprofil ein.
 
-6.  Klicken Sie auf **Audiolimit** und geben Sie die Höchstzahl an KBit/s ein, die für alle Audiositzungen insgesamt zulässig sein soll.
+6.  Klicken Sie auf **audiolimit**, und geben Sie die maximale Anzahl von Kbit/s ein, die für alle audiositzungen kombiniert werden dürfen.
 
-7.  Klicken Sie auf **Grenzwert für Audiositzung** und geben Sie die Höchstzahl an KBit/s ein, die für jede einzelne Audiositzung zulässig sein soll.
+7.  Klicken Sie auf **audiositzungs Grenzwert**, und geben Sie die maximale Anzahl von Kbit/s ein, die für jede einzelne Audiositzung zulässig sein soll.
 
-8.  Klicken Sie auf **Videolimit** und geben Sie die Höchstzahl an KBit/s ein, die für alle Videositzungen insgesamt zulässig sein soll.
+8.  Klicken Sie auf **Video Limit**, und geben Sie dann die maximale Anzahl von Kbit/s ein, die für alle kombinierten Videositzungen zulässig sind.
 
-9.  Klicken Sie auf **Grenzwert für Videositzung** und geben Sie die Höchstzahl an KBit/s ein, die für jede einzelne Videositzung zulässig sein soll.
+9.  Klicken Sie auf **Video Sitzungs Grenzwert**, und geben Sie die maximale Anzahl von Kbit/s ein, die für jede einzelne Videositzung zulässig sein soll.
 
-10. Klicken Sie optional auf **Beschreibung** und geben Sie zusätzliche Informationen zur Beschreibung dieses Bandbreitenrichtlinienprofils ein.
+10. Klicken Sie optional auf **Beschreibung**, und geben Sie weitere Informationen zur Beschreibung dieses bandbreitenrichtlinienprofils ein.
 
 11. Klicken Sie auf **Commit ausführen**.
 
-12. Wiederholen Sie die Schritte 4 bis 11 mit Einstellungen für andere Bandbreitenrichtlinienprofile, um die Erstellung von Bandbreitenrichtlinienprofilen für Ihre Topologie abzuschließen.
+12. Wiederholen Sie die Schritte 4 bis 11 mit Einstellungen für andere bandbreitenrichtlinienprofile, um die Erstellung von Bandbreitenrichtlinien Profilen für Ihre Topologie abzuschließen.
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185124
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7ea90012c116bb66caf16313d930c6f05db4413
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 41cb48da1711cfa6eb29a90f19a9b6e42b110c52
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41742095"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007294"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="verifying-active-directory-schema-replication-in-lync-server-2013"></a>Überprüfen der Active Directory-Schemareplikation in Lync Server 2013
+# <a name="verifying-active-directory-schema-replication-in-lync-server-2013"></a>Überprüfen Active Directory Schemareplikation in lync Server 2013
 
 </div>
 
@@ -35,34 +35,34 @@ ms.locfileid: "41742095"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-29_
+_**Letztes Änderungsstand des Themas:** 2012-10-29_
 
-Bevor Sie die Gesamtstrukturvorbereitung ausführen, überprüfen Sie manuell, ob die Schemapartition repliziert wurde.
+Überprüfen Sie vor dem Ausführen der Gesamtstrukturvorbereitung manuell, ob die Schemapartition repliziert wurde.
 
 <div>
 
 ## <a name="to-manually-verify-schema-replication"></a>So überprüfen Sie die Schemareplikation manuell
 
-1.  Melden Sie sich bei einem Domänencontroller als Mitglied der Gruppe "Unternehmensadministratoren" an.
+1.  Melden Sie sich bei einem Domänencontroller als Mitglied der Gruppe "Organisations-Admins" an.
 
-2.  Öffnen Sie die ADSI-Bearbeitung, indem Sie auf **Start**, dann auf **Verwaltung**und dann auf **ADSI-Bearbeitung**klicken.
+2.  Öffnen Sie den ADSI-Editor, indem Sie nacheinander auf **Start**, **Verwaltung** und dann auf **ADSI-Editor** klicken.
     
     <div>
     
 
     > [!TIP]  
-    > Alternativ können Sie <STRONG>Adsiedit. msc</STRONG> über die Befehlszeile ausführen.
+    > Alternativ dazu können Sie <STRONG>adsiedit.msc</STRONG> auch über die Befehlszeile ausführen.
 
     
     </div>
 
-3.  Klicken Sie in der MMC-Struktur (Microsoft Management Console) auf **ADSI-Bearbeitung**, wenn Sie noch nicht ausgewählt ist.
+3.  Klicken Sie in der MMC-Konsolenstruktur (Microsoft Management Console) auf **ADSI-Editor**, falls er nicht bereits ausgewählt ist.
 
 4.  Klicken Sie im Menü **Aktion** auf **Verbinden mit**.
 
-5.  Wählen Sie im Dialogfeld **Verbindungseinstellungen** unter **Bekannten Namenskontext auswählen** die Option **Schema** aus und klicken Sie dann auf **OK**.
+5.  Wählen Sie im Dialogfeld **Verbindungseinstellungen** unter **Bekannten Namenskontext auswählen** die Option **Schema** aus, und klicken Sie auf **OK**.
 
-6.  Suchen Sie unter dem Schemacontainer nach CN=ms-RTC-SIP-SchemaVersion. Wenn dieses Objekt vorhanden ist und der Wert des **rangeUpper** -Attributs 1150 ist und der Wert des **rangeLower** -Attributs 3 ist, wurde das Schema erfolgreich aktualisiert und repliziert. Wenn dieses Objekt nicht vorhanden ist oder die Werte der **rangeUpper** -und **rangeLower** -Attribute nicht wie angegeben sind, wurde das Schema nicht geändert oder nicht repliziert.
+6.  Suchen Sie unter dem Schemacontainer nach "CN=ms-RTC-SIP-SchemaVersion". Wenn dieses Objekt vorhanden und der Wert des Attributs **rangeUpper** 1150 und der Wert des Attributs **rangeLower** 3 ist, wurde das Schema erfolgreich aktualisiert und repliziert. Wenn dieses Objekt nicht vorhanden ist oder die Werte der Attribute **rangeUpper** und **rangeLower** nicht diesen Werten entsprechen, wurde das Schema nicht geändert oder repliziert.
 
 </div>
 
@@ -71,10 +71,10 @@ Bevor Sie die Gesamtstrukturvorbereitung ausführen, überprüfen Sie manuell, o
 ## <a name="see-also"></a>Siehe auch
 
 
-[Ausführen der Active Directory-Schemavorbereitung in Lync Server 2013](lync-server-2013-running-schema-preparation.md)  
+[Durchführen Active Directory Schemavorbereitung in lync Server 2013](lync-server-2013-running-schema-preparation.md)  
 
 
-[Vorbereiten des Active Directory-Schemas in Lync Server 2013](lync-server-2013-preparing-the-active-directory-schema.md)  
+[Vorbereiten des Active Directory Schemas in lync Server 2013](lync-server-2013-preparing-the-active-directory-schema.md)  
   
 
 </div>

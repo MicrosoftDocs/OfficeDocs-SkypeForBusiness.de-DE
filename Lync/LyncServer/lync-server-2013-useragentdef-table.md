@@ -12,16 +12,16 @@ ms:contentKeyID: 48184860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 952f065c5377a4d4e94677f9088569ffca681151
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0996abb7098ba636fc31d27388257f570a549ce2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41744375"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,9 +35,9 @@ ms.locfileid: "41744375"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-03-25_
+_**Letztes Änderungsstand des Themas:** 2014-03-25_
 
-Die UserAgentDef-Tabelle ordnet die Bezeichner des Benutzer-Agents den beschreibenden Namen des Agents zu. Benutzer-Agents sind Software Clients, die zum Herstellen einer Verbindung mit Microsoft lync Server 2013 verwendet werden. Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
+Die Tabelle "UserAgentDef" ordnet Benutzer-Agent-IDs den aussagekräftigen Namen der Agents zu. Benutzer-Agents sind Software Clients, die zum Herstellen einer Verbindung mit Microsoft lync Server 2013 verwendet werden. Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
 
 
 <table>
@@ -55,27 +55,27 @@ Die UserAgentDef-Tabelle ordnet die Bezeichner des Benutzer-Agents den beschreib
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>„MediationServer“</p></td>
-<td><p>„MediationServer“</p></td>
+<td><p>1 </p></td>
+<td><p>MediationServer</p></td>
+<td><p>MediationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>2 </p></td>
 <td><p>AV-MCU</p></td>
 <td><p>AV-MCU</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
+<td><p>4 </p></td>
 <td><p>OC</p></td>
 <td><p>OC</p></td>
 </tr>
 <tr class="even">
-<td><p>8</p></td>
+<td><p>8 </p></td>
 <td><p>OCPhone</p></td>
 <td><p>OCPhone</p></td>
 </tr>
 <tr class="odd">
-<td><p>16</p></td>
+<td><p>16 </p></td>
 <td><p>LMC</p></td>
 <td><p>LMC</p></td>
 </tr>
@@ -91,13 +91,13 @@ Die UserAgentDef-Tabelle ordnet die Bezeichner des Benutzer-Agents den beschreib
 </tr>
 <tr class="even">
 <td><p>64</p></td>
-<td><p>MC</p></td>
+<td><p>Verwaltungskonsole</p></td>
 <td><p>MM</p></td>
 </tr>
 <tr class="odd">
 <td><p>128</p></td>
-<td><p>Vermittlung</p></td>
-<td><p>Vermittlung</p></td>
+<td><p>Telefonzentrale</p></td>
+<td><p>Telefonzentrale</p></td>
 </tr>
 <tr class="even">
 <td><p>256</p></td>
@@ -127,7 +127,7 @@ Die UserAgentDef-Tabelle ordnet die Bezeichner des Benutzer-Agents den beschreib
 <tr class="odd">
 <td><p>1040</p></td>
 <td><p>Response_Group_Service Announcement_Service</p></td>
-<td><p>Als</p></td>
+<td><p>AS</p></td>
 </tr>
 <tr class="even">
 <td><p>2048</p></td>

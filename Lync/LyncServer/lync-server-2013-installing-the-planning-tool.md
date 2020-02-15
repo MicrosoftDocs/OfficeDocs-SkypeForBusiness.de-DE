@@ -12,20 +12,20 @@ ms:contentKeyID: 51541525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7a427ab99368d74180e1d0321741117a9ed97e9
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 792f72daac7eb1d7edb10087256bfda0912edfe9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41725895"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006171"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Installieren des Planungstools in Lync Server 2013
+# <a name="installing-the-planning-tool-in-lync-server-2013"></a>Installieren des Planungstools in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41725895"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-11-07_
+_**Letztes Änderungsstand des Themas:** 2013-11-07_
 
-Bevor Sie mit dem Entwerfen und Planen Ihrer lync Server 2013-Infrastruktur mit dem Microsoft lync Server 2013, Planungstool beginnen, müssen Sie zuerst das Planungstool installieren. Das Planungs Tool muss nicht auf einer Workstation oder einem Server bereitgestellt werden, die Teil der Domäne oder Infrastruktur ist, in der Sie lync Server 2013 installieren möchten. In der Readme-Datei, die dem Planungs Tool beigefügt ist, finden Sie wichtige Informationen zum Installieren und Verwenden des Tools. Einige Informationen aus dieser Datei werden zur Verdeutlichung im Folgenden noch einmal aufgeführt.
+Bevor Sie mit dem Entwerfen und Planen Ihrer lync Server 2013 Infrastruktur mit dem Microsoft lync Server 2013, Planungstool beginnen, müssen Sie zuerst das Planungstool installieren. Das Planungs Tool muss nicht auf einer Arbeitsstation oder einem Server bereitgestellt werden, die Teil der Domäne oder Infrastruktur ist, in der Sie lync Server 2013 installieren möchten. In der Readme-Datei zum Planungstool werden wichtige Informationen zum Installieren und Verwenden des Tools erläutert. Einige der Informationen in der Readme-Datei werden hier aus Gründen der Übersichtlichkeit dupliziert.
 
 <div>
 
@@ -51,45 +51,45 @@ Bevor Sie mit dem Entwerfen und Planen Ihrer lync Server 2013-Infrastruktur mit 
 
 Die unterstützten Betriebssysteme für die Installation und den Betrieb des Planungstools sind:
 
-  - Windows 8
+  - Windows 8
 
-  - Windows 8,1
+  - Windows 8.1
 
   - Windows Server 2012
 
   - Windows Server 2012 R2
 
-  - Windows 7, 32-Bit-Version
+  - Windows 7, 32-Bit-Edition
 
-  - Windows 7, 64-Bit-Version unter Verwendung von Windows on Win32 (WOW)
+  - Windows 7, 64-Bit-Edition mit Windows auf Win32 (WOW)
 
-  - Windows Server 2008 R2 unter Verwendung von WOW
+  - Windows Server 2008 R2, mit wow
 
-Darüber hinaus erfordert das Planungs Tool Microsoft .NET Framework 4,5.
+Darüber hinaus erfordert das Planungs Tool Microsoft .NET Framework 4.5.
 
 Nachdem die Voraussetzungen für die Vorinstallation erfüllt sind, können Sie das Planungs Tool installieren.
 
 <div>
 
-## <a name="to-install-the-planning-tool"></a>So installieren Sie das Planungstool
+## <a name="to-install-the-planning-tool"></a>So installieren Sie das Planungs Tool
 
-1.  Melden Sie sich auf dem lokalen Computer als Mitglied der Gruppe "Administratoren" an.
+1.  Melden Sie sich beim lokalen Computer als Mitglied der Gruppe Administratoren an.
 
-2.  Suchen Sie im Windows-Explorer oder einem Befehlsfenster nach dem Verzeichnis, in dem Sie die Installationsdateien des Planungstools heruntergeladen haben.
+2.  Suchen Sie im Windows-Explorer oder in einem Befehlsfenster nach dem Verzeichnis, in das Sie die Installationsdateien für das Planungs Tool heruntergeladen haben.
 
-3.  Suchen Sie nach dem LyncPlanningTool. msi. Machen Sie im Windows Explorer einen Doppelklick auf die Datei. Geben Sie im Befehlsfenster den Namen der Datei ein und drücken Sie die **Eingabetaste**, um die Datei auszuführen.
+3.  Suchen Sie nach der LyncPlanningTool. msi. Doppelklicken Sie in Windows-Explorer auf die Datei. Geben Sie im Befehlsfenster den Namen der Datei ein, und drücken Sie dann die **EINGABETASTE** , um die Datei auszuführen.
 
-4.  Klicken Sie auf der Willkommensseite des **Microsoft lync Server 2013-Setup-Assistenten für Planungstools**auf **weiter**.
+4.  Klicken Sie auf der Willkommensseite des Setup-Assistenten für das **Microsoft lync Server 2013 des Planungstools**auf **weiter**.
 
-5.  Lesen Sie den **Endbenutzer-Lizenzvertrag**, wählen Sie die Option **Ich stimme den Bedingungen des Lizenzvertrags zu** aus, sofern Sie die Bedingungen akzeptieren, und klicken Sie anschließend auf **Weiter**.
+5.  Lesen Sie den **Endbenutzer-Lizenzvertrag**, wählen Sie **Ich stimme den Bedingungen des Lizenzvertrags** zu, wenn Sie die Nutzungsbedingungen des Lizenzvertrags akzeptieren möchten, und klicken Sie dann auf **weiter**.
 
-6.  Geben Sie an, in welchem Verzeichnis die Dateien des Planungstools installiert werden sollen. Der Standardspeicherort ist C:\\Programmdateien (x86)\\Microsoft lync Server 2013\\-Planungs Tool. Wenn Sie ein anderes Installationsverzeichnis auswählen möchten, klicken Sie auf **Ändern**. Navigieren Sie im Dialogfeld **Zielordner ändern** zum gewünschten Verzeichnis oder geben Sie ein Verzeichnis ein und klicken Sie nacheinander auf **OK** und auf **Weiter**.
+6.  Wählen Sie aus, wo die Planungs Tool Dateien installiert werden sollen. Der Standardspeicherort ist C:\\Programmdateien (x86)\\Microsoft lync Server 2013\\Planungs Tool. Wenn Sie den Installationsspeicherort ändern möchten, klicken Sie auf **ändern**. Klicken Sie unter **Zielordner ändern**auf Durchsuchen oder geben Sie den Speicherort zum Installieren der Dateien ein, klicken Sie auf **OK**, und klicken Sie dann auf **weiter**.
 
-7.  Das Installationsprogramm ist nun bereit, das Planungs Tool zu installieren. Klicken Sie auf **Installieren**, um den Installationsvorgang zu starten.
+7.  Das Installationsprogramm ist nun für die Installation des Planungstools verfügbar. Klicken Sie auf **Installieren** , um den Installationsvorgang zu starten.
 
-8.  Die Installation beginnt und der Installationsfortschritt wird angezeigt. Klicken Sie nach Abschluss der Installation auf **Fertigstellen**.
+8.  Die Installation wird gestartet, und der Fortschritt wird angezeigt. Klicken Sie nach dem erfolgreichen Abschluss der Installation auf **Fertig stellen**.
 
-9.  Das Planungs Tool ist einsatzbereit.
+9.  Das Planungs Tool ist einsatzfähig.
 
 </div>
 

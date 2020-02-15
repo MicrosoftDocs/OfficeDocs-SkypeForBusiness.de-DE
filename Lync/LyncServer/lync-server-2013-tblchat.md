@@ -12,20 +12,20 @@ ms:contentKeyID: 48185203
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f3879924b37fa535973116af599f4713c58a207
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 0a3f0672fc3cf41113c0cfa206890848f8ccbde0
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764221"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033694"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tblchat-in-lync-server-2013"></a>tblChat in Lync Server 2013
+# <a name="tblchat-in-lync-server-2013"></a>tblChat in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41764221"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-12_
+_**Letztes Änderungsstand des Themas:** 2012-09-12_
 
 tblChat enthält alle Chatnachrichten.
 
@@ -56,14 +56,14 @@ tblChat enthält alle Chatnachrichten.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Kanal-Nr</p></td>
+<td><p>channelId</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Knoten-ID.</p></td>
+<td><p>Knoten-ID</p></td>
 </tr>
 <tr class="even">
-<td><p>Chat-Funktion</p></td>
+<td><p>Chat-Nr</p></td>
 <td><p>bigint, nicht NULL</p></td>
-<td><p>Eindeutige sequenzielle Nummer (pro Knoten-ID), die die von der tblLastChatId-Tabelle generierte Chatroom-Reihenfolge definiert.</p></td>
+<td><p>Eindeutige fortlaufende Zahl (pro Knoten-ID), die die Reihenfolge der Chatrooms identifiziert, generiert von der tblLastChatId-Tabelle.</p></td>
 </tr>
 <tr class="odd">
 <td><p>chatDate</p></td>
@@ -71,35 +71,35 @@ tblChat enthält alle Chatnachrichten.
 <td><p>Zeitstempel für die Chatnachricht.</p></td>
 </tr>
 <tr class="even">
-<td><p>UserID</p></td>
+<td><p>userId</p></td>
 <td><p>int, nicht NULL</p></td>
-<td><p>Prinzipal-ID des Plakats.</p></td>
+<td><p>Prinzipal-ID des Bereitstellers.</p></td>
 </tr>
 <tr class="odd">
 <td><p>isalert</p></td>
-<td><p>Bit, nicht NULL</p></td>
-<td><p>"True", wenn es sich bei der Nachricht um eine Warnmeldung handelt. False, wenn dies nicht der Fall ist.</p></td>
+<td><p>bit, nicht NULL</p></td>
+<td><p>TRUE, wenn es sich bei der Nachricht um eine Fehlermeldung handelt, andernfalls FALSE.</p></td>
 </tr>
 <tr class="even">
-<td><p>Inhalts</p></td>
+<td><p>content</p></td>
 <td><p>nvarchar (max), nicht NULL</p></td>
-<td><p>Chat-Inhalt (die nur-Text-Version). Der Inhalt befindet sich normalerweise im nur-Text-Stil mit den folgenden Ausnahmen:</p>
+<td><p>Chatinhalt (Nur-Text-Version). Der Inhalt ist normalerweise einfacher Text mit den folgenden Ausnahmen:</p>
 <ul>
-<li><p>Dateien werden als MA-FileLink: Links dargestellt.</p></li>
-<li><p>Links werden als HTML-Element dargestellt (auch wenn der Inhaltstyp nicht als HTML betrachtet werden kann).</p></li>
-<li><p>Stories werden als "[Story]...."-ähnliches Format codiert.</p></li>
+<li><p>Dateien sind als Links vom Typ ma-filelink: dargestellt.</p></li>
+<li><p>Links sind als HTML-Elemente dargestellt (obwohl der Inhaltstyp nicht als HTML betrachtet werden kann).</p></li>
+<li><p>Textabschnitte sind in einem Format wie "[STORY]...." verschlüsselt.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>RTF</p></td>
 <td><p>varchar (max)</p></td>
-<td><p>Chat-Inhalt (die RTF-Version). Kann NULL sein, wenn der Client Sie nicht bereitstellt.</p></td>
+<td><p>Chatinhalt (RTF-Version). Kann NULL sein, wenn vom Client nicht bereitgestellt.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="key"></a>Schlüssel
+### <a name="key"></a>Key
 
 <table>
 <colgroup>

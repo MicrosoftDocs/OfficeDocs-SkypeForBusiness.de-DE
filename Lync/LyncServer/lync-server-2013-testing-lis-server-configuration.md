@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Testen der LIS-Serverkonfiguration'
+title: 'Lync Server 2013: Testen der LIS-Server Konfiguration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969614
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f3c99e9f10f98d93af73869d166c33a27e9ce18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c38c0e05647e13a1da1f4a5f173b3e92c37a5300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745785"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036283"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,7 +35,7 @@ ms.locfileid: "41745785"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-06-05_
+_**Letztes Änderungsstand des Themas:** 2014-06-05_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-06-05_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsLisConfiguration-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsLisConfiguration verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLisConfiguration&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -72,13 +72,13 @@ Das Cmdlet Test-CsLisConfiguration überprüft Ihre Fähigkeit, den LIS-Webdiens
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet "Test-CsLisConfguration" kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten zum Ausführen von lync Server-Tests) oder dem Konto eines beliebigen Benutzers, der für lync Server aktiviert ist. Um diese Überprüfung mit einem Testkonto auszuführen, müssen Sie lediglich den FQDN des zu testenden lync-Server Pools angeben. Beispiel:
+Das Cmdlet Test-CsLisConfguration kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten zum Ausführen lync Server Tests) oder nach dem Konto eines beliebigen Benutzers, der für lync Server aktiviert ist. Um diese Prüfung mit einem Test Konto auszuführen, müssen Sie lediglich den FQDN des lync Server Pools angeben, der getestet werden soll. Beispiel:
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"
 
-Damit diese Überprüfung mit einem tatsächlichen Benutzerkonto ausgeführt werden kann, müssen Sie zuerst ein Windows PowerShell-Anmeldeinformationsobjekt erstellen, das den Kontonamen und das Kennwort enthält. Sie müssen das Anmeldeinformationen-Objekt und die SIP-Adresse, die dem Konto zugewiesen ist, beim Aufrufen von Test-CsLisConfiguration einfügen:
+Um diese Prüfung mit einem tatsächlichen Benutzerkonto auszuführen, müssen Sie zuerst ein Windows PowerShell Credentials-Objekt erstellen, das den Kontonamen und das Kennwort enthält. Anschließend müssen Sie das Credentials-Objekt und die dem Konto zugewiesene SIP-Adresse angeben, wenn Sie Test-CsLisConfiguration aufrufen:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
@@ -89,9 +89,9 @@ Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsLi
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Wenn der LIS ordnungsgemäß konfiguriert ist, erhalten Sie eine ähnliche Ausgabe, wobei die Eigenschaft Ergebnis als erfolgreich markiert ist **:**
+Wenn der LIS ordnungsgemäß konfiguriert ist, erhalten Sie eine ähnliche Ausgabe, wobei die Result-Eigenschaft als **Success** markiert ist:
 
 TargetUrihttps://atl-cs-001.litwareinc.com:443/locationinformation/
 
@@ -99,15 +99,15 @@ liservice. svc
 
 TargetFqdn: ATL-CS-001.litwareinc.com
 
-Ergebnis: Erfolg
+Ergebnis: Success
 
-Latenz: 00:00:06.1616913
+Wartezeit: 00:00:06.1616913
 
 Fehler
 
 Diagnose
 
-Wenn sich der angegebene Benutzer nicht anmelden oder sich abmelden kann, wird das Ergebnis als Fehler angezeigt, und weitere Informationen werden in den Eigenschaften Fehler und Diagnose aufgezeichnet:
+Wenn sich der angegebene Benutzer nicht anmelden oder abmelden kann, wird das Ergebnis als Fehler angezeigt, und in den Eigenschaften Error und Diagnostic werden zusätzliche Informationen aufgezeichnet:
 
 TargetUri
 
@@ -115,25 +115,25 @@ TargetFqdn: ATL-CS-001.litwareinc.com
 
 Ergebnis: Fehler
 
-Latenz: 00:00:00
+Wartezeit: 00:00:00
 
 Fehler: 11004, der angeforderte Name ist gültig, aber keine Daten der angeforderten
 
-Typ wurde gefunden
+der Typ wurde gefunden.
 
 Diagnose
 
-Test-CsLisConfiguration: kein übereinstimmender Cluster in der Topologie gefunden.
+Test-CsLisConfiguration: kein übereinstimmendes Cluster in der Topologie gefunden.
 
-Die vorherige Ausgabe enthält beispielsweise die Notiz "kein übereinstimmender Cluster in Topologie gefunden". Dies weist in der Regel auf ein Problem mit dem Edgeserver hin: der LIS, der den Edgeserver verwendet, um eine Verbindung mit dem Dienstanbieter herzustellen und Adressen zu überprüfen.
+Die vorherige Ausgabe enthält beispielsweise den Hinweis "kein übereinstimmender Cluster in der Topologie gefunden". Dies deutet in der Regel auf ein Problem mit der Edgeserver hin: der LIS, der die Edgeserver verwendet, um eine Verbindung mit dem Dienstanbieter herzustellen und Adressen zu überprüfen.
 
-Wenn Test-CsLisConfiguration fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, wobei dieser Zeitpunkt einschließlich des Verbose-Parameters lautet:
+Wenn "Test-CsLisConfiguration" fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, einschließlich des Verbose-Parameters:
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Wenn der Verbose-Parameter enthalten ist, gibt Test-CsLisConfiguration eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als die Möglichkeit des angegebenen Benutzers zur Anmeldung bei lync Server überprüft wurde. Beispiel:
+Wenn der Verbose-Parameter enthalten ist, gibt Test-CsLisConfiguration eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als er die Fähigkeit des angegebenen Benutzers zur Anmeldung bei lync Server überprüft hat. Beispiel:
 
-Standortinformationsdienst für Anrufe.
+Informationsdienst für den Anruf Standort.
 
 Dienstpfad =https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc
 
@@ -145,17 +145,17 @@ Fahrgestell-Nr =
 
 Port-Nr =
 
-PortIdSubType = undefined Type
+PortIdSubType = nicht definierter Typ
 
 Mac
 
-Eine Ausnahme "Standortinformationen-Webdienstanforderung ist mit einem Antwortcode-Item400 fehlgeschlagen." während des Workflows Microsoft. RTC. SyntheticTrsnactions. Workflows. STLisConfigurationWorkflow-Ausführung aufgetreten.
+Eine Ausnahme "Standortinformationen-Webdienstanforderung ist mit dem Antwortcode Item400 fehlgeschlagen." während der Ausführung des Workflows "Microsoft. RTC. SyntheticTrsnactions. Workflows. STLisConfigurationWorkflow" aufgetreten.
 
-Wenn Sie die vorherige Ausgabe genau untersuchen, sehen Sie, dass das Cmdlet nach dem Versuch, den standortinformationsdienst aufzurufen, fehlgeschlagen ist. Einer der Parameter, die in diesem Aufruf verwendet wurden, war:
+Wenn Sie die vorherige Ausgabe genau untersuchen, sehen Sie, dass das Cmdlet nach dem Versuch, den standortinformationsdienst aufzurufen, fehlgeschlagen ist. Einer der Parameter, die in diesem Aufruf verwendet wurden, war folgende:
 
 BssId = 5
 
-Dies ist kein gültiger Wert für die grundlegende Dienst Satz-ID (BssID). Stattdessen sollte eine BssID wie folgt aussehen:
+Dies ist kein gültiger Wert für die grundlegende Dienst-ID (Service Sets Identifier, BssID). Stattdessen sollte ein BssID wie folgt aussehen:
 
 12-34-56-78-90-ab
 
@@ -165,9 +165,9 @@ Dies ist kein gültiger Wert für die grundlegende Dienst Satz-ID (BssID). Statt
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Nachfolgend finden Sie einige häufige Gründe, warum Test-CsLisConfiguration möglicherweise fehlschlägt:
+Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsLisConfiguration möglicherweise fehlschlägt:
 
-  - Es wurde ein falscher Parameterwert angegeben. Wie im vorherigen Beispiel gezeigt, müssen die optionalen Parameter richtig konfiguriert sein, oder der Test schlägt fehl. Führen Sie den Befehl ohne die optionalen Parameter erneut aus, und überprüfen Sie, ob dies erfolgreich war.
+  - Ein falscher Parameterwert wurde angegeben. Wie im vorherigen Beispiel gezeigt, müssen die optionalen Parameter ordnungsgemäß konfiguriert sein, oder der Test schlägt fehl. Führen Sie den Befehl ohne die optionalen Parameter erneut aus, und überprüfen Sie, ob dies erfolgreich ist.
 
 </div>
 

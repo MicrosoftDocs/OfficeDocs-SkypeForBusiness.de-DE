@@ -12,16 +12,16 @@ ms:contentKeyID: 49733615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71ff9164dcd824d6b836577b04783954cb81b067
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 97bd53e884d4b66b8197ef2672d6ffdca39d4cea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41731055"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036011"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41731055"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-08-26_
+_**Letztes Änderungsstand des Themas:** 2012-08-26_
 
-Lync Server 2013 unterstützt die Bereitstellung mehrerer Standorte und mehrerer Pools. Der Vorgang zum Migrieren mehrerer Pools von Office Communications Server 2007 R2 zu lync Server 2013 erfordert die folgenden Überlegungen:
+Lync Server 2013 unterstützt Bereitstellungen mit mehreren Standorten und mehreren Pools. Der Vorgang der Migration mehrerer Pools von Office Communications Server 2007 R2 zu lync Server 2013 erfordert folgende Überlegungen:
 
-1.  Nach der Bereitstellungeines lync Server 2013-pilotpools müssen Sie eine Teilmenge der Pilotbenutzer definieren, die in den lync Server 2013-Pool verschoben werden, und eine Methode zum Überprüfen der Funktionalität der Benutzer.
+1.  Nachdem Sie einen lync Server 2013 Pilot-Pool bereitgestellt haben, müssen Sie eine Teilmenge der Pilotbenutzer definieren, die in den lync Server 2013-Pool verschoben werden, und eine Methode für die Überprüfung der Funktionalität der Benutzer.
 
-2.  Nachdem Sie einen Edgeserver im Pilot Pool bereitgestellt haben, müssen Sie überprüfen, ob externe Benutzer mit dem lync Server 2013-Pool kommunizieren können.
+2.  Nachdem Sie eine Edgeserver im Pilot Pool bereitgestellt haben, müssen Sie überprüfen, ob externe Benutzer mit dem lync Server 2013-Pool kommunizieren können.
 
-3.  Nachdem Sie die Verbund Routen von Office Communications Server 2007 R2-Edgeserver auf die Pilot-Edgeserver von lync Server 2013 umgestellt haben, müssen Sie überprüfen, ob Verbundbenutzer mit dem lync Server 2013-Pool kommunizieren können.
+3.  Nachdem Sie die Verbund Routen von Office Communications Server 2007 R2-Edgeserver zu den Pilot lync Server 2013-Edgeserver gewechselt haben, müssen Sie überprüfen, ob Verbundbenutzer mit dem lync Server 2013-Pool kommunizieren können.
 
-4.  Nachdem Sie alle Benutzer und nicht-Benutzer-Kontaktobjekte verschoben haben, müssen Sie überprüfen, ob der Office Communications Server 2007 R2-Pool leer ist.
+4.  Nachdem Sie alle Benutzer und nicht-Benutzer Kontaktobjekte verschoben haben, müssen Sie überprüfen, ob der Office Communications Server 2007 R2 Pool leer ist.
 
-5.  Nachdem Sie überprüft haben, dass der 2007 R2-Pool von Office Communications Server leer ist, können Sie den Pool deaktivieren.
+5.  Nachdem Sie überprüft haben, dass der Office Communications Server 2007 R2 Pool leer ist, können Sie den Pool deaktivieren.
     
-    Details zum Deaktivieren des Legacy-Pools und der Server für Office Communications Server 2007 R2 finden Sie unter [Phase 10: Legacy Website der decommission](phase-10-decommission-legacy-site.md).
+    Ausführliche Informationen zum Deaktivieren des Legacy Office Communications Server 2007 R2 Pools und der Server finden Sie unter [Phase 10: decommission Legacy Site](phase-10-decommission-legacy-site.md).
 
 </div>
 

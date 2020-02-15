@@ -1,5 +1,5 @@
 ---
-title: Technische Anforderungen für Front-End-Server, Chat und Anwesenheit
+title: Technische Anforderungen für Front-End-Server, Instant Messaging und Anwesenheit
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3fd89dfe950ccc6c36f014acdf525664096b40f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9502d5cab3cb348b9fdf03236c6da966893d0852
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746585"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006721"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Technische Anforderungen für Front-End-Server, Chat und Anwesenheit in Lync Server 2013
+# <a name="technical-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Technische Anforderungen für Front-End-Server, Instant Messaging und Anwesenheitsinformationen in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41746585"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-18_
+_**Letztes Änderungsstand des Themas:** 2012-09-18_
 
-Chat und Anwesenheit werden in der Enterprise Edition immer auf Front-End-Pools und auf Standard Edition-Servern ausgeführt. Informationen zu unterstützten Hardware, Betriebssystemen und Datenbanksoftware finden Sie unter den folgenden Themen:
+Instant Messaging (Sofortnachrichten) und Anwesenheitsinformationen werden immer auf Enterprise Edition-Front-End-Pools und Standard Edition-Servern ausgeführt. Informationen zu unterstützten Betriebssystemen und Hardware- und Softwareprodukten finden Sie im folgenden Abschnitt:
 
-  - [Unterstützte Hardware für Lync Server 2013](lync-server-2013-supported-hardware.md)
+  - [Unterstützte Hardware für lync Server 2013](lync-server-2013-supported-hardware.md)
 
-  - [Serversoftware- und Infrastrukturunterstützung in Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md)
+  - [Server Software und Infrastrukturunterstützung in lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md)
 
 <div>
 
-## <a name="supported-collocation"></a>Unterstützte Anordnung
+## <a name="supported-collocation"></a>Unterstützte Zusammenstellungen
 
-Die Front-End-Serverrolle kann mit dem Vermittlungsserver kombiniert werden. Sie können auch die Überwachung und Archivierung auf Front-End-Servern ausführen. Der Front-End-Server kann nicht mit Edgeserver oder Director kombiniert werden.
+Die Rolle des Front-End-Server kann mit dem Vermittlungsserver verbunden werden. Sie können auch Überwachungs- und Archivierungsfunktionen auf Front-End-Servern ausführen. Der Front-End-Server kann nicht mit einem Edgeserver oder Director kombiniert werden.
 
 </div>
 

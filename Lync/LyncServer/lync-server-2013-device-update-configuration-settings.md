@@ -12,16 +12,16 @@ ms:contentKeyID: 51803969
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c8b06c3fdf4d854c79bff7b03f497858fc64b15
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ef868bfa52d206996cd1cf344e2c504f83a9cbf9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762403"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031269"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762403"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-20_
+_**Letztes Änderungsstand des Themas:** 2013-02-20_
 
-Der Geräte Update-Webdienst wird mithilfe von Geräte Konfigurationseinstellungen verwaltet. Diese Einstellungen können im globalen Bereich oder auf dem Website Bereich angewendet werden.
+Der Geräte Update-Webdienst wird mithilfe von Geräte Konfigurationseinstellungen verwaltet. Diese Einstellungen können auf globaler Ebene oder auf Standortebene angewendet werden.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Anzeigen von Konfigurationseinstellungen für das Geräteupdate in Lync Server 2013](lync-server-2013-view-device-update-configuration-settings.md)
+  - [Anzeigen von Konfigurationseinstellungen für Geräte Updates in lync Server 2013](lync-server-2013-view-device-update-configuration-settings.md)
 
-  - [Erstellen oder Ändern einer Sammlung von Konfigurationseinstellungen für Geräte Updates in lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-device-update-configuration-settings.md)
+  - [Erstellen oder Ändern einer Auflistung von Konfigurationseinstellungen für Geräte Updates in lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-device-update-configuration-settings.md)
 
-  - [Löschen einer Sammlung von Konfigurationseinstellungen für Geräte Updates in lync Server 2013](lync-server-2013-delete-a-collection-of-device-update-configuration-settings.md)
+  - [Löschen einer Auflistung von Konfigurationseinstellungen für Geräte Updates in lync Server 2013](lync-server-2013-delete-a-collection-of-device-update-configuration-settings.md)
 
 </div>
 

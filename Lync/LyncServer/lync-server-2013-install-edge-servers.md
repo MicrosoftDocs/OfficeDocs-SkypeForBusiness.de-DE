@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Installieren von Edgeservern'
+title: 'Lync Server 2013: Installieren von Edge-Servern'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22d1961a158ead735ae63d20bb2bd233d6ed5958
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2738367bbbf2c81d5d5b0d084fffa9e992410f18
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763759"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008337"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-edge-servers-for-lync-server-2013"></a>Installieren von Edgeservern für Lync Server 2013
+# <a name="install-edge-servers-for-lync-server-2013"></a>Installieren von Edge-Servern für lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41763759"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-08_
+_**Letztes Änderungsstand des Themas:** 2012-09-08_
 
-Sie installieren lync Server 2013 auf Edge-Servern mithilfe des lync Server-Bereitstellungs-Assistenten. Wenn Sie den Bereitstellungs-Assistenten auf jedem Edgeserver ausführen, können Sie die meisten Aufgaben ausführen, die zum Einrichten des Edge-Servers erforderlich sind. Damit Sie lync Server 2013 auf einem Edgeserver bereitstellen können, müssen Sie den Topologie-Generator bereits ausgeführt haben, um die Edgeserver-Topologie zu definieren und zu veröffentlichen und Sie auf Medien zu exportieren, die vom Edgeserver zur Verfügung stehen. Ausführliche Informationen finden Sie unter [Szenarien für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) , [Exportieren Ihrer lync Server 2013-Topologie und Kopieren dieser in externe Medien für die Edge-Installation](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md).
+Sie installieren lync Server 2013 auf Edge-Servern mithilfe lync Server Bereitstellungs-Assistenten. Durch Ausführung des Bereitstellungs-Assistenten auf jedem Edgeserver können Sie die meisten Aufgaben ausführen, die zur Einrichtung des Edgeservers erforderlich sind. Um lync Server 2013 auf einem Edgeserver bereitstellen zu können, müssen Sie den Topologie-Generator bereits ausgeführt haben, um die Edgeserver Topologie zu definieren und zu veröffentlichen, und Sie auf Medien exportieren, die im Edgeserver verfügbar sind. Ausführliche Informationen finden Sie unter [Szenarien für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md) und [Exportieren der lync Server 2013 Topologie und Kopieren dieser Daten in externe Medien für die Edge-Installation](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md).
 
-Nachdem Sie den Bereitstellungs-Assistenten verwendet haben, um jeden Edgeserver zu installieren, die erforderlichen Zertifikate zu installieren und zuzuweisen und die erforderlichen Dienste zu starten, können Sie die Einrichtung mithilfe der Informationen unter [Konfigurieren der Unterstützung für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) zum Aktivieren und Konfigurieren des Zugriffs auf externe Benutzer sowie der Informationen unter [Überprüfen der Edge-Bereitstellung in lync Server 2013 zum über](lync-server-2013-verifying-your-edge-deployment.md)
+Nachdem Sie die einzelnen Edgeserver mithilfe des Bereitstellungs-Assistenten installiert, installiert und die erforderlichen Zertifikate zugewiesen und die erforderlichen Dienste gestartet haben, können Sie das Setup mithilfe der Informationen unter [Konfigurieren der Unterstützung für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) zum Aktivieren und Konfigurieren des Zugriffs durch externe Benutzer sowie der Informationen unter [Überprüfen der Edge-Bereitstellung in lync Server 2013](lync-server-2013-verifying-your-edge-deployment.md) abschließen, einschließlich der Server-und Clientkonnektivität.
 
 <div>
 
 ## <a name="to-install-an-edge-server"></a>So installieren Sie einen Edgeserver
 
-1.  Melden Sie sich bei dem Computer an, auf dem Sie Ihren Edge-Server als Mitglied der lokalen Gruppe Administratoren installieren möchten, oder ein Konto mit entsprechenden Benutzerrechten und Berechtigungen.
+1.  Melden Sie sich als Mitglied der lokalen Administratorgruppe bei dem Computer an, auf dem Sie den Edgeserver installieren möchten, oder verwenden Sie ein Konto mit gleichwertigen Benutzerrechten und -berechtigungen.
 
-2.  Stellen Sie sicher, dass die Topologie-Konfigurationsdatei, die Sie mit dem Topology Builder erstellt und dann auf externe Medien exportiert und kopiert haben, auf dem Edgeserver verfügbar ist (beispielsweise Zugriff auf das USB-Laufwerk, auf dem Sie die Topologie-Konfigurationsdatei kopiert haben, oder überprüfen Zugriff auf die Netzwerkfreigabe, auf die Sie die Datei kopiert haben).
+2.  Stellen Sie sicher, dass die Topologie-Konfigurationsdatei, die Sie mithilfe des Topologie-Generators erstellt und anschließend auf externe Medien exportiert und kopiert haben, im Edgeserver verfügbar ist (beispielsweise Zugriff auf das USB-Laufwerk, auf dem Sie die Topologie-Konfigurationsdatei kopiert haben, oder überprüfen Zugriff auf die Netzwerkfreigabe, in die Sie die Datei kopiert haben.)
 
 3.  Starten Sie den Bereitstellungs-Assistenten.
     
@@ -55,24 +55,24 @@ Nachdem Sie den Bereitstellungs-Assistenten verwendet haben, um jeden Edgeserver
     
 
     > [!NOTE]  
-    > Wenn Sie eine Meldung erhalten, die besagt, dass Sie Microsoft Visual C++ Redistributable installieren müssen, klicken Sie auf <STRONG>Ja</STRONG>. Im nächsten Dialogfeld können Sie den Standard <STRONG>Installationsspeicherort</STRONG> übernehmen oder auf die <STRONG>Schaltfläche Durchsuchen</STRONG> klicken, um einen anderen Speicherort auszuwählen, und dann auf <STRONG>Installieren</STRONG>klicken. Aktivieren Sie im nächsten Dialogfeld das Kontrollkästchen <STRONG>Ich akzeptiere die Bedingungen im Lizenzvertrag</STRONG> , und klicken Sie dann auf <STRONG>OK</STRONG>.
+    > Wenn Sie in einer Meldung dazu aufgefordert werden, Microsoft Visual C++ Redistributable zu installieren, klicken Sie auf <STRONG>Ja</STRONG>. Im nächsten Dialogfeld können Sie den vorgegebenen <STRONG>Installationsspeicherort</STRONG> akzeptieren oder auf <STRONG>Durchsuchen</STRONG> klicken, um einen alternativen Speicherort anzugeben. Klicken Sie anschließend auf <STRONG>Installieren</STRONG>. Aktivieren Sie im nächsten Dialogfeld das Kontrollkästchen <STRONG>Ich stimme den Bedingungen des Lizenzvertrags zu</STRONG>, und klicken Sie auf <STRONG>OK</STRONG>.
 
     
     </div>
 
-4.  Klicken Sie im Bereitstellungs-Assistenten auf **lync Server System installieren oder aktualisieren**.
+4.  Klicken Sie im Bereitstellungs-Assistenten auf **Lync Server-System installieren oder aktualisieren**.
 
-5.  Nachdem der Assistent den Bereitstellungsstatus für Schritt 1 festgelegt hat **. Installieren Sie den lokalen Konfigurationsspeicher**, klicken Sie auf **Ausführen** , und gehen Sie dann folgendermaßen vor:
+5.  Klicken Sie nach Abschluss der Bereitstellungsphase durch den Assistenten unter **Schritt 1. Lokalen Konfigurationsspeicher installieren** auf **Ausführen**, und führen Sie die folgenden Schritte aus:
     
-      - Klicken Sie im Dialogfeld **lokales Replikat des zentralen Verwaltungsspeichers konfigurieren** auf **aus einer Datei importieren (empfohlen für Edgeserver)**, wechseln Sie zum Speicherort der exportierten Topologie-Konfigurationsdatei, wählen Sie die ZIP-Datei aus, klicken Sie auf **Öffnen**, und klicken Sie dann auf **weiter**.
+      - Klicken Sie im Dialogfeld **Lokales Replikat des zentralen Verwaltungsspeichers konfigurieren** auf **Aus Datei importieren (für Edgeserver empfohlen)**, wechseln Sie zum Speicherort der exportierten Topologiekonfigurationsdatei, wählen Sie die ZIP-Datei aus, klicken Sie auf **Öffnen** und anschließend auf **Weiter**.
     
-      - Der Bereitstellungs-Assistent liest die Konfigurationsinformationen aus der Konfigurationsdatei und schreibt die XML-Konfigurationsdatei auf den lokalen Computer.
+      - Der Bereitstellungs-Assistent liest die Konfigurationsinformationen aus der Konfigurationsdatei aus und schreibt die XML-Konfigurationsdatei auf den lokalen Computer.
     
-      - Nachdem der Prozess **Befehle werden ausgeführt** abgeschlossen wurde, klicken Sie auf **Fertig stellen**.
+      - Nachdem der Prozess **Befehle ausführen** abgeschlossen wurde, klicken Sie auf **Fertig stellen**.
 
-6.  Klicken Sie im Bereitstellungs-Assistenten auf **Schritt 2: Einrichten oder Entfernen von lync Server-Komponenten** , um die in der XML-Konfigurationsdatei angegebenen Edge-Komponenten von lync Server 2013 zu installieren, die auf dem lokalen Computer gespeichert sind.
+6.  Klicken Sie im Bereitstellungs-Assistenten auf **Schritt 2: lync Server Komponenten einrichten oder entfernen** , um die lync Server 2013-Edge-Komponenten zu installieren, die in der auf dem lokalen Computer gespeicherten XML-Konfigurationsdatei angegeben sind.
 
-7.  Nachdem Sie die Installation abgeschlossen haben, verwenden Sie die Informationen unter [Einrichten von Edge-Zertifikaten für lync Server 2013](lync-server-2013-set-up-edge-certificates.md) , um die erforderlichen Zertifikate zu installieren und zuzuweisen, bevor Sie Dienste starten.
+7.  Verwenden Sie nach Abschluss der Installation die Informationen unter [Einrichten von Edge-Zertifikaten für lync Server 2013](lync-server-2013-set-up-edge-certificates.md) , um die erforderlichen Zertifikate zu installieren und zuzuweisen, bevor Sie die Dienste starten.
 
 </div>
 

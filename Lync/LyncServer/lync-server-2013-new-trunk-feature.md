@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Neue Trunkfunktion'
+title: 'Lync Server 2013: neue trunk Funktion'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 962da42567ffcc1c0d541b74266ac5bb1b4653c3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 250b240ed0e1b42051e92e9393f10c01ebb753f5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755889"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006141"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="new-trunk-feature-in-lync-server-2013"></a>Neue Trunkfunktion in Lync Server 2013
+# <a name="new-trunk-feature-in-lync-server-2013"></a>Neue trunk Funktion in lync Server 2013
 
 </div>
 
@@ -35,16 +35,16 @@ ms.locfileid: "41755889"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-In Microsoft lync Server 2013 können mehrere Trunks zwischen einem Vermittlungs Server und einem Gateway definiert werden. Microsoft lync Server 2010 ist nur für einen einzelnen trunk zwischen einem Vermittlungsserver und einem PSTN-Gateway zugelassen. Dieses Feature bietet die Flexibilität, zusätzliche Trunks zu definieren. Ein trunk ist eine logische Zuordnung zwischen einem Vermittlungs Server-FQDN und einem Abhör-Port sowie einem FQDN des PSTN-Gateways und einem Abhör-Port. Diese neue Funktion ermöglicht eine einfache trunk-Definition für die Widerstandsfähigkeit (wobei mehrere Vermittlungsserver zum Weiterleiten von Anrufen an das gleiche PSTN-Gateway verwendet werden können), für die Interoperabilität von PBX-Anlagen, bei denen mehrere Stämme mit unterschiedlichen zugehörigen Richtlinien zwischen verwendet werden können und IP-PBX und ein Vermittlungs Server sowie für SIP-Trunk-Konfigurationen, bei denen Vermittlungsserver an verschiedenen Standorten über SIP-Stämme für den Netzbetreiber verfügen, auf die vom gleichen Carrier-FQDN verwiesen wird.
+In Microsoft lync Server 2013 können mehrere Trunks zwischen einem Vermittlungsserver und einem Gateway definiert werden. Microsoft lync Server 2010 nur für einen einzelnen trunk zwischen einem Vermittlungsserver und einem PSTN-Gateway zulässig. Diese Funktion bietet die Flexibilität, zusätzliche Trunks zu definieren. Ein trunk ist eine logische Zuordnung zwischen einem Vermittlungsserver FQDN und einem Überwachungs Port und einem PSTN-Gateway-FQDN und dem Überwachungs Port. Diese neue Funktion ermöglicht eine einfache trunk Definition für Ausfallsicherheit (wobei mehrere Vermittlungsserver zum Weiterleiten von Anrufen an das gleiche PSTN-Gateway verwendet werden können), für die Interoperabilität von Nebenstellenanlagen, bei der mehrere Trunks mit unterschiedlichen zugeordneten Richtlinien zwischen verwendet werden können und IP-PBX und ein Vermittlungsserver und für SIP-Trunk Konfigurationen, bei denen Vermittlungsserver an unterschiedlichen Standorten über SIP-Trunks mit dem Carrier verfügen, auf den der gleiche Carrier-FQDN verweist.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Neue Enterprise-VoIP-Funktionen in Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
+[Neue Enterprise-VoIP-Funktionen in lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Topologie-Generator-Unterstützung für SQL Server-Spiegelung'
+title: Lync Server 2013 Topologie-Generator unterstützt SQL Server Spiegelung
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36c9ea32dacc7a1cf2e2936166631be83b32eba0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f6ef8d019b95efb19851fbf6c0894180b22cd035
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745185"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036565"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="topology-builder-supports-sql-server-mirroring-in-lync-server-2013"></a>Topologie-Generator-Unterstützung für SQL Server-Spiegelung in Lync Server 2013
+# <a name="topology-builder-supports-sql-server-mirroring-in-lync-server-2013"></a>Der Topologie-Generator unterstützt SQL Server Spiegelung in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41745185"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-26_
+_**Letztes Änderungsstand des Themas:** 2012-09-26_
 
-Lync Server 2013 unterstützt die Spiegelung ihrer Back-End-Server für eine höhere Verfügbarkeit. Mithilfe des Topologie-Generators können Sie die Spiegelung einrichten, einschließlich der Einrichtung eines Zeugen.
+Lync Server 2013 unterstützt die Spiegelung ihrer Back-End-Server für hohe Verfügbarkeit. Sie können den Topologie-Generator verwenden, um die Spiegelung einzurichten, einschließlich der Einrichtung eines Zeugen.
 
 </div>
 

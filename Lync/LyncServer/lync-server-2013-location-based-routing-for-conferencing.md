@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Orts basiertes Routing für Konferenzen'
+title: 'Lync Server 2013: standortbasiertes Routing für Konferenzen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 56335087
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dffc6ee9beaabc4705ac47e643a3fb19e589a745
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ec3268109b522a96e5593f6e0246ee7b36651c06
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762163"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42033384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,21 +35,21 @@ ms.locfileid: "41762163"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-07-31_
+_**Letztes Änderungsstand des Themas:** 2013-07-31_
 
-Standortbasiertes Routing ermöglicht das Einschränken des Routings von anrufen zwischen VoIP-Endpunkten und PSTN-Endpunkten basierend auf dem Standort der Gesprächspartner. Mit dem kumulativen Update 2 von lync Server 2013 können standortbasierte Routing Regeln in lync-Besprechungen (d. h. Konferenzen) erzwungen werden, um eine PSTN-Maut Umgehung zu verhindern. Die Anwendung überwacht eine aktive Konferenz und erzwingt standortbasierte Routing Einschränkungen basierend auf dem Standort der teilnehmenden Benutzer. Die standortbasierte Routing Konferenz Anwendung ermöglicht darüber hinaus die Erzwingung standortbasierter Routing Einschränkungen bei Beratenden Übertragungen, die PSTN-Endpunkte umfassen.
+Das standortbasierte Routing ermöglicht das Einschränken des Routings von anrufen zwischen VoIP-Endpunkten und PSTN-Endpunkten basierend auf dem Standort der Parteien im Anruf. Mit dem kumulativen Update 2 von lync Server 2013 können standortbasierte Routing Regeln für lync-Besprechungen (also Konferenzen) erzwungen werden, um eine PSTN-Maut Umgehung zu verhindern. Die Anwendung überwacht eine aktive Konferenz und erzwingt standortbasierte Routing Einschränkungen basierend auf dem Speicherort der teilnehmenden Benutzer. Die standortbasierte Routing Konferenz Anwendung ermöglicht darüber hinaus die Durchsetzung von standortbasierten Routing Einschränkungen auf beratende Übertragungen mit PSTN-Endpunkten.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Übersicht über standortbasiertes Routing für Konferenzen in lync Server 2013](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
+  - [Übersicht über das standortbasierte Routing für Konferenzen in lync Server 2013](lync-server-2013-overview-of-location-based-routing-for-conferencing.md)
 
-  - [Übertragungen von standortbasierten Routing-und beratenden anrufen in lync Server 2013](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
+  - [Standortbasiertes Routing und Anrufweiterleitung in lync Server 2013](lync-server-2013-location-based-routing-and-consultative-call-transfers.md)
 
-  - [Voraussetzungen für standortbasiertes Routing für Konferenzen in lync Server 2013](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
+  - [Anforderungen für das standortbasierte Routing für Konferenzen in lync Server 2013](lync-server-2013-requirements-for-location-based-routing-for-conferencing.md)
 
-  - [Konfiguration von standortbasiertem Routing für Konferenzen in Lync Server 2013](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
+  - [Konfiguration des standortbasierten Routings für Konferenzen in lync Server 2013](lync-server-2013-configuration-of-location-based-routing-for-conferencing.md)
 
 </div>
 

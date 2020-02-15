@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Installieren der erforderlichen Softwarekomponenten für Lync Server 2013'
+title: 'Lync Server 2013: Installieren lync Server 2013 erforderlichen Software'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184028
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e37e18fc18a0c57a2905302529ec0cb41d7c11f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2bf287ac6bb92f070047368685c1f1cbad371f2f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763749"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008327"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="install-lync-server-2013-prerequisite-software"></a>Installieren der erforderlichen Softwarekomponenten für Lync Server 2013
+# <a name="install-lync-server-2013-prerequisite-software"></a>Installieren lync Server 2013 erforderlichen Software
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "41763749"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-21_
+_**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Die erforderliche Software für den Server für beständigen Chat ist mit der erforderlichen Software für die lync Server 2013-Front-End-Server und dem lync Server 2013 Standard Edition-Server identisch, auf dem die Features des beständigen Chat Servers installiert sind.
+Die erforderliche Software für den Server für beständigen Chat ist identisch mit der erforderlichen Software für die lync Server 2013-Front-End-Server und dem lync Server 2013 Standard Edition-Server, auf dem die Features für den Server für beständigen Chat installiert sind.
 
-Die erforderliche Software für den Dateispeicher des beständigen Chat Servers ist mit der für lync Server 2013 identisch.
+Die erforderliche Software für den Dateispeicher für beständigen Chat Server ist identisch mit der für lync Server 2013.
 
-Die erforderliche Software für die SQL Server-Datenbanken für beständigen Chat Server Inhalt und-Kompatibilität ist ebenfalls identisch mit der für lync Server 2013.
+Die erforderliche Software für die SQL Server Datenbanken für den Inhalt und die Kompatibilität von persistent Chat Servern ist ebenfalls identisch mit der für lync Server 2013.
 
-Ausführliche Informationen zu den Softwareanforderungen für lync Server 2013-Server finden Sie unter [zusätzliche Server Unterstützung und-Anforderungen in lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md) in der Dokumentation zur Unterstützung.
+Ausführliche Informationen zu den Softwareanforderungen für lync Server 2013 Server finden Sie unter [additional Server Support and Requirements in lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md) in der Unterstützungsdokumentation.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Zusätzliche Serverunterstützung und Anforderungen in Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md)  
+[Zusätzliche Server Unterstützung und-Anforderungen in lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md)  
   
 
 </div>

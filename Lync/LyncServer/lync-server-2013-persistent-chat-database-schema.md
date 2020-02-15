@@ -12,20 +12,20 @@ ms:contentKeyID: 48184228
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73f3b21fe8ea7f9fc71aa5432a601e9fa3ad2425
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 51ee4506a22d866a5ba0f771db47546a8fa15e6e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755235"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006913"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="persistent-chat-database-schema-in-lync-server-2013"></a>Datenbankschema für beständigen Chat in Lync Server 2013
+# <a name="persistent-chat-database-schema-in-lync-server-2013"></a>Datenbankschema für beständigen Chat in lync Server 2013
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41755235"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-18_
+_**Letztes Änderungsstand des Themas:** 2012-09-18_
 
-Dadurch wird das Schema der Datenbank für beständigen Chat in der lync Server 2013-Kommunikationssoftware dokumentiert.
+In diesem Dokument wird das Schema der Datenbank für beständigen Chat in lync Server 2013 Kommunikationssoftware dokumentiert.
 
-Die Datenbank für beständigen Chat bezieht sich auf die Datenbank, die den lync Server 2013-Back-End-Serverrollen **PersistentChatStore** (entsprechend der MGC-Datenbank) und **PersistentChatComplianceStore** (entsprechend der mgccomp-Datenbank) entspricht. Das Ziel der Veröffentlichung dieses Schemas ist es, Ihnen zu ermöglichen, Abfragen zu erstellen und einige Einblicke in das Erstellen nützlicher Berichte rund um die Chat-Nutzung, in Active rooms, in Top-Poster usw. zu erhalten.
+Die Datenbank für beständigen Chat bezieht sich auf die Datenbank, die den lync Server 2013 Back-End-Server Rollen **PersistentChatStore** (entsprechend der MGC-Datenbank) und **PersistentChatComplianceStore** (entsprechend der mgccomp-Datenbank) entspricht. Durch die Veröffentlichung dieses Schemas können Sie Abfragen erstellen und erhalten Einblick in das Erstellen hilfreicher Berichte zur Verwendung der Chatfunktion, zu aktiven Räumen, Benutzern mit den meisten Beiträgen usw.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Wir behalten uns das Recht vor, dieses Schema weiterzuentwickeln. Microsoft übernimmt keine Garantien, um die vollständige Abwärtskompatibilität mit diesem veröffentlichten Schema zu gewährleisten.
+> Wir behalten uns das Recht zur Weiterentwicklung dieses Schemas vor. Microsoft übernimmt keinerlei Garantie für eine dauerhafte vollständige Abwärtskompatibilität mit diesem veröffentlichten Schema.
 
 
 
 </div>
 
-Befolgen Sie diese bewährten Methoden:
+Halten Sie sich an folgende bewährte Methoden:
 
-  - Es wird\* keine SELECT//-Auswahl unterstützt, da die Spaltenliste vergrößert werden kann.
+  - Keine SELECT\* //wird unterstützt, da die Spaltenliste wachsen kann.
 
-  - Es werden keine vom benutzergenerierten Schemaänderungen unterstützt.
+  - Es werden keine benutzergenerierten Schemaänderungen unterstützt.
 
-  - Es werden keine Schreibvorgänge unterstützt.
+  - Auch Schreibvorgänge werden nicht unterstützt.
 
-  - Testen Sie alle Abfragen, die Sie auf repräsentativ sortierten Datenbankenerstellen, um sicherzustellen, dass die Abfragen auf einer Ebene ausgeführt werden können, um Ihre Anforderungen zu erfüllen.
+  - Testen Sie alle Abfragen, die Sie erstellen, mit Datenbanken ähnlicher Größe, um sicherzustellen, dass die Leistung der Abfragen Ihren Anforderungen entspricht.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Liste der Tabellen für den Server für beständigen Chat in Lync Server 2013](lync-server-2013-list-of-persistent-chat-server-tables.md)
+  - [Liste der Server Tabellen für beständigen Chat in lync Server 2013](lync-server-2013-list-of-persistent-chat-server-tables.md)
 
-  - [Liste der Kompatibilitätstabellen für den Server für beständigen Chat in Lync Server 2013](lync-server-2013-list-of-persistent-chat-server-compliance-tables.md)
+  - [Liste der Kompatibilitätstabellen für den Server für beständigen Chat in lync Server 2013](lync-server-2013-list-of-persistent-chat-server-compliance-tables.md)
 
-  - [Ausführliche Informationen zur Tabelle für den Server für beständigen Chat in Lync Server 2013](lync-server-2013-persistent-chat-server-table-details.md)
+  - [Tabellendetails für persistent Chat Server in lync Server 2013](lync-server-2013-persistent-chat-server-table-details.md)
 
-  - [Beispieldatenbankabfragen für beständigen Chat für Lync Server 2013](lync-server-2013-sample-persistent-chat-database-queries.md)
+  - [Beispiel für Datenbankabfragen für beständigen Chat für lync Server 2013](lync-server-2013-sample-persistent-chat-database-queries.md)
 
 </div>
 

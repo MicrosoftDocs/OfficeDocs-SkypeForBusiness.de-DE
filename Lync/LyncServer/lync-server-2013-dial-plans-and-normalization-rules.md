@@ -12,16 +12,16 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4f1cc8221281502487a8f58e1562674432ea29d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 4adcd2cd6bebfb0797427d15819399c9b2b9f86d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762273"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036755"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,77 +35,77 @@ ms.locfileid: "41762273"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Ein Wählplan ist ein benannter Satz von Normalisierungsregeln, mit deren Hilfe Telefonnummern als Bestandteil der Telefonautorisierung und Anrufweiterleitung für einen benannten Standort, für einzelne Benutzer oder für Kontaktobjekte in ein einzelnes Standardformat (E.164) übersetzt werden.
+Wähleinstellungen sind benannte Sätze aus Normalisierungsregeln, mit deren Hilfe Telefonnummern als Bestandteil der Telefonautorisierung und Anrufweiterleitung für einen benannten Standort, einzelne Benutzer oder Kontaktobjekte in ein einzelnes Standardformat (E.164) übersetzt werden.
 
-Normalisierungsregeln definieren das Routing von Rufnummern in unterschiedlichen Formaten für benannte Standorte, Benutzer oder Kontaktobjekte. Ein und dieselbe Wählzeichenfolge kann je nach dem Standort, an dem sie gewählt wurde, und je nach der anrufenden Person bzw. dem anrufenden Kontaktobjekt unterschiedlich interpretiert und übersetzt werden.
+Normalisierungsregeln definieren das Routing von Rufnummern in unterschiedlichen Formaten für den benannten Standort, Benutzer oder das Kontaktobjekt. Die gleiche Wählzeichenfolge kann unterschiedlich interpretiert und übersetzt werden, je nach Standort, von dem Sie gewählt wird, und der Person oder dem Kontaktobjekt, die den Anruf tätigen.
 
 <div>
 
-## <a name="dial-plan-scope"></a>Wählplanbereich
+## <a name="dial-plan-scope"></a>Wähl Plan Bereich
 
-Der *Bereich* eines Wählplans bestimmt die Hierarchieebene, auf der der Wählplan angewendet wird. In lync Server kann einem Benutzer ein bestimmter benutzerspezifischer Wählplan zugewiesen werden. Wenn kein Benutzer Wählplan zugewiesen ist, wird der Wählplan für den Registrar-Pool angewendet. Wenn kein Wählplan für den Registrar-Pool vorhanden ist, wird der Standort Wähl Plan angewendet. Wenn für den Benutzer keine bestimmten Wählpläne gelten, wird der globale Wählplan angewendet.
+Der *Bereich* eines Wähl Plans bestimmt die hierarchische Ebene, auf der die Wähleinstellungen angewendet werden können. In lync Server kann ein Benutzer einen bestimmten Wählplan für einzelne Benutzer zuweisen. Wenn kein Benutzer Wähl Plan zugewiesen ist, wird der Wählplan für den registrierungsstellenpool angewendet. Wenn kein Wählplan für einen registrierungsstellenpool vorhanden ist, wird der Standort Wähl Plan angewendet. Wenn keine anderen Wähleinstellungen für den Benutzer gelten, wird der globale Wählplan angewendet.
 
-Clients erhalten Wähl Plan-Bereichsebenen über in-Band-Bereitstellungseinstellungen, die bereitgestellt werden, wenn sich Benutzer bei lync Server anmelden. Als Administrator können Sie die Bereichsebenen für Wähleinstellungen mithilfe der lync Server-Systemsteuerung verwalten und zuweisen.
+Clients erhalten Wähl planbereichs Ebenen durch in-Band-Bereitstellung Einstellungen, die bereitgestellt werden, wenn sich Benutzer bei lync Server anmelden. Als Administrator können Sie Bereichsebenen für Wähleinstellungen mithilfe von lync Server-Systemsteuerung verwalten und zuweisen.
 
 <div>
 
 
 > [!NOTE]  
-> Der PSTN-Gateway-Wählplan auf Dienstebene wird auf eingehende Anrufe von einem bestimmten Gateway angewendet.
+> Die Wähleinstellungen für das öffentliche Telefonnetz (PSTN) auf Dienstebene werden auf eingehende Anrufe von einem bestimmten Gateway angewendet.
 
 
 
 </div>
 
-Bereichsebenen für Wählpläne werden wie folgt definiert:
+Bereichsebenen für Wähleinstellungen sind wie folgt definiert:
 
-  - **Benutzerwähleinstellungen:** Kann einzelnen Benutzern, Gruppen oder Kontaktobjekten zugewiesen werden. Sprachanwendungen können einen Wählplan pro Benutzer suchen und verwenden, wenn für „phone-context“ der Wert „user-default“ empfangen wird. Damit ein Wählplan zugewiesen werden kann, wird ein Kontaktobjekt wie ein Einzelbenutzer behandelt.
+  - **Benutzerwähleinstellungen:** Kann einzelnen Benutzern, Gruppen oder Kontaktobjekten zugewiesen werden. VoIP-Anwendungen können einen benutzerbezogenen Wählplan nachschlagen, wenn ein Anruf mit dem auf Benutzer Standard festgelegten Telefonkontext empfangen wird. Für den Zweck der Zuweisung eines Wählplans wird ein Kontaktobjekt als einzelner Benutzer behandelt.
 
-  - **Pool-Wählplan:** Kann auf Dienstebene für alle PSTN-Gateways oder Registrierungsstellen in Ihrer Topologie erstellt werden. Zum Definieren eines Poolwählplans müssen Sie den Dienst (PSTN-Gateway oder Registrierungsstellenpool) angeben, auf den der Wählplan angewendet werden soll.
+  - **Pool Wähl Plan:** Kann auf Dienstebene für ein beliebiges PSTN-Gateway oder eine Registrierungsstelle in Ihrer Topologie erstellt werden. Um einen Wählplan für einen Pool zu definieren, müssen Sie den jeweiligen Dienst (PSTN-Gateway oder registrierungsstellenpool) angeben, auf den der Wählplan angewendet wird.
 
-  - **Website Wähl Plan:** Kann für eine gesamte Website erstellt werden, mit Ausnahme von Benutzern, Gruppen oder Kontaktobjekten, denen ein Pool-Wählplan oder Benutzer Wähl Plan zugewiesen ist. Zum Definieren eines Standortwählplans müssen Sie den Standort angeben, auf den der Wählplan angewendet werden soll.
+  - **Website Wähl Plan:** Kann für eine gesamte Website erstellt werden, mit Ausnahme von Benutzern, Gruppen oder Kontaktobjekten, denen ein Pool Wähl Plan oder Benutzer Wähl Plan zugewiesen ist. Zum Definieren eines Website Wähl Plans müssen Sie den Standort angeben, auf den der Wählplan angewendet wird.
 
-  - **Globaler Wählplan:** Der Standard-Wählplan, der mit dem Produkt installiert ist. Sie können den globalen Wählplan bearbeiten, aber nicht löschen. Diese Wähleinstellungen gelten für alle Enterprise-VoIP-Benutzer,-Gruppen und-Kontaktobjekte in Ihrer Bereitstellung, es sei denn, Sie konfigurieren und weisen einen Wählplan mit einem spezifischeren Bereich zu.
+  - **Globale Wähleinstellungen:** Die Standard Wähleinstellungen, die mit dem Produkt installiert sind. Sie können die globalen Wähleinstellungen bearbeiten, jedoch nicht löschen. Dieser Wählplan gilt für alle Enterprise-VoIP-Benutzer,-Gruppen und-Kontaktobjekte in Ihrer Bereitstellung, es sei denn, Sie konfigurieren und weisen einen Wählplan mit einem spezifischeren Bereich zu.
 
 </div>
 
 <div>
 
-## <a name="planning-for-dial-plans"></a>Planen eines Wählplans
+## <a name="planning-for-dial-plans"></a>Planen von Wählplänen
 
-Führen Sie folgende Schritte aus, um einen Wählplan zu planen:
+Führen Sie die folgenden Schritte aus, um einen Wählplan zu planen:
 
-  - Listen Sie alle Standorte auf, an denen sich eine Niederlassung Ihrer Organisation befindet.
+  - Auflisten aller Gebietsschemas, in denen Ihre Organisation über ein Office verfügt.
     
-    Die Liste muss aktuell und vollständig sein. Sie muss immer wieder überprüft werden, wenn sich die Unternehmensorganisation weiterentwickelt. Bei einem großen internationalen Unternehmen mit zahlreichen kleinen Zweigstellen kann diese Aufgabe sehr zeitaufwendig sein.
+    Die Liste muss auf dem neuesten Stand und vollständig sein. Es muss überarbeitet werden, wenn sich die Unternehmensorganisation entwickelt. In einem großen multinationalen Unternehmen mit zahlreichen kleinen Zweigstellen kann dies eine zeitaufwändige Aufgabe sein.
 
-  - Identifizieren Sie gültige Rufnummernmuster für jeden Standort.
+  - Identifizieren gültiger Zahlenmuster für jede Website.
     
-    Der zeitaufwendigste Teil der Planung von Wählplänen besteht darin, die gültigen Rufnummernmuster für jeden Standort zu identifizieren. In einigen Fällen können Sie möglicherweise Normalisierungsregeln, die Sie für einen Wählplan erstellt haben, in einen anderen Wählplan kopieren, insbesondere dann, wenn sich die zugehörigen Standorte auf demselben Kontinent oder sogar im selben Land bzw. in derselben Region befinden. In anderen Fällen genügt es möglicherweise, die Rufnummern in einem Wählplan geringfügig zu ändern, um sie auch in anderen Wählplänen verwenden zu können.
+    Der zeitaufwändigste Teil der Planung Ihrer Wählpläne ist die Ermittlung gültiger Nummernmuster für jeden Standort. In einigen Fällen können Sie möglicherweise Normalisierungsregeln, die Sie für einen Wählplan geschrieben haben, in andere Wählpläne kopieren, insbesondere dann, wenn sich die entsprechenden Standorte innerhalb desselben Landes/einer Region oder sogar eines Kontinents befinden. In anderen Fällen können kleine Änderungen an Zahlen in einem Wählplan ausreichen, um Sie in anderen Wählplänen zu verwenden.
 
   - Entwickeln Sie ein organisationsweites Schema für die Benennung von Wählplänen.
     
-    Das Erstellen eines Standardbenennungsschemas stellt die Konsistenz innerhalb der gesamten Organisation sicher und vereinfacht Wartung und Updates.
+    Durch die Einführung eines Standardbenennungsschemas wird die Konsistenz in einer Organisation gewährleistet, und Wartungs-und Aktualisierungsvorgänge werden vereinfacht.
 
-  - Entscheiden Sie, ob für einen einzelnen Standort mehrere Wählpläne erforderlich sind.
+  - Entscheiden Sie, ob mehrere Wählpläne für einen einzelnen Standort erforderlich sind.
     
-    Wenn in Ihrer Organisation ein einzelner Wählplan an mehreren Standorten verwaltet wird, müssen Sie möglicherweise dennoch einen separaten Wählplan für Enterprise-VoIP-Benutzer erstellen, die von einer PBX-Anlage (Private Branch Exchange) migrieren und deren vorhandene Erweiterungen beibehalten werden müssen.
+    Wenn Ihre Organisation einen einzelnen Wählplan über mehrere Standorte hinweg verwaltet, müssen Sie möglicherweise dennoch einen separaten Wählplan für Enterprise-VoIP-Benutzer erstellen, die von einer Nebenstellenanlage migrieren und die vorhandenen Erweiterungen beibehalten müssen.
 
-  - Entscheiden Sie, ob Wählpläne auf Benutzerebene erforderlich sind. Wenn Sie beispielsweise über Benutzer an einer Zweigstelle verfügen, die bei der zentralen Website registriert sind, oder wenn Sie über Benutzer verfügen, die auf einer überlebensfähigen Branch-Appliance registriert sind, können Sie spezielle Wähl Szenarien für diese Benutzer unter Verwendung von Wählplänen und Normalisierungsregeln für einzelne Benutzer in Frage stellen. . Ausführliche Informationen finden Sie unter Anforderungen an die [Ausfallsicherheit von Zweigstellen für lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md).
+  - Entscheiden Sie, ob benutzerspezifische Wählpläne erforderlich sind. Wenn Sie beispielsweise über Benutzer an einem Zweigstellenstandort verfügen, die am zentralen Standort registriert sind oder wenn Sie über Benutzer verfügen, die in einem Survivable Branch Appliance registriert sind, können Sie spezielle Wähl Szenarien für solche Benutzer verwenden, die benutzerspezifische Wählpläne und Normalisierungsregeln verwenden. . Ausführliche Informationen finden Sie unter Anforderungen an die [Ausfallsicherheit für Zweigstellenstandorte für lync Server 2013](lync-server-2013-branch-site-resiliency-requirements.md).
 
-  - Ermitteln Sie den Bereich für den Wählplan (wie weiter oben in diesem Thema beschrieben).
+  - Bestimmen des Wähl planbereichs (wie zuvor in diesem Thema beschrieben).
 
-Zum Erstellen eines Wählplans geben Sie bei Bedarf Werte in den folgenden Feldern mithilfe der lync Server-Systemsteuerung oder der lync Server-Verwaltungsshell an.
+Zum Erstellen eines Wählplans geben Sie bei Bedarf Werte in den folgenden Feldern an, indem Sie lync Server-Systemsteuerung oder lync Server-Verwaltungsshell verwenden.
 
 <div>
 
 ## <a name="name-and-simple-name"></a>Name und einfacher Name
 
-Bei Benutzerwählplänen sollten Sie einen beschreibenden Namen für die Benutzer, Gruppen oder Kontaktobjekte angeben, denen der Wählplan zugewiesen wird. Bei Website Wählplänen ist das Feld Name mit dem Websitenamen gefüllt und kann nicht geändert werden. Für Pool-Wählpläne ist das Feld "Name" mit dem PSTN-Gateway oder dem Front-End-Pool vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) gefüllt und kann nicht geändert werden.
+Für Benutzer Wähl Pläne sollten Sie einen beschreibenden Namen angeben, der die Benutzer, Gruppen oder Kontaktobjekte identifiziert, denen der Wählplan zugewiesen wird. Für Standortwählpläne wird das Feld Name mit dem Namen des Standorts vorausgefüllt und kann nicht geändert werden. Bei Pool Wählplänen wird das Feld Name mit dem PSTN-Gateway oder Front-End-Pool vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) aufgefüllt und kann nicht geändert werden.
 
-Der *einfache Name* des Wählplans ist mit einer Zeichenfolge gefüllt, die vom Namen des Wählplans abgeleitet wird. Das Feld „Einfacher Name“ kann bearbeitet werden, sodass Sie eine aussagekräftigere Benennungskonvention für Ihre Wählpläne festlegen können. Der Wert *Einfacher Name* darf nicht leer und muss eindeutig sein. Es empfiehlt sich, ein Benennungsschema für Ihre gesamte Organisation zu entwickeln und dieses Schema konsequent für alle Standorte und Benutzer zu verwenden.
+Der *einfache Name* des Wählplans wird mit einer Zeichenfolge aufgefüllt, die vom Namen des Wählplans abgeleitet ist. Das Feld einfacher Name ist bearbeitbar, sodass Sie eine aussagekräftigere Benennungskonvention für Ihre Wählpläne erstellen können. Der Wert des *einfachen namens* darf nicht leer sein und muss eindeutig sein. Eine bewährte Methode besteht darin, eine Benennungskonvention für Ihre gesamte Organisation zu entwickeln und diese Konvention dann einheitlich für alle Websites und Benutzer zu verwenden.
 
 </div>
 
@@ -113,7 +113,7 @@ Der *einfache Name* des Wählplans ist mit einer Zeichenfolge gefüllt, die vom 
 
 ## <a name="description"></a>Beschreibung
 
-Es wird empfohlen, den allgemeinen, wiedererkennbaren Namen des geografischen Standorts einzugeben, auf den der entsprechende Wählplan angewendet wird. Wenn der Name des Wählplans beispielsweise „London.Contoso.com“ lautet, wird für die Beschreibung der Eintrag „London“ empfohlen.
+Es wird empfohlen, den allgemeinen, erkennbaren Namen des geografischen Standorts einzugeben, auf den die entsprechenden Wähleinstellungen angewendet werden. Wenn der Name des Wählplans beispielsweise London.contoso.com lautet, lautet die empfohlene Beschreibung London.
 
 </div>
 
@@ -121,21 +121,21 @@ Es wird empfohlen, den allgemeinen, wiedererkennbaren Namen des geografischen St
 
 ## <a name="dial-in-conferencing-region"></a>Region für Einwahlkonferenzen
 
-Wenn Sie Einwahlkonferenzen bereitstellen, müssen Sie eine Region angeben, um die Zugriffsnummern für Einwahlkonferenzen dem entsprechenden Wählplan zuzuordnen.
+Wenn Sie Einwahlkonferenzen bereitstellen, müssen Sie eine Einwahlkonferenz Region angeben, um Zugriffsnummern für Einwahlkonferenzen mit Wähleinstellungen zuzuordnen.
 
 </div>
 
 <div>
 
-## <a name="external-access-prefix"></a>Vorwahl für externen Zugriff
+## <a name="external-access-prefix"></a>Präfix für externen Zugriff
 
-Sie können ein externes Zugriffs Präfix mit bis zu vier Zeichen (\#, \*und 0-9) angeben, wenn Benutzer eine oder mehrere zusätzliche führende Ziffern (beispielsweise 9) wählen müssen, um eine externe Leitung zu erhalten.
+Sie können ein externes Zugriffs Präfix mit bis zu vier Zeichen (\#, \*und 0-9) angeben, wenn Benutzer eine oder mehrere zusätzliche führende Ziffern (beispielsweise 9) zum Abrufen einer externen Leitung wählen müssen.
 
 <div>
 
 
 > [!NOTE]  
-> Wenn Sie eine Vorwahl für den externen Zugriff eingeben, müssen Sie keine zusätzliche Normalisierungsregeln zur Unterstützung der Vorwahl erstellen.
+> Wenn Sie ein externes Zugriffs Präfix angeben, müssen Sie keine zusätzliche Normalisierungsregel erstellen, um das Präfix anzupassen.
 
 
 
@@ -149,33 +149,33 @@ Sie können ein externes Zugriffs Präfix mit bis zu vier Zeichen (\#, \*und 0-9
 
 ## <a name="normalization-rules"></a>Normalisierungsregeln
 
-Normalisierungsregeln definieren das Routing von Rufnummern in unterschiedlichen Formaten für den benannten Standort. Ein und dieselbe numerische Zeichenfolge wird möglicherweise unterschiedlich interpretiert und übersetzt, je nachdem, von welchem Standort aus sie gewählt wird. Normalisierungsregeln sind für das Anrufrouting notwendig, da Benutzer Rufnummern in unterschiedlichen Formaten in ihre Kontaktlisten eingeben.
+Normalisierungsregeln definieren, wie Telefonnummern, die in verschiedenen Formaten ausgedrückt werden, für den benannten Standort weitergeleitet werden sollen. Die gleiche Nummernzeichenfolge kann je nach Gebietsschema, aus dem Sie gewählt wird, unterschiedlich interpretiert und übersetzt werden. Normalisierungsregeln sind für das Anrufrouting erforderlich, da Benutzer unterschiedliche Formate bei der Eingabe von Telefonnummern in ihren Kontaktlisten verwenden können.
 
-Die Normalisierung der von Benutzern eingegebenen Rufnummern stellt ein konsistentes Format bereit, das folgende Aufgaben vereinfacht:
+Durch die Normalisierung der von Benutzern bereitgestellten Telefonnummern wird ein konsistentes Format bereitgestellt, das die folgenden Aufgaben unterstützt:
 
-  - Zuordnen einer gewählten Rufnummer zum SIP-URI des gewünschten Empfängers
+  - Entspricht einer gewählten Nummer dem SIP-URI des beabsichtigten Empfängers.
 
-  - Anwenden von Wählautorisierungsregeln auf den Anrufer
+  - Wenden Sie Wähl Autorisierungsregeln auf den anrufenden Teilnehmer an.
 
-In Normalisierungsregeln müssen möglicherweise die folgenden numerischen Felder berücksichtigt werden:
+Die folgenden Zahlenfelder gehören zu denen, die ihre Normalisierungsregeln möglicherweise berücksichtigen müssen:
 
   - Wählplan
 
-  - Landesvorwahl
+  - Landeskennzahl
 
-  - Ortsvorwahl
+  - Vorwahl
 
-  - Länge der Durchwahlnummer
+  - Länge der Erweiterung
 
-  - Standortvorwahl
+  - Standortpräfix
 
 <div>
 
 ## <a name="creating-normalization-rules"></a>Erstellen von Normalisierungsregeln
 
-Normalisierungsregeln verwenden reguläre .NET Framework-Ausdrücke, um numerische Vergleichsmuster anzugeben, mit denen der Server zum Zweck der umgekehrten Nummernsuche Wählzeichenfolgen in das E.164-Format übersetzen kann. Sie können Normalisierungsregeln in der lync Server-Systemsteuerung erstellen, indem Sie die Ausdrücke manuell eingeben, oder indem Sie die Anfangsziffern und die Länge der zu entgleichenden Wählzeichenfolgen eingeben und die lync Server-Systemsteuerung die entsprechenden regulärer Ausdruck für Sie. Unabhängig davon, welche Methode Sie anwenden, können Sie anschließend eine Testnummer eingeben, um zu überprüfen, ob die Normalisierungsregel wie erwartet funktioniert.
+Normalisierungsregeln verwenden .NET Framework reguläre Ausdrücke, um numerische Übereinstimmungsmuster anzugeben, die der Server verwendet, um Wählzeichenfolgen in das E. 164-Format zu übersetzen, um eine umgekehrte Nummernsuche durchführen zu können. Normalisierungsregeln werden im lync Server-Systemsteuerung entweder durch manuelles Eingeben der Ausdrücke oder durch Eingeben der Start Ziffern und der Länge der zu entgegen gebenden Wählzeichenfolgen und dem lync Server-Systemsteuerung generieren der entsprechenden regulärer Ausdruck für Sie. In beiden Fällen können Sie, wenn Sie fertig sind, eine Testnummer eingeben, um zu überprüfen, ob die Normalisierungsregel wie erwartet funktioniert.
 
-Ausführliche Informationen zur Verwendung von regulären Ausdrücken in [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927).NET Framework finden Sie unter ".NET Framework-reguläre Ausdrücke" unter.
+Ausführliche Informationen zur Verwendung .NET Framework reguläre Ausdrücke finden Sie unter ".NET Framework reguläre Ausdrücke" [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)unter.
 
 </div>
 
@@ -185,9 +185,9 @@ Ausführliche Informationen zur Verwendung von regulären Ausdrücken in [http:/
 
 ## <a name="sample-normalization-rules"></a>Beispiele für Normalisierungsregeln
 
-Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als reguläre .NET Framework-Ausdrücke formuliert sind. Diese Regeln sind nur Beispiele und stellen keine verbindliche Referenz für die Erstellung Ihrer Normalisierungsregeln dar.
+Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als .NET Framework reguläre Ausdrücke geschrieben werden. Die Beispiele sind nur Beispiele und sollen keine normative Referenz für die Erstellung eigener Normalisierungsregeln sein.
 
-### <a name="table-1normalization-rules-using-net-framework-regular-expressions"></a>Tabelle 1: Normalisierungsregeln mit regulären .NET Framework-Ausdrücken
+### <a name="table-1normalization-rules-using-net-framework-regular-expressions"></a>Tabelle 1. Normalisierungsregeln, die .NET Framework reguläre Ausdrücke verwenden
 
 <table>
 <colgroup>
@@ -202,7 +202,7 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als regu
 <th>Regelname</th>
 <th>Beschreibung</th>
 <th>Nummernmuster</th>
-<th>Übersetzung</th>
+<th>Translation</th>
 <th>Beispiel</th>
 </tr>
 </thead>
@@ -211,86 +211,86 @@ Die folgende Tabelle enthält Beispiele für Normalisierungsregeln, die als regu
 <td><p>4digitExtension</p></td>
 <td><p>Übersetzt vierstellige Durchwahlnummern</p></td>
 <td><p>^ (\d{4}) $</p></td>
-<td><p>+1425555$1</p></td>
-<td><p>0100 wird in +14255550100 übersetzt.</p></td>
+<td><p>+ 1425555 $1</p></td>
+<td><p>0100 wird in + 14255550100 übersetzt</p></td>
 </tr>
 <tr class="even">
 <td><p>5digitExtension</p></td>
 <td><p>Übersetzt fünfstellige Durchwahlnummern</p></td>
 <td><p>^ 5 (\d{4}) $</p></td>
-<td><p>+1425555$1</p></td>
-<td><p>50100 wird in +14255550100 übersetzt.</p></td>
+<td><p>+ 1425555 $1</p></td>
+<td><p>50100 wird in + 14255550100 übersetzt</p></td>
 </tr>
 <tr class="odd">
 <td><p>7digitcallingRedmond</p></td>
-<td><p>Übersetzt siebenstellige Rufnummern in Rufnummern des Ortsnetzes von Redmond</p></td>
+<td><p>Übersetzt 7-stellige Nummern in lokale Redmond-Nummern.</p></td>
 <td><p>^ (\d{7}) $</p></td>
-<td><p>+1425$1</p></td>
-<td><p>5550100 wird in +14255550100 übersetzt</p></td>
+<td><p>+ 1425 $1</p></td>
+<td><p>5550100 wird in + 14255550100 übersetzt</p></td>
 </tr>
 <tr class="even">
 <td><p>7digitcallingDallas</p></td>
-<td><p>Übersetzt siebenstellige Rufnummern in Rufnummern des Ortsnetzes von Dallas</p></td>
+<td><p>Übersetzt siebenstellige Nummern in lokale Dallas-Nummern</p></td>
 <td><p>^ (\d{7}) $</p></td>
-<td><p>+1972$1</p></td>
-<td><p>5550100 wird in +19725550100 übersetzt</p></td>
+<td><p>+ 1972 $1</p></td>
+<td><p>5550100 wird in + 19725550100 übersetzt</p></td>
 </tr>
 <tr class="odd">
 <td><p>10digitcallingUS</p></td>
-<td><p>Übersetzt zehnstellige Rufnummern in US-Rufnummern</p></td>
+<td><p>Übersetzt 10-stellige Zahlen in den USA</p></td>
 <td><p>^ (\d{10}) $</p></td>
-<td><p>+1$1</p></td>
-<td><p>2065550100 wird in +12065550100 übersetzt</p></td>
+<td><p>+ 1 $1</p></td>
+<td><p>2065550100 wird in + 12065550100 übersetzt</p></td>
 </tr>
 <tr class="even">
 <td><p>LDCallingUS</p></td>
-<td><p>Übersetzt Rufnummern mit Vorwahlen für Ferngespräche in US-Rufnummern</p></td>
+<td><p>Übersetzt Nummern mit Präfixen für Ferngespräche in den Vereinigten Staaten</p></td>
 <td><p>^ 1 (\d{10}) $</p></td>
-<td><p>+$1</p></td>
-<td><p>12145550100 wird in +2145550100 übersetzt</p></td>
+<td><p>+ $1</p></td>
+<td><p>12145550100 wird in + 2145550100 übersetzt</p></td>
 </tr>
 <tr class="odd">
 <td><p>IntlCallingUS</p></td>
-<td><p>Übersetzt Rufnummern mit internationalen Vorwahlen in US-Rufnummern</p></td>
-<td><p>^011(\d*)$</p></td>
-<td><p>+$1</p></td>
-<td><p>01191445550100 wird in +91445550100 übersetzt</p></td>
+<td><p>Übersetzt Nummern mit internationalen Präfixen in den Vereinigten Staaten</p></td>
+<td><p>^ 011 (\d *) $</p></td>
+<td><p>+ $1</p></td>
+<td><p>01191445550100 wird in + 91445550100 übersetzt</p></td>
 </tr>
 <tr class="even">
 <td><p>RedmondOperator</p></td>
-<td><p>Übersetzt 0 in die Vorwahl des Netzbetreibers von Redmond</p></td>
-<td><p>^0$</p></td>
-<td><p>+14255550100</p></td>
-<td><p>0 wird in +14255550100 übersetzt.</p></td>
+<td><p>Übersetzt 0 nach Redmond-Operator</p></td>
+<td><p>↑ $0</p></td>
+<td><p>+ 14255550100</p></td>
+<td><p>0 wird in + 14255550100 übersetzt</p></td>
 </tr>
 <tr class="odd">
 <td><p>RedmondSitePrefix</p></td>
-<td><p>Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Vorwahl von Redmond (222)</p></td>
+<td><p>Übersetzt Nummern mit on-net prefix (6) und Redmond Site Code (222)</p></td>
 <td><p>^ 6222 (\d{4}) $</p></td>
-<td><p>+1425555$1</p></td>
-<td><p>62220100 wird in +14255550100 übersetzt</p></td>
+<td><p>+ 1425555 $1</p></td>
+<td><p>62220100 wird in + 14255550100 übersetzt</p></td>
 </tr>
 <tr class="even">
 <td><p>NYSitePrefix</p></td>
-<td><p>Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Vorwahl von New York (333)</p></td>
+<td><p>Übersetzt Nummern mit on-net prefix (6) und NY Site Code (333)</p></td>
 <td><p>^ 6333 (\d{4}) $</p></td>
-<td><p>+1202555$1</p></td>
-<td><p>63330100 wird in +12025550100 übersetzt</p></td>
+<td><p>+ 1202555 $1</p></td>
+<td><p>63330100 wird in + 12025550100 übersetzt</p></td>
 </tr>
 <tr class="odd">
 <td><p>DallasSitePrefix</p></td>
-<td><p>Übersetzt Rufnummern mit netzinterner Vorwahl (6) und Dallas-Vorwahl (444)</p></td>
+<td><p>Übersetzt Nummern mit on-net prefix (6) und Dallas Site Code (444)</p></td>
 <td><p>^ 6444 (\d{4}) $</p></td>
-<td><p>+1972555$1</p></td>
-<td><p>64440100 wird in +19725550100 übersetzt</p></td>
+<td><p>+ 1972555 $1</p></td>
+<td><p>64440100 wird in + 19725550100 übersetzt</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Die folgende Tabelle veranschaulicht einen beispielhaften Wählplan für Redmond, Washington (USA), der auf den in der vorherigen Tabelle gezeigten Normalisierungsregeln basiert.
+Die folgende Tabelle zeigt einen beispielhaften Wählplan für Redmond, Washington, USA, basierend auf den Normalisierungsregeln in der vorherigen Tabelle.
 
-### <a name="table-2-redmond-dial-plan-based-on-normalization-rules-shown-in-table-1"></a>Tabelle 2: Wählplan für Redmond, basierend auf den in Tabelle 1 gezeigten Normalisierungsregeln
+### <a name="table-2-redmond-dial-plan-based-on-normalization-rules-shown-in-table-1"></a>Tabelle 2. Auf der Grundlage von Normalisierungsregeln in Tabelle 1 angezeigte Redmond-Wähleinstellungen
 
 <table>
 <colgroup>
@@ -298,7 +298,7 @@ Die folgende Tabelle veranschaulicht einen beispielhaften Wählplan für Redmond
 </colgroup>
 <thead>
 <tr class="header">
-<th>Redmond.forestFQDN</th>
+<th>Redmond. FQDN festgelegt</th>
 </tr>
 </thead>
 <tbody>
@@ -334,7 +334,7 @@ Die folgende Tabelle veranschaulicht einen beispielhaften Wählplan für Redmond
 
 
 > [!NOTE]  
-> Die Namen der Normalisierungsregeln in der vorstehenden Tabelle enthalten keine Leerzeichen, aber dies ist nicht obligatorisch. Beispielsweise ist der erste Name in der Tabelle auch gültig, wenn er „5 digit extension" oder „5-digit Extension" lautet.
+> Die Namen der Normalisierungsregeln, die in der obigen Tabelle angezeigt werden, enthalten keine Leerzeichen, dies ist jedoch eine Frage der Wahl. Der erste Name in der Tabelle könnte beispielsweise als "5-stellige Durchwahl" oder "5-stellige Durchwahlnummer" geschrieben worden sein und trotzdem gültig sein.
 
 
 

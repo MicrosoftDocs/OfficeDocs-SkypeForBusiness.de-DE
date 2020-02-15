@@ -12,20 +12,20 @@ ms:contentKeyID: 48184435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ece4b55f42958916876539f05b951e862e0d493f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fd057c79132200dbe5be8ee2551a711d8fb8e95c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729665"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036917"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="deploy-ip-address-types-on-an-edge-server-for-lync-server-2013"></a>Bereitstellen von IP-Adresstypen auf einem Edgeserver für Lync Server 2013
+# <a name="deploy-ip-address-types-on-an-edge-server-for-lync-server-2013"></a>Bereitstellen von IP-Adresstypen auf einem Edgeserver für lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41729665"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-06-14_
+_**Letztes Änderungsstand des Themas:** 2012-06-14_
 
 Führen Sie mithilfe des Topologie-Generators die Schritte im folgenden Verfahren aus, um IP-Adresstypen auf einem Edgeserver bereitzustellen.
 
@@ -45,15 +45,15 @@ Führen Sie mithilfe des Topologie-Generators die Schritte im folgenden Verfahre
 
 1.  Klicken Sie im Topologie-Generator unter **Edge-Pools**mit der rechten Maustaste auf den Server in einem Pool, und wählen Sie dann **Eigenschaften bearbeiten**aus. (Sie können auch den Server auswählen und dann im Menü **Aktion** auf **Eigenschaften bearbeiten** klicken.)
 
-2.  Wählen Sie im Fenster **Eigenschaften bearbeiten** die IP-Adresskonfiguration, die Sie unterstützen möchten. In den folgenden Abbildungen wird eine Dualstapelkonfiguration für die interne und die externe Schnittstelle dargestellt.
+2.  Wählen Sie im Fenster **Eigenschaften bearbeiten** die IP-Adresskonfiguration, die Sie verwenden möchten. In den folgenden Abbildungen wird eine Dualstapelkonfiguration für die interne und die externe Schnittstelle dargestellt.
     
     **Interne Dualstapelschnittstelle für Edge Server**
     
-    ![Seite "Allgemeine Eigenschaften von lync Server"](images/JJ204984.5b0883ee-b9f2-4a21-91a9-3286d0beb63b(OCS.15).png "Seite "Allgemeine Eigenschaften von lync Server"")
+    ![Lync Server Seite "Allgemeine Eigenschaften"](images/JJ204984.5b0883ee-b9f2-4a21-91a9-3286d0beb63b(OCS.15).png "Lync Server Seite "Allgemeine Eigenschaften"")
     
     **Externe Dualstapelschnittstelle für Edge Server**
     
-    ![Lync Server-nächster Hop/externe Konfigurationsseite](images/JJ204984.2aa00ce2-ba50-40aa-bbf1-78636016daf9(OCS.15).png "Lync Server-nächster Hop/externe Konfigurationsseite")
+    ![Lync Server Seite Nächster Hop/externe Konfiguration](images/JJ204984.2aa00ce2-ba50-40aa-bbf1-78636016daf9(OCS.15).png "Lync Server Seite Nächster Hop/externe Konfiguration")
 
 3.  Für jeden Adresstyp, den Sie auswählen, müssen Sie die geeigneten internen und externen Adressen auswählen.
 

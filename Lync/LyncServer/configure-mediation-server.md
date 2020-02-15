@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren des Vermittlungsservers
+title: Konfigurieren von Vermittlungsserver
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48184207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb9b2c7cf8da1d454f310a8ac999dddbc7d34f68
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 389c6e5c017594bf386109541a379bd5ae2f7e01
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41728165"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006651"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configure-mediation-server"></a>Konfigurieren des Vermittlungsservers
+# <a name="configure-mediation-server"></a>Konfigurieren von Vermittlungsserver
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41728165"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-In diesem Verfahren werden die Schritte zum Konfigurieren des lync Server 2013-Pools für die Verwendung des lync Server 2013-Vermittlungsservers und nicht des Legacy Office Communications Server 2007 R2-Vermittlungsservers erläutert.
+In diesem Verfahren werden die Schritte zum Konfigurieren des lync Server 2013 Pools für die Verwendung der lync Server 2013 Vermittlungsserver anstelle des Legacy-Office Communications Server 2007 R2 Vermittlungsservers erläutert.
 
-Um eine Topologie beim Hinzufügen oder Entfernen einer Serverrolle erfolgreich zu veröffentlichen, zu aktivieren oder zu deaktivieren, sollten Sie als Benutzer angemeldet sein, der Mitglied der Gruppen RTCUniversalServerAdmins und Domänenadministratoren ist. Es ist auch möglich, die richtigen Administratorrechte und-Berechtigungen für das Hinzufügen von Serverrollen zu delegieren. Ausführliche Informationen finden Sie unter Delegieren von Setup Berechtigungen in der Standard Edition-Server-oder Enterprise Edition-Server Bereitstellungsdokumentation. Bei anderen Konfigurationsänderungen ist nur die Mitgliedschaft in der RTCUniversalServerAdmins-Gruppe erforderlich.
+Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer Topologie beim Hinzufügen oder Entfernen einer Serverrolle müssen Sie als Mitglied der Gruppen "RTCUniversalServerAdmins" und "Domänen-Admins" angemeldet sein. Es ist auch möglich, die geeigneten Administratorrechte und -berechtigungen für das Hinzufügen von Serverrollen zu delegieren. Ausführliche Informationen finden Sie unter Delegieren von Setupberechtigungen in der Bereitstellungsdokumentation für Standard Edition-Server oder Enterprise Edition-Server. Für andere Konfigurationsänderungen müssen Sie lediglich Mitglied der Gruppe "RTCUniversalServerAdmins" sein.
 
 <div>
 
 
 > [!NOTE]  
-> Aktuelle Informationen zum Auffinden qualifizierter PSTN-Gateways, IP-PBX-Dienste und SIP-Trunking-Diensten, die mit lync Server 2013 funktionieren, finden Sie unter "Microsoft Unified Communications <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>Open Interoperability Program" unter.
+> Aktuelle Informationen zur Suche nach qualifizierten PSTN-Gateways, IP-Nebenstellenanlagen und SIP-Trunking-Diensten, die mit lync Server 2013 zusammenarbeiten, finden Sie unter " <A href="http://go.microsoft.com/fwlink/p/?linkid=206015">http://go.microsoft.com/fwlink/p/?linkId=206015</A>Microsoft Unified Communications Open Interoperability Program" unter.
 
 
 
@@ -53,41 +53,41 @@ Um eine Topologie beim Hinzufügen oder Entfernen einer Serverrolle erfolgreich 
 
 <div>
 
-## <a name="to-configure-mediation-server-using-topology-builder"></a>So konfigurieren Sie den Vermittlungs Server mithilfe des Topologie-Generators
+## <a name="to-configure-mediation-server-using-topology-builder"></a>So konfigurieren Sie den Vermittlungsserver mithilfe des Topologie-Generators
 
-1.  Öffnen Sie eine vorhandene Topologie aus dem Topologie-Generator.
+1.  Öffnen Sie eine bestehende Topologie im Topologie-Generator.
 
 2.  Navigieren Sie im linken Bereich zu **PSTN-Gateways**.
 
-3.  Klicken Sie mit der rechten Maustaste auf **PSTN-Gateways**, und klicken Sie dann auf **neues IP/PSTN-Gateway**.
+3.  Klicken Sie mit der rechten Maustaste auf **PSTN-Gateways**, und klicken Sie auf **Neues IP/PSTN-Gateway**.
 
-4.  Füllen Sie die Seite **neues IP/PSTN-Gateway definieren** mit den folgenden Informationen aus:
+4.  Geben Sie auf der Seite **Neues IP/PSTN-Gateway definieren** die folgenden Informationen ein:
     
-      - Geben Sie den FQDN oder die IP-Adresse des Gateways ein. Der FQDN des Gateways ist erforderlich, wenn das Gateway das TLS-Protokoll verwendet.
+      - Geben Sie einen vollqualifizierten Domänennamen oder eine IP-Adresse für das Gateway ein. Der FQDN des Gateways ist notwendig, wenn das Gateway das TLS-Protokoll verwendet.
     
-      - Übernehmen Sie den Standardwert des **Überwachungs-Ports für IP/PSTN-Gateway** , oder geben Sie den neuen Abhör-Port ein, wenn er geändert wurde.
+      - Übernehmen Sie den Standardwert von **Überwachungsport für das IP/PSTN-Gateway**, oder geben Sie den neuen Überwachungsport ein, falls er geändert wurde.
     
-      - Setzen Sie das **SIP-Transport Protokoll**.
+      - Legen Sie das **SIP-Transportprotokoll** fest.
 
-5.  Navigieren Sie im linken Bereich zum **Enterprise Edition-Front-End-Pool** oder zum **Standard Edition-Server**.
+5.  Navigieren Sie im linken Bereich zum **Front-End-Pool der Enterprise Edition** oder zum **Standard Edition-Server**.
 
-6.  Klicken Sie mit der rechten Maustaste auf den Pool, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+6.  Klicken Sie mit der rechten Maustaste auf den Pool, und klicken Sie auf **Eigenschaften bearbeiten**.
 
-7.  Stellen Sie unter **Mediation Server**die **Abhör Anschlüsse**ein.
+7.  Legen Sie unter **Vermittlungsserver** die **Überwachungsports** fest.
 
-8.  Ordnen Sie anschließend das neu erstellte PSTN-Gateway zu, indem Sie es auswählen und auf **Hinzufügen**klicken.
+8.  Ordnen Sie dann das neu erstellte PSTN-Gateway zu, indem Sie es markieren und auf **Hinzufügen** klicken.
 
-9.  Wählen Sie im **Topologie-Generator**den **lync-Server**mit dem höchsten Knoten aus.
+9.  Wählen Sie im **Topologie-Generator** den obersten Knoten **Lync Server** aus.
 
-10. Wählen Sie im Menü **Aktion** die Option **Topologie veröffentlichen** aus, und klicken Sie dann auf **weiter**.
+10. Wählen Sie im Menü **Aktion** den Eintrag **Topologie veröffentlichen** aus, und klicken Sie auf **Weiter**.
 
-11. Klicken Sie nach Abschluss des **Veröffentlichungs-Assistenten** auf **Fertig stellen** , um den Assistenten zu schließen.
+11. Klicken Sie nach dem Abschließen des **Veröffentlichungs-Assistenten** auf **Fertig stellen**, um den Assistenten zu schließen.
 
 <div>
 
 
 > [!NOTE]  
-> Es ist wichtig, dass Sie das nächste Thema durchführen, die <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">VoIP-Routen ändern, um den neuen lync Server 2013-Vermittlungsserver zu verwenden</A> , um sicherzustellen, dass die VoIP-Routen auf den richtigen Vermittlungsserver verweisen.
+> Es ist wichtig, dass Sie das nächste Thema durchführen, indem Sie <A href="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server.md">VoIP-Routen so ändern, dass die neue lync Server 2013 Vermittlungsserver verwendet</A> wird, um sicherzustellen, dass die VoIP-Routen auf den richtigen Vermittlungsserver hinweisen.
 
 
 

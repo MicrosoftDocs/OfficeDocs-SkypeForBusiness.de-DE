@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Erstellen von Kontaktobjekten für gehostete Exchange UM-Dienste'
+title: 'Lync Server 2013: Erstellen von Contact-Objekten für gehostete Exchange um'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185045
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 358b595fceb05a377c59479b0a08e100bffb318a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 15a238c2517fd295d35d63a8a1d2f4c4e88a76b4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740345"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42032858"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a>Erstellen von Kontaktobjekten für gehostete Exchange UM-Dienste in Lync Server 2013
+# <a name="create-contact-objects-for-hosted-exchange-um-in-lync-server-2013"></a>Erstellen von Contact-Objekten für gehostete Exchange um in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41740345"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-24_
+_**Letztes Änderungsstand des Themas:** 2012-09-24_
 
-Im folgenden Verfahren wird erläutert, wie Sie die Kontaktobjekte der automatischen Telefonzentrale (AA) oder des Abonnenten Zugriffs (SA) für gehostete Exchange Unified Messaging (um) erstellen.
+Das folgende Verfahren erläutert die Erstellung von Kontaktobjekten der automatischen Telefonzentrale oder des Teilnehmerzugriffs für gehostetes Exchange Unified Messaging (UM).
 
-Ausführliche Informationen finden Sie unter [gehostete Exchange-Kontaktobjekt Verwaltung in lync Server 2013](lync-server-2013-hosted-exchange-contact-object-management.md) in der Planungsdokumentation.
+Ausführliche Informationen finden Sie unter [Hosted Exchange Contact Object Management in lync Server 2013](lync-server-2013-hosted-exchange-contact-object-management.md) in der Planungsdokumentation.
 
-Details zum Konfigurieren von Kontaktobjekten finden Sie in der Dokumentation zur lync Server-Verwaltungsshell für die folgenden Cmdlets:
+Ausführliche Informationen zum Konfigurieren von Kontaktobjekten finden Sie in der lync Server-Verwaltungsshell Dokumentation für die folgenden Cmdlets:
 
   - [New-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/New-CsExUmContact)
 
-  - [Set-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Set-CsExUmContact)
+  - [Gruppe-CsExUmContact](https://docs.microsoft.com/powershell/module/skype/Set-CsExUmContact)
 
 <div class=" ">
 
 
 > [!IMPORTANT]  
-> Bevor lync Server 2013-Kontaktobjekte für gehostete Exchange um aktiviert werden können, muss eine für Sie geltende gehostete Voicemail-Richtlinie bereitgestellt werden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-hosted-voice-mail-policies.md">Richtlinien für gehostete Voicemail in lync Server 2013</A>.
+> Bevor lync Server 2013 Contact-Objekte für gehostete Exchange um aktiviert werden können, muss eine Richtlinie für gehostete Voicemail, die für Sie gilt, bereitgestellt werden. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-hosted-voice-mail-policies.md">Hosted Voice Mail Policies in lync Server 2013</A>.
 
 
 
@@ -59,11 +59,11 @@ Details zum Konfigurieren von Kontaktobjekten finden Sie in der Dokumentation zu
 
 <div>
 
-## <a name="to-create-aa-or-sa-contact-objects-for-hosted-exchange-um"></a>So erstellen Sie AA-oder SA-Kontaktobjekte für gehostete Exchange um
+## <a name="to-create-aa-or-sa-contact-objects-for-hosted-exchange-um"></a>So erstellen Sie Kontaktobjekte für die automatische Telefonzentrale oder den Teilnehmerzugriff für gehostete Exchange UM-Dienste
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Führen Sie das Cmdlet New-CsExUmContact aus, um alle für Ihre Bereitstellung erforderlichen Kontaktobjekte zu erstellen. Führen Sie beispielsweise die folgenden Schritte aus, um ein AA-und ein SA-Kontaktobjekt zu erstellen:
+2.  Führen Sie das Cmdlet "New-CsExUmContact" zum Erstellen von Kontaktobjekten aus, die für Ihre Bereitstellung erforderlich sind. Führen Sie beispielsweise folgenden Befehl aus, um ein Kontaktobjekt für die automatische Telefonzentrale und den Teilnehmerzugriff zu erstellen:
     
        ```powershell
         New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
@@ -73,26 +73,26 @@ Details zum Konfigurieren von Kontaktobjekten finden Sie in der Dokumentation zu
         New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
        ```
     
-    In diesen Beispielen werden die folgenden Parameter angegeben:
+    In diesen Beispielen werden folgende Parameter festgelegt:
     
-      - **SipAddress** gibt die SIP-Adresse des Contact-Objekts an. Hierbei muss es sich um eine Adresse handeln, die noch nicht verwendet wurde, um einen Benutzer oder ein Kontaktobjekt in den Active Directory-Domänendiensten zu konfigurieren. Dieser Wert muss das Format "SIP:\<*SIP Address*\>" aufweisen, wie in den vorherigen Beispielen gezeigt.
+      - **SipAddress** gibt die SIP-Adresse des Kontaktobjekts an. Hierbei muss es sich um eine Adresse handeln, die noch nicht zur Konfiguration eines Benutzer- oder Kontaktobjekts in den Active Directory-Domänendiensten verwendet wurde. Dieser Wert muss das Format "SIP:\<*SIP Address*\>" aufweisen, wie in den vorherigen Beispielen gezeigt.
     
-      - **RegistrarPool** gibt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools an, auf dem der Registrierungsdienst ausgeführt wird.
+      - **RegistrarPool** gibt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools, in dem der Registrierungsdienst ausgeführt wird.
         
         <div class=" ">
         
 
         > [!NOTE]  
-        > Exchange um-Kontaktobjekte können nicht in Pools verschoben werden, die Bestandteil von lync Server 2013-Bereitstellungen vor lync Server 2013 sind.
+        > Exchange um Kontaktobjekte können nicht in Pools verschoben werden, die Teil lync Server 2013 Bereitstellungen vor lync Server 2013 sind.
 
         
         </div>
     
-      - **OU** gibt die Active Directory-Organisationseinheit an, in der sich dieses Kontaktobjekt befindet.
+      - **OU** gibt die Active Directory-Organisationseinheit an, in der dieses Kontaktobjekt abgelegt wird.
     
-      - **DisplayNumber** gibt die Telefonnummer des Kontaktobjekts an. Die Telefonnummer für jedes Kontaktobjekt muss eindeutig sein.
+      - **DisplayNumber** gibt die Rufnummer des Kontaktobjekts an. Die Rufnummer muss für jedes Kontaktobjekt eindeutig sein.
     
-      - **Autoattender** gibt an, ob es sich bei dem Kontaktobjekt um eine automatische Telefonzentrale handelt. Die automatische Telefonzentrale bietet eine Reihe von Sprachansagen, mit denen Anrufer in das Telefonsystem navigieren und die Partei erreichen können, mit der Sie Kontakt aufnehmen möchten. Der Wert **false** (Standardeinstellung) für diesen Parameter gibt ein Kontaktobjekt für den Abonnenten Zugriff an.
+      - **AutoAttendant** gibt an, ob es sich bei diesem Kontaktobjekt um eine automatische Telefonzentrale handelt. Eine automatische Telefonzentrale stellt eine Reihe von Ansagen bereit, über die Anrufer innerhalb des Telefonsystems navigieren und den gewünschten Gesprächspartner erreichen können. Der Wert **False** (Standard) für diesen Parameter weist auf ein Teilnehmerzugriff-Kontaktobjekt hin.
 
 </div>
 

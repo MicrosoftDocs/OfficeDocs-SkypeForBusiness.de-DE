@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Problembehandlung und wichtige Statusindikatoren'
+title: 'Lync Server 2013: Problembehandlung und wichtige Integritätsindikatoren'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 63969585
 ms.date: 05/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a20e47f21b918976291371bd56e529196bae8a7
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d6f052aceb6678d87c99fc287b69752d0ed761a5
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41745045"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42036455"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41745045"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2015-05-18_
+_**Letztes Änderungsstand des Themas:** 2015-05-18_
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-Um die Referenzarchitektur-SLAs zu erfüllen und einen reibungslosen Übergang zu unseren Support Teams zu gewährleisten, muss ein allgemeiner Ansatz zur Problembehandlung zusammen mit einem erforderlichen Satz von Tools und Ansätzen zur Problembehandlung definiert werden, wie im lync Server [-Netzwerkhandbuch](http://go.microsoft.com/fwlink/p/?linkid=390677) definiert.
+Um die Referenzarchitektur-SLAs zu erfüllen und einen reibungslosen Übergang zu unseren Support Teams sicherzustellen, muss ein allgemeiner Ansatz zur Problembehandlung zusammen mit einer Reihe von erforderlichen Problembehandlungstools und-Ansätzen definiert werden, die im lync Server [-Netzwerk Leit Faden](http://go.microsoft.com/fwlink/p/?linkid=390677) definiert sind.
 
-Wir empfehlen dringend, System Center Operations Manager zum Überwachen des Zustands des lync Server 2013-Systems zu verwenden. Lesen Sie auch die Erläuterungen zu KHIs im lync Server 2013- [Netzwerkhandbuch](http://go.microsoft.com/fwlink/p/?linkid=390677) und der Excel-Tabelle zur Verwendung mit lync 2013.
+Es wird dringend empfohlen, dass System Center Operations Manager zum Überwachen der Integrität des lync Server 2013 Systems verwendet wird. Lesen Sie auch die Erläuterungen zu KHIs im lync Server 2013- [Netzwerk Leit Faden](http://go.microsoft.com/fwlink/p/?linkid=390677) und in der Excel-Tabelle für die Verwendung mit lync 2013.
 
 </div>
 

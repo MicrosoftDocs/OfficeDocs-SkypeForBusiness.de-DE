@@ -12,16 +12,16 @@ ms:contentKeyID: 50675349
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99936b495075034e6eae3f90e6dd95325bf6e2be
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 8e18cf2aa76ada1d3ab42d16f68d902ad3a41eae
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41736405"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007083"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41736405"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-23_
+_**Letztes Änderungsstand des Themas:** 2013-02-23_
 
-Wenn Sie eine zuvor konfigurierte clientversionsrichtlinie löschen möchten, können Sie Sie aus der lync Server 2013-Systemsteuerung oder der lync Server 2013-Verwaltungsshell löschen.
+Wenn Sie eine zuvor konfigurierte clientversionsrichtlinie löschen möchten, können Sie Sie aus lync Server 2013 Systemsteuerung oder aus lync Server 2013 Verwaltungsshell löschen.
 
 <div>
 
-## <a name="to-delete-client-version-policies-by-using-lync-server-control-panel"></a>So löschen Sie clientversionsrichtlinien mithilfe der lync Server-Systemsteuerung
+## <a name="to-delete-client-version-policies-by-using-lync-server-control-panel"></a>So löschen Sie clientversionsrichtlinien mithilfe von lync Server-Systemsteuerung
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Schaltfläche für die **Client Versionsrichtlinien** -Navigation.
+3.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf die Navigationsschaltfläche **Client Versionsrichtlinie** .
 
 4.  Wählen Sie auf der Seite **clientversionsrichtlinie** die clientversionsrichtlinie oder Richtlinien aus, die Sie löschen möchten, klicken Sie auf **Bearbeiten**, und klicken Sie dann auf **Löschen**.
 
@@ -57,13 +57,13 @@ Wenn Sie eine zuvor konfigurierte clientversionsrichtlinie löschen möchten, k�
 
 ## <a name="deleting-client-version-policies-by-using-windows-powershell-cmdlets"></a>Löschen von Client Versionsrichtlinien mithilfe von Windows PowerShell-Cmdlets
 
-Sie können clientversionsrichtlinien mithilfe des Cmdlets **Remove-CsClientVersionPolicy** löschen. Dieses Cmdlet kann entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausgeführt werden. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
+Sie können clientversionsrichtlinien mithilfe des Cmdlets **Remove-CsClientVersionPolicy** löschen. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
 ## <a name="to-remove-a-specific-client-version-policy"></a>So entfernen Sie eine bestimmte clientversionsrichtlinie
 
-  - Mit diesem Befehl wird die auf die Redmond-Website angewendete clientversionsrichtlinie gelöscht:
+  - Mit diesem Befehl wird die clientversionsrichtlinie gelöscht, die auf den Standort "Redmond" angewendet wird:
     
         Remove-CsClientVersionPolicy -Identity site:Redmond
 
@@ -73,7 +73,7 @@ Sie können clientversionsrichtlinien mithilfe des Cmdlets **Remove-CsClientVers
 
 ## <a name="to-remove-all-the-client-version-policies-applied-to-the-site-scope"></a>So entfernen Sie alle auf den Website Bereich angewendeten clientversionsrichtlinien
 
-  - Mit diesem Befehl werden alle auf dem Website Bereich konfigurierten clientversionsrichtlinien entfernt:
+  - Mit diesem Befehl werden alle clientversionsrichtlinien entfernt, die auf Standortebene konfiguriert sind:
     
         Get-CsClientVersionPolicy -Fiter "site:*" | Remove-CsClientVersionPolicy
 
@@ -83,7 +83,7 @@ Sie können clientversionsrichtlinien mithilfe des Cmdlets **Remove-CsClientVers
 
 ## <a name="to-remove-client-version-policies-that-do-not-include-a-specific-user-agent"></a>So entfernen Sie clientversionsrichtlinien, die keinen bestimmten Benutzer-Agent enthalten
 
-  - Und mit diesem Befehl werden alle clientversionsrichtlinien entfernt, die keine Regel für den Windows Phone lync (WPLync)-Benutzer-Agent enthalten:
+  - Mit diesem Befehl werden alle clientversionsrichtlinien entfernt, die keine Regel für den Windows Phone lync-Benutzer-Agent (WPLync) enthalten:
     
         Get-CsClientVersionPolicy | Where-Object {$_.Rules -notmatch "UserAgent=WPLync" | Remove-CsClientVersionPolicy
 

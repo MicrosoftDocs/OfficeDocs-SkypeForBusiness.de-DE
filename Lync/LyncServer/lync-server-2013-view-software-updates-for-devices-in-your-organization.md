@@ -12,16 +12,16 @@ ms:contentKeyID: 48185418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9a969aac4559f02ee7d05f36bece84e40f65aca
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b1b1b4da0847dcc8242b6b514069d62a718c653f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757419"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035147"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,15 +35,15 @@ ms.locfileid: "41757419"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Mit lync Server 2013 verwenden Sie den Geräte Update-Webdienst, um Softwareupdates für die Geräte Ihrer Organisation anzuzeigen und zu verwalten. Diese Updates sind in CAB-Dateien (Cabinet) von der Microsoft [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)-Support Website unter verfügbar. Führen Sie nach dem Herunterladen der CAB-Datei das Cmdlet " **Import-CSDeviceUpdate** " aus, um die geräteaktualisierungsregeln aus der CAB-Datei zu importieren. Details zum Cmdlet " **Import-CSDeviceUpdate** " finden Sie unter [Import-CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) in der Dokumentation zur lync Server-Verwaltungsshell.
+Mit lync Server 2013 verwenden Sie den Geräte Update-Webdienst, um Softwareupdates für die Geräte Ihrer Organisation anzuzeigen und zu verwalten. Diese Updates stehen in CAB-Dateien auf der Microsoft-Support Website unter zur Verfügung [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091). Nachdem Sie die CAB-Datei heruntergeladen haben, führen Sie das Cmdlet **Import-CSDeviceUpdate** aus, um die geräteaktualisierungsregeln aus der CAB-Datei zu importieren. Ausführliche Informationen zum **Import-CSDeviceUpdate** -Cmdlet finden Sie unter [Import-CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) in der lync Server-Verwaltungsshell Dokumentation.
 
 <div>
 
 
 > [!TIP]  
-> Bevor Sie ein neues Update für Ihre Organisation bereitstellen, stellen Sie sicher, dass es auf einem Testgerät ordnungsgemäß funktioniert.
+> Bevor Sie ein neues Update in Ihrer Organisation bereitstellen, sollten Sie seine ordnungsgemäße Funktion auf einem Testgerät überprüfen.
 
 
 
@@ -53,31 +53,31 @@ Mit lync Server 2013 verwenden Sie den Geräte Update-Webdienst, um Softwareupda
 
 ## <a name="to-view-software-updates-for-uc-devices"></a>So zeigen Sie Softwareupdates für UC-Geräte an
 
-1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle "CsUserAdministrator" oder "CsAdministrator" zugewiesen ist, auf einem beliebigen Computer in Ihrer internen Bereitstellung an.
+1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Laden Sie auf der Microsoft [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)-Support Website unter die CAB-Datei an einen Speicherort auf einem lync Server 2013-Computer herunter (beispielsweise\\C\\: Updates ucupdates. cab).
+2.  Laden Sie die CAB-Datei [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)von der Microsoft-Support Website unter an einen Speicherort auf einem lync Server 2013 Computer herunter (beispielsweise C\\:\\Updates ucupdates. cab).
 
-3.  Importieren Sie die geräteaktualisierungsregeln aus der Datei\\C\\: Updates ucupdates. cab, indem Sie eines der folgenden Cmdlets ausführen:
+3.  Importieren Sie die geräteaktualisierungsregeln aus der C\\:\\Updates-ucupdates. CAB-Datei, indem Sie eines der folgenden Cmdlets ausführen:
     
-      - Wenn sich die CAB-Datei auf demselben Computer befindet wie diejenige, die den zu aktualisierenden Dienst ausführt (Dienst: Redmond-websvc-2), führen Sie das folgende Cmdlet aus:
+      - Wenn sich die CAB-Datei auf demselben Computer befindet wie der Dienst, der aktualisiert werden soll (service:Redmond-websvc-2), führen Sie das folgende Cmdlet aus:
         
             Import-CsDeviceUpdate -Identity service:Redmond-websvc-2 -FileName C:\Updates\UCUpdates.cab
     
-      - Wenn sich die CAB-Datei auf einem anderen Computer als derjenige befindet, der den zu aktualisierenden Dienst ausführt (Dienst: Redmond-websvc-3), führen Sie das folgende Cmdlet aus:
+      - Wenn sich die CAB-Datei auf einem anderen Computer befindet als der Dienst, der aktualisiert werden soll (service:Redmond-websvc-3), führen Sie das folgende Cmdlet aus:
         
             Import-CsDeviceUpdate -Identity service:Redmond-websvc-3 -ByteInput C:\Updates\UCUpdates.cab
 
-4.  Öffnen Sie ein Browserfenster, und geben Sie dann die Administrator-URL ein, um die lync Server-Systemsteuerung zu öffnen. Details zu den verschiedenen Methoden, die Sie zum Starten der lync Server-Systemsteuerung verwenden können, finden Sie unter [Öffnen von lync Server 2013-Verwaltungstools](lync-server-2013-open-lync-server-administrative-tools.md).
+4.  Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).
 
-5.  Klicken Sie in der linken Navigationsleiste auf **Clients**, und klicken Sie dann auf **Geräteaktualisierung**.
+5.  Klicken Sie in der linken Navigationsleiste auf **Clients** und dann auf **Geräteaktualisierung**.
 
-6.  Klicken Sie auf der Seite **Device Update** auf ein Update in der Liste, und führen Sie dann eine der folgenden Aktionen aus:
+6.  Klicken Sie auf der Seite **Geräteaktualisierung** auf ein Update in der Liste, und führen Sie eine der folgenden Aktionen aus:
     
-      - **Abbrechen einer ausstehenden Aktualisierung** Wenn Sie verhindern möchten, dass das ausgewählte Update auf den Geräten Ihrer Organisation bereitgestellt wird, klicken Sie auf das Menü **Aktion** und dann auf **ausstehende Updates Abbrechen**.
+      - **Abbrechen eines ausstehenden Updates.** Klicken Sie auf das Menü **Aktion** und anschließend auf **Ausstehende Updates abbrechen**, um die Bereitstellung des ausgewählten Updates auf den Geräten in Ihrer Organisation zu verhindern.
     
-      - **Genehmigen eines Updates** Wenn Sie zulassen möchten, dass das ausgewählte Update auf den Geräten Ihrer Organisation bereitgestellt wird, klicken Sie auf das Menü **Aktion** und dann auf **genehmigen**.
+      - **Genehmigen eines Updates.** Klicken Sie auf das Menü **Aktion** und anschließend auf **Genehmigen**, um die Bereitstellung des ausgewählten Updates auf den Geräten in Ihrer Organisation zuzulassen.
     
-      - **Wiederherstellen eines Updates** Wenn Sie zulassen möchten, dass ein zuvor genehmigtes Update auf den Geräten Ihrer Organisation bereitgestellt wird, klicken Sie auf das Menü **Aktion** und dann auf **Wiederherstellen**.
+      - **Wiederherstellen eines Updates.** Klicken Sie auf das Menü **Aktion** und anschließend auf **Wiederherstellen**, um die Bereitstellung eines zuvor genehmigten Updates auf den Geräten in Ihrer Organisation zuzulassen.
 
 </div>
 
@@ -86,7 +86,7 @@ Mit lync Server 2013 verwenden Sie den Geräte Update-Webdienst, um Softwareupda
 ## <a name="see-also"></a>Siehe auch
 
 
-[Verwalten von Geräten, Telefonen und Clientanwendungen in Lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  
+[Verwalten von Geräten, Telefonen und Clientanwendungen in lync Server 2013](lync-server-2013-managing-devices-phones-and-client-applications.md)  
   
 
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'Phase 3: Bereitstellen des lync Server 2013-pilotpools'
+title: 'Phase 3: Bereitstellen lync Server 2013 pilotpools'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38a9e19ea3d9456a5e6f5b395286d77ed831f6b0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: c87be6f690c5c31822dd59bea52c9140e43a4926
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41757679"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034305"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>Phase 3: Bereitstellen des lync Server 2013-pilotpools
+# <a name="phase-3-deploy-lync-server-2013-pilot-pool"></a>Phase 3: Bereitstellen lync Server 2013 pilotpools
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41757679"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-In diesem Abschnitt werden die erforderlichen Schritte zum Bereitstellen eines pilotpools von lync Server 2013 beschrieben. Die Bereitstellung von lync Server 2013 erfordert die Verwendung des Topologie-Generators zum Definieren Ihrer Topologie und der Komponenten, die Sie bereitstellen möchten, Vorbereiten der Umgebung für die Bereitstellung der lync Server 2013-Komponenten und Veröffentlichen des Topologie-Designs auf dem ersten Front-End Server, und installieren und konfigurieren Sie dann die lync Server 2013-Software für die Komponenten für Ihre Bereitstellung. Wenn Sie fertig sind, wird die Bereitstellung Ihres lync Server 2013-pilotpools mit einem vorhandenen lync Server 2010-Pool koexistieren.
+In diesem Abschnitt werden die Schritte beschrieben, die für die Bereitstellungeines pilotpools von lync Server 2013 erforderlich sind. Die Bereitstellung von lync Server 2013 erfordert die Verwendung des Topologie-Generators zum Definieren Ihrer Topologie und der Komponenten, die Sie bereitstellen möchten, Vorbereiten der Umgebung für die Bereitstellung der lync Server 2013 Komponenten, Veröffentlichen des Topologie-Designs auf dem ersten Front-End Server, und installieren und konfigurieren Sie dann lync Server 2013 Software für die Komponenten für Ihre Bereitstellung. Wenn die lync Server 2013 Pilot Pool-Bereitstellung abgeschlossen ist, wird Sie mit einem vorhandenen lync Server 2010-Pool koexistieren.
 
 <div>
 
@@ -47,11 +47,11 @@ In diesem Abschnitt werden die erforderlichen Schritte zum Bereitstellen eines p
 
   - [Herunterladen der Topologie aus einer vorhandenen Bereitstellung](download-topology-from-existing-deployment.md)
 
-  - [Bereitstellen des lync Server 2013-pilotpools](deploy-lync-server-2013-pilot-pool.md)
+  - [Bereitstellen lync Server 2013 Pilot-Pools](deploy-lync-server-2013-pilot-pool.md)
 
-  - [Überprüfen der Koexistenz der Pilotinstallation mit Pools der Vorversion](verify-pilot-pool-coexistence-with-legacy-pool.md)
+  - [Überprüfen der Koexistenz von pilotpools mit einem Legacy Pool](verify-pilot-pool-coexistence-with-legacy-pool.md)
 
-  - [Verbinden des Pilotpools mit Edgeservern der Vorversion](connect-pilot-pool-to-legacy-edge-servers.md)
+  - [Verbinden des pilotpools mit Legacy-Edge-Servern](connect-pilot-pool-to-legacy-edge-servers.md)
 
   - [Konfigurieren von Zugriffsrichtlinien und Zertifikaten für XMPP-Gateways](configure-xmpp-gateway-access-policies-and-certificates.md)
 

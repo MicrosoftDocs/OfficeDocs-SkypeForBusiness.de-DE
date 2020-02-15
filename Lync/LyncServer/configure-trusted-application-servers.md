@@ -13,16 +13,16 @@ ms:contentKeyID: 48183592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fee8a8894285a321a4a0bc51a7cdf0462be7af85
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 204c183ad63da3278d10b802d3f2140fa9a86a70
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41729085"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006601"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -36,27 +36,27 @@ ms.locfileid: "41729085"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-11_
+_**Letztes Änderungsstand des Themas:** 2012-10-11_
 
-Wenn Sie in einer gemischten Umgebung einen neuen vertrauenswürdigen Anwendungsserver erstellen, müssen Sie den Pool für den nächsten Hop als lync Server 2013-Pool einrichten. In einer gemischten Umgebung werden sowohl der Legacy lync Server 2010-Pool als auch der lync Server 2013-Pool in der Dropdownliste angezeigt. Das Auswählen des Legacy Pools wird nicht unterstützt.
+Wenn Sie in einer gemischten Umgebung einen neuen vertrauenswürdigen Anwendungsserver erstellen, müssen Sie den Pool für den nächsten Hop als lync Server 2013 Pool festlegen. In einer gemischten Umgebung werden sowohl der Legacy lync Server 2010 Pool als auch der lync Server 2013-Pool in der Dropdownliste angezeigt. Die Auswahl des Pools der Vorversion wird nicht unterstützt.
 
-**Auswählen von lync Server 2013 als nächster Hop beim Erstellen eines vertrauenswürdigen Anwendungsservers**
+**Auswählen lync Server 2013 als nächster Hop beim Erstellen eines vertrauenswürdigen Anwendungsservers**
 
 1.  Öffnen Sie den Topologie-Generator.
 
-2.  Klicken Sie im linken Bereich mit der rechten Maustaste auf **Vertrauenswürdige Anwendungsserver** , und klicken Sie auf **neuer vertrauenswürdiger Anwendungs Pool**.
+2.  Klicken Sie im linken Bereich mit der rechten Maustaste auf **Vertrauenswürdige Anwendungsserver**, und klicken Sie auf **Neuer Pool für vertrauenswürdige Anwendungen**.
 
-3.  Geben Sie den **Pool-FQDN** des vertrauenswürdigen Anwendungspools ein, und wählen Sie aus, ob es sich um einen Einzelserver oder um einen Server mit mehreren Servern handelt.
+3.  Geben Sie den **Pool-FQDN** des Pools vertrauenswürdiger Anwendungen ein. Geben Sie an, ob der Pool einen einzelnen oder mehrere Server enthalten soll.
 
 4.  Klicken Sie auf **Weiter**.
 
-5.  Wählen Sie auf der Seite **Nächster Hop auswählen** in der Liste den lync Server 2013-Front-End-Pool aus.
+5.  Wählen Sie auf der Seite **nächsten Hop auswählen** in der Liste die lync Server 2013 Front-End-Pool aus.
 
 6.  Klicken Sie auf **Fertig stellen**.
 
-7.  Wählen Sie den obersten Knoten **lync Server** aus, und wählen Sie im Menü **Aktion** die Option **veröffentlichen**aus.
+7.  Wählen Sie den obersten Knoten **Lync Server** aus, und wählen Sie dann im Menü **Aktionen** die Option **Veröffentlichen** aus.
     
-    Überprüfen Sie, ob der **Vertrauenswürdige Anwendungs Pool** erfolgreich erstellt wurde und dem richtigen Front-End-Pool zugeordnet ist.
+    Überprüfen Sie, dass der **vertrauenswürdige Anwendungspool** erfolgreich erstellt und dem richtigen Front-End-Pool zugeordnet worden ist.
 
 </div>
 

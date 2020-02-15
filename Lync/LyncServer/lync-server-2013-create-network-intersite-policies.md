@@ -12,20 +12,20 @@ ms:contentKeyID: 48185148
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 655cde30a3d798d57520c57e3882b2162010888c
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 072dcf4cbb8f04a2db3e4b930eeaf666a031e94e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740325"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-network-intersite-policies-in-lync-server-2013"></a>Erstellen von Netzwerk-standortübergreifenden Richtlinien in lync Server 2013
+# <a name="create-network-intersite-policies-in-lync-server-2013"></a>Erstellen von standortübergreifenden Netzwerkrichtlinien in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41740325"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-Eine *Netzwerk-standortübergreifende Richtlinie* definiert Bandbreiteneinschränkungen zwischen Websites, die direkte WAN-Verbindungen zwischen Ihnen aufweisen.
+Eine *standortübergreifende Netzwerkrichtlinie* definiert Bandbreiteneinschränkungen zwischen Standorten, die über direkte WAN-Verbindungen miteinander verbunden sind.
 
-Ausführliche Informationen finden Sie in der Dokumentation zur lync Server-Verwaltungsshell für die folgenden Cmdlets:
+Ausführliche Informationen finden Sie in der lync Server-Verwaltungsshell Dokumentation zu den folgenden Cmdlets:
 
   - [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)
 
   - [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)
 
-  - [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)
+  - [Gruppe-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)
 
   - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
 
@@ -53,25 +53,25 @@ Ausführliche Informationen finden Sie in der Dokumentation zur lync Server-Verw
 
 
 > [!IMPORTANT]  
-> Eine Netzwerk-standortübergreifende Richtlinie ist <EM>nur</EM> erforderlich, wenn zwischen zwei Netzwerkstandorten eine direkte Querverbindung besteht.
+> Eine standortübergreifende Netzwerkrichtlinie ist <EM>nur</EM> erforderlich, wenn eine standortübergreifende Direktverbindung zwischen zwei Netzwerkstandorten besteht.
 
 
 
 </div>
 
-In der Region „Nordamerika“ der Beispieltopologie besteht eine direkte Verbindung zwischen den Standorten „Reno“ und „Albuquerque“. Diese beiden Websites erfordern eine standortübergreifende Richtlinie, die ein entsprechendes bandbreitenrichtlinienprofil anwendet. Im folgenden Beispiel wird das 20MB\_-Link Profil angewendet.
+In der Region "Nordamerika" der Beispieltopologie besteht eine direkte Verbindung zwischen den Standorten "Reno" und "Albuquerque". Für diese beiden Standorte ist eine standortübergreifende Richtlinie erforderlich, die ein geeignetes Bandbreitenrichtlinienprofil anwendet. Im folgenden Beispiel wird das Link\_Profil 20MB angewendet.
 
 <div>
 
-## <a name="to-create-a-network-intersite-policy"></a>So erstellen Sie eine netzwerkübergreifende Richtlinie
+## <a name="to-create-a-network-intersite-policy"></a>So erstellen Sie eine standortübergreifende Netzwerkrichtlinie
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Führen Sie das Cmdlet New-CsNetworkInterSitePolicy aus, um netzwerkübergreifende Richtlinien zu erstellen und ein entsprechendes bandbreitenrichtlinienprofil für zwei Websites anzuwenden, die einen direkten Querverweis aufweisen. Führen Sie beispielsweise den folgenden Befehl aus:
+2.  Führen Sie das Cmdlet "New-CsNetworkInterSitePolicy" aus, um für zwei Standorte mit standortübergreifender Direktverbindung standortübergreifende Netzwerkrichtlinien zu erstellen und ein geeignetes Bandbreitenrichtlinienprofil anzuwenden. Führen Sie beispielsweise den folgenden Befehl aus:
     
         New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link
 
-3.  Wiederholen Sie Schritt 2 nach Bedarf, um netzwerkübergreifende Richtlinien für alle Netzwerk Website Paare zu erstellen, die eine direkte Kreuzverknüpfung aufweisen.
+3.  Wiederholen Sie bei Bedarf Schritt 2, um standortübergreifende Netzwerkrichtlinien für alle Netzwerkstandorte mit standortübergreifender Direktverbindung zu erstellen.
 
 </div>
 

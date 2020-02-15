@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von Microsoft Exchange Server 2013 Unified Messaging für lync Server 2013-Voicemail'
+title: 'Lync Server 2013: Konfigurieren Microsoft Exchange Server 2013 Unified Messaging für lync Server 2013-Voicemail'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733573
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 367f4cc517771f51d7a1452293ad9803075d285f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 718616db34cbdc612d083fa88c7e47da03e22bed
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41755929"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008427"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-microsoft-exchange-server-2013-unified-messaging-for-microsoft-lync-server-2013-voice-mail"></a>Konfigurieren von Microsoft Exchange Server 2013 Unified Messaging für Microsoft lync Server 2013-Voicemail
+# <a name="configuring-microsoft-exchange-server-2013-unified-messaging-for-microsoft-lync-server-2013-voice-mail"></a>Konfigurieren Microsoft Exchange Server 2013 Unified Messaging für Microsoft lync Server 2013-Voicemail
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "41755929"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-04_
+_**Letztes Änderungsstand des Themas:** 2013-02-04_
 
-Mit Microsoft lync Server 2013 können Sie Voicemail-Nachrichten in Microsoft Exchange Server 2013 speichern. Diese Sprachnachrichten werden dann als e-Mail-Nachrichten in den Posteingängen Ihrer Benutzer angezeigt. Diese Funktion wurde auch in den 2010-Editionen von lync Server und Exchange gefunden. der Vorgang zum Konfigurieren dieses "Unified Messaging" wurde in den 2013-Editionen jedoch dank der Einführung der um-Anruf-Router-Komponente vereinfacht. Diese Komponente ist auf dem Exchange 2013-Client Zugriffsserver installiert, und alle Anrufe an Exchange Unified Messaging (wie eine Sprachnachricht) werden zuerst über den Anruf Router weitergeleitet und dann an den entsprechenden Postfachserver umgeleitet.
+Microsoft lync Server 2013 können Voicemail-Nachrichten in Microsoft Exchange Server 2013 gespeichert werden; Diese Voicemail-Nachrichten werden dann als e-Mail-Nachrichten in den Posteingängen Ihrer Benutzer angezeigt. Diese Funktion wurde auch in den 2010-Editionen von lync Server und Exchange gefunden; das Konfigurieren dieses "Unified Messaging" wurde in den 2013-Editionen jedoch dank der Einführung der um-Anruf-Router-Komponente vereinfacht. Diese Komponente wird auf dem Exchange 2013-Client Zugriffsserver installiert, und alle Anrufe an Exchange Unified Messaging (beispielsweise eine Voicemail) werden zuerst über den Anruf Router geleitet und dann an den entsprechenden Postfachserver umgeleitet.
 
-Wenn Sie die Server-zu-Server-Authentifizierung bereits zwischen lync Server 2013 und Exchange 2013 konfiguriert haben, können Sie Unified Messaging einrichten. Dazu müssen Sie zuerst einen neuen Unified Messaging-Wählplan auf dem Exchange-Server erstellen und zuweisen. So konfigurieren diese beiden Befehle (die in der Exchange-Verwaltungsshell ausgeführt werden) einen neuen dreistelligen Wählplan für Exchange:
+Wenn Sie die Server-zu-Server-Authentifizierung bereits zwischen lync Server 2013 und Exchange 2013 konfiguriert haben, sind Sie zum Einrichten von Unified Messaging fähig. Hierzu müssen Sie zuerst einen neuen Unified Messaging-Wählplan auf Ihrem Exchange-Server erstellen und zuweisen. Beispielsweise werden mit diesen beiden Befehlen (die in der Exchange-Verwaltungsshell ausgeführt werden) ein neuer dreistelliger Wählplan für Exchange konfiguriert:
 
     New-UMDialPlan -Name "RedmondDialPlan" -VoIPSecurity "Secured" -NumberOfDigitsInExtension 3 -URIType "SipName" -CountryOrRegionCode 1
     Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,*,*" -AllowedInCountryOrRegionGroups "Anywhere"
 
-Im ersten Befehl im Beispiel geben der Parameter „VoIPSecurity“ und der Parameterwert „Secured“ an, dass der Signalkanal mithilfe von TLS (Transport Layer Security) verschlüsselt wird. Der URI-Typ „SipName“ gibt an, dass Nachrichten unter Verwendung des SIP-Protokolls gesendet und empfangen werden, und der Wert „1“ für „CountryOrRegionCode“ gibt an, dass der Wählplan für die USA gilt.
+Im ersten Befehl im Beispiel geben der Parameter "VoIPSecurity" und der Parameterwert "Secured" an, dass der Signalkanal mithilfe von TLS (Transport Layer Security) verschlüsselt wird. Der URI-Typ "SipName" gibt an, dass Nachrichten unter Verwendung des SIP-Protokolls gesendet und empfangen werden, und der Wert "1" für "CountryOrRegionCode" gibt an, dass der Wählplan für die USA gilt.
 
-Im zweiten Befehl gibt der an den Parameter „ConfiguredInCountryOrRegionGroups“ übergebene Parameterwert die länderinternen Gruppen an, die mit diesem Wählplan verwendet werden können. Der Parameterwert "Anywhere;\*\*,\*" legt Folgendes fest:
+Im zweiten Befehl gibt der an den Parameter "ConfiguredInCountryOrRegionGroups" übergebene Parameterwert die länderinternen Gruppen an, die mit diesem Wählplan verwendet werden können. Der Parameterwert "Anywhere,\*,\*,\*" legt Folgendes fest:
 
-  - Gruppenname („Anywhere“)
+  - Gruppenname ("Anywhere")
 
-  - AllowedNumberString (\*, ein Platzhalterzeichen, das angibt, dass eine beliebige Zahlen Zeichenfolge zulässig ist)
+  - AllowedNumberString (\*, ein Platzhalterzeichen, das angibt, dass eine beliebige Nummernzeichenfolge zulässig ist)
 
-  - DialNumberString (\*, ein Platzhalterzeichen, das angibt, dass eine gewählte Nummer zulässig ist)
+  - DialNumberString (\*, ein Platzhalterzeichen, das angibt, dass eine beliebige gewählte Nummer zulässig ist)
 
-  - Textcomment (\*ein Platzhalterzeichen, das angibt, dass ein beliebiger Textbefehl zulässig ist)
+  - Textcomment (\*, ein Platzhalterzeichen, das angibt, dass ein beliebiger Textbefehl zulässig ist)
 
 <div>
 
 
 > [!NOTE]  
-> Die Erstellung eines neuen Wählplans sorgt zusätzlich für die Erstellung einer standardmäßigen Postfachrichtlinie.
+> Durch das Erstellen eines neuen Wählplans wird auch eine standardmäßige Postfachrichtlinie erstellt.
 
 
 
 </div>
 
-Nachdem Sie den neuen Wählplan erstellt und konfiguriert haben, müssen Sie den neuen Wählplan dem Unified Messaging-Server hinzufügen und dann den Startmodus dieses Servers ändern. insbesondere müssen Sie den Startmodus auf "Dual" einstellen. Sie können diese beiden Aufgaben in der Exchange-Verwaltungsshell ausführen:
+Nachdem Sie die neuen Wähleinstellungen erstellt und konfiguriert haben, müssen Sie den neuen Wählplan dem Unified Messaging-Server hinzufügen und dann den Startmodus dieses Servers ändern. insbesondere müssen Sie den Startmodus auf "Dual" festlegen. Sie können diese beiden Aufgaben in der Exchange-Verwaltungsshell ausführen:
 
     Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 
-Nachdem der Unified Messaging-Server konfiguriert wurde, müssen Sie als nächstes das Cmdlet Enable-ExchangeCertificate ausführen, um sicherzustellen, dass Ihr Exchange-Zertifikat auf den Unified Messaging-Dienst angewendet wird:
+Nach dem Konfigurieren des Unified Messaging-Servers sollten Sie als nächstes das Cmdlet Enable-ExchangeCertificate ausführen, um sicherzustellen, dass Ihr Exchange-Zertifikat auf den Unified Messaging-Dienst angewendet wird:
 
     Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "EA5A332496CC05DA69B75B66111C0F78A110D22d" -Services "SMTP","IIS","UM"
 
@@ -83,23 +83,23 @@ Wenn die Konfiguration des UM-Servers abgeschlossen ist, können Sie den UM-Anru
 
 Da der Startmodus geändert wurde, müssen Sie den MsExchangeUMCR-Dienst auf dem Computer mit dem UM-Anrufrouter beenden und neu starten.
 
-Erstellen Sie zum Abschließen der Unified Messaging-Einrichtung eine UM-Postfachrichtlinie und aktivieren Sie dann mit dieser Richtlinie Benutzer für Unified Messaging. Sie können eine Postfachrichtlinie mit folgendem Befehl erstellen:
+Erstellen Sie zum Abschließen der Unified Messaging-Einrichtung eine UM-Postfachrichtlinie, und aktivieren Sie dann mit dieser Richtlinie Benutzer für Unified Messaging. Sie können eine Postfachrichtlinie mit folgendem Befehl erstellen:
 
     New-UMMailboxPolicy -Name "RedmondMailboxPolicy" -AllowedInCountryOrRegionGroups "Anywhere"
 
-Sie können Unified Messaging für einen Benutzer mit einem Befehl wie dem folgenden aktivieren:
+Sie können für einen Benutzer Unified Messaging mit einem Befehl wie diesem aktivieren:
 
     Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com" -Identity "litwareinc\kenmyer" -UMMailboxPolicy "RedmondMailboxPolicy"
 
-Im vorherigen Befehl steht der Parameter „Extensions“ für die Durchwahlnummer des Benutzers. In diesem Beispiel besitzt der Benutzer die Durchwahl 100.
+Im vorhergehenden Befehl steht der Parameter "Extensions" für die Durchwahlnummer des Benutzers. In diesem Beispiel besitzt der Benutzer die Durchwahl 100.
 
-Nach dem Aktivieren des Postfachs sollte der Benutzer „kenmyer@litwareinc.com“ Exchange Unified Messaging verwenden können. Sie können überprüfen, ob der Benutzer eine Verbindung mit Exchange um herstellen kann, indem Sie das Cmdlet [Test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity) in der lync Server-Verwaltungsshell ausführen:
+Nach dem Aktivieren des Postfachs sollte der Benutzer "kenmyer@litwareinc.com" Exchange Unified Messaging verwenden können. Sie können überprüfen, ob der Benutzer eine Verbindung mit Exchange um herstellen kann, indem Sie das [Test-csexumconnectivity "-](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMConnectivity) Cmdlet in der lync Server-Verwaltungsshell ausführen:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-Wenn ein zweiter Benutzer vorhanden ist, für den Unified Messaging aktiviert wurde, können Sie mit dem Cmdlet [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMVoiceMail) sicherstellen, dass dieser zweite Benutzer eine Voicemailnachricht für den ersten Benutzer hinterlassen kann.
+Wenn ein zweiter Benutzer ist, für den Unified Messaging aktiviert wurde, können Sie mit dem Cmdlet [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/Test-CsExUMVoiceMail) sicherstellen, dass dieser zweite Benutzer eine Voicemailnachricht für den ersten Benutzer hinterlassen kann.
 
     $credential = Get-Credential "litwareinc\pilar"
     

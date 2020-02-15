@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Tenants-Tabelle'
+title: 'Lync Server 2013: Mandantentabelle'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185309
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de776adeb8c280c5216b35cc8236a0834c14aa13
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b0d2459c169fb93520125ceef7a8076bd51343db
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746495"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006100"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="tenants-table-in-lync-server-2013"></a>Tenants-Tabelle in Lync Server 2013
+# <a name="tenants-table-in-lync-server-2013"></a>Tabelle "Mandanten" in lync Server 2013
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "41746495"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-28_
+_**Letztes Änderungsstand des Themas:** 2012-09-28_
 
-Die Tabelle Mandanten ist eine unterstützende Tabelle, in der eine Liste der verschiedenen Mandanten gespeichert ist. Jeder Datensatz in der Tabelle steht für einen Mandanten.
+Bei der Tenants-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird und in der eine Liste verschiedener Mandanten gespeichert ist. Jeder Datensatz in der Tabelle steht für einen Mandanten.
 
 <div>
 
 
 > [!NOTE]  
-> In der lokalen Bereitstellung verwendet CdR die integrierte Mandanten-ID, um einen anderen Authentifizierungstyp anzugeben, beispielsweise öffentliche im-Konnektivität, Federated und Anonymous.
+> Bei der lokalen Bereitstellung wird die integrierte Mandanten-ID von der Aufzeichnung von Kommunikationsdatensätzen (KDS) zur Angabe verschiedener Authentifizierungstypen verwendet, wie z. B. Verbindung mit öffentlichen Chatdiensten, Partner und Anonym.
 
 
 
@@ -67,21 +67,21 @@ Die Tabelle Mandanten ist eine unterstützende Tabelle, in der eine Liste der ve
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Mandanten</strong></p></td>
+<td><p><strong>TenantId</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutige Nummer, die diese Mandanten-ID kennzeichnet.</p></td>
+<td><p>Eindeutige Zahl, die diese Mandanten-ID identifiziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>TenantKey</strong></p></td>
-<td><p>nvarchar(256)</p></td>
+<td><p>nvarchar (256)</p></td>
 <td></td>
 <td><p>Zulässige Werte:</p>
 <ul>
 <li><p>00000000-0000-0000-0000-000000000000 – Enterprise</p></li>
-<li><p>00000000-0000-0000-0000-000000000001 – Federated</p></li>
-<li><p>00000000-0000-0000-0000-000000000002 – anonym</p></li>
-<li><p>00000000-0000-0000-0000-000000000003 – Konnektivität für öffentliche Chats</p></li>
+<li><p>00000000-0000-0000-0000-000000000001 – Verbund</p></li>
+<li><p>00000000-0000-0000-0000-000000000002 – Anonym</p></li>
+<li><p>00000000-0000-0000-0000-000000000003 – Verbindung mit öffentlichen Chatdiensten</p></li>
 </ul></td>
 </tr>
 </tbody>

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Erstellen einer Hosted Voicemail-Richtlinie auf Websiteebene'
+title: 'Lync Server 2013: Erstellen einer Hosted Voice Mail-Richtlinie auf Standortebene'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6aeae2e533bd62cf1f3e24e7ceff69b870ebc7b3
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b103369591846cc49b2c676a90103675fe09baec
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41740365"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42034867"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-a-site-level-hosted-voice-mail-policy-in-lync-server-2013"></a>Erstellen einer gehosteten Voicemail-Richtlinie auf Websiteebene in lync Server 2013
+# <a name="create-a-site-level-hosted-voice-mail-policy-in-lync-server-2013"></a>Erstellen einer Hosted Voice Mail-Richtlinie auf Standortebene in lync Server 2013
 
 </div>
 
@@ -35,37 +35,37 @@ ms.locfileid: "41740365"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-24_
+_**Letztes Änderungsstand des Themas:** 2012-09-24_
 
-Eine *Website* Richtlinie kann sich auf alle Benutzer auswirken, die sich auf der Website befinden, für die die Richtlinie definiert ist. Wenn ein Benutzer für den gehosteten Exchange um-Zugriff konfiguriert ist und keiner Richtlinie pro Benutzer zugewiesen wurde, gilt die Website Richtlinie. Wenn Sie keine Website Richtlinie bereitgestellt haben, gilt die globale Richtlinie.
+Eine *Standortrichtlinie* kann sich auf alle Benutzer auswirken, die an dem Standort verwaltet werden, für den die Richtlinie definiert wurde. Wenn ein Benutzer für den Zugriff auf gehostete Exchange UM-Dienste konfiguriert ist, ihm jedoch keine Benutzerrichtlinie zugewiesen wurde, findet die Standortrichtlinie Anwendung. Wenn Sie keine Standortrichtlinie bereitgestellt haben, wird die globale Richtlinie angewendet.
 
-Details zum Konfigurieren von Website Richtlinien finden Sie in der Dokumentation zur lync Server-Verwaltungsshell für die folgenden Cmdlets:
+Ausführliche Informationen zum Konfigurieren von Website Richtlinien finden Sie in der lync Server-Verwaltungsshell Dokumentation für die folgenden Cmdlets:
 
-  - [Neu – CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsHostedVoicemailPolicy)
+  - [New-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsHostedVoicemailPolicy)
 
-  - [Satz-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy)
+  - [Gruppe-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsHostedVoicemailPolicy)
 
   - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsHostedVoicemailPolicy)
 
 <div>
 
-## <a name="to-create-a-site-hosted-voice-mail-policy"></a>So erstellen Sie eine von der Website gehostete Voicemail-Richtlinie
+## <a name="to-create-a-site-hosted-voice-mail-policy"></a>So erstellen Sie eine Standortrichtlinie für gehostete Voicemail
 
-1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, klicken Sie auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
+1.  Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.
 
-2.  Führen Sie das Cmdlet New-CsHostedVoicemailPolicy aus, um die Richtlinie zu erstellen. Führen Sie beispielsweise den folgenden Befehl aus:
+2.  Führen Sie das Cmdlet "New-CsHostedVoicemailPolicy" aus, um die Richtlinie zu erstellen.  Führen Sie beispielsweise den folgenden Befehl aus:
     
         New-CsHostedVoicemailPolicy -Identity site:Redmond -Destination ExUM.fabrikam.com -Description "Hosted voice mail policy for the Redmond site." -Organization "corp1.litwareinc.com, corp2.litwareinc.com"
     
-    In diesem Beispiel wird eine gehostete Voicemail-Richtlinie mit Website Bereich erstellt, und die folgenden Parameter werden festgelegt:
+    In diesem Beispiel wird eine Richtlinie für gehostete Voicemail auf Standortebene erstellt. Hierbei werden die folgenden Parameter festgelegt:
     
-      - **Identity** gibt einen eindeutigen Bezeichner für die Richtlinie an, der den Bereich umfasst. Bei einer Richtlinie mit Website Bereich muss der Parameterwert Identity im Format `site:` * \<Namen\>* angegeben werden, beispielsweise. `site:Redmond`
+      - **Identity** gibt eine eindeutige ID für die Richtlinie an, die den Bereich einschließt. Für eine Richtlinie mit Website Bereich muss der Wert des Identity-Parameters im `site:` * \<Format\>Namen*angegeben werden, `site:Redmond`beispielsweise.
     
-      - **Ziel** gibt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des gehosteten Exchange um-Diensts an. Dieser Parameter ist optional, aber wenn Sie versuchen, einen Benutzer für gehostete Voicemail zu aktivieren, und die zugewiesene Richtlinie des Benutzers keinen Zielwert hat, schlägt die Aktivierung fehl.
+      - **Destination** gibt den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des gehosteten Exchange UM-Diensts an. Dieser Parameter ist optional. Wenn Sie jedoch versuchen, einen Benutzer für gehostete Voicemail zu aktivieren, und die zugewiesene Richtlinie des Benutzers nicht auf "Destination" festgelegt ist, tritt bei der Aktivierung ein Fehler auf.
     
-      - **Beschreibung** enthält optionale beschreibende Informationen zur Richtlinie.
+      - **Description** stellt eine optionale Beschreibung zur Richtlinie bereit.
     
-      - **Organisation** gibt eine durch trennzeichengetrennte Liste der Exchange-Mandanten an, die lync Server 2013-Benutzer sind. Jeder Mandant muss als FQDN dieses Mandanten für den gehosteten Exchange um-Dienst angegeben werden.
+      - **Organization** gibt eine durch trennzeichengetrennte Liste der Exchange-Mandanten an, die lync Server 2013 Benutzer zu Hause sind. Für jeden Mandanten muss der vollqualifizierte Domänenname des Mandanten im gehosteten Exchange-Dienst angegeben werden.
 
 </div>
 

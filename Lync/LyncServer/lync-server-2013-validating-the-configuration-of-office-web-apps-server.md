@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Überprüfen der Konfiguration von Office Web Apps Server'
+title: 'Lync Server 2013: Überprüfen der Konfiguration von Office-webapps Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 541929233eff5e401b3998aa84e463e2640378c0
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 34c774411fd825dd01595ef1e51ffa9c65c6eb8f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763569"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007394"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="validating-the-configuration-of-office-web-apps-server-in-lync-server-2013"></a>Überprüfen der Konfiguration von Office Web Apps Server in lync Server 2013
+# <a name="validating-the-configuration-of-office-web-apps-server-in-lync-server-2013"></a>Überprüfen der Konfiguration von Office-webapps Server in lync Server 2013
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "41763569"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-04-22_
+_**Letztes Änderungsstand des Themas:** 2014-04-22_
 
-Nachdem Office Web Apps Server zur Topologie hinzugefügt wurde und die Topologie veröffentlicht wurde, sollten im lync Server-Ereignisprotokoll zwei neue Ereignisprotokoll Ereignisse angezeigt werden. Zunächst sollte ein ls-Daten MCU-Ereignis (Ereignis-ID 41034) hinzugefügt werden. Dieses Ereignis meldet, dass der Office Web Apps-Server erkannt wurde:
+Nachdem Office webapps Server zur Topologie hinzugefügt wurde und diese Topologie veröffentlicht wurde, sollten im lync Server Ereignisprotokoll zwei neue Ereignisprotokoll Ereignisse angezeigt werden. Zunächst sollte ein ls Data MCU-Ereignis (Ereigniskennung 41034) hinzugefügt werden; Dieses Ereignis meldet, dass der Office-webapps-Server erkannt wurde:
 
-**Der Webkonferenzserver Office Web Apps-Server wurde ermittelt, PowerPoint-Inhalte sind aktiviert.**
+**Webkonferenzserver Office-webapps-Server wird ermittelt, PowerPoint-Inhalte sind aktiviert.**
 
-Außerdem sollte ein weiteres "LS Data MCU"-Ereignis angezeigt werden (Ereignis-ID 41032), das Office Web Apps Server-URLs zurückmeldet. Beispielsweise sollten Meldungen wie etwa folgende angezeigt werden:
+Darüber hinaus sollte ein weiteres ls Data MCU-Ereignis (Ereigniskennung 41032) angezeigt werden, das Office-webapps-Server-URLs zurückgibt. Beispielsweise sollten Sie etwas Ähnliches sehen:
 
-**Die Ermittlung des Webkonferenzservers Office Web Apps-Server war erfolgreich.**
+**Die Office-webapps-Server Ermittlung für den Webkonferenzserver ist erfolgreich.**
 
-**Office Web Apps Server-interne Referenten Seite:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed=**
+**Interne Office-webapps-Server-Referenten Seite:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed=**
 
-**Office Web Apps Server-Seite für interne Teilnehmer:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&=**
+**Office-webapps-Server-interne Teilnehmerseite:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&=**
 
-**Office Web Apps Server-externe Referenten Seite:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed**
+**Externe Referenten Seite von Office-webapps Server:https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0\&embed**
 
-**Office Web Apps Server-Seite für interne Teilnehmer:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&**
+**Office-webapps-Server-interne Teilnehmerseite:https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0\&embed=true&**
 
-Wenn ein ls-Daten MCU-Ereignis mit der Ereignis-ID von 41033 angezeigt wird, bedeutet dies, dass die Server Ermittlung von Office Web Apps fehlgeschlagen ist. In diesem Fall wird Microsoft lync Server 2013 so oft wie erforderlich versuchen, um den neu konfigurierten Office Web Apps-Server zu entdecken. Wenn der Ermittlungsvorgang wiederholt fehlschlägt, sollten Sie Office Web Apps Server aus Ihrem Topologie-Dokument entfernen, die aktualisierte Topologie veröffentlichen und dann versuchen, Office Web Apps Server wieder zur Topologie hinzuzufügen, nachdem die Verbindungsprobleme behoben wurden.
+Wenn ein ls Data MCU-Ereignis mit der Ereignis-ID 41033 angezeigt wird, bedeutet dies, dass die Ermittlung von Office-webapps-Servern fehlgeschlagen ist. In diesem Fall versucht Microsoft lync Server 2013 so oft wie erforderlich, den neu konfigurierten Office-webapps-Server zu ermitteln. Wenn der Ermittlungsprozess wiederholt fehlschlägt, sollten Sie Office-webappsserver aus Ihrem Topologie-Dokument entfernen, die aktualisierte Topologie veröffentlichen und dann Office-webapps-Server wieder der Topologie hinzufügen, nachdem die Verbindungsprobleme behoben wurden.
 
-Wenn Office Web Apps Server anscheinend ordnungsgemäß konfiguriert wurde und vom Ermittlungsprozess erkannt wurde, können Sie überprüfen, ob der Office Web Apps-Server wie erwartet funktioniert, indem Sie eine PowerPoint-Präsentation zwischen zwei Microsoft lync 2013-Clients freigeben. Wenn Benutzer a die PowerPoint-Präsentation laden und anzeigen kann und wenn Benutzer B dann an der Besprechung teilnehmen und diese Präsentation sehen kann, funktioniert der Office Web Apps-Server.
+Wenn Office-webapps-Server anscheinend ordnungsgemäß konfiguriert ist und durch den Ermittlungsprozess erkannt wurde, können Sie sicherstellen, dass Office-webapps Server wie erwartet funktioniert, indem Sie eine PowerPoint-Präsentation zwischen einem Paar Microsoft lync 2013 Clients freigeben. Wenn Benutzer a die PowerPoint-Präsentation laden und anzeigen kann und wenn Benutzer B dann an der Besprechung teilnehmen und diese Präsentation sehen kann, funktioniert Office-webapps-Server.
 
-Auch wenn Office Web Apps Server anscheinend richtig konfiguriert ist, können Sie möglicherweise die Fehlermeldung "einige Freigabefeatures sind aufgrund von Server Verbindungsproblemen nicht verfügbar" erhalten, wenn Sie versuchen, eine PowerPoint-Präsentation freizugeben. Wenn diese Fehlermeldung angezeigt wird, sollten Sie den Front-End-Server (oder die Server) neu starten, die dem neuen Office Web Apps-Server zugeordnet sind.
+Selbst wenn Office-webapps-Server anscheinend ordnungsgemäß konfiguriert ist, könnten Sie möglicherweise die Fehlermeldung "einige Freigabefunktionen sind aufgrund von Server Verbindungsproblemen nicht verfügbar" erhalten, wenn Sie versuchen, eine PowerPoint-Präsentation freizugeben. Wenn Sie diese Fehlermeldung erhalten, sollten Sie den Front-End-Server (oder Server) neu starten, der dem neuen Office-webapps-Server zugeordnet ist.
 
 </div>
 

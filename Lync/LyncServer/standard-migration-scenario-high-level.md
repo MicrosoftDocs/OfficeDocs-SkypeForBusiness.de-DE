@@ -1,5 +1,5 @@
 ---
-title: Standardmigrationsszenario – Übersicht
+title: Standard Migrationsszenario – High-Level
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68ff7110cc7e14ccc76ab7d0c0125e723477934a
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 34084de0af0971018043f230c260adb514f1d460
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41741955"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035671"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="standard-migration-scenario---high-level"></a>Standardmigrationsszenario – Übersicht
+# <a name="standard-migration-scenario---high-level"></a>Standard Migrationsszenario – High-Level
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41741955"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-01-30_
+_**Letztes Änderungsstand des Themas:** 2013-01-30_
 
-Verwenden Sie die folgenden Elemente als Ausgangspunkt für die Migration von lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppenchat zu lync Server 2013, beständiger Chat Server. Der Standard-Migrationspfad für lync Server 2013 lautet wie folgt:
+Verwenden Sie die folgenden Elemente als Ausgangspunkt für die Migration lync Server 2010, Gruppenchats oder Office Communications Server 2007 R2 Gruppenchats zu lync Server 2013 persistent Chat Server. Der standardmäßige lync Server 2013 Migrationspfad lautet wie folgt:
 
-  - Ihre Organisation hat zuvor lync Server 2010, Gruppen-Chat oder Office Communications Server 2007 R2-Gruppen-Chat bereitgestellt, und Sie möchten lync Server 2013, beständiger Chat Server bereitstellen.
+  - Ihre Organisation hat zuvor lync Server 2010, Gruppenchat oder Office Communications Server 2007 R2 Gruppenchat bereitgestellt und Sie möchten lync Server 2013 Server für beständigen Chat bereitstellen.
 
   - Stellen Sie lync Server 2013 bereit, und stellen Sie dann den Server Pool für beständigen Chat bereit.
 
-  - Vorbereiten und planen Sie die Migration Ihrer beständigen Chatrooms, und bestimmen Sie einen geeigneten Zeitpunkt für das Herunterfahren des Systems für die Migration.
+  - Vorbereiten und Planen der Migration Ihrer beständigen Chatrooms und bestimmen eines geeigneten Zeitraums zum Herunterfahren des Systems für die Migration.
 
-  - Führen Sie die Windows PowerShell-Cmdlets für die Migration aus (**Export-CsPersistentChatData** und **Import-CsPersistentChatData**), um Inhalte in den beständigen Chat Server zu verschieben.
+  - Führen Sie die Windows PowerShell-Cmdlets für die Migration aus (**Export-CsPersistentChatData** und **Import-CsPersistentChatData**), um Inhalte auf den Server für beständigen Chat zu migrieren.
 
-  - Überprüfen Sie, ob die Migration erfolgreich war.
+  - Stellen Sie sicher, dass die Migration erfolgreich war.
 
-  - Außerbetriebnahme Ihrer Legacy Bereitstellung
+  - Außer Betrieb Ihrer Legacy-Bereitstellung.
 
-  - Konfigurieren Sie den Server für beständigen Chat, damit Legacyclients eine Verbindung mit lync Server 2013, persistent Chat Server herstellen können. Dies ist erforderlich, da es Zeit braucht, um neue Clients bereitzustellen, und Sie möchten, dass vorhandene Benutzer mit älteren Clients so schnell wie möglich auf Ihre Chatrooms zugreifen können.
+  - Konfigurieren Sie den Server für beständigen Chat, damit ältere Clients eine Verbindung mit lync Server 2013, beständigen Chat Server herstellen können. Dies ist erforderlich, da die Bereitstellungneuer Clients Zeit in Anspruch nimmt und Sie möchten, dass vorhandene Benutzer mit älteren Clients so schnell wie möglich auf Ihre Chatrooms zugreifen können.
 
-  - Stellen Sie neue Clients bereit, während Sie weiterhin sicherstellen, dass Mitarbeiter mit Legacy-Gruppen-Chats (Clients) in Ihre Chatrooms gelangen können.
+  - Stellen Sie neue Clients bereit, und stellen Sie sicher, dass Mitarbeiter mit Legacy Gruppenchat (Clients) in Ihre Chatrooms gelangen können.
 
 </div>
 

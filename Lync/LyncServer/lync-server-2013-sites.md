@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013-Standorte
+title: Lync Server 2013 Websites
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48183233
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2e5dc3323ad14f02a5b24258878512707f66f19
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: db3e420a1fad89692133df4422138b43d4d7210e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41764471"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987030"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="lync-server-sites-for-lync-server-2013"></a>Lync Server-Standorte für Lync Server 2013
+# <a name="lync-server-sites-for-lync-server-2013"></a>Lync Server Websites für lync Server 2013
 
 </div>
 
@@ -35,35 +35,35 @@ ms.locfileid: "41764471"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-16_
+_**Letztes Änderungsstand des Themas:** 2012-10-16_
 
-In lync Server definieren Sie *Websites* in Ihrem Netzwerk, die lync Server-Komponenten enthalten. Bei einem Standort handelt es sich um einen Satz von Computern, die durch ein Hochgeschwindigkeitsnetzwerk mit niedriger Latenz miteinander verbunden sind, beispielsweise durch ein einzelnes lokales Netzwerk (Local Area Network, LAN) oder zwei Netzwerke, die über ein Hochgeschwindigkeits-Glasfasernetzwerk verbunden sind. Beachten Sie, dass lync Server-Websites ein separates Konzept von Active Directory-Domänendienst Websites und Microsoft Exchange Server-Websites sind. Ihre lync Server-Websites müssen Ihren Active Directory-Standorten nicht entsprechen.
+In lync Server definieren Sie *Websites* in Ihrem Netzwerk, die lync Server Komponenten enthalten. Bei einem Standort handelt es sich um einen Satz von Computern, die durch ein Hochgeschwindigkeitsnetzwerk mit niedriger Latenz miteinander verbunden sind, beispielsweise durch ein einzelnes lokales Netzwerk (Local Area Network, LAN) oder zwei Netzwerke, die über ein Hochgeschwindigkeits-Glasfasernetzwerk verbunden sind. Beachten Sie, dass lync Server Websites ein separates Konzept von Active Directory-Domänendienste Websites und Exchange Server Websites sind. Ihre lync Server Websites müssen nicht Ihren Active Directory Websites entsprechen.
 
 <div>
 
-## <a name="site-types"></a>Websitetypen
+## <a name="site-types"></a>Standorttypen
 
-Jede Website ist entweder ein *zentraler Standort*, der mindestens einen Front-End-Pool oder einen Standard Edition-Server oder eine *Verzweigungs Website*enthält. Jede Verzweigungs Website ist genau einem zentralen Standort zugeordnet, und die Benutzer an der Zweigstelle erhalten den größten Teil ihrer lync-Server Funktionen von den Servern auf dem zugehörigen zentralen Standort.
+Jeder Standort ist entweder ein *zentraler Standort*, auf dem mindestens eine Front-End-Pool oder ein Standard Edition-Server oder ein Zweigstellen *Standort*vorhanden ist. Jeder Zweigstellenstandort ist genau einem zentralen Standort zugeordnet, und die Benutzer am Zweigstellenstandort erhalten den Großteil ihrer lync Server Funktionalität von den Servern am zugeordneten zentralen Standort.
 
-Jede Verzweigungs Website enthält eine der folgenden Optionen:
+Jeder Zweigstellenstandort umfasst eine der folgenden Komponenten:
 
-  - Eine *Survivable Branch Appliance (SBA)*, die ein branchenüblicher Blade-Server mit einer lync Server-Registrierungsstelle und einem auf Windows Server ausgeführten Vermittlungsserver ist. Die Survivable Branch-Appliance enthält auch ein PSTN-Gateway (Public Switched Telephone Network). Die Survivable Branch-Appliance ist für Zweigstellen mit 25 und 1000-Benutzern konzipiert.
+  - Ein *Survivable Branch Appliance (SBA)*, bei dem es sich um einen standardmäßigen Blade-Server mit einer lync Server Registrierungsstelle und einem Vermittlungsserver, der unter Windows Server läuft, handelt. Das Survivable Branch Appliance enthält auch ein PSTN-Gateway (Public Switched Telephone Network). Das Survivable Branch Appliance wurde für Zweigstellen mit 25 bis 1000 Benutzern entwickelt.
 
-  - Ein *Survivable Branch Server (SBS)*, ein Server, auf dem Windows Server ausgeführt wird, der die angegebenen Hardwareanforderungen erfüllt und auf dem die lync Server Registrar-und Mediation Server-Software installiert ist. Sie muss mit einem PSTN-Gateway oder einem SIP-Trunk an einen Telefondienstanbieter angeschlossen werden. Der Survivor-Branch-Server ist für Zweigstellen mit zwischen 1000 und 5000-Benutzern konzipiert.
+  - Ein *Survivable Branch Server (SBS)*, bei dem es sich um einen Server mit Windows Server handelt, der die angegebenen Hardwareanforderungen erfüllt und auf dem lync Server Registrierungsstelle und Vermittlungsserver Software installiert ist. Der Server muss entweder über ein PSTN-Gateway oder einen SIP-Trunk mit einem Telefoniedienstanbieter verbunden sein. Das Survivable Branch Server wurde für Zweigstellen mit 1000-und 5000-Benutzern entwickelt.
 
-  - Ein PSTN-Gateway und optional ein *Vermittlungs Server*. Details zu dieser und anderen Serverrollen finden Sie unter [Serverrollen in lync Server 2013](lync-server-2013-server-roles.md).
+  - Ein PSTN-Gateway und optional ein *Vermittlungsserver*. Ausführliche Informationen zu dieser und anderen Serverrollen finden Sie unter [Serverrollen in lync Server 2013](lync-server-2013-server-roles.md).
 
-Eine Zweigstelle mit einer stabilen WAN-Verbindung (Wide Area Network) zu einem zentralen Standort kann die dritte Option (ein PSTN-Gateway) und optional einen Vermittlungs Server verwenden. Zweigstellenstandorte mit unelastischen Links sollten eine Survivable Branch-Appliance oder einen Survivable Branch-Server verwenden, der in Zeiten von Wide-Area-Netzwerkfehlern Ausfallsicherheit bietet. Beispielsweise können Benutzer in einer Website mit einer überlebensfähigen Branch-Appliance oder einem Überlebenden Branch-Server weiterhin Enterprise-VoIP-Anrufe tätigen und empfangen, wenn das WAN, das die Verzweigungs Website mit dem zentralen Standort verbindet, ausgefallen ist. Ausführliche Informationen zur Survivable Branch-Appliance, dem Survivable Branch-Server und zur Widerstandsfähigkeit finden Sie unter [Planen der Enterprise-VoIP-Resilienz in lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md) in der Planungsdokumentation.
+Ein Zweigstellenstandort mit einer ausfallsicheren WAN-Verbindung (Wide Area Network) zu einem zentralen Standort kann die dritte Option nutzen – ein PSTN-Gateway und optional einen Vermittlungsserver. Zweigstellenstandorte mit eher unelastischen Links sollten eine Survivable Branch Appliance oder Survivable Branch Server verwenden, die in Zeiten von weit reichenden Netzwerkfehlern Ausfallsicherheit bieten. Beispielsweise können Benutzer bei einer Website mit einer Survivable Branch Appliance oder bereitgestellten Survivable Branch Server weiterhin Enterprise-VoIP-Anrufe tätigen und empfangen, wenn das WAN, das den Zweigstellenstandort mit dem zentralen Standort verbindet, nicht aktiv ist. Ausführliche Informationen zu Survivable Branch Appliance, Survivable Branch Server und Ausfallsicherheit finden Sie in der Planungsdokumentation unter [Planning for Enterprise Voice Resilienz in lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md) .
 
 </div>
 
 <div>
 
-## <a name="site-topologies"></a>Website Topologien
+## <a name="site-topologies"></a>Standorttopologien
 
-Ihre Bereitstellung muss mindestens einen zentralen Standort umfassen und NULL für viele Verzweigungs Websites enthalten. Jede Verzweigungs Website ist mit einem zentralen Standort verbunden. Der zentrale Standort stellt die lync-Server Dienste für die Zweigstelle bereit, die nicht lokal auf der Zweigstelle gehostet werden, beispielsweise Anwesenheitsinformationen und Konferenzen.
+Ihre Bereitstellung muss mindestens einen zentralen Standort enthalten und kann einen oder mehrere Zweigstellenstandorte umfassen. Jeder Zweigstellenstandort ist mit einem zentralen Standort verbunden. Der zentrale Standort stellt die lync Server Dienste für den Zweigstellenstandort bereit, die nicht lokal am Zweigstellenstandort gehostet werden, beispielsweise Anwesenheitsinformationen und Konferenzen.
 
-Wenn Sie über mehrere Websites verfügen, können Sie die Front-End-Pools an verschiedenen Standorten kombinieren, um Disaster Recovery-Fähigkeiten zu ermöglichen. Ausführliche Informationen finden Sie unter [Support für höhere Verfügbarkeit und Disaster Recovery in lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md).
+Wenn Sie über mehrere Standorte verfügen, können Sie die Front-End-Pools an unterschiedlichen Standorten zu Paaren verknüpfen, um die Notfallwiederherstellung zu ermöglichen. Ausführliche Informationen finden Sie unter [Support für hohe Verfügbarkeit und Notfallwiederherstellung in lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md).
 
 </div>
 
@@ -72,11 +72,11 @@ Wenn Sie über mehrere Websites verfügen, können Sie die Front-End-Pools an ve
 ## <a name="see-also"></a>Siehe auch
 
 
-[Serverrollen in Lync Server 2013](lync-server-2013-server-roles.md)  
-[Unterstützung für hohe Verfügbarkeit und Notfallwiederherstellung in Lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md)  
+[Server Rollen in lync Server 2013](lync-server-2013-server-roles.md)  
+[Unterstützung für hohe Verfügbarkeit und Notfallwiederherstellung in lync Server 2013](lync-server-2013-high-availability-and-disaster-recovery-support.md)  
 
 
-[Planen der Ausfallsicherheit für Enterprise-VoIP in Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md)  
+[Planen der Ausfallsicherheit für Enterprise-VoIP in lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md)  
   
 
 </div>

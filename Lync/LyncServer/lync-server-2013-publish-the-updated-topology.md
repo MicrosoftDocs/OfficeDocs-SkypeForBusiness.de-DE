@@ -12,20 +12,20 @@ ms:contentKeyID: 48184203
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4500d12c7b0a054ccce910f27c80f9aaa83eccaf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 5a0a690d38d6f7d348cdaf12503b08027bc4c0f4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41747065"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41987320"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="publish-the-updated-topology-in-lync-server-2013"></a>Veröffentlichen der aktualisierten Topologie in Lync Server 2013
+# <a name="publish-the-updated-topology-in-lync-server-2013"></a>Veröffentlichen der aktualisierten Topologie in lync Server 2013
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "41747065"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-01_
+_**Letztes Änderungsstand des Themas:** 2012-10-01_
 
-Nachdem Sie Ihre Topologie im Topologie-Generator aktualisiert haben, müssen Sie die Topologie im zentralen Verwaltungsspeicher veröffentlichen, bevor Sie den Server für beständigen Chat Konfigurieren und verwenden können. Schreibgeschützte Kopien der Daten werden auf alle Server in der Topologie repliziert, sodass diese Server mit der Topologie und anderen Konfigurationsänderungen synchronisiert sind.
+Nach dem Aktualisieren der Topologie im Topologie-Generator müssen Sie die Topologie im zentralen Verwaltungsspeicher veröffentlichen, bevor Sie den Server für beständigen Chat Konfigurieren und verwenden können. Schreibgeschützte Kopien der Daten werden auf alle Server in der Topologie repliziert, sodass diese Server mit der Topologie und anderen Konfigurationsänderungen synchronisiert sind.
 
 <div>
 
 ## <a name="to-publish-an-updated-topology"></a>So veröffentlichen Sie eine aktualisierte Topologie
 
-Bevor Sie Ihre Topologie veröffentlichen, installieren Sie die Datenbanken für beständigen Chat Server. Mithilfe des Topologie-Generators können Sie Datenbanken installieren, indem Sie **Aktion** und **Datenbank installieren**auswählen.
+Installieren Sie vor dem Veröffentlichen der Topologie die Datenbanken für den Server für beständigen Chat. Verwenden Sie den Topologie-Generator, um Datenbanken zu installieren, indem Sie **Aktion** auswählen und **Datenbank installieren**.
 
-1.  Melden Sie sich auf einem Computer, auf dem lync Server 2013 ausgeführt wird oder auf dem die lync Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied sowohl der Gruppe der **Domänenadministratoren** als auch der **RTCUniversalServerAdmins** -Gruppe ist. und die über die Berechtigung "Vollzugriff" (also lesen, schreiben und ändern) im Dateispeicher für den Dateispeicher für beständigen Chat Server verfügt (damit der Topologie-Generator die erforderlichen DACLs (Discretionary Access Control Lists) oder ein Konto mit entsprechenden Benutzerrechten konfigurieren kann.
+1.  Melden Sie sich auf einem Computer, auf dem lync Server 2013 oder auf dem die lync Server Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der Gruppe " **Domänen-Admins** " und der **RTCUniversalServerAdmins** -Gruppe ist. und verfügt über Vollzugriff auf den Dateispeicher, der für den Dateispeicher für persistent Chat Server verwendet werden kann (also Lese-, Schreib-und Änderungsberechtigungen), sodass der Topologie-Generator die erforderlichen DACLs (Discretionary Access Control Lists) oder ein Konto mit gleichwertigen Benutzerrechten konfigurieren kann.
 
-2.  Starten Sie den Topologie-Generator. Wählen Sie **Topologie aus vorhandener Bereitstellung herunterladen**aus, oder **Öffnen Sie die Topologie aus einer lokalen Datei** , wenn Sie Sie lokal gespeichert haben.
+2.  Starten Sie den Topologie-Generator. Wählen Sie **Topologie aus einer vorhandenen Bereitstellung herunterladen** oder, wenn Sie die Topologie lokal gespeichert haben, **Topologie aus einer lokalen Datei öffnen** aus.
 
 3.  Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf **lync Server 2013**, und klicken Sie dann auf **Topologie veröffentlichen**.
 
@@ -59,7 +59,7 @@ Bevor Sie Ihre Topologie veröffentlichen, installieren Sie die Datenbanken für
     
 
     > [!IMPORTANT]  
-    > Nachdem Sie die Topologie veröffentlicht haben, müssen Sie die Unterstützung für beständigen Chat Server konfigurieren, bevor Inhalte archiviert werden können.
+    > Nach dem Veröffentlichen der Topologie müssen Sie die Unterstützung für den Server für beständigen Chat konfigurieren, bevor Inhalte archiviert werden können.
 
     
     </div>

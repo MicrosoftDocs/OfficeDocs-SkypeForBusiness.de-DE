@@ -1,5 +1,5 @@
 ---
-title: Verbinden des Pilotpools mit Edgeservern der Vorversion
+title: Verbinden des pilotpools mit Legacy-Edge-Servern
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 09858b03c787af034790c94bcbf12ca6ea7ceecf
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 7f39f3444c0d660a1ed73da566df6b5b348171f9
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41723145"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006501"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Verbinden des Pilotpools mit Edgeservern der Vorversion
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Verbinden des pilotpools mit Legacy-Edge-Servern
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "41723145"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-Nach der Bereitstellung von lync Server 2013 ist eine Föderations Route für diesen Standort nicht konfiguriert. Um die von Office Communications Server 2007 R2 verwendete Federated-Route zu verwenden, muss lync Server 2013 für die Verwendung dieser Route konfiguriert sein.
+Nach der Bereitstellung lync Server 2013 ist eine Verbund Route für diesen Standort nicht konfiguriert. Um die von Office Communications Server 2007 R2 verwendete Verbund Route verwenden zu können, müssen lync Server 2013 für die Verwendung dieser Route konfiguriert sein.
 
-Um die lync Server 2013-Website für die Verwendung des Directors und des Edge-Servers des BackCompatSite zu aktivieren, verwenden Sie den Topologie-Generator, um den Legacy-Edge-Pool zuzuordnen.
+Damit die lync Server 2013 Website den Director und Edgeserver des BackCompatSite verwenden kann, ordnen Sie die Legacy Edgepool mithilfe des Topologie-Generators zu.
 
 <div>
 
-## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>So ordnen Sie den Legacy-Edge-Pool mithilfe des Topologie-Generators zu
+## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>So ordnen Sie den Edgepool der Vorgängerversion mithilfe des Topologie-Generators zu
 
-1.  Öffnen Sie die Topologie des pilotpools im Topologie-Generator.
+1.  Öffnen Sie den Pilotpool im Topologie-Generator.
 
-2.  Wählen Sie Ihre lync Server 2013-Website aus.
+2.  Wählen Sie Ihre lync Server 2013 Website aus.
 
 3.  Klicken Sie im Menü **Aktion** auf **Eigenschaften bearbeiten**.
 
-4.  Wählen Sie unter **Website Verbund-Routenzuordnung**die Option **SIP-Verbund aktivieren**aus, und wählen Sie dann den Office Communications Server 2007 R2-Director oder den Office Communications Server 2007 R2-Edgeserver aus, wenn kein Director aufgeführt ist.
+4.  Wählen Sie unter **Standort Verbund Routen Zuweisung**die Option SIP-Partner **Verbund aktivieren**aus, und wählen Sie dann den Office Communications Server 2007 R2 Director oder den Office Communications Server 2007 R2 Edgeserver, wenn kein Director aufgeführt ist.
     
     ![Dialogfeld "Eigenschaften bearbeiten", Seite "Verbund Route"](images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "Dialogfeld "Eigenschaften bearbeiten", Seite "Verbund Route"")  
 
-5.  Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.
+5.  Klicken Sie auf **OK**, um die Seite **Eigenschaften bearbeiten** zu schließen.
 
-6.  Navigieren Sie im Topologie-Generator unter dem lync Server 2013-Knoten zu den Front-End-Pools **Standard Edition Server** oder **Enterprise Edition**, klicken Sie mit der rechten Maustaste auf den Pool, und klicken Sie dann auf **Eigenschaften bearbeiten**.
+6.  Navigieren Sie im Topologie-Generator unter dem Knoten lync Server 2013 zu den Front-End-Pools **Standard Edition-Server** oder **Enterprise Edition**, klicken Sie mit der rechten Maustaste auf den Pool, und klicken Sie dann auf **Eigenschaften bearbeiten**.
 
-7.  Aktivieren Sie unter **Zuordnungen**das Kontrollkästchen neben **Edge-Pool zuordnen (für Medienkomponenten)**.
+7.  Aktivieren Sie unter **Zuordnungen** das Kontrollkästchen neben **Edgepool zuordnen (für Medienkomponenten)**.
 
-8.  Wählen Sie in der Liste die Edge-Server-Oberfläche für den BackCompatSite aus.
+8.  Wählen Sie in der Liste die Edgeserverschnittstelle für BackCompatSite aus.
     
     ![Dialogfeld "Eigenschaften bearbeiten", Seite "Allgemein"](images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "Dialogfeld "Eigenschaften bearbeiten", Seite "Allgemein"")  
 
-9.  Klicken Sie auf **OK** , um die Seite **Eigenschaften bearbeiten** zu schließen.
+9.  Klicken Sie auf **OK**, um die Seite **Eigenschaften bearbeiten** zu schließen.
 
-10. Wählen Sie im **Topologie-Generator**den obersten Knoten, **lync Server**, aus.
+10. Wählen Sie im Topologie-Generator**** den obersten Knoten aus, **Lync Server**.
 
-11. Klicken Sie im Menü **Aktion** auf **Topologie veröffentlichen**, und klicken Sie dann auf **weiter**.
+11. Klicken Sie im Menü **Aktion** auf **Topologie veröffentlichen**, und klicken Sie dann auf **Weiter**.
 
-12. Klicken Sie nach Abschluss des **Veröffentlichungs-Assistenten** auf **Fertig stellen**.
+12. Klicken Sie nach Abschluss des **Assistenten für die Veröffentlichung** auf **Fertig stellen**.
 
 </div>
 

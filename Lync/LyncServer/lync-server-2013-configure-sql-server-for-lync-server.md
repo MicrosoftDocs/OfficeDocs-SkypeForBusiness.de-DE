@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Konfigurieren von SQL Server für Lync Server'
+title: 'Lync Server 2013: Konfigurieren von SQL Server für lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48183869
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efdd9d8fa7b010b420c7c532d422c9b52b6d69ba
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1e52534744849e41fa08895bd114833892f4b8a2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756969"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035187"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,27 +35,27 @@ ms.locfileid: "41756969"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-08-12_
+_**Letztes Änderungsstand des Themas:** 2013-08-12_
 
-In den Themen in diesem Abschnitt wird erläutert, wie Sie SQL Server für die Verwendung in einer Enterprise-Bereitstellung von lync Server bereitstellen und konfigurieren. Standard Edition-Server verwenden eine SQL Server Express-Version von SQL Server, die für die Arbeitslasten eines Standard Edition-Servers die richtige Größe hat.
+In den Themen in diesem Abschnitt wird erläutert, wie Sie SQL Server bereitstellen und konfigurieren, die in einer Enterprise-Bereitstellung von lync Server verwendet werden. Standard Edition-Server verwenden eine zusammengefasste SQL Server Express Version von SQL Server, die für die Arbeitslasten eines Standard Edition-Server richtig dimensioniert ist.
 
-Der lync Server 2013 Central-Verwaltungsspeicher enthält Benutzerdaten für alle Enterprise Edition-Server in einem Pool und ist für den Standort auf einem auf einem SQL Server basierenden Back-End-Server konzipiert. Als zentrales Repository kann der zentrale Verwaltungsspeicher nicht auf demselben Computer wie jede andere lync Server 2013-Rolle installiert werden. Der zentrale Verwaltungsspeicher kann sich nicht auf einem Enterprise Edition-Server im Pool befinden. Der zentrale Verwaltungsspeicher wird automatisch erstellt, wenn Sie die Topologie zum ersten Mal veröffentlichen, und wählen Sie aus, um die Datenbanken zu erstellen. Auf dem Computer, den Sie als Back-End-Server festlegen, muss bereits die SQL Server-Datenbanksoftware ausgeführt werden, damit die Installation erfolgreich durchgeführt werden kann.
+Der lync Server 2013 zentrale Verwaltungsspeicher speichert Benutzerdaten für alle Enterprise Edition-Server in einem Pool und ist auf einem SQL Server basierten Back-End-Server ausgelegt. Als zentrales Repository kann der zentrale Verwaltungsspeicher nicht auf demselben Computer installiert werden wie eine beliebige andere lync Server 2013 Rolle. Der zentrale Verwaltungsspeicher kann sich nicht auf einem Enterprise Edition-Server im Pool befinden. Der zentrale Verwaltungsspeicher wird automatisch erstellt, wenn Sie die Topologie zum ersten Mal veröffentlichen, und wählen Sie aus, um die Datenbanken zu erstellen. Der Computer, den Sie als Back-End-Server festlegen, muss bereits SQL Server Datenbanksoftware ausgeführt werden, damit die Installation erfolgreich abgeschlossen werden kann.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Platzierung von SQL Server-Daten und Protokolldatei für Lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md)
+  - [SQL Server der Daten-und Protokolldatei Platzierung für lync Server 2013](lync-server-2013-sql-server-data-and-log-file-placement.md)
 
-  - [Konfigurieren von SQL Server in Lync Server 2013](lync-server-2013-configure-sql-server.md)
+  - [Konfigurieren von SQL Server in lync Server 2013](lync-server-2013-configure-sql-server.md)
 
-  - [Bereitstellungsberechtigungen für SQL Server in Lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md)
+  - [Bereitstellungsberechtigungen für SQL Server in lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md)
 
-  - [Installieren von Datenbanken mithilfe der Lync Server-Verwaltungsshell in Lync Server 2013](lync-server-2013-database-installation-using-lync-server-management-shell.md)
+  - [Datenbankinstallation mit lync Server-Verwaltungsshell in lync Server 2013](lync-server-2013-database-installation-using-lync-server-management-shell.md)
 
-  - [Grundlegendes zu den Firewallanforderungen für SQL Server mit Lync Server 2013](lync-server-2013-understanding-firewall-requirements-for-sql-server.md)
+  - [Grundlegendes zu Firewall-Anforderungen für SQL Server mit lync Server 2013](lync-server-2013-understanding-firewall-requirements-for-sql-server.md)
 
-  - [Konfigurieren des SQL Server-Clusters für lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)
+  - [Konfigurieren von SQL Server Clustering für lync Server 2013](lync-server-2013-configure-sql-server-clustering.md)
 
 </div>
 

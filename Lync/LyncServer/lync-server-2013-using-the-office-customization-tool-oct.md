@@ -12,16 +12,16 @@ ms:contentKeyID: 48183654
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b82db655a0b55858de9cdc32efd1a3f110247b54
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b2203c4169075b7b906156bf3436e61011f873a4
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743845"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007474"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,25 +35,25 @@ ms.locfileid: "41743845"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-Das Office-Anpassungstool (OAT) ist Teil des Setup-Programms und wird als Tool für viele Anpassungen empfohlen. Wenn Sie das OAT verwenden, passen Sie Office an, und speichern Sie Ihre Anpassungen in einer MSP-Datei für die Setup Anpassung. Sie fügen die Datei im Ordner Updates auf dem Netzwerkinstallationspfad ein. Wenn Sie Office installieren, sucht Setup im Ordner Updates nach einer Setupanpassungsdatei und wendet die Anpassungen an. Der Ordner Updates kann nur zum Bereitstellen von Softwareupdates während einer Erstinstallation von Office 2013 verwendet werden.
+Das Office-Anpassungstool (OAT) ist Teil des Setup-Programms und ist das empfohlene Tool für viele Anpassungen. Mithilfe des OAT passen Sie Office an und speichern Ihre Anpassungen in einer MSP-Setup Anpassungsdatei. Legen Sie die Datei am Netzwerkinstallationspfad im Ordner "Updates" ab. Bei der Installation von Office sucht das Setupprogramm nach einer Setupanpassungsdatei im Ordner Updates und wendet die Anpassungen an. Der Ordner Updates kann nur zum Bereitstellen von Softwareupdates während einer Erstinstallation von Office 2013 verwendet werden.
 
-Das OAT ist Teil des Setups und in Volumenlizenzversionen des Produkts enthalten. Sie führen das OAT durch Eingabe `setup.exe /admin` über die Befehlszeile aus dem Stammverzeichnis des Netzwerkinstallationspfads, der die Office 2013-Quelldateien enthält. Verwenden Sie beispielsweise folgenden Befehl:
+Das OAT ist Teil des Setups und ist in Volumenlizenzversionen des Produkts enthalten. Sie führen das OAT aus, `setup.exe /admin` indem Sie an der Befehlszeile im Stammverzeichnis des Netzwerkinstallationspfads, der die Office 2013 Quelldateien enthält, eingeben. Verwenden Sie beispielsweise folgenden Befehl:
 
 `\\server\share\Office15\setup.exe /admin`
 
-Administratoren verwenden das OAT zum Erstellen einer Setupanpassungsdatei (MSP-Datei). Wie im Microsoft Office 2010 Oct können Administratoren die folgenden Bereiche anpassen:
+Administratoren verwenden das OAT zum Erstellen einer Setupanpassungsdatei (MSP-Datei). Wie im Microsoft Office 2010 OAT können Administratoren die folgenden Bereiche anpassen:
 
-  - **Einrichtung** Dient zum Angeben des Standard Installationsspeicherorts auf dem Client und dem Standard Organisationsnamen, zusätzliche Netzwerkinstallationsquellen, Product Key, Endbenutzer-Lizenzvertrag, Anzeigeebene, zu entfernende frühere Versionen von Office, benutzerdefinierte Programme, die während der Installation, Sicherheitseinstellungen und Setup Eigenschaften ausgeführt werden sollen.
+  - **Setup** Wird verwendet, um den Standard Installationsspeicherort auf dem Client und den Standard Organisationsnamen, zusätzliche Netzwerkinstallationsquellen, Product Key, Endbenutzer-Lizenzvertrag, Anzeigeebene, zu entfernende frühere Office-Versionen, benutzerdefinierte Programme zur Ausführung während der Installation, Sicherheitseinstellungen und Setup Eigenschaften anzugeben.
 
-  - **Funktionen** Wird verwendet, um Benutzereinstellungen zu konfigurieren und die Installation von Office-Features anzupassen. Administratoren können das OAT verwenden, um anfängliche Standardwerte für die Office-Anwendungseinstellungen für Benutzer festzulegen. Benutzer können die meisten Einstellungen nach der Installation ändern.
+  - **Funktionen** Dient zum Konfigurieren von Benutzereinstellungen und zum Anpassen der Installation von Office-Features. Administratoren können das OAT verwenden, um anfängliche Standardwerte für Office-Anwendungseinstellungen für Benutzer anzugeben. Benutzer können die meisten Einstellungen nach der Installation ändern.
 
-  - **Zusätzlicher Inhalt** Wird zum Hinzufügen oder Entfernen von Dateien, hinzufügen oder Entfernen von Registrierungseinträgen und Konfigurieren von Tastenkombinationen verwendet.
+  - **Zusätzlicher Inhalt** Wird zum Hinzufügen oder Entfernen von Dateien, zum Hinzufügen oder Entfernen von Registrierungseinträgen und zum Konfigurieren von Verknüpfungen verwendet.
 
-  - **Outlook** Wird verwendet, um das standardmäßige Outlook-Profil eines Benutzers anzupassen, Exchange-Einstellungen anzugeben, Konten hinzuzufügen, Konten zu\\entfernen und Einstellungen zu exportieren sowie Senden von Empfangs Gruppen anzugeben.
+  - **Outlook** Dient zum Anpassen des Outlook-Standardprofils eines Benutzers, zum Angeben von Exchange-Einstellungen, zum Hinzufügen von Konten, zum Entfernen\\von Konten und zum Exportieren von Einstellungen und zum Angeben von Sende Empfangs Gruppen.
 
-Informationen zum OAT finden Sie unter <http://go.microsoft.com/fwlink/p/?linkid=267516>.
+Weitere Informationen zum OAT finden Sie unter <http://go.microsoft.com/fwlink/p/?linkid=267516>.
 
 </div>
 

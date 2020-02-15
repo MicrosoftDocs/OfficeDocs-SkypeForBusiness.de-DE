@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Regeln für Geräte Updates'
+title: 'Lync Server 2013: Geräte Update Regeln'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 51803973
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4912497f1c8481d44b02a0213e01a0e8908ebfa2
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: b52fa2f2aefae05f713972df5c3b15e6db7c0b57
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762383"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031249"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,19 +35,19 @@ ms.locfileid: "41762383"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-20_
+_**Letztes Änderungsstand des Themas:** 2013-02-20_
 
-In regelmäßigen Abständen veröffentlicht Microsoft eine neue Gruppe von Gerätefirmware-Updates für lync Phone Edition. *Geräteaktualisierungsregeln* verknüpfen Firmware-Updates mit Hardwaregeräten – Telefonen und anderen Geräten, auf denen lync Phone Edition ausgeführt wird.
+In regelmäßigen Abständen veröffentlicht Microsoft eine Reihe neuer Gerätefirmware-Updates für lync Phone Edition. Durch *geräteaktualisierungsregeln* werden Firmware-Updates mit Hardwaregeräten (Telefone und andere Geräte mit lync Phone Edition zugeordnet.
 
-Wenn Sie die neuesten Regeln für Geräte Updates abrufen möchten, wechseln Sie zur Seite Hilfe und Support auf der Microsoft-Website, und suchen Sie nach "Phone Edition". Laden Sie das Updatepaket herunter, und extrahieren Sie die Dateien in einen Ordner auf dem Computer, auf dem die Updates hochgeladen werden sollen. Nachdem die Dateien extrahiert wurden, importieren Sie die geräteaktualisierungsregeln, die in der extrahierten Datei gefunden wurden. CAB-Datei (mit dem Namen ucupdates. cab). Verwenden Sie dann die lync Server-Systemsteuerung oder Windows PowerShell-Cmdlets, um diese Regeln für die Geräte Ihrer Organisation anzuzeigen und zu verwalten.
+Um die neuesten Regeln für Geräte Updates abzurufen, navigieren Sie auf der Microsoft-Website zur Hilfe-und Support Seite, und suchen Sie nach "Phone Edition". Laden Sie das Updatepaket herunter, und extrahieren Sie die Dateien in einen Ordner auf dem Computer, auf dem die Updates hochgeladen werden sollen. Nachdem die Dateien extrahiert wurden, importieren Sie die geräteaktualisierungsregeln, die in der extrahierten gefunden wurden. CAB-Datei (mit dem Namen ucupdates. cab). Verwenden Sie dann die lync Server-Systemsteuerung-oder Windows PowerShell-Cmdlets, um diese Regeln für die Geräte Ihrer Organisation anzuzeigen und zu verwalten.
 
-In den folgenden Themen erfahren Sie, wie Sie geräteaktualisierungsregeln importieren, anzeigen und verwalten.
+In den folgenden Themen erfahren Sie, wie Sie geräteaktualisierungsregeln importieren, anzeigen und verwalten können.
 
 <div>
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [Anzeigen von Informationen zu Geräte Update Regeln in lync Server 2013](lync-server-2013-view-information-about-device-update-rules.md)
+  - [Anzeigen von Informationen zu geräteaktualisierungsregeln in lync Server 2013](lync-server-2013-view-information-about-device-update-rules.md)
 
   - [Importieren von geräteaktualisierungsregeln in lync Server 2013](lync-server-2013-import-device-update-rules.md)
 

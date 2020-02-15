@@ -12,20 +12,20 @@ ms:contentKeyID: 48183534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d142bc2a98fbbb1d8147943e379ae1e1a243b18
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3d4343e9321ab463a6bf0b4173989d245267588e
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726195"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006271"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Edge-Server-Cmdlets in lync Server 2013
+# <a name="edge-server-cmdlets-in-lync-server-2013"></a>Edgeserver-Cmdlets in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41726195"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-10-07_
+_**Letztes Änderungsstand des Themas:** 2013-10-07_
 
-Edgeserver bieten Ihnen die Möglichkeit, die Funktionen von Microsoft lync Server 2013 auf Personen zu erweitern, die nicht bei Ihrem internen Netzwerk angemeldet sind. Wenn Sie beispielsweise über Remotebenutzer-authentifizierte Benutzer verfügen, die sich bei lync Server 2013 über das Internet und nicht über das interne Netzwerk anmelden, müssen Sie einen Edgeserver einrichten, auf dem der lync Server Access-Edgedienst ausgeführt wird. Darüber hinaus sind Edgeserver erforderlich, wenn Sie einen Verbund mit einer anderen Organisation einrichten möchten oder wenn Sie Ihren Benutzern das Recht geben möchten, mit Personen zu kommunizieren, die über Konten bei einem öffentlichen Instant Messaging-\!Dienst wie Yahoo, AOL oder MSN verfügen.
+Edgeserver bieten Ihnen die Möglichkeit, die Funktionen von Microsoft lync Server 2013 auf Personen auszudehnen, die nicht bei Ihrem internen Netzwerk angemeldet sind. Wenn Sie beispielsweise Remotebenutzer haben – authentifizierte Benutzer, die sich bei lync Server 2013 über das Internet anmelden, statt über das interne Netzwerk, müssen Sie eine Edgeserver einrichten, in der die lync Server Zugriffs-Edgedienst ausgeführt wird. Außerdem sind Edgeserver erforderlich, wenn Sie einen Partnerverbund mit einer anderen Organisation einrichten möchten oder Ihren Benutzern das Recht geben möchten, mit Personen zu kommunizieren, die über Konten mit einem öffentlichen Chatdienst wie Yahoo\!, AOL oder MSN verfügen.
 
 <div>
 
@@ -45,11 +45,11 @@ Edgeserver bieten Ihnen die Möglichkeit, die Funktionen von Microsoft lync Serv
 > [!IMPORTANT]
 > <UL>
 > <LI>
-> <P>Ab dem 1. September, 2012, ist die Microsoft lync Public im Connectivity-Benutzerabonnementlizenz ("PIC USL") nicht mehr für den Kauf von neuen oder erneuernden Vereinbarungen verfügbar. Kunden mit aktiven Lizenzen sind in der Lage, weiterhin mit Yahoo! zu verbünden Messenger, bis der Dienst das Datum beendet hat. Datum des Endes des Lebenszyklus von Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">unter Unterstützung für öffentliche Instant Messenger-Konnektivität in lync Server 2013</A>.</P>
+> <P>Seit dem 1. September 2012 ist die Microsoft lync Public Chat Connectivity-Benutzerabonnementlizenz ("PIC USL") nicht mehr für neue oder erneuerte Verträge verfügbar. Kunden mit aktiven Lizenzen können weiterhin mit Yahoo! zusammenarbeiten. Messenger, bis der Dienst das Datum heruntergefahren hat. Ein End-of-Life-Datum vom Juni 2014 für AOL und Yahoo! wurde angekündigt. Ausführliche Informationen finden Sie unter <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for Public Instant Messenger Connectivity in lync Server 2013</A>.</P>
 > <LI>
-> <P>Bei der PIC-USL handelt es sich um eine Abonnementlizenz pro Benutzer pro Monat, die für die Föderation von lync Server oder Office Communications Server mit Yahoo! erforderlich ist. Messenger. Die Möglichkeit von Microsoft, diesen Dienst bereitzustellen, war von der Unterstützung durch Yahoo! abhängig, deren zugrunde liegende Vereinbarung abgewickelt wird.</P>
+> <P>Bei der PIC-USL handelt es sich um eine Abonnementlizenz pro Benutzer pro Monat, die für lync Server oder Office Communications Server für die Zusammensetzung mit Yahoo! erforderlich ist. Messenger. Die Fähigkeit von Microsoft, diesen Dienst bereitzustellen, wurde von der Unterstützung von Yahoo! abhängig gemacht, die zugrunde liegende Vereinbarung, für die die Rückabwicklung erfolgt.</P>
 > <LI>
-> <P>Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen Organisationen und Personen in der ganzen Welt. Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-und Gerätelizenzen außerhalb der lync-Standard CAL erforderlich. Skype Federation wird dieser Liste hinzugefügt und ermöglicht es lync-Benutzern, Hunderte von Millionen von Personen mit Chat und Sprache zu erreichen.</P></LI></UL>
+> <P>Lync ist mehr denn je ein leistungsfähiges Tool für die Verbindung zwischen verschiedenen Organisationen und mit Einzelpersonen auf der ganzen Welt. Für den Verbund mit Windows Live Messenger sind keine zusätzlichen Benutzer-/Gerätelizenzen außerhalb der lync-Standard-CAL erforderlich. Skype Federation wird dieser Liste hinzugefügt, sodass lync-Benutzer Hunderte Millionen von Benutzern mit Chat und VoIP erreichen können.</P></LI></UL>
 
 
 
@@ -57,41 +57,41 @@ Edgeserver bieten Ihnen die Möglichkeit, die Funktionen von Microsoft lync Serv
 
 <div>
 
-## <a name="edge-server-cmdlets"></a>Edgeserver-Cmdlets
+## <a name="edge-server-cmdlets"></a>Cmdlets für Edgeserver
 
-Die folgende Liste enthält Cmdlets, die sich direkt auf die Verwaltung von Edge-Servern beziehen:
+In der folgenden Liste werden Cmdlets aufgeführt, die im Rahmen der Edgeserververwaltung eingesetzt werden:
 
 **Edgeserver**
 
   - <span></span>  
-    [Get-csaccessedgeconfiguration nicht angeben](https://technet.microsoft.com/en-us/library/Gg398574(v=OCS.15))
+    [Get-csaccessedgeconfiguration nicht angeben](https://technet.microsoft.com/library/Gg398574(v=OCS.15))
 
   - <span></span>  
-    [Satz-csaccessedgeconfiguration nicht angeben](https://technet.microsoft.com/en-us/library/Gg413017(v=OCS.15))
+    [Gruppe-csaccessedgeconfiguration nicht angeben](https://technet.microsoft.com/library/Gg413017(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Get-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg413008(v=OCS.15))
+    [Get-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg413008(v=OCS.15))
 
   - <span></span>  
-    [Neu – CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412884(v=OCS.15))
+    [New-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15))
 
   - <span></span>  
-    [Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg398786(v=OCS.15))
+    [Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg398786(v=OCS.15))
 
   - <span></span>  
-    [Satz-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412869(v=OCS.15))
+    [Gruppe-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Test-CsAVEdgeConnectivity](https://technet.microsoft.com/en-us/library/JJ205138(v=OCS.15))
+    [Test-csavedgeconnectivity "](https://technet.microsoft.com/library/JJ205138(v=OCS.15))
 
 <!-- end list -->
 
   - <span></span>  
-    [Satz-CsEdgeServer](https://technet.microsoft.com/en-us/library/Gg398859(v=OCS.15))
+    [Gruppe-CsEdgeServer](https://technet.microsoft.com/library/Gg398859(v=OCS.15))
 
 </div>
 

@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Testen der Sprachkonfiguration'
+title: 'Lync Server 2013: Testen der VoIP-Konfiguration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 63969605
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9532327640be12351143632813d403edddf5c437
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2894d61a4dabd174315e24a225392bde7a893300
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746045"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42018206"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-voice-configuration-in-lync-server-2013"></a>Testen der Sprachkonfiguration in lync Server 2013
+# <a name="test-voice-configuration-in-lync-server-2013"></a>Testen der VoIP-Konfiguration in lync Server 2013
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "41746045"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2014-05-20_
+_**Letztes Änderungsstand des Themas:** 2014-05-20_
 
 
 <table>
@@ -54,8 +54,8 @@ _**Letztes Änderungsdatum des Themas:** 2014-05-20_
 </tr>
 <tr class="odd">
 <td><p>Erforderliche Berechtigungen</p></td>
-<td><p>Wenn Benutzer lokal mit der lync Server-Verwaltungsshell ausgeführt werden, müssen Sie Mitglied der RTCUniversalServerAdmins-Sicherheitsgruppe sein.</p>
-<p>Beim Ausführen mithilfe einer Remoteinstanz von Windows PowerShell muss Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Test-CsVoiceTestConfiguration-Cmdlets verfügt. Führen Sie den folgenden Befehl in der Windows PowerShell-Eingabeaufforderung aus, um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können:</p>
+<td><p>Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</p>
+<p>Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-csvoicetestconfiguration getestet verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsVoiceTestConfiguration&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -66,47 +66,47 @@ _**Letztes Änderungsdatum des Themas:** 2014-05-20_
 
 ## <a name="description"></a>Beschreibung
 
-Lync Server umfasst mehrere Windows PowerShell-Cmdlets (wie Test-CsVoiceRoute und Test-CsVoicePolicy, Test-CsTrunkConfiguration), mit denen Sie überprüfen können, ob die einzelnen Teile Ihrer Enterprise-VoIP-Infrastruktur – VoIP-Routen, VoIP Richtlinien, SIP-Stämme, funktionieren wie erwartet.
+Lync Server enthält mehrere Windows PowerShell-Cmdlets (wie Test-CsVoiceRoute und Test-CsVoicePolicy, Test-CsTrunkConfiguration), mit denen Sie sicherstellen können, dass die einzelnen Teile Ihrer Enterprise-VoIP-Infrastruktur – VoIP-Routen, VoIP Richtlinien, SIP-Trunks – funktionieren wie erwartet.
 
-Während es bei Enterprise-VoIP wichtig ist, dass alle einzelnen Teile funktionieren: Es ist möglich, eine gültige VoIP-Route, eine gültige VoIP-Richtlinie und einen gültigen SIP-Stamm zu haben, aber die Benutzer können dennoch keine Telefonanrufe tätigen oder empfangen. Aus diesem Grund bietet lync Server auch die Möglichkeit, Sprachtest Konfigurationen zu erstellen. Sprachtest Konfigurationen stellen allgemeine Enterprise-VoIP-Szenarien dar: Sie können beispielsweise eine VoIP-Route, eine VoIP-Richtlinie und einen Wählplan angeben und dann überprüfen, ob diese einzelnen Elemente in der Lage sind, zusammenzuarbeiten, um einen Telefondienst bereitzustellen. Darüber hinaus können Sie Ihre Erwartungen in einem bestimmten Szenario überprüfen. Angenommen, Sie gehen davon aus, dass die Kombination aus Wählplan A und VoIP-Richtlinie B dazu führen würde, dass Anrufe über die VoIP-Route C weitergeleitet werden. Sie können die sprach Route C als ExpectedRoute eingeben. Wenn Sie den Test ausführen und die VoIP-Route C nicht verwendet wird, wird der Test als fehlerhaft markiert.
+Während es bei Enterprise-VoIP wichtig ist, dass alle einzelnen Teile funktionieren: Es ist möglich, eine gültige VoIP-Route, eine gültige VoIP-Richtlinie und einen gültigen SIP-Trunk zu haben, aber Benutzer können weiterhin keine Telefonanrufe tätigen oder empfangen. Aus diesem Grund bietet lync Server auch die Möglichkeit, Sprachtest Konfigurationen zu erstellen. Sprachtest Konfigurationen stellen gängige Enterprise-VoIP-Szenarien dar: Sie können beispielsweise eine VoIP-Route, eine VoIP-Richtlinie und einen Wählplan angeben und dann überprüfen, ob diese einzelnen Elemente zusammenarbeiten können, um den Telefondienst bereitzustellen. Darüber hinaus können Sie Ihre Erwartungen in einem bestimmten Szenario überprüfen. Nehmen wir beispielsweise an, dass Sie davon ausgehen, dass die Kombination aus Wähleinstellungen und VoIP-Richtlinie B dazu führen würde, dass Anrufe über die VoIP-Route C weitergeleitet würden. Sie können die VoIP-Route C als ExpectedRoute eingeben. Wenn Sie den Test ausführen, wenn die VoIP-Route C nicht verwendet wird, wird der Test als fehlgeschlagen markiert.
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a>Ausführen des Tests
+## <a name="running-the-test"></a>Durchführen des Tests
 
-Bevor Sie sprach Konfigurations Sammlungen mithilfe von Windows PowerShell testen, müssen Sie zuerst das Cmdlet Get-CsVoiceTestConfiguration verwenden, um eine Instanz dieser Konfigurationseinstellungen abzurufen. Diese Instanz muss dann an den Test-CsVoiceTestConfiguration umgeleitet werden. Beispiel:
+Vor dem Testen von VoIP-Konfigurations Sammlungen mit Windows PowerShell müssen Sie zunächst das Cmdlet Get-csvoicetestconfiguration getestet verwenden, um eine Instanz dieser Konfigurationseinstellungen abzurufen. Diese Instanz muss dann an das Test-csvoicetestconfiguration getestet weitergeleitet werden. Beispiel:
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration" | Test-CsVoiceTestConfiguration`
 
-Verwenden Sie stattdessen diesen Befehl, um alle Konfigurationseinstellungen für den Sprachtest gleichzeitig zu überprüfen:
+Verwenden Sie den folgenden Befehl, um alle Konfigurationseinstellungen für die VoIP-Tests gleichzeitig zu überprüfen:
 
 `Get-CsVoiceTestConfiguration | Test-CsVoiceTestConfiguration`
 
-Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet Test-CsVoiceTestConfiguration.
+Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet Test-csvoicetestconfiguration getestet.
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Misserfolg
+## <a name="determining-success-or-failure"></a>Bestimmen des Erfolgs oder Fehlers
 
-Das Cmdlet Test-CsVoiceTestConfiguration meldet, ob ein Test fehlgeschlagen oder erfolgreich war, und bietet zusätzliche Informationen zu jedem erfolgreichen Test, wie etwa die Übersetzungsregel, die VoIP-Route und die PSTN-Nutzung, die zum Ausführen der Aufgabe verwendet wird:
+Das Cmdlet Test-csvoicetestconfiguration getestet meldet, ob ein Test fehlgeschlagen oder erfolgreich war, und stellt zusätzliche Informationen zu jedem erfolgreichen Test bereit, wie etwa die Übersetzungsregel, die VoIP-Route und die PSTN-Verwendung, die zum Abschließen der Aufgabe verwendet werden:
 
-Ergebnis: Erfolg
+Ergebnis: Success
 
 TranslatedNumber: + 15551234
 
-MatchingRule: Description =; Muster = ^ (\\d{4}) $; Übersetzung = +\\1 d; Name = Test; IsInternalExtension = falsch
+MatchingRule: Description =; Muster = ^ (\\d{4}) $; Übersetzung = +\\1 d; Name = Test; IsInternalExtension = false
 
-FirstMatchingRoute: Website: Redmond
+FirstMatchingRoute: Site: Redmond
 
 MatchingUsage: lokal
 
 Wenn der Test fehlschlägt, wird das Ergebnis als Fehler gemeldet:
 
-Ergebnis: Fehler
+Ergebnis: Fail
 
 TranslatedNumber:   
 
@@ -120,23 +120,23 @@ MatchingUsage:      
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test fehlgeschlagen ist
 
-Da die Tests für die Sprachtest Konfiguration verschiedene Elemente – einschließlich VoIP-Richtlinien, Wählpläne, VoIP-Routen usw. – testen, gibt es verschiedene Faktoren, die zu einem fehlgeschlagenen Test führen können. Wenn ein Test fehlschlägt, sollte der erste Schritt darin liegen, die Konfigurationseinstellungen mithilfe des Cmdlets Get-CsVoiceTestConfiguration selbst zu überprüfen:
+Da Tests für die Sprachtest Konfiguration verschiedene Elemente – einschließlich VoIP-Richtlinien, Wähleinstellungen, VoIP-Routen usw. – testen, gibt es verschiedene Faktoren, die zu einem fehlgeschlagenen Test führen können. Wenn ein Test fehlschlägt, sollte der erste Schritt darin liegen, die Konfigurationseinstellungen selbst mithilfe des Cmdlets Get-csvoicetestconfiguration getestet zu überprüfen:
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration"`
 
-Wenn die Einstellungen anscheinend richtig konfiguriert sind, führen Sie den Test erneut aus, während Sie den Verbose-Parameter einbeziehen:
+Wenn die Einstellungen scheinbar ordnungsgemäß konfiguriert sind, führen Sie den Test erneut aus, während Sie den Verbose-Parameter einschließen:
 
 `Get-CsVoiceTestConfiguration -Identity "RedmondVoiceTestConfiguration" | Test-CsVoiceTestConfiguration`
 
-Der Verbose-Parameter stellt eine Schritt-für-Schritt-Konto für jede Aktion bereit, die von Test-CsVoiceTestConfiguration ausgeführt wird, wie in diesem Beispiel gezeigt:
+Der Parameter Verbose stellt eine schrittweise Anleitung zu jeder von Test-csvoicetestconfiguration getestet ausgeführten Aktion bereit, wie in diesem Beispiel gezeigt wird:
 
 Ausführlich: Wähleinstellungen werden geladen: "Global"
 
-Verbose: Laden der VoIP-Richtlinie: "redmonddialplan" "
+Verbose: Laden der VoIP-Richtlinie: "" redmonddialplan ""
 
-Dieses Schritt-für-Schritt-Konto bietet möglicherweise einen nützlichen Anhaltspunkt dafür, wo der Test tatsächlich fehlgeschlagen ist. Wenn dies nicht der Fall ist, können Sie dann andere Windows PowerShell-Cmdlets verwenden (beispielsweise Test-CsVoicePolicy) und mit der Überprüfung der einzelnen Komponenten, die in den Einstellungen für die sprach Test Konfiguration enthalten sind, methodisch beginnen.
+Dieses Schritt-für-Schritt-Konto kann einen nützlichen Anhaltspunkt dafür liefern, wo der Test tatsächlich fehlgeschlagen ist. Wenn dies nicht der Fall ist, können Sie dann andere Windows PowerShell-Cmdlets (wie Test-CsVoicePolicy) verwenden und methodisch beginnen, die einzelnen Komponenten zu überprüfen, die in den Konfigurationseinstellungen für den VoIP-Test enthalten sind.
 
-Beachten Sie außerdem, dass es möglich ist, dass ein Test einen Anruf weiterleiten kann und dennoch als Fehler gekennzeichnet ist. Dies kann auftreten, wenn Sie Werte für ExpectedRoute, ExpectedTranslatedNumber und ExpectedUsage eingeben und diese Erwartungen nicht erfüllt werden. Nehmen wir beispielsweise an, dass Sie die VoIP-Route C als Ihre erwartete VoIP-Route eingeben, der Test aber den Anruf tatsächlich mit der VoIP-Route D abgeschlossen hat. In diesem Fall wird der Test als fehlerhaft markiert, weil die erwartete VoIP-Route nicht verwendet wurde. Wenn ein Test fehlschlägt, entfernen Sie möglicherweise die Werte für ExpectedRoute, ExpectedTranslatedNumber und ExpectedUsage, und führen Sie dann den Test erneut aus. Damit können Sie feststellen, ob es sich um einen Fehler handelt, weil der Anruf nicht abgeschlossen werden konnte, oder weil Sie eine Aufgabe erwarten, die Sie tatsächlich erhalten haben.
+Beachten Sie außerdem, dass es möglich ist, dass ein Test einen Anruf weiterleitet und dennoch als Fehler gekennzeichnet wird. Dies kann vorkommen, wenn Sie Werte für ExpectedRoute, ExpectedTranslatedNumber und ExpectedUsage eingeben und diese Erwartungen nicht erfüllt werden. Nehmen wir beispielsweise an, dass Sie die VoIP-Route C als erwartete VoIP-Route eingeben, aber der Test schließt den Anruf tatsächlich mithilfe der VoIP-Route D ab. In diesem Fall wird der Test als fehlgeschlagen markiert, da die erwartete VoIP-Route nicht verwendet wurde. Wenn ein Test fehlschlägt, können Sie die Werte für ExpectedRoute, ExpectedTranslatedNumber und ExpectedUsage entfernen und dann den Test erneut ausführen. Das hilft Ihnen zu ermitteln, ob der Fehler aufgetreten ist, weil der Anruf nicht abgeschlossen werden konnte oder weil Sie eine Sache erwarten und tatsächlich eine andere erhalten haben.
 
 </div>
 
@@ -145,7 +145,7 @@ Beachten Sie außerdem, dass es möglich ist, dass ein Test einen Anruf weiterle
 ## <a name="see-also"></a>Siehe auch
 
 
-[Test-CsVoiceTestConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceTestConfiguration)  
+[Test-csvoicetestconfiguration getestet](https://docs.microsoft.com/powershell/module/skype/Test-CsVoiceTestConfiguration)  
   
 
 </div>

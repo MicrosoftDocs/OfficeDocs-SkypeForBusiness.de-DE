@@ -12,20 +12,20 @@ ms:contentKeyID: 48185544
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fd06db1bd429526826962d5c3ad098642a3a42d
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 3d9281c3059d8fa234b8f62b6223eb601f38b119
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41762413"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42031279"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="device-table-in-lync-server-2013"></a>Device-Tabelle in Lync Server 2013
+# <a name="device-table-in-lync-server-2013"></a>Gerätetabelle in lync Server 2013
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "41762413"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-02_
+_**Letztes Änderungsstand des Themas:** 2012-10-02_
 
-Die Gerätetabelle ist eine unterstützende Tabelle, in der Informationen zu den verschiedenen Aufnahme-oder Render-Geräten gespeichert werden. Jeder Datensatz in der Tabelle steht für ein Gerät.
+Bei der Device-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird und in der Informationen über die verschiedenen Aufnahme- oder Darstellungsgeräte gespeichert sind. Jeder Datensatz in der Tabelle steht für ein Gerät.
 
 
 <table>
@@ -60,19 +60,19 @@ Die Gerätetabelle ist eine unterstützende Tabelle, in der Informationen zu den
 <td><p><strong>DeviceKey</strong></p></td>
 <td><p>int</p></td>
 <td><p>Primary</p></td>
-<td><p>Eindeutige Nummer, die dieses Gerät kennzeichnet.</p></td>
+<td><p>Eindeutige Zahl, die dieses Gerät identifiziert.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceName</strong></p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>DeviceName + DeviceType ist eindeutig</p></td>
-<td><p>Gerätename.</p></td>
+<td><p>nvarchar (256)</p></td>
+<td><p>DeviceName + DeviceType ist unique</p></td>
+<td><p>Gerätename</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DeviceType</strong></p></td>
-<td><p>bit</p></td>
-<td><p>DeviceName + DeviceType ist eindeutig</p></td>
-<td><p>Gerätetyp. 1 ist ein Aufnahmegerät, 0 ist ein Render-Gerät.</p></td>
+<td><p>Bit</p></td>
+<td><p>DeviceName + DeviceType ist unique</p></td>
+<td><p>Gerätetyp. 1 ist ein Aufnahmegerät, 0 ist ein Darstellungsgerät.</p></td>
 </tr>
 </tbody>
 </table>

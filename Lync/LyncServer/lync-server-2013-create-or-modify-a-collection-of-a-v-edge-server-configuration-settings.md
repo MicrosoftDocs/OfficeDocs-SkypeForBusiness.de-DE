@@ -1,5 +1,5 @@
 ---
-title: Erstellen oder Ändern einer Sammlung von a/V-Edgeserver-Konfigurationseinstellungen
+title: Erstellen oder Ändern einer Sammlung von a/V-Edgeserver Konfigurationseinstellungen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 49733630
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c4b45b34b5c52d0eb138fbc16c37e5aaee7262b
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 576fcb445eb37b92356ad9fdf36de716581ca6fa
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41763367"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035641"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Erstellen oder Ändern einer Sammlung von a/V-Edgeserver-Konfigurationseinstellungen in lync Server 2013
+# <a name="create-or-modify-a-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Erstellen oder Ändern einer Sammlung von a/V-Edgeserver Konfigurationseinstellungen in lync Server 2013
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "41763367"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-11-01_
+_**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Der a/V-Edgedienst bietet internen Benutzern (Benutzern, die bei Ihrem Unternehmensnetzwerk angemeldet sind) die Möglichkeit, Audio und Video für externe Benutzer freizugeben (Benutzer, die nicht bei Ihrem Organisationsnetzwerk angemeldet sind). Der a/v-Edgedienst wird in erster Linie mithilfe von a/v-Edge-Konfigurationseinstellungen verwaltet, die für den Website Bereich oder den Dienstbereich konfiguriert werden können (d. h., Sie können für einen einzelnen a/v-Edgeserver konfiguriert werden).
+Der A/V-Edgeserverdienst bietet eine Möglichkeit für Ihre internen Benutzer (in Ihrem Organisationsnetzwerk angemeldete Benutzer), Audio- und Videodateien für externe Benutzer (nicht in Ihrem Organisationsnetzwerk angemeldete Benutzer) freizugeben. Der A/V-Edgeserverdienst wird primär durch die Verwendung von A/V-Edge-Konfigurationseinstellungen verwaltet; Einstellung, die über die Standort- oder die Dienstebene konfiguriert werden kann (d. h., sie kann für einen einzelnen A/V-Edgeserver konfiguriert werden).
 
-Wenn Sie lync Server installieren, wird eine globale Sammlung von a/V-Edge-Konfigurationseinstellungen für Sie erstellt. Darüber hinaus können Sie die Windows PowerShell und das Cmdlet New-CsAVEdgeConfiguration verwenden, um neue Einstellungen für den Website Bereich oder den Dienstbereich (also für einen einzelnen A/V-Edgeserver) zu erstellen. Beachten Sie beim Erstellen neuer Einstellungen Folgendes:
+Wenn Sie lync Server installieren, wird eine globale Sammlung von a/V-Edge-Konfigurationseinstellungen für Sie erstellt. Darüber hinaus können Sie die Windows PowerShell und das Cmdlet New-CsAVEdgeConfiguration verwenden, um neue Einstellungen auf Standort-oder Dienstebene (d. h. für einen einzelnen A/V-Edgeserver) zu erstellen. Beachten Sie bei der Erstellung neuer Einstellungen Folgendes:
 
-  - Im Dienstbereich konfigurierte Einstellungen (also auf einem einzelnen Server) haben Vorrang vor allem.
+  - Auf Dienstebene konfigurierte Einstellungen (d. h. auf einem einzelnen Server) haben die höchste Priorität.
 
-  - Die für den Website Bereich konfigurierten Einstellungen haben Vorrang vor den im globalen Bereich konfigurierten Einstellungen. Dienstbereichs Einstellungen ersetzen jedoch auch die Einstellungen für den Website Bereich.
+  - Auf Standortebene zugewiesene Einstellungen haben Vorrang vor den global zugewiesenen Einstellungen. Auf Dienstebene vorgenommene Einstellungen ersetzen jedoch ebenfalls auf Standortebene vorgenommene Einstellungen.
 
-  - Einstellungen im globalen Bereich werden nur verwendet, wenn auf dem einzelnen Server keine Diensteinstellungen konfiguriert sind und keine Websiteeinstellungen für die Website vorhanden sind, auf der sich der Server befindet.
+  - Einstellungen auf globaler Ebene werden nur verwendet, wenn auf dem einzelnen Server keine auf Dienstebene vorgenommenen Einstellungen konfiguriert wurden und wenn keine auf Standortebene vorgenommenen Einstellungen für den Standort, wo sich der Server befindet, vorliegen.
 
-Alle Einstellungen können dann mithilfe des Cmdlets "Satz-CsAVEdgeConfiguration" geändert werden. Weitere Informationen finden Sie in den Hilfethemen zu den Cmdlets [New-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412884(v=OCS.15)) und Cmdlets für [festgelegte CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412869(v=OCS.15)) .
+Anschließend können all Ihre Einstellungen mit dem Cmdlet Set-CsAVEdgeConfiguration bearbeitet werden. Weitere Informationen finden Sie in den Hilfethemen zu den Cmdlets [New-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15)) und [CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15)) .
 
 <div>
 
-## <a name="to-create-new-av-edge-configuration-settings-at-the-site-scope"></a>So erstellen Sie neue A/V-Edge-Konfigurationseinstellungen im Website Bereich
+## <a name="to-create-new-av-edge-configuration-settings-at-the-site-scope"></a>So erstellen Sie neue A/V-Edge-Konfigurationseinstellungen auf Standortebene
 
-  - Mit dem folgenden Befehl wird eine neue Sammlung von a/V-Edge-Konfigurationseinstellungen für die Website "Redmond" erstellt:
+  - Der folgende Befehl erstellt eine neue Auflistung von Konfigurationseinstellungen für A/V-Edgeserver für den Standort "Redmond".
     
         New-CsAVEdgeConfiguration -Identity "site:Redmond"
 
@@ -61,9 +61,9 @@ Alle Einstellungen können dann mithilfe des Cmdlets "Satz-CsAVEdgeConfiguration
 
 <div>
 
-## <a name="to-create-custom-av-edge-configuration-settings-at-the-site-scope"></a>So erstellen Sie benutzerdefinierte A/V-Edge-Konfigurationseinstellungen im Website Bereich
+## <a name="to-create-custom-av-edge-configuration-settings-at-the-site-scope"></a>So erstellen Sie benutzerdefinierte A/V-Edge-Konfigurationseinstellungen auf Standortebene
 
-  - Da keine zusätzlichen Parameter enthalten sind, verwenden diese neuen Einstellungen die Standardwerte für den A/V-Edgedienst. Alternativ können Sie zusätzliche Parameter und Parameterwerte hinzufügen, um eine benutzerdefinierte Sammlung zu erstellen. Mit diesem Befehl wird beispielsweise die MaxTokenLifetime-Eigenschaft auf 4 Stunden (04 Stunden: 00 Minuten: 00 Sekunden) festgelegt:
+  - Da keine weiteren Parameter vorhanden sind, verwenden diese neuen Einstellungen die Standardwerte für den A/V-Edgedienst. Alternativ können Sie zusätzliche Parameter und Parameterwerte verwenden, um eine benutzerdefinierte Auflistung zu erstellen. Der folgende Befehl legt beispielsweise die Eigenschaft "MaxTokenLifetime" auf vier Stunden (04 Stunden : 00 Minuten : 00 Sekunden) fest:
     
         New-CsAVEdgeConfiguration -Identity "site:Redmond" -MaxTokenLifetime "04:00:00"
 
@@ -71,9 +71,9 @@ Alle Einstellungen können dann mithilfe des Cmdlets "Satz-CsAVEdgeConfiguration
 
 <div>
 
-## <a name="to-create-custom-av-edge-configuration-settings-at-the-service-scope"></a>So erstellen Sie benutzerdefinierte A/V-Edge-Konfigurationseinstellungen im Dienstbereich
+## <a name="to-create-custom-av-edge-configuration-settings-at-the-service-scope"></a>So erstellen Sie benutzerdefinierte A/V-Edge-Konfigurationseinstellungen auf Dienstebene
 
-  - Mit diesem Befehl wird eine ähnliche Sammlung erstellt, die auf die a/V-Edgeserver-ATL-Edge-001.litwareinc.com angewendet wurde:
+  - Dieser Befehl erstellt eine ähnliche Auflistung, die auf den A/V-Edgeserver "atl-edge-001.litwareinc.com" angewendet wird:
     
         New-CsAVEdgeConfiguration -Identity "service:EdgeServer:atl-edge-001.litwareinc.com" -MaxTokenLifetime "04:00:00"
 
@@ -83,7 +83,7 @@ Alle Einstellungen können dann mithilfe des Cmdlets "Satz-CsAVEdgeConfiguration
 
 ## <a name="to-modify-existing-av-edge-configuration-settings"></a>So ändern Sie vorhandene A/V-Edge-Konfigurationseinstellungen
 
-  - In diesem Beispiel wird das Cmdlet "Satz-CsAVEdgeConfiguration" verwendet, um die maximale Token-Lebensdauer für den Standort "Redmond" auf 12 Stunden zu ändern:
+  - In diesem Beispiel wird das Cmdlet Set-CsAVEdgeConfiguration verwendet, um die maximale Gültigkeitsdauer von Token für den Standort Redmond auf zwölf Stunden festzulegen:
     
         Set-CsAVEdgeConfiguration -Identity "site:Redmond" -MaxTokenLifetime "12:00:00"
 
@@ -94,13 +94,13 @@ Alle Einstellungen können dann mithilfe des Cmdlets "Satz-CsAVEdgeConfiguration
 ## <a name="see-also"></a>Siehe auch
 
 
-[Zurückgeben von A/V-Edgeserver-Konfigurationsinformationen in lync Server 2013](lync-server-2013-return-a-v-edge-server-configuration-information.md)  
-[Löschen einer vorhandenen Sammlung von A/V-Edgeserver-Konfigurationseinstellungen in lync Server 2013](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)  
+[Zurückgeben von A/V-Edgeserver Konfigurationsinformationen in lync Server 2013](lync-server-2013-return-a-v-edge-server-configuration-information.md)  
+[Löschen einer vorhandenen Auflistung von A/V-Edgeserver Konfigurationseinstellungen in lync Server 2013](lync-server-2013-delete-an-existing-collection-of-a-v-edge-server-configuration-settings.md)  
 
 
 [Audio/Video-Edgeserver (A/V) in lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[Neu – CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412884(v=OCS.15))  
-[Satz-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg412869(v=OCS.15))  
+[New-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412884(v=OCS.15))  
+[Gruppe-CsAVEdgeConfiguration](https://technet.microsoft.com/library/Gg412869(v=OCS.15))  
   
 
 </div>

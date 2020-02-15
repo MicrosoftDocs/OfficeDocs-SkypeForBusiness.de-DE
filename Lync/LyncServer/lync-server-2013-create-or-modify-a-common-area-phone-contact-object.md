@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Erstellen oder Ändern eines Telefon Kontaktobjekts in einem gemeinsamen Bereich'
+title: 'Lync Server 2013: Erstellen oder Ändern eines Kontaktobjekts für ein Telefon mit öffentlichen Bereichen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 51803995
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e9e7ddf1a4911b9afb3428531911223f62ea723
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 418001642f387caf67277f408d4eb19109c98936
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41758109"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035413"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="create-or-modify-a-common-area-phone-contact-object-in-lync-server-2013"></a>Erstellen oder Ändern eines Telefon Kontaktobjekts in einem gemeinsamen Bereich in lync Server 2013
+# <a name="create-or-modify-a-common-area-phone-contact-object-in-lync-server-2013"></a>Erstellen oder Ändern eines Kontaktobjekts für ein Telefon mit öffentlichen Bereichen in lync Server 2013
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "41758109"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2013-02-20_
+_**Letztes Änderungsstand des Themas:** 2013-02-20_
 
-Verwenden Sie das Cmdlet **New-CsCommonAreaPhone** , um Kontaktobjekte für Active Directory-Domänendienste für alle Ihre Telefone im allgemeinen Bereich zu erstellen. Dieses Cmdlet kann entweder neue Kontaktobjekte für die Verwendung mit öffentlichen Telefonen erstellen, oder es kann vorhandene Kontaktobjekte mit einem neuen Telefon im öffentlichen Bereich verknüpfen. Wenn Sie die Eigenschaften der Kontaktobjekte ändern möchten, die für Telefone im allgemeinen Bereich zugeordnet sind, verwenden Sie das Cmdlet " **Satz-CsCommonAreaPhone** ". Optionale Parameter für "CsCommonAreaPhone" ermöglichen Ihnen, Elemente wie den Active Directory **-** Anzeigenamen des Kontakts oder den dem Telefon zugeordneten Uniform Resource Identifier (URI) zu ändern und das Konto für die Verwendung mit lync Server zu aktivieren und zu deaktivieren. Ausführliche Informationen zu allen verfügbaren Änderungen finden Sie im Abschnitt Parameter unter [CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone). Ausführliche Informationen zu Parametern für **neue CsCommonAreaPhone** finden Sie unter [New-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone).
+Verwenden Sie das **New-CsCommonAreaPhone-** Cmdlet, um Active Directory-Domänendienste Kontaktobjekte für alle Telefone im öffentlichen Bereich zu erstellen. Mit diesem Cmdlet können Sie entweder neue Kontaktobjekte für Telefone in öffentlichen Bereichen erstellen oder vorhandene Kontaktobjekte einem neuen Telefon im öffentlichen Bereich zuordnen. Verwenden Sie das Cmdlet "CsCommonAreaPhone", um die Eigenschaften der Contact **-** Objekte zu ändern, die mit Telefonen in öffentlichen Bereichen verknüpft sind. Mit den optionalen Parametern für " **CsCommonAreaPhone** " können Sie Elemente ändern, beispielsweise den Anzeigenamen des Active Directory Kontakts oder den dem Telefon zugeordneten-URI (Uniform Resource Identifier) und das Konto für die Verwendung mit lync Server aktivieren und deaktivieren. Ausführliche Informationen zu allen verfügbaren Änderungen finden Sie im Abschnitt Parameters unter [Festlegen von CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone). Ausführliche Informationen zu **New-CsCommonAreaPhone** -Parametern finden Sie unter [New-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone).
 
-Sie können diese beiden Cmdlets entweder in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Details zum Verwenden der Remote-Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im Windows PowerShell-Blog Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 mithilfe von [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)Remote-PowerShell" unter.
-
-<div>
-
+Sie können diese beiden Cmdlets sowohl in der lync Server 2013-Verwaltungsshell als auch in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
-## <a name="creating-a-common-area-phone-contact-object"></a>Erstellen eines Telefon Kontaktobjekts für einen öffentlichen Bereich
 
-  - Verwenden Sie das Cmdlet **New-CsCommonAreaPhone** , um ein neues Telefon Kontaktobjekt für einen öffentlichen Bereich zu erstellen. Sie müssen mindestens die folgenden Informationen angeben, wenn Sie ein Kontaktobjekt erstellen:
+<div>
+
+## <a name="creating-a-common-area-phone-contact-object"></a>Erstellen eines Kontaktobjekts für ein Telefon mit öffentlichen Bereichen
+
+  - Verwenden Sie das **New-CsCommonAreaPhone-** Cmdlet, um ein neues Kontaktobjekt für eine öffentliche Telefonanlage zu erstellen. Sie müssen mindestens die folgenden Informationen angeben, wenn Sie ein Contact-Objekt erstellen:
     
-      - **LineUri**: die Telefonnummer, die dem Telefon im öffentlichen Bereich zugewiesen ist. Beachten Sie, dass Sie das E. 164-Format verwenden müssen, wenn Sie die Telefonnummer angeben.
+      - **LineUri**: die Telefonnummer, die dem Telefon im öffentlichen Bereich zugewiesen ist. Beachten Sie, dass Sie beim Angeben der Telefonnummer das E. 164-Format verwenden müssen.
     
-      - **RegistrarPool**: der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) des registrierungspools, in dem das Kontaktobjekt gehostet wird.
+      - **RegistrarPool**: der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) des Registrierungsstellen Pools, der als Host für das Contact-Objekt verwendet wird.
     
-      - **OU**: Distinguished Name des Active Directory-Containers, in dem das Kontaktobjekt erstellt wird.
+      - **OU**: DN (Distinguished Name) des Active Directory Containers, in dem das Contact-Objekt erstellt wird.
     
-    Wir empfehlen außerdem, einen Anzeigenamen für Active Directory-Domänendienste bereitzustellen. Andernfalls müssen Sie die Telefon Identität mithilfe einer GUID angeben. Beispiel:
+    Außerdem wird empfohlen, einen Active Directory-Domänendienste Anzeigenamen anzugeben. Andernfalls müssen Sie eine GUID verwenden, um die Telefon Identität anzugeben. Beispiel:
     
         New-CsCommonAreaPhone -LineUri "tel:+12065551219" -RegistrarPool "atl-cs-001.litwareinc.com" -OU "OU=Phones,dc=litwareinc,dc=com" -DisplayName "Lobby"
 
@@ -64,15 +64,15 @@ Sie können diese beiden Cmdlets entweder in der lync Server 2013-Verwaltungsshe
 
 <div>
 
-## <a name="modifying-a-common-area-phone-contact-object"></a>Ändern eines Telefon Kontaktobjekts für einen öffentlichen Bereich
+## <a name="modifying-a-common-area-phone-contact-object"></a>Ändern eines Kontaktobjekts für ein Telefon mit öffentlichen Bereichen
 
-  - Wenn Sie die Eigenschaften eines vorhandenen öffentlichen Bereichs Telefons ändern möchten, verwenden Sie das Cmdlet " **Satz-CsCommonAreaPhone** ". Mit diesem Befehl wird beispielsweise die SIP-Adresse für das Telefon im öffentlichen Bereich mit der DisplayName-Lobby konfiguriert:
+  - Um die Eigenschaften eines vorhandenen Telefons für gemeinsame Bereiche zu ändern, verwenden Sie das Cmdlet " **Sets-CsCommonAreaPhone** ". Mit dem folgenden Befehl wird beispielsweise die SIP-Adresse für das Telefon für öffentliche Bereiche mit der DisplayName-Lobby konfiguriert:
     
         Set-CsCommonAreaPhone -Identity "Lobby" -SipAddress "sip:lobby@litwareinc.com"
 
 </div>
 
-Ausführliche Informationen finden Sie in den Hilfethemen zum Cmdlet [New-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone) und dem Cmdlet " [Satz-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone) ".
+Ausführliche Informationen finden Sie in den Hilfethemen für das [New-CsCommonAreaPhone-](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone) Cmdlet und das Cmdlet "Set [-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone) ".
 
 </div>
 

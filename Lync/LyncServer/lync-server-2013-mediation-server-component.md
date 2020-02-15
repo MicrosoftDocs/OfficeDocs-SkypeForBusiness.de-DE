@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Vermittlungsserver Komponente'
+title: 'Lync Server 2013: Vermittlungsserver-Komponente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,16 +12,16 @@ ms:contentKeyID: 48184239
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 363b277003d7ca1581475ec7c1197bb0f60ccfaa
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82d540d37dee0de37d3986c02ac2243a95fe4404
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41766076"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008257"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
@@ -35,51 +35,51 @@ ms.locfileid: "41766076"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Sie müssen lync Server 2013, Mediation Server bereitstellen, wenn Sie die Enterprise-VoIP-Arbeitsauslastung bereitstellen. In diesem Abschnitt werden grundlegende Funktionen, Abhängigkeiten, grundlegende Topologien und Planungsrichtlinien beschrieben.
+Sie müssen lync Server 2013 bereitstellen, Vermittlungsserver, wenn Sie die Enterprise-VoIP-Arbeitsauslastung bereitstellen. In diesem Abschnitt werden die grundlegende Funktionalität, Abhängigkeiten, grundlegende Topologien sowie Richtlinien für die Planung beschrieben.
 
-Der Vermittlungs Server übersetzt Signalisierungen und in einigen Konfigurationen Medien zwischen dem internen lync Server 2013, der Enterprise-VoIP-Infrastruktur und einem PSTN-Gateway (Public Switched Telephone Network) oder einem SIP-Stamm (Session Initiation Protocol). Auf der lync Server 2013-Seite lauscht Mediation Server an einer einzelnen MTLS-Transportadresse (Mutual TLS). Auf der Gatewayseite überwacht der Mediation Server alle zugehörigen Abhör-Ports, die mit Trunks verknüpft sind, die im Topologie-Dokument definiert sind. Alle qualifizierten Gateways müssen TLS unterstützen, können jedoch auch TCP verwenden. TCP wird für Gateways unterstützt, die keine Unterstützung für TLS bieten.
+Das Vermittlungsserver übersetzt das signalisieren und in einigen Konfigurationen Medien zwischen dem internen lync Server 2013, der Enterprise-VoIP-Infrastruktur und einem PSTN-Gateway (Public Switched Telephone Network) oder einem SIP-Trunk (Session Initiation Protocol). Auf der lync Server 2013 Seite überwacht Vermittlungsserver eine einzelne MTLS-Transportadresse (Mutual TLS). Aufseiten des Gateways überwacht der Vermittlungsserver alle zugehörigen Überwachungsports für die Trunks, die im Topologiedokument definiert wurden. Alle qualifizierten Gateways müssen TLS unterstützen, können jedoch auch TCP verwenden. TCP wird für Gateways unterstützt, die keine Unterstützung für TLS bieten.
 
-Wenn Sie auch über eine vorhandene öffentliche Branch Exchange (PBX) in Ihrer Umgebung verfügen, verarbeitet der Vermittlungs Server Anrufe zwischen Enterprise-VoIP-Benutzern und der Telefonanlage. Wenn es sich bei Ihrer Telefonanlage um eine IP-Telefonanlage handelt, können Sie eine direkte SIP-Verbindung zwischen der Telefonanlage und dem Vermittlungs Server herstellen. Wenn es sich bei Ihrer Telefonanlage um eine TDM-Telefonanlage (Time Division Multiplex) handelt, müssen Sie auch ein PSTN-Gateway zwischen dem Vermittlungs Server und der Telefonanlage bereitstellen.
+Wenn in Ihrer Umgebung auch eine Nebenstellenanlage vorhanden ist, verarbeitet Vermittlungsserver Anrufe zwischen Enterprise-VoIP-Benutzern und der Nebenstellenanlage. Wenn es sich bei Ihrer Nebenstellenanlage um eine IP-Nebenstellenanlage handelt, können Sie eine direkte SIP-Verbindung zwischen der Nebenstellenanlage und der Vermittlungsserver erstellen. Wenn es sich bei Ihrer Nebenstellenanlage um eine TDM-Nebenstellenanlage (Time Division Multiplex) handelt, müssen Sie auch ein PSTN-Gateway zwischen Vermittlungsserver und der Nebenstellenanlage bereitstellen.
 
-Der Vermittlungsserver befindet sich standardmäßig mit dem Front-End-Server. Der Vermittlungs Server kann auch aus Leistungsgründen in einem eigenständigen Pool bereitgestellt werden, oder wenn Sie SIP-Trunking bereitstellen, wird in diesem Fall der eigenständige Pool dringend empfohlen.
+Das Vermittlungsserver wird standardmäßig mit dem Front-End-Server zusammengefasst. Das Vermittlungsserver kann auch aus Leistungsgründen in einem eigenständigen Pool bereitgestellt werden, oder wenn Sie das SIP-Trunking bereitstellen, wird der eigenständige Pool in diesem Fall dringend empfohlen.
 
-Wenn Sie direkte SIP-Verbindungen zu einem qualifizierten PSTN-Gateway bereitstellen, das medienumgehung und DNS-Lastenausgleich unterstützt, ist kein eigenständiger Vermittlungs Server Pool erforderlich. Ein eigenständiger Vermittlungs Server Pool ist nicht erforderlich, da qualifizierte Gateways in der Lage sind, den DNS-Lastenausgleich zu einem Pool von Vermittlungsservern durchzuführen und Datenverkehr von einem beliebigen Vermittlungsserver in einem Pool empfangen können.
+Wenn Sie direkte SIP-Verbindungen mit einem qualifizierten PSTN-Gateway bereitstellen, das Medienumgehung und DNS-Lastenausgleich unterstützt, ist kein eigenständiger fea-mediation-pool erforderlich. Der Grund ist, dass qualifizierte Gateways einen DNS-Lastenausgleich (Domain Name System) für einen Pool aus Vermittlungsservern implementieren und Datenverkehr von jedem Vermittlungsserver innerhalb eines Pools empfangen können.
 
-Wir empfehlen außerdem, dass Sie den Vermittlungs Server in einem Front-End-Pool collocate, wenn Sie IP-PBX-Anlagen bereitgestellt haben oder eine Verbindung mit dem Session Border Controller (SBC) eines Internet Telefonie-Serveranbieters herstellen, sofern eine der folgenden Bedingungen erfüllt ist:
+Die Verbindung des Vermittlungsservers mit einem Front-End-Pool wird auch empfohlen, wenn Sie IP-Nebenstellenanlagen oder einen von einem Internettelefoniedienstanbieter bereitgestellten SBC (Session Border Controller) verwenden, sofern eine der folgenden Bedingungen erfüllt ist:
 
-  - Die IP-PBX-oder SBC-Konfiguration ist für den Empfang von Datenverkehr von einem beliebigen Vermittlungsserver im Pool konfiguriert und kann den Datenverkehr gleicherweise an alle Vermittlungsserver im Pool weiterleiten.
+  - Die IP-Nebenstellenanlage oder der SBC ist für den Empfang von Datenverkehr von einem beliebigen Vermittlungsserver in dem Pool konfiguriert und kann Datenverkehr einheitlich an alle Vermittlungsserver im Pool weiterleiten.
 
-  - Die IP-PBX unterstützt keine medienumgehung, aber der Front-End-Pool, der den Vermittlungs Server hostet, kann die Sprachübertragung für Anrufe in die medienumgehung anwenden.
+  - Die IP-Nebenstellenanlage unterstützt keine medienumgehung, aber die Front-End-Pool, die die Vermittlungsserver hostet, kann die Sprachübertragung für Anrufe verarbeiten, für die die medienumgehung nicht gilt.
 
-Sie können das Planungs Tool Microsoft lync Server 2013 verwenden, um zu evaluieren, ob der collocate, in dem Sie den Vermittlungsserver belegen möchten, die Last verarbeiten kann. Wenn Ihre Umgebung diese Anforderungen nicht erfüllen kann, müssen Sie einen eigenständigen Vermittlungs Server Pool bereitstellen.
+Mit dem Microsoft lync Server 2013 Planungs Tool können Sie auswerten, ob der Front-End-Pool, in dem Sie die Vermittlungsserver collocate möchten, die Last verarbeiten kann. Falls Ihre Umgebung diese Anforderungen nicht erfüllen kann, müssen Sie einen eigenständigen Vermittlungsserverpool bereitstellen.
 
-Die wichtigsten Funktionen des Vermittlungsservers lauten wie folgt:
+Die Hauptfunktionen des Vermittlungsserver lauten wie folgt:
 
-  - Verschlüsseln und Entschlüsseln von SRTP auf der lync Server-Seite
+  - Verschlüsseln und Entschlüsseln von SRTP auf der lync Server Seite
 
-  - Übersetzen von SIP über TCP (für Gateways, die TLS nicht unterstützen) für SIP über Mutual TLS
+  - Übersetzen von SIP über TCP (für Gateways, die TLS nicht unterstützen) in SIP über Mutual TLS
 
-  - Übersetzen von Mediendatenströmen zwischen lync Server und dem Gateway-Peer des Vermittlungsservers
+  - Übersetzen von Mediendatenströmen zwischen lync Server und dem Gateway-Peer des Vermittlungsserver
 
-  - Verbinden von Clients außerhalb des Netzwerks mit internen ICE-Komponenten, die den Medien Durchlauf von NAT und Firewalls ermöglichen
+  - Herstellen von Verbindungen zwischen Clients außerhalb des Netzwerks und internen ICE-Komponenten, damit Medien NAT und Firewalls passieren können
 
-  - Als Vermittler für Anruf Flüsse fungieren, die von einem Gateway nicht unterstützt werden, beispielsweise Anrufe von Remotemitarbeitern auf einem Enterprise-VoIP-Client
+  - Fungieren als Vermittler für Anruf Flüsse, die von einem Gateway nicht unterstützt werden, beispielsweise Anrufe von Remotemitarbeitern auf einem Enterprise-VoIP-Client
 
-  - In Bereitstellungen, die SIP-Trunking umfassen, arbeiten mit dem SIP-Trunking-Dienstanbieter, um PSTN-Unterstützung bereitzustellen, wodurch kein PSTN-Gateway erforderlich ist
+  - Verwenden des SIP-Trunking-Dienstanbieters für das Telefonfestnetz, sodass kein PSTN-Gateway erforderlich ist (gilt für Bereitstellungen mit SIP-Trunking)
 
-Die folgende Abbildung zeigt die Signalisierungs-und Medienprotokolle, die vom Vermittlungs Server bei der Kommunikation mit einem einfachen PSTN-Gateway und der Enterprise-VoIP-Infrastruktur verwendet werden.
+In der folgenden Abbildung sind die Signalisierungs-und Medienprotokolle dargestellt, die vom Vermittlungsserver bei der Kommunikation mit einem einfachen PSTN-Gateway und der Enterprise-VoIP-Infrastruktur verwendet werden.
 
 **Vom Vermittlungsserver verwendete Signal- und Medienprotokolle**
 
-![Vermittlungsserverprotokolle (Diagramm)](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "Vermittlungsserverprotokolle (Diagramm)")
+![Diagramm für Vermittlungsserver Protokolle](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "Diagramm für Vermittlungsserver Protokolle")
 
 <div>
 
 
 > [!NOTE]  
-> Wenn Sie im Netzwerk zwischen dem PSTN-Gateway und dem Vermittlungs Server TCP-oder RTP-RTCP (statt SRTP oder SRTCP) verwenden, empfiehlt es sich, Maßnahmen zu ergreifen, um die Sicherheit und den Datenschutz des Netzwerks zu gewährleisten.
+> Wenn Sie TCP oder RTP/RTCP (anstelle von SRTP oder SRTCP) im Netzwerk zwischen dem PSTN-Gateway und dem Vermittlungsserver verwenden, wird empfohlen, Maßnahmen zu ergreifen, um die Sicherheit und den Datenschutz des Netzwerks sicherzustellen.
 
 
 
@@ -89,17 +89,17 @@ Die folgende Abbildung zeigt die Signalisierungs-und Medienprotokolle, die vom V
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - [M:N trunk in lync Server 2013](lync-server-2013-m-n-trunk.md)
+  - [M:n-trunk trunk in lync Server 2013](lync-server-2013-m-n-trunk.md)
 
-  - [Anrufsteuerung und Vermittlungsserver in Lync Server 2013](lync-server-2013-call-admission-control-and-mediation-server.md)
+  - [Anrufsteuerung und Vermittlungsserver in lync Server 2013](lync-server-2013-call-admission-control-and-mediation-server.md)
 
-  - [9-1-1 (erweitert) (E9-1-1) und Vermittlungsserver in Lync Server 2013](lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md)
+  - [Enhanced 9-1-1 (E9-1-1) und Vermittlungsserver in lync Server 2013](lync-server-2013-enhanced-9-1-1-e9-1-1-and-mediation-server.md)
 
-  - [Medienumgehung und Vermittlungsserver in Lync Server 2013](lync-server-2013-media-bypass-and-mediation-server.md)
+  - [Medienumgehung und Vermittlungsserver in lync Server 2013](lync-server-2013-media-bypass-and-mediation-server.md)
 
-  - [Komponenten und Topologien für den Vermittlungsserver in Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md)
+  - [Komponenten und Topologien für Vermittlungsserver in lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md)
 
-  - [Bereitstellungsrichtlinien für den Vermittlungsserver in lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+  - [Bereitstellungsrichtlinien für Vermittlungsserver in lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md)
 
 </div>
 

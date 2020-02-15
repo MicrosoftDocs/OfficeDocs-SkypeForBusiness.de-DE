@@ -12,20 +12,20 @@ ms:contentKeyID: 48185113
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73bcd2c2892e4e121512ae852d5920d600af91ff
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: fc0f47bf8e0a0aec5d2a2374decd79ce2bae77f2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41743825"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42007464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung mithilfe des Topologie-Generators in Lync Server 2013
+# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Konfigurieren der hohen Verfügbarkeit und der Notfallwiederherstellung mithilfe des Topologie-Generators in lync Server 2013
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "41743825"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-06_
+_**Letztes Änderungsstand des Themas:** 2012-10-06_
 
-Führen Sie die folgenden Schritte im Topologie-Generator aus, um die Hochverfügbarkeits-und Disaster Recovery für beständigen Chat Server zu konfigurieren.
+Führen Sie die folgenden Schritte im Topologie-Generator aus, um die hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat zu konfigurieren.
 
-1.  Hinzufügen der Spiegeldatenbanken und der sekundären Datenbank des Protokollversands SQL Server Stores.
+1.  Fügen Sie die Spiegeldatenbanken und die sekundäre Datenbank des Protokollversands SQL Server speichern hinzu.
 
-2.  Bearbeiten Sie die Diensteigenschaften des beständigen Chat-Servers wie folgt:
+2.  Bearbeiten Sie die Eigenschaften des Server Diensts für beständigen Chat wie folgt:
     
     1.  Aktivieren Sie die Spiegelung für die primäre Datenbank.
     
-    2.  Fügen Sie den primären Spiegelungs-SQL Server-Speicher hinzu.
+    2.  Fügen Sie den primären Spiegel SQL Server Speicher hinzu.
     
-    3.  Aktivieren Sie die SQL Server-Protokollversanddatenbank.
+    3.  Aktivieren Sie die SQL Server Protokollversanddatenbank.
     
-    4.  Fügen Sie den SQL Server-Protokollversand-sekundären SQL Server-Speicher hinzu.
+    4.  Fügen Sie den sekundären SQL Server Speicher des SQL Server Protokollversands hinzu.
     
-    5.  Fügen Sie die SQL Server Store-Spiegelung für die sekundäre Datenbank hinzu.
+    5.  Fügen Sie die SQL Server Speicher Spiegel für die sekundäre Datenbank hinzu.
     
     6.  Veröffentlichen Sie die Topologie.
 

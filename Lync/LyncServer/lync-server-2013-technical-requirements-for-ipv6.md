@@ -1,5 +1,5 @@
 ---
-title: 'Lync Server 2013: Technische Anforderungen für IPv6'
+title: Lync Server 2013 technische Anforderungen für IPv6
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e0688319a1b37dbd609a2f2051b3b8c6dfc6a2d4
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 88e0d822e14ea1792751338bd3606766cc98ab96
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41746535"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006701"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a>Technische Anforderungen für IPv6 in Lync Server 2013
+# <a name="technical-requirements-for-ipv6-in-lync-server-2013"></a>Technische Anforderungen für IPv6 in lync Server 2013
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "41746535"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-30_
+_**Letztes Änderungsstand des Themas:** 2012-10-30_
 
-Wenn Sie beabsichtigen, lync Server 2013 für IPv6 zu konfigurieren, beachten Sie die folgenden Voraussetzungen:
+Wenn Sie lync Server 2013 für IPv6 konfigurieren möchten, sollten Sie die folgenden Anforderungen berücksichtigen:
 
-  - Wenn Sie IPv6-Adressen mit lync Server verwenden möchten, müssen Sie DNS-Einträge (Domain Name System) für Datensätze erstellen, die erkannt und in eine IPv6-Adresse aufgelöst werden müssen. IPv6-DNS verwendet Host-AAAA-Einträge (vier „A“). Falls Sie sowohl IPv4 als auch IPv6 in Ihrer Bereitstellung verwenden, empfiehlt es sich, sowohl Host-A-Einträge für IPv4 als auch Host-AAAA-Einträge für IPv6 zu konfigurieren und zu verwalten. Selbst wenn Sie Ihre Bereitstellung vollständig auf IPv6 umstellen, benötigen Sie möglicherweise weiterhin IPv4-DNS-Hosteinträge für externe Benutzer, die noch IPv4 verwenden.
+  - Um IPv6-Adressen mit lync Server zu verwenden, müssen Sie DNS-Einträge (Domain Name System) für Datensätze erstellen, die ermittelt und in eine IPv6-Adresse aufgelöst werden müssen. IPv6-DNS verwendet Host-AAAA-Einträge (Quad-A). Wenn Sie sowohl IPv4 als auch IPv6 in Ihrer Bereitstellung verwenden, empfiehlt es sich, sowohl Host A-Einträge für IPv4 als auch Host-AAAA-Einträge für IPv6 zu konfigurieren und zu verwalten. Selbst wenn Sie Ihre Bereitstellung vollständig auf IPv6 umstellen, benötigen Sie möglicherweise weiterhin IPv4-DNS-Hosteinträge für externe Benutzer, die weiterhin IPv4 verwenden.
     
-    Sie können IPv6-DNS-Hosteinträge bereitstellen, bevor Sie mit der Verwendung von IPv6 beginnen. Falls der Client oder Server IPv6 nicht verwendet, wird nicht auf den Eintrag verwiesen. Umstellungstechnologien bestimmen anhand von Konfiguration und Richtlinien, welcher Eintrag verwendet werden soll.
+    Sie können IPv6-DNS-Hosteinträge bereitstellen, bevor Sie mit der Verwendung von IPv6 beginnen. Wenn der Client oder Server IPv6 nicht verwendet, wird auf den Datensatz nicht verwiesen. Übergangstechnologien entscheiden über den zu verwendenden Datensatz basierend auf der Konfiguration und den Richtlinien für die Übergangstechnologie.
 
-  - Jede IPv6-Adresse hat einen Adressbereich. Die drei Bereiche, die Sie für die IPv6-Adressierung verwenden können, sind IPv6-globale Adressen (ähnlich wie öffentliche IPv4-Adressen), eindeutige IPv6-lokale Adressen (ähnlich den privaten IPv4-Adressbereichen) und IPv6-Link-Local-Adressen (ähnlich wie automatische private IP-Adressen in Windows Server für IPv4). Alle Server innerhalb eines Pools sollten IPv6-Adressen mit dem gleichen Adressbereich aufweisen.
+  - Jede IPv6-Adresse verfügt über einen Bereich. Die drei Bereiche, die Sie für die IPv6-Adressierung verwenden können, sind globale IPv6-Adressen (vergleichbar mit öffentlichen IPv4-Adressen), eindeutige lokale IPv6-Adressen (vergleichbar mit den privaten IPv4-Adressbereichen) und lokale IPv6-Linkadressen (ähnlich wie bei automatischen privaten IP-Adressen in Windows Server für IPv4). Alle Server in einem Pool sollten über IPv6-Adressen mit demselben Bereich verfügen.
 
 <div>
 
 
 > [!IMPORTANT]  
-> IPv6 ist ein komplexes Thema und erfordert eine sorgfältige Planung mit Ihrem Netzwerkteam und Ihrem Internet Anbieter, um sicherzustellen, dass die Adressen, die Sie auf der Windows-Serverebene und auf der lync Server 2013-Ebene zuweisen, wie erwartet funktionieren. Zusätzliche Informationen zur IPv6-Adressierung und -Planung finden Sie über die Links am Ende dieses Themas.
+> IPv6 ist ein komplexes Thema und erfordert eine sorgfältige Planung mit Ihrem Netzwerkteam und Ihrem Internet Anbieter, um sicherzustellen, dass die Adressen, die Sie auf der Windows Server-Ebene und auf der lync Server 2013 Ebene zuweisen, erwartungsgemäß funktionieren. Zusätzliche Ressourcen zur IPv6-Adressierung und -Planung finden Sie unter den Links am Ende dieses Themas.
 
 
 
@@ -60,8 +60,8 @@ Wenn Sie beabsichtigen, lync Server 2013 für IPv6 zu konfigurieren, beachten Si
 ## <a name="see-also"></a>Siehe auch
 
 
-[IP Version 6-Adressierungs Architektur](http://tools.ietf.org/html/rfc4291)  
-[Globales IPv6-Unicast-Adress Format](http://tools.ietf.org/html/rfc3587)  
+[IP-Adressierungs Architektur der Version 6](http://tools.ietf.org/html/rfc4291)  
+[Globales Unicast-Adress Format in IPv6](http://tools.ietf.org/html/rfc3587)  
 [Eindeutige lokale IPv6-Unicast-Adressen](http://tools.ietf.org/html/rfc4193)  
   
 

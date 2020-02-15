@@ -1,5 +1,5 @@
 ---
-title: Migration von Office Communications Server 2007 R2 zu Lync Server 2013
+title: Migration von Office Communications Server 2007 R2 zu lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -12,20 +12,20 @@ ms:contentKeyID: 48185802
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e32d43e8052de454647cd9f69b4572d178a0cecb
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 624891658fb925fbc2522e98f8b216e535d2bf0c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41730965"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035891"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a>Migration von Office Communications Server 2007 R2 zu Lync Server 2013
+# <a name="migration-from-office-communications-server-2007-r2-to-lync-server-2013"></a>Migration von Office Communications Server 2007 R2 zu lync Server 2013
 
 </div>
 
@@ -35,69 +35,69 @@ ms.locfileid: "41730965"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-10-19_
+_**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-Die Themen in diesem Abschnitt führen Sie durch den Prozess der Migration von Office Communications Server 2007 R2 zu lync Server 2013.
+Die Themen in diesem Abschnitt führen Sie durch den Migrationsprozess von Office Communications Server 2007 R2 zu lync Server 2013
 
 <div>
 
 
 > [!IMPORTANT]  
-> In diesem Dokument werden die Schritte beschrieben, die in der Regel für die einzelnen Migrationsphasen erforderlich sind. Sie bezieht sich nicht auf jede mögliche Legacy Bereitstellungstopologie oder alle möglichen Migrationsszenarien. Daher müssen Sie möglicherweise nicht alle beschriebenen Schritte ausführen, oder Sie müssen abhängig von Ihrer Bereitstellung möglicherweise zusätzliche Schritte ausführen. Dieses Dokument enthält auch Beispiele für Überprüfungsschritte. Diese Überprüfungsschritte werden bereitgestellt, um Ihnen zu verdeutlichen, was Sie suchen müssen, um sicherzustellen, dass jede Phase erfolgreich abgeschlossen wird, während Sie Ihre Migration fortführen. Passen Sie diese Überprüfungsschritte an den jeweiligen Migrationsprozess an.
+> In diesem Dokument werden die Schritte beschrieben, die im Allgemeinen zur Durchführung der einzelnen Phasen der Migration erforderlich sind. Es wird darin nicht auf jede mögliche Bereitstellungstopologie der Vorversion oder jedes mögliche Migrationsszenario eingegangen. Deshalb ist es nicht notwendig, dass Sie jeden beschriebenen Schritt ausführen; ggf. müssen Sie auch, abhängig von Ihrer Bereitstellung, zusätzliche Schritte ausführen. Darüber hinaus werden in diesem Dokument auch Beispiele für Überprüfungsschritte aufgeführt. Durch diese Überprüfungsschritte können Sie einfacher erkennen, wie Sie die erfolgreiche Ausführung der einzelnen Phasen der Migration sicherstellen können. Passen Sie diese Überprüfungsschritte an Ihren jeweiligen Migrationsprozess an.
 
 
 
 </div>
 
-Dieses Handbuch enthält Informationen, die speziell für das Upgrade Ihrer vorhandenen Bereitstellung gelten. Es wird nicht erläutert, wie Sie Ihre vorhandene Topologie ändern. In diesem Leitfaden wird die Implementierung neuer Features nicht behandelt. Wenn eine detaillierte Prozedur an anderer Stelle dokumentiert wird, werden Sie in diesem Leitfaden zu dem entsprechenden Dokument-oder Dokumentabschnitt weitergeleitet.
+Dieses Handbuch enthält Informationen, die speziell auf die Aktualisierung Ihrer vorhandenen Bereitstellung eingehen. Die Änderung Ihrer vorhandenen Topologie wird darin nicht behandelt. In diesem Handbuch wird nicht die Implementierung neuer Funktionen behandelt. Dieses Handbuch enthält entsprechende Verweise auf Verfahren, die in anderen Dokumenten detailliert beschrieben sind.
 
-In diesem Dokument werden die in der folgenden Liste angegebenen Ausdrücke definiert.
+In diesem Dokument werden Begriffe gemäß der Definition in der folgenden Liste verwendet.
 
-  - *Migrations*  
-    Verschieben der Produktionsbereitstellung aus einer früheren Version von Office Communications Server 2007 R2 auf lync Server 2013
+  - *Migration*  
+    Verschieben der Produktionsbereitstellung von einer früheren Version von Office Communications Server 2007 R2 auf lync Server 2013.
 
 <!-- end list -->
 
-  - *Upgrade*  
-    Installieren einer neueren Software Version auf einem Server oder Clientcomputer
+  - *upgrade*  
+    Installieren einer neueren Softwareversion auf einem Server oder Clientcomputer.
 
 <!-- end list -->
 
   - *Koexistenz*  
-    Die temporäre Umgebung, die während der Migration vorhanden ist, wenn einige Funktionen zu lync Server 2013 migriert wurden und andere Funktionen weiterhin auf einer früheren Version von Office Communications Server 2007 R2 verbleiben.
+    Die temporäre Umgebung, die während der Migration vorhanden ist, wenn einige Funktionen zu lync Server 2013 migriert wurden und andere Funktionen weiterhin in einer früheren Version von Office Communications Server 2007 R2 verbleiben.
 
 <!-- end list -->
 
   - *Interoperabilität*  
-    Die Möglichkeit, dass Ihre Bereitstellung während des Zeitraums der Koexistenz erfolgreich ausgeführt werden kann.
+    Die Fähigkeit Ihrer Bereitstellung, während der Phase der Koexistenz erfolgreich ausgeführt zu werden.
 
 <div>
 
-## <a name="in-this-section"></a>In diesem Abschnitt
+## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-  - [Vorbereiten der Migration](before-you-begin-the-migration_1.md)
+  - [Bevor Sie mit der Migration beginnen](before-you-begin-the-migration_1.md)
 
   - [Migrationsphasen](migration-phases_1.md)
 
   - [Phase 1: Planen der Migration von Office Communications Server 2007 R2](phase-1-plan-your-migration-from-office-communications-server-2007-r2.md)
 
-  - [Phase 2: Vorbereitung der Migration](phase-2-prepare-for-migration_1.md)
+  - [Phase 2: Vorbereiten der Migration](phase-2-prepare-for-migration_1.md)
 
-  - [Phase 3: Bereitstellen des lync Server 2013-pilotpools](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
+  - [Phase 3: Bereitstellen lync Server 2013 pilotpools](phase-3-deploy-lync-server-2013-pilot-pool_1.md)
 
   - [Phase 4: Zusammenführen von Topologien](phase-4-merge-topologies.md)
 
   - [Phase 5: Konfigurieren des pilotpools](phase-5-configure-the-pilot-pool.md)
 
-  - [Phase 6: Verschieben von Benutzern in den Pilot Pool](phase-6-move-users-to-the-pilot-pool.md)
+  - [Phase 6: Migrieren von Benutzern zum Pilot Pool](phase-6-move-users-to-the-pilot-pool.md)
 
-  - [Phase 7: Hinzufügen von lync Server 2013 Edge-Server zu Pilot Pool](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
+  - [Phase 7: Hinzufügen von lync Server 2013 Edgeserver zu einem Pilot Pool](phase-7-add-lync-server-2013-edge-server-to-pilot-pool.md)
 
-  - [Phase 8: Wechseln von der Pilotbereitstellung in die Produktionsumgebung](phase-8-move-from-pilot-deployment-into-production.md)
+  - [Phase 8: Umsteigen von der Pilotbereitstellung in die Produktion](phase-8-move-from-pilot-deployment-into-production.md)
 
   - [Phase 9: Ausführen von Aufgaben nach der Migration](phase-9-complete-post-migration-tasks.md)
 
-  - [Phase 10: Legacy Website der decommission](phase-10-decommission-legacy-site.md)
+  - [Phase 10: decommission Legacy Site](phase-10-decommission-legacy-site.md)
 
 </div>
 

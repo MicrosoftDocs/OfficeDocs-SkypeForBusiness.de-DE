@@ -12,20 +12,20 @@ ms:contentKeyID: 48184670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0492f53692230bf02b3b66d91ba7fdf14b01c23
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 254fb591acca4f58bf27b300d5ead3e615e026ce
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765443"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42035027"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="issues-with-the-topology-test-in-lync-server-2013"></a>Probleme mit dem Topologie-Test in lync Server 2013
+# <a name="issues-with-the-topology-test-in-lync-server-2013"></a>Probleme beim Topologie-Test in lync Server 2013
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41765443"
 
 <span> </span>
 
-_**Letztes Änderungsdatum des Themas:** 2012-09-21_
+_**Letztes Änderungsstand des Themas:** 2012-09-21_
 
-Wie das Cmdlet " **Test-CsTopology** " bietet Ihnen Best Practice Analyzer eine Möglichkeit, zu überprüfen, ob lync Server 2013 auf globaler Ebene ordnungsgemäß funktioniert. Standardmäßig überprüft Best Practice Analyzer wie das Cmdlet Ihre gesamte lync Server 2013-Infrastruktur, überprüft, ob die erforderlichen Dienste ausgeführt werden, und dass die entsprechenden Benutzerrechte und Berechtigungen für diese Dienste und für die universelle Anwendung festgesetzt wurden. bei der Installation von lync Server 2013 erstellte Sicherheitsgruppen
+Wie das Cmdlet " **Test-CsTopology** " bietet Ihnen Best Practice Analyzer die Möglichkeit, zu überprüfen, ob lync Server 2013 auf globaler Ebene ordnungsgemäß funktioniert. Standardmäßig prüft Best Practice Analyzer wie das Cmdlet die gesamte lync Server 2013 Infrastruktur, überprüft, ob die erforderlichen Dienste aktiv sind und dass die entsprechenden Benutzerrechte und-Berechtigungen für diese Dienste und für die universelle festgelegt wurden. bei der Installation von lync Server 2013 erstellte Sicherheitsgruppen.
 
-Zusätzlich zur Überprüfung der Gültigkeit von lync Server als Ganzes überprüft **Test-CsTopology** auch die Gültigkeit eines bestimmten Diensts. Details zur Verwendung des Cmdlets zum Testen bestimmter Dienste finden Sie unter [Test-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) in der Dokumentation zur lync Server-Verwaltungsshell. Verwenden Sie die folgenden Informationen, um Probleme mit Ihrer Topologie zu beheben.
+Zusätzlich zur Überprüfung der Gültigkeit von lync Server als Ganzes überprüft **Test-CsTopology** auch die Gültigkeit eines bestimmten Diensts. Ausführliche Informationen zur Verwendung des Cmdlets zum Testen bestimmter Dienste finden Sie unter [Test-CsTopology](https://docs.microsoft.com/powershell/module/skype/Test-CsTopology) in der lync Server-Verwaltungsshell Dokumentation. Nutzen Sie die folgenden Informationen, um Probleme mit Ihrer Topologie zu lösen.
 
 <div>
 
 
 > [!NOTE]  
-> Je nach Konfiguration Ihrer Edgeserver und der zugehörigen Umkreisnetzwerk Einstellungen, einschließlich Firewalleinstellungen und-Berechtigungen, ist Best Practices Analyzer möglicherweise nicht in der Lage, auf Ihre Edgeserver zuzugreifen und diese zu überprüfen. Wenn Sie bei der Überprüfung Edgeserver einbeziehen und die Berichte darauf hindeuten, dass ein Problem beim Zugriff auf Edgeserver vorliegt, deaktivieren Sie das Kontrollkästchen <STRONG>Edgeserver</STRONG> , und führen Sie den Scan erneut aus, um zu verhindern, dass das Problem in Berichten angezeigt wird.
+> Je nach Konfiguration Ihrer Edgeserver und den entsprechenden Einstellungen im Umkreisnetzwerk, inklusive Firewall- Einstellungen und Berechtigungen, kann Best Practices Analyzer möglicherweise nicht auf Ihre Edgeserver zugreifen, um diese zu scannen. Wenn Sie die Edgeserver scannen lassen und die Berichte anzeigen, dass ein Zugriffsproblem für die Edgeserver vorliegt, deaktivieren Sie das Kontrollkästchen <STRONG>Edgeserver</STRONG>, und führen Sie den Scanvorgang erneut aus, um zu verhindern, dass das Problem in den Berichten aufgelistet wird.
 
 
 
@@ -53,15 +53,15 @@ Zusätzlich zur Überprüfung der Gültigkeit von lync Server als Ganzes überpr
 
 <div>
 
-## <a name="resolving-issues-with-your-topology"></a>Beheben von Problemen mit Ihrer Topologie
+## <a name="resolving-issues-with-your-topology"></a>Problembehebung für Ihre Topologie
 
-Wenn der Topologie-Test Probleme mit Ihrer Topologie gefunden hat, sind diese Probleme wahrscheinlich auf Probleme zurückzuführen, die beim Veröffentlichen oder Aktivieren Ihrer Topologie aufgetreten sind.
+Wenn beim Topologietest Probleme mit Ihrer Topologie gefunden werden, werden diese Probleme wahrscheinlich durch Fehler verursacht, die beim Veröffentlichen oder Aktivieren Ihrer Topologie aufgetreten sind.
 
-Wenn Sie Änderungen an Ihrer Topologie vornehmen, werden die Änderungen erst wirksam, wenn Sie sowohl veröffentlicht als auch aktiviert wurden. Sie müssen Topologie-Generator verwenden, um Topologie-Änderungen vorzunehmen. Nachdem Sie Änderungen vorgenommen haben, können Sie diese Änderungen dann mithilfe des Topologie-Generators veröffentlichen und aktivieren.
+Wenn Sie Änderungen an Ihrer Topologie vornehmen, werden die Änderungen erst dann wirksam, wenn sie sowohl veröffentlicht als auch aktiviert wurden. Sie müssen den Topologie-Generator verwenden, um Topologie-Änderungen vorzunehmen. Nachdem Sie Änderungen vorgenommen haben, können Sie diese Änderungen dann mithilfe des Topologie-Generators veröffentlichen und aktivieren.
 
-Wenn Sie die Änderungen veröffentlichen, werden die neuen Informationen (beispielsweise eine neue Website oder eine neue Serverrolle) in den zentralen Verwaltungsspeicher geschrieben. Diese neuen (oder die neu geänderten) Objekte treten jedoch nicht unmittelbar in Ihre Topologie ein. Objekte treten nur bei der Aktivierung der aktualisierten Topologie in Ihre Topologie ein. Wenn Sie die Option "veröffentlichen" im Topologie-Generator auswählen, treten beide Schritte auf: die Änderungen werden veröffentlicht (das heißt, Sie werden in den zentralen Verwaltungsspeicher geschrieben), und dann wird die neue Topologie aktiviert.
+Wenn Sie die Änderungen veröffentlichen, werden die neuen Informationen (beispielsweise eine neue Website oder eine neue Serverrolle) in den zentralen Verwaltungsspeicher geschrieben. Diese neuen (oder neu geänderten) Objekte werden jedoch nicht unmittelbar Ihrer Topologie beitreten. Objekte werden nur dann an Ihre Topologie anschliessen, wenn Sie die aktualisierte Topologie aktivieren. Wenn Sie im Topologie-Generator die Option veröffentlichen auswählen, treten beide Schritte auf: die Änderungen werden veröffentlicht (das heißt, Sie werden in den zentralen Verwaltungsspeicher geschrieben) und dann wird die neue Topologie aktiviert.
 
-Standardmäßig sind Mitglieder der RTCUniversalServerAdmins-Gruppe autorisiert, das Cmdlet **Publish-CsTopology** und das Cmdlet **enable-CsTopology** auszuführen. Wenn jedoch keine Setup-Berechtigungen delegiert wurden, müssen Sie als Domänenadministrator angemeldet sein, um **Publish-CsTopology**ausführen zu können. Um RTCUniversalServerAdmins das Recht zu geben, das Cmdlet **Publish-CsTopology** tatsächlich zu verwenden, müssen Sie das **Grant-CsSetupPermission-** Cmdlet auf jedem Active Directory-Container ausführen, der Computer mit lync Server-Diensten enthält. Um RTCUniversalServerAdmins das Recht zu geben, das Cmdlet **enable-CsTopology** zu verwenden, müssen Sie das Cmdlet " **Satz-CsSetupPermission** " für jeden Active Directory-Domänendienst Container ausführen, der Computer mit lync Server-Diensten enthält. Beachten Sie, dass dies für das Aktivieren und Veröffentlichen einer Topologie mithilfe des Topologie-Generators gilt. Wenn Sie die Berechtigungen nicht mithilfe von " **CsSetupPermission**" delegiert haben, kann nur ein Domänenadministrator eine Topologie mithilfe des Topologie-Generators aktivieren und veröffentlichen.
+Standardmäßig sind Mitglieder der Gruppe "RTCUniversalServerAdmins" autorisiert, die Cmdlets **Publish-CsTopology** und **Enable-CsTopology** auszuführen. Wenn die Setupberechtigungen jedoch nicht delegiert wurden, müssen Sie als Domänenadministrator angemeldet sein, um das Cmdlet **Publish-CsTopology** auszuführen. Um RTCUniversalServerAdmins das Recht zu geben, das Cmdlet " **Publish-CsTopology** " tatsächlich zu verwenden, müssen Sie das **Grant-CsSetupPermission-** Cmdlet für jeden Active Directory Container ausführen, der Computer mit lync Server Diensten enthält. Um RTCUniversalServerAdmins das Recht zu geben, das Cmdlet **enable-CsTopology** zu verwenden, müssen Sie das Cmdlet " **CsSetupPermission** " für jeden Active Directory-Domänendienste Container ausführen, der Computer mit lync Server Diensten enthält. Beachten Sie, dass dies für das Aktivieren und Veröffentlichen einer Topologie mithilfe des Topologie-Generators gilt. Wenn Sie die Berechtigungen nicht mithilfe von "CsSetupPermission" delegiert haben, kann nur ein Domänenadministrator eine Topologie mithilfe des Topologie **-** Generators aktivieren und veröffentlichen.
 
 </div>
 
