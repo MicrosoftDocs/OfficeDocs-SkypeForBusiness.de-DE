@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, wie Sie Ihre Einwahlkonferenz Nummern in Skype for Business Online nachschlagen können. '
-ms.openlocfilehash: 6cfbc79ff4e282c1b7f8f3f6b19483aa9347f646
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6c9c9633f99edf42c3016b90f3b52c6c4c54b0d6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680512"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42011018"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Anzeigen einer Liste von Audiokonferenz-Nummern in Skype for Business Online
 
@@ -35,7 +35,7 @@ ms.locfileid: "41680512"
 
 Wenn Sie Audiokonferenzen für Skype for Business-Benutzer einrichten, können Sie die Telefonnummern anzeigen, die für Audiokonferenzen zur Verfügung stehen. Diese Liste enthält alle Audiokonferenz-Telefonnummern, die für Ihre Organisation verfügbar sind.
   
- **Suchen Sie nach Preisen?** Siehe [Preise für Audiokonferenzen](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+ **Suchen Sie nach Preisen?** Siehe [Preise für Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
 > **Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält.** Wenn Sie feststellen möchten, ob Einwahlnummern in Ihrem Land/Ihrer Region verfügbar sind, gehen Sie zu **Skype for Business Admin Center** > **** > -**Telefonnummern**, klicken Sie auf **Hinzufügen**und dann auf **neue Service Nummern**. Verwenden Sie die Listen für **Land/Region**, **Bundesland/Kanton** und **Ort**, um die Suchergebnisse zu filtern. Wenn Sie nach gebührenfreien Servicenummern suchen, wählen Sie **gebührenfrei** in der Liste **Bundesland/Region** .
@@ -54,7 +54,7 @@ Sie können [feststellen, welche Telefonnummern in Einladungen enthalten sind](s
 
 1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
     
-2. Wechseln Sie zum Admin Center #a0 **Skype for Business**.
+2. Wechseln Sie zum Admin Center > **Skype for Business**.
     
 3. Wechseln Sie im **Skype for Business Admin Center**in der linken Navigationsleiste zu **Audio Conferencing** > **Microsoft Bridge**, und klicken Sie dann auf:
     

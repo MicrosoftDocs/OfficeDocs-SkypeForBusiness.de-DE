@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Zusammenfassung: in einer lokalen Bereitstellung von Skype for Business Server, die für Hybrid aktiviert ist, können Sie Benutzer zwischen der lokalen Umgebung und der Cloud (ob Microsoft Teams oder Skype for Business Online) migrieren..'
-ms.openlocfilehash: 0f0a29ab88f17c80227e6dc6968be85457dc799e
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 721352e1aa13cce8a9c03aa71c73f11e8c0d2452
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726765"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42008607"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>Migrieren von Benutzern zwischen lokal und Cloud
 
@@ -100,4 +100,4 @@ Die Richtlinien (z. B. die Kontrolle von Nachrichten, Besprechungen und Anrufver
 
 [Planen des direkten Routings](/microsoftteams/direct-routing-plan)
 
-[CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)

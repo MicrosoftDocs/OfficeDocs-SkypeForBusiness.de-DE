@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: 'So aktivieren Sie die Aufzeichnung für Audio-und Videokonferenzen und erfahren, was in Aufzeichnungen enthalten ist und was nicht. '
-ms.openlocfilehash: 7e06d2bddc95b8ab57a2a4a5c47fb4b86837d161
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 956d1eb4e3ad57e2d801a8f08842d646be742a97
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769608"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010818"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Zulassen, dass Personen ihre Audio- und Videokonferenzen aufzeichnen
 
@@ -33,7 +33,7 @@ ms.locfileid: "41769608"
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1. Wechseln Sie zu Admin Center #a0 **Skype for Business**, und klicken Sie dann auf **Benutzer**.
+1. Wechseln Sie zu Admin Center > **Skype for Business**, und klicken Sie dann auf **Benutzer**.
     
 2. Wählen Sie auf der Seite **Benutzer** den Benutzer oder die Benutzer aus der Liste aus, und klicken Sie dann auf **Bearbeiten**.
     
@@ -45,7 +45,7 @@ Wenn die Aufzeichnungsfunktion aktiviert ist, können Organisatoren oder Referen
 |:-----|:-----|
 |Audio und HD-Video  <br/> PowerPoint- und Whiteboardpräsentationen  <br/> Sitzungen mit Desktop- oder Programmfreigabe  <br/> |Freigegebene OneNote-Seiten  <br/> PowerPoint-Anmerkungen  <br/> Freigegebene Dateien (Anlagen)  <br/> |
    
-Ausführliche Informationen finden Sie unter [Speichern und Veröffentlichen von lync-Aufzeichnungen](https://support.office.com/en-US/Article/83cf1507-0f05-40f5-a520-5a6c133bc33e) und [lync Recording Manager](https://support.office.com/en-US/Article/fa915c55-ff55-45c0-b372-1ef5596da10b). 
+Ausführliche Informationen finden Sie unter [Speichern und Veröffentlichen von lync-Aufzeichnungen](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e) und [lync Recording Manager](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b). 
   
 ## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)

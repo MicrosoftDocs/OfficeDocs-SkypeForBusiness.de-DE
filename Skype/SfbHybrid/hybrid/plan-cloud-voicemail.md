@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: In diesem Artikel werden die Vorteile, Planungsüberlegungen und Anforderungen für die Implementierung des Microsoft Cloud Voicemail-Diensts beschrieben. Informationen zum Konfigurieren von Cloud-Voicemail finden Sie unter Configuring Cloud Voicemail.
-ms.openlocfilehash: 11b6704a532a3e522792c2234d199e891799c2ac
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 82d9473e35b5c10fd2c50b783a89df64aed62cbe
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765696"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "42006020"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planen des Cloud-Voicemail-Diensts für lokale Benutzer
 
@@ -46,7 +46,7 @@ Bei Cloud Voicemail werden Ihre Verwaltungsaufgaben wesentlich vereinfacht, da:
 - Es ist nicht erforderlich, die Exchange um Rolle zu konfigurieren.
 - Die Setupaufgaben für Cloud-Voicemail sind einfacher.
 - Updates für Voicemailfunktionen werden direkt in der Cloud bereitgestellt, sodass Ihre Benutzer immer Zugriff auf die neuesten Funktionen und Updates mit geringerer Abhängigkeit von kumulativen Updates (CUS) haben.
-- Sie verfügen über dieselben Steuerelemente für lokale und Online-Exchange-Postfächer. Weitere Informationen zu diesen Steuerelementen finden Sie unter [Einrichten von Voicemail für Telefonsysteme](https://support.office.com/en-us/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US).
+- Sie verfügen über dieselben Steuerelemente für lokale und Online-Exchange-Postfächer. Weitere Informationen zu diesen Steuerelementen finden Sie unter [Einrichten von Voicemail für Telefonsysteme](https://support.office.com/article/Set-up-Phone-System-voicemail-Admin-help-9c590873-b014-4df3-9e27-1bb97322a79d?ui=en-US&rs=en-US&ad=US).
 
 Das folgende Diagramm zeigt Cloud-Voicemail in einer hybridbereitstellung:
 

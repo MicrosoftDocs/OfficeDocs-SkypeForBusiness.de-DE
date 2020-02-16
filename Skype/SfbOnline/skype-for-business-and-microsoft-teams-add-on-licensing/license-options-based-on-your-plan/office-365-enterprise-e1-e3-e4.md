@@ -21,22 +21,22 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Erfahren Sie mehr über Add-On-Lizenzen, Funktionen und Informationen zum Kauf von Office 365 Enterprise, Plan E1, E3 und E4. '
-ms.openlocfilehash: fa51f8ff6e785009be5392aef8b137a6ff57430b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 79a803061acfd4550c75871c08f40b16ee2f8e2b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692470"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010588"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 und E4
 
-Wenn Sie den Plan für [Office 365 Enterprise E1](https://products.office.com/en-us/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/en-us/business/office-365-enterprise-e3-business-software)oder E4 bereits gekauft haben, finden Sie hier die Add-on-Lizenzen, die Sie kaufen müssen, um weitere Funktionen von Skype for Business zu erhalten.
+Wenn Sie den Plan für [Office 365 Enterprise E1](https://products.office.com/business/office-365-enterprise-e1-business-software), [E3](https://products.office.com/business/office-365-enterprise-e3-business-software)oder E4 bereits gekauft haben, finden Sie hier die Add-on-Lizenzen, die Sie kaufen müssen, um weitere Funktionen von Skype for Business zu erhalten.
 
 |||
 |:-----|:-----|
 |**Zum Hinzufügen dieser Funktion ...** <br/> |**... müssen Sie folgende Lizenz erwerben:** <br/> |
 |**Audiokonferenz** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |**Audiokonferenzen** Add-On <br/>Wenn Sie die Lizenz kaufen, wird Microsoft Ihr Audiokonferenzanbieter. |
-|**Gebührenfreie Nummern für Einwahlzugriff auf Ihre Besprechungen und die Möglichkeit, aus einer Besprechung heraus zu wählen, um jemanden hinzuzufügen, indem Sie eine beliebige Telefonnummer in der Welt anrufen** <br/> |[Kommunikationsguthaben](/microsoftteams/add-funds-and-manage-communications-credits)|
+|**Gebührenfreie Nummern für Einwahlzugriff auf Ihre Besprechungen und die Möglichkeit, aus einer Besprechung heraus zu wählen, um jemanden hinzuzufügen, indem Sie eine beliebige Telefonnummer in der Welt anrufen** <br/> |[Guthaben für Kommunikationen](/microsoftteams/add-funds-and-manage-communications-credits)|
 |**Telefonsystem** <br/> |1. **Office 365 Phone System** -Add-on <br/> 2. Anrufpläne: Kaufen Sie einen [Anrufplan](/MicrosoftTeams/calling-plans-for-office-365) von Office 365. <br/>  Oder verwenden Sie den [Telefondienst Ihres bestehenden Anbieters](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |**Cloudvoicemail** <br/> |Kaufen Sie Exchange Online Plan 2 für E1- und E4-Pläne. <br/>Sie können auch zu einer im Lieferumfang von Exchange Online Plan 2 enthaltenen Office Suite wechseln, zum Beispiel zu Office 365 E3. |
 |**Anrufpläne** <br/> |1. **Telefon System** -Add-on <br/> 2. [Anrufplan](/MicrosoftTeams/calling-plans-for-office-365): Sie können diesen nur erwerben, nachdem Sie das **Telefonsystem** Add-On gekauft haben. <br/> |

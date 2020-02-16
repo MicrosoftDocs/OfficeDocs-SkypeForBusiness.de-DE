@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: In diesem Artikel wird erläutert, wie Sie die Skype for Business Online-Delegierung einrichten und beheben. Dieser Artikel enthält Anleitungen für Setup Empfehlungen, bewährte Methoden und Schritte zur Problembehandlung.
-ms.openlocfilehash: fac2b68deec94825d57fd06b436d00feaa924a5c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6774fe36760e6a9c53808f33f7a842d5460e0f4c
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706480"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010798"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Einrichten von und Problembehandlung bei Skype for Business Online-Delegierung
 
@@ -107,7 +107,7 @@ Führen Sie die folgenden Schritte aus, um die Skype for Business Online-Delegie
     
 ### <a name="verify-success"></a>Überprüfen des Erfolgs
 
-Wenn die Einrichtung erfolgreich ist, sollte die Stellvertretung sehen, dass **Sie als Stellvertretung für #a0 Name>Nachricht hinzugefügt wurden** , und dass die Personen, die **ich Anrufe für die Gruppe verwalte** , erstellt werden. Der Delegat sollte sehen, dass die Gruppe **Stellvertretungen** erstellt wird.
+Wenn die Einrichtung erfolgreich ist, sollte die Stellvertretung sehen, dass **Sie als Stellvertretung für < Name>Nachricht hinzugefügt wurden** , und dass die Personen, die **ich Anrufe für die Gruppe verwalte** , erstellt werden. Der Delegat sollte sehen, dass die Gruppe **Stellvertretungen** erstellt wird.
   
 > [!NOTE]
 > Delegierungsberechtigungen werden in der Regel innerhalb von 30 Minuten nach dem Setupvorgang angezeigt. Dieser Vorgang kann jedoch bis zu 24 Stunden dauern. 
@@ -140,7 +140,7 @@ Wenn die Einrichtung erfolgreich ist, sollte die Stellvertretung sehen, dass **S
   
 - Das Erstellen einer Sicherheitsgruppe und das Hinzufügen von Delegierungsberechtigungen für diese Sicherheitsgruppe werden nicht unterstützt.
     
-- MAPI steht nicht zur Verfügung. Lesen Sie [den Fehler "MAPI-nicht verfügbar" in Skype for Business 2016-Client](https://support.microsoft.com/en-us/help/3147130).
+- MAPI steht nicht zur Verfügung. Lesen Sie [den Fehler "MAPI-nicht verfügbar" in Skype for Business 2016-Client](https://support.microsoft.com/help/3147130).
     
 - Auf das Exchange Online-Postfach kann über den Skype for Business-Client nicht zugegriffen werden. Wenn dies der Fall ist, führen Sie den [Outlook-Verbindungstest](https://testconnectivity.microsoft.com/) aus, um sicherzustellen, dass er verläuft.
     

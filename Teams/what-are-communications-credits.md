@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Informieren Sie sich, welche Kommunikationsguthaben (PSTN-Verbrauch) Abrechnung, wie Sie Gebühren finden und welche Dienste Sie erhalten. '
-ms.openlocfilehash: b8462c7ad3c4f2820f1276be47fa4140ad79755a
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: c071ebf297714e81cdb8a508ebf313d0054fe633
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852122"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051569"
 ---
 # <a name="what-are-communications-credits"></a>Was ist Guthaben für Kommunikationen?
 
@@ -52,7 +52,7 @@ Guthaben für Kommunikationen ist eine praktische Möglichkeit, die Minuten in A
   
 ## <a name="what-are-the-communications-credits-rates"></a>Welche Tarife gelten für Guthaben für Kommunikationen?
 
-Wenn Sie sich Fragen, wie sich die Kosten für die Anrufe auf die Anrufpläne auszahlen, lesen Sie Gebühren für Kommunikations Kredite [für Anruf](https://products.office.com/en-us/microsoft-teams/online-meeting-solutions#Rates) Pläne (Scrollen Sie nach unten bis zu "siehe Gebühren für den Ort, an den Sie anrufen möchten").
+Wenn Sie sich Fragen, wie sich die Kosten für die Anrufe auf die Anrufpläne auszahlen, lesen Sie Gebühren für Kommunikations Kredite [für Anruf](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates) Pläne (Scrollen Sie nach unten bis zu "siehe Gebühren für den Ort, an den Sie anrufen möchten").
   
 ## <a name="what-is-it"></a>Was ist das?
 

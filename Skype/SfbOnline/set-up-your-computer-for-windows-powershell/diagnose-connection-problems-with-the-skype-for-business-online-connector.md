@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Problembehandlung beim Erstellen einer Remote-PowerShell-Sitzung zum Herstellen einer Verbindung mit Skype for Business Online, einschließlich Import Modul, paralleler Shell, Live-ID und Berechtigungsfehlern.
-ms.openlocfilehash: 873139f279114910bb802bc023ade35c0f84f7d1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f3de8d67079aaf4afeffdc63588f6806413383fc
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706270"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010688"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostizieren von Verbindungsproblemen mit dem Skype for Business Online-Connector
 
@@ -69,7 +69,7 @@ Das Skype for Business Online-Connectormodul kann nur in Windows PowerShell 3.0 
   
   - **Fehler**: *Import-Module: die Version der geladenen PowerShell lautet "2,0". Das Modul 'd:\\Programmdateien\\allgemeine Dateien\\Microsoft lync Server 2013\\-\\Module\\LyncOnlineConnector LyncOnlineConnector. psd1 ' erfordert eine minimale PowerShell-Version von ' 3,0 ', die ausgeführt werden soll. Überprüfen Sie die Installation der PowerShell, und versuchen Sie es erneut.*
 
-- **Lösung**: die einzige Möglichkeit, dieses Problem zu beheben, besteht darin, Windows PowerShell 3,0 zu installieren, die im Microsoft Download Center [https://www.microsoft.com/en-us/download/details.aspx?id=34595](https://www.microsoft.com/en-us/download/details.aspx?id=34595)unter verfügbar ist.
+- **Lösung**: die einzige Möglichkeit, dieses Problem zu beheben, besteht darin, Windows PowerShell 3,0 zu installieren, die im Microsoft Download Center [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595)unter verfügbar ist.
   
 ## <a name="failed-to-connect-to-live-id-server"></a>Fehler beim Herstellen der Verbindung mit dem Live ID-Server
 <a name="BKMKFailedConnect"> </a>
@@ -98,7 +98,7 @@ Als eine der Voraussetzungen für die Verwendung von PowerShell zum Verwalten vo
 
 - **Fehler**: *Get-CsWebTicket: kann das Live ID-Modul nicht laden. Stellen Sie sicher, dass die richtige Version des Live ID-Anmelde-Assistenten installiert ist.*
 
-- **Lösung**: der Microsoft Online Services-Anmelde Assistent steht im Microsoft Download Center des [Microsoft Online Services-Anmelde Assistenten für IT-Experten](https://www.microsoft.com/en-us/download/details.aspx?id=28177) zur Verfügung RTW
+- **Lösung**: der Microsoft Online Services-Anmelde Assistent steht im Microsoft Download Center des [Microsoft Online Services-Anmelde Assistenten für IT-Experten](https://www.microsoft.com/download/details.aspx?id=28177) zur Verfügung RTW
 
 ## <a name="logon-failed-for-the-user"></a>Fehler bei der Anmeldung des Benutzers
 <a name="BKMKLogonFailed"> </a>

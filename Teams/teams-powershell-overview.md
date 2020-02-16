@@ -15,12 +15,12 @@ f1.keywords:
 description: Hier erfahren Sie, wie Sie die PowerShell-Steuerelemente für die Verwaltung von Microsoft Teams verwenden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b211493bb5b0bfa3dea1abfc0c9b59eadcb4206
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c5eaf04a0244e35e7d9f7deb7d8afb135b3acb2c
+ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035357"
+ms.locfileid: "42052522"
 ---
 # <a name="teams-powershell-overview"></a>Übersicht über PowerShell für Microsoft Teams
 
@@ -79,7 +79,7 @@ Als wir unsere allgemein verfügbare Version unseres PowerShell-Moduls veröffen
 
 ## <a name="managing-policies-via-powershell"></a>Verwalten von Richtlinien über PowerShell
 
-Die Cmdlets für die Verwaltung von Richtlinien sind im [Skype for Business-Cmdlet-Modul](https://www.microsoft.com/download/details.aspx?id=39366)zu finden.
+Verwenden Sie die Cmdlets im [Skype for Business-Cmdlet-Modul](https://www.microsoft.com/download/details.aspx?id=39366) , um Richtlinien für einzelne Benutzer zu verwalten.
 
 > [!NOTE]
 > Die Cmdlets sind in ihrer PowerShell-Sitzung verfügbar, nachdem Sie eine Verbindung mit Skype for Business Online hergestellt haben. Weitere Informationen finden Sie unter [Verwalten von Skype for Business Online mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 

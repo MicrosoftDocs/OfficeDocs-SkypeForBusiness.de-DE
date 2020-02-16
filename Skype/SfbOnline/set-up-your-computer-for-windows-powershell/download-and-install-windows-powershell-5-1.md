@@ -20,12 +20,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Sie können Windows PowerShell 5.1 herunterladen, installieren und dann verwenden, um eine Remote-PowerShell-Sitzung zu erstellen, die eine Verbindung mit Skype for Business Online herstellt.
-ms.openlocfilehash: 227023d5c86b99a66ecdbdabd3b2973d0383a534
-ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
+ms.openlocfilehash: 64d1ed1b3e3031f5186a09289ab6e1d9088840cf
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41831151"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42029096"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Herunterladen und Installieren von Windows PowerShell 5.1
 
@@ -49,7 +49,7 @@ Um zu ermitteln, welche Version von Microsoft PowerShell Sie verwenden, gehen Si
     4.0
     </pre>
 
-    Wenn die Versionsnummer 5.1 zurückgegeben wird, führen Sie Windows PowerShell 5.1 aus. Wenn anstelle von 5.1 eine andere Versionsnummer zurückgegeben wird, müssen Sie Windows PowerShell 5.1 installieren. Sie können Windows Management Framework 5.1 (einschließlich Windows PowerShell 5.1) aus dem [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=54616) herunterladen.
+    Wenn die Versionsnummer 5.1 zurückgegeben wird, führen Sie Windows PowerShell 5.1 aus. Wenn anstelle von 5.1 eine andere Versionsnummer zurückgegeben wird, müssen Sie Windows PowerShell 5.1 installieren. Sie können Windows Management Framework 5.1 (einschließlich Windows PowerShell 5.1) aus dem [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=54616) herunterladen.
   
 Wenn Sie sich vergewissert haben, dass Windows PowerShell 5.1 installiert ist, müssen Sie sicherstellen, dass PowerShell für die Ausführung von Remoteskripts konfiguriert ist. Starten Sie dazu PowerShell als Administrator. Unter Windows 7, Windows Server 2008 R2, Windows Server 2012 oder Windows Server 2012 R2 gehen Sie wie folgt vor:
   

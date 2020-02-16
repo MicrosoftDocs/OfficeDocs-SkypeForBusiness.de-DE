@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: 'Hier erfahren Sie, wie Sie Skype for Business einrichten, damit Sie die Verfügbarkeit Ihrer Kollegen sehen können. '
-ms.openlocfilehash: 75294b62e516ef5e39a498f91ff6284c0a26cac5
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 80d0edfc5ba192f86d64d45d34116b55d43a5a25
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769728"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010898"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Konfigurieren der Anwesenheit in Skype for Business Online
 
@@ -37,7 +37,7 @@ Als **[Administrator](https://support.office.com/article/eac4d046-1afd-4f1a-85fc
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1. Wechseln Sie zum Admin Center #a0 **Admin** > Center**Skype for Business**.
+1. Wechseln Sie zum Admin Center > **Admin** > Center**Skype for Business**.
 
 2. Wählen Sie im **Skype for Business Admin Center**die Option **Organisation**aus.
 
@@ -50,9 +50,9 @@ Als **[Administrator](https://support.office.com/article/eac4d046-1afd-4f1a-85fc
 
 Informationen dazu, was Ihre Benutzer in Skype for Business ändern können, finden Sie in den folgenden Artikeln:
 
-- [Steuern des Zugriffs auf ihre Anwesenheitsinformationen in Skype for Business](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
+- [Steuern des Zugriffs auf ihre Anwesenheitsinformationen in Skype for Business](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
 
-- [Einrichten von Status Optionen in Skype for Business](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
+- [Einrichten von Status Optionen in Skype for Business](https://support.office.com/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

@@ -20,12 +20,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Am 31. Juli, 2021, wird das Programm für den Lebenszyklusende für die Integration von Skype for Business mit externen Audiokonferenz-Anbietern (Drittanbieter-ACP) abgeschlossen.
-ms.openlocfilehash: b9bd1640d615babab29a073aeeee2b1beb92fc02
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7ea6068d8715bd0df9e80041d70b8baf37abaf1b
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706690"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41985030"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programm zum Ende des Lebenszyklus zur Integration von Skype for Business mit Audiokonferenz-Anbietern von Drittanbietern 
 
@@ -47,7 +47,7 @@ Im Rahmen der Bekanntgabe des Starts des Programms "Ende des Lebenszyklus" haben
 
 Zur Vorbereitung dieser Änderung ermutigen wir betroffene Organisationen, Ihre aktivierten Benutzer über dieses geplante Update vor dem 31. Juli 2021 zu informieren. 
 
-Nach dem 31. Juli 2021 können Nutzer Skype for Business weiterhin ohne Unterbrechung Ihrer Online-Besprechungen nutzen. Organisationen müssen jedoch Ihre Benutzer für Audiokonferenzen aktivieren, die von Microsoft bereitgestellt werden, wenn Sie Einwahl-Audiokonferenzen mit Skype for Business oder Microsoft Teams benötigen. Weitere Informationen zu Microsoft-Audiokonferenzen finden Sie unter [Audiokonferenzen](https://products.office.com/en-us/skype-for-business/audio-conferencing). 
+Nach dem 31. Juli 2021 können Nutzer Skype for Business weiterhin ohne Unterbrechung Ihrer Online-Besprechungen nutzen. Organisationen müssen jedoch Ihre Benutzer für Audiokonferenzen aktivieren, die von Microsoft bereitgestellt werden, wenn Sie Einwahl-Audiokonferenzen mit Skype for Business oder Microsoft Teams benötigen. Weitere Informationen zu Microsoft-Audiokonferenzen finden Sie unter [Audiokonferenzen](https://products.office.com/skype-for-business/audio-conferencing). 
 
 Je nach dem gewünschten Endstatus einer Organisation können drei Pfade befolgt werden:
 

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie mithilfe des Integritäts Dashboards die Verbindung zwischen dem Sitzungs Grenz Controller und dem direkten Routing überwachen.
-ms.openlocfilehash: a1644eb94cc18bf149a5e866aae0faf4b41d1d67
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a89377c798295267b1e75f3ffa6efc19b8c4c37d
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836075"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42051801"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Status-Dashboard für direktes Routing
 
@@ -102,7 +102,7 @@ In der Detailansicht werden die folgenden zusätzlichen Parameter angezeigt:
 
 - **Gleichzeitiger Anruf**– zeigt an, wie viele gleichzeitige Anrufe der SBC verarbeitet hat. Diese Informationen sind hilfreich, um die Anzahl der gleichzeitig benötigten Kanäle vorherzusagen und den Trend zu sehen. Sie können die Daten nach Anzahl der Tage und in der Anrufrichtung (eingehend/ausgehend/alle Streams) verschieben.
 
-- **Netzwerkparameter** – alle Netzwerkparameter werden von der direkten Routing Schnittstelle zum Session Border Controller gemessen. Informationen zu den empfohlenen Werten finden Sie unter [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/prepare-network)und untersuchen der empfohlenen Werte für den Kunden Rand zu Microsoft Edge.
+- **Netzwerkparameter** – alle Netzwerkparameter werden von der direkten Routing Schnittstelle zum Session Border Controller gemessen. Informationen zu den empfohlenen Werten finden Sie unter [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network)und untersuchen der empfohlenen Werte für den Kunden Rand zu Microsoft Edge.
 
    - Jitter – ist das Millisekunden-Maß der Variation in der Verzögerungszeit für die Netzwerk Propagierung, die zwischen zwei Endpunkten mithilfe von RTCP (dem RTP-steuerelementprotokoll) berechnet wird.
 

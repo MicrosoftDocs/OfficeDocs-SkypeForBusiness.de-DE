@@ -28,12 +28,12 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: 'Informieren Sie sich, wie Sie Skype for Business so konfigurieren können, dass Benutzer mit Benutzern in einer anderen Organisation sprechen können, oder außerhalb von Kontakten mit Ihnen kommunizieren. '
-ms.openlocfilehash: bc0a59487d3cfd3e5721d60213d367c750349604
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 394613e3137c65e814cc08dd898ec797d560d1c6
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692940"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010938"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Nutzern gestatten, externe Skype for Business-Nutzer zu kontaktieren
 
@@ -51,7 +51,7 @@ Führen Sie die Schritte in diesem Artikel in folgenden Fällen aus:
 ## <a name="enable-business-to-business-communications-for-your-users"></a>Aktivieren der Business-to-Business-Kommunikation für die Benutzer
 <a name="bk_preview"> </a>
 
-Sie benötigen [Administratorberechtigungen](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in beiden Organisationen, um dies zu tun.
+Sie benötigen [Administratorberechtigungen](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in beiden Organisationen, um dies zu tun.
 
 ![Ein Symbol, das das Microsoft Teams](../images/teams-logo-30x30.png) -Logo **mit dem Team Admin Center** zeigt
   
@@ -112,9 +112,9 @@ Nachdem Sie die externe Kommunikation mit anderen Skype for Business-Benutzern a
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>Tipps zum Einrichten der Kommunikation mit Partnerunternehmen
 <a name="bk_preview"> </a>
 
-- Informationen zum Konfigurieren des Verbunds zwischen Skype for Business 2015 und Skype for Business Online finden Sie in diesem Artikel: [Konfigurieren des Föderations Kontakts mit Skype for Business Online](https://technet.microsoft.com/en-us/library/jj205126.aspx).
+- Informationen zum Konfigurieren des Verbunds zwischen Skype for Business 2015 und Skype for Business Online finden Sie in diesem Artikel: [Konfigurieren des Föderations Kontakts mit Skype for Business Online](https://technet.microsoft.com/library/jj205126.aspx).
     
-- Informationen zum Konfigurieren des Verbunds zwischen lync und Skype for Business Online finden Sie in diesem Artikel: [Konfigurieren der Föderations Unterstützung für einen lync Online-Kunden](https://technet.microsoft.com/en-us/library/hh202193.aspx).
+- Informationen zum Konfigurieren des Verbunds zwischen lync und Skype for Business Online finden Sie in diesem Artikel: [Konfigurieren der Föderations Unterstützung für einen lync Online-Kunden](https://technet.microsoft.com/library/hh202193.aspx).
     
 - Wenn zwei Skype for Business-Benutzer in Office 365 auf verschiedenen Domänen miteinander kommunizieren, können sie nur Skype for Business-Funktionen nutzen, die in beiden Organisationen aktiviert wurden (zum Beispiel Videounterhaltung oder Desktopfreigabe).
     

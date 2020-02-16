@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Der Meeting Migration Service (MMS) ist ein Dienst, der im Hintergrund ausgeführt wird und automatisch Skype for Business-und Microsoft Teams-Besprechungen für Benutzer aktualisiert. MMS wurde entwickelt, um zu verhindern, dass Benutzer das Besprechungs Migrations Tool ausführen können, um Ihre Skype for Business-und Microsoft Teams-Besprechungen zu aktualisieren.
-ms.openlocfilehash: 805bc7703024d4c6143ee909e715fa36deaa8e3c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5ce6f2ab5954ba0c076e9a4db432da3e93a75db1
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680352"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010978"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Verwenden des Besprechungs Migrations Diensts (MMS)
 
@@ -47,7 +47,7 @@ Standardmäßig wird in jedem dieser Fälle MMS automatisch ausgelöst, obwohl A
 - Das Postfach des Benutzers wird lokal in Exchange gehostet.
 - Der Benutzer wird von der Cloud zu Skype for Business Server lokal migriert.
 
-In diesen Situationen können Endbenutzer das [Besprechungs Migrations Tool](https://www.microsoft.com/en-us/download/details.aspx?id=51659) verwenden, um stattdessen eigene Besprechungen zu migrieren.
+In diesen Situationen können Endbenutzer das [Besprechungs Migrations Tool](https://www.microsoft.com/download/details.aspx?id=51659) verwenden, um stattdessen eigene Besprechungen zu migrieren.
 
 ## <a name="how-mms-works"></a>Funktionsweise von MMS
 

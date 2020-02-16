@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung einer automatischen Cloud-Telefonzentrale mit Skype for Business Server 2019
-ms.openlocfilehash: d34e298db9cdd8f1bbd0378e37c6d9aae2b02726
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f7a3799df083d1404a2d635ee38403cc2653b9ea
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41724225"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42037817"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planen automatischer Cloud-Telefonzentralen
 
@@ -98,7 +98,7 @@ Das Lernprogramm mit dem Titel [Small Business Beispiel: Einrichten einer automa
 Wenn Sie über eine solide Struktur verfügen, die Ihren Anforderungen entspricht, und ein Skript, das Kunden effizient leitet, fahren Sie mit [Konfigurieren von Ressourcenkonten](configure-onprem-ra.md)fort.
 
 > [!CAUTION]
-> Wie in [KB4480742](https://support.microsoft.com/en-us/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)erwähnt, wird das Verschieben Exchange um in Server 2015 erstellten automatischen Telefonzentralen auf Server mit Server 2019 nicht empfohlen. Vorläufig müssen Sie Sie in einem Skype for Business Server 2015-Pool aufbewahren, der im Koexistenzmodus ausgeführt wird.
+> Wie in [KB4480742](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)erwähnt, wird das Verschieben Exchange um in Server 2015 erstellten automatischen Telefonzentralen auf Server mit Server 2019 nicht empfohlen. Vorläufig müssen Sie Sie in einem Skype for Business Server 2015-Pool aufbewahren, der im Koexistenzmodus ausgeführt wird.
 
 ## <a name="see-also"></a>Siehe auch
 

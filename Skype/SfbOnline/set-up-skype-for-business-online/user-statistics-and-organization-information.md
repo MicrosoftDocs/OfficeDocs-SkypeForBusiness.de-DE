@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.DashboardOrganizationInformation
 - ms.lync.lac.DashboardUserStatistics
 description: Hier erfahren Sie, welche Benutzerstatistiken für Skype for Business verfügbar sind, beispielsweise die Anzahl der aktivierten Benutzer, der für Konferenzen aktivierten Benutzer oder der für Office 365 aktivierten Benutzer.
-ms.openlocfilehash: 8771171f9b6e2bf0d2590e9a8a66242d4379e716
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f4d98b8c8a57551dc71d1b38436c204aff67ec27
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769528"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010748"
 ---
 # <a name="user-statistics-and-organization-information"></a>Benutzerstatistiken und Organisationsinformationen
 
@@ -41,7 +41,7 @@ Im Skype for Business-Dashboard sehen Sie auf einen Blick, wie der Dienst für I
 |Skype for Business Online-Benutzer  <br/> |Informationen zum Hinzufügen oder Sperren von Personen für die Verwendung der Skype for Business-App finden Sie unter [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) oder [Entfernen von Lizenzen für Benutzer in Office 365 Business](https://support.office.com/article/9b497c85-d0a4-4735-80fa-d3565bc05bd1).  <br/> Eine vollständige Liste aller Schritte, die Sie ausführen müssen, wenn ein Benutzer Ihr Unternehmen verlässt, finden Sie unter [Entfernen eines ehemaligen Mitarbeiters aus Office 365](https://support.office.com/article/44d96212-4d90-4027-9aa9-a95eddb367d1).  <br/> |
 |„Users enabled for Audio Conferencing“ (Für Audiokonferenzen aktivierte Benutzer)  <br/> |Wenn Sie Personen für Audiokonferenzen aktivieren möchten, lesen Sie [Testen oder kaufen von Audiokonferenzen in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md).  <br/> |
 |„Users in the cloud“ (Benutzer in der Cloud)  <br/> |Dies ist die Anzahl der Skype for Business Online-Benutzer, die über Office 365-Konten verfügen.  <br/> Informationen zum Hinzufügen von Benutzern zu Ihrem Office 365-Abonnement (das heißt zum Erstellen von Office 365-Konten für diese Benutzer) finden Sie unter [Hinzufügen von einzelnen Benutzern oder Massenhinzufügen von Benutzern zu Office 365 – Administratorhilfe](https://support.office.com/article/1970f7d6-03b5-442f-b385-5880b9c256ec).  <br/> |
-|Online synchronisierte und verwaltete Benutzer  <br/> |Dies ist die Anzahl der Hybridbenutzer, die in einer lokalen Skype for Business Server-Bereitstellung erstellt wurden, aber mit Office 365 synchronisiert werden.  <br/> Informationen zum Einrichten einer hybriden Skype for Business-Anbindung finden Sie unter [Bereitstellen von Hybrid-Anbindung zwischen Skype for Business Server und Skype for Business Online](https://technet.microsoft.com/en-us/library/jj204669.aspx).  <br/> |
+|Online synchronisierte und verwaltete Benutzer  <br/> |Dies ist die Anzahl der Hybridbenutzer, die in einer lokalen Skype for Business Server-Bereitstellung erstellt wurden, aber mit Office 365 synchronisiert werden.  <br/> Informationen zum Einrichten einer hybriden Skype for Business-Anbindung finden Sie unter [Bereitstellen von Hybrid-Anbindung zwischen Skype for Business Server und Skype for Business Online](https://technet.microsoft.com/library/jj204669.aspx).  <br/> |
    
 > [!NOTE]
 > Wenn Sie die Angabe „Nicht verfügbar“ sehen, bedeutet dies, dass keine Informationen vorliegen oder Fehler aufgetreten sind. 

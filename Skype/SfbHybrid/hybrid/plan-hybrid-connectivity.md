@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Planungsüberlegungen für die Implementierung einer hybriden Konnektivität zwischen Skype for Business Server und Skype for Business Online oder Teams.
-ms.openlocfilehash: 55986df708c1ce190605ecef77b3789ae7e55db5
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 1a1513b307c6f55f6b403a0d5db85ac14d1f7a6f
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41756009"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42043377"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planen der Hybridkonnektivität zwischen Skype for Business Server und Office 365
 
@@ -68,7 +68,7 @@ Um eine hybride Verbindung zwischen Ihrer lokalen Umgebung und Office 365 Kommun
 - Ein Microsoft Office 365-Mandant mit aktivierter Skype for Business Online.
     > [!NOTE]
     > Sie können nur einen einzelnen Mandanten für eine Hybrid Konfiguration mit Ihrer lokalen Bereitstellung verwenden.
-- Azure Active Directory Connect, um Ihr lokales Verzeichnis mit Office 365 zu synchronisieren. Weitere Informationen finden Sie unter [Azure AD Connect: Accounts and Permissions](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
+- Azure Active Directory Connect, um Ihr lokales Verzeichnis mit Office 365 zu synchronisieren. Weitere Informationen finden Sie unter [Azure AD Connect: Accounts and Permissions](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 - Skype for Business Server Verwaltungstools.  Diese sind erforderlich, um Benutzer von der lokalen in die Cloud zu migrieren. Diese Tools müssen auf einem Server mit Zugriff auf die lokale Bereitstellung und das Internet installiert werden.
 - Online Verwaltungstools.  Sie können entweder das Teamadministrator Center oder Windows PowerShell verwenden, um Teams und Skype for Business Online zu verwalten. Wenn Sie PowerShell zum Verwalten von Teams oder Skype for Business Online verwenden möchten, laden Sie den Skype for Business Online Connector herunter, und installieren Sie ihn.
 - Der freigegebene SIP-Adressraum muss aktiviert sein, und Ihre lokale Bereitstellung muss für die Verwendung von Office 365 als Hostinganbieter konfiguriert sein. Weitere Informationen zu den Schritten, die zum Konfigurieren von Hybrid Konnektivität erforderlich sind, finden Sie unter [configure Hybrid Connectivity](configure-hybrid-connectivity.md).
@@ -89,7 +89,7 @@ Wenn Sie Ihre Bereitstellung für eine hybridbereitstellung mit **Teams oder Sky
   - Lync Server 2013 und Skype for Business Server 2019
   - Lync Server 2013 und Skype for Business Server 2015
 
-*Wenn Hybrid-VoIP in einer beliebigen Topologie gewünscht wird*, muss sowohl der Edgeserver als Verbund Edge als auch der mit dem SIP-Partnerverbund verknüpfte Pool Skype for Business 2015 oder höher installiert sein. Benutzer können in einem lync 2013 Pool verbleiben, falls vorhanden. Weitere Informationen finden Sie unter [Plan Phone System with PSTN Connectivity in Skype for Business Server](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
+*Wenn Hybrid-VoIP in einer beliebigen Topologie gewünscht wird*, muss sowohl der Edgeserver als Verbund Edge als auch der mit dem SIP-Partnerverbund verknüpfte Pool Skype for Business 2015 oder höher installiert sein. Benutzer können in einem lync 2013 Pool verbleiben, falls vorhanden. Weitere Informationen finden Sie unter [Plan Phone System with PSTN Connectivity in Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
 
 Die folgenden Topologien, die **lync Server 2010 umfassen, werden mit Skype for Business Online** für Chatnachrichten und Besprechungen unterstützt.  Topologien, die **lync Server 2010 enthalten, werden für Hybrid-VoIP und-Teams nicht unterstützt**.
 
@@ -112,7 +112,7 @@ Microsoft unterstützt die folgenden Typen von Hybrid Szenarien mit mehreren Ges
 - **Mehrere Bereitstellungen von Skype for Business Server in mehreren Gesamtstrukturen.** Diese Konfiguration kann infolge von Fusions-und Akquisitions Szenarien sowie in komplexeren Unternehmen auftreten.  Die Konsolidierung aller Benutzer von lokal in der Cloud in einem einzigen Office 365 Mandanten kann für jede Organisation mit mehreren Skype for Business-Bereitstellungen erreicht werden, vorausgesetzt, die folgenden Hauptanforderungen werden erfüllt:
 
   - Es darf höchstens ein Office 365-Mandant involviert sein. Eine Konsolidierung wird in Szenarien mit mehr als einem Office 365-Mandanten nicht unterstützt.
-  - Zu einem bestimmten Zeitpunkt kann sich nur eine lokale Skype for Business Gesamtstruktur im Hybrid Modus befinden (freigegebener SIP-Adressraum). Alle anderen lokalen Skype for Business Gesamtstrukturen müssen vollständig lokal (und vermutlich miteinander verbunden) bleiben. Beachten Sie, dass diese anderen lokalen Organisationen mit Aad, falls gewünscht, mit [neuen Funktionen synchronisiert werden können, um Online-SIP-Domänen zu deaktivieren](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) , die ab Dezember 2018 verfügbar sind.
+  - Zu einem bestimmten Zeitpunkt kann sich nur eine lokale Skype for Business Gesamtstruktur im Hybrid Modus befinden (freigegebener SIP-Adressraum). Alle anderen lokalen Skype for Business Gesamtstrukturen müssen vollständig lokal (und vermutlich miteinander verbunden) bleiben. Beachten Sie, dass diese anderen lokalen Organisationen mit Aad, falls gewünscht, mit [neuen Funktionen synchronisiert werden können, um Online-SIP-Domänen zu deaktivieren](https://docs.microsoft.com/powershell/module/skype/disable-csonlinesipdomain) , die ab Dezember 2018 verfügbar sind.
 
     Kunden mit Bereitstellungen von Skype for Business in mehreren Gesamtstrukturen müssen jede Skype for Business Gesamtstruktur einzeln in den Office 365 Mandanten mit der Funktion "Split-Domain" (Shared SIP Address Space) migrieren und dann Hybrid mit dem lokale Bereitstellung, bevor Sie fortfahren, um die nächste lokale Skype for Business-Bereitstellung zu migrieren. Darüber hinaus verbleiben lokale Benutzer vor der Migration in die Cloud in einem Verbund Staat mit allen Benutzern, die nicht im lokalen Verzeichnis des Benutzers dargestellt werden. Weitere Informationen finden Sie unter [Cloud Consolidation for Teams and Skype for Business](cloud-consolidation.md).
 

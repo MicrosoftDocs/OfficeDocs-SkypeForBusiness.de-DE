@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Die folgenden Abschnitte enthalten Anleitungen zum Konfigurieren einer Umgebung mit mehreren Gesamtstrukturen in einem Ressourcen-Benutzer-Gesamtstrukturmodell, um Skype for Business Funktionalität in einem Hybrid Szenario bereitzustellen.
-ms.openlocfilehash: f018699040fc202cbe827a2b8b05bd1f4371e190
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 33945b245009a221d709e13d587f435aa4c054d8
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726945"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "41983040"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Bereitstelleneiner Topologie mit einer Ressourcengesamtstruktur
  
@@ -48,7 +48,7 @@ Skype for Business lokal verwalteten Benutzer können Exchange lokal oder online
   
 ## <a name="configure-forest-trusts"></a>Konfigurieren von Gesamtstrukturvertrauensstellungen
 
-In einer Topologie mit Ressourcengesamtstruktur müssen die Ressourcengesamtstrukturen, die Skype for Business Server hosten, jeder Kontogesamtstruktur, die Benutzerkonten enthält, die darauf zugreifen sollen, Vertrauen. Wenn Sie über mehrere Benutzergesamtstrukturen verfügen, ist es wichtig, dass die namens Suffix-Weiterleitung für jede dieser Gesamtstrukturvertrauensstellungen aktiviert ist, um die gesamtstrukturübergreifende Authentifizierung zu aktivieren. Anweisungen finden Sie unter [Verwalten von Gesamtstruktur-Vertrauensstellungen](https://technet.microsoft.com/en-us/library/cc772440.aspx). Wenn Sie Exchange Server in einer anderen Gesamtstruktur bereitgestellt haben und diese Funktionalität für Skype for Business Benutzer bereitstellt, muss die Gesamtstruktur, die Exchange hostet, dem Gesamtstruktur Hosting Skype for Business Server Vertrauen. Wenn beispielsweise Exchange in der Kontogesamtstruktur bereitgestellt wurde, bedeutet dies effektiv eine bidirektionale Vertrauensstellung zwischen dem Konto, und Skype for Business Gesamtstrukturen sind in dieser Konfiguration erforderlich.
+In einer Topologie mit Ressourcengesamtstruktur müssen die Ressourcengesamtstrukturen, die Skype for Business Server hosten, jeder Kontogesamtstruktur, die Benutzerkonten enthält, die darauf zugreifen sollen, Vertrauen. Wenn Sie über mehrere Benutzergesamtstrukturen verfügen, ist es wichtig, dass die namens Suffix-Weiterleitung für jede dieser Gesamtstrukturvertrauensstellungen aktiviert ist, um die gesamtstrukturübergreifende Authentifizierung zu aktivieren. Anweisungen finden Sie unter [Verwalten von Gesamtstruktur-Vertrauensstellungen](https://technet.microsoft.com/library/cc772440.aspx). Wenn Sie Exchange Server in einer anderen Gesamtstruktur bereitgestellt haben und diese Funktionalität für Skype for Business Benutzer bereitstellt, muss die Gesamtstruktur, die Exchange hostet, dem Gesamtstruktur Hosting Skype for Business Server Vertrauen. Wenn beispielsweise Exchange in der Kontogesamtstruktur bereitgestellt wurde, bedeutet dies effektiv eine bidirektionale Vertrauensstellung zwischen dem Konto, und Skype for Business Gesamtstrukturen sind in dieser Konfiguration erforderlich.
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Synchronisieren von Konten in der Gesamtstruktur-Host Skype for Business
 
@@ -140,6 +140,6 @@ Befolgten Sie die bewährten Methoden für die Konfiguration Skype for Business 
   
 ## <a name="configure-hybrid-connectivity-for-exchange-server"></a>Konfigurieren der Hybrid Konnektivität für Exchange Server
 
-Führen Sie bei Bedarf die bewährten Methoden zum Konfigurieren der Exchange-hybridbereitstellung aus. Weitere Informationen finden Sie unter [Exchange Server Hybrid Bereitstellungen](https://docs.microsoft.com/en-us/exchange/exchange-hybrid). 
+Führen Sie bei Bedarf die bewährten Methoden zum Konfigurieren der Exchange-hybridbereitstellung aus. Weitere Informationen finden Sie unter [Exchange Server Hybrid Bereitstellungen](https://docs.microsoft.com/exchange/exchange-hybrid). 
   
 

@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: 'Erfahren Sie, wie Sie Ihre Domäne, Benutzer, Chat-Nachrichten und Anwesenheitsinformationen für Ihr Unternehmen einrichten müssen, um Skype for Business zu installieren. Erfahren Sie außerdem, wie Sie Audio-Konferenzen, das Telefonsystem und Anrufpläne sowie Skype-Livekonferenzen einrichten können. '
-ms.openlocfilehash: dda75716014c81b2c1fcf333bfd7e9e05ea606e0
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 7ac027549f45c55f62c6fc83d7ebc03d0afef5d2
+ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769598"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42010788"
 ---
 # <a name="set-up-skype-for-business-online"></a>Einrichten von Skype for Business Online.
 
@@ -41,7 +41,7 @@ Es sieht so aus, als würden Sie Hilfe beim Einrichten von Skype mit Ihrem Offic
 
 ## <a name="1-plan-for-skype-for-business"></a>1. Plan für Skype for Business
 
-Wenn Sie **[Office 365 Business Premium](https://products.office.com/en-us/business/office-365-business-premium)** oder **Business Essentials** verwenden, können Sie Skype for Business für Onlineanrufe an andere Personen in Ihrem Unternehmen verwenden, die in Ihr Abonnement eingeschlossen sind. Wenn Ihr Unternehmen beispielsweise 10 Mitarbeiter hat, sind Sie in der Lage, [Skype for Business für Chats und Livekonferenzen zu nutzen](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) sowie mit [Skype for Business Besprechungen abzuhalten](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851), nachdem Sie die unten genannten Schritte 2 bis 6 ausgeführt haben. Sie können sogar eine [Skype for Business-Konferenz in Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) einrichten.
+Wenn Sie **[Office 365 Business Premium](https://products.office.com/business/office-365-business-premium)** oder **Business Essentials** verwenden, können Sie Skype for Business für Onlineanrufe an andere Personen in Ihrem Unternehmen verwenden, die in Ihr Abonnement eingeschlossen sind. Wenn Ihr Unternehmen beispielsweise 10 Mitarbeiter hat, sind Sie in der Lage, [Skype for Business für Chats und Livekonferenzen zu nutzen](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) sowie mit [Skype for Business Besprechungen abzuhalten](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851), nachdem Sie die unten genannten Schritte 2 bis 6 ausgeführt haben. Sie können sogar eine [Skype for Business-Konferenz in Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) einrichten.
 
 Gehen Sie wie folgt vor, wenn Sie Skype for Business zum Tätigen und Annehmen von **Anrufen** von Personen *außerhalb* Ihres Unternehmens verwenden möchten:
 
