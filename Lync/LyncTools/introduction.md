@@ -48,7 +48,7 @@ Das lync Server 2013 Stress and Performance-Tool (als LyncPerfTool bezeichnet) k
 <tbody>
 <tr class="odd">
 <td><p>Instant Messaging und Anwesenheit</p></td>
-<td><p>Audiokonferenzen</p></td>
+<td><p>Audiokonferenz</p></td>
 </tr>
 <tr class="even">
 <td><p>Anwendungsfreigabe</p></td>

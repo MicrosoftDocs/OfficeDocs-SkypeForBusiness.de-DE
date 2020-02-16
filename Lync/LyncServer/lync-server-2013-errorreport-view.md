@@ -148,7 +148,7 @@ In der errorreport-Ansicht werden Informationen zu gemeldeten Fehlern gespeicher
 <td><p>Name des Servers, von dem der Fehler stammt (wenn der Bericht von einer Serverkomponente gesendet wurde).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Application</strong></p></td>
+<td><p><strong>Anwendung</strong></p></td>
 <td><p>nvarchar (256)</p></td>
 <td><p>Name der Anwendung, von der der Fehler stammt (wenn der Bericht von einer Serverkomponente gesendet wurde).</p></td>
 </tr>

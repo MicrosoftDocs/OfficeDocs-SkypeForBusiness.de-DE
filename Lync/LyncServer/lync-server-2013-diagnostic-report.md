@@ -124,7 +124,7 @@ In der folgenden Tabelle sind die im Diagnosebericht enthaltenen Informationen f
 <td><p>Typ der fehlerhaften Medieninhalte. Ein gebräuchlicher Inhaltstyp ist beispielsweise Application/sdp. SDP (Session Description Protocol) ist ein Standardinternetprotokoll, das für Sitzungsankündigungen, Sitzungseinladungen und andere Formen von Einladungen für Multimediasitzungen verwendet wird.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Application</strong></p></td>
+<td><p><strong>Anwendung</strong></p></td>
 <td><p>Nein</p></td>
 <td><p>Anwendung, die am Fehler beteiligt ist.</p></td>
 </tr>
