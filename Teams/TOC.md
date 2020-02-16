@@ -41,6 +41,7 @@
 ## [Einrichten von Kanalmoderation in Teams](manage-channel-moderation-in-teams.md)
 ## [Verwalten von Messagingrichtlinien](messaging-policies-in-teams.md)
 ## [Anwesenheit in Microsoft Teams](presence-admins.md)
+## [Verwalten von Tags in Teams](manage-tags.md)
 ## [Anzeigen teamübergreifender und teambezogener Analysen in Microsoft Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Ablauf und Verlängerung von Microsoft Teams](team-expiration-renewal.md)
 ## [Archivieren oder Löschen eines Teams](archive-or-delete-a-team.md)
@@ -95,6 +96,7 @@
 ### [Verwalten der kostenlosen Version von Teams](manage-freemium.md)
 ### [Zuweisen von Teambesitzern und -mitgliedern in Teams](assign-roles-permissions.md)
 ### [Teams-Benutzereinstellungen im Batch bearbeiten](edit-user-settings-in-bulk.md)
+### [Zuweisen von Richtlinien zu Ihren Benutzern](assign-policies.md)
 ### [Verwalten von Richtlinien für App-Berechtigungen in Teams](teams-app-permission-policies.md)
 ### [Verwalten von Richtlinien für App-Setup in Teams](teams-app-setup-policies.md)
 ### [Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams](teams-custom-app-policies-and-settings.md)
@@ -636,7 +638,6 @@
 ## [AppLocker-Anwendungssteuerungsrichtlinien in Teams](applocker-in-teams.md)
 ## Aufbewahrungsrichtlinien in Teams
 ### [Übersicht](retention-policies.md)
-### [Häufig gestellte Fragen zu Aufbewahrungsrichtlinien](retention-policies-FAQ.md)
 ### [Bekannte Probleme im Zusammenhang mit Aufbewahrungsrichtlinien](retention-policies-known-issues.md)
 ## [Speicherort von Daten in Teams](location-of-data-in-teams.md)
 ## [Konformitätserklärung zur Barrierefreiheit von Microsoft Teams in Frankreich](accessibility-declaration-of-conformance-in-france-for-teams.md)
