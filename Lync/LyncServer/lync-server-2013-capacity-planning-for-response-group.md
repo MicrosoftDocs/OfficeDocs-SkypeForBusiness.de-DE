@@ -80,7 +80,7 @@ In der folgenden Tabelle wird das Benutzermodell der Reaktionsgruppe beschrieben
 <tr class="odd">
 <td><p>Eingehende Anrufe pro Sekunde</p></td>
 <td><p>16 </p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="even">
 <td><p>Gleichzeitige mit interaktiver Sprachantwort (IVR) oder Wartemusik (MoH) verbundene Anrufe</p></td>

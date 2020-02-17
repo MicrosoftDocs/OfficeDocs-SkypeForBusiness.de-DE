@@ -120,19 +120,19 @@ tblPrincipalType enthält Prinzipaltypen zur Kategorisierung des Inhalts der tbl
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Any</p></td>
 <td><p>Allgemeiner Prinzipal ohne bekannten Typ. Keine Verwendung in tblPrincipal-Tabelle.</p></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>AnyUser</p></td>
 <td><p>Allgemeiner Prinzipal vom Typ Benutzer. Keine Verwendung in tblPrincipal-Tabelle.</p></td>
 <td><p>Ja</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>AnyGroup</p></td>
 <td><p>Allgemeiner Prinzipal mit Gruppensemantik. Keine Verwendung in tblPrincipal-Tabelle.</p></td>
 <td></td>

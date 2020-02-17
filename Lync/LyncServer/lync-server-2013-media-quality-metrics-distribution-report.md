@@ -53,15 +53,15 @@ Der Bericht zur Verteilung von Medienqualität-Metriken ermöglicht Ihnen das An
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="even">
