@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Informationen zum Einrichten von Telefonen im öffentlichen Bereich für Lobbies, Empfangsbereiche und Konferenzräume '
-ms.openlocfilehash: dff06d43e196b999d06c9fa78e7d66ad7a162998
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5997137420a9cac0517f67a81c7dedc7b779b715
+ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838035"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42089728"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Einrichten der Lizenz für Telefone für gemeinsame Bereiche für Microsoft Teams
 > [!NOTE]
@@ -50,7 +50,10 @@ Zunächst müssen Sie eine Lizenz für das Common Area Phone (GAP) erwerben und 
 4. Erweitern Sie **Add-on-Abonnements** , und klicken Sie dann, um einen Anrufplan zu kaufen. Wählen Sie entweder den Plan für **Inlandsanrufe** oder den Tarif für **Inlands-und Auslandsgespräche**.
 
 > [!NOTE]
-> Sie benötigen für das Telefonsystem keine Lizenz. Sie ist in der Lizenz Telefon für gemeinsame Bereiche enthalten.
+> Wenn Sie das direkte Routing von Microsoft Phone System verwenden, benötigen Sie keine Anruf Plan Lizenz.
+
+> [!NOTE]
+> Sie müssen keine Telefon System Lizenz hinzufügen. Sie ist in der Lizenz Telefon für gemeinsame Bereiche enthalten.
 
 Weitere Informationen zu Lizenzen finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -89,6 +92,9 @@ Die Telefon Lizenz für den öffentlichen Bereich unterstützt:
 6. Weisen Sie dem Benutzer die Lizenzen zu. Klicken Sie auf der gleichen Seite auf **Produktlizenzen** erweitern. Aktivieren Sie das Telefon für den öffentlichen Bereich, und wählen Sie entweder einen **Inlandsanruf Plan** oder einen **Plan für Inlands-und Auslandsanrufe**aus. 
 
     ![Screenshot mit Lizenzzuweisung](media/set-up-common-area-phone-image2.png)
+
+> [!NOTE]
+> Wenn Sie das direkte Routing von Microsoft Phone System verwenden, müssen Sie keine Anruf Plan Lizenz zuweisen.
 
 Weitere Informationen finden Sie unter [Hinzufügen eines Benutzers](https://docs.microsoft.com/office365/admin/add-users/add-users?redirectSourcePath=%252farticle%252f1970f7d6-03b5-442f-b385-5880b9c256ec&view=o365-worldwide).
 

@@ -17,18 +17,20 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 53c17cdd3a1b6726e0219147e4dadd1cba7b25ff
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 0f846029002529d221b079140cf7de8ae618f26c
+ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827933"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42089738"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Übertragen von Telefonnummern an Microsoft Teams
 
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+
 Verwenden Sie den Porting-Assistenten im Microsoft Teams Admin Center, um ihre Telefonnummern von Ihrem aktuellen Dienstanbieter in Teams zu übertragen. Nachdem Sie Ihre Telefonnummern in Teams portiert haben, wird Microsoft Ihr Dienstanbieter und berechnet Ihnen diese Telefonnummern.
 
-Bevor Sie beginnen, empfehlen wir Ihnen, die Informationen unter [Was ist ein Portierungs Auftrag?](port-order-overview.md)zu überprüfen. Wenn Sie über Servicenummern für Einwahlkonferenz Brücken, automatische Telefonzentralen oder andere Dienstnummern, gebührenfreie Telefonnummern oder über mehr als 999-Benutzer (Teilnehmer)-Telefonnummern verfügen, die Sie an Teams übertragen müssen, lesen Sie [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , um die richtigen Formulare herunterzuladen und an uns zu senden.
+Bevor Sie beginnen, empfehlen wir Ihnen, die Informationen in [einem Port Auftrag](port-order-overview.md) zu überprüfen. Wenn Sie über Servicenummern für Einwahlkonferenz Brücken, automatische Telefonzentralen oder andere Dienstnummern, gebührenfreie Telefonnummern oder über mehr als 999-Benutzer (Teilnehmer)-Telefonnummern verfügen, die Sie an Teams übertragen müssen, lesen Sie [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) , um die richtigen Formulare herunterzuladen und an uns zu senden.
 
   > [!NOTE]
   > Wir verarbeiten Port Bestellungen für die Übertragung von Telefonnummern nur an Werktagen in den USA und nicht an Feiertagen oder an Wochenenden.
@@ -36,7 +38,7 @@ Bevor Sie beginnen, empfehlen wir Ihnen, die Informationen unter [Was ist ein Po
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Erstellen eines Portierungs Auftrags und übertragen von Telefonnummern in Teams
 
 > [!NOTE]
-> Wenn Ihr Land oder Ihre Region im Porting-Assistenten im Microsoft Teams Admin Center nicht aufgeführt ist, können Sie [einen Portierungs Auftrag manuell übermitteln](manually-submit-port-order.md).
+> **Derzeit können Sie mit diesem Assistententelefon Nummern für Großbritannien und Kanada abrufen**. Wenn Sie Telefonnummern für andere Länder und Regionen erhalten möchten, können Sie [einen Portierungs Auftrag manuell übermitteln](manually-submit-port-order.md). Wenn Sie das Formular abrufen möchten, das Sie manuell übermitteln müssen, wählen Sie in der Dropdownliste unter [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)Ihr Land oder Ihre Region aus.
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP** > -**Telefonnummern**. Klicken Sie auf **Zahlen**, und klicken Sie dann auf **Port** , um den Porting-Assistenten zu starten.
 2. Überprüfen Sie die Informationen auf der Seite " **Erste Schritte** ", und klicken Sie dann auf **weiter**, wenn Sie fertig sind.
@@ -87,7 +89,7 @@ Bevor Sie beginnen, empfehlen wir Ihnen, die Informationen unter [Was ist ein Po
 
 Wenn wir Ihren Portierungs Auftrag erhalten, erhalten Sie eine e-Mail, die Ihre Anfrage überprüft. Ihre Anfrage wird täglich überprüft und aktualisiert, und Sie werden über Ihren Status und Status per e-Mail benachrichtigt. Wenn Ihre Anfrage abgelehnt wird, werden Sie aufgefordert, ein Support-Ticket zu öffnen.
 
-Wenn Sie den Status Ihrer Portierungs Reihenfolge anzeigen möchten, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu #a0 **VoIP** > -**Port Bestellungen**, und klicken Sie dann auf **Bestellverlauf**. Jeder Port Auftragsstatus wird in der Spalte **Status** aufgelistet. Weitere Informationen finden Sie unter [Was ist der Status Ihrer Portierungs Aufträge?](port-order-status.md).
+Wenn Sie den Status Ihrer Portierungs Reihenfolge anzeigen möchten, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu > **VoIP** > -**Port Bestellungen**, und klicken Sie dann auf **Bestellverlauf**. Jeder Port Auftragsstatus wird in der Spalte **Status** aufgelistet. Weitere Informationen finden Sie unter [Was ist der Status Ihrer Portierungs Aufträge?](port-order-status.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
