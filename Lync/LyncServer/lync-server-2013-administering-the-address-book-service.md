@@ -85,17 +85,17 @@ Die Aktivierung der Adressbuch Server füllt die AbAttribute-Tabelle mit den in 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>givenName</p></td>
 <td><p>0x01400000</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>SN</p></td>
 <td><p>0x02400000</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>displayName</p></td>
 <td><p>0x03420000</p></td>
 </tr>
@@ -135,7 +135,7 @@ Die Aktivierung der Adressbuch Server füllt die AbAttribute-Tabelle mit den in 
 <td><p>0x0A302800</p></td>
 </tr>
 <tr class="odd">
-<td><p>11</p></td>
+<td><p>11 </p></td>
 <td><p>Mobil</p></td>
 <td><p>0x0B622800</p></td>
 </tr>

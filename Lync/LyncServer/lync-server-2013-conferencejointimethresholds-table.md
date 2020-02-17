@@ -80,7 +80,7 @@ Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
 <td></td>
 <td><p>Oberer Grenzwert für die Klassifizierung. Gültige Werte sind:</p>
 <ol>
-<li><p>2 </p></li>
+<li><p>2</p></li>
 <li><p>5 </p></li>
 <li><p>10 </p></li>
 </ol></td>
