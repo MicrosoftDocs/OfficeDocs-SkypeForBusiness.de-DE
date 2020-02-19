@@ -12,20 +12,20 @@ ms:contentKeyID: 48185436
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a696d0ad9ece8d807011c4ff40463b2c574ef81d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 61154d7726d691400d14400043b31ea26d68aba5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038577"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42119278"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="voice-support-in-lync-server-2013"></a><span data-ttu-id="835ad-102">Sprachunterstützung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="835ad-102">Voice support in Lync Server 2013</span></span>
+# <a name="voice-support-in-lync-server-2013"></a><span data-ttu-id="4a1c5-102">Sprachunterstützung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4a1c5-102">Voice support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42038577"
 
 <span> </span>
 
-<span data-ttu-id="835ad-103">_**Letztes Änderungsstand des Themas:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="835ad-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="4a1c5-103">_**Letztes Änderungsstand des Themas:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="4a1c5-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="835ad-104">Wenn Ihre Bereitstellung einen Front-End-Pool umfasst, können Sie Unterstützung für Enterprise-VoIP, die Voice over IP-Lösung (VoIP) von Microsoft, bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="835ad-104">If your deployment includes a Front End pool, you can deploy support for Enterprise Voice, the Voice over IP (VoIP) solution offered by Microsoft.</span></span> <span data-ttu-id="835ad-105">VoIP (Voice over IP) stellt eine softwarebasierte Alternative zur Telefonie über herkömmliche Nebenstellenanlagen dar.</span><span class="sxs-lookup"><span data-stu-id="835ad-105">Voice over IP (VoIP) is a software-based alternative to traditional PBX-based telephony.</span></span> <span data-ttu-id="835ad-106">Wenngleich das Anruferlebnis einer VoIP-Lösung dem herkömmlicher Telefonanlagen ähnelt, umfasst Enterprise-VoIP Funktionen, die eine vielfältigere Kommunikation und Zusammenarbeit ermöglichen.</span><span class="sxs-lookup"><span data-stu-id="835ad-106">Although the VoIP call experience is similar to the traditional telephony experience, Enterprise Voice includes features that enable richer communication and collaboration.</span></span> <span data-ttu-id="835ad-107">Beispielsweise kann Ihre Enterprise-VoIP-Bereitstellung so konfiguriert werden, dass lync 2013 und lync Phone Edition Benutzer erweiterte Anwesenheitsinformationen oder Standortinformationen für Kontakte im Adressbuch Ihrer Organisation anzeigen können.</span><span class="sxs-lookup"><span data-stu-id="835ad-107">For example, your Enterprise Voice deployment can be configured to make it possible for Lync 2013 and Lync Phone Edition users to view enhanced presence information or location information for contacts in your organization’s address book.</span></span> <span data-ttu-id="835ad-108">Einige lync Server 2013 Funktionen werden durch Integration mit anderen lync Server 2013 Arbeitsauslastungen und mit Exchange Unified Messaging (um) aktiviert.</span><span class="sxs-lookup"><span data-stu-id="835ad-108">Some Lync Server 2013 features are enabled through integration with other Lync Server 2013 workloads and with Exchange Unified Messaging (UM).</span></span> <span data-ttu-id="835ad-109">Ausführliche Informationen zu den Features und Funktionen von Enterprise-VoIP sowie zur Planung der Bereitstellung finden Sie unter [Planning for Enterprise Voice in lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="835ad-109">For details about the features and functionality available with Enterprise Voice and how to plan for deployment, see [Planning for Enterprise Voice in Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md) in the Planning documentation.</span></span>
+<span data-ttu-id="4a1c5-104">Wenn Ihre Bereitstellung einen Front-End-Pool umfasst, können Sie Unterstützung für Enterprise-VoIP, die Voice over IP-Lösung (VoIP) von Microsoft, bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="4a1c5-104">If your deployment includes a Front End pool, you can deploy support for Enterprise Voice, the Voice over IP (VoIP) solution offered by Microsoft.</span></span> <span data-ttu-id="4a1c5-105">VoIP (Voice over IP) stellt eine softwarebasierte Alternative zur Telefonie über herkömmliche Nebenstellenanlagen dar.</span><span class="sxs-lookup"><span data-stu-id="4a1c5-105">Voice over IP (VoIP) is a software-based alternative to traditional PBX-based telephony.</span></span> <span data-ttu-id="4a1c5-106">Wenngleich das Anruferlebnis einer VoIP-Lösung dem herkömmlicher Telefonanlagen ähnelt, umfasst Enterprise-VoIP Funktionen, die eine vielfältigere Kommunikation und Zusammenarbeit ermöglichen.</span><span class="sxs-lookup"><span data-stu-id="4a1c5-106">Although the VoIP call experience is similar to the traditional telephony experience, Enterprise Voice includes features that enable richer communication and collaboration.</span></span> <span data-ttu-id="4a1c5-107">Beispielsweise kann Ihre Enterprise-VoIP-Bereitstellung so konfiguriert werden, dass lync 2013 und lync Phone Edition Benutzer erweiterte Anwesenheitsinformationen oder Standortinformationen für Kontakte im Adressbuch Ihrer Organisation anzeigen können.</span><span class="sxs-lookup"><span data-stu-id="4a1c5-107">For example, your Enterprise Voice deployment can be configured to make it possible for Lync 2013 and Lync Phone Edition users to view enhanced presence information or location information for contacts in your organization’s address book.</span></span> <span data-ttu-id="4a1c5-108">Einige lync Server 2013 Funktionen werden durch Integration mit anderen lync Server 2013 Arbeitsauslastungen und mit Exchange Unified Messaging (um) aktiviert.</span><span class="sxs-lookup"><span data-stu-id="4a1c5-108">Some Lync Server 2013 features are enabled through integration with other Lync Server 2013 workloads and with Exchange Unified Messaging (UM).</span></span> <span data-ttu-id="4a1c5-109">Ausführliche Informationen zu den Features und Funktionen von Enterprise-VoIP sowie zur Planung der Bereitstellung finden Sie unter [Planning for Enterprise Voice in lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="4a1c5-109">For details about the features and functionality available with Enterprise Voice and how to plan for deployment, see [Planning for Enterprise Voice in Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md) in the Planning documentation.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="835ad-110">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="835ad-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4a1c5-110">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="4a1c5-110">In This Section</span></span>
 
-  - [<span data-ttu-id="835ad-111">Unterstützung für SIP-Trunking in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="835ad-111">SIP trunking support in Lync Server 2013</span></span>](lync-server-2013-sip-trunking-support.md)
+  - [<span data-ttu-id="4a1c5-111">Unterstützung für SIP-Trunking in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4a1c5-111">SIP trunking support in Lync Server 2013</span></span>](lync-server-2013-sip-trunking-support.md)
 
-  - [<span data-ttu-id="835ad-112">Unterstützung für direkte SIP-Verbindungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="835ad-112">Direct SIP connections support in Lync Server 2013</span></span>](lync-server-2013-direct-sip-connections-support.md)
+  - [<span data-ttu-id="4a1c5-112">Unterstützung für direkte SIP-Verbindungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4a1c5-112">Direct SIP connections support in Lync Server 2013</span></span>](lync-server-2013-direct-sip-connections-support.md)
 
-  - [<span data-ttu-id="835ad-113">Exchange Unified Messaging (um)-Unterstützung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="835ad-113">Exchange Unified Messaging (UM) support in Lync Server 2013</span></span>](lync-server-2013-exchange-unified-messaging-um-support.md)
+  - [<span data-ttu-id="4a1c5-113">Exchange Unified Messaging (um)-Unterstützung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4a1c5-113">Exchange Unified Messaging (UM) support in Lync Server 2013</span></span>](lync-server-2013-exchange-unified-messaging-um-support.md)
 
-  - [<span data-ttu-id="835ad-114">Unterstützung für E9-1-1 in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="835ad-114">E9-1-1 support in Lync Server 2013</span></span>](lync-server-2013-e9-1-1-support.md)
+  - [<span data-ttu-id="4a1c5-114">Unterstützung für E9-1-1 in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4a1c5-114">E9-1-1 support in Lync Server 2013</span></span>](lync-server-2013-e9-1-1-support.md)
 
 </div>
 
