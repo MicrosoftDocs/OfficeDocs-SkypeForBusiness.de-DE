@@ -12,20 +12,20 @@ ms:contentKeyID: 63969585
 ms.date: 05/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6f052aceb6678d87c99fc287b69752d0ed761a5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d4923ed94cba19136558c2f7336bfdc527fda000
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036455"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141068"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="troubleshooting-and-key-health-indicators-in-lync-server-2013"></a><span data-ttu-id="c7333-102">Problembehandlung und wichtige Integritätsindikatoren in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7333-102">Troubleshooting and Key Health Indicators in Lync Server 2013</span></span>
+# <a name="troubleshooting-and-key-health-indicators-in-lync-server-2013"></a><span data-ttu-id="508dd-102">Problembehandlung und wichtige Integritätsindikatoren in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="508dd-102">Troubleshooting and Key Health Indicators in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42036455"
 
 <span> </span>
 
-<span data-ttu-id="c7333-103">_**Letztes Änderungsstand des Themas:** 2015-05-18_</span><span class="sxs-lookup"><span data-stu-id="c7333-103">_**Topic Last Modified:** 2015-05-18_</span></span>
+<span data-ttu-id="508dd-103">_**Letztes Änderungsstand des Themas:** 2015-05-18_</span><span class="sxs-lookup"><span data-stu-id="508dd-103">_**Topic Last Modified:** 2015-05-18_</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c7333-104">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="c7333-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="508dd-104">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="508dd-104">In This Section</span></span>
 
-<span data-ttu-id="c7333-105">Um die Referenzarchitektur-SLAs zu erfüllen und einen reibungslosen Übergang zu unseren Support Teams sicherzustellen, muss ein allgemeiner Ansatz zur Problembehandlung zusammen mit einer Reihe von erforderlichen Problembehandlungstools und-Ansätzen definiert werden, die im lync Server [-Netzwerk Leit Faden](http://go.microsoft.com/fwlink/p/?linkid=390677) definiert sind.</span><span class="sxs-lookup"><span data-stu-id="c7333-105">To meet the Reference Architecture SLAs and to ensure a smooth transition to our support teams, a common troubleshooting approach must be defined together with a required set of troubleshooting tools and approaches as defined in the Lync Server [Networking guide](http://go.microsoft.com/fwlink/p/?linkid=390677) .</span></span>
+<span data-ttu-id="508dd-105">Um die Referenzarchitektur-SLAs zu erfüllen und einen reibungslosen Übergang zu unseren Support Teams sicherzustellen, muss ein allgemeiner Ansatz zur Problembehandlung zusammen mit einer Reihe von erforderlichen Problembehandlungstools und-Ansätzen definiert werden, die im lync Server [-Netzwerk Leit Faden](https://go.microsoft.com/fwlink/p/?linkid=390677) definiert sind.</span><span class="sxs-lookup"><span data-stu-id="508dd-105">To meet the Reference Architecture SLAs and to ensure a smooth transition to our support teams, a common troubleshooting approach must be defined together with a required set of troubleshooting tools and approaches as defined in the Lync Server [Networking guide](https://go.microsoft.com/fwlink/p/?linkid=390677) .</span></span>
 
-<span data-ttu-id="c7333-106">Es wird dringend empfohlen, dass System Center Operations Manager zum Überwachen der Integrität des lync Server 2013 Systems verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="c7333-106">We strongly recommend that System Center Operations Manager be used to monitor the health of the Lync Server 2013 system.</span></span> <span data-ttu-id="c7333-107">Lesen Sie auch die Erläuterungen zu KHIs im lync Server 2013- [Netzwerk Leit Faden](http://go.microsoft.com/fwlink/p/?linkid=390677) und in der Excel-Tabelle für die Verwendung mit lync 2013.</span><span class="sxs-lookup"><span data-stu-id="c7333-107">Also, refer to the discussion of KHIs in the Lync Server 2013 [Networking guide](http://go.microsoft.com/fwlink/p/?linkid=390677) and the Excel spreadsheet for use with Lync 2013.</span></span>
+<span data-ttu-id="508dd-106">Es wird dringend empfohlen, dass System Center Operations Manager zum Überwachen der Integrität des lync Server 2013 Systems verwendet wird.</span><span class="sxs-lookup"><span data-stu-id="508dd-106">We strongly recommend that System Center Operations Manager be used to monitor the health of the Lync Server 2013 system.</span></span> <span data-ttu-id="508dd-107">Lesen Sie auch die Erläuterungen zu KHIs im lync Server 2013- [Netzwerk Leit Faden](https://go.microsoft.com/fwlink/p/?linkid=390677) und in der Excel-Tabelle für die Verwendung mit lync 2013.</span><span class="sxs-lookup"><span data-stu-id="508dd-107">Also, refer to the discussion of KHIs in the Lync Server 2013 [Networking guide](https://go.microsoft.com/fwlink/p/?linkid=390677) and the Excel spreadsheet for use with Lync 2013.</span></span>
 
 </div>
 
 <div>
 
-## <a name="reference"></a><span data-ttu-id="c7333-108">Referenz</span><span class="sxs-lookup"><span data-stu-id="c7333-108">Reference</span></span>
+## <a name="reference"></a><span data-ttu-id="508dd-108">Referenz</span><span class="sxs-lookup"><span data-stu-id="508dd-108">Reference</span></span>
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="c7333-109">Verwandte Abschnitte</span><span class="sxs-lookup"><span data-stu-id="c7333-109">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="508dd-109">Verwandte Abschnitte</span><span class="sxs-lookup"><span data-stu-id="508dd-109">Related Sections</span></span>
 
 </div>
 
