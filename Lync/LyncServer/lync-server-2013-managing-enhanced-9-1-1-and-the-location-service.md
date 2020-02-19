@@ -12,20 +12,20 @@ ms:contentKeyID: 49733600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ea5107ddbcc4e98473f58c43d10fe8f745b2e64
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: da574474ac58ccf6db77bf574312699ab0940c1b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029496"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136152"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-enhanced-9-1-1-and-the-location-service-in-lync-server-2013"></a><span data-ttu-id="65f69-102">Verwalten von Enhanced 9-1-1 und des Standort Diensts in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65f69-102">Managing Enhanced 9-1-1 and the Location service in Lync Server 2013</span></span>
+# <a name="managing-enhanced-9-1-1-and-the-location-service-in-lync-server-2013"></a><span data-ttu-id="3fbf9-102">Verwalten von Enhanced 9-1-1 und des Standort Diensts in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3fbf9-102">Managing Enhanced 9-1-1 and the Location service in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42029496"
 
 <span> </span>
 
-<span data-ttu-id="65f69-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="65f69-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="3fbf9-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="3fbf9-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="65f69-104">Lync Server 2013 unterstützt den erweiterten 9-1-1 (E9-1-1)-Aufruf von lync-Clients und lync Phone Edition-Geräten.</span><span class="sxs-lookup"><span data-stu-id="65f69-104">Lync Server 2013 supports Enhanced 9-1-1 (E9-1-1) calling from Lync clients and Lync Phone Edition devices.</span></span> <span data-ttu-id="65f69-105">Wenn Sie lync Server 2013 für E9-1-1 konfigurieren, werden Notrufe aus lync 2013-oder lync-Phone Edition Informationen aus dem Notfall Reaktions Standort (ERL) aus der Standortinformationsdienst-Datenbank hinzugefügt.</span><span class="sxs-lookup"><span data-stu-id="65f69-105">When you configure Lync Server 2013 for E9-1-1, emergency calls placed from Lync 2013 or Lync Phone Edition include Emergency Response Location (ERL) information from the Location Information service database.</span></span> <span data-ttu-id="65f69-106">Verwenden Sie die Verfahren in diesem Abschnitt, um die Standortrichtlinie zu verwalten.</span><span class="sxs-lookup"><span data-stu-id="65f69-106">Use the procedures in this section to manage location policy.</span></span>
+<span data-ttu-id="3fbf9-104">Lync Server 2013 unterstützt den erweiterten 9-1-1 (E9-1-1)-Aufruf von lync-Clients und lync Phone Edition-Geräten.</span><span class="sxs-lookup"><span data-stu-id="3fbf9-104">Lync Server 2013 supports Enhanced 9-1-1 (E9-1-1) calling from Lync clients and Lync Phone Edition devices.</span></span> <span data-ttu-id="3fbf9-105">Wenn Sie lync Server 2013 für E9-1-1 konfigurieren, werden Notrufe aus lync 2013-oder lync-Phone Edition Informationen aus dem Notfall Reaktions Standort (ERL) aus der Standortinformationsdienst-Datenbank hinzugefügt.</span><span class="sxs-lookup"><span data-stu-id="3fbf9-105">When you configure Lync Server 2013 for E9-1-1, emergency calls placed from Lync 2013 or Lync Phone Edition include Emergency Response Location (ERL) information from the Location Information service database.</span></span> <span data-ttu-id="3fbf9-106">Verwenden Sie die Verfahren in diesem Abschnitt, um die Standortrichtlinie zu verwalten.</span><span class="sxs-lookup"><span data-stu-id="3fbf9-106">Use the procedures in this section to manage location policy.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="65f69-107">Ausführliche Informationen zum Bereitstellen von erweiterten Enterprise-VoIP-Funktionen wie E9-1-1 und der Standortinformationsdienst finden Sie unter <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Deploying Advanced Enterprise Voice Features in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="65f69-107">For details on deploying advanced Enterprise Voice features, such as E9-1-1 and the Location Information service, see <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Deploying advanced Enterprise Voice features in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="3fbf9-107">Ausführliche Informationen zum Bereitstellen von erweiterten Enterprise-VoIP-Funktionen wie E9-1-1 und der Standortinformationsdienst finden Sie unter <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Deploying Advanced Enterprise Voice Features in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="3fbf9-107">For details on deploying advanced Enterprise Voice features, such as E9-1-1 and the Location Information service, see <A href="lync-server-2013-deploying-advanced-enterprise-voice-features.md">Deploying advanced Enterprise Voice features in Lync Server 2013</A>.</span></span>
 
 
 
@@ -51,9 +51,9 @@ ms.locfileid: "42029496"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="65f69-108">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="65f69-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3fbf9-108">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="3fbf9-108">In This Section</span></span>
 
-  - [<span data-ttu-id="65f69-109">Verwalten der ortungsrichtlinie in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="65f69-109">Managing location policy in Lync Server 2013</span></span>](lync-server-2013-managing-location-policy.md)
+  - [<span data-ttu-id="3fbf9-109">Verwalten der ortungsrichtlinie in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3fbf9-109">Managing location policy in Lync Server 2013</span></span>](lync-server-2013-managing-location-policy.md)
 
 </div>
 

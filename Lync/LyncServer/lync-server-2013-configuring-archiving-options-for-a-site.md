@@ -12,20 +12,20 @@ ms:contentKeyID: 48184247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5f081cd802bc0427748244890816a7708c82e47
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c9b679eabfc0538de5daf59ee1eb7742ade94228
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049817"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138386"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-archiving-options-for-a-site-in-lync-server-2013"></a><span data-ttu-id="157be-102">Konfigurieren von Archivierungsoptionen für eine Website in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="157be-102">Configuring Archiving options for a site in Lync Server 2013</span></span>
+# <a name="configuring-archiving-options-for-a-site-in-lync-server-2013"></a><span data-ttu-id="45aef-102">Konfigurieren von Archivierungsoptionen für eine Website in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="45aef-102">Configuring Archiving options for a site in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42049817"
 
 <span> </span>
 
-<span data-ttu-id="157be-103">_**Letztes Änderungsstand des Themas:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="157be-103">_**Topic Last Modified:** 2012-10-09_</span></span>
+<span data-ttu-id="45aef-103">_**Letztes Änderungsstand des Themas:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="45aef-103">_**Topic Last Modified:** 2012-10-09_</span></span>
 
-<span data-ttu-id="157be-p101">Sie können Archivierungsoptionen für bestimmte Standorte angeben, indem Sie entsprechende Optionen in einer Archivierungskonfiguration für die betreffenden Standorte erstellen und konfigurieren. Eine Standortkonfiguration überschreibt die globale Konfiguration. Dies gilt jedoch nur für den in der Standortkonfiguration angegebenen Standort. Standortkonfigurationen werden von Poolkonfigurationen überschrieben.</span><span class="sxs-lookup"><span data-stu-id="157be-p101">You can specify Archiving options to be applied to specific sites by creating and configuring options in an Archiving configuration for each of those sites. A site configuration overrides the global configuration, but only for the site specified in the site configuration. Pool configurations override site configurations</span></span>
+<span data-ttu-id="45aef-p101">Sie können Archivierungsoptionen für bestimmte Standorte angeben, indem Sie entsprechende Optionen in einer Archivierungskonfiguration für die betreffenden Standorte erstellen und konfigurieren. Eine Standortkonfiguration überschreibt die globale Konfiguration. Dies gilt jedoch nur für den in der Standortkonfiguration angegebenen Standort. Standortkonfigurationen werden von Poolkonfigurationen überschrieben.</span><span class="sxs-lookup"><span data-stu-id="45aef-p101">You can specify Archiving options to be applied to specific sites by creating and configuring options in an Archiving configuration for each of those sites. A site configuration overrides the global configuration, but only for the site specified in the site configuration. Pool configurations override site configurations</span></span>
 
-<span data-ttu-id="157be-107">Ausführliche Informationen zur Funktionsweise von Archivierungs Konfigurationen, einschließlich der Hierarchie für globale, Standort-und Poolkonfigurationen, finden Sie unter [How Archiving Works in lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, in der Bereitstellungsdokumentation oder in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="157be-107">For details about how Archiving configurations work, including the hierarchy for global, site, and pool configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+<span data-ttu-id="45aef-107">Ausführliche Informationen zur Funktionsweise von Archivierungs Konfigurationen, einschließlich der Hierarchie für globale, Standort-und Poolkonfigurationen, finden Sie unter [How Archiving Works in lync Server 2013](lync-server-2013-how-archiving-works.md) in der Planungsdokumentation, in der Bereitstellungsdokumentation oder in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="45aef-107">For details about how Archiving configurations work, including the hierarchy for global, site, and pool configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="157be-108">Sie sollten alle entsprechenden Optionen in den Archivierungskonfigurationen angeben, bevor Sie die Archivierung aktivieren.</span><span class="sxs-lookup"><span data-stu-id="157be-108">You should specify all appropriate options in the Archiving configurations before enabling Archiving.</span></span>
+> <span data-ttu-id="45aef-108">Sie sollten alle entsprechenden Optionen in den Archivierungskonfigurationen angeben, bevor Sie die Archivierung aktivieren.</span><span class="sxs-lookup"><span data-stu-id="45aef-108">You should specify all appropriate options in the Archiving configurations before enabling Archiving.</span></span>
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "42049817"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="157be-109">Zum Aktivieren der Archivierung müssen Sie Archivierungsrichtlinien angeben, um die Archivierung der internen und externen Kommunikation auf globaler Ebene und gegebenenfalls auf Standort-und Benutzerebene zu steuern.</span><span class="sxs-lookup"><span data-stu-id="157be-109">To enable archiving, you must specify archiving policies to control the archiving of internal and external communications at the global level and, if appropriate, at site and user levels.</span></span> <span data-ttu-id="157be-110">Wenn Sie Richtlinien auf Benutzerebene konfigurieren, müssen Sie auch die Benutzerrichtlinien bestimmten Benutzern zuweisen.</span><span class="sxs-lookup"><span data-stu-id="157be-110">If you configure user-level policies, you must also assign the user policies to specific users.</span></span> <span data-ttu-id="157be-111">Ausführliche Informationen zum Erstellen und Konfigurieren von Archivierungsrichtlinien finden Sie unter <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Managing the Archiving of Internal and External Communications in lync Server 2013</A> in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="157be-111">For details about creating and configuring archiving policies, see <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Managing the Archiving of internal and external communications in Lync Server 2013</A> in the Operations documentation.</span></span>
+> <span data-ttu-id="45aef-109">Zum Aktivieren der Archivierung müssen Sie Archivierungsrichtlinien angeben, um die Archivierung der internen und externen Kommunikation auf globaler Ebene und gegebenenfalls auf Standort-und Benutzerebene zu steuern.</span><span class="sxs-lookup"><span data-stu-id="45aef-109">To enable archiving, you must specify archiving policies to control the archiving of internal and external communications at the global level and, if appropriate, at site and user levels.</span></span> <span data-ttu-id="45aef-110">Wenn Sie Richtlinien auf Benutzerebene konfigurieren, müssen Sie auch die Benutzerrichtlinien bestimmten Benutzern zuweisen.</span><span class="sxs-lookup"><span data-stu-id="45aef-110">If you configure user-level policies, you must also assign the user policies to specific users.</span></span> <span data-ttu-id="45aef-111">Ausführliche Informationen zum Erstellen und Konfigurieren von Archivierungsrichtlinien finden Sie unter <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Managing the Archiving of Internal and External Communications in lync Server 2013</A> in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="45aef-111">For details about creating and configuring archiving policies, see <A href="lync-server-2013-managing-the-archiving-of-internal-and-external-communications.md">Managing the Archiving of internal and external communications in Lync Server 2013</A> in the Operations documentation.</span></span>
 
 
 
@@ -63,39 +63,39 @@ ms.locfileid: "42049817"
 
 <div>
 
-## <a name="to-configure-archiving-options-at-the-site-level"></a><span data-ttu-id="157be-112">So konfigurieren Sie die Archivierungsoptionen auf Standortebene</span><span class="sxs-lookup"><span data-stu-id="157be-112">To configure archiving options at the site level</span></span>
+## <a name="to-configure-archiving-options-at-the-site-level"></a><span data-ttu-id="45aef-112">So konfigurieren Sie die Archivierungsoptionen auf Standortebene</span><span class="sxs-lookup"><span data-stu-id="45aef-112">To configure archiving options at the site level</span></span>
 
-1.  <span data-ttu-id="157be-113">Melden Sie sich mit einem Benutzerkonto, dem die CsArchivingAdministrator- oder die CsAdministrator-Rolle zugewiesen wurde, bei einem Computer in Ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="157be-113">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1.  <span data-ttu-id="45aef-113">Melden Sie sich mit einem Benutzerkonto, dem die CsArchivingAdministrator- oder die CsAdministrator-Rolle zugewiesen wurde, bei einem Computer in Ihrer internen Bereitstellung an.</span><span class="sxs-lookup"><span data-stu-id="45aef-113">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  <span data-ttu-id="157be-114">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um die lync Server 2013-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="157be-114">Open a browser window, and then enter the Admin URL to open the Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="157be-115">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server 2013 Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="157be-115">For details about the different methods you can use to start Lync Server 2013 Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="45aef-114">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um die lync Server 2013-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="45aef-114">Open a browser window, and then enter the Admin URL to open the Lync Server 2013 Control Panel.</span></span> <span data-ttu-id="45aef-115">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server 2013 Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="45aef-115">For details about the different methods you can use to start Lync Server 2013 Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="157be-116">Klicken Sie in der linken Navigationsleiste auf **Überwachung und Archivierung** und dann auf **Archivierungskonfiguration**.</span><span class="sxs-lookup"><span data-stu-id="157be-116">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
+3.  <span data-ttu-id="45aef-116">Klicken Sie in der linken Navigationsleiste auf **Überwachung und Archivierung** und dann auf **Archivierungskonfiguration**.</span><span class="sxs-lookup"><span data-stu-id="45aef-116">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
 
-4.  <span data-ttu-id="157be-117">Klicken Sie auf der Seite **Archivierungskonfiguration** auf **Neu** und dann auf **Standortkonfiguration**.</span><span class="sxs-lookup"><span data-stu-id="157be-117">On the **Archiving Configuration** page, click **New**, and then click **Site Configuration**.</span></span>
+4.  <span data-ttu-id="45aef-117">Klicken Sie auf der Seite **Archivierungskonfiguration** auf **Neu** und dann auf **Standortkonfiguration**.</span><span class="sxs-lookup"><span data-stu-id="45aef-117">On the **Archiving Configuration** page, click **New**, and then click **Site Configuration**.</span></span>
 
-5.  <span data-ttu-id="157be-118">Wählen Sie unter **Standort auswählen** den Standort aus, der für die Archivierung konfiguriert werden soll.</span><span class="sxs-lookup"><span data-stu-id="157be-118">In **Select a Site**, select the site to be configured for archiving.</span></span>
+5.  <span data-ttu-id="45aef-118">Wählen Sie unter **Standort auswählen** den Standort aus, der für die Archivierung konfiguriert werden soll.</span><span class="sxs-lookup"><span data-stu-id="45aef-118">In **Select a Site**, select the site to be configured for archiving.</span></span>
 
-6.  <span data-ttu-id="157be-119">Führen Sie unter **Neue Archivierungseinstellung** im Dropdown-Listenfeld **Archivierungseinstellung** eine der folgenden Aktionen aus:</span><span class="sxs-lookup"><span data-stu-id="157be-119">In **New Archiving Setting**, in the **Archiving setting** drop-down list box, do one of the following:</span></span>
+6.  <span data-ttu-id="45aef-119">Führen Sie unter **Neue Archivierungseinstellung** im Dropdown-Listenfeld **Archivierungseinstellung** eine der folgenden Aktionen aus:</span><span class="sxs-lookup"><span data-stu-id="45aef-119">In **New Archiving Setting**, in the **Archiving setting** drop-down list box, do one of the following:</span></span>
     
-      - <span data-ttu-id="157be-120">Um nur Sofortnachrichtensitzungen zu archivieren, klicken Sie auf **Sofortnachrichtensitzungen archivieren**.</span><span class="sxs-lookup"><span data-stu-id="157be-120">To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.</span></span>
+      - <span data-ttu-id="45aef-120">Um nur Sofortnachrichtensitzungen zu archivieren, klicken Sie auf **Sofortnachrichtensitzungen archivieren**.</span><span class="sxs-lookup"><span data-stu-id="45aef-120">To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.</span></span>
     
-      - <span data-ttu-id="157be-121">Klicken Sie auf **IM- und Webkonferenzsitzungen archivieren**, um sowohl IM-Sitzungen als auch Konferenzen zu archivieren.</span><span class="sxs-lookup"><span data-stu-id="157be-121">To enable archiving for both IM sessions and conferences, click **Archive IM and web conferencing sessions**.</span></span>
+      - <span data-ttu-id="45aef-121">Klicken Sie auf **IM- und Webkonferenzsitzungen archivieren**, um sowohl IM-Sitzungen als auch Konferenzen zu archivieren.</span><span class="sxs-lookup"><span data-stu-id="45aef-121">To enable archiving for both IM sessions and conferences, click **Archive IM and web conferencing sessions**.</span></span>
     
-      - <span data-ttu-id="157be-122">Um die Archivierung für die Richtlinie zu deaktivieren, klicken Sie auf **Archivierung deaktivieren**.</span><span class="sxs-lookup"><span data-stu-id="157be-122">To disable archiving for the policy, click **Disable archiving**.</span></span>
+      - <span data-ttu-id="45aef-122">Um die Archivierung für die Richtlinie zu deaktivieren, klicken Sie auf **Archivierung deaktivieren**.</span><span class="sxs-lookup"><span data-stu-id="45aef-122">To disable archiving for the policy, click **Disable archiving**.</span></span>
 
-7.  <span data-ttu-id="157be-123">Gehen Sie unter **Neue Archivierungseinstellung** wie folgt vor:</span><span class="sxs-lookup"><span data-stu-id="157be-123">Also in **New Archiving Setting**, do the following:</span></span>
+7.  <span data-ttu-id="45aef-123">Gehen Sie unter **Neue Archivierungseinstellung** wie folgt vor:</span><span class="sxs-lookup"><span data-stu-id="45aef-123">Also in **New Archiving Setting**, do the following:</span></span>
     
-      - <span data-ttu-id="157be-124">Aktivieren Sie das Kontrollkästchen **Instant Messaging- oder Webkonferenzsitzungen bei Archivierungsfehlern blockieren**, um die Aktivität zu blockieren, wenn die Archivierung nicht verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="157be-124">To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.</span></span>
+      - <span data-ttu-id="45aef-124">Aktivieren Sie das Kontrollkästchen **Instant Messaging- oder Webkonferenzsitzungen bei Archivierungsfehlern blockieren**, um die Aktivität zu blockieren, wenn die Archivierung nicht verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="45aef-124">To block activity when archiving is not available, select the **Block instant messaging (IM) or web conferencing sessions if archiving fails** check box.</span></span>
     
-      - <span data-ttu-id="157be-125">Um Exchange Server zum Speichern von Archivierungsdaten zu verwenden, klicken Sie auf das Kontrollkästchen **Integration der Microsoft Exchange** .</span><span class="sxs-lookup"><span data-stu-id="157be-125">To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.</span></span>
+      - <span data-ttu-id="45aef-125">Um Exchange Server zum Speichern von Archivierungsdaten zu verwenden, klicken Sie auf das Kontrollkästchen **Integration der Microsoft Exchange** .</span><span class="sxs-lookup"><span data-stu-id="45aef-125">To use Microsoft Exchange Server to store archiving data, click the **Microsoft Exchange integration** check box.</span></span>
     
-      - <span data-ttu-id="157be-126">Zum Aktivieren des Löschvorgangs aktivieren Sie das Kontrollkästchen **Löschen von Archivierungsdaten aktivieren**, und führen Sie einen der folgenden Schritte aus:</span><span class="sxs-lookup"><span data-stu-id="157be-126">To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:</span></span>
+      - <span data-ttu-id="45aef-126">Zum Aktivieren des Löschvorgangs aktivieren Sie das Kontrollkästchen **Löschen von Archivierungsdaten aktivieren**, und führen Sie einen der folgenden Schritte aus:</span><span class="sxs-lookup"><span data-stu-id="45aef-126">To enable data purging, select the **Enable purging of archiving data** check box, and then do one of the following:</span></span>
         
-          - <span data-ttu-id="157be-127">Klicken Sie auf **Exportierte Archivierungsdaten und gespeicherte Archivierungsdaten löschen nach spätestens (Tage)**, und geben Sie eine Anzahl von Tagen an, um die archivierten Inhalte nach einer bestimmten Anzahl von Tagen zu löschen.</span><span class="sxs-lookup"><span data-stu-id="157be-127">To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.</span></span>
+          - <span data-ttu-id="45aef-127">Klicken Sie auf **Exportierte Archivierungsdaten und gespeicherte Archivierungsdaten löschen nach spätestens (Tage)**, und geben Sie eine Anzahl von Tagen an, um die archivierten Inhalte nach einer bestimmten Anzahl von Tagen zu löschen.</span><span class="sxs-lookup"><span data-stu-id="45aef-127">To specify purging after a specific number of days, click **Purge exported archiving data and stored archiving data after maximum duration (days)**, and then specify the number of days.</span></span>
         
-          - <span data-ttu-id="157be-128">Klicken Sie auf **Nur exportierte Archivierungsdaten löschen**, um nur die exportierten Daten zu löschen.</span><span class="sxs-lookup"><span data-stu-id="157be-128">To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.</span></span>
+          - <span data-ttu-id="45aef-128">Klicken Sie auf **Nur exportierte Archivierungsdaten löschen**, um nur die exportierten Daten zu löschen.</span><span class="sxs-lookup"><span data-stu-id="45aef-128">To limit purging to archiving data that has been exported, click **Purge exported archiving data only**.</span></span>
 
-8.  <span data-ttu-id="157be-129">Klicken Sie auf **Commit ausführen**.</span><span class="sxs-lookup"><span data-stu-id="157be-129">Click **Commit**.</span></span>
+8.  <span data-ttu-id="45aef-129">Klicken Sie auf **Commit ausführen**.</span><span class="sxs-lookup"><span data-stu-id="45aef-129">Click **Commit**.</span></span>
 
 </div>
 

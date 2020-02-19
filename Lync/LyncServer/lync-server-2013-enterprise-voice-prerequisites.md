@@ -12,20 +12,20 @@ ms:contentKeyID: 48185746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4289d79be09b1bfbcb9d11e53d97ef2ee9a37dca
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8a78a665a5472e630b274e3c470e711fe7708374
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41993520"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enterprise-voice-prerequisites-for-lync-server-2013"></a><span data-ttu-id="91933-102">Voraussetzungen für Enterprise-VoIP für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="91933-102">Enterprise Voice prerequisites for Lync Server 2013</span></span>
+# <a name="enterprise-voice-prerequisites-for-lync-server-2013"></a><span data-ttu-id="be604-102">Voraussetzungen für Enterprise-VoIP für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="be604-102">Enterprise Voice prerequisites for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "41993520"
 
 <span> </span>
 
-<span data-ttu-id="91933-103">_**Letztes Änderungsstand des Themas:** 2012-08-06_</span><span class="sxs-lookup"><span data-stu-id="91933-103">_**Topic Last Modified:** 2012-08-06_</span></span>
+<span data-ttu-id="be604-103">_**Letztes Änderungsstand des Themas:** 2012-08-06_</span><span class="sxs-lookup"><span data-stu-id="be604-103">_**Topic Last Modified:** 2012-08-06_</span></span>
 
-<span data-ttu-id="91933-104">Um bei der Bereitstellung von Enterprise-VoIP bestmöglich zu sein, stellen Sie sicher, dass Ihre IT-Infrastruktur, Ihr Netzwerk und ihre Systeme die in den Themen in diesem Abschnitt beschriebenen Voraussetzungen erfüllen.</span><span class="sxs-lookup"><span data-stu-id="91933-104">For the best experience when deploying Enterprise Voice, be sure that your IT infrastructure, network, and systems meet the prerequisites described in the topics in this section.</span></span>
+<span data-ttu-id="be604-104">Um bei der Bereitstellung von Enterprise-VoIP bestmöglich zu sein, stellen Sie sicher, dass Ihre IT-Infrastruktur, Ihr Netzwerk und ihre Systeme die in den Themen in diesem Abschnitt beschriebenen Voraussetzungen erfüllen.</span><span class="sxs-lookup"><span data-stu-id="be604-104">For the best experience when deploying Enterprise Voice, be sure that your IT infrastructure, network, and systems meet the prerequisites described in the topics in this section.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="91933-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="91933-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="be604-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="be604-105">In This Section</span></span>
 
-  - [<span data-ttu-id="91933-106">Software Voraussetzungen für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="91933-106">Software prerequisites for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-software-prerequisites-for-enterprise-voice.md)
+  - [<span data-ttu-id="be604-106">Software Voraussetzungen für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="be604-106">Software prerequisites for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-software-prerequisites-for-enterprise-voice.md)
 
-  - [<span data-ttu-id="91933-107">Sicherheits-und Konfigurationsvoraussetzungen für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="91933-107">Security and configuration prerequisites for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
+  - [<span data-ttu-id="be604-107">Sicherheits-und Konfigurationsvoraussetzungen für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="be604-107">Security and configuration prerequisites for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md)
 
 </div>
 

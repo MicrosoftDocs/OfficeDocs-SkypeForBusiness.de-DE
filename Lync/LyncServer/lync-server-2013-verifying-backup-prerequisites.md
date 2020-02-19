@@ -12,20 +12,20 @@ ms:contentKeyID: 51541448
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bbf798b46745bf0469e49c6384fd0544cd72c1c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 45c41e00a9565f63651a0afdc7da08091de75e95
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007304"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136953"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="verifying-backup-prerequisites-in-lync-server-2013"></a><span data-ttu-id="354bd-102">Überprüfen der Voraussetzungen für die Sicherung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="354bd-102">Verifying backup prerequisites in Lync Server 2013</span></span>
+# <a name="verifying-backup-prerequisites-in-lync-server-2013"></a><span data-ttu-id="f8f2f-102">Überprüfen der Voraussetzungen für die Sicherung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f8f2f-102">Verifying backup prerequisites in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42007304"
 
 <span> </span>
 
-<span data-ttu-id="354bd-103">_**Letztes Änderungsstand des Themas:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="354bd-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+<span data-ttu-id="f8f2f-103">_**Letztes Änderungsstand des Themas:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="f8f2f-103">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-<span data-ttu-id="354bd-104">Bevor Sie mit dem Sichern lync Server beginnen, stellen Sie sicher, dass Sie Folgendes vorbereiten:</span><span class="sxs-lookup"><span data-stu-id="354bd-104">Before you begin backing up Lync Server, verify that you are prepared with the following:</span></span>
+<span data-ttu-id="f8f2f-104">Bevor Sie mit dem Sichern lync Server beginnen, stellen Sie sicher, dass Sie Folgendes vorbereiten:</span><span class="sxs-lookup"><span data-stu-id="f8f2f-104">Before you begin backing up Lync Server, verify that you are prepared with the following:</span></span>
 
-  - <span data-ttu-id="354bd-105">Sicherungstools.</span><span class="sxs-lookup"><span data-stu-id="354bd-105">Backup tools.</span></span> <span data-ttu-id="354bd-106">Ausführliche Informationen finden Sie unter [Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Tools and Permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="354bd-106">For details, see [Backup and restoration requirements in Lync Server 2013: tools and permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span></span>
+  - <span data-ttu-id="f8f2f-105">Sicherungstools.</span><span class="sxs-lookup"><span data-stu-id="f8f2f-105">Backup tools.</span></span> <span data-ttu-id="f8f2f-106">Ausführliche Informationen finden Sie unter [Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Tools and Permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="f8f2f-106">For details, see [Backup and restoration requirements in Lync Server 2013: tools and permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span></span>
 
-  - <span data-ttu-id="354bd-107">Berechtigungen.</span><span class="sxs-lookup"><span data-stu-id="354bd-107">Permissions.</span></span> <span data-ttu-id="354bd-108">Ausführliche Informationen finden Sie unter [Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Tools and Permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="354bd-108">For details, see [Backup and restoration requirements in Lync Server 2013: tools and permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span></span>
+  - <span data-ttu-id="f8f2f-107">Berechtigungen.</span><span class="sxs-lookup"><span data-stu-id="f8f2f-107">Permissions.</span></span> <span data-ttu-id="f8f2f-108">Ausführliche Informationen finden Sie unter [Sicherungs-und Wiederherstellungsanforderungen in lync Server 2013: Tools and Permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="f8f2f-108">For details, see [Backup and restoration requirements in Lync Server 2013: tools and permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span></span>
 
-  - <span data-ttu-id="354bd-109">Speicherort für die Sicherungen.</span><span class="sxs-lookup"><span data-stu-id="354bd-109">Location for storing backups.</span></span> <span data-ttu-id="354bd-110">Ausführliche Informationen finden Sie unter [Einrichten eines Sicherungsspeicherorts für lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).</span><span class="sxs-lookup"><span data-stu-id="354bd-110">For details, see [Setting up a backup location for Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).</span></span>
+  - <span data-ttu-id="f8f2f-109">Speicherort für die Sicherungen.</span><span class="sxs-lookup"><span data-stu-id="f8f2f-109">Location for storing backups.</span></span> <span data-ttu-id="f8f2f-110">Ausführliche Informationen finden Sie unter [Einrichten eines Sicherungsspeicherorts für lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).</span><span class="sxs-lookup"><span data-stu-id="f8f2f-110">For details, see [Setting up a backup location for Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).</span></span>
 
-  - <span data-ttu-id="354bd-111">Datenträger für die Sicherungen.</span><span class="sxs-lookup"><span data-stu-id="354bd-111">Media for the backups.</span></span> <span data-ttu-id="354bd-112">Ausführliche Informationen finden Sie unter [Einrichten eines Sicherungsspeicherorts für lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).</span><span class="sxs-lookup"><span data-stu-id="354bd-112">For details, see [Setting up a backup location for Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).</span></span>
+  - <span data-ttu-id="f8f2f-111">Datenträger für die Sicherungen.</span><span class="sxs-lookup"><span data-stu-id="f8f2f-111">Media for the backups.</span></span> <span data-ttu-id="f8f2f-112">Ausführliche Informationen finden Sie unter [Einrichten eines Sicherungsspeicherorts für lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).</span><span class="sxs-lookup"><span data-stu-id="f8f2f-112">For details, see [Setting up a backup location for Lync Server 2013](lync-server-2013-setting-up-a-backup-location.md).</span></span>
 
 </div>
 

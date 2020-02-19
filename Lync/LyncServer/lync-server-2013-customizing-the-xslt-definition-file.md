@@ -12,20 +12,20 @@ ms:contentKeyID: 49557733
 ms.date: 09/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7652e2bd31f27c711724e67f67aac29d33038606
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6f023a762e6d9bdb8c33950bcfc2cc8d4944bb4f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041074"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138356"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a><span data-ttu-id="74775-102">Anpassen der XSLT-Definitionsdatei in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74775-102">Customizing the XSLT definition file in Lync Server 2013</span></span>
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a><span data-ttu-id="b7109-102">Anpassen der XSLT-Definitionsdatei in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b7109-102">Customizing the XSLT definition file in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42041074"
 
 <span> </span>
 
-<span data-ttu-id="74775-103">_**Letztes Änderungsstand des Themas:** 2014-09-11_</span><span class="sxs-lookup"><span data-stu-id="74775-103">_**Topic Last Modified:** 2014-09-11_</span></span>
+<span data-ttu-id="b7109-103">_**Letztes Änderungsstand des Themas:** 2014-09-11_</span><span class="sxs-lookup"><span data-stu-id="b7109-103">_**Topic Last Modified:** 2014-09-11_</span></span>
 
-<span data-ttu-id="74775-104">Der Kompatibilitätsdienst erfasst und archiviert Daten im Zusammenhang mit den einzelnen lync Server 2013-und Server Unterhaltungen für beständigen Chat, einschließlich wenn ein Teilnehmer:</span><span class="sxs-lookup"><span data-stu-id="74775-104">The Compliance service records and archives data related to each Lync Server 2013, Persistent Chat Server conversation, including when a participant:</span></span>
+<span data-ttu-id="b7109-104">Der Kompatibilitätsdienst erfasst und archiviert Daten im Zusammenhang mit den einzelnen lync Server 2013-und Server Unterhaltungen für beständigen Chat, einschließlich wenn ein Teilnehmer:</span><span class="sxs-lookup"><span data-stu-id="b7109-104">The Compliance service records and archives data related to each Lync Server 2013, Persistent Chat Server conversation, including when a participant:</span></span>
 
-  - <span data-ttu-id="74775-105">Beitritt zu einem beständigen Chatroom</span><span class="sxs-lookup"><span data-stu-id="74775-105">Joins a Persistent Chat room</span></span>
+  - <span data-ttu-id="b7109-105">Beitritt zu einem beständigen Chatroom</span><span class="sxs-lookup"><span data-stu-id="b7109-105">Joins a Persistent Chat room</span></span>
 
-  - <span data-ttu-id="74775-106">Leaves a Chat Room</span><span class="sxs-lookup"><span data-stu-id="74775-106">Leaves a chat room</span></span>
+  - <span data-ttu-id="b7109-106">Leaves a Chat Room</span><span class="sxs-lookup"><span data-stu-id="b7109-106">Leaves a chat room</span></span>
 
-  - <span data-ttu-id="74775-107">Sendet eine Nachricht</span><span class="sxs-lookup"><span data-stu-id="74775-107">Posts a message</span></span>
+  - <span data-ttu-id="b7109-107">Sendet eine Nachricht</span><span class="sxs-lookup"><span data-stu-id="b7109-107">Posts a message</span></span>
 
-  - <span data-ttu-id="74775-108">Chatverlauf für Ansichten</span><span class="sxs-lookup"><span data-stu-id="74775-108">Views chat history</span></span>
+  - <span data-ttu-id="b7109-108">Chatverlauf für Ansichten</span><span class="sxs-lookup"><span data-stu-id="b7109-108">Views chat history</span></span>
 
-  - <span data-ttu-id="74775-109">Lädt eine Datei hoch</span><span class="sxs-lookup"><span data-stu-id="74775-109">Uploads a file</span></span>
+  - <span data-ttu-id="b7109-109">Lädt eine Datei hoch</span><span class="sxs-lookup"><span data-stu-id="b7109-109">Uploads a file</span></span>
 
-  - <span data-ttu-id="74775-110">Herunterladen einer Datei</span><span class="sxs-lookup"><span data-stu-id="74775-110">Downloads a file</span></span>
+  - <span data-ttu-id="b7109-110">Herunterladen einer Datei</span><span class="sxs-lookup"><span data-stu-id="b7109-110">Downloads a file</span></span>
 
-<span data-ttu-id="74775-p101">Die Daten werden als XML ausgegeben; Sie können sie mithilfe einer XSLT-Definitionsdatei in das von Ihrer Organisation bevorzugte Format umwandeln. In diesem Thema ist die vom Kompatibilitätsdienst erstellte XML-Datei beschrieben. Zudem werden Beispiele von XSLT-Definition und Ausgabedateien bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="74775-p101">The data is delivered as XML, which you can transform into the format that best fits your organization, by using an XSLT definition file. This topic describes the XML file that the Compliance service creates. It also provides samples of XSLT definition and output files.</span></span>
+<span data-ttu-id="b7109-p101">Die Daten werden als XML ausgegeben; Sie können sie mithilfe einer XSLT-Definitionsdatei in das von Ihrer Organisation bevorzugte Format umwandeln. In diesem Thema ist die vom Kompatibilitätsdienst erstellte XML-Datei beschrieben. Zudem werden Beispiele von XSLT-Definition und Ausgabedateien bereitgestellt.</span><span class="sxs-lookup"><span data-stu-id="b7109-p101">The data is delivered as XML, which you can transform into the format that best fits your organization, by using an XSLT definition file. This topic describes the XML file that the Compliance service creates. It also provides samples of XSLT definition and output files.</span></span>
 
 <div>
 
-## <a name="output-format"></a><span data-ttu-id="74775-114">Ausgabeformat</span><span class="sxs-lookup"><span data-stu-id="74775-114">Output Format</span></span>
+## <a name="output-format"></a><span data-ttu-id="b7109-114">Ausgabeformat</span><span class="sxs-lookup"><span data-stu-id="b7109-114">Output Format</span></span>
 
-<span data-ttu-id="74775-115">Wie im folgenden Codebeispiel dargestellt ist die Ausgabe des Kompatibilitätsdienstes nach Unterhaltungen (dem Unterhaltungselement) und Nachrichten (dem Nachrichtenelement) kategorisiert.</span><span class="sxs-lookup"><span data-stu-id="74775-115">The Compliance service output is categorized by conversation (the Conversation element) and then by message (the Messages element), as shown in the following code sample.</span></span>
+<span data-ttu-id="b7109-115">Wie im folgenden Codebeispiel dargestellt ist die Ausgabe des Kompatibilitätsdienstes nach Unterhaltungen (dem Unterhaltungselement) und Nachrichten (dem Nachrichtenelement) kategorisiert.</span><span class="sxs-lookup"><span data-stu-id="b7109-115">The Compliance service output is categorized by conversation (the Conversation element) and then by message (the Messages element), as shown in the following code sample.</span></span>
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -72,23 +72,23 @@ ms.locfileid: "42041074"
       </Conversation>
     </Conversations>
 
-<span data-ttu-id="74775-p102">Ein Unterhaltungselement enthält vier Elemente ("Channel", "FirstMessage", "StartTimeUTC" und "EndTimeUTC"). Das Element "Channel" enthält den Uniform Resource Identifier (URI) des Chatrooms, und das Element "FirstMessage" beschreibt das erste Element im Nachrichtenelement. Die Elemente "StartTimeUTC" und "EndTimeUTC" enthalten Informationen zu den Start- und Endzeiten der Unterhaltung, wie im folgenden Codebeispiel dargestellt.</span><span class="sxs-lookup"><span data-stu-id="74775-p102">A Conversation element contains four elements (Channel, FirstMessage, StartTimeUTC, and EndTimeUTC). The Channel element contains the Uniform Resource Identifier (URI) of the chat room, and the FirstMessage element describes the first message in the Messages element. The StartTimeUTC and EndTimeUTC elements provide the start and end times for the conversation, as shown in the following code sample.</span></span>
+<span data-ttu-id="b7109-p102">Ein Unterhaltungselement enthält vier Elemente ("Channel", "FirstMessage", "StartTimeUTC" und "EndTimeUTC"). Das Element "Channel" enthält den Uniform Resource Identifier (URI) des Chatrooms, und das Element "FirstMessage" beschreibt das erste Element im Nachrichtenelement. Die Elemente "StartTimeUTC" und "EndTimeUTC" enthalten Informationen zu den Start- und Endzeiten der Unterhaltung, wie im folgenden Codebeispiel dargestellt.</span><span class="sxs-lookup"><span data-stu-id="b7109-p102">A Conversation element contains four elements (Channel, FirstMessage, StartTimeUTC, and EndTimeUTC). The Channel element contains the Uniform Resource Identifier (URI) of the chat room, and the FirstMessage element describes the first message in the Messages element. The StartTimeUTC and EndTimeUTC elements provide the start and end times for the conversation, as shown in the following code sample.</span></span>
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-<span data-ttu-id="74775-p103">Ein Nachrichtenelement enthält zwei Elemente ("Sender" und "DateTimeUTC") und drei Attribute ("Type", "Content" und "ID"). Das Element "Sender" steht für den Benutzer, der die Nachricht sendet, und das Element "DateTimeUTC" gibt an, wann ein Ereignis auftritt, wie im folgenden Codebeispiel dargestellt.</span><span class="sxs-lookup"><span data-stu-id="74775-p103">A Message element contains two elements (Sender and DateTimeUTC) and three attributes (Type, Content, and ID). The Sender element represents the user who sends the message, and the DateTimeUTC element represents when an event occurs, as shown in the following code sample.</span></span>
+<span data-ttu-id="b7109-p103">Ein Nachrichtenelement enthält zwei Elemente ("Sender" und "DateTimeUTC") und drei Attribute ("Type", "Content" und "ID"). Das Element "Sender" steht für den Benutzer, der die Nachricht sendet, und das Element "DateTimeUTC" gibt an, wann ein Ereignis auftritt, wie im folgenden Codebeispiel dargestellt.</span><span class="sxs-lookup"><span data-stu-id="b7109-p103">A Message element contains two elements (Sender and DateTimeUTC) and three attributes (Type, Content, and ID). The Sender element represents the user who sends the message, and the DateTimeUTC element represents when an event occurs, as shown in the following code sample.</span></span>
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
       <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
     </Message>
 
-<span data-ttu-id="74775-121">In der folgenden Tabelle werden die Nachrichtenattribute Type, Content und ID beschrieben.</span><span class="sxs-lookup"><span data-stu-id="74775-121">The following table describes the message attributes Type, Content, and ID.</span></span>
+<span data-ttu-id="b7109-121">In der folgenden Tabelle werden die Nachrichtenattribute Type, Content und ID beschrieben.</span><span class="sxs-lookup"><span data-stu-id="b7109-121">The following table describes the message attributes Type, Content, and ID.</span></span>
 
-### <a name="messages-element-attributes"></a><span data-ttu-id="74775-122">Nachrichtenelementattribute</span><span class="sxs-lookup"><span data-stu-id="74775-122">Messages Element Attributes</span></span>
+### <a name="messages-element-attributes"></a><span data-ttu-id="b7109-122">Nachrichtenelementattribute</span><span class="sxs-lookup"><span data-stu-id="b7109-122">Messages Element Attributes</span></span>
 
 <table>
 <colgroup>
@@ -98,34 +98,34 @@ ms.locfileid: "42041074"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="74775-123">Attribut</span><span class="sxs-lookup"><span data-stu-id="74775-123">Attribute</span></span></th>
-<th><span data-ttu-id="74775-124">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="74775-124">Description</span></span></th>
-<th><span data-ttu-id="74775-125">Optional/erforderlich</span><span class="sxs-lookup"><span data-stu-id="74775-125">Optional/Required</span></span></th>
+<th><span data-ttu-id="b7109-123">Attribut</span><span class="sxs-lookup"><span data-stu-id="b7109-123">Attribute</span></span></th>
+<th><span data-ttu-id="b7109-124">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="b7109-124">Description</span></span></th>
+<th><span data-ttu-id="b7109-125">Optional/erforderlich</span><span class="sxs-lookup"><span data-stu-id="b7109-125">Optional/Required</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="74775-126">Typ</span><span class="sxs-lookup"><span data-stu-id="74775-126">Type</span></span></p></td>
-<td><p><span data-ttu-id="74775-p104">Gibt den Nachrichtentyp an. Die Nachrichtentypen sind in der Tabelle "Nachrichtenelemente – Nachrichtentypen" beschrieben.</span><span class="sxs-lookup"><span data-stu-id="74775-p104">Specifies the message type. The message types are described in the Message Elements Message Types table.</span></span></p></td>
-<td><p><span data-ttu-id="74775-129">Erforderlich</span><span class="sxs-lookup"><span data-stu-id="74775-129">Required</span></span></p></td>
+<td><p><span data-ttu-id="b7109-126">Typ</span><span class="sxs-lookup"><span data-stu-id="b7109-126">Type</span></span></p></td>
+<td><p><span data-ttu-id="b7109-p104">Gibt den Nachrichtentyp an. Die Nachrichtentypen sind in der Tabelle "Nachrichtenelemente – Nachrichtentypen" beschrieben.</span><span class="sxs-lookup"><span data-stu-id="b7109-p104">Specifies the message type. The message types are described in the Message Elements Message Types table.</span></span></p></td>
+<td><p><span data-ttu-id="b7109-129">Erforderlich</span><span class="sxs-lookup"><span data-stu-id="b7109-129">Required</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="74775-130">Inhalt</span><span class="sxs-lookup"><span data-stu-id="74775-130">Content</span></span></p></td>
-<td><p><span data-ttu-id="74775-p105">Enthält den Inhalt der Nachricht. Nachrichten vom Typ "Join" oder "Part" verwenden dieses Attribut nicht.</span><span class="sxs-lookup"><span data-stu-id="74775-p105">Contains the content of the message. Messages with a Type of Join or Part do not use this attribute.</span></span></p></td>
-<td><p><span data-ttu-id="74775-133">Optional</span><span class="sxs-lookup"><span data-stu-id="74775-133">Optional</span></span></p></td>
+<td><p><span data-ttu-id="b7109-130">Inhalt</span><span class="sxs-lookup"><span data-stu-id="b7109-130">Content</span></span></p></td>
+<td><p><span data-ttu-id="b7109-p105">Enthält den Inhalt der Nachricht. Nachrichten vom Typ "Join" oder "Part" verwenden dieses Attribut nicht.</span><span class="sxs-lookup"><span data-stu-id="b7109-p105">Contains the content of the message. Messages with a Type of Join or Part do not use this attribute.</span></span></p></td>
+<td><p><span data-ttu-id="b7109-133">Optional</span><span class="sxs-lookup"><span data-stu-id="b7109-133">Optional</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="74775-134">ID</span><span class="sxs-lookup"><span data-stu-id="74775-134">ID</span></span></p></td>
-<td><p><span data-ttu-id="74775-p106">Gibt die eindeutige ID des Inhalts an. Dieses Attribut wird nur mit Nachrichten vom Typ "Chat" verwendet.</span><span class="sxs-lookup"><span data-stu-id="74775-p106">Specifies the unique ID of the content. This attribute is used only with messages with a Type of Chat.</span></span></p></td>
-<td><p><span data-ttu-id="74775-137">Optional</span><span class="sxs-lookup"><span data-stu-id="74775-137">Optional</span></span></p></td>
+<td><p><span data-ttu-id="b7109-134">ID</span><span class="sxs-lookup"><span data-stu-id="b7109-134">ID</span></span></p></td>
+<td><p><span data-ttu-id="b7109-p106">Gibt die eindeutige ID des Inhalts an. Dieses Attribut wird nur mit Nachrichten vom Typ "Chat" verwendet.</span><span class="sxs-lookup"><span data-stu-id="b7109-p106">Specifies the unique ID of the content. This attribute is used only with messages with a Type of Chat.</span></span></p></td>
+<td><p><span data-ttu-id="b7109-137">Optional</span><span class="sxs-lookup"><span data-stu-id="b7109-137">Optional</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="74775-p107">Jedes "Sender"-Element enthält fünf Attribute: "user name", "ID", "email", "internal" und "URI". Diese Attribute sind in der folgenden Tabelle beschrieben.</span><span class="sxs-lookup"><span data-stu-id="74775-p107">Each Sender element contains five attributes: the user name, ID, email, internal, and URI. These attributes are described in the following table.</span></span>
+<span data-ttu-id="b7109-p107">Jedes "Sender"-Element enthält fünf Attribute: "user name", "ID", "email", "internal" und "URI". Diese Attribute sind in der folgenden Tabelle beschrieben.</span><span class="sxs-lookup"><span data-stu-id="b7109-p107">Each Sender element contains five attributes: the user name, ID, email, internal, and URI. These attributes are described in the following table.</span></span>
 
-### <a name="sender-element-attributes"></a><span data-ttu-id="74775-140">"Sender"-Elementattribute</span><span class="sxs-lookup"><span data-stu-id="74775-140">Sender Element Attributes</span></span>
+### <a name="sender-element-attributes"></a><span data-ttu-id="b7109-140">"Sender"-Elementattribute</span><span class="sxs-lookup"><span data-stu-id="b7109-140">Sender Element Attributes</span></span>
 
 <table>
 <colgroup>
@@ -135,44 +135,44 @@ ms.locfileid: "42041074"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="74775-141">Attribut</span><span class="sxs-lookup"><span data-stu-id="74775-141">Attribute</span></span></th>
-<th><span data-ttu-id="74775-142">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="74775-142">Description</span></span></th>
-<th><span data-ttu-id="74775-143">Optional/erforderlich</span><span class="sxs-lookup"><span data-stu-id="74775-143">Optional/Required</span></span></th>
+<th><span data-ttu-id="b7109-141">Attribut</span><span class="sxs-lookup"><span data-stu-id="b7109-141">Attribute</span></span></th>
+<th><span data-ttu-id="b7109-142">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="b7109-142">Description</span></span></th>
+<th><span data-ttu-id="b7109-143">Optional/erforderlich</span><span class="sxs-lookup"><span data-stu-id="b7109-143">Optional/Required</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="74775-144">Username</span><span class="sxs-lookup"><span data-stu-id="74775-144">Username</span></span></p></td>
-<td><p><span data-ttu-id="74775-145">Der Name des Absenders.</span><span class="sxs-lookup"><span data-stu-id="74775-145">The name of the sender.</span></span></p></td>
-<td><p><span data-ttu-id="74775-146">Optional</span><span class="sxs-lookup"><span data-stu-id="74775-146">Optional</span></span></p></td>
+<td><p><span data-ttu-id="b7109-144">Username</span><span class="sxs-lookup"><span data-stu-id="b7109-144">Username</span></span></p></td>
+<td><p><span data-ttu-id="b7109-145">Der Name des Absenders.</span><span class="sxs-lookup"><span data-stu-id="b7109-145">The name of the sender.</span></span></p></td>
+<td><p><span data-ttu-id="b7109-146">Optional</span><span class="sxs-lookup"><span data-stu-id="b7109-146">Optional</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="74775-147">ID</span><span class="sxs-lookup"><span data-stu-id="74775-147">ID</span></span></p></td>
-<td><p><span data-ttu-id="74775-148">Die eindeutige ID des Absenders.</span><span class="sxs-lookup"><span data-stu-id="74775-148">The sender’s unique ID.</span></span></p></td>
-<td><p><span data-ttu-id="74775-149">Erforderlich</span><span class="sxs-lookup"><span data-stu-id="74775-149">Required</span></span></p></td>
+<td><p><span data-ttu-id="b7109-147">ID</span><span class="sxs-lookup"><span data-stu-id="b7109-147">ID</span></span></p></td>
+<td><p><span data-ttu-id="b7109-148">Die eindeutige ID des Absenders.</span><span class="sxs-lookup"><span data-stu-id="b7109-148">The sender’s unique ID.</span></span></p></td>
+<td><p><span data-ttu-id="b7109-149">Erforderlich</span><span class="sxs-lookup"><span data-stu-id="b7109-149">Required</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="74775-150">E-Mail</span><span class="sxs-lookup"><span data-stu-id="74775-150">Email</span></span></p></td>
-<td><p><span data-ttu-id="74775-151">Die E-Mail-Adresse des Absenders</span><span class="sxs-lookup"><span data-stu-id="74775-151">The sender’s email address.</span></span></p></td>
-<td><p><span data-ttu-id="74775-152">Optional</span><span class="sxs-lookup"><span data-stu-id="74775-152">Optional</span></span></p></td>
+<td><p><span data-ttu-id="b7109-150">E-Mail</span><span class="sxs-lookup"><span data-stu-id="b7109-150">Email</span></span></p></td>
+<td><p><span data-ttu-id="b7109-151">Die E-Mail-Adresse des Absenders</span><span class="sxs-lookup"><span data-stu-id="b7109-151">The sender’s email address.</span></span></p></td>
+<td><p><span data-ttu-id="b7109-152">Optional</span><span class="sxs-lookup"><span data-stu-id="b7109-152">Optional</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="74775-153">Intern</span><span class="sxs-lookup"><span data-stu-id="74775-153">Internal</span></span></p></td>
-<td><p><span data-ttu-id="74775-p108">Gibt an, ob es sich um einen internen Benutzer oder einen Verbundbenutzer handelt. Bei Festlegung des Werts auf "true"  (wahr) ist der Benutzer intern.</span><span class="sxs-lookup"><span data-stu-id="74775-p108">Determines whether the user is an internal user or a federated user. If the value is set to true, the user is internal.</span></span></p></td>
-<td><p><span data-ttu-id="74775-156">Optional</span><span class="sxs-lookup"><span data-stu-id="74775-156">Optional</span></span></p></td>
+<td><p><span data-ttu-id="b7109-153">Intern</span><span class="sxs-lookup"><span data-stu-id="b7109-153">Internal</span></span></p></td>
+<td><p><span data-ttu-id="b7109-p108">Gibt an, ob es sich um einen internen Benutzer oder einen Verbundbenutzer handelt. Bei Festlegung des Werts auf "true"  (wahr) ist der Benutzer intern.</span><span class="sxs-lookup"><span data-stu-id="b7109-p108">Determines whether the user is an internal user or a federated user. If the value is set to true, the user is internal.</span></span></p></td>
+<td><p><span data-ttu-id="b7109-156">Optional</span><span class="sxs-lookup"><span data-stu-id="b7109-156">Optional</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="74775-157">Uri</span><span class="sxs-lookup"><span data-stu-id="74775-157">Uri</span></span></p></td>
-<td><p><span data-ttu-id="74775-158">Die SIP-URI des Benutzers.</span><span class="sxs-lookup"><span data-stu-id="74775-158">The user’s SIP URI.</span></span></p></td>
-<td><p><span data-ttu-id="74775-159">Erforderlich</span><span class="sxs-lookup"><span data-stu-id="74775-159">Required</span></span></p></td>
+<td><p><span data-ttu-id="b7109-157">Uri</span><span class="sxs-lookup"><span data-stu-id="b7109-157">Uri</span></span></p></td>
+<td><p><span data-ttu-id="b7109-158">Die SIP-URI des Benutzers.</span><span class="sxs-lookup"><span data-stu-id="b7109-158">The user’s SIP URI.</span></span></p></td>
+<td><p><span data-ttu-id="b7109-159">Erforderlich</span><span class="sxs-lookup"><span data-stu-id="b7109-159">Required</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="74775-p109">In der folgenden Tabelle sind die Nachrichtentypen beschrieben, die das Nachrichtenelement enthalten kann. Sie enthält auch Beispiele für die Verwendung der einzelnen Elemente.</span><span class="sxs-lookup"><span data-stu-id="74775-p109">The following table describes the message types that the Messages element can contain. It also provides examples of how each element is used.</span></span>
+<span data-ttu-id="b7109-p109">In der folgenden Tabelle sind die Nachrichtentypen beschrieben, die das Nachrichtenelement enthalten kann. Sie enthält auch Beispiele für die Verwendung der einzelnen Elemente.</span><span class="sxs-lookup"><span data-stu-id="b7109-p109">The following table describes the message types that the Messages element can contain. It also provides examples of how each element is used.</span></span>
 
-### <a name="message-element-message-types"></a><span data-ttu-id="74775-162">Nachrichtenelemente – Nachrichtentypen</span><span class="sxs-lookup"><span data-stu-id="74775-162">Message Element Message Types</span></span>
+### <a name="message-element-message-types"></a><span data-ttu-id="b7109-162">Nachrichtenelemente – Nachrichtentypen</span><span class="sxs-lookup"><span data-stu-id="b7109-162">Message Element Message Types</span></span>
 
 <table>
 <colgroup>
@@ -182,55 +182,55 @@ ms.locfileid: "42041074"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="74775-163">Nachrichtentyp</span><span class="sxs-lookup"><span data-stu-id="74775-163">Message Type</span></span></th>
-<th><span data-ttu-id="74775-164">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="74775-164">Description</span></span></th>
-<th><span data-ttu-id="74775-165">Codebeispiel</span><span class="sxs-lookup"><span data-stu-id="74775-165">Code example</span></span></th>
+<th><span data-ttu-id="b7109-163">Nachrichtentyp</span><span class="sxs-lookup"><span data-stu-id="b7109-163">Message Type</span></span></th>
+<th><span data-ttu-id="b7109-164">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="b7109-164">Description</span></span></th>
+<th><span data-ttu-id="b7109-165">Codebeispiel</span><span class="sxs-lookup"><span data-stu-id="b7109-165">Code example</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="74775-166">Beitreten</span><span class="sxs-lookup"><span data-stu-id="74775-166">Join</span></span></p></td>
-<td><p><span data-ttu-id="74775-167">Ein Benutzer betritt einen Chatroom.</span><span class="sxs-lookup"><span data-stu-id="74775-167">A user joins a chat room.</span></span></p></td>
+<td><p><span data-ttu-id="b7109-166">Beitreten</span><span class="sxs-lookup"><span data-stu-id="b7109-166">Join</span></span></p></td>
+<td><p><span data-ttu-id="b7109-167">Ein Benutzer betritt einen Chatroom.</span><span class="sxs-lookup"><span data-stu-id="b7109-167">A user joins a chat room.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;JOIN&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1206211842612&quot; string=&quot;2008-03-22T18:50:42.6127374Z&quot; long=&quot;633418086426127374&quot; /&gt; 
 &lt;/Message</code></pre></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="74775-168">Teil</span><span class="sxs-lookup"><span data-stu-id="74775-168">Part</span></span></p></td>
-<td><p><span data-ttu-id="74775-169">Ein Benutzer verlässt einen Chatroom.</span><span class="sxs-lookup"><span data-stu-id="74775-169">A user leaves a chat room.</span></span></p></td>
+<td><p><span data-ttu-id="b7109-168">Teil</span><span class="sxs-lookup"><span data-stu-id="b7109-168">Part</span></span></p></td>
+<td><p><span data-ttu-id="b7109-169">Ein Benutzer verlässt einen Chatroom.</span><span class="sxs-lookup"><span data-stu-id="b7109-169">A user leaves a chat room.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;PART&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt; Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1212610602532&quot; string=&quot;2008-06-04T20:16:42.5324614Z&quot; long=&quot;633482074025324614&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="74775-170">Chat</span><span class="sxs-lookup"><span data-stu-id="74775-170">Chat</span></span></p></td>
-<td><p><span data-ttu-id="74775-171">Die E-Mail-Adresse des Absenders</span><span class="sxs-lookup"><span data-stu-id="74775-171">The sender’s email address.</span></span></p></td>
+<td><p><span data-ttu-id="b7109-170">Chat</span><span class="sxs-lookup"><span data-stu-id="b7109-170">Chat</span></span></p></td>
+<td><p><span data-ttu-id="b7109-171">Die E-Mail-Adresse des Absenders</span><span class="sxs-lookup"><span data-stu-id="b7109-171">The sender’s email address.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;CHAT&quot; content=&quot;hello&quot; id=&quot;1&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1205351800522&quot; string=&quot;2008-03-12T19:56:40.522264Z&quot; long=&quot;633409486005222640&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="74775-172">Backchat</span><span class="sxs-lookup"><span data-stu-id="74775-172">Backchat</span></span></p></td>
-<td><p><span data-ttu-id="74775-173">Ein Benutzer fordert Inhalte des Chatverlaufs an.</span><span class="sxs-lookup"><span data-stu-id="74775-173">A user requests content from chat history.</span></span></p></td>
+<td><p><span data-ttu-id="b7109-172">Backchat</span><span class="sxs-lookup"><span data-stu-id="b7109-172">Backchat</span></span></p></td>
+<td><p><span data-ttu-id="b7109-173">Ein Benutzer fordert Inhalte des Chatverlaufs an.</span><span class="sxs-lookup"><span data-stu-id="b7109-173">A user requests content from chat history.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;BACKCHAT&quot; content=&quot;backchatcontent&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1206034385284&quot; string=&quot;2008-03-20T17:33:05.2841594Z&quot; long=&quot;633416311852841594&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="74775-174">File upload</span><span class="sxs-lookup"><span data-stu-id="74775-174">File upload</span></span></p></td>
-<td><p><span data-ttu-id="74775-175">Ein Benutzer lädt eine Datei hoch.</span><span class="sxs-lookup"><span data-stu-id="74775-175">A user uploads a file.</span></span></p></td>
+<td><p><span data-ttu-id="b7109-174">File upload</span><span class="sxs-lookup"><span data-stu-id="b7109-174">File upload</span></span></p></td>
+<td><p><span data-ttu-id="b7109-175">Ein Benutzer lädt eine Datei hoch.</span><span class="sxs-lookup"><span data-stu-id="b7109-175">A user uploads a file.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;FILEUPLOAD&quot; content=&quot;0988239a-bb66-4616-90a4-b07771a2097c.txt&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1205351828975&quot; string=&quot;2008-03-12T19:57:08.9755711Z&quot; long=&quot;633409486289755711&quot; /&gt; 
 &lt;/Message&gt;</code></pre></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="74775-176">File download</span><span class="sxs-lookup"><span data-stu-id="74775-176">File download</span></span></p></td>
-<td><p><span data-ttu-id="74775-177">Ein Benutzer lädt eine Datei herunter.</span><span class="sxs-lookup"><span data-stu-id="74775-177">A user downloads a file.</span></span></p></td>
+<td><p><span data-ttu-id="b7109-176">File download</span><span class="sxs-lookup"><span data-stu-id="b7109-176">File download</span></span></p></td>
+<td><p><span data-ttu-id="b7109-177">Ein Benutzer lädt eine Datei herunter.</span><span class="sxs-lookup"><span data-stu-id="b7109-177">A user downloads a file.</span></span></p></td>
 <td><pre><code>&lt;Message type=&quot;FILEDOWNLOAD&quot; content=&quot;006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;kazuto@litwareinc.com&quot; id=&quot;10&quot; email=&quot;&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
   &lt;DateTimeUTC since1970=&quot;1212611141851&quot; string=&quot;2008-06-04T20:25:41.8518646Z&quot; long=&quot;633482079418518646&quot; /&gt; 
@@ -242,9 +242,9 @@ ms.locfileid: "42041074"
 
 <div>
 
-## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a><span data-ttu-id="74775-178">Standardmäßige Ausgabe von persistent Chat-XSD und XSL-Beispiel Transformation</span><span class="sxs-lookup"><span data-stu-id="74775-178">Default Persistent Chat Output XSD and Example XSL Transform</span></span>
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a><span data-ttu-id="b7109-178">Standardmäßige Ausgabe von persistent Chat-XSD und XSL-Beispiel Transformation</span><span class="sxs-lookup"><span data-stu-id="b7109-178">Default Persistent Chat Output XSD and Example XSL Transform</span></span>
 
-<span data-ttu-id="74775-179">Das folgende Codebeispiel enthält die standardmäßige Ausgabe des Servers für die Einhaltung von Bestimmungen.</span><span class="sxs-lookup"><span data-stu-id="74775-179">The following code sample contains the default output from the Compliance Server.</span></span>
+<span data-ttu-id="b7109-179">Das folgende Codebeispiel enthält die standardmäßige Ausgabe des Servers für die Einhaltung von Bestimmungen.</span><span class="sxs-lookup"><span data-stu-id="b7109-179">The following code sample contains the default output from the Compliance Server.</span></span>
 
     <?xml version="1.0" encoding="utf-8"?>
     <xs:schema id="Conversations"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -341,7 +341,7 @@ ms.locfileid: "42041074"
       </xs:element>
     </xs:schema>
 
-<span data-ttu-id="74775-180">Das folgende Codebeispiel enthält ein Beispiel einer XSL-Transformation.</span><span class="sxs-lookup"><span data-stu-id="74775-180">The following code sample contains a sample XSL transform.</span></span>
+<span data-ttu-id="b7109-180">Das folgende Codebeispiel enthält ein Beispiel einer XSL-Transformation.</span><span class="sxs-lookup"><span data-stu-id="b7109-180">The following code sample contains a sample XSL transform.</span></span>
 
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
        <xsl:output method="xml" encoding="UTF-8" indent="yes" />

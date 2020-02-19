@@ -12,20 +12,20 @@ ms:contentKeyID: 48184878
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0085f2990d2541c27392d52143ff69b4fb4711bc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 86390987613c06bbd422edbea3432999751263c2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049447"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135862"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-web-conferencing-in-lync-server-2013"></a><span data-ttu-id="9cafe-102">Prüfliste für die Bereitstellung von Webkonferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9cafe-102">Deployment checklist for web conferencing in Lync Server 2013</span></span>
+# <a name="deployment-checklist-for-web-conferencing-in-lync-server-2013"></a><span data-ttu-id="4c8f4-102">Prüfliste für die Bereitstellung von Webkonferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4c8f4-102">Deployment checklist for web conferencing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42049447"
 
 <span> </span>
 
-<span data-ttu-id="9cafe-103">_**Letztes Änderungsstand des Themas:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="9cafe-103">_**Topic Last Modified:** 2012-09-30_</span></span>
+<span data-ttu-id="4c8f4-103">_**Letztes Änderungsstand des Themas:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="4c8f4-103">_**Topic Last Modified:** 2012-09-30_</span></span>
 
-<span data-ttu-id="9cafe-104">Wie bei der Bereitstellung Ihrer anderen lync Server 2013 Komponenten erfordert die Bereitstellung von Webkonferenzen die Verwendung des Topologie-Generators zum Erstellen und Veröffentlichen einer Topologie, in der Konferenzen integriert werden.</span><span class="sxs-lookup"><span data-stu-id="9cafe-104">As with deployment of your other Lync Server 2013 components, deployment of web conferencing requires that you use Topology Builder to create and publish a topology that incorporates conferencing.</span></span>
+<span data-ttu-id="4c8f4-104">Wie bei der Bereitstellung Ihrer anderen lync Server 2013 Komponenten erfordert die Bereitstellung von Webkonferenzen die Verwendung des Topologie-Generators zum Erstellen und Veröffentlichen einer Topologie, in der Konferenzen integriert werden.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-104">As with deployment of your other Lync Server 2013 components, deployment of web conferencing requires that you use Topology Builder to create and publish a topology that incorporates conferencing.</span></span>
 
 <div>
 
-## <a name="deployment-sequence"></a><span data-ttu-id="9cafe-105">Bereitstellungsreihenfolge</span><span class="sxs-lookup"><span data-stu-id="9cafe-105">Deployment Sequence</span></span>
+## <a name="deployment-sequence"></a><span data-ttu-id="4c8f4-105">Bereitstellungsreihenfolge</span><span class="sxs-lookup"><span data-stu-id="4c8f4-105">Deployment Sequence</span></span>
 
-<span data-ttu-id="9cafe-106">Sie können Konferenzen gleichzeitig bereitstellen, wenn Sie die anfängliche Topologie bereitstellen oder nachdem Sie mindestens eine Front-End-Pool oder Standard Edition-Server bereitgestellt haben.</span><span class="sxs-lookup"><span data-stu-id="9cafe-106">You can deploy conferencing at the same time that you deploy your initial topology or after you have deployed at least one Front End pool or Standard Edition server.</span></span>
+<span data-ttu-id="4c8f4-106">Sie können Konferenzen gleichzeitig bereitstellen, wenn Sie die anfängliche Topologie bereitstellen oder nachdem Sie mindestens eine Front-End-Pool oder Standard Edition-Server bereitgestellt haben.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-106">You can deploy conferencing at the same time that you deploy your initial topology or after you have deployed at least one Front End pool or Standard Edition server.</span></span>
 
 </div>
 
 <div>
 
-## <a name="conferencing-deployment-process"></a><span data-ttu-id="9cafe-107">Bereitstellungsverfahren für Konferenzen</span><span class="sxs-lookup"><span data-stu-id="9cafe-107">Conferencing Deployment Process</span></span>
+## <a name="conferencing-deployment-process"></a><span data-ttu-id="4c8f4-107">Bereitstellungsverfahren für Konferenzen</span><span class="sxs-lookup"><span data-stu-id="4c8f4-107">Conferencing Deployment Process</span></span>
 
-<span data-ttu-id="9cafe-108">Die folgende Tabelle bietet einen Überblick über die erforderlichen Schritte zur Bereitstellung von Konferenzen in einer vorhandenen Topologie.</span><span class="sxs-lookup"><span data-stu-id="9cafe-108">The following table provides an overview of the steps required to deploy conferencing into an existing topology.</span></span>
+<span data-ttu-id="4c8f4-108">Die folgende Tabelle bietet einen Überblick über die erforderlichen Schritte zur Bereitstellung von Konferenzen in einer vorhandenen Topologie.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-108">The following table provides an overview of the steps required to deploy conferencing into an existing topology.</span></span>
 
 
 <table>
@@ -63,49 +63,49 @@ ms.locfileid: "42049447"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="9cafe-109">Phase</span><span class="sxs-lookup"><span data-stu-id="9cafe-109">Phase</span></span></th>
-<th><span data-ttu-id="9cafe-110">Schritte</span><span class="sxs-lookup"><span data-stu-id="9cafe-110">Steps</span></span></th>
-<th><span data-ttu-id="9cafe-111">Rollen und Gruppenmitgliedschaften</span><span class="sxs-lookup"><span data-stu-id="9cafe-111">Roles and group memberships</span></span></th>
-<th><span data-ttu-id="9cafe-112">Dokumentation</span><span class="sxs-lookup"><span data-stu-id="9cafe-112">Documentation</span></span></th>
+<th><span data-ttu-id="4c8f4-109">Phase</span><span class="sxs-lookup"><span data-stu-id="4c8f4-109">Phase</span></span></th>
+<th><span data-ttu-id="4c8f4-110">Schritte</span><span class="sxs-lookup"><span data-stu-id="4c8f4-110">Steps</span></span></th>
+<th><span data-ttu-id="4c8f4-111">Rollen und Gruppenmitgliedschaften</span><span class="sxs-lookup"><span data-stu-id="4c8f4-111">Roles and group memberships</span></span></th>
+<th><span data-ttu-id="4c8f4-112">Dokumentation</span><span class="sxs-lookup"><span data-stu-id="4c8f4-112">Documentation</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9cafe-113"><strong>Installieren der erforderlichen Hardware und Software</strong></span><span class="sxs-lookup"><span data-stu-id="9cafe-113"><strong>Install prerequisite hardware and software</strong></span></span></p></td>
-<td><p><span data-ttu-id="9cafe-114">Konferenzen werden auf Front-End-Servern auf einem Front-End-Pool-und Standard Edition-Server ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="9cafe-114">Conferencing runs on Front End Servers in a Front End pool and Standard Edition servers.</span></span> <span data-ttu-id="9cafe-115">Es bestehen keine zusätzlichen Hardware- oder Softwareanforderungen, die die Installationsanforderungen für diese Server übersteigen.</span><span class="sxs-lookup"><span data-stu-id="9cafe-115">It has no additional hardware or software requirements beyond what is required to install those servers.</span></span></p>
+<td><p><span data-ttu-id="4c8f4-113"><strong>Installieren der erforderlichen Hardware und Software</strong></span><span class="sxs-lookup"><span data-stu-id="4c8f4-113"><strong>Install prerequisite hardware and software</strong></span></span></p></td>
+<td><p><span data-ttu-id="4c8f4-114">Konferenzen werden auf Front-End-Servern auf einem Front-End-Pool-und Standard Edition-Server ausgeführt.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-114">Conferencing runs on Front End Servers in a Front End pool and Standard Edition servers.</span></span> <span data-ttu-id="4c8f4-115">Es bestehen keine zusätzlichen Hardware- oder Softwareanforderungen, die die Installationsanforderungen für diese Server übersteigen.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-115">It has no additional hardware or software requirements beyond what is required to install those servers.</span></span></p>
 <div>
 
 > [!NOTE]  
-> <span data-ttu-id="9cafe-116">Lync Server 2013 verwendet Office-Webanwendungen und den Office-webapps-Server, um die Freigabe und das Rendern von PowerPoint-Präsentationen zu verarbeiten.</span><span class="sxs-lookup"><span data-stu-id="9cafe-116">Lync Server 2013 uses Office Web Apps and the Office Web Apps Server to handle sharing and rendering of PowerPoint presentations.</span></span> <span data-ttu-id="9cafe-117">Informationen zum Installieren und Konfigurieren des Office-webapps-Servers finden Sie unter <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Konfigurieren der Integration mit Office-webapps Server und lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="9cafe-117">For information about installing and configuring the Office Web Apps Server, see <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configuring integration with Office Web Apps Server and Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="4c8f4-116">Lync Server 2013 verwendet Office-Webanwendungen und den Office-webapps-Server, um die Freigabe und das Rendern von PowerPoint-Präsentationen zu verarbeiten.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-116">Lync Server 2013 uses Office Web Apps and the Office Web Apps Server to handle sharing and rendering of PowerPoint presentations.</span></span> <span data-ttu-id="4c8f4-117">Informationen zum Installieren und Konfigurieren des Office-webapps-Servers finden Sie unter <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Konfigurieren der Integration mit Office-webapps Server und lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-117">For information about installing and configuring the Office Web Apps Server, see <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configuring integration with Office Web Apps Server and Lync Server 2013</A>.</span></span>
 
 
 </div></td>
-<td><p><span data-ttu-id="9cafe-118">Domänenbenutzer, der Mitglied der lokalen Administratorgruppe ist</span><span class="sxs-lookup"><span data-stu-id="9cafe-118">Domain user who is a member of the local Administrators group</span></span></p></td>
-<td><p><span data-ttu-id="9cafe-119"><a href="lync-server-2013-supported-hardware.md">Unterstützte Hardware für lync Server 2013</a> in der Unterstützungsdokumentation</span><span class="sxs-lookup"><span data-stu-id="9cafe-119"><a href="lync-server-2013-supported-hardware.md">Supported hardware for Lync Server 2013</a> in the Supportability documentation</span></span></p>
-<p><span data-ttu-id="9cafe-120"><a href="lync-server-2013-server-software-and-infrastructure-support.md">Server Software-und Infrastrukturunterstützung in lync Server 2013</a> in der Unterstützungsdokumentation</span><span class="sxs-lookup"><span data-stu-id="9cafe-120"><a href="lync-server-2013-server-software-and-infrastructure-support.md">Server software and infrastructure support in Lync Server 2013</a> in the Supportability documentation</span></span></p>
-<p><span data-ttu-id="9cafe-121"><a href="lync-server-2013-determining-your-system-requirements.md">Bestimmen der Systemanforderungen für lync Server 2013</a> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="9cafe-121"><a href="lync-server-2013-determining-your-system-requirements.md">Determining your system requirements for Lync Server 2013</a> in the Planning documentation.</span></span></p>
-<p><span data-ttu-id="9cafe-122"><a href="lync-server-2013-technical-requirements-for-archiving.md">Technische Voraussetzungen für die Archivierung in lync Server 2013</a> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="9cafe-122"><a href="lync-server-2013-technical-requirements-for-archiving.md">Technical requirements for Archiving in Lync Server 2013</a> in the Planning documentation.</span></span></p></td>
+<td><p><span data-ttu-id="4c8f4-118">Domänenbenutzer, der Mitglied der lokalen Administratorgruppe ist</span><span class="sxs-lookup"><span data-stu-id="4c8f4-118">Domain user who is a member of the local Administrators group</span></span></p></td>
+<td><p><span data-ttu-id="4c8f4-119"><a href="lync-server-2013-supported-hardware.md">Unterstützte Hardware für lync Server 2013</a> in der Unterstützungsdokumentation</span><span class="sxs-lookup"><span data-stu-id="4c8f4-119"><a href="lync-server-2013-supported-hardware.md">Supported hardware for Lync Server 2013</a> in the Supportability documentation</span></span></p>
+<p><span data-ttu-id="4c8f4-120"><a href="lync-server-2013-server-software-and-infrastructure-support.md">Server Software-und Infrastrukturunterstützung in lync Server 2013</a> in der Unterstützungsdokumentation</span><span class="sxs-lookup"><span data-stu-id="4c8f4-120"><a href="lync-server-2013-server-software-and-infrastructure-support.md">Server software and infrastructure support in Lync Server 2013</a> in the Supportability documentation</span></span></p>
+<p><span data-ttu-id="4c8f4-121"><a href="lync-server-2013-determining-your-system-requirements.md">Bestimmen der Systemanforderungen für lync Server 2013</a> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-121"><a href="lync-server-2013-determining-your-system-requirements.md">Determining your system requirements for Lync Server 2013</a> in the Planning documentation.</span></span></p>
+<p><span data-ttu-id="4c8f4-122"><a href="lync-server-2013-technical-requirements-for-archiving.md">Technische Voraussetzungen für die Archivierung in lync Server 2013</a> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-122"><a href="lync-server-2013-technical-requirements-for-archiving.md">Technical requirements for Archiving in Lync Server 2013</a> in the Planning documentation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9cafe-123"><strong>Erstellen der geeigneten internen Topologie zur Unterstützung von Konferenzen</strong></span><span class="sxs-lookup"><span data-stu-id="9cafe-123"><strong>Create the appropriate internal topology to support conferencing</strong></span></span></p></td>
-<td><p><span data-ttu-id="9cafe-124">Führen Sie den Topologie-Generator aus, um der Topologie Konferenzen hinzuzufügen, und veröffentlichen Sie dann die Topologie.</span><span class="sxs-lookup"><span data-stu-id="9cafe-124">Run Topology Builder to add conferencing to the topology, and then publish the topology.</span></span></p></td>
-<td><p><span data-ttu-id="9cafe-125">Zum Definieren einer Topologie: Konto, das Mitglied der lokalen Benutzergruppe ist</span><span class="sxs-lookup"><span data-stu-id="9cafe-125">To define a topology, an account that is a member of the local Users group</span></span></p>
-<p><span data-ttu-id="9cafe-126">So veröffentlichen Sie die Topologie, ein Konto, das Mitglied der Gruppe "Domänen-Admins" und der RTCUniversalServerAdmins-Gruppe ist und die über die Berechtigung "Vollzugriff" (Lesen/Schreiben/ändern) für die Dateifreigabe verfügt, die für den lync Server 2013 Dateispeicher verwendet werden soll (damit der Topologie-Generator die erforderlichen DACLs konfigurieren kann)</span><span class="sxs-lookup"><span data-stu-id="9cafe-126">To publish the topology, an account that is a member of the Domain Admins group and RTCUniversalServerAdmins group, and that has full control permissions (read/write/modify) on the file share to be used for the Lync Server 2013 file store (so that Topology Builder can configure the required DACLs)</span></span></p></td>
-<td><p><span data-ttu-id="9cafe-127"><a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">Definieren und Konfigurieren einer Topologie im Topologie-Generator für lync Server 2013</a> in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="9cafe-127"><a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">Define and configure a topology in Topology Builder for Lync Server 2013</a> in the Deployment documentation.</span></span></p></td>
+<td><p><span data-ttu-id="4c8f4-123"><strong>Erstellen der geeigneten internen Topologie zur Unterstützung von Konferenzen</strong></span><span class="sxs-lookup"><span data-stu-id="4c8f4-123"><strong>Create the appropriate internal topology to support conferencing</strong></span></span></p></td>
+<td><p><span data-ttu-id="4c8f4-124">Führen Sie den Topologie-Generator aus, um der Topologie Konferenzen hinzuzufügen, und veröffentlichen Sie dann die Topologie.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-124">Run Topology Builder to add conferencing to the topology, and then publish the topology.</span></span></p></td>
+<td><p><span data-ttu-id="4c8f4-125">Zum Definieren einer Topologie: Konto, das Mitglied der lokalen Benutzergruppe ist</span><span class="sxs-lookup"><span data-stu-id="4c8f4-125">To define a topology, an account that is a member of the local Users group</span></span></p>
+<p><span data-ttu-id="4c8f4-126">So veröffentlichen Sie die Topologie, ein Konto, das Mitglied der Gruppe "Domänen-Admins" und der RTCUniversalServerAdmins-Gruppe ist und die über die Berechtigung "Vollzugriff" (Lesen/Schreiben/ändern) für die Dateifreigabe verfügt, die für den lync Server 2013 Dateispeicher verwendet werden soll (damit der Topologie-Generator die erforderlichen DACLs konfigurieren kann)</span><span class="sxs-lookup"><span data-stu-id="4c8f4-126">To publish the topology, an account that is a member of the Domain Admins group and RTCUniversalServerAdmins group, and that has full control permissions (read/write/modify) on the file share to be used for the Lync Server 2013 file store (so that Topology Builder can configure the required DACLs)</span></span></p></td>
+<td><p><span data-ttu-id="4c8f4-127"><a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">Definieren und Konfigurieren einer Topologie im Topologie-Generator für lync Server 2013</a> in der Bereitstellungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-127"><a href="lync-server-2013-define-and-configure-a-topology-in-topology-builder.md">Define and configure a topology in Topology Builder for Lync Server 2013</a> in the Deployment documentation.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9cafe-128"><strong>Konfigurieren von Konferenzrichtlinien und -unterstützung</strong></span><span class="sxs-lookup"><span data-stu-id="9cafe-128"><strong>Configure conferencing policies and support</strong></span></span></p></td>
-<td><p><span data-ttu-id="9cafe-129">Verwenden Sie die lync Server 2013-Systemsteuerung oder lync Server-Verwaltungsshell, um Konferenzeinstellungen zu konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="9cafe-129">Use the Lync Server 2013 Control Panel or Lync Server Management Shell to configure conferencing settings.</span></span></p></td>
-<td><p><span data-ttu-id="9cafe-130">RTCUniversalServerAdmins-Gruppe (nur Windows PowerShell) oder Zuweisen von Benutzern zur Rolle "[]" oder "CSAdministrator"</span><span class="sxs-lookup"><span data-stu-id="9cafe-130">RTCUniversalServerAdmins group ( Windows PowerShell only) or assign users to the [] or CSAdministrator role</span></span></p></td>
-<td><p><span data-ttu-id="9cafe-131"><a href="lync-server-2013-conferencing-policies.md">Konferenzrichtlinien in lync Server 2013</a> in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="9cafe-131"><a href="lync-server-2013-conferencing-policies.md">Conferencing policies in Lync Server 2013</a> in the Operations documentation.</span></span></p></td>
+<td><p><span data-ttu-id="4c8f4-128"><strong>Konfigurieren von Konferenzrichtlinien und -unterstützung</strong></span><span class="sxs-lookup"><span data-stu-id="4c8f4-128"><strong>Configure conferencing policies and support</strong></span></span></p></td>
+<td><p><span data-ttu-id="4c8f4-129">Verwenden Sie die lync Server 2013-Systemsteuerung oder lync Server-Verwaltungsshell, um Konferenzeinstellungen zu konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-129">Use the Lync Server 2013 Control Panel or Lync Server Management Shell to configure conferencing settings.</span></span></p></td>
+<td><p><span data-ttu-id="4c8f4-130">RTCUniversalServerAdmins-Gruppe (nur Windows PowerShell) oder Zuweisen von Benutzern zur Rolle "[]" oder "CSAdministrator"</span><span class="sxs-lookup"><span data-stu-id="4c8f4-130">RTCUniversalServerAdmins group ( Windows PowerShell only) or assign users to the [] or CSAdministrator role</span></span></p></td>
+<td><p><span data-ttu-id="4c8f4-131"><a href="lync-server-2013-conferencing-policies.md">Konferenzrichtlinien in lync Server 2013</a> in der Betriebsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-131"><a href="lync-server-2013-conferencing-policies.md">Conferencing policies in Lync Server 2013</a> in the Operations documentation.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="9cafe-132">Lync Server 2013 enthält jetzt die **MaxUploadFileSizeMb** -Einstellung, die die Größe von Dateien beschränkt, die während einer Besprechung hochgeladen werden können.</span><span class="sxs-lookup"><span data-stu-id="9cafe-132">Lync Server 2013 now includes the **MaxUploadFileSizeMb** setting, which limits the size of files that can be uploaded during a meeting.</span></span> <span data-ttu-id="9cafe-133">Der Standardwert für diese Einstellung ist "500 MB".</span><span class="sxs-lookup"><span data-stu-id="9cafe-133">The default value for this setting is 500 MB.</span></span> <span data-ttu-id="9cafe-134">**MaxUploadFileSizeMb** kann mit dem **Set-CsConferencingConfiguration**-Cmdlet angepasst werden.</span><span class="sxs-lookup"><span data-stu-id="9cafe-134">You can adjust **MaxUploadFileSizeMb** using the **Set-CsConferencingConfiguration** cmdlet.</span></span>
+<span data-ttu-id="4c8f4-132">Lync Server 2013 enthält jetzt die **MaxUploadFileSizeMb** -Einstellung, die die Größe von Dateien beschränkt, die während einer Besprechung hochgeladen werden können.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-132">Lync Server 2013 now includes the **MaxUploadFileSizeMb** setting, which limits the size of files that can be uploaded during a meeting.</span></span> <span data-ttu-id="4c8f4-133">Der Standardwert für diese Einstellung ist "500 MB".</span><span class="sxs-lookup"><span data-stu-id="4c8f4-133">The default value for this setting is 500 MB.</span></span> <span data-ttu-id="4c8f4-134">**MaxUploadFileSizeMb** kann mit dem **Set-CsConferencingConfiguration**-Cmdlet angepasst werden.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-134">You can adjust **MaxUploadFileSizeMb** using the **Set-CsConferencingConfiguration** cmdlet.</span></span>
 
-<span data-ttu-id="9cafe-135">**MaxUploadFileSizeMb** schränkt die Einstellung für den Dateiupload für lync Web App nicht ein.</span><span class="sxs-lookup"><span data-stu-id="9cafe-135">**MaxUploadFileSizeMb** does not limit the file upload setting for Lync Web App.</span></span> <span data-ttu-id="9cafe-136">Der Grenzwert für die Dateigrößen Uploads für lync Web App wird auf ungefähr 30 MB festgelegt und wird von der IIS-Datei\["\]Internet. config" gesteuert:/DataCollabWeb/int ext/Handler/Web.config. Um den Upload-Grenzwert für die Dateigröße für lync Web App `maxRequestLength` zu `maxAllowedContentLength` konfigurieren, aktualisieren Sie und in der Datei "config" wie unten dargestellt.</span><span class="sxs-lookup"><span data-stu-id="9cafe-136">The file size upload limit for Lync Web App is set to approximately 30MB and is controlled by the IIS web.config file: /DataCollabWeb/Int\[Ext\]/Handler/web.config. To configure the file size upload limit for Lync Web App, update `maxRequestLength` and `maxAllowedContentLength` in the web.config file as shown below.</span></span>
+<span data-ttu-id="4c8f4-135">**MaxUploadFileSizeMb** schränkt die Einstellung für den Dateiupload für lync Web App nicht ein.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-135">**MaxUploadFileSizeMb** does not limit the file upload setting for Lync Web App.</span></span> <span data-ttu-id="4c8f4-136">Der Grenzwert für die Dateigrößen Uploads für lync Web App wird auf ungefähr 30 MB festgelegt und wird von der IIS-Datei\["\]Internet. config" gesteuert:/DataCollabWeb/int ext/Handler/Web.config. Um den Upload-Grenzwert für die Dateigröße für lync Web App `maxRequestLength` zu `maxAllowedContentLength` konfigurieren, aktualisieren Sie und in der Datei "config" wie unten dargestellt.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-136">The file size upload limit for Lync Web App is set to approximately 30MB and is controlled by the IIS web.config file: /DataCollabWeb/Int\[Ext\]/Handler/web.config. To configure the file size upload limit for Lync Web App, update `maxRequestLength` and `maxAllowedContentLength` in the web.config file as shown below.</span></span>
 
     <system.web>
         <!-- 
@@ -125,7 +125,7 @@ ms.locfileid: "42049447"
                     </requestFiltering>
                     </security>
 
-<span data-ttu-id="9cafe-137">Sie müssen die Datei "Internet. config" für jede Front-End-Server aktualisieren.</span><span class="sxs-lookup"><span data-stu-id="9cafe-137">You must update the web.config file for each Front End Server.</span></span>
+<span data-ttu-id="4c8f4-137">Sie müssen die Datei "Internet. config" für jede Front-End-Server aktualisieren.</span><span class="sxs-lookup"><span data-stu-id="4c8f4-137">You must update the web.config file for each Front End Server.</span></span>
 
 </div>
 

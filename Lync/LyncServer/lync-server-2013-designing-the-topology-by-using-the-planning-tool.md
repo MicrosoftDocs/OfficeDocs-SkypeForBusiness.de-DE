@@ -12,20 +12,20 @@ ms:contentKeyID: 51541454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bca2871acdaf67e318e7e402d78f34748de4b722
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 848ff87194d6a8a6c6cf23b42fcab4d05e41942d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051519"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137053"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a><span data-ttu-id="01186-102">Entwerfen der Topologie für lync Server 2013 mithilfe des Planungstools</span><span class="sxs-lookup"><span data-stu-id="01186-102">Designing the topology for Lync Server 2013 by using the Planning Tool</span></span>
+# <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a><span data-ttu-id="939f0-102">Entwerfen der Topologie für lync Server 2013 mithilfe des Planungstools</span><span class="sxs-lookup"><span data-stu-id="939f0-102">Designing the topology for Lync Server 2013 by using the Planning Tool</span></span>
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "42051519"
 
 <span> </span>
 
-<span data-ttu-id="01186-103">_**Letztes Änderungsstand des Themas:** 2013-03-04_</span><span class="sxs-lookup"><span data-stu-id="01186-103">_**Topic Last Modified:** 2013-03-04_</span></span>
+<span data-ttu-id="939f0-103">_**Letztes Änderungsstand des Themas:** 2013-03-04_</span><span class="sxs-lookup"><span data-stu-id="939f0-103">_**Topic Last Modified:** 2013-03-04_</span></span>
 
-<span data-ttu-id="01186-104">Das Microsoft lync Server 2013 Planungstool ist ein Assistenten gesteuertes, Interview artiges Tool, das Fragen zur lync Server 2013 Topologie stellt, die Sie entwerfen.</span><span class="sxs-lookup"><span data-stu-id="01186-104">The Microsoft Lync Server 2013, Planning Tool is a wizard driven, interview-like tool that asks questions about the Lync Server 2013 topology that you are designing.</span></span> <span data-ttu-id="01186-105">Das Planungs Tool verwendet die bereitgestellten Informationen in Verbindung mit bevorzugten Methoden für den Entwurf und die Kapazität der Topologie, um eine empfohlene Topologie basierend auf den bereitgestellten Antworten zu präsentieren.</span><span class="sxs-lookup"><span data-stu-id="01186-105">The Planning Tool uses the information supplied, coupled with preferred practices for topology design and capacity, to present a recommended topology based on the answers supplied.</span></span> <span data-ttu-id="01186-106">Sie können das Planungs Tool aus dem Microsoft Download Center herunterladen[http://go.microsoft.com/fwlink/?LinkID=282725](http://go.microsoft.com/fwlink/?linkid=282725)().</span><span class="sxs-lookup"><span data-stu-id="01186-106">You can download the Planning Tool from the Microsoft Downloads Center ([http://go.microsoft.com/fwlink/?LinkID=282725](http://go.microsoft.com/fwlink/?linkid=282725)).</span></span>
+<span data-ttu-id="939f0-104">Das Microsoft lync Server 2013 Planungstool ist ein Assistenten gesteuertes, Interview artiges Tool, das Fragen zur lync Server 2013 Topologie stellt, die Sie entwerfen.</span><span class="sxs-lookup"><span data-stu-id="939f0-104">The Microsoft Lync Server 2013, Planning Tool is a wizard driven, interview-like tool that asks questions about the Lync Server 2013 topology that you are designing.</span></span> <span data-ttu-id="939f0-105">Das Planungs Tool verwendet die bereitgestellten Informationen in Verbindung mit bevorzugten Methoden für den Entwurf und die Kapazität der Topologie, um eine empfohlene Topologie basierend auf den bereitgestellten Antworten zu präsentieren.</span><span class="sxs-lookup"><span data-stu-id="939f0-105">The Planning Tool uses the information supplied, coupled with preferred practices for topology design and capacity, to present a recommended topology based on the answers supplied.</span></span> <span data-ttu-id="939f0-106">Sie können das Planungs Tool aus dem Microsoft Download Center herunterladen[https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725)().</span><span class="sxs-lookup"><span data-stu-id="939f0-106">You can download the Planning Tool from the Microsoft Downloads Center ([https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725)).</span></span>
 
-<span data-ttu-id="01186-107">Letztendlich besteht das Ziel des Planungstools darin, die potenzielle Komplexität beim Entwurf einer vollständigen lync Server 2013 Topologie zu verringern.</span><span class="sxs-lookup"><span data-stu-id="01186-107">Ultimately, the goal of the Planning Tool is to ease the potential complexity of designing a complete Lync Server 2013 topology.</span></span> <span data-ttu-id="01186-108">Das Tool stellt außerdem kontextbezogene Verweise auf die im Tool enthaltene Planungs- und Bereitstellungsdokumentation bereit, sofern eine Internetverbindung zur Microsoft TechNet-Website verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="01186-108">The tool also provides contextual references to planning and deployment documentation inside the tool, provided that an Internet connection is available to connect to the Microsoft TechNet website.</span></span>
+<span data-ttu-id="939f0-107">Letztendlich besteht das Ziel des Planungstools darin, die potenzielle Komplexität beim Entwurf einer vollständigen lync Server 2013 Topologie zu verringern.</span><span class="sxs-lookup"><span data-stu-id="939f0-107">Ultimately, the goal of the Planning Tool is to ease the potential complexity of designing a complete Lync Server 2013 topology.</span></span> <span data-ttu-id="939f0-108">Das Tool stellt außerdem kontextbezogene Verweise auf die im Tool enthaltene Planungs- und Bereitstellungsdokumentation bereit, sofern eine Internetverbindung zur Microsoft TechNet-Website verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="939f0-108">The tool also provides contextual references to planning and deployment documentation inside the tool, provided that an Internet connection is available to connect to the Microsoft TechNet website.</span></span>
 
-<span data-ttu-id="01186-109">Nach dem Anpassen der Topologie mit den TCP/IP-Adressen der Infrastruktur und den vollqualifizierten Domänennamen (FQDNs) stellt das Planungs Tool eine Reihe von Berichten zur Verfügung, die Domain Name System (DNS) Benennung, Firewallregeln, Zertifikate und vieles mehr abdecken.</span><span class="sxs-lookup"><span data-stu-id="01186-109">After customizing the topology with the infrastructure’s TCP/IP addresses and fully qualified domain names (FQDNs), the Planning Tool makes available a series of reports that cover Domain Name System (DNS) naming, firewall rules, certificates, and more.</span></span>
+<span data-ttu-id="939f0-109">Nach dem Anpassen der Topologie mit den TCP/IP-Adressen der Infrastruktur und den vollqualifizierten Domänennamen (FQDNs) stellt das Planungs Tool eine Reihe von Berichten zur Verfügung, die Domain Name System (DNS) Benennung, Firewallregeln, Zertifikate und vieles mehr abdecken.</span><span class="sxs-lookup"><span data-stu-id="939f0-109">After customizing the topology with the infrastructure’s TCP/IP addresses and fully qualified domain names (FQDNs), the Planning Tool makes available a series of reports that cover Domain Name System (DNS) naming, firewall rules, certificates, and more.</span></span>
 
-<span data-ttu-id="01186-110">Das Planungs Tool bietet außerdem die Möglichkeit, Informationen in zwei Formaten zu exportieren:</span><span class="sxs-lookup"><span data-stu-id="01186-110">The Planning Tool also provides the ability to export information in two formats:</span></span>
+<span data-ttu-id="939f0-110">Das Planungs Tool bietet außerdem die Möglichkeit, Informationen in zwei Formaten zu exportieren:</span><span class="sxs-lookup"><span data-stu-id="939f0-110">The Planning Tool also provides the ability to export information in two formats:</span></span>
 
-  - <span data-ttu-id="01186-111">Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="01186-111">Microsoft Excel</span></span>
+  - <span data-ttu-id="939f0-111">Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="939f0-111">Microsoft Excel</span></span>
 
-  - <span data-ttu-id="01186-112">Microsoft Visio</span><span class="sxs-lookup"><span data-stu-id="01186-112">Microsoft Visio</span></span>
+  - <span data-ttu-id="939f0-112">Microsoft Visio</span><span class="sxs-lookup"><span data-stu-id="939f0-112">Microsoft Visio</span></span>
 
-<span data-ttu-id="01186-113">In den folgenden Themen wird das Planungs Tool vorgestellt und detailliert beschrieben.</span><span class="sxs-lookup"><span data-stu-id="01186-113">The following topics introduce and detail the Planning Tool.</span></span>
+<span data-ttu-id="939f0-113">In den folgenden Themen wird das Planungs Tool vorgestellt und detailliert beschrieben.</span><span class="sxs-lookup"><span data-stu-id="939f0-113">The following topics introduce and detail the Planning Tool.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="01186-114">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="01186-114">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="939f0-114">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="939f0-114">In This Section</span></span>
 
-  - [<span data-ttu-id="01186-115">Installieren des Planungstools in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="01186-115">Installing the Planning Tool in Lync Server 2013</span></span>](lync-server-2013-installing-the-planning-tool.md)
+  - [<span data-ttu-id="939f0-115">Installieren des Planungstools in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="939f0-115">Installing the Planning Tool in Lync Server 2013</span></span>](lync-server-2013-installing-the-planning-tool.md)
 
-  - [<span data-ttu-id="01186-116">Installieren von optionaler Software in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="01186-116">Installing optional software in Lync Server 2013</span></span>](lync-server-2013-installing-optional-software.md)
+  - [<span data-ttu-id="939f0-116">Installieren von optionaler Software in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="939f0-116">Installing optional software in Lync Server 2013</span></span>](lync-server-2013-installing-optional-software.md)
 
-  - [<span data-ttu-id="01186-117">Navigieren im Planungs Tool in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="01186-117">Navigating the Planning Tool in Lync Server 2013</span></span>](lync-server-2013-navigating-the-planning-tool.md)
+  - [<span data-ttu-id="939f0-117">Navigieren im Planungs Tool in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="939f0-117">Navigating the Planning Tool in Lync Server 2013</span></span>](lync-server-2013-navigating-the-planning-tool.md)
 
-  - [<span data-ttu-id="01186-118">Erstellen des anfänglichen Topologie Designs für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="01186-118">Create the initial topology design for Lync Server 2013</span></span>](lync-server-2013-create-the-initial-topology-design.md)
+  - [<span data-ttu-id="939f0-118">Erstellen des anfänglichen Topologie Designs für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="939f0-118">Create the initial topology design for Lync Server 2013</span></span>](lync-server-2013-create-the-initial-topology-design.md)
 
-  - [<span data-ttu-id="01186-119">Überprüfen der Administrator Berichte in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="01186-119">Reviewing the Administrator Reports in Lync Server 2013</span></span>](lync-server-2013-reviewing-the-administrator-reports.md)
+  - [<span data-ttu-id="939f0-119">Überprüfen der Administrator Berichte in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="939f0-119">Reviewing the Administrator Reports in Lync Server 2013</span></span>](lync-server-2013-reviewing-the-administrator-reports.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="01186-120">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="01186-120">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="939f0-120">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="939f0-120">See Also</span></span>
 
 
-[<span data-ttu-id="01186-121">Bereitstellen von Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="01186-121">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)  
-[<span data-ttu-id="01186-122">Planen von Front-End-Servern, Chatnachrichten und Anwesenheitsinformationen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="01186-122">Planning for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)  
+[<span data-ttu-id="939f0-121">Bereitstellen von Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="939f0-121">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)  
+[<span data-ttu-id="939f0-122">Planen von Front-End-Servern, Chatnachrichten und Anwesenheitsinformationen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="939f0-122">Planning for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)  
   
 
 </div>
