@@ -12,20 +12,20 @@ ms:contentKeyID: 48185605
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d816ae391154a5d1024e65fb09e82f37d41b053
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 282aba0bad35040ca1f5296bbf5afad916e02e0d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008467"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134801"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-to-route-to-a-sipcsta-gateway"></a><span data-ttu-id="7ad10-102">Konfigurieren lync Server 2013 für die Weiterleitung an ein SIP/CSTA-Gateway</span><span class="sxs-lookup"><span data-stu-id="7ad10-102">Configuring Lync Server 2013 to route to a SIP/CSTA gateway</span></span>
+# <a name="configuring-lync-server-2013-to-route-to-a-sipcsta-gateway"></a><span data-ttu-id="3dcab-102">Konfigurieren lync Server 2013 für die Weiterleitung an ein SIP/CSTA-Gateway</span><span class="sxs-lookup"><span data-stu-id="3dcab-102">Configuring Lync Server 2013 to route to a SIP/CSTA gateway</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42008467"
 
 <span> </span>
 
-<span data-ttu-id="7ad10-103">_**Letztes Änderungsstand des Themas:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="7ad10-103">_**Topic Last Modified:** 2012-10-05_</span></span>
+<span data-ttu-id="3dcab-103">_**Letztes Änderungsstand des Themas:** 2012-10-05_</span><span class="sxs-lookup"><span data-stu-id="3dcab-103">_**Topic Last Modified:** 2012-10-05_</span></span>
 
-<span data-ttu-id="7ad10-104">Ein SIP/CSTA-Gateway ist ein Gateway zwischen SIP und einer computergestützten Telekommunikationsanwendung (Computer-Supported Telecommunications Application, CSTA).</span><span class="sxs-lookup"><span data-stu-id="7ad10-104">A SIP/CSTA gateway is a gateway between SIP and a computer-supported telecommunications application (CSTA).</span></span> <span data-ttu-id="7ad10-105">Ein SIP/CSTA-Gateway stellt die Schnittstelle zwischen einer vorhandenen PBX-Anlage (Private Branch Exchange) und lync Server zum Weiterleiten von Remote Anruf Steuerungsanforderungen an die Nebenstellenanlage bereit.</span><span class="sxs-lookup"><span data-stu-id="7ad10-105">A SIP/CSTA gateway provides the interface between an existing private branch exchange (PBX) and Lync Server for routing remote call control requests to the PBX.</span></span> <span data-ttu-id="7ad10-106">Nachdem Sie ein SIP/CSTA-Gateway installiert haben, müssen Sie für jeden lync Server Pool, für den Sie die Remoteanrufsteuerung konfigurieren möchten, die folgenden Verfahren ausführen:</span><span class="sxs-lookup"><span data-stu-id="7ad10-106">After you install a SIP/CSTA gateway, you must perform the following procedures on each Lync Server pool for which you want to configure remote call control:</span></span>
+<span data-ttu-id="3dcab-104">Ein SIP/CSTA-Gateway ist ein Gateway zwischen SIP und einer computergestützten Telekommunikationsanwendung (Computer-Supported Telecommunications Application, CSTA).</span><span class="sxs-lookup"><span data-stu-id="3dcab-104">A SIP/CSTA gateway is a gateway between SIP and a computer-supported telecommunications application (CSTA).</span></span> <span data-ttu-id="3dcab-105">Ein SIP/CSTA-Gateway stellt die Schnittstelle zwischen einer vorhandenen PBX-Anlage (Private Branch Exchange) und lync Server zum Weiterleiten von Remote Anruf Steuerungsanforderungen an die Nebenstellenanlage bereit.</span><span class="sxs-lookup"><span data-stu-id="3dcab-105">A SIP/CSTA gateway provides the interface between an existing private branch exchange (PBX) and Lync Server for routing remote call control requests to the PBX.</span></span> <span data-ttu-id="3dcab-106">Nachdem Sie ein SIP/CSTA-Gateway installiert haben, müssen Sie für jeden lync Server Pool, für den Sie die Remoteanrufsteuerung konfigurieren möchten, die folgenden Verfahren ausführen:</span><span class="sxs-lookup"><span data-stu-id="3dcab-106">After you install a SIP/CSTA gateway, you must perform the following procedures on each Lync Server pool for which you want to configure remote call control:</span></span>
 
-  - [<span data-ttu-id="7ad10-107">Konfigurieren einer statischen Route für die Remoteanrufsteuerung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7ad10-107">Configure a static route for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-static-route-for-remote-call-control.md)
+  - [<span data-ttu-id="3dcab-107">Konfigurieren einer statischen Route für die Remoteanrufsteuerung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3dcab-107">Configure a static route for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-static-route-for-remote-call-control.md)
 
-  - [<span data-ttu-id="7ad10-108">Konfigurieren eines Eintrags einer vertrauenswürdigen Anwendung für die Remoteanrufsteuerung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7ad10-108">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
+  - [<span data-ttu-id="3dcab-108">Konfigurieren eines Eintrags einer vertrauenswürdigen Anwendung für die Remoteanrufsteuerung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3dcab-108">Configure a trusted application entry for remote call control in Lync Server 2013</span></span>](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)
 
 </div>
 

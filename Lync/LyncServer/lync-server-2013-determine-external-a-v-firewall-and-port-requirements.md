@@ -12,20 +12,20 @@ ms:contentKeyID: 48183872
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6f44e23cdc60251df4ea3f4071805d9367eef84
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 30492bed8deeb2a24dd136355e8f21f82e28a903
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049337"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42132568"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="determine-external-av-firewall-and-port-requirements-for-lync-server-2013"></a><span data-ttu-id="fe818-102">Ermitteln der Anforderungen für externe A/V-Firewalls und Ports für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe818-102">Determine external A/V firewall and port requirements for Lync Server 2013</span></span>
+# <a name="determine-external-av-firewall-and-port-requirements-for-lync-server-2013"></a><span data-ttu-id="b8652-102">Ermitteln der Anforderungen für externe A/V-Firewalls und Ports für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b8652-102">Determine external A/V firewall and port requirements for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,13 +35,13 @@ ms.locfileid: "42049337"
 
 <span> </span>
 
-<span data-ttu-id="fe818-103">_**Letztes Änderungsstand des Themas:** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="fe818-103">_**Topic Last Modified:** 2012-10-29_</span></span>
+<span data-ttu-id="b8652-103">_**Letztes Änderungsstand des Themas:** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="b8652-103">_**Topic Last Modified:** 2012-10-29_</span></span>
 
-<span data-ttu-id="fe818-104">Kommunikation mit Audio/Video (a/V) kann komplex sein.</span><span class="sxs-lookup"><span data-stu-id="fe818-104">Audio/Video (A/V) communication can be a complex.</span></span> <span data-ttu-id="fe818-105">Aufgrund der Art der in A/V verwendeten Protokolle und der Verwendung der Protokolle durch Clients und Server wird ein spezieller Abschnitt gerechtfertigt, um die Unterschiede zwischen Client-und Server Versionen zu erläutern.</span><span class="sxs-lookup"><span data-stu-id="fe818-105">Because of the nature of protocols used in A/V and how clients and servers use the protocols, a special section is warranted to explain the differences between client and server versions.</span></span>
+<span data-ttu-id="b8652-104">Kommunikation mit Audio/Video (a/V) kann komplex sein.</span><span class="sxs-lookup"><span data-stu-id="b8652-104">Audio/Video (A/V) communication can be a complex.</span></span> <span data-ttu-id="b8652-105">Aufgrund der Art der in A/V verwendeten Protokolle und der Verwendung der Protokolle durch Clients und Server wird ein spezieller Abschnitt gerechtfertigt, um die Unterschiede zwischen Client-und Server Versionen zu erläutern.</span><span class="sxs-lookup"><span data-stu-id="b8652-105">Because of the nature of protocols used in A/V and how clients and servers use the protocols, a special section is warranted to explain the differences between client and server versions.</span></span>
 
-<span data-ttu-id="fe818-106">Verwenden Sie die folgende A/V-Firewall und Port Tabelle, um die Firewall-Anforderungen zu ermitteln und welche Ports geöffnet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="fe818-106">Use the following A/V Firewall and Port table to determine firewall requirements and which ports to open.</span></span> <span data-ttu-id="fe818-107">Lesen Sie anschließend die Hinweise zur Netzwerkadressenübersetzung (Network Address Translation, NAT), da NAT auf viele verschiedene Arten implementiert werden kann.</span><span class="sxs-lookup"><span data-stu-id="fe818-107">Then, review the network address translation (NAT) terminology because NAT can be implemented in many different ways.</span></span> <span data-ttu-id="fe818-108">Ein ausführliches Beispiel für Firewall-Porteinstellungen finden Sie in den Referenzarchitekturen in [Szenarien für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).</span><span class="sxs-lookup"><span data-stu-id="fe818-108">For a detailed example of firewall port settings, see the reference architectures in [Scenarios for external user access in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).</span></span>
+<span data-ttu-id="b8652-106">Verwenden Sie die folgende A/V-Firewall und Port Tabelle, um die Firewall-Anforderungen zu ermitteln und welche Ports geöffnet werden sollen.</span><span class="sxs-lookup"><span data-stu-id="b8652-106">Use the following A/V Firewall and Port table to determine firewall requirements and which ports to open.</span></span> <span data-ttu-id="b8652-107">Lesen Sie anschließend die Hinweise zur Netzwerkadressenübersetzung (Network Address Translation, NAT), da NAT auf viele verschiedene Arten implementiert werden kann.</span><span class="sxs-lookup"><span data-stu-id="b8652-107">Then, review the network address translation (NAT) terminology because NAT can be implemented in many different ways.</span></span> <span data-ttu-id="b8652-108">Ein ausführliches Beispiel für Firewall-Porteinstellungen finden Sie in den Referenzarchitekturen in [Szenarien für den Zugriff durch externe Benutzer in lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).</span><span class="sxs-lookup"><span data-stu-id="b8652-108">For a detailed example of firewall port settings, see the reference architectures in [Scenarios for external user access in Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).</span></span>
 
-### <a name="general-protocol-usage-for-udp-and-tcp-in-audiovideo-and-media-traffic"></a><span data-ttu-id="fe818-109">Allgemeine Protokollnutzung für UDP und TCP im Audio/Video-und Mediendatenverkehr</span><span class="sxs-lookup"><span data-stu-id="fe818-109">General Protocol Usage for UDP and TCP in Audio/Video and Media Traffic</span></span>
+### <a name="general-protocol-usage-for-udp-and-tcp-in-audiovideo-and-media-traffic"></a><span data-ttu-id="b8652-109">Allgemeine Protokollnutzung für UDP und TCP im Audio/Video-und Mediendatenverkehr</span><span class="sxs-lookup"><span data-stu-id="b8652-109">General Protocol Usage for UDP and TCP in Audio/Video and Media Traffic</span></span>
 
 <table>
 <colgroup>
@@ -50,20 +50,20 @@ ms.locfileid: "42049337"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="fe818-110">Audio/Video-Transport</span><span class="sxs-lookup"><span data-stu-id="fe818-110">Audio/Video Transport</span></span></th>
-<th><span data-ttu-id="fe818-111">Verwendung</span><span class="sxs-lookup"><span data-stu-id="fe818-111">Usage</span></span></th>
+<th><span data-ttu-id="b8652-110">Audio/Video-Transport</span><span class="sxs-lookup"><span data-stu-id="b8652-110">Audio/Video Transport</span></span></th>
+<th><span data-ttu-id="b8652-111">Verwendung</span><span class="sxs-lookup"><span data-stu-id="b8652-111">Usage</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="fe818-112">UDP</span><span class="sxs-lookup"><span data-stu-id="fe818-112">UDP</span></span></p></td>
-<td><p><span data-ttu-id="fe818-113">Bevorzugtes Transportschichtprotokoll für Audio und Video</span><span class="sxs-lookup"><span data-stu-id="fe818-113">Preferred transport layer protocol for audio and video</span></span></p></td>
+<td><p><span data-ttu-id="b8652-112">UDP</span><span class="sxs-lookup"><span data-stu-id="b8652-112">UDP</span></span></p></td>
+<td><p><span data-ttu-id="b8652-113">Bevorzugtes Transportschichtprotokoll für Audio und Video</span><span class="sxs-lookup"><span data-stu-id="b8652-113">Preferred transport layer protocol for audio and video</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fe818-114">TCP</span><span class="sxs-lookup"><span data-stu-id="fe818-114">TCP</span></span></p></td>
-<td><p><span data-ttu-id="fe818-115">Fallback-Transportschichtprotokoll für Audio und Video</span><span class="sxs-lookup"><span data-stu-id="fe818-115">Fallback transport layer protocol for audio and video</span></span></p>
-<p><span data-ttu-id="fe818-116">Erforderliches Transportschichtprotokoll für die Anwendungsfreigabe für Office Communications Server 2007 R2, lync Server 2010 und lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe818-116">Required transport layer protocol for application sharing to Office Communications Server 2007 R2, Lync Server 2010 and Lync Server 2013</span></span></p>
-<p><span data-ttu-id="fe818-117">Erforderliches Transportschichtprotokoll für die Dateiübertragung an lync Server 2010 und lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fe818-117">Required transport layer protocol for file transfer to Lync Server 2010 and Lync Server 2013</span></span></p></td>
+<td><p><span data-ttu-id="b8652-114">TCP</span><span class="sxs-lookup"><span data-stu-id="b8652-114">TCP</span></span></p></td>
+<td><p><span data-ttu-id="b8652-115">Fallback-Transportschichtprotokoll für Audio und Video</span><span class="sxs-lookup"><span data-stu-id="b8652-115">Fallback transport layer protocol for audio and video</span></span></p>
+<p><span data-ttu-id="b8652-116">Erforderliches Transportschichtprotokoll für die Anwendungsfreigabe für Office Communications Server 2007 R2, lync Server 2010 und lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b8652-116">Required transport layer protocol for application sharing to Office Communications Server 2007 R2, Lync Server 2010 and Lync Server 2013</span></span></p>
+<p><span data-ttu-id="b8652-117">Erforderliches Transportschichtprotokoll für die Dateiübertragung an lync Server 2010 und lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b8652-117">Required transport layer protocol for file transfer to Lync Server 2010 and Lync Server 2013</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -71,15 +71,15 @@ ms.locfileid: "42049337"
 
 <div>
 
-## <a name="external-av-firewall-port-requirements-for-external-user-access"></a><span data-ttu-id="fe818-118">Portanforderungen für die externe A/V-Firewall für den externen Benutzerzugriff</span><span class="sxs-lookup"><span data-stu-id="fe818-118">External A/V Firewall Port Requirements for External User Access</span></span>
+## <a name="external-av-firewall-port-requirements-for-external-user-access"></a><span data-ttu-id="b8652-118">Portanforderungen für die externe A/V-Firewall für den externen Benutzerzugriff</span><span class="sxs-lookup"><span data-stu-id="b8652-118">External A/V Firewall Port Requirements for External User Access</span></span>
 
-<span data-ttu-id="fe818-119">Die Firewall-Portanforderungen für externe (und interne) SIP-und Konferenz Schnittstellen sind unabhängig von der Version des Clients oder der Version des Partnerverbund Partners konsistent.</span><span class="sxs-lookup"><span data-stu-id="fe818-119">The firewall port requirements for external (and internal) SIP and conferencing interfaces are consistent, regardless of the version of your client or the version of the federation partner.</span></span>
+<span data-ttu-id="b8652-119">Die Firewall-Portanforderungen für externe (und interne) SIP-und Konferenz Schnittstellen sind unabhängig von der Version des Clients oder der Version des Partnerverbund Partners konsistent.</span><span class="sxs-lookup"><span data-stu-id="b8652-119">The firewall port requirements for external (and internal) SIP and conferencing interfaces are consistent, regardless of the version of your client or the version of the federation partner.</span></span>
 
-<span data-ttu-id="fe818-120">Das gleiche gilt nicht für die externe Audio/Video-Edge-Schnittstelle.</span><span class="sxs-lookup"><span data-stu-id="fe818-120">The same is not true for the Audio/Video Edge external interface.</span></span> <span data-ttu-id="fe818-121">Für den Verbund mit Office Communications Server 2007 erfordert der A/V-Edgedienst, dass externe Firewallregeln den RTP/TCP-und RTP/UDP-Datenverkehr im 50.000-bis 59.999-Portbereich in beide Richtungen fließen lassen.</span><span class="sxs-lookup"><span data-stu-id="fe818-121">For federation with Office Communications Server 2007, the A/V Edge service requires that external firewall rules allow RTP/TCP and RTP/UDP traffic in the 50,000 through 59,999 port range to flow in both directions.</span></span> <span data-ttu-id="fe818-122">In der vorherigen Tabelle wird davon ausgegangen, dass lync Server 2013 der primäre Verbundpartner ist und für die Kommunikation mit einem der aufgeführten Partnerverbund Partnertypen konfiguriert ist.</span><span class="sxs-lookup"><span data-stu-id="fe818-122">The previous table assumes that Lync Server 2013 is the primary federation partner and it is being configured to communicate with one of the other federation partner types listed.</span></span>
+<span data-ttu-id="b8652-120">Das gleiche gilt nicht für die externe Audio/Video-Edge-Schnittstelle.</span><span class="sxs-lookup"><span data-stu-id="b8652-120">The same is not true for the Audio/Video Edge external interface.</span></span> <span data-ttu-id="b8652-121">Für den Verbund mit Office Communications Server 2007 erfordert der A/V-Edgedienst, dass externe Firewallregeln den RTP/TCP-und RTP/UDP-Datenverkehr im 50.000-bis 59.999-Portbereich in beide Richtungen fließen lassen.</span><span class="sxs-lookup"><span data-stu-id="b8652-121">For federation with Office Communications Server 2007, the A/V Edge service requires that external firewall rules allow RTP/TCP and RTP/UDP traffic in the 50,000 through 59,999 port range to flow in both directions.</span></span> <span data-ttu-id="b8652-122">In der vorherigen Tabelle wird davon ausgegangen, dass lync Server 2013 der primäre Verbundpartner ist und für die Kommunikation mit einem der aufgeführten Partnerverbund Partnertypen konfiguriert ist.</span><span class="sxs-lookup"><span data-stu-id="b8652-122">The previous table assumes that Lync Server 2013 is the primary federation partner and it is being configured to communicate with one of the other federation partner types listed.</span></span>
 
-<span data-ttu-id="fe818-123">Bei der Konfiguration des Audio/Video-Portbereichs von 50000-59.999 muss berücksichtigt werden, dass der Portbereich die Quell Ports für die Kommunikation mit Partnerverbund Partnern enthält.</span><span class="sxs-lookup"><span data-stu-id="fe818-123">Configuring the Audio/Video port range of 50,000-59,999 must take into account that the port range will contain the source ports for communications to federation partners.</span></span> <span data-ttu-id="fe818-124">Im einzelnen ist zu prüfen, ob eine Kommunikation von einem Partnerverbund initiiert wird.</span><span class="sxs-lookup"><span data-stu-id="fe818-124">In detail, consider that a communication is initiated from a federation partner.</span></span> <span data-ttu-id="fe818-125">Die Kommunikation von den A/V-Edgedienst Ports im 50000-59.999-Bereich stellt eine Verbindung mit dem erwarteten Port TCP 443 der A/V-Edgedienst des Partners her.</span><span class="sxs-lookup"><span data-stu-id="fe818-125">The communication from the A/V Edge service ports in the 50,000-59,999 range will connect to the expected port TCP 443 of the partner’s A/V Edge service.</span></span> <span data-ttu-id="fe818-126">Umgekehrt verfügt der eingehende Datenverkehr zu Ihrem A/V-Edgedienst Port TCP 443 über einen Quell Port im Bereich von 50000-59.999.</span><span class="sxs-lookup"><span data-stu-id="fe818-126">Conversely, inbound traffic to your A/V Edge service port TCP 443 will have a source port in the range of 50,000-59,999.</span></span>
+<span data-ttu-id="b8652-123">Bei der Konfiguration des Audio/Video-Portbereichs von 50000-59.999 muss berücksichtigt werden, dass der Portbereich die Quell Ports für die Kommunikation mit Partnerverbund Partnern enthält.</span><span class="sxs-lookup"><span data-stu-id="b8652-123">Configuring the Audio/Video port range of 50,000-59,999 must take into account that the port range will contain the source ports for communications to federation partners.</span></span> <span data-ttu-id="b8652-124">Im einzelnen ist zu prüfen, ob eine Kommunikation von einem Partnerverbund initiiert wird.</span><span class="sxs-lookup"><span data-stu-id="b8652-124">In detail, consider that a communication is initiated from a federation partner.</span></span> <span data-ttu-id="b8652-125">Die Kommunikation von den A/V-Edgedienst Ports im 50000-59.999-Bereich stellt eine Verbindung mit dem erwarteten Port TCP 443 der A/V-Edgedienst des Partners her.</span><span class="sxs-lookup"><span data-stu-id="b8652-125">The communication from the A/V Edge service ports in the 50,000-59,999 range will connect to the expected port TCP 443 of the partner’s A/V Edge service.</span></span> <span data-ttu-id="b8652-126">Umgekehrt verfügt der eingehende Datenverkehr zu Ihrem A/V-Edgedienst Port TCP 443 über einen Quell Port im Bereich von 50000-59.999.</span><span class="sxs-lookup"><span data-stu-id="b8652-126">Conversely, inbound traffic to your A/V Edge service port TCP 443 will have a source port in the range of 50,000-59,999.</span></span>
 
-<span data-ttu-id="fe818-127">Für unterschiedliche Firewalls und Richtlinien für die Firewallverwaltung müssen möglicherweise nur die Zielregeln konfiguriert werden, oder es ist möglicherweise erforderlich, dass Quelle und Ziel konfiguriert werden.</span><span class="sxs-lookup"><span data-stu-id="fe818-127">Different firewalls and policies for firewall administration may require only destination rules to be configured, or they may require both source and destination to be configured.</span></span> <span data-ttu-id="fe818-128">Wenn Ihre Anforderungen nur für Zielports gelten, sind die Anforderungen an Audio/Video:</span><span class="sxs-lookup"><span data-stu-id="fe818-128">If your requirements are for destination ports only, the Audio/Video requirements are:</span></span>
+<span data-ttu-id="b8652-127">Für unterschiedliche Firewalls und Richtlinien für die Firewallverwaltung müssen möglicherweise nur die Zielregeln konfiguriert werden, oder es ist möglicherweise erforderlich, dass Quelle und Ziel konfiguriert werden.</span><span class="sxs-lookup"><span data-stu-id="b8652-127">Different firewalls and policies for firewall administration may require only destination rules to be configured, or they may require both source and destination to be configured.</span></span> <span data-ttu-id="b8652-128">Wenn Ihre Anforderungen nur für Zielports gelten, sind die Anforderungen an Audio/Video:</span><span class="sxs-lookup"><span data-stu-id="b8652-128">If your requirements are for destination ports only, the Audio/Video requirements are:</span></span>
 
 
 <table>
@@ -90,37 +90,37 @@ ms.locfileid: "42049337"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="fe818-129">Quell-IP</span><span class="sxs-lookup"><span data-stu-id="fe818-129">Source IP</span></span></th>
-<th><span data-ttu-id="fe818-130">Ziel-IP</span><span class="sxs-lookup"><span data-stu-id="fe818-130">Destination IP</span></span></th>
-<th><span data-ttu-id="fe818-131">Zielport</span><span class="sxs-lookup"><span data-stu-id="fe818-131">Destination Port</span></span></th>
+<th><span data-ttu-id="b8652-129">Quell-IP</span><span class="sxs-lookup"><span data-stu-id="b8652-129">Source IP</span></span></th>
+<th><span data-ttu-id="b8652-130">Ziel-IP</span><span class="sxs-lookup"><span data-stu-id="b8652-130">Destination IP</span></span></th>
+<th><span data-ttu-id="b8652-131">Zielport</span><span class="sxs-lookup"><span data-stu-id="b8652-131">Destination Port</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="fe818-132">A/V-Edgedienst-Schnittstelle</span><span class="sxs-lookup"><span data-stu-id="fe818-132">A/V Edge service interface</span></span></p></td>
-<td><p><span data-ttu-id="fe818-133">Any</span><span class="sxs-lookup"><span data-stu-id="fe818-133">Any</span></span></p></td>
-<td><p><span data-ttu-id="fe818-134">TCP 443</span><span class="sxs-lookup"><span data-stu-id="fe818-134">TCP 443</span></span></p></td>
+<td><p><span data-ttu-id="b8652-132">A/V-Edgedienst-Schnittstelle</span><span class="sxs-lookup"><span data-stu-id="b8652-132">A/V Edge service interface</span></span></p></td>
+<td><p><span data-ttu-id="b8652-133">Any</span><span class="sxs-lookup"><span data-stu-id="b8652-133">Any</span></span></p></td>
+<td><p><span data-ttu-id="b8652-134">TCP 443</span><span class="sxs-lookup"><span data-stu-id="b8652-134">TCP 443</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fe818-135">A/V-Edgedienst-Schnittstelle</span><span class="sxs-lookup"><span data-stu-id="fe818-135">A/V Edge service interface</span></span></p></td>
-<td><p><span data-ttu-id="fe818-136">Any</span><span class="sxs-lookup"><span data-stu-id="fe818-136">Any</span></span></p></td>
-<td><p><span data-ttu-id="fe818-137">UDP 3478</span><span class="sxs-lookup"><span data-stu-id="fe818-137">UDP 3478</span></span></p></td>
+<td><p><span data-ttu-id="b8652-135">A/V-Edgedienst-Schnittstelle</span><span class="sxs-lookup"><span data-stu-id="b8652-135">A/V Edge service interface</span></span></p></td>
+<td><p><span data-ttu-id="b8652-136">Any</span><span class="sxs-lookup"><span data-stu-id="b8652-136">Any</span></span></p></td>
+<td><p><span data-ttu-id="b8652-137">UDP 3478</span><span class="sxs-lookup"><span data-stu-id="b8652-137">UDP 3478</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fe818-138">Any</span><span class="sxs-lookup"><span data-stu-id="fe818-138">Any</span></span></p></td>
-<td><p><span data-ttu-id="fe818-139">A/V-Edgedienst-Schnittstelle</span><span class="sxs-lookup"><span data-stu-id="fe818-139">A/V Edge service interface</span></span></p></td>
-<td><p><span data-ttu-id="fe818-140">TCP 443</span><span class="sxs-lookup"><span data-stu-id="fe818-140">TCP 443</span></span></p></td>
+<td><p><span data-ttu-id="b8652-138">Any</span><span class="sxs-lookup"><span data-stu-id="b8652-138">Any</span></span></p></td>
+<td><p><span data-ttu-id="b8652-139">A/V-Edgedienst-Schnittstelle</span><span class="sxs-lookup"><span data-stu-id="b8652-139">A/V Edge service interface</span></span></p></td>
+<td><p><span data-ttu-id="b8652-140">TCP 443</span><span class="sxs-lookup"><span data-stu-id="b8652-140">TCP 443</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fe818-141">Any</span><span class="sxs-lookup"><span data-stu-id="fe818-141">Any</span></span></p></td>
-<td><p><span data-ttu-id="fe818-142">A/V-Edgedienst-Schnittstelle</span><span class="sxs-lookup"><span data-stu-id="fe818-142">A/V Edge service interface</span></span></p></td>
-<td><p><span data-ttu-id="fe818-143">UDP 3478</span><span class="sxs-lookup"><span data-stu-id="fe818-143">UDP 3478</span></span></p></td>
+<td><p><span data-ttu-id="b8652-141">Any</span><span class="sxs-lookup"><span data-stu-id="b8652-141">Any</span></span></p></td>
+<td><p><span data-ttu-id="b8652-142">A/V-Edgedienst-Schnittstelle</span><span class="sxs-lookup"><span data-stu-id="b8652-142">A/V Edge service interface</span></span></p></td>
+<td><p><span data-ttu-id="b8652-143">UDP 3478</span><span class="sxs-lookup"><span data-stu-id="b8652-143">UDP 3478</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="fe818-144">Wenn Ihre Richtlinien sowohl eingehende als auch ausgehende Firewall-Regeldefinitionen erfordern, sind die Anforderungen an Audio/Video:</span><span class="sxs-lookup"><span data-stu-id="fe818-144">If your policies require both inbound and outbound firewall rule definitions, the Audio/Video requirements are:</span></span>
+<span data-ttu-id="b8652-144">Wenn Ihre Richtlinien sowohl eingehende als auch ausgehende Firewall-Regeldefinitionen erfordern, sind die Anforderungen an Audio/Video:</span><span class="sxs-lookup"><span data-stu-id="b8652-144">If your policies require both inbound and outbound firewall rule definitions, the Audio/Video requirements are:</span></span>
 
 
 <table>
@@ -132,36 +132,36 @@ ms.locfileid: "42049337"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="fe818-145">Quell-IP</span><span class="sxs-lookup"><span data-stu-id="fe818-145">Source IP</span></span></th>
-<th><span data-ttu-id="fe818-146">Ziel-IP</span><span class="sxs-lookup"><span data-stu-id="fe818-146">Destination IP</span></span></th>
-<th><span data-ttu-id="fe818-147">Quellport</span><span class="sxs-lookup"><span data-stu-id="fe818-147">Source Port</span></span></th>
-<th><span data-ttu-id="fe818-148">Zielport</span><span class="sxs-lookup"><span data-stu-id="fe818-148">Destination Port</span></span></th>
+<th><span data-ttu-id="b8652-145">Quell-IP</span><span class="sxs-lookup"><span data-stu-id="b8652-145">Source IP</span></span></th>
+<th><span data-ttu-id="b8652-146">Ziel-IP</span><span class="sxs-lookup"><span data-stu-id="b8652-146">Destination IP</span></span></th>
+<th><span data-ttu-id="b8652-147">Quellport</span><span class="sxs-lookup"><span data-stu-id="b8652-147">Source Port</span></span></th>
+<th><span data-ttu-id="b8652-148">Zielport</span><span class="sxs-lookup"><span data-stu-id="b8652-148">Destination Port</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="fe818-149">A/V-Edgedienst-Schnittstelle</span><span class="sxs-lookup"><span data-stu-id="fe818-149">A/V Edge service interface</span></span></p></td>
-<td><p><span data-ttu-id="fe818-150">Any</span><span class="sxs-lookup"><span data-stu-id="fe818-150">Any</span></span></p></td>
-<td><p><span data-ttu-id="fe818-151">TCP 50000-59.999</span><span class="sxs-lookup"><span data-stu-id="fe818-151">TCP 50,000-59,999</span></span></p></td>
-<td><p><span data-ttu-id="fe818-152">TCP 443</span><span class="sxs-lookup"><span data-stu-id="fe818-152">TCP 443</span></span></p></td>
+<td><p><span data-ttu-id="b8652-149">A/V-Edgedienst-Schnittstelle</span><span class="sxs-lookup"><span data-stu-id="b8652-149">A/V Edge service interface</span></span></p></td>
+<td><p><span data-ttu-id="b8652-150">Any</span><span class="sxs-lookup"><span data-stu-id="b8652-150">Any</span></span></p></td>
+<td><p><span data-ttu-id="b8652-151">TCP 50000-59.999</span><span class="sxs-lookup"><span data-stu-id="b8652-151">TCP 50,000-59,999</span></span></p></td>
+<td><p><span data-ttu-id="b8652-152">TCP 443</span><span class="sxs-lookup"><span data-stu-id="b8652-152">TCP 443</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fe818-153">A/V-Edgedienst-Schnittstelle</span><span class="sxs-lookup"><span data-stu-id="fe818-153">A/V Edge service interface</span></span></p></td>
-<td><p><span data-ttu-id="fe818-154">Any</span><span class="sxs-lookup"><span data-stu-id="fe818-154">Any</span></span></p></td>
-<td><p><span data-ttu-id="fe818-155">UDP 3478</span><span class="sxs-lookup"><span data-stu-id="fe818-155">UDP 3478</span></span></p></td>
-<td><p><span data-ttu-id="fe818-156">UDP 3478</span><span class="sxs-lookup"><span data-stu-id="fe818-156">UDP 3478</span></span></p></td>
+<td><p><span data-ttu-id="b8652-153">A/V-Edgedienst-Schnittstelle</span><span class="sxs-lookup"><span data-stu-id="b8652-153">A/V Edge service interface</span></span></p></td>
+<td><p><span data-ttu-id="b8652-154">Any</span><span class="sxs-lookup"><span data-stu-id="b8652-154">Any</span></span></p></td>
+<td><p><span data-ttu-id="b8652-155">UDP 3478</span><span class="sxs-lookup"><span data-stu-id="b8652-155">UDP 3478</span></span></p></td>
+<td><p><span data-ttu-id="b8652-156">UDP 3478</span><span class="sxs-lookup"><span data-stu-id="b8652-156">UDP 3478</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="fe818-157">Any</span><span class="sxs-lookup"><span data-stu-id="fe818-157">Any</span></span></p></td>
-<td><p><span data-ttu-id="fe818-158">A/V-Edgedienst-Schnittstelle</span><span class="sxs-lookup"><span data-stu-id="fe818-158">A/V Edge service interface</span></span></p></td>
-<td><p><span data-ttu-id="fe818-159">Any</span><span class="sxs-lookup"><span data-stu-id="fe818-159">Any</span></span></p></td>
-<td><p><span data-ttu-id="fe818-160">TCP 443</span><span class="sxs-lookup"><span data-stu-id="fe818-160">TCP 443</span></span></p></td>
+<td><p><span data-ttu-id="b8652-157">Any</span><span class="sxs-lookup"><span data-stu-id="b8652-157">Any</span></span></p></td>
+<td><p><span data-ttu-id="b8652-158">A/V-Edgedienst-Schnittstelle</span><span class="sxs-lookup"><span data-stu-id="b8652-158">A/V Edge service interface</span></span></p></td>
+<td><p><span data-ttu-id="b8652-159">Any</span><span class="sxs-lookup"><span data-stu-id="b8652-159">Any</span></span></p></td>
+<td><p><span data-ttu-id="b8652-160">TCP 443</span><span class="sxs-lookup"><span data-stu-id="b8652-160">TCP 443</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="fe818-161">Any</span><span class="sxs-lookup"><span data-stu-id="fe818-161">Any</span></span></p></td>
-<td><p><span data-ttu-id="fe818-162">A/V-Edgedienst-Schnittstelle</span><span class="sxs-lookup"><span data-stu-id="fe818-162">A/V Edge service interface</span></span></p></td>
-<td><p><span data-ttu-id="fe818-163">Any</span><span class="sxs-lookup"><span data-stu-id="fe818-163">Any</span></span></p></td>
-<td><p><span data-ttu-id="fe818-164">UDP 3478</span><span class="sxs-lookup"><span data-stu-id="fe818-164">UDP 3478</span></span></p></td>
+<td><p><span data-ttu-id="b8652-161">Any</span><span class="sxs-lookup"><span data-stu-id="b8652-161">Any</span></span></p></td>
+<td><p><span data-ttu-id="b8652-162">A/V-Edgedienst-Schnittstelle</span><span class="sxs-lookup"><span data-stu-id="b8652-162">A/V Edge service interface</span></span></p></td>
+<td><p><span data-ttu-id="b8652-163">Any</span><span class="sxs-lookup"><span data-stu-id="b8652-163">Any</span></span></p></td>
+<td><p><span data-ttu-id="b8652-164">UDP 3478</span><span class="sxs-lookup"><span data-stu-id="b8652-164">UDP 3478</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -171,7 +171,7 @@ ms.locfileid: "42049337"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="fe818-165">Microsoft Office Communications Server 2007 erfordert eine etwas andere Konfiguration.</span><span class="sxs-lookup"><span data-stu-id="fe818-165">Microsoft Office Communications Server 2007 requires a slightly different configuration.</span></span> <span data-ttu-id="fe818-166">Der TCP-und UDP-Portbereich von 50000-59.999 muss Open eingehend und Outbound sein.</span><span class="sxs-lookup"><span data-stu-id="fe818-166">The TCP and UDP port range of 50,000-59,999 must be open inbound and outbound.</span></span> <span data-ttu-id="fe818-167">Diese Anforderung gilt nur für Office Communicator 2007.</span><span class="sxs-lookup"><span data-stu-id="fe818-167">This requirement is only for Office Communicator 2007.</span></span> <span data-ttu-id="fe818-168">Office Communications Server 2007 R2, lync Server 2010 und lync Server 2013 benötigen nur den TCP-Bereich 50000-59.999 Open Outbound.</span><span class="sxs-lookup"><span data-stu-id="fe818-168">Office Communications Server 2007 R2, Lync Server 2010 and Lync Server 2013 only require TCP range 50,000-59,999 open outbound.</span></span>
+> <span data-ttu-id="b8652-165">Microsoft Office Communications Server 2007 erfordert eine etwas andere Konfiguration.</span><span class="sxs-lookup"><span data-stu-id="b8652-165">Microsoft Office Communications Server 2007 requires a slightly different configuration.</span></span> <span data-ttu-id="b8652-166">Der TCP-und UDP-Portbereich von 50000-59.999 muss Open eingehend und Outbound sein.</span><span class="sxs-lookup"><span data-stu-id="b8652-166">The TCP and UDP port range of 50,000-59,999 must be open inbound and outbound.</span></span> <span data-ttu-id="b8652-167">Diese Anforderung gilt nur für Office Communicator 2007.</span><span class="sxs-lookup"><span data-stu-id="b8652-167">This requirement is only for Office Communicator 2007.</span></span> <span data-ttu-id="b8652-168">Office Communications Server 2007 R2, lync Server 2010 und lync Server 2013 benötigen nur den TCP-Bereich 50000-59.999 Open Outbound.</span><span class="sxs-lookup"><span data-stu-id="b8652-168">Office Communications Server 2007 R2, Lync Server 2010 and Lync Server 2013 only require TCP range 50,000-59,999 open outbound.</span></span>
 
 
 
@@ -181,33 +181,33 @@ ms.locfileid: "42049337"
 
 <div>
 
-## <a name="nat-requirements-for-the-edge-service"></a><span data-ttu-id="fe818-169">NAT-Anforderungen für den Edgedienst</span><span class="sxs-lookup"><span data-stu-id="fe818-169">NAT requirements for the Edge service</span></span>
+## <a name="nat-requirements-for-the-edge-service"></a><span data-ttu-id="b8652-169">NAT-Anforderungen für den Edgedienst</span><span class="sxs-lookup"><span data-stu-id="b8652-169">NAT requirements for the Edge service</span></span>
 
-<span data-ttu-id="fe818-170">Die folgenden NAT-Anforderungen gelten, wenn Sie nicht routingfähige private IP-Adressen für den Edgedienst konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="fe818-170">The following NAT requirements apply if you choose to configure non-routable private IP addresses for the Edge service:</span></span>
+<span data-ttu-id="b8652-170">Die folgenden NAT-Anforderungen gelten, wenn Sie nicht routingfähige private IP-Adressen für den Edgedienst konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="b8652-170">The following NAT requirements apply if you choose to configure non-routable private IP addresses for the Edge service:</span></span>
 
-  - <span data-ttu-id="fe818-171">NAT kann nur mit dem DNS-Lastenausgleich verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="fe818-171">NAT can only be used with DNS load-balancing.</span></span> <span data-ttu-id="fe818-172">NAT wird mit einer HLB-Edge-Topologie (Hardware Lastenausgleich) nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="fe818-172">NAT is not supported with a hardware load balancing (HLB) Edge topology.</span></span>
+  - <span data-ttu-id="b8652-171">NAT kann nur mit dem DNS-Lastenausgleich verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="b8652-171">NAT can only be used with DNS load-balancing.</span></span> <span data-ttu-id="b8652-172">NAT wird mit einer HLB-Edge-Topologie (Hardware Lastenausgleich) nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="b8652-172">NAT is not supported with a hardware load balancing (HLB) Edge topology.</span></span>
 
-  - <span data-ttu-id="fe818-173">NAT kann nur für die externe Edge-Schnittstelle verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="fe818-173">NAT can only be used on the external Edge interface.</span></span> <span data-ttu-id="fe818-174">NAT wird auf der internen Edge-Schnittstelle nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="fe818-174">NAT is not supported on the internal Edge interface.</span></span>
+  - <span data-ttu-id="b8652-173">NAT kann nur für die externe Edge-Schnittstelle verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="b8652-173">NAT can only be used on the external Edge interface.</span></span> <span data-ttu-id="b8652-174">NAT wird auf der internen Edge-Schnittstelle nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="b8652-174">NAT is not supported on the internal Edge interface.</span></span>
 
-  - <span data-ttu-id="fe818-175">NAT muss für einen eingehenden und ausgehenden Datenverkehr symmetrisch sein.</span><span class="sxs-lookup"><span data-stu-id="fe818-175">NAT must be symmetric for incoming and outgoing traffic.</span></span>
+  - <span data-ttu-id="b8652-175">NAT muss für einen eingehenden und ausgehenden Datenverkehr symmetrisch sein.</span><span class="sxs-lookup"><span data-stu-id="b8652-175">NAT must be symmetric for incoming and outgoing traffic.</span></span>
     
-  - <span data-ttu-id="fe818-176">Für Datenverkehr aus dem Internet muss NAT die Ziel-IP-Adresse von der NAT-fähigen öffentlichen IP-Adresse des A/V-Edgedienst in die externe IP-Adresse ändern.</span><span class="sxs-lookup"><span data-stu-id="fe818-176">For traffic from the Internet, NAT must change the destination IP address from the NAT-enabled public IP address of the A/V Edge service to its external IP address.</span></span> <span data-ttu-id="fe818-177">Die Quell-IP-Adresse muss intakt bleiben, damit der A/V-Edgedienst den optimalen Medienpfad finden kann.</span><span class="sxs-lookup"><span data-stu-id="fe818-177">The source IP address must remain intact, so that the A/V Edge service can find the optimal media path.</span></span>
+  - <span data-ttu-id="b8652-176">Für Datenverkehr aus dem Internet muss NAT die Ziel-IP-Adresse von der NAT-fähigen öffentlichen IP-Adresse des A/V-Edgedienst in die externe IP-Adresse ändern.</span><span class="sxs-lookup"><span data-stu-id="b8652-176">For traffic from the Internet, NAT must change the destination IP address from the NAT-enabled public IP address of the A/V Edge service to its external IP address.</span></span> <span data-ttu-id="b8652-177">Die Quell-IP-Adresse muss intakt bleiben, damit der A/V-Edgedienst den optimalen Medienpfad finden kann.</span><span class="sxs-lookup"><span data-stu-id="b8652-177">The source IP address must remain intact, so that the A/V Edge service can find the optimal media path.</span></span>
   
-  <span data-ttu-id="fe818-178">In der folgenden Abbildung wurde beispielsweise die öffentliche IP-Adresse 131.107.155.30 in die externe IP-Adresse 10.45.16.10 (privat) geändert.</span><span class="sxs-lookup"><span data-stu-id="fe818-178">For example, in the inbound direction in the figure below, the public IP address 131.107.155.30 was changed to the external (private) IP address 10.45.16.10.</span></span> <span data-ttu-id="fe818-179">Die Quell-IP-Adresse blieb unverändert.</span><span class="sxs-lookup"><span data-stu-id="fe818-179">The source IP address remained unchanged.</span></span>
+  <span data-ttu-id="b8652-178">In der folgenden Abbildung wurde beispielsweise die öffentliche IP-Adresse 131.107.155.30 in die externe IP-Adresse 10.45.16.10 (privat) geändert.</span><span class="sxs-lookup"><span data-stu-id="b8652-178">For example, in the inbound direction in the figure below, the public IP address 131.107.155.30 was changed to the external (private) IP address 10.45.16.10.</span></span> <span data-ttu-id="b8652-179">Die Quell-IP-Adresse blieb unverändert.</span><span class="sxs-lookup"><span data-stu-id="b8652-179">The source IP address remained unchanged.</span></span>
   
-  - <span data-ttu-id="fe818-180">Für den Datenverkehr vom A/V-Edgedienst zum Internet muss NAT die Quell-IP-Adresse von der externen IP-Adresse des A/V-Edgedienst in die NAT-fähige öffentliche IP-Adresse ändern.</span><span class="sxs-lookup"><span data-stu-id="fe818-180">For traffic from the A/V Edge service to the Internet, NAT must change the source IP address from the external IP address of the A/V Edge service to the NAT-enabled public IP address.</span></span>
+  - <span data-ttu-id="b8652-180">Für den Datenverkehr vom A/V-Edgedienst zum Internet muss NAT die Quell-IP-Adresse von der externen IP-Adresse des A/V-Edgedienst in die NAT-fähige öffentliche IP-Adresse ändern.</span><span class="sxs-lookup"><span data-stu-id="b8652-180">For traffic from the A/V Edge service to the Internet, NAT must change the source IP address from the external IP address of the A/V Edge service to the NAT-enabled public IP address.</span></span>
 
-<span data-ttu-id="fe818-181">Beispiel: in der ausgehenden Richtung in der Abbildung unten wurde die externe IP-Adresse (privat) 10.45.16.10 in die öffentliche IP-Adresse 131.107.155.30 geändert.</span><span class="sxs-lookup"><span data-stu-id="fe818-181">For example, in the outbound direction in the figure below, the external (private) IP address 10.45.16.10 was changed to the public IP address 131.107.155.30.</span></span>
+<span data-ttu-id="b8652-181">Beispiel: in der ausgehenden Richtung in der Abbildung unten wurde die externe IP-Adresse (privat) 10.45.16.10 in die öffentliche IP-Adresse 131.107.155.30 geändert.</span><span class="sxs-lookup"><span data-stu-id="b8652-181">For example, in the outbound direction in the figure below, the external (private) IP address 10.45.16.10 was changed to the public IP address 131.107.155.30.</span></span>
 
-<span data-ttu-id="fe818-182">**Die folgende Abbildung zeigt, wie NAT die Ziel-IP-Adresse für eingehenden Datenverkehr und die Quell-IP-Adresse für ausgehenden Datenverkehr ändert.**</span><span class="sxs-lookup"><span data-stu-id="fe818-182">**The figure below shows how NAT changes the destination IP address for inbound traffic and the source IP Address for outbound traffic.**</span></span>
+<span data-ttu-id="b8652-182">**Die folgende Abbildung zeigt, wie NAT die Ziel-IP-Adresse für eingehenden Datenverkehr und die Quell-IP-Adresse für ausgehenden Datenverkehr ändert.**</span><span class="sxs-lookup"><span data-stu-id="b8652-182">**The figure below shows how NAT changes the destination IP address for inbound traffic and the source IP Address for outbound traffic.**</span></span>
 
-<span data-ttu-id="fe818-183">![Ändern von Ziel-/Quell-IP-Adressen](images/Gg425882.0fee7ec5-4cb8-4aff-9164-e7fbab73336d(OCS.15).jpg "Ändern von Ziel-/Quell-IP-Adressen")</span><span class="sxs-lookup"><span data-stu-id="fe818-183">![Changing destination/source IP addresses](images/Gg425882.0fee7ec5-4cb8-4aff-9164-e7fbab73336d(OCS.15).jpg "Changing destination/source IP addresses")</span></span>
+<span data-ttu-id="b8652-183">![Ändern von Ziel-/Quell-IP-Adressen](images/Gg425882.0fee7ec5-4cb8-4aff-9164-e7fbab73336d(OCS.15).jpg "Ändern von Ziel-/Quell-IP-Adressen")</span><span class="sxs-lookup"><span data-stu-id="b8652-183">![Changing destination/source IP addresses](images/Gg425882.0fee7ec5-4cb8-4aff-9164-e7fbab73336d(OCS.15).jpg "Changing destination/source IP addresses")</span></span>
 
-<span data-ttu-id="fe818-184">Die wichtigsten Punkte hierbei sind:</span><span class="sxs-lookup"><span data-stu-id="fe818-184">The key points are:</span></span>
+<span data-ttu-id="b8652-184">Die wichtigsten Punkte hierbei sind:</span><span class="sxs-lookup"><span data-stu-id="b8652-184">The key points are:</span></span>
 
-  - <span data-ttu-id="fe818-185">Datenverkehr, der auf dem Server mit dem A/V-Edgedienst eingehenden wird, ändert sich die Quell-IP-Adresse nicht, aber die IP-Zieladresse wird von 131.107.155.30 in die übersetzte IP-Adresse von 10.45.16.10 geändert.</span><span class="sxs-lookup"><span data-stu-id="fe818-185">Traffic that is inbound to the server running the A/V Edge service, the source IP address does not change but the destination IP address changes from 131.107.155.30 to the translated IP address of 10.45.16.10.</span></span>
+  - <span data-ttu-id="b8652-185">Datenverkehr, der auf dem Server mit dem A/V-Edgedienst eingehenden wird, ändert sich die Quell-IP-Adresse nicht, aber die IP-Zieladresse wird von 131.107.155.30 in die übersetzte IP-Adresse von 10.45.16.10 geändert.</span><span class="sxs-lookup"><span data-stu-id="b8652-185">Traffic that is inbound to the server running the A/V Edge service, the source IP address does not change but the destination IP address changes from 131.107.155.30 to the translated IP address of 10.45.16.10.</span></span>
 
-  - <span data-ttu-id="fe818-186">Datenverkehr, der vom Server ausgeht, auf dem der A/V-Edgedienst zurück zur Arbeitsstation führt, ändert sich die Quell-IP-Adresse von der öffentlichen IP-Adresse des Servers zur öffentlichen IP-Adresse des Servers, auf dem der A/V-Edgedienst läuft.</span><span class="sxs-lookup"><span data-stu-id="fe818-186">Traffic that is outbound from the server running the A/V Edge service back to the workstation, the source IP address changes from the server’s public IP address to the public IP address of the server running the A/V Edge service.</span></span> <span data-ttu-id="fe818-187">Die Ziel-IP bleibt die öffentliche IP-Adresse der Arbeitsstation.</span><span class="sxs-lookup"><span data-stu-id="fe818-187">The destination IP remains the workstation’s public IP address.</span></span> <span data-ttu-id="fe818-188">Nachdem das Paket das erste NAT-Gerät ausgehend verlassen hat, ändert die Regel auf dem NAT-Gerät die Quell-IP-Adresse des Servers, auf dem die A/V-Edgedienst-IP-Adresse der externen Schnittstelle (10.45.16.10) angegeben wird, in die öffentliche IP-Adresse (131.107.155.30).</span><span class="sxs-lookup"><span data-stu-id="fe818-188">After the packet leaves the first NAT device outbound, the rule on the NAT device changes the source IP address of the server running the A/V Edge service external interface IP address (10.45.16.10) to its public IP address (131.107.155.30).</span></span>
+  - <span data-ttu-id="b8652-186">Datenverkehr, der vom Server ausgeht, auf dem der A/V-Edgedienst zurück zur Arbeitsstation führt, ändert sich die Quell-IP-Adresse von der öffentlichen IP-Adresse des Servers zur öffentlichen IP-Adresse des Servers, auf dem der A/V-Edgedienst läuft.</span><span class="sxs-lookup"><span data-stu-id="b8652-186">Traffic that is outbound from the server running the A/V Edge service back to the workstation, the source IP address changes from the server’s public IP address to the public IP address of the server running the A/V Edge service.</span></span> <span data-ttu-id="b8652-187">Die Ziel-IP bleibt die öffentliche IP-Adresse der Arbeitsstation.</span><span class="sxs-lookup"><span data-stu-id="b8652-187">The destination IP remains the workstation’s public IP address.</span></span> <span data-ttu-id="b8652-188">Nachdem das Paket das erste NAT-Gerät ausgehend verlassen hat, ändert die Regel auf dem NAT-Gerät die Quell-IP-Adresse des Servers, auf dem die A/V-Edgedienst-IP-Adresse der externen Schnittstelle (10.45.16.10) angegeben wird, in die öffentliche IP-Adresse (131.107.155.30).</span><span class="sxs-lookup"><span data-stu-id="b8652-188">After the packet leaves the first NAT device outbound, the rule on the NAT device changes the source IP address of the server running the A/V Edge service external interface IP address (10.45.16.10) to its public IP address (131.107.155.30).</span></span>
 
 </div>
 
