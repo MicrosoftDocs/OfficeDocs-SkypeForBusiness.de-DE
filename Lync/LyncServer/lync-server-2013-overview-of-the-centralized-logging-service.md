@@ -12,18 +12,18 @@ ms:contentKeyID: 49733746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c485293fe747a16cc9c2b392d053137105306da4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7802a3c69d895f87fbcf1553a1d2e737bf2d8f30
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049707"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140068"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-the-centralized-logging-service-in-lync-server-2013"></a>Übersicht über den zentralisierten Protokollierungsdienst in lync Server 2013
 
@@ -61,7 +61,7 @@ ClsAgent verwaltet eine Indexdatei aller .CACHE-Dateien, die auf dem lokalen Com
 
 </div>
 
-Die resultierenden Protokolldateien können mit einer Vielzahl von Tools, einschließlich **Snooper. exe** und allen Tools, die eine Textdatei wie **Notepad. exe**lesen können, gelesen und analysiert werden. Snooper. exe ist Teil der lync Server 2013 Debug-Tools und steht als Webdownload zur Verfügung [http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257).
+Die resultierenden Protokolldateien können mit einer Vielzahl von Tools, einschließlich **Snooper. exe** und allen Tools, die eine Textdatei wie **Notepad. exe**lesen können, gelesen und analysiert werden. Snooper. exe ist Teil der lync Server 2013 Debug-Tools und steht als Webdownload zur Verfügung [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257).
 
 Wie OCSLogger verfügt der zentralisierte Protokollierungsdienst über mehrere Komponenten, anhand derer nachverfolgt werden kann, und bietet Optionen zum\_auswählen von Flags\_wie TF Component und TF diag. Der zentralisierte Protokollierungsdienst behält auch die Protokollierungsgrad Optionen von OCSLogger bei.
 

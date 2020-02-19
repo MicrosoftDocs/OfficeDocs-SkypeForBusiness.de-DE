@@ -12,18 +12,18 @@ ms:contentKeyID: 63969585
 ms.date: 05/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6f052aceb6678d87c99fc287b69752d0ed761a5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d4923ed94cba19136558c2f7336bfdc527fda000
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036455"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141068"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="troubleshooting-and-key-health-indicators-in-lync-server-2013"></a>Problembehandlung und wichtige Integritätsindikatoren in lync Server 2013
 
@@ -41,9 +41,9 @@ _**Letztes Änderungsstand des Themas:** 2015-05-18_
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-Um die Referenzarchitektur-SLAs zu erfüllen und einen reibungslosen Übergang zu unseren Support Teams sicherzustellen, muss ein allgemeiner Ansatz zur Problembehandlung zusammen mit einer Reihe von erforderlichen Problembehandlungstools und-Ansätzen definiert werden, die im lync Server [-Netzwerk Leit Faden](http://go.microsoft.com/fwlink/p/?linkid=390677) definiert sind.
+Um die Referenzarchitektur-SLAs zu erfüllen und einen reibungslosen Übergang zu unseren Support Teams sicherzustellen, muss ein allgemeiner Ansatz zur Problembehandlung zusammen mit einer Reihe von erforderlichen Problembehandlungstools und-Ansätzen definiert werden, die im lync Server [-Netzwerk Leit Faden](https://go.microsoft.com/fwlink/p/?linkid=390677) definiert sind.
 
-Es wird dringend empfohlen, dass System Center Operations Manager zum Überwachen der Integrität des lync Server 2013 Systems verwendet wird. Lesen Sie auch die Erläuterungen zu KHIs im lync Server 2013- [Netzwerk Leit Faden](http://go.microsoft.com/fwlink/p/?linkid=390677) und in der Excel-Tabelle für die Verwendung mit lync 2013.
+Es wird dringend empfohlen, dass System Center Operations Manager zum Überwachen der Integrität des lync Server 2013 Systems verwendet wird. Lesen Sie auch die Erläuterungen zu KHIs im lync Server 2013- [Netzwerk Leit Faden](https://go.microsoft.com/fwlink/p/?linkid=390677) und in der Excel-Tabelle für die Verwendung mit lync 2013.
 
 </div>
 

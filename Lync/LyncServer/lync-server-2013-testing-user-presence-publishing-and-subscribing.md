@@ -12,18 +12,18 @@ ms:contentKeyID: 63969587
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afcf12b50a1284a7218789c5964ce714a3a4bdd7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b76cd47ccfe35cecf7b7e9182aeadccc37436bc5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983140"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141201"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-user-presence-publishing-and-subscribing-in-lync-server-2013"></a>Testen der Veröffentlichung von Benutzer Anwesenheit und abonnieren in lync Server 2013
 
@@ -74,7 +74,7 @@ Test-CsPresence wird verwendet, um zu bestimmen, ob ein paar von Testbenutzern s
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet Test-CsPresence kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten für das Ausführen von lync Server Tests) oder den Konten von zwei Benutzern, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den FQDN des lync Server Pools angeben, der getestet werden soll. Beispiel:
+Das Cmdlet Test-CsPresence kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten für das Ausführen von lync Server Tests) oder den Konten von zwei Benutzern, die für lync Server aktiviert sind. Um diese Prüfung mit Testkonten auszuführen, müssen Sie lediglich den FQDN des lync Server Pools angeben, der getestet werden soll. Zum Beispiel:
 
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -130,7 +130,7 @@ Wenn Test-CsPresence fehlschlägt, möchten Sie möglicherweise den Test erneut 
 
     Test-CsPresence -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Wenn der Verbose-Parameter enthalten ist, gibt Test-CsPresence eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als er die Fähigkeit des angegebenen Benutzers zur Anmeldung bei lync Server überprüft hat. Beispiel:
+Wenn der Verbose-Parameter enthalten ist, gibt Test-CsPresence eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als er die Fähigkeit des angegebenen Benutzers zur Anmeldung bei lync Server überprüft hat. Zum Beispiel:
 
 Registrierungs Anforderungs Treffer gegen unbekannt
 

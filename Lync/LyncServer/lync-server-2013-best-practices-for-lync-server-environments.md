@@ -12,18 +12,18 @@ ms:contentKeyID: 63969642
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d02d9ed669cf9404b1bf8d07db32c9d331769ec9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8c31d39ae7537fc53fc4e72c8b1c57863b2ba189
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041114"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140608"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="best-practices-for-lync-server-2013-environments"></a>Bewährte Methoden für lync Server 2013 Umgebungen
 
@@ -39,7 +39,7 @@ _**Letztes Änderungsstand des Themas:** 2014-08-04_
 
 Die folgenden allgemeinen Prinzipien sollten auf den laufenden Betrieb Ihres Systems angewendet werden:
 
-  - **Das Verständnis und die Verwendung von MOF**   MOF sind eine Sammlung von bewährten Methoden, Grundsätzen und Modellen, die Unternehmen technische Anleitungen zur Verwaltung von IT-Ressourcen bereitstellen, beispielsweise tägliche lync Server 2013 Vorgänge. Die folgenden MOF-Richtlinien können Ihnen dabei helfen, die Zuverlässigkeit, Verfügbarkeit, Unterstützung und Verwaltbarkeit von unternehmenskritischen Produktionssystemen für Microsoft-Produkte zu erreichen. Weitere Informationen finden Sie unter [Microsoft Operations Framework 4,0](http://go.microsoft.com/fwlink/p/?linkid=40939).
+  - **Das Verständnis und die Verwendung von MOF**   MOF sind eine Sammlung von bewährten Methoden, Grundsätzen und Modellen, die Unternehmen technische Anleitungen zur Verwaltung von IT-Ressourcen bereitstellen, beispielsweise tägliche lync Server 2013 Vorgänge. Die folgenden MOF-Richtlinien können Ihnen dabei helfen, die Zuverlässigkeit, Verfügbarkeit, Unterstützung und Verwaltbarkeit von unternehmenskritischen Produktionssystemen für Microsoft-Produkte zu erreichen. Weitere Informationen finden Sie unter [Microsoft Operations Framework 4,0](https://go.microsoft.com/fwlink/p/?linkid=40939).
 
   - **Informationen zu bewährten Methoden für lync Server 2013**   es wird empfohlen, praktische und bewährte Verfahren zum Verwalten von lync Server 2013 zu implementieren. Die Verwendung bewährter, getesteter und dokumentierter Methoden zur Verwaltung von Vorgängen ist möglicherweise effizienter als die Entwicklung eigener Methoden.
 
@@ -104,7 +104,7 @@ Lesen Sie die folgenden Themen zu Systemvorgängen, bevor Sie fortfahren:
 ## <a name="see-also"></a>Siehe auch
 
 
-[Microsoft Operations Framework 4,0](http://go.microsoft.com/fwlink/p/?linkid=40939)  
+[Microsoft Operations Framework 4,0](https://go.microsoft.com/fwlink/p/?linkid=40939)  
   
 
 </div>

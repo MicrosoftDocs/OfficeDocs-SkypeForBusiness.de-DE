@@ -12,18 +12,18 @@ ms:contentKeyID: 48184934
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed3a616fb9bcf7d33819c3bee68dbe375954d02b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bf3d85b7e3eae8839e3e65e02dde5955c8145c64
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038827"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140088"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-external-user-access-in-lync-server-2013"></a>Übersicht über den Zugriff durch externe Benutzer in lync Server 2013
 
@@ -54,7 +54,7 @@ In dieser Dokumentation wird der Begriff *externer Benutzer* verwendet, um eine 
 
   - **Öffentliche Instant Messaging-Konnektivität Benutzer**   Kontakte, die Ihre Benutzer über öffentliche Instant Messaging-Verbindungsdienste einrichten (Windows Live, Yahoo\! und AOL).
 
-  - **Benutzer von mobilen Benutzern**   , die Mitglieder Ihrer Organisation sind, die ein Smartphone oder ein Tablet mit einem mobilen lync-Client verwenden, melden sich bei ihrer internen Bereitstellung an und können mit den anderen Klassen von Benutzern kommunizieren. Der Mobile Benutzer verwendet Mobilitätsdienste, die über den Reverseproxy veröffentlicht werden, um auf die interne Bereitstellung zuzugreifen. Ausführliche Informationen zu den verfügbaren Features und Funktionen von lync Mobile finden Sie in [http://go.microsoft.com/fwlink/p/?LinkID=234777](http://go.microsoft.com/fwlink/p/?linkid=234777)den Vergleichstabellen für mobile Clients unter.
+  - **Benutzer von mobilen Benutzern**   , die Mitglieder Ihrer Organisation sind, die ein Smartphone oder ein Tablet mit einem mobilen lync-Client verwenden, melden sich bei ihrer internen Bereitstellung an und können mit den anderen Klassen von Benutzern kommunizieren. Der Mobile Benutzer verwendet Mobilitätsdienste, die über den Reverseproxy veröffentlicht werden, um auf die interne Bereitstellung zuzugreifen. Ausführliche Informationen zu den verfügbaren Features und Funktionen von lync Mobile finden Sie in [https://go.microsoft.com/fwlink/p/?LinkID=234777](https://go.microsoft.com/fwlink/p/?linkid=234777)den Vergleichstabellen für mobile Clients unter.
 
   - **Anonyme Benutzer**   Benutzer, die kein Benutzerkonto im Active Directory-Domänendienste Ihrer Organisation oder in einer unterstützten Verbunddomäne haben, jedoch Einladungen zur Remote Teilnahme an einer lokalen Konferenz erhalten haben.
 

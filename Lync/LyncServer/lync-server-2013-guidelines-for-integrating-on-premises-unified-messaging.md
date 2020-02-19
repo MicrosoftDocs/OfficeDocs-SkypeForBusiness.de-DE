@@ -12,18 +12,18 @@ ms:contentKeyID: 48184681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1be763250edf7222b900aef88665b3e360e8125c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e8e4e325ba766967292c24f2a3b62ec233a73ec5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006221"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140268"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="guidelines-for-integrating-on-premises-unified-messaging-and-lync-server-2013"></a>Richtlinien für die Integration von lokalen Unified Messaging-und lync Server 2013
 
@@ -115,13 +115,13 @@ In Beispiel 1 sind Exchange um Server 1 und 2 im Rechenzentrum von Tukwila aktiv
 
 In Beispiel 2 sind die Exchange UM-Server 1 und 2 bei normalen Betriebsbedingungen im Rechenzentrum "Tukwila" aktiviert, die Exchange UM-Server 3 und 4 im Rechenzentrum "Dublin". Alle vier Server sind in den SIP-URI-Wähleinstellungen der Benutzer in Tukwila enthalten, die Server 3 und 4 sind deaktiviert. Wenn Exchange UM z. B. in Tukwila ausfällt, sollten die Exchange UM-Server 1 und 2 deaktiviert und die Exchange UM-Server 3 und 4 aktiviert werden, damit der Exchange UM-Datenverkehr in Tukwila an die Server in Dublin geroutet wird.
 
-Ausführliche Informationen zum Aktivieren oder Deaktivieren von Unified Messaging für Exchange 2013 finden Sie unter "integrieren Exchange 2013 um mit lync Server" unter [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372).
+Ausführliche Informationen zum Aktivieren oder Deaktivieren von Unified Messaging für Exchange 2013 finden Sie unter "integrieren Exchange 2013 um mit lync Server" unter [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372).
 
 Ausführliche Informationen zum Aktivieren oder Deaktivieren von Unified Messaging für Microsoft Exchange Server 2010 finden Sie unter:
 
-  - "Aktivieren von Unified Messaging bei Exchange 2010" [http://go.microsoft.com/fwlink/p/?LinkId=204418](http://go.microsoft.com/fwlink/p/?linkid=204418)unter.
+  - "Aktivieren von Unified Messaging bei Exchange 2010" [https://go.microsoft.com/fwlink/p/?LinkId=204418](https://go.microsoft.com/fwlink/p/?linkid=204418)unter.
 
-  - "Deaktivieren von Unified Messaging auf Exchange 2010" [http://go.microsoft.com/fwlink/p/?LinkId=204416](http://go.microsoft.com/fwlink/p/?linkid=204416)unter.
+  - "Deaktivieren von Unified Messaging auf Exchange 2010" [https://go.microsoft.com/fwlink/p/?LinkId=204416](https://go.microsoft.com/fwlink/p/?linkid=204416)unter.
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 63969655
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b40479bc11fc1f46062423d63876b33d9c179aa
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 71629cb844b8f65ab6f54c0d604fad0d152705d6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048606"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141291"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-the-ability-of-a-user-to-log-on-to-lync-server-2013"></a>Testen der Fähigkeit eines Benutzers, sich bei lync Server 2013 anzumelden
 
@@ -74,7 +74,7 @@ Mit dem Cmdlet Test-CsRegistration können Sie sicherstellen, dass sich die Benu
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet Test-CsRegistration kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten zum Ausführen lync Server Tests) oder nach dem Konto eines beliebigen Benutzers, der für lync Server aktiviert ist. Um diese Prüfung mit einem Test Konto auszuführen, müssen Sie lediglich den FQDN des lync Server registrierungspools angeben, der getestet wird. Beispiel:
+Das Cmdlet Test-CsRegistration kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten zum Ausführen lync Server Tests) oder nach dem Konto eines beliebigen Benutzers, der für lync Server aktiviert ist. Um diese Prüfung mit einem Test Konto auszuführen, müssen Sie lediglich den FQDN des lync Server registrierungspools angeben, der getestet wird. Zum Beispiel:
 
     Test-CsRegistration -TargetFqdn "atl-cs-001.litwareinc.com"
 
@@ -127,7 +127,7 @@ Wenn Test-CsRegistration fehlschlägt, möchten Sie möglicherweise den Test ern
 
     Test-CsRegistration -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-Wenn der Verbose-Parameter enthalten ist, gibt Test-CsRegistration eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als er die Fähigkeit des angegebenen Benutzers zur Anmeldung bei lync Server überprüft hat. Beispiel:
+Wenn der Verbose-Parameter enthalten ist, gibt Test-CsRegistration eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als er die Fähigkeit des angegebenen Benutzers zur Anmeldung bei lync Server überprüft hat. Zum Beispiel:
 
 Ausführlich: Aktivität "registrieren" gestartet.
 

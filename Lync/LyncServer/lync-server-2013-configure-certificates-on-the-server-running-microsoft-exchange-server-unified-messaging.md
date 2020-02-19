@@ -12,18 +12,18 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2885b3610c1edce441c6abbd93a2515fa6cb904
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4bf3e665e0031596bc2db2273882aef379a96f2e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028666"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42140458"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging"></a>Konfigurieren von Zertifikaten auf dem Server, auf dem Exchange Server Unified Messaging läuft
 
@@ -130,7 +130,7 @@ Das Exchange Server muss mit einem Server Zertifikat konfiguriert sein, damit ei
 
 ## <a name="to-configure-exchange-server-2013-um-with-lync-server"></a>So konfigurieren Sie Exchange Server 2013 um mit lync Server
 
-1.  Ausführliche Informationen finden Sie unter "integrieren Exchange 2013 um mit lync Server" in die Exchange Server Dokumentation [http://go.microsoft.com/fwlink/p/?LinkId=265372](http://go.microsoft.com/fwlink/p/?linkid=265372)unter.
+1.  Ausführliche Informationen finden Sie unter "integrieren Exchange 2013 um mit lync Server" in die Exchange Server Dokumentation [https://go.microsoft.com/fwlink/p/?LinkId=265372](https://go.microsoft.com/fwlink/p/?linkid=265372)unter.
 
 </div>
 
@@ -177,13 +177,13 @@ Das Exchange Server muss mit einem Server Zertifikat konfiguriert sein, damit ei
 
 ## <a name="to-create-a-certificate-on-exchange-server-2010"></a>So erstellen Sie ein Zertifikat auf Exchange Server 2010
 
-1.  Melden Sie sich bei dem Server an, auf dem Exchange um mit den entsprechenden Benutzerrechten ausführt. Ausführliche Informationen finden Sie unter "Client Zugriffsberechtigungen" [http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499)unter.
+1.  Melden Sie sich bei dem Server an, auf dem Exchange um mit den entsprechenden Benutzerrechten ausführt. Ausführliche Informationen finden Sie unter "Client Zugriffsberechtigungen" [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)unter.
 
 2.  Anweisungen zum Erstellen des Zertifikats finden Sie in den folgenden Vorgehensweisen:
     
-    1.  "Erstellen eines neuen Exchange-Zertifikats" unter[http://go.microsoft.com/fwlink/p/?linkId=195494](http://go.microsoft.com/fwlink/p/?linkid=195494)
+    1.  "Erstellen eines neuen Exchange-Zertifikats" unter[https://go.microsoft.com/fwlink/p/?linkId=195494](https://go.microsoft.com/fwlink/p/?linkid=195494)
     
-    2.  "Importieren eines Exchange-Zertifikats" unter[http://go.microsoft.com/fwlink/p/?linkId=195496](http://go.microsoft.com/fwlink/p/?linkid=195496)
+    2.  "Importieren eines Exchange-Zertifikats" unter[https://go.microsoft.com/fwlink/p/?linkId=195496](https://go.microsoft.com/fwlink/p/?linkid=195496)
     
     <div>
     
@@ -236,9 +236,9 @@ Das Exchange Server muss mit einem Server Zertifikat konfiguriert sein, damit ei
 
 ## <a name="to-assign-the-certificate-on-exchange-server-2010"></a>So weisen Sie das Zertifikat auf Exchange Server 2010 zu
 
-1.  Melden Sie sich bei dem Server an, auf dem Exchange um mit den entsprechenden Benutzerrechten ausführt. Ausführliche Informationen finden Sie unter "Client Zugriffsberechtigungen" [http://go.microsoft.com/fwlink/p/?linkId=195499](http://go.microsoft.com/fwlink/p/?linkid=195499)unter.
+1.  Melden Sie sich bei dem Server an, auf dem Exchange um mit den entsprechenden Benutzerrechten ausführt. Ausführliche Informationen finden Sie unter "Client Zugriffsberechtigungen" [https://go.microsoft.com/fwlink/p/?linkId=195499](https://go.microsoft.com/fwlink/p/?linkid=195499)unter.
 
-2.  Das Verfahren zum Zuweisen des Zertifikats finden Sie unter "Zuweisen von Diensten zu einem Zertifikat" [http://go.microsoft.com/fwlink/p/?linkId=195497](http://go.microsoft.com/fwlink/p/?linkid=195497)unter.
+2.  Das Verfahren zum Zuweisen des Zertifikats finden Sie unter "Zuweisen von Diensten zu einem Zertifikat" [https://go.microsoft.com/fwlink/p/?linkId=195497](https://go.microsoft.com/fwlink/p/?linkid=195497)unter.
 
 </div>
 
