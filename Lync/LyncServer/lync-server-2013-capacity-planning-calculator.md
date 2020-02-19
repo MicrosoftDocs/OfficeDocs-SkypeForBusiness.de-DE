@@ -12,18 +12,18 @@ ms:contentKeyID: 56280894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce5ece90e8db4240eaef00f39a827e6779663dcc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0caac7e07d83658fd1b39192a6d9792ae6b17c0e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006361"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137224"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="using-the-capacity-planning-calculator-for-lync-server-2013"></a>Verwenden des Kapazitäts Planungs Rechners für lync Server 2013
 
@@ -37,13 +37,13 @@ ms.locfileid: "42006361"
 
 _**Letztes Änderungsstand des Themas:** 2013-11-21_
 
-Der Rechner zur Kapazitätsplanung von Microsoft® lync™ Server 2013 steht zum <http://www.microsoft.com/download/details.aspx?id=36828>Download zur Verfügung. Es wurde entwickelt, um Sie bei der Ermittlung von Server Anforderungen basierend auf der Anzahl von Benutzern und Kommunikationsmodalitäten zu unterstützen, die in Ihrer Organisation aktiviert sind. Sie geben das Profil Ihrer Organisation ein, und der Rechner enthält Empfehlungen, die Sie bei der Planung Ihrer Topologie unterstützen.
+Der Rechner zur Kapazitätsplanung von Microsoft® lync™ Server 2013 steht zum <https://www.microsoft.com/download/details.aspx?id=36828>Download zur Verfügung. Es wurde entwickelt, um Sie bei der Ermittlung von Server Anforderungen basierend auf der Anzahl von Benutzern und Kommunikationsmodalitäten zu unterstützen, die in Ihrer Organisation aktiviert sind. Sie geben das Profil Ihrer Organisation ein, und der Rechner enthält Empfehlungen, die Sie bei der Planung Ihrer Topologie unterstützen.
 
-Die vom Rechner erstellten Empfehlungen dienen nur zu Planungszwecken. Die tatsächliche Auslastungssimulation ist erforderlich, um sicherzustellen, dass lync Server 2013 angemessen bereitgestellt wird. Verwenden Sie zum Ausführen von Belastungstests unter simulierter Last das [Tool lync Server 2013 Stress and Performance](http://go.microsoft.com/fwlink/?linkid=282724).
+Die vom Rechner erstellten Empfehlungen dienen nur zu Planungszwecken. Die tatsächliche Auslastungssimulation ist erforderlich, um sicherzustellen, dass lync Server 2013 angemessen bereitgestellt wird. Verwenden Sie zum Ausführen von Belastungstests unter simulierter Last das [Tool lync Server 2013 Stress and Performance](https://go.microsoft.com/fwlink/?linkid=282724).
 
 Nachdem Sie Ihr Benutzerprofil und die Modalitäten festgelegt haben, die Sie für Ihre Benutzer aktivieren möchten, ist es an der Zeit, den Rechner zu verwenden, um die Anzahl der benötigten Server, Arbeitsspeicher und Bandbreite zu planen. Diese Version des Rechners bietet keine Anleitung für Datenträger-e/a-Anforderungen.
 
-Dieser Rechner ergänzt die [Microsoft lync Server](http://go.microsoft.com/fwlink/?linkid=282725) und [Microsoft lync Server](lync-server-2013-planning.md). Verwenden Sie den Rechner, nachdem Sie das Handbuch überprüft und eine empfohlene Topologie mithilfe des Planungstools erstellt haben.
+Dieser Rechner ergänzt die [Microsoft lync Server](https://go.microsoft.com/fwlink/?linkid=282725) und [Microsoft lync Server](lync-server-2013-planning.md). Verwenden Sie den Rechner, nachdem Sie das Handbuch überprüft und eine empfohlene Topologie mithilfe des Planungstools erstellt haben.
 
 Sie können am meisten von dem Rechner profitieren, wenn Sie genaue, detaillierte Informationen zu Ihrem bestimmten Benutzerprofil haben. Beispielsweise kann der Prozentsatz an sprachaktivierten Benutzern, durchschnittliche Anrufe pro Benutzer und Stunde, Anrufdauer und der Prozentsatz gleichzeitiger Benutzer in Konferenzen einen großen Unterschied in den Server Anforderungen mit sich bringen. Die Genauigkeit der vom Rechner erstellten Empfehlungen hängt von der Genauigkeit der von Ihnen bereitgestellten Informationen ab.
 

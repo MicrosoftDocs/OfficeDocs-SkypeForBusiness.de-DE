@@ -12,18 +12,18 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 849e74fb4857dd7b3ab98b8a8efd9c3ce3781e35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e35627633839f294cebced6df47a90919e7fc5ef
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043037"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139156"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-call-quality-methodology-in-lync-server-2013"></a>Methode für die lync-Anrufqualität in lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42043037"
 
 _**Letztes Änderungsstand des Themas:** 2016-06-24_
 
-Dieser Artikel ist ein Begleiter zum [lync Call Quality Method](http://go.microsoft.com/fwlink/?linkid=391841) -Poster, das Sie im Download Center herunterladen können.
+Dieser Artikel ist ein Begleiter zum [lync Call Quality Method](https://go.microsoft.com/fwlink/?linkid=391841) -Poster, das Sie im Download Center herunterladen können.
 
 ![Poster mit Beschreibung des CQM-Prozesses](images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "Poster mit Beschreibung des CQM-Prozesses")
 
@@ -71,7 +71,7 @@ Das Poster erläutert die folgenden Bereiche:
 
 ## <a name="what-is-lync-cqm"></a>Was ist lync CQM?
 
-Die Methode für die Anrufqualität ist ein neues Framework zur Problembehandlung und Dienstverwaltung, mit dem die Bemühungen zur Verbesserung der Enterprise-VoIP-Dienste in lync verbessert werden können. Wenn Sie CQM verwenden, sind geringere Anstrengungen erforderlich, um die Anrufqualität und die Benutzerzufriedenheit für Enterprise-VoIP-Dienste zu gewährleisten. CQM wird in der Methode für die [Anrufqualität](http://go.microsoft.com/fwlink/p/?linkid=615208)ausführlicher erläutert. Dieser Artikel und das Poster sind Zusammenfassungen dieser Inhalte.
+Die Methode für die Anrufqualität ist ein neues Framework zur Problembehandlung und Dienstverwaltung, mit dem die Bemühungen zur Verbesserung der Enterprise-VoIP-Dienste in lync verbessert werden können. Wenn Sie CQM verwenden, sind geringere Anstrengungen erforderlich, um die Anrufqualität und die Benutzerzufriedenheit für Enterprise-VoIP-Dienste zu gewährleisten. CQM wird in der Methode für die [Anrufqualität](https://go.microsoft.com/fwlink/p/?linkid=615208)ausführlicher erläutert. Dieser Artikel und das Poster sind Zusammenfassungen dieser Inhalte.
 
 CQM bricht die System Problembehandlung in drei Pfade oder "Straßen" ab. Dabei handelt es sich um die Server-Werks Straße, die die Server und die Verbindungen zwischen Ihnen, die Endpunkte-Straße, die auf Benutzergeräten und Medien, die für die Durchführung von Anrufen verwendet werden, und die letzte Meile, die die Integration von herkömmlichen Telefonnetz anrufen adressiert, betrachtet.
 
@@ -204,9 +204,9 @@ Um im Spiel **beizubehalten** , geben Sie den Dienst Verwaltungsplan zu diesem A
 ## <a name="see-also"></a>Siehe auch
 
 
-[Leitfaden für lync Server Netzwerke](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[Wichtige Integritätsindikatoren: die Grundlage für die Verwaltung gesunder lync-Server](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Methode für die lync-Anrufqualität](http://go.microsoft.com/fwlink/?linkid=391841)  
+[Leitfaden für lync Server Netzwerke](https://go.microsoft.com/fwlink/p/?linkid=390677)  
+[Wichtige Integritätsindikatoren: die Grundlage für die Verwaltung gesunder lync-Server](https://go.microsoft.com/fwlink/?linkid=391838)  
+[Methode für die lync-Anrufqualität](https://go.microsoft.com/fwlink/?linkid=391841)  
   
 
 </div>

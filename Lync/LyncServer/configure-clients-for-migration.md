@@ -13,18 +13,18 @@ ms:contentKeyID: 48185411
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8ebfefb24d1857a7addade5e92c94bf5daa54f6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8cbdc2ef87003110aed4cc9bc754fb73f62ea493
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42000570"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136132"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-clients-for-migration"></a>Konfigurieren der Clients für die Migration
 
@@ -44,7 +44,7 @@ Dieses Thema enthält die empfohlenen Schritte zur Clientbereitstellung, die Sie
 
 ## <a name="to-configure-clients-before-migration"></a>So konfigurieren Sie Clients vor der Migration
 
-1.  Stellen Sie die neuesten Server-, Client-und Geräte Updates (Hotfixes) für lync Server 2010 bereit. Die aktuellsten Informationen zu lync Server 2010 finden Sie unter Updates-Ressourcen Center für lync unter <http://go.microsoft.com/fwlink/p/?linkid=232630>.
+1.  Stellen Sie die neuesten Server-, Client-und Geräte Updates (Hotfixes) für lync Server 2010 bereit. Die aktuellsten Informationen zu lync Server 2010 finden Sie unter Updates-Ressourcen Center für lync unter <https://go.microsoft.com/fwlink/p/?linkid=232630>.
 
 2.  Verwenden Sie auf lync Server 2010 die Client Versions Filterung, um nur Clients mit den aktuellsten Updates zu ermöglichen, die installiert sind.
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 62634609
 ms.date: 09/17/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ef6082c4d2df6936557cf6f6c82a1d495888f55
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f1134422c8c55a60858a9fd8c28be2e6ff159d48
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006421"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137956"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013"></a>Bereitstellen eines SQL Server nicht standardmäßigen Ports und Alias in lync Server 2013
 
@@ -77,7 +77,7 @@ Um einen SQL Server nicht standardmäßigen Port und Alias für die Verwendung m
 
 ## <a name="confirm-that-lync-server-2013-has-the-latest-updates-applied"></a>Vergewissern Sie sich, dass lync Server 2013 die neuesten Updates angewendet haben.
 
-Es ist wichtig, lync Server 2013 auf dem neuesten Stand zu halten. Informationen zum Überprüfen der neuesten Aktualisierungen und Informationen zum Anwenden dieser Updates finden Sie unter [Updates für lync Server 2013](http://support.microsoft.com/kb/2809243).
+Es ist wichtig, lync Server 2013 auf dem neuesten Stand zu halten. Informationen zum Überprüfen der neuesten Aktualisierungen und Informationen zum Anwenden dieser Updates finden Sie unter [Updates für lync Server 2013](https://support.microsoft.com/kb/2809243).
 
 </div>
 

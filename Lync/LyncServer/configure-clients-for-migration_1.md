@@ -13,18 +13,18 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 24c5c530b51b24b23f266786cd763994c4798d1b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 542ee4d581d4df26a528a14fda5de792c2a2ad09
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41999190"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136120"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-clients-for-migration"></a>Konfigurieren der Clients für die Migration
 
@@ -48,13 +48,13 @@ Dieses Thema enthält die empfohlenen Schritte zur Clientbereitstellung, die Sie
     
       - [Anwenden von Office Communications Server 2007 R2 Updates](apply-office-communications-server-2007-r2-updates.md)
     
-      - [Beschreibung des kumulativen Updatepakets für Communicator 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=335808)
+      - [Beschreibung des kumulativen Updatepakets für Communicator 2007 R2](https://go.microsoft.com/fwlink/p/?linkid=335808)
     
-      - [Abrufen von Softwareupdates für Geräte](http://go.microsoft.com/fwlink/?linkid=335809)
+      - [Abrufen von Softwareupdates für Geräte](https://go.microsoft.com/fwlink/?linkid=335809)
 
 2.  Verwenden Sie auf Office Communications Server 2007 R2 die Client Versions Filterung, damit nur Office Communications Server 2007 R2 Clients mit den neuesten installierten Updates angemeldet werden können.
 
-3.  Verwenden Sie auf Office Communications Server 2007 R2 die Client Versions Filterung, um zu verhindern, dass lync Server 2013-Clients sich anmelden. Führen Sie die unter **Konfigurieren der Client Versions Filterung** unter [http://go.microsoft.com/fwlink/p/?linkId=202488](http://go.microsoft.com/fwlink/p/?linkid=202488) beschriebenen Schritte aus, um die in der folgenden Tabelle aufgeführten Versionsfilter hinzuzufügen. Weisen Sie für jeden Versionsfilter die Aktion **Blockieren** zu.
+3.  Verwenden Sie auf Office Communications Server 2007 R2 die Client Versions Filterung, um zu verhindern, dass lync Server 2013-Clients sich anmelden. Führen Sie die unter **Konfigurieren der Client Versions Filterung** unter [https://go.microsoft.com/fwlink/p/?linkId=202488](https://go.microsoft.com/fwlink/p/?linkid=202488) beschriebenen Schritte aus, um die in der folgenden Tabelle aufgeführten Versionsfilter hinzuzufügen. Weisen Sie für jeden Versionsfilter die Aktion **Blockieren** zu.
     
     
     <table>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65d9d4f61fabdca7a3f9cb4808efe952ec7ce3b2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6d284fa2082c886a583baf116893f792535a096b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037877"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136192"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="iis-configuration-in-lync-server-2013"></a>IIS-Konfiguration in lync Server 2013
 
@@ -45,7 +45,7 @@ Bevor Sie die Front-End-Server für lync Server 2013, Standard Edition oder den 
 
 
 > [!IMPORTANT]  
-> Wenn in Ihrer Organisation IIS und alle Webdienste auf einem anderen Laufwerk als dem Systemlaufwerk gefunden werden müssen, können Sie den Installationspfad für die lync Server 2013 Dateien im Dialogfeld Setup ändern, wenn Sie die lync Server 2013 erst installieren. Verwaltungstools. Sie installieren die Verwaltungstools vor der Installation von IIS. Wenn Sie die Setup Dateien in diesem Pfad installieren, einschließlich OCSCore. msi, werden auch die restlichen lync Server 2013 Dateien auf diesem Laufwerk bereitgestellt. Informationen zu dtails finden Sie unter <A href="lync-server-2013-install-lync-server-administrative-tools.md">install lync Server 2013 Administration Tools</A>. Ausführliche Informationen zum Verschieben des von Windows Server-Manager bereitgestellten Verzeichnis Inetpub bei der Installation von <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>IIS finden Sie unter.
+> Wenn in Ihrer Organisation IIS und alle Webdienste auf einem anderen Laufwerk als dem Systemlaufwerk gefunden werden müssen, können Sie den Installationspfad für die lync Server 2013 Dateien im Dialogfeld Setup ändern, wenn Sie die lync Server 2013 erst installieren. Verwaltungstools. Sie installieren die Verwaltungstools vor der Installation von IIS. Wenn Sie die Setup Dateien in diesem Pfad installieren, einschließlich OCSCore. msi, werden auch die restlichen lync Server 2013 Dateien auf diesem Laufwerk bereitgestellt. Informationen zu dtails finden Sie unter <A href="lync-server-2013-install-lync-server-administrative-tools.md">install lync Server 2013 Administration Tools</A>. Ausführliche Informationen zum Verschieben des von Windows Server-Manager bereitgestellten Verzeichnis Inetpub bei der Installation von <A href="https://go.microsoft.com/fwlink/p/?linkid=216888">https://go.microsoft.com/fwlink/p/?linkId=216888</A>IIS finden Sie unter.
 
 
 
@@ -155,7 +155,7 @@ Auf dem Betriebssystem Windows Server 2008 R2 SP1 x64 können Sie Windows PowerS
 
 
 > [!NOTE]  
-> Die anonyme Authentifizierung wird bei der Installation der IIS-Serverrolle standardmäßig installiert. Sie können die anonyme Authentifizierung nach der Installation von IIS verwalten. Ausführliche Informationen finden Sie unter "Aktivieren der <A href="http://go.microsoft.com/fwlink/p/?linkid=203935">http://go.microsoft.com/fwlink/p/?linkId=203935</A>anonymen Authentifizierung (IIS 7.0)" unter.
+> Die anonyme Authentifizierung wird bei der Installation der IIS-Serverrolle standardmäßig installiert. Sie können die anonyme Authentifizierung nach der Installation von IIS verwalten. Ausführliche Informationen finden Sie unter "Aktivieren der <A href="https://go.microsoft.com/fwlink/p/?linkid=203935">https://go.microsoft.com/fwlink/p/?linkId=203935</A>anonymen Authentifizierung (IIS 7.0)" unter.
 
 
 
@@ -167,7 +167,7 @@ In der folgenden Tabelle werden die erforderlichen IIS 8,0-und IIS 8,5-Rollendie
 
 
 > [!NOTE]  
-> Für Windows Server 2012 und Windows Server 2012 R2 wurde das Cmdlet Add-Cmdlets durch das Cmdlet Install-Cmdlets ersetzt. Ausführliche Informationen finden Sie unter <A href="http://go.microsoft.com/fwlink/p/?linkid=392274">install-Cmdlets</A>.
+> Für Windows Server 2012 und Windows Server 2012 R2 wurde das Cmdlet Add-Cmdlets durch das Cmdlet Install-Cmdlets ersetzt. Ausführliche Informationen finden Sie unter <A href="https://go.microsoft.com/fwlink/p/?linkid=392274">install-Cmdlets</A>.
 
 
 

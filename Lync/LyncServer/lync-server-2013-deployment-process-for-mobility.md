@@ -12,18 +12,18 @@ ms:contentKeyID: 48184220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 337e85520cb2a285f4e4743837aafa4136c89f27
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 59b6d6854c628a7f1077c0954d84ea9d82c4f715
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035317"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deployment-process-for-mobility-in-lync-server-2013"></a>Bereitstellungsprozess für Mobilität in lync Server 2013
 
@@ -87,7 +87,7 @@ In diesem Abschnitt wird die Abfolge der Schritte beschrieben, die für die Bere
 <li><p>Konfigurieren Sie die Webveröffentlichungsregel für die externe AutoErmittlungsdienst-URL neu.</p></li>
 <li><p>Stellen Sie sicher, dass für die externe lync Server 2013 Webdienste-URL auf Ihrem Front-End-Pool eine Webveröffentlichungsregel vorhanden ist.</p></li>
 </ul>
-<p>Oder</p>
+<p>Oder:</p>
 <ul>
 <li><p>Wenn Sie http für die anfängliche Auto Ermittlungsanforderung verwenden und keine Listen alternativer Antragstellernamen auf den Zertifikaten aktualisieren, konfigurieren Sie eine neue Webveröffentlichungsregel, oder konfigurieren Sie eine vorhandene Veröffentlichungsregel für Port 80 http neu.</p></li>
 </ul></td>

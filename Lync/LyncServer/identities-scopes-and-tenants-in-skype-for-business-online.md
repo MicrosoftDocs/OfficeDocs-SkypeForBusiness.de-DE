@@ -12,18 +12,18 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 331182ce938c26b8d21999249aec1c7a3063e80d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9dd2008984707f1f8e76b7e61074d5303c0d0819
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006371"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137906"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="identities-scopes-and-tenants-in-skype-for-business-online"></a>Identitäten, Bereiche und Mandanten in Skype for Business Online
 
@@ -89,7 +89,7 @@ Möglicherweise haben Sie auch zwei Benutzer: Ken Myers und Pilar Ackerman. Ken 
 
 Wie Sie sehen können, kann Ken Myers mit öffentlichen Instant Messaging-Anbietern kommunizieren. Dies liegt daran, dass die Einstellungen in der benutzerbezogenen Richtlinie, die ihm zugewiesen ist, die Einstellungen in der globalen Richtlinie außer Kraft setzen. Pilar Ackerman kann nicht mit öffentlichen Instant Messaging-Anbietern kommunizieren. Dies liegt daran, dass Sie von der globalen Richtlinie verwaltet wird und die globale Richtlinie solche Kommunikationen verbietet.
 
-Benutzerspezifische Richtlinien müssen für Sie durch Office 365 Support erstellt werden. Nachdem die Richtlinien erstellt wurden, können Sie Sie Benutzern mithilfe des entsprechenden Cmdlets **Grant-CS** zuweisen (beispielsweise [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Benutzerspezifische Richtlinien sind leicht zu identifizieren, da die Richtlinien Identität immer mit **dem Tagpräfix beginnt.** Beispiel:
+Benutzerspezifische Richtlinien müssen für Sie durch Office 365 Support erstellt werden. Nachdem die Richtlinien erstellt wurden, können Sie Sie Benutzern mithilfe des entsprechenden Cmdlets **Grant-CS** zuweisen (beispielsweise [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Benutzerspezifische Richtlinien sind leicht zu identifizieren, da die Richtlinien Identität immer mit **dem Tagpräfix beginnt.** Zum Beispiel:
 
     Identity : tag:AllowPublicIMCommunication
 

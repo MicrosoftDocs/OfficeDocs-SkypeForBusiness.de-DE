@@ -12,18 +12,18 @@ ms:contentKeyID: 48185418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1b1b4da0847dcc8242b6b514069d62a718c653f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7926c9c10ba30ed4683b1e05d6e22c4b817f502c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035147"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136653"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="view-software-updates-for-devices-in-lync-server-2013"></a>Anzeigen von Softwareupdates für Geräte in lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42035147"
 
 _**Letztes Änderungsstand des Themas:** 2012-11-01_
 
-Mit lync Server 2013 verwenden Sie den Geräte Update-Webdienst, um Softwareupdates für die Geräte Ihrer Organisation anzuzeigen und zu verwalten. Diese Updates stehen in CAB-Dateien auf der Microsoft-Support Website unter zur Verfügung [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091). Nachdem Sie die CAB-Datei heruntergeladen haben, führen Sie das Cmdlet **Import-CSDeviceUpdate** aus, um die geräteaktualisierungsregeln aus der CAB-Datei zu importieren. Ausführliche Informationen zum **Import-CSDeviceUpdate** -Cmdlet finden Sie unter [Import-CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) in der lync Server-Verwaltungsshell Dokumentation.
+Mit lync Server 2013 verwenden Sie den Geräte Update-Webdienst, um Softwareupdates für die Geräte Ihrer Organisation anzuzeigen und zu verwalten. Diese Updates stehen in CAB-Dateien auf der Microsoft-Support Website unter zur Verfügung [https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091). Nachdem Sie die CAB-Datei heruntergeladen haben, führen Sie das Cmdlet **Import-CSDeviceUpdate** aus, um die geräteaktualisierungsregeln aus der CAB-Datei zu importieren. Ausführliche Informationen zum **Import-CSDeviceUpdate** -Cmdlet finden Sie unter [Import-CSDeviceUpdate](https://docs.microsoft.com/powershell/module/skype/Import-CsDeviceUpdate) in der lync Server-Verwaltungsshell Dokumentation.
 
 <div>
 
@@ -55,7 +55,7 @@ Mit lync Server 2013 verwenden Sie den Geräte Update-Webdienst, um Softwareupda
 
 1.  Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Laden Sie die CAB-Datei [http://go.microsoft.com/fwlink/p/?linkId=204091](http://go.microsoft.com/fwlink/p/?linkid=204091)von der Microsoft-Support Website unter an einen Speicherort auf einem lync Server 2013 Computer herunter (beispielsweise C\\:\\Updates ucupdates. cab).
+2.  Laden Sie die CAB-Datei [https://go.microsoft.com/fwlink/p/?linkId=204091](https://go.microsoft.com/fwlink/p/?linkid=204091)von der Microsoft-Support Website unter an einen Speicherort auf einem lync Server 2013 Computer herunter (beispielsweise C\\:\\Updates ucupdates. cab).
 
 3.  Importieren Sie die geräteaktualisierungsregeln aus der C\\:\\Updates-ucupdates. CAB-Datei, indem Sie eines der folgenden Cmdlets ausführen:
     

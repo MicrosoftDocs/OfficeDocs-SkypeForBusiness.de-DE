@@ -12,18 +12,18 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 690eb5631b57a88d207816a01c887c1f94c0eeb2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 718dda9966b79ca75f64df115dc9a6ba30d15619
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044047"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136993"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="frequently-asked-questions-provisioning-lync-server-2013-for-skype-connectivity"></a>Häufig gestellte Fragen: lync Server 2013 für Skype-Konnektivität
 
@@ -138,7 +138,7 @@ Diese Reihenfolge ist wichtig.Sie müssen die lokale Konnektivität einrichten, 
 
 **F: Wie füge ich einen Windows Live Messenger-Kontakt hinzu, der eine ID enthält, die eine andere Domäne als die von Windows Live unterstützten hat?**
 
-**A:** Wenn Sie einen Windows Live Messenger-Benutzer mit einem Konto oder einer ID mit einer nicht-Windows Live-Domäne hinzufügen, geben Sie die Adresse im \<folgenden Format\>ein\<: Benutzer\>Name (Domänenname) @MSN \<. com\> , wobei Domain Name der Domänenname in der e-Mail-Adresse des Benutzers ist. Wenn Sie beispielsweise Ted@contoso.com hinzufügen wollten, verwenden Sie das folgende Format: Ted (contoso. com) @MSN. com. Eine Liste der Domänen, die von Windows Live verwaltet werden, finden Sie im Abschnitt "unterstützte Domänen" unter "bekannte Probleme, die mit öffentlichen Sofortnachrichten nach der Installation von Live Communications Server Service http://support.microsoft.com/?kbid=897567Pack 1 auftreten" unter.
+**A:** Wenn Sie einen Windows Live Messenger-Benutzer mit einem Konto oder einer ID mit einer nicht-Windows Live-Domäne hinzufügen, geben Sie die Adresse im \<folgenden Format\>ein\<: Benutzer\>Name (Domänenname) @MSN \<. com\> , wobei Domain Name der Domänenname in der e-Mail-Adresse des Benutzers ist. Wenn Sie beispielsweise Ted@contoso.com hinzufügen wollten, verwenden Sie das folgende Format: Ted (contoso. com) @MSN. com. Eine Liste der Domänen, die von Windows Live verwaltet werden, finden Sie im Abschnitt "unterstützte Domänen" unter "bekannte Probleme, die mit öffentlichen Sofortnachrichten nach der Installation von Live Communications Server Service https://support.microsoft.com/?kbid=897567Pack 1 auftreten" unter.
 
 **F: wie lange dauert der Bereitstellung Prozess?**
 

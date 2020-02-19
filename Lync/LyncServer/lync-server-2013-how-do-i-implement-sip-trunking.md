@@ -12,18 +12,18 @@ ms:contentKeyID: 48183666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 062eb44fb79d6ecfa33f449e62341003bbed571b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5e5265f580e3894d0fc8214b974ad03c9559323c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050447"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137986"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="how-do-i-implement-sip-trunking-in-lync-server-2013"></a>Wie kann ich SIP-Trunking in lync Server 2013 implementieren?
 
@@ -153,7 +153,7 @@ Lync Server 2013 unterstützt nur die folgenden Codecs:
 
 ## <a name="internet-telephony-service-provider"></a>Anbieter von Internettelefoniediensten
 
-Die Implementierung der Dienstanbieterseite einer SIP-Trunkverbindung variiert abhängig vom Anbieter von Internettelefoniediensten. Informationen zur Bereitstellung erhalten Sie bei Ihrem Dienstanbieter. Eine Liste der zertifizierten SIP-Trunking-Dienstanbieter finden Sie unter [Microsoft Unified Communications Open Interoperability Program-Website](http://go.microsoft.com/fwlink/?linkid=287029).
+Die Implementierung der Dienstanbieterseite einer SIP-Trunkverbindung variiert abhängig vom Anbieter von Internettelefoniediensten. Informationen zur Bereitstellung erhalten Sie bei Ihrem Dienstanbieter. Eine Liste der zertifizierten SIP-Trunking-Dienstanbieter finden Sie unter [Microsoft Unified Communications Open Interoperability Program-Website](https://go.microsoft.com/fwlink/?linkid=287029).
 
 Ausführliche Informationen zu für Microsoft zertifizierten Anbietern von SIP-Trunking erhalten Sie bei Ihrem Microsoft-Ansprechpartner.
 

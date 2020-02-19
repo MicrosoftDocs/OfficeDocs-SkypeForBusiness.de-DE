@@ -12,18 +12,18 @@ ms:contentKeyID: 48183599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf2366c56c0e749aff208b8471d1db76a1c0ba35
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d1549cb2f71e5f6f0ab1d16907d5e83765780cca
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042212"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137103"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deployment-tasks-for-remote-call-control-in-lync-server-2013"></a>Bereitstellungsaufgaben für die Remoteanrufsteuerung in lync Server 2013
 
@@ -63,7 +63,7 @@ Wenn Sie bereit sind, ein SIP/CSTA-Gateway bereitzustellen, das in lync Server f
 
 Die oben genannten Einstellungen werden während der Benutzerkonfiguration benötigt und müssen wie vom Gateway erwartet angegeben werden, um ein ordnungsgemäßes Routing und eine ordnungsgemäße Verbindungsherstellung mit der Nebenstellenanlage zu gewährleisten.
 
-Weitere Informationen finden Sie unter Anbieter auf der Website "Microsoft Unified Communications Open Interoperability [http://go.microsoft.com/fwlink/p/?linkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309)Program" unter.
+Weitere Informationen finden Sie unter Anbieter auf der Website "Microsoft Unified Communications Open Interoperability [https://go.microsoft.com/fwlink/p/?linkId=203309](https://go.microsoft.com/fwlink/p/?linkid=203309)Program" unter.
 
 </div>
 

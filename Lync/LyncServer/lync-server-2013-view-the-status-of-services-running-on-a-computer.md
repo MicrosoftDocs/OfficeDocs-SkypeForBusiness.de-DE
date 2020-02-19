@@ -12,18 +12,18 @@ ms:contentKeyID: 48185804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2745263bc4a179c9d99bf525aebe72b0cf299e9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: cea9c30dc8a02088c0a02baa9c6d877131360df3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036415"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136643"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="view-the-status-of-services-running-on-a-computer-in-lync-server-2013"></a>Anzeigen des Status von auf einem Computer ausgeführten Diensten in lync Server 2013
 
@@ -63,7 +63,7 @@ Sie können lync Server 2013 Systemsteuerung verwenden, um alle Dienste anzuzeig
 
 ## <a name="viewing-service-status-by-using-windows-powershell-cmdlets"></a>Anzeigen des Dienst Status mithilfe von Windows PowerShell-Cmdlets
 
-Sie können auch den Dienststatus anzeigen, indem Sie Windows PowerShell und das Cmdlet **Get-CsWindowsService** verwenden. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Sie können auch den Dienststatus anzeigen, indem Sie Windows PowerShell und das Cmdlet **Get-CsWindowsService** verwenden. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 

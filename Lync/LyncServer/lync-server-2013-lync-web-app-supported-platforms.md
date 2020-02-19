@@ -12,18 +12,18 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 713a49fc81ba388d01a790ab260adcebbd364c8b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7070dbf25357d886b2e82e4da0140a724cbec853
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030178"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137694"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-web-app-supported-platforms-for-lync-server-2013"></a>Lync Web App unterstützte Plattformen für lync Server 2013
 
@@ -43,7 +43,7 @@ Um lync Web App verwenden zu können, müssen Sie über eine der folgenden unter
 
 
 > [!NOTE]  
-> Ein Plug-in ist für bestimmte lync Web App Features erforderlich, einschließlich computerbasierter sprach-, Video-, Freigabe-und Anzeigefunktionen für die laufende Bildschirmfreigabe. Sie können das Freigabe-Plug-in entweder installieren, wenn Sie an der Besprechung teilnehmen oder eine dieser Funktionen initiieren. 1 <BR>
+> Ein Plug-in ist für bestimmte lync Web App Features erforderlich, einschließlich computerbasierter sprach-, Video-, Freigabe-und Anzeigefunktionen für die laufende Bildschirmfreigabe. Sie können das Freigabe-Plug-in entweder installieren, wenn Sie an der Besprechung teilnehmen oder eine dieser Funktionen initiieren. 1<BR>
 
 
 

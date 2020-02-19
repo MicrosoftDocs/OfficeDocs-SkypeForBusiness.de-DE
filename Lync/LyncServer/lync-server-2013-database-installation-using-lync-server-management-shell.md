@@ -12,18 +12,18 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d46d3bc2ce881edc183e4996c0c71d6a90af4e6a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0797ed44663f8a7b8baab7c3dbe5a3099ceac5fe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044137"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138316"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="database-installation-using-lync-server-management-shell-in-lync-server-2013"></a>Datenbankinstallation mit lync Server-Verwaltungsshell in lync Server 2013
 
@@ -77,7 +77,7 @@ Für die Installation von Datenbanken verwendet **install-CsDatabase** drei prim
 
 1.  Melden Sie sich auf einem beliebigen Computer mit administrativen Anmeldeinformationen für die Erstellung der Datenbanken auf dem SQL Server basierten Server an. Ausführliche Informationen finden Sie unter [Deployment Permissions for SQL Server in lync Server 2013](lync-server-2013-deployment-permissions-for-sql-server.md).
 
-2.  Öffnen Sie die lync Server 2013 Management-Shell. Wenn Sie die Ausführungsrichtlinie für Windows PowerShell nicht angepasst haben, müssen Sie die Richtlinie so anpassen, dass Windows PowerShell Skripts ausgeführt werden können. Ausführliche Informationen finden Sie unter "Überprüfen der Ausführungsrichtlinie" [http://go.microsoft.com/fwlink/p/?linkId=203093](http://go.microsoft.com/fwlink/p/?linkid=203093)unter.
+2.  Öffnen Sie die lync Server 2013 Management-Shell. Wenn Sie die Ausführungsrichtlinie für Windows PowerShell nicht angepasst haben, müssen Sie die Richtlinie so anpassen, dass Windows PowerShell Skripts ausgeführt werden können. Ausführliche Informationen finden Sie unter "Überprüfen der Ausführungsrichtlinie" [https://go.microsoft.com/fwlink/p/?linkId=203093](https://go.microsoft.com/fwlink/p/?linkid=203093)unter.
 
 3.  Verwenden Sie das Cmdlet **install-CsDatabase** , um den zentralen Verwaltungsspeicher zu installieren.
     
@@ -190,7 +190,7 @@ Für die Installation von Datenbanken verwendet **install-CsDatabase** drei prim
     }
     Install-CsDatabase -ConfigureDatabases -SqlServerFqdn sqlbe01.contoso.net -DatabasePathMap $pathmap
     ```
-6.  Da die Datenbank-und Protokolldateien explizit mit ihrem Speicherort auf dem Zieldatenbankserver benannt werden, können Sie bestimmte Speicherorte für die tatsächliche Datenbank und den Protokollspeicherort der einzelnen Diensttypen definieren. Im folgenden Beispiel werden Datenbanken für jeden bestimmten Diensttyp auf separaten Datenträgern und zugeordneten Protokolldateien auf einem anderen platziert. Beispiel:
+6.  Da die Datenbank-und Protokolldateien explizit mit ihrem Speicherort auf dem Zieldatenbankserver benannt werden, können Sie bestimmte Speicherorte für die tatsächliche Datenbank und den Protokollspeicherort der einzelnen Diensttypen definieren. Im folgenden Beispiel werden Datenbanken für jeden bestimmten Diensttyp auf separaten Datenträgern und zugeordneten Protokolldateien auf einem anderen platziert. Zum Beispiel:
     
       - Alle RTC-Datenbanken in "\\D: RTCDatabase"
     

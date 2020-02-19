@@ -12,18 +12,18 @@ ms:contentKeyID: 48183332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2adadafcbb5338f47aa13d25b3dfd39386935b30
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7b6b06b270157bc1aa2387662229dbff3eb8f4d5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044327"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138716"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="using-configxml-to-perform-installation-tasks-in-lync-server-2013"></a>Verwenden von "config. xml" zum Ausführen von Installationsaufgaben in lync Server 2013
 
@@ -131,7 +131,7 @@ Das folgende Beispiel zeigt eine Datei "config. xml" für eine typische automati
       <DistributionPoint Location="\\server\share\Lync15" />
     </Configuration>
 
-Ausführliche Informationen zur Verwendung der Datei "config. xml" zur Durchführung von Office-Installations- <http://go.microsoft.com/fwlink/p/?linkid=267514>und Wartungsaufgaben finden Sie unter.
+Ausführliche Informationen zur Verwendung der Datei "config. xml" zur Durchführung von Office-Installations- <https://go.microsoft.com/fwlink/p/?linkid=267514>und Wartungsaufgaben finden Sie unter.
 
 <div>
 

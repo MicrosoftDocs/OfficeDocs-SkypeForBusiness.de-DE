@@ -12,18 +12,18 @@ ms:contentKeyID: 49733571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f9571f2efe08eb13091c3d3660e7760a8e805c8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 63ca895f455d8da3f6e8edd2e80aacc8a082d147
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007554"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138666"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="using-search-on-capture-logs-created-by-the-centralized-logging-service-in-lync-server-2013"></a>Verwenden der Suche in den vom zentralisierten Protokollierungsdienst in lync Server 2013 erstellten Aufzeichnungs Protokollen
 
@@ -55,7 +55,7 @@ Zum Ausführen der Suchfunktionen für den zentralisierten Protokollierungsdiens
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
-Beispiel:
+Zum Beispiel:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
@@ -80,7 +80,7 @@ Der Rest dieses Artikels befasst sich mit dem Definieren einer Suche zur Optimie
     
     </div>
     
-    Beispiel:
+    Zum Beispiel:
     
         Search-CsClsLogging -OutputFilePath "C:\LogFiles\logfile.txt"
 
@@ -94,7 +94,7 @@ Der Rest dieses Artikels befasst sich mit dem Definieren einer Suche zur Optimie
     
         Search-CsClsLogging -Computers <string value of computer names> -OutputFilePath <string value of path and file to write the output file>
     
-    Beispiel:
+    Zum Beispiel:
     
         Search-CsClsLogging -Computers "fe01.contoso.net" -OutputFilePath "C:\LogFiles\logfile.txt"
 
@@ -104,13 +104,13 @@ Der Rest dieses Artikels befasst sich mit dem Definieren einer Suche zur Optimie
 
 3.  Wenn Sie einen gesamten Pool anstelle eines einzelnen Computers durchsuchen müssen, ändern Sie den Parameter "–Computers" in "–Pools", entfernen Sie den Computernamen, und ersetzen Sie ihn mit den Pools (versehen mit Anführungszeichen und durch Komma getrennt).
     
-    Beispiel:
+    Zum Beispiel:
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
 
 4.  Bei Verwendung der Suchbefehle kann es sich bei Pools um einen beliebigen Pool in der Bereitstellung handeln, beispielsweise um Front-End-Pools, Edge-Pools, Server Pools für beständigen Chat oder andere, die als Pool in der Bereitstellung definiert sind.
     
-    Beispiel:
+    Zum Beispiel:
     
         Search-CsClsLogging -Pools "pool01.contoso.net", "pchatpool01.contoso.net", "intedgepool01.contoso.net" -OutputFilePath "C:\Logfiles\logfile.txt"
 
@@ -139,7 +139,7 @@ Der Rest dieses Artikels befasst sich mit dem Definieren einer Suche zur Optimie
 
 3.  Wenn Sie mit dem Abrufen von Protokollen am 20.11.2012 um 11:00 Uhr beginnen möchten, legen Sie "–StartTime" fest. Der Standardzeitraum für die Suche ist 30 Minuten, es sei denn, Sie legen einen bestimmten Wert für "–EndTime" fest. Die Suche gibt Protokolle der festgelegten Computer oder Pools aus dem Zeitraum zwischen 11:00 Uhr bis 11:30 Uhr zurück.
     
-    Beispiel:
+    Zum Beispiel:
     
         Search-CsClsLogging -Pools "pool01.contoso.net" -StartTime "11/20/2012 11:00:00 AM" -OutputFilePath "C:\Logfiles\logfile.txt"
 

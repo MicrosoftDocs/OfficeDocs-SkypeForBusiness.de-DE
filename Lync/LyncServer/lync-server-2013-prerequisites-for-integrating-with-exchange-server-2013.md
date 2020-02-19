@@ -12,18 +12,18 @@ ms:contentKeyID: 49733853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c92f88d35e573f0914698db28ddcf1fa54967f97
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 686d7d5d65af28127ad95b2911962d707887029a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049857"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139086"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="prerequisites-for-integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Voraussetzungen für die Integration von Microsoft lync Server 2013 und Microsoft Exchange Server 2013
 
@@ -37,9 +37,9 @@ ms.locfileid: "42049857"
 
 _**Letztes Änderungsstand des Themas:** 2014-04-22_
 
-Bevor Sie Microsoft lync Server 2013 und Microsoft Exchange Server 2013 integrieren können, müssen Sie sicherstellen, dass alle erforderlichen Schritte ausgeführt wurden. Wie Sie vielleicht erwarten, kann die Integration erst stattfinden, wenn sowohl Exchange 2013 als auch lync Server 2013 vollständig installiert sind und ausgeführt werden. Ausführliche Informationen zum Installieren von Exchange finden Sie in der Dokumentation zur Exchange 2013 Planung [http://go.microsoft.com/fwlink/p/?LinkId=268539](http://go.microsoft.com/fwlink/p/?linkid=268539)und-Bereitstellung unter. Ausführliche Informationen zum Installieren von lync Server 2013 finden Sie in [http://go.microsoft.com/fwlink/p/?LinkId=254806](http://go.microsoft.com/fwlink/p/?linkid=254806)der Dokumentation zur Planung und Bereitstellung unter.
+Bevor Sie Microsoft lync Server 2013 und Microsoft Exchange Server 2013 integrieren können, müssen Sie sicherstellen, dass alle erforderlichen Schritte ausgeführt wurden. Wie Sie vielleicht erwarten, kann die Integration erst stattfinden, wenn sowohl Exchange 2013 als auch lync Server 2013 vollständig installiert sind und ausgeführt werden. Ausführliche Informationen zum Installieren von Exchange finden Sie in der Dokumentation zur Exchange 2013 Planung [https://go.microsoft.com/fwlink/p/?LinkId=268539](https://go.microsoft.com/fwlink/p/?linkid=268539)und-Bereitstellung unter. Ausführliche Informationen zum Installieren von lync Server 2013 finden Sie in [https://go.microsoft.com/fwlink/p/?LinkId=254806](https://go.microsoft.com/fwlink/p/?linkid=254806)der Dokumentation zur Planung und Bereitstellung unter.
 
-Nachdem die Serverbetriebs bereit sind, müssen Sie sowohl lync Server 2013 als auch Exchange 2013 Server-zu-Server-Authentifizierungszertifikate zuweisen. Diese Zertifikate ermöglichen lync Server und Exchange zum Austausch von Informationen und zur Kommunikation miteinander. Wenn Sie Exchange 2013 installieren, wird ein selbstsigniertes Zertifikat mit dem Namen Exchange Server Authentifizierungszertifikat für Sie erstellt. Dieses Zertifikat, das sich im Zertifikatspeicher des lokalen Computers befindet, sollte für die Server-zu-Server-Authentifizierung in Exchange 2013 verwendet werden. Ausführliche Informationen zum Zuweisen von Zertifikaten in Exchange 2013 finden Sie unter "Konfigurieren des Nachrichtenflusses und des [http://go.microsoft.com/fwlink/p/?LinkId=268540](http://go.microsoft.com/fwlink/p/?linkid=268540)Client Zugriffs" unter.
+Nachdem die Serverbetriebs bereit sind, müssen Sie sowohl lync Server 2013 als auch Exchange 2013 Server-zu-Server-Authentifizierungszertifikate zuweisen. Diese Zertifikate ermöglichen lync Server und Exchange zum Austausch von Informationen und zur Kommunikation miteinander. Wenn Sie Exchange 2013 installieren, wird ein selbstsigniertes Zertifikat mit dem Namen Exchange Server Authentifizierungszertifikat für Sie erstellt. Dieses Zertifikat, das sich im Zertifikatspeicher des lokalen Computers befindet, sollte für die Server-zu-Server-Authentifizierung in Exchange 2013 verwendet werden. Ausführliche Informationen zum Zuweisen von Zertifikaten in Exchange 2013 finden Sie unter "Konfigurieren des Nachrichtenflusses und des [https://go.microsoft.com/fwlink/p/?LinkId=268540](https://go.microsoft.com/fwlink/p/?linkid=268540)Client Zugriffs" unter.
 
 Für lync Server 2013 können Sie ein vorhandenes lync Server Zertifikat als Server-zu-Server-Authentifizierungszertifikat verwenden. Beispielsweise kann Ihr Standardzertifikat auch als OAuthTokenIssuer-Zertifikat verwendet werden. Lync Server 2013 können Sie ein beliebiges Webserverzertifikat als Zertifikat für die Server-zu-Server-Authentifizierung verwenden, vorausgesetzt:
 
@@ -73,7 +73,7 @@ Sie können den URI für den AutoErmittlungsdienst zuweisen, indem Sie einem Bef
 
     Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri "https://autodiscover.litwareinc.com/autodiscover/autodiscover.xml"
 
-Ausführliche Informationen zum AutoErmittlungsdienst finden Sie unter "Understanding the Auto Ermittlungs [http://go.microsoft.com/fwlink/p/?LinkId=268542](http://go.microsoft.com/fwlink/p/?linkid=268542)Service" unter.
+Ausführliche Informationen zum AutoErmittlungsdienst finden Sie unter "Understanding the Auto Ermittlungs [https://go.microsoft.com/fwlink/p/?LinkId=268542](https://go.microsoft.com/fwlink/p/?linkid=268542)Service" unter.
 
 Nachdem Sie den AutoErmittlungsdienst konfiguriert haben, müssen Sie die lync Server Konfigurationseinstellungen für OAuth ändern. Dadurch wird sichergestellt, dass lync Server weiß, wo der AutoErmittlungsdienst zu finden ist. Um die OAuth-Konfigurationseinstellungen in lync Server 2013 zu ändern, führen Sie den folgenden Befehl in der lync Server-Verwaltungsshell aus. Wenn Sie diesen Befehl ausführen, stellen Sie sicher, dass Sie den URI für den AutoErmittlungsdienst auf Ihrem Exchange-Server angeben und dass Sie **autodiscover. svc** verwenden, um auf den Dienst Speicherort zu zeigen, statt **autodiscover. XML** (der auf die vom Dienst verwendete XML-Datei verweist):
 

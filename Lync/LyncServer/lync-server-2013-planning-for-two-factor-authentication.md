@@ -12,18 +12,18 @@ ms:contentKeyID: 54973683
 ms.date: 04/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba76bbc896c1da2929a584611af0607a51d5afcc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b973a1eeb704788eb07e02afc502ac4bbe41544c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050247"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42139276"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="planning-for-two-factor-authentication-in-lync-server-2013"></a>Planen der zweistufigen Authentifizierung in lync Server 2013
 
@@ -192,7 +192,7 @@ Wert: 0x0 festlegen
 
 AD FS 2.0 stellt ein Feature dar, das als Erkennung von Token-Wiedergaben bezeichnet wird, durch das mehrere Token-Anforderungen mit demselben Token erkannt und anschließend verworfen werden können. Wenn dieses Feature aktiviert ist, schützt die Token-Wiedergabeerkennung die Integrität von Authentifizierungsanforderungen sowohl im passiven WS-verbundprofil als auch im SAML-WebSSO-Profil, indem sichergestellt wird, dass das gleiche Token nie mehr als einmal verwendet wird.
 
-Dieses Feature sollte in Situationen aktiviert sein, in denen Sicherheit ein sehr hoher Aspekt ist, beispielsweise bei der Verwendung von Kiosken. Weitere Informationen zur Erkennung von Token-Wiedergabe finden Sie unter Bewährte Methoden für die sichere Planung und bereit [http://go.microsoft.com/fwlink/p/?LinkId=309215](http://go.microsoft.com/fwlink/p/?linkid=309215)Stellung von AD FS 2.0 unter.
+Dieses Feature sollte in Situationen aktiviert sein, in denen Sicherheit ein sehr hoher Aspekt ist, beispielsweise bei der Verwendung von Kiosken. Weitere Informationen zur Erkennung von Token-Wiedergabe finden Sie unter Bewährte Methoden für die sichere Planung und bereit [https://go.microsoft.com/fwlink/p/?LinkId=309215](https://go.microsoft.com/fwlink/p/?linkid=309215)Stellung von AD FS 2.0 unter.
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185281
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a7052109e5fe6bb7bc96a25a7ef443b9e22a07c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3579286f0cf4b77c84baa013aead13b3b671549c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046048"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-or-modify-a-network-region-in-lync-server-2013"></a>Erstellen oder Ändern einer netzwerkregion in lync Server 2013
 
@@ -75,7 +75,7 @@ Erstellen Sie eine Netzwerkregion, die für Anrufsteuerung, E9-1-1 oder Medienum
     
         New-CsNetworkRegion -Identity <String> -CentralSite <String>
     
-    Beispiel:
+    Zum Beispiel:
     
         New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
     

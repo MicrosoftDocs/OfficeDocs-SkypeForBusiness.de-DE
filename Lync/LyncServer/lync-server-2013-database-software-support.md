@@ -12,18 +12,18 @@ ms:contentKeyID: 48185517
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da1ffd79ccfb652c0f853cb027577d477a14d33e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f8134c9ab0fe6cd481116c8a3d17636b04c980e5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044127"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138306"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="database-software-support-in-lync-server-2013"></a>Unterstützung der Datenbanksoftware in lync Server 2013
 
@@ -120,7 +120,7 @@ Die folgende Unterstützung ist enthalten:
 
 Weitere Informationen zur SQL-Spiegelung finden Sie unter [Back End Server High Availability in lync Server 2013](lync-server-2013-back-end-server-high-availability.md). Ausführliche Informationen zum Bereitstellen von SQL-Clustering finden Sie unter [configure SQL Server Clustering for lync Server 2013](lync-server-2013-configure-sql-server-clustering.md).
 
-Weitere Informationen und bewährte Methoden für die Failover-Clusterunterstützung in SQL Server 2012 finden <http://technet.microsoft.com/library/hh231721.aspx>Sie unter. Informationen zur Failover-Clusterunterstützung in SQL Server 2008 <http://technet.microsoft.com/library/ms189134(v=sql.105).aspx>finden Sie unter.
+Weitere Informationen und bewährte Methoden für die Failover-Clusterunterstützung in SQL Server 2012 finden <https://technet.microsoft.com/library/hh231721.aspx>Sie unter. Informationen zur Failover-Clusterunterstützung in SQL Server 2008 <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>finden Sie unter.
 
 </div>
 

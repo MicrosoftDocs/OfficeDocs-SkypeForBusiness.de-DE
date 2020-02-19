@@ -12,18 +12,18 @@ ms:contentKeyID: 48185795
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4baa6f18e92eb284cce8610ba576b30dd6d2f320
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e7e165efe4e9b679c5464a35aac1c4130840b801
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042612"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42136242"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enable-lync-users-for-remote-call-control-in-lync-server-2013"></a>Aktivieren von lync-Benutzern für die Remoteanrufsteuerung in lync Server 2013
 
@@ -39,7 +39,7 @@ _**Letztes Änderungsstand des Themas:** 2012-09-21_
 
 Sie können lync-Benutzer für die Remoteanrufsteuerung mithilfe von in-Band-Bereitstellung-Richtlinien konfigurieren, die Server basiert sind. Sie können die Einstellungen für die in-Band-Konfiguration mithilfe von lync Server-Systemsteuerung oder der lync Server-Verwaltungsshell Befehlszeilenschnittstelle verwalten. Diese Tools ersetzen das WMI-Snap-in (Windows Management Instrumentation), das zum Verwalten von Gruppenrichtlinieneinstellungen in früheren Versionen verwendet wurde.
 
-Wenn Sie es vorziehen, Benutzern die Konfiguration Ihrer eigenen Einstellungen für die Remoteanrufsteuerung in lync zu ermöglichen, können Sie die Einstellungen für die Remoteanrufsteuerung für Benutzer auf dem Server konfigurieren, ohne den URI und die Werte für den **Anschluss** - **URI** anzugeben. Stellen Sie sicher, dass Sie den entsprechenden **Anschluss Server-URI** und die Werte für den **Anschluss-URI** Ihren Benutzern mitteilen, und geben Sie den Benutzern Anweisungen zum Konfigurieren dieser Einstellungen. Informationen zum manuellen Konfigurieren der Remoteanrufsteuerung in lync Server finden Sie unter "Festlegen von Telefonnummern" <http://go.microsoft.com/fwlink/p/?linkid=210132> in der lync-Client Dokumentation auf der Microsoft Office Website.
+Wenn Sie es vorziehen, Benutzern die Konfiguration Ihrer eigenen Einstellungen für die Remoteanrufsteuerung in lync zu ermöglichen, können Sie die Einstellungen für die Remoteanrufsteuerung für Benutzer auf dem Server konfigurieren, ohne den URI und die Werte für den **Anschluss** - **URI** anzugeben. Stellen Sie sicher, dass Sie den entsprechenden **Anschluss Server-URI** und die Werte für den **Anschluss-URI** Ihren Benutzern mitteilen, und geben Sie den Benutzern Anweisungen zum Konfigurieren dieser Einstellungen. Informationen zum manuellen Konfigurieren der Remoteanrufsteuerung in lync Server finden Sie unter "Festlegen von Telefonnummern" <https://go.microsoft.com/fwlink/p/?linkid=210132> in der lync-Client Dokumentation auf der Microsoft Office Website.
 
 Wenn Sie über eine vorhandene Communications Server 2007 R2-oder Communications Server 2007-Bereitstellung verfügen, verwenden Communicator 2007 R2 und Communicator 2007 Clients weiterhin Gruppenrichtlinien während der parallelen Migration. Wenn Sie jedoch möchten, dass Richtlinieneinstellungen auf lync-Clients übertragen werden, müssen Sie die entsprechenden lync Server Einstellungen für die in-Band-Konfiguration konfigurieren.
 
@@ -65,7 +65,7 @@ Wenn Sie über eine vorhandene Communications Server 2007 R2-oder Communications
     
         Set-CsUser -Identity <User ID> -EnterpriseVoiceEnabled $false -LineServerUri <SIP URI of the SIP/CSTA gateway> -LineUri <TEL URI of the user> -RemoteCallControlTelephonyEnabled $true
     
-    Beispiel:
+    Zum Beispiel:
     
         Set-CsUser -Identity "Katie Jordan" -EnterpriseVoiceEnabled $false -LineServerUri sip:rccgateway@contoso.net -LineUri tel:+14255550150 -RemoteCallControlTelephonyEnabled $true
 

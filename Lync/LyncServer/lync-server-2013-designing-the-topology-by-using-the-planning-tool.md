@@ -12,18 +12,18 @@ ms:contentKeyID: 51541454
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bca2871acdaf67e318e7e402d78f34748de4b722
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 848ff87194d6a8a6c6cf23b42fcab4d05e41942d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051519"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42137053"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="designing-the-topology-for-lync-server-2013-by-using-the-planning-tool"></a>Entwerfen der Topologie für lync Server 2013 mithilfe des Planungstools
 
@@ -37,7 +37,7 @@ ms.locfileid: "42051519"
 
 _**Letztes Änderungsstand des Themas:** 2013-03-04_
 
-Das Microsoft lync Server 2013 Planungstool ist ein Assistenten gesteuertes, Interview artiges Tool, das Fragen zur lync Server 2013 Topologie stellt, die Sie entwerfen. Das Planungs Tool verwendet die bereitgestellten Informationen in Verbindung mit bevorzugten Methoden für den Entwurf und die Kapazität der Topologie, um eine empfohlene Topologie basierend auf den bereitgestellten Antworten zu präsentieren. Sie können das Planungs Tool aus dem Microsoft Download Center herunterladen[http://go.microsoft.com/fwlink/?LinkID=282725](http://go.microsoft.com/fwlink/?linkid=282725)().
+Das Microsoft lync Server 2013 Planungstool ist ein Assistenten gesteuertes, Interview artiges Tool, das Fragen zur lync Server 2013 Topologie stellt, die Sie entwerfen. Das Planungs Tool verwendet die bereitgestellten Informationen in Verbindung mit bevorzugten Methoden für den Entwurf und die Kapazität der Topologie, um eine empfohlene Topologie basierend auf den bereitgestellten Antworten zu präsentieren. Sie können das Planungs Tool aus dem Microsoft Download Center herunterladen[https://go.microsoft.com/fwlink/?LinkID=282725](https://go.microsoft.com/fwlink/?linkid=282725)().
 
 Letztendlich besteht das Ziel des Planungstools darin, die potenzielle Komplexität beim Entwurf einer vollständigen lync Server 2013 Topologie zu verringern. Das Tool stellt außerdem kontextbezogene Verweise auf die im Tool enthaltene Planungs- und Bereitstellungsdokumentation bereit, sofern eine Internetverbindung zur Microsoft TechNet-Website verfügbar ist.
 

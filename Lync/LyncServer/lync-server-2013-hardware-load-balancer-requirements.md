@@ -12,18 +12,18 @@ ms:contentKeyID: 49287208
 ms.date: 05/11/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c89c600c822bc4e830bf60ed8131f747172018e2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d54ad738824b2ccaa4daf7f67758a970c24cee6a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030318"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138026"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="hardware-load-balancer-requirements-for-lync-server-2013"></a>Anforderungen an das Hardware Gerät zum Lastenausgleich für lync Server 2013
 
@@ -75,7 +75,7 @@ Die lync Server 2013 skalierte konsolidierte Edge-Topologie ist für den DNS-Las
 
 </div>
 
-Informationen zum ermitteln, ob Ihr Hardwaregerät zum Lastenausgleich die für lync Server 2013 erforderlichen Features unterstützt, finden Sie unter " [http://go.microsoft.com/fwlink/p/?linkId=202452](http://go.microsoft.com/fwlink/p/?linkid=202452)lync Server 2010 Lastenausgleichs Partner" unter.
+Informationen zum ermitteln, ob Ihr Hardwaregerät zum Lastenausgleich die für lync Server 2013 erforderlichen Features unterstützt, finden Sie unter " [https://go.microsoft.com/fwlink/p/?linkId=202452](https://go.microsoft.com/fwlink/p/?linkid=202452)lync Server 2010 Lastenausgleichs Partner" unter.
 
 <div>
 
@@ -143,7 +143,7 @@ Wenn Sie mobile Geräte bereitstellen, muss das Hardwaregerät zum Lastenausglei
 
 
 > [!WARNING]  
-> F5-Hardwaregeräte zum Lastenausgleich sind mit einem Feature namens OneConnect ausgestattet, mit dem sichergestellt wird, dass für jede Anforderung in einer TCP-Verbindung ein individueller Lastenausgleich vorgenommen wird. Wenn Sie mobile Geräte bereitstellen, stellen Sie sicher, dass der Hersteller des Hardwaregeräts für den Lastenausgleich dieselbe Funktion unterstützt). Für die neuesten mobilen Apps für Apple iOS ist Transport Layer Security (TLS) Version 1.2 erforderlich. F5 stellt hierfür bestimmte Einstellungen bereit.<BR>Ausführliche Informationen zu Lastenausgleichsgeräten von Drittanbietern finden Sie unter<A href="http://go.microsoft.com/fwlink/p/?linkid=230700">http://go.microsoft.com/fwlink/p/?linkId=230700</A>
+> F5-Hardwaregeräte zum Lastenausgleich sind mit einem Feature namens OneConnect ausgestattet, mit dem sichergestellt wird, dass für jede Anforderung in einer TCP-Verbindung ein individueller Lastenausgleich vorgenommen wird. Wenn Sie mobile Geräte bereitstellen, stellen Sie sicher, dass der Hersteller des Hardwaregeräts für den Lastenausgleich dieselbe Funktion unterstützt). Für die neuesten mobilen Apps für Apple iOS ist Transport Layer Security (TLS) Version 1.2 erforderlich. F5 stellt hierfür bestimmte Einstellungen bereit.<BR>Ausführliche Informationen zu Lastenausgleichsgeräten von Drittanbietern finden Sie unter<A href="https://go.microsoft.com/fwlink/p/?linkid=230700">https://go.microsoft.com/fwlink/p/?linkId=230700</A>
 
 
 
