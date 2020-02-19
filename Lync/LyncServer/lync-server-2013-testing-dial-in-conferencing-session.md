@@ -12,20 +12,20 @@ ms:contentKeyID: 63969613
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d83d3c3fe933a4538d9c2508668497af42c3340
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 11a5126d0555e39c5e0c4637a70939227c787299
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046588"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141441"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-dial-in-conferencing-session-in-lync-server-2013"></a><span data-ttu-id="d0d18-102">Testen der Einwahlkonferenz Sitzung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d0d18-102">Testing dial-in conferencing session in Lync Server 2013</span></span>
+# <a name="testing-dial-in-conferencing-session-in-lync-server-2013"></a><span data-ttu-id="30694-102">Testen der Einwahlkonferenz Sitzung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="30694-102">Testing dial-in conferencing session in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "42046588"
 
 <span> </span>
 
-<span data-ttu-id="d0d18-103">_**Letztes Änderungsstand des Themas:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="d0d18-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="30694-103">_**Letztes Änderungsstand des Themas:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="30694-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "42046588"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d0d18-104">Überprüfungszeitplan</span><span class="sxs-lookup"><span data-stu-id="d0d18-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="d0d18-105">Täglich</span><span class="sxs-lookup"><span data-stu-id="d0d18-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="30694-104">Überprüfungszeitplan</span><span class="sxs-lookup"><span data-stu-id="30694-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="30694-105">Täglich</span><span class="sxs-lookup"><span data-stu-id="30694-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d0d18-106">Test Tool</span><span class="sxs-lookup"><span data-stu-id="d0d18-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="d0d18-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="d0d18-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="30694-106">Test Tool</span><span class="sxs-lookup"><span data-stu-id="30694-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="30694-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="30694-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d0d18-108">Erforderliche Berechtigungen</span><span class="sxs-lookup"><span data-stu-id="d0d18-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="d0d18-109">Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</span><span class="sxs-lookup"><span data-stu-id="d0d18-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="d0d18-110">Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsDialInConferencing verfügt.</span><span class="sxs-lookup"><span data-stu-id="d0d18-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsDialInConferencing cmdlet.</span></span> <span data-ttu-id="d0d18-111">Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</span><span class="sxs-lookup"><span data-stu-id="d0d18-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="30694-108">Erforderliche Berechtigungen</span><span class="sxs-lookup"><span data-stu-id="30694-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="30694-109">Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</span><span class="sxs-lookup"><span data-stu-id="30694-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="30694-110">Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsDialInConferencing verfügt.</span><span class="sxs-lookup"><span data-stu-id="30694-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsDialInConferencing cmdlet.</span></span> <span data-ttu-id="30694-111">Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</span><span class="sxs-lookup"><span data-stu-id="30694-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDialInConferencing&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,64 +64,64 @@ ms.locfileid: "42046588"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="d0d18-112">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="d0d18-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="30694-112">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="30694-112">Description</span></span>
 
-<span data-ttu-id="d0d18-113">Das Cmdlet Test-CsDialInConferencing überprüft, ob ein Benutzer an einer Einwahlkonferenz teilnehmen kann.</span><span class="sxs-lookup"><span data-stu-id="d0d18-113">The Test-CsDialInConferencing cmdlet verifies whether a user can participate in a dial-in conference.</span></span> <span data-ttu-id="d0d18-114">Test-CsDialInConferencing funktioniert, indem versucht wird, einen Testbenutzer auf dem System zu protokollieren.</span><span class="sxs-lookup"><span data-stu-id="d0d18-114">Test-CsDialInConferencing works by trying to log a test user onto the system.</span></span> <span data-ttu-id="d0d18-115">Wenn die Anmeldung erfolgreich verläuft, verwendet das Cmdlet dann die Anmeldeinformationen und Berechtigungen des Benutzers, um alle verfügbaren Zugriffsnummern für Einwahlkonferenzen zu testen.</span><span class="sxs-lookup"><span data-stu-id="d0d18-115">If the logon succeeds, the cmdlet will then use the user’s credentials and permissions to try all of the available dial-in conferencing access numbers.</span></span> <span data-ttu-id="d0d18-116">Der Erfolg oder Misserfolg der einzelnen Einwahl Versuche wird notiert, dann wird der Testbenutzer von lync Server abgemeldet. Test-CsDialInConferencing nur überprüft, ob die entsprechenden Verbindungen hergestellt werden können.</span><span class="sxs-lookup"><span data-stu-id="d0d18-116">The success or failure of each dial-in try will be noted, then the test user will be logged off from Lync Server.Test-CsDialInConferencing only verifies that the appropriate connections can be made.</span></span> <span data-ttu-id="d0d18-117">Das Cmdlet tätigt keine echten Anrufe und erstellt keine Einwahlkonferenzen, an denen andere Benutzer teilnehmen können.</span><span class="sxs-lookup"><span data-stu-id="d0d18-117">The cmdlet does not actually make any phone calls or create any dial-in conferences that other users can join.</span></span>
+<span data-ttu-id="30694-113">Das Cmdlet Test-CsDialInConferencing überprüft, ob ein Benutzer an einer Einwahlkonferenz teilnehmen kann.</span><span class="sxs-lookup"><span data-stu-id="30694-113">The Test-CsDialInConferencing cmdlet verifies whether a user can participate in a dial-in conference.</span></span> <span data-ttu-id="30694-114">Test-CsDialInConferencing funktioniert, indem versucht wird, einen Testbenutzer auf dem System zu protokollieren.</span><span class="sxs-lookup"><span data-stu-id="30694-114">Test-CsDialInConferencing works by trying to log a test user onto the system.</span></span> <span data-ttu-id="30694-115">Wenn die Anmeldung erfolgreich verläuft, verwendet das Cmdlet dann die Anmeldeinformationen und Berechtigungen des Benutzers, um alle verfügbaren Zugriffsnummern für Einwahlkonferenzen zu testen.</span><span class="sxs-lookup"><span data-stu-id="30694-115">If the logon succeeds, the cmdlet will then use the user’s credentials and permissions to try all of the available dial-in conferencing access numbers.</span></span> <span data-ttu-id="30694-116">Der Erfolg oder Misserfolg der einzelnen Einwahl Versuche wird notiert, dann wird der Testbenutzer von lync Server abgemeldet. Test-CsDialInConferencing nur überprüft, ob die entsprechenden Verbindungen hergestellt werden können.</span><span class="sxs-lookup"><span data-stu-id="30694-116">The success or failure of each dial-in try will be noted, then the test user will be logged off from Lync Server.Test-CsDialInConferencing only verifies that the appropriate connections can be made.</span></span> <span data-ttu-id="30694-117">Das Cmdlet tätigt keine echten Anrufe und erstellt keine Einwahlkonferenzen, an denen andere Benutzer teilnehmen können.</span><span class="sxs-lookup"><span data-stu-id="30694-117">The cmdlet does not actually make any phone calls or create any dial-in conferences that other users can join.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="d0d18-118">Durchführen des Tests</span><span class="sxs-lookup"><span data-stu-id="d0d18-118">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="30694-118">Durchführen des Tests</span><span class="sxs-lookup"><span data-stu-id="30694-118">Running the test</span></span>
 
-<span data-ttu-id="d0d18-119">Das Cmdlet Test-CsDialInConferencing kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten zum Ausführen lync Server Tests) oder nach dem Konto eines beliebigen Benutzers, der für lync Server aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="d0d18-119">The Test-CsDialInConferencing cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server.</span></span> <span data-ttu-id="d0d18-120">Um diese Prüfung mit einem Test Konto auszuführen, müssen Sie lediglich den FQDN des lync Server Pools angeben, der getestet werden soll.</span><span class="sxs-lookup"><span data-stu-id="d0d18-120">To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="d0d18-121">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="d0d18-121">For example:</span></span>
+<span data-ttu-id="30694-119">Das Cmdlet Test-CsDialInConferencing kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten zum Ausführen lync Server Tests) oder nach dem Konto eines beliebigen Benutzers, der für lync Server aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="30694-119">The Test-CsDialInConferencing cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server.</span></span> <span data-ttu-id="30694-120">Um diese Prüfung mit einem Test Konto auszuführen, müssen Sie lediglich den FQDN des lync Server Pools angeben, der getestet werden soll.</span><span class="sxs-lookup"><span data-stu-id="30694-120">To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested.</span></span> <span data-ttu-id="30694-121">Zum Beispiel:</span><span class="sxs-lookup"><span data-stu-id="30694-121">For example:</span></span>
 
     Test-CsDialInConferencing -TargetFqdn "atl-cs-001.litwareinc.com" 
 
-<span data-ttu-id="d0d18-122">Um diese Prüfung mit einem tatsächlichen Benutzerkonto auszuführen, müssen Sie ein Windows PowerShell Credentials-Objekt erstellen, das den Kontonamen und das Kennwort enthält.</span><span class="sxs-lookup"><span data-stu-id="d0d18-122">To run this check using an actual user account, you must create a Windows PowerShell credentials object that contains the account name and password.</span></span> <span data-ttu-id="d0d18-123">Anschließend müssen Sie das Credentials-Objekt und die SIP-Adresse des Kontos zum aufrufenden Test-CsDialInConferencing hinzufügen:</span><span class="sxs-lookup"><span data-stu-id="d0d18-123">You must then include that credentials object and the account SIP address the calling Test-CsDialInConferencing:</span></span>
+<span data-ttu-id="30694-122">Um diese Prüfung mit einem tatsächlichen Benutzerkonto auszuführen, müssen Sie ein Windows PowerShell Credentials-Objekt erstellen, das den Kontonamen und das Kennwort enthält.</span><span class="sxs-lookup"><span data-stu-id="30694-122">To run this check using an actual user account, you must create a Windows PowerShell credentials object that contains the account name and password.</span></span> <span data-ttu-id="30694-123">Anschließend müssen Sie das Credentials-Objekt und die SIP-Adresse des Kontos zum aufrufenden Test-CsDialInConferencing hinzufügen:</span><span class="sxs-lookup"><span data-stu-id="30694-123">You must then include that credentials object and the account SIP address the calling Test-CsDialInConferencing:</span></span>
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsDialInConferencing -TargetFqdn atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-<span data-ttu-id="d0d18-124">Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/Test-CsDialInConferencing) .</span><span class="sxs-lookup"><span data-stu-id="d0d18-124">For more information, see the Help documentation for the [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/Test-CsDialInConferencing) cmdlet.</span></span>
+<span data-ttu-id="30694-124">Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/Test-CsDialInConferencing) .</span><span class="sxs-lookup"><span data-stu-id="30694-124">For more information, see the Help documentation for the [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/Test-CsDialInConferencing) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="d0d18-125">Bestimmen des Erfolgs oder Fehlers</span><span class="sxs-lookup"><span data-stu-id="d0d18-125">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="30694-125">Bestimmen des Erfolgs oder Fehlers</span><span class="sxs-lookup"><span data-stu-id="30694-125">Determining success or failure</span></span>
 
-<span data-ttu-id="d0d18-126">Wenn sich der angegebene Benutzer bei lync Server anmelden und dann eine Verbindung mit einer der verfügbaren Zugriffsnummern für Einwahlkonferenzen herstellen kann, erhalten Sie eine ähnliche Ausgabe, wobei die Result-Eigenschaft als "Success" markiert ist **:**</span><span class="sxs-lookup"><span data-stu-id="d0d18-126">If the specified user can log on to Lync Server and then make a connection using one of the available dial-in conferencing access numbers, then you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
+<span data-ttu-id="30694-126">Wenn sich der angegebene Benutzer bei lync Server anmelden und dann eine Verbindung mit einer der verfügbaren Zugriffsnummern für Einwahlkonferenzen herstellen kann, erhalten Sie eine ähnliche Ausgabe, wobei die Result-Eigenschaft als "Success" markiert ist **:**</span><span class="sxs-lookup"><span data-stu-id="30694-126">If the specified user can log on to Lync Server and then make a connection using one of the available dial-in conferencing access numbers, then you'll receive output similar to this, with the Result property marked as **Success:**</span></span>
 
-<span data-ttu-id="d0d18-127">TargetFqdn: ATL-CS-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="d0d18-127">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="30694-127">TargetFqdn: ATL-CS-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="30694-127">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="d0d18-128">Ergebnis: Success</span><span class="sxs-lookup"><span data-stu-id="d0d18-128">Result : Success</span></span>
+<span data-ttu-id="30694-128">Ergebnis: Success</span><span class="sxs-lookup"><span data-stu-id="30694-128">Result : Success</span></span>
 
-<span data-ttu-id="d0d18-129">Wartezeit: 00:00:06.8630376</span><span class="sxs-lookup"><span data-stu-id="d0d18-129">Latency : 00:00:06.8630376</span></span>
+<span data-ttu-id="30694-129">Wartezeit: 00:00:06.8630376</span><span class="sxs-lookup"><span data-stu-id="30694-129">Latency : 00:00:06.8630376</span></span>
 
-<span data-ttu-id="d0d18-130">Fehler</span><span class="sxs-lookup"><span data-stu-id="d0d18-130">Error :</span></span>
+<span data-ttu-id="30694-130">Fehler</span><span class="sxs-lookup"><span data-stu-id="30694-130">Error :</span></span>
 
-<span data-ttu-id="d0d18-131">Diagnose</span><span class="sxs-lookup"><span data-stu-id="d0d18-131">Diagnosis :</span></span>
+<span data-ttu-id="30694-131">Diagnose</span><span class="sxs-lookup"><span data-stu-id="30694-131">Diagnosis :</span></span>
 
-<span data-ttu-id="d0d18-132">Wenn der angegebene Benutzer diese Verbindung nicht herstellen kann, wird das Ergebnis als Fehler angezeigt, und in den Eigenschaften Error und Diagnostic werden zusätzliche Informationen aufgezeichnet:</span><span class="sxs-lookup"><span data-stu-id="d0d18-132">If the specified user can't make this connection, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="30694-132">Wenn der angegebene Benutzer diese Verbindung nicht herstellen kann, wird das Ergebnis als Fehler angezeigt, und in den Eigenschaften Error und Diagnostic werden zusätzliche Informationen aufgezeichnet:</span><span class="sxs-lookup"><span data-stu-id="30694-132">If the specified user can't make this connection, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="d0d18-133">TargetFqdn: ATL-CS-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="d0d18-133">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="30694-133">TargetFqdn: ATL-CS-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="30694-133">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="d0d18-134">Ergebnis: Fehler</span><span class="sxs-lookup"><span data-stu-id="d0d18-134">Result : Failure</span></span>
+<span data-ttu-id="30694-134">Ergebnis: Fehler</span><span class="sxs-lookup"><span data-stu-id="30694-134">Result : Failure</span></span>
 
-<span data-ttu-id="d0d18-135">Wartezeit: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="d0d18-135">Latency : 00:00:00</span></span>
+<span data-ttu-id="30694-135">Wartezeit: 00:00:00</span><span class="sxs-lookup"><span data-stu-id="30694-135">Latency : 00:00:00</span></span>
 
-<span data-ttu-id="d0d18-136">Fehler: das Anmelden wurde verweigert.</span><span class="sxs-lookup"><span data-stu-id="d0d18-136">Error : The log on was denied.</span></span> <span data-ttu-id="d0d18-137">Stellen Sie sicher, dass die richtigen Anmeldeinformationen</span><span class="sxs-lookup"><span data-stu-id="d0d18-137">Check that the proper credentials are</span></span>
+<span data-ttu-id="30694-136">Fehler: das Anmelden wurde verweigert.</span><span class="sxs-lookup"><span data-stu-id="30694-136">Error : The log on was denied.</span></span> <span data-ttu-id="30694-137">Stellen Sie sicher, dass die richtigen Anmeldeinformationen</span><span class="sxs-lookup"><span data-stu-id="30694-137">Check that the proper credentials are</span></span>
 
-<span data-ttu-id="d0d18-138">verwendet wird und das Konto aktiv ist.</span><span class="sxs-lookup"><span data-stu-id="d0d18-138">being used and the account is active.</span></span>
+<span data-ttu-id="30694-138">verwendet wird und das Konto aktiv ist.</span><span class="sxs-lookup"><span data-stu-id="30694-138">being used and the account is active.</span></span>
 
-<span data-ttu-id="d0d18-139">Innere Ausnahme: NegotiateSecurityAssociation fehlgeschlagen, Fehler:-</span><span class="sxs-lookup"><span data-stu-id="d0d18-139">Inner Exception:NegotiateSecurityAssociation failed, error: -</span></span>
+<span data-ttu-id="30694-139">Innere Ausnahme: NegotiateSecurityAssociation fehlgeschlagen, Fehler:-</span><span class="sxs-lookup"><span data-stu-id="30694-139">Inner Exception:NegotiateSecurityAssociation failed, error: -</span></span>
 
-<span data-ttu-id="d0d18-140">2146893044</span><span class="sxs-lookup"><span data-stu-id="d0d18-140">2146893044</span></span>
+<span data-ttu-id="30694-140">2146893044</span><span class="sxs-lookup"><span data-stu-id="30694-140">2146893044</span></span>
 
-<span data-ttu-id="d0d18-141">Diagnose</span><span class="sxs-lookup"><span data-stu-id="d0d18-141">Diagnosis :</span></span>
+<span data-ttu-id="30694-141">Diagnose</span><span class="sxs-lookup"><span data-stu-id="30694-141">Diagnosis :</span></span>
 
-<span data-ttu-id="d0d18-142">Die vorherige Ausgabe gibt an, dass dem Testbenutzer der Zugriff auf lync Server selbst verweigert wurde.</span><span class="sxs-lookup"><span data-stu-id="d0d18-142">The previous output indicates that the test user was denied access to Lync Server itself.</span></span> <span data-ttu-id="d0d18-143">Dies bedeutet normalerweise, dass die an Test-CsDialInConferencing übergebenen Benutzeranmeldeinformationen ungültig waren.</span><span class="sxs-lookup"><span data-stu-id="d0d18-143">This typically means that the user credentials passed to Test-CsDialInConferencing were not valid.</span></span> <span data-ttu-id="d0d18-144">Sie sollten wiederum das Windows PowerShell Credentials-Objekt neu erstellen.</span><span class="sxs-lookup"><span data-stu-id="d0d18-144">In turn, you should re-create the Windows PowerShell credentials object.</span></span> <span data-ttu-id="d0d18-145">Obwohl Sie das Kennwort für das Benutzerkonto abrufen können, können Sie die SIP-Adresse überprüfen, indem Sie einen Befehl wie den folgenden verwenden:</span><span class="sxs-lookup"><span data-stu-id="d0d18-145">Although you can retrieve the password for the user account, you can verify the SIP address by using a command similar to this:</span></span>
+<span data-ttu-id="30694-142">Die vorherige Ausgabe gibt an, dass dem Testbenutzer der Zugriff auf lync Server selbst verweigert wurde.</span><span class="sxs-lookup"><span data-stu-id="30694-142">The previous output indicates that the test user was denied access to Lync Server itself.</span></span> <span data-ttu-id="30694-143">Dies bedeutet normalerweise, dass die an Test-CsDialInConferencing übergebenen Benutzeranmeldeinformationen ungültig waren.</span><span class="sxs-lookup"><span data-stu-id="30694-143">This typically means that the user credentials passed to Test-CsDialInConferencing were not valid.</span></span> <span data-ttu-id="30694-144">Sie sollten wiederum das Windows PowerShell Credentials-Objekt neu erstellen.</span><span class="sxs-lookup"><span data-stu-id="30694-144">In turn, you should re-create the Windows PowerShell credentials object.</span></span> <span data-ttu-id="30694-145">Obwohl Sie das Kennwort für das Benutzerkonto abrufen können, können Sie die SIP-Adresse überprüfen, indem Sie einen Befehl wie den folgenden verwenden:</span><span class="sxs-lookup"><span data-stu-id="30694-145">Although you can retrieve the password for the user account, you can verify the SIP address by using a command similar to this:</span></span>
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object SipAddress
 
@@ -129,21 +129,21 @@ ms.locfileid: "42046588"
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="d0d18-146">Gründe, warum der Test fehlgeschlagen ist</span><span class="sxs-lookup"><span data-stu-id="d0d18-146">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="30694-146">Gründe, warum der Test fehlgeschlagen ist</span><span class="sxs-lookup"><span data-stu-id="30694-146">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="d0d18-147">Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsDialInConferencing möglicherweise fehlschlägt:</span><span class="sxs-lookup"><span data-stu-id="d0d18-147">Here are some common reasons why Test-CsDialInConferencing might fail:</span></span>
+<span data-ttu-id="30694-147">Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsDialInConferencing möglicherweise fehlschlägt:</span><span class="sxs-lookup"><span data-stu-id="30694-147">Here are some common reasons why Test-CsDialInConferencing might fail:</span></span>
 
-  - <span data-ttu-id="d0d18-148">Sie haben ein ungültiges Benutzerkonto angegeben.</span><span class="sxs-lookup"><span data-stu-id="d0d18-148">You specified a user account that is not valid.</span></span> <span data-ttu-id="d0d18-149">Sie können überprüfen, ob ein Benutzerkonto vorhanden ist, indem Sie einen Befehl wie den folgenden ausführen:</span><span class="sxs-lookup"><span data-stu-id="d0d18-149">You can verify that a user account exists by running a command similar to this:</span></span>
+  - <span data-ttu-id="30694-148">Sie haben ein ungültiges Benutzerkonto angegeben.</span><span class="sxs-lookup"><span data-stu-id="30694-148">You specified a user account that is not valid.</span></span> <span data-ttu-id="30694-149">Sie können überprüfen, ob ein Benutzerkonto vorhanden ist, indem Sie einen Befehl wie den folgenden ausführen:</span><span class="sxs-lookup"><span data-stu-id="30694-149">You can verify that a user account exists by running a command similar to this:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - <span data-ttu-id="d0d18-150">Das Benutzerkonto ist gültig, aber das Konto ist derzeit nicht für lync Server aktiviert.</span><span class="sxs-lookup"><span data-stu-id="d0d18-150">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="d0d18-151">Um zu überprüfen, ob ein Benutzerkonto für lync Server aktiviert ist, führen Sie einen Befehl wie den folgenden aus:</span><span class="sxs-lookup"><span data-stu-id="d0d18-151">To verify that a user account is enabled for Lync Server, run a command similar to the following:</span></span>
+  - <span data-ttu-id="30694-150">Das Benutzerkonto ist gültig, aber das Konto ist derzeit nicht für lync Server aktiviert.</span><span class="sxs-lookup"><span data-stu-id="30694-150">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="30694-151">Um zu überprüfen, ob ein Benutzerkonto für lync Server aktiviert ist, führen Sie einen Befehl wie den folgenden aus:</span><span class="sxs-lookup"><span data-stu-id="30694-151">To verify that a user account is enabled for Lync Server, run a command similar to the following:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    <span data-ttu-id="d0d18-152">Wenn die Enabled-Eigenschaft auf false festgelegt ist, bedeutet dies, dass der Benutzer derzeit nicht für lync Server aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="d0d18-152">If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.</span></span>
+    <span data-ttu-id="30694-152">Wenn die Enabled-Eigenschaft auf false festgelegt ist, bedeutet dies, dass der Benutzer derzeit nicht für lync Server aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="30694-152">If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.</span></span>
 
-  - <span data-ttu-id="d0d18-153">Möglicherweise verfügen Sie über eine falsche Zugriffsnummer für Einwahlkonferenzen.</span><span class="sxs-lookup"><span data-stu-id="d0d18-153">You might have an incorrect dial-in conferencing access number.</span></span> <span data-ttu-id="d0d18-154">Sie können die aktuell konfigurierte Liste der Zugriffsnummern für Einwahlkonferenzen mithilfe dieses Befehls zurückgeben:</span><span class="sxs-lookup"><span data-stu-id="d0d18-154">You can return your currently-configured list of dial-in conferencing access numbers by using this command:</span></span>
+  - <span data-ttu-id="30694-153">Möglicherweise verfügen Sie über eine falsche Zugriffsnummer für Einwahlkonferenzen.</span><span class="sxs-lookup"><span data-stu-id="30694-153">You might have an incorrect dial-in conferencing access number.</span></span> <span data-ttu-id="30694-154">Sie können die aktuell konfigurierte Liste der Zugriffsnummern für Einwahlkonferenzen mithilfe dieses Befehls zurückgeben:</span><span class="sxs-lookup"><span data-stu-id="30694-154">You can return your currently-configured list of dial-in conferencing access numbers by using this command:</span></span>
     
         Get-CsDialConferencingAccessNumber
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 63969657
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a55593bee333d03c71522bdd0a39cc91cb60882
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7f9115e6bc0c65f589effc08ecd5f7b681208a54
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037057"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141471"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-civic-addresses-against-the-master-street-address-guide-in-lync-server-2013"></a><span data-ttu-id="2087b-102">Testen von Civic addresses anhand der Master Street Address Guide in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2087b-102">Testing civic addresses against the master street address guide in Lync Server 2013</span></span>
+# <a name="testing-civic-addresses-against-the-master-street-address-guide-in-lync-server-2013"></a><span data-ttu-id="d5a03-102">Testen von Civic addresses anhand der Master Street Address Guide in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d5a03-102">Testing civic addresses against the master street address guide in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "42037057"
 
 <span> </span>
 
-<span data-ttu-id="2087b-103">_**Letztes Änderungsstand des Themas:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="2087b-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="d5a03-103">_**Letztes Änderungsstand des Themas:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="d5a03-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "42037057"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2087b-104">Überprüfungszeitplan</span><span class="sxs-lookup"><span data-stu-id="2087b-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="2087b-105">Täglich</span><span class="sxs-lookup"><span data-stu-id="2087b-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="d5a03-104">Überprüfungszeitplan</span><span class="sxs-lookup"><span data-stu-id="d5a03-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="d5a03-105">Täglich</span><span class="sxs-lookup"><span data-stu-id="d5a03-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2087b-106">Test Tool</span><span class="sxs-lookup"><span data-stu-id="2087b-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="2087b-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="2087b-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="d5a03-106">Test Tool</span><span class="sxs-lookup"><span data-stu-id="d5a03-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="d5a03-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="d5a03-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="2087b-108">Erforderliche Berechtigungen</span><span class="sxs-lookup"><span data-stu-id="2087b-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="2087b-109">Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</span><span class="sxs-lookup"><span data-stu-id="2087b-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="2087b-110">Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsRegistration verfügt.</span><span class="sxs-lookup"><span data-stu-id="2087b-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsRegistration cmdlet.</span></span> <span data-ttu-id="2087b-111">Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</span><span class="sxs-lookup"><span data-stu-id="2087b-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="d5a03-108">Erforderliche Berechtigungen</span><span class="sxs-lookup"><span data-stu-id="d5a03-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="d5a03-109">Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</span><span class="sxs-lookup"><span data-stu-id="d5a03-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="d5a03-110">Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsRegistration verfügt.</span><span class="sxs-lookup"><span data-stu-id="d5a03-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsRegistration cmdlet.</span></span> <span data-ttu-id="d5a03-111">Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</span><span class="sxs-lookup"><span data-stu-id="d5a03-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLisCivicAddress &quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,49 +64,49 @@ ms.locfileid: "42037057"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="2087b-112">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="2087b-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="d5a03-112">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="d5a03-112">Description</span></span>
 
-<span data-ttu-id="2087b-113">Das Cmdlet Test-CsLisCivicAddress wird verwendet, um Speicherorte zu überprüfen, die ihrer Standortinformationsdienst Datenbank (LIS) hinzugefügt wurden.</span><span class="sxs-lookup"><span data-stu-id="2087b-113">The Test-CsLisCivicAddress cmdlet is used to verify locations that were added to your Location Information service (LIS) database.</span></span> <span data-ttu-id="2087b-114">Das Cmdlet funktioniert durch Vergleichen von Speicherorten mit den in der Master Street Address Guide (MSAG), die zu Ihrem E9-1-1-Netzwerk Routing Anbieter gehört gefunden.</span><span class="sxs-lookup"><span data-stu-id="2087b-114">The cmdlet works by comparing locations against the locations found in the Master Street Address Guide (MSAG) that belongs to your E9-1-1 Network Routing Provider.</span></span> <span data-ttu-id="2087b-115">Wenn Sie nicht über einen Netzwerkrouting Anbieter verfügen oder der Anbieter nicht erreicht werden kann, treten bei Ihren Tests Fehler auf.</span><span class="sxs-lookup"><span data-stu-id="2087b-115">If you do not have a network routing provider or if the provider cannot be reached, then your tests will fail.</span></span>
+<span data-ttu-id="d5a03-113">Das Cmdlet Test-CsLisCivicAddress wird verwendet, um Speicherorte zu überprüfen, die ihrer Standortinformationsdienst Datenbank (LIS) hinzugefügt wurden.</span><span class="sxs-lookup"><span data-stu-id="d5a03-113">The Test-CsLisCivicAddress cmdlet is used to verify locations that were added to your Location Information service (LIS) database.</span></span> <span data-ttu-id="d5a03-114">Das Cmdlet funktioniert durch Vergleichen von Speicherorten mit den in der Master Street Address Guide (MSAG), die zu Ihrem E9-1-1-Netzwerk Routing Anbieter gehört gefunden.</span><span class="sxs-lookup"><span data-stu-id="d5a03-114">The cmdlet works by comparing locations against the locations found in the Master Street Address Guide (MSAG) that belongs to your E9-1-1 Network Routing Provider.</span></span> <span data-ttu-id="d5a03-115">Wenn Sie nicht über einen Netzwerkrouting Anbieter verfügen oder der Anbieter nicht erreicht werden kann, treten bei Ihren Tests Fehler auf.</span><span class="sxs-lookup"><span data-stu-id="d5a03-115">If you do not have a network routing provider or if the provider cannot be reached, then your tests will fail.</span></span>
 
-<span data-ttu-id="2087b-116">Wenn Sie den optionalen Switch-Parameter UpdateValidationStatus zu Ihrem Befehl hinzufügen, wird die entsprechende MSAGValid-Datenbankeigenschaft für jede Adresse, die den Test übergibt, auf true festgelegt.</span><span class="sxs-lookup"><span data-stu-id="2087b-116">If you add the optional switch parameter UpdateValidationStatus to your command, then the corresponding MSAGValid database property will be set to True for each address passing the test.</span></span>
+<span data-ttu-id="d5a03-116">Wenn Sie den optionalen Switch-Parameter UpdateValidationStatus zu Ihrem Befehl hinzufügen, wird die entsprechende MSAGValid-Datenbankeigenschaft für jede Adresse, die den Test übergibt, auf true festgelegt.</span><span class="sxs-lookup"><span data-stu-id="d5a03-116">If you add the optional switch parameter UpdateValidationStatus to your command, then the corresponding MSAGValid database property will be set to True for each address passing the test.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="2087b-117">Durchführen des Tests</span><span class="sxs-lookup"><span data-stu-id="2087b-117">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="d5a03-117">Durchführen des Tests</span><span class="sxs-lookup"><span data-stu-id="d5a03-117">Running the test</span></span>
 
-<span data-ttu-id="2087b-118">Das Cmdlet Test-CsLisCivicAddress kann verwendet werden, um einzelne Adressen zu testen oder um mehrere Adressen zu testen.</span><span class="sxs-lookup"><span data-stu-id="2087b-118">The Test-CsLisCivicAddress cmdlet can be used to test individual addresses or to test multiple addresses.</span></span> <span data-ttu-id="2087b-119">Beispielsweise testet dieser Befehl eine einzelne Adresse, die sich in Redmond, WA befindet:</span><span class="sxs-lookup"><span data-stu-id="2087b-119">For example, this command tests a single address located in Redmond, WA:</span></span>
+<span data-ttu-id="d5a03-118">Das Cmdlet Test-CsLisCivicAddress kann verwendet werden, um einzelne Adressen zu testen oder um mehrere Adressen zu testen.</span><span class="sxs-lookup"><span data-stu-id="d5a03-118">The Test-CsLisCivicAddress cmdlet can be used to test individual addresses or to test multiple addresses.</span></span> <span data-ttu-id="d5a03-119">Beispielsweise testet dieser Befehl eine einzelne Adresse, die sich in Redmond, WA befindet:</span><span class="sxs-lookup"><span data-stu-id="d5a03-119">For example, this command tests a single address located in Redmond, WA:</span></span>
 
     Test-CsLisCivicAddress -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName Main -StreetSuffix St -PostDirectional "" -City Redmond -State WA -PostalCode 98052 -Country US -UpdateValidationStatus
 
-<span data-ttu-id="2087b-120">Im Vergleich dazu testet dieser Befehl alle Adressen, die sich derzeit in ihrer LIS-Datenbank befinden:</span><span class="sxs-lookup"><span data-stu-id="2087b-120">By comparison, this command tests all the addresses currently in your LIS database:</span></span>
+<span data-ttu-id="d5a03-120">Im Vergleich dazu testet dieser Befehl alle Adressen, die sich derzeit in ihrer LIS-Datenbank befinden:</span><span class="sxs-lookup"><span data-stu-id="d5a03-120">By comparison, this command tests all the addresses currently in your LIS database:</span></span>
 
     Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
 
-<span data-ttu-id="2087b-121">Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="2087b-121">For more information, see the Help documentation for the [Test-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15)) cmdlet.</span></span>
+<span data-ttu-id="d5a03-121">Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15)) .</span><span class="sxs-lookup"><span data-stu-id="d5a03-121">For more information, see the Help documentation for the [Test-CsRegistration](https://technet.microsoft.com/library/Gg412737(v=OCS.15)) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="2087b-122">Bestimmen des Erfolgs oder Fehlers</span><span class="sxs-lookup"><span data-stu-id="2087b-122">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="d5a03-122">Bestimmen des Erfolgs oder Fehlers</span><span class="sxs-lookup"><span data-stu-id="d5a03-122">Determining success or failure</span></span>
 
-<span data-ttu-id="2087b-123">Mit Test-CsLisCivicAddress wird der Erfolg oder Fehler für die angegebenen Adressen zurückgemeldet.</span><span class="sxs-lookup"><span data-stu-id="2087b-123">Test-CsLisCivicAddress will report back Success or Failure for the supplied addresses.</span></span> <span data-ttu-id="2087b-124">Ein Adress Test schlägt fehl, wenn die Adresse nicht gefunden wird oder wenn der Dienstanbieter nicht kontaktiert werden kann.</span><span class="sxs-lookup"><span data-stu-id="2087b-124">An address test will fail if the address cannot be found or if the service provider cannot be contacted.</span></span>
+<span data-ttu-id="d5a03-123">Mit Test-CsLisCivicAddress wird der Erfolg oder Fehler für die angegebenen Adressen zurückgemeldet.</span><span class="sxs-lookup"><span data-stu-id="d5a03-123">Test-CsLisCivicAddress will report back Success or Failure for the supplied addresses.</span></span> <span data-ttu-id="d5a03-124">Ein Adress Test schlägt fehl, wenn die Adresse nicht gefunden wird oder wenn der Dienstanbieter nicht kontaktiert werden kann.</span><span class="sxs-lookup"><span data-stu-id="d5a03-124">An address test will fail if the address cannot be found or if the service provider cannot be contacted.</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="2087b-125">Gründe, warum der Test fehlgeschlagen ist</span><span class="sxs-lookup"><span data-stu-id="2087b-125">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="d5a03-125">Gründe, warum der Test fehlgeschlagen ist</span><span class="sxs-lookup"><span data-stu-id="d5a03-125">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="2087b-126">Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsLisCivicAddress möglicherweise fehlschlägt:</span><span class="sxs-lookup"><span data-stu-id="2087b-126">Here are some common reasons why Test-CsLisCivicAddress might fail:</span></span>
+<span data-ttu-id="d5a03-126">Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsLisCivicAddress möglicherweise fehlschlägt:</span><span class="sxs-lookup"><span data-stu-id="d5a03-126">Here are some common reasons why Test-CsLisCivicAddress might fail:</span></span>
 
-  - <span data-ttu-id="2087b-127">Der LIS-Dienstanbieter ist möglicherweise nicht verfügbar.</span><span class="sxs-lookup"><span data-stu-id="2087b-127">The LIS service provider might not be available.</span></span> <span data-ttu-id="2087b-128">Sie können die URL Ihres LIS-Dienstanbieters abrufen, indem Sie das Cmdlet Get-CsLisConfiguration ausführen:</span><span class="sxs-lookup"><span data-stu-id="2087b-128">You can retrieve the URL of your LIS service provider by running the Get-CsLisConfiguration cmdlet:</span></span>
+  - <span data-ttu-id="d5a03-127">Der LIS-Dienstanbieter ist möglicherweise nicht verfügbar.</span><span class="sxs-lookup"><span data-stu-id="d5a03-127">The LIS service provider might not be available.</span></span> <span data-ttu-id="d5a03-128">Sie können die URL Ihres LIS-Dienstanbieters abrufen, indem Sie das Cmdlet Get-CsLisConfiguration ausführen:</span><span class="sxs-lookup"><span data-stu-id="d5a03-128">You can retrieve the URL of your LIS service provider by running the Get-CsLisConfiguration cmdlet:</span></span>
     
         Get-CsLisConfiguration 
     
-    <span data-ttu-id="2087b-129">Anschließend können Sie eine Ping-URL durchführen, um zu überprüfen, ob der Dienstanbieter verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="2087b-129">You can then ping that URL to verify that the service provider is available.</span></span>
+    <span data-ttu-id="d5a03-129">Anschließend können Sie eine Ping-URL durchführen, um zu überprüfen, ob der Dienstanbieter verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="d5a03-129">You can then ping that URL to verify that the service provider is available.</span></span>
 
 </div>
 

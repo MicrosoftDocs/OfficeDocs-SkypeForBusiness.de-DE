@@ -12,20 +12,20 @@ ms:contentKeyID: 63969659
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efc07ff877d5692c2871a8b0481233d3bd8c58b6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1c1b1e1a5b13ace725d0fa38a5c2f4b5227cf0ae
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045577"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141401"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="testing-lync-client-authentication-in-lync-server-2013"></a><span data-ttu-id="b237c-102">Testen der lync-Client Authentifizierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b237c-102">Testing Lync Client authentication in Lync Server 2013</span></span>
+# <a name="testing-lync-client-authentication-in-lync-server-2013"></a><span data-ttu-id="5c2dd-102">Testen der lync-Client Authentifizierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5c2dd-102">Testing Lync Client authentication in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "42045577"
 
 <span> </span>
 
-<span data-ttu-id="b237c-103">_**Letztes Änderungsstand des Themas:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="b237c-103">_**Topic Last Modified:** 2014-06-05_</span></span>
+<span data-ttu-id="5c2dd-103">_**Letztes Änderungsstand des Themas:** 2014-06-05_</span><span class="sxs-lookup"><span data-stu-id="5c2dd-103">_**Topic Last Modified:** 2014-06-05_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "42045577"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b237c-104">Überprüfungszeitplan</span><span class="sxs-lookup"><span data-stu-id="b237c-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="b237c-105">Täglich</span><span class="sxs-lookup"><span data-stu-id="b237c-105">Daily</span></span></p></td>
+<td><p><span data-ttu-id="5c2dd-104">Überprüfungszeitplan</span><span class="sxs-lookup"><span data-stu-id="5c2dd-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="5c2dd-105">Täglich</span><span class="sxs-lookup"><span data-stu-id="5c2dd-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b237c-106">Test Tool</span><span class="sxs-lookup"><span data-stu-id="b237c-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="b237c-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="b237c-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="5c2dd-106">Test Tool</span><span class="sxs-lookup"><span data-stu-id="5c2dd-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="5c2dd-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="5c2dd-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b237c-108">Erforderliche Berechtigungen</span><span class="sxs-lookup"><span data-stu-id="b237c-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="b237c-109">Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</span><span class="sxs-lookup"><span data-stu-id="b237c-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="b237c-110">Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsClientAuth verfügt.</span><span class="sxs-lookup"><span data-stu-id="b237c-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsClientAuth cmdlet.</span></span> <span data-ttu-id="b237c-111">Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</span><span class="sxs-lookup"><span data-stu-id="b237c-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="5c2dd-108">Erforderliche Berechtigungen</span><span class="sxs-lookup"><span data-stu-id="5c2dd-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="5c2dd-109">Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="5c2dd-110">Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsClientAuth verfügt.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsClientAuth cmdlet.</span></span> <span data-ttu-id="5c2dd-111">Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</span><span class="sxs-lookup"><span data-stu-id="5c2dd-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsClientAuth&quot;}</code></pre></td>
 </tr>
 </tbody>
@@ -64,99 +64,99 @@ ms.locfileid: "42045577"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="b237c-112">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="b237c-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="5c2dd-112">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="5c2dd-112">Description</span></span>
 
-<span data-ttu-id="b237c-113">Mit dem Cmdlet Test-CsClientAuth können Sie bestimmen, ob sich ein Benutzer bei der lync Server mithilfe eines Clientzertifikats anmelden kann, indem Sie das Test-CsClientAuth-Cmdlet ausführen.</span><span class="sxs-lookup"><span data-stu-id="b237c-113">The Test-CsClientAuth cmdlet enables you to determine whether a user can log on to the Lync Server by using a client certificate, you can run the Test-CsClientAuth cmdlet.</span></span> <span data-ttu-id="b237c-114">Nach dem Aufruf von Test-CsClientAuth wird das Cmdlet mit dem Dienst für die Bereitstellung von Zertifikaten Kontakt aufnehmen und eine Kopie aller Clientzertifikate für den angegebenen Benutzer herunterladen.</span><span class="sxs-lookup"><span data-stu-id="b237c-114">After calling Test-CsClientAuth, the cmdlet will contact the certificate provisioning service and download a copy of any client certificates for the specified user.</span></span> <span data-ttu-id="b237c-115">Wenn ein Clientzertifikat gefunden und heruntergeladen werden kann, versucht Test-CsClientAuth, sich mit diesem Zertifikat anzumelden.</span><span class="sxs-lookup"><span data-stu-id="b237c-115">If a client certificate can be found and downloaded, Test-CsClientAuth will then attempt to log on by using that certificate.</span></span> <span data-ttu-id="b237c-116">Wenn die Anmeldung erfolgreich ist, meldet sich Test-CsClientAuth ab und meldet, dass der Test erfolgreich war.</span><span class="sxs-lookup"><span data-stu-id="b237c-116">If logon succeeds, Test-CsClientAuth will log off and report that the test succeeded.</span></span> <span data-ttu-id="b237c-117">Falls kein Zertifikat gefunden oder heruntergeladen werden kann oder wenn das Cmdlet sich mit dem Zertifikat nicht anmelden kann, meldet Test-CsClientAuth den Test als nicht erfolgreich.</span><span class="sxs-lookup"><span data-stu-id="b237c-117">If a certificate cannot be found or downloaded, or if the cmdlet is unable to logon using that certificate, then Test-CsClientAuth will report that the test failed.</span></span>
+<span data-ttu-id="5c2dd-113">Mit dem Cmdlet Test-CsClientAuth können Sie bestimmen, ob sich ein Benutzer bei der lync Server mithilfe eines Clientzertifikats anmelden kann, indem Sie das Test-CsClientAuth-Cmdlet ausführen.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-113">The Test-CsClientAuth cmdlet enables you to determine whether a user can log on to the Lync Server by using a client certificate, you can run the Test-CsClientAuth cmdlet.</span></span> <span data-ttu-id="5c2dd-114">Nach dem Aufruf von Test-CsClientAuth wird das Cmdlet mit dem Dienst für die Bereitstellung von Zertifikaten Kontakt aufnehmen und eine Kopie aller Clientzertifikate für den angegebenen Benutzer herunterladen.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-114">After calling Test-CsClientAuth, the cmdlet will contact the certificate provisioning service and download a copy of any client certificates for the specified user.</span></span> <span data-ttu-id="5c2dd-115">Wenn ein Clientzertifikat gefunden und heruntergeladen werden kann, versucht Test-CsClientAuth, sich mit diesem Zertifikat anzumelden.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-115">If a client certificate can be found and downloaded, Test-CsClientAuth will then attempt to log on by using that certificate.</span></span> <span data-ttu-id="5c2dd-116">Wenn die Anmeldung erfolgreich ist, meldet sich Test-CsClientAuth ab und meldet, dass der Test erfolgreich war.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-116">If logon succeeds, Test-CsClientAuth will log off and report that the test succeeded.</span></span> <span data-ttu-id="5c2dd-117">Falls kein Zertifikat gefunden oder heruntergeladen werden kann oder wenn das Cmdlet sich mit dem Zertifikat nicht anmelden kann, meldet Test-CsClientAuth den Test als nicht erfolgreich.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-117">If a certificate cannot be found or downloaded, or if the cmdlet is unable to logon using that certificate, then Test-CsClientAuth will report that the test failed.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="b237c-118">Durchführen des Tests</span><span class="sxs-lookup"><span data-stu-id="b237c-118">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="5c2dd-118">Durchführen des Tests</span><span class="sxs-lookup"><span data-stu-id="5c2dd-118">Running the test</span></span>
 
-<span data-ttu-id="b237c-119">Das Cmdlet Test-CsClientAuth wird mithilfe des Kontos eines beliebigen Benutzers ausgeführt, der für lync Server aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="b237c-119">The Test-CsClientAuth cmdlet is run by using the account of any user who is enabled for Lync Server.</span></span> <span data-ttu-id="b237c-120">Um diese Prüfung mit einem tatsächlichen Benutzerkonto auszuführen, müssen Sie zuerst ein Windows PowerShell Credentials-Objekt erstellen, das den Kontonamen und das Kennwort enthält.</span><span class="sxs-lookup"><span data-stu-id="b237c-120">To run this check using an actual user account, you must first create a Windows PowerShell credentials object that contains the account name and password.</span></span> <span data-ttu-id="b237c-121">Anschließend müssen Sie das Credentials-Objekt und die dem Konto zugewiesene SIP-Adresse hinzufügen, wenn das System Test-CsClientAuth aufruft:</span><span class="sxs-lookup"><span data-stu-id="b237c-121">You must then include that credentials object and the SIP address assigned to the account when the system calls Test-CsClientAuth:</span></span>
+<span data-ttu-id="5c2dd-119">Das Cmdlet Test-CsClientAuth wird mithilfe des Kontos eines beliebigen Benutzers ausgeführt, der für lync Server aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-119">The Test-CsClientAuth cmdlet is run by using the account of any user who is enabled for Lync Server.</span></span> <span data-ttu-id="5c2dd-120">Um diese Prüfung mit einem tatsächlichen Benutzerkonto auszuführen, müssen Sie zuerst ein Windows PowerShell Credentials-Objekt erstellen, das den Kontonamen und das Kennwort enthält.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-120">To run this check using an actual user account, you must first create a Windows PowerShell credentials object that contains the account name and password.</span></span> <span data-ttu-id="5c2dd-121">Anschließend müssen Sie das Credentials-Objekt und die dem Konto zugewiesene SIP-Adresse hinzufügen, wenn das System Test-CsClientAuth aufruft:</span><span class="sxs-lookup"><span data-stu-id="5c2dd-121">You must then include that credentials object and the SIP address assigned to the account when the system calls Test-CsClientAuth:</span></span>
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-<span data-ttu-id="b237c-122">Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsClientAuth](http://technet.microsoft.com/library/gg398712\(v=ocs.14\).aspx) .</span><span class="sxs-lookup"><span data-stu-id="b237c-122">For more information, see the Help documentation for the [Test-CsClientAuth](http://technet.microsoft.com/library/gg398712\(v=ocs.14\).aspx) cmdlet.</span></span>
+<span data-ttu-id="5c2dd-122">Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsClientAuth](https://technet.microsoft.com/library/gg398712\(v=ocs.14\).aspx) .</span><span class="sxs-lookup"><span data-stu-id="5c2dd-122">For more information, see the Help documentation for the [Test-CsClientAuth](https://technet.microsoft.com/library/gg398712\(v=ocs.14\).aspx) cmdlet.</span></span>
 
 </div>
 
 <div>
 
-## <a name="determining-success-or-failure"></a><span data-ttu-id="b237c-123">Bestimmen des Erfolgs oder Fehlers</span><span class="sxs-lookup"><span data-stu-id="b237c-123">Determining success or failure</span></span>
+## <a name="determining-success-or-failure"></a><span data-ttu-id="5c2dd-123">Bestimmen des Erfolgs oder Fehlers</span><span class="sxs-lookup"><span data-stu-id="5c2dd-123">Determining success or failure</span></span>
 
-<span data-ttu-id="b237c-124">Wenn sich der angegebene Benutzer bei lync Server mithilfe eines Clientzertifikats anmelden kann, erhalten Sie eine ähnliche Ausgabe wie diese, wobei die Result-Eigenschaft als Success markiert wird **:**</span><span class="sxs-lookup"><span data-stu-id="b237c-124">If the specified user can log on to Lync Server by using a client certificate, you will receive output similar to this, with the Result property marked as **Success:**</span></span>
+<span data-ttu-id="5c2dd-124">Wenn sich der angegebene Benutzer bei lync Server mithilfe eines Clientzertifikats anmelden kann, erhalten Sie eine ähnliche Ausgabe wie diese, wobei die Result-Eigenschaft als Success markiert wird **:**</span><span class="sxs-lookup"><span data-stu-id="5c2dd-124">If the specified user can log on to Lync Server by using a client certificate, you will receive output similar to this, with the Result property marked as **Success:**</span></span>
 
-<span data-ttu-id="b237c-125">TargetFqdn: ATL-CS-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="b237c-125">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="5c2dd-125">TargetFqdn: ATL-CS-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="5c2dd-125">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="b237c-126">Ergebnis: Success</span><span class="sxs-lookup"><span data-stu-id="b237c-126">Result : Success</span></span>
+<span data-ttu-id="5c2dd-126">Ergebnis: Success</span><span class="sxs-lookup"><span data-stu-id="5c2dd-126">Result : Success</span></span>
 
-<span data-ttu-id="b237c-127">Wartezeit: 00:00:06.8630376</span><span class="sxs-lookup"><span data-stu-id="b237c-127">Latency : 00:00:06.8630376</span></span>
+<span data-ttu-id="5c2dd-127">Wartezeit: 00:00:06.8630376</span><span class="sxs-lookup"><span data-stu-id="5c2dd-127">Latency : 00:00:06.8630376</span></span>
 
-<span data-ttu-id="b237c-128">Fehler</span><span class="sxs-lookup"><span data-stu-id="b237c-128">Error :</span></span>
+<span data-ttu-id="5c2dd-128">Fehler</span><span class="sxs-lookup"><span data-stu-id="5c2dd-128">Error :</span></span>
 
-<span data-ttu-id="b237c-129">Diagnose</span><span class="sxs-lookup"><span data-stu-id="b237c-129">Diagnosis :</span></span>
+<span data-ttu-id="5c2dd-129">Diagnose</span><span class="sxs-lookup"><span data-stu-id="5c2dd-129">Diagnosis :</span></span>
 
-<span data-ttu-id="b237c-130">Wenn sich der angegebene Benutzer nicht anmelden kann, wird das Ergebnis als Fehler angezeigt, und zusätzliche Informationen werden in den Eigenschaften Error und Diagnostic aufgezeichnet:</span><span class="sxs-lookup"><span data-stu-id="b237c-130">If the specified user can not log on, the Result will be shown as Failure and additional information will be recorded in the Error and Diagnosis properties:</span></span>
+<span data-ttu-id="5c2dd-130">Wenn sich der angegebene Benutzer nicht anmelden kann, wird das Ergebnis als Fehler angezeigt, und zusätzliche Informationen werden in den Eigenschaften Error und Diagnostic aufgezeichnet:</span><span class="sxs-lookup"><span data-stu-id="5c2dd-130">If the specified user can not log on, the Result will be shown as Failure and additional information will be recorded in the Error and Diagnosis properties:</span></span>
 
-<span data-ttu-id="b237c-131">TargetFqdn: ATL-CS-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="b237c-131">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
+<span data-ttu-id="5c2dd-131">TargetFqdn: ATL-CS-001.litwareinc.com</span><span class="sxs-lookup"><span data-stu-id="5c2dd-131">TargetFqdn : atl-cs-001.litwareinc.com</span></span>
 
-<span data-ttu-id="b237c-132">Ergebnis: Fehler</span><span class="sxs-lookup"><span data-stu-id="b237c-132">Result : Failure</span></span>
+<span data-ttu-id="5c2dd-132">Ergebnis: Fehler</span><span class="sxs-lookup"><span data-stu-id="5c2dd-132">Result : Failure</span></span>
 
-<span data-ttu-id="b237c-133">Wartezeit: 00:00:03.3645259</span><span class="sxs-lookup"><span data-stu-id="b237c-133">Latency : 00:00:03.3645259</span></span>
+<span data-ttu-id="5c2dd-133">Wartezeit: 00:00:03.3645259</span><span class="sxs-lookup"><span data-stu-id="5c2dd-133">Latency : 00:00:03.3645259</span></span>
 
-<span data-ttu-id="b237c-134">Fehler: das CS-Zertifikat für den angegebenen Benutzer konnte nicht heruntergeladen werden.</span><span class="sxs-lookup"><span data-stu-id="b237c-134">Error : Could not download a CS Certificate for the given user.</span></span> <span data-ttu-id="b237c-135">Prüfen Sie, ob</span><span class="sxs-lookup"><span data-stu-id="b237c-135">Check if</span></span>
+<span data-ttu-id="5c2dd-134">Fehler: das CS-Zertifikat für den angegebenen Benutzer konnte nicht heruntergeladen werden.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-134">Error : Could not download a CS Certificate for the given user.</span></span> <span data-ttu-id="5c2dd-135">Prüfen Sie, ob</span><span class="sxs-lookup"><span data-stu-id="5c2dd-135">Check if</span></span>
 
-<span data-ttu-id="b237c-136">der angegebene URI und die Anmeldeinformationen sind korrekt.</span><span class="sxs-lookup"><span data-stu-id="b237c-136">provided uri and credentials are correct.</span></span>
+<span data-ttu-id="5c2dd-136">der angegebene URI und die Anmeldeinformationen sind korrekt.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-136">provided uri and credentials are correct.</span></span>
 
-<span data-ttu-id="b237c-137">Diagnose</span><span class="sxs-lookup"><span data-stu-id="b237c-137">Diagnosis :</span></span>
+<span data-ttu-id="5c2dd-137">Diagnose</span><span class="sxs-lookup"><span data-stu-id="5c2dd-137">Diagnosis :</span></span>
 
-<span data-ttu-id="b237c-138">Die vorherige Ausgabe besagt beispielsweise, dass der Test fehlgeschlagen ist, da ein gültiges Clientzertifikat für den angegebenen Benutzer nicht gefunden werden konnte.</span><span class="sxs-lookup"><span data-stu-id="b237c-138">For example, the previous output states that the test failed because a valid client certificate couldn't be located for the specified user.</span></span> <span data-ttu-id="b237c-139">Sie können eine Liste der für einen Benutzer ausgestellten Clientzertifikate zurückgeben, indem Sie einen Befehl wie folgt ausführen:</span><span class="sxs-lookup"><span data-stu-id="b237c-139">You can return a list of the client certificates issued to a user by running a command as follows:</span></span>
+<span data-ttu-id="5c2dd-138">Die vorherige Ausgabe besagt beispielsweise, dass der Test fehlgeschlagen ist, da ein gültiges Clientzertifikat für den angegebenen Benutzer nicht gefunden werden konnte.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-138">For example, the previous output states that the test failed because a valid client certificate couldn't be located for the specified user.</span></span> <span data-ttu-id="5c2dd-139">Sie können eine Liste der für einen Benutzer ausgestellten Clientzertifikate zurückgeben, indem Sie einen Befehl wie folgt ausführen:</span><span class="sxs-lookup"><span data-stu-id="5c2dd-139">You can return a list of the client certificates issued to a user by running a command as follows:</span></span>
 
     Get-CsClientCertificate -Identity "sip:kenmyer@litwareinc.com"
 
-<span data-ttu-id="b237c-140">Wenn Test-CsClientAuth fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, dieses Mal einschließlich des Parameters verbose:</span><span class="sxs-lookup"><span data-stu-id="b237c-140">If Test-CsClientAuth fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
+<span data-ttu-id="5c2dd-140">Wenn Test-CsClientAuth fehlschlägt, möchten Sie möglicherweise den Test erneut ausführen, dieses Mal einschließlich des Parameters verbose:</span><span class="sxs-lookup"><span data-stu-id="5c2dd-140">If Test-CsClientAuth fails, then you might want to rerun the test, this time including the Verbose parameter:</span></span>
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsClientAuth -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential -Verbose
 
-<span data-ttu-id="b237c-141">Wenn der Verbose-Parameter enthalten ist, gibt Test-CsClientAuth eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als er die Fähigkeit des angegebenen Benutzers zur Anmeldung bei lync Server überprüft hat.</span><span class="sxs-lookup"><span data-stu-id="b237c-141">When the Verbose parameter is included, Test-CsClientAuth will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server.</span></span> <span data-ttu-id="b237c-142">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="b237c-142">For example:</span></span>
+<span data-ttu-id="5c2dd-141">Wenn der Verbose-Parameter enthalten ist, gibt Test-CsClientAuth eine Schritt-für-Schritt-Konto für jede Aktion zurück, die versucht wurde, als er die Fähigkeit des angegebenen Benutzers zur Anmeldung bei lync Server überprüft hat.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-141">When the Verbose parameter is included, Test-CsClientAuth will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server.</span></span> <span data-ttu-id="5c2dd-142">Zum Beispiel:</span><span class="sxs-lookup"><span data-stu-id="5c2dd-142">For example:</span></span>
 
-<span data-ttu-id="b237c-143">Versuch, ein CS-Zertifikat für den Benutzer herunterzuladen: kenmyer@litwareinc.com-Endpunkt: Step-up</span><span class="sxs-lookup"><span data-stu-id="b237c-143">Trying to download a CS certificate for User : kenmyer@litwareinc.com endpoint : STEpid</span></span>
+<span data-ttu-id="5c2dd-143">Versuch, ein CS-Zertifikat für den Benutzer herunterzuladen: kenmyer@litwareinc.com-Endpunkt: Step-up</span><span class="sxs-lookup"><span data-stu-id="5c2dd-143">Trying to download a CS certificate for User : kenmyer@litwareinc.com endpoint : STEpid</span></span>
 
-<span data-ttu-id="b237c-144">Webdienst-URL:https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc</span><span class="sxs-lookup"><span data-stu-id="b237c-144">Web Service url : https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc</span></span>
+<span data-ttu-id="5c2dd-144">Webdienst-URL:https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc</span><span class="sxs-lookup"><span data-stu-id="5c2dd-144">Web Service url : https://atl-cs-001.litwareinc.com:443/CertProv/CertprovisioningService.svc</span></span>
 
-<span data-ttu-id="b237c-145">CS-Zertifikat konnte nicht aus dem Webdienst heruntergeladen werden.</span><span class="sxs-lookup"><span data-stu-id="b237c-145">Could not download a CS certificate from web service.</span></span>
+<span data-ttu-id="5c2dd-145">CS-Zertifikat konnte nicht aus dem Webdienst heruntergeladen werden.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-145">Could not download a CS certificate from web service.</span></span>
 
-<span data-ttu-id="b237c-146">Kontroll</span><span class="sxs-lookup"><span data-stu-id="b237c-146">CHECK:</span></span>
+<span data-ttu-id="5c2dd-146">Kontroll</span><span class="sxs-lookup"><span data-stu-id="5c2dd-146">CHECK:</span></span>
 
-<span data-ttu-id="b237c-147">\-Die Webdienst-URL ist gültig, und die Webdienste sind funktionsfähig.</span><span class="sxs-lookup"><span data-stu-id="b237c-147">\- Web service url is valid and the web services are functional</span></span>
+<span data-ttu-id="5c2dd-147">\-Die Webdienst-URL ist gültig, und die Webdienste sind funktionsfähig.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-147">\- Web service url is valid and the web services are functional</span></span>
 
-<span data-ttu-id="b237c-148">\-Wenn Sie die\\\\PhoneNo-Pin zur Authentifizierung verwenden, stellen Sie sicher, dass Sie mit dem Benutzer-URI übereinstimmen.</span><span class="sxs-lookup"><span data-stu-id="b237c-148">\- If using PhoneNo\\\\Pin to authenticate, make sure they match the user uri</span></span>
+<span data-ttu-id="5c2dd-148">\-Wenn Sie die\\\\PhoneNo-Pin zur Authentifizierung verwenden, stellen Sie sicher, dass Sie mit dem Benutzer-URI übereinstimmen.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-148">\- If using PhoneNo\\\\Pin to authenticate, make sure they match the user uri</span></span>
 
-<span data-ttu-id="b237c-149">\-Wenn Sie NTLM\\-Kerberos-Authentifizierung verwenden, stellen Sie sicher, dass Sie gültige Anmeldeinformationen angegeben haben</span><span class="sxs-lookup"><span data-stu-id="b237c-149">\- If using NTLM\\Kerberos auth, make sure you provided valid credentials</span></span>
+<span data-ttu-id="5c2dd-149">\-Wenn Sie NTLM\\-Kerberos-Authentifizierung verwenden, stellen Sie sicher, dass Sie gültige Anmeldeinformationen angegeben haben</span><span class="sxs-lookup"><span data-stu-id="5c2dd-149">\- If using NTLM\\Kerberos auth, make sure you provided valid credentials</span></span>
 
 </div>
 
 <div>
 
-## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="b237c-150">Gründe, warum der Test fehlgeschlagen ist</span><span class="sxs-lookup"><span data-stu-id="b237c-150">Reasons why the test might have failed</span></span>
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="5c2dd-150">Gründe, warum der Test fehlgeschlagen ist</span><span class="sxs-lookup"><span data-stu-id="5c2dd-150">Reasons why the test might have failed</span></span>
 
-<span data-ttu-id="b237c-151">Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsClientAuth möglicherweise fehlschlägt:</span><span class="sxs-lookup"><span data-stu-id="b237c-151">Here are some common reasons why Test-CsClientAuth might fail:</span></span>
+<span data-ttu-id="5c2dd-151">Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von CsClientAuth möglicherweise fehlschlägt:</span><span class="sxs-lookup"><span data-stu-id="5c2dd-151">Here are some common reasons why Test-CsClientAuth might fail:</span></span>
 
-  - <span data-ttu-id="b237c-152">Sie haben ein ungültiges Benutzerkonto angegeben.</span><span class="sxs-lookup"><span data-stu-id="b237c-152">You specified a user account that was not valid.</span></span> <span data-ttu-id="b237c-153">Sie können überprüfen, ob ein Benutzerkonto vorhanden ist, indem Sie einen Befehl wie den folgenden ausführen:</span><span class="sxs-lookup"><span data-stu-id="b237c-153">You can verify that a user account exists by running a command similar to this:</span></span>
+  - <span data-ttu-id="5c2dd-152">Sie haben ein ungültiges Benutzerkonto angegeben.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-152">You specified a user account that was not valid.</span></span> <span data-ttu-id="5c2dd-153">Sie können überprüfen, ob ein Benutzerkonto vorhanden ist, indem Sie einen Befehl wie den folgenden ausführen:</span><span class="sxs-lookup"><span data-stu-id="5c2dd-153">You can verify that a user account exists by running a command similar to this:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - <span data-ttu-id="b237c-154">Das Benutzerkonto ist gültig, aber das Konto ist derzeit nicht für lync Server aktiviert.</span><span class="sxs-lookup"><span data-stu-id="b237c-154">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="b237c-155">Um zu überprüfen, ob ein Benutzerkonto für lync Server aktiviert ist, führen Sie einen Befehl wie den folgenden aus:</span><span class="sxs-lookup"><span data-stu-id="b237c-155">To verify that a user account is enabled for Lync Server, run a command similar to the following:</span></span>
+  - <span data-ttu-id="5c2dd-154">Das Benutzerkonto ist gültig, aber das Konto ist derzeit nicht für lync Server aktiviert.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-154">The user account is valid, but the account is currently not enabled for Lync Server.</span></span> <span data-ttu-id="5c2dd-155">Um zu überprüfen, ob ein Benutzerkonto für lync Server aktiviert ist, führen Sie einen Befehl wie den folgenden aus:</span><span class="sxs-lookup"><span data-stu-id="5c2dd-155">To verify that a user account is enabled for Lync Server, run a command similar to the following:</span></span>
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    <span data-ttu-id="b237c-156">Wenn die Enabled-Eigenschaft auf false festgelegt ist, bedeutet dies, dass der Benutzer derzeit nicht für lync Server aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="b237c-156">If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.</span></span>
+    <span data-ttu-id="5c2dd-156">Wenn die Enabled-Eigenschaft auf false festgelegt ist, bedeutet dies, dass der Benutzer derzeit nicht für lync Server aktiviert ist.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-156">If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.</span></span>
 
-  - <span data-ttu-id="b237c-157">Der Testbenutzer verfügt möglicherweise nicht über ein gültiges Clientzertifikat.</span><span class="sxs-lookup"><span data-stu-id="b237c-157">The test user might not have a valid client certificate.</span></span> <span data-ttu-id="b237c-158">Sie können Informationen zu den einem Benutzer zugewiesenen Clientzertifikaten mithilfe eines Befehls wie dem folgenden zurückgeben:</span><span class="sxs-lookup"><span data-stu-id="b237c-158">You can return information about the client certificates assigned to a user by using a command similar to this:</span></span>
+  - <span data-ttu-id="5c2dd-157">Der Testbenutzer verfügt möglicherweise nicht über ein gültiges Clientzertifikat.</span><span class="sxs-lookup"><span data-stu-id="5c2dd-157">The test user might not have a valid client certificate.</span></span> <span data-ttu-id="5c2dd-158">Sie können Informationen zu den einem Benutzer zugewiesenen Clientzertifikaten mithilfe eines Befehls wie dem folgenden zurückgeben:</span><span class="sxs-lookup"><span data-stu-id="5c2dd-158">You can return information about the client certificates assigned to a user by using a command similar to this:</span></span>
     
         Get-CsClientCertificate -Identity "sip:kenmyer@litwareinc.com"
 
