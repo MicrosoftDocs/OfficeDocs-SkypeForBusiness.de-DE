@@ -12,18 +12,18 @@ ms:contentKeyID: 49733754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d6eb00b5efcd811d0fbf1397bce5f8b965c9110
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fca5fe648ecfb00c7ef7bcb84948a68e4386bbf3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046348"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134701"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-partner-applications-in-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Konfigurieren von Partneranwendungen in Microsoft lync Server 2013 und Microsoft Exchange Server 2013
 
@@ -47,7 +47,7 @@ Um die Server-zu-Server-Authentifizierung zwischen lync Server und Exchange einz
 
 ## <a name="configuring-lync-server-2013-to-be-a-partner-application-for-exchange-2013"></a>Konfigurieren von lync Server 2013 als Partner Anwendung für Exchange 2013
 
-Am einfachsten können Sie lync Server 2013 als Partneranwendung mit Exchange 2013 konfigurieren, indem Sie das configure-EnterprisePartnerApplication. ps1-Skript ausführen, ein Windows PowerShelles Skript, das mit Exchange 2013 ausgeliefert wird. Um dieses Skript auszuführen, müssen Sie die URL für das Dokument lync Server authentifizierungsmetadaten angeben. Dabei handelt es sich normalerweise um den vollqualifizierten Domänennamen des lync Server 2013 Pools gefolgt vom Suffix/Metadata/JSON/1. Beispiel:
+Am einfachsten können Sie lync Server 2013 als Partneranwendung mit Exchange 2013 konfigurieren, indem Sie das configure-EnterprisePartnerApplication. ps1-Skript ausführen, ein Windows PowerShelles Skript, das mit Exchange 2013 ausgeliefert wird. Um dieses Skript auszuführen, müssen Sie die URL für das Dokument lync Server authentifizierungsmetadaten angeben. Dabei handelt es sich normalerweise um den vollqualifizierten Domänennamen des lync Server 2013 Pools gefolgt vom Suffix/Metadata/JSON/1. Zum Beispiel:
 
     https://atl-cs-001.litwareinc.com/metadata/json/1
 
@@ -67,11 +67,11 @@ Dieser Befehl kann in der Exchange-Verwaltungsshell oder in einem anderen Befehl
 
 ## <a name="configuring-exchange-2013-to-be-a-partner-application-for-lync-server-2013"></a>Konfigurieren von Exchange 2013 als Partner Anwendung für lync Server 2013
 
-Nachdem Sie lync Server 2013 als Partneranwendung für Exchange 2013 konfiguriert haben, müssen Sie Exchange als Partneranwendung für lync Server konfigurieren. Hierzu können Sie die lync Server-Verwaltungsshell verwenden und das Dokument "authentifizierungsmetadaten" für Exchange angeben. Dies ist normalerweise der URI des Exchange-AutoErmittlungsdiensts, gefolgt vom Suffix/Metadata/JSON/1. Beispiel:
+Nachdem Sie lync Server 2013 als Partneranwendung für Exchange 2013 konfiguriert haben, müssen Sie Exchange als Partneranwendung für lync Server konfigurieren. Hierzu können Sie die lync Server-Verwaltungsshell verwenden und das Dokument "authentifizierungsmetadaten" für Exchange angeben. Dies ist normalerweise der URI des Exchange-AutoErmittlungsdiensts, gefolgt vom Suffix/Metadata/JSON/1. Zum Beispiel:
 
     https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 
-In lync Server werden Partneranwendungen mithilfe des [New-cspartnerapplication "-](https://technet.microsoft.com/library/JJ204628(v=OCS.15)) Cmdlets konfiguriert. Zusätzlich zur Angabe des Metadaten-URI sollten Sie auch die Vertrauensebene der Anwendung auf Full festlegen. Dadurch kann Exchange sowohl sich selbst als auch alle autorisierten Benutzer im Bereich darstellen. Beispiel:
+In lync Server werden Partneranwendungen mithilfe des [New-cspartnerapplication "-](https://technet.microsoft.com/library/JJ204628(v=OCS.15)) Cmdlets konfiguriert. Zusätzlich zur Angabe des Metadaten-URI sollten Sie auch die Vertrauensebene der Anwendung auf Full festlegen. Dadurch kann Exchange sowohl sich selbst als auch alle autorisierten Benutzer im Bereich darstellen. Zum Beispiel:
 
     New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 

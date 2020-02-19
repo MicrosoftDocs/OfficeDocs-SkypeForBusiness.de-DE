@@ -12,12 +12,12 @@ ms:contentKeyID: 49733836
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1014bce74e0e7dcd789c9b2948c029f4b40ecb9a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7b9a5a1bf5132fb78086fdd424714e03af2caab5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030138"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134421"
 ---
 # <a name="assign-a-per-user-mobility-policy-in-lync-server-2013"></a>Zuweisen einer benutzerbezogenen Mobilitätsrichtlinie in lync Server 2013
 
@@ -86,7 +86,7 @@ Die Mobilitätsrichtlinie ist eine der individuellen Einstellungen eines Benutze
 
 ## <a name="assigning-a-per-user-mobility-policy-by-using-windows-powershell-cmdlets"></a>Zuweisen einer benutzerbasierten Mobilitätsrichtlinie mithilfe von Windows PowerShell-Cmdlets
 
-Sie können benutzerspezifische mobilitätsrichtlinien zuweisen, indem Sie Windows PowerShell und das **Grant-CsMobilityPolicy-** Cmdlet verwenden. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Sie können benutzerspezifische mobilitätsrichtlinien zuweisen, indem Sie Windows PowerShell und das **Grant-CsMobilityPolicy-** Cmdlet verwenden. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 ## <a name="to-assign-a-per-user-mobility-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine benutzerbasierte Mobilitätsrichtlinie zu
 

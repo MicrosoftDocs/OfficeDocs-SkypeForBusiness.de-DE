@@ -12,18 +12,18 @@ ms:contentKeyID: 48183261
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa957a6c0c8e995a6e1cff8b0ec1df38ec732c6d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b4639a3e51ca3674cdb521f49ef607f6a50f81fd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044437"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134061"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="client-management-cmdlets-in-lync-server-2013"></a>Cmdlets für die Client Verwaltung in lync Server 2013
 
@@ -43,7 +43,7 @@ Die Clientverwaltung besteht in erster Linie darin, zu ermitteln, welche Clienta
 
 
 > [!NOTE]
-> Weitere Informationen zu Cmdlets finden Sie im lync Server&nbsp;Windows PowerShell Blog unter. <A href="http://go.microsoft.com/fwlink/p/?linkid=263432">http://go.microsoft.com/fwlink/p/?linkId=263432</A> Der Inhalt jedes Blogs und die dazugehörige URL kann ohne vorherige Ankündigung geändert werden.
+> Weitere Informationen zu Cmdlets finden Sie im lync Server&nbsp;Windows PowerShell Blog unter. <A href="https://go.microsoft.com/fwlink/p/?linkid=263432">https://go.microsoft.com/fwlink/p/?linkId=263432</A> Der Inhalt jedes Blogs und die dazugehörige URL kann ohne vorherige Ankündigung geändert werden.
 
 
 

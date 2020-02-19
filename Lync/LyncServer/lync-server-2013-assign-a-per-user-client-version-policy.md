@@ -12,12 +12,12 @@ ms:contentKeyID: 48185868
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3668e21836fd3ecee0740493c8b9bd631227583a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 77b84c4550d44a09e786d09d093e64cbc1901d91
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029266"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134461"
 ---
 # <a name="assign-a-per-user-client-version-policy-in-lync-server-2013"></a>Zuweisen einer clientversionsrichtlinie pro Benutzer in lync Server 2013
 
@@ -92,7 +92,7 @@ Ausführliche Informationen zum Erstellen von clientversionsrichtlinien pro Benu
 
 ## <a name="assigning-a-per-user-client-version-policy-by-using-windows-powershell-cmdlets"></a>Zuweisen einer Client Versionsrichtlinie auf Benutzerbasis mithilfe Windows PowerShell-Cmdlets
 
-Sie können benutzerbasierte clientversionsrichtlinien zuweisen, indem Sie das Grant-CsClientVersionPolicy-Cmdlet verwenden. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Sie können benutzerbasierte clientversionsrichtlinien zuweisen, indem Sie das Grant-CsClientVersionPolicy-Cmdlet verwenden. Sie können dieses Cmdlet in der lync Server 2013-Verwaltungsshell oder in einer Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 ## <a name="to-assign-a-per-user-client-version-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine clientversionsrichtlinie pro Benutzer zu
 

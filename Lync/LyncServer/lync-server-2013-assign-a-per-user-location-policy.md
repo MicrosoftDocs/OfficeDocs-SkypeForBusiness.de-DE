@@ -12,12 +12,12 @@ ms:contentKeyID: 48183794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ec78fd434706ec3e1c5f28c256b38a5f4463ac7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1d66df7f2d0c8a2b8603f7c08312f5b8b6aaad56
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044027"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42134431"
 ---
 # <a name="assign-a-per-user-location-policy-in-lync-server-2013"></a>Zuweisen einer Standortrichtlinie pro Benutzer in lync Server 2013
 
@@ -94,7 +94,7 @@ Ausführliche Informationen zum Erstellen von ortungsrichtlinien finden Sie unte
 
 ## <a name="assigning-a-per-user-location-policy-by-using-lync-server-management-shell-cmdlets"></a>Zuweisen einer Standortrichtlinie auf Benutzerbasis mithilfe lync Server-Verwaltungsshell-Cmdlets
 
-Sie können benutzerspezifische ortungsrichtlinien zuweisen, indem Sie das Grant-CsLocationPolicy-Cmdlet verwenden. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Sie können benutzerspezifische ortungsrichtlinien zuweisen, indem Sie das Grant-CsLocationPolicy-Cmdlet verwenden. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 ## <a name="to-assign-a-per-user-location-policy-to-a-single-user"></a>So weisen Sie eine benutzerbasierte Standortrichtlinie einem einzelnen Benutzer zu
 

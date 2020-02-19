@@ -12,18 +12,18 @@ ms:contentKeyID: 48185288
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf8c632fa5858eaf35464e9885e65343bc699e54
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3e09284d78ead2e8cd4249c2dc54159284ddad43
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043807"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42127648"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="new-archiving-features-in-lync-server-2013"></a>Neue Archivierungs Features in lync Server 2013
 
@@ -49,7 +49,7 @@ Darüber hinaus bietet die Archivierung in lync Server 2013 neue Features, die d
 
   - **Nebeneinander der Archivierung auf Front-End-Servern.**    Lync Server 2013 verfügt nicht über eine separate Archivierungsserver Rolle. Die Archivierung ist ein optionales Feature, das auf allen Front-End-Servern in einer Enterprise Edition-Bereitstellung, und auf Standard Edition-Servern, die für einen Pool oder einen Standort implementiert und konfiguriert werden können, verfügbar ist.
 
-  - **Microsoft Exchange Integration.**    Wenn Sie die Archivierung bereitstellen, können Sie den Datenspeicher für die Archivierung mit dem vorhandenen Exchange 2013 Speicher für alle Benutzer integrieren, die in Exchange 2013 verwaltet werden und deren Postfächer in einem Compliance-Archiv abgelegt werden, sodass Sie keine separaten SQL Server Datenbanken zur Archivierung von lync-Daten bereitstellen müssen. Wenn Sie nicht über eine Exchange 2013-Bereitstellung verfügen oder keine Integration in die Datenbank wünschen oder wenn Sie lync 2013 Benutzer haben, die nicht in Exchange 2013 mit ihren Postfächern in-situ-Speicher verwaltet werden, können Sie separate Archivierungsdatenbanken bereitstellen, indem Sie SQL Server zum Speichern verwenden. e archivierte Daten aus lync Communications. Sie können sowohl Microsoft Exchange Integration als auch lync Server 2013 Archivierungsdatenbanken verwenden, wenn Sie Microsoft Exchange Integration für einige, jedoch nicht für alle Benutzer in Ihrer Bereitstellung verwenden möchten. Ausführliche Informationen zum in-situ-Speicher finden Sie unter "in-situ- [http://go.microsoft.com/fwlink/p/?LinkId=267500](http://go.microsoft.com/fwlink/p/?linkid=267500)Speicher" unter "in-situ-Aufbewahrung".
+  - **Microsoft Exchange Integration.**    Wenn Sie die Archivierung bereitstellen, können Sie den Datenspeicher für die Archivierung mit dem vorhandenen Exchange 2013 Speicher für alle Benutzer integrieren, die in Exchange 2013 verwaltet werden und deren Postfächer in einem Compliance-Archiv abgelegt werden, sodass Sie keine separaten SQL Server Datenbanken zur Archivierung von lync-Daten bereitstellen müssen. Wenn Sie nicht über eine Exchange 2013-Bereitstellung verfügen oder keine Integration in die Datenbank wünschen oder wenn Sie lync 2013 Benutzer haben, die nicht in Exchange 2013 mit ihren Postfächern in-situ-Speicher verwaltet werden, können Sie separate Archivierungsdatenbanken bereitstellen, indem Sie SQL Server zum Speichern verwenden. e archivierte Daten aus lync Communications. Sie können sowohl Microsoft Exchange Integration als auch lync Server 2013 Archivierungsdatenbanken verwenden, wenn Sie Microsoft Exchange Integration für einige, jedoch nicht für alle Benutzer in Ihrer Bereitstellung verwenden möchten. Ausführliche Informationen zum in-situ-Speicher finden Sie unter "in-situ- [https://go.microsoft.com/fwlink/p/?LinkId=267500](https://go.microsoft.com/fwlink/p/?linkid=267500)Speicher" unter "in-situ-Aufbewahrung".
 
   - **SQL-Speicherspiegelung.**    Wenn Sie die Archivierung bereitstellen, können Sie SQL Server Datenbankspiegelung für Ihre Archivierungsdatenbank aktivieren.
 
