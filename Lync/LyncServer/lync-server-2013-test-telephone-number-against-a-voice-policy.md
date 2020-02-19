@@ -12,18 +12,18 @@ ms:contentKeyID: 63969596
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a234419dc6f06ae9bdc8d7c198873bdc3c706701
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7670e99fc7ac7688eff360a28be6f7280d6191b1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41985090"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141621"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="test-telephone-number-against-a-voice-policy-in-lync-server-2013"></a>Testen der Telefonnummer für eine VoIP-Richtlinie in lync Server 2013
 
@@ -84,7 +84,7 @@ Das Cmdlet Test-CsVoicePolicy überprüft, ob eine bestimmte VoIP-Richtlinie üb
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Zum Ausführen des Test-CsVoicePolicy-Cmdlets müssen Sie zunächst das Cmdlet Get-CsVoicePolicy verwenden, um eine Instanz der zu testenden VoIP-Richtlinie abzurufen. Diese Instanz muss anschließend an Test-CsVoicePolicy weitergeleitet werden. Beispiel:
+Zum Ausführen des Test-CsVoicePolicy-Cmdlets müssen Sie zunächst das Cmdlet Get-CsVoicePolicy verwenden, um eine Instanz der zu testenden VoIP-Richtlinie abzurufen. Diese Instanz muss anschließend an Test-CsVoicePolicy weitergeleitet werden. Zum Beispiel:
 
 `Get-CsVoicePolicy -Identity "Global" | Test-CsVoicePolicy -TargetNumber "+12065551219"`
 

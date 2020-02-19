@@ -12,18 +12,18 @@ ms:contentKeyID: 63969653
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82c44cf7cff78fc93054679ae1bc4c66bc6b4c40
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8a84e952f9c23fc95d3856b73697a049768ea179
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42016236"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141531"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="testing-ability-to-connect-to-a-federated-domain-from-lync-server-2013"></a>Testen der Fähigkeit zum Herstellen einer Verbindung mit einer Verbunddomäne von lync Server 2013
 
@@ -140,7 +140,7 @@ Im folgenden werden einige häufige Gründe aufgeführt, warum das Testen von Cs
     
         Get-CsService -EdgeServer | Select-Object PoolFqdn
     
-    Anschließend können Sie jeden Edgeserver anpingen, um sicherzustellen, dass der Zugriff über das Netzwerk möglich ist. Beispiel:
+    Anschließend können Sie jeden Edgeserver anpingen, um sicherzustellen, dass der Zugriff über das Netzwerk möglich ist. Zum Beispiel:
     
         ping atl-edge-001.litwareinc.com
 
