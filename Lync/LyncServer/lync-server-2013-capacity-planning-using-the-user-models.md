@@ -12,18 +12,18 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab2b7026ca49f8e12a5f8b67aa0780996feaebe1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 664091baee67d0ddf953d8a114370fdb875eef29
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036485"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135542"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="capacity-planning-for-lync-server-2013-using-the-user-models"></a>Kapazitätsplanung für lync Server 2013 mithilfe der Benutzermodelle
 
@@ -220,7 +220,7 @@ In der folgenden Tabelle ist die durchschnittliche Bandbreite für Sofortnachric
 
 
 > [!NOTE]  
-> Um die Medien Leistung der co-located A/V-Konferenz-und Vermittlungsserver Funktionalität auf Ihren Front-End-Servern zu verbessern, sollten Sie die Receive-Side Scaling (RSS) auf den Netzwerkadaptern auf Ihren Front-End-Servern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "Verbesserungen bei der Empfangs seitigen Skalierung in Windows Server 2008" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>. Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Um die Medien Leistung der co-located A/V-Konferenz-und Vermittlungsserver Funktionalität auf Ihren Front-End-Servern zu verbessern, sollten Sie die Receive-Side Scaling (RSS) auf den Netzwerkadaptern auf Ihren Front-End-Servern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "Verbesserungen bei der Empfangs seitigen Skalierung in Windows Server 2008" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>. Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 
 
@@ -266,7 +266,7 @@ Wenn Sie die Anzahl von Benutzern für die Edgeserver berechnen, berücksichtige
 
 
 > [!NOTE]  
-> Zum Verbessern der Leistung des A/V-Konferenzedgediensts auf Ihren Edgeservern sollten Sie RSS (Receive-Side Scaling) für die Netzwerkadapter Ihrer Edgeserver aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "Verbesserungen bei der Empfangs seitigen Skalierung in Windows Server 2008" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>. Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Zum Verbessern der Leistung des A/V-Konferenzedgediensts auf Ihren Edgeservern sollten Sie RSS (Receive-Side Scaling) für die Netzwerkadapter Ihrer Edgeserver aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "Verbesserungen bei der Empfangs seitigen Skalierung in Windows Server 2008" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>. Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 
 
@@ -396,7 +396,7 @@ Alle folgenden Tabellen gehen davon aus, dass die Verwendung in [Benutzermodelle
 
 
 > [!NOTE]  
-> Um die Leistung des Vermittlungsserver zu verbessern, sollten Sie die Receive-Side Scaling (RSS) auf den Netzwerkadaptern auf Ihren Vermittlungsservern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "Verbesserungen bei der Empfangs seitigen Skalierung in Windows Server 2008" unter <A href="http://go.microsoft.com/fwlink/p/?linkid=268731">http://go.microsoft.com/fwlink/p/?linkId=268731</A>. Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Um die Leistung des Vermittlungsserver zu verbessern, sollten Sie die Receive-Side Scaling (RSS) auf den Netzwerkadaptern auf Ihren Vermittlungsservern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "Verbesserungen bei der Empfangs seitigen Skalierung in Windows Server 2008" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=268731">https://go.microsoft.com/fwlink/p/?linkId=268731</A>. Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 
 
@@ -495,18 +495,18 @@ Microsoft hat die Hardware in der folgenden Tabelle für den Datenbankserver fü
 </tr>
 <tr class="odd">
 <td><p>KDS-Datenbankprotokolldatei</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="even">
 <td><p>QoE-Datenbankprotokolldatei</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="odd">
 <td><p>Archivierungsdatenbank Protokolldatei</p></td>
-<td><p>1 </p></td>
-<td><p>2 </p></td>
+<td><p>1</p></td>
+<td><p>2</p></td>
 </tr>
 </tbody>
 </table>

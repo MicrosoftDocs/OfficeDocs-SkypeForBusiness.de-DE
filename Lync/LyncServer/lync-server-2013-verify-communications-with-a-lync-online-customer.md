@@ -12,18 +12,18 @@ ms:contentKeyID: 48185378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1dffbb5d8a0e49e19c0fa5487a4af05b7e7f0155
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 59fcf8398fa012543303f959f4888074f5192470
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007364"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113358"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="verify-communications-with-a-lync-online-customer-in-lync-server-2013"></a>Überprüfen der Kommunikation mit einem lync Online Kunden in lync Server 2013
 
@@ -45,7 +45,7 @@ Damit lync-Benutzer in Ihrer Organisation mit Benutzern eines Microsoft lync Onl
 
   - Konfigurieren Sie Ihre Benutzerkonten für die Unterstützung des Verbunds. Ausführliche Informationen finden Sie unter [Konfigurieren des Benutzerzugriffs für einen Partnerverbund mit einem lync Online-Kunden in lync Server 2013](lync-server-2013-configure-user-access-for-federation-with-a-lync-online-customer.md).
 
-Nachdem Sie alle diese Schritte ausgeführt haben und der Administrator des lync Online 2010-Kunden die gesamte Konfiguration seiner Online Dienste vervollständigt, um den Verbund mit Ihrer Organisation zu unterstützen, überprüfen Sie die Kommunikation durch Testen der Kommunikation zwischen einem internen Benutzer in Ihrer Organisation und ein Benutzer des lync Online Kunden. Wenn die Kommunikation nicht erfolgreich ist, verwenden Sie das Protokollierungs Tool aus dem Edgeserver, um Protokoll-und Ablaufverfolgungsdateien aufzuzeichnen, um das Problem zu beheben. Ausführliche Informationen zur Verwendung des Protokollierungstools finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md) in der Betriebsdokumentation. Ausführliche Informationen zum Protokollierungstool finden Sie in der Dokumentation zum lync Server 2010 Protokollierungstool in der [http://go.microsoft.com/fwlink/p/?linkId=199265](http://go.microsoft.com/fwlink/p/?linkid=199265)TechNet-Bibliothek unter.
+Nachdem Sie alle diese Schritte ausgeführt haben und der Administrator des lync Online 2010-Kunden die gesamte Konfiguration seiner Online Dienste vervollständigt, um den Verbund mit Ihrer Organisation zu unterstützen, überprüfen Sie die Kommunikation durch Testen der Kommunikation zwischen einem internen Benutzer in Ihrer Organisation und ein Benutzer des lync Online Kunden. Wenn die Kommunikation nicht erfolgreich ist, verwenden Sie das Protokollierungs Tool aus dem Edgeserver, um Protokoll-und Ablaufverfolgungsdateien aufzuzeichnen, um das Problem zu beheben. Ausführliche Informationen zur Verwendung des Protokollierungstools finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md) in der Betriebsdokumentation. Ausführliche Informationen zum Protokollierungstool finden Sie in der Dokumentation zum lync Server 2010 Protokollierungstool in der [https://go.microsoft.com/fwlink/p/?linkId=199265](https://go.microsoft.com/fwlink/p/?linkid=199265)TechNet-Bibliothek unter.
 
 </div>
 

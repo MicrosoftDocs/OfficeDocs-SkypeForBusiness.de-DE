@@ -12,18 +12,18 @@ ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3827bf913c4108c1105376a6f178598a2fb45a06
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 457702a4b237493beb8ca5dfe1e2d7ce9b3d2654
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41996650"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-client-bootstrapping-policies-in-lync-server-2013"></a>Konfigurieren von clientbootstrapping-Richtlinien in lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "41996650"
 
 _**Letztes Änderungsstand des Themas:** 2013-02-21_
 
-Die Gruppenrichtlinien-Verwaltungskonsole (Group Policy Management Console, GPMC) und der Gruppenrichtlinienobjekt-Editor sind Tools, die Sie zum Verwalten von Gruppenrichtlinien verwenden. Zur administrativen Vorlage für die Office-Gruppenrichtlinie gehören lync 2013. ADMX (ADMX) und. ADML (ADML) administrative Vorlagen, die die registrierungsbasierten Richtlinieneinstellungen enthalten, die Sie für Gruppenrichtlinienobjekte in der Domäne konfigurieren. ADML-Dateien sind sprachspezifische Ergänzungen zu ADMX-Dateien. Jede ADMX-und ADML-Datei enthält die Richtlinieneinstellungen für eine einzelne Office-Anwendung. Weitere Informationen finden Sie unter "Office 2013 administrative Template Files (ADMX, ADML)" in der Office 2013-Dokumentation <http://go.microsoft.com/fwlink/p/?linkid=267516>unter.
+Die Gruppenrichtlinien-Verwaltungskonsole (Group Policy Management Console, GPMC) und der Gruppenrichtlinienobjekt-Editor sind Tools, die Sie zum Verwalten von Gruppenrichtlinien verwenden. Zur administrativen Vorlage für die Office-Gruppenrichtlinie gehören lync 2013. ADMX (ADMX) und. ADML (ADML) administrative Vorlagen, die die registrierungsbasierten Richtlinieneinstellungen enthalten, die Sie für Gruppenrichtlinienobjekte in der Domäne konfigurieren. ADML-Dateien sind sprachspezifische Ergänzungen zu ADMX-Dateien. Jede ADMX-und ADML-Datei enthält die Richtlinieneinstellungen für eine einzelne Office-Anwendung. Weitere Informationen finden Sie unter "Office 2013 administrative Template Files (ADMX, ADML)" in der Office 2013-Dokumentation <https://go.microsoft.com/fwlink/p/?linkid=267516>unter.
 
 Für lync 2013 gibt es mehrere clientbootstrapping-Richtlinien, die Sie konfigurieren sollten, bevor sich Benutzer zum ersten Mal beim Server anmelden. Beispielsweise die Standardserver und der Sicherheitsmodus, die der Client verwenden soll, bis die Anmeldung abgeschlossen ist. Sie können Gruppenrichtlinien verwenden, um diese Einstellungen in den Computer Registrierungen der Benutzer einzurichten, bevor Sie sich anmelden und mit dem Empfang von in-Band-prokonfigurations Einstellungen vom Server beginnen. In der folgenden Tabelle sind die Gruppenrichtlinieneinstellungen aufgeführt, die für lync 2013 verfügbar sind.
 
@@ -155,19 +155,19 @@ Auf dem Server konfigurierte Richtlinien haben Vorrang vor Gruppenrichtlinienein
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Lync Server 2013-in-Band-prozielung</p></td>
 </tr>
 <tr class="even">
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>HKEY_LOCAL_MACHINE \software\policies\microsoft\office\15.0\lync</p></td>
 </tr>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>HKEY_CURRENT_USER \software\policies\microsoft\office\15.0\lync</p></td>
 </tr>
 <tr class="even">
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Das Dialogfeld lync-Optionen in lync 2013</p></td>
 </tr>
 </tbody>

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183219
 ms.date: 06/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b64f06d9ca879236c0842554c1779fb7bbc1cbe
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3dd1aa5bdde1c94e3d0558be14c67cf62ec8142a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038457"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135291"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="certificate-infrastructure-requirements-for-lync-server-2013"></a>Anforderungen an die Zertifikatinfrastruktur für lync Server 2013
 
@@ -59,7 +59,7 @@ Für lync Server gelten die folgenden allgemeinen Anforderungen:
 
   - Alle Serverzertifikate müssen einen Zertifikatsperrlisten-Verteilungspunkt unterstützen.
 
-  - Alle Zertifikate müssen mit einem vom Betriebssystemunter stützten Signaturalgorithmus signiert werden. Lync Server 2013 unterstützt die SHA-1-und SHA-2-Suite mit Digest-Größen (224, 256, 384 und 512-Bit) und erfüllt oder überschreitet die Betriebssystemanforderungen. Informationen zur Betriebssystemunterstützung finden [http://go.microsoft.com/fwlink/?LinkId=287002](http://go.microsoft.com/fwlink/?linkid=287002)Sie unter.
+  - Alle Zertifikate müssen mit einem vom Betriebssystemunter stützten Signaturalgorithmus signiert werden. Lync Server 2013 unterstützt die SHA-1-und SHA-2-Suite mit Digest-Größen (224, 256, 384 und 512-Bit) und erfüllt oder überschreitet die Betriebssystemanforderungen. Informationen zur Betriebssystemunterstützung finden [https://go.microsoft.com/fwlink/?LinkId=287002](https://go.microsoft.com/fwlink/?linkid=287002)Sie unter.
     
     <div>
     

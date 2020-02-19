@@ -12,18 +12,18 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b53b878d7f41a5eb83eb67d98fc69d68709a603
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f05832a3390101aad7acb1c9d25f532288ca020a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008577"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135592"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="active-directory-domain-services-for-lync-server-2013"></a>Active Directory-Domänendienste für lync Server 2013
 
@@ -71,7 +71,7 @@ Ausführliche Informationen finden Sie unter [Active Directory Infrastrukturanfo
 
 
 > [!NOTE]  
-> Es wird empfohlen, globale Einstellungen nicht im Systemcontainer, sondern im Konfigurationscontainer bereitzustellen. Dadurch wird zwar die Sicherheit nicht optimiert, aber es kann zu Verbesserungen bei der Skalierbarkeit für einige Topologien der Active Directory-Domänendienste führen. Wenn Sie von Microsoft Office Communications Server 2007 migrieren und den Systemcontainer verwendet haben, aber den Konfigurationscontainer verwenden möchten, müssen Sie die Einstellungen im Systemcontainer verschieben, bevor Sie ein Upgrade vorbereiten. Informationen zum Migrieren der System Container Einstellungen zum Konfigurationscontainer finden Sie unter Office Communications Server 2007 Migration Tool Global Settings <A href="http://go.microsoft.com/fwlink/p/?linkid=145236">http://go.microsoft.com/fwlink/p/?LinkId=145236</A>unter.
+> Es wird empfohlen, globale Einstellungen nicht im Systemcontainer, sondern im Konfigurationscontainer bereitzustellen. Dadurch wird zwar die Sicherheit nicht optimiert, aber es kann zu Verbesserungen bei der Skalierbarkeit für einige Topologien der Active Directory-Domänendienste führen. Wenn Sie von Microsoft Office Communications Server 2007 migrieren und den Systemcontainer verwendet haben, aber den Konfigurationscontainer verwenden möchten, müssen Sie die Einstellungen im Systemcontainer verschieben, bevor Sie ein Upgrade vorbereiten. Informationen zum Migrieren der System Container Einstellungen zum Konfigurationscontainer finden Sie unter Office Communications Server 2007 Migration Tool Global Settings <A href="https://go.microsoft.com/fwlink/p/?linkid=145236">https://go.microsoft.com/fwlink/p/?LinkId=145236</A>unter.
 
 
 
@@ -219,7 +219,7 @@ Um Microsoft Office Communications Server 2007 R2 und Microsoft Office Communica
 </table>
 
 
-Um vertrauenswürdige Server früherer Versionen zu unterstützen, müssen Sie das Tool Best Practices Analyzer ausführen. Ausführliche Informationen zum Durchführen von Best Practices Analyzer [http://go.microsoft.com/fwlink/p/?LinkId=330633](http://go.microsoft.com/fwlink/p/?linkid=330633)finden Sie unter.
+Um vertrauenswürdige Server früherer Versionen zu unterstützen, müssen Sie das Tool Best Practices Analyzer ausführen. Ausführliche Informationen zum Durchführen von Best Practices Analyzer [https://go.microsoft.com/fwlink/p/?LinkId=330633](https://go.microsoft.com/fwlink/p/?linkid=330633)finden Sie unter.
 
 </div>
 

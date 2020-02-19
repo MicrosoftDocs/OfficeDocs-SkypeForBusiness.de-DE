@@ -12,18 +12,18 @@ ms:contentKeyID: 48183681
 ms.date: 01/15/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ddaf4d5c8d85adfd7d69955df20ab6018966845b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e86fbe2c8ac007f81743bd5a5be105421767089e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037887"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135642"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="accessibility-in-lync-server-2013"></a>Barrierefreiheit in lync Server 2013
 
@@ -49,7 +49,7 @@ Die folgenden Features in lync Server 2013 helfen Benutzern mit Behinderungen, d
 
   - Alternativtext für Abbildungen
 
-Darüber hinaus können einige Barrierefreiheitsfeatures und-Tools von Windows lync Server Benutzern mit Behinderungen zugute kommen. Windows PowerShell Größen-und Farbänderungen bieten Optionen für Barrierefreiheit bei Verwendung der lync Server-Verwaltungsshell. Ausführliche Informationen zu Windows PowerShell Optionen für Barrierefreiheit finden Sie unter "Barrierefreiheit in Windows PowerShell 2,0" in [http://go.microsoft.com/fwlink/p/?linkId=98964](http://go.microsoft.com/fwlink/p/?linkid=98964)der TechNet-Bibliothek unter.
+Darüber hinaus können einige Barrierefreiheitsfeatures und-Tools von Windows lync Server Benutzern mit Behinderungen zugute kommen. Windows PowerShell Größen-und Farbänderungen bieten Optionen für Barrierefreiheit bei Verwendung der lync Server-Verwaltungsshell. Ausführliche Informationen zu Windows PowerShell Optionen für Barrierefreiheit finden Sie unter "Barrierefreiheit in Windows PowerShell 2,0" in [https://go.microsoft.com/fwlink/p/?linkId=98964](https://go.microsoft.com/fwlink/p/?linkid=98964)der TechNet-Bibliothek unter.
 
 </div>
 
@@ -156,7 +156,7 @@ Die folgenden Abschnitte enthalten Informationen zu den Features, Produkten und 
 
 
 > [!NOTE]  
-> Die Informationen in diesem Abschnitt gelten nur für Benutzer, die Microsoft-Produkte in den USA lizenzpflichtig nutzen. Wenn Sie dieses Produkt außerhalb der Vereinigten Staaten erworben haben, können Sie die im Lieferumfang Ihres Softwarepakets enthaltene subsidiäre Informationskarte oder die Microsoft <A href="http://go.microsoft.com/fwlink/p/?linkid=18139">http://go.microsoft.com/fwlink/p/?linkId=18139</A> Accessibility-Website unter für eine Liste der Telefonnummern und Adressen für Microsoft-Supportdienste verwenden. Erfragen Sie bei Ihrer Niederlassung vor Ort, ob die in diesem Abschnitt beschriebenen Produkte und Dienste in Ihrer Region verfügbar sind. Weitere Informationen zu den in Microsoft-Produkten enthaltenen Barrierefreiheitsfunktionen finden Sie auf der Website für Barrierefreiheit in Microsoft-Produkte.
+> Die Informationen in diesem Abschnitt gelten nur für Benutzer, die Microsoft-Produkte in den USA lizenzpflichtig nutzen. Wenn Sie dieses Produkt außerhalb der Vereinigten Staaten erworben haben, können Sie die im Lieferumfang Ihres Softwarepakets enthaltene subsidiäre Informationskarte oder die Microsoft <A href="https://go.microsoft.com/fwlink/p/?linkid=18139">https://go.microsoft.com/fwlink/p/?linkId=18139</A> Accessibility-Website unter für eine Liste der Telefonnummern und Adressen für Microsoft-Supportdienste verwenden. Erfragen Sie bei Ihrer Niederlassung vor Ort, ob die in diesem Abschnitt beschriebenen Produkte und Dienste in Ihrer Region verfügbar sind. Weitere Informationen zu den in Microsoft-Produkten enthaltenen Barrierefreiheitsfunktionen finden Sie auf der Website für Barrierefreiheit in Microsoft-Produkte.
 
 
 
@@ -166,13 +166,13 @@ Die folgenden Abschnitte enthalten Informationen zu den Features, Produkten und 
 
 ## <a name="accessibility-features-of-windows"></a>Barrierefreiheitsfeatures von Windows
 
-Das Windows-Betriebssystem bietet zahlreiche integrierte Barrierefreiheitsfunktionen, die für Personen hilfreich sind, die eine Tastatur oder eine Maus nur mit Schwierigkeiten bedienen können, blind oder sehbehindert sind oder gehörlos oder hörgeschädigt sind. Diese Funktionen werden beim Setup installiert. Ausführliche Informationen zu diesen Features finden Sie unter Windows-Hilfe oder Microsoft [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)Accessibility.
+Das Windows-Betriebssystem bietet zahlreiche integrierte Barrierefreiheitsfunktionen, die für Personen hilfreich sind, die eine Tastatur oder eine Maus nur mit Schwierigkeiten bedienen können, blind oder sehbehindert sind oder gehörlos oder hörgeschädigt sind. Diese Funktionen werden beim Setup installiert. Ausführliche Informationen zu diesen Features finden Sie unter Windows-Hilfe oder Microsoft [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)Accessibility.
 
   - **﻿Kostenlose Schritt-für-Schritt-Tutorials**   Microsoft bietet eine Reihe Schritt-für-Schritt-Anleitungen, in denen detaillierte Verfahren zum Anpassen der Barrierefreiheitsoptionen und Einstellungen auf dem Computer bereitgestellt werden. Diese Informationen werden parallel präsentiert, sodass Sie die Verwendung der Maus, der Tastatur oder die kombinierte Verwendung beider Eingabegeräte erlernen können.
     
-    Eine Schritt-für-Schritt-Anleitung für Microsoft-Produkte finden Sie unter Microsoft [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)Accessibility unter.
+    Eine Schritt-für-Schritt-Anleitung für Microsoft-Produkte finden Sie unter Microsoft [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)Accessibility unter.
 
-  - **Hilfstechnologieprodukte für Windows**   eine Vielzahl von Hilfstechnologieprodukte stehen zur Verfügung, um die Verwendung von Computern für Personen mit Behinderungen zu verbessern. Sie können einen Katalog unterstützter Technologie Produkte Durchsuchen, die unter Windows auf der Microsoft Accessibility-Website [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)unter ausgeführt werden.
+  - **Hilfstechnologieprodukte für Windows**   eine Vielzahl von Hilfstechnologieprodukte stehen zur Verfügung, um die Verwendung von Computern für Personen mit Behinderungen zu verbessern. Sie können einen Katalog unterstützter Technologie Produkte Durchsuchen, die unter Windows auf der Microsoft Accessibility-Website [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)unter ausgeführt werden.
     
     Wenn Sie Hilfstechnologie verwenden, informieren Sie sich bei Ihrem Hilfstechnologieanbieter über mögliche Kompatibilitätsprobleme, bevor Sie Ihre Software oder Hardware aktualisieren.
 
@@ -182,7 +182,7 @@ Das Windows-Betriebssystem bietet zahlreiche integrierte Barrierefreiheitsfunkti
 
 ## <a name="documentation-in-alternative-formats"></a>Dokumentation in alternativen Formaten
 
-Falls Sie Probleme beim Lesen oder Verwenden von gedruckten Dokumenten haben, können Sie sich die Dokumentation für viele Microsoft-Produkte in anderen Formaten besorgen, die den Zugriff für Personen mit Behinderungen erleichtern. Einen Index der barrierefreien Produktdokumentation finden Sie auf der Microsoft Accessibility-Website [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)unter.
+Falls Sie Probleme beim Lesen oder Verwenden von gedruckten Dokumenten haben, können Sie sich die Dokumentation für viele Microsoft-Produkte in anderen Formaten besorgen, die den Zugriff für Personen mit Behinderungen erleichtern. Einen Index der barrierefreien Produktdokumentation finden Sie auf der Microsoft Accessibility-Website [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)unter.
 
 Darüber hinaus können Sie weitere Microsoft-Publikationen von Recording for the Blind & Legasthenie, Inc (RFB\&D) erhalten. RFB\&D verteilt diese Dokumente an registrierte, berechtigte Mitglieder Ihres Verteilungs Diensts. Informationen zur Verfügbarkeit der Microsoft-Produktdokumentation und der Bücher von Microsoft Press erhalten Sie\&von RFB D.
 
@@ -211,7 +211,7 @@ Darüber hinaus können Sie weitere Microsoft-Publikationen von Recording for th
 
 Microsoft möchte allen Kunden die bestmögliche Erfahrung bieten, einschließlich Personen mit Behinderungen. Wenn Sie Hilfe benötigen, wenden Sie sich an unser Support Team für Barrierefreiheit, das geschult wird, um Personen mit Behinderungen per Telefon oder e-Mail zu helfen.
 
-[Wenden Sie sich an den Antwort Schreibtisch für Behinderungen.](http://support.microsoft.com/gp/contact-microsoft-accessibility)
+[Wenden Sie sich an den Antwort Schreibtisch für Behinderungen.](https://support.microsoft.com/gp/contact-microsoft-accessibility)
 
 Direkte Telefonleitung: 1-800-936-5900
 
@@ -233,7 +233,7 @@ Wenn Sie taub oder hörgeschädigt sind, können Sie über den Texttelefondienst
 
   - Technische Unterstützung in den USA bietet der Produktsupport von Microsoft, den Sie unter der Rufnummer (800) 892-5234 montags bis freitags von 06:00 bis 18:00 Uhr (Pacific Time) erreichen, außer an Feiertagen. In Kanada ist die Rufnummer (905) 568-9641 montags bis freitags von 08:00 bis 20:00 Uhr (Eastern Standard Time) erreichbar, außer an Feiertagen.
 
-Der Microsoft-Produktsupport unterliegt den Preisen und Bedingungen, die zum Zeitpunkt der Inanspruchnahme des Diensts gelten. Ausführliche Informationen finden Sie unter Microsoft- [http://go.microsoft.com/fwlink/p/?linkId=18142](http://go.microsoft.com/fwlink/p/?linkid=18142)Support unter.
+Der Microsoft-Produktsupport unterliegt den Preisen und Bedingungen, die zum Zeitpunkt der Inanspruchnahme des Diensts gelten. Ausführliche Informationen finden Sie unter Microsoft- [https://go.microsoft.com/fwlink/p/?linkId=18142](https://go.microsoft.com/fwlink/p/?linkid=18142)Support unter.
 
 </div>
 
@@ -243,7 +243,7 @@ Der Microsoft-Produktsupport unterliegt den Preisen und Bedingungen, die zum Zei
 
 ## <a name="for-more-information"></a>Weitere Informationen
 
-Ausführliche Informationen dazu, wie barrierefreie Technologien für Computer das Leben von Menschen mit Behinderungen verbessern können, finden [http://go.microsoft.com/fwlink/p/?linkId=18139](http://go.microsoft.com/fwlink/p/?linkid=18139)Sie unter Microsoft Accessibility.
+Ausführliche Informationen dazu, wie barrierefreie Technologien für Computer das Leben von Menschen mit Behinderungen verbessern können, finden [https://go.microsoft.com/fwlink/p/?linkId=18139](https://go.microsoft.com/fwlink/p/?linkid=18139)Sie unter Microsoft Accessibility.
 
 </div>
 

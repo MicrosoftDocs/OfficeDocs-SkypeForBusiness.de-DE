@@ -12,18 +12,18 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f20d297e1d127d167aa8acc059f5b6f89cc96d13
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d0cd27f961d3b4857cf13d5786897bd29a657851
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036505"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42135562"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Kapazitätsplanung für den Server für beständigen Chat in lync Server 2013
 
@@ -41,7 +41,7 @@ Der Server für beständigen Chat kann mehr Benutzer-Echtzeitchats ausführen, d
 
 Die Kapazitätsplanung ist ein wichtiger Bestandteil der Vorbereitung der Bereitstellung des Servers für beständigen Chat. Dieses Thema enthält Details zu unterstützten Topologien und Kapazitäts Planungstabellen für beständigen Chat Server, mit denen Sie die beste Konfiguration für Ihre Bereitstellung bestimmen können. Außerdem wird beschrieben, wie Sie Server Bereitstellungen mit persistentem Chat am besten verwalten, die zu Spitzenzeiten eine höhere Kapazität erfordern.
 
-Informationen zum Herunterladen von [http://go.microsoft.com/fwlink/p/?linkId=209539](http://go.microsoft.com/fwlink/p/?linkid=209539)persistent Chat Server finden Sie unter "Microsoft lync Server 13 persistent Chat Server" unter.
+Informationen zum Herunterladen von [https://go.microsoft.com/fwlink/p/?linkId=209539](https://go.microsoft.com/fwlink/p/?linkid=209539)persistent Chat Server finden Sie unter "Microsoft lync Server 13 persistent Chat Server" unter.
 
 Ausführliche Informationen zum Installieren des Servers für beständigen Chat finden Sie unter [Installing persistent Chat Server in lync Server 2013](lync-server-2013-installing-persistent-chat-server.md) und [Configuring persistent Chat Server in lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) in der Bereitstellungsdokumentation.
 
@@ -212,21 +212,21 @@ Die folgende Beispieltabelle hilft Ihnen bei der Planung der Verwaltung des Zugr
 <td><p>Offene Räume (keine explizite Mitgliedschaft)</p></td>
 <td><p>960</p></td>
 <td><p>32</p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>997</p></td>
 </tr>
 <tr class="even">
 <td><p>Nicht geöffnete Räume (reguläre Räume mit expliziter Mitgliedschaft)</p></td>
 <td><p>31.040</p></td>
 <td><p>1,035</p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>32.080</p></td>
 </tr>
 <tr class="odd">
 <td><p>Auditoriumräume (zusätzlicher Referenten Eintrag)</p></td>
 <td><p>0</p></td>
 <td><p>32</p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td></td>
 </tr>
 <tr class="even">
@@ -259,8 +259,8 @@ Die folgende Beispieltabelle hilft Ihnen bei der Planung der Verwaltung des Zugr
 </tr>
 <tr class="even">
 <td><p>Benutzergruppen in der Mitgliederliste der einzelnen Chatrooms für nicht offene Räume</p></td>
-<td><p>3 </p></td>
-<td><p>5 </p></td>
+<td><p>3</p></td>
+<td><p>5</p></td>
 <td><p>10 </p></td>
 <td></td>
 </tr>
@@ -515,7 +515,7 @@ Bei den Beispieldaten in der folgenden Tabelle wird davon ausgegangen, dass die 
 <tr class="odd">
 <td><p>Chat Rate pro Benutzer pro Tag</p></td>
 <td><p>15 </p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>0,1</p></td>
 <td><p>20</p></td>
 </tr>
@@ -559,7 +559,7 @@ In der folgenden Tabelle wird das Benutzermodell für den Server für beständig
 </tr>
 <tr class="even">
 <td><p>Anzahl der Server Dienstinstanzen für beständigen Chat</p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 </tr>
 <tr class="odd">
 <td><p>Umfang kleiner Chatrooms</p></td>
@@ -599,11 +599,11 @@ In der folgenden Tabelle wird das Benutzermodell für den Server für beständig
 </tr>
 <tr class="even">
 <td><p>Anzahl von mittelgroßen Chatrooms pro Benutzer</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="odd">
 <td><p>Anzahl von großen Chatrooms pro Benutzer</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="even">
 <td><p>Anzahl der hinzugefügten Chatrooms pro Benutzer</p></td>

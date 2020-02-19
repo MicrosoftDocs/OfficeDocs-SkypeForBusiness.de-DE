@@ -12,18 +12,18 @@ ms:contentKeyID: 63969662
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2db1e1e0a94a73c520a3beb0ea1375688b106cfc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e7306b56fca8feada05ee895eea64dc2aecfafb0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007414"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42115108"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="validating-address-book-web-query-in-lync-server-2013"></a>Überprüfen der Adressbuch-Webabfrage in lync Server 2013
 
@@ -76,7 +76,7 @@ Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet [Test-CsAd
 
 ## <a name="running-the-test"></a>Durchführen des Tests
 
-Das Cmdlet Test-CsAddressBookWebQuery kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten zum Ausführen lync Server Tests) oder nach dem Konto eines beliebigen Benutzers, der für lync Server aktiviert ist. Um diese Prüfung mit einem Test Konto auszuführen, müssen Sie lediglich den FQDN des lync Server Pools und die SIP-Adresse des Benutzers angeben, der als Ziel der Suche fungiert. Beispiel:
+Das Cmdlet Test-CsAddressBookWebQuery kann entweder mit einem vorkonfigurierten Test Konto ausgeführt werden (siehe Einrichten von Testkonten zum Ausführen lync Server Tests) oder nach dem Konto eines beliebigen Benutzers, der für lync Server aktiviert ist. Um diese Prüfung mit einem Test Konto auszuführen, müssen Sie lediglich den FQDN des lync Server Pools und die SIP-Adresse des Benutzers angeben, der als Ziel der Suche fungiert. Zum Beispiel:
 
     Test-CsAddressBookWebQuery -TargetFqdn "atl-cs-001.litwareinc.com" -TargetSipAddress "sip:davidlongmire@litwareinc.com"
 
