@@ -12,18 +12,18 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b0a6179e77e4688693fe277748a8933a9dbe911
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 50bd8d3fb538a7450d2129691ec523dbcb6dd208
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006201"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146788"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="hardening-and-protecting-servers-and-applications-for-lync-server-2013"></a>Härten und schützen von Servern und Anwendungen für lync Server 2013
 
@@ -61,7 +61,7 @@ Bei Anwendungsservern sollten das Betriebssystem und die Anwendungen gesichert w
 
 ## <a name="securing-virtual-servers"></a>Sichern von virtuellen Servern
 
-Snapshots virtueller Server enthalten Kopien der Datenträger des Servers und enthalten auch Dumps von Daten im Arbeitsspeicher, die beide vertrauliche kryptografische Daten enthalten können, die zu Angriffen führen könnten. Bei Produktionsservern, die mithilfe von Virtualisierung implementiert werden, sollten Sie alle Server-Snapshots deaktivieren oder diese auf sehr kontrollierte Weise verwalten. Ausführliche Informationen zum Sichern virtueller Hyper-v-Server finden Sie im Hyper-v-Sicherheitshandbuch [http://go.microsoft.com/fwlink/p/?LinkId=214176](http://go.microsoft.com/fwlink/p/?linkid=214176)unter:.
+Snapshots virtueller Server enthalten Kopien der Datenträger des Servers und enthalten auch Dumps von Daten im Arbeitsspeicher, die beide vertrauliche kryptografische Daten enthalten können, die zu Angriffen führen könnten. Bei Produktionsservern, die mithilfe von Virtualisierung implementiert werden, sollten Sie alle Server-Snapshots deaktivieren oder diese auf sehr kontrollierte Weise verwalten. Ausführliche Informationen zum Sichern virtueller Hyper-v-Server finden Sie im Hyper-v-Sicherheitshandbuch [https://go.microsoft.com/fwlink/p/?LinkId=214176](https://go.microsoft.com/fwlink/p/?linkid=214176)unter:.
 
 </div>
 
@@ -95,7 +95,7 @@ Sie können über die Datei GPedit.dll auf die Einstellungen zugreifen. Diese Da
 
 ## <a name="group-policy-security-settings"></a>Sicherheitseinstellungen in Gruppenrichtlinien
 
-Die Gruppenrichtlinie enthält Sicherheitseinstellungen für ein GPO unter Computer Konfiguration/Windows-Einstellungen/Sicherheitseinstellungen beim Zugriff von gpedit. dll. Sie können Sicherheitsvorlagen importieren, um Sicherheitseinstellungen für das GPO zu konfigurieren. Das Windows Server 2008 Security Guide [http://go.microsoft.com/fwlink/p/?LinkId=145186](http://go.microsoft.com/fwlink/p/?linkid=145186) and the Windows Server 2008 R2 Security Compliance Management Toolkit unter [http://go.microsoft.com/fwlink/p/?LinkId=211882](http://go.microsoft.com/fwlink/p/?linkid=211882) enthält eine Reihe von Beispielvorlagen, die Sie Ihren Anforderungen entsprechend ändern können.
+Die Gruppenrichtlinie enthält Sicherheitseinstellungen für ein GPO unter Computer Konfiguration/Windows-Einstellungen/Sicherheitseinstellungen beim Zugriff von gpedit. dll. Sie können Sicherheitsvorlagen importieren, um Sicherheitseinstellungen für das GPO zu konfigurieren. Das Windows Server 2008 Security Guide [https://go.microsoft.com/fwlink/p/?LinkId=145186](https://go.microsoft.com/fwlink/p/?linkid=145186) and the Windows Server 2008 R2 Security Compliance Management Toolkit unter [https://go.microsoft.com/fwlink/p/?LinkId=211882](https://go.microsoft.com/fwlink/p/?linkid=211882) enthält eine Reihe von Beispielvorlagen, die Sie Ihren Anforderungen entsprechend ändern können.
 
 </div>
 

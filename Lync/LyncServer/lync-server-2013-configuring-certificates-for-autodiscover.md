@@ -12,18 +12,18 @@ ms:contentKeyID: 51541453
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d78aff761f1df9140bfc491e94ba98e1a0814f25
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1e2f39db761462f2f92ebde377fc9c9ecc5c27b6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043877"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-certificates-for-autodiscover-in-lync-server-2013"></a>Konfigurieren von Zertifikaten für die AutoErmittlung in lync Server 2013
 
@@ -73,7 +73,7 @@ Die Zertifikate für Ihre Directorpool, Front-End-Pool und Reverseproxy erforder
     
     **Wichtig:**
     
-    Wenn für jeden Verwendungszweck ein anderes Zertifikat zugewiesen ist (der Thumbprint-Wert ist für jedes Zertifikat unterschiedlich), ist es wichtig, dass Sie das **Set-CsCertificate**-Cmdlet nicht mit mehreren Typen ausführen. Führen Sie in diesem Fall das **Set-CsCertificate**-Cmdlet für jeden Verwendungszweck separat aus. Beispiel:
+    Wenn für jeden Verwendungszweck ein anderes Zertifikat zugewiesen ist (der Thumbprint-Wert ist für jedes Zertifikat unterschiedlich), ist es wichtig, dass Sie das **Set-CsCertificate**-Cmdlet nicht mit mehreren Typen ausführen. Führen Sie in diesem Fall das **Set-CsCertificate**-Cmdlet für jeden Verwendungszweck separat aus. Zum Beispiel:
     
         Set-CsCertificate -Type Default -Thumbprint <Certificate Thumbprint>
         Set-CsCertificate -Type WebServicesInternal -Thumbprint <Certificate Thumbprint>

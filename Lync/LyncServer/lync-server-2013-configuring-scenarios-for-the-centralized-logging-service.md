@@ -12,18 +12,18 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a39bcd23516970edf1c4694a8eff1ecb682eda1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: aa94715cd3360e032f2d791c0e02cc791c437185
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041024"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146928"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a>Konfigurieren von Szenarien für den zentralisierten Protokollierungsdienst in lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42041024"
 
 _**Letztes Änderungsstand des Themas:** 2014-02-05_
 
-Szenarien definieren den Bereich (Global, Standort, Pool oder Computer) und welche Anbieter im zentralisierten Protokollierungsdienst verwendet werden sollen. Mithilfe von Szenarios können Sie die Ablaufverfolgung für Anbieter aktivieren oder deaktivieren (beispielsweise S4, SIPStack, Chat und Anwesenheit). Durch Konfigurieren eines Szenarios können Sie alle Anbieter für eine bestimmte logische Auflistung gruppieren, die eine bestimmte Problem Bedingung behandeln. Wenn Sie feststellen, dass ein Szenario geändert werden muss, um die Anforderungen an die Problembehandlung und Protokollierung zu erfüllen, bietet Ihnen die lync Server 2013 Debug-Tools ein Windows PowerShell Modul mit dem Namen *ClsController. psm1* , das eine Funktion mit dem Namen *Edit-CsClsScenario*enthält. Der Zweck des Moduls besteht darin, die Eigenschaften des benannten Szenarios zu bearbeiten. Beispiele zur Funktionsweise dieses Moduls finden Sie in diesem Thema. Die lync Server 2013 Debug-Tools werden unter folgendem Link heruntergeladen:[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+Szenarien definieren den Bereich (Global, Standort, Pool oder Computer) und welche Anbieter im zentralisierten Protokollierungsdienst verwendet werden sollen. Mithilfe von Szenarios können Sie die Ablaufverfolgung für Anbieter aktivieren oder deaktivieren (beispielsweise S4, SIPStack, Chat und Anwesenheit). Durch Konfigurieren eines Szenarios können Sie alle Anbieter für eine bestimmte logische Auflistung gruppieren, die eine bestimmte Problem Bedingung behandeln. Wenn Sie feststellen, dass ein Szenario geändert werden muss, um die Anforderungen an die Problembehandlung und Protokollierung zu erfüllen, bietet Ihnen die lync Server 2013 Debug-Tools ein Windows PowerShell Modul mit dem Namen *ClsController. psm1* , das eine Funktion mit dem Namen *Edit-CsClsScenario*enthält. Der Zweck des Moduls besteht darin, die Eigenschaften des benannten Szenarios zu bearbeiten. Beispiele zur Funktionsweise dieses Moduls finden Sie in diesem Thema. Die lync Server 2013 Debug-Tools werden unter folgendem Link heruntergeladen:[https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?linkid=285257)
 
 <div>
 
@@ -90,7 +90,7 @@ Wie in der [Übersicht über den zentralisierten Protokollierungsdienst in lync 
     
         New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
     
-    Beispiel:
+    Zum Beispiel:
     
         New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
     
@@ -114,7 +114,7 @@ Wie in der [Übersicht über den zentralisierten Protokollierungsdienst in lync 
     
 
     > [!NOTE]  
-    > Wie in Windows PowerShell bekannt, wird die Konvention zum Erstellen einer Hashtabelle mit Werten verwendet <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> als <EM>splatting</EM>bezeichnet. Ausführliche Informationen zu splatting in Windows PowerShell finden Sie <A href="http://go.microsoft.com/fwlink/p/?linkid=267760">http://go.microsoft.com/fwlink/p/?LinkId=267760</A>unter.
+    > Wie in Windows PowerShell bekannt, wird die Konvention zum Erstellen einer Hashtabelle mit Werten verwendet <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> als <EM>splatting</EM>bezeichnet. Ausführliche Informationen zu splatting in Windows PowerShell finden Sie <A href="https://go.microsoft.com/fwlink/p/?linkid=267760">https://go.microsoft.com/fwlink/p/?LinkId=267760</A>unter.
 
     
     </div>

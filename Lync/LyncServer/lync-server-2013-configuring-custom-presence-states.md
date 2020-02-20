@@ -12,18 +12,18 @@ ms:contentKeyID: 48185534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75e2e47af4951e98f21ea6b26572d39b5eebcb8d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 304bd14e62f6ee9c629dfcf43e37cb8ee7880cb6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046478"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146958"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-custom-presence-states-in-lync-server-2013"></a>Konfigurieren von benutzerdefinierten Anwesenheitsstatus in lync Server 2013
 
@@ -70,7 +70,7 @@ Konfigurationsdateien weisen die folgenden Eigenschaften auf:
 
 </div>
 
-Sie können eine Übersetzung Ihrer benutzerdefinierten Anwesenheitsstatus bereitstellen, indem Sie eine oder mehrere Gebietsschema-IDs in Ihrer XML-Konfigurationsdatei angeben. Das Beispiel weiter unten in diesem Thema zeigt die Übersetzung in Englisch – USA (1033), Norwegisch – Bokmål (1044), Französisch – Frankreich (1036) und Türkisch (1055). Eine Liste der LCIDs finden Sie Untergebiets Schema-IDs, die <http://go.microsoft.com/fwlink/p/?linkid=157331>von Microsoft unter zugewiesen wurden.
+Sie können eine Übersetzung Ihrer benutzerdefinierten Anwesenheitsstatus bereitstellen, indem Sie eine oder mehrere Gebietsschema-IDs in Ihrer XML-Konfigurationsdatei angeben. Das Beispiel weiter unten in diesem Thema zeigt die Übersetzung in Englisch – USA (1033), Norwegisch – Bokmål (1044), Französisch – Frankreich (1036) und Türkisch (1055). Eine Liste der LCIDs finden Sie Untergebiets Schema-IDs, die <https://go.microsoft.com/fwlink/p/?linkid=157331>von Microsoft unter zugewiesen wurden.
 
 <div>
 
