@@ -1,8 +1,8 @@
 ---
 title: Verwalten von Skype for Business Server 2019 mit SCOM Management Pack
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Ihre Skype for Business Server 2019-Infrastruktur für die Verwendung mit System Center Operations Manager konfigurieren.'
-ms.openlocfilehash: ac8b9a99794ee12be5d6ac31b0361f46730a8e21
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 54c9f3dadb73df45ddc21cfc40ff83711032a4c2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006040"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150542"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Verwalten von Skype for Business Server 2019 mit SCOM Management Pack
  
@@ -126,11 +126,11 @@ Skype for Business Server 2019-Management Packs bieten erhöhte Abdeckung für W
 
 ||||
 |:-----|:-----|:-----|
-|1   <br/> |Registrierung (Benutzeranmeldung)  <br/> |Verfügbar lync Server 2010 und darüber hinaus  <br/> |
-|2   <br/> |Adressbuchdienst (Dateidownload)  <br/> |Verfügbar lync Server 2010 und darüber hinaus  <br/> |
-|3   <br/> |Adressbuchwebabfrage  <br/> |Verfügbar lync Server 2010 und darüber hinaus  <br/> |
-|4   <br/> |Anwesenheit  <br/> |Verfügbar lync Server 2010 und darüber hinaus  <br/> |
-|5   <br/> |Einheitlicher Kontaktspeicher  <br/> |Verfügbar lync Server 2013 und darüber hinaus  <br/> |
+|1  <br/> |Registrierung (Benutzeranmeldung)  <br/> |Verfügbar lync Server 2010 und darüber hinaus  <br/> |
+|2  <br/> |Adressbuchdienst (Dateidownload)  <br/> |Verfügbar lync Server 2010 und darüber hinaus  <br/> |
+|3  <br/> |Adressbuchwebabfrage  <br/> |Verfügbar lync Server 2010 und darüber hinaus  <br/> |
+|4  <br/> |Anwesenheit  <br/> |Verfügbar lync Server 2010 und darüber hinaus  <br/> |
+|5  <br/> |Einheitlicher Kontaktspeicher  <br/> |Verfügbar lync Server 2013 und darüber hinaus  <br/> |
    
 **Unterstützte synthetische Transaktionen für Peer-to-Peer-Dienste**
 
@@ -149,9 +149,9 @@ Skype for Business Server 2019-Management Packs bieten erhöhte Abdeckung für W
 |:-----|:-----|:-----|
 |9   <br/> |Audio-Video Konferenzen  <br/> |Verfügbar in lync Server 2010 und darüber hinaus  <br/> |
 |10   <br/> |Datenkonferenzen  <br/> |Verfügbar in lync Server 2013 und darüber hinaus  <br/> |
-|11  <br/> |Sofortnachrichtenkonferenzen  <br/> |Verfügbar in lync Server 2010 und darüber hinaus  <br/> |
+|11   <br/> |Sofortnachrichtenkonferenzen  <br/> |Verfügbar in lync Server 2010 und darüber hinaus  <br/> |
 |12  <br/> | Beständiger Chat <br/> |Verfügbar in lync Server 2013 und darüber hinaus  <br/> |
-|13  <br/> |Join Launcher (geplante Besprechungen)  <br/> |Verfügbar in lync Server 2013 und darüber hinaus  <br/> |
+|13   <br/> |Join Launcher (geplante Besprechungen)  <br/> |Verfügbar in lync Server 2013 und darüber hinaus  <br/> |
 |14   <br/> |Einwahlkonferenzen  <br/> |Verfügbar in Skype for Business Server 2015 und darüber hinaus <br/> |
 |15   <br/> |Anwendungsfreigabe Konferenzen  <br/> |Verfügbar in Skype for Business Server 2015 und darüber hinaus <br/> |
 |16   <br/> |UCWA-Konferenz (webbesprechungs Beitritt)  <br/> |Verfügbar in Skype for Business Server 2015 und darüber hinaus <br/> |

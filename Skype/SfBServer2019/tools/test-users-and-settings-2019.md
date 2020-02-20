@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren von Benutzern und Einstellungen für den Watcher-Knotentest
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Konfigurieren von Testbenutzerkonten und Watcher-Knoten Einstellungen für Skype for Business Server synthetischen Transaktionen.'
-ms.openlocfilehash: f13680d16a248be339ee7cd4a085d7d0894146dc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bfbad6fbeb68100adaaee781c135531d226f43bb
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033674"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150496"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Konfigurieren von Benutzern und Einstellungen für den Watcher-Knotentest
  
@@ -354,7 +354,7 @@ Diese Befehlszeile ist nach Abschluss der Migration erfolgreich.
 
 Für die synthetische XMPP-Sofortnachrichten Transaktion (Extensible Messaging and Presence Protocol) ist es erforderlich, dass Sie das XMPP-Feature mit einer oder mehreren Verbunddomänen konfigurieren.
   
-Um die synthetische XMPP-Transaktion zu aktivieren, müssen Sie einen XmppTestReceiverMailAddress-Parameter mit einem Benutzerkonto in einer routingfähigen XMPP-Domäne bereitstellen. Beispiel:
+Um die synthetische XMPP-Transaktion zu aktivieren, müssen Sie einen XmppTestReceiverMailAddress-Parameter mit einem Benutzerkonto in einer routingfähigen XMPP-Domäne bereitstellen. Zum Beispiel:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com

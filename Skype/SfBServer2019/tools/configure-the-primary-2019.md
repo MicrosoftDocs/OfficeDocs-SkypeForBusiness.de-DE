@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren des primären Verwaltungsservers
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Konfigurieren des primären Verwaltungsservers, Installieren von System Center Operations Manager und Importieren von Management Packs für Skype for Business Server 2019.'
-ms.openlocfilehash: ccc522da216b98e6f18ea381a74aff19fc5cc24d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2ad04419ec60e7c752d22c4cdc5c4e82fdb853f2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006050"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150552"
 ---
 # <a name="configure-the-primary-management-server"></a>Konfigurieren des primären Verwaltungsservers
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räumen erläutert.
-ms.openlocfilehash: ace96ae0cc8094c1daa7d74f76790e6316ee9411
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fc83efc2b3b72be532d29b2698370c655a1da9ac
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825803"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155087"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -248,7 +248,7 @@ In diesem Update eingeführt:
 
 In diesem Update eingeführt:
 
-- Unterstützung für die Dock-Hardware der [Polycom MSR-Serie](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
+- Unterstützung für die Dock-Hardware der [Polycom MSR-Serie](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
 - Unterstützung für die [Logitech Brio](https://www.logitech.com/product/brio)
 - Behebt ein Problem, bei dem Anzeige (Konsole und Front-of-room) nicht in den Ruhemodus wechselt, wenn keine Aktivitäten im Chatroom vorhanden sind
 
@@ -258,7 +258,7 @@ In diesem Update eingeführt:
 
 - Läuft auf einem Surface pro (2017)-Tablet 
 - Unterstützt Windows 10 Enterprise Creators Update (englische Sprache, Build 1703)
-- Unterstützung für [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system) Dock-Hardware
+- Unterstützung für [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system) Dock-Hardware
 - OEM-Unterstützung für Umgebungs Steuerelemente (Crestron)
 
 Die 64-Bit-Version von Windows 10 Enterprise Anniversary Edition (englische Sprache, Version 1607) wird ab Version 3.0.12.0 (Update 3) von Microsoft Teams rooms nicht mehr unterstützt.

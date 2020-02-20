@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'Skype for Business Server Normalisierungsregeln verwenden .NET Framework reguläre Ausdrücke, um gewählte Telefonnummern in das E. 164-Format zu übersetzen; mit anderen Worten: Normalisierungsregeln nehmen die von einem Benutzer gewählte Telefonnummer an und wandeln diese Nummer in das Format um, das von Skype for Business Server intern verwendet wird. Jedem Wählplan muss mindestens eine Normalisierungsregel zugewiesen werden.'
-ms.openlocfilehash: 42ec43a08d1c155f61869bdfebf07e94ac040e56
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2fd7f59bcebcfe676a03ce5a6a897336551ddbad
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028846"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151215"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Definieren von Normalisierungsregeln in Skype for Business Server
 
@@ -24,7 +24,7 @@ Skype for Business Server Normalisierungsregeln verwenden .NET Framework regulä
 
 Ausführliche Informationen zu Normalisierungsregeln finden Sie unter [Dial Plans and normalize Rules](https://technet.microsoft.com/library/gg413082(v=ocs.15).aspx).
 
-Ausführliche Informationen zum Schreiben von regulären Ausdrücken finden Sie unter [.NET Framework reguläre Ausdrücke](http://go.microsoft.com/fwlink/p/?linkId=140927).
+Ausführliche Informationen zum Schreiben von regulären Ausdrücken finden Sie unter [.NET Framework reguläre Ausdrücke](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
 Mithilfe einer der beiden folgenden Methoden können Sie eine Übersetzungsregel definieren oder bearbeiten:
 - [Verwenden Sie das Tool zum **Erstellen einer Normalisierungsregel** ](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) , um Werte für die Anfangsziffern, die Länge, die zu entfernenden Ziffern und die hinzuzufügenden Ziffern anzugeben, und lassen Sie dann Skype for Business Server Systemsteuerung das entsprechende Übereinstimmungsmuster und die Übersetzungsregel generieren.

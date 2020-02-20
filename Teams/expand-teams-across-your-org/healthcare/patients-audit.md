@@ -1,7 +1,7 @@
 ---
 title: 'Auditing patients-App für Teams IT-und Compliance-Administratoren '
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Patienten-App für Teams-Administratoren
-ms.openlocfilehash: fd2aa97e9eb8fefdcaa4e9a4ccc432f42dbee5ce
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 03aa421a72ab1402e0574a65117fa1eb182f1a47
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827613"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147708"
 ---
 # <a name="audit-logs-for-patients-app"></a>Überwachungsprotokolle für die Patienten-App
 

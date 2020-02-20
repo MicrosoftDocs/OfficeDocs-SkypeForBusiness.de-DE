@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams-Richtlinienpakete für EDU-Administratoren
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: prkuch
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Richtlinien Pakete in Microsoft Teams verwenden und verwalten.
-ms.openlocfilehash: a06e32d72f4bd82b1db6b74e32312c113a1d7086
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d4a11952ea65a5380abb3ba284e13bab6d5d4e90
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837345"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155047"
 ---
 # <a name="microsoft-teams-policy-packages-for-edu-admins"></a>Microsoft Teams-Richtlinienpakete für EDU-Administratoren
 

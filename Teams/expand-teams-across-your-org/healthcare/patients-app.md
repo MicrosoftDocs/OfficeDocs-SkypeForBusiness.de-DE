@@ -1,7 +1,7 @@
 ---
 title: Übersicht der Patienten-App
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft Teams patients App EPA-Integration
-ms.openlocfilehash: 8d5723f90fe56c2af342f1cfd76e3ab9bde04c60
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 27149ad8466eec9bd3c1f73293f82a877dc1a722
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827653"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147718"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams
 
@@ -79,7 +79,7 @@ Die Dienst-zu-Service-Authentifizierung sollte über den OAuth 2,0- [Client Anme
     {"CapabilityStatement": ".
         .
         .
-        "Ruhezustand": [{"Modus": "Server"; "Sicherheit": {"Extension": [{"Extension": [{"URL": "Token", "valueUri":https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token""}, {"URL": "autorisieren"; "valueUri"https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize: ""}], "URL"http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris: ""}], "Service": [{"Coding": [{"System"http://hl7.org/fhir/ValueSet/restful-security-service: ""; "Code": "OAuth"}]}]},.
+        "Ruhezustand": [{"Modus": "Server"; "Sicherheit": {"Extension": [{"Extension": [{"URL": "Token", "valueUri":https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token""}, {"URL": "autorisieren"; "valueUri"https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize: ""}], "URL"http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris: ""}], "Service": [{"Coding": [{"System"https://hl7.org/fhir/ValueSet/restful-security-service: ""; "Code": "OAuth"}]}]},.
                 .
                 .
             } ] }
@@ -166,6 +166,6 @@ Nachdem Sie den Open-Source-FHIR-Server erstellt haben, ist es wirklich einfach,
 
     ![Screenshot der Einstellungen des Patienten-App-Servers](../../media/patients-server.png)
 
-5. Beginnen Sie mit der Verwendung der APP, um nach Patienten vom FHIR-Server/EPA zu suchen und Sie zu einer Liste hinzuzufügen, und [Geben Sie uns Feedback](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) , wenn etwas nicht funktioniert. Um eine vollständig authentifizierte Version der Patienten-app-#a0 FHIR-Server Fluss einzurichten, müssen Sie sich über die zuvor erwähnte e-Mail-Anforderung an den Offline Dialog mit Microsoft Teams für Healthcare Product Engineering beteiligen, und wir werden Ihnen helfen, dies für Sie gemäß den oben beschriebenen Authentifizierungsanforderungen im FHIR-Schnittstellen Dokument zu aktivieren.  
+5. Beginnen Sie mit der Verwendung der APP, um nach Patienten vom FHIR-Server/EPA zu suchen und Sie zu einer Liste hinzuzufügen, und [Geben Sie uns Feedback](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) , wenn etwas nicht funktioniert. Um eine vollständig authentifizierte Version der Patienten-app-> FHIR-Server Fluss einzurichten, müssen Sie sich über die zuvor erwähnte e-Mail-Anforderung an den Offline Dialog mit Microsoft Teams für Healthcare Product Engineering beteiligen, und wir werden Ihnen helfen, dies für Sie gemäß den oben beschriebenen Authentifizierungsanforderungen im FHIR-Schnittstellen Dokument zu aktivieren.  
 
 

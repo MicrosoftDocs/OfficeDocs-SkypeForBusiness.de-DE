@@ -1,7 +1,7 @@
 ---
 title: Nachrichtendelegierung
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: Ein Benutzer kann einen anderen Benutzer explizit als Stellvertretung in seiner Statusmeldung einrichten.
-ms.openlocfilehash: ec1f590cad4ada605b4a487d982b3a2459ecb5f2
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e76181ff69f2d4e6ed75183bdb5fbdda695d05e4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827783"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153807"
 ---
 # <a name="message-delegation"></a>Nachrichtendelegierung
 
@@ -46,9 +46,9 @@ Administratoren sollten beachten, dass Statushinweise und das Verhalten der Dele
 
 |Koexistenzmodus | Erwartetes Verhalten|
 |---|---|
-|TeamsOnly |Benutzer können eine Notiz nur von Teams aus einrichten. <br> Die Notizen des Benutzers für Teams sind in Teams #a0 SFB sichtbar. |
+|TeamsOnly |Benutzer können eine Notiz nur von Teams aus einrichten. <br> Die Notizen des Benutzers für Teams sind in Teams & SFB sichtbar. |
 |Inseln | Die Notiz des Benutzers wird in Teams, die nur in Teams sichtbar sind, festgesetzt. <br> Die Notizen des Benutzers, die in SFB festgesetzt sind, werden nur in SFB angezeigt |
-|SFB *-Modi | Benutzer können eine Notiz nur in SFB einrichten. <br> Die SFB-Notiz des Benutzers ist in den SFB-#a0 Teams sichtbar.  |
+|SFB *-Modi | Benutzer können eine Notiz nur in SFB einrichten. <br> Die SFB-Notiz des Benutzers ist in den SFB-& Teams sichtbar.  |
 |||
 
 Ein Benutzer kann in Teams nur dann eine Notiz setzen, wenn sein Modus TeamsOnly oder Islands ist.  

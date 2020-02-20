@@ -1,7 +1,7 @@
 ---
 title: Planen einer automatischen Cloud-Telefonzentrale
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung einer automatischen Cloud-Telefonzentrale mit Skype for Business Server 2019
-ms.openlocfilehash: f7a3799df083d1404a2d635ee38403cc2653b9ea
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2cb4c54e4c70e9187e44c5de3cb70fac85be30a6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037817"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150476"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planen automatischer Cloud-Telefonzentralen
 
@@ -40,7 +40,7 @@ Ein eingehender Anruf bei einer automatischen Cloud-Telefonzentrale kann einen v
 
 Siehe auch:
 
-- [Einrichten einer automatischen Cloud-Telefonzentrale](/microsoftteams/create-a-phone-system-auto-attendant)
+- [Einrichten einer automatischen Cloudtelefonzentrale](/microsoftteams/create-a-phone-system-auto-attendant)
 - [Automatisches Beantworten und Weiterleiten eingehender Anrufe](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 
 ## <a name="requirements"></a>Anforderungen
@@ -110,7 +110,7 @@ Wenn Sie über eine solide Struktur verfügen, die Ihren Anforderungen entsprich
 
 [Was sind automatische Cloud-Telefonzentralen?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
-[Einrichten einer automatischen Cloud-Telefonzentrale](/microsoftteams/create-a-phone-system-auto-attendant)
+[Einrichten einer automatischen Cloudtelefonzentrale](/microsoftteams/create-a-phone-system-auto-attendant)
 
 Exchange um: [eingehende Anrufe automatisch beantworten und weiterleiten](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/automatically-answer-and-route-calls/automatically-answer-and-route-calls)
 

@@ -1,7 +1,7 @@
 ---
 title: Patienten-APP und EPA-Integrations STU3-Schnittstelle
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Microsoft Teams patients App EPA-Integration
-ms.openlocfilehash: 6c7638436f35a1e460c176964dfc63624985b12e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: d718f3d3772a08ecfa57e418a4f4fc2e22fe7172
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827633"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147698"
 ---
 # <a name="stu3-interface-specification"></a>Benutzeroberflächenspezifikation STU3
 
@@ -52,7 +52,7 @@ Hierbei handelt es sich um die erforderlichen Mindestanforderungen:
    1. Modus
    2. Interaktion
    3. Ressource: Typ
-   4. Sicherheit: [Erweiterung für OAuth-URIs](http://hl7.org/fhir/extension-oauth-uris.html)
+   4. Sicherheit: [Erweiterung für OAuth-URIs](https://hl7.org/fhir/extension-oauth-uris.html)
 2. FhirVersion (für unseren Code ist dies erforderlich, um zu verstehen, auf welche Version wir pivotieren sollten.)
 
 Weitere [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) Informationen zu diesem Feld Satz finden Sie unter.
@@ -96,18 +96,18 @@ Sehen Sie sich das folgende Beispiel des Anrufs an:
 
     Request: Post <fhir-Server>/Patient/_search Request Body: given = Ruth&Family = Black
     
-    Response: {"Ressourcenname": "Bundle"; "ID": "<Bundle-ID>"; "Meta": {"lastUpdated": "2019-01-14T23:44:45.052 + 00:00"}, "Typ": "searchset"; "Total": 1; "Link": [{"Relation": "selbst"; "URL": <fhir-Server>/Patient/_search "}]," Eintrag ": [{" fullUrl ": <fhir-Server>/Patient/<Patient-ID>"; "Ressource": {"Ressourcentyp": "Patient"; "ID": "<Patient-ID>"; "Meta": {"Version-Nr": "1", "lastUpdated": "2017-10-18T18:32:37.000 + 00:00"}, "Text": {"Status": "generated", "div": "<div>\n        <p>Ruth schwarz</p>\n      </div>"}," Bezeichner ": [{" Use ":" üblich ";" Typ ": {" Coding ": [{" System ":"http://hl7.org/fhir/v2/0203";" Code ":" Herr ";" Anzeige ":" medizinische Datensatznummer ";" userSelected ": false}]," Text ":" medizinische Datensatznummer "}," System "http://hospital.smarthealthit.org:" ";" Wert ":" 1234567 "}]," aktiv ": wahr," Name ": [{" Use ":" offiziell "," Familie ":" schwarz ";" angegeben ": [" Ruth ";" C. "
+    Response: {"Ressourcenname": "Bundle"; "ID": "<Bundle-ID>"; "Meta": {"lastUpdated": "2019-01-14T23:44:45.052 + 00:00"}, "Typ": "searchset"; "Total": 1; "Link": [{"Relation": "selbst"; "URL": <fhir-Server>/Patient/_search "}]," Eintrag ": [{" fullUrl ": <fhir-Server>/Patient/<Patient-ID>"; "Ressource": {"Ressourcentyp": "Patient"; "ID": "<Patient-ID>"; "Meta": {"Version-Nr": "1", "lastUpdated": "2017-10-18T18:32:37.000 + 00:00"}, "Text": {"Status": "generated", "div": "<div>\n        <p>Ruth schwarz</p>\n      </div>"}," Bezeichner ": [{" Use ":" üblich ";" Typ ": {" Coding ": [{" System ":"https://hl7.org/fhir/v2/0203";" Code ":" Herr ";" Anzeige ":" medizinische Datensatznummer ";" userSelected ": false}]," Text ":" medizinische Datensatznummer "}," System "http://hospital.smarthealthit.org:" ";" Wert ":" 1234567 "}]," aktiv ": wahr," Name ": [{" Use ":" offiziell "," Familie ":" schwarz ";" angegeben ": [" Ruth ";" C. "
     ]}], "Telecom": [{"System": "Telefon"; "Wert": "800-599-2739"; "Use": "Home"}, {"System": "Telefon"; "Wert": "800-808-7785"; "verwenden": "Mobil"}, {"System": "e-Mail"; "Wert": "Ruth.Black@example.com"}], "Geschlecht": "weiblich", "Geburtsdatum": "1951-08-23", "Adresse": [{"Use": "Start", "Zeile": ["26 South RdApt 22"], "Ort": "Sapulpa", "Zustand": "OK"; "PLZ": "74066"; "Land": "USA"}]}, "suchen": {"Modus": "Übereinstimmung"}}]}
 
 * * *
 
     Request: besorgen Sie sich <fhir-Server>/Patient/<Patienten-ID>
     
-    Response: {"Ressourcentyp": "Patient"; "ID": "<Patient-ID>"; "Bezeichner": [{"Use": "üblich"; "Typ": {"Coding": [{"System":http://hl7.org/fhir/v2/0203""; "Code": "Herr",}], "Text": "medizinische Datensatznummer"}, "Wert": "1234567"}], "Name": [{"Use": "offiziell", "Familie": "Adams"; "given": ["Daniel"; "X." ]}], "Gender": "männlich"; "Geburtsdatum": "1925-12-23",}
+    Response: {"Ressourcentyp": "Patient"; "ID": "<Patient-ID>"; "Bezeichner": [{"Use": "üblich"; "Typ": {"Coding": [{"System":https://hl7.org/fhir/v2/0203""; "Code": "Herr",}], "Text": "medizinische Datensatznummer"}, "Wert": "1234567"}], "Name": [{"Use": "offiziell", "Familie": "Adams"; "given": ["Daniel"; "X." ]}], "Gender": "männlich"; "Geburtsdatum": "1925-12-23",}
 
 * * *
 
-Weitere [http://hl7.org/fhir/stu3/patient.html](http://hl7.org/fhir/stu3/patient.html) Informationen zu diesem Feld Satz finden Sie unter.
+Weitere [https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html) Informationen zu diesem Feld Satz finden Sie unter.
 
 ## <a name="observation"></a>Beobachtung
 
@@ -134,7 +134,7 @@ Beziehen Sie sich auf dieses Beispiel des Anrufs:
 
     Request: besorgen Sie sich <fhir-Server>/Observation? Patient =<Patient-ID>&Kategorie = Vital-Zeichen
     
-    Response: {"Ressourcen": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset", "Total": 20; "Eintrag": [{"Resource": {"Ressource": "Observation"; "ID": "<Resource-ID>"; "Category": [{"Coding": [{"System": "http://hl7.org/fhir/observation-category"; "Code": "Vital-Signs"}]; "Code": {"Coding": [{"System": "http://loinc.org"; "Code": "8867-4"; "Display": "heart_rate"}]}, "effectiveDateTime": "2009-04-08T00:00:00-06:00", "valueQuantity": {"Wert": 72,0, "Unit": "{Beats}/min.", "System": "http://unitsofmeasure.org",}}},.
+    Response: {"Ressourcen": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset", "Total": 20; "Eintrag": [{"Resource": {"Ressource": "Observation"; "ID": "<Resource-ID>"; "Category": [{"Coding": [{"System": "https://hl7.org/fhir/observation-category"; "Code": "Vital-Signs"}]; "Code": {"Coding": [{"System": "http://loinc.org"; "Code": "8867-4"; "Display": "heart_rate"}]}, "effectiveDateTime": "2009-04-08T00:00:00-06:00", "valueQuantity": {"Wert": 72,0, "Unit": "{Beats}/min.", "System": "http://unitsofmeasure.org",}}},.
         .
         .
       ] }
@@ -171,11 +171,11 @@ Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
       ] }
 
 * * *
-Weitere [http://hl7.org/fhir/stu3/condition.html](http://hl7.org/fhir/stu3/condition.html) Informationen zu diesem Feld Satz finden Sie unter.
+Weitere [https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html) Informationen zu diesem Feld Satz finden Sie unter.
 
 ## <a name="encounter"></a>Auftreten
 
-Hierbei handelt es sich um die mindestens erforderlichen Felder, bei denen es sich um eine Teilmenge des [US-Core-Encounter-Profils](http://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) "must have"-Felder handelt.
+Hierbei handelt es sich um die mindestens erforderlichen Felder, bei denen es sich um eine Teilmenge des [US-Core-Encounter-Profils](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) "must have"-Felder handelt.
 
 1. Status
 2. Geben Sie [0] ein. Codierung [0]. Anzeigen
@@ -193,7 +193,7 @@ Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter ver
 
 Das Ziel besteht darin, den letzten bekannten Standort des Patienten abrufen zu können. Jede Begegnung verweist auf eine Standortressource. Der Bezug umfasst auch das Anzeigefeld des Standorts.
 
-Weitere [http://hl7.org/fhir/stu3/encounter.html](http://hl7.org/fhir/stu3/encounter.html) Informationen zu diesem Feld Satz finden Sie unter.
+Weitere [https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html) Informationen zu diesem Feld Satz finden Sie unter.
 
 ## <a name="allergyintolerance"></a>AllergyIntolerance
 
@@ -225,7 +225,7 @@ Sehen Sie sich das folgende Beispiel des Anrufs an:
 
 * * *
 
-Weitere [http://hl7.org/fhir/stu3/allergyintolerance.html](http://hl7.org/fhir/stu3/allergyintolerance.html) Informationen zu diesem Feld Satz finden Sie unter.
+Weitere [https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html) Informationen zu diesem Feld Satz finden Sie unter.
 
 ## <a name="medication-request"></a>Medikations Anfrage
 
@@ -262,4 +262,4 @@ Bei einer Ressourcensuche werden die Get-Methode und die folgenden Parameter ver
 
 1. Patient = \<Patienten-ID>
 
-Weitere [http://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) Informationen zu diesem Feld Satz finden Sie unter.
+Weitere [https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) Informationen zu diesem Feld Satz finden Sie unter.

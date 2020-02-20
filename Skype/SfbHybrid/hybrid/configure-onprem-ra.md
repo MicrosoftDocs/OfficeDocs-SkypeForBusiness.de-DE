@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren eines Ressourcenkontos in Skype for Business Server 2019
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Einrichten eines Ressourcenkontos für Skype for Business Server 2019.
-ms.openlocfilehash: e16f75063cfbe794ff0257cb9cccdf44065a5448
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 9acd9df1d9c5372915ea51ff1b3b94e1f89c3311
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726775"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42113258"
 ---
 # <a name="configure-resource-accounts"></a>Konfigurieren von Ressourcenkonten
 
@@ -64,7 +64,7 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
 
 2. Kaufen Sie eine Telefon System Lizenz. Siehe:  
    - [Telefon System – virtuelle Benutzerlizenz](/MicrosoftTeams/teams-add-on-licensing/virtual-user)
-   - [Office 365 Enterprise E1 und E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
+   - [Office 365 Enterprise E1- und E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
    - [Office 365 Enterprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
    - [Office 365 Enterprise E5-Business-Software](https://products.office.com/business/office-365-enterprise-e5-business-software)
 
@@ -112,8 +112,8 @@ Das Ressourcenkonto benötigt eine zugewiesene Telefonnummer, wenn es einer auto
 
 7. Erstellen Sie die automatische Telefonzentrale oder die Anrufwarteschlange. Sehen Sie sich eines der folgenden Themen an:
 
-   - [Einrichten einer automatischen Cloud-Telefonzentrale](/MicrosoftTeams/create-a-phone-system-auto-attendant)
-   - [Erstellen einer Warteschlange für Cloud-Anrufe](/MicrosoftTeams/create-a-phone-system-call-queue)  
+   - [Einrichten einer automatischen Cloudtelefonzentrale](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+   - [Erstellen einer Cloudanrufwarteschleife](/MicrosoftTeams/create-a-phone-system-call-queue)  
 
 8. Ordnen Sie das Ressourcenkonto der automatischen Telefonzentrale oder der Anrufwarteschlange zu, die Sie zuvor ausgewählt haben.
 
@@ -144,8 +144,8 @@ Melden Sie sich am Skype for Business Front-End-Server an, und führen Sie die f
     Weitere Informationen zu diesem Befehl finden Sie unter [Start-ADSyncSyncCycle](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-scheduler) .
 
 3. Erstellen Sie die automatische Telefonzentrale oder die Anrufwarteschlange. Sehen Sie sich eines der folgenden Themen an:
-   - [Einrichten einer automatischen Cloud-Telefonzentrale](/MicrosoftTeams/create-a-phone-system-auto-attendant)
-   - [Erstellen einer Warteschlange für Cloud-Anrufe](/MicrosoftTeams/create-a-phone-system-call-queue)  
+   - [Einrichten einer automatischen Cloudtelefonzentrale](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+   - [Erstellen einer Cloudanrufwarteschleife](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. Ordnen Sie das Ressourcenkonto und die automatische Telefonzentrale oder Anrufwarteschlange, die Sie zuvor ausgewählt haben, zu.
 
 Ein Beispiel für eine Small Business-Implementierung ist im [Small Business-Beispiel verfügbar: Einrichten einer automatischen Telefonzentrale](/microsoftteams/tutorial-org-aa) und eines [Beispiels für kleine Unternehmen – Einrichten einer Anrufwarteschlange](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
@@ -193,11 +193,11 @@ Bei der Migration von Exchange um zu Telefon System müssen die Struktur der Anr
 
 ## <a name="see-also"></a>Siehe auch
 
-[Erstellen einer Warteschlange für Cloud-Anrufe](/MicrosoftTeams/create-a-phone-system-call-queue)
+[Erstellen einer Cloudanrufwarteschleife](/MicrosoftTeams/create-a-phone-system-call-queue)
 
 [Was sind automatische Cloud-Telefonzentralen?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 
-[Einrichten einer automatischen Cloud-Telefonzentrale](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
+[Einrichten einer automatischen Cloudtelefonzentrale](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
 [Planen automatischer Cloud-Telefonzentralen](plan-cloud-auto-attendant.md)
 

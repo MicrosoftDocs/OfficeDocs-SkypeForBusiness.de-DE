@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Skype for Business Server Enterprise-VoIP leitet Anrufe basierend auf Telefonnummern normalisiert in das E. 164-Format weiter. Dies bedeutet, dass alle gewählten Zeichenfolgen im E. 164-Format zum Zweck der Durchführung von Reverse Number Lookup (können) normalisiert werden müssen, damit Sie in den entsprechenden SIP-URI übersetzt werden können. Skype for Business Server bietet die Möglichkeit, die aufgerufene ID und die Anrufer-ID-Präsentation zu bearbeiten.
-ms.openlocfilehash: dddeee5ef7784d9c2c433763da4c8b6145611e49
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 49598c2ef6b1a145c206bece3e06068067b0a0e0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045067"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151205"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Definieren von Übersetzungsregeln in Skype for Business Server
 
@@ -55,7 +55,7 @@ Mithilfe einer der beiden folgenden Methoden können Sie eine Übersetzungsregel
 - [Schreiben Sie reguläre Ausdrücke manuell](#create-or-modify-a-translation-rule-manually) , um das übereinstimmende Muster und die Übersetzungsregel zu definieren.
 
 > [!Note]
-> Informationen zum Schreiben von regulären Ausdrücken finden Sie unter [.NET Framework reguläre Ausdrücke](http://go.microsoft.com/fwlink/p/?linkId=140927). 
+> Informationen zum Schreiben von regulären Ausdrücken finden Sie unter [.NET Framework reguläre Ausdrücke](https://go.microsoft.com/fwlink/p/?linkId=140927). 
 
 ### <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool"></a>Erstellen oder Ändern einer Übersetzungsregel mithilfe des Tools zum Erstellen einer Übersetzungsregel
 

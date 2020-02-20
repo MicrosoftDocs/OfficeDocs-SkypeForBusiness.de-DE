@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren der Skype for Business Server Computer, die überwacht werden sollen
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: LanaChin
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Installieren Sie die Operations Manager-Agentdateien auf dem Skype for Business Server 2019-Computer, der überwacht werden soll, und konfigurieren Sie den Computer als System Center-Proxy.'
-ms.openlocfilehash: a79101a80fd68eb7b65b7f981874afa44f5cb5f3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ebf859b633a0da047d61a7b0d55c430f81a02401
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006060"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150562"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>Konfigurieren der Skype for Business Server Computer, die überwacht werden sollen
 

@@ -1,12 +1,12 @@
 ---
 title: Implementieren von QoS und Überwachung der Anrufanalyse in Microsoft Teams
-author: jambirk
-ms.author: jambirk
+author: dstrome
+ms.author: dstrome
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: jambirk
+ms.reviewer: ''
 description: Verwenden Sie Quality of Service (QoS)-Einstellungen, und rufen Sie dann Analytics und das Dashboard für die Anrufqualität in Microsoft Teams auf.
 localization_priority: Normal
 search.appverid: MET150
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8899316d24616bf61918b93c9edd7118b89f5347
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f20b12a867c6ed248fb00bad2d3fb5e9074c2c25
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832672"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42138056"
 ---
 # <a name="implement-qos-and-monitor-call-quality-in-microsoft-teams"></a>Implementieren von QoS und Überwachen der Anrufqualität in Microsoft Teams
 
