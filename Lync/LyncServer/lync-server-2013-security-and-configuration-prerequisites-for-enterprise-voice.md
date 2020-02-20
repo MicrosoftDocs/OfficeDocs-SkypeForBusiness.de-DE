@@ -12,20 +12,20 @@ ms:contentKeyID: 48183495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4fb37047ec57d281e47d1c03c2f52ed455dcdf7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 76b9a5d1145d955a85d87def9440244f2adbd35b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048966"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144093"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="9bd9d-102">Sicherheits-und Konfigurationsvoraussetzungen für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9bd9d-102">Security and configuration prerequisites for Enterprise Voice in Lync Server 2013</span></span>
+# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="59402-102">Sicherheits-und Konfigurationsvoraussetzungen für Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59402-102">Security and configuration prerequisites for Enterprise Voice in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,42 +35,42 @@ ms.locfileid: "42048966"
 
 <span> </span>
 
-<span data-ttu-id="9bd9d-103">_**Letztes Änderungsstand des Themas:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="9bd9d-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="59402-103">_**Letztes Änderungsstand des Themas:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="59402-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="9bd9d-104">Stellen Sie sicher, dass Ihre Infrastruktur die folgenden Anforderungen an Sicherheit, Benutzerkonfiguration und die szenariospezifische Hardware erfüllt.</span><span class="sxs-lookup"><span data-stu-id="9bd9d-104">Verify that your infrastructure meets the following security, user configuration, and scenario-specific hardware prerequisites.</span></span>
+<span data-ttu-id="59402-104">Stellen Sie sicher, dass Ihre Infrastruktur die folgenden Anforderungen an Sicherheit, Benutzerkonfiguration und die szenariospezifische Hardware erfüllt.</span><span class="sxs-lookup"><span data-stu-id="59402-104">Verify that your infrastructure meets the following security, user configuration, and scenario-specific hardware prerequisites.</span></span>
 
 <div>
 
-## <a name="administrative-rights-and-certificate-infrastructure"></a><span data-ttu-id="9bd9d-105">Administrative Rechte und Zertifikatinfrastruktur</span><span class="sxs-lookup"><span data-stu-id="9bd9d-105">Administrative Rights and Certificate Infrastructure</span></span>
+## <a name="administrative-rights-and-certificate-infrastructure"></a><span data-ttu-id="59402-105">Administrative Rechte und Zertifikatinfrastruktur</span><span class="sxs-lookup"><span data-stu-id="59402-105">Administrative Rights and Certificate Infrastructure</span></span>
 
-<span data-ttu-id="9bd9d-106">Stellen Sie sicher, dass Ihre Umgebung für die Enterprise-VoIP-Bereitstellung mit den folgenden administrativen Benutzergruppen und der angegebenen Zertifikatinfrastruktur konfiguriert ist.</span><span class="sxs-lookup"><span data-stu-id="9bd9d-106">Be sure that your environment is configured with the following administrative user groups and certificate infrastructure for use during the Enterprise Voice deployment process.</span></span>
+<span data-ttu-id="59402-106">Stellen Sie sicher, dass Ihre Umgebung für die Enterprise-VoIP-Bereitstellung mit den folgenden administrativen Benutzergruppen und der angegebenen Zertifikatinfrastruktur konfiguriert ist.</span><span class="sxs-lookup"><span data-stu-id="59402-106">Be sure that your environment is configured with the following administrative user groups and certificate infrastructure for use during the Enterprise Voice deployment process.</span></span>
 
-  - <span data-ttu-id="9bd9d-107">Administratoren, die Enterprise-VoIP bereitstellen, sollten Mitglied der Gruppe "RTCUniversalServerAdmins" sein.</span><span class="sxs-lookup"><span data-stu-id="9bd9d-107">Administrators deploying Enterprise Voice should be members of the RTCUniversalServerAdmins group.</span></span>
+  - <span data-ttu-id="59402-107">Administratoren, die Enterprise-VoIP bereitstellen, sollten Mitglied der Gruppe "RTCUniversalServerAdmins" sein.</span><span class="sxs-lookup"><span data-stu-id="59402-107">Administrators deploying Enterprise Voice should be members of the RTCUniversalServerAdmins group.</span></span>
 
-  - <span data-ttu-id="9bd9d-108">Administratoren, die die Konfigurationsaufgaben ausführen, müssen über geeignete Rechte verfügen:</span><span class="sxs-lookup"><span data-stu-id="9bd9d-108">Administrators performing the configuration tasks must have adequate rights:</span></span>
+  - <span data-ttu-id="59402-108">Administratoren, die die Konfigurationsaufgaben ausführen, müssen über geeignete Rechte verfügen:</span><span class="sxs-lookup"><span data-stu-id="59402-108">Administrators performing the configuration tasks must have adequate rights:</span></span>
     
-      - <span data-ttu-id="9bd9d-109">**CsVoiceAdministrator:** Diese Administratorrolle kann VoIP-Konfigurationsaufgaben ausführen, VoIP-Anwendungen verwalten und Endbenutzern VoIP-Richtlinien zuweisen.</span><span class="sxs-lookup"><span data-stu-id="9bd9d-109">**CsVoiceAdministrator:** This administrator role can perform voice configuration tasks, manage voice applications, and assign voice policies to end users.</span></span>
+      - <span data-ttu-id="59402-109">**CsVoiceAdministrator:** Diese Administratorrolle kann VoIP-Konfigurationsaufgaben ausführen, VoIP-Anwendungen verwalten und Endbenutzern VoIP-Richtlinien zuweisen.</span><span class="sxs-lookup"><span data-stu-id="59402-109">**CsVoiceAdministrator:** This administrator role can perform voice configuration tasks, manage voice applications, and assign voice policies to end users.</span></span>
     
-      - <span data-ttu-id="9bd9d-p101">**CsUserAdministrator:** Diese Administratorrolle kann Benutzereigenschaften verwalten, z. B. die Aktivierung von Enterprise-VoIP für einen Benutzer. Diese Administratorrolle kann außerdem Richtlinien auf Benutzerebene zuweisen. Hiervon ausgenommen ist die Archivierungsrichtlinie, das Verschieben von Benutzern, das Verwalten von Telefonen in öffentlichen Bereichen und das Verwalten von analogen Geräten.</span><span class="sxs-lookup"><span data-stu-id="9bd9d-p101">**CsUserAdministrator:** This administrator role can manage user properties, such as enabling Enterprise Voice for a user. This administrator role can also assign per-user policies, with the exception of the archiving policy; move users; and manage common area phones and analog devices.</span></span>
+      - <span data-ttu-id="59402-p101">**CsUserAdministrator:** Diese Administratorrolle kann Benutzereigenschaften verwalten, z. B. die Aktivierung von Enterprise-VoIP für einen Benutzer. Diese Administratorrolle kann außerdem Richtlinien auf Benutzerebene zuweisen. Hiervon ausgenommen ist die Archivierungsrichtlinie, das Verschieben von Benutzern, das Verwalten von Telefonen in öffentlichen Bereichen und das Verwalten von analogen Geräten.</span><span class="sxs-lookup"><span data-stu-id="59402-p101">**CsUserAdministrator:** This administrator role can manage user properties, such as enabling Enterprise Voice for a user. This administrator role can also assign per-user policies, with the exception of the archiving policy; move users; and manage common area phones and analog devices.</span></span>
     
-      - <span data-ttu-id="9bd9d-112">**CsAdministrator:** Diese Administratorrolle kann sämtliche Aufgaben ausführen, die mit "CsVoiceAdministrator" und "CsUserAdministrator" ausgeführt werden können.</span><span class="sxs-lookup"><span data-stu-id="9bd9d-112">**CsAdministrator:** This administrator role can perform all of the tasks of CsVoiceAdministrator and CsUserAdministrator.</span></span>
+      - <span data-ttu-id="59402-112">**CsAdministrator:** Diese Administratorrolle kann sämtliche Aufgaben ausführen, die mit "CsVoiceAdministrator" und "CsUserAdministrator" ausgeführt werden können.</span><span class="sxs-lookup"><span data-stu-id="59402-112">**CsAdministrator:** This administrator role can perform all of the tasks of CsVoiceAdministrator and CsUserAdministrator.</span></span>
     
     <div>
     
 
     > [!NOTE]
-    > <span data-ttu-id="9bd9d-113">Die Delegierung ermöglicht es mehr Administratoren, an ihrer lync Server-Bereitstellung teilzunehmen, ohne unnötigen Zugriff auf Ressourcen zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="9bd9d-113">Delegation enables more administrators to participate in your Lync Server deployment without opening up unnecessary access to resources.</span></span>
+    > <span data-ttu-id="59402-113">Die Delegierung ermöglicht es mehr Administratoren, an ihrer lync Server-Bereitstellung teilzunehmen, ohne unnötigen Zugriff auf Ressourcen zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="59402-113">Delegation enables more administrators to participate in your Lync Server deployment without opening up unnecessary access to resources.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="9bd9d-114">Es wurde mithilfe einer Zertifizierungsstelleninfrastruktur von Microsoft oder einem Drittanbieter eine Managed Key-Infrastruktur (MKI) bereitgestellt und konfiguriert.</span><span class="sxs-lookup"><span data-stu-id="9bd9d-114">Managed key infrastructure (MKI) is deployed and configured, by using either a Microsoft or a third-party certification authority (CA) infrastructure.</span></span>
+  - <span data-ttu-id="59402-114">Es wurde mithilfe einer Zertifizierungsstelleninfrastruktur von Microsoft oder einem Drittanbieter eine Managed Key-Infrastruktur (MKI) bereitgestellt und konfiguriert.</span><span class="sxs-lookup"><span data-stu-id="59402-114">Managed key infrastructure (MKI) is deployed and configured, by using either a Microsoft or a third-party certification authority (CA) infrastructure.</span></span>
     
     <div>
     
 
     > [!NOTE]
-    > <span data-ttu-id="9bd9d-115">Ausführliche Informationen zu den Zertifikatanforderungen in lync Server finden Sie unter <A href="lync-server-2013-certificate-infrastructure-requirements.md">Certificate Infrastructure Requirements for lync Server 2013</A> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="9bd9d-115">For details about certificate requirements in Lync Server, see <A href="lync-server-2013-certificate-infrastructure-requirements.md">Certificate infrastructure requirements for Lync Server 2013</A> in the Planning documentation.</span></span>
+    > <span data-ttu-id="59402-115">Ausführliche Informationen zu den Zertifikatanforderungen in lync Server finden Sie unter <A href="lync-server-2013-certificate-infrastructure-requirements.md">Certificate Infrastructure Requirements for lync Server 2013</A> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="59402-115">For details about certificate requirements in Lync Server, see <A href="lync-server-2013-certificate-infrastructure-requirements.md">Certificate infrastructure requirements for Lync Server 2013</A> in the Planning documentation.</span></span>
 
     
     </div>
@@ -79,17 +79,17 @@ ms.locfileid: "42048966"
 
 <div>
 
-## <a name="user-configuration"></a><span data-ttu-id="9bd9d-116">Benutzerkonfiguration</span><span class="sxs-lookup"><span data-stu-id="9bd9d-116">User Configuration</span></span>
+## <a name="user-configuration"></a><span data-ttu-id="59402-116">Benutzerkonfiguration</span><span class="sxs-lookup"><span data-stu-id="59402-116">User Configuration</span></span>
 
-<span data-ttu-id="9bd9d-117">Wenn Sie die Vermittlungsserver bei der Front-End-Bereitstellung mit jedem Front-End-Pool oder Standard Edition-Server zusammengestellt haben, wurden die für Enterprise-VoIP erforderlichen Benutzereinstellungen während der Installation der Dateien für diese Server Rollen automatisch konfiguriert.</span><span class="sxs-lookup"><span data-stu-id="9bd9d-117">If you collocated the Mediation Server with each Front End pool or Standard Edition server during Front End deployment, user settings necessary for Enterprise Voice were configured automatically during installation of the files for those server roles.</span></span>
+<span data-ttu-id="59402-117">Wenn Sie die Vermittlungsserver bei der Front-End-Bereitstellung mit jedem Front-End-Pool oder Standard Edition-Server zusammengestellt haben, wurden die für Enterprise-VoIP erforderlichen Benutzereinstellungen während der Installation der Dateien für diese Server Rollen automatisch konfiguriert.</span><span class="sxs-lookup"><span data-stu-id="59402-117">If you collocated the Mediation Server with each Front End pool or Standard Edition server during Front End deployment, user settings necessary for Enterprise Voice were configured automatically during installation of the files for those server roles.</span></span>
 
-<span data-ttu-id="9bd9d-118">Wenn Sie Enterprise-VoIP neu bereitstellen, müssen Sie vor Beginn der Bereitstellung eine primäre Rufnummer für jeden Benutzer bereitstellen, der für Enterprise-VoIP aktiviert werden soll.</span><span class="sxs-lookup"><span data-stu-id="9bd9d-118">If you are newly deploying the Enterprise Voice workload at this time, before you begin the deployment process, designate a primary phone number for each user who you plan to enable for Enterprise Voice.</span></span> <span data-ttu-id="9bd9d-119">Als Administrator sind Sie dafür verantwortlich, die Eindeutigkeit dieser Nummer sicherzustellen.</span><span class="sxs-lookup"><span data-stu-id="9bd9d-119">As the administrator, you are responsible for ensuring that this number is unique.</span></span> <span data-ttu-id="9bd9d-120">Vor der Implementierung müssen alle primären Telefonnummern normalisiert (ordnungsgemäß formatiert) und in die **URI** -Eigenschaft jedes Benutzers mit lync Server-Systemsteuerung kopiert werden.</span><span class="sxs-lookup"><span data-stu-id="9bd9d-120">Before implementation, all primary phone numbers must be normalized (correctly formatted) and copied to each user’s **Line URI** property using Lync Server Control Panel.</span></span>
+<span data-ttu-id="59402-118">Wenn Sie Enterprise-VoIP neu bereitstellen, müssen Sie vor Beginn der Bereitstellung eine primäre Rufnummer für jeden Benutzer bereitstellen, der für Enterprise-VoIP aktiviert werden soll.</span><span class="sxs-lookup"><span data-stu-id="59402-118">If you are newly deploying the Enterprise Voice workload at this time, before you begin the deployment process, designate a primary phone number for each user who you plan to enable for Enterprise Voice.</span></span> <span data-ttu-id="59402-119">Als Administrator sind Sie dafür verantwortlich, die Eindeutigkeit dieser Nummer sicherzustellen.</span><span class="sxs-lookup"><span data-stu-id="59402-119">As the administrator, you are responsible for ensuring that this number is unique.</span></span> <span data-ttu-id="59402-120">Vor der Implementierung müssen alle primären Telefonnummern normalisiert (ordnungsgemäß formatiert) und in die **URI** -Eigenschaft jedes Benutzers mit lync Server-Systemsteuerung kopiert werden.</span><span class="sxs-lookup"><span data-stu-id="59402-120">Before implementation, all primary phone numbers must be normalized (correctly formatted) and copied to each user’s **Line URI** property using Lync Server Control Panel.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="9bd9d-121">Beispiele für primäre Telefonnummern, die für die Bereitstellung von Enterprise-VoIP erforderlich sind, finden Sie in der Planungsdokumentation unter <A href="lync-server-2013-dial-plans-and-normalization-rules.md">lync Server 2013</A> Abschnitt Wähl <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Einstellungen und Normalisierungsregeln in lync Server 2013</A> .</span><span class="sxs-lookup"><span data-stu-id="9bd9d-121">For examples of primary phone numbers required for Enterprise Voice deployment, see the <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> section of <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="59402-121">Beispiele für primäre Telefonnummern, die für die Bereitstellung von Enterprise-VoIP erforderlich sind, finden Sie in der Planungsdokumentation unter <A href="lync-server-2013-dial-plans-and-normalization-rules.md">lync Server 2013</A> Abschnitt Wähl <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Einstellungen und Normalisierungsregeln in lync Server 2013</A> .</span><span class="sxs-lookup"><span data-stu-id="59402-121">For examples of primary phone numbers required for Enterprise Voice deployment, see the <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> section of <A href="lync-server-2013-dial-plans-and-normalization-rules.md">Dial plans and normalization rules in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
@@ -99,13 +99,13 @@ ms.locfileid: "42048966"
 
 <div>
 
-## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a><span data-ttu-id="9bd9d-122">Nächste Schritte: Installieren von Dateien oder Konfigurieren der PSTN-Anbindung</span><span class="sxs-lookup"><span data-stu-id="9bd9d-122">Next Steps: Install Files or Configure PSTN Connectivity</span></span>
+## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a><span data-ttu-id="59402-122">Nächste Schritte: Installieren von Dateien oder Konfigurieren der PSTN-Anbindung</span><span class="sxs-lookup"><span data-stu-id="59402-122">Next Steps: Install Files or Configure PSTN Connectivity</span></span>
 
-<span data-ttu-id="9bd9d-123">Nachdem Sie überprüft haben, dass die Software- und Umgebungsanforderungen für Enterprise-VoIP erfüllt sind, können Sie die folgenden Schritte ausführen:</span><span class="sxs-lookup"><span data-stu-id="9bd9d-123">After verifying software and environmental prerequisites for Enterprise Voice, you can use the following content to either:</span></span>
+<span data-ttu-id="59402-123">Nachdem Sie überprüft haben, dass die Software- und Umgebungsanforderungen für Enterprise-VoIP erfüllt sind, können Sie die folgenden Schritte ausführen:</span><span class="sxs-lookup"><span data-stu-id="59402-123">After verifying software and environmental prerequisites for Enterprise Voice, you can use the following content to either:</span></span>
 
-  - <span data-ttu-id="9bd9d-124">Installieren Sie die Vermittlungsserver, wie in [Installieren der Dateien für Vermittlungsserver in lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md)beschrieben, jedoch nur, wenn Sie eine eigenständige Vermittlungsserver oder einen Pool bereitstellen möchten, da Vermittlungsserver im Rahmen des Front-End-Pool-oder Standard Edition-Server Bereitstellungsprozesses installiert werden.</span><span class="sxs-lookup"><span data-stu-id="9bd9d-124">Install the Mediation Server, as described in [Install the files for Mediation Server in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), but only if you want to deploy a stand-alone Mediation Server or pool because Mediation Servers are installed as part of the Front End pool or Standard Edition server deployment process when collocated.</span></span>
+  - <span data-ttu-id="59402-124">Installieren Sie die Vermittlungsserver, wie in [Installieren der Dateien für Vermittlungsserver in lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md)beschrieben, jedoch nur, wenn Sie eine eigenständige Vermittlungsserver oder einen Pool bereitstellen möchten, da Vermittlungsserver im Rahmen des Front-End-Pool-oder Standard Edition-Server Bereitstellungsprozesses installiert werden.</span><span class="sxs-lookup"><span data-stu-id="59402-124">Install the Mediation Server, as described in [Install the files for Mediation Server in Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), but only if you want to deploy a stand-alone Mediation Server or pool because Mediation Servers are installed as part of the Front End pool or Standard Edition server deployment process when collocated.</span></span>
 
-  - <span data-ttu-id="9bd9d-125">Oder beginnen Sie mit der Konfiguration von Einstellungen für die Weiterleitung von Anrufen für Enterprise-VoIP-Benutzer, wie unter [Konfigurieren von Trunks in lync Server 2013](lync-server-2013-configuring-trunks.md)beschrieben.</span><span class="sxs-lookup"><span data-stu-id="9bd9d-125">Or, begin configuring settings to route calls for Enterprise Voice users, as described in [Configuring trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md).</span></span>
+  - <span data-ttu-id="59402-125">Oder beginnen Sie mit der Konfiguration von Einstellungen für die Weiterleitung von Anrufen für Enterprise-VoIP-Benutzer, wie unter [Konfigurieren von Trunks in lync Server 2013](lync-server-2013-configuring-trunks.md)beschrieben.</span><span class="sxs-lookup"><span data-stu-id="59402-125">Or, begin configuring settings to route calls for Enterprise Voice users, as described in [Configuring trunks in Lync Server 2013](lync-server-2013-configuring-trunks.md).</span></span>
 
 </div>
 

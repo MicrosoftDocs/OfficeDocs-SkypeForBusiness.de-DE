@@ -12,20 +12,20 @@ ms:contentKeyID: 48184890
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1a400387d88637fc45bcd3342ebbadb2bec6edf
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 399e759709acc3ca5b975a5beb8f3405e92bd605
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049117"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143941"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="server-table-in-lync-server-2013"></a><span data-ttu-id="904ef-102">Server Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="904ef-102">Server table in Lync Server 2013</span></span>
+# <a name="server-table-in-lync-server-2013"></a><span data-ttu-id="a06cd-102">Server Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a06cd-102">Server table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42049117"
 
 <span> </span>
 
-<span data-ttu-id="904ef-103">_**Letztes Änderungsstand des Themas:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="904ef-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="a06cd-103">_**Letztes Änderungsstand des Themas:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="a06cd-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="904ef-p101">Bei der Server-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz steht für einen Server.</span><span class="sxs-lookup"><span data-stu-id="904ef-p101">The Server table is a supporting table. Each record represents one server.</span></span>
+<span data-ttu-id="a06cd-p101">Bei der Server-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz steht für einen Server.</span><span class="sxs-lookup"><span data-stu-id="a06cd-p101">The Server table is a supporting table. Each record represents one server.</span></span>
 
 
 <table>
@@ -49,43 +49,43 @@ ms.locfileid: "42049117"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="904ef-106"><strong>Spalte</strong></span><span class="sxs-lookup"><span data-stu-id="904ef-106"><strong>Column</strong></span></span></th>
-<th><span data-ttu-id="904ef-107"><strong>Datentyp</strong></span><span class="sxs-lookup"><span data-stu-id="904ef-107"><strong>Data Type</strong></span></span></th>
-<th><span data-ttu-id="904ef-108"><strong>Schlüssel/Index</strong></span><span class="sxs-lookup"><span data-stu-id="904ef-108"><strong>Key/Index</strong></span></span></th>
-<th><span data-ttu-id="904ef-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="904ef-109"><strong>Details</strong></span></span></th>
+<th><span data-ttu-id="a06cd-106"><strong>Spalte</strong></span><span class="sxs-lookup"><span data-stu-id="a06cd-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="a06cd-107"><strong>Datentyp</strong></span><span class="sxs-lookup"><span data-stu-id="a06cd-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="a06cd-108"><strong>Schlüssel/Index</strong></span><span class="sxs-lookup"><span data-stu-id="a06cd-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="a06cd-109"><strong>Details</strong></span><span class="sxs-lookup"><span data-stu-id="a06cd-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="904ef-110"><strong>ServerKey</strong></span><span class="sxs-lookup"><span data-stu-id="904ef-110"><strong>ServerKey</strong></span></span></p></td>
-<td><p><span data-ttu-id="904ef-111">int</span><span class="sxs-lookup"><span data-stu-id="904ef-111">int</span></span></p></td>
-<td><p><span data-ttu-id="904ef-112">Primary</span><span class="sxs-lookup"><span data-stu-id="904ef-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="904ef-113">Eindeutige Zahl, die den Server identifiziert.</span><span class="sxs-lookup"><span data-stu-id="904ef-113">Unique number identifying the server.</span></span></p></td>
+<td><p><span data-ttu-id="a06cd-110"><strong>ServerKey</strong></span><span class="sxs-lookup"><span data-stu-id="a06cd-110"><strong>ServerKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="a06cd-111">int</span><span class="sxs-lookup"><span data-stu-id="a06cd-111">int</span></span></p></td>
+<td><p><span data-ttu-id="a06cd-112">Primary</span><span class="sxs-lookup"><span data-stu-id="a06cd-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="a06cd-113">Eindeutige Zahl, die den Server identifiziert.</span><span class="sxs-lookup"><span data-stu-id="a06cd-113">Unique number identifying the server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="904ef-114"><strong>FQDNOrIP</strong></span><span class="sxs-lookup"><span data-stu-id="904ef-114"><strong>FQDNOrIP</strong></span></span></p></td>
-<td><p><span data-ttu-id="904ef-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="904ef-115">nvarchar(256)</span></span></p></td>
-<td><p><span data-ttu-id="904ef-116">Index</span><span class="sxs-lookup"><span data-stu-id="904ef-116">index</span></span></p></td>
-<td><p><span data-ttu-id="904ef-117">MAC-Adresszeichenfolge.</span><span class="sxs-lookup"><span data-stu-id="904ef-117">MAC address string.</span></span></p></td>
+<td><p><span data-ttu-id="a06cd-114"><strong>FQDNOrIP</strong></span><span class="sxs-lookup"><span data-stu-id="a06cd-114"><strong>FQDNOrIP</strong></span></span></p></td>
+<td><p><span data-ttu-id="a06cd-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="a06cd-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="a06cd-116">Index</span><span class="sxs-lookup"><span data-stu-id="a06cd-116">index</span></span></p></td>
+<td><p><span data-ttu-id="a06cd-117">MAC-Adresszeichenfolge.</span><span class="sxs-lookup"><span data-stu-id="a06cd-117">MAC address string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="904ef-118"><strong>Servertyp</strong></span><span class="sxs-lookup"><span data-stu-id="904ef-118"><strong>ServerType</strong></span></span></p></td>
-<td><p><span data-ttu-id="904ef-119">int</span><span class="sxs-lookup"><span data-stu-id="904ef-119">int</span></span></p></td>
-<td><p><span data-ttu-id="904ef-120">Fremd</span><span class="sxs-lookup"><span data-stu-id="904ef-120">Foreign</span></span></p></td>
-<td><p><span data-ttu-id="904ef-121">1: Vermittlungsserver</span><span class="sxs-lookup"><span data-stu-id="904ef-121">1: Mediation Server</span></span></p>
-<p><span data-ttu-id="904ef-122">2: A/V-Konferenzserver16394: A/V-Edgedienst32769: Gateway</span><span class="sxs-lookup"><span data-stu-id="904ef-122">2: A/V Conferencing Server16394: A/V Edge service32769: Gateway</span></span></p></td>
+<td><p><span data-ttu-id="a06cd-118"><strong>Servertyp</strong></span><span class="sxs-lookup"><span data-stu-id="a06cd-118"><strong>ServerType</strong></span></span></p></td>
+<td><p><span data-ttu-id="a06cd-119">int</span><span class="sxs-lookup"><span data-stu-id="a06cd-119">int</span></span></p></td>
+<td><p><span data-ttu-id="a06cd-120">Fremd</span><span class="sxs-lookup"><span data-stu-id="a06cd-120">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="a06cd-121">1: Vermittlungsserver</span><span class="sxs-lookup"><span data-stu-id="a06cd-121">1: Mediation Server</span></span></p>
+<p><span data-ttu-id="a06cd-122">2: A/V-Konferenzserver16394: A/V-Edgedienst32769: Gateway</span><span class="sxs-lookup"><span data-stu-id="a06cd-122">2: A/V Conferencing Server16394: A/V Edge service32769: Gateway</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="904ef-123"><strong>Poolname</strong></span><span class="sxs-lookup"><span data-stu-id="904ef-123"><strong>PoolName</strong></span></span></p></td>
-<td><p><span data-ttu-id="904ef-124">nvarchar (512)</span><span class="sxs-lookup"><span data-stu-id="904ef-124">nvarchar(512)</span></span></p></td>
+<td><p><span data-ttu-id="a06cd-123"><strong>Poolname</strong></span><span class="sxs-lookup"><span data-stu-id="a06cd-123"><strong>PoolName</strong></span></span></p></td>
+<td><p><span data-ttu-id="a06cd-124">nvarchar (512)</span><span class="sxs-lookup"><span data-stu-id="a06cd-124">nvarchar(512)</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="904ef-p102">Pool, zu dem der Server gehört. Gilt nur für den A/V-Konferenzserver.</span><span class="sxs-lookup"><span data-stu-id="904ef-p102">Pool the server belongs to. Only applicable for the A/V Conferencing Server.</span></span></p></td>
+<td><p><span data-ttu-id="a06cd-p102">Pool, zu dem der Server gehört. Gilt nur für den A/V-Konferenzserver.</span><span class="sxs-lookup"><span data-stu-id="a06cd-p102">Pool the server belongs to. Only applicable for the A/V Conferencing Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="904ef-127"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="904ef-127"><strong>NextUpdateTS</strong></span></span></p></td>
-<td><p><span data-ttu-id="904ef-128">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="904ef-128">datetime</span></span></p></td>
+<td><p><span data-ttu-id="a06cd-127"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="a06cd-127"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="a06cd-128">Datum/Uhrzeit</span><span class="sxs-lookup"><span data-stu-id="a06cd-128">datetime</span></span></p></td>
 <td></td>
-<td><p><span data-ttu-id="904ef-129">Ausschließlich für interne Zwecke.</span><span class="sxs-lookup"><span data-stu-id="904ef-129">For internal use only.</span></span></p></td>
+<td><p><span data-ttu-id="a06cd-129">Ausschließlich für interne Zwecke.</span><span class="sxs-lookup"><span data-stu-id="a06cd-129">For internal use only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

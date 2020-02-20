@@ -12,20 +12,20 @@ ms:contentKeyID: 48185937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2eadff371314088e99752ca2bab4c74bcae174c1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a744a29d36106e921c65925588f285af6d1390e5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027596"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142131"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tblcompliancestate-in-lync-server-2013"></a><span data-ttu-id="996bd-102">tblComplianceState in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="996bd-102">tblComplianceState in Lync Server 2013</span></span>
+# <a name="tblcompliancestate-in-lync-server-2013"></a><span data-ttu-id="03446-102">tblComplianceState in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="03446-102">tblComplianceState in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42027596"
 
 <span> </span>
 
-<span data-ttu-id="996bd-103">_**Letztes Änderungsstand des Themas:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="996bd-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+<span data-ttu-id="03446-103">_**Letztes Änderungsstand des Themas:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="03446-103">_**Topic Last Modified:** 2012-06-28_</span></span>
 
-<span data-ttu-id="996bd-104">tblComplianceState enthält Informationen zum Pool weiten Kompatibilitätszustand.</span><span class="sxs-lookup"><span data-stu-id="996bd-104">tblComplianceState contains pool-wide compliance state information.</span></span>
+<span data-ttu-id="03446-104">tblComplianceState enthält Informationen zum Pool weiten Kompatibilitätszustand.</span><span class="sxs-lookup"><span data-stu-id="03446-104">tblComplianceState contains pool-wide compliance state information.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="996bd-105">Spalten</span><span class="sxs-lookup"><span data-stu-id="996bd-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="03446-105">Spalten</span><span class="sxs-lookup"><span data-stu-id="03446-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,26 +49,26 @@ ms.locfileid: "42027596"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="996bd-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="996bd-106">Column</span></span></th>
-<th><span data-ttu-id="996bd-107">Typ</span><span class="sxs-lookup"><span data-stu-id="996bd-107">Type</span></span></th>
-<th><span data-ttu-id="996bd-108">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="996bd-108">Description</span></span></th>
+<th><span data-ttu-id="03446-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="03446-106">Column</span></span></th>
+<th><span data-ttu-id="03446-107">Typ</span><span class="sxs-lookup"><span data-stu-id="03446-107">Type</span></span></th>
+<th><span data-ttu-id="03446-108">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="03446-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="996bd-109">lastProcessedEntryID</span><span class="sxs-lookup"><span data-stu-id="996bd-109">lastProcessedEntryID</span></span></p></td>
-<td><p><span data-ttu-id="996bd-110">bigint, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="996bd-110">bigint, not null</span></span></p></td>
-<td><p><span data-ttu-id="996bd-111">ID des letzten verarbeiteten Kompatibilitäts Ereignisses.</span><span class="sxs-lookup"><span data-stu-id="996bd-111">ID of the latest processed compliance event.</span></span></p></td>
+<td><p><span data-ttu-id="03446-109">lastProcessedEntryID</span><span class="sxs-lookup"><span data-stu-id="03446-109">lastProcessedEntryID</span></span></p></td>
+<td><p><span data-ttu-id="03446-110">bigint, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="03446-110">bigint, not null</span></span></p></td>
+<td><p><span data-ttu-id="03446-111">ID des letzten verarbeiteten Kompatibilitäts Ereignisses.</span><span class="sxs-lookup"><span data-stu-id="03446-111">ID of the latest processed compliance event.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="996bd-112">activeServerID</span><span class="sxs-lookup"><span data-stu-id="996bd-112">activeServerID</span></span></p></td>
-<td><p><span data-ttu-id="996bd-113">int, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="996bd-113">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="996bd-114">ID des Kompatibilitätsservers, der die exklusive Sperre für die Datenbank aufhält, oder-1, wenn keine.</span><span class="sxs-lookup"><span data-stu-id="996bd-114">ID of the Compliance server holding the exclusive lock on the database, or -1 if none.</span></span></p></td>
+<td><p><span data-ttu-id="03446-112">activeServerID</span><span class="sxs-lookup"><span data-stu-id="03446-112">activeServerID</span></span></p></td>
+<td><p><span data-ttu-id="03446-113">int, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="03446-113">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="03446-114">ID des Kompatibilitätsservers, der die exklusive Sperre für die Datenbank aufhält, oder-1, wenn keine.</span><span class="sxs-lookup"><span data-stu-id="03446-114">ID of the Compliance server holding the exclusive lock on the database, or -1 if none.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="996bd-115">lockExpirationTime</span><span class="sxs-lookup"><span data-stu-id="996bd-115">lockExpirationTime</span></span></p></td>
-<td><p><span data-ttu-id="996bd-116">datetime2, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="996bd-116">datetime2, not null</span></span></p></td>
-<td><p><span data-ttu-id="996bd-117">Sperr Ablaufzeit (wenn activeServerID nicht-1 ist).</span><span class="sxs-lookup"><span data-stu-id="996bd-117">Lock expiration time (if activeServerID is not -1).</span></span></p></td>
+<td><p><span data-ttu-id="03446-115">lockExpirationTime</span><span class="sxs-lookup"><span data-stu-id="03446-115">lockExpirationTime</span></span></p></td>
+<td><p><span data-ttu-id="03446-116">datetime2, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="03446-116">datetime2, not null</span></span></p></td>
+<td><p><span data-ttu-id="03446-117">Sperr Ablaufzeit (wenn activeServerID nicht-1 ist).</span><span class="sxs-lookup"><span data-stu-id="03446-117">Lock expiration time (if activeServerID is not -1).</span></span></p></td>
 </tr>
 </tbody>
 </table>

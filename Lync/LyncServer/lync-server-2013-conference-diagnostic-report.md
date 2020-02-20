@@ -12,20 +12,20 @@ ms:contentKeyID: 48185901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6061f04875d15f163bfb91d8803c488467cadb6e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0e735193d75e0e8b5f23376844a712ce0e87d106
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007874"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145183"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="conference-diagnostic-report-in-lync-server-2013"></a><span data-ttu-id="8f50e-102">Konferenz Diagnosebericht in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8f50e-102">Conference Diagnostic Report in Lync Server 2013</span></span>
+# <a name="conference-diagnostic-report-in-lync-server-2013"></a><span data-ttu-id="008b8-102">Konferenz Diagnosebericht in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="008b8-102">Conference Diagnostic Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42007874"
 
 <span> </span>
 
-<span data-ttu-id="8f50e-103">_**Letztes Änderungsstand des Themas:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="8f50e-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="008b8-103">_**Letztes Änderungsstand des Themas:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="008b8-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="8f50e-104">Der Konferenz Diagnosebericht enthält Informationen über den Erfolg und das Scheitern aller Konferenzsitzungen.</span><span class="sxs-lookup"><span data-stu-id="8f50e-104">The Conference Diagnostic Report provides information about the success and failure of all conferencing sessions.</span></span> <span data-ttu-id="8f50e-105">Beachten Sie, dass Microsoft lync Server zwischen verschiedenen Arten von Fehlern unterscheidet:</span><span class="sxs-lookup"><span data-stu-id="8f50e-105">Note that Microsoft Lync Server distinguishes between different kinds of failure:</span></span>
+<span data-ttu-id="008b8-104">Der Konferenz Diagnosebericht enthält Informationen über den Erfolg und das Scheitern aller Konferenzsitzungen.</span><span class="sxs-lookup"><span data-stu-id="008b8-104">The Conference Diagnostic Report provides information about the success and failure of all conferencing sessions.</span></span> <span data-ttu-id="008b8-105">Beachten Sie, dass Microsoft lync Server zwischen verschiedenen Arten von Fehlern unterscheidet:</span><span class="sxs-lookup"><span data-stu-id="008b8-105">Note that Microsoft Lync Server distinguishes between different kinds of failure:</span></span>
 
-  - <span data-ttu-id="8f50e-106">**Erwarteter Fehler**.</span><span class="sxs-lookup"><span data-stu-id="8f50e-106">**Expected failure**.</span></span> <span data-ttu-id="8f50e-107">Ein erwarteter Fehler ist normalerweise nur im technischsten Sinn ein Fehler.</span><span class="sxs-lookup"><span data-stu-id="8f50e-107">An expected failure is typically a failure only in the most technical sense.</span></span> <span data-ttu-id="8f50e-108">Nehmen wir beispielsweise an, dass jemand eine Konferenz startet, aber auflegt, bevor jeder beitreten kann.</span><span class="sxs-lookup"><span data-stu-id="8f50e-108">For example, suppose someone starts a conference but hangs up before anyone can join.</span></span> <span data-ttu-id="8f50e-109">Technisch gesehen ist das ein Fehler: die Konferenz wurde initiiert, aber nicht abgeschlossen.</span><span class="sxs-lookup"><span data-stu-id="8f50e-109">Technically that's a failure: the conference was initiated, but not completed.</span></span> <span data-ttu-id="8f50e-110">Dies ist jedoch ein Fehler, den Sie erwarten würden: Wenn der Organisator die Konferenz abbricht, bevor jemand beitreten kann, wird die Konferenz nicht abgeschlossen.</span><span class="sxs-lookup"><span data-stu-id="8f50e-110">However, that's a failure that you would expect to happen: if the organizer cancels the conference before anyone can join then you would not expect that conference to be completed.</span></span>
+  - <span data-ttu-id="008b8-106">**Erwarteter Fehler**.</span><span class="sxs-lookup"><span data-stu-id="008b8-106">**Expected failure**.</span></span> <span data-ttu-id="008b8-107">Ein erwarteter Fehler ist normalerweise nur im technischsten Sinn ein Fehler.</span><span class="sxs-lookup"><span data-stu-id="008b8-107">An expected failure is typically a failure only in the most technical sense.</span></span> <span data-ttu-id="008b8-108">Nehmen wir beispielsweise an, dass jemand eine Konferenz startet, aber auflegt, bevor jeder beitreten kann.</span><span class="sxs-lookup"><span data-stu-id="008b8-108">For example, suppose someone starts a conference but hangs up before anyone can join.</span></span> <span data-ttu-id="008b8-109">Technisch gesehen ist das ein Fehler: die Konferenz wurde initiiert, aber nicht abgeschlossen.</span><span class="sxs-lookup"><span data-stu-id="008b8-109">Technically that's a failure: the conference was initiated, but not completed.</span></span> <span data-ttu-id="008b8-110">Dies ist jedoch ein Fehler, den Sie erwarten würden: Wenn der Organisator die Konferenz abbricht, bevor jemand beitreten kann, wird die Konferenz nicht abgeschlossen.</span><span class="sxs-lookup"><span data-stu-id="008b8-110">However, that's a failure that you would expect to happen: if the organizer cancels the conference before anyone can join then you would not expect that conference to be completed.</span></span>
 
-  - <span data-ttu-id="8f50e-111">**Unerwarteter Fehler**: Ein unerwarteter Fehler ist genau das, was der Name aussagt: Ein Fehler, der gemessen an den Umständen nicht zu erwarten ist.</span><span class="sxs-lookup"><span data-stu-id="8f50e-111">**Unexpected failure**.</span></span> <span data-ttu-id="8f50e-112">Angenommen, Sie rufen eine Person an, und die Person kann den Anruf annehmen.</span><span class="sxs-lookup"><span data-stu-id="8f50e-112">An unexpected error is exactly what the name implies: an error that, based on the circumstances, you would not expect to occur.</span></span> <span data-ttu-id="8f50e-113">Angenommen, eine Konferenz konnte nicht abgehalten werden, da die Besprechungsrichtlinie des Organisators nicht abgerufen werden konnte.</span><span class="sxs-lookup"><span data-stu-id="8f50e-113">For example, suppose a conference could not be held because the organizer's meeting policy could not be retrieved.</span></span> <span data-ttu-id="8f50e-114">Das ist ein unerwarteter Fehler: Schließlich sollten Sie immer in der Lage sein, die Besprechungsrichtlinie eines Benutzers abzurufen.</span><span class="sxs-lookup"><span data-stu-id="8f50e-114">That's an unexpected error: after all, you should always be able to retrieve a user's meeting policy.</span></span>
+  - <span data-ttu-id="008b8-111">**Unerwarteter Fehler**: Ein unerwarteter Fehler ist genau das, was der Name aussagt: Ein Fehler, der gemessen an den Umständen nicht zu erwarten ist.</span><span class="sxs-lookup"><span data-stu-id="008b8-111">**Unexpected failure**.</span></span> <span data-ttu-id="008b8-112">Angenommen, Sie rufen eine Person an, und die Person kann den Anruf annehmen.</span><span class="sxs-lookup"><span data-stu-id="008b8-112">An unexpected error is exactly what the name implies: an error that, based on the circumstances, you would not expect to occur.</span></span> <span data-ttu-id="008b8-113">Angenommen, eine Konferenz konnte nicht abgehalten werden, da die Besprechungsrichtlinie des Organisators nicht abgerufen werden konnte.</span><span class="sxs-lookup"><span data-stu-id="008b8-113">For example, suppose a conference could not be held because the organizer's meeting policy could not be retrieved.</span></span> <span data-ttu-id="008b8-114">Das ist ein unerwarteter Fehler: Schließlich sollten Sie immer in der Lage sein, die Besprechungsrichtlinie eines Benutzers abzurufen.</span><span class="sxs-lookup"><span data-stu-id="008b8-114">That's an unexpected error: after all, you should always be able to retrieve a user's meeting policy.</span></span>
 
-<span data-ttu-id="8f50e-115">Beachten Sie, dass die Metriken für "Erfolg", "Erwarteter Fehler" und "Unerwarteter Fehler" nicht zwangsläufig identisch mit der Metrik unter "Sitzungen insgesamt" sind.</span><span class="sxs-lookup"><span data-stu-id="8f50e-115">Note that the Success, Expected failure, and Unexpected failure metrics might not add up to the Total sessions metric.</span></span> <span data-ttu-id="8f50e-116">Im Bericht werden beispielsweise die folgenden Werte angezeigt:</span><span class="sxs-lookup"><span data-stu-id="8f50e-116">For example, you might see the following values in the Report:</span></span>
+<span data-ttu-id="008b8-115">Beachten Sie, dass die Metriken für "Erfolg", "Erwarteter Fehler" und "Unerwarteter Fehler" nicht zwangsläufig identisch mit der Metrik unter "Sitzungen insgesamt" sind.</span><span class="sxs-lookup"><span data-stu-id="008b8-115">Note that the Success, Expected failure, and Unexpected failure metrics might not add up to the Total sessions metric.</span></span> <span data-ttu-id="008b8-116">Im Bericht werden beispielsweise die folgenden Werte angezeigt:</span><span class="sxs-lookup"><span data-stu-id="008b8-116">For example, you might see the following values in the Report:</span></span>
 
 
 <table>
@@ -55,54 +55,54 @@ ms.locfileid: "42007874"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="8f50e-117">Erfolge</span><span class="sxs-lookup"><span data-stu-id="8f50e-117">Successes</span></span></th>
-<th><span data-ttu-id="8f50e-118">Erwartete Fehler</span><span class="sxs-lookup"><span data-stu-id="8f50e-118">Expected failures</span></span></th>
-<th><span data-ttu-id="8f50e-119">Unerwartete Fehler</span><span class="sxs-lookup"><span data-stu-id="8f50e-119">Unexpected failures</span></span></th>
-<th><span data-ttu-id="8f50e-120">Sitzungen insgesamt</span><span class="sxs-lookup"><span data-stu-id="8f50e-120">Total sessions</span></span></th>
+<th><span data-ttu-id="008b8-117">Erfolge</span><span class="sxs-lookup"><span data-stu-id="008b8-117">Successes</span></span></th>
+<th><span data-ttu-id="008b8-118">Erwartete Fehler</span><span class="sxs-lookup"><span data-stu-id="008b8-118">Expected failures</span></span></th>
+<th><span data-ttu-id="008b8-119">Unerwartete Fehler</span><span class="sxs-lookup"><span data-stu-id="008b8-119">Unexpected failures</span></span></th>
+<th><span data-ttu-id="008b8-120">Sitzungen insgesamt</span><span class="sxs-lookup"><span data-stu-id="008b8-120">Total sessions</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8f50e-121">2024</span><span class="sxs-lookup"><span data-stu-id="8f50e-121">2024</span></span></p></td>
-<td><p><span data-ttu-id="8f50e-122">469</span><span class="sxs-lookup"><span data-stu-id="8f50e-122">469</span></span></p></td>
-<td><p><span data-ttu-id="8f50e-123">16 </span><span class="sxs-lookup"><span data-stu-id="8f50e-123">16</span></span></p></td>
-<td><p><span data-ttu-id="8f50e-124">2521</span><span class="sxs-lookup"><span data-stu-id="8f50e-124">2521</span></span></p></td>
+<td><p><span data-ttu-id="008b8-121">2024</span><span class="sxs-lookup"><span data-stu-id="008b8-121">2024</span></span></p></td>
+<td><p><span data-ttu-id="008b8-122">469</span><span class="sxs-lookup"><span data-stu-id="008b8-122">469</span></span></p></td>
+<td><p><span data-ttu-id="008b8-123">16 </span><span class="sxs-lookup"><span data-stu-id="008b8-123">16</span></span></p></td>
+<td><p><span data-ttu-id="008b8-124">2521</span><span class="sxs-lookup"><span data-stu-id="008b8-124">2521</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="8f50e-125">Wenn Sie 2024 + 469 + 16 hinzufügen, erhalten Sie insgesamt 2.509 Sitzungen, in der Spalte Gesamt Sitzungen werden jedoch insgesamt 2.521 Sitzungen angezeigt.</span><span class="sxs-lookup"><span data-stu-id="8f50e-125">If you add 2024 + 469 + 16 you get a total of 2,509 sessions and yet, the Total sessions column shows a total of 2,521 sessions.</span></span> <span data-ttu-id="8f50e-126">Die "fehlenden" 12 Sitzungen für sind Sitzungen, die vom System nicht als erfolgreich oder nicht erfolgreich kategorisiert werden konnten.</span><span class="sxs-lookup"><span data-stu-id="8f50e-126">The "missing" 12 sessions for are sessions that the system was unable to categorize as successful or unsuccessful.</span></span> <span data-ttu-id="8f50e-127">Dies ist manchmal der Fall, wenn ein Drittanbieterprodukt einen neuen Diagnosecode einführt, der Monitoring Server nicht vertraut ist.</span><span class="sxs-lookup"><span data-stu-id="8f50e-127">That will sometimes be the case when a third-party product introduces a new diagnostic code that is unfamiliar to Monitoring Server.</span></span> <span data-ttu-id="8f50e-128">Wenn dies geschieht, können mit diesem Produkt erstellte Anrufe und das melden dieses Diagnosecodes nicht immer als ein Erfolg, ein erwarteter Fehler oder ein unerwarteter Fehler kategorisiert werden.</span><span class="sxs-lookup"><span data-stu-id="8f50e-128">When that happens, calls made using that product, and reporting that diagnostic code, cannot always be categorized as being a Success, an Expected failure, or an Unexpected failure.</span></span>
+<span data-ttu-id="008b8-125">Wenn Sie 2024 + 469 + 16 hinzufügen, erhalten Sie insgesamt 2.509 Sitzungen, in der Spalte Gesamt Sitzungen werden jedoch insgesamt 2.521 Sitzungen angezeigt.</span><span class="sxs-lookup"><span data-stu-id="008b8-125">If you add 2024 + 469 + 16 you get a total of 2,509 sessions and yet, the Total sessions column shows a total of 2,521 sessions.</span></span> <span data-ttu-id="008b8-126">Die "fehlenden" 12 Sitzungen für sind Sitzungen, die vom System nicht als erfolgreich oder nicht erfolgreich kategorisiert werden konnten.</span><span class="sxs-lookup"><span data-stu-id="008b8-126">The "missing" 12 sessions for are sessions that the system was unable to categorize as successful or unsuccessful.</span></span> <span data-ttu-id="008b8-127">Dies ist manchmal der Fall, wenn ein Drittanbieterprodukt einen neuen Diagnosecode einführt, der Monitoring Server nicht vertraut ist.</span><span class="sxs-lookup"><span data-stu-id="008b8-127">That will sometimes be the case when a third-party product introduces a new diagnostic code that is unfamiliar to Monitoring Server.</span></span> <span data-ttu-id="008b8-128">Wenn dies geschieht, können mit diesem Produkt erstellte Anrufe und das melden dieses Diagnosecodes nicht immer als ein Erfolg, ein erwarteter Fehler oder ein unerwarteter Fehler kategorisiert werden.</span><span class="sxs-lookup"><span data-stu-id="008b8-128">When that happens, calls made using that product, and reporting that diagnostic code, cannot always be categorized as being a Success, an Expected failure, or an Unexpected failure.</span></span>
 
 <div>
 
-## <a name="accessing-the-conference-diagnostic-report"></a><span data-ttu-id="8f50e-129">Zugreifen auf den Konferenz Diagnosebericht</span><span class="sxs-lookup"><span data-stu-id="8f50e-129">Accessing the Conference Diagnostic Report</span></span>
+## <a name="accessing-the-conference-diagnostic-report"></a><span data-ttu-id="008b8-129">Zugreifen auf den Konferenz Diagnosebericht</span><span class="sxs-lookup"><span data-stu-id="008b8-129">Accessing the Conference Diagnostic Report</span></span>
 
-<span data-ttu-id="8f50e-130">Der Zugriff auf den Konferenz Diagnosebericht erfolgt über die Startseite für Überwachungsberichte.</span><span class="sxs-lookup"><span data-stu-id="8f50e-130">The Conference Diagnostic Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="8f50e-131">Sie können auf den [Bericht über Fehlerverteilung in lync Server 2013](lync-server-2013-failure-distribution-report.md) zugreifen, indem Sie auf eine der folgenden Metriken klicken:</span><span class="sxs-lookup"><span data-stu-id="8f50e-131">You can access the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md) by clicking either of the following metrics:</span></span>
+<span data-ttu-id="008b8-130">Der Zugriff auf den Konferenz Diagnosebericht erfolgt über die Startseite für Überwachungsberichte.</span><span class="sxs-lookup"><span data-stu-id="008b8-130">The Conference Diagnostic Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="008b8-131">Sie können auf den [Bericht über Fehlerverteilung in lync Server 2013](lync-server-2013-failure-distribution-report.md) zugreifen, indem Sie auf eine der folgenden Metriken klicken:</span><span class="sxs-lookup"><span data-stu-id="008b8-131">You can access the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md) by clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="8f50e-132">Anzahl der unerwarteten Fehler</span><span class="sxs-lookup"><span data-stu-id="8f50e-132">Unexpected failure volume</span></span>
+  - <span data-ttu-id="008b8-132">Anzahl der unerwarteten Fehler</span><span class="sxs-lookup"><span data-stu-id="008b8-132">Unexpected failure volume</span></span>
 
-  - <span data-ttu-id="8f50e-133">Anzahl der erwarteten Fehler</span><span class="sxs-lookup"><span data-stu-id="8f50e-133">Expected failure volume</span></span>
+  - <span data-ttu-id="008b8-133">Anzahl der erwarteten Fehler</span><span class="sxs-lookup"><span data-stu-id="008b8-133">Expected failure volume</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a><span data-ttu-id="8f50e-134">Optimale Nutzung des Konferenz Diagnoseberichts</span><span class="sxs-lookup"><span data-stu-id="8f50e-134">Making the Best Use of the Conference Diagnostic Report</span></span>
+## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a><span data-ttu-id="008b8-134">Optimale Nutzung des Konferenz Diagnoseberichts</span><span class="sxs-lookup"><span data-stu-id="008b8-134">Making the Best Use of the Conference Diagnostic Report</span></span>
 
-<span data-ttu-id="8f50e-135">Der Konferenz Diagnosebericht enthält eine Reihe von Diagrammen.</span><span class="sxs-lookup"><span data-stu-id="8f50e-135">The Conference Diagnostic Report includes a series of graphs.</span></span> <span data-ttu-id="8f50e-136">Jede der im Diagramm gezeigten Spalten ist eigentlich ein Hyperlink.</span><span class="sxs-lookup"><span data-stu-id="8f50e-136">Each of the columns shown in the graph is actually a hyperlink.</span></span> <span data-ttu-id="8f50e-137">Wenn Sie auf eine Spalte klicken, führen Sie einen Drilldown zum [Fehler Verteilungs Bericht in lync Server 2013](lync-server-2013-failure-distribution-report.md) für diesen Zeitraum und diesen Konferenztyp aus.</span><span class="sxs-lookup"><span data-stu-id="8f50e-137">If you click a column, you'll drill down to the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md) for that time period and that conference type.</span></span>
+<span data-ttu-id="008b8-135">Der Konferenz Diagnosebericht enthält eine Reihe von Diagrammen.</span><span class="sxs-lookup"><span data-stu-id="008b8-135">The Conference Diagnostic Report includes a series of graphs.</span></span> <span data-ttu-id="008b8-136">Jede der im Diagramm gezeigten Spalten ist eigentlich ein Hyperlink.</span><span class="sxs-lookup"><span data-stu-id="008b8-136">Each of the columns shown in the graph is actually a hyperlink.</span></span> <span data-ttu-id="008b8-137">Wenn Sie auf eine Spalte klicken, führen Sie einen Drilldown zum [Fehler Verteilungs Bericht in lync Server 2013](lync-server-2013-failure-distribution-report.md) für diesen Zeitraum und diesen Konferenztyp aus.</span><span class="sxs-lookup"><span data-stu-id="008b8-137">If you click a column, you'll drill down to the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md) for that time period and that conference type.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="8f50e-138">Filter</span><span class="sxs-lookup"><span data-stu-id="8f50e-138">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="008b8-138">Filter</span><span class="sxs-lookup"><span data-stu-id="008b8-138">Filters</span></span>
 
-<span data-ttu-id="8f50e-139">Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen.</span><span class="sxs-lookup"><span data-stu-id="8f50e-139">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="8f50e-140">Beispielsweise können Sie mit dem Konferenz Diagnosebericht nach Dingen suchen, die den Typ der Konferenz (beispielsweise eine Fokus basierte Konferenz) oder den in der Konferenz verwendeten Edgeserver filtern.</span><span class="sxs-lookup"><span data-stu-id="8f50e-140">For example, the Conference Diagnostic Report enables you to filter on such things as the type of conference being conducted (for example, a Focus-based conference) or by the Edge Server used in the conference.</span></span> <span data-ttu-id="8f50e-141">Sie können außerdem festlegen, wie Daten gruppiert werden sollen.</span><span class="sxs-lookup"><span data-stu-id="8f50e-141">You can also choose how data should be grouped.</span></span> <span data-ttu-id="8f50e-142">In diesem Fall werden Konferenzen nach Stunde, Tag, Woche oder Monat zusammengefasst.</span><span class="sxs-lookup"><span data-stu-id="8f50e-142">In this case, conferences are grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="008b8-139">Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen.</span><span class="sxs-lookup"><span data-stu-id="008b8-139">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways.</span></span> <span data-ttu-id="008b8-140">Beispielsweise können Sie mit dem Konferenz Diagnosebericht nach Dingen suchen, die den Typ der Konferenz (beispielsweise eine Fokus basierte Konferenz) oder den in der Konferenz verwendeten Edgeserver filtern.</span><span class="sxs-lookup"><span data-stu-id="008b8-140">For example, the Conference Diagnostic Report enables you to filter on such things as the type of conference being conducted (for example, a Focus-based conference) or by the Edge Server used in the conference.</span></span> <span data-ttu-id="008b8-141">Sie können außerdem festlegen, wie Daten gruppiert werden sollen.</span><span class="sxs-lookup"><span data-stu-id="008b8-141">You can also choose how data should be grouped.</span></span> <span data-ttu-id="008b8-142">In diesem Fall werden Konferenzen nach Stunde, Tag, Woche oder Monat zusammengefasst.</span><span class="sxs-lookup"><span data-stu-id="008b8-142">In this case, conferences are grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="8f50e-143">In der folgenden Tabelle sind die Filter aufgeführt, die Sie mit dem Konferenz Diagnosebericht verwenden können.</span><span class="sxs-lookup"><span data-stu-id="8f50e-143">The following table lists the filters that you can use with the Conference Diagnostic Report.</span></span>
+<span data-ttu-id="008b8-143">In der folgenden Tabelle sind die Filter aufgeführt, die Sie mit dem Konferenz Diagnosebericht verwenden können.</span><span class="sxs-lookup"><span data-stu-id="008b8-143">The following table lists the filters that you can use with the Conference Diagnostic Report.</span></span>
 
-### <a name="conference-diagnostic-report-filters"></a><span data-ttu-id="8f50e-144">Filter für Konferenz Diagnoseberichte</span><span class="sxs-lookup"><span data-stu-id="8f50e-144">Conference Diagnostic Report Filters</span></span>
+### <a name="conference-diagnostic-report-filters"></a><span data-ttu-id="008b8-144">Filter für Konferenz Diagnoseberichte</span><span class="sxs-lookup"><span data-stu-id="008b8-144">Conference Diagnostic Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -111,56 +111,56 @@ ms.locfileid: "42007874"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="8f50e-145">Name</span><span class="sxs-lookup"><span data-stu-id="8f50e-145">Name</span></span></th>
-<th><span data-ttu-id="8f50e-146">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="8f50e-146">Description</span></span></th>
+<th><span data-ttu-id="008b8-145">Name</span><span class="sxs-lookup"><span data-stu-id="008b8-145">Name</span></span></th>
+<th><span data-ttu-id="008b8-146">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="008b8-146">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8f50e-147"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="8f50e-147"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="8f50e-p109">Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</span><span class="sxs-lookup"><span data-stu-id="8f50e-p109">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="8f50e-150">07.07.2012 13:00</span><span class="sxs-lookup"><span data-stu-id="8f50e-150">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="8f50e-p110">Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</span><span class="sxs-lookup"><span data-stu-id="8f50e-p110">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="8f50e-153">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="8f50e-153">7/7/2012</span></span></p>
-<p><span data-ttu-id="8f50e-154">Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</span><span class="sxs-lookup"><span data-stu-id="8f50e-154">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="8f50e-155">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="8f50e-155">7/3/2012</span></span></p>
-<p><span data-ttu-id="8f50e-156">Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</span><span class="sxs-lookup"><span data-stu-id="8f50e-156">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="008b8-147"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="008b8-147"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="008b8-p109">Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</span><span class="sxs-lookup"><span data-stu-id="008b8-p109">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="008b8-150">07.07.2012 13:00</span><span class="sxs-lookup"><span data-stu-id="008b8-150">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="008b8-p110">Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</span><span class="sxs-lookup"><span data-stu-id="008b8-p110">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="008b8-153">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="008b8-153">7/7/2012</span></span></p>
+<p><span data-ttu-id="008b8-154">Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</span><span class="sxs-lookup"><span data-stu-id="008b8-154">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="008b8-155">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="008b8-155">7/3/2012</span></span></p>
+<p><span data-ttu-id="008b8-156">Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</span><span class="sxs-lookup"><span data-stu-id="008b8-156">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8f50e-157"><strong>Ziel</strong></span><span class="sxs-lookup"><span data-stu-id="8f50e-157"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="8f50e-p111">Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</span><span class="sxs-lookup"><span data-stu-id="8f50e-p111">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="8f50e-160">07.07.2012 13:00</span><span class="sxs-lookup"><span data-stu-id="8f50e-160">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="8f50e-p112">Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</span><span class="sxs-lookup"><span data-stu-id="8f50e-p112">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="8f50e-163">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="8f50e-163">7/7/2012</span></span></p>
-<p><span data-ttu-id="8f50e-164">Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</span><span class="sxs-lookup"><span data-stu-id="8f50e-164">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="8f50e-165">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="8f50e-165">7/3/2012</span></span></p>
-<p><span data-ttu-id="8f50e-166">Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</span><span class="sxs-lookup"><span data-stu-id="8f50e-166">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="008b8-157"><strong>Ziel</strong></span><span class="sxs-lookup"><span data-stu-id="008b8-157"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="008b8-p111">Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</span><span class="sxs-lookup"><span data-stu-id="008b8-p111">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="008b8-160">07.07.2012 13:00</span><span class="sxs-lookup"><span data-stu-id="008b8-160">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="008b8-p112">Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</span><span class="sxs-lookup"><span data-stu-id="008b8-p112">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="008b8-163">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="008b8-163">7/7/2012</span></span></p>
+<p><span data-ttu-id="008b8-164">Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</span><span class="sxs-lookup"><span data-stu-id="008b8-164">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="008b8-165">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="008b8-165">7/3/2012</span></span></p>
+<p><span data-ttu-id="008b8-166">Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</span><span class="sxs-lookup"><span data-stu-id="008b8-166">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8f50e-167"><strong>Intervall</strong></span><span class="sxs-lookup"><span data-stu-id="8f50e-167"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="8f50e-p113">Zeitintervall. Wählen Sie eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="8f50e-p113">Time interval. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="008b8-167"><strong>Intervall</strong></span><span class="sxs-lookup"><span data-stu-id="008b8-167"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="008b8-p113">Zeitintervall. Wählen Sie eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="008b8-p113">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="8f50e-170">Stündlich (maximal 25 Stunden können angezeigt werden)</span><span class="sxs-lookup"><span data-stu-id="8f50e-170">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="8f50e-171">Täglich (maximal 31 Tage können angezeigt werden)</span><span class="sxs-lookup"><span data-stu-id="8f50e-171">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="8f50e-172">Wöchentlich (maximal 12 Wochen können angezeigt werden)</span><span class="sxs-lookup"><span data-stu-id="8f50e-172">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="8f50e-173">Monatlich (maximal 12 Monate werden angezeigt)</span><span class="sxs-lookup"><span data-stu-id="8f50e-173">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="008b8-170">Stündlich (maximal 25 Stunden können angezeigt werden)</span><span class="sxs-lookup"><span data-stu-id="008b8-170">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="008b8-171">Täglich (maximal 31 Tage können angezeigt werden)</span><span class="sxs-lookup"><span data-stu-id="008b8-171">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="008b8-172">Wöchentlich (maximal 12 Wochen können angezeigt werden)</span><span class="sxs-lookup"><span data-stu-id="008b8-172">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="008b8-173">Monatlich (maximal 12 Monate werden angezeigt)</span><span class="sxs-lookup"><span data-stu-id="008b8-173">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="8f50e-p114">Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Beispiel: Wenn Sie das Intervall Täglich mit dem Startdatum 07.08.2012 und dem Enddatum 28.09.2012 ausgewählt haben, werden Daten für die Tage 07.08.2012 12:00 Uhr bis 07.09.2012 12:00 Uhr angezeigt (d. h. Daten für insgesamt 31 Tage).</span><span class="sxs-lookup"><span data-stu-id="8f50e-p114">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="008b8-p114">Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Beispiel: Wenn Sie das Intervall Täglich mit dem Startdatum 07.08.2012 und dem Enddatum 28.09.2012 ausgewählt haben, werden Daten für die Tage 07.08.2012 12:00 Uhr bis 07.09.2012 12:00 Uhr angezeigt (d. h. Daten für insgesamt 31 Tage).</span><span class="sxs-lookup"><span data-stu-id="008b8-p114">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8f50e-176"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="8f50e-176"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="8f50e-p115">Vollqualifizierter Domänenname (FQDN) des Registrierungsstellenpools oder Edgeservers. Sie können einen einzelnen Pool auswählen, oder auf <strong>[Alle]</strong> klicken, um die Daten für alle Pools anzuzeigen. Diese Dropdownliste wird basierend auf den Datensätzen in der Datenbank automatisch ausgefüllt.</span><span class="sxs-lookup"><span data-stu-id="8f50e-p115">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="008b8-176"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="008b8-176"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="008b8-p115">Vollqualifizierter Domänenname (FQDN) des Registrierungsstellenpools oder Edgeservers. Sie können einen einzelnen Pool auswählen, oder auf <strong>[Alle]</strong> klicken, um die Daten für alle Pools anzuzeigen. Diese Dropdownliste wird basierend auf den Datensätzen in der Datenbank automatisch ausgefüllt.</span><span class="sxs-lookup"><span data-stu-id="008b8-p115">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8f50e-180"><strong>Konferenzsitzungen</strong></span><span class="sxs-lookup"><span data-stu-id="8f50e-180"><strong>Conference sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="8f50e-181">Gibt den Typ der Konferenzsitzung an.</span><span class="sxs-lookup"><span data-stu-id="8f50e-181">Indicates the type of conferencing session.</span></span> <span data-ttu-id="8f50e-182">Wählen Sie eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="8f50e-182">Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="008b8-180"><strong>Konferenzsitzungen</strong></span><span class="sxs-lookup"><span data-stu-id="008b8-180"><strong>Conference sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="008b8-181">Gibt den Typ der Konferenzsitzung an.</span><span class="sxs-lookup"><span data-stu-id="008b8-181">Indicates the type of conferencing session.</span></span> <span data-ttu-id="008b8-182">Wählen Sie eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="008b8-182">Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="8f50e-183">Alle</span><span class="sxs-lookup"><span data-stu-id="8f50e-183">[All]</span></span></p></li>
-<li><p><span data-ttu-id="8f50e-184">Konferenzzustandsobjekt-Sitzungen</span><span class="sxs-lookup"><span data-stu-id="8f50e-184">Focus sessions</span></span></p></li>
-<li><p><span data-ttu-id="8f50e-185">Alle MCU-Sitzungen</span><span class="sxs-lookup"><span data-stu-id="8f50e-185">All MCU sessions</span></span></p></li>
-<li><p><span data-ttu-id="8f50e-186">Sofortnachrichtenkonferenzen</span><span class="sxs-lookup"><span data-stu-id="8f50e-186">IM conferencing</span></span></p></li>
-<li><p><span data-ttu-id="8f50e-187">Anwendungsfreigabe</span><span class="sxs-lookup"><span data-stu-id="8f50e-187">Application sharing</span></span></p></li>
-<li><p><span data-ttu-id="8f50e-188">A/V-Konferenzen</span><span class="sxs-lookup"><span data-stu-id="8f50e-188">A/V conferencing</span></span></p></li>
+<li><p><span data-ttu-id="008b8-183">Alle</span><span class="sxs-lookup"><span data-stu-id="008b8-183">[All]</span></span></p></li>
+<li><p><span data-ttu-id="008b8-184">Konferenzzustandsobjekt-Sitzungen</span><span class="sxs-lookup"><span data-stu-id="008b8-184">Focus sessions</span></span></p></li>
+<li><p><span data-ttu-id="008b8-185">Alle MCU-Sitzungen</span><span class="sxs-lookup"><span data-stu-id="008b8-185">All MCU sessions</span></span></p></li>
+<li><p><span data-ttu-id="008b8-186">Sofortnachrichtenkonferenzen</span><span class="sxs-lookup"><span data-stu-id="008b8-186">IM conferencing</span></span></p></li>
+<li><p><span data-ttu-id="008b8-187">Anwendungsfreigabe</span><span class="sxs-lookup"><span data-stu-id="008b8-187">Application sharing</span></span></p></li>
+<li><p><span data-ttu-id="008b8-188">A/V-Konferenzen</span><span class="sxs-lookup"><span data-stu-id="008b8-188">A/V conferencing</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -171,11 +171,11 @@ ms.locfileid: "42007874"
 
 <div>
 
-## <a name="metrics"></a><span data-ttu-id="8f50e-189">Metriken</span><span class="sxs-lookup"><span data-stu-id="8f50e-189">Metrics</span></span>
+## <a name="metrics"></a><span data-ttu-id="008b8-189">Metriken</span><span class="sxs-lookup"><span data-stu-id="008b8-189">Metrics</span></span>
 
-<span data-ttu-id="8f50e-190">In der folgenden Tabelle sind die Informationen aufgeführt, die im Diagnosebericht über die Konferenz für jeden Typ von Konferenzsitzung bereitgestellt werden.</span><span class="sxs-lookup"><span data-stu-id="8f50e-190">The following table lists the information provided in the Conference Diagnostic Report for each type of conferencing session.</span></span>
+<span data-ttu-id="008b8-190">In der folgenden Tabelle sind die Informationen aufgeführt, die im Diagnosebericht über die Konferenz für jeden Typ von Konferenzsitzung bereitgestellt werden.</span><span class="sxs-lookup"><span data-stu-id="008b8-190">The following table lists the information provided in the Conference Diagnostic Report for each type of conferencing session.</span></span>
 
-### <a name="conference-diagnostic-report-metrics"></a><span data-ttu-id="8f50e-191">Metriken für den Konferenz Diagnosebericht</span><span class="sxs-lookup"><span data-stu-id="8f50e-191">Conference Diagnostic Report Metrics</span></span>
+### <a name="conference-diagnostic-report-metrics"></a><span data-ttu-id="008b8-191">Metriken für den Konferenz Diagnosebericht</span><span class="sxs-lookup"><span data-stu-id="008b8-191">Conference Diagnostic Report Metrics</span></span>
 
 <table>
 <colgroup>
@@ -185,48 +185,48 @@ ms.locfileid: "42007874"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="8f50e-192">Name</span><span class="sxs-lookup"><span data-stu-id="8f50e-192">Name</span></span></th>
-<th><span data-ttu-id="8f50e-193">Kann nach dieser Metrik sortiert werden?</span><span class="sxs-lookup"><span data-stu-id="8f50e-193">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="8f50e-194">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="8f50e-194">Description</span></span></th>
+<th><span data-ttu-id="008b8-192">Name</span><span class="sxs-lookup"><span data-stu-id="008b8-192">Name</span></span></th>
+<th><span data-ttu-id="008b8-193">Kann nach dieser Metrik sortiert werden?</span><span class="sxs-lookup"><span data-stu-id="008b8-193">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="008b8-194">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="008b8-194">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8f50e-195"><strong>Anzahl der erfolgreichen Sitzungen</strong></span><span class="sxs-lookup"><span data-stu-id="8f50e-195"><strong>Success volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="8f50e-196">Nein</span><span class="sxs-lookup"><span data-stu-id="8f50e-196">No</span></span></p></td>
-<td><p><span data-ttu-id="8f50e-197">Die Gesamtzahl der erfolgreichen Konferenzen.</span><span class="sxs-lookup"><span data-stu-id="8f50e-197">Total number of successful conferences.</span></span></p></td>
+<td><p><span data-ttu-id="008b8-195"><strong>Anzahl der erfolgreichen Sitzungen</strong></span><span class="sxs-lookup"><span data-stu-id="008b8-195"><strong>Success volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="008b8-196">Nein</span><span class="sxs-lookup"><span data-stu-id="008b8-196">No</span></span></p></td>
+<td><p><span data-ttu-id="008b8-197">Die Gesamtzahl der erfolgreichen Konferenzen.</span><span class="sxs-lookup"><span data-stu-id="008b8-197">Total number of successful conferences.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8f50e-198"><strong>Prozentsatz der erfolgreichen Sitzungen</strong></span><span class="sxs-lookup"><span data-stu-id="8f50e-198"><strong>Success percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="8f50e-199">Nein</span><span class="sxs-lookup"><span data-stu-id="8f50e-199">No</span></span></p></td>
-<td><p><span data-ttu-id="8f50e-200">Prozentsatz der Konferenzen, die mit erheblichen Problemen abgeschlossen wurden.</span><span class="sxs-lookup"><span data-stu-id="8f50e-200">Percentage of conferences that completed with significant problems.</span></span> <span data-ttu-id="8f50e-201">Errechnet sich durch Dividieren der Anzahl der erfolgreichen Sitzungen durch die Gesamtzahl der Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="8f50e-201">Calculated by dividing the Success volume by the Total sessions.</span></span></p></td>
+<td><p><span data-ttu-id="008b8-198"><strong>Prozentsatz der erfolgreichen Sitzungen</strong></span><span class="sxs-lookup"><span data-stu-id="008b8-198"><strong>Success percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="008b8-199">Nein</span><span class="sxs-lookup"><span data-stu-id="008b8-199">No</span></span></p></td>
+<td><p><span data-ttu-id="008b8-200">Prozentsatz der Konferenzen, die mit erheblichen Problemen abgeschlossen wurden.</span><span class="sxs-lookup"><span data-stu-id="008b8-200">Percentage of conferences that completed with significant problems.</span></span> <span data-ttu-id="008b8-201">Errechnet sich durch Dividieren der Anzahl der erfolgreichen Sitzungen durch die Gesamtzahl der Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="008b8-201">Calculated by dividing the Success volume by the Total sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8f50e-202"><strong>Anzahl der erwarteten Fehler</strong></span><span class="sxs-lookup"><span data-stu-id="8f50e-202"><strong>Expected failure volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="8f50e-203">Nein</span><span class="sxs-lookup"><span data-stu-id="8f50e-203">No</span></span></p></td>
-<td><p><span data-ttu-id="8f50e-204">Die Gesamtzahl der Konferenzen, &quot;bei denen&quot; ein erwarteter Fehler aufgetreten ist.</span><span class="sxs-lookup"><span data-stu-id="8f50e-204">Total number of conferences where an &quot;expected failure&quot; occurred.</span></span></p>
-<p><span data-ttu-id="8f50e-p118">Ein erwarteter Fehler ist ein Fehler, dessen Auftreten erwartet wird. Wenn beispielsweise ein Benutzer seinen Status auf Nicht stören festgelegt hat, ist zu erwarten, dass jeder Anruf an diesen Benutzer fehlschlägt.</span><span class="sxs-lookup"><span data-stu-id="8f50e-p118">An expected failure is a failure that is expected to happen. For example, if a user has set his or her status to Do Not Disturb you would expect any call to that user to fail.</span></span></p></td>
+<td><p><span data-ttu-id="008b8-202"><strong>Anzahl der erwarteten Fehler</strong></span><span class="sxs-lookup"><span data-stu-id="008b8-202"><strong>Expected failure volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="008b8-203">Nein</span><span class="sxs-lookup"><span data-stu-id="008b8-203">No</span></span></p></td>
+<td><p><span data-ttu-id="008b8-204">Die Gesamtzahl der Konferenzen, &quot;bei denen&quot; ein erwarteter Fehler aufgetreten ist.</span><span class="sxs-lookup"><span data-stu-id="008b8-204">Total number of conferences where an &quot;expected failure&quot; occurred.</span></span></p>
+<p><span data-ttu-id="008b8-p118">Ein erwarteter Fehler ist ein Fehler, dessen Auftreten erwartet wird. Wenn beispielsweise ein Benutzer seinen Status auf Nicht stören festgelegt hat, ist zu erwarten, dass jeder Anruf an diesen Benutzer fehlschlägt.</span><span class="sxs-lookup"><span data-stu-id="008b8-p118">An expected failure is a failure that is expected to happen. For example, if a user has set his or her status to Do Not Disturb you would expect any call to that user to fail.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8f50e-207"><strong>Prozentsatz der erwarteten Fehler</strong></span><span class="sxs-lookup"><span data-stu-id="8f50e-207"><strong>Expected failure percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="8f50e-208">Nein</span><span class="sxs-lookup"><span data-stu-id="8f50e-208">No</span></span></p></td>
-<td><p><span data-ttu-id="8f50e-209">Prozentsatz der Konferenzen, bei denen ein erwarteter Fehler auftrat.</span><span class="sxs-lookup"><span data-stu-id="8f50e-209">Percentage of conferences that experienced an expected error.</span></span> <span data-ttu-id="8f50e-210">Errechnet sich durch Dividieren der Anzahl der erwarteten Fehler durch die Gesamtzahl der Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="8f50e-210">Calculated by dividing the Expected failure volume by the Total sessions.</span></span></p></td>
+<td><p><span data-ttu-id="008b8-207"><strong>Prozentsatz der erwarteten Fehler</strong></span><span class="sxs-lookup"><span data-stu-id="008b8-207"><strong>Expected failure percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="008b8-208">Nein</span><span class="sxs-lookup"><span data-stu-id="008b8-208">No</span></span></p></td>
+<td><p><span data-ttu-id="008b8-209">Prozentsatz der Konferenzen, bei denen ein erwarteter Fehler auftrat.</span><span class="sxs-lookup"><span data-stu-id="008b8-209">Percentage of conferences that experienced an expected error.</span></span> <span data-ttu-id="008b8-210">Errechnet sich durch Dividieren der Anzahl der erwarteten Fehler durch die Gesamtzahl der Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="008b8-210">Calculated by dividing the Expected failure volume by the Total sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8f50e-211"><strong>Anzahl der unerwarteten Fehler</strong></span><span class="sxs-lookup"><span data-stu-id="8f50e-211"><strong>Unexpected failure volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="8f50e-212">Nein</span><span class="sxs-lookup"><span data-stu-id="8f50e-212">No</span></span></p></td>
-<td><p><span data-ttu-id="8f50e-213">Die Gesamtzahl der Konferenzen, &quot;bei denen&quot; ein unerwarteter Fehler aufgetreten ist.</span><span class="sxs-lookup"><span data-stu-id="8f50e-213">Total number of conferences where an &quot;unexpected failure&quot; occurred.</span></span></p>
-<p><span data-ttu-id="8f50e-p120">Ein unerwarteter Fehler ist ein Fehler, der in einem System auftritt, das abgesehen davon anscheinend intakt ist. Beispielsweise sollte ein Anruf nicht beendet werden, wenn der Anrufer in der Warteschleife platziert ist. Geschieht dies jedoch, würde dieser Vorgang als unerwarteter Fehler gekennzeichnet werden.</span><span class="sxs-lookup"><span data-stu-id="8f50e-p120">An unexpected failure is a failure that occurs in what would appear to be an otherwise healthy system. For example, a call should not be terminated if the caller is placed on hold. If that occurs, that would be flagged as an unexpected failure.</span></span></p></td>
+<td><p><span data-ttu-id="008b8-211"><strong>Anzahl der unerwarteten Fehler</strong></span><span class="sxs-lookup"><span data-stu-id="008b8-211"><strong>Unexpected failure volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="008b8-212">Nein</span><span class="sxs-lookup"><span data-stu-id="008b8-212">No</span></span></p></td>
+<td><p><span data-ttu-id="008b8-213">Die Gesamtzahl der Konferenzen, &quot;bei denen&quot; ein unerwarteter Fehler aufgetreten ist.</span><span class="sxs-lookup"><span data-stu-id="008b8-213">Total number of conferences where an &quot;unexpected failure&quot; occurred.</span></span></p>
+<p><span data-ttu-id="008b8-p120">Ein unerwarteter Fehler ist ein Fehler, der in einem System auftritt, das abgesehen davon anscheinend intakt ist. Beispielsweise sollte ein Anruf nicht beendet werden, wenn der Anrufer in der Warteschleife platziert ist. Geschieht dies jedoch, würde dieser Vorgang als unerwarteter Fehler gekennzeichnet werden.</span><span class="sxs-lookup"><span data-stu-id="008b8-p120">An unexpected failure is a failure that occurs in what would appear to be an otherwise healthy system. For example, a call should not be terminated if the caller is placed on hold. If that occurs, that would be flagged as an unexpected failure.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8f50e-217"><strong>Prozentsatz der unerwarteten Fehler</strong></span><span class="sxs-lookup"><span data-stu-id="8f50e-217"><strong>Unexpected failure percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="8f50e-218">Nein</span><span class="sxs-lookup"><span data-stu-id="8f50e-218">No</span></span></p></td>
-<td><p><span data-ttu-id="8f50e-219">Prozentsatz der Konferenzen, bei denen ein unerwarteter Fehler auftrat</span><span class="sxs-lookup"><span data-stu-id="8f50e-219">Percentage of conferences that experienced an unexpected error.</span></span> <span data-ttu-id="8f50e-220">Errechnet sich durch Dividieren der Anzahl der unerwarteten Fehler durch die Gesamtzahl der Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="8f50e-220">Calculated by dividing the Unexpected failure volume by the Total sessions.</span></span></p></td>
+<td><p><span data-ttu-id="008b8-217"><strong>Prozentsatz der unerwarteten Fehler</strong></span><span class="sxs-lookup"><span data-stu-id="008b8-217"><strong>Unexpected failure percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="008b8-218">Nein</span><span class="sxs-lookup"><span data-stu-id="008b8-218">No</span></span></p></td>
+<td><p><span data-ttu-id="008b8-219">Prozentsatz der Konferenzen, bei denen ein unerwarteter Fehler auftrat</span><span class="sxs-lookup"><span data-stu-id="008b8-219">Percentage of conferences that experienced an unexpected error.</span></span> <span data-ttu-id="008b8-220">Errechnet sich durch Dividieren der Anzahl der unerwarteten Fehler durch die Gesamtzahl der Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="008b8-220">Calculated by dividing the Unexpected failure volume by the Total sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8f50e-221"><strong>Sitzungen insgesamt</strong></span><span class="sxs-lookup"><span data-stu-id="8f50e-221"><strong>Total sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="8f50e-222">Nein</span><span class="sxs-lookup"><span data-stu-id="8f50e-222">No</span></span></p></td>
-<td><p><span data-ttu-id="8f50e-223">Gesamtzahl der Konferenzen, einschließlich erfolgreicher Konferenzen, fehlgeschlagener Konferenzen (sowohl erwartete Fehler als auch unerwartete Fehler) und nicht kategorisierter Konferenzen.</span><span class="sxs-lookup"><span data-stu-id="8f50e-223">Total number of conferences, including successful conferences, failed conferences (both expected failures and unexpected failures), and uncategorized conferences.</span></span></p></td>
+<td><p><span data-ttu-id="008b8-221"><strong>Sitzungen insgesamt</strong></span><span class="sxs-lookup"><span data-stu-id="008b8-221"><strong>Total sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="008b8-222">Nein</span><span class="sxs-lookup"><span data-stu-id="008b8-222">No</span></span></p></td>
+<td><p><span data-ttu-id="008b8-223">Gesamtzahl der Konferenzen, einschließlich erfolgreicher Konferenzen, fehlgeschlagener Konferenzen (sowohl erwartete Fehler als auch unerwartete Fehler) und nicht kategorisierter Konferenzen.</span><span class="sxs-lookup"><span data-stu-id="008b8-223">Total number of conferences, including successful conferences, failed conferences (both expected failures and unexpected failures), and uncategorized conferences.</span></span></p></td>
 </tr>
 </tbody>
 </table>

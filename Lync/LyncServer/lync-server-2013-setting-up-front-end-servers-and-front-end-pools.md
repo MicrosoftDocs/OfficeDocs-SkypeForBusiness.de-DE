@@ -12,20 +12,20 @@ ms:contentKeyID: 48185381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c615d383d2eedf1c24e2da2ddb2561476f4c8db
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b9af600e6c95a33aa743d518c654f3abfe4275d8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007734"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143197"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-front-end-servers-and-front-end-pools-for-lync-server-2013"></a><span data-ttu-id="75b4b-102">Einrichten von Front-End-Servern und Front-End-Pools für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="75b4b-102">Setting up Front End Servers and Front End pools for Lync Server 2013</span></span>
+# <a name="setting-up-front-end-servers-and-front-end-pools-for-lync-server-2013"></a><span data-ttu-id="b815d-102">Einrichten von Front-End-Servern und Front-End-Pools für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b815d-102">Setting up Front End Servers and Front End pools for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42007734"
 
 <span> </span>
 
-<span data-ttu-id="75b4b-103">_**Letztes Änderungsstand des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="75b4b-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="b815d-103">_**Letztes Änderungsstand des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="b815d-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="75b4b-104">Dieser Abschnitt führt Sie durch die Installation von lync Server 2013 und das Einrichten der Serverrollen für die Standard Edition-Server und die Front-End-Pool, einschließlich der Front-End-Server und aller Serverrollen, die mit den Front-End-Servern zusammengesetzt sind.</span><span class="sxs-lookup"><span data-stu-id="75b4b-104">This section guides you through installing Lync Server 2013 and setting up the server roles for the Standard Edition server and the Front End pool, including the Front End Servers and any server roles that are collocated with the Front End Servers.</span></span> <span data-ttu-id="75b4b-105">Zum Installieren und Einrichten von Serverrollen führen Sie den lync Server-Bereitstellungs-Assistenten auf jedem Computer aus, auf dem Sie eine Serverrolle installieren.</span><span class="sxs-lookup"><span data-stu-id="75b4b-105">To install and set up server roles, you run the Lync Server Deployment Wizard on each computer on which you are installing a server role.</span></span> <span data-ttu-id="75b4b-106">Sie verwenden den Bereitstellungs-Assistenten, um alle vier Bereitstellungsschritte abzuschließen, einschließlich der Installation des lokalen Konfigurationsspeichers, der Installation der Front-End-Server, der Konfiguration von Zertifikaten und dem Starten von Diensten.</span><span class="sxs-lookup"><span data-stu-id="75b4b-106">You use the Deployment Wizard to complete all four deployment steps, including installing the Local Configuration store, installing the Front End Servers, configuring certificates, and starting services.</span></span>
+<span data-ttu-id="b815d-104">Dieser Abschnitt führt Sie durch die Installation von lync Server 2013 und das Einrichten der Serverrollen für die Standard Edition-Server und die Front-End-Pool, einschließlich der Front-End-Server und aller Serverrollen, die mit den Front-End-Servern zusammengesetzt sind.</span><span class="sxs-lookup"><span data-stu-id="b815d-104">This section guides you through installing Lync Server 2013 and setting up the server roles for the Standard Edition server and the Front End pool, including the Front End Servers and any server roles that are collocated with the Front End Servers.</span></span> <span data-ttu-id="b815d-105">Zum Installieren und Einrichten von Serverrollen führen Sie den lync Server-Bereitstellungs-Assistenten auf jedem Computer aus, auf dem Sie eine Serverrolle installieren.</span><span class="sxs-lookup"><span data-stu-id="b815d-105">To install and set up server roles, you run the Lync Server Deployment Wizard on each computer on which you are installing a server role.</span></span> <span data-ttu-id="b815d-106">Sie verwenden den Bereitstellungs-Assistenten, um alle vier Bereitstellungsschritte abzuschließen, einschließlich der Installation des lokalen Konfigurationsspeichers, der Installation der Front-End-Server, der Konfiguration von Zertifikaten und dem Starten von Diensten.</span><span class="sxs-lookup"><span data-stu-id="b815d-106">You use the Deployment Wizard to complete all four deployment steps, including installing the Local Configuration store, installing the Front End Servers, configuring certificates, and starting services.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="75b4b-107">Bevor Sie Serverrollen einrichten können, müssen Sie eine Topologie erfolgreich veröffentlicht haben.</span><span class="sxs-lookup"><span data-stu-id="75b4b-107">Before you can set up server roles, you must have successfully published a topology.</span></span> <span data-ttu-id="75b4b-108">Ausführliche Informationen zum Veröffentlichen einer Topologie finden Sie unter <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">finaling and Implementation The Topology Design in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="75b4b-108">For details about publishing a topology, see <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Finalizing and implementing the topology design in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="b815d-107">Bevor Sie Serverrollen einrichten können, müssen Sie eine Topologie erfolgreich veröffentlicht haben.</span><span class="sxs-lookup"><span data-stu-id="b815d-107">Before you can set up server roles, you must have successfully published a topology.</span></span> <span data-ttu-id="b815d-108">Ausführliche Informationen zum Veröffentlichen einer Topologie finden Sie unter <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">finaling and Implementation The Topology Design in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="b815d-108">For details about publishing a topology, see <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Finalizing and implementing the topology design in Lync Server 2013</A>.</span></span>
 
 
 
@@ -51,19 +51,19 @@ ms.locfileid: "42007734"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="75b4b-109">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="75b4b-109">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b815d-109">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="b815d-109">In This Section</span></span>
 
-  - [<span data-ttu-id="75b4b-110">Installieren des lokalen Konfigurationsspeichers in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="75b4b-110">Install the Local Configuration store in Lync Server 2013</span></span>](lync-server-2013-install-the-local-configuration-store.md)
+  - [<span data-ttu-id="b815d-110">Installieren des lokalen Konfigurationsspeichers in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b815d-110">Install the Local Configuration store in Lync Server 2013</span></span>](lync-server-2013-install-the-local-configuration-store.md)
 
-  - [<span data-ttu-id="75b4b-111">Installieren von Server Komponenten für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="75b4b-111">Install server components for Lync Server 2013</span></span>](lync-server-2013-install-lync-server-server-components.md)
+  - [<span data-ttu-id="b815d-111">Installieren von Server Komponenten für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b815d-111">Install server components for Lync Server 2013</span></span>](lync-server-2013-install-lync-server-server-components.md)
 
-  - [<span data-ttu-id="75b4b-112">Konfigurieren von Zertifikaten für Server in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="75b4b-112">Configure certificates for servers in Lync Server 2013</span></span>](lync-server-2013-configure-certificates-for-servers.md)
+  - [<span data-ttu-id="b815d-112">Konfigurieren von Zertifikaten für Server in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b815d-112">Configure certificates for servers in Lync Server 2013</span></span>](lync-server-2013-configure-certificates-for-servers.md)
 
-  - [<span data-ttu-id="75b4b-113">Starten von Diensten auf Servern für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="75b4b-113">Start services on servers for Lync Server 2013</span></span>](lync-server-2013-start-services-on-servers.md)
+  - [<span data-ttu-id="b815d-113">Starten von Diensten auf Servern für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b815d-113">Start services on servers for Lync Server 2013</span></span>](lync-server-2013-start-services-on-servers.md)
 
-  - [<span data-ttu-id="75b4b-114">Testen der Pool Bereitstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="75b4b-114">Test the pool deployment in Lync Server 2013</span></span>](lync-server-2013-test-the-pool-deployment.md)
+  - [<span data-ttu-id="b815d-114">Testen der Pool Bereitstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b815d-114">Test the pool deployment in Lync Server 2013</span></span>](lync-server-2013-test-the-pool-deployment.md)
 
-  - [<span data-ttu-id="75b4b-115">Testen der Standard Edition-Server in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="75b4b-115">Test the Standard Edition server in Lync Server 2013</span></span>](lync-server-2013-test-the-standard-edition-server.md)
+  - [<span data-ttu-id="b815d-115">Testen der Standard Edition-Server in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b815d-115">Test the Standard Edition server in Lync Server 2013</span></span>](lync-server-2013-test-the-standard-edition-server.md)
 
 </div>
 

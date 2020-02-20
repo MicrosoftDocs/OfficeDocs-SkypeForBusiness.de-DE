@@ -12,20 +12,20 @@ ms:contentKeyID: 51803936
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcdebdccd0584d31b27120709212be674e8d3c2a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e672e35771ec3cc4ecbd3655af350231f1583b52
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049267"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141891"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-considerations-for-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="79967-102">Technische Überlegungen zum standortbasierten Routing in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="79967-102">Technical considerations for Location-Based Routing in Lync Server 2013</span></span>
+# <a name="technical-considerations-for-location-based-routing-in-lync-server-2013"></a><span data-ttu-id="34b95-102">Technische Überlegungen zum standortbasierten Routing in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="34b95-102">Technical considerations for Location-Based Routing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,32 +35,32 @@ ms.locfileid: "42049267"
 
 <span> </span>
 
-<span data-ttu-id="79967-103">_**Letztes Änderungsstand des Themas:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="79967-103">_**Topic Last Modified:** 2013-03-09_</span></span>
+<span data-ttu-id="34b95-103">_**Letztes Änderungsstand des Themas:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="34b95-103">_**Topic Last Modified:** 2013-03-09_</span></span>
 
-<span data-ttu-id="79967-104">Bei der Planung des standortbasierten Routings sollten Sie die Auswirkungen auf die folgenden Szenarien berücksichtigen.</span><span class="sxs-lookup"><span data-stu-id="79967-104">When planning Location-Based Routing, you should consider the impact to the following scenarios.</span></span>
+<span data-ttu-id="34b95-104">Bei der Planung des standortbasierten Routings sollten Sie die Auswirkungen auf die folgenden Szenarien berücksichtigen.</span><span class="sxs-lookup"><span data-stu-id="34b95-104">When planning Location-Based Routing, you should consider the impact to the following scenarios.</span></span>
 
 <div>
 
-## <a name="disaster-recovery"></a><span data-ttu-id="79967-105">Notfallwiederherstellung</span><span class="sxs-lookup"><span data-stu-id="79967-105">Disaster Recovery</span></span>
+## <a name="disaster-recovery"></a><span data-ttu-id="34b95-105">Notfallwiederherstellung</span><span class="sxs-lookup"><span data-stu-id="34b95-105">Disaster Recovery</span></span>
 
-<span data-ttu-id="79967-106">Während eines Failovers vom primären Pool zu einem Sicherungspool sowie beim Wiederherstellen normaler Vorgänge für den primären Pool bleibt das standortbasierte Routing während eines Notfall-und Wiederherstellungsverfahrens zu jeder Zeit erzwungen.</span><span class="sxs-lookup"><span data-stu-id="79967-106">During a failover from the primary pool to a backup pool as well as when restoring normal operations to the primary pool, Location-Based Routing remains enforced at all times during a disaster and recovery procedure.</span></span>
+<span data-ttu-id="34b95-106">Während eines Failovers vom primären Pool zu einem Sicherungspool sowie beim Wiederherstellen normaler Vorgänge für den primären Pool bleibt das standortbasierte Routing während eines Notfall-und Wiederherstellungsverfahrens zu jeder Zeit erzwungen.</span><span class="sxs-lookup"><span data-stu-id="34b95-106">During a failover from the primary pool to a backup pool as well as when restoring normal operations to the primary pool, Location-Based Routing remains enforced at all times during a disaster and recovery procedure.</span></span>
 
 </div>
 
 <div>
 
-## <a name="survivable-branch-appliance"></a><span data-ttu-id="79967-107">Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="79967-107">Survivable Branch Appliance</span></span>
+## <a name="survivable-branch-appliance"></a><span data-ttu-id="34b95-107">Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="34b95-107">Survivable Branch Appliance</span></span>
 
-<span data-ttu-id="79967-108">Das Konfigurieren des standortbasierten Routings wirkt sich auf die Planung aus, in der Sie die Gateways bereitstellen, die ihren Survivable Branch Appliances zugeordnet sind.</span><span class="sxs-lookup"><span data-stu-id="79967-108">Configuring Location-Based Routing impacts the planning of where you deploy the gateways associated to your Survivable Branch Appliances.</span></span> <span data-ttu-id="79967-109">Das Gateway, das Ihrem SBA zugeordnet ist, muss sich am selben Netzwerkstandort befinden wie Ihr Survivable Branch Appliance; andernfalls dürfen Benutzer, die in Ihrem Survivable Branch Appliance verwaltet werden, keine ausgehenden Anrufe tätigen, wenn das standortbasierte Routing konfiguriert ist.</span><span class="sxs-lookup"><span data-stu-id="79967-109">The gateway associated to your SBA must be located in the same network site as your Survivable Branch Appliance; otherwise, users homed on your Survivable Branch Appliance will not be permitted to place outbound calls if Location-Based Routing is configured.</span></span> <span data-ttu-id="79967-110">Wenn die WAN-Verbindung zwischen Ihrem Survivable Branch Appliance und dem zentralen Standort nicht aktiv ist, bleiben standortbasierte Routing Einschränkungen bestehen.</span><span class="sxs-lookup"><span data-stu-id="79967-110">When the WAN connection between your Survivable Branch Appliance and the central site is down, Location-Based Routing restrictions remains enforced.</span></span>
+<span data-ttu-id="34b95-108">Das Konfigurieren des standortbasierten Routings wirkt sich auf die Planung aus, in der Sie die Gateways bereitstellen, die ihren Survivable Branch Appliances zugeordnet sind.</span><span class="sxs-lookup"><span data-stu-id="34b95-108">Configuring Location-Based Routing impacts the planning of where you deploy the gateways associated to your Survivable Branch Appliances.</span></span> <span data-ttu-id="34b95-109">Das Gateway, das Ihrem SBA zugeordnet ist, muss sich am selben Netzwerkstandort befinden wie Ihr Survivable Branch Appliance; andernfalls dürfen Benutzer, die in Ihrem Survivable Branch Appliance verwaltet werden, keine ausgehenden Anrufe tätigen, wenn das standortbasierte Routing konfiguriert ist.</span><span class="sxs-lookup"><span data-stu-id="34b95-109">The gateway associated to your SBA must be located in the same network site as your Survivable Branch Appliance; otherwise, users homed on your Survivable Branch Appliance will not be permitted to place outbound calls if Location-Based Routing is configured.</span></span> <span data-ttu-id="34b95-110">Wenn die WAN-Verbindung zwischen Ihrem Survivable Branch Appliance und dem zentralen Standort nicht aktiv ist, bleiben standortbasierte Routing Einschränkungen bestehen.</span><span class="sxs-lookup"><span data-stu-id="34b95-110">When the WAN connection between your Survivable Branch Appliance and the central site is down, Location-Based Routing restrictions remains enforced.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="79967-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="79967-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="34b95-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="34b95-111">See Also</span></span>
 
 
-[<span data-ttu-id="79967-112">Planen des standortbasierten Routings in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="79967-112">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
+[<span data-ttu-id="34b95-112">Planen des standortbasierten Routings in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="34b95-112">Planning for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-planning-for-location-based-routing.md)  
   
 
 </div>

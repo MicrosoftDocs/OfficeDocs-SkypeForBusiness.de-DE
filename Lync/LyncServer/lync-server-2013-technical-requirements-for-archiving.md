@@ -12,20 +12,20 @@ ms:contentKeyID: 48184732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c388fd04ba7600aa28a142961cd5ac07f63ae7c7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 1f12b84149c713ed4684cad7cf9fd3bc33bad8ff
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007684"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141871"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="technical-requirements-for-archiving-in-lync-server-2013"></a><span data-ttu-id="394ca-102">Technische Anforderungen für die Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="394ca-102">Technical requirements for Archiving in Lync Server 2013</span></span>
+# <a name="technical-requirements-for-archiving-in-lync-server-2013"></a><span data-ttu-id="3bfe5-102">Technische Anforderungen für die Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3bfe5-102">Technical requirements for Archiving in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42007684"
 
 <span> </span>
 
-<span data-ttu-id="394ca-103">_**Letztes Änderungsstand des Themas:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="394ca-103">_**Topic Last Modified:** 2012-10-09_</span></span>
+<span data-ttu-id="3bfe5-103">_**Letztes Änderungsstand des Themas:** 2012-10-09_</span><span class="sxs-lookup"><span data-stu-id="3bfe5-103">_**Topic Last Modified:** 2012-10-09_</span></span>
 
-<span data-ttu-id="394ca-104">Lync Server 2013 technische Anforderungen umfassen Folgendes:</span><span class="sxs-lookup"><span data-stu-id="394ca-104">Lync Server 2013 technical requirements include the following:</span></span>
+<span data-ttu-id="3bfe5-104">Lync Server 2013 technische Anforderungen umfassen Folgendes:</span><span class="sxs-lookup"><span data-stu-id="3bfe5-104">Lync Server 2013 technical requirements include the following:</span></span>
 
-  - <span data-ttu-id="394ca-105">Infrastrukturanforderungen.</span><span class="sxs-lookup"><span data-stu-id="394ca-105">Infrastructure requirements.</span></span>
+  - <span data-ttu-id="3bfe5-105">Infrastrukturanforderungen.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-105">Infrastructure requirements.</span></span>
 
-  - <span data-ttu-id="394ca-106">Erforderliche Software, die für die Archivierung installiert werden muss.</span><span class="sxs-lookup"><span data-stu-id="394ca-106">Prerequisite software that must be installed for Archiving.</span></span>
+  - <span data-ttu-id="3bfe5-106">Erforderliche Software, die für die Archivierung installiert werden muss.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-106">Prerequisite software that must be installed for Archiving.</span></span>
 
-  - <span data-ttu-id="394ca-107">Datenspeicheranforderungen für die Archivierung.</span><span class="sxs-lookup"><span data-stu-id="394ca-107">Data storage requirements for Archiving.</span></span>
+  - <span data-ttu-id="3bfe5-107">Datenspeicheranforderungen für die Archivierung.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-107">Data storage requirements for Archiving.</span></span>
 
-  - <span data-ttu-id="394ca-108">Skalierungsanforderungen und Überlegungen für die Archivierungs Bereitstellung.</span><span class="sxs-lookup"><span data-stu-id="394ca-108">Scaling requirements and considerations for your Archiving deployment.</span></span>
+  - <span data-ttu-id="3bfe5-108">Skalierungsanforderungen und Überlegungen für die Archivierungs Bereitstellung.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-108">Scaling requirements and considerations for your Archiving deployment.</span></span>
 
-  - <span data-ttu-id="394ca-109">Leistungsanforderungen und Überlegungen für Ihre Archivierungsdatenbanken.</span><span class="sxs-lookup"><span data-stu-id="394ca-109">Performance requirements and considerations for your Archiving databases.</span></span>
+  - <span data-ttu-id="3bfe5-109">Leistungsanforderungen und Überlegungen für Ihre Archivierungsdatenbanken.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-109">Performance requirements and considerations for your Archiving databases.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="394ca-110">Skalierungs-und Leistungsinformationen stehen in dieser lync Server 2013 Version nicht zur Verfügung.</span><span class="sxs-lookup"><span data-stu-id="394ca-110">Scaling and performance information is not available in this Lync Server 2013 release.</span></span>
+> <span data-ttu-id="3bfe5-110">Skalierungs-und Leistungsinformationen stehen in dieser lync Server 2013 Version nicht zur Verfügung.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-110">Scaling and performance information is not available in this Lync Server 2013 release.</span></span>
 
 
 
@@ -61,54 +61,54 @@ ms.locfileid: "42007684"
 
 <div>
 
-## <a name="infrastructure-requirements"></a><span data-ttu-id="394ca-111">Infrastrukturanforderungen</span><span class="sxs-lookup"><span data-stu-id="394ca-111">Infrastructure Requirements</span></span>
+## <a name="infrastructure-requirements"></a><span data-ttu-id="3bfe5-111">Infrastrukturanforderungen</span><span class="sxs-lookup"><span data-stu-id="3bfe5-111">Infrastructure Requirements</span></span>
 
-<span data-ttu-id="394ca-112">Lync Server 2013 Anforderungen an die Archivierungsinfrastruktur entsprechen denen für die Bereitstellung von lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="394ca-112">Lync Server 2013 Archiving infrastructure requirements are the same as for deployment of Lync Server 2013.</span></span> <span data-ttu-id="394ca-113">Ausführliche Informationen finden Sie unter [bestimmen der Infrastrukturanforderungen für lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="394ca-113">For details, see [Determining your infrastructure requirements for Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) in the Planning documentation.</span></span>
-
-</div>
-
-<div>
-
-## <a name="archiving-prerequisites"></a><span data-ttu-id="394ca-114">Voraussetzungen für die Archivierung</span><span class="sxs-lookup"><span data-stu-id="394ca-114">Archiving Prerequisites</span></span>
-
-<span data-ttu-id="394ca-115">Lync Server 2013 rationalisiert die Voraussetzungen für die Archivierung aus folgenden Gründen:</span><span class="sxs-lookup"><span data-stu-id="394ca-115">Lync Server 2013 streamlines prerequisites for Archiving because of the following:</span></span>
-
-  - <span data-ttu-id="394ca-116">Archivierungsserver ist keine Server Rolle mehr.</span><span class="sxs-lookup"><span data-stu-id="394ca-116">Archiving Server is no longer a server role.</span></span> <span data-ttu-id="394ca-117">Stattdessen werden einheitliche Datenerfassungs-Agents auf den Front-End-Servern in einem Pool-und Standard Edition-Server ausgeführt, um Daten für die Archivierung aufzuzeichnen, sodass Sie keine separaten Systemplattformen für die Archivierung einrichten.</span><span class="sxs-lookup"><span data-stu-id="394ca-117">Instead, Unified Data Collection Agents run on the Front End Servers in a pool and Standard Edition servers to capture data for Archiving, so you do not set up separate system platforms for Archiving.</span></span>
-
-  - <span data-ttu-id="394ca-118">Bei der Archivierung wird der lync Server 2013 Dateispeicher für die temporäre Speicherung von Besprechungsinhalts Dateien verwendet, sodass Sie keinen separaten Dateispeicher für die Archivierung einrichten.</span><span class="sxs-lookup"><span data-stu-id="394ca-118">Archiving uses the Lync Server 2013 file storage for temporary storage of meeting content files, so you do not set up a separate file store for archiving.</span></span>
-
-  - <span data-ttu-id="394ca-119">In lync Server 2013 ist Message Queuing nicht erforderlich.</span><span class="sxs-lookup"><span data-stu-id="394ca-119">In Lync Server 2013, Message Queuing is not required.</span></span>
+<span data-ttu-id="3bfe5-112">Lync Server 2013 Anforderungen an die Archivierungsinfrastruktur entsprechen denen für die Bereitstellung von lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-112">Lync Server 2013 Archiving infrastructure requirements are the same as for deployment of Lync Server 2013.</span></span> <span data-ttu-id="3bfe5-113">Ausführliche Informationen finden Sie unter [bestimmen der Infrastrukturanforderungen für lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-113">For details, see [Determining your infrastructure requirements for Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) in the Planning documentation.</span></span>
 
 </div>
 
 <div>
 
-## <a name="data-storage-requirements-for-archiving"></a><span data-ttu-id="394ca-120">Datenspeicheranforderungen für die Archivierung</span><span class="sxs-lookup"><span data-stu-id="394ca-120">Data Storage Requirements for Archiving</span></span>
+## <a name="archiving-prerequisites"></a><span data-ttu-id="3bfe5-114">Voraussetzungen für die Archivierung</span><span class="sxs-lookup"><span data-stu-id="3bfe5-114">Archiving Prerequisites</span></span>
 
-<span data-ttu-id="394ca-121">Darüber hinaus müssen Sie die Infrastruktur für die Archivierung von Speicher einrichten.</span><span class="sxs-lookup"><span data-stu-id="394ca-121">Additionally, you need to set up the infrastructure for Archiving storage.</span></span> <span data-ttu-id="394ca-122">Dies umfasst eine oder beide der folgenden:</span><span class="sxs-lookup"><span data-stu-id="394ca-122">This includes one or both of the following:</span></span>
+<span data-ttu-id="3bfe5-115">Lync Server 2013 rationalisiert die Voraussetzungen für die Archivierung aus folgenden Gründen:</span><span class="sxs-lookup"><span data-stu-id="3bfe5-115">Lync Server 2013 streamlines prerequisites for Archiving because of the following:</span></span>
 
-  - <span data-ttu-id="394ca-123">**Microsoft Exchange Speicher**.</span><span class="sxs-lookup"><span data-stu-id="394ca-123">**Microsoft Exchange storage**.</span></span> <span data-ttu-id="394ca-124">Besprechungsinhalts Dateien wie PowerPoint-Präsentationen werden als Anlagen archiviert.</span><span class="sxs-lookup"><span data-stu-id="394ca-124">Meeting content files, such as PowerPoint presentations, are archived as attachments.</span></span> <span data-ttu-id="394ca-125">Wenn Sie Microsoft Exchange Integration verwenden möchten, damit lync-Archivdaten mit Exchange-Konformitätsdaten gespeichert werden, müssen Sie Exchange 2013 für Ihre Exchange-Bereitstellung verwenden und sicherstellen, dass die maximale Speichergröße die Speicherung der Besprechungsinhalts Dateien unterstützt.</span><span class="sxs-lookup"><span data-stu-id="394ca-125">If you want to use Microsoft Exchange integration so that Lync archive data is stored with Exchange compliance data, you must use Exchange 2013 for your Exchange deployment and ensure that the maximum storage size supports storage of the meeting content files.</span></span> <span data-ttu-id="394ca-126">Wenn Sie die Archivierung mithilfe der Option "Microsoft Exchange Integration" bereitstellen, werden lync-Archivdaten nur für die Benutzer, die auf Ihren Exchange 2013 Servern verwaltet werden, mit Exchange 2013 Compliance-Daten gespeichert.</span><span class="sxs-lookup"><span data-stu-id="394ca-126">If you deploy Archiving using the Microsoft Exchange integration option, Lync archive data is stored with Exchange 2013 compliance data only for the users who are homed on your Exchange 2013 servers.</span></span> <span data-ttu-id="394ca-127">Sie müssen Exchange 2013 bereitstellen, bevor Sie die Archivierung mithilfe der Option "Microsoft Exchange Integration" bereitstellen und aktivieren.</span><span class="sxs-lookup"><span data-stu-id="394ca-127">You must deploy Exchange 2013 prior to deploying and enabling Archiving using the Microsoft Exchange integration option.</span></span> <span data-ttu-id="394ca-128">Wenn Sie Exchange 2013 Speicher verwenden möchten, müssen Sie keine separaten SQL Server Datenbanken für die Archivierung bereitstellen, es sei denn, Sie verfügen über lync-Benutzer, die nicht auf Ihren Exchange 2013 Servern verwaltet werden.</span><span class="sxs-lookup"><span data-stu-id="394ca-128">If you choose to use Exchange 2013 storage, you do not need to deploy separate SQL Server databases for Archiving, unless you have Lync users who are not homed on your Exchange 2013 servers.</span></span>
+  - <span data-ttu-id="3bfe5-116">Archivierungsserver ist keine Server Rolle mehr.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-116">Archiving Server is no longer a server role.</span></span> <span data-ttu-id="3bfe5-117">Stattdessen werden einheitliche Datenerfassungs-Agents auf den Front-End-Servern in einem Pool-und Standard Edition-Server ausgeführt, um Daten für die Archivierung aufzuzeichnen, sodass Sie keine separaten Systemplattformen für die Archivierung einrichten.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-117">Instead, Unified Data Collection Agents run on the Front End Servers in a pool and Standard Edition servers to capture data for Archiving, so you do not set up separate system platforms for Archiving.</span></span>
 
-  - <span data-ttu-id="394ca-129">**SQL Server Datenbankspeicher für die Archivierung**.</span><span class="sxs-lookup"><span data-stu-id="394ca-129">**SQL Server database storage for Archiving**.</span></span> <span data-ttu-id="394ca-130">Zur Unterstützung von Benutzern, die nicht auf Exchange 2013 Servern verwaltet werden, oder wenn Sie die Option Microsoft Exchange Integration nicht verwenden möchten, müssen Sie den Archivierungsspeicher mithilfe einer SQL Server Datenbank bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="394ca-130">To support users who are not homed on Exchange 2013 servers, or if you do not want to use the Microsoft Exchange integration option, you must deploy Archiving storage using a SQL Server database.</span></span> <span data-ttu-id="394ca-131">Lync Server 2013 unterstützt die folgenden 64-Bit-Versionen von SQL Server:</span><span class="sxs-lookup"><span data-stu-id="394ca-131">Lync Server 2013 supports the following 64-bit versions of SQL Server:</span></span>
+  - <span data-ttu-id="3bfe5-118">Bei der Archivierung wird der lync Server 2013 Dateispeicher für die temporäre Speicherung von Besprechungsinhalts Dateien verwendet, sodass Sie keinen separaten Dateispeicher für die Archivierung einrichten.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-118">Archiving uses the Lync Server 2013 file storage for temporary storage of meeting content files, so you do not set up a separate file store for archiving.</span></span>
+
+  - <span data-ttu-id="3bfe5-119">In lync Server 2013 ist Message Queuing nicht erforderlich.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-119">In Lync Server 2013, Message Queuing is not required.</span></span>
+
+</div>
+
+<div>
+
+## <a name="data-storage-requirements-for-archiving"></a><span data-ttu-id="3bfe5-120">Datenspeicheranforderungen für die Archivierung</span><span class="sxs-lookup"><span data-stu-id="3bfe5-120">Data Storage Requirements for Archiving</span></span>
+
+<span data-ttu-id="3bfe5-121">Darüber hinaus müssen Sie die Infrastruktur für die Archivierung von Speicher einrichten.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-121">Additionally, you need to set up the infrastructure for Archiving storage.</span></span> <span data-ttu-id="3bfe5-122">Dies umfasst eine oder beide der folgenden:</span><span class="sxs-lookup"><span data-stu-id="3bfe5-122">This includes one or both of the following:</span></span>
+
+  - <span data-ttu-id="3bfe5-123">**Microsoft Exchange Speicher**.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-123">**Microsoft Exchange storage**.</span></span> <span data-ttu-id="3bfe5-124">Besprechungsinhalts Dateien wie PowerPoint-Präsentationen werden als Anlagen archiviert.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-124">Meeting content files, such as PowerPoint presentations, are archived as attachments.</span></span> <span data-ttu-id="3bfe5-125">Wenn Sie Microsoft Exchange Integration verwenden möchten, damit lync-Archivdaten mit Exchange-Konformitätsdaten gespeichert werden, müssen Sie Exchange 2013 für Ihre Exchange-Bereitstellung verwenden und sicherstellen, dass die maximale Speichergröße die Speicherung der Besprechungsinhalts Dateien unterstützt.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-125">If you want to use Microsoft Exchange integration so that Lync archive data is stored with Exchange compliance data, you must use Exchange 2013 for your Exchange deployment and ensure that the maximum storage size supports storage of the meeting content files.</span></span> <span data-ttu-id="3bfe5-126">Wenn Sie die Archivierung mithilfe der Option "Microsoft Exchange Integration" bereitstellen, werden lync-Archivdaten nur für die Benutzer, die auf Ihren Exchange 2013 Servern verwaltet werden, mit Exchange 2013 Compliance-Daten gespeichert.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-126">If you deploy Archiving using the Microsoft Exchange integration option, Lync archive data is stored with Exchange 2013 compliance data only for the users who are homed on your Exchange 2013 servers.</span></span> <span data-ttu-id="3bfe5-127">Sie müssen Exchange 2013 bereitstellen, bevor Sie die Archivierung mithilfe der Option "Microsoft Exchange Integration" bereitstellen und aktivieren.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-127">You must deploy Exchange 2013 prior to deploying and enabling Archiving using the Microsoft Exchange integration option.</span></span> <span data-ttu-id="3bfe5-128">Wenn Sie Exchange 2013 Speicher verwenden möchten, müssen Sie keine separaten SQL Server Datenbanken für die Archivierung bereitstellen, es sei denn, Sie verfügen über lync-Benutzer, die nicht auf Ihren Exchange 2013 Servern verwaltet werden.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-128">If you choose to use Exchange 2013 storage, you do not need to deploy separate SQL Server databases for Archiving, unless you have Lync users who are not homed on your Exchange 2013 servers.</span></span>
+
+  - <span data-ttu-id="3bfe5-129">**SQL Server Datenbankspeicher für die Archivierung**.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-129">**SQL Server database storage for Archiving**.</span></span> <span data-ttu-id="3bfe5-130">Zur Unterstützung von Benutzern, die nicht auf Exchange 2013 Servern verwaltet werden, oder wenn Sie die Option Microsoft Exchange Integration nicht verwenden möchten, müssen Sie den Archivierungsspeicher mithilfe einer SQL Server Datenbank bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-130">To support users who are not homed on Exchange 2013 servers, or if you do not want to use the Microsoft Exchange integration option, you must deploy Archiving storage using a SQL Server database.</span></span> <span data-ttu-id="3bfe5-131">Lync Server 2013 unterstützt die folgenden 64-Bit-Versionen von SQL Server:</span><span class="sxs-lookup"><span data-stu-id="3bfe5-131">Lync Server 2013 supports the following 64-bit versions of SQL Server:</span></span>
     
-      - <span data-ttu-id="394ca-132">Microsoft SQL Server 2008 R2 Enterprise</span><span class="sxs-lookup"><span data-stu-id="394ca-132">Microsoft SQL Server 2008 R2 Enterprise</span></span>
+      - <span data-ttu-id="3bfe5-132">Microsoft SQL Server 2008 R2 Enterprise</span><span class="sxs-lookup"><span data-stu-id="3bfe5-132">Microsoft SQL Server 2008 R2 Enterprise</span></span>
     
-      - <span data-ttu-id="394ca-133">Microsoft SQL Server 2008 R2 Standard</span><span class="sxs-lookup"><span data-stu-id="394ca-133">Microsoft SQL Server 2008 R2 Standard</span></span>
+      - <span data-ttu-id="3bfe5-133">Microsoft SQL Server 2008 R2 Standard</span><span class="sxs-lookup"><span data-stu-id="3bfe5-133">Microsoft SQL Server 2008 R2 Standard</span></span>
     
-      - <span data-ttu-id="394ca-134">Microsoft SQL Server 2012 Enterprise</span><span class="sxs-lookup"><span data-stu-id="394ca-134">Microsoft SQL Server 2012 Enterprise</span></span>
+      - <span data-ttu-id="3bfe5-134">Microsoft SQL Server 2012 Enterprise</span><span class="sxs-lookup"><span data-stu-id="3bfe5-134">Microsoft SQL Server 2012 Enterprise</span></span>
     
-      - <span data-ttu-id="394ca-135">Microsoft SQL Server 2012 Standard</span><span class="sxs-lookup"><span data-stu-id="394ca-135">Microsoft SQL Server 2012 Standard</span></span>
+      - <span data-ttu-id="3bfe5-135">Microsoft SQL Server 2012 Standard</span><span class="sxs-lookup"><span data-stu-id="3bfe5-135">Microsoft SQL Server 2012 Standard</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="394ca-136">Microsoft SQL Server 2008 R2 Express und Microsoft SQL Server 2012 Express werden für die Archivierung nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="394ca-136">Microsoft SQL Server 2008 R2 Express and Microsoft SQL Server 2012 Express are not supported for Archiving.</span></span> <span data-ttu-id="394ca-137">32-Bit-Versionen von SQL Server werden nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="394ca-137">32-bit versions of SQL Server are not supported.</span></span> <span data-ttu-id="394ca-138">Weitere SQL Server Anforderungen und-Einschränkungen finden Sie unter <A href="lync-server-2013-database-software-support.md">Database Software Support in lync Server 2013</A> in der Planungsdokumentation oder in der Unterstützungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="394ca-138">For additional SQL Server requirements and restrictions, see <A href="lync-server-2013-database-software-support.md">Database software support in Lync Server 2013</A> in the Planning documentation or in the Supportability documentation.</span></span>
+    > <span data-ttu-id="3bfe5-136">Microsoft SQL Server 2008 R2 Express und Microsoft SQL Server 2012 Express werden für die Archivierung nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-136">Microsoft SQL Server 2008 R2 Express and Microsoft SQL Server 2012 Express are not supported for Archiving.</span></span> <span data-ttu-id="3bfe5-137">32-Bit-Versionen von SQL Server werden nicht unterstützt.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-137">32-bit versions of SQL Server are not supported.</span></span> <span data-ttu-id="3bfe5-138">Weitere SQL Server Anforderungen und-Einschränkungen finden Sie unter <A href="lync-server-2013-database-software-support.md">Database Software Support in lync Server 2013</A> in der Planungsdokumentation oder in der Unterstützungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-138">For additional SQL Server requirements and restrictions, see <A href="lync-server-2013-database-software-support.md">Database software support in Lync Server 2013</A> in the Planning documentation or in the Supportability documentation.</span></span>
 
     
     </div>
     
-    <span data-ttu-id="394ca-139">Sie müssen die SQL Server Plattformen einrichten, bevor Sie die Archivierung bereitstellen und aktivieren.</span><span class="sxs-lookup"><span data-stu-id="394ca-139">You must set up the SQL Server platforms prior to deploying and enabling Archiving.</span></span> <span data-ttu-id="394ca-140">Wenn das zum Veröffentlichen der Topologie verwendete Konto über die entsprechenden Administratorrechte und-Berechtigungen verfügt, können Sie beim Veröffentlichen Ihrer Topologie die Archivierungsdatenbank (LcsLog) erstellen.</span><span class="sxs-lookup"><span data-stu-id="394ca-140">If the account to be used to publish the topology has the appropriate administrator rights and permissions, you can create the Archiving database (LcsLog) when you publish your topology.</span></span> <span data-ttu-id="394ca-141">Sie können die Datenbank auch zu einem späteren Zeitpunkt erstellen, z. B. als Teil des Installationsvorgangs.</span><span class="sxs-lookup"><span data-stu-id="394ca-141">You can also create the database later, including as part of the installation procedure.</span></span> <span data-ttu-id="394ca-142">Ausführliche Informationen zu SQL Server finden Sie im SQL Server TechCenter unter [http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045).</span><span class="sxs-lookup"><span data-stu-id="394ca-142">For details about SQL Server, see the SQL Server TechCenter at [http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045).</span></span>
+    <span data-ttu-id="3bfe5-139">Sie müssen die SQL Server Plattformen einrichten, bevor Sie die Archivierung bereitstellen und aktivieren.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-139">You must set up the SQL Server platforms prior to deploying and enabling Archiving.</span></span> <span data-ttu-id="3bfe5-140">Wenn das zum Veröffentlichen der Topologie verwendete Konto über die entsprechenden Administratorrechte und-Berechtigungen verfügt, können Sie beim Veröffentlichen Ihrer Topologie die Archivierungsdatenbank (LcsLog) erstellen.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-140">If the account to be used to publish the topology has the appropriate administrator rights and permissions, you can create the Archiving database (LcsLog) when you publish your topology.</span></span> <span data-ttu-id="3bfe5-141">Sie können die Datenbank auch zu einem späteren Zeitpunkt erstellen, z. B. als Teil des Installationsvorgangs.</span><span class="sxs-lookup"><span data-stu-id="3bfe5-141">You can also create the database later, including as part of the installation procedure.</span></span> <span data-ttu-id="3bfe5-142">Ausführliche Informationen zu SQL Server finden Sie im SQL Server TechCenter unter [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045).</span><span class="sxs-lookup"><span data-stu-id="3bfe5-142">For details about SQL Server, see the SQL Server TechCenter at [https://go.microsoft.com/fwlink/p/?linkID=129045](https://go.microsoft.com/fwlink/p/?linkid=129045).</span></span>
 
 </div>
 
