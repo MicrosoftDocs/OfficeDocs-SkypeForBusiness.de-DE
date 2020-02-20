@@ -12,18 +12,18 @@ ms:contentKeyID: 56708404
 ms.date: 11/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a63743c634c9e87c743928d7641609ce12c464cb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 79009ce890e37e7238e3fef18f719fb3da411889
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030368"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146698"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Tool für die lync-voranruf Diagnose in lync Server 2013
 
@@ -75,7 +75,7 @@ Dieses Thema enthält die folgenden Abschnitte:
 
 In diesem Thema werden die folgenden Versionen des Tools beschrieben, die zum kostenlosen Download zur Verfügung stehen:
 
-  - Windows-Desktop-[http://go.microsoft.com/fwlink/?LinkId=327914](http://go.microsoft.com/fwlink/p/?linkid=327914)app ()
+  - Windows-Desktop-[https://go.microsoft.com/fwlink/?LinkId=327914](https://go.microsoft.com/fwlink/p/?linkid=327914)app ()
 
 </div>
 
@@ -101,7 +101,7 @@ In diesem Thema werden die folgenden Versionen des Tools beschrieben, die zum ko
 
   - Eine beliebige Edition des Windows 7 oder Windows 8 Betriebssystems
 
-  - Microsoft .NET Framework 4.5 verfügbar unter[http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790)
+  - Microsoft .NET Framework 4.5 verfügbar unter[https://go.microsoft.com/fwlink/?LinkId=327790](https://go.microsoft.com/fwlink/p/?linkid=327790)
 
 </div>
 

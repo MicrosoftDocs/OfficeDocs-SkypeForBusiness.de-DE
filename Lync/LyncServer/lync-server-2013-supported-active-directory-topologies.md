@@ -12,18 +12,18 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 199191b8e87ba7f46956ff92fcda7239ff27dc5c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c6eb9a3db2f9b3a14726fb7ffbec05b96b15ec81
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029846"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142441"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="supported-active-directory-topologies-in-lync-server-2013"></a>Unterstützte Active Directory Topologien in lync Server 2013
 
@@ -159,7 +159,7 @@ Die folgende Abbildung zeigt eine Topologie mit Ressourcengesamtstruktur.
 
 In dieser Topologie befinden sich eine oder mehrere Gesamtstrukturen lokal und sind dem Hosten Active Directory Benutzerkonten gewidmet. Die Ressourcengesamtstruktur befindet sich außerhalb des Standorts und wird von einem Drittanbieter-Hostinganbieter verwaltet. Die Ressourcengesamtstruktur enthält nur die lync Server-Bereitstellung und eine synchronisierte Replikation der Benutzerkonten aus der lokalen Benutzerkonten-Gesamtstruktur (en). Sie enthält keine Anmelde aktivierten Benutzerkonten. Exchange wird entweder in den lokalen Benutzerkonten-Gesamtstrukturen bereitgestellt, die zusammen mit Exchange Online (Hybrid) integriert sind, oder e-Mail-Dienste für die lokalen Benutzerkonten werden ausschließlich von Exchange Online bereitgestellt.
 
-Die Ressourcengesamtstruktur fungiert als Umgebung für gemeinsame Dienste für die lokalen Active Directory Gesamtstruktur (en), in der sich Benutzerobjekte befinden. Die Benutzerkontengesamtstruktur (en) haben eine unidirektionale Vertrauensstellung auf Gesamtstrukturebene mit der Ressourcengesamtstruktur. Wenn Sie lync Server in dieser Art von Topologie bereitstellen, erstellen Sie ein deaktiviertes Benutzerobjekt in der Ressourcengesamtstruktur für jedes Benutzerkonto in den Benutzergesamtstrukturen. Ein Produkt zur Verzeichnissynchronisierung, wie z. B. Microsoft Identity Integration Server (MIIS), Microsoft Forefront Identity Manager (FIM) 2010 oder Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), verwaltet den Lebenszyklus von Benutzerkonten innerhalb Ihrer Organisation. Wenn ein neues Benutzerkonto in einer der Benutzerstrukturen erstellt wird oder ein Benutzerkonto aus einer Gesamtstruktur gelöscht wird, synchronisiert das Programm zur Verzeichnissynchronisierung das entsprechende Benutzerobjekt in der Ressourcengesamtstruktur. Weitere Informationen zum Konfigurieren einer Bereitstellung mit mehreren Gesamtstrukturen finden Sie unter [Deploying lync in a Multi-Forest Architecture (Partner Hosted lync with Exchange Hybrid)](http://go.microsoft.com/fwlink/p/?linkid=513216).
+Die Ressourcengesamtstruktur fungiert als Umgebung für gemeinsame Dienste für die lokalen Active Directory Gesamtstruktur (en), in der sich Benutzerobjekte befinden. Die Benutzerkontengesamtstruktur (en) haben eine unidirektionale Vertrauensstellung auf Gesamtstrukturebene mit der Ressourcengesamtstruktur. Wenn Sie lync Server in dieser Art von Topologie bereitstellen, erstellen Sie ein deaktiviertes Benutzerobjekt in der Ressourcengesamtstruktur für jedes Benutzerkonto in den Benutzergesamtstrukturen. Ein Produkt zur Verzeichnissynchronisierung, wie z. B. Microsoft Identity Integration Server (MIIS), Microsoft Forefront Identity Manager (FIM) 2010 oder Microsoft Identity Lifecycle Manager (ILM) 2007 Feature Pack 1 (FP1), verwaltet den Lebenszyklus von Benutzerkonten innerhalb Ihrer Organisation. Wenn ein neues Benutzerkonto in einer der Benutzerstrukturen erstellt wird oder ein Benutzerkonto aus einer Gesamtstruktur gelöscht wird, synchronisiert das Programm zur Verzeichnissynchronisierung das entsprechende Benutzerobjekt in der Ressourcengesamtstruktur. Weitere Informationen zum Konfigurieren einer Bereitstellung mit mehreren Gesamtstrukturen finden Sie unter [Deploying lync in a Multi-Forest Architecture (Partner Hosted lync with Exchange Hybrid)](https://go.microsoft.com/fwlink/p/?linkid=513216).
 
 </div>
 

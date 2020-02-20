@@ -12,18 +12,18 @@ ms:contentKeyID: 59170234
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a6941fb5f087d667e65c178474531aa573a61b9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3c6f21e6a58b9130ab93f827f14aad4bd09cbb33
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038617"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142461"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="support-for-public-instant-messenger-connectivity-in-lync-server-2013"></a>Unterstützung für die Verbindung mit öffentlichen Instant Messaging-Diensten in lync Server 2013
 
@@ -43,7 +43,7 @@ _**Letztes Änderungsstand des Themas:** 2013-10-07_
 
 Dieser Artikel enthält Informationen zur Unterstützung von öffentlichen Instant Messaging-Verbindungen (PIC). PIC ist ein Feature von Microsoft lync, mit dem Organisationen ihre lync-Benutzer über Ihre lync-Clients und-Identitäten mit Benutzern bestimmter öffentlicher Chat Dienste (Instant Messaging) verbinden können.
 
-Endbenutzer profitieren davon, dass Sie mit ihren Geschäftsbedingungen eine Verbindung mit Kunden, Partnern und Anbietern herstellen können. Es profitiert von der Unterstützung eines einzelnen Echt Zeit Kommunikations Clients bei gleichzeitiger Beibehaltung der Steuerungs-, Compliance-und Archivierungsfunktionen von lync. Die lync-Skype-Konnektivität, die [im Mai 2013 öffentlich verfügbar](http://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx)ist, beruht auf dem Vermächtnis, das lync/Office Communications Server (OCS)/Live Communications Server (LCS) zunächst mit pic in Verbindung mit MSN/Windows Live, AOL und Yahoo eingerichtet hat.Weitere Informationen zur lync-Skype-Konnektivität finden Sie in der [lync-Skype-Konnektivität](http://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx). Partnerverbund mit Windows Live, AOL und Yahoo sind jeweils auf einem Pfad zum Ende der Lebensdauer.Auf dieser Seite wird der Status der einzelnen Dienste dokumentiert.
+Endbenutzer profitieren davon, dass Sie mit ihren Geschäftsbedingungen eine Verbindung mit Kunden, Partnern und Anbietern herstellen können. Es profitiert von der Unterstützung eines einzelnen Echt Zeit Kommunikations Clients bei gleichzeitiger Beibehaltung der Steuerungs-, Compliance-und Archivierungsfunktionen von lync. Die lync-Skype-Konnektivität, die [im Mai 2013 öffentlich verfügbar](https://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx)ist, beruht auf dem Vermächtnis, das lync/Office Communications Server (OCS)/Live Communications Server (LCS) zunächst mit pic in Verbindung mit MSN/Windows Live, AOL und Yahoo eingerichtet hat.Weitere Informationen zur lync-Skype-Konnektivität finden Sie in der [lync-Skype-Konnektivität](http://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx). Partnerverbund mit Windows Live, AOL und Yahoo sind jeweils auf einem Pfad zum Ende der Lebensdauer.Auf dieser Seite wird der Status der einzelnen Dienste dokumentiert.
 
 Für die Verwendung von PIC mussten Kunden den Dienst für jeden öffentlichen Sofortnachrichten-Dienstanbieter aktivieren. Die Anforderungen und Details für die Vorgehensweise hängen vom Chat Dienstanbieter und dem zugrunde liegenden Lizenzierungsprogramm des Kunden ab.
 
@@ -65,7 +65,7 @@ Lync-Skype Connectivity – Kontakt hinzufügen, Anwesenheits Freigabe, Sofortna
 
 Partnerverbund mit Yahoo\! und AOL sind sowohl auf dem Weg zum End-of-Life für Kunden von lync (und Office Communications Server). Die Fähigkeit von Microsoft, jeden dieser Dienste bereitzustellen, wurde von der Unterstützung durch Yahoo abhängig gemacht.\! und AOL, und die zugrunde liegenden Vereinbarungen dieser werden abgewickelt. Für Yahoo\! und AOL wird der Dienst bis Juni 2014 fortgesetzt.
 
-  - **Yahoo** -Service wird bis Juni 2014 fortgesetzt, und Kunden müssen weiterhin mit der Microsoft lync Public Chat Connectivity-Benutzerabonnementlizenz ("PIC USL") lizenziert werden.Seit dem 1. September 2012 ist die PIC-USL für neue oder erneuerte Verträge nicht mehr zum Kauf verfügbar.Kunden mit Lizenzen, die vor diesem Datum erworben wurden, können weiterhin mit Yahoo verbünden.\! bis zum vorherigen Datum des Dienstes oder zum Herunterfahren ihres Lizenz Ablaufs.Lesen Sie [die Ankündigung](http://blogs.technet.com/b/lync/archive/2012/11/26/lync-and-yahoo-federation-end-of-life.aspx) im Team-Blog von lync.Kunden mit PIC-Lizenzen für Vereinbarungen, die über 30. Juni hinausgehen, 2014 erhalten einen Kredit im Verhältnis zur Höhe der Zahlungen, die den Zeitraum nach dem 30. Juni 2014 umfassen.
+  - **Yahoo** -Service wird bis Juni 2014 fortgesetzt, und Kunden müssen weiterhin mit der Microsoft lync Public Chat Connectivity-Benutzerabonnementlizenz ("PIC USL") lizenziert werden.Seit dem 1. September 2012 ist die PIC-USL für neue oder erneuerte Verträge nicht mehr zum Kauf verfügbar.Kunden mit Lizenzen, die vor diesem Datum erworben wurden, können weiterhin mit Yahoo verbünden.\! bis zum vorherigen Datum des Dienstes oder zum Herunterfahren ihres Lizenz Ablaufs.Lesen Sie [die Ankündigung](https://blogs.technet.com/b/lync/archive/2012/11/26/lync-and-yahoo-federation-end-of-life.aspx) im Team-Blog von lync.Kunden mit PIC-Lizenzen für Vereinbarungen, die über 30. Juni hinausgehen, 2014 erhalten einen Kredit im Verhältnis zur Höhe der Zahlungen, die den Zeitraum nach dem 30. Juni 2014 umfassen.
 
   - **AOL** -am 30. Juni 2014 wird der lync-Chat-Connectivity-Dienst ("PIC") nicht mehr zur Verfügung stehen.Um die Kunden Unterbrechungen zu begrenzen, wenn der Dienst beendet wird, haben wir die Einrichtung zusätzlicher Kunden Domänen eingestellt. Bis zum 30. Juni 2014 müssen Kunden nichts Unternehmen, um die Verbundkommunikation mit AIM weiter zu unterstützen. Außerhalb dieses Datums (oder für Kunden, die in der Zwischenzeit zusätzliche Domänen bereitstellen möchten), steht ein Ersatzdienst direkt in AOL zur Verfügung. Weitere Informationen zum neuen Dienst von AOL finden Sie unter [Einrichten des direkten Verbunds mit AIM](http://aimenterprise.aol.com/pic.php)  (öffnet eine neue Seite auf AOL.com).  
 

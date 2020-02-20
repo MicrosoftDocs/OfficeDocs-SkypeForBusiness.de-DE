@@ -12,18 +12,18 @@ ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65908f1b142c72f584c48493023803e5dfd56208
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 043015fb30ca21a697a9758a5fbb4d916b006046
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030999"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146448"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Konfigurieren von lync Server 2013 für die Zusammenarbeit mit Unified Messaging auf Exchange Server
 
@@ -57,8 +57,8 @@ Wenn Sie das Exchange um-Integrationsprogramm ausführen, werden die folgenden A
 > Stellen Sie sicher, dass Sie die folgenden Schritte ausgeführt haben, bevor Sie das Exchange um-Integrationsprogramm ausführen:
 > <ul>
 > <li><p>Erstellen Sie einen oder mehrere Exchange um Wählpläne, wie in der Exchange-Produktdokumentation beschrieben.</p>
-> <p>Informationen zum Microsoft Exchange Server 2010 finden &quot;Sie unter Erstellen eines um&quot; - <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>Wähl Plans unter.</p>
-> <p>Informationen zum Microsoft Exchange Server 2007 Service Pack 1 (SP1) finden &quot;Sie unter Erstellen eines Unified Messaging-SIP-URI&quot; - <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>Wähl Plans unter.</p></li>
+> <p>Informationen zum Microsoft Exchange Server 2010 finden &quot;Sie unter Erstellen eines um&quot; - <a href="https://go.microsoft.com/fwlink/p/?linkid=186177">https://go.microsoft.com/fwlink/p/?linkId=186177</a>Wähl Plans unter.</p>
+> <p>Informationen zum Microsoft Exchange Server 2007 Service Pack 1 (SP1) finden &quot;Sie unter Erstellen eines Unified Messaging-SIP-URI&quot; - <a href="https://go.microsoft.com/fwlink/p/?linkid=185771">https://go.microsoft.com/fwlink/p/?linkId=185771</a>Wähl Plans unter.</p></li>
 > <li><p>Erstellen Sie einen oder mehrere entsprechende lync Server Wählpläne, wie unter <a href="lync-server-2013-create-a-dial-plan.md">Create a Dial Plan in lync Server 2013</a>beschrieben.</p></li>
 > <ul><li>Wenn Sie eine Version von Exchange verwenden, die älter als Microsoft Exchange Server 2010 SP1 ist, müssen Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) der entsprechenden Exchange Unified Messaging (um) SIP-Wähleinstellungen in das Feld <STRONG>einfacher Name</STRONG> von lync Server 2013 Wähleinstellungen eingeben. Wenn Sie Microsoft Exchange Server 2010 SP1 oder das neueste Service Pack verwenden, ist diese Wähl Plan Namen Übereinstimmung nicht erforderlich.</li></ul>
 > <li>Erstellen Sie eine automatische Telefonzentrale, und stellen Sie sicher, dass sowohl die Teilnehmerzugriffsnummer als auch die Nummer der automatischen Telefonzentrale im E. 164-Format vorliegen.</li></ul>

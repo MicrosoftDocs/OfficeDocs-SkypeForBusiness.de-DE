@@ -12,18 +12,18 @@ ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e2500e58b17cefdae1fa1457416979c105b8efe
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e21c2a2e902c5b0e03a7ff722f33b8e8b122d789
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007694"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141881"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-diagrams-for-lync-server-2013"></a>Technische Diagramme für lync Server 2013
 
@@ -58,12 +58,12 @@ Für die Anzeige dieser Dateien kann zusätzliche Software erforderlich sein. We
 <tbody>
 <tr class="odd">
 <td><p>VSD</p></td>
-<td><p>Visio 2010, Visio 2013 oder der <a href="http://go.microsoft.com/fwlink/?linkid=393676">﻿Kostenlose Visio Viewer</a></p>
+<td><p>Visio 2010, Visio 2013 oder der <a href="https://go.microsoft.com/fwlink/?linkid=393676">﻿Kostenlose Visio Viewer</a></p>
 <p>Bei Verwendung des Visio-Viewers klicken Sie mit der rechten Maustaste auf die VSD-Verknüpfung, wählen Sie <strong>Ziel speichern unter</strong> aus, speichern Sie die Datei auf Ihrem Computer, und öffnen Sie die Datei dann auf Ihrem Computer.</p></td>
 </tr>
 <tr class="even">
 <td><p>PDF</p></td>
-<td><p>Jeder beliebige PDF-Viewer, z. B. <a href="http://go.microsoft.com/fwlink/?linkid=393675">Adobe Reader</a></p></td>
+<td><p>Jeder beliebige PDF-Viewer, z. B. <a href="https://go.microsoft.com/fwlink/?linkid=393675">Adobe Reader</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>.ZIP</p></td>
@@ -95,9 +95,9 @@ Diese Poster beschreiben einen bestimmten technischen Bereich und sind für die 
 <tr class="odd">
 <td><p><strong>Lync Server 2013 lokale Architekturen</strong></p>
 <img src="images/Dn594589.36530bb8-732f-4be0-9502-082c01df9fba(OCS.15).jpg" title="Miniaturansicht des Posters für lync-Architekturen" alt="thumbnail of Lync architectures poster" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392974">Vergrößert das Poster mit Zoom.it von Microsoft ausführlich</a>(am besten auf Desktop-und Laptopcomputern)</p>
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392578">PDF-Version</a> (am besten für Mobilgeräte und Tablet-Computer)</p>
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392579">Visio-Version</a> (am besten für Benutzer mit Visio)</p></td>
+<p><a href="https://go.microsoft.com/fwlink/?linkid=392974">Vergrößert das Poster mit Zoom.it von Microsoft ausführlich</a>(am besten auf Desktop-und Laptopcomputern)</p>
+<p><a href="https://go.microsoft.com/fwlink/?linkid=392578">PDF-Version</a> (am besten für Mobilgeräte und Tablet-Computer)</p>
+<p><a href="https://go.microsoft.com/fwlink/?linkid=392579">Visio-Version</a> (am besten für Benutzer mit Visio)</p></td>
 <td><p>Poster bietet architektonische Anleitungen für die Planung und Bereitstellung. Das Poster enthält Informationen über gängige Komponenten von lync Server, Terminologie, die bei der Planung einer Bereitstellung verwendet wird, neue Features, Server Rollen und eine Installationsübersicht. Darüber hinaus enthält das Poster Beispielarchitekturen zur Erhöhung von hoher Verfügbarkeit und Notfallwiederherstellung sowie kleine, mittlere und große Beispiel Topologien.</p>
 <p>Größe: 34-by-44 inch</p>
 <p>Dieses Poster wurde mit Visio 2013 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein.</p></td>
@@ -105,11 +105,11 @@ Diese Poster beschreiben einen bestimmten technischen Bereich und sind für die 
 <tr class="even">
 <td><p><strong>Methode für die lync-Anrufqualität</strong></p>
 <img src="images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg" title="Poster mit Beschreibung des CQM-Prozesses" alt="Poster describing the CQM process" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392972">Vergrößert das Poster mit Zoom.it von Microsoft ausführlich</a>(am besten auf Desktop-und Laptopcomputern)</p>
-<p><a href="http://go.microsoft.com/fwlink/?linkid=391841">Visio-und PDF-Versionen zusammen in einer ZIP-Datei</a></p></td>
+<p><a href="https://go.microsoft.com/fwlink/?linkid=392972">Vergrößert das Poster mit Zoom.it von Microsoft ausführlich</a>(am besten auf Desktop-und Laptopcomputern)</p>
+<p><a href="https://go.microsoft.com/fwlink/?linkid=391841">Visio-und PDF-Versionen zusammen in einer ZIP-Datei</a></p></td>
 <td><p>Poster, das die Problembehandlung für lync-Systeme beschreibt, insbesondere für Probleme in Bezug auf die Unternehmens VoIP-Qualität. Verwenden Sie dieses Poster mit:</p>
 <ul>
-<li><p><a href="http://go.microsoft.com/fwlink/p/?linkid=390677">Leitfaden für lync Server Netzwerke</a></p></li>
+<li><p><a href="https://go.microsoft.com/fwlink/p/?linkid=390677">Leitfaden für lync Server Netzwerke</a></p></li>
 <li><p><a href="lync-server-2013-poster-lync-call-quality-methodology.md">Methode zur lync-Anrufqualität in lync Server 2013</a> (Accessibility-Artikel)</p></li>
 <li><p><a href="lync-server-2013-poster-key-health-indicators.md">Wichtige Integritätsindikatoren in lync Server 2013</a> (Artikel zur Barrierefreiheit)</p></li>
 </ul>
@@ -119,11 +119,11 @@ Diese Poster beschreiben einen bestimmten technischen Bereich und sind für die 
 <tr class="odd">
 <td><p><strong>Wichtige Integritätsindikatoren</strong></p>
 <img src="images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg" title="Poster zur Beschreibung der Problembehandlung mithilfe von KHI-Daten" alt="Poster describing troubleshooting using KHI data" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392971">Vergrößert das Poster mit Zoom.it von Microsoft ausführlich</a>(am besten auf Desktop-und Laptopcomputern)</p>
-<p><a href="http://go.microsoft.com/fwlink/?linkid=391838">Visio-und PDF-Versionen zusammen in einer ZIP-Datei</a></p></td>
+<p><a href="https://go.microsoft.com/fwlink/?linkid=392971">Vergrößert das Poster mit Zoom.it von Microsoft ausführlich</a>(am besten auf Desktop-und Laptopcomputern)</p>
+<p><a href="https://go.microsoft.com/fwlink/?linkid=391838">Visio-und PDF-Versionen zusammen in einer ZIP-Datei</a></p></td>
 <td><p>Poster, das die Metriken für die Server Problembehandlung sowohl für die grundlegende Serverintegrität als auch für die Rolle eines bestimmten Servers in der lync-Implementierung beschreibt. Verwenden Sie dieses Poster mit:</p>
 <ul>
-<li><p><a href="http://go.microsoft.com/fwlink/p/?linkid=390677">Leitfaden für lync Server Netzwerke</a></p></li>
+<li><p><a href="https://go.microsoft.com/fwlink/p/?linkid=390677">Leitfaden für lync Server Netzwerke</a></p></li>
 <li><p><a href="lync-server-2013-poster-lync-call-quality-methodology.md">Methode zur lync-Anrufqualität in lync Server 2013</a> (Accessibility-Artikel)</p></li>
 <li><p><a href="lync-server-2013-poster-key-health-indicators.md">Wichtige Integritätsindikatoren in lync Server 2013</a> (Artikel zur Barrierefreiheit)</p></li>
 </ul>
@@ -133,9 +133,9 @@ Diese Poster beschreiben einen bestimmten technischen Bereich und sind für die 
 <tr class="even">
 <td><p><strong>Lync 2013-Plattformoptionen</strong></p>
 <img src="images/Dn594589.c5b66828-c3cf-4654-bb75-b93f97d085b3(OCS.15).jpg" title="Miniaturansicht des Posters für Plattformoptionen" alt="thumbnail view of platform options poster" />
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=391840">Vergrößert das Poster mit Zoom.it von Microsoft ausführlich</a></p>
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=391837">PDF-Version</a> (am besten für Mobilgeräte und Tablet-Computer)</p>
-<p><a href="http://go.microsoft.com/fwlink/p/?linkid=391839">Visio-Version</a> (am besten für Benutzer mit Visio)</p></td>
+<p><a href="https://go.microsoft.com/fwlink/p/?linkid=391840">Vergrößert das Poster mit Zoom.it von Microsoft ausführlich</a></p>
+<p><a href="https://go.microsoft.com/fwlink/p/?linkid=391837">PDF-Version</a> (am besten für Mobilgeräte und Tablet-Computer)</p>
+<p><a href="https://go.microsoft.com/fwlink/p/?linkid=391839">Visio-Version</a> (am besten für Benutzer mit Visio)</p></td>
 <td><p>Dieses Poster beschreibt die verfügbaren Plattformoptionen für lync 2013 für BDMs und Architekten können Kunden aus lync online mit Office 365, Hybrid-lync, lync Server lokal und gehosteten lync auswählen. Das Poster enthält Details der einzelnen Architekturoptionen, einschließlich der optimalen Szenarien, sowie zu den Lizenzanforderungen und Zuständigkeiten von IT-Experten.</p>
 <p>Größe: 34-by-44 inch</p>
 <p>Dieses Poster wurde mit Visio 2013 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein.</p></td>
@@ -143,9 +143,9 @@ Diese Poster beschreiben einen bestimmten technischen Bereich und sind für die 
 <tr class="odd">
 <td><p><strong>Microsoft lync Server 2013 Protokoll-Arbeitsauslastungen</strong></p>
 <img src="images/Dn594589.e00f8445-4e00-48f6-a3e2-f97334dde719(OCS.15).jpg" title="Miniaturansicht des Posters für Protokoll Auslastungen" alt="thumbnail view of protocol Workloads poster" />
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392970">Vergrößert das Poster mit Zoom.it von Microsoft ausführlich</a></p>
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392512">PDF-Version</a> (am besten für Mobilgeräte und Tablet-Computer)</p>
-<p><a href="http://go.microsoft.com/fwlink/?linkid=392513">Visio-Version</a> (am besten für Benutzer mit Visio)</p></td>
+<p><a href="https://go.microsoft.com/fwlink/?linkid=392970">Vergrößert das Poster mit Zoom.it von Microsoft ausführlich</a></p>
+<p><a href="https://go.microsoft.com/fwlink/?linkid=392512">PDF-Version</a> (am besten für Mobilgeräte und Tablet-Computer)</p>
+<p><a href="https://go.microsoft.com/fwlink/?linkid=392513">Visio-Version</a> (am besten für Benutzer mit Visio)</p></td>
 <td><p>Laden Sie dieses Poster herunter, um die Funktionen und Anforderungen von lync 2013, lync Phone, lync Web App, lync für Mac und lync Mobile w zu verstehen. Erfahren Sie, wie lync Server Arbeitslasten die Kommunikation in einer Organisation erleichtern.</p>
 <p>Größe: 24-by-36 inch</p>
 <p>Dieses Poster wurde mit Visio 2013 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein.</p></td>

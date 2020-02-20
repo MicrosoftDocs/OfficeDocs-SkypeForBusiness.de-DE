@@ -12,18 +12,18 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57e48e0ee3e7ef2b9a755ecbd64afaa0f2ce3c2e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9f69d243079d0a2b2a6a9fc4a233e3c9854de158
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043017"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145614"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-unified-messaging-on-microsoft-exchange-for-lync-server-2013"></a>Konfigurieren von Unified Messaging für Microsoft Exchange für lync Server 2013
 
@@ -70,11 +70,11 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     ```
     Weitere Informationen finden Sie unter:
     
-      - Informationen zu Office Communications Server 2007 finden Sie unter "Erstellen eines SIP [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) -URI-Wählplans für Unified Messaging" unter und "New-UMDialplan [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666): Exchange 2007 Help" unter.
+      - Informationen zu Office Communications Server 2007 finden Sie unter "Erstellen eines SIP [https://go.microsoft.com/fwlink/p/?LinkId=268632](https://go.microsoft.com/fwlink/p/?linkid=268632) -URI-Wählplans für Unified Messaging" unter und "New-UMDialplan [https://go.microsoft.com/fwlink/p/?LinkId=268666](https://go.microsoft.com/fwlink/p/?linkid=268666): Exchange 2007 Help" unter.
     
-      - Informationen zum Exchange 2010 finden Sie unter "Erstellen eines um-Wählplans" unter [http://go.microsoft.com/fwlink/p/?LinkId=268674](http://go.microsoft.com/fwlink/p/?linkid=268674) und "New-UMDialplan [http://go.microsoft.com/fwlink/p/?LinkId=268680](http://go.microsoft.com/fwlink/p/?linkid=268680): Exchange 2010 Help" unter.
+      - Informationen zum Exchange 2010 finden Sie unter "Erstellen eines um-Wählplans" unter [https://go.microsoft.com/fwlink/p/?LinkId=268674](https://go.microsoft.com/fwlink/p/?linkid=268674) und "New-UMDialplan [https://go.microsoft.com/fwlink/p/?LinkId=268680](https://go.microsoft.com/fwlink/p/?linkid=268680): Exchange 2010 Help" unter.
     
-      - Informationen zu Exchange 2013 finden Sie unter "Unified Messaging [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)" unter.
+      - Informationen zu Exchange 2013 finden Sie unter "Unified Messaging [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)" unter.
     
     <div>
     
@@ -93,11 +93,11 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     
     Weitere Informationen finden Sie unter:
     
-      - Informationen zu Exchange 2007 finden Sie unter "Get-UMDialplan: [http://go.microsoft.com/fwlink/p/?LinkId=268678](http://go.microsoft.com/fwlink/p/?linkid=268678)Exchange 2007 Help" unter.
+      - Informationen zu Exchange 2007 finden Sie unter "Get-UMDialplan: [https://go.microsoft.com/fwlink/p/?LinkId=268678](https://go.microsoft.com/fwlink/p/?linkid=268678)Exchange 2007 Help" unter.
     
-      - Informationen zu Exchange 2010 finden Sie unter "Get-UMDialplan: [http://go.microsoft.com/fwlink/p/?LinkId=268679](http://go.microsoft.com/fwlink/p/?linkid=268679)Exchange 2010 Help" unter.
+      - Informationen zu Exchange 2010 finden Sie unter "Get-UMDialplan: [https://go.microsoft.com/fwlink/p/?LinkId=268679](https://go.microsoft.com/fwlink/p/?linkid=268679)Exchange 2010 Help" unter.
     
-      - Informationen zu Exchange 2013 finden Sie unter "Unified Messaging [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)" unter.
+      - Informationen zu Exchange 2013 finden Sie unter "Unified Messaging [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)" unter.
 
 3.  Notieren Sie die Namen aller UM-Wählpläne. Je nach ihrer Version von Exchange Server müssen Sie möglicherweise den FQDN der einzelnen Wähl Plan Namen später als Namen für die entsprechenden lync Server Wähleinstellungen für die um-Wähleinstellungen verwenden, damit die Wähl Plan Namen übereinstimmen.
     
@@ -114,11 +114,11 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     
       - Wenn Sie sich zur Verwendung der Exchange-Verwaltungskonsole entscheiden, können Sie die Wähleinstellungen aus der Eigenschaftenseite des Servers hinzufügen. Genaue Anweisungen finden Sie in der Exchange Server-Produktdokumentation.
         
-        Informationen zum Exchange 2007 finden Sie unter "Hinzufügen eines Unified Messaging-Servers zu Wähleinstellungen [http://go.microsoft.com/fwlink/p/?LinkId=268681](http://go.microsoft.com/fwlink/p/?linkid=268681)" unter.
+        Informationen zum Exchange 2007 finden Sie unter "Hinzufügen eines Unified Messaging-Servers zu Wähleinstellungen [https://go.microsoft.com/fwlink/p/?LinkId=268681](https://go.microsoft.com/fwlink/p/?linkid=268681)" unter.
         
-        Informationen zu Exchange 2010 finden Sie unter "anzeigen oder Konfigurieren der Eigenschaften eines um [http://go.microsoft.com/fwlink/p/?LinkId=268682](http://go.microsoft.com/fwlink/p/?linkid=268682)-Servers" unter.
+        Informationen zu Exchange 2010 finden Sie unter "anzeigen oder Konfigurieren der Eigenschaften eines um [https://go.microsoft.com/fwlink/p/?LinkId=268682](https://go.microsoft.com/fwlink/p/?linkid=268682)-Servers" unter.
         
-        Informationen zu Exchange 2013 finden Sie unter "Unified Messaging [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)" unter.
+        Informationen zu Exchange 2013 finden Sie unter "Unified Messaging [https://go.microsoft.com/fwlink/p/?LinkID=266579](https://go.microsoft.com/fwlink/p/?linkid=266579)" unter.
     
       - Wenn Sie die Exchange-Verwaltungsshell verwenden, führen Sie für jeden Exchange UM-Server den folgenden Befehl aus:
         ```powershell
@@ -131,7 +131,7 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     
 
     > [!NOTE]  
-    > Vergewissern Sie sich vor dem Ausführen des folgenden Schritts, dass für alle Enterprise-VoIP-Benutzer ein Exchange Server-Postfach konfiguriert wurde.<BR>Informationen zu Exchange 2007 finden Sie in <A href="http://go.microsoft.com/fwlink/p/?linkid=268685">http://go.microsoft.com/fwlink/p/?LinkId=268685</A>der Exchange Server 2007 TechNet-Bibliothek unter.<BR>Informationen zu Exchange 2010 finden Sie in <A href="http://go.microsoft.com/fwlink/p/?linkid=268686">http://go.microsoft.com/fwlink/p/?LinkId=268686</A>der Exchange Server 2010 TechNet-Bibliothek unter.<BR>Wenn Sie eine Postfachrichtlinie für jeden in Schritt 1 erstellten Satz mit Wähleinstellungen festlegen, verwenden Sie entweder die Standardrichtlinie oder eine von Ihnen selbst erstellte Richtlinie.
+    > Vergewissern Sie sich vor dem Ausführen des folgenden Schritts, dass für alle Enterprise-VoIP-Benutzer ein Exchange Server-Postfach konfiguriert wurde.<BR>Informationen zu Exchange 2007 finden Sie in <A href="https://go.microsoft.com/fwlink/p/?linkid=268685">https://go.microsoft.com/fwlink/p/?LinkId=268685</A>der Exchange Server 2007 TechNet-Bibliothek unter.<BR>Informationen zu Exchange 2010 finden Sie in <A href="https://go.microsoft.com/fwlink/p/?linkid=268686">https://go.microsoft.com/fwlink/p/?LinkId=268686</A>der Exchange Server 2010 TechNet-Bibliothek unter.<BR>Wenn Sie eine Postfachrichtlinie für jeden in Schritt 1 erstellten Satz mit Wähleinstellungen festlegen, verwenden Sie entweder die Standardrichtlinie oder eine von Ihnen selbst erstellte Richtlinie.
 
     
     </div>
@@ -181,9 +181,9 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
         ```powershell
         Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
         ```
-        Informationen zu Exchange 2007 finden Sie unter "festlegen-UMIPGateway: Exchange 2007 Help [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687)" unter.
+        Informationen zu Exchange 2007 finden Sie unter "festlegen-UMIPGateway: Exchange 2007 Help [https://go.microsoft.com/fwlink/p/?LinkId=268687](https://go.microsoft.com/fwlink/p/?linkid=268687)" unter.
         
-        Informationen zu Exchange 2010 finden Sie unter "festlegen-UMIPGateway: Exchange 2010 Help [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688)" unter.
+        Informationen zu Exchange 2010 finden Sie unter "festlegen-UMIPGateway: Exchange 2010 Help [https://go.microsoft.com/fwlink/p/?LinkId=268688](https://go.microsoft.com/fwlink/p/?linkid=268688)" unter.
     
       - Wenn Sie die Exchange-Verwaltungskonsole verwenden, deaktivieren Sie das Kontrollkästchen **Ausgehende Anrufe über dieses IP-Gateway zulassen**.
     
@@ -212,9 +212,9 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     ```
     Ausführliche Informationen finden Sie hier:
     
-      - Informationen zu Exchange 2007 finden Sie unter "New-UMAutoAttendant: Exchange 2007 Help [http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689)" unter.
+      - Informationen zu Exchange 2007 finden Sie unter "New-UMAutoAttendant: Exchange 2007 Help [https://go.microsoft.com/fwlink/p/?LinkId=268689](https://go.microsoft.com/fwlink/p/?linkid=268689)" unter.
     
-      - Informationen zu Exchange 2010 finden Sie unter "New-UMAutoAttendant: Exchange 2010 Help [http://go.microsoft.com/fwlink/p/?LinkId=268690](http://go.microsoft.com/fwlink/p/?linkid=268690)" unter.
+      - Informationen zu Exchange 2010 finden Sie unter "New-UMAutoAttendant: Exchange 2010 Help [https://go.microsoft.com/fwlink/p/?LinkId=268690](https://go.microsoft.com/fwlink/p/?linkid=268690)" unter.
     
     Der folgende Schritt sollte für jeden Benutzer ausgeführt werden, nachdem Sie lync Server Benutzer für Enterprise-VoIP aktiviert und deren SIP-URIs kennen.
 
@@ -234,9 +234,9 @@ In diesem Thema wird beschrieben, wie Sie Exchange Unified Messaging (um) auf ei
     ```
     Weitere Informationen finden Sie unter:
     
-      - Informationen zu Exchange 2007 finden Sie unter "Enable-UMMailbox: Exchange 2007 Help [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691)" unter.
+      - Informationen zu Exchange 2007 finden Sie unter "Enable-UMMailbox: Exchange 2007 Help [https://go.microsoft.com/fwlink/p/?LinkId=268691](https://go.microsoft.com/fwlink/p/?linkid=268691)" unter.
     
-      - Informationen zu Exchange 2010 finden Sie unter "Enable-UMMailbox: Exchange 2010 Help [http://go.microsoft.com/fwlink/p/?LinkId=268692](http://go.microsoft.com/fwlink/p/?linkid=268692)" unter.
+      - Informationen zu Exchange 2010 finden Sie unter "Enable-UMMailbox: Exchange 2010 Help [https://go.microsoft.com/fwlink/p/?LinkId=268692](https://go.microsoft.com/fwlink/p/?linkid=268692)" unter.
 
 </div>
 

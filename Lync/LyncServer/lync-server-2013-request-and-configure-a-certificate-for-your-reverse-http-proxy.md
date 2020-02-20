@@ -12,18 +12,18 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 830d9d48e68142cf32f14d428fb48e3ab20afaca
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9c380cb67e1e156bef616f81ce0c42f699b472d8
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42047280"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144942"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="request-and-configure-a-certificate-for-your-reverse-http-proxy-in-lync-server-2013"></a>Anfordern und Konfigurieren eines Zertifikats für den Reverse-http-Proxy in lync Server 2013
 
@@ -156,7 +156,7 @@ Führen Sie die folgenden Schritte aus, um eine Zertifikatsignaturanforderung au
 
 **Erstellen einer Zertifikatsignaturanforderung**
 
-1.  Öffnen Sie die Microsoft Management Console (MMC), fügen Sie das Zertifikat-Snap-in hinzu, wählen Sie **Computer**aus, und erweitern Sie dann **Personal**. Ausführliche Informationen zum Erstellen einer Zertifikatkonsole in der Microsoft Management Console (MMC) finden Sie unter [http://go.microsoft.com/fwlink/?LinkId=282616](http://go.microsoft.com/fwlink/?linkid=282616).
+1.  Öffnen Sie die Microsoft Management Console (MMC), fügen Sie das Zertifikat-Snap-in hinzu, wählen Sie **Computer**aus, und erweitern Sie dann **Personal**. Ausführliche Informationen zum Erstellen einer Zertifikatkonsole in der Microsoft Management Console (MMC) finden Sie unter [https://go.microsoft.com/fwlink/?LinkId=282616](https://go.microsoft.com/fwlink/?linkid=282616).
 
 2.  Klicken Sie mit der rechten Maustaste auf **Zertifikate**, klicken Sie auf **alle Aufgaben**, klicken Sie auf **Erweiterte Vorgänge**und dann auf **Benutzerdefinierte Anforderung erstellen**.
 
@@ -217,7 +217,7 @@ Führen Sie die folgenden Schritte aus, um eine Zertifikatsignaturanforderung au
     
 
     > [!IMPORTANT]
-    > Microsoft hat öffentliche Zertifizierungsstellen identifiziert, die die Anforderungen für Unified Communications Zwecke erfüllen. Eine Liste wird im folgenden Knowledge Base-Artikel verwaltet. <A href="http://go.microsoft.com/fwlink/?linkid=282625">http://go.microsoft.com/fwlink/?LinkId=282625</A>
+    > Microsoft hat öffentliche Zertifizierungsstellen identifiziert, die die Anforderungen für Unified Communications Zwecke erfüllen. Eine Liste wird im folgenden Knowledge Base-Artikel verwaltet. <A href="https://go.microsoft.com/fwlink/?linkid=282625">https://go.microsoft.com/fwlink/?LinkId=282625</A>
 
     
     </div>

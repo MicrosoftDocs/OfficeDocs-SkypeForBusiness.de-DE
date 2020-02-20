@@ -12,18 +12,18 @@ ms:contentKeyID: 48184535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2d8eb02f0cf178807c656520787024d79ab0f09b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: fa21b481d58d149bcc4c8189e210dfc23647a673
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038487"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146048"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="additional-server-support-and-requirements-in-lync-server-2013"></a>Zusätzliche Server Unterstützung und-Anforderungen in lync Server 2013
 
@@ -61,7 +61,7 @@ Zusätzlich zu der in den anderen Abschnitten dieser Unterstützungsdokumentatio
 
   - Für die meisten internen Server ist ein Zertifikattyp erforderlich, der als **Open Authentication** (OAuth) definiert ist. Sie müssen während der **Anforderungs-, install-und Assign** -Phase des lync Server-Bereitstellungs-Assistenten ein OAuth-Zertifikat anfordern und zuweisen. Die Mindestgröße für einen OAuth-Zertifikatschlüssel beträgt 1024 Bit. Eine Warnung wird möglicherweise angezeigt, wenn Sie ein Zertifikat mit einer Schlüssellänge von weniger als 2048 Bits anfordern. Um potenzielle Probleme zu vermeiden, falls eine Schlüssellänge von 2048 anstelle von Warnungen erzwungen wird, wird dringend empfohlen, immer eine Schlüssellänge von 2048 für OAuth-Zertifikate zu verwenden.
 
-  - Lync Server 2013 und Microsoft Exchange Server 2010 Service Pack 1 (SP1) funktionieren mit Unterstützung für FIPS (Federal Information Processing Standard) 140-2-Algorithmen, wenn die Windows Server 2008 R2-Betriebssysteme so konfiguriert sind, dass Sie die FIPS 140-2-Algorithmen für Systemkryptografie. Um die FIPS-Unterstützung zu implementieren, müssen Sie jeden Server konfigurieren, der lync Server 2013 ausführt, um ihn zu unterstützen. Ausführliche Informationen zu FIPS-kompatiblen Algorithmen und zur Implementierung der FIPS-Unterstützung finden Sie im Microsoft Knowledge Base-Artikel 811833, "System Cryptography: Verwenden von FIPS-kompatiblen Algorithmen für Verschlüsselung, Hashing und Signieren von Sicherheitseinstellungen in Windows XP und höheren [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)Windows-Versionen unter. Ausführliche Informationen zur Unterstützung von FIPS 140-2 und zu Einschränkungen in Exchange 2010 finden Sie unter "Exchange 2010 SP1 und Unterstützung für [http://go.microsoft.com/fwlink/p/?linkId=205335](http://go.microsoft.com/fwlink/p/?linkid=205335)FIPS-konforme Algorithmen" unter.
+  - Lync Server 2013 und Microsoft Exchange Server 2010 Service Pack 1 (SP1) funktionieren mit Unterstützung für FIPS (Federal Information Processing Standard) 140-2-Algorithmen, wenn die Windows Server 2008 R2-Betriebssysteme so konfiguriert sind, dass Sie die FIPS 140-2-Algorithmen für Systemkryptografie. Um die FIPS-Unterstützung zu implementieren, müssen Sie jeden Server konfigurieren, der lync Server 2013 ausführt, um ihn zu unterstützen. Ausführliche Informationen zu FIPS-kompatiblen Algorithmen und zur Implementierung der FIPS-Unterstützung finden Sie im Microsoft Knowledge Base-Artikel 811833, "System Cryptography: Verwenden von FIPS-kompatiblen Algorithmen für Verschlüsselung, Hashing und Signieren von Sicherheitseinstellungen in Windows XP und höheren [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)Windows-Versionen unter. Ausführliche Informationen zur Unterstützung von FIPS 140-2 und zu Einschränkungen in Exchange 2010 finden Sie unter "Exchange 2010 SP1 und Unterstützung für [https://go.microsoft.com/fwlink/p/?linkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)FIPS-konforme Algorithmen" unter.
 
 Lync Server 2013 erfordert die Installation anderer Software auf bestimmten Komponenten vor oder während der Bereitstellung. Dies umfasst Software, die mit dem Betriebssystem, herunterladbare Software und Software zur Verfügung steht, die bei der Installation von lync Server 2013 automatisch installiert wird. In der folgenden Liste wird zusätzliche Software aufgeführt, die möglicherweise erforderlich ist:
 

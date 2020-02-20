@@ -12,18 +12,18 @@ ms:contentKeyID: 48183855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 280202a83828757c3caca20c21795453ad4f133f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9cded0c566e5bbef0703227b71699f02b73145cd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049167"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145143"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="conferencejointimethresholds-table-in-lync-server-2013"></a>ConferenceJoinTimeThresholds-Tabelle in lync Server 2013
 
@@ -81,7 +81,7 @@ Diese Tabelle wurde in Microsoft lync Server 2013 eingeführt.
 <td><p>Oberer Grenzwert für die Klassifizierung. Gültige Werte sind:</p>
 <ol>
 <li><p>2</p></li>
-<li><p>5 </p></li>
+<li><p>5</p></li>
 <li><p>10 </p></li>
 </ol></td>
 </tr>

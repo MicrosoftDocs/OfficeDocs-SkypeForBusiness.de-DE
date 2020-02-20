@@ -12,18 +12,18 @@ ms:contentKeyID: 51541417
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a856a44a82af84f4881e487c5f853deeede72e07
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3c5ffc74e80547df1dd451cd86d681e85befe334
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038307"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146298"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="prerequisites"></a>Voraussetzungen
 
@@ -65,11 +65,11 @@ Zum Ausführen des lync Server 2013 Stress and Performance-Tools in ihrer lync S
 
 Der Clientcomputer muss die folgenden Softwareanforderungen erfüllen:
 
-  - Sie müssen die [Microsoft .NET Framework 4.5](http://go.microsoft.com/fwlink/?linkid=143212) Laufzeit installiert haben.
+  - Sie müssen die [Microsoft .NET Framework 4.5](https://go.microsoft.com/fwlink/?linkid=143212) Laufzeit installiert haben.
 
   - In Windows Server 2008/Windows Server 2012 muss das Feature "Desktop Darstellung" aktiviert sein.
 
-  - Sie müssen das [Microsoft Visual C++ 2012 Redistributable Package](http://go.microsoft.com/fwlink/?linkid=143216) (x64) installiert haben.
+  - Sie müssen das [Microsoft Visual C++ 2012 Redistributable Package](https://go.microsoft.com/fwlink/?linkid=143216) (x64) installiert haben.
 
   - Eine vollständig konfigurierte lync Server 2013-Bereitstellung.
 

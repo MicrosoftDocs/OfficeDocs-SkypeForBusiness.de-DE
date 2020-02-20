@@ -12,18 +12,18 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31d8e408425ccc2810072373212f48c764974dc0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0aadbc9603fb62a2dacf78129aef3bf448da2f05
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044537"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143405"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="set-up-certificates-for-the-external-edge-interface-for-lync-server-2013"></a>Einrichten von Zertifikaten für die externe Edge-Schnittstelle für lync Server 2013
 
@@ -51,7 +51,7 @@ Jeder Edgeserver benötigt ein öffentliches Zertifikat für die Schnittstelle z
 
 Ausführliche Informationen zu diesen und anderen Zertifikatanforderungen finden Sie unter [Certificate Requirements for external User Access in lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-Eine Liste der öffentlichen Zertifizierungsstellen, die Zertifikate bereitstellen, die den spezifischen Anforderungen an Unified Communications-Zertifikate entsprechen und mit Microsoft zusammenarbeiten, um sicherzustellen, dass Sie mit dem lync Server 2013-Zertifikat-Assistenten funktionieren, finden Sie im [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)Microsoft Knowledge Base-Artikel 929395, "Unified Communications Certificate Partners for Exchange Server and for Communications Server" unter.
+Eine Liste der öffentlichen Zertifizierungsstellen, die Zertifikate bereitstellen, die den spezifischen Anforderungen an Unified Communications-Zertifikate entsprechen und mit Microsoft zusammenarbeiten, um sicherzustellen, dass Sie mit dem lync Server 2013-Zertifikat-Assistenten funktionieren, finden Sie im [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)Microsoft Knowledge Base-Artikel 929395, "Unified Communications Certificate Partners for Exchange Server and for Communications Server" unter.
 
 <div>
 

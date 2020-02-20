@@ -12,18 +12,18 @@ ms:contentKeyID: 51541482
 ms.date: 05/10/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f268d76c33e3a76c909d164eb63d6ad3c1eb29c8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c757fc19bd82fbf1ae3096bb4a8ac8982f9035b6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029806"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142401"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="supported-lync-server-2013-hybrid-configurations"></a>Unterstützte lync Server 2013 Hybridkonfigurationen
 
@@ -37,7 +37,7 @@ ms.locfileid: "42029806"
 
 _**Letztes Änderungsstand des Themas:** 2016-05-10_
 
-Sie können lync Server 2013-Bereitstellungen für die Integration in Microsoft Exchange Server 2010 und Microsoft Exchange Server 2013 und SharePoint Server sowohl lokal als auch Online konfigurieren. Sofern nicht anders angegeben, werden die in der folgenden Tabelle aufgeführten Features mit allen Clients unterstützt. Weitere Informationen zur Clientunterstützung finden Sie unter [Client Vergleichstabellen für lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md) -und Skype for Business Online-Client Vergleichstabellen auf [Clients für Skype for Business Online](http://go.microsoft.com/fwlink/p/?linkid=281902).
+Sie können lync Server 2013-Bereitstellungen für die Integration in Microsoft Exchange Server 2010 und Microsoft Exchange Server 2013 und SharePoint Server sowohl lokal als auch Online konfigurieren. Sofern nicht anders angegeben, werden die in der folgenden Tabelle aufgeführten Features mit allen Clients unterstützt. Weitere Informationen zur Clientunterstützung finden Sie unter [Client Vergleichstabellen für lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md) -und Skype for Business Online-Client Vergleichstabellen auf [Clients für Skype for Business Online](https://go.microsoft.com/fwlink/p/?linkid=281902).
 
 <div>
 
@@ -141,7 +141,7 @@ In der folgenden Tabelle sind die Features aufgeführt, die in einer hybridberei
 <li><p>Verlauf von verpassten Unterhaltungen und Anrufprotokolle werden in das Exchange-Postfach des Benutzers geschrieben.</p></li>
 <li><p>Archivieren von Inhalt (Chat und Besprechung) in Exchange.</p>
 <p>Weitere Informationen finden Sie unter <a href="lync-server-2013-deployment-checklist-for-archiving.md">Checkliste für die Bereitstellung für die Archivierung in lync Server 2013</a></p></li>
-<li><p>Durchsuchen archivierter Inhalte. Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/p/?linkid=285448">Konfigurieren von Exchange für SharePoint eDiscovery Center</a></p></li>
+<li><p>Durchsuchen archivierter Inhalte. Weitere Informationen finden Sie unter <a href="https://go.microsoft.com/fwlink/p/?linkid=285448">Konfigurieren von Exchange für SharePoint eDiscovery Center</a></p></li>
 <li><p>Voicemail. Weitere Informationen finden Sie unter <a href="lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um.md">providing lync Server 2013 users Voice Mail on Hosted Exchange um</a></p></li>
 </ul></td>
 </tr>

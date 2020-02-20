@@ -12,18 +12,18 @@ ms:contentKeyID: 56107266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a2662225ac8aa00383b38deec3825a6f26b9dd9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a03a5c312123d714eebe8d49674a19ce712e37bc
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034987"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145243"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="key-security-features-in-lync-server-2013"></a>Wichtige Sicherheitsfeatures in lync Server 2013
 
@@ -127,7 +127,7 @@ Der Bereitstellungs-Assistent kann automatisch die Antragstellernamen (SNS) und 
 
 ## <a name="trustworthy-computing-security-development-lifecycle-sdl"></a>Trustworthy Computing Security Development Lifecycle (SDL)
 
-Lync Server 2013 wurde in Übereinstimmung mit dem Microsoft Trustworthy Computing Security Development Lifecycle (SDL) entworfen und entwickelt, der unter <http://go.microsoft.com/fwlink/?linkid=68761>beschrieben wird.
+Lync Server 2013 wurde in Übereinstimmung mit dem Microsoft Trustworthy Computing Security Development Lifecycle (SDL) entworfen und entwickelt, der unter <https://go.microsoft.com/fwlink/?linkid=68761>beschrieben wird.
 
   - **Vertrauenswürdig durch Entwurf**   der erste Schritt beim Erstellen eines sicheren Unified Communications-Systems bestand darin, Bedrohungsmodelle zu entwerfen und die einzelnen Features so zu testen, wie Sie entworfen wurden. Darüber hinaus führt Microsoft Tests außerhalb des entworfenen Verhaltens durch, um Sicherheitsrisiken zu finden, die aus einem unerwarteten Produktverhalten resultieren. Mehrere sicherheitsrelevante Verbesserungen wurden während der Codephase getestet und integriert. Mit Buildzeittools werden Pufferüberläufe und andere potenzielle Sicherheitsbedrohungen erkannt, bevor der Code in das Endprodukt aufgenommen wird. Natürlich ist es nicht möglich, alle unbekannten Sicherheitsbedrohungen vorherzusehen. Es gibt kein System ohne Sicherheitslücken. Da die Produktentwicklung jedoch von Anfang an sichere Entwurfsprinzipien umfasste, umfasst lync Server 2013 Branchenstandard-Sicherheitstechnologien als grundlegender Bestandteil ihrer Architektur.
 

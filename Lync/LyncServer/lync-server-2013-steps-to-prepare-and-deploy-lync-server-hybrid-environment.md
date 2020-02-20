@@ -12,18 +12,18 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3326db7ce62279c4295bc13ec262a5a553ca5e62
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 24a6d816f2f50c36694317f442cc79d06f077ef0
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038697"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142501"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="steps-to-prepare-and-deploy-lync-server-2013-hybrid-environment"></a>Schritte zum Vorbereiten und Bereitstellen lync Server 2013 Hybridumgebung
 
@@ -59,7 +59,7 @@ In der folgenden Tabelle sind die erforderlichen Schritte zum Vorbereiten der Um
 <td><p>Erstellen eines Mandanten Kontos für Office 365 und Aktivieren von lync Online</p></td>
 <td><p>Informationen zu Office 365 und lync Online finden Sie unter <a href="https://go.microsoft.com/fwlink/p/?linkid=254980">Office 365</a>.</p>
 <p>Wenn Sie sicherstellen möchten, dass Ihre Umgebung für Office 365 bereit ist, lesen Sie die <a href="https://go.microsoft.com/fwlink/p/?linkid=401408">System Anforderungen</a>.</p>
-<p>Ausführliche Informationen zum Einrichten von Office 365 finden Sie unter <a href="https://go.microsoft.com/fwlink/p/?linkid=254982">Erste Schritte mit Office 365</a> und <a href="http://go.microsoft.com/fwlink/p/?linkid=254979">Einrichten von Office 365</a>.</p></td>
+<p>Ausführliche Informationen zum Einrichten von Office 365 finden Sie unter <a href="https://go.microsoft.com/fwlink/p/?linkid=254982">Erste Schritte mit Office 365</a> und <a href="https://go.microsoft.com/fwlink/p/?linkid=254979">Einrichten von Office 365</a>.</p></td>
 </tr>
 <tr class="even">
 <td></td>

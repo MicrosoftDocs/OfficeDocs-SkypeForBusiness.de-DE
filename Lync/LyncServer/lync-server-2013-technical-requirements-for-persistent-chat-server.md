@@ -12,18 +12,18 @@ ms:contentKeyID: 48184383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba8e3e02efeddc1229d3616c0cdcaf4ca241bf24
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c99493a2d6921214f91c36fb62e7a75a7279f646
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42024406"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141791"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a>Technische Anforderungen für den Server für beständigen Chat in lync Server 2013
 
@@ -99,9 +99,9 @@ Die Server Plattform für die Datenbankserver für beständigen Chat erfordert d
 
 Stellen Sie sicher, dass eine der folgenden Softwareanwendungen auf dem Datenbankserver installiert ist:
 
-  - Microsoft SQL Server 2012. Ausführliche Informationen zur Installation von Microsoft SQL Server 2012 finden Sie unter "Install SQL Server 2012" unter [http://go.microsoft.com/fwlink/p/?LinkID=248559](http://go.microsoft.com/fwlink/p/?linkid=248559).
+  - Microsoft SQL Server 2012. Ausführliche Informationen zur Installation von Microsoft SQL Server 2012 finden Sie unter "Install SQL Server 2012" unter [https://go.microsoft.com/fwlink/p/?LinkID=248559](https://go.microsoft.com/fwlink/p/?linkid=248559).
 
-  - Microsoft SQL Server 2008 R2. Ausführliche Informationen zum Installieren von Microsoft SQL Server 2008 R2 finden Sie unter "SQL Server Installation (SQL Server 2008 R2)" unter [http://go.microsoft.com/fwlink/?LinkId=275702](http://go.microsoft.com/fwlink/?linkid=275702).
+  - Microsoft SQL Server 2008 R2. Ausführliche Informationen zum Installieren von Microsoft SQL Server 2008 R2 finden Sie unter "SQL Server Installation (SQL Server 2008 R2)" unter [https://go.microsoft.com/fwlink/?LinkId=275702](https://go.microsoft.com/fwlink/?linkid=275702).
 
 </div>
 

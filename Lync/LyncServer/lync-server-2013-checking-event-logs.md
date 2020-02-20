@@ -12,18 +12,18 @@ ms:contentKeyID: 63969602
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a15fb690dc213dbe22377b988f82dd59d6eb8a03
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 41c49839b01b531c1cd4c9a5eb4cff5fb6a155f4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045667"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42145964"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="checking-event-logs-in-lync-server-2013"></a>Überprüfen von Ereignisprotokollen in lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42045667"
 
 _**Letztes Änderungsstand des Themas:** 2014-08-06_
 
-Sie können die [Windows-Ereignisanzeige](http://go.microsoft.com/fwlink/p/?linkid=314067) verwenden, um Ereignisprotokolle anzuzeigen und Informationen zu Dienstfehlern, Replikationsfehlern im AD DS und Warnungen zu Systemressourcen wie virtuellem Arbeitsspeicher und Speicherplatz zu erhalten. Die Ereignisanzeige ist in Windows Server 2008 und 2012 enthalten.
+Sie können die [Windows-Ereignisanzeige](https://go.microsoft.com/fwlink/p/?linkid=314067) verwenden, um Ereignisprotokolle anzuzeigen und Informationen zu Dienstfehlern, Replikationsfehlern im AD DS und Warnungen zu Systemressourcen wie virtuellem Arbeitsspeicher und Speicherplatz zu erhalten. Die Ereignisanzeige ist in Windows Server 2008 und 2012 enthalten.
 
 Wenn Sie im lync Server 2013 Protokollierungstool die Debugsitzung beenden, klicken Sie auf **Protokolldateien analysieren** , um die Protokolldateien mithilfe des Tools Snooper anzuzeigen.
 
@@ -93,16 +93,16 @@ Das Management Pack bietet die folgenden Features:
 
 Weitere Informationen zu lync Server 2013 Management Pack finden Sie unter [Monitoring lync Server 2013 with System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md).
 
-**Ereignis Kamm**   mit dem Tool "Ereignis Kamm" werden bestimmte Ereignisse aus den Ereignisprotokollen mehrerer Computer an einem zentralen Speicherort erfasst. Sie können nur die Ereignis-IDs oder Ereignisquellen melden, die es angibt. Weitere Informationen zum Ereignis Kamm finden Sie auf der Website für [Kontosperrung und Verwaltungs Tools](http://go.microsoft.com/fwlink/?linkid=35607) .
+**Ereignis Kamm**   mit dem Tool "Ereignis Kamm" werden bestimmte Ereignisse aus den Ereignisprotokollen mehrerer Computer an einem zentralen Speicherort erfasst. Sie können nur die Ereignis-IDs oder Ereignisquellen melden, die es angibt. Weitere Informationen zum Ereignis Kamm finden Sie auf der Website für [Kontosperrung und Verwaltungs Tools](https://go.microsoft.com/fwlink/?linkid=35607) .
 
-**Ereignisauslöser**   in Windows Server 2012 können Sie "eine Aufgabe an dieses Ereignis anfügen" in der Windows-Ereignisanzeige, bei der ein Administrator entweder ein Programm ausführen, eine e-Mail-Nachricht senden oder eine Bildschirm Nachricht anzeigen kann. Weitere Informationen zu diesem Feature finden Sie im Windows Server 2008 R2 Thema [Ausführen einer Aufgabe als Reaktion auf ein bestimmtes Ereignis](http://technet.microsoft.com/library/cc748900.aspx). Sie können auch Befehlszeilentools wie "EventTrigger. exe" zum Erstellen und Abfragen von Ereignisprotokollen und zum Zuordnen von Programmen zu bestimmten protokollierten Ereignissen verwenden. Mit Eventtriggers. exe können Sie Ereignisauslöser erstellen, die Programme ausführen, wenn bestimmte Ereignisse eintreten.
+**Ereignisauslöser**   in Windows Server 2012 können Sie "eine Aufgabe an dieses Ereignis anfügen" in der Windows-Ereignisanzeige, bei der ein Administrator entweder ein Programm ausführen, eine e-Mail-Nachricht senden oder eine Bildschirm Nachricht anzeigen kann. Weitere Informationen zu diesem Feature finden Sie im Windows Server 2008 R2 Thema [Ausführen einer Aufgabe als Reaktion auf ein bestimmtes Ereignis](https://technet.microsoft.com/library/cc748900.aspx). Sie können auch Befehlszeilentools wie "EventTrigger. exe" zum Erstellen und Abfragen von Ereignisprotokollen und zum Zuordnen von Programmen zu bestimmten protokollierten Ereignissen verwenden. Mit Eventtriggers. exe können Sie Ereignisauslöser erstellen, die Programme ausführen, wenn bestimmte Ereignisse eintreten.
 
 <div>
 
 ## <a name="see-also"></a>Siehe auch
 
 
-[Windows-Ereignisanzeige](http://go.microsoft.com/fwlink/p/?linkid=314067)  
+[Windows-Ereignisanzeige](https://go.microsoft.com/fwlink/p/?linkid=314067)  
   
 
 </div>

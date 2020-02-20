@@ -12,18 +12,18 @@ ms:contentKeyID: 49733767
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01a30a7e0effbcd9d80f30bccf68edb9804641f4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bfb64d01703b020e8abb983843e80980535373f6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048118"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146378"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enabling-or-disabling-push-notifications-for-windows-phones-in-lync-server-2013"></a>Aktivieren oder Deaktivieren von Push-Benachrichtigungen für Windows Phones in lync Server 2013
 
@@ -79,13 +79,13 @@ Push-Benachrichtigungen in Form von Abzeichen, Symbolen oder Warnungen können a
 
 ## <a name="enabling-or-disabling-push-notifications-for-windows-phone-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren von Push-Benachrichtigungen für Windows Phone mithilfe von Windows PowerShell-Cmdlets
 
-Sie können Push-Benachrichtigungen für Windows Phone aktivieren oder deaktivieren, indem Sie das Cmdlet "Cmdlet **festlegen-CsPushNotificationConfiguration** " verwenden. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Sie können Push-Benachrichtigungen für Windows Phone aktivieren oder deaktivieren, indem Sie das Cmdlet "Cmdlet **festlegen-CsPushNotificationConfiguration** " verwenden. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
 ## <a name="to-enable-push-notifications-for-windows-phone"></a>So aktivieren Sie Push-Benachrichtigungen für Windows Phone
 
-  - Um Push-Benachrichtigungen für Windows Phone zu aktivieren, legen Sie den Wert der EnableMicrosoftPushNotificationService-Eigenschaft auf true ($true) fest. Beispiel:
+  - Um Push-Benachrichtigungen für Windows Phone zu aktivieren, legen Sie den Wert der EnableMicrosoftPushNotificationService-Eigenschaft auf true ($true) fest. Zum Beispiel:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableMicrosoftPushNotificationService $True
 
@@ -95,7 +95,7 @@ Sie können Push-Benachrichtigungen für Windows Phone aktivieren oder deaktivie
 
 ## <a name="to-disable-push-notifications-for-windows-phone"></a>So deaktivieren Sie Push-Benachrichtigungen für Windows Phone
 
-  - Wenn Sie Push-Benachrichtigungen für Windows Phone deaktivieren möchten, legen Sie den Wert der EnableMicrosoftPushNotificationService-Eigenschaft auf false ($false) fest. Beispiel:
+  - Wenn Sie Push-Benachrichtigungen für Windows Phone deaktivieren möchten, legen Sie den Wert der EnableMicrosoftPushNotificationService-Eigenschaft auf false ($false) fest. Zum Beispiel:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableMicrosoftPushNotificationService $False
 

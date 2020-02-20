@@ -12,18 +12,18 @@ ms:contentKeyID: 63969577
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61285a73ba7fd3689842f15967286c4393b8e927
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5e910da744bf88b485fc693c02544ad8a7093ead
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030789"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42142281"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="system-administration-in-lync-server-2013"></a>System Verwaltung in lync Server 2013
 
@@ -75,7 +75,7 @@ Das folgende Diagramm zeigt den Systemproblem Behandlungsprozess und die Interak
 
 Service Desk-Tools ermöglichen es Mitarbeitern, neue Probleme aufzuzeichnen, zu klassifizieren und zu priorisieren. Tools stellt dann die Workflowprozesse zur Verwaltung der Problem Dienstanforderung durch Untersuchung und Diagnose bereit, häufig von mehr als einem Support Team. Tools, die häufig Berichte über Lösungszeiten und Verlaufstrends bereitstellen, können auch eine Knowledge Base-Datenbank enthalten, die zum Durchsuchen früherer Probleme verwendet werden kann.
 
-Die Microsoft Knowledge Base ist eine nützliche Aufzeichnung von Supportproblemen, die von Microsoft aufgetreten sind. Weitere Informationen finden Sie auf der Microsoft-Support-<http://go.microsoft.com/fwlink/?linkid=14898>Website ().
+Die Microsoft Knowledge Base ist eine nützliche Aufzeichnung von Supportproblemen, die von Microsoft aufgetreten sind. Weitere Informationen finden Sie auf der Microsoft-Support-<https://go.microsoft.com/fwlink/?linkid=14898>Website ().
 
 Bei Drittanbietersoftware ist in der Regel eine Anpassung erforderlich, die den Anforderungen der Organisation entspricht, beispielsweise die Organisation von Teams, Berichtsanforderungen und für die SLA erforderlichen Maßnahmen.
 

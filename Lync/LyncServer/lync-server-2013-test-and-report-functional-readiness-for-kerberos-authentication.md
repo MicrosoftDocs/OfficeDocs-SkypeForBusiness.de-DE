@@ -12,18 +12,18 @@ ms:contentKeyID: 48185519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 870c0e19e2134c1a827485a5cacf2c055f99b0d4
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c3c5a2c83d664182226decb88ab6bd1c34d6d3a5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006070"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141721"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="test-and-report-functional-readiness-for-kerberos-authentication-in-lync-server-2013"></a>Testen und melden der Funktionsbereitschaft für die Kerberos-Authentifizierung in lync Server 2013
 

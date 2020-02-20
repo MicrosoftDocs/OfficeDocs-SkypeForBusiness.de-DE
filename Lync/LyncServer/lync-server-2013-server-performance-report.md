@@ -12,18 +12,18 @@ ms:contentKeyID: 48184879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e60757721a9244a55e7ce341be6834934108858a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 05c1e366c797eb0c626d00744ef6f0088d28e465
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050697"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42143983"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="server-performance-report-in-lync-server-2013"></a>Bericht über die Server Leistung in lync Server 2013
 
@@ -136,7 +136,7 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über
 <td><p>Gibt die Anzahl der Server an (basierend auf dem Prozentsatz der Anrufe schlechter Qualität), die in den einzelnen Kategorien angezeigt werden sollen. Wenn Sie z. B. <strong>5</strong> auswählen, werden die fünf Server mit der schlechtesten Leistung angezeigt. Wählen Sie eine der folgenden Optionen aus:</p>
 <ol>
 <li><p>Alle</p></li>
-<li><p>5 </p></li>
+<li><p>5</p></li>
 <li><p>10 </p></li>
 </ol></td>
 </tr>

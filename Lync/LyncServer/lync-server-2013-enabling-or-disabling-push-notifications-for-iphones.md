@@ -12,18 +12,18 @@ ms:contentKeyID: 49733719
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f0b091910fa62c52e7ee0dd98862095995b4abe6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9af351e2d5710d3263faf0afeb6ab8aa36d5e568
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049177"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42146388"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="enabling-or-disabling-push-notifications-for-iphones-in-lync-server-2013"></a>Aktivieren oder Deaktivieren von Push-Benachrichtigungen für iPhones in lync Server 2013
 
@@ -79,13 +79,13 @@ Push-Benachrichtigungen in Form von Abzeichen, Symbolen oder Warnungen können a
 
 ## <a name="enabling-or-disabling-push-notifications-to-iphone-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren von Push-Benachrichtigungen für das iPhone mithilfe von Windows PowerShell-Cmdlets
 
-Push-Benachrichtigungen an Apple iPhone können mithilfe des Cmdlets " **CsPushNotificationConfiguration** " aktiviert oder deaktiviert werden. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Push-Benachrichtigungen an Apple iPhone können mithilfe des Cmdlets " **CsPushNotificationConfiguration** " aktiviert oder deaktiviert werden. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
 ## <a name="to-enable-push-notifications-for-iphone"></a>So aktivieren Sie Push-Benachrichtigungen für das iPhone
 
-  - So aktivieren Sie Push-Benachrichtigungen für iPhone legen Sie den Wert der EnableApplePushNotificationService-Eigenschaft auf true ($true) fest. Beispiel:
+  - So aktivieren Sie Push-Benachrichtigungen für iPhone legen Sie den Wert der EnableApplePushNotificationService-Eigenschaft auf true ($true) fest. Zum Beispiel:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableApplePushNotificationService $True
 
@@ -95,7 +95,7 @@ Push-Benachrichtigungen an Apple iPhone können mithilfe des Cmdlets " **CsPushN
 
 ## <a name="to-disable-push-notifications-for-iphone"></a>So deaktivieren Sie Push-Benachrichtigungen für das iPhone
 
-  - So deaktivieren Sie Push-Benachrichtigungen für iPhone legen Sie den Wert der EnableApplePushNotificationService-Eigenschaft auf false ($false) fest. Beispiel:
+  - So deaktivieren Sie Push-Benachrichtigungen für iPhone legen Sie den Wert der EnableApplePushNotificationService-Eigenschaft auf false ($false) fest. Zum Beispiel:
     
         Set-CsPushNotificationConfiguration -Identity "site:Redmond" -EnableApplePushNotificationService $False
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183897
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff91e6b458d4c86f2246cff19e72e5221728e774
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e63d75bda22228ae14077a51f78150b3884e875f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006777"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42141861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="technical-requirements-for-call-park-in-lync-server-2013"></a>Technische Anforderungen für das Parken von Anrufen in lync Server 2013
 
@@ -89,7 +89,7 @@ Der Anwendung zum Parken von Anrufen verwendet den folgenden Port:
 
 ## <a name="audio-file-requirements"></a>Anforderungen für Audiodateien
 
-Das Anwendung zum Parken von Anrufen unterstützt nur Windows Media Audio-(WMA-) Dateien für die Wartemusik. Sie können Dateien für Wartemusik mit Microsoft Expression Encoder 4 anpassen. Informationen zum Herunterladen von [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843)Expression Encoder 4 finden Sie unter "Expression Encoder 4" unter. Verwenden Sie das Tool, um die Datei in ein WMA-Format zu konvertieren. Das empfohlene Format für Wartemusikdateien für die Anwendung zum Parken von Anrufen ist Media Audio 9, 44 kHz, 16 Bit, Mono, CBR oder 32 KBit/s.
+Das Anwendung zum Parken von Anrufen unterstützt nur Windows Media Audio-(WMA-) Dateien für die Wartemusik. Sie können Dateien für Wartemusik mit Microsoft Expression Encoder 4 anpassen. Informationen zum Herunterladen von [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkid=202843)Expression Encoder 4 finden Sie unter "Expression Encoder 4" unter. Verwenden Sie das Tool, um die Datei in ein WMA-Format zu konvertieren. Das empfohlene Format für Wartemusikdateien für die Anwendung zum Parken von Anrufen ist Media Audio 9, 44 kHz, 16 Bit, Mono, CBR oder 32 KBit/s.
 
 <div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c265e73f94ddfe08b7f72a1d0b4e94958208ff8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4ac8c0f9a38ca80961f9a15a40a88214ad3cf2d7
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045487"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42144892"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>Anforderungen für die Ausführung von Best Practices Analyzer in lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42045487"
 
 _**Letztes Änderungsstand des Themas:** 2012-09-19_
 
-Sie können lync Server 2013, Best Practices Analyzer zum Überprüfen Ihrer lync Server 2013 Umgebung verwenden. Es kann nicht zum Durchsuchen früherer Umgebungen verwendet werden, Sie können hierfür jedoch frühere Versionen des Tools verwenden. Ausführliche Informationen zum herunterladen und Verwenden der lync Server 2010-und Office Communications Server 2007 R2-Versionen von Best Practices Analyzer finden Sie unter "lync Server 2010, [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358) Best Practices Analyzer" unter und "Best Practices [http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651)Analyzer for Office Communications Server 2007 and Office Communications Server 2007 R2" unter.
+Sie können lync Server 2013, Best Practices Analyzer zum Überprüfen Ihrer lync Server 2013 Umgebung verwenden. Es kann nicht zum Durchsuchen früherer Umgebungen verwendet werden, Sie können hierfür jedoch frühere Versionen des Tools verwenden. Ausführliche Informationen zum herunterladen und Verwenden der lync Server 2010-und Office Communications Server 2007 R2-Versionen von Best Practices Analyzer finden Sie unter "lync Server 2010, [https://go.microsoft.com/fwlink/p/?linkId=210536](https://go.microsoft.com/fwlink/p/?linkid=256358) Best Practices Analyzer" unter und "Best Practices [https://go.microsoft.com/fwlink/p/?linkId=256358](https://go.microsoft.com/fwlink/p/?linkid=210651)Analyzer for Office Communications Server 2007 and Office Communications Server 2007 R2" unter.
 
 Bevor Sie mit dem Scan beginnen, sollten Sie sicherstellen, dass alle Komponenten in ihrer lync Server 2013 Umgebung und online verfügbar sind.
 
