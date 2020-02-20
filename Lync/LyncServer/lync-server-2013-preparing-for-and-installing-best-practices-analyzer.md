@@ -12,18 +12,18 @@ ms:contentKeyID: 48184149
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c97657b42ec4ea26f5300b1d28215d0360b63cf
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 303df28b307a2d23bdc468d1c53977030d0cf8df
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042422"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152583"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="preparing-for-and-installing-best-practices-analyzer-in-lync-server-2013"></a>Vorbereiten und Installieren von Best Practices Analyzer in lync Server 2013
 
@@ -93,7 +93,7 @@ Es wird empfohlen, lync Server 2013, Best Practices Analyzer auf einem Computer 
 
 ## <a name="installing-best-practices-analyzer"></a>Installieren von Best Practices Analyzer
 
-Sie können den Best Practices Analyzer für lync Server 2013 unter [http://go.microsoft.com/fwlink/p/?linkId=266539](http://go.microsoft.com/fwlink/p/?linkid=266539)herunterladen.
+Sie können den Best Practices Analyzer für lync Server 2013 unter [https://go.microsoft.com/fwlink/p/?linkId=266539](https://go.microsoft.com/fwlink/p/?linkid=266539)herunterladen.
 
 Um Best Practices Analyzer zu installieren, führen Sie die Microsoft Installer-Datei "RtcBPA.msi" auf dem Computer aus, auf dem das Tool installiert werden soll, und folgen den Anweisungen auf dem Bildschirm. Der Standardspeicherort für die Installation der Programmdateien \<lautet System\>\\Drive-\\Programm\\Dateien lync Server 2013 BPA.
 

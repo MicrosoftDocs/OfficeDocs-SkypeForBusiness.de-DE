@@ -12,18 +12,18 @@ ms:contentKeyID: 63969574
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b67831b6dbcd7dae12f9b19dd71f2512a8807189
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2832af2c038383e0cca9f8cb931ce4b675b44f2b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043487"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150964"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="check-trunk-configuration-against-a-phone-number-in-lync-server-2013"></a>Überprüfen der trunkkonfiguration anhand einer Telefonnummer in lync Server 2013
 
@@ -136,7 +136,7 @@ Muster: ^\\+ (\\d\*) $
 
 Name: NoAreaCode
 
-An diesem Punkt überprüfen Sie den Wert der Pattern-Eigenschaft (bei der es sich um eine [reguläre Ausdrucks](http://go.microsoft.com/fwlink/?linkid=400464) Zeichenfolge handelt), um festzustellen, ob eine der Übersetzungsregeln für die Verarbeitung der gewählten Nummer konfiguriert ist. Wenn dies nicht der Fall ist, müssen Sie entweder eine der vorhandenen Regeln ändern (festlegen-CsOutboundTranslationRule) oder das Cmdlet New-CsOutboundTranslationRule verwenden, um der Auflistung eine neue Regel hinzuzufügen.
+An diesem Punkt überprüfen Sie den Wert der Pattern-Eigenschaft (bei der es sich um eine [reguläre Ausdrucks](https://go.microsoft.com/fwlink/?linkid=400464) Zeichenfolge handelt), um festzustellen, ob eine der Übersetzungsregeln für die Verarbeitung der gewählten Nummer konfiguriert ist. Wenn dies nicht der Fall ist, müssen Sie entweder eine der vorhandenen Regeln ändern (festlegen-CsOutboundTranslationRule) oder das Cmdlet New-CsOutboundTranslationRule verwenden, um der Auflistung eine neue Regel hinzuzufügen.
 
 </div>
 

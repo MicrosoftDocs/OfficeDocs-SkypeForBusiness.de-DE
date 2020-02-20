@@ -12,18 +12,18 @@ ms:contentKeyID: 48183457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ac62cb2fe222a2a36c0fc0aeb79a4aaa37e9964
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a001a6fb76a0612f7f650a31de5cf788a7f69327
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42044827"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="mobility-features-and-capabilities-in-lync-server-2013"></a>Mobilitätsfeatures und-Funktionen in lync Server 2013
 
@@ -99,7 +99,7 @@ Apple iPad-Benutzer haben Zugriff auf erweiterte Fähigkeiten. Nachdem ein iPad-
 
 
 > [!NOTE]  
-> Nicht alle Features werden auf sämtlichen Mobiltelefonen genau gleich ausgeführt. Ausführliche Informationen zu den auf mobilen Geräten unterstützten Features finden Sie in <A href="http://go.microsoft.com/fwlink/p/?linkid=234777">http://go.microsoft.com/fwlink/p/?LinkId=234777</A>den Vergleichstabellen für mobile Clients unter. Ausführliche Informationen zu unterstützten Geräten und Betriebssystemen finden Sie in den Anforderungen unter <A href="lync-server-2013-planning-for-mobile-clients.md">Planung für mobile Clients in lync Server 2013</A>.
+> Nicht alle Features werden auf sämtlichen Mobiltelefonen genau gleich ausgeführt. Ausführliche Informationen zu den auf mobilen Geräten unterstützten Features finden Sie in <A href="https://go.microsoft.com/fwlink/p/?linkid=234777">https://go.microsoft.com/fwlink/p/?LinkId=234777</A>den Vergleichstabellen für mobile Clients unter. Ausführliche Informationen zu unterstützten Geräten und Betriebssystemen finden Sie in den Anforderungen unter <A href="lync-server-2013-planning-for-mobile-clients.md">Planung für mobile Clients in lync Server 2013</A>.
 
 
 

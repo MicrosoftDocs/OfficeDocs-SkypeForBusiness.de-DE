@@ -12,18 +12,18 @@ ms:contentKeyID: 51541452
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a6614a06ea4e5370dd944940d35a690853c171b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4523dcaaee5931e6bf4df9dd79c09ec92636ec31
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045077"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150456"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="backing-up-core-data-and-settings-in-lync-server-2013"></a>Sichern von Hauptdaten und-Einstellungen in lync Server 2013
 
@@ -65,7 +65,7 @@ Sie können die in diesem Abschnitt beschriebenen Cmdlets lokale oder remote aus
     
         Export-CsConfiguration -FileName <path and file name for backup>
     
-    Beispiel:
+    Zum Beispiel:
     
         Export-CsConfiguration -FileName "C:\Config.zip"
     
@@ -94,7 +94,7 @@ Sie können die in diesem Abschnitt beschriebenen Cmdlets lokale oder remote aus
     
         Export-CsUserData -PoolFQDN <Fqdn> -FileName <String>
     
-    Beispiel:
+    Zum Beispiel:
     
         Export-CsUserData -PoolFQDN "atl-cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserData.zip"
 
@@ -106,7 +106,7 @@ Sie können die in diesem Abschnitt beschriebenen Cmdlets lokale oder remote aus
         
             Export-CsRgsConfiguration -Source "service:ApplicationServer:<pool FQDN>" -FileName <path and file name for backup>
         
-        Beispiel:
+        Zum Beispiel:
         
             Export-CsRgsConfiguration -Source ApplicationServer:pool01.contoso.com -FileName C:\RgsConfiguration.zip
 

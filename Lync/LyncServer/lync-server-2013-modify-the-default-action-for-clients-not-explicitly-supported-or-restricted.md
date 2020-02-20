@@ -12,18 +12,18 @@ ms:contentKeyID: 48184137
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63ff08d05c9c8c18b7f81f22b04e2168a14f1a8c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b33cdb0b2055c76d5a3fbfa1db893a1267318e8a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050687"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149444"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="modify-the-default-action-for-clients-not-explicitly-supported-or-restricted-in-lync-server-2013"></a>Ändern Sie die Standardaktion für Clients, die nicht explizit unterstützt oder in lync Server 2013 eingeschränkt sind.
 
@@ -79,7 +79,7 @@ Zusätzlich zur Angabe der Version der Clients, die Sie in ihrer lync Server 201
 
 ## <a name="modifying-the-default-action-by-using-windows-powershell-cmdlets"></a>Ändern der Standardaktion mithilfe von Windows PowerShell-Cmdlets
 
-Die Standardaktion, die ausgeführt werden soll, wenn Benutzer versuchen, sich mit Clients zu anmelden, die nicht explizit unterstützt oder durch eine clientversionsrichtlinie eingeschränkt sind, können über Windows PowerShell Befehlszeilenschnittstelle und das Cmdlet " **CsClientVersionPolicy** " verwaltet werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Die Standardaktion, die ausgeführt werden soll, wenn Benutzer versuchen, sich mit Clients zu anmelden, die nicht explizit unterstützt oder durch eine clientversionsrichtlinie eingeschränkt sind, können über Windows PowerShell Befehlszeilenschnittstelle und das Cmdlet " **CsClientVersionPolicy** " verwaltet werden. Dieses Cmdlet kann entweder über die lync Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 

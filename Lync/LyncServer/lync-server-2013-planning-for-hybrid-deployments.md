@@ -12,18 +12,18 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b0efc4a6a9e9f195705801969b8459c17855388
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c70002eb7be67c221997465b6cdd5d252df284db
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036685"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152783"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="planning-for-lync-server-2013-hybrid-deployments"></a>Planen von lync Server 2013 hybridbereitstellungen
 
@@ -55,9 +55,9 @@ In Ihrer Umgebung muss Folgendes konfiguriert sein, damit Sie eine hybridbereits
 
   - Zur Unterstützung des einmaligen Anmeldens mit Office 365, damit Benutzer dieselben Anmeldeinformationen für die Anmeldung bei Office verwenden können, wenn diese lokal Vorgehen, können Sie die Kenn Wort Synchronisierungsfeatures von Azure Active Directory (AAD) Connect verwenden. Sie können auch Active Directory Verbunddienste (AD FS) für einmaliges Anmelden mit Office 365 verwenden.
     
-    Weitere Informationen finden Sie unter [Integrieren Ihrer lokalen Identitäten in Azure Active Directory](http://go.microsoft.com/fwlink/p/?linkid=619754).
+    Weitere Informationen finden Sie unter [Integrieren Ihrer lokalen Identitäten in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=619754).
 
-  - Eine einzelne Verzeichnis Synchronisierungslösung, mit der Sie Ihre lokalen und Online Active Directory-Objekte synchron halten. Ausführliche Informationen zur Verzeichnissynchronisierung finden Sie unter [Directory Integration Tools](http://go.microsoft.com/fwlink/p/?linkid=530320).
+  - Eine einzelne Verzeichnis Synchronisierungslösung, mit der Sie Ihre lokalen und Online Active Directory-Objekte synchron halten. Ausführliche Informationen zur Verzeichnissynchronisierung finden Sie unter [Directory Integration Tools](https://go.microsoft.com/fwlink/p/?linkid=530320).
 
 </div>
 
@@ -85,7 +85,7 @@ Es gibt einige Unterschiede in den Features, die in lync-Clients unterstützt we
 
 Ausführliche Informationen zur Clientunterstützung finden Sie in den folgenden Themen:
 
-  - [Clients für lync Online](http://go.microsoft.com/fwlink/?linkid=281902)
+  - [Clients für lync Online](https://go.microsoft.com/fwlink/?linkid=281902)
 
   - [Client Vergleichstabellen für lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md)
 
@@ -145,9 +145,9 @@ Um Ihre Bereitstellung für Hybrid mit Skype for Business Online zu konfiguriere
 
 </div>
 
-Weitere Informationen zu unterstützten Topologien finden Sie unter [Unterstützte Topologien in lync Server 2013](lync-server-2013-supported-topologies.md)und [lync Server 2013 Referenz Topologien für Enterprise-Hybrid Bereitstellungen](http://go.microsoft.com/fwlink/p/?linkid=398709).
+Weitere Informationen zu unterstützten Topologien finden Sie unter [Unterstützte Topologien in lync Server 2013](lync-server-2013-supported-topologies.md)und [lync Server 2013 Referenz Topologien für Enterprise-Hybrid Bereitstellungen](https://go.microsoft.com/fwlink/p/?linkid=398709).
 
-Informationen zur Problembehandlung bei hybridbereitstellungen und zum Verbinden von PowerShell mit lync Online finden Sie unter [lync online: lync PowerShell and Hybrid Troubleshooting](http://go.microsoft.com/fwlink/p/?linkid=306718).
+Informationen zur Problembehandlung bei hybridbereitstellungen und zum Verbinden von PowerShell mit lync Online finden Sie unter [lync online: lync PowerShell and Hybrid Troubleshooting](https://go.microsoft.com/fwlink/p/?linkid=306718).
 
 </div>
 
@@ -216,7 +216,7 @@ Computer in Ihrem Netzwerk müssen in der Lage sein, standardmäßige Internet-D
 
 Je nach Speicherort Ihres Microsoft Online Services-Rechenzentrums müssen Sie auch die Netzwerkfirewall-Geräte so konfigurieren, dass Verbindungen basierend auf Platzhalterdomänen Namen akzeptiert werden (beispielsweise der gesamte \*Datenverkehr von. Outlook.com). Wenn die Firewalls Ihrer Organisation keine Platzhalternamen Konfigurationen unterstützen, müssen Sie die IP-Adressbereiche, die Sie zulassen möchten, und die angegebenen Ports manuell bestimmen.
 
-Weitere Informationen finden Sie im Hilfethema [Office 365 URLs und IP-Adressbereiche](http://go.microsoft.com/fwlink/p/?linkid=252942).
+Weitere Informationen finden Sie im Hilfethema [Office 365 URLs und IP-Adressbereiche](https://go.microsoft.com/fwlink/p/?linkid=252942).
 
 </div>
 
@@ -246,7 +246,7 @@ Zusätzlich zu den Portanforderungen für die interne lync Server 2013 Kommunika
 <td><p>Geöffnet, eingehend</p>
 <ul>
 <li><p>Active Directory-Verbunddienste (Active Directory Federation Services, AD FS) (Verbundserverrolle)</p>
-<p>Weitere Informationen finden Sie unter <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Understanding AD FS Role Services</a>.</p></li>
+<p>Weitere Informationen finden Sie unter <a href="https://go.microsoft.com/fwlink/p/?linkid=281899">Understanding AD FS Role Services</a>.</p></li>
 <li><p>Active Directory-Verbunddienste (Proxyserverrolle)</p></li>
 <li><p>Microsoft Online Services-Portal</p></li>
 <li><p>Unternehmensportal</p></li>
@@ -323,7 +323,7 @@ Bei der Planung einer hybridbereitstellung sollten Sie auch die folgenden benutz
 
   - **Lync-Client**     einige Benutzer benötigen möglicherweise eine neue Client Version, wenn Sie in lync Online verschoben werden. Für Office Communications Server 2007 R2 müssen Benutzer vor der Migration zu lync Online in einen lync Server 2013 Pool verschoben werden.
     
-    Weitere Informationen zur Clientunterstützung finden Sie unter [Clients for lync Online](http://go.microsoft.com/fwlink/p/?linkid=281902) und [Supported lync Clients and Network Port Configurations](http://go.microsoft.com/fwlink/p/?linkid=281901).
+    Weitere Informationen zur Clientunterstützung finden Sie unter [Clients for lync Online](https://go.microsoft.com/fwlink/p/?linkid=281902) und [Supported lync Clients and Network Port Configurations](https://go.microsoft.com/fwlink/p/?linkid=281901).
 
   - **Lokale Richtlinien und Konfiguration (nicht-Benutzer)**   Online-und lokale Richtlinien erfordern eine separate Konfiguration. Sie können keine globalen Richtlinien festlegen, die für beides gelten.
 

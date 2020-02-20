@@ -12,18 +12,18 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6b67c4843cc0c1039bee48aa6b7c4620b77ce08
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2710e85eced76241f4946ef2746e544d07be941f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006993"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152593"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="key-health-indicators-in-lync-server-2013"></a>Wichtige Integritätsindikatoren in lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42006993"
 
 _**Letztes Änderungsstand des Themas:** 2014-02-10_
 
-Dieser Artikel ist ein Begleiter zu den [wichtigsten Integritätsindikatoren: die Grundlage für die Verwaltung eines gesunden Posters für lync Server](http://go.microsoft.com/fwlink/?linkid=391838) , das Sie aus dem Download Center herunterladen können.
+Dieser Artikel ist ein Begleiter zu den [wichtigsten Integritätsindikatoren: die Grundlage für die Verwaltung eines gesunden Posters für lync Server](https://go.microsoft.com/fwlink/?linkid=391838) , das Sie aus dem Download Center herunterladen können.
 
 ![Poster zur Beschreibung der Problembehandlung mithilfe von KHI-Daten](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "Poster zur Beschreibung der Problembehandlung mithilfe von KHI-Daten")
 
@@ -75,7 +75,7 @@ KHIs werden zusätzlich zu den standardmäßigen lync-Überwachungslösungen (be
 
 Sammeln Sie die KHI-Leistungsindikatoren, und füllen Sie die KHI-Kalkulationstabelle mit dem Netzwerk Leit Faden aus, um eine Scorecard zu erstellen, mit der Sie den Serverstatus einer lync-Bereitstellung bestimmen können. Sobald die Anwendung aufgefüllt wurde, werden Sie bei der Reparatur der Umgebung unterstützt und bietet zusätzliche Einblicke für andere Beteiligte. Bewerten Sie KHIs monatlich, und integrieren Sie diese in die laufenden betrieblichen Prozesse der Bereitstellung.
 
-Laden Sie das [lync Server Networking Guide](http://go.microsoft.com/fwlink/p/?linkid=390677) herunter, um die vollständige Liste der KHIs zu sehen und die zugehörigen Arbeitsblätter zu erhalten.
+Laden Sie das [lync Server Networking Guide](https://go.microsoft.com/fwlink/p/?linkid=390677) herunter, um die vollständige Liste der KHIs zu sehen und die zugehörigen Arbeitsblätter zu erhalten.
 
 </div>
 
@@ -333,9 +333,9 @@ Die folgenden empfohlenen KHI-Ziele gelten neben dem grundlegenden Zustand der K
 ## <a name="see-also"></a>Siehe auch
 
 
-[Leitfaden für lync Server Netzwerke](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[Wichtige Integritätsindikatoren: die Grundlage für die Verwaltung gesunder lync-Server](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Methode für die lync-Anrufqualität](http://go.microsoft.com/fwlink/?linkid=391841)  
+[Leitfaden für lync Server Netzwerke](https://go.microsoft.com/fwlink/p/?linkid=390677)  
+[Wichtige Integritätsindikatoren: die Grundlage für die Verwaltung gesunder lync-Server](https://go.microsoft.com/fwlink/?linkid=391838)  
+[Methode für die lync-Anrufqualität](https://go.microsoft.com/fwlink/?linkid=391841)  
   
 
 </div>

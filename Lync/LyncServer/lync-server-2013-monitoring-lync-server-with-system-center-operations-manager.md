@@ -12,18 +12,18 @@ ms:contentKeyID: 63969636
 ms.date: 05/06/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 341901ce6d467818e6aac433f7d8ca4dca37adef
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: df1a61e410da88ea4ff915ec87a7be30d3328c9b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048048"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149304"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="monitoring-lync-server-2013-with-system-center-operations-manager"></a>Überwachen von lync Server 2013 mit System Center Operations Manager
 
@@ -41,7 +41,7 @@ Das lync Server Management Pack (MP) ist Ihre Überwachungslösung, die Sie für
 
 Die MP implementiert herkömmliches Ereignisprotokoll-und Leistungsindikator basierte Instrumentation und ermöglicht die neu verfügbare Instrumentation in lync Server, wie beispielsweise paar Ereignisse (Fehler/Erfolg) für mehrere wichtige Integritätsindikatoren, und implementiert auch die neuen synthetischen Transaktionen (\* Test-CS Windows PowerShell-Cmdlets).
 
-Das lync Server 2013 Management Pack und die dazugehörige Dokumentation finden Sie unter [http://go.microsoft.com/fwlink/p/?LinkId=400468](http://go.microsoft.com/fwlink/p/?linkid=400468). Dies wird empfohlen, wenn Sie System Center Operations Manager 2012 ausführen.
+Das lync Server 2013 Management Pack und die dazugehörige Dokumentation finden Sie unter [https://go.microsoft.com/fwlink/p/?LinkId=400468](https://go.microsoft.com/fwlink/p/?linkid=400468). Dies wird empfohlen, wenn Sie System Center Operations Manager 2012 ausführen.
 
 </div>
 

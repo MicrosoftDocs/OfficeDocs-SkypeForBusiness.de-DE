@@ -12,18 +12,18 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba3a74f59bc996defcd9baee9162d034ab2178eb
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c82c1ad2072f5f8611660efc44a502249f26d21b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029716"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150874"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-active-directory-federation-services-ad-fs-20-for-lync-server-2013"></a>Konfigurieren von Active Directory Verbunddiensten (AD FS 2.0) für lync Server 2013
 
@@ -37,13 +37,13 @@ ms.locfileid: "42029716"
 
 _**Letztes Änderungsstand des Themas:** 2013-07-03_
 
-Im folgenden Abschnitt wird beschrieben, wie Sie Active Directory Verbunddienste (AD FS 2.0) zur Unterstützung der mehrstufigen Authentifizierung konfigurieren. Informationen zum Installieren von AD FS 2.0 finden Sie unter AD FS 2.0 Schritt-für-Schritt und Anleitungen unter [http://go.microsoft.com/fwlink/p/?LinkId=313374](http://go.microsoft.com/fwlink/p/?linkid=313374).
+Im folgenden Abschnitt wird beschrieben, wie Sie Active Directory Verbunddienste (AD FS 2.0) zur Unterstützung der mehrstufigen Authentifizierung konfigurieren. Informationen zum Installieren von AD FS 2.0 finden Sie unter AD FS 2.0 Schritt-für-Schritt und Anleitungen unter [https://go.microsoft.com/fwlink/p/?LinkId=313374](https://go.microsoft.com/fwlink/p/?linkid=313374).
 
 <div class="">
 
 
 > [!NOTE]  
-> Verwenden Sie beim Installieren von AD FS 2.0 nicht den Windows Server-Manager, um die Active Directory Rolle "Verbunddienste" hinzuzufügen. Laden Sie stattdessen das RTW-Paket für Active Directory Verbunddienste 2,0 unter <A href="http://go.microsoft.com/fwlink/p/?linkid=313375">http://go.microsoft.com/fwlink/p/?LinkId=313375</A>herunter, und installieren Sie es.
+> Verwenden Sie beim Installieren von AD FS 2.0 nicht den Windows Server-Manager, um die Active Directory Rolle "Verbunddienste" hinzuzufügen. Laden Sie stattdessen das RTW-Paket für Active Directory Verbunddienste 2,0 unter <A href="https://go.microsoft.com/fwlink/p/?linkid=313375">https://go.microsoft.com/fwlink/p/?LinkId=313375</A>herunter, und installieren Sie es.
 
 
 

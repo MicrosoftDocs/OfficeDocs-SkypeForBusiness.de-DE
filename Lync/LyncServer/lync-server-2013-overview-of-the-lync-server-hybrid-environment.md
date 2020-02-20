@@ -12,18 +12,18 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e32132faee3b52140d20a7f01e6a0bad0e88c620
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 443dcfc17849e34aa711f657726fed9c86fa566d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049607"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153115"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="overview-of-the-lync-server-2013-hybrid-environment"></a>Übersicht über die lync Server 2013 Hybridumgebung
 
@@ -53,11 +53,11 @@ In diesem Leitfaden werden die Aufgaben beschrieben, die erforderlich sind, um d
 
 Sie müssen die folgenden Anwendungen und Dienstprogramme installiert haben, um die Aufgaben zum Konfigurieren einer Bereitstellung für Hybrid auszuführen. Die Installationsprogramme für diese Dateien sind auf den für Ihre Bereitstellung bereitgestellten Installationsmedien sowie auf den in der folgenden Liste aufgeführten Links enthalten.
 
-  - [Active Directory-Verbunddienste (AD FS) 2.0](http://go.microsoft.com/fwlink/p/?linkid=257305)
+  - [Active Directory-Verbunddienste (AD FS) 2.0](https://go.microsoft.com/fwlink/p/?linkid=257305)
 
-  - [Microsoft-Verzeichnis Synchronisierungs Tool 9,1](http://go.microsoft.com/fwlink/p/?linkid=257307)
+  - [Microsoft-Verzeichnis Synchronisierungs Tool 9,1](https://go.microsoft.com/fwlink/p/?linkid=257307)
 
-  - [Installieren von Windows PowerShell für einmaliges Anmelden mit AD FS](http://go.microsoft.com/fwlink/p/?linkid=398710)
+  - [Installieren von Windows PowerShell für einmaliges Anmelden mit AD FS](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
   - Der Microsoft Online Services-Anmelde Assistent (msoidcli-7.0. msi) ist in der Desktop Einrichtung für Office 365 enthalten, die von der Seite mit den Downloads abgerufen werden kann, die über das Office 365-Verwaltungsportal verlinkt ist.
 
@@ -75,7 +75,7 @@ Wenn Sie aufgefordert werden, Ihre Administratoranmeldeinformationen anzugeben, 
 
 ## <a name="connecting-to-lync-online-powershell"></a>Herstellen einer Verbindung mit lync Online PowerShell
 
-Administratoren haben jetzt die Möglichkeit, lync Online und deren lync Online Benutzerkonten mit Windows PowerShell zu verwalten. Hierzu müssen Sie zuerst das lync Online-Connector-Modul aus dem Microsoft Download Center herunterladen und installieren (http://go.microsoft.com/fwlink/?LinkId=294688). Weitere Informationen zum herunterladen, installieren und Verwenden des lync Online-Connector-Moduls sowie ausführliche Informationen zur Verwendung von Windows PowerShell zum Verwalten von lync Online finden Sie unter [using Windows PowerShell to manage lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Administratoren haben jetzt die Möglichkeit, lync Online und deren lync Online Benutzerkonten mit Windows PowerShell zu verwalten. Hierzu müssen Sie zuerst das lync Online-Connector-Modul aus dem Microsoft Download Center herunterladen und installieren (https://go.microsoft.com/fwlink/?LinkId=294688). Weitere Informationen zum herunterladen, installieren und Verwenden des lync Online-Connector-Moduls sowie ausführliche Informationen zur Verwendung von Windows PowerShell zum Verwalten von lync Online finden Sie unter [using Windows PowerShell to manage lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 </div>
 

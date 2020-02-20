@@ -12,18 +12,18 @@ ms:contentKeyID: 48184583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 03436a59fa9fbab99608e4fa3b979e4802115ed1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6b6e0e44367af86ea42099241ef3d9bbfa750133
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042957"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152563"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="preparing-active-directory-domain-services-in-lync-server-2013"></a>Vorbereiten Active Directory-Domänendienste in lync Server 2013
 
@@ -78,7 +78,7 @@ Zur Ausführung der Active Directory-Vorbereitungsaufgaben sind die folgenden Ko
     
 
     > [!NOTE]  
-    > Für Windows Server 2012 und Windows Server 2012 R2 installieren und aktivieren Sie .NET Framework 4.5 mit dem Server-Manager. Ausführliche Informationen finden Sie unter "Microsoft .NET Framework 4.5" in <A href="lync-server-2013-additional-software-requirements.md">zusätzlichen Softwareanforderungen für lync Server 2013</A>. Laden Sie für&nbsp;Windows&nbsp;Server 2008 R2 <A href="http://www.microsoft.com/download/details.aspx?id=30653">.NET Framework 4,5</A> von der Microsoft-Website herunter, und installieren Sie es.
+    > Für Windows Server 2012 und Windows Server 2012 R2 installieren und aktivieren Sie .NET Framework 4.5 mit dem Server-Manager. Ausführliche Informationen finden Sie unter "Microsoft .NET Framework 4.5" in <A href="lync-server-2013-additional-software-requirements.md">zusätzlichen Softwareanforderungen für lync Server 2013</A>. Laden Sie für&nbsp;Windows&nbsp;Server 2008 R2 <A href="https://www.microsoft.com/download/details.aspx?id=30653">.NET Framework 4,5</A> von der Microsoft-Website herunter, und installieren Sie es.
 
     
     </div>
@@ -271,7 +271,7 @@ Verwenden Sie das folgende Format, um "Ldifde.exe" zum Importieren der vier Sche
 
     ldifde -i -v -k -s <SchemaMasterFQDN> -f <Schema filename> -c DC=X <rootDomainNamingContext> -j logFilePath -b <administrator account> <domain> <password>
 
-Ausführliche Informationen zur Verwendung von LDIFDE finden Sie im [http://go.microsoft.com/fwlink/p/?linkId=132204](http://go.microsoft.com/fwlink/p/?linkid=132204)Microsoft Knowledge Base-Artikel 237677, "Verwenden von LDIFDE zum Importieren und Exportieren von Verzeichnisobjekten in Active Directory" unter.
+Ausführliche Informationen zur Verwendung von LDIFDE finden Sie im [https://go.microsoft.com/fwlink/p/?linkId=132204](https://go.microsoft.com/fwlink/p/?linkid=132204)Microsoft Knowledge Base-Artikel 237677, "Verwenden von LDIFDE zum Importieren und Exportieren von Verzeichnisobjekten in Active Directory" unter.
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48184930
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc7339b4861fe6e7e93e08d4928f6128916aeea0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8cf95a95c02ad37abdbf88f235cff2f0d5b0459a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048796"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152167"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="release-notes-for-lync-server-2013"></a>Anmerkungen zur Version für lync Server 2013
 
@@ -591,7 +591,7 @@ Antivirensoftware kann Anwendungsdomänen Neustarts auslösen, was dazu führen 
 
 **Problemumgehung**
 
-Wenn Sie dieses Problem umgehen möchten, schließen Sie die Ordner mit Webkomponenten und .NET Framework aus dem Virenschutzprogramm aus. Ausführliche Informationen finden Sie im Microsoft Knowledge Base-Artikel 312592, "PRB: zufällige Anwendungsneustarts mit" Anwendung ist ein Neustart "Error in ASP.net" unter [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592).
+Wenn Sie dieses Problem umgehen möchten, schließen Sie die Ordner mit Webkomponenten und .NET Framework aus dem Virenschutzprogramm aus. Ausführliche Informationen finden Sie im Microsoft Knowledge Base-Artikel 312592, "PRB: zufällige Anwendungsneustarts mit" Anwendung ist ein Neustart "Error in ASP.net" unter [https://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=312592](https://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=312592).
 
 Die folgenden Ordner sollten ausgeschlossen werden:
 

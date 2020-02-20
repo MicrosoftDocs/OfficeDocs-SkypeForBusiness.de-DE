@@ -12,18 +12,18 @@ ms:contentKeyID: 54973692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a49fb76019fbb3bc3356fed5de7a67b0e3a10350
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 315d98e26b471e2d9dd84dcb70cd7302e924e9b3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046378"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151557"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-enterprise-ca-for-smart-card-authentication-in-lync-server-2013"></a>Konfigurieren der Unternehmenszertifizierungsstelle für die Smartcard-Authentifizierung in lync Server 2013
 
@@ -37,7 +37,7 @@ ms.locfileid: "42046378"
 
 _**Letztes Änderungsstand des Themas:** 2013-07-03_
 
-Im folgenden Abschnitt wird beschrieben, wie Sie eine Unternehmensstammzertifizierungsstelle (Certification Authority, ca) zur Unterstützung der Smartcard-Authentifizierung konfigurieren. Informationen zum Installieren einer Stammzertifizierungsstelle für Unternehmen finden Sie unter Installieren einer Stamm Zertifizierungs [http://go.microsoft.com/fwlink/p/?LinkID=313364](http://go.microsoft.com/fwlink/p/?linkid=313364)Stelle für Unternehmen unter.
+Im folgenden Abschnitt wird beschrieben, wie Sie eine Unternehmensstammzertifizierungsstelle (Certification Authority, ca) zur Unterstützung der Smartcard-Authentifizierung konfigurieren. Informationen zum Installieren einer Stammzertifizierungsstelle für Unternehmen finden Sie unter Installieren einer Stamm Zertifizierungs [https://go.microsoft.com/fwlink/p/?LinkID=313364](https://go.microsoft.com/fwlink/p/?linkid=313364)Stelle für Unternehmen unter.
 
 <div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 49733711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74d89b14b783e2b78050b2db8e71a1009c974384
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4704cc5284b6923967e530492edf2a07054a2a19
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029546"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150436"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network-of-lync-server-2013"></a>Installieren eines Zertifikats auf einem Watcher-Knoten, der sich außerhalb des Umkreisnetzwerks von lync Server 2013 befindet
 
@@ -37,9 +37,9 @@ ms.locfileid: "42029546"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-22_
 
-System Center Operations Manager-Agents, die in einem Umkreisnetzwerk ausgeführt werden (beispielsweise eine lync Server Edgeserver) außerhalb des Unternehmens (beispielsweise ein externer synthetischer Transaktionsmonitor Knoten) oder über eine Active Directory-Domänendienstee Vertrauensgrenze hinaus möglicherweise erfordert die Konfiguration eines System Center Operations Manager-Gatewayservers. Diese Serverrolle ermöglicht es Agents, die keine Vertrauensstellung mit dem Root Management Server haben, Warnungen auszulösen. Ausführliche Informationen finden Sie unter "Managing Gateway Servers in Operations Manager 2007" in der TechNet-Bibliothek von System Center [http://go.microsoft.com/fwlink/p/?LinkId=268703](http://go.microsoft.com/fwlink/p/?linkid=268703)Operations Manager unter.
+System Center Operations Manager-Agents, die in einem Umkreisnetzwerk ausgeführt werden (beispielsweise eine lync Server Edgeserver) außerhalb des Unternehmens (beispielsweise ein externer synthetischer Transaktionsmonitor Knoten) oder über eine Active Directory-Domänendienstee Vertrauensgrenze hinaus möglicherweise erfordert die Konfiguration eines System Center Operations Manager-Gatewayservers. Diese Serverrolle ermöglicht es Agents, die keine Vertrauensstellung mit dem Root Management Server haben, Warnungen auszulösen. Ausführliche Informationen finden Sie unter "Managing Gateway Servers in Operations Manager 2007" in der TechNet-Bibliothek von System Center [https://go.microsoft.com/fwlink/p/?LinkId=268703](https://go.microsoft.com/fwlink/p/?linkid=268703)Operations Manager unter.
 
-Wenn Sie einen Agent an einem dieser Speicherorte bereitstellen, müssen Sie außerdem ein Zertifikat anfordern und konfigurieren, mit dem der Watcher-Knoten Warnungen an System Center Operations Manager senden kann. Um dieses Verfahren zu vereinfachen, hat das Operations Manager-Team eine Reihe an Dienstprogrammen erstellt, mit denen Sie den richtigen Typ des Zertifikats anfordern und auf dem Computer mit dem Watcher-Knoten installieren können. Ausführliche Informationen zum Herunterladen dieser Dienstprogramme finden Sie im Blog-Artikel "certificates for Non-Domain Joined Agents Made Easy with Certificate Generation [http://go.microsoft.com/fwlink/p/?LinkId=267421](http://go.microsoft.com/fwlink/p/?linkid=267421)Wizard" unter.
+Wenn Sie einen Agent an einem dieser Speicherorte bereitstellen, müssen Sie außerdem ein Zertifikat anfordern und konfigurieren, mit dem der Watcher-Knoten Warnungen an System Center Operations Manager senden kann. Um dieses Verfahren zu vereinfachen, hat das Operations Manager-Team eine Reihe an Dienstprogrammen erstellt, mit denen Sie den richtigen Typ des Zertifikats anfordern und auf dem Computer mit dem Watcher-Knoten installieren können. Ausführliche Informationen zum Herunterladen dieser Dienstprogramme finden Sie im Blog-Artikel "certificates for Non-Domain Joined Agents Made Easy with Certificate Generation [https://go.microsoft.com/fwlink/p/?LinkId=267421](https://go.microsoft.com/fwlink/p/?linkid=267421)Wizard" unter.
 
 </div>
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 63969650
 ms.date: 08/20/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87d3f87b37b8c0fe29c4dee76467a9e07931551a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: da6e0eb7c4377941992dfba9dd11312a12ee29a5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42041214"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149114"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="weekly-tasks-in-lync-server-2013"></a>Wöchentliche Aufgaben in lync Server 2013
 
@@ -81,7 +81,7 @@ Da das Vorfall Verfolgungssystem Ihrer Organisation unabhängig von lync Server 
 
 ## <a name="check-iis-logs-and-performance"></a>Überprüfen der IIS-Protokolle und-Leistung
 
-Führen Sie eine wöchentliche Überprüfung der Internet Information Services (IIS) Protokolle und der Leistung durch. Weitere Informationen zum Überwachen von IIS-Protokollen und-Leistung finden Sie unter [Windows Server 2003 Internet Information Services (IIS) Ereignisprotokollierung (Übersicht](http://go.microsoft.com/fwlink/?linkid=36077)). Die Überprüfung sollte Folgendes umfassen:
+Führen Sie eine wöchentliche Überprüfung der Internet Information Services (IIS) Protokolle und der Leistung durch. Weitere Informationen zum Überwachen von IIS-Protokollen und-Leistung finden Sie unter [Windows Server 2003 Internet Information Services (IIS) Ereignisprotokollierung (Übersicht](https://go.microsoft.com/fwlink/?linkid=36077)). Die Überprüfung sollte Folgendes umfassen:
 
   - Webdienst-Cache Indikatoren zum Überwachen des WWW-Dienst Caches.
 
@@ -258,7 +258,7 @@ Bandbreiten Auslastungsanalyse kann grafische Plots von Bandbreitenkapazität un
 
   - Gefiltert nach netzwerkregion
 
-Dokumentation zu diesem Tool finden Sie in der [Dokumentation zum lync Server 2013 Resource Kit-Tools](http://go.microsoft.com/fwlink/?linkid=623245).
+Dokumentation zu diesem Tool finden Sie in der [Dokumentation zum lync Server 2013 Resource Kit-Tools](https://go.microsoft.com/fwlink/?linkid=623245).
 
 </div>
 

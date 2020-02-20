@@ -12,18 +12,18 @@ ms:contentKeyID: 48185669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 81af0b98fdcc39396ca3f0afc27f4b57d42b7582
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f25a2ba7735c8ccf135d2030e7853940ef545ac2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030619"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151465"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-federation-support-for-a-lync-online-customer-in-lync-server-2013"></a>Konfigurieren der Verbundunterstützung für einen lync Online Kunden in lync Server 2013
 
@@ -49,7 +49,7 @@ Wenn Sie lync 2013 in Ihrer Organisation bereitstellen, können Sie einen Verbun
 
 
 > [!NOTE]  
-> In dieser Dokumentation werden nur die Verfahren zum Konfigurieren Ihrer Organisation zur Unterstützung des Verbunds mit einem lync Online 2010-Kunden beschrieben. In dieser Dokumentation werden die Verfahren zum Konfigurieren des lync Online 2010-Kunden zur Unterstützung des Verbunds nicht beschrieben. Ausführliche Informationen zu lync Online Diensten finden Sie unter lync Online <A href="http://go.microsoft.com/fwlink/p/?linkid=218941">http://go.microsoft.com/fwlink/p/?linkId=218941</A>unter.
+> In dieser Dokumentation werden nur die Verfahren zum Konfigurieren Ihrer Organisation zur Unterstützung des Verbunds mit einem lync Online 2010-Kunden beschrieben. In dieser Dokumentation werden die Verfahren zum Konfigurieren des lync Online 2010-Kunden zur Unterstützung des Verbunds nicht beschrieben. Ausführliche Informationen zu lync Online Diensten finden Sie unter lync Online <A href="https://go.microsoft.com/fwlink/p/?linkid=218941">https://go.microsoft.com/fwlink/p/?linkId=218941</A>unter.
 
 
 

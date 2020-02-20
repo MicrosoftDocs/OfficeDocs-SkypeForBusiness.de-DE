@@ -12,18 +12,18 @@ ms:contentKeyID: 48184120
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54b42ba288c89f8735d3f7d13dee9a1944efe82b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 138e4c442f482550160b3a836a2d3258b5273853
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048746"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149394"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="modifying-certificates-for-mobility-in-lync-server-2013"></a>Ändern von Zertifikaten für Mobilität in lync Server 2013
 
@@ -69,7 +69,7 @@ Als letztes müssen Sie Bedenken, dass Sie möglicherweise ein einzelnes Standar
     
     **Wichtig:**
     
-    Wenn für jede Verwendung ein separates Zertifikat zugewiesen wird (damit der von Ihnen überprüfte Fingerabdruckwert für jedes Zertifikat unterschiedlich ist), ist es wichtig, dass Sie das Cmdlet " **CsCertificate** " **nicht** mit mehreren Typen ausführen, wie im obigen Beispiel dargestellt. Führen Sie in diesem Fall das **Set-CsCertificate**-Cmdlet für jeden Verwendungszweck separat aus. Beispiel:
+    Wenn für jede Verwendung ein separates Zertifikat zugewiesen wird (damit der von Ihnen überprüfte Fingerabdruckwert für jedes Zertifikat unterschiedlich ist), ist es wichtig, dass Sie das Cmdlet " **CsCertificate** " **nicht** mit mehreren Typen ausführen, wie im obigen Beispiel dargestellt. Führen Sie in diesem Fall das **Set-CsCertificate**-Cmdlet für jeden Verwendungszweck separat aus. Zum Beispiel:
     
         Set-CsCertificate -Type Default -Thumbprint <Certificate Thumbprint>
         Set-CsCertificate -Type WebServicesInternal -Thumbprint <Certificate Thumbprint>
@@ -107,7 +107,7 @@ Als letztes müssen Sie Bedenken, dass Sie möglicherweise ein einzelnes Standar
         
             Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -AllSipDomain -verbose
         
-        Wenn Sie über zahlreiche SIP-Domänen verfügen, können Sie den neuen AllSipDomain-Parameter nicht verwenden. Stattdessen müssen Sie den Domain Name-Parameter verwenden. Wenn Sie den Parameter Domain Name verwenden, müssen Sie den FQDN für die "lyncdiscoverinternal"-und lyncdiscover-Datensätze definieren. Beispiel:
+        Wenn Sie über zahlreiche SIP-Domänen verfügen, können Sie den neuen AllSipDomain-Parameter nicht verwenden. Stattdessen müssen Sie den Domain Name-Parameter verwenden. Wenn Sie den Parameter Domain Name verwenden, müssen Sie den FQDN für die "lyncdiscoverinternal"-und lyncdiscover-Datensätze definieren. Zum Beispiel:
         
             Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
     
@@ -123,7 +123,7 @@ Als letztes müssen Sie Bedenken, dass Sie möglicherweise ein einzelnes Standar
         
             Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -AllSipDomain -verbose
         
-        Wenn Sie über zahlreiche SIP-Domänen verfügen, können Sie den neuen AllSipDomain-Parameter nicht verwenden. Stattdessen müssen Sie den Domain Name-Parameter verwenden. Wenn Sie den Parameter Domain Name verwenden, müssen Sie ein entsprechendes Präfix für den FQDN der SIP-Domäne verwenden. Beispiel:
+        Wenn Sie über zahlreiche SIP-Domänen verfügen, können Sie den neuen AllSipDomain-Parameter nicht verwenden. Stattdessen müssen Sie den Domain Name-Parameter verwenden. Wenn Sie den Parameter Domain Name verwenden, müssen Sie ein entsprechendes Präfix für den FQDN der SIP-Domäne verwenden. Zum Beispiel:
         
             Request-CsCertificate -New -Type WebServicesInternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
     

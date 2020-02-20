@@ -12,18 +12,18 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4410444d1565e61fa80ef8b8db29aad63b4401de
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 609729c65240a17b70f7ef7115bd4901f37c687a
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42032491"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151937"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-or-edit-xmpp-partner-configuration-in-lync-server-2013"></a>Erstellen oder Bearbeiten der XMPP-Partnerkonfiguration in lync Server 2013
 
@@ -75,7 +75,7 @@ Microsoft lync Server 2013 integriert einen XMPP-Proxy (Extensible Messaging and
     
     Weitere Informationen zu den XMPP-Anforderungen finden Sie im XSF-Dokument XEP-0178. Ausführliche Informationen finden Sie unter "XEP-0178: bewährte Methoden für die Verwendung von SASL extern mit Zertifikaten". <http://xmpp.org/extensions/xep-0178.html>
     
-    Lesen Sie das IETF-Dokument "Extensible Messaging and Presence Protocol (XMPP): Core", Abschnitt 5,0, STARTTLS <http://tools.ietf.org/html/rfc6120>-Verhandlung.
+    Lesen Sie das IETF-Dokument "Extensible Messaging and Presence Protocol (XMPP): Core", Abschnitt 5,0, STARTTLS <https://tools.ietf.org/html/rfc6120>-Verhandlung.
     
       - **TLS-Aushandlung**. Definiert die TLS-Aushandlungs Regeln. Ein XMPP-Dienst kann TLS erfordern, kann TLS optional machen, oder Sie definieren, dass TLS nicht unterstützt wird. Bei Auswahl von optional wird die Anforderung für eine obligatorische Aushandlungs Entscheidung für den XMPP-Dienst erfüllt. Um alle möglichen Einstellungen und Details für SASL, TLS und Rückruf-Aushandlung – einschließlich nicht gültiger und bekannter Fehler Konfigurationen – anzuzeigen, finden Sie weitere Informationen unter [Aushandlungs Einstellungen für XMPP-Verbundpartner in lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         

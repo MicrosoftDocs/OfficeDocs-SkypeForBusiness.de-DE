@@ -12,18 +12,18 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76105b9bee5ce35801196b5a4cd20b2a1feed3e7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e888df769a6cf36c3285a167b61a291a7d2c8b9f
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030629"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151511"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Konfigurieren von Enterprise-VoIP in lync Server 2013
 
@@ -69,7 +69,7 @@ Weitere Informationen finden Sie unter [Definieren zusätzlicher Trunks im Topol
 <th>Trunk Name</th>
 <th>Systemtyp</th>
 <th>Name</th>
-<th>Ort</th>
+<th>Standort</th>
 <th>Vermittlungsserver</th>
 </tr>
 </thead>

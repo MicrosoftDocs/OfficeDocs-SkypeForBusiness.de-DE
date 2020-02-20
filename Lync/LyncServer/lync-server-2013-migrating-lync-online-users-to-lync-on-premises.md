@@ -12,18 +12,18 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15dae97f0c6c507c8e6645ea96e538dba42c29c2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07a333eeb794a27ca78b1f6d8c9bf71c386c8a92
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033334"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149665"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="migrating-lync-online-users-to-lync-on-premises-in-lync-server-2013"></a>Migrieren von lync Online Benutzern lokal zu lync in lync Server 2013
 
@@ -53,9 +53,9 @@ _**Letztes Änderungsstand des Themas:** 2015-11-13_
 
 1.  Stellen Sie zunächst sicher, dass Ihre Organisation für Hybrid konfiguriert ist.
     
-      - Installieren Sie das Azure Active Directory-Synchronisierungs Tool. Weitere Informationen finden Sie unter <http://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>.
+      - Installieren Sie das Azure Active Directory-Synchronisierungs Tool. Weitere Informationen finden Sie unter <https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>.
     
-      - Um Ihren Benutzern die Verwendung von einmaligem Anmelden für lync online zu ermöglichen, installieren Sie Active Directory <http://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>Verbunddienste.
+      - Um Ihren Benutzern die Verwendung von einmaligem Anmelden für lync online zu ermöglichen, installieren Sie Active Directory <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>Verbunddienste.
     
       - Geben Sie in Ihrer lokalen Bereitstellung in lync Server-Verwaltungsshell die folgenden Cmdlets ein, um den Hostinganbieter für lync online zu erstellen:
         
@@ -173,7 +173,7 @@ _**Letztes Änderungsstand des Themas:** 2015-11-13_
     
 
     > [!NOTE]  
-    > Die standardmäßige maximale Größe für Transaktionsprotokolldateien der "rtcxds"-Datenbank beträgt 16 GB. Dies ist möglicherweise nicht groß genug, wenn Sie eine große Anzahl von Benutzern gleichzeitig verschieben, insbesondere dann, wenn die Spiegelung aktiviert ist. Um dies zu umgehen, können Sie die Dateigröße vergrößern oder die Protokolldateien regelmäßig sichern. Weitere Informationen finden Sie unter <A class=uri href="http://support.microsoft.com/kb/2756725">http://support.microsoft.com/kb/2756725</A>.
+    > Die standardmäßige maximale Größe für Transaktionsprotokolldateien der "rtcxds"-Datenbank beträgt 16 GB. Dies ist möglicherweise nicht groß genug, wenn Sie eine große Anzahl von Benutzern gleichzeitig verschieben, insbesondere dann, wenn die Spiegelung aktiviert ist. Um dies zu umgehen, können Sie die Dateigröße vergrößern oder die Protokolldateien regelmäßig sichern. Weitere Informationen finden Sie unter <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A>.
 
     
     </div>

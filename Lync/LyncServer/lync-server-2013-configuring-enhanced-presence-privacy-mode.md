@@ -12,18 +12,18 @@ ms:contentKeyID: 48185664
 ms.date: 12/09/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c16e33197ed28744df126d672385359f5eb8781b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 91326778777e6ddd1db2f8938cfb78e96ed8c7f5
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042987"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151567"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-enhanced-presence-privacy-mode-in-lync-server-2013"></a>Konfigurieren des Datenschutzmodus für erweiterte Anwesenheitsinformationen in lync Server 2013
 
@@ -64,7 +64,7 @@ Mit dem Datenschutzmodus für erweiterte Anwesenheit können Benutzer ihre Anwes
     
         Get-CsPrivacyConfiguration | Set-CsPrivacyConfiguration -EnablePrivacyMode $True
     
-    Mit diesem Befehl wird der Datenschutzmodus für alle derzeit in der Organisation verwendeten Datenschutz-Konfigurationseinstellungen aktiviert. Weitere Informationen darüber, wie die Richtlinienkonfigurationen für den lync Server Enhanced Presence-Datenschutzmodus die Kontakt Anwesenheit für den lync 2013-Client verwaltet, finden Sie im Microsoft KB-Artikel [aktivieren lync Server erweiterten Anwesenheitsdaten Modus aktualisiert den Anwesenheitsstatus einiger lync-Kontakte auf "nicht verfügbar"](http://support.microsoft.com/kb/3020057).
+    Mit diesem Befehl wird der Datenschutzmodus für alle derzeit in der Organisation verwendeten Datenschutz-Konfigurationseinstellungen aktiviert. Weitere Informationen darüber, wie die Richtlinienkonfigurationen für den lync Server Enhanced Presence-Datenschutzmodus die Kontakt Anwesenheit für den lync 2013-Client verwaltet, finden Sie im Microsoft KB-Artikel [aktivieren lync Server erweiterten Anwesenheitsdaten Modus aktualisiert den Anwesenheitsstatus einiger lync-Kontakte auf "nicht verfügbar"](https://support.microsoft.com/kb/3020057).
 
 </div>
 
