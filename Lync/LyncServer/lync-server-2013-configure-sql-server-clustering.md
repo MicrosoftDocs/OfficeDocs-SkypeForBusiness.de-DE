@@ -12,18 +12,18 @@ ms:contentKeyID: 56472032
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 984e7d7e287e9177fff5798c9cb20ab476591f46
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0cb7db93813bdc7ed06398ce73d00f51ce5a60fe
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035197"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147648"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configure-sql-server-clustering-for-lync-server-2013"></a>Konfigurieren von SQL Server Clustering für lync Server 2013
 
@@ -39,7 +39,7 @@ _**Letztes Änderungsstand des Themas:** 2014-01-10_
 
 Microsoft lync Server 2013 unterstützt Clustering für SQL Server 2012 und SQL Server 2008 R2. Ausführliche Informationen zu den unterstützten Funktionen finden Sie unter [Database Software Support in lync Server 2013](lync-server-2013-database-software-support.md).
 
-Sie sollten den SQL Server Cluster einrichten und konfigurieren, bevor Sie die Enterprise Edition-Front-End-Server und die Back-End-Datenbank installieren und bereitstellen. Bewährte Methoden und Setupanweisungen für die Failover-Clusterunterstützung in SQL Server 2012 finden <http://technet.microsoft.com/library/hh231721.aspx>Sie unter. Informationen zur Failover-Clusterunterstützung in SQL Server 2008 <http://technet.microsoft.com/library/ms189134(v=sql.105).aspx>finden Sie unter.
+Sie sollten den SQL Server Cluster einrichten und konfigurieren, bevor Sie die Enterprise Edition-Front-End-Server und die Back-End-Datenbank installieren und bereitstellen. Bewährte Methoden und Setupanweisungen für die Failover-Clusterunterstützung in SQL Server 2012 finden <https://technet.microsoft.com/library/hh231721.aspx>Sie unter. Informationen zur Failover-Clusterunterstützung in SQL Server 2008 <https://technet.microsoft.com/library/ms189134(v=sql.105).aspx>finden Sie unter.
 
 Wenn Sie SQL Server installieren, sollten Sie auch SQL Server Management Studio installieren, um die Speicherorte für Datenbank und Protokolldateien zu verwalten. SQL Server Management Studio ist eine optionale Komponente bei der Installation von SQL Server.
 

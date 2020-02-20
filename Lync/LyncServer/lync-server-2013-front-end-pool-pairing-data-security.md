@@ -12,18 +12,18 @@ ms:contentKeyID: 49733865
 ms.date: 10/07/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5157f78606a4577cf638857a4bc6719f2e1a42d9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 26759c982723fd656ac3456aad630bc695a7343e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42038067"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147488"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="front-end-pool-pairing-data-security-in-lync-server-2013"></a>Front-End-Pool koppeln von Datensicherheit in lync Server 2013
 
@@ -55,7 +55,7 @@ Das Risiko von Man-in-the-Middle-Angriffen innerhalb des Unternehmensnetzwerks b
 
 ## <a name="mitigating-security-risks"></a>Minimieren von Sicherheitsrisiken
 
-Es gibt viele Möglichkeiten, den Sicherheitsschutz für den Sicherungsdienst Datenverkehr zu verbessern, angefangen beim Einschränken des Zugriffs auf die Rechenzentren bis hin zum Sichern des WAN-Transports zwischen den beiden Rechenzentren. In den meisten Fällen verfügen Unternehmen, die lync Server 2013 bereitstellen, möglicherweise bereits über die erforderliche Sicherheitsinfrastruktur. Für Unternehmen, die nach Anleitungen suchen, stellt Microsoft die Lösung als Beispiel für die Erstellung einer sicheren IT-Infrastruktur bereit. Dies impliziert jedoch nicht, dass es sich um die einzige Lösung handelt, auch nicht, dass es die bevorzugte Lösung für lync Server ist. Es wird empfohlen, dass Unternehmenskunden basierend auf Ihrer IT-Sicherheitsinfrastruktur und-Anforderungen die Lösung auswählen, die ihren spezifischen Anforderungen entspricht. In der Microsoft-Beispiellösung werden IPSec-und Gruppenrichtlinien für die Server-und Domänenisolierung verwendet. Ausführliche Informationen finden Sie [http://go.microsoft.com/fwlink/p/?LinkId=268544](http://go.microsoft.com/fwlink/p/?linkid=268544)unter. Wenden Sie sich bei Fragen und Kommentaren an SecWish@Microsoft.com.
+Es gibt viele Möglichkeiten, den Sicherheitsschutz für den Sicherungsdienst Datenverkehr zu verbessern, angefangen beim Einschränken des Zugriffs auf die Rechenzentren bis hin zum Sichern des WAN-Transports zwischen den beiden Rechenzentren. In den meisten Fällen verfügen Unternehmen, die lync Server 2013 bereitstellen, möglicherweise bereits über die erforderliche Sicherheitsinfrastruktur. Für Unternehmen, die nach Anleitungen suchen, stellt Microsoft die Lösung als Beispiel für die Erstellung einer sicheren IT-Infrastruktur bereit. Dies impliziert jedoch nicht, dass es sich um die einzige Lösung handelt, auch nicht, dass es die bevorzugte Lösung für lync Server ist. Es wird empfohlen, dass Unternehmenskunden basierend auf Ihrer IT-Sicherheitsinfrastruktur und-Anforderungen die Lösung auswählen, die ihren spezifischen Anforderungen entspricht. In der Microsoft-Beispiellösung werden IPSec-und Gruppenrichtlinien für die Server-und Domänenisolierung verwendet. Ausführliche Informationen finden Sie [https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?linkid=268544)unter. Wenden Sie sich bei Fragen und Kommentaren an SecWish@Microsoft.com.
 
 Eine weitere mögliche Lösung besteht in der Verwendung von IPSec, um die vom Sicherungsdienst selbst gesendeten Daten zu schützen. Wenn Sie diese Methode auswählen, sollten Sie die IPSec-Regeln für das SMB-Protokoll für die folgenden Server konfigurieren, wobei Pool a und Pool B zwei gekoppelte Front-End-Pools sind.
 

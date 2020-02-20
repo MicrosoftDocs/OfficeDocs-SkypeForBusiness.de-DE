@@ -12,18 +12,18 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9046bb075fba832f0ba7c83697c96a285988fcf7
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0476b90659ced152a4d24fbb3890ac224bdf0d91
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035581"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147998"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="the-skype-for-business-online-reporting-cmdlets-and-rest-web-service"></a>Die Cmdlets für die Skype for Business Online Berichterstellung und Rest-Webdienst
 
@@ -67,7 +67,7 @@ Administratoren mit Entwicklungshintergrund können mithilfe des Rest-Webdiensts
 
 [Der Webdienst für die Office 365-Berichterstellung](http://msdn.microsoft.com/library/office/jj984325.aspx)  
 [Informationen zum Webdienst "Office 365-Berichterstellung"](http://msdn.microsoft.com/library/office/jj984321.aspx)  
-[Die Cmdlets für die Exchange Online-Berichterstellung](http://technet.microsoft.com/library/jj200780\(v=exchg.150\).aspx)  
+[Die Cmdlets für die Exchange Online-Berichterstellung](https://technet.microsoft.com/library/jj200780\(v=exchg.150\).aspx)  
 [Verwenden von Excel zum Abrufen von Office 365-Berichterstellungsdaten](http://msdn.microsoft.com/library/dn781442.aspx)  
   
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185278
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 144d2d1861b9e1dc75aaf740eca1a35e2d384a7b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0447305ce1ed5486c6b8d83ae99d905ea1e74362
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008911"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148232"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>Entfernen von Archivierungs-und Monitoring Servern der Vorversion
 
@@ -41,7 +41,7 @@ Wenn die Legacy Bereitstellung eine Archivierungsserver oder ein Monitoring Serv
 
 Sie können Benutzer von lync Server 2010 in lync Server 2013 umsetzen, indem Sie die Schritte unter [Phase 4: verlagern von Testbenutzern in den Pilot Pool](phase-4-move-test-users-to-the-pilot-pool.md)beschrieben.
 
-Nachdem Sie bestätigt haben, dass alle Benutzer aus den verbleibenden Pools entfernt wurden, führen Sie das Verfahren unter "Deinstallieren von Microsoft lync Server 2010 und Entfernen von Server Rollen" aus, das [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)unter heruntergeladen werden kann.
+Nachdem Sie bestätigt haben, dass alle Benutzer aus den verbleibenden Pools entfernt wurden, führen Sie das Verfahren unter "Deinstallieren von Microsoft lync Server 2010 und Entfernen von Server Rollen" aus, das [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)unter heruntergeladen werden kann.
 
 </div>
 

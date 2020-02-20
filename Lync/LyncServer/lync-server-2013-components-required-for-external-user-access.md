@@ -12,18 +12,18 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e225f63da97ea48d98a5a2540a6b35a9c63c08f2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 31381edc58240d990096b47498b5c98845af5b2d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42007955"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147308"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="components-required-for-external-user-access-in-lync-server-2013"></a>Erforderliche Komponenten für den Zugriff durch externe Benutzer in lync Server 2013
 
@@ -114,7 +114,7 @@ Weitere Informationen zu Reverse-Proxies und den Anforderungen, die Reverse-Prox
 
 
 > [!NOTE]  
-> Externe Benutzer benötigen keine VPN-Verbindung (Virtual Private Network) zu Ihrer Organisation, um mit lync Server 2013 an einer Kommunikation teilzunehmen. Wenn Sie VPN-Technologie in Ihrer Organisation implementiert haben und Ihre Benutzer das VPN für lync verwenden, kann der Mediendatenverkehr (beispielsweise Videokonferenzen) beeinträchtigt werden. Sie sollten einen Mittel für den Mediendatenverkehr bereitstellen, um eine Verbindung mit dem AV-Edgedienst direkt herzustellen und das VPN zu umgehen. Ausführliche Informationen finden Sie im NextHop-Blog-Artikel "Aktivieren von <A href="http://go.microsoft.com/fwlink/p/?linkid=256532">http://go.microsoft.com/fwlink/p/?LinkId=256532</A>lync Media zur Umgehung eines VPN-Tunnels" unter.
+> Externe Benutzer benötigen keine VPN-Verbindung (Virtual Private Network) zu Ihrer Organisation, um mit lync Server 2013 an einer Kommunikation teilzunehmen. Wenn Sie VPN-Technologie in Ihrer Organisation implementiert haben und Ihre Benutzer das VPN für lync verwenden, kann der Mediendatenverkehr (beispielsweise Videokonferenzen) beeinträchtigt werden. Sie sollten einen Mittel für den Mediendatenverkehr bereitstellen, um eine Verbindung mit dem AV-Edgedienst direkt herzustellen und das VPN zu umgehen. Ausführliche Informationen finden Sie im NextHop-Blog-Artikel "Aktivieren von <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A>lync Media zur Umgehung eines VPN-Tunnels" unter.
 
 
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48183472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83b91cfaf77d2e4112b917438d84260ed5b21553
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a8aad7a429a57d6aaea7d285da0e3e87c23e8c6e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035701"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148095"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="run-best-practices-analyzer"></a>Ausführen von Best Practice Analyzer
 
@@ -39,7 +39,7 @@ _**Letztes Änderungsstand des Themas:** 2012-03-21_
 
 Das lync Server 2010 Best Practices Analyzer-Tool sammelt Konfigurationsinformationen aus einer lync Server 2010-Bereitstellung und ermittelt, ob die Konfiguration gemäß den bewährten Methoden von Microsoft festgelegt wurde. Sie können das Tool auf einem Clientcomputer installieren, auf dem Microsoft .NET Framework 3.5 Service Pack 1 ausgeführt wird, oder direkt auf dem Server, auf dem lync Server 2010 ausgeführt wird. Die Empfehlung lautet, das Tool auf einem Clientcomputer zu installieren und auszuführen. Die lync Server 2010 Verwaltungs Tools sollten auch lokal auf dem Clientcomputer installiert werden, damit der Best Practices Analyzer einen vollständigen Datensatz erfassen kann.
 
-Sie können das lync Server 2010 Best Practices Analyzer aus dem Microsoft Download Center herunter <http://go.microsoft.com/fwlink/p/?linkid=246173> laden.
+Sie können das lync Server 2010 Best Practices Analyzer aus dem Microsoft Download Center herunter <https://go.microsoft.com/fwlink/p/?linkid=246173> laden.
 
 </div>
 

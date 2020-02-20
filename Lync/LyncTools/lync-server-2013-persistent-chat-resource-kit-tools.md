@@ -12,18 +12,18 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7895a1ebb2c0ce45cebf3514839b7ab3405e1c9f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 726e6bb537a16ece5c2955f005e91872f11f6a79
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983030"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147728"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="lync-server-2013-persistent-chat-resource-kit-tools"></a>Beständiger Chat von lync Server 2013 Resource Kit-Tools
 
@@ -49,7 +49,7 @@ Zum Installieren der lync Server 2013 Resource Kit-Tools laden Sie **PersistentC
 
 
 > [!IMPORTANT]  
-> Nach dem Installieren der lync Server 2013 Resource Kit-Tools müssen Sie <STRONG>PsExec. exe</STRONG> installieren und <STRONG>PsExec. exe</STRONG> in den folgenden Pfad kopieren: \\ <STRONG>Programmdateien \ Microsoft lync Server 2013 \ persistent Chat Server Resource Kit\ChatStressTool</STRONG>. Wenn Sie <STRONG>PsExec. exe</STRONG>nicht kopieren, löst das Belastungs Tool für beständigen Chat eine Fehler Ausnahme aus und wird nicht ordnungsgemäß ausgeführt. Stellen Sie sicher, dass diese Voraussetzungen erfüllt sind, bevor Sie das Tool ausführen. Ausführliche Informationen zum Installieren von <STRONG>PsExec. exe</STRONG>finden <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>Sie unter.
+> Nach dem Installieren der lync Server 2013 Resource Kit-Tools müssen Sie <STRONG>PsExec. exe</STRONG> installieren und <STRONG>PsExec. exe</STRONG> in den folgenden Pfad kopieren: \\ <STRONG>Programmdateien \ Microsoft lync Server 2013 \ persistent Chat Server Resource Kit\ChatStressTool</STRONG>. Wenn Sie <STRONG>PsExec. exe</STRONG>nicht kopieren, löst das Belastungs Tool für beständigen Chat eine Fehler Ausnahme aus und wird nicht ordnungsgemäß ausgeführt. Stellen Sie sicher, dass diese Voraussetzungen erfüllt sind, bevor Sie das Tool ausführen. Ausführliche Informationen zum Installieren von <STRONG>PsExec. exe</STRONG>finden <A href="https://go.microsoft.com/fwlink/p/?linkid=282246">https://go.microsoft.com/fwlink/p/?LinkId=282246</A>Sie unter.
 
 
 

@@ -12,18 +12,18 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4508c9c499b0219f754bf9815063f4b1210b811
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 16a7a78c67b94084c59ebad63baa12c3a7aa3df2
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029616"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147548"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-lync-web-app-in-lync-server-2013"></a>Bereitstellen von lync Web App in lync Server 2013
 
@@ -78,9 +78,9 @@ Die lync Server 2013 Version von lync Web App unterstützt die mehrstufige Authe
 
 **Konfigurieren der mehrstufigen Authentifizierung**
 
-1.  Installieren Sie eine Active Directory-Verbunddienste-Verbundserverrolle. Ausführliche Informationen finden Sie im Bereitstellungshandbuch für Active Directory Verbunddienste 2,0 unter<http://go.microsoft.com/fwlink/p/?linkid=267511>
+1.  Installieren Sie eine Active Directory-Verbunddienste-Verbundserverrolle. Ausführliche Informationen finden Sie im Bereitstellungshandbuch für Active Directory Verbunddienste 2,0 unter<https://go.microsoft.com/fwlink/p/?linkid=267511>
 
-2.  Erstellen von Zertifikaten für AD FS. Weitere Informationen finden Sie im Abschnitt "Verbundserver Zertifikate" des Themas planen und Bereitstellen von AD FS für die Verwendung mit einmaligem Anmelden unter [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376).
+2.  Erstellen von Zertifikaten für AD FS. Weitere Informationen finden Sie im Abschnitt "Verbundserver Zertifikate" des Themas planen und Bereitstellen von AD FS für die Verwendung mit einmaligem Anmelden unter [https://go.microsoft.com/fwlink/p/?LinkId=285376](https://go.microsoft.com/fwlink/p/?linkid=285376).
 
 3.  Führen Sie über die Befehlszeilenschnittstelle Windows PowerShell den folgenden Befehl aus:
     ```powershell
@@ -113,7 +113,7 @@ Die lync Server 2013 Version von lync Web App unterstützt die mehrstufige Authe
 
 Das BranchCache-Feature in Windows 7 und Windows Server 2008 R2 kann mit lync Web App Webkomponenten in Konflikt stehen. Um Probleme für lync Web App Benutzer zu vermeiden, stellen Sie sicher, dass BranchCache nicht aktiviert ist.
 
-Ausführliche Informationen zum Deaktivieren von BranchCache finden Sie im BranchCache-Bereitstellungshandbuch, das im Microsoft Download Center im [http://go.microsoft.com/fwlink/p/?LinkId=268788](http://go.microsoft.com/fwlink/p/?linkid=268788) und im HTML-Format in der technischen Bibliothek von [http://go.microsoft.com/fwlink/p/?LinkId=268789](http://go.microsoft.com/fwlink/p/?linkid=268789)Windows Server 2008 R2 unter im Word-Format verfügbar ist.
+Ausführliche Informationen zum Deaktivieren von BranchCache finden Sie im BranchCache-Bereitstellungshandbuch, das im Microsoft Download Center im [https://go.microsoft.com/fwlink/p/?LinkId=268788](https://go.microsoft.com/fwlink/p/?linkid=268788) und im HTML-Format in der technischen Bibliothek von [https://go.microsoft.com/fwlink/p/?LinkId=268789](https://go.microsoft.com/fwlink/p/?linkid=268789)Windows Server 2008 R2 unter im Word-Format verfügbar ist.
 
 </div>
 
