@@ -12,20 +12,20 @@ ms:contentKeyID: 49733637
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b5a3176067d7ec9927165bd13b6b1a34dfb00d9
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0da9ddb73645e469412a97f208f4f88a2f4b61b6
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42039458"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149795"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="meeting-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="b778d-102">Besprechungs Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b778d-102">Meeting configuration settings in Lync Server 2013</span></span>
+# <a name="meeting-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="d2aad-102">Besprechungs Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d2aad-102">Meeting configuration settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42039458"
 
 <span> </span>
 
-<span data-ttu-id="b778d-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="b778d-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="d2aad-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="d2aad-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="b778d-104">In lync Server 2013 definiert die konferenzrichtlinie die Benutzer Planungs-und Teilnahmeerfahrung, und die Einstellungen für den besprechungsbeitritt, die auf der Seite besprechungskonfiguration gespeichert sind, definieren Folgendes:</span><span class="sxs-lookup"><span data-stu-id="b778d-104">In Lync Server 2013, conferencing policy defines the user scheduling and participation experience, and meeting join settings located on the meeting configuration page define the following:</span></span>
+<span data-ttu-id="d2aad-104">In lync Server 2013 definiert die konferenzrichtlinie die Benutzer Planungs-und Teilnahmeerfahrung, und die Einstellungen für den besprechungsbeitritt, die auf der Seite besprechungskonfiguration gespeichert sind, definieren Folgendes:</span><span class="sxs-lookup"><span data-stu-id="d2aad-104">In Lync Server 2013, conferencing policy defines the user scheduling and participation experience, and meeting join settings located on the meeting configuration page define the following:</span></span>
 
-  - <span data-ttu-id="b778d-105">Ob Benutzer, die sich aus dem Telefonfestnetz einwählen, zum Wartebereich weitergeleitet werden</span><span class="sxs-lookup"><span data-stu-id="b778d-105">Whether users dialing in from the public switched telephone network (PSTN) go to the lobby</span></span>
+  - <span data-ttu-id="d2aad-105">Ob Benutzer, die sich aus dem Telefonfestnetz einwählen, zum Wartebereich weitergeleitet werden</span><span class="sxs-lookup"><span data-stu-id="d2aad-105">Whether users dialing in from the public switched telephone network (PSTN) go to the lobby</span></span>
 
-  - <span data-ttu-id="b778d-106">Wer als Referent agieren darf</span><span class="sxs-lookup"><span data-stu-id="b778d-106">Who can be a presenter</span></span>
+  - <span data-ttu-id="d2aad-106">Wer als Referent agieren darf</span><span class="sxs-lookup"><span data-stu-id="d2aad-106">Who can be a presenter</span></span>
 
-  - <span data-ttu-id="b778d-107">Ob der Konferenztyp standardmäßig zugewiesen wird</span><span class="sxs-lookup"><span data-stu-id="b778d-107">Whether conference type is assigned by default</span></span>
+  - <span data-ttu-id="d2aad-107">Ob der Konferenztyp standardmäßig zugewiesen wird</span><span class="sxs-lookup"><span data-stu-id="d2aad-107">Whether conference type is assigned by default</span></span>
 
-  - <span data-ttu-id="b778d-108">Ob anonyme (nicht authentifizierte) Benutzer standardmäßig zugelassen werden</span><span class="sxs-lookup"><span data-stu-id="b778d-108">Whether anonymous (unauthenticated) users are admitted by default</span></span>
+  - <span data-ttu-id="d2aad-108">Ob anonyme (nicht authentifizierte) Benutzer standardmäßig zugelassen werden</span><span class="sxs-lookup"><span data-stu-id="d2aad-108">Whether anonymous (unauthenticated) users are admitted by default</span></span>
 
-<span data-ttu-id="b778d-109">Die Themen in diesem Abschnitt beschreiben die Konfiguration von Einstellungen für den Besprechungsbeitritt.</span><span class="sxs-lookup"><span data-stu-id="b778d-109">The topics in this section describe how to configure meeting join settings.</span></span>
+<span data-ttu-id="d2aad-109">Die Themen in diesem Abschnitt beschreiben die Konfiguration von Einstellungen für den Besprechungsbeitritt.</span><span class="sxs-lookup"><span data-stu-id="d2aad-109">The topics in this section describe how to configure meeting join settings.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="b778d-110">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="b778d-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d2aad-110">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="d2aad-110">In This Section</span></span>
 
-  - [<span data-ttu-id="b778d-111">Anzeigen von Besprechungs Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b778d-111">View meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-view-meeting-configuration-settings.md)
+  - [<span data-ttu-id="d2aad-111">Anzeigen von Besprechungs Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d2aad-111">View meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-view-meeting-configuration-settings.md)
 
-  - [<span data-ttu-id="b778d-112">Erstellen oder Ändern einer Sammlung von Besprechungs Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b778d-112">Create or modify a collection of meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)
+  - [<span data-ttu-id="d2aad-112">Erstellen oder Ändern einer Sammlung von Besprechungs Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d2aad-112">Create or modify a collection of meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings.md)
 
-  - [<span data-ttu-id="b778d-113">Löschen einer vorhandenen Sammlung von Besprechungs Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b778d-113">Delete an existing collection of meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md)
+  - [<span data-ttu-id="d2aad-113">Löschen einer vorhandenen Sammlung von Besprechungs Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d2aad-113">Delete an existing collection of meeting configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-meeting-configuration-settings.md)
 
 </div>
 

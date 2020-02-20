@@ -12,20 +12,20 @@ ms:contentKeyID: 48184768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0bb4d495637cd78e430e975e9831421906bfbf6e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 659333b98aed7e21ca806a93969a3b9f8bbe3e9e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050087"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152763"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-media-bypass-in-lync-server-2013"></a><span data-ttu-id="0c17d-102">Planen der medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c17d-102">Planning for media bypass in Lync Server 2013</span></span>
+# <a name="planning-for-media-bypass-in-lync-server-2013"></a><span data-ttu-id="d738a-102">Planen der medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d738a-102">Planning for media bypass in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,55 +35,55 @@ ms.locfileid: "42050087"
 
 <span> </span>
 
-<span data-ttu-id="0c17d-103">_**Letztes Änderungsstand des Themas:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="0c17d-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="d738a-103">_**Letztes Änderungsstand des Themas:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="d738a-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="0c17d-104">Bei der Medienumgehung wird der Vermittlungsserver nach Möglichkeit für Anrufe aus dem Medienpfad entfernt, deren Signaldaten über den Vermittlungsserver verarbeitet werden.</span><span class="sxs-lookup"><span data-stu-id="0c17d-104">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span>
+<span data-ttu-id="d738a-104">Bei der Medienumgehung wird der Vermittlungsserver nach Möglichkeit für Anrufe aus dem Medienpfad entfernt, deren Signaldaten über den Vermittlungsserver verarbeitet werden.</span><span class="sxs-lookup"><span data-stu-id="d738a-104">Media bypass refers to removing the Mediation Server from the media path whenever possible for calls whose signaling traverses the Mediation Server.</span></span>
 
-<span data-ttu-id="0c17d-105">Die Medienumgehung kann die Sprachqualität verbessern, indem die Latenz verringert, eine unnötige Übersetzung und Paketverluste verhindert sowie potenzielle Fehlerstellen minimiert werden.</span><span class="sxs-lookup"><span data-stu-id="0c17d-105">Media bypass can improve voice quality by reducing latency, needless translation, possibility of packet loss, and the number of points of potential failure.</span></span> <span data-ttu-id="0c17d-106">Der Vermittlungsserver muss für Anrufe mit Umgehung keine Mediendatenverarbeitung durchführen, sodass die Vermittlungsserverlast reduziert und die Skalierbarkeit verbessert wird.</span><span class="sxs-lookup"><span data-stu-id="0c17d-106">Scalability can be improved, because elimination of media processing for bypassed calls reduces the load on the Mediation Server.</span></span> <span data-ttu-id="0c17d-107">Diese Verringerung der Auslastung ergänzt die Fähigkeit des Vermittlungsserver, mehrere Gateways zu steuern.</span><span class="sxs-lookup"><span data-stu-id="0c17d-107">This reduction in load complements the ability of the Mediation Server to control multiple gateways.</span></span>
+<span data-ttu-id="d738a-105">Die Medienumgehung kann die Sprachqualität verbessern, indem die Latenz verringert, eine unnötige Übersetzung und Paketverluste verhindert sowie potenzielle Fehlerstellen minimiert werden.</span><span class="sxs-lookup"><span data-stu-id="d738a-105">Media bypass can improve voice quality by reducing latency, needless translation, possibility of packet loss, and the number of points of potential failure.</span></span> <span data-ttu-id="d738a-106">Der Vermittlungsserver muss für Anrufe mit Umgehung keine Mediendatenverarbeitung durchführen, sodass die Vermittlungsserverlast reduziert und die Skalierbarkeit verbessert wird.</span><span class="sxs-lookup"><span data-stu-id="d738a-106">Scalability can be improved, because elimination of media processing for bypassed calls reduces the load on the Mediation Server.</span></span> <span data-ttu-id="d738a-107">Diese Verringerung der Auslastung ergänzt die Fähigkeit des Vermittlungsserver, mehrere Gateways zu steuern.</span><span class="sxs-lookup"><span data-stu-id="d738a-107">This reduction in load complements the ability of the Mediation Server to control multiple gateways.</span></span>
 
-<span data-ttu-id="0c17d-108">Wenn ein Zweigstellenstandort ohne Vermittlungsserver über eine oder mehrere WAN-Verbindungen mit eingeschränkter Bandbreite mit einem zentralen Standort verbunden ist, verringert die medienumgehung die Bandbreitenanforderung, da Medien von einem Client an einem Zweigstellenstandort direkt an das lokale Gateway weiter fließen können, ohne Zunächst müssen Sie über die WAN-Verbindung zu einem Vermittlungsserver am zentralen Standort und zurückfließen.</span><span class="sxs-lookup"><span data-stu-id="0c17d-108">Where a branch site without a Mediation Server is connected to a central site by one or more WAN links with constrained bandwidth, media bypass lowers the bandwidth requirement by allowing media from a client at a branch site to flow directly to its local gateway without first having to flow across the WAN link to a Mediation Server at the central site and back.</span></span>
+<span data-ttu-id="d738a-108">Wenn ein Zweigstellenstandort ohne Vermittlungsserver über eine oder mehrere WAN-Verbindungen mit eingeschränkter Bandbreite mit einem zentralen Standort verbunden ist, verringert die medienumgehung die Bandbreitenanforderung, da Medien von einem Client an einem Zweigstellenstandort direkt an das lokale Gateway weiter fließen können, ohne Zunächst müssen Sie über die WAN-Verbindung zu einem Vermittlungsserver am zentralen Standort und zurückfließen.</span><span class="sxs-lookup"><span data-stu-id="d738a-108">Where a branch site without a Mediation Server is connected to a central site by one or more WAN links with constrained bandwidth, media bypass lowers the bandwidth requirement by allowing media from a client at a branch site to flow directly to its local gateway without first having to flow across the WAN link to a Mediation Server at the central site and back.</span></span>
 
-<span data-ttu-id="0c17d-109">Durch die Entlastung der Vermittlungsserver von der Medienverarbeitung kann die medienumgehung auch die Anzahl von Vermittlungsservern verringern, die eine Enterprise-VoIP-Infrastruktur benötigt.</span><span class="sxs-lookup"><span data-stu-id="0c17d-109">By relieving the Mediation Server from media processing, media bypass may also reduce the number of Mediation Servers that an Enterprise Voice infrastructure requires.</span></span>
+<span data-ttu-id="d738a-109">Durch die Entlastung der Vermittlungsserver von der Medienverarbeitung kann die medienumgehung auch die Anzahl von Vermittlungsservern verringern, die eine Enterprise-VoIP-Infrastruktur benötigt.</span><span class="sxs-lookup"><span data-stu-id="d738a-109">By relieving the Mediation Server from media processing, media bypass may also reduce the number of Mediation Servers that an Enterprise Voice infrastructure requires.</span></span>
 
-<span data-ttu-id="0c17d-110">Die folgende Abbildung zeigt grundlegende Pfade für Medien- und Signaldatenverkehr in Topologien mit und ohne Umgehung.</span><span class="sxs-lookup"><span data-stu-id="0c17d-110">The following figure shows basic media and signaling pathways in topologies with and without media bypass.</span></span>
+<span data-ttu-id="d738a-110">Die folgende Abbildung zeigt grundlegende Pfade für Medien- und Signaldatenverkehr in Topologien mit und ohne Umgehung.</span><span class="sxs-lookup"><span data-stu-id="d738a-110">The following figure shows basic media and signaling pathways in topologies with and without media bypass.</span></span>
 
-<span data-ttu-id="0c17d-111">**Pfade für Medien- und Signaldatenverkehr mit und ohne Medienumgehung**</span><span class="sxs-lookup"><span data-stu-id="0c17d-111">**Media and signaling pathways with and without media bypass**</span></span>
+<span data-ttu-id="d738a-111">**Pfade für Medien- und Signaldatenverkehr mit und ohne Medienumgehung**</span><span class="sxs-lookup"><span data-stu-id="d738a-111">**Media and signaling pathways with and without media bypass**</span></span>
 
-<span data-ttu-id="0c17d-112">![VoIP-Anrufsteuerung medienumgehung Verbindungserzwingung](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "VoIP-Anrufsteuerung medienumgehung Verbindungserzwingung")</span><span class="sxs-lookup"><span data-stu-id="0c17d-112">![Voice CAC Media Bypass Connection Enforcement](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Voice CAC Media Bypass Connection Enforcement")</span></span>
+<span data-ttu-id="d738a-112">![VoIP-Anrufsteuerung medienumgehung Verbindungserzwingung](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "VoIP-Anrufsteuerung medienumgehung Verbindungserzwingung")</span><span class="sxs-lookup"><span data-stu-id="d738a-112">![Voice CAC Media Bypass Connection Enforcement](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Voice CAC Media Bypass Connection Enforcement")</span></span>
 
-<span data-ttu-id="0c17d-113">Allgemein gilt, dass die Medienumgehung wenn möglich aktiviert werden sollte.</span><span class="sxs-lookup"><span data-stu-id="0c17d-113">As a general rule, enable media bypass wherever possible.</span></span>
+<span data-ttu-id="d738a-113">Allgemein gilt, dass die Medienumgehung wenn möglich aktiviert werden sollte.</span><span class="sxs-lookup"><span data-stu-id="d738a-113">As a general rule, enable media bypass wherever possible.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="0c17d-114">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="0c17d-114">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d738a-114">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="d738a-114">In This Section</span></span>
 
-  - [<span data-ttu-id="0c17d-115">Übersicht über die medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c17d-115">Overview of media bypass in Lync Server 2013</span></span>](lync-server-2013-overview-of-media-bypass.md)
+  - [<span data-ttu-id="d738a-115">Übersicht über die medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d738a-115">Overview of media bypass in Lync Server 2013</span></span>](lync-server-2013-overview-of-media-bypass.md)
 
-  - [<span data-ttu-id="0c17d-116">Medien Umgehungs Modi in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c17d-116">Media bypass modes in Lync Server 2013</span></span>](lync-server-2013-media-bypass-modes.md)
+  - [<span data-ttu-id="d738a-116">Medien Umgehungs Modi in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d738a-116">Media bypass modes in Lync Server 2013</span></span>](lync-server-2013-media-bypass-modes.md)
 
-  - [<span data-ttu-id="0c17d-117">Medienumgehung und Anrufsteuerung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c17d-117">Media bypass and call admission control in Lync Server 2013</span></span>](lync-server-2013-media-bypass-and-call-admission-control.md)
+  - [<span data-ttu-id="d738a-117">Medienumgehung und Anrufsteuerung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d738a-117">Media bypass and call admission control in Lync Server 2013</span></span>](lync-server-2013-media-bypass-and-call-admission-control.md)
 
-  - [<span data-ttu-id="0c17d-118">Technische Anforderungen für die medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c17d-118">Technical requirements for media bypass in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-media-bypass.md)
+  - [<span data-ttu-id="d738a-118">Technische Anforderungen für die medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d738a-118">Technical requirements for media bypass in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-media-bypass.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="0c17d-119">Verwandte Abschnitte</span><span class="sxs-lookup"><span data-stu-id="0c17d-119">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="d738a-119">Verwandte Abschnitte</span><span class="sxs-lookup"><span data-stu-id="d738a-119">Related Sections</span></span>
 
-[<span data-ttu-id="0c17d-120">Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c17d-120">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+[<span data-ttu-id="d738a-120">Bereitstellen von erweiterten Enterprise-VoIP-Funktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d738a-120">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="0c17d-121">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="0c17d-121">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d738a-121">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="d738a-121">See Also</span></span>
 
 
-[<span data-ttu-id="0c17d-122">Konfigurieren eines Trunks mit medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c17d-122">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[<span data-ttu-id="d738a-122">Konfigurieren eines Trunks mit medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d738a-122">Configure a trunk with media bypass in Lync Server 2013</span></span>](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
 
 
-[<span data-ttu-id="0c17d-123">Optionen für die globale medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c17d-123">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
+[<span data-ttu-id="d738a-123">Optionen für die globale medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d738a-123">Global media bypass options in Lync Server 2013</span></span>](lync-server-2013-global-media-bypass-options.md)  
   
 
 </div>

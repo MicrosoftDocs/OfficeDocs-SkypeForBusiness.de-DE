@@ -12,20 +12,20 @@ ms:contentKeyID: 51541515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 955609f4d012489ba70dbb81f21a38e8261ef7f2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8e75a093684f90b8675e661de746bfce77d4b74c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045087"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42150466"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="backing-up-archiving-and-monitoring-databases-in-lync-server-2013"></a><span data-ttu-id="9d8dd-102">Sichern von Archivierungs-und Überwachungsdatenbanken in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9d8dd-102">Backing up Archiving and Monitoring databases in Lync Server 2013</span></span>
+# <a name="backing-up-archiving-and-monitoring-databases-in-lync-server-2013"></a><span data-ttu-id="ead63-102">Sichern von Archivierungs-und Überwachungsdatenbanken in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ead63-102">Backing up Archiving and Monitoring databases in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42045087"
 
 <span> </span>
 
-<span data-ttu-id="9d8dd-103">_**Letztes Änderungsstand des Themas:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="9d8dd-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+<span data-ttu-id="ead63-103">_**Letztes Änderungsstand des Themas:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="ead63-103">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-<span data-ttu-id="9d8dd-104">Wenn Sie Archivierungs- oder Überwachungsdatenbanken bereitgestellt haben, müssen Sie diese Datenbanken gemäß der SQL Server-Sicherungsrichtlinie Ihrer Organisation sichern.</span><span class="sxs-lookup"><span data-stu-id="9d8dd-104">If you deployed Archiving or Monitoring, you need to back up these databases according to your organization's SQL Server backup policy.</span></span>
+<span data-ttu-id="ead63-104">Wenn Sie Archivierungs- oder Überwachungsdatenbanken bereitgestellt haben, müssen Sie diese Datenbanken gemäß der SQL Server-Sicherungsrichtlinie Ihrer Organisation sichern.</span><span class="sxs-lookup"><span data-stu-id="ead63-104">If you deployed Archiving or Monitoring, you need to back up these databases according to your organization's SQL Server backup policy.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="9d8dd-105">Die Einstellungen für die Archivierung und Überwachung werden gesichert, wenn Sie den zentralen Verwaltungsspeicher sichern.</span><span class="sxs-lookup"><span data-stu-id="9d8dd-105">The settings for Archiving and Monitoring are backed up when you back up the Central Management store.</span></span> <span data-ttu-id="9d8dd-106">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-backing-up-core-data-and-settings.md">Sichern von Hauptdaten und Einstellungen in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="9d8dd-106">For details, see <A href="lync-server-2013-backing-up-core-data-and-settings.md">Backing up core data and settings in Lync Server 2013</A>.</span></span>
+> <span data-ttu-id="ead63-105">Die Einstellungen für die Archivierung und Überwachung werden gesichert, wenn Sie den zentralen Verwaltungsspeicher sichern.</span><span class="sxs-lookup"><span data-stu-id="ead63-105">The settings for Archiving and Monitoring are backed up when you back up the Central Management store.</span></span> <span data-ttu-id="ead63-106">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-backing-up-core-data-and-settings.md">Sichern von Hauptdaten und Einstellungen in lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="ead63-106">For details, see <A href="lync-server-2013-backing-up-core-data-and-settings.md">Backing up core data and settings in Lync Server 2013</A>.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="9d8dd-107">Für die Archivierung und Überwachung können Sie ein SQL Server-Tool wie SQL Server Management Studio für manuelle Sicherungen oder SQL Server-Verwaltungstools für regelmäßige, automatische Sicherungen verwenden.</span><span class="sxs-lookup"><span data-stu-id="9d8dd-107">For Archiving and Monitoring, you can use a SQL Server tool such as SQL Server Management Studio to perform a manual backup, or you can use SQL Server management tools to schedule regular, automatic backups.</span></span>
+<span data-ttu-id="ead63-107">Für die Archivierung und Überwachung können Sie ein SQL Server-Tool wie SQL Server Management Studio für manuelle Sicherungen oder SQL Server-Verwaltungstools für regelmäßige, automatische Sicherungen verwenden.</span><span class="sxs-lookup"><span data-stu-id="ead63-107">For Archiving and Monitoring, you can use a SQL Server tool such as SQL Server Management Studio to perform a manual backup, or you can use SQL Server management tools to schedule regular, automatic backups.</span></span>
 
 </div>
 

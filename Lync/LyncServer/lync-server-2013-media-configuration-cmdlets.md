@@ -12,20 +12,20 @@ ms:contentKeyID: 48183864
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bcf2a65fdb435057c9e6e436ed35502a0c63da5c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: cf5d88070378ab29d9fe5980e834487fccea0490
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045157"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149825"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="media-configuration-cmdlets-in-lync-server-2013"></a><span data-ttu-id="b7d59-102">Cmdlets für die Medienkonfiguration in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b7d59-102">Media configuration cmdlets in Lync Server 2013</span></span>
+# <a name="media-configuration-cmdlets-in-lync-server-2013"></a><span data-ttu-id="9e662-102">Cmdlets für die Medienkonfiguration in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e662-102">Media configuration cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,38 +35,38 @@ ms.locfileid: "42045157"
 
 <span> </span>
 
-<span data-ttu-id="b7d59-103">_**Letztes Änderungsstand des Themas:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="b7d59-103">_**Topic Last Modified:** 2012-03-21_</span></span>
+<span data-ttu-id="9e662-103">_**Letztes Änderungsstand des Themas:** 2012-03-21_</span><span class="sxs-lookup"><span data-stu-id="9e662-103">_**Topic Last Modified:** 2012-03-21_</span></span>
 
-<span data-ttu-id="b7d59-104">Mithilfe der Cmdlets für die Medienkonfiguration können Aspekte wie der unterstützte Verschlüsselungsgrad und die maximal zulässige Videoauflösung festgelegt werden.</span><span class="sxs-lookup"><span data-stu-id="b7d59-104">Cmdlets relating to media configuration allow you to specify such things as the supported level of encryption and the maximum allowed video resolution.</span></span>
+<span data-ttu-id="9e662-104">Mithilfe der Cmdlets für die Medienkonfiguration können Aspekte wie der unterstützte Verschlüsselungsgrad und die maximal zulässige Videoauflösung festgelegt werden.</span><span class="sxs-lookup"><span data-stu-id="9e662-104">Cmdlets relating to media configuration allow you to specify such things as the supported level of encryption and the maximum allowed video resolution.</span></span>
 
 <div>
 
-## <a name="media-configuration-cmdlets"></a><span data-ttu-id="b7d59-105">Cmdlets für die Medienkonfiguration</span><span class="sxs-lookup"><span data-stu-id="b7d59-105">Media Configuration Cmdlets</span></span>
+## <a name="media-configuration-cmdlets"></a><span data-ttu-id="9e662-105">Cmdlets für die Medienkonfiguration</span><span class="sxs-lookup"><span data-stu-id="9e662-105">Media Configuration Cmdlets</span></span>
 
-<span data-ttu-id="b7d59-106">Verwenden Sie die folgenden Cmdlets für die Medienkonfiguration.</span><span class="sxs-lookup"><span data-stu-id="b7d59-106">Use the following cmdlets for media configuration.</span></span>
+<span data-ttu-id="9e662-106">Verwenden Sie die folgenden Cmdlets für die Medienkonfiguration.</span><span class="sxs-lookup"><span data-stu-id="9e662-106">Use the following cmdlets for media configuration.</span></span>
 
-<span data-ttu-id="b7d59-107">**Medienkonfiguration**</span><span class="sxs-lookup"><span data-stu-id="b7d59-107">**Media Configuration**</span></span>
-
-  - <span></span>  
-    <span data-ttu-id="b7d59-108">[Get-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398128(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b7d59-108">[Get-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398128(v=OCS.15))</span></span>
+<span data-ttu-id="9e662-107">**Medienkonfiguration**</span><span class="sxs-lookup"><span data-stu-id="9e662-107">**Media Configuration**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b7d59-109">[New-CsMediaConfiguration](https://technet.microsoft.com/library/Gg425881(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b7d59-109">[New-CsMediaConfiguration](https://technet.microsoft.com/library/Gg425881(v=OCS.15))</span></span>
+    <span data-ttu-id="9e662-108">[Get-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398128(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9e662-108">[Get-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398128(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b7d59-110">[Remove-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398705(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b7d59-110">[Remove-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398705(v=OCS.15))</span></span>
+    <span data-ttu-id="9e662-109">[New-CsMediaConfiguration](https://technet.microsoft.com/library/Gg425881(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9e662-109">[New-CsMediaConfiguration](https://technet.microsoft.com/library/Gg425881(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="b7d59-111">[Gruppe-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398580(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="b7d59-111">[Set-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398580(v=OCS.15))</span></span>
+    <span data-ttu-id="9e662-110">[Remove-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398705(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9e662-110">[Remove-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398705(v=OCS.15))</span></span>
+
+  - <span></span>  
+    <span data-ttu-id="9e662-111">[Gruppe-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398580(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="9e662-111">[Set-CsMediaConfiguration](https://technet.microsoft.com/library/Gg398580(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b7d59-112">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="b7d59-112">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9e662-112">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="9e662-112">See Also</span></span>
 
 
-[<span data-ttu-id="b7d59-113">Lync Server PowerShell-Blog</span><span class="sxs-lookup"><span data-stu-id="b7d59-113">Lync Server PowerShell Blog</span></span>](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="9e662-113">Lync Server PowerShell-Blog</span><span class="sxs-lookup"><span data-stu-id="9e662-113">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

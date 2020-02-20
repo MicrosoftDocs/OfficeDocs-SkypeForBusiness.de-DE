@@ -12,20 +12,20 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c3a77a37cb9f9c4f92f344988082086834ab3489
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b91fc332c5eff86cd23393492bcd760bbda18db3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046528"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151395"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="choosing-a-topology-in-lync-server-2013"></a><span data-ttu-id="c9db0-102">Auswählen einer Topologie in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c9db0-102">Choosing a topology in Lync Server 2013</span></span>
+# <a name="choosing-a-topology-in-lync-server-2013"></a><span data-ttu-id="cde21-102">Auswählen einer Topologie in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cde21-102">Choosing a topology in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,45 +33,45 @@ ms.locfileid: "42046528"
 
 <div id="mainBody">
 
-<span data-ttu-id="c9db0-103">_**Letztes Änderungsstand des Themas:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="c9db0-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="cde21-103">_**Letztes Änderungsstand des Themas:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="cde21-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="c9db0-104">Bei der Auswahl einer Topologie können Sie eine der folgenden unterstützten Optionen verwenden:</span><span class="sxs-lookup"><span data-stu-id="c9db0-104">When you choose a topology, you can use one the following supported topology options:</span></span>
+<span data-ttu-id="cde21-104">Bei der Auswahl einer Topologie können Sie eine der folgenden unterstützten Optionen verwenden:</span><span class="sxs-lookup"><span data-stu-id="cde21-104">When you choose a topology, you can use one the following supported topology options:</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="c9db0-105">Wenn Sie Erfahrung mit Microsoft lync Server 2010 haben, werden Sie, sofern nicht anders angegeben, die Anleitung hier weitgehend unverändert finden.</span><span class="sxs-lookup"><span data-stu-id="c9db0-105">Unless otherwise noted, if you have experience with Microsoft Lync Server 2010, you will find the guidance here is largely unchanged.</span></span>
+> <span data-ttu-id="cde21-105">Wenn Sie Erfahrung mit Microsoft lync Server 2010 haben, werden Sie, sofern nicht anders angegeben, die Anleitung hier weitgehend unverändert finden.</span><span class="sxs-lookup"><span data-stu-id="cde21-105">Unless otherwise noted, if you have experience with Microsoft Lync Server 2010, you will find the guidance here is largely unchanged.</span></span>
 
 
 
 </div>
 
-  - [<span data-ttu-id="c9db0-106">Einzelner konsolidierter Edgeserver mit privaten IP-Adressen und NAT in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c9db0-106">Single consolidated edge with private IP addresses and NAT in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
+  - [<span data-ttu-id="cde21-106">Einzelner konsolidierter Edgeserver mit privaten IP-Adressen und NAT in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cde21-106">Single consolidated edge with private IP addresses and NAT in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-private-ip-addresses-and-nat.md)
 
-  - [<span data-ttu-id="c9db0-107">Einzelner konsolidierter Edgeserver mit öffentlichen IP-Adressen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c9db0-107">Single consolidated edge with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
+  - [<span data-ttu-id="cde21-107">Einzelner konsolidierter Edgeserver mit öffentlichen IP-Adressen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cde21-107">Single consolidated edge with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md)
 
-  - [<span data-ttu-id="c9db0-108">Skalierter konsolidierter Edgeserver, DNS-Lastenausgleich mit privaten IP-Adressen mithilfe von NAT in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c9db0-108">Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [<span data-ttu-id="cde21-108">Skalierter konsolidierter Edgeserver, DNS-Lastenausgleich mit privaten IP-Adressen mithilfe von NAT in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cde21-108">Scaled consolidated edge, DNS load balancing with private IP addresses using NAT in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 
-  - [<span data-ttu-id="c9db0-109">Skalierter konsolidierter Edgeserver, DNS-Lastenausgleich mit öffentlichen IP-Adressen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c9db0-109">Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
+  - [<span data-ttu-id="cde21-109">Skalierter konsolidierter Edgeserver, DNS-Lastenausgleich mit öffentlichen IP-Adressen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cde21-109">Scaled consolidated edge, DNS load balancing with public IP addresses in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)
 
-  - [<span data-ttu-id="c9db0-110">Skalierter konsolidierter Edgeserver mit Hardware-Lastenausgleichssystemen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c9db0-110">Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
+  - [<span data-ttu-id="cde21-110">Skalierter konsolidierter Edgeserver mit Hardware-Lastenausgleichssystemen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cde21-110">Scaled consolidated edge with hardware load balancers in Lync Server 2013</span></span>](lync-server-2013-scaled-consolidated-edge-with-hardware-load-balancers.md)
 
 <div>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="c9db0-p101">Für die interne Edgeschnittstelle und die externe Edgeschnittstelle muss derselbe Typ von Lastenausgleich verwendet werden. Es ist nicht möglich, für eine Edgeschnittstelle den DNS-Lastenausgleich und für die andere Edgeschnittstelle ein Hardwaregerät zum Lastenausgleich zu verwenden.</span><span class="sxs-lookup"><span data-stu-id="c9db0-p101">The internal Edge interface and external Edge interface must use the same type of load balancing. You cannot use DNS load balancing on one Edge interface and hardware load balancing on the other Edge interface.</span></span>
+> <span data-ttu-id="cde21-p101">Für die interne Edgeschnittstelle und die externe Edgeschnittstelle muss derselbe Typ von Lastenausgleich verwendet werden. Es ist nicht möglich, für eine Edgeschnittstelle den DNS-Lastenausgleich und für die andere Edgeschnittstelle ein Hardwaregerät zum Lastenausgleich zu verwenden.</span><span class="sxs-lookup"><span data-stu-id="cde21-p101">The internal Edge interface and external Edge interface must use the same type of load balancing. You cannot use DNS load balancing on one Edge interface and hardware load balancing on the other Edge interface.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="c9db0-113">In der folgenden Tabelle sind die Funktionen zusammengefasst, die mit den unterstützten Microsoft lync Server 2013 Topologien verfügbar sind.</span><span class="sxs-lookup"><span data-stu-id="c9db0-113">The following table summarizes the functionality available with the supported Microsoft Lync Server 2013 topologies.</span></span> <span data-ttu-id="c9db0-114">Die Spaltenüberschriften geben die Funktionalität an, die für eine bestimmte Edgekonfigurationsoption zur Verfügung steht.</span><span class="sxs-lookup"><span data-stu-id="c9db0-114">The column headings indicate the functionality available for a given Edge configuration option.</span></span> <span data-ttu-id="c9db0-115">Beispielsweise ist für die skalierte Edgetopologie (DNS-Lastenausgleich) angegeben, dass sie hohe Verfügbarkeit unterstützt, nicht routingfähige private IP-Adressen (mit NAT) oder routingfähige öffentliche IP-Adressen verwenden kann, die externen Edgeschnittstellen zugewiesen sind, und die Kosten senkt, da kein Hardwaregerät zum Lastenausgleich erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="c9db0-115">Using the Scaled Edge (DNS load balanced) option as an example, you can see that it supports high availability, can use non-routable private IP addresses (with NAT) or routable public IP addresses assigned to the Edge external interfaces, and reduces cost because a hardware load balancer is not required.</span></span>
+<span data-ttu-id="cde21-113">In der folgenden Tabelle sind die Funktionen zusammengefasst, die mit den unterstützten Microsoft lync Server 2013 Topologien verfügbar sind.</span><span class="sxs-lookup"><span data-stu-id="cde21-113">The following table summarizes the functionality available with the supported Microsoft Lync Server 2013 topologies.</span></span> <span data-ttu-id="cde21-114">Die Spaltenüberschriften geben die Funktionalität an, die für eine bestimmte Edgekonfigurationsoption zur Verfügung steht.</span><span class="sxs-lookup"><span data-stu-id="cde21-114">The column headings indicate the functionality available for a given Edge configuration option.</span></span> <span data-ttu-id="cde21-115">Beispielsweise ist für die skalierte Edgetopologie (DNS-Lastenausgleich) angegeben, dass sie hohe Verfügbarkeit unterstützt, nicht routingfähige private IP-Adressen (mit NAT) oder routingfähige öffentliche IP-Adressen verwenden kann, die externen Edgeschnittstellen zugewiesen sind, und die Kosten senkt, da kein Hardwaregerät zum Lastenausgleich erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="cde21-115">Using the Scaled Edge (DNS load balanced) option as an example, you can see that it supports high availability, can use non-routable private IP addresses (with NAT) or routable public IP addresses assigned to the Edge external interfaces, and reduces cost because a hardware load balancer is not required.</span></span>
 
-<span data-ttu-id="c9db0-116">Unterstützte Edge-Failover-Szenarien bei DNS-Lastenausgleich sind lync-to-lync-Punkte-zu-Ort-Sitzungen, lync-Konferenzsitzungen, lync-zu-PSTN-Sitzungen und Office 365.</span><span class="sxs-lookup"><span data-stu-id="c9db0-116">Edge failover scenarios supported with DNS Load Balancing are Lync-to-Lync point-to-point sessions, Lync conferencing sessions, Lync-to-PSTN sessions and Office 365.</span></span> <span data-ttu-id="c9db0-117">Edge-Failover-Szenarien, die nicht vom DNS-Lastenausgleich profitieren, sind Failover für Remotebenutzer Exchange Unified Messaging (um) (vor Exchange 2010 SP1), für die Verbindung mit öffentlichen Instant Messaging-Diensten (im) und für den Verbund mit Servern mit Office-Kommunikation. Server.</span><span class="sxs-lookup"><span data-stu-id="c9db0-117">Edge failover scenarios that do not benefit from DNS Load Balancing are failover for remote user Exchange Unified Messaging (UM) (prior to Exchange 2010 SP1), public instant messaging (IM) connectivity, and federation with servers running Office Communications Server.</span></span>
+<span data-ttu-id="cde21-116">Unterstützte Edge-Failover-Szenarien bei DNS-Lastenausgleich sind lync-to-lync-Punkte-zu-Ort-Sitzungen, lync-Konferenzsitzungen, lync-zu-PSTN-Sitzungen und Office 365.</span><span class="sxs-lookup"><span data-stu-id="cde21-116">Edge failover scenarios supported with DNS Load Balancing are Lync-to-Lync point-to-point sessions, Lync conferencing sessions, Lync-to-PSTN sessions and Office 365.</span></span> <span data-ttu-id="cde21-117">Edge-Failover-Szenarien, die nicht vom DNS-Lastenausgleich profitieren, sind Failover für Remotebenutzer Exchange Unified Messaging (um) (vor Exchange 2010 SP1), für die Verbindung mit öffentlichen Instant Messaging-Diensten (im) und für den Verbund mit Servern mit Office-Kommunikation. Server.</span><span class="sxs-lookup"><span data-stu-id="cde21-117">Edge failover scenarios that do not benefit from DNS Load Balancing are failover for remote user Exchange Unified Messaging (UM) (prior to Exchange 2010 SP1), public instant messaging (IM) connectivity, and federation with servers running Office Communications Server.</span></span>
 
-### <a name="summary-of-edge-server-topology-options"></a><span data-ttu-id="c9db0-118">Zusammenfassung der Topologieoptionen für Edgeserver</span><span class="sxs-lookup"><span data-stu-id="c9db0-118">Summary of Edge Server Topology Options</span></span>
+### <a name="summary-of-edge-server-topology-options"></a><span data-ttu-id="cde21-118">Zusammenfassung der Topologieoptionen für Edgeserver</span><span class="sxs-lookup"><span data-stu-id="cde21-118">Summary of Edge Server Topology Options</span></span>
 
 <table>
 <colgroup>
@@ -83,119 +83,79 @@ ms.locfileid: "42046528"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="c9db0-119">Topologie</span><span class="sxs-lookup"><span data-stu-id="c9db0-119">Topology</span></span></th>
-<th><span data-ttu-id="c9db0-120">Hohe Verfügbarkeit</span><span class="sxs-lookup"><span data-stu-id="c9db0-120">High availability</span></span></th>
-<th><span data-ttu-id="c9db0-121">Zusätzliche DNS-A-Einträge für externe Edgeserver im Edgepool erforderlich</span><span class="sxs-lookup"><span data-stu-id="c9db0-121">Additional DNS A records required for external Edge Server in the Edge pool</span></span></th>
-<th><span data-ttu-id="c9db0-122">Edge-Failover für lync-zu-lync-Sitzungen</span><span class="sxs-lookup"><span data-stu-id="c9db0-122">Edge Failover for Lync-to-Lync sessions</span></span></th>
-<th><span data-ttu-id="c9db0-123">Edge-Failover für lync-zu-lync-EUM/PIC/OCS-Verbund Sitzungen</span><span class="sxs-lookup"><span data-stu-id="c9db0-123">Edge Failover for Lync-to-Lync EUM/PIC/OCS Federation sessions</span></span></th>
+<th><span data-ttu-id="cde21-119">Topologie</span><span class="sxs-lookup"><span data-stu-id="cde21-119">Topology</span></span></th>
+<th><span data-ttu-id="cde21-120">Hohe Verfügbarkeit</span><span class="sxs-lookup"><span data-stu-id="cde21-120">High availability</span></span></th>
+<th><span data-ttu-id="cde21-121">Zusätzliche DNS-A-Einträge für externe Edgeserver im Edgepool erforderlich</span><span class="sxs-lookup"><span data-stu-id="cde21-121">Additional DNS A records required for external Edge Server in the Edge pool</span></span></th>
+<th><span data-ttu-id="cde21-122">Edge-Failover für lync-zu-lync-Sitzungen</span><span class="sxs-lookup"><span data-stu-id="cde21-122">Edge Failover for Lync-to-Lync sessions</span></span></th>
+<th><span data-ttu-id="cde21-123">Edge-Failover für lync-zu-lync-EUM/PIC/OCS-Verbund Sitzungen</span><span class="sxs-lookup"><span data-stu-id="cde21-123">Edge Failover for Lync-to-Lync EUM/PIC/OCS Federation sessions</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c9db0-124">Einzelner Edgeserver mit Netzwerkadressenübersetzung (Network Address Translation, NAT)</span><span class="sxs-lookup"><span data-stu-id="c9db0-124">Single Edge using NAT</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-125">Nein</span><span class="sxs-lookup"><span data-stu-id="c9db0-125">No</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-126">Nein</span><span class="sxs-lookup"><span data-stu-id="c9db0-126">No</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-127">Nein</span><span class="sxs-lookup"><span data-stu-id="c9db0-127">No</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-128">Nein</span><span class="sxs-lookup"><span data-stu-id="c9db0-128">No</span></span></p></td>
+<td><p><span data-ttu-id="cde21-124">Einzelner Edgeserver mit Netzwerkadressenübersetzung (Network Address Translation, NAT)</span><span class="sxs-lookup"><span data-stu-id="cde21-124">Single Edge using NAT</span></span></p></td>
+<td><p><span data-ttu-id="cde21-125">Nein</span><span class="sxs-lookup"><span data-stu-id="cde21-125">No</span></span></p></td>
+<td><p><span data-ttu-id="cde21-126">Nein</span><span class="sxs-lookup"><span data-stu-id="cde21-126">No</span></span></p></td>
+<td><p><span data-ttu-id="cde21-127">Nein</span><span class="sxs-lookup"><span data-stu-id="cde21-127">No</span></span></p></td>
+<td><p><span data-ttu-id="cde21-128">Nein</span><span class="sxs-lookup"><span data-stu-id="cde21-128">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c9db0-129">Einzelner Edgeserver mit öffentlicher IP-Adresse</span><span class="sxs-lookup"><span data-stu-id="c9db0-129">Single Edge using Public IP</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-130">Nein</span><span class="sxs-lookup"><span data-stu-id="c9db0-130">No</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-131">Nein</span><span class="sxs-lookup"><span data-stu-id="c9db0-131">No</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-132">Nein</span><span class="sxs-lookup"><span data-stu-id="c9db0-132">No</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-133">Nein</span><span class="sxs-lookup"><span data-stu-id="c9db0-133">No</span></span></p></td>
+<td><p><span data-ttu-id="cde21-129">Einzelner Edgeserver mit öffentlicher IP-Adresse</span><span class="sxs-lookup"><span data-stu-id="cde21-129">Single Edge using Public IP</span></span></p></td>
+<td><p><span data-ttu-id="cde21-130">Nein</span><span class="sxs-lookup"><span data-stu-id="cde21-130">No</span></span></p></td>
+<td><p><span data-ttu-id="cde21-131">Nein</span><span class="sxs-lookup"><span data-stu-id="cde21-131">No</span></span></p></td>
+<td><p><span data-ttu-id="cde21-132">Nein</span><span class="sxs-lookup"><span data-stu-id="cde21-132">No</span></span></p></td>
+<td><p><span data-ttu-id="cde21-133">Nein</span><span class="sxs-lookup"><span data-stu-id="cde21-133">No</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c9db0-134">Skalierter Edgeserver (DNS-Lastenausgleich) mit NAT</span><span class="sxs-lookup"><span data-stu-id="c9db0-134">Scaled Edge (DNS Load Balanced) using NAT</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-135">Ja</span><span class="sxs-lookup"><span data-stu-id="c9db0-135">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-136">Ja</span><span class="sxs-lookup"><span data-stu-id="c9db0-136">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-137">Ja</span><span class="sxs-lookup"><span data-stu-id="c9db0-137">Yes</span></span></p></td>
+<td><p><span data-ttu-id="cde21-134">Skalierter Edgeserver (DNS-Lastenausgleich) mit NAT</span><span class="sxs-lookup"><span data-stu-id="cde21-134">Scaled Edge (DNS Load Balanced) using NAT</span></span></p></td>
+<td><p><span data-ttu-id="cde21-135">Ja</span><span class="sxs-lookup"><span data-stu-id="cde21-135">Yes</span></span></p></td>
+<td><p><span data-ttu-id="cde21-136">Ja</span><span class="sxs-lookup"><span data-stu-id="cde21-136">Yes</span></span></p></td>
+<td><p><span data-ttu-id="cde21-137">Ja</span><span class="sxs-lookup"><span data-stu-id="cde21-137">Yes</span></span></p></td>
 <td><p>*</p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c9db0-138">Skalierter Edgeserver (DNS-Lastenausgleich) mit öffentlicher IP-Adresse</span><span class="sxs-lookup"><span data-stu-id="c9db0-138">Scaled Edge (DNS Load Balanced) using Public IP</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-139">Ja</span><span class="sxs-lookup"><span data-stu-id="c9db0-139">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-140">Ja</span><span class="sxs-lookup"><span data-stu-id="c9db0-140">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-141">Ja</span><span class="sxs-lookup"><span data-stu-id="c9db0-141">Yes</span></span></p></td>
+<td><p><span data-ttu-id="cde21-138">Skalierter Edgeserver (DNS-Lastenausgleich) mit öffentlicher IP-Adresse</span><span class="sxs-lookup"><span data-stu-id="cde21-138">Scaled Edge (DNS Load Balanced) using Public IP</span></span></p></td>
+<td><p><span data-ttu-id="cde21-139">Ja</span><span class="sxs-lookup"><span data-stu-id="cde21-139">Yes</span></span></p></td>
+<td><p><span data-ttu-id="cde21-140">Ja</span><span class="sxs-lookup"><span data-stu-id="cde21-140">Yes</span></span></p></td>
+<td><p><span data-ttu-id="cde21-141">Ja</span><span class="sxs-lookup"><span data-stu-id="cde21-141">Yes</span></span></p></td>
 <td><p>*</p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c9db0-142">Skalierter Edgeserver (Hardwarelastenausgleich)</span><span class="sxs-lookup"><span data-stu-id="c9db0-142">Scaled Edge Hardware load balanced)</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-143">Ja</span><span class="sxs-lookup"><span data-stu-id="c9db0-143">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-144">Nein (ein DNS A-Eintrag pro VIP)</span><span class="sxs-lookup"><span data-stu-id="c9db0-144">No (one DNS A record per VIP)</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-145">Ja</span><span class="sxs-lookup"><span data-stu-id="c9db0-145">Yes</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-146">Ja</span><span class="sxs-lookup"><span data-stu-id="c9db0-146">Yes</span></span></p></td>
+<td><p><span data-ttu-id="cde21-142">Skalierter Edgeserver (Hardwarelastenausgleich)</span><span class="sxs-lookup"><span data-stu-id="cde21-142">Scaled Edge Hardware load balanced)</span></span></p></td>
+<td><p><span data-ttu-id="cde21-143">Ja</span><span class="sxs-lookup"><span data-stu-id="cde21-143">Yes</span></span></p></td>
+<td><p><span data-ttu-id="cde21-144">Nein (ein DNS A-Eintrag pro VIP)</span><span class="sxs-lookup"><span data-stu-id="cde21-144">No (one DNS A record per VIP)</span></span></p></td>
+<td><p><span data-ttu-id="cde21-145">Ja</span><span class="sxs-lookup"><span data-stu-id="cde21-145">Yes</span></span></p></td>
+<td><p><span data-ttu-id="cde21-146">Ja</span><span class="sxs-lookup"><span data-stu-id="cde21-146">Yes</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="c9db0-147">**\*** Failover für die Verbindung mit öffentlichen Instant Messaging-Verbindungen und Verbund mit Servern mit Office Communications Server ist mit dem DNS-Lastenausgleich nicht verfügbar.</span><span class="sxs-lookup"><span data-stu-id="c9db0-147">**\*** Failover for public instant messaging (IM) connectivity, and federation with servers running Office Communications Server is not available with DNS load balancing.</span></span> <span data-ttu-id="c9db0-148">Für Exchange um (Remotebenutzer)-Failover mithilfe des DNS-Lastenausgleichs ist Exchange Server 2010 SP1 oder höher erforderlich.</span><span class="sxs-lookup"><span data-stu-id="c9db0-148">Exchange UM (remote user) failover using DNS load balancing requires Exchange Server 2010 SP1 or newer.</span></span>
+<span data-ttu-id="cde21-147">**\*** Failover für die Verbindung mit öffentlichen Instant Messaging-Verbindungen und Verbund mit Servern mit Office Communications Server ist mit dem DNS-Lastenausgleich nicht verfügbar.</span><span class="sxs-lookup"><span data-stu-id="cde21-147">**\*** Failover for public instant messaging (IM) connectivity, and federation with servers running Office Communications Server is not available with DNS load balancing.</span></span> <span data-ttu-id="cde21-148">Für Exchange um (Remotebenutzer)-Failover mithilfe des DNS-Lastenausgleichs ist Exchange Server 2010 SP1 oder höher erforderlich.</span><span class="sxs-lookup"><span data-stu-id="cde21-148">Exchange UM (remote user) failover using DNS load balancing requires Exchange Server 2010 SP1 or newer.</span></span>
 
 
 
 > [!NOTE]
-> <span data-ttu-id="c9db0-149">Für Topologien mit einem einzelnen Edgeserver und mit einem skalierten Edgeserver (mit DNS-Lastenausgleich) kann Folgendes verwendet werden:</span><span class="sxs-lookup"><span data-stu-id="c9db0-149">Single Edge and Scaled Edge (DNS load balanced) topologies can use:</span></span>
-> <ul><li><p><span data-ttu-id="c9db0-150">Routingfähige öffentliche IP-Adressen</span><span class="sxs-lookup"><span data-stu-id="c9db0-150">Routable public IP addresses</span></span></p></li>
-> <li><p><span data-ttu-id="c9db0-151">Nicht routingfähige private IP-Adresse, wenn die symmetrische Netzwerkadressübersetzung (NAT) verwendet wird</span><span class="sxs-lookup"><span data-stu-id="c9db0-151">Non-routable private IP address if symmetric network address translation (NAT) is used</span></span></p></li>
+> <span data-ttu-id="cde21-149">Für Topologien mit einem einzelnen Edgeserver und mit einem skalierten Edgeserver (mit DNS-Lastenausgleich) kann Folgendes verwendet werden:</span><span class="sxs-lookup"><span data-stu-id="cde21-149">Single Edge and Scaled Edge (DNS load balanced) topologies can use:</span></span>
+> <ul><li><p><span data-ttu-id="cde21-150">Routingfähige öffentliche IP-Adressen</span><span class="sxs-lookup"><span data-stu-id="cde21-150">Routable public IP addresses</span></span></p></li>
+> <li><p><span data-ttu-id="cde21-151">Nicht routingfähige private IP-Adresse, wenn die symmetrische Netzwerkadressübersetzung (NAT) verwendet wird</span><span class="sxs-lookup"><span data-stu-id="cde21-151">Non-routable private IP address if symmetric network address translation (NAT) is used</span></span></p></li>
 >
-> <ul><li> <span data-ttu-id="c9db0-152">Wenn Sie die öffentliche IP-Adresse oder private IP-Adresse mit NAT verwenden, verwenden Sie weiterhin die gleiche Anzahl von IP-Adressen basierend auf Ihrer Konfigurationsoption im Topologie-Generator.</span><span class="sxs-lookup"><span data-stu-id="c9db0-152">If you use public IP address or private IP address with NAT, you will still use the same number of IP addresses based on your configuration choice in Topology Builder.</span></span> <span data-ttu-id="c9db0-153">Sie können die Edgeserver so konfigurieren, dass eine einzelne IP-Adresse mit verschiedenen Ports pro Dienst verwendet wird, oder Sie verwenden unterschiedliche IP-Adressen pro Dienst, verwenden jedoch denselben Port (standardmäßig TCP 443).</span><span class="sxs-lookup"><span data-stu-id="c9db0-153">You can configure the Edge Server to use a single IP address with distinct ports per service, or use distinct IP addresses per service, but use the same port (by default, TCP 443).</span></span></li></ul>>
-> <span data-ttu-id="c9db0-154">Wenn Sie sich für die Verwendung von nicht routingfähigen privaten IP-Adressen mit NAT entscheiden:</span><span class="sxs-lookup"><span data-stu-id="c9db0-154">If you decide to use non-routable private IP addresses with NAT:</span></span>
-> <ul><li><p><span data-ttu-id="c9db0-155">Sie müssen routingfähige private IP-Adressen für alle drei externen Schnittstellen verwenden.</span><span class="sxs-lookup"><span data-stu-id="c9db0-155">You must use routable private IP addresses on all three external interfaces</span></span></p></li>
-> <li><p><span data-ttu-id="c9db0-156">Sie müssen ein symmetrisches NAT-Gerät für eingehenden und ausgehenden Datenverkehr konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="c9db0-156">You must configure symmetric NAT for incoming and outgoing traffic</span></span></p></li></ul>>
-> <span data-ttu-id="c9db0-157">Für eine Topologie mit skaliertem Edgeserver (mit Hardwarelastenausgleich) müssen öffentliche IP-Adressen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="c9db0-157">Scaled Edge (hardware load balanced) topology must use public IP addresses.</span></span>
+> <ul><li> <span data-ttu-id="cde21-152">Wenn Sie die öffentliche IP-Adresse oder private IP-Adresse mit NAT verwenden, verwenden Sie weiterhin die gleiche Anzahl von IP-Adressen basierend auf Ihrer Konfigurationsoption im Topologie-Generator.</span><span class="sxs-lookup"><span data-stu-id="cde21-152">If you use public IP address or private IP address with NAT, you will still use the same number of IP addresses based on your configuration choice in Topology Builder.</span></span> <span data-ttu-id="cde21-153">Sie können die Edgeserver so konfigurieren, dass eine einzelne IP-Adresse mit verschiedenen Ports pro Dienst verwendet wird, oder Sie verwenden unterschiedliche IP-Adressen pro Dienst, verwenden jedoch denselben Port (standardmäßig TCP 443).</span><span class="sxs-lookup"><span data-stu-id="cde21-153">You can configure the Edge Server to use a single IP address with distinct ports per service, or use distinct IP addresses per service, but use the same port (by default, TCP 443).</span></span></li></ul>>
+> <span data-ttu-id="cde21-154">Wenn Sie sich für die Verwendung von nicht routingfähigen privaten IP-Adressen mit NAT entscheiden:</span><span class="sxs-lookup"><span data-stu-id="cde21-154">If you decide to use non-routable private IP addresses with NAT:</span></span>
+> <ul><li><p><span data-ttu-id="cde21-155">Sie müssen routingfähige private IP-Adressen für alle drei externen Schnittstellen verwenden.</span><span class="sxs-lookup"><span data-stu-id="cde21-155">You must use routable private IP addresses on all three external interfaces</span></span></p></li>
+> <li><p><span data-ttu-id="cde21-156">Sie müssen ein symmetrisches NAT-Gerät für eingehenden und ausgehenden Datenverkehr konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="cde21-156">You must configure symmetric NAT for incoming and outgoing traffic</span></span></p></li></ul>>
+> <span data-ttu-id="cde21-157">Für eine Topologie mit skaliertem Edgeserver (mit Hardwarelastenausgleich) müssen öffentliche IP-Adressen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="cde21-157">Scaled Edge (hardware load balanced) topology must use public IP addresses.</span></span>
 
 
 
-<span data-ttu-id="c9db0-158">Lync Server 2013 unterstützt das Platzieren von Zugriffs-, Webkonferenz-und a/V-Edge-Schnittstellen hinter einem Router oder einer Firewall, die Netzwerkadressübersetzung (Network Address Translation, NAT) für einzelne und skalierte konsolidierte Edgeserver Topologien ausführt.</span><span class="sxs-lookup"><span data-stu-id="c9db0-158">Lync Server 2013 supports placing Access, Web Conferencing, and A/V Edge external interfaces behind a router or firewall that performs network address translation (NAT) for both single and scaled consolidated Edge Server topologies.</span></span>
+<span data-ttu-id="cde21-158">Lync Server 2013 unterstützt das Platzieren von Zugriffs-, Webkonferenz-und a/V-Edge-Schnittstellen hinter einem Router oder einer Firewall, die Netzwerkadressübersetzung (Network Address Translation, NAT) für einzelne und skalierte konsolidierte Edgeserver Topologien ausführt.</span><span class="sxs-lookup"><span data-stu-id="cde21-158">Lync Server 2013 supports placing Access, Web Conferencing, and A/V Edge external interfaces behind a router or firewall that performs network address translation (NAT) for both single and scaled consolidated Edge Server topologies.</span></span>
 
-<span data-ttu-id="c9db0-p106">Bei Verwendung der Netzwerkadressenübersetzung für alle externen Edgeschnittstellen muss der DNS-Lastenausgleich implementiert werden. Im Vergleich mit der Verwendung eines Hardwarelastenausgleichs ermöglicht die Verwendung von DNS-Lastenausgleich die Reduzierung der Anzahl von öffentlichen IP-Adressen pro Edgeserver in einem Edgepool, wie in der folgenden Liste beschrieben:</span><span class="sxs-lookup"><span data-stu-id="c9db0-p106">Using NAT for all Edge external interfaces requires the use of DNS load balancing. When compared to using hardware load balancers, using DNS load balancing without NAT allows you to reduce the number of public IP address per Edge Server in an Edge pool as described in the following list:</span></span>
+<span data-ttu-id="cde21-p106">Bei Verwendung der Netzwerkadressenübersetzung für alle externen Edgeschnittstellen muss der DNS-Lastenausgleich implementiert werden. Im Vergleich mit der Verwendung eines Hardwarelastenausgleichs ermöglicht die Verwendung von DNS-Lastenausgleich die Reduzierung der Anzahl von öffentlichen IP-Adressen pro Edgeserver in einem Edgepool, wie in der folgenden Liste beschrieben:</span><span class="sxs-lookup"><span data-stu-id="cde21-p106">Using NAT for all Edge external interfaces requires the use of DNS load balancing. When compared to using hardware load balancers, using DNS load balancing without NAT allows you to reduce the number of public IP address per Edge Server in an Edge pool as described in the following list:</span></span>
 
-  - <span data-ttu-id="c9db0-161">Lync Server 2013 skalierter konsolidierter Edgeserver (DNS-Lastenausgleich) erfordert drei öffentliche IP-Adressen für jeden Edgeserver in einem Edgepool.</span><span class="sxs-lookup"><span data-stu-id="c9db0-161">Lync Server 2013 Scaled Consolidated Edge (DNS load balanced) Requires three public IP addresses for each Edge Server in an Edge pool.</span></span>
+  - <span data-ttu-id="cde21-161">Lync Server 2013 skalierter konsolidierter Edgeserver (DNS-Lastenausgleich) erfordert drei öffentliche IP-Adressen für jeden Edgeserver in einem Edgepool.</span><span class="sxs-lookup"><span data-stu-id="cde21-161">Lync Server 2013 Scaled Consolidated Edge (DNS load balanced) Requires three public IP addresses for each Edge Server in an Edge pool.</span></span>
 
-  - <span data-ttu-id="c9db0-162">Lync Server 2013 skalierten konsolidierten Edgeserver (Hardwarelastenausgleich) erfordert drei öffentliche IP-Adressen für die virtuellen IP-Adressen des Lastenausgleichs (eine einmalige Anforderung, die nicht erhöht wird, wenn dem Pool weitere Edgeserver hinzugefügt werden) sowie drei öffentliche IP-Adressen pro Edgeserver in einem Pool.</span><span class="sxs-lookup"><span data-stu-id="c9db0-162">Lync Server 2013 Scaled Consolidated Edge (hardware load balanced) Requires three public IP address for load balancer virtual IP addresses (one time requirement that does not increment as more Edge Servers are added to the pool) plus three public IP addresses per Edge Server in a pool.</span></span>
+  - <span data-ttu-id="cde21-162">Lync Server 2013 skalierten konsolidierten Edgeserver (Hardwarelastenausgleich) erfordert drei öffentliche IP-Adressen für die virtuellen IP-Adressen des Lastenausgleichs (eine einmalige Anforderung, die nicht erhöht wird, wenn dem Pool weitere Edgeserver hinzugefügt werden) sowie drei öffentliche IP-Adressen pro Edgeserver in einem Pool.</span><span class="sxs-lookup"><span data-stu-id="cde21-162">Lync Server 2013 Scaled Consolidated Edge (hardware load balanced) Requires three public IP address for load balancer virtual IP addresses (one time requirement that does not increment as more Edge Servers are added to the pool) plus three public IP addresses per Edge Server in a pool.</span></span>
 
-### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a><span data-ttu-id="c9db0-163">IP-Adressanforderungen für eine skalierte konsolidierte Edgetopologie (IP-Adresse pro Rolle)</span><span class="sxs-lookup"><span data-stu-id="c9db0-163">IP Address Requirements for Scaled Consolidated Edge (IP Address per role)</span></span>
-
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><span data-ttu-id="c9db0-164">Anzahl von Edgeservern pro Pool</span><span class="sxs-lookup"><span data-stu-id="c9db0-164">Number of Edge Servers per pool</span></span></th>
-<th><span data-ttu-id="c9db0-165">Anzahl erforderlicher IP-Adressen lync Server 2013 (DNS-Lastenausgleich)</span><span class="sxs-lookup"><span data-stu-id="c9db0-165">Number of required IP addresses Lync Server 2013 (DNS load balanced)</span></span></th>
-<th><span data-ttu-id="c9db0-166">Anzahl erforderlicher IP-Adressen lync Server 2013 (Hardwarelastenausgleich)</span><span class="sxs-lookup"><span data-stu-id="c9db0-166">Number of required IP addresses Lync Server 2013 (hardware load balanced)</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><span data-ttu-id="c9db0-167">2 </span><span class="sxs-lookup"><span data-stu-id="c9db0-167">2</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-168">6 </span><span class="sxs-lookup"><span data-stu-id="c9db0-168">6</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-169">3 (1 pro VIP) + 6</span><span class="sxs-lookup"><span data-stu-id="c9db0-169">3 (1 per VIP) + 6</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="c9db0-170">3 </span><span class="sxs-lookup"><span data-stu-id="c9db0-170">3</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-171">9 </span><span class="sxs-lookup"><span data-stu-id="c9db0-171">9</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-172">3 (1 pro VIP) + 9</span><span class="sxs-lookup"><span data-stu-id="c9db0-172">3 (1 per VIP) + 9</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="c9db0-173">4 </span><span class="sxs-lookup"><span data-stu-id="c9db0-173">4</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-174">12</span><span class="sxs-lookup"><span data-stu-id="c9db0-174">12</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-175">3 (1 pro VIP) + 12</span><span class="sxs-lookup"><span data-stu-id="c9db0-175">3 (1 per VIP) + 12</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="c9db0-176">5 </span><span class="sxs-lookup"><span data-stu-id="c9db0-176">5</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-177">15 </span><span class="sxs-lookup"><span data-stu-id="c9db0-177">15</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-178">3 (1 pro VIP) + 15</span><span class="sxs-lookup"><span data-stu-id="c9db0-178">3 (1 per VIP) + 15</span></span></p></td>
-</tr>
-</tbody>
-</table>
-
-
-### <a name="ip-address-requirements-for-scaled-consolidated-edge-single-ip-address-for-all-roles"></a><span data-ttu-id="c9db0-179">IP-Adressanforderungen für eine skalierte konsolidierte Edgetopologie (eine IP-Adresse für alle Rollen)</span><span class="sxs-lookup"><span data-stu-id="c9db0-179">IP Address Requirements for Scaled Consolidated Edge (Single IP address for all roles)</span></span>
+### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a><span data-ttu-id="cde21-163">IP-Adressanforderungen für eine skalierte konsolidierte Edgetopologie (IP-Adresse pro Rolle)</span><span class="sxs-lookup"><span data-stu-id="cde21-163">IP Address Requirements for Scaled Consolidated Edge (IP Address per role)</span></span>
 
 <table>
 <colgroup>
@@ -205,77 +165,117 @@ ms.locfileid: "42046528"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="c9db0-180">Anzahl von Edgeservern pro Pool</span><span class="sxs-lookup"><span data-stu-id="c9db0-180">Number of Edge Servers per pool</span></span></th>
-<th><span data-ttu-id="c9db0-181">Anzahl erforderlicher IP-Adressen lync Server 2013 (DNS-Lastenausgleich)</span><span class="sxs-lookup"><span data-stu-id="c9db0-181">Number of required IP addresses Lync Server 2013 (DNS load balanced)</span></span></th>
-<th><span data-ttu-id="c9db0-182">Anzahl erforderlicher IP-Adressen lync Server 2013 (Hardwarelastenausgleich)</span><span class="sxs-lookup"><span data-stu-id="c9db0-182">Number of required IP addresses Lync Server 2013 (hardware load balanced)</span></span></th>
+<th><span data-ttu-id="cde21-164">Anzahl von Edgeservern pro Pool</span><span class="sxs-lookup"><span data-stu-id="cde21-164">Number of Edge Servers per pool</span></span></th>
+<th><span data-ttu-id="cde21-165">Anzahl erforderlicher IP-Adressen lync Server 2013 (DNS-Lastenausgleich)</span><span class="sxs-lookup"><span data-stu-id="cde21-165">Number of required IP addresses Lync Server 2013 (DNS load balanced)</span></span></th>
+<th><span data-ttu-id="cde21-166">Anzahl erforderlicher IP-Adressen lync Server 2013 (Hardwarelastenausgleich)</span><span class="sxs-lookup"><span data-stu-id="cde21-166">Number of required IP addresses Lync Server 2013 (hardware load balanced)</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="c9db0-183">2 </span><span class="sxs-lookup"><span data-stu-id="c9db0-183">2</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-184">2 </span><span class="sxs-lookup"><span data-stu-id="c9db0-184">2</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-185">1 (1 pro VIP) + 2</span><span class="sxs-lookup"><span data-stu-id="c9db0-185">1 (1 per VIP) + 2</span></span></p></td>
+<td><p><span data-ttu-id="cde21-167">2</span><span class="sxs-lookup"><span data-stu-id="cde21-167">2</span></span></p></td>
+<td><p><span data-ttu-id="cde21-168">6 </span><span class="sxs-lookup"><span data-stu-id="cde21-168">6</span></span></p></td>
+<td><p><span data-ttu-id="cde21-169">3 (1 pro VIP) + 6</span><span class="sxs-lookup"><span data-stu-id="cde21-169">3 (1 per VIP) + 6</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c9db0-186">3 </span><span class="sxs-lookup"><span data-stu-id="c9db0-186">3</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-187">3 </span><span class="sxs-lookup"><span data-stu-id="c9db0-187">3</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-188">1 (1 pro VIP) + 3</span><span class="sxs-lookup"><span data-stu-id="c9db0-188">1 (1 per VIP) + 3</span></span></p></td>
+<td><p><span data-ttu-id="cde21-170">3</span><span class="sxs-lookup"><span data-stu-id="cde21-170">3</span></span></p></td>
+<td><p><span data-ttu-id="cde21-171">9 </span><span class="sxs-lookup"><span data-stu-id="cde21-171">9</span></span></p></td>
+<td><p><span data-ttu-id="cde21-172">3 (1 pro VIP) + 9</span><span class="sxs-lookup"><span data-stu-id="cde21-172">3 (1 per VIP) + 9</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="c9db0-189">4 </span><span class="sxs-lookup"><span data-stu-id="c9db0-189">4</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-190">4 </span><span class="sxs-lookup"><span data-stu-id="c9db0-190">4</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-191">1 (1 pro VIP) + 4</span><span class="sxs-lookup"><span data-stu-id="c9db0-191">1 (1 per VIP) + 4</span></span></p></td>
+<td><p><span data-ttu-id="cde21-173">4</span><span class="sxs-lookup"><span data-stu-id="cde21-173">4</span></span></p></td>
+<td><p><span data-ttu-id="cde21-174">12</span><span class="sxs-lookup"><span data-stu-id="cde21-174">12</span></span></p></td>
+<td><p><span data-ttu-id="cde21-175">3 (1 pro VIP) + 12</span><span class="sxs-lookup"><span data-stu-id="cde21-175">3 (1 per VIP) + 12</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="c9db0-192">5 </span><span class="sxs-lookup"><span data-stu-id="c9db0-192">5</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-193">5</span><span class="sxs-lookup"><span data-stu-id="c9db0-193">5</span></span></p></td>
-<td><p><span data-ttu-id="c9db0-194">1 (1 pro VIP) + 5</span><span class="sxs-lookup"><span data-stu-id="c9db0-194">1 (1 per VIP) + 5</span></span></p></td>
+<td><p><span data-ttu-id="cde21-176">5</span><span class="sxs-lookup"><span data-stu-id="cde21-176">5</span></span></p></td>
+<td><p><span data-ttu-id="cde21-177">15 </span><span class="sxs-lookup"><span data-stu-id="cde21-177">15</span></span></p></td>
+<td><p><span data-ttu-id="cde21-178">3 (1 pro VIP) + 15</span><span class="sxs-lookup"><span data-stu-id="cde21-178">3 (1 per VIP) + 15</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="c9db0-p107">Die wichtigsten Aspekte bei der Topologieauswahl sind hohe Verfügbarkeit und Lastenausgleich. Die Anforderung zur Bereitstellung hoher Verfügbarkeit kann sich auf die Entscheidung zum Lastenausgleich auswirken.</span><span class="sxs-lookup"><span data-stu-id="c9db0-p107">The primary decision points for topology selection are high availability and load balancing. The requirement for high availability can influence the load balancing decision.</span></span>
+### <a name="ip-address-requirements-for-scaled-consolidated-edge-single-ip-address-for-all-roles"></a><span data-ttu-id="cde21-179">IP-Adressanforderungen für eine skalierte konsolidierte Edgetopologie (eine IP-Adresse für alle Rollen)</span><span class="sxs-lookup"><span data-stu-id="cde21-179">IP Address Requirements for Scaled Consolidated Edge (Single IP address for all roles)</span></span>
 
-  - <span data-ttu-id="c9db0-197">**Hohe Verfügbarkeit**   Wenn Sie hohe Verfügbarkeit benötigen, stellen Sie mindestens zwei Edgeserver in einem Pool bereit.</span><span class="sxs-lookup"><span data-stu-id="c9db0-197">**High availability**   If you need high availability, deploy at least two Edge Servers in a pool.</span></span> <span data-ttu-id="c9db0-198">Bei einem einzelnen Edgepool werden bis zu zwölf Edgeserver unterstützt.</span><span class="sxs-lookup"><span data-stu-id="c9db0-198">A single Edge pool will support up to twelve Edge Servers.</span></span> <span data-ttu-id="c9db0-199">Wenn mehr Kapazität benötigt wird, können Sie mehrere Edgepools bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="c9db0-199">If more capacity is required, you can deploy multiple Edge pools.</span></span> <span data-ttu-id="c9db0-200">Als allgemeine Regel benötigen 10% der Benutzer externen Zugriff.</span><span class="sxs-lookup"><span data-stu-id="c9db0-200">As a general rule, 10% of a given user base will need external access.</span></span>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="cde21-180">Anzahl von Edgeservern pro Pool</span><span class="sxs-lookup"><span data-stu-id="cde21-180">Number of Edge Servers per pool</span></span></th>
+<th><span data-ttu-id="cde21-181">Anzahl erforderlicher IP-Adressen lync Server 2013 (DNS-Lastenausgleich)</span><span class="sxs-lookup"><span data-stu-id="cde21-181">Number of required IP addresses Lync Server 2013 (DNS load balanced)</span></span></th>
+<th><span data-ttu-id="cde21-182">Anzahl erforderlicher IP-Adressen lync Server 2013 (Hardwarelastenausgleich)</span><span class="sxs-lookup"><span data-stu-id="cde21-182">Number of required IP addresses Lync Server 2013 (hardware load balanced)</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="cde21-183">2</span><span class="sxs-lookup"><span data-stu-id="cde21-183">2</span></span></p></td>
+<td><p><span data-ttu-id="cde21-184">2</span><span class="sxs-lookup"><span data-stu-id="cde21-184">2</span></span></p></td>
+<td><p><span data-ttu-id="cde21-185">1 (1 pro VIP) + 2</span><span class="sxs-lookup"><span data-stu-id="cde21-185">1 (1 per VIP) + 2</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="cde21-186">3</span><span class="sxs-lookup"><span data-stu-id="cde21-186">3</span></span></p></td>
+<td><p><span data-ttu-id="cde21-187">3</span><span class="sxs-lookup"><span data-stu-id="cde21-187">3</span></span></p></td>
+<td><p><span data-ttu-id="cde21-188">1 (1 pro VIP) + 3</span><span class="sxs-lookup"><span data-stu-id="cde21-188">1 (1 per VIP) + 3</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="cde21-189">4</span><span class="sxs-lookup"><span data-stu-id="cde21-189">4</span></span></p></td>
+<td><p><span data-ttu-id="cde21-190">4</span><span class="sxs-lookup"><span data-stu-id="cde21-190">4</span></span></p></td>
+<td><p><span data-ttu-id="cde21-191">1 (1 pro VIP) + 4</span><span class="sxs-lookup"><span data-stu-id="cde21-191">1 (1 per VIP) + 4</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="cde21-192">5</span><span class="sxs-lookup"><span data-stu-id="cde21-192">5</span></span></p></td>
+<td><p><span data-ttu-id="cde21-193">5</span><span class="sxs-lookup"><span data-stu-id="cde21-193">5</span></span></p></td>
+<td><p><span data-ttu-id="cde21-194">1 (1 pro VIP) + 5</span><span class="sxs-lookup"><span data-stu-id="cde21-194">1 (1 per VIP) + 5</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+<span data-ttu-id="cde21-p107">Die wichtigsten Aspekte bei der Topologieauswahl sind hohe Verfügbarkeit und Lastenausgleich. Die Anforderung zur Bereitstellung hoher Verfügbarkeit kann sich auf die Entscheidung zum Lastenausgleich auswirken.</span><span class="sxs-lookup"><span data-stu-id="cde21-p107">The primary decision points for topology selection are high availability and load balancing. The requirement for high availability can influence the load balancing decision.</span></span>
+
+  - <span data-ttu-id="cde21-197">**Hohe Verfügbarkeit**   Wenn Sie hohe Verfügbarkeit benötigen, stellen Sie mindestens zwei Edgeserver in einem Pool bereit.</span><span class="sxs-lookup"><span data-stu-id="cde21-197">**High availability**   If you need high availability, deploy at least two Edge Servers in a pool.</span></span> <span data-ttu-id="cde21-198">Bei einem einzelnen Edgepool werden bis zu zwölf Edgeserver unterstützt.</span><span class="sxs-lookup"><span data-stu-id="cde21-198">A single Edge pool will support up to twelve Edge Servers.</span></span> <span data-ttu-id="cde21-199">Wenn mehr Kapazität benötigt wird, können Sie mehrere Edgepools bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="cde21-199">If more capacity is required, you can deploy multiple Edge pools.</span></span> <span data-ttu-id="cde21-200">Als allgemeine Regel benötigen 10% der Benutzer externen Zugriff.</span><span class="sxs-lookup"><span data-stu-id="cde21-200">As a general rule, 10% of a given user base will need external access.</span></span>
     
     <div>
     
 
     > [!IMPORTANT]
-    > <span data-ttu-id="c9db0-201">Mit dem Topologie-Generator können Sie bis zu zwanzig Edgeserver in einem einzigen Edgepool konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="c9db0-201">Topology Builder will allow you to configure up to twenty Edge Servers in a single Edge pool.</span></span> <span data-ttu-id="c9db0-202">Die getestete und unterstützte maximale Anzahl von Edgeserver in einem Pool ist zwölf, und der Topologie-Generator, der eine Zahl größer als zwölf zulässt, sollte nicht als implizierte Unterstützung für mehr als zwölf Edgeserver in einem einzigen Edgepool ausgelegt werden.</span><span class="sxs-lookup"><span data-stu-id="c9db0-202">The tested and supported maximum number of Edge Servers in a pool is twelve and Topology Builder allowing for a number larger than twelve should not be construed as implied support for more than twelve Edge Servers in a single Edge pool.</span></span>
+    > <span data-ttu-id="cde21-201">Mit dem Topologie-Generator können Sie bis zu zwanzig Edgeserver in einem einzigen Edgepool konfigurieren.</span><span class="sxs-lookup"><span data-stu-id="cde21-201">Topology Builder will allow you to configure up to twenty Edge Servers in a single Edge pool.</span></span> <span data-ttu-id="cde21-202">Die getestete und unterstützte maximale Anzahl von Edgeserver in einem Pool ist zwölf, und der Topologie-Generator, der eine Zahl größer als zwölf zulässt, sollte nicht als implizierte Unterstützung für mehr als zwölf Edgeserver in einem einzigen Edgepool ausgelegt werden.</span><span class="sxs-lookup"><span data-stu-id="cde21-202">The tested and supported maximum number of Edge Servers in a pool is twelve and Topology Builder allowing for a number larger than twelve should not be construed as implied support for more than twelve Edge Servers in a single Edge pool.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="c9db0-203">**Hardware Lastenausgleich**   Hardware Lastenausgleich wird für den Lastenausgleich lync Server 2013 Edgeserver unterstützt, wenn öffentlich routingfähige IP-Adressen für die externen Edge-Schnittstellen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="c9db0-203">**Hardware load balancing**   Hardware load balancing is supported for load balancing Lync Server 2013 Edge Servers when using publicly routable IP addresses for the Edge external interfaces.</span></span> <span data-ttu-id="c9db0-204">Beispielsweise würden Sie diesen Ansatz in Situationen wählen, in denen ein Failover für eine der folgenden Anwendungen erforderlich ist:</span><span class="sxs-lookup"><span data-stu-id="c9db0-204">For example, you would use this approach in situations where failover is required for any of the following applications:</span></span>
+  - <span data-ttu-id="cde21-203">**Hardware Lastenausgleich**   Hardware Lastenausgleich wird für den Lastenausgleich lync Server 2013 Edgeserver unterstützt, wenn öffentlich routingfähige IP-Adressen für die externen Edge-Schnittstellen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="cde21-203">**Hardware load balancing**   Hardware load balancing is supported for load balancing Lync Server 2013 Edge Servers when using publicly routable IP addresses for the Edge external interfaces.</span></span> <span data-ttu-id="cde21-204">Beispielsweise würden Sie diesen Ansatz in Situationen wählen, in denen ein Failover für eine der folgenden Anwendungen erforderlich ist:</span><span class="sxs-lookup"><span data-stu-id="cde21-204">For example, you would use this approach in situations where failover is required for any of the following applications:</span></span>
     
-      - <span data-ttu-id="c9db0-205">Verbindung mit öffentlichen Instant Messaging-Diensten</span><span class="sxs-lookup"><span data-stu-id="c9db0-205">Public IM connectivity</span></span>
+      - <span data-ttu-id="cde21-205">Verbindung mit öffentlichen Instant Messaging-Diensten</span><span class="sxs-lookup"><span data-stu-id="cde21-205">Public IM connectivity</span></span>
     
-      - <span data-ttu-id="c9db0-206">Partnerverbund mit Microsoft Office Communications Server 2007 oder Microsoft Office Communications Server 2007 R2 ausführenden Unternehmen</span><span class="sxs-lookup"><span data-stu-id="c9db0-206">Federation with companies running Microsoft Office Communications Server 2007 or Microsoft Office Communications Server 2007 R2</span></span>
+      - <span data-ttu-id="cde21-206">Partnerverbund mit Microsoft Office Communications Server 2007 oder Microsoft Office Communications Server 2007 R2 ausführenden Unternehmen</span><span class="sxs-lookup"><span data-stu-id="cde21-206">Federation with companies running Microsoft Office Communications Server 2007 or Microsoft Office Communications Server 2007 R2</span></span>
     
-      - <span data-ttu-id="c9db0-207">Externer Zugriff auf Exchange 2007 Unified Messaging (UM) oder Exchange 2010 UM</span><span class="sxs-lookup"><span data-stu-id="c9db0-207">External access to Exchange 2007 Unified Messaging (UM) or Exchange 2010 UM</span></span>
+      - <span data-ttu-id="cde21-207">Externer Zugriff auf Exchange 2007 Unified Messaging (UM) oder Exchange 2010 UM</span><span class="sxs-lookup"><span data-stu-id="cde21-207">External access to Exchange 2007 Unified Messaging (UM) or Exchange 2010 UM</span></span>
         
         <div>
         
 
         > [!IMPORTANT]
-        > <span data-ttu-id="c9db0-208">Der DNS-Lastenausgleich für Exchange 2010 SP1 und neuer wird für Exchange um unterstützt.</span><span class="sxs-lookup"><span data-stu-id="c9db0-208">DNS load balancing for Exchange 2010 SP1 and newer is supported for Exchange UM.</span></span>
+        > <span data-ttu-id="cde21-208">Der DNS-Lastenausgleich für Exchange 2010 SP1 und neuer wird für Exchange um unterstützt.</span><span class="sxs-lookup"><span data-stu-id="cde21-208">DNS load balancing for Exchange 2010 SP1 and newer is supported for Exchange UM.</span></span>
 
         
         </div>
     
-    <span data-ttu-id="c9db0-p111">Diese drei Anwendungen funktionieren weiterhin, bieten jedoch keine Unterstützung für den DNS-Lastenausgleich und stellen nur eine Verbindung mit dem ersten Edgeserver im Pool her. Wenn dieser Server nicht verfügbar ist, kann keine Verbindung hergestellt werden. Wenn beispielsweise mehrere Edgeserver in einem Pool bereitgestellt werden, um den Datenverkehr für den Partnerverbund zu verarbeiten, empfängt nur ein Zugriffsproxy Daten, während die anderen Proxys sich im Leerlauf befinden.</span><span class="sxs-lookup"><span data-stu-id="c9db0-p111">These three applications will continue to operate, but they are not DNS load balancing aware and will only connect to the first Edge Server in the pool. If that server is unavailable, the connection will fail. For example, if multiple Edge Servers are deployed in a pool to handle the federated traffic load, only one access proxy actually receives traffic while the others are idle.</span></span>
+    <span data-ttu-id="cde21-p111">Diese drei Anwendungen funktionieren weiterhin, bieten jedoch keine Unterstützung für den DNS-Lastenausgleich und stellen nur eine Verbindung mit dem ersten Edgeserver im Pool her. Wenn dieser Server nicht verfügbar ist, kann keine Verbindung hergestellt werden. Wenn beispielsweise mehrere Edgeserver in einem Pool bereitgestellt werden, um den Datenverkehr für den Partnerverbund zu verarbeiten, empfängt nur ein Zugriffsproxy Daten, während die anderen Proxys sich im Leerlauf befinden.</span><span class="sxs-lookup"><span data-stu-id="cde21-p111">These three applications will continue to operate, but they are not DNS load balancing aware and will only connect to the first Edge Server in the pool. If that server is unavailable, the connection will fail. For example, if multiple Edge Servers are deployed in a pool to handle the federated traffic load, only one access proxy actually receives traffic while the others are idle.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="c9db0-212">Die Verwendung des DNS-Lastenausgleichs wird empfohlen, wenn Sie mit lync Server 2010 und Microsoft Office 365 einen Verbund mit Unternehmen durchsetzen.</span><span class="sxs-lookup"><span data-stu-id="c9db0-212">Using DNS load balancing is recommended if you are federating with companies using Lync Server 2010 and Microsoft Office 365.</span></span> <span data-ttu-id="c9db0-213">Beachten Sie, dass erhebliche Leistungseinbußen zu verzeichnen sind, wenn die meisten Verbundpartner Office Communications Server 2007 oder Office Communications Server 2007 R2 verwenden.</span><span class="sxs-lookup"><span data-stu-id="c9db0-213">Be aware that there are significant performance impacts if most of your federated partners are using Office Communications Server 2007 or Office Communications Server 2007 R2.</span></span>
+> <span data-ttu-id="cde21-212">Die Verwendung des DNS-Lastenausgleichs wird empfohlen, wenn Sie mit lync Server 2010 und Microsoft Office 365 einen Verbund mit Unternehmen durchsetzen.</span><span class="sxs-lookup"><span data-stu-id="cde21-212">Using DNS load balancing is recommended if you are federating with companies using Lync Server 2010 and Microsoft Office 365.</span></span> <span data-ttu-id="cde21-213">Beachten Sie, dass erhebliche Leistungseinbußen zu verzeichnen sind, wenn die meisten Verbundpartner Office Communications Server 2007 oder Office Communications Server 2007 R2 verwenden.</span><span class="sxs-lookup"><span data-stu-id="cde21-213">Be aware that there are significant performance impacts if most of your federated partners are using Office Communications Server 2007 or Office Communications Server 2007 R2.</span></span>
 
 
 
-<span data-ttu-id="c9db0-214"></div>
+<span data-ttu-id="cde21-214"></div>
 
 </div>
 
@@ -285,7 +285,7 @@ ms.locfileid: "42046528"
 
 </div>
 
-</span><span class="sxs-lookup"><span data-stu-id="c9db0-214"></div>
+</span><span class="sxs-lookup"><span data-stu-id="cde21-214"></div>
 
 </div>
 

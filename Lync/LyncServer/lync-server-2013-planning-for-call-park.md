@@ -12,20 +12,20 @@ ms:contentKeyID: 48185727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f42d4b61302b17d8d6247d7a9a1dcc5dbe6b218
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9407fa492c5b0e8445510b63e823258c771c00f1
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037037"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42152955"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-call-park-in-lync-server-2013"></a><span data-ttu-id="cff02-102">Planung für das Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cff02-102">Planning for Call Park in Lync Server 2013</span></span>
+# <a name="planning-for-call-park-in-lync-server-2013"></a><span data-ttu-id="a261d-102">Planung für das Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a261d-102">Planning for Call Park in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42037037"
 
 <span> </span>
 
-<span data-ttu-id="cff02-103">_**Letztes Änderungsstand des Themas:** 2012-09-07_</span><span class="sxs-lookup"><span data-stu-id="cff02-103">_**Topic Last Modified:** 2012-09-07_</span></span>
+<span data-ttu-id="a261d-103">_**Letztes Änderungsstand des Themas:** 2012-09-07_</span><span class="sxs-lookup"><span data-stu-id="a261d-103">_**Topic Last Modified:** 2012-09-07_</span></span>
 
-<span data-ttu-id="cff02-104">Die lync Server Anwendung zum Parken von Anrufen ermöglicht es Enterprise-VoIP-Benutzern, einen Anruf einzuhalten und diesen dann später von einem beliebigen Telefon aus abzurufen.</span><span class="sxs-lookup"><span data-stu-id="cff02-104">The Lync Server Call Park application makes it possible for Enterprise Voice users to put a call on hold and then retrieve it later from any phone.</span></span> <span data-ttu-id="cff02-105">Der Benutzer, der den Anruf geparkt hat, kann entweder die Nummer des Orbits wählen, die von der Funktion zum Parken von Anrufen bereitgestellt wird, um den geparkten Anruf wiederaufzunehmen, oder einen anderen Benutzer mithilfe eines externen Mechanismus auffordern, die Nummer abzurufen (beispielsweise über ein Chat- oder Paging-System).</span><span class="sxs-lookup"><span data-stu-id="cff02-105">The user who parked the call can either dial the orbit number provided by Call Park to retrieve the parked call or use an external mechanism, such as instant messaging or a paging system, to ask someone else to retrieve the call.</span></span> <span data-ttu-id="cff02-106">Dieser Abschnitt enthält Planungsinformationen, die für das Parken von Anrufen spezifisch sind.</span><span class="sxs-lookup"><span data-stu-id="cff02-106">This section includes planning information that is specific to Call Park.</span></span>
+<span data-ttu-id="a261d-104">Die lync Server Anwendung zum Parken von Anrufen ermöglicht es Enterprise-VoIP-Benutzern, einen Anruf einzuhalten und diesen dann später von einem beliebigen Telefon aus abzurufen.</span><span class="sxs-lookup"><span data-stu-id="a261d-104">The Lync Server Call Park application makes it possible for Enterprise Voice users to put a call on hold and then retrieve it later from any phone.</span></span> <span data-ttu-id="a261d-105">Der Benutzer, der den Anruf geparkt hat, kann entweder die Nummer des Orbits wählen, die von der Funktion zum Parken von Anrufen bereitgestellt wird, um den geparkten Anruf wiederaufzunehmen, oder einen anderen Benutzer mithilfe eines externen Mechanismus auffordern, die Nummer abzurufen (beispielsweise über ein Chat- oder Paging-System).</span><span class="sxs-lookup"><span data-stu-id="a261d-105">The user who parked the call can either dial the orbit number provided by Call Park to retrieve the parked call or use an external mechanism, such as instant messaging or a paging system, to ask someone else to retrieve the call.</span></span> <span data-ttu-id="a261d-106">Dieser Abschnitt enthält Planungsinformationen, die für das Parken von Anrufen spezifisch sind.</span><span class="sxs-lookup"><span data-stu-id="a261d-106">This section includes planning information that is specific to Call Park.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="cff02-107">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="cff02-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a261d-107">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="a261d-107">In This Section</span></span>
 
-  - [<span data-ttu-id="cff02-108">Übersicht über das Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cff02-108">Overview of Call Park in Lync Server 2013</span></span>](lync-server-2013-overview-of-call-park.md)
+  - [<span data-ttu-id="a261d-108">Übersicht über das Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a261d-108">Overview of Call Park in Lync Server 2013</span></span>](lync-server-2013-overview-of-call-park.md)
 
-  - [<span data-ttu-id="cff02-109">Für das Parken von Anrufen in lync Server 2013 verwendete Komponenten</span><span class="sxs-lookup"><span data-stu-id="cff02-109">Components used by Call Park in Lync Server 2013</span></span>](lync-server-2013-components-used-by-call-park.md)
+  - [<span data-ttu-id="a261d-109">Für das Parken von Anrufen in lync Server 2013 verwendete Komponenten</span><span class="sxs-lookup"><span data-stu-id="a261d-109">Components used by Call Park in Lync Server 2013</span></span>](lync-server-2013-components-used-by-call-park.md)
 
-  - [<span data-ttu-id="cff02-110">Technische Anforderungen für das Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cff02-110">Technical requirements for Call Park in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-call-park.md)
+  - [<span data-ttu-id="a261d-110">Technische Anforderungen für das Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a261d-110">Technical requirements for Call Park in Lync Server 2013</span></span>](lync-server-2013-technical-requirements-for-call-park.md)
 
-  - [<span data-ttu-id="cff02-111">Für das Parken von Anrufen unterstützte Clients in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cff02-111">Clients supported for Call Park in Lync Server 2013</span></span>](lync-server-2013-clients-supported-for-call-park.md)
+  - [<span data-ttu-id="a261d-111">Für das Parken von Anrufen unterstützte Clients in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a261d-111">Clients supported for Call Park in Lync Server 2013</span></span>](lync-server-2013-clients-supported-for-call-park.md)
 
-  - [<span data-ttu-id="cff02-112">Kapazitätsplanung für das Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cff02-112">Capacity planning for Call Park in Lync Server 2013</span></span>](lync-server-2013-capacity-planning-for-call-park.md)
+  - [<span data-ttu-id="a261d-112">Kapazitätsplanung für das Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a261d-112">Capacity planning for Call Park in Lync Server 2013</span></span>](lync-server-2013-capacity-planning-for-call-park.md)
 
-  - [<span data-ttu-id="cff02-113">Bereitstellungsprozess für das Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cff02-113">Deployment process for Call Park in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-call-park.md)
+  - [<span data-ttu-id="a261d-113">Bereitstellungsprozess für das Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a261d-113">Deployment process for Call Park in Lync Server 2013</span></span>](lync-server-2013-deployment-process-for-call-park.md)
 
 </div>
 

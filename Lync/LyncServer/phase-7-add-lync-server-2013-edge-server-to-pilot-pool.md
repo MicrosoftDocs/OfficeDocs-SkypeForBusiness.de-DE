@@ -12,20 +12,20 @@ ms:contentKeyID: 48184616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9db240b042c40ffaf07d42ce4c60bb1777963fce
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 031c751cdb33dbafce9f99a6efcabe144f357732
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034165"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148444"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-7-add-lync-server-2013-edge-server-to-pilot-pool"></a><span data-ttu-id="6fe35-102">Phase 7: Hinzufügen von lync Server 2013 Edgeserver zu einem Pilot Pool</span><span class="sxs-lookup"><span data-stu-id="6fe35-102">Phase 7: Add Lync Server 2013 Edge Server to pilot pool</span></span>
+# <a name="phase-7-add-lync-server-2013-edge-server-to-pilot-pool"></a><span data-ttu-id="fad0d-102">Phase 7: Hinzufügen von lync Server 2013 Edgeserver zu einem Pilot Pool</span><span class="sxs-lookup"><span data-stu-id="fad0d-102">Phase 7: Add Lync Server 2013 Edge Server to pilot pool</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42034165"
 
 <span> </span>
 
-<span data-ttu-id="6fe35-103">_**Letztes Änderungsstand des Themas:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="6fe35-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="fad0d-103">_**Letztes Änderungsstand des Themas:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="fad0d-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="6fe35-104">In den Themen in diesem Abschnitt wird erläutert, wie der Bereitstellungeines pilotpools ein lync Server 2013 Edgeserver hinzugefügt wird.</span><span class="sxs-lookup"><span data-stu-id="6fe35-104">The topics in this section explain how to add a Lync Server 2013 Edge Server to the pilot pool deployment.</span></span> <span data-ttu-id="6fe35-105">Die Themen enthalten Hinweise zur Konfiguration und Überprüfung beim Ausführen der Assistenten zum Bereitstellen eines neuen Directorpools\*\*\*\*.</span><span class="sxs-lookup"><span data-stu-id="6fe35-105">The topics provide configuration and verification guidance when running the **Deploy New Edge pool** wizards.</span></span>
+<span data-ttu-id="fad0d-104">In den Themen in diesem Abschnitt wird erläutert, wie der Bereitstellungeines pilotpools ein lync Server 2013 Edgeserver hinzugefügt wird.</span><span class="sxs-lookup"><span data-stu-id="fad0d-104">The topics in this section explain how to add a Lync Server 2013 Edge Server to the pilot pool deployment.</span></span> <span data-ttu-id="fad0d-105">Die Themen enthalten Hinweise zur Konfiguration und Überprüfung beim Ausführen der Assistenten zum Bereitstellen eines neuen Directorpools\*\*\*\*.</span><span class="sxs-lookup"><span data-stu-id="fad0d-105">The topics provide configuration and verification guidance when running the **Deploy New Edge pool** wizards.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="6fe35-106">Inhalt dieses Abschnitts</span><span class="sxs-lookup"><span data-stu-id="6fe35-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="fad0d-106">Inhalt dieses Abschnitts</span><span class="sxs-lookup"><span data-stu-id="fad0d-106">In This Section</span></span>
 
-  - [<span data-ttu-id="6fe35-107">Bereitstellen von Pilot Edgeserver</span><span class="sxs-lookup"><span data-stu-id="6fe35-107">Deploy pilot Edge Server</span></span>](deploy-pilot-edge-server_1.md)
+  - [<span data-ttu-id="fad0d-107">Bereitstellen von Pilot Edgeserver</span><span class="sxs-lookup"><span data-stu-id="fad0d-107">Deploy pilot Edge Server</span></span>](deploy-pilot-edge-server_1.md)
 
-  - [<span data-ttu-id="6fe35-108">Überprüfen der Replikation von Konfigurationseinstellungen</span><span class="sxs-lookup"><span data-stu-id="6fe35-108">Validate replication of configuration settings</span></span>](validate-replication-of-configuration-settings.md)
+  - [<span data-ttu-id="fad0d-108">Überprüfen der Replikation von Konfigurationseinstellungen</span><span class="sxs-lookup"><span data-stu-id="fad0d-108">Validate replication of configuration settings</span></span>](validate-replication-of-configuration-settings.md)
 
 </div>
 

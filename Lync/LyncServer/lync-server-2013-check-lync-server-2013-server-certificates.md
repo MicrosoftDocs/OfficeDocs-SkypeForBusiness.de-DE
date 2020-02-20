@@ -12,20 +12,20 @@ ms:contentKeyID: 63969620
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ebdbfdc4ed0f88d78fc78037a3522c73bd220270
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2b874c83adb2a1ddb511d8c6980cb12f01e0ef68
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043507"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42151085"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="check-lync-server-2013-server-certificates"></a><span data-ttu-id="b2426-102">Überprüfen lync Server 2013 Server Zertifikaten</span><span class="sxs-lookup"><span data-stu-id="b2426-102">Check Lync Server 2013 server certificates</span></span>
+# <a name="check-lync-server-2013-server-certificates"></a><span data-ttu-id="3dc4d-102">Überprüfen lync Server 2013 Server Zertifikaten</span><span class="sxs-lookup"><span data-stu-id="3dc4d-102">Check Lync Server 2013 server certificates</span></span>
 
 </div>
 
@@ -35,7 +35,7 @@ ms.locfileid: "42043507"
 
 <span> </span>
 
-<span data-ttu-id="b2426-103">_**Letztes Änderungsstand des Themas:** 2014-11-01_</span><span class="sxs-lookup"><span data-stu-id="b2426-103">_**Topic Last Modified:** 2014-11-01_</span></span>
+<span data-ttu-id="3dc4d-103">_**Letztes Änderungsstand des Themas:** 2014-11-01_</span><span class="sxs-lookup"><span data-stu-id="3dc4d-103">_**Topic Last Modified:** 2014-11-01_</span></span>
 
 
 <table>
@@ -45,17 +45,17 @@ ms.locfileid: "42043507"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b2426-104">Überprüfungszeitplan</span><span class="sxs-lookup"><span data-stu-id="b2426-104">Verification schedule</span></span></p></td>
-<td><p><span data-ttu-id="b2426-105">Monatlich</span><span class="sxs-lookup"><span data-stu-id="b2426-105">Monthly</span></span></p></td>
+<td><p><span data-ttu-id="3dc4d-104">Überprüfungszeitplan</span><span class="sxs-lookup"><span data-stu-id="3dc4d-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="3dc4d-105">Monatlich</span><span class="sxs-lookup"><span data-stu-id="3dc4d-105">Monthly</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b2426-106">Test Tool</span><span class="sxs-lookup"><span data-stu-id="b2426-106">Testing tool</span></span></p></td>
-<td><p><span data-ttu-id="b2426-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="b2426-107">Windows PowerShell</span></span></p></td>
+<td><p><span data-ttu-id="3dc4d-106">Test Tool</span><span class="sxs-lookup"><span data-stu-id="3dc4d-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="3dc4d-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="3dc4d-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b2426-108">Erforderliche Berechtigungen</span><span class="sxs-lookup"><span data-stu-id="b2426-108">Permissions required</span></span></p></td>
-<td><p><span data-ttu-id="b2426-109">Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</span><span class="sxs-lookup"><span data-stu-id="b2426-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
-<p><span data-ttu-id="b2426-110">Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Get-CsCertificate verfügt.</span><span class="sxs-lookup"><span data-stu-id="b2426-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Get-CsCertificate cmdlet.</span></span> <span data-ttu-id="b2426-111">Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</span><span class="sxs-lookup"><span data-stu-id="b2426-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
+<td><p><span data-ttu-id="3dc4d-108">Erforderliche Berechtigungen</span><span class="sxs-lookup"><span data-stu-id="3dc4d-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="3dc4d-109">Bei der lokalen Ausführung mit dem lync Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe RTCUniversalServerAdmins sein.</span><span class="sxs-lookup"><span data-stu-id="3dc4d-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="3dc4d-110">Bei der Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Get-CsCertificate verfügt.</span><span class="sxs-lookup"><span data-stu-id="3dc4d-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Get-CsCertificate cmdlet.</span></span> <span data-ttu-id="3dc4d-111">Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Eingabeaufforderung von Windows PowerShell aus:</span><span class="sxs-lookup"><span data-stu-id="3dc4d-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <p><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Get-CsCertificate&quot;}</code></p></td>
 </tr>
 </tbody>
@@ -64,108 +64,108 @@ ms.locfileid: "42043507"
 
 <div>
 
-## <a name="description"></a><span data-ttu-id="b2426-112">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="b2426-112">Description</span></span>
+## <a name="description"></a><span data-ttu-id="3dc4d-112">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="3dc4d-112">Description</span></span>
 
-<span data-ttu-id="b2426-113">Mit dem Cmdlet Get-CsCertificate können Sie Informationen zu jedem ihrer lync Server Zertifikate abrufen.</span><span class="sxs-lookup"><span data-stu-id="b2426-113">The Get-CsCertificate cmdlet enables you to retrieve information about each of your Lync Server certificates.</span></span> <span data-ttu-id="b2426-114">Dies ist besonders wichtig, da Zertifikate ein integriertes Ablaufdatum aufweisen.</span><span class="sxs-lookup"><span data-stu-id="b2426-114">That’s especially important because certificates have a built-in expiration date.</span></span> <span data-ttu-id="b2426-115">Beispielsweise laufen privat ausgestellte Zertifikate in der Regel nach 12 Monaten ab.</span><span class="sxs-lookup"><span data-stu-id="b2426-115">For example,, privately-issued certificates typically expire after 12 months.</span></span> <span data-ttu-id="b2426-116">Wenn eines ihrer lync Server Zertifikate abläuft, verlieren Sie die zugehörige Funktionalität, bis das Zertifikat erneuert oder ersetzt wird.</span><span class="sxs-lookup"><span data-stu-id="b2426-116">If any of your Lync Server certificates expire then you'll lose the accompanying functionality until that certificate is renewed or replaced.</span></span>
+<span data-ttu-id="3dc4d-113">Mit dem Cmdlet Get-CsCertificate können Sie Informationen zu jedem ihrer lync Server Zertifikate abrufen.</span><span class="sxs-lookup"><span data-stu-id="3dc4d-113">The Get-CsCertificate cmdlet enables you to retrieve information about each of your Lync Server certificates.</span></span> <span data-ttu-id="3dc4d-114">Dies ist besonders wichtig, da Zertifikate ein integriertes Ablaufdatum aufweisen.</span><span class="sxs-lookup"><span data-stu-id="3dc4d-114">That’s especially important because certificates have a built-in expiration date.</span></span> <span data-ttu-id="3dc4d-115">Beispielsweise laufen privat ausgestellte Zertifikate in der Regel nach 12 Monaten ab.</span><span class="sxs-lookup"><span data-stu-id="3dc4d-115">For example,, privately-issued certificates typically expire after 12 months.</span></span> <span data-ttu-id="3dc4d-116">Wenn eines ihrer lync Server Zertifikate abläuft, verlieren Sie die zugehörige Funktionalität, bis das Zertifikat erneuert oder ersetzt wird.</span><span class="sxs-lookup"><span data-stu-id="3dc4d-116">If any of your Lync Server certificates expire then you'll lose the accompanying functionality until that certificate is renewed or replaced.</span></span>
 
 </div>
 
 <div>
 
-## <a name="running-the-test"></a><span data-ttu-id="b2426-117">Durchführen des Tests</span><span class="sxs-lookup"><span data-stu-id="b2426-117">Running the test</span></span>
+## <a name="running-the-test"></a><span data-ttu-id="3dc4d-117">Durchführen des Tests</span><span class="sxs-lookup"><span data-stu-id="3dc4d-117">Running the test</span></span>
 
-<span data-ttu-id="b2426-118">Wenn Sie Informationen zu den einzelnen lync Server Zertifikaten zurückgeben möchten, führen Sie den folgenden Befehl aus:</span><span class="sxs-lookup"><span data-stu-id="b2426-118">To return information about each of your Lync Server certificates just run the following command:</span></span>
+<span data-ttu-id="3dc4d-118">Wenn Sie Informationen zu den einzelnen lync Server Zertifikaten zurückgeben möchten, führen Sie den folgenden Befehl aus:</span><span class="sxs-lookup"><span data-stu-id="3dc4d-118">To return information about each of your Lync Server certificates just run the following command:</span></span>
 
 `Get-CsCertificate`
 
-<span data-ttu-id="b2426-119">Sie können auch die Informationen zum Rückgabe Zertifikat basierend auf dem Ablaufdatum filtern.</span><span class="sxs-lookup"><span data-stu-id="b2426-119">Or, you can filter the return certificate information based on expiration date.</span></span> <span data-ttu-id="b2426-120">Beispielsweise schränkt dieser Befehl die zurückgegebenen Daten auf Zertifikate ein, die ablaufen (können nicht verwendet werden nach) Juni 1, 2014:</span><span class="sxs-lookup"><span data-stu-id="b2426-120">For example, this command limits the returned data to certificates that expire (cannot be used after) June 1, 2014:</span></span>
+<span data-ttu-id="3dc4d-119">Sie können auch die Informationen zum Rückgabe Zertifikat basierend auf dem Ablaufdatum filtern.</span><span class="sxs-lookup"><span data-stu-id="3dc4d-119">Or, you can filter the return certificate information based on expiration date.</span></span> <span data-ttu-id="3dc4d-120">Beispielsweise schränkt dieser Befehl die zurückgegebenen Daten auf Zertifikate ein, die ablaufen (können nicht verwendet werden nach) Juni 1, 2014:</span><span class="sxs-lookup"><span data-stu-id="3dc4d-120">For example, this command limits the returned data to certificates that expire (cannot be used after) June 1, 2014:</span></span>
 
 `Get-CsCertificate | Where-Object {$_.NotAfter -lt "6/1/2014"}`
 
-<span data-ttu-id="b2426-121">Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet Get-CsCertificate.</span><span class="sxs-lookup"><span data-stu-id="b2426-121">For more information, see the Help documentation for the Get-CsCertificate cmdlet.</span></span>
+<span data-ttu-id="3dc4d-121">Weitere Informationen finden Sie in der Hilfedokumentation zum Cmdlet Get-CsCertificate.</span><span class="sxs-lookup"><span data-stu-id="3dc4d-121">For more information, see the Help documentation for the Get-CsCertificate cmdlet.</span></span>
 
-<span data-ttu-id="b2426-122">Beachten Sie, dass das Cmdlet Test-CsCertificateConfiguration zwar vorhanden ist, für Administratoren jedoch nicht besonders hilfreich ist.</span><span class="sxs-lookup"><span data-stu-id="b2426-122">Note that, although the Test-CsCertificateConfiguration cmdlet exists, it is not very useful to administrators.</span></span> <span data-ttu-id="b2426-123">(Stattdessen wird das Cmdlet in erster Linie vom Zertifikat-Assistenten verwendet.) Obwohl das Cmdlet funktioniert, sind die zurückgegebenen Informationen von Minimalwert, wie im folgenden Ausgabebeispiel gezeigt:</span><span class="sxs-lookup"><span data-stu-id="b2426-123">(Instead, that cmdlet is primarily used by the Certificate wizard.) Although the cmdlet works, the information that it returns is of minimal value as shown in the following output example:</span></span>
+<span data-ttu-id="3dc4d-122">Beachten Sie, dass das Cmdlet Test-CsCertificateConfiguration zwar vorhanden ist, für Administratoren jedoch nicht besonders hilfreich ist.</span><span class="sxs-lookup"><span data-stu-id="3dc4d-122">Note that, although the Test-CsCertificateConfiguration cmdlet exists, it is not very useful to administrators.</span></span> <span data-ttu-id="3dc4d-123">(Stattdessen wird das Cmdlet in erster Linie vom Zertifikat-Assistenten verwendet.) Obwohl das Cmdlet funktioniert, sind die zurückgegebenen Informationen von Minimalwert, wie im folgenden Ausgabebeispiel gezeigt:</span><span class="sxs-lookup"><span data-stu-id="3dc4d-123">(Instead, that cmdlet is primarily used by the Certificate wizard.) Although the cmdlet works, the information that it returns is of minimal value as shown in the following output example:</span></span>
 
-<span data-ttu-id="b2426-124">Verwendung des Fingerabdrucks</span><span class="sxs-lookup"><span data-stu-id="b2426-124">Thumbprint Use</span></span>
+<span data-ttu-id="3dc4d-124">Verwendung des Fingerabdrucks</span><span class="sxs-lookup"><span data-stu-id="3dc4d-124">Thumbprint Use</span></span>
 
-<span data-ttu-id="b2426-125">\---------- ---</span><span class="sxs-lookup"><span data-stu-id="b2426-125">\---------- ---</span></span>
+<span data-ttu-id="3dc4d-125">\---------- ---</span><span class="sxs-lookup"><span data-stu-id="3dc4d-125">\---------- ---</span></span>
 
-<span data-ttu-id="b2426-126">A9D51A2911C74FABFF7F2A8A994B20857D399107 Standard</span><span class="sxs-lookup"><span data-stu-id="b2426-126">A9D51A2911C74FABFF7F2A8A994B20857D399107 Default</span></span>
+<span data-ttu-id="3dc4d-126">A9D51A2911C74FABFF7F2A8A994B20857D399107 Standard</span><span class="sxs-lookup"><span data-stu-id="3dc4d-126">A9D51A2911C74FABFF7F2A8A994B20857D399107 Default</span></span>
 
 </div>
 
 <div>
 
-## <a name="reviewing-the-output"></a><span data-ttu-id="b2426-127">Überprüfen der Ausgabe</span><span class="sxs-lookup"><span data-stu-id="b2426-127">Reviewing the output</span></span>
+## <a name="reviewing-the-output"></a><span data-ttu-id="3dc4d-127">Überprüfen der Ausgabe</span><span class="sxs-lookup"><span data-stu-id="3dc4d-127">Reviewing the output</span></span>
 
-<span data-ttu-id="b2426-128">Das Cmdlet Get-CsCertificate gibt für jedes Ihrer lync Server-Zertifikate Informationen zurück, die den folgenden ähneln:</span><span class="sxs-lookup"><span data-stu-id="b2426-128">The Get-CsCertificate cmdlet returns information similar to the following for each of your Lync Server certificates:</span></span>
+<span data-ttu-id="3dc4d-128">Das Cmdlet Get-CsCertificate gibt für jedes Ihrer lync Server-Zertifikate Informationen zurück, die den folgenden ähneln:</span><span class="sxs-lookup"><span data-stu-id="3dc4d-128">The Get-CsCertificate cmdlet returns information similar to the following for each of your Lync Server certificates:</span></span>
 
-<span data-ttu-id="b2426-129">Aussteller: CN = FabrikamCA</span><span class="sxs-lookup"><span data-stu-id="b2426-129">Issuer : CN=FabrikamCA</span></span>
+<span data-ttu-id="3dc4d-129">Aussteller: CN = FabrikamCA</span><span class="sxs-lookup"><span data-stu-id="3dc4d-129">Issuer : CN=FabrikamCA</span></span>
 
-<span data-ttu-id="b2426-130">NotAfter: 12/28/2015 3:35:41 Uhr</span><span class="sxs-lookup"><span data-stu-id="b2426-130">NotAfter : 12/28/2015 3:35:41 PM</span></span>
+<span data-ttu-id="3dc4d-130">NotAfter: 12/28/2015 3:35:41 Uhr</span><span class="sxs-lookup"><span data-stu-id="3dc4d-130">NotAfter : 12/28/2015 3:35:41 PM</span></span>
 
-<span data-ttu-id="b2426-131">NotBefore: 1/2/2014 12:49:37 Uhr</span><span class="sxs-lookup"><span data-stu-id="b2426-131">NotBefore : 1/2/2014 12:49:37 PM</span></span>
+<span data-ttu-id="3dc4d-131">NotBefore: 1/2/2014 12:49:37 Uhr</span><span class="sxs-lookup"><span data-stu-id="3dc4d-131">NotBefore : 1/2/2014 12:49:37 PM</span></span>
 
-<span data-ttu-id="b2426-132">Seriennummer: 611BB01200000000000C</span><span class="sxs-lookup"><span data-stu-id="b2426-132">SerialNumber : 611BB01200000000000C</span></span>
+<span data-ttu-id="3dc4d-132">Seriennummer: 611BB01200000000000C</span><span class="sxs-lookup"><span data-stu-id="3dc4d-132">SerialNumber : 611BB01200000000000C</span></span>
 
-<span data-ttu-id="b2426-133">Betreff: CN = LYNC-SE.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="b2426-133">Subject : CN=LYNC-SE.fabrikam.com</span></span>
+<span data-ttu-id="3dc4d-133">Betreff: CN = LYNC-SE.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="3dc4d-133">Subject : CN=LYNC-SE.fabrikam.com</span></span>
 
-<span data-ttu-id="b2426-134">AlternativeNames: {SIP.fabrikam.com, LYNC-SE.fabrikam.com,</span><span class="sxs-lookup"><span data-stu-id="b2426-134">AlternativeNames : {sip.fabrikam.com, LYNC-SE.fabrikam.com,</span></span>
+<span data-ttu-id="3dc4d-134">AlternativeNames: {SIP.fabrikam.com, LYNC-SE.fabrikam.com,</span><span class="sxs-lookup"><span data-stu-id="3dc4d-134">AlternativeNames : {sip.fabrikam.com, LYNC-SE.fabrikam.com,</span></span>
 
-<span data-ttu-id="b2426-135">Meet.fabrikam.com, admin.fabrikam.com...}</span><span class="sxs-lookup"><span data-stu-id="b2426-135">meet.fabrikam.com, admin.fabrikam.com...}</span></span>
+<span data-ttu-id="3dc4d-135">Meet.fabrikam.com, admin.fabrikam.com...}</span><span class="sxs-lookup"><span data-stu-id="3dc4d-135">meet.fabrikam.com, admin.fabrikam.com...}</span></span>
 
-<span data-ttu-id="b2426-136">Fingerabdruck: A9D51A2911C74FABFF7F2A8A994B20857D399107</span><span class="sxs-lookup"><span data-stu-id="b2426-136">Thumbprint : A9D51A2911C74FABFF7F2A8A994B20857D399107</span></span>
+<span data-ttu-id="3dc4d-136">Fingerabdruck: A9D51A2911C74FABFF7F2A8A994B20857D399107</span><span class="sxs-lookup"><span data-stu-id="3dc4d-136">Thumbprint : A9D51A2911C74FABFF7F2A8A994B20857D399107</span></span>
 
-<span data-ttu-id="b2426-137">Verwendung: Standard</span><span class="sxs-lookup"><span data-stu-id="b2426-137">Use : Default</span></span>
+<span data-ttu-id="3dc4d-137">Verwendung: Standard</span><span class="sxs-lookup"><span data-stu-id="3dc4d-137">Use : Default</span></span>
 
-<span data-ttu-id="b2426-138">In der Regel beinhalten die häufigsten Probleme bei lync Server Zertifikaten Daten und Uhrzeiten, beispielsweise wenn Zertifikate wirksam werden (NotBefore) oder wenn Sie ablaufen (NotAfter).</span><span class="sxs-lookup"><span data-stu-id="b2426-138">As a rule, the top issues involving Lync Server certificates involve dates and times, such as when certificates take effect (NotBefore) or when they expire (NotAfter).</span></span> <span data-ttu-id="b2426-139">Da diese Datums-und Uhrzeitangaben so wichtig sind, können Sie die zurückgegebenen Daten auf Informationen wie die Verwendung des Zertifikats, die Seriennummer des Zertifikats und das Ablaufdatum des Zertifikats beschränken. Anschließend können Sie schnell alle Zertifikate überprüfen und ablaufen.</span><span class="sxs-lookup"><span data-stu-id="b2426-139">Because these dates and times are so important, you might want to limit the returned data to information such as the certificate use, the certificate serial number, and the certificate expiration date; then you can quickly review all the certificates and when they will expire.</span></span> <span data-ttu-id="b2426-140">Um nur diese Informationen zurückzugeben, verwenden Sie den Befehl zusammen mit den Optionen wie dargestellt:</span><span class="sxs-lookup"><span data-stu-id="b2426-140">To return just that information, use the command together with the options as shown:</span></span>
+<span data-ttu-id="3dc4d-138">In der Regel beinhalten die häufigsten Probleme bei lync Server Zertifikaten Daten und Uhrzeiten, beispielsweise wenn Zertifikate wirksam werden (NotBefore) oder wenn Sie ablaufen (NotAfter).</span><span class="sxs-lookup"><span data-stu-id="3dc4d-138">As a rule, the top issues involving Lync Server certificates involve dates and times, such as when certificates take effect (NotBefore) or when they expire (NotAfter).</span></span> <span data-ttu-id="3dc4d-139">Da diese Datums-und Uhrzeitangaben so wichtig sind, können Sie die zurückgegebenen Daten auf Informationen wie die Verwendung des Zertifikats, die Seriennummer des Zertifikats und das Ablaufdatum des Zertifikats beschränken. Anschließend können Sie schnell alle Zertifikate überprüfen und ablaufen.</span><span class="sxs-lookup"><span data-stu-id="3dc4d-139">Because these dates and times are so important, you might want to limit the returned data to information such as the certificate use, the certificate serial number, and the certificate expiration date; then you can quickly review all the certificates and when they will expire.</span></span> <span data-ttu-id="3dc4d-140">Um nur diese Informationen zurückzugeben, verwenden Sie den Befehl zusammen mit den Optionen wie dargestellt:</span><span class="sxs-lookup"><span data-stu-id="3dc4d-140">To return just that information, use the command together with the options as shown:</span></span>
 
 `Get-CsCertificate | Select-Object Use, SerialNumber, NotAfter | Sort-Object NotAfter`
 
-<span data-ttu-id="b2426-141">Dieser Befehl gibt Daten ähnlich der folgenden zurück, wobei die Zertifikate in der Reihenfolgeihres Ablaufdatums sortiert sind:</span><span class="sxs-lookup"><span data-stu-id="b2426-141">That command returns data similar to the following, with the certificates sorted in order of their expiration date:</span></span>
+<span data-ttu-id="3dc4d-141">Dieser Befehl gibt Daten ähnlich der folgenden zurück, wobei die Zertifikate in der Reihenfolgeihres Ablaufdatums sortiert sind:</span><span class="sxs-lookup"><span data-stu-id="3dc4d-141">That command returns data similar to the following, with the certificates sorted in order of their expiration date:</span></span>
 
-<span data-ttu-id="b2426-142">Seriennummer NotAfter verwenden</span><span class="sxs-lookup"><span data-stu-id="b2426-142">Use SerialNumber NotAfter</span></span>
+<span data-ttu-id="3dc4d-142">Seriennummer NotAfter verwenden</span><span class="sxs-lookup"><span data-stu-id="3dc4d-142">Use SerialNumber NotAfter</span></span>
 
-<span data-ttu-id="b2426-143">\--- ------------ --------</span><span class="sxs-lookup"><span data-stu-id="b2426-143">\--- ------------ --------</span></span>
+<span data-ttu-id="3dc4d-143">\--- ------------ --------</span><span class="sxs-lookup"><span data-stu-id="3dc4d-143">\--- ------------ --------</span></span>
 
-<span data-ttu-id="b2426-144">Standard 611BB01200000000000C 12/28/2015 3:35:41 Uhr</span><span class="sxs-lookup"><span data-stu-id="b2426-144">Default 611BB01200000000000C 12/28/2015 3:35:41 PM</span></span>
+<span data-ttu-id="3dc4d-144">Standard 611BB01200000000000C 12/28/2015 3:35:41 Uhr</span><span class="sxs-lookup"><span data-stu-id="3dc4d-144">Default 611BB01200000000000C 12/28/2015 3:35:41 PM</span></span>
 
-<span data-ttu-id="b2426-145">WebServicesInteral 32980AA20BBB20000191 02/15/2016 2:16:12 Uhr</span><span class="sxs-lookup"><span data-stu-id="b2426-145">WebServicesInteral 32980AA20BBB20000191 02/15/2016 2:16:12 PM</span></span>
+<span data-ttu-id="3dc4d-145">WebServicesInteral 32980AA20BBB20000191 02/15/2016 2:16:12 Uhr</span><span class="sxs-lookup"><span data-stu-id="3dc4d-145">WebServicesInteral 32980AA20BBB20000191 02/15/2016 2:16:12 PM</span></span>
 
-<span data-ttu-id="b2426-146">"Webservicesexternal" 0451B012003872651A0C 02/20/2016 7:11:58 Uhr</span><span class="sxs-lookup"><span data-stu-id="b2426-146">WebServicesExternal 0451B012003872651A0C 02/20/2016 7:11:58 AM</span></span>
+<span data-ttu-id="3dc4d-146">"Webservicesexternal" 0451B012003872651A0C 02/20/2016 7:11:58 Uhr</span><span class="sxs-lookup"><span data-stu-id="3dc4d-146">WebServicesExternal 0451B012003872651A0C 02/20/2016 7:11:58 AM</span></span>
 
-<span data-ttu-id="b2426-147">Wenn Sie über Zertifikatprobleme verfügen, sollten Sie die für ein Zertifikat konfigurierten AlternativeNames möglicherweise überprüfen.</span><span class="sxs-lookup"><span data-stu-id="b2426-147">If you have certificate problems, you might want to review the AlternativeNames configured for a certificate.</span></span> <span data-ttu-id="b2426-148">Auf den ersten Blick scheint dies ein Problem zu sein.</span><span class="sxs-lookup"><span data-stu-id="b2426-148">At first glance, that seems to be a problem.</span></span> <span data-ttu-id="b2426-149">In Abhängigkeit von der Größe des Konsolenfensters kann Get-CsCertificate standardmäßig nicht alle Namen anzeigen:</span><span class="sxs-lookup"><span data-stu-id="b2426-149">By default, and depending on the size of your console window, Get-CsCertificate might not be able to display all the names:</span></span>
+<span data-ttu-id="3dc4d-147">Wenn Sie über Zertifikatprobleme verfügen, sollten Sie die für ein Zertifikat konfigurierten AlternativeNames möglicherweise überprüfen.</span><span class="sxs-lookup"><span data-stu-id="3dc4d-147">If you have certificate problems, you might want to review the AlternativeNames configured for a certificate.</span></span> <span data-ttu-id="3dc4d-148">Auf den ersten Blick scheint dies ein Problem zu sein.</span><span class="sxs-lookup"><span data-stu-id="3dc4d-148">At first glance, that seems to be a problem.</span></span> <span data-ttu-id="3dc4d-149">In Abhängigkeit von der Größe des Konsolenfensters kann Get-CsCertificate standardmäßig nicht alle Namen anzeigen:</span><span class="sxs-lookup"><span data-stu-id="3dc4d-149">By default, and depending on the size of your console window, Get-CsCertificate might not be able to display all the names:</span></span>
 
-<span data-ttu-id="b2426-150">AlternativeNames: {SIP.fabrikam.com, LYNC.fabrikam.com,</span><span class="sxs-lookup"><span data-stu-id="b2426-150">AlternativeNames : {sip.fabrikam.com, LYNC.fabrikam.com,</span></span>
+<span data-ttu-id="3dc4d-150">AlternativeNames: {SIP.fabrikam.com, LYNC.fabrikam.com,</span><span class="sxs-lookup"><span data-stu-id="3dc4d-150">AlternativeNames : {sip.fabrikam.com, LYNC.fabrikam.com,</span></span>
 
-<span data-ttu-id="b2426-151">Meet.fabrikam.com, admin. Fabrika...}</span><span class="sxs-lookup"><span data-stu-id="b2426-151">meet.fabrikam.com, admin.fabrika...}</span></span>
+<span data-ttu-id="3dc4d-151">Meet.fabrikam.com, admin. Fabrika...}</span><span class="sxs-lookup"><span data-stu-id="3dc4d-151">meet.fabrikam.com, admin.fabrika...}</span></span>
 
-<span data-ttu-id="b2426-152">Wenn Sie alle alternativen Namen anzeigen möchten, die einem Zertifikat zugewiesen sind, verwenden Sie einen Befehl wie den folgenden:</span><span class="sxs-lookup"><span data-stu-id="b2426-152">To see all the alternative names assigned to a certificate use a command similar to this one:</span></span>
+<span data-ttu-id="3dc4d-152">Wenn Sie alle alternativen Namen anzeigen möchten, die einem Zertifikat zugewiesen sind, verwenden Sie einen Befehl wie den folgenden:</span><span class="sxs-lookup"><span data-stu-id="3dc4d-152">To see all the alternative names assigned to a certificate use a command similar to this one:</span></span>
 
 `Get-CsCertificate | Where-Object {$_.SerialNumber -eq "611BB01200000000000C"} | Select-Object -ExpandProperty AlternativeNames`
 
-<span data-ttu-id="b2426-153">Dadurch sollten alle alternativen Namen im Zertifikat angezeigt werden:</span><span class="sxs-lookup"><span data-stu-id="b2426-153">That should show you all of the alternative names on the certificate:</span></span>
+<span data-ttu-id="3dc4d-153">Dadurch sollten alle alternativen Namen im Zertifikat angezeigt werden:</span><span class="sxs-lookup"><span data-stu-id="3dc4d-153">That should show you all of the alternative names on the certificate:</span></span>
 
-<span data-ttu-id="b2426-154">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="b2426-154">sip.fabrikam.com</span></span>
+<span data-ttu-id="3dc4d-154">sip.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="3dc4d-154">sip.fabrikam.com</span></span>
 
-<span data-ttu-id="b2426-155">LYNC.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="b2426-155">LYNC.fabrikam.com</span></span>
+<span data-ttu-id="3dc4d-155">LYNC.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="3dc4d-155">LYNC.fabrikam.com</span></span>
 
-<span data-ttu-id="b2426-156">meet.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="b2426-156">meet.fabrikam.com</span></span>
+<span data-ttu-id="3dc4d-156">meet.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="3dc4d-156">meet.fabrikam.com</span></span>
 
-<span data-ttu-id="b2426-157">admin.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="b2426-157">admin.fabrikam.com</span></span>
+<span data-ttu-id="3dc4d-157">admin.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="3dc4d-157">admin.fabrikam.com</span></span>
 
-<span data-ttu-id="b2426-158">LYNC-SE.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="b2426-158">LYNC-SE.fabrikam.com</span></span>
+<span data-ttu-id="3dc4d-158">LYNC-SE.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="3dc4d-158">LYNC-SE.fabrikam.com</span></span>
 
-<span data-ttu-id="b2426-159">Dialin.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="b2426-159">Dialin.fabrikam.com</span></span>
+<span data-ttu-id="3dc4d-159">Dialin.fabrikam.com</span><span class="sxs-lookup"><span data-stu-id="3dc4d-159">Dialin.fabrikam.com</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="b2426-160">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="b2426-160">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3dc4d-160">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="3dc4d-160">See Also</span></span>
 
 
-[<span data-ttu-id="b2426-161">Get-CsCertificate</span><span class="sxs-lookup"><span data-stu-id="b2426-161">Get-CsCertificate</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsCertificate)  
+[<span data-ttu-id="3dc4d-161">Get-CsCertificate</span><span class="sxs-lookup"><span data-stu-id="3dc4d-161">Get-CsCertificate</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsCertificate)  
   
 
 </div>

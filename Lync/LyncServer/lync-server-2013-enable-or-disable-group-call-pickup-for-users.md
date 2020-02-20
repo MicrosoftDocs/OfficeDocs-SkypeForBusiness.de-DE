@@ -12,20 +12,20 @@ ms:contentKeyID: 51541480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46bc1bb958fae23f4e8c66587d358004e7b6cf3d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2889b249f67074642343a0c0db0bceee29be1709
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42040144"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42149124"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enable-or-disable-group-call-pickup-for-users-in-lync-server-2013"></a><span data-ttu-id="476fa-102">Aktivieren oder Deaktivieren der gruppenanrufannahme für Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="476fa-102">Enable or disable Group Call Pickup for users in Lync Server 2013</span></span>
+# <a name="enable-or-disable-group-call-pickup-for-users-in-lync-server-2013"></a><span data-ttu-id="4d685-102">Aktivieren oder Deaktivieren der gruppenanrufannahme für Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d685-102">Enable or disable Group Call Pickup for users in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42040144"
 
 <span> </span>
 
-<span data-ttu-id="476fa-103">_**Letztes Änderungsstand des Themas:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="476fa-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="4d685-103">_**Letztes Änderungsstand des Themas:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="4d685-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="476fa-104">Wenn der Anruf Park Orbit-Tabelle ein Gruppenanruf-abholbereich hinzugefügt wird, können Sie die gruppenanrufannahme für den Benutzer nach Bedarf aktivieren und deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="476fa-104">When a Group Call Pickup range is added to the call park orbit table, you can enable and disable Group Call Pickup for the user as necessary.</span></span> <span data-ttu-id="476fa-105">In diesem Abschnitt wird die Verwendung des SEFAUtil Resource Kit-Tools zum Aktivieren und Deaktivieren der gruppenanrufannahme für Benutzer beschrieben.</span><span class="sxs-lookup"><span data-stu-id="476fa-105">This section describes how to use the SEFAUtil resource kit tool to enable and disable Group Call Pickup for users.</span></span>
+<span data-ttu-id="4d685-104">Wenn der Anruf Park Orbit-Tabelle ein Gruppenanruf-abholbereich hinzugefügt wird, können Sie die gruppenanrufannahme für den Benutzer nach Bedarf aktivieren und deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="4d685-104">When a Group Call Pickup range is added to the call park orbit table, you can enable and disable Group Call Pickup for the user as necessary.</span></span> <span data-ttu-id="4d685-105">In diesem Abschnitt wird die Verwendung des SEFAUtil Resource Kit-Tools zum Aktivieren und Deaktivieren der gruppenanrufannahme für Benutzer beschrieben.</span><span class="sxs-lookup"><span data-stu-id="4d685-105">This section describes how to use the SEFAUtil resource kit tool to enable and disable Group Call Pickup for users.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="476fa-106">Der Parameter SEFAUtil,/enablegrouppickup, aktiviert die gruppenanrufannahme und weist die Gruppennummer zu.</span><span class="sxs-lookup"><span data-stu-id="476fa-106">The SEFAUtil parameter, /enablegrouppickup, enables Group Call Pickup and assigns the group number.</span></span>
+> <span data-ttu-id="4d685-106">Der Parameter SEFAUtil,/enablegrouppickup, aktiviert die gruppenanrufannahme und weist die Gruppennummer zu.</span><span class="sxs-lookup"><span data-stu-id="4d685-106">The SEFAUtil parameter, /enablegrouppickup, enables Group Call Pickup and assigns the group number.</span></span>
 
 
 
@@ -51,11 +51,11 @@ ms.locfileid: "42040144"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="476fa-107">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="476fa-107">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4d685-107">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="4d685-107">In This Section</span></span>
 
-  - [<span data-ttu-id="476fa-108">Aktivieren der gruppenanrufannahme für Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="476fa-108">Enable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-enable-group-call-pickup-for-users.md)
+  - [<span data-ttu-id="4d685-108">Aktivieren der gruppenanrufannahme für Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d685-108">Enable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-enable-group-call-pickup-for-users.md)
 
-  - [<span data-ttu-id="476fa-109">Deaktivieren der gruppenanrufannahme für Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="476fa-109">Disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-disable-group-call-pickup-for-users.md)
+  - [<span data-ttu-id="4d685-109">Deaktivieren der gruppenanrufannahme für Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4d685-109">Disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-disable-group-call-pickup-for-users.md)
 
 </div>
 
