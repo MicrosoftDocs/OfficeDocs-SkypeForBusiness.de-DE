@@ -12,20 +12,20 @@ ms:contentKeyID: 48185034
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a03222cd628466e7d88e8f36adafbf5207f0ef0
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: efb730e06d9ce74d8f4e7c3c3e1dbf507af2ba1c
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037997"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42147458"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="gateways-table-in-lync-server-2013"></a><span data-ttu-id="cf58f-102">Gateways-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cf58f-102">Gateways table in Lync Server 2013</span></span>
+# <a name="gateways-table-in-lync-server-2013"></a><span data-ttu-id="9c87e-102">Gateways-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9c87e-102">Gateways table in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42037997"
 
 <span> </span>
 
-<span data-ttu-id="cf58f-103">_**Letztes Änderungsstand des Themas:** 2010-11-05_</span><span class="sxs-lookup"><span data-stu-id="cf58f-103">_**Topic Last Modified:** 2010-11-05_</span></span>
+<span data-ttu-id="9c87e-103">_**Letztes Änderungsstand des Themas:** 2010-11-05_</span><span class="sxs-lookup"><span data-stu-id="9c87e-103">_**Topic Last Modified:** 2010-11-05_</span></span>
 
-<span data-ttu-id="cf58f-104">Die Gateways-Tabelle ist eine unterstützende Tabelle.</span><span class="sxs-lookup"><span data-stu-id="cf58f-104">The Gateways table is a supporting table.</span></span> <span data-ttu-id="cf58f-105">Jeder Datensatz speichert Informationen zu einem Gateway, das an PSTN-anrufen (Public Switched Telephone Network) beteiligt ist, die Datensätze in der Datenbank aufweisen.</span><span class="sxs-lookup"><span data-stu-id="cf58f-105">Each record stores information about one gateway that is involved in public switched telephone network (PSTN) calls that have records in the database.</span></span>
+<span data-ttu-id="9c87e-104">Die Gateways-Tabelle ist eine unterstützende Tabelle.</span><span class="sxs-lookup"><span data-stu-id="9c87e-104">The Gateways table is a supporting table.</span></span> <span data-ttu-id="9c87e-105">Jeder Datensatz speichert Informationen zu einem Gateway, das an PSTN-anrufen (Public Switched Telephone Network) beteiligt ist, die Datensätze in der Datenbank aufweisen.</span><span class="sxs-lookup"><span data-stu-id="9c87e-105">Each record stores information about one gateway that is involved in public switched telephone network (PSTN) calls that have records in the database.</span></span>
 
 
 <table>
@@ -49,24 +49,24 @@ ms.locfileid: "42037997"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="cf58f-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="cf58f-106">Column</span></span></th>
-<th><span data-ttu-id="cf58f-107">Datentyp</span><span class="sxs-lookup"><span data-stu-id="cf58f-107">Data Type</span></span></th>
-<th><span data-ttu-id="cf58f-108">Schlüssel/Index</span><span class="sxs-lookup"><span data-stu-id="cf58f-108">Key/Index</span></span></th>
-<th><span data-ttu-id="cf58f-109">Details</span><span class="sxs-lookup"><span data-stu-id="cf58f-109">Details</span></span></th>
+<th><span data-ttu-id="9c87e-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="9c87e-106">Column</span></span></th>
+<th><span data-ttu-id="9c87e-107">Datentyp</span><span class="sxs-lookup"><span data-stu-id="9c87e-107">Data Type</span></span></th>
+<th><span data-ttu-id="9c87e-108">Schlüssel/Index</span><span class="sxs-lookup"><span data-stu-id="9c87e-108">Key/Index</span></span></th>
+<th><span data-ttu-id="9c87e-109">Details</span><span class="sxs-lookup"><span data-stu-id="9c87e-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cf58f-110"><strong>Gatewayserver</strong></span><span class="sxs-lookup"><span data-stu-id="cf58f-110"><strong>GatewayId</strong></span></span></p></td>
-<td><p><span data-ttu-id="cf58f-111">int</span><span class="sxs-lookup"><span data-stu-id="cf58f-111">int</span></span></p></td>
-<td><p><span data-ttu-id="cf58f-112">Primary</span><span class="sxs-lookup"><span data-stu-id="cf58f-112">Primary</span></span></p></td>
-<td><p><span data-ttu-id="cf58f-113">Eindeutige Zahl, die dieses Gateway identifiziert.</span><span class="sxs-lookup"><span data-stu-id="cf58f-113">Unique number identifying this gateway.</span></span></p></td>
+<td><p><span data-ttu-id="9c87e-110"><strong>Gatewayserver</strong></span><span class="sxs-lookup"><span data-stu-id="9c87e-110"><strong>GatewayId</strong></span></span></p></td>
+<td><p><span data-ttu-id="9c87e-111">int</span><span class="sxs-lookup"><span data-stu-id="9c87e-111">int</span></span></p></td>
+<td><p><span data-ttu-id="9c87e-112">Primary</span><span class="sxs-lookup"><span data-stu-id="9c87e-112">Primary</span></span></p></td>
+<td><p><span data-ttu-id="9c87e-113">Eindeutige Zahl, die dieses Gateway identifiziert.</span><span class="sxs-lookup"><span data-stu-id="9c87e-113">Unique number identifying this gateway.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cf58f-114"><strong>Gateway</strong></span><span class="sxs-lookup"><span data-stu-id="cf58f-114"><strong>Gateway</strong></span></span></p></td>
-<td><p><span data-ttu-id="cf58f-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="cf58f-115">nvarchar(256)</span></span></p></td>
+<td><p><span data-ttu-id="9c87e-114"><strong>Gateway</strong></span><span class="sxs-lookup"><span data-stu-id="9c87e-114"><strong>Gateway</strong></span></span></p></td>
+<td><p><span data-ttu-id="9c87e-115">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="9c87e-115">nvarchar(256)</span></span></p></td>
 <td><p> </p></td>
-<td><p><span data-ttu-id="cf58f-116">Name des Gateways.</span><span class="sxs-lookup"><span data-stu-id="cf58f-116">Gateway name.</span></span></p></td>
+<td><p><span data-ttu-id="9c87e-116">Name des Gateways.</span><span class="sxs-lookup"><span data-stu-id="9c87e-116">Gateway name.</span></span></p></td>
 </tr>
 </tbody>
 </table>

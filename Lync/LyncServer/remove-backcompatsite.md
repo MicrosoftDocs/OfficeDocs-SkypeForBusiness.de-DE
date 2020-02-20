@@ -12,20 +12,20 @@ ms:contentKeyID: 48183265
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7f613f6e96261d256c4c1f15fd2161648eed4fe
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c1f431ada6c48e830cfa06af98f5937cae9fa4d9
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008931"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42148252"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="remove-backcompatsite"></a><span data-ttu-id="75d7b-102">Entfernen von "BackCompatSite"</span><span class="sxs-lookup"><span data-stu-id="75d7b-102">Remove BackCompatSite</span></span>
+# <a name="remove-backcompatsite"></a><span data-ttu-id="4aaa1-102">Entfernen von "BackCompatSite"</span><span class="sxs-lookup"><span data-stu-id="4aaa1-102">Remove BackCompatSite</span></span>
 
 </div>
 
@@ -35,39 +35,39 @@ ms.locfileid: "42008931"
 
 <span> </span>
 
-<span data-ttu-id="75d7b-103">_**Letztes Änderungsstand des Themas:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="75d7b-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="4aaa1-103">_**Letztes Änderungsstand des Themas:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="4aaa1-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="75d7b-104">Nach dem Deaktivieren aller Pools und dem Deinstallieren aller Edgeserver führen Sie den Zusammenführungs-Assistenten des Topologie-Generators aus, um **BackCompatSite** zu entfernen.</span><span class="sxs-lookup"><span data-stu-id="75d7b-104">After all pools are deactivated and all Edge Servers have been uninstalled, run the Topology Builder Merge wizard to remove the **BackCompatSite**.</span></span>
+<span data-ttu-id="4aaa1-104">Nach dem Deaktivieren aller Pools und dem Deinstallieren aller Edgeserver führen Sie den Zusammenführungs-Assistenten des Topologie-Generators aus, um **BackCompatSite** zu entfernen.</span><span class="sxs-lookup"><span data-stu-id="4aaa1-104">After all pools are deactivated and all Edge Servers have been uninstalled, run the Topology Builder Merge wizard to remove the **BackCompatSite**.</span></span>
 
 <div>
 
-## <a name="to-remove-backcompat-site-from-topology-builder"></a><span data-ttu-id="75d7b-105">So entfernen Sie "BackCompatSite" aus dem Topologie-Generator</span><span class="sxs-lookup"><span data-stu-id="75d7b-105">To remove BackCompat site from Topology Builder</span></span>
+## <a name="to-remove-backcompat-site-from-topology-builder"></a><span data-ttu-id="4aaa1-105">So entfernen Sie "BackCompatSite" aus dem Topologie-Generator</span><span class="sxs-lookup"><span data-stu-id="4aaa1-105">To remove BackCompat site from Topology Builder</span></span>
 
-1.  <span data-ttu-id="75d7b-106">Öffnen Sie im Topologie-Generator eine vorhandene Bereitstellung.</span><span class="sxs-lookup"><span data-stu-id="75d7b-106">Open an existing deployment from Topology Builder.</span></span>
+1.  <span data-ttu-id="4aaa1-106">Öffnen Sie im Topologie-Generator eine vorhandene Bereitstellung.</span><span class="sxs-lookup"><span data-stu-id="4aaa1-106">Open an existing deployment from Topology Builder.</span></span>
 
-2.  <span data-ttu-id="75d7b-107">Klicken Sie im Menü **Aktion** auf **Topologie von Office Communications Server 2007 R2 zusammenführen**.</span><span class="sxs-lookup"><span data-stu-id="75d7b-107">In the **Action** menu, click **Merge 2007 R2 Topology**.</span></span>
+2.  <span data-ttu-id="4aaa1-107">Klicken Sie im Menü **Aktion** auf **Topologie von Office Communications Server 2007 R2 zusammenführen**.</span><span class="sxs-lookup"><span data-stu-id="4aaa1-107">In the **Action** menu, click **Merge 2007 R2 Topology**.</span></span>
 
-3.  <span data-ttu-id="75d7b-108">Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.</span><span class="sxs-lookup"><span data-stu-id="75d7b-108">Click **Next** to continue.</span></span>
+3.  <span data-ttu-id="4aaa1-108">Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.</span><span class="sxs-lookup"><span data-stu-id="4aaa1-108">Click **Next** to continue.</span></span>
 
-4.  <span data-ttu-id="75d7b-109">Stellen Sie auf der Seite **Legacy Edge angeben** sicher, dass die Liste der Edgeserver leer ist.</span><span class="sxs-lookup"><span data-stu-id="75d7b-109">On the **Specify Legacy Edge** page, ensure that list of Edge Servers is empty.</span></span> <span data-ttu-id="75d7b-110">Wenn die Liste nicht leer ist, verwenden Sie die **Entfernen** -Schaltfläche, um alle Legacy-Edgeserver zu entfernen, und klicken Sie dann auf **weiter**.</span><span class="sxs-lookup"><span data-stu-id="75d7b-110">If the list is not empty, use the **Remove** button to remove all the legacy Edge Servers, and then click **Next**.</span></span>
+4.  <span data-ttu-id="4aaa1-109">Stellen Sie auf der Seite **Legacy Edge angeben** sicher, dass die Liste der Edgeserver leer ist.</span><span class="sxs-lookup"><span data-stu-id="4aaa1-109">On the **Specify Legacy Edge** page, ensure that list of Edge Servers is empty.</span></span> <span data-ttu-id="4aaa1-110">Wenn die Liste nicht leer ist, verwenden Sie die **Entfernen** -Schaltfläche, um alle Legacy-Edgeserver zu entfernen, und klicken Sie dann auf **weiter**.</span><span class="sxs-lookup"><span data-stu-id="4aaa1-110">If the list is not empty, use the **Remove** button to remove all the legacy Edge Servers, and then click **Next**.</span></span>
     
-    <span data-ttu-id="75d7b-111">![Zusammenführungs Topologie-Assistent, Seite "Edge-Setup angeben"](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Zusammenführungs Topologie-Assistent, Seite "Edge-Setup angeben"")</span><span class="sxs-lookup"><span data-stu-id="75d7b-111">![Merge Topology Wizard, Specify Edge Setup page](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Merge Topology Wizard, Specify Edge Setup page")</span></span>  
+    <span data-ttu-id="4aaa1-111">![Zusammenführungs Topologie-Assistent, Seite "Edge-Setup angeben"](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Zusammenführungs Topologie-Assistent, Seite "Edge-Setup angeben"")</span><span class="sxs-lookup"><span data-stu-id="4aaa1-111">![Merge Topology Wizard, Specify Edge Setup page](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Merge Topology Wizard, Specify Edge Setup page")</span></span>  
 
-5.  <span data-ttu-id="75d7b-112">Klicken Sie auf der Seite **Internen SIP-Port angeben** auf **Weiter**.</span><span class="sxs-lookup"><span data-stu-id="75d7b-112">On the **Specify Internal SIP port setting** page, click **Next**.</span></span>
+5.  <span data-ttu-id="4aaa1-112">Klicken Sie auf der Seite **Internen SIP-Port angeben** auf **Weiter**.</span><span class="sxs-lookup"><span data-stu-id="4aaa1-112">On the **Specify Internal SIP port setting** page, click **Next**.</span></span>
 
-6.  <span data-ttu-id="75d7b-113">Klicken Sie auf der Seite **Zusammenfassung** auf **weiter** , um mit dem Zusammenführen der Topologien zu beginnen, um die Legacy Website zu entfernen.</span><span class="sxs-lookup"><span data-stu-id="75d7b-113">On the **Summary** page, click **Next** to begin merging the topologies to remove the legacy site.</span></span>
+6.  <span data-ttu-id="4aaa1-113">Klicken Sie auf der Seite **Zusammenfassung** auf **weiter** , um mit dem Zusammenführen der Topologien zu beginnen, um die Legacy Website zu entfernen.</span><span class="sxs-lookup"><span data-stu-id="4aaa1-113">On the **Summary** page, click **Next** to begin merging the topologies to remove the legacy site.</span></span>
 
-7.  <span data-ttu-id="75d7b-114">Stellen Sie in der Spalte **Status** sicher, dass der Wert **Erfolg** lautet, und klicken Sie zum Schließen des Assistenten auf **Fertig stellen**.</span><span class="sxs-lookup"><span data-stu-id="75d7b-114">In the **Status** column, verify that the value is **Success** and then click **Finish** to close the wizard.</span></span>
+7.  <span data-ttu-id="4aaa1-114">Stellen Sie in der Spalte **Status** sicher, dass der Wert **Erfolg** lautet, und klicken Sie zum Schließen des Assistenten auf **Fertig stellen**.</span><span class="sxs-lookup"><span data-stu-id="4aaa1-114">In the **Status** column, verify that the value is **Success** and then click **Finish** to close the wizard.</span></span>
 
-8.  <span data-ttu-id="75d7b-115">Erweitern Sie im linken Bereich des Topologie-Generators die Option "BackCompatSite", und stellen Sie sicher, dass keine Server aufgeführt sind.</span><span class="sxs-lookup"><span data-stu-id="75d7b-115">In the left pane of Topology Builder, expand the BackCompatSite and ensure no servers are listed.</span></span>
+8.  <span data-ttu-id="4aaa1-115">Erweitern Sie im linken Bereich des Topologie-Generators die Option "BackCompatSite", und stellen Sie sicher, dass keine Server aufgeführt sind.</span><span class="sxs-lookup"><span data-stu-id="4aaa1-115">In the left pane of Topology Builder, expand the BackCompatSite and ensure no servers are listed.</span></span>
 
-9.  <span data-ttu-id="75d7b-116">Klicken Sie mit der rechten Maustaste auf **BackCompatSite**, und klicken Sie dann auf **Löschen**.</span><span class="sxs-lookup"><span data-stu-id="75d7b-116">Right-click the **BackCompatSite**, and then click **Delete**.</span></span>
+9.  <span data-ttu-id="4aaa1-116">Klicken Sie mit der rechten Maustaste auf **BackCompatSite**, und klicken Sie dann auf **Löschen**.</span><span class="sxs-lookup"><span data-stu-id="4aaa1-116">Right-click the **BackCompatSite**, and then click **Delete**.</span></span>
 
-10. <span data-ttu-id="75d7b-117">Wählen Sie im Topologie-Generator\*\*\*\* den obersten Knoten **Lync Server** aus.</span><span class="sxs-lookup"><span data-stu-id="75d7b-117">In **Topology Builder**, select the top-most node **Lync Server**.</span></span>
+10. <span data-ttu-id="4aaa1-117">Wählen Sie im Topologie-Generator\*\*\*\* den obersten Knoten **Lync Server** aus.</span><span class="sxs-lookup"><span data-stu-id="4aaa1-117">In **Topology Builder**, select the top-most node **Lync Server**.</span></span>
 
-11. <span data-ttu-id="75d7b-118">Wählen Sie im Menü **Aktion** den Eintrag **Topologie veröffentlichen** aus, und klicken Sie auf **Weiter**.</span><span class="sxs-lookup"><span data-stu-id="75d7b-118">From the **Action** menu, select **Publish Topology** and then click **Next**.</span></span>
+11. <span data-ttu-id="4aaa1-118">Wählen Sie im Menü **Aktion** den Eintrag **Topologie veröffentlichen** aus, und klicken Sie auf **Weiter**.</span><span class="sxs-lookup"><span data-stu-id="4aaa1-118">From the **Action** menu, select **Publish Topology** and then click **Next**.</span></span>
 
-12. <span data-ttu-id="75d7b-119">Klicken Sie nach dem Abschließen des **Veröffentlichungs-Assistenten** auf **Fertig stellen**, um den Assistenten zu schließen.</span><span class="sxs-lookup"><span data-stu-id="75d7b-119">When the **Publishing wizard** completes, click **Finish** to close the wizard.</span></span>
+12. <span data-ttu-id="4aaa1-119">Klicken Sie nach dem Abschließen des **Veröffentlichungs-Assistenten** auf **Fertig stellen**, um den Assistenten zu schließen.</span><span class="sxs-lookup"><span data-stu-id="4aaa1-119">When the **Publishing wizard** completes, click **Finish** to close the wizard.</span></span>
 
 </div>
 
