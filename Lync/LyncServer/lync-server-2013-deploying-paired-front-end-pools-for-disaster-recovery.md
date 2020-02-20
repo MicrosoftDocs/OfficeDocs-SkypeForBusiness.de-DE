@@ -12,20 +12,20 @@ ms:contentKeyID: 48183727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a18b92dde9b6ca48ffe8912f216331c39ef9cc9d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3aec22b4d2b4f3049ed2a74cd413fbce0d2eb167
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043437"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153987"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="572b9-102">Bereitstellen gekoppelter Front-End-Pools für die Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="572b9-102">Deploying paired Front End pools for disaster recovery in Lync Server 2013</span></span>
+# <a name="deploying-paired-front-end-pools-for-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="85613-102">Bereitstellen gekoppelter Front-End-Pools für die Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="85613-102">Deploying paired Front End pools for disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,45 +35,45 @@ ms.locfileid: "42043437"
 
 <span> </span>
 
-<span data-ttu-id="572b9-103">_**Letztes Änderungsstand des Themas:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="572b9-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+<span data-ttu-id="85613-103">_**Letztes Änderungsstand des Themas:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="85613-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-<span data-ttu-id="572b9-104">Sie können die Notfall Wiederherstellungs Topologie mit gepaarten Front-End-Pools problemlos mithilfe des Topologie-Generators bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="572b9-104">You can easily deploy the disaster recovery topology of paired Front End pools using Topology Builder.</span></span>
+<span data-ttu-id="85613-104">Sie können die Notfall Wiederherstellungs Topologie mit gepaarten Front-End-Pools problemlos mithilfe des Topologie-Generators bereitstellen.</span><span class="sxs-lookup"><span data-stu-id="85613-104">You can easily deploy the disaster recovery topology of paired Front End pools using Topology Builder.</span></span>
 
 <div>
 
-## <a name="to-deploy-a-pair-of-front-end-pools"></a><span data-ttu-id="572b9-105">So stellen Sie ein Paar von Front-End-Pools bereit</span><span class="sxs-lookup"><span data-stu-id="572b9-105">To deploy a pair of Front End pools</span></span>
+## <a name="to-deploy-a-pair-of-front-end-pools"></a><span data-ttu-id="85613-105">So stellen Sie ein Paar von Front-End-Pools bereit</span><span class="sxs-lookup"><span data-stu-id="85613-105">To deploy a pair of Front End pools</span></span>
 
-1.  <span data-ttu-id="572b9-106">Wenn die Pools neu und noch nicht definiert sind, verwenden Sie den Topologie-Generator, um die Pools zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="572b9-106">If the pools are new and not yet defined, use Topology Builder to create the pools.</span></span>
+1.  <span data-ttu-id="85613-106">Wenn die Pools neu und noch nicht definiert sind, verwenden Sie den Topologie-Generator, um die Pools zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="85613-106">If the pools are new and not yet defined, use Topology Builder to create the pools.</span></span>
 
-2.  <span data-ttu-id="572b9-107">Klicken Sie im Topologie-Generator mit der rechten Maustaste auf einen der beiden Pools, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="572b9-107">In Topology Builder, right-click one of the two pools, and then click **Edit Properties**.</span></span>
+2.  <span data-ttu-id="85613-107">Klicken Sie im Topologie-Generator mit der rechten Maustaste auf einen der beiden Pools, und klicken Sie dann auf **Eigenschaften bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="85613-107">In Topology Builder, right-click one of the two pools, and then click **Edit Properties**.</span></span>
 
-3.  <span data-ttu-id="572b9-108">Klicken Sie im linken Bereich auf **Flexibilität**, und wählen Sie dann im rechten Bereich **Zugeordneter Sicherungspool**aus.</span><span class="sxs-lookup"><span data-stu-id="572b9-108">Click **Resiliency** in the left pane, and then select **Associated Backup Pool** in the right pane.</span></span>
+3.  <span data-ttu-id="85613-108">Klicken Sie im linken Bereich auf **Flexibilität**, und wählen Sie dann im rechten Bereich **Zugeordneter Sicherungspool**aus.</span><span class="sxs-lookup"><span data-stu-id="85613-108">Click **Resiliency** in the left pane, and then select **Associated Backup Pool** in the right pane.</span></span>
 
-4.  <span data-ttu-id="572b9-p101">Wählen Sie im Feld unter **Zugeordneter Sicherungspool** den Pool aus, mit dem dieser Pool ein Paar bilden soll. Zur Auswahl stehen nur vorhandene Pools, die noch nicht mit einem anderen Pool ein Paar bilden.</span><span class="sxs-lookup"><span data-stu-id="572b9-p101">In the box below **Associated Backup Pool**, select the pool that you want to pair with this pool. Only existing pools that are not already paired with another pool will be available to select from.</span></span>
+4.  <span data-ttu-id="85613-p101">Wählen Sie im Feld unter **Zugeordneter Sicherungspool** den Pool aus, mit dem dieser Pool ein Paar bilden soll. Zur Auswahl stehen nur vorhandene Pools, die noch nicht mit einem anderen Pool ein Paar bilden.</span><span class="sxs-lookup"><span data-stu-id="85613-p101">In the box below **Associated Backup Pool**, select the pool that you want to pair with this pool. Only existing pools that are not already paired with another pool will be available to select from.</span></span>
     
-    <span data-ttu-id="572b9-111">![36080581-DB76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-DB76-497d-bf9e-f02b39574d0e")</span><span class="sxs-lookup"><span data-stu-id="572b9-111">![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")</span></span>  
+    <span data-ttu-id="85613-111">![36080581-DB76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-DB76-497d-bf9e-f02b39574d0e")</span><span class="sxs-lookup"><span data-stu-id="85613-111">![36080581-db76-497d-bf9e-f02b39574d0e](images/JJ204773.36080581-db76-497d-bf9e-f02b39574d0e(OCS.15).png "36080581-db76-497d-bf9e-f02b39574d0e")</span></span>  
 
-5.  <span data-ttu-id="572b9-112">Wählen Sie **Automatisches Failover und Failback für Sprachdienste** aus, und klicken Sie dann auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="572b9-112">Select **Automatic failover and failback for Voice**, and then click **OK**.</span></span>
+5.  <span data-ttu-id="85613-112">Wählen Sie **Automatisches Failover und Failback für Sprachdienste** aus, und klicken Sie dann auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="85613-112">Select **Automatic failover and failback for Voice**, and then click **OK**.</span></span>
     
-    <span data-ttu-id="572b9-113">Wenn Sie die Details zu diesem Pool anzeigen, erscheint der neu zugeordnete Pool jetzt im rechten Bereich unter **Flexibilität**.</span><span class="sxs-lookup"><span data-stu-id="572b9-113">When you view the details about this pool, the associated pool now appears in the right pane under **Resiliency**.</span></span>
+    <span data-ttu-id="85613-113">Wenn Sie die Details zu diesem Pool anzeigen, erscheint der neu zugeordnete Pool jetzt im rechten Bereich unter **Flexibilität**.</span><span class="sxs-lookup"><span data-stu-id="85613-113">When you view the details about this pool, the associated pool now appears in the right pane under **Resiliency**.</span></span>
 
-6.  <span data-ttu-id="572b9-114">Verwenden Sie den Topologie-Generator, um die Topologie zu veröffentlichen.</span><span class="sxs-lookup"><span data-stu-id="572b9-114">Use Topology Builder to publish the topology.</span></span>
+6.  <span data-ttu-id="85613-114">Verwenden Sie den Topologie-Generator, um die Topologie zu veröffentlichen.</span><span class="sxs-lookup"><span data-stu-id="85613-114">Use Topology Builder to publish the topology.</span></span>
 
-7.  <span data-ttu-id="572b9-p102">Wenn die beiden Pools noch nicht bereitgestellt wurden, führen Sie die Bereitstellung jetzt durch, um die Konfiguration abzuschließen. Sie können die letzten beiden Schritte in diesem Verfahren überspringen.</span><span class="sxs-lookup"><span data-stu-id="572b9-p102">If the two pools were not yet deployed, deploy them now and the configuration will be complete. You can skip the final two steps in this procedure.</span></span>
+7.  <span data-ttu-id="85613-p102">Wenn die beiden Pools noch nicht bereitgestellt wurden, führen Sie die Bereitstellung jetzt durch, um die Konfiguration abzuschließen. Sie können die letzten beiden Schritte in diesem Verfahren überspringen.</span><span class="sxs-lookup"><span data-stu-id="85613-p102">If the two pools were not yet deployed, deploy them now and the configuration will be complete. You can skip the final two steps in this procedure.</span></span>
     
-    <span data-ttu-id="572b9-117">Wenn die Pools jedoch bereits bereitgestellt waren, bevor Sie die Paarbeziehung definiert haben, müssen Sie die beiden folgenden abschließenden Schritte ausführen.</span><span class="sxs-lookup"><span data-stu-id="572b9-117">However, if the pools were already deployed before you defined the paired relationship, you must complete the following two final steps.</span></span>
+    <span data-ttu-id="85613-117">Wenn die Pools jedoch bereits bereitgestellt waren, bevor Sie die Paarbeziehung definiert haben, müssen Sie die beiden folgenden abschließenden Schritte ausführen.</span><span class="sxs-lookup"><span data-stu-id="85613-117">However, if the pools were already deployed before you defined the paired relationship, you must complete the following two final steps.</span></span>
 
-8.  <span data-ttu-id="572b9-118">Führen Sie auf jedem Front-End-Server in beiden Pools Folgendes aus:</span><span class="sxs-lookup"><span data-stu-id="572b9-118">On every Front End Server in both pools, run the following:</span></span>
+8.  <span data-ttu-id="85613-118">Führen Sie auf jedem Front-End-Server in beiden Pools Folgendes aus:</span><span class="sxs-lookup"><span data-stu-id="85613-118">On every Front End Server in both pools, run the following:</span></span>
     ```console
     <system drive>\Program Files\Microsoft Lync Server 2013\Deployment\Bootstrapper.exe 
     ```
-    <span data-ttu-id="572b9-119">Hierdurch werden die anderen Dienste konfiguriert, die erforderlich sind, damit die Sicherung des Poolpaars korrekt funktioniert.</span><span class="sxs-lookup"><span data-stu-id="572b9-119">This configures other services required for backup pairing to work correctly.</span></span>
+    <span data-ttu-id="85613-119">Hierdurch werden die anderen Dienste konfiguriert, die erforderlich sind, damit die Sicherung des Poolpaars korrekt funktioniert.</span><span class="sxs-lookup"><span data-stu-id="85613-119">This configures other services required for backup pairing to work correctly.</span></span>
 
-9.  <span data-ttu-id="572b9-120">Führen Sie an einer lync Server-Verwaltungsshell Eingabeaufforderung Folgendes aus:</span><span class="sxs-lookup"><span data-stu-id="572b9-120">From a Lync Server Management Shell command prompt, run the following:</span></span>
+9.  <span data-ttu-id="85613-120">Führen Sie an einer lync Server-Verwaltungsshell Eingabeaufforderung Folgendes aus:</span><span class="sxs-lookup"><span data-stu-id="85613-120">From a Lync Server Management Shell command prompt, run the following:</span></span>
     ```powershell
     Start-CsWindowsService -Name LYNCBACKUP
     ```
-10. <span data-ttu-id="572b9-121">Verwenden Sie die folgenden Cmdlets, um zu erzwingen, dass die Benutzer- und Konferenzdaten beider Pools miteinander synchronisiert werden:</span><span class="sxs-lookup"><span data-stu-id="572b9-121">Force the user and conference data of both pools to be synchronized with each other, with the following cmdlets:</span></span>
+10. <span data-ttu-id="85613-121">Verwenden Sie die folgenden Cmdlets, um zu erzwingen, dass die Benutzer- und Konferenzdaten beider Pools miteinander synchronisiert werden:</span><span class="sxs-lookup"><span data-stu-id="85613-121">Force the user and conference data of both pools to be synchronized with each other, with the following cmdlets:</span></span>
     
        ```powershell
         Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>
@@ -83,7 +83,7 @@ ms.locfileid: "42043437"
         Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN>
        ```
     
-    <span data-ttu-id="572b9-122">Das Synchronisieren der Daten kann einige Zeit in Anspruch nehmen.</span><span class="sxs-lookup"><span data-stu-id="572b9-122">Synchronizing the data may take some time.</span></span> <span data-ttu-id="572b9-123">Sie können die folgenden Cmdlets verwenden, um den Status zu prüfen.</span><span class="sxs-lookup"><span data-stu-id="572b9-123">You can use the following cmdlets to check the status.</span></span> <span data-ttu-id="572b9-124">Stellen Sie sicher, dass sich der Status in beide Richtungen im stationären Zustand befindet.</span><span class="sxs-lookup"><span data-stu-id="572b9-124">Make sure that the status in both directions is in steady state.</span></span>
+    <span data-ttu-id="85613-122">Das Synchronisieren der Daten kann einige Zeit in Anspruch nehmen.</span><span class="sxs-lookup"><span data-stu-id="85613-122">Synchronizing the data may take some time.</span></span> <span data-ttu-id="85613-123">Sie können die folgenden Cmdlets verwenden, um den Status zu prüfen.</span><span class="sxs-lookup"><span data-stu-id="85613-123">You can use the following cmdlets to check the status.</span></span> <span data-ttu-id="85613-124">Stellen Sie sicher, dass sich der Status in beide Richtungen im stationären Zustand befindet.</span><span class="sxs-lookup"><span data-stu-id="85613-124">Make sure that the status in both directions is in steady state.</span></span>
     
        ```powershell
         Get-CsBackupServiceStatus -PoolFqdn <Pool1 FQDN>
@@ -97,7 +97,7 @@ ms.locfileid: "42043437"
 
 
 > [!NOTE]  
-> <span data-ttu-id="572b9-125">Die Option <STRONG>Automatisches Failover und Failback für VoIP</STRONG> und die zugehörigen Zeitintervalle im Topologie-Generator gelten nur für die Features der VoIP-Ausfallsicherheit, die in lync Server 2010 eingeführt wurden.</span><span class="sxs-lookup"><span data-stu-id="572b9-125">The <STRONG>Automatic failover and failback for Voice</STRONG> option and the associated time intervals in Topology Builder apply only to the voice resiliency features that were introduced in Lync Server 2010.</span></span> <span data-ttu-id="572b9-126">Die Auswahl dieser Option bedeutet nicht, dass das in diesem Dokument beschriebene Pool Failover automatisch erfolgt.</span><span class="sxs-lookup"><span data-stu-id="572b9-126">Selecting this option does not imply that the pool failover discussed in this document is automatic.</span></span> <span data-ttu-id="572b9-127">Für das Pool-Failover und das Failback muss ein Administrator immer manuell die Failover-und Failback-Cmdlets aufrufen.</span><span class="sxs-lookup"><span data-stu-id="572b9-127">Pool failover and failback always require an administrator to manually invoke the failover and failback cmdlets, respectively.</span></span>
+> <span data-ttu-id="85613-125">Die Option <STRONG>Automatisches Failover und Failback für VoIP</STRONG> und die zugehörigen Zeitintervalle im Topologie-Generator gelten nur für die Features der VoIP-Ausfallsicherheit, die in lync Server 2010 eingeführt wurden.</span><span class="sxs-lookup"><span data-stu-id="85613-125">The <STRONG>Automatic failover and failback for Voice</STRONG> option and the associated time intervals in Topology Builder apply only to the voice resiliency features that were introduced in Lync Server 2010.</span></span> <span data-ttu-id="85613-126">Die Auswahl dieser Option bedeutet nicht, dass das in diesem Dokument beschriebene Pool Failover automatisch erfolgt.</span><span class="sxs-lookup"><span data-stu-id="85613-126">Selecting this option does not imply that the pool failover discussed in this document is automatic.</span></span> <span data-ttu-id="85613-127">Für das Pool-Failover und das Failback muss ein Administrator immer manuell die Failover-und Failback-Cmdlets aufrufen.</span><span class="sxs-lookup"><span data-stu-id="85613-127">Pool failover and failback always require an administrator to manually invoke the failover and failback cmdlets, respectively.</span></span>
 
 
 

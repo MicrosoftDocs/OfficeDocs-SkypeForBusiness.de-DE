@@ -12,20 +12,20 @@ ms:contentKeyID: 51541513
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 349a4b2609f3b810d0aa64c9e71786f309f21918
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e2dcb2b1fdc41d1d4dd9a047eceaba8bcbc2c3ea
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045287"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154737"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="installing-lync-for-windows-phone-in-lync-server-2013"></a><span data-ttu-id="bf407-102">Installieren von lync für Windows phone in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bf407-102">Installing Lync for Windows Phone in Lync Server 2013</span></span>
+# <a name="installing-lync-for-windows-phone-in-lync-server-2013"></a><span data-ttu-id="f2e2c-102">Installieren von lync für Windows phone in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f2e2c-102">Installing Lync for Windows Phone in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,88 +35,88 @@ ms.locfileid: "42045287"
 
 <span> </span>
 
-<span data-ttu-id="bf407-103">_**Letztes Änderungsstand des Themas:** 2014-02-03_</span><span class="sxs-lookup"><span data-stu-id="bf407-103">_**Topic Last Modified:** 2014-02-03_</span></span>
+<span data-ttu-id="f2e2c-103">_**Letztes Änderungsstand des Themas:** 2014-02-03_</span><span class="sxs-lookup"><span data-stu-id="f2e2c-103">_**Topic Last Modified:** 2014-02-03_</span></span>
 
-<span data-ttu-id="bf407-104">Lync 2013 für Windows Phone ist eine Benutzer installierbare Anwendung, die auf dem Windows Phone Marketplace verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="bf407-104">Lync 2013 for Windows Phone is a user-installable application that is available in the Windows Phone Marketplace.</span></span>
+<span data-ttu-id="f2e2c-104">Lync 2013 für Windows Phone ist eine Benutzer installierbare Anwendung, die auf dem Windows Phone Marketplace verfügbar ist.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-104">Lync 2013 for Windows Phone is a user-installable application that is available in the Windows Phone Marketplace.</span></span>
 
 <div>
 
-## <a name="installing-lync-for-windows-mobile"></a><span data-ttu-id="bf407-105">Installieren von Lync für Windows Mobile</span><span class="sxs-lookup"><span data-stu-id="bf407-105">Installing Lync for Windows Mobile</span></span>
+## <a name="installing-lync-for-windows-mobile"></a><span data-ttu-id="f2e2c-105">Installieren von Lync für Windows Mobile</span><span class="sxs-lookup"><span data-stu-id="f2e2c-105">Installing Lync for Windows Mobile</span></span>
 
-<span data-ttu-id="bf407-106">Sie können Ihre Benutzer anweisen, lync 2013 für Windows Phone auf Ihren Geräten zu installieren, indem Sie Sie an den <http://go.microsoft.com/fwlink/p/?linkid=231901>Windows Phone Marketplace unterrichten.</span><span class="sxs-lookup"><span data-stu-id="bf407-106">You can instruct your users to install Lync 2013 for Windows Phone on their devices by directing them to the Windows Phone Marketplace at <http://go.microsoft.com/fwlink/p/?linkid=231901>.</span></span>
+<span data-ttu-id="f2e2c-106">Sie können Ihre Benutzer anweisen, lync 2013 für Windows Phone auf Ihren Geräten zu installieren, indem Sie Sie an den <https://go.microsoft.com/fwlink/p/?linkid=231901>Windows Phone Marketplace unterrichten.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-106">You can instruct your users to install Lync 2013 for Windows Phone on their devices by directing them to the Windows Phone Marketplace at <https://go.microsoft.com/fwlink/p/?linkid=231901>.</span></span>
 
 </div>
 
 <div>
 
-## <a name="if-you-use-a-dns-srv-record-to-publish-exchange-web-services"></a><span data-ttu-id="bf407-107">Wenn Sie einen DNS-SRV-Eintrag zum Veröffentlichen von Exchange Webdienste verwenden</span><span class="sxs-lookup"><span data-stu-id="bf407-107">If You Use a DNS SRV Record to Publish Exchange Web Services</span></span>
+## <a name="if-you-use-a-dns-srv-record-to-publish-exchange-web-services"></a><span data-ttu-id="f2e2c-107">Wenn Sie einen DNS-SRV-Eintrag zum Veröffentlichen von Exchange Webdienste verwenden</span><span class="sxs-lookup"><span data-stu-id="f2e2c-107">If You Use a DNS SRV Record to Publish Exchange Web Services</span></span>
 
-<span data-ttu-id="bf407-108">Um die Exchange-Integration für lync-Clients zu aktivieren, veröffentlichen einige Organisationen die Exchange Webdienste-URL mithilfe eines DNS-SRV-Eintrags.</span><span class="sxs-lookup"><span data-stu-id="bf407-108">To enable Exchange integration for Lync clients, some organizations publish the Exchange Web Services URL by using a DNS SRV record.</span></span> <span data-ttu-id="bf407-109">Das Dokument "Understanding and Troubleshooting Exchange Integration", verfügbar im Microsoft Download Center [http://go.microsoft.com/fwlink/?LinkID=391095](http://go.microsoft.com/fwlink/?linkid=391095)unter, beschreibt Szenarien, in denen dies möglicherweise erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="bf407-109">The document "Understanding and Troubleshooting Exchange Integration," available in the Microsoft Download Center at [http://go.microsoft.com/fwlink/?LinkID=391095](http://go.microsoft.com/fwlink/?linkid=391095), describes scenarios in which this might be necessary.</span></span> <span data-ttu-id="bf407-110">Die Exchange-Integration für Windows Phone Benutzer ist in diesem Szenario jedoch nicht funktionsfähig, da die Windows Phone-Plattform keine SRV-Lookups unterstützt.</span><span class="sxs-lookup"><span data-stu-id="bf407-110">However, Exchange integration for Windows Phone users will not work in this scenario, because the Windows Phone platform does not support SRV lookups.</span></span> <span data-ttu-id="bf407-111">Sie müssen Windows Phone Benutzer anweisen, die Exchange Webdienste-URL anzugeben, anstatt dem Telefon die automatische Erkennung des Servers zu erlauben.</span><span class="sxs-lookup"><span data-stu-id="bf407-111">You will need to instruct Windows Phone users to specify the Exchange Web Services URL instead of allowing the phone to automatically detect the server.</span></span>
+<span data-ttu-id="f2e2c-108">Um die Exchange-Integration für lync-Clients zu aktivieren, veröffentlichen einige Organisationen die Exchange Webdienste-URL mithilfe eines DNS-SRV-Eintrags.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-108">To enable Exchange integration for Lync clients, some organizations publish the Exchange Web Services URL by using a DNS SRV record.</span></span> <span data-ttu-id="f2e2c-109">Das Dokument "Understanding and Troubleshooting Exchange Integration", verfügbar im Microsoft Download Center [https://go.microsoft.com/fwlink/?LinkID=391095](https://go.microsoft.com/fwlink/?linkid=391095)unter, beschreibt Szenarien, in denen dies möglicherweise erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-109">The document "Understanding and Troubleshooting Exchange Integration," available in the Microsoft Download Center at [https://go.microsoft.com/fwlink/?LinkID=391095](https://go.microsoft.com/fwlink/?linkid=391095), describes scenarios in which this might be necessary.</span></span> <span data-ttu-id="f2e2c-110">Die Exchange-Integration für Windows Phone Benutzer ist in diesem Szenario jedoch nicht funktionsfähig, da die Windows Phone-Plattform keine SRV-Lookups unterstützt.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-110">However, Exchange integration for Windows Phone users will not work in this scenario, because the Windows Phone platform does not support SRV lookups.</span></span> <span data-ttu-id="f2e2c-111">Sie müssen Windows Phone Benutzer anweisen, die Exchange Webdienste-URL anzugeben, anstatt dem Telefon die automatische Erkennung des Servers zu erlauben.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-111">You will need to instruct Windows Phone users to specify the Exchange Web Services URL instead of allowing the phone to automatically detect the server.</span></span>
 
-<span data-ttu-id="bf407-112">Weisen Sie die Benutzer an, die lync-Einstellungen auf Ihren Windows-Telefonen wie folgt zu konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="bf407-112">Instruct your users to configure the Lync settings on their Windows Phones as follows:</span></span>
+<span data-ttu-id="f2e2c-112">Weisen Sie die Benutzer an, die lync-Einstellungen auf Ihren Windows-Telefonen wie folgt zu konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="f2e2c-112">Instruct your users to configure the Lync settings on their Windows Phones as follows:</span></span>
 
-1.  <span data-ttu-id="bf407-113">Wählen Sie in Windows phone in den lync-Einstellungen den Bildschirm **Exchange** aus.</span><span class="sxs-lookup"><span data-stu-id="bf407-113">In Windows Phone, in the Lync settings, select the **Exchange** screen.</span></span>
+1.  <span data-ttu-id="f2e2c-113">Wählen Sie in Windows phone in den lync-Einstellungen den Bildschirm **Exchange** aus.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-113">In Windows Phone, in the Lync settings, select the **Exchange** screen.</span></span>
 
-2.  <span data-ttu-id="bf407-114">**Automatisches Erkennen von Servern** in **aus**.</span><span class="sxs-lookup"><span data-stu-id="bf407-114">Move **Auto-Detect Server** to **Off**.</span></span>
+2.  <span data-ttu-id="f2e2c-114">**Automatisches Erkennen von Servern** in **aus**.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-114">Move **Auto-Detect Server** to **Off**.</span></span>
 
-3.  <span data-ttu-id="bf407-115">Tippen Sie auf das leere Feld, und geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) oder die URL für Exchange Webdienste ein.</span><span class="sxs-lookup"><span data-stu-id="bf407-115">Tap the empty field and enter the fully qualified domain name (FQDN) or URL for Exchange Web Services.</span></span>
+3.  <span data-ttu-id="f2e2c-115">Tippen Sie auf das leere Feld, und geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) oder die URL für Exchange Webdienste ein.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-115">Tap the empty field and enter the fully qualified domain name (FQDN) or URL for Exchange Web Services.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="bf407-116">Sie können entweder den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) oder die vollständige URL Ihres Exchange Webdienste-Servers angeben.</span><span class="sxs-lookup"><span data-stu-id="bf407-116">You can specify either the fully qualified domain name (FQDN) or the full URL of your Exchange Web Services server.</span></span> <span data-ttu-id="bf407-117">Wenn Sie den FQDN angeben, werden das Protokoll (https://) und der Exchange Webdienste Pfad (/EWS/Exchange.asmx) automatisch hinzugefügt.</span><span class="sxs-lookup"><span data-stu-id="bf407-117">If you specify the FQDN, the protocol (https://) and the Exchange Web Services path (/ews/exchange.asmx) are added automatically.</span></span> <span data-ttu-id="bf407-118">Wenn Ihr Exchange Webdienste-Pfad unterschiedlich ist, können Sie die vollständige URL angeben.</span><span class="sxs-lookup"><span data-stu-id="bf407-118">If your Exchange Web Services path is different, you can specify the full URL.</span></span>
+    > <span data-ttu-id="f2e2c-116">Sie können entweder den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) oder die vollständige URL Ihres Exchange Webdienste-Servers angeben.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-116">You can specify either the fully qualified domain name (FQDN) or the full URL of your Exchange Web Services server.</span></span> <span data-ttu-id="f2e2c-117">Wenn Sie den FQDN angeben, werden das Protokoll (https://) und der Exchange Webdienste Pfad (/EWS/Exchange.asmx) automatisch hinzugefügt.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-117">If you specify the FQDN, the protocol (https://) and the Exchange Web Services path (/ews/exchange.asmx) are added automatically.</span></span> <span data-ttu-id="f2e2c-118">Wenn Ihr Exchange Webdienste-Pfad unterschiedlich ist, können Sie die vollständige URL angeben.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-118">If your Exchange Web Services path is different, you can specify the full URL.</span></span>
 
     
     </div>
 
-4.  <span data-ttu-id="bf407-119">Schließen Sie den Bildschirm.</span><span class="sxs-lookup"><span data-stu-id="bf407-119">Close the screen.</span></span>
+4.  <span data-ttu-id="f2e2c-119">Schließen Sie den Bildschirm.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-119">Close the screen.</span></span>
 
 </div>
 
 <div>
 
-## <a name="verifying-mobile-client-installation"></a><span data-ttu-id="bf407-120">Überprüfen der Installation des mobilen Clients</span><span class="sxs-lookup"><span data-stu-id="bf407-120">Verifying Mobile Client Installation</span></span>
+## <a name="verifying-mobile-client-installation"></a><span data-ttu-id="f2e2c-120">Überprüfen der Installation des mobilen Clients</span><span class="sxs-lookup"><span data-stu-id="f2e2c-120">Verifying Mobile Client Installation</span></span>
 
-<span data-ttu-id="bf407-121">Nachdem Sie den Client konfiguriert und sich erfolgreich angemeldet haben, können Sie anhand der folgenden Tests überprüfen, ob die Installation von lync 2013 auf Ihrem mobilen Gerät ordnungsgemäß funktioniert.</span><span class="sxs-lookup"><span data-stu-id="bf407-121">After you configure the client and sign in successfully, use the following tests to verify that your installation of Lync 2013 is working correctly on your mobile device.</span></span>
+<span data-ttu-id="f2e2c-121">Nachdem Sie den Client konfiguriert und sich erfolgreich angemeldet haben, können Sie anhand der folgenden Tests überprüfen, ob die Installation von lync 2013 auf Ihrem mobilen Gerät ordnungsgemäß funktioniert.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-121">After you configure the client and sign in successfully, use the following tests to verify that your installation of Lync 2013 is working correctly on your mobile device.</span></span>
 
-<span data-ttu-id="bf407-122">**Suchen nach einem Kontakt im Unternehmensverzeichnis**</span><span class="sxs-lookup"><span data-stu-id="bf407-122">**Search for a contact in the corporate directory**</span></span>
+<span data-ttu-id="f2e2c-122">**Suchen nach einem Kontakt im Unternehmensverzeichnis**</span><span class="sxs-lookup"><span data-stu-id="f2e2c-122">**Search for a contact in the corporate directory**</span></span>
 
-1.  <span data-ttu-id="bf407-123">Tippen Sie in der Kontaktliste unten auf die Schaltfläche **Suchen**.</span><span class="sxs-lookup"><span data-stu-id="bf407-123">In the Contacts list, tap **Search** at the bottom.</span></span>
+1.  <span data-ttu-id="f2e2c-123">Tippen Sie in der Kontaktliste unten auf die Schaltfläche **Suchen**.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-123">In the Contacts list, tap **Search** at the bottom.</span></span>
 
-2.  <span data-ttu-id="bf407-124">Suchen Sie einen Kontakt, der nur in der globalen Adressliste vorhanden ist.</span><span class="sxs-lookup"><span data-stu-id="bf407-124">Search for a contact that exists only in the global address list.</span></span>
+2.  <span data-ttu-id="f2e2c-124">Suchen Sie einen Kontakt, der nur in der globalen Adressliste vorhanden ist.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-124">Search for a contact that exists only in the global address list.</span></span>
 
-3.  <span data-ttu-id="bf407-125">Stellen Sie sicher, dass der Kontaktname in den Suchergebnissen angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="bf407-125">Verify that the contact name appears in the search results.</span></span>
+3.  <span data-ttu-id="f2e2c-125">Stellen Sie sicher, dass der Kontaktname in den Suchergebnissen angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-125">Verify that the contact name appears in the search results.</span></span>
 
-<span data-ttu-id="bf407-126">**Testen von Chatnachrichten und Anwesenheitsinformationen**</span><span class="sxs-lookup"><span data-stu-id="bf407-126">**Test instant messaging and presence**</span></span>
+<span data-ttu-id="f2e2c-126">**Testen von Chatnachrichten und Anwesenheitsinformationen**</span><span class="sxs-lookup"><span data-stu-id="f2e2c-126">**Test instant messaging and presence**</span></span>
 
-1.  <span data-ttu-id="bf407-127">Tippen Sie in der Kontaktliste auf einen Kontakt.</span><span class="sxs-lookup"><span data-stu-id="bf407-127">In the Contacts list, tap a contact.</span></span>
+1.  <span data-ttu-id="f2e2c-127">Tippen Sie in der Kontaktliste auf einen Kontakt.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-127">In the Contacts list, tap a contact.</span></span>
 
-2.  <span data-ttu-id="bf407-128">Tippen Sie in der Visitenkarte auf das Symbol **IM**.</span><span class="sxs-lookup"><span data-stu-id="bf407-128">In the contact card, tap the **IM** icon.</span></span>
+2.  <span data-ttu-id="f2e2c-128">Tippen Sie in der Visitenkarte auf das Symbol **IM**.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-128">In the contact card, tap the **IM** icon.</span></span>
 
-3.  <span data-ttu-id="bf407-129">Stellen Sie sicher, dass ein Chatfenster angezeigt wird und Sie ein Chatnachrichten eingeben und senden können.</span><span class="sxs-lookup"><span data-stu-id="bf407-129">Verify that an instant messaging (IM) window appears and that you can type and send an IM.</span></span>
+3.  <span data-ttu-id="f2e2c-129">Stellen Sie sicher, dass ein Chatfenster angezeigt wird und Sie ein Chatnachrichten eingeben und senden können.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-129">Verify that an instant messaging (IM) window appears and that you can type and send an IM.</span></span>
 
-<span data-ttu-id="bf407-130">**Testen der Dial-Out-Konferenz**</span><span class="sxs-lookup"><span data-stu-id="bf407-130">**Test dial-out conferencing**</span></span>
+<span data-ttu-id="f2e2c-130">**Testen der Dial-Out-Konferenz**</span><span class="sxs-lookup"><span data-stu-id="f2e2c-130">**Test dial-out conferencing**</span></span>
 
-1.  <span data-ttu-id="bf407-131">Planen Sie in Outlook eine Lync-Besprechung.</span><span class="sxs-lookup"><span data-stu-id="bf407-131">In Outlook, schedule a Lync meeting.</span></span>
+1.  <span data-ttu-id="f2e2c-131">Planen Sie in Outlook eine Lync-Besprechung.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-131">In Outlook, schedule a Lync meeting.</span></span>
 
-2.  <span data-ttu-id="bf407-132">Öffnen Sie auf dem mobilen Gerät die Besprechungseinladung.</span><span class="sxs-lookup"><span data-stu-id="bf407-132">On the mobile device, open the meeting invitation.</span></span>
+2.  <span data-ttu-id="f2e2c-132">Öffnen Sie auf dem mobilen Gerät die Besprechungseinladung.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-132">On the mobile device, open the meeting invitation.</span></span>
 
-3.  <span data-ttu-id="bf407-133">Klicken Sie in der Besprechung auf den Link, um an der Besprechung teilzunehmen.</span><span class="sxs-lookup"><span data-stu-id="bf407-133">Click the link in the meeting to join.</span></span>
+3.  <span data-ttu-id="f2e2c-133">Klicken Sie in der Besprechung auf den Link, um an der Besprechung teilzunehmen.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-133">Click the link in the meeting to join.</span></span>
 
-4.  <span data-ttu-id="bf407-134">Nehmen Sie den Anruf vom Konferenzdienst entgegen, und stellen Sie sicher, dass Sie mit dem Besprechungsaudio verbunden sind.</span><span class="sxs-lookup"><span data-stu-id="bf407-134">Answer the call from the conference service and verify that you are connected to meeting audio.</span></span>
+4.  <span data-ttu-id="f2e2c-134">Nehmen Sie den Anruf vom Konferenzdienst entgegen, und stellen Sie sicher, dass Sie mit dem Besprechungsaudio verbunden sind.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-134">Answer the call from the conference service and verify that you are connected to meeting audio.</span></span>
 
-<span data-ttu-id="bf407-135">**Testen von Pushbenachrichtigungen**</span><span class="sxs-lookup"><span data-stu-id="bf407-135">**Test push notifications**</span></span>
+<span data-ttu-id="f2e2c-135">**Testen von Pushbenachrichtigungen**</span><span class="sxs-lookup"><span data-stu-id="f2e2c-135">**Test push notifications**</span></span>
 
-1.  <span data-ttu-id="bf407-136">Melden Sie sich auf dem mobilen Gerät von Benutzer A bei Lync mit dem Konto des Benutzers A an.</span><span class="sxs-lookup"><span data-stu-id="bf407-136">On user A’s mobile device, sign in to Lync with user A’s account.</span></span>
+1.  <span data-ttu-id="f2e2c-136">Melden Sie sich auf dem mobilen Gerät von Benutzer A bei Lync mit dem Konto des Benutzers A an.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-136">On user A’s mobile device, sign in to Lync with user A’s account.</span></span>
 
-2.  <span data-ttu-id="bf407-137">Öffnen Sie eine andere Anwendung auf dem mobilen Gerät.</span><span class="sxs-lookup"><span data-stu-id="bf407-137">Open another application on the mobile device.</span></span>
+2.  <span data-ttu-id="f2e2c-137">Öffnen Sie eine andere Anwendung auf dem mobilen Gerät.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-137">Open another application on the mobile device.</span></span>
 
-3.  <span data-ttu-id="bf407-138">Melden Sie sich in einem anderen Client mit dem Konto von Benutzer B bei Lync an.</span><span class="sxs-lookup"><span data-stu-id="bf407-138">On a different client, sign in to Lync with user B’s account.</span></span>
+3.  <span data-ttu-id="f2e2c-138">Melden Sie sich in einem anderen Client mit dem Konto von Benutzer B bei Lync an.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-138">On a different client, sign in to Lync with user B’s account.</span></span>
 
-4.  <span data-ttu-id="bf407-139">Senden Sie eine Sofortnachricht von Benutzer B an Benutzer A.</span><span class="sxs-lookup"><span data-stu-id="bf407-139">Send an IM from user B to user A.</span></span>
+4.  <span data-ttu-id="f2e2c-139">Senden Sie eine Sofortnachricht von Benutzer B an Benutzer A.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-139">Send an IM from user B to user A.</span></span>
 
-5.  <span data-ttu-id="bf407-140">Stellen Sie sicher, dass die Sofortnachricht auf dem mobilen Gerät von Benutzer A erscheint.</span><span class="sxs-lookup"><span data-stu-id="bf407-140">Verify that the IM notification appears on user A’s mobile device.</span></span>
+5.  <span data-ttu-id="f2e2c-140">Stellen Sie sicher, dass die Sofortnachricht auf dem mobilen Gerät von Benutzer A erscheint.</span><span class="sxs-lookup"><span data-stu-id="f2e2c-140">Verify that the IM notification appears on user A’s mobile device.</span></span>
 
 </div>
 

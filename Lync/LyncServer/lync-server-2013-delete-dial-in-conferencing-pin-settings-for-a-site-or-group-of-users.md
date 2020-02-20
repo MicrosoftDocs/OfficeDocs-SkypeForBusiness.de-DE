@@ -12,20 +12,20 @@ ms:contentKeyID: 48183498
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e27ec145c52ac62bb97fff4af0729d66596fe682
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6a4174a0c84f4e297159cefa7408544c102acc9b
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42049687"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154437"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users-in-lync-server-2013"></a><span data-ttu-id="b181f-102">Löschen von PIN-Einstellungen für Einwahlkonferenzen für einen Standort oder eine Benutzergruppe in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b181f-102">Delete dial-in conferencing PIN settings for a site or group of users in Lync Server 2013</span></span>
+# <a name="delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users-in-lync-server-2013"></a><span data-ttu-id="480ed-102">Löschen von PIN-Einstellungen für Einwahlkonferenzen für einen Standort oder eine Benutzergruppe in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="480ed-102">Delete dial-in conferencing PIN settings for a site or group of users in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42049687"
 
 <span> </span>
 
-<span data-ttu-id="b181f-103">_**Letztes Änderungsstand des Themas:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="b181f-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="480ed-103">_**Letztes Änderungsstand des Themas:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="480ed-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="b181f-104">Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie auf Benutzer- oder Standortebene zu löschen.</span><span class="sxs-lookup"><span data-stu-id="b181f-104">Follow these steps to delete a user-level or a site-level PIN policy.</span></span>
+<span data-ttu-id="480ed-104">Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie auf Benutzer- oder Standortebene zu löschen.</span><span class="sxs-lookup"><span data-stu-id="480ed-104">Follow these steps to delete a user-level or a site-level PIN policy.</span></span>
 
 <div>
 
 
 > [!NOTE]
-> <span data-ttu-id="b181f-105">Die globale PIN-Richtlinie kann nicht gelöscht werden.</span><span class="sxs-lookup"><span data-stu-id="b181f-105">You cannot delete the global PIN policy.</span></span>
+> <span data-ttu-id="480ed-105">Die globale PIN-Richtlinie kann nicht gelöscht werden.</span><span class="sxs-lookup"><span data-stu-id="480ed-105">You cannot delete the global PIN policy.</span></span>
 
 
 
@@ -51,19 +51,19 @@ ms.locfileid: "42049687"
 
 <div>
 
-## <a name="to-delete-a-user-or-site-pin-policy"></a><span data-ttu-id="b181f-106">So löschen Sie eine PIN-Richtlinie auf Benutzer- oder Standortebene</span><span class="sxs-lookup"><span data-stu-id="b181f-106">To delete a user or site PIN policy</span></span>
+## <a name="to-delete-a-user-or-site-pin-policy"></a><span data-ttu-id="480ed-106">So löschen Sie eine PIN-Richtlinie auf Benutzer- oder Standortebene</span><span class="sxs-lookup"><span data-stu-id="480ed-106">To delete a user or site PIN policy</span></span>
 
-1.  <span data-ttu-id="b181f-107">Melden Sie sich von einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe (oder gleichwertigen Benutzerrechten) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, an jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.</span><span class="sxs-lookup"><span data-stu-id="b181f-107">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
+1.  <span data-ttu-id="480ed-107">Melden Sie sich von einem Benutzerkonto, das Mitglied der RTCUniversalServerAdmins-Gruppe (oder gleichwertigen Benutzerrechten) oder der CsServerAdministrator-oder CsAdministrator-Rolle zugewiesen ist, an jedem Computer an, der sich in dem Netzwerk befindet, in dem Sie lync Server 2013 bereitgestellt haben.</span><span class="sxs-lookup"><span data-stu-id="480ed-107">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-2.  <span data-ttu-id="b181f-108">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="b181f-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="b181f-109">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="b181f-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+2.  <span data-ttu-id="480ed-108">Öffnen Sie ein Browserfenster, und geben Sie die admin-URL ein, um das lync Server-Systemsteuerung zu öffnen.</span><span class="sxs-lookup"><span data-stu-id="480ed-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="480ed-109">Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten von lync Server-Systemsteuerung verwenden können, finden Sie unter [Open lync Server 2013 Administration Tools](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="480ed-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  <span data-ttu-id="b181f-110">Klicken Sie in der linken Navigationsleiste auf **Konferenz** und dann auf **PIN-Richtlinie**.</span><span class="sxs-lookup"><span data-stu-id="b181f-110">In the left navigation bar, click **Conferencing**, and then click **PIN Policy**.</span></span>
+3.  <span data-ttu-id="480ed-110">Klicken Sie in der linken Navigationsleiste auf **Konferenz** und dann auf **PIN-Richtlinie**.</span><span class="sxs-lookup"><span data-stu-id="480ed-110">In the left navigation bar, click **Conferencing**, and then click **PIN Policy**.</span></span>
 
-4.  <span data-ttu-id="b181f-111">Geben Sie auf der Seite **PIN-Richtlinie** im Suchfeld Teile oder den vollständigen Namen der Richtlinie ein, die Sie löschen möchten.</span><span class="sxs-lookup"><span data-stu-id="b181f-111">On the **PIN Policy** page, in the search field, type all or part of the name of the policy you want to delete.</span></span>
+4.  <span data-ttu-id="480ed-111">Geben Sie auf der Seite **PIN-Richtlinie** im Suchfeld Teile oder den vollständigen Namen der Richtlinie ein, die Sie löschen möchten.</span><span class="sxs-lookup"><span data-stu-id="480ed-111">On the **PIN Policy** page, in the search field, type all or part of the name of the policy you want to delete.</span></span>
 
-5.  <span data-ttu-id="b181f-112">Klicken Sie in der Richtlinienliste auf die gewünschte Richtlinie, klicken Sie auf **Bearbeiten** und dann auf **Löschen**.</span><span class="sxs-lookup"><span data-stu-id="b181f-112">In the list of policies, click the policy that you want, click **Edit**, and then click **Delete**.</span></span>
+5.  <span data-ttu-id="480ed-112">Klicken Sie in der Richtlinienliste auf die gewünschte Richtlinie, klicken Sie auf **Bearbeiten** und dann auf **Löschen**.</span><span class="sxs-lookup"><span data-stu-id="480ed-112">In the list of policies, click the policy that you want, click **Edit**, and then click **Delete**.</span></span>
 
-6.  <span data-ttu-id="b181f-113">Klicken Sie auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="b181f-113">Click **OK**.</span></span>
+6.  <span data-ttu-id="480ed-113">Klicken Sie auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="480ed-113">Click **OK**.</span></span>
 
 </div>
 

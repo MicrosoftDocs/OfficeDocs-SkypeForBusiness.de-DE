@@ -12,20 +12,20 @@ ms:contentKeyID: 49733755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 250b240ed0e1b42051e92e9393f10c01ebb753f5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 751d8cbbb4ab7a10ca468c0156e14a45c065fd25
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006141"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153545"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-trunk-feature-in-lync-server-2013"></a><span data-ttu-id="453b2-102">Neue trunk Funktion in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="453b2-102">New trunk feature in Lync Server 2013</span></span>
+# <a name="new-trunk-feature-in-lync-server-2013"></a><span data-ttu-id="8f167-102">Neue trunk Funktion in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8f167-102">New trunk feature in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,16 +35,16 @@ ms.locfileid: "42006141"
 
 <span> </span>
 
-<span data-ttu-id="453b2-103">_**Letztes Änderungsstand des Themas:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="453b2-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="8f167-103">_**Letztes Änderungsstand des Themas:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="8f167-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="453b2-104">In Microsoft lync Server 2013 können mehrere Trunks zwischen einem Vermittlungsserver und einem Gateway definiert werden.</span><span class="sxs-lookup"><span data-stu-id="453b2-104">In Microsoft Lync Server 2013, multiple trunks between a Mediation Server and a gateway can be defined.</span></span> <span data-ttu-id="453b2-105">Microsoft lync Server 2010 nur für einen einzelnen trunk zwischen einem Vermittlungsserver und einem PSTN-Gateway zulässig.</span><span class="sxs-lookup"><span data-stu-id="453b2-105">Microsoft Lync Server 2010 only allowed for a single trunk between a Mediation Server and a PSTN gateway.</span></span> <span data-ttu-id="453b2-106">Diese Funktion bietet die Flexibilität, zusätzliche Trunks zu definieren.</span><span class="sxs-lookup"><span data-stu-id="453b2-106">This feature provides the flexibility to define additional trunks.</span></span> <span data-ttu-id="453b2-107">Ein trunk ist eine logische Zuordnung zwischen einem Vermittlungsserver FQDN und einem Überwachungs Port und einem PSTN-Gateway-FQDN und dem Überwachungs Port.</span><span class="sxs-lookup"><span data-stu-id="453b2-107">A trunk is a logical association between a Mediation Server FQDN and listening port and a PSTN gateway FQDN and listening port.</span></span> <span data-ttu-id="453b2-108">Diese neue Funktion ermöglicht eine einfache trunk Definition für Ausfallsicherheit (wobei mehrere Vermittlungsserver zum Weiterleiten von Anrufen an das gleiche PSTN-Gateway verwendet werden können), für die Interoperabilität von Nebenstellenanlagen, bei der mehrere Trunks mit unterschiedlichen zugeordneten Richtlinien zwischen verwendet werden können und IP-PBX und ein Vermittlungsserver und für SIP-Trunk Konfigurationen, bei denen Vermittlungsserver an unterschiedlichen Standorten über SIP-Trunks mit dem Carrier verfügen, auf den der gleiche Carrier-FQDN verweist.</span><span class="sxs-lookup"><span data-stu-id="453b2-108">This new capability allows for easy trunk definition for resiliency (where multiple Mediation Servers can be used to route calls to the same PSTN Gateway), for PBX interoperability, where multiple trunks with different associated policies can be used between and IP-PBX and a Mediation Server, and for SIP trunk configurations where Mediation Servers at different sites have SIP trunks to the carrier referenced by the same carrier FQDN.</span></span>
+<span data-ttu-id="8f167-104">In Microsoft lync Server 2013 können mehrere Trunks zwischen einem Vermittlungsserver und einem Gateway definiert werden.</span><span class="sxs-lookup"><span data-stu-id="8f167-104">In Microsoft Lync Server 2013, multiple trunks between a Mediation Server and a gateway can be defined.</span></span> <span data-ttu-id="8f167-105">Microsoft lync Server 2010 nur für einen einzelnen trunk zwischen einem Vermittlungsserver und einem PSTN-Gateway zulässig.</span><span class="sxs-lookup"><span data-stu-id="8f167-105">Microsoft Lync Server 2010 only allowed for a single trunk between a Mediation Server and a PSTN gateway.</span></span> <span data-ttu-id="8f167-106">Diese Funktion bietet die Flexibilität, zusätzliche Trunks zu definieren.</span><span class="sxs-lookup"><span data-stu-id="8f167-106">This feature provides the flexibility to define additional trunks.</span></span> <span data-ttu-id="8f167-107">Ein trunk ist eine logische Zuordnung zwischen einem Vermittlungsserver FQDN und einem Überwachungs Port und einem PSTN-Gateway-FQDN und dem Überwachungs Port.</span><span class="sxs-lookup"><span data-stu-id="8f167-107">A trunk is a logical association between a Mediation Server FQDN and listening port and a PSTN gateway FQDN and listening port.</span></span> <span data-ttu-id="8f167-108">Diese neue Funktion ermöglicht eine einfache trunk Definition für Ausfallsicherheit (wobei mehrere Vermittlungsserver zum Weiterleiten von Anrufen an das gleiche PSTN-Gateway verwendet werden können), für die Interoperabilität von Nebenstellenanlagen, bei der mehrere Trunks mit unterschiedlichen zugeordneten Richtlinien zwischen verwendet werden können und IP-PBX und ein Vermittlungsserver und für SIP-Trunk Konfigurationen, bei denen Vermittlungsserver an unterschiedlichen Standorten über SIP-Trunks mit dem Carrier verfügen, auf den der gleiche Carrier-FQDN verweist.</span><span class="sxs-lookup"><span data-stu-id="8f167-108">This new capability allows for easy trunk definition for resiliency (where multiple Mediation Servers can be used to route calls to the same PSTN Gateway), for PBX interoperability, where multiple trunks with different associated policies can be used between and IP-PBX and a Mediation Server, and for SIP trunk configurations where Mediation Servers at different sites have SIP trunks to the carrier referenced by the same carrier FQDN.</span></span>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="453b2-109">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="453b2-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8f167-109">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="8f167-109">See Also</span></span>
 
 
-[<span data-ttu-id="453b2-110">Neue Enterprise-VoIP-Funktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="453b2-110">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="8f167-110">Neue Enterprise-VoIP-Funktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8f167-110">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

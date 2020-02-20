@@ -12,20 +12,20 @@ ms:contentKeyID: 49733874
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfdb2e252ec50ca73471f22a59d8f9d1f65f4908
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f872c712d2feb69dd3058983e7dfa5c58f32cd8e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030839"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154867"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="enabling-and-disabling-media-bypass-in-lync-server-2013"></a><span data-ttu-id="e5236-102">Aktivieren und Deaktivieren der medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5236-102">Enabling and disabling media bypass in Lync Server 2013</span></span>
+# <a name="enabling-and-disabling-media-bypass-in-lync-server-2013"></a><span data-ttu-id="a02a1-102">Aktivieren und Deaktivieren der medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a02a1-102">Enabling and disabling media bypass in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42030839"
 
 <span> </span>
 
-<span data-ttu-id="e5236-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="e5236-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="a02a1-103">_**Letztes Änderungsstand des Themas:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="a02a1-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="e5236-104">Verwenden Sie die Verfahren in diesem Abschnitt, um die medienumgehung mithilfe der lync Server-Systemsteuerung zu aktivieren oder zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="e5236-104">Use the procedures in this section to enable or disable media bypass by using the Lync Server Control Panel.</span></span> <span data-ttu-id="e5236-105">Ausführliche Informationen zur Verwendung der medienumgehung finden Sie unter [Planning for Media Bypass in lync Server 2013](lync-server-2013-planning-for-media-bypass.md).</span><span class="sxs-lookup"><span data-stu-id="e5236-105">For details about when to use media bypass, see [Planning for media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md).</span></span>
+<span data-ttu-id="a02a1-104">Verwenden Sie die Verfahren in diesem Abschnitt, um die medienumgehung mithilfe der lync Server-Systemsteuerung zu aktivieren oder zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="a02a1-104">Use the procedures in this section to enable or disable media bypass by using the Lync Server Control Panel.</span></span> <span data-ttu-id="a02a1-105">Ausführliche Informationen zur Verwendung der medienumgehung finden Sie unter [Planning for Media Bypass in lync Server 2013](lync-server-2013-planning-for-media-bypass.md).</span><span class="sxs-lookup"><span data-stu-id="a02a1-105">For details about when to use media bypass, see [Planning for media bypass in Lync Server 2013](lync-server-2013-planning-for-media-bypass.md).</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="e5236-106">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="e5236-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a02a1-106">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="a02a1-106">In This Section</span></span>
 
-  - [<span data-ttu-id="e5236-107">Aktivieren der Netzwerkmedien Umgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5236-107">Enabling network media bypass in Lync Server 2013</span></span>](lync-server-2013-enabling-network-media-bypass.md)
+  - [<span data-ttu-id="a02a1-107">Aktivieren der Netzwerkmedien Umgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a02a1-107">Enabling network media bypass in Lync Server 2013</span></span>](lync-server-2013-enabling-network-media-bypass.md)
 
-  - [<span data-ttu-id="e5236-108">Deaktivieren der Netzwerkmedien Umgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5236-108">Disabling network media bypass in Lync Server 2013</span></span>](lync-server-2013-disabling-network-media-bypass.md)
+  - [<span data-ttu-id="a02a1-108">Deaktivieren der Netzwerkmedien Umgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a02a1-108">Disabling network media bypass in Lync Server 2013</span></span>](lync-server-2013-disabling-network-media-bypass.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="e5236-109">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="e5236-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a02a1-109">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="a02a1-109">See Also</span></span>
 
 
-[<span data-ttu-id="e5236-110">Übersicht über die medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5236-110">Overview of media bypass in Lync Server 2013</span></span>](lync-server-2013-overview-of-media-bypass.md)  
+[<span data-ttu-id="a02a1-110">Übersicht über die medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a02a1-110">Overview of media bypass in Lync Server 2013</span></span>](lync-server-2013-overview-of-media-bypass.md)  
 
 
-[<span data-ttu-id="e5236-111">Planen der medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e5236-111">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
+[<span data-ttu-id="a02a1-111">Planen der medienumgehung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a02a1-111">Planning for media bypass in Lync Server 2013</span></span>](lync-server-2013-planning-for-media-bypass.md)  
   
 
 </div>
