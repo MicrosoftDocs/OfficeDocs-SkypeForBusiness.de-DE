@@ -12,18 +12,18 @@ ms:contentKeyID: 48185807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da9ec08af933f90eaf1e941259628b38ec055d9a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5dbfb056107d84aa0f3c483100619b27251feff4
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42031289"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154897"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="device-report-in-lync-server-2013"></a>Gerätebericht in lync Server 2013
 
@@ -204,7 +204,7 @@ Oft werden Sie diese Detailgenauigkeit wünschen. zu anderen Zeiten sind Sie jed
     $sum | foreach-object {[Int]$x = [Int]$x + [Int]$_."call volume"}
     $x
 
-Dadurch wird ein einzelner Wert zurückgegeben, der die Gesamtzahl der mit einem Aastra Capture-Gerät getätigten Anrufe darstellt. Beispiel:
+Dadurch wird ein einzelner Wert zurückgegeben, der die Gesamtzahl der mit einem Aastra Capture-Gerät getätigten Anrufe darstellt. Zum Beispiel:
 
     384
 
@@ -391,7 +391,7 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie mit dem geräteber
 <td><p><strong>Gerätename</strong></p></td>
 <td><p>Name des Capture-oder Render-Geräts. Sie können den vollständigen Gerätenamen oder einen Teil des Gerätenamens eingeben. Um beispielsweise das Gerätemikrofon zu finden (Microsoft LifeCam VX-1000.), können Sie den vollständigen Gerätenamen wie folgt eingeben:</p>
 <p>Mikrofon (Microsoft LifeCam VX-1000.)</p>
-<p>Sie können auch nur einen Teil des Namens eingeben. Beispiel:</p>
+<p>Sie können auch nur einen Teil des Namens eingeben. Zum Beispiel:</p>
 <p>LifeCam</p>
 <p>Beachten Sie, dass der obige Filter jedes Gerät zurückgibt, &quot;das&quot; die Zeichenfolge LifeCam Anywhere in seinem Namen enthält.</p></td>
 </tr>

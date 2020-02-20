@@ -12,18 +12,18 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5257490dc63e1626c0cdb6dcf7e6ce1f17e75cd1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 6c5ad73d11ae629ec0848539b2f4bac2bc81a43e
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048319"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153577"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="new-persistent-chat-server-features-in-lync-server-2013"></a>Neue Features für den Server für beständigen Chat in lync Server 2013
 
@@ -53,7 +53,7 @@ Lync Server 2013 können Sie mit dem Server für beständigen Chat an mehrteilig
 
 Lync Server 2013 ist der Server für beständigen Chat in Microsoft Office 365 nicht verfügbar. Derzeit steht sie nur lokalen lync 2013 Kunden zur Verfügung.
 
-In lync 2013 ist die Funktion für beständigen Chat in den lync 2013-Client integriert. Dadurch haben Benutzer Zugriff auf Instant Messaging/Anwesenheit, Audio/Video, Konferenzen und beständigen Chat im lync 2013-Client. Weitere Informationen zum lync 2013-Client finden Sie unter <http://go.microsoft.com/fwlink/p/?linkid=270877>.
+In lync 2013 ist die Funktion für beständigen Chat in den lync 2013-Client integriert. Dadurch haben Benutzer Zugriff auf Instant Messaging/Anwesenheit, Audio/Video, Konferenzen und beständigen Chat im lync 2013-Client. Weitere Informationen zum lync 2013-Client finden Sie unter <https://go.microsoft.com/fwlink/p/?linkid=270877>.
 
 In diesem Thema werden Funktionsänderungen zwischen der neuen Version von lync Server 2013, dem Server für beständigen Chat und der vorherigen Version (Microsoft lync Server 2010, Gruppen Chat) beschrieben, einschließlich:
 
@@ -67,7 +67,7 @@ In diesem Thema werden Funktionsänderungen zwischen der neuen Version von lync 
 
 Weitere Informationen zur neuesten Version des Servers für beständigen Chat finden Sie in den folgenden Themen:
 
-  - Die Hilfe <http://go.microsoft.com/fwlink/p/?linkid=270945> für beständigen Chat enthält eine ausführliche Liste der Features für beständigen Chat, deren Funktionsweise und deren Verwendung bei der Ausführung von persistent Chat Server.
+  - Die Hilfe <https://go.microsoft.com/fwlink/p/?linkid=270945> für beständigen Chat enthält eine ausführliche Liste der Features für beständigen Chat, deren Funktionsweise und deren Verwendung bei der Ausführung von persistent Chat Server.
 
   - Die [Planung für den Server für beständigen Chat in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in der Planungsdokumentation, [Bereitstellen des Servers für beständigen Chat in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) in der Bereitstellungsdokumentation, [Migration von lync Server 2010, Gruppenchat oder Office Communications Server 2007 R2 Gruppenchat zu lync Server 2013, beständigen Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) in der Migrationsdokumentation und [Verwalten von lync Server 2013, beständiger Chat Server](managing-lync-server-2013-persistent-chat-server.md) in der Betriebsdokumentation, die alle Anweisungen zum Einrichten bieten. Server für beständigen Chat.
 

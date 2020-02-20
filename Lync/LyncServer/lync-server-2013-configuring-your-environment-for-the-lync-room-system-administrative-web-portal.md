@@ -12,18 +12,18 @@ ms:contentKeyID: 56737623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5c42b5541fb28646e4c01d9d070b67f6fe103234
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 739e440765feb07d70b7f5a8d1490a85a938701d
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034997"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154067"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-your-lync-server-2013-environment-for-the-lync-room-system-administrative-web-portal"></a>Konfigurieren der lync Server 2013 Umgebung für das Administrator-Webportal von lync Room System
 
@@ -51,7 +51,7 @@ Für die Verwendung des administrativen Webportal für lync-Raumsysteme müssen 
 
 1.  Installieren Sie lync Server 2013 kumulative Updates: Juli 2013 in der lync Server-Topologie.
     
-    Informationen zum Abrufen des Updates oder zum Anzeigen der darin enthaltenen Informationen finden Sie unter [Updates für lync Server 2013](http://go.microsoft.com/fwlink/p/?linkid=323959).
+    Informationen zum Abrufen des Updates oder zum Anzeigen der darin enthaltenen Informationen finden Sie unter [Updates für lync Server 2013](https://go.microsoft.com/fwlink/p/?linkid=323959).
 
 2.  Erstellen Sie einen SIP-aktivierten Active Directory-Benutzer.
     
@@ -83,7 +83,7 @@ Für die Verwendung des administrativen Webportal für lync-Raumsysteme müssen 
     
      
 
-7.  Installieren Sie ASP.NET MVC 4 für Visual Studio 2010 SP1 und Visual-Webentwickler 2010 SP1, die im Microsoft Download Center [http://go.microsoft.com/fwlink/p/?LinkId=323967](http://go.microsoft.com/fwlink/p/?linkid=323967)unter verfügbar sind.
+7.  Installieren Sie ASP.NET MVC 4 für Visual Studio 2010 SP1 und Visual-Webentwickler 2010 SP1, die im Microsoft Download Center [https://go.microsoft.com/fwlink/p/?LinkId=323967](https://go.microsoft.com/fwlink/p/?linkid=323967)unter verfügbar sind.
 
 </div>
 

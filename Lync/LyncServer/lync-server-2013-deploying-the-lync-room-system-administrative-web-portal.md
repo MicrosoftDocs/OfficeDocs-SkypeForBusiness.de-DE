@@ -12,18 +12,18 @@ ms:contentKeyID: 56737621
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 945532f4f0514263ed0d72e00ac5224aa6d7120b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b0c352e9e890611d95a7d562a88ae8f6cebc7243
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42043367"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153957"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="deploying-the-lync-room-system-administrative-web-portal-in-lync-server-2013"></a>Bereitstellen des Administrator Portals für das lync Room-System in lync Server 2013
 
@@ -47,7 +47,7 @@ Nachdem das LRS-Verwaltungsportal auf dem Server bereitgestellt wurde, können A
 
 
 > [!IMPORTANT]  
-> Wenn Sie das LRS-Verwaltungs Webportal in einer Microsoft lync Server 2013-Bereitstellung installieren, sollten Sie das <A href="http://go.microsoft.com/fwlink/p/?linkid=544806">Microsoft lync Room System-Verwaltungs Webportal für lync Server 2013</A>verwenden.<BR>Es steht eine neue Version des LRS-Verwaltungsportals für Skype for Business Server 2015 zur Verfügung, Sie sollten diese Version jedoch erst installieren, wenn Sie Skype for Business Server 2015 bereitgestellt haben. Laden Sie das <A href="http://go.microsoft.com/fwlink/?linkid=544807">Microsoft lync Room System administrative Webportal für Skype for Business Server 2015</A>herunter.
+> Wenn Sie das LRS-Verwaltungs Webportal in einer Microsoft lync Server 2013-Bereitstellung installieren, sollten Sie das <A href="https://go.microsoft.com/fwlink/p/?linkid=544806">Microsoft lync Room System-Verwaltungs Webportal für lync Server 2013</A>verwenden.<BR>Es steht eine neue Version des LRS-Verwaltungsportals für Skype for Business Server 2015 zur Verfügung, Sie sollten diese Version jedoch erst installieren, wenn Sie Skype for Business Server 2015 bereitgestellt haben. Laden Sie das <A href="https://go.microsoft.com/fwlink/?linkid=544807">Microsoft lync Room System administrative Webportal für Skype for Business Server 2015</A>herunter.
 
 
 

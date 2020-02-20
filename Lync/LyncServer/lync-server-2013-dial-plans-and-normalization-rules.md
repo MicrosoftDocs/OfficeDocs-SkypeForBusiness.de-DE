@@ -12,18 +12,18 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4adcd2cd6bebfb0797427d15819399c9b2b9f86d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3e9f42d2467a77e35eb9f5a158967357534e86da
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42036755"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153857"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dial-plans-and-normalization-rules-in-lync-server-2013"></a>Wählpläne und Normalisierungsregeln in lync Server 2013
 
@@ -175,7 +175,7 @@ Die folgenden Zahlenfelder gehören zu denen, die ihre Normalisierungsregeln mö
 
 Normalisierungsregeln verwenden .NET Framework reguläre Ausdrücke, um numerische Übereinstimmungsmuster anzugeben, die der Server verwendet, um Wählzeichenfolgen in das E. 164-Format zu übersetzen, um eine umgekehrte Nummernsuche durchführen zu können. Normalisierungsregeln werden im lync Server-Systemsteuerung entweder durch manuelles Eingeben der Ausdrücke oder durch Eingeben der Start Ziffern und der Länge der zu entgegen gebenden Wählzeichenfolgen und dem lync Server-Systemsteuerung generieren der entsprechenden regulärer Ausdruck für Sie. In beiden Fällen können Sie, wenn Sie fertig sind, eine Testnummer eingeben, um zu überprüfen, ob die Normalisierungsregel wie erwartet funktioniert.
 
-Ausführliche Informationen zur Verwendung .NET Framework reguläre Ausdrücke finden Sie unter ".NET Framework reguläre Ausdrücke" [http://go.microsoft.com/fwlink/p/?linkId=140927](http://go.microsoft.com/fwlink/p/?linkid=140927)unter.
+Ausführliche Informationen zur Verwendung .NET Framework reguläre Ausdrücke finden Sie unter ".NET Framework reguläre Ausdrücke" [https://go.microsoft.com/fwlink/p/?linkId=140927](https://go.microsoft.com/fwlink/p/?linkid=140927)unter.
 
 </div>
 

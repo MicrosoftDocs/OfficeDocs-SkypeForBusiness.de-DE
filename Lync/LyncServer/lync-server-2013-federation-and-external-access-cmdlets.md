@@ -12,18 +12,18 @@ ms:contentKeyID: 48184018
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 032258e6fe7d77808b3bf4731049ee9df49d1162
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a125329cd7c76d5f5f8e40c4dae1dd78dcabc3dd
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042592"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153707"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="federation-and-external-access-cmdlets-in-lync-server-2013"></a>Cmdlets für den Verbund und den externen Zugriff in lync Server 2013
 
@@ -170,7 +170,7 @@ Die meisten Verwaltungsaufgaben, die für den Verbund und den externen Zugriff g
 ## <a name="see-also"></a>Siehe auch
 
 
-[Lync Server PowerShell-Blog](http://go.microsoft.com/fwlink/p/?linkid=203150)  
+[Lync Server PowerShell-Blog](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

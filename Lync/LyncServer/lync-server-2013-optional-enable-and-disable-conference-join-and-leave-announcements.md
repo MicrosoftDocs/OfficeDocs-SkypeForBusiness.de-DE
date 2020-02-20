@@ -12,18 +12,18 @@ ms:contentKeyID: 48185403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b18dadbb4b7dc5a35f8688c46f2836b46cb55a5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 67939f67e90e6c0cc044ea871560647cae9e4021
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051147"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153425"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="optional-enable-and-disable-conference-join-and-leave-announcements-in-lync-server-2013"></a>Optional Aktivieren und Deaktivieren von Konferenz Anmeldungen und Abwesenheits Ankündigungen in lync Server 2013
 
@@ -68,7 +68,7 @@ Wenn Einwahlbenutzer einer Konferenz beitreten oder diese verlassen, können die
     
     Sie können diese Einstellungen auf globaler Ebene oder auf Standortebene konfigurieren. Auf Standortebene konfigurierte Einstellungen haben Vorrang vor den auf globaler Ebene konfigurierten Einstellungen.
     
-    Beispiel:
+    Zum Beispiel:
     
         Set-CsDialinConferencingConfiguration -Identity site:Redmond
         -EnableNameRecording $false

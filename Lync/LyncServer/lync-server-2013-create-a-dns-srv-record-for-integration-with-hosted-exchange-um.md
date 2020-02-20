@@ -12,18 +12,18 @@ ms:contentKeyID: 48184770
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43df4e9956fd3c48b88a0fd3adc70d131fc1c669
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7fc935d2a6ea5fd930b7159ec26906e86b39f932
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035167"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154477"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="create-a-dns-srv-record-for-integration-with-hosted-exchange-um"></a>Erstellen eines DNS-SRV-Eintrags für die Integration in gehostete Exchange um
 
@@ -74,7 +74,7 @@ In diesem Thema wird beschrieben, wie Sie den Domain Name System (DNS) SRV-Eintr
     
 
     > [!NOTE]
-    > Die Domäne muss auch als autorisierende akzeptierte Domäne in den Exchange Online-Einstellungen eingerichtet werden. Ausführliche Informationen finden Sie unter CREATE Accepted <A href="http://go.microsoft.com/fwlink/p/?linkid=229762">http://go.microsoft.com/fwlink/p/?linkId=229762</A>Domains at.
+    > Die Domäne muss auch als autorisierende akzeptierte Domäne in den Exchange Online-Einstellungen eingerichtet werden. Ausführliche Informationen finden Sie unter CREATE Accepted <A href="https://go.microsoft.com/fwlink/p/?linkid=229762">https://go.microsoft.com/fwlink/p/?linkId=229762</A>Domains at.
 
     
     </div>

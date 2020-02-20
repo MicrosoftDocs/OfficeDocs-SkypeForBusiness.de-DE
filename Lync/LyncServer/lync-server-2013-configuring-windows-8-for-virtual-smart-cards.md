@@ -12,18 +12,18 @@ ms:contentKeyID: 54973684
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb8fe9fb9bcca80e7e84f19bdc484dc693b1ee68
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 29fa0be32f5a2c2a0af0b63dadddda3038675adf
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045747"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154077"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuring-windows-8-for-using-virtual-smart-cards-with-lync-server-2013"></a>Konfigurieren Windows 8 für die Verwendung virtueller Smartcards mit lync Server 2013
 
@@ -39,7 +39,7 @@ _**Letztes Änderungsstand des Themas:** 2013-07-03_
 
 Ein Faktor, der bei der Bereitstellung der zweistufigen Authentifizierung und der Smartcard-Technologie berücksichtigt werden muss, sind die Kosten der Implementierung. Windows 8 bietet eine Reihe von neuen Sicherheitsfunktionen, und eines der interessantesten neuen Features ist die Unterstützung virtueller Smartcards.
 
-Für Computer, die mit einem TPM-Chip (Trusted Platform Module) ausgestattet sind, der die Spezifikationsversion 1,2 erfüllt, können Organisationen jetzt die Vorteile der Smartcard-Anmeldung nutzen, ohne dass zusätzliche Investitionen in Hardware getätigt werden. Weitere Informationen finden Sie unter Verwenden virtueller Smartcards mit Windows 8 unter [http://go.microsoft.com/fwlink/p/?LinkId=313365](http://go.microsoft.com/fwlink/p/?linkid=313365).
+Für Computer, die mit einem TPM-Chip (Trusted Platform Module) ausgestattet sind, der die Spezifikationsversion 1,2 erfüllt, können Organisationen jetzt die Vorteile der Smartcard-Anmeldung nutzen, ohne dass zusätzliche Investitionen in Hardware getätigt werden. Weitere Informationen finden Sie unter Verwenden virtueller Smartcards mit Windows 8 unter [https://go.microsoft.com/fwlink/p/?LinkId=313365](https://go.microsoft.com/fwlink/p/?linkid=313365).
 
 <div>
 

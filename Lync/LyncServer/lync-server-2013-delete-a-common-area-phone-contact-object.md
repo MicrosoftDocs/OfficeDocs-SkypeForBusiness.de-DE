@@ -12,18 +12,18 @@ ms:contentKeyID: 51803999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 98702f392020586b546d2db89fe6355923b47f67
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c77d9c220502abbd4275af337142927786be9be3
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042967"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42154617"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="delete-a-common-area-phone-contact-object-in-lync-server-2013"></a>Löschen eines Kontaktobjekts für einen öffentlichen Bereich in lync Server 2013
 
@@ -39,7 +39,7 @@ _**Letztes Änderungsstand des Themas:** 2013-02-20_
 
 Möglicherweise möchten Sie das Kontaktobjekt löschen, das einem Telefon im öffentlichen Bereich zugeordnet ist. Wenn Sie beispielsweise das Telefon aus einer Mitarbeiter Lounge entfernen, muss diesem Telefon kein Kontaktobjekt zugeordnet sein. Das Cmdlet **Remove-CsCommonAreaPhone** bietet Ihnen die Möglichkeit, Telefonkonten für gemeinsame Bereiche zu löschen. Wenn Sie dieses Cmdlet ausführen, wird das Telefon aus der Liste der Telefone in öffentlichen Bereichen gelöscht, die von **Get-CsCommonAreaPhone**zurückgegeben werden. Darüber hinaus wird das dem Telefon zugeordnete Kontaktobjekt aus Active Directory-Domänendienste gelöscht.
 
-Verwenden **Sie Remove-CsCommonAreaPhone** , um ein Telefon für gemeinsame Bereiche oder alle Telefone für gemeinsame Bereiche mit einem gemeinsamen Element wie Anzeigename oder Land-und Ortsvorwahl zu entfernen. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Verwenden **Sie Remove-CsCommonAreaPhone** , um ein Telefon für gemeinsame Bereiche oder alle Telefone für gemeinsame Bereiche mit einem gemeinsamen Element wie Anzeigename oder Land-und Ortsvorwahl zu entfernen. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 

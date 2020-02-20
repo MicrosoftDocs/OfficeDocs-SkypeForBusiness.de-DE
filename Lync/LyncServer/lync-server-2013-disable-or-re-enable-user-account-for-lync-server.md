@@ -12,18 +12,18 @@ ms:contentKeyID: 48183455
 ms.date: 04/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc7ed0572d36a87532c4845df887dc87ccb34eec
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 502b4cc9c6ed70d0a418dbed7e844064939809d9
+ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035127"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42153847"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
 <div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="disable-or-re-enable-user-account-for-lync-server-2013"></a>Deaktivieren oder erneutes Aktivieren des Benutzerkontos für lync Server 2013
 
@@ -75,13 +75,13 @@ Mit dem folgenden Verfahren können Sie ein zuvor aktiviertes Benutzerkonto in l
 
 ## <a name="using-windows-powershell-to-disable-or-re-enable-user-accounts"></a>Verwenden von Windows PowerShell zum Deaktivieren oder erneuten Aktivieren von Benutzerkonten
 
-Benutzerkonten können vorübergehend deaktiviert und später erneut aktiviert werden, indem das Cmdlet " **CsUser** " verwendet wird. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
+Benutzerkonten können vorübergehend deaktiviert und später erneut aktiviert werden, indem das Cmdlet " **CsUser** " verwendet wird. Sie können dieses Cmdlet entweder über die lync Server 2013 Management-Shell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote Windows PowerShell zum Herstellen einer Verbindung mit lync Server finden Sie im lync Server Windows PowerShell Blog-Artikel "schnell Start: Verwalten von Microsoft lync Server 2010 [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)mithilfe von Remote-PowerShell" unter.
 
 <div>
 
 ## <a name="to-disable-a-user-account"></a>So deaktivieren Sie ein Benutzerkonto
 
-  - Zum vorübergehenden Deaktivieren eines Benutzerkontos setzen Sie den Wert der Eigenschaft "Enabled" auf "False" ($False). Beispiel:
+  - Zum vorübergehenden Deaktivieren eines Benutzerkontos setzen Sie den Wert der Eigenschaft "Enabled" auf "False" ($False). Zum Beispiel:
     
         Set-CsUser -Identity "Ken Myer" -Enabled $False
 
