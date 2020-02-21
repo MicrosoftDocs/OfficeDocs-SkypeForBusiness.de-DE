@@ -12,20 +12,20 @@ ms:contentKeyID: 48185181
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 117b13802b79a66c7078f8dcd9ca92a14f390a17
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 79c583f5c25ea58f0d1a2ea32246db8eec8f7740
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42152007"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205641"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="create-dns-records-for-reverse-proxy-servers-in-lync-server-2013"></a><span data-ttu-id="96845-102">Erstellen von DNS-Einträgen für Reverse-Proxy Server in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="96845-102">Create DNS records for reverse proxy servers in Lync Server 2013</span></span>
+# <a name="create-dns-records-for-reverse-proxy-servers-in-lync-server-2013"></a><span data-ttu-id="46995-102">Erstellen von DNS-Einträgen für Reverse-Proxy Server in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="46995-102">Create DNS records for reverse proxy servers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42152007"
 
 <span> </span>
 
-<span data-ttu-id="96845-103">_**Letztes Änderungsstand des Themas:** 2013-03-29_</span><span class="sxs-lookup"><span data-stu-id="96845-103">_**Topic Last Modified:** 2013-03-29_</span></span>
+<span data-ttu-id="46995-103">_**Letztes Änderungsstand des Themas:** 2013-03-29_</span><span class="sxs-lookup"><span data-stu-id="46995-103">_**Topic Last Modified:** 2013-03-29_</span></span>
 
-<span data-ttu-id="96845-104">Erstellen Sie externe DNS-A-Einträge, die auf die öffentliche externe Schnittstelle des ISA (Microsoft Internet Security and Acceleration Server) 2006 SP1, Forefront Threat Management Gateway 2010-Servers oder des Internet Information Server-Anwendungs Anforderungs Routings, wie unter [configure DNS for Edge Support in lync Server 2013](lync-server-2013-configure-dns-for-edge-support.md)beschrieben, verweist.</span><span class="sxs-lookup"><span data-stu-id="96845-104">Create external DNS A records that point to the public external interface of your Microsoft Internet Security and Acceleration (ISA) Server 2006 SP1, Forefront Threat Management Gateway 2010 Server or Internet Information Server Application Request Routing, as described in [Configure DNS for edge support in Lync Server 2013](lync-server-2013-configure-dns-for-edge-support.md).</span></span> <span data-ttu-id="96845-105">Sie benötigen DNS-Einträge für die FQDN des externen Webdiensts für jeden Pool, den Director (oder Directorpool) und jede einfache URL.</span><span class="sxs-lookup"><span data-stu-id="96845-105">You need DNS records for the external Web Service FQDNs for each pool, the Director (or Director pool), and each simple URL.</span></span>
+<span data-ttu-id="46995-104">Erstellen Sie externe DNS-A-Einträge, die auf die öffentliche externe Schnittstelle des ISA (Microsoft Internet Security and Acceleration Server) 2006 SP1, Forefront Threat Management Gateway 2010-Servers oder des Internet Information Server-Anwendungs Anforderungs Routings, wie unter [configure DNS for Edge Support in lync Server 2013](lync-server-2013-configure-dns-for-edge-support.md)beschrieben, verweist.</span><span class="sxs-lookup"><span data-stu-id="46995-104">Create external DNS A records that point to the public external interface of your Microsoft Internet Security and Acceleration (ISA) Server 2006 SP1, Forefront Threat Management Gateway 2010 Server or Internet Information Server Application Request Routing, as described in [Configure DNS for edge support in Lync Server 2013](lync-server-2013-configure-dns-for-edge-support.md).</span></span> <span data-ttu-id="46995-105">Sie benötigen DNS-Einträge für die FQDN des externen Webdiensts für jeden Pool, den Director (oder Directorpool) und jede einfache URL.</span><span class="sxs-lookup"><span data-stu-id="46995-105">You need DNS records for the external Web Service FQDNs for each pool, the Director (or Director pool), and each simple URL.</span></span>
 
-<span data-ttu-id="96845-106">Für die minimalen DNS-Einträge für die Clientauflösung für Reverseproxy müssen die folgenden Einträge erstellt werden:</span><span class="sxs-lookup"><span data-stu-id="96845-106">The minimum DNS records for client resolution to the reverse proxy, the following records must be created:</span></span>
+<span data-ttu-id="46995-106">Für die minimalen DNS-Einträge für die Clientauflösung für Reverseproxy müssen die folgenden Einträge erstellt werden:</span><span class="sxs-lookup"><span data-stu-id="46995-106">The minimum DNS records for client resolution to the reverse proxy, the following records must be created:</span></span>
 
-  - <span data-ttu-id="96845-107">Host (A)-Eintrag (e), der die veröffentlichten externen Webdienste für Directors und Director-Pools definiert (beispielsweise **webdirext.contoso.com**)</span><span class="sxs-lookup"><span data-stu-id="96845-107">Host (A) record(s) that define the published external web services for Directors and Director pools (for example, **webdirext.contoso.com**)</span></span>
+  - <span data-ttu-id="46995-107">Host (A)-Eintrag (e), der die veröffentlichten externen Webdienste für Directors und Director-Pools definiert (beispielsweise **webdirext.contoso.com**)</span><span class="sxs-lookup"><span data-stu-id="46995-107">Host (A) record(s) that define the published external web services for Directors and Director pools (for example, **webdirext.contoso.com**)</span></span>
 
-  - <span data-ttu-id="96845-108">Host (A)-Eintrag (e), der die veröffentlichten externen Webdienste für externe Webdienste definiert, die in allen Front-End-Pools und Standard Edition-Server Rollen gehostet werden (beispielsweise **Webext.contoso.com**)</span><span class="sxs-lookup"><span data-stu-id="96845-108">Host (A) record(s) that define the published external web services for external web services hosted on the any Front End pools and Standard Edition server roles (for example, **webext.contoso.com**)</span></span>
+  - <span data-ttu-id="46995-108">Host (A)-Eintrag (e), der die veröffentlichten externen Webdienste für externe Webdienste definiert, die in allen Front-End-Pools und Standard Edition-Server Rollen gehostet werden (beispielsweise **Webext.contoso.com**)</span><span class="sxs-lookup"><span data-stu-id="46995-108">Host (A) record(s) that define the published external web services for external web services hosted on the any Front End pools and Standard Edition server roles (for example, **webext.contoso.com**)</span></span>
 
-  - <span data-ttu-id="96845-109">Host (A)-Einträge für einfache URLs (beispielsweise **dialin.contoso.com** und **meet.contoso.com**)</span><span class="sxs-lookup"><span data-stu-id="96845-109">Host (A) records for the Simple URLs (for example, **dialin.contoso.com** and **meet.contoso.com**)</span></span>
+  - <span data-ttu-id="46995-109">Host (A)-Einträge für einfache URLs (beispielsweise **dialin.contoso.com** und **meet.contoso.com**)</span><span class="sxs-lookup"><span data-stu-id="46995-109">Host (A) records for the Simple URLs (for example, **dialin.contoso.com** and **meet.contoso.com**)</span></span>
 
-  - <span data-ttu-id="96845-110">Host (A)-Eintrag für den externen lync Discover-Eintrag und bietet auch einen Zeiger auf die AutoErmittlung für alle Webanwendungen, einschließlich lync Web App, Scheduler und Mobilität (beispielsweise **lyncdiscover.contoso.com**)</span><span class="sxs-lookup"><span data-stu-id="96845-110">Host (A) record for the Lync Discover External record, and also provides pointer to AutoDiscover for all Web apps, including the Lync Web App, scheduler and Mobility (for example, **lyncdiscover.contoso.com**)</span></span>
+  - <span data-ttu-id="46995-110">Host (A)-Eintrag für den externen lync Discover-Eintrag und bietet auch einen Zeiger auf die AutoErmittlung für alle Webanwendungen, einschließlich lync Web App, Scheduler und Mobilität (beispielsweise **lyncdiscover.contoso.com**)</span><span class="sxs-lookup"><span data-stu-id="46995-110">Host (A) record for the Lync Discover External record, and also provides pointer to AutoDiscover for all Web apps, including the Lync Web App, scheduler and Mobility (for example, **lyncdiscover.contoso.com**)</span></span>
 
-  - <span data-ttu-id="96845-111">Host Einträge (A) für die Office-webapps-Server-URL (beispielsweise **officewebapp01.contoso.com**)</span><span class="sxs-lookup"><span data-stu-id="96845-111">Host (A) records for the Office Web Apps Server URL (for example **officewebapp01.contoso.com**)</span></span>
+  - <span data-ttu-id="46995-111">Host Einträge (A) für die Office-webapps-Server-URL (beispielsweise **officewebapp01.contoso.com**)</span><span class="sxs-lookup"><span data-stu-id="46995-111">Host (A) records for the Office Web Apps Server URL (for example **officewebapp01.contoso.com**)</span></span>
 
-<span data-ttu-id="96845-112">Ausführliche Informationen finden Sie unter [DNS Summary-Reverse Proxy in lync Server 2013](lync-server-2013-dns-summary-reverse-proxy.md).</span><span class="sxs-lookup"><span data-stu-id="96845-112">For details, see [DNS summary - Reverse proxy in Lync Server 2013](lync-server-2013-dns-summary-reverse-proxy.md).</span></span>
+<span data-ttu-id="46995-112">Ausführliche Informationen finden Sie unter [DNS Summary-Reverse Proxy in lync Server 2013](lync-server-2013-dns-summary-reverse-proxy.md).</span><span class="sxs-lookup"><span data-stu-id="46995-112">For details, see [DNS summary - Reverse proxy in Lync Server 2013](lync-server-2013-dns-summary-reverse-proxy.md).</span></span>
 
 </div>
 

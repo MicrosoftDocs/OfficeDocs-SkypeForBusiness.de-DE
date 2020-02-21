@@ -19,18 +19,18 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f58815ad2f722b0409b22e05a71adc65a8772e1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 756ff8d15ec58426b73504fcb240068151eabcd7
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045017"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42205410"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Workshops zur Planung des Upgrades auf Microsoft Teams</h1>
            <p>Als geschätzter Skype for Business-Kunde möchten wir sicherstellen, dass Ihnen bei Ihrem Umstieg auf Microsoft Teams alle benötigten Informationen vorliegen. Nehmen Sie an einer Reihe von interaktiven, interaktiven Upgradeplanungsworkshops teil, in denen wir Anleitungen, bewährte Methoden und Ressourcen teilen, die Ihnen bei der Planung und Implementierung Ihres Upgrades auf Microsoft Teams helfen. Für eine optimale Benutzererfahrung beginnen Sie mit der nachstehenden Sitzung <strong>Planen des Upgrades</strong>.
-            <p>Neu bei Microsoft Teams? <a href="http://docs.microsoft.com/microsoftteams/teams-overview">Hier</a> erhalten Sie weitere Informationen.
+            <p>Neu bei Microsoft Teams? <a href="https://docs.microsoft.com/microsoftteams/teams-overview">Hier</a> erhalten Sie weitere Informationen.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
