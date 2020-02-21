@@ -12,20 +12,20 @@ ms:contentKeyID: 48183485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f0732122b357d4f9c29aabbe7c28e05bf9444c17
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: ba962233c627ec379bad09cb5b5776f01b6305d3
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42137494"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206241"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="e9-1-1-support-in-lync-server-2013"></a><span data-ttu-id="a8e0a-102">Unterstützung für E9-1-1 in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8e0a-102">E9-1-1 support in Lync Server 2013</span></span>
+# <a name="e9-1-1-support-in-lync-server-2013"></a><span data-ttu-id="cfb17-102">Unterstützung für E9-1-1 in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="cfb17-102">E9-1-1 support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42137494"
 
 <span> </span>
 
-<span data-ttu-id="a8e0a-103">_**Letztes Änderungsstand des Themas:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="a8e0a-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="cfb17-103">_**Letztes Änderungsstand des Themas:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="cfb17-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="a8e0a-104">Lync Server 2013 unterstützt Enhanced 9-1-1 (E9-1-1) als Teil einer Unternehmensbereitstellung.</span><span class="sxs-lookup"><span data-stu-id="a8e0a-104">Lync Server 2013 supports Enhanced 9-1-1 (E9-1-1) as part of an enterprise deployment.</span></span> <span data-ttu-id="a8e0a-105">Hierbei handelt es sich um eine Benachrichtigungsfunktion für Notfallsituationen, bei der die Telefonnummer des Anrufers einer allgemeinen Adresse (d. h. Straße) zugeordnet wird.</span><span class="sxs-lookup"><span data-stu-id="a8e0a-105">E9-1-1 is an emergency notification feature that associates the calling party’s telephone number with a civic (that is, a street) address.</span></span> <span data-ttu-id="a8e0a-106">Die Unterstützung für E9-1-1 steht nur in den USA zur Verfügung.</span><span class="sxs-lookup"><span data-stu-id="a8e0a-106">E9-1-1 support is available only in the United States.</span></span>
+<span data-ttu-id="cfb17-104">Lync Server 2013 unterstützt Enhanced 9-1-1 (E9-1-1) als Teil einer Unternehmensbereitstellung.</span><span class="sxs-lookup"><span data-stu-id="cfb17-104">Lync Server 2013 supports Enhanced 9-1-1 (E9-1-1) as part of an enterprise deployment.</span></span> <span data-ttu-id="cfb17-105">Hierbei handelt es sich um eine Benachrichtigungsfunktion für Notfallsituationen, bei der die Telefonnummer des Anrufers einer allgemeinen Adresse (d. h. Straße) zugeordnet wird.</span><span class="sxs-lookup"><span data-stu-id="cfb17-105">E9-1-1 is an emergency notification feature that associates the calling party’s telephone number with a civic (that is, a street) address.</span></span> <span data-ttu-id="cfb17-106">Die Unterstützung für E9-1-1 steht nur in den USA zur Verfügung.</span><span class="sxs-lookup"><span data-stu-id="cfb17-106">E9-1-1 support is available only in the United States.</span></span>
 
-<span data-ttu-id="a8e0a-107">Zur Unterstützung von E9-1-1 im Rahmen einer lync Server 2013-Bereitstellung müssen Sie den E9-1-1-Routingdienst von einem zertifizierten Anbieter für Notfalldienste abrufen oder ein Elin-Gateway (Emergency Location Identification Number) verwenden.</span><span class="sxs-lookup"><span data-stu-id="a8e0a-107">To support E9-1-1 as part of a Lync Server 2013 deployment, you must obtain E9-1-1 routing service from a certified emergency services provider or use an Emergency Location Identification Number (ELIN) gateway.</span></span> <span data-ttu-id="a8e0a-108">Der Anbieter von Notrufdiensten oder der Carrier leitet Notrufe, die von lync Server 2013 stammen, an den richtigen Anrufbeantworter (Public Safety Answering Points, Rettungsleitstelle), basierend auf den im Anruf enthaltenen Standortinformationen.</span><span class="sxs-lookup"><span data-stu-id="a8e0a-108">The emergency services provider or carrier routes emergency calls that originate from Lync Server 2013 to the correct Public Safety Answering Point (PSAP), based on the location information contained within the call.</span></span> <span data-ttu-id="a8e0a-109">Ausführliche Informationen zur Unterstützung von E9-1-1 finden Sie unter [Planning for Emergency Services (E9-1-1) in lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="a8e0a-109">For details about E9-1-1 support, see [Planning for emergency services (E9-1-1) in Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md) in the Planning documentation.</span></span>
+<span data-ttu-id="cfb17-107">Zur Unterstützung von E9-1-1 im Rahmen einer lync Server 2013-Bereitstellung müssen Sie den E9-1-1-Routingdienst von einem zertifizierten Anbieter für Notfalldienste abrufen oder ein Elin-Gateway (Emergency Location Identification Number) verwenden.</span><span class="sxs-lookup"><span data-stu-id="cfb17-107">To support E9-1-1 as part of a Lync Server 2013 deployment, you must obtain E9-1-1 routing service from a certified emergency services provider or use an Emergency Location Identification Number (ELIN) gateway.</span></span> <span data-ttu-id="cfb17-108">Der Anbieter von Notrufdiensten oder der Carrier leitet Notrufe, die von lync Server 2013 stammen, an den richtigen Anrufbeantworter (Public Safety Answering Points, Rettungsleitstelle), basierend auf den im Anruf enthaltenen Standortinformationen.</span><span class="sxs-lookup"><span data-stu-id="cfb17-108">The emergency services provider or carrier routes emergency calls that originate from Lync Server 2013 to the correct Public Safety Answering Point (PSAP), based on the location information contained within the call.</span></span> <span data-ttu-id="cfb17-109">Ausführliche Informationen zur Unterstützung von E9-1-1 finden Sie unter [Planning for Emergency Services (E9-1-1) in lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md) in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="cfb17-109">For details about E9-1-1 support, see [Planning for emergency services (E9-1-1) in Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md) in the Planning documentation.</span></span>
 
 </div>
 

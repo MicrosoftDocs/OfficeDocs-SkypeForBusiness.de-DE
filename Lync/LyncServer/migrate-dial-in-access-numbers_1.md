@@ -12,20 +12,20 @@ ms:contentKeyID: 48184171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5fcc5b7dac5c9769d92afc86e7036f7e410f2278
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 4efd83a0d874876bd00d9ebc880a7ae508db8605
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42148904"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42209861"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="migrate-dial-in-access-numbers"></a><span data-ttu-id="b8db4-102">Migrieren von Zugriffsnummern für die Einwahl</span><span class="sxs-lookup"><span data-stu-id="b8db4-102">Migrate dial-in access numbers</span></span>
+# <a name="migrate-dial-in-access-numbers"></a><span data-ttu-id="5c4cd-102">Migrieren von Zugriffsnummern für die Einwahl</span><span class="sxs-lookup"><span data-stu-id="5c4cd-102">Migrate dial-in access numbers</span></span>
 
 </div>
 
@@ -35,29 +35,29 @@ ms.locfileid: "42148904"
 
 <span> </span>
 
-<span data-ttu-id="b8db4-103">_**Letztes Änderungsstand des Themas:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="b8db4-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+<span data-ttu-id="5c4cd-103">_**Letztes Änderungsstand des Themas:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="5c4cd-103">_**Topic Last Modified:** 2012-09-26_</span></span>
 
-<span data-ttu-id="b8db4-104">Das Migrieren von Einwahlnummern erfordert zwei Schritte: Ausführen des Cmdlets " **Import-CsLegacyConfiguration** " (zuvor abgeschlossen in " [Import Policies and Settings](import-policies-and-settings.md)"), um Wählpläne und andere Einstellungen für die Einwahl Zugriffsnummer zu migrieren und das Cmdlet " **verschieben-CsApplicationEndpoint** " zum Migrieren der Kontaktobjekte auszuführen.</span><span class="sxs-lookup"><span data-stu-id="b8db4-104">Migrating dial-in access numbers requires two steps: running the **Import-CsLegacyConfiguration** cmdlet (completed earlier in [Import policies and settings](import-policies-and-settings.md)) to migrate dial plans and other dial-in access number settings, and running the **Move-CsApplicationEndpoint** cmdlet to migrate the contact objects.</span></span>
+<span data-ttu-id="5c4cd-104">Das Migrieren von Einwahlnummern erfordert zwei Schritte: Ausführen des Cmdlets " **Import-CsLegacyConfiguration** " (zuvor abgeschlossen in " [Import Policies and Settings](import-policies-and-settings.md)"), um Wählpläne und andere Einstellungen für die Einwahl Zugriffsnummer zu migrieren und das Cmdlet " **verschieben-CsApplicationEndpoint** " zum Migrieren der Kontaktobjekte auszuführen.</span><span class="sxs-lookup"><span data-stu-id="5c4cd-104">Migrating dial-in access numbers requires two steps: running the **Import-CsLegacyConfiguration** cmdlet (completed earlier in [Import policies and settings](import-policies-and-settings.md)) to migrate dial plans and other dial-in access number settings, and running the **Move-CsApplicationEndpoint** cmdlet to migrate the contact objects.</span></span>
 
 <div>
 
-## <a name="to-migrate-dial-in-access-numbers"></a><span data-ttu-id="b8db4-105">So migrieren Sie Zugriffsnummern für die Einwahl</span><span class="sxs-lookup"><span data-stu-id="b8db4-105">To migrate dial-in access numbers</span></span>
+## <a name="to-migrate-dial-in-access-numbers"></a><span data-ttu-id="5c4cd-105">So migrieren Sie Zugriffsnummern für die Einwahl</span><span class="sxs-lookup"><span data-stu-id="5c4cd-105">To migrate dial-in access numbers</span></span>
 
-1.  <span data-ttu-id="b8db4-106">Öffnen Sie das Office Communications Server 2007 R2 Verwaltungstool.</span><span class="sxs-lookup"><span data-stu-id="b8db4-106">Open the Office Communications Server 2007 R2 administrative tool.</span></span>
+1.  <span data-ttu-id="5c4cd-106">Öffnen Sie das Office Communications Server 2007 R2 Verwaltungstool.</span><span class="sxs-lookup"><span data-stu-id="5c4cd-106">Open the Office Communications Server 2007 R2 administrative tool.</span></span>
 
-2.  <span data-ttu-id="b8db4-107">Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf den Gesamtstrukturknoten, klicken Sie auf **Eigenschaften**, und klicken Sie dann auf **Eigenschaften der Konferenzzentrale**.</span><span class="sxs-lookup"><span data-stu-id="b8db4-107">In the console tree, right-click the forest node, click **Properties**, and then click **Conferencing Attendant Properties**.</span></span>
+2.  <span data-ttu-id="5c4cd-107">Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf den Gesamtstrukturknoten, klicken Sie auf **Eigenschaften**, und klicken Sie dann auf **Eigenschaften der Konferenzzentrale**.</span><span class="sxs-lookup"><span data-stu-id="5c4cd-107">In the console tree, right-click the forest node, click **Properties**, and then click **Conferencing Attendant Properties**.</span></span>
 
-3.  <span data-ttu-id="b8db4-108">Klicken Sie auf der Registerkarte **Zugriffstelefonnummern** auf **Verarbeitet vom Pool**, um die Zugriffstelefonnummern nach dem zugeordneten Pool zu ordnen und alle Zugriffnummern für den zu migrierenden Pool zu identifizieren.</span><span class="sxs-lookup"><span data-stu-id="b8db4-108">On the **Access Phone Numbers** tab, click **Serviced by Pool** to sort the access phone numbers by their associated pool, and identify all the access numbers for the pool from which you are migrating.</span></span>
+3.  <span data-ttu-id="5c4cd-108">Klicken Sie auf der Registerkarte **Zugriffstelefonnummern** auf **Verarbeitet vom Pool**, um die Zugriffstelefonnummern nach dem zugeordneten Pool zu ordnen und alle Zugriffnummern für den zu migrierenden Pool zu identifizieren.</span><span class="sxs-lookup"><span data-stu-id="5c4cd-108">On the **Access Phone Numbers** tab, click **Serviced by Pool** to sort the access phone numbers by their associated pool, and identify all the access numbers for the pool from which you are migrating.</span></span>
 
-4.  <span data-ttu-id="b8db4-109">Zum Identifizieren der SIP-URI für jede Zugriffsnummer doppelklicken Sie auf die Zugriffsnummer, um das Dialogfeld **Nummer für die Konferenzzentrale bearbeiten** zu öffnen, und sehen Sie dann unter **SIP-URI** nach.</span><span class="sxs-lookup"><span data-stu-id="b8db4-109">To identify the SIP URI for each access number, double-click the access number to open the **Edit Conferencing Attendant Number** dialog box, and look under **SIP URI**.</span></span>
+4.  <span data-ttu-id="5c4cd-109">Zum Identifizieren der SIP-URI für jede Zugriffsnummer doppelklicken Sie auf die Zugriffsnummer, um das Dialogfeld **Nummer für die Konferenzzentrale bearbeiten** zu öffnen, und sehen Sie dann unter **SIP-URI** nach.</span><span class="sxs-lookup"><span data-stu-id="5c4cd-109">To identify the SIP URI for each access number, double-click the access number to open the **Edit Conferencing Attendant Number** dialog box, and look under **SIP URI**.</span></span>
 
-5.  <span data-ttu-id="b8db4-110">Öffnen Sie die Lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="b8db4-110">Open the Lync Server Management Shell.</span></span>
+5.  <span data-ttu-id="5c4cd-110">Öffnen Sie die Lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="5c4cd-110">Open the Lync Server Management Shell.</span></span>
 
-6.  <span data-ttu-id="b8db4-111">Führen Sie die folgenden Schritte aus, um jede Zugriffsnummer für die Einwahl in einen auf lync Server 2013 gehosteten Pool zu übertragen:</span><span class="sxs-lookup"><span data-stu-id="b8db4-111">To move each dial-in access number to a pool hosted on Lync Server 2013, run:</span></span>
+6.  <span data-ttu-id="5c4cd-111">Führen Sie die folgenden Schritte aus, um jede Zugriffsnummer für die Einwahl in einen auf lync Server 2013 gehosteten Pool zu übertragen:</span><span class="sxs-lookup"><span data-stu-id="5c4cd-111">To move each dial-in access number to a pool hosted on Lync Server 2013, run:</span></span>
     
         Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
 
-7.  <span data-ttu-id="b8db4-112">Überprüfen Sie im Verwaltungstool Office Communications Server 2007 R2 auf der Registerkarte **Zugriffs** Telefonnummern, ob keine Einwahlnummern für den Office Communications Server 2007 R2 Pool verbleiben, von dem Sie migrieren.</span><span class="sxs-lookup"><span data-stu-id="b8db4-112">In the Office Communications Server 2007 R2 Administrative tool, on the **Access Phone Numbers** tab, verify that no dial-in access numbers remain for the Office Communications Server 2007 R2 pool from which you are migrating.</span></span>
+7.  <span data-ttu-id="5c4cd-112">Überprüfen Sie im Verwaltungstool Office Communications Server 2007 R2 auf der Registerkarte **Zugriffs** Telefonnummern, ob keine Einwahlnummern für den Office Communications Server 2007 R2 Pool verbleiben, von dem Sie migrieren.</span><span class="sxs-lookup"><span data-stu-id="5c4cd-112">In the Office Communications Server 2007 R2 Administrative tool, on the **Access Phone Numbers** tab, verify that no dial-in access numbers remain for the Office Communications Server 2007 R2 pool from which you are migrating.</span></span>
 
 </div>
 

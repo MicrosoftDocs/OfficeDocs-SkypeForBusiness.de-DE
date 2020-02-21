@@ -12,20 +12,20 @@ ms:contentKeyID: 48183480
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 803357279efb630e20ce78c0cc71221d31e07112
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 88a3b904976939d5e33f460dc20fb24cd26ed45f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42148574"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42209751"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="phase-1-plan-your-migration-from-lync-server-2010"></a><span data-ttu-id="7f011-102">Phase 1: Planen der Migration von lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="7f011-102">Phase 1: Plan your migration from Lync Server 2010</span></span>
+# <a name="phase-1-plan-your-migration-from-lync-server-2010"></a><span data-ttu-id="ff6f9-102">Phase 1: Planen der Migration von lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="ff6f9-102">Phase 1: Plan your migration from Lync Server 2010</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42148574"
 
 <span> </span>
 
-<span data-ttu-id="7f011-103">_**Letztes Änderungsstand des Themas:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="7f011-103">_**Topic Last Modified:** 2012-09-29_</span></span>
+<span data-ttu-id="ff6f9-103">_**Letztes Änderungsstand des Themas:** 2012-09-29_</span><span class="sxs-lookup"><span data-stu-id="ff6f9-103">_**Topic Last Modified:** 2012-09-29_</span></span>
 
-<span data-ttu-id="7f011-104">In diesem Abschnitt werden die Planungsthemen für die Migration von lync Server 2010 zu lync Server 2013 behandelt.</span><span class="sxs-lookup"><span data-stu-id="7f011-104">This section covers planning topics for migrating from Lync Server 2010 to Lync Server 2013.</span></span>
+<span data-ttu-id="ff6f9-104">In diesem Abschnitt werden die Planungsthemen für die Migration von lync Server 2010 zu lync Server 2013 behandelt.</span><span class="sxs-lookup"><span data-stu-id="ff6f9-104">This section covers planning topics for migrating from Lync Server 2010 to Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="7f011-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="7f011-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ff6f9-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="ff6f9-105">In This Section</span></span>
 
-  - [<span data-ttu-id="7f011-106">Benutzermigration</span><span class="sxs-lookup"><span data-stu-id="7f011-106">User migration</span></span>](user-migration.md)
+  - [<span data-ttu-id="ff6f9-106">Benutzermigration</span><span class="sxs-lookup"><span data-stu-id="ff6f9-106">User migration</span></span>](user-migration.md)
 
-  - [<span data-ttu-id="7f011-107">Migrieren von Archivierungs-und Monitoring Servern</span><span class="sxs-lookup"><span data-stu-id="7f011-107">Migrating Archiving and Monitoring servers</span></span>](migrating-archiving-and-monitoring-servers.md)
+  - [<span data-ttu-id="ff6f9-107">Migrieren von Archivierungs-und Monitoring Servern</span><span class="sxs-lookup"><span data-stu-id="ff6f9-107">Migrating Archiving and Monitoring servers</span></span>](migrating-archiving-and-monitoring-servers.md)
 
-  - [<span data-ttu-id="7f011-108">Migrieren von Gruppen Chat Servern</span><span class="sxs-lookup"><span data-stu-id="7f011-108">Migrating Group Chat servers</span></span>](migrating-group-chat-servers.md)
+  - [<span data-ttu-id="ff6f9-108">Migrieren von Gruppen Chat Servern</span><span class="sxs-lookup"><span data-stu-id="ff6f9-108">Migrating Group Chat servers</span></span>](migrating-group-chat-servers.md)
 
-  - [<span data-ttu-id="7f011-109">Verwalten von Servern nach der Migration</span><span class="sxs-lookup"><span data-stu-id="7f011-109">Administering servers after migration</span></span>](administering-servers-after-migration.md)
+  - [<span data-ttu-id="ff6f9-109">Verwalten von Servern nach der Migration</span><span class="sxs-lookup"><span data-stu-id="ff6f9-109">Administering servers after migration</span></span>](administering-servers-after-migration.md)
 
-  - [<span data-ttu-id="7f011-110">Migrieren von mehreren Standorten und Pools</span><span class="sxs-lookup"><span data-stu-id="7f011-110">Migrating multiple sites and pools</span></span>](migrating-multiple-sites-and-pools.md)
+  - [<span data-ttu-id="ff6f9-110">Migrieren von mehreren Standorten und Pools</span><span class="sxs-lookup"><span data-stu-id="ff6f9-110">Migrating multiple sites and pools</span></span>](migrating-multiple-sites-and-pools.md)
 
-  - [<span data-ttu-id="7f011-111">Migrieren des XMPP-Verbunds</span><span class="sxs-lookup"><span data-stu-id="7f011-111">Migrating XMPP federation</span></span>](migrating-xmpp-federation.md)
+  - [<span data-ttu-id="ff6f9-111">Migrieren des XMPP-Verbunds</span><span class="sxs-lookup"><span data-stu-id="ff6f9-111">Migrating XMPP federation</span></span>](migrating-xmpp-federation.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 49733593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abd4428bd3039b7d9cedb4550f2ef3782e31978b
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 51992ee84aa5f7cf5699ed8942ae7df95ce6b8d3
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147498"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42206541"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="front-end-pool-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="d1680-102">Front-End-Pool Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d1680-102">Front End pool disaster recovery in Lync Server 2013</span></span>
+# <a name="front-end-pool-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="74e94-102">Front-End-Pool Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e94-102">Front End pool disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42147498"
 
 <span> </span>
 
-<span data-ttu-id="d1680-103">_**Letztes Änderungsstand des Themas:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="d1680-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+<span data-ttu-id="74e94-103">_**Letztes Änderungsstand des Themas:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="74e94-103">_**Topic Last Modified:** 2012-09-17_</span></span>
 
-<span data-ttu-id="d1680-104">In den Themen in diesem Abschnitt werden die Funktionen für hohe Verfügbarkeit und Notfallwiederherstellung für Front-End-Pools in lync Server 2013 erläutert.</span><span class="sxs-lookup"><span data-stu-id="d1680-104">The topics in this section explain the high availability and disaster recovery abilities Front End pools in Lync Server 2013.</span></span>
+<span data-ttu-id="74e94-104">In den Themen in diesem Abschnitt werden die Funktionen für hohe Verfügbarkeit und Notfallwiederherstellung für Front-End-Pools in lync Server 2013 erläutert.</span><span class="sxs-lookup"><span data-stu-id="74e94-104">The topics in this section explain the high availability and disaster recovery abilities Front End pools in Lync Server 2013.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="d1680-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="d1680-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="74e94-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="74e94-105">In This Section</span></span>
 
-  - [<span data-ttu-id="d1680-106">Planen der Front-End-Pool Kopplung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d1680-106">Planning for Front End pool pairing in Lync Server 2013</span></span>](lync-server-2013-planning-for-front-end-pool-pairing.md)
+  - [<span data-ttu-id="74e94-106">Planen der Front-End-Pool Kopplung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e94-106">Planning for Front End pool pairing in Lync Server 2013</span></span>](lync-server-2013-planning-for-front-end-pool-pairing.md)
 
-  - [<span data-ttu-id="d1680-107">Benutzererfahrung beim Pool Fehler in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d1680-107">User experience during pool failure in Lync Server 2013</span></span>](lync-server-2013-user-experience-during-pool-failure.md)
+  - [<span data-ttu-id="74e94-107">Benutzererfahrung beim Pool Fehler in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e94-107">User experience during pool failure in Lync Server 2013</span></span>](lync-server-2013-user-experience-during-pool-failure.md)
 
-  - [<span data-ttu-id="d1680-108">Hohe Verfügbarkeit von Back-End-Servern in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d1680-108">Back End Server high availability in Lync Server 2013</span></span>](lync-server-2013-back-end-server-high-availability.md)
+  - [<span data-ttu-id="74e94-108">Hohe Verfügbarkeit von Back-End-Servern in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e94-108">Back End Server high availability in Lync Server 2013</span></span>](lync-server-2013-back-end-server-high-availability.md)
 
-  - [<span data-ttu-id="d1680-109">Hohe Verfügbarkeit der Dateifreigabe in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d1680-109">File sharing high availability in Lync Server 2013</span></span>](lync-server-2013-file-sharing-high-availability.md)
+  - [<span data-ttu-id="74e94-109">Hohe Verfügbarkeit der Dateifreigabe in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74e94-109">File sharing high availability in Lync Server 2013</span></span>](lync-server-2013-file-sharing-high-availability.md)
 
 </div>
 

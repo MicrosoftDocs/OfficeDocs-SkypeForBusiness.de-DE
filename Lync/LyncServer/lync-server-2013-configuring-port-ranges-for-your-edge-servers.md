@@ -12,20 +12,20 @@ ms:contentKeyID: 48184469
 ms.date: 07/24/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1d1dc6c35cac0a375b9229a0a9e04664bfe868a
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 0ce17300c6504989d132cb27301128bfbc568870
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147298"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42207411"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-port-ranges-for-your-edge-servers-in-lync-server-2013"></a><span data-ttu-id="e4731-102">Konfigurieren von Portbereichen für Ihre Edgeserver in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e4731-102">Configuring port ranges for your Edge Servers in Lync Server 2013</span></span>
+# <a name="configuring-port-ranges-for-your-edge-servers-in-lync-server-2013"></a><span data-ttu-id="afca1-102">Konfigurieren von Portbereichen für Ihre Edgeserver in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="afca1-102">Configuring port ranges for your Edge Servers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42147298"
 
 <span> </span>
 
-<span data-ttu-id="e4731-103">_**Letztes Änderungsstand des Themas:** 2015-07-24_</span><span class="sxs-lookup"><span data-stu-id="e4731-103">_**Topic Last Modified:** 2015-07-24_</span></span>
+<span data-ttu-id="afca1-103">_**Letztes Änderungsstand des Themas:** 2015-07-24_</span><span class="sxs-lookup"><span data-stu-id="afca1-103">_**Topic Last Modified:** 2015-07-24_</span></span>
 
-<span data-ttu-id="e4731-104">Mit Edgeserver müssen Sie keine separaten Portbereiche für Audio-, Video-und Anwendungsfreigaben konfigurieren. Dementsprechend müssen die für Edgeserver verwendeten Portbereiche nicht den Portbereichen entsprechen, die mit ihren Konferenz-, Anwendungs-und Vermittlungsservern verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="e4731-104">With Edge servers you do not have to configure separate port ranges for audio, video, and application sharing; likewise, the port ranges used for Edge servers do not have to match the port ranges used with your Conferencing, Application, and Mediation servers.</span></span> <span data-ttu-id="e4731-105">Bevor wir mit unserem Beispiel fortfahren, sollten Sie darauf hinweisen, dass diese Option zwar vorhanden ist, es wird jedoch empfohlen, die Portbereiche nicht zu ändern, da sich dies nachteilig auf einige Szenarien auswirken kann, wenn Sie den 50000-Portbereich verlassen.</span><span class="sxs-lookup"><span data-stu-id="e4731-105">Before we proceed with our example, it's important to stress that while this option exists, we do recommend you not change the port ranges, as this may adversely affect some scenarios if you move out of the 50000 port range.</span></span>
+<span data-ttu-id="afca1-104">Mit Edgeserver müssen Sie keine separaten Portbereiche für Audio-, Video-und Anwendungsfreigaben konfigurieren. Dementsprechend müssen die für Edgeserver verwendeten Portbereiche nicht den Portbereichen entsprechen, die mit ihren Konferenz-, Anwendungs-und Vermittlungsservern verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="afca1-104">With Edge servers you do not have to configure separate port ranges for audio, video, and application sharing; likewise, the port ranges used for Edge servers do not have to match the port ranges used with your Conferencing, Application, and Mediation servers.</span></span> <span data-ttu-id="afca1-105">Bevor wir mit unserem Beispiel fortfahren, sollten Sie darauf hinweisen, dass diese Option zwar vorhanden ist, es wird jedoch empfohlen, die Portbereiche nicht zu ändern, da sich dies nachteilig auf einige Szenarien auswirken kann, wenn Sie den 50000-Portbereich verlassen.</span><span class="sxs-lookup"><span data-stu-id="afca1-105">Before we proceed with our example, it's important to stress that while this option exists, we do recommend you not change the port ranges, as this may adversely affect some scenarios if you move out of the 50000 port range.</span></span>
 
-<span data-ttu-id="e4731-106">Angenommen, Sie haben Ihre Konferenz-, Anwendungs-und Vermittlungsserver für die Verwendung dieser Portbereiche konfiguriert:</span><span class="sxs-lookup"><span data-stu-id="e4731-106">For example, suppose you have configured your Conferencing, Application, and Mediation servers to use these port ranges:</span></span>
+<span data-ttu-id="afca1-106">Angenommen, Sie haben Ihre Konferenz-, Anwendungs-und Vermittlungsserver für die Verwendung dieser Portbereiche konfiguriert:</span><span class="sxs-lookup"><span data-stu-id="afca1-106">For example, suppose you have configured your Conferencing, Application, and Mediation servers to use these port ranges:</span></span>
 
 
 <table>
@@ -50,49 +50,49 @@ ms.locfileid: "42147298"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e4731-107">Pakettyp</span><span class="sxs-lookup"><span data-stu-id="e4731-107">Packet Type</span></span></th>
-<th><span data-ttu-id="e4731-108">Startport</span><span class="sxs-lookup"><span data-stu-id="e4731-108">Starting Port</span></span></th>
-<th><span data-ttu-id="e4731-109">Anzahl der reservierten Ports</span><span class="sxs-lookup"><span data-stu-id="e4731-109">Number of Ports Reserved</span></span></th>
+<th><span data-ttu-id="afca1-107">Pakettyp</span><span class="sxs-lookup"><span data-stu-id="afca1-107">Packet Type</span></span></th>
+<th><span data-ttu-id="afca1-108">Startport</span><span class="sxs-lookup"><span data-stu-id="afca1-108">Starting Port</span></span></th>
+<th><span data-ttu-id="afca1-109">Anzahl der reservierten Ports</span><span class="sxs-lookup"><span data-stu-id="afca1-109">Number of Ports Reserved</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e4731-110">Anwendungsfreigabe</span><span class="sxs-lookup"><span data-stu-id="e4731-110">Application sharing</span></span></p></td>
-<td><p><span data-ttu-id="e4731-111">40803</span><span class="sxs-lookup"><span data-stu-id="e4731-111">40803</span></span></p></td>
-<td><p><span data-ttu-id="e4731-112">8348</span><span class="sxs-lookup"><span data-stu-id="e4731-112">8348</span></span></p></td>
+<td><p><span data-ttu-id="afca1-110">Anwendungsfreigabe</span><span class="sxs-lookup"><span data-stu-id="afca1-110">Application sharing</span></span></p></td>
+<td><p><span data-ttu-id="afca1-111">40803</span><span class="sxs-lookup"><span data-stu-id="afca1-111">40803</span></span></p></td>
+<td><p><span data-ttu-id="afca1-112">8348</span><span class="sxs-lookup"><span data-stu-id="afca1-112">8348</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e4731-113">Audio</span><span class="sxs-lookup"><span data-stu-id="e4731-113">Audio</span></span></p></td>
-<td><p><span data-ttu-id="e4731-114">49152</span><span class="sxs-lookup"><span data-stu-id="e4731-114">49152</span></span></p></td>
-<td><p><span data-ttu-id="e4731-115">8348</span><span class="sxs-lookup"><span data-stu-id="e4731-115">8348</span></span></p></td>
+<td><p><span data-ttu-id="afca1-113">Audio</span><span class="sxs-lookup"><span data-stu-id="afca1-113">Audio</span></span></p></td>
+<td><p><span data-ttu-id="afca1-114">49152</span><span class="sxs-lookup"><span data-stu-id="afca1-114">49152</span></span></p></td>
+<td><p><span data-ttu-id="afca1-115">8348</span><span class="sxs-lookup"><span data-stu-id="afca1-115">8348</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e4731-116">Video</span><span class="sxs-lookup"><span data-stu-id="e4731-116">Video</span></span></p></td>
-<td><p><span data-ttu-id="e4731-117">57500</span><span class="sxs-lookup"><span data-stu-id="e4731-117">57500</span></span></p></td>
-<td><p><span data-ttu-id="e4731-118">8034</span><span class="sxs-lookup"><span data-stu-id="e4731-118">8034</span></span></p></td>
+<td><p><span data-ttu-id="afca1-116">Video</span><span class="sxs-lookup"><span data-stu-id="afca1-116">Video</span></span></p></td>
+<td><p><span data-ttu-id="afca1-117">57500</span><span class="sxs-lookup"><span data-stu-id="afca1-117">57500</span></span></p></td>
+<td><p><span data-ttu-id="afca1-118">8034</span><span class="sxs-lookup"><span data-stu-id="afca1-118">8034</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e4731-119"><strong>Summen</strong></span><span class="sxs-lookup"><span data-stu-id="e4731-119"><strong>Totals</strong></span></span></p></td>
+<td><p><span data-ttu-id="afca1-119"><strong>Summen</strong></span><span class="sxs-lookup"><span data-stu-id="afca1-119"><strong>Totals</strong></span></span></p></td>
 <td><p>--</p></td>
-<td><p><span data-ttu-id="e4731-120">24730</span><span class="sxs-lookup"><span data-stu-id="e4731-120">24730</span></span></p></td>
+<td><p><span data-ttu-id="afca1-120">24730</span><span class="sxs-lookup"><span data-stu-id="afca1-120">24730</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="e4731-121">Wie Sie sehen können, beginnen die Portbereiche für die Audio-, Video-und Anwendungsfreigabe bei Port 40803 und umfassen insgesamt 24732 Ports.</span><span class="sxs-lookup"><span data-stu-id="e4731-121">As you can see, your port ranges for audio, video, and application sharing start at port 40803 and encompass a total of 24732 ports.</span></span> <span data-ttu-id="e4731-122">Wenn Sie es vorziehen, können Sie eine bestimmte Edgeserver so konfigurieren, dass diese Gesamt Port Werte verwendet werden, indem Sie einen Befehl aus dem lync Server-Verwaltungsshell ausführen, der diesem ähnlich ist:</span><span class="sxs-lookup"><span data-stu-id="e4731-122">If you prefer, you can configure a given Edge Server to use these overall port values by running a command similar to this one from within the Lync Server Management Shell:</span></span>
+<span data-ttu-id="afca1-121">Wie Sie sehen können, beginnen die Portbereiche für die Audio-, Video-und Anwendungsfreigabe bei Port 40803 und umfassen insgesamt 24732 Ports.</span><span class="sxs-lookup"><span data-stu-id="afca1-121">As you can see, your port ranges for audio, video, and application sharing start at port 40803 and encompass a total of 24732 ports.</span></span> <span data-ttu-id="afca1-122">Wenn Sie es vorziehen, können Sie eine bestimmte Edgeserver so konfigurieren, dass diese Gesamt Port Werte verwendet werden, indem Sie einen Befehl aus dem lync Server-Verwaltungsshell ausführen, der diesem ähnlich ist:</span><span class="sxs-lookup"><span data-stu-id="afca1-122">If you prefer, you can configure a given Edge Server to use these overall port values by running a command similar to this one from within the Lync Server Management Shell:</span></span>
 
     Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730
 
-<span data-ttu-id="e4731-123">Oder führen Sie den folgenden Befehl aus, um alle Edgeserver in Ihrer Organisation gleichzeitig zu konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="e4731-123">Or, use the following command to simultaneously configure all the Edge Servers in your organization:</span></span>
+<span data-ttu-id="afca1-123">Oder führen Sie den folgenden Befehl aus, um alle Edgeserver in Ihrer Organisation gleichzeitig zu konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="afca1-123">Or, use the following command to simultaneously configure all the Edge Servers in your organization:</span></span>
 
     Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_.Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}
 
-<span data-ttu-id="e4731-124">Sie können die aktuellen Porteinstellungen für Ihre Edgeserver überprüfen, indem Sie den folgenden lync Server-Verwaltungsshell Befehl verwenden:</span><span class="sxs-lookup"><span data-stu-id="e4731-124">You can verify the current port settings for your Edge Servers by using this Lync Server Management Shell command:</span></span>
+<span data-ttu-id="afca1-124">Sie können die aktuellen Porteinstellungen für Ihre Edgeserver überprüfen, indem Sie den folgenden lync Server-Verwaltungsshell Befehl verwenden:</span><span class="sxs-lookup"><span data-stu-id="afca1-124">You can verify the current port settings for your Edge Servers by using this Lync Server Management Shell command:</span></span>
 
     Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount
 
-<span data-ttu-id="e4731-125">Auch wenn wir diese Optionen bereitstellen, wird dringend empfohlen, dass Sie die Einstellungen für die Portkonfiguration beibehalten.</span><span class="sxs-lookup"><span data-stu-id="e4731-125">Again, while we do provide these options, we strongly recommend you leave things as they are for the port configuration.</span></span>
+<span data-ttu-id="afca1-125">Auch wenn wir diese Optionen bereitstellen, wird dringend empfohlen, dass Sie die Einstellungen für die Portkonfiguration beibehalten.</span><span class="sxs-lookup"><span data-stu-id="afca1-125">Again, while we do provide these options, we strongly recommend you leave things as they are for the port configuration.</span></span>
 
 </div>
 
