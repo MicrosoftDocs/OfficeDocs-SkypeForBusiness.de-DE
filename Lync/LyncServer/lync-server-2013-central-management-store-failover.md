@@ -12,20 +12,20 @@ ms:contentKeyID: 48185809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d19b045e23efa39c9f70f70ba7ac0236e77cc13
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: cb3ba0ecea87e1f595f86cb5706f7105ba8be210
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135362"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42191098"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="central-management-store-failover-in-lync-server-2013"></a><span data-ttu-id="85aeb-102">Failover des zentralen Verwaltungsspeichers in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="85aeb-102">Central Management store failover in Lync Server 2013</span></span>
+# <a name="central-management-store-failover-in-lync-server-2013"></a><span data-ttu-id="5b304-102">Failover des zentralen Verwaltungsspeichers in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5b304-102">Central Management store failover in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42135362"
 
 <span> </span>
 
-<span data-ttu-id="85aeb-103">_**Letztes Änderungsstand des Themas:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="85aeb-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+<span data-ttu-id="5b304-103">_**Letztes Änderungsstand des Themas:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="5b304-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-<span data-ttu-id="85aeb-104">Der zentrale Verwaltungsspeicher enthält Konfigurationsdaten zu Servern und Diensten in ihrer lync 2013-Bereitstellung.</span><span class="sxs-lookup"><span data-stu-id="85aeb-104">The Central Management store contains configuration data about servers and services in your Lync 2013 deployment.</span></span> <span data-ttu-id="85aeb-105">Es bietet eine robuste, schematisierten Speicherung der Daten, die für die Definition, Einrichtung, Verwaltung, Verwaltung, Beschreibung und den Betrieb einer lync 2013-Bereitstellung benötigt werden.</span><span class="sxs-lookup"><span data-stu-id="85aeb-105">It provides a robust, schematized storage of the data needed to define, set up, maintain, administer, describe, and operate a Lync 2013 deployment.</span></span> <span data-ttu-id="85aeb-106">Darüber hinaus werden die Daten überprüft, um eine konsistente Konfiguration zu gewährleisten.</span><span class="sxs-lookup"><span data-stu-id="85aeb-106">It also validates the data to ensure configuration consistency.</span></span>
+<span data-ttu-id="5b304-104">Der zentrale Verwaltungsspeicher enthält Konfigurationsdaten zu Servern und Diensten in ihrer lync 2013-Bereitstellung.</span><span class="sxs-lookup"><span data-stu-id="5b304-104">The Central Management store contains configuration data about servers and services in your Lync 2013 deployment.</span></span> <span data-ttu-id="5b304-105">Es bietet eine robuste, schematisierten Speicherung der Daten, die für die Definition, Einrichtung, Verwaltung, Verwaltung, Beschreibung und den Betrieb einer lync 2013-Bereitstellung benötigt werden.</span><span class="sxs-lookup"><span data-stu-id="5b304-105">It provides a robust, schematized storage of the data needed to define, set up, maintain, administer, describe, and operate a Lync 2013 deployment.</span></span> <span data-ttu-id="5b304-106">Darüber hinaus werden die Daten überprüft, um eine konsistente Konfiguration zu gewährleisten.</span><span class="sxs-lookup"><span data-stu-id="5b304-106">It also validates the data to ensure configuration consistency.</span></span>
 
-<span data-ttu-id="85aeb-107">Jede lync-Bereitstellung umfasst einen zentralen Verwaltungsspeicher, der vom Back-End-Server eines Front-End-Pool gehostet wird.</span><span class="sxs-lookup"><span data-stu-id="85aeb-107">Each Lync deployment includes one Central Management store, which is hosted by the Back End Server of one Front End pool.</span></span>
+<span data-ttu-id="5b304-107">Jede lync-Bereitstellung umfasst einen zentralen Verwaltungsspeicher, der vom Back-End-Server eines Front-End-Pool gehostet wird.</span><span class="sxs-lookup"><span data-stu-id="5b304-107">Each Lync deployment includes one Central Management store, which is hosted by the Back End Server of one Front End pool.</span></span>
 
-<span data-ttu-id="85aeb-108">Wenn Sie eine Pool Kopplung einrichten, die den Pool enthält, der den zentralen Verwaltungsspeicher hostet, wird eine Sicherungsdatenbank für den zentralen Verwaltungsspeicher im Sicherungspool eingerichtet, und die Dienste für den zentralen Verwaltungsspeicher werden in beiden Pools installiert.</span><span class="sxs-lookup"><span data-stu-id="85aeb-108">When you establish a pool pairing that includes the pool hosting the Central Management store, a backup Central Management store database is set up in the backup pool, and Central Management store services are installed in both pools.</span></span> <span data-ttu-id="85aeb-109">Eine der beiden Datenbanken des zentralen Verwaltungsspeichers ist zu jedem Zeitpunkt der aktive Master und der andere ein Standby.</span><span class="sxs-lookup"><span data-stu-id="85aeb-109">At any point in time, one of the two Central Management store databases is the active master, and the other is a standby.</span></span> <span data-ttu-id="85aeb-110">Der Inhalt wird vom Sicherungsdienst vom aktiven Master in den Standbymodus repliziert.</span><span class="sxs-lookup"><span data-stu-id="85aeb-110">The content is replicated by the Backup Service from the active master to the standby.</span></span>
+<span data-ttu-id="5b304-108">Wenn Sie eine Pool Kopplung einrichten, die den Pool enthält, der den zentralen Verwaltungsspeicher hostet, wird eine Sicherungsdatenbank für den zentralen Verwaltungsspeicher im Sicherungspool eingerichtet, und die Dienste für den zentralen Verwaltungsspeicher werden in beiden Pools installiert.</span><span class="sxs-lookup"><span data-stu-id="5b304-108">When you establish a pool pairing that includes the pool hosting the Central Management store, a backup Central Management store database is set up in the backup pool, and Central Management store services are installed in both pools.</span></span> <span data-ttu-id="5b304-109">Eine der beiden Datenbanken des zentralen Verwaltungsspeichers ist zu jedem Zeitpunkt der aktive Master und der andere ein Standby.</span><span class="sxs-lookup"><span data-stu-id="5b304-109">At any point in time, one of the two Central Management store databases is the active master, and the other is a standby.</span></span> <span data-ttu-id="5b304-110">Der Inhalt wird vom Sicherungsdienst vom aktiven Master in den Standbymodus repliziert.</span><span class="sxs-lookup"><span data-stu-id="5b304-110">The content is replicated by the Backup Service from the active master to the standby.</span></span>
 
-<span data-ttu-id="85aeb-111">Während eines Pool Failovers, in dem sich die Pools befinden, die den zentralen Verwaltungsspeicher hosten, muss der Administrator vor dem Failover des Front-End-Pool einen Failover des zentralen Verwaltungsspeichers ausführen.</span><span class="sxs-lookup"><span data-stu-id="85aeb-111">During a pool failover that involves the pools hosting the Central Management store, the administrator must fail over the Central Management store before failing over the Front End pool.</span></span>
+<span data-ttu-id="5b304-111">Während eines Pool Failovers, in dem sich die Pools befinden, die den zentralen Verwaltungsspeicher hosten, muss der Administrator vor dem Failover des Front-End-Pool einen Failover des zentralen Verwaltungsspeichers ausführen.</span><span class="sxs-lookup"><span data-stu-id="5b304-111">During a pool failover that involves the pools hosting the Central Management store, the administrator must fail over the Central Management store before failing over the Front End pool.</span></span>
 
-<span data-ttu-id="85aeb-112">Nachdem der Notfall repariert wurde, ist es nicht erforderlich, den zentralen Verwaltungsspeicher zurück zu schlagen.</span><span class="sxs-lookup"><span data-stu-id="85aeb-112">After the disaster is repaired, it is not necessary to fail back the Central Management store.</span></span> <span data-ttu-id="85aeb-113">Nach der Reparatur kann der zentrale Verwaltungsspeicher im ursprünglichen Sicherungspool als aktiver Master-Manager beibehalten werden.</span><span class="sxs-lookup"><span data-stu-id="85aeb-113">After repair, the Central Management store in the original backup pool can remain as the active master.</span></span>
+<span data-ttu-id="5b304-112">Nachdem der Notfall repariert wurde, ist es nicht erforderlich, den zentralen Verwaltungsspeicher zurück zu schlagen.</span><span class="sxs-lookup"><span data-stu-id="5b304-112">After the disaster is repaired, it is not necessary to fail back the Central Management store.</span></span> <span data-ttu-id="5b304-113">Nach der Reparatur kann der zentrale Verwaltungsspeicher im ursprünglichen Sicherungspool als aktiver Master-Manager beibehalten werden.</span><span class="sxs-lookup"><span data-stu-id="5b304-113">After repair, the Central Management store in the original backup pool can remain as the active master.</span></span>
 
-<span data-ttu-id="85aeb-114">Die Entwicklungsziele für das Failover des zentralen Verwaltungsspeichers sind 5 Minuten für die Wiederherstellungszeit (Recovery Time Objective, RTO) und 5 Minuten für RPO (Recovery Points Objective).</span><span class="sxs-lookup"><span data-stu-id="85aeb-114">The engineering targets for Central Management store failover are 5 minutes for recovery time objective (RTO) and 5 minutes for recovery point objective (RPO).</span></span>
+<span data-ttu-id="5b304-114">Die Entwicklungsziele für das Failover des zentralen Verwaltungsspeichers sind 5 Minuten für die Wiederherstellungszeit (Recovery Time Objective, RTO) und 5 Minuten für RPO (Recovery Points Objective).</span><span class="sxs-lookup"><span data-stu-id="5b304-114">The engineering targets for Central Management store failover are 5 minutes for recovery time objective (RTO) and 5 minutes for recovery point objective (RPO).</span></span>
 
 </div>
 

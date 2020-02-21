@@ -12,20 +12,20 @@ ms:contentKeyID: 51541533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6aae91ec0a37a83944d60c6e3146cb2ab1e162d
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: bce34eb1ad3c2b0b2d0e4b8b09b16e3ea6f398e7
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42138466"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42190928"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="communicate-group-call-pickup-assignments-to-users-in-lync-server-2013"></a><span data-ttu-id="a0f7a-102">Mitteilen von Gruppenanruf-Pickup-Zuweisungen an Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a0f7a-102">Communicate Group Call Pickup assignments to users in Lync Server 2013</span></span>
+# <a name="communicate-group-call-pickup-assignments-to-users-in-lync-server-2013"></a><span data-ttu-id="090fd-102">Mitteilen von Gruppenanruf-Pickup-Zuweisungen an Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="090fd-102">Communicate Group Call Pickup assignments to users in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,9 +35,9 @@ ms.locfileid: "42138466"
 
 <span> </span>
 
-<span data-ttu-id="a0f7a-103">_**Letztes Änderungsstand des Themas:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="a0f7a-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="090fd-103">_**Letztes Änderungsstand des Themas:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="090fd-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="a0f7a-104">Nachdem Sie die gruppenanrufannahme für Benutzer aktiviert haben, verwenden Sie e-Mail-Nachrichten oder einen anderen Mechanismus, um Benutzer über Ihre Gruppennummer für die Anrufannahme zu informieren.</span><span class="sxs-lookup"><span data-stu-id="a0f7a-104">After you enable Group Call Pickup for users, use email or some other mechanism to notify users of their call pickup group number.</span></span> <span data-ttu-id="a0f7a-105">Benachrichtigen Sie die Benutzer über die Nummer der Anrufannahme Gruppe für jede Gruppe, die Sie möglicherweise überwachen möchten.</span><span class="sxs-lookup"><span data-stu-id="a0f7a-105">Notify users of the call pickup group number for any group that they might want to monitor.</span></span> <span data-ttu-id="a0f7a-106">Da Benutzer Anrufe für andere Benutzer abrufen können, auch wenn Sie sich nicht in derselben Gruppe befinden, benötigen Benutzer möglicherweise die Nummer für die Anrufannahme Gruppe für mehrere Gruppen.</span><span class="sxs-lookup"><span data-stu-id="a0f7a-106">Because users can retrieve calls for other users even if they are not in the same group, users might need the call pickup group number for multiple groups.</span></span>
+<span data-ttu-id="090fd-104">Nachdem Sie die gruppenanrufannahme für Benutzer aktiviert haben, verwenden Sie e-Mail-Nachrichten oder einen anderen Mechanismus, um Benutzer über Ihre Gruppennummer für die Anrufannahme zu informieren.</span><span class="sxs-lookup"><span data-stu-id="090fd-104">After you enable Group Call Pickup for users, use email or some other mechanism to notify users of their call pickup group number.</span></span> <span data-ttu-id="090fd-105">Benachrichtigen Sie die Benutzer über die Nummer der Anrufannahme Gruppe für jede Gruppe, die Sie möglicherweise überwachen möchten.</span><span class="sxs-lookup"><span data-stu-id="090fd-105">Notify users of the call pickup group number for any group that they might want to monitor.</span></span> <span data-ttu-id="090fd-106">Da Benutzer Anrufe für andere Benutzer abrufen können, auch wenn Sie sich nicht in derselben Gruppe befinden, benötigen Benutzer möglicherweise die Nummer für die Anrufannahme Gruppe für mehrere Gruppen.</span><span class="sxs-lookup"><span data-stu-id="090fd-106">Because users can retrieve calls for other users even if they are not in the same group, users might need the call pickup group number for multiple groups.</span></span>
 
 </div>
 

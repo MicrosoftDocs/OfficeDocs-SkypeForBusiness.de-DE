@@ -12,20 +12,20 @@ ms:contentKeyID: 48184560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58bf1c04cb24f8fee668cd21f24fc7c9c1c5341d
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: bd22a75b8a3e8e405b8720e4b12899f912232f3f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142191"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42192098"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="tbladminlock-in-lync-server-2013"></a><span data-ttu-id="1a0e7-102">adminlock in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1a0e7-102">tblAdminLock in Lync Server 2013</span></span>
+# <a name="tbladminlock-in-lync-server-2013"></a><span data-ttu-id="d272e-102">adminlock in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d272e-102">tblAdminLock in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42142191"
 
 <span> </span>
 
-<span data-ttu-id="1a0e7-103">_**Letztes Änderungsstand des Themas:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="1a0e7-103">_**Topic Last Modified:** 2012-06-25_</span></span>
+<span data-ttu-id="d272e-103">_**Letztes Änderungsstand des Themas:** 2012-06-25_</span><span class="sxs-lookup"><span data-stu-id="d272e-103">_**Topic Last Modified:** 2012-06-25_</span></span>
 
-<span data-ttu-id="1a0e7-104">Die „tblAdminLock“-Tabelle enthält die Administratorsperre, die zur Ausführung bestimmter Administratorbefehle erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="1a0e7-104">tblAdminLock contains the administrator lock that is needed to run some administrator commands.</span></span>
+<span data-ttu-id="d272e-104">Die „tblAdminLock“-Tabelle enthält die Administratorsperre, die zur Ausführung bestimmter Administratorbefehle erforderlich ist.</span><span class="sxs-lookup"><span data-stu-id="d272e-104">tblAdminLock contains the administrator lock that is needed to run some administrator commands.</span></span>
 
-### <a name="columns"></a><span data-ttu-id="1a0e7-105">Spalten</span><span class="sxs-lookup"><span data-stu-id="1a0e7-105">Columns</span></span>
+### <a name="columns"></a><span data-ttu-id="d272e-105">Spalten</span><span class="sxs-lookup"><span data-stu-id="d272e-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -49,26 +49,26 @@ ms.locfileid: "42142191"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="1a0e7-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="1a0e7-106">Column</span></span></th>
-<th><span data-ttu-id="1a0e7-107">Typ</span><span class="sxs-lookup"><span data-stu-id="1a0e7-107">Type</span></span></th>
-<th><span data-ttu-id="1a0e7-108">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="1a0e7-108">Description</span></span></th>
+<th><span data-ttu-id="d272e-106">Spalte</span><span class="sxs-lookup"><span data-stu-id="d272e-106">Column</span></span></th>
+<th><span data-ttu-id="d272e-107">Typ</span><span class="sxs-lookup"><span data-stu-id="d272e-107">Type</span></span></th>
+<th><span data-ttu-id="d272e-108">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="d272e-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1a0e7-109">lockExpiresTime</span><span class="sxs-lookup"><span data-stu-id="1a0e7-109">lockExpiresTime</span></span></p></td>
-<td><p><span data-ttu-id="1a0e7-110">datetime, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="1a0e7-110">datetime, not null</span></span></p></td>
-<td><p><span data-ttu-id="1a0e7-p101">Ablaufdatum und -zeit der Sperre. Der Besitzer kann diesen Wert in regelmäßigen Abständen verlängern.</span><span class="sxs-lookup"><span data-stu-id="1a0e7-p101">Lock expiration date and time. The owner can extend this value periodically.</span></span></p></td>
+<td><p><span data-ttu-id="d272e-109">lockExpiresTime</span><span class="sxs-lookup"><span data-stu-id="d272e-109">lockExpiresTime</span></span></p></td>
+<td><p><span data-ttu-id="d272e-110">datetime, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="d272e-110">datetime, not null</span></span></p></td>
+<td><p><span data-ttu-id="d272e-p101">Ablaufdatum und -zeit der Sperre. Der Besitzer kann diesen Wert in regelmäßigen Abständen verlängern.</span><span class="sxs-lookup"><span data-stu-id="d272e-p101">Lock expiration date and time. The owner can extend this value periodically.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1a0e7-113">lockServerID</span><span class="sxs-lookup"><span data-stu-id="1a0e7-113">lockServerID</span></span></p></td>
-<td><p><span data-ttu-id="1a0e7-114">int, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="1a0e7-114">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="1a0e7-115">ID des Servers, der die Sperre besitzt.</span><span class="sxs-lookup"><span data-stu-id="1a0e7-115">ID of the server that owns the lock.</span></span></p></td>
+<td><p><span data-ttu-id="d272e-113">lockServerID</span><span class="sxs-lookup"><span data-stu-id="d272e-113">lockServerID</span></span></p></td>
+<td><p><span data-ttu-id="d272e-114">int, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="d272e-114">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="d272e-115">ID des Servers, der die Sperre besitzt.</span><span class="sxs-lookup"><span data-stu-id="d272e-115">ID of the server that owns the lock.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1a0e7-116">lockActorID</span><span class="sxs-lookup"><span data-stu-id="1a0e7-116">lockActorID</span></span></p></td>
-<td><p><span data-ttu-id="1a0e7-117">int, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="1a0e7-117">int, not null</span></span></p></td>
-<td><p><span data-ttu-id="1a0e7-118">ID des Prinzipals, der die Sperre besitzt.</span><span class="sxs-lookup"><span data-stu-id="1a0e7-118">ID of the principal that owns the lock.</span></span></p></td>
+<td><p><span data-ttu-id="d272e-116">lockActorID</span><span class="sxs-lookup"><span data-stu-id="d272e-116">lockActorID</span></span></p></td>
+<td><p><span data-ttu-id="d272e-117">int, nicht NULL</span><span class="sxs-lookup"><span data-stu-id="d272e-117">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="d272e-118">ID des Prinzipals, der die Sperre besitzt.</span><span class="sxs-lookup"><span data-stu-id="d272e-118">ID of the principal that owns the lock.</span></span></p></td>
 </tr>
 </tbody>
 </table>
