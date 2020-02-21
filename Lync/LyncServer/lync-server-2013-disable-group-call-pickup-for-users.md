@@ -12,20 +12,20 @@ ms:contentKeyID: 51541492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3e015fd7fc3be36439fb240e2f3f50ed7bc8ec1
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 777ca1494738707014c2e121b56e8d01e87f4a3b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147508"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42197588"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a><span data-ttu-id="4246b-102">Deaktivieren der gruppenanrufannahme für Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4246b-102">Disable Group Call Pickup for users in Lync Server 2013</span></span>
+# <a name="disable-group-call-pickup-for-users-in-lync-server-2013"></a><span data-ttu-id="24c37-102">Deaktivieren der gruppenanrufannahme für Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="24c37-102">Disable Group Call Pickup for users in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42147508"
 
 <span> </span>
 
-<span data-ttu-id="4246b-103">_**Letztes Änderungsstand des Themas:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="4246b-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+<span data-ttu-id="24c37-103">_**Letztes Änderungsstand des Themas:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="24c37-103">_**Topic Last Modified:** 2013-01-30_</span></span>
 
-<span data-ttu-id="4246b-104">Verwenden Sie das folgende Verfahren, um die gruppenanrufannahme für einen Benutzer zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="4246b-104">Use the following procedure to disable Group Call Pickup for a user.</span></span>
+<span data-ttu-id="24c37-104">Verwenden Sie das folgende Verfahren, um die gruppenanrufannahme für einen Benutzer zu deaktivieren.</span><span class="sxs-lookup"><span data-stu-id="24c37-104">Use the following procedure to disable Group Call Pickup for a user.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="4246b-105">Wenn Sie die gruppenanrufannahme für einen Benutzer deaktivieren, wird die Nummer der Anrufannahme Gruppe, die dem Benutzer zugewiesen wurde, nicht beibehalten.</span><span class="sxs-lookup"><span data-stu-id="4246b-105">When you disable Group Call Pickup for a user, the call pickup group number that was assigned to the user is not retained.</span></span> <span data-ttu-id="4246b-106">Wenn Sie anschließend die gruppenanrufannahme für diesen Benutzer erneut aktivieren möchten, müssen Sie die Nummer für die Anrufannahme Gruppe mit dem Parameter/enablegrouppickup erneut zuweisen.</span><span class="sxs-lookup"><span data-stu-id="4246b-106">If you subsequently want to re-enable Group Call Pickup for that user, you must assign the call pickup group number again with the /enablegrouppickup parameter.</span></span>
+> <span data-ttu-id="24c37-105">Wenn Sie die gruppenanrufannahme für einen Benutzer deaktivieren, wird die Nummer der Anrufannahme Gruppe, die dem Benutzer zugewiesen wurde, nicht beibehalten.</span><span class="sxs-lookup"><span data-stu-id="24c37-105">When you disable Group Call Pickup for a user, the call pickup group number that was assigned to the user is not retained.</span></span> <span data-ttu-id="24c37-106">Wenn Sie anschließend die gruppenanrufannahme für diesen Benutzer erneut aktivieren möchten, müssen Sie die Nummer für die Anrufannahme Gruppe mit dem Parameter/enablegrouppickup erneut zuweisen.</span><span class="sxs-lookup"><span data-stu-id="24c37-106">If you subsequently want to re-enable Group Call Pickup for that user, you must assign the call pickup group number again with the /enablegrouppickup parameter.</span></span>
 
 
 
@@ -51,15 +51,15 @@ ms.locfileid: "42147508"
 
 <div>
 
-## <a name="to-disable-group-call-pickup-for-a-user"></a><span data-ttu-id="4246b-107">So deaktivieren Sie die gruppenanrufannahme für einen Benutzer</span><span class="sxs-lookup"><span data-stu-id="4246b-107">To disable Group Call Pickup for a user</span></span>
+## <a name="to-disable-group-call-pickup-for-a-user"></a><span data-ttu-id="24c37-107">So deaktivieren Sie die gruppenanrufannahme für einen Benutzer</span><span class="sxs-lookup"><span data-stu-id="24c37-107">To disable Group Call Pickup for a user</span></span>
 
-1.  <span data-ttu-id="4246b-108">Melden Sie sich an dem Computer an, auf dem Sie das SEFAUtil-Tool mit Administratorrechten installiert haben.</span><span class="sxs-lookup"><span data-stu-id="4246b-108">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
+1.  <span data-ttu-id="24c37-108">Melden Sie sich an dem Computer an, auf dem Sie das SEFAUtil-Tool mit Administratorrechten installiert haben.</span><span class="sxs-lookup"><span data-stu-id="24c37-108">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
 
-2.  <span data-ttu-id="4246b-109">Führen Sie an der Eingabeaufforderung Folgendes aus:</span><span class="sxs-lookup"><span data-stu-id="4246b-109">At the command line, run:</span></span>
+2.  <span data-ttu-id="24c37-109">Führen Sie an der Eingabeaufforderung Folgendes aus:</span><span class="sxs-lookup"><span data-stu-id="24c37-109">At the command line, run:</span></span>
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /disablegrouppickup
     
-    <span data-ttu-id="4246b-110">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="4246b-110">For example:</span></span>
+    <span data-ttu-id="24c37-110">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="24c37-110">For example:</span></span>
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /disablegrouppickup
 
@@ -67,11 +67,11 @@ ms.locfileid: "42147508"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="4246b-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="4246b-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="24c37-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="24c37-111">See Also</span></span>
 
 
-[<span data-ttu-id="4246b-112">Zuweisen von Gruppenanruf-Abhol Nummern zu Benutzern in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4246b-112">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
-[<span data-ttu-id="4246b-113">Aktivieren der gruppenanrufannahme für Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4246b-113">Enable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[<span data-ttu-id="24c37-112">Zuweisen von Gruppenanruf-Abhol Nummern zu Benutzern in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="24c37-112">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)  
+[<span data-ttu-id="24c37-113">Aktivieren der gruppenanrufannahme für Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="24c37-113">Enable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-enable-group-call-pickup-for-users.md)  
   
 
 </div>

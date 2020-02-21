@@ -12,20 +12,20 @@ ms:contentKeyID: 48185574
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50b2cc9facfc93868abeb85ca02e8cb17a6803a9
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: ad1967bea18e0a03ac3a34bf187c1248ec5a1ab2
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42151435"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42197797"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-for-push-notifications-in-lync-server-2013"></a><span data-ttu-id="2e251-102">Konfigurieren von Push-Benachrichtigungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2e251-102">Configuring for push notifications in Lync Server 2013</span></span>
+# <a name="configuring-for-push-notifications-in-lync-server-2013"></a><span data-ttu-id="77bdd-102">Konfigurieren von Push-Benachrichtigungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="77bdd-102">Configuring for push notifications in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,52 +35,52 @@ ms.locfileid: "42151435"
 
 <span> </span>
 
-<span data-ttu-id="2e251-103">_**Letztes Änderungsstand des Themas:** 2013-02-12_</span><span class="sxs-lookup"><span data-stu-id="2e251-103">_**Topic Last Modified:** 2013-02-12_</span></span>
+<span data-ttu-id="77bdd-103">_**Letztes Änderungsstand des Themas:** 2013-02-12_</span><span class="sxs-lookup"><span data-stu-id="77bdd-103">_**Topic Last Modified:** 2013-02-12_</span></span>
 
-<span data-ttu-id="2e251-104">Pushbenachrichtigungen in Form von Signalen, Symbolen oder Warnungen können an ein mobiles Gerät gesendet werden, auch wenn die mobile Anwendung inaktiv ist.</span><span class="sxs-lookup"><span data-stu-id="2e251-104">Push notifications, in the form of badges, icons, or alerts, can be sent to a mobile device even when the mobile application is inactive.</span></span> <span data-ttu-id="2e251-105">Mit Pushbenachrichtigungen werden Benutzer über Ereignisse informiert, beispielsweise neue oder entgangene Chateinladungen oder Voicemail.</span><span class="sxs-lookup"><span data-stu-id="2e251-105">Push notifications notify a user of events such as a new or missed IM invitation and voice mail.</span></span> <span data-ttu-id="2e251-106">Der lync Server 2013 Mobilitätsdienst sendet die Benachrichtigungen an den cloudbasierten lync Server Push-Benachrichtigungsdienst, der dann die Benachrichtigungen an den Apple Push Notification Service (APNS) (für ein Apple-Gerät, das den lync 2010 Mobile Client ausführt) oder den Microsoft Push Notification Service (MPNS) (für ein Windows Phone Gerät, auf dem die lync 2010 Mobile oder der lync 2013 Mobile Client) läuft.</span><span class="sxs-lookup"><span data-stu-id="2e251-106">The Lync Server 2013 Mobility Service sends the notifications to the cloud-based Lync Server Push Notification Service, which then sends the notifications to the Apple Push Notification Service (APNS) (for an Apple device running the Lync 2010 Mobile client) or the Microsoft Push Notification Service (MPNS) (for a Windows Phone device running the Lync 2010 Mobile or the Lync 2013 Mobile client).</span></span>
+<span data-ttu-id="77bdd-104">Pushbenachrichtigungen in Form von Signalen, Symbolen oder Warnungen können an ein mobiles Gerät gesendet werden, auch wenn die mobile Anwendung inaktiv ist.</span><span class="sxs-lookup"><span data-stu-id="77bdd-104">Push notifications, in the form of badges, icons, or alerts, can be sent to a mobile device even when the mobile application is inactive.</span></span> <span data-ttu-id="77bdd-105">Mit Pushbenachrichtigungen werden Benutzer über Ereignisse informiert, beispielsweise neue oder entgangene Chateinladungen oder Voicemail.</span><span class="sxs-lookup"><span data-stu-id="77bdd-105">Push notifications notify a user of events such as a new or missed IM invitation and voice mail.</span></span> <span data-ttu-id="77bdd-106">Der lync Server 2013 Mobilitätsdienst sendet die Benachrichtigungen an den cloudbasierten lync Server Push-Benachrichtigungsdienst, der dann die Benachrichtigungen an den Apple Push Notification Service (APNS) (für ein Apple-Gerät, das den lync 2010 Mobile Client ausführt) oder den Microsoft Push Notification Service (MPNS) (für ein Windows Phone Gerät, auf dem die lync 2010 Mobile oder der lync 2013 Mobile Client) läuft.</span><span class="sxs-lookup"><span data-stu-id="77bdd-106">The Lync Server 2013 Mobility Service sends the notifications to the cloud-based Lync Server Push Notification Service, which then sends the notifications to the Apple Push Notification Service (APNS) (for an Apple device running the Lync 2010 Mobile client) or the Microsoft Push Notification Service (MPNS) (for a Windows Phone device running the Lync 2010 Mobile or the Lync 2013 Mobile client).</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="2e251-107">Wenn Sie Windows Phone mit lync 2010 Mobile oder lync 2013 mobilen Clients verwenden, ist die Push-Benachrichtigung eine wichtige Überlegung.</span><span class="sxs-lookup"><span data-stu-id="2e251-107">If you use Windows Phone with Lync 2010 Mobile or Lync 2013 Mobile client, push notification is an important consideration.</span></span><BR><span data-ttu-id="2e251-108">Wenn Sie lync 2010 Mobile auf Apple-Geräten verwenden, ist die Push-Benachrichtigung eine wichtige Überlegung.</span><span class="sxs-lookup"><span data-stu-id="2e251-108">If you use Lync 2010 Mobile on Apple devices, push notification is an important consideration.</span></span><BR><span data-ttu-id="2e251-109">Wenn Sie lync 2013 Mobile auf Apple-Geräten verwenden, benötigen Sie keine Push-Benachrichtigungen mehr.</span><span class="sxs-lookup"><span data-stu-id="2e251-109">If you use Lync 2013 Mobile on Apple devices, you no longer need push notification.</span></span>
+> <span data-ttu-id="77bdd-107">Wenn Sie Windows Phone mit lync 2010 Mobile oder lync 2013 mobilen Clients verwenden, ist die Push-Benachrichtigung eine wichtige Überlegung.</span><span class="sxs-lookup"><span data-stu-id="77bdd-107">If you use Windows Phone with Lync 2010 Mobile or Lync 2013 Mobile client, push notification is an important consideration.</span></span><BR><span data-ttu-id="77bdd-108">Wenn Sie lync 2010 Mobile auf Apple-Geräten verwenden, ist die Push-Benachrichtigung eine wichtige Überlegung.</span><span class="sxs-lookup"><span data-stu-id="77bdd-108">If you use Lync 2010 Mobile on Apple devices, push notification is an important consideration.</span></span><BR><span data-ttu-id="77bdd-109">Wenn Sie lync 2013 Mobile auf Apple-Geräten verwenden, benötigen Sie keine Push-Benachrichtigungen mehr.</span><span class="sxs-lookup"><span data-stu-id="77bdd-109">If you use Lync 2013 Mobile on Apple devices, you no longer need push notification.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="2e251-110">Gehen Sie wie folgt vor, um die Topologie zur Unterstützung von Pushbenachrichtigungen zu konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="2e251-110">Configure your topology to support push notifications by doing the following:</span></span>
+<span data-ttu-id="77bdd-110">Gehen Sie wie folgt vor, um die Topologie zur Unterstützung von Pushbenachrichtigungen zu konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="77bdd-110">Configure your topology to support push notifications by doing the following:</span></span>
 
-  - <span data-ttu-id="2e251-111">Wenn Ihre Umgebung über eine lync Server 2010 oder lync Server 2013 Edgeserver verfügt, müssen Sie einen neuen Hostinganbieter, Microsoft lync Online, hinzufügen und dann den Anbieter Verbund für den Hostinganbieter zwischen Ihrer Organisation und lync Online einrichten.</span><span class="sxs-lookup"><span data-stu-id="2e251-111">If your environment has a Lync Server 2010 or Lync Server 2013 Edge Server, you need to add a new hosting provider, Microsoft Lync Online, and then set up hosting provider federation between your organization and Lync Online.</span></span>
+  - <span data-ttu-id="77bdd-111">Wenn Ihre Umgebung über eine lync Server 2010 oder lync Server 2013 Edgeserver verfügt, müssen Sie einen neuen Hostinganbieter, Microsoft lync Online, hinzufügen und dann den Anbieter Verbund für den Hostinganbieter zwischen Ihrer Organisation und lync Online einrichten.</span><span class="sxs-lookup"><span data-stu-id="77bdd-111">If your environment has a Lync Server 2010 or Lync Server 2013 Edge Server, you need to add a new hosting provider, Microsoft Lync Online, and then set up hosting provider federation between your organization and Lync Online.</span></span>
 
-  - <span data-ttu-id="2e251-112">Wenn Ihre Umgebung über eine Office Communications Server 2007 R2 Edgeserver verfügt, müssen Sie den direkten SIP-Partnerverbund mit Push.lync.com einrichten.</span><span class="sxs-lookup"><span data-stu-id="2e251-112">If your environment has a Office Communications Server 2007 R2 Edge Server, you need to set up direct SIP federation with push.lync.com.</span></span>
+  - <span data-ttu-id="77bdd-112">Wenn Ihre Umgebung über eine Office Communications Server 2007 R2 Edgeserver verfügt, müssen Sie den direkten SIP-Partnerverbund mit Push.lync.com einrichten.</span><span class="sxs-lookup"><span data-stu-id="77bdd-112">If your environment has a Office Communications Server 2007 R2 Edge Server, you need to set up direct SIP federation with push.lync.com.</span></span>
     
     <div>
     
 
     > [!NOTE]  
-    > <span data-ttu-id="2e251-113">Push.lync.com ist eine Microsoft Office 365-Domäne für den Pushbenachrichtigungsdienst.</span><span class="sxs-lookup"><span data-stu-id="2e251-113">Push.lync.com is a Microsoft Office 365 domain for Push Notification Service.</span></span>
+    > <span data-ttu-id="77bdd-113">Push.lync.com ist eine Microsoft Office 365-Domäne für den Pushbenachrichtigungsdienst.</span><span class="sxs-lookup"><span data-stu-id="77bdd-113">Push.lync.com is a Microsoft Office 365 domain for Push Notification Service.</span></span>
 
     
     </div>
 
-  - <span data-ttu-id="2e251-114">Zur Aktivierung von Pushbenachrichtigungen müssen Sie das **Set-CsPushNotificationConfiguration**-Cmdlet ausführen.</span><span class="sxs-lookup"><span data-stu-id="2e251-114">To enable push notifications, you need to run the **Set-CsPushNotificationConfiguration** cmdlet.</span></span> <span data-ttu-id="2e251-115">Pushbenachrichtigungen sind standardmäßig deaktiviert.</span><span class="sxs-lookup"><span data-stu-id="2e251-115">By default, push notifications are turned off.</span></span>
+  - <span data-ttu-id="77bdd-114">Zur Aktivierung von Pushbenachrichtigungen müssen Sie das **Set-CsPushNotificationConfiguration**-Cmdlet ausführen.</span><span class="sxs-lookup"><span data-stu-id="77bdd-114">To enable push notifications, you need to run the **Set-CsPushNotificationConfiguration** cmdlet.</span></span> <span data-ttu-id="77bdd-115">Pushbenachrichtigungen sind standardmäßig deaktiviert.</span><span class="sxs-lookup"><span data-stu-id="77bdd-115">By default, push notifications are turned off.</span></span>
 
-  - <span data-ttu-id="2e251-116">Testen Sie die Partnerverbundkonfiguration und die Pushbenachrichtigungen.</span><span class="sxs-lookup"><span data-stu-id="2e251-116">Test the federation configuration and push notifications.</span></span>
+  - <span data-ttu-id="77bdd-116">Testen Sie die Partnerverbundkonfiguration und die Pushbenachrichtigungen.</span><span class="sxs-lookup"><span data-stu-id="77bdd-116">Test the federation configuration and push notifications.</span></span>
 
 <div>
 
-## <a name="to-configure-for-push-notifications-with-lync-server-2013-or-lync-server-2010edge-server"></a><span data-ttu-id="2e251-117">So konfigurieren Sie Push-Benachrichtigungen mit lync Server 2013 oder lync Server 2010 Edgeserver</span><span class="sxs-lookup"><span data-stu-id="2e251-117">To configure for push notifications with Lync Server 2013 or Lync Server 2010 Edge Server</span></span>
+## <a name="to-configure-for-push-notifications-with-lync-server-2013-or-lync-server-2010edge-server"></a><span data-ttu-id="77bdd-117">So konfigurieren Sie Push-Benachrichtigungen mit lync Server 2013 oder lync Server 2010 Edgeserver</span><span class="sxs-lookup"><span data-stu-id="77bdd-117">To configure for push notifications with Lync Server 2013 or Lync Server 2010 Edge Server</span></span>
 
-1.  <span data-ttu-id="2e251-118">Melden Sie sich an einem Computer an, auf dem lync Server-Verwaltungsshell und OCSCore als Mitglied der RtcUniversalServerAdmins-Gruppe installiert sind.</span><span class="sxs-lookup"><span data-stu-id="2e251-118">Log on to a computer where Lync Server Management Shell and Ocscore are installed as a member of the RtcUniversalServerAdmins group.</span></span>
+1.  <span data-ttu-id="77bdd-118">Melden Sie sich an einem Computer an, auf dem lync Server-Verwaltungsshell und OCSCore als Mitglied der RtcUniversalServerAdmins-Gruppe installiert sind.</span><span class="sxs-lookup"><span data-stu-id="77bdd-118">Log on to a computer where Lync Server Management Shell and Ocscore are installed as a member of the RtcUniversalServerAdmins group.</span></span>
 
-2.  <span data-ttu-id="2e251-119">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="2e251-119">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="77bdd-119">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="77bdd-119">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="2e251-120">Fügen Sie einen lync Server Online Hosting-Anbieter hinzu.</span><span class="sxs-lookup"><span data-stu-id="2e251-120">Add a Lync Server online hosting provider.</span></span> <span data-ttu-id="2e251-121">Geben Sie in die Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="2e251-121">At the command line, type:</span></span>
+3.  <span data-ttu-id="77bdd-120">Fügen Sie einen lync Server Online Hosting-Anbieter hinzu.</span><span class="sxs-lookup"><span data-stu-id="77bdd-120">Add a Lync Server online hosting provider.</span></span> <span data-ttu-id="77bdd-121">Geben Sie in die Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="77bdd-121">At the command line, type:</span></span>
     
         New-CsHostingProvider -Identity <unique identifier for Lync Online hosting provider> -Enabled $True -ProxyFqdn <FQDN for the Access Server used by the hosting provider> -VerificationLevel UseSourceVerification
     
-    <span data-ttu-id="2e251-122">Zum Beispiel:</span><span class="sxs-lookup"><span data-stu-id="2e251-122">For example:</span></span>
+    <span data-ttu-id="77bdd-122">Zum Beispiel:</span><span class="sxs-lookup"><span data-stu-id="77bdd-122">For example:</span></span>
     
         New-CsHostingProvider -Identity "LyncOnline" -Enabled $True -ProxyFqdn "sipfed.online.lync.com" -VerificationLevel UseSourceVerification
     
@@ -88,12 +88,12 @@ ms.locfileid: "42151435"
     
 
     > [!NOTE]  
-    > <span data-ttu-id="2e251-p104">Es kann nur maximal eine Partnerverbundbeziehung mit einem einzelnen Hostinganbieter bestehen. Wenn Sie also bereits einen Hostinganbieter eingerichtet haben, der eine Partnerverbundbeziehung mit "sipfed.online.lync.com" hat, fügen Sie keinen weiteren Hostinganbieter hinzu, auch wenn die Identität des Hostinganbieters nicht "LyncOnline" ist.</span><span class="sxs-lookup"><span data-stu-id="2e251-p104">You cannot have more than one federation relationship with a single hosting provider. That is, if you have already set up a hosting provider that has a federation relationship with sipfed.online.lync.com, do not add another hosting provider for it, even if the identity of the hosting provider is something other than LyncOnline.</span></span>
+    > <span data-ttu-id="77bdd-p104">Es kann nur maximal eine Partnerverbundbeziehung mit einem einzelnen Hostinganbieter bestehen. Wenn Sie also bereits einen Hostinganbieter eingerichtet haben, der eine Partnerverbundbeziehung mit "sipfed.online.lync.com" hat, fügen Sie keinen weiteren Hostinganbieter hinzu, auch wenn die Identität des Hostinganbieters nicht "LyncOnline" ist.</span><span class="sxs-lookup"><span data-stu-id="77bdd-p104">You cannot have more than one federation relationship with a single hosting provider. That is, if you have already set up a hosting provider that has a federation relationship with sipfed.online.lync.com, do not add another hosting provider for it, even if the identity of the hosting provider is something other than LyncOnline.</span></span>
 
     
     </div>
 
-4.  <span data-ttu-id="2e251-p105">Einrichten eines Hostinganbieter-Partnerverbunds zwischen Ihrer Organisation und dem Pushbenachrichtigungsdienst bei Lync Online. Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="2e251-p105">Set up hosting provider federation between your organization and the Push Notification Service at Lync Online. At the command line, type:</span></span>
+4.  <span data-ttu-id="77bdd-p105">Einrichten eines Hostinganbieter-Partnerverbunds zwischen Ihrer Organisation und dem Pushbenachrichtigungsdienst bei Lync Online. Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="77bdd-p105">Set up hosting provider federation between your organization and the Push Notification Service at Lync Online. At the command line, type:</span></span>
     
         New-CsAllowedDomain -Identity "push.lync.com"
 
@@ -101,39 +101,39 @@ ms.locfileid: "42151435"
 
 <div>
 
-## <a name="to-configure-for-push-notifications-with-office-communications-server-2007-r2edge-server"></a><span data-ttu-id="2e251-127">So konfigurieren Sie für Push-Benachrichtigungen mit Office Communications Server 2007 R2 Edgeserver</span><span class="sxs-lookup"><span data-stu-id="2e251-127">To configure for push notifications with Office Communications Server 2007 R2 Edge Server</span></span>
+## <a name="to-configure-for-push-notifications-with-office-communications-server-2007-r2edge-server"></a><span data-ttu-id="77bdd-127">So konfigurieren Sie für Push-Benachrichtigungen mit Office Communications Server 2007 R2 Edgeserver</span><span class="sxs-lookup"><span data-stu-id="77bdd-127">To configure for push notifications with Office Communications Server 2007 R2 Edge Server</span></span>
 
-1.  <span data-ttu-id="2e251-128">Melden Sie sich beim Edgeserver als Mitglied der RtcUniversalServerAdmins-Gruppe an.</span><span class="sxs-lookup"><span data-stu-id="2e251-128">Log on to the Edge Server as a member of the RtcUniversalServerAdmins group.</span></span>
+1.  <span data-ttu-id="77bdd-128">Melden Sie sich beim Edgeserver als Mitglied der RtcUniversalServerAdmins-Gruppe an.</span><span class="sxs-lookup"><span data-stu-id="77bdd-128">Log on to the Edge Server as a member of the RtcUniversalServerAdmins group.</span></span>
 
-2.  <span data-ttu-id="2e251-129">Klicken Sie nacheinander auf **Start**, **Alle Programme**, **Verwaltung** und **Computerverwaltung**.</span><span class="sxs-lookup"><span data-stu-id="2e251-129">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **Computer Management**.</span></span>
+2.  <span data-ttu-id="77bdd-129">Klicken Sie nacheinander auf **Start**, **Alle Programme**, **Verwaltung** und **Computerverwaltung**.</span><span class="sxs-lookup"><span data-stu-id="77bdd-129">Click **Start**, click **All Programs**, click **Administrative Tools**, and then click **Computer Management**.</span></span>
 
-3.  <span data-ttu-id="2e251-130">Erweitern Sie in der Konsolenstruktur **Dienste und Anwendungen**, klicken Sie mit der rechten Maustaste auf **Microsoft Office Communications Server 2007 R2**, und klicken Sie dann auf **Eigenschaften**.</span><span class="sxs-lookup"><span data-stu-id="2e251-130">In the console tree, expand **Services and Applications**, right-click **Microsoft Office Communications Server 2007 R2**, and then click **Properties**.</span></span>
+3.  <span data-ttu-id="77bdd-130">Erweitern Sie in der Konsolenstruktur **Dienste und Anwendungen**, klicken Sie mit der rechten Maustaste auf **Microsoft Office Communications Server 2007 R2**, und klicken Sie dann auf **Eigenschaften**.</span><span class="sxs-lookup"><span data-stu-id="77bdd-130">In the console tree, expand **Services and Applications**, right-click **Microsoft Office Communications Server 2007 R2**, and then click **Properties**.</span></span>
 
-4.  <span data-ttu-id="2e251-131">Klicken Sie auf der Registerkarte **Zulassen** auf **Hinzufügen**.</span><span class="sxs-lookup"><span data-stu-id="2e251-131">On the **Allow** tab, click **Add**.</span></span>
+4.  <span data-ttu-id="77bdd-131">Klicken Sie auf der Registerkarte **Zulassen** auf **Hinzufügen**.</span><span class="sxs-lookup"><span data-stu-id="77bdd-131">On the **Allow** tab, click **Add**.</span></span>
 
-5.  <span data-ttu-id="2e251-132">Gehen Sie im Dialogfeld **Verbundpartner hinzufügen** wie folgt vor:</span><span class="sxs-lookup"><span data-stu-id="2e251-132">In the **Add Federated Partner** dialog box, do the following:</span></span>
+5.  <span data-ttu-id="77bdd-132">Gehen Sie im Dialogfeld **Verbundpartner hinzufügen** wie folgt vor:</span><span class="sxs-lookup"><span data-stu-id="77bdd-132">In the **Add Federated Partner** dialog box, do the following:</span></span>
     
-      - <span data-ttu-id="2e251-133">Geben Sie im Feld **Domänenname des Verbundpartners** den Namen **push.lync.com** ein.</span><span class="sxs-lookup"><span data-stu-id="2e251-133">In **Federated partner domain name**, type **push.lync.com**.</span></span>
+      - <span data-ttu-id="77bdd-133">Geben Sie im Feld **Domänenname des Verbundpartners** den Namen **push.lync.com** ein.</span><span class="sxs-lookup"><span data-stu-id="77bdd-133">In **Federated partner domain name**, type **push.lync.com**.</span></span>
     
-      - <span data-ttu-id="2e251-134">Geben Sie **sipfed.online.lync.com** im Feld **Zugriffs-Edgeserver des Verbundpartners** ein.</span><span class="sxs-lookup"><span data-stu-id="2e251-134">In **Federated partner Access Edge Server**, type **sipfed.online.lync.com**.</span></span>
+      - <span data-ttu-id="77bdd-134">Geben Sie **sipfed.online.lync.com** im Feld **Zugriffs-Edgeserver des Verbundpartners** ein.</span><span class="sxs-lookup"><span data-stu-id="77bdd-134">In **Federated partner Access Edge Server**, type **sipfed.online.lync.com**.</span></span>
     
-      - <span data-ttu-id="2e251-135">Klicken Sie auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="2e251-135">Click **OK**.</span></span>
+      - <span data-ttu-id="77bdd-135">Klicken Sie auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="77bdd-135">Click **OK**.</span></span>
 
 </div>
 
 <div>
 
-## <a name="to-enable-push-notifications"></a><span data-ttu-id="2e251-136">So aktivieren Sie Pushbenachrichtigungen</span><span class="sxs-lookup"><span data-stu-id="2e251-136">To enable push notifications</span></span>
+## <a name="to-enable-push-notifications"></a><span data-ttu-id="77bdd-136">So aktivieren Sie Pushbenachrichtigungen</span><span class="sxs-lookup"><span data-stu-id="77bdd-136">To enable push notifications</span></span>
 
-1.  <span data-ttu-id="2e251-137">Melden Sie sich an einem Computer an, auf dem lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.</span><span class="sxs-lookup"><span data-stu-id="2e251-137">Log on to a computer where Lync Server Management Shell and Ocscore are installed as a member of the CsAdministrator role.</span></span>
+1.  <span data-ttu-id="77bdd-137">Melden Sie sich an einem Computer an, auf dem lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.</span><span class="sxs-lookup"><span data-stu-id="77bdd-137">Log on to a computer where Lync Server Management Shell and Ocscore are installed as a member of the CsAdministrator role.</span></span>
 
-2.  <span data-ttu-id="2e251-138">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="2e251-138">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="77bdd-138">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="77bdd-138">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="2e251-p106">Aktivieren Sie Pushbenachrichtigungen. Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="2e251-p106">Enable push notifications. At the command line, type:</span></span>
+3.  <span data-ttu-id="77bdd-p106">Aktivieren Sie Pushbenachrichtigungen. Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="77bdd-p106">Enable push notifications. At the command line, type:</span></span>
     
         Set-CsPushNotificationConfiguration -EnableApplePushNotificationService $True -EnableMicrosoftPushNotificationService $True
 
-4.  <span data-ttu-id="2e251-p107">Aktivieren Sie den Partnerverbund. Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="2e251-p107">Enable federation. At the command line, type:</span></span>
+4.  <span data-ttu-id="77bdd-p107">Aktivieren Sie den Partnerverbund. Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="77bdd-p107">Enable federation. At the command line, type:</span></span>
     
         Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 
@@ -141,25 +141,25 @@ ms.locfileid: "42151435"
 
 <div>
 
-## <a name="to-test-federation-and-push-notifications"></a><span data-ttu-id="2e251-143">So testen Sie den Partnerverbund und die Pushbenachrichtigungen</span><span class="sxs-lookup"><span data-stu-id="2e251-143">To test federation and push notifications</span></span>
+## <a name="to-test-federation-and-push-notifications"></a><span data-ttu-id="77bdd-143">So testen Sie den Partnerverbund und die Pushbenachrichtigungen</span><span class="sxs-lookup"><span data-stu-id="77bdd-143">To test federation and push notifications</span></span>
 
-1.  <span data-ttu-id="2e251-144">Melden Sie sich an einem Computer an, auf dem lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.</span><span class="sxs-lookup"><span data-stu-id="2e251-144">Log on to a computer where Lync Server Management Shell and Ocscore are installed as a member of the CsAdministrator role.</span></span>
+1.  <span data-ttu-id="77bdd-144">Melden Sie sich an einem Computer an, auf dem lync Server-Verwaltungsshell und OCSCore als Mitglied der CsAdministrator-Rolle installiert sind.</span><span class="sxs-lookup"><span data-stu-id="77bdd-144">Log on to a computer where Lync Server Management Shell and Ocscore are installed as a member of the CsAdministrator role.</span></span>
 
-2.  <span data-ttu-id="2e251-145">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="2e251-145">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+2.  <span data-ttu-id="77bdd-145">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="77bdd-145">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  <span data-ttu-id="2e251-p108">Testen Sie die Partnerverbundkonfiguration. Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="2e251-p108">Test the federation configuration. At the command line, type:</span></span>
+3.  <span data-ttu-id="77bdd-p108">Testen Sie die Partnerverbundkonfiguration. Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="77bdd-p108">Test the federation configuration. At the command line, type:</span></span>
     
         Test-CsFederatedPartner -TargetFqdn <FQDN of Access Edge server used for federated SIP traffic> -Domain <FQDN of federated domain> -ProxyFqdn <FQDN of the Access Edge server used by the federated organization>
     
-    <span data-ttu-id="2e251-148">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="2e251-148">For example:</span></span>
+    <span data-ttu-id="77bdd-148">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="77bdd-148">For example:</span></span>
     
         Test-CsFederatedPartner -TargetFqdn accessproxy.contoso.com -Domain push.lync.com -ProxyFqdn sipfed.online.lync.com
 
-4.  <span data-ttu-id="2e251-p109">Testen Sie die Pushbenachrichtigungen. Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="2e251-p109">Test push notifications. At the command line, type:</span></span>
+4.  <span data-ttu-id="77bdd-p109">Testen Sie die Pushbenachrichtigungen. Geben Sie an der Befehlszeile Folgendes ein:</span><span class="sxs-lookup"><span data-stu-id="77bdd-p109">Test push notifications. At the command line, type:</span></span>
     
         Test-CsMcxPushNotification -AccessEdgeFqdn <Access Edge service FQDN>
     
-    <span data-ttu-id="2e251-151">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="2e251-151">For example:</span></span>
+    <span data-ttu-id="77bdd-151">Beispiel:</span><span class="sxs-lookup"><span data-stu-id="77bdd-151">For example:</span></span>
     
         Test-CsMcxPushNotification -AccessEdgeFqdn accessproxy.contoso.com
 
@@ -167,11 +167,11 @@ ms.locfileid: "42151435"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="2e251-152">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="2e251-152">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="77bdd-152">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="77bdd-152">See Also</span></span>
 
 
-[<span data-ttu-id="2e251-153">Test-CsFederatedPartner</span><span class="sxs-lookup"><span data-stu-id="2e251-153">Test-CsFederatedPartner</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner)  
-[<span data-ttu-id="2e251-154">Test-CsMcxPushNotification</span><span class="sxs-lookup"><span data-stu-id="2e251-154">Test-CsMcxPushNotification</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxPushNotification)  
+[<span data-ttu-id="77bdd-153">Test-CsFederatedPartner</span><span class="sxs-lookup"><span data-stu-id="77bdd-153">Test-CsFederatedPartner</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner)  
+[<span data-ttu-id="77bdd-154">Test-CsMcxPushNotification</span><span class="sxs-lookup"><span data-stu-id="77bdd-154">Test-CsMcxPushNotification</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsMcxPushNotification)  
   
 
 </div>

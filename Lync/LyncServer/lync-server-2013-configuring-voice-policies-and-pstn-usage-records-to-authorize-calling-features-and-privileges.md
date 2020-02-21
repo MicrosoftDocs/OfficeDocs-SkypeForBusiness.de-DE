@@ -12,20 +12,20 @@ ms:contentKeyID: 48184307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6326bdbfb442a87e2b6d1a8e021d131d0dc73a62
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 48f419f55c062b6ffaab592dd5346194eaafe5af
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42154117"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42195558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges-in-lync-server-2013"></a><span data-ttu-id="20f71-102">Konfigurieren von VoIP-Richtlinien und PSTN-Verwendungsdatensätzen zum Autorisieren von Anruffunktionen und-Berechtigungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="20f71-102">Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013</span></span>
+# <a name="configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges-in-lync-server-2013"></a><span data-ttu-id="a48b6-102">Konfigurieren von VoIP-Richtlinien und PSTN-Verwendungsdatensätzen zum Autorisieren von Anruffunktionen und-Berechtigungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a48b6-102">Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42154117"
 
 <span> </span>
 
-<span data-ttu-id="20f71-103">_**Letztes Änderungsstand des Themas:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="20f71-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="a48b6-103">_**Letztes Änderungsstand des Themas:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="a48b6-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="20f71-104">Eine *VoIP-Richtlinie* aktiviert einen Satz von Anruffunktionen und ordnet ein oder mehrere PSTN-Verwendungsdatensätze zu, um die Anruffunktionen und Berechtigungen von Benutzern zu definieren, denen die Richtlinie zugewiesen wird.</span><span class="sxs-lookup"><span data-stu-id="20f71-104">A *voice policy* enables a set of calling features and associates one or more PSTN usage records to define the calling features and permissions of users who are assigned the policy.</span></span>
+<span data-ttu-id="a48b6-104">Eine *VoIP-Richtlinie* aktiviert einen Satz von Anruffunktionen und ordnet ein oder mehrere PSTN-Verwendungsdatensätze zu, um die Anruffunktionen und Berechtigungen von Benutzern zu definieren, denen die Richtlinie zugewiesen wird.</span><span class="sxs-lookup"><span data-stu-id="a48b6-104">A *voice policy* enables a set of calling features and associates one or more PSTN usage records to define the calling features and permissions of users who are assigned the policy.</span></span>
 
-<span data-ttu-id="20f71-p101">VoIP-Richtlinien können entweder für einen *Standort* (zur Definition der Standardfunktionen und -berechtigungen für einen Netzwerkstandort) oder für *Benutzer* (zur Definition der Funktionen und Berechtigungen für Benutzer oder Gruppen) festgelegt werden. Benutzer, die keiner VoIP-Richtlinie zugewiesen sind, werden automatisch der globalen Richtlinie zugewiesen, also der mit dem Produkt installierten Standard-VoIP-Richtlinie.</span><span class="sxs-lookup"><span data-stu-id="20f71-p101">Voice policy scope can be either *Site* (which defines the default features and permissions for a network site) or *User* (which defines the features and permissions to be assigned on a per-user or group basis). Users not assigned to a voice policy will automatically be assigned to the global policy, which is the default voice policy that is installed with the product.</span></span>
+<span data-ttu-id="a48b6-p101">VoIP-Richtlinien können entweder für einen *Standort* (zur Definition der Standardfunktionen und -berechtigungen für einen Netzwerkstandort) oder für *Benutzer* (zur Definition der Funktionen und Berechtigungen für Benutzer oder Gruppen) festgelegt werden. Benutzer, die keiner VoIP-Richtlinie zugewiesen sind, werden automatisch der globalen Richtlinie zugewiesen, also der mit dem Produkt installierten Standard-VoIP-Richtlinie.</span><span class="sxs-lookup"><span data-stu-id="a48b6-p101">Voice policy scope can be either *Site* (which defines the default features and permissions for a network site) or *User* (which defines the features and permissions to be assigned on a per-user or group basis). Users not assigned to a voice policy will automatically be assigned to the global policy, which is the default voice policy that is installed with the product.</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="20f71-107">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-voice-policies.md">VoIP-Richtlinien in lync Server 2013</A> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="20f71-107">For details, see <A href="lync-server-2013-voice-policies.md">Voice policies in Lync Server 2013</A> in the Planning documentation.</span></span>
+> <span data-ttu-id="a48b6-107">Ausführliche Informationen finden Sie unter <A href="lync-server-2013-voice-policies.md">VoIP-Richtlinien in lync Server 2013</A> in der Planungsdokumentation.</span><span class="sxs-lookup"><span data-stu-id="a48b6-107">For details, see <A href="lync-server-2013-voice-policies.md">Voice policies in Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
@@ -53,13 +53,13 @@ ms.locfileid: "42154117"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="20f71-108">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="20f71-108">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="a48b6-108">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="a48b6-108">In This Section</span></span>
 
-  - [<span data-ttu-id="20f71-109">Erstellen einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="20f71-109">Create a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)
+  - [<span data-ttu-id="a48b6-109">Erstellen einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a48b6-109">Create a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-create-a-voice-policy-and-configure-pstn-usage-records.md)
 
-  - [<span data-ttu-id="20f71-110">Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="20f71-110">Modify a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)
+  - [<span data-ttu-id="a48b6-110">Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a48b6-110">Modify a voice policy and configure PSTN usage records in Lync Server 2013</span></span>](lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records.md)
 
-  - [<span data-ttu-id="20f71-111">Konfigurieren von Voicemail-Escapes in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="20f71-111">Configuring voice mail escape in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-mail-escape.md)
+  - [<span data-ttu-id="a48b6-111">Konfigurieren von Voicemail-Escapes in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a48b6-111">Configuring voice mail escape in Lync Server 2013</span></span>](lync-server-2013-configuring-voice-mail-escape.md)
 
 </div>
 
