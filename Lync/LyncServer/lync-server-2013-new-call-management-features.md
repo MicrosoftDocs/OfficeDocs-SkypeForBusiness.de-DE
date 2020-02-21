@@ -12,20 +12,20 @@ ms:contentKeyID: 48184880
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dc1160f01eedc9d3215bc1e9e2619209d7486a8
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 87fa18755a4ee3d6ee963346ae26adadb459946a
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42127148"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42217057"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-call-management-features-in-lync-server-2013"></a><span data-ttu-id="f6000-102">Neue Funktionen für die Anrufverwaltung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6000-102">New call management features in Lync Server 2013</span></span>
+# <a name="new-call-management-features-in-lync-server-2013"></a><span data-ttu-id="7e59c-102">Neue Funktionen für die Anrufverwaltung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7e59c-102">New call management features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,22 +35,22 @@ ms.locfileid: "42127148"
 
 <span> </span>
 
-<span data-ttu-id="f6000-103">_**Letztes Änderungsstand des Themas:** 2012-12-18_</span><span class="sxs-lookup"><span data-stu-id="f6000-103">_**Topic Last Modified:** 2012-12-18_</span></span>
+<span data-ttu-id="7e59c-103">_**Letztes Änderungsstand des Themas:** 2012-12-18_</span><span class="sxs-lookup"><span data-stu-id="7e59c-103">_**Topic Last Modified:** 2012-12-18_</span></span>
 
-<span data-ttu-id="f6000-104">In den folgenden Abschnitten werden die Änderungen der anrufverwaltungsfunktionen in lync Server 2013 beschrieben.</span><span class="sxs-lookup"><span data-stu-id="f6000-104">The following sections describe the changes in call management features in Lync Server 2013.</span></span>
+<span data-ttu-id="7e59c-104">In den folgenden Abschnitten werden die Änderungen der anrufverwaltungsfunktionen in lync Server 2013 beschrieben.</span><span class="sxs-lookup"><span data-stu-id="7e59c-104">The following sections describe the changes in call management features in Lync Server 2013.</span></span>
 
-  - [<span data-ttu-id="f6000-105">Neue Reaktionsgruppenanwendung Features in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6000-105">New Response Group application features in Lync Server 2013</span></span>](lync-server-2013-new-response-group-application-features.md)
+  - [<span data-ttu-id="7e59c-105">Neue Reaktionsgruppenanwendung Features in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7e59c-105">New Response Group application features in Lync Server 2013</span></span>](lync-server-2013-new-response-group-application-features.md)
 
-  - [<span data-ttu-id="f6000-106">Neue Anwendung zum Parken von Anrufen Features in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6000-106">New Call Park application features in Lync Server 2013</span></span>](lync-server-2013-new-call-park-application-features.md)
+  - [<span data-ttu-id="7e59c-106">Neue Anwendung zum Parken von Anrufen Features in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7e59c-106">New Call Park application features in Lync Server 2013</span></span>](lync-server-2013-new-call-park-application-features.md)
 
-  - [<span data-ttu-id="f6000-107">Neue Funktion für die gruppenanrufannahme in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6000-107">New Group Call Pickup feature in Lync Server 2013</span></span>](lync-server-2013-new-group-call-pickup-feature.md)
+  - [<span data-ttu-id="7e59c-107">Neue Funktion für die gruppenanrufannahme in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7e59c-107">New Group Call Pickup feature in Lync Server 2013</span></span>](lync-server-2013-new-group-call-pickup-feature.md)
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="f6000-108">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="f6000-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7e59c-108">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="7e59c-108">See Also</span></span>
 
 
-[<span data-ttu-id="f6000-109">Neue Enterprise-VoIP-Funktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6000-109">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
+[<span data-ttu-id="7e59c-109">Neue Enterprise-VoIP-Funktionen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7e59c-109">New Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-new-enterprise-voice-features.md)  
   
 
 </div>

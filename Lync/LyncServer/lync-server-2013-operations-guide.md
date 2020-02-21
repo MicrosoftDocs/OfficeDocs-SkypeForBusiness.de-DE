@@ -12,20 +12,20 @@ ms:contentKeyID: 63969658
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1e6a07b881968f22b9ba36fc217002ea59032d5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: a2a2ee39440ec339fc7bf0757d1882f0be199659
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153465"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42216611"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="operations-guide-for-lync-server-2013"></a><span data-ttu-id="9e20e-102">Betriebsanleitung für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e20e-102">Operations Guide for Lync Server 2013</span></span>
+# <a name="operations-guide-for-lync-server-2013"></a><span data-ttu-id="4709d-102">Betriebsanleitung für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4709d-102">Operations Guide for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,47 +35,47 @@ ms.locfileid: "42153465"
 
 <span> </span>
 
-<span data-ttu-id="9e20e-103">_**Letztes Änderungsstand des Themas:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="9e20e-103">_**Topic Last Modified:** 2014-08-18_</span></span>
+<span data-ttu-id="4709d-103">_**Letztes Änderungsstand des Themas:** 2014-08-18_</span><span class="sxs-lookup"><span data-stu-id="4709d-103">_**Topic Last Modified:** 2014-08-18_</span></span>
 
-<span data-ttu-id="9e20e-104">In diesem Dokument werden die Betriebsprozesse, Aufgaben und Tools beschrieben, die für die Verwaltung einer Microsoft lync Server 2013 Kommunikationssoftware Umgebung erforderlich sind.</span><span class="sxs-lookup"><span data-stu-id="9e20e-104">This document describes the operational processes, tasks, and tools that are required for you to maintain a Microsoft Lync Server 2013 communications software environment.</span></span> <span data-ttu-id="9e20e-105">In diesem Artikel wird erklärt, wie Sie lync Server 2013 entsprechend dem Microsoft Operations Framework (MOF)-Modell verwalten, und Sie unterstützen Sie beim Entwerfen einer effizienten Betriebsverwaltungsumgebung, einschließlich der Implementierung von Zeitplänen, Prozessen und Verfahren zur Verwaltung einer effiziente Arbeitsumgebung.</span><span class="sxs-lookup"><span data-stu-id="9e20e-105">It explains how to manage Lync Server 2013 according to the Microsoft Operations Framework (MOF) model and it will help you design an efficient operational management environment, which includes implementing schedules, processes and procedures to maintain an efficient working environment.</span></span>
+<span data-ttu-id="4709d-104">In diesem Dokument werden die Betriebsprozesse, Aufgaben und Tools beschrieben, die für die Verwaltung einer Microsoft lync Server 2013 Kommunikationssoftware Umgebung erforderlich sind.</span><span class="sxs-lookup"><span data-stu-id="4709d-104">This document describes the operational processes, tasks, and tools that are required for you to maintain a Microsoft Lync Server 2013 communications software environment.</span></span> <span data-ttu-id="4709d-105">In diesem Artikel wird erklärt, wie Sie lync Server 2013 entsprechend dem Microsoft Operations Framework (MOF)-Modell verwalten, und Sie unterstützen Sie beim Entwerfen einer effizienten Betriebsverwaltungsumgebung, einschließlich der Implementierung von Zeitplänen, Prozessen und Verfahren zur Verwaltung einer effiziente Arbeitsumgebung.</span><span class="sxs-lookup"><span data-stu-id="4709d-105">It explains how to manage Lync Server 2013 according to the Microsoft Operations Framework (MOF) model and it will help you design an efficient operational management environment, which includes implementing schedules, processes and procedures to maintain an efficient working environment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="9e20e-106">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="9e20e-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4709d-106">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="4709d-106">In This Section</span></span>
 
-<span data-ttu-id="9e20e-107">Die folgenden Abschnitte sind enthalten:</span><span class="sxs-lookup"><span data-stu-id="9e20e-107">The following sections are included:</span></span>
+<span data-ttu-id="4709d-107">Die folgenden Abschnitte sind enthalten:</span><span class="sxs-lookup"><span data-stu-id="4709d-107">The following sections are included:</span></span>
 
-  - [<span data-ttu-id="9e20e-108">Bewährte Methoden für lync Server 2013 Umgebungen</span><span class="sxs-lookup"><span data-stu-id="9e20e-108">Best practices for Lync Server 2013 environments</span></span>](lync-server-2013-best-practices-for-lync-server-environments.md)
+  - [<span data-ttu-id="4709d-108">Bewährte Methoden für lync Server 2013 Umgebungen</span><span class="sxs-lookup"><span data-stu-id="4709d-108">Best practices for Lync Server 2013 environments</span></span>](lync-server-2013-best-practices-for-lync-server-environments.md)
 
-  - [<span data-ttu-id="9e20e-109">Tägliche Aufgaben in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e20e-109">Daily tasks in Lync Server 2013</span></span>](lync-server-2013-daily-tasks.md)
+  - [<span data-ttu-id="4709d-109">Tägliche Aufgaben in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4709d-109">Daily tasks in Lync Server 2013</span></span>](lync-server-2013-daily-tasks.md)
 
-  - [<span data-ttu-id="9e20e-110">Wöchentliche Aufgaben in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e20e-110">Weekly tasks in Lync Server 2013</span></span>](lync-server-2013-weekly-tasks.md)
+  - [<span data-ttu-id="4709d-110">Wöchentliche Aufgaben in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4709d-110">Weekly tasks in Lync Server 2013</span></span>](lync-server-2013-weekly-tasks.md)
 
-  - [<span data-ttu-id="9e20e-111">Monatliche Aufgaben in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e20e-111">Monthly tasks in Lync Server 2013</span></span>](lync-server-2013-monthly-tasks.md)
+  - [<span data-ttu-id="4709d-111">Monatliche Aufgaben in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4709d-111">Monthly tasks in Lync Server 2013</span></span>](lync-server-2013-monthly-tasks.md)
 
-  - [<span data-ttu-id="9e20e-112">Erforderliche Aufgaben in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e20e-112">As-needed tasks in Lync Server 2013</span></span>](lync-server-2013-as-needed-tasks.md)
+  - [<span data-ttu-id="4709d-112">Erforderliche Aufgaben in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4709d-112">As-needed tasks in Lync Server 2013</span></span>](lync-server-2013-as-needed-tasks.md)
 
-  - [<span data-ttu-id="9e20e-113">Betriebs Prüflisten für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e20e-113">Operations checklists for Lync Server 2013</span></span>](lync-server-2013-operations-checklists.md)
+  - [<span data-ttu-id="4709d-113">Betriebs Prüflisten für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4709d-113">Operations checklists for Lync Server 2013</span></span>](lync-server-2013-operations-checklists.md)
 
-  - [<span data-ttu-id="9e20e-114">Überwachen von lync Server 2013 mit System Center Operations Manager</span><span class="sxs-lookup"><span data-stu-id="9e20e-114">Monitoring Lync Server 2013 with System Center Operations Manager</span></span>](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)
+  - [<span data-ttu-id="4709d-114">Überwachen von lync Server 2013 mit System Center Operations Manager</span><span class="sxs-lookup"><span data-stu-id="4709d-114">Monitoring Lync Server 2013 with System Center Operations Manager</span></span>](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)
 
-  - [<span data-ttu-id="9e20e-115">Betriebs Abhängigkeiten in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e20e-115">Operational dependencies in Lync Server 2013</span></span>](lync-server-2013-operational-dependencies.md)
+  - [<span data-ttu-id="4709d-115">Betriebs Abhängigkeiten in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4709d-115">Operational dependencies in Lync Server 2013</span></span>](lync-server-2013-operational-dependencies.md)
 
-  - [<span data-ttu-id="9e20e-116">Problembehandlung und wichtige Integritätsindikatoren in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e20e-116">Troubleshooting and Key Health Indicators in Lync Server 2013</span></span>](lync-server-2013-troubleshooting-and-key-health-indicators.md)
+  - [<span data-ttu-id="4709d-116">Problembehandlung und wichtige Integritätsindikatoren in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4709d-116">Troubleshooting and Key Health Indicators in Lync Server 2013</span></span>](lync-server-2013-troubleshooting-and-key-health-indicators.md)
 
-<span data-ttu-id="9e20e-117">Es wird davon ausgegangen, dass Ihre Microsoft lync Server 2013-Bereitstellung abgeschlossen ist.</span><span class="sxs-lookup"><span data-stu-id="9e20e-117">It is assumed that your Microsoft Lync Server 2013 deployment is completed.</span></span> <span data-ttu-id="9e20e-118">Wenn dies nicht der Fall ist, lesen Sie den Planungs-und Bereitstellungs Inhalt für Microsoft lync Server 2013, bevor Sie fortfahren.</span><span class="sxs-lookup"><span data-stu-id="9e20e-118">If this is not the case, refer to the planning and deployment content for Microsoft Lync Server 2013 before you continue.</span></span>
+<span data-ttu-id="4709d-117">Es wird davon ausgegangen, dass Ihre Microsoft lync Server 2013-Bereitstellung abgeschlossen ist.</span><span class="sxs-lookup"><span data-stu-id="4709d-117">It is assumed that your Microsoft Lync Server 2013 deployment is completed.</span></span> <span data-ttu-id="4709d-118">Wenn dies nicht der Fall ist, lesen Sie den Planungs-und Bereitstellungs Inhalt für Microsoft lync Server 2013, bevor Sie fortfahren.</span><span class="sxs-lookup"><span data-stu-id="4709d-118">If this is not the case, refer to the planning and deployment content for Microsoft Lync Server 2013 before you continue.</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="9e20e-119">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="9e20e-119">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4709d-119">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="4709d-119">See Also</span></span>
 
 
-[<span data-ttu-id="9e20e-120">Erste Schritte mit lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e20e-120">Getting started with Lync Server 2013</span></span>](lync-server-2013-getting-started.md)  
-[<span data-ttu-id="9e20e-121">Planen von lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e20e-121">Planning for Lync Server 2013</span></span>](lync-server-2013-planning.md)  
-[<span data-ttu-id="9e20e-122">Bereitstellung von lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9e20e-122">Deployment of Lync Server 2013</span></span>](lync-server-2013-deployment.md)  
-[<span data-ttu-id="9e20e-123">Lync Server 2013 Management-Shell</span><span class="sxs-lookup"><span data-stu-id="9e20e-123">Lync Server 2013 Management Shell</span></span>](lync-server-2013-lync-server-management-shell.md)  
+[<span data-ttu-id="4709d-120">Erste Schritte mit lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4709d-120">Getting started with Lync Server 2013</span></span>](lync-server-2013-getting-started.md)  
+[<span data-ttu-id="4709d-121">Planen von lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4709d-121">Planning for Lync Server 2013</span></span>](lync-server-2013-planning.md)  
+[<span data-ttu-id="4709d-122">Bereitstellung von lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4709d-122">Deployment of Lync Server 2013</span></span>](lync-server-2013-deployment.md)  
+[<span data-ttu-id="4709d-123">Lync Server 2013 Management-Shell</span><span class="sxs-lookup"><span data-stu-id="4709d-123">Lync Server 2013 Management Shell</span></span>](lync-server-2013-lync-server-management-shell.md)  
   
 
 </div>

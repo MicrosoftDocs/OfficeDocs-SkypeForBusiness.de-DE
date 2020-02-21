@@ -12,20 +12,20 @@ ms:contentKeyID: 49733800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b20eac35f0145c62399af942d9de704a31ba8dff
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3190bdd2e3e242716aabbb2dddf1fd9b71518045
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150236"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42217991"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-network-bandwidth-policy-profiles-in-lync-server-2013"></a><span data-ttu-id="a2d81-102">Verwalten von Netzwerkband breiten Richtlinienprofilen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2d81-102">Managing network bandwidth policy profiles in Lync Server 2013</span></span>
+# <a name="managing-network-bandwidth-policy-profiles-in-lync-server-2013"></a><span data-ttu-id="e25ed-102">Verwalten von Netzwerkband breiten Richtlinienprofilen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e25ed-102">Managing network bandwidth policy profiles in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,36 +35,36 @@ ms.locfileid: "42150236"
 
 <span> </span>
 
-<span data-ttu-id="a2d81-103">_**Letztes Änderungsstand des Themas:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="a2d81-103">_**Topic Last Modified:** 2012-10-15_</span></span>
+<span data-ttu-id="e25ed-103">_**Letztes Änderungsstand des Themas:** 2012-10-15_</span><span class="sxs-lookup"><span data-stu-id="e25ed-103">_**Topic Last Modified:** 2012-10-15_</span></span>
 
-<span data-ttu-id="a2d81-104">Gehen Sie wie in diesem Abschnitt beschrieben vor, um Ihre Bandbreitenrichtlinienprofile für das Netzwerk zu verwalten.</span><span class="sxs-lookup"><span data-stu-id="a2d81-104">Use the procedures in this section to manage your network bandwidth policy profiles.</span></span> <span data-ttu-id="a2d81-105">Ausführliche Informationen zu den Anforderungen an die Netzwerkbandbreite für den Mediendatenverkehr finden Sie unter Anforderungen an die [Netzwerkbandbreite für Mediendatenverkehr in lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).</span><span class="sxs-lookup"><span data-stu-id="a2d81-105">For details on network bandwidth requirements for media traffic, see [Network bandwidth requirements for media traffic in Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).</span></span>
+<span data-ttu-id="e25ed-104">Gehen Sie wie in diesem Abschnitt beschrieben vor, um Ihre Bandbreitenrichtlinienprofile für das Netzwerk zu verwalten.</span><span class="sxs-lookup"><span data-stu-id="e25ed-104">Use the procedures in this section to manage your network bandwidth policy profiles.</span></span> <span data-ttu-id="e25ed-105">Ausführliche Informationen zu den Anforderungen an die Netzwerkbandbreite für den Mediendatenverkehr finden Sie unter Anforderungen an die [Netzwerkbandbreite für Mediendatenverkehr in lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).</span><span class="sxs-lookup"><span data-stu-id="e25ed-105">For details on network bandwidth requirements for media traffic, see [Network bandwidth requirements for media traffic in Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a2d81-106">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="a2d81-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e25ed-106">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="e25ed-106">In This Section</span></span>
 
-  - [<span data-ttu-id="a2d81-107">Anzeigen von Richtlinienprofil Informationen für Netzwerkbandbreite in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2d81-107">Viewing network bandwidth policy profile information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)
+  - [<span data-ttu-id="e25ed-107">Anzeigen von Richtlinienprofil Informationen für Netzwerkbandbreite in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e25ed-107">Viewing network bandwidth policy profile information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)
 
-  - [<span data-ttu-id="a2d81-108">Erstellen oder Ändern von Bandbreitenrichtlinien Profilen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2d81-108">Creating or modifying bandwidth policy profiles in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)
+  - [<span data-ttu-id="e25ed-108">Erstellen oder Ändern von Bandbreitenrichtlinien Profilen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e25ed-108">Creating or modifying bandwidth policy profiles in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)
 
-  - [<span data-ttu-id="a2d81-109">Löschen von Richtlinienprofilen für Netzwerkbandbreite in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2d81-109">Deleting network bandwidth policy profiles in Lync Server 2013</span></span>](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)
+  - [<span data-ttu-id="e25ed-109">Löschen von Richtlinienprofilen für Netzwerkbandbreite in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e25ed-109">Deleting network bandwidth policy profiles in Lync Server 2013</span></span>](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)
 
 </div>
 
 <div>
 
-## <a name="related-sections"></a><span data-ttu-id="a2d81-110">Verwandte Abschnitte</span><span class="sxs-lookup"><span data-stu-id="a2d81-110">Related Sections</span></span>
+## <a name="related-sections"></a><span data-ttu-id="e25ed-110">Verwandte Abschnitte</span><span class="sxs-lookup"><span data-stu-id="e25ed-110">Related Sections</span></span>
 
-[<span data-ttu-id="a2d81-111">Netzwerkplanung für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2d81-111">Network planning for Lync Server 2013</span></span>](lync-server-2013-network-planning.md)
+[<span data-ttu-id="e25ed-111">Netzwerkplanung für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e25ed-111">Network planning for Lync Server 2013</span></span>](lync-server-2013-network-planning.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="a2d81-112">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="a2d81-112">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e25ed-112">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="e25ed-112">See Also</span></span>
 
 
-[<span data-ttu-id="a2d81-113">Anforderungen an die Netzwerkbandbreite für Mediendatenverkehr in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a2d81-113">Network bandwidth requirements for media traffic in Lync Server 2013</span></span>](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)  
+[<span data-ttu-id="e25ed-113">Anforderungen an die Netzwerkbandbreite für Mediendatenverkehr in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e25ed-113">Network bandwidth requirements for media traffic in Lync Server 2013</span></span>](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)  
   
 
 </div>

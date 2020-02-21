@@ -12,20 +12,20 @@ ms:contentKeyID: 48183242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b72e9caec70a31280001875063cd6b7d233c500
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: bc7c6de27a4ccc9cd05777476ac4abc7d6fc9f58
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42140028"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42215761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="peer-to-peer-activity-diagnostic-report-in-lync-server-2013"></a><span data-ttu-id="5d4d9-102">Diagnosebericht über Peer-to-Peer-Aktivitäten in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5d4d9-102">Peer-to-Peer Activity Diagnostic Report in Lync Server 2013</span></span>
+# <a name="peer-to-peer-activity-diagnostic-report-in-lync-server-2013"></a><span data-ttu-id="8bca0-102">Diagnosebericht über Peer-to-Peer-Aktivitäten in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8bca0-102">Peer-to-Peer Activity Diagnostic Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42140028"
 
 <span> </span>
 
-<span data-ttu-id="5d4d9-103">_**Letztes Änderungsstand des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="5d4d9-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+<span data-ttu-id="8bca0-103">_**Letztes Änderungsstand des Themas:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="8bca0-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-<span data-ttu-id="5d4d9-104">Der Diagnosebericht über Peer-zu-Peer-Aktivitäten enthält Informationen dazu, ob die Peer-zu-Peer-Sitzungen erfolgreich waren oder ob Fehler aufgetreten sind.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-104">The Peer-to-Peer Activity Diagnostic Report provides information about the success and failure of your peer-to-peer communication sessions.</span></span> <span data-ttu-id="5d4d9-105">Beachten Sie, dass Microsoft lync Server 2013 zwischen verschiedenen Arten von Fehlern unterscheidet:</span><span class="sxs-lookup"><span data-stu-id="5d4d9-105">Note that Microsoft Lync Server 2013 distinguishes between different kinds of failure:</span></span>
+<span data-ttu-id="8bca0-104">Der Diagnosebericht über Peer-zu-Peer-Aktivitäten enthält Informationen dazu, ob die Peer-zu-Peer-Sitzungen erfolgreich waren oder ob Fehler aufgetreten sind.</span><span class="sxs-lookup"><span data-stu-id="8bca0-104">The Peer-to-Peer Activity Diagnostic Report provides information about the success and failure of your peer-to-peer communication sessions.</span></span> <span data-ttu-id="8bca0-105">Beachten Sie, dass Microsoft lync Server 2013 zwischen verschiedenen Arten von Fehlern unterscheidet:</span><span class="sxs-lookup"><span data-stu-id="8bca0-105">Note that Microsoft Lync Server 2013 distinguishes between different kinds of failure:</span></span>
 
-  - <span data-ttu-id="5d4d9-106">**Erwarteter Fehler**.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-106">**Expected failure**.</span></span> <span data-ttu-id="5d4d9-107">Ein erwarteter Fehler ist normalerweise nur im technischsten Sinn ein Fehler.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-107">An expected failure is typically a failure only in the most technical sense.</span></span> <span data-ttu-id="5d4d9-108">Nehmen wir beispielsweise an, Sie rufen jemanden an, aber er ist nicht im Büro und kann das Telefon nicht beantworten.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-108">For example, suppose you call someone, but he or she is away from the office and is unable to answer the phone.</span></span> <span data-ttu-id="5d4d9-109">Da der Anruf nicht beantwortet wurde, wird der Anruf technisch als Fehler betrachtet.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-109">Because the call was not answered, the call is technically considered a failure.</span></span> <span data-ttu-id="5d4d9-110">Auf der anderen Seite war dies ein erwarteter Fehler: Microsoft lync Server 2013 erwartet nicht, dass Sie das Telefon beantworten, wenn Sie nicht zur Verfügung stehen, um das Telefon zu beantworten.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-110">On the other hand, this was an expected failure: Microsoft Lync Server 2013 does not expect you to answer the phone if you're not available to answer the phone.</span></span> <span data-ttu-id="5d4d9-111">Ebenso tritt ein erwarteter Fehler auf, wenn Sie versuchen, eine Sofortnachricht an einen Benutzer zu senden, der offline ist, oder nur an einem Telefon angemeldet ist, das keine Chatnachrichten unterstützt.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-111">Likewise, an expected failure will occur if you attempt to send an instant message to a user who is offline, or is logged on only to a phone that does not support instant messaging.</span></span>
+  - <span data-ttu-id="8bca0-106">**Erwarteter Fehler**.</span><span class="sxs-lookup"><span data-stu-id="8bca0-106">**Expected failure**.</span></span> <span data-ttu-id="8bca0-107">Ein erwarteter Fehler ist normalerweise nur im technischsten Sinn ein Fehler.</span><span class="sxs-lookup"><span data-stu-id="8bca0-107">An expected failure is typically a failure only in the most technical sense.</span></span> <span data-ttu-id="8bca0-108">Nehmen wir beispielsweise an, Sie rufen jemanden an, aber er ist nicht im Büro und kann das Telefon nicht beantworten.</span><span class="sxs-lookup"><span data-stu-id="8bca0-108">For example, suppose you call someone, but he or she is away from the office and is unable to answer the phone.</span></span> <span data-ttu-id="8bca0-109">Da der Anruf nicht beantwortet wurde, wird der Anruf technisch als Fehler betrachtet.</span><span class="sxs-lookup"><span data-stu-id="8bca0-109">Because the call was not answered, the call is technically considered a failure.</span></span> <span data-ttu-id="8bca0-110">Auf der anderen Seite war dies ein erwarteter Fehler: Microsoft lync Server 2013 erwartet nicht, dass Sie das Telefon beantworten, wenn Sie nicht zur Verfügung stehen, um das Telefon zu beantworten.</span><span class="sxs-lookup"><span data-stu-id="8bca0-110">On the other hand, this was an expected failure: Microsoft Lync Server 2013 does not expect you to answer the phone if you're not available to answer the phone.</span></span> <span data-ttu-id="8bca0-111">Ebenso tritt ein erwarteter Fehler auf, wenn Sie versuchen, eine Sofortnachricht an einen Benutzer zu senden, der offline ist, oder nur an einem Telefon angemeldet ist, das keine Chatnachrichten unterstützt.</span><span class="sxs-lookup"><span data-stu-id="8bca0-111">Likewise, an expected failure will occur if you attempt to send an instant message to a user who is offline, or is logged on only to a phone that does not support instant messaging.</span></span>
 
-  - <span data-ttu-id="5d4d9-112">**Unerwarteter Fehler**: Ein unerwarteter Fehler ist genau das, was der Name aussagt: Ein Fehler, der gemessen an den Umständen nicht zu erwarten ist.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-112">**Unexpected failure**.</span></span> <span data-ttu-id="5d4d9-113">Angenommen, Sie rufen eine Person an, und die Person kann den Anruf annehmen.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-113">An unexpected error is exactly what the name implies: an error that, based on the circumstances, you would not expect to occur.</span></span> <span data-ttu-id="5d4d9-114">Nehmen wir beispielsweise an, Sie rufen jemanden an, und diese Person steht zur Verfügung, um den Anruf entgegenzunehmen. Wenn lync Server 2013 jedoch versucht, Ihren Anruf an Voicemail weiterzuleiten, schlägt der Anruf fehl, da die Konnektivität mit Exchange Unified Messaging verloren gegangen ist.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-114">For example, suppose you call someone and that person is available to answer the call; however, when Lync Server 2013 tries to route your call to voicemail the call fails because connectivity to Exchange Unified Messaging has been lost.</span></span> <span data-ttu-id="5d4d9-115">Das ist ein unerwarteter Fehler: Es kann davon ausgegangen werden, dass Anrufe immer an die Voicemail weitergeleitet werden können.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-115">That's an unexpected error: you would expect that calls could always be routed to voicemail.</span></span> <span data-ttu-id="5d4d9-116">Allgemein gilt die Regel, dass unerwartete Fehler richtige Fehler sind: Es handelt sich dabei um Probleme, die durch Schulung der Benutzer oder ähnliche Maßnahmen nicht behoben werden können.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-116">As a general rule, unexpected failures are true failures: they are problems that likely cannot be remedied through user education or similar measures.</span></span>
+  - <span data-ttu-id="8bca0-112">**Unerwarteter Fehler**: Ein unerwarteter Fehler ist genau das, was der Name aussagt: Ein Fehler, der gemessen an den Umständen nicht zu erwarten ist.</span><span class="sxs-lookup"><span data-stu-id="8bca0-112">**Unexpected failure**.</span></span> <span data-ttu-id="8bca0-113">Angenommen, Sie rufen eine Person an, und die Person kann den Anruf annehmen.</span><span class="sxs-lookup"><span data-stu-id="8bca0-113">An unexpected error is exactly what the name implies: an error that, based on the circumstances, you would not expect to occur.</span></span> <span data-ttu-id="8bca0-114">Nehmen wir beispielsweise an, Sie rufen jemanden an, und diese Person steht zur Verfügung, um den Anruf entgegenzunehmen. Wenn lync Server 2013 jedoch versucht, Ihren Anruf an Voicemail weiterzuleiten, schlägt der Anruf fehl, da die Konnektivität mit Exchange Unified Messaging verloren gegangen ist.</span><span class="sxs-lookup"><span data-stu-id="8bca0-114">For example, suppose you call someone and that person is available to answer the call; however, when Lync Server 2013 tries to route your call to voicemail the call fails because connectivity to Exchange Unified Messaging has been lost.</span></span> <span data-ttu-id="8bca0-115">Das ist ein unerwarteter Fehler: Es kann davon ausgegangen werden, dass Anrufe immer an die Voicemail weitergeleitet werden können.</span><span class="sxs-lookup"><span data-stu-id="8bca0-115">That's an unexpected error: you would expect that calls could always be routed to voicemail.</span></span> <span data-ttu-id="8bca0-116">Allgemein gilt die Regel, dass unerwartete Fehler richtige Fehler sind: Es handelt sich dabei um Probleme, die durch Schulung der Benutzer oder ähnliche Maßnahmen nicht behoben werden können.</span><span class="sxs-lookup"><span data-stu-id="8bca0-116">As a general rule, unexpected failures are true failures: they are problems that likely cannot be remedied through user education or similar measures.</span></span>
 
-<span data-ttu-id="5d4d9-p104">Beachten Sie, dass die Metriken für "Erfolg", "Erwarteter Fehler" und "Unerwarteter Fehler" nicht zwangsläufig identisch mit der Metrik unter "Sitzungen insgesamt" sind. In der obigen Abbildung sind beispielsweise die folgenden Werte enthalten:</span><span class="sxs-lookup"><span data-stu-id="5d4d9-p104">Note that the Success, Expected failure, and Unexpected failure metrics might not add up to the Total sessions metric. For example, in the preceding illustration, we have the following values:</span></span>
+<span data-ttu-id="8bca0-p104">Beachten Sie, dass die Metriken für "Erfolg", "Erwarteter Fehler" und "Unerwarteter Fehler" nicht zwangsläufig identisch mit der Metrik unter "Sitzungen insgesamt" sind. In der obigen Abbildung sind beispielsweise die folgenden Werte enthalten:</span><span class="sxs-lookup"><span data-stu-id="8bca0-p104">Note that the Success, Expected failure, and Unexpected failure metrics might not add up to the Total sessions metric. For example, in the preceding illustration, we have the following values:</span></span>
 
 
 <table>
@@ -55,54 +55,54 @@ ms.locfileid: "42140028"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5d4d9-119">Erfolge</span><span class="sxs-lookup"><span data-stu-id="5d4d9-119">Successes</span></span></th>
-<th><span data-ttu-id="5d4d9-120">Erwartete Fehler</span><span class="sxs-lookup"><span data-stu-id="5d4d9-120">Expected failures</span></span></th>
-<th><span data-ttu-id="5d4d9-121">Unerwartete Fehler</span><span class="sxs-lookup"><span data-stu-id="5d4d9-121">Unexpected failures</span></span></th>
-<th><span data-ttu-id="5d4d9-122">Sitzungen insgesamt</span><span class="sxs-lookup"><span data-stu-id="5d4d9-122">Total sessions</span></span></th>
+<th><span data-ttu-id="8bca0-119">Erfolge</span><span class="sxs-lookup"><span data-stu-id="8bca0-119">Successes</span></span></th>
+<th><span data-ttu-id="8bca0-120">Erwartete Fehler</span><span class="sxs-lookup"><span data-stu-id="8bca0-120">Expected failures</span></span></th>
+<th><span data-ttu-id="8bca0-121">Unerwartete Fehler</span><span class="sxs-lookup"><span data-stu-id="8bca0-121">Unexpected failures</span></span></th>
+<th><span data-ttu-id="8bca0-122">Sitzungen insgesamt</span><span class="sxs-lookup"><span data-stu-id="8bca0-122">Total sessions</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5d4d9-123">2024</span><span class="sxs-lookup"><span data-stu-id="5d4d9-123">2024</span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-124">469</span><span class="sxs-lookup"><span data-stu-id="5d4d9-124">469</span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-125">16 </span><span class="sxs-lookup"><span data-stu-id="5d4d9-125">16</span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-126">2521</span><span class="sxs-lookup"><span data-stu-id="5d4d9-126">2521</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-123">2024</span><span class="sxs-lookup"><span data-stu-id="8bca0-123">2024</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-124">469</span><span class="sxs-lookup"><span data-stu-id="8bca0-124">469</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-125">16 </span><span class="sxs-lookup"><span data-stu-id="8bca0-125">16</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-126">2521</span><span class="sxs-lookup"><span data-stu-id="8bca0-126">2521</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="5d4d9-127">Wenn Sie 2024 + 469 + 16 hinzufügen, erhalten Sie insgesamt 2.509 Sitzungen, doch in der Spalte Gesamt Sitzungen werden insgesamt 2.521 Sitzungen angezeigt.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-127">If you add 2024 + 469 + 16 you get a total of 2,509 sessions, yet the Total sessions column shows a total of 2,521 sessions.</span></span> <span data-ttu-id="5d4d9-128">Die "fehlenden" 12 Sitzungen sind Sitzungen, die vom System nicht als erfolgreich oder nicht erfolgreich kategorisiert werden konnten.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-128">The "missing" 12 sessions are sessions that the system was unable to categorize as successful or unsuccessful.</span></span> <span data-ttu-id="5d4d9-129">Dies ist manchmal der Fall, wenn ein Drittanbieterprodukt einen neuen Diagnosecode einführt, der lync Server nicht vertraut ist.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-129">That will sometimes be the case when a third-party product introduces a new diagnostic code that is unfamiliar to Lync Server.</span></span> <span data-ttu-id="5d4d9-130">Wenn dies geschieht, können mit diesem Produkt erstellte Anrufe und das melden dieses Diagnosecodes nicht immer als ein Erfolg, ein erwarteter Fehler oder ein unerwarteter Fehler kategorisiert werden.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-130">When that happens, calls made using that product, and reporting that diagnostic code, cannot always be categorized as being a Success, an Expected failure, or an Unexpected failure.</span></span>
+<span data-ttu-id="8bca0-127">Wenn Sie 2024 + 469 + 16 hinzufügen, erhalten Sie insgesamt 2.509 Sitzungen, doch in der Spalte Gesamt Sitzungen werden insgesamt 2.521 Sitzungen angezeigt.</span><span class="sxs-lookup"><span data-stu-id="8bca0-127">If you add 2024 + 469 + 16 you get a total of 2,509 sessions, yet the Total sessions column shows a total of 2,521 sessions.</span></span> <span data-ttu-id="8bca0-128">Die "fehlenden" 12 Sitzungen sind Sitzungen, die vom System nicht als erfolgreich oder nicht erfolgreich kategorisiert werden konnten.</span><span class="sxs-lookup"><span data-stu-id="8bca0-128">The "missing" 12 sessions are sessions that the system was unable to categorize as successful or unsuccessful.</span></span> <span data-ttu-id="8bca0-129">Dies ist manchmal der Fall, wenn ein Drittanbieterprodukt einen neuen Diagnosecode einführt, der lync Server nicht vertraut ist.</span><span class="sxs-lookup"><span data-stu-id="8bca0-129">That will sometimes be the case when a third-party product introduces a new diagnostic code that is unfamiliar to Lync Server.</span></span> <span data-ttu-id="8bca0-130">Wenn dies geschieht, können mit diesem Produkt erstellte Anrufe und das melden dieses Diagnosecodes nicht immer als ein Erfolg, ein erwarteter Fehler oder ein unerwarteter Fehler kategorisiert werden.</span><span class="sxs-lookup"><span data-stu-id="8bca0-130">When that happens, calls made using that product, and reporting that diagnostic code, cannot always be categorized as being a Success, an Expected failure, or an Unexpected failure.</span></span>
 
 <div>
 
-## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a><span data-ttu-id="5d4d9-131">Zugreifen auf den Diagnosebericht über Peer-zu-Peer-Aktivitäten</span><span class="sxs-lookup"><span data-stu-id="5d4d9-131">Accessing the Peer-to-Peer Activity Diagnostic Report</span></span>
+## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a><span data-ttu-id="8bca0-131">Zugreifen auf den Diagnosebericht über Peer-zu-Peer-Aktivitäten</span><span class="sxs-lookup"><span data-stu-id="8bca0-131">Accessing the Peer-to-Peer Activity Diagnostic Report</span></span>
 
-<span data-ttu-id="5d4d9-132">Auf den Diagnosebericht über Peer-zu-Peer-Aktivitäten greifen Sie über die Homepage für Überwachungsberichte zu.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-132">The Peer-to-Peer Diagnostic Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="5d4d9-133">Sie können auf den [Bericht über Fehlerverteilung in lync Server 2013](lync-server-2013-failure-distribution-report.md) zugreifen, indem Sie auf eine der folgenden Metriken klicken:</span><span class="sxs-lookup"><span data-stu-id="5d4d9-133">You can access the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md) by clicking either of the following metrics:</span></span>
+<span data-ttu-id="8bca0-132">Auf den Diagnosebericht über Peer-zu-Peer-Aktivitäten greifen Sie über die Homepage für Überwachungsberichte zu.</span><span class="sxs-lookup"><span data-stu-id="8bca0-132">The Peer-to-Peer Diagnostic Report is accessed from the Monitoring Reports home page.</span></span> <span data-ttu-id="8bca0-133">Sie können auf den [Bericht über Fehlerverteilung in lync Server 2013](lync-server-2013-failure-distribution-report.md) zugreifen, indem Sie auf eine der folgenden Metriken klicken:</span><span class="sxs-lookup"><span data-stu-id="8bca0-133">You can access the [Failure Distribution Report in Lync Server 2013](lync-server-2013-failure-distribution-report.md) by clicking either of the following metrics:</span></span>
 
-  - <span data-ttu-id="5d4d9-134">Anzahl der unerwarteten Fehler</span><span class="sxs-lookup"><span data-stu-id="5d4d9-134">Unexpected failure volume</span></span>
+  - <span data-ttu-id="8bca0-134">Anzahl der unerwarteten Fehler</span><span class="sxs-lookup"><span data-stu-id="8bca0-134">Unexpected failure volume</span></span>
 
-  - <span data-ttu-id="5d4d9-135">Anzahl der erwarteten Fehler</span><span class="sxs-lookup"><span data-stu-id="5d4d9-135">Expected failure volume</span></span>
+  - <span data-ttu-id="8bca0-135">Anzahl der erwarteten Fehler</span><span class="sxs-lookup"><span data-stu-id="8bca0-135">Expected failure volume</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-peer-to-peer-activity-diagnostic-report"></a><span data-ttu-id="5d4d9-136">Optimales Verwenden des Diagnoseberichts über Peer-zu-Peer-Aktivitäten</span><span class="sxs-lookup"><span data-stu-id="5d4d9-136">Making the Best Use of the Peer-to-Peer Activity Diagnostic Report</span></span>
+## <a name="making-the-best-use-of-the-peer-to-peer-activity-diagnostic-report"></a><span data-ttu-id="8bca0-136">Optimales Verwenden des Diagnoseberichts über Peer-zu-Peer-Aktivitäten</span><span class="sxs-lookup"><span data-stu-id="8bca0-136">Making the Best Use of the Peer-to-Peer Activity Diagnostic Report</span></span>
 
-<span data-ttu-id="5d4d9-p107">Es gibt mehrere Möglichkeiten, wie Sie den Diagnosebericht über Peer-zu-Peer-Aktivitäten filtern können, aber die Filteroptionen sind standardmäßig ausgeblendet. Um die verfügbaren Filteroptionen anzuzeigen, klicken Sie im Berichtfenster oben rechts auf die Schaltfläche zum Ein- und Ausblenden der Parameter. Danach können Sie die Filteroptionen verwenden.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-p107">There are a number of ways you can filter the Peer-to-Peer Activity Diagnostic Report but, by default, those filtering options are hidden from view. To view the filtering options available to you, click the Show/Hide Parameters button in the upper right-hand corner of the report window. Once you do that the filtering options will be available for use.</span></span>
+<span data-ttu-id="8bca0-p107">Es gibt mehrere Möglichkeiten, wie Sie den Diagnosebericht über Peer-zu-Peer-Aktivitäten filtern können, aber die Filteroptionen sind standardmäßig ausgeblendet. Um die verfügbaren Filteroptionen anzuzeigen, klicken Sie im Berichtfenster oben rechts auf die Schaltfläche zum Ein- und Ausblenden der Parameter. Danach können Sie die Filteroptionen verwenden.</span><span class="sxs-lookup"><span data-stu-id="8bca0-p107">There are a number of ways you can filter the Peer-to-Peer Activity Diagnostic Report but, by default, those filtering options are hidden from view. To view the filtering options available to you, click the Show/Hide Parameters button in the upper right-hand corner of the report window. Once you do that the filtering options will be available for use.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="5d4d9-140">Filter</span><span class="sxs-lookup"><span data-stu-id="5d4d9-140">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="8bca0-140">Filter</span><span class="sxs-lookup"><span data-stu-id="8bca0-140">Filters</span></span>
 
-<span data-ttu-id="5d4d9-p108">Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise ansehen. Beispielsweise können Sie im Diagnosebericht über Peer-zu-Peer-Aktivitäten nach Kriterien wie etwa Sitzungsmodalität (z. B. Sofortnachrichten, Dateiübertragung oder Anwendungsfreigabe) filtern. Sie können auch auswählen, wie Daten gruppiert werden sollen. In diesem Fall werden Anrufe nach Stunde, Tag, Woche oder Monat zusammengefasst.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-p108">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Peer-to-Peer Activity Diagnostic Report enables you to filter on such things as the session modality (for example, instant messaging, file transfer, or application sharing). You can also choose how data should be grouped. In this case, calls are grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="8bca0-p108">Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die zurückgegebenen Daten auf unterschiedliche Weise ansehen. Beispielsweise können Sie im Diagnosebericht über Peer-zu-Peer-Aktivitäten nach Kriterien wie etwa Sitzungsmodalität (z. B. Sofortnachrichten, Dateiübertragung oder Anwendungsfreigabe) filtern. Sie können auch auswählen, wie Daten gruppiert werden sollen. In diesem Fall werden Anrufe nach Stunde, Tag, Woche oder Monat zusammengefasst.</span><span class="sxs-lookup"><span data-stu-id="8bca0-p108">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Peer-to-Peer Activity Diagnostic Report enables you to filter on such things as the session modality (for example, instant messaging, file transfer, or application sharing). You can also choose how data should be grouped. In this case, calls are grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="5d4d9-145">In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Diagnosebericht über Peer-zu-Peer-Aktivitäten verwenden können.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-145">The following table lists the filters that you can use with the Peer-to-Peer Activity Diagnostic Report.</span></span>
+<span data-ttu-id="8bca0-145">In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Diagnosebericht über Peer-zu-Peer-Aktivitäten verwenden können.</span><span class="sxs-lookup"><span data-stu-id="8bca0-145">The following table lists the filters that you can use with the Peer-to-Peer Activity Diagnostic Report.</span></span>
 
-### <a name="peer-to-peer-activity-diagnostic-report-filters"></a><span data-ttu-id="5d4d9-146">Filter im Diagnosebericht über Peer-zu-Peer-Aktivitäten</span><span class="sxs-lookup"><span data-stu-id="5d4d9-146">Peer-to-Peer Activity Diagnostic Report Filters</span></span>
+### <a name="peer-to-peer-activity-diagnostic-report-filters"></a><span data-ttu-id="8bca0-146">Filter im Diagnosebericht über Peer-zu-Peer-Aktivitäten</span><span class="sxs-lookup"><span data-stu-id="8bca0-146">Peer-to-Peer Activity Diagnostic Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -111,56 +111,56 @@ ms.locfileid: "42140028"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5d4d9-147">Name</span><span class="sxs-lookup"><span data-stu-id="5d4d9-147">Name</span></span></th>
-<th><span data-ttu-id="5d4d9-148">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="5d4d9-148">Description</span></span></th>
+<th><span data-ttu-id="8bca0-147">Name</span><span class="sxs-lookup"><span data-stu-id="8bca0-147">Name</span></span></th>
+<th><span data-ttu-id="8bca0-148">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="8bca0-148">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5d4d9-149"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="5d4d9-149"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-p109">Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</span><span class="sxs-lookup"><span data-stu-id="5d4d9-p109">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="5d4d9-152">07.07.2012 13:00</span><span class="sxs-lookup"><span data-stu-id="5d4d9-152">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="5d4d9-p110">Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</span><span class="sxs-lookup"><span data-stu-id="5d4d9-p110">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="5d4d9-155">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="5d4d9-155">7/7/2012</span></span></p>
-<p><span data-ttu-id="5d4d9-156">Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</span><span class="sxs-lookup"><span data-stu-id="5d4d9-156">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="5d4d9-157">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="5d4d9-157">7/3/2012</span></span></p>
-<p><span data-ttu-id="5d4d9-158">Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-158">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-149"><strong>From</strong></span><span class="sxs-lookup"><span data-stu-id="8bca0-149"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="8bca0-p109">Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:</span><span class="sxs-lookup"><span data-stu-id="8bca0-p109">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="8bca0-152">07.07.2012 13:00</span><span class="sxs-lookup"><span data-stu-id="8bca0-152">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="8bca0-p110">Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</span><span class="sxs-lookup"><span data-stu-id="8bca0-p110">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="8bca0-155">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="8bca0-155">7/7/2012</span></span></p>
+<p><span data-ttu-id="8bca0-156">Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</span><span class="sxs-lookup"><span data-stu-id="8bca0-156">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="8bca0-157">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="8bca0-157">7/3/2012</span></span></p>
+<p><span data-ttu-id="8bca0-158">Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</span><span class="sxs-lookup"><span data-stu-id="8bca0-158">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d4d9-159"><strong>Ziel</strong></span><span class="sxs-lookup"><span data-stu-id="5d4d9-159"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-p111">Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</span><span class="sxs-lookup"><span data-stu-id="5d4d9-p111">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="5d4d9-162">07.07.2012 13:00</span><span class="sxs-lookup"><span data-stu-id="5d4d9-162">7/7/2012 1:00 PM</span></span></p>
-<p><span data-ttu-id="5d4d9-p112">Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</span><span class="sxs-lookup"><span data-stu-id="5d4d9-p112">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="5d4d9-165">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="5d4d9-165">7/7/2012</span></span></p>
-<p><span data-ttu-id="5d4d9-166">Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</span><span class="sxs-lookup"><span data-stu-id="5d4d9-166">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="5d4d9-167">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="5d4d9-167">7/3/2012</span></span></p>
-<p><span data-ttu-id="5d4d9-168">Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-168">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-159"><strong>Ziel</strong></span><span class="sxs-lookup"><span data-stu-id="8bca0-159"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="8bca0-p111">Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:</span><span class="sxs-lookup"><span data-stu-id="8bca0-p111">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="8bca0-162">07.07.2012 13:00</span><span class="sxs-lookup"><span data-stu-id="8bca0-162">7/7/2012 1:00 PM</span></span></p>
+<p><span data-ttu-id="8bca0-p112">Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:</span><span class="sxs-lookup"><span data-stu-id="8bca0-p112">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="8bca0-165">7/7/2012</span><span class="sxs-lookup"><span data-stu-id="8bca0-165">7/7/2012</span></span></p>
+<p><span data-ttu-id="8bca0-166">Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):</span><span class="sxs-lookup"><span data-stu-id="8bca0-166">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="8bca0-167">7/3/2012</span><span class="sxs-lookup"><span data-stu-id="8bca0-167">7/3/2012</span></span></p>
+<p><span data-ttu-id="8bca0-168">Eine Woche läuft immer von Sonntag bis einschließlich Samstag.</span><span class="sxs-lookup"><span data-stu-id="8bca0-168">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d4d9-169"><strong>Intervall</strong></span><span class="sxs-lookup"><span data-stu-id="5d4d9-169"><strong>Interval</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-p113">Zeitintervall. Wählen Sie eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="5d4d9-p113">Time interval. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="8bca0-169"><strong>Intervall</strong></span><span class="sxs-lookup"><span data-stu-id="8bca0-169"><strong>Interval</strong></span></span></p></td>
+<td><p><span data-ttu-id="8bca0-p113">Zeitintervall. Wählen Sie eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="8bca0-p113">Time interval. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="5d4d9-172">Stündlich (maximal 25 Stunden können angezeigt werden)</span><span class="sxs-lookup"><span data-stu-id="5d4d9-172">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="5d4d9-173">Täglich (maximal 31 Tage können angezeigt werden)</span><span class="sxs-lookup"><span data-stu-id="5d4d9-173">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="5d4d9-174">Wöchentlich (maximal 12 Wochen können angezeigt werden)</span><span class="sxs-lookup"><span data-stu-id="5d4d9-174">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
-<li><p><span data-ttu-id="5d4d9-175">Monatlich (maximal 12 Monate werden angezeigt)</span><span class="sxs-lookup"><span data-stu-id="5d4d9-175">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="8bca0-172">Stündlich (maximal 25 Stunden können angezeigt werden)</span><span class="sxs-lookup"><span data-stu-id="8bca0-172">Hourly (a maximum of 25 hours can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="8bca0-173">Täglich (maximal 31 Tage können angezeigt werden)</span><span class="sxs-lookup"><span data-stu-id="8bca0-173">Daily (a maximum of 31 days can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="8bca0-174">Wöchentlich (maximal 12 Wochen können angezeigt werden)</span><span class="sxs-lookup"><span data-stu-id="8bca0-174">Weekly (a maximum of 12 weeks can be displayed)</span></span></p></li>
+<li><p><span data-ttu-id="8bca0-175">Monatlich (maximal 12 Monate werden angezeigt)</span><span class="sxs-lookup"><span data-stu-id="8bca0-175">Monthly (a maximum of 12 months can be displayed)</span></span></p></li>
 </ul>
-<p><span data-ttu-id="5d4d9-p114">Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Beispiel: Wenn Sie das Intervall Täglich mit dem Startdatum 07.08.2012 und dem Enddatum 28.09.2012 ausgewählt haben, werden Daten für die Tage 07.08.2012 12:00 Uhr bis 07.09.2012 12:00 Uhr angezeigt (d. h. Daten für insgesamt 31 Tage).</span><span class="sxs-lookup"><span data-stu-id="5d4d9-p114">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
+<p><span data-ttu-id="8bca0-p114">Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Beispiel: Wenn Sie das Intervall Täglich mit dem Startdatum 07.08.2012 und dem Enddatum 28.09.2012 ausgewählt haben, werden Daten für die Tage 07.08.2012 12:00 Uhr bis 07.09.2012 12:00 Uhr angezeigt (d. h. Daten für insgesamt 31 Tage).</span><span class="sxs-lookup"><span data-stu-id="8bca0-p114">If the start and end dates exceed the maximum number of values allowed for the selected interval, only the maximum number of values (starting from the start date) is displayed. For example, if you select the Daily interval with a start date of 7/7/2012 and an end date of 2/28/2012, data is displayed for the days 8/7/2012 12:00 AM to 9/7/2012 12:00 AM (that is, a total of 31 days' worth of data).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d4d9-178"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="5d4d9-178"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-p115">Vollqualifizierter Domänenname (FQDN) des Registrierungspools oder des Edgeservers. Sie können entweder einen einzelnen Pool auswählen oder auf <strong>[Alle]</strong> klicken, um Daten für alle Pools anzuzeigen. Diese Dropdownliste wird automatisch anhand der Datensätze in der Datenbank aufgefüllt.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-p115">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-178"><strong>Pool</strong></span><span class="sxs-lookup"><span data-stu-id="8bca0-178"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="8bca0-p115">Vollqualifizierter Domänenname (FQDN) des Registrierungspools oder des Edgeservers. Sie können entweder einen einzelnen Pool auswählen oder auf <strong>[Alle]</strong> klicken, um Daten für alle Pools anzuzeigen. Diese Dropdownliste wird automatisch anhand der Datensätze in der Datenbank aufgefüllt.</span><span class="sxs-lookup"><span data-stu-id="8bca0-p115">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d4d9-182"><strong>Modalität</strong></span><span class="sxs-lookup"><span data-stu-id="5d4d9-182"><strong>Modality</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-p116">Gibt den Typ der Kommunikationsaktivität an, die stattgefunden hat. Wählen Sie eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="5d4d9-p116">Indicates the type of communication activity that took place. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="8bca0-182"><strong>Modalität</strong></span><span class="sxs-lookup"><span data-stu-id="8bca0-182"><strong>Modality</strong></span></span></p></td>
+<td><p><span data-ttu-id="8bca0-p116">Gibt den Typ der Kommunikationsaktivität an, die stattgefunden hat. Wählen Sie eine der folgenden Optionen aus:</span><span class="sxs-lookup"><span data-stu-id="8bca0-p116">Indicates the type of communication activity that took place. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="5d4d9-185">Alle</span><span class="sxs-lookup"><span data-stu-id="5d4d9-185">[All]</span></span></p></li>
-<li><p><span data-ttu-id="5d4d9-186">Sofortnachrichten</span><span class="sxs-lookup"><span data-stu-id="5d4d9-186">Instant messaging</span></span></p></li>
-<li><p><span data-ttu-id="5d4d9-187">Dateiübertragung</span><span class="sxs-lookup"><span data-stu-id="5d4d9-187">File transfer</span></span></p></li>
-<li><p><span data-ttu-id="5d4d9-188">Anwendungsfreigabe</span><span class="sxs-lookup"><span data-stu-id="5d4d9-188">Application sharing</span></span></p></li>
-<li><p><span data-ttu-id="5d4d9-189">Audio</span><span class="sxs-lookup"><span data-stu-id="5d4d9-189">Audio</span></span></p></li>
-<li><p><span data-ttu-id="5d4d9-190">Video</span><span class="sxs-lookup"><span data-stu-id="5d4d9-190">Video</span></span></p></li>
+<li><p><span data-ttu-id="8bca0-185">Alle</span><span class="sxs-lookup"><span data-stu-id="8bca0-185">[All]</span></span></p></li>
+<li><p><span data-ttu-id="8bca0-186">Sofortnachrichten</span><span class="sxs-lookup"><span data-stu-id="8bca0-186">Instant messaging</span></span></p></li>
+<li><p><span data-ttu-id="8bca0-187">Dateiübertragung</span><span class="sxs-lookup"><span data-stu-id="8bca0-187">File transfer</span></span></p></li>
+<li><p><span data-ttu-id="8bca0-188">Anwendungsfreigabe</span><span class="sxs-lookup"><span data-stu-id="8bca0-188">Application sharing</span></span></p></li>
+<li><p><span data-ttu-id="8bca0-189">Audio</span><span class="sxs-lookup"><span data-stu-id="8bca0-189">Audio</span></span></p></li>
+<li><p><span data-ttu-id="8bca0-190">Video</span><span class="sxs-lookup"><span data-stu-id="8bca0-190">Video</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -171,11 +171,11 @@ ms.locfileid: "42140028"
 
 <div>
 
-## <a name="metrics-per-modality"></a><span data-ttu-id="5d4d9-191">Metrik (pro Modalität)</span><span class="sxs-lookup"><span data-stu-id="5d4d9-191">Metrics (per modality)</span></span>
+## <a name="metrics-per-modality"></a><span data-ttu-id="8bca0-191">Metrik (pro Modalität)</span><span class="sxs-lookup"><span data-stu-id="8bca0-191">Metrics (per modality)</span></span>
 
-<span data-ttu-id="5d4d9-192">In der folgenden Tabelle werden die Metriken aufgelistet, die im Diagnosebericht über Peer-zu-Peer-Aktivitäten für jede Modalität angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-192">The following table lists the information provided in the Peer-to-Peer Activity Diagnostic Report for each modality.</span></span>
+<span data-ttu-id="8bca0-192">In der folgenden Tabelle werden die Metriken aufgelistet, die im Diagnosebericht über Peer-zu-Peer-Aktivitäten für jede Modalität angegeben werden.</span><span class="sxs-lookup"><span data-stu-id="8bca0-192">The following table lists the information provided in the Peer-to-Peer Activity Diagnostic Report for each modality.</span></span>
 
-### <a name="metrics-per-modality"></a><span data-ttu-id="5d4d9-193">Metrik (pro Modalität)</span><span class="sxs-lookup"><span data-stu-id="5d4d9-193">Metrics (per modality)</span></span>
+### <a name="metrics-per-modality"></a><span data-ttu-id="8bca0-193">Metrik (pro Modalität)</span><span class="sxs-lookup"><span data-stu-id="8bca0-193">Metrics (per modality)</span></span>
 
 <table>
 <colgroup>
@@ -185,48 +185,48 @@ ms.locfileid: "42140028"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="5d4d9-194">Name</span><span class="sxs-lookup"><span data-stu-id="5d4d9-194">Name</span></span></th>
-<th><span data-ttu-id="5d4d9-195">Kann nach dieser Metrik sortiert werden?</span><span class="sxs-lookup"><span data-stu-id="5d4d9-195">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="5d4d9-196">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="5d4d9-196">Description</span></span></th>
+<th><span data-ttu-id="8bca0-194">Name</span><span class="sxs-lookup"><span data-stu-id="8bca0-194">Name</span></span></th>
+<th><span data-ttu-id="8bca0-195">Kann nach dieser Metrik sortiert werden?</span><span class="sxs-lookup"><span data-stu-id="8bca0-195">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="8bca0-196">Beschreibung</span><span class="sxs-lookup"><span data-stu-id="8bca0-196">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5d4d9-197"><strong>Anzahl der erfolgreichen Sitzungen</strong></span><span class="sxs-lookup"><span data-stu-id="5d4d9-197"><strong>Success volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-198">Nein</span><span class="sxs-lookup"><span data-stu-id="5d4d9-198">No</span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-199">Die Gesamtzahl der erfolgreichen Peer-zu-Peer-Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-199">Total number of successful peer-to-peer sessions.</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-197"><strong>Anzahl der erfolgreichen Sitzungen</strong></span><span class="sxs-lookup"><span data-stu-id="8bca0-197"><strong>Success volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="8bca0-198">Nein</span><span class="sxs-lookup"><span data-stu-id="8bca0-198">No</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-199">Die Gesamtzahl der erfolgreichen Peer-zu-Peer-Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="8bca0-199">Total number of successful peer-to-peer sessions.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d4d9-200"><strong>Prozentsatz der erfolgreichen Sitzungen</strong></span><span class="sxs-lookup"><span data-stu-id="5d4d9-200"><strong>Success percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-201">Nein</span><span class="sxs-lookup"><span data-stu-id="5d4d9-201">No</span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-p117">Der Prozentsatz der Peer-zu-Peer-Sitzungen, die ohne nennenswerte Probleme ausgeführt wurden. Errechnet sich durch Dividieren der Anzahl der erfolgreichen Sitzungen durch die Gesamtzahl der Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-p117">Percentage of peer-to-peer sessions that completed with significant problems. Calculated by dividing the Success volume by the Total sessions.</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-200"><strong>Prozentsatz der erfolgreichen Sitzungen</strong></span><span class="sxs-lookup"><span data-stu-id="8bca0-200"><strong>Success percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="8bca0-201">Nein</span><span class="sxs-lookup"><span data-stu-id="8bca0-201">No</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-p117">Der Prozentsatz der Peer-zu-Peer-Sitzungen, die ohne nennenswerte Probleme ausgeführt wurden. Errechnet sich durch Dividieren der Anzahl der erfolgreichen Sitzungen durch die Gesamtzahl der Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="8bca0-p117">Percentage of peer-to-peer sessions that completed with significant problems. Calculated by dividing the Success volume by the Total sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d4d9-204"><strong>Anzahl der erwarteten Fehler</strong></span><span class="sxs-lookup"><span data-stu-id="5d4d9-204"><strong>Expected failure volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-205">Nein</span><span class="sxs-lookup"><span data-stu-id="5d4d9-205">No</span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-206">Die Gesamtzahl der Sitzungen, &quot;bei denen&quot; ein erwarteter Fehler aufgetreten ist.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-206">Total number of sessions where an &quot;expected failure&quot; occurred.</span></span></p>
-<p><span data-ttu-id="5d4d9-p118">Ein erwarteter Fehler ist ein Fehler, dessen Auftreten erwartet wird. Wenn beispielsweise ein Benutzer seinen Status auf Nicht stören festgelegt hat, ist zu erwarten, dass jeder Anruf an diesen Benutzer fehlschlägt.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-p118">An expected failure is a failure that is expected to happen. For example, if a user has set his or her status to Do Not Disturb you would expect any call to that user to fail.</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-204"><strong>Anzahl der erwarteten Fehler</strong></span><span class="sxs-lookup"><span data-stu-id="8bca0-204"><strong>Expected failure volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="8bca0-205">Nein</span><span class="sxs-lookup"><span data-stu-id="8bca0-205">No</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-206">Die Gesamtzahl der Sitzungen, &quot;bei denen&quot; ein erwarteter Fehler aufgetreten ist.</span><span class="sxs-lookup"><span data-stu-id="8bca0-206">Total number of sessions where an &quot;expected failure&quot; occurred.</span></span></p>
+<p><span data-ttu-id="8bca0-p118">Ein erwarteter Fehler ist ein Fehler, dessen Auftreten erwartet wird. Wenn beispielsweise ein Benutzer seinen Status auf Nicht stören festgelegt hat, ist zu erwarten, dass jeder Anruf an diesen Benutzer fehlschlägt.</span><span class="sxs-lookup"><span data-stu-id="8bca0-p118">An expected failure is a failure that is expected to happen. For example, if a user has set his or her status to Do Not Disturb you would expect any call to that user to fail.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d4d9-209"><strong>Prozentsatz der erwarteten Fehler</strong></span><span class="sxs-lookup"><span data-stu-id="5d4d9-209"><strong>Expected failure percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-210">Nein</span><span class="sxs-lookup"><span data-stu-id="5d4d9-210">No</span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-p119">Der Prozentsatz der Peer-zu-Peer-Sitzungen, bei denen ein erwarteter Fehler aufgetreten ist. Errechnet sich durch Dividieren der Anzahl der erwarteten Fehler durch die Gesamtzahl der Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-p119">Percentage of peer-to-peer sessions that experienced an expected error. Calculated by dividing the Expected failure volume by the Total sessions.</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-209"><strong>Prozentsatz der erwarteten Fehler</strong></span><span class="sxs-lookup"><span data-stu-id="8bca0-209"><strong>Expected failure percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="8bca0-210">Nein</span><span class="sxs-lookup"><span data-stu-id="8bca0-210">No</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-p119">Der Prozentsatz der Peer-zu-Peer-Sitzungen, bei denen ein erwarteter Fehler aufgetreten ist. Errechnet sich durch Dividieren der Anzahl der erwarteten Fehler durch die Gesamtzahl der Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="8bca0-p119">Percentage of peer-to-peer sessions that experienced an expected error. Calculated by dividing the Expected failure volume by the Total sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d4d9-213"><strong>Anzahl der unerwarteten Fehler</strong></span><span class="sxs-lookup"><span data-stu-id="5d4d9-213"><strong>Unexpected failure volume</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-214">Nein</span><span class="sxs-lookup"><span data-stu-id="5d4d9-214">No</span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-215">Die Gesamtzahl der Sitzungen, &quot;bei denen&quot; ein unerwarteter Fehler aufgetreten ist.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-215">Total number of sessions where an &quot;unexpected failure&quot; occurred.</span></span></p>
-<p><span data-ttu-id="5d4d9-p120">Ein unerwarteter Fehler ist ein Fehler, der in einem System auftritt, das abgesehen davon anscheinend intakt ist. Beispielsweise sollte ein Anruf nicht beendet werden, wenn der Anrufer in der Warteschleife platziert ist. Geschieht dies jedoch, würde dieser Vorgang als unerwarteter Fehler gekennzeichnet werden.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-p120">An unexpected failure is a failure that occurs in what would appear to be an otherwise healthy system. For example, a call should not be terminated if the caller is placed on hold. If that occurs, that would be flagged as an unexpected failure.</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-213"><strong>Anzahl der unerwarteten Fehler</strong></span><span class="sxs-lookup"><span data-stu-id="8bca0-213"><strong>Unexpected failure volume</strong></span></span></p></td>
+<td><p><span data-ttu-id="8bca0-214">Nein</span><span class="sxs-lookup"><span data-stu-id="8bca0-214">No</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-215">Die Gesamtzahl der Sitzungen, &quot;bei denen&quot; ein unerwarteter Fehler aufgetreten ist.</span><span class="sxs-lookup"><span data-stu-id="8bca0-215">Total number of sessions where an &quot;unexpected failure&quot; occurred.</span></span></p>
+<p><span data-ttu-id="8bca0-p120">Ein unerwarteter Fehler ist ein Fehler, der in einem System auftritt, das abgesehen davon anscheinend intakt ist. Beispielsweise sollte ein Anruf nicht beendet werden, wenn der Anrufer in der Warteschleife platziert ist. Geschieht dies jedoch, würde dieser Vorgang als unerwarteter Fehler gekennzeichnet werden.</span><span class="sxs-lookup"><span data-stu-id="8bca0-p120">An unexpected failure is a failure that occurs in what would appear to be an otherwise healthy system. For example, a call should not be terminated if the caller is placed on hold. If that occurs, that would be flagged as an unexpected failure.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="5d4d9-219"><strong>Prozentsatz der unerwarteten Fehler</strong></span><span class="sxs-lookup"><span data-stu-id="5d4d9-219"><strong>Unexpected failure percentage</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-220">Nein</span><span class="sxs-lookup"><span data-stu-id="5d4d9-220">No</span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-p121">Der Prozentsatz der Peer-zu-Peer-Sitzungen, bei denen ein unerwarteter Fehler aufgetreten ist. Errechnet sich durch Dividieren der Anzahl der unerwarteten Fehler durch die Gesamtzahl der Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-p121">Percentage of peer-to-peer sessions that experienced an unexpected error. Calculated by dividing the Unexpected failure volume by the Total sessions.</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-219"><strong>Prozentsatz der unerwarteten Fehler</strong></span><span class="sxs-lookup"><span data-stu-id="8bca0-219"><strong>Unexpected failure percentage</strong></span></span></p></td>
+<td><p><span data-ttu-id="8bca0-220">Nein</span><span class="sxs-lookup"><span data-stu-id="8bca0-220">No</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-p121">Der Prozentsatz der Peer-zu-Peer-Sitzungen, bei denen ein unerwarteter Fehler aufgetreten ist. Errechnet sich durch Dividieren der Anzahl der unerwarteten Fehler durch die Gesamtzahl der Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="8bca0-p121">Percentage of peer-to-peer sessions that experienced an unexpected error. Calculated by dividing the Unexpected failure volume by the Total sessions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="5d4d9-223"><strong>Sitzungen insgesamt</strong></span><span class="sxs-lookup"><span data-stu-id="5d4d9-223"><strong>Total sessions</strong></span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-224">Nein</span><span class="sxs-lookup"><span data-stu-id="5d4d9-224">No</span></span></p></td>
-<td><p><span data-ttu-id="5d4d9-225">Die Gesamtzahl der Sitzungen, einschließlich Sitzungen ohne Fehler, Sitzungen mit Fehlern (sowohl erwarteten als auch unerwarteten) und nicht kategorisierten Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="5d4d9-225">Total number of sessions, including successful sessions, failed sessions (both expected failures and unexpected failures), and uncategorized sessions.</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-223"><strong>Sitzungen insgesamt</strong></span><span class="sxs-lookup"><span data-stu-id="8bca0-223"><strong>Total sessions</strong></span></span></p></td>
+<td><p><span data-ttu-id="8bca0-224">Nein</span><span class="sxs-lookup"><span data-stu-id="8bca0-224">No</span></span></p></td>
+<td><p><span data-ttu-id="8bca0-225">Die Gesamtzahl der Sitzungen, einschließlich Sitzungen ohne Fehler, Sitzungen mit Fehlern (sowohl erwarteten als auch unerwarteten) und nicht kategorisierten Sitzungen.</span><span class="sxs-lookup"><span data-stu-id="8bca0-225">Total number of sessions, including successful sessions, failed sessions (both expected failures and unexpected failures), and uncategorized sessions.</span></span></p></td>
 </tr>
 </tbody>
 </table>

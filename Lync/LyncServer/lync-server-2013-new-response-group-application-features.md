@@ -12,20 +12,20 @@ ms:contentKeyID: 48184196
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2538c6698875a0a96ce4e7dc7a46aa7cb9ed8e1
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 37263eeb099ea468713526c20a2c6b14bed0694d
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153565"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42216771"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="new-response-group-application-features-in-lync-server-2013"></a><span data-ttu-id="c8ed8-102">Neue Reaktionsgruppenanwendung Features in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c8ed8-102">New Response Group application features in Lync Server 2013</span></span>
+# <a name="new-response-group-application-features-in-lync-server-2013"></a><span data-ttu-id="08a74-102">Neue Reaktionsgruppenanwendung Features in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="08a74-102">New Response Group application features in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42153565"
 
 <span> </span>
 
-<span data-ttu-id="c8ed8-103">_**Letztes Änderungsstand des Themas:** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="c8ed8-103">_**Topic Last Modified:** 2012-10-29_</span></span>
+<span data-ttu-id="08a74-103">_**Letztes Änderungsstand des Themas:** 2012-10-29_</span><span class="sxs-lookup"><span data-stu-id="08a74-103">_**Topic Last Modified:** 2012-10-29_</span></span>
 
-<span data-ttu-id="c8ed8-104">Mithilfe der Reaktionsgruppenanwendung können Sie eingehende Anrufe an benannte Personen mit speziellen Aufgabenbereichen weiterleiten – z. B. an den Kundendienst, ein internes Helpdesk oder die allgemeine Telefonunterstützung für eine Abteilung – oder den Anruf in der Warteschleife platzieren.</span><span class="sxs-lookup"><span data-stu-id="c8ed8-104">With the Response Group application, you can route and queue incoming calls to designated persons for special purposes, such as customer service, an internal help desk, or general telephone support for a department.</span></span>
+<span data-ttu-id="08a74-104">Mithilfe der Reaktionsgruppenanwendung können Sie eingehende Anrufe an benannte Personen mit speziellen Aufgabenbereichen weiterleiten – z. B. an den Kundendienst, ein internes Helpdesk oder die allgemeine Telefonunterstützung für eine Abteilung – oder den Anruf in der Warteschleife platzieren.</span><span class="sxs-lookup"><span data-stu-id="08a74-104">With the Response Group application, you can route and queue incoming calls to designated persons for special purposes, such as customer service, an internal help desk, or general telephone support for a department.</span></span>
 
-<span data-ttu-id="c8ed8-105">Die folgenden Reaktionsgruppenanwendung Features sind in lync Server 2013 neu:</span><span class="sxs-lookup"><span data-stu-id="c8ed8-105">The following Response Group application features are new in Lync Server 2013:</span></span>
+<span data-ttu-id="08a74-105">Die folgenden Reaktionsgruppenanwendung Features sind in lync Server 2013 neu:</span><span class="sxs-lookup"><span data-stu-id="08a74-105">The following Response Group application features are new in Lync Server 2013:</span></span>
 
-  - <span data-ttu-id="c8ed8-106">**Manager-Rolle**</span><span class="sxs-lookup"><span data-stu-id="c8ed8-106">**Manager role**</span></span>
+  - <span data-ttu-id="08a74-106">**Manager-Rolle**</span><span class="sxs-lookup"><span data-stu-id="08a74-106">**Manager role**</span></span>
     
-    <span data-ttu-id="c8ed8-107">Lync Server 2013 stellt eine neue Rolle für Reaktionsgruppen-Manager vor.</span><span class="sxs-lookup"><span data-stu-id="c8ed8-107">Lync Server 2013 introduces a new Response Group Manager role.</span></span> <span data-ttu-id="c8ed8-108">Nun gibt es zwei Verwaltungsrollen für Reaktionsgruppen: Reaktionsgruppen-Manager und Reaktionsgruppen Administrator.</span><span class="sxs-lookup"><span data-stu-id="c8ed8-108">Now there are two management roles for response groups: Response Group Manager and Response Group Administrator.</span></span> <span data-ttu-id="c8ed8-109">Während Reaktionsgruppen Administratoren immer noch ein beliebiges Element für eine beliebige Reaktionsgruppe konfigurieren können, können Manager nur bestimmte Elemente konfigurieren, nur für Ihre eigenen Reaktionsgruppen.</span><span class="sxs-lookup"><span data-stu-id="c8ed8-109">While Response Group Administrators can still configure any element for any response group, Managers can configure only certain elements, only for response groups they own.</span></span>
+    <span data-ttu-id="08a74-107">Lync Server 2013 stellt eine neue Rolle für Reaktionsgruppen-Manager vor.</span><span class="sxs-lookup"><span data-stu-id="08a74-107">Lync Server 2013 introduces a new Response Group Manager role.</span></span> <span data-ttu-id="08a74-108">Nun gibt es zwei Verwaltungsrollen für Reaktionsgruppen: Reaktionsgruppen-Manager und Reaktionsgruppen Administrator.</span><span class="sxs-lookup"><span data-stu-id="08a74-108">Now there are two management roles for response groups: Response Group Manager and Response Group Administrator.</span></span> <span data-ttu-id="08a74-109">Während Reaktionsgruppen Administratoren immer noch ein beliebiges Element für eine beliebige Reaktionsgruppe konfigurieren können, können Manager nur bestimmte Elemente konfigurieren, nur für Ihre eigenen Reaktionsgruppen.</span><span class="sxs-lookup"><span data-stu-id="08a74-109">While Response Group Administrators can still configure any element for any response group, Managers can configure only certain elements, only for response groups they own.</span></span>
     
-    <span data-ttu-id="c8ed8-110">Dies stellt – insbesondere mit Blick auf umfangreiche Bereitstellungsszenarien – eine Verbesserung im Verwaltungsmodell bezüglich der Skalierbarkeit von Reaktionsgruppen dar.</span><span class="sxs-lookup"><span data-stu-id="c8ed8-110">This improvement in the administration model benefits Response Group scalability, especially for large deployment scenarios.</span></span>
+    <span data-ttu-id="08a74-110">Dies stellt – insbesondere mit Blick auf umfangreiche Bereitstellungsszenarien – eine Verbesserung im Verwaltungsmodell bezüglich der Skalierbarkeit von Reaktionsgruppen dar.</span><span class="sxs-lookup"><span data-stu-id="08a74-110">This improvement in the administration model benefits Response Group scalability, especially for large deployment scenarios.</span></span>
 
-  - <span data-ttu-id="c8ed8-111">**Hochverfügbarkeit**</span><span class="sxs-lookup"><span data-stu-id="c8ed8-111">**High availability**</span></span>
+  - <span data-ttu-id="08a74-111">**Hochverfügbarkeit**</span><span class="sxs-lookup"><span data-stu-id="08a74-111">**High availability**</span></span>
     
-    <span data-ttu-id="c8ed8-112">Die Unterstützung für hohe Verfügbarkeit für den Reaktionsgruppenanwendung in Form von SQL Server Spiegelung wird als Teil der Gesamtkonfiguration und der Bereitstellung der hohen Verfügbarkeit für lync Server 2013 aktiviert.</span><span class="sxs-lookup"><span data-stu-id="c8ed8-112">High availability support for the Response Group application, in the form of SQL Server mirroring, is enabled as part of the overall configuration and deployment of high availability for Lync Server 2013.</span></span> <span data-ttu-id="c8ed8-113">Wenn Sie Ihre Konfiguration auf hohe Verfügbarkeit auslegen und es zu einer Unterbrechung der Verbindung zum primären Back-End-Server kommt, ist die Reaktionsgruppenfunktion davon nicht beeinträchtigt, weil auf einen gespiegelten Back-End-Server zugegriffen werden kann.</span><span class="sxs-lookup"><span data-stu-id="c8ed8-113">If you configure for high availability and lose connectivity to the primary back-end server, Response Group functionality is not affected by leveraging the mirrored back-end server.</span></span>
+    <span data-ttu-id="08a74-112">Die Unterstützung für hohe Verfügbarkeit für den Reaktionsgruppenanwendung in Form von SQL Server Spiegelung wird als Teil der Gesamtkonfiguration und der Bereitstellung der hohen Verfügbarkeit für lync Server 2013 aktiviert.</span><span class="sxs-lookup"><span data-stu-id="08a74-112">High availability support for the Response Group application, in the form of SQL Server mirroring, is enabled as part of the overall configuration and deployment of high availability for Lync Server 2013.</span></span> <span data-ttu-id="08a74-113">Wenn Sie Ihre Konfiguration auf hohe Verfügbarkeit auslegen und es zu einer Unterbrechung der Verbindung zum primären Back-End-Server kommt, ist die Reaktionsgruppenfunktion davon nicht beeinträchtigt, weil auf einen gespiegelten Back-End-Server zugegriffen werden kann.</span><span class="sxs-lookup"><span data-stu-id="08a74-113">If you configure for high availability and lose connectivity to the primary back-end server, Response Group functionality is not affected by leveraging the mirrored back-end server.</span></span>
     
-    <span data-ttu-id="c8ed8-114">Unterstützung für SQL Server Spiegelung für das Reaktionsgruppenanwendung kann nicht einzeln aktiviert oder konfiguriert werden, außerhalb der gesamten lync Server 2013 Konfiguration für hohe Verfügbarkeit.</span><span class="sxs-lookup"><span data-stu-id="c8ed8-114">Support for SQL Server mirroring for the Response Group application can’t be individually enabled or configured outside of the overall Lync Server 2013 high availability configuration.</span></span>
+    <span data-ttu-id="08a74-114">Unterstützung für SQL Server Spiegelung für das Reaktionsgruppenanwendung kann nicht einzeln aktiviert oder konfiguriert werden, außerhalb der gesamten lync Server 2013 Konfiguration für hohe Verfügbarkeit.</span><span class="sxs-lookup"><span data-stu-id="08a74-114">Support for SQL Server mirroring for the Response Group application can’t be individually enabled or configured outside of the overall Lync Server 2013 high availability configuration.</span></span>
 
-  - <span data-ttu-id="c8ed8-115">**Notfallwiederherstellung**</span><span class="sxs-lookup"><span data-stu-id="c8ed8-115">**Disaster recovery**</span></span>
+  - <span data-ttu-id="08a74-115">**Notfallwiederherstellung**</span><span class="sxs-lookup"><span data-stu-id="08a74-115">**Disaster recovery**</span></span>
     
-    <span data-ttu-id="c8ed8-116">Die Unterstützung für die Notfallwiederherstellung für den Reaktionsgruppenanwendung wird als Teil der Konfiguration und Bereitstellung der gekoppelten Front-End-Pools aktiviert, die Teil der gesamten lync Server 2013 Notfall Wiederherstellungskonfiguration sind.</span><span class="sxs-lookup"><span data-stu-id="c8ed8-116">Disaster recovery support for the Response Group application is enabled as part of the configuration and deployment of the paired Front End pools, which are part of the overall Lync Server 2013 disaster recovery configuration.</span></span> <span data-ttu-id="c8ed8-117">Darüber hinaus unterstützen die Cmdlets der Reaktionsgruppe den Failoverprozess zum Sicherungspool sowie den Failbackprozess zum primären oder zu einem neuen Pool.</span><span class="sxs-lookup"><span data-stu-id="c8ed8-117">In addition, Response Group import and export cmdlets support the failover process to the backup pool and the failback process to the primary pool or to a new pool.</span></span> <span data-ttu-id="c8ed8-118">Bei einem Ausfall des primären Pools kann für die Reaktionsgruppen ein Failover zum Sicherungspool durchgeführt werden, und nach der Wiederherstellung kann ein Failback zum primären oder zu einem neuen Pool durchgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="c8ed8-118">If an outage occurs in the primary pool, response groups can be failed over to the backup pool, and then failed back to the primary pool or to a new pool when the outage is over.</span></span>
+    <span data-ttu-id="08a74-116">Die Unterstützung für die Notfallwiederherstellung für den Reaktionsgruppenanwendung wird als Teil der Konfiguration und Bereitstellung der gekoppelten Front-End-Pools aktiviert, die Teil der gesamten lync Server 2013 Notfall Wiederherstellungskonfiguration sind.</span><span class="sxs-lookup"><span data-stu-id="08a74-116">Disaster recovery support for the Response Group application is enabled as part of the configuration and deployment of the paired Front End pools, which are part of the overall Lync Server 2013 disaster recovery configuration.</span></span> <span data-ttu-id="08a74-117">Darüber hinaus unterstützen die Cmdlets der Reaktionsgruppe den Failoverprozess zum Sicherungspool sowie den Failbackprozess zum primären oder zu einem neuen Pool.</span><span class="sxs-lookup"><span data-stu-id="08a74-117">In addition, Response Group import and export cmdlets support the failover process to the backup pool and the failback process to the primary pool or to a new pool.</span></span> <span data-ttu-id="08a74-118">Bei einem Ausfall des primären Pools kann für die Reaktionsgruppen ein Failover zum Sicherungspool durchgeführt werden, und nach der Wiederherstellung kann ein Failback zum primären oder zu einem neuen Pool durchgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="08a74-118">If an outage occurs in the primary pool, response groups can be failed over to the backup pool, and then failed back to the primary pool or to a new pool when the outage is over.</span></span>
 
 <div id="sectionSection0" class="section">
 
@@ -63,10 +63,10 @@ ms.locfileid: "42153565"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="c8ed8-119">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="c8ed8-119">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="08a74-119">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="08a74-119">See Also</span></span>
 
 
-[<span data-ttu-id="c8ed8-120">Planen von Reaktionsgruppen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c8ed8-120">Planning for response groups in Lync Server 2013</span></span>](lync-server-2013-planning-for-response-groups.md)  
+[<span data-ttu-id="08a74-120">Planen von Reaktionsgruppen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="08a74-120">Planning for response groups in Lync Server 2013</span></span>](lync-server-2013-planning-for-response-groups.md)  
   
 
 </div>
