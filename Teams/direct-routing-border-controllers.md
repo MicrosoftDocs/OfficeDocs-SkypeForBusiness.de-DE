@@ -17,12 +17,12 @@ hideEdit: true
 f1.keywords:
 - NOCSH
 description: Microsoft arbeitet mit ausgewählten SBC-Anbietern zusammen, um ihre SBCs für den Einsatz mit direktem Routing zu zertifizieren.
-ms.openlocfilehash: b574911c2d819e665f088ec8be12f24e1830daf2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 3e442a2afd61c3d5c39ac8edc89fa128131ac468
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837585"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214411"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 
@@ -53,21 +53,27 @@ Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierte
 |                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   Ausstehend     |  7.20A.250  |    |    |    
 |                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  7.20A.250   |    |    |                                                                       
 |                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  7.20A.250 |    |    |    
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 7.2       |  Intrado ERS <br>Intrado EGW |   Nein |    
-|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 7.2       |   Intrado ERS <br>Intrado EGW  | Nein   |    
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  Intrado ERS <br>Intrado EGW    |Nein|    
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   Intrado ERS <br>Intrado EGW  |  Nein  |    
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   Intrado ERS <br>Intrado EGW |   Nein |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 (Build 537)     |  Intrado ERS <br>Intrado EGW   |  Ausstehend  |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (Build 537)     |  Intrado ERS <br>Intrado EGW  |  Ausstehend  |    
-|                                                                                                                     |    Lite SBC Schwedisch     |     &#10004;     |  &#10004;    |      v 8.0.3 (Build 216)    |  Intrado ERS <br>Intrado EGW   |  Ausstehend  |    
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |   Ausstehend    |       V1.4       |     |    |    
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   Intrado ERS <br>Intrado EGW  |    |    
-|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |   Intrado ERS <br>Intrado EGW  |    |    
-|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   Intrado ERS <br>Intrado EGW |    |    
-|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  Intrado ERS <br>Intrado EGW  |    |    
-|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   Intrado ERS <br>Intrado EGW |    |                                            
-|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   Intrado ERS <br>Intrado EGW  |    |    
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V 7.2       | <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Red Sky Horizon-Mobilität </li> </ul> |   Nein |    
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V 7.2       |  <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Red Sky Horizon-Mobilität </li> </ul> | Nein   |    
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Red Sky Horizon-Mobilität </li> </ul>  |Nein|    
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Red Sky Horizon-Mobilität </li> </ul> |  Nein  |    
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   <ul> <li>Intrado ERS </li> <li>Intrado EGW</li> <li> Red Sky Horizon-Mobilität </li> </ul> |   Nein |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 (Build 537)     |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |         |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (Build 537)     |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |           |    
+|                                                                                                                     |    Lite SBC Schwedisch     |     &#10004;     |  &#10004;    |      v 8.0.3 (Build 216)    |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>    |           |    
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    Think 365 SBC    |     &#10004;     |           |       V1.4       |     |    |    
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
+|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |    
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |    
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |  <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>  |    |                                            
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   <ul> <li> Intrado ERS </li> <li>Intrado EGW </li> </ul>   |    |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
+
+In der folgenden Tabelle sind Geräte aufgeführt, die für die Interoperabilität zwischen direktem Routing und analogen Geräten überprüft werden.
+
+|                                                       Anbieter                                                        |       Produkt       | Überprüft
+|---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   [ATA-1](https://www.audiocodes.com/media/2373/mp-1xx-and-mp-124-datasheet.pdf)   |     &#10004;     |
 
 Wenn Sie uns Produktfeedback zu Teams geben möchten, beispielsweise Ideen für neue Features, lesen Sie [UserVoice](https://microsoftteams.uservoice.com) beachten Sie die Zertifizierung, die einer Hauptversion gewährt wird. Das bedeutet, dass Firmware mit einer beliebigen Anzahl in der SBC-Firmware nach der Hauptversion unterstützt wird.

@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: In diesem Thema erfahren Sie, wie Sie die medienumgehung mit dem direkten Routing des Telefonsystems planen.
-ms.openlocfilehash: 98f09d00960615c09dca8dcd78275a418d650f3e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7c7d82d1ac13ec1612403ba5fd20471e72173122
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835975"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214486"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -317,28 +317,28 @@ In der folgenden Tabelle wird der Portbereich der Medien Prozessoren (für alle 
 UDP/SRTP | Medienprozessor | Sbchttps | 49 152 – 53 247    | Im SBC definiert |
 | UDP/SRTP | Sbchttps | Medienprozessor | Im SBC definiert | 49 152 – 53 247     |
 
-## <a name="considerations-if-you-have-skype-for-business-phones-in-your-network"></a>Überlegungen, ob Skype for Business-Telefone in Ihrem Netzwerk vorhanden sind  
+## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Konfigurieren separater Trunks für medienumgehung und nicht medienumgehung  
 
-Wenn Sie über Skype for Business-Endpunkte in Ihrem Netzwerk verfügen, die Direktes Routing verwenden – beispielsweise kann ein Team Benutzer über ein 3PIP-Telefon verfügen, das auf dem Skype for Business-Client basiert – die medienumgehung auf dem Stamm, der diesen Benutzern dient, muss deaktiviert sein.
-
-Sie können einen separaten trunk für diese Benutzer erstellen und ihm eine Online-VoIP-Routing Richtlinie zuweisen.
+Wenn Sie von einer nicht-medienumgehung zur medienumgehung migrieren und die Funktionalität vor dem Migrieren aller Nutzungen zur medienumgehung bestätigen möchten, können Sie einen separaten trunk und eine separate Online-VoIP-Routing Richtlinie erstellen, um Sie an den Medien Umgehungs trunk weiterzuleiten und bestimmten Benutzer. 
 
 Konfigurationsschritte auf höherer Ebene:
 
-- Benutzer nach Typ teilen – je nachdem, ob der Benutzer ein 3PIP-Telefon hat oder nicht.
+- Identifizieren Sie Benutzer, um die medienumgehung zu testen.
 
 - Erstellen Sie zwei getrennte Stämme mit unterschiedlichen FQDNs: eine für die medienumgehung aktivierte Option; der andere nicht. 
 
   Beide Trunks zeigen auf denselben SBC. Die Ports für TLS-SIP-Signalisierungen müssen unterschiedlich sein. Die Ports für Medien müssen identisch sein.
 
-- Weisen Sie den richtigen trunk abhängig vom Typ des Benutzers in der Online-VoIP-Routing Richtlinie zu.
+- Erstellen Sie eine neue Online-VoIP-Routing Richtlinie, und weisen Sie den Medien Umgehungs trunk den entsprechenden Routen zu, die der PSTN-Verwendung für diese Richtlinie zugeordnet sind.
+
+- Weisen Sie den Benutzern, die Sie identifiziert haben, die medienumgehung zu testen, die neue Online-VoIP-Routing Richtlinie zu.
 
 Im folgenden Beispiel wird diese Logik veranschaulicht.
 
 | Gruppe von Benutzern | Anzahl der Benutzer | In OVRP zugewiesener trunk-FQDN | Medienumgehung aktiviert |
 | :------------ |:----------------- |:--------------|:--------------|
-Benutzer mit Teams-Clients und 3PIP-Telefonen | 20 | sbc1.contoso.com:5061 | false | 
-Benutzer mit nur Teams-Endpunkten (einschließlich neuer Telefone, die für Teams zertifiziert sind) | 980 | sbc2.contoso.com:5060 | True
+Benutzer mit nicht Medien Umgehungs trunk | 980 | sbc1.contoso.com:5060 | True
+Benutzer mit Medien Umgehungs trunk | 20 | sbc2.contoso.com:5061 | false | 
 
 Beide Trunks können auf denselben SBC mit der gleichen öffentlichen IP-Adresse verweisen. Die TLS-Signalisierungs Anschlüsse auf dem SBC müssen unterschiedlich sein, wie in der nachstehenden Abbildung zu sehen ist. Hinweis Sie müssen sicherstellen, dass Ihr Zertifikat beide Trunks unterstützt. In San benötigen Sie zwei Namen (**sbc1.contoso.com** und **sbc2.contoso.com**) oder ein Platzhalterzertifikat.
 
@@ -354,9 +354,9 @@ Informationen zum Konfigurieren von zwei Stämmen im gleichen SBC finden Sie in 
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>Mit der medienumgehung unterstützte Client Endpunkte
 
-Die medienumgehung wird für alle Endpunkte von Teams unterstützt.
+Die medienumgehung wird für alle Teams-Desktop Clients und Teams-Telefongeräte unterstützt. 
 
-Hinweis für Webclients (Teams Web App in Microsoft Edge, Google Chrome oder Mozilla Firefox) werden wir den Anruf an non-Bypass verdecken, auch wenn er als Bypass-Anruf gestartet wurde. Dies geschieht automatisch und erfordert keine Aktionen des Administrators. 
+Für alle anderen Endpunkte, die keine medienumgehung unterstützen, wird der Anruf an non-Bypass abgestellt, auch wenn er als Bypass-Anruf gestartet wurde. Dies geschieht automatisch und erfordert keine Aktionen des Administrators. Dazu gehören Skype for Business 3PIP-Telefone und Teams-Webclients, die direkte Routing Anrufe unterstützen (neuer Microsoft Edge basierend auf Chrom, Google Chrome, Mozilla Firefox). 
  
 ## <a name="see-also"></a>Siehe auch
 

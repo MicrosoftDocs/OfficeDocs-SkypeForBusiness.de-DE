@@ -12,16 +12,16 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 718dda9966b79ca75f64df115dc9a6ba30d15619
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3679999bc12f606fe338652e8bef22e455cec9ef
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42136993"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42214671"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -124,7 +124,7 @@ Sobald diese Änderung aktiv ist, können wir keine e-Mail-Updates mehr für aus
 
 2.  Warten Sie, bis die Bestätigung angezeigt wird, dass Ihre Domäne von Microsoft bereitgestellt wurde.
 
-3.  Nachdem Sie die Bestätigung angezeigt haben, aktivieren Sie im lync Admin Center "externe Kommunikation". Weitere Informationen finden Sie unter[http://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](http://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
+3.  Nachdem Sie die Bestätigung angezeigt haben, aktivieren Sie im lync Admin Center "externe Kommunikation". Weitere Informationen finden Sie unter[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
 Diese Reihenfolge ist wichtig.Sie müssen die lokale Konnektivität einrichten, bevor Sie die Kommunikation in lync Online aktivieren. Wenn die Reihenfolge umgekehrt wird, <https://pic.lync.com> werden die für die lokale Anmeldung eingegebenen Informationen nicht durchlaufen. Wenn Sie lync Online für die externe Kommunikation mit dieser Domäne bereits eingerichtet haben, müssen Sie diese deaktivieren, 24 Stunden warten und erneut starten, indem Sie zuerst Ihre lokalen Informationen eingeben <https://pic.lync.com> und dann die externe Kommunikation für lync Online aktivieren.
 
