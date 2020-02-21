@@ -12,20 +12,20 @@ ms:contentKeyID: 49733871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2fb1ab08c40f511c50197711fccc196437f71b84
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 43472e7fed2fe8010bcc8021b6696886887042d5
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42134881"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42203381"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="call-management-features-for-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="adc75-102">Anrufverwaltungsfunktionen für die Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="adc75-102">Call management features for disaster recovery in Lync Server 2013</span></span>
+# <a name="call-management-features-for-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="e8944-102">Anrufverwaltungsfunktionen für die Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e8944-102">Call management features for disaster recovery in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,28 +35,28 @@ ms.locfileid: "42134881"
 
 <span> </span>
 
-<span data-ttu-id="adc75-103">_**Letztes Änderungsstand des Themas:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="adc75-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="e8944-103">_**Letztes Änderungsstand des Themas:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="e8944-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="adc75-104">Die folgenden Themen enthalten Informationen zu Funktionen für hohe Verfügbarkeit und Notfallwiederherstellung für die Funktionen zur Anrufverwaltung in lync Server.</span><span class="sxs-lookup"><span data-stu-id="adc75-104">The following topics contain information about high availability and disaster recovery features for the call management features in Lync Server.</span></span>
+<span data-ttu-id="e8944-104">Die folgenden Themen enthalten Informationen zu Funktionen für hohe Verfügbarkeit und Notfallwiederherstellung für die Funktionen zur Anrufverwaltung in lync Server.</span><span class="sxs-lookup"><span data-stu-id="e8944-104">The following topics contain information about high availability and disaster recovery features for the call management features in Lync Server.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="adc75-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="adc75-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e8944-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="e8944-105">In This Section</span></span>
 
-  - [<span data-ttu-id="adc75-106">Verwalten von Reaktionsgruppen in lync Server 2013 während eines Notfalls</span><span class="sxs-lookup"><span data-stu-id="adc75-106">Managing response groups in Lync Server 2013 during a disaster</span></span>](lync-server-2013-managing-response-groups-during-a-disaster.md)
+  - [<span data-ttu-id="e8944-106">Verwalten von Reaktionsgruppen in lync Server 2013 während eines Notfalls</span><span class="sxs-lookup"><span data-stu-id="e8944-106">Managing response groups in Lync Server 2013 during a disaster</span></span>](lync-server-2013-managing-response-groups-during-a-disaster.md)
 
-  - [<span data-ttu-id="adc75-107">Verwalten des Anruf Parks während der Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="adc75-107">Manage Call Park during disaster recovery in Lync Server 2013</span></span>](lync-server-2013-manage-call-park-during-disaster-recovery.md)
+  - [<span data-ttu-id="e8944-107">Verwalten des Anruf Parks während der Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e8944-107">Manage Call Park during disaster recovery in Lync Server 2013</span></span>](lync-server-2013-manage-call-park-during-disaster-recovery.md)
 
-  - [<span data-ttu-id="adc75-108">Verwalten von Ankündigungen während der Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="adc75-108">Manage announcements during disaster recovery in Lync Server 2013</span></span>](lync-server-2013-manage-announcements-during-disaster-recovery.md)
+  - [<span data-ttu-id="e8944-108">Verwalten von Ankündigungen während der Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e8944-108">Manage announcements during disaster recovery in Lync Server 2013</span></span>](lync-server-2013-manage-announcements-during-disaster-recovery.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="adc75-109">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="adc75-109">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e8944-109">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="e8944-109">See Also</span></span>
 
 
-[<span data-ttu-id="adc75-110">Verwalten von lync Server 2013 Notfallwiederherstellung, hoher Verfügbarkeit und Sicherungsdienst</span><span class="sxs-lookup"><span data-stu-id="adc75-110">Managing Lync Server 2013 disaster recovery, high availability, and Backup Service</span></span>](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
+[<span data-ttu-id="e8944-110">Verwalten von lync Server 2013 Notfallwiederherstellung, hoher Verfügbarkeit und Sicherungsdienst</span><span class="sxs-lookup"><span data-stu-id="e8944-110">Managing Lync Server 2013 disaster recovery, high availability, and Backup Service</span></span>](lync-server-2013-managing-lync-server-disaster-recovery-high-availability-and-backup-service.md)  
   
 
 </div>

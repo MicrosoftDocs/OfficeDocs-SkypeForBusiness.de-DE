@@ -12,20 +12,20 @@ ms:contentKeyID: 48185775
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa5dd0ea03533198110def58bf744c97bc5efa30
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 683d725994cee4db0d27ce17ec593b96c40ab5d0
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42138916"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42201521"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="qoe-table-details-in-lync-server-2013"></a><span data-ttu-id="c32ca-102">Details der QoE-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-102">QoE table details in Lync Server 2013</span></span>
+# <a name="qoe-table-details-in-lync-server-2013"></a><span data-ttu-id="d53c2-102">Details der QoE-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-102">QoE table details in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,79 +35,79 @@ ms.locfileid: "42138916"
 
 <span> </span>
 
-<span data-ttu-id="c32ca-103">_**Letztes Änderungsstand des Themas:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="c32ca-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+<span data-ttu-id="d53c2-103">_**Letztes Änderungsstand des Themas:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="d53c2-103">_**Topic Last Modified:** 2012-10-02_</span></span>
 
-<span data-ttu-id="c32ca-104">In diesen Abschnitten werden die Spalten in den einzelnen Datenbankschema Tabellen für QoE (Quality of Experience) detailliert beschrieben.</span><span class="sxs-lookup"><span data-stu-id="c32ca-104">These sections detail the columns in each of the Quality of Experience (QoE) database schema tables.</span></span>
+<span data-ttu-id="d53c2-104">In diesen Abschnitten werden die Spalten in den einzelnen Datenbankschema Tabellen für QoE (Quality of Experience) detailliert beschrieben.</span><span class="sxs-lookup"><span data-stu-id="d53c2-104">These sections detail the columns in each of the Quality of Experience (QoE) database schema tables.</span></span>
 
-  - [<span data-ttu-id="c32ca-105">AppliedBandwidthSource-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-105">AppliedBandwidthSource table in Lync Server 2013</span></span>](lync-server-2013-appliedbandwidthsource-table.md)
+  - [<span data-ttu-id="d53c2-105">AppliedBandwidthSource-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-105">AppliedBandwidthSource table in Lync Server 2013</span></span>](lync-server-2013-appliedbandwidthsource-table.md)
 
-  - [<span data-ttu-id="c32ca-106">AppSharingMetricsThreshold-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-106">AppSharingMetricsThreshold table in Lync Server 2013</span></span>](lync-server-2013-appsharingmetricsthreshold-table.md)
+  - [<span data-ttu-id="d53c2-106">AppSharingMetricsThreshold-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-106">AppSharingMetricsThreshold table in Lync Server 2013</span></span>](lync-server-2013-appsharingmetricsthreshold-table.md)
 
-  - [<span data-ttu-id="c32ca-107">AppSharingStream-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-107">AppSharingStream table in Lync Server 2013</span></span>](lync-server-2013-appsharingstream-table.md)
+  - [<span data-ttu-id="d53c2-107">AppSharingStream-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-107">AppSharingStream table in Lync Server 2013</span></span>](lync-server-2013-appsharingstream-table.md)
 
-  - [<span data-ttu-id="c32ca-108">AudioClientEvent-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-108">AudioClientEvent table in Lync Server 2013</span></span>](lync-server-2013-audioclientevent-table.md)
+  - [<span data-ttu-id="d53c2-108">AudioClientEvent-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-108">AudioClientEvent table in Lync Server 2013</span></span>](lync-server-2013-audioclientevent-table.md)
 
-  - [<span data-ttu-id="c32ca-109">AudioSignal-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-109">AudioSignal table in Lync Server 2013</span></span>](lync-server-2013-audiosignal-table.md)
+  - [<span data-ttu-id="d53c2-109">AudioSignal-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-109">AudioSignal table in Lync Server 2013</span></span>](lync-server-2013-audiosignal-table.md)
 
-  - [<span data-ttu-id="c32ca-110">AudioStream-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-110">AudioStream table in Lync Server 2013</span></span>](lync-server-2013-audiostream-table.md)
+  - [<span data-ttu-id="d53c2-110">AudioStream-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-110">AudioStream table in Lync Server 2013</span></span>](lync-server-2013-audiostream-table.md)
 
-  - [<span data-ttu-id="c32ca-111">CodecDescription-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-111">CodecDescription table in Lync Server 2013</span></span>](lync-server-2013-codecdescription-table.md)
+  - [<span data-ttu-id="d53c2-111">CodecDescription-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-111">CodecDescription table in Lync Server 2013</span></span>](lync-server-2013-codecdescription-table.md)
 
-  - [<span data-ttu-id="c32ca-112">Konferenz Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-112">Conference table in Lync Server 2013</span></span>](lync-server-2013-conference-table.md)
+  - [<span data-ttu-id="d53c2-112">Konferenz Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-112">Conference table in Lync Server 2013</span></span>](lync-server-2013-conference-table.md)
 
-  - [<span data-ttu-id="c32ca-113">Gerätetabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-113">Device table in Lync Server 2013</span></span>](lync-server-2013-device-table.md)
+  - [<span data-ttu-id="d53c2-113">Gerätetabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-113">Device table in Lync Server 2013</span></span>](lync-server-2013-device-table.md)
 
-  - [<span data-ttu-id="c32ca-114">ACPITreiber-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-114">DeviceDriver table in Lync Server 2013</span></span>](lync-server-2013-devicedriver-table.md)
+  - [<span data-ttu-id="d53c2-114">ACPITreiber-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-114">DeviceDriver table in Lync Server 2013</span></span>](lync-server-2013-devicedriver-table.md)
 
-  - [<span data-ttu-id="c32ca-115">Dialog Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-115">Dialog table in Lync Server 2013</span></span>](lync-server-2013-dialog-table.md)
+  - [<span data-ttu-id="d53c2-115">Dialog Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-115">Dialog table in Lync Server 2013</span></span>](lync-server-2013-dialog-table.md)
 
-  - [<span data-ttu-id="c32ca-116">Endpunkt Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-116">Endpoint table in Lync Server 2013</span></span>](lync-server-2013-endpoint-table.md)
+  - [<span data-ttu-id="d53c2-116">Endpunkt Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-116">Endpoint table in Lync Server 2013</span></span>](lync-server-2013-endpoint-table.md)
 
-  - [<span data-ttu-id="c32ca-117">EndpointSubnet-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-117">EndpointSubnet table in Lync Server 2013</span></span>](lync-server-2013-endpointsubnet-table.md)
+  - [<span data-ttu-id="d53c2-117">EndpointSubnet-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-117">EndpointSubnet table in Lync Server 2013</span></span>](lync-server-2013-endpointsubnet-table.md)
 
-  - [<span data-ttu-id="c32ca-118">IPAddress-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-118">IPAddress table in Lync Server 2013</span></span>](lync-server-2013-ipaddress-table.md)
+  - [<span data-ttu-id="d53c2-118">IPAddress-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-118">IPAddress table in Lync Server 2013</span></span>](lync-server-2013-ipaddress-table.md)
 
-  - [<span data-ttu-id="c32ca-119">MACAddress-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-119">MacAddress table in Lync Server 2013</span></span>](lync-server-2013-macaddress-table.md)
+  - [<span data-ttu-id="d53c2-119">MACAddress-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-119">MacAddress table in Lync Server 2013</span></span>](lync-server-2013-macaddress-table.md)
 
-  - [<span data-ttu-id="c32ca-120">Medientabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-120">MediaLine table in Lync Server 2013</span></span>](lync-server-2013-medialine-table.md)
+  - [<span data-ttu-id="d53c2-120">Medientabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-120">MediaLine table in Lync Server 2013</span></span>](lync-server-2013-medialine-table.md)
 
-  - [<span data-ttu-id="c32ca-121">MonitoredRegionLink-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-121">MonitoredRegionLink table in Lync Server 2013</span></span>](lync-server-2013-monitoredregionlink-table.md)
+  - [<span data-ttu-id="d53c2-121">MonitoredRegionLink-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-121">MonitoredRegionLink table in Lync Server 2013</span></span>](lync-server-2013-monitoredregionlink-table.md)
 
-  - [<span data-ttu-id="c32ca-122">MonitoredUserSiteLink-Tabelle</span><span class="sxs-lookup"><span data-stu-id="c32ca-122">MonitoredUserSiteLink table</span></span>](monitoredusersitelink-table.md)
+  - [<span data-ttu-id="d53c2-122">MonitoredUserSiteLink-Tabelle</span><span class="sxs-lookup"><span data-stu-id="d53c2-122">MonitoredUserSiteLink table</span></span>](monitoredusersitelink-table.md)
 
-  - [<span data-ttu-id="c32ca-123">NetworkConnectionDetail-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-123">NetworkConnectionDetail table in Lync Server 2013</span></span>](lync-server-2013-networkconnectiondetail-table.md)
+  - [<span data-ttu-id="d53c2-123">NetworkConnectionDetail-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-123">NetworkConnectionDetail table in Lync Server 2013</span></span>](lync-server-2013-networkconnectiondetail-table.md)
 
-  - [<span data-ttu-id="c32ca-124">PayloadDescription-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-124">PayloadDescription table in Lync Server 2013</span></span>](lync-server-2013-payloaddescription-table.md)
+  - [<span data-ttu-id="d53c2-124">PayloadDescription-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-124">PayloadDescription table in Lync Server 2013</span></span>](lync-server-2013-payloaddescription-table.md)
 
-  - [<span data-ttu-id="c32ca-125">Pool Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-125">Pool table in Lync Server 2013</span></span>](lync-server-2013-pool-table.md)
+  - [<span data-ttu-id="d53c2-125">Pool Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-125">Pool table in Lync Server 2013</span></span>](lync-server-2013-pool-table.md)
 
-  - [<span data-ttu-id="c32ca-126">PurgeSettings-Tabelle (QoE) in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-126">PurgeSettings table (QoE) in Lync Server 2013</span></span>](lync-server-2013-purgesettings-table-qoe.md)
+  - [<span data-ttu-id="d53c2-126">PurgeSettings-Tabelle (QoE) in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-126">PurgeSettings table (QoE) in Lync Server 2013</span></span>](lync-server-2013-purgesettings-table-qoe.md)
 
-  - [<span data-ttu-id="c32ca-127">Region-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-127">Region table in Lync Server 2013</span></span>](lync-server-2013-region-table.md)
+  - [<span data-ttu-id="d53c2-127">Region-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-127">Region table in Lync Server 2013</span></span>](lync-server-2013-region-table.md)
 
-  - [<span data-ttu-id="c32ca-128">Server Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-128">Server table in Lync Server 2013</span></span>](lync-server-2013-server-table.md)
+  - [<span data-ttu-id="d53c2-128">Server Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-128">Server table in Lync Server 2013</span></span>](lync-server-2013-server-table.md)
 
-  - [<span data-ttu-id="c32ca-129">Sitzungstabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-129">Session table in Lync Server 2013</span></span>](lync-server-2013-session-table.md)
+  - [<span data-ttu-id="d53c2-129">Sitzungstabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-129">Session table in Lync Server 2013</span></span>](lync-server-2013-session-table.md)
 
-  - [<span data-ttu-id="c32ca-130">SessionCorrelation-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-130">SessionCorrelation table in Lync Server 2013</span></span>](lync-server-2013-sessioncorrelation-table.md)
+  - [<span data-ttu-id="d53c2-130">SessionCorrelation-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-130">SessionCorrelation table in Lync Server 2013</span></span>](lync-server-2013-sessioncorrelation-table.md)
 
-  - [<span data-ttu-id="c32ca-131">Subnet-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-131">Subnet table in Lync Server 2013</span></span>](lync-server-2013-subnet-table.md)
+  - [<span data-ttu-id="d53c2-131">Subnet-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-131">Subnet table in Lync Server 2013</span></span>](lync-server-2013-subnet-table.md)
 
-  - [<span data-ttu-id="c32ca-132">TraceRoute-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-132">TraceRoute table in Lync Server 2013</span></span>](lync-server-2013-traceroute-table.md)
+  - [<span data-ttu-id="d53c2-132">TraceRoute-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-132">TraceRoute table in Lync Server 2013</span></span>](lync-server-2013-traceroute-table.md)
 
-  - [<span data-ttu-id="c32ca-133">Benutzertabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-133">User table in Lync Server 2013</span></span>](lync-server-2013-user-table.md)
+  - [<span data-ttu-id="d53c2-133">Benutzertabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-133">User table in Lync Server 2013</span></span>](lync-server-2013-user-table.md)
 
-  - [<span data-ttu-id="c32ca-134">UserAgent-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-134">UserAgent table in Lync Server 2013</span></span>](lync-server-2013-useragent-table.md)
+  - [<span data-ttu-id="d53c2-134">UserAgent-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-134">UserAgent table in Lync Server 2013</span></span>](lync-server-2013-useragent-table.md)
 
-  - [<span data-ttu-id="c32ca-135">UserAgentDef-Tabelle (QoE) in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-135">UserAgentDef table (QoE) in Lync Server 2013</span></span>](lync-server-2013-useragentdef-table-qoe.md)
+  - [<span data-ttu-id="d53c2-135">UserAgentDef-Tabelle (QoE) in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-135">UserAgentDef table (QoE) in Lync Server 2013</span></span>](lync-server-2013-useragentdef-table-qoe.md)
 
-  - [<span data-ttu-id="c32ca-136">UserSite-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-136">UserSite table in Lync Server 2013</span></span>](lync-server-2013-usersite-table.md)
+  - [<span data-ttu-id="d53c2-136">UserSite-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-136">UserSite table in Lync Server 2013</span></span>](lync-server-2013-usersite-table.md)
 
-  - [<span data-ttu-id="c32ca-137">Video Client Event-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-137">VideoClientEvent table in Lync Server 2013</span></span>](lync-server-2013-videoclientevent-table.md)
+  - [<span data-ttu-id="d53c2-137">Video Client Event-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-137">VideoClientEvent table in Lync Server 2013</span></span>](lync-server-2013-videoclientevent-table.md)
 
-  - [<span data-ttu-id="c32ca-138">VideoMetricsThreshold-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-138">VideoMetricsThreshold table in Lync Server 2013</span></span>](lync-server-2013-videometricsthreshold-table.md)
+  - [<span data-ttu-id="d53c2-138">VideoMetricsThreshold-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-138">VideoMetricsThreshold table in Lync Server 2013</span></span>](lync-server-2013-videometricsthreshold-table.md)
 
-  - [<span data-ttu-id="c32ca-139">Videostream-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c32ca-139">VideoStream table in Lync Server 2013</span></span>](lync-server-2013-videostream-table.md)
+  - [<span data-ttu-id="d53c2-139">Videostream-Tabelle in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d53c2-139">VideoStream table in Lync Server 2013</span></span>](lync-server-2013-videostream-table.md)
 
 </div>
 

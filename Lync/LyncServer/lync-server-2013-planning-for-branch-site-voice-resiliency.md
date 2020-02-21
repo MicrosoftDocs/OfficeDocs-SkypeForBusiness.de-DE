@@ -12,20 +12,20 @@ ms:contentKeyID: 48184351
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56d340fbc45287dba232e19f7ba2d0ee74c847fc
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: fb6b586a1d98e5ec557a3f459bafe870f1f24467
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42152975"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42202181"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-branch-site-voice-resiliency-in-lync-server-2013"></a><span data-ttu-id="4c4a0-102">Planen von VoIP-Ausfallsicherheit für Zweigstellenstandorte in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4c4a0-102">Planning for branch-site voice resiliency in Lync Server 2013</span></span>
+# <a name="planning-for-branch-site-voice-resiliency-in-lync-server-2013"></a><span data-ttu-id="c35ed-102">Planen von VoIP-Ausfallsicherheit für Zweigstellenstandorte in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c35ed-102">Planning for branch-site voice resiliency in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,27 +35,27 @@ ms.locfileid: "42152975"
 
 <span> </span>
 
-<span data-ttu-id="4c4a0-103">_**Letztes Änderungsstand des Themas:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="4c4a0-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="c35ed-103">_**Letztes Änderungsstand des Themas:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="c35ed-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="4c4a0-104">Wenn Sie Ausfallsicherheit für Zweigstellenstandorte bieten möchten, also einen Enterprise-VoIP-Dienst mit hoher Verfügbarkeit, stehen Ihnen drei Optionen zur Verfügung:</span><span class="sxs-lookup"><span data-stu-id="4c4a0-104">If you want to provide branch-site resiliency, that is, high-availability Enterprise Voice service, you have three options for doing so:</span></span>
+<span data-ttu-id="c35ed-104">Wenn Sie Ausfallsicherheit für Zweigstellenstandorte bieten möchten, also einen Enterprise-VoIP-Dienst mit hoher Verfügbarkeit, stehen Ihnen drei Optionen zur Verfügung:</span><span class="sxs-lookup"><span data-stu-id="c35ed-104">If you want to provide branch-site resiliency, that is, high-availability Enterprise Voice service, you have three options for doing so:</span></span>
 
-  - <span data-ttu-id="4c4a0-105">Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="4c4a0-105">Survivable Branch Appliance</span></span>
+  - <span data-ttu-id="c35ed-105">Survivable Branch Appliance</span><span class="sxs-lookup"><span data-stu-id="c35ed-105">Survivable Branch Appliance</span></span>
 
-  - <span data-ttu-id="4c4a0-106">Survivable Branch Server</span><span class="sxs-lookup"><span data-stu-id="4c4a0-106">Survivable Branch Server</span></span>
+  - <span data-ttu-id="c35ed-106">Survivable Branch Server</span><span class="sxs-lookup"><span data-stu-id="c35ed-106">Survivable Branch Server</span></span>
 
-  - <span data-ttu-id="4c4a0-107">Eine vollständige lync Server-Bereitstellung am Zweigstellenstandort</span><span class="sxs-lookup"><span data-stu-id="4c4a0-107">A full Lync Server deployment at the branch site</span></span>
+  - <span data-ttu-id="c35ed-107">Eine vollständige lync Server-Bereitstellung am Zweigstellenstandort</span><span class="sxs-lookup"><span data-stu-id="c35ed-107">A full Lync Server deployment at the branch site</span></span>
 
-<span data-ttu-id="4c4a0-p101">Dieses Handbuch unterstützt Sie bei der Auswertung, welche Ausfallsicherheitslösung am besten für Ihre Organisation geeignet ist. Zudem erfahren Sie, welche PSTN-Anbindung für Ihre Ausfallsicherheitslösung verwendet werden sollte. Darüber hinaus erhalten Sie Unterstützung bei der Vorbereitung auf die Bereitstellung der gewählten Lösung, indem die Voraussetzungen und andere Planungsaspekte erläutert werden.</span><span class="sxs-lookup"><span data-stu-id="4c4a0-p101">This guide will help you evaluate which resiliency solution is best for your organization and, based on your resiliency solution, which PSTN-connectivity solution to use. It will also help you prepare to deploy the solution that you choose by describing prerequisites and other planning considerations.</span></span>
+<span data-ttu-id="c35ed-p101">Dieses Handbuch unterstützt Sie bei der Auswertung, welche Ausfallsicherheitslösung am besten für Ihre Organisation geeignet ist. Zudem erfahren Sie, welche PSTN-Anbindung für Ihre Ausfallsicherheitslösung verwendet werden sollte. Darüber hinaus erhalten Sie Unterstützung bei der Vorbereitung auf die Bereitstellung der gewählten Lösung, indem die Voraussetzungen und andere Planungsaspekte erläutert werden.</span><span class="sxs-lookup"><span data-stu-id="c35ed-p101">This guide will help you evaluate which resiliency solution is best for your organization and, based on your resiliency solution, which PSTN-connectivity solution to use. It will also help you prepare to deploy the solution that you choose by describing prerequisites and other planning considerations.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4c4a0-110">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="4c4a0-110">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="c35ed-110">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="c35ed-110">In This Section</span></span>
 
-  - [<span data-ttu-id="4c4a0-111">Ausfallsicherheit für Zweigstellenstandorte in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4c4a0-111">Branch-site resiliency features in Lync Server 2013</span></span>](lync-server-2013-branch-site-resiliency-features.md)
+  - [<span data-ttu-id="c35ed-111">Ausfallsicherheit für Zweigstellenstandorte in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c35ed-111">Branch-site resiliency features in Lync Server 2013</span></span>](lync-server-2013-branch-site-resiliency-features.md)
 
-  - [<span data-ttu-id="4c4a0-112">Ausfall Sicherheitslösungen für Zweigstellenstandorte in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4c4a0-112">Branch-site resiliency solutions in Lync Server 2013</span></span>](lync-server-2013-branch-site-resiliency-solutions.md)
+  - [<span data-ttu-id="c35ed-112">Ausfall Sicherheitslösungen für Zweigstellenstandorte in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c35ed-112">Branch-site resiliency solutions in Lync Server 2013</span></span>](lync-server-2013-branch-site-resiliency-solutions.md)
 
-  - [<span data-ttu-id="4c4a0-113">Anforderungen für Ausfallsicherheit für Zweigstellenstandorte für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4c4a0-113">Branch-site resiliency requirements for Lync Server 2013</span></span>](lync-server-2013-branch-site-resiliency-requirements.md)
+  - [<span data-ttu-id="c35ed-113">Anforderungen für Ausfallsicherheit für Zweigstellenstandorte für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c35ed-113">Branch-site resiliency requirements for Lync Server 2013</span></span>](lync-server-2013-branch-site-resiliency-requirements.md)
 
 </div>
 

@@ -12,20 +12,20 @@ ms:contentKeyID: 48183797
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 582cbfdf7ba382927f6a3591aef39c0cb2104098
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 46ad3d884751c75c3b17fde1843dcdb7df63ad7b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142831"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42200398"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="setting-up-systems-and-infrastructure-for-archiving-in-lync-server-2013"></a><span data-ttu-id="2d321-102">Einrichten von Systemen und Infrastruktur für die Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d321-102">Setting up systems and infrastructure for Archiving in Lync Server 2013</span></span>
+# <a name="setting-up-systems-and-infrastructure-for-archiving-in-lync-server-2013"></a><span data-ttu-id="3a2aa-102">Einrichten von Systemen und Infrastruktur für die Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a2aa-102">Setting up systems and infrastructure for Archiving in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,21 +35,21 @@ ms.locfileid: "42142831"
 
 <span> </span>
 
-<span data-ttu-id="2d321-103">_**Letztes Änderungsstand des Themas:** 2012-06-23_</span><span class="sxs-lookup"><span data-stu-id="2d321-103">_**Topic Last Modified:** 2012-06-23_</span></span>
+<span data-ttu-id="3a2aa-103">_**Letztes Änderungsstand des Themas:** 2012-06-23_</span><span class="sxs-lookup"><span data-stu-id="3a2aa-103">_**Topic Last Modified:** 2012-06-23_</span></span>
 
-<span data-ttu-id="2d321-104">Vor der Archivierungsbereitstellung müssen Sie die entsprechende Hardware und Software zur Unterstützung der Archivierung bereitstellen und überprüfen, ob Ihre Infrastruktur die Archivierungsbereitstellung unterstützt.</span><span class="sxs-lookup"><span data-stu-id="2d321-104">Before you deploy archiving, you need to deploy the appropriate hardware and software to support archiving and verify that your infrastructure supports your Archiving deployment.</span></span>
+<span data-ttu-id="3a2aa-104">Vor der Archivierungsbereitstellung müssen Sie die entsprechende Hardware und Software zur Unterstützung der Archivierung bereitstellen und überprüfen, ob Ihre Infrastruktur die Archivierungsbereitstellung unterstützt.</span><span class="sxs-lookup"><span data-stu-id="3a2aa-104">Before you deploy archiving, you need to deploy the appropriate hardware and software to support archiving and verify that your infrastructure supports your Archiving deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="2d321-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="2d321-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3a2aa-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="3a2aa-105">In This Section</span></span>
 
-  - [<span data-ttu-id="2d321-106">Einrichten von Systemplattformen für die Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d321-106">Setting up system platforms for Archiving in Lync Server 2013</span></span>](lync-server-2013-setting-up-system-platforms-for-archiving.md)
+  - [<span data-ttu-id="3a2aa-106">Einrichten von Systemplattformen für die Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a2aa-106">Setting up system platforms for Archiving in Lync Server 2013</span></span>](lync-server-2013-setting-up-system-platforms-for-archiving.md)
 
-  - [<span data-ttu-id="2d321-107">Einrichten der Infrastruktur für die Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d321-107">Setting up the infrastructure for Archiving in Lync Server 2013</span></span>](lync-server-2013-setting-up-the-infrastructure-for-archiving.md)
+  - [<span data-ttu-id="3a2aa-107">Einrichten der Infrastruktur für die Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a2aa-107">Setting up the infrastructure for Archiving in Lync Server 2013</span></span>](lync-server-2013-setting-up-the-infrastructure-for-archiving.md)
 
-  - [<span data-ttu-id="2d321-108">Einrichten des Speichers für die Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d321-108">Setting up storage for Archiving in Lync Server 2013</span></span>](lync-server-2013-setting-up-storage-for-archiving.md)
+  - [<span data-ttu-id="3a2aa-108">Einrichten des Speichers für die Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a2aa-108">Setting up storage for Archiving in Lync Server 2013</span></span>](lync-server-2013-setting-up-storage-for-archiving.md)
 
-  - [<span data-ttu-id="2d321-109">Einrichten von Berechtigungen für die Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2d321-109">Setting up permissions for Archiving in Lync Server 2013</span></span>](lync-server-2013-setting-up-permissions-for-archiving.md)
+  - [<span data-ttu-id="3a2aa-109">Einrichten von Berechtigungen für die Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3a2aa-109">Setting up permissions for Archiving in Lync Server 2013</span></span>](lync-server-2013-setting-up-permissions-for-archiving.md)
 
 </div>
 
