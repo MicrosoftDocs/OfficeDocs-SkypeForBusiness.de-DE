@@ -12,16 +12,16 @@ ms:contentKeyID: 59170234
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c6f21e6a58b9130ab93f827f14aad4bd09cbb33
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: be14e3dedf39883a81a040ed31ae38d2966ab647
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42142461"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42208281"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -43,7 +43,7 @@ _**Letztes Änderungsstand des Themas:** 2013-10-07_
 
 Dieser Artikel enthält Informationen zur Unterstützung von öffentlichen Instant Messaging-Verbindungen (PIC). PIC ist ein Feature von Microsoft lync, mit dem Organisationen ihre lync-Benutzer über Ihre lync-Clients und-Identitäten mit Benutzern bestimmter öffentlicher Chat Dienste (Instant Messaging) verbinden können.
 
-Endbenutzer profitieren davon, dass Sie mit ihren Geschäftsbedingungen eine Verbindung mit Kunden, Partnern und Anbietern herstellen können. Es profitiert von der Unterstützung eines einzelnen Echt Zeit Kommunikations Clients bei gleichzeitiger Beibehaltung der Steuerungs-, Compliance-und Archivierungsfunktionen von lync. Die lync-Skype-Konnektivität, die [im Mai 2013 öffentlich verfügbar](https://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx)ist, beruht auf dem Vermächtnis, das lync/Office Communications Server (OCS)/Live Communications Server (LCS) zunächst mit pic in Verbindung mit MSN/Windows Live, AOL und Yahoo eingerichtet hat.Weitere Informationen zur lync-Skype-Konnektivität finden Sie in der [lync-Skype-Konnektivität](http://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx). Partnerverbund mit Windows Live, AOL und Yahoo sind jeweils auf einem Pfad zum Ende der Lebensdauer.Auf dieser Seite wird der Status der einzelnen Dienste dokumentiert.
+Endbenutzer profitieren davon, dass Sie mit ihren Geschäftsbedingungen eine Verbindung mit Kunden, Partnern und Anbietern herstellen können. Es profitiert von der Unterstützung eines einzelnen Echt Zeit Kommunikations Clients bei gleichzeitiger Beibehaltung der Steuerungs-, Compliance-und Archivierungsfunktionen von lync. Die lync-Skype-Konnektivität, die [im Mai 2013 öffentlich verfügbar](https://blogs.technet.com/b/lync/archive/2013/05/23/lync-skype-connectivity-available-today.aspx)ist, beruht auf dem Vermächtnis, das lync/Office Communications Server (OCS)/Live Communications Server (LCS) zunächst mit pic in Verbindung mit MSN/Windows Live, AOL und Yahoo eingerichtet hat.Weitere Informationen zur lync-Skype-Konnektivität finden Sie in der [lync-Skype-Konnektivität](https://office.microsoft.com/lync/lync-skype-connectivity-fx103789635.aspx). Partnerverbund mit Windows Live, AOL und Yahoo sind jeweils auf einem Pfad zum Ende der Lebensdauer.Auf dieser Seite wird der Status der einzelnen Dienste dokumentiert.
 
 Für die Verwendung von PIC mussten Kunden den Dienst für jeden öffentlichen Sofortnachrichten-Dienstanbieter aktivieren. Die Anforderungen und Details für die Vorgehensweise hängen vom Chat Dienstanbieter und dem zugrunde liegenden Lizenzierungsprogramm des Kunden ab.
 

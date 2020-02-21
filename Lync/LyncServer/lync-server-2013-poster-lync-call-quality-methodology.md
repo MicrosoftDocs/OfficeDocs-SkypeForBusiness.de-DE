@@ -12,16 +12,16 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e35627633839f294cebced6df47a90919e7fc5ef
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: caff54dd2919bacfda02fceff138650f90bae650
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42139156"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42208782"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
@@ -103,7 +103,7 @@ Nachdem Sie eine Straße für den Anfang ausgewählt haben, definieren Sie ein Z
 
 ## <a name="pcd"></a>PCD
 
-Das precall Diagnostics Tool (PCD) hilft Ihnen bei der Identifizierung und Diagnose von Problemen in Ihrem Umkreisnetzwerk (die QoE-Datenbank sammelt keine Informationen im Edge-oder Umkreisnetzwerk) und auch zur Problembehandlung von Verbindungen in der letzten Meile. Das Tool ist sowohl als Windows 8 moderne App als auch als Windows http://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88-Desktop-App verfügbar.
+Das precall Diagnostics Tool (PCD) hilft Ihnen bei der Identifizierung und Diagnose von Problemen in Ihrem Umkreisnetzwerk (die QoE-Datenbank sammelt keine Informationen im Edge-oder Umkreisnetzwerk) und auch zur Problembehandlung von Verbindungen in der letzten Meile. Das Tool ist sowohl als Windows 8 moderne App als auch als Windows https://apps.microsoft.com/windows/en-us/app/lync-2013-precall-diagnostics/9607fe33-2b51-403d-9615-c23f248e7c88-Desktop-App verfügbar.
 
 </div>
 
