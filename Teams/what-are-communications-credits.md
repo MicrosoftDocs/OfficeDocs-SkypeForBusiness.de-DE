@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Informieren Sie sich, welche Kommunikationsguthaben (PSTN-Verbrauch) Abrechnung, wie Sie Gebühren finden und welche Dienste Sie erhalten. '
-ms.openlocfilehash: c071ebf297714e81cdb8a508ebf313d0054fe633
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 682d2d9fb89c0cee46ca6fb0e856a6000e4c6386
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051569"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161726"
 ---
 # <a name="what-are-communications-credits"></a>Was ist Guthaben für Kommunikationen?
 
@@ -68,7 +68,7 @@ Sie können die verbrauchsbasierte Abrechnung mit einer **einmaligen Einzahlung*
 > [!NOTE]
 > Sie können sich die Pläne und Preise ansehen, indem Sie sich beim [Microsoft 365 Admin Center anmelden](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) und zu **Abrechnungs** > **Abonnements** > Abonnements**Hinzufügen**wechseln. 
   
-In den **Microsoft 365 Admin Center** > -**Abrechnungs** > **Abonnements**können Sie jederzeit Guthaben manuell hinzufügen. Sie können auch die Option für automatisches **aufladen** aktivieren, die automatische Kontoauffüllung zulässt, wenn der Saldo unter den festgelegten Grenzwert fällt. Wenn Sie sich entscheiden, Ihr Guthaben für Kommunikationsguthaben mit einem einmaligen Betrag zu finanzieren, und der Saldo auf Null fällt, funktionieren die oben genannten zusätzlichen Anrufszenarien nicht mehr, darunter gebührenfreie Telefonnummern. Daher empfiehlt es sich, dass Sie die Einstellung für das **Automatische aufladen** verwenden, um eine Unterbrechung des Service zu vermeiden, wenn Ihr Guthaben für Kommunikationsguthaben 0 (null) erreicht. Sie erhalten eine e-Mail-Nachricht, wenn das Aufladen von Transaktionen erfolgreich ist, das Aufladen von Transaktionen fehlschlägt (wie eine abgelaufene Kreditkarte) und oder Ihr Guthaben für Kommunikationsguthaben 0 (null) erreicht.
+Im **Microsoft 365 Admin Center** > **Billing** > **Purchase Services** > -**Add-ons** können Sie Kommunikationsguthaben auswählen, um die Guthaben hinzuzufügen, und Sie können Guthaben jederzeit manuell hinzufügen. Sie können auch die Option für automatisches **aufladen** aktivieren, die automatische Kontoauffüllung zulässt, wenn der Saldo unter den festgelegten Grenzwert fällt. Wenn Sie sich entscheiden, Ihr Guthaben für Kommunikationsguthaben mit einem einmaligen Betrag zu finanzieren, und der Saldo auf Null fällt, funktionieren die oben genannten zusätzlichen Anrufszenarien nicht mehr, darunter gebührenfreie Telefonnummern. Daher empfiehlt es sich, dass Sie die Einstellung für das **Automatische aufladen** verwenden, um eine Unterbrechung des Service zu vermeiden, wenn Ihr Guthaben für Kommunikationsguthaben 0 (null) erreicht. Sie erhalten eine e-Mail-Nachricht, wenn das Aufladen von Transaktionen erfolgreich ist, das Aufladen von Transaktionen fehlschlägt (wie eine abgelaufene Kreditkarte) und oder Ihr Guthaben für Kommunikationsguthaben 0 (null) erreicht.
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

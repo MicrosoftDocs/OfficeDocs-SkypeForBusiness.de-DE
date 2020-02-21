@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: Erfahren Sie, wie die Datenstromqualität im Anrufqualitäts-Dashboard für Microsoft-Teams und Skype for Business Online klassifiziert wird.
-ms.openlocfilehash: bb1c96f92ae683f02d5972f8fa11afe15e3c5a92
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2c70126c86a6e9f0a8bc48c8fffa90142fe5928f
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837905"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160739"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Datenstromklassifizierung im Anrufqualitäts-Dashboard
 
@@ -48,8 +48,17 @@ Wenn eine oder mehrere der folgenden Bedingungen erfüllt sind, wird ein Audiost
 |Ratio Concealed Samples Avg|> 0,07|Durchschnittliches Verhältnis der Anzahl von Audioframes mit verborgenen Samples, die durch Paketverlust-Heilung an die Gesamtzahl der Audioframes generiert wurden.|
 ||||
 
-### <a name="video-classifier"></a>Video-Klassifizierung
+### <a name="video-classifier-due-to-freeze"></a>Video Klassifizierung durch Einfrieren
 
+Der Videostream wird basierend auf dem Wert eines Klassifizierungs Ergebnisses als " _gut_ " oder " _schlecht_ " gekennzeichnet, um zu schätzen, dass der Endbenutzer ein gefrorenes Video erlebt hat. Diese Klassifizierung steht nur für Microsoft Teams-Produkt zur Verfügung.
+
+|Schritt #|Metrik|Szenario|Bedingung |Klassifizierung, wenn die Bedingung wahr ist |Klassifizierung, wenn die Bedingung falsch ist |Klassifizierung, wenn die Metrik nicht verfügbar ist |Erklärung |
+|:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
+|1|Schlechte Video Qualität durch Einfrieren der Klassifizierung |Is-Serverpaar ist Client: Server|>0,246|_Poor_|_Good_|_Unclassified_|Eine Punktzahl zwischen 0 und 1, die auf der Grundlage einer Kombination aus Benutzererfahrung, Statistiken für Freeze-Dauer und Anruferlebnis insgesamt generiert wird |
+|2|Schlechte Video Qualität durch Einfrieren der Klassifizierung |Is-Server Paar ist Client: Client|>0,524|_Poor_|_Good_|_Unclassified_|Eine Punktzahl zwischen 0 und 1, die auf der Grundlage einer Kombination aus Benutzererfahrung, Statistiken für Freeze-Dauer und Anruferlebnis insgesamt generiert wird |
+|  |  |  |  |  |  |  |
+
+### <a name="video-classifier"></a>Video-Klassifizierung
 Ein Videostream wird basierend auf dem Wert der ersten verfügbaren Metrik in der folgenden Reihenfolge als " _gut_ " oder " _schlecht_ " gekennzeichnet:
 
 |Schritt #|Metrik|Bedingung |Klassifizierung, wenn die Bedingung wahr ist |Klassifizierung, wenn die Bedingung falsch ist |Klassifizierung, wenn die Metrik nicht verfügbar ist |Erklärung |
@@ -112,3 +121,4 @@ Wenn die Ice-Konnektivität für einen nicht _klassifizierten_ Datenstrom erfolg
 [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
 [Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+ 

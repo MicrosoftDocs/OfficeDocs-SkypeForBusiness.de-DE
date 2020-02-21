@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20fd9372c34fd189868aa32882115bee3f6c6f8f
-ms.sourcegitcommit: 346b58b5d5ea0d2ec68891275628dfde32c074fe
+ms.openlocfilehash: ed0ea94910e9b3b5499a1f23a6c1c081590957c7
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41977527"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160569"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -41,22 +41,23 @@ In der folgenden Tabelle werden die für die Teammitglieder und ihre Gäste des 
 
 |**Funktionen in Teams**|**Teams-Benutzer in der Organisation**|**Gastbenutzer**|
 |:-----|:-----|:-----|
-|Kanal erstellen  <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|An einem privaten Chat teilnehmen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|An einer Kanalunterhaltung teilnehmen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Nachrichten posten, löschen und bearbeiten  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Kanaldatei freigeben  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Chatdatei freigeben  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Apps hinzufügen (Registerkarten, Bots oder Connectors)  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Erstellen von Besprechungen oder Zugriffsplänen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Access OneDrive for Business-Speicher  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Mandantenweite Gastzugriffsrichtlinien für Teams/Kanäle erstellen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Benutzer außerhalb der Office 365-Mandantendomäne einladen <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Team erstellen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Öffentliches Team finden und daran teilnehmen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Organisationschat anzeigen  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Verwenden der Inline Übersetzung  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Teambesitzer werden  <br/> |![Ein Symbol mit einem Häkchen ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Kanal erstellen  <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> |&#x2713;|&#x2713;|
+|An einem privaten Chat teilnehmen  <br/> |&#x2713;|&#x2713;|
+|An einer Kanalunterhaltung teilnehmen  <br/> |&#x2713;|&#x2713;|
+|Nachrichten posten, löschen und bearbeiten  <br/> |&#x2713;|&#x2713;|
+|Kanaldatei freigeben  <br/> |&#x2713;|&#x2713;|
+|Chatdatei freigeben  <br/> |&#x2713;||
+|Apps hinzufügen (Registerkarten, Bots oder Connectors)  <br/> |&#x2713;||
+|Erstellen von Besprechungen oder Zugriffsplänen  <br/> |&#x2713;||
+|Access OneDrive for Business-Speicher  <br/> |&#x2713;||
+|Mandantenweite Gastzugriffsrichtlinien für Teams/Kanäle erstellen  <br/> |&#x2713;||
+|Benutzer außerhalb der Office 365-Mandantendomäne einladen <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> <br/> |&#x2713;||
+|Team erstellen  <br/> |&#x2713;||
+|Öffentliches Team finden und daran teilnehmen  <br/> |&#x2713;||
+|Organisationschat anzeigen  <br/> |&#x2713;||
+|Verwenden der Inline Übersetzung  <br/> |&#x2713;||
+|Teambesitzer werden  <br/> |&#x2713;||
+
    
 In der folgenden Tabelle sind die für Gäste verfügbaren Anruf-und besprechungsfeatures im Vergleich zu anderen Benutzertypen aufgeführt.
 

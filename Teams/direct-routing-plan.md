@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie mit dem Microsoft Phone System Direct Routing einen unterstützten, vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: d279792315aec17df10f5c1335306147c7080287
-ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
+ms.openlocfilehash: 347a8a7dd64831281c1c9e2f94f2bea24fb18555
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41953776"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160709"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -311,7 +311,7 @@ Gilt für Case-und Non-Bypass-Fälle in der medienumgehung.
 Die direkte Routing Schnittstelle auf dem Bein zwischen dem Session Border Controller und dem Cloud Media Processor (ohne medienumgehung) oder zwischen dem Teams-Client und dem SBC (sofern die medienumgehung aktiviert ist) kann die folgenden Codecs verwenden:
 
 - Nicht medienumgehung (SBC to Cloud Media Processor): Seide, g. 711, g. 722, g. 729
-- Medienumgehung (SBC to Teams Client): Seide, g. 711, g. 722, g. 729, Opus
+- Medienumgehung (SBC to Teams Client): Seide, g. 711, g. 722, g. 729
 
 Sie können die Verwendung des jeweiligen Codecs auf dem Session Border Controller erzwingen, indem Sie unerwünschte Codecs aus dem Angebot ausschließen.
 

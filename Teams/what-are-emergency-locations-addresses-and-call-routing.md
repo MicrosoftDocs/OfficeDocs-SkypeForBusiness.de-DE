@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 - Direct Routing
 description: Informieren Sie sich über Notrufe, einschließlich Informationen zu Notfalladressen, Routing von Notrufen und dynamischen Notrufen.
-ms.openlocfilehash: 010a1d3afd6ea1fa490b506b82c46c31bf3a4fa2
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 85a09880c1eec83851208197c008c8aaafac88f6
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836675"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161688"
 ---
 # <a name="manage-emergency-calling"></a>Notfallanrufe verwalten
 
@@ -157,9 +157,9 @@ Teams-Clients für Direct Routing-Benutzer können eine dynamische Notfalladress
 
 ### <a name="emergency-call-routing"></a>Notfall-Anrufweiterleitung
 
-Der TeamsEmergencyCallRoutingPolicy verweist auf eine Online-PSTN-Nutzung, die über die entsprechende Direct Routing-Konfiguration verfügen muss, um die Notrufe an das entsprechende PSTN-Gateway (s) weiterleiten zu können. Insbesondere müssen Sie sicherstellen, dass ein OnlineVoiceRoute für die Notruf Zeichenfolge vorhanden ist. Weitere Informationen finden Sie unter [Konfigurieren des direkten Routings](direct-routing-configure.md#configure-voice-routing). 
+Der TeamsEmergencyCallRoutingPolicy verweist auf eine Online-PSTN-Nutzung, die über die entsprechende Direct Routing-Konfiguration verfügen muss, um die Notrufe an das entsprechende PSTN-Gateway (s) weiterleiten zu können. Insbesondere müssen Sie sicherstellen, dass ein OnlineVoiceRoute für die Notruf Zeichenfolge vorhanden ist. Weitere Informationen finden Sie unter [Konfigurieren des direkten Routings](direct-routing-configure.md). 
 
-(Hinweis: in Skype for Business Server wurde die Notrufnummer mit einem "+"-Präfix versehen, bei dem eine VoIP-Route definiert werden muss, um beispielsweise "+ 911" zu erfüllen. Teams-Clients stellen das "+" nicht mit Notrufnummern voran.)
+(Hinweis: Teams-Clients stellen das "+"-Zeichen vor Notrufnummern auf eine ähnliche Weise voran, wie es der Skype for Business-Client tut; also + 911. Dieses Verhalten wird in den nächsten Monaten so geändert, dass Teams-Notrufe keine "+" mehr senden, die der Nummer vorangehen; Das ist 911.)
 
 Die Möglichkeit zur dynamischen Weiterleitung von Notrufen für Direct Routing-Benutzer hängt vom Netzwerk für Notrufe innerhalb eines bestimmten Landes ab. Es stehen zwei Lösungen zur Verfügung:
 

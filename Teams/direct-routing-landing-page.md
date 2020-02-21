@@ -16,16 +16,16 @@ f1.keywords:
 description: Startseite für direktes Routing
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d146c2188f57dbee3887dd2fd595c1b06a86c30e
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d643c137145649c0843296300a909c520ba653a6
+ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836065"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157903"
 ---
 # <a name="phone-system-direct-routing"></a>Direktes Routing für Telefonsysteme
 
-Sie haben [Erste Schritte](get-started-with-teams-quick-start.md) abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleichthaben Sie [Besprechungen #a0 Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)bereitgestellt. Nun können Sie Cloud-VoIP-Arbeitsauslastungen hinzufügen, und Sie haben sich entschieden, mithilfe des direkten Routings des Telefonsystems ihren eigenen Telefoniedienstanbieter für PSTN-Verbindungen (Public Switched Telephone Network) zu verwenden. Mit der direkten Weiterleitung können Sie das Telefon System mit praktisch jedem Telefonnetzbetreiber verwenden.
+Sie haben [Erste Schritte](get-started-with-teams-quick-start.md) abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleichthaben Sie [Besprechungen & Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)bereitgestellt. Nun können Sie Cloud-VoIP-Arbeitsauslastungen hinzufügen, und Sie haben sich entschieden, mithilfe des direkten Routings des Telefonsystems ihren eigenen Telefoniedienstanbieter für PSTN-Verbindungen (Public Switched Telephone Network) zu verwenden. Mit der direkten Weiterleitung können Sie das Telefon System mit praktisch jedem Telefonnetzbetreiber verwenden.
 
 In diesem Artikel werden die wichtigsten Bereitstellungsentscheidungen für das direkte Routing sowie weitere Überlegungen beschrieben, die Sie je nach den Anforderungen Ihrer Organisation berücksichtigen sollten. Sie sollten auch [Cloud-VoIP in Microsoft Teams](cloud-voice-landing-page.md) lesen, um weitere Informationen zu den Cloud-sprach angeboten von Microsoft zu erhalten.
 
@@ -51,7 +51,7 @@ Dies sind die wichtigsten Entscheidungen, die bei der direkten Weiterleitung zu 
 
 |Frage|Aktion |
 | :------------|:-------|
-|Für welche Benutzer wird die direkte Weiterleitung aktiviert? | Weitere Informationen finden Sie unter [Aktivieren von Benutzern für den direkten Routing Dienst](direct-routing-configure.md#enable-users-for-direct-routing-service). |
+|Für welche Benutzer wird die direkte Weiterleitung aktiviert? | Weitere Informationen finden Sie unter [Aktivieren von Benutzern für den direkten Routing Dienst](direct-routing-configure.md). |
 Habe ich die erforderlichen Lizenzen für die direkte Weiterleitung? | Weitere Informationen finden Sie unter [Lizenzierung und andere Anforderungen](direct-routing-plan.md#licensing-and-other-requirements).
 |||
 
@@ -71,8 +71,8 @@ Sie müssen das Telefon System so konfigurieren, dass die Anrufe an den jeweilig
 
 |Frage|Aktion |
 |:------------|:-------|
-| Welche VoIP-Routing Richtlinien, PSTN-Nutzung und VoIP-Routen muss ich erstellen? | Informationen zum VoIP-Routing finden Sie unter [Konfigurieren des VoIP-Routings](direct-routing-configure.md#configure-voice-routing).
-| Welche Benutzer werden der von mir definierten VoIP-Routing Richtlinie zugewiesen? | Sehen Sie sich die Beispiele unter [Konfigurieren des VoIP-Routings](direct-routing-configure.md#configure-voice-routing)an. |
+| Welche VoIP-Routing Richtlinien, PSTN-Nutzung und VoIP-Routen muss ich erstellen? | Informationen zum VoIP-Routing finden Sie unter [Konfigurieren des VoIP-Routings](direct-routing-configure.md).
+| Welche Benutzer werden der von mir definierten VoIP-Routing Richtlinie zugewiesen? | Sehen Sie sich die Beispiele unter [Konfigurieren des VoIP-Routings](direct-routing-configure.md)an. |
 |||
 
 ### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>Sicherstellen, dass eingehende Anrufe im Team-Client mit TeamsUpgradePolicy landen

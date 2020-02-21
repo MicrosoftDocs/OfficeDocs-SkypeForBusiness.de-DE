@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie einen SBC (Session Border Controller) für die Bereitstellung mehrerer Mandanten konfigurieren.
-ms.openlocfilehash: 7bd313c1b0c6d8078ee3ce80b2a08697dc6040e7
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e0027df53edcec54cbeaef560182ffddc451ecbd
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837275"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160729"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -37,7 +37,7 @@ Ein Netzbetreiber:
 - Verwaltet die Anrufqualität Ende bis Ende.
 - Gebühren separat für PSTN-Dienste.
 
-Microsoft verwaltet keine Netzbetreiber. Microsoft bietet eine Telefonanlage (Microsoft Phone System) und einen Teams-Client, bescheinigt Telefone und bescheinigt SBCS, die mit dem Microsoft-Telefonsystem verwendet werden können. Bevor Sie einen Netzbetreiber auswählen, stellen Sie bitte sicher, dass Ihre Wahl über einen zertifizierten SBC verfügt und die Sprachqualität bis zum Ende verwalten kann.
+Microsoft verwaltet keine Netzbetreiber. Microsoft bietet eine Telefonanlage (Microsoft Phone System) und einen Teams-Client. Microsoft bescheinigt auch Telefone und bescheinigt SBCS, die mit dem Microsoft-Telefon System verwendet werden können. Bevor Sie einen Netzbetreiber auswählen, stellen Sie bitte sicher, dass Ihre Wahl über einen zertifizierten SBC verfügt und die Sprachqualität bis zum Ende verwalten kann.
 
 Im folgenden finden Sie die Schritte zur technischen Implementierung zum Konfigurieren des Szenarios.
 
@@ -215,7 +215,6 @@ Dies hat sich jedoch aus zwei Gründen nicht als optimal erwiesen:
 
 -  **Overhead-Bearbeitung**. Sammeln und Überwachen von trunk-Integritätsdaten – die SIP-Optionen, die aus mehreren logischen Stämmen gesammelt wurden, die in Wirklichkeit derselbe SBC und derselbe physische Stamm sind, verlangsamen die Verarbeitung der Routingdaten.
  
-
 Basierend auf diesem Feedback führt Microsoft eine neue Logik ein, um die Stämme für die Kundenmandanten bereitzustellen.
 
 Es wurden zwei neue Entitäten eingeführt:
@@ -245,4 +244,22 @@ Wir empfehlen, so schnell wie möglich auf die neue Lösung zu migrieren, da wir
  
 
 Lesen Sie dazu die [Anweisungen des SBC-Herstellers](#deploy-and-configure-the-sbc) zum Konfigurieren des Sendens des FQDN-namens von Unterdomänen in der Kontakt Kopfzeile.
+
+## <a name="considerations-for-setting-up-muti-tenant-failover"></a>Überlegungen zum Einrichten eines Muti-Mandanten-Failovers 
+
+Zum Einrichten eines Failovers für eine Multi-Tenant-Umgebung müssen Sie die folgenden Schritte ausführen:
+
+- Fügen Sie für jeden Mandanten die FQDNs für zwei unterschiedliche SBCS hinzu.  Beispiel:
+
+   customer1.sbc1.contoso.com <br>
+   customer2.sbc2.contoso.com <br>
+
+- Geben Sie in den Online-VoIP-Routing Richtlinien der Benutzer beide SBCS.  Wenn ein SBC fehlschlägt, leitet die Routing Richtlinie Anrufe an den zweiten SBC weiter.
+
+
+## <a name="see-also"></a>Siehe auch
+
+[Planen von direktem Routing](direct-routing-plan.md)
+
+[Konfigurieren von direktem Routing](direct-routing-configure.md)
 

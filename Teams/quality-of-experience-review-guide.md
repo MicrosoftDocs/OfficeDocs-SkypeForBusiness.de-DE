@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: siunies
+ms.reviewer: siunies, gageames
 audience: admin
 description: Leitfaden zur Analyse der Echt Zeit Medien Leistung für Microsoft Teams mithilfe des Anruf Qualitäts Dashboards (CQD).
 localization_priority: Normal
@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e11c7d479aeac6eef39fb38588a61c0c7be25a6
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 025bd70c79cdc0547f86514521fd1e565265d4f8
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863396"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42160779"
 ---
 # <a name="quality-of-experience-review-guide"></a>Handbuch für die Überprüfung der QoE (Quality of Experience)
 
@@ -1203,7 +1203,7 @@ Der verfügbare Satz von MOS-und zugehörigen Metriken bietet einen Überblick �
 
 Durch die Bereitstellung von Benutzern mit Geräten, die für Teams und Skype for Business zertifiziert sind, verringern Sie die Wahrscheinlichkeit, dass aufgrund des Geräts selbst negative Erfahrungen auftreten (Dies ist wahrscheinlicher, beispielsweise mit integrierten Laptop-Lautsprechern und Mikrofonen). Weitere Informationen finden Sie in diesen Artikeln im [Zertifizierungsprogramm](/SkypeForBusiness/certification/overview) und im [Partner Lösungskatalog](https://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs).
 
-Die Geräte Berichte werden verwendet, um die Geräteverwendung nach Volumen und MOS Score (nur Audio) zu bewerten, und Sie finden Sie in den zugehörigen Vorlagen unter Clients #a0 Geräten. 
+Die Geräte Berichte werden verwendet, um die Geräteverwendung nach Volumen und MOS Score (nur Audio) zu bewerten, und Sie finden Sie in den zugehörigen Vorlagen unter Clients & Geräten. 
 
 > [!IMPORTANT]
 > Sofern Sie keine Verbund Teilnehmerdaten ausschließen, enthalten diese Berichte die Client-Telemetrie von verbundenen Endpunkten. Zum Ausschließen von Verbundendpunkten müssen Sie einen Abfragefilter für die **zweite Mandanten-ID** für die [Mandanten-ID](#tenant-id)Ihrer Organisation hinzufügen. Alternativ können Sie einen URL- [Filter](#url-filter) verwenden, um die Telemetrie für Teilnehmer auszuschließen.
@@ -1303,7 +1303,7 @@ Weitere Informationen finden Sie in [diesem Artikel unter Medienqualität und Ne
 
 ### <a name="devices"></a>Geräte
 
--   [Skype for Business-Lösungskatalog für persönliche Peripheriegeräte #a0 PCs](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
+-   [Skype for Business-Lösungskatalog für persönliche Peripheriegeräte & PCs](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs)
 
 ### <a name="tenant-reporting"></a>Mandanten Berichterstattung
 
@@ -1314,3 +1314,4 @@ Weitere Informationen finden Sie in [diesem Artikel unter Medienqualität und Ne
 -   [Skype for Business Online-Berichterstellung](/SkypeForBusiness/skype-for-business-online-reporting/skype-for-business-online-reporting)
 
 -   [Microsoft Teams-Berichterstellung](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/New-usage-reports-for-Microsoft-Teams/ba-p/132614)
+ 

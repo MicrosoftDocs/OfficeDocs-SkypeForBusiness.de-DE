@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9bac6ee38c166250746b6ce9f4fb48afe3cbfe2
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 47abe9934c92ce83ab0874a10b2c04ef238b428a
+ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852102"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157893"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Upgrade von Skype for Business auf Teams &mdash; für IT-Administratoren
 
@@ -103,7 +103,7 @@ Da sich Benutzer in einem Auswahlfunktionen-Übergang in der Regel nicht im Modu
 
 Bei einer Organisation, die noch nicht mit der Verwendung von Teams begonnen hat, sollte der Administrator den Mandanten weiten Modus von Inseln in SfbWithTeamsCollab ändern. (Für Organisationen, die bereits über einige Teams verfügen, sollte der Administrator "Großvater"-Benutzer bereits in Teams aktiv sein, um sicherzustellen, dass diese Änderung nicht für Sie gilt. Ausführliche Informationen finden Sie unter [Upgrade für ausgewählte Funktionen für eine Organisation, die bereits Teams im Inseln-Modus verwendet](#a-select-capabilities-upgrade-for-an-organization-that-is-already-using-teams-in-islands-mode).)
 
-Wenn sich der Modus von den Inseln in SfbWithTeamsCollab ändert, sieht ein Benutzer, der nie Teams verwendet hat, keinen Unterschied in der Verwendung von Skype for Business. Sollte der Benutzer jedoch mit der Verwendung von Teams beginnen, würden diese nur Funktionen wie Teams #a0 Kanal und Dateien verfügbar gemacht. Chat, Anruf-und Besprechungsplanung stünden in Teams nicht zur Verfügung, da der Administrator Skype for Business für diese Funktionen als den gewünschten Client vorgesehen hat.  
+Wenn sich der Modus von den Inseln in SfbWithTeamsCollab ändert, sieht ein Benutzer, der nie Teams verwendet hat, keinen Unterschied in der Verwendung von Skype for Business. Sollte der Benutzer jedoch mit der Verwendung von Teams beginnen, würden diese nur Funktionen wie Teams & Kanal und Dateien verfügbar gemacht. Chat, Anruf-und Besprechungsplanung stünden in Teams nicht zur Verfügung, da der Administrator Skype for Business für diese Funktionen als den gewünschten Client vorgesehen hat.  
 
 Hinweis: Wenn der Benutzer eine Änderung von den Inseln zu einem der Skype for Business-Modi durchführt, muss der Team-Client eines anderen Benutzers, der mit dem Benutzer a kommuniziert, wissen, dass der Modus von Benutzer a geändert wurde, damit er die Kommunikation an den entsprechenden Client für Benutzer a weiterleiten kann.  Für Benutzer, die bereits systemeigene Teams-zu-Teams-Chats mit Benutzer A eingerichtet haben, kann es bis zu 36 Stunden dauern, bis sich die Teams-Clients dieser anderen Benutzer über die Änderung des Modus von den Inseln zu einem beliebigen Skype for Business-Modus bewusst sind.   Im Gegensatz dazu werden Änderungen für einen vorhandenen Benutzer in den TeamsOnly-Modus von anderen Clients innerhalb von 2 Stunden erkannt.
 
@@ -423,7 +423,7 @@ Die grundlegenden Schritte sind im folgenden aufgeführt.Die Schritte 1-5 sind i
 
 1. Überprüfen Sie [Diese Liste](direct-routing-border-controllers.md), um sicherzustellen, dass Ihr Session Border Controller (SBC) beim direkten Routing unterstützt wird. Sie müssen auch sicherstellen, dass Sie über die richtige Firmware-Version verfügen.  
 
-2. Koppeln Sie Ihren lokalen SBC mit dem Direct Routing-Dienst von Teams. Ausführliche Informationen finden Sie unter [Koppeln des SBC mit dem Direct Routing-Dienst des Telefonsystems](direct-routing-configure.md#pair-the-sbc-to-the-direct-routing-service-of-phone-system). 
+2. Koppeln Sie Ihren lokalen SBC mit dem Direct Routing-Dienst von Teams. Ausführliche Informationen finden Sie unter [Koppeln des SBC mit dem Direct Routing-Dienst des Telefonsystems](direct-routing-configure.md). 
 
 3. Diese Konfiguration ist im Grunde eine Spiegelung der lokalen Konfiguration. Die Online-Konfiguration besteht aus: 
    - OnlineVoiceRoutingPolicy (basierend auf dem lokalen VoiceRoutingPolicy, wenn Benutzer von Skype for Business Online migriert werden, und basierend auf VoicePolicy, wenn Benutzer von lokal mit Enterprise-VoIP migriert werden).

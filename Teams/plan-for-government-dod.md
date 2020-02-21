@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be952d838135a03a873d7193118febf5639bd415
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 12d9350437867b04a181e62e8b23bb6ed78d8fbc
+ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836855"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42161736"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan für Microsoft 365 Government-DoD-Bereitstellungen
 
@@ -42,7 +42,7 @@ Die Microsoft 365 Government-DoD-Umgebung bietet Konformität mit den Anforderun
 
 Weitere Informationen zum Microsoft 365 Government-DoD-Angebot für US-Government-Kunden finden Sie unter [Office 365 Government-Pläne](https://products.office.com/government/compare-office-365-government-plans), einschließlich der [Teilnahmevoraussetzungen](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-Die [Office 365 US Government Service Description](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) beschreibt die Vorteile der Plattform, die auf die Erfüllung der Compliance-Anforderungen in den USA ausgerichtet sind.
+Die [Office 365 US Government Service Description](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) beschreibt die Vorteile der Plattform, die auf die Erfüllung der Compliance-Anforderungen in den USA ausgerichtet sind.
 
 
 > [!Tip]
@@ -79,6 +79,7 @@ Um den Anforderungen unserer Government Cloud-Kunden gerecht zu werden, gibt es 
 | Basis | Anmeldung | Verfügbar |
 | | Anwesenheit | Verfügbar |
 | | Einheitliche Anwesenheitsinformationen (Skype for Business und Teams Unified) | Auf dem Government-Rückstand |
+| | Linux-Client | Auf dem Government-Rückstand |
 | Aktivität | Feed | Verfügbar |
 |  | Meine Aktivitäten | Verfügbar |
 | Chat | Unterhaltung | Verfügbar |
