@@ -12,20 +12,20 @@ ms:contentKeyID: 48183896
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e243631783948f7a591f05e47780526fa4507564
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f7fe1006d8455fd68c61a4688cd926f36b609e6b
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147058"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187228"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="appendices-survivable-branch-appliances-and-servers-in-lync-server-2013"></a><span data-ttu-id="4cbfe-102">Anhänge: Survivable Branch Appliances und Server in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4cbfe-102">Appendices: Survivable Branch Appliances and Servers in Lync Server 2013</span></span>
+# <a name="appendices-survivable-branch-appliances-and-servers-in-lync-server-2013"></a><span data-ttu-id="53ac4-102">Anhänge: Survivable Branch Appliances und Server in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53ac4-102">Appendices: Survivable Branch Appliances and Servers in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42147058"
 
 <span> </span>
 
-<span data-ttu-id="4cbfe-103">_**Letztes Änderungsstand des Themas:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="4cbfe-103">_**Topic Last Modified:** 2012-06-28_</span></span>
+<span data-ttu-id="53ac4-103">_**Letztes Änderungsstand des Themas:** 2012-06-28_</span><span class="sxs-lookup"><span data-stu-id="53ac4-103">_**Topic Last Modified:** 2012-06-28_</span></span>
 
-<span data-ttu-id="4cbfe-104">Dieser Abschnitt enthält zusätzliche Informationen zu Survivable Branch Appliances und Survivable Branch Servern.</span><span class="sxs-lookup"><span data-stu-id="4cbfe-104">The section provides additional information about Survivable Branch Appliances and Survivable Branch Servers.</span></span>
+<span data-ttu-id="53ac4-104">Dieser Abschnitt enthält zusätzliche Informationen zu Survivable Branch Appliances und Survivable Branch Servern.</span><span class="sxs-lookup"><span data-stu-id="53ac4-104">The section provides additional information about Survivable Branch Appliances and Survivable Branch Servers.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="4cbfe-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="4cbfe-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="53ac4-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="53ac4-105">In This Section</span></span>
 
-  - [<span data-ttu-id="4cbfe-106">Anhang a: Verwenden von Cmdlets zum Bereitstellen eines Survivable Branch Appliance in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4cbfe-106">Appendix A: Using cmdlets to deploy a Survivable Branch Appliance in Lync Server 2013</span></span>](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)
+  - [<span data-ttu-id="53ac4-106">Anhang a: Verwenden von Cmdlets zum Bereitstellen eines Survivable Branch Appliance in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53ac4-106">Appendix A: Using cmdlets to deploy a Survivable Branch Appliance in Lync Server 2013</span></span>](lync-server-2013-appendix-a-using-cmdlets-to-deploy-a-survivable-branch-appliance.md)
 
-  - [<span data-ttu-id="4cbfe-107">Anhang B: Verwalten einer Survivable Branch Appliance in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4cbfe-107">Appendix B: Managing a Survivable Branch Appliance in Lync Server 2013</span></span>](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md)
+  - [<span data-ttu-id="53ac4-107">Anhang B: Verwalten einer Survivable Branch Appliance in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="53ac4-107">Appendix B: Managing a Survivable Branch Appliance in Lync Server 2013</span></span>](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md)
 
 </div>
 

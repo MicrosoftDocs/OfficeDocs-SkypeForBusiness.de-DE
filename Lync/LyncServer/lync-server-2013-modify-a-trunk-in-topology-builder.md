@@ -12,20 +12,20 @@ ms:contentKeyID: 49733709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c82664129cf7eae8b0155fc07b921896203376d4
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 936de680a13a3f9ec851181876ce7a80c1784e52
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42149534"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42184958"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a><span data-ttu-id="0e0c7-102">Ändern eines Trunks im Topologie-Generator in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0e0c7-102">Modify a trunk in Topology Builder in Lync Server 2013</span></span>
+# <a name="modify-a-trunk-in-topology-builder-in-lync-server-2013"></a><span data-ttu-id="74dbc-102">Ändern eines Trunks im Topologie-Generator in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="74dbc-102">Modify a trunk in Topology Builder in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,17 +35,17 @@ ms.locfileid: "42149534"
 
 <span> </span>
 
-<span data-ttu-id="0e0c7-103">_**Letztes Änderungsstand des Themas:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="0e0c7-103">_**Topic Last Modified:** 2012-09-21_</span></span>
+<span data-ttu-id="74dbc-103">_**Letztes Änderungsstand des Themas:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="74dbc-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-<span data-ttu-id="0e0c7-104">Führen Sie die folgenden Schritte aus, um die alternative IP-Adresse für Medien und die alternative ID für die Umgehung eines Trunk zu ändern.</span><span class="sxs-lookup"><span data-stu-id="0e0c7-104">Follow these steps to modify the alternate media IP address and alternate bypass identifier of a trunk.</span></span>
+<span data-ttu-id="74dbc-104">Führen Sie die folgenden Schritte aus, um die alternative IP-Adresse für Medien und die alternative ID für die Umgehung eines Trunk zu ändern.</span><span class="sxs-lookup"><span data-stu-id="74dbc-104">Follow these steps to modify the alternate media IP address and alternate bypass identifier of a trunk.</span></span>
 
 <div>
 
-## <a name="to-modify-the-alternate-media-ip-address-of-a-trunk"></a><span data-ttu-id="0e0c7-105">So ändern Sie die alternative IP-Adresse für Medien eines Trunks</span><span class="sxs-lookup"><span data-stu-id="0e0c7-105">To Modify the Alternate Media IP Address of a Trunk</span></span>
+## <a name="to-modify-the-alternate-media-ip-address-of-a-trunk"></a><span data-ttu-id="74dbc-105">So ändern Sie die alternative IP-Adresse für Medien eines Trunks</span><span class="sxs-lookup"><span data-stu-id="74dbc-105">To Modify the Alternate Media IP Address of a Trunk</span></span>
 
-1.  <span data-ttu-id="0e0c7-106">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="0e0c7-106">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="74dbc-106">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="74dbc-106">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="0e0c7-107">Führen Sie das Cmdlet "CsPstnGateway" aus, und ändern Sie das Feld AlternateBypassId in der lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="0e0c7-107">Run the Set-CsPstnGateway cmdlet and modify the AlternateBypassId field in the Lync Server Management Shell.</span></span>
+2.  <span data-ttu-id="74dbc-107">Führen Sie das Cmdlet "CsPstnGateway" aus, und ändern Sie das Feld AlternateBypassId in der lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="74dbc-107">Run the Set-CsPstnGateway cmdlet and modify the AlternateBypassId field in the Lync Server Management Shell.</span></span>
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -RepresentativeMediaIP <IP address>
 
@@ -53,11 +53,11 @@ ms.locfileid: "42149534"
 
 <div>
 
-## <a name="to-modify-the-alternate-bypassid-of-a-trunk"></a><span data-ttu-id="0e0c7-108">So ändern Sie die alternative ID für die Umgehung eines Trunks</span><span class="sxs-lookup"><span data-stu-id="0e0c7-108">To Modify the Alternate BypassID of a Trunk</span></span>
+## <a name="to-modify-the-alternate-bypassid-of-a-trunk"></a><span data-ttu-id="74dbc-108">So ändern Sie die alternative ID für die Umgehung eines Trunks</span><span class="sxs-lookup"><span data-stu-id="74dbc-108">To Modify the Alternate BypassID of a Trunk</span></span>
 
-1.  <span data-ttu-id="0e0c7-109">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="0e0c7-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+1.  <span data-ttu-id="74dbc-109">Starten Sie die lync Server-Verwaltungsshell: Klicken Sie auf **Start**, dann auf **Alle Programme**, klicken Sie auf **Microsoft lync Server 2013**, und klicken Sie dann auf **lync Server-Verwaltungsshell**.</span><span class="sxs-lookup"><span data-stu-id="74dbc-109">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  <span data-ttu-id="0e0c7-110">Führen Sie das Cmdlet "CsPstnGateway" aus, und ändern Sie das Feld AlternateBypassId in der lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="0e0c7-110">Run the Set-CsPstnGateway cmdlet and modify the AlternateBypassId field in the Lync Server Management Shell.</span></span>
+2.  <span data-ttu-id="74dbc-110">Führen Sie das Cmdlet "CsPstnGateway" aus, und ändern Sie das Feld AlternateBypassId in der lync Server-Verwaltungsshell.</span><span class="sxs-lookup"><span data-stu-id="74dbc-110">Run the Set-CsPstnGateway cmdlet and modify the AlternateBypassId field in the Lync Server Management Shell.</span></span>
     
         Set-CsPstnGateway -Identity "PstnGateway:<peer FQDN> -AlternateBypassID <identifier>
 

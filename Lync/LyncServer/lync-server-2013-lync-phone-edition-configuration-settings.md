@@ -12,20 +12,20 @@ ms:contentKeyID: 49733881
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7754921aa8883941d2969bdd7bd1cf8ef1f2e95e
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: afd0845366471c94ba8afaeb1e8ae05ff604f54f
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42146708"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42186218"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="lync-phone-edition-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="a4736-102">Lync Phone Edition Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a4736-102">Lync Phone Edition configuration settings in Lync Server 2013</span></span>
+# <a name="lync-phone-edition-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="b9fc8-102">Lync Phone Edition Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b9fc8-102">Lync Phone Edition configuration settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,23 +35,23 @@ ms.locfileid: "42146708"
 
 <span> </span>
 
-<span data-ttu-id="a4736-103">_**Letztes Änderungsstand des Themas:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="a4736-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+<span data-ttu-id="b9fc8-103">_**Letztes Änderungsstand des Themas:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="b9fc8-103">_**Topic Last Modified:** 2012-10-10_</span></span>
 
-<span data-ttu-id="a4736-104">Konfigurationseinstellungen für Geräte, auf denen lync Phone Edition wird global angewendet, oder Sie können neue Sammlungen von Einstellungen erstellen, die für eine bestimmte Website gelten.</span><span class="sxs-lookup"><span data-stu-id="a4736-104">Configuration settings for devices running Lync Phone Edition apply globally, or you can create new collections of settings that apply to a particular site.</span></span> <span data-ttu-id="a4736-105">Sammlungen umfassen SIP-Sicherheit, Einstellungen für Geräte Sperren und vieles mehr.</span><span class="sxs-lookup"><span data-stu-id="a4736-105">Collections include SIP security, device lock settings, and more.</span></span>
+<span data-ttu-id="b9fc8-104">Konfigurationseinstellungen für Geräte, auf denen lync Phone Edition wird global angewendet, oder Sie können neue Sammlungen von Einstellungen erstellen, die für eine bestimmte Website gelten.</span><span class="sxs-lookup"><span data-stu-id="b9fc8-104">Configuration settings for devices running Lync Phone Edition apply globally, or you can create new collections of settings that apply to a particular site.</span></span> <span data-ttu-id="b9fc8-105">Sammlungen umfassen SIP-Sicherheit, Einstellungen für Geräte Sperren und vieles mehr.</span><span class="sxs-lookup"><span data-stu-id="b9fc8-105">Collections include SIP security, device lock settings, and more.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a4736-106">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="a4736-106">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="b9fc8-106">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="b9fc8-106">In This Section</span></span>
 
-  - [<span data-ttu-id="a4736-107">Anzeigen von Informationen zu lync Phone Edition Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a4736-107">View Lync Phone Edition configuration settings information in Lync Server 2013</span></span>](lync-server-2013-view-lync-phone-edition-configuration-settings-information.md)
+  - [<span data-ttu-id="b9fc8-107">Anzeigen von Informationen zu lync Phone Edition Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b9fc8-107">View Lync Phone Edition configuration settings information in Lync Server 2013</span></span>](lync-server-2013-view-lync-phone-edition-configuration-settings-information.md)
 
-  - [<span data-ttu-id="a4736-108">Erstellen oder Ändern einer Sammlung von lync Phone Edition Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a4736-108">Create or modify a collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)
+  - [<span data-ttu-id="b9fc8-108">Erstellen oder Ändern einer Sammlung von lync Phone Edition Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b9fc8-108">Create or modify a collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-collection-of-lync-phone-edition-configuration-settings.md)
 
-  - [<span data-ttu-id="a4736-109">Löschen einer vorhandenen Sammlung von lync Phone Edition Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a4736-109">Delete an existing collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)
+  - [<span data-ttu-id="b9fc8-109">Löschen einer vorhandenen Sammlung von lync Phone Edition Konfigurationseinstellungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b9fc8-109">Delete an existing collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)
 
-  - [<span data-ttu-id="a4736-110">Konfigurieren von Sicherheitseinstellungen für lync Phone Edition in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a4736-110">Configure security settings for Lync Phone Edition in Lync Server 2013</span></span>](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)
+  - [<span data-ttu-id="b9fc8-110">Konfigurieren von Sicherheitseinstellungen für lync Phone Edition in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b9fc8-110">Configure security settings for Lync Phone Edition in Lync Server 2013</span></span>](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)
 
-  - [<span data-ttu-id="a4736-111">Erzwingen der Telefonsperre in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a4736-111">Enforce phone locking in Lync Server 2013</span></span>](lync-server-2013-enforce-phone-locking.md)
+  - [<span data-ttu-id="b9fc8-111">Erzwingen der Telefonsperre in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b9fc8-111">Enforce phone locking in Lync Server 2013</span></span>](lync-server-2013-enforce-phone-locking.md)
 
 </div>
 

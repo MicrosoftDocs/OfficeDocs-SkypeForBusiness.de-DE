@@ -12,20 +12,20 @@ ms:contentKeyID: 49733876
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7ee9bd75ce0f9326c06ffda28a48193749a950c
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 89c18076a2bbc34386872a7fbee92c26b8084598
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150286"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42185608"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="managing-lync-server-2013-disaster-recovery-high-availability-and-backup-service"></a><span data-ttu-id="39193-102">Verwalten von lync Server 2013 Notfallwiederherstellung, hoher Verfügbarkeit und Sicherungsdienst</span><span class="sxs-lookup"><span data-stu-id="39193-102">Managing Lync Server 2013 disaster recovery, high availability, and Backup Service</span></span>
+# <a name="managing-lync-server-2013-disaster-recovery-high-availability-and-backup-service"></a><span data-ttu-id="acb18-102">Verwalten von lync Server 2013 Notfallwiederherstellung, hoher Verfügbarkeit und Sicherungsdienst</span><span class="sxs-lookup"><span data-stu-id="acb18-102">Managing Lync Server 2013 disaster recovery, high availability, and Backup Service</span></span>
 
 </div>
 
@@ -35,30 +35,30 @@ ms.locfileid: "42150286"
 
 <span> </span>
 
-<span data-ttu-id="39193-103">_**Letztes Änderungsstand des Themas:** 2012-11-12_</span><span class="sxs-lookup"><span data-stu-id="39193-103">_**Topic Last Modified:** 2012-11-12_</span></span>
+<span data-ttu-id="acb18-103">_**Letztes Änderungsstand des Themas:** 2012-11-12_</span><span class="sxs-lookup"><span data-stu-id="acb18-103">_**Topic Last Modified:** 2012-11-12_</span></span>
 
-<span data-ttu-id="39193-104">Dieser Abschnitt enthält Verfahren für Notfall Wiederherstellungsvorgänge sowie für die Verwaltung des Sicherungsdiensts, der die Daten in paarweise gepaarten Front-End-Pools synchronisiert.</span><span class="sxs-lookup"><span data-stu-id="39193-104">This section contains procedures for disaster recovery operations, as well as for maintaining the Backup Service which synchronizes the data in paired Front End pools.</span></span>
+<span data-ttu-id="acb18-104">Dieser Abschnitt enthält Verfahren für Notfall Wiederherstellungsvorgänge sowie für die Verwaltung des Sicherungsdiensts, der die Daten in paarweise gepaarten Front-End-Pools synchronisiert.</span><span class="sxs-lookup"><span data-stu-id="acb18-104">This section contains procedures for disaster recovery operations, as well as for maintaining the Backup Service which synchronizes the data in paired Front End pools.</span></span>
 
-<span data-ttu-id="39193-105">Notfallwiederherstellungsverfahren, sowohl Failover als auch Failback, sind manuell.</span><span class="sxs-lookup"><span data-stu-id="39193-105">Disaster recovery procedures, both failover and failback, are manual.</span></span> <span data-ttu-id="39193-106">Wenn ein Notfall vorliegt, muss der Administrator die Failover-Verfahren manuell aufrufen.</span><span class="sxs-lookup"><span data-stu-id="39193-106">If there is a disaster, the administrator must manually invoke the failover procedures.</span></span> <span data-ttu-id="39193-107">Gleiches gilt für das Failback, nachdem der Pool repariert wurde.</span><span class="sxs-lookup"><span data-stu-id="39193-107">The same applies to failback after the pool is repaired.</span></span>
+<span data-ttu-id="acb18-105">Notfallwiederherstellungsverfahren, sowohl Failover als auch Failback, sind manuell.</span><span class="sxs-lookup"><span data-stu-id="acb18-105">Disaster recovery procedures, both failover and failback, are manual.</span></span> <span data-ttu-id="acb18-106">Wenn ein Notfall vorliegt, muss der Administrator die Failover-Verfahren manuell aufrufen.</span><span class="sxs-lookup"><span data-stu-id="acb18-106">If there is a disaster, the administrator must manually invoke the failover procedures.</span></span> <span data-ttu-id="acb18-107">Gleiches gilt für das Failback, nachdem der Pool repariert wurde.</span><span class="sxs-lookup"><span data-stu-id="acb18-107">The same applies to failback after the pool is repaired.</span></span>
 
-<span data-ttu-id="39193-108">Für die Notfallwiederherstellungsverfahren im Rest dieses Abschnitts wird Folgendes vorausgesetzt:</span><span class="sxs-lookup"><span data-stu-id="39193-108">The disaster recovery procedures in the rest of this section assume the following:</span></span>
+<span data-ttu-id="acb18-108">Für die Notfallwiederherstellungsverfahren im Rest dieses Abschnitts wird Folgendes vorausgesetzt:</span><span class="sxs-lookup"><span data-stu-id="acb18-108">The disaster recovery procedures in the rest of this section assume the following:</span></span>
 
-  - <span data-ttu-id="39193-109">Sie verfügen über eine Bereitstellung mit paarweise gepaarten Front-End-Pools, die sich an unterschiedlichen Standorten befinden, wie unter [Planung für hohe Verfügbarkeit und Notfallwiederherstellung in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)beschrieben.</span><span class="sxs-lookup"><span data-stu-id="39193-109">You have a deployment with paired Front End pools, located in different sites, as described in [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span> <span data-ttu-id="39193-110">Der Sicherungsdienst wurde für diese gepaarten Pools ausgeführt, damit Sie synchronisiert bleiben.</span><span class="sxs-lookup"><span data-stu-id="39193-110">The Backup Service has been running on these paired pools to keep them synchronized.</span></span>
+  - <span data-ttu-id="acb18-109">Sie verfügen über eine Bereitstellung mit paarweise gepaarten Front-End-Pools, die sich an unterschiedlichen Standorten befinden, wie unter [Planung für hohe Verfügbarkeit und Notfallwiederherstellung in lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)beschrieben.</span><span class="sxs-lookup"><span data-stu-id="acb18-109">You have a deployment with paired Front End pools, located in different sites, as described in [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span> <span data-ttu-id="acb18-110">Der Sicherungsdienst wurde für diese gepaarten Pools ausgeführt, damit Sie synchronisiert bleiben.</span><span class="sxs-lookup"><span data-stu-id="acb18-110">The Backup Service has been running on these paired pools to keep them synchronized.</span></span>
 
-  - <span data-ttu-id="39193-111">Wenn der zentrale Verwaltungsspeicher in einem der Pools gehostet wird, wird er auf beiden Pools installiert und ausgeführt, wobei einer der Pools, die den aktiven Master hosten, und der andere Pool, der den Standby hostet.</span><span class="sxs-lookup"><span data-stu-id="39193-111">If the Central Management store is hosted on either pool, it is installed and running on both of the paired pools, with one of those pools hosting the active master and the other pool hosting the standby.</span></span>
+  - <span data-ttu-id="acb18-111">Wenn der zentrale Verwaltungsspeicher in einem der Pools gehostet wird, wird er auf beiden Pools installiert und ausgeführt, wobei einer der Pools, die den aktiven Master hosten, und der andere Pool, der den Standby hostet.</span><span class="sxs-lookup"><span data-stu-id="acb18-111">If the Central Management store is hosted on either pool, it is installed and running on both of the paired pools, with one of those pools hosting the active master and the other pool hosting the standby.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]
-> <span data-ttu-id="39193-112">In den folgenden Verfahren bezieht sich der Parameter <EM>poolfqdn "</EM> auf den FQDN des Pools, der vom Notfall betroffen ist, und nicht auf den Pool, von dem betroffene Benutzer umgeleitet werden.</span><span class="sxs-lookup"><span data-stu-id="39193-112">In the following procedures, the <EM>PoolFQDN</EM> parameter refers to the FQDN of the pool that is affected by disaster, not the pool that affected users are being redirected from.</span></span> <span data-ttu-id="39193-113">Für dieselbe Gruppe betroffener Benutzer bezieht sich dieser auf denselben Pool sowohl in Failover-als auch in Failback-Cmdlets (also im Pool, der zuerst die Benutzer vor dem Failover verwaltet hat).</span><span class="sxs-lookup"><span data-stu-id="39193-113">For the same set of affected users, it refers to the same pool in both failover and failback cmdlets (that is, the pool that first homed the users before the failover).</span></span><BR><span data-ttu-id="39193-114">Nehmen wir beispielsweise an, dass alle Benutzer, die in einem Pool P1 verwaltet werden, ein Failover auf den Sicherungspool P2 durchlaufen haben.</span><span class="sxs-lookup"><span data-stu-id="39193-114">For example, assume a case in which all users homed on a pool P1 were failed over to the backup pool, P2.</span></span> <span data-ttu-id="39193-115">Wenn der Administrator alle Benutzer, die derzeit von P2 gewartet werden, von P1 migrieren möchte, muss der Administrator die folgenden Schritte ausführen:</span><span class="sxs-lookup"><span data-stu-id="39193-115">If the administrator wants to move all the users currently serviced by P2 to be serviced by P1, the administrator must perform the following steps:</span></span> 
+> <span data-ttu-id="acb18-112">In den folgenden Verfahren bezieht sich der Parameter <EM>poolfqdn "</EM> auf den FQDN des Pools, der vom Notfall betroffen ist, und nicht auf den Pool, von dem betroffene Benutzer umgeleitet werden.</span><span class="sxs-lookup"><span data-stu-id="acb18-112">In the following procedures, the <EM>PoolFQDN</EM> parameter refers to the FQDN of the pool that is affected by disaster, not the pool that affected users are being redirected from.</span></span> <span data-ttu-id="acb18-113">Für dieselbe Gruppe betroffener Benutzer bezieht sich dieser auf denselben Pool sowohl in Failover-als auch in Failback-Cmdlets (also im Pool, der zuerst die Benutzer vor dem Failover verwaltet hat).</span><span class="sxs-lookup"><span data-stu-id="acb18-113">For the same set of affected users, it refers to the same pool in both failover and failback cmdlets (that is, the pool that first homed the users before the failover).</span></span><BR><span data-ttu-id="acb18-114">Nehmen wir beispielsweise an, dass alle Benutzer, die in einem Pool P1 verwaltet werden, ein Failover auf den Sicherungspool P2 durchlaufen haben.</span><span class="sxs-lookup"><span data-stu-id="acb18-114">For example, assume a case in which all users homed on a pool P1 were failed over to the backup pool, P2.</span></span> <span data-ttu-id="acb18-115">Wenn der Administrator alle Benutzer, die derzeit von P2 gewartet werden, von P1 migrieren möchte, muss der Administrator die folgenden Schritte ausführen:</span><span class="sxs-lookup"><span data-stu-id="acb18-115">If the administrator wants to move all the users currently serviced by P2 to be serviced by P1, the administrator must perform the following steps:</span></span> 
 > <OL>
 > <LI>
-> <P><span data-ttu-id="39193-116">Zurücksetzen aller Benutzer, die ursprünglich unter P1 von P2 auf P1 verwaltet wurden, mithilfe des Failback-Cmdlets.</span><span class="sxs-lookup"><span data-stu-id="39193-116">Fail back all the users originally homed on P1 from P2 to P1 using the failback cmdlet.</span></span> <span data-ttu-id="39193-117">In diesem Fall ist die <EM>poolfqdn "</EM> P1's FQDN.</span><span class="sxs-lookup"><span data-stu-id="39193-117">In this case, the <EM>PoolFQDN</EM> is P1’s FQDN.</span></span></P>
+> <P><span data-ttu-id="acb18-116">Zurücksetzen aller Benutzer, die ursprünglich unter P1 von P2 auf P1 verwaltet wurden, mithilfe des Failback-Cmdlets.</span><span class="sxs-lookup"><span data-stu-id="acb18-116">Fail back all the users originally homed on P1 from P2 to P1 using the failback cmdlet.</span></span> <span data-ttu-id="acb18-117">In diesem Fall ist die <EM>poolfqdn "</EM> P1's FQDN.</span><span class="sxs-lookup"><span data-stu-id="acb18-117">In this case, the <EM>PoolFQDN</EM> is P1’s FQDN.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="39193-118">Führen Sie einen Failover für alle Benutzer aus, die ursprünglich mit dem Cmdlet Failover auf P2 auf P1 verwaltet wurden.</span><span class="sxs-lookup"><span data-stu-id="39193-118">Fail over all the users originally homed on P2 to P1 using the failover cmdlet.</span></span> <span data-ttu-id="39193-119">In diesem Fall ist die <EM>poolfqdn "</EM> P2 FQDN.</span><span class="sxs-lookup"><span data-stu-id="39193-119">In this case, the <EM>PoolFQDN</EM> is P2’s FQDN.</span></span></P>
+> <P><span data-ttu-id="acb18-118">Führen Sie einen Failover für alle Benutzer aus, die ursprünglich mit dem Cmdlet Failover auf P2 auf P1 verwaltet wurden.</span><span class="sxs-lookup"><span data-stu-id="acb18-118">Fail over all the users originally homed on P2 to P1 using the failover cmdlet.</span></span> <span data-ttu-id="acb18-119">In diesem Fall ist die <EM>poolfqdn "</EM> P2 FQDN.</span><span class="sxs-lookup"><span data-stu-id="acb18-119">In this case, the <EM>PoolFQDN</EM> is P2’s FQDN.</span></span></P>
 > <LI>
-> <P><span data-ttu-id="39193-120">Wenn der Administrator später diese P2-Benutzer wieder auf P2 zurückführen möchte, ist die <EM>poolfqdn "</EM> P2 FQDN.</span><span class="sxs-lookup"><span data-stu-id="39193-120">If the administrator later wants to fail back those P2 users back to P2, the <EM>PoolFQDN</EM> is P2’s FQDN.</span></span></P></LI></OL><span data-ttu-id="39193-121">Beachten Sie, dass Schritt 1 vor Schritt 2 ausgeführt werden muss, um die Integrität des Pools beizubehalten.</span><span class="sxs-lookup"><span data-stu-id="39193-121">Note that step 1 above must be performed before step 2 to preserve pool integrity.</span></span> <span data-ttu-id="39193-122">Wenn Sie Schritt 2 vor Schritt 1 versuchen, tritt beim Schritt 2-Cmdlet ein Fehler auf.</span><span class="sxs-lookup"><span data-stu-id="39193-122">If you try step 2 before step 1, the step 2 cmdlet will fail.</span></span>
+> <P><span data-ttu-id="acb18-120">Wenn der Administrator später diese P2-Benutzer wieder auf P2 zurückführen möchte, ist die <EM>poolfqdn "</EM> P2 FQDN.</span><span class="sxs-lookup"><span data-stu-id="acb18-120">If the administrator later wants to fail back those P2 users back to P2, the <EM>PoolFQDN</EM> is P2’s FQDN.</span></span></P></LI></OL><span data-ttu-id="acb18-121">Beachten Sie, dass Schritt 1 vor Schritt 2 ausgeführt werden muss, um die Integrität des Pools beizubehalten.</span><span class="sxs-lookup"><span data-stu-id="acb18-121">Note that step 1 above must be performed before step 2 to preserve pool integrity.</span></span> <span data-ttu-id="acb18-122">Wenn Sie Schritt 2 vor Schritt 1 versuchen, tritt beim Schritt 2-Cmdlet ein Fehler auf.</span><span class="sxs-lookup"><span data-stu-id="acb18-122">If you try step 2 before step 1, the step 2 cmdlet will fail.</span></span>
 
 
 
@@ -66,34 +66,34 @@ ms.locfileid: "42150286"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="39193-123">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="39193-123">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="acb18-123">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="acb18-123">In This Section</span></span>
 
-  - [<span data-ttu-id="39193-124">Konfigurieren und Überwachen des Sicherungsdiensts in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39193-124">Configuring and monitoring the Backup Service in Lync Server 2013</span></span>](lync-server-2013-configuring-and-monitoring-the-backup-service.md)
+  - [<span data-ttu-id="acb18-124">Konfigurieren und Überwachen des Sicherungsdiensts in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acb18-124">Configuring and monitoring the Backup Service in Lync Server 2013</span></span>](lync-server-2013-configuring-and-monitoring-the-backup-service.md)
 
-  - [<span data-ttu-id="39193-125">Failover eines Pools in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39193-125">Failing over a pool in Lync Server 2013</span></span>](lync-server-2013-failing-over-a-pool.md)
+  - [<span data-ttu-id="acb18-125">Failover eines Pools in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acb18-125">Failing over a pool in Lync Server 2013</span></span>](lync-server-2013-failing-over-a-pool.md)
 
-  - [<span data-ttu-id="39193-126">Zurückschlagen eines Pools in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39193-126">Failing back a pool in Lync Server 2013</span></span>](lync-server-2013-failing-back-a-pool.md)
+  - [<span data-ttu-id="acb18-126">Zurückschlagen eines Pools in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acb18-126">Failing back a pool in Lync Server 2013</span></span>](lync-server-2013-failing-back-a-pool.md)
 
-  - [<span data-ttu-id="39193-127">Failover einer gespiegelten Datenbank in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39193-127">Failing over a mirrored database in Lync Server 2013</span></span>](lync-server-2013-failing-over-a-mirrored-database.md)
+  - [<span data-ttu-id="acb18-127">Failover einer gespiegelten Datenbank in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acb18-127">Failing over a mirrored database in Lync Server 2013</span></span>](lync-server-2013-failing-over-a-mirrored-database.md)
 
-  - [<span data-ttu-id="39193-128">Failover der Edgepool, die für lync Server Partnerverbund in lync Server 2013 verwendet wurden</span><span class="sxs-lookup"><span data-stu-id="39193-128">Failing over the Edge pool used for Lync Server federation in Lync Server 2013</span></span>](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)
+  - [<span data-ttu-id="acb18-128">Failover der Edgepool, die für lync Server Partnerverbund in lync Server 2013 verwendet wurden</span><span class="sxs-lookup"><span data-stu-id="acb18-128">Failing over the Edge pool used for Lync Server federation in Lync Server 2013</span></span>](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)
 
-  - [<span data-ttu-id="39193-129">Failover der Edgepool, die für den XMPP-Verbund in lync Server 2013 verwendet wurden</span><span class="sxs-lookup"><span data-stu-id="39193-129">Failing over the Edge pool used for XMPP federation in Lync Server 2013</span></span>](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)
+  - [<span data-ttu-id="acb18-129">Failover der Edgepool, die für den XMPP-Verbund in lync Server 2013 verwendet wurden</span><span class="sxs-lookup"><span data-stu-id="acb18-129">Failing over the Edge pool used for XMPP federation in Lync Server 2013</span></span>](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)
 
-  - [<span data-ttu-id="39193-130">Zurückgeben der Edgepool, die für lync Server Partnerverbund oder XMPP-Verbund in lync Server 2013 verwendet wurden</span><span class="sxs-lookup"><span data-stu-id="39193-130">Failing back the Edge pool used for Lync Server federation or XMPP federation in Lync Server 2013</span></span>](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)
+  - [<span data-ttu-id="acb18-130">Zurückgeben der Edgepool, die für lync Server Partnerverbund oder XMPP-Verbund in lync Server 2013 verwendet wurden</span><span class="sxs-lookup"><span data-stu-id="acb18-130">Failing back the Edge pool used for Lync Server federation or XMPP federation in Lync Server 2013</span></span>](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)
 
-  - [<span data-ttu-id="39193-131">Ändern des Edgepool, das einem Front-End-Pool in lync Server 2013 zugeordnet ist</span><span class="sxs-lookup"><span data-stu-id="39193-131">Changing the Edge pool associated with a Front End pool in Lync Server 2013</span></span>](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)
+  - [<span data-ttu-id="acb18-131">Ändern des Edgepool, das einem Front-End-Pool in lync Server 2013 zugeordnet ist</span><span class="sxs-lookup"><span data-stu-id="acb18-131">Changing the Edge pool associated with a Front End pool in Lync Server 2013</span></span>](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)
 
-  - [<span data-ttu-id="39193-132">Wiederherstellen von Konferenz Inhalten mithilfe des Sicherungsdiensts in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39193-132">Restoring conference contents using the Backup Service in Lync Server 2013</span></span>](lync-server-2013-restoring-conference-contents-using-the-backup-service.md)
+  - [<span data-ttu-id="acb18-132">Wiederherstellen von Konferenz Inhalten mithilfe des Sicherungsdiensts in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acb18-132">Restoring conference contents using the Backup Service in Lync Server 2013</span></span>](lync-server-2013-restoring-conference-contents-using-the-backup-service.md)
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="39193-133">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="39193-133">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="acb18-133">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="acb18-133">See Also</span></span>
 
 
-[<span data-ttu-id="39193-134">Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="39193-134">Planning for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
+[<span data-ttu-id="acb18-134">Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="acb18-134">Planning for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
   
 
 </div>

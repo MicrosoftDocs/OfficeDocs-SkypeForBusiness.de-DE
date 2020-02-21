@@ -12,20 +12,20 @@ ms:contentKeyID: 48184076
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23ec43eee803db184da74bec23ebcddd92be2cec
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 381046c748fd51853e1dab41fe46fae6977ed245
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147158"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42187168"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="application-server-and-services-cmdlets-in-lync-server-2013"></a><span data-ttu-id="40e70-102">Cmdlets für Anwendungsserver und Dienste in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40e70-102">Application server and services cmdlets in Lync Server 2013</span></span>
+# <a name="application-server-and-services-cmdlets-in-lync-server-2013"></a><span data-ttu-id="dbba1-102">Cmdlets für Anwendungsserver und Dienste in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="dbba1-102">Application server and services cmdlets in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,43 +35,43 @@ ms.locfileid: "42147158"
 
 <span> </span>
 
-<span data-ttu-id="40e70-103">_**Letztes Änderungsstand des Themas:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="40e70-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="dbba1-103">_**Letztes Änderungsstand des Themas:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="dbba1-103">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="40e70-104">Server Anwendungen bezeichnen die einzelnen Programme, die unter Microsoft lync Server 2013 ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="40e70-104">Server applications refer to the individual programs that run under Microsoft Lync Server 2013.</span></span> <span data-ttu-id="40e70-105">Sie können diese Anwendungen mithilfe von Cmdlets in der lync Server-Verwaltungsshell verwalten.</span><span class="sxs-lookup"><span data-stu-id="40e70-105">You can manage these applications by using cmdlets from within the Lync Server Management Shell.</span></span>
+<span data-ttu-id="dbba1-104">Server Anwendungen bezeichnen die einzelnen Programme, die unter Microsoft lync Server 2013 ausgeführt werden.</span><span class="sxs-lookup"><span data-stu-id="dbba1-104">Server applications refer to the individual programs that run under Microsoft Lync Server 2013.</span></span> <span data-ttu-id="dbba1-105">Sie können diese Anwendungen mithilfe von Cmdlets in der lync Server-Verwaltungsshell verwalten.</span><span class="sxs-lookup"><span data-stu-id="dbba1-105">You can manage these applications by using cmdlets from within the Lync Server Management Shell.</span></span>
 
 <div>
 
-## <a name="application-server-and-services-cmdlets"></a><span data-ttu-id="40e70-106">Application Server and Services Cmdlets</span><span class="sxs-lookup"><span data-stu-id="40e70-106">Application Server and Services Cmdlets</span></span>
+## <a name="application-server-and-services-cmdlets"></a><span data-ttu-id="dbba1-106">Application Server and Services Cmdlets</span><span class="sxs-lookup"><span data-stu-id="dbba1-106">Application Server and Services Cmdlets</span></span>
 
-<span data-ttu-id="40e70-107">Verwenden Sie die folgenden Cmdlets zum Verwalten von lync Server 2013 Anwendungen.</span><span class="sxs-lookup"><span data-stu-id="40e70-107">Use the following cmdlets to manage Lync Server 2013 applications.</span></span>
+<span data-ttu-id="dbba1-107">Verwenden Sie die folgenden Cmdlets zum Verwalten von lync Server 2013 Anwendungen.</span><span class="sxs-lookup"><span data-stu-id="dbba1-107">Use the following cmdlets to manage Lync Server 2013 applications.</span></span>
 
-<span data-ttu-id="40e70-108">**Anwendungsserver und -dienste**</span><span class="sxs-lookup"><span data-stu-id="40e70-108">**Application Server and Services**</span></span>
+<span data-ttu-id="dbba1-108">**Anwendungsserver und -dienste**</span><span class="sxs-lookup"><span data-stu-id="dbba1-108">**Application Server and Services**</span></span>
 
   - <span></span>  
-    <span data-ttu-id="40e70-109">[Gruppe-CsApplicationServer](https://technet.microsoft.com/library/Gg398562(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="40e70-109">[Set-CsApplicationServer](https://technet.microsoft.com/library/Gg398562(v=OCS.15))</span></span>
+    <span data-ttu-id="dbba1-109">[Gruppe-CsApplicationServer](https://technet.microsoft.com/library/Gg398562(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="dbba1-109">[Set-CsApplicationServer](https://technet.microsoft.com/library/Gg398562(v=OCS.15))</span></span>
 
 <!-- end list -->
 
   - <span></span>  
-    <span data-ttu-id="40e70-110">[Get-CsServerApplication](https://technet.microsoft.com/library/Gg425948(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="40e70-110">[Get-CsServerApplication](https://technet.microsoft.com/library/Gg425948(v=OCS.15))</span></span>
+    <span data-ttu-id="dbba1-110">[Get-CsServerApplication](https://technet.microsoft.com/library/Gg425948(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="dbba1-110">[Get-CsServerApplication](https://technet.microsoft.com/library/Gg425948(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="40e70-111">[New-CsServerApplication](https://technet.microsoft.com/library/Gg398096(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="40e70-111">[New-CsServerApplication](https://technet.microsoft.com/library/Gg398096(v=OCS.15))</span></span>
+    <span data-ttu-id="dbba1-111">[New-CsServerApplication](https://technet.microsoft.com/library/Gg398096(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="dbba1-111">[New-CsServerApplication](https://technet.microsoft.com/library/Gg398096(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="40e70-112">[Remove-CsServerApplication](https://technet.microsoft.com/library/Gg398366(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="40e70-112">[Remove-CsServerApplication](https://technet.microsoft.com/library/Gg398366(v=OCS.15))</span></span>
+    <span data-ttu-id="dbba1-112">[Remove-CsServerApplication](https://technet.microsoft.com/library/Gg398366(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="dbba1-112">[Remove-CsServerApplication](https://technet.microsoft.com/library/Gg398366(v=OCS.15))</span></span>
 
   - <span></span>  
-    <span data-ttu-id="40e70-113">[Gruppe-CsServerApplication](https://technet.microsoft.com/library/Gg412850(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="40e70-113">[Set-CsServerApplication](https://technet.microsoft.com/library/Gg412850(v=OCS.15))</span></span>
+    <span data-ttu-id="dbba1-113">[Gruppe-CsServerApplication](https://technet.microsoft.com/library/Gg412850(v=OCS.15))</span><span class="sxs-lookup"><span data-stu-id="dbba1-113">[Set-CsServerApplication](https://technet.microsoft.com/library/Gg412850(v=OCS.15))</span></span>
 
 </div>
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="40e70-114">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="40e70-114">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dbba1-114">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="dbba1-114">See Also</span></span>
 
 
-[<span data-ttu-id="40e70-115">Lync Server PowerShell-Blog</span><span class="sxs-lookup"><span data-stu-id="40e70-115">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
+[<span data-ttu-id="dbba1-115">Lync Server PowerShell-Blog</span><span class="sxs-lookup"><span data-stu-id="dbba1-115">Lync Server PowerShell Blog</span></span>](https://go.microsoft.com/fwlink/p/?linkid=203150)  
   
 
 </div>

@@ -12,20 +12,20 @@ ms:contentKeyID: 48185754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2164dad8121f71c0b74e8ac9619f8517ffecd104
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: abaa8960a1593294fb191ee8ab7f7aa1b578f0f2
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135912"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42188098"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="deployment-checklist-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="801b7-102">Prüfliste für die Bereitstellung für Konferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="801b7-102">Deployment checklist for conferencing in Lync Server 2013</span></span>
+# <a name="deployment-checklist-for-conferencing-in-lync-server-2013"></a><span data-ttu-id="df45d-102">Prüfliste für die Bereitstellung für Konferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df45d-102">Deployment checklist for conferencing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,19 +35,19 @@ ms.locfileid: "42135912"
 
 <span> </span>
 
-<span data-ttu-id="801b7-103">_**Letztes Änderungsstand des Themas:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="801b7-103">_**Topic Last Modified:** 2012-09-30_</span></span>
+<span data-ttu-id="df45d-103">_**Letztes Änderungsstand des Themas:** 2012-09-30_</span><span class="sxs-lookup"><span data-stu-id="df45d-103">_**Topic Last Modified:** 2012-09-30_</span></span>
 
-<span data-ttu-id="801b7-104">In den folgenden Themen finden Sie eine Checkliste für das Bereitstellen und Konfigurieren von Webkonferenzen, A/V-Konferenzen und Einwahlkonferenzen.</span><span class="sxs-lookup"><span data-stu-id="801b7-104">The following topics provide a checklist for deploying and configuring web conferencing, A/V conferencing, and dial-in conferencing.</span></span>
+<span data-ttu-id="df45d-104">In den folgenden Themen finden Sie eine Checkliste für das Bereitstellen und Konfigurieren von Webkonferenzen, A/V-Konferenzen und Einwahlkonferenzen.</span><span class="sxs-lookup"><span data-stu-id="df45d-104">The following topics provide a checklist for deploying and configuring web conferencing, A/V conferencing, and dial-in conferencing.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="801b7-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="801b7-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="df45d-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="df45d-105">In This Section</span></span>
 
-  - [<span data-ttu-id="801b7-106">Prüfliste für die Bereitstellung von Webkonferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="801b7-106">Deployment checklist for web conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-web-conferencing.md)
+  - [<span data-ttu-id="df45d-106">Prüfliste für die Bereitstellung von Webkonferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df45d-106">Deployment checklist for web conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-web-conferencing.md)
 
-  - [<span data-ttu-id="801b7-107">Prüfliste für die Bereitstellung von A/V-Konferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="801b7-107">Deployment checklist for A/V conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)
+  - [<span data-ttu-id="df45d-107">Prüfliste für die Bereitstellung von A/V-Konferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df45d-107">Deployment checklist for A/V conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-a-v-conferencing.md)
 
-  - [<span data-ttu-id="801b7-108">Prüfliste für die Bereitstellung von Einwahlkonferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="801b7-108">Deployment checklist for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
+  - [<span data-ttu-id="df45d-108">Prüfliste für die Bereitstellung von Einwahlkonferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="df45d-108">Deployment checklist for dial-in conferencing in Lync Server 2013</span></span>](lync-server-2013-deployment-checklist-for-dial-in-conferencing.md)
 
 </div>
 

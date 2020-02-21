@@ -12,20 +12,20 @@ ms:contentKeyID: 48185508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 225733c1b91677a622accb3a786f66c9657ae3e5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 10d45434bf34cc5e7e158039851e8a7fb2cbd6e1
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42152803"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42184338"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-front-end-pool-pairing-in-lync-server-2013"></a><span data-ttu-id="a660c-102">Planen der Front-End-Pool Kopplung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a660c-102">Planning for Front End pool pairing in Lync Server 2013</span></span>
+# <a name="planning-for-front-end-pool-pairing-in-lync-server-2013"></a><span data-ttu-id="87b83-102">Planen der Front-End-Pool Kopplung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="87b83-102">Planning for Front End pool pairing in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,25 +35,25 @@ ms.locfileid: "42152803"
 
 <span> </span>
 
-<span data-ttu-id="a660c-103">_**Letztes Änderungsstand des Themas:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="a660c-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="87b83-103">_**Letztes Änderungsstand des Themas:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="87b83-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="a660c-104">Für die besten Möglichkeiten zur Notfallwiederherstellung in lync Server 2013 stellen Sie Paare von Front-End-Pools auf zwei geografisch verteilten Standorten bereit.</span><span class="sxs-lookup"><span data-stu-id="a660c-104">For the best disaster recovery abilities in Lync Server 2013, deploy pairs of Front End pools across two geographically dispersed sites.</span></span> <span data-ttu-id="a660c-105">Jede Website enthält eine Front-End-Pool, die mit einem entsprechenden Front-End-Pool am anderen Standort gekoppelt ist.</span><span class="sxs-lookup"><span data-stu-id="a660c-105">Each site contains a Front End pool which is paired with a corresponding Front End pool in the other site.</span></span> <span data-ttu-id="a660c-106">Beide Standorte sind aktiv, und der lync Server Sicherungsdienst bietet eine Echtzeitdaten Replikation, damit die Pools synchronisiert bleiben.</span><span class="sxs-lookup"><span data-stu-id="a660c-106">Both sites are active, and the Lync Server Backup Service provides real-time data replication to keep the pools synchronized.</span></span> <span data-ttu-id="a660c-107">Der Sicherungsdienst ist ein neues Feature in lync Server 2013, das zur Unterstützung der Notfallwiederherstellungslösung entwickelt wurde.</span><span class="sxs-lookup"><span data-stu-id="a660c-107">The Backup Service is a new feature in Lync Server 2013, designed to support the disaster recovery solution.</span></span> <span data-ttu-id="a660c-108">Sie wird auf einem Front-End-Pool installiert, wenn Sie den Pool mit einem anderen Front-End-Pool koppeln.</span><span class="sxs-lookup"><span data-stu-id="a660c-108">It is installed on a Front End pool when you pair the pool with another Front End pool.</span></span>
+<span data-ttu-id="87b83-104">Für die besten Möglichkeiten zur Notfallwiederherstellung in lync Server 2013 stellen Sie Paare von Front-End-Pools auf zwei geografisch verteilten Standorten bereit.</span><span class="sxs-lookup"><span data-stu-id="87b83-104">For the best disaster recovery abilities in Lync Server 2013, deploy pairs of Front End pools across two geographically dispersed sites.</span></span> <span data-ttu-id="87b83-105">Jede Website enthält eine Front-End-Pool, die mit einem entsprechenden Front-End-Pool am anderen Standort gekoppelt ist.</span><span class="sxs-lookup"><span data-stu-id="87b83-105">Each site contains a Front End pool which is paired with a corresponding Front End pool in the other site.</span></span> <span data-ttu-id="87b83-106">Beide Standorte sind aktiv, und der lync Server Sicherungsdienst bietet eine Echtzeitdaten Replikation, damit die Pools synchronisiert bleiben.</span><span class="sxs-lookup"><span data-stu-id="87b83-106">Both sites are active, and the Lync Server Backup Service provides real-time data replication to keep the pools synchronized.</span></span> <span data-ttu-id="87b83-107">Der Sicherungsdienst ist ein neues Feature in lync Server 2013, das zur Unterstützung der Notfallwiederherstellungslösung entwickelt wurde.</span><span class="sxs-lookup"><span data-stu-id="87b83-107">The Backup Service is a new feature in Lync Server 2013, designed to support the disaster recovery solution.</span></span> <span data-ttu-id="87b83-108">Sie wird auf einem Front-End-Pool installiert, wenn Sie den Pool mit einem anderen Front-End-Pool koppeln.</span><span class="sxs-lookup"><span data-stu-id="87b83-108">It is installed on a Front End pool when you pair the pool with another Front End pool.</span></span>
 
-<span data-ttu-id="a660c-109">Wenn für den Pool an einem Standort ein Fehler auftritt, können Sie die Benutzer aus diesem Pool mit dem Pool im anderen Standort verfallen, der dann für alle Benutzer in beiden Pools Dienste bereitstellt.</span><span class="sxs-lookup"><span data-stu-id="a660c-109">If the pool in one site fails, you can fail over the users from that pool to the pool in the other site, which then provides services to all the users in both pools.</span></span> <span data-ttu-id="a660c-110">Für Kapazitäts Planungszwecke sollte jeder Pool so konzipiert sein, dass er die Arbeitslasten aller Benutzer in beiden Pools im Falle eines Notfalls behandelt.</span><span class="sxs-lookup"><span data-stu-id="a660c-110">For capacity planning purposes, each pool should be designed to handle the workloads of all users in both pools in the event of a disaster.</span></span>
+<span data-ttu-id="87b83-109">Wenn für den Pool an einem Standort ein Fehler auftritt, können Sie die Benutzer aus diesem Pool mit dem Pool im anderen Standort verfallen, der dann für alle Benutzer in beiden Pools Dienste bereitstellt.</span><span class="sxs-lookup"><span data-stu-id="87b83-109">If the pool in one site fails, you can fail over the users from that pool to the pool in the other site, which then provides services to all the users in both pools.</span></span> <span data-ttu-id="87b83-110">Für Kapazitäts Planungszwecke sollte jeder Pool so konzipiert sein, dass er die Arbeitslasten aller Benutzer in beiden Pools im Falle eines Notfalls behandelt.</span><span class="sxs-lookup"><span data-stu-id="87b83-110">For capacity planning purposes, each pool should be designed to handle the workloads of all users in both pools in the event of a disaster.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="a660c-111">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="a660c-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="87b83-111">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="87b83-111">In This Section</span></span>
 
-  - [<span data-ttu-id="a660c-112">Unterstützte Optionen für das Pool koppeln und bewährte Methoden für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a660c-112">Supported pool pairing options and best practices for Lync Server 2013</span></span>](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
+  - [<span data-ttu-id="87b83-112">Unterstützte Optionen für das Pool koppeln und bewährte Methoden für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="87b83-112">Supported pool pairing options and best practices for Lync Server 2013</span></span>](lync-server-2013-supported-pool-pairing-options-and-best-practices.md)
 
-  - [<span data-ttu-id="a660c-113">Sicherungs Registrierungs Beziehungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a660c-113">Backup Registrar relationships in Lync Server 2013</span></span>](lync-server-2013-backup-registrar-relationships.md)
+  - [<span data-ttu-id="87b83-113">Sicherungs Registrierungs Beziehungen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="87b83-113">Backup Registrar relationships in Lync Server 2013</span></span>](lync-server-2013-backup-registrar-relationships.md)
 
-  - [<span data-ttu-id="a660c-114">Wiederherstellungszeit für Pool-Failover und Pool-Failback in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a660c-114">Recovery time for pool failover and pool failback in Lync Server 2013</span></span>](lync-server-2013-recovery-time-for-pool-failover-and-pool-failback.md)
+  - [<span data-ttu-id="87b83-114">Wiederherstellungszeit für Pool-Failover und Pool-Failback in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="87b83-114">Recovery time for pool failover and pool failback in Lync Server 2013</span></span>](lync-server-2013-recovery-time-for-pool-failover-and-pool-failback.md)
 
-  - [<span data-ttu-id="a660c-115">Failover des zentralen Verwaltungsspeichers in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a660c-115">Central Management store failover in Lync Server 2013</span></span>](lync-server-2013-central-management-store-failover.md)
+  - [<span data-ttu-id="87b83-115">Failover des zentralen Verwaltungsspeichers in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="87b83-115">Central Management store failover in Lync Server 2013</span></span>](lync-server-2013-central-management-store-failover.md)
 
-  - [<span data-ttu-id="a660c-116">Front-End-Pool koppeln von Datensicherheit in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a660c-116">Front End pool pairing data security in Lync Server 2013</span></span>](lync-server-2013-front-end-pool-pairing-data-security.md)
+  - [<span data-ttu-id="87b83-116">Front-End-Pool koppeln von Datensicherheit in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="87b83-116">Front End pool pairing data security in Lync Server 2013</span></span>](lync-server-2013-front-end-pool-pairing-data-security.md)
 
 </div>
 
