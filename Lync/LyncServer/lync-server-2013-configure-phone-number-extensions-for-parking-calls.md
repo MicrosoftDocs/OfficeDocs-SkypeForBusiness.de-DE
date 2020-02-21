@@ -12,20 +12,20 @@ ms:contentKeyID: 48185980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39bd945f7e685965f892b3f3cab1be92bab73574
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: b4f1c9b448327b7f95d7987e995749124da9b026
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147028"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42213281"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="configure-phone-number-extensions-for-parking-calls-in-lync-server-2013"></a><span data-ttu-id="9a583-102">Konfigurieren von Durchwahlnummern für das Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9a583-102">Configure phone number extensions for parking calls in Lync Server 2013</span></span>
+# <a name="configure-phone-number-extensions-for-parking-calls-in-lync-server-2013"></a><span data-ttu-id="7159c-102">Konfigurieren von Durchwahlnummern für das Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7159c-102">Configure phone number extensions for parking calls in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,15 +35,15 @@ ms.locfileid: "42147028"
 
 <span> </span>
 
-<span data-ttu-id="9a583-103">_**Letztes Änderungsstand des Themas:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="9a583-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+<span data-ttu-id="7159c-103">_**Letztes Änderungsstand des Themas:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="7159c-103">_**Topic Last Modified:** 2012-09-10_</span></span>
 
-<span data-ttu-id="9a583-104">Der Anwendung zum Parken von Anrufen verwendet Durchwahlnummern in der Orbit-Tabelle für das Parken von anrufen, um Anrufe abzustellen.</span><span class="sxs-lookup"><span data-stu-id="9a583-104">The Call Park application uses extension numbers in the Call Park orbit table to park calls.</span></span> <span data-ttu-id="9a583-105">Sie müssen die Orbit-Tabelle für das Parken von Anrufen mit den Bereichen der Durchwahlnummern konfigurieren, die Ihre Organisation für geparkte Anrufe reserviert.</span><span class="sxs-lookup"><span data-stu-id="9a583-105">You need to configure the Call Park orbit table with the ranges of extension numbers that your organization reserves for parked calls.</span></span> <span data-ttu-id="9a583-106">Dabei muss es sich um virtuelle Durchwahlnummern handeln (also Nummern, denen kein Benutzer oder Telefon zugeordnet ist).</span><span class="sxs-lookup"><span data-stu-id="9a583-106">These extensions need to be virtual extensions (that is, extensions that have no user or phone assigned to them).</span></span> <span data-ttu-id="9a583-107">Jeder lync Server Pool, in dem ein Anwendung zum Parken von Anrufen bereitgestellt und konfiguriert ist, kann einen oder mehrere Umlaufbahn Bereiche aufweisen.</span><span class="sxs-lookup"><span data-stu-id="9a583-107">Each Lync Server pool where a Call Park application is deployed and configured can have one or more orbit ranges.</span></span> <span data-ttu-id="9a583-108">Umlaufbahn Bereiche müssen in der lync Server-Bereitstellung global eindeutig sein.</span><span class="sxs-lookup"><span data-stu-id="9a583-108">Orbit ranges must be globally unique across the Lync Server deployment.</span></span>
+<span data-ttu-id="7159c-104">Der Anwendung zum Parken von Anrufen verwendet Durchwahlnummern in der Orbit-Tabelle für das Parken von anrufen, um Anrufe abzustellen.</span><span class="sxs-lookup"><span data-stu-id="7159c-104">The Call Park application uses extension numbers in the Call Park orbit table to park calls.</span></span> <span data-ttu-id="7159c-105">Sie müssen die Orbit-Tabelle für das Parken von Anrufen mit den Bereichen der Durchwahlnummern konfigurieren, die Ihre Organisation für geparkte Anrufe reserviert.</span><span class="sxs-lookup"><span data-stu-id="7159c-105">You need to configure the Call Park orbit table with the ranges of extension numbers that your organization reserves for parked calls.</span></span> <span data-ttu-id="7159c-106">Dabei muss es sich um virtuelle Durchwahlnummern handeln (also Nummern, denen kein Benutzer oder Telefon zugeordnet ist).</span><span class="sxs-lookup"><span data-stu-id="7159c-106">These extensions need to be virtual extensions (that is, extensions that have no user or phone assigned to them).</span></span> <span data-ttu-id="7159c-107">Jeder lync Server Pool, in dem ein Anwendung zum Parken von Anrufen bereitgestellt und konfiguriert ist, kann einen oder mehrere Umlaufbahn Bereiche aufweisen.</span><span class="sxs-lookup"><span data-stu-id="7159c-107">Each Lync Server pool where a Call Park application is deployed and configured can have one or more orbit ranges.</span></span> <span data-ttu-id="7159c-108">Umlaufbahn Bereiche müssen in der lync Server-Bereitstellung global eindeutig sein.</span><span class="sxs-lookup"><span data-stu-id="7159c-108">Orbit ranges must be globally unique across the Lync Server deployment.</span></span>
 
 <div>
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="9a583-109">Sie müssen das Kontrollkästchen <STRONG>Parken von Anrufen</STRONG> in Ihrer VoIP-Richtlinie aktivieren, bevor Sie das Parken von Anrufen verwenden können.</span><span class="sxs-lookup"><span data-stu-id="9a583-109">You must select the <STRONG>Enable call park</STRONG> check box in your voice policy before you can use Call Park.</span></span> <span data-ttu-id="9a583-110">Diese Option ist standardmäßig nicht aktiviert.</span><span class="sxs-lookup"><span data-stu-id="9a583-110">By default, this option is not selected.</span></span>
+> <span data-ttu-id="7159c-109">Sie müssen das Kontrollkästchen <STRONG>Parken von Anrufen</STRONG> in Ihrer VoIP-Richtlinie aktivieren, bevor Sie das Parken von Anrufen verwenden können.</span><span class="sxs-lookup"><span data-stu-id="7159c-109">You must select the <STRONG>Enable call park</STRONG> check box in your voice policy before you can use Call Park.</span></span> <span data-ttu-id="7159c-110">Diese Option ist standardmäßig nicht aktiviert.</span><span class="sxs-lookup"><span data-stu-id="7159c-110">By default, this option is not selected.</span></span>
 
 
 
@@ -51,11 +51,11 @@ ms.locfileid: "42147028"
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="9a583-111">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="9a583-111">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="7159c-111">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="7159c-111">In This Section</span></span>
 
-  - [<span data-ttu-id="9a583-112">Erstellen oder Ändern eines Umlaufbahn Bereichs für das Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9a583-112">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
+  - [<span data-ttu-id="7159c-112">Erstellen oder Ändern eines Umlaufbahn Bereichs für das Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7159c-112">Create or modify a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-create-or-modify-a-call-park-orbit-range.md)
 
-  - [<span data-ttu-id="9a583-113">Löschen eines Umlaufbahn Bereichs für das Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9a583-113">Delete a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-delete-a-call-park-orbit-range.md)
+  - [<span data-ttu-id="7159c-113">Löschen eines Umlaufbahn Bereichs für das Parken von Anrufen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7159c-113">Delete a Call Park orbit range in Lync Server 2013</span></span>](lync-server-2013-delete-a-call-park-orbit-range.md)
 
 </div>
 

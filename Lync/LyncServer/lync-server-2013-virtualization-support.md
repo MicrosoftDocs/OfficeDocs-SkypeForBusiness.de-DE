@@ -12,20 +12,20 @@ ms:contentKeyID: 48185484
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8198d7d990cdf34c31b340fac2c0de382d149f80
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 2fab964026a78a6050489681d6a6a845253ceede
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42138066"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42211121"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="virtualization-support-in-lync-server-2013"></a><span data-ttu-id="aeda7-102">Unterstützung der Virtualisierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="aeda7-102">Virtualization support in Lync Server 2013</span></span>
+# <a name="virtualization-support-in-lync-server-2013"></a><span data-ttu-id="fc2c2-102">Unterstützung der Virtualisierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fc2c2-102">Virtualization support in Lync Server 2013</span></span>
 
 </div>
 
@@ -35,11 +35,11 @@ ms.locfileid: "42138066"
 
 <span> </span>
 
-<span data-ttu-id="aeda7-103">_**Letztes Änderungsstand des Themas:** 2014-03-13_</span><span class="sxs-lookup"><span data-stu-id="aeda7-103">_**Topic Last Modified:** 2014-03-13_</span></span>
+<span data-ttu-id="fc2c2-103">_**Letztes Änderungsstand des Themas:** 2014-03-13_</span><span class="sxs-lookup"><span data-stu-id="fc2c2-103">_**Topic Last Modified:** 2014-03-13_</span></span>
 
-<span data-ttu-id="aeda7-104">Lync Server 2013 unterstützt Virtualisierungs-Topologien, die alle lync Server Arbeitslasten unterstützen, einschließlich Instant Messaging (Sofortnachrichten) und Anwesenheit, Konferenzen, Enterprise-VoIP, Überwachung, Archivierung und beständigen Chat.</span><span class="sxs-lookup"><span data-stu-id="aeda7-104">Lync Server 2013 supports virtualization topologies that support all Lync Server workloads, including instant messaging (IM) and presence, conferencing, Enterprise Voice, Monitoring, Archiving, and Persistent Chat.</span></span> <span data-ttu-id="aeda7-105">Beachten Sie, dass lync Server Leistung für virtuelle Topologien in Abhängigkeit von den verwendeten Arbeitslasten, der Anzahl der Benutzer und der Hosthardware stark variieren kann.</span><span class="sxs-lookup"><span data-stu-id="aeda7-105">Note that Lync Server performance on virtual topologies can vary greatly depending on the workloads being used, the number of users, and the host hardware.</span></span> <span data-ttu-id="aeda7-106">Ausführliche Anleitungen zur Ausführung von lync Server 2013 auf virtuellen Servern finden Sie im Whitepaper [Planen einer lync Server 2013-Bereitstellung auf virtuellen Servern](https://www.microsoft.com/download/details.aspx?id=41936).</span><span class="sxs-lookup"><span data-stu-id="aeda7-106">For detailed guidance about running Lync Server 2013 on virtual servers, see the white paper [Planning a Lync Server 2013 Deployment on Virtual Servers](https://www.microsoft.com/download/details.aspx?id=41936).</span></span>
+<span data-ttu-id="fc2c2-104">Lync Server 2013 unterstützt Virtualisierungs-Topologien, die alle lync Server Arbeitslasten unterstützen, einschließlich Instant Messaging (Sofortnachrichten) und Anwesenheit, Konferenzen, Enterprise-VoIP, Überwachung, Archivierung und beständigen Chat.</span><span class="sxs-lookup"><span data-stu-id="fc2c2-104">Lync Server 2013 supports virtualization topologies that support all Lync Server workloads, including instant messaging (IM) and presence, conferencing, Enterprise Voice, Monitoring, Archiving, and Persistent Chat.</span></span> <span data-ttu-id="fc2c2-105">Beachten Sie, dass lync Server Leistung für virtuelle Topologien in Abhängigkeit von den verwendeten Arbeitslasten, der Anzahl der Benutzer und der Hosthardware stark variieren kann.</span><span class="sxs-lookup"><span data-stu-id="fc2c2-105">Note that Lync Server performance on virtual topologies can vary greatly depending on the workloads being used, the number of users, and the host hardware.</span></span> <span data-ttu-id="fc2c2-106">Ausführliche Anleitungen zur Ausführung von lync Server 2013 auf virtuellen Servern finden Sie im Whitepaper [Planen einer lync Server 2013-Bereitstellung auf virtuellen Servern](https://www.microsoft.com/download/details.aspx?id=41936).</span><span class="sxs-lookup"><span data-stu-id="fc2c2-106">For detailed guidance about running Lync Server 2013 on virtual servers, see the white paper [Planning a Lync Server 2013 Deployment on Virtual Servers](https://www.microsoft.com/download/details.aspx?id=41936).</span></span>
 
-<span data-ttu-id="aeda7-107">Lync Server 2013 wird auf der Hyper-V-Plattform und auf jeder Virtualisierungs-Plattform unterstützt, die unter dem Windows Server Virtualization Validation Program unterstützt wird.</span><span class="sxs-lookup"><span data-stu-id="aeda7-107">Lync Server 2013 is supported on the Hyper-V platform, and on any virtualization platform that is supported under the Windows Server Virtualization Validation Program.</span></span> <span data-ttu-id="aeda7-108">Informationen zu diesem Programm finden Sie unter <http://www.windowsservercatalog.com/svvp.aspx>.</span><span class="sxs-lookup"><span data-stu-id="aeda7-108">For information on this program, see <http://www.windowsservercatalog.com/svvp.aspx>.</span></span>
+<span data-ttu-id="fc2c2-107">Lync Server 2013 wird auf der Hyper-V-Plattform und auf jeder Virtualisierungs-Plattform unterstützt, die unter dem Windows Server Virtualization Validation Program unterstützt wird.</span><span class="sxs-lookup"><span data-stu-id="fc2c2-107">Lync Server 2013 is supported on the Hyper-V platform, and on any virtualization platform that is supported under the Windows Server Virtualization Validation Program.</span></span> <span data-ttu-id="fc2c2-108">Informationen zu diesem Programm finden Sie unter <http://www.windowsservercatalog.com/svvp.aspx>.</span><span class="sxs-lookup"><span data-stu-id="fc2c2-108">For information on this program, see <http://www.windowsservercatalog.com/svvp.aspx>.</span></span>
 
 </div>
 
