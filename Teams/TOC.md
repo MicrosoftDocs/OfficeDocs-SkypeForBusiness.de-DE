@@ -54,6 +54,7 @@
 
 ### [Übersicht](deploy-apps-microsoft-teams-landing-page.md)
 ### [Berechtigungen für Apps und Überlegungen dazu](app-permissions.md).
+### [Verwalten von Apps für Teams](manage-apps.md)
 ### [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
 ### [Verwenden integrierter und benutzerdefinierter Registerkarten](built-in-custom-tabs.md)
 ### [Office 365 und benutzerdefinierte Connectors](Office-365-custom-connectors.md)
@@ -259,15 +260,26 @@
 
 ### [Übersicht](direct-routing-landing-page.md)
 ### [Planen von direktem Routing](direct-routing-plan.md)
-### [Konfigurieren von direktem Routing](direct-routing-configure.md)
+### [Liste der für direktes Routing zertifizierten Session Border Controller](direct-routing-border-controllers.md)
+
+### Konfigurieren von direktem Routing
+#### [Übersicht](direct-routing-configure.md)
+#### [Verbinden des SBC mit Direct Routing](direct-routing-connect-the-sbc.md)
+#### [Aktivieren von Benutzern für Direct Routing, VoIP und Voicemail](direct-routing-enable-users.md)
+#### [Konfigurieren des VoIP-Routings](direct-routing-voice-routing.md)
+#### [Übersetzen von Telefonnummern](direct-routing-translate-numbers.md)
+#### [Konfigurieren eines SBC für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)
+#### [Verwenden von analogen Geräten mit Direct Routing](direct-routing-analog-devices.md)
+
+
 ### [Migration zu direktem Routing](direct-routing-migrating.md)
 
 ### Überwachung und Problembehandlung von direktem Routing
 #### [Übersicht](direct-routing-monitor-and-troubleshoot.md)
 #### [Health Dashboard](direct-routing-health-dashboard.md)
 ### [Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität](direct-routing-user-accounts-in-a-hybrid-environment.md)
-### [Konfigurieren eines Session Border Controllers für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)
-### [Liste der für direktes Routing zertifizierten Session Border Controller](direct-routing-border-controllers.md)
+
+
 ### Standortbasiertes Routing
 #### [Planen des standortbasierten Routings für direktes Routing](location-based-routing-plan.md)
 #### [Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing](location-based-routing-configure-network-settings.md)
@@ -516,7 +528,7 @@
 
 
 <!-- ============================================================ -->
-# Hybridverbindungen 
+# Hybridverbindungen
 
 ## [Planen von Hybridverbindungen](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
 
@@ -531,7 +543,7 @@
 ### [Verschieben von Benutzern aus der lokalen Bereitstellung nach Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
 ### [Verschieben von Benutzern aus der Cloud in lokale Bereitstellungen](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
 
-### [Verwalten der Besprechungsmigration](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+### [Verwalten der Besprechungsmigration](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json)
 
 ## [Deaktivieren der Hybridbereitstellung zur Durchführung der Migration in die Cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
 
@@ -584,7 +596,7 @@
 
 
 # Branchen- und Regierungsrichtlinien
-## [Übersicht](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
+## [Übersicht](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates.md)
 ## [Schnellstart für Mitarbeiter in Service und Produktion](firstline-workers-quickstart.yml)
 ## [Schichten für Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
@@ -627,26 +639,21 @@
 <!-- ============================================================ -->
 
 # Sicherheit und Compliance
-## [Übersicht](security-compliance-overview.md)
-## [Information Barriers in Teams](information-barriers-in-teams.md)
-## [Durchführen einer eDiscovery-Untersuchung von Inhalt in Teams](ediscovery-investigation.md)
-## [Identitätsmodelle und Authentifizierung in Microsoft Teams](identify-models-authentication.md)
-## [Anmelden bei Teams mit moderner Authentifizierung](sign-in-teams.md)
-## [Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Teams](legal-hold.md)
-## [Suchen nach Überwachungsprotokoll für Ereignisse in Teams](audit-log-events.md)
-## [Verwenden der Inhaltssuche in Teams](content-search.md)
-## [AppLocker-Anwendungssteuerungsrichtlinien in Teams](applocker-in-teams.md)
-## Aufbewahrungsrichtlinien in Teams
-### [Übersicht](retention-policies.md)
-### [Bekannte Probleme im Zusammenhang mit Aufbewahrungsrichtlinien](retention-policies-known-issues.md)
-## [Speicherort von Daten in Teams](location-of-data-in-teams.md)
-## [Konformitätserklärung zur Barrierefreiheit von Microsoft Teams in Frankreich](accessibility-declaration-of-conformance-in-france-for-teams.md)
-## [Barrierefreiheitslösungen für Skype for Business Online und Microsoft Teams](accessibility-solutions-in-france.md)
-##  [Anrufpläne in Office 365 – Verhaltenskodex für das Vereinigte Königreich](code-of-practice-for-the-united-kingdom-u-k.md)
-##  [Anrufpläne in Office 365 – Kodex für die Behandlung von Beschwerden für das Vereinigte Königreich](complaint-handling-code-for-the-united-kingdom-u-k.md)
-## [Datensammlungsverfahren](data-collection-practices.md)
-## [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
-
+## Sicherheit
+### [Identitätsmodelle und Authentifizierung](identify-models-authentication.md)
+### [Anmelden bei Teams mit moderner Authentifizierung](sign-in-teams.md)
+## Compliance
+### [Übersicht](security-compliance-overview.md)
+### [Informationsbarrieren](information-barriers-in-teams.md)
+### [Aufbewahrungsrichtlinien](retention-policies.md)
+### [Verhinderung von Datenverlust](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### eDiscovery
+#### [Durchführen einer eDiscovery-Untersuchung von Inhalt](ediscovery-investigation.md)
+#### [Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Teams](legal-hold.md)
+### Inhaltssuche
+#### [Verwenden der Inhaltssuche](content-search.md)
+#### [Suchen nach Überwachungsprotokoll für Ereignisse](audit-log-events.md)
+### [AppLocker-Anwendungssteuerungsrichtlinien](applocker-in-teams.md)
 
 <!-- ============================================================ -->
 # Überwachung, Verwaltung und Problembehandlung
@@ -672,13 +679,16 @@
 #    
 # Referenz
 
+## [Grenzwerte und -Daten für Teams](limits-specifications-teams.md)
+## [Speicherort von Daten in Teams](location-of-data-in-teams.md)
+## [Datensammlungsverfahren](data-collection-practices.md)
+
 ## Vorbereiten der Bereitstellung von Teams
 ### [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)
 ### [Verwenden des Ratgebers für Teams zum Bereitstellen von Teams](use-advisor-teams-roll-out.md)
 ### [Verwenden des Netzwerkplaners für Teams](network-planner.md)
 ### [Netzwerkplanner – Exemplarische Vorgehensweise](tutorial-network-planner-example.yml)
 ### [Proxyserver für Skype for Business Online und Microsoft Teams](proxy-servers-for-skype-for-business-online.md)
-### [Grenzwerte und -Daten für Teams](limits-specifications-teams.md)
 ### [Planen von Office 365-Gruppen beim Erstellen von Teams in Microsoft Teams](plan-office-365-groups.md)
 ### [Planen der Lebenszyklusverwaltung in Microsoft Teams](plan-teams-lifecycle.md)
 ### [Planen der Governance in Teams](plan-teams-governance.md).
@@ -854,3 +864,10 @@
 ### [Uruguay](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-uruguay.md)
 ### [Venezuela](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-venezuela.md)
 ### [Vietnam](country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-vietnam.md)
+
+## Barrierefreiheit und Konformität
+### [Konformitätserklärung zur Barrierefreiheit von Microsoft Teams in Frankreich](accessibility-declaration-of-conformance-in-france-for-teams.md)
+### [Barrierefreiheitslösungen für Skype for Business Online und Microsoft Teams](accessibility-solutions-in-france.md)
+### [Anrufpläne in Office 365 – Verhaltenskodex für das Vereinigte Königreich](code-of-practice-for-the-united-kingdom-u-k.md)
+### [Anrufpläne in Office 365 – Kodex für die Behandlung von Beschwerden für das Vereinigte Königreich](complaint-handling-code-for-the-united-kingdom-u-k.md)
+### [Nutzungsbedingungen für Notrufe](emergency-calling-terms-and-conditions.md)
