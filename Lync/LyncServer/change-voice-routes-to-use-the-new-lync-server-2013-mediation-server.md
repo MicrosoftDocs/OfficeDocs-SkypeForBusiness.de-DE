@@ -13,20 +13,20 @@ ms:contentKeyID: 48185069
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 386789c5cb3753db2df8910a1fde437a33849ca7
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: b4998057543f6695104ecbe759135b6735160c23
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42135402"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42181008"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a><span data-ttu-id="f15a8-102">Ändern der VoIP-Routen für die Verwendung der neuen lync Server 2013 Vermittlungsserver</span><span class="sxs-lookup"><span data-stu-id="f15a8-102">Change voice routes to use the new Lync Server 2013 Mediation Server</span></span>
+# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a><span data-ttu-id="354db-102">Ändern der VoIP-Routen für die Verwendung der neuen lync Server 2013 Vermittlungsserver</span><span class="sxs-lookup"><span data-stu-id="354db-102">Change voice routes to use the new Lync Server 2013 Mediation Server</span></span>
 
 </div>
 
@@ -36,37 +36,37 @@ ms.locfileid: "42135402"
 
 <span> </span>
 
-<span data-ttu-id="f15a8-103">_**Letztes Änderungsstand des Themas:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="f15a8-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+<span data-ttu-id="354db-103">_**Letztes Änderungsstand des Themas:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="354db-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-<span data-ttu-id="f15a8-104">Bei diesem Verfahren werden die VoIP-Routen so geändert, dass die lync Server 2013 Vermittlungsserver anstelle der Legacy Office Communications Server 2007 R2 Vermittlungsserver verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="f15a8-104">This procedure changes the voice routes to use the Lync Server 2013 Mediation Server, instead of the legacy Office Communications Server 2007 R2 Mediation Server.</span></span>
+<span data-ttu-id="354db-104">Bei diesem Verfahren werden die VoIP-Routen so geändert, dass die lync Server 2013 Vermittlungsserver anstelle der Legacy Office Communications Server 2007 R2 Vermittlungsserver verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="354db-104">This procedure changes the voice routes to use the Lync Server 2013 Mediation Server, instead of the legacy Office Communications Server 2007 R2 Mediation Server.</span></span>
 
 <div>
 
-## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a><span data-ttu-id="f15a8-105">So ändern Sie die VoIP-Routen für die Verwendung des neuen Vermittlungsservers</span><span class="sxs-lookup"><span data-stu-id="f15a8-105">To change the voice routes to use the new Mediation Server</span></span>
+## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a><span data-ttu-id="354db-105">So ändern Sie die VoIP-Routen für die Verwendung des neuen Vermittlungsservers</span><span class="sxs-lookup"><span data-stu-id="354db-105">To change the voice routes to use the new Mediation Server</span></span>
 
-1.  <span data-ttu-id="f15a8-106">Lync Server 2013-Systemsteuerung</span><span class="sxs-lookup"><span data-stu-id="f15a8-106">Lync Server 2013 Control Panel</span></span>
+1.  <span data-ttu-id="354db-106">Lync Server 2013-Systemsteuerung</span><span class="sxs-lookup"><span data-stu-id="354db-106">Lync Server 2013 Control Panel</span></span>
 
-2.  <span data-ttu-id="f15a8-107">Wählen Sie im linken Bereich **VoIP-Routing** und dann **Route** aus.</span><span class="sxs-lookup"><span data-stu-id="f15a8-107">In the left pane, select **Voice Routing** and then **Route**.</span></span>
+2.  <span data-ttu-id="354db-107">Wählen Sie im linken Bereich **VoIP-Routing** und dann **Route** aus.</span><span class="sxs-lookup"><span data-stu-id="354db-107">In the left pane, select **Voice Routing** and then **Route**.</span></span>
 
-3.  <span data-ttu-id="f15a8-108">Klicken Sie auf **Neu**, um eine neue VoIP-Route zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="f15a8-108">Click **New** to create a New Voice Route.</span></span>
+3.  <span data-ttu-id="354db-108">Klicken Sie auf **Neu**, um eine neue VoIP-Route zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="354db-108">Click **New** to create a New Voice Route.</span></span>
 
-4.  <span data-ttu-id="f15a8-109">Füllen Sie die folgenden Felder aus:</span><span class="sxs-lookup"><span data-stu-id="f15a8-109">Fill in the following fields:</span></span>
+4.  <span data-ttu-id="354db-109">Füllen Sie die folgenden Felder aus:</span><span class="sxs-lookup"><span data-stu-id="354db-109">Fill in the following fields:</span></span>
     
-      - <span data-ttu-id="f15a8-p101">**Name**: Geben Sie einen beschreibenden Namen für die VoIP-Route ein. Im Rahmen dieses Dokuments wird **W15PSTNRoute** verwendet.</span><span class="sxs-lookup"><span data-stu-id="f15a8-p101">**Name**: Type a descriptive name of the voice route. For this document we will use **W15PSTNRoute**.</span></span>
+      - <span data-ttu-id="354db-p101">**Name**: Geben Sie einen beschreibenden Namen für die VoIP-Route ein. Im Rahmen dieses Dokuments wird **W15PSTNRoute** verwendet.</span><span class="sxs-lookup"><span data-stu-id="354db-p101">**Name**: Type a descriptive name of the voice route. For this document we will use **W15PSTNRoute**.</span></span>
     
-      - <span data-ttu-id="f15a8-112">**Beschreibung**: Geben Sie eine kurze Beschreibung für die VoIP-Route ein.</span><span class="sxs-lookup"><span data-stu-id="f15a8-112">**Description**: Type a short description of the voice route.</span></span>
+      - <span data-ttu-id="354db-112">**Beschreibung**: Geben Sie eine kurze Beschreibung für die VoIP-Route ein.</span><span class="sxs-lookup"><span data-stu-id="354db-112">**Description**: Type a short description of the voice route.</span></span>
 
-5.  <span data-ttu-id="f15a8-p102">Überspringen Sie alle verbleibenden Abschnitte, bis Sie zu **Zugeordnete Gateways** gelangen. Klicken Sie auf **Hinzufügen**. Wählen Sie das neue Standardgateway aus, und klicken Sie auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="f15a8-p102">Skip all remaining sections until you reach **Associated gateways**. Click **Add**. Select the new default gateway and click **OK**.</span></span>
+5.  <span data-ttu-id="354db-p102">Überspringen Sie alle verbleibenden Abschnitte, bis Sie zu **Zugeordnete Gateways** gelangen. Klicken Sie auf **Hinzufügen**. Wählen Sie das neue Standardgateway aus, und klicken Sie auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="354db-p102">Skip all remaining sections until you reach **Associated gateways**. Click **Add**. Select the new default gateway and click **OK**.</span></span>
 
-6.  <span data-ttu-id="f15a8-116">Klicken Sie unter **Zugeordnete PSTN-Verwendungen** auf **Auswählen**.</span><span class="sxs-lookup"><span data-stu-id="f15a8-116">Under **Associated PSTN Usages**, click **Select**.</span></span>
+6.  <span data-ttu-id="354db-116">Klicken Sie unter **Zugeordnete PSTN-Verwendungen** auf **Auswählen**.</span><span class="sxs-lookup"><span data-stu-id="354db-116">Under **Associated PSTN Usages**, click **Select**.</span></span>
 
-7.  <span data-ttu-id="f15a8-117">Wählen Sie auf der Seite **PSTN-Verwendungseintrag auswählen** den Namen eines Eintrags aus, klicken Sie dann auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="f15a8-117">From the **Select PSTN Usage Record** page, select a record name and then click **OK**.</span></span>
+7.  <span data-ttu-id="354db-117">Wählen Sie auf der Seite **PSTN-Verwendungseintrag auswählen** den Namen eines Eintrags aus, klicken Sie dann auf **OK**.</span><span class="sxs-lookup"><span data-stu-id="354db-117">From the **Select PSTN Usage Record** page, select a record name and then click **OK**.</span></span>
 
-8.  <span data-ttu-id="f15a8-118">Klicken Sie auf der Seite **Neue VoIP-Route** auf **OK**, um die **VoIP-Route** zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="f15a8-118">From the **New Voice Route** page, click **OK** to create the **Voice Route**.</span></span>
+8.  <span data-ttu-id="354db-118">Klicken Sie auf der Seite **Neue VoIP-Route** auf **OK**, um die **VoIP-Route** zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="354db-118">From the **New Voice Route** page, click **OK** to create the **Voice Route**.</span></span>
 
-9.  <span data-ttu-id="f15a8-119">Wählen Sie auf der Seite **VoIP-Routing** die Option **Route** aus.</span><span class="sxs-lookup"><span data-stu-id="f15a8-119">From the **Voice Routing** page, select **Route**.</span></span>
+9.  <span data-ttu-id="354db-119">Wählen Sie auf der Seite **VoIP-Routing** die Option **Route** aus.</span><span class="sxs-lookup"><span data-stu-id="354db-119">From the **Voice Routing** page, select **Route**.</span></span>
 
-10. <span data-ttu-id="f15a8-120">Verschieben Sie die neu erstellte Route an den Anfang der Liste, und wählen Sie dann **Commit** aus.</span><span class="sxs-lookup"><span data-stu-id="f15a8-120">Move the newly created route to the top of the list and then select **Commit**.</span></span>
+10. <span data-ttu-id="354db-120">Verschieben Sie die neu erstellte Route an den Anfang der Liste, und wählen Sie dann **Commit** aus.</span><span class="sxs-lookup"><span data-stu-id="354db-120">Move the newly created route to the top of the list and then select **Commit**.</span></span>
 
 </div>
 

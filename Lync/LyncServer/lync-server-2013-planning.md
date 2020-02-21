@@ -12,20 +12,20 @@ ms:contentKeyID: 48184302
 ms.date: 12/10/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af8c6894b25c93eb3c1ab7be9a658eb1a39e7ffa
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f70d53e99c040d336ec99032b08db04f33f4de6e
+ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42139256"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42183988"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
 <div data-asp="https://msdn2.microsoft.com/asp">
 
-# <a name="planning-for-lync-server-2013"></a><span data-ttu-id="c388e-102">Planen von lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-102">Planning for Lync Server 2013</span></span>
+# <a name="planning-for-lync-server-2013"></a><span data-ttu-id="2b3a1-102">Planen von lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-102">Planning for Lync Server 2013</span></span>
 
 </div>
 
@@ -35,49 +35,49 @@ ms.locfileid: "42139256"
 
 <span> </span>
 
-<span data-ttu-id="c388e-103">_**Letztes Änderungsstand des Themas:** 2014-12-09_</span><span class="sxs-lookup"><span data-stu-id="c388e-103">_**Topic Last Modified:** 2014-12-09_</span></span>
+<span data-ttu-id="2b3a1-103">_**Letztes Änderungsstand des Themas:** 2014-12-09_</span><span class="sxs-lookup"><span data-stu-id="2b3a1-103">_**Topic Last Modified:** 2014-12-09_</span></span>
 
-<span data-ttu-id="c388e-104">In den Themen in diesem Abschnitt wird beschrieben, wie Sie eine erfolgreiche lync Server-Bereitstellung planen.</span><span class="sxs-lookup"><span data-stu-id="c388e-104">The topics in this section describe how to plan for a successful Lync Server deployment.</span></span>
+<span data-ttu-id="2b3a1-104">In den Themen in diesem Abschnitt wird beschrieben, wie Sie eine erfolgreiche lync Server-Bereitstellung planen.</span><span class="sxs-lookup"><span data-stu-id="2b3a1-104">The topics in this section describe how to plan for a successful Lync Server deployment.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="c388e-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="c388e-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="2b3a1-105">In diesem Abschnitt</span><span class="sxs-lookup"><span data-stu-id="2b3a1-105">In This Section</span></span>
 
-  - [<span data-ttu-id="c388e-106">Organisationsplanung für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-106">Organization planning for Lync Server 2013</span></span>](lync-server-2013-planning-for-your-organization.md)
+  - [<span data-ttu-id="2b3a1-106">Organisationsplanung für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-106">Organization planning for Lync Server 2013</span></span>](lync-server-2013-planning-for-your-organization.md)
 
-  - [<span data-ttu-id="c388e-107">Bestimmen der Infrastrukturanforderungen für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-107">Determining your infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-determining-your-infrastructure-requirements.md)
+  - [<span data-ttu-id="2b3a1-107">Bestimmen der Infrastrukturanforderungen für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-107">Determining your infrastructure requirements for Lync Server 2013</span></span>](lync-server-2013-determining-your-infrastructure-requirements.md)
 
-  - [<span data-ttu-id="c388e-108">Netzwerkplanung für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-108">Network planning for Lync Server 2013</span></span>](lync-server-2013-network-planning.md)
+  - [<span data-ttu-id="2b3a1-108">Netzwerkplanung für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-108">Network planning for Lync Server 2013</span></span>](lync-server-2013-network-planning.md)
 
-  - [<span data-ttu-id="c388e-109">Kapazitätsplanung für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-109">Capacity planning for Lync Server 2013</span></span>](lync-server-2013-capacity-planning.md)
+  - [<span data-ttu-id="2b3a1-109">Kapazitätsplanung für lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-109">Capacity planning for Lync Server 2013</span></span>](lync-server-2013-capacity-planning.md)
 
-  - [<span data-ttu-id="c388e-110">Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-110">Planning for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)
+  - [<span data-ttu-id="2b3a1-110">Planen der hohen Verfügbarkeit und der Notfallwiederherstellung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-110">Planning for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)
 
-  - [<span data-ttu-id="c388e-111">Planen der Verwaltbarkeit und Virtualisierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-111">Planning for manageability and virtualization in Lync Server 2013</span></span>](lync-server-2013-planning-for-manageability-and-virtualization.md)
+  - [<span data-ttu-id="2b3a1-111">Planen der Verwaltbarkeit und Virtualisierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-111">Planning for manageability and virtualization in Lync Server 2013</span></span>](lync-server-2013-planning-for-manageability-and-virtualization.md)
 
-  - [<span data-ttu-id="c388e-112">Planen von Front-End-Servern, Chatnachrichten und Anwesenheitsinformationen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-112">Planning for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)
+  - [<span data-ttu-id="2b3a1-112">Planen von Front-End-Servern, Chatnachrichten und Anwesenheitsinformationen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-112">Planning for Front End Servers, instant messaging, and presence in Lync Server 2013</span></span>](lync-server-2013-planning-for-front-end-servers-instant-messaging-and-presence.md)
 
-  - [<span data-ttu-id="c388e-113">Planen von Konferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-113">Planning for conferencing in Lync Server 2013</span></span>](lync-server-2013-planning-for-conferencing.md)
+  - [<span data-ttu-id="2b3a1-113">Planen von Konferenzen in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-113">Planning for conferencing in Lync Server 2013</span></span>](lync-server-2013-planning-for-conferencing.md)
 
-  - [<span data-ttu-id="c388e-114">Planen des Zugriffs durch externe Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-114">Planning for external user access in Lync Server 2013</span></span>](lync-server-2013-planning-for-external-user-access.md)
+  - [<span data-ttu-id="2b3a1-114">Planen des Zugriffs durch externe Benutzer in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-114">Planning for external user access in Lync Server 2013</span></span>](lync-server-2013-planning-for-external-user-access.md)
 
-  - [<span data-ttu-id="c388e-115">Planung von Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-115">Planning for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice.md)
+  - [<span data-ttu-id="2b3a1-115">Planung von Enterprise-VoIP in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-115">Planning for Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-planning-for-enterprise-voice.md)
 
-  - [<span data-ttu-id="c388e-116">Planen der Überwachung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-116">Planning for monitoring in Lync Server 2013</span></span>](lync-server-2013-planning-for-monitoring.md)
+  - [<span data-ttu-id="2b3a1-116">Planen der Überwachung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-116">Planning for monitoring in Lync Server 2013</span></span>](lync-server-2013-planning-for-monitoring.md)
 
-  - [<span data-ttu-id="c388e-117">Planen der Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-117">Planning for Archiving in Lync Server 2013</span></span>](lync-server-2013-planning-for-archiving.md)
+  - [<span data-ttu-id="2b3a1-117">Planen der Archivierung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-117">Planning for Archiving in Lync Server 2013</span></span>](lync-server-2013-planning-for-archiving.md)
 
-  - [<span data-ttu-id="c388e-118">Planen von Servern für beständigen Chat in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-118">Planning for Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-planning-for-persistent-chat-server.md)
+  - [<span data-ttu-id="2b3a1-118">Planen von Servern für beständigen Chat in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-118">Planning for Persistent Chat Server in Lync Server 2013</span></span>](lync-server-2013-planning-for-persistent-chat-server.md)
 
-  - [<span data-ttu-id="c388e-119">Planen der Exchange Server Integration in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-119">Planning for Exchange Server integration with Lync Server 2013</span></span>](lync-server-2013-planning-for-exchange-server-integration.md)
+  - [<span data-ttu-id="2b3a1-119">Planen der Exchange Server Integration in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-119">Planning for Exchange Server integration with Lync Server 2013</span></span>](lync-server-2013-planning-for-exchange-server-integration.md)
 
-  - [<span data-ttu-id="c388e-120">Planen von Clients und Geräten in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-120">Planning for clients and devices in Lync Server 2013</span></span>](lync-server-2013-planning-for-clients-and-devices.md)
+  - [<span data-ttu-id="2b3a1-120">Planen von Clients und Geräten in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-120">Planning for clients and devices in Lync Server 2013</span></span>](lync-server-2013-planning-for-clients-and-devices.md)
 
-  - [<span data-ttu-id="c388e-121">Planen der Remoteanrufsteuerung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-121">Planning for remote call control in Lync Server 2013</span></span>](lync-server-2013-planning-for-remote-call-control.md)
+  - [<span data-ttu-id="2b3a1-121">Planen der Remoteanrufsteuerung in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-121">Planning for remote call control in Lync Server 2013</span></span>](lync-server-2013-planning-for-remote-call-control.md)
 
-  - [<span data-ttu-id="c388e-122">Planen der Mobilität in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-122">Planning for mobility in Lync Server 2013</span></span>](lync-server-2013-planning-for-mobility.md)
+  - [<span data-ttu-id="2b3a1-122">Planen der Mobilität in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-122">Planning for mobility in Lync Server 2013</span></span>](lync-server-2013-planning-for-mobility.md)
 
-  - [<span data-ttu-id="c388e-123">Planen der Sicherheit in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c388e-123">Planning for security in Lync Server 2013</span></span>](lync-server-2013-planning-for-security.md)
+  - [<span data-ttu-id="2b3a1-123">Planen der Sicherheit in lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2b3a1-123">Planning for security in Lync Server 2013</span></span>](lync-server-2013-planning-for-security.md)
 
 </div>
 
