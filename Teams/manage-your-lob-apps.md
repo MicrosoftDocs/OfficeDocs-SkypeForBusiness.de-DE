@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Ihre benutzerdefinierten Teams-apps von der Entwicklung zur Bereitstellung bringen.
-ms.openlocfilehash: 070b0ecbf0ccc9af798e1d3a3c689ce4d4ff4da2
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: f8c5a7dcc12bc9b3823285138d15a0ccdf11c52a
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161816"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229935"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Verwalten Ihrer Branchen-apps in Microsoft Teams
 
@@ -101,13 +101,7 @@ Führen Sie die folgenden Schritte aus, um vertrauenswürdigen Benutzern das Hoc
 
 ## <a name="step-3-upload-to-the-tenant-app-catalog"></a>Schritt 3: Hochladen in den Mandanten-App-Katalog
 
-Wenn Sie die APP für Benutzer im Mandanten-App-Store verfügbar machen möchten, laden Sie die APP hoch. Sie können dies <a href="https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#go-to-the-tenant-apps-catalog" target="_blank">mithilfe des Teams-Desktop Clients</a> oder auf der Seite " [apps verwalten](manage-apps.md) " im Microsoft Teams Admin Center tun.
-
-Hier ist ein Screenshot der Option "hochladen" im Desktop Client von Teams.
-
-![Screenshot der Seite "Apps"](media/manage-your-lob-apps-store.png)
-
-Hier ist ein Screenshot der Option "hochladen" auf der Seite " **apps verwalten** " im Microsoft Teams Admin Center.
+Wenn Sie die APP für Benutzer im Mandanten-App-Store verfügbar machen möchten, laden Sie die APP hoch. Sie können dies auf der Seite " [apps verwalten](manage-apps.md) " im Microsoft Teams Admin Center tun.
 
 ![Screenshot der Seite "Apps verwalten" im Admin Center](media/manage-your-lob-apps-upload-new-app.png)
 
@@ -131,6 +125,8 @@ Standardmäßig müssten die Benutzer diese APP finden, wenn Sie zu den Apps fü
 
 Um eine APP zu aktualisieren, sollten Entwickler weiterhin [Schritt 1](#step-1-develop-and-test) und [Schritt 2](#step-2-validate-in-production)folgen.
 
-Sie können die APP über den Mandanten-App-Katalog aktualisieren. Gehen Sie dazu im Desktop Client von Teams zu **apps** > , die**für &lt;Ihren&gt;Mandantennamen erstellt**wurden, und klicken Sie auf **...** Klicken Sie in der oberen rechten Ecke der APP auf **Aktualisieren**. Dadurch wird die vorhandene App im Mandanten-App-Katalog ersetzt, und alle Berechtigungsrichtlinien und Setup Richtlinien bleiben für die aktualisierte APP erzwungen. 
+Sie können die APP über den Mandanten-App-Katalog aktualisieren. Gehen Sie dazu im Microsoft Teams Admin Center zu **Teams apps** > **Verwalten von apps**. Klicken Sie in der Liste der apps auf den Namen der APP, und klicken Sie dann auf **Aktualisieren**. Dadurch wird die vorhandene App im Mandanten-App-Katalog ersetzt, und alle App-Berechtigungsrichtlinien und Richtlinien für die APP-Einrichtung bleiben für die aktualisierte APP erzwungen.
 
-![Screenshot zum Aktualisieren einer APP auf der Seite "Apps"](media/manage-your-lob-apps-update-app.png)
+## <a name="related-apps"></a>Verwandte apps
+
+- [Verwalten Ihrer Apps im Microsoft Teams Admin Center](manage-apps.md)

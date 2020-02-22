@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Ihre Teams-apps auf der Seite "Apps verwalten
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: ab00f4ee445a5711a272ed5b4e2eea104012a7bd
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 41d75d492cf8351f1f925713054ccf4be4d8725d
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161905"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229915"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
 ======================================================
@@ -53,9 +53,13 @@ Wenn Sie die gewünschten Informationen in der Tabelle anzeigen möchten, klicke
 
 ## <a name="upload-a-new-app"></a>Hochladen einer neuen App
 
-Wenn Sie eine neue benutzerdefinierte app in ihren Mandanten-App-Katalog hochladen möchten, klicken Sie auf **neue APP hochladen** , um das App-Paket im ZIP-Format hochzuladen. Nachdem die APP hochgeladen wurde, wird Sie nicht hervorgehoben, sodass Sie Ihren Mandanten Katalog durchsuchen müssen, um ihn zu finden.
+Sie können Ihren app-Katalog verwenden, um branchenspezifische Anwendungen zu testen und zu verteilen, die speziell für Ihre Organisation entwickelt wurden. Ein Team-App-Paket wird mithilfe von [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)erstellt. Wenn Sie über das App-Paket verfügen, können Sie es dem App-Katalog hinzufügen. Während alle Benutzer in Ihrer Organisation den App-Katalog anzeigen können, können Sie nur von globalen Administratoren und Teams-Dienstadministratoren veröffentlicht und verwaltet werden.
 
-Sie können apps auch mithilfe [des Teams-Desktop Clients](tenant-apps-catalog-teams.md#go-to-the-tenant-app-catalog)hochladen. Weitere Informationen finden Sie unter [Verwalten von Branchen-apps in Teams](manage-your-lob-apps.md).
+Wenn Sie eine neue benutzerdefinierte app in ihren Mandanten-App-Katalog hochladen möchten, klicken Sie auf **neue APP hochladen** , um das App-Paket im ZIP-Format hochzuladen. Nachdem die APP hochgeladen wurde, wird Sie nicht hervorgehoben, sodass Sie Ihren app-Katalog durchsuchen müssen, um ihn zu finden.
+
+Wenn Sie eine APP nach dem Hochladen aktualisieren möchten, klicken Sie in der Liste der apps auf der Seite **apps verwalten** auf den Namen der APP, und klicken Sie dann auf **Aktualisieren**. Dadurch wird die vorhandene App im App-Katalog ersetzt, und alle App-Berechtigungsrichtlinien und App-Setup Richtlinien bleiben für die aktualisierte APP erzwungen.
+
+Weitere Informationen finden Sie unter [Verwalten von Branchen-apps in Teams](manage-your-lob-apps.md).
 
 ## <a name="allow-and-block-apps"></a>Zulassen und Blockieren von apps
 

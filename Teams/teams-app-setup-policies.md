@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 82af710d8c3cb89171085f9053ed1708d7f568ca
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 171192353227e7e0d14d59ca36b632f90aeb9941
+ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161648"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42229925"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -167,7 +167,7 @@ Mit den mobilen Teams von Teams werden Benutzern Kern Teams-apps wie Aktivitäte
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>Können Benutzer die Reihenfolge der apps ändern, die über eine Richtlinie angeheftet wurden?
 
-Derzeit können Benutzer die Reihenfolge ihrer angehefteten apps auf mobilen Teams, aber nicht auf dem Desktop oder auf Webclients von Teams ändern. 
+Derzeit können Benutzer die Reihenfolge ihrer angehefteten apps auf mobilen Teams, aber nicht auf dem Desktop oder auf Webclients von Teams ändern.
 
 ### <a name="custom-teams-apps"></a>Benutzerdefinierte Teams-apps
 
@@ -178,4 +178,3 @@ Achten Sie darauf, dass Sie die Richtlinien für das Logo befolgen, bevor Sie di
  ## <a name="related-topics"></a>Verwandte Themen
 
 - [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
-- [Veröffentlichen einer APP im Mandanten-apps-Katalog des Teams-Clients](tenant-apps-catalog-teams.md)

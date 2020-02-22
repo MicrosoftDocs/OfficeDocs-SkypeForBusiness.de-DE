@@ -59,7 +59,6 @@
 ### [Verwenden integrierter und benutzerdefinierter Registerkarten](built-in-custom-tabs.md)
 ### [Office 365 und benutzerdefinierte Connectors](Office-365-custom-connectors.md)
 ### [Verwalten Ihrer Branchen-App](manage-your-lob-apps.md)
-### [Veröffentlichen von Apps im App-Katalog eines Microsoft Teams-Mandanten](tenant-apps-catalog-teams.md)
 ### [App-Zertifizierung](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App-Vorlagen für Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams](configure-skype-meetings-app-to-work-with-teams.md)
