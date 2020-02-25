@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Dieses Dokument beschreibt das Verhalten von Chats, Anrufweiterleitung und Anwesenheitsinformationen zwischen Benutzern von Teams und Skype for Business, sowohl im Mandanten als auch im Verbund, basierend auf den zugewiesenen TeamsUpgrade-Modi. Es umfasst Routing Optimierungen, Anwesenheits Verhalten sowie die Änderung des standardmäßigen TeamsUpgrade-Modus von *Legacy* auf *Inseln* und die bevorstehende Pensionierung von *Legacy*.
-ms.openlocfilehash: 1a4a9f4c08da3e89324eb44551c0002931cee714
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 442b4b68b9739d9d17d02e298b53c5d9ecec3c8f
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050117"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236825"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 
@@ -58,9 +58,9 @@ Die Parameter, die die Thread Routingmethode bestimmen, sind:
 > [!NOTE]
 > Derzeit nutzt alle Föderationen, an denen Teams beteiligt sind, die Skype for Business-Föderations Pipeline und Teams – Skype for Business-Interoperabilität. Wir planen Native Teams – Teams Federation. Das vorliegende Dokument wird nach der Veröffentlichung des Native Federation aktualisiert.
 
-# <a name="chat-and-call-routing"></a>Chat und Anrufweiterleitung
+## <a name="chat-and-call-routing"></a>Chat und Anrufweiterleitung
 
-## <a name="in-tenant-routing-for-new-chats-or-calls"></a>Mandanten übergreifendes Routing für neue Chats oder Anrufe 
+### <a name="in-tenant-routing-for-new-chats-or-calls"></a>Mandanten übergreifendes Routing für neue Chats oder Anrufe 
 
 Die folgenden Tabellen erfassen das Routing von in-Tenant-Chats und-anrufen und gelten für neue Anrufe oder Chats, die nicht aus einem bereits vorhandenen Thread gestartet werden. Es wird beschrieben, welcher Client einen neuen Anruf oder Chat erhält, wenn er von einem Benutzer auf der linken Seite zu einem in-Tenant-Empfänger auf der rechten Seite stammt.
 
@@ -102,7 +102,7 @@ In den folgenden Tabellen:
 |TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
 
-## <a name="federated-routing-for-new-chats-or-calls"></a>Federated-Routing für neue Chats oder Anrufe
+### <a name="federated-routing-for-new-chats-or-calls"></a>Federated-Routing für neue Chats oder Anrufe
   
 In den folgenden Tabellen wird das Routing von verbundenen anrufen und Chats erfasst und für neue Anrufe oder Chats gültig. Sie beschreiben, welcher Client einen neuen Anruf oder Chat erhält, wenn er von einem Benutzer auf der linken Seite zu einem verbundenen Zielbenutzer auf der rechten Seite stammt.
 
@@ -157,14 +157,14 @@ Wenn es sich bei dem bereits vorhandenen beständigen Thread in Microsoft Teams 
 
 Skype for Business-Threads bleiben nicht über das Timeout von 10 min. SIP-Sitzungen hinaus. Chats und Anrufe von einem vorhandenen Thread in Skype for Business vor Ablauf der SIP-Sitzung werden auf die gleiche Weise wie der Thread weitergeleitet. Anrufe und Chats von einem vorhandenen Thread in Skype for Business über das Timeout der SIP-Sitzung hinaus werden an das Skype for Business der Remote-Partei weitergeleitet, unabhängig davon, von welchem Client der ursprüngliche Thread auf der Seite der anderen Partei kam.
 
-## <a name="availability"></a>Verfügbarkeit
+### <a name="availability"></a>Verfügbarkeit
 
 Sowohl das in-Tenant-als auch das Federated-Verhalten, das oben beschrieben wird, ist mit den folgenden Einschränkungen verfügbar:
 
 - Externe Teilnehmer, deren Mandanten sich in einer anderen GoLocal-Bereitstellung befinden, werden im Chat nicht angezeigt, während Sie sich in einer "Föderations Besprechung" befinden
 - Föderation und Interoperabilität zwischen Mandanten Office 365 und souveränen Wolken werden nicht unterstützt
 
-# <a name="presence"></a>Anwesenheit
+## <a name="presence"></a>Anwesenheit
 
 Wenn Sie eine Situation haben, in der einige Ihrer Benutzer den Microsoft Teams-Client verwenden und andere weiterhin den Skype for Business-Client verwenden, haben Sie möglicherweise eine Reihe von Benutzern, die beide Clients verwenden. Sie möchten, dass die Anwesenheitsstatus für alle Benutzer freigegeben werden, und zwar unabhängig davon, welchen Client ein einzelner Benutzer hat. Wenn dies in der gesamten Organisation freigegeben ist, können Benutzer besser feststellen, ob es angemessen ist, einen Chat zu initiieren oder einen Anruf zu tätigen.
 
@@ -180,7 +180,7 @@ Um zu erfahren, welches Verhalten zu erwarten ist, müssen Sie wissen, dass die 
     * Bei Skype for Business sehen alle anderen Nutzer die Skype for Business-Anwesenheit des Nutzers (sowohl im Mandanten als auch im Verbund). Diese wird an den oben angegebenen Routingtabellen ausgerichtet.
 
 
-## <a name="in-tenant-presence"></a>Anwesenheit in einem Mandanten
+### <a name="in-tenant-presence"></a>Anwesenheit in einem Mandanten
 
 Nachrichten, die an TeamsOnly-Benutzer gesendet werden, landen immer in Teams. Nachrichten, die\* an SFB-Nutzer gesendet werden, werden immer in Skype for Business landen, wenn die Unterhaltung wie oben beschrieben möglich ist. Nachrichten, die an Inseln-Benutzer gesendet werden, landen immer in dem Client, aus dem Sie stammen.
 
@@ -194,7 +194,7 @@ In der Tabelle wird die Anwesenheit des Herausgebers beschrieben, die von einem 
 |Microsoft Teams |&boxv; |Microsoft Teams |Skype for Business |Teams |
 | | | | |
 
-## <a name="federated-presence"></a>Verbund Anwesenheit
+### <a name="federated-presence"></a>Verbund Anwesenheit
 
 Die Verbund Anwesenheit basiert auf der in Tabelle 2 gezeigten Federated-Erreichbarkeit.
 
@@ -208,7 +208,7 @@ In der folgenden Tabelle wird die Anwesenheit des Herausgebers beschrieben, die 
 |Microsoft Teams | &boxv;|Skype for Business |Skype for Business |Teams|
 | | | | ||
 
-## <a name="presence-in-pre-existing-threads"></a>Anwesenheit in bereits vorhandenen Threads
+### <a name="presence-in-pre-existing-threads"></a>Anwesenheit in bereits vorhandenen Threads
 
 Um die Anwesenheits-und Erreichbarkeit in bereits vorhandenen Threads auszurichten, muss die in diesem Thread verfügbar gemachte Anwesenheit des Ziels mit dem Routing des Threads ausgerichtet werden, vorausgesetzt, das Routing ist möglich.
 

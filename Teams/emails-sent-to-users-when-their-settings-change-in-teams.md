@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Hier erfahren Sie, welche Informationen automatisch per E-Mail an Benutzer gesendet werden, wenn sich ihre Dial-in-Konferenzeinstellungen in Microsoft Teams ändern. '
-ms.openlocfilehash: 0c0764a3787fa6431d07125b607bf9916f7f8ccf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 28dcf8e166eff4a8852dd1ad77828213dc88fd05
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835005"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236865"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen in Microsoft Teams ändern
 
@@ -64,34 +64,34 @@ Standardmäßig gibt es vier Arten von E-Mails, die an die für Audiokonferenzen
   
 - **Die Lizenz eines Benutzers wird entfernt, oder der Audiokonferenzanbieter wird von Microsoft in einen anderen Anbieter oder in „Keiner“ geändert.**
 
-    Dies geschieht, wenn die Lizenz für **Audiokonferenzen** von einem Benutzer entfernt wird, wenn der Audiokonferenzanbieter eines Benutzers von Microsoft in einen Drittanbieter für Audiokonferenzen geändert wird oder wenn der Anbieter auf **Keiner** festgelegt wird. Diese E-Mail enthält Anweisungen und Informationen für den Benutzer, damit er mit dem Besprechungsaktualisierungstool für Skype for Business Online spezifische Informationen für Audiokonferenzen wie beispielsweise die standardmäßige Konferenztelefonnummer oder die Konferenzkennung entfernen kann.
+    Dies geschieht, wenn die **Audiokonferenz-** Lizenz von einem Benutzer entfernt wird oder wenn der Audiokonferenz-Anbieter auf **None**festgelegt wird.
 
-    Siehe [Zuweisen von Lizenzen zu Benutzern in Office 365 Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+    Weitere Informationen finden Sie unter [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
-    Hier ist ein Beispiel für diese E-Mail:
+    So kann diese E-Mail aussehen:
 
      !["Dial-In-Konferenzen" ist deaktiviert.](media/teams-emails-sent-to-users-when-settings-change-image4.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Vornehmen von Änderungen an den gesendeten E-Mails
+## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Änderungen an den E-Mail-Nachrichten, die ihnen geschickt werden
 
-Sie können Änderungen an der e-Mail vornehmen, die automatisch an Benutzer gesendet wird. Standardmäßig wird der Absender der e-Mails von Office 365, aber Sie können den Anzeigenamen mithilfe von Windows PowerShell ändern. Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Sie können Änderungen an der e-Mail vornehmen, die automatisch an Benutzer gesendet wird. Standardmäßig wird der Absender der e-Mails von Office 365, aber Sie können den Anzeigenamen mithilfe von Windows PowerShell ändern. Weitere Informationen finden Sie in der [Microsoft Teams PowerShell-Referenz](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
 
-## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Wie gehen Sie vor, wenn keine E-Mails an die Benutzer gesendet werden sollen?
+## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Wie gehen Sie vor, wenn Sie Benutzern keine E-Mails senden möchten?
 
-Wenn Sie das Senden von E-Mails an die Benutzer deaktivieren, werden auch dann keine E-Mails gesendet, wenn Benutzern eine Lizenz zugewiesen wird. In diesem Fall werden die Konferenzkennung, die standardmäßige Konferenztelefonnummer und vor allem die Audiokonferenz-PIN nicht an die Benutzer gesendet. Dann müssen Sie die Benutzer informieren, indem Sie ihnen eine separate E-Mail senden oder sie anrufen.
+Wenn Sie das Senden von E-Mails deaktivieren, werden keine E-Mails an die Benutzer gesendet, auch nicht, wenn ihnen eine Lizenz zugewiesen wird. In diesem Fall werden die Konferenz-ID, die Standard-Konferenztelefonnummer und, was noch wichtiger ist, ihre Audiokonferenz-PIN nicht an den Benutzer gesendet. Wenn dies geschieht, müssen Sie dem Benutzer eine separate E-Mail schreiben oder ihn anrufen, um ihm diese Mitteilung zu machen.
 
-Standardmäßig werden E-Mails an die Benutzer gesendet. Wenn Sie nicht möchten, dass die Benutzer E-Mails für Audiokonferenzen erhalten, können Sie Microsoft Teams oder Windows PowerShell verwenden. 
+Standardmäßig werden e-Mails an Ihre Benutzer gesendet, aber wenn Sie verhindern möchten, dass Sie e-Mails für Audiokonferenzen empfangen, können Sie Microsoft Teams oder Windows PowerShell verwenden. 
 
 ![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
 
-2. Klicken Sie oben auf der Seite **Conference Bridges** (Konferenzbrücken) auf **Bridge Settings** (Brückeneinstellungen). 
+2. Klicken Sie oben auf der Seite **Konferenz Brücken** auf **Brücken Einstellungen**. 
 
-3. Aktivieren oder deaktivieren Sie im Bereich **Bridge settings** (Brückeneinstellungen) die Option **Senden Sie automatisch E-Mails an Benutzer, wenn sich die Einwahlkonfiguration ändert**.
+3. Aktivieren oder deaktivieren Sie im Bereich **Bridge Settings** **automatisch e-Mails an Benutzer senden, wenn sich Ihre Einwahleinstellungen ändern**.
 
 4. Klicken Sie auf **Speichern**.
 
@@ -100,12 +100,12 @@ Standardmäßig werden E-Mails an die Benutzer gesendet. Wenn Sie nicht möchten
 
 **Verwenden von Windows PowerShell**
 
-Weitere Informationen finden Sie in der [PowerShell-Referenz für Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).
+Weitere Informationen finden Sie in der [Microsoft Teams PowerShell-Referenz](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
 
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-Standardmäßig ist Office 365 als Absender der E-Mails angegeben. Sie können jedoch die E-Mail-Adresse und den Anzeigenamen mit Windows PowerShell ändern. 
+Standardmäßig wird der Absender der e-Mails von Office 365, aber Sie können die e-Mail-Adresse und den Anzeigenamen mithilfe von Windows PowerShell ändern. 
 
 Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
 
@@ -118,6 +118,6 @@ Weitere Informationen zu Windows PowerShell finden Sie in der [PowerShell-Refere
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Aktivieren und Deaktivieren der bei geänderten Audiokonferenzeinstellungen gesendeten E-Mails](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
+[Aktivieren Sie oder deaktivieren Sie beim Senden von e-Mails aus, wenn Audio Konferenzen Einstellungen ändern](enable-or-disable-sending-emails-when-their-settings-change-in-teams.md)
 
 [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen Benutzer](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)

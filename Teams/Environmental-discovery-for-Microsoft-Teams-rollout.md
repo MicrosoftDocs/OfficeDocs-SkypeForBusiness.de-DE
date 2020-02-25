@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f49626f6526fe05aed81f39574a094347e0a3ae
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 68bd92067bffc2ed88e8a9d44e228ce442021b29
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834525"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236675"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Umgebungserkennung für ein Microsoft Teams-Rollout
 ===================================================
@@ -31,8 +31,7 @@ Die Ermittlung ist einer der ersten wichtigen Schritte, die Sie bei der Planung 
 
 Sie führen eine detaillierte Ermittlung Ihrer Umgebung durch, um den aktuellen Zustand besser zu verstehen und etwaige Schwierigkeiten oder – noch weiter – mögliche Blockierungen bei der Ausführung des Rollouts für Teams zu erkennen.
 
-<a name="discovery-questionnaire"></a>Ermittlungsfragebogen
-=======================
+## <a name="discovery-questionnaire"></a>Ermittlungsfragebogen
 
 Der unten aufgeführte Beispiel Fragebogen führt Sie durch eine Reihe von Fragen, um zu bestätigen, dass Ihre Organisation für den erfolgreichen Rollout von Audiokonferenz-und Telefon System mit Anruf Planfunktionen in Teams bereit ist.
 

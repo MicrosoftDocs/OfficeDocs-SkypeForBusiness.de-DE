@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: In diesem Thema erfahren Sie, wie Sie die medienumgehung mit dem direkten Routing des Telefonsystems planen.
-ms.openlocfilehash: 7c7d82d1ac13ec1612403ba5fd20471e72173122
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c40840e2169a67172f006a0f0910c715feb40253
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214486"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265640"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -137,7 +137,7 @@ Im Medienpfad für nicht Umgehungs Anrufe für Endbenutzer | Immer | Nie |
 Im Medienpfad für umgehende Anrufe für Endbenutzer | Nie | Wenn der Client den SBC für die öffentliche IP-Adresse nicht erreichen kann | 
 In Medienpfad für Sprachanwendungen | Immer | Nie | 
 Can do Transcodierung (B2BUA)\* | Ja | Nein, nur Audio zwischen Endpunkten weiterleiten | 
-Anzahl der Instanzen weltweit und Standort | 8 gesamt: 2 in den USA Ost und West; 2 in Amsterdam und Dublin; 2 in Hongkong und Singapur; 2 in Japan (wird in Q1CY2019 hinzugefügt)  | Mehrere
+Anzahl der Instanzen weltweit und Standort | 8 gesamt: 2 in den USA Ost und West; 2 in Amsterdam und Dublin; 2 in Hongkong und Singapur; 2 in Japan  | Mehrere
 
 Der IP-Bereich ist 52.112.0.0/14 (IP-Adressen von 52.112.0.1 zu 52.115.255.254). 
 

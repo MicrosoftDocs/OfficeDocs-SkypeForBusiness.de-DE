@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-ms.openlocfilehash: 1a9863f1566b06c46b2788bb484d8a4672b6cdbf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9a92715af20e2e27a4b5051bfeab461a61efdacf
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826293"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236815"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audiokonferenzen in Office 365
 Audiokonferenzen in Office 365 können Benutzer von ihren Telefonen aus zu Besprechungen anrufen. Audiokonferenzen ermöglichen bis zu 250 Telefonteilnehmer.
@@ -47,7 +47,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
 Nachdem Teilnehmer einer Besprechung beigetreten sind, können Sie auch andere Anrufer in eine Skype for Business-oder Microsoft Teams-Besprechung einladen. Weitere Informationen finden Sie unter [anrufen aus einer Teams-Besprechung, damit](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md) andere Personen an einer Skype for Business-Besprechung teilnehmen oder sich von dort aus anrufen können, [damit andere Personen daran teilnehmen können](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it).
 
 ## <a name="what-does-it-cost"></a>Was kostet es?
-Infos über die Preisgestaltung finden Sie unter [Preise für Audiokonferenz](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Infos über die Preisgestaltung finden Sie unter [Preise für Audiokonferenz](https://products.office.com/microsoft-teams/online-meeting-solutions#customerstoryregion2).
 
 ## <a name="where-is-it-available"></a>Wo steht sie zur Verfügung?
 Bei Audiokonferenzen können Ihre Benutzergebühren pflichtige und gebührenfreie Telefonnummern verwenden, um sich in Besprechungen einzuwählen. Gebührenpflichtige (Service-) Nummern werden Organisationen automatisch als freigegebene Audiokonferenz-Nummern zugewiesen, wenn Sie für Audiokonferenzen aktiviert sind. Für weitere Städte können Ihrer Organisation dedizierte gebührenpflichtige und gebührenfreie Telefonnummern zugewiesen werden.

@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: Hier erfahren Sie, wie Sie Lizenzen für Features wie Audio-Conferencing, Telefon System und Anrufpläne zuweisen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46ae5952d79f3f0ef0a6137b240661550ecead00
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 9d75201b7be82337898d4e9fe4feafb4de1155a9
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888684"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236835"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Zuweisen von Microsoft Teams-Lizenzen
 
@@ -107,14 +107,6 @@ for each ($user in $users)
 | Plan für Inlandsanrufe (120 Minuten pro Nutzer/Monat für jedes Land) </br>*Hinweis: dieser Plan steht in den USA nicht zur Verfügung*. | MCOPSTN5 |
 | Plan für Inlandsanrufe (240 Minuten pro Nutzer/Monat für jedes Land) </br>*Hinweis: dieser Plan steht in den USA nicht zur Verfügung*. | MCOPSTN6 |
 | Guthaben für Kommunikationen | MCOPSTNPP | 
-
-## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>Audiokonferenz: Tipps und Skripts für das Zuweisen von Lizenzen
-
-Hier erfahren Sie, was Sie vor dem Zuweisen von Lizenzen für Audiokonferenzen wissen müssen.
-
-- **Drittanbieter für Audiokonferenzen**: Wenn Benutzer für die Verwendung eines Drittanbieters für Audiokonferenzen eingerichtet sind und Sie diesen Benutzern eine Lizenz für Audiokonferenzen zuweisen, werden sie auf die Verwendung von Microsoft als Audiokonferenzanbieter umgestellt. Diese Änderung können Sie rückgängig machen und wieder den Drittanbieter festlegen.
-
-- **Nächste Schritte**: Nachdem Sie Lizenzen für Audiokonferenzen zugewiesen haben, müssen Sie einen Audiokonferenz-Anbieter zuweisen. Weitere Informationen finden Sie unter [Zuweisen von Microsoft als Audiokonferenz-Anbieter](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
 ## <a name="assign-an-audio-conferencing-license-to-one-user"></a>Zuweisen einer Audiokonferenz-Lizenz für einen Benutzer
 

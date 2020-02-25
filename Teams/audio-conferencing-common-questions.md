@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Im folgenden finden Sie einige der wichtigsten Fragen, die wir von unseren Kunden erhalten, die Audio-Conferencing verwenden möchten.
-ms.openlocfilehash: bc8ec039cff2be47f0912f2e52bbdb56ce694a4e
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e542d728ae95ddb35532fbb8cabfa61e3b93caa3
+ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826303"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236845"
 ---
 # <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenzen
 
@@ -81,7 +81,7 @@ Die maximale Zeitdauer hängt davon ab, wer sich in der Besprechung befindet und
 |:-----|:-----|
 |Es gibt Benutzer, die mit der Skype for Business-oder Microsoft Teams-App verbunden sind oder sich in die Besprechung eingewählt haben.  <br/> |Die Besprechung endet, wenn nach 24 Stunden keine Änderungen an der Teilnehmerliste vorgenommen wurden.  <br/> |
 |Alle Benutzer sind in die Besprechung eingewählt, aber jemand hat eine PIN für die Teilnahme an der Besprechung verwendet.  <br/> |Die Besprechung endet nach 24 Stunden.  <br/> |
-|Alle Benutzer sind in die Besprechung eingewählt, aber niemand hat eine PIN für die Teilnahme an der Besprechung verwendet.  <br/> |Die Besprechung endet nach 4 Stunden.  <br/> |
+|Alle Benutzer sind in die Besprechung eingewählt, aber niemand hat eine PIN für die Teilnahme an der Besprechung verwendet.  <br/> | Wenn anonyme Benutzer Besprechungen starten dürfen, endet die Besprechung nach vier Stunden. Wenn anonyme Benutzer nicht berechtigt sind, Besprechungen zu starten, und alle authentifizierten Teilnehmer die Besprechung verlassen haben, endet die Besprechung 90 Minuten, nachdem der letzte authentifizierte Teilnehmer verlassen hat. <br/> |
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>Wie viele Telefonteilnehmer kann ich insgesamt in Besprechungen haben?
 
