@@ -18,12 +18,12 @@ f1.keywords:
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0aafe4bcceca731825726d084e41fab37bb9931
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: 6a80e9a360b28ed5d00fb02be3d34aab21fb0e2e
+ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962094"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42265520"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -51,7 +51,7 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|[Bedingter Zugriff](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) funktioniert möglicherweise nicht, wenn Sie die Registerkarte "Website" in der Desktop-App verwenden.<br/> |Wenn eine Website, wie z. B. ein Intranetportal, über Richtlinien für bedingten Zugriff verfügt (etwa Browser- oder IP-Adressbeschränkungen), kann es sein, dass diese Website in der Desktop-App nicht als Registerkarte innerhalb von Teams angezeigt wird. <br/> |Verwenden Sie anstatt der Desktop-App Teams in einem Browser.  <br/> |1.7.18  <br/> |
+|[Bedingter Zugriff](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) funktioniert möglicherweise nicht, wenn Sie die Registerkarte "Website" oder "Azure DevOps" in der Desktop-App verwenden.<br/> |Wenn eine Website, wie z. B. ein Intranetportal, über Richtlinien für bedingten Zugriff verfügt (etwa Browser-, IP-Adressbeschränkungen oder Gerätekompatibilität), kann es sein, dass diese Website in der Desktop-App nicht als Registerkarte innerhalb von Teams angezeigt wird. <br/> |Verwenden Sie anstatt der Desktop-App Teams in einem Browser.  <br/> |1.7.18  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
@@ -82,11 +82,16 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
+|Nach dem Ändern des Kennworts für das Benutzerkonto wird eine Fehlermeldung angezeigt - entweder hat sich Ihr Kennwort geändert, oder der Server benötigt erneut Anmeldeinformationen. Dies geht auch mit einem neuen Passwort weiter. <br/> | Teams wird dieses Problem in Kürze in einem Fix beheben, dass bald bereitgestellt wird. <br/> | Melden Sie sich ab und melden Sie sich mit falschen Anmeldedaten erneut an. Geben Sie nach dem Fehlschlag Ihre korrekten Anmeldedaten ein. <br/> |09.01.2020  <br/> |
+
+|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
+|:-----|:-----|:-----|:-----|
 |Wenn Sie Microsoft Teams über Internet Explorer oder Microsoft Edge beitreten, entsteht im Programm eine Dauerschleife, oder das Programm stürzt ab, und die Anmeldung funktioniert nicht.   <br/> | Ihre Organisation nutzt die Option „Vertrauenswürdige Sites“ in Internet Explorer, und die Anmeldung über die webbasierte Microsoft Teams-Anwendung funktioniert nicht richtig, da vertrauenswürdige Sites für Microsoft Teams nicht zulässig sind. <br/>|Nehmen Sie mit Administratorrechten oder über ein Gruppenrichtlinienobjekt die folgenden Änderungen an den Internet Explorer-Einstellungen oder in der Systemsteuerung vor:<br/><ol><li>Akzeptieren Sie unter **Internetoptionen** &gt; **Datenschutz** &gt; **Erweitert** Cookies von Erstanbietern und Cookies von Drittanbietern, und aktivieren Sie das Kontrollkästchen **Sitzungscookies immer zulassen**.</li><li>Klicken Sie auf **Internetoptionen** &gt; **Sicherheit** &gt; **Vertrauenswürdige Sites** &gt; **Sites**, und fügen Sie alle folgenden Sites hinzu:<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>HINWEIS</b>: Validieren Sie immer alle vertrauenswürdigen URLs für Microsoft Teams, und lassen Sie sie zu. Die Anforderungen finden Sie im folgenden Dokument: [URLs und IP-Adressbereiche von Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |01.11.2017  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Microsoft Teams meldet sich immer bei dem in eine Domäne eingebundenen PC-Konto an.   <br/> |Wenn ein Benutzer über zwei verschiedene Microsoft Teams-Konten verfügt und auf seinem Computer der Domänenbeitritt aktiviert ist, verwendet Microsoft Teams das in eine Domäne eingebundene Profil auf dem Computer, um den Benutzer automatisch bei Microsoft Teams anzumelden. Um zu dem anderen Microsoft Teams-Konto zu wechseln, muss der Benutzer sich manuell bei der App abmelden und sich mit Anmeldeinformationen für das zweite Konto anmelden. Wenn sich der Benutzer bei Microsoft Teams abmeldet und den Computer neu startet, meldet Microsoft Teams sich beim Neustart automatisch mit dem in die Domäne eingebundenen Profil an. <br/> | Keine Problemumgehung. <br/> |02.08.2017  <br/> |
+|Microsoft Teams meldet sich immer bei dem in eine Domäne eingebundenen PC-Konto an.   <br/> |Wenn ein Benutzer über zwei verschiedene Microsoft Teams-Konten verfügt und auf seinem Computer der Domänenbeitritt aktiviert ist, verwendet Microsoft Teams das in eine Domäne eingebundene Profil auf dem Computer, um den Benutzer automatisch bei Microsoft Teams anzumelden. Um zu dem anderen Microsoft Teams-Konto zu wechseln, muss der Benutzer sich manuell bei der App abmelden und sich mit Anmeldeinformationen für das zweite Konto anmelden. Wenn sich der Benutzer bei Microsoft Teams abmeldet und den Computer neu startet, meldet Microsoft Teams sich beim Neustart automatisch mit dem in die Domäne eingebundenen Profil an. <br/> | Wenn Benutzer bei einem in eine Domäne eingebundenen Computer angemeldet sind und Sie nicht möchten, dass ihre Benutzernamen im Anmeldebildschirm von Microsoft Teams vorab ausgefüllt werden, können Administratoren die folgende Windows-Registrierung so einrichten, dass das Vorab-Ausfüllen des Benutzernamens (UPN) deaktiviert ist
+Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams SkipUpnPrefill(REG_DWORD) 0x00000001 (1). Das Überspringen beim Vorab-Ausfüllen von Benutzernamen ist für Benutzernamen, die in ".local" oder ".corp" enden, standardmäßig aktiviert, daher müssen Sie keinen Registrierungsschlüssel festlegen, um diese zu deaktivieren. Referenz https://docs.microsoft.com/microsoftteams/sign-in-teams. <br/> |02.08.2017  <br/> |
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
