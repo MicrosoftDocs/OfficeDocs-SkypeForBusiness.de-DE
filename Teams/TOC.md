@@ -263,10 +263,10 @@
 
 ### Konfigurieren von direktem Routing
 #### [Übersicht](direct-routing-configure.md)
-#### [Verbinden des SBC mit Direct Routing](direct-routing-connect-the-sbc.md)
-#### [Aktivieren von Benutzern für Direct Routing, VoIP und Voicemail](direct-routing-enable-users.md)
-#### [Konfigurieren des VoIP-Routings](direct-routing-voice-routing.md)
-#### [Übersetzen von Telefonnummern](direct-routing-translate-numbers.md)
+#### [Schritt 1: Verbinden des SBC](direct-routing-connect-the-sbc.md)
+#### [Schritt 2: Aktivieren von Benutzern](direct-routing-enable-users.md)
+#### [Schritt 3: Konfigurieren des VoIP-Routings](direct-routing-voice-routing.md)
+#### [Schritt 4: Übersetzen von Telefonnummern](direct-routing-translate-numbers.md)
 #### [Konfigurieren eines SBC für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)
 #### [Verwenden von analogen Geräten mit Direct Routing](direct-routing-analog-devices.md)
 
@@ -638,11 +638,11 @@
 <!-- ============================================================ -->
 
 # Sicherheit und Compliance
+## [Übersicht](security-compliance-overview.md)
 ## Sicherheit
 ### [Identitätsmodelle und Authentifizierung](identify-models-authentication.md)
 ### [Anmelden bei Teams mit moderner Authentifizierung](sign-in-teams.md)
 ## Compliance
-### [Übersicht](security-compliance-overview.md)
 ### [Informationsbarrieren](information-barriers-in-teams.md)
 ### [Aufbewahrungsrichtlinien](retention-policies.md)
 ### [Verhinderung von Datenverlust](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
