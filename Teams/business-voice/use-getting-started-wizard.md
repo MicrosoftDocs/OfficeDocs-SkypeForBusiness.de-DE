@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8362c95103594e8289aa110ec681fd6dba269bce
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ba381659572fa8cfda6ac605a2910ef19220dcbd
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824753"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285817"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Den Assistenten für erste Schritte zum Einrichten von Business Voice verwenden
 
@@ -46,11 +46,8 @@ Wenn Sie jetzt keine Anpassungen vornehmen möchten, sind Sie fertig! Sie könne
 
 <table>
     <tr>
-        <td>Wenn Sie die Notrufadresse ändern möchten, klicken Sie auf <b>Bearbeiten</b>, und geben Sie eine neue Adresse ein. Die von Ihnen angegebene Adresse wird überprüft, um sicherzustellen, dass sie für die Notfalldienste legitim und ordnungsgemäß formatiert ist. Diese Adresse wird dann im nächsten Schritt allen Benutzern zugeordnet, denen Sie eine Nummer zuweisen. Wenn Sie über Mitarbeiter an mehreren Standorten verfügen, ziehen Sie <a href="./customize-business-voice.md">Anpassen des Designs von Business Voice</a> zurate, um zu erfahren, wie Sie nach dem Einrichten des Assistenten für erste Schritte weitere Notfalladressen hinzufügen und zuweisen können.</td>
-
-        
+        <td>Wenn Sie die Notrufadresse ändern möchten, klicken Sie auf <b>Bearbeiten</b>, und geben Sie eine neue Adresse ein. Die von Ihnen angegebene Adresse wird überprüft, um sicherzustellen, dass sie für die Notfalldienste legitim und ordnungsgemäß formatiert ist. Diese Adresse wird dann im nächsten Schritt allen Benutzern zugeordnet, denen Sie eine Nummer zuweisen. Wenn Sie über Mitarbeiter an mehreren Standorten verfügen, ziehen Sie <a href="./customize-business-voice.md">Anpassen des Designs von Business Voice</a> zurate, um zu erfahren, wie Sie nach dem Einrichten des Assistenten für erste Schritte weitere Notfalladressen hinzufügen und zuweisen können.</td> 
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
-            
 </table>
 
 Weitere Informationen finden Sie unter [Was sind Notfallstandorte, Notfalladressen und Anrufweiterleitung?](../what-are-emergency-locations-addresses-and-call-routing.md)

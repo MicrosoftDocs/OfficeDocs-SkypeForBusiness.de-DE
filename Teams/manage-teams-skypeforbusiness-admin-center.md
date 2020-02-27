@@ -20,12 +20,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: f1aba8c461ca2cbdd827fe071d5e0486ac24b5f4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 31d39b1c65afad3bdbb000ff779b590d9f82ac38
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833125"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288633"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams
 ======================================================
@@ -104,12 +104,12 @@ Die folgende Tabelle zeigt, wo Sie die Features während der Migration verwalten
 |Einstellungen für externen Zugriff     |    X    |      |       |
 |Benutzerverwaltung    |         |         |    X     |    
 |Audiokonferenz     |    X     |    X     |         |
-|Anrufpläne     |         |    X     |         |
-|Telefonsystem    |         |     X    |         |
-|Telefonnummernverwaltung     |         |   X      |         |
+|Anrufpläne     |    X    |    X     |         |
+|Telefonsystem    |    X    |     X    |         |
+|Telefonnummernverwaltung     |    X    |   X      |         |
 |Lizenzierung für Cloud Voice-Funktionen     |         |         |    X     |
-|Automatische Telefonzentralen     |         |    X     |         |
-|Anrufwarteschleifen     |         |    X     |         |
+|Automatische Telefonzentralen     |    X    |          |         |
+|Anrufwarteschleifen     |    X    |          |         |
 
 ## <a name="manage-settings-after-the-migration"></a>Verwalten von Einstellungen nach der Migration
 

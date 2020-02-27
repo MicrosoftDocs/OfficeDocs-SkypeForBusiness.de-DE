@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 854294f1ddb8e677037c151e3f7b3cada6e31c16
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 99acc2e1756c0915f404f6bf6b1bfab1e30fcaf6
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826753"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288733"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
@@ -44,9 +44,10 @@ Diese Kontotypen werden Ihrem organisationsweiten Team nicht hinzugefügt:
 Wenn das Verzeichnis Ihrer Organisation aktualisiert wird, um neue aktive Benutzer einzubeziehen, oder wenn Benutzer nicht mehr in Ihrem Unternehmen arbeiten und Ihr Konto deaktiviert ist, werden Änderungen automatisch synchronisiert, und die Benutzer werden dem Team hinzugefügt oder aus ihr entfernt. Teammitglieder können ein organisationsweites Team nicht bestanden haben. Als Teambesitzer können Sie bei Bedarf Benutzer manuell hinzufügen oder entfernen.
 
 > [!NOTE]
-> - Wenn die Option " **org-Wide** " beim Erstellen eines Teams nicht angezeigt wird und Sie ein globaler Administrator sind, wird das Feature möglicherweise weiterhin bereitgestellt, Sie haben die fünf organisationsweiten Teams erreicht, oder Ihre Organisation hat mehr als die aktuelle Größenbeschränkung von 5.000-Mitgliedern. Wir möchten diesen Grenzwert in Zukunft erhöhen.
+> - Wenn die Option " **org-Wide** " beim Erstellen eines Teams nicht angezeigt wird und Sie ein globaler Administrator sind, wird das Feature möglicherweise weiterhin bereitgestellt, Sie haben die fünf organisationsweiten Teams erreicht, oder Ihre Organisation hat mehr als die aktuelle Größenbeschränkung von 5.000-Mitgliedern. Wir möchten diesen Grenzwert in Zukunft erhöhen. Organisationsweite Teams sind für Bildungs Teams noch nicht verfügbar.
 > - Räume, die nicht Teil einer Raumliste, eines Equipments und einer Ressourcenkonten sind, werden möglicherweise dem organisationsweiten Team hinzugefügt oder synchronisiert. Teambesitzer können diese Konten ganz einfach aus dem Team entfernen.
 > - Alle Aktionen des Systems zum Hinzufügen oder Entfernen von Mitgliedern werden im Kanal "Allgemein" veröffentlicht. Der Kanal wird auch als neue Aktivität im Team-Client markiert.
+> - Wir erstellen automatisch ein organisationsweites Team für Ihre Organisation, wenn Ihre Organisation neu in Microsoft Teams ist und nicht mehr als 5.000 Benutzer hat. Der Teamname gibt den Namen des Mandanten wieder und hat einen allgemeinen Kanal. Globale Administratoren können dieses Team wie jedes andere Team bearbeiten. 
 
 ## <a name="best-practices"></a>Bewährte Methoden
 
@@ -54,11 +55,11 @@ Um Ihr organisationsweites Team optimal zu nutzen, empfehlen wir Teambesitzern, 
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Nur Teambesitzern die Bereitstellung im allgemeinen Kanal gestatten
 
-Reduzieren Sie Kanalrauschen, indem Sie nur Teambesitzer in den Kanal "Allgemein" Posten. Wechseln Sie zum Team, und klicken Sie auf **̇ ̇ ̇ Weitere Optionen** > **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf **Mitglieder Berechtigungen** #a0 **nur Besitzer können Nachrichten senden**.
+Reduzieren Sie Kanalrauschen, indem Sie nur Teambesitzer in den Kanal "Allgemein" Posten. Wechseln Sie zum Team, und klicken Sie auf **̇ ̇ ̇ Weitere Optionen** > **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf **Mitglieder Berechtigungen** > **nur Besitzer können Nachrichten senden**.
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>Deaktivieren von @Team und @ [Teamname]-Erwähnungen
 
- Reduzieren Sie @Mentions, damit Sie nicht die gesamte Organisation überlasten. Wechseln Sie zum Team, und klicken Sie auf **̇ ̇ ̇ Weitere Optionen** > **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf <strong>@Mentions</strong> #a0 deaktivieren Sie **Mitglieder anzeigen die Option @Team oder @ [Teamname]**. 
+ Reduzieren Sie @Mentions, damit Sie nicht die gesamte Organisation überlasten. Wechseln Sie zum Team, und klicken Sie auf **̇ ̇ ̇ Weitere Optionen** > **Team verwalten**. Klicken Sie auf der Registerkarte **Einstellungen** auf <strong>@Mentions</strong> > deaktivieren Sie **Mitglieder anzeigen die Option @Team oder @ [Teamname]**. 
 
 ### <a name="automatically-show-important-channels"></a>Automatisches anzeigen wichtiger Kanäle
 

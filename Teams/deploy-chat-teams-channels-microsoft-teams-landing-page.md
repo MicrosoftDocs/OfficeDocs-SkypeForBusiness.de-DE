@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7c89b4abe53621ae217ecb3874df9a51a43a7ac
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 87de516afbd94a0d1784edd52efbcc5b10e262dd
+ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160699"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42285827"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
@@ -226,7 +226,7 @@ Teams nutzt in großem Umfang Exchange Online, SharePoint Online und Skype for B
 
 | Frage | Aktion |
 |--------------|--------|
-|<br>Muss ich bedingen Zugriff für Teams konfigurieren?|<ul><li>Die Grundlagen von Zugriffsrichtlinien sind unter [How do conditional access policies work for Teams?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams) (Funktionsweise von Richtlinien für den bedingten Zugriff für Teams) erläutert.</li><li>Informationen zum Einrichten der mehrstufigen Authentifizierung (MFA) für Teams finden Sie unter:<ul><li>[Schnellstart: Vorschreiben von MFA für bestimmte Apps mithilfe von bedingtem Zugriff in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Einstellungsreferenz für bedingten Zugriff in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
+|<br>Muss ich bedingen Zugriff für Teams konfigurieren?|<ul><li>Die Grundlagen von Zugriffsrichtlinien sind unter [How do conditional access policies work for Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams) (Funktionsweise von Richtlinien für den bedingten Zugriff für Teams) erläutert.</li><li>Informationen zum Einrichten der mehrstufigen Authentifizierung (MFA) für Teams finden Sie unter:<ul><li>[Schnellstart: Vorschreiben von MFA für bestimmte Apps mithilfe von bedingtem Zugriff in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/app-based-mfa)</li><li>[Einstellungsreferenz für bedingten Zugriff in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/conditional-access/technical-reference)</li></ul></ul>|
 |||
 
 

@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Informieren Sie sich über die Features, die Verfügbarkeit und die Vorgehensweise zum Planen und Einrichten von Microsoft Phone System für Ihr Unternehmen. '
-ms.openlocfilehash: b1ba96143c62b829ef9461c1429a83a8b3cfe51e
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 27ec4803a33f524d1c260c27c1af3c71210b33d2
+ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42045167"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288703"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Hier erfahren Sie, was Ihnen das Office 365-Telefonsystem bietet
 
@@ -45,11 +45,11 @@ Das Telefon System bietet die folgenden Funktionen. Sofern nicht anders angegebe
 |**Telefon System in Office 365-Feature** <br/> |**Beschreibung** <br/> |
 |[Automatische Cloud-Telefonzentralen](what-are-phone-system-auto-attendants.md) <br/> |Mit dieser Option können Sie ein Menü System erstellen, das es externen und internen Anrufern ermöglicht, Anrufe an Unternehmensbenutzer oder Abteilungen in Ihrer Organisation zu suchen und dort zu platzieren oder zu übertragen.  <br/> |
 |[Cloud-Anrufwarteschlangen](create-a-phone-system-call-queue.md) <br/> |Mit dieser Option können Sie konfigurieren, wie Anrufwarteschlangen für Ihre Organisation verwaltet werden: Sie können beispielsweise Begrüßungen und Musik in Wartestellung einrichten, nach dem nächsten verfügbaren Anruf Agenten suchen, um den Anruf zu behandeln, und so weiter.  <br/> |
-|Wartemusik | Gibt die vom Dienst definierte Standardmusik wieder, wenn ein externer Anruf über das öffentlich geschaltete Telefonnetz (PSTN) in Wartestellung gesetzt wird. Dieses Feature funktioniert sowohl bei Anrufen, die an eine Anrufwarteschlange gemacht werden als auch bei 1:1-PSTN-zu-Teams-Anrufen. Dieses Feature bietet eine Halten-Benachrichtigungsparität zu anderen Plattformen. Bei der ersten Version kann dieses Feature vom Administrator nicht konfiguriert werden. Bei der Beratenden Übertragung eines PSTN-Anrufs wird "Musik speichern" ebenfalls nicht unterstützt.|
+|Wartemusik | Gibt die vom Dienst definierte Standardmusik wieder, wenn ein externer Anruf über das öffentlich geschaltete Telefonnetz (PSTN) in Wartestellung gesetzt wird. Dieses Feature funktioniert sowohl bei Anrufen, die an eine Anrufwarteschlange gemacht werden als auch bei 1:1-PSTN-zu-Teams-Anrufen. Dieses Feature bietet eine Halten-Benachrichtigungsparität zu anderen Plattformen. Dieses Feature ist vom Administrator konfigurierbar, aber [derzeit nur über PowerShell](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Bei der Beratenden Übertragung eines PSTN-Anrufs wird "Musik speichern" ebenfalls nicht unterstützt.|
 |Anruf annehmen/initiieren (nach Name und Nummer)  <br/> |Ermöglicht Benutzern, eingehende Anrufe per Tastendruck zu beantworten und ausgehende Anrufe zu tätigen, indem Sie entweder die vollständige Telefonnummer wählen oder im Client auf einen Namen klicken.  <br/> |
 |[Optionen für die Anrufweiterleitung und gleichzeitiges Klingeln](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) <br/> |Ermöglicht es Benutzern, Weiterleitungsregeln einzurichten, damit Anrufe überall mitgehen können oder Anrufe an Kollegen oder Voicemail weitergeleitet werden können.  <br/> |
 |[Gruppenanruf Abholung und Weiterleiten an Gruppe](call-sharing-and-group-call-pickup.md) <br/> | Ermöglicht Benutzern das Freigeben eingehender Anrufe an Kollegen, damit die Kollegen Anrufe annehmen können, die eintreten, während der Benutzer nicht verfügbar ist. Weniger störend für Empfänger als andere Formen der Anruf Freigabe (wie Anrufweiterleitung oder gleichzeitiges Klingeln), da Benutzer konfigurieren können, wie Sie über einen eingehenden freigegebenen Anruf benachrichtigt werden möchten. |
-|[Übertragen eines Anrufs und konsultieren der Übertragung](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |Ermöglicht Benutzern die Übertragung von Anrufen an eine andere Person. Oder wenn Sie Ihr Büro verlässt, aber die Unterhaltung fortsetzen möchten, können Sie die Anrufe von Ihrem PC oder IP-Telefon an Ihr Mobiltelefon übertragen.  <br/> |
+|[Übertragen eines Anrufs und einer beratenden Übertragung](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> |Ermöglicht Benutzern die Übertragung von Anrufen an eine andere Person. Oder wenn Sie Ihr Büro verlässt, aber die Unterhaltung fortsetzen möchten, können Sie die Anrufe von Ihrem PC oder IP-Telefon an Ihr Mobiltelefon übertragen.  <br/> |
 |[Übertragung an Voicemail Mid-Anruf](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0) <br/> | Ermöglicht es Benutzern, während eines Anrufs eine Sprachnachricht zu übertragen. |
 |[Parken von Anrufen und Holen](call-park-and-retrieve.md)  <br/> | Ermöglicht Benutzern, einen Anruf im Teams-Dienst in der Cloud zu halten. Wenn ein Anruf abgestellt wird, generiert der Dienst einen eindeutigen Code für den Abruf des Anrufs. Der Benutzer, der den Anruf abgestellt hat, oder eine andere Person kann diesen Code und eine unterstützte APP oder ein unterstütztes Gerät verwenden, um den Anruf abzurufen. <br/> |
 |Telefonnummer von der Suche aus anrufen  <br/> | Ermöglicht Benutzern, einen Anruf über das Suchfeld zu tätigen, indem Sie den Befehl/Call verwenden und einen Namen oder eine Zahl angeben. <br/> |
