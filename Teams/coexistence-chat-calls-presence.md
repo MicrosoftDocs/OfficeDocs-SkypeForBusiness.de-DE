@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Dieses Dokument beschreibt das Verhalten von Chats, Anrufweiterleitung und Anwesenheitsinformationen zwischen Benutzern von Teams und Skype for Business, sowohl im Mandanten als auch im Verbund, basierend auf den zugewiesenen TeamsUpgrade-Modi. Es umfasst Routing Optimierungen, Anwesenheits Verhalten sowie die Änderung des standardmäßigen TeamsUpgrade-Modus von *Legacy* auf *Inseln* und die bevorstehende Pensionierung von *Legacy*.
-ms.openlocfilehash: 442b4b68b9739d9d17d02e298b53c5d9ecec3c8f
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+ms.openlocfilehash: 64889ae11b4ce8665fb4a6bdbb98ff95aaf777fc
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236825"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328017"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 
@@ -56,7 +56,7 @@ Die Parameter, die die Thread Routingmethode bestimmen, sind:
     - Teams für die Kommunikation in Teams sind in-Mandanten immer möglich.
 
 > [!NOTE]
-> Derzeit nutzt alle Föderationen, an denen Teams beteiligt sind, die Skype for Business-Föderations Pipeline und Teams – Skype for Business-Interoperabilität. Wir planen Native Teams – Teams Federation. Das vorliegende Dokument wird nach der Veröffentlichung des Native Federation aktualisiert.
+> Wenn sich der Empfänger und der Absender im TeamsOnly-Aktualisierungsmodus befinden, ist die Unterhaltung ein systemeigener Chat, in dem alle Rich-Messaging-und Anruffunktionen enthalten sind. Weitere Informationen finden Sie unter [systemeigene Chat-Erfahrung für externe (Verbund-) Benutzer in Teams](native-chat-for-external-users.md). Befindet sich einer der Konversationsteilnehmer nicht im TeamsOnly-Upgrademodus, bleibt die Unterhaltung eine Interoperabilitäts Funktion mit nur-Text-Nachrichten.
 
 ## <a name="chat-and-call-routing"></a>Chat und Anrufweiterleitung
 

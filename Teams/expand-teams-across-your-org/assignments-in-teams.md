@@ -21,12 +21,12 @@ description: Hier erfahren Sie, wie Sie Aufgaben im Microsoft Teams Admin Center
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fb811540fc4e79c65d93eefb993fa7523a39aff
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ad9e3f8b0f2f3800c7394a9d4dc21fe7a2058426
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827823"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327997"
 ---
 # <a name="assignments-in-teams-for-education"></a>Aufgaben in Teams für Bildungseinrichtungen
 
@@ -40,7 +40,6 @@ Mit den Administratoreinstellungen im Microsoft Teams Admin Center können Sie d
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>Wöchentlicher Guardian-e-Mail-Digest
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Guardian-e-Mails sind wöchentliche e-Mails, die an die Eltern oder Erziehungsberechtigten der Schüler gesendet werden. Die e-Mail-Nachrichten enthalten Informationen zu den Aufgaben aus der vorherigen Woche und für die kommende Woche und werden über das Wochenende verschickt. Die e-Mail-Nachrichten müssen von den Administratoren über das School Data Sync-Feature aktualisiert werden.
 
@@ -58,7 +57,6 @@ Diese Einstellung ist standardmäßig deaktiviert.
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Turnitin ist ein Plagiat-Erkennungsdienst. Hierbei handelt es sich um ein Produkt oder eine Dienstleistung eines Drittanbieters, das seinen eigenen Bedingungen und Datenschutzrichtlinien unterliegt. Sie sind für die Nutzung von Produkten und Dienstleistungen von Drittanbietern verantwortlich.
 

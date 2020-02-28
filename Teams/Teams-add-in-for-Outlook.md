@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3054c961faa2587b203bd1522c266a55e0c34174
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1cdd071dfe19c50650d6f18605a5aeed5b39300
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834665"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327847"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -39,7 +39,6 @@ Das Team Besprechungs-Add-in wird automatisch für Benutzer installiert, die Mic
 > [!NOTE]
 > - Benutzerberechtigungen zum Ausführen der Datei "regsvr32. exe" sind eine Mindestanforderung, damit das Add-in "Teams-Besprechung" auf dem Computer installiert werden kann.
 > - Wenn Benutzer das Microsoft Teams-Besprechungs-Add-In nicht sehen, weisen Sie sie an, Outlook und Microsoft Teams zu schließen, den Microsoft Teams-Client neu zu starten, sich bei Microsoft Teams anzumelden und den Outlook-Client zu starten (in dieser Reihenfolge).
-> - Windows 7-Benutzer müssen das [Update für die universelle C-Laufzeit unter Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) in Windows installieren, damit das Teambesprechung-Add-in funktioniert.
 > - Wenn Sie eine Office Outlook-Installation aus dem Microsoft Store verwenden, wird das Teambesprechung-Add-in nicht unterstützt. Benutzern, die dieses Add-in benötigen, wird empfohlen, die Klick-und-Los-Version von Office zu installieren, wie in [Office unter Windows 10 im S-Modus](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) beschrieben.
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Teambesprechung-Add-in in Outlook für Mac

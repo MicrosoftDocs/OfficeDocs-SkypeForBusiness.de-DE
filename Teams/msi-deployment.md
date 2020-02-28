@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc57222f56235c71c676f952cb0dd5aa149dc4e3
-ms.sourcegitcommit: df552697ae9c8c01c40f816bbe98b251db147199
+ms.openlocfilehash: c048e321241f4403fbb69f71e56b3fc179346951
+ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42277978"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42327827"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installieren von Microsoft Teams mit Microsoft Endpoint Configuration Manager
 
@@ -55,9 +55,9 @@ Teams können auch in eine Bereitstellung von Office 365 ProPlus einbezogen werd
 
 ### <a name="pc-installation"></a>PC-Installation
 
-Das MSI-Paket für Microsoft Teams legt ein Installationsprogramm in „Programme“ ab. Wenn sich ein Benutzer bei einem neuen Windows-Benutzerprofil anmeldet, wird das Installationsprogramm gestartet und im Ordner „AppData“ des Benutzers eine Kopie der Microsoft Teams-App installiert. Wenn die Microsoft Teams-App bereits im Ordner „AppData“ des Benutzers installiert ist, überspringt das MSI-Installationsprogramm den Prozess für diesen Benutzer.
+Das MSI-Paket für Microsoft Teams legt ein Installationsprogramm in „Programme“ ab. Wenn sich ein Benutzer in einem neuen Windows-Benutzerprofil anmeldet, wird das Installationsprogramm gestartet, und eine Kopie der Teams-APP wird im `AppData` Ordner dieses Benutzers installiert. Wenn ein Benutzer bereits die Teams-App im `AppData` Ordner installiert hat, überspringt das MSI-Installationsprogramm den Prozess für diesen Benutzer.
 
-Sie sollten das MSI-Paket nicht zum Bereitstellen von Updates verwenden, da der Client automatisch aktualisiert wird, wenn er erkennt, dass über den Dienst eine neue Version verfügbar ist. Verwenden Sie zum erneuten Bereitstellen des neuesten Installationsprogramms das unten beschriebene Verfahren für die erneute Bereitstellung von MSI-Paketen.Wenn Sie eine ältere Version des MSI-Pakets bereitstellen, wird der Client automatisch aktualisiert (außer in VDI-Umgebungen), sofern dies für den Benutzer möglich ist. Falls eine sehr alte Version bereitgestellt wird, löst das MSI-Paket ein App-Update aus, bevor der Benutzer Microsoft Teams verwenden kann.
+Sie sollten das MSI-Paket nicht zum Bereitstellen von Updates verwenden, da der Client automatisch aktualisiert wird, wenn er erkennt, dass über den Dienst eine neue Version verfügbar ist. Verwenden Sie zum erneuten Bereitstellen des neuesten Installationsprogramms das unten beschriebene Verfahren für die erneute Bereitstellung von MSI-Paketen. Wenn Sie eine ältere Version des MSI-Pakets bereitstellen, wird der Client automatisch aktualisiert (außer in VDI-Umgebungen), sofern dies für den Benutzer möglich ist. Falls eine sehr alte Version bereitgestellt wird, löst das MSI-Paket ein App-Update aus, bevor der Benutzer Microsoft Teams verwenden kann.
 
 > [!Important]
 > Sie sollten die standardmäßigen Installationsspeicherorte nicht ändern, da dies den Aktualisierungsablauf behindern kann. Eine zu alte Version führt letztlich dazu, dass die Benutzer nicht auf den Dienst zugreifen können.
@@ -65,7 +65,7 @@ Sie sollten das MSI-Paket nicht zum Bereitstellen von Updates verwenden, da der 
 #### <a name="target-computer-requirements"></a>Anforderungen an die Zielcomputer
 
 - .NET Framework 4.5 oder höher
-- Windows 7 oder höher
+- Windows 8,1 oder höher
 - Windows Server 2012 R2 oder höher
 - 3 GB Speicherplatz auf dem Datenträger für jedes Benutzerprofil (empfohlen)
 
@@ -78,7 +78,7 @@ Eine vollständige Anleitung zum Bereitstellen der Desktop-App "Teams" auf VDI f
 Wenn ein Benutzer Microsoft Teams in seinem Benutzerprofil deinstalliert, erkennt das MSI-Installationsprogramm, dass der Benutzer die Microsoft Teams-App deinstalliert hat, und installiert Microsoft Teams für dieses Benutzerprofil nicht mehr. Um Microsoft Teams für diesen Benutzer auf einem bestimmten Computer, auf dem Microsoft Teams deinstalliert wurde, erneut bereitzustellen, gehen Sie so vor:
 
 1. Deinstallieren Sie die installierte Microsoft Teams-App für alle Benutzerprofile.
-2. Löschen Sie nach der Deinstallation rekursiv das Verzeichnis „%localappdata%\Microsoft\Teams\“.
+2. Löschen Sie nach der Deinstallation das Verzeichnis rekursiv `%localappdata%\Microsoft\Teams\`unter.
 3. Stellen Sie das MSI-Paket auf dem entsprechenden Computer erneut bereit.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Verhindern, dass Teams nach der Installation automatisch gestartet werden
