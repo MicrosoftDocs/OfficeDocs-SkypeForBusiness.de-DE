@@ -4,6 +4,8 @@
 
 # [Poster zu Architektur und Telefonielösungen](teams-architecture-solutions-posters.md)  
 
+# [Remotemitarbeiter unterstützen (WFH)](support-remote-work-with-teams.md)
+
 # Schulungen 
 ## [Übersicht](training-microsoft-teams-landing-page.md)
 ## [Kursleitergeführte Schulung für Teams](instructor-led-training-teams-landing-page.md)
@@ -157,6 +159,7 @@
 #### [Ändern der Einstellungen für eine Audiokonferenzbrücke](change-the-settings-for-an-audio-conferencing-bridge.md)
 #### [Anzeigen einer Liste mit Audiokonferenz-Telefonnummern](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 #### [Festlegen der Sprachen für die automatische Telefonzentrale für Audiokonferenzen](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
+#### [Einrichten der Anruf-Bestätigung für die Besprechung für Ihre Benutzer](set-up-meeting-dial-out-confirmation.md)
 
 
 ### [Verwalten der Audiokonferenzeinstellungen für Ihre Organisation](manage-the-audio-conferencing-settings-for-my-organization-in-teams.md)
