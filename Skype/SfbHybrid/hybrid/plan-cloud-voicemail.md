@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: In diesem Artikel werden die Vorteile, Planungsüberlegungen und Anforderungen für die Implementierung des Microsoft Cloud Voicemail-Diensts beschrieben. Informationen zum Konfigurieren von Cloud-Voicemail finden Sie unter Configuring Cloud Voicemail.
-ms.openlocfilehash: 82d9473e35b5c10fd2c50b783a89df64aed62cbe
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 07448ab8232115e19c01261dc487c04b5a2dd4f9
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006020"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341764"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planen des Cloud-Voicemail-Diensts für lokale Benutzer
 
@@ -88,18 +88,13 @@ Wenn Sie Skype for Business Server 2019 und/oder Exchange Server 2019 bereitstel
 - Exchange Server 2019 bietet keine Exchange um Funktionalität mehr
 - Skype for Business Server 2019 nicht mehr in Exchange Online um integriert
 
-Versions Interoperabilität und unterstützte Topologien für Cloud-Voicemail sind in der folgenden Tabelle aufgeführt, in der die Skype for Business Server Versionen, auf denen der Benutzer möglicherweise verwaltet wird, mit der möglichen Version verglichen werden, die das Exchange-Postfach bereitstellt. Cloud-Voicemail kann nur mit Skype for Business Server und Exchange Server 2019 oder Exchange Online verwendet werden.
+Versions Interoperabilität und unterstützte Topologien für Cloud-Voicemail sind in der folgenden Tabelle aufgeführt, in der die Skype for Business Server Versionen, auf denen der Benutzer möglicherweise verwaltet wird, mit der möglichen Version verglichen werden, die das Exchange-Postfach bereitstellt. Sie müssen Cloud Voicemail verwenden, wenn Sie Skype for Business 2019 mit Exchange Online oder Exchange Server 2019 verwenden möchten.
 
 | | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
-| Skype for Business Server 2019 | Exchange Server um | Exchange Server um | Cloud-Voicemail | Cloud-Voicemail |
-| Skype for Business Server 2015 | Exchange Server um | Exchange Server um | Cloud Voicemail<sup>1</sup> | Cloud-Voicemail <br> Exchange Online um<sup>2</sup> |
-| Lync Server 2013 <br>  | Exchange Server um | Exchange Server um | Nicht unterstützt | Cloud-Voicemail <br> Exchange Online um<sup>2</sup> |
-
-<sup>1</sup> ist diese Option noch nicht sichtbar? Es wird derzeit ein Rollback ausgeführt und ist in Ihrer Organisation noch nicht verfügbar. Weitere Informationen finden Sie unter Schritt 6, in [Unterstützung von Exchange Unified Messaging Online Migration](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support
-) , um die geplante Konnektivität mit Cloud-Voicemail zu aktivieren.
-
-<sup>2</sup> bis veraltet. Weitere Informationen finden Sie unter [Unterstützung für die Exchange Unified Messaging-Online Migration](../../sfbserver2019/plan/exchange-unified-messaging-online-migration-support.md) . 
+| Skype for Business Server 2019 | Exchange Server um | Exchange Server um | Cloudvoicemail | Cloudvoicemail |
+| Skype for Business Server 2015 | Exchange Server um | Exchange Server um | Cloudvoicemail | Cloudvoicemail |
+| Lync Server 2013 <br>  | Exchange Server um | Exchange Server um | Nicht unterstützt | Cloudvoicemail |
 
 Microsoft empfiehlt die folgenden Migrationspfade:
 

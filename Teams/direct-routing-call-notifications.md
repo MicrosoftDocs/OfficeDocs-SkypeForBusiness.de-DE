@@ -18,12 +18,12 @@ description: Benachrichtigung über direkten Routing Anruf
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 3d53245d241435e869dbdbeb15dcb1c81e18ff96
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0320ebc6abfc0e3f3d720fbab03abc698b26849c
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837595"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341807"
 ---
 # <a name="manage-call-notifications"></a>Verwalten von Anrufbenachrichtigungen
 
@@ -45,7 +45,7 @@ Sie können die Benachrichtigung "verpasste Anrufe" verhindern, indem Sie den SB
 
 Grund: SIP; Ursache = 200; Text "Anruf an anderer Stelle abgeschlossen" 
 
-Beachten Sie, dass der Anruf nicht in den Anruf Detaildatensätzen von Microsoft Phone System als erfolgreicher Anruf registriert wird. Der Anruf wird als "Versuch" mit dem endgültigen SIP-Code "487", dem endgültigen Microsoft-Subcode "540200" und dem letzten SIP-Codesatz "Anruf an anderer Stelle abgeschlossen" registriert.   (Wenn Sie die Anruf Detaildatensätze anzeigen möchten, wechseln Sie zum Teamadministrator-Portal, Analyse-und Berichtsfunktionen, Verwendungsberichte, und wählen Sie PSTN-Nutzung aus.)
+Beachten Sie, dass der Anruf nicht in den Anruf Detaildatensätzen von Microsoft Phone System als erfolgreicher Anruf registriert wird. Der Anruf wird als "Versuch" mit dem endgültigen SIP-Code "487", dem endgültigen Microsoft-Subcode "540200" und dem letzten SIP-Codesatz "Anruf an anderer Stelle abgeschlossen" registriert.  (Wenn Sie die Anruf Detaildatensätze anzeigen möchten, wechseln Sie zum Teamadministrator-Portal, Analyse-und Berichtsfunktionen, Verwendungsberichte, und wählen Sie PSTN-Nutzung aus.)
 
 
 Das folgende Diagramm zeigt die SIP-Leiter für Fork 1, erläutert den Anruffluss und den erwarteten Grund in der Abbruch Nachricht. 

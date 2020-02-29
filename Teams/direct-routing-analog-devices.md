@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lesen Sie diesen Artikel, um zu erfahren, wie Sie analoge Geräte mit dem direkten Routing von Microsoft Phone System verwenden können.
-ms.openlocfilehash: c1720a7f702babbf677ab8f1de75014c629e6d76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192168"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341793"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Verwenden von analogen Geräten mit direktem Telefon System-Routing
 
@@ -45,7 +45,7 @@ Dieses Beispiel führt Sie durch die folgenden Schritte:
 4. Zuweisen der VoIP-Route zur PSTN-Nutzung
 5. Aktivieren des Online Benutzers
 6. Zuweisen der VoIP-Routen Richtlinie zum Benutzer
-7. Zuweisen einer VoIP-Routen Richtlinie zu einem analogen Gerät
+7. Erstellen einer VoIP-Route für ein analoges Gerät
 
 Informationen zum Verbinden eines ATA mit einem SBC und zum Konfigurieren des SBC finden Sie im Konfigurationshandbuch des SBC-Herstellers:
 - [AudioCodes-Konfigurationsdokumentation](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
@@ -104,7 +104,7 @@ Mit diesem Befehl wird dem Benutzer die Richtlinie für die Online-VoIP-AnalogIn
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
 ```
 
-## <a name="step-7--assign-a-voice-route-to-an-analog-device"></a>Schritt 7: Zuweisen einer VoIP-Route zu einem analogen Gerät
+## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>Schritt 7: Erstellen einer VoIP-Route für ein analoges Gerät
 
 Dieser Befehl erstellt eine Online-VoIP-Route mit der Identität "Analog-Interop" für den Nummernbereich + 1425 4xx XX XX, die für eine Liste von Online-Gateways SBC.contoso.com und mit der Online-PSTN-Nutzung "Interop" verknüpft ist.  Dieser Befehl sollte für jedes analoge Gerät mit dem entsprechenden Telefonnummernmuster ausgeführt werden. Alternativ können Sie beim Konfigurieren der Online-VoIP-Route in einem der vorherigen Schritte ein geeignetes Zahlenmuster für analoge Geräte verwenden.
 

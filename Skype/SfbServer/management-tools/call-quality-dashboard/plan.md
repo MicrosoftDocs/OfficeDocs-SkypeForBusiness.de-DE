@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Zusammenfassung: Hier erfahren Sie, was Sie bei der Planung des Anruf Qualitäts Dashboards berücksichtigen sollten.'
-ms.openlocfilehash: 25342998332a596abce9ecd02e63e153be6e6d94
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 63b69d64624d13253badf1d3e6f44535afdc0993
+ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029416"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42339440"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planen des Anruf Qualitäts Dashboards für Skype for Business Server 
  
@@ -195,9 +195,9 @@ In diesem Abschnitt wird davon ausgegangen, dass in der Umgebung eine einzelne Q
 
 |**Maschine**|**CPU-Kerne**|**Arbeitsspeicher**|**QoE-Archiv und Cube auf demselben Datenträger**|**QoE-Archiv und SQL-Temp-DB auf demselben Datenträger**|
 |:-----|:-----|:-----|:-----|:-----|
-|Virtueller Computer  <br/> |4   <br/> |7 GB  <br/> |Ja  <br/> |Ja  <br/> |
-|4 Kern  <br/> |4   <br/> |20 GB  <br/> |Ja  <br/> |Nein  <br/> |
-|8 Kern  <br/> |8   <br/> |32 GB   <br/> |Ja  <br/> |Nein  <br/> |
+|Virtueller Computer  <br/> |4  <br/> |7 GB  <br/> |Ja  <br/> |Ja  <br/> |
+|4 Kern  <br/> |4  <br/> |20 GB  <br/> |Ja  <br/> |Nein  <br/> |
+|8 Kern  <br/> |8  <br/> |32 GB   <br/> |Ja  <br/> |Nein  <br/> |
 |16 Kern  <br/> |16   <br/> |128 GB  <br/> |Nein  <br/> |Nein  <br/> |
    
 **Leistungsergebnisse**
@@ -296,15 +296,10 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 
 Die folgenden Versionen von SQL Server werden unterstützt:
   
-- SQL Server 2012
-    
-- SQL Server 2014
-
-- SQL Server 2016
-
-- SQL Server 2017
-
-- SQL Server 2019 (nur Skype for Business Server 2019 CQD)
+|||
+|:-----|:-----|
+| CQD 2015 <br/> |  SQL Server 2012, SQL Server 2014, SQL Server 2016  |
+|CQD 2019 <br/> |  SQL Server 2017, SQL Server 2019  |
     
 Business Intelligence oder Enterprise Edition wird aus Leistungsgründen empfohlen. Diese Editionen ermöglichen die Verwendung mehrerer Partitionsdateien, die parallel verarbeitet werden können, was für die Verarbeitung von Daten, die mehrere Monate oder länger dauern, vorteilhaft ist. 
   

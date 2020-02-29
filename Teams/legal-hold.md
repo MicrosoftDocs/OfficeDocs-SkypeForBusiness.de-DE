@@ -15,12 +15,12 @@ f1.keywords:
 description: Hier erfahren Sie, wie Sie die gesetzliche Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams unter Verwendung des Security & Compliance Center festlegen können und welche Datenanforderungen für eine gesetzliche Aufbewahrung notwendig sind.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c46de971a63a212c0773f5048aeded697d05e0c
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: e3727ac3f6b9ded4c3dbb34a1977f9b99cbaf15e
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863026"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341633"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Microsoft Teams
 ==================================================
@@ -37,7 +37,7 @@ In Microsoft Teams kann ein gesamtes Team oder ausgewählte Benutzer in die Wart
 
 So stellen Sie einen Benutzer oder ein Team in rechtlicher Wartestellung:
 
-1. Navigieren Sie zum [Security #a0 Compliance Center](https://go.microsoft.com/fwlink/?linkid=854628). Wenn Sie einen neuen Fall erstellen, haben Sie die Möglichkeit, Postfächer oder Websites in Wartestellung zu platzieren.
+1. Navigieren Sie zum [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=854628). Wenn Sie einen neuen Fall erstellen, haben Sie die Möglichkeit, Postfächer oder Websites in Wartestellung zu platzieren.
 1. Wechseln Sie zu eDiscovery oder Advanced eDiscovery, und erstellen Sie einen Fall, indem Sie auf "+ Fall erstellen" klicken. Nachdem der Fall erstellt wurde, öffnen Sie ihn.
 ![Microsoft Teams-eDiscovery-Registerkarte mit der Schaltfläche "Groß-/Kleinschreibung erstellen" ausgewählt.](media/LegalHold1.png)
 1. Wechseln Sie im oberen Menü zum Abschnitt "haltebereiche", und klicken Sie auf "+ erstellen", um einen Haltebereich zu erstellen. Wenn ein Benutzer oder ein Team angehalten wird, speichert alle Nachrichten, die von diesen Benutzern oder Nachrichten ausgetauscht werden, wenn Sie einen neuen Fall erstellen, wird Ihnen die Möglichkeit angezeigt, Postfächer oder Websites in Wartestellung zu platzieren.

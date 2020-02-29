@@ -23,21 +23,30 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Telefonnummern erhalten oder Nummern für Ihre Organisation portieren (übertragen), müssen Sie möglicherweise Hilfe und Support beim PSTN-Service Desk erhalten.
-ms.openlocfilehash: 819baa319fb0cd8d53e163560c6de888ecd177c9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6d400e51270b411054802240216d9e957a68f054
+ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825713"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341782"
 ---
-# <a name="pstn-service-desk-help"></a>Hilfe zu PSTN-Service Desk
+# <a name="pstn-service-desk-contact"></a>PSTN-Service Desk-Kontakt
 
-Wenn Sie Hilfe beim Abrufen oder übertragen von Telefonnummern benötigen, aber Hilfe benötigen, teilen Sie uns bitte mit, wie wir Ihnen in einer e-Mail behilflich sein können, und senden Sie Sie an uns. Geben Sie in Ihrer e-Mail-Hilfeanforderung so viele Details wie möglich ein, und fügen Sie Details wie Ihre Organisations-ID, Domänen, welche Arten von Nummern, mit denen Sie Hilfe benötigen, wie viele Nummern Sie benötigen, Autorisierungs Person für das Konto und andere wichtige Details zu Ihrem Problem ein.
+Wenn Sie Hilfe beim Erwerb von Telefonnummern von Microsoft oder beim Portieren vorhandener Telefonnummern zu Microsoft benötigen, senden Sie eine e-Mail-Anforderung mit den folgenden Informationen:
 
-Senden Sie dann Ihre Anfrage an eine der folgenden e-Mail-Adressen:
+  - Ihre Organisations-ID (Mandanten-ID) oder aktive Domänen.
+  - Welche Arten von Nummern benötigen Sie Hilfe? (Nutzer/Abonnent, Service/gebührenpflichtig oder gebührenfrei).
+  - Wie viele Nummern Sie benötigen (wenn dies für den Nummern Erwerb gilt).
+  - Autorisieren von Personen auf dem Konto und weitere wichtige Informationen auf der Grundlage Ihrer Anfrage.
 
-- Für Hilfe bei Telefonnummern innerhalb der USA: [Anfrage senden](mailto:ptn@microsoft.com).
-- Hilfe zu Telefonnummern außerhalb der USA: [Anfrage senden](mailto:ptneu@microsoft.com).
+Wenn Sie alle Informationen haben, senden Sie uns Ihre Anfrage an eine der folgenden e-Mail-Adressen, die auf Ihre Anfrage zutreffen:
+- **Nummernportierung**
+    - Wenn Sie Telefonnummern **innerhalb der USA oder Kanadas**portieren, [Senden Sie uns bitte eine e-Mail an PTN@Microsoft.com](mailto:ptn@microsoft.com).
+    - Wenn Sie Telefonnummern **außerhalb der Vereinigten Staaten oder Kanadas**portieren, [Senden Sie uns bitte eine e-Mail an ptneu@Microsoft.com](mailto:ptneu@microsoft.com).
+    
+- **Nummern Erwerb**
+    - Neue Telefonnummern für die folgenden Länder erwerben: **Belgien, Frankreich, Deutschland, Großbritannien, Irland, Niederlande, Spanien, Schweden, Schweiz**, [Bitte senden Sie uns eine e-Mail an ptneu@Microsoft.com](mailto:ptneu@microsoft.com)
+    - Wenn Sie neue Telefonnummern für die **Übrige Welt** erwerben möchten, [Senden Sie uns bitte eine e-Mail an gcstnmsd@Microsoft.com](mailto:gcstnmsd@microsoft.com).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
