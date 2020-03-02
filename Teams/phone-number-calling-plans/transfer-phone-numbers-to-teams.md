@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: ''
-ms.openlocfilehash: 0f846029002529d221b079140cf7de8ae618f26c
-ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
+ms.openlocfilehash: b87684b6fbb73115540e20c72636200e61ca0e88
+ms.sourcegitcommit: c4f13aa4947df606d38694a7e544b08be7ce20d1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42089738"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42370414"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Übertragen von Telefonnummern an Microsoft Teams
 
@@ -87,7 +87,7 @@ Bevor Sie beginnen, empfehlen wir Ihnen, die Informationen in [einem Port Auftra
 
 ## <a name="what-happens-next"></a>Wie geht es weiter?
 
-Wenn wir Ihren Portierungs Auftrag erhalten, erhalten Sie eine e-Mail, die Ihre Anfrage überprüft. Ihre Anfrage wird täglich überprüft und aktualisiert, und Sie werden über Ihren Status und Status per e-Mail benachrichtigt. Wenn Ihre Anfrage abgelehnt wird, werden Sie aufgefordert, ein Support-Ticket zu öffnen.
+Wenn wir Ihren Portierungs Auftrag erhalten, erhalten Sie eine e-Mail, die Ihre Anfrage überprüft. Ihre Anfrage wird täglich überprüft und aktualisiert, und Sie werden über Ihren Status und Status per e-Mail benachrichtigt. Wenden Sie sich an den [PSTN-Service-Desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md), wenn Ihre Port Anfrage vom Verlierer-Netzbetreiber abgelehnt wurde.
 
 Wenn Sie den Status Ihrer Portierungs Reihenfolge anzeigen möchten, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu > **VoIP** > -**Port Bestellungen**, und klicken Sie dann auf **Bestellverlauf**. Jeder Port Auftragsstatus wird in der Spalte **Status** aufgelistet. Weitere Informationen finden Sie unter [Was ist der Status Ihrer Portierungs Aufträge?](port-order-status.md)
 
