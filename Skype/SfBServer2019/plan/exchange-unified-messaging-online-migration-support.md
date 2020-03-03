@@ -1,5 +1,5 @@
 ---
-title: Migrationsunterstützung für Exchange Unified Messaging Online
+title: Exchange Unified Messaging-Online Migrationsunterstützung
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -10,243 +10,246 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Microsoft stellt den Exchange Unified Messaging Online-Dienst (-Service) bis Februar 2020 ein. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: aee9441a6da436728e9d6add1cc67b9af7967439
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Microsoft stellt den Exchange Unified Messaging Online-Dienst ("Moreo") bis zum 28. Februar 2020 in Ruhestand. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
+ms.openlocfilehash: f6adb1636d6a40e41b006c3981dc4d21ba503289
+ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824039"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42374302"
 ---
-# <a name="exchange-unified-messaging-online-migration-support"></a>Migrationsunterstützung für Exchange Unified Messaging Online
+# <a name="exchange-unified-messaging-online-migration-support"></a>Exchange Unified Messaging-Online Migrationsunterstützung
 
-In Bezug auf die [Ankündigung](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) vom 8. Februar 2019 wird Microsoft den Exchange Unified Messaging Online-Dienst ("Service") bis zum 28. Februar 2020 zurückziehen. In diesem Artikel finden Sie eine Zusammenfassung der betroffenen Kunden, die Sie kennen sollten, um Ihre Geschäftskontinuität zu planen.
+> [!IMPORTANT]
+> **Der Unified Messaging-Dienst in Exchange Online wird vom 28. Februar 2020, 17:00 Uhr Pacific Time, nicht mehr unterstützt. Alle Voicemail-Konten wurden von Microsoft zum Cloud-Voicemaildienst migriert. Jeder verbleibende automatische Telefonzentralen-Datenverkehr wird nicht überwacht und kann jederzeit gestört werden.**
+
+In Bezug auf die [Ankündigung](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) am 8. Februar 2019 stellt Microsoft den Exchange Unified Messaging Online-Dienst ("Service") bis zum 28. Februar 2020 in Ruhestand. In diesem Artikel finden Sie eine Zusammenfassung der Auswirkungen, die betroffene Kunden kennen sollten und die Sie zur Planung Ihrer Geschäftskontinuität ausführen sollten.
  
-Der Dienst wird von Kunden für Voicemail, automatische Telefonzentrale, Anrufwarteschlange und Fax-Integrationsdienste bereitgestellt. Microsoft plant, Kunden dabei zu helfen, zu Telefon System Diensten zu migrieren, die bereits Tausende von Kunden in Skype for Business Online und Microsoft Teams unterstützen.
+Der Dienst wird von Kunden für Voicemail, automatische Telefonzentrale, Anrufwarteschlange und Fax-Integrationsdienste bereitgestellt. Microsoft plant, Kunden bei der Migration zu Telefon System Diensten zu unterstützen, die bereits Tausende von Kunden in Skype for Business Online und Microsoft Teams unterstützen.
 
-Voicemail ist in erster Linie eine Microsoft-gesteuerte Migration; eine Beteiligung des Administrators und/oder Investitionen für eine Teilmenge von Kunden sind möglicherweise erforderlich. Bei der automatischen Telefonzentrale handelt es sich um eine von Administratoren gesteuerte Migration. Sie müssen die vorhandenen, von der automatischen Telefonzentrale stammenden Bäume im clouddienst der Cloud für automatische Telefonzentralen neu erstellen. Kunden, die die Funktionen von Drittanbietern mit einer Telefonanlage nutzen, werden nicht zu Skype Cloud Services migriert, da Sie keine PBX-Anlagen von Drittanbietern unterstützen. In [diesem Blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)wurde ein ruhestandsplan für Drittanbieter-Support angekündigt, und Kunden in diesem Bereitstellungsmodell können Ihre Benutzer zu einer der Unified Communications-Plattformen/-Dienste von Microsoft migrieren oder eine Voicemail-und/oder automatische Telefonzentralen-Lösung für diese Benutzer erwerben. Die Integration von Faxen wird in den cloudbasierten Diensten nicht unterstützt. die Kunden müssen zu einer Drittanbieterlösung migrieren.
+Voicemail ist in erster Linie eine von Microsoft gesteuerte Migration; für eine Teilmenge der Kunden ist möglicherweise die Einbindung von Administratoren und/oder Investitionen erforderlich. Die automatische Telefonzentrale ist eine vom Administrator gesteuerte Migration; Sie müssen die vorhandenen automatischen Telefonzentralen-Strukturen in der Cloud-clouddienst der automatischen Telefonzentrale neu erstellen. Kunden, die eine der Funktionen von "Extras" mit einer Drittanbieter-Nebenstellenanlage nutzen, werden nicht zu Skype Cloud Services migriert, da Sie keine Drittanbieter-PBX-Systeme unterstützen. Ein ruhestandsplan für Drittanbieterunterstützung wurde in [diesem Blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)angekündigt, und Kunden in diesem Bereitstellungsmodell können Ihre Benutzer zu einer der Unified Communications Plattformen/Dienste von Microsoft migrieren oder eine Lösung für Voicemail und/oder automatische Telefonzentrale für diese Benutzer erwerben. Die Fax-Integration wird in den cloudbasierten Diensten nicht unterstützt; Kunden müssen zu einer Drittanbieterlösung migriert werden.
 
 ### <a name="who-is-affected"></a>Wer ist betroffen?
 
-Kunden, die eine der folgenden Features aus dem Exchange Unified Messaging-Online Dienst verwenden, sind davon betroffen:
+Kunden, die eine der folgenden Features aus dem Exchange Unified Messaging-Online Dienst nutzen, sind betroffen:
 
 - Voicemail-Dienst
-- Dienst für automatische Telefonzentrale
+- Automatischer Telefonzentralen Dienst
 - Anruf Warteschlangendienst
 - Fax-Integration
 
 > [!Note]
-> Kunden, die einen der lokalen Exchange-Server mit Unified Messaging verwenden, sind davon nicht betroffen. 
+> Kunden, die eine der Exchange Server lokal mit Unified Messaging verwenden, sind davon nicht betroffen. 
 
-Erfahren Sie mehr über die Auswirkungen der Benutzer und Administratoren auf die [Benutzererfahrung](#user-experience-impact).
+Erfahren Sie mehr über die Auswirkungen auf die Benutzer [Oberfläche](#user-experience-impact)und den Administrator.
 
 ## <a name="migration-plan-overview"></a>Übersicht über den Migrationsplan
 
-Microsoft hat verschiedene Kundenbereitstellungen identifiziert, die Features von "erziehen" verwenden, und hilft Kunden beim Migrieren basierend auf dem folgenden Plan. 
+Microsoft hat verschiedene Kundenbereitstellungen identifiziert, die Features von "prochumo" nutzen, und Kunden dabei helfen, die Migration basierend auf dem folgenden Plan durch zufinden. 
 
 |Kundengruppe |Zeitachse  |Details  |
 |---------|---------|---------|
-|Kunden, die bereit sind, zu migrieren<br><br>Zu migrierende Features:<br><ul><li>Voicemail</ul>   |   März – Mai 2019  |Beispiele<ul><li>    Kunden mit einfacher Voicemail-Bereitstellung und-Nutzung<li>Kunden, die alle Voraussetzungen für Microsoft zum Ausführen der Migration festgelegt haben<ul>|
-|Kunden mit Voraussetzungen<br><br>Zu migrierende Features:<br><ul><li>Voicemail<li>Automatische Telefonzentrale<li>Anrufwarteschlange</ul> |  Mai – Dezember 2019 |Beispiele <br><ul><li>Die Hybrid Konfiguration ist nicht abgeschlossen.<li>Hybrid-PSTN-Nummern sind nicht eingerichtet</ul>|
-|Kunden, die eine Beteiligung des Administrators #a0 Kundeninvestition benötigen<br><br>Zu migrierende Features:<ul><li>Voicemail<li>Automatische Telefonzentrale<li>Anrufwarteschlangen<li>Fax-Integration</ul>| Bis Februar 2020  | Beispiele <br><ul><li>Der Service wird von einer Telefonanlage von Drittanbietern genutzt<li>Kunden mit PSTN-Teilnehmerzugriffs Anforderungen<li>Kunden im SFB 2010 (nicht unterstützt)<li>Fax-Integration</ul> |
+|Kunden, die zur Migration fähig sind<br><br>Zu migrierende Features:<br><ul><li>Voicemail</ul>   |   März – Mai 2019  |Beispiele:<ul><li>    Kunden mit einfacher Voicemail-Bereitstellung und-Nutzung<li>Kunden mit allen Anforderungen, die für Microsoft zum Ausführen der Migration eingerichtet wurden<ul>|
+|Kunden mit Voraussetzungen<br><br>Zu migrierende Features:<br><ul><li>Voicemail<li>Automatische Telefonzentrale<li>Anrufwarteschlange</ul> |  Mai — Dezember 2019 |Beispiele: <br><ul><li>Die Hybrid Konfiguration ist nicht abgeschlossen.<li>Hybride PSTN-Nummern sind nicht eingerichtet</ul>|
+|Kunden, die eine Administratorbeteiligung & Kundeninvestition benötigen<br><br>Zu migrierende Features:<ul><li>voicemail<li>Automatische Telefonzentrale<li>Anrufwarteschlangen<li>Fax-Integration</ul>| Bis Februar 2020  | Beispiele: <br><ul><li>Der Dienst wird von einer Drittanbieter-Nebenstellenanlage genutzt.<li>Kunden mit PSTN-Teilnehmerzugriffs Anforderungen<li>Kunden im SFB 2010 (nicht unterstützt)<li>Fax-Integration</ul> |
 
 ## <a name="voicemail-migration-steps"></a>Schritte zur Voicemail-Migration
 
 1.  **Informieren Sie sich**
  
-    Machen Sie sich mit der [Blog Ankündigung](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) und diesem Artikel vertraut, um eine reibungslose Migration für Ihre Benutzer zu planen. Weitere Informationen finden Sie unter über [Prüfen von Skype for Business-Voicemail und-Optionen](https://support.office.com/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) für die Voicemail-Funktionen des Telefonsystems.  
+    Machen Sie sich mit der [Blog Ansage](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) und diesem Artikel vertraut, um eine reibungslose Migration für Ihre Benutzer zu planen. Weitere Informationen finden Sie unter [überprüfen Skype for Business Voicemail und Optionen](https://support.office.com/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) für die Voicemailfunktionen des Telefonsystems.  
  
-2.  **Einrichten einer Skype for Business-Hybrid Topologie**
+2.  **Einrichten einer Skype for Business Hybrid Topologie**
 
-    Wenn Sie keine Skype for Business-Hybrid Topologie eingerichtet haben, müssen Sie dies tun, um eine reibungslose Migration Ihrer Voicemail-Benutzer zu ermöglichen. Weitere Informationen finden Sie unter [Konfigurieren von Skype for Business-Hybrid](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) . 
+    Wenn Sie keine Skype for Business Hybrid Topologie eingerichtet haben, müssen Sie dies tun, um eine reibungslose Migration Ihrer Voicemail-Benutzer zu ermöglichen. Weitere Informationen finden Sie unter [configure Skype for Business Hybrid](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) . 
 
     > [!Note]
-    > Sie müssen Ihre Benutzer nicht für die Migration des Voicemail-Diensts in Online migrieren. Damit lokale Benutzer jedoch den Voicemaildienst für Telefonsysteme nutzen können, muss eine Hybrid Topologie eingerichtet werden.
+    > Sie müssen Ihre Benutzer nicht zu Online für die Migration von Voicemail-Diensten migrieren. Damit lokale Benutzer den Voicemaildienst für den Telefon System nutzen können, muss jedoch eine Hybrid Topologie eingerichtet werden.
 
-3. **Planen der Migration einer automatischen Telefonzentrale**
+3. **Planen der Migration der automatischen Telefonzentrale**
     
-    Administratoren können jederzeit mit der Migration Ihrer automatischen Telefonzentralen in die automatische Cloud-Telefonzentrale beginnen. Weitere Informationen finden Sie unter [Einrichten einer automatischen Cloud-Telefonzentrale](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) . Microsoft stellt weiterhin zusätzliche Funktionen für die automatische Telefonzentrale bereit, die von Kunden möglicherweise für Ihre Migration erforderlich sind, Administratoren sollten die Funktionsgruppe auswerten und Ihre Instanzen der automatischen Telefonzentrale entsprechend migrieren. Informationen zum Vergleich von Funktionslisten finden Sie in der Feature-Matrix für das Feature "auswerten [und Azure Cloud-based Services](#exchumo-and-azure-cloud-based-services-feature-matrix)".
+    Administratoren können die Migration Ihrer automatischen Telefonzentralen jederzeit von der automatischen Telefonzentrale zur Cloud starten. Weitere Informationen finden Sie unter [Einrichten einer automatischen Cloud-Telefonzentrale](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) . Microsoft stellt weiterhin zusätzliche Funktionen für die automatische Telefonzentrale bereit, die Kunden möglicherweise für Ihre Migration für erforderlich halten, Administratoren sollten den Featuresatz auswerten und die Instanzen der automatischen Telefonzentrale entsprechend migrieren. Informationen zum Feature-List-Vergleich finden Sie in der Feature-Matrix von "Verzeichnis [Dienst und Azure Cloud-based Services](#exchumo-and-azure-cloud-based-services-feature-matrix)".
 
-4. **Planen der Überprüfung und Prüfung Ihrer Voicemail nach der Migration**
+4. **Planen der Überprüfung und des Tests für Voicemail nach der Migration**
 
-    Voicemail-Migration ist Microsoft-gesteuert. Administratoren müssen nichts Unternehmen, da die Voraussetzungen für die Hybrid Topologie festgelegt sind. Microsoft führt die erforderlichen Überprüfungen und Tests durch, um sicherzustellen, dass die Voicemail-Migration der Benutzer nicht gestört wird. Administratoren werden ermutigt, Tests und Validierungen auf Ihrer Seite durchzuführen. Einen empfohlenen Testplan finden Sie unter [vorgeschlagene Testplanung und Überprüfung nach der Migration für Administratoren](#suggested-test-plan-and-post-migration-validation-for-admins) . 
-
-    > [!Note]
-    > Der Lync Server 2010 wird nicht unterstützt. Wenn Sie in einer 2010-Server Bereitstellung arbeiten, sollten Sie ein Server Upgrade planen oder Ihre Benutzer zu Microsoft Teams oder Skype for Business Online migrieren.  
-
-5. **Überwachen des Administrator Benachrichtigungs Centers**
-
-    Achten Sie auf eine Benachrichtigung im Administrator-Benachrichtigungs Center mit weiteren Details und einer Zeitachse zur Migration Ihrer Benutzer. Benachrichtigungen werden mindestens 30 Tage vor dem Migrationszeitraum gesendet. 
+    Die Voicemail-Migration wird von Microsoft gesteuert. Administratoren müssen nichts Unternehmen, da die Voraussetzung für eine Hybrid Topologie eingerichtet wurde. Microsoft führt die erforderliche Überprüfung und Tests durch, um sicherzustellen, dass die Voicemail-Migration der Benutzer nicht unterbrochen wird. Administratoren werden ermutigt, Tests und Validierungen auf Ihrer Seite durchzuführen. Weitere Informationen finden Sie unter [vorgeschlagener Testplan und Überprüfung nach der Migration für Administratoren](#suggested-test-plan-and-post-migration-validation-for-admins) für einen empfohlenen Testplan. 
 
     > [!Note]
-    > Wenn Sie eine Benachrichtigung mit der Migrations Zeitachse Ihrer Benutzer erhalten haben und Ihre Migration aus geschäftlichen Gründen verschieben möchten, können Sie dies tun, indem Sie sich an den Microsoft-Support wenden. Beachten Sie, dass Sie Ihre Migration nicht über das pensionierungs Datum hinaus verschieben können, Februar 28, 2020. Für Kunden, die möglicherweise weitere Fragen haben, wenden Sie sich bitte an Ihr Konto Team oder den Microsoft-Support. Kunden, die bereits Office 365 verwenden, können einen Supportfall über das Office 365-Administratorportal einreichen. 
+    > Lync Server 2010 wird nicht unterstützt. Wenn Sie sich in einer 2010-Server Bereitstellung befinden, sollten Sie ein Server Upgrade planen oder die Migration Ihrer Benutzer zu Microsoft Teams oder Skype for Business Online in Betracht gezogen.  
 
-6. **Entscheiden Sie sich für eine geplante Migration**
+5. **Überwachen des Administrator-Benachrichtigungs Centers**
 
-    Sie können sich für eine geplante Voicemail-Service-Migration in das Kooperationsangebot entscheiden. Bevor Sie sich entscheiden, lesen Sie die Details zu diesem Artikel, insbesondere die folgenden Abschnitte:
+    Achten Sie auf einen Hinweis im Administrator-Benachrichtigungs Center mit weiteren Details und Zeitachsen zur Migration Ihrer Benutzer. Benachrichtigungen werden mindestens 30 Tage vor Ihrem Migrationszeitraum gesendet. 
+
+    > [!Note]
+    > Wenn Sie eine Benachrichtigung mit dem Migrationszeitplan Ihrer Benutzer erhalten haben und die Migration aus geschäftlichen Gründen verschieben möchten, wenden Sie sich an den Microsoft-Support. Beachten Sie, dass Sie die Migration nicht über das Renten Datum hinaus verschieben können, am 28. Februar 2020. Wenden Sie sich für Kunden, die möglicherweise weitere Fragen haben, an Ihr Konto Team oder an den Microsoft-Support. Kunden, die bereits Office 365 verwenden, können einen Supportfall über das Office 365-Verwaltungsportal übermitteln. 
+
+6. **Sie sollten sich für eine geplante Migration entscheiden**
+
+    Sie können sich für eine geplante Voicemail-Dienst Migration zu "Interservice" entscheiden. Lesen Sie vor der Entscheidung die Details zu diesem Artikel, insbesondere die folgenden Abschnitte:
 
     - Migrationsschritte (dieser Abschnitt)
-    - Feature-Matrix für die Dienstleistungen und Azure Cloud-based Services
+    - Matrix für die Feature-und Azure-Cloud-basierte Dienste
     - Auswirkungen auf die Benutzeroberfläche
 
-    Wenn Sie eine verwaltete Migration auswählen, erhalten Sie im Microsoft 365 Admin Portal-Nachrichtencenter keine Benachrichtigung über 30 Tage vor der Migration.
+    Wenn Sie eine verwaltete Migration auswählen, erhalten Sie im Microsoft 365-Verwaltungsportal-Nachrichtencenter keine Benachrichtigung über 30 Tage vor der Migration.
  
     Wenn Sie sich für eine geplante Migration entscheiden möchten, senden Sie eine e-Mail-Anforderung von der e-Mail-Adresse Ihres Administrators an [cvm@Microsoft.com](mailto:cvm@microsoft.com) mit den folgenden Informationen:
 
-    - Bevorzugtes Datum (dienstags): Migrationswellen werden jeden Dienstag ausgeführt. Bitte wählen Sie ein Datum an einem Dienstag aus, das nicht über 12/3/2019 hinausgeht.
+    - Bevorzugtes Datum (dienstags): die Migrationswellen werden jeden Dienstag ausgeführt. Wählen Sie ein Datum an einem Dienstag aus, der nicht über 12/3/2019 liegt.
  
-    - Mandanten-ID: 32-Zeichenzahl in diesem Format 0046728c-688a-4472-a38f-098fec60ac6x. Sie können Ihre Mandanten-ID im Microsoft 365-Administratorportal unter Azure AD oder mithilfe des folgenden PowerShell-Cmdlets finden:`Get-CsTenant | Select ObjectId`
+    - Mandanten-ID: 32 characters number in diesem Format 0046728c-688a-4472-a38f-098fec60ac6x. Sie finden Ihre Mandanten-ID im Microsoft 365-Verwaltungsportal unter Azure AD oder mithilfe des folgenden PowerShell-Cmdlets:`Get-CsTenant | Select ObjectId`
  
-    Sie erhalten eine e-Mail-Bestätigung, sobald Ihr Mandant erfolgreich migriert wurde.
+    Nachdem Ihr Mandant erfolgreich migriert wurde, erhalten Sie eine e-Mail-Bestätigung.
 
-## <a name="auto-attendant-migration-guidelines"></a>Richtlinien zur automatischen Telefonzentralen Migration
+## <a name="auto-attendant-migration-guidelines"></a>Migrationsrichtlinien für die automatische Telefonzentrale
 
-Office 365-mandantenadministratoren müssen Ihre automatischen Exchange um Online-Telefonzentralen in der automatischen Microsoft Cloud-Telefonzentrale neu erstellen und ihre lokalen Telefonnummern vor dem 28. Februar 2020, der beim Exchange UMO-Dienst ist, umschalten. ehemaliger. Dies ist die empfohlene Richtlinie für das erfolgreiche Migrieren und Testen neuer Cloud-automatischen Telefonzentralen. Wenn Sie über eine große Anzahl von automatischen Telefonzentralen verfügen, können Sie die automatische Exchange UM-Telefonzentrale [zur Cloud-Migrationsskripts für die automatische Telefonzentrale](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) verwenden, um die Massenmigration von automatischen Telefonzentralen zu vereinfachen.
+Office 365 mandantenadministratoren müssen Ihre Exchange um Online-automatischen Telefonzentralen im Microsoft Cloud-Dienst für automatische Telefonzentralen neu erstellen und ihre lokalen Telefonnummern vor dem 28. Februar 2020, in dem der Exchange-UMO-Dienst verwendet wird, umschalten. eingestellt. Dies ist die empfohlene Richtlinie für die erfolgreiche Migration und den Test neuer automatischer Cloud-Telefonzentralen. Wenn Sie eine große Anzahl von automatischen Telefonzentralen haben, können Sie die automatische Telefonzentrale mit der [Exchange um automatischen](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) Telefonzentrale migrieren, um die Massenmigration von automatischen Telefonzentralen zu vereinfachen.
 
-### <a name="setup"></a>Installationsanforderungen
+### <a name="setup"></a>Einrichtung
 
-Wir raten dringend davon ab, die Einrichtung ihrer neuen automatischen Telefonzentralen zu einem frühen Zeitpunkt zu starten, um Last Minute Probleme zu vermeiden und sich mit der Funktionalität und der Benutzerfreundlichkeit des automatischen Cloud-Attendant-Diensts vertraut zu machen. Für automatische Telefonzentralen, die mindestens ein Lücken-Feature erfordern, können Sie die automatischen Telefonzentralen erstellen und testen, wenn die Lücken Features zur Vorbereitung auf die Bereitstellung zur Verfügung stehen. Weitere Informationen zu Lücken Features finden Sie im [Anhang](#appendix).
+Es wird dringend empfohlen, frühzeitig mit der Einrichtung ihrer neuen automatischen Telefonzentralen zu beginnen, um Probleme mit der Last Minute zu vermeiden und sich mit der Funktionalität und Erfahrung des automatischen Cloud-Telefonzentralen Diensts vertraut zu machen. Für automatische Telefonzentralen, die ein oder mehrere Lücken Features benötigen, können Sie die automatischen Telefonzentralen erstellen und testen, wenn die Lücken Funktionen zur Vorbereitung auf die Bereitstellung zur Verfügung stehen. Weitere Informationen zu GAP-Funktionen finden Sie im [Anhang](#appendix).
 
 1. Verwenden Sie die Exchange UMO-Cmdlets, um die Konfiguration vorhandener automatischer Telefonzentralen mithilfe von [Get-UMAutoAttendant](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant)zu exportieren.  
-2. Verwenden Sie das Cmdlet [Export-UMprompt](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/export-umprompt) in Exchange Online PowerShell, um die Gruß Mediendateien (sofern verwendet) zu exportieren und in das Format MP3 umzuwandeln.
-3. Befolgen Sie die Anweisungen in [Plan Cloud automatische Telefonzentralen](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) , und [richten Sie eine automatische Cloud-Telefonzentrale ein](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) , um automatische Telefonzentralen mithilfe des Microsoft Teams Admin Center oder PowerShell zu erstellen.
-4. Überprüfen Sie Ihre Begrüßungen, wenn die Menü Optionen geändert wurden.
-5. Konfigurieren Sie Übertragungen an Ihre Reaktionsgruppen mithilfe der Problemumgehung "automatische Telefonzentrale Anrufübertragung an PSTN" im Abschnitt [bekannte Probleme](#known-issues) dieses Artikels.  
-6. Testen Sie die neuen automatischen Telefonzentralen. Um zu testen, können Sie diese intern anrufen oder eine Test Telefonnummer zuweisen.  
+2. Verwenden Sie das Cmdlet [Export-UMprompt](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/export-umprompt) in Exchange Online PowerShell, um die Begrüßungs Mediendateien (sofern verwendet) zu exportieren und in das Format. MP3 umzuwandeln.
+3. Befolgen Sie die Anweisungen in [Plan Cloud Auto Attendants](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) , und [richten Sie eine automatische Cloud-Telefonzentrale ein](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) , um automatische Telefonzentralen mithilfe des Microsoft Teams Admin Center oder von PowerShell zu erstellen.
+4. Überprüfen Sie Ihre Begrüßungen, wenn sich die Menü Optionen geändert haben.
+5. Konfigurieren Sie Übertragungen an Ihre Reaktionsgruppen mithilfe der Problemumgehung für die automatische Telefonzentrale, die in diesem Artikel im Abschnitt [bekannte Probleme](#known-issues) mit PSTN-Telefon Übertragung an das Festnetz erfolgt.  
+6. Testen Sie die neuen automatischen Telefonzentralen. Um zu testen, rufen Sie sie intern auf oder weisen Sie eine Test Telefonnummer zu.  
 
-### <a name="cutover"></a>Übernahme
+### <a name="cutover"></a>Übernahmemigration
 
-1. Wechseln Sie Ihre Telefonnummern von den automatischen Telefonzentralen von Exchange UMO zu den neuen automatischen Telefonzentralen.
-2. Verschieben Sie den SIP-URI aus dem Kontaktobjekt in das Ressourcenkonto.
+1. Wechseln Sie Ihre Telefonnummern von automatischen Exchange UMO-Telefonzentralen zu den neuen automatischen Telefonzentralen.
+2. Verschiebt den SIP-URI aus dem Kontaktobjekt in das Ressourcenkonto.
 3. Testen und überprüfen Sie Ihre automatischen Telefonzentralen mithilfe der neu zugewiesenen Telefonnummern. 
 
 ## <a name="appendix"></a>Anhang
 
-### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Feature-Matrix für die Dienstleistungen und Azure Cloud-based Services
+### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matrix für die Feature-und Azure-Cloud-basierte Dienste
 
-| Dienst | Funktionsebene | Feature | Hinweise  | Cloud VM/AA  | ExUMO |
+| Dienst | Funktionsebene | Feature | Anmerkungen  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| VM  | Dienst Features| Unterstützung von Drittanbieter-Telefonanlagen    | Einschließlich aller Features, die von einer Drittanbieter-Telefonanlage bereitgestellt werden, wie MWI (Nachrichten Warteanzeige) mithilfe von SIP-Benachrichtigungen von Exchange um Online | N   | J    |
-| VM | Dienst Features  | Support für Skype for Business Server   |  | Y | Y    |
-| VM | Dienst Features | Microsoft Teams unterstützen|  | J | N    |
-| VM | Dienst Features | eDiscovery und Haltebereich  | Für Sicherheit und Compliance  | Y | Y    |
-| VM | Dienst Features | Unterstützung für Exchange-Regeln | Für Sicherheit und Compliance  | Y | Y    |
-| VM | Benutzer Features | PSTN-Einwahlzugriff  | Teilnehmerzugriff  | N | J    |
-| VM | Benutzer Features | PSTN Outlook Voice Access   | Teilnehmerzugriff  | N | J    |
-| VM | Benutzer Features | Einwahl mit einem authentifizierten Endpunkt | Anrufen des Voicemail-Diensts zum Abhören von Sprachnachrichten und Ändern der Voicemail-Einstellungen| Y | Y    |
-| VM | Benutzer Features | Benutzereinstellung zum Deaktivieren von Voicemail   |  | Y | Y    |
-| VM | Benutzer Features | Benutzereinstellung zum Ändern der persönlichen Ansage  |  | Y | Y    |
-| VM | Benutzer Features | Benutzereinstellung zum Erstellen einer Abwesenheitsansage  |  | Y | Y    |
-| VM | Benutzer Features | Benutzereinstellung zum Ändern der Standardsprache  |  | Y | Y    |
-| VM | Benutzer Features | Benutzereinstellung zum Überschreiben der Standardansage mit TTS  |  | J | N    |
-| VM | Benutzer Features | Aufzeichnen persönlicher Begrüßungen (authentifiziertes Gerät) |  | Y | Y    |
-| VM | Benutzer Features | Aufzeichnen persönlicher Begrüßungen (PSTN) – Wiedergabe über das Telefon |  | N | J    |
-| VM | Benutzer Features | Benutzereinstellung zum Deaktivieren der Transkription |  | N | J    |
-| VM | Benutzer Features | Transkription  |  | J | Y    |
-| VM | Benutzer Features | Visuelle Voicemail auf allen Endpunkten   | Mit Benutzersteuerelement zum wiedergeben, löschen, Nachrichten-Warteanzeige und Status-umschalten auf allen unterstützten Endpunkten  | J | Y    |
-| VM | Benutzer Features | MP3-Audio-Dateiformat in Outlook    |  | J | Y    |
-| VM | Benutzer Features | Wiedergabesteuerung mit variabler Geschwindigkeit |  | J | Y    |
-| VM | Benutzer Features | Weiterleiten einer Sprachnachricht  | Weiterleiten einer empfangenen Sprachnachricht an andere Benutzer | J | Y    |
-| VM | Benutzer Features | Senden einer Sprachnachricht an eine Gruppe von Benutzern  |Voicemail-Übertragung   | N | J   |
-| VM | Benutzer Features | Voicemail-Benachrichtigung über SMS    | Benutzer können eine SMS empfangen, wenn Sie eine neue Voicemail haben    | N | J    |
-| VM | Benutzer Features | Unterstützte Gruß Sprachen | Weitere Informationen finden Sie hier:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | J | Y    |
-| VM | Benutzer Features | Regeln für die Anrufannahme |  | J | Y    |
-| VM | Benutzer Features | Wiedergabe über Telefon (PSTN) – zur Wiedergabe von Nachrichten | Anrufen in meiner Zelle, um die Sprachnachricht abzuhören  | N | J    |
-| VM | Benutzer Features | Wiedergabe über Telefon (auth) – zur Wiedergabe von Nachrichten | Auf meinem authentifizierten Gerät anrufen  | J | Y    |
-| VM | Benutzer Features | Freigegebenes Postfach zwischen mehreren Benutzern |  | J | Y    |
-| VM | Funktionen für Anrufer  | Anruferlebnis – geschützte Voicemail | Der Anrufer kann eine Option auswählen, um eine aufgezeichnete Nachricht als geschützt zu kennzeichnen.| N | J    |
-| VM | Funktionen für Anrufer  | Anruferlebnis – private Voicemail | Der Anrufer kann eine Option auswählen, um eine aufgezeichnete Nachricht als "Privat" zu kennzeichnen.  | N | J    |
-| VM | Funktionen für Anrufer  | Silence-Erkennung   |  | N | J    |
-| VM | Mandanten-Administratorfunktionen | Geschützte Voicemail auf Server Ebene    | Mandanten-Administrator kann eine Regel auf Dienstebene konfigurieren, um eingehende Voicemail als geschützt zu kennzeichnen. | J | Y    |
-| VM | Mandanten-Administratorfunktionen | Zeit Limit für das Ändern der Aufnahmedauer  |     | Y | Y    |
-| VM | Mandanten-Administratorfunktionen | Timeout für Silence-Erkennung ändern    |  | Nicht zutreffend    | Y    |
-| VM | Mandanten-Administratorfunktionen | Ändern der Anzahl von Eingabefehlern | Prothesen: schwer codiert bis 3 | N | J    |
-| VM | Mandanten-Administratorfunktionen | Ändern der Standardsprache |  | Y | Y    |
-| VM | Mandanten-Administratorfunktionen | Deaktivieren/Aktivieren der Transkription |  | Y | Y    |
-| VM | Mandanten-Administratorfunktionen | Benachrichtigung über verpasste Anrufe deaktivieren/aktivieren |  | N | J    |
-| VM | Mandanten-Administratorfunktionen | Hilfe für Microsoft beim Verbessern der Voicemailvorschau    |  | Y | Y    |
-| VM | Mandanten-Administratorfunktionen | Anpassen der Textnachricht für aktivierte Benutzer|  | Nicht zutreffend    | Y    |
-| VM | Mandanten-Administratorfunktionen | Maskierung für Transkriptions Obszönitäten|  | J | N    |
-| VM | Mandanten-Administratorfunktionen | Voicemail-Richtlinie    |   | Y | Y    |
-| VM | Mandanten-Administratorfunktionen | Web Portal-Verwaltung   |  | CY19   | Y    |
-| VM | Mandanten-Administratorfunktionen | PowerShell   |  | Y | Y    |
-| AA | Dienst Features | AA-Unterstützung von Drittanbieter-Telefonanlagen    |  | N | J    |
-| AA | Dienst Features | Support für Skype for Business Server   |  | Y | Y    |
-| AA | Dienst Features | Microsoft Teams unterstützen|  | J | N    |
-| AA | Dienst Features | Wählen nach Name, DTMF-Eingabe    |  | Y | Y    |
-| AA | Dienst Features | Wählen nach Name, Spracheingabe  |  | Y | Y    |
-| AA | Dienst Features | Unterstützung für mehrere Sprachen | Einzelheiten zur Sprache finden Sie hier:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
-| AA | Dienst Features | An Operator, CQ oder einen Benutzer übertragen |  | Y | Y    |
-| AA | Dienst Features | Interne Übertragung an eine PSTN-Nummer (did RNL)  |  | Y | Y    |
-| AA | Dienst Features | Externe Übertragung an PSTN-Nummer  |  | Lesen Sie den Abschnitt bekannte Probleme unten. | Y    |
-| AA | Dienst Features | Geschäftszeiten |  | Y | Y    |
-| AA | Dienst Features | Menü Optionen | IVR-Menü Optionen  | Y | Y    |
-| AA | Dienst Features | Zuweisen einer Cloud-PSTN-Nummer zu AA |  | J | N    |
-| AA | Dienst Features | Zuweisen einer lokalen PSTN-Nummer zu AA  |  | Y | Y    |
-| AA | Dienst Features | Benutzerdefinierte Benutzerauswahl  | Aktivieren von Anrufern zum Erreichen einer angepassten Liste von Organisations Benutzern| Y | Y    |
-| AA | Dienst Features | After-Hours-und Feiertags Behandlung  |  | Y | Y    |
-| AA | Dienst Features | Benutzerdefinierte Begrüßung mithilfe von Text zu Sprache  |  | Y | Y    |
-| AA | Dienst Features | Durchwahl Wahl   | Erreichen eines Benutzers durch Wählen der Durchwahl  | Y   | Y    |
-| AA | Dienst Features | Postfach für AA-Anrufer, um eine Nachricht zu hinterlassen    |  | Y   | Y    |
-| AA | Dienst Features | Zuweisung mehrerer PSTN-Nummern zu einem AA|  | Y | Y    |
-| AA | Mandanten-Administratorfunktionen | Web Portal-Verwaltung   |  | J | N    |
-| AA | Mandanten-Administratorfunktionen | PowerShell-Cmdlets  |  | Y | Y    |
-| Fax| Dienst Features | Fax-Integration|  | N | J    |
+| VM  | Dienstfunktionen| Unterstützung für Drittanbieter-PBX    | Einschließlich aller Funktionen, die an Drittanbieter-Nebenstellenanlagen wie MWI (Message Waiting Indicator) mit SIP NOTIFY-Nachrichten von Exchange um Online bereitgestellt werden | N   | v    |
+| VM | Dienstfunktionen  | Support Skype for Business Server   |  | v | v    |
+| VM | Dienstfunktionen | Unterstützung von Microsoft Teams|  | v | N    |
+| VM | Dienstfunktionen | eDiscovery und Aufbewahrung  | Für Sicherheit und Compliance  | v | v    |
+| VM | Dienstfunktionen | Unterstützung von Exchange-Regeln | Für Sicherheit und Compliance  | v | v    |
+| VM | Benutzerfunktionen | PSTN-Einwahlzugriff  | Teilnehmerzugriff  | N | v    |
+| VM | Benutzerfunktionen | PSTN Outlook Voice Access   | Teilnehmerzugriff  | N | v    |
+| VM | Benutzerfunktionen | Einwahl mit einem authentifizierten Endpunkt | Anrufen des Voicemail-Diensts zum Abhören von Sprachnachrichten und Ändern von Voicemail-Einstellungen| v | v    |
+| VM | Benutzerfunktionen | Benutzereinstellung zum Deaktivieren von Voicemail   |  | v | v    |
+| VM | Benutzerfunktionen | Benutzereinstellung zum Ändern der persönlichen Begrüßung  |  | v | v    |
+| VM | Benutzerfunktionen | Benutzereinstellung zum Erstellen einer Abwesenheits Begrüßung  |  | v | v    |
+| VM | Benutzerfunktionen | Benutzereinstellung zum Ändern der Standardsprache  |  | v | v    |
+| VM | Benutzerfunktionen | Benutzereinstellung zum Überschreiben der Standardbegrüßung mit TTS  |  | v | N    |
+| VM | Benutzerfunktionen | Aufzeichnen persönlicher Begrüßungen (authentifiziertes Gerät) |  | v | v    |
+| VM | Benutzerfunktionen | Aufzeichnen persönlicher Begrüßungen (PSTN) – Wiedergabe über Telefon |  | N | v    |
+| VM | Benutzerfunktionen | Benutzereinstellung zum Deaktivieren der Transkription |  | N | v    |
+| VM | Benutzerfunktionen | Transkription  |  | v | v    |
+| VM | Benutzerfunktionen | Visuelle Voicemail auf allen Endpunkten   | Mit Benutzersteuerelement zum wiedergeben, löschen, Nachrichten wartende Anzeige und Status umschalten auf allen unterstützten Endpunkten  | v | v    |
+| VM | Benutzerfunktionen | MP3-Audiodatei Format in Outlook    |  | v | v    |
+| VM | Benutzerfunktionen | Wiedergabesteuerung mit variabler Geschwindigkeit |  | v | v    |
+| VM | Benutzerfunktionen | Weiterleiten einer Voicemail  | Weiterleiten einer empfangenen Voicemail an andere Benutzer | v | v    |
+| VM | Benutzerfunktionen | Senden einer Sprachnachricht an eine Gruppe von Benutzern  |Voicemail-Übertragung   | N | v   |
+| VM | Benutzerfunktionen | Voicemail-Benachrichtigung mit SMS    | Benutzer können eine SMS empfangen, wenn Sie über eine neue Voicemail verfügen    | N | v    |
+| VM | Benutzerfunktionen | Unterstützte Gruß Sprachen | Details finden Sie hier:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
+| VM | Benutzerfunktionen | Mailboxansageregeln |  | v | v    |
+| VM | Benutzerfunktionen | Wiedergabe über Telefon (PSTN) – zur Wiedergabe von Nachrichten | Rufen Sie mich in meiner Zelle an, um die Sprachnachricht zu hören  | N | v    |
+| VM | Benutzerfunktionen | Wiedergabe über Telefon (Authentifizierung) – zur Wiedergabe von Nachrichten | Auf meinem authentifizierten Gerät anrufen  | v | v    |
+| VM | Benutzerfunktionen | Freigegebenes Postfach zwischen mehreren Benutzern |  | v | v    |
+| VM | Anrufer-Features  | Anrufer-Erfahrung – geschützte Voicemail | Der Anrufer kann eine Option auswählen, um eine aufgezeichnete Nachricht als geschützt zu markieren.| N | v    |
+| VM | Anrufer-Features  | Anrufer-Erfahrung – private Voicemail | Der Anrufer kann eine Option auswählen, um eine aufgezeichnete Nachricht als privat zu kennzeichnen.  | N | v    |
+| VM | Anrufer-Features  | Silence-Erkennung   |  | N | v    |
+| VM | Mandantenadministrator Features | Geschützte Voicemail auf Server Ebene    | Mandantenadministrator kann eine Regel auf Dienstebene konfigurieren, um eingehende Voicemail als geschützt zu kennzeichnen. | v | v    |
+| VM | Mandantenadministrator Features | Zeitbegrenzung für die Protokollierungs Dauer ändern  |     | v | v    |
+| VM | Mandantenadministrator Features | Timeout für Silence-Erkennung ändern    |  | Nicht zutreffend    | v    |
+| VM | Mandantenadministrator Features | Ändern der Anzahl von Eingabefehlern | Kooperations Code: hart codiert bis 3 | N | v    |
+| VM | Mandantenadministrator Features | Ändern der Standardsprache |  | v | v    |
+| VM | Mandantenadministrator Features | Transkription deaktivieren/aktivieren |  | v | v    |
+| VM | Mandantenadministrator Features | Benachrichtigung über verpasste Anrufe deaktivieren/aktivieren |  | N | v    |
+| VM | Mandantenadministrator Features | Hilfe zur Verbesserung der Voicemailvorschau für Microsoft-Sprachnachrichten    |  | v | v    |
+| VM | Mandantenadministrator Features | Anpassen der Textnachricht für aktivierte Benutzer|  | Nicht zutreffend    | v    |
+| VM | Mandantenadministrator Features | Maskierung von Transkriptions Obszönitäten|  | v | N    |
+| VM | Mandantenadministrator Features | Voicemail-Richtlinie    |   | v | v    |
+| VM | Mandantenadministrator Features | Webportal Verwaltung   |  | CY19   | v    |
+| VM | Mandantenadministrator Features | PowerShell   |  | v | v    |
+| AA | Dienstfunktionen | AA-Support-Drittanbieter-Nebenstellenanlage    |  | N | v    |
+| AA | Dienstfunktionen | Support Skype for Business Server   |  | v | v    |
+| AA | Dienstfunktionen | Unterstützung von Microsoft Teams|  | v | N    |
+| AA | Dienstfunktionen | Wählen nach Name, DTMF-Eingabe    |  | v | v    |
+| AA | Dienstfunktionen | Wahl nach Name, Spracheingabe  |  | v | v    |
+| AA | Dienstfunktionen | Mehrsprachige Unterstützung | Sprach Details finden Sie hier:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | v | v    |
+| AA | Dienstfunktionen | Transfer an Operator, CQ oder einen Benutzer |  | v | v    |
+| AA | Dienstfunktionen | Interne Übertragung an die PSTN-Nummer (did können)  |  | v | v    |
+| AA | Dienstfunktionen | Externe Übermittlung an PSTN-Nummer  |  | Siehe Abschnitt bekannte Probleme unten | v    |
+| AA | Dienstfunktionen | Geschäftszeiten |  | v | v    |
+| AA | Dienstfunktionen | Menü Optionen | Optionen für das IVR-Menü  | v | v    |
+| AA | Dienstfunktionen | Zuweisen einer Cloud-PSTN-Nummer zu AA |  | v | N    |
+| AA | Dienstfunktionen | Zuweisen einer PSTN-Nummer auf dem Prem zu AA  |  | v | v    |
+| AA | Dienstfunktionen | Benutzerdefinierte Benutzerauswahl  | Aktivieren von benutzerdefinierten Listen von Organisations Benutzern durch Anrufer| v | v    |
+| AA | Dienstfunktionen | After-Hours-und Holidays-Behandlung  |  | v | v    |
+| AA | Dienstfunktionen | Benutzerdefinierte Begrüßung mit Text in Sprache  |  | v | v    |
+| AA | Dienstfunktionen | Durchwahl wählen   | Erreichen eines Benutzers durch Wählen der Durchwahlnummer  | v   | v    |
+| AA | Dienstfunktionen | Postfach für AA-Anrufer, um eine Nachricht zu hinterlassen    |  | v   | v    |
+| AA | Dienstfunktionen | Mehrere PSTN-Nummern Zuweisungen an AA|  | v | v    |
+| AA | Mandantenadministrator Features | Webportal Verwaltung   |  | v | N    |
+| AA | Mandantenadministrator Features | PowerShell-Cmdlets  |  | v | v    |
+| Fax-| Dienstfunktionen | Fax-Integration|  | N | v    |
 
-### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Empfohlener Testplan und Validierung nach der Migration für Administratoren
+### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Empfohlener Testplan und Überprüfung nach der Migration für Administratoren
 
-Um zu überprüfen, ob Ihre Benutzer in Cloud Voicemail migriert wurden, lassen Sie eine Sprachnachricht an einen Benutzer weiter, und überprüfen Sie den Nachrichtentext in Outlook.  Cloud-Sprachnachrichten haben eine Fußzeile, die lautet:
+Um zu überprüfen, ob Ihre Benutzer zu Cloud-Voicemail migriert wurden, lassen Sie eine Voicemail an einen Benutzer und überprüfen Sie den Nachrichtentext in Outlook.  Cloud-Voicemail-Nachrichten haben eine Fußzeile, die lautet:
 
-**Vielen Dank, dass Sie die Transkription verwenden! Wenn Sie oben keine Aufzeichnung sehen, liegt das daran, dass die Audioqualität nicht klar genug war, um Sie zu transkribieren.**
+**Vielen Dank für die Verwendung der Transkription! Wenn ein Transkript oben nicht angezeigt wird, liegt das daran, dass die Audioqualität nicht eindeutig genug ist, um Sie zu transkribieren.**
 
-Stellen Sie beim Testen der Voicemail-Funktionalität nach der Migration Ihrer Benutzer sicher, dass Sie die folgenden Szenarien beachten:
+Stellen Sie beim Testen der Voicemailfunktionen nach dem Migrieren der Benutzer sicher, dass Sie die folgenden Szenarien berücksichtigen:
 
-- Überprüfen Sie den Voicemail-Zugriff über alle Endpunkttypen in Ihrer Organisation: apps und IP-Telefone. 
-- Überprüfen Sie mit Beispiel Benutzern, ob die konfigurierten personalisierten Begrüßungen für Anrufer abgespielt werden.   
+- Überprüfen Sie den Voicemail-Zugriff auf alle Endpunkttypen in Ihrer Organisation: apps und IP-Telefone. 
+- Überprüfen Sie mit Beispiel Benutzern, dass die konfigurierten personalisierten Begrüßungen für Anrufer abgespielt werden.   
 - Wenn Ihre Organisation über eine rechtliche oder Compliance-Anforderung verfügt, um die Transkription für Benutzer zu deaktivieren, stellen Sie sicher, dass Sie nach der Migration deaktiviert ist. Weitere Informationen finden Sie unter [Einrichten von Cloud-Voicemail](/microsoftteams/set-up-phone-system-voicemail).
-- Wenn Sie zuvor Exchange VM-Richtlinien und-Regeln konfiguriert haben, stellen Sie sicher, dass Sie effektiv sind.
-- Machen Sie sich mit den PowerShell-Cmdlets von Cloud Voicemail Service vertraut, um Benutzereinstellungen zu ändern.  
+- Wenn Sie zuvor Exchange VM-Richtlinien und-Regeln konfiguriert haben, stellen Sie sicher, dass Sie wirksam sind.
+- Machen Sie sich mit dem Cloud Voicemail Service PowerShell-Cmdlets vertraut, um Benutzereinstellungen zu ändern.  
 
 ### <a name="user-experience-impact"></a>Auswirkungen auf die Benutzeroberfläche
 
-Im folgenden wird eine Übersicht über die Benutzerfreundlichkeit der Voicemail-Migration für Endbenutzer.
+Im folgenden finden Sie eine Übersicht über die benutzerfreundliche Voicemail-Migrationserfahrung.
 
 
-|Erfahrung  |Änderung der Benutzerfreundlichkeit|
+|Umgebung  |Änderung der Benutzeroberfläche|
 |---------|---------|
-|E-Mail-Benachrichtigung | Keine Änderung<br>Es werden keine e-Mails an Benutzer gesendet, die über die Aktivierung/Migration von Voicemail-Konten benachrichtigt werden. |
-|Zugriff auf frühere Nachrichten | Keine Änderung<br>Benutzer können in allen unterstützten Endpunkten auf Ihre vorherigen Sprachnachrichten zugreifen. |
-|Empfangen von VM in Outlook, SFB-apps| Keine Änderung<br>Benutzer erhalten weiterhin ihre Voicemail-Nachrichten in allen unterstützten Endpunkten. |
-|Transkription | Verbesserte<br>Die Transkription von untergeordneten Daten hat eine wesentlich höhere Genauigkeitsrate und unterstützte Sprachen als "auslesen". |
-|Benutzereinstellung | Neue Erfahrung<br>Benutzer können Ihre Einstellungen über ein Nutzer Einstellungs Portal (USP) ändern. Benutzer können über einen Link in Ihrer Voicemail-e-Mail oder über die Schaltfläche Benutzereinstellungen auf dem SFB-Client auf Ihr USP zugreifen. https://aka.ms/vmsettings.   
- |Funktionen| Details finden Sie im Feature-Sets-Vergleich. |
+|E-Mail-Benachrichtigung | Keine Änderung<br>Es werden keine e-Mails an Benutzer gesendet, die Sie über die Aktivierung/Migration von Voicemail-Konten informieren. |
+|Zugriff auf vorherige Nachrichten | Keine Änderung<br>Benutzer haben Zugriff auf Ihre vorherigen Voicemail-Nachrichten in allen unterstützten Endpunkten. |
+|Empfangende VM in Outlook, SFB-apps| Keine Änderung<br>Benutzer erhalten weiterhin ihre Voicemail-Nachrichten in allen unterstützten Endpunkten. |
+|Transkription | Verbesserte<br>Die Transkription von miteinander hat eine viel höhere Genauigkeitsrate und unterstützte Sprachen als "dichumo". |
+|Benutzereinstellung | Neue Benutzeroberfläche<br>Benutzer können Ihre Einstellungen in einem Benutzer Einstellungs Portal (USP) ändern. Benutzer können über einen Hyperlink in Ihrer Voicemail-e-Mail oder über die Schaltfläche Benutzereinstellungen auf Ihrem SFB-Client auf Ihre USP zugreifen. https://aka.ms/vmsettings.   
+ |Features| Details finden Sie im Feature-Sets-Vergleich. |
 |Outlook-Regeln für VM-Nachrichten | Keine Änderung<br>Zuvor erstellte Regeln gelten für Nachrichten nach der Migration.
  |
 
-#### <a name="user-management-and-provisioning-in-cvm"></a>Benutzerverwaltung und-Bereitstellung in einem Kooperationssystem
+#### <a name="user-management-and-provisioning-in-cvm"></a>Benutzerverwaltung und-Vorhaltung in einem Kooperationssystem
 
-Neue Skype for Business-Benutzer werden automatisch für Cloud Voicemail bereitgestellt, wenn Sie erstellt werden. Für die Bereitstellungneuer Voicemail-Benutzer ist keine zusätzliche Administrator Arbeit oder Lizenz erforderlich. Informationen zur Richtlinienverwaltung für vorhandene und neue Benutzer finden Sie unter [Einrichten von Cloud-Voicemail](/microsoftteams/set-up-phone-system-voicemail) .
+Neue Skype for Business Benutzer werden bei der Erstellung automatisch für die Cloud-Voicemail-Abteilung eingerichtet. Keine zusätzliche Administrator Arbeit oder Lizenz ist erforderlich, um neue Voicemail-Benutzer zur Verfügung zustellen. Weitere Informationen zur Richtlinienverwaltung für vorhandene und neue Benutzer finden Sie unter [Einrichten von Cloud-Voicemail](/microsoftteams/set-up-phone-system-voicemail) .
 
-#### <a name="admin-auto-attendant-management-experience"></a>Verwaltungserfahrung des Administrators für die automatische Telefonzentrale
+#### <a name="admin-auto-attendant-management-experience"></a>Verwaltungserfahrung bei der automatischen Telefonzentrale für Administratoren
 
 Weitere Informationen zu automatischen Telefonzentralen finden Sie unter [Einrichten einer automatischen Cloud-Telefonzentrale](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
 
 #### <a name="known-issues"></a>Bekannte Probleme
 
-**Anrufübergabe der automatischen Telefonzentrale an PSTN** Kunden werden ermutigt, eine vorübergehende Problemumgehung zu konfigurieren, um die Anforderungen für die Übertragung eines Anrufs einer automatischen Telefonzentrale an eine externe PSTN-Nummer oder eine RGS-Instanz zu erfüllen. 
+**Anrufweiterleitung für automatische Telefonzentrale an PSTN** Kunden sollten eine vorübergehende Problemumgehung konfigurieren, um die Anforderungen für die Übertragung eines Anrufs einer automatischen Telefonzentrale an eine externe PSTN-Nummer oder eine RGS-Instanz zu erfüllen. 
  
-Bei der Qualitätssicherung wurde ein Problem mit der Funktion "an PSTN-Nummer übertragen" festgestellt, die nicht in der Lage ist, in-Time für Kunden zu migrieren, die den Exchange-UMO-Service vor dem geplanten pensionierungs Termin vom 28. Februar 2020. Um dieses Problem zu umgehen, können Administratoren die Anrufer der automatischen Telefonzentrale an einen lokalen virtuellen Benutzer mit einer aktiven Anruf Weiterleitungseinstellung auf die gewünschte PSTN-Telefonnummer oder die RGS-Telefonnummer übertragen. 
+Bei der Qualitätssicherung mit dem Feature zum übertragen in PSTN-Nummern wurde ein Problem festgestellt, das nicht in der Zeit behoben sein wird, damit Kunden den Exchange-UMO-Dienst vor dem geplanten Ruhestands Datum des 28. Februar 2020 migrieren. Als Problemumgehung können Administratoren Anrufer für die automatische Telefonzentrale an einen lokalen virtuellen Benutzer mit einer aktiven Einstellung für die Anrufweiterleitung an die gewünschte PSTN-Telefonnummer oder die RGS-Telefonnummer übertragen. 
  
 Erwartete Erfahrung
-- Administratoren müssen den virtuellen Benutzer nicht lizenzieren, da es sich um eine Problem Umgehungslösung handelt. 
-- Administratoren können die Rufnummernanzeige des PSTN-Receivers manipulieren, indem Sie dem virtuellen Benutzer die gewünschte Nummer zuweisen oder die Funktionen für die SBC-Zahl Bearbeitung verwenden.
-- Für PSTN-Anrufer wird während der Anrufübertragung keine Verzögerung auftreten, und die Rufnummernanzeige der automatischen Telefonzentrale wird nach erfolgreicher Übertragung weiterhin angezeigt.  
+- Administratoren müssen den virtuellen Benutzer nicht lizenzieren, da dies eine Problem Umgehungslösung ist. 
+- Administratoren können die Anrufer-ID ändern, die dem PSTN-Empfänger angezeigt wird, indem Sie dem virtuellen Benutzer die gewünschte Nummer zuweisen oder die SBC-Ziffer Manipulations Funktionen verwenden.
+- Bei PSTN-Anrufern werden während der Anrufweiterleitung keine Verzögerungen auftreten, und die Anrufer-ID der automatischen Telefonzentrale wird nach erfolgreicher Übertragung weiterhin angezeigt.  
 
-**Freigegebenes Postfach:** Ein freigegebenes Postfach, das mit Exchange um Online konfiguriert ist, erhält weiterhin Nachrichten, nachdem es in das zusammen gehen migriert wurde, und wird weiterhin für Benutzer über Outlook zugänglich sein. Der Zugriff zum Ändern der Grußnachrichten dieser Postfächer steht jedoch nicht mehr zur Verfügung, sobald Sie in das Unternehmen migriert wurden. Kunden mit freigegebenen Postfächern, die zum Erfassen der automatischen Telefonzentralen-Anrufer verwendet werden, sollten die Funktionen für automatische Telefonzentralen und freigegebene Postfächer nach der Veröffentlichung (ETA Oktober 2019) nutzen.
+**Freigegebenes Postfach:** Ein freigegebenes Postfach, das mit Exchange um Online konfiguriert ist, empfängt Nachrichten nach dem Migrieren zu einem Benutzer weiter und wird weiterhin Benutzern über Outlook zur Verfügung stehen. Allerdings ist der Zugriff zum Ändern der Grußnachrichten dieser Postfächer nicht mehr verfügbar, wenn Sie in das intergreifend migriert wurden. Kunden mit freigegebenen Postfächern, die zur Erfassung von Anrufern für die automatische Telefonzentrale verwendet werden, sollten die freigegebenen Postfachfunktionen für automatische Telefonzentralen und Anrufwarteschlangen nach der Veröffentlichung nutzen (ETA Oktober 2019).
   
-**Upgrade auf das Banner "Teams" auf dem SFB-Client:** Der Dienst "Dienstleistungen" basiert auf der Microsoft Teams-Infrastruktur. Anrufe von Skype for Business-Client können dazu führen, dass ein Informationsbanner auf dem Client angezeigt wird, der lautet: "Nutzername verwendet Skype for Business nicht. Für eine umfassendere Nutzung wechseln Sie zu Teams oder starten Sie eine Skype-Besprechung. "
-Achten Sie darauf, den Skype for Business-Client Ihrer Benutzer auf das neueste C2R-Client Update zu aktualisieren, um zu verhindern, dass dieses Banner angezeigt wird.
+**Upgrade auf Microsoft Teams-Banner im SFB-Client:** Der Dienst "Service" basiert auf der Microsoft Teams-Infrastruktur; Aufrufe von Skype for Business-Client können dazu führen, dass ein Informationsbanner auf dem Client angezeigt wird, der lautet: "username verwendet nicht Skype for Business. Um eine umfassendere Erfahrung zu erzielen, wechseln Sie zu Microsoft Teams, oder starten Sie eine Skype-Besprechung. "
+Stellen Sie sicher, dass Sie den Skype for Business-Client Ihres Benutzers auf das neueste C2R-Client Update aktualisieren, um zu verhindern, dass dieses Banner angezeigt wird.
   
-Wenn **Sie Ihre Voicemail einrichten, gelangen Sie zu OWA:** Wenn Sie auf "Voicemail einrichten" klicken, werden die Skype for Business Server 2015/2013-Kunden weiterhin auf die Office Web Access-Portalseite (OWA) übertragen, nachdem Sie nach der Migration zu einem solchen Programm migriert haben. Alle Einstellungen wurden von der Registerkarte "Voicemail" in OWA entfernt, und ein Banner wird mit einem Redirect-Link angezeigt, um die Benutzer in das Benutzereinstellungen-Portal zu übernehmen.
+**Mit dem Setup Ihrer Voicemail gelangen Sie zu OWA:** Wenn Sie auf "Voicemail einrichten" des Clients klicken, werden Skype for Business Server 2015/2013-Kunden nach der Migration in das Microsoft Office-Portal weiterhin auf die Office-Webzugriffs-Portalseite (OWA) weitergegeben. Alle Einstellungen wurden aus der Registerkarte Voicemail in OWA entfernt, und ein Banner wird mit einem Redirect-Link angezeigt, um Benutzer zum Benutzer Einstellungs Portal von Benutzern zu übernehmen.
  
-**Ändern des mobilen Zugriffs auf Grußkarten:** Der Zugriff auf den PSTN-Abonnenten wird in der Zugriffssteuerung nicht unterstützt. Für Benutzer, die Ihre Ansage Remote ändern müssen, wird der Voicemail IVR-Dienst für mobile Clients die Menüoption "Ihre Ansage ändern" hinzugefügt. Benutzer können diesen Service anrufen, indem Sie die Taste "1" auf der Wähltastatur des mobilen Clients gedrückt halten.
+**Ändern des mobilen Begrüßungs Zugriffs:** Der PSTN-Teilnehmerzugriff wird in einem Kooperationsnetz nicht unterstützt. Für Benutzer, die Ihre Begrüßung Remote ändern müssen, wird der Voicemail-IVR-Dienst für mobile Clients eine Menüoption "Ihre Begrüßung ändern" hinzugefügt. Benutzer können diesen Dienst aufrufen, indem Sie die "1"-Taste auf der Wähltastatur des mobilen Clients gedrückt halten.
