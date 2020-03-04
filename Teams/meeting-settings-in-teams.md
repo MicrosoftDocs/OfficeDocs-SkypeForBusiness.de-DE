@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie Einstellungen für Teambesprechungen verwalten, die Benutzer in Ihrer Organisation planen.
-ms.openlocfilehash: bed367c9c40bb7124235abf204bbfa0395859685
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 920069ed5f5687111d51411afce9499a2d5db5d2
+ms.sourcegitcommit: ab6099547846f048f1c4cc584a8c5cb8c386d22e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836465"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42413302"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -71,7 +71,9 @@ Sie können Besprechungseinladungen für Teams anpassen, um die Anforderungen Ih
     - **Rechtliche URL** Wenn Ihre Organisation über eine rechtliche Website verfügt, zu der Sie Personen für rechtliche Belange wechseln möchten, geben Sie die URL hier ein.
     - **Hilfe-URL** Wenn Ihre Organisation über eine Support Website verfügt, auf die Sie von Personen zugreifen können, wenn Sie Probleme haben, geben Sie die URL hier ein.
     - **Fußzeile** Geben Sie Text ein, den Sie als Fußzeile einfügen möchten.
-3. Warten Sie eine Stunde, damit die Änderungen weitergegeben werden. Planen Sie dann eine Teams-Besprechung, um zu sehen, wie die Besprechungseinladung aussieht.  
+3. Klicken Sie auf **Vorschau einladen** , um eine Vorschau Ihrer Besprechungseinladung anzuzeigen.
+4. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
+5. Warten Sie eine Stunde, damit die Änderungen weitergegeben werden. Planen Sie dann eine Teams-Besprechung, um zu sehen, wie die Besprechungseinladung aussieht.  
 
 ## <a name="set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings"></a>Bestimmen Sie, wie Sie den Echt Zeit Mediendatenverkehr für Teams-Besprechungen behandeln möchten.
 
@@ -90,13 +92,13 @@ Wenn Sie Quality of Service [(QoS)](qos-in-teams.md) zur Priorisierung des Netzw
     ![Screenshot der Netzwerkeinstellungen für Besprechungen im Admin Center](media/meeting-settings-network.png "Screenshot der Netzwerkeinstellungen für Teams-Besprechungen im Microsoft Teams Admin Center")
 
     - Damit DSCP-Markierungen für QoS verwendet werden können, aktivieren Sie **Quality of Service (QoS)-Marker für echt Zeit Mediendatenverkehr einfügen**. Sie haben nur die Möglichkeit, Marker zu verwenden oder nicht; Sie können keine benutzerdefinierten Marker für jeden Datenverkehrstyp einrichten. Weitere Informationen zu DSCP-Marken finden Sie unter [Auswählen einer QoS-Implementierungsmethode](QoS-in-Teams.md#select-a-qos-implementation-method) .
-    > [!NOTE] 
-    > Wenn Sie die **QoS-Marker (Quality of Service) einfügen für den Echt Zeit Mediendatenverkehr** aktivieren, wird auch die Kommunikation mit dem Transport-Relay mit UDP-Ports 3479 (Audio), 3480 (Video) und 3481 (Freigabe) aktiviert.
+        > [!NOTE] 
+        > Wenn Sie die **QoS-Marker (Quality of Service) einfügen für den Echt Zeit Mediendatenverkehr** aktivieren, wird auch die Kommunikation mit dem Transport-Relay mit UDP-Ports 3479 (Audio), 3480 (Video) und 3481 (Freigabe) aktiviert.
     - Wenn Sie Portbereiche angeben möchten, wählen Sie neben **Auswählen eines Portbereichs für jeden Typ von Echt Zeit Mediendatenverkehr**die Option **Portbereiche angeben**aus, und geben Sie dann die Start-und endanschlüsse für Audio-, Video-und Bildschirm Freigaben ein. Die Auswahl dieser Option ist erforderlich, um QoS zu implementieren.
-    > [!IMPORTANT]
-    > Wenn Sie **alle verfügbaren Anschlüsse automatisch verwenden**auswählen, werden die verfügbaren Anschlüsse zwischen 1024 und 65535 verwendet. Verwenden Sie diese Option nur, wenn Sie QoS nicht implementieren.
-    >
-    > Wenn Sie einen zu engen Portbereich auswählen, werden Anrufe und schlechte Anrufqualität verloren gehen. Die folgenden Empfehlungen sollten ein absolutes Minimum sein.
+        > [!IMPORTANT]
+        > Wenn Sie **alle verfügbaren Anschlüsse automatisch verwenden**auswählen, werden die verfügbaren Anschlüsse zwischen 1024 und 65535 verwendet. Verwenden Sie diese Option nur, wenn Sie QoS nicht implementieren.
+        >
+        > Wenn Sie einen zu engen Portbereich auswählen, werden Anrufe und schlechte Anrufqualität verloren gehen. Die folgenden Empfehlungen sollten ein absolutes Minimum sein.
 
 Wenn Sie unsicher sind, welche Portbereiche in Ihrer Umgebung zu verwenden sind, sind die folgenden Einstellungen ein guter Ausgangspunkt. Weitere Informationen finden Sie unter [Implementieren der QoS (Quality of Service) in Microsoft Teams](QoS-in-Teams.md). Hierbei handelt es sich um die erforderlichen DSCP-Markierungen und die vorgeschlagenen entsprechenden Medien Portbereiche, die von Teams und Express Route verwendet werden.
 
