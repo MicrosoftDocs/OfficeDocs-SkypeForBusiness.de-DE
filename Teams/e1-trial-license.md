@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db45b65388331127c78693b52de3a0e09a35c9d7
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: 0709f28125bc43ebc372f3bd2cddd33476526237
+ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374345"
+ms.locfileid: "42398163"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Verwalten der Office 365 E1-Testversion
 ==============================
@@ -27,6 +27,8 @@ ms.locfileid: "42374345"
 Neu im März 2020: Eine kostenlose 6-monatige Office 365 E1-Testversion, die Microsoft Teams enthält, ist jetzt erhältlich. Microsoft stellt diese spezielle E1-Testlizenz als Reaktion auf den erhöhten Bedarf für Mitarbeiter bereit, die aufgrund des COVID-19-Ausbruchs (Coronavirus) von zu Hause aus (WFH) arbeiten. 
 
 Informationen zum Inhalt einer E1-Lizenz finden Sie unter [Office 365 E1](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e1-business-software).
+
+Versäumen Sie nicht die Vielzahl unserer Anleitungen für die [Unterstützung von Remotemitarbeitern mit Teams](support-remote-work-with-teams.md). 
 
 ## <a name="how-to-get-an-e1-trial-license"></a>So erhalten Sie eine E1-Testlizenz
 
