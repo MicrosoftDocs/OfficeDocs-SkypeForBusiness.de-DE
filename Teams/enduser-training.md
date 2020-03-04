@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb9de199cb02ee278b0e7bb1227ac41172d1a3e1
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: 29b01c5d5bbbf386e834cf89cc2d80bff07de1ab
+ms.sourcegitcommit: 0286eec17b7eea486b857a69fb6c6166ef0799d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374222"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42408850"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Endbenutzer-Schulungen für Microsoft Teams
 
@@ -121,6 +121,24 @@ Kurzes Video zur Einführung in Teams ansehen</h3>
         </div>
         </a>
     </li>
+<li>
+        <a href="https://aka.ms/TeamsLiveTraining">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users/people" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Teilnehmen an Live-Online Schulungen</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
 </ul>
 
     
@@ -149,7 +167,7 @@ Kurzes Video zur Einführung in Teams ansehen</h3>
                     <div class="cardText">
                         <h3>Teams-Übersicht</h3>
                         <p><a href="https://teamsdemo.office.com/">Interaktive Teams-Demo</a></p>  
-                        <p><a href="https://microsoftteams.eventbuilder.com/event/1772">On-Demand-Live-Schulung: #ThisisTeams – wie Sie Teams für sich einsetzen können</a></p>
+                        <p><a href="https://microsoftteams.eventbuilder.com/SayHellotoTeams">Online Schulung: sagen Sie "Hallo" an Teams</a></p>
                         <p><a href="https://aka.ms/teamsgettingstartedondemand">On-Demand-Live-Schulung: Erste Schritte mit Teams</a></p>
                     </div>
                 </div>
@@ -162,9 +180,9 @@ Kurzes Video zur Einführung in Teams ansehen</h3>
                 <div class="card">
                     <div class="cardText">
                         <h3>Umstieg von Skype for Business auf Teams</h3>
+                         <p><a href="https://microsoftteams.eventbuilder.com/Getting%20Started%20with%20Microsoft%20Teams">Online Schulung: Erste Schritte mit Microsoft Teams</a></p>
                          <p><a href="https://support.office.com/article/switch-to-teams-from-skype-for-business-6295a0ae-4e8e-4bba-a100-64cc951cc964">Artikel: Umstieg von Skype for Business auf Teams</a></p>
-                         <p><a href="https://aka.ms/upgrade101ondemand">On-Demand-Live-Schulung: Upgrade 101: Übersicht über das Upgrade von Skype for Business auf Teams</a></p>
-                        <p><a href="https://aka.ms/fromskypetoteamsondemand">On-Demand-Live-Schulung: Von Skype for Business zu Teams</a></p>
+                         <p><a href="https://www.youtube.com/watch?v=yCLqmvEp7Pk&list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk&index=7&t=21s">On-Demand-Live-Schulung: Umsteigen von Skype for Business auf Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -221,6 +239,7 @@ Kurzes Video zur Einführung in Teams ansehen</h3>
                        <p><a href="https://support.office.com/article/video-start-chats-and-make-calls-a864b052-5e4b-4ccf-b046-2e26f40e21b5">Video: Starten von Chats und Tätigen von Anrufen</a></p>
                        <p><a href="https://support.office.com/article/video-create-instant-meetings-with-meet-now-26e06837-853d-4df1-a729-06bf700d4ecf">Video: Erstellen von Sofortbesprechungen mit „Jetzt besprechen“</a></p>
                        <p><a href="https://support.office.com/article/video-manage-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137">Video: Verwalten von Besprechungen</a></p>
+                       <p><a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings">On-Demand-Schulung: Ausführen effektiver Besprechungen mit Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -236,6 +255,7 @@ Kurzes Video zur Einführung in Teams ansehen</h3>
                         <p><a href="https://support.office.com/article/tip-turn-a-file-into-a-tab-8c490008-3fb1-41b4-8152-6266b4474b05">Video: Umwandeln einer Datei in eine Registerkarte</a></p>
                         <p><a href="https://support.office.com/article/how-to-use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b">Video: Verwenden des Befehlsfelds</a></p>
                         <p><a href="https://www.youtube.com/watch?v=wYrRCRphrp0">Video: Befehlsleistenübersicht</a></p>
+                        <p><a href="https://aka.ms/LearnTeamsApps">On-Demand-Schulungen: Informationen zur Verwendung von apps in Teams</a></p>
                     </div>
                 </div>
             </div>
