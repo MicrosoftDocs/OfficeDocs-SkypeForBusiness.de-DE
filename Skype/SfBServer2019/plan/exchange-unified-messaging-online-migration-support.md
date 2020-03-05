@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst ("Moreo") bis zum 28. Februar 2020 in Ruhestand. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: f6adb1636d6a40e41b006c3981dc4d21ba503289
-ms.sourcegitcommit: ed0ecb3b1250a23d3b91a5a33256aee1c3119db1
+ms.openlocfilehash: c39485de1acceef0dc340f039a1586b3e6014522
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374302"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417620"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange Unified Messaging-Online Migrationsunterstützung
 
@@ -127,7 +127,7 @@ Es wird dringend empfohlen, frühzeitig mit der Einrichtung ihrer neuen automati
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matrix für die Feature-und Azure-Cloud-basierte Dienste
 
-| Dienst | Funktionsebene | Feature | Anmerkungen  | Cloud VM/AA  | ExUMO |
+| Dienst | Funktionsebene | Feature | Notes  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VM  | Dienstfunktionen| Unterstützung für Drittanbieter-PBX    | Einschließlich aller Funktionen, die an Drittanbieter-Nebenstellenanlagen wie MWI (Message Waiting Indicator) mit SIP NOTIFY-Nachrichten von Exchange um Online bereitgestellt werden | N   | v    |
 | VM | Dienstfunktionen  | Support Skype for Business Server   |  | v | v    |
@@ -235,6 +235,8 @@ Neue Skype for Business Benutzer werden bei der Erstellung automatisch für die 
 Weitere Informationen zu automatischen Telefonzentralen finden Sie unter [Einrichten einer automatischen Cloud-Telefonzentrale](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
 
 #### <a name="known-issues"></a>Bekannte Probleme
+
+**Deaktivieren des Teilnehmerzugriffs nach der Migration zur Vermeidung von Begrüßung Inkonsistenzen** Der Teilnehmerzugriff funktioniert möglicherweise weiterhin für Ihren Mandanten, bis der Dienst vollständig zurückgezogen wird, selbst nachdem alle Ihre Benutzer zu Cloud Voicemail migriert wurden. Um Verwirrung und inkonsistente Benutzerfreundlichkeit zu vermeiden, deaktivieren Sie den Teilnehmerzugriff, da Begrüßungen, die nach der Migration geändert wurden, keine Auswirkungen haben. Entfernen Sie dazu den Exum-Kontakt für jede Teilnehmerzugriffs Verbindung mit Get-CsExUmContact |? {$_. "Issubscriberaccess"-EQ $true} | Remove-CsExUmContact 
 
 **Anrufweiterleitung für automatische Telefonzentrale an PSTN** Kunden sollten eine vorübergehende Problemumgehung konfigurieren, um die Anforderungen für die Übertragung eines Anrufs einer automatischen Telefonzentrale an eine externe PSTN-Nummer oder eine RGS-Instanz zu erfüllen. 
  

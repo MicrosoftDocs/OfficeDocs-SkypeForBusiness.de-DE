@@ -15,12 +15,12 @@ ms.collection:
 description: Informieren Sie sich über die Teamberichte, die im Microsoft Teams Admin Center zur Verfügung stehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc5c3c3c5588abe0c3ee748bdcd8a5ba3a2bf302
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 080ddb1455a204b7dc96ddcac8d414a1d1b77228
+ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827223"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42507963"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams – Analyse und Berichterstellung
 
@@ -28,7 +28,7 @@ Eine neue Analyse-und Berichterstellungsumgebung für Microsoft Teams steht im M
 
 ## <a name="how-to-access-the-reports"></a>So greifen Sie auf die Berichte zu
 
-Wenn Sie auf die Berichte zugreifen möchten, müssen Sie ein globaler Administrator in Office 365, Team Dienstadministrator oder Skype for Business-Administrator sein.  Wechseln Sie zum Microsoft Teams Admin Center, wählen Sie im linken Navigationsbereich **Analyse #a0 Berichte**aus, und wählen Sie dann unter **Bericht**den Bericht aus, den Sie ausführen möchten.
+Wenn Sie auf die Berichte zugreifen möchten, müssen Sie ein globaler Administrator in Office 365, Team Dienstadministrator, Teams Communications Admin oder Skype for Business-Administrator sein.  Wechseln Sie zum Microsoft Teams Admin Center, wählen Sie im linken Navigationsbereich **Analyse & Berichte**aus, und wählen Sie dann unter **Bericht**den Bericht aus, den Sie ausführen möchten.
 
 > [!NOTE]
 > Die Berichte im Microsoft Teams Admin Center sind unabhängig von den Aktivitätsberichten für Teams, die Teil der Office 365-Berichte im Microsoft 365 Admin Center sind. Weitere Informationen zu den Aktivitätsberichten im Microsoft 365 Admin Center finden Sie unter [Teams-Aktivitätsberichte im Microsoft 365 Admin Center](../teams-activity-reports.md) .
