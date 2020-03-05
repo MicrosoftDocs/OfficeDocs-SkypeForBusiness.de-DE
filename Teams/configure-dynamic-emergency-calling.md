@@ -16,12 +16,12 @@ f1.keywords:
 description: Konfigurieren dynamischer Notrufe
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cd5f3320896c823eb81a9147a1b1b1adb36dbac
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6b22c6cec20e42ac33b15c53a49477b36a35fbe9
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825513"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417590"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -70,10 +70,10 @@ Weitere Informationen zu Notrufen – einschließlich Informationen zu Notfallad
 
 Die folgenden Clients werden zurzeit unterstützt.  Schauen Sie sich häufig an, um Updates für diese Liste anzuzeigen.
 
-- Teams-Desktop Client für Windows
-- Teams-Desktop Client für Mac
-- Teams Mobile Client für IOS-Client Version 1.0.92.2019121004 und App Store-Version 1.0.92 und höher
-- Teams Mobile Client für Android-Client und Store-Version 1416/1.0.0.2019121201 und höher
+- Teams-Desktop Client für Microsoft Windows
+- Teams-Desktop Client für Apple macOS
+- Teams Mobile Client für Apple IOS Client Version 1.0.92.2019121004 und App Store Version 1.0.92 und höher
+- Teams Mobile Client für Android-Client und Google Play Store, Version 1416/1.0.0.2019121201 und höher
 - Teams Phone Version 1449/1.0.94.2019110802 und höher
 
 ## <a name="assign-emergency-addresses"></a>Notfalladressen zuweisen

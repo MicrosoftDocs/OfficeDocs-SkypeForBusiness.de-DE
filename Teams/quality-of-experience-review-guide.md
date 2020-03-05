@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 025bd70c79cdc0547f86514521fd1e565265d4f8
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 13c3267378d4e8fbc5b3d3631606cf0824ea7a44
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160779"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417850"
 ---
 # <a name="quality-of-experience-review-guide"></a>Handbuch für die Überprüfung der QoE (Quality of Experience)
 
@@ -379,7 +379,7 @@ Wenn Sie alle detaillierten Berichte filtern möchten, fügen Sie in der Browser
 
 **Beispiel**
 
-```https://cqd.lync.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-5/filter/[AllStreams].[Is Teams]|[FALSE]```
 
 Weitere Informationen zu URL-Filtern finden Sie unter [Filtern von Berichten](#filtering-reports) weiter unten in diesem Abschnitt.
 
@@ -472,11 +472,11 @@ Weitere detaillierte Schulungen und Ressourcen finden Sie im [Anhang](#other-res
 
 Sie können auf CQD auf eine von drei Arten zugreifen:
 
--   Navigieren Sie in das Verzeichnis <https://cqd.lync.com>.
+-   Navigieren Sie in das Verzeichnis <https://cqd.teams.microsoft.com>.
 
 -   Wechseln Sie zum **Microsoft Teams Admin Center** , und wählen Sie den Link zu CQD aus, wie in der folgenden Abbildung dargestellt.
 
-![Screenshot des Dashboards "Anrufqualität" ausgewählt.](media/qerguide-image-mopo.png "Im linken Navigationsbereich ist das Dashboard "Link zur Anrufqualität" ausgewählt.")
+![Screenshot des Dashboards für die Anrufqualität ausgewählt.](media/qerguide-image-mopo.png "Im linken Navigationsbereich ist das Dashboard "Link zur Anrufqualität" ausgewählt.")
 
 _Abbildung 7: Zugreifen auf CQD über das Microsoft Teams Admin Center_
 
@@ -543,7 +543,7 @@ Wenn Sie einen URL-Filter implementieren möchten, fügen Sie in der Adressleist
 
 Beispiel  
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Second Tenant Id]|[TENANTID]```
 
 Wenn Sie die Berichte für Teams oder Skype for Business filtern möchten, fügen Sie am Ende der URL Folgendes an:
 
@@ -553,11 +553,11 @@ Wenn Sie die Berichte für Teams oder Skype for Business filtern möchten, füge
 
 Beispiel
 
-```https://cqd.lync.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
+```https://cqd.teams.microsoft.com/cqd/#/1234567/2018-08/filter/[AllStreams].[Is Teams]|[TRUE]```
 
 
 > [!NOTE]
-> Die obigen URL-Beispiele sind nur für die visuelle Darstellung vorgesehen. Bitte verwenden Sie den standardmäßigen <https://cqd.lync.com>CQD-Link von.
+> Die obigen URL-Beispiele sind nur für die visuelle Darstellung vorgesehen. Bitte verwenden Sie den standardmäßigen <https://cqd.teams.microsoft.com>CQD-Link von.
 
 
 #### <a name="query-filters"></a>Abfragefilter
@@ -591,7 +591,7 @@ Dieser Leitfaden enthält [zwei kuratierte CQD-Vorlagen](https://aka.ms/qertempl
 
 **So importieren Sie die Vorlagen (. CQDX) into CQD Online**
 
-1. Navigieren Sie in das Verzeichnis <https://cqd.lync.com>.
+1. Navigieren Sie in das Verzeichnis <https://cqd.teams.microsoft.com>.
 
 2. Authentifizieren Sie sich mithilfe ihrer administrativen Office 365-Anmeldeinformationen.
 
@@ -711,7 +711,7 @@ Die QoE-Daten (Quality of Experience), die Clients an Office 365 senden, an dene
 
 Das Dashboard für CQD-Zusammenfassungsberichte enthält eine Seite für **Mandantendaten Upload** , auf die durch Auswählen des Link Tags **Mandantendaten Upload** in der oberen rechten Ecke zugegriffen wird (suchen Sie nach dem Zahnradsymbol). Diese Seite wird für Administratoren verwendet, um Ihre eigenen Informationen hochzuladen, wie etwa die Zuordnung von IP-Adresse und geografischen Informationen, die Zuordnung der einzelnen WLAN-Zugriffspunkte und deren Mac-Adresse usw.
 
-1. Wechseln Sie zu CQD Online, indem <https://cqd.lync.com>Sie zu navigieren.
+1. Wechseln Sie zu CQD Online, indem <https://cqd.teams.microsoft.com>Sie zu navigieren.
 
 2. Wählen Sie in der oberen rechten Ecke das Zahnradsymbol aus, und wählen Sie auf der Seite **Zusammenfassungsberichte** den Eintrag **Mandantendaten Upload** aus.
 
@@ -1130,7 +1130,7 @@ In diesem Bericht werden bestimmte Gebäude und Subnetze identifiziert, die zur 
 > [!NOTE]
 > Stellen Sie sicher, dass Sie den Monats Jahres Filter auf den aktuellen Monat anpassen. Wählen Sie **Bearbeiten**und dann **Monat Jahr** anpassen aus, um den neuen Standardmonat zu speichern.
 
-![Sreen shot des Berichts zur HTTP-Proxy Verwendung nach Gebäude und Subnetz](media/qerguide-image-httpproxyusage.png)
+![Screenshot des Berichts zur HTTP-Proxy Verwendung nach Gebäude und Subnetz](media/qerguide-image-httpproxyusage.png)
 
 _Abbildung 29 – http-Proxy Verwendung nach Gebäude und Subnetz_
 

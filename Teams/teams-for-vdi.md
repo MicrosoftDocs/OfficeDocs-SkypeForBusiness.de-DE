@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5bc574fc760929d416ce3f62c921bc522c2997c
-ms.sourcegitcommit: 35de08b532eb7cf58c3221210c2b3b52f8aa047e
+ms.openlocfilehash: f9c8f0fe24cfb94be368fb2afa6446f311f2f790
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42339460"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417880"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams für Virtualized Desktop Infrastructure
 
@@ -97,7 +97,7 @@ Es folgt die empfohlene minimale VM-Konfiguration.
 
 Bei einem nicht persistenten Setup werden die Änderungen des lokalen Betriebssystems des Benutzers nicht beibehalten, nachdem sich die Benutzer abgemeldet haben. Bei solchen Setups handelt es sich um häufig freigegebene mehr Benutzersitzungen. Die VM-Konfiguration variiert je nach der Anzahl der Benutzer und den verfügbaren physikalischen Feld Ressourcen.
 
-Bei einem nicht persistenten Setup muss die Team-Desktop-App pro Computer auf das goldene Bild installiert werden. (Weitere Informationen finden Sie unter [installieren oder Aktualisieren der Desktop-App "Teams" im](#install-or-update-the-teams-desktop-app-on-vdi) Abschnitt "VDI"). Dadurch wird sichergestellt, dass die Teams-APP während einer Benutzersitzung effizient gestartet wird. Für die Verwendung von Teams mit einem nicht beständigen Setup ist auch ein Profilcache-Manager für eine effiziente Team Laufzeit-Datensynchronisierung erforderlich. Dadurch wird sichergestellt, dass die entsprechenden benutzerspezifischen Informationen (beispielsweise Benutzerdaten, Profil und Einstellungen) während der Benutzersitzung zwischengespeichert werden.  Es stehen verschiedene Caching Manager-Lösungen zur Verfügung. Beispiel: [FSLogix](https://docs.microsoft.com/fslogix/overview). Wenden Sie sich an Ihren Caching Manager-Anbieter, um bestimmte Konfigurationsanweisungen anzuzeigen.
+Bei einem nicht persistenten Setup muss die Team-Desktop-App pro Computer auf das goldene Bild installiert werden. (Weitere Informationen finden Sie unter [installieren oder Aktualisieren der Desktop-App "Teams" im](#install-or-update-the-teams-desktop-app-on-vdi) Abschnitt "VDI".) Dadurch wird sichergestellt, dass die Teams-APP während einer Benutzersitzung effizient gestartet wird. Für die Verwendung von Teams mit einem nicht beständigen Setup ist auch ein Profilcache-Manager für eine effiziente Team Laufzeit-Datensynchronisierung erforderlich. Dadurch wird sichergestellt, dass die entsprechenden benutzerspezifischen Informationen (beispielsweise Benutzerdaten, Profil und Einstellungen) während der Benutzersitzung zwischengespeichert werden.  Es stehen verschiedene Caching Manager-Lösungen zur Verfügung. Beispiel: [FSLogix](https://docs.microsoft.com/fslogix/overview). Wenden Sie sich an Ihren Caching Manager-Anbieter, um bestimmte Konfigurationsanweisungen anzuzeigen.
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>Ausschlussliste für in Teams zwischengespeicherte Inhalte für nicht persistente Einrichtung
 

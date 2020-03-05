@@ -20,17 +20,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in den Vereinigten Staaten (und Puerto Rico) für Microsoft Teams zu finden.
-ms.openlocfilehash: 8013b3a822f9e453dd60bb7e5af73a1326f7c04c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in den Vereinigten Staaten (einschließlich Puerto Rico) für Microsoft Teams zu finden.
+ms.openlocfilehash: a3c94b4e091529fdc2fa3389b3b0155f5bf118d9
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706930"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417630"
 ---
 # <a name="phone-number-management-for-the-us"></a>Telefonnummernverwaltung für die USA
 
-Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in den Vereinigten Staaten (und Puerto Rico) für Microsoft Teams zu finden.
+Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in den Vereinigten Staaten (einschließlich Puerto Rico) für Microsoft Teams zu finden.
 
 Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   

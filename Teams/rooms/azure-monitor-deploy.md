@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: In diesem Artikel wird erläutert, wie Sie die Verwaltung von Microsoft Teams rooms-Geräten in integrierter End-to-End-Weise mithilfe von Azure Monitor bereitstellen.
-ms.openlocfilehash: 54268676eadab25599d4f8b6e415ff373717943f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 70c2311143a4daabbc0838168e19969f950a2df1
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826263"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417540"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Bereit :::no-loc text="Microsoft Teams Rooms"::: stellen der Verwaltung mit:::no-loc text="Azure Monitor":::
 
@@ -30,7 +30,7 @@ Sie können innerhalb :::no-loc text="Log Analytics"::: :::no-loc text="Azure Mo
 
 Wenn Sie diesem Leitfaden folgen, können Sie ein Dashboard wie im folgenden Beispiel verwenden, um detaillierte Statusberichte für die Geräteverfügbarkeit, die Anwendungs-und :::no-loc text="Microsoft Teams Rooms"::: Hardware Integrität sowie die Versions Verteilung von Anwendungen und Betriebssystemen zu erhalten.
 
-! [Screenshot der Beispiel :::no-loc text="Log Analytics"::: Ansicht für] :::no-loc text="Microsoft Teams Rooms"::: (.. /Media/deploy-Azure-Monitor-1.png "Beispiel :::no-loc text="Log Analytics"::: Ansicht für :::no-loc text="Microsoft Teams Rooms":::")
+![Screenshot der Beispielansicht "Protokollanalyse" für Microsoft Teams-Chatrooms](../media/Deploy-Azure-Monitor-1.png "Beispiel für eine Protokollanalyse Ansicht für Microsoft Teams-Chatrooms")
 
 Allgemein müssen Sie die folgenden Aufgaben ausführen:
 
@@ -196,7 +196,7 @@ Sie können auch ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen
 ### <a name="create-a-tile-that-displays-active-devices"></a>Erstellen einer Kachel, auf der aktive Geräte angezeigt werden
 
 1.  Wählen Sie **Dashboard anzeigen** aus, um das Hinzufügen Ihrer Kacheln zu beginnen.
-2.  Wählen Sie **Zahl #a0 Liste** aus dem Katalog aus.
+2.  Wählen Sie **Zahl & Liste** aus dem Katalog aus.
 3.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
     **Gruppentitel:** Heartbeat-Status<br>
     **Neue Gruppe:** Ausgewählten
@@ -214,7 +214,7 @@ Sie können auch ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen
 
 ### <a name="create-a-tile-that-displays-devices-that-have-connectivity-issues"></a>Erstellen einer Kachel, auf der Geräte mit Verbindungsproblemen angezeigt werden
 
-1.  Wählen Sie im Katalog **Zahl #a0 Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
+1.  Wählen Sie im Katalog **Zahl & Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
 2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
     **Gruppentitel:** Leer lassen<br>
     **Neue Gruppe:** Nicht ausgewählt
@@ -232,7 +232,7 @@ Sie können auch ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen
 
 ### <a name="create-a-tile-that-displays-devices-that-have-a-hardware-error"></a>Erstellen einer Kachel, die Geräte mit einem Hardwarefehler anzeigt
 
-1.  Wählen Sie im Katalog **Zahl #a0 Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
+1.  Wählen Sie im Katalog **Zahl & Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
 2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
     **Gruppentitel:** Hardware Status<br>
     **Neue Gruppe:** Ausgewählten
@@ -250,7 +250,7 @@ Sie können auch ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen
 
 ### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>Erstellen einer Kachel, in :::no-loc text="Microsoft Teams Rooms"::: der Betriebs System Versionen angezeigt werden
 
-1.  Wählen Sie im Katalog **Donut #a0 Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
+1.  Wählen Sie im Katalog **Donut & Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
 2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
     **Gruppentitel:** Details zum Betriebs System<br>
     **Neue Gruppe:** Ausgewählten
@@ -274,7 +274,7 @@ Sie können auch ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen
 
 ### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-application-versions"></a>Erstellen einer Kachel, in :::no-loc text="Microsoft Teams Rooms"::: der Anwendungsversionen angezeigt werden
 
-1.  Wählen Sie im Katalog **Donut #a0 Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
+1.  Wählen Sie im Katalog **Donut & Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
 2.  Definieren Sie die **allgemeinen** Eigenschaften:<br>
     **Gruppentitel:** :::no-loc text="Microsoft Teams Rooms"::: Anwendungsdetails<br>
     **Neue Gruppe:** Ausgewählten
@@ -298,7 +298,7 @@ Sie können auch ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen
 
 ### <a name="create-a-tile-that-displays-devices-that-have-an-application-error"></a>Erstellen einer Kachel, die Geräte mit einem Anwendungsfehler anzeigt
 
-1.  Wählen Sie im Katalog **Zahl #a0 Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
+1.  Wählen Sie im Katalog **Zahl & Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
 2.  Definieren Sie die **allgemeinen** Eigenschaften.<br>
     **Gruppentitel:** Leer lassen<br>
     **Neue Gruppe:** Nicht ausgewählt
@@ -316,7 +316,7 @@ Sie können auch ein eigenes Dashboard erstellen und nur die Kacheln hinzufügen
 
 ### <a name="create-a-tile-that-displays-devices-that-have-been-restarted"></a>Erstellen einer Kachel, auf der neu gestartete Geräte angezeigt werden
 
-1.  Wählen Sie im Katalog **Zahl #a0 Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
+1.  Wählen Sie im Katalog **Zahl & Liste** aus, und fügen Sie dann eine neue Kachel hinzu.
 2.  Definieren Sie die **allgemeinen** Eigenschaften.<br>
     **Gruppentitel:** Leer lassen<br>
     **Neue Gruppe:** Nicht ausgewählt
@@ -373,7 +373,7 @@ Konfigurieren Sie eine Warnungsregel, die :::no-loc text="Microsoft Teams Rooms"
 5.  Konfigurieren der Warnungs Logik Einstellungen:<br>
     **Basierend auf:** Anzahl der Ergebnisse<br>
     **Bedingung:** Größer als<br>
-    **Schwelle:** 0<br>
+    **Schwellenwert:** 0<br>
 
 6. Konfigurieren Sie Evaluierungs Einstellungen, und wählen Sie **Fertig**aus: <br>
     **Zeitraum (in Minuten):** 60<br>
@@ -383,7 +383,7 @@ Konfigurieren Sie eine Warnungsregel, die :::no-loc text="Microsoft Teams Rooms"
     1.  Wählen Sie **neu erstellen** aus.
     2.  Geben Sie geeignete Namen für die Felder *Aktionsgruppenname* und *Kurzname* an.
     3.  Geben Sie einen eindeutigen *Aktionsnamen* an, wählen Sie **e-Mail/SMS/Push/Voice**aus, und wählen Sie dann **Details bearbeiten**aus.
-    4.  Aktivieren Sie das Kontrollkästchen e-Mail, und geben Sie die e-Mail-Adresse der Person oder Gruppe an, die die Benachrichtigungen erhalten soll.
+    4.  Aktivieren Sie das Kontrollkästchen **e-Mail** , und geben Sie die e-Mail-Adresse der Person oder Gruppe an, die die Benachrichtigungen erhalten soll.
     5.  Sie können auch Ihre Telefonnummer angeben, um mit SMS, einem Sprachanruf oder beides benachrichtigt zu werden.
     6. Wählen Sie **OK**aus.
 

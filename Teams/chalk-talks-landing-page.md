@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: ab643059e57b5ec621100662c4585e43e1a91607
-ms.sourcegitcommit: 0286eec17b7eea486b857a69fb6c6166ef0799d2
+ms.openlocfilehash: adead862907c29c066df8b2541c260045f19db95
+ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409803"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417600"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -82,7 +82,7 @@ Teams, die für IT-Experten und Entscheidungsträger entwickelt wurden, bieten e
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Erstellen einer Teams-app in 60 Minuten</h3>
+                        <h3>Bereitstelleneiner Teams-app in 60 Minuten</h3>
                         <p><font color="red"><i>Demnächst!</i></font> Erweitern Sie Teams mithilfe von App-Vorlagen, um Tools zu erstellen, die Sie täglich direkt in Teams verwenden, damit Sie Ihre Arbeit in einer einzigen Benutzeroberfläche erledigen können.</p>
                     </div>
                 </div>
