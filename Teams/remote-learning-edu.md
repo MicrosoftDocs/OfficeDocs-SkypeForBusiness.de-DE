@@ -16,20 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cc8b5d681fe6dbb85be77063b5974417bbf19ff
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 28ba6f96355847eed0149dddba07fa9704f39052
+ms.sourcegitcommit: ac811017d54a55f39ecc0e3a66a883d9e027ce68
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417530"
+ms.locfileid: "42547896"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
 > [!NOTE]
 > Dieser Artikel ist eine großartige Ressource, um Ihre Bildungseinrichtung für den Fernunterricht einzurichten. Wenn Sie Lehrkraft oder Schulleiter sind, können Ihnen diese Ressourcen helfen:
-> - Eine Sammlung von Artikeln, die für Lehrkräfte verfasst wurden, einschließlich Anleitungen für die wichtigsten [ersten Schritte für den Unterricht mit Teams](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
-> - Ein einstündiger Onlinekurs im Microsoft Educator Center zeigt, wie Lehrkräfte Microsoft Teams in ihrem Beruf einsetzen. [Transform Learning with Microsoft Teams](https://education.microsoft.com/course/9c9f5c11/overview) (Verändern des Lernens mit Microsoft Teams).
-> - Ein einstündiger Onlinekurs im Microsoft Educator Center leitet Lehrkräfte durch die Unterrichtsgestaltung in Kursteams. [Crafting a Collaborative Learning Environment with Class Teams](https://education.microsoft.com/course/b1e15cfc/overview) (Schaffen einer auf Teamarbeit ausgerichteten Lernumgebung mit Kursteams).
+>
+> - Eine Sammlung von Artikeln, die für Lehrkräfte verfasst wurden, einschließlich Anleitungen für die wichtigsten [**ersten Schritte für den Unterricht mit Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
+> - Ein einstündiger Onlinekurs im Microsoft Educator Center zeigt, wie Lehrkräfte Microsoft Teams in ihrem Beruf einsetzen. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview) (Verändern des Lernens mit Microsoft Teams).
+> - Ein einstündiger Onlinekurs im Microsoft Educator Center leitet Lehrkräfte durch die Unterrichtsgestaltung in Kursteams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview) (Schaffen einer auf Teamarbeit ausgerichteten Lernumgebung mit Kursteams).
+
+Verpassen Sie nicht den Blog vom 4. März 2020 [Wie Schulen Fernlernprogramme mit Microsoft Teams schnell starten können](https://aka.ms/teamseduremoteblog).
 
 Onlinelernen kann ebenso persönlich, ansprechend und sozial vernetzt sein wie das Lernen in einem Klassenzimmer. Schüler, Studenten und Lehrkräfte können mit Unterhaltungen in Kontakt bleiben und sich gegenseitig helfen, und durch Livebesprechungen das Gefühl haben, sich persönlich zu treffen. Lehrkräfte können den täglichen Fortschritt der Kursteilnehmer mithilfe von Aufgaben nachverfolgen. Niemand muss das Gefühl haben, nicht mehr auf dem Laufenden zu sein. Viele Studenten, die online lernen, berichten, dass sie das Gefühl haben, mehr Mitspracherechte zu haben, und dass sie sich mit ihren Dozenten und Kommilitonen besser vernetzt fühlen als im Klassenzimmer. Und genau wie in einem Klassenzimmer können Lehrkräfte die Apps und Funktionen von Teams verwenden, um ein optimales Arbeiten zu unterstützen.
 
@@ -47,7 +50,7 @@ In der [Webinarreihe "Teams for education" (Teams für Bildungseinrichtungen)](h
 
 Teams nutzt die Möglichkeiten von Microsoft 365, um Benutzer zu authentifizieren und Dienste bereitzustellen. Mitarbeiter, Dozenten und Schüler/Studenten sollten über Identitäten verfügen, die für eine einfachere Zusammenarbeit eingerichtet wurden. Wenn Identitäten nicht bereits existieren, gehen Sie folgendermaßen vor, um sie einzurichten.
 
-[Teams-Lizenzen müssen für Benutzer aktiviert werden](user-access.md), bevor sie mit der Verwendung der Teams-Funktionen beginnen können. Teams setzt weitere Microsoft 365-Funktionen wie [Office 365 Gruppen](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint und OneDrive](SharePoint-OneDrive-interact.md) ein, um Szenarien für die Zusammenarbeit bereitzustellen. Die Benutzer erzielen die besten Erfahrungen mit Teams, wenn alle diese Dienste ebenfalls aktiviert sind. [Teams wird für Benutzer unterstützt, deren E-Mails bei Google gehostet werden](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
+[Teams-Lizenzen müssen für Benutzer aktiviert werden](teams-edu-licensing.md), bevor sie mit der Verwendung der Teams-Funktionen beginnen können. Teams setzt weitere Microsoft 365-Funktionen wie [Office 365 Gruppen](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint und OneDrive](SharePoint-OneDrive-interact.md) ein, um Szenarien für die Zusammenarbeit bereitzustellen. Die Benutzer erzielen die besten Erfahrungen mit Teams, wenn alle diese Dienste ebenfalls aktiviert sind. [Teams wird für Benutzer unterstützt, deren E-Mails bei Google gehostet werden](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
 
 Microsoft Teams ist Bestandteil von Office 365 A1, das für Bildungseinrichtungen kostenlos ist. Informationen zur Bereitstellung von Office 365 und zum Starten von Teams in der gesamten Bildungseinrichtung finden Sie [auf dieser Seite](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). Um Unterstützung zu erhalten, können Sie [hier](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) ein Ticket erstellen, und für Schulungen in Teams besuchen Sie Ihren lokalen Microsoft Store, um mit einem Fachmann zu sprechen.
 
