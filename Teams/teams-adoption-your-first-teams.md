@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a62bc73e7dc2496a9fedc94ad7fc38f2ebecd65
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 69cfb557f04644c1bb54d78ae24a8110d42ee8a0
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030769"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551032"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Erstellen Ihrer ersten Teams in Microsoft Teams
 
@@ -46,7 +46,7 @@ In ihren anfänglichen Teams empfehlen wir, die folgenden Elemente zur einfachen
 |----------------- | ---------- |
 | **Microsoft Teams-Bereitstellung** ||
 | Allgemein | Web Tab: [Teams-Dokumentation](https://aka.ms/SuccessWithTeams) |
-| Sensibilisierung und Akzeptanz | [Hub für die Einführung von Teams](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
+| Sensibilisierung und Akzeptanz | [Hub für die Einführung von Teams](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)|
 | Geschäftliches Engagement | Wiki – Engagement-Leitfaden<br/>Formular – Anfrage für Teams-Beratung<br/>Liste – Engagement-Anforderungen |
 |Frühe Anwender | Angeheftete Feedback-Community <br/> OneNote für häufig gestellte Fragen und häufige Designs |
 | Feedback und Berichterstellung | Angehefteter Office 365-Nutzungsbericht (nur für Office 365-Administratoren) |

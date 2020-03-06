@@ -16,30 +16,31 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie in Microsoft Teams die Verwendung von Tags in Ihrer Organisation verwalten können.
-ms.openlocfilehash: 3ade2f47474fe8aaf16c568e8c141dcd84526d86
-ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
+ms.openlocfilehash: 5da1d1549e6171656b0065036819be0fac450759
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42034504"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551042"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Verwalten von Tags in Microsoft Teams
 
 > [!NOTE]
 > Diese Funktion wird im Microsoft Teams Admin Center noch nicht angezeigt? Sie wird zurzeit bereitgestellt und ist möglicherweise noch nicht in Ihrer Organisation verfügbar. Schauen Sie sich die [Microsoft 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)an, um über die bevorstehenden Teams-Features auf dem Laufenden zu bleiben.
 
-Mithilfe von Tags in Microsoft Teams können Benutzer mit einer Teilmenge von Personen in einem Team kommunizieren. Tags können einem oder mehreren Teammitgliedern hinzugefügt werden, um problemlos eine Verbindung mit der richtigen Teilmenge der Personen herzustellen. Team Besitzer und-Mitglieder (wenn das Feature für Sie aktiviert ist) können einer Person eine oder mehrere Kategorien hinzufügen. Die Tags können dann in @Mentions von jeder Person im Team in einem Kanal Beitrag verwendet werden, um nur mit Personen zu kommunizieren, denen diese Kategorie zugewiesen ist.
+Mithilfe von Tags in Microsoft Teams können Benutzer mit einer Teilmenge von Personen in einem Team kommunizieren. Tags können einem oder mehreren Teammitgliedern hinzugefügt werden, um problemlos eine Verbindung mit der richtigen Teilmenge der Personen herzustellen. Team Besitzer und-Mitglieder (wenn das Feature für Sie aktiviert ist) können einer Person eine oder mehrere Kategorien hinzufügen. Die Tags können dann in @Mentions von jeder Person im Team in einem Kanal Beitrag verwendet werden oder eine Unterhaltung mit nur den Personen beginnen, denen diese Kategorie zugewiesen ist.
 
 > [!NOTE]
 > Tags werden in privaten Kanälen noch nicht unterstützt.
 
 ## <a name="how-tags-work"></a>Funktionsweise von Tags
 
-Eine Kategorie kann einer Person in einem bestimmten Team hinzugefügt werden. Nachdem eine Kategorie hinzugefügt wurde, kann Sie in @Mentions in einem beliebigen Standardkanal des Teams verwendet werden. Nachfolgend finden Sie einige Beispiele für die Verwendung von Tags in Teams:
+Eine Kategorie kann einer Person in einem bestimmten Team hinzugefügt werden. Nachdem eine Kategorie hinzugefügt wurde, kann Sie in @Mentions in einem Chat oder in einem beliebigen Standardkanal des Teams verwendet werden. Nachfolgend finden Sie einige Beispiele für die Verwendung von Tags in Teams:
 
 - Ein Store Manager möchte eine Ankündigung in einem Kanal Posten und alle Kassierer benachrichtigen.
 - Ein Group Product Manager möchte alle Produktmanager in einem Kanal Nachrichten.
 - Ein Krankenhaus Administrator möchte eine Nachricht an alle Radiologen in einem Kanal senden.
+- Ein Marketing Manager möchte einen Gruppen-Chat mit allen Designern beginnen. 
 
 Weitere Informationen finden Sie [unter Verwenden von Tags in Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
 

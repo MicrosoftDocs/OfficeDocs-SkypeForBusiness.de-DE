@@ -15,21 +15,21 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5d7423dfd0493af0e780b81f96d840f422d4833
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 356ff815fe05a91f203778c0f6af255182ace35c
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834655"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550902"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Tools und Workshops: Planen, Bereitstellen und Einführen von Microsoft Teams
 
 Laden Sie diese Planungstools herunter, die Sie beim Planen, Bereitstellen und Einführen von Microsoft Teams in Ihrer Organisation unterstützen.
 
 
-- [Microsoft Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)
+- [Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)
 
-    Dieses Kit enthält eine breite Palette von Präsentationen, e-Mail-Vorlagen, Tipps #a0 Tricks und Plakate, mit denen Sie die Einführung von Teams in Ihrer Organisation Ausrollen und steuern können. Sie umfasst zwei Schnellstart Handbücher für Administratoren und Teamleiter sowie Anwendungsfall Beispiele für jede Abteilung. Verwenden Sie diese Ressourcen, um Teams für verschiedene Funktionen in Ihrer Organisation optimal zu nutzen, einschließlich Marketing, Vertrieb, Finanzen, Personalwesen, IT, Engineering und Projekt Management.
+    Dieses Kit enthält eine breite Palette von Präsentationen, e-Mail-Vorlagen, Tipps & Tricks und Plakate, mit denen Sie die Einführung von Teams in Ihrer Organisation Ausrollen und steuern können. Sie umfasst zwei Schnellstart Handbücher für Administratoren und Teamleiter sowie Anwendungsfall Beispiele für jede Abteilung. Verwenden Sie diese Ressourcen, um Teams für verschiedene Funktionen in Ihrer Organisation optimal zu nutzen, einschließlich Marketing, Vertrieb, Finanzen, Personalwesen, IT, Engineering und Projekt Management.
 
 
 - [Schnellstarthandbuch für Administratoren](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)

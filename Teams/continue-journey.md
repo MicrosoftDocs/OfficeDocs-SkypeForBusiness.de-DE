@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7453743407696a0ba8c41cb401caf4f22ba7b78f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6ffbf676a86320fe3003d26dc94161d9e9e58c4d
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825303"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550912"
 ---
 ![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Operational Excellence Stage](media/upgrade-banner-op-excellence.png "Etappen des Upgrade-Vorgangs mit dem Schwerpunkt auf der Stufe "Operational Excellence"")
 
@@ -47,7 +47,7 @@ Um maximale Vorteile und geschäftliche Ergebnisse mit Teams zu erzielen, müsse
 
 - Eintragen von Peer-Champions, um andere Nutzer zu evangelisieren und zu ermutigen.
 - Lesen Sie den [Leitfaden zur Einführung von Office 365](https://go.microsoft.com/fwlink/?linkid=859045) , um Tipps zur Steigerung des Engagements und zur Einführung des Verhaltens zu haben.
-- Nutzung des [Teams-kundenerfolgs Kits](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) zur Verbesserung des Bekanntheitsgrads und zum Austausch bewährter Methoden.
+- Nutzung des [Teams-kundenerfolgs Kits](https://aka.ms/TeamsCustomerSuccess) zur Verbesserung des Bekanntheitsgrads und zum Austausch bewährter Methoden.
 - Implementierung einer formellen [Adoptions-und Change-Management-Strategie](http://www.successwithteams.com/) zur Unterstützung des Akzeptanz Wachstums.
 
 ## <a name="prepare-for-new-functionality"></a>Vorbereiten auf neue Funktionen
