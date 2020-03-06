@@ -19,12 +19,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55e4ec98d6e54dba88a417d9631605859962c9c1
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 78531cfad01051e4a9d7493384a18f4c0a4e1dc4
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033022"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551003"
 ---
 # <a name="tools-for-driving-adoption"></a>Tools für das Steuern der Einführung 
 
@@ -155,4 +155,4 @@ Das Office 365 Champions-Programm ist ein kostenloses Programm, das Personen hil
 Schauen Sie sich das [Daumenkino für Teams](https://aka.ms/teamstoolkit)an, einen Online-Leitfaden, der Ihnen bei der Einführung von Teams in Ihrem Unternehmen helfen wird. Es enthält viele herunterladbare Tools, Vorlagen und andere Ressourcen, die Ihnen bei der Einführung ihrer Teams helfen.
 
 ### <a name="teams-customer-success-kit"></a>Kunden-Erfolgs-Kit für Teams
-Das [Team Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) bietet Tools, die Ihnen beim Rollout von Teams in Ihrer Organisation helfen. Dazu gehören e-Mail-Vorlagen für Ankündigungen, Flyer Poster, Countdown und Tipps & Tricks. Dazu gehören auch erste Schritte für Teamleiter und IT-Administratoren.
+Das [Team Customer Success Kit](https://aka.ms/TeamsCustomerSuccess) bietet Tools, die Ihnen beim Rollout von Teams in Ihrer Organisation helfen. Dazu gehören e-Mail-Vorlagen für Ankündigungen, Flyer Poster, Countdown und Tipps & Tricks. Dazu gehören auch erste Schritte für Teamleiter und IT-Administratoren.
