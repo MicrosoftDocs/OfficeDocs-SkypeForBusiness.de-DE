@@ -1,7 +1,7 @@
 ---
 title: Plan für Live-Ereignisse in Microsoft Teams
-author: chuckedmonson
-ms.author: chucked
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 08/19/2019
 ms.topic: article
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Informieren Sie sich über die Faktoren, die Sie berücksichtigen müssen, bevor Sie Live Ereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eaa9e00ea3491b66eedbcf8f00e3108b582d7aa9
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6f0c141751a9b67a47640ba5210c3cb7aeeadbb2
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827123"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558565"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan für Live-Ereignisse in Microsoft Teams
 
@@ -84,14 +84,14 @@ In der folgenden Tabelle werden die wichtigsten Funktionen und Funktionen von Li
 |Maximale Anzahl von gleichzeitigen Live Ereignissen pro Office 365-Mandanten |15  | 15  | 15  |
 |Erstellen von Live Ereignissen |   Skype-Live Konferenz-Portal |Teams, jammern über Teams | Teams, über Teams jammern, streamen |
 |Publikums Engagement – jammern |&#x2714; |&#x2714; (integrierte Benutzeroberfläche) |&#x2714; (integrierte Benutzeroberfläche) |
-|Audience Engagement – moderiert Q #a0 A |&#x2714;  |&#x2714; |&#x2714; |
+|Audience Engagement – moderiert Q & A |&#x2714;  |&#x2714; |&#x2714; |
 |Producer-Client unter Windows |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; (streamen, Teams per Datenstrom einbetten) |
 |Producer-Client auf einem Mac |X  | &#x2714; (Teams) |&#x2714; (streamen, Teams per Datenstrom einbetten) |
 |Anzahl der Teilnehmer in der Producer-Benutzeroberfläche |X  |&#x2714; (Teams) |&#x2714; (streamen, Teams per Datenstrom einbetten) |
 |Ermöglicht mehrere Referenten |&#x2714; (Skype for Business) |&#x2714; (Teams) |Nicht zutreffend  |
 |Einladen eines Referenten während der Besprechung |&#x2714; (Skype for Business) |X |Nicht zutreffend |
 |Referenten-Join im Web und Handy |&#x2714; (Skype for Business)  |X |Nicht zutreffend |
-|Verbundene #a0 Gastreferenten/Teilnehmer |&#x2714; (Skype for Business)  | (in Kürze verfügbar) |Nicht zutreffend |
+|Verbundene & Gastreferenten/Teilnehmer |&#x2714; (Skype for Business)  | (in Kürze verfügbar) |Nicht zutreffend |
 |Referent – PSTN-Zugriff |X |&#x2714; (Teams) |Nicht zutreffend |
 |Präsentieren eines Bildschirms |X |&#x2714; (Teams) |Nicht zutreffend |
 |Präsentieren einer PowerPoint-Freigabe (PPT-Freigabe) |&#x2714; |X (durch Bildschirmübertragung verringert) |Nicht zutreffend |
@@ -102,7 +102,7 @@ In der folgenden Tabelle werden die wichtigsten Funktionen und Funktionen von Li
 |Steuerelemente für Teilnehmer-DVR (anhalten, Zurückspulen) |&#x2714; |&#x2714; |&#x2714; |
 |Support für Partner-ECDN |&#x2714; (Hive, Kollective, Laderampe) |&#x2714; (Hive, Kollective, Laderampe) |&#x2714; (Hive, Kollective, Laderampe) |
 |Teilnahmebericht nach der Übertragung für Hersteller |&#x2714; |&#x2714; |X |
-|Analyse der Zielgruppe – Live Voting #a0 Umfragen |&#x2714; (Microsoft Pulse) |X |X |
+|Analyse der Zielgruppe – Live Voting & Umfragen |&#x2714; (Microsoft Pulse) |X |X |
 
 <sup>1</sup> die festgelegten Grenzwerte können geändert werden.
 

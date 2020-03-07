@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um den Mitarbeitern in Ihrer Organisation zu helfen, mit Microsoft Teams produktiv zu arbeiten, insbesondere wenn sie als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43c22fcd7d6f578cd8f90188c67796b2c5018672
-ms.sourcegitcommit: ac811017d54a55f39ecc0e3a66a883d9e027ce68
+ms.openlocfilehash: 26a6c739212b4f1b8564dfe0b8e412d4e8f0e615
+ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42547910"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551052"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Unterstützung von Remotemitarbeitern in Microsoft Teams
 
@@ -27,7 +27,7 @@ Möchte Ihre Organisation Microsoft Teams einführen, um Remotemitarbeiter und B
 
 ## <a name="it-admin-guidance"></a>Anleitungen für IT-Administratoren
 
-- Stellen Sie sicher, dass jeder Zugriff auf Teams hat, und verwenden Sie dazu die ﻿kostenlose 6-monatige**[Office 365 E1-Testversion](e1-trial-license.md)** oder die **[Freemium-Version von Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**. Wenden Sie sich an Ihr Microsoft-Konto-Team oder Ihren Microsoft-Partner, wenn Sie Hilfe benötigen.
+- Stellen Sie sicher, dass jeder Zugriff auf Teams hat, und verwenden Sie dazu das ﻿kostenlose 6-monatige **[Office 365 E1-Angebot](e1-trial-license.md)** oder die **[Freemium-Version von Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**. Wenden Sie sich an Ihr Microsoft-Konto-Team oder Ihren Microsoft-Partner, wenn Sie Hilfe benötigen.
 
 -  Wenn Sie bereits über ein Abonnement verfügen, das Teams umfasst, **[aktivieren Sie es für jeden](assign-teams-licenses.md)**.
     
@@ -38,7 +38,7 @@ Weitere Informationen hierzu finden Sie unter [Zusätzlicher Ressourcen zur Unte
 
 ## <a name="end-user-communications"></a>Endbenutzerkommunikation
 
-Sind Sie bereit für das Rollout von Teams an Ihre Benutzer? Holen Sie sich das **[Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)**, das diese großartigen E-Mail-Vorlagen enthält:
+Sind Sie bereit für das Rollout von Teams an Ihre Benutzer? Holen Sie sich das **[Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)**, das diese großartigen E-Mail-Vorlagen enthält:
 
 - Mit der **Ankündigungs-E-Mail** teilen Sie Benutzern mit, dass Microsoft Teams für sie verfügbar ist.
 
@@ -52,7 +52,7 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
 
 - Schauen Sie sich das **[Begrüßungsvideo](https://support.office.com/article/video-welcome-to-microsoft-teams-b98d533f-118e-4bae-bf44-3df2470c2b12?wt.mc_id=otc_microsoft_teams)** an, um einen Überblick über Teams zu erhalten.
 
-- Laden Sie das **[Schnellstarthandbuch](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)** herunter, um die Teams-Grundlagen kennen zu lernen
+- Laden Sie das **[Schnellstarthandbuch](https://download.microsoft.com/download/D/9/F/D9FE8B9E-22F5-47BF-A1AB-09539C41FCD0/Teams%20QS.pdf)** herunter, um die Teams-Grundlagen kennen zu lernen.
 
 - Sehen Sie sich eine Reihe kurzer **[Schnellstartvideos](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)** mit exemplarischen Vorgehensweisen zu Teams an.
 
@@ -66,6 +66,7 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
 2. Zusätzlich zu der [Office 365 E1-Testversion](e1-trial-license.md) und der[kostenlosen Version von Teams](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c), ist möglicherweise auch [Teams Exploratory](teams-exploratory.md) eine Option, falls Sie kostenlose Teams-Lizenzen benötigen.
 
 1. Stellen Sie sicher, dass Ihre Mitarbeiter über einen angemessenen Internetzugang und ausreichend Bandbreite für Teams verfügen. Wenn Sie wissen möchten, wie Sie dazu vorgehen müssen, nutzen Sie die Anleitung in [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md).
+
    - Begrenzte Bandbreite kann die Audioqualität in Teams-Besprechungen beeinträchtigen. Um ein optimales Besprechungserlebnis unter Bedingungen mit geringer Bandbreite zu gewährleisten, ermutigen Sie die Benutzer, Videos einzuschränken und das Telefonfestnetz (PSTN) für Anrufe und Besprechungsaudio zu verwenden. 
 
    - Sofern Ihr Standort China ist, testen Sie doch die[Office 365-Leistungsoptimierung des globalen Mandanten für Benutzer in China ](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
@@ -75,9 +76,10 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
 2.  [Senden Sie Links zu Schulungen](enduser-training.md), um Ihren Mitarbeitern zu helfen, Teams optimal zu nutzen.
 
 3. Tauchen Sie noch tiefer ein: Weitere Informationen zum Rollout von Teams.
+
    - Als Unternehmen mittlerer Größe (500-5000 Benutzer) beginnen Sie Ihre Teams-Reise mit [interaktiven Liveworkshops](teams-in-30-workshops.md).
 
-   - Nehmen Sie an einem unserer [Onlinekurse](instructor-led-training-teams-landing-page.md) teil, um Teams in Aktion zu sehen und Antworten auf Ihre Fragen zu erhalten.  
+   - Nehmen Sie an einem unserer [Onlinekurse](instructor-led-training-teams-landing-page.md) teil, um Teams in Aktion zu sehen und Antworten auf Ihre Fragen zu erhalten.
 
    - Teilen Sie [detaillierte Schulungsvideos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) mit Benutzern, die mehr erfahren möchten.
 
@@ -91,10 +93,10 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
 
       - [Zusammenarbeit mit Office 365](https://support.office.com/article/Collaborate-with-Office-365-ac05a41e-0b49-4420-9ebc-190ee4e744f4)
 
-      - [9 Tipps für die Remote-Arbeit](https://www.microsoft.com/tips/home/working-remotely)
+      - [9 Tipps für die Remotearbeit](https://www.microsoft.com/tips/home/working-remotely)
 
 
-3.  Ermutigen Sie jeden, die mobile App zu [installieren](get-clients.md#mobile-clients) und zu verwenden: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) oder [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168)
+3.  Ermutigen Sie jeden, die mobile App zu [installieren](get-clients.md#mobile-clients) und zu verwenden: [iOS](https://go.microsoft.com/fwlink/?LinkId=835758) oder [Android](https://go.microsoft.com/fwlink/p/?linkid=2102168).
 
     > [!NOTE]
     > Wenn Sie sich in China befinden, wechseln Sie hierhin, um [Teams für Android in China abzurufen](get-teams-android-in-china.md).
@@ -112,6 +114,7 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
 7. Wenn Sie mit der Rolle des Teams-Administrators noch nicht vertraut sind, finden Sie Informationen in den [Administratorschulungen für Teams](itadmin-readiness.md).
 
 
+1. Stellen Sie sicher, dass Ihre Benutzer über die Geräte verfügen, die Sie benötigen, um gesehen und gehört zu werden. Schauen Sie sich [Teams-zertifizierte Geräte](https://aka.ms/TeamsDevices) für private und freigegebene Bereiche an.
 
 
 ### <a name="known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids"></a>Bekanntes Problem (China): Einwahl in Skype for Business/Teams-Konferenz-IDs

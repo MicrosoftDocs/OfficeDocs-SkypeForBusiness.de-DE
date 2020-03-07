@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lesen Sie diesen Artikel, um zu erfahren, wie Sie analoge Geräte mit dem direkten Routing von Microsoft Phone System verwenden können.
-ms.openlocfilehash: 525e898bd0eafe88d6893249465734d7c33a10b2
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 45128b8806644e4399687787bcce251ccb807d85
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341793"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558515"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Verwenden von analogen Geräten mit direktem Telefon System-Routing
 
@@ -39,16 +39,17 @@ Wenn Sie die Verwendung von analogen Geräten mit direktem Routing konfigurieren
 
 Dieses Beispiel führt Sie durch die folgenden Schritte:
 
-1. Verbinden des SBC mit Direct Routing
-2. Erstellen der PSTN-Nutzung
-3. Erstellen einer VoIP-Route und Zuordnen dieser zur PSTN-Nutzung
-4. Zuweisen der VoIP-Route zur PSTN-Nutzung
-5. Aktivieren des Online Benutzers
-6. Zuweisen der VoIP-Routen Richtlinie zum Benutzer
-7. Erstellen einer VoIP-Route für ein analoges Gerät
+1. Verbinden Sie den SBC mit Direct Routing.
+2. Erstellen Sie die PSTN-Nutzung.
+3. Erstellen Sie eine VoIP-Route, und ordnen Sie Sie der PSTN-Nutzung zu.
+4. Weisen Sie die VoIP-Route der PSTN-Nutzung zu.
+5. Aktivieren Sie den Online Benutzer.
+6. Weisen Sie dem Benutzer die VoIP-Routen Richtlinie zu.
+7. Erstellen Sie eine VoIP-Route für ein analoges Gerät.
 
 Informationen zum Verbinden eines ATA mit einem SBC und zum Konfigurieren des SBC finden Sie im Konfigurationshandbuch des SBC-Herstellers:
 - [AudioCodes-Konfigurationsdokumentation](https://www.audiocodes.com/media/14278/connecting-audiocodes-sbc-with-analog-device-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf)
+- [Menüband-Konfigurationsdokumentation](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 
 ## <a name="step-1--connect-the-sbc-to-direct-routing"></a>Schritt 1:  Verbinden des SBC mit Direct Routing
 
