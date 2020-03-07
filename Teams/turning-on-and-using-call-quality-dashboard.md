@@ -16,18 +16,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
-- ms.teamsadmincenter.directrouting.cqd
-- ms.lync.lac.ToolsCallQualityDashboard
+f1.keywords:
+- CSH
 ms.custom:
 - Reporting
+- ms.teamsadmincenter.directrouting.cqd
+- ms.lync.lac.ToolsCallQualityDashboard
 description: 'Hier erfahren Sie, wie Sie das Dashboard für die Anrufqualität aktivieren und verwenden und zusammenfassende Berichte über die Qualität von Anrufen erhalten. '
-ms.openlocfilehash: e29bced13fd4bad900c349efc07219e4edebc9d3
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: 9e9c70c88aec9fcdf898d94a17f46f76bd2c608a
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41636842"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42559893"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 
@@ -36,6 +37,13 @@ Hier erfahren Sie, wie Sie Ihre Office 365-Organisation konfigurieren können, u
 Das Anruf Qualitäts Dashboard (CQD) bietet Einblicke in die Qualität von anrufen, die mit Microsoft Teams und Skype for Business Online-Diensten getätigt wurden. In diesem Thema werden die Schritte beschrieben, mit denen Sie Daten sammeln können, um Probleme mit der Anrufqualität zu beheben.
 
 Derzeit stehen erweiterte CQD und CQD zur Verfügung. Advanced CQD ist verfügbar unter <span>https://cqd.teams.microsoft.com</span>. Neue URL, aber dieselbe Anmeldung mit Ihren Administratoranmeldeinformationen.
+
+## <a name="use-power-bi-to-analyze-cqd-data"></a>Verwenden von Power BI zum Analysieren von CQD-Daten
+
+Neu im Januar 2020: [Herunterladen von Power BI-Abfragevorlagen für CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Anpassbare Power BI-Vorlagen, die Sie verwenden können, um Ihre CQD-Daten zu analysieren und zu melden.
+
+Lesen [verwenden Sie Power BI zum Analysieren von CQD-Daten](CQD-Power-BI-query-templates.md) , um weitere Informationen zu erhalten.
+
 
 ## <a name="latest-changes-and-updates"></a>Aktuelle Änderungen und Updates
 
@@ -355,7 +363,7 @@ Sie können [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/
 - Die Datendatei enthält keine Tabellenkopfzeile. Die erste Zeile der Datendatei wird als reelle Daten erwartet, nicht für Kopfzeilen Beschriftungen wie "Netzwerk".
 - Datentypen in der Datei können nur String, Integer oder Boolean sein. Für den Datentyp "Integer" muss der Wert ein numerischer Wert sein. Boolesche Werte müssen entweder 0 oder 1 sein.
 - Wenn in einer Spalte der Datentyp "Zeichenfolge" verwendet wird, kann ein Datenfeld leer sein, muss aber durch Tabstopps oder Komma getrennt werden. Ein leeres Datenfeld weist nur einen leeren Zeichenfolgenwert zu.
-- Es müssen 14 Spalten für jede Zeile vorhanden sein, jede Spalte muss den entsprechenden Datentyp aufweisen, und die Spalten müssen in der in der folgenden Tabelle aufgelisteten Reihenfolge liegen:
+- Es muss 14 Spalten für jede Zeile geben (oder 15, wenn Sie die optionale Spalte hinzufügen möchten), jede Spalte muss den entsprechenden Datentyp aufweisen, und die Spalten müssen in der in der folgenden Tabelle aufgelisteten Reihenfolge liegen:
 
 ||||||||||||||||
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |:---|
@@ -423,6 +431,33 @@ Klicken Sie in der Pulldown-Liste der oben auf dem Bildschirm angezeigten Berich
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
+### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>Warum markiert CQD einen Anruf als "gut", wenn ein oder mehrere Besprechungsteilnehmer schlechte Erfahrungen gemacht haben?
+
+Schauen Sie sich die Regeln an, die CQD für die [Datenstrom Klassifizierung](stream-classification-in-call-quality-dashboard.md)verwendet.
+ 
+Bei Audiostreams können alle 5 Klassifizierungen, die für den Mittelwert auf der Grundlage der Länge des Anrufs berechnet werden, alle innerhalb der "guten" Parameter liegen. Das bedeutet nicht, dass die Benutzer etwas nicht erlebt haben, das zu einem Audio-Drop-Out, statisch oder glitch beigetragen hat. 
+
+Wenn Sie feststellen möchten, ob es sich um ein Netzwerkproblem handelt, schauen Sie sich das Delta zwischen den Mittelwerten für die Sitzung und den Max-Werten an. Max-Werte sind das Maximum, das während der Sitzung erkannt und gemeldet wurde.
+ 
+Im folgenden finden Sie ein Beispiel für die Behandlung dieser Situation. Angenommen, Sie nehmen eine Netzwerkablaufverfolgung während eines Anrufs vor, und die ersten 20 Minuten gibt es keine verlorenen Pakete, aber dann haben Sie eine Lücke von 1,5 Sekunden Pakete und sind dann für den Rest des Anrufs gut. Der Mittelwert wird <10% (0,1)-Paketverlust auch in einer wireshark-Ablaufverfolgungs-RTP-Analyse sein. Was war der maximale Paketverlust? 1,5 Sekunden in einem Zeitraum von 5 Sekunden betragen 30% (0,3). Geschah dies innerhalb der fünf Sekunden-Stichproben Periode (vielleicht, oder Sie kann über den Stichproben Zeitraum aufgeteilt werden)?
+ 
+Wenn die Netzwerk Metrik im Mittelwert und im Höchstwert gut aussieht, suchen Sie nach anderen Telemetrie-Daten: 
+- Überprüfen Sie, ob die verfügbaren CPU-Ressourcen unzureichend sind und zu schlechter Qualität geführt haben. 
+- War das Audiogerät im Halb Duplex Modus, um Feedback durch Mikrofone zu verhindern, die sich in der Nähe von Lautsprechern befinden? 
+- Überprüfen Sie das Gerät Halb Duplex-AEC-Ereignis Verhältnis. War das Gerät Glitching oder das Mikrofon Glitching Einführung Rauschen oder statisch aufgrund von USB-Audio-Drop-outs beim Einstecken an einen Hub oder eine Docking-Station:  
+- Überprüfen Sie die Ereignis Verhältnisse für Geräte Pannen und Mikrofon Störungen. Funktioniert das Gerät ordnungsgemäß?  
+- Überprüfen Sie die Ereignis Verhältnisse für das Aufzeichnen und Rendern von Geräten, die nicht funktionieren.
+
+
+Weitere Informationen zu den Dimensionen und Maßen, die in der CQD-Telemetrie verfügbar sind, finden Sie [im Dashboard für die Anrufqualität](dimensions-and-measures-available-in-call-quality-dashboard.md).
+
+Für Hintergrundgeräusche aktivieren Sie das Kontrollkästchen "stumm schalten", um festzustellen, wie lange die Teilnehmer stumm geschaltet wurden.
+ 
+Erstellen Sie detaillierte Berichte in CQD, und Filtern Sie nach Besprechungs-ID, um alle Benutzer und Datenströme in einer Besprechung zu sehen und die Felder hinzuzufügen, die Sie interessieren. Ein Benutzer, der das Problem meldet, ist möglicherweise nicht derjenige, der das Problem verursacht hat. Sie melden gerade die Erfahrung.
+ 
+Die Telemetrie Ruft das Problem nicht unbedingt auf, aber es kann Ihnen helfen, besser zu verstehen, wo ihre Entscheidungen zu suchen sind. Handelt es sich um Netzwerk-, Geräte-, Treiber-oder Firmware-Updates, Verwendung oder Benutzer?
+
+
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>Warum sehen meine CQD v2-Berichtsdaten anders aus als die CQD V3-Berichtsdaten? 
 
 Wenn Daten Unterschiede zwischen CQD v2 und V3 angezeigt werden, stellen Sie sicher, dass der Datenabgleich oder die Validierung auf einer "Äpfel-zu-Apfel"-und einer schmalen Ebene erfolgt, nicht auf einer aggregierten Ebene. Wenn Sie beispielsweise beide Berichte für MSIT ' Building 30 ' WiFi Teams-Desktop Client Daten filtern, sollte der Prozentsatz der schlechten Qualität zwischen V2 und V3 identisch sein.
@@ -481,3 +516,4 @@ Wenn Sie nur in CQD-Berichten (isteams = 1) nach Teams filtern, Filtern Sie nach
 [Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
 [Anrufanalyse- und Anrufqualitäts-Dashboard](difference-between-call-analytics-and-call-quality-dashboard.md)
+ 
