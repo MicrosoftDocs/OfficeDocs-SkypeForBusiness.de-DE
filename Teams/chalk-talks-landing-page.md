@@ -16,17 +16,19 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: adead862907c29c066df8b2541c260045f19db95
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 7d41218e75b24432e1f67ae1dc8344f8a76b8a50
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417600"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558655"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft Teams Chalk Talks</h1>
-Teams, die für IT-Experten und Entscheidungsträger entwickelt wurden, bieten eine einmalige Möglichkeit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Microsoft Teams zu erfahren. Diese interaktiven Online-Workshops werden von Fachleuten unterstützt, die Ihnen helfen, Ihre Team Implementierung zu verbessern und zusätzliche Vorteile für Endbenutzer bereitzustellen.<br><br><i>Klicken Sie unten auf einen Workshop-Titel, um verfügbare Daten und Uhrzeiten anzuzeigen, und melden Sie sich noch heute an!</i>
+Teams, die für IT-Experten und Entscheidungsträger entwickelt wurden, bieten eine einmalige Möglichkeit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Microsoft Teams zu erfahren. Diese interaktiven Online-Workshops werden von Fachleuten unterstützt, die Ihnen helfen, Ihre Team Implementierung zu verbessern und zusätzliche Vorteile für Endbenutzer bereitzustellen.<br><br>
+           <strong>Voraussetzung</strong>: nehmen Sie zuerst an den <a href="https://aka.ms/Teamsin30"target="_blank">Teams in 30</a> Workshops teil.<br><br>
+           <i>Klicken Sie unten auf einen Workshop-Titel, um verfügbare Daten und Uhrzeiten anzuzeigen, und melden Sie sich noch heute an!</i>
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a> 
@@ -116,7 +118,7 @@ Teams, die für IT-Experten und Entscheidungsträger entwickelt wurden, bieten e
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Entdecken Sie, was in Microsoft Teams neu ist?</h3>
+                        <h3>Entdecken Sie die Neuerungen in Microsoft Teams</h3>
                         <p><font color="red"><i>Demnächst!</i></font>  Haben Sie schon auf eine Funktion gewartet, die in Teams veröffentlicht werden soll? Kommen Sie mit Experten für Teams in Kontakt, während wir Sie im letzten Monat durch die neuesten und größten Funktions Freigaben führen – zusammen mit bewährten Methoden für deren Implementierung.</p>
                     </div>
                 </div>
