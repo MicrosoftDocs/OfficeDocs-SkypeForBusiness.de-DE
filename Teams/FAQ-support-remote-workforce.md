@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um Ihre Remotemitarbeiter zu unterstützen, produktiv zu sein, wenn sie als Reaktion auf den Ausbruch von Covid-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bbd42047037985ec4ac2c211a677e4c37e45af0
-ms.sourcegitcommit: ac811017d54a55f39ecc0e3a66a883d9e027ce68
+ms.openlocfilehash: f47c03432b6e90cfd6be888affee7f4342945227
+ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42547969"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558625"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Häufig gestellte Fragen: Unterstützung für Ihre Remotemitarbeiter
 
@@ -106,9 +106,8 @@ Endbenutzer: [Zusammenarbeiten mit Office 365](https://support.office.com/articl
 IT-Administratoren/IT-Experten [Unterstützung von Remotearbeitskräften mithilfe von Teams](support-remote-work-with-teams.md).
 
 
-<!-- ============================================================ 
-### What is Microsoft doing to support its own employees during the COVID-19 outbreak?
+### <a name="what-is-microsoft-doing-to-support-its-own-employees-during-the-covid-19-outbreak"></a>Was unternimmt Microsoft, um seine eigenen Mitarbeiter während des COVID-19-Ausbruchs zu unterstützen?
 
-Please read our blog that details the recommendations we are giving our own users.
--->
+Lesen Sie unseren Blog vom 5. März 2020 von Brad Smith, Präsident von Microsoft: [Da wir für den Schutz der öffentlichen Gesundheit arbeiten, müssen wir auch die Einkünfte der auf Stundenbasis arbeitenden Mitarbeiter, die unseren Campus unterstützen, schützen](https://blogs.microsoft.com/on-the-issues/2020/03/05/covid-19-microsoft-hourly-workers/)
+
 
