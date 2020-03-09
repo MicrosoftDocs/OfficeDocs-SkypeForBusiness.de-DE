@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um Ihre Remotemitarbeiter zu unterstützen, produktiv zu sein, wenn sie als Reaktion auf den Ausbruch von Covid-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f47c03432b6e90cfd6be888affee7f4342945227
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: b7cdbe0922116015f33d7f10219eb51b07abaf76
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558625"
+ms.locfileid: "42559324"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Häufig gestellte Fragen: Unterstützung für Ihre Remotemitarbeiter
 
@@ -90,6 +90,14 @@ Für Education-Mandanten bietet Microsoft [School Data Sync](https://docs.micros
 ### <a name="where-do-i-find-help-getting-teams-running-for-my-company-so-my-users-can-work-from-home-during-this-crisis"></a>Wo erhalte ich Hilfe, um Teams für mein Unternehmen in Betrieb zu nehmen, damit die Benutzer während dieser Krise von zu Hause aus arbeiten können? 
 
 Lesen Sie [Unterstützung von Remotearbeitskräften mithilfe von Teams](support-remote-work-with-teams.md). Darin werden die häufigsten Aufgaben und Fragen zu den ersten Schritten mit Teams für Remotearbeitskräfte behandelt.
+
+### <a name="i-just-got-started-with-microsoft-365-so-i-can-use-teams-to-support-my-remote-workers-or-students-ive-signed-up-for-the-service-but-when-a-user-tries-to-use-teams-they-get-this-error-youre-missing-out-ask-your-admin-to-enable-microsoft-teams-what-should-i-do"></a>Ich habe gerade mit Microsoft 365 begonnen, um Microsoft Teams zur Unterstützung meiner Remotearbeitskräfte oder -kursteilnehmer verwenden zu können. Ich habe die Registrierung für den Dienst vorgenommen, aber wenn ein Benutzer versucht, Microsoft Teams zu verwenden, wird die folgende Fehlermeldung angezeigt: "Sie scheinen nicht auf! Bitten Sie Ihren Administrator, Microsoft Teams zu aktivieren." Was soll ich machen?
+
+Nachdem Sie eines der kostenlosen Microsoft Teams-Angebote aktiviert haben, müssen Sie es auch für Ihre Benutzer aktivieren. Weitere Informationen finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft Teams](user-access.md) und  [Benutzer einzeln oder im Batch zu Office 365 hinzufügen](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users).
+
+Wenn Sie zum ersten Mal einem Benutzer eine Lizenz zuweisen oder ihn aktivieren, aber Microsoft 365 schon eine Weile haben, müssen Sie möglicherweise [Microsoft Teams für Ihre Organisation aktivieren](Office-365-set-up.md). Weitere Informationen finden Sie unter [Ich habe Microsoft 365 bereits, aber ich verwende Microsoft Teams nicht. Stellen Sie Testlizenzen bereit?](#i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses).
+
+
 
 ### <a name="can-i-use-calling-plans-with-the-office-365-e1-trial-that-microsoft-is-offering-can-i-assign-a-telephone-number-to-my-users-how-much-am-i-going-to-pay"></a>Kann ich bei der Office 365 E1-Testversion Anrufpläne verwenden, die von Microsoft angeboten werden? Kann ich meinen Benutzern eine Telefonnummer zuweisen? Wie viel zahle ich?
 
