@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: Hier erhalten Sie detaillierte Informationen zu den Dimensionen und Maßen, die vom Dashboard für die Anrufqualität für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: 99013a4919dac1312564ab3f4d935fb2628d5da5
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 1bc3fc7e62b234d0679531d48a656c71c54db113
+ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161746"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574418"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensionen und Maße, die im Dashboard für die Anrufqualität verfügbar sind
 
@@ -426,6 +426,23 @@ Die Dimensionsinformationen basieren teilweise auf Daten, die in das CQD-Portal 
 | Building Name Pair  | Aufgezähltes Paar  | Paar aus Gebäudenamen für ersten und zweiten Endpunkt.  | &bull;Der Gebäudename für einen Endpunkt konnte nicht ermittelt werden. Dies kann darauf zurückzuführen sein, dass sich der Endpunkt außerhalb des Unternehmensnetzwerks befindet oder dass der Endpunkt über einen Standort ohne Subnetz-Zuordnung auf das Netzwerk zugreift. <br/> **Beispielwert:** Hauptgebäude: Branch Site Building |
 | Inside Corp Pair  | Aufgezähltes Paar <br/>**Mögliche Werte:** <br/> Innerhalb:Innerhalb <br/> Innerhalb:Außerhalb <br/> Außerhalb:Außerhalb | Paar, das basierend auf der Subnetz-Zuordnung zeigt, ob sich die Endpunkte innerhalb oder außerhalb des Unternehmensnetzwerk befunden haben.   |   |
 | Scenario Pair  | Aufgezähltes Paar  | Paar, das basierend auf der Subnetz-Zuordnung und den Netzwerkverbindungsdetails zeigt, ob sich die Endpunkte innerhalb oder außerhalb des Unternehmensnetzwerk befunden haben. Mögliche Werte:       <br/> **Hinweis:** Die Paare werden durch "--" getrennt. <br/> **Beispielwert:** Client-innerhalb--Client-intern-WLAN  | &bull;Der Netzwerkverbindungstyp war für einen oder beide Endpunkte unbekannt.  |
+|**PSTN**|||
+|Endpunkt des PSTN-Anrufs (SIP-Antwortcode)|Int|Ein dreistelliger ganzzahliger Antwortcode zeigt den endgültigen Status des Anrufs an. <br/> Weitere Informationen zur SIP-Erläuterung finden Sie in der [Liste der SIP-Antwortcodes](https://www.wikipedia.org/wiki/List_of_SIP_response_codes). <br/>**Beispiel:** 404||
+|FQDN des PSTN-Trunks|Zeichenfolge|FQDN ist der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) des Session Border Controllers (SBC).<br/>**Beispiel:** sbcgw.contoso.com||
+|Name des PSTN-Netzbetreibers|Zeichenfolge|Das Unternehmen, das von Aufsichtsbehörden autorisiert ist, ein Telekommunikationssystem zu betreiben.<br/>**Beispiel:** Colt|Direktes Routing hat keinen Netzbetreiber. Nur ein Anrufplan hat einen Netzbetreiber.|
+|PSTN-Anruftyp|Zeichenfolge|Diese Zeichenfolge kombiniert den Diensttyp und den Typ des Anrufs.<br/><br/>Diensttyp:<br/>Plan für Benutzer > Anruf<br/>BYOT-> Direktes Routing<br/>conf->-Audiokonferenzen<br/>ucap->-sprach-App<br/>Notfall-> Notrufnummer<br/><br/>Art des Anrufs:<br/>Eingehende Anrufe in ><br/>Ausgehend > ausgehenden Anrufs<br/>Out_transfer-> ausgehenden Anruf wird an eine dritte Person übertragen<br/>Out_forward > ausgehenden Anruf an eine dritte Person weitergeleitet wird<br/>Out_conf > Outbound-Anruf mit Ad-hoc-PSTN-Teilnehmer<br/><br/>**Beispiel:** ByotIn||
+|PSTN-Verbindungstyp|Zeichenfolge|Der PSTN-Verbindungstyp umfasst Direktes Routing, Anrufplan oder Audiokonferenzen. Zu diesem Zeitpunkt steht nur Direktes Routing im Anruf Qualitäts Dashboard (CQD) zur Verfügung.<br/>**Beispiel:** Direktes Routing||
+|PSTN-endgültiger SIP-Codesatz|Zeichenfolge|Der Argumentsatz, der dem SIP-Antwortcode und dem Microsoft-Antwortcode entspricht.<br/>**Beispiel:** Auf Wiedersehen||
+|Untergrund für PSTN-Anruf Ende|Int|Ein von der Microsoft-Komponente gesendeter Antwortcode, der bestimmte Aktionen angibt, die aufgetreten sind.<br/>**Beispiel:** 540000||
+|PSTN-Ereignistyp|Zeichenfolge|Ein Ereignistyp, der Telemetrie bereitstellt.<br/>**Beispiel:** Ende||
+|Informationen zur PSTN-Veranstaltungszeit|Datum|Die Uhrzeit im UTC-Format, wenn ein ausgehender Anruf vom Microsoft-Netzwerk gestartet wird oder ein eingehender Anruf in das Microsoft-Netzwerk gelangt.<br/>**Beispiel:** 2020-02-06 20:57:53.1750000||
+|PSTN MP-Standort|Zeichenfolge|Der Speicherort des Medien Prozessors zeigt den Medienpfad an, wenn er sich im nicht-Bypass-Modus befindet.<br/>**Beispiel:** Kontaktwir||
+|Erste PSTN-Landes Region|Zeichenfolge|Wenn FirstIsCaller wahr ist, ist die erste PSTN-Landes Region das Land des Anrufers. Wenn es falsch ist, ist die zweite PSTN-Landes Region das Land des Anrufers.<br/>**Beispiel:** Uns||
+|Jitter|Millisekunden|Die Variation der Ankunftszeit von RTP-Paketen. Weitere Informationen finden Sie unter [Stream-Klassifikation im Anruf Qualitäts Dashboard](stream-classification-in-call-quality-dashboard.md) .<br/>**Beispiel:** 5,982||
+|Packet Loss Rate|Prozentsatz|Der Prozentsatz der Datenströme zwischen Mediation Server und SBC oder Gateway (sofern verfügbar).
+Weitere Informationen finden Sie unter [Stream-Klassifikation im Anruf Qualitäts Dashboard](stream-classification-in-call-quality-dashboard.md) .<br/>**Beispiel:** 1,2%||
+|Latenz (Round-Trip-Zeit)|Millisekunden|Die durchschnittliche Netzwerk Ausbreitungs Zeit pro Datenstrom, berechnet.
+Weitere Informationen finden Sie unter [Stream-Klassifikation im Anruf Qualitäts Dashboard](stream-classification-in-call-quality-dashboard.md) .<br/>**Beispiel:** 3,49||
 ||||
 
 ### <a name="notes-on-dimension-data-typeunits"></a>Hinweise zu Dimensionsdaten Typen/-Einheiten
@@ -580,7 +597,7 @@ Viele Messgrößen können auch als Filter verwendet werden. In der folgenden Ta
 | AVG Second RxAGC-Signal Pegel|Bereich (Dezibel) |Durchschnittlicher Signalpegel, der beim automatischen Gain-Regler für den zweiten eingehenden Audiostream empfangen wurde.| |
 | RxAGC-Rauschpegel für AVG First|Bereich (Dezibel) |Durchschnittlicher Geräuschpegel, der beim automatischen Gain-Steuerelement für den ersten eingehenden Audiostream empfangen wurde.||
 | Durchschnittlicher Sekunden RxAGC-Rauschpegel|Bereich (Dezibel) |Durchschnittlicher Geräuschpegel, der beim automatischen Gain-Steuerelement für den zweiten eingehenden Audiostream empfangen wurde.| |
-| AVG First Render-Loopback Signal Stufe|Bereich (Dezibel) | Durchschnittliche Stufe des Loopback Signals des ersten Sprechers (nachdem alle Geräte verschiebungseffekte angewendet wurden).|   Durchschnittliche Lautstärke des Lautsprecher-Loopback Signals (nachdem alle Geräte verschiebungseffekte angewendet wurden).|
+| AVG First Render-Loopback Signal Stufe|Bereich (Dezibel) | Durchschnittliche Stufe des Loopback Signals des ersten Sprechers (nachdem alle Geräte verschiebungseffekte angewendet wurden).|
 | Mittlere Sekunde Render-Loopback Signal Stufe|Bereich (Dezibel) | Durchschnittliche Stufe des Loopback Signals des zweiten Sprechers (nachdem alle Geräte verschiebungseffekte angewendet wurden).|
 |Avg First Audio Send Signal Level |Dezibel |Durchschnittliches Energieniveau der gesendeten Audiodaten, die als Mono-Sprachausgabe klassifiziert wurden, oder linker Kanal mit der von den ersten Endpunkten gesendeten Stereo-Sprachausgabe. |
 |Avg Second Audio Send Signal Level |Dezibel |Durchschnittliches Energieniveau der gesendeten Audiodaten, die als Mono-Sprachausgabe klassifiziert wurden, oder linker Kanal mit der von den zweiten Endpunkten gesendeten Stereo-Sprachausgabe. |
@@ -617,7 +634,7 @@ Viele Messgrößen können auch als Filter verwendet werden. In der folgenden Ta
 |Avg Round Trip |Millisekunden |Durchschnitt der durchschnittlichen Roundtrip-Zeit für Netzwerkverteilung in Millisekunden für Datenströme, wie in RFC3550 angegeben. |
 |Avg Round Trip Max |Millisekunden |Durchschnitt der maximalen Roundtrip-Zeit für Netzwerkverteilung in Millisekunden für Datenströme, wie in RFC3550 angegeben. |
  Verwendung von AVG-Paketen|Anzahl der Pakete|Die durchschnittliche Anzahl der pro Sekunde in der Sitzung gesendeten RTP-Pakete (Real-Time Transport Protocol).|
-|Avg Network Jitter |Millisekunden | Der Mittelwert des Netzwerk Jitters, der während der Sitzung über 20 Sekunden berechnet wurde. |
+|Avg Network Jitter |Millisekunden |   Der Mittelwert des Netzwerk Jitters, der während der Sitzung über 20 Sekunden berechnet wurde. |
 | Max. maximaler Netzwerk Jitter|Millisekunden |Der Mittelwert des maximalen Netzwerk Jitters in Millisekunden, der während der Sitzung über 20 Sekunden berechnet wird.  ||
 | Durchschnittlicher Netzwerk Jitter min.|Millisekunden|Der Mittelwert der minimale Netzwerk Jitterwerte in Millisekunden, die während der Sitzung für Datenströme über 20 Sekunden Fenster berechnet wurden.| |
 | Durchschnittliche Jitter-Puffergröße Max|Millisekunden|Maximale Größe des Jitter-Puffers während der Sitzung.| |
@@ -651,6 +668,25 @@ Viele Messgrößen können auch als Filter verwendet werden. In der folgenden Ta
 | Durchschnittliches zweites Device Glitches-Ereignis Verhältnis|Prozentsatz|Durchschnittlicher Bruchteil des Anrufs, den der zweite Endpunkt gefunden hat, Glitches oder Lücken in den wiedergegebenen Medien, die zu schlechter Qualität der gesendeten oder empfangenen Medien geführt haben.|
 | Ereignisanzahl für das erste Device-Glitches|Anzahl der Datenströme, bei denen der erste Endpunkt signifikante Fehler oder Lücken in den wiedergegebenen Medien erkannt hat, die zu schlechter Qualität des gesendeten oder empfangenen Mediums geführt haben.||
 | Ereignisanzahl für das zweite Device Glitches|Die Anzahl des Datenstroms, in dem der zweite Endpunkt signifikante Störungen oder Lücken in den wiedergegebenen Medien erkannt hat, die zu schlechter Qualität des gesendeten oder empfangenen Mediums geführt haben.||
+| Anzahl der PSTN-Gesamt Versuche | Anzahl der Anrufe | Gesamtzahl der versuchten Anrufe, einschließlich erfolgreicher Anrufe und fehlgeschlagener Anrufe im ausgewählten Zeitraum.|
+|PSTN-Gesamtanzahl der verbundenen Verbindungen | Anzahl der Anrufe | Gesamtzahl der erfolgreich verbundenen Anrufe im ausgewählten Zeitraum.|
+|Anzahl der PSTN-eingehenden Versuche | Anzahl der Anrufe | Gesamtzahl der eingehenden versuchten Anrufe, einschließlich erfolgreicher Anrufe und fehlgeschlagener Anrufe im Auswahlzeitraum.|
+|Eingehende PSTN-Verbindung (Anzahl) | Anzahl der Anrufe | Gesamtzahl der eingehenden Anrufe, die im ausgewählten Zeitraum erfolgreich verbunden sind.|
+|Anzahl der PSTN-ausgehenden Versuche | Anzahl der Anrufe | Gesamtzahl der ausgehenden versuchten Anrufe, einschließlich erfolgreicher Anrufe und fehlgeschlagener Anrufe im ausgewählten Zeitraum.|
+|Ausgehende PSTN-Verbindung (Anzahl) | Anzahl der Anrufe | Alle ausgehenden, erfolgreich verbundenen Anrufe im ausgewählten Zeitraum.|
+|PSTN-Gesamt Minuten | Minuten | Gesamtzahl der Minuten | Gesamt Minuten Verbrauch im ausgewählten Zeitraum.|
+|PSTN-eingehende Gesamt Minuten | Minuten | Gesamte eingehende Minuten Nutzung im ausgewählten Zeitraum.|
+|PSTN-ausgehende Gesamt Minuten | Minuten | Die gesamte ausgehende Minuten Nutzung im ausgewählten Zeitraum.|
+|Anzahl der PSTN-aktiven Benutzer | Anzahl der Benutzer | Die Anzahl der Benutzer, die während dieses Tages mindestens einen verbundenen Anruf getätigt haben.|
+|PSTN-Durchschnittliche Anrufdauer | Minuten | Die durchschnittliche Dauer aller verbundenen Anrufe im ausgewählten Zeitbereich. In der Regel beträgt ein 1:1-PSTN-Anruf vier bis fünf Minuten. Dieser Mittelwert kann jedoch für jedes Unternehmen unterschiedlich sein.|
+|PSTN-Gesamtanzahl der eingehenden gleichzeitigen Anrufe | Anzahl der Anrufe | Maximale Anzahl von gleichzeitig aktiven eingehenden Anrufen in einer Minute.|
+|PSTN-Gesamtanzahl der ausgehenden gleichzeitigen Anrufe | Anzahl der Anrufe | Maximale Anzahl von gleichzeitigen aktiven ausgehenden Anrufen in einer Minute.|
+|P50-Latenz | Millisekunden | 50% der Anforderungen sollten schneller als die angegebene Latenzzeit sein.|
+|P50 Jitter | Millisekunden | 50% der Anforderungen sollten schneller als ein gegebener Jitter sein.|
+|P50-Paketverlust Rate | Prozentsatz | 50% der Anforderungen sollten kleiner als die angegebene Paketverlust Rate sein.|
+|PSTN-ausgehende nach Wahl Verzögerung| Millisekunden | Die Verzögerung, die bei ausgehenden Anrufen auftritt, gemessen ab dem Zeitpunkt, zu dem eine Nummer gewählt wurde, bis der Anrufer oder die angerufene Partei klingelt.|
+|PSTN-eingehende nach Wahl Verzögerung | Millisekunden | Die Zeit oder Verzögerung, die bei eingehenden Anrufen auftritt, gemessen ab dem Zeitpunkt, zu dem eine Nummer gewählt wurde, bis der Anrufer oder angerufene den Anruf hört.|
+|PSTN ner guter Prozentsatz | Prozentsatz | Das ner misst die Fähigkeit eines Netzwerks zur Zustellung von anrufen, indem es die Anzahl der Anrufe im Vergleich zur Anzahl der an einen Empfänger zugestellten Anrufe misst.<br/>NER = (beantwortete Anrufe + Nutzer besetzt + Ring keine Antwort + Terminal Reject Anfälle)/gesamt Versuch Anrufe x 100|
 ||||
 
 ## <a name="filters"></a>Filter

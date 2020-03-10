@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b0a516ae74ea012d8cba4e85509b5b37ee27163
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: 4cf14616d4cfa2abc2caa99aee052b30e902172d
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834885"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574022"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 
@@ -73,7 +73,7 @@ Teambesitzer können teamweite Einstellungen direkt in Microsoft Teams verwalten
 
 Nehmen Sie sich drei Minuten Zeit, um sich dieses Handbuch für Teambesitzer anzusehen:
 
-   > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
+   > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
 Wenn Sie in Office 365 als Administrator für Microsoft Teams festgelegt sind, haben Sie im Microsoft Teams Admin Center Zugriff auf systemweite Einstellungen. Diese Einstellungen können sich auf die Optionen und Standardeinstellungen auswirken, die Teambesitzer unter „Teameinstellungen“ sehen. Sie können zum Beispiel einen Standardkanal („Allgemein“) für teamweite Ankündigungen, Diskussionen und Ressourcen aktivieren, der für alle Teams angezeigt wird.
 

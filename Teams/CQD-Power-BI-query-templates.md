@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Verwenden Sie Power BI zum Analysieren von CQD-Daten für Microsoft Teams.
-ms.openlocfilehash: d737f321ea8684ffe99b50575b1b2e8d044804d0
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 155bde0373880befc770d745ca246b76d4c63eec
+ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559494"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42572893"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Verwenden von Power BI zum Analysieren von CQD-Daten für Microsoft Teams
 
@@ -38,7 +38,7 @@ Bevor Sie diese PBIX-Dateien verwenden können, müssen Sie [den Power BI Connec
 |CQD Mobile Device Report. pbix     | Bietet Einblicke, die speziell auf Nutzer von mobilen Geräten abgestimmt sind, einschließlich Anrufqualität, Zuverlässigkeit und Bewertung meines Anrufs. Sehen Sie sich das Mobilfunknetz, das WLAN-Netzwerk und die Berichte für mobile Betriebssysteme an (Android, IOS).        |
 |CQD PSTN Direct-Routing Bericht. pbix     |Bietet Einblicke speziell für PSTN-Anrufe, die Direktes Routing durchlaufen. Weitere Informationen finden Sie [unter Verwenden des CQD PSTN Direct-Routing Berichts](CQD-PSTN-report.md).         |
 |CQD-Zusammenfassungsbericht. pbix     |Bessere Visualisierungen, verbesserte Präsentation, erhöhte Informationsdichte und Rolling dates. Diese Berichte erleichtern die Kennzeichnung von Ausreißer. Führen Sie einen Drilldown in die Anrufqualität nach Standort mit einer benutzerfreundlichen interaktiven Karte durch. 9 neue Berichte:</p>-Qualität insgesamt<br>-Gesamtzuverlässigkeit<br>-RMA (meinen Anruf abstimmen) insgesamt<br>-Konferenz Qualität<br>-P2P-Qualität<br>-Konferenz Zuverlässigkeit<br>-P2P-Zuverlässigkeit<br>-Konferenz-RMA<br>-P2P-RMA         |
-|**(Neu!)** CQD Teams-Auslastungs Bericht. pbix     | Zeigt, wie Benutzer in Ihrer Organisation Teams verwenden und wie viel. Weitere Informationen finden Sie unter [Verwenden des CQD Power BI-Berichts, um die Verwendung von Microsoft Teams anzuzeigen](CQD-teams-utilization-report.md).        |
+|<strong>(Neu!)</strong> CQD Teams-Auslastungs Bericht. pbix     | Zeigt, wie Benutzer in Ihrer Organisation Teams verwenden und wie viel. Weitere Informationen finden Sie unter [Verwenden des CQD Power BI-Berichts, um die Verwendung von Microsoft Teams anzuzeigen](CQD-teams-utilization-report.md).        |
 |CQD-Benutzer Feedback (Bewertung meines Anrufs) Bericht. pbix     | Zeigt die Bewertung meiner Anrufdaten auf eine Weise an, die Sie ganz einfach verwenden können, um Anrufe für Ihre Organisation zu unterstützen. Querverweis mit Verbatims, um die Schulungsmöglichkeiten für Endnutzer zu erkennen.        |
 
 

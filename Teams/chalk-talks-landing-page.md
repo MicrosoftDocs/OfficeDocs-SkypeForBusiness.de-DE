@@ -16,18 +16,17 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: 4a66451a760e6d9e07c374e4ea900af4b0d78b36
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: cde69bd588c7262e5ed6f0274b091fee29b27030
+ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559326"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574002"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft Teams Chalk Talks</h1>
 Teams, die für IT-Experten und Entscheidungsträger entwickelt wurden, bieten eine einmalige Möglichkeit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Microsoft Teams zu erfahren. Diese interaktiven Online-Workshops werden von Fachleuten unterstützt, die Ihnen helfen, Ihre Team Implementierung zu verbessern und zusätzliche Vorteile für Endbenutzer bereitzustellen.<br><br>
-           <strong>Voraussetzung</strong>: nehmen Sie zuerst an den <a href="https://aka.ms/Teamsin30"target="_blank">Teams in 30</a> Workshops teil.<br><br>
            <i>Klicken Sie unten auf einen Workshop-Titel, um verfügbare Daten und Uhrzeiten anzuzeigen, und melden Sie sich noch heute an!</i>
         <ul class="pivots">
             <li>
