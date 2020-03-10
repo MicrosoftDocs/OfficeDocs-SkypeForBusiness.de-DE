@@ -20,12 +20,12 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 182b7178cf24b786e81afd9181c9275541857486
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: 094f3db845109538df4652c3f1e990465c670918
+ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558605"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42574428"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -147,8 +147,8 @@ ms.locfileid: "42558605"
                     </div>
                     <div class="cardText">
                     <h3>Teams Chalk Talks</h3>
-                    <p>Diese interaktiven Online-Workshops, die von Sachverständigen unterstützt werden, bieten eine einmalige Möglichkeit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Microsoft Teams zu finden.</p>
-                    <p><strong>Voraussetzung</strong>: Teams in 30 Workshops. Kreide Gespräche bauen auf, was Sie in den Workshops erfahren, die Sie auf dieser Seite finden.</p>
+                    <p>Diese interaktiven Online-Workshops, die von Sachverständigen unterstützt werden, bieten eine einmalige Möglichkeit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Microsoft Teams zu finden. Bei Kreide Gesprächen wird davon ausgegangen, dass Sie einen einfachen Teams-Rollout abgeschlossen haben</p>
+                    <p><strong>Voraussetzung</strong>: Teams in 30 Workshops oder bereits für Teams in Ihrer Organisation aktiviert.</p>
                     <p><i>Zielgruppe: IT-Administratoren</i></p>
                     </div>
                 </div>
