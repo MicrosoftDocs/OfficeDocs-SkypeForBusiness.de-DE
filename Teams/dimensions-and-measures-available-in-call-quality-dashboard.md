@@ -20,12 +20,12 @@ f1.keywords:
 - CSH
 ms.custom: Reporting
 description: Hier erhalten Sie detaillierte Informationen zu den Dimensionen und Maßen, die vom Dashboard für die Anrufqualität für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: 1bc3fc7e62b234d0679531d48a656c71c54db113
-ms.sourcegitcommit: 86502c9ad03c5dd5ed18f0e3276a81d1260c76d2
+ms.openlocfilehash: b23b87ee7cf0f28fca59a3dee13113dcf28a141a
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574418"
+ms.locfileid: "42583079"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensionen und Maße, die im Dashboard für die Anrufqualität verfügbar sind
 
@@ -439,10 +439,8 @@ Die Dimensionsinformationen basieren teilweise auf Daten, die in das CQD-Portal 
 |PSTN MP-Standort|Zeichenfolge|Der Speicherort des Medien Prozessors zeigt den Medienpfad an, wenn er sich im nicht-Bypass-Modus befindet.<br/>**Beispiel:** Kontaktwir||
 |Erste PSTN-Landes Region|Zeichenfolge|Wenn FirstIsCaller wahr ist, ist die erste PSTN-Landes Region das Land des Anrufers. Wenn es falsch ist, ist die zweite PSTN-Landes Region das Land des Anrufers.<br/>**Beispiel:** Uns||
 |Jitter|Millisekunden|Die Variation der Ankunftszeit von RTP-Paketen. Weitere Informationen finden Sie unter [Stream-Klassifikation im Anruf Qualitäts Dashboard](stream-classification-in-call-quality-dashboard.md) .<br/>**Beispiel:** 5,982||
-|Packet Loss Rate|Prozentsatz|Der Prozentsatz der Datenströme zwischen Mediation Server und SBC oder Gateway (sofern verfügbar).
-Weitere Informationen finden Sie unter [Stream-Klassifikation im Anruf Qualitäts Dashboard](stream-classification-in-call-quality-dashboard.md) .<br/>**Beispiel:** 1,2%||
-|Latenz (Round-Trip-Zeit)|Millisekunden|Die durchschnittliche Netzwerk Ausbreitungs Zeit pro Datenstrom, berechnet.
-Weitere Informationen finden Sie unter [Stream-Klassifikation im Anruf Qualitäts Dashboard](stream-classification-in-call-quality-dashboard.md) .<br/>**Beispiel:** 3,49||
+|Packet Loss Rate|Prozentsatz|Der Prozentsatz der Datenströme zwischen Mediation Server und SBC oder Gateway (sofern verfügbar). Weitere Informationen finden Sie unter [Stream-Klassifikation im Anruf Qualitäts Dashboard](stream-classification-in-call-quality-dashboard.md) .<br/>**Beispiel:** 1,2%||
+|Latenz (Round-Trip-Zeit)|Millisekunden|Die durchschnittliche Netzwerk Ausbreitungs Zeit pro Datenstrom, berechnet. Weitere Informationen finden Sie unter [Stream-Klassifikation im Anruf Qualitäts Dashboard](stream-classification-in-call-quality-dashboard.md) .<br/>**Beispiel:** 3,49||
 ||||
 
 ### <a name="notes-on-dimension-data-typeunits"></a>Hinweise zu Dimensionsdaten Typen/-Einheiten

@@ -16,12 +16,12 @@ f1.keywords:
 description: Praktische Anleitungen für die Bereitstellung von Cloud-VoIP-Funktionen in Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5041b35822a04dc98aa6c07d3731ad8c6791af98
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 678e17ed92c0f269e134ac6c23dce29169c0d36d
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030719"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583002"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -151,6 +151,10 @@ Die Größe einer 1-stündigen Aufzeichnung beträgt 400 MB. Stellen Sie sicher,
 ## <a name="manage-meeting-recordings"></a>Verwalten von Besprechungsaufzeichnungen
 
 Die Besprechungsaufzeichnungen gelten als im Besitz des Mandanten befindliche Inhalte. Wenn der Besitzer der Aufzeichnung das Unternehmen verlässt, kann der Administrator die Aufnahme Video-URL in Microsoft Stream im Administratormodus öffnen. Der Administrator kann die Aufzeichnung löschen, aufgezeichnete Metadaten aktualisieren oder die Berechtigungen für das Aufnahme Video ändern. Weitere Informationen zu den [Administratorfunktionen in Stream](https://docs.microsoft.com/stream/manage-content-permissions).
+
+> [!NOTE]
+> Weitere Informationen zum Verwalten von Aufzeichnungen und zum Benutzer Zugriff finden Sie unter [Verwalten von Benutzerdaten in Microsoft Stream](https://docs.microsoft.com/stream/managing-user-data) und [Berechtigungen und Datenschutz in Microsoft Stream](https://docs.microsoft.com/stream/portal-permissions) .
+
 
 ## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>Compliance und eDiscovery für Besprechungsaufzeichnungen
 

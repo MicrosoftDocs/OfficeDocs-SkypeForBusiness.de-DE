@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Erfahren Sie, wie Sie den Status Ihrer Portierungs Bestellungen ermitteln und welche verschiedenen Aktionen Sie ausführen können. '
-ms.openlocfilehash: 67a69ff2a86a57e16d157fa1a0b4b36ca3c2e036
-ms.sourcegitcommit: c4f13aa4947df606d38694a7e544b08be7ce20d1
+ms.openlocfilehash: cfbbbea1d82cfa2f1905584740e8053e83f19ee6
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42370404"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583092"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>Wie ist der Status meiner Portierungsaufträge?
 
@@ -34,9 +34,9 @@ In der folgenden Tabelle sind die Port Auftragsstatus sowie Aktionen aufgeführt
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Verarbeitung** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Der Administrator hat den Auftrag erstellt, der von Microsoft empfangen wurde.  <br/> |
 |**Kontaktaufnahme mit dem Netzbetreiber** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Die Bestellung wurde von Microsoft eingegangen und genehmigt, und wir arbeiten mit dem verlorenen Netzbetreiber zusammen, um ihn genehmigt zu erhalten.  <br/> |
-|**Übertragung genehmigt** <br/> |Ja  <br/> |Verbindliche Auftrags Bindung (BAK)  <br/> |Ja  <br/> |Nein  <br/> |Die Bestellung wurde vom Verlust Träger akzeptiert, und das LWL-Datum wurde gesetzt.  <br/> |
+|**Übertragung genehmigt** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Die Bestellung wurde vom Verlust Träger akzeptiert, und das Datum der Firm Order Commitment (BAK) wurde festgesetzt.  <br/> |
 |**Übertragung ausstehend** <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Die Übertragung ist weniger als 24 Stunden entfernt, sodass die Bestellung nicht mehr bearbeitet oder storniert werden kann.  <br/> |
-|**Fehler** <br/> |Nein  <br/> |Ja  <br/> |Ja   <br/> |Ja (zu diesem Zeitpunkt können Sie die Portierungs Reihenfolge nicht löschen, wenn ein Fehler vorliegt. Die Portierungs Reihenfolge muss neu erstellt werden, oder Sie müssen sich mit dem [PSTN-Service-Desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)in Verbindung setzen.  <br/> |Die verlorene Fluggesellschaft hat die Bestellung abgelehnt.  <br/> |
+|**Fehler** <br/> |Nein  <br/> |Ja  <br/> |Ja   <br/> |Ja (zu diesem Zeitpunkt können Sie die Portierungs Reihenfolge nicht löschen, wenn ein Fehler vorliegt. Die Portierungs Reihenfolge muss neu erstellt werden, oder Sie müssen sich an die [Hilfe des PSTN-Service-Desks](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)wenden.  <br/> |Die verlorene Fluggesellschaft hat die Bestellung abgelehnt.  <br/> |
 |**Abgeschlossen** <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Die Nummern wurden erfolgreich übertragen.  <br/> |
 |**Storniert** <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Der Administrator hat den Auftrag storniert.  <br/> |
 

@@ -22,12 +22,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft sammelt Zensus-, Nutzungs-und Fehlerdaten, um zu verstehen, wie Skype for Business verwendet wird und wo Benutzer Probleme auftreten. The data is used to plan product improvements.
-ms.openlocfilehash: ec443c54041e77d419e4b387029be0f5b06c9177
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1c88086038c3874ae95f6151c1d04d13e0b9ccaf
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826763"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583102"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Datensammlungsverfahren im Zusammenhang mit Skype for Business und Microsoft Teams
 
@@ -117,6 +117,4 @@ Informationen zur Einrichtung Ihres Netzwerks finden Sie unter [Einrichten Ihres
 Wenn Sie Office 365 über 21Vianet in China nutzen, finden Sie weiterführende Informationen unter [Set up your network for Lync Online](https://support.office.com/article/d21f89b0-3afc-432e-b735-036b2432fdbf).
 
 ## <a name="related-topics"></a>Verwandte Themen
-[Programm zur Verbesserung der Benutzerfreundlichkeit](https://www.microsoft.com/products/ceip/default.mspx)
-
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

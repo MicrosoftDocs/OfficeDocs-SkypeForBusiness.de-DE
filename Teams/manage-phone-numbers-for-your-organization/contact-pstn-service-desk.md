@@ -23,16 +23,16 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Telefonnummern erhalten oder Nummern für Ihre Organisation portieren (übertragen), müssen Sie möglicherweise Hilfe und Support beim PSTN-Service Desk erhalten.
-ms.openlocfilehash: 6d400e51270b411054802240216d9e957a68f054
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 3fe6353deb52911a4e0f0249f500a2a562e29ac1
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341782"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583074"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN-Service Desk-Kontakt
 
-Wenn Sie Hilfe beim Erwerb von Telefonnummern von Microsoft oder beim Portieren vorhandener Telefonnummern zu Microsoft benötigen, senden Sie eine e-Mail-Anforderung mit den folgenden Informationen:
+Wenn Sie Hilfe beim Abrufen oder übertragen von Telefonnummern benötigen, aber Hilfe benötigen, teilen Sie uns bitte mit, wie wir Ihnen in einer e-Mail behilflich sein können, und senden Sie Sie an uns. Geben Sie in Ihrer e-Mail-Hilfeanforderung so viele Details wie möglich ein, und fügen Sie Details wie Ihre Organisations-ID (Mandanten-ID), Domänen, welche Arten von Nummern, mit denen Sie Hilfe benötigen, wie viele Nummern Sie wünschen, die Autorisierungs Person für das Konto und weitere wichtige Details ein. Informationen zu Ihrem Problem.
 
   - Ihre Organisations-ID (Mandanten-ID) oder aktive Domänen.
   - Welche Arten von Nummern benötigen Sie Hilfe? (Nutzer/Abonnent, Service/gebührenpflichtig oder gebührenfrei).
