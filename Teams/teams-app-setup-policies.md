@@ -19,19 +19,19 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 171192353227e7e0d14d59ca36b632f90aeb9941
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: 7ee649cff23ee569b284ecf8873205524eb2e838
+ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229925"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42601432"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
 > [!NOTE]
 > Wenn Sie die organisationsweite app-Einstellung aktiviert haben, die **Interaktion mit benutzerdefinierten apps zulassen**, werden die APP-Setup Richtlinien möglicherweise noch nicht im Microsoft Teams Admin Center angezeigt. Sie wird zurzeit bereitgestellt und wird in Kürze in Ihrer Organisation zur Verfügung stehen.
 
-Als Administrator können Sie mithilfe von App-Setup Richtlinien Microsoft Teams so anpassen, dass die apps hervorgehoben werden, die für Ihre Benutzer am wichtigsten sind. Sie wählen die Apps aus, die Sie anheften möchten, und legen die Reihenfolge fest, in der Sie angezeigt werden. Mit den Richtlinien für die APP-Einrichtung können Sie apps präsentieren, die Benutzer in Ihrer Organisation benötigen, einschließlich der von Drittanbietern erstellten oder von Entwicklern in Ihrer Organisation. Sie können auch APP-Setup Richtlinien verwenden, um zu steuern, ob Benutzer apps an Teams anheften und wie integrierte Features angezeigt werden können.
+Als Administrator können Sie mithilfe von App-Setup Richtlinien Microsoft Teams so anpassen, dass die apps hervorgehoben werden, die für Ihre Benutzer am wichtigsten sind. Sie wählen die Apps aus, die Sie anheften möchten, und legen die Reihenfolge fest, in der Sie angezeigt werden. Mit den Richtlinien für die APP-Einrichtung können Sie apps präsentieren, die Benutzer in Ihrer Organisation benötigen, einschließlich der von Drittanbietern erstellten oder von Entwicklern in Ihrer Organisation. Sie können auch APP-Setup Richtlinien verwenden, um zu steuern, ob Benutzer apps an Teams anheften und wie integrierte Features angezeigt werden können. Sie müssen ein globaler Administrator oder Teams-Dienstadministrator sein, um diese Richtlinien verwalten zu können.
 
 Apps werden an die APP-Leiste angeheftet. Hierbei handelt es sich um die Leiste auf der Seite des Teams-Desktop Clients und am unteren Rand der mobilen Teams (IOS und Android).
 

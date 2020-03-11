@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: ab5f85e7ea6239a5b56471ed0a378af3bc1c4c9f
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: baf3f025dd9b2340f59aee18d72d3707e4cab8fd
+ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161668"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42601412"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams
 
-Als Administrator können Sie App-Berechtigungsrichtlinien verwenden, um zu steuern, welche apps Microsoft Teams-Benutzern in Ihrer Organisation zur Verfügung stehen. Sie können alle apps oder bestimmte apps, die von Microsoft, Drittanbietern und Ihrer Organisation veröffentlicht wurden, zulassen oder blockieren. Wenn Sie eine APP blockieren, können Benutzer, die über die Richtlinie verfügen, Sie nicht aus dem App Store von Teams installieren.
+Als Administrator können Sie App-Berechtigungsrichtlinien verwenden, um zu steuern, welche apps Microsoft Teams-Benutzern in Ihrer Organisation zur Verfügung stehen. Sie können alle apps oder bestimmte apps, die von Microsoft, Drittanbietern und Ihrer Organisation veröffentlicht wurden, zulassen oder blockieren. Wenn Sie eine APP blockieren, können Benutzer, die über die Richtlinie verfügen, Sie nicht aus dem App Store von Teams installieren. Sie müssen ein globaler Administrator oder Teams-Dienstadministrator sein, um diese Richtlinien verwalten zu können.
 
 Sie verwalten App-Berechtigungsrichtlinien im Microsoft Teams Admin Center. Sie können die globale (org-Wide Standard)-Richtlinie verwenden oder benutzerdefinierte Richtlinien für einzelne Benutzer oder Benutzer in einer Gruppe erstellen und zuweisen.  
 

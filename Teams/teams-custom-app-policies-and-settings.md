@@ -22,19 +22,19 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: 86bf441f6dfa74b243f1a6e64139a32b8b94d7fa
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: a3435d0a6be9e9ef6642fe84404cb54d4ebaf8e4
+ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161631"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42601422"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Microsoft Teams
 
 > [!NOTE]
 > Wenn Sie App Studio verwenden möchten, lesen Sie [Erste Schritte auf der Microsoft Teams-Plattform mit C#-/.net und App Studio, wenn](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio) der letzte Schritt noch nicht funktioniert, müssen Sie den ZIP-Datei herunterladen und auf die alte Art installieren, um [ein App-Paket in Microsoft Teams hochzuladen](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload).
 
-Als Administrator können Sie benutzerdefinierte App-Richtlinien und-Einstellungen verwenden, um zu steuern, wer in Ihrer Organisation benutzerdefinierte apps in Microsoft Teams hochladen kann. Administratoren entscheiden, welche Benutzer benutzerdefinierte apps hochladen können, und Administratoren und Teambesitzer können ermitteln, ob bestimmte Teams in Ihrer Organisation benutzerdefinierte apps hinzufügen dürfen.  Nachdem Sie die benutzerdefinierte App-Richtlinie bearbeitet haben, kann es bis zu 24 Stunden dauern, bis die Änderungen wirksam werden.
+Als Administrator können Sie benutzerdefinierte App-Richtlinien und-Einstellungen verwenden, um zu steuern, wer in Ihrer Organisation benutzerdefinierte apps in Microsoft Teams hochladen kann. Administratoren entscheiden, welche Benutzer benutzerdefinierte apps hochladen können, und Administratoren und Teambesitzer können ermitteln, ob bestimmte Teams in Ihrer Organisation benutzerdefinierte apps hinzufügen dürfen.  Nachdem Sie die benutzerdefinierte App-Richtlinie bearbeitet haben, kann es bis zu 24 Stunden dauern, bis die Änderungen wirksam werden. Sie müssen ein globaler Administrator oder Teams-Dienstadministrator sein, um diese Richtlinien verwalten zu können.
 
 ## <a name="overview-of-custom-apps"></a>Übersicht über benutzerdefinierte apps
 
