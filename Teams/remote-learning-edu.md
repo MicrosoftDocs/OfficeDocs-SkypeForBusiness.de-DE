@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28ba6f96355847eed0149dddba07fa9704f39052
-ms.sourcegitcommit: ac811017d54a55f39ecc0e3a66a883d9e027ce68
+ms.openlocfilehash: 2fc4439b6e40aa29f538be461e75f672bcd82e41
+ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42547896"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42559347"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -31,6 +31,8 @@ ms.locfileid: "42547896"
 > - Eine Sammlung von Artikeln, die für Lehrkräfte verfasst wurden, einschließlich Anleitungen für die wichtigsten [**ersten Schritte für den Unterricht mit Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - Ein einstündiger Onlinekurs im Microsoft Educator Center zeigt, wie Lehrkräfte Microsoft Teams in ihrem Beruf einsetzen. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview) (Verändern des Lernens mit Microsoft Teams).
 > - Ein einstündiger Onlinekurs im Microsoft Educator Center leitet Lehrkräfte durch die Unterrichtsgestaltung in Kursteams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview) (Schaffen einer auf Teamarbeit ausgerichteten Lernumgebung mit Kursteams).
+> - Lehrer, Schüler/Studenten und Erziehungsberechtigte finden weitere Informationen unter [**Remote lehren und lernen mit Office 365**](https://aka.ms/RemoteLearningHelp).
+> - Eltern und Erziehungsberechtigte finden darüber hinaus auf unserer [Supportseite für Eltern](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588?ui=en-US&rs=en-US&ad=US) Informationen zum Remote-Lernen.
 
 Verpassen Sie nicht den Blog vom 4. März 2020 [Wie Schulen Fernlernprogramme mit Microsoft Teams schnell starten können](https://aka.ms/teamseduremoteblog).
 
@@ -50,7 +52,7 @@ In der [Webinarreihe "Teams for education" (Teams für Bildungseinrichtungen)](h
 
 Teams nutzt die Möglichkeiten von Microsoft 365, um Benutzer zu authentifizieren und Dienste bereitzustellen. Mitarbeiter, Dozenten und Schüler/Studenten sollten über Identitäten verfügen, die für eine einfachere Zusammenarbeit eingerichtet wurden. Wenn Identitäten nicht bereits existieren, gehen Sie folgendermaßen vor, um sie einzurichten.
 
-[Teams-Lizenzen müssen für Benutzer aktiviert werden](teams-edu-licensing.md), bevor sie mit der Verwendung der Teams-Funktionen beginnen können. Teams setzt weitere Microsoft 365-Funktionen wie [Office 365 Gruppen](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint und OneDrive](SharePoint-OneDrive-interact.md) ein, um Szenarien für die Zusammenarbeit bereitzustellen. Die Benutzer erzielen die besten Erfahrungen mit Teams, wenn alle diese Dienste ebenfalls aktiviert sind. [Teams wird für Benutzer unterstützt, deren E-Mails bei Google gehostet werden](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
+[Teams-Lizenzen müssen für Benutzer aktiviert werden](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams), und dann müssen [Lizenzen den Benutzern zugewiesen werden](teams-edu-licensing.md), bevor sie die Teams-Funktionen nutzen können. Teams setzt weitere Microsoft 365-Funktionen wie [Office 365 Gruppen](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint und OneDrive](SharePoint-OneDrive-interact.md) ein, um Szenarien für die Zusammenarbeit bereitzustellen. Die Benutzer erzielen die besten Erfahrungen mit Teams, wenn alle diese Dienste ebenfalls aktiviert sind. [Teams wird für Benutzer unterstützt, deren E-Mails bei Google gehostet werden](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
 
 Microsoft Teams ist Bestandteil von Office 365 A1, das für Bildungseinrichtungen kostenlos ist. Informationen zur Bereitstellung von Office 365 und zum Starten von Teams in der gesamten Bildungseinrichtung finden Sie [auf dieser Seite](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). Um Unterstützung zu erhalten, können Sie [hier](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) ein Ticket erstellen, und für Schulungen in Teams besuchen Sie Ihren lokalen Microsoft Store, um mit einem Fachmann zu sprechen.
 
@@ -138,7 +140,7 @@ Weitere Informationen zur Verwendung von Teams für Bildungseinrichtungen finden
 
 ## <a name="adoption-content"></a>Inhalte zur Einführung
 
-Microsoft hat [Inhalte zur Einführung](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) und strategische Anleitungen für die Bereitstellung von Microsoft Teams entwickelt. Der [Einführungsleitfaden für Microsoft Teams](https://teamworktools.azurewebsites.net/tft/index.html) bietet einen guten Überblick über die verfügbaren Inhalte, und das [Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) stellt viele Vorlagen bereit, die verwendet werden können, um ein Bewusstsein für Teams zu fördern. Das Microsoft Educator Center bietet spezifische Schulungen für Bildungseinrichtungen über den Einsatz von [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) und [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) im Unterricht.
+Microsoft hat [Inhalte zur Einführung](https://support.office.com/article/video-moderating-a-q-a-4984e582-8c66-4ea3-aaaf-d93cf62e1b76) und strategische Anleitungen für die Bereitstellung von Microsoft Teams entwickelt. Der [Einführungsleitfaden für Microsoft Teams](https://teamworktools.azurewebsites.net/tft/index.html) bietet einen guten Überblick über die verfügbaren Inhalte, und das [Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess) stellt viele Vorlagen bereit, die verwendet werden können, um ein Bewusstsein für Teams zu fördern. Das Microsoft Educator Center bietet spezifische Schulungen für Bildungseinrichtungen über den Einsatz von [Microsoft Teams](https://education.microsoft.com/learningPath/18793af1) und [OneNote](https://education.microsoft.com/learningPath/b6e3b5f2) im Unterricht.
 
 Zu diesen zusätzlichen Ressourcen gehören:
 
@@ -153,7 +155,11 @@ Mithilfe der [Poster zur Microsoft Teams IT-Architektur](teams-architecture-solu
 Weitere Supportressourcen für sind:
 
 - [Problembehandlung bei Problemen mit Installation und Update von Microsoft Teams](troubleshoot-installation.md)
-- [Teams für Virtualized Desktop Infrastructure](https://docs.microsoft.com/microsoftteams/teams-for-vdi)
+- [Eine Supportanfrage stellen (kann von Lehrkräften und Mitarbeitern verwendet werden)](https://aka.ms/edusupport)
+- [Support- und Hilfecenter für Lehrkräfte, die Microsoft Teams nutzen](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)
+- [Hilfecenter für Schüler/Studenten](https://support.office.com/article/student-help-center-395ab230-55bf-44c6-b265-e832d729b694)
+- [Microsoft Teams für Virtualized Desktop Infrastructure](https://docs.microsoft.com/microsoftteams/teams-for-vdi)
+- [Schnelle Optimierung des Office 365-Datenverkehrs für Remotemitarbeiter](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
 - [Überwachen und Verwalten der Anrufqualität](monitor-call-quality-qos.md)
 - [Überprüfen der Dienstintegrität für Microsoft Teams](service-health.md)
 - [Supportressourcen für Microsoft Teams](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products)
