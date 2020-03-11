@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Im neuen Bereich Berichte im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht PSTN-Verwendungsdetails in Skype for Business die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
-ms.openlocfilehash: b76bd2f752b03e59143162261b37f311f1b38b64
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a489277eceaab533fc03ac7017dcc217b4071bc6
+ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706050"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42582882"
 ---
 # <a name="pstn-usage-report"></a>Bericht "PSTN-Verbrauch"
 
@@ -41,7 +41,7 @@ Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten In
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-- Wechseln Sie zum Admin Center #a0 **Admin** > Centers im**Skype for Business Admin Center** > werden die**PSTN-Nutzungsdetails****gemeldet** > .
+- Wechseln Sie zum Admin Center > **Admin** > Centers im**Skype for Business Admin Center** > werden die**PSTN-Nutzungsdetails****gemeldet** > .
     
     > [!NOTE]
     > Je nach vorhandenem Office 365-Abonnement werden möglicherweise nicht alle Produkte und Berichte angezeigt, die in diesem Artikel besprochen werden. 
@@ -71,13 +71,13 @@ Der Bericht sieht wie folgt aus:
      *    **user_out_forwarding** (Der Benutzer hat den Anruf an eine PSTN-Nummer weitergeleitet.)
 
      **Audiokonferenz-Anruftypen**
-     *    **conf_in** (Ein eingehender Anruf an die Audiokonferenzbrücke) 
-     *    **conf_out** (Ein ausgehender Anruf von der Audiokonferenzbrücke, normalerweise um eine PSTN-Nummer zur Konferenz hinzuzufügen)
+     *    **conf_in** (ein eingehender Anruf an die Audiokonferenz-Brücke) Für Datensätze dieses Anruf Typs entspricht der Benutzer, der in der Spalte " **Benutzer-ID** " angegeben ist, dem Organisator der Besprechung.
+     *    **conf_out** (ein ausgehender Anruf von der Audiokonferenz-Brücke, in der Regel eine PSTN-Nummer zur Konferenz hinzugefügt). Für Datensätze dieses Anruf Typs entspricht der Benutzer, der in der Spalte " **Benutzer-ID** " angegeben ist, dem Organisator der Besprechung.
 
      **Unified Communication Applications (UCAP)** 
      *    **ucap_in** (ein eingehender PSTN-Anruf an die UC-Anwendung, beispielsweise eine automatische Telefonzentrale oder eine Anrufwarteschlange) 
      *    **ucap_out** (ein ausgehender PSTN-Anruf von der UC-Anwendung, beispielsweise eine automatische Telefonzentrale oder eine Anrufwarteschlange)
-     *    **Hinweis:** Anrufe, die von der UC-Anwendung an einen Benutzer übertragen wurden, beispielsweise eine automatische Telefonzentrale oder eine Anrufwarteschlange, werden im PSTN-Nutzungsbericht nicht angezeigt, da diese Anruf Beine Peer-to-Peer-Audioanrufe (P2P) sind. Sie können im Skype for Business Admin Center unter "Tools #a0 Skype for Business Call Analytics" auf die P2P-Anrufe zugreifen und nach Benutzer Name oder SIP-Adresse suchen, die den Anruf nach Datum/Uhrzeit und/oder Ursprungs gestensteuerunghttp://Office.Microsoft.com/de-de/fx102821959.aspx (Rufnummernanzeige) korreliert. 
+     *    **Hinweis:** Anrufe, die von der UC-Anwendung an einen Benutzer übertragen wurden, beispielsweise eine automatische Telefonzentrale oder eine Anrufwarteschlange, werden im PSTN-Nutzungsbericht nicht angezeigt, da diese Anruf Beine Peer-to-Peer-Audioanrufe (P2P) sind. Sie können im Skype for Business Admin Center unter "Tools > Skype for Business Call Analytics" auf die P2P-Anrufe zugreifen und nach Benutzer Name oder SIP-Adresse suchen, die den Anruf nach Datum/Uhrzeit und/oder Ursprungs gestensteuerunghttp://Office.Microsoft.com/de-de/fx102821959.aspx (Rufnummernanzeige) korreliert. 
 *     
      **Inland/International** gibt an, ob der getätigte Anruf basierend auf dem Standort des Benutzers ein Inlandsanruf (innerhalb eines Lands bzw. einer Region) oder ein Auslandsanruf (außerhalb eines Lands bzw. einer Region) war.    
 *    **Gewähltes Ziel** ist der Name des gewählten Lands bzw. der gewählten Region, beispielsweise Frankreich, Deutschland oder Vereinigte Staaten (USA).    
@@ -94,12 +94,13 @@ Der Bericht sieht wie folgt aus:
      *    **MCOPSTN6** -Domestic Calling Plan (240 min Calling Plan) Hinweis: beschränkte Verfügbarkeit
      *    **MCOMEETADD**: Audiokonferenz
      *    **MCOMEETACPEA**: Audiokonferenz mit Minutenabrechnung
+     
 > [!NOTE]
 > Wenn Sie einen Bericht ausführen möchten, um nur Minuten Anrufe einzuschließen, die nicht in Ihrem Anruf-oder Konferenz Abonnement enthalten sind, Filtern Sie den Bericht mit der Funktion "MCOPSTNPP". Auf diese Weise erhalten Sie eine Aufstellungs Möglichkeit für alle Pay-per-Minute-Anrufe.  Für Pay-per-Minute-Audiokonferenzen Filtern Sie nach "MCOMEETACPEA" anstelle von "MCOPSTNPP".  
-***
+
 > [!NOTE]
 > Möglicherweise werden in einigen Feldern auch "keine Daten" angezeigt. "Keine Daten" bedeutet, dass das Feld nicht auf die Art oder Funktion des Anrufs anwendbar ist. 
-***
+
 > [!NOTE]
 > Wenn Sie über einen Telstra-Anrufplan verfügen, werden in dem Bericht zur PSTN-Nutzung keine Anruf Detaildatensätze angezeigt. Bitte wenden Sie sich an Telstra für Ihre Berichterstattung. 
 ***

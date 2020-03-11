@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Zusammenfassung: Konfigurieren Sie Ihre nicht-Server Anforderungen für Skype for Business Server 2015. Es gibt eine Vielzahl von Dingen, die Sie vor der Bereitstellung konfigurieren möchten, einschließlich Active Directory, DNS, certs und Filesharings.'
-ms.openlocfilehash: 0d1f2ff87189cd7fd88f37429fb2ebf6805f6810
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 164f4b8037c972907eb6d1375f77b3cc350959e5
+ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42012583"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42572803"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Umgebungsanforderungen für Skype for Business Server 2015
  
@@ -85,7 +85,7 @@ Nun müssen die Domänenfunktionsebene jeder Domäne, in der Sie Skype for Busin
     
 - Windows Server 2003
     
-Können in diesen Umgebungen schreibgeschützte Domänencontroller vorhanden sein? Sicher, solange auch schreibbarer Domänencontroller verfügbar ist.
+Können in diesen Umgebungen schreibgeschützte Domänencontroller vorhanden sein? Sicher, solange auch schreibbare Domänencontroller am selben Standort wie der Skype for Business Server verfügbar sind.
   
 Nun ist es wichtig zu wissen, dass Skype for Business Server 2015 keine Single-labeld Domains unterstützt. Was sind sie? Wenn Sie über eine Stammdomäne mit dem Namen "contoso. local" verfügen, wird das gut gehen. Wenn Sie über eine Stammdomäne verfügen, die nur local heißt, funktioniert das nicht, und es wird daher nicht unterstützt. Ein wenig mehr dazu wurde [in diesem Knowledge Base-Artikel](https://support.microsoft.com/kb/300684/en-us)geschrieben.
   
@@ -374,4 +374,3 @@ Skype for Business Server 2015 kann dieselbe Dateifreigabe für alle Dateispeich
 > [!CAUTION] 
 > Sie sollten wissen, dass die Verwendung von NAS (Network Attached Storage) als Dateifreigabe nicht unterstützt wird, verwenden Sie daher eine der oben aufgeführten Optionen. 
   
-
