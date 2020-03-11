@@ -1,9 +1,8 @@
 ---
 title: Verwalten Ihrer Geräte in Microsoft Teams
-author: lanachin
-ms.author: v-lanac
+author: dstrome
+ms.author: dstrome
 manager: serdars
-ms.date: 11/12/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -19,44 +18,44 @@ description: Hier erfahren Sie, wie Sie Geräte verwalten, die mit Teams in Ihre
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2557410adf0eda18fab0e5450f739baf2ec7d581
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: ef6412ff40d71a21f619b08ee5e334819d5470ca
+ms.sourcegitcommit: a597b1572f1eca095144288446a2c038e5daa5f7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824868"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42587334"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Verwalten Ihrer Geräte in Microsoft Teams
 
-::: zone target="docs"
-Als Administrator verwalten Sie alle Geräte, die mit Teams in Ihrer Organisation verwendet werden, vom Microsoft Teams Admin Center. Sie können die Geräte Inventur für Ihre Organisation anzeigen und verwalten sowie Aufgaben wie aktualisieren, Neustarten und Überwachen der Diagnose für Geräte ausführen. Sie können auch einem Gerät oder einer Gruppe von Geräten Konfigurationsprofile erstellen und zuweisen. 
+Als Administrator können Sie Geräte, die mit Teams in Ihrer Organisation verwendet werden, über das Microsoft Teams Admin Center verwalten. Sie können die Geräte Inventur für Ihre Organisation anzeigen und verwalten sowie Aufgaben wie aktualisieren, Neustarten und Überwachen der Diagnose für Geräte ausführen. Sie können auch einem Gerät oder einer Gruppe von Geräten Konfigurationsprofile erstellen und zuweisen. 
 
 ## <a name="what-devices-can-you-manage"></a>Welche Geräte können verwaltet werden?
-Geräte müssen für Teams zertifiziert und in Teams registriert sein. Ein Gerät wird automatisch registriert, wenn sich ein Benutzer zum ersten Mal bei Teams auf dem Gerät anmeldet. Eine Liste der zertifizierten Geräte, die verwaltet werden können, finden Sie unter [Konferenztelefone](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=16) und [Tischtelefone](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=34).
+Sie können jedes Gerät verwalten, das für Teams zertifiziert und registriert ist. Ein Gerät wird automatisch registriert, wenn sich ein Benutzer zum ersten Mal bei Teams auf dem Gerät anmeldet. Eine Liste der zertifizierten Geräte, die verwaltet werden können, finden Sie unter:
+
+- [Konferenztelefone](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=16)
+- [Tischtelefone](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=34)
+- Zusammenarbeits leisten
+
+Geräte werden im [Microsoft Teams Admin Center](https://admin.teams.microsoft.com) unter " **Geräte** " im linken Navigationsbereich verwaltet.
 
 > [!NOTE]
-> Wenn Sie über Microsoft InTune verfügen, werden Geräte automatisch in InTune registriert. Nachdem ein Gerät registriert wurde, wird die Gerätekompatibilität bestätigt, und auf das Gerät werden Richtlinien für den bedingten Zugriff angewendet. 
+> Wenn Sie über Microsoft InTune verfügen, werden Geräte automatisch in InTune registriert. Nachdem ein Gerät registriert wurde, wird die Gerätekompatibilität bestätigt, und auf das Gerät werden Richtlinien für den bedingten Zugriff angewendet.
 
-## <a name="manage-devices-in-teams"></a>Verwalten von Geräten in Teams
+## <a name="manage-phones-and-collaboration-bars-in-teams"></a>Verwalten von Telefonen und Teamarbeits leisten in Teams
 
-![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
+Auch wenn Telefone und Kollaborations leisten im Microsoft Teams Admin Center gleich verwaltet werden, verfügen Sie über eigene Abschnitte im linken Navigationsbereich unter " **Geräte**". Auf diese Weise können Sie die einzelnen Gerätetypen separat verwalten.
 
-1. Navigieren Sie in der linken Navigationsleiste zu **Devices** > **Manage Devices**.
-2. Wählen Sie **alle Geräte**aus.  
+Von hier aus können Sie Telefone und Zusammenarbeit leisten anzeigen und verwalten, die für Teams in Ihrer Organisation registriert sind. Zu den Informationen, die Sie für jedes Gerät sehen, gehören Gerätename, Hersteller, Modell, Benutzer, Status, Aktion, zuletzt gesehen und Verlauf. Sie können die Ansicht anpassen, um die Informationen anzuzeigen, die Ihren Anforderungen entsprechen.
 
-::: zone-end
-
- Hier können Sie alle Geräte anzeigen und verwalten, die für Teams in Ihrer Organisation registriert sind. Zu den Informationen, die Sie für jedes Gerät sehen, gehören Gerätename, Hersteller, Modell, Benutzer, Status, Aktion, zuletzt gesehen und Verlauf. Sie können die Ansicht anpassen, um die Informationen anzuzeigen, die Ihren Anforderungen entsprechen.
-
- Nachfolgend finden Sie einige Beispiele für die Verwaltung von Teams-Geräten in Ihrer Organisation.  
+Nachfolgend finden Sie einige Beispiele für die Verwaltung von Teams-Geräten in Ihrer Organisation.  
     
 |Zu diesem Zweck...  |Tun Sie dies |
 |---------|---------|
-|Ändern von Geräteinformationen   | Wählen Sie ein Gerät #a0 **Bearbeiten**aus. Sie können Details wie Gerätename, Benutzerinformationen, Inventar Kategorien und Notizen bearbeiten.     |
-|Verwalten von Softwareupdates   |Wählen Sie ein Gerät #a0 **Update**aus. Sie können die Liste der für das Gerät verfügbaren Software-und Firmware-Updates anzeigen und die zu installierenden Updates auswählen.    |
-|Starten eines Geräts   |Wählen Sie ein Gerät #a0 **Neustart**aus.          |
-|Geräte Verlauf anzeigen  | Wählen Sie ein Gerät #a0 **Verlauf**aus. Sie können den Updateverlauf für das Gerät anzeigen.     |
-|Anzeigen von Diagnosen  | Wählen Sie ein Gerät #a0 **Diagnose**aus.        |
+|Ändern von Geräteinformationen   | Wählen Sie ein Gerät > **Bearbeiten**aus. Sie können Details wie Gerätename, Inventar Kategorie und Notizen bearbeiten.     |
+|Verwalten von Softwareupdates   |Wählen Sie ein Gerät > **Update**aus. Sie können die Liste der für das Gerät verfügbaren Software-und Firmware-Updates anzeigen und die zu installierenden Updates auswählen.    |
+|Starten eines Geräts   |Wählen Sie ein Gerät > **Neustart**aus.          |
+|Geräte Verlauf anzeigen  | Wählen Sie ein Gerät > **Verlauf**aus. Sie können den Updateverlauf für das Gerät anzeigen.     |
+|Anzeigen von Diagnosen  | Wählen Sie ein Gerät > **Diagnose**aus.        |
 
 ## <a name="use-configuration-profiles-in-teams"></a>Verwenden von Konfigurationsprofilen in Teams
 
@@ -64,28 +63,14 @@ Verwenden Sie Konfigurationsprofile, um Einstellungen und Features für Teams-Ge
 
 ### <a name="create-a-configuration-profile"></a>Erstellen eines Konfigurationsprofils
 
-::: zone target="docs"
-
-![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) Verwenden des Microsoft Teams #a0 Skype for Business Admin Center
-
-1. Navigieren Sie in der linken Navigationsleiste zu **Devices** > **Manage Devices**.
-
-::: zone-end
-
-2. Wählen Sie **Konfigurationsprofile**aus, und wählen Sie dann **Neues Konfigurationsprofil**aus.
+1. Navigieren Sie in der linken Navigationsleiste zu **Devices** > -**Konfigurationsprofilen**.
+2. Klicken Sie auf **Hinzufügen**.
 3. Geben Sie einen Namen für das Profil ein, und fügen Sie bei Bedarf eine Beschreibung hinzu.
 4. Geben Sie die gewünschten Einstellungen für das Profil ein, und klicken Sie auf **Speichern**.
 
 ### <a name="assign-a-configuration-profile"></a>Zuweisen eines Konfigurationsprofils
 
-::: zone target="docs"
-
-![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) Verwenden des Microsoft Teams #a0 Skype for Business Admin Center
-
-1. Navigieren Sie in der linken Navigationsleiste zu **Devices** > **Manage Devices**.
-
-::: zone-end
-
-2. Wählen Sie **Konfigurationsprofil**aus, und klicken Sie dann unter **zugewiesen an** in dem Profil, das Sie zuweisen möchten, auf den Link.  
+1. Navigieren Sie in der linken Navigationsleiste zu **Devices** > -**Konfigurationsprofilen**.
+2. Wählen Sie das **Konfigurationsprofil** aus, das Sie zuweisen möchten, und klicken Sie dann auf **auf Gerät zuweisen**.  
 3. Suchen Sie im Bereich **Geräte zu einem Konfigurationsprofil zuweisen** nach den Geräten, die Sie zuweisen möchten, und wählen Sie Sie aus.
 4. Klicken Sie auf **Speichern**.
