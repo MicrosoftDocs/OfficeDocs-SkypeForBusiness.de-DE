@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fc4439b6e40aa29f538be461e75f672bcd82e41
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: e7d0f4a38194f80329c34cab73d61a99d4d4d03b
+ms.sourcegitcommit: 90066455ea2f982cdeabd9bff7944718bc7895c4
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559347"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42592545"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -31,8 +31,8 @@ ms.locfileid: "42559347"
 > - Eine Sammlung von Artikeln, die für Lehrkräfte verfasst wurden, einschließlich Anleitungen für die wichtigsten [**ersten Schritte für den Unterricht mit Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - Ein einstündiger Onlinekurs im Microsoft Educator Center zeigt, wie Lehrkräfte Microsoft Teams in ihrem Beruf einsetzen. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview) (Verändern des Lernens mit Microsoft Teams).
 > - Ein einstündiger Onlinekurs im Microsoft Educator Center leitet Lehrkräfte durch die Unterrichtsgestaltung in Kursteams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview) (Schaffen einer auf Teamarbeit ausgerichteten Lernumgebung mit Kursteams).
-> - Lehrer, Schüler/Studenten und Erziehungsberechtigte finden weitere Informationen unter [**Remote lehren und lernen mit Office 365**](https://aka.ms/RemoteLearningHelp).
-> - Eltern und Erziehungsberechtigte finden darüber hinaus auf unserer [Supportseite für Eltern](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588?ui=en-US&rs=en-US&ad=US) Informationen zum Remote-Lernen.
+> - Lehrer, Schüler/Studenten und Erziehungsberechtigte finden weitere Informationen unter [**Remote lehren und lernen mit Office 365**](https://aka.ms/RemoteLearningHelp).
+> - Eltern und Erziehungsberechtigte finden darüber hinaus auf unserer [**Supportseite für Eltern**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) Informationen zum Remote-Lernen.
 
 Verpassen Sie nicht den Blog vom 4. März 2020 [Wie Schulen Fernlernprogramme mit Microsoft Teams schnell starten können](https://aka.ms/teamseduremoteblog).
 
@@ -104,7 +104,7 @@ Nachfolgend finden Sie eine Reihe allgemeiner nicht standardmäßiger Richtlinie
 
 - "Private Kanäle erstellen" auf "Aus" festgelegt
 
-**Mitarbeitern und Lehrkräften an Grundschulen** sollten Richtlinien zugewiesen werden, die ihnen die Kernfunktionen erlauben, die für Schüler möglicherweise eingeschränkt sind. Erstellen Sie neue Richtlinien, die private Chats und die Besprechungsplanung zulassen (Standardeinstellungen für eine neue Richtlinie). [Weisen Sie den Mitarbeitern und Lehrkräften diese Richtlinien über Sicherheitsgruppenmitgliedschaft zu](assign-policies.md#assign-a-policy-to-a-group).
+**Mitarbeitern und Lehrkräften an Grundschulen** sollten Richtlinien zugewiesen werden, die ihnen die Kernfunktionen erlauben, die für Schüler möglicherweise eingeschränkt sind. Erstellen Sie neue Richtlinien, die private Chats und die Besprechungsplanung zulassen (Standardeinstellungen für eine neue Richtlinie). [Weisen Sie diese Richtlinien Ihren Mitarbeitern und Lehrkräften per Batch-Richtlinienzuweisung in größeren Mengen zu](batch-policy-assignment-edu.md).
 
 ## <a name="start-using-teams"></a>Einstieg in die Verwendung von Teams
 
