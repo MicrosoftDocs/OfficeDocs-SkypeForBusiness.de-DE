@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie mithilfe der Batch Richtlinienzuweisung Richtlinien für große Gruppen von Benutzern in Ihrer Bildungseinrichtung in loser Schüttung für Remote Schulen (teleschool, Tele Schule) zuweisen.
 f1keywords: ''
-ms.openlocfilehash: e95c6b035298ce583a0ad34a030f2086b7c12ff3
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 79c36aa0e2a7a2d310756d052b8962daeaa38634
+ms.sourcegitcommit: a34a827dfdad05b281e2e5ec5a80fc4e67fc89e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583340"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604302"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Zuweisen von Richtlinien zu umfangreichen Benutzergruppen in ihrer Schule
 
@@ -42,14 +42,14 @@ Führen Sie die folgenden Schritte aus, um Mitarbeitern und Pädagogen massenwei
 
 ## <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>Herstellen einer Verbindung mit dem Azure AD PowerShell für Graph-Modul und dem Teams PowerShell-Modul
 
-Bevor Sie die in diesem Artikel beschriebenen Schritte ausführen, müssen Sie das Azure AD PowerShell für Graph-Modul (zum Identifizieren von Benutzern anhand der Ihnen zugewiesenen Lizenzen) und die Vorabversion des Microsoft Teams PowerShell-Moduls installieren und eine Verbindung herstellen (um die Richtlinien zuweisen zu Diese Benutzer).
+Bevor Sie die in diesem Artikel beschriebenen Schritte ausführen, müssen Sie das Azure AD PowerShell für Graph-Modul installieren und eine Verbindung herstellen (um die Benutzer anhand der zugewiesenen Lizenzen zu identifizieren) und das Microsoft Teams PowerShell-Modul (um die Richtlinien diesen Benutzern zuzuweisen).
 
 ### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>Installieren und Herstellen einer Verbindung mit dem Azure AD PowerShell für Graph-Modul
 
 Öffnen Sie eine erweiterte Windows PowerShell-Eingabeaufforderung (Windows PowerShell als Administrator ausführen), und führen Sie dann die folgenden Schritte aus, um das Azure Active Directory PowerShell für Graph-Modul zu installieren.
 
 ```powershell
-Install-Module AzureAD
+Install-Module -Name AzureAD
 ```
 
 Führen Sie die folgenden Schritte aus, um eine Verbindung mit Azure AD herzustellen.
@@ -60,11 +60,15 @@ Connect-AzureAD
 
 Wenn Sie dazu aufgefordert werden, melden Sie sich mit Ihren Administratoranmeldeinformationen an.
 
-Weitere Informationen finden Sie unter [Herstellen einer Verbindung mit dem Azure Active Directory PowerShell für Graph-Modul](https://docs.microsoft.com/eoffice365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Weitere Informationen finden Sie unter [Herstellen einer Verbindung mit dem Azure Active Directory PowerShell für Graph-Modul](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
 
-### <a name="install-and-connect-to-the-pre-release-version-of-the-teams-powershell-module"></a>Installieren und Herstellen einer Verbindung mit der Pre-Release-Version des Teams PowerShell-Moduls
+### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installieren und Herstellen einer Verbindung mit dem Microsoft Teams PowerShell-Modul
 
-Die erforderlichen Cmdlets befinden sich in der Vorabversion des Teams PowerShell-Moduls. Führen Sie die Schritte unter [Installieren und Herstellen einer Verbindung mit dem PowerShell-Modul von Microsoft Teams](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module) aus, um zunächst die allgemein verfügbare Version des Teams PowerShell-Moduls zu deinstallieren (sofern es installiert ist), und installieren Sie dann die neueste Vorabversion des Moduls aus dem PowerShell-Test Katalog.
+Führen Sie die folgenden Schritte aus, um das [Microsoft Teams PowerShell-Modul](https://www.powershellgallery.com/packages/MicrosoftTeams)zu installieren. Stellen Sie sicher, dass Sie Version 1.0.5 oder höher installieren.
+
+```powershell
+Install-Module -Name MicrosoftTeams
+```
 
 Führen Sie die folgenden Schritte aus, um eine Verbindung mit Teams herzustellen und eine Sitzung zu starten.
 
@@ -102,7 +106,7 @@ In diesem Beispiel zeigt die Ausgabe, dass die Fakultäts Lizenz SkuId "e97c048c
 Als nächstes führen wir die folgenden Schritte aus, um die Benutzer zu identifizieren, die über diese Lizenz verfügen, und Sie alle zusammen zu sammeln.
 
 ```powershell
-$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains “e97c048c-37a4-45fb-ab50-922fbf07a370”)
+$faculty = Get-AzureADUser -All $true | Where-Object (($_.assignedLicenses).SkuId -contains "e97c048c-37a4-45fb-ab50-922fbf07a370")
 ```
 
 ## <a name="assign-a-policy-in-bulk"></a>Zuweisen einer Richtlinie in Massen
