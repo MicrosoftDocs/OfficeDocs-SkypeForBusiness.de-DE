@@ -1,5 +1,5 @@
 ---
-title: Teams für Virtualized Desktop Infrastructure
+title: Microsoft Teams für Virtualized Desktop Infrastructure
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9c8f0fe24cfb94be368fb2afa6446f311f2f790
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 4e009ccfb70e307e4a67f8331deabce51e229c0f
+ms.sourcegitcommit: 511238a3550ad0ff8d4bbd4600a252651ab6a654
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417880"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42615367"
 ---
-# <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams für Virtualized Desktop Infrastructure
+# <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
 In diesem Artikel werden die Anforderungen und Einschränkungen für die Verwendung von Microsoft Teams in einer virtualisierten Umgebung beschrieben.
 
@@ -132,8 +132,8 @@ Weitere Informationen zu Teams und Office 365 ProPlus finden Sie unter [Ausschli
 
 1. Laden Sie das MSI-Paket für Teams, das Ihrem VDI-VM-Betriebssystem entspricht, mit einem der folgenden Links herunter:
 
-    - [32-Bit-Version](https://statics.teams.cdn.office.net/production-windows/1.2.00.32462/Teams_windows.msi)
-    - [64-Bit-Version](https://statics.teams.cdn.office.net/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
+    - [32-Bit-Version](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
+    - [64-Bit-Version](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
 
     Die Mindestversion der Desktop-App für Teams, die erforderlich ist, ist Version 1.2.00.31357. (PSTN-Haltebereich wird in früheren Versionen nicht unterstützt.)
 
@@ -265,7 +265,7 @@ Sie können auch die folgenden Schritte ausführen:
 Im folgenden Beispiel wird gezeigt, wie Sie mit dem [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) die DisallowCalling-Anrufrichtlinie einem Benutzer zuweisen.
 
 ```PowerShell
-Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
+Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
 ```
 
 Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Anruf Richtlinien finden Sie unter [CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
@@ -273,7 +273,7 @@ Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Anruf Richt
 Im folgenden Beispiel wird gezeigt, wie Sie mit dem [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) die AllOff-Besprechungsrichtlinie einem Benutzer zuweisen.
 
 ```PowerShell
-Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
+Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
 ```
 
 Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Besprechungsrichtlinien finden Sie unter [Satz-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
@@ -317,7 +317,7 @@ Sie können auch die folgenden Schritte ausführen:
 Im folgenden Beispiel wird gezeigt, wie Sie mit dem [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) die AllowCalling-Anrufrichtlinie einem Benutzer zuweisen.
 
 ```PowerShell
-Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id”
+Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity "user email id"
 ```
 
 Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Anruf Richtlinien finden Sie unter [CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
@@ -325,7 +325,7 @@ Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Anruf Richt
 Im folgenden Beispiel wird gezeigt, wie Sie den [Grant-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) verwenden, um die Allon-Besprechungsrichtlinie einem Benutzer zuzuweisen.
 
 ```PowerShell
-Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
+Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 ```
 
 Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Besprechungsrichtlinien finden Sie unter [Satz-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
