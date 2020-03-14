@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für Indien verfügbar sind.
-ms.openlocfilehash: 459579824f7f1c25b98e33029699c6e8635c46da
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+ms.openlocfilehash: 7fbd64ee3f00fdad0898c8dd6ea67bce224f8548
+ms.sourcegitcommit: 79572b3cb270c77ba7d78a06af02547ed9b7a7ea
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41853275"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632760"
 ---
 # <a name="availability-in-india"></a>Verfügbarkeit in Indien
 
@@ -42,7 +42,7 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Nein  <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Microsoft verkauft keine Audiokonferenzen in Indien. Tata Communications bietet einen Dial-in-und Dial-Out-Service, der mit Microsoft Teams-Besprechungen kompatibel ist. Weitere Informationen finden Sie auf der [Website von Tata Communications](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/).   <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li> Chennai<li> Mumbai</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar  <br/> |
    

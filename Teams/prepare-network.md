@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd27dfd6fccba5c7e9db52d58f7a6253849bea54
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 42f0ec656036849aa87d9d4e7e092f4b5d3a505f
+ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862905"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "42639462"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams 
 
@@ -111,7 +111,7 @@ Eine ausführliche Erläuterung der Netzwerkoptimierung, einschließlich Anleitu
 <ul>
 <li><p>VPNs sind in der Regel nicht für die Unterstützung von Echt Zeit Medien konzipiert oder konfiguriert.</p></li> 
 <li><p>Einige VPNs unterstützen möglicherweise auch keine UDP (Dies ist für Teams erforderlich).</p></li> 
-<li><p>Außerdem entsteht durch VPNs eine zusätzliche Verschlüsselungsebene über den bereits verschlüsselten Mediendatenverkehr hinaus.</p></li> 
+<li><p>VPNs führen auch eine zusätzliche Verschlüsselungsschicht über den bereits verschlüsselten Mediendatenverkehr ein.</p></li> 
 <li><p>Die Konnektivität zu Teams ist möglicherweise aufgrund des Haar befestigenden Datenverkehrs über ein VPN-Gerät nicht effizient.</p></li></td>
 </tr>
 <tr class="odd">
@@ -125,7 +125,7 @@ Eine ausführliche Erläuterung der Netzwerkoptimierung, einschließlich Anleitu
 <li><p>Implementieren Sie QoS oder WLAN-Multimedia (WMM), um sicherzustellen, dass der Medien Verkehr in Ihren WLAN-Netzwerken entsprechend priorisiert wird.</p></li>
 <li><p>Planen und optimieren Sie die WLAN-Bänder und die Position des Zugriffspunkts. Der 2,4-GHz-Bereich bietet zwar möglicherweise je nach Platzierung des Zugriffspunkts eine angemessene Qualität, Zugriffspunkte werden jedoch oft durch andere Heimanwendergeräte beeinflusst, die im gleichen Bereich betrieben werden. Der 5-GHz-Bereich ist aufgrund seines dichten Bereichs besser für echt Zeit Medien geeignet, erfordert aber mehr Zugriffspunkte, um genügend Deckung zu erhalten. Außerdem müssen die Endpunkte diesen Bereich unterstützen und so konfiguriert sein, dass sie diese Bänder entsprechend nutzen.</p></li>
 <li><p>Wenn Sie Dual-Band-WLAN-Netzwerke verwenden, sollten Sie die Implementierung von Bandsteuerungen in Frage stellen. <em>Band Lenkung</em> ist eine Technik, die von WLAN-Anbietern implementiert wird, um die Nutzung des 5-GHz-Bereichs für Dual-Band-Clients zu beeinflussen.</p></li>
-<li><p>Wenn Zugriffspunkte desselben Kanals zu eng zusammen sind, können Sie zu einer Signal Überlappung führen und unbeabsichtigt konkurrieren, was zu einem schlechten Nutzererlebnis führt. Stellen Sie sicher, dass Zugriffspunkte, die sich nah beieinander befinden, nicht überlappende Kanäle verwenden.</p></li>
+<li><p>Wenn Zugriffspunkte desselben Kanals zu eng zusammen sind, können Sie zu einer Signal Überlappung führen und unbeabsichtigt konkurrieren, was zu einem schlechten Nutzererlebnis führt. Stellen Sie sicher, dass sich die benachbarten Zugriffspunkte auf Kanälen befinden, die sich nicht überlappen.</p></li>
 </ul>
 <p>Jeder WLAN-Anbieter hat seine eigenen Empfehlungen für die Bereitstellung seiner WLAN-Lösung. Wenden Sie sich an Ihren WLAN-Anbieter, um spezifische Anleitungen zu erhalten.</p></td>
 </tr>

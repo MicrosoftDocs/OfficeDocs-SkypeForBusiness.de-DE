@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: Problembehandlung beim Erstellen einer Remote-PowerShell-Sitzung zum Herstellen einer Verbindung mit Skype for Business Online, einschließlich Import Modul, paralleler Shell, Live-ID und Berechtigungsfehlern.
-ms.openlocfilehash: f3de8d67079aaf4afeffdc63588f6806413383fc
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: be3500ea5573dab6daa3d8ff72a8de4f60566ee2
+ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010688"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637132"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostizieren von Verbindungsproblemen mit dem Skype for Business Online-Connector
 
@@ -140,7 +140,7 @@ Jeder Administrator darf maximal drei gleichzeitige Remoteverbindungen mit Skype
 ## <a name="the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded"></a>Die maximale Anzahl von gleichzeitigen Shells für den Mandanten in Skype for Business Online wurde überschritten
 <a name="BKMKMaxNumberShellsTenant"> </a>
 
-Obwohl jeder Administrator bis zu drei gleichzeitige Verbindungen mit einem Skype for Business Online-Mandanten verwenden kann, sind pro Mandant nicht mehr als neun gleichzeitige Verbindungen zulässig. So können beispielsweise drei Administratoren jeweils drei geöffnete Sitzungen haben. Wenn ein vierter Administrator eine Verbindung herzustellen versucht (sodass sich insgesamt zehn gleichzeitige Verbindungen ergeben), tritt ein Fehler auf, und die folgende Fehlermeldung wird angezeigt:
+Obwohl für jeden Administrator maximal drei gleichzeitige Verbindungen mit einem Skype for Business Online-Mandanten zulässig sind, darf kein einzelner Mandant mehr als zwanzig gleichzeitige Verbindungen haben. So haben beispielsweise sechs Administratoren jeweils drei offene Sitzungen. Wenn ein Siebenter Administrator versucht, mehr als zwei Verbindungen zu öffnen (wodurch insgesamt 21 gleichzeitige Verbindungen entstehen), schlägt dieser Versuch mit der folgenden Fehlermeldung fehl:
   
 - **Fehler**: *New-PSSession: [admin.vdomain.com] Verbindung mit dem Remoteserver admin.vdomain.com fehlgeschlagen mit der folgenden Fehlermeldung: der WS-Verwaltungsdienst kann die Anforderung nicht verarbeiten. Die maximale Anzahl von gleichzeitigen Shells für diesen Mandanten wurde überschritten. Schließen Sie vorhandene Shells, oder heben Sie das Kontingent für diesen Mandanten auf. Weitere Informationen finden Sie unter [Remote Troubleshooting] (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1 *
 

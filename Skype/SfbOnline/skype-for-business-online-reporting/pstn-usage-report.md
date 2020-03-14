@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Im neuen Bereich Berichte im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht PSTN-Verwendungsdetails in Skype for Business die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
-ms.openlocfilehash: a489277eceaab533fc03ac7017dcc217b4071bc6
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 7050334a390188f47f5d201b3fa541d337601400
+ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42582882"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637142"
 ---
 # <a name="pstn-usage-report"></a>Bericht "PSTN-Verbrauch"
 
@@ -56,7 +56,7 @@ Der Bericht sieht wie folgt aus:
 
 ***
 ![Nummer 1](../images/sfbcallout1.png)<br/>Die Tabelle zeigt die gesamte PSTN-Verwendung pro Benutzer an. Diese Auflistung enthält alle Benutzer, denen Skype for Business zugewiesen ist, sowie ihre PSTN-Verwendung. Sie können Spalten zur Tabelle hinzufügen bzw. daraus entfernen.
-*    **Anruf-ID** ist die ID für einen Anruf. Damit wird der Anruf eindeutig identifiziert, wenn Sie beim Microsoft-Support anrufen.
+*    **Anruf-ID** ist die ID für einen Anruf. Hierbei handelt es sich um einen Bezeichner für den Anruf, der beim Aufrufen des Microsoft-Dienst Supports verwendet wird.
 *    **Benutzer-ID** ist der Anmeldename des Benutzers.
 *    **Rufnummer** ist die Skype for Business-Rufnummer, unter der ein eingehender Anruf empfangen wurde, oder die Nummer, die für einen ausgehenden Anruf gewählt wurde.
 *    **Benutzerstandort** ist das Land/die Region, in dem bzw. der sich der Benutzer befindet.   
@@ -106,7 +106,48 @@ Der Bericht sieht wie folgt aus:
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>Klicken Sie hier, um eine Spalte zu ziehen, um nach **einer bestimmten Spalte zu gruppieren, ziehen Sie die Spaltenüberschrift, und legen** Sie Sie hier ab, wenn Sie eine Ansicht erstellen möchten, in der alle Daten in einer oder mehreren Spalten gruppiert werden.
  ***
-![Nummer 3](../images/sfbcallout3.png)<br/>Sie können die Berichtsdaten auch in eine durch trennzeichengetrennte Excel-Datei exportieren, indem Sie auf die Schaltfläche **nach Excel exportieren** klicken oder tippen. Sie können Daten bis zu einem Jahr nach dem aktuellen Datum exportieren, es sei denn, die landesspezifische Verordnung verbietet die Aufbewahrung der Daten für 12 Monate.<br/><br/> Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen. Bei weniger als 2.000 Benutzern können Sie innerhalb der Tabelle im Bericht selbst sortieren und filtern. 
+
+## <a name="exporting-pstn-usage-report"></a>Exportieren des Berichts zur PSTN-Nutzung
+
+Durch Klicken oder tippen auf die Schaltfläche " **in Excel exportieren** " können Sie den Bericht zur PSTN-Nutzung herunterladen. Sie können Daten bis zu einem Jahr nach dem aktuellen Datum exportieren, es sei denn, landesspezifische Bestimmungen verbieten die Aufbewahrung der Daten für 12 Monate.
+
+Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier- und Filtervorgänge zur weiteren Analyse ausführen.
+
+Der Export Vorgang kann abhängig von der Datenmenge zwischen wenigen Sekunden und einigen Minuten dauern. Wenn der Server den Export abgeschlossen hat, erhalten Sie eine ZIP-Datei mit dem Namen "**Calls. Export. [ ] `identifier`. zip**", wobei der Bezeichner eine eindeutige ID für den Export ist, die für die Problembehandlung verwendet werden kann.
+
+Wenn Sie sowohl über Anrufpläne als auch über direktes Routing verfügen, enthält die exportierte Datei möglicherweise Daten für beide Produkte. Die PSTN-Nutzungsberichts Datei hat den Dateinamen "**PSTN. Calls. [ ] `UTC date`. CSV**". Neben PSTN-und Direct-Routing Dateien enthält das Archiv die Datei "**Parameters. JSON**" mit dem ausgewählten Export Zeitbereich und den ausgewählten Funktionen (sofern vorhanden).
+
+Die exportierte Datei ist eine CSV-Datei (Comma Separated Values), die mit [RFC 4180](https://tools.ietf.org/html/rfc4180) Standard kompatibel ist. Die Datei kann in Excel oder einem anderen standardkompatiblen Editor geöffnet werden, ohne dass Transformationen erforderlich sind.
+
+Die erste Zeile der CSV-Datei enthält Spaltennamen.
+
+### <a name="fields-in-the-export"></a>Felder im Export
+
+Die exportierte Datei enthält zusätzliche Felder, die im Online Bericht nicht zur Verfügung stehen. Diese können für die Problembehandlung und automatisierte Workflows verwendet werden.
+
+| #  | Name | [Datentyp (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Beschreibung |
+| :-: | :-: | :-: |:------------------- |
+| 0 | Verwendungs-Nr | `uniqueidentifier` | Eindeutige Anrufkennung |
+| 1 | Anruf-ID | `nvarchar(64)` | Anruf-ID. Nicht garantiert eindeutig |
+| 2 | Konferenz-ID | `nvarchar(64)` | ID der Audiokonferenz |
+| 3 | Speicherort des Benutzers | `nvarchar(2)` | Landesvorwahl des Benutzers, [ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+| 4 | Aad-ObjectID | `uniqueidentifier` | Die ID des Benutzers wird in Azure Active Directory aufgerufen.<br/> Diese und andere Benutzerinformationen werden für bot-Anruftypen (ucap_in, ucap_out) NULL/leer sein. |
+| 5 | UPN | `nvarchar(128)` | UserPrincipalName (Anmeldename) in Azure Active Directory<br/>Dies ist normalerweise identisch mit der SIP-Adresse des Benutzers und kann mit der e-Mail-Adresse des Benutzers identisch sein. |
+| 6 | Benutzeranzeige Name | `nvarchar(128)` | Anzeigename des Benutzers |
+| 7 | Anrufer-ID | `nvarchar(128)` | Die Nummer, die den Anruf für eingehende Anrufe empfangen hat, oder die Nummer, die für ausgehende Anrufe gewählt wurde. [E. 164-](https://en.wikipedia.org/wiki/E.164) Format |
+| 8 | Anruftyp | `nvarchar(32)` | Ob es sich um einen PSTN-Ausgangs-oder eingehenden Anruf und die Art des Anrufs wie einen Anruf von einem Benutzer oder einer Audiokonferenz gehandelt hat |
+| 9 | Zahlentyp | `nvarchar(16)` | Art der Telefonnummer des Benutzers, beispielsweise eine gebührenfreie Nummer |
+| 10 | Domestic/International | `nvarchar(16)` | Ob es sich um einen Inlandsanruf (innerhalb eines Landes oder einer Region) oder um einen internationalen (außerhalb eines Landes oder einer Region) basierend auf dem Standort des Benutzers handelt |
+| 11 | Ziel gewählt | `nvarchar(64)` | Land oder Region gewählt |
+| 12 | Ziel Nummer | `nvarchar(32)` | Nummer im [E. 164-](https://en.wikipedia.org/wiki/E.164) Format gewählt |
+| 13 | Startzeit | `datetimeoffset` | Startzeit des Anrufs (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+| 14 | Endzeit | `datetimeoffset` | Endzeit des Anrufs (UTC, [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)) |
+| 15 | Dauer (Sekunden) | `int` | Wie lange der Anruf verbunden war |
+| 16 | Verbindungsgebühr | `numeric(16, 2)` | Verbindungsgebühren Preis |
+| 17 | Kostenlos | `numeric(16, 2)` | Betrag des Guthabens oder der Kosten des Anrufs, der Ihrem Konto belastet wird |
+| 18 | Währung | `nvarchar(3)` | Art der Währung, die für die Berechnung der Kosten des Anrufs verwendet wird ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
+| 19 | Funktion | `nvarchar(32)` | Die für den Anruf verwendete Lizenz |
+
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>Möchten Sie andere Skype for Business-Berichte anzeigen?
 
