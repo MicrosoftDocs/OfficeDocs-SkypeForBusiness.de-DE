@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3226dd3887a4d289b810bb866d96dba704dd448
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 29cd3a6b420ab33cfc6f18b839d544572cfc9753
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837115"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706915"
 ---
-![Diagramm der Teams-Upgrade-Reise](media/upgrade-banner-main.png "Stellen Sie sicher, dass Ihr Projekt mit dem richtigen Projektteam erfolgreich eingerichtet ist. Definieren des Projektumfangs, der Ziele und der Zeitachse Bestätigen Sie sowohl die technische als auch die Benutzer Bereitschaft. Führen Sie den Rollout-Plan aus. Dynamik beibehalten, um die Ergebnisse zu maximieren.")
-
 # <a name="plan-for-your-upgrade"></a>Planen des Upgrades
+
+![Diagramm der Teams-Upgrade-Reise](media/upgrade-banner-main.png "Stellen Sie sicher, dass Ihr Projekt mit dem richtigen Projektteam erfolgreich eingerichtet ist. Definieren des Projektumfangs, der Ziele und der Zeitachse Bestätigen Sie sowohl die technische als auch die Benutzer Bereitschaft. Führen Sie den Rollout-Plan aus. Dynamik beibehalten, um die Ergebnisse zu maximieren.")
 
 Ein gesundes technisches Umfeld, eine nachhaltige Benutzerakzeptanz und die Realisierung Ihrer geschäftlichen Ziele beginnen mit der richtigen Planung. Ein vollständiger Plan bietet Ihnen ein Framework für Ihr Upgradeprojekt und stellt sicher, dass alle Projekt Beteiligten auf die gleichen Ziele hinarbeiten. Wenn Sie sich Zeit nehmen, um den Erfolg richtig zu definieren, können Sie die Ergebnisse im Verlauf Ihrer Bereitstellung Messen und sicherstellen, dass Sie die gewünschten Ergebnisse erzielen. Ihre Reiseplanung umfasst:
 

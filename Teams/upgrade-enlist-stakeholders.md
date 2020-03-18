@@ -18,19 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b271dbfbb99508c26feb86cb7803b8eacdf73910
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 5244bd063caae9b0fab1411f4644e3adbd337431
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837195"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706995"
 ---
+# <a name="enlist-your-project-stakeholders"></a>Ernennen der Projektbeteiligten
+
 ![Abbildung des Stakeholder-Status der Upgrade-Reise](media/upgrade-banner-stakeholders.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf dem Sammeln Ihres Teams von Projekt beteiligten liegt")
 
 Dieser Artikel ist Teil der Project Stakeholder-Phase ihres Upgrade-Vorgangs, der ersten und wichtigsten Aktivität, die Sie für den Erfolg Ihres Projekts abgeschlossen haben.
-
-
-# <a name="enlist-your-project-stakeholders"></a>Ernennen der Projektbeteiligten
 
 Von der Implementierung von Projektergebnissen bis hin zur vermehrten Verantwortlichkeit halten Ihre Stakeholder den Schlüssel zum Erfolg Ihres Projekts. Es gibt zwei Gruppen von Teilnehmern, die Sie zuweisen möchten: (1) eine _Sponsoring-Koalition_ , die Führungskräfte und Projektsponsoren umfasst, die über ein Interesse an dem Erfolg des Projekts verfügen, und (2) das _Projektteam_, bestehend aus den Personen, die für die Bereitstellungtechnischer und Benutzer Bereitschaft verantwortlich sind, die die verschiedenen Aufgaben im Projektplan durchführen werden. Der gemeinsame Thread zwischen diesen beiden Gruppen ist der _Projektmanager_, der sicherstellt, dass Projektaufgaben planmäßig abgeschlossen werden und der Koalition den Projektstatus zurückgibt.
 

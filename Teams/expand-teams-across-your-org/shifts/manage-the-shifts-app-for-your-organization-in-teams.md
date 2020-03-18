@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie die app "Schichten" in Teams für First-worker in Ihrer Organisation einrichten und verwalten.
+description: Hier erfahren Sie, wie Sie die Schichten-App in Microsoft Teams für Mitarbeiter in Service und Produktion in Ihrer Organisation einrichten und verwalten können.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 134ff131307034381b97643a2bf9a3dd7fc87a7d
 ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 02/20/2020
 ms.locfileid: "42161858"
@@ -27,62 +27,62 @@ ms.locfileid: "42161858"
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
 
 > [!IMPORTANT]
-> 2019, 31. Dezember, wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Teams die Schicht-App für die Terminplanung, und zusätzliche Funktionen werden im Laufe der Zeit bereitgestellt. StaffHub wird am 31. Dezember 2019 nicht mehr für alle Benutzer funktionieren. Jede Person, die versucht, StaffHub zu öffnen, wird eine Meldung angezeigt, die Sie zum Herunterladen von Teams anweist. Weitere Informationen finden Sie unter [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).  
+> Am 31. Dezember 2019 wird Microsoft StaffHub eingestellt. Einige StaffHub-Funktionen werden in Microsoft Teams integriert. Heute umfasst Microsoft Teams die App "Schichten" für die Zeitplanverwaltung, und im Laufe der Zeit werden zusätzliche Funktionen bereit stehen. StaffHub wird am 31. Dezember 2019 für alle Benutzer eingestellt. Jedem Benutzer, der StaffHub zu öffnen versucht, wird eine Meldung angezeigt, die ihn zum Microsoft Teams-Download leitet. Weitere Informationen finden Sie unter [Microsoft StaffHub wird eingestellt](microsoft-staffhub-to-be-retired.md).  
 
-## <a name="overview-of-shifts"></a>Übersicht über Schichten
+## <a name="overview-of-shifts"></a>Übersicht über "Schichten"
 
-Mit der App "Schichten" in Microsoft Teams sind die Mitarbeiter von firstal verbunden und synchron. Es ist ein mobiles Gerät, das für schnelle und effektive Zeitmanagement und Kommunikation für Teams entwickelt wurde. Mithilfe von Schichten können First-Worker und Ihre Manager Ihre mobilen Geräte verwenden, um Zeitpläne zu verwalten und in Kontakt zu bleiben. 
+Die Schichten-App in Microsoft Teams sorgt dafür, dass Mitarbeiter in Service und Produktion vernetzt und ihre Zeitpläne synchronisiert sind. Sie stellt eine mobile Lösung für eine schnelle und effektive Zeitverwaltung und Kommunikation für Teams dar. Mithilfe der Schichten-App können Mitarbeiter in Service und Produktion sowie deren Vorgesetzte ihre mobilen Geräte verwenden, um Arbeitszeitpläne zu verwalten und in Kontakt zu bleiben. 
 
-- Manager erstellen, aktualisieren und verwalten Schichtpläne für Teams. Sie können Nachrichten an eine Person senden ("Es gibt einen Überlauf auf dem Boden") oder das gesamte Team ("der regionale GM wird in 20 Minuten ankommen"). Sie können auch Richtliniendokumente, Nachrichtenbulletins und Videos senden. 
-- Die Mitarbeiter sehen Ihre bevorstehenden Schichten an, können sehen, wer sonst für den Tag geplant ist, die Anforderung zum tauschen oder zur Verfügung stellen und eine freie Zeit anfordern. 
+- Vorgesetzte erstellen, aktualisieren und verwalten Schichtzeitpläne für Teams. Sie können Nachrichten an eine Person ("Der Boden ist schmutzig") oder an das gesamte Team ("Der regionale Geschäftsführer kommt in 20 Minuten") senden. Sie können auch Richtliniendokumente, Bekanntmachungen und Videos senden. 
+- Mitarbeiter können anstehende Schichten anzeigen, sie können sehen, wer für diesen Tag sonst noch eingeteilt ist, einen Schichtwechsel oder arbeitsfreie Zeit beantragen. 
 
-Es ist wichtig zu wissen, dass Schichten die Gastbenutzer derzeit nicht unterstützen. Das bedeutet, dass Gäste in einem Team nicht hinzugefügt oder Schichtpläne verwenden können, wenn der Gastzugriff in Teams aktiviert ist. 
+Es ist wichtig zu wissen, dass "Schichten" zurzeit keine Gastbenutzer unterstützt. Dies bedeutet, dass Gäste eines Teams keinen Schichtplänen hinzugefügt werden können und diese auch nicht verwenden können, wenn der Gastzugriff in Microsoft Teams aktiviert ist. 
 
-## <a name="availability-of-shifts"></a>Verfügbarkeit von Schichten
+## <a name="availability-of-shifts"></a>Verfügbarkeit der Schichten-App
 
-Schichten sind in allen Enterprise-SKUs verfügbar, in denen Teams verfügbar sind.
+"Schichten" ist in allen Enterprise-SKUs verfügbar, die Microsoft Teams umfassen.
 
-## <a name="location-of-shifts-data"></a>Speicherort von schichtdaten
+## <a name="location-of-shifts-data"></a>Speicherort von Daten der Schichten-App
 
-Schichten Daten werden derzeit in Azure in Rechenzentren in Nordamerika, Westeuropa und Asien-Pazifik gespeichert. Weitere Informationen dazu, wo Daten gespeichert werden, finden Sie unter [wo befinden sich meine Daten](http://o365datacentermap.azurewebsites.net/)?
+Daten der Schichten-App werden aktuell in Azure in Rechenzentren in Nordamerika, Westeuropa und im asiatisch-pazifischen Raum gespeichert. Weitere Informationen zum Speicherort von Daten finden Sie unter [Wo befinden sich meine Daten?](http://o365datacentermap.azurewebsites.net/).
 
-## <a name="set-up-shifts"></a>Einrichten von Schichten
+## <a name="set-up-shifts"></a>Einrichten von "Schichten"
 
-### <a name="enable-or-disable-shifts-in-your-organization"></a>Aktivieren oder Deaktivieren von Schichten in Ihrer Organisation
+### <a name="enable-or-disable-shifts-in-your-organization"></a>Aktivieren oder Deaktivieren von "Schichten" in Ihrer Organisation
 
-Schichten sind standardmäßig für alle Teams-Benutzer in Ihrer Organisation aktiviert. Sie können die APP auf der Organisationsebene auf der Seite " [apps verwalten](../../manage-apps.md) " im Microsoft Teams Admin Center deaktivieren oder aktivieren.
+"Schichten" ist standardmäßig für alle Microsoft Teams-Benutzer in Ihrer Organisation aktiviert. Sie können die App auf Organisationsebene im Microsoft Teams Admin Center auf der Seite [Apps verwalten](../../manage-apps.md) deaktivieren oder aktivieren.
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams apps** > **Verwalten von apps** .
-2. Führen Sie in der Liste der apps eine der folgenden Aktionen aus:
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**.
+2. Führen Sie in der Liste der Apps einen der folgenden Schritte aus:
 
-    - Wenn Sie die Schichten für Ihre Organisation deaktivieren möchten, suchen Sie nach der APP Schichten, wählen Sie Sie aus, und klicken Sie dann auf **blockieren**.
-    - Wenn Sie die Schichten für Ihre Organisation aktivieren möchten, suchen Sie nach der APP Schichten, wählen Sie Sie aus, und klicken Sie dann auf **zulassen**.
+    - Wenn Sie "Schichten" für Ihre Organisation deaktivieren möchten, suchen Sie nach der App "Schichten", wählen Sie sie aus, und klicken Sie dann auf **Blockieren**.
+    - Wenn Sie "Schichten" für Ihre Organisation aktivieren möchten, suchen Sie nach der App "Schichten", wählen Sie sie aus, und klicken Sie dann auf **Zulassen**.
 
-### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Aktivieren oder Deaktivieren von Schichten für bestimmte Benutzer in Ihrer Organisation
+### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Aktivieren oder Deaktivieren von "Schichten" für bestimmte Benutzer in Ihrer Organisation
 
-Wenn Sie bestimmten Benutzern in Ihrer Organisation das Verwenden von Schichten erlauben oder blockieren möchten, stellen Sie sicher, dass für Ihre Organisation auf der Seite " [apps verwalten](../../manage-apps.md) " die Option "Schichten" aktiviert ist, und erstellen Sie dann eine benutzerdefinierte App-Berechtigungsrichtlinie, und weisen Sie diese Benutzern zu. Weitere Informationen finden Sie unter [Verwalten von App-Berechtigungsrichtlinien in Teams](../../teams-app-permission-policies.md).
+Wenn Sie die Nutzung von "Schichten" für bestimmte Benutzer in Ihrer Organisation zulassen oder blockieren möchten, stellen Sie sicher, dass die App für Ihre Organisation auf der Seite [Apps verwalten](../../manage-apps.md) aktiviert ist, und erstellen Sie dann eine benutzerdefinierte App-Berechtigungsrichtlinie, und weisen Sie diese den betreffenden Benutzern zu. Weitere Informationen finden Sie unter [Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams](../../teams-app-permission-policies.md).
 
-### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Verwenden der FirstlineWorker-App-Setup Richtlinie zum Anheften von Schichten an Teams
+### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>Verwenden der FirstlineWorker App-Setup-Richtlinie, um "Schichten" in Microsoft Teams anzuheften
 
-Mit den Richtlinien für die APP-Einrichtung können Sie Teams anpassen, um die apps hervorzuheben, die für Benutzer in Ihrer Organisation am wichtigsten sind. Die in einer Richtlinie festgelegten apps werden an&mdash;die APP-Leiste angeheftet, die sich auf der Seite des Teams-Desktop Clients und am unteren&mdash;Rand der mobilen Teams-Clients befindet, auf denen Benutzer schnell und einfach darauf zugreifen können. 
+Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass die Apps, die für die Benutzer in Ihrer Organisation am wichtigsten sind, hervorgehoben werden. Die in einer Richtlinie festgelegten Apps werden an die App-Leiste geheftet &mdash;das ist die seitliche Leiste bei Microsoft Teams-Desktop-Clients und am unteren Rand bei Microsoft Teams Mobile-Clients&mdash;, von wo die Benutzer schnell und einfach darauf zugreifen können. 
  
-Teams umfasst eine integrierte Richtlinie für die FirstlineWorker-APP, die Sie den Mitarbeitern in Ihrer Organisation in erster Linie zuweisen können. Standardmäßig umfasst die Richtlinie die Aktivitäten, Schichten, Chats und Anruf-apps. 
+Microsoft Teams umfasst eine integrierte FirstlineWorker-App-Setup-Richtlinie, die Sie Mitarbeitern in Service und Produktion in Ihrem Unternehmen zuweisen können. Standardmäßig beinhaltet diese Richtlinie die Apps für Aktivität, Schichten, Chat und Anrufe. 
 
-Wenn Sie die FirstlineWorker-Richtlinie anzeigen möchten, wechseln Sie in der linken Navigationsleiste des Microsoft Teams admin Centers zu den**Setup Richtlinien**für **Teams-App** > -app.
+Wenn Sie die FirstlineWorker-Richtlinie anzeigen möchten, wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu **Teams-App** > **-App-Setup-Richtlinien**.
 
-![Screenshot der FirstlineWorker-App-Setup Richtlinie](../../media/firstline-worker-app-setup-policy.png "Screenshot der FirstlineWorker-App-Setup Richtlinie im Microsoft Teams Admin Center")
+![Screenshot der FirstlineWorker-App-Setup-Richtlinie](../../media/firstline-worker-app-setup-policy.png "Screenshot der FirstlineWorker-App-Setup-Richtlinie im Microsoft Teams Admin Center")
 
-#### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>Zuweisen der FirstlineWorker-Richtlinie zu einzelnen Benutzern
+#### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>Einzelnen Benutzern die FirstlineWorker-Richtlinie zuweisen
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**, und klicken Sie dann auf den Benutzer.
-2. Wählen Sie neben **zugewiesene Richtlinien**die Option **Bearbeiten**aus.
-3. Wählen Sie unter **Teams-App-Setup Richtlinie**die Option **FirstlineWorker**aus, und wählen Sie dann **Speichern**aus.
+1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Benutzer**, und klicken Sie dann den gewünschten Benutzer an.
+2. Wählen Sie neben **Zugewiesene Richtlinien****Bearbeiten** aus.
+3. Wählen Sie unter **Teams-App-Setup-Richtlinie****FirstlineWorker** und dann **Speichern** aus.
 
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>Zuweisen der FirstlineWorker-App-Setup Richtlinie zu Benutzer Mitgliedern einer Gruppe
+#### <a name="assign-the-firstlineworker-app-setup-policy-to-user-members-of-a-group"></a>Die FirstlineWorker App-Setup-Richtlinie Mitgliedern einer Gruppe zuweisen
 
-Sie können die FirstlineWorker-App-Setup Richtlinie Benutzern einer Gruppe wie einer Sicherheitsgruppe zuweisen, indem Sie eine Verbindung mit dem Azure Active Directory PowerShell für Graph-Modul und dem Skype for Business PowerShell-Modul herstellen. Weitere Informationen zur Verwendung von PowerShell zum Verwalten von Teams finden Sie unter [Überblick über PowerShell für Microsoft Teams](../../teams-powershell-overview.md).
+Sie können die FirstlineWorker-App-Setup-Richtlinie Mitgliedern einer Gruppe wie z. B. einer Sicherheitsgruppe zuweisen, indem Sie eine Verbindung mit dem Azure Active Directory PowerShell für Graph-Modul und dem Skype for Business PowerShell-Modul herstellen. Weitere Informationen zur Verwendung von PowerShell zum Verwalten von Teams finden Sie unter [Überblick über PowerShell für Microsoft Teams](../../teams-powershell-overview.md).
 
-In diesem Beispiel weisen wir die FirstlineWorker-App-Setup Richtlinie allen Benutzer Mitgliedern der Contoso First Team-Gruppe zu.
+In diesem Beispiel wird die FirstlineWorker-App-Setup-Richtlinie allen Mitgliedern der Gruppe "Contoso Firstline-Team" zugewiesen.
 
 > [!NOTE]
 > Stellen Sie sicher, dass Sie zuerst eine Verbindung mit dem Azure Active Directory PowerShell for Graph-Modul und dem Skype for Business PowerShell-Modul herstellen, indem Sie die Schritte unter [Verbinden mit allen Office 365-Diensten in einem einzigen Windows PowerShell-Fenster](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window)ausführen.
@@ -95,11 +95,11 @@ Abrufen der Mitglieder der gewählten Gruppe.
 ```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
-Weisen Sie die FirstlineWorker-App-Setup Richtlinie allen Benutzer Mitgliedern der Gruppe zu.
+Die FirstlineWorker App-Setup-Richtlinie allen Mitgliedern der Gruppe zuweisen.
 ```PowerShell
 $members | ForEach-Object {Grant-CsTeamsAppSetupPolicy -PolicyName "FirstlineWorker" -Identity $_.EmailAddress}
 ``` 
 Je nach Anzahl der Mitglieder einer Gruppe kann das Ausführen dieses Befehls mehrere Minuten dauern.
 
 ## <a name="related-topics"></a>Verwandte Themen
-- [Schicht Hilfe für Mitarbeiter von First-work](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Hilfe zur Schichten-App für Mitarbeiter in Service und Produktion](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)

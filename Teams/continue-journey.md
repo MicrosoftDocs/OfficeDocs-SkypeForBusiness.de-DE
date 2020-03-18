@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ffbf676a86320fe3003d26dc94161d9e9e58c4d
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 41976649dec2509a9adfd472e7c382389250a4b4
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550912"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706445"
 ---
+# <a name="how-to-use-microsoft-teams-effectively"></a>Effektives Verwenden von Microsoft Teams
+
 ![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Operational Excellence Stage](media/upgrade-banner-op-excellence.png "Etappen des Upgrade-Vorgangs mit dem Schwerpunkt auf der Stufe "Operational Excellence"")
 
 Dieser Artikel ist Teil des "Operational Excellence"-Schritts Ihres Upgrade-Vorgangs, der beginnt, sobald Sie das Upgrade von Skype for Business auf Teams abgeschlossen haben.
-
-# <a name="how-to-use-microsoft-teams-effectively"></a>Effektives Verwenden von Microsoft Teams
 
 Technologie ist innovativ in einem beispiellosen Tempo. Es ist ein Standard, wie Organisationen arbeiten, um sich auf dem Laufenden zu halten und ein modernes Arbeitsumfeld zu ermöglichen. Wenn Microsoft Teams, Microsoft 365 und die intelligente Kommunikations Vision von Microsoft weiterentwickelt werden, wird mit einem operationellen Plan sichergestellt, dass Ihre Organisation für langfristigen Erfolg eingerichtet ist. Ein optimaler Einsatzplan umfasst das Überwachen Ihrer Umgebung für Gesundheit und Qualität, die fortgesetzte Benutzer Dynamik zur Optimierung der Akzeptanz und die Planung neuer Funktionen, die im Laufe der Zeit weiterhin online sind.
 

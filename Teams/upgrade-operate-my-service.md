@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e3ef345df2696cd0d450f8b16d93508d0eed545
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 6d9bcc5e00b9892bf8405eddb2ac24291a485d19
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863516"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706965"
 ---
+# <a name="operate-your-service"></a>Betreiben des Diensts
+
 ![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Operational Excellence Stage](media/upgrade-banner-op-excellence.png "Etappen des Upgrade-Vorgangs mit dem Schwerpunkt auf der Stufe "Operational Excellence"")
 
 Dieser Artikel ist Teil des "Operational Excellence"-Schritts Ihres Upgrade-Vorgangs, der beginnt, sobald Sie das Upgrade von Skype for Business auf Teams abgeschlossen haben.
-
-# <a name="operate-your-service"></a>Betreiben des Diensts
 
 Dieser Artikel enthält eine Übersicht über die Anforderungen für das erfolgreiche Arbeiten mit Teams für Ihre Organisation, nachdem Sie das Upgrade durchgeführt haben. Durch die ordnungsgemäße Bedienung Ihrer Teams-Dienste können Sie sicherstellen, dass Sie eine qualitativ hochwertige und zuverlässige Benutzeroberfläche für Ihre Organisation bereitstellen.
 

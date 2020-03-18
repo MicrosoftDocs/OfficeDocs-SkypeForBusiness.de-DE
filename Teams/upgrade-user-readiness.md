@@ -18,23 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad51dd4b269652ec1899b2af6ace6a9b7b9f713a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d52c9d670c81e0fcbdcf31012ec08a008b082459
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836795"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706685"
 ---
+# <a name="prepare-a-user-readiness-plan"></a>Vorbereiten eines Plans zur Benutzerbereitschaft
+
 ![Phasen der Upgrade-Reise, wobei die Benutzer Bereitschaftsstufe hervorzuheben ist](media/upgrade-banner-user-readiness.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Benutzer Bereitschaftsstufe")
 
-Dieser Artikel ist Teil der Benutzer Bereitschaftsstufe Ihres Upgrade-Vorgangs, einer Aktivität, die Sie parallel zur technischen Bereitschaftsphase abschließen. Vergewissern Sie sich zunächst, dass diese Aktivitäten aus den vorherigen Phasen abgeschlossen sind:
+Dieser Artikel ist Teil der Benutzer Bereitschaftsstufe Ihres Upgrade-Vorgangs, einer Aktivität, die Sie parallel zur technischen Bereitschaftsphase abschließen. Bevor Sie fortfahren, bestätigen Sie, dass Sie diese Aktivitäten aus vorherigen Phasen abgeschlossen haben:
 
 - [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 - [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
 - [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="prepare-a-user-readiness-plan"></a>Vorbereiten eines Plans zur Benutzerbereitschaft
 
 Ein optimaler Benutzer Bereitschaftsplan beinhaltet, wie Sie Ihre Benutzer während Ihres Pilot-, Onboard-und Upgrade-Teams mit Ihnen in Verbindung setzen, trainieren und unterstützen. Wie Sie bei der [Beurteilung der Bereitschaft zur organisatorischen Änderung](https://aka.ms/OrgReadiness)festgestellt haben, ist die Bereitschaft nicht 1:1-passend. Um eine optimale Empfänglichkeit für die neue Technologie zu gewährleisten, verwenden Sie eine Kombination aus breit gefächerten Nachrichten (einschließlich des Ziels/Wert-Messaging und universelle Anwendungsfälle) sowie Nachrichten, Schulungen und Support, die auf die von Ihnen festgelegten Personas und Kohorten zugeschnitten sind, sowie auf Ihre Nachzügler. Dieser personalisierte Plan hilft Ihnen, die Benutzerakzeptanz zu erleichtern, indem Sie Benutzern ermöglichen, sich schneller auf Teams zu beziehen, während Sie demonstrieren, dass Sie Ihre Anforderungen verstehen.
 

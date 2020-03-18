@@ -18,20 +18,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13da1a583d5aa0abaad4e981e5fc68d3aa913ce9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4084bc58d98aa05af14511869fc44c6db85343b8
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837245"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42707015"
 ---
+# <a name="define-your-project-scope"></a>Definieren des Projektumfangs
+
 ![Diagramm zum Upgrade von Routen, mit dem die Projekt Definitions Stufe markiert wird](media/upgrade-banner-project-definition.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Projekt Definitions Stufe")
 
 Dieser Artikel ist Teil der Projekt Definitionsphase Ihres Upgrade-Vorgangs, eine Aktivität, die Sie nach dem Erstellen einer Sponsoring-Koalition und eines Projektteams von den von Ihnen festgelegten Stakeholdern abgeschlossen haben, ist der Schlüssel zum Erfolg Ihres Projekts. Bevor Sie fortfahren, bestätigen Sie, dass Sie die folgenden Aktivitäten abgeschlossen haben:
 
 - [Projekt beteiligte](upgrade-enlist-stakeholders.md)
-
-# <a name="define-your-project-scope"></a>Definieren des Projektumfangs
 
 Wenn Sie sich Zeit für die Definition ihrer Projekt Vision, ihres Bereichs, ihrer Ziele und ihrer Governance nehmen, können Sie sicherstellen, dass alle Projekt beteiligten ausgerichtet sind und auf die gleichen Endergebnisse hinarbeiten. Dies ist besonders wichtig, da das Team der technischen Bereitschaft und das Team für die Benutzer Bereitschaft unabhängig voneinander arbeiten werden, um die jeweiligen Teile zusammenzuziehen. Nachdem Sie diesen Abschnitt abgeschlossen haben, finden Sie im gesamten Projektinformationen dazu, um sicherzustellen, dass Sie auf dem Laufenden sind, um den gewünschten Endzustand zu erreichen. Verwenden Sie die Ziele, die Sie unten identifizieren, um Ihre Ergebnisse zu messen und bei Bedarf zu verringern.
 

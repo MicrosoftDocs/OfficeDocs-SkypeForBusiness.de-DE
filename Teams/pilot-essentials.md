@@ -18,13 +18,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec60beb606224a5b202a03187027b8e3e002dfd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 52721d40e36dc017d9ba76473367d1c9c5e5b4e7
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833895"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706455"
 ---
+# <a name="conduct-a-user-pilot"></a>Durchführen eines Benutzerpilotprojekts
+
 ![Diagramm zur Aktualisierung der Reise, Highlighting Bereitstellung und Implementierung](media/upgrade-banner-deployment.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der Bereitstellungs-und Implementierungsphase liegt")
 
 Dieser Artikel ist Teil der Bereitstellungs-und Implementierungsphase Ihrer Upgrade-Reise und teilt Einblicke für die Ausführung eines effektiven Pilotprojekts. Bevor Sie fortfahren, bestätigen Sie, dass Sie die folgenden Aktivitäten abgeschlossen haben:
@@ -35,8 +37,6 @@ Dieser Artikel ist Teil der Bereitstellungs-und Implementierungsphase Ihrer Upgr
 - [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Ihre Umgebung vorbereitet](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Vorbereiten Ihrer Organisation](https://aka.ms/SkypeToTeams-UserReadiness)
-
-# <a name="conduct-a-user-pilot"></a>Durchführen eines Benutzerpilotprojekts
 
 Durch die Bereitstellungneuer Technologien kann Ihre Organisation geschäftlichen Nutzen wie Kosteneinsparungen, Sicherheitskonformität, Mitarbeiterzufriedenheit und operative Effizienz verwirklichen, kann sich aber auch auf die Produktivität und die organisatorische Infrastruktur Ihrer Benutzer auswirken ( Ihrem Netzwerk). Bevor Sie neue Technologien in Ihrer Organisation aktivieren, führen Sie einen formellen Benutzer Pilot aus. Genau wie Sie einen kleinen Fleck Farbe auf eine Wand malen würden, bevor Sie den ganzen Raum malen, würden Sie einen breiten Rollout auf einem kleineren Maßstab testen, indem Sie ein Pilotprojekt durchführen, um die technische und Benutzer Bereitschaft zu überprüfen, Probleme zu erkennen und zu verringern und um sicherzustellen, dass eine erfolgreiche organisationsweite Implementierung.
 

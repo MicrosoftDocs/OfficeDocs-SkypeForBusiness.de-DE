@@ -18,23 +18,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d7d0b1cf23b94f33c66218eaacdfdeda5aaab19
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 888e56561e4e6f4a521a0e1730fe3c9ea6adff82
+ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42048596"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42706935"
 ---
+# <a name="assess-organizational-change-readiness"></a>Bewerten der Bereitschaft zu organisationsweiten Änderungen
+
 ![Diagramm zum Upgrade von Fahrten mit Hervorhebung der Benutzer Bereitschaftsstufe](media/upgrade-banner-user-readiness.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Benutzer Bereitschaftsstufe")
 
-Dieser Artikel ist Teil der Benutzer Bereitschaftsstufe Ihres Upgrade-Vorgangs, einer Aktivität, die Sie parallel zur technischen Bereitschaftsphase abschließen. Vergewissern Sie sich zunächst, dass diese Aktivitäten aus den vorherigen Phasen abgeschlossen sind:
+Dieser Artikel ist Teil der Benutzer Bereitschaftsstufe Ihres Upgrade-Vorgangs, einer Aktivität, die Sie parallel zur technischen Bereitschaftsphase abschließen. Bevor Sie fortfahren, bestätigen Sie, dass Sie diese Aktivitäten aus vorherigen Phasen abgeschlossen haben:
 
 - [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 - [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
 - [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-
-# <a name="assess-organizational-change-readiness"></a>Bewerten der Bereitschaft zu organisationsweiten Änderungen
 
 Nachdem Sie Ihr Projektteam gesichert und ihre Vision, ihren Umfang und ihre Ziele definiert haben, besteht der nächste Schritt bei der Upgrade-Reise darin, sicherzustellen, dass Ihre Organisation und Ihre Benutzer für Teams bereit sind – eine Aktivität, die Sie parallel zur Sicherstellung ihrer technischen Bereitschaft abschließen. Um den Wert aus Teams zu realisieren, müssen Benutzer ihn tatsächlich verwenden. Wenn Sie Teams einfach aktivieren, können Sie nicht garantieren, dass Sie Ihr Ziel erreichen. Die Benutzer haben unterschiedliche Anwendungsfälle und unterschiedliche Lernstile, die sich an neue Technologien mit unterschiedlichen Geschwindigkeiten anpassen. Die gute Nachricht ist, dass die Verwaltung von Änderungen nicht so kompliziert ist, aber eine gezielte Anstrengung unternimmt. Die folgenden geführten Diskussionen sollen Ihnen helfen, ihre Nutzerbasis zu verstehen, damit Sie das richtige Bildungsniveau vorbereiten können, um die Benutzerakzeptanz zu erleichtern und zu beschleunigen. Es gibt zwei Möglichkeiten, wie Sie Ihre Nutzerbasis sehen:
 
@@ -62,7 +62,7 @@ Verwenden Sie die folgenden Konversationsstarter, um eine Beurteilung der organi
 <!--
 | **Type of user** | **%** |
 |------------|---|
-| *Early adopters* request the solution before it’s available. | |
+| *Early adopters* request the solution before it's available. | |
 | *Informed users* accept the solution as soon as its value is demonstrated. | |
 | *Laggards* reject the solution, even when pushed into change. | |
 -->
@@ -80,8 +80,8 @@ Verwenden Sie die folgenden Konversationsstarter, um eine Beurteilung der organi
 | **Type of learner** | **%** |
 |---------------|---|
 | *Self-motivated* learners seek out resources, learn by doing. | |
-| *Team-players* enjoy group and interactive training; they’ll go along with coworkers. | |
-| *Hand-holding* seekers expect “white glove” or one-on-one assistance. | |
+| *Team-players* enjoy group and interactive training; they'll go along with coworkers. | |
+| *Hand-holding* seekers expect "white glove" or one-on-one assistance. | |
 -->
 
 | Selbst motiviert | Team Player | Hand-Holding-Sucher |
