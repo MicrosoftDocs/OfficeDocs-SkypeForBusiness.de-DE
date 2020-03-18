@@ -3,11 +3,10 @@ title: Tools und Workshops – Planen, Bereitstellen und Einführen von Microso
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/17/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.reviewer: lolaj, rowille
+ms.reviewer: karuanag
 description: Planungstools, Workshops und Kits für die ersten Schritte von Organisationen mit Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
@@ -15,12 +14,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 356ff815fe05a91f203778c0f6af255182ace35c
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
+ms.openlocfilehash: 1ac7c61675c04d6d184a3b7fe14b4088f43bd2ef
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550902"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42840109"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Tools und Workshops: Planen, Bereitstellen und Einführen von Microsoft Teams
 
@@ -31,20 +30,25 @@ Laden Sie diese Planungstools herunter, die Sie beim Planen, Bereitstellen und E
 
     Dieses Kit enthält eine breite Palette von Präsentationen, e-Mail-Vorlagen, Tipps & Tricks und Plakate, mit denen Sie die Einführung von Teams in Ihrer Organisation Ausrollen und steuern können. Sie umfasst zwei Schnellstart Handbücher für Administratoren und Teamleiter sowie Anwendungsfall Beispiele für jede Abteilung. Verwenden Sie diese Ressourcen, um Teams für verschiedene Funktionen in Ihrer Organisation optimal zu nutzen, einschließlich Marketing, Vertrieb, Finanzen, Personalwesen, IT, Engineering und Projekt Management.
 
+- [Bereitstellen von Teams](How-to-roll-out-teams.md)
 
-- [Schnellstarthandbuch für Administratoren](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)
+    Befolgen Sie unseren empfohlenen Pfad zum Rollout von Teams.
 
-    Dieses Dokument führt Sie durch die fünf Implementierungsphasen der erfolgreichen Aktivierung von Microsoft Teams. Sie enthält einen Fragebogen zur technischen Planung, in dem Informationen zur aktuellen Office 365-Umgebung Ihrer Organisation erfasst werden. Der Leiter des Workshops kann diese Informationen verwenden, um die Präsentation des Workshops anzupassen. Der Fragebogen erfasst außerdem Ihre Entscheidungen sowie die im Workshop ermittelten nächsten Schritte.
+- [Technische Schulungen für Teams](https://aka.ms/TeamsAcademy)
 
-- [Workshop: Planen, Bereitstellen und Ausführen von Microsoft Teams](https://download.microsoft.com/download/A/A/D/AAD74246-790D-4E61-8DA0-865742CB42DB/MicrosoftTeams-Planning-Workshop-Dec2017.pptx)
-
-    Verwenden Sie diese PowerPoint-Präsentation, um einen Workshop mit Ihrer Organisation zu führen, um Ihren Teams-Rollout zu planen. Der Workshop führt Teams ein und führt Ihr Team durch Entscheidungspunkte und die nächsten Schritte.
+    Verwenden Sie diese technischen Schulungsressourcen, um sich weiterzubilden, andere zu unterrichten oder Workshops zu führen.
 
 - [Office 365 Government-Kunden](plan-for-government-gcc.md)
 
-   Ihre Reise in die Teams ist ähnlich wie die Erfahrung unserer Unternehmenskunden. Da Microsoft Teams ihren Mandanten in der Regel zur Verfügung steht, empfehlen wir Ihnen, mit unserem [Plan für Microsoft 365 Government-gcc-Bereitstellungs](plan-for-government-gcc.md) Artikel und dem [Schnellstarthandbuch für Administratoren](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)zu beginnen. Unsere Übersicht über [Sicherheit und Compliance](security-compliance-overview.md) hilft Ihnen, sich über Teams in Ihrer Umgebung zu vertrauen.
+   Ihre Reise in die Teams ist ähnlich wie die Erfahrung unserer Unternehmenskunden. Da Teams ihren Mandanten in der Regel zur Verfügung stehen, empfehlen wir Ihnen, mit unserem [Plan für Microsoft 365 Government-gcc-Bereitstellungs](plan-for-government-gcc.md) Artikel und dem [Schnellstarthandbuch für Administratoren](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)zu beginnen. Unsere Übersicht über [Sicherheit und Compliance](security-compliance-overview.md) hilft Ihnen, sich über Teams in Ihrer Umgebung zu vertrauen.
+
+- [Teams für Bildung – Schnellstart für Administratoren](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu)
+
+    In diesem Lernprogramm erfahren Sie, wie Sie einen Rollout für Teams für Ihre Bildungsorganisation durchführen können.
 
 ### <a name="see-also"></a>Siehe auch
+
+[Teams-Schulung](training-microsoft-teams-landing-page.md)
 
 [Bereitschaft von IT-Administratoren für Teams](ITAdmin-readiness.md)
 
@@ -54,6 +58,6 @@ Laden Sie diese Planungstools herunter, die Sie beim Planen, Bereitstellen und E
 
 [Verschieben von Benutzern aus der lokalen Bereitstellung nach Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 
-[Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md)
+[Verwalten von Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md)
 
 
