@@ -18,12 +18,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Verwenden Sie den Ratgeber für Teams (Preview), um Ihnen bei der Planung und Durchführung ihrer Bereitstellung von Microsoft Teams zu helfen.
-ms.openlocfilehash: c1da173ffbdb150d032b11e0d70ba85e3e4f308b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ef78352df9d678d9f14dff246c3a363de755b539
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836775"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795848"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams
 
@@ -165,6 +165,8 @@ Wechseln Sie zum [Formulare-Hilfecenter](https://support.office.com/forms).
 ## <a name="related-topics"></a>Verwandte Themen
 
 [Bereitstellen von Teams](How-to-roll-out-teams.md)
+
+[Bewährte Methoden zum Organisieren von Teams in Microsoft Teams](best-practices-organizing.md)
 
 [Produktnamen und Serviceplanbezeichner für die Lizenzierung](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
 ) 
