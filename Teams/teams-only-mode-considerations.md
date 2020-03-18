@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 806a96db63ca0bbb44eb92ed6e84f8451069e725
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7ec2d9ede5fdd31070228995cefaa16a60ad6224
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035459"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42795998"
 ---
 # <a name="teams-only-mode-considerations"></a>Überlegungen zum Teams Only-Modus
 
@@ -49,8 +49,6 @@ Während Tausende von Kunden erfolgreich auf Microsoft Teams aktualisiert haben,
 
 **Mandantenweite Überlegungen**: Wir arbeiten daran, Teams in den folgenden Umgebungen zu aktivieren: im Moment sollten Administratoren jedoch keine Benutzer in Ihrer Organisation aktualisieren, wenn Ihr Skype for Business-Mandant in einer der folgenden Umgebungen gehostet wird:
 
- - Government Community Cloud-stark
- - Government Community Cloud DoD
  - Office 365, betrieben von 21Vianet
  - Office 365 Deutschland
  - Skype for Business-Mandant wird in Südkorea gehostet **, und** die Organisation setzt voraus, dass die Teams-Daten in Südkorea gespeichert werden. Derzeit werden Organisationen mit Skype for Business-Daten, die in Südkorea gespeichert sind und für die ein Upgrade auf Teams durchgeführt wird, ihre Teams-Daten in der Region Asia Datacenter, nicht in der Region Süd-Korea, speichern.

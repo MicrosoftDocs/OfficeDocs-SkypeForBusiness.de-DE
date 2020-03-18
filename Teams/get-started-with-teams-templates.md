@@ -3,7 +3,6 @@ title: Erste Schritte mit Teams-Vorlagen
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fef3357f938be0e9261d0b5459c9f6aa16942329
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 585d3241506dacf60eb02b1d7a3e97cb80357026
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837015"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796028"
 ---
 # <a name="get-started-with-teams-templates"></a>Erste Schritte mit Teams-Vorlagen
 
@@ -46,7 +45,7 @@ Die meisten Eigenschaften in einem Team sind im Lieferumfang enthalten und werde
 
 | **Team Eigenschaften, die von Teams-Vorlagen unterstützt werden** | **Team Eigenschaften, die von den Teams-Vorlagen noch nicht unterstützt werden** |
 | ------------------------------------------------ | -------------------------------------------------------- |
-| Basis Vorlagentyp | Team Mitgliedschaft |
+| Basis Vorlagentyp | Teammitgliedschaft |
 | Teamname | Teambild |
 | Team Beschreibung | Kanaleinstellungen |
 | Team Sichtbarkeit (öffentlich oder privat) | Verbinder |
@@ -77,9 +76,6 @@ Standardmäßig ist die Basisvorlage auf **Standard** festgesetzt, der keine zus
 | Im Gesundheitswesen<br>Ward |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Kanäle <ul><li>Ankündigungen\*</li><li>Kauert\*</li><li>Runden</li><li>Personal\*</li><li>Schulungen\*</li></ul>\*Automatisch bevorzugte Kanäle |
 |Im Gesundheitswesen<br>Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Kanäle<ul><li>Ankündigungen\*</li><li>Compliance\*</li><li>Freiheits</li><li>Personalwesen</li></li><li>Apotheke</li></ul>\*Automatisch bevorzugter Kanal|
 |||
-
-> [!NOTE]
-> In zukünftigen Versionen von Microsoft Teams werden weitere Basisvorlagen Typen hinzugefügt, daher sollten Sie sich über die neuesten Informationen zu den unterstützten Eigenschaften informieren.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
