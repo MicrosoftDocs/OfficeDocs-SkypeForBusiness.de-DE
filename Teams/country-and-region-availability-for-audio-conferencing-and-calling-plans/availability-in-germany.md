@@ -27,7 +27,7 @@ ms.custom:
 description: In Deutschland sind die folgenden Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar.
 ms.openlocfilehash: fedbd51600ae2d21d2221446eeeb6267b2406676
 ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 02/03/2020
 ms.locfileid: "41683908"
