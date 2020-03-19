@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Zusammenfassung: Hier erfahren Sie mehr über den Bereitstellungsprozess für das Anruf Qualitäts Dashboard. Das Anruf Qualitäts Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: d42d735ab5a60ec02ad2e1f4f696908996457c0b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5879c4a99eec8471763e0fccc3a4886be660dbb6
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42042262"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42840159"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Bereitstellen des Anruf Qualitäts Dashboards für Skype for Business Server
  
@@ -386,22 +386,23 @@ Die Parameter BuildingKey, buildingname, BuildingShortName, OwnershipTypeId, Bui
 Durch das Importieren von Gebäuden haben Sie die Möglichkeit, spezifische Einblicke zu erhalten (schlechte Anrufe pro Gebäude auf WiFi/Wired usw.). 
   
 > [!NOTE]
-> Dieser Schritt ist optional, wird jedoch empfohlen. 
+> Dieser Schritt ist optional, wird jedoch empfohlen.
   
-Importieren Sie Subnetze, und ordnen Sie Sie den im letzten Schritt importierten Gebäuden zu. Wenn Sie networkName nicht auffüllen möchten, stellen Sie sicher, dass für jeden Eintrag in dieser Tabelle ein NetworkNameID von 0 verwendet wird.
+Importieren Sie Subnetze, und ordnen Sie Sie den im letzten Schritt importierten Gebäuden zu. Wenn Sie networkName nicht auffüllen möchten, stellen Sie sicher, dass für jeden Eintrag in dieser Tabelle ein NetworkNameID von 0 verwendet wird. Weitere Informationen zur SQL-Syntax und zu den Parametern für das Anruf qualitätsdashboard finden Sie unter [use Call Quality Dashboard for Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/management-tools/call-quality-dashboard/use).
   
  **SQL-Beispiel Syntax**
   
 ```SQL
 INSERT INTO [dbo].[CqdNetwork] 
 ([Network]
+,[NetworkRange]
 ,[NetworkNameID]
 ,[BuildingKey]
 ,[UpdatedDate]
 )
 
 VALUES
- ('172.16.254.0',0,1,'2015-11-11')
+ ('172.16.254.0',32,0,1,'2015-11-11')
 ```
 
 Die Parameter "Network" und "UpdatedDate" sind erforderlich, die anderen Parameter sind optional.

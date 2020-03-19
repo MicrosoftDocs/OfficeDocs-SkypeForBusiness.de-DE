@@ -12,22 +12,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-f1.keywords: ms.teamsadmincenter.policypackages.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Richtlinien Pakete in Microsoft Teams verwenden und verwalten.
-ms.openlocfilehash: d73cd22cc0a98cd772ba3823fffa3649602010bc
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d7c0ded990225b969579f50ea5f87a32efebe388
+ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41772747"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42857985"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Verwalten von Richtlinien Paketen in Microsoft Teams
 
 Ein Richtlinienpaket in Microsoft Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation aufweisen. Wir haben Richtlinien Pakete entwickelt, um die Konsistenz beim Verwalten von Richtlinien für Gruppen von Benutzern in Ihrer Organisation zu vereinfachen, zu rationalisieren und zu gewährleisten.  
 
 Wenn Sie Benutzern ein Richtlinienpaket zuweisen, werden die Richtlinien im Paket erstellt, und Sie können dann die Einstellungen der Richtlinien im Paket anpassen, um die Anforderungen Ihrer Organisation zu erfüllen.
+
+Richtlinien Pakete sind für Organisationen der US Government Cloud Community (gcc) nicht verfügbar.
 
 ## <a name="what-is-a-policy-package"></a>Was ist ein Richtlinienpaket?
 
@@ -80,7 +84,7 @@ Im folgenden finden Sie die Schritte zum Anzeigen, zuweisen und Anpassen von Ric
 
 #### <a name="assign-a-policy-package-to-one-user"></a>Zuweisen eines Richtlinienpakets zu einem Benutzer
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**, und klicken Sie dann auf den Benutzer.
+1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Benutzer**, und klicken Sie dann den gewünschten Benutzer an.
 2. Klicken Sie auf der Seite des Benutzers auf **Richtlinien**, und klicken Sie dann neben **Richtlinienpaket**auf **Bearbeiten**.
 3. Wählen Sie im Bereich **Richtlinienpaket zuweisen** das Paket aus, das Sie zuweisen möchten, und klicken Sie dann auf **Speichern**.
 

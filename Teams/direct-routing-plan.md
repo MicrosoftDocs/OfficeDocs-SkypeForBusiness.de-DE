@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie mit dem Microsoft Phone System Direct Routing einen unterstützten, vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: 347a8a7dd64831281c1c9e2f94f2bea24fb18555
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 0e15f8e76bc9512a28311764c39e34b45131b9d3
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160709"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858580"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -303,6 +303,25 @@ Der Portbereich der Medien Prozessoren ist in der folgenden Tabelle dargestellt:
   > [!NOTE]
   > Microsoft empfiehlt mindestens zwei Ports pro gleichzeitigen Anruf im SBC.
 
+
+## <a name="media-traffic-media-processors-geography"></a>Mediendatenverkehr: Geographie der Medien Prozessoren
+
+Der Mediendatenverkehr fließt über Komponenten mit dem Namen Media processors. Medien Prozessoren werden in dieselben Rechenzentren wie SIP-Proxys gespeichert. Darüber hinaus gibt es zusätzliche Medien Prozessoren zur Optimierung des Medienflusses. So verfügen wir beispielsweise nicht über eine SIP-Proxykomponente in Australien (SIP-Flows über Singapur oder Hongkong), aber wir haben den medienprozessor lokal in Australien. Der Bedarf an lokalen Medien Prozessoren hängt von der Latenz ab, die wir durch das Senden von Fernverkehr, beispielsweise von Australien nach Singapur oder Hongkong, erfahren. Während Latenz im Beispiel des Datenverkehrs, der von Australien nach Hongkong oder Singapur fließt, akzeptabel ist, um eine gute Anrufqualität für den SIP-Datenverkehr zu gewährleisten, ist dies für echt Zeit Medien Verkehr nicht möglich.
+
+Speicherort der Medien Prozessoren:
+
+Speicherorte, an denen SIP-Proxy-und medienprozessor Komponenten bereitgestellt werden:
+- USA (zwei in den US-amerikanischen West-und US East-Rechenzentren)
+- Europa (Amsterdam-und Dublin-Rechenzentren)
+- Asien (Rechenzentren in Singapur und Hongkong)
+
+Speicherorte, an denen nur Medien Prozessoren bereitgestellt werden (SIP fließt über das nächstgelegene Rechenzentrum):
+- Japan (JP Ost-und West-Rechenzentren)
+- Australien (au-Ost-und West-Rechenzentren)
+
+
+
+
 ## <a name="media-traffic-codecs"></a>Mediendatenverkehr: Codecs
 
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Bein zwischen SBC und Cloud Media Processor oder Microsoft Teams-Client.
@@ -333,6 +352,3 @@ Weitere Informationen zu unterstützten SBCS finden Sie unter [Liste der für di
 ## <a name="see-also"></a>Siehe auch
 
 [Konfigurieren von direktem Routing](direct-routing-configure.md)
-
-
-
