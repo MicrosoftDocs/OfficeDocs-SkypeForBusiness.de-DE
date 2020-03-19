@@ -23,23 +23,23 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Dieses Thema enthält alle Länder/Regionen, in denen Benutzer ausgehende Anrufe tätigen können, wenn Sie über einen Anrufplan verfügen.
+description: Dieses Thema enthält alle Länder/Regionen, in die Benutzer ausgehende Anrufe tätigen können, wenn über einen Anrufplan verfügen.
 ms.openlocfilehash: d882078c32b5820dc060778dca4c3f30b4b2a044
 ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 02/03/2020
 ms.locfileid: "41682512"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Benutzer können ausgehende Anrufe in diese Länder und Regionen vornehmen
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Sehen Sie, welche Länder/Regionen Benutzer ausgehende Anrufe tätigen können, wenn der Benutzer über die Lizenz für den Inlands-und Auslandstarif verfügt.
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Schauen Sie sich an, in welche Länder/Regionen Benutzer ausgehende Anrufe tätigen können, wenn sie über eine Lizenz für einen Anrufplan für Inland und Ausland verfügen.
 
-|**A-D**| **E-H**|**I-L**|**M-O**|**P-s**|**T-Z**|
+|**A – D**| **E – H**|**I – L**|**M – O**|**P – S**|**T – Z**|
 ---|---|---|---|---|---|
 |Afghanistan|Ecuador |Island |Macau |Pakistan |Taiwan   |
 |Albanien|Ägypten |Indien |Mazedonien |Palau |Tadschikistan   |
-|Algerien|El Salvador |Indonesien |Malawi |Palästinensische Autonomiebehörde |Tansania, Vereinigte Republik  |
+|Algerien|El Salvador |Indonesien |Malawi |Palästinensische Gebiete |Vereinigte Republik Tansania  |
 |Amerikanisch-Samoa|Äquatorialguinea |Iran |Malaysia |Panama | Thailand   |
 |Andorra |Eritrea |Irak |Mali |Paraguay |Togo   |
 |Angola |Estland |Irland |Malta |Peru | Trinidad und Tobago  |
@@ -48,38 +48,38 @@ ms.locfileid: "41682512"
 |Argentinien|Fidschi |Jamaika |Mauritius |Portugal |Turks- und Caicosinseln   |
 |Armenien |Finnland |Japan |Mayotte | Puerto Rico |Uganda  |
 |Aruba |Frankreich |Jordanien |Mexiko |Katar | Ukraine   |
-|Australien |Französisch-Guyana |Kasachstan |Mikronesien |Réunion |Vereinigte Arabische Emirate (VAE)  |
-|Österreich |Französisch-Polynesien |Kenia |Moldau, Republik |Rumänien |Vereinigtes Königreich (UK) |
-|Aserbaidschan |Georgien |Korea, Republik |Monaco | Russische Föderation |USA  |
+|Australien |Französisch-Guayana |Kasachstan |Mikronesien |Reunion |Vereinigte Arabische Emirate (VAE)  |
+|Österreich |Französisch-Polynesien |Kenia |Moldawien |Rumänien |Vereinigtes Königreich (UK) |
+|Aserbaidschan |Georgien |Republik Korea |Monaco | Russische Föderation |Vereinigte Staaten (USA)  |
 |Bahamas |Deutschland |Kuwait |Mongolei |Ruanda | Uruguay |
 |Bahrain |Ghana |Kirgisistan |Montenegro | St. Kitts und Nevis |Usbekistan  |
-|Bangladesch |Gialtar |Laos |Montserrat | St. Lucia |Staat Vatikanstadt  |
-|Barbados |Griechenland |Lettland |Marokko |St. Vicent und die Grenadinen |Venezuela   |
-|Belarus |Grönland |Libanon |Mosambik | San Marino |Vietnam  |
-|Belgien |Grenada |Lesotho |Myanmar | Saudi Arabia (المملكة العربية السعودية) | Jungerninseln (Britisch) |
-|Belize |Guadeloupe |Libyen |Namibia |Senegal | Jungerninseln (Amerikanisch)  |
+|Bangladesch |Gibraltar |Laos |Montserrat | St. Lucia |Vatikanstadt  |
+|Barbados |Griechenland |Lettland |Marokko |St. Vincent und die Grenadinen |Venezuela   |
+|Weißrussland |Grönland |Libanon |Mosambik | San Marino |Vietnam  |
+|Belgien |Grenada |Lesotho |Myanmar | Saudi Arabien | Jungferninseln (Großbritannien) |
+|Belize |Guadeloupe |Libyen |Namibia |Senegal | Jungferninseln (USA)  |
 |Benin |Guam |Liechtenstein |Nepal | Serbien | Wallis und Futuna  |
 |Bermuda |Guatemala |Litauen |Niederlande |Singapur |Jemen |
-|Bhutan |Guinea |Luxemburg |Niederländische Antillen |Slowakei |Sambia  |
+|Bhutan |Guinea |Luxemburg |Antillen |Slowakei |Sambia  |
 |Bolivien |Guyana| |Neukaledonien |Slowenien |Simbabwe |
 |Bosnien und Herzegowina |Haiti ||Neuseeland |Südafrika | 
-|Botswana |Honduras ||Nicaragua |Südsudan |
+|Botsuana |Honduras ||Nicaragua |Südsudan |
 |Brasilien |Hongkong ||Niger |Spanien | 
-|Bunei Darussalam |Ungarn ||Nigeria |Sri Lanka | 
-|Bulgarien |||Nördliche Marianen |Saint-Pierre und Miquelon |
+|Brunei Darussalam |Ungarn ||Nigeria |Sri Lanka | 
+|Bulgarien |||Nördliche Marianen |St. Pierre und Miquelon |
 |Burkina Faso |||Norwegen |Sudan |
-|Kambodscha |||Oman |Surinam | 
+|Kambodscha |||Oman |Suriname | 
 |Kamerun ||||Swasiland |
 |Kanada ||||Schweden | 
 |Cabo Verde ||||Schweiz |
-|Kaimaninseln ||||Syrische Arabische Republik |
-|Zentralafrikanische Republik |
+|Kaimaninseln ||||Syrien |
+|Zentralafrika |
 |Chile |
 |China |
 |Kolumbien |
 |Komoren |
-|Kongo, Demokratische Republik |
-|Kongo, Volksrepublik |
+|Demokratische Republik Kongo |
+|Demokratische Volksrepublik Kongo |
 |Costa Rica |
 |Elfenbeinküste |
 |Kroatien |

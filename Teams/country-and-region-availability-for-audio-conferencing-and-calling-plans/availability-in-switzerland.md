@@ -24,10 +24,10 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Schweiz verfügbar sind.
+description: In der Schweiz sind die folgenden Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar.
 ms.openlocfilehash: a68806337d09dba9fd989df40b409351ecb2928a
 ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 02/07/2020
 ms.locfileid: "41852362"
@@ -35,11 +35,11 @@ ms.locfileid: "41852362"
 # <a name="availability-in-switzerland"></a>Verfügbarkeit in der Schweiz
 
 > [!NOTE]
-> Sie können in der Schweiz **Service** Nummern für Konferenzen, automatische Telefonzentrale und Anrufwarteschlangen abrufen, in der Schweiz können aber keine **Nutzer** Nummern abgerufen werden, da keine Anrufpläne verfügbar sind.
+> Sie können in der Schweiz **SERVICE**-Nummern für Konferenzen, automatische Vermittlung und Anrufwarteschlangen erhalten, aber Sie können in der Schweiz keine **USER**-Nummern erhalten, da keine Anrufpläne verfügbar sind.
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Office 365-Dienste für Skype for Business und Microsoft Teams, die für die Schweiz verfügbar sind.
+In der Schweiz sind die folgenden Office 365-Dienste für Skype for Business und Microsoft Teams verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -60,13 +60,13 @@ Hier finden Sie die Office 365-Dienste für Skype for Business und Microsoft Tea
    
 ## <a name="calling-plans"></a>Anrufpläne
 
-|**Funktion**|**Details**|
+|**Feature**|**Details**|
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Nein  <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> |Nicht anwendbar  <br/> |
-|Sind ausgehende Anrufe möglich?  <br/> |Nicht anwendbar  <br/> |
+|Verfügbare Minuten für Anrufpläne  <br/> |Nicht zutreffend  <br/> |
+|Sind ausgehende Anrufe möglich?  <br/> |Nicht zutreffend  <br/> |
 
-Wenn keine Anrufpläne für den Kauf verfügbar sind, sollten Sie die [direkte Weiterleitung von Telefonsystemen](../direct-routing-landing-page.md)in Frage stellen. Mit der direkten Weiterleitung können Sie das Telefon System mit praktisch jedem Telefonnetzbetreiber verwenden.
+Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [direkten Routings für Telefonsysteme](../direct-routing-landing-page.md) in Betracht. Mit dem direkten Routing können Sie die Telefonsysteme mit praktisch jedem Telefonieanbieter nutzen.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 
