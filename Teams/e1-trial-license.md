@@ -12,14 +12,15 @@ localization_priority: Priority
 description: Wenn Sie Microsoft Teams noch nicht verwenden, es aber eilig benötigen, stellen Sie Ihren Benutzern, die als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) remote oder von zu Hause aus arbeiten müssen (WFH), die Office 365 E1-Testversion bereit.
 ms.collection:
 - M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3f5d73920da0f9b18b1810768b0468c4106a6f3
-ms.sourcegitcommit: 095bed15ffe64c34e6c39770b5734d966d5d8a0f
+ms.openlocfilehash: 62b4add4e3371604478c8a49cc6690000d699f65
+ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42507953"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42858770"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Verwalten der Office 365 E1-Testversion
 ==============================
@@ -34,6 +35,9 @@ Versäumen Sie nicht die Vielzahl unserer Anleitungen für die [Unterstützung v
 
 Wenden Sie sich an Ihren Microsoft-Kundenbetreuer. Sie erhalten einen Promotionscode, mit dem Sie sich für die E1-Testversion registrieren können. 
 
+Als Organisation, die von einem Microsoft-Partner betreut werden, können Sie mit Ihrem Partner zusammenarbeiten, um eine kostenlose 6-monatige Teams-Testversion zu erhalten. Wenn Sie noch keinen Microsoft-Partner haben und mit einem zusammenarbeiten möchten, gehen Sie zu [Microsoft-Lösungsanbieter](https://www.microsoft.com/solution-providers/home) und suchen Sie nach kompetenten Partnern für Teams.
+
+
 ## <a name="how-to-sign-up-for-e1"></a>Registrieren für E1
 
 Klicken Sie auf den Promotionscode in der E-Mail, den Sie von Ihrem Kundenbetreuer erhalten. 
@@ -41,7 +45,7 @@ Klicken Sie auf den Promotionscode in der E-Mail, den Sie von Ihrem Kundenbetreu
 
 ## <a name="whos-eligible"></a>Wer ist berechtigt?
 
-Dieses Angebot richtet sich an Kunden, die von einem Microsoft-Kundenbetreuer verwaltet werden. Es richtet sich an Organisationen, die in der Vergangenheit noch keine anderen Office 365 E1-Testversionen aktiviert haben. 
+Dieses Angebot richtet sich an alle Kunden, die von einem Microsoft-Kundenbetreuer verwaltet werden. Es richtet sich an Organisationen (auch gemeinnützige Organisationen), die in der Vergangenheit noch keine anderen Office 365 E1-Testversionen aktiviert haben. 
 
 Nachdem Sie Ihren Promotionscode für die E1-Testversion verwendet haben, können Sie ihn nicht erneut verwenden und auch keinen weiteren Code für die E1-Testversion aktivieren. In diesen Fällen können Ihre Mitarbeiter eine [Teams Exploratory-Lizenz](teams-exploratory.md) aktivieren.
 
@@ -92,3 +96,4 @@ Weitere Informationen finden Sie unter [Office 365-Lizenzen für Microsoft Teams
 
 [Verwalten der Teams Exploratory-Erfahrung](teams-exploratory.md)
 
+[Office 365 Non-Profit](https://www.microsoft.com/microsoft-365/nonprofit/office-365-nonprofit)
