@@ -20,7 +20,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
 ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 02/28/2020
 ms.locfileid: "42327837"
@@ -28,25 +28,25 @@ ms.locfileid: "42327837"
 # <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 
 
-Microsoft Teams verfügt über Clients für Desktop (Windows, Mac und Linux), Web und Mobile (Android und IOS). Diese Clients benötigen alle eine aktive Internetverbindung und unterstützen keinen Offlinemodus.
+Microsoft Teams-Clients sind für Desktop (Windows, Mac und Linux), Web und mobile Betriebssysteme (Android und iOS) verfügbar. Alle diese Clients erfordern eine aktive Internetverbindung und unterstützen den Offlinemodus nicht.
 
 > [!NOTE]
-> Ab dem 29. November 2018 können Sie die Microsoft Teams for Windows 10 S-App (Vorschau), die im Microsoft Store verfügbar ist, nicht mehr verwenden. Stattdessen können Sie jetzt den Desktop-Client für Teams auf Geräten mit Windows 10 S-Modus herunterladen und installieren. Wechseln Sie zum Herunterladen des Desktop- [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754)Clients zu. MSI-Builds des Teams-Desktop Clients sind noch nicht für Geräte verfügbar, auf denen Windows 10 S-Modus ausgeführt wird.
+> Ab dem 29. November 2018 können Sie die Microsoft Teams for Windows 10 S-App (Vorschau), die im Microsoft Store verfügbar ist, nicht mehr verwenden. Stattdessen können Sie nun den Teams-Desktopclient auf Geräte herunterladen und installieren, die mit Windows 10 S-Modus betrieben werden. Den Desktopclient zum Herunterladen finden Sie unter [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754). MSI-Builds des Teams-Desktopclients stehen für Geräte, die mit Windows 10 S-Modus betrieben werden, derzeit noch nicht zur Verfügung.
 >
-> Weitere Informationen zum Windows 10 s-Modus finden Sie unter [Einführung in Windows 10 im s-Modus](https://www.microsoft.com/windows/s-mode). 
+> Weitere Informationen zum Windows 10 S-Modus finden Sie unter [Einführung in den Windows 10-Modus](https://www.microsoft.com/windows/s-mode). 
 
 ## <a name="desktop-client"></a>Desktopclient
 
 > [!TIP]
 > Schauen Sie sich die folgende Sitzung mit Informationen zu den Vorteilen des Windows-Desktopclient sowie zum Planen und Bereitstellen der Lösung an: [Windows-Desktopclient für Teams](https://aka.ms/teams-clients)
 
-Der Microsoft Teams-Desktop Client ist eine eigenständige Anwendung und steht auch [in Office 365 ProPlus zur Verfügung](https://docs.microsoft.com/deployoffice/teams-install). Teams steht für 32-Bit-und 64-Bit-Versionen von Windows (8,1 oder höher) und Windows Server (2012 R2 oder höher) sowie für macOS (10,10 oder höher) und Linux (in `.deb` und- `.rpm` Formate) zur Verfügung. Unter Windows erfordert Teams .NET Framework 4.5 oder höher. Das Installationsprogramm für Teams bietet die Installation an, wenn Sie nicht darüber verfügen. Unter Linux werden Paketmanager wie `apt` und `yum` versuchen, alle Anforderungen für Sie zu installieren. Wenn dies jedoch nicht der Fall ist, müssen Sie alle gemeldeten Anforderungen installieren, bevor Sie Teams unter Linux installieren können.
+Der Microsoft Teams-Desktopclient ist eine eigenständige Anwendung und auch [in Office 365 ProPlus verfügbar](https://docs.microsoft.com/deployoffice/teams-install). Teams steht für 32- und 64-Bit-Versionen von Windows (8.1 oder höher) und Windows Server (2012 R2 oder höher) sowie für macOS (10.10 oder höher) und Linux (im Format `.deb` und `.rpm`) zur Verfügung. Unter Windows erfordert Teams .NET Framework 4.5 oder höher. Das Installationsprogramm für Teams bietet die Installation an, wenn Sie nicht darüber verfügen. Unter Linux versuchen Paketmanager wie `apt` und `yum` alle Anforderungen für Sie zu installieren. Wenn dies nicht gelingt, müssen Sie die bekannten Anforderungen installieren, bevor Sie Teams unter Linux installieren.
 
 Die Desktopclients bieten Unterstützung für Echtzeitkommunikation (Audio, Video und Inhaltsfreigabe) für Teambesprechungen, Gruppenanrufe und private Einzelanrufe.
 
 Desktopclients können unter [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) von Endbenutzern direkt heruntergeladen und installiert werden, sofern sie über die entsprechenden lokalen Berechtigungen verfügen (Administratorrechte sind zum Installieren des Teams-Clients auf einem PC nicht erforderlich, auf einem Mac jedoch sind sie erforderlich).
 
-IT-Administratoren können Ihre bevorzugte Methode zum Verteilen der Installationsdateien an Computer in Ihrer Organisation auswählen. Einige Beispiele sind Microsoft Endpoint Configuration Manager (Windows) oder JAMF pro (macOS). Informationen dazu, wie Sie das MSI-Paket für die Verteilung von Windows erhalten, finden Sie unter [Installieren von Microsoft Teams mithilfe eines MSI-Pakets](msi-deployment.md).  
+IT-Administratoren können ihre bevorzugte Methode für die Verteilung der Installationsdateien an die Computer in ihrer Organisation auswählen. Einige Beispiele hierfür sind Microsoft Endpoint Configuration Manager (Windows) oder Jamf Pro (macOS). Informationen dazu, wie Sie das MSI-Paket für die Verteilung von Windows erhalten, finden Sie unter [Installieren von Microsoft Teams mithilfe eines MSI-Pakets](msi-deployment.md).  
 
 > [!NOTE]
 > Die Verteilung des Clients über diese Mechanismen ist nur für die anfängliche Installation von Microsoft Team-Clients gedacht, nicht für zukünftige Updates.
@@ -62,7 +62,7 @@ Der Windows-Client wird im Ordner „AppData“ im Profil des Benutzers bereitge
 
 - %LocalAppData%\\Microsoft\\Teams
 
-- % LocalAppData%\\Microsoft\\TeamsMeetingAddin
+- %LocalAppData%\\Microsoft\\TeamsMeetingAddin
 
 - %AppData%\\Microsoft\\Teams
 
@@ -102,38 +102,38 @@ IT-Administratoren können die verwaltete Bereitstellung von Teams für die Vert
 
 ### <a name="linux"></a>Linux
 
-Die Benutzer können systemeigene Linux-Pakete in `.deb` und `.rpm` Formate installieren.
-Beim Installieren des deb-oder RPM-Pakets wird das Paket-Repository automatisch installiert.
-- DEB`https://packages.microsoft.com/repos/ms-teams stable main`
-- RPM`https://packages.microsoft.com/yumrepos/ms-teams` 
+Benutzer können native Linux-Pakete im Format `.deb` und `.rpm` installieren.
+Bei der Installation des DEB- oder RPM-Pakets wird das Paketrepository automatisch installiert.
+- DEB `https://packages.microsoft.com/repos/ms-teams stable main`
+- RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
 
-Der Signaturschlüssel zum Aktivieren der automatischen Aktualisierung mithilfe des System Paket-Managers wird automatisch installiert. Sie finden ihn aber auch unter: (https://packages.microsoft.com/keys/microsoft.asc). Microsoft Teams wird monatlich ausgeliefert, und wenn das Repository ordnungsgemäß installiert wurde, sollte Ihr System Paket-Manager die automatische Aktualisierung auf die gleiche Weise behandeln wie andere Pakete auf dem System.
+Der Signaturschlüssel zum Aktivieren der automatischen Aktualisierung mithilfe des Paket-Managers des Systems wird automatisch installiert. Sie finden ihn aber auch unter: (https://packages.microsoft.com/keys/microsoft.asc). Microsoft Teams wird monatlich bereitgestellt und wenn das Repository ordnungsgemäß installiert wurde, sollte der System-Paket-Manager die automatische Aktualisierung auf die gleiche Weise wie andere Pakete im System handhaben.
 
 > [!NOTE] 
-> Wenn Sie einen Fehler finden, senden Sie ihn `Report a Problem` über den Client. Bekannte Probleme finden Sie unter [bekannte Probleme](Known-issues.md).
-> Für Teams für Linux-Support können Sie den [Linux-Forum-Supportkanal unter Microsoft Q&A](https://docs.microsoft.com/answers/topics/teams.html)verwenden. Achten Sie darauf, das `teams-linux` Tag beim Posten von Fragen zu verwenden. 
+> Wenn Sie einen Fehler gefunden haben, übermitteln Sie ihn mithilfe von `Report a Problem` aus dem Client. Bekannte Probleme finden Sie unter [Bekannte Probleme](Known-issues.md).
+> Für Support zu Teams für Linux können Sie den [Linux-Forum-Support-Kanal in Microsoft F&A](https://docs.microsoft.com/answers/topics/teams.html) verwenden. Achten Sie darauf, beim Posten von Fragen das `teams-linux`-Tag zu verwenden. 
 
-#### <a name="install-teams-using-deb-package"></a>Installieren von Teams mithilfe des deb-Pakets
+#### <a name="install-teams-using-deb-package"></a>Installieren von Teams mithilfe des DEB-Pakets
 
-1. Laden Sie das Paket https://aka.ms/getteamsvon herunter.
-2. Installieren Sie mit einer der folgenden Optionen:  
-    - Öffnen Sie das entsprechende Paket Verwaltungstool, und durchlaufen Sie den Installationsvorgang für die selbstgesteuerte Linux-app.
-    - Oder wenn Sie Terminal lieben, geben Sie Folgendes ein:`sudo apt install **teams download file**`
+1. Laden Sie das Paket unter https://aka.ms/getteams herunter.
+2. Installieren Sie es mithilfe einer der folgenden Methoden:  
+    - Öffnen Sie das entsprechende Paketverwaltungstool, und schließen Sie den selbstgeführten Installationsvorgang der Linux-App ab.
+    - Wenn Ihnen Terminal gefällt, geben Sie Folgendes ein: `sudo apt install **teams download file**`
 
-Sie können Teams über Aktivitäten oder per Terminal starten, indem `Teams`Sie eine Eingabe durchführen. 
+Sie können Teams über „Aktivitäten“ oder Terminal starten, indem Sie `Teams` eingeben. 
 
 #### <a name="install-teams-using-rpm-package"></a>Installieren von Teams mithilfe des RPM-Pakets
 
-1. Laden Sie das Paket https://aka.ms/getteamsvon herunter.
-2. Installieren Sie mit einer der folgenden Optionen:
-    - Öffnen Sie das entsprechende Paket Verwaltungstool, und durchlaufen Sie den Installationsvorgang für die selbstgesteuerte Linux-app.
-    - Oder wenn Sie Terminal lieben, geben Sie Folgendes ein:`sudo yum install **teams download file**`
+1. Laden Sie das Paket unter https://aka.ms/getteams herunter.
+2. Installieren Sie es mithilfe einer der folgenden Methoden:
+    - Öffnen Sie das entsprechende Paketverwaltungstool, und schließen Sie den selbstgeführten Installationsvorgang der Linux-App ab.
+    - Wenn Ihnen Terminal gefällt, geben Sie Folgendes ein: `sudo yum install **teams download file**`
 
-Sie können Teams über Aktivitäten oder per Terminal starten, indem `Teams`Sie eine Eingabe durchführen.
+Sie können Teams über „Aktivitäten“ oder Terminal starten, indem Sie `Teams` eingeben.
 
 #### <a name="install-manually-from-the-command-line"></a>Manuelles Installieren über die Befehlszeile
 
-Manuelles Installieren auf Debian-und Ubuntu-Distributionen:
+Manuelles Installieren unter Debian- und Ubuntu-Distributionen:
 ```
 curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
  
@@ -143,7 +143,7 @@ sudo apt update
 sudo apt install teams
 ```
 
-Manuelles Installieren auf RHEL-, Fedora-und CentOS-basierten Distributionen:
+Manuelles Installieren unter RHEL-, Fedora- und CentOS-basierten Distributionen:
 ```
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
@@ -153,13 +153,13 @@ sudo dnf check-update
 sudo dnf install teams
 ```
 
-Alternativ können Sie yum anstelle von DNF verwenden:
+Alternativ können Sie yum anstelle von dnf verwenden:
 ```
 yum check-update
 sudo yum install teams
 ```
 
-Manuelles Installieren auf openSUSE-basierten Distributionen:
+Manuelles Installieren unter openSUSE-basierten Distributionen:
 ```
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
  
@@ -181,28 +181,28 @@ Der Webclient führt beim Herstellen einer Verbindung mit [https://teams.microso
 
 Die Microsoft Teams-Apps für Mobilgeräte stehen für Android und iOS zur Verfügung und sind auf mobile Benutzer ausgelegt, die an Chat-basierten Unterhaltungen teilnehmen. Außerdem ermöglichen sie Peer-to-Peer-Audioanrufe. Rufen Sie den entsprechenden Store für mobile Apps – Google Play oder Apple App Store – auf, um die Apps herunterzuladen. Die Windows Phone-App wurde am 20. Juli 2018 eingestellt und funktioniert möglicherweise nicht mehr. 
 
-In China finden Sie die folgenden Informationen zum [Abrufen von Teams für Android](get-teams-android-in-china.md). 
+Hier erfahren Sie, wie Sie in China [Teams für Android abrufen](get-teams-android-in-china.md) können. 
 
 Unterstützte mobile Plattformen für mobile Microsoft Teams-Apps:
 
--   **Android**: der Support ist auf die letzten vier Hauptversionen von Android limitiert. Wenn eine neue Hauptversion von Android veröffentlicht wird, werden die neue Version und die vorherigen drei Versionen offiziell unterstützt.
+-   **Android**: Der Support ist auf die letzten vier Hauptversionen von Android begrenzt. Wenn eine neue Hauptversion von Android veröffentlicht wird, werden die neue und die vorherigen drei Versionen offiziell unterstützt.
 
--   **IOS**: der Support ist auf die beiden neuesten Hauptversionen von IOS limitiert. Wenn eine neue Hauptversion von IOS veröffentlicht wird, werden die neue Version von IOS und die vorherige Version offiziell unterstützt.
+-   **iOS**: Der Support ist auf die beiden neuesten Hauptversionen von iOS beschränkt. Wenn eine neue Hauptversion von iOS veröffentlicht wird, werden die neue und die vorherigen drei Versionen offiziell unterstützt.
 
 > [!NOTE]
 > Die mobile Version muss der Öffentlichkeit zur Verfügung stehen, damit Teams wie erwartet funktioniert.
 
-Mobile Apps werden nur über den App Store der jeweiligen mobilen Plattform vertrieben und aktualisiert. Die Verteilung der mobilen Apps über MDM oder das Laden von Seiten wird von Microsoft nicht unterstützt. Nachdem die Mobile App auf einer unterstützten mobilen Plattform installiert wurde, wird die Mobile Teams-APP selbst unterstützt, vorausgesetzt, die Version befindet sich innerhalb von drei Monaten nach der aktuellen Version.
+Mobile Apps werden nur über den App-Store der jeweiligen mobilen Plattform vertrieben und aktualisiert. Der Vertrieb der mobilen Apps über MDM oder Querladen wird von Microsoft nicht unterstützt. Sobald die mobile App auf einer unterstützten mobilen Plattform installiert wurde, wird die mobile Teams-App unterstützt, sofern die Version höchstens drei Monate jünger als die aktuelle Version ist.
 
 
 | | | |
 |---------|---------|---------|
-|![Ein Symbol, das einen Entscheidungspunkt darstellt](media/Get_clients_for_Microsoft_Teams_image4.png)      |Entscheidungspunkt         |Gelten Einschränkungen, die Benutzer daran hindern, den entsprechenden Microsoft Teams-Client auf ihren Geräten zu installieren?         |
+|![Symbol, das einen Entscheidungspunkt darstellt](media/Get_clients_for_Microsoft_Teams_image4.png)      |Entscheidungspunkt         |Gelten Einschränkungen, die Benutzer daran hindern, den entsprechenden Microsoft Teams-Client auf ihren Geräten zu installieren?         |
 |![Ein Symbol, das die nächsten Schritte darstellt](media/Get_clients_for_Microsoft_Teams_image5.png)     |Nächste Schritte         |Wenn Ihre Organisation Softwareinstallationen einschränkt, stellen Sie sicher, dass dieser Prozess mit Microsoft Teams kompatibel ist. Hinweis: Administratorrechte sind zum Installieren von Clients auf einem PC nicht erforderlich, auf einem Mac jedoch sind sie erforderlich.         |
 
 ## <a name="client-update-management"></a>Verwaltung von Clientupdates
 
-Clients werden derzeit vom Microsoft Teams-Dienst automatisch aktualisiert, ohne dass ein IT-Administratoreingriff erforderlich ist. Wenn ein Update verfügbar ist, wird der Client das Update automatisch herunterladen, und wenn die APP für einen bestimmten Zeitraum inaktiv ist, wird der Updatevorgang gestartet.
+Clients werden aktuell vom Microsoft Teams-Dienst aktualisiert, ohne dass ein IT-Administrator eingreifen muss. Wenn ein Update verfügbar ist, wird der Client das Update automatisch herunterladen und wenn die App für einen bestimmten Zeitraum nicht verwendet wurde, beginnt der Updatevorgang.
 
 ## <a name="client-side-configurations"></a>Clientseitige Konfigurationen
 
