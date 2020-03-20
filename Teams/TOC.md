@@ -37,6 +37,7 @@
 ## [Übersicht über dynamische Mitgliedschaft für Teams](dynamic-memberships.md)
 ## [Bewährte Methoden zum Organisieren von Teams in Microsoft Teams](best-practices-organizing.md)
 ## [Erstellen eines organisationsweiten Teams in Teams](create-an-org-wide-team.md)
+## [Erstellen von Managerteams für Personen](create-manager-directs-teams.md)
 ## [Verwalten von Teams und Kanalrichtlinien](teams-policies.md)
 ## [Vertraulichkeitsbezeichnungen für Teams](sensitivity-labels.md)
 ## [Verwalten der Erkennung privater Teams in Teams](manage-discovery-of-private-teams.md)
