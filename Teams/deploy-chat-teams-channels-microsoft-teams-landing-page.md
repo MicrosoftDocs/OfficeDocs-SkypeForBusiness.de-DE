@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87de516afbd94a0d1784edd52efbcc5b10e262dd
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: f8259b8a06a4601ff7feebca53c06f268bdc08c5
+ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285827"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42796018"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
@@ -42,14 +42,7 @@ Schauen Sie sich unser kurzes Video zum Thema Chats, Teams und Kanäle in Teams 
 
 ## <a name="chat-deployment-prerequisites"></a>Voraussetzungen für die Bereitstellung von Chat
 
-Bevor Sie Teams in Ihrer Organisation bereitstellen, nehmen Sie sich Zeit, um zu überprüfen, ob Ihre Umgebung für Teams bereit ist. Lesen Sie die folgenden Informationen durch, und nehmen Sie alle erforderlichen Änderungen an Ihrer Umgebung vor.
-
-- Um das vollständige Teams-Erlebnis zu bieten, müssen in Ihrer Organisation [Exchange Online und SharePoint Online](#exchange-and-sharepoint-interoperability) bereitgestellt sein, und Sie müssen über eine bestätigte Domäne für Office 365 verfügen (beispielsweise „contoso.com“).
-
-- Um Chat, Teams und Kanäle organisationsweit zu skalieren, müssen alle Standorte über Internetzugang verfügen, damit sie eine Verbindung mit Office 365 herstellen können. Stellen Sie als Mindestanforderung sicher, dass die folgenden allgemeinen Ports von allen Standorten aus zum Internet geöffnet sind:
-
-    - Öffnen Sie die **TCP**-Ports 80 und 443 für ausgehenden Datenverkehr von Clients, die Teams verwenden
-    - Öffnen Sie die **UDP**-Ports 3478 bis 3481 für ausgehenden Datenverkehr von Clients, die Teams verwenden
+Bevor Sie Teams in Ihrer Organisation bereitstellen, nehmen Sie sich Zeit, um zu überprüfen, ob Ihre Umgebung für Teams bereit ist. Lesen Sie die Informationen unter [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md), und nehmen Sie die erforderlichen Änderungen an Ihrer Umgebung vor.
 
 |Frage|Aktion |
 |------------|-------|

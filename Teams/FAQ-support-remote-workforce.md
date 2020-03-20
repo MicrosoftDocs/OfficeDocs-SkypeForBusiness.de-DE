@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um Ihre Remotemitarbeiter zu unterstützen, produktiv zu sein, wenn sie als Reaktion auf den Ausbruch von Covid-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5b6249adc4c5f7af09f0414b07f500058f71747
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: bedd9e0022dc82520d7c23e8f8f7b61a5fd78e89
+ms.sourcegitcommit: 45bbec77370ed44ba069790086541a914800ae5a
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858740"
+ms.locfileid: "42866570"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Häufig gestellte Fragen: Unterstützung für Ihre Remotemitarbeiter
 
@@ -35,7 +35,7 @@ Microsoft hat die Kapazität in wichtigen Regionen in Hinblick auf die jüngsten
 > [!NOTE]
 > Wenn Sie M365 bereits eingerichtet haben und mehr über die Maßnahmen von Microsoft wissen möchten, navigieren Sie zum Nachrichtencenter, und lesen Sie den Nachrichtencenterbeitrag **MC205458**.
 
-Verpassen Sie nicht unseren Blogbeitrag vom 5. März 2020 von Jared Spataro, Corporate Vice President für Microsoft 365: [Unsere Verpflichtung gegenüber Kunden während Covid-19](https://www.microsoft.com/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)
+Verpassen Sie nicht unseren Blogbeitrag vom 5. März 2020 von Jared Spataro, Corporate Vice President für Microsoft 365: [Unsere Verpflichtung gegenüber Kunden während Covid-19](https://www.microsoft.com/de-DE/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)
 
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>Greifen wir mit den Aktionen, die Microsoft ergreift, Problemen vor?
 
