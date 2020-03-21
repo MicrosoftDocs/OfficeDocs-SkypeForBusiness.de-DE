@@ -1,5 +1,5 @@
 ---
-title: Plan für Live-Ereignisse in Microsoft Teams
+title: Planen von Liveereignissen in Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,119 +14,119 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: Informieren Sie sich über die Faktoren, die Sie berücksichtigen müssen, bevor Sie Live Ereignisse in Microsoft Teams einrichten.
+description: Informieren Sie sich über die Faktoren, die Sie berücksichtigen sollten, bevor Sie Liveereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6f0c141751a9b67a47640ba5210c3cb7aeeadbb2
 ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/07/2020
 ms.locfileid: "42558565"
 ---
-# <a name="plan-for-live-events-in-microsoft-teams"></a>Plan für Live-Ereignisse in Microsoft Teams
+# <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
-Wenn Sie Team-Live-Events planen, um umfangreiche Besprechungen in Ihrer Organisation zu führen, müssen Sie vor Beginn der Einrichtung eine Reihe von Faktoren berücksichtigen. 
+Wenn Sie Liveereignisse in Teams planen, um große Besprechungen in Ihrer Organisation abzuhalten, müssen Sie eine Reihe von Faktoren berücksichtigen, bevor Sie mit der Einrichtung beginnen. 
 
-## <a name="who-can-create-and-schedule-live-events"></a>Wer kann Live-Events erstellen und planen? 
-Die folgenden Voraussetzungen sind erforderlich, damit der Benutzer ein Live-Event für Teams planen können.
+## <a name="who-can-create-and-schedule-live-events"></a>Wer kann Liveereignisse erstellen und planen? 
+Die folgenden Voraussetzungen müssen erfüllt sein, damit ein Benutzer ein Teams-Liveereignis planen kann.
 
-Hier sind die Lizenzen, die zugewiesen werden müssen:  
-- Eine Office 365 Enterprise E1-, E3-oder E5-Lizenz oder eine Office 365 a3-oder A5-Lizenz
-- Eine Microsoft Teams-Lizenz
-- Eine Microsoft Stream-Lizenz
+Folgende Lizenzen müssen zugewiesen werden:  
+- Eine Lizenz für Office 365 Enterprise E1, E3 oder E5 oder eine Lizenz für Office 365 A3 oder A5
+- Eine Lizenz für Microsoft Teams
+- Eine Lizenz für Microsoft Stream
 
 > [!IMPORTANT]
-> Der Benutzer, der ein Live Ereignis erstellt und plant, muss über ein Exchange Online-Postfach verfügen.
+> Der Benutzer, der ein Liveereignis erstellt und plant, muss über ein Exchange Online-Postfach verfügen.
 
-Es ist wichtig zu wissen, dass eine Office 365-Lizenz erforderlich ist, um als authentifizierter Benutzer an einem Live Ereignis teilzunehmen, aber diese Anforderung hängt von der verwendeten Produktionsmethode ab:
+Es ist wichtig zu wissen, dass eine Office 365-Lizenz erforderlich ist, um an einem Liveereignis als authentifizierter Benutzer teilzunehmen, aber diese Anforderung hängt von der verwendeten Produktionsmethode ab:
 
-- **Für Ereignisse, die in Teams erstellt wurden**  Dem Benutzer muss eine Teams-Lizenz zugewiesen sein.
-- **Für Ereignisse, die mit einer externen APP oder einem Gerät erstellt wurden** Dem Benutzer muss eine Datenstrom Lizenz zugewiesen sein.
+- **Für Ereignisse, die in Teams erstellt werden**, muss dem Benutzer eine Teams-Lizenz zugewiesen werden.
+- **Für Ereignisse, die mit einer externen App oder einem externen Gerät erstellt wurden**, muss dem Benutzer eine Stream-Lizenz zugewiesen werden.
 
 > [!NOTE]
-> Teams Live-Events sind jetzt für die US Government Cloud Community (gcc)-Organisationen verfügbar.
+> Für US Government Cloud Community (GCC)-Organisationen sind jetzt Teams-Liveereignisse verfügbar.
 
-Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Add-On-Lizensierung](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-Der Benutzer muss über Folgendes verfügen:
-- Planung privater Besprechungen in Teams aktiviert (*der TeamsMeetingPolicy-AllowPrivateMeetingScheduling-Parameter = wahr*).
-- Video Freigabe in Teambesprechungen aktiviert (*der TeamsMeetingPolicy-AllowIPVideo-Parameter = wahr*).
-- Die Bildschirmfreigabe ist in Teams-Besprechungen aktiviert (*der TeamsMeetingPolicy-ScreenSharingMode-Parameter = EntireScreen*).
-- Live-Ereignisplanung in Teams aktiviert (*der TeamsMeetingBroadcastPolicy-AllowBroadcastScheduling-Parameter = wahr*).
-- Berechtigungen zum Erstellen von Live Ereignissen in Stream (für externe APP-oder Geräteproduktion).
+Der Benutzer muss Folgendes besitzen:
+- Die Planung privater Besprechungen in Teams muss aktiviert sein (*TeamsMeetingPolicy -AllowPrivateMeetingScheduling-Parameter = True"*).
+- Die Videofreigabe in Teams-Besprechungen muss aktiviert sein (*TeamsMeetingPolicy -AllowIPVideo-Parameter = True*).
+- Die Bildschirmfreigabe in Teams-Besprechungen muss aktiviert sein (*TeamsMeetingPolicy -ScreenSharingMode-Parameter = EntireScreen*).
+- Die Planung von Liveereignissen in Teams muss aktiviert sein (*TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling-Parameter = True*).
+- Berechtigungen zum Erstellen von Liveereignissen in Stream (für die Produktion externer Anwendungen oder Geräte).
 
 > [!IMPORTANT]
-> Nicht authentifizierte anonyme Benutzer können nicht als Produzenten oder Referenten in Teams Live-Events eingeladen werden. 
+> Nicht authentifizierte anonyme Benutzer können nicht als Produzenten oder Referenten zu Teams-Liveereignissen eingeladen werden. 
  
-## <a name="who-can-watch-live-events"></a>Wer kann Live-Events sehen?
+## <a name="who-can-watch-live-events"></a>Wer kann Liveereignisse anschauen?
 
-|**Sichtbarkeit von Teilnehmern**       |**Team Produktion**  |**Externe APP-oder Geräteproduktion**  |
+|**Sichtbarkeit für Teilnehmer**       |**Teams-Produktion **  |**Produktion externer Anwendungen oder Geräte**  |
 |------------------------------|-----------------|----------------------|
 |Öffentlich (anonyme Benutzer)      |  Ja            |  Nein                  |
-|Gastbenutzer                   |  Nr.<sup>1</sup> |  Nein                  |
-|Jeder im Verbundunternehmen |  Nr.<sup>2</sup> |  Nein                  |
-|Jeder in Unternehmen           |  Ja             |  Ja                 |
-|Bestimmte Gruppen/Personen      |  Ja             |  Ja                 |
+|Gastbenutzer                   |  Nein<sup>1</sup> |  Nein                  |
+|Alle im Unternehmensverbund |  Nein<sup>2</sup> |  Nein                  |
+|Jeder im Unternehmen           |  Ja            |  Ja                 |
+|Bestimmte Gruppen/Personen      |  Ja            |  Ja                 |
 
-<sup>1</sup> kann Live Ereignisse beobachten, wenn das Live-Ereignis mithilfe der Option " **org-Wide** " eingerichtet ist.<br>
-<sup>2</sup> kann Live-Ereignisse nur als anonyme Benutzer ansehen.
+<sup>1</sup> Kann Liveereignisse verfolgen, wenn das Liveereignis mit der Option **Organisationsweit** eingerichtet wurde.<br>
+<sup>2</sup> Kann Liveereignisse nur als anonymer Benutzer verfolgen.
 
  
-## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams Live-Events und Skype-Live Konferenz
+## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams-Liveereignisse und Skype Meeting Broadcast
 
-In der folgenden Tabelle werden die wichtigsten Funktionen und Funktionen von Live Ereignissen sowie deren Unterschiede zwischen Skype-Live Konferenzen hervorgehoben. 
+Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunktionen und Features bei Liveereignissen und Skype Meeting Broadcast. 
 
-|**Funktion**   |**Skype-Livekonferenzen** |**In Teams erstellte Ereignisse** |**Ereignisse, die in einer externen APP oder einem Gerät erstellt wurden** |
+|**Funktion**   |**Skype Meeting Broadcast** |**In Teams produzierte Ereignisse** |**In einer externen App oder auf einem externen Gerät produzierte Ereignisse** |
 |---------|---------|---------|---------|
 |Maximale Zielgruppengröße |10.000 Teilnehmer |10.000 Teilnehmer<sup>1</sup> |10.000 Teilnehmer<sup>1</sup> |
-|Maximale Dauer des Liveereignisses |4 Stunden |4 Stunden |4 Stunden |
-|Maximale Anzahl von gleichzeitigen Live Ereignissen pro Office 365-Mandanten |15  | 15  | 15  |
-|Erstellen von Live Ereignissen |   Skype-Live Konferenz-Portal |Teams, jammern über Teams | Teams, über Teams jammern, streamen |
-|Publikums Engagement – jammern |&#x2714; |&#x2714; (integrierte Benutzeroberfläche) |&#x2714; (integrierte Benutzeroberfläche) |
-|Audience Engagement – moderiert Q & A |&#x2714;  |&#x2714; |&#x2714; |
-|Producer-Client unter Windows |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; (streamen, Teams per Datenstrom einbetten) |
-|Producer-Client auf einem Mac |X  | &#x2714; (Teams) |&#x2714; (streamen, Teams per Datenstrom einbetten) |
-|Anzahl der Teilnehmer in der Producer-Benutzeroberfläche |X  |&#x2714; (Teams) |&#x2714; (streamen, Teams per Datenstrom einbetten) |
-|Ermöglicht mehrere Referenten |&#x2714; (Skype for Business) |&#x2714; (Teams) |Nicht zutreffend  |
-|Einladen eines Referenten während der Besprechung |&#x2714; (Skype for Business) |X |Nicht zutreffend |
-|Referenten-Join im Web und Handy |&#x2714; (Skype for Business)  |X |Nicht zutreffend |
-|Verbundene & Gastreferenten/Teilnehmer |&#x2714; (Skype for Business)  | (in Kürze verfügbar) |Nicht zutreffend |
-|Referent – PSTN-Zugriff |X |&#x2714; (Teams) |Nicht zutreffend |
-|Präsentieren eines Bildschirms |X |&#x2714; (Teams) |Nicht zutreffend |
-|Präsentieren einer PowerPoint-Freigabe (PPT-Freigabe) |&#x2714; |X (durch Bildschirmübertragung verringert) |Nicht zutreffend |
-|Cloud-basierte Besprechungsaufzeichnung |&#x2714; |&#x2714; |&#x2714; |
-|Aufzeichnen in Datenstrom automatisch veröffentlichen |X |X |&#x2714; |
-|Live Beschriftungen und Untertitel |&#x2714; |&#x2714; |X |
-|Beschriftungen in Live-Ereignisaufzeichnungen |&#x2714; |&#x2714; |&#x2714; |
-|Steuerelemente für Teilnehmer-DVR (anhalten, Zurückspulen) |&#x2714; |&#x2714; |&#x2714; |
-|Support für Partner-ECDN |&#x2714; (Hive, Kollective, Laderampe) |&#x2714; (Hive, Kollective, Laderampe) |&#x2714; (Hive, Kollective, Laderampe) |
-|Teilnahmebericht nach der Übertragung für Hersteller |&#x2714; |&#x2714; |X |
-|Analyse der Zielgruppe – Live Voting & Umfragen |&#x2714; (Microsoft Pulse) |X |X |
+|Maximale Dauer eines Liveereignisses |4 Stunden |4 Stunden |4 Stunden |
+|Maximale Anzahl gleichzeitiger Liveereignisse pro Office 365-Mandant |15  | 15  | 15  |
+|Erstellung von Liveereignissen |   Skype Meeting Broadcast-Portal |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
+|Zielgruppen-Engagement – Yammer |&#x2714; |&#x2714; (integrierte Lösung) |&#x2714; (integrierte Lösung) |
+|Zielgruppen-Engagement – Moderierte F & A |&#x2714;  |&#x2714; |&#x2714; |
+|Produzentenclient unter Windows |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
+|Produzentenclient auf Mac |X  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
+|Teilnehmeranzahl in Produzenten-UI |X  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
+|Mehrere Referenten zulässig |&#x2714; (Skype for Business) |&#x2714; (Teams) |–  |
+|Referenten während der Sitzung einladen |&#x2714; (Skype for Business) |X |– |
+|Referenten über Web und Mobilgerät teilnehmen |&#x2714; (Skype for Business)  |X |– |
+|Verbund- & Gastreferenten/teilnehmer |&#x2714; (Skype for Business)  | (in Kürze verfügbar) |– |
+|Referent – Telefonfestnetz (PSTN)-Zugang |X |&#x2714; (Teams) |– |
+|Bildschirm präsentieren |X |&#x2714; (Teams) |– |
+|PowerPoint präsentieren (PPT-Freigabe) |&#x2714; |X (möglich über Bildschirmfreigabe) |– |
+|Aufzeichnung einer cloudbasierten Besprechung |&#x2714; |&#x2714; |&#x2714; |
+|Automatische Veröffentlichung der Aufzeichnung in Stream |X |X |&#x2714; |
+|Livebeschriftungen und Untertitel |&#x2714; |&#x2714; |X |
+|Beschriftungen in Aufzeichnungen von Liveereignissen |&#x2714; |&#x2714; |&#x2714; |
+|Teilnehmer-DVR-Steuerung (Pause, Rücklauf) |&#x2714; |&#x2714; |&#x2714; |
+|Partner eCDN-Unterstützung |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
+|Nachträglich gesendeter Anwesenheitsbericht für Produzenten |&#x2714; |&#x2714; |X |
+|Teilnehmerstimmungsanalyse – Liveabstimmungen & -umfragen |&#x2714; (Microsoft Pulse) |X |X |
 
-<sup>1</sup> die festgelegten Grenzwerte können geändert werden.
+<sup>1</sup> Die festgelegten Grenzen können geändert werden.
 
 ## <a name="regional-availability"></a>Regionale Verfügbarkeit
-Sie können Teams Live-Events in mehreren Regionen in der ganzen Welt nutzen. Die folgenden Informationen zeigen die Verfügbarkeit für Ereignis Teammitglieder und Teilnehmer. 
+Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folgenden Informationen zeigen die Verfügbarkeit für die Ereignisteammitglieder und -teilnehmer. 
 
 > [!IMPORTANT]
-> Je nach Organisator und Office 365-Organisation wird der Bereich für das Ereignis automatisch ausgewählt.
+> Die Region für das Ereignis wird automatisch in Abhängigkeit vom Organisator und der Office 365-Organisation ausgewählt.
 
 **Verfügbar in diesen Regionen**
-- Nord
+- Nord- und Südamerika
 - Europa/Afrika
-- Asien/Pazifik
-- Go local Canada, Indien, Australien, Japan, Großbritannien
+- Asiatisch-pazifischer Raum
+- "Go Local" Kanada, Indien, Australien, Japan, UK
 
-**Ausschlüsse und Überlegungen**
-- **Ortsansässige:** Teams gehen ortsansässige, außerhalb der oben aufgeführten, werden zurzeit nicht unterstützt.
-- **China:** Ereignis Teammitglieder und Teilnehmer können keine Teams-Live Ereignisse verwenden, da in China nicht auf Azure CDN zugegriffen werden kann. Eine Problemumgehung besteht darin, eine VPN-Verbindung des Unternehmens zu verwenden, wodurch der Client über das Unternehmensnetzwerk des Kunden mit CDN verbunden wird.
+**Ausschlüsse und Überlegungen**.
+- **Go Locals:** Teams Go Locals, außerhalb der oben aufgeführten, werden derzeit nicht unterstützt.
+- **China:** Mitglieder und Teilnehmer des Ereignisteams können die Liveereignisse des Teams nicht nutzen, da das Azure CDN in China nicht zugänglich ist. Eine Problemumgehung ist die Verwendung einer Firmen-VPN-Verbindung, die den Client über das Firmennetzwerk des Kunden mit dem CDN verbindet.
 
 ## <a name="next-steps"></a>Nächste Schritte
-Wechseln Sie zu [Einrichten für Live-Events für Teams](set-up-for-teams-live-events.md).
+Navigieren Sie zu [Einrichten von Teams-Liveereignissen](set-up-for-teams-live-events.md).
 
 ### <a name="related-topics"></a>Verwandte Themen
 - [Was sind Teams-Liveereignisse?](what-are-teams-live-events.md)
 - [Einrichten von Teams-Liveereignissen](set-up-for-teams-live-events.md)
-- [Konfigurieren von Live Ereigniseinstellungen in Microsoft Teams](configure-teams-live-events.md)
+- [Konfigurieren der Einstellungen für Liveereignisse in Teams](configure-teams-live-events.md)
 
