@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 885d6e702a17e8254516a09fe8e26a89b6884a17
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9c548886eafede9ba4525fd9a17d2d7655f8c5a8
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008167"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892265"
 ---
 # <a name="shifts-for-teams"></a>Schichten für Teams
 
@@ -109,7 +109,7 @@ Teams bietet First-work-Mitarbeitern in Ihrer Organisation die Tools, die Sie be
         </a>
     </li>
     <li>
-        <a href="https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b">
+        <a href="https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -119,7 +119,7 @@ Teams bietet First-work-Mitarbeitern in Ihrer Organisation die Tools, die Sie be
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Schicht Hilfe für Mitarbeiter von First-work</h3>
+                        <h3>Hilfe zur Schichten-App für Mitarbeiter in Service und Produktion</h3>
                     </div>
                 </div>
             </div>
