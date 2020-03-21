@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e009ccfb70e307e4a67f8331deabce51e229c0f
-ms.sourcegitcommit: 511238a3550ad0ff8d4bbd4600a252651ab6a654
+ms.openlocfilehash: 2cfe1c1af9fe85d307999289d318106c8ebc132a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42615367"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892295"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -142,28 +142,31 @@ Weitere Informationen zu Teams und Office 365 ProPlus finden Sie unter [Ausschli
     - Benutzerspezifische Installation (Standard)
   
         ```console
-        msiexec /i <path_to_msi> /l*v <install_logfile_name>
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
         ```
-    
+
         Hierbei handelt es sich um die Standardinstallation, mit der Teams im Benutzerordner% APPDATA% installiert werden. An diesem Punkt ist die Einrichtung des „Golden Image“ abgeschlossen. Teams funktionieren nicht ordnungsgemäß mit der Installation pro Benutzer bei einem nicht persistenten Setup.
-    
+
     - Installation pro Computer
 
         ```console
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
         Damit werden Teams im Programmdateien (x86)-Ordner auf einem 64-Bit-Betriebssystem und im Ordner "Programme" auf einem 32-Bit-Betriebssystem installiert. An diesem Punkt ist die Einrichtung des „Golden Image“ abgeschlossen. Für nicht persistente Setups ist die Installation von Teams pro Computer erforderlich.
- 
+
         Bei der nächsten interaktiven Anmeldesitzung startet Teams und fordert Anmeldeinformationen an.
 
-3. Deinstallieren Sie die MSI-Karte aus der VDI-VM. 
+    > [!NOTE]
+    > In diesen Beispielen wird auch der **ALLUSERS = 1** -Parameter verwendet. Wenn Sie diesen Parameter festlegen, wird das computerweite Installationsprogramm von Teams in den Programmen und Funktionen in der Systemsteuerung und in den apps & Features in Windows-Einstellungen für alle Benutzer des Computers angezeigt. Alle Benutzer können dann Teams deinstallieren, wenn Sie über Administratoranmeldeinformationen verfügen. Es ist wichtig, den Unterschied zwischen **ALLUSERS = 1** und **alluser = 1**zu verstehen. Der " **ALLUSERS = 1** "-Parameter kann in nicht-VDI-und VDI-Umgebungen verwendet werden, und der **alluser = 1** -Parameter wird nur in VDI-Umgebungen verwendet, um eine pro-Computer-Installation festzulegen.
+
+3. Deinstallieren Sie die MSI-Karte aus der VDI-VM.
 
     Es gibt zwei Möglichkeiten, Teams zu deinstallieren:  
   
     - PowerShell-Skript (empfohlen)
-    
-    - Befehlszeile: dieser Ansatz entfernt Teams, verhindert aber eine erneute Installation von Teams. Führen Sie den folgenden Befehl aus:
+
+    - Befehlszeile:
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>

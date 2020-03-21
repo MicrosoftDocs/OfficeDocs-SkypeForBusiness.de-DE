@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31c6b04531b21996f897b3d668fdb6515f1e953f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: ec16f919bad5ed696741664836aa3d7127837c5a
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836815"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892365"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Erste Schritte mit Microsoft Teams-Vorlagen im Einzelhandel 
 
@@ -43,7 +43,7 @@ Die Store-Vorlage eignet sich hervorragend zum Erstellen eines Teams zur Darstel
 
 | Basis Vorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Retail <br>Speichern | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Kanäle <ul><li>Verschiebt die Übergabe\*</li><li>Lerntools\*</li></ul>\*Automatisch bevorzugte Kanäle<br><br>Team Eigenschaften <ul><li>Team Sichtbarkeit auf "öffentlich" eingestellt</li></ul> <br>Mitglieder Berechtigungen <ul><li>Kanäle können nicht erstellt/aktualisiert/gelöscht werden </li><li>Apps können nicht hinzugefügt/entfernt werden </li><li>Registerkarten können nicht erstellt/aktualisiert/entfernt werden</li><li>Connectors können nicht erstellt/aktualisiert/entfernt werden</li><ul>|
+| Retail <br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Kanäle <ul><li>Verschiebt die Übergabe\*</li><li>Lerntools\*</li></ul>\*Automatisch bevorzugte Kanäle<br><br>Team Eigenschaften <ul><li>Team Sichtbarkeit auf "öffentlich" eingestellt</li></ul> <br>Mitglieder Berechtigungen <ul><li>Kanäle können nicht erstellt/aktualisiert/gelöscht werden </li><li>Apps können nicht hinzugefügt/entfernt werden </li><li>Registerkarten können nicht erstellt/aktualisiert/entfernt werden</li><li>Connectors können nicht erstellt/aktualisiert/entfernt werden</li><ul>|
 ||||
 
 Empfohlene Vorgehensweisen zum Anpassen der Store-Vorlage für Ihre Organisation:
@@ -58,9 +58,32 @@ Die Vorlage "Manager-Zusammenarbeit" ist eine weitere der Teamvorlagen, die für
 
 | Basis Vorlagentyp | baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Retail <br>Speichern | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Kanäle <ul><li>Vorgänge\*</li><li>Lerntools\*</li></ul>\*Automatisch bevorzugte Kanäle<br><br>Team Eigenschaften <ul><li>Team Sichtbarkeit auf "Privat" gesetzt</li></ul> <br>Mitglieder Berechtigungen <ul><li>Kann Kanäle erstellen/aktualisieren/löschen </li><li>Kann apps hinzufügen/entfernen </li><li>Kann Registerkarten erstellen/aktualisieren/entfernen</li><li>Kann Connectors erstellen/aktualisieren/entfernen</li><ul>|
+| Retail <br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Kanäle <ul><li>Vorgänge\*</li><li>Lerntools\*</li></ul>\*Automatisch bevorzugte Kanäle<br><br>Team Eigenschaften <ul><li>Team Sichtbarkeit auf "Privat" gesetzt</li></ul> <br>Mitglieder Berechtigungen <ul><li>Kann Kanäle erstellen/aktualisieren/löschen </li><li>Kann apps hinzufügen/entfernen </li><li>Kann Registerkarten erstellen/aktualisieren/entfernen</li><li>Kann Connectors erstellen/aktualisieren/entfernen</li><ul>|
 ||||
 
 Empfohlene Vorgehensweisen zum Anpassen der Vorlage für die Manager-Zusammenarbeit für Ihre Organisation:
 
 - Wenn Ihre Organisation über interne Websites (beispielsweise eine SharePoint-Website) verfügt, die für Manager relevant sind, sollten Sie Sie als Registerkarten in einem relevanten Teamkanal fixieren ( [hier](get-started-with-teams-templates.md) finden Sie Anweisungen dazu unter Dokumentation).
+
+## <a name="how-to-use-first-party-templates"></a>Verwenden von Vorlagen für Erstanbieter
+
+Wenn Sie diese Vorlagen verwenden möchten, ändern Sie einfach die Eigenschaft "Template@odata. Bind" im Anforderungstext von "Standard" in das obige TemplateIDs.  Weitere Informationen zum Bereitstellen von Teams-Vorlagen finden Sie im Microsoft Graph-Artikel zum [Erstellen eines Teams](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+
+> [!NOTE]
+> Die Kanäle in der Vorlage werden auf der RegisterkarteAllgemein automatisch erstellt.
+
+### <a name="example-store-template-extension-script"></a>Beispiel: Vorlagen Erweiterungs Skript speichern
+
+``` PowerShell
+{
+  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('retailStore')",
+  "DisplayName": "Contoso Store",
+  "Description": "Team for all staff in Contoso Store",
+  "Channels": [
+    {
+      "displayName": "Additional store channel",
+      "IsFavoriteByDefault": false
+    }
+  ]
+}
+```
