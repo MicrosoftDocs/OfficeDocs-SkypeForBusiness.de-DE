@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: Hier erfahren Sie, wie Sie Microsoft Teams für Ihre Office 365-Organisation aktivieren.
+description: Erfahren Sie, wie Sie Microsoft Teams in Ihrer Office 365-Organisation aktivieren können.
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -21,7 +21,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a4772cc676cb9b26ec613488553e96be26d93cfa
 ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41833345"
@@ -34,7 +34,7 @@ ms.locfileid: "41833345"
 Microsoft Teams ist standardmäßig für alle Organisationen aktiviert. Wenn Sie Microsoft Teams im Vorschauzeitraum verwendet haben, bleibt die Einstellung erhalten, die Sie in der Microsoft Teams-Vorschau festgelegt haben. 
 
 
-Als Administrator für Ihre Organisation können Sie Benutzerlizenzen zuweisen, um den individuellen Zugriff auf Teams zu steuern, und Sie können zulassen oder blockieren, welche Inhaltsquellen in Teams verwendet werden können. Weitere Informationen finden Sie unter [Verwalten von Microsoft Teams-Einstellungen für Ihre Organisation](enable-features-office-365.md) oder [Administratoreinstellungen für apps in Microsoft Teams](admin-settings.md) . 
+Als Administrator für Ihre Organisation können Sie Benutzerlizenzen für die Steuerung des individuellen Zugriffs auf Microsoft Teams zuweisen. Weiterhin können Sie zulassen oder blockieren, welche Inhaltsquellen in Microsoft Teams verwendet werden können. Weitere Informationen erhalten Sie unter [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md) oder [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md). 
 
 
  
