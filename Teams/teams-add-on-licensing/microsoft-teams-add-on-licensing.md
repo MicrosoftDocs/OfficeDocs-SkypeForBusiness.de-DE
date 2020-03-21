@@ -22,7 +22,7 @@ ms.custom:
 description: Erfahren Sie mehr über Add-On-Lizenzen, die Features, die Sie bei den einzelnen Lizenzen erhalten, wie Sie sie für Ihr Produkt kaufen können, und wie Sie sie bei Ihrem bestehenden Netzbetreiber nutzen können. Sie können Informationen über Preise und Details zu den Plänen für Office 365, Kommunikationsguthaben und Anrufpläne erhalten.
 ms.openlocfilehash: c1faf51c6f0c61ce569a0e3f14181aa8db276a2c
 ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 02/15/2020
 ms.locfileid: "42029376"
