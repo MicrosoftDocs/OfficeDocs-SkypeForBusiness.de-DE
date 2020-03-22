@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Einrichten eines Ressourcenkontos für Skype for Business Server 2019.
-ms.openlocfilehash: 9acd9df1d9c5372915ea51ff1b3b94e1f89c3311
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 14d2f161be54ac61c866597bdad141cf31138fbd
+ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42113258"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42892305"
 ---
 # <a name="configure-resource-accounts"></a>Konfigurieren von Ressourcenkonten
 
@@ -32,7 +32,7 @@ Wenn Sie über eine Exchange um automatische Telefonzentrale und ein Anruf Warte
 
 Wenn für die automatische Telefonzentrale oder die Anrufwarteschlange eine Dienstnummer erforderlich ist, können die verschiedenen Abhängigkeiten in der folgenden Reihenfolge erfüllt werden:
 
-1. Abrufen einer Dienstnummer
+1. Rufen Sie eine Dienstnummer ab.
 2. Erhalten Sie eine ﻿kostenlose Telefonsystem- [virtuelle Benutzerlizenz](/MicrosoftTeams/teams-add-on-licensing/virtual-user) oder eine gebührenpflichtige Telefonsystem Lizenz, die mit dem Ressourcenkonto verwendet werden soll.
 3. Erstellen Sie das Ressourcenkonto. Für eine automatische Telefonzentrale oder Anrufwarteschlange ist ein zugeordnetes Ressourcenkonto erforderlich.
 4. Warten Sie, bis eine Active Directory-Synchronisierung zwischen Online und lokal durchsteht.
@@ -71,7 +71,7 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
 3. Erstellen Sie ein lokales Ressourcenkonto, indem Sie das `New-CsHybridApplicationEndpoint` Cmdlet für jede automatische Telefonzentrale oder Anrufwarteschlange ausführen und jedem einen Namen, eine SIP-Adresse usw. geben.
 
     ``` Powershell
-    New-CsHybridApplicationEndpoint -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+    New-CsHybridApplicationEndpoint -ApplicationID <GUID> -DisplayName appinstance01 -SipAddress sip:appinstance01@contoso.com -OU "ou=Redmond,dc=litwareinc,dc=com"
     ```
 
     Weitere Informationen zu diesem Befehl finden Sie unter [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) .
@@ -103,12 +103,12 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
    Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
    ```
 
-Das Ressourcenkonto benötigt eine zugewiesene Telefonnummer, wenn es einer automatischen Telefonzentrale oder einer Anrufwarteschlange zugewiesen wird. Benutzer (Teilnehmer-) Telefonnummern können keinem Ressourcenkonto zugewiesen werden, es dürfen nur Dienst gebührenpflichtige oder gebührenfreie Telefonnummern verwendet werden.
+   Das Ressourcenkonto benötigt eine zugewiesene Telefonnummer, wenn es einer automatischen Telefonzentrale oder einer Anrufwarteschlange zugewiesen wird. Benutzer (Teilnehmer-) Telefonnummern können keinem Ressourcenkonto zugewiesen werden, es dürfen nur Dienst gebührenpflichtige oder gebührenfreie Telefonnummern verwendet werden.
 
-  Sie können Ihrem Ressourcenkonto eine direkte Routing-Hybrid Nummer zuweisen.  Details finden Sie unter [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) .
+     Sie können Ihrem Ressourcenkonto eine direkte Routing-Hybrid Nummer zuweisen. Ausführliche Informationen finden Sie unter [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan).
 
-  > [!NOTE]
-  > Direkte Routing-Dienstnummern, die Ressourcenkonten für die automatische Telefonzentrale und Anrufwarteschlangen zugewiesen werden, werden nur für Microsoft Teams-Benutzer und-Agents unterstützt.
+     > [!NOTE]
+     > Direkte Routing-Dienstnummern, die Ressourcenkonten für die automatische Telefonzentrale und Anrufwarteschlangen zugewiesen werden, werden nur für Microsoft Teams-Benutzer und-Agents unterstützt.
 
 7. Erstellen Sie die automatische Telefonzentrale oder die Anrufwarteschlange. Sehen Sie sich eines der folgenden Themen an:
 
@@ -195,7 +195,7 @@ Bei der Migration von Exchange um zu Telefon System müssen die Struktur der Anr
 
 [Erstellen einer Cloudanrufwarteschleife](/MicrosoftTeams/create-a-phone-system-call-queue)
 
-[Was sind automatische Cloud-Telefonzentralen?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
+[Was sind automatische Cloudtelefonzentralen?](/MicrosoftTeams/what-are-phone-system-auto-attendants)
 
 [Einrichten einer automatischen Cloudtelefonzentrale](/MicrosoftTeams/create-a-phone-system-auto-attendant)  
 
