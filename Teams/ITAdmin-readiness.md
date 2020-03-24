@@ -19,12 +19,12 @@ ms.custom:
 description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 217f099fb773d3f8468e214c2e1e9ef33990d816
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 2794891da78e8b8028bc18d82715a27d5c2eb78d
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858340"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42937609"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Administrator-Schulung für Microsoft Teams
 
@@ -105,7 +105,7 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 | Dynamische Notrufe | [Video](https://aka.ms/teams-dec) |  [Foliensatz](https://aka.ms/teams-dec-deck) |
 | Liveereignisse | [Video](https://aka.ms/teams-live-events-session) | [Foliensatz](https://aka.ms/teams-live-events-deck) |
 | Telefonsystem-Einführung | [Video](https://aka.ms/teams-phone-system) | [Foliensatz](https://aka.ms/teams-phone-system-deck) |
-| Direktes Routing | [Video](https://aka.ms/teams-direct-routing) | [Foliensatz](https://aka.ms/teams-direct-routing-deck) |
+| Direktes Routing | [Video 1: Planen der direkten Weiterleitung in Teams](https://aka.ms/teams-dr-plan)<br>[Video 2: Konfigurieren und Verwalten des direkten Routings in Teams](https://aka.ms/teams-dr-config)<br>Video 3: Migrieren zu direktem Routing in Teams <strong> <font color="#4B53BC">Coming soon!</font> : demnächst verfügbar</strong>  | [Foliensatz](https://aka.ms/teams-direct-routing-deck) |
 | Upgrade von Skype for Business auf Microsoft Teams | [Video 1: Einführung in das Upgrade](https://aka.ms/teams-upgrade-intro)</br>[Video 2: Planen des Upgrades](https://aka.ms/teams-upgrade-plan)</br>[Video 3: Koexistenz und Interoperabilität](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Video 4: Das Upgrade aus Sicht des Administrators](https://aka.ms/teams-upgrade-admin) | [Foliensatz](https://aka.ms/teams-upgrade-deck)|
 
 <h2>Schnellstarthandbücher</h2>
