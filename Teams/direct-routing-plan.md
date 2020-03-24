@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie mit dem Microsoft Phone System Direct Routing einen unterstützten, vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: 0e15f8e76bc9512a28311764c39e34b45131b9d3
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 5efed6ed21e6eb4bfa4e2ae89e625595b0307ada
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858580"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928438"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -257,7 +257,7 @@ Sie müssen die folgenden Ports für Office 365-Umgebungen verwenden, in denen e
 
 |**Datenverkehr**|**Von**|**Bis**|**Quell-Port**|**Ziel-Port**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP-Proxy|Sbchttps|1024 – 65535|Definiert auf dem SBC (für Office 365 gcc-höchst/DoD-nur Ports 5061 und 5062 müssen verwendet werden)|
+|SIP/TLS|SIP-Proxy|Sbchttps|1024 – 65535|Definiert auf dem SBC (für Office 365 gcc-höchst/DoD-Port 5061 muss verwendet werden)|
 SIP/TLS|Sbchttps|SIP-Proxy|Im SBC definiert|5061|
 ||||||
 
@@ -269,7 +269,7 @@ In der folgenden Tabelle sind die Beziehungen zwischen primären, sekundären un
 
 |**Wenn das primäre Rechenzentrum**|**EMEA**|**Noam**|**Asien**|
 |:--- |:--- |:--- |:--- |
-|Das sekundäre Rechenzentrum (sip2.pstnhub.Microsoft.com)|USA|EU|USA|
+|Das sekundäre Rechenzentrum (sip2.pstnhub.Microsoft.com)|US|EU|US|
 |Das tertiäre Rechenzentrum (sip3.pstnhub.Microsoft.com)|Asien|Asien|EU|
 |||||
 

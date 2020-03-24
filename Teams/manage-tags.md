@@ -16,17 +16,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Verwendung von Tags in Microsoft Teams in Ihrer Organisation verwalten können.
-ms.openlocfilehash: 5da1d1549e6171656b0065036819be0fac450759
-ms.sourcegitcommit: 494e5956619084ff8f0a4f42efb5081c4530488a
-ms.translationtype: HT
+ms.openlocfilehash: cd2c2e69054923ccf287f35a15fcebb870d6a5d5
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551042"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928448"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Verwalten von Tags in Microsoft Teams
-
-> [!NOTE]
-> Sie sehen diese Funktion noch nicht im Microsoft Teams Admin Center? Sie wird zurzeit eingeführt und ist in Ihrer Organisation möglicherweise noch nicht verfügbar. Weitere Informationen zu bevorstehenden Features von Teams finden Sie in der [Microsoft 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
 Mithilfe von Tags in Microsoft Teams können Benutzer mit einer Teilmenge von Personen in einem Team kommunizieren. Tags können einem oder mehreren Teammitgliedern hinzugefügt werden, um auf einfache Weise mit einer bestimmten Gruppe von Personen in Kontakt zu treten. Teambesitzer und -mitglieder können einer Person ein oder mehrere Tags hinzufügen (wenn das Feature für sie aktiviert ist). Die Tags können dann von jedem Teammitglied in @Erwähnungen in Kanalbeiträgen verwendet werden, oder um eine Unterhaltung nur mit den Personen zu starten, denen das entsprechende Tag zugewiesen ist.
 
