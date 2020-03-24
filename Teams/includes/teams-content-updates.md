@@ -80,6 +80,61 @@
 | 3/13/2020 | [Unterstützung von Remotemitarbeitern in Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | Geändert |
 
 
+## <a name="week-of-march-16-2020"></a>Woche vom 16. März 2020
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 3/17/2020 | [Anforderungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
+| 3/17/2020 | [Telefone und Geräte für Teams](/MicrosoftTeams/teams-ip-phones) | Geändert |
+| 3/17/2020 | [Verwenden von Power BI zum Analysieren von CQD-Daten für Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | Geändert |
+| 3/17/2020 | [Bewährte Methoden zum Organisieren von Teams in Microsoft Teams](/MicrosoftTeams/best-practices-organizing) | Geändert |
+| 3/17/2020 | [Chat, Teams, Kanäle und Apps in Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | Geändert |
+| 3/17/2020 | [Verwalten der kostenlosen Office 365 E1-Testversion](/MicrosoftTeams/e1-trial-license) | Geändert |
+| 3/17/2020 | [Erstellen Ihrer ersten Teams und Kanäle in Microsoft Teams](/MicrosoftTeams/get-started-with-teams-create-your-first-teams-and-channels) | Geändert |
+| 3/17/2020 | [Erste Schritte mit Microsoft Teams-Vorlagen](/MicrosoftTeams/get-started-with-teams-templates) | Geändert |
+| 3/17/2020 | [Unterstützung von Remotemitarbeitern in Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | Geändert |
+| 3/17/2020 | [Behörden, Bildungseinrichtungen und gemeinnützige Organisationen](/MicrosoftTeams/teams-add-on-licensing/gov-edu-and-nonprofit-organizations) | Geändert |
+| 3/17/2020 | [Überlegungen zum Teams Only-Modus](/MicrosoftTeams/teams-only-mode-considerations) | Geändert |
+| 3/17/2020 | [Verwenden Sie den Ratgeber für Teams (Vorschau) als Hilfe beim Rollout von Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | Geändert |
+| 3/18/2020 | [Verwalten der kostenlosen Office 365 E1-Testversion](/MicrosoftTeams/e1-trial-license) | Geändert |
+| 3/18/2020 | [Verwalten von Richtlinien Paketen in Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | Geändert |
+| 3/18/2020 | [Tools und Workshops: Planen, Bereitstellen und Einführen von Microsoft Teams](/MicrosoftTeams/planning-workshop-practical-guide) | Geändert |
+| 3/18/2020 | [Anzeigen der Microsoft Teams-Auslastung in Power BI mithilfe von CQD-Daten](/MicrosoftTeams/cqd-teams-utilization-report) | Geändert |
+| 3/18/2020 | [Häufig gestellte Fragen – Unterstützung für Ihre Remotemitarbeiter](/MicrosoftTeams/faq-support-remote-workforce) | Geändert |
+| 3/18/2020 | [Bereitstellen von Microsoft Teams](/MicrosoftTeams/how-to-roll-out-teams) | Geändert |
+| 3/18/2020 | [Administratorschulung für Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | geändert |
+| 3/18/2020 | [Besprechungen in Microsoft Teams](/MicrosoftTeams/tutorial-meetings-in-teams) | Geändert |
+| 3/18/2020 | [Zuweisen von Teams-Lizenzen](/MicrosoftTeams/assign-teams-licenses) | Geändert |
+| 3/18/2020 | [Besprechungen und Konferenzen in Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | Geändert |
+| 3/18/2020 | [Liste der für direktes Routing zertifizierten Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
+| 3/18/2020 | [Planen von direktem Routing](/MicrosoftTeams/direct-routing-plan) | Geändert |
+| 3/18/2020 | [Endbenutzer-Schulungen für Microsoft Teams](/MicrosoftTeams/enduser-training) | Geändert |
+| 3/18/2020 | [Verwalten der kostenlosen Office 365 G1-Testversion für US-Regierungsbehörden](/MicrosoftTeams/g1-trial-license) | Geändert |
+| 3/18/2020 | [Beziehen von Microsoft Teams für Android in China](/MicrosoftTeams/get-teams-android-in-china) | Geändert |
+| 3/18/2020 | [Kursleitergeführte Schulung und Videos für Microsoft Teams-Benutzer](/MicrosoftTeams/instructor-led-training-teams-landing-page) | Geändert |
+| 3/18/2020 | [Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen](/MicrosoftTeams/remote-learning-edu) | Geändert |
+| 3/18/2020 | [Unterstützung von Remotemitarbeitern in Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | Geändert |
+| 3/18/2020 | [Verwalten von Richtlinien für das App-Setup in Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | Geändert |
+| 3/18/2020 | [Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen](/MicrosoftTeams/teams-edu-licensing) | Geändert |
+| 3/18/2020 | [Verwalten der explorativen Microsoft Teams-Umgebung](/MicrosoftTeams/teams-exploratory) | Geändert |
+| 3/18/2020 | [Teams in 30](/MicrosoftTeams/teams-in-30-workshops) | Geändert |
+| 3/18/2020 | [Microsoft Teams-Schulung](/MicrosoftTeams/training-microsoft-teams-landing-page) | Geändert |
+| 3/19/2020 | [Häufig gestellte Fragen – Unterstützung für Ihre Remotemitarbeiter](/MicrosoftTeams/faq-support-remote-workforce) | Geändert |
+| 3/19/2020 | [Unterstützung von Remotemitarbeitern in Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | Geändert |
+| 3/19/2020 | [Zuweisen von Richtlinien zu umfangreichen Benutzergruppen in ihrer Schule](/MicrosoftTeams/batch-policy-assignment-edu) | Geändert |
+| 3/19/2020 | [Schichten für Teams](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | Geändert |
+| 3/20/2020 | [Erste Schritte mit Microsoft Teams-Vorlagen im Einzelhandel](/MicrosoftTeams/get-started-with-retail-teams-templates) | Geändert |
+| 3/20/2020 | [Installieren von Microsoft Teams mit MSI über Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | Geändert |
+| 3/20/2020 | [Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen](/MicrosoftTeams/remote-learning-edu) | Geändert |
+| 3/20/2020 | [Unterstützung von Remotemitarbeitern in Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | Geändert |
+| 3/20/2020 | [Teams für Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | Geändert |
+| 3/20/2020 | [Verwenden des Ratgebers für Teams (Advisor für Teams, öffentliche Vorschau) als Hilfe beim Rollout von Microsoft Teams](/MicrosoftTeams/use-advisor-teams-roll-out) | Geändert |
+| 3/20/2020 | [Erstellen einer Anrufwarteschlange](/MicrosoftTeams/create-a-phone-system-call-queue) | Geändert |
+| 3/20/2020 | [Liste der für direktes Routing zertifizierten Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
+| 3/20/2020 | [Verwalten der explorativen Microsoft Teams-Umgebung](/MicrosoftTeams/teams-exploratory) | Geändert |
+
+
 ## <a name="week-of-february-17-2020"></a>Week of February 17, 2020
 
 
@@ -100,12 +155,12 @@
 
 | Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
 |------|------------|--------|
-| 2/25/2020 | [Installieren von Microsoft Teams mithilfe von MSI über den Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | Geändert |
+| 2/25/2020 | [Installieren von Microsoft Teams mit MSI über Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | Geändert |
 | 2/25/2020 | PowerShell-Skriptbeispiel – Unterstützung beim Bereinigen von Microsoft Teams-Bereitstellungen | Entfernt |
 | 2/25/2020 | [Teams für Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | Geändert |
 | 2/25/2020 | [Liste der für direktes Routing zertifizierten Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
 | 2/25/2020 | [Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen](/MicrosoftTeams/resources-teams-edu) | Geändert |
-| 2/26/2020 | [Interaktion von Exchange und Microsoft Teams](/MicrosoftTeams/exchange-teams-interact) | geändert |
+| 2/26/2020 | [Interaktion von Exchange und Microsoft Teams](/MicrosoftTeams/exchange-teams-interact) | Geändert |
 | 2/26/2020 | [Den Assistenten für erste Schritte zum Einrichten von Business Voice verwenden](/MicrosoftTeams/business-voice/use-getting-started-wizard) | Geändert |
 | 2/26/2020 | [Chat, Teams, Kanäle und Apps in Microsoft Teams](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) | Geändert |
 | 2/26/2020 | [Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen](/MicrosoftTeams/resources-teams-edu) | Geändert |
@@ -121,9 +176,9 @@
 | 2/27/2020 | [Liste der für direktes Routing zertifizierten Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
 | 2/27/2020 | [Zuweisungen für Teams](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | Geändert |
 | 2/27/2020 | [Clients für Microsoft Teams abrufen](/MicrosoftTeams/get-clients) | Geändert |
-| 2/27/2020 | [Holen Sie sich Microsoft Teams für Android in China](/MicrosoftTeams/get-teams-android-in-china) | Geändert |
-| 2/27/2020 | [Hardware Anforderungen für Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | Geändert |
-| 2/27/2020 | [Installieren von Microsoft Teams mithilfe von MSI über den Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | Geändert |
+| 2/27/2020 | [Beziehen von Microsoft Teams für Android in China](/MicrosoftTeams/get-teams-android-in-china) | Geändert |
+| 2/27/2020 | [Hardwareanforderungen für Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | Geändert |
+| 2/27/2020 | [Installieren von Microsoft Teams mit MSI über Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | Geändert |
 | 2/27/2020 | [Telefone und Geräte für Teams](/MicrosoftTeams/teams-ip-phones) | Geändert |
 | 2/27/2020 | [Verwenden von Teams-Administratorrollen zum Verwalten von Microsoft Teams](/MicrosoftTeams/using-admin-roles) | Geändert |
 | 2/28/2020 | [Kontaktieren des PSTN-Service Desks](/MicrosoftTeams/manage-phone-numbers-for-your-organization/contact-pstn-service-desk) | Geändert |

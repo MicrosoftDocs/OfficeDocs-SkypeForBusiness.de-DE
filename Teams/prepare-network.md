@@ -16,18 +16,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42f0ec656036849aa87d9d4e7e092f4b5d3a505f
-ms.sourcegitcommit: 4306083e7b1dc2e7a0d02b682790450934dada50
+ms.openlocfilehash: d85bb4ba32bf83d3c774a2b6700a96c7e35dcb2a
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42639462"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42935225"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams 
 
 ## <a name="network-requirements"></a>Netzwerkanforderungen
 
-Wenn Sie [Ihr Netzwerk für Office 365 bereits optimiert](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)haben, sind Sie wahrscheinlich bereit für Microsoft Teams. Überprüfen Sie in jedem Fall Folgendes, bevor Sie mit dem Rollout von Teams beginnen:
+Wenn Sie [Ihr Netzwerk für Office 365 bereits optimiert](https://docs.microsoft.com/Office365/Enterprise/assessing-network-connectivity)haben, sind Sie wahrscheinlich bereit für Microsoft Teams. In jedem Fall-und besonders, wenn Sie Teams schnell als erste Office 365-Arbeitsauslastung zur Unterstützung von **Remotemitarbeitern** bereitstellen – überprüfen Sie die folgenden Punkte, bevor Sie mit dem Rollout von Teams beginnen:
 
 1.  Verfügen alle Ihre Standorte über Internetzugriff (damit Sie eine Verbindung mit Office 365 herstellen können)? Stellen Sie mindestens zusätzlich zum normalen Webverkehr sicher, dass Sie die folgenden für alle Speicherorte für Medien in Microsoft Teams geöffnet haben:
 
@@ -143,7 +143,7 @@ Wenn die Bandbreite *nicht* begrenzt ist, optimiert Teams die Medienqualität, e
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Office 365-Netzwerk Verbindungs Prinzipien](https://aka.ms/pnc)
+[Prinzipien von Office 365-Netzwerkverbindungen](https://aka.ms/pnc)
 
 [Weltweite Endpunkte: Skype for Business Online und Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 
