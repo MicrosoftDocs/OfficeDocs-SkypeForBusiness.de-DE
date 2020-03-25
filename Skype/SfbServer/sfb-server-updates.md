@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Suchen und Verwalten von Updates für Skype for Business Server 2015/2019 und lync 2013 an einem Ort. Verwenden Sie die Links auf dieser Seite, um mehr Informationen über Updates zu erhalten und um die Updates herunterzuladen.
-ms.openlocfilehash: c5ed5e3c73ece6ce6f9a4d3e9b355a1cc77facf3
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f1644a96542ae6b7a1ee5842d640b1581d660cae
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42009288"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928248"
 ---
 # <a name="skype-for-business-server-updates"></a>Skype for Business Server-Updates
 
@@ -32,6 +32,7 @@ KB 4470124 ist die Master-KB für Skype for Business Server 2019, die alle die V
 
 |Paketname|KB-Nummer|Veröffentlichungsdatum|
 |:--- |:--- |:--- |
+|Skype for Business Server 2019 Kumulatives Update 3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| März 2020 |
 |Skype for Business Server 2019 Kumulatives Update 2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| Dezember 2019 |
 |Skype for Business Server 2019 Kumulatives Update 1 Hotfix 1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| September 2019 |
 |Skype for Business Server 2019 Kumulatives Update 1|[KB 4470124](https://support.microsoft.com/kb/4470124)| Juli 2019 |
@@ -161,7 +162,7 @@ Paket Name/Link|Veröffentlichungsdatum|
 
 Paket Name/Link|Veröffentlichungsdatum|
 |:--- |:--- |
-|[Hilfedatei zu lync Server 2013 Dokumentation](https://www.microsoft.com/download/details.aspx?id=35405)|August 2015 |
+|[Hilfedatei zu lync Server 2013 Dokumentation](https://www.microsoft.com/download/details.aspx?id=35405)|August 2015 |
 
 * * *
 

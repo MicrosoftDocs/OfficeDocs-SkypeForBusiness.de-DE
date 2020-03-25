@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 'Zusammenfassung: Überprüfen Sie die Anforderungen für den Windows-Client Support beim Planen Skype for Business Server.'
-ms.openlocfilehash: 0a556b2330427683c4d00577895f43f3cfede6d5
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 39f9efcd2008dacb653538b56f2aff3fcb8b7887
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42027956"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928238"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows-Clientanforderungen und Softwareunterstützung
  
@@ -37,7 +37,7 @@ In diesem Abschnitt wird die Software zusammengefasst, die zur Unterstützung de
 
 |**Systemkomponente**|**Unterstützte Versionen**|
 |:-----|:-----|
-|Windows-Betriebssystem  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8  <br/> Windows 7-Betriebssystem  <br/> Windows Server 2008 R2 oder höher mit dem neuesten Service Pack  <br/> **Hinweis:** Skype for Business und das Online-Besprechungs-Add-in für Skype for Business werden auf Windows Vista oder Windows XP (jede Version) nicht unterstützt. <br/> |
+|Windows-Betriebssystem  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows Server 2008 R2 oder höher mit dem neuesten Service Pack  <br/> **Hinweis:** Skype for Business und das Online-Besprechungs-Add-in für Skype for Business werden auf Windows Vista oder Windows XP (jede Version) nicht unterstützt. <br/> |
 |Installation und Updates  <br/> |Administratorrechte und -berechtigungen  <br/> |
 |Browser  <br/> |Microsoft Edge  <br/> Internet Explorer 11 Internet Browser  <br/>  Internet Explorer 10 Internet Browser <br/> Internet Explorer 9 Internet Browser  <br/> Internet Explorer 8 Internet Browser  <br/> Internet Explorer 7-Internet Browser  <br/> Webbrowser Mozilla Firefox  <br/>  Google Chrome-Webbrowser  <br/>**Hinweis:** Wenn Sie Skype for Business mit Microsoft Exchange Online verwenden und Ihre Organisation einen authentifizierenden http-Proxy bereitgestellt hat, ist Internet Explorer 8 oder höher erforderlich.           |
 |Microsoft Office-Integration  <br/> | Outlook 2010 oder höher |
