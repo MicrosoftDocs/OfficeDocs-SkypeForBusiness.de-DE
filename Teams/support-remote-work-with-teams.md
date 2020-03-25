@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um den Mitarbeitern in Ihrer Organisation zu helfen, mit Microsoft Teams produktiv zu arbeiten, insbesondere wenn sie als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85fc97c801495c05a4b5a8f68fe508ef7a7b08af
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 844aef84633c767131b60158e634b0f6f3fe1cd2
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892335"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928408"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Unterstützung von Remotemitarbeitern in Microsoft Teams
 
@@ -77,6 +77,8 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
 
    - Begrenzte Bandbreite kann die Audioqualität in Teams-Besprechungen beeinträchtigen. Um ein optimales Besprechungserlebnis unter Bedingungen mit geringer Bandbreite zu gewährleisten, ermutigen Sie die Benutzer, Videos einzuschränken und das Telefonfestnetz (PSTN) für Anrufe und Besprechungsaudio zu verwenden. 
 
+   - Lesen Sie den zur richtigen Zeit veröffentlichten Blogbeitrag (6. März 2020) [Den Office 365-Datenverkehr für Remotemitarbeiter schnell optimieren & die Auslastung Ihrer Infrastruktur verringern](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571).
+   
    - Sofern Ihr Standort China ist, testen Sie doch die[Office 365-Leistungsoptimierung des globalen Mandanten für Benutzer in China ](https://docs.microsoft.com/Office365/Enterprise/office-365-networking-china).
 
    - Wenn Sie Hilfe bei der Fehlersuche oder der Problembehandlung im Zusammenhang mit Anruf- oder Besprechungsqualität benötigen, befolgen Sie die Hinweise unter [Bekanntes Problem (China): Einwahl in Skype for Business/Teams-Konferenz-IDs](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) am Ende dieses Artikels.

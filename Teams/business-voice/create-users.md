@@ -17,27 +17,27 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 851c661a2a75a3dfe82212b896041ddd2516c678
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 51ca2d8b6723be408adaaa53499efed2338a1f73
+ms.sourcegitcommit: 7455ae664d0e2d2915557764b26d8c8f1bf92a96
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824833"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42945905"
 ---
 # <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>Erstellen und lizenzieren Sie Business Voice-Benutzer, und weisen Sie ihnen Telefonnummern zu
 
-Um :::no-loc text="Microsoft 365 Business Voice"::: zu verwenden, benötigen Sie ein :::no-loc text="Microsoft 365":::-Konto mit einer :::no-loc text="Microsoft 365 Business Voice with SMS"::: Lizenz. Wenn Sie über ein Konto mit einer Lizenz verfügen, können Sie ihm eine Telefonnummer zuweisen.
+Um :::no-loc text="Microsoft 365 Business Voice"::: zu verwenden, benötigen Sie ein :::no-loc text="Microsoft 365":::-Konto mit einer :::no-loc text="Microsoft 365 Business Voice"::: Lizenz. Wenn Sie über ein Konto mit einer Lizenz verfügen, können Sie ihm eine Telefonnummer zuweisen.
 
 ## <a name="create-and-license-users"></a>Erstellen und Lizenzieren von Benutzern
 
 Führen Sie die Schritte in [Hinzufügen von Benutzern zu :::no-loc text="Office 365"::: einzeln oder in großen Mengen](https://docs.microsoft.com/office365/admin/add-users/add-users) aus.
 
 > [!NOTE]
-> Wählen Sie im Bereich **Produktlizenzen zuweisen** die Option **:::no-loc text="Microsoft 365 Business Voice with SMS":::** aus.
+> Wählen Sie im Bereich **Produktlizenzen zuweisen** die Option **:::no-loc text="Microsoft 365 Business Voice":::** aus.
 
 ## <a name="assign-phone-numbers-to-users"></a>Zuweisen von Telefonnummern an Benutzer
 
-Nachdem Sie Benutzer erstellt und ihnen :::no-loc text="Microsoft 365 Business Voice with SMS":::-Lizenzen zugewiesen haben, können Sie ihnen Telefonnummern zuweisen. Sie benötigen eine noch nicht vergebene Telefonnummer für jeden Benutzer, der Anrufe an externe Telefonnummern tätigen oder von diesen empfangen muss. Wenn Sie nicht über genügend nicht zugewiesene Telefonnummern verfügen, lesen Sie [Anfordern weiterer Telefonnummern](#get-more-phone-numbers) weiter unten in diesem Artikel.
+Nachdem Sie Benutzer erstellt und ihnen :::no-loc text="Microsoft 365 Business Voice":::-Lizenzen zugewiesen haben, können Sie ihnen Telefonnummern zuweisen. Sie benötigen eine noch nicht vergebene Telefonnummer für jeden Benutzer, der Anrufe an externe Telefonnummern tätigen oder von diesen empfangen muss. Wenn Sie nicht über genügend nicht zugewiesene Telefonnummern verfügen, lesen Sie [Anfordern weiterer Telefonnummern](#get-more-phone-numbers) weiter unten in diesem Artikel.
 
 1. Navigieren Sie in das Verzeichnis https://admin.teams.microsoft.com.
 2. Geben Sie einen Namen und eine Beschreibung für die Anforderung einer Telefonnummer ein.

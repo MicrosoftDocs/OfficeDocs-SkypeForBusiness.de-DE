@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9587244483bf220324a24396e5719843ba0ebc3c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8fe24de92f46b5850edc9fe6631bb02a03be8bcb
+ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834795"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928258"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Willkommen bei Microsoft Teams
 Sind Sie in Ihrer Organisation Administrator für Microsoft Teams? Dann sind Sie hier an der richtigen Stelle. Wenn Sie für den Einstieg in Microsoft Teams bereit sind, beginnen Sie mit [Bereitstellen von Microsoft Teams](How-to-roll-out-teams.md).
@@ -59,7 +59,12 @@ Um Microsoft Teams anzupassen und zu erweitern, fügen Sie Drittanbieter-Apps mi
 
 ## <a name="managing-teams"></a>Verwalten von Teams
 
-Als Administrator können Sie Teams über das Microsoft Teams Admin Center verwalten. So erhalten Sie weitere Informationen:
+Als Administrator können Sie Teams über das Microsoft Teams Admin Center verwalten. Um sich schnell zu orientieren, schauen Sie sich das Video "Teams über das Teams Admin Center verwalten" (3:03 Min.) an:
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
+
+So erhalten Sie weitere Informationen:
+
 - [Verwenden von Teams-Administratorrollen zum Verwalten von Microsoft Teams](using-admin-roles.md)
 - [Verwalten von Teams im Admin Center für Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [Verwalten von Teams während der Umstellung auf das neue Admin Center für Teams](manage-teams-in-modern-portal.md)
