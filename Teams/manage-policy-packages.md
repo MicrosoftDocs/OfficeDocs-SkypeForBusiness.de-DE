@@ -18,12 +18,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Richtlinien Pakete in Microsoft Teams verwenden und verwalten.
-ms.openlocfilehash: d7c0ded990225b969579f50ea5f87a32efebe388
-ms.sourcegitcommit: 54cbcf917d9663e6aa9760d7399b36c00d66478c
+ms.openlocfilehash: a2c2ecf22529c4f16b992f349b29ccaf0ad48b0d
+ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42857985"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42942447"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Verwalten von Richtlinien Paketen in Microsoft Teams
 
@@ -45,7 +45,8 @@ Teams umfasst derzeit die folgenden Richtlinien Pakete.
 |Education (Primary School Student)   |Erstellt einen Satz von Richtlinien und Richtlinieneinstellungen, die für primäre Kursteilnehmer gelten.|
 |Bildung (Secondary School Student)    |Erstellt einen Satz von Richtlinien und Richtlinieneinstellungen, die für sekundäre Kursteilnehmer gelten.         |
 |Bildung (Lehrer)    |Erstellt einen Satz von Richtlinien und Richtlinieneinstellungen, die für Lehrer gelten.      |
-|Business-VoIP |Erstellt eine APP-Setup-Richtlinie, die die apps für ein Business-VoIP-Erlebnis umfasst.|
+|Benutzer für kleine und mittelständische Unternehmen (Business-VoIP) |Erstellt eine APP-Setup-Richtlinie, die die apps für ein Business-VoIP-Erlebnis umfasst.|
+|Benutzer für kleine und mittelständische Unternehmen (ohne Business-VoIP) |Dieses Richtlinienpaket wurde entwickelt, um eine Reihe von Richtlinien zu erstellen und diese Einstellungen auf kleine und mittelständische Unternehmen anzuwenden, die über keine geschäftlichen Sprachfeatures verfügen.|
 |Beauftragter für öffentliche Sicherheit   |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für öffentliche Sicherheitsbeauftragte in Ihrer Organisation gelten.|
 |Gesundheitswesen (klinischer Mitarbeiter)  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die klinischen Mitarbeitern wie registrierten Krankenschwestern, Krankenschwestern, Ärzten und Sozialarbeitern vollen Zugriff auf Chats, Anrufe, Schicht Verwaltung und Besprechungen ermöglichen. |
 |Gesundheitswesen (Information Worker)  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die Information Worker wie IT-Personal, Informatik Personal, Finanz Personal und Compliance Officer, vollständigen Zugriff auf Chats, Anrufe und Besprechungen bereitstellen.|
