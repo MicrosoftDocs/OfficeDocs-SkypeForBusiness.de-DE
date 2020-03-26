@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd9ca2fc26c58087992cdee18dee1b1d869a6fa1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: f411de7f0c373e82b450cd41b828fd591777311b
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826103"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978457"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams
 =================================================
@@ -44,13 +44,11 @@ Die folgende Tabelle zeigt den Unterschied zwischen Berechtigungen eines Besitze
 | **Bearbeiten des Standardkanal namens/der Beschreibung** |    Ja     |    Ja<sup>2</sup>|
 |        **Standardkanal löschen**         |    Ja     |    Ja<sup>2</sup>|
 |          ***Privaten Kanal hinzufügen**          |    Ja     |    Ja<sup>2</sup>|
-| ***Namen/Beschreibung des privaten Kanals bearbeiten** |    Nein     |    n/v|
+| ***Namen/Beschreibung des privaten Kanals bearbeiten** |    Nein     |    –|
 |        ***Privaten Kanal löschen**         |    Ja     |    Nein|
 |          **Hinzufügen von Mitgliedern**          |  Ja<sup>3</sup>   |     Nein<sup>4</sup>    |
 |          **Hinzufügen von Mitgliedern anfordern**          |  Nicht zutreffend   |     Ja<sup>5</sup>     |
-|           **Registerkarten hinzufügen**            |    Ja     |    Ja<sup>2</sup>|
-|        **Connectors hinzufügen**         |    Ja     |    Ja<sup>2</sup>|
-|           **Bots hinzufügen**            |    Ja     |    Ja<sup>2</sup>|
+|           **Apps hinzufügen**            |    Ja     |    Ja<sup>2</sup>|
 
 <sup>1</sup> Teambesitzer können Teams erstellen, es sei denn, sie wurden davon ausgeschlossen. [Berechtigungen zum Erstellen von Teams](#permissions-to-create-teams) unten.<br>
 <sup>2</sup> ein Besitzer kann diese Elemente auf Teamebene deaktivieren, sodass Mitglieder keinen Zugriff darauf haben.<br>

@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13c3267378d4e8fbc5b3d3631606cf0824ea7a44
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
-ms.translationtype: HT
+ms.openlocfilehash: ced9ab01c5f33ef2b8095079443c447c301ee742
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417850"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978597"
 ---
 # <a name="quality-of-experience-review-guide"></a>Leitfaden zur Überprüfung der Erlebnisqualität
 
@@ -652,6 +652,7 @@ _Tabelle 5 – Struktur der Gebäudedatei_
 | Region             | String    | MSUS                      | Empfohlen |
 | InsideCorp         | Boolescher Wert      | 1                         | Erforderlich    |
 | ExpressRoute       | Boolescher Wert      | 0                         | Erforderlich    |
+| VPN                | Boolescher Wert      | 0                         | Optional    |
 
 \*Obwohl es von CQD nicht gefordert wird, sind die Vorlagen für die Anzeige von Gebäude- und Netzwerknamen konfiguriert.
 
@@ -701,7 +702,7 @@ Die QoE-Daten (Erlebnisqualität), die von Clients an Office 365 gesendet werden
   _Abbildung 13 – VPN mit Gebäudenamen_
 
 > [!IMPORTANT]
-> Bestimmte VPN-Implementierungen melden die Subnetzinformationen nicht präzise. Falls dies bei Ihrer Berichtserstattung auftritt, empfehlen wir, beim Hinzufügen eines VPN-Subnetzes zur Gebäudedatei anstelle eines Eintrags für das Subnetz separate Einträge für jede Adresse im VPN-Subnetz als separates 32 Bit-Netzwerk hinzuzufügen. Jede Zeile kann die gleichen Gebäudemetadaten aufweisen. So haben Sie beispielsweise anstelle einer Zeile für 172.16.18.0/24 253 Zeilen und eine Zeile für jede Adresse aus 172.16.18.1/32 bis 172.16.18.254/32 einschließlich.
+> Bestimmte VPN-Implementierungen melden die Subnetzinformationen nicht präzise. Dies liegt daran, dass der VPN-Client mit einem 32-Bit-Subnetz bereitgestellt wird.  Wie im vorherigen Abschnitt erwähnt, kann CQD ein 32-Bit-Subnetz nicht ordnungsgemäß identifizieren.  Um ein VPN-Subnetz in CQD genau zu identifizieren, legen Sie das VPN-Feld in der Gebäude Datei auf 1 fest.
 
 
 > [!NOTE]
@@ -738,7 +739,7 @@ Das Dashboard "CQD-Zusammenfassungsberichte" enthält eine Seite zum **Mandanten
 7. Falls während der Validierung keine Fehler auftreten, war der Dateiupload erfolgreich. Sie können die hochgeladene Datendatei in der Tabelle **Meine Uploads** anzeigen. Dort wird eine vollständige Liste aller hochgeladenen Dateien für den aktuellen Mandanten unten auf der Seite angezeigt.
 
 > [!NOTE]
-> Es kann bis zu vier Stunden dauern, bis die Bearbeitung der Datei abgeschlossen ist. <br><br> Wenn Sie bereits eine Gebäudedatei hochgeladen haben und Subnetze hinzufügen müssen, die möglicherweise ausgelassen oder ausgeschlossen wurden, ändern Sie die ursprüngliche Datei, indem Sie die neuen Subnetze hinzufügen, die aktuelle Datei entfernen und die neu bearbeitete Datei erneut hochladen. In CQD kann nur eine einzige aktive Gebäudedatendatei vorhanden sein. 
+> Es kann bis zu vier Stunden dauern, bis die Bearbeitung der Datei abgeschlossen ist.<br><br> Wenn Sie bereits eine Gebäudedatei hochgeladen haben und Subnetze hinzufügen müssen, die möglicherweise ausgelassen oder ausgeschlossen wurden, ändern Sie die ursprüngliche Datei, indem Sie die neuen Subnetze hinzufügen, die aktuelle Datei entfernen und die neu bearbeitete Datei erneut hochladen. In CQD kann nur eine einzige aktive Gebäudedatendatei vorhanden sein. 
 
 
 ### <a name="updating-a-building-file"></a>Aktualisieren einer Gebäudedatei

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Informieren Sie sich über die Faktoren, die Sie berücksichtigen sollten, bevor Sie Liveereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f0c141751a9b67a47640ba5210c3cb7aeeadbb2
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
-ms.translationtype: HT
+ms.openlocfilehash: ecd08f71545bcaf2775b3e502860b9d6a8e234fc
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558565"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978417"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -64,13 +64,13 @@ Der Benutzer muss Folgendes besitzen:
 |**Sichtbarkeit für Teilnehmer**       |**Teams-Produktion **  |**Produktion externer Anwendungen oder Geräte**  |
 |------------------------------|-----------------|----------------------|
 |Öffentlich (anonyme Benutzer)      |  Ja            |  Nein                  |
-|Gastbenutzer                   |  Nein<sup>1</sup> |  Nein                  |
-|Alle im Unternehmensverbund |  Nein<sup>2</sup> |  Nein                  |
+|Gastbenutzer                   |  Ja            |  Nein                  |
+|Alle im Unternehmensverbund |  Ja<sup>1</sup>|  Nein                  |
 |Jeder im Unternehmen           |  Ja            |  Ja                 |
 |Bestimmte Gruppen/Personen      |  Ja            |  Ja                 |
 
-<sup>1</sup> Kann Liveereignisse verfolgen, wenn das Liveereignis mit der Option **Organisationsweit** eingerichtet wurde.<br>
-<sup>2</sup> Kann Liveereignisse nur als anonymer Benutzer verfolgen.
+<sup>1</sup> Teilnehmer können nur über Personen & Gruppe eingeladen werden. <br>
+
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams-Liveereignisse und Skype Meeting Broadcast

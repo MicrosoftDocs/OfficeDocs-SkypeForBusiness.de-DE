@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1b97e82edd97079c1e4615e5bb7fcf4a1eb2fea
-ms.sourcegitcommit: b6eb22e96be5fb18984f1dd05e4eb8f2cfc032f6
+ms.openlocfilehash: 97f7987d450b5a7b1fc23c39ed1e96ee0f953ae9
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/26/2020
-ms.locfileid: "42968660"
+ms.locfileid: "42978507"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan für Microsoft 365 Government-gcc-Bereitstellungen
 
-Diese Anleitung richtet sich an IT-Experten, die Bereitstellungen von Office 365 in US-Bundes-, bundesstaatlichen, lokalen, Stammes-oder Gebietskörperschaften oder anderen Entitäten führen, die Daten verarbeiten, die behördlichen Vorschriften und Anforderungen unterliegen, wobei die Verwendung von Microsoft 365 Government-gcc ist geeignet, diese Anforderungen zu erfüllen.
+Diese Anleitung richtet sich an IT-Experten, die Bereitstellungen von Office 365 in US-Bundes-, bundesstaatlichen, lokalen, Stammes-oder Gebietskörperschaften oder anderen Entitäten führen, die Daten verarbeiten, die behördlichen Vorschriften und Anforderungen unterliegen, wobei die Verwendung von Microsoft 365 Government-gcc ist geeignet, diese Anforderungen zu erfüllen. Neuer März 26, 2020: verpassen Sie nicht unseren downloadbaren [schnell Start Leit Faden für gcc](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true).
 
 > [!IMPORTANT]
 > Microsoft Teams erlebt aufgrund der Coronavirus (COVID-19)-Pandemie eine enorme Spitze bei Online-anrufen und Audio/Videokonferenzen.<br/>
@@ -35,7 +35,7 @@ Diese Anleitung richtet sich an IT-Experten, die Bereitstellungen von Office 365
 > 
 >Diese Audio/Video-Server befinden sich auf den Microsoft Azure FedRAMP-Grenz Servern in den Vereinigten Staaten und speichern keine Kunden Inhalte. Diese Server verarbeiten jedoch Audio-und Videodaten für Anrufe und Konferenzen und sind während dieser Zwischenzeit unter unseren kaufmännischen Mitarbeitern tätig.<br/>
 > 
->Qualifizierte, geprüfte Mitarbeiter überwachen diese Server auf potenziellen Zugriff auf Kundendaten, indem Sie alle interaktiven log-ons auf diesen Servern überprüfen. Qualifiziertes Personal erfüllt die Anforderungen von gcc für den Zugriff auf Kunden Inhalte. Details zu den Prüfungsanforderungen finden Sie in der [gcc-Dienstbeschreibung](Office365-ServiceDescriptions\office-365-platform-service-description\office-365-us-government\gcc.md).<br/>
+>Qualifizierte, geprüfte Mitarbeiter überwachen diese Server auf potenziellen Zugriff auf Kundendaten, indem Sie alle interaktiven log-ons auf diesen Servern überprüfen. Qualifiziertes Personal erfüllt die Anforderungen von gcc für den Zugriff auf Kunden Inhalte. Details zu den Prüfungsanforderungen finden Sie in der [gcc-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc).<br/>
 > 
 >Vielen Dank für Ihre Unterstützung, während wir Schritte Unternehmen, um sicherzustellen, dass unsere Dienste in diesen außergewöhnlichen Zeiten verfügbar und zuverlässig sind.<br/>
 
