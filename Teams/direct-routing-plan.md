@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie mit dem Microsoft Phone System Direct Routing einen unterstützten, vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: 5efed6ed21e6eb4bfa4e2ae89e625595b0307ada
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: be0d901095afa322935944a9b4898e540946bf8a
+ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928438"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955724"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -175,7 +175,8 @@ Das Zertifikat muss von einer der folgenden Stammzertifizierungsstellen generier
 - Go Daddy
 - GeoTrust
 - VeriSign, Inc. 
-- Starfield 
+- SSL.com
+- Starfield
 - Symantec Enterprise Mobile-root für Microsoft 
 - SwissSign
 - Thawte-Timestamping-Zertifizierungsstelle
