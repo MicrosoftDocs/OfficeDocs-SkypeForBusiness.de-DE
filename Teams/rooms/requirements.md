@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
-ms.openlocfilehash: e19537005717a803740f268f2d8f766ed2d87303
-ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
+ms.openlocfilehash: c20da0aaa42f9e11b8bb0aba3a1f9c0248c24c7b
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42728934"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982118"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Anforderungen für Microsoft Teams-Räume
 
@@ -63,6 +63,7 @@ Alle aktuellen Microsoft Teams-Room-Geräte und-Bundles sind in der [Produktprä
   |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
   |[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
+  |[Yealink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 GB|128 GB|
   ||||||
 
 > [!NOTE]

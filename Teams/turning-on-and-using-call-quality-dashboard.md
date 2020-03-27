@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 'Hier erfahren Sie, wie Sie das Dashboard für die Anrufqualität aktivieren und verwenden und zusammenfassende Berichte über die Qualität von Anrufen erhalten. '
-ms.openlocfilehash: 9e9c70c88aec9fcdf898d94a17f46f76bd2c608a
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 7fafbebaa21a6bbd71ab0e253f226908d6787869
+ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559893"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42983330"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 
@@ -40,7 +40,7 @@ Derzeit stehen erweiterte CQD und CQD zur Verfügung. Advanced CQD ist verfügba
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Verwenden von Power BI zum Analysieren von CQD-Daten
 
-Neu im Januar 2020: [Herunterladen von Power BI-Abfragevorlagen für CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Anpassbare Power BI-Vorlagen, die Sie verwenden können, um Ihre CQD-Daten zu analysieren und zu melden.
+Neu im Januar 2020: [Power BI-Abfragevorlagen für CQD herunterladen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Anpassbare Power BI-Vorlagen, mit deren Hilfe Sie Ihre CQD-Daten analysieren und berichten können.
 
 Lesen [verwenden Sie Power BI zum Analysieren von CQD-Daten](CQD-Power-BI-query-templates.md) , um weitere Informationen zu erhalten.
 
@@ -94,7 +94,7 @@ CQD Version 1 hat den Skype for Business Server 2015-Administratoren die folgend
 
 ## <a name="cqd-near-real-time-nrt-data"></a>CQD (NRT)-Daten (Near-Real-Time)
 
-Advanced CQD (v3, veröffentlicht am 2019) verwendet einen Near-Real-Time-Datenfeed. Anrufdatensätze sind im CQD-Portal innerhalb von 30 Minuten nach dem Ende des Anrufs verfügbar. Anrufdatensätze aus der NRT-Pipeline stehen nur einige Monate zur Verfügung, bevor Sie aus dem Datensatz entfernt werden. CQD V3 führt Daten aus der aktuellen v2-Pipeline mit NRT-Daten aus der V3-Pipeline zusammen. Abfragen auf den V2-und V3-Portalen für die Daten aus dem Archivierungszeitraum liefern dieselben Ergebnisse. V2-und V3-Daten Abfragen für die NRT-Daten und NRT-Daten + PII-Perioden unterscheiden sich.
+Advanced CQD (v3, veröffentlicht am 2019) verwendet einen Near-Real-Time-Datenfeed. Anrufdatensätze stehen im CQD-Portal im Durchschnitt in 30 Minuten zur Verfügung (im Vergleich zum vorherigen CQD, der durchschnittlich 24 Stunden dauert). Anrufdatensätze aus der NRT-Pipeline stehen nur einige Monate zur Verfügung, bevor Sie aus dem Datensatz entfernt werden. CQD V3 führt Daten aus der aktuellen v2-Pipeline mit NRT-Daten aus der V3-Pipeline zusammen. Abfragen auf den V2-und V3-Portalen für die Daten aus dem Archivierungszeitraum liefern dieselben Ergebnisse. V2-und V3-Daten Abfragen für die NRT-Daten und NRT-Daten + PII-Perioden unterscheiden sich.
 
 ### <a name="piieuii-data"></a>PII/EUII-Daten
 
@@ -204,7 +204,7 @@ CQD-Zusammenfassungsberichte bieten eine Reihe von Funktionen, die für detailli
 
 Alle Editionen von CQD bieten eine Erfahrung, die Ihnen bei der Anruf Qualitätsmetrik hilft, ohne neue Berichte erstellen zu müssen. Nachdem die Daten im Back-End verarbeitet wurden, sehen Sie in den Berichten die Daten zur Anrufqualität.
 
-Neu im Januar 2020: [Herunterladen von Power BI-Abfragevorlagen für CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Anpassbare Power BI-Vorlagen, die Sie verwenden können, um Ihre CQD-Daten zu analysieren und zu melden.
+Neu im Januar 2020: [Power BI-Abfragevorlagen für CQD herunterladen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true). Anpassbare Power BI-Vorlagen, mit deren Hilfe Sie Ihre CQD-Daten analysieren und berichten können.
   
 ### <a name="overview-reports"></a>Übersichtsberichte
 
@@ -353,7 +353,7 @@ Das Dashboard für CQD-Zusammenfassungsberichte enthält eine Seite für **Manda
 
 <a name="BKMKTenantDataFile"> </a>
 
-### <a name="building-data-file"></a>Erstellen einer Datendatei
+### <a name="building-data-file"></a>Gebäudedatendatei
 
 CQD verwendet eine Gebäude Datendatei, die hilfreiche Anrufdetails bereitstellt. Die Spalte Subnet wird durch Erweitern der Spalte Netzwerk + NetworkRange abgeleitet, und anschließend wird die Spalte Subnetz mit der Spalte erstes Subnetz oder Zweites Subnetz des Anrufdaten Satzes verknüpft, um die Informationen für Gebäude, Stadt, Land oder Region anzuzeigen. Das Format der Datendatei, die Sie hochladen, muss die folgenden Kriterien erfüllen, um die Gültigkeitsprüfung vor dem Upload durchführen zu können:
 
@@ -367,9 +367,9 @@ Sie können [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/
 
 ||||||||||||||||
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:---  |:--- |:---|
-|**Name des Spaltenfelds**|NetworkIP  |NetworkName              |NetworkRange|BuildingName  |Ownershiptype| Buildingtype  |BuildingOfficeType|Ort   |ZipCode|Land|Bundesland |Region|InsideCorp&dagger;|Express Route&Dagger;|VPN (optional)|
-|**Datentyp**        | Zeichenfolge    | Zeichenfolge                  |Nummer      | Zeichenfolge       | Zeichenfolge      | Zeichenfolge        |Zeichenfolge            |Zeichenfolge |Zeichenfolge |Zeichenfolge |Zeichenfolge|Zeichenfolge|Boolean   |Boolean     |Boolean|
-|**Beispielwert**    |192.168.1.0|USA/Seattle/SEATTLE-SEA-1| 26         | SEATTLE-SEA-1| Contoso     | IT Termination|Engineering       |Seattle|98001  |USA     |WA    |MSUS  | 1        |0           | 0|
+|**Name des Spaltenfelds**|NetworkIP  |NetworkName              |NetworkRange|BuildingName  |OwnershipType| BuildingType  |BuildingOfficeType|Stadt/Ort   |ZipCode|Land|Status |Region|InsideCorp&dagger;|ExpressRoute&Dagger;|VPN (optional)|
+|**Datentyp**        | String    | String                  |Zahl      | String       | String      | String        |String            |String |String |String |String|String|Boolean   |Boolean     |Boolean|
+|**Beispielwert**    |192.168.1.0|USA/Seattle/SEATTLE-SEA-1| 26         | SEATTLE-SEA-1| Contoso     | IT Termination|Engineering (Technik)       |Seattle|98001  |US     |WA    |MSUS  | 1        |0           | 0|
 |||||||||||||||||
 
 &dagger;Diese Einstellung kann verwendet werden, um zu reflektieren, ob sich das Subnetz innerhalb des Unternehmensnetzwerks befindet. Sie können die Verwendung für andere Zwecke anpassen, wenn Sie sich dafür entscheiden.

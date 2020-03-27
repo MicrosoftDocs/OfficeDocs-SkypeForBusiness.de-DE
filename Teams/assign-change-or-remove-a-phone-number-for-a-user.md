@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie eine geschäftliche Telefonnummer für Ihre Teams-Benutzer zuweisen, ändern oder entfernen, sodass externe Unternehmen und Kunden Sie anrufen können.
-ms.openlocfilehash: 08f662abbad8d7e59d6ed543257d7bb1116e08f1
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b406a303352afaf29537815e98aed2d660670f12
+ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826993"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982108"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer
 
@@ -38,11 +38,11 @@ Wenn Sie Benutzer so einrichten, dass Sie Telefonanrufe tätigen und empfangen k
 Informationen dazu, wie Sie Anrufpläne in Teams erhalten und wie viel Sie Kosten, finden Sie unter [Lizenzierung von Teams-Add-ons](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
-> Eine Möglichkeit, um festzustellen, ob einem Benutzer eine Lizenz zugewiesen wurde, besteht darin, #a0 **Benutzer**zum Microsoft Teams Admin Center zu wechseln. Wenn eine Lizenz zugewiesen wurde, wird Sie auf der Seite angezeigt.  Sie können auch das Microsoft 365 Admin Center verwenden.
+> Eine Möglichkeit, um festzustellen, ob einem Benutzer eine Lizenz zugewiesen wurde, besteht darin, > **Benutzer**zum Microsoft Teams Admin Center zu wechseln. Wenn eine Lizenz zugewiesen wurde, wird Sie auf der Seite angezeigt.  Sie können auch das Microsoft 365 Admin Center verwenden.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Zuweisen einer Telefonnummer zu einem Benutzer
  
-![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
+![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
     
 1. Klicken Sie in der linken Navigationsleiste auf **VoIP** > **-Rufnummern.**
 2. Wählen Sie auf der Seite **Telefonnummern** eine nicht zugewiesene Nummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**.  
@@ -50,11 +50,11 @@ Informationen dazu, wie Sie Anrufpläne in Teams erhalten und wie viel Sie Koste
 4. Wenn Sie den zugehörigen Notfall Standort zuweisen oder ändern möchten, suchen Sie unter **Notfall Standort**nach dem Speicherort, und wählen Sie ihn aus.
 6. Klicken Sie auf **Speichern**.
     > [!NOTE]
-    > Aufgrund der Wartezeit zwischen Office 365 und Teams kann es bis zu 24 Stunden dauern, bis die Benutzer aktiviert werden. Wenn die Telefonnummer nach 24 Stunden nicht richtig zugewiesen ist, [wenden Sie sich an den PSTN-Service-Desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md). Wir helfen Ihnen gerne weiter!
+    > Aufgrund der Wartezeit zwischen Office 365 und Teams kann es bis zu 24 Stunden dauern, bis die Benutzer aktiviert werden. Wenn die Telefonnummer nach 24 Stunden nicht richtig zugewiesen wurde, [wenden Sie sich an den Support für Business-Produkte – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Wir helfen Ihnen gerne weiter!
   
 ## <a name="change-a-phone-number-for-a-user"></a>Ändern einer Telefonnummer für einen Benutzer
  
-![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
+![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
     
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, suchen Sie den gewünschten Benutzer und doppelklicken Sie darauf, klicken Sie auf **Konto**, und notieren Sie sich dann unter **Allgemeine Informationen**die Telefonnummer, die dem Benutzer zugewiesen ist.
 2. Klicken Sie in der linken Navigationsleiste auf **VoIP** > **-Rufnummern.**
@@ -68,7 +68,7 @@ Informationen dazu, wie Sie Anrufpläne in Teams erhalten und wie viel Sie Koste
 
 ## <a name="remove-a-phone-number-from-a-user"></a>Entfernen einer Telefonnummer eines Benutzers
  
-![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
+![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, suchen Sie den gewünschten Benutzer und doppelklicken Sie darauf, klicken Sie auf **Konto**, und notieren Sie sich dann unter **Allgemeine Informationen**die Telefonnummer, die dem Benutzer zugewiesen ist.
 2. Klicken Sie in der linken Navigationsleiste auf **VoIP** > **-Rufnummern.**
