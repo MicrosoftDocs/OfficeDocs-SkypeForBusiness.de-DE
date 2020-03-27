@@ -1,5 +1,5 @@
 ---
-title: Beheben von Problemen mit der Installation und dem Update von Microsoft Teams unter Windows
+title: Beheben von Problemen bei Installation und Update von Microsoft Teams unter Windows
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,140 +15,140 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Probleme mit der Installation und dem Update für die Desktop-Client-App für Teams unter Windows beheben können.
+description: Hier erfahren Sie, wie Sie Probleme mit Installation und Update der Teams-Desktopclient-App unter Windows beheben.
 ms.openlocfilehash: 5c6ee4da7e4bb78463cb262cb382e3a090529bb5
 ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 02/11/2020
 ms.locfileid: "41888844"
 ---
-# <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Beheben von Problemen mit der Installation und dem Update von Microsoft Teams unter Windows
+# <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Beheben von Problemen bei Installation und Update von Microsoft Teams unter Windows
 
-Dieser Artikel enthält Anleitungen zum Diagnostizieren und behandeln von Problemen bei der Installation und dem Update für die Desktop Client-App für Teams, die unter Windows ausgeführt wird.
+Dieser Artikel enthält Anleitungen zu Diagnose und Problembehandlung bei Installations- und Updateproblemen für die Teams-Desktopclient-App unter Windows.
 
-## <a name="check-whether-teams-is-updated-successfully"></a>Überprüfen, ob Teams erfolgreich aktualisiert wurden
+## <a name="check-whether-teams-is-updated-successfully"></a>Überprüfen, ob Teams erfolgreich aktualisiert wurde
 
-Führen Sie die folgenden Schritte aus, um zu überprüfen, ob ein Team Update erfolgreich installiert wurde.
+Führen Sie die folgenden Schritte aus, um zu überprüfen, ob Teams erfolgreich installiert wurde.
 
-1. Wählen Sie in Teams Ihr Profilbild aus, und klicken Sie dann auf **über** > **Version**.
-2. Klicken Sie im gleichen Menü auf auf **Updates überprüfen**.
-3. Warten Sie auf das Banner oben in der APP, um anzugeben, dass eine "Aktualisierung" von Teams erforderlich ist. Der Link sollte etwa eine Minute später angezeigt werden, da dieser Vorgang die neue Version von Teams herunterlädt. Darüber hinaus können Sie über das Banner wissen, ob Sie bereits die neueste Version ausgeführt haben, aber es ist keine Aktualisierung erforderlich.
-4. Klicken Sie im Banner auf den Link aktualisieren.
-5. Warten Sie, bis Teams neu gestartet werden, und wiederholen Sie dann Schritt 1, um festzustellen, ob die APP aktualisiert wurde.
+1. Wählen Sie in Teams Ihr Profilbild aus, und klicken Sie auf **Info** > **Version**.
+2. Klicken Sie im selben Menü auf **Nach Updates suchen**.
+3. Warten Sie, bis oben in der App das Banner angezeigt wird, dass darauf hinweist, dass eine "Aktualisierung" von Teams erforderlich ist. Der Link sollte ungefähr eine Minute später angezeigt werden, während dieser Vorgang die neue Version von Teams herunterlädt. Das Banner informiert Sie auch darüber, ob Sie bereits die neueste Version ausführen. In diesem Fall ist keine Aktualisierung erforderlich.
+4. Klicken Sie im Banner auf den Link "Aktualisieren".
+5. Warten Sie, bis Teams neu gestartet wird, und wiederholen Sie dann Schritt 1, um zu überprüfen, ob die App aktualisiert wurde.
 
-Wenn eine Fehlermeldung angezeigt wird oder die Versionsnummer mit der in Schritt 4 identisch ist, ist der Aktualisierungsvorgang fehlgeschlagen.
+Wenn eine Fehlermeldung angezeigt wird oder die Versionsnummer mit der in Schritt 4 identisch ist, ist der Updatevorgang fehlgeschlagen.
 
 ## <a name="troubleshoot-installation-and-update-issues"></a>Problembehandlung bei Problemen mit Installation und Update
 
-### <a name="troubleshoot-installation-issues"></a>Behandeln von Problemen bei der Installation
+### <a name="troubleshoot-installation-issues"></a>Behandeln von Installationsproblemen
 
-Wenn Teams installiert ist, protokolliert das Team-Installationsprogramm die Abfolge von Ereignissen auf%LocalAppData%\SquirrelTemp\SquirrelSetup.log. Als erstes suchen Sie nach einer Fehlermeldung oder einem Aufruf Stapel am Ende des Protokolls. Beachten Sie, dass Aufruflisten am Anfang des Protokolls möglicherweise nicht bedeuten, dass ein Installationsproblem vorliegt. Es ist einfacher, das Protokoll von einer erfolgreichen Installation (sogar auf einem anderen Computer) mit dem Protokoll zu vergleichen, um zu sehen, was erwartet wird.
+Bei der Installation von Teams protokolliert das Teams-Installationsprogramm die Abfolge von Ereignissen in "%LocalAppData%\SquirrelTemp\SquirrelSetup.log". Zuerst sollten Sie nach einer Fehlermeldung oder einer Anrufliste am Ende des Protokolls suchen. Beachten Sie, dass Aufruflisten am Anfang des Protokolls möglicherweise nicht bedeuten, dass ein Installationsproblem vorliegt. Es kann einfacher sein, Ihr Protokoll mit einem Protokoll einer erfolgreichen Installation (ggf. auf einem anderen Computer) zu vergleichen, um zu sehen, was zu erwarten ist.
 
-Wenn SquirrelSetup. log nicht die Ursache angibt oder wenn Sie weitere Informationen benötigen, um das Problem zu beheben, lesen Sie [sammeln und Analysieren von Anwendungs-und Systemprotokollen](#collect-and-analyze-application-and-system-logs).
+Wenn die Ursache nicht in "SquirrelSetup.log " aufgeführt ist, oder wenn Sie weitere Informationen benötigen, um das Problem zu beheben, lesen Sie [Erfassen und Analysieren von Anwendungs- und Systemprotokollen](#collect-and-analyze-application-and-system-logs).
 
-### <a name="troubleshoot-update-issues"></a>Behandeln von Problemen mit Updates
+### <a name="troubleshoot-update-issues"></a>Behandeln von Problemen beim Update
 
-Wenn Teams erfolgreich installiert wurden, wechselt der Protokollspeicherort von%LocalAppData%\SquirrelTemp zu%APPDATA%\Microsoft\Teams.. An diesem Speicherort gibt es zwei interessante Protokolldateien, SquirrelSetup. log und Logs. txt.
+Wenn Teams erfolgreich installiert wurde, wechselt der Protokollspeicherort von "%LocalAppData%\SquirrelTemp" zu "%AppData%\Microsoft\Teams". An diesem Speicherort befinden sich zwei interessante Protokolldateien: "SquirrelSetup.log" und "logs.txt".
 
-- Die Datei "SquirrelSetup. log" an diesem Speicherort wird von "Update. exe" geschrieben, die eine ausführbare Datei ist, die die Teams-App Dienstleistungen.
-- Die Datei "Logs. txt" wird von der Teams-app (insbesondere "Teams. exe") zum Aufzeichnen von signifikanten Anwendungsereignissen verwendet. Sie enthält wahrscheinlich Fehlerinformationen.
+- Die Datei "SquirrelSetup.log" an diesem Speicherort wurde von "Update.exe" geschrieben, einer ausführbaren Datei, die die Teams-App wartet.
+- Die Datei "Logs.txt" wird von der Teams-App (speziell "Teams.exe") verwendet, um wichtige Anwendungsereignisse aufzuzeichnen. Sie enthält wahrscheinlich Fehlerinformationen.
 
-Diese Protokolldateien enthalten personenbezogene Informationen (PII) und werden daher nicht an Microsoft gesendet.
+Diese Protokolldateien enthalten personenbezogene Informationen (Personally Identifiable Information, PII) und werden daher nicht an Microsoft gesendet.
 
-Teams können den Updateprozess automatisch starten (je nach Richtlinie), oder Benutzer können manuell nach Updates suchen, indem Sie zu Ihrem Profilbild wechseln > nach **Updates**suchen. Beide Methoden verwenden die folgende Abfolge von Ereignissen.
+Teams kann (je nach Richtlinie) den Aktualisierungsvorgang automatisch starten, oder Benutzer können manuell nach Updates suchen, indem sie zu Ihrem Profilbild wechseln und **Nach Updates suchen** auswählen. Beide Methoden verwenden die folgende Ereignissequenz.
 
-1. **Auf Updates überprüfen**. Teams erstellt eine Webanforderung und enthält die aktuelle App-Version und Informationen zum Bereitstellungs Ring. Das Ziel dieses Schritts besteht darin, den Download-Link zu erhalten. Ein Fehler bei diesem Schritt wird in "Logs. txt" protokolliert.
-2. **Update herunterladen**. Teams downloadet das Update mithilfe des Download-Links, der in Schritt 1 abgerufen wurde. Wenn der Download abgeschlossen ist, ruft Teams Update. exe auf, um den Download zu inszenieren. Ein Downloadfehler wird auch in "Logs. txt" protokolliert.
-3. **Stufen Sie das Update ein**. Der heruntergeladene Inhalt wird in einen zwischen Ordner,%LocalAppData%\Microsoft\Teams\stage), überprüft und entpackt, der von Update. exe ausgeführt wird. Fehler in diesem Schritt werden in SquirrelTemp. log protokolliert.
-4. **Installieren Sie das Update**. Es gibt mehrere Möglichkeiten, um Teams zu starten. Das System startet automatisch Teams, wenn sich ein Benutzer anmeldet, oder Sie können Teams über eine Verknüpfung starten. In diesem Schritt überprüft Update. exe das vorhanden sein des Staging-Ordners, überprüft den Inhalt erneut und führt Dateivorgänge aus, um die APP zu deinstallieren. Der alte Anwendungsordner in%LocalAppData%\Microsoft\Teams\current wird auf%LocalAppData%\Microsoft\Teams\previous gesichert, und der Ordner "Stage" wird in "Current" umbenannt. Fehler in diesem Schritt werden in SquirrelTemp. log protokolliert.
+1. **Nach Updates suchen**. Teams erstellt eine Webanforderung und schließt die aktuelle App-Version sowie Informationen zum Bereitstellungsring ein. Das Ziel dieses Schritts besteht darin, den Downloadlink abzurufen. Fehler in diesem Schritt werden in "Logs.txt" protokolliert.
+2. **Update herunterladen**. Teams lädt das Update mithilfe des in Schritt 1 abgerufenen Downloadlinks herunter. Nach Abschluss des Downloads ruft Teams "Update.exe" auf, um den Download bereitzustellen. Downloadfehler werden ebenfalls in "Logs.txt" protokolliert.
+3. **Updates bereitstellen**. Die heruntergeladenen Inhalte werden überprüft und in einen temporären Ordner (%LocalAppData%\Microsoft\Teams\stage) entpackt. Dies wird durch "Update.exe" ausgeführt. Fehler in diesem Schritt werden in "SquirrelTemp.log" protokolliert.
+4. **Update installieren**. Es gibt mehrere Möglichkeiten, Teams zu starten. Teams wird automatisch gestartet, wenn sich ein Benutzer anmeldet, oder Sie können Teams über eine Verknüpfung starten. In diesem Schritt überprüft "Update.exe" das Vorhandensein des Bereitstellungsordners, überprüft den Inhalt erneut und führt Dateivorgänge aus, um die Bereitstellung der App aufzuheben. Der alte Anwendungsordner in "%LocalAppData%\Microsoft\Teams\current" wird auf "%LocalAppData%\Microsoft\Teams\previous" gesichert, und der Bereitstellungsordner wird in "current" umbenannt. Fehler in diesem Schritt werden in "SquirrelTemp.log" protokolliert.
 
-Wenn SquirrelTemp. log oder Logs. txt nicht genügend Informationen enthält, um die zugrunde liegende Ursache zu ermitteln, und wenn Sie weitere Informationen benötigen, um das Problem zu beheben, gehen Sie zu [sammeln und Analysieren von Anwendungs-und Systemprotokollen](#collect-and-analyze-application-and-system-logs).
+Wenn "SquirrelTemp.log" oder "Logs.txt" nicht genügend Informationen enthalten, um die zugrundeliegende Ursache zu ermitteln, und Sie weitere Informationen zur Behebung des Problems benötigen, gehen Sie zu [Erfassen und Analysieren von Anwendungs- und Systemprotokollen](#collect-and-analyze-application-and-system-logs).
 
-## <a name="collect-and-analyze-application-and-system-logs"></a>Sammeln und Analysieren von Anwendungs-und Systemprotokollen
+## <a name="collect-and-analyze-application-and-system-logs"></a>Erfassen und Analysieren von Anwendungs- und Systemprotokollen
 
-In diesem Abschnitt wird beschrieben, wie Anwendungs-und Systemprotokolle gesammelt und analysiert werden, um umfassendere Informationen zur Problembehandlung zu erhalten. Sie verwenden Sysinternals-Tools, um diese Schritte auszuführen. Weitere Informationen finden Sie unter [Windows Sysinternals](https://docs.microsoft.com/sysinternals/).
+In diesem Abschnitt wird beschrieben, wie Anwendungs- und Systemprotokolle erfasst und analysiert werden, um umfassendere Informationen zur Problembehandlung zu erhalten. Sie verwenden die Sysinternals-Tools, um diese Schritte auszuführen. Weitere Informationen hierzu finden Sie unter [Windows Sysinternals](https://docs.microsoft.com/sysinternals/).
 
-### <a name="collect-logs"></a>Sammeln von Protokollen
+### <a name="collect-logs"></a>Protokolle erfassen
 
-1. Laden Sie die [Sysinternals-Tools](https://download.sysinternals.com/files/SysinternalsSuite.zip)herunter.
-2. Extrahieren Sie die ZIP-Datei in den Ordner% Temp% auf dem lokalen Laufwerk.
-3. Öffnen Sie eine Eingabeaufforderung mit erhöhten Rechten, und gehen Sie dann wie folgt vor:
+1. Laden Sie die [Sysinternals-Tools](https://download.sysinternals.com/files/SysinternalsSuite.zip) herunter.
+2. Extrahieren Sie die ZIP-Datei in den Ordner "%TEMP%" auf dem lokalen Laufwerk.
+3. Öffnen Sie eine Eingabeaufforderung mit erhöhten Rechten, und gehen Sie dann folgendermaßen vor:
 
-    1. Führen Sie die folgenden Schritte aus, um zu Ihrem temporären Ordner zu wechseln:
+    1. Führen Sie die folgenden Schritte aus, um zu Ihrem Ordner "Temp" zu wechseln:
 
         ```console
         cd /d %TEMP%
         ```
-    2. Kopieren Sie die Setup-und Anwendungsprotokolle. Beachten Sie, dass einige dieser Protokolle, abhängig vom Fehlerpunkt, möglicherweise nicht vorhanden sind.
+    2. Kopieren Sie die Setup- und Anwendungsprotokolle. Je nachdem, wo der Fehlerauftritt, sind einige dieser Protokolle möglicherweise nicht vorhanden.
 
         ```console
         copy %LocalAppData%\SquirrelTemp\SquirrelSetup.log SquirrelSetup.log
         copy %AppData%\Microsoft\Teams\logs.txt logs.txt
         copy %LocalAppData%\Microsoft\Teams\SquirrelSetup.log SquirrelSetup_Teams.log
         ```
-    3. Führen Sie die folgenden Schritte aus, um die geöffneten Handles zu erfassen.
+    3. Führen Sie die folgenden Schritte aus, um die geöffneten Handles aufzuzeichnen.
 
         ```console
         handle > handles.txt
         ```
 
-    4. Führen Sie die folgenden Schritte aus, um die geöffneten DLLs zu erfassen.
+    4. Führen Sie die folgenden Schritte aus, um die geöffneten DLLs aufzuzeichnen.
 
         ```console
         listdlls -v Teams > dlls.txt
         ```
-    5. Führen Sie die folgenden Schritte aus, um die ausgeführten Treiber zu erfassen.
+    5. Führen Sie die folgenden Schritte aus, um die laufenden Treiber zu erfassen.
 
         ```console
         driverquery /v > driverquery.txt
         ```
 
-    6. Führen Sie die folgenden Schritte aus, um die Zugriffssteuerungslisten (Access Control Lists, ACLs) des Ordners "Teams" zu erfassen.
+    6. Führen Sie die folgenden Schritte aus, um die ACLs (Access Control Lists) des Ordners "Teams" zu erfassen.
 
         ```console 
         icacls %LOCALAPPDATA%\Microsoft\Teams /save icacls.txt /T
         ```
 
-### <a name="analyze-logs-for-advanced-users"></a>Analysieren von Protokollen (für erfahrene Benutzer)
+### <a name="analyze-logs-for-advanced-users"></a>Protokolle analysieren (für fortgeschrittene Benutzer)
 
-Eine fehlgeschlagene Aktualisierung kann zu einem unvorhersehbaren App-Verhalten führen. Beispielsweise können Benutzer nicht in der Lage sein, Teams zu beenden, eine veraltete Version von Teams zu haben oder Teams zu starten. Wenn während eines Updates ein Problem auftritt, suchen Sie zuerst nach der Ursache, indem Sie SquirrelTemp. log finden. Nachfolgend finden Sie die verschiedenen Arten von Updatefehlern, die von den häufigsten bis zu den am wenigsten üblichen Typen aufgelistet sind, und wie Sie mithilfe von Protokollen analysiert und behoben werden können.
+Eine fehlgeschlagene Aktualisierung kann zu einem unvorhersehbaren App-Verhalten führen. So können Benutzer beispielsweise Teams nicht mehr beenden, verwenden weiter die veraltete Version von Teams oder können Teams nicht starten. Wenn während einer Aktualisierung ein Problem auftritt, suchen Sie die Ursache zunächst in "SquirrelTemp.log". Nachfolgend werden die verschiedenen Arten von Updatefehlern, vom häufigsten bis zum seltensten Fehler, aufgelistet, und es wird beschrieben, wie sie mithilfe von Protokollen analysiert und behandelt werden.
 
-#### <a name="unable-to-exit-teams"></a>Teams können nicht beendet werden
+#### <a name="unable-to-exit-teams"></a>Teams kann nicht beendet werden
 
-Wenn Teams feststellt, dass Sie sich selbst auf eine neuere Version aktualisieren müssen, downloadet und inszeniert Sie die neue APP und wartet dann auf die Möglichkeit, sich bei der nächsten Leerlaufzeit des Computers neu zu starten. Ein häufiges Problem während dieses Vorgangs ist, wenn ein anderer Prozess oder ein Dateisystemtreiber den Prozess "Teams. exe" sperrt, wodurch "Teams. exe" nicht mehr beendet wird. Daher kann die app "Teams" nicht durch die neu heruntergeladene und inszenierte App ersetzt werden.
+Wenn Teams feststellt, dass es auf eine neuere Version aktualisiert werden muss, wird die neue App heruntergeladen und bereitgestellt. Dann wird auf eine Möglichkeit zu einem Neustart gewartet, wenn der Computer im Leerlauf ist. Ein häufiges Problem während dieses Prozesses ist, wenn ein anderer Prozess oder ein Dateisystemtreiber den Teams.exe-Prozess sperrt und dadurch das Beenden von "Teams.exe" verhindert. Die Teams-App kann daher nicht durch die neu heruntergeladene und bereitgestellte App ersetzt werden.
 
-Tipps zur Problembehandlung:
+Problembehebungstipps:
 
-- Um zu bestätigen, dass das Problem auftritt, beenden Sie Teams (Klicken Sie in der Taskleiste mit der rechten Maustaste auf Teams, und klicken Sie dann auf **Beenden**). Öffnen Sie dann den Task-Manager in Windows, um festzustellen, ob eine Instanz von Teams noch ausgeführt wird.  
-- Wenn Sie sich nicht auf dem Computer befinden, auf dem dieses Problem auftritt, überprüfen Sie das SquirrelTemp. log auf dem Computer, auf dem dieses Problem auftritt, und suchen Sie nach einem "Programm: der Prozess kann im Protokoll nicht beendet werden".
-- Um zu ermitteln, was verhindert, dass Teams. exe beendet wird, sehen Sie sich die DLLs. txt und Handles. txt-Protokolle an. Diese erläutern die Prozesse, die verhindern, dass Teams beendet werden.
-- Ein weiterer Täter, der das Beenden von Teams verhindern kann, ist der Kernelmodus-Dateisystemfiltertreiber. Verwenden Sie das Sysinternals-Tool " [von procdump](https://docs.microsoft.com/sysinternals/downloads/procdump)", um den Kernelmodus-Prozess- ```procdump -mk <pid>```Dump zu <pid> sammeln, indem Sie ausführen, wobei die Prozess-ID im Task-Manager abgerufen wird. Sie können auch die driverquery. txt-Protokolldatei überprüfen, um die aktiven Filtertreiber anzuzeigen, die die Teams stören können.
-- Wenn Sie diesen Zustand wiederherstellen möchten, starten Sie den Computer neu.
+- Um sich zu vergewissern, dass dieses Problem bei Ihnen auftritt, beenden Sie die Teams. (Klicken Sie dazu in der Taskleiste mit der rechten Maustaste auf Teams, und klicken Sie dann auf **Beenden**.) Öffnen Sie dann den Task-Manager in Windows, um zu überprüfen, ob noch eine Instanz von Teams ausgeführt wird.  
+- Wenn Sie sich nicht an dem Computer befinden, auf dem das Problem auftritt, untersuchen Sie die Datei "SquirrelTemp.log", die von dem Computer, auf dem das Problem auftritt, erfasst wurde, und suchen Sie im Protokoll nach einem Eintrag "Programm: Der Prozess kann nicht beendet werden".
+- Um festzustellen, was das Beenden von "Teams.exe" verhindert, sehen Sie sich die Protokolle "Dlls.txt" und "Handles.txt" an. Anhand dieser Protokolle können Sie die Prozesse ermitteln, die das Beenden von Teams verhindert haben.
+- Eine weitere Ursache, die das Beenden von Teams möglicherweise verhindert, ist der Kernelmodus-Dateisystemfilter-Treiber. Verwenden Sie das SysInternals-Tool, [ProcDump](https://docs.microsoft.com/sysinternals/downloads/procdump), um die Kernelmodusprozess-Speicherabbilddatei durch Ausführen von ```procdump -mk <pid>``` zu erfassen, wobei <pid> die vom Task-Manager abgerufene Prozess-ID ist. Sie können auch die Protokolldatei "Driverquery.txt" untersuchen, um die aktiven Filtertreiber anzuzeigen, die sich störend auf Teams auswirken können.
+- Um dieses Problem zu beheben, starten Sie den Computer neu.
 
 #### <a name="file-permissions"></a>Dateiberechtigungen
 
-Teams erstellt während des Installations-und Aktualisierungsprozesses eine Reihe von Unterordnern und Dateien im Profil des Benutzers. Da die APP und der Updater als Benutzer ohne erhöhten Zugriff ausgeführt werden, müssen die Lese-und Schreibberechtigungen für die folgenden Ordner gewährt werden:
+Teams erstellt während des gesamten Installations- und Aktualisierungsprozesses eine Reihe von Unterordnern und Dateien im Profil des Benutzers. Da die App und der Updater als Benutzer ohne erhöhte Rechte ausgeführt werden, müssen Lese- und Schreibberechtigungen für die folgenden Ordner gewährt werden:
 
 |Ordner  |Verwendet von  |
 |---------|---------|
-|%LocalAppData%\SquirrelTemp     | Teams-Installationsprogramm (beispielsweise Teams_Windows_x64. exe) während der Installationsphase        |
-|%LocalAppData%\Microsoft\Teams  | Teams-Updater (Update. exe) zum Extrahieren und inszenieren des App-Pakets während des Updatevorgangs        |
-|%AppData%\Microsoft\Teams   |  Teams-app (Teams. exe) zum Speichern von Einstellungen, App-Zuständen und des heruntergeladenen Updatepakets (Pre-Staging)       |
+|%LocalAppData%\SquirrelTemp     | Team-Installationsprogramm (z. B. Teams_Windows_x64.exe) während der Installationsphase        |
+|%LocalAppData%\Microsoft\Teams  | Team-Updater (Update.exe) zum Extrahieren und Bereitstellen des Anwendungspakets während des Updateprozesses        |
+|%AppData%\Microsoft\Teams   |  Team-App (Teams.exe) zum Speichern von Einstellungen, App-Status und dem (vorinstallierten) heruntergeladenen Updatepaket       |
 
-Wenn Teams der Zugriff verweigert wird, weil Sie nicht in eine Datei schreiben können, kann eine andere Softwareanwendung stören, oder ein Sicherheitsdeskriptor-Eintrag kann den Schreibzugriff auf einen Ordner einschränken.
+Wenn Teams der Zugriff verweigert wird, weil es nicht in eine Datei schreiben kann, wirkt sich eine andere Softwareanwendung möglicherweise störend aus, oder ein Sicherheitsbeschreibungseintrag schränkt den Schreibzugriff auf einen Ordner ein.
 
-Tipps zur Problembehandlung:
+Problembehebungstipps:
 
-- Suchen Sie nach dem "Zugriff verweigert"-Beweis in SquirrelTemp. log oder Logs. txt. Überprüfen Sie diese Dateien, um festzustellen, ob versucht wurde, in eine Datei zu schreiben, die fehlgeschlagen ist.
-- Öffnen Sie icacls. txt, und suchen Sie nach dem effektiven Zugriffssteuerungseintrag (Access Control Entry, ACE), der Schreibvorgänge durch einen Benutzer blockiert, der kein Administrator ist. In der Regel befindet sich dies in einem der DACL-Einträge. Weitere Informationen finden Sie in der [icacls-Dokumentation](https://docs.microsoft.com/windows-server/administration/windows-commands/icacls).
+- Suchen Sie nach Nachweisen für "Zugriff verweigert" in "SquirrelTemp.log" oder "Logs.txt". Überprüfen Sie diese Dateien, um zu sehen, ob ein Versuch, in eine Datei zu schreiben, fehlgeschlagen ist.
+- Öffnen Sie "Icacls.txt", und suchen Sie nach dem effektiven Zugriffssteuerungseintrag (ACE, Access Control Entry), der Schreiboperationen eines Benutzers, der kein Administrator ist, blockiert. Typischerweise befindet sich dieser in einem der DACL-Einträge. Weitere Informationen finden Sie in der [Dokumentation zu icacls](https://docs.microsoft.com/windows-server/administration/windows-commands/icacls).
 
-#### <a name="file-corrupted"></a>Datei beschädigt
+#### <a name="file-corrupted"></a>Beschädigte Datei
 
-In einigen Fällen kann die Verschlüsselungssoftware Dateien im Ordner "%LocalAppData%\Microsoft\Teams" ändern, wodurch verhindert wird, dass Teams gestartet werden. Dies kann zu einem beliebigen Zeitpunkt geschehen, auch wenn die APP nicht aktualisiert wird. Wenn eine Datei beschädigt ist, besteht die einzige Möglichkeit zur Wiederherstellung in diesem Zustand darin, Teams zu deinstallieren und erneut zu installieren.
+In einigen Fällen ändert Verschlüsselungssoftware Dateien im Ordner "%LocalAppData%\Microsoft\Teams", und verhindert dadurch den Start von Teams. Dies kann jederzeit geschehen, auch wenn die App nicht aktualisiert wird. Wenn eine Datei beschädigt ist, besteht leider die einzige Möglichkeit, dieses Problem zu beheben, darin, Teams zu deinstallieren und neu zu installieren.
 
 > [!NOTE]
-> Wenn Sie die zugrunde liegende Ursache des Problems mithilfe eines dieser Schritte nicht ermitteln können, sollten Sie eine [Prozess Monitor](https://docs.microsoft.com/sysinternals/downloads/procmon) Sitzung testen. Prozess Monitor ist ein Sysinternals-Tool, mit dem der Zugriff auf die Registrierung und das Dateisystem aufgezeichnet wird.
+> Wenn Sie die zugrundeliegende Ursache des Problems mit keinem dieser Schritte ermitteln können, können Sie es mit einer [Prozessmonitor](https://docs.microsoft.com/sysinternals/downloads/procmon)-Sitzung versuchen. Der Prozessmonitor ist ein Sysinternals-Tool, das den Zugriff auf die Registrierung und das Dateisystem aufzeichnet.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
