@@ -640,6 +640,7 @@
 ### [Erste Schritte mit Vorlagen für Teams im Einzelhandel](get-started-with-retail-teams-templates.md)
 
 ## [Teams für Behörden](expand-teams-across-your-org/teams-for-government-landing-page.md)
+### [Remotemitarbeiter unterstützen (WFH)](expand-teams-across-your-org/GOV-support-remote-work-with-teams.md)
 ### [Verwalten des Office 365 G1-Testangebots](g1-trial-license.md)
 ### [Planen von Microsoft 365 Government – GCC](plan-for-government-gcc.md)
 ### [Planen von Microsoft 365 Government – GCC High](plan-for-government-gcc-high.md)

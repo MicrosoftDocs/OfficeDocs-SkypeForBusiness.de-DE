@@ -17,12 +17,12 @@ f1.keywords:
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 212f7f2bab023127bcc110133d1b8e574ee0d5de
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: 9023c7a7bfe5a629f3f2fdb9589ee3f9ef9efd68
+ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928288"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951510"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -62,11 +62,7 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
-|Wenn „UsersPermissionToReadOtherUsersEnabled“ auf „False“ festgelegt ist, können keine Mitglieder zu Teams hinzugefügt werden.  <br/> |Wenn dieser Wert in AAD auf „False“ festgelegt ist, können Sie in Microsoft Teams keine externen bzw. internen Mitglieder hinzufügen. Außerdem wird die folgende Fehlermeldung angezeigt: „Mitglied konnte nicht hinzugefügt werden. Es ist ein Problem aufgetreten. Bitte versuchen Sie es später erneut.“ Mitglieder können jedoch direkt zu Office 365-Gruppen hinzugefügt werden.    <br/> |Ändern Sie diese Einstellung in AAD in „True“.  <br/> |10.04.18  <br/> |
-
-|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
-|:-----|:-----|:-----|:-----|
-|Die Administratorverwaltung für mandantenweite Connectors ist nicht mehr verfügbar.  <br/> |Beim Versuch, einen Connector hinzuzufügen, wird in der Clientversion und in der Onlineversion die folgende Fehlermeldung angezeigt: „An unexpected error occurred. Please try again.“ (Unerwarteter Fehler. Versuchen Sie es erneut.). „Set-OrganizationConfig -ConnectorsEnabled=True“   <br/> |Verwenden Sie zum Deaktivieren die Microsoft Teams-Einstellungen. Lesen Sie diesen Supportartikel: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21.06.17  <br/> |
+|Wenn „UsersPermissionToReadOtherUsersEnabled“ auf „False“ festgelegt ist, können keine Mitglieder zu Teams hinzugefügt werden.  <br/> |Wenn dieser Wert in AAD auf „False“ festgelegt ist, können Benutzer in Microsoft Teams keine externen bzw. internen Mitglieder hinzufügen. Außerdem wird die folgende Fehlermeldung angezeigt: „Mitglied konnte nicht hinzugefügt werden. Es ist ein Problem aufgetreten. Bitte versuchen Sie es später erneut.“ Mitglieder können jedoch direkt zu Office 365-Gruppen hinzugefügt werden.    <br/> |Ändern Sie diese Einstellung in AAD in „True“.  <br/> |10.04.18  <br/> |
 
 ## <a name="apps"></a>Apps
 
@@ -77,14 +73,6 @@ Dieser Artikel listet die bekannten Probleme für Microsoft Teams nach Funktions
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |[Bedingter Zugriff](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) funktioniert möglicherweise nicht, wenn Sie die Registerkarte "Website" oder "Azure DevOps" in der Desktop-App verwenden.<br/> |Wenn eine Website, wie z. B. ein Intranetportal, über Richtlinien für bedingten Zugriff verfügt (etwa Browser-, IP-Adressbeschränkungen oder Gerätekompatibilität), kann es sein, dass diese Website in der Desktop-App nicht als Registerkarte innerhalb von Teams angezeigt wird. <br/> |Verwenden Sie anstatt der Desktop-App Teams in einem Browser.  <br/> |1.7.18  <br/> |
-
-|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
-|:-----|:-----|:-----|:-----|
-|Für einige Teams fehlen die Connector-Optionen.  <br/> |Wenn Sie mit der rechten Maustaste auf einen Kanal klicken, ist die Option für Connectors für keines der Teammitglieder vorhanden.  <br/> |Der Ersteller des Teams benötigt ein Onlinepostfach, andernfalls ist keine Connector-Option verfügbar. Dieses Verhalten ist zu erwarten.  <br/> |26.06.2017  <br/> |
-
-|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
-|:-----|:-----|:-----|:-----|
-|Die App „Assignments“ (Aufgaben) bleibt sichtbar, auch wenn diese deaktiviert wurde.  <br/> |Wenn die App „Aufgaben“ im Admin Center deaktiviert wird, bleibt sie für Benutzer mit EDU-Lizenz im Microsoft Teams-Client sichtbar. Wenn die deaktivierte App ausgewählt wird, wird die folgende Fehlermeldung zurückgegeben: „Leider ist etwas schiefgegangen ...“.  <br/> |Keine Problemumgehung.  <br/> |29.12.2017  <br/> |
 
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
