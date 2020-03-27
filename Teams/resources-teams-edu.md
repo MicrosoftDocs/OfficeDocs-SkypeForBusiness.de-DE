@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cb9e4c4b46e732b2cc96b58b67522a8a9da678c
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: fd01a781cfb5a928e4d14e64d45789b4f023648d
+ms.sourcegitcommit: 3ddb28e085a89501e4e64687de4697f82f47f119
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983815"
+ms.locfileid: "43027675"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen
 ==============================================
@@ -36,9 +36,9 @@ Bitte lesen Sie die [allgemeinen Geschäftsbedingungen,](https://github.com/Micr
 
 | |  |
 |---------|---------|
-|[Broschüre Tipps und Kniffe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Screenshot](media/edu-adoption-get-started.png)    |
 |Poster – [anpassbar](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) und [druckbereit](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Screenshot eines Plakats](media/edu-adoption-posters.png)     |[Handzettel](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Screenshot eines Handzettels](media/edu-adoption-handouts.png)|
 |[Flyer](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Screenshot eines Handzettels](media/edu-adoption-flyers.png)   |[Buch anzeigen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Screenshot einer Buch Anzeige](media/edu-adoption-book-adverts.png)         |
+|[Broschüre Tipps und Kniffe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Screenshot](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>Digitale Ressourcen
 
