@@ -16,17 +16,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e2f0a0d585b7bf21175ebf8dd0ab31e16133e11
-ms.sourcegitcommit: 29034bda30a8460eb18600785f785528d0944041
+ms.openlocfilehash: 8cb9e4c4b46e732b2cc96b58b67522a8a9da678c
+ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42285847"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "42983815"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen
 ==============================================
 
-## <a name="adoption-content"></a>Adoptions Inhalt
+## <a name="adoption-content"></a>Inhalte zur Einführung
 
 Begeistern Sie Ihre Schule für Microsoft Teams mit e-Mails, Plakaten, Handzetteln und weiteren Ressourcen, die Sie jetzt kostenlos nutzen können. Mit dem neuen digitalen Toolkit, das mit Bannern, GIFs und Videos gefüllt ist, können Sie Schüler und Studenten auch online und über den gesamten Campus erreichen. Beginnen Sie noch heute!
 
@@ -36,6 +36,7 @@ Bitte lesen Sie die [allgemeinen Geschäftsbedingungen,](https://github.com/Micr
 
 | |  |
 |---------|---------|
+|[Broschüre Tipps und Kniffe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Screenshot](media/edu-adoption-get-started.png)    |
 |Poster – [anpassbar](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) und [druckbereit](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Screenshot eines Plakats](media/edu-adoption-posters.png)     |[Handzettel](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Screenshot eines Handzettels](media/edu-adoption-handouts.png)|
 |[Flyer](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Screenshot eines Handzettels](media/edu-adoption-flyers.png)   |[Buch anzeigen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Screenshot einer Buch Anzeige](media/edu-adoption-book-adverts.png)         |
 

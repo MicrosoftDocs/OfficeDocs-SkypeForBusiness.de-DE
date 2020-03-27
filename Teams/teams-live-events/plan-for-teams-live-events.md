@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Informieren Sie sich über die Faktoren, die Sie berücksichtigen sollten, bevor Sie Liveereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecd08f71545bcaf2775b3e502860b9d6a8e234fc
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 816cfb3c971621a367dcf81d1ec555e9735bda9d
+ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978417"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "42983861"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -81,6 +81,7 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 |---------|---------|---------|---------|
 |Maximale Zielgruppengröße |10.000 Teilnehmer |10.000 Teilnehmer<sup>1</sup> |10.000 Teilnehmer<sup>1</sup> |
 |Maximale Dauer eines Liveereignisses |4 Stunden |4 Stunden |4 Stunden |
+|Maximale Anzahl von Referenten und Produzenten in einem Live Ereignis |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
 |Maximale Anzahl gleichzeitiger Liveereignisse pro Office 365-Mandant |15  | 15  | 15  |
 |Erstellung von Liveereignissen |   Skype Meeting Broadcast-Portal |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Zielgruppen-Engagement – Yammer |&#x2714; |&#x2714; (integrierte Lösung) |&#x2714; (integrierte Lösung) |
@@ -104,7 +105,9 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 |Nachträglich gesendeter Anwesenheitsbericht für Produzenten |&#x2714; |&#x2714; |X |
 |Teilnehmerstimmungsanalyse – Liveabstimmungen & -umfragen |&#x2714; (Microsoft Pulse) |X |X |
 
-<sup>1</sup> Die festgelegten Grenzen können geändert werden.
+<sup>1</sup> Die festgelegten Grenzen können geändert werden.<br/>
+<sup>2</sup> Sie können bis zu 250 Referenten und Produzenten in einem Live-Event haben, aber nur die letzten zehn, die sich in der Liste befanden, werden angezeigt.
+
 
 ## <a name="regional-availability"></a>Regionale Verfügbarkeit
 Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folgenden Informationen zeigen die Verfügbarkeit für die Ereignisteammitglieder und -teilnehmer. 
