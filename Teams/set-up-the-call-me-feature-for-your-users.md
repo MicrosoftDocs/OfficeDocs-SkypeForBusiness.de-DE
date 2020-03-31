@@ -16,16 +16,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe895fee4f3bc0872d277429289b5d04d6c9161d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8fc2a66e2414350a56874583af6a00f688450f0e
+ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837995"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43068517"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Einrichten der Funktion „Rückruf“ für Ihre Benutzer
 
 In Microsoft Teams bietet die Funktion " **anrufen** " Benutzern eine Möglichkeit, den Audioteil einer Besprechung per Telefon anzunehmen. Dies ist praktisch in Szenarien, in denen die Verwendung eines Computers für Audio möglicherweise nicht möglich ist. Benutzer erhalten den Audioteil der Besprechung über Ihr Mobiltelefon oder Ihre Festnetz-und den Inhaltsbereich der Besprechung&mdash;, beispielsweise, wenn ein anderer Besprechungsteilnehmer seinen Bildschirm freigibt&mdash;oder ein Video über seinen Computer abspielt.
+
+> [!IMPORTANT]
+> Während der Dauer des COVID-19-Ausbruchs empfehlen wir, dass Benutzer an Besprechungen teilnehmen, indem Sie auf die Schaltfläche an **Teams-Besprechung teilnehmen** klicken, anstatt sich über die PSTN-Konferenznummern oder mithilfe von " **anrufen unter**" anzuwählen. Auf diese Weise wird die Audioqualität in Zeiten gewährleistet, in denen das PSTN-Netzwerk mit einem hohen Besprechungs Volumen Überlastung verursacht.
 
 ## <a name="the-user-experience"></a>Die Benutzeroberfläche
 
