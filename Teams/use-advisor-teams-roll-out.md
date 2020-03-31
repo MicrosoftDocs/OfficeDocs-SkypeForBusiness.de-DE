@@ -9,6 +9,7 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
+- remotework
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Verwenden Sie den Ratgeber für Teams (öffentliche Vorschau) als Hilfe bei der Planung und Durchführung Ihrer Bereitstellung von Microsoft Teams.
-ms.openlocfilehash: 17fac0b4f4c974f72eccc7d0c11ae6b27337afef
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 6e4f383983326333bcd8b821d2342872eb89ecd7
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892285"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053618"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams
 
