@@ -14,16 +14,17 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+- remotework
 ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ee261f145f256e82db55aa869623505ff3c3dc3
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: 91cb2752d1e37f98056f305a287bf9e6c974e4e8
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43034082"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053628"
 ---
 # <a name="security-and-microsoft-teams"></a>Sicherheit und Microsoft Teams
 
@@ -195,13 +196,12 @@ Es gibt zwei Möglichkeiten zu steuern, wer an Teams-Besprechungen teilnimmt und
 
 1. Sie können steuern, wer an Ihren Besprechungen teilnimmt, indem Sie Einstellungen für die **Lobby** vornehmen.</p>
 
-|Wer kann umgehen  |Umgehungseinstellung  | Tritt direkt bei| Kommt in der Lobby an|
-|---------|---------|---------|---------|
-|EveryoneInCompany (Alle außer externe Nutzer)     |  Ja    |  Mandanten-, Gast- und PSTN-Einwählbenutzer      | Verbundnutzer, anonyme Nutzer        |
-|EveryoneInCompany (Alle außer externe Nutzer)    |  Nein     |  Mandanten- und Gastnutzer       |   Verbundnutzer, anonyme Nutzer, PSTN-Einwählnutzer      |
-|EveryoneInCompany (Alle außer externe Nutzer) und Verbundnutzer     |  Ja    | Mandanten-, Gast-, Verbund- und PSTN-Einwählnutzer        | Anonyme Nutzer        |
-|EveryoneInCompany (Alle außer externe Nutzer) und Verbundnutzer     |  Nein     |   Mandanten-, Gast- und Verbundnutzer      |  Anonyme und PSTN-Einwählbenutzer      |
-|Jeder     |  Ja    | Mandanten-, Gast-, Verbund-, Anonym- und PSTN-Einwählbenutzer        | N/A        |
+|Optionen für die Einstellung "Wer kann den Wartebereich umgehen" auf der Seite Besprechungsoptionen   |Benutzertypen, die direkt an der Besprechung teilnehmen  |Benutzertypen, die in den Wartebereich wechseln   |
+|---------|---------|---------|
+|Personen in meinem Unternehmen     |  – Benutzer innerhalb des Mandanten  </br>– Gast des Mandanten         |  – Verbundbenutzer</br>  – Anonyme Benutzer</br>  – Einwahl über Telefonfestnetz</br>     |
+|Personen in meiner Organisation und vertrauenswürdigen Organisationen      |  – Benutzer innerhalb des Mandanten</br> – Gast des Mandanten</br> – Verbundbenutzer</br>        |  – Anonyme Benutzer</br>  – Einwahl über Telefonfestnetz</br>      |
+|Jeder      |   – Benutzer innerhalb des Mandanten</br>  – Gast des Mandanten</br>  – Anonymer Benutzer im Verbund</br>  – Einwahl über Telefonfestnetz</br>       |         |
+
 
 2. Der zweite Weg führt über **strukturierte Besprechungen** (bei denen Moderatoren alles tun können, was getan werden sollte, und die Teilnehmer haben eine kontrollierte Erfahrung). Nach der Teilnahme an einer strukturierten Besprechung steuern die Moderatoren, was die Teilnehmer in der Besprechung tun können. </p>
 
@@ -289,6 +289,12 @@ Es ist möglich, die Besprechungsoptionen zu ändern, während eine Besprechung 
 
 ## <a name="related-topics"></a>Verwandte Themen
 
+[Die wichtigsten 12 Aufgaben für Sicherheitsteams zur Unterstützung der Arbeit von zu Hause aus](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?view=o365-worldwide)
+
 [Microsoft Trust Center](https://microsoft.com/trustcenter)
 
 [Verwalten von Besprechungseinstellungen in Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
+
+[Optimieren der Office 365-Konnektivität für Remotebenutzer mithilfe des geteilten VPN-Tunnels](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-split-tunnel?branch=vpn-split-tunnel)
+
+- [Implementieren des geteilten VPN-Tunnels für Office 365](https://review.docs.microsoft.com/en-us/Office365/Enterprise/office-365-vpn-implement-split-tunnel?branch=vpn-split-tunnel)

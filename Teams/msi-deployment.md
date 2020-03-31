@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 084f6d4587bc279c4387cf44b8ed29d38d51d4a6
 ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/24/2020
 ms.locfileid: "42937599"
@@ -26,7 +26,7 @@ ms.locfileid: "42937599"
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installieren von Microsoft Teams mit Microsoft Endpoint Configuration Manager
 
 > [!Tip]
-> Schauen Sie sich die folgende Sitzung an, um mehr über die Vorteile des Windows-Desktop Clients, die Vorgehensweise für die Planung und die Bereitstellung zu erfahren: [Teams Windows-Desktop Client](https://aka.ms/teams-clients).
+> Schauen Sie sich die folgende Sitzung mit Informationen zu den Vorteilen des Windows-Desktopclient sowie zum Planen und Bereitstellen der Lösung an: [Windows-Desktopclient für Teams](https://aka.ms/teams-clients).
 
 Wenn Sie für die allgemeine Bereitstellung Microsoft Endpoint Configuration Manager, Gruppenrichtlinien oder Verteilungsmethoden von Drittanbietern verwenden möchten: Microsoft hat MSI-Dateien (sowohl 32- als auch 64-Bit-Versionen) bereitgestellt, die Administratoren für die Massenbereitstellung von Microsoft Teams für ausgewählte Benutzer oder Computer verwenden können. Administratoren können Microsoft Teams mit diesen Dateien remote bereitstellen, damit die Benutzer die Teams-App nicht manuell herunterladen müssen. Die bereitgestellte Microsoft Teams-App wird für alle Benutzer, die sich bei dem jeweiligen Computer anmelden, automatisch gestartet. (Sie können das automatische Starten nach der Installation der App deaktivieren. [Siehe unten](#disable-auto-launch-for-the-msi-installer).) Wir empfehlen, das Paket auf dem Computer bereitzustellen, damit alle neuen Benutzer des Computers ebenfalls von dieser Bereitstellung profitieren.
 
@@ -41,12 +41,12 @@ Hier sind die Links zu den MSI-Dateien:
 |Bundesbehörden – DoD     | [32-Bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)        | [64-Bit](https://dod.teams.microsoft.us/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)        |
 
 > [!NOTE]
-> Installieren Sie die 64-Bit-Version von Teams unter 64-Bit-Betriebssystemen. Wenn Sie versuchen, die 64-Bit-Version von Teams auf einem 32-Bit-Betriebssystem zu installieren, ist die Installation nicht erfolgreich, und es wird derzeit keine Fehlermeldung angezeigt.
+> Installieren Sie die 64-Bit-Version von Teams auf 64-Bit-Betriebssystemen. Wenn Sie versuchen, die 64-Bit-Version von Teams auf einem 32-Bit-Betriebssystem zu installieren, schlägt die Installation fehl, aber Sie erhalten zurzeit keine Fehlermeldung.
 
 Teams können auch in eine Bereitstellung von Office 365 ProPlus einbezogen werden. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams mit Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
 
 > [!Note]
-> Weitere Informationen zum Microsoft Endpoint Configuration Manager finden Sie unter [Was ist Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction)
+> Weitere Informationen zu Microsoft Endpoint Configuration Manager lesen Sie unter [Was ist Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction).
 
 ## <a name="deployment-procedure-recommended"></a>Bereitstellungsverfahren (empfohlen)
 
@@ -78,10 +78,10 @@ Umfassende Anleitungen zum Bereitstellen der Teams-Desktop-App auf VDI finden Si
 
 ## <a name="clean-up-and-redeployment-procedure"></a>Verfahren für die Bereinigung und erneute Bereitstellung
 
-Wenn ein Benutzer Teams aus seinem Benutzerprofil deinstalliert, wird das MSI-Installationsprogramm nachvollziehen, dass der Benutzer die Teams-APP deinstalliert hat und keine Teams mehr für dieses Benutzerprofil installiert hat. Um Microsoft Teams für diesen Benutzer auf einem bestimmten Computer, auf dem Microsoft Teams deinstalliert wurde, erneut bereitzustellen, gehen Sie so vor:
+Wenn ein Benutzer Microsoft Teams in seinem Benutzerprofil deinstalliert, erkennt das MSI-Installationsprogramm, dass der Benutzer die Microsoft Teams-App deinstalliert hat, und installiert Microsoft Teams für dieses Benutzerprofil nicht mehr. Um Microsoft Teams für diesen Benutzer auf einem bestimmten Computer, auf dem Microsoft Teams deinstalliert wurde, erneut bereitzustellen, gehen Sie so vor:
 
-1. Deinstallieren Sie die für jedes Benutzerprofil installierte Team-app.
-2. Löschen Sie nach der Deinstallation das Verzeichnis rekursiv unter `%localappdata%\Microsoft\Teams\`.
+1. Deinstallieren Sie die installierte Microsoft Teams-App für alle Benutzerprofile.
+2. Löschen Sie nach der Deinstallation rekursiv das Verzeichnis unter `%localappdata%\Microsoft\Teams\`.
 3. Stellen Sie das MSI-Paket auf dem entsprechenden Computer erneut bereit.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Verhindern, dass Microsoft Teams nach der Installation automatisch gestartet wird
@@ -117,7 +117,7 @@ msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 
 Wenn sich ein Benutzer bei Windows anmeldet, wird Teams mit dem MSI-Programm installiert und dem Desktop des Benutzers eine Verknüpfung zum Starten hinzugefügt. Teams wird erst gestartet, wenn der Benutzer es manuell startet. Nachdem der Benutzer Teams manuell gestartet hat, wird es immer automatisch gestartet, wenn sich der Benutzer anmeldet.
 
-Beachten Sie, dass diese Beispiele auch den **ALLUSERS = 1** -Parameter verwenden. Wenn Sie diesen Parameter festlegen, wird das computerweite Installationsprogramm von Teams in den Programmen und Funktionen in der Systemsteuerung und in den apps & Features in Windows-Einstellungen für alle Benutzer des Computers angezeigt. Alle Benutzer können dann Teams deinstallieren, wenn Sie über Administratoranmeldeinformationen auf dem Computer verfügen.
+Beachten Sie, dass diese Beispiele auch den Parameter **ALLUSERS=1** verwenden. Wenn Sie diesen Parameter festlegen, wird das Installationsprogramm für die computerweite Installation von Teams unter "Programme und Features" in der Systemsteuerung sowie unter "Apps und Features" in den Windows-Einstellungen für alle Benutzer des Computers angezeigt. Alle Benutzer können Teams dann deinstallieren, wenn Sie über Administratorrechte auf dem Computer verfügen.
 
 > [!Note]
 > Wenn Sie das MSI-Paket manuell ausführen, sollten Sie es unbedingt mit erweiterten Berechtigungen ausführen. Auch wenn Sie das Installationsprogramm als Administrator ausführen, kann es die Option zum Deaktivieren des automatischen Starts nicht konfigurieren, wenn es ohne erweiterte Berechtigungen ausgeführt wird.
