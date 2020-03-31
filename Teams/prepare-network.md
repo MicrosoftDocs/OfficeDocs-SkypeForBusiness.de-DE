@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d85bb4ba32bf83d3c774a2b6700a96c7e35dcb2a
-ms.sourcegitcommit: 545e466f1fa9163bb00cc96c8db70a70b02af697
+ms.openlocfilehash: f91ba33e372334fed3561227f1c7f88f9357aa55
+ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42935225"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43060367"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams 
 
@@ -34,7 +34,7 @@ Wenn Sie [Ihr Netzwerk für Office 365 bereits optimiert](https://docs.microsoft
     |  |  |
     |---------|---------|
     |Ports     |UDP-Ports <strong>3478</strong> bis <strong>3481</strong>        |
-    |[IP-Adressen](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong> und <strong>52.112.0.0/14</strong>        |
+    |[IP-Adressen](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>, <strong>52.112.0.0/14</strong>und <strong>52.120.0.0/14</strong>         |
     
 2.  Verfügen Sie über eine verifizierte Domäne für Office 365 (beispielsweise contoso.com)?
     
@@ -67,7 +67,7 @@ Möglicherweise möchten Sie zusätzliche Netzwerkoptimierung durchführen, wenn
 
   - Teams läuft langsam (Vielleichthaben Sie nicht genügend Bandbreite)
   - Anrufe fallen weiter (möglicherweise aufgrund von Firewall-oder Proxy-Blockern)
-  - Anrufe sind statisch-y und Ausschneiden, oder Stimmen klingen wie Roboter (könnten Jitter oder Paketverlust sein)
+  - Anrufe sind statisch und ausgeschnitten, oder Stimmen klingen wie Roboter (könnten Jitter oder Paketverlust sein)
 
 Eine ausführliche Erläuterung der Netzwerkoptimierung, einschließlich Anleitungen zum Identifizieren und Beheben von Netzwerkbeeinträchtigungen, finden Sie unter [Office 365-Netzwerk Verbindungs Prinzipien](https://aka.ms/pnc).
 

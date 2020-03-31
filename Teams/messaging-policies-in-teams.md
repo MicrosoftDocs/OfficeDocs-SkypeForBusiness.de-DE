@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Erfahren Sie mehr über die Nachrichtenrichtlinie, und wie Sie sie zur Steuerung des Chat-Messagings in Teams genutzt werden können.
-ms.openlocfilehash: ceb77747da051c5b7e4fb764d6b6679335d8f366
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 476fd2cf77b7ec57a0279d71b614dc50395b3023
+ms.sourcegitcommit: 62969bd1c3a74412aa692709d497b8c6c5992c5c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836445"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43059409"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
@@ -92,8 +92,10 @@ Verwenden Sie die folgenden Einstellungen, um die globale Nachrichtenrichtlinie 
 - **URL-Vorschau zulassen**: Verwenden Sie diese Einstellung, um die automatische URL-Vorschau in Nachrichten zu aktivieren bzw. zu deaktivieren.
 - **Übersetzung von Nachrichten durch Benutzer zulassen**: Wenn diese Funktion aktiviert ist, können Benutzer Microsoft Teams-Nachrichten automatisch in die Sprache übersetzen lassen, die in ihren persönlichen Spracheinstellungen für Office 365 festgelegt ist.
 - **Plastischen Reader zum Anzeigen von Nachrichten zulassen**: Aktivieren Sie diese Einstellung, damit Benutzer Nachrichten in einem Microsoft Plastischen Reader anzeigen können. Plastischer Reader ist ein Lerntool, das zur Verbesserung der Lesbarkeit von Text eine Vollbildansicht bietet.
-- **Benutzer können <a name="urgent-message">Prioritätsbenachrichtigungen</a> senden**: Wenn Sie diese Funktion aktivieren, können die Benutzer eine Nachricht senden, die Prioritätsbenachrichtigungen verwendet. Prioritätsbenachrichtigungen informieren Benutzer alle 2 Minuten für einen Zeitraum von 20 Minuten, oder bis die Nachricht vom Empfänger abgeholt und gelesen wird, um die Wahrscheinlichkeit einer zeitnahen Bearbeitung zu erhöhen.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
-- **Erstellung von Audionachrichten** -wichtig: Audionachrichten werden nicht in der eDiscovery-Berichterstellung erfasst. 
+- **Senden dringender Nachrichten mithilfe von Prioritäts Benachrichtigungen** Wenn Sie diese Option aktivieren, können Benutzer eine Nachricht senden, die Prioritäts Benachrichtigungen verwendet. Prioritätsbenachrichtigungen informieren Benutzer alle 2 Minuten für einen Zeitraum von 20 Minuten, oder bis die Nachricht vom Empfänger abgeholt und gelesen wird, um die Wahrscheinlichkeit einer zeitnahen Bearbeitung zu erhöhen.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **Erstellen von Audio-Nachrichten** 
+  > [!Important]
+  > Audionachrichten werden in eDiscovery-Berichten nicht erfasst. 
     - **Erlaubt in Chats und Kanälen** Das bedeutet, dass Benutzer Audio-Nachrichten sowohl in Chats als auch in Kanälen hinterlassen können.
     - **Nur in Chats zulässig** Das bedeutet, dass Benutzer Audionachrichten in Chats, aber nicht in Kanälen hinterlassen können.
     - **Deaktiviert** Das bedeutet, dass Benutzer keine Audionachrichten in Chats oder Kanälen erstellen können.  
