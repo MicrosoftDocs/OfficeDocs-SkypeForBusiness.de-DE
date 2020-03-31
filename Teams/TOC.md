@@ -629,6 +629,7 @@
 ### [Erste Schritte mit Remote-Schulungen](remote-learning-edu.md)
 ### [Zuweisen von Richtlinien zu großen Benutzergruppen](batch-policy-assignment-edu.md)
 ### [Teams-Lizenzierung für Bildungseinrichtungen](teams-edu-licensing.md)
+### [Anleitungen zu geringer Bandbreite für Administratoren in Bildungseinrichtungen](edu-remote-low-bandwidth.md)
 ### [Aufgaben in Teams für Bildungseinrichtungen](expand-teams-across-your-org/assignments-in-teams.md)
 ### [Teams-Ressourcen für Administratoren in Bildungseinrichtungen](resources-teams-edu.md)
 ### [Microsoft Teams-Richtlinienpakete für EDU-Administratoren](policy-packages-edu.md)
