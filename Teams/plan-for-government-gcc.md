@@ -1,7 +1,7 @@
 ---
 title: Planen von Microsoft 365 Government – GCC-Bereitstellungen – Microsoft Teams
 author: lolajacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,16 +18,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb36e9decf7fba80250dce1035187b94198bc86d
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: be3afe64ba45761f61e68c04a812bffe0129cef2
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053608"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079457"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan für Microsoft 365 Government-gcc-Bereitstellungen
 
-Diese Anleitung richtet sich an IT-Experten, die Bereitstellungen von Office 365 in US-Bundes-, bundesstaatlichen, lokalen, Stammes-oder Gebietskörperschaften oder anderen Entitäten führen, die Daten verarbeiten, die behördlichen Vorschriften und Anforderungen unterliegen, wobei die Verwendung von Microsoft 365 Government-gcc ist geeignet, diese Anforderungen zu erfüllen. Neuer März 26, 2020: verpassen Sie nicht unseren downloadbaren [schnell Start Leit Faden für gcc](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true).
+Diese Anleitung richtet sich an IT-Experten, die Bereitstellungen von Office 365 in den US-Bundes-, bundesstaatlichen, lokalen, Stammes-oder Gebietskörperschaften oder anderen Entitäten steuern, die Daten verarbeiten, die behördlichen Vorschriften und Anforderungen unterliegen, wobei die Verwendung von Microsoft 365 Government-gcc geeignet ist, diese Anforderungen zu erfüllen. Neuer März 26, 2020: verpassen Sie nicht unseren downloadbaren [schnell Start Leit Faden für gcc](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Quick-Start-Guide-for-GCC.pdf?raw=true).
 
 > [!IMPORTANT]
 > Microsoft Teams erlebt aufgrund der Coronavirus (COVID-19)-Pandemie eine enorme Spitze bei Online-anrufen und Audio/Videokonferenzen.<br/>
@@ -82,75 +82,11 @@ Wir empfehlen, dass Sie sich Zeit nehmen, um Ihre [Administrator-und Sicherheits
 |-----------|------------|
 | ![Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob Sie die standardmäßigen Sicherheitseinstellungen für Microsoft 365 Government-gcc ändern möchten, um die Auswirkungen von Änderungen, die Sie möglicherweise vornehmen, zunächst zu verstehen.</li></ul> |
 
-## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Schritt 4: Sie wissen, welche Funktionen zurzeit nicht verfügbar oder standardmäßig deaktiviert sind. 
+## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Schritt 4: Sie wissen, welche Funktionen zurzeit nicht verfügbar oder standardmäßig deaktiviert sind.
 
 Um den Anforderungen unserer Government Cloud-Kunden gerecht zu werden, gibt es einige Unterschiede zwischen den Microsoft 365 Government-gcc-und Enterprise-Plänen. Informationen zu den verfügbaren Features finden Sie in der folgenden Tabelle.
 
-|                             | Feature                     | GCC            |
-|-----------------------------|-----------------------------|----------------|
-| Basis | Anmeldung | Verfügbar |
-| | Anwesenheit | Verfügbar |
-| | Einheitliche Anwesenheitsinformationen (Skype for Business und Teams Unified) | Verfügbar |
-| Aktivität | Feed | Verfügbar |
-|  | Meine Aktivitäten | Verfügbar |
-| Chat | Unterhaltung | Verfügbar |
-| | Dateien | Verfügbar |
-| | Organigramm | Verfügbar |
-| | Aktivität | Verfügbar |
-| | Interop (1:1 Teams – Skype for Business-Chat) | Verfügbar |
-| Teams | Kanal Nachricht | Verfügbar |
-| | Kanaldateien | Verfügbar |
-| | OneNote-Registerkarte | Auf dem Government-Rückstand |
-| | Senden eines Kanals per e-Mail | Nicht verfügbar |
-| | Mitglied hinzufügen | Verfügbar |
-| | Gastzugriff | Verfügbar |
-| Besprechungen | Besprechung planen | Verfügbar |
-| | Teilnehmen an einer Besprechung | Verfügbar |
-| | VoIP-Besprechung | Verfügbar |
-| | Desktopfreigabe | Verfügbar |
-| | Geben und übernehmen der Steuerung in der Freigabe | Verfügbar |
-| | Verbinden von einem Konferenzraum | Verfügbar |
-| | Anonyme Verknüpfung | Verfügbar |
-| | Cloud-Aufzeichnung | Verfügbar |
-| | Besprechungsnotizen | Verfügbar |
-| | Liveereignisse | Verfügbar |
-| | Verbund Besprechungen | Verfügbar |
-| | Surface Hub-Unterstützung | Verfügbar |
-| Anrufe | Kontakte | Verfügbar |
-| | Verlauf | Verfügbar |
-| | Voicemail | Verfügbar |
-| | VoIP-Anruf | Verfügbar |
-| | Skype for Business – Teams anrufen | Verfügbar |
-| | Anrufpläne | Verfügbar |
-| | Audiokonferenzen (dadurch, dass Besprechungsteilnehmer über PSTN beitreten können) | Verfügbar |
-| | Microsoft Phone-System Direktes Routing | Verfügbar |
-| | Lobby für PSTN-Anrufer | Verfügbar |
-| | Anrufwarteschlange | Verfügbar |
-| | Unterstützung von Boss und Stellvertretung | Verfügbar |
-| | Beratende und sichere Übertragung | Verfügbar |
-| | Durchbruch nicht stören | Verfügbar |
-| | Markanter Ring | Verfügbar |
-| | 1:1-Gruppen-Anruf Eskalation mit Teams, Skype for Business und PSTN-Teilnehmern | Verfügbar |
-| | Weiterleiten an Gruppe | Verfügbar |
-| | Übertragung an PSTN-Anruf | Verfügbar |
-| | Anrufpläne für Notrufe | Verfügbar |
-| | Unterstützung für vorhandene zertifizierte SIP-Telefone | Verfügbar |
-| | USB-HID | Verfügbar |
-| | eDiscovery für Anrufe und Besprechungen | Verfügbar |
-| | Automatische Telefonzentrale der Organisation | Verfügbar |
-| | Support für Skype-Nutzer – Teams anrufen | Verfügbar |
-| Dateien | Jüngsten | Verfügbar |
-| | Microsoft Teams | Verfügbar |
-| Store | App Store | Verfügbar |
-| Suche | Meldungen | Verfügbar |
-| | Kontakte | Verfügbar |
-| | Dateien | Verfügbar |
-| | Schrägstrich Befehle | Verfügbar |
-| Compliance | Kompatibilitäts Inhaltssuche | Verfügbar |
-| | Aufbewahrungs | Verfügbar |
-| | Überwachungsprotokoll Suche | Verfügbar |
-| | Rechtliche Aufbewahrung | Verfügbar |
-| | eDiscovery | Verfügbar |
+[Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 > [!Note]
 > Sobald andere Arbeitslasten in der gcc-Cloud vollständig verfügbar sind, werden Sie in Teams verfügbar, wenn alle zusätzlichen Integrationsarbeiten abgeschlossen sind.

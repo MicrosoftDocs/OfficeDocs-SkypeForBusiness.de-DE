@@ -1,7 +1,7 @@
 ---
 title: Planen von Microsoft 365 Government – DoD-Bereitstellungen – Microsoft Teams
 author: lolajacobsen
-ms.author: lolaj
+ms.author: heidip
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 12d9350437867b04a181e62e8b23bb6ed78d8fbc
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 82c7c8625ca5fcdab7325cf74fcde0c60049da07
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161736"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079447"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan für Microsoft 365 Government-DoD-Bereitstellungen
 
-Diese Anleitung richtet sich an IT-Experten, die Bereitstellungen von Office 365 in US-amerikanischen Bundesbehörden oder anderen Entitäten führen, die Daten verarbeiten, die behördlichen Vorschriften und Anforderungen unterliegen, wobei die Verwendung von Microsoft 365 Government – DoD geeignet ist, Diese Anforderungen erfüllen.
+Diese Anleitung richtet sich an IT-Experten, die Bereitstellungen von Office 365 in US-amerikanischen Bundesbehörden oder anderen Entitäten führen, die Daten verarbeiten, die behördlichen Vorschriften und Anforderungen unterliegen, wobei die Verwendung von Microsoft 365 Government – DoD geeignet ist, diese Anforderungen zu erfüllen.
 
 > [!NOTE]
 > Wenn Ihre Organisation die Berechtigungsanforderungen von Microsoft 365 Government – DoD bereits erfüllt und in das Programm übernommen und akzeptiert hat, können Sie die Schritte 1 und 2 überspringen und direkt zu Schritt 3 wechseln.
@@ -67,82 +67,14 @@ Wir empfehlen, dass Sie sich Zeit nehmen, um Ihre [Administrator-und Sicherheits
 
 |    |     |
 |-----------|------------|
-| ![Ein Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob Sie die Standardsicherheitseinstellungen für Microsoft 365 Government-DoD ändern müssen, um zunächst die Auswirkungen von Änderungen zu verstehen, die Sie möglicherweise vornehmen.</li></ul> |
+| ![Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob Sie die Standardsicherheitseinstellungen für Microsoft 365 Government-DoD ändern müssen, um zunächst die Auswirkungen von Änderungen zu verstehen, die Sie möglicherweise vornehmen.</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---dod"></a>Schritt 4: Grundlegendes zu den Teamfunktionen, die derzeit in Microsoft 365 Government-DoD verfügbar sind
 
 Um den Anforderungen unserer Government Cloud-Kunden gerecht zu werden, gibt es einige Unterschiede zwischen den Teams in Microsoft 365 Government-DoD und Teams in den Enterprise-Plänen. Informationen zu den verfügbaren Features finden Sie in der folgenden Tabelle.
 
-|                             | Feature                     | DoD       |
-|-----------------------------|-----------------------------|----------------|
-| Basis | Anmeldung | Verfügbar |
-| | Anwesenheit | Verfügbar |
-| | Einheitliche Anwesenheitsinformationen (Skype for Business und Teams Unified) | Auf dem Government-Rückstand |
-| | Linux-Client | Auf dem Government-Rückstand |
-| Aktivität | Feed | Verfügbar |
-|  | Meine Aktivitäten | Verfügbar |
-| Chat | Unterhaltung | Verfügbar |
-| | Dateien | Verfügbar |
-| | Organigramm | Verfügbar |
-| | Aktivität | Verfügbar |
-| | Interop (1:1 Teams – Skype for Business-Chat) | Auf dem Government-Rückstand |
-| Teams | Kanal Nachricht | Verfügbar |
-| | Kanaldateien | Verfügbar |
-| | OneNote-Registerkarte | Auf dem Government-Rückstand |
-| | Senden eines Kanals per e-Mail | Nicht verfügbar |
-| | Mitglied hinzufügen | Verfügbar |
-| | Gastzugriff | Auf dem Government-Rückstand |
-| Besprechungen | Besprechung planen | Verfügbar |
-| | Teilnehmen an einer Besprechung | Verfügbar |
-| | VoIP-Besprechung | Verfügbar |
-| | Desktopfreigabe | Verfügbar |
-| | Geben und übernehmen der Steuerung in der Freigabe | Verfügbar |
-| | Verbinden von einem Konferenzraum | Verfügbar |
-| | Cloud-Aufzeichnung | Auf dem Government-Rückstand |
-| | Besprechungsnotizen | Verfügbar |
-| | Broadcast Besprechungen | Auf dem Government-Rückstand |
-| | Intra-Cloud (DoD to DoD)-Verbund Besprechungen | Verfügbar |
-| | Surface Hub-Unterstützung | Auf dem Government-Rückstand |
-| Anrufe | Kontakte | Verfügbar |
-| | Verlauf | Verfügbar |
-| | Voicemail | Verfügbar |
-| | VoIP-Anruf | Verfügbar |
-| | Skype for Business – Teams anrufen | Verfügbar |
-| | Anrufpläne | Nicht verfügbar |
-| | Audiokonferenzen (dadurch, dass Besprechungsteilnehmer über PSTN beitreten können) | Verfügbar |
-| | Microsoft Phone-System Direktes Routing | Auf dem Government-Rückstand |
-| | Lobby für PSTN-Anrufer | Auf dem Government-Rückstand |
-| | Anrufwarteschlange | Auf dem Government-Rückstand |
-| | Unterstützung von Boss und Stellvertretung | Auf dem Government-Rückstand |
-| | Beratende und sichere Übertragung | Auf dem Government-Rückstand |
-| | Durchbruch nicht stören | Auf dem Government-Rückstand |
-| | Markanter Ring | Auf dem Government-Rückstand |
-| | 1:1-Gruppen-Anruf Eskalation mit Teams, Skype for Business und PSTN-Teilnehmern | Auf dem Government-Rückstand |
-| | Weiterleiten an Gruppe | Auf dem Government-Rückstand |
-| | Übertragung an PSTN-Anruf | Auf dem Government-Rückstand |
-| | Anrufpläne für Notrufe | Auf dem Government-Rückstand |
-| | Unterstützung für vorhandene zertifizierte SIP-Telefone | Auf dem Government-Rückstand |
-| | USB-HID | Verfügbar |
-| | eDiscovery für Anrufe und Besprechungen | Verfügbar |
-| | Automatische Telefonzentrale der Organisation | Auf dem Government-Rückstand |
-| | Support für Skype-Nutzer – Teams anrufen | Nicht verfügbar |
-| Dateien | Jüngsten | Verfügbar |
-| | Microsoft Teams | Verfügbar |
-| Speichern | App Store | Nicht verfügbar |
-| Suche | Meldungen | Verfügbar |
-| | Kontakte | Verfügbar |
-| | Dateien | Verfügbar |
-| | Schrägstrich Befehle | Verfügbar |
-| Compliance | Kompatibilitäts Inhaltssuche | Verfügbar |
-| | Aufbewahrungs | Verfügbar |
-| | Überwachungsprotokoll Suche | Verfügbar |
-| | Rechtliche Aufbewahrung | Verfügbar |
-| | eDiscovery | Verfügbar |
-
-|    |     |
-|-----------|------------|
-| ![Ein Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob der Featuresatz für Teams die Anforderungen Ihrer Organisation erfüllt.</li></ul> |
+[Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)
 
 ## <a name="step-5-plan-for-governance"></a>Schritt 5: Plan für Governance
 
