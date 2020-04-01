@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Informieren Sie sich über die Faktoren, die Sie berücksichtigen sollten, bevor Sie Liveereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 816cfb3c971621a367dcf81d1ec555e9735bda9d
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: fac7ca633985a030fd611578466b52912cd3b445
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983861"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096820"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -89,12 +89,12 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 |Produzentenclient unter Windows |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
 |Produzentenclient auf Mac |X  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
 |Teilnehmeranzahl in Produzenten-UI |X  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
-|Mehrere Referenten zulässig |&#x2714; (Skype for Business) |&#x2714; (Teams) |–  |
-|Referenten während der Sitzung einladen |&#x2714; (Skype for Business) |X |– |
-|Referenten über Web und Mobilgerät teilnehmen |&#x2714; (Skype for Business)  |X |– |
-|Verbund- & Gastreferenten/teilnehmer |&#x2714; (Skype for Business)  | (in Kürze verfügbar) |– |
-|Referent – Telefonfestnetz (PSTN)-Zugang |X |&#x2714; (Teams) |– |
-|Bildschirm präsentieren |X |&#x2714; (Teams) |– |
+|Mehrere Referenten zulässig |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/A  |
+|Referenten während der Sitzung einladen |&#x2714; (Skype for Business) |X |N/A |
+|Referenten über Web und Mobilgerät teilnehmen |&#x2714; (Skype for Business)  |X |N/A |
+|Verbund- & Gastreferenten/teilnehmer |&#x2714; (Skype for Business)  | &#x2714; (Teams)  |N/A |
+|Referent – Telefonfestnetz (PSTN)-Zugang |X |&#x2714; (Teams) |N/A |
+|Bildschirm präsentieren |X |&#x2714; (Teams) |N/A |
 |PowerPoint präsentieren (PPT-Freigabe) |&#x2714; |X (möglich über Bildschirmfreigabe) |– |
 |Aufzeichnung einer cloudbasierten Besprechung |&#x2714; |&#x2714; |&#x2714; |
 |Automatische Veröffentlichung der Aufzeichnung in Stream |X |X |&#x2714; |

@@ -16,19 +16,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8fc2a66e2414350a56874583af6a00f688450f0e
-ms.sourcegitcommit: 996ae0d36ae1bcb3978c865bb296d8eccf48598e
+ms.openlocfilehash: 8cee6937a1bdc2bef6d2184066cb32a4aa94d8e6
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43068517"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096850"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Einrichten der Funktion „Rückruf“ für Ihre Benutzer
 
 In Microsoft Teams bietet die Funktion " **anrufen** " Benutzern eine Möglichkeit, den Audioteil einer Besprechung per Telefon anzunehmen. Dies ist praktisch in Szenarien, in denen die Verwendung eines Computers für Audio möglicherweise nicht möglich ist. Benutzer erhalten den Audioteil der Besprechung über Ihr Mobiltelefon oder Ihre Festnetz-und den Inhaltsbereich der Besprechung&mdash;, beispielsweise, wenn ein anderer Besprechungsteilnehmer seinen Bildschirm freigibt&mdash;oder ein Video über seinen Computer abspielt.
 
 > [!IMPORTANT]
-> Während der Dauer des COVID-19-Ausbruchs empfehlen wir, dass Benutzer an Besprechungen teilnehmen, indem Sie auf die Schaltfläche an **Teams-Besprechung teilnehmen** klicken, anstatt sich über die PSTN-Konferenznummern oder mithilfe von " **anrufen unter**" anzuwählen. Auf diese Weise wird die Audioqualität in Zeiten gewährleistet, in denen das PSTN-Netzwerk mit einem hohen Besprechungs Volumen Überlastung verursacht.
+> Während der Dauer des COVID-19-Ausbruchs empfehlen wir, dass Benutzer an Besprechungen teilnehmen, indem Sie auf die Schaltfläche an **Teams-Besprechung teilnehmen** klicken, anstatt sich über die PSTN-Konferenznummern oder mithilfe von " **anrufen unter**</strong>" anzuwählen. Dies ist in erster Linie auf die Überlastung der Telefonie-Infrastrukturen von Ländern zurückzuführen, die von COVID-19 betroffen sind. Durch die Vermeidung von PSTN-anrufen werden Sie wahrscheinlich eine bessere Audioqualität erleben. 
 
 ## <a name="the-user-experience"></a>Die Benutzeroberfläche
 

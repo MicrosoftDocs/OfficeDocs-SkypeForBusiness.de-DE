@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9097dfc43ca0f70d37b0051e6b0e10283da26c3
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: e2c918a8276be2eeab0a125a1661b70b42c6b069
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033389"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43097000"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Aufbewahrungsrichtlinien in Microsoft Teams
 
@@ -82,7 +82,7 @@ Hier einige Überlegungen und Einschränkungen, die beim Arbeiten mit den Aufbew
 
 - Teams unterstützt keine erweiterten Aufbewahrungseinstellungen, z. B. die Möglichkeit, eine Richtlinie auf Inhalte anzuwenden, die bestimmte Stichwörter oder vertrauliche Informationen enthalten. Aktuell gelten Aufbewahrungsrichtlinien in Teams für alle Inhalte in Chat- und/oder Kanalnachrichten.
 
-- Es kann bis zu drei Tage dauern, bis abgelaufene Nachrichten in Microsoft Teams gelöscht sind. Eine Teams-Aufbewahrungsrichtlinie löscht Chat- und Kanalnachrichten, wenn der entsprechende Aufbewahrungszeitraum abgelaufen ist. Es kann jedoch bis zu drei Tage dauern, bis diese Nachrichten bereinigt und dauerhaft gelöscht sind. Außerdem können Chat- und Kanalnachrichten mit eDiscovery-Tools zwischen dem Ablauf des Aufbewahrungszeitraums und dem Zeitraum nach deren dauerhafter Löschung durchsucht werden.
+- Teams können bis zu drei bis sieben Tage dauern, bis abgelaufene Nachrichten bereinigt wurden. Eine Teams-Aufbewahrungsrichtlinie löscht Chat- und Kanalnachrichten, wenn der entsprechende Aufbewahrungszeitraum abgelaufen ist. Allerdings kann es bis zu drei bis sieben Tage dauern, diese Nachrichten zu bereinigen und endgültig zu löschen. Außerdem können Chat- und Kanalnachrichten mit eDiscovery-Tools zwischen dem Ablauf des Aufbewahrungszeitraums und dem Zeitraum nach deren dauerhafter Löschung durchsucht werden.
 
 ### <a name="multiple-retention-policies-and-the-principles-of-retention"></a>Mehrere Aufbewahrungsrichtlinien und die Grundsätze der Aufbewahrung
 

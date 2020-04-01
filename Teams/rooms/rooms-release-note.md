@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räumen erläutert.
-ms.openlocfilehash: 6ecc038658b8178530833ae4f8964bdfc733be84
-ms.sourcegitcommit: bc2e0f6f2ed3802ecc67275594db221c61824458
+ms.openlocfilehash: 330425650f17fa8782105616371d3c16789d1db8
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42398193"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096990"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -28,6 +28,7 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räum
 
 |Release |Veröffentlicht in <br/> Microsoft Store |
 |--- |--- |
+|4.4.25.0 |03/31/2020 |
 |4.3.42.0 |03/02/2020 |
 |4.3.33.0 |1/10/2020 |
 |4.3.23.0 |12/13/2019 |
@@ -60,6 +61,17 @@ In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räum
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Einführung in Microsoft Teams Rooms und Problembehebung
+### <a name="44250-03312020"></a>4.4.25.0 (03/31/2020)
+
+In diesem Update eingeführt:
+
+- Moderne Authentifizierungsunterstützung für Exchange und Skype for Business
+- Unterstützung für dynamische Notrufe für Teams (erforderliche und freigegebene Service Komponenten über Teams-Client klingelt)
+- Möglichkeit zum Deaktivieren von doppelten Inhalten außerhalb der Besprechung für duale Anzeige Räume mithilfe von XML
+- Begrüßungsbildschirm der Anwendung
+- Einstellung für die automatische Antwort zur Verbesserung der Näherungs basierter Besprechungsteilnahme 
+- Hinweise zu Open-Source-Software (OSS) in den Geräteeinstellungen
+
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 
 In diesem Update eingeführt:
