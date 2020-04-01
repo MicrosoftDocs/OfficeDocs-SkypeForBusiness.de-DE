@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um die Remote-Mitarbeitern in Ihrer behördlichen Organisation dabei zu unterstützen, mit Microsoft Teams produktiv zu arbeiten, insbesondere wenn sie als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) von zu Hause aus arbeiten (Work from home – WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ba76e667b7dc5aeb3ae83b2d2a19d5e4da5d653
-ms.sourcegitcommit: a2b2ae17a35f530f797504bb85b44f1a0f561a7d
+ms.openlocfilehash: 35bd251b4b8ef6a13263148c5fbb2245256dad3f
+ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "42983844"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43079387"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Unterstützung von Remote-Mitarbeitern von Behörden in Microsoft Teams
 
@@ -57,7 +57,7 @@ Sind Sie bereit für die Bereitstellung von Teams für Ihre Benutzer? Sie finden
 
 Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren ersten Schritten zu unterstützen:
 
-  - Laden Sie das **[Schnellstarthandbuch für Behörden](https:aka.ms/quickstartgov)** herunter, um die Grundlagen von Teams kennenzulernen.
+  - Laden Sie das **[Schnellstarthandbuch für Behörden](https://aka.ms/quickstartgov)** herunter, um die Grundlagen von Teams kennenzulernen.
 
   - Sehen Sie sich die **[Kurzen Videos für den Schnellstart](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d?wt.mc_id=otc_microsoft_teams)** an, um Schritt-für-Schritt durch Teams geleitet zu werden, sowie die **[Besprechungsvideos](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)**, um zu erfahren, wie Sie Besprechungen in Teams verwenden können.
 
