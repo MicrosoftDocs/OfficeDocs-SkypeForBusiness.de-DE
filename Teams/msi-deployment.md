@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 084f6d4587bc279c4387cf44b8ed29d38d51d4a6
-ms.sourcegitcommit: 613665c866f6fd0febfa6e26ad718241cdfbb207
-ms.translationtype: HT
+ms.openlocfilehash: fe158c1f6a6d8ff7fb830408657ed2deae13c163
+ms.sourcegitcommit: 482050a77a85aeb8dae52f86c9344023487e1b70
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42937599"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113148"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installieren von Microsoft Teams mit Microsoft Endpoint Configuration Manager
 
@@ -80,9 +80,13 @@ Umfassende Anleitungen zum Bereitstellen der Teams-Desktop-App auf VDI finden Si
 
 Wenn ein Benutzer Microsoft Teams in seinem Benutzerprofil deinstalliert, erkennt das MSI-Installationsprogramm, dass der Benutzer die Microsoft Teams-App deinstalliert hat, und installiert Microsoft Teams für dieses Benutzerprofil nicht mehr. Um Microsoft Teams für diesen Benutzer auf einem bestimmten Computer, auf dem Microsoft Teams deinstalliert wurde, erneut bereitzustellen, gehen Sie so vor:
 
-1. Deinstallieren Sie die installierte Microsoft Teams-App für alle Benutzerprofile.
-2. Löschen Sie nach der Deinstallation rekursiv das Verzeichnis unter `%localappdata%\Microsoft\Teams\`.
-3. Stellen Sie das MSI-Paket auf dem entsprechenden Computer erneut bereit.
+> [!IMPORTANT]
+> Die nächsten Schritte enthalten Informationen zum Ändern der Registrierung. Stellen Sie sicher, dass Sie die Registrierung sichern, bevor Sie Sie ändern, und dass Sie wissen, wie die Registrierung wiederhergestellt werden kann, wenn ein Problem auftritt. Weitere Informationen dazu, wie Sie die Registrierung sichern, wiederherstellen und ändern können, finden Sie unter [Windows-Registrierungsinformationen für erfahrene Benutzer](https://support.microsoft.com/help/256986).
+
+1. Deinstallieren Sie die installierte Microsoft Teams-App für alle Benutzerprofile. Weitere Informationen finden Sie unter [Deinstallieren von Microsoft Teams](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop).
+2. Löschen Sie das Verzeichnis rekursiv unter `%localappdata%\Microsoft\Teams\`.
+3. Löschen Sie `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` den Registrierungswert.
+4. Stellen Sie das MSI-Paket auf dem entsprechenden Computer erneut bereit.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Verhindern, dass Microsoft Teams nach der Installation automatisch gestartet wird
 
