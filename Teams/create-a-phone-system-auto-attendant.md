@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Cloud-Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: b89f2b439cf79cf90915c61771bb5a08ef27db99
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 9f166e8626d799cb95a447b453663b60079b0704
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824808"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43102087"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
 
@@ -220,7 +220,12 @@ Wenn Sie **trennen**auswählen, wird der Anrufer nach der Wiedergabe der Ansage 
 
 > [!IMPORTANT]
 > Beachten Sie bitte Folgendes:
->- Benutzer, die Sie für Dial by Extension zur Verfügung stellen möchten, müssen eine Durchwahl angeben, die im [Microsoft 365 Admin Center](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)als Teil Ihrer Telefonnummer oder Mobiltelefonnummer angegeben ist.  Das erforderliche Format, um die Erweiterung in das Feld Benutzer Telefonnummer einzugeben, ist entweder `+<phonenumber>;ext=<extension>` oder `x<extension>`.
+>- Benutzer, die Sie für Dial by Extension zur Verfügung stellen möchten, müssen über eine Erweiterung verfügen, die als Teil eines der folgenden Telefon Attribute angegeben ist, die in Active Directory oder Azure Active Directory [Microsoft 365 Admin Center](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users)definiert sind.
+>    - HomePhone
+>    - Mobil-Handy
+>    - TelephoneNumber/Telefonnummer
+>    - OtherTelephone
+>- Das erforderliche Format, um die Erweiterung in das Feld Benutzer Telefonnummer einzugeben, ist entweder `+<phonenumber>;ext=<extension>` oder `x<extension>`.
 >- Das Zuweisen einer Erweiterung im Team Admin Center wird derzeit nicht unterstützt. Sie müssen entweder den Befehl " [MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) PowerShell" oder das Microsoft 365 Admin Center verwenden.
 >- Es kann bis zu 12 Stunden dauern, bis Änderungen an den Aad-Telefon-und Handy-Attributen verfügbar sind.
 >- Bitte definieren Sie keine Erweiterung für die LineUri eines Benutzers. Dies wird derzeit nicht unterstützt.
@@ -273,7 +278,7 @@ Zunächst werden die Geschäftszeiten so festgelegt, dass Sie um 12:00 Uhr begin
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
-![Symbol der Zahl 6, eine Beschriftung im vorherigen Screenshot](media/teamscallout6.png) , um eine Unterbrechung einzurichten (beispielsweise eine Mittagspause), wählen Sie neue Zeit für diesen Wochentag **Hinzufügen** aus, um eine neue Tabellenzeile zu erstellen, und wählen Sie neue Anfangs-und Endzeit aus. Sie können innerhalb der Geschäftszeiten mehrere Pausen festlegen.
+![Symbol der Zahl 6, eine Legende im vorherigen Screenshot](media/teamscallout6.png) zum Einrichten einer Unterbrechung (beispielsweise eine Mittagspause), wählen Sie neue Zeit für diesen Wochentag **Hinzufügen** aus, um eine neue Tabellenzeile zu erstellen, und wählen Sie neue Start-und Endzeit aus. Sie können innerhalb der Geschäftszeiten mehrere Pausen festlegen.
 
 Die nach Stunden verfügbaren Optionen für den [Anruffluss](#call-flow) sind die gleichen wie die während der Geschäftszeiten verfügbaren Optionen. Scrollen Sie auf der Seite Informationseintrag nach unten, um die Anruffluss Optionen nach Stunden festzulegen.
 

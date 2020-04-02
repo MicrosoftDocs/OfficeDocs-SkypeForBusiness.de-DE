@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams Education
+title: Teams für Bildung
 description: Verwenden Sie diese Ressourcen, um Teams in ihrer gesamten Organisation optimal zu nutzen.
 layout: LandingPage
 ms.topic: landing-page
@@ -15,16 +15,16 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cdb9d63d6c14c6950f7066f5cb8b6fbd933703b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e929ce706ee2f59af5c74891ff66f643f2f14ee2
+ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008137"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43100092"
 ---
-# <a name="teams-for-education"></a>Microsoft Teams Education
+# <a name="teams-for-education"></a>Teams für Bildung
 
-Mit Teams können Lehrer und Dozenten gemeinschaftliche Klassenräume erstellen, in professionellen Lerngemeinschaften eine Verbindung herstellen und mit Schülern und Lehrern kommunizieren. Verwenden Sie die Administrator Ressourcen hier, um Ihnen beim erfolgreichen bereitstellen, übernehmen und Verwalten von Teams in Ihrer Bildungseinrichtung zu helfen. 
+Mit Teams können Pädagogen und Dozenten gemeinschaftliche Klassenräume erstellen, in professionellen Lerngemeinschaften eine Verbindung herstellen und mit Schülern und Pädagogen kommunizieren. Verwenden Sie die Administrator Ressourcen hier, um Ihnen beim erfolgreichen bereitstellen, übernehmen und Verwalten von Teams in Ihrer Bildungseinrichtung zu helfen. 
 
 <ul class="panelContent cardsFTitle">
     <li>
