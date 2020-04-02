@@ -14,12 +14,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel wird die Remoteverwaltung der Standardeinstellungen beschrieben, die von einem Microsoft Teams rooms-Gerät verwendet werden, einschließlich der Anwendung eines benutzerdefinierten Designs.
-ms.openlocfilehash: e33934dcabc420b7e84886f0301c343f5caf333a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a06b94bff350d07e540a80092bf7edbed33ddc8
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827396"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102316"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei
 
@@ -47,6 +47,7 @@ Sie können einen beliebigen Text-Editor verwenden, um eine Einstellungsdatei zu
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
     <DualScreenMode>true</DualScreenMode>
+    <DuplicateIngestDefault>false</DuplicateIngestDefault>
     <SendLogs>
         <EmailAddressForLogsAndFeedback>RanierConf@contoso.com</EmailAddressForLogsAndFeedback>
         <SendLogsAndFeedback>true</SendLogsAndFeedback>
@@ -78,36 +79,37 @@ Wenn ein Variablenwert vom falschen Typ ist, Elemente nicht in der richtigen Rei
 |Element|Typ|Ebene|Verwendung|
 |:--- |:--- |:--- |:--- |
 |\<SkypeSettings\> |Container für alle Elemente. ||Erforderlich. |
-| \<AutoScreenShare\>  |Boolescher #a0  |Erste #a0  | Falls zutreffend, ist die automatische Bildschirmfreigabe aktiviert.  |
-|\<HideMeetingName\> |Boolescher #a0  |Erste #a0  |Falls zutreffend, sind die Besprechungsnamen ausgeblendet. |
-|\<Benutzerkonto\> |Container |Erste #a0  |Container für Anmeldeinformationen-Parameter. Die Anmeldeadresse, die Exchange-Adresse oder die e-Mail-Adresse sind in der Regel<span></span>identisch, beispielsweise RanierConf @contoso. com. |
-|\<SkypeMeetingsEnabled\>  |Boolescher #a0  |Erste #a0  |Diese Option ist standardmäßig aktiviert. |
-|\<SkypeSignInAddress\> |Zeichenfolge #a0  ||Der Anmeldename für das SFB-oder Teams-Geräte Konto der Konsole. |
-|\<ExchangeAddress\> |Zeichenfolge #a0  ||Der Anmeldename für das Exchange-Gerätekonto der Konsole. Wenn der ExchangeAddress ausgelassen wird, wird der SkypeSignInAddress nicht automatisch wieder verwendet. |
-|\<Domain User Name\> |Zeichenfolge #a0  ||Die Domäne und der Benutzername für das Konsolengerät, zum Beispiel Seattle\RanierConf. |
+| \<AutoScreenShare\>  |Boolescher &#x2777;  |Erste &#x2776;  | Falls zutreffend, ist die automatische Bildschirmfreigabe aktiviert.  |
+|\<HideMeetingName\> |Boolescher &#x2777;  |Erste &#x2776;  |Falls zutreffend, sind die Besprechungsnamen ausgeblendet. |
+|\<Benutzerkonto\> |Container |Erste &#x2776;  |Container für Anmeldeinformationen-Parameter. Die Anmeldeadresse, die Exchange-Adresse oder die e-Mail-Adresse sind in der Regel<span></span>identisch, beispielsweise RanierConf @contoso. com. |
+|\<SkypeMeetingsEnabled\>  |Boolescher &#x2777;  |Erste &#x2776;  |Diese Option ist standardmäßig aktiviert. |
+|\<SkypeSignInAddress\> |Zeichenfolge &#x2778;  ||Der Anmeldename für das SFB-oder Teams-Geräte Konto der Konsole. |
+|\<ExchangeAddress\> |Zeichenfolge &#x2778;  ||Der Anmeldename für das Exchange-Gerätekonto der Konsole. Wenn der ExchangeAddress ausgelassen wird, wird der SkypeSignInAddress nicht automatisch wieder verwendet. |
+|\<Domain User Name\> |Zeichenfolge &#x2778;  ||Die Domäne und der Benutzername für das Konsolengerät, zum Beispiel Seattle\RanierConf. |
 |\<Kennwort\> |Zeichenfolge 3  || Der Kennwortparameter stimmt mit dem für die Kontoanmeldung für das Skype for Business-Gerät verwendeten Kennwort überein.   |
-| \<ConfigureDomain\>  |Zeichenfolge #a0  ||Sie können mehrere durch Kommata getrennte Domänen auflisten. |
-|\<TeamsMeetingsEnabled\> |Boolescher #a0  |Erste #a0  |Diese ist standardmäßig deaktiviert. <br/> <br/> Die XML-Datei wird als schlecht geformt betrachtet \<,\> Wenn\<sowohl\> SkypeMeetingsEnabled als auch TeamsMeetingsEnabled deaktiviert sind, es aber akzeptabel ist, dass beide Einstellungen gleichzeitig aktiviert sind. |
-|\<IsTeamsDefaultClient> |Boolescher #a0  |Erste #a0  |Diese ist standardmäßig deaktiviert. |
-|\<BluetoothAdvertisementEnabled> |Boolescher #a0  |Erste #a0  |Diese Option ist standardmäßig aktiviert. |
-|\<DualScreenMode\>  |Boolescher #a0  |Erste #a0  |Ist der Wert "true", ist der duale Bildschirm aktiviert. Andernfalls verwendet das Gerät den Single-Screen-Modus. |
-|\<SendLogs\> |Container |Erste #a0  ||
-|\<EmailAddressForLogsAndFeedback\> |Zeichenfolge #a0  || Legt eine optionale e-Mail-Adresse fest, an die Protokolle gesendet werden können, wenn das Fenster "Feedback senden" angezeigt wird. |
-|\<SendLogsAndFeedback\> |Boolescher #a0  || Falls zutreffend werden Protokolle an den Administrator gesendet. Falls zutreffend wird Feedback nur an den Administrator (nicht an die Protokolle) gesendet.  |
-| \<Geräte\>  |Container |Erste #a0  | Die Namen der verbundenen Audiogeräte in den untergeordneten Elementen stimmen mit den Werten in der Gerätemanager-App überein. Die Konfiguration kann ein Gerät enthalten, das derzeit nicht auf dem System vorhanden ist, wie zum Beispiel ein aktuelle nicht mit der Konsole verbundenes A/V-Gerät. Die Konfiguration würde für das entsprechende Gerät beibehalten.  |
-|\<MicrophoneForCommunication\> |Zeichenfolge #a0  ||Legt das Mikrofon fest, das in einer Konferenz als Aufnahmegerät verwendet wird. |
-|\<SpeakerForCommunication\> |Zeichenfolge #a0  ||Das als Lautsprecher für die Konferenz verwendete Gerät. Diese Einstellung wird verwendet, um das für einen Anruf verwendete Lautsprecher Gerät festzulegen. |
-|\<DefaultSpeaker\> |Zeichenfolge #a0  ||Gerät, das zum Abspielen von Audio aus einer HDMI-Erfassungsquelle verwendet wird.  |
-|\<ContentCameraId>  | Zeichenfolge #a0  | | Definieren Sie den instanzweg für die Kamera, die in Room so konfiguriert ist, dass analoge Whiteboard-Inhalte in einer Besprechung freigegeben werden. Weitere Informationen finden Sie unter [Suchen des USB-Instanzen Pfads der Inhalts Kamera](#locate-the-content-camera-usb-instance-path).|
-|\<ContentCameraInverted>  | Boolescher #a0 | | Geben Sie an, ob die Inhalts Kamera physisch auf den Kopf gestellt wird. Für Inhalts Kameras, die die automatische Drehung unterstützen, geben Sie false an. |
-|\<ContentCameraEnhancement>  | Boolescher #a0 | |Wenn Sie auf "true" (Standardeinstellung) festgelegt ist, wird das Bild der Inhalts Kamera Digital verbessert: der Whiteboard-Rand wird erkannt und ein geeigneter Zoom ausgewählt, frei Handlinien werden verbessert, und die Person, die auf dem Whiteboard schreibt, wird transparent gemacht.  <br><br> Auf "false" festlegen, wenn Sie einen unformatierten Videofeed an Besprechungsteilnehmer für Räume senden möchten, in denen ein Whiteboard nicht mit einem Stift gezeichnet wird, und stattdessen die Kamera verwendet wird, um Haftnotizen, Poster oder andere Medien anzuzeigen.  |
-| \<Design\>  |Container |Erste #a0  |Eines der Features, die mit einer XML-Datei angewendet werden können, ist ein benutzerdefiniertes Design für Ihre Organisation. Sie können einen Designnamen, ein Hintergrundbild und eine Farbe angeben. |
-|\<ThemeName\> |Zeichenfolge #a0  || Wird zum Identifizieren des Designs auf dem Client verwendet. Bei den Optionen für den Designnamen handelt es sich um "Standard" (eines der voreingestellten Designs) oder um "Benutzerdefiniert". <br/>  Benutzerdefinierte Designnamen verwenden immer den Namen *Custom*. Die Client-Benutzeroberfläche kann in der Konsole auf den Standardwert oder eine der Voreinstellungen eingestellt werden, doch die Verwendung eines benutzerdefinierten Designs muss von einem Administrator Remote eingerichtet werden. <br/>  Werkseitig eingestellte Designs enthalten:  <br/>  Standard <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  Wenn Sie das aktuelle Design deaktivieren möchten, verwenden Sie für den Designname "kein Design".  |
-|\<CustomThemeImageUrl\> |Zeichenfolge #a0  ||Erforderlich für ein benutzerdefiniertes Design, andernfalls optional. Geben Sie nur den Dateinamen ein.   |Weitere Informationen zum benutzerdefinierten Design Bild finden Sie im Abschnitt [benutzerdefinierte Design Bilder](xml-config-file.md#Themes) .
+| \<ConfigureDomain\>  |Zeichenfolge &#x2778;  ||Sie können mehrere durch Kommata getrennte Domänen auflisten. |
+|\<TeamsMeetingsEnabled\> |Boolescher &#x2777;  |Erste &#x2776;  |Diese ist standardmäßig deaktiviert. <br/> <br/> Die XML-Datei wird als schlecht geformt betrachtet \<,\> Wenn\<sowohl\> SkypeMeetingsEnabled als auch TeamsMeetingsEnabled deaktiviert sind, es aber akzeptabel ist, dass beide Einstellungen gleichzeitig aktiviert sind. |
+|\<IsTeamsDefaultClient> |Boolescher &#x2777;  |Erste &#x2776;  |Diese ist standardmäßig deaktiviert. |
+|\<BluetoothAdvertisementEnabled> |Boolescher &#x2777;  |Erste &#x2776;  |Diese Option ist standardmäßig aktiviert. |
+|\<DualScreenMode\>  |Boolescher &#x2777;  |Erste &#x2776;  |Ist der Wert "true", ist der duale Bildschirm aktiviert. Andernfalls verwendet das Gerät den Single-Screen-Modus. |
+| \<DuplicateIngestDefault\> |Boolescher &#x2777;  |Erste &#x2776; |Wenn "true" festgelegt ist, wird der Inhalt auf beiden Bildschirmen im dualen Bildschirm angezeigt, wenn die Besprechung nicht stattfindet. | 
+|\<SendLogs\> |Container |Erste &#x2776;  |  |
+|\<EmailAddressForLogsAndFeedback\> |Zeichenfolge &#x2778;  | | Legt eine optionale e-Mail-Adresse fest, an die Protokolle gesendet werden können, wenn das Fenster "Feedback senden" angezeigt wird. |
+|\<SendLogsAndFeedback\> |Boolescher &#x2777;  | | Falls zutreffend werden Protokolle an den Administrator gesendet. Falls zutreffend wird Feedback nur an den Administrator (nicht an die Protokolle) gesendet.  |
+| \<Geräte\>  |Container |Erste &#x2776;  | Die Namen der verbundenen Audiogeräte in den untergeordneten Elementen stimmen mit den Werten in der Gerätemanager-App überein. Die Konfiguration kann ein Gerät enthalten, das derzeit nicht auf dem System vorhanden ist, wie zum Beispiel ein aktuelle nicht mit der Konsole verbundenes A/V-Gerät. Die Konfiguration würde für das entsprechende Gerät beibehalten.  |
+|\<MicrophoneForCommunication\> |Zeichenfolge &#x2778;  ||Legt das Mikrofon fest, das in einer Konferenz als Aufnahmegerät verwendet wird. |
+|\<SpeakerForCommunication\> |Zeichenfolge &#x2778;  ||Das als Lautsprecher für die Konferenz verwendete Gerät. Diese Einstellung wird verwendet, um das für einen Anruf verwendete Lautsprecher Gerät festzulegen. |
+|\<DefaultSpeaker\> |Zeichenfolge &#x2778;  ||Gerät, das zum Abspielen von Audio aus einer HDMI-Erfassungsquelle verwendet wird.  |
+|\<ContentCameraId>  | Zeichenfolge &#x2778;  | | Definieren Sie den instanzweg für die Kamera, die in Room so konfiguriert ist, dass analoge Whiteboard-Inhalte in einer Besprechung freigegeben werden. Weitere Informationen finden Sie unter [Suchen des USB-Instanzen Pfads der Inhalts Kamera](#locate-the-content-camera-usb-instance-path).|
+|\<ContentCameraInverted>  | Boolescher &#x2777; | | Geben Sie an, ob die Inhalts Kamera physisch auf den Kopf gestellt wird. Für Inhalts Kameras, die die automatische Drehung unterstützen, geben Sie false an. |
+|\<ContentCameraEnhancement>  | Boolescher &#x2777; | |Wenn Sie auf "true" (Standardeinstellung) festgelegt ist, wird das Bild der Inhalts Kamera Digital verbessert: der Whiteboard-Rand wird erkannt und ein geeigneter Zoom ausgewählt, frei Handlinien werden verbessert, und die Person, die auf dem Whiteboard schreibt, wird transparent gemacht.  <br><br> Auf "false" festlegen, wenn Sie einen unformatierten Videofeed an Besprechungsteilnehmer für Räume senden möchten, in denen ein Whiteboard nicht mit einem Stift gezeichnet wird, und stattdessen die Kamera verwendet wird, um Haftnotizen, Poster oder andere Medien anzuzeigen.  |
+| \<Design\>  |Container |Erste &#x2776;  |Eines der Features, die mit einer XML-Datei angewendet werden können, ist ein benutzerdefiniertes Design für Ihre Organisation. Sie können einen Designnamen, ein Hintergrundbild und eine Farbe angeben. |
+|\<ThemeName\> |Zeichenfolge &#x2778;  || Wird zum Identifizieren des Designs auf dem Client verwendet. Bei den Optionen für den Designnamen handelt es sich um "Standard" (eines der voreingestellten Designs) oder um "Benutzerdefiniert". <br/>  Benutzerdefinierte Designnamen verwenden immer den Namen *Custom*. Die Client-Benutzeroberfläche kann in der Konsole auf den Standardwert oder eine der Voreinstellungen eingestellt werden, doch die Verwendung eines benutzerdefinierten Designs muss von einem Administrator Remote eingerichtet werden. <br/>  Werkseitig eingestellte Designs enthalten:  <br/>  Standard <br/>  Blue Wave <br/>  Digital Forest <br/>  Dreamcatcher <br/>  Limeade <br/>  Pixel Perfect <br/>  Roadmap <br/>  Sunset <br/>  Wenn Sie das aktuelle Design deaktivieren möchten, verwenden Sie für den Designname "kein Design".  |
+|\<CustomThemeImageUrl\> |Zeichenfolge &#x2778;  ||Erforderlich für ein benutzerdefiniertes Design, andernfalls optional. Geben Sie nur den Dateinamen ein.   |Weitere Informationen zum benutzerdefinierten Design Bild finden Sie im Abschnitt [benutzerdefinierte Design Bilder](xml-config-file.md#Themes) .
 |\<CustomThemeColor\> |Container ||Container für die \<Werte für\>" \<iscomponent" \<,\> "GreenComponent\>" und "BlueComponent". Diese Werte sind für ein benutzerdefiniertes Design erforderlich. |
 |\<Komponente\> |Byte (0-255) ||Stellt die rote Komponente dar. |
 |\<GreenComponent\> |Byte (0-255) ||Stellt die grüne Komponente dar. |
-|\<BlueComponent\> |Byte (0-255) ||Stellt die blaue Komponente dar. |
+|\<BlueComponent\> |Byte (0-255) ||Stellt die blaue Komponente dar. | 
 | | | |
 
 &#x2776; alle Elemente der ersten Ebene sind optional. Wenn ein Element der ersten Ebene ausgelassen wird, bleiben alle diesem Element untergeordneten Parameter auf dem Gerät unverändert.
@@ -147,7 +149,7 @@ So suchen Sie den Instanzen Pfad:
 4. Suchen Sie im **Geräte-Manager**den Knoten **Imaging Devices** , und suchen Sie die Inhalts Kamera.
 5. Klicken Sie mit der rechten Maustaste auf die Kamera, und öffnen Sie **Eigenschaften**.
 6. Wählen Sie die Registerkarte **Details** aus, und suchen Sie in der Dropdownliste die Eigenschaft **Geräteinstanzen Pfad** .
-7. Der angezeigte Wert ist der in der XML-Konfigurationsdatei zu definierende Device-Instanzen Pfad. Wenn Sie den Pfad in XML angeben, ersetzen Sie das kaufmännische und `&amp;`-Zeichen (#a0) durch.
+7. Der angezeigte Wert ist der in der XML-Konfigurationsdatei zu definierende Device-Instanzen Pfad. Wenn Sie den Pfad in XML angeben, ersetzen Sie das kaufmännische und `&amp;`-Zeichen (&) durch.
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Informieren Sie sich über die Faktoren, die Sie berücksichtigen sollten, bevor Sie Liveereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fac7ca633985a030fd611578466b52912cd3b445
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 95baeaf25600853b7d6a2b4e18c548d1998f6789
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096820"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102366"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -87,25 +87,25 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 |Zielgruppen-Engagement – Yammer |&#x2714; |&#x2714; (integrierte Lösung) |&#x2714; (integrierte Lösung) |
 |Zielgruppen-Engagement – Moderierte F & A |&#x2714;  |&#x2714; |&#x2714; |
 |Produzentenclient unter Windows |&#x2714; (Skype for Business) |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
-|Produzentenclient auf Mac |X  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
-|Teilnehmeranzahl in Produzenten-UI |X  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
-|Mehrere Referenten zulässig |&#x2714; (Skype for Business) |&#x2714; (Teams) |N/A  |
-|Referenten während der Sitzung einladen |&#x2714; (Skype for Business) |X |N/A |
-|Referenten über Web und Mobilgerät teilnehmen |&#x2714; (Skype for Business)  |X |N/A |
-|Verbund- & Gastreferenten/teilnehmer |&#x2714; (Skype for Business)  | &#x2714; (Teams)  |N/A |
-|Referent – Telefonfestnetz (PSTN)-Zugang |X |&#x2714; (Teams) |N/A |
-|Bildschirm präsentieren |X |&#x2714; (Teams) |N/A |
-|PowerPoint präsentieren (PPT-Freigabe) |&#x2714; |X (möglich über Bildschirmfreigabe) |– |
+|Produzentenclient auf Mac |&#x274C;  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
+|Teilnehmeranzahl in Produzenten-UI |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
+|Mehrere Referenten zulässig |&#x2714; (Skype for Business) |&#x2714; (Teams) |–  |
+|Referenten während der Sitzung einladen |&#x2714; (Skype for Business) |&#x274C; |N/A |
+|Referenten über Web und Mobilgerät teilnehmen |&#x2714; (Skype for Business)  |&#x274C; |N/A |
+|Verbund- & Gastreferenten/teilnehmer |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |– |
+|Referent – Telefonfestnetz (PSTN)-Zugang |&#x274C; |&#x2714; (Teams) |– |
+|Bildschirm präsentieren |&#x274C; |&#x2714; (Teams) |– |
+|PowerPoint präsentieren (PPT-Freigabe) |&#x2714; |&#x274C; (durch Bildschirmübertragung verringert) |– |
 |Aufzeichnung einer cloudbasierten Besprechung |&#x2714; |&#x2714; |&#x2714; |
-|Automatische Veröffentlichung der Aufzeichnung in Stream |X |X |&#x2714; |
-|Livebeschriftungen und Untertitel |&#x2714; |&#x2714; |X |
+|Automatische Veröffentlichung der Aufzeichnung in Stream |&#x274C; |&#x274C; |&#x2714; |
+|Livebeschriftungen und Untertitel |&#x2714; |&#x2714; |&#x274C; |
 |Beschriftungen in Aufzeichnungen von Liveereignissen |&#x2714; |&#x2714; |&#x2714; |
 |Teilnehmer-DVR-Steuerung (Pause, Rücklauf) |&#x2714; |&#x2714; |&#x2714; |
 |Partner eCDN-Unterstützung |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |&#x2714; (Hive, Kollective, Ramp) |
-|Nachträglich gesendeter Anwesenheitsbericht für Produzenten |&#x2714; |&#x2714; |X |
-|Teilnehmerstimmungsanalyse – Liveabstimmungen & -umfragen |&#x2714; (Microsoft Pulse) |X |X |
+|Nachträglich gesendeter Anwesenheitsbericht für Produzenten |&#x2714; |&#x2714; |&#x274C; |
+|Teilnehmerstimmungsanalyse – Liveabstimmungen & -umfragen |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
-<sup>1</sup> Die festgelegten Grenzen können geändert werden.<br/>
+<sup>1</sup> Die festgelegten Grenzen können geändert werden. Überprüfen Sie die [Grenzwerte und Spezifikationen für Teams](../limits-specifications-teams.md).<br/>
 <sup>2</sup> Sie können bis zu 250 Referenten und Produzenten in einem Live-Event haben, aber nur die letzten zehn, die sich in der Liste befanden, werden angezeigt.
 
 

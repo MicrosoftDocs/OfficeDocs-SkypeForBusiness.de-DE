@@ -14,16 +14,16 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
-ms.openlocfilehash: c20da0aaa42f9e11b8bb0aba3a1f9c0248c24c7b
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 9e07ac6f5f7ca477006dac703f7b3b8b2604c60b
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982118"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102336"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Anforderungen für Microsoft Teams-Räume
 
-Microsoft Teams-Räume Skalieren auf unterschiedliche Raumgrößen, indem Sie eine große Auswahl an zertifizierten Audio-und Video-Peripheriegeräten verwenden, die auf der Größe und Nutzung des Raums basieren. Durch die Auswahl des richtigen Core-Geräts und der richtigen Konsole, kombiniert mit Mikrofonen, Lautsprechern, Kameras und Displays, die für den jeweiligen Platz geeignet sind, können Sie Microsoft Teams-Räume in Räumen beliebiger Größe aus sehr kleinen Chatrooms in sehr großen Konferenzräumen bereitstellen. und Sitzungssäle.  Der vollständige Satz aller verfügbaren zertifizierten Audio-und Video-Peripheriegeräte, die für die Konfiguration Ihres Chatrooms verwendet werden können, finden Sie im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices).
+Microsoft Teams-Räume Skalieren auf unterschiedliche Raumgrößen, indem Sie eine große Auswahl an zertifizierten Audio-und Video-Peripheriegeräten verwenden, die auf der Größe und Nutzung des Raums basieren. Durch die Auswahl des richtigen Core-Geräts und der richtigen Konsole, kombiniert mit Mikrofonen, Lautsprechern, Kameras und Displays, die für den jeweiligen Platz geeignet sind, können Sie Microsoft Teams-Räume in Räumen beliebiger Größe aus sehr kleinen Chatrooms in sehr großen Konferenzräumen und Sitzungssälen bereitstellen.  Der vollständige Satz aller verfügbaren zertifizierten Audio-und Video-Peripheriegeräte, die für die Konfiguration Ihres Chatrooms verwendet werden können, finden Sie im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices).
 
 In diesem Artikel werden die Geräte Bereitstellungs-und Konfigurationsanforderungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
 
@@ -116,7 +116,8 @@ Diese Geräte sind in der [Produktpräsentation Room System Zubehör](https://pr
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Shure Intellimix P300-Audiokonferenz Prozessor](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 Table Array MIC](https://www.shure.com/en-US/products/microphones/mxa310) | 4,1 |
 |[Shure Intellimix P300 Audio-Conferening-Prozessor](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 mit Intellimix-decken-Array-Mikrofon](https://www.shure.com/en-US/products/microphones/mxa910) | 4,1|
-|[Biamp Tesira Fore AVB VT4 Fixed Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect decken 2-Mikrofon](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira Ex-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2:1.3.3 </br></br> Ex-UBT: 3.12.0.15 |  |
+|[Biamp Tesira Fore AVB VT4 Fixed Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect decken 2-Mikrofon](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira Ex-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2:1.3.3 </br></br> Ex-UBT: 3.12.0.15 |
+|[Bose ControlSpace Ex-440C DSP + </br>Bose P2600A AmpLink Verstärker +</br> Sennheiser TCC2 decken Mikrofon </br> + Bose EdgeMax EM180 Deckenlautsprecher](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose-DSP: 2,290  </br> P2600A: 1,160  </br> TCC2:1.4.2  |  |
 ||||||
 
 &Dagger;Kunden können entweder das Dante-Interface oder den von Biamp/Sennheiser für dieses Bundle empfohlenen Netzwerkschalter wählen.

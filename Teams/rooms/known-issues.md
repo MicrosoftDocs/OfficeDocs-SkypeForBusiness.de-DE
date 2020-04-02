@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Dieser Artikel erläutert die bekannten Probleme für Microsoft Teams Rooms nach Funktionsbereich.
-ms.openlocfilehash: 3fedfbb4fdce0626783d285825eb75c22e2e7a78
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: e0b22d55de5fcf2fd49cf795497f2cb26c1952cf
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826063"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102376"
 ---
 # <a name="known-issues"></a>Bekannte Probleme 
  
@@ -31,14 +31,14 @@ Dieser Artikel führt die bekannten Probleme für Microsoft Teams Rooms nach Fun
 | Problemtitel |  Verhalten \/ Symptom | Bekannte Problemumgehung | KB-Artikel |
 |  ---        |      ---             |   ---            | --- |
 |  App nicht mehr aktuell         |    Die Microsoft Teams Rooms-Konsole zeigt einen Fehler des Typs „Systemkonfiguration abgelaufen“ an.                |   [Verwenden Sie das Wiederherstellungstools für Microsoft Teams Rooms](recovery-tool.md)             |  Keine |
-
+|  Gerät auf nicht unterstützte Version von Windows 10 aktualisiert   |    Das Windows 10-Gerät wurde von Version 1803 auf Version 1809 aktualisiert, was nicht unterstützt wird. Die unterstützte Version ist 1903. |   Dies kann geschehen, wenn die Einstellung ["Gruppenrichtlinie" oder "MDM-Einstellung für DeferFeatureUpdatesPeriodinDays](https://docs.microsoft.com/windows/deployment/update/waas-configure-wufb) ", mit der Sie die Funktionsupdates für eine bestimmte Anzahl von Tagen verzögern können, auf den Höchstwert von 365 Tage festgelegt ist. <br><br> Windows 10, Version 1809, wird in Microsoft Teams-Räumen nicht unterstützt, während Version 1903 unterstützt wird. Ab dem 27. März 2020 ist Version 1809 jedoch mehr als 365 Tage alt. Wenn diese Einstellung nicht geändert wird, versucht Windows, Version 1809 zu installieren, was zu Problemen mit Microsoft Teams-Räumen führen kann.<br><br>Um dieses Problem zu vermeiden, **Entfernen Sie** alle Gruppenrichtlinien-oder MDM-Einstellungen, um Aktualisierungen zu verzögern. Dadurch kann Windows auf die neueste, unterstützte Betriebssystemversion aktualisieren. <br><br>**Wichtig** Die Gruppenrichtlinien-oder MDM-Einstellung muss **entfernt** (Links nicht konfiguriert) und **nicht auf 0 festgelegt**werden. Wenn die Richtlinie auf "0" gesetzt ist, übernimmt Windows die neueste verfügbare Version, die möglicherweise nicht unterstützt wird. |  Keine |
 
 <a name="OS-conflicts"> </a>  
 ## <a name="user-interface"></a>Benutzeroberfläche 
 
 | Problemtitel |  Verhalten \/ Symptom | Bekannte Problemumgehung | KB-Artikel |
 |  ---        |      ---             |   ---            | --- |
-|Virtuelle Tastatur fehlt   | Die virtuelle Tastatur wird nicht angezeigt, wenn Sie Informationen in Microsoft Teams Rooms eingeben müssen. Dieses Problem tritt nach der Installation des Windows 10 Creators Update (Version 1703) auf dem Surface Pro 4 auf, auf dem Microsoft Teams Rooms ausgeführt wird. | Um dieses Problem zu umgehen, öffnen Sie die virtuelle Tastatur manuell. Führen Sie hierzu folgende Schritte aus:<br><br> **1.** Halten Sie die Taskleiste gedrückt, und tippen Sie dann auf die Schaltfläche **Bildschirmtastatur anzeigen**. Ein Tastatursymbol sollte auf der rechten Seite der Taskleiste angezeigt werden. <br><br> **2.** Tippen Sie auf das Tastatursymbol, um die virtuelle Tastatur zu öffnen. | [KB4037694](https://support.microsoft.com/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
+|Virtuelle Tastatur fehlt   | Die virtuelle Tastatur wird nicht angezeigt, wenn Sie Informationen in Microsoft Teams Rooms eingeben müssen. Dieses Problem tritt in Windows 10, Version 1903, auf. | Installieren Sie 2020-04 Kumulatives Update für Windows 10, Version 1903 für x64-basierte Systeme, mithilfe von Windows-Updates.  | Keine | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>Hardware
@@ -69,9 +69,6 @@ Wenn Ihr Microsoft Teams rooms-Gerät die Vertrauensstellung für die Domäne ve
 Die 64-Bit-Version von Windows 10 Enterprise Anniversary Edition (Englisch, Version 1607) wird seit der Microsoft Teams Rooms-Version 3.0.12.0 nicht mehr unterstützt. 
 ***
 Microsoft Teams Rooms ist eine Multi-Window-Anwendung und erfordert ein Front-Room-Display, das mit dem HDMI-Anschluss des Geräts verbunden werden muss, damit die APP ordnungsgemäß funktioniert. Stellen Sie sicher, dass Sie entweder ein HDMI-Display angeschlossen haben oder einen Dummy-HDMI-Stecker verwenden, wenn Sie testen und noch kein Display gekauft haben.
-***
-Windows 10 1903 wird in Microsoft Teams rooms-Geräten von Crestron aufgrund von Problemen mit einem Grafiktreiber noch nicht angeboten.
-
 ***
 <a name="See"> </a>  
 ## <a name="see-also"></a>Siehe auch

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
-ms.openlocfilehash: c9987d05c5b057adf55791ffb2105d9ddb252722
-ms.sourcegitcommit: 98fcfc03c55917d0aca48b7bd97988f81e8930c1
+ms.openlocfilehash: 393bfaf6348bb5ebc8c46df011387961d95cccfa
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42559489"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102346"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
 
@@ -111,11 +111,21 @@ Trotz der Nutzung von Power BI wird nicht alle Power BI-Funktionen vom CQD-Conne
 
 3.  **Benutzerdefinierte visuelle Elemente –** Obwohl der CQD-Connector mit einer Reihe von benutzerdefinierten visuellen Elementen funktioniert, können wir die Kompatibilität mit allen benutzerdefinierten visuellen Elementen nicht garantieren. Viele benutzerdefinierte visuelle Elemente Vertrauen auf die Verwendung berechneter Spalten oder importierter Daten, die von DirectQuery-Konnektoren nicht unterstützt werden.
 
-4.  **Verweisen auf zwischengespeicherte Daten –** Power BI unterstützt derzeit keine Verweise auf zwischengespeicherte Daten von einem DirectQuery-Connector in irgendeiner Weise. Jeder Versuch, auf die Ergebnisse einer Abfrage zu verweisen, führt zu einer neuen Abfrage.
+4.  **Verweisen auf zwischengespeicherte Daten –** Power BI unterstützt derzeit keine Verweise auf zwischengespeicherte Daten von einem DirectQuery-Connector in irgendeiner Weise. Jeder Versuch, auf die Ergebnisse einer Abfrage zu verweisen, führt zu einer neuen Abfrage. 
 
 5.  **Relative Datenfilterung –** Wird im CQD-Connector unterstützt, jedoch nur mit den Dimensionen *Startzeit* und *Endzeit* . Obwohl die *Date* -Dimension möglicherweise die offensichtliche Wahl für die relative Datumsfilterung ist, wird *Datum* nicht als Datum-Uhrzeit-Objekt gespeichert und unterstützt daher keine relative Datumsfilterung in Power BI.
 
 Beachten Sie, dass sich diese Einschränkungen mit der endgültigen Version des Connectors wahrscheinlich nicht ändern, obwohl sich der Connector in der Vorschau befindet. Bei den meisten dieser Probleme handelt es sich entweder um Einschränkungen des DirectQuery-Connector-Designs in Power BI oder um ein grundlegendes Design des CQD-Datenmodells.
+
+## <a name="troubleshooting"></a>Problembehandlung
+
+### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>Ich versuche, die Datumsspalte als Datumsdaten Schnitt zu verwenden. Sobald ich den Datentyp dieser Spalte bis dato konvertiere, erhalte ich folgende Fehlermeldung:
+
+  **Die Daten für dieses Visual konnten nicht geladen**werden: OLE DB-oder ODBC-Fehler: [Ausdruck. Fehler] der Ausdruck konnte nicht in die Datenquelle gefaltet werden. Versuchen Sie es mit einem einfacheren Ausdruck. 
+
+Datumsdaten Schnitte werden vom Power BI-Connector nicht unterstützt. Wenn Sie einen Datumsbereich angeben möchten, wenden Sie zwei Filter auf den Bericht an, indem Sie einen Wert kleiner als und größer als Datum angeben.
+
+Wenn die Datumsangaben, die Sie anzeigen möchten, aktuell sind, verwenden Sie alternativ einen relativen Datumsfilter, um nur Daten für die letzten N Tage/Wochen/Monate anzuzeigen.
 
 ## <a name="error-codes"></a>Fehler Codes
 

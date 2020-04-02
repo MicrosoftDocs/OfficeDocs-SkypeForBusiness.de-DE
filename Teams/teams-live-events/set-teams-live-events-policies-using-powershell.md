@@ -17,12 +17,12 @@ ms.collection:
 description: Beispiele für die Verwendung von PowerShell zum Festlegen von Richtlinien in Teams, um zu steuern, wer Live Ereignisse in Ihrer Organisation aufnehmen kann, und Features, die in den von Ihnen erstellten Ereignissen zur Verfügung stehen
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7e9e96bde0112508da200bea741b9938e273a9d
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.openlocfilehash: cb43e2a7420ef6c121cea93fd4cd8e4cc40ddfb2
+ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558615"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102356"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Verwenden von PowerShell zum Festlegen von Richtlinien für Live-Ereignisse in Microsoft Teams
 
@@ -33,6 +33,9 @@ Sie können die folgenden Windows PowerShell-Cmdlets verwenden, um in Teams Rich
 - [Grant-CsTeamsMeetingBroadcastPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingbroadcastpolicy?view=skype-ps)
 
 Hier sind einige Beispiele.
+
+> [!NOTE]
+> Bevor Sie diese Cmdlets ausführen können, müssen Sie mit Skype for Business Online PowerShell verbunden sein. Weitere Informationen finden Sie unter [Verwalten von Skype for Business Online mit Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 ## <a name="allow-users-to-schedule-live-events"></a>Zulassen, dass Benutzer Live Ereignisse planen 
 
@@ -142,5 +145,5 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 
 ### <a name="related-topics"></a>Verwandte Themen
 - [Einrichten von Teams-Liveereignissen](set-up-for-teams-live-events.md)
-
+- [Übersicht über PowerShell für Microsoft Teams](../teams-powershell-overview.md)
 
