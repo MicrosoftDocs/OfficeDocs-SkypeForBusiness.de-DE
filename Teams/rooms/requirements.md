@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
-ms.openlocfilehash: 9e07ac6f5f7ca477006dac703f7b3b8b2604c60b
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 9dba3a9972dee782b3d2df2ce48f7f38c19fcbc1
+ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102336"
+ms.locfileid: "43106682"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Anforderungen für Microsoft Teams-Räume
 
@@ -115,7 +115,7 @@ Diese Geräte sind in der [Produktpräsentation Room System Zubehör](https://pr
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100C   |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Shure Intellimix P300-Audiokonferenz Prozessor](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 Table Array MIC](https://www.shure.com/en-US/products/microphones/mxa310) | 4,1 |
-|[Shure Intellimix P300 Audio-Conferening-Prozessor](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 mit Intellimix-decken-Array-Mikrofon](https://www.shure.com/en-US/products/microphones/mxa910) | 4,1|
+|[Shure Intellimix P300-Audiokonferenz Prozessor](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 mit Intellimix-decken-Array-Mikrofon](https://www.shure.com/en-US/products/microphones/mxa910) | 4,1|
 |[Biamp Tesira Fore AVB VT4 Fixed Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect decken 2-Mikrofon](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira Ex-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2:1.3.3 </br></br> Ex-UBT: 3.12.0.15 |
 |[Bose ControlSpace Ex-440C DSP + </br>Bose P2600A AmpLink Verstärker +</br> Sennheiser TCC2 decken Mikrofon </br> + Bose EdgeMax EM180 Deckenlautsprecher](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose-DSP: 2,290  </br> P2600A: 1,160  </br> TCC2:1.4.2  |  |
 ||||||
