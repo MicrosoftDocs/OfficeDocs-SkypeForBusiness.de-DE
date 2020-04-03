@@ -23,19 +23,20 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Telefonnummern erhalten oder Nummern für Ihre Organisation portieren (übertragen), müssen Sie möglicherweise Hilfe und Support beim PSTN-Service Desk erhalten.
-ms.openlocfilehash: 3fe6353deb52911a4e0f0249f500a2a562e29ac1
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 58c32b8bf54ff6b1e9df689c6bcde184889b8462
+ms.sourcegitcommit: 8665603fae8408ccbc083dd59cb01936ebe96c58
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583074"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43116701"
 ---
 # <a name="pstn-service-desk-contact"></a>PSTN-Service Desk-Kontakt
 
-Wenn Sie Hilfe beim Abrufen oder übertragen von Telefonnummern benötigen, aber Hilfe benötigen, teilen Sie uns bitte mit, wie wir Ihnen in einer e-Mail behilflich sein können, und senden Sie Sie an uns. Geben Sie in Ihrer e-Mail-Hilfeanforderung so viele Details wie möglich ein, und fügen Sie Details wie Ihre Organisations-ID (Mandanten-ID), Domänen, welche Arten von Nummern, mit denen Sie Hilfe benötigen, wie viele Nummern Sie wünschen, die Autorisierungs Person für das Konto und weitere wichtige Details ein. Informationen zu Ihrem Problem.
+Wenn Sie Hilfe beim Abrufen oder übertragen von Telefonnummern benötigen, aber Hilfe benötigen, teilen Sie uns bitte mit, wie wir Ihnen in einer e-Mail behilflich sein können, und senden Sie Sie an uns. Geben Sie in Ihrer e-Mail-Hilfeanforderung so viele Details wie möglich ein, und fügen Sie Details wie Ihre Organisations-ID (Mandanten-ID), Domänen, welche Arten von Nummern, mit denen Sie Hilfe benötigen, wie viele Nummern Sie wünschen, die Autorisierungs Person für das Konto und weitere wichtige Details zu Ihrem Problem ein.
 
   - Ihre Organisations-ID (Mandanten-ID) oder aktive Domänen.
   - Welche Arten von Nummern benötigen Sie Hilfe? (Nutzer/Abonnent, Service/gebührenpflichtig oder gebührenfrei).
+    - Fügen Sie die Ortsvorwahl (n)/Country/Region ein, von der Sie Telefonnummern wünschen.
   - Wie viele Nummern Sie benötigen (wenn dies für den Nummern Erwerb gilt).
   - Autorisieren von Personen auf dem Konto und weitere wichtige Informationen auf der Grundlage Ihrer Anfrage.
 

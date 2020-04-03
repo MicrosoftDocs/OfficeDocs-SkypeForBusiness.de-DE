@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1cdd071dfe19c50650d6f18605a5aeed5b39300
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: 0320a08a5358716472d382482cb9c825d0709e59
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327847"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117433"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -37,6 +37,7 @@ Das Microsoft Teams-Besprechungs-Add-In wird für Benutzer, auf deren Windows-PC
 ![Screenshot des Microsoft Teams-Add-Ins auf dem Outlook-Menüband](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - Es gibt weitere Überlegungen, ob Ihre Organisation beide Teams und Skype for Business ausführt. Unter bestimmten Umständen steht das Team-Add-in in Outlook nicht zur Verfügung. Weitere Informationen finden Sie unter [Upgrade von Skype for Business in Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
 > - Benutzerberechtigungen zum Ausführen der Datei „Regsvr32.exe“ sind eine Mindestanforderung, damit das Add-In für „Teams Meeting“ auf dem Computer installiert wird.
 > - Wenn Benutzer das Microsoft Teams-Besprechungs-Add-In nicht sehen, weisen Sie sie an, Outlook und Microsoft Teams zu schließen, den Microsoft Teams-Client neu zu starten, sich bei Microsoft Teams anzumelden und den Outlook-Client zu starten (in dieser Reihenfolge).
 > - Wenn Sie eine Office Outlook-Installation aus dem Microsoft Store verwenden, wird das Add-In für „Teams Meeting“ nicht unterstützt. Benutzern, die dieses Add-In benötigen, wird empfohlen, die Klick-und-Los-Version von Office zu installieren, wie im Artikel [Office unter Windows 10 im S-Modus](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) beschrieben.
@@ -73,7 +74,7 @@ Weitere Informationen finden Sie unter [Planen von Besprechungen mit Uhrzeit fin
 
 ## <a name="authentication-requirements"></a>Authentifizierungsanforderungen
 
-Benutzer des Microsoft Teams-Besprechungs-Add-Ins müssen sich mit moderner Authentifizierung bei Microsoft Teams anmelden. Wenn sich Benutzer nicht mit dieser Methode anmelden, können sie zwar den Microsoft Teams-Client verwenden, aber sie können keine Microsoft Teams-Onlinebesprechungen mit dem Outlook-Add-In planen. Dies können Sie mit einer der folgenden Methoden korrigieren:
+Benutzer des Microsoft Teams-Besprechungs-Add-Ins müssen sich mit moderner Authentifizierung bei Microsoft Teams anmelden. Wenn Benutzer diese Methode nicht zur Anmeldung verwenden, können Sie weiterhin den Team-Client verwenden, können jedoch keine Teams-Onlinebesprechungen mit dem Outlook-Add-in planen. Dies können Sie mit einer der folgenden Methoden korrigieren:
 
 - Wenn die moderne Authentifizierung für Ihre Organisation nicht konfiguriert ist, sollten Sie sie konfigurieren.
 - Wenn die moderne Authentifizierung konfiguriert ist, aber die Benutzer den Vorgang im Dialogfeld abgebrochen haben, weisen Sie die Benutzer an, sich mit mehrstufiger Authentifizierung erneut anzumelden.
@@ -102,7 +103,7 @@ Wenn Benutzer im Inselmodus eine Besprechung in Outlook planen, erwarten sie in 
 | Inselmodus | Skype for Business |
 | Nur Skype for Business | Skype for Business |
 | Skype for Business mit Zusammenarbeit in Microsoft Teams | Skype for Business |
-| Skype for Business mit Zusammenarbeit und Besprechungen in Microsoft Teams | Microsoft Teams |
+| Skype for Business mit Zusammenarbeit und Besprechungen in Microsoft Teams | Teams |
 | Nur Microsoft Teams | Microsoft Teams |
 
 ## <a name="other-considerations"></a>Andere Überlegungen
@@ -120,7 +121,7 @@ Wenn Sie das Add-In für Teams-Besprechungen für Outlook nicht installieren kö
 - Stellen Sie sicher, dass alle verfügbaren Updates für den Outlook-Desktopclient angewendet wurden.
 - Starten Sie den Teams-Desktopclient neu.
 - Melden Sie sich ab, und melden Sie sich dann wieder beim Teams-Desktopclient an.
-- Starten Sie den Outlook-Desktopclient neu. (Stellen Sie sicher, dass Outlook nicht im Admin-Modus ausgeführt wird.)
+- Starten Sie den Outlook-Desktopclient neu. (Stellen Sie sicher, dass Outlook nicht im Administratormodus ausgeführt wird.)
 - Stellen Sie sicher, dass der Name des angemeldeten Benutzerkontos keine Leerzeichen enthält. (Dies ist ein bekanntes Problem, das in einem zukünftigen Update behoben wird.)
 - Stellen Sie sicher, dass Single Sign-On (SSO) aktiviert ist.
 

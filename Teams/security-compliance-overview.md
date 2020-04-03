@@ -19,24 +19,32 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3320681f606150be223433d6ab80e8e0ee41a42f
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: fbec8f7d246a4acfe241ef4f4d701cc9e1e6b28c
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053411"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117423"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sicherheit und Compliance in Microsoft Teams
 
 > [!IMPORTANT]
-> Als Kunde von Office 365 besitzen und Steuern Sie Ihre Daten. Microsoft verwendet Ihre Daten nicht für etwas anderes als die Bereitstellung des von Ihnen abonnierten Diensts. Als Dienstanbieter scannen wir Ihre e-Mails, Dokumente oder Teams nicht für Werbung oder für Zwecke, die nicht Dienst bezogen sind. Microsoft hat keinen Zugriff auf Hochgeladene Inhalte. Wie OneDrive for Business und SharePoint Online bleiben Kundendaten im Mandanten. Weitere Informationen zu unseren Vertrauens-und sicherheitsrelevanten Informationen finden Sie im [Microsoft Trust Center](https://microsoft.com/trustcenter). Microsoft Teams folgt den gleichen Leitlinien und Prinzipien wie das Microsoft Trust Center.
+> Wenn Sie wissen möchten, wie Sie die Sicherheit am besten gewährleisten können, **während alle während des COVID-19-Ausbruchs von zu Hause aus arbeiten**, lesen Sie diese Artikel:
+>  - [Die wichtigsten 12 Aufgaben für Sicherheitsteams zur Unterstützung der Arbeit von zu Hause aus](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+>  - [Optimieren der Office 365-Konnektivität für Remotebenutzer mithilfe des geteilten VPN-Tunnels](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+>  - Aktualisiert am 2. April 2020: [Sicherheitsleitfaden für Teams](teams-security-guide.md)
+
 
 Microsoft Teams basiert auf der Office 365-Cloud auf Unternehmensniveau mit Hyperskalierung und bietet die erweiterten Sicherheits- und Compliance-Funktionen, die unsere Kunden erwarten. Weitere Informationen zum Planen der Sicherheit in Office 365 finden Sie in unseren Office 365-Inhalten. [Der Office 365-Sicherheitsplan](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) ist ein guter Ausgangspunkt. Weitere Informationen zum Planen der Compliance in Office 365 finden Sie im Artikel [Plan für Sicherheit und Compliance](https://docs.microsoft.com/microsoft-365/compliance/plan-for-security-and-compliance) .
 
-In diesem Artikel finden Sie weitere Informationen zu Teams-spezifischer Sicherheit und-Compliance. Lesen Sie diese Microsoft Mechanics-Videos zur Sicherheit und Compliance:
+
+In diesem Artikel finden Sie weitere Informationen zu Teams-spezifischer Sicherheit und-Compliance. Lassen Sie sich diese Microsoft Mechanics-Videos zur Sicherheit und Compliance nicht entgehen:
 
 - [Microsoft Teams Essentials für IT: Sicherheit und Compliance](https://youtu.be/91lHNKVVvQ4) (12:42 min)
 - [Microsoft Teams-Steuerelemente für Sicherheit und Compliance](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)
+
+> [!IMPORTANT]
+> Als Kunde von Office 365 besitzen und Steuern Sie Ihre Daten. Microsoft verwendet Ihre Daten nicht für etwas anderes als die Bereitstellung des von Ihnen abonnierten Diensts. Als Dienstanbieter scannen wir Ihre e-Mails, Dokumente oder Teams nicht für Werbung oder für Zwecke, die nicht Dienst bezogen sind. Microsoft hat keinen Zugriff auf Hochgeladene Inhalte. Wie OneDrive for Business und SharePoint Online bleiben Kundendaten im Mandanten. Weitere Informationen zu unseren Vertrauens-und sicherheitsrelevanten Informationen finden Sie im [Microsoft Trust Center](https://microsoft.com/trustcenter). Microsoft Teams folgt den gleichen Leitlinien und Prinzipien wie das Microsoft Trust Center.
 
 ## <a name="security"></a>Sicherheit
 
@@ -71,11 +79,11 @@ Die Microsoft Teams-Desktopanwendung unterstützt AppLocker.  Weitere Informatio
 
 ## <a name="compliance"></a>Compliance
 
-Teams verfügt über eine breite Palette von Informationen, die Ihnen bei Compliance-Bereichen helfen, einschließlich der Kommunikations Konformität für Kanäle, Chats und Anlagen, Aufbewahrungsrichtlinien, Datenverlust Schutz (DLP), eDiscovery und rechtliche Aufbewahrung für Kanäle, Chats und Dateien, Überwachungsprotokoll Suchen und Verwalten von mobilen Anwendungen mit Microsoft InTune Wir haben einige Informationen zu den folgenden Themen bereitgestellt, und Sie können zum [Microsoft 365 Compliance Center](https://compliance.microsoft.com) oder [Office 365 Security & Compliance Center](https://protection.microsoft.com) wechseln, um diese Einstellungen zu verwalten.
+Teams verfügt über eine breite Palette von Informationen, die Ihnen bei Compliance-Bereichen behilflich sein können, einschließlich der Kommunikations Konformität für Kanäle, Chats und Anlagen, Aufbewahrungsrichtlinien, Datenverlust Schutz (DLP), eDiscovery und rechtliche Aufbewahrung für Kanäle, Chats und Dateien, Überwachungsprotokoll Suche sowie Verwaltung mobiler Anwendungen mit Microsoft InTune. Wir haben einige Informationen zu den folgenden Themen bereitgestellt, und Sie können zum [Microsoft 365 Compliance Center](https://compliance.microsoft.com) oder [Office 365 Security & Compliance Center](https://protection.microsoft.com) wechseln, um diese Einstellungen zu verwalten.
 
 ### <a name="communication-compliance"></a>Kommunikations Konformität
 
-Mit der Kommunikations Kompatibilität in Microsoft 365 können Sie Benutzer zu in-Scope-Richtlinien hinzufügen, die für die Untersuchung von Microsoft Teams-Kommunikationen für anstößige Sprache, vertrauliche Informationen und Informationen im Zusammenhang mit internen und behördlichen Standards konfiguriert werden können. . Chat-Kommunikation und zugehörige Anlagen sowohl in öffentlichen als auch privaten Teams-Kanälen, einzelnen Chats und Anlagen können gescannt werden, um Kommunikationsrisiken in Ihrer Organisation zu minimieren. Weitere Informationen dazu, wie Sie Richtlinien für die Erkennung, Erfassung und Ergreifung von Aktionen für unangemessene Teams-Kommunikationen konfigurieren können, finden Sie unter [Kommunikations Kompatibilität in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
+Mit der Kommunikations Kompatibilität in Microsoft 365 können Sie Benutzer zu in-Scope-Richtlinien hinzufügen, die für die Untersuchung von Microsoft Teams-Kommunikationen für anstößige Sprache, vertrauliche Informationen und Informationen im Zusammenhang mit internen und behördlichen Standards konfiguriert werden können. Chat-Kommunikation und zugehörige Anlagen sowohl in öffentlichen als auch privaten Teams-Kanälen, einzelnen Chats und Anlagen können gescannt werden, um Kommunikationsrisiken in Ihrer Organisation zu minimieren. Weitere Informationen dazu, wie Sie Richtlinien für die Erkennung, Erfassung und Ergreifung von Aktionen für unangemessene Teams-Kommunikationen konfigurieren können, finden Sie unter [Kommunikations Kompatibilität in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance).
 
 ### <a name="retention-policies"></a>Aufbewahrungsrichtlinien
 
