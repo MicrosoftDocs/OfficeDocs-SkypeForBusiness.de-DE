@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um den Mitarbeitern in Ihrer Organisation zu helfen, mit Microsoft Teams produktiv zu arbeiten, insbesondere wenn sie als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f954e9dff86b8c660d416a1aed8031912207ea4f
-ms.sourcegitcommit: ce6b6b57eb9683649f589b747163110bf42ae420
+ms.openlocfilehash: 8ea77e0c672ffd15adcb5bc63aa77bd45d4b3604
+ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43062668"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117510"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Unterstützung von Remotemitarbeitern in Microsoft Teams
 
@@ -44,7 +44,7 @@ Sind Sie bereit für das Rollout von Teams an Ihre Benutzer? Holen Sie sich das 
 
 - Mit der **Ankündigungs-E-Mail** teilen Sie Benutzern mit, dass Microsoft Teams für sie verfügbar ist.
 
-- Senden Sie die **E-Mail "Ihr erster Tag mit Teams**, um den Benutzern zu helfen, schnell produktiv zu sein.
+- Senden Sie **Countdown: E-Mail "Ihr erster Tag mit Teams**", um den Benutzern zu helfen, schnell produktiv zu sein.
 
 - Senden Sie ein paar Tage später die **E-Mail mit Tipps und Tricks**, um Ihre Benutzer bei der optimalen Nutzung zu unterstützen.
 
@@ -68,9 +68,9 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
 1. Lesen Sie die neuesten Blogbeiträge:
    
    - [How Microsoft is enabling its employees to work remotely with Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/) (Wie es Microsoft seinen Mitarbeitern ermöglicht, mit Microsoft Teams remote zu arbeiten)
-   - [Unterstützung für kleine und mittelständische Unternehmen bei der Remotearbeit mit Teams](https://www.microsoft.com/de-DE/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
+   - [Unterstützung für kleine und mittelständische Unternehmen bei der Remotearbeit mit Teams](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Die 9 wichtigsten Methoden, mit denen Microsoft IT die Remotearbeit für die Mitarbeiter ermöglicht](https://www.microsoft.com/de-DE/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Die 9 wichtigsten Methoden, mit denen Microsoft IT die Remotearbeit für die Mitarbeiter ermöglicht](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. Teams für Bildung
@@ -92,6 +92,21 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
 
    - Wenn Sie Hilfe bei der Fehlersuche oder der Problembehandlung im Zusammenhang mit Anruf- oder Besprechungsqualität benötigen, befolgen Sie die Hinweise unter [Bekanntes Problem (China): Einwahl in Skype for Business/Teams-Konferenz-IDs](#known-issue---china-dialing-into-skype-for-business-or-teams-conference-ids) am Ende dieses Artikels.
 
+1. Sicherheit, wenn jeder von zu Hause aus arbeitet
+
+   - [Die besten Tipps für die sichere Zusammenarbeit von zu Hause aus](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
+
+   - Microsoft-Sicherheitsblog (26. März 2020): [Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/) (Alternative Möglichkeiten für Sicherheitsexperten und IT, moderne Sicherheitskontrollen in den heutigen einzigartigen Remotearbeitsszenarien zu erreichen)
+
+   - [Remotearbeit und Sicherheit – Anleitung für CISOs](https://www.microsoft.com/security/blog/?p=90736)
+
+   - [Die wichtigsten 12 Aufgaben für Sicherheitsteams zur Unterstützung der Arbeit von zu Hause aus](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
+   
+   - [Optimieren der Office 365-Konnektivität für Remotebenutzer mithilfe eines geteilten VPN-Tunnels](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+
+   - [Sicherheit und Teams](teams-security-guide.md) befasst sich mit allen technischen Details der Sicherheit von Teams im Rahmen der bewährten Sicherheitsmethoden und -verfahren von Microsoft 365 auf Unternehmensniveau.
+
+
 2.  [Senden Sie Links zu Schulungen](enduser-training.md), um Ihren Mitarbeitern zu helfen, Teams optimal zu nutzen.
 
 3. Tauchen Sie noch tiefer ein: Weitere Informationen zum Rollout von Teams.
@@ -103,21 +118,6 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
    - Teilen Sie [detaillierte Schulungsvideos](https://www.youtube.com/playlist?list=PLXPr7gfUMmKzR7_jXN5s886apYoHNC3Xk) mit Benutzern, die mehr erfahren möchten.
 
    - Lesen Sie [Bereitstellen von Microsoft Teams](How-to-roll-out-teams.md), um mehr über die Vorbereitungen für und die Verwaltung von Microsoft Teams zu erfahren.
-
-1. Sicherheit, wenn jeder von zu Hause aus arbeitet
-
-   - [Die besten Tipps für die sichere Zusammenarbeit von zu Hause aus](https://support.office.com/article/top-tips-for-working-more-securely-from-home-c3e6c940-43a6-43a3-b780-b8784776c2a8)
-
-   - Microsoft-Sicherheitsblog (26. März 2020): [Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/) (Alternative Möglichkeiten für Sicherheitsexperten und IT, moderne Sicherheitskontrollen in den heutigen einzigartigen Remotearbeitsszenarien zu erreichen)
-
-   - [Remotearbeit und Sicherheit – Anleitung für CISOs](https://www.microsoft.com/security/blog/?p=90736)
-
-   - [Die wichtigsten 12 Aufgaben für Sicherheitsteams zur Unterstützung der Arbeit von zu Hause aus](https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work)
-   
-   - [Optimieren der Office 365-Konnektivität für Remotebenutzer mithilfe des geteilten VPN-Tunnels](https://docs.microsoft.com/de-DE/Office365/Enterprise/office-365-vpn-split-tunnel)
-
-   - [Sicherheit und Teams](teams-security-guide.md) befasst sich mit allen technischen Details der Sicherheit von Teams im Rahmen der bewährten Sicherheitsmethoden und -verfahren von Microsoft 365 auf Unternehmensniveau.
-
 
     
 3. Lesen Sie unsere neuen Inhalte zur Remotearbeit, und teilen Sie diese mit Ihren Benutzern:
