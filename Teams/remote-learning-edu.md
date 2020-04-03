@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87918e83aae6f56a3956336603decd41817cdd2a
-ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
+ms.openlocfilehash: 15e84c6e5d7d205910be982eb0688143cd14abfa
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43100082"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131223"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -58,6 +58,9 @@ Teams nutzt die Möglichkeiten von Microsoft 365, um Benutzer zu authentifiziere
 
 Microsoft Teams ist Bestandteil von Office 365 A1, das für Bildungseinrichtungen kostenlos ist. Informationen zur Bereitstellung von Office 365 und zum Starten von Teams in der gesamten Bildungseinrichtung finden Sie [auf dieser Seite](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). Um Unterstützung zu erhalten, können Sie [hier](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) ein Ticket erstellen, und für Schulungen in Teams besuchen Sie Ihren lokalen Microsoft Store, um mit einem Fachmann zu sprechen.
 
+> [!NOTE]
+> Bitte lesen Sie [Aktualisierte Anleitungen für die M365 EDU-Bereitstellung während COVID-19](https://docs.microsoft.com/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19), um die neuesten Informationen zu EDU-Bereitstellungen zu erhalten.
+
 ## <a name="easily-set-up-teams"></a>Müheloses Einrichten von Teams
 
 Sie müssen die folgenden beiden Schritte ausführen, um Teams einzurichten und mit der Verwendung zu beginnen:
@@ -75,6 +78,9 @@ Kunden aus dem Hochschulbereich profitieren von den Vorteilen, wenn Sie allen Be
 **Mitarbeiter, Lehrkräfte und Studenten in Hochschulen** profitieren von den Funktionen der Standardrichtlinien (Global). Einige zusätzliche Richtlinieneinstellungen können aktiviert werden, um Teams weitere Funktionen hinzuzufügen, beispielsweise durch [Aktivieren der Übersetzungsfunktionen in der Messagingrichtlinie](messaging-policies-in-teams.md#messaging-policy-settings) und [Zulassen der automatischen Besprechungstranskription in der Besprechungsrichtlinie](meeting-policies-in-teams.md#allow-transcription).
 
 Für **Schüler an Grundschulen und weiterführende Schulen ** sind möglicherweise eingeschränkte Funktionen erforderlich. Mit Richtlinien können die Möglichkeiten der Schüler eingeschränkt werden. Da die Schüler/Studenten meist die größte Gruppe von Benutzern ausmachen und für sie häufig die restriktivsten Einstellungen gelten, wird empfohlen, dass Änderungen an den Richtlinien für Schüler/Studenten an den Richtlinien "Global (organisationsweite Standardeinstellung)" durchgeführt werden.
+
+> [!IMPORTANT]
+> Bei Besprechungsrichtlinien, die Benutzern zugewiesen werden, empfiehlt es sich, die Einstellung „automatisch Administrator“ auf „jeder in Ihrer Organisation“ festzulegen. Mit dieser Einstellung wird sichergestellt, dass nicht-authentifizierte Benutzer aus der Lobby zugelassen werden müssen, bevor sie an Teams-Besprechungen teilnehmen können. Weitere Informationen finden Sie unter [Verwalten von Besprechungsrichtlinien in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
 
 Nachfolgend finden Sie eine Reihe allgemeiner nicht standardmäßiger Richtlinienkonfigurationen, die Schülern an Grundschulen und weiterführende Schulen zugewiesen werden können, um die unmoderierte Kommunikation zwischen Schülern einzuschränken:
 
@@ -140,6 +146,12 @@ Weitere Informationen zur Verwendung von Teams für Bildungseinrichtungen finden
 
 > [!NOTE]
 > Einige der wichtigsten Features von Microsoft Teams sind nicht ausschließlich für Bildungseinrichtungen bestimmt. Tipps und Tricks für die wichtigsten Teams-Funktionen finden Sie unter [Hilfe und Schulung zu Microsoft Teams](https://support.office.com/teams).
+
+### <a name="prevent-users-from-changing-their-profile-photo"></a>So hindern Sie Benutzer am Ändern ihres Profilbilds
+
+Teams berücksichtigt die [Outlook im Web-Postfachrichtlinie](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy) Einstellung, die von Mandantenadministratoren konfiguriert wird, um zu steuern, ob Benutzer Ihr Profilbild ändern können. Wenn die Einstellung für **-SetPhotoEnabled** deaktiviert ist, können Benutzer Ihr Profilbild nicht hinzufügen, ändern oder entfernen. Um zu verhindern, dass Schüler oder Mitarbeiter Ihr Profilbild ändern oder entfernen, deaktivieren Sie diese Einstellung in der ihnen zugewiesenen Outlook im Web-Postfachrichtlinie.
+
+Wenn ein Schüler beispielsweise ein Profilbild hochlädt, das von der IT- oder Personalabteilung Ihrer Schule genehmigt wurde, ist keine Aktion erforderlich. Falls ein Schüler jedoch ein nicht geeignetes Bild hochlädt, ändern Sie das Bild entsprechend der internen Richtlinien Ihrer Schule.  
 
 ## <a name="adoption-content"></a>Inhalte zur Einführung
 
