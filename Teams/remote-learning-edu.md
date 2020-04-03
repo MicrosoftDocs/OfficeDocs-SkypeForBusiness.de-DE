@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 704a08678bfb64cdbee223b555dfaa4fa6350892
-ms.sourcegitcommit: e710bb8dbbd084912cbf509896515a674ab5e19f
+ms.openlocfilehash: 87918e83aae6f56a3956336603decd41817cdd2a
+ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033369"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43100082"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -32,13 +32,13 @@ ms.locfileid: "43033369"
 >
 > - Eine Sammlung von Artikeln, die für Lehrkräfte verfasst wurden, einschließlich Anleitungen für die wichtigsten [**ersten Schritte für den Unterricht mit Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - Ein einstündiger Onlinekurs im Microsoft Educator Center zeigt, wie Lehrkräfte Microsoft Teams in ihrem Beruf einsetzen. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview) (Verändern des Lernens mit Microsoft Teams).
-> - Ein einstündiger Onlinekurs im Microsoft Educator Center leitet Lehrkräfte durch die Unterrichtsgestaltung in Kursteams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview) (Schaffen einer auf Teamarbeit ausgerichteten Lernumgebung mit Kursteams).
-> - Lehrer, Schüler/Studenten und Erziehungsberechtigte finden weitere Informationen unter [**Remote lehren und lernen mit Office 365**](https://aka.ms/RemoteLearningHelp).
+> - Ein einstündiger Onlinekurs im Microsoft Educator Center leitet Lehrkräfte durch die Unterrichtsgestaltung in Class Teams. [**Crafting a Collaborative Learning Environment with Class Teams**](https://education.microsoft.com/course/b1e15cfc/overview) (Schaffen einer auf Teamarbeit ausgerichteten Lernumgebung mit Kursteams).
+> - Lehrkräfte, Schüler/Studenten und Erziehungsberechtigte finden weitere Informationen unter [**Remote lehren und lernen mit Office 365**](https://aka.ms/RemoteLearningHelp).
 > - Eltern und Erziehungsberechtigte finden darüber hinaus auf unserer [**Supportseite für Eltern**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588) Informationen zum Remote-Lernen.
 
 Verpassen Sie nicht den Blog vom 4. März 2020 [Wie Schulen Fernlernprogramme mit Microsoft Teams schnell starten können](https://aka.ms/teamseduremoteblog).
 
-Onlinelernen kann ebenso persönlich, ansprechend und sozial vernetzt sein wie das Lernen in einem Klassenzimmer. Schüler, Studenten und Lehrkräfte können mit Unterhaltungen in Kontakt bleiben und sich gegenseitig helfen, und durch Livebesprechungen das Gefühl haben, sich persönlich zu treffen. Lehrkräfte können den täglichen Fortschritt der Kursteilnehmer mithilfe von Aufgaben nachverfolgen. Niemand muss das Gefühl haben, nicht mehr auf dem Laufenden zu sein. Viele Studenten, die online lernen, berichten, dass sie das Gefühl haben, mehr Mitspracherechte zu haben, und dass sie sich mit ihren Dozenten und Kommilitonen besser vernetzt fühlen als im Klassenzimmer. Und genau wie in einem Klassenzimmer können Lehrkräfte die Apps und Funktionen von Teams verwenden, um ein optimales Arbeiten zu unterstützen.
+Onlinelernen kann ebenso persönlich, ansprechend und sozial vernetzt sein wie das Lernen in einem Klassenzimmer. Schüler/Studenten und Lehrkräfte können mit Unterhaltungen in Kontakt bleiben und sich gegenseitig helfen, und durch Livebesprechungen das Gefühl haben, sich persönlich zu treffen. Lehrkräfte können den täglichen Fortschritt der Kursteilnehmer mithilfe von Aufgaben nachverfolgen. Niemand muss das Gefühl haben, nicht mehr auf dem Laufenden zu sein. Viele Schüler/Studenten, die online lernen, berichten, dass sie das Gefühl haben, mehr Mitspracherechte zu haben, und dass sie sich mit Lehrkräften und Kommilitonen besser vernetzt fühlen als im Klassenzimmer. Und genau wie in einem Klassenzimmer können Lehrkräfte die Apps und Funktionen von Teams verwenden, um ein optimales Arbeiten zu unterstützen.
 
 Microsoft Teams ist ein digitaler Hub, mit dem Unterhaltungen, Inhalte, Aufgaben und Apps an einem Ort zusammengeführt werden, wodurch Lehrkräfte dynamische Lernumgebungen schaffen können. Erstellen Sie Kursräume für die Zusammenarbeit, verbinden Sie sich in professionellen Lerngemeinschaften, und bleiben Sie mit Kollegen in Verbindung – alles über eine einzige Oberfläche.
 
@@ -54,7 +54,7 @@ In der [Webinarreihe "Teams for education" (Teams für Bildungseinrichtungen)](h
 
 Teams nutzt die Möglichkeiten von Microsoft 365, um Benutzer zu authentifizieren und Dienste bereitzustellen. Mitarbeiter, Dozenten und Schüler/Studenten sollten über Identitäten verfügen, die für eine einfachere Zusammenarbeit eingerichtet wurden. Wenn Identitäten nicht bereits existieren, gehen Sie folgendermaßen vor, um sie einzurichten.
 
-[Teams-Lizenzen müssen für Benutzer aktiviert werden](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/enable-microsoft-teams), und dann müssen [Lizenzen den Benutzern zugewiesen werden](teams-edu-licensing.md), bevor sie die Teams-Funktionen nutzen können. Teams setzt weitere Microsoft 365-Funktionen wie [Office 365 Gruppen](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint und OneDrive](SharePoint-OneDrive-interact.md) ein, um Szenarien für die Zusammenarbeit bereitzustellen. Die Benutzer erzielen die besten Erfahrungen mit Teams, wenn alle diese Dienste ebenfalls aktiviert sind. [Teams wird für Benutzer unterstützt, deren E-Mails bei Google gehostet werden](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
+[Teams-Lizenzen müssen für Benutzer aktiviert werden](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2), und dann müssen [Lizenzen den Benutzern zugewiesen werden](teams-edu-licensing.md), bevor sie die Teams-Funktionen nutzen können. Teams setzt weitere Microsoft 365-Funktionen wie [Office 365 Gruppen](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint und OneDrive](SharePoint-OneDrive-interact.md) ein, um Szenarien für die Zusammenarbeit bereitzustellen. Die Benutzer erzielen die besten Erfahrungen mit Teams, wenn alle diese Dienste ebenfalls aktiviert sind. [Teams wird für Benutzer unterstützt, deren E-Mails bei Google gehostet werden](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
 
 Microsoft Teams ist Bestandteil von Office 365 A1, das für Bildungseinrichtungen kostenlos ist. Informationen zur Bereitstellung von Office 365 und zum Starten von Teams in der gesamten Bildungseinrichtung finden Sie [auf dieser Seite](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). Um Unterstützung zu erhalten, können Sie [hier](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) ein Ticket erstellen, und für Schulungen in Teams besuchen Sie Ihren lokalen Microsoft Store, um mit einem Fachmann zu sprechen.
 
