@@ -21,7 +21,7 @@ appliesto:
 localization_priority: Normal
 ms.openlocfilehash: b354172e5a60e3c6f9df5d74c5d16731fdac0bf8
 ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/01/2020
 ms.locfileid: "43096860"
@@ -29,7 +29,7 @@ ms.locfileid: "43096860"
 <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 ======================================================
 
-Externer Zugriff ist eine Möglichkeit für Teams-Benutzer aus einer gesamten externen Domäne, Besprechungen mit Ihnen in Teams zu finden, anzurufen, zu chatten und einzurichten. Sie können auch externen Zugriff verwenden, um mit externen Benutzern zu kommunizieren, die weiterhin Skype for Business (Online und lokal) und Skype (in der Vorschau) verwenden.
+Externer Zugriff ist eine Möglichkeit für Teams-Benutzer aus einer ganzen externen Domäne Sie zu finden, anrufen, mit Ihnen zu chatten und Besprechungen mit Ihnen in Teams einzurichten. Über einen externen Zugang können Sie auch mit externen Benutzern kommunizieren, die noch Skype for Business (online oder lokal) bzw. Skype (in der Vorschau) verwenden.
 
 Wenn Sie externen Benutzern hingegen den Zugriff auf Teams und Kanäle gewähren möchten, ist der Gastzugriff möglicherweise besser geeignet. Weitere Informationen zu den Unterschieden zwischen externem Zugriff und Gastzugriff finden Sie unter [Vergleich von externem Zugriff und Gastzugriff](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
