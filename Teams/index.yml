@@ -12,32 +12,32 @@ metadata:
   ms.author: samanro
   ms.date: 02/12/2020
   localization_priority: Priority
-  ms.openlocfilehash: aaa60d789f5048c11647460dccb636da8c519e62
-  ms.sourcegitcommit: eab284e2add7af1b3f3c5f1f77c0a3bbf77857a7
+  ms.openlocfilehash: e3c67ada87cdee958fbb76c4862e01b1ced7901a
+  ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 02/12/2020
-  ms.locfileid: "41953796"
+  ms.lasthandoff: 04/02/2020
+  ms.locfileid: "43117533"
 highlightedContent:
   items:
+  - title: COVID-19-Antwort – Unterstützung von Remotemitarbeitern mithilfe von Teams
+    itemType: overview
+    url: /MicrosoftTeams/support-remote-work-with-teams
   - title: Bereitstellen von Microsoft Teams
     itemType: deploy
     url: /MicrosoftTeams/how-to-roll-out-teams
+  - title: Sicherheit und Compliance in Microsoft Teams
+    itemType: overview
+    url: /MicrosoftTeams/security-compliance-overview
   - title: Suchen von Schulungen für Sie und Ihre Benutzer
     itemType: learn
     url: /MicrosoftTeams/training-microsoft-teams-landing-page
   - title: Upgrade von Skype for Business auf Microsoft Teams
-    itemType: overview
+    itemType: how-to-guide
     url: /MicrosoftTeams/upgrade-start-here
   - title: Übernahmehub
     itemType: get-started
     url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
-  - title: Plakate und Lösungen für die IT-Architektur
-    itemType: architecture
-    url: /MicrosoftTeams/teams-architecture-solutions-posters
-  - title: Beginnen Sie hier, wenn Sie neu bei Microsoft Teams sind
-    itemType: quickstart
-    url: /MicrosoftTeams/teams-overview
 additionalContent:
   sections:
   - items:
@@ -51,8 +51,8 @@ additionalContent:
         url: /MicrosoftTeams/teams-memory-usage-perf
       - text: Kommunikation mit Benutzern aus anderen Organisationen (Gast/externer Zugriff)
         url: /MicrosoftTeams/communicate-with-users-from-other-organizations
-      - text: Sicherheit und Compliance in Microsoft Teams
-        url: /MicrosoftTeams/security-compliance-overview
+      - text: Plakate und Lösungen für die IT-Architektur
+        url: /MicrosoftTeams/teams-architecture-solutions-posters
     - title: Sprachanrufe mit Teams
       links:
       - text: Cloud Voice in Microsoft Teams
