@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9df706a3b2ae6d83258bf9f1dbe92e561007a678
-ms.sourcegitcommit: 44ce88a4a4f9ad129de7a5042fdebba679b43b23
+ms.openlocfilehash: 5a86a28cd5f7373edbd6d195fea7f857aef1ee29
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/03/2020
-ms.locfileid: "43126340"
+ms.locfileid: "43131213"
 ---
 > [!IMPORTANT]
 > Das Teams-Dienstmodell kann geändert werden, um die Kundenzufriedenheit zu verbessern. So können beispielsweise die standardmäßigen Ablaufzeiten des Zugriffs- oder Aktualisierungstokens geändert werden, um die Leistung und die Authentifizierungssicherheit für Benutzer von Teams zu verbessern. Solche Änderungen würden vorgenommen, um die Sicherheit und Vertrauenswürdigkeit von Teams zu gewährleisten.
@@ -152,7 +152,7 @@ Teams verwendet ein auf Anmeldeinformationen basierendes Token für den sicheren
 
 #### <a name="fips"></a>FIPS
 
-Teams verwendet FIPS (Federal Information Processing Standard) konforme Algorithmen für den Austausch von Verschlüsselungsschlüsseln.
+Teams verwendet FIPS (Federal Information Processing Standard) konforme Algorithmen für den Austausch von Verschlüsselungsschlüsseln. Weitere Informationen zur Implementierung von FIPS finden Sie unter [FIPS-Publikation 140-2 (Federal Information Processing Standard)](https://docs.microsoft.com/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide).
 
 ### <a name="user-and-client-authentication"></a>Nutzer- und Clientauthentifizierung
 
