@@ -12,8 +12,6 @@
 ## [Administratorschulungen für Microsoft Teams](itadmin-readiness.md)
 ## [Microsoft Teams-Schulungen für Endbenutzer](enduser-training.md)
 <!-- ============================================================ -->
-#       
-#    
 
 # [Bereitstellen von Teams](How-to-roll-out-teams.md)
 
@@ -475,9 +473,8 @@
 ### [Optimieren von Feedback und Berichterstellung](teams-adoption-optimize-feedback-and-reporting.md)
 ### [Fördern des Bewusstseins und Implementieren der Schulung](teams-adoption-drive-awareness.md)
 ### [Planen von Überprüfungen der Dienstintegrität](teams-adoption-schedule-service-health-reviews.md)
+
 <!-- ============================================================ -->
-#       
-#        
 
 # Upgrade zu Teams
 
@@ -560,9 +557,6 @@
 
 ## [Integration mit Exchange und SharePoint](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
 
-#     
-#     
-
 <!-- ============================================================ -->
 
 # Microsoft 365 Business Voice
@@ -595,11 +589,7 @@
 
 ## [Partnerressourcen](business-voice/partner-resources.md)
 
-#        
-#        
-
 <!-- ============================================================ -->
-
 
 # Branchen- und Regierungsrichtlinien
 ## [Übersicht](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
@@ -669,6 +659,7 @@
 ### [Verhinderung von Datenverlust](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### eDiscovery
 #### [Durchführen einer eDiscovery-Untersuchung von Inhalt](ediscovery-investigation.md)
+#### [Speicherort von Daten in Teams](location-of-data-in-teams.md)
 #### [Festlegen der gesetzlichen Aufbewahrungspflicht für einen Benutzer oder ein Team in Teams](legal-hold.md)
 ### Inhaltssuche
 #### [Verwenden der Inhaltssuche](content-search.md)
@@ -701,8 +692,7 @@
 ## [Supportressourcen für Microsoft Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
-#       
-#    
+  
 # Referenz
 
 ## [Grenzwerte und -Daten für Teams](limits-specifications-teams.md)
