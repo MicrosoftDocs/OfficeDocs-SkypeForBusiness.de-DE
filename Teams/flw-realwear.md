@@ -1,5 +1,5 @@
 ---
-title: Informationen für IT-Administratoren zum Microsoft Teams-RealWear-Client (Vorschau)
+title: Informationen für IT-Administratoren zum Microsoft Teams-für-RealWear-Client (Vorschau)
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Eine Erläuterung des RealWear-Clients für Microsoft Teams für IT-Administratoren.
+description: Eine Erläuterung des Microsoft Teams-für-RealWear-Clients für IT-Administratoren.
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,14 +18,14 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95d3ead9c85fc58fdc55cd321e55b0ff9ca76853
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: e95440652111dbcd39b756ef942e7a974ef31de0
+ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102389"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131203"
 ---
-# <a name="realwear-for-microsoft-teams"></a>RealWear für Microsoft Teams
+# <a name="microsoft-teams-for-realwear"></a>Microsoft Teams für RealWear
 
 > [!NOTE]
 > Dies ist eine Vorschauversion oder eine Vorabfunktion.
@@ -52,7 +52,12 @@ Microsoft Teams-Lizenzen sind Bestandteil von Office 365-Abonnements. Für die N
 RealWear-Geräte können über den Modus „Android-Geräteadministrator“ verwaltet werden. Die Unterstützung für die Verwaltung über Android Enterprise ist begrenzt, da auf den Geräten derzeit keine Google Mobile-Dienste (GMS) zur Verfügung stehen.
 
 - Weitere Informationen zum Verwalten von RealWear-Geräten in Microsoft Endpoint Manager finden Sie unter [Registrierung von Android-Geräteadministratoren in Intune](https://docs.microsoft.com/mem/intune/enrollment/android-enroll-device-administrator).
+- Weitere Informationen zu Richtlinien finden Sie unter [Verwenden von InTune in Umgebungen ohne Google Mobile Services](https://docs.microsoft.com/mem/intune/apps/manage-without-gms).
 
 ### <a name="third-party-enterprise-mobility-managers-emms"></a>Drittanbieter für Enterprise Mobility-Manager (EMMs)
 
-Anleitungen zu EMMs von Drittanbietern finden Sie unter [Unterstützte Enterprise Mobility-Verwaltungsanbieter](https://www.realwear.com/knowledge-center/configure-on-release-10/remote-from-a-web-browser/emm/).
+Anleitungen zu EMM von Drittanbietern finden Sie unter [Unterstützte Enterprise Mobility-Verwaltungsanbieter](https://www.realwear.com/knowledge-center/configure-on-release-10/remote-from-a-web-browser/emm/).
+
+## <a name="end-user-content"></a>Endbenutzer-Inhalte
+
+Wenn Sie weitere Inhalte aus der Sicht des Endbenutzers lesen möchten, finden Sie diese unter [Verwenden von Microsoft Teams für RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f).
