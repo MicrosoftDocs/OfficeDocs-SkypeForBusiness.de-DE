@@ -1,5 +1,5 @@
 ---
-title: Upgrade auf Teams über eine lokale Skype for Business-Bereitstellung – Microsoft Teams
+title: Upgrade von Skype for Business (lokal) auf Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -8,23 +8,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Überlegungen zum Upgrade auf Teams über eine lokale Skype for Business-Bereitstellung.
+description: Bereitstellen und Implementieren Ihres Upgrades für Teams von einer lokalen Bereitstellung von Skype for Business Server oder Microsoft lync.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4957b22b7fe00ed756c1e81c6bb7c8e2e982720f
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 24ccbaa0e7f43cdf1ccc816a3839547793c65167
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706675"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139624"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Upgrade von Skype for Business lokal in Teams
 
@@ -77,4 +79,4 @@ Weitere Informationen finden Sie unter [Verschieben von Benutzern zwischen lok
 
 Wenn Sie Ihre Bereitstellung von Skype for Business in das Telefon System mit Anrufplänen umstellen, ist Microsoft Ihr PSTN-Anbieter (Public Switched Telephone Network). Vorausgesetzt, Sie haben die Portierung von Telefonnummern abgeschlossen – durch ein Upgrade Ihrer Benutzer auf Teams werden eingehende PSTN-Anrufe automatisch in Teams übertragen.
 
-Wenn Sie Ihr Skype for Business-Deployment auf das Telefonsystem umstellen, aber keine Anrufpläne verwenden, müssen Sie Ihre Enterprise-VoIP-Bereitstellung auf das direkte Routing von Microsoft Phone System umstellen. Weitere Informationen finden Sie unter [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md).
+Wenn Sie Ihr Skype for Business-Deployment auf das Telefonsystem umstellen, aber keine Anrufpläne verwenden, müssen Sie Ihre Enterprise-VoIP-Bereitstellung auf das direkte Routing von Microsoft Phone System umstellen. Weitere Informationen hierzu finden Sie unter [Telefonsystem mit direktem Routing](direct-routing-landing-page.md).

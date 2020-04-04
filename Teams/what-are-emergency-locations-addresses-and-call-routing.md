@@ -1,5 +1,5 @@
 ---
-title: Planen von Notrufen, Notfalladressen, Notfall Anrufrouting, dynamische Notrufe
+title: Notfallanrufe planen und verwalten
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,15 +22,16 @@ ms.custom:
 - ms.lync.lac.AddressAndLocation
 - Calling Plans
 - Direct Routing
+- seo-marvel-mar2020
 description: Informieren Sie sich über Notrufe, einschließlich Informationen zu Notfalladressen, Routing von Notrufen und dynamischen Notrufen.
-ms.openlocfilehash: 85a09880c1eec83851208197c008c8aaafac88f6
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.openlocfilehash: 8afe2d2af8b2aecbe3d73da03137f330aa8304b8
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42161688"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141028"
 ---
-# <a name="manage-emergency-calling"></a>Notfallanrufe verwalten
+# <a name="manage-emergency-calling"></a>Verwalten von Notrufen
 
 In diesem Artikel werden Konzepte beschrieben, die Sie für die Verwaltung von Notrufen wissen müssen – Sie enthält Informationen zu Notfalladressen, dynamischen Notfalladressen und Routing für Notrufe. In diesem Artikel wird die folgende Terminologie verwendet:
 
@@ -91,7 +92,7 @@ Dynamische Notrufe für Microsoft-Anrufpläne bieten die Möglichkeit, Notrufe a
 
 Derzeit können nur Benutzer des Anruf Plans in den Vereinigten Staaten dynamische Speicherorte für das Routing von Notrufen wie folgt nutzen:
 
-- Wenn ein Team-Client für einen USA-Anruf Plan Benutzer dynamisch eine Notfalladresse in den Vereinigten Staaten erwirbt, wird diese Adresse für das Notfall Routing anstelle der registrierten Adresse verwendet, und der Anruf wird automatisch an die PSAP in der der Dienstbereich der Adresse.
+- Wenn ein Team-Client für einen USA-Anrufplan-Benutzer dynamisch eine Notfalladresse in den Vereinigten Staaten erwirbt, wird diese Adresse für das Notfall Routing anstelle der registrierten Adresse verwendet, und der Anruf wird automatisch an den PSAP im Servier Bereich der Adresse weitergeleitet.
 
 - Wenn der Benutzer eines Teams für einen United States-Tarif Nutzer keine Notfalladresse in den Vereinigten Staaten erhält, wird die registrierte Notfalladresse verwendet, um den Anruf zu unterstützen und weiterzuleiten. Der Anruf wird jedoch angezeigt, um festzustellen, ob eine aktualisierte Adresse erforderlich ist, bevor der Anrufer mit dem entsprechenden PSAP verbunden wird.
 
@@ -179,7 +180,7 @@ Weitere Informationen finden Sie unter [für die direkte Weiterleitung zertifizi
 
 #### <a name="emergency-location-identification-number-elin-applications"></a>Notfall Standort-Identifikationsnummer (Elin)-Anwendungen
 
-Session Border Controllers (SBCS) können Notfall Standort-Identifikationsnummern (Elin)-Anwendungen umfassen. Wenn eine SBC Elin-Anwendung in eine Direct Routing-Bereitstellung integriert ist, müssen Sie die Notfalladressen und zugehörigen Telefonnummern in der Elin-Anwendung konfigurieren und dann die Elin-Einträge in die Notfall-Anruf Datenbank im jeweiligen PSTN hochladen. .  Notfall Standorte für Teams mit einem Elin-Bezeichner müssen mit denen in der Elin-Anwendung übereinstimmen.
+Session Border Controllers (SBCS) können Notfall Standort-Identifikationsnummern (Elin)-Anwendungen umfassen. Wenn eine SBC Elin-Anwendung in eine Direct Routing-Bereitstellung integriert ist, müssen Sie die Notfalladressen und zugehörigen Telefonnummern in der Elin-Anwendung konfigurieren und dann die Elin-Einträge in die Notfall-Anruf Datenbank im jeweiligen PSTN hochladen.  Notfall Standorte für Teams mit einem Elin-Bezeichner müssen mit denen in der Elin-Anwendung übereinstimmen.
 
 Wenn ein Notruf mit einem dynamisch abgerufenen Standort an den entsprechenden SBC weitergeleitet wird, wird die Elin-Anwendung:
 

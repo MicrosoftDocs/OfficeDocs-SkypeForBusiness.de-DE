@@ -1,5 +1,5 @@
 ---
-title: Upgrade von Skype for Business-hybridbereitstellungen auf Microsoft Teams | PSTN
+title: Upgrade von Skype for Business-hybridbereitstellung in Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,20 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca9ebc7a28e07eec9b24c0628ade4941c0fd2fa2
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: fa72c0d6a03ef89d0c04b0a70a0bbc918a508243
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706695"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136975"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Upgrade von einer Skype for Business-hybridbereitstellung in Teams
 
@@ -39,7 +41,7 @@ Dieser Artikel ist Teil der Bereitstellungs-und Implementierungsphase Ihrer Upgr
 - [Vorbereiten Ihrer Organisation](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Durchgeführt eines Pilotprojekts](https://aka.ms/SkypeToTeams-Pilot)
 
-Befolgen Sie die Anleitungen in diesem Artikel, wenn Sie Skype for Business oder Microsoft lync lokal bereitgestellt und in einer hybridbereitstellung mit Ihrem Office 365-Mandanten konfiguriert haben, und Ihre Organisation ein Upgrade auf Teams einzeln durchführen möchte – mithilfe mehrerer Koexistenzmodus – oder All-in Wenn Sie eine Upgrade-Reise durchführen möchten, müssen Sie Ihre Benutzer in Skype for Business Online verschieben (sofern Sie nicht bereits online sind) und Ihnen dann den entsprechenden Koexistenz-und Aktualisierungsmodus zuweisen.
+Befolgen Sie die Anleitungen in diesem Artikel, wenn Sie Skype for Business oder Microsoft lync lokal bereitgestellt und in einer hybridbereitstellung mit Ihrem Office 365-Mandanten konfiguriert haben und Ihre Organisation ein Upgrade auf Teams entweder selektiv durchführen möchte, indem Sie mehrere Koexistenzmodus verwenden – oder All-in. Wenn Sie eine Upgrade-Reise durchführen möchten, müssen Sie Ihre Benutzer in Skype for Business Online verschieben (sofern Sie nicht bereits online sind) und Ihnen dann den entsprechenden Koexistenz-und Aktualisierungsmodus zuweisen.
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -57,6 +59,6 @@ Nachdem Sie Ihre Benutzer in Skype for Business Online verschoben haben, können
 
 ## <a name="phone-system-and-teams-upgrade"></a>Upgrade für Telefonsysteme und Teams
 
-Wenn Sie Ihre Skype for Business-hybridbereitstellung in das Telefon System mit Anrufplänen umstellen und Microsoft Ihr öffentlich geschaltetes Telefonnetz (PSTN)-Anbieter ist – und davon ausgehend, dass Sie die Portierung von Telefonnummern abgeschlossen haben – aktualisieren Sie Ihre Benutzer auf Teams über gehen automatisch eingehende PSTN-Anrufe an Teams.
+Wenn Sie Ihre Skype for Business-hybridbereitstellung in das Telefon System mit Anrufplänen umstellen und Microsoft Ihr öffentlich geschaltetes Telefonnetz (PSTN)-Anbieter ist – und vorausgesetzt, dass Sie die Portierung von Telefonnummern abgeschlossen haben – werden durch das Upgrade Ihrer Benutzer auf Teams automatisch eingehende PSTN-Anrufe an Teams übertragen.
 
-Wenn keine Anrufpläne verfügbar sind oder Sie beabsichtigen, Ihren vorhandenen PSTN-Verbindungsanbieter zu verwenden, müssen Sie Ihre Enterprise-VoIP-Bereitstellung – oder die Hybrid-sprach Bereitstellung, die Ihre vorhandene lokale Bereitstellung oder Cloud Connector Edition verwendet – umleiten, um Microsoft Phone-System Direktes Routing Wenn Sie Ihre Benutzer auf Teams aktualisieren möchten, lesen Sie die [zusätzlichen Überlegungen für das direkte Routing von Telefonsystemen](2-envision-make-my-service-decisions-direct-routing.md).
+Wenn keine Anrufpläne verfügbar sind oder Sie beabsichtigen, Ihren vorhandenen PSTN-Verbindungsanbieter zu verwenden, müssen Sie Ihre Enterprise-VoIP-Bereitstellung – oder die Hybrid-sprach Bereitstellung, die Ihre vorhandene lokale Bereitstellung oder Cloud Connector Edition verwendet – auf das direkte Routing von Microsoft Phone System umstellen. Wenn Sie Ihre Benutzer auf Teams aktualisieren möchten, lesen Sie die [zusätzlichen Überlegungen für das direkte Routing von Telefonsystemen](2-envision-make-my-service-decisions-direct-routing.md).

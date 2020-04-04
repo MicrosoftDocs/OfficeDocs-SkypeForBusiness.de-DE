@@ -1,5 +1,5 @@
 ---
-title: Onboardingcheckliste für das Konfigurieren des direktem Routings in Microsoft Teams
+title: Checkliste für Onboarding – Konfigurieren des direkten Routings – Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6179eec9d6f08bb40b5bae493cb49f59f8eddd6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 176075b9ea5570b7049ae1647dc63cfebfa84194
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837425"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139936"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>Konfigurieren des direkten Routings in Microsoft Teams
 

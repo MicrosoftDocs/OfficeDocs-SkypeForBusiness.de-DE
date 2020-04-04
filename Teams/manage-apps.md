@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Ihre Teams-apps auf der Seite "Apps verwalten
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 41d75d492cf8351f1f925713054ccf4be4d8725d
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: 532129792dd35a2b016510094f1b08beade1b32a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229915"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136845"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
 ======================================================
@@ -79,8 +79,12 @@ Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer a
     
 2. Deaktivieren oder aktivieren Sie unter **apps von Drittanbietern**diese Einstellungen, um den Zugriff auf Drittanbieter-apps zu steuern:
 
-    - **Drittanbieter-apps in Teams zulassen**: Hiermit wird gesteuert, ob Benutzer apps von Drittanbietern verwenden können. Wenn Sie diese Einstellung deaktivieren, können Ihre Benutzer keine apps von Drittanbietern installieren oder verwenden. Für apps, die Sie zugelassen haben, wird der Status als **zulässig, aber organisationsweit deaktiviert**angezeigt.
-    
+    - **Drittanbieter-apps in Teams zulassen**: Hiermit wird gesteuert, ob Benutzer apps von Drittanbietern verwenden können. Wenn Sie diese Einstellung deaktivieren, können Ihre Benutzer keine apps von Drittanbietern installieren oder verwenden. Für apps, die Sie zugelassen haben, wird der Status als **zulässig, aber organisationsweit deaktiviert**angezeigt.              
+
+        > [!NOTE]
+        > In einer Microsoft 365 Government-gcc-Bereitstellung von Teams ist die Einstellung **Drittanbieter-apps in Teams zulassen** standardmäßig deaktiviert.
+
+        Wenn **Drittanbieter-apps in Teams zulassen** deaktiviert ist, werden [ausgehende webhooks](https://docs.microsoft.com/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) deaktiviert, was bedeutet, dass Benutzer Sie nicht erstellen können. Wenn diese Einstellung aktiviert ist, werden ausgehende webhooks für alle Benutzer aktiviert, unabhängig davon, ob die Einstellung in der APP-Berechtigungsrichtlinie für Benutzer aktiviert oder deaktiviert ist.
     - **Alle neuen Drittanbieter-apps zulassen, die standardmäßig im Store veröffentlicht**werden: Hiermit wird gesteuert, ob neue Drittanbieter-apps, die im App Store für Teams veröffentlicht werden, automatisch in Teams verfügbar sind. Diese Option kann nur festgesetzt werden, wenn Sie Drittanbieter-apps zulassen.
 
 3. Deaktivieren oder aktivieren Sie unter **benutzerdefinierte apps**die Option **Interaktion mit benutzerdefinierten apps zulassen**. Mit dieser Einstellung wird gesteuert, ob Benutzer mit benutzerdefinierten apps interagieren können. Weitere Informationen finden Sie unter [Verwalten von benutzerdefinierten App-Richtlinien und-Einstellungen in Teams](teams-custom-app-policies-and-settings.md).

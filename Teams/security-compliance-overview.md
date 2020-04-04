@@ -1,5 +1,5 @@
 ---
-title: Übersicht über Sicherheit und Compliance in Microsoft Teams
+title: Übersicht über Sicherheit und Compliance
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -17,14 +17,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fbec8f7d246a4acfe241ef4f4d701cc9e1e6b28c
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: e777ef76f6c8f11dfd914b3c4be149c224b63cf5
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117423"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139094"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sicherheit und Compliance in Microsoft Teams
 
@@ -143,6 +144,10 @@ Wenn Sie weitere Teams-spezifische Informationen zum Konfigurieren der Inhaltssu
 ### <a name="auditing-and-reporting"></a>Überwachung und Berichterstellung
 
 Die Überwachungsprotokoll Suche wird direkt in das Office 365 Security & Compliance Center integriert und bietet Ihnen die Möglichkeit, Benachrichtigungen sowie Berichte zu Überwachungsereignissen festzulegen, indem Sie den Export von Arbeits Auslastungs spezifischen oder generischen Ereignis Sätzen für die Verwendung durch Administratoren und die Untersuchung in einer unbegrenzten Überwachungs Zeitachse zulassen. Sie können Benachrichtigungen für alle Überwachungsprotokolldaten im Office 365 Security & Compliance Center einrichten und diese Daten zur weiteren Analyse Filtern und exportieren. Weitere Informationen zum Durchführen eines Überwachungsprotokolls für Office 365 finden Sie im Artikel [Durchsuchen des Überwachungsprotokolls](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) . Wenn Sie mehr über das Suchen nach Microsoft Teams-Ereignissen im Office 365 Security & Compliance Center erfahren möchten, haben wir auch den Artikel [Auditing in Teams](audit-log-events.md) für Sie zu überprüfen.
+
+## <a name="privacy"></a>Datenschutz
+
+Bei Microsoft steht der Schutz Ihrer Daten an oberster Stelle. Informationen zu unseren Datenschutzmethoden finden Sie unter [Privatsphäre bei Microsoft](https://www.microsoft.com/trust-center/privacy).
 
 ## <a name="information-protection-architecture"></a>Architektur des Informationsschutzes
 

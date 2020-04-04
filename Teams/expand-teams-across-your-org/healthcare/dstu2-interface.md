@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft Teams patients App EPA-Integration
-ms.openlocfilehash: 10a6b21e583b5fdd3e70857c4cfc5e7e21a7e988
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Erfahren Sie mehr über die DSTU2-Schnittstellenspezifikation in Teams, einschließlich der Einrichtung oder Neukonfiguration eines FHIR-Servers für die Zusammenarbeit mit der Microsoft Teams-Patienten-app.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: f09f43af431b3f0cc6d9f984171206f2549a550a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153817"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136955"
 ---
 # <a name="dstu2-interface-specification"></a>Benutzeroberflächenspezifikation DSTU2
 
@@ -175,7 +176,7 @@ Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
     Request: besorgen Sie sich <fhir-Server>/Condition? Patient =<Patient-ID>&_count = 10
     
-    Response: {"Ressource": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcentyp": "Bedingung"; "ID": "<Resource-ID>"; "Code": {"Coding": [{"System":http://snomed.info/sct""; "Code": "386033004"; "Display": "Neuropathie (Nervenschaden)"}]}, "dateRecorded": "2018-09-17", "Schweregrad": {"Codierung": [{"Syst EM ":"http://snomed.info/sct"," Code ":" 24484000 ";" Anzeige ":" schwere "}]}},}]}
+    Response: {"Ressource": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "Bedingung"; "ID": "<Resource-ID>"; "Code": {"Coding": [{"System": "http://snomed.info/sct"; "Code": "386033004", "Display": "Neuropathie (Nerve Damage)"}]}, "dateRecorded": "2018-09-17"; "Severity": {"Coding": [{"System"http://snomed.info/sct: ""; "Code": "24484000"; "Anzeige": "schwere"}]}},}]}
 
 * * *
 
@@ -204,7 +205,7 @@ Das Ziel besteht darin, den letzten bekannten Standort des Patienten abrufen zu 
 
     Request: besorgen Sie sich <fhir-Server>/Encounter? Patient =<Patient-ID>&_sort:d ESC = Datum&_count = 1
     
-    Response: {"Ressourcentyp": "Bundle"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcentyp": "Begegnung", "ID": "<Resource-ID>"; "Bezeichner": [{"Use": "offiziell"; "Wert"<id>: ""}], "Status": "angekommen", "Typ": [{"Coding": [{"Display": "Termin"}],}], "Patient": {"Reference": "Patient/<Patient-ID>"}, "Zeitraum": {"Start": "09/17/2018 1:00:00 pm"}, "Ort": [{              "Ort": {"Anzeige": "Clinic-HNO"},}]}}]}
+    Antwort: {"Ressourcen": "Bundle", "Type": "searchset", "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "Begegnung"; "ID": "<Resource-ID->"; "Bezeichner": [{"Use": "offiziell"; "" "<id>" "" ""; Status ":" angekommen ";" Typ ": [{" Coding ": [{" Display ":" Termin "}],}]," Patient ": {" Bezug ":" Patienten-<-ID> "}," Zeitraum ": {" Start ":" 09/17/2018 1:00:00 pm "}," Ort ": [{" Ort ": {" Anzeige ":" Clinic-HNO "},}]}}]}
 
 * * *
 
@@ -236,7 +237,7 @@ Sehen Sie sich das folgende Beispiel für diesen Aufruf an:
 
     Request: besorgen Sie sich <fhir-Server>/allergyintolerance? Patient =<Patienten-ID>
     
-    Response: {"Ressource": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "AllergyIntolerance"; "ID": "<Resource-ID>", "recordedDate": "2018-09-17T07:00:00.000 z", "Substanz": {"Text": "Cashew-Nüsse"}, "Status": "bestätigt", "Reaktion": [{"Substanz": {"Text": "Cashew-Nuss-Allergen Extrakt injizierbares Produkt"}, "manifestati auf ": [{" Text ":" anaphylaktischer-Reaktion "}]}]}}]}
+    Response: {"Ressource": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "AllergyIntolerance"; "ID": "<Resource-ID>"; "recordedDate": "2018-09-17T07:00:00.000 z", "Substanz": {"Text": "Cashew-Nüsse"}, "Status": "bestätigt"; "Reaktion": [{"Substanz": {"Text": "Cashew-Nuss-Allergen Extrakt injizierbares Produkt"}, "Manifestation": [{"Text": "anaphylaktischer-Reaktion"}]}]}}]}
 
 * * *
 

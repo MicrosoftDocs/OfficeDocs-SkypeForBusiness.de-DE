@@ -1,5 +1,5 @@
 ---
-title: Quality of Service in Microsoft Teams-Clients
+title: Implementieren von Quality of Service in Teams-Clients
 author: lolajacobsen
 ms.author: lolaj
 manager: Serdars
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fb3823a77995e401be7e60e86603f9d8c56099f
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 66e6dc43e03f1ec3606116ad001f11104de4a55f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863156"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139604"
 ---
 # <a name="set-qos-on-windows-clients"></a>Festlegen von QoS auf Windows-Clients
 
@@ -30,11 +31,11 @@ Sie können richtlinienbasierte QoS in Gruppenrichtlinien verwenden, um den Quel
 
 *Tabelle 1 Empfohlene anfängliche Portbereiche*
 
-|Media Traffic-Typ| Client Quellportbereich |Protokoll|DSCP-Wert|DSCP-Klasse|
+|Typ des Mediendatenverkehrs| Client-Quellportbereich  |Protokoll|DSCP-Wert|DSCP-Klasse|
 |:--- |:--- |:--- |:--- |:--- |
-|Audio| 50000 – 50019|TCP/UDP|46|Expedited Forwarding (EF)|
-|Video| 50020 – 50039|TCP/UDP|34|Assured Forwarding (AF41)|
-|Anwendung/Bildschirmübertragung| 50040 – 50059|TCP/UDP|18|Sichere Weiterleitung (AF21)|
+|Audio| 50.000–50.019|TCP/UDP|46|Expedited Forwarding (EF)|
+|Video| 50.020–50.039|TCP/UDP|34|Assured Forwarding (AF41)|
+|Anwendung/Bildschirmfreigabe| 50.040–50.059|TCP/UDP|18|Assured Forwarding (AF21)|
 | | | | | |
 
 Konfigurieren Sie, wenn möglich, richtlinienbasierte QoS-Einstellungen in einem Gruppenrichtlinienobjekt. Die folgenden Schritte ähneln dem [Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Clients in Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), die einige zusätzliche Details enthält, die möglicherweise nicht erforderlich sind.

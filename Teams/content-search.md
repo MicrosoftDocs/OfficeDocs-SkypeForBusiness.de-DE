@@ -13,15 +13,16 @@ ms.reviewer: anach
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Informationen zur Inhaltssuche in Microsoft Teams und zum Suchen nach Kanal Unterhaltungen aus Exchange, Dateiuploads und Änderungen aus SharePoint und OneNote-Änderungen.
+ms.custom: seo-marvel-mar2020
+description: Informieren Sie sich über die Verwendung der Inhaltssuche in Microsoft Teams, um Microsoft Teams-Informationen aus Exchange, SharePoint Online, OneDrive for Business und OneNote abzufragen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222b57021a259795823031d9855304d1ecf27f4f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: af81b857d6cf60f7de1a1b1e199d08ede089de5f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825343"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137745"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Verwenden der Inhaltssuche in Microsoft Teams
 =====================================
@@ -42,7 +43,7 @@ Sie können der **Inhaltssuche** auch Abfragekriterien hinzufügen, um die zurü
 
 ## <a name="content-search-of-private-channels"></a>Inhaltssuche privater Kanäle
 
-Datensätze für Nachrichten, die in einem privaten Kanal gesendet wurden, werden an das Postfach aller privaten Kanalmitglieder und nicht an ein Gruppenpostfach übermittelt. Die Titel der Datensätze werden so formatiert, dass Sie angeben, von welchem privaten Kanal Sie gesendet wurden.
+Einträge für Nachrichten, die in einem privaten Kanal gesendet werden, werden an das Postfach aller Mitglieder des privaten Kanals und nicht an ein Gruppenpostfach übermittelt. Die Titel der Einträge sind so formatiert, dass sie angeben, von welchem privaten Kanal sie gesendet wurden.
 
 Da jeder private Kanal über eine eigene SharePoint-Websitesammlung verfügt, die von der übergeordneten Teamwebsite getrennt ist, werden Dateien in einem privaten Kanal unabhängig vom übergeordneten Team verwaltet.
 
@@ -69,7 +70,7 @@ Bevor Sie diese Schritte ausführen, installieren Sie die [SharePoint Online-Ver
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
-    $groupID = “e8195240-4a70-4830-9106-80193cf717cb“
+    $groupID = "e8195240-4a70-4830-9106-80193cf717cb"
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
@@ -91,4 +92,4 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass die [neueste Versi
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [eDiscovery-Fälle im Office 365 Security #a0 Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
+- [eDiscovery-Fälle im Office 365 Security & Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

@@ -1,5 +1,5 @@
 ---
-title: Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität
+title: Benutzerkonten in einer Hybridumgebung mit PSTN
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,12 +16,13 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Erfahren Sie mehr über verschiedene Kombinationen der Benutzererstellung und welche Kombinationen unterstützt oder nicht unterstützt werden.
-ms.openlocfilehash: f33c7bffadb443aafad6fa0e7d910f6416a95d6f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 8bdab33d6f1f009ce51afe999923f4f6f5d1905a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837285"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141078"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität
 
@@ -58,7 +59,7 @@ Eine Skype for Business-Hybridumgebung mit PSTN-Konnektivität bietet Flexibilit
 
 |**In erstelltes Benutzerobjekt**  |**Skype for Business-Dienstanbieter des Benutzers**|**Client des Benutzers**|**Sprachoption**|**Unterstützt**|
 | ------------ | --------- | --------- | --------- | -------- |
-|Lokale Anzeige| Lokal |Skype for Business   | Enterprise-VoIP   |Ja|
+|Lokale Anzeige| Lokal |Skype for Business   | Enterprise Voice   |Ja|
 |Lokale Anzeige|Online| Skype for Business  | Hybride sprach Konnektivität   |Ja |
 |Lokale Anzeige|Online |Microsoft Teams |Direktes Routing  |Ja |
 |**Nicht unterstützte Kombinationen**    | |         |         |      |

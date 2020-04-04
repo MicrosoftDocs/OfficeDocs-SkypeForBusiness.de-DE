@@ -1,6 +1,5 @@
 ---
 title: Bereitstellen von Microsoft Teams rooms Management mit Azure Monitor
-ms.author: v-lanac
 author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
@@ -12,15 +11,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: In diesem Artikel wird erläutert, wie Sie die Verwaltung von Microsoft Teams rooms-Geräten in integrierter End-to-End-Weise mithilfe von Azure Monitor bereitstellen.
-ms.openlocfilehash: 70c2311143a4daabbc0838168e19969f950a2df1
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3e01ae7a0fddcb63595b7dcc15b719ad1d41db32
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417540"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137645"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Bereit :::no-loc text="Microsoft Teams Rooms"::: stellen der Verwaltung mit:::no-loc text="Azure Monitor":::
 
@@ -416,7 +415,7 @@ Wenn eine Benachrichtigung generiert wird, erhalten Sie eine e-Mail mit einer Li
 ! [Beispiel :::no-loc text="Azure Monitor"::: Benachrichtigungs-e-Mail] (.. /Media/deploy-Azure-Monitor-6.png "Beispiel :::no-loc text="Azure Monitor"::: Benachrichtigungs-e-Mail")
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>Konfigurieren aller Geräte für:::no-loc text="Azure Monitoring":::
-<a name="configure_all_devices"></a> Nachdem die Dashboards und Benachrichtigungen konfiguriert sind, können Sie den Agenten auf allen :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: Geräten einrichten und konfigurieren, um die Überwachungs Bereitstellung abzuschließen.
+<a name="configure_all_devices"> </a> Nachdem die Dashboards und Benachrichtigungen konfiguriert sind, können Sie den Agenten auf allen :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: Geräten einrichten und konfigurieren, um die Überwachungs Bereitstellung abzuschließen.
 
 Obwohl Sie den :::no-loc text="Microsoft Monitoring"::: Agenten auf jedem Gerät manuell installieren und konfigurieren können, empfehlen wir dringend, vorhandene Softwarebereitstellungstools und-Methoden zu nutzen.
 

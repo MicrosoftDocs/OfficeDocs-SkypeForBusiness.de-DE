@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: Informieren Sie sich über die Schritte zum Einrichten von Live für Ereignisse in Microsoft Teams, einschließlich der Vorbereitung Ihres Netzwerks, dem Zuweisen von Lizenzen, dem Verwenden von Richtlinien zum Aktivieren von Live Ereignis Features und der Terminplanung für Benutzer sowie dem Einrichten eines Drittanbieters für den Vertrieb.
-ms.custom: ms.teamsadmincenter.liveevents.policies
+description: Richten Sie Live für Ereignisse in Teams ein, einschließlich Einrichten Ihres Netzwerks, Zuweisen von Lizenzen, Aktivieren von Live-Ereignis Features und-Planung sowie Video verteilungslösungen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f18f35ef6775f04049b79374a4e2940646eff9e8
-ms.sourcegitcommit: a6425a536746e129ab8bda3984b5ae63fb316192
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ae30fdb824c62027d1a704435e80df2a9abf1f85
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558575"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140564"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichten von Live-Ereignissen in Microsoft Teams
 
@@ -74,7 +74,7 @@ Wenn Sie eine benutzerdefinierte Richtlinie für Live Ereignisse erstellt haben,
 ![Ein Symbol mit dem Microsoft Teams-Logo](../media/teams-logo-30x30.png) Verwenden des Microsoft Teams admin Centers
 
 1. Wechseln Sie in der linken Navigationsleiste zu **Benutzer**, und wählen Sie dann den Benutzer aus.
-2. Wählen Sie neben **zugewiesene Richtlinien**die Option **Bearbeiten**aus. 
+2. Wählen Sie neben **Zugewiesene Richtlinien****Bearbeiten** aus. 
 3. Wählen Sie die Richtlinie für Live Ereignisse aus, die Sie zuweisen möchten, und wählen Sie dann **Speichern**aus. 
 
 Sie können einer oder mehreren Benutzern auch eine Live-Ereignis Richtlinie wie folgt zuweisen:
@@ -114,7 +114,7 @@ Die folgenden Sdn/ECDN-Lösungen sind bereits integriert und können für die Ve
 - Das **OmniCache** bietet eine Netzwerk Verteilung der nächsten Generation und gewährleistet die nahtlose Bereitstellung von Videoinhalten über das globale WANs hinweg, wodurch Event Producer die Netzwerkbandbreite optimieren und erfolgreiche Live-Event-Broadcasts und on-Demand-Streaming unterstützen können. Die Unterstützung für OmniCache für Live-Events, die in Teams erstellt wurden, wird in Kürze verfügbar sein. [Weitere Informationen](http://www.ramp.com). 
  
 > [!NOTE] 
-> Ihre ausgewählte Sdn-oder ECDN-Lösung unterliegt den **Nutzungsbedingungen und den Datenschutzrichtlinien**des ausgewählten Drittanbieters, was die Nutzung der Lösung des Anbieters regelt. Die Nutzung der Lösung des Anbieters unterliegt nicht den Microsoft-Volumenlizenz Bestimmungen oder den Online-Dienstbedingungen. Wenn Sie mit den **Bedingungen des Drittanbieters**nicht einverstanden sind, aktivieren Sie die Lösung nicht in Teams. 
+> Ihre ausgewählte Sdn-oder ECDN-Lösung unterliegt den **Nutzungsbedingungen und Datenschutzrichtlinien**des ausgewählten Drittanbieters, die Ihre Nutzung der Lösung des Anbieters Regeln. Die Nutzung der Lösung des Anbieters unterliegt nicht den Microsoft-Volumenlizenz Bestimmungen oder den Online-Dienstbedingungen. Wenn Sie mit den **Bedingungen des Drittanbieters**nicht einverstanden sind, aktivieren Sie die Lösung nicht in Teams. 
 
 Nachdem Sie die Sdn-oder ECDN-Lösung eingerichtet haben, können Sie den Anbieter für Live-Ereignisse in Teams konfigurieren. 
 
@@ -124,5 +124,4 @@ Wechseln Sie zu [Einstellungen für Live Ereignisse in Teams konfigurieren](conf
 ### <a name="related-topics"></a>Verwandte Themen
 - [Was sind Teams-Liveereignisse?](what-are-teams-live-events.md)
 - [Planen von Teams-Liveereignissen](plan-for-teams-live-events.md)
-- [Konfigurieren von Live Ereigniseinstellungen in Microsoft Teams](configure-teams-live-events.md)
-
+- [Konfigurieren der Einstellungen für Liveereignisse in Teams](configure-teams-live-events.md)

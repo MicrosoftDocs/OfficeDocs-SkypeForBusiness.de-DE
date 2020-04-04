@@ -13,15 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 MS.collection:
 - M365-voice
-description: Erfahren Sie, wie Sie den Bericht "PSTN-Minuten Pools für Teams" im Microsoft Teams Admin Center verwenden, um die Anzahl der Minuten anzuzeigen, die während des aktuellen Monats innerhalb Ihrer Organisation verbraucht werden.
+description: So verwenden Sie den Bericht "PSTN-Minuten Pools für Teams" im Microsoft Teams Admin Center, um die innerhalb Ihres Unternehmens während des aktuellen Monats verbrauchten Minuten anzuzeigen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fa9b8f4a676c1e937fed02eabc0e7cd4acd5325
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5f44d8a48dc01b8d2cdbce9dd164d5b2440c24d8
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827323"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140666"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams PSTN-Minuten Pools-Bericht
 
@@ -29,7 +30,7 @@ Der Bericht "PSTN-Minuten Pools für Teams" im Microsoft Teams Admin Center biet
 
 ## <a name="view-the-report"></a>Anzeigen des Berichts
 
-Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics #a0 Berichte** > **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **PSTN-Minuten Pools**aus, und klicken Sie dann auf **Bericht ausführen**.
+Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics & Berichte** > **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **PSTN-Minuten Pools**aus, und klicken Sie dann auf **Bericht ausführen**.
 
 ![Screenshot des Berichts "PSTN-Minuten Pools für Teams" im Admin Center](../media/teams-reports-pstn-minute-pools-with-callouts.png "Screenshot des Berichts "PSTN-Minuten Pools für Teams" im Microsoft Teams Admin Center mit nummerierten Beschriftungen")
 

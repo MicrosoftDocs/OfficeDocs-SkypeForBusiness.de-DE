@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Lesen Sie dieses Thema, um zu erfahren, wie Sie mit dem Microsoft Phone System Direct Routing einen unterstützten, vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: be0d901095afa322935944a9b4898e540946bf8a
-ms.sourcegitcommit: 46b15a11755a89526be2a0b20befad61c628cdb4
+ms.custom: seo-marvel-mar2020
+description: Erfahren Sie, wie Sie mit dem direkt Routing von Microsoft Phone System einen unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
+ms.openlocfilehash: bc092c2441ff359de1189e1ff000a61c51dcec1f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955724"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140284"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -264,7 +265,7 @@ SIP/TLS|Sbchttps|SIP-Proxy|Im SBC definiert|5061|
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>Failover-Mechanismus für SIP-Signalisierungen
 
-Der SBC führt eine DNS-Abfrage aus, um SIP.pstnhub.Microsoft.com zu lösen. Basierend auf dem SBC-Speicherort und den Datencenter-Leistungs Metriken wird das primäre Rechenzentrum ausgewählt. Wenn das primäre Rechenzentrum ein Problem auftritt, versucht der SBC die sip2.pstnhub.Microsoft.com, die in das zweite zugewiesene Rechenzentrum aufgelöst wird, und in dem seltenen Fall, dass Rechenzentren in zwei Regionen nicht verfügbar sind, versucht der SBC den letzten FQDN erneut ( sip3.pstnhub.Microsoft.com), das die IP des tertiären Rechenzentrums bereitstellt.
+Der SBC führt eine DNS-Abfrage aus, um SIP.pstnhub.Microsoft.com zu lösen. Basierend auf dem SBC-Speicherort und den Datencenter-Leistungs Metriken wird das primäre Rechenzentrum ausgewählt. Wenn das primäre Rechenzentrum ein Problem aufweist, versucht der SBC die sip2.pstnhub.Microsoft.com, die in das zweite zugewiesene Rechenzentrum aufgelöst wird, und im seltenen Fall, dass Rechenzentren in zwei Regionen nicht verfügbar sind, versucht der SBC den letzten FQDN (sip3.pstnhub.Microsoft.com), der die IP des tertiären Datencenters bereitstellt.
 
 In der folgenden Tabelle sind die Beziehungen zwischen primären, sekundären und tertiären Rechenzentren zusammengefasst:
 

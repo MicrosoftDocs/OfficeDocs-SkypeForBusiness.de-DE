@@ -1,5 +1,5 @@
 ---
-title: Zuweisen oder Ändern des Orts eines Notfall Standorts für einen Benutzer
+title: Zuweisen, Ändern von Orten für Notfall Standorte für Benutzer
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,12 +17,13 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie den Ort für einen Notfall Standort für Benutzer in Ihrer Organisation zuweisen oder ändern.
-ms.openlocfilehash: 5fc4f9ceeb8fc602ae28831ba48fcf37191608b9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 6390ebf3cc366d41b36d09f597dd2bf76ba2d2a2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684168"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137485"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Zuweisen oder Ändern des Orts eines Notfall Standorts für einen Benutzer
 

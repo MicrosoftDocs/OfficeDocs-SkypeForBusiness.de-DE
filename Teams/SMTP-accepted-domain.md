@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen der SMTP-Domäne von Microsoft Teams als akzeptierte Senderdomäne in Exchange Online
+title: Hinzufügen der SMTP-Domäne "Teams" als zugelassene Absenderdomäne in Exchange Online
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -16,12 +16,12 @@ f1.keywords:
 description: Erfahren Sie, wie Sie die Microsoft Teams-SMTP-Domäne als zulässige Absenderdomäne in Exchange Online hinzufügen, um Benachrichtigungen an Teammitglieder zu senden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3455c56ab3d51b83d2d5bc27d41824b6fe16ae9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: dc35a4797cf5b5fde001090e386f9c172c5b9458
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834765"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137265"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Hinzufügen der SMTP-Domäne von Microsoft Teams als akzeptierte Senderdomäne in Exchange Online 
 =============================================================================

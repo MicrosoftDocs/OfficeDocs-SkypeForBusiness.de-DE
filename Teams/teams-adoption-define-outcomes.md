@@ -1,5 +1,5 @@
 ---
-title: Definieren von Ergebnissen und des Erfolgs für Ihre Einführung von Microsoft Teams
+title: Definieren von Ergebnissen und Erfolg bei der Einführung von Microsoft Teams – Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,9 @@ ms.date: 11/01/2018
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
@@ -19,12 +21,12 @@ f1.keywords:
 description: Erfahren Sie, wie Sie die Ergebnisse und den Erfolg ihrer umfassenden Aktivierung von Teams ermitteln können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51f1af667e7cf4e387b9e05eec40d17bb48a550d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f963acb58369e7b623969cb518f53249912bfd67
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837855"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140798"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definieren von Ergebnissen und des Erfolgs für Ihre Einführung von Microsoft Teams
 

@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: bc87d582979b81fc51714b5c278ad978214a9661
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Informieren Sie sich über das Wählen von gebührenfreien Nummern in Saudi-Arabien, einschließlich Verfügbarkeit, Verfügbarkeit von drahtgebundenen/fest Netzanschlüssen und Mobilfunknetz sowie Einschränkungen.
+ms.openlocfilehash: 5625d4f7ef04ba9365a4c0169d168e0a479fff89
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41682292"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139824"
 ---
 # <a name="toll-free-dialing-restrictions-in-saudi-arabia"></a>Einschränkungen für gebührenfreie Telefonnummern in Saudi-Arabien
 

@@ -1,5 +1,5 @@
 ---
-title: Anrufpläne in Office 365 – Verhaltenskodex für das Vereinigte Königreich
+title: Code of Practice für Großbritannien -Office 365-Anrufpläne
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: 'Informieren Sie sich über den Code of Practice für Anrufpläne (PSTN-Anrufpläne) für Skype for Business für Großbritannien, wo Sie Hilfe erhalten und wie Sie Beschwerden einreichen und Streitigkeiten lösen können. '
-ms.openlocfilehash: a811b3a49310a81d5cc62502fe210367b5ac6905
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Informieren Sie sich über den Code of Practice für PSTN-Anrufpläne für Skype for Business UK, einschließlich, wo Sie Hilfe erhalten und wie Sie Beschwerden einreichen und Streitigkeiten lösen können.
+ms.openlocfilehash: ef69d726ab40a4eb282422ab549961776c985ef1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824943"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139044"
 ---
 # <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Anrufpläne in Office 365 – Verhaltenskodex für das Vereinigte Königreich
 
@@ -65,7 +66,7 @@ Der Office 365-Anrufplan basiert auf Ihrer Breitbandverbindung. Wenn es bei ihre
 
 Skype for Business bietet Kunden in England, Wales, Schottland und Nordirland Zugriff auf die öffentlichen Notrufe 999/112. Allerdings können Notrufe an 999 oder 112 mit Office 365-Anruf Plan Diensten anders als mit herkömmlichen Telefondiensten ausgeführt werden. Kunden müssen alle Benutzer über die Office 365-Anruf Plan Dienste über diese Unterschiede informieren.
 
-Zu den Unterschieden gehören die folgenden: (i) Skype for Business kennt möglicherweise nicht den tatsächlichen Standort eines Anrufers, was dazu führen kann, dass die Notrufdienste an den falschen Ort versandt werden. (II) Wenn ein Skype for Business-Nutzer einen Notruf anwählt, kann der Nutzer von einem Betreiber aufgefordert werden, seinen aktuellen Standort zur Verfügung zu stellen, um bei der ordnungsgemäßen Weiterleitung des Notrufs und beim Versand von Notfalldiensten behilflich zu sein. (III) Wenn das Gerät des Benutzers keinen Strom hat, einen Stromausfall hat oder aus irgendeinem Grund nicht auf das Internet zugreifen kann, kann der Benutzer keinen Notruf über die Office 365-Anruf Plan Dienste tätigen; und (IV) Obwohl Office 365-Anruf Plan Dienste überall in der Welt verwendet werden können, in denen eine Internet Verbindung verfügbar ist, sollten Benutzer nicht 999 oder 112 außerhalb von England, Wales, Schottland oder Nordirland anrufen, da der Anruf wahrscheinlich nicht an die entsprechenden Notfalldienst.
+Zu den Unterschieden gehören die folgenden: (i) Skype for Business kennt möglicherweise nicht den tatsächlichen Standort eines Anrufers, was dazu führen kann, dass die Notrufdienste an den falschen Ort versandt werden. (II) Wenn ein Skype for Business-Nutzer einen Notruf anwählt, kann der Nutzer von einem Betreiber aufgefordert werden, seinen aktuellen Standort zur Verfügung zu stellen, um bei der ordnungsgemäßen Weiterleitung des Notrufs und beim Versand von Notfalldiensten behilflich zu sein. (III) Wenn das Gerät des Benutzers keinen Strom hat, einen Stromausfall hat oder aus irgendeinem Grund nicht auf das Internet zugreifen kann, kann der Benutzer keinen Notruf über die Office 365-Anruf Plan Dienste tätigen; und (IV) Obwohl Office 365-Anruf Plan Dienste überall in der Welt verwendet werden können, in denen eine Internet Verbindung verfügbar ist, sollten Benutzer nicht 999 oder 112 außerhalb von England, Wales, Schottland oder Nordirland anrufen, da der Anruf wahrscheinlich nicht an den entsprechenden Notfalldienst weitergeleitet wird.
 
 Es ist wichtig, dass jeder Kunde den Standort des Benutzers registriert und diese Informationen stets auf dem neuesten Stand hält, sodass sie den Notfalldiensten bereitgestellt werden können. Sie können Änderungen an den Standortinformationen online über das Skype for Business-Administratorportal vornehmen.
 
@@ -150,4 +151,3 @@ Gebühren für nationale Übersetzungsdienste, persönliche Nummern und 0870er N
 
 ## <a name="related-topics"></a>Verwandte Themen
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-

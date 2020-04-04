@@ -13,21 +13,22 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: IT-Administratoren können Gäste auf der Mandantenebene hinzufügen, Richtlinien und Berechtigungen für Gastbenutzer festlegen und verwalten, festlegen, welche Benutzer Gäste einladen können, und Berichte über Gastbenutzeraktivität abrufen.
+description: Hier erfahren Sie, wie Sie Ihre ersten Teams und Kanäle erstellen, die Nutzung und das Feedback überwachen und Ressourcen für die Planung Ihres organisationsweiten Rollouts erhalten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef091eb926301e6dd9d3ac27d7c62486d93075a1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: fea5ab9eec355d77f19165253fe97ee8aeb725ca
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834775"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139244"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Verwalten des Gastzugriffs in Microsoft Teams
 ======================================
 
 > [!IMPORTANT]
-> Möglicherweise müssen Sie bis zu 24 Stunden warten, bis Ihre Änderungen wirksam werden. 
+> Sie müssen ggf. bis zu 24 Stunden warten, bis Ihre Änderungen wirksam werden. 
 
 **Guest** ist ein Benutzertyp in Microsoft Teams, der in allen Office 365 Business Premium-, Office 365 Enterprise-, Office 365 Business Essentials-und Office 365 Education-Abonnements enthalten ist. Eine zusätzliche Office 365-Lizenz ist nicht erforderlich. Weitere Informationen finden Sie unten unter [Gastzugriff-Lizenzierung](#guest-access-licensing-limits) .
 

@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation
+title: Hinzufügen, ändern und Entfernen von Notfall Standorten
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -17,12 +17,13 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 'Hier erfahren Sie, wie Sie im Microsoft Teams Admin Center einen Notfall Standort für Ihre Organisation hinzufügen, ändern oder entfernen. '
-ms.openlocfilehash: 2471f13f67555eeff4e0a1b130c416dbbe97b0c7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5ec834592e6978c2e2b63810ea25eb7e837513dd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695829"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141268"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation
 
@@ -40,7 +41,7 @@ Informationen dazu, wie Sie einen Anrufplan erhalten und wie viel er kostet, fin
 4. Wählen Sie das Land oder die Region aus, und geben Sie dann die Adresse ein.
 
    > [!NOTE]
-   > In Belgien, Frankreich, Deutschland, Irland, den Niederlanden und Spanien ist es wichtig zu verstehen, dass zum erfolgreichen Aktivieren einer Telefonnummer in Office 365 die Adresse, die in dem Notfall Standort eingerichtet ist, der zum Abrufen der Nummer verwendet wird, mit der Telefonnummer übereinstimmen muss. Ortsvorwahl.
+   > In Belgien, Frankreich, Deutschland, Irland, den Niederlanden und Spanien ist es wichtig zu verstehen, dass zum erfolgreichen Aktivieren einer Telefonnummer in Office 365 die Adresse, die in dem Notfall Standort eingerichtet ist, der zum Abrufen der Nummer verwendet wird, mit der Ortsvorwahl der Telefonnummer übereinstimmen muss.
 5. Wenn die Adresse nicht gefunden wird und Sie die Adresse manuell bearbeiten möchten, aktivieren Sie das **Adressformular manuell bearbeiten, wenn die ausgewählte Adresse nicht gefunden werden kann**.
 6. Klicken Sie auf **Speichern**.
     

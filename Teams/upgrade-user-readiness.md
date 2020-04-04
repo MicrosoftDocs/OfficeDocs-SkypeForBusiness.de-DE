@@ -1,5 +1,5 @@
 ---
-title: Vorbereiten eines Plans für die Benutzerakzeptanz; Upgrade von Skype for Business auf Teams
+title: Vorbereiten eines Benutzer Bereitschaftsplans für ein Upgrade auf Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,24 +12,26 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d52c9d670c81e0fcbdcf31012ec08a008b082459
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 5519646aab3f1fbd14a2ee643313e50f9fbc678c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706685"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136645"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>Vorbereiten eines Plans zur Benutzerbereitschaft
 
 ![Phasen der Upgrade-Reise, wobei die Benutzer Bereitschaftsstufe hervorzuheben ist](media/upgrade-banner-user-readiness.png "Phasen der Upgrade-Reise mit dem Schwerpunkt auf der Benutzer Bereitschaftsstufe")
 
-Dieser Artikel ist Teil der Benutzer Bereitschaftsstufe Ihres Upgrade-Vorgangs, einer Aktivität, die Sie parallel zur technischen Bereitschaftsphase abschließen. Bevor Sie fortfahren, bestätigen Sie, dass Sie diese Aktivitäten aus vorherigen Phasen abgeschlossen haben:
+Dieser Artikel ist Teil der Benutzer Bereitschaftsstufe Ihres Upgrade-Vorgangs, einer Aktivität, die Sie parallel zur technischen Bereitschaftsphase abschließen. Vergewissern Sie sich zunächst, dass diese Aktivitäten aus den vorherigen Phasen abgeschlossen sind:
 
 - [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 - [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)

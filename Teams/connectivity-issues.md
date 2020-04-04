@@ -16,12 +16,13 @@ f1.keywords:
 description: Behandeln Sie Konnektivitätsprobleme mit dem Microsoft Teams-Client, die in erster Linie durch die Firewall- oder Proxyverbindung verursacht werden, und informieren Sie sich, wie Sie diese beheben können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a12be097d0609f3631b6761f31350603b283faa2
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ee6cb916388dbfc0109185a0280da052980f8ccd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825353"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137755"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Behandeln von Verbindungsproblemen mit dem Microsoft Teams-Client
 ==============================================================

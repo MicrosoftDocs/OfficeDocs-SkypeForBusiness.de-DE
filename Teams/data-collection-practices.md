@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: Microsoft sammelt Zensus-, Nutzungs-und Fehlerdaten, um zu verstehen, wie Skype for Business verwendet wird und wo Benutzer Probleme auftreten. The data is used to plan product improvements.
-ms.openlocfilehash: 1c88086038c3874ae95f6151c1d04d13e0b9ccaf
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+description: Erfahren Sie, wie Microsoft Census-, Nutzungs-und Fehlerdaten sammelt, um Teams und Skype for Business-Nutzung und-Probleme zu verstehen, um Produktverbesserungen zu planen.
+ms.openlocfilehash: a7bc6066304bfc8d221678f0c37b484e602d1bbd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583102"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137355"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Datensammlungsverfahren im Zusammenhang mit Skype for Business und Microsoft Teams
 

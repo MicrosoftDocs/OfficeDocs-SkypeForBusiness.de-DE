@@ -1,5 +1,5 @@
 ---
-title: Telefonnummern für Audiokonferenzen in Microsoft Teams
+title: Telefonnummern für Audiokonferenzen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
+- seo-marvel-mar2020
 description: Hier erfahren Sie, für welche Länder und Regionen Dial-in-Konferenztelefonnummern verfügbar sind und wie diese automatisch zugewiesen werden.
-ms.openlocfilehash: e7a9d67bfb843e65721ebbd18b03b48aca8a24f0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 921878c7b0dfd8abd313adffb9b87e07e58ad66d
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836875"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137855"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Telefonnummern für Audiokonferenzen in Microsoft Teams
 
@@ -60,7 +61,7 @@ Freigegebene Audiokonferenz-Telefonnummern werden Organisationen automatisch zug
 Eine Liste der Länder/Regionen, in denen Organisationen automatisch Telefonnummern zugewiesen werden, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
     
 > [!NOTE]
-> Das Land oder die Region, in dem sich Ihre Organisation befindet, kann gefunden werden, indem Sie sich beim **Microsoft 365 Admin Center** anmelden und unter **Organisationsprofil**suchen. 
+> Das Land bzw. die Region, in dem bzw. in der sich Ihre Organisation befindet, finden Sie nach der Anmeldung im **Microsoft Office 365 Admin Center** unter **Organisationsprofil**. 
   
 > [!CAUTION]
 > Aufgrund der eingeschränkten Verfügbarkeit von gebührenpflichtigen Telefonnummern in Venezuela, Indonesien und den Vereinigten Arabischen Emiraten wird Organisationen aus diesen Ländern/Regionen nicht automatisch eine gebührenpflichtige Audiokonferenz-Telefonnummer zugewiesen. Gebührenfreie Telefonnummern für diese Standorte stehen je nach verfügbarem Bestand zur Verfügung. 

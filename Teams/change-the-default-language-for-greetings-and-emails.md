@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 'Hier erfahren Sie, wie Sie Skype für Unternehmen einrichten, um eine andere Sprache für die standardmäßige Voicemail-Ansage Ihrer Organisation zu verwenden. '
-ms.openlocfilehash: 078fd14944d5384d38d870e09575980cc89e8889
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: Hier erfahren Sie, wie Sie Skype für Unternehmen einrichten, um eine andere Sprache für die standardmäßige Voicemail-Ansage Ihrer Organisation zu verwenden.
+ms.openlocfilehash: 829776be347f2453f3b87a150b19e2334e876f40
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825233"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139134"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Ändern der Standardsprache für Ansagen und E-Mails
 

@@ -1,5 +1,5 @@
 ---
-title: Festlegen der Länge der PIN für Audiokonferenzbesprechungen in Microsoft Teams
+title: Festlegen der Länge der PIN für Audiokonferenzbesprechungen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: Lernen Sie die Parameter für die Länge und die Anforderungen einer PIN kennen, und erfahren Sie, wie Sie die Länge für Besprechungen in Microsoft Teams festzulegen.
-ms.openlocfilehash: 2827845cb53aa822f09ebdd0948cc06e679e4c0a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f8d225728854e1bb7609264eecfd1230de2f919b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838075"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140888"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Festlegen der Länge der PIN für Audiokonferenzbesprechungen in Microsoft Teams
 
@@ -39,7 +40,7 @@ Die Audiokonferenzbrücke nimmt Anrufe von Benutzern an, die sich über ein Tele
   
 ## <a name="setting-the-pin-length"></a>Festlegen der PIN-Länge
 
-![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
+![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
 

@@ -1,5 +1,5 @@
 ---
-title: Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
+title: Ändern von Telefonnummern auf der Audiokonferenz-Brücke
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: Wenn Sie Lizenzen für Audiokonferenzen erwerben, hostet Microsoft Ihre Audiokonferenzbrücke für Ihre Organisation. Die Audiokonferenzbrücke gibt Einwahlnummern von verschiedenen Standorten aus, damit die Besprechungsorganisatoren und die Teilnehmer über ein Telefon an Skype for Business- oder Microsoft Teams-Besprechungen teilnehmen können.
-ms.openlocfilehash: 54662b34f5b8b1f56aceffb2294801a485bc26ae
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: Informieren Sie sich über die Schritte, die erforderlich sind, um ihrer Konferenzbrücke eine neue Dienst Telefonnummer zuzuweisen, um die Abdeckung für Ihre Benutzer zu erweitern.
+ms.openlocfilehash: 571b7a9c14db1601e0a4b94740395ad087808a49
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825203"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139074"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
 
@@ -36,7 +37,7 @@ Wenn Sie **Audiokonferenz-** Lizenzen kaufen, hostet Microsoft Ihre Audiokonfere
 Zusätzlich zu den Telefonnummern, die ihrer Konferenzbrücke bereits zugewiesen sind, können Sie [zusätzliche Servicenummern](/microsoftteams/getting-service-phone-numbers) (gebührenpflichtige und gebührenfreie Nummern, die für Audiokonferenzen verwendet werden) von anderen Standorten abrufen und dann der Konferenzbrücke zuweisen, damit Sie die Abdeckung für Ihre Benutzer erweitern können.
   
 > [!NOTE]
-> Damit Sie eine Telefonnummer für eine Konferenzbrücke zuweisen/aufheben können, muss die Telefonnummer eine "*Dienst*Nummer" sein. Sie können den Typ der Zahl sehen, indem Sie im Legacy- **Portal zu** > **Telefonnummern** navigieren und in der Spalte " **Zahlentyp** " suchen. Office 365 Communications-Guthaben muss zuerst eingerichtet werden, damit die Benutzer eine gebührenfreie Nummer in die Brücke einwählen können.
+> Um eine Rufnummer für ein Konferenzbrücke zuweisen/aufheben können, muss die Rufnummer eine *Servicenummer*sein. Sie können den Typ der Zahl sehen, indem Sie im Legacy- **Portal zu** > **Telefonnummern** navigieren und in der Spalte " **Zahlentyp** " suchen. Office 365 Communications haben muss zuerst eingerichtet werden, damit Benutzer in eine gebührenfreie Telefonnummer-Brücke einwählen können.
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Schritte zum Zuweisen einer neuen Servicetelefonnummer zu Ihrer Konferenzbrücke
 
@@ -44,7 +45,7 @@ Zusätzlich zu den Telefonnummern, die ihrer Konferenzbrücke bereits zugewiesen
 
 1. Melden Sie sich bei Office 365 mit Ihrem Geschäftskonto an.
 
-2. Wechseln Sie zu **Microsoft 365 Admin Center** > -Teams für**Admin** > **#a0 Skype** > **Legacy Portal** > -**VoIP** > -**Telefonnummern**.
+2. Wechseln Sie zu **Microsoft 365 Admin Center** > -Teams für**Admin** > **& Skype** > **Legacy Portal** > -**VoIP** > -**Telefonnummern**.
 
 3. Wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie im Aktionsbereich auf **Zuweisen**.
 
@@ -58,7 +59,7 @@ Nur eine Dienst gebührenpflichtige Nummer kann als Standardnummer für Ihre Kon
 
 1. Melden Sie sich bei Office 365 mit Ihrem Geschäftskonto an.
 
-2. Wechseln Sie **zu Microsoft 365 Admin Center** > -Teams für**Admin** > **Center #a0 Skype** > -**Konferenz Brücken**für**Besprechungen** > .
+2. Wechseln Sie **zu Microsoft 365 Admin Center** > -Teams für**Admin** > **Center & Skype** > -**Konferenz Brücken**für**Besprechungen** > .
 
 3. Heben Sie die Dienst Gebühren Nummer auf, die Sie als Standard festlegen möchten.
 
@@ -70,7 +71,7 @@ Die standardmäßigen Telefonnummern eines Benutzers sind diejenigen, die in den
   
 1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
 
-2. Wechseln Sie zu den **Microsoft 365 Admin Center** > **Admin Center** > **Teams #a0 Skype** > **Legacy Portal** > **-Audiokonferenz** > -**Benutzer**, und wählen Sie die Benutzer in der Liste aus.
+2. Wechseln Sie zu den **Microsoft 365 Admin Center** > **Admin Center** > **Teams & Skype** > **Legacy Portal** > **-Audiokonferenz** > -**Benutzer**, und wählen Sie die Benutzer in der Liste aus.
 
 3. Klicken Sie im Aktionsbereich auf **Bearbeiten**.
 
@@ -82,7 +83,7 @@ Nach dem Speichern der Änderungen sind die neuen Standardtelefonnummern in den 
 
 In den nächsten beiden Schritten müssen Sie Windows PowerShell starten.
   
-Wenn Sie die Standardtelefon Nummern, die in der Besprechungseinladung für einige oder alle Benutzer Inlcuded sind, aktualisiert haben, können Sie optional Besprechungseinladungen aktualisieren, die bereits an Benutzer in Ihrer Organisation gesendet wurden, bevor Ihre standardmäßigen Telefonnummern mithilfe der Besprechungs Migrationsdienst Weitere Informationen finden Sie unter [Einrichten des Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Wenn Sie die Standardtelefon Nummern, die in den Besprechungseinladungen für einige oder alle Benutzer Inlcuded sind, aktualisiert haben, können Sie optional Besprechungseinladungen aktualisieren, die bereits an Benutzer in Ihrer Organisation gesendet wurden, bevor Ihre Standard Telefonnummern mithilfe des Besprechungs Migrations Diensts geändert wurden. Weitere Informationen finden Sie unter [Einrichten des Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
 - Führen Sie Meeting Migration Service (MMS) für die Benutzer aus, deren Standardtelefonnummern in Schritt 2 geändert wurden. Führen Sie dazu den folgenden Befehl aus:
 
@@ -134,7 +135,7 @@ Weitere Informationen zu Meeting Migration Service finden Sie unter [Einrichten 
 
 1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
-2. Wechseln Sie zu den **Microsoft 365 Admin Center** > **Admin Center** > **Teams #a0 Skype** > **Legacy Portal** > -**VoIP** > -**Telefonnummern**.
+2. Wechseln Sie zu den **Microsoft 365 Admin Center** > **Admin Center** > **Teams & Skype** > **Legacy Portal** > -**VoIP** > -**Telefonnummern**.
 
 3. Wenn es sich bei der Telefonnummer um eine gebührenfreie Nummer handelt, wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie im Bereich "Aktion" auf **Zuweisung**aufheben. Wenn es sich bei der Telefonnummer um eine gebührenpflichtige Nummer handelt, wenden Sie sich an den [Microsoft-Support](https://go.microsoft.com/fwlink/?linkid=2091806) , damit die Telefonnummer nicht zugewiesen ist.
 
@@ -235,7 +236,7 @@ Das Ergebnis sollte neben anderen Informationen wie Identität, Name und Region 
 
 **Beispiel**: Wenn Sie die Zuweisung aufheben möchten, wird die DefaultServiceNumber "8005551234"
 ```PowerShell
-Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName “Conference Bridge” -RemoveDefaultServiceNumber 8005551234 
+Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
 ```
 
 ## <a name="about-windows-powershell"></a>Informationen zu Windows PowerShell

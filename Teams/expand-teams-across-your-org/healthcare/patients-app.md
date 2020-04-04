@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft Teams patients App EPA-Integration
-ms.openlocfilehash: 27149ad8466eec9bd3c1f73293f82a877dc1a722
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Informieren Sie sich über das integrieren elektronischer Gesundheitsdatensätze in Microsoft Teams mithilfe von FHIR-APIs auf einem medizinischen Informationssystem, um eine Verbindung mit Microsoft Teams herzustellen.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: bbd239c34c6fd4cd5838b2ba57c7160448f38497
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147718"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141208"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams
 
@@ -63,7 +64,7 @@ In den folgenden Abschnitten werden die Anforderungen der FHIR-Datenzugriffsschi
 
 ### <a name="authentication"></a>Authentifizierung  
 
-Autorisierung auf App-Ebene *ohne Unterstützung für die Autorisierung auf Benutzerebene* ist die häufiger unterstützte Möglichkeit, Datentransformationen durchzuführen und Verbindungen zu EPA-Daten über FHIR verfügbar zu machen, auch wenn das EPA-System möglicherweise die Autorisierung auf Benutzerebene implementiert. Der Interop-Dienst (Partner) erhält erhöhten Zugriff auf die EPA-Daten, und wenn Sie dieselben Daten wie die entsprechenden FHIR-Ressourcen verfügbar machen, wird kein Autorisierungskontext an den Interop-Dienst Consumer (die Patienten-APP) weitergegeben, der in die Interop integriert ist. Dienst oder Plattform. Die Patienten-App kann die Autorisierung auf Benutzerebene nicht erzwingen, unterstützt jedoch die Anwendungsauthentifizierung zwischen der Patienten-APP und dem Dienst des Interop-Partners.
+Autorisierung auf App-Ebene *ohne Unterstützung für die Autorisierung auf Benutzerebene* ist die häufiger unterstützte Möglichkeit, Datentransformationen durchzuführen und Verbindungen zu EPA-Daten über FHIR verfügbar zu machen, auch wenn das EPA-System möglicherweise die Autorisierung auf Benutzerebene implementiert. Der Interop-Dienst (Partner) erhält erhöhten Zugriff auf die EPA-Daten, und wenn Sie dieselben Daten wie die entsprechenden FHIR-Ressourcen verfügbar machen, wird kein Autorisierungskontext an den Interop-Dienst Consumer (die Patienten-APP) übergeben, der in den Interop-Dienst oder die Plattform integriert ist. Die Patienten-App kann die Autorisierung auf Benutzerebene nicht erzwingen, unterstützt jedoch die Anwendungsauthentifizierung zwischen der Patienten-APP und dem Dienst des Interop-Partners.
 
 Das Authentifizierungsmodell für die Anwendungs-zu-Anwendung wird im folgenden beschrieben:
 
@@ -71,7 +72,7 @@ Die Dienst-zu-Service-Authentifizierung sollte über den OAuth 2,0- [Client Anme
 
 1. Der Partnerdienst ermöglicht der App "Patienten", ein Konto bei dem Partner zu erstellen, mit dem die Patienten-App client_id und client_secret, die über ein auth-Registrierungs Portal auf dem Authentifizierungsserver des Partners verwaltet werden, generieren und besitzen kann.
 2. Der Partner Dienst besitzt das Authentifizierungs-/Autorisierungssystem, das die bereitgestellten Clientanmeldeinformationen akzeptiert und überprüft (authentifiziert) und ein Zugriffstoken mit Mandanten Hinweis im Bereich zurückgibt, wie nachstehend beschrieben.
-3. Aus Sicherheitsgründen oder im Fall eines geheimen Verstoßes kann die Patienten-App den geheimen Schlüssel neu generieren und das alte Geheimnis ungültig machen oder löschen (Beispiel für das gleiche steht in Azure Portal-Aad-App-Registrierung zur Verfügung)
+3. Aus Sicherheitsgründen oder im Fall eines geheimen Verstoßes kann die Patienten-App den geheimen Schlüssel neu generieren und das alte Geheimnis ungültig machen oder löschen (Beispiel für das gleiche ist in Azure Portal-Aad-App-Registrierung verfügbar).
 4. Der Metadaten-Endpunkt, der die Konformitäts Anweisung hostet, sollte nicht authentifiziert sein, er sollte ohne Authentifizierungstoken zugänglich sein.
 5. Der Partner Dienst stellt den Token-Endpunkt für die patients-App bereit, um mithilfe eines Client Anmelde Informationsflusses ein Zugriffstoken anzufordern. Die Token-URL als pro autorisierungsserver sollte Teil der FHIR-Konformitäts Anweisung (Capability) sein, die aus Metadaten auf dem FHIR-Server abgerufen wurde, wie in diesem Beispiel:
 
@@ -136,7 +137,7 @@ Spezifische Anrufe und Felder, die von der Patienten-App verwendet werden, sind 
 
 ## <a name="performance-and-reliability"></a>Leistung und Zuverlässigkeit
 
-Während sich die Patienten-app in der privaten Vorschau befindet, gibt es keine Garantien für die End-to-End-Leistung. Zu den Faktoren in der Leistungsfähigkeit zählen die relativen Latenzzeiten aller am Workflow beteiligten Hops, beginnend mit der EPA in der Umgebung des Gesundheitssystems, dem Interop-Partner und dessen Infra, einschließlich des FHIR-Servers und Across für das Office 365-Ökosystem und Patienten-app.
+Während sich die Patienten-app in der privaten Vorschau befindet, gibt es keine Garantien für die End-to-End-Leistung. Zu den Leistungsfaktoren zählen die relativen Latenzzeiten aller am Workflow beteiligten Hops, beginnend mit der EPA in der Umgebung des Gesundheitssystems, dem Interop-Partner und dessen Infra, einschließlich des FHIR-Servers und Across zur Office 365-Anwendung für Ökosysteme und Patienten.
 
 ![Abbildung der Leistung von Interop-Partnern](../../media/FHIR.png)
 
@@ -167,5 +168,3 @@ Nachdem Sie den Open-Source-FHIR-Server erstellt haben, ist es wirklich einfach,
     ![Screenshot der Einstellungen des Patienten-App-Servers](../../media/patients-server.png)
 
 5. Beginnen Sie mit der Verwendung der APP, um nach Patienten vom FHIR-Server/EPA zu suchen und Sie zu einer Liste hinzuzufügen, und [Geben Sie uns Feedback](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) , wenn etwas nicht funktioniert. Um eine vollständig authentifizierte Version der Patienten-app-> FHIR-Server Fluss einzurichten, müssen Sie sich über die zuvor erwähnte e-Mail-Anforderung an den Offline Dialog mit Microsoft Teams für Healthcare Product Engineering beteiligen, und wir werden Ihnen helfen, dies für Sie gemäß den oben beschriebenen Authentifizierungsanforderungen im FHIR-Schnittstellen Dokument zu aktivieren.  
-
-

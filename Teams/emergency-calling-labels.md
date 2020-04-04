@@ -1,5 +1,5 @@
 ---
-title: Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne
+title: Disclaimer-Etiketten für Notrufe
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
+- seo-marvel-mar2020
 description: Sie können diese Etiketten für Notrufe herunterladen, wenn Sie Anrufpläne in Office 365 verwenden.
-ms.openlocfilehash: f56a024f379a3534486294f3bc301503cb010950
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4ce43ce30535f1210643c33d087671afc3413ee2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834975"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141248"
 ---
 # <a name="emergency-calling-labels"></a>Notruf Etiketten
 

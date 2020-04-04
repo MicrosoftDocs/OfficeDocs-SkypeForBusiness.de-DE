@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: b1df17e062beb2decfab43b58a6695b85038f937
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Informieren Sie sich über das Wählen von gebührenfreien Telefonnummern in Ungarn, einschließlich Verfügbarkeit, kabelgebundener/Festnetzanschluss und Verfügbarkeit von Mobilnetzen sowie Einschränkungen.
+ms.openlocfilehash: 3bf55b9fb95110f85291fe62e81b7a9a9c2f1b7b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708771"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140394"
 ---
 # <a name="toll-free-dialing-restrictions-in-hungary"></a>Einschränkungen für gebührenfreie Telefonnummern in Ungarn
 

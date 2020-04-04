@@ -16,13 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-description: Dieses Dokument beschreibt das Verhalten von Chats, Anrufweiterleitung und Anwesenheitsinformationen zwischen Benutzern von Teams und Skype for Business, sowohl im Mandanten als auch im Verbund, basierend auf den zugewiesenen TeamsUpgrade-Modi. Es umfasst Routing Optimierungen, Anwesenheits Verhalten sowie die Änderung des standardmäßigen TeamsUpgrade-Modus von *Legacy* auf *Inseln* und die bevorstehende Pensionierung von *Legacy*.
-ms.openlocfilehash: 64889ae11b4ce8665fb4a6bdbb98ff95aaf777fc
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
+ms.custom: seo-marvel-mar2020
+description: Koexistenz-Verhalten zwischen Teams & Skype for Business, einschließlich Routing Parametern, Chat & Anrufweiterleitung, Chats & von bereits vorhandenen Threads, & Anwesenheit.
+ms.openlocfilehash: ff5e94b16cd55374ec0aeb45aaffdda41fbe0498
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42328017"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137305"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 
@@ -77,9 +78,9 @@ In den folgenden Tabellen:
 
 **Tabelle 1a: in-Tenant-neuer Chat oder Anrufweiterleitung an einen Empfänger im Modus "Inseln"**
 
-| <br/><br/> Modus | Urheber <br/><br/> Client | <br/><br/> SFB&nbsp;Homed | | Empfänger <br/><br/> Inseln  |
+| <br/><br/> Modus | Urheber <br/><br/> Client | <br/><br/> SFB&nbsp;Homed | | Empfänger <br/><br/> Inselmodus  |
 |--- |--- |--- |--- |--- |
-| Inseln | Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business| Online<br/> Online<br/> Auf-Prem<br/>Auf-Prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business|
+| Inselmodus | Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business| Online<br/> Online<br/> Auf-Prem<br/>Auf-Prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business|
 |SFB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Auf-Prem<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
 |TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
 | | | | | |
@@ -88,7 +89,7 @@ In den folgenden Tabellen:
 
 | <br/><br/> Modus   | Urheber <br/><br/> Client | <br/><br/> SFB&nbsp;Homed | |   Empfänger <br/><br/> SFB\*   |
 |--- |--- |--- |---   |--- |
-| Inseln |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business  |Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **Nicht möglich** <br/>Skype for Business<br/> |
+| Inselmodus |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business  |Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business<br/> **Nicht möglich** <br/>Skype for Business<br/> |
 |SFB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> Auf-Prem<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
 |TeamsOnly |Teams| Online<br/>|&boxv;<br/> |  *Skype for Business* <br/>| 
 | | | | | |
@@ -97,7 +98,7 @@ In den folgenden Tabellen:
 
 | <br/><br/> Modus   | Urheber <br/><br/> Client | <br/><br/> SFB&nbsp;Homed | |   Empfänger <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| Inseln   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Microsoft Teams* <br/>Teams <br/>*Microsoft Teams*  |
+| Inselmodus   |Teams<br/>Skype for Business<br/>Teams <br/>Skype for Business<br/>|Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Microsoft Teams* <br/>Teams <br/>*Microsoft Teams*  |
 |SFB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> Auf-Prem<br/> | &boxv;<br/>&boxv; | *Microsoft Teams*  <br/>*Microsoft Teams*   |
 |TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
@@ -111,15 +112,15 @@ Zusammengefasst: Wenn die Unterhaltung wie oben beschrieben möglich ist, werden
 Dies liegt daran, dass wir nicht davon ausgehen können, dass ein Partner von Skype for Business bereits Teams verwendet, wenn Sie sich im Modus "Inseln" befinden. Inseln ist der Standardmodus, aber wir können nicht davon ausgehen, dass alle Inseln-Benutzer Teams ausführen. Durch Routing zu Skype for Business stellen wir sicher, dass keine Kommunikation mit einem Insel Nutzer fehlschlägt. Wenn wir an Teams weitergeleitet werden, könnte diese Kommunikation übersehen werden, wenn das Ziel keine Teams verwendet hat. Durch das Routing zu Skype for Business wird sichergestellt, dass die Nachricht immer empfangen wird.  
 
 > [!NOTE]
-> Die aktuelle Implementierung des Teams Federation basiert auf der Skype for Business-Föderation, daher nutzt Sie die Interoperabilitäts Infrastruktur (die den Mandanten des Erstellers als pure Online-oder Skype for Business-hybride benötigt) und stellt eine reduzierter Satz von Funktionen im Vergleich zu einem systemeigenen Thread Wir gehen davon aus, dass Native Teams in Zukunft für Teams in der Föderation bereitgestellt werden, wobei der Thread systemeigen ist und vollständige Funktionen bietet.
+> Die aktuelle Implementierung des Teams Federation basiert auf der Skype for Business-Föderation, daher nutzt Sie die Interoperabilitäts Infrastruktur (die den Mandanten des Erstellers als pure Online-oder Skype for Business-hybride benötigt) und bietet einen reduzierten Satz an Funktionen im Vergleich zu einem nativen Thread. Wir gehen davon aus, dass Native Teams in Zukunft für Teams in der Föderation bereitgestellt werden, wobei der Thread systemeigen ist und vollständige Funktionen bietet.
 
 In den folgenden Tabellen wird beschrieben, welcher Client einen Anruf vom Absender erhält (drei Spalten ganz links), je nach dem Modus des Erstellers, dem ausgewählten Client und dem Aufenthaltsort des Skype for Business-Clients (auf-Prem oder Online).
 
 **Tabelle 2a: Föderation des neuen Chats oder Anrufweiterleitung zu einem Insel Empfänger**
 
-| <br/><br/>Modus   | Urheber<br/><br/> Client| <br/><br/>SFB Homed| | Empfänger<br/><br/> Inseln |
+| <br/><br/>Modus   | Urheber<br/><br/> Client| <br/><br/>SFB Homed| | Empfänger<br/><br/> Inselmodus |
 |--- |--- |--- |--- |--- |
-| Inseln |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Nicht möglich**   <br/> Skype for Business |
+| Inselmodus |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business  |Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Nicht möglich**   <br/> Skype for Business |
 | SFB\* |Skype for Business <br/>Skype for Business |Online<br/> Auf-Prem<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
 | TeamsOnly |Teams |Online| &boxv;|*Skype for Business* |
 |  | | | | 
@@ -128,7 +129,7 @@ In den folgenden Tabellen wird beschrieben, welcher Client einen Anruf vom Absen
 
 | <br/><br/>Modus   | Urheber<br/><br/> Client| <br/><br/>SFB Homed| |  Empfänger<br/><br/> SFB\* |  
 |--- |--- |--- |--- |--- |
-| Inseln |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Nicht möglich** <br/>Skype for Business <br/> |  
+| Inselmodus |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype for Business* <br/> Skype for Business <br/> **Nicht möglich** <br/>Skype for Business <br/> |  
 | SFB\* |Skype for Business <br/>Skype for Business  |Online<br/> Auf-Prem<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
 | TeamsOnly | Teams|Online |&boxv; |*Skype for Business*  |
 |  | | | | |
@@ -137,7 +138,7 @@ In den folgenden Tabellen wird beschrieben, welcher Client einen Anruf vom Absen
 
 | <br/><br/>Modus | Urheber<br/><br/> Client| <br/><br/>SFB Homed| |  Empfänger<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| Inseln  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Microsoft Teams* <br/>**Nicht möglich** <br/>*Microsoft Teams* |
+| Inselmodus  |Teams<br/>Skype for Business <br/>Teams <br/>Skype for Business <br/>|Online<br/> Online<br/> Auf-Prem<br/> Auf-Prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Microsoft Teams* <br/>**Nicht möglich** <br/>*Microsoft Teams* |
 | SFB\* |Skype for Business <br/>Skype for Business  | Online<br/> Auf-Prem| &boxv;<br/>&boxv;|*Microsoft Teams* <br/>*Microsoft Teams*   |
 | TeamsOnly |Teams |Online |&boxv; |Teams |
 |  | | | | |
@@ -174,7 +175,7 @@ Um zu erfahren, welches Verhalten zu erwarten ist, müssen Sie wissen, dass die 
 
 * Wenn sich ein Benutzer im TeamsOnly-Modus befindet, wird jeder andere Benutzer (ob in Teams oder Skype for Business) sehen, dass der TeamsOnly-Benutzer die Team Anwesenheit erhält.
 * Wenn sich ein Nutzer in einem der SFB\* -Modi befindet (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings), wird jeder andere Nutzer (in Teams oder Skype for Business) sehen, dass der\* SFB-Nutzer Skype for Business-Anwesenheitsinformationen hat.
-* Wenn sich ein Benutzer im Modus "Inseln" (oder "Legacy") befindet, ist die Anwesenheit in Teams und die Anwesenheit in Skype for Business unabhängig (die Werte müssen nicht übereinstimmen), und anderen Benutzern wird je nachdem, ob Sie sich im gleichen Mandanten oder in einem Verbund befinden, eine oder andere Anwesenheit des Insel Nutzers angezeigt. Ed-Mandant und welchen Client verwenden Sie
+* Wenn sich ein Benutzer im Modus "Inseln" (oder "Legacy") befindet, ist die Anwesenheit in Teams und die Anwesenheit in Skype for Business unabhängig (die Werte müssen nicht übereinstimmen), und andere Benutzer sehen je nachdem, ob Sie sich im gleichen Mandanten oder in einem Verbund Mandanten befinden und welchen Client Sie verwenden
     * In Teams sehen alle anderen Benutzer innerhalb desselben Mandanten die Anwesenheitsinformationen des Teams für die Inseln des Benutzers. Diese wird mit der in-Tenant-Routingtabelle oben ausgerichtet.
     * In Teams sehen alle anderen Benutzer in einem Verbund Mandanten die Skype for Business-Anwesenheit der Inseln-Benutzer. Diese wird an der oben aufgeführten Federated-Routingtabelle ausgerichtet.
     * Bei Skype for Business sehen alle anderen Nutzer die Skype for Business-Anwesenheit des Nutzers (sowohl im Mandanten als auch im Verbund). Diese wird an den oben angegebenen Routingtabellen ausgerichtet.
@@ -188,7 +189,7 @@ In der Tabelle wird die Anwesenheit des Herausgebers beschrieben, die von einem 
 
 **Tabelle 3: Anwesenheit im Mandanten (neuer Thread)**
 
-|Überwachungselement <br/><br/>Client| |<br/><br/>Inseln |Publisher <br/><br/>SFB\* |<br/>Nur für Teams|
+|Überwachungselement <br/><br/>Client| |<br/><br/>Inselmodus |Publisher <br/><br/>SFB\* |<br/>Nur für Teams|
 |--- |--- |--- |--- |---|
 |Skype for Business |&boxv;|Skype for Business | Skype for Business | Teams|
 |Microsoft Teams |&boxv; |Microsoft Teams |Skype for Business |Teams |
@@ -202,7 +203,7 @@ In der folgenden Tabelle wird die Anwesenheit des Herausgebers beschrieben, die 
 
 **Tabelle 4: Verbund Anwesenheit (neuer Thread)**
 
-|Überwachungselement <br/><br/> Client | |<br/><br/> Inseln  |Publisher <br/><br/> SFB\* |<br/><br/> Nur für Teams |
+|Überwachungselement <br/><br/> Client | |<br/><br/> Inselmodus  |Publisher <br/><br/> SFB\* |<br/><br/> Nur für Teams |
 |--- |--- |--- |--- |---|
 |Skype for Business |&boxv; |Skype for Business  | Skype for Business  | Teams  |
 |Microsoft Teams | &boxv;|Skype for Business |Skype for Business |Teams|

@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen, Ändern oder Entfernen eines Ortes als Notfallstandort für Ihre Organisation
+title: Hinzufügen, ändern und Entfernen von Orten für Notfall Standorte
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,13 +16,14 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 'Hier erfahren Sie, wie Sie einen Ort für einen Notfall Standort für Ihre Organisation im Microsoft Teams Admin Center hinzufügen, ändern oder entfernen. '
-ms.openlocfilehash: a72d2ece731dcac33732d510b0cbd10975575cbc
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Hier erfahren Sie, wie Sie einen Ort für einen Notfall Standort für Ihre Organisation im Microsoft Teams Admin Center hinzufügen, ändern oder entfernen.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e23b1d2c69fd09136a581010632a140e82385051
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695833"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141138"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Hinzufügen, Ändern oder Entfernen eines Ortes als Notfallstandort für Ihre Organisation
 

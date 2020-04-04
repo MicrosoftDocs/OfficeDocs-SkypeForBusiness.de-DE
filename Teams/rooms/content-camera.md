@@ -1,5 +1,5 @@
 ---
-title: Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei
+title: Informationen zum Einrichten von Inhalts Kameras – Microsoft Teams
 ms.author: kenwith
 author: kenwith
 ms.reviewer: sohailta
@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: In diesem Artikel wird die Remoteverwaltung der Standardeinstellungen beschrieben, die von einem Microsoft Teams rooms-Gerät verwendet werden, einschließlich der Anwendung eines benutzerdefinierten Designs.
-ms.openlocfilehash: b470804ac2c5a44a0eb74330ea5158c2e9fe9098
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+description: Verwenden Sie eine Inhalts Kamera in einem Microsoft Teams-Chatroom, die mit der Bildverarbeitungssoftware interagiert, damit Referenten auf einem analogen Whiteboard zeichnen können.
+ms.openlocfilehash: 6ddc1a43a9d75e6f142c82c0215124bad97f77dd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824533"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137625"
 ---
 # <a name="content-cameras"></a>Inhalts-Kameras
 
@@ -86,7 +87,7 @@ Oder lesen Sie den Microsoft Teams-Gerätemarkt für unterstützte Content Camer
 
 Nachdem Sie die Kamera im Chatroom installiert haben, richten Sie Sie in der Microsoft Teams rooms-Konsole des Chatrooms ein:
 
-1. Wählen **** ![Sie das Symbol](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)Einstellungen Einstellungen aus, melden Sie sich als Administrator an, und wählen Sie **Geräteeinstellungen**aus.
+1. Wählen **Settings** ![Sie das Symbol](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)Einstellungen Einstellungen aus, melden Sie sich als Administrator an, und wählen Sie **Geräteeinstellungen**aus.
 2. Wählen Sie im Abschnitt **Camera defaults** die Inhalts Kamera aus, und stellen Sie sicher, dass die Option **Inhalts Erweiterungen** ausgewählt ist.
 3. Optional Wenn die Kamera auf den Kopf gestellt wurde, weil die Kamera von der Decke montiert wurde, aktivieren Sie die Option " **Inhalts Kamera 180 ° drehen** ".
 4. Wählen Sie **Speichern und beenden**aus.

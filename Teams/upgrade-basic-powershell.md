@@ -7,23 +7,25 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Notlösung für das Upgrade auf Teams, wenn das Admin Center nicht in Ihrem Mandanten leuchtet
+description: Notlösung für das Upgrade auf Teams, wenn das Admin Center nicht in Ihrem Mandanten leuchtet.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20864b6b0a4be8cf9a0a88c6f3ce63c18687f2af
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 84ecfb8b9286b749e5b1bf6d34cdf0c8c8fd4113
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837235"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139674"
 ---
 # <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>Aktualisieren Ihrer Benutzer von Skype for Business Online auf Microsoft Teams
 

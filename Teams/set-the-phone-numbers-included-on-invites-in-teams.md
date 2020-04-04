@@ -1,5 +1,5 @@
 ---
-title: Festlegen der in Einladungen in Microsoft Teams enthaltenen Telefonnummern
+title: Festlegen der in Einladungen enthaltenen Telefonnummern
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 'Führen Sie die Schritte zum Erstellen einer Standardtelefonnummer für Anrufer aus, um an einer Microsoft Teams-Besprechung teilzunehmen. '
-ms.openlocfilehash: 88032829581224b339f47b34c432629019fd3bac
-ms.sourcegitcommit: 33bec766519397f898518a999d358657a413924c
+ms.openlocfilehash: 6c45a28ab48add26eef8929e37e5cf60113185ea
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583112"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140898"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Festlegen der in Einladungen in Microsoft Teams enthaltenen Telefonnummern
 
@@ -50,7 +51,7 @@ Sobald der Benutzer für den Audiokonferenzdienst aktiviert ist, können die sta
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Festlegen oder Ändern der Standardtelefonnummer für Audiokonferenzen für Besprechungsorganisatoren oder-Benutzer
 
-![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
+![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**.
 

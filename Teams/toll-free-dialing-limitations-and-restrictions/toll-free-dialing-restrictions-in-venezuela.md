@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: b6356771fd6b4ad2b9f2094e472f658af10c67d3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Informieren Sie sich über das Wählen von gebührenfreien Telefonnummern in Venezuela, einschließlich Verfügbarkeit, Verfügbarkeit von Festnetz-und Mobilfunknetz sowie Einschränkungen.
+ms.openlocfilehash: 69e56259faf5fce75d5b7e25b98d912d8e5b585f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693660"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139714"
 ---
 # <a name="toll-free-dialing-restrictions-in-venezuela"></a>Einschränkungen für gebührenfreie Telefonnummern in Venezuela
 

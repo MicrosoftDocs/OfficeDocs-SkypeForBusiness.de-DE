@@ -1,5 +1,5 @@
 ---
-title: Anzeigen einer Liste der für Audiokonferenzen aktivierten Benutzer in Microsoft Teams
+title: Anzeigen einer Liste der Benutzer, die für Audiokonferenzen aktiviert sind
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 'Hier erfahren Sie, wie Sie in Microsoft Teams eine Liste der Benutzer in Ihrer Organisation anzeigen, die für Dial-in-Konferenzen aktiviert sind. '
-ms.openlocfilehash: 9330aef9e143764949c4589535126eb2dd72e883
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4f4608eb7d7465e40dbec2590505b0997ccbef2c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838145"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140948"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Anzeigen einer Liste der für Audiokonferenzen aktivierten Benutzer in Microsoft Teams
 

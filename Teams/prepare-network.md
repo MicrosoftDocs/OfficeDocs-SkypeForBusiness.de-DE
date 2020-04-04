@@ -1,5 +1,5 @@
 ---
-title: Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams
+title: Vorbereiten des Netzwerks Ihrer Organisation für Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: jastark, kojika
 audience: admin
-description: Bevor Sie Microsoft Teams ausrollen, sollten Sie Ihr Netzwerk evaluieren und vorbereiten, um sicherzustellen, dass es für Teams bereit ist. Informationen umfassen Netzwerkanforderungen, Bandbreitenanforderungen und Netzwerk Optimierungs Anleitungen.
+description: Hier erfahren Sie, wie Sie das Netzwerk Ihrer Organisation für Microsoft Teams vorbereiten, einschließlich Netzwerkanforderungen, Netzwerkoptimierung und Bandbreitenanforderungen.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -16,12 +16,14 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64bcdee7e1a4ce7f36a9089fd5231cf2a63e9d5b
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.custom:
+- seo-marvel-mar2020
+ms.openlocfilehash: bc81781e17b16820eebb134a0ee57f1fb82d403c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43109463"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43143777"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams 
 
@@ -157,5 +159,4 @@ Wenn die Bandbreite *nicht* begrenzt ist, optimiert Teams die Medienqualität, e
 [Identitätsmodelle und Authentifizierung in Microsoft Teams](identify-models-authentication.md)
 
 [Bereitstellen von Teams](How-to-roll-out-teams.md)
-
 

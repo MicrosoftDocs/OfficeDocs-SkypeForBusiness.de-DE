@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - LIL_Placement
-description: Lesen Sie für den Anrufplan von Office 365, wie Sie Lizenzen kaufen und einrichten, Telefonnummern erhalten, Notfallstandorte und Telefonnummern hinzufügen und Benutzern zuweisen und Ihre Benutzer über ihre neuen Telefonnummern informieren.
-ms.openlocfilehash: 3fd123991544bc4555be7ceb7693089f0d439070
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+- seo-marvel-mar2020
+description: Hier erfahren Sie, wie Sie Anrufpläne einrichten, einschließlich der in Ihrer Region verfügbaren ansichtspläne, kaufen & Lizenzen zuweisen, Telefonnummern erhalten und Notfalladressen & Speicherorten hinzufügen.
+ms.openlocfilehash: 4c470327b01b799dabc585db479e51e8ef37c41b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838045"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140878"
 ---
 # <a name="set-up-calling-plans"></a>Einrichten von Anrufplänen
 

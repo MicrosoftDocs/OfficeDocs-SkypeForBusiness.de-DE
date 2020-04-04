@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Licensing
-description: Zusätzlich zur Standard Lizenz für Audiokonferenzen pro Benutzer können Organisationen, die Microsoft-Volumenlizenzierung verwenden, auch ein Pay-per-Minute-Angebot auswählen, um Audiokonferenzfunktionen für ihre Organisationen zu ermöglichen.
-ms.openlocfilehash: ac73ca3396e5fff9e9146206a8f9e2008d9065f7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: Erfahren Sie mehr über die Pay-per-Minute-Option, um Audiokonferenzfunktionen für Organisationen zu aktivieren, die Microsoft-Volumenlizenzierung verwenden.
+ms.openlocfilehash: 5943b5d160df1ddd2ebb3da42818b02683e47309
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826283"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139164"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audiokonferenz mit Minutenabrechnung
 
@@ -59,7 +60,7 @@ Informationen zum Aktivieren von Pay-per-Minute für Audiokonferenzen für Benut
 
 ## <a name="why-is-it-best-for-you"></a>Warum ist es am besten für Sie?
 
-- Die Abrechnung pro Minute wird für jeden eingehenden oder ausgehenden Anruf, der von jedem Teilnehmer während einer geplanten Besprechung abgerechnet wird (Gebühren variieren für gebührenpflichtige oder gebührenfreie Anrufe und nach Ziel) statt der Nutzung von Skype for Business-oder Teams-Anwendungen in einem Mobiltelefon, pro Minute berechnet. Gerät oder PC.
+- Die Abrechnung pro Minute wird für jeden eingehenden oder ausgehenden Anruf, der von jedem Teilnehmer während einer geplanten Besprechung abgerechnet wird (Gebühren variieren für gebührenpflichtige oder gebührenfreie Anrufe und nach Ziel) statt der Verwendung von Skype for Business-oder Teams-Anwendungen auf einem mobilen Endgerät oder PC, nur pro Minute berechnet.
 
 - Möglichkeit zum Verwalten von Kosten, da Administratoren steuern können, um die Typen von Auswahlen (International und Domestic) zu beschränken, die in den Besprechungen eines Organisators ausgeführt werden können. Weitere Informationen finden Sie unter [Richtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe](/microsoftteams/outbound-calling-restriction-policies) .
 

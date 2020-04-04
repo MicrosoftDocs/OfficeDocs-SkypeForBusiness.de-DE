@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Hier erfahren Sie, wie Sie vorhandene Telefonnummern für Dienste wie Audiokonferenzen (für Konferenz Brücken), automatische Telefonzentralen und Anrufwarteschlangen (auch als Servicenummern bezeichnet) für Teams neu abrufen, portieren oder übertragen können.
-ms.openlocfilehash: 8c1ec0af6defbf325d05be3fdd896bb7e9f6bec0
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+- seo-marvel-mar2020
+description: Hier erfahren Sie, wie Sie neue Telefonnummern abrufen und vorhandene Nummern für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschlangen (Service-Nummern) für Teams übertragen oder übertragen können.
+ms.openlocfilehash: 9eb88d46a9e993067e7a2fc8baf9847dea5b32d7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170721"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136715"
 ---
 # <a name="getting-service-phone-numbers"></a>Abrufen von Diensttelefonnummern
 
@@ -38,7 +39,7 @@ Es gibt drei Möglichkeiten zum Abrufen von Dienstnummern:
   
 - **Verwenden Sie das Microsoft Teams Admin Center.** In einigen Ländern und Regionen können Sie Dienstnummern über das Microsoft Teams Admin Center abrufen. Weitere Informationen finden Sie unter [Abrufen neuer Dienstnummern](#get-new-service-numbers).
 
-- **Portieren von bestehenden Nummern.** Sie können vorhandene Nummern von Ihrem aktuellen Dienstanbieter oder Telefonnetzbetreiber portieren oder übertragen. Weitere Informationen dazu finden Sie unter [übertragen von Telefonnummern in Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) oder [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization) .  
+- **Portieren von bestehenden Nummern.** Sie können vorhandene Nummern von Ihrem aktuellen Dienstanbieter oder Telefonnetzbetreiber portieren oder übertragen. Über [Übertragen von Telefonnummern zu Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) oder [Rufnummern für Ihre Organisation verwalten](/microsoftteams/manage-phone-numbers-for-your-organization) erhalten Sie weitere hilfreiche Informationen.  
   
 - **Verwenden eines Anforderungsformulars für neue Telefonnummern.** Manchmal (je nach Land oder Region) können Sie Ihre neuen Telefonnummern nicht über das Microsoft Teams Admin Center abrufen, oder Sie benötigen bestimmte Telefonnummern oder Ortsvorwahl. Wenn dies der Fall ist, müssen Sie ein Formular herunterladen und es an uns zurücksenden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
   
@@ -47,7 +48,7 @@ Es gibt drei Möglichkeiten zum Abrufen von Dienstnummern:
   
 ## <a name="get-new-service-numbers"></a>Neue Leistungsnummern beziehen
 
-![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
+![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 1. Wechseln Sie in der linken Navigationsleiste zu **VoIP** > -**Telefonnummern**, und klicken Sie dann auf **Hinzufügen**.
 2. Geben Sie einen Namen für den Auftrag ein, und fügen Sie bei Bedarf eine Beschreibung hinzu.
@@ -71,7 +72,7 @@ Wenn Ihr Land oder Ihre Region im Portierungs-Assistenten nicht aufgeführt ist,
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Anzeigen der Telefonnummern für Ihre Organisation
 
-![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt 
+![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers** 
 
 Wechseln Sie in der linken Navigationsleiste zu **VoIP** > -**Telefonnummern** , um die Nummern für Ihre Organisation anzuzeigen, einschließlich Standort, Nummerntyp und Statusinformationen.
 

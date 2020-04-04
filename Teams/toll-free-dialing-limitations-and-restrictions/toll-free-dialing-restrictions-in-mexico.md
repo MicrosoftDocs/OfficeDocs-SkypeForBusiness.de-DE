@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: f218dbd5c1c5593530efe266b85c8337960971e2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Informieren Sie sich über das Wählen von gebührenfreien Nummern in Mexiko, einschließlich Verfügbarkeit, Verfügbarkeit von drahtgebundenen/fest Netzanschlüssen und Mobilfunknetz sowie Einschränkungen.
+ms.openlocfilehash: ab4540cb2c311ca0e869e60f1a638f4d0517c06b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41682392"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140324"
 ---
 # <a name="toll-free-dialing-restrictions-in-mexico"></a>Einschränkungen für gebührenfreie Telefonnummern in Mexiko
 

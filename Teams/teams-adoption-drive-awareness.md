@@ -1,5 +1,5 @@
 ---
-title: Fördern des Bewusstseins und Implementieren der Schulung für Microsoft Teams
+title: Fördern des Bewusstseins und Implementieren der Schulung
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,18 +13,20 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie das Bewusstsein schärfen und ein Schulungsprogramm für Microsoft Teams-Einführung implementieren können.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee8040980f0452529ec84367093262843f499d1f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 02239b1b77a8fdffbfd4e2a3081fc5a031c43878
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837835"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140788"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Fördern des Bewusstseins und Implementieren der Schulung für Microsoft Teams
 
@@ -52,7 +54,7 @@ Verwenden Sie unsere Ressourcen, um Schulungen für Endbenutzer bereitzustellen,
 - [Schulung von Kursleitern für Benutzerschulungen für Teams](instructor-led-training-teams-landing-page.md)
 - [Administrator Schulungen für Teams](itadmin-readiness.md)
 - [Online-Schulung für Endbenutzer](enduser-training.md)
-- [Kaffee in der Cloud Online-Schulung für Champions #a0 IT-Experten](https://aka.ms/CoffeeintheCloud) 
+- [Kaffee in der Cloud Online-Schulung für Champions & IT-Experten](https://aka.ms/CoffeeintheCloud) 
 - [Tag im Leben Office 365-Schulung – Spickzettel](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>Messen und Teilen des Erfolgs

@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
-description: Kunden können den Office 365-Anrufplan und die Office 365-Audiokonferenzen verwenden, wie Sie in den Skype for Business Online-und Microsoft Teams-PSTN-Diensten für die Verwendung von Geschäftsbedingungen und dem Volumenlizenzvertrag des Kunden zugelassen sind.
-ms.openlocfilehash: 59a885f53d23f5297d6730e718ac1a95801d6a30
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-mar2020
+description: Informieren Sie sich über den kostenlosen Wähl Zeitraum für Office 365-Anrufplan und Office 365-Audiokonferenzen in Microsoft Teams.
+ms.openlocfilehash: 46c9aac02c40a973abc8356dc4212b3521852461
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825503"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137295"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe
 
@@ -43,7 +44,7 @@ Diese Änderung findet nicht für Länder statt, in denen das Audiokonferenz-Abo
 
 ### <a name="complimentary-dial-out-period-details"></a>Details zu den kostenlosen Wählzeiten
 
-Für Kunden, die unseren Office 365-Audiokonferenzdienst einrichten, bietet Microsoft einen zusätzlichen kostenlosen Vorteil im Zusammenhang mit der Auswahl von Besprechungen, die von Benutzern organisiert werden, denen eine Office 365-Abonnementlizenz für Audio-Conferencing bis November zugewiesen ist. 2019. In diesem kostenlosen Zeitraum ermöglicht Microsoft Besprechungsorganisatoren oder autorisierten Teilnehmern, wie in den Einstellungen für Besprechungsrichtlinien definiert, das Einwählen von Anrufen aus der Besprechung zu nicht-Premium-Telefonnummern in den unten aufgeführten Ländern und Regionen von 44 "Zone A". Dieser Vorteil ist auf die monatlichen Abonnementlizenzen für Audiokonferenzen anwendbar und gilt nicht für Pay-per-Minute-Lizenzen für Audio-Konferenzen.
+Für Kunden, die unseren Office 365-Audiokonferenzdienst einrichten, bietet Microsoft einen zusätzlichen kostenlosen Vorteil im Zusammenhang mit der Auswahl von Besprechungen, die von Benutzern mit einer Office 365-Abonnementlizenz für Audio-Conferencing bis November 2019 organisiert sind. In diesem kostenlosen Zeitraum ermöglicht Microsoft Besprechungsorganisatoren oder autorisierten Teilnehmern, wie in den Einstellungen für Besprechungsrichtlinien definiert, das Einwählen von Anrufen aus der Besprechung zu nicht-Premium-Telefonnummern in den unten aufgeführten Ländern und Regionen von 44 "Zone A". Dieser Vorteil ist auf die monatlichen Abonnementlizenzen für Audiokonferenzen anwendbar und gilt nicht für Pay-per-Minute-Lizenzen für Audio-Konferenzen.
 
 Darüber hinaus gibt es während des kostenlosen Wähl Zeitraums eine Grenze von 900 Minuten als solche:
 
@@ -54,14 +55,14 @@ Benutzer, die über einen Speicherort für die Lizenzverwendung verfügen (Dies 
  
 - Alle 115-Benutzer teilen sich einen Pool von (115 Benutzer X 900 min) = 103.500 Konferenz-Auswahl Minuten pro Kalendermonat, die für ausgehende Anrufe in eine der Länder und Regionen der Zone verwendet werden können.
 - Alle Anrufe, die die 103.500-Minuten pro Kalendermonat überschreiten, werden pro Minute mit Kommunikationsguthaben zu unseren veröffentlichten Tarifen an dieses Ziel abgerechnet. (Hinweis: der Mandant muss Kommunikationsguthaben einrichten und dem Besprechungsorganisator die Lizenz für Kommunikations Kredite zuweisen).
-- Alle ausgehenden Anrufe an Zielorte, die nicht in der Zone liegen, werden pro Minute mit Kommunikationsguthaben zu unseren veröffentlichten Tarifen an diesen Zielort abgerechnet (vorausgesetzt, der Mandant hat Kommunikationsguthaben eingerichtet und die Lizenz für Kommunikations Kredite dem Besprechungsorganisator).
+- Alle ausgehenden Anrufe an Zielorte, die nicht in der Zone liegen, werden pro Minute mit Kommunikationsguthaben zu unseren veröffentlichten Tarifen zu diesem Ziel abgerechnet (vorausgesetzt, der Mandant hat Kommunikationsguthaben eingerichtet und dem Organisator der Besprechung die Lizenz für Kommunikations Kredite zugewiesen).
 
 > [!NOTE]
-> Im Skype for Business Admin Center können Sie die Nutzung für den Dial-Out-Minuten Pool überwachen. Wechseln Sie im Microsoft Teams #a0 Skype Admin Center zu **Legacy-Portal** > **Berichte** > **PSTN-Minuten Pools**. Dieser ﻿kostenlose Minuten Pool wird im Bericht als "ausgehende Anrufe in Zone A Länder und Regionen" bezeichnet.
+> Im Skype for Business Admin Center können Sie die Nutzung für den Dial-Out-Minuten Pool überwachen. Wechseln Sie im Microsoft Teams & Skype Admin Center zu **Legacy-Portal** > **Berichte** > **PSTN-Minuten Pools**. Dieser ﻿kostenlose Minuten Pool wird im Bericht als "ausgehende Anrufe in Zone A Länder und Regionen" bezeichnet.
 
 E-Mail-Benachrichtigungen werden an alle mandantenadministratoren eines bestimmten Kunden gesendet, wenn die Nutzung des Auswähl-Minuten Pools des Mandanten 80% und 100% erreicht hat.
 
-Für Anrufe, die pro Minute in Rechnung gestellt werden (Anrufe, die über den Minuten Pool des Mandanten hinausgehen, oder Anrufe an Zielorte, die nicht in der Zone eine Liste der Länder und Regionen liegen), basieren die Anrufe und die dazugehörigen Gebühren in erster Linie auf dem Bestimmungsort des Anrufs und nicht auf dem Land. oder die Region des Organisators oder der Teilnehmer, der den Auswähl Enden Anruf initiiert. Beispielsweise wird ein Anruf an eine Telefonnummer in Frankreich mit dem gleichen Tarif abgerechnet, wenn er von einem Besprechungsteilnehmer in den Vereinigten Staaten oder einem in Frankreich initiiert wurde.
+Für Anrufe, die pro Minute in Rechnung gestellt werden (Anrufe, die über den Minuten Pool des Mandanten hinausgehen, oder Anrufe an Zielorte, die nicht in der Liste der Länder und Regionen liegen), basieren die Anrufe und die zugehörigen Gebühren in erster Linie auf dem Ziel des Anrufs und nicht auf dem Land oder der Region des Organisators oder dem Teilnehmer, der den Anruf initiiert. Beispielsweise wird ein Anruf an eine Telefonnummer in Frankreich mit dem gleichen Tarif abgerechnet, wenn er von einem Besprechungsteilnehmer in den Vereinigten Staaten oder einem in Frankreich initiiert wurde.
 
 Weitere Informationen zu Kommunikationsguthaben finden Sie unter [Kommunikationsguthaben](what-are-communications-credits.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Lenkungsausschuss für Microsoft Teams-Cloud Voice-Bereitstellung
+title: Lenkungsausschuss für Cloud-sprach Bereitstellung
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4338e2b6b169fa6f8fc46ae116f3d297096543f7
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 397f41a468c987e70d068066dcf16ddf0e64843a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862986"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136785"
 ---
 # <a name="steering-committee"></a>Lenkungsausschuss
 
@@ -30,7 +31,7 @@ Ein Lenkungsausschuss ist eine übergeordnete Gruppe von wichtigen Stakeholdern 
 
 Für jedes Projekt ist eine vereinbarte Vision und Charta erforderlich. Um die gewünschten Ergebnisse der Projekte zu liefern, muss die Vision klar definiert sein, Sie muss überwacht und gewartet werden. Dieser wird in die Zuständigkeit des Lenkungsausschusses gestellt: um Entscheidungen zu treffen, Ratschläge zu erteilen, strategisches beaufsichtigen zu führen, als Fürsprecher für die Organisation für die Initiativen des Projekts zu fungieren und – falls erforderlich – Blocker zu entfernen.
 
-Ihre Organisation sollte die Bildung des Lenkungsausschusses erheblich überdenken. Der Ausschuss muss sicherstellen, dass das Projekt die von Ihnen festgelegten geschäftlichen Ziele erreicht, die Sie für den Wechsel in der gesamten Organisation definiert haben, sich regelmäßig treffen, um den aktuellen Puls des Projekts zu besprechen, und dabei helfen, alle Hindernisse zu beseitigen, die während des Reise.
+Ihre Organisation sollte die Bildung des Lenkungsausschusses erheblich überdenken. Der Ausschuss muss sicherstellen, dass das Projekt die Unternehmensziele erreicht, die Sie für das Vorantreiben von Änderungen in der gesamten Organisation definiert haben, sich regelmäßig treffen, um den aktuellen Puls des Projekts zu besprechen, und dabei helfen, alle Hindernisse zu beseitigen, die während der Reise aufgetreten sind.
 
 Der Ausschuss sollte seine Charta definieren, um einige der wichtigsten Ziele einzubeziehen:
 

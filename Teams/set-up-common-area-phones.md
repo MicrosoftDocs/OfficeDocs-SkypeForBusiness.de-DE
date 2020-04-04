@@ -1,5 +1,5 @@
 ---
-title: Einrichten der Lizenz für Telefone für gemeinsame Bereiche für Microsoft Teams
+title: Einrichten der Telefon Lizenz für den öffentlichen Bereich
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
+- seo-marvel-mar2020
 description: 'Informationen zum Einrichten von Telefonen im öffentlichen Bereich für Lobbies, Empfangsbereiche und Konferenzräume '
-ms.openlocfilehash: 5997137420a9cac0517f67a81c7dedc7b779b715
-ms.sourcegitcommit: f3d4f4aabe31c5516507dfacbbd61cf0ae362d46
+ms.openlocfilehash: da44a7d66cdc0810405711719f4545caf64007a7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42089728"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140868"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Einrichten der Lizenz für Telefone für gemeinsame Bereiche für Microsoft Teams
 > [!NOTE]
@@ -104,7 +105,7 @@ Verwenden Sie das Team Admin Center, um dem Benutzer eine Nummer zuzuweisen.
 
 1. Wählen Sie im Team Admin Center die Option **Voicemail** > -**Nummern**aus.
 
-3.  Wählen Sie eine Nummer aus der Liste der Telefonnummern aus und klicken Sie auf **Zuweisen**.
+3.    Wählen Sie eine Nummer aus der Liste der Telefonnummern aus und klicken Sie auf **Zuweisen**.
 
 4. Geben Sie auf der Seite **zuweisen** im Feld VoIP-Benutzer den Namen des Benutzers ein, der das Telefon verwenden soll, und wählen Sie dann den Benutzer in der Dropdownliste **Sprachbenutzer auswählen** aus.
 

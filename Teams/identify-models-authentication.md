@@ -1,5 +1,5 @@
 ---
-title: Identitätsmodelle und Authentifizierung in Microsoft Teams
+title: Identitäts Modelle und Authentifizierung
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +17,13 @@ ms.collection:
 description: Hier erhalten Sie Informationen zu den verschiedenen Identitätsmodellen in Microsoft Teams, beispielsweise „Cloud-Identität“, „Synchronisierte Identität“ und „Partneridentität“. Außerdem erhalten Sie Informationen zur mehrstufigen Authentifizierung.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c09702700cf62505bbe0016d44545a02596f6b8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a58dcdae704be7ccdaefe1e2bca3b4978f4a10f9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42022286"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139294"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Identitätsmodelle und Authentifizierung in Microsoft Teams
 ==========================================
@@ -38,7 +39,7 @@ Microsoft Teams unterstützt alle Identitätsmodelle, die in Office 365 verfüg
 <a name="configurations"></a>Konfigurationen
 --------------
 
-Abhängig von den Entscheidungen Ihrer Organisation über das zu implementierende und zu verwendende Identitätsmodell können unterschiedliche Implementierungsanforderungen gelten. Sehen Sie sich die folgende Anforderungstabelle an, um sicherzustellen, dass Ihre Bereitstellung diese Voraussetzungen erfüllt. Wenn Sie bereits Office 365 bereitgestellt und die Identitäts- und Authentifizierungsmethode implementiert haben, können Sie diese Schritte überspringen.
+Je nach den Entscheidungen ihrer Organisation, welches Identitätsmodell implementiert und verwendet werden soll, können die Implementierungsanforderungen variieren. In der nachfolgenden Anforderungstabelle stellen Sie sicher, dass Ihre Bereitstellung diese Voraussetzungen erfüllt. Wenn Sie Office 365 bereits bereitgestellt haben und bereits die Identitäts-und Authentifizierungsmethode implementiert haben, können Sie diese Schritte überspringen.
 
 
 |Identitätsmodell |Bereitstellungscheckliste  |Weitere Informationen  |

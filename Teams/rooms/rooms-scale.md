@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen von Microsoft Teams-Räumen mithilfe von Microsoft Endpoint Configuration Manager
+title: Bereitstellen von Microsoft Teams-Räumen mit Microsoft Endpoint Configuration Manager
 author: lanachin
 ms.author: v-lanac
 ms.reviewer: Turgayo
@@ -10,7 +10,9 @@ ms.service: msteams
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-ms.custom: Strat_SB_Admin
+ms.custom:
+- Strat_SB_Admin
+- seo-marvel-mar2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
@@ -32,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: eb1e4337f97f16df6d7ef039bf4ba095ed692995
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 04d5945e042293ad0cb1597307fd4a2b596bee39
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827923"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141018"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Bereitstellen von Microsoft Teams-Räumen mithilfe von Microsoft Endpoint Configuration Manager
 
@@ -576,7 +578,7 @@ Alle Pakete müssen an die Server verteilt werden, denen die Verteilungspunktrol
 
 3.  Verteilen von Betriebssystempaketen
 
-    1.  Wechseln Sie in der Configuration Manager-Konsole zu den **** \> **Betriebssystemabbildern**der **Software Bibliothek** \> . Wählen Sie alle Betriebssystem Bilder aus, die Sie verteilen möchten, und wählen Sie dann **Inhalt verteilen**aus.
+    1.  Wechseln Sie in der Configuration Manager-Konsole zu den **Operating Systems** \> **Betriebssystemabbildern**der **Software Bibliothek** \> . Wählen Sie alle Betriebssystem Bilder aus, die Sie verteilen möchten, und wählen Sie dann **Inhalt verteilen**aus.
 
     2.  Überprüfen Sie die Liste der Pakete, und wählen Sie dann **weiter**aus.
 
@@ -593,7 +595,7 @@ Alle Pakete müssen an die Server verteilt werden, denen die Verteilungspunktrol
 
 ## <a name="configuration-manager-task-sequences"></a>Tasksequenzen für Configuration Manager
 
-Sie verwenden Tasksequenzen mit Configuration Manager, um die Schritte zum Bereitstellen eines Betriebssystemabbilds auf einem Zielcomputer zu automatisieren. Wenn Sie eine Microsoft Teams rooms-Einheit auf automatisierte Weise bereitstellen möchten, erstellen Sie eine Tasksequenz, die auf das Startabbild verweist, das zum Starten des Microsoft Teams Room-Zielcomputers, des Windows 10 Enterprise-Betriebssystemabbilds, das Sie installieren möchten, und allen andere zusätzliche Inhalte wie andere Anwendungen oder Softwareupdates.
+Sie verwenden Tasksequenzen mit Configuration Manager, um die Schritte zum Bereitstellen eines Betriebssystemabbilds auf einem Zielcomputer zu automatisieren. Wenn Sie eine Microsoft Teams rooms-Einheit auf automatisierte Weise bereitstellen möchten, erstellen Sie eine Tasksequenz, die auf das Startabbild verweist, das zum Starten des Microsoft Teams Room-Zielcomputers, des Windows 10 Enterprise-Betriebssystemabbilds, das Sie installieren möchten, und alle anderen zusätzlichen Inhalte, wie etwa andere Anwendungen oder Softwareupdates, verwendet wird.
 
 ### <a name="import-the-sample-task-sequence"></a>Importieren der Beispiel Tasksequenz
 
@@ -656,7 +658,7 @@ Sie können eine Beispiel Tasksequenz herunterladen und auf einfache Weise impor
    11. **Kopieren von SRS v2-Konfigurationsdateien**: dieser Schritt kopiert die erforderlichen Setup-und Konfigurationsdateien aus dem Microsoft Teams rooms Deployment Kit auf die lokale Festplatte. Für diesen Schritt sind keine Anpassungen erforderlich.
        -   Vergewissern Sie sich, dass das **SRS v2-SRS-Anwendungspaket** und die **Deaktivierung der 64-Bit-Dateisystem Umleitung** ausgewählt sind.
 
-   12. **Installieren-SRSv2-OS-Updates**: in diesem Schritt werden alle obligatorischen Betriebssystemupdates bereitgestellt, die für die Microsoft Teams rooms-Bereitstellung erforderlich sind. Gehen Sie wie folgt vor:
+   12. **Installieren-SRSv2-OS-Updates**: in diesem Schritt werden alle obligatorischen Betriebssystemupdates bereitgestellt, die für die Microsoft Teams rooms-Bereitstellung erforderlich sind. Gehen Sie folgendermaßen vor:
        -   Aktivieren Sie das Kontrollkästchen [Konfigurieren einer Microsoft Teams rooms-Konsole](console.md) , um festzustellen, welche Updates erforderlich sind.
        -   Überprüfen Sie, ob Ihr **SRS v2 – OS-Updatepaket** alle erforderlichen Updates enthält.
        -   Überprüfen Sie, ob das **Paket SRS v2 – Betriebssystem Updates** ausgewählt ist.

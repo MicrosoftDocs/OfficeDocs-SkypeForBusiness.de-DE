@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: 55b2235ef2b2457540f22a1a4815e9caf9200809
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Informieren Sie sich über das Wählen von gebührenfreien Telefonnummern in Belarus, einschließlich Verfügbarkeit, Verfügbarkeit von Kabel-und Festnetz-und Mobilnetzen sowie Einschränkungen.
+ms.openlocfilehash: c23e5fca7dd3f94fdbc790e91c077284143cf17e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708221"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140524"
 ---
 # <a name="toll-free-dialing-restrictions-in-belarus"></a>Einschränkungen für gebührenfreie Telefonnummern in Belarus
 

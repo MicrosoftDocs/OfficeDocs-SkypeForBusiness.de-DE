@@ -1,5 +1,5 @@
 ---
-title: Vorbereiten der Bereitstellung des Microsoft Teams-Cloud Voice-Diensts
+title: Vorbereiten der Bereitstellung des Cloud-VoIP-Diensts
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efc7193549fac95a29a574f455576dec5ea35c58
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 710a365ef68d3e187013892ef978cd8e12557cc1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862825"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137995"
 ---
 # <a name="prepare-my-service"></a>Vorbereiten des Diensts
 
@@ -80,7 +81,7 @@ Verwenden Sie im nächsten Schritt das Textbuch [für die Website Aktivierung (T
 
 ## <a name="test-cloud-voice-workloads-in-teams"></a>Testen von Cloud-sprach Auslastungen in Teams
 
-Nachdem Sie Ihre Teams Cloud Voice Business Success-und Technical implementation-Pläne im Rahmen der enVision-Phase definiert und dokumentiert haben und die gewünschte Konfiguration im Admin Center vorgenommen haben, besteht der nächste Schritt darin, zu überprüfen, ob Ihre Organisation Erwartungen und Anforderungen werden durch Funktion, Funktionalität und Benutzerfreundlichkeit erfüllt. Sie sollten diesen Validierungsschritt durchführen, bevor Sie eine Pilot-oder endgültige Bereitstellung in Ihrer Produktionsumgebung bereitstellen.
+Nachdem Sie Ihre Teams Cloud Voice Business Success-und Technical implementation-Pläne im Rahmen der enVision-Phase definiert und dokumentiert haben und die gewünschte Konfiguration im Admin Center vorgenommen haben, besteht der nächste Schritt darin, zu überprüfen, ob die Erwartungen und Anforderungen Ihrer Organisation durch Funktion, Funktionalität und Usability erfüllt werden. Sie sollten diesen Validierungsschritt durchführen, bevor Sie eine Pilot-oder endgültige Bereitstellung in Ihrer Produktionsumgebung bereitstellen.
 
 Sie können den Geschäftserfolgs Plan, den Sie während der enVision-Phase definiert haben, als Grundlage für die Ermittlung der Aktivitäten, Erwartungen, Funktions-/Funktionstest Fälle und des Gesamtumfangs nutzen, der während der Testphase ausgewertet werden soll.
 

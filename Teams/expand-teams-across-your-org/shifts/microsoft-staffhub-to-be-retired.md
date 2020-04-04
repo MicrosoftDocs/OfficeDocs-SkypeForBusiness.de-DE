@@ -8,7 +8,7 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: ''
+description: Hier finden Sie Antworten auf häufig gestellte Fragen zum Ruhestand von Microsoft StaffHub und zum Wechseln zur Schicht-app in Microsoft Teams.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,16 +17,17 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 346ef795f8432154d74610e4d061d00fc6039f2a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 53d82dc346226215101c837dcf8a2f10dd6ff2fc
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008157"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141178"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub soll eingestellt werden
 
-2019, 31. Dezember, wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Teams die Schicht-App für die Terminplanung, und zusätzliche Funktionen werden im Laufe der Zeit bereitgestellt.
+Am 31. Dezember 2019 wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Microsoft Teams die App "Schichten" für die Zeitplanverwaltung, und im Laufe der Zeit werden zusätzliche Funktionen bereit stehen.
 
 Diese Änderungen sind Teil unserer kontinuierlichen Bemühungen, jeden Mitarbeiter mit Microsoft 365 zu befähigen. Mit den Funktionen für First-work-Mitarbeiter in Teams können alle Mitarbeiter in Ihrer Organisation mithilfe von Teams ihre Arbeitstage straffen, mit Kollegen zusammenarbeiten und auf Informationen und Fachkenntnisse zugreifen, um Ihnen zu helfen, optimale Arbeit zu leisten.
 
@@ -66,7 +67,7 @@ Bei der App "Schichten" in Teams handelt es sich um ein Zeit Plan Verwaltungstoo
 
 #### <a name="which-plans-is-shifts-available-in"></a>In welchen Plänen sind Schichten verfügbar?
 
-Schichten sind in allen Enterprise-SKUs verfügbar, in denen Teams verfügbar sind.
+"Schichten" ist in allen Enterprise-SKUs verfügbar, die Microsoft Teams umfassen.
 
 #### <a name="how-do-i-get-shifts"></a>Wie erhalte ich Schichten? 
 
@@ -148,7 +149,7 @@ Wir empfehlen Ihnen, Ihre vorhandenen Team Arbeitspläne auf StaffHub zu überpr
 
 Der Zeitplan des Benutzers wird in Schichten verschoben, aber der Benutzer ist nicht Mitglied des Teams oder einer Office 365-Gruppe.
 
-Bei inaktiven Konten, die nicht mit einem Azure AD-Benutzerkonto verknüpft sind, kann ein Manager sicherstellen, dass der Benutzer als Mitglied des Teams hinzugefügt wird, indem eine gültige Office 365-e-Mail-Adresse auf der StaffHub-Teammitglieder-Seite hinzugefügt wird, damit der Benutzer mit dem korrekten Azure AD-Konto in der IR-Organisation.
+Bei inaktiven Konten, die nicht mit einem Azure AD-Benutzerkonto verknüpft sind, kann ein Manager sicherstellen, dass der Benutzer als Mitglied des Teams hinzugefügt wird, indem eine gültige Office 365-e-Mail-Adresse auf der StaffHub-Teammitglieder-Seite hinzugefügt wird, damit der Benutzer mit dem korrekten Azure AD-Konto in seiner Organisation verknüpft ist.
 
 Eine weitere Möglichkeit besteht darin, dass Administratoren die Cmdlets **Add-StaffHubMember** und **Remove-StaffHubUser** ausführen, um ein nicht bereitgestelltes Konto aus einem StaffHub-Team zu entfernen und den Benutzer mit dem UPN wieder dem Team hinzuzufügen.
 

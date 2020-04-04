@@ -1,5 +1,5 @@
 ---
-title: Verschieben Ihrer StaffHub-Teams in Schichten in Microsoft Teams
+title: Verschieben der StaffHub-Teams in Schichten
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu, gumariam
@@ -18,17 +18,18 @@ ms.collection:
 - SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4725669d4f5829941df4bded0a5f2bbb393fb034
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3c93e01624883d9db755479baf6e87c80feba2e1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887874"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139594"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Verschieben Ihrer Microsoft StaffHub-Teams in die Schichten in Microsoft Teams
 
 > [!IMPORTANT]
-> 2019, 31. Dezember, wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Teams die Schicht-App für die Terminplanung, und zusätzliche Funktionen werden im Laufe der Zeit bereitgestellt. StaffHub wird am 31. Dezember 2019 nicht mehr für alle Benutzer funktionieren. Jede Person, die versucht, StaffHub zu öffnen, wird eine Meldung angezeigt, die Sie zum Herunterladen von Teams anweist. Weitere Informationen finden Sie unter [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md).
+> Am 31. Dezember 2019 wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Microsoft Teams die App "Schichten" für die Zeitplanverwaltung, und im Laufe der Zeit werden zusätzliche Funktionen bereit stehen. StaffHub wird am 31. Dezember 2019 für alle Benutzer eingestellt. Jedem Benutzer, der StaffHub zu öffnen versucht, wird eine Meldung angezeigt, die ihn zum Microsoft Teams-Download leitet. Weitere Informationen finden Sie unter [Microsoft StaffHub wird eingestellt](microsoft-staffhub-to-be-retired.md).
 
 Die Schicht-app in Teams bietet einen einfachen Ansatz für die Verwaltung von Zeitplänen und den konstanten Fluss von Schicht-Swaps und-Abbrüchen, die täglich auftreten. Team Mitglieder können auf Ihre Plan-und Schicht Informationen direkt in der APP und auf Ihren Geräten zugreifen, um Ihre Einstellungen festzulegen, ihre Zeitpläne zu verwalten und die Freizeit zu beantragen.
 
@@ -195,7 +196,7 @@ Führen Sie die folgenden Schritte aus, um ein StaffHub-Team zu verschieben.
 ```PowerShell
 Move-StaffHubTeam -TeamId <String>
 ```
-Beispiel
+Beispiel:
 
 ```PowerShell
 Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
@@ -214,7 +215,7 @@ Führen Sie die folgenden Schritte aus, um den Status einer Verschiebungsanforde
 ```PowerShell
 Get-TeamMigrationJobStatus <String>
 ```
-Beispiel
+Beispiel:
 
 ```PowerShell
 Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
@@ -236,7 +237,7 @@ Dieser Schritt gilt nur, wenn das StaffHub-Team, das Sie in Teams verschoben hab
 
 Informationen finden Sie unter [Verschieben von Dateien in SharePoint Online](https://support.office.com/article/how-to-move-files-in-sharepoint-online-8c86f6c3-9612-4031-95b2-3d9d5c6e5a30).
 
-#### <a name="using-powershell"></a>Verwenden von PowerShell
+#### <a name="using-powershell"></a>Verwendung von PowerShell
 
 Laden Sie die [SharePoint Online-Verwaltungsshell](https://www.microsoft.com/download/details.aspx?id=35588)herunter, und installieren Sie Sie, falls noch nicht geschehen. Sie enthält die Cmdlets, die Sie zum Verschieben von Dateien benötigen.  
 
@@ -271,7 +272,7 @@ Führen Sie die folgenden Schritte aus, um eine Liste aller StaffHub-Teams in Ih
 ```PowerShell
 $StaffHubTeams = Get-StaffHubTeamsForTenant
 
-$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
+$StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
 ```
 
 Führen Sie dann die folgenden Schritte aus, um alle Teams zu verschieben.

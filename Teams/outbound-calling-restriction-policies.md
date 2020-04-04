@@ -1,5 +1,5 @@
 ---
-title: Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe
+title: Einschränkungen für ausgehende Anrufe-Audiokonferenzen & PSTN-Anrufe
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: Administratoren können den Typ von Audiokonferenz-und Endbenutzer-PSTN-anrufen steuern, die von Benutzern vorgenommen werden können.
-ms.openlocfilehash: 830ab45178c10ab485d50aafd66a4bf5d4db9011
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 253553e884b3f4591a7c5340132337d295cefe09
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836885"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137905"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe
 
@@ -46,7 +47,7 @@ Steuerelemente für ausgehende Anrufe können auf Benutzerebene angewendet werde
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Einschränken von ausgehenden Anrufen für Audiokonferenzen 
 
-![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
+![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
@@ -60,11 +61,11 @@ Steuerelemente für ausgehende Anrufe können auf Benutzerebene angewendet werde
 
 ![Ein Symbol mit dem Skype for Business-Logo](media/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1.  Wechseln Sie im **Skype for Business Admin Center**im linken Navigationsbereich zu **Audiokonferenz** > -**Benutzer**, und wählen Sie den Benutzer in der Liste der verfügbaren Benutzer aus.
+1.    Wechseln Sie im **Skype for Business Admin Center**im linken Navigationsbereich zu **Audiokonferenz** > -**Benutzer**, und wählen Sie den Benutzer in der Liste der verfügbaren Benutzer aus.
 
-2.  Klicken Sie im Bereich „Aktion" auf **Bearbeiten**.
+2.    Klicken Sie im Bereich „Aktion" auf **Bearbeiten**.
 
-3.  Wählen Sie unter **Einschränkungen für Auswahlen in Besprechungen dieses Benutzers**die gewünschte Option für das Auswählen von Einschränkungen aus.
+3.    Wählen Sie unter **Einschränkungen für Auswahlen in Besprechungen dieses Benutzers**die gewünschte Option für das Auswählen von Einschränkungen aus.
 
     ![Die Einschränkungen für Optionen für Auswahlen](media/restrictions-to-dial-outs.png)
 
@@ -73,7 +74,7 @@ Steuerelemente für ausgehende Anrufe können auf Benutzerebene angewendet werde
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-**Verwenden von PowerShell**
+**Verwendung von PowerShell**
 
 Einschränkungen für ausgehende Anrufe werden durch eine einzelne Richtlinie mit dem Namen OnlineDialOutPolicy gesteuert, die ein Einschränkungs Attribut für jede hat. Die Richtlinie kann nicht angepasst werden, es gibt jedoch vordefinierte Richtlinieninstanzen für jede Kombination der Einstellungen. 
 

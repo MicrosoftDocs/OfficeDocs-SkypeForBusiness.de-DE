@@ -1,5 +1,5 @@
 ---
-title: Schnellstarthandbuch – Konfigurieren von Anrufplänen in Microsoft Teams
+title: Schnellstarthandbuch – Konfigurieren von Anrufplänen
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f1ded5d843689e828b00c0a466e012b8750582
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a81cd7d3481c9c2f6e3e5c8874eef97dc0540431
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825363"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137775"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Schnellstarthandbuch: Konfigurieren von Anrufplänen in Microsoft Teams
 ==============================================================
@@ -64,7 +65,7 @@ Um sicherzustellen, dass eingehende VoIP-und PSTN-Anrufe immer im Team-Client ei
 
 **Notizen**
  - Skype for Business-IP-Telefone empfangen Anrufe, auch wenn sich der Benutzer im TeamsOnly-Modus befindet.  
- - Benutzer, die über Telefon System-und Anruf Plan Lizenzen für die Nutzung mit Skype for Business Online bereitgestellt wurden (beispielsweise einem Wert von OnlineVoiceRoutingPolicy), haben die Registerkarte "Anrufe" in Teams aktiviert und können ausgehende PSTN-Anrufe von Teams ohne Administratoren müssen administrative Schritte Unternehmen.
+ - Benutzer, die über Telefon System-und Anruf Plan Lizenzen für die Nutzung mit Skype for Business Online bereitgestellt wurden (beispielsweise, dass Ihnen ein Wert von OnlineVoiceRoutingPolicy zugewiesen wurde), verfügen über die Registerkarte "Anrufe" in Teams und können ausgehende PSTN-Anrufe von Teams aus tätigen, ohne dass Administratoren administrative Schritte Unternehmen müssen.
 
 
 ### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Konfigurieren von Benutzern für den Empfang aller eingehenden VoIP-und PSTN-Anrufe in Teams

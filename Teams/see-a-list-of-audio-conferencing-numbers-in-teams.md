@@ -1,5 +1,5 @@
 ---
-title: Anzeigen einer Liste mit Audiokonferenz-Telefonnummern in Microsoft Teams
+title: Anzeigen einer Liste mit Audiokonferenz-Telefonnummern
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 'Hier erfahren Sie, wie Sie Ihre Dial-in-Konferenznummern in Microsoft Teams nachschlagen. '
-ms.openlocfilehash: 05008f8c3d51d17023be26dcc78e9e0b60243a5c
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: d430daf841694029818f54d27abfeba3bc77604e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838165"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140968"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Anzeigen einer Liste mit Audiokonferenz-Telefonnummern in Microsoft Teams
 
@@ -46,7 +47,7 @@ Weitere Informationen zum Ändern der Dial-in-Telefonnummer für einen einzelnen
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>So zeigen Sie Ihre Audiokonferenz-Telefonnummern an
 
-![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
+![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 1. Wechseln Sie in der linken Navigationsleiste zu **Besprechungen** > **Konferenz Brücken**. 
 2. Zeigen Sie die Telefonnummern an, die für Audiokonferenzen verfügbar sind.

@@ -1,5 +1,5 @@
 ---
-title: Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen in Microsoft Teams
+title: Aktivieren oder Deaktivieren von Eingabe-und Beendigungs Ankündigungen für Besprechungen in Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: 'Hier erfahren Sie, wie Sie Ankündigungen bei Zu- oder Abgang in einer Microsoft Teams-Besprechung aktivieren oder deaktivieren. '
-ms.openlocfilehash: 8deb53145c95f9a370e894083de8e998b50fa9ae
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 558146853c7365a1eac9fdd2497326781889cf09
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832605"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139684"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen in Microsoft Teams
 
@@ -38,7 +39,7 @@ Die Konferenzbrücke nimmt einen Anruf eines Benutzers an, der sich über ein Te
   
 ## <a name="setting-meeting-join-options"></a>Festlegen von Optionen für die Besprechungsteilnahme
 
-![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
+![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
 

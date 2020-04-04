@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.quantity
-description: Wenn Sie Telefonnummern für Ihre Organisation reservieren möchten, kann die Anzahl der reservierten Telefonnummern die Anzahl der zugewiesenen Lizenzen übersteigen. Dies richtet sich jedoch nach der Art der Telefonnummern und der Art der Lizenzen, die Sie gekauft haben und die Ihnen zugewiesen wurden. Sie können auf verschiedene Arten von Telefonnummern klicken, die für Anrufpläne verwendet werden, um sich über die verschiedenen Telefonnummern zu informieren, die in Microsoft Teams verwendet werden.
-ms.openlocfilehash: d620e10c90474857325b15201d3b899d728ed815
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-mar2020
+description: Informieren Sie sich, wie viele Telefonnummern Sie in Microsoft Teams erhalten können, basierend auf dem Typ der Nummer und der Anzahl ihrer Lizenzen.
+ms.openlocfilehash: b8c6c8a2e1fa2b1b882a4fc2ddbbb5e904e5f6f7
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836287"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141108"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>Wie viele Telefonnummern können Sie bekommen?
 

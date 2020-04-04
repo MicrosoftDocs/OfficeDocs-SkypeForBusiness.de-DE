@@ -1,5 +1,5 @@
 ---
-title: Bewährte Methoden zum Organisieren von Teams in Microsoft Teams
+title: Bewährte Methoden zum Organisieren von Teams
 ms.reviewer: pbethi
 author: LolaJacobsen
 ms.author: lolaj
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59dcb99e8e8734885f7e62b79102cfad2745612a
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
-ms.translationtype: HT
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e8f6335edde67fcc00e68b6aa42b3100afa603c9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795758"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136875"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Bewährte Methoden zum Organisieren von Teams in Microsoft Teams
 ======================================================
@@ -40,7 +41,7 @@ Beim ersten Einführung von Teams empfiehlt es sich, mit eine kleinen Anzahl von
 
 ## <a name="create-channels-to-focus-discussions"></a>Erstellen Sie Kanäle für fokussierte Unterhaltungen
 
-Nachdem Sie Ihr Team erstellt haben, empfiehlt es sich, sich mit den verschiedenen Projekten und Arten von Unterhaltungen zu befassen, die Sie unterstützen müssen. Erstellen Sie anfängliche Kanäle, damit die Benutzer wissen, wo Sie mitwirken und bestehende Unterhaltungen finden. Verwenden Sie beschreibende Kanalnamen, damit die Benutzer gleich wissen, wo sie die jeweilige Unterhaltung finden können. Fügen Sie Tools (wie OneNote, Power BI oder Planner) als Registerkarten zu einem Kanal hinzu, damit die Mitglieder alles, was Sie benötigen, direkt im Kanal finden. Sie können auch eine häufig verwendete Webseite als Registerkarte zu einem Kanal hinzufügen. 
+Nachdem Sie Ihr Team erstellt haben, sollten Sie sich zunächst mit den verschiedenen Projekten und Arten von Unterhaltungen besprechen, die Sie unterstützen müssen. Erstellen Sie anfängliche Kanäle, damit die Benutzer wissen, wo Sie mitwirken und bestehende Unterhaltungen finden. Verwenden Sie beschreibende Kanalnamen, damit die Benutzer gleich wissen, wo sie die jeweilige Unterhaltung finden können. Fügen Sie Tools (wie OneNote, Power BI oder Planner) als Registerkarten zu einem Kanal hinzu, damit die Mitglieder alles, was Sie benötigen, direkt im Kanal finden. Sie können auch eine häufig verwendete Webseite als Registerkarte zu einem Kanal hinzufügen. 
 
 Erfahren Sie mithilfe dieser schnellen Tipps für Endbenutzer mehr über die [Arbeit in Teams](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams). 
 

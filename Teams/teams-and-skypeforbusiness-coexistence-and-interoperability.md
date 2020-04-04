@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams | Upgrade, Inseln-Modus, Interop-Richtlinie, nur
+title: Interoperabilität zwischen Skype for Business und Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -12,18 +12,18 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom: seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef1c9d8fd9d30101fdd40dba5946dfefb324742c
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: dc2a4495d95d0c6458fef16ea2f3f336dd337db4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706655"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140676"
 ---
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Grundlegendes zu Microsoft Teams und Skype for Business-Koexistenz und-Interoperabilität
 
@@ -34,7 +34,7 @@ Dieser Artikel ist Teil der Projekt Definitionsphase Ihres Upgrade-Vorgangs, ein
 - [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 - [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
 
-Wenn Ihre Organisation Skype for Business heute verwendet und Sie mit der Nutzung von Teams zusammen mit Skype for Business beginnen – oder wenn Sie mit dem Upgrade auf Teams beginnen – ist es wichtig zu verstehen, wie die beiden Anwendungen koexistieren, wann und wie Sie zusammenarbeiten und wie Sie verwaltet werden. die Migration der Benutzer bis hin zu ihrem eventuellen Upgrade von Skype for Business zu Teams.
+Wenn Ihre Organisation Skype for Business heute verwendet und Sie mit der Nutzung von Teams zusammen mit Skype for Business beginnen – oder wenn Sie mit dem Upgrade auf Teams beginnen – ist es wichtig zu verstehen, wie die beiden Anwendungen koexistieren, wann und wie Sie zusammenarbeiten, und wie Sie die Migration der Benutzer bis zu einem späteren Upgrade von Skype for Business auf Teams verwalten können.
 
 > [!Tip]
 > Schauen Sie sich die folgende Sitzung an, um mehr über [Koexistenz und Interoperabilität](https://aka.ms/teams-upgrade-coexistence-interop)zu erfahren.
@@ -70,7 +70,7 @@ Um eine verwirrende oder rückläufige Skype for Business-Erfahrung zu vermeiden
 
 In diesem Koexistenzmodus verbleiben die Benutzer in Skype for Business – nicht in Teams – für Chat-, Besprechungs-und Anruffunktionen, und Sie verwenden keine Teams für Teams und Kanäle. Dieser Modus steht heute zur Verfügung. in der aktuellen Implementierung werden jedoch Teams und Kanäle nicht automatisch für den Benutzer deaktiviert. Dies kann durch Verwenden der APP-Berechtigungsrichtlinie zum Ausblenden von Teams und Kanälen erreicht werden.
 
-Dieser Modus kann vor dem Starten einer verwalteten Bereitstellung von Teams verwendet werden, um zu verhindern, dass Benutzer Teams vor dem Aufbau der Bereitschaft verwenden, oder als Möglichkeit, die authentifizierte Teilnahme an Teams-Besprechungen für Skype for Business-Benutzer zu aktivieren, vorausgesetzt, die Benutzer sind lizenziert für Teams.
+Dieser Modus kann vor dem Starten einer verwalteten Bereitstellung von Teams verwendet werden, um zu verhindern, dass Benutzer Teams vor dem Aufbau der Bereitschaft verwenden, oder als Möglichkeit, die authentifizierte Teilnahme an Teams-Besprechungen für Skype for Business-Benutzer zu aktivieren, vorausgesetzt, die Benutzer sind für Teams lizenziert.
 
 ### <a name="teams-only"></a>Nur für Teams
 
@@ -95,7 +95,7 @@ Organisationen mit einem Ausgangspunkt von Skype for Business Server lokal oder 
 
 ### <a name="skype-for-business-with-teams-collaboration-and-meetings-also-known-as-meetings-first"></a>Skype for Business mit Teamzusammenarbeit und Besprechungen, auch als "Besprechungen" bezeichnet
 
-Verwenden Sie diesen Koexistenzmodus, um die Verfügbarkeit von Teams-Besprechungsfunktionen in Ihrer Organisation zusätzlich zu den Zusammenarbeitsfunktionen zu beschleunigen, die es Ihren Benutzern ermöglichen, die Vorteile der überlegenen Teams für Besprechungen zu nutzen – hervorragende Qualität, innovative Funktionen wie Transkription und Übersetzung oder Hintergrund Unschärfe sowie hervorragende Benutzerfreundlichkeit auf allen Plattformen, einschließlich mobiler Geräte und Browser.
+Verwenden Sie diesen Koexistenzmodus, um die Verfügbarkeit von Teams-Besprechungsfunktionen in Ihrer Organisation zusätzlich zu den Zusammenarbeitsfunktionen zu beschleunigen, die es Ihren Benutzern ermöglichen, die überlegenen Teams für Besprechungen zu nutzen – hervorragende Qualität, innovative Funktionen wie Transkription und Übersetzung oder Hintergrund Unschärfe sowie hervorragende Benutzerfreundlichkeit auf allen Plattformen, einschließlich mobiler Geräte und Browser.
 
 Zusammen mit der Verwendung von Teams für Teams und auf Kanälen basierende Konversationen in diesem Modus verwenden die Benutzer Teams, um Ihre Besprechungen zu planen und durchzuführen. Privater Chat und Anrufe verbleiben in Skype for Business. Teams und Skype for Business profitieren von einer Reihe von "besser kombinierten" Funktionen wie Anwesenheits Abstimmung, automatisches halten/aufhalten und Unterstützung von HID-Geräten in beiden Anwendungen. Beachten Sie, dass es möglich ist, Teams und Kanäle bei Bedarf mithilfe der APP-Berechtigungsrichtlinie zu verbergen.
 
@@ -166,7 +166,7 @@ Die Interop-Eskalation besteht darin, die systemeigenen Interop-Funktionen durch
 
 Wenn die Interop-Eskalation vom Team Benutzer ausgelöst wird, wird eine Teambesprechung erstellt. Wenn es vom Skype for Business-Benutzer ausgelöst wird, wird eine Skype for Business-Besprechung erstellt. In beiden Fällen ist die erstellte **Besprechung eine Besprechung** , die sich nicht im Kalender des Benutzers widerspiegelt.
  
-Die andere Partei erhält den Link "Besprechungsteilnahme" über Interop-Chat und Verknüpfungen, indem Sie auf diesen Link klickt. Wenn der Skype for Business-Benutzer ein Teams-Konto hat und vom Team Benutzer eingeladen wird, wird er an der Besprechung authentifiziert. Andernfalls werden Sie als anonymer Teilnehmer beitreten. Umgekehrt verfügen die Benutzer von Teams fast immer über ein Skype for Business-Konto und einen Skype for Business-Client, den Sie für die Teilnahme an einer Skype for Business-Besprechung als authentifizierter Teilnehmer verwenden können, aber möglicherweise auch als anonymer Teilnehmer beitreten, beispielsweise mit der Skype-Anwendung. Besprechungs-app.
+Die andere Partei erhält den Link "Besprechungsteilnahme" über Interop-Chat und Verknüpfungen, indem Sie auf diesen Link klickt. Wenn der Skype for Business-Benutzer ein Teams-Konto hat und vom Team Benutzer eingeladen wird, wird er an der Besprechung authentifiziert. Andernfalls werden Sie als anonymer Teilnehmer beitreten. Umgekehrt verfügen die Benutzer von Teams fast immer über ein Skype for Business-Konto und einen Skype for Business-Client, den Sie für die Teilnahme an einer Skype for Business-Besprechung als authentifizierter Teilnehmer verwenden können, aber möglicherweise auch als anonymer Teilnehmer beitreten, beispielsweise über die Skype-Besprechungs-app.
 
 Nachdem die Parteien der Besprechung beigetreten sind, können Sie alle in Besprechungen unterstützten Aktivitäten wie Desktop-oder Inhaltsfreigabe, Dateifreigabe oder-Übertragung, Hinzufügen weiterer Teilnehmer usw. durchführen.
 

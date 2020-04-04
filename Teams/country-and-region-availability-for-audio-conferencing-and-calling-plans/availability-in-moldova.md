@@ -23,13 +23,15 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - Phone System
-- Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: 4d5dff24821b23c690a27109bd1471f1a4817111
-ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
+- Calling Plans for Business and Microsoft Teams available for Moldova."
+- seo-marvel-mar2020
+description: Hier finden Sie Informationen dazu, welche Office 365-Dienste für Skype for Business und Microsoft Teams in Moldawien zur Verfügung stehen.
+ms.openlocfilehash: 04e387d28ba798010ca3049d35b6aeba281e3d76
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41852919"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141128"
 ---
 # <a name="availability-in-moldova"></a>Verfügbarkeit in der Republik Moldau
 
@@ -60,9 +62,9 @@ Im folgenden finden Sie die Office 365-Dienste für Skype for Business und Micro
 |:-----|:-----|
 |Sind Anrufpläne zum Kauf verfügbar?  <br/> |Nein  <br/> |
 |Verfügbare Minuten für Anrufpläne  <br/> |Nicht anwendbar  <br/> |
-|Sind ausgehende Anrufe möglich?  <br/> |Nicht anwendbar  <br/> |
+|Sind ausgehende Anrufe möglich?  <br/> |Nicht zutreffend  <br/> |
 
-Wenn keine Anrufpläne für den Kauf verfügbar sind, sollten Sie die [direkte Weiterleitung von Telefonsystemen](../direct-routing-landing-page.md)in Frage stellen. Mit der direkten Weiterleitung können Sie das Telefon System mit praktisch jedem Telefonnetzbetreiber verwenden.
+Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [direkten Routings für Telefonsysteme](../direct-routing-landing-page.md) in Betracht. Mit dem direkten Routing können Sie die Telefonsysteme mit praktisch jedem Telefonieanbieter nutzen.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 

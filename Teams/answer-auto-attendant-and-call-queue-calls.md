@@ -1,5 +1,5 @@
 ---
-title: Direktes Beantworten von Anrufen aus der automatischen Telefonzentrale und der Anrufwarteschleife aus Teams
+title: Annehmen einer automatischen Telefonzentrale und Anruf Warteschlangen Anrufe
 ms.reviewer: waseemh
 author: LolaJacobsen
 ms.author: lolaj
@@ -18,12 +18,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e864e32409730373d98263215b0bcc35d9b404d
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: d630ea41915cb89013e407a6fa0b1cc21cb21abf
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825313"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137435"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Direktes Beantworten von Anrufen aus der automatischen Telefonzentrale und der Anrufwarteschleife aus Teams
 ===========================================================
@@ -44,7 +45,7 @@ Die folgende Abbildung zeigt, wie ein eingehender Anruf von einer automatischen 
 
 ![Screenshot einer Benachrichtigung über eingehende Anrufe](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-Sobald eine automatische Telefonzentrale oder ein Anruf Warteschlangen Anruf beantwortet wurde, kann der Benutzer den Anruf wie jeden anderen Anruf verarbeiten, #a0 er einem anderen Benutzer hinzufügen oder eine Konferenz durchführen oder den Anruf an eine andere Person übertragen kann. Darüber hinaus werden Anrufe an die automatische Telefonzentrale basierend auf der Konfiguration des Benutzers weitergeleitet.
+Sobald eine automatische Telefonzentrale oder ein Anruf Warteschlangen Anruf beantwortet wurde, kann der Benutzer den Anruf wie jeden anderen Anruf verarbeiten, &#x2014; er einem anderen Benutzer hinzufügen oder eine Konferenz durchführen oder den Anruf an eine andere Person übertragen kann. Darüber hinaus werden Anrufe an die automatische Telefonzentrale basierend auf der Konfiguration des Benutzers weitergeleitet.
 
 > [!NOTE] 
 > Anruf Warteschlangen Anrufe werden nicht basierend auf der Konfiguration des Benutzers weitergeleitet. Dadurch wird sichergestellt, dass Anrufer in der Warteschlange verbleiben, bis ein Agent den Anruf annehmen kann und der Anrufer nicht unerwartet weitergeleitet wird.
@@ -53,10 +54,10 @@ Sobald eine automatische Telefonzentrale oder ein Anruf Warteschlangen Anruf bea
 
 Unterstützung für automatische Telefonzentrale und Anruf Warteschlangen Anrufe steht in den folgenden Clients zur Verfügung:
 
--   Microsoft Teams Windows-Client (32- und 64-Bit-Versionen)
--   Microsoft Teams Mac-Client
--   Microsoft Teams-iPhone-App
--   Microsoft Teams Android-App
+-    Microsoft Teams Windows-Client (32- und 64-Bit-Versionen)
+-    Microsoft Teams Mac-Client
+-    Microsoft Teams-iPhone-App
+-    Microsoft Teams Android-App
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Konfigurieren der automatischen Telefonzentrale und der Unterstützung der Anrufwarteschlange für Microsoft Teams
 
@@ -64,8 +65,8 @@ Wenn Sie die automatische Telefonzentrale und die Anruf Warteschlangen Anrufe in
 
 ## <a name="related-topics"></a>Verwandte Themen
 
--   [Was ist das Telefon System in Office 365?](what-is-phone-system-in-office-365.md)
--   [Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md)
--   [Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md)
--   [Einrichten einer automatischen Cloudtelefonzentrale](create-a-phone-system-auto-attendant.md)
+-    [Was ist das Telefon System in Office 365?](what-is-phone-system-in-office-365.md)
+-    [Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md)
+-    [Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md)
+-    [Einrichten einer automatischen Cloudtelefonzentrale](create-a-phone-system-auto-attendant.md)
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Bereiten Sie das Netzwerk Ihrer Organisation für Quality of Service (QoS) in Microsoft Teams vor.
+description: Hier erfahren Sie, wie Sie das Netzwerk Ihrer Organisation für Quality of Service (QoS) in Microsoft Teams vorbereiten.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,22 +16,23 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31e8b01f5a48d74d516121c5a59ea79d94c317a3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 545cbc1d170f6b511de5e8d21a237bc893ee0702
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834735"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138035"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementieren von Quality of Service (QoS) in Microsoft Teams
 
 Dieser Artikel unterstützt Sie beim Vorbereiten des Netzwerks Ihrer Organisation auf QoS (Quality of Service) in Microsoft Teams. Wenn Sie eine große Gruppe von Benutzern unterstützen und die unten aufgeführten Probleme auftreten, müssen Sie wahrscheinlich QoS implementieren. Ein kleines Unternehmen mit wenigen Benutzern braucht möglicherweise keine QoS, aber auch dort sollte es hilfreich sein.
 
-QoS ist eine Möglichkeit, um Netzwerkdatenverkehr in Echtzeit (wie Sprach-oder Videostreams) zu ermöglichen, die für Netzwerkverzögerungen anfällig sind, um vor dem Verkehr, der weniger sensibel ist (wie beim Herunterladen einer neuen App, bei denen eine zusätzliche Sekunde zum herunterladen keine große Sache ist), "in der Schlange zu schneiden". QoS identifiziert und markiert alle Pakete in Echtzeit-Streams (unter Verwendung von Windows-Gruppenrichtlinienobjekten und einem Routing-Feature namens Port basierten Zugriffskontrolllisten, weitere Informationen dazu finden Sie unten), die dann dazu beitragen, dass Ihr Netzwerk sprach-, Video-und Bildschirmfreigabe Datenströme a erhält. dedizierter Anteil an Netzwerkbandbreite.
+QoS ist eine Möglichkeit, um Netzwerkdatenverkehr in Echtzeit (wie Sprach-oder Videostreams) zu ermöglichen, die für Netzwerkverzögerungen anfällig sind, um vor dem Verkehr, der weniger sensibel ist (wie beim Herunterladen einer neuen App, bei denen eine zusätzliche Sekunde zum herunterladen keine große Sache ist), "in der Schlange zu schneiden". QoS identifiziert und kennzeichnet alle Pakete in Echtzeit-Streams (unter Verwendung von Windows-Gruppenrichtlinienobjekten und einem Routing-Feature namens Port-Based Access Control Lists, weitere Informationen dazu finden Sie unten), die dann Ihrem Netzwerk dabei helfen, sprach-, Video-und Bildschirmfreigabe Datenströme zu einem dedizierten Teil der Netzwerkbandbreite zu machen.
 
 Ohne eine Art von QoS sehen Sie möglicherweise die folgenden Qualitätsprobleme in Sprache und Video:
 
@@ -109,11 +110,11 @@ In der folgenden Tabelle sind die erforderlichen DSCP-Markierungen und die vorge
 
 _Empfohlene anfängliche Portbereiche_
 
-|Media Traffic-Typ| Client Quellportbereich |Protokoll|DSCP-Wert|DSCP-Klasse|
+|Typ des Mediendatenverkehrs| Client-Quellportbereich  |Protokoll|DSCP-Wert|DSCP-Klasse|
 |:--- |:--- |:--- |:--- |:--- |
-|Audio| 50000 – 50019|TCP/UDP|46|Expedited Forwarding (EF)|
-|Video| 50020 – 50039|TCP/UDP|34|Assured Forwarding (AF41)|
-|Anwendung/Bildschirmübertragung| 50040 – 50059|TCP/UDP|18|Sichere Weiterleitung (AF21)|
+|Audio| 50.000–50.019|TCP/UDP|46|Expedited Forwarding (EF)|
+|Video| 50.020–50.039|TCP/UDP|34|Assured Forwarding (AF41)|
+|Anwendung/Bildschirmfreigabe| 50.040–50.059|TCP/UDP|18|Assured Forwarding (AF21)|
 ||||||
 
 Beachten Sie Folgendes, wenn Sie diese Einstellungen verwenden:

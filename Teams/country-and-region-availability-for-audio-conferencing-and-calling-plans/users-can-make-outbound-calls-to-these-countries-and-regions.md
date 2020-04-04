@@ -1,5 +1,5 @@
 ---
-title: Benutzer können ausgehende Anrufe in diese Länder und Regionen vornehmen
+title: Tätigen von ausgehenden Anrufen in diese Länder/Regionen
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -23,13 +23,14 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
+- seo-marvel-mar2020
 description: Dieses Thema enthält alle Länder/Regionen, in die Benutzer ausgehende Anrufe tätigen können, wenn über einen Anrufplan verfügen.
-ms.openlocfilehash: 09e6fae92c7708e13c8b1eb595d76bf313dbba0c
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 4e41235473436e326d19f42d8e838d5508becf97
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982128"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141048"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Benutzer können ausgehende Anrufe in diese Länder und Regionen vornehmen
 

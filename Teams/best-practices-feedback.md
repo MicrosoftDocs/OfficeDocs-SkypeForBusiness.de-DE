@@ -1,5 +1,5 @@
 ---
-title: Bewährte Methoden für Benutzerfeedback in Microsoft Teams
+title: Bewährte Methoden für Benutzer Feedback Methoden
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac158a5d90c1a1cbe5e4dad5d6c5f894054e72ad
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a0dcb100ec04a03f48400cbaca01c001a250ffbc
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826203"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136885"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Bewährte Methoden für Benutzerfeedback in Microsoft Teams
 ===========================================================
@@ -38,4 +39,4 @@ Bei der Einführung neuer Zusammenarbeitsfunktionen geht es darum, das Verhalten
 <a name="showcases"></a>Herausragende Beispiele
 ---------
 
-Im Lauf der Zeit werden Sie in Ihrer eigenen Umgebung herausragende Beispiele von Mitarbeitern finden, deren Kreativität mit Microsoft Teams Sie positiv überraschen wird. Wir empfehlen, diese Beispiele mit allen zu teilen. Dadurch werden andere ermutigt, innovativ zu sein und Benutzer zu unterweisen, die mit der Einführung noch nicht so weit fortgeschritten sind. Außerdem werden diejenigen anerkannt, die sich die Zeit genommen haben, sich mit der optimalen Verwendung von Microsoft Teams in ihrer Umgebung auseinanderzusetzen. Hilfreich ist auch, ein messbares Ziel festzulegen, um jedes Quartal eine feste Anzahl von herausragenden Beispielen zu identifizieren und so die Einführung in Schwung zu halten.
+Wenn Sie diese Reise fortsetzen, finden Sie in ihrer eigenen Umgebung von Mitarbeitern Vitrinen, deren Kreativität mit Microsoft Teams Sie überraschen und begeistern wird. Wir empfehlen, diese Vitrinen im Allgemeinen zu teilen. Dadurch werden andere ermutigt, innovativ zu sein, Benutzer zu informieren, die möglicherweise früher in der adoptionskurve sind, und diejenigen zu belohnen, die sich die Zeit genommen haben, um zu überlegen, wie Sie Microsoft Teams in Ihrer Umgebung am besten nutzen können. Das Festlegen eines messbaren Ziels, eine festgelegte Anzahl von Vitrinen in jedem Quartal zu identifizieren, ist hilfreich, um Ihre Akzeptanz Dynamik beizubehalten.

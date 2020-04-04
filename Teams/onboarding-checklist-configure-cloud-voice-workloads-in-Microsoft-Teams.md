@@ -1,5 +1,5 @@
 ---
-title: Onboardingcheckliste für das Konfigurieren von Cloud Voice-Workloads in Microsoft Teams
+title: Checkliste für Onboarding – Konfigurieren von Cloud-sprach Auslastungen – Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c91c568a09e6327b0f42ed5425eb12594116c69
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 344699cc112e369358059e91f29e4e7088fe8b3a
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832495"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43138345"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>Konfigurieren von Cloud-sprach Auslastungen in Microsoft Teams
 

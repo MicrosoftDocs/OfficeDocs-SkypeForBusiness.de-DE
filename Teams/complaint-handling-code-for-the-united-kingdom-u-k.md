@@ -1,5 +1,5 @@
 ---
-title: Anrufpläne in Office 365 – Kodex für die Behandlung von Beschwerden für das Vereinigte Königreich
+title: Code für die Reklamationsbehandlung in Großbritannien -Office 365-Anrufpläne
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,14 +20,15 @@ f1.keywords:
 - CSH
 ms.custom:
 - Legal
+- seo-marvel-mar2020
 hideEdit: true
-description: 'Hier erfahren Sie, wie Sie eine Beschwerde für Skype for Business-Anrufdienste (PSTN-Anrufe in Großbritannien) tätigen, was die Zeitpläne für Antworten sind und wie Streitigkeiten für ungelöste Beschwerden gelöst werden. '
-ms.openlocfilehash: 4a035c77756acc811eec184c0749623a2142cf41
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Sie können eine Beschwerde für Skype for Business-Anrufdienste (PSTN-Anrufe in Großbritannien), Zeitpläne für Antworten und die Lösung von Streitigkeiten wegen ungelöster Beschwerden einreichen.
+ms.openlocfilehash: 6bebf983d19461485f7f381c300fc6e5b3611b6b
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825573"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137285"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Anrufpläne in Office 365 – Kodex für die Behandlung von Beschwerden für das Vereinigte Königreich
 

@@ -14,18 +14,19 @@ ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden Planungsüberlegungen zur Verwendung von Azure Monitor zum Verwalten von Microsoft Teams rooms-Geräten in Ihrer Skype for Business-oder Teams-Implementierung erläutert.
-ms.openlocfilehash: 4fdf5d80b88a973cf1a1132775c7b0cc85e5cc18
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 16a962d7414407cf5f2f5734b7a2f39a56f7d281
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826113"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137605"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planen der Verwaltung von Microsoft Teams Rooms mit Azure Monitor
  
  In diesem Artikel werden Planungsüberlegungen zur Verwendung von Azure Monitor zum Verwalten von Microsoft Teams rooms-Geräten in Ihrer Microsoft Teams-oder Skype for Business-Implementierung erläutert.
   
-[Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) ist eine Sammlung von Verwaltungsdiensten, die von Anfang an in der Cloud entwickelt wurden. Anstatt lokale Ressourcen bereitzustellen und zu verwalten, werden Azure Monitor-Komponenten vollständig in Azure gehostet. Die Konfiguration ist minimal, und Sie können innerhalb weniger Minuten buchstäblich in Betrieb sein. Mit einigen Anpassungsarbeiten kann Sie die Verwaltung von Microsoft Teams rooms-Konferenzsystemen unterstützen, indem Sie Echtzeitbenachrichtigungen über den Systemstatus oder Fehler für einzelne Raumsysteme bereitstellen und diese potenziell auf die Verwaltung Tausender Microsoft Teams skalieren können. Zimmer Konferenzräume.
+[Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) ist eine Sammlung von Verwaltungsdiensten, die von Anfang an in der Cloud entwickelt wurden. Anstatt lokale Ressourcen bereitzustellen und zu verwalten, werden Azure Monitor-Komponenten vollständig in Azure gehostet. Die Konfiguration ist minimal, und Sie können innerhalb weniger Minuten buchstäblich in Betrieb sein. Mit einigen Anpassungsarbeiten kann Sie die Verwaltung von Microsoft Teams rooms-Konferenzsystemen unterstützen, indem Sie Echtzeitbenachrichtigungen über den Systemstatus oder Fehler für einzelne Raumsysteme bereitstellen und diese potenziell auf die Verwaltung von Tausenden von Microsoft Teams rooms-Konferenzräumen skalieren können.
   
 Dieser Artikel enthält eine Erläuterung der Best Practices für Anforderungen, Entwurf/Architektur und Implementierung, die für die Implementierung der Azure Monitor-basierten Verwaltung von Microsoft Teams rooms-Konferenz Geräten erforderlich sind, und enthält Links zu detaillierten Artikeln zur Implementierung von Azure Monitor für Microsoft Teams-Räume sowie zu wichtigen Referenzinformationen für die laufende Überwachung von Microsoft Teams-Chatrooms. 
   

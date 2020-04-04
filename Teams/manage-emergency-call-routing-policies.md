@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Notfall Anruf-Routing Richtlinien in Microsoft Teams
+title: Verwalten von Notfall-Anrufweiterleitungsrichtlinien
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Routing Richtlinien für Notrufe in Microsoft Teams verwenden und verwalten.
-ms.openlocfilehash: af0b7a6a82e0d5ff06c65d726b2f67af22b6f4aa
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: c0e02a44997e07626c39dc576357f8811a9b1bf9
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836505"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141118"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Verwalten von Notfall Anruf-Routing Richtlinien in Microsoft Teams
 
@@ -53,7 +54,7 @@ Wenn Sie einer Netzwerk Website und einem Benutzer eine Notfall Anruf-Routing Ri
 
 6. Klicken Sie auf **Speichern**.
 
-### <a name="using-powershell"></a>Verwenden von PowerShell
+### <a name="using-powershell"></a>Verwendung von PowerShell
 
 Weitere Informationen finden Sie unter [New-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsemergencycallroutingpolicy).
 
@@ -67,7 +68,7 @@ Sie können die globale Standardrichtlinie bearbeiten oder eine von Ihnen erstel
 2. Wählen Sie die Richtlinie aus, indem Sie zunächst links neben die Richtlinienbezeichnung und dann auf **Bearbeiten** klicken.
 3. Nehmen Sie die gewünschten Änderungen vor, und klicken Sie dann auf **Speichern**.
 
-### <a name="using-powershell"></a>Verwenden von PowerShell
+### <a name="using-powershell"></a>Verwendung von PowerShell
 
 Weitere Informationen finden Sie unter [Satz-CsTeamsEmergencyCallRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsemergencycallroutingpolicy).
 
@@ -75,7 +76,7 @@ Weitere Informationen finden Sie unter [Satz-CsTeamsEmergencyCallRoutingPolicy](
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams admin Centers
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**, und klicken Sie dann auf den Benutzer.
+1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Nutzer**, und klicken Sie dann den gewünschten Nutzer an.
 2. Klicken Sie zunächst auf **Richtlinien** und dann neben **Zugewiesene Richtlinien** auf **Bearbeiten**.
 3. Wählen Sie unter **Notruf Weiterleitungs Richtlinie**die Richtlinie aus, die Sie zuweisen möchten, und klicken Sie dann auf **Speichern**.
 
@@ -89,7 +90,7 @@ Sie können auch die folgenden Schritte ausführen:
 4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
 5. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
 
-### <a name="using-powershell"></a>Verwenden von PowerShell
+### <a name="using-powershell"></a>Verwendung von PowerShell
 
 #### <a name="assign-a-custom-emergency-call-routing-policy-to-a-user"></a>Zuweisen einer benutzerdefinierten Routing Richtlinie für Notfallanrufe an einen Benutzer
 

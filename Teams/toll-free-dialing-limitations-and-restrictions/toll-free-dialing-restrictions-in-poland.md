@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: aac5a16f9f3eca802f53af7950fd93f31a2e85ac
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Informieren Sie sich über das Wählen von gebührenfreien Nummern in Polen, einschließlich Verfügbarkeit, Verfügbarkeit von drahtgebundenen/fest Netzanschlüssen und Mobilfunknetz sowie Einschränkungen.
+ms.openlocfilehash: 7e467fc5b62b94c31a3e3859c94520c1a23982cd
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693420"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140304"
 ---
 # <a name="toll-free-dialing-restrictions-in-poland"></a>Einschränkungen für gebührenfreie Telefonnummern in Polen
 

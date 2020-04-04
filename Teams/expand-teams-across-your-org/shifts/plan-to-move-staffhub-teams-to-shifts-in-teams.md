@@ -1,5 +1,5 @@
 ---
-title: Planen, ihre StaffHub-Teams in Microsoft Teams zu verschieben
+title: Planen, ihre StaffHub-Teams in Schichten zu verschieben
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: gumariam,aaku
@@ -17,17 +17,18 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0043b1599ac7ce90599a03d786d756cf16e684
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 41fd33c384bf6f91ae760d539e18ea7ee74a8503
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008147"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139584"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Planen, ihre StaffHub-Teams in Microsoft Teams zu verschieben
 
 > [!IMPORTANT]
-> 2019, 31. Dezember, wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Teams die Schicht-App für die Terminplanung, und zusätzliche Funktionen werden im Laufe der Zeit bereitgestellt. StaffHub wird am 31. Dezember 2019 nicht mehr für alle Benutzer funktionieren. Jede Person, die versucht, StaffHub zu öffnen, wird eine Meldung angezeigt, die Sie zum Herunterladen von Teams anweist. Weitere Informationen finden Sie unter [Microsoft StaffHub](microsoft-staffhub-to-be-retired.md). 
+> Am 31. Dezember 2019 wird Microsoft StaffHub eingestellt. Wir erstellen StaffHub-Funktionen in Microsoft Teams. Heute umfasst Microsoft Teams die App "Schichten" für die Zeitplanverwaltung, und im Laufe der Zeit werden zusätzliche Funktionen bereit stehen. StaffHub wird am 31. Dezember 2019 für alle Benutzer eingestellt. Jedem Benutzer, der StaffHub zu öffnen versucht, wird eine Meldung angezeigt, die ihn zum Microsoft Teams-Download leitet. Weitere Informationen finden Sie unter [Microsoft StaffHub wird eingestellt](microsoft-staffhub-to-be-retired.md). 
 
 Der Übergang von StaffHub zu Teams beginnt, wenn Sie mit der Planung der Änderung beginnen. Um sicherzustellen, dass Ihr Umzug in Teams erfolgreich ist, haben wir eine Beispiel Zeitachse erstellt, die einen typischen Übergangsplan veranschaulicht. In der Beispiel Zeitachse werden Planungsaktivitäten zur Vorbereitung des Umzugs beschrieben, und Sie gelangen durch das Verschieben der StaffHub-Teams Ihrer Organisation in Teams.
 

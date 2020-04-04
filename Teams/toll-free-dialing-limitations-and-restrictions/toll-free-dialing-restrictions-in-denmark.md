@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: 7e0ff3df5e4268ac0f0d069075214a066371836e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Informieren Sie sich über das Wählen von gebührenfreien Telefonnummern in China Süd, einschließlich Verfügbarkeit, Verfügbarkeit von Kabel-und Festnetz-und Mobilnetzen sowie Einschränkungen.
+ms.openlocfilehash: b8dc3b6382b5b74a80bba1a8702d1a40bee5eaf0
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707972"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140444"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>Einschränkungen für gebührenfreie Telefonnummern in Dänemark
 

@@ -1,5 +1,5 @@
 ---
-title: Freigeben von Anrufen und Gruppenanrufannahme in Microsoft Teams
+title: Freigeben von Anrufen und Gruppenanrufannahme
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -21,19 +21,20 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.groupcallpickup.tooltip
 - ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
 - Phone System
+- seo-marvel-mar2020
 description: Mit der Anruf Freigabe und der Gruppenanruf-Pickup können Benutzer eingehende Anrufe an Kollegen weiterleiten, damit Anrufe aufgenommen werden können, wenn der Benutzer nicht verfügbar ist.
-ms.openlocfilehash: c3a47c892940762807a86d6690fa59520f137960
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: aa59166d32de49b9163209a4836c7024d697fa8f
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824553"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141288"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Freigeben von Anrufen und Gruppenanrufannahme in Microsoft Teams
 
 Mit den Funktionen für Anruf Freigabe und Gruppenanruf-Abholung von Microsoft Teams können Benutzer Ihre eingehenden Anrufe an Kollegen weitergeben, damit die Kollegen Anrufe entgegennehmen können, die eintreten, während der Benutzer nicht verfügbar ist.
 
-Die Gruppenanruf Abholung ist weniger störend für die Empfänger als andere Formen der Anruf Freigabe (wie Anrufweiterleitung oder gleichzeitiges Klingeln), da Benutzer konfigurieren können, wie Sie über einen eingehenden freigegebenen Anruf benachrichtigt werden möchten (über Audio-und visuelle Benachrichtigung, nur visuell, oder Banner in der Teams-APP), und Sie können entscheiden, ob Sie Sie beantworten möchten.
+Die Gruppenanruf Abholung ist weniger störend für Empfänger als andere Formen der Anruf Freigabe (wie Anrufweiterleitung oder gleichzeitiges Klingeln), da Benutzer konfigurieren können, wie Sie über einen eingehenden freigegebenen Anruf benachrichtigt werden möchten (über Audio-und visuelle Benachrichtigung, nur visuell oder Banner in der Teams-APP), und Sie können entscheiden, ob Sie Sie beantworten möchten.
 
 Um Anrufe mit anderen zu teilen, erstellt ein Benutzer eine anrufgruppe und fügt die Benutzer hinzu, deren Anrufe Sie freigeben möchten. Dann wählen Sie eine gleichzeitige Ring-oder Forward-Einstellung aus. Weitere Informationen finden Sie unter [Anrufweiterleitung und gleichzeitiges anrufen in Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) .
 

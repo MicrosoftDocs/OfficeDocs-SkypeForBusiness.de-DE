@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Microsoft Teams patients App EPA-Integration
-ms.openlocfilehash: d718f3d3772a08ecfa57e418a4f4fc2e22fe7172
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Erfahren Sie mehr über die STU3-Schnittstellenspezifikation in Teams, einschließlich der Einrichtung oder Neukonfiguration eines FHIR-Servers für die Zusammenarbeit mit der Microsoft Teams-Patienten-app.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 35d887575ffb894b7a47e50511e6bd6c3a9a75d1
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147698"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141198"
 ---
 # <a name="stu3-interface-specification"></a>Benutzeroberflächenspezifikation STU3
 
@@ -221,7 +222,7 @@ Sehen Sie sich das folgende Beispiel des Anrufs an:
 
     Request: besorgen Sie sich <fhir-Server>/allergyintolerance? Patient =<Patienten-ID>
     
-    Response: {"Ressource": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressourcen": "AllergyIntolerance"; "ID": "<Resource-ID>"; "clinicalStatus": "aktiv"; "verificationStatus": "bestätigt"; "Code": {"Coding": [{"System": "http://rxnav.nlm.nih.gov/REST/Ndfrt"; "Code": "N0000175503"; "Anzeige": "Sulfonamid antibakteriell",}], "Text": "Sulfonamid Ant ibacterial "}," assertedDate ":" 2018-01-01T00:00:00-07:00 ";" Reaktion ": [{" Manifestation ": [{" Coding ": [{" System ":"http://snomed.info/sct";" Code ":" 271807003 ";" Display ":" Skin-Ausschlag ";}]," Text ":" Hautausschlag "}];}]}}]}
+    Response: {"Ressourcentyp": "Bundle"; "ID": "<Bundle-ID>"; "Typ": "searchset"; "Total": 1; "Eintrag": [{"Resource": {"Ressource": "AllergyIntolerance"; "ID": "<Resource-ID>"; "clinicalStatus": "aktiv"; "verificationStatus": "bestätigt"; "Code": {"Coding": [{"System":http://rxnav.nlm.nih.gov/REST/Ndfrt"", "Code": "N0000175503"; "Display": "Sulfonamid antibakterielle",}], "Text": "Sulfonamid antibakteriell"}, "assertedDate": "2018-01-01T00:00:00-07:00"; "Reaktion": [{"Manifest": [{"Coding": [{"System": "http://snomed.info/sct"; "Code": "271807003"; "Display": "Hautausschlag",}], "Text": "Hautausschlag"}],}]}}]}
 
 * * *
 

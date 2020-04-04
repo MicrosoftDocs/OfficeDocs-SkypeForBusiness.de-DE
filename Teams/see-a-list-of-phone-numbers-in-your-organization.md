@@ -21,13 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Hier erfahren Sie, wie Sie das Microsoft Teams Admin Center verwenden, um eine Liste aller Telefonnummern in Ihrer Organisation sowie alle Nummern anzuzeigen, die Benutzern zugewiesen oder nicht zugewiesen wurden.
-ms.openlocfilehash: 029f5f15e4d414ed2f6bc4e06d39b3456b32ee62
-ms.sourcegitcommit: 73518a589db1a9883fc97827f0ddb9132995fbfa
+- seo-marvel-mar2020
+description: Erfahren Sie, wie Sie das Microsoft Teams Admin Center verwenden, um eine Liste aller Telefonnummern in Ihrer Organisation sowie alle Nummern anzuzeigen, die Benutzern zugewiesen oder nicht zugewiesen wurden.
+ms.openlocfilehash: 8483a3847027f3790930653ead39678f6a802533
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42236855"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140958"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Telefonnummernliste für Ihre Organisation anzeigen
 

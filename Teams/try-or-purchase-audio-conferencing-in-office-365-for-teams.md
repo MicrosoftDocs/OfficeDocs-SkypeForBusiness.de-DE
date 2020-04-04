@@ -1,5 +1,5 @@
 ---
-title: Testen oder Kaufen von Audiokonferenz in Office 365 für Microsoft Teams
+title: Testen oder kaufen von Audiokonferenzen in Office 365 für Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.lync.lac.CpcGettingStarted
+- seo-marvel-mar2020
 description: 'Informieren Sie sich über das Testen oder erwerben von Lizenzen für Audiokonferenz (PSTN-Konferenz) für Office 365 zum Einrichten von Telefonkonferenzen, in die Personen sich einwählen können. '
-ms.openlocfilehash: 6c2b7583dcf286ba3b761a3445e3eff241896194
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6f30f59e20ee6fd8516bcfe420e2b936e9749a8e
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837615"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139694"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Testen oder Kaufen von Audiokonferenz in Office 365 für Microsoft Teams
 

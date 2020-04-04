@@ -1,5 +1,5 @@
 ---
-title: Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer in Microsoft Teams
+title: Senden einer e-Mail-Nachricht an einen Benutzer
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: Senden Sie E-Mails mit Audiokonferenzinformationen an Ihre Benutzer in Microsoft Teams.
-ms.openlocfilehash: c2ae5fe3af00cece551db690aa76805edd480373
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2a045eaf3a2a79b893ff0d13e25d9b34224fd355
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838125"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140928"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer in Microsoft Teams
 
@@ -46,7 +47,7 @@ Hier ist ein Beispiel für die gesendete E-Mail:
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer
 
-### <a name="an-icon-showing-the-microsoft-teams-logomediateams-logo-30x30png-using-the-microsoft-teams-admin-center"></a>![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) Verwenden des Microsoft Teams admin Centers
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) Verwenden des Microsoft Teams admin Centers
 
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, und wählen Sie dann den Benutzer aus der Liste der verfügbaren Benutzer aus.
 

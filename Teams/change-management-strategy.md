@@ -1,5 +1,5 @@
 ---
-title: Erstellen einer Change Management-Strategie für Microsoft Teams
+title: Erstellen einer Strategie für die Änderungsverwaltung
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -11,15 +11,16 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Hier erfahren Sie, wie Sie durch die Identifizierung von wichtigen Beteiligten, Geschäftsergebnissen und Erfolgskennzahlen sowie das Management Ihrer Initiative eine Change Management-Strategie für Microsoft Teams erstellen.
+description: Erstellen Sie eine Strategie für die Änderungsverwaltung für Microsoft Teams, indem Sie wichtige Stakeholder, Geschäftsergebnisse, Erfolgskennzahlen und die Verwaltung Ihrer Kampagne ermitteln.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e6c07271caecd2c84301930f0b71aa6eda0011a
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 628c839560423e0e2524bed24082156469faeb36
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824973"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137915"
 ---
 <a name="create-a-change-management-strategy-for-microsoft-teams"></a>Erstellen einer Change Management-Strategie für Microsoft Teams
 =======================================================
@@ -63,7 +64,7 @@ Die erste Regel für eine erfolgreiche Einführung ist die Bildung eines dynamis
 |![Symbol für Dienstbesitzer](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**Dienstbesitzer** sind dafür verantwortlich, sicherzustellen, dass die Benutzer den Dienst verwenden und davon profitieren. Dienstbesitzer in der Organisation zu bestimmen, ist wichtig, um sicherzustellen, dass die für Office 365 festgelegten Geschäftsziele erreicht werden.         |
 |![Symbol für Pioniere](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |Die Akzeptanz aller Benutzer in einer Organisation zu erreichen, ist eine Herausforderung. **Pioniere** können dazu beitragen, diese Herausforderung abzuschwächen. Sie spielen eine wichtige Rolle bei der Einführung von Office 365. Sie sind gut informiert, engagieren sich dafür, ihre Kenntnisse zu erweitern, und sind bereit, Kollegen zu unterweisen und zu unterstützen. Sie tragen dazu bei, Office 365 in ihrer Abteilung oder ihrem Teams Realität werden zu lassen.         |
 
-Wir empfehlen regelmäßige Besprechungen mit diesen Beteiligten, um sie über den Fortschritt Ihres Programms auf dem Laufenden zu halten. Je nach Unternehmenskultur kann es hilfreich sein, einen „Zusammenarbeitsrat“ einzuberufen, um Feedback und Diskussionen zu ermöglichen.
+Wir empfehlen eine regelmäßige Besprechung dieser Stakeholder, um Sie über den Fortschritt Ihres Programms auf dem Laufenden zu halten. Das Initiieren eines "Zusammenarbeits Rates", um Feedback und Diskussionen zu ermöglichen, kann je nach Unternehmenskultur ein nützliches Tool sein.
 
 
 

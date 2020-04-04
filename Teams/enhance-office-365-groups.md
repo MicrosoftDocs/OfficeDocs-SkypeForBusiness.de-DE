@@ -1,5 +1,5 @@
 ---
-title: Erweitern vorhandener Office 365-Gruppen mit Microsoft Teams
+title: Erweitern vorhandener Office 365-Gruppen
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99afab167cdc865214f621d9994c3b5d124e98ed
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ad71a5d65eca924e7d73c157011ff12ce38bc9e4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832915"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136865"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Erweitern vorhandener Office 365-Gruppen mit Microsoft Teams
 =======================================================
@@ -44,7 +45,7 @@ Sie könne auch für E-Mail aktivierte Sicherheitsgruppen als Mitglieder eines T
 
 Es gibt zwei Arten von Datenschutzeinstellungen mit Office 365-Gruppen, **öffentlich und privat**. Während beide Gruppentypen für Teams aktiviert werden können, gibt es einen kleinen Unterschied, wenn es um Self-Service geht.
 
--   Benutzer können nach öffentlichen Gruppen suchen und ohne Genehmigung durch den Teambesitzer teilnehmen.
+-   Benutzer können nach öffentlichen Gruppen suchen und sich selbst beitreten, ohne die Genehmigung des Team Besitzers zu benötigen.
 
 -   Private Gruppen können nicht durchsucht werden, und Benutzer können nur teilnehmen, wenn Sie vom Teambesitzer als Mitglieder hinzugefügt wurden.
 

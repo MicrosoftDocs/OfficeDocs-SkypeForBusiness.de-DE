@@ -1,5 +1,5 @@
 ---
-title: Optimieren des Feedbacks und der Berichterstellung für Ihre Einführung von Microsoft Teams
+title: Optimieren von Feedback und Berichterstellung für Microsoft Teams-Einführung
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,18 +13,20 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie Feedback zu Benutzern erhalten und in Ihrer Teams-Einführung Dienststatus Berichte verwenden.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81e0b580099f3fb8f40a3109dc5f1c76e910c02b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ff6a3b285033176b0262b67663fbd448392ea343
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046038"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140696"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimieren des Feedbacks und der Berichterstellung für Ihre Einführung von Microsoft Teams
 

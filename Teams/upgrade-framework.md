@@ -7,29 +7,31 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 audience: admin
-description: Verwenden Sie ein bewährtes Erfolgs-Framework bei Ihrem Umstieg von Skype for Business zu Teams in Ihrer Organisation.
+description: Verwenden Sie ein bewährtes Erfolgs Framework, um die Upgrade-Reise Ihrer Organisation von Skype for Business zu Teams zu unterstützen.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-mar2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42b4efcd2e9b38aebb7f44d3aa09d7be1ca634f3
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: ab92190b95c081f1b82d27970972c77bcf726f05
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863526"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139654"
 ---
 # <a name="about-the-upgrade-framework"></a>Info zum Upgrade-Framework
 
 Wir haben ein bewährtes Framework für die Implementierung von Änderungen verwendet, um den Überblick über ihre Upgrade-Reise zu nehmen. Wie unten dargestellt, baut jeder Schritt im Framework auf dem vorherigen Schritt auf, und für optimale Ergebnisse empfiehlt es sich, die Schritte in der richtigen Reihenfolge zu befolgen.  
 
-Beginnen Sie, indem Sie die richtigen Stakeholder zusammenbringen und ihren Upgradeplan definieren (zB. Bereich, Ziele und Zeitachse). Wenn Sie einen Plan eingerichtet haben, bestätigen Sie Ihre technische Umgebung, und Ihre Endbenutzer sind bereit für Teams. Implementieren Sie dann Ihr Upgrade stufenweise, und wechseln Sie dann von einem Pilotprojekt zu einem organisationsweiten Upgrade, wenn Sie bereit sind. Sobald Ihre Organisation in Teams ist, erstellen Sie einen operationellen Plan, der auf Qualität überwacht und die Benutzerakzeptanz beschleunigt.
+Beginnen Sie mit der Zusammenführung der richtigen Stakeholder und dem Definieren Ihres Upgrade-Plans (z.b. Scope, Ziele und Zeitachse). Wenn Sie einen Plan eingerichtet haben, bestätigen Sie Ihre technische Umgebung, und Ihre Endbenutzer sind bereit für Teams. Implementieren Sie dann Ihr Upgrade stufenweise, und wechseln Sie dann von einem Pilotprojekt zu einem organisationsweiten Upgrade, wenn Sie bereit sind. Sobald Ihre Organisation in Teams ist, erstellen Sie einen operationellen Plan, der auf Qualität überwacht und die Benutzerakzeptanz beschleunigt.
 
 ![Abbildung des Frameworks für die Upgrade-Reise](media/upgrade-banner-main.png "Stellen Sie sicher, dass Ihr Projekt mit dem richtigen Projektteam erfolgreich eingerichtet ist. Definieren des Projektumfangs, der Ziele und der Zeitachse Bestätigen Sie sowohl die technische als auch die Benutzer Bereitschaft. Führen Sie den Rollout-Plan aus. Dynamik beibehalten, um die Ergebnisse zu maximieren.")
 
@@ -37,7 +39,7 @@ Suchen Sie auf verwandten Seiten nach dieser Frameworks-Grafik, um zu ermitteln,
 
 ## <a name="sample-upgrade-timeline"></a>Beispiel für eine Aktualisierungs Zeitachse
 
-Ihre Upgrade-Reise beginnt, wenn Sie mit der Planung der Änderung beginnen. Im folgenden finden Sie eine Beispiel Zeitachse, die Sie aus der Phase des vorupgrades, in der Sie Ihr Upgrade planen und vorbereiten, durch das Upgrade und in die Betriebsphase nach dem Upgrade, das entwickelt wurde, um zu unterstützen und zu verstärken Ihre Ergebnisse. 
+Ihre Upgrade-Reise beginnt, wenn Sie mit der Planung der Änderung beginnen. Im folgenden finden Sie eine Beispiel Zeitachse, die Sie aus der Phase des vorupgrades, in der Sie Ihr Upgrade planen und vorbereiten, durch das Upgrade und in die Betriebsphase nach dem Upgrade unterstützt, die dazu dient, ihre Ergebnisse aufrechtzuerhalten und zu verstärken. 
 
 > [!NOTE]
 > Wir sind uns bewusst, dass Ihre Reise in Teams möglicherweise die Nutzung mehrerer [Modi](https://aka.ms/skypetoteams-coexist) und die Aktualisierung von Gruppen von Benutzern zu unterschiedlichen Zeiten beinhaltet, wodurch Sie die Benutzer Upgrade-Funktion steuern können, während Sie die Dynamik in Teams beibehalten.  
@@ -96,7 +98,7 @@ Um zu veranschaulichen, wie sich die Upgrade-Reise entwickeln kann, haben wir un
 
 ## <a name="upgrade"></a>Upgrade 
 
-**Führen Sie den offiziellen Umzug in Teams**. Wenn Sie Ihre Benutzer aktualisieren, verschieben Sie Sie in den Modus nur für Teams. Teams wird Ihre primäre App für Chats, Besprechungen, Anrufe und Zusammenarbeit, und der Zugriff auf die Skype for Business-APP ist deaktiviert. Obwohl die technischen Aspekte dieser Phase recht einfach sind, sollten Sie die Auswirkungen berücksichtigen, die die Änderung auf die Benutzeroberfläche haben kann, und Benutzern die Möglichkeit geben, ihre Aktivitäten offiziell von Skype for Business in Teams umzustellen. Um zu verhindern, dass Benutzer unterschiedliche Erfahrungen mit unterschiedlichen Clients haben, versuchen Sie, das End-to-End-Aktualisierungsfenster auf 45 Tage oder so zu begrenzen.
+**Führen Sie den offiziellen Umzug in Teams**. Wenn Sie Ihre Benutzer aktualisieren, verschieben Sie Sie in den Modus nur für Teams. Teams wird Ihre primäre App für Chats, Besprechungen, Anrufe und Zusammenarbeit, und der Zugriff auf die Skype for Business-APP ist deaktiviert. Obwohl die technischen Aspekte dieser Phase recht einfach sind, sollten Sie die Auswirkungen berücksichtigen, die die Änderung auf die Benutzeroberfläche haben kann, und Benutzern die Möglichkeit geben, ihre Aktivitäten offiziell von Skype for Business in Teams umzustellen. Um Benutzer mit unterschiedlichen Erfahrungen mit unterschiedlichen Clients zu verkleinern, versuchen Sie, das End-to-End-Aktualisierungsfenster auf 45 Tage oder so zu begrenzen.
 
 ### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>Upgrade: Implementieren Ihres Upgrades von Skype for Business in Teams
 

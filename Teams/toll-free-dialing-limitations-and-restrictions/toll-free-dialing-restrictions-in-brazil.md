@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: 7e22d7c46c068da83787ad7ab9f740f63de25714
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Informieren Sie sich über das Wählen von gebührenfreien Telefonnummern in Brasilien, einschließlich Verfügbarkeit, kabelgebundener/Festnetzanschluss und Verfügbarkeit von Mobilnetzen sowie Einschränkungen.
+ms.openlocfilehash: a979b0c96e8928d9eedc7809e8d8350dbc8ad282
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708101"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140484"
 ---
 # <a name="toll-free-dialing-restrictions-in-brazil"></a>Einschränkungen für gebührenfreie Telefonnummern in Brasilien
 

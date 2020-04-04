@@ -1,5 +1,5 @@
 ---
-title: Definieren von Erfolg in Audiokonferenzen, Telefonsystem mit Anrufplänen oder Telefonsystem mit direktem Routing – Microsoft Teams
+title: Audiokonferenzen, Anrufpläne oder direktes Routing
 author: rmw2890
 ms.author: Rowille
 manager: serdars
@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Messen Sie die Ergebnisse ihrer Audiokonferenzen, Ihres Telefonsystems mit Anrufplänen oder einer direkten Routing Bereitstellung für das Telefonsystem, und überprüfen Sie, ob Sie die gewünschten Ergebnisse erzielt haben.
+description: Definieren des Erfolgs für die Bereitstellung von Audiokonferenzen, Telefonsystemen mit Anrufplänen oder direkte Weiterleitung des Telefonsystems für Ihre Organisation.
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -18,12 +18,13 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c3669e904db7dbea805daa5737b0bfb81e931d7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: dbbcbce46ab713b7a1820d01d476ef5d35dee0d0
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825423"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139574"
 ---
 # <a name="define-my-success"></a>Definieren der Erfolgskriterien
 
@@ -31,7 +32,7 @@ In diesem Artikel finden Sie eine Übersicht über die Anforderungen zum Definie
 
 <!--ENDOFSECTION-->
 
-**Audiokonferenz** bietet Organisationen zusätzliche Einstiegspunkte für alle Besprechungen (Ad-hoc-oder geplant), indem Besprechungsteilnehmer über das öffentliche Telefonnetz (PSTN) teilnehmen können, indem Sie sich über herkömmliche Festnetztelefone, Private Branch Exchange (PBX) oder Mobiltelefone einwählen. Dies ist hilfreich, wenn sich der Organisator oder die Teilnehmer nicht vor einem Computer befinden oder wenn Datenverbindungen nicht verfügbar oder zu unzuverlässig sind, um die Sprachkommunikation zu unterstützen, beispielsweise in einem Remotebereich mit fleckiger mobiler Datenversorgung oder verbunden mit einem kostenlosen öffentlichen WLAN-Zugang. Dienst mit begrenzter Bandbreite oder wenn Besprechungsteilnehmer sich lieber mit einem Telefon Endpunkt in die Besprechung einwählen, der für Sie leicht zugänglich ist.
+**Audiokonferenz** bietet Organisationen zusätzliche Einstiegspunkte für alle Besprechungen (Ad-hoc-oder geplant), indem Besprechungsteilnehmer über das öffentliche Telefonnetz (PSTN) teilnehmen können, indem Sie sich über herkömmliche Festnetztelefone, Private Branch Exchange (PBX) oder Mobiltelefone einwählen. Dies ist nützlich, wenn sich der Organisator oder die Teilnehmer nicht vor einem Computer befinden, oder wenn Datenverbindungen nicht zur Verfügung stehen oder zu unzuverlässig sind, um die Sprachkommunikation zu unterstützen, beispielsweise in einem Remotebereich mit fleckiger mobiler Datenabdeckung oder mit einem kostenlosen öffentlichen WLAN-Dienst mit begrenzter Bandbreite, oder wenn Besprechungsteilnehmer sich lieber in die Besprechung einwählen, indem Sie einen Telefon Endpunkt verwenden, der für Sie leicht zugänglich ist.
 
 Das **Telefon System mit Anrufplänen ("Anrufpläne")** bietet Organisationen eine Möglichkeit, ihren Arbeitsplatz zu modernisieren, indem Benutzer in die Lage versetzt werden, geschäftliche Telefonanrufe von ihren Computern und mobilen Geräten aus zu führen. Die Modernisierung des Arbeitsplatzes kann Teil einer beliebigen Anzahl von Szenarien sein – einer aktivitätsbasierten Implementierung, einer wichtigen Office Move-Funktion, einer Office fit-out-Aktualisierung, dem Ruhestand einer Legacy-PBX-Lösung, dem Abschluss eines PSTN-Dienstanbieter Vertrags usw. Mit Anrufplänen erleichtert Microsoft die Konnektivität mit dem PSTN.
 
@@ -236,7 +237,7 @@ Ein Lenkungsausschuss ist eine übergeordnete Gruppe von wichtigen Stakeholdern 
 
 Für jedes Projekt ist eine vereinbarte Vision und Charta erforderlich. Um die gewünschten Ergebnisse aus dem Projekt zu liefern, muss die Vision klar definiert sein, und Sie muss überwacht und gewartet werden. Dieser wird in die Zuständigkeit des Lenkungsausschusses gestellt: um Entscheidungen zu treffen, Ratschläge zu erteilen, strategisches beaufsichtigen zu führen, als Fürsprecher für die Organisation für die Initiativen des Projekts zu fungieren und – falls erforderlich – Blocker zu entfernen.
 
-Ihre Organisation sollte die Bildung des Lenkungsausschusses erheblich überdenken. Der Ausschuss muss sicherstellen, dass das Projekt die von Ihnen festgelegten geschäftlichen Ziele für das Vorantreiben von Änderungen in der gesamten Organisation erreicht, sich regelmäßig trifft, um den aktuellen Puls des Projekts zu besprechen, und die Blockierung von Hindernissen, die auf der Möglichkeit.
+Ihre Organisation sollte die Bildung des Lenkungsausschusses erheblich überdenken. Der Ausschuss muss sicherstellen, dass das Projekt die von Ihnen festgelegten geschäftlichen Ziele für das Vorantreiben von Änderungen in der gesamten Organisation erreicht, sich regelmäßig trifft, um den aktuellen Puls des Projekts zu besprechen, und die Blockierung von Hindernissen, die auf dem Weg aufgetreten sind, zu unterstützen.
 
 Der Ausschuss sollte seine Charta definieren, um einige der wichtigsten Ziele einzubeziehen:
 

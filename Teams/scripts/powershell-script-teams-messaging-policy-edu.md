@@ -1,5 +1,5 @@
 ---
-title: PowerShell-Skriptbeispiel – Erstellen und Zuweisen einer Messagingrichtlinie
+title: PowerShell-Skriptbeispiel – erstellen & zuweisen von Nachrichtenrichtlinien
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1dbd4dfa470f8ed02c83e48603dc2647fdc90b3
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ffd564d421c07503fe5e19ace8f24a0379418b74
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096980"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140978"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell-Skriptbeispiel – Erstellen und Zuweisen einer Messagingrichtlinie
 

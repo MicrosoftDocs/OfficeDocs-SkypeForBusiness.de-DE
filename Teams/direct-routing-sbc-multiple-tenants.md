@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren eines Session Border Controllers für mehrere Mandanten
+title: Konfigurieren des Sitzungs Grenz Controllers – mehrere Mandanten
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -16,12 +16,13 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie einen SBC (Session Border Controller) für die Bereitstellung mehrerer Mandanten konfigurieren.
-ms.openlocfilehash: e0027df53edcec54cbeaef560182ffddc451ecbd
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 90bad0c87cef92a36dea392d98cfb66824c10113
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160729"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141088"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -118,8 +119,8 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Off
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Dem Mandanten eine Basisdomäne hinzufügen und diese überprüfen
 
-1.  Wechseln Sie im Microsoft 365 Admin Center zu **Setup** > **Domains** > **Domain hinzufügen**.
-2.  Geben Sie im Feld Ihre **eigene Domäne eingeben** den FQDN der Basisdomäne ein. Im folgenden Beispiel ist die Basisdomäne *Customers.adatum.biz*.
+1.    Wechseln Sie im Microsoft 365 Admin Center zu **Setup** > **Domains** > **Domain hinzufügen**.
+2.    Geben Sie im Feld Ihre **eigene Domäne eingeben** den FQDN der Basisdomäne ein. Im folgenden Beispiel ist die Basisdomäne *Customers.adatum.biz*.
 
     ![Screenshot mit der Seite "Domäne hinzufügen"](media/direct-routing-2-sbc-add-domain.png)
 
@@ -128,8 +129,8 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Off
 
     ![Screenshot mit Bestätigung eines überprüften Domänennamens](media/direct-routing-3-sbc-verify-domain.png)
 
-5.  Klicken Sie auf **weiter**, und wählen Sie auf der Seite **DNS-Einstellungen aktualisieren** die Option **Ich möchte die DNS-Einträge selbst hinzufügen** aus, und klicken Sie auf **weiter**.
-6.  Deaktivieren Sie auf der nächsten Seite alle Werte (es sei denn, Sie möchten den Domänennamen für Exchange, SharePoint oder Teams/Skype for Business verwenden), klicken Sie auf **weiter**, und klicken Sie dann auf **Fertig stellen**. Stellen Sie sicher, dass sich Ihre neue Domäne im Status "Setup abgeschlossen" befindet.
+5.    Klicken Sie auf **weiter**, und wählen Sie auf der Seite **DNS-Einstellungen aktualisieren** die Option **Ich möchte die DNS-Einträge selbst hinzufügen** aus, und klicken Sie auf **weiter**.
+6.    Deaktivieren Sie auf der nächsten Seite alle Werte (es sei denn, Sie möchten den Domänennamen für Exchange, SharePoint oder Teams/Skype for Business verwenden), klicken Sie auf **weiter**, und klicken Sie dann auf **Fertig stellen**. Stellen Sie sicher, dass sich Ihre neue Domäne im Status "Setup abgeschlossen" befindet.
 
     ![Screenshot mit Domänen mit dem Status "Setup abgeschlossen"](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -218,22 +219,22 @@ Dies hat sich jedoch aus zwei Gründen nicht als optimal erwiesen:
 Basierend auf diesem Feedback führt Microsoft eine neue Logik ein, um die Stämme für die Kundenmandanten bereitzustellen.
 
 Es wurden zwei neue Entitäten eingeführt:
--   Ein Träger trunk, der im Carrier-Mandanten mit dem Befehl New-CSOnlinePSTNGateway registriert ist, beispielsweise New-CSOnlinePSTNGateway-FQDN Customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
+-    Ein Träger trunk, der im Carrier-Mandanten mit dem Befehl New-CSOnlinePSTNGateway registriert ist, beispielsweise New-CSOnlinePSTNGateway-FQDN Customers.adatum.biz-SIPSignalingport 5068-ForwardPAI $true.
 
--   Ein abgeleiteter Stamm, für den keine Registrierung erforderlich ist. Es ist einfach ein gewünschter Hostname, der aus dem Carrier trunk hinzugefügt wurde. Er leitet alle Konfigurationsparameter vom Netzbetreiber Stamm ab. Der abgeleitete Stamm muss nicht in PowerShell erstellt werden, und die Zuordnung zum Netzbetreiber trunk basiert auf dem FQDN-Namen (siehe Details unten).
+-    Ein abgeleiteter Stamm, für den keine Registrierung erforderlich ist. Es ist einfach ein gewünschter Hostname, der aus dem Carrier trunk hinzugefügt wurde. Er leitet alle Konfigurationsparameter vom Netzbetreiber Stamm ab. Der abgeleitete Stamm muss nicht in PowerShell erstellt werden, und die Zuordnung zum Netzbetreiber trunk basiert auf dem FQDN-Namen (siehe Details unten).
 
 **Bereitstellungslogik und-Beispiel**
 
--   Carrier müssen nur einen einzigen trunk (Carrier trunk in der Carrier-Domäne) einrichten und verwalten, indem Sie den Befehl "CSOnlinePSTNGateway" verwenden. Im obigen Beispiel ist adatum.biz;
--   Im Kundenmandanten muss der Netzbetreiber nur den FQDN des abgeleiteten Trunks zu den VoIP-Routing Richtlinien der Benutzer hinzufügen. Die Ausführung von New-CSOnlinePSTNGateway für einen trunk ist nicht erforderlich.
--    Der abgeleitete Stamm, wie der Name andeutet, erbt oder leitet alle Konfigurationsparameter vom Netzbetreiber Stamm ab. Beispiele
--   Customers.adatum.biz – der Carrier trunk, der im Carrier-Mandanten erstellt werden muss.
--   Sbc1.Customers.adatum.biz – der abgeleitete Stamm in einem Kundenmandanten, der nicht in PowerShell erstellt werden muss.  Sie können einfach den Namen des abgeleiteten Trunks im Mandanten Mandanten in der Online-VoIP-Routing Richtlinie hinzufügen, ohne ihn zu erstellen.
+-    Carrier müssen nur einen einzigen trunk (Carrier trunk in der Carrier-Domäne) einrichten und verwalten, indem Sie den Befehl "CSOnlinePSTNGateway" verwenden. Im obigen Beispiel ist adatum.biz;
+-    Im Kundenmandanten muss der Netzbetreiber nur den FQDN des abgeleiteten Trunks zu den VoIP-Routing Richtlinien der Benutzer hinzufügen. Die Ausführung von New-CSOnlinePSTNGateway für einen trunk ist nicht erforderlich.
+-     Der abgeleitete Stamm, wie der Name andeutet, erbt oder leitet alle Konfigurationsparameter vom Netzbetreiber Stamm ab. Beispiele
+-    Customers.adatum.biz – der Carrier trunk, der im Carrier-Mandanten erstellt werden muss.
+-    Sbc1.Customers.adatum.biz – der abgeleitete Stamm in einem Kundenmandanten, der nicht in PowerShell erstellt werden muss.  Sie können einfach den Namen des abgeleiteten Trunks im Mandanten Mandanten in der Online-VoIP-Routing Richtlinie hinzufügen, ohne ihn zu erstellen.
 -   Der Netzbetreiber muss den DNS-Eintrag einrichten, der den FQDN des abgeleiteten Trunks zu Carrier SBC-IP-Adresse auflöst.
 
--   Alle Änderungen, die an einem Netzbetreiber Stamm (auf dem Carrier-Mandanten) vorgenommen wurden, werden automatisch auf abgeleitete Stämme angewendet. Beispielsweise können Netzbetreiber einen SIP-Port auf dem Carrier-trunk ändern, und diese Änderung gilt für alle abgeleiteten Trunks. Neue Logik zum Konfigurieren der Trunks vereinfacht die Verwaltung, da Sie nicht zu jedem Mandanten wechseln und den Parameter für jeden trunk ändern müssen.
--   Die Optionen werden nur an den FQDN des Carrier Trunks gesendet. Der Integritätsstatus des Träger Trunks wird auf alle abgeleiteten Stämme angewendet und für Routingentscheidungen verwendet. Weitere Informationen zu den [Optionen für das direkte Routing](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
--   Der Netzbetreiber kann den Kofferraum entladen, und alle abgeleiteten Stämme werden ebenfalls entleert. 
+-    Alle Änderungen, die an einem Netzbetreiber Stamm (auf dem Carrier-Mandanten) vorgenommen wurden, werden automatisch auf abgeleitete Stämme angewendet. Beispielsweise können Netzbetreiber einen SIP-Port auf dem Carrier-trunk ändern, und diese Änderung gilt für alle abgeleiteten Trunks. Neue Logik zum Konfigurieren der Trunks vereinfacht die Verwaltung, da Sie nicht zu jedem Mandanten wechseln und den Parameter für jeden trunk ändern müssen.
+-    Die Optionen werden nur an den FQDN des Carrier Trunks gesendet. Der Integritätsstatus des Träger Trunks wird auf alle abgeleiteten Stämme angewendet und für Routingentscheidungen verwendet. Weitere Informationen zu den [Optionen für das direkte Routing](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
+-    Der Netzbetreiber kann den Kofferraum entladen, und alle abgeleiteten Stämme werden ebenfalls entleert. 
  
 
 **Migration vom Vorgängermodell zum Carrier trunk**

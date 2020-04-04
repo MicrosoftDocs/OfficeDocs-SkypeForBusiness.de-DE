@@ -17,12 +17,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bd45d942784f9454acff5636359e172059f22cc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a0daed292ccccb85c5231242161c75e8cb60949c
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834335"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136495"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365-Gruppen und Microsoft Teams
 =====================================
@@ -39,7 +40,7 @@ Das Poster [Gruppen in Microsoft 365 für IT-Architekten](teams-architecture-sol
 <a name="how-office-365-groups-work"></a>Funktionsweise von Office 365-Gruppen
 --------------------------
 
-Wenn Sie ein Team erstellen, erstellen Sie im Back-End eine Office 365-Gruppe, die zugeordnete SharePoint-Dokumentbibliothek und das OneNote-Notizbuch sowie Verbindungen zu anderen Office 365-Cloud-Anwendungen. Wenn die Person, die das Team erstellt, Besitzer einer bestehenden öffentlichen oder privaten Office 365-Gruppe ist, kann sie dieser Gruppe Teams-Funktionen hinzufügen, sofern sie weniger als 5000 Personen umfasst und noch nie zu Microsoft Teams hinzugefügt wurde. Dadurch wird ein **Allgemein**-Standardkanal erstellt, in dem sich Chatnachrichten, Dokumente, OneNote und andere Objekte befinden. Wenn Sie die Dokumentbibliothek für den Kanal anzeigen, wird der **Allgemein**- Ordner angezeigt, der den Kanal im Team darstellt. Noch wichtiger ist: Wenn Sie eine eigene Ordnerstruktur in einer Dokumentbibliothek erstellen, **wird diese nicht als Kanal an Teams weitergegeben**. Gegenwärtig ist die Flussrichtung ausschließlich von Teams zu SharePoint.
+Wenn Sie ein Team erstellen, erstellen Sie im Back-End eine Office 365-Gruppe und die zugehörige SharePoint-Dokumentbibliothek und das OneNote-Notizbuch sowie Verbindungen zu anderen Office 365-Cloud-Anwendungen. Wenn die Person, die das Team erstellt, Besitzer einer bestehenden öffentlichen oder privaten Office 365-Gruppe ist, kann sie dieser Gruppe Teams-Funktionen hinzufügen, sofern sie weniger als 5000 Personen umfasst und noch nie zu Microsoft Teams hinzugefügt wurde. Dadurch wird ein **Allgemein**-Standardkanal erstellt, in dem sich Chatnachrichten, Dokumente, OneNote und andere Objekte befinden. Wenn Sie die Dokumentbibliothek für den Kanal anzeigen, wird der **Allgemein**- Ordner angezeigt, der den Kanal im Team darstellt. Noch wichtiger ist: Wenn Sie eine eigene Ordnerstruktur in einer Dokumentbibliothek erstellen, **wird diese nicht als Kanal an Teams weitergegeben**. Gegenwärtig ist die Flussrichtung ausschließlich von Teams zu SharePoint.
 
 > [!NOTE]
 > Aufgrund von Kundenfeedback werden neue Office 365-Gruppen, die bei der Erstellung eines Teams in Microsoft Teams generiert werden, nicht mehr standardmäßig in Outlook angezeigt. Für Kunden, die das bisherige Verhalten (Anzeigen dieser Gruppen in Outlook) bevorzugen, wird ein Exchange Online PowerShell-Cmdlet bereitgestellt, mit dem sie Gruppen für Outlook aktivieren können. Gruppen, die über Outlook erstellt und dann später für Microsoft Teams aktiviert wurden, werden weiterhin in Outlook und in Microsoft Teams angezeigt. Dieses Update wird in den nächsten Monaten schrittweise in Outlook und Microsoft Teams eingeführt.
@@ -52,6 +53,6 @@ Wenn Sie ein Team erstellen, erstellen Sie im Back-End eine Office 365-Gruppe, d
 <a name="group-membership"></a>Gruppenmitgliedschaft
 ----------------
 
-Die Gruppenfeatures und -funktionen für Ihre Benutzer sind davon abhängig, von wo aus Sie die Gruppenmitgliedschaft verwalten. Wenn Sie beispielsweise ein Mitglied aus einem Team entfernen, wird dieses auch aus der entsprechenden Office 365-Gruppe entfernt. Durch das Entfernen aus der Gruppe werden das Team und die Kanäle unmittelbar vom Teams-Client entfernt. Wenn Sie eine Person aus einer Gruppe über das Microsoft 365-Admin Center entfernen, hat diese keinen Zugriff mehr auf die anderen kollaborativen Elementen wie die SharePoint Online-Dokumentbibliothek, die Yammer-Gruppe oder freigegebene OneNote. Allerdings hat sie noch ca. zwei Stunden lang Zugriff auf die Chatfunktion des Teams.
+Die Gruppenfeatures und -funktionen für Ihre Benutzer sind davon abhängig, von wo aus Sie die Gruppenmitgliedschaft verwalten. Wenn Sie beispielsweise ein Mitglied aus einem Team entfernen, wird dieses auch aus der entsprechenden Office 365-Gruppe entfernt. Durch das Entfernen aus der Gruppe werden das Team und die Kanäle unmittelbar vom Teams-Client entfernt. Wenn Sie eine Person aus einer Gruppe über das Microsoft 365-Admin Center entfernen, hat diese keinen Zugriff mehr auf die anderen kollaborativen Elementen wie die SharePoint Online-Dokumentbibliothek, die Yammer-Gruppe oder freigegebene OneNote. Sie haben jedoch für etwa zwei Stunden weiterhin Zugriff auf die Chatfunktion des Teams.
 
 Eine bewährte Methode zum Verwalten von Teammitgliedern besteht darin, Mitglieder über den Teams-Client hinzuzufügen und zu entfernen, um sicherzustellen, dass die Weitergabe der Zugriffssteuerung an andere abhängige Cloud-Anwendungen ordnungsgemäß angewendet wird. Darüber hinaus wird dadurch vermieden, dass Benutzer den Eindruck haben, weiterhin auf die gewohnten Ressourcen zugreifen zu können (bis beim nächsten Synchronisierungszyklus der Zugriff auf eine bestimmte Komponente des Dienstes hinzugefügt oder widerrufen wird).  Wenn Sie Teammitglieder außerhalb des Teams-Clients (mithilfe des Microsoft 365 Admin Center, Azure AD oder Exchange Online PowerShell) hinzufügen oder entfernen, kann es bis zu zwei Stunden dauern, bis die entsprechenden Änderungen in Teams übernommen werden.

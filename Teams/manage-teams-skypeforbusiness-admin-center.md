@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams
+title: Verwalten von Teams, die zum neuen Team Admin Center wechseln
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,24 +8,25 @@ audience: admin
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Erfahren Sie, wie mandantenweite Einstellungen und Benutzereinstellungen für Microsoft Teams während der Umstellung von der Microsoft Teams-Oberfläche im Microsoft 365 Admin Center auf das neue Microsoft Teams Admin Center verwaltet werden.
+description: Erfahren Sie, wie Sie Mandanten-und Benutzereinstellungen für Teams während des Übergangs von Microsoft 365 Admin Center in das neue Team Admin Center verwalten.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 - ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 31d39b1c65afad3bdbb000ff779b590d9f82ac38
-ms.sourcegitcommit: 152eb7daacd0a36f42aa441633c12c7037a0969a
+ms.openlocfilehash: b08f747c6a26d0401095e5aa004b972e0428b830
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288633"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137055"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams
 ======================================================
@@ -35,7 +36,7 @@ ms.locfileid: "42288633"
 
 ## <a name="what-is-the-new-microsoft-teams-admin-center"></a>Was ist das neue Microsoft Teams Admin Center?  
 
-Die neue Admin Center-Oberfläche bietet Ihnen eine einheitliche Oberfläche für die Verwaltung von Microsoft Teams und Skype for Business. Sie erhalten zusätzliche Funktionen, End-to-End-Erkenntnisse sowie die Möglichkeit, Microsoft Teams-Einstellungen auf Benutzerebene zu verwalten.
+Die neue Admin Center-Oberfläche bietet Ihnen eine einheitliche Oberfläche für die Verwaltung von Microsoft Teams und Skype for Business. Wir bieten zusätzliche Funktionen, End-to-End-Einblicke und die Möglichkeit, Team Einstellungen auf Benutzerebene zu verwalten.
 
 ![Screenshot des Microsoft Teams Admin Center.](media/manage-teams-skype-for-business-admin-center-portal.png)
 
@@ -46,7 +47,7 @@ Die folgende Tabelle enthält die Abschnitte der Microsoft Teams-Oberfläche, di
 |Abschnitt von Microsoft Teams im Microsoft 365 Admin Center  |Einstellungsname (Mandantenebene)  |Microsoft Teams Admin Center-Richtlinie   |Ebene: Mandant oder Benutzer   |
 |---------|---------|---------|---------|
 |Allgemein     |Organigramm in persönlichem Profil anzeigen        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Mandant       |
-|Allgemein     |Für Empfänger ohne Microsoft Teams Skype for Business verwenden         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandant         |
+|Allgemein     |Verwenden von Skype for Business für Empfänger, die keine Teams haben         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandant         |
 |E-Mail-Integration     |Benutzern das Senden von E-Mails an Kanäle gestatten         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandant         |
 |E-Mail-Integration     |Absenderliste zulassen         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)        |Mandant         |
 |Benutzerdefinierter Cloudspeicher     |Box         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Mandant         |
@@ -86,7 +87,7 @@ Die folgende Tabelle enthält die Abschnitte der Microsoft Teams-Oberfläche, di
 <sup>3</sup> Standard-Apps und externe Apps können in "TeamsAppPermissionPolicy" auf Benutzerebene aktiviert bzw. deaktiviert werden. Darüber hinaus können Apps in organisationsweiten App-Einstellungen auf Mandantenebene blockiert werden, wodurch alle Einstellungen auf Benutzer- und Mandantenebene außer Kraft gesetzt werden. 
 
 > [!NOTE]
-> Zur Konfiguration von Teams und Kanälen verwenden Sie weiterhin das Gruppen-Dashboard im Microsoft 365 Admin Center. Einstellungen für Apps verbleiben im Microsoft 365 Admin Center im Microsoft Teams-Bereich und werden später migriert. 
+> Sie verwenden weiterhin das Dashboard "Gruppen" im Microsoft 365 Admin Center für die Konfiguration in Bezug auf Teams und Kanäle. Einstellungen für Apps verbleiben im Microsoft 365 Admin Center im Microsoft Teams-Bereich und werden später migriert. 
 
 ## <a name="manage-settings-during-the-migration"></a>Verwalten von Einstellungen während der Migration
 
@@ -113,4 +114,4 @@ Die folgende Tabelle zeigt, wo Sie die Features während der Migration verwalten
 
 ## <a name="manage-settings-after-the-migration"></a>Verwalten von Einstellungen nach der Migration
 
-Nach Abschluss der Migration dieser Einstellungen werden sie im Office 365 Admin Center und im Skype for Business Admin Center deaktiviert und können dann im neuen Microsoft Teams Admin Center verwaltet werden.
+Wenn die Migration dieser Einstellungen abgeschlossen ist, werden Sie im Office 365 Admin Center und im Skype for Business Admin Center deaktiviert, und Sie können dann im neuen Microsoft Teams Admin Center verwaltet werden.

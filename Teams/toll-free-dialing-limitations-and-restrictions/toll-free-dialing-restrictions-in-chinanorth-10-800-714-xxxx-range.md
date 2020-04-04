@@ -1,5 +1,5 @@
 ---
-title: Einschränkungen für gebührenfreie Telefonnummern in China (Norden) – (10 800 714 XXXX-Bereich
+title: Gebührenfreie Wähleinschränkungen in China-Nord
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -22,13 +22,14 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: So können Sie feststellen, wie Sie gebührenfreie Nummern in jedem Land/jeder Region anrufen können. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer landesspezifischen Seite, die bestimmte Details, Einschränkungen und Grenzwerte für die gebührenfreie Verfügbarkeit von Diensten enthält, für die gebührenfreie Dienste zur Verfügung stehen. Das Wählformat oder die Formate zeigen Ihnen die erforderlichen Zugriffscodes in jedem Land/jeder Region an, um die gebührenfreie Nummer zu wählen.
-ms.openlocfilehash: a4a3c5638665f41b91fba46501077c4e9dc44fdf
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+- seo-marvel-mar2020
+description: Informieren Sie sich über das Wählen von gebührenfreien Telefonnummern in China North, einschließlich Verfügbarkeit, Verfügbarkeit von drahtgebundenen/fest Netzanschlüssen und Mobilfunknetz sowie Einschränkungen.
+ms.openlocfilehash: fd535751d235914b7f33e5e22afb726f5bfbdcec
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707951"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140464"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---north-10-800-714-xxxx-range"></a>Einschränkungen für gebührenfreie Telefonnummern in China (Norden) – (10 800 714 XXXX-Bereich
 
