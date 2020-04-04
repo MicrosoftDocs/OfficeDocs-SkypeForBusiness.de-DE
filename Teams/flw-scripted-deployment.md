@@ -18,14 +18,14 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bb1250fd3cc02599fafa37ab6ac694403e33df9
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: caecd0d97e760470604fa164e6356a59699e57ad
+ms.sourcegitcommit: bc1d2e0478a429f981b53765e6194443b32ae35c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106855"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43122919"
 ---
-# <a name="how-to-provisions-teams-at-scale-for-firstline-workers"></a>Bereitstellen von Microsoft Teams im großen Maßstab für Mitarbeiter in Service und Produktion
+# <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Bereitstellen von Microsoft Teams im großen Maßstab für Mitarbeiter in Service und Produktion
 
 Müssen Sie eine große Anzahl von Benutzern schnell in Microsoft Teams einrichten und eine optimierte Umgebung für die Benutzer konfigurieren? Sie können im Handumdrehen die nachstehenden Anweisungen ausführen, um Identitäten und Teams schnell bereitzustellen sowie alle relevanten Richtlinien zuzuweisen, um die Endbenutzerumgebung zu definieren.
 
