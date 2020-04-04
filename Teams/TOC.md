@@ -604,8 +604,6 @@
 # Branchen- und Regierungsrichtlinien
 ## [Übersicht](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md)
 ## [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates.md)
-## [Schnellstart für Mitarbeiter in Service und Produktion](firstline-workers-quickstart.yml)
-## [RealWear für Microsoft Teams](flw-realwear.md)
 ## [Schichten für Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Microsoft StaffHub soll eingestellt werden](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Installieren des Microsoft StaffHub PowerShell-Moduls](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
@@ -639,6 +637,12 @@
 ### [Häufig gestellte Fragen zur Microsoft Education-Governance für Administratoren](plan-teams-governance-edu.md)
 ### [Installieren von Moodle-Integration](install-moodle-integration.md)
 ### [Education-SKU-Referenz](sku-reference-edu.md)
+
+## Teams für Mitarbeiter "an vorderster Front"
+### [Schnellstart für Mitarbeiter "an vorderster Front"](firstline-workers-quickstart.yml)
+### [Skriptgestützte Bereitstellung für Mitarbeiter "an vorderster Front"](flw-scripted-deployment.md)
+### [RealWear für Microsoft Teams](flw-realwear.md)
+### [Erstellen einer Intranet-Portal-App für Teams von einer SPO-Website oder -Seite aus](teams-standalone-static-tabs-using-spo-sites.md)
 
 ## [Teams für den Einzelhandel](expand-teams-across-your-org/teams-for-retail-landing-page.md)
 ### [Erste Schritte mit Vorlagen für Teams im Einzelhandel](get-started-with-retail-teams-templates.md)

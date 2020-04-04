@@ -1,5 +1,5 @@
 ---
-title: Festlegen der Sprachen für die automatische Telefonzentrale für Audiokonferenzen in Microsoft Teams
+title: Einrichten von Sprachen für die automatische Telefonzentrale für Audiokonferenzen
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,55 +20,56 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
+- seo-marvel-mar2020
 description: Hier erfahren Sie, wie Sie die Sprachen für die automatische Telefonzentrale für Audiokonferenzen für eine Audiokonferenz-Telefonnummer in Microsoft Teams auswählen.
-ms.openlocfilehash: a84ee0b230ed8de35da3a4fdea488eee9b3628e6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 37d430ba641277c7b72f921b06599f58cff4e4a0
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838105"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43140918"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="c572b-103">Festlegen der Sprachen für die automatische Telefonzentrale für Audiokonferenzen in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c572b-103">Set auto attendant languages for Audio Conferencing in Microsoft Teams</span></span>
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="369cc-103">Festlegen der Sprachen für die automatische Telefonzentrale für Audiokonferenzen in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="369cc-103">Set auto attendant languages for Audio Conferencing in Microsoft Teams</span></span>
 
-<span data-ttu-id="c572b-104">Die automatische Telefonzentrale für Audiokonferenzen für Microsoft Teams kann Audioanrufer, die an einer Besprechung teilnehmen, in einer Reihe verschiedener Sprachen begrüßen.</span><span class="sxs-lookup"><span data-stu-id="c572b-104">The Audio Conferencing auto attendant for Microsoft Teams can greet audio callers in a number of different languages when they join a meeting.</span></span>
+<span data-ttu-id="369cc-104">Die automatische Telefonzentrale für Audiokonferenzen für Microsoft Teams kann Audioanrufer, die an einer Besprechung teilnehmen, in einer Reihe verschiedener Sprachen begrüßen.</span><span class="sxs-lookup"><span data-stu-id="369cc-104">The Audio Conferencing auto attendant for Microsoft Teams can greet audio callers in a number of different languages when they join a meeting.</span></span>
   
-<span data-ttu-id="c572b-105">Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen aus.</span><span class="sxs-lookup"><span data-stu-id="c572b-105">Choose one primary language and up to four secondary languages.</span></span> <span data-ttu-id="c572b-106">Die automatische Telefonzentrale verwendet zuerst die von Ihnen festgelegte primäre Sprache und dann die sekundären Sprachen in der Reihenfolge der Auswahl.</span><span class="sxs-lookup"><span data-stu-id="c572b-106">The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select.</span></span> 
+<span data-ttu-id="369cc-105">Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen aus.</span><span class="sxs-lookup"><span data-stu-id="369cc-105">Choose one primary language and up to four secondary languages.</span></span> <span data-ttu-id="369cc-106">Die automatische Telefonzentrale verwendet zuerst die von Ihnen festgelegte primäre Sprache und dann die sekundären Sprachen in der Reihenfolge der Auswahl.</span><span class="sxs-lookup"><span data-stu-id="369cc-106">The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select.</span></span> 
   
 > [!NOTE]
->  <span data-ttu-id="c572b-107">Sie können nur die Sprachen der Audiokonferenz-Nummern ändern, die der dedizierten Kategorie entsprechen.</span><span class="sxs-lookup"><span data-stu-id="c572b-107">You can only change the languages of audio conferencing numbers that are of the Dedicated category.</span></span> <span data-ttu-id="c572b-108">Die Sprachen der freigegebenen Audiokonferenz-Nummer können nicht geändert werden.</span><span class="sxs-lookup"><span data-stu-id="c572b-108">The languages of Shared audio conferencing number can't be changed.</span></span>
+>  <span data-ttu-id="369cc-107">Sie können nur die Sprachen der Audiokonferenz-Nummern ändern, die der dedizierten Kategorie entsprechen.</span><span class="sxs-lookup"><span data-stu-id="369cc-107">You can only change the languages of audio conferencing numbers that are of the Dedicated category.</span></span> <span data-ttu-id="369cc-108">Die Sprachen der freigegebenen Audiokonferenz-Nummer können nicht geändert werden.</span><span class="sxs-lookup"><span data-stu-id="369cc-108">The languages of Shared audio conferencing number can't be changed.</span></span>
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="set-the-conferencing-auto-attendant-languages"></a><span data-ttu-id="c572b-109">Legen Sie die Sprachen für die automatische Telefonzentrale fest</span><span class="sxs-lookup"><span data-stu-id="c572b-109">Set the conferencing auto attendant languages</span></span>
+## <a name="set-the-conferencing-auto-attendant-languages"></a><span data-ttu-id="369cc-109">Legen Sie die Sprachen für die automatische Telefonzentrale fest</span><span class="sxs-lookup"><span data-stu-id="369cc-109">Set the conferencing auto attendant languages</span></span>
 
-<span data-ttu-id="c572b-110">![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt</span><span class="sxs-lookup"><span data-stu-id="c572b-110">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+<span data-ttu-id="369cc-110">![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**</span><span class="sxs-lookup"><span data-stu-id="369cc-110">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-1. <span data-ttu-id="c572b-111">Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken).</span><span class="sxs-lookup"><span data-stu-id="c572b-111">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span>
+1. <span data-ttu-id="369cc-111">Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken).</span><span class="sxs-lookup"><span data-stu-id="369cc-111">In the left navigation, go to **Meetings** > **Conference Bridges**.</span></span>
 
-2. <span data-ttu-id="c572b-112">Wählen Sie in der Liste eine **dedizierte** Audiokonferenz-Telefonnummer aus, und klicken Sie oben auf der Seite auf **Bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="c572b-112">Select a **Dedicated** audio conferencing phone number from the list, and at the top of the page, click **Edit**.</span></span> <span data-ttu-id="c572b-113">Es ist nur möglich, die Sprachen für dedizierte Audiokonferenz-Nummern zu ändern.</span><span class="sxs-lookup"><span data-stu-id="c572b-113">It is only possible to change the languages of Dedicated audio conferencing numbers.</span></span> <span data-ttu-id="c572b-114">Die Option " **Bearbeiten** " wird nur angezeigt, wenn eine dedizierte Audiokonferenz-Nummer ausgewählt ist.</span><span class="sxs-lookup"><span data-stu-id="c572b-114">The **Edit** option is only shown when a Dedicated audio conferencing number is selected.</span></span>
+2. <span data-ttu-id="369cc-112">Wählen Sie in der Liste eine **dedizierte** Audiokonferenz-Telefonnummer aus, und klicken Sie oben auf der Seite auf **Bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="369cc-112">Select a **Dedicated** audio conferencing phone number from the list, and at the top of the page, click **Edit**.</span></span> <span data-ttu-id="369cc-113">Es ist nur möglich, die Sprachen für dedizierte Audiokonferenz-Nummern zu ändern.</span><span class="sxs-lookup"><span data-stu-id="369cc-113">It is only possible to change the languages of Dedicated audio conferencing numbers.</span></span> <span data-ttu-id="369cc-114">Die Option " **Bearbeiten** " wird nur angezeigt, wenn eine dedizierte Audiokonferenz-Nummer ausgewählt ist.</span><span class="sxs-lookup"><span data-stu-id="369cc-114">The **Edit** option is only shown when a Dedicated audio conferencing number is selected.</span></span>
 
-3. <span data-ttu-id="c572b-115">Wählen Sie im Bereich auf der rechten Seite die gewünschte Standardsprache und alle alternativen Sprachen aus.</span><span class="sxs-lookup"><span data-stu-id="c572b-115">In the pane on the right, choose the default language you want and any alternate languages.</span></span> 
+3. <span data-ttu-id="369cc-115">Wählen Sie im Bereich auf der rechten Seite die gewünschte Standardsprache und alle alternativen Sprachen aus.</span><span class="sxs-lookup"><span data-stu-id="369cc-115">In the pane on the right, choose the default language you want and any alternate languages.</span></span> 
  
     > [!NOTE]
-    > <span data-ttu-id="c572b-116">Die Standard-und alternativen Sprachen, die unterstützt werden, werden aufgelistet.</span><span class="sxs-lookup"><span data-stu-id="c572b-116">The default and alternate languages that are supported are listed.</span></span> <span data-ttu-id="c572b-117">Die Reihenfolge, in der Sie Sie in den Listen auswählen, ist die Reihenfolge der für die Anrufer vorgestellten Sprachen.</span><span class="sxs-lookup"><span data-stu-id="c572b-117">The order in which you select them in the lists will be the order of the languages presented to callers.</span></span> 
+    > <span data-ttu-id="369cc-116">Die Standard-und alternativen Sprachen, die unterstützt werden, werden aufgelistet.</span><span class="sxs-lookup"><span data-stu-id="369cc-116">The default and alternate languages that are supported are listed.</span></span> <span data-ttu-id="369cc-117">Die Reihenfolge, in der Sie Sie in den Listen auswählen, ist die Reihenfolge der für die Anrufer vorgestellten Sprachen.</span><span class="sxs-lookup"><span data-stu-id="369cc-117">The order in which you select them in the lists will be the order of the languages presented to callers.</span></span> 
 
-4. <span data-ttu-id="c572b-118">Klicken Sie auf **Speichern**.</span><span class="sxs-lookup"><span data-stu-id="c572b-118">Click **Save**.</span></span>
+4. <span data-ttu-id="369cc-118">Klicken Sie auf **Speichern**.</span><span class="sxs-lookup"><span data-stu-id="369cc-118">Click **Save**.</span></span>
 
     
-## <a name="want-else-should-i-know"></a><span data-ttu-id="c572b-119">Was sollte ich noch wissen?</span><span class="sxs-lookup"><span data-stu-id="c572b-119">Want else should I know?</span></span>
+## <a name="want-else-should-i-know"></a><span data-ttu-id="369cc-119">Was sollte ich noch wissen?</span><span class="sxs-lookup"><span data-stu-id="369cc-119">Want else should I know?</span></span>
 
-- <span data-ttu-id="c572b-120">Unter [Unterstützte Sprachen für Audiokonferenzen](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages) finden Sie eine Liste der für Audiokonferenzen unterstützten Sprachen.</span><span class="sxs-lookup"><span data-stu-id="c572b-120">To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages).</span></span>
+- <span data-ttu-id="369cc-120">Unter [Unterstützte Sprachen für Audiokonferenzen](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages) finden Sie eine Liste der für Audiokonferenzen unterstützten Sprachen.</span><span class="sxs-lookup"><span data-stu-id="369cc-120">To see the list of supported languages for Audio Conferencing, see [Audio Conferencing supported languages](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-supported-languages).</span></span>
     
-- <span data-ttu-id="c572b-121">Sprachen können für dedizierte, aber nicht für freigegebene Telefonnummern festgelegt werden.</span><span class="sxs-lookup"><span data-stu-id="c572b-121">Languages can be set for dedicated but not for shared phone numbers.</span></span>
+- <span data-ttu-id="369cc-121">Sprachen können für dedizierte, aber nicht für freigegebene Telefonnummern festgelegt werden.</span><span class="sxs-lookup"><span data-stu-id="369cc-121">Languages can be set for dedicated but not for shared phone numbers.</span></span>
     
-- <span data-ttu-id="c572b-122">Eine Liste der Länder/Regionen in der Audiokonferenzen in Office 365 mit Microsoft als Anbieter verfügbar ist, finden Sie unter [Rufnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing-in-teams.md).</span><span class="sxs-lookup"><span data-stu-id="c572b-122">To see a list of countries/regions in which Audio Conferencing in Office 365 using Microsoft as the provider is available, see [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md).</span></span>
+- <span data-ttu-id="369cc-122">Eine Liste der Länder/Regionen in der Audiokonferenzen in Office 365 mit Microsoft als Anbieter verfügbar ist, finden Sie unter [Rufnummern für Audiokonferenzen](phone-numbers-for-audio-conferencing-in-teams.md).</span><span class="sxs-lookup"><span data-stu-id="369cc-122">To see a list of countries/regions in which Audio Conferencing in Office 365 using Microsoft as the provider is available, see [Phone numbers for Audio Conferencing](phone-numbers-for-audio-conferencing-in-teams.md).</span></span>
     
-## <a name="want-to-use-windows-powershell"></a><span data-ttu-id="c572b-123">Wollen Sie Windows PowerShell verwenden?</span><span class="sxs-lookup"><span data-stu-id="c572b-123">Want to use Windows PowerShell?</span></span>
+## <a name="want-to-use-windows-powershell"></a><span data-ttu-id="369cc-123">Wollen Sie Windows PowerShell verwenden?</span><span class="sxs-lookup"><span data-stu-id="369cc-123">Want to use Windows PowerShell?</span></span>
 
-<span data-ttu-id="c572b-124">Weitere Informationen finden Sie in der [Microsoft Teams PowerShell-Referenz](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .</span><span class="sxs-lookup"><span data-stu-id="c572b-124">See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="369cc-124">Weitere Informationen finden Sie in der [Microsoft Teams PowerShell-Referenz](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .</span><span class="sxs-lookup"><span data-stu-id="369cc-124">See the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="c572b-125">Verwandte Themen</span><span class="sxs-lookup"><span data-stu-id="c572b-125">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="369cc-125">Verwandte Themen</span><span class="sxs-lookup"><span data-stu-id="369cc-125">Related topics</span></span>
 
-[<span data-ttu-id="c572b-126">Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365</span><span class="sxs-lookup"><span data-stu-id="c572b-126">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[<span data-ttu-id="369cc-126">Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365</span><span class="sxs-lookup"><span data-stu-id="369cc-126">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 

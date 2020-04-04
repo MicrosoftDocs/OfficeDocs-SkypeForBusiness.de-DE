@@ -1,6 +1,6 @@
 ---
 title: Teams für Bildung
-description: Verwenden Sie diese Ressourcen, um Teams in ihrer gesamten Organisation optimal zu nutzen.
+description: Verwenden von Teams für die Bildung, um gemeinschaftliche Klassenzimmer zu erstellen, in professionellen Lerngemeinschaften zu verbinden und mit Kursteilnehmern und Lehrkräften zu kommunizieren.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -15,12 +15,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e929ce706ee2f59af5c74891ff66f643f2f14ee2
-ms.sourcegitcommit: aaae9df142ebb844a1fea27d3ae3b95130903d6a
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 1a5948a8702a9759a7ed523b035856f4cacd45b4
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43100092"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136855"
 ---
 # <a name="teams-for-education"></a>Teams für Bildung
 
