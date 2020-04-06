@@ -1,5 +1,5 @@
 ---
-title: Erstellen Ihrer ersten Teams und Kanäle in Microsoft Teams
+title: Erstellen Sie Ihre ersten Teams und Kanäle
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d84d4afaabdcfd5f8b548eb938d5aa9757d4c038
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 79fc1bc2a415ae59cd581f7fdde11be8972311a2
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796038"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43136795"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Erstellen Ihrer ersten Teams und Kanäle in Microsoft Teams
 
@@ -33,10 +34,10 @@ Durch das Einrichten und Verwenden Ihrer ersten Reihe von Teams und Kanälen bau
 
 Weitere Informationen finden Sie unter [Teams und Kanäle in Microsoft Teams – Übersicht](teams-channels-overview.md) und [Bewährte Methoden für die Organisation von Teams in Microsoft Teams](best-practices-organizing.md).
 
- Wir schlagen vor, Sie beginnen mit einem Team “Teams kennenlernen”, in dem Ihre aufgeschlossenen Benutzer herumspielen, Fragen stellen und die Funktionen von Teams entdecken können. Dieses Team kann für Ihren Erfolg entscheidend sein, während Sie beginnen, mit Teams zu experimentieren. 
+ Wir schlagen vor, Sie beginnen mit einem Team "Teams kennenlernen", in dem Ihre aufgeschlossenen Benutzer herumspielen, Fragen stellen und die Funktionen von Teams entdecken können. Dieses Team kann für Ihren Erfolg entscheidend sein, während Sie beginnen, mit Teams zu experimentieren. 
 
 ### <a name="get-to-know-teams-team"></a>"Teams kennenlernen"-Team
-Ihr Projektteam kann das Team “Teams kennenlernen” verwenden, um sicherzustellen, dass sie Teams-Clients eingerichtet haben, dann ein paar anfängliche Unterhaltungen führen und herausfinden, was sich in Teams erledigen lässt. Vielleicht haben Sie schon eine Gruppe von Benutzern in Ihrer Organisation, denen es Spaß macht, früh Zugriff auf neue Funktionen zu erhalten. Diese können eins der ersten Teams sein, die Sie an Bord holen, und es wird Ihnen mit frühzeitigem Feedback helfen.
+Ihr Projektteam kann das Team "Teams kennenlernen" verwenden, um sicherzustellen, dass sie Teams-Clients eingerichtet haben, dann ein paar erste Unterhaltungen führen und herausfinden, was sich in Teams erledigen lässt. Vielleicht haben Sie schon eine Gruppe von Benutzern in Ihrer Organisation, denen es Spaß macht, früh Zugriff auf neue Funktionen zu erhalten. Diese können eins der ersten Teams sein, die Sie an Bord holen, und es wird Ihnen mit frühzeitigem Feedback helfen.
 
 Hier sehen Sie einen Vorschlag für die Struktur des Teams.
 

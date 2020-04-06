@@ -1,5 +1,5 @@
 ---
-title: Verwalten des Angebots für einen Test der kommerziellen Cloud von Microsoft Teams
+title: Verwalten des Angebots für einen Test der kommerziellen Cloud
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb4a42ebe8772eebe5e5ebd130a68dd4bba714b3
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836595"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137155"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots für einen Test der kommerziellen Cloud von Microsoft Teams
 =======================================================
@@ -70,7 +71,7 @@ Berechtigte Benutzer können sich für das Testangebot registrieren, indem sie s
 
 Alle Testversionen innerhalb Ihrer Organisation haben das gleiche Start- und Enddatum, d. h. das Datum, an dem sich der erste Benutzer für die Testversion registriert hat. Wenn Benutzer A beispielsweise am 25. Januar 2019 die erste Testversion startet und Benutzer B am 3. Juni 2019, läuft die Testversion beider Benutzer am 25. Januar 2020 ab.
 
-## <a name="manage-the-trial"></a>Verwalten der Testversion
+## <a name="manage-the-trial"></a><a name="manage-the-trial"></a>Verwalten der Testversion
 
 Die Testversion von Microsoft Teams ist für die Initialisierung durch einzelne Endbenutzer bestimmt, und Sie sind nicht berechtigt, das Microsoft Teams-Testangebot im Namen von Endbenutzern oder Angestellten zu initiieren.
 

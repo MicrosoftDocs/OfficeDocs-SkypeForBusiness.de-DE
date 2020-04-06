@@ -1,5 +1,5 @@
 ---
-title: Planen der Lebenszyklusverwaltung in Microsoft Teams – Microsoft Teams
+title: Planen der Lebenszyklusverwaltung
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 783ae4f1c293a51b5f9838d4ffa3039731c0c867
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: ce58f292fd732c498880936c01d3e1b1343d2aa6
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837355"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137825"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planen der Lebenszyklusverwaltung in Microsoft Teams
 
@@ -196,7 +197,7 @@ Wenn ein Team anfängt, in einen Trott zu verfallen, ziehen Sie Folgendes in Bet
 
 Wenn die Arbeit eines Teams erledigt ist, muss das Ende auch offiziell bestätigt werden. Damit vermitteln Sie den Teammitgliedern, dass die Arbeit abgeschlossen ist, und verhindern gleichzeitig, dass jemand auf veraltete, überholte Informationen zugreift. Sie können das Team selbst nutzen, um Abschlussrituale wie nachträgliche Bewertungen und Zusammenfassungen durchzuführen.
 
-Sie können Teams löschen, von denen Sie wissen, dass Sie sie nicht benötigen (zum Beispiel ein Team, das ausschließlich zu Testzwecken erstellt wurde, oder ein Team, das vertrauliche Daten enthält). Tatsächlich werden Teams nur vorläufig gelöscht, und dieser Vorgang kann von der IT bis zu 21 Tage lang (30 Tage für Office 365-Gruppen) rückgängig gemacht werden. Das Löschen von Teams hat keine Auswirkungen auf Chats oder Inhalte, die gemäß Compliancerichtlinien aufbewahrt wurden. Kanäle weisen auch ein "Soft Delete"-Feature auf und können bis zu 21 Tage nach dem Löschen wiederhergestellt gemacht werden.
+Sie können Teams löschen, von denen Sie wissen, dass Sie sie nicht benötigen (zum Beispiel ein Team, das ausschließlich zu Testzwecken erstellt wurde, oder ein Team, das vertrauliche Daten enthält). Tatsächlich werden Teams nur "vorläufig gelöscht", und dieser Vorgang kann von der IT bis zu 21 Tage lang (30 Tage für Office 365-Gruppen) rückgängig gemacht werden. Das Löschen von Teams hat keine Auswirkungen auf Chats oder Inhalte, die gemäß Compliancerichtlinien aufbewahrt wurden. Kanäle weisen auch ein "Soft Delete"-Feature auf und können bis zu 21 Tage nach dem Löschen wiederhergestellt gemacht werden.
 
 Sie können neben den Archivierungsfunktionen auch Ablauf- und Aufbewahrungsrichtlinien verwenden, um den Zugriff auf Daten durch Teams zu verhindern, die nicht mehr aktiv sind oder deren Besitzer die Organisation verlassen haben.
 

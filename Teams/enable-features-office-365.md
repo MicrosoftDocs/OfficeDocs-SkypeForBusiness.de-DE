@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
+title: Verwalten von Einstellungen in Ihrer Organisation
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -8,23 +8,25 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ritikag
 search.appverid: MET150
-description: Erfahren Sie, wie Sie unternehmensweite Microsoft Teams-Einstellungen für Ihre Organisation aktivieren oder deaktivieren, einschließlich Apps, externem Zugriff, Gastzugriff, Teams-Einstellungen und Teams-Aktualisierungseinstellungen.
+description: Erfahren Sie, wie Sie unternehmensweite Microsoft Teams-Einstellungen aktivieren oder deaktivieren, einschließlich Apps, externem Zugriff, Gastzugriff, Teams-Einstellungen und Teams-Aktualisierungseinstellungen.
 localization_priority: Priority
-ms.custom:
-- ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
-- ms.teamsadmincenter.teamssettings.overview
 ms.collection:
 - M365-collaboration
 f1.keywords:
 - CSH
+ms.custom:
+- ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
+- ms.teamsadmincenter.teamssettings.overview
+- NewAdminCenter_Update
+- seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87c78839c0c6998464ed362dc8a3c2e4798a2321
-ms.sourcegitcommit: 561b9bab7d6f5a621436bc85ea28ea14657e7868
+ms.openlocfilehash: 5ad6e1679d809cbf4451677fdf67814930d33807
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42035237"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141228"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 
@@ -120,7 +122,7 @@ Hier können Sie die App auswählen, die Benutzer für die Teilnahme an Skype fo
 
 Der Netzwerkplaner kann Sie beim Ermitteln und Organisieren von Netzwerkanforderungen für die Verbindung von Teams-Benutzern in Ihrer Organisation unterstützen.  Hier erfahren Sie mehr über die [Verwenden des Netzwerkplaners für Microsoft Teams](https://docs.microsoft.com/microsoftteams/network-planner).
 
-Sie können auch die Option „Teams-App im Hintergrund für Benutzer von Skype for Business herunterladen“ auswählen.  Standardmäßig ist diese Einstellung aktiviert. Ist diese Einstellung aktiviert, so wird für diejenigen Benutzer, die auf Windows-PCs die Skype for Business-App nutzen, im Hintergrund die Teams-App heruntergeladen. Dies erfolgt, wenn der Koexistenzmodus für den Benutzer auf „Nur Teams“ gesetzt ist oder eine ausstehende Aktualisierungsbenachrichtigung in der Skype for Business-App aktiviert ist.
+Sie können auch die Option "Teams-App im Hintergrund für Benutzer von Skype for Business herunterladen" auswählen.  Standardmäßig ist diese Einstellung aktiviert. Ist diese Einstellung aktiviert, so wird für diejenigen Benutzer, die auf Windows-PCs die Skype for Business-App nutzen, im Hintergrund die Teams-App heruntergeladen. Dies erfolgt, wenn der Koexistenzmodus für den Benutzer auf „Nur Teams“ gesetzt ist oder eine ausstehende Aktualisierungsbenachrichtigung in der Skype for Business-App aktiviert ist.
 
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>Woran erkenne ich, welche Funktionen verfügbar sind?

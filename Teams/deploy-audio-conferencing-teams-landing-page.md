@@ -1,5 +1,5 @@
 ---
-title: Audiokonferenzen in Microsoft Teams
+title: Konfigurieren von Audiokonferenzeinstellungen – Microsoft Teams
 ms.reviewer: ''
 description: Verwenden Sie diese Bereitstellungsressourcen zur Unterstützung bei der Bereitstellung von Audiokonferenzen als Bestandteil der Besprechungsarbeitslast in Microsoft Teams.
 ms.topic: article
@@ -12,20 +12,21 @@ ms.service: msteams
 ms.collection:
 - M365-voice
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 f1.keywords:
 - NOCSH
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78c4443352bffa02dc5bdeef6297ede6bed01e64
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: f57753947221068a21edd282ba0667efc4182690
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826743"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137325"
 ---
-# <a name="audio-conferencing-in-microsoft-teams"></a>Audiokonferenzen in Microsoft Teams
+# <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>Erfahren Sie, wie Sie Audiokonferenzen in Microsoft Teams bereitstellen
 
 Durch Audiokonferenz ist es möglich, mit einem normalen Telefon an einer Teams-Besprechung teilzunehmen und in einer Besprechung eine Telefonnummer anzurufen. Lesen Sie [Bereitstellen von Besprechungen](deploy-meetings-microsoft-teams-landing-page.md), wenn Sie Audiokonferenzen in Ihrer Organisation bereitstellen möchten.
 

@@ -14,15 +14,16 @@ ms.reviewer: sbhatta
 f1.keywords:
 - NOCSH
 localization_priority: Priority
-description: Hier lernen Sie die verfügbaren Tools kennen, mit denen Administratoren neue Gastbenutzer zu einer Organisation hinzufügen können. Dies schließt den Microsoft Teams-Desktop, Webclients und das Portal für Azure Active Directory B2B-Zusammenarbeit ein.
+description: Administratoren lernen, wie sie neue Gastbenutzer zu einer Organisation im Microsoft Teams-Desktop, in Webclients und im Portal für Azure Active Directory B2B-Zusammenarbeit hinzufügen können.
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b25dc9c5b870b038b95f5df5821581f8c2fae79
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 60538383021028d043cb47197dd41ee89f8a4d37
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826943"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43139364"
 ---
 <a name="add-a-guest-to-a-team"></a>Hinzufügen eines Gasts zu einem Team
 =====================
