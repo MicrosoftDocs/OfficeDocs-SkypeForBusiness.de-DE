@@ -8,7 +8,6 @@ author: LolaJacobsen
 ms.author: lolaj
 audience: admin
 manager: serdars
-ms.date: 03/19/2019
 ms.service: msteams
 f1.keywords:
 - NOCSH
@@ -19,17 +18,18 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 756ff8d15ec58426b73504fcb240068151eabcd7
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: c272ce29a73b66af2eee03a04469a90b1e34bf64
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42205410"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43141038"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Workshops zur Planung des Upgrades auf Microsoft Teams</h1>
            <p>Als geschätzter Skype for Business-Kunde möchten wir sicherstellen, dass Ihnen bei Ihrem Umstieg auf Microsoft Teams alle benötigten Informationen vorliegen. Nehmen Sie an einer Reihe von interaktiven, interaktiven Upgradeplanungsworkshops teil, in denen wir Anleitungen, bewährte Methoden und Ressourcen teilen, die Ihnen bei der Planung und Implementierung Ihres Upgrades auf Microsoft Teams helfen. Für eine optimale Benutzererfahrung beginnen Sie mit der nachstehenden Sitzung <strong>Planen des Upgrades</strong>.
+           <p>Um diese Workshops in Ihrer Freizeit anzusehen, besuchen Sie <a href="https://aka.ms/UpgradeOnDemand"target="_blank">Teams Upgrade Planning</a> auf YouTube.
             <p>Neu bei Microsoft Teams? <a href="https://docs.microsoft.com/microsoftteams/teams-overview">Hier</a> erhalten Sie weitere Informationen.
         <ul class="pivots">
             <li>
