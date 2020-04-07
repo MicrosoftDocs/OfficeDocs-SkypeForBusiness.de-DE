@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a86a28cd5f7373edbd6d195fea7f857aef1ee29
-ms.sourcegitcommit: dc6108917392754d950cea47b92f871211bf4212
+ms.openlocfilehash: 37f01b5de9fc5ffd56d703c73e60c3ed55f50b6d
+ms.sourcegitcommit: c70778ea3a29834f62e6ef96053b5540803acc6a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131213"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153291"
 ---
 > [!IMPORTANT]
 > Das Teams-Dienstmodell kann geändert werden, um die Kundenzufriedenheit zu verbessern. So können beispielsweise die standardmäßigen Ablaufzeiten des Zugriffs- oder Aktualisierungstokens geändert werden, um die Leistung und die Authentifizierungssicherheit für Benutzer von Teams zu verbessern. Solche Änderungen würden vorgenommen, um die Sicherheit und Vertrauenswürdigkeit von Teams zu gewährleisten.
@@ -124,7 +124,7 @@ Mit TLS können Nutzer über ihre Client-Software die Teams-Server authentifizie
 
 Server-zu-Server-Verbindungen basieren auf gegenseitigem TLS (MTLS) zur gegenseitigen Authentifizierung. Bei einer MTLS-Verbindung tauschen der Server, von dem eine Nachricht stammt, und der Server, der diese empfängt, Zertifikate von einer beiderseits vertrauenswürdigen Zertifizierungsstelle aus. Die Zertifikate beweisen jedem Server die Identität des anderen. Im Teams-Dienst wird diese Prozedur befolgt.
 
-TLS und MTLS tragen dazu bei, Abhörvorgänge und Man-in-Middle-Angriffe zu vermeiden. Ein Man-in-the-Middle-Angriff leitet die Kommunikation zwischen zwei Netzwerkeinheiten ohne Wissen einer der beiden Parteien über den Computer des Angreifers um. Die Spezifikation von TLS und Teams für vertrauenswürdige Server verringern das Risiko eines Man-in-the-Middle-Angriffs teilweise mithilfe der Verwendung einer End-to-End-Verschlüsselung auf der Anwendungsebene, die mithilfe der Public Key-Kryptografie zwischen den beiden Endpunkten koordiniert wird, und ein Angreifer müsste über ein gültiges und vertrauenswürdiges Zertifikat mit dem entsprechenden privaten Schlüssel verfügen und auf den Namen des Dienstes ausgestellt sein, an den der Client kommuniziert, um die Kommunikation zu entschlüsseln.
+TLS und MTLS tragen dazu bei, Abhörvorgänge und Man-in-Middle-Angriffe zu vermeiden. Ein Man-in-the-Middle-Angriff leitet die Kommunikation zwischen zwei Netzwerkeinheiten ohne Wissen einer der beiden Parteien über den Computer des Angreifers um. Die TLS- und Teams-Spezifikation vertrauenswürdiger Server entschärft das Risiko eines Man-in-the-Middle-Angriffs auf Anwendungsebene teilweise durch die Verwendung von Verschlüsselung, die mit der Kryptografie mit öffentlichem Schlüssel zwischen den beiden Endpunkten koordiniert wird. Ein Angreifer müsste über ein gültiges und vertrauenswürdiges Zertifikat mit dem entsprechenden privaten Schlüssel verfügen, das auf den Namen des Dienstes ausgestellt ist, mit dem der Client kommuniziert, um die Kommunikation zu entschlüsseln.
 
 ### <a name="encryption-for-teams"></a>Verwenden von Datenverschlüsselung
 
