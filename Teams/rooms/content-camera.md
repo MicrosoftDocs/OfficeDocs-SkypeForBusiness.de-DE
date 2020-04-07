@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Verwenden Sie eine Inhalts Kamera in einem Microsoft Teams-Chatroom, die mit der Bildverarbeitungssoftware interagiert, damit Referenten auf einem analogen Whiteboard zeichnen können.
-ms.openlocfilehash: 6ddc1a43a9d75e6f142c82c0215124bad97f77dd
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: ecd9c20c7f479c548d0ab9b4c3db8bbec945e79f
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137625"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157808"
 ---
 # <a name="content-cameras"></a>Inhalts-Kameras
 
@@ -102,6 +102,4 @@ Sie können diese Einstellungen auch Remote mithilfe einer [XML-Konfigurationsda
 
 [Anforderungen für Microsoft Teams-Räume](requirements.md)
 
-> [!NOTE]
-> Bestimmte Microsoft Teams Room-Geräte mit Microsoft Surface pro-basierten Konsolen (wie Logitech Smartdock und Crestron SR) unterstützen noch keine Inhalts Kamera. Die Unterstützung für diese Geräte wird später in CY2019 hinzugefügt. 
->
+

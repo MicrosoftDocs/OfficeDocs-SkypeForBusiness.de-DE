@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Lesen Sie dieses Thema, um mehr über die Verwaltung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, zu erfahren.
-ms.openlocfilehash: 5368df53e7617f602265071a66f7b871c6b88f66
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1fecf852c11e7ab89e0cdc7dc6caf615182e7d5f
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825868"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157759"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Wartung und Betrieb von Microsoft Teams-Räumen 
  
@@ -31,10 +31,10 @@ Mit zusätzlicher Konfiguration ist die Remoteverwaltung mithilfe von Microsoft 
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>Sammeln von Protokollen in Microsoft Teams-Räumen
 <a name="Logs"> </a>
 
-Zum Sammeln von Protokollen müssen Sie das Protokoll Sammlungs Skript aufrufen, das mit der Microsoft Teams rooms-App ausgeliefert wird. Starten Sie im Administratormodus eine Eingabeaufforderung mit erhöhten Rechten, und geben Sie den folgenden Befehl ein:
+Zum Sammeln von Protokollen müssen Sie das Protokoll Sammlungs Skript aufrufen, das mit der Microsoft Teams rooms-App ausgeliefert wird. Starten Sie im Administratormodus eine erhöhte PowerShell-Eingabeaufforderung, und geben Sie den folgenden Befehl ein:
   
 ```PowerShell
-powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
+c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1 -ExecutionPolicy unrestricted
 ```
 
 Die Protokolle werden in c:\rigel. als ZIP-Datei ausgegeben
@@ -84,7 +84,7 @@ Dieser Abschnitt behandelt die Systemeinstellungen, von denen Microsoft Teams-R�
 Das Übertragen von Dateien mithilfe von Gruppenrichtlinien wird unter [Konfigurieren eines Dateielements](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)erläutert.
 
 > [!NOTE]
-> Wenn das Gerät von Microsoft Teams Rooms mit der nächsten Version von Windows 10 kompatibel ist, wird das Gerät automatisch auf die nächste Version über Windows Update aktualisiert. Microsoft Teams rooms-Gerät sollte nicht manuell auf die nächste Version von Windows 10 aktualisiert werden oder über die Aktivierung von Windows Update for Business (WUFB)-Gruppenrichtlinien "wählen Sie die Windows-Bereitschaftsstufe für die Updates aus, die Sie empfangen möchten" und "wählen Sie aus, wann die Vorschau erstellt und Funktions Updates werden über das Gruppenrichtlinienobjekt empfangen. Auf einem Gerät mit aktivierten Gruppenrichtlinien ist bekannt, dass es Probleme mit dem Windows 10-Betriebssystemupdate durch die Microsoft Teams rooms-App gibt.
+> Wenn das Gerät von Microsoft Teams Rooms mit der nächsten Version von Windows 10 kompatibel ist, wird das Gerät automatisch auf die nächste Version über Windows Update aktualisiert. Microsoft Teams rooms-Gerät sollte nicht manuell auf die nächste Version von Windows 10 aktualisiert werden oder über die Aktivierung von Windows Update for Business (WUFB)-Gruppenrichtlinien "wählen Sie die Windows-Bereitschaftsstufe für die Updates aus, die Sie empfangen möchten" und "wählen Sie aus, wann Vorschau-Builds und Funktionsupdates empfangen werden" über das Gruppenrichtlinienobjekt. Auf einem Gerät mit aktivierten Gruppenrichtlinien ist bekannt, dass es Probleme mit dem Windows 10-Betriebssystemupdate durch die Microsoft Teams rooms-App gibt.
 
 ## <a name="remote-management-using-powershell"></a>Remoteverwaltung mit PowerShell
 <a name="RemotePS"> </a>

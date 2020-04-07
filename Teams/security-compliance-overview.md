@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e777ef76f6c8f11dfd914b3c4be149c224b63cf5
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 922489b421a819554ae680cf70ab2df6a21b2aed
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139094"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157628"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sicherheit und Compliance in Microsoft Teams
 
@@ -81,6 +81,12 @@ Die Microsoft Teams-Desktopanwendung unterstützt AppLocker.  Weitere Informatio
 ## <a name="compliance"></a>Compliance
 
 Teams verfügt über eine breite Palette von Informationen, die Ihnen bei Compliance-Bereichen behilflich sein können, einschließlich der Kommunikations Konformität für Kanäle, Chats und Anlagen, Aufbewahrungsrichtlinien, Datenverlust Schutz (DLP), eDiscovery und rechtliche Aufbewahrung für Kanäle, Chats und Dateien, Überwachungsprotokoll Suche sowie Verwaltung mobiler Anwendungen mit Microsoft InTune. Wir haben einige Informationen zu den folgenden Themen bereitgestellt, und Sie können zum [Microsoft 365 Compliance Center](https://compliance.microsoft.com) oder [Office 365 Security & Compliance Center](https://protection.microsoft.com) wechseln, um diese Einstellungen zu verwalten.
+
+### <a name="information-barriers"></a>Informationsbarrieren
+
+Bei Informationsbarrieren handelt es sich um Richtlinien, die von Teams-Administratoren in die Tat umgestellt werden, um Personen oder Gruppen zu unterhalten, miteinander zu kommunizieren (wenn dies für Sie nicht erforderlich ist, oder ein regulatorischer Grund, um Sie davon zu blockieren), und Sie können auch Richtlinien in Bezug auf Suchvorgänge und eDiscovery (nachstehend behandelt) erstellen. Diese Richtlinien können sich auf Benutzer in 1:1-Chats, Gruppen-Chats oder auf Teamebene auswirken.
+
+Weitere Informationen zu diesem Thema finden Sie unter [Informationsbarrieren in Microsoft Teams](information-barriers-in-teams.md).
 
 ### <a name="communication-compliance"></a>Kommunikations Konformität
 
