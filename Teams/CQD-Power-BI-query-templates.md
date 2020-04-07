@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Verwenden Sie Power BI zum Analysieren von CQD-Daten für Microsoft Teams.
-ms.openlocfilehash: 374f0da0342e5fbd50a7a27b9dde49acf605a23d
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: af540f09fefc27b99e1c084d2571fe51d47a393c
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053508"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170503"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Verwenden von Power BI zum Analysieren von CQD-Daten für Microsoft Teams
 
@@ -34,13 +34,13 @@ Bevor Sie diese PBIX-Dateien verwenden können, müssen Sie [den Power BI Connec
 
 |  |  |
 |---------|---------|
-|CQD Helpdesk-Bericht. pbix     |Durch die Integration von Gebäude-und EUII-Daten ist dieser Bericht dazu vorgesehen, Ihnen den Einstieg in einen einzelnen Benutzer zu ermöglichen, um die Upstream-Ursache für die schlechte Anrufqualität für diesen Benutzer zu finden (beispielsweise befindet sich der Benutzer in einem Gebäude, in dem Netzwerkprobleme auftreten).         |
-|CQD Location Enhanced Report. pbix     | Re-Imaginary CQD SPD-Standortberichte. Umfasst 9 Berichte, die Anrufqualität, WLAN-Nutzung, Zuverlässigkeit und die Bewertung meiner Anrufinformationen (RMA) mit zusätzlichen Drill-thrus durch Gebäude oder Nutzer.        |
-|CQD Mobile Device Report. pbix     | Bietet Einblicke, die speziell auf Nutzer von mobilen Geräten abgestimmt sind, einschließlich Anrufqualität, Zuverlässigkeit und Bewertung meines Anrufs. Sehen Sie sich das Mobilfunknetz, das WLAN-Netzwerk und die Berichte für mobile Betriebssysteme an (Android, IOS).        |
-|CQD PSTN Direct-Routing Bericht. pbix     |Bietet Einblicke speziell für PSTN-Anrufe, die Direktes Routing durchlaufen. Weitere Informationen finden Sie [unter Verwenden des CQD PSTN Direct-Routing Berichts](CQD-PSTN-report.md).         |
-|CQD-Zusammenfassungsbericht. pbix     |Bessere Visualisierungen, verbesserte Präsentation, erhöhte Informationsdichte und Rolling dates. Diese Berichte erleichtern die Kennzeichnung von Ausreißer. Führen Sie einen Drilldown in die Anrufqualität nach Standort mit einer benutzerfreundlichen interaktiven Karte durch. 9 neue Berichte:</p>-Qualität insgesamt<br>-Gesamtzuverlässigkeit<br>-RMA (meinen Anruf abstimmen) insgesamt<br>-Konferenz Qualität<br>-P2P-Qualität<br>-Konferenz Zuverlässigkeit<br>-P2P-Zuverlässigkeit<br>-Konferenz-RMA<br>-P2P-RMA         |
-|<strong>(Neu!)</strong> CQD Teams-Auslastungs Bericht. pbix     | Zeigt, wie Benutzer in Ihrer Organisation Teams verwenden und wie viel. Weitere Informationen finden Sie unter [Verwenden des CQD Power BI-Berichts, um die Verwendung von Microsoft Teams anzuzeigen](CQD-teams-utilization-report.md).        |
-|CQD-Benutzer Feedback (Bewertung meines Anrufs) Bericht. pbix     | Zeigt die Bewertung meiner Anrufdaten auf eine Weise an, die Sie ganz einfach verwenden können, um Anrufe für Ihre Organisation zu unterstützen. Querverweis mit Verbatims, um die Schulungsmöglichkeiten für Endnutzer zu erkennen.        |
+|CQD Helpdesk-Bericht. PBit     |Durch die Integration von Gebäude-und EUII-Daten ist dieser Bericht dazu vorgesehen, Ihnen den Einstieg in einen einzelnen Benutzer zu ermöglichen, um die Upstream-Ursache für die schlechte Anrufqualität für diesen Benutzer zu finden (beispielsweise befindet sich der Benutzer in einem Gebäude, in dem Netzwerkprobleme auftreten).         |
+|CQD Location Enhanced Report. PBit     | Re-Imaginary CQD SPD-Standortberichte. Umfasst 9 Berichte, die Anrufqualität, WLAN-Nutzung, Zuverlässigkeit und die Bewertung meiner Anrufinformationen (RMA) mit zusätzlichen Drill-thrus durch Gebäude oder Nutzer.  Stellen Sie sicher, dass Sie die Gebäudedaten hochgeladen haben, um Ihre Berichterstellung zu maximieren.        |
+|CQD Mobile Device Report. PBit     | Bietet Einblicke, die speziell auf Nutzer von mobilen Geräten abgestimmt sind, einschließlich Anrufqualität, Zuverlässigkeit und Bewertung meines Anrufs. Sehen Sie sich das Mobilfunknetz, das WLAN-Netzwerk und die Berichte für mobile Betriebssysteme an (Android, IOS).        |
+|CQD PSTN Direct-Routing Bericht. PBit     |Bietet Einblicke speziell für PSTN-Anrufe, die Direktes Routing durchlaufen. Weitere Informationen finden Sie [unter Verwenden des CQD PSTN Direct-Routing Berichts](CQD-PSTN-report.md).         |
+|CQD-Zusammenfassungsbericht. PBit     |Bessere Visualisierungen, verbesserte Präsentation, erhöhte Informationsdichte und Rolling dates. Diese Berichte erleichtern die Kennzeichnung von Ausreißer. Führen Sie einen Drilldown in die Anrufqualität nach Standort mit einer benutzerfreundlichen interaktiven Karte durch. 9 neue Berichte:</p>-Qualität insgesamt<br>-Gesamtzuverlässigkeit<br>-RMA (meinen Anruf abstimmen) insgesamt<br>-Konferenz Qualität<br>-P2P-Qualität<br>-Konferenz Zuverlässigkeit<br>-P2P-Zuverlässigkeit<br>-Konferenz-RMA<br>-P2P-RMA         |
+|<strong>(Neu!)</strong> CQD Teams-Auslastungs Bericht. PBit     | Zeigt, wie Benutzer in Ihrer Organisation Teams verwenden und wie viel. Stellen Sie sicher, dass Sie die Gebäudedaten hochgeladen haben, um Ihre Berichterstellung zu maximieren. Weitere Informationen finden Sie unter [Verwenden des CQD Power BI-Berichts, um die Verwendung von Microsoft Teams anzuzeigen](CQD-teams-utilization-report.md).        |
+|CQD-Benutzer Feedback (Bewertung meines Anrufs) Bericht. PBit     | Zeigt die Bewertung meiner Anrufdaten auf eine Weise an, die Sie ganz einfach verwenden können, um Anrufe für Ihre Organisation zu unterstützen. Querverweis mit Verbatims, um die Schulungsmöglichkeiten für Endnutzer zu erkennen.        |
 
 > [!TIP]
 > Nachdem Sie Ihre Power BI-Berichte für CQD-Daten eingerichtet haben, fügen Sie Sie als Registerkarte zu einem Kanal hinzu. Nachdem Sie in **+** einem Kanal ausgewählt haben, wählen Sie **Power BI** aus, und suchen Sie dann den Bericht. Beachten Sie, dass nur Personen mit einer Power BI-Lizenz und CQD-Administratoranmeldeinformationen auf diese Berichte zugreifen können.

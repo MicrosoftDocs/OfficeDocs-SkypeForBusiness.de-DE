@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Ihre Teams-apps auf der Seite "Apps verwalten
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 532129792dd35a2b016510094f1b08beade1b32a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5e261dfd6f23ec298e354a7732a9a1afa9d6b22e
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136845"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170553"
 ---
 <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
 ======================================================
@@ -68,6 +68,9 @@ Auf der Seite " **apps verwalten** " können Sie einzelne apps auf Organisations
 Wenn Sie eine App zulassen oder blockieren möchten, wählen Sie Sie aus, und klicken Sie dann auf **zulassen** oder **blockieren**. Wenn Sie eine APP blockieren, werden alle Interaktionen mit dieser APP deaktiviert, und die APP wird nicht in Teams für alle Benutzer in Ihrer Organisation angezeigt.
 
 Wenn Sie eine APP auf der Seite " **apps verwalten** " blockieren oder zulassen, wird diese APP für alle Benutzer in Ihrer Organisation blockiert oder zugelassen.  Wenn Sie eine app in einer Berechtigungsrichtlinie für Teams-App blockieren oder zulassen, ist Sie für Benutzer, denen diese Richtlinie zugewiesen ist, blockiert oder zulässig. Damit ein Benutzer eine App installieren und mit ihnen interagieren kann, müssen Sie die APP auf der Organisationsebene auf der Seite " **apps verwalten** " und in der APP-Berechtigungsrichtlinie zulassen, die dem Benutzer zugewiesen ist.
+
+ > [!NOTE]
+ > Wenn Sie eine APP deinstallieren möchten, klicken Sie mit der rechten Maustaste auf die APP, und klicken Sie dann auf **deinstallieren** oder verwenden Sie das Menü **Weitere apps** auf der linken Seite. 
 
 ## <a name="manage-org-wide-app-settings"></a>Verwalten von organisationsweiten App-Einstellungen
 
