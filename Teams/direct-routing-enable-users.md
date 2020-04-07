@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie Benutzern das direkte Routing von Microsoft Phone-Systemen ermöglichen.
-ms.openlocfilehash: e9120dcbcd4b1a82eb864f545efdbadc42481794
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: 10c62d14f283d565765a47e4c07504bc9bffa720
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157966"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160059"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Aktivieren von Benutzern für Direct Routing, Voicemail und Voicemail
 
@@ -80,7 +80,7 @@ So fügen Sie die Telefonnummer hinzu und aktivieren für Voicemail:
     Wenn Sie beispielsweise eine Telefonnummer für den Benutzer "Spencer Low" hinzufügen möchten, geben Sie Folgendes ein: 
 
     ```PowerShell
-    Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    Set-CsUser -Identity "spencer.low@contoso.com" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
 
     Die verwendete Telefonnummer muss als vollständige E. 164-Telefonnummer mit Landesvorwahl konfiguriert werden. 

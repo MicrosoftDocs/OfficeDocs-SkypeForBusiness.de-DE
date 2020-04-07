@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Zusammenfassung: IT-Experten sollten die Supportanforderungen für die APP Skype for Business-Webanwendung und Skype-Besprechungen überprüfen, während Sie Skype for Business Server planen. Dieser Artikel ist nicht für die Benutzer dieser apps vorgesehen.'
-ms.openlocfilehash: 77633b53c44e28301b21cc2f37240a4a1e459938
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f5b402b23cbb49d1605b83b9f54531e26714b1f7
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013448"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157638"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planen von Besprechungs Clients (app für Webanwendungen und Besprechungen)
  
@@ -59,13 +59,13 @@ Um die Skype for Business-Webanwendung verwenden zu können, muss ein Benutzer �
 |Windows 10  <br/> |Ja  <br/> |Ja  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Ja &#x2778; <br/> |
 |Windows 8.1 &#x2776; <br/> |Nicht zutreffend  <br/> |Ja  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend <br/> |Ja &#x2778; <br/> |
 |Windows 8 (Intel-basiert) &#x2776; <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Ja  <br/> |Nicht zutreffend <br/> |Nicht zutreffend  <br/> |Ja &#x2778; <br/> |
-|Windows 7 mit SP1 &#x2777; <br/> |Nicht zutreffend  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nicht zutreffend <br/>|Ja &#x2778; <br/> |
+|Windows 7 mit SP1 &#x2777; <br/> |Nicht zutreffend  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |– <br/>|Ja &#x2778; <br/> |
 |Windows Server 2008 R2 mit SP1 &#x2777; <br/> |Nicht zutreffend  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nicht zutreffend <br/>|Ja &#x2778; <br/> |
 |macOS 10,8 und höher (Intel-basiert) &#x2777; <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Ja  <br/> |Ja <br/> |
    
 &#x2776; das Plug-in für das Skype for Business-Webbrowser-Webanwendungs Modul ein spezielles Freigabe Modul erfordert, um computerbasierte sprach-, Video-, Freigabe-und Anzeigefunktionen für die fortlaufende Bildschirmfreigabe und andere Features zu verwenden. Ein Besprechungsteilnehmer hat die Möglichkeit, das Freigabe-Plug-in entweder beim Beitritt zur Besprechung oder beim Initiieren eines dieser Features zu installieren. In Windows 8 und Windows 8.1 kann das Freigabe-Plug-in nur installiert werden, wenn Sie Internet Explorer 10 oder Internet Explorer 11 für den Desktop verwenden. Diese Features sind nicht verfügbar mit nicht-Desktop-Versionen von Internet Explorer 10 und 11. Beachten Sie, dass Firefox und Safari Version 12,0 und höher nicht mehr unterstützt werden.
   
-&#x2777; für unterstützte Windows 7-, Windows Server 2008 R2-und Macintosh-Betriebssysteme stehen alle Funktionen zur Verfügung, einschließlich computerbasierter sprach-, Video-, Anwendungsanzeige, Anwendungsfreigabe, Desktop Anzeige und Desktopfreigabe. Um diese Funktionen verwenden zu können, müssen Sie ein Plug-in installieren, wenn Sie dazu aufgefordert werden. Beachten Sie, dass Mac OS X Version 10,7 nicht mehr unterstützt wird.
+&#x2777; für unterstützte Windows 7-, Windows Server 2008 R2-und Macintosh-Betriebssysteme stehen alle Funktionen zur Verfügung, einschließlich computerbasierter sprach-, Video-, Anwendungsanzeige, Anwendungsfreigabe, Desktop Anzeige und Desktopfreigabe. Um diese Funktionen verwenden zu können, müssen Sie ein Plug-in installieren, wenn Sie dazu aufgefordert werden. Beachten Sie, dass Mac OS X Version 10,7 nicht mehr unterstützt wird.  Beachten Sie auch, dass die Webanwendung unter OS X 10,15 oder höher nicht installiert wird.  Es wird empfohlen, die neueste Version von Skype for Business für Mac zu verwenden, die das fortsetzen anonymer Join-Szenarien unterstützt.
   
 &#x2778; auf die Webanwendung von Chrome unter Windows zuzugreifen, wird ein kleines Programm gestartet, das die Webanwendung in einem eingebetteten Internet Explorer-Frame lädt. Für dieses Programm muss eine der unterstützten Versionen von Internet Explorer installiert sein, damit die Webanwendung ordnungsgemäß lädt.
   

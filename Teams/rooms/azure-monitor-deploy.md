@@ -1,5 +1,6 @@
 ---
 title: Bereitstellen von Microsoft Teams rooms Management mit Azure Monitor
+ms.author: v-lanac
 author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: In diesem Artikel wird erläutert, wie Sie die Verwaltung von Microsoft Teams rooms-Geräten in integrierter End-to-End-Weise mithilfe von Azure Monitor bereitstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3e01ae7a0fddcb63595b7dcc15b719ad1d41db32
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0e0e810bb2932918947a011a9d2091858d0819eb
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137645"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160089"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>Bereit :::no-loc text="Microsoft Teams Rooms"::: stellen der Verwaltung mit:::no-loc text="Azure Monitor":::
 

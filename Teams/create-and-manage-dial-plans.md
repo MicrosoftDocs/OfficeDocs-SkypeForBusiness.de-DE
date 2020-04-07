@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Informationen zum Erstellen und Verwalten von Wählplänen für Anrufe (PSTN-Wählpläne) und deren Verwaltung.
-ms.openlocfilehash: 774b0a78f39b91b634ed0833be3497935cb25c4f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 6a5f46772ed8eebb309ba8bd9eaeca6fddb35afa
+ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826923"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43160079"
 ---
 # <a name="create-and-manage-dial-plans"></a>Erstellen und Verwalten von Wählplänen
 
@@ -61,13 +61,13 @@ Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisieru
 
 ### <a name="add-users-to-a-dial-plan"></a>Hinzufügen von Benutzern zu einem Wählplan
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **sprach** > **Wähl**Einstellungen.
-2. Wählen Sie den Wählplan aus, indem Sie links neben dem Namen des Wählplans klicken.
-3. Wählen Sie **Benutzer verwalten** aus.
-4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
-5. Wenn Sie mit dem Hinzufügen von Benutzern fertig sind, wählen Sie über **nehmen**aus.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**.
+2. Wählen Sie den Benutzer aus, indem Sie auf den Anzeige Namen klicken.
+3. Wählen Sie die Registerkarte **Richtlinien** aus.
+4. Klicken Sie rechts neben zugewiesene Richtlinien auf **Bearbeiten** .
+5. Wählen Sie im Dropdownmenü **Wählplan** den Wählplan aus, den Sie dem Benutzer zuweisen möchten, und klicken Sie dann auf über **nehmen**.
 
-## <a name="using-powershell"></a>Verwenden von PowerShell
+## <a name="using-powershell"></a>Verwendung von PowerShell
   
 ### <a name="verify-and-start-remote-powershell"></a>Überprüfen und starten von Remote-PowerShell
 
