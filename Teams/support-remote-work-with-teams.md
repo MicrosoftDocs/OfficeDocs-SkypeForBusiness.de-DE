@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um den Mitarbeitern in Ihrer Organisation zu helfen, mit Microsoft Teams produktiv zu arbeiten, insbesondere wenn sie als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ea77e0c672ffd15adcb5bc63aa77bd45d4b3604
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: c5c359ebf1efd20d9a1db41ddf19f39240826b77
+ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117510"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43157778"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Unterstützung von Remotemitarbeitern in Microsoft Teams
 
@@ -33,7 +33,7 @@ Möchte Ihre Organisation Microsoft Teams einführen, um Remotemitarbeiter und B
 
 -  Wenn Sie bereits über ein Abonnement verfügen, das Teams umfasst, **[aktivieren Sie es für jeden](assign-teams-licenses.md)**.
     
-- Erfahren Sie, wie Ihre Organisation die ersten **[Besprechungen in Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams)** abhalten kann. 
+- Erfahren Sie, wie Ihre Organisation die ersten **[Besprechungen und Live-Ereignisse in Teams](quick-start-meetings-live-events.md)** abhalten kann. 
 
 Weitere Informationen hierzu finden Sie unter [Zusätzlicher Ressourcen zur Unterstützung von Remotemitarbeitern](#additional-resources-for-supporting-remote-workers) weiter unten.
 
