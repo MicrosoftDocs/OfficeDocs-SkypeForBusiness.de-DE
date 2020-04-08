@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Hier erfahren Sie, wie Sie das Telefon System für Cloud-Anrufwarteschlangen mit Microsoft Teams einrichten.
-ms.openlocfilehash: fc958aa1713a7cda12a054b3a029bfc1786b0955
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 2027658c5335f19c00ea1c8e44c6d38e1f16a730
+ms.sourcegitcommit: 9a448104a76857e3aa464c53cec577d813f8f414
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42897256"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43184246"
 ---
 # <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloudanrufwarteschleife
 
@@ -49,11 +49,9 @@ Alle Anrufe in der Warteschlange werden mithilfe einer der folgenden Methoden an
 - Beim seriellen Routing klingelt der erste Anruf in der Warteschlange alle Anruf-Agents einzeln.
 - Bei Round Robin wird das Routing von eingehenden Anrufen ausgeglichen, damit jeder Anruf-Agent die gleiche Anzahl von Anrufen aus der Warteschlange erhält.
 
-    > [!NOTE]
-    > Anruf-Agents, die **Offline**sind, ihre Anwesenheit auf " **nicht stören** " festgelegt haben oder die Anrufwarteschlange deaktiviert haben, werden keine Anrufe empfangen.
+Mit einer der oben genannten Methoden können Sie Optionen für die Anrufbehandlung festlegen, wie beispielsweise die Option zum Deaktivieren des Agents, Anwesenheits basiertes Routing, Wartezeiten für Anrufe und Anruf Timeouts.
 
-- Nur eine Benachrichtigung über eingehende Anrufe (für den Anruf am Kopf der Warteschlange) geht zu einem Zeitpunkt an die Anruf Agenten.
-- Wenn ein Telefonist den Anruf angenommen hat, klingelt der nächste eingehende Anruf aus der Warteschleife bei den Telefonisten.
+Nur eine Benachrichtigung über eingehende Anrufe (für den Anruf am Kopf der Warteschlange) geht zu einem Zeitpunkt an die Anruf Agenten. Wenn ein Telefonist den Anruf angenommen hat, klingelt der nächste eingehende Anruf aus der Warteschleife bei den Telefonisten.
 
 > [!NOTE]
 > Dieser Artikel bezieht sich auf Microsoft Teams und Skype for Business Online.
@@ -164,7 +162,7 @@ Sie können eine Audiodatei (WAV-, MP3-oder WMA-Formate) hochladen.
 
 ### <a name="select-the-call-answering-options"></a>Wählen Sie die Optionen für die Anrufannahme aus.
 
-![Screenshot der Optionen für die Anrufannahme](media/5d249515-d532-4af2-90da-011404028b89.png) 
+![Screenshot der Optionen für die Anrufannahme](media/teams-cq-call-answering-options.png)
 
 ![Symbol der Zahl 1, verweist auf eine Legende in den vorherigen Screenshot](media/teamscallout1.png)
 -**Anruf-Agents und-Gruppen** , um einzelne Agents direkt hinzuzufügen, ohne Sie zu einer Gruppe hinzuzufügen, klicken Sie auf **Benutzer hinzufügen**. Legen Sie einzelne Agents in der Reihenfolge ab, in der Sie den Anruf empfangen sollen. Sie können bis zu 20 einzelne Agents hinzufügen (um mehr als 20 hinzuzufügen, um Sie in einer Gruppe zu speichern).
@@ -177,9 +175,9 @@ Sie können bis zu 200-Anruf-Agents auswählen, die zu einer der folgenden Maili
 - Sicherheitsgruppe
 - Verteilerliste
 
-Die ausgewählten Anruf Agenten müssen folgende sein: 
+Ausgewählte Anruf-Agents müssen eine der folgenden sein:
 
-- Online-Benutzer mit einer Telefon System Lizenz und Enterprise-VoIP aktiviert 
+- Online-Benutzer mit einer Telefon System Lizenz und Enterprise-VoIP aktiviert
 - Online Benutzer mit einem Anrufplan
 - Lokale Skype for Business Server-Benutzer
 
@@ -197,9 +195,17 @@ Die ausgewählten Anruf Agenten müssen folgende sein:
 
 - Das **Attendant-Routing** bewirkt, dass der erste Anruf in der Warteschlange alle Anruf-Agents gleichzeitig klingelt. Der Anruf wird vom ersten Anruf Agenten abgeholt.
 - **Serielles Routing** eingehende Anrufe Klingeln alle Anruf-Agents eins nach dem anderen vom Anfang der Anruf Agentenliste. Agents können nicht in der Liste der Anruf-Agents bestellt werden. Wenn ein Agent einen Anruf abschließt oder nicht annimmt, klingelt der Anruf beim nächsten Agenten und versucht alle Agenten, bis er abgeholt wird oder ein Timeout annimmt.
-  > [!NOTE]
-  > Bei der seriellen Weiterleitung für Agents, die **Offline** sind oder deren Anwesenheit auf " **nicht stören**" festgelegt wurde, wird der Anruf an diese Benutzer weitergeleitet, und die Verbindung zu nicht verfügbarem Benutzer, dem Routing zum nächsten Agenten in der Agentliste, ist nicht möglich. Dies ist nicht der Fall, wenn sich der Agent für das Abrufen von Anrufen aus der Anrufwarteschlange **entschieden** hat. Um das Zeitintervall zu verkürzen, in dem der Anruf an den nächsten Agenten weitergeleitet wird, kann die Benachrichtigungszeit für Agenten verringert werden.
 - **Round Robin** balanciert das Routing von eingehenden Anrufen aus, damit jeder Anruf-Agent die gleiche Anzahl von Anrufen aus der Warteschlange erhält. Dies kann in einer eingehenden Vertriebsumgebung wünschenswert sein, um die Chancengleichheit zwischen allen Anruf Agenten zu gewährleisten.
+
+![Symbol der Zahl 3, verweist auf eine Legende im vorherigen Screenshot](media/teamscallout3.png)
+**Anwesenheits** basiertes Routing-Anwesenheits basiertes Routing verwendet den Verfügbarkeitsstatus von Anruf-Agents, um zu ermitteln, ob ein Agent in die Anruf Weiterleitungsliste für die ausgewählte Routingmethode aufgenommen werden soll. Anruf-Agents, deren Verfügbarkeitsstatus auf **verfügbar** festgesetzt ist, sind in der Anruf Weiterleitungsliste enthalten und können Anrufe empfangen. Agents, deren Verfügbarkeitsstatus auf einen beliebigen anderen Status festgesetzt ist, werden aus der Anruf Weiterleitungsliste ausgeschlossen und empfangen keine Anrufe, bis sich der Verfügbarkeitsstatus wieder in **verfügbar**ändert.
+
+Sie können das anwesenheitsbasierte Anrufrouting mit einer der Routingmethoden aktivieren.
+
+Wenn sich ein Agent für das Abrufen von Anrufen entscheidet, wird er nicht in die Anruf Weiterleitungsliste aufgenommen, unabhängig davon, auf welchen Verfügbarkeitsstatus er festgesetzt ist.
+
+> [!CAUTION]
+> Agents, die den Skype for Business-Client verwenden, sind nicht in der Anruf Weiterleitungsliste enthalten, wenn das anwesenheitsbasierte Routing unabhängig von deren Verfügbarkeitsstatus aktiviert ist. Agenten, die nicht in der Anruf Weiterleitungsliste sind, erhalten keine Anrufe. Wenn Sie über Agenten verfügen, die Skype for Business verwenden, aktivieren Sie das anwesenheitsbasierte Anrufrouting nicht.
 
 ### <a name="select-an-agent-opt-out-option"></a>Auswählen einer Option für den Agenten Ausstieg
 
