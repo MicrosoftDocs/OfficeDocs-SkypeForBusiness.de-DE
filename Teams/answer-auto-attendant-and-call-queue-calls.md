@@ -19,17 +19,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d630ea41915cb89013e407a6fa0b1cc21cb21abf
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 80400d9e9d7ab1519a15ab299f07896f55342eaf
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137435"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190867"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Direktes Beantworten von Anrufen aus der automatischen Telefonzentrale und der Anrufwarteschleife aus Teams
 ===========================================================
 
-Benutzer von Teams können Anrufe von automatischen Cloud-Telefonzentralen empfangen und annehmen sowie Warteschlangen direkt von Ihrem Team-Client aus anrufen. Für Benutzer von Teams ist das Feature für die automatische Telefonzentrale jetzt in der Regel verfügbar, und die Anruf Warteschlangenfunktion befindet sich in der Vorschau. 
+Benutzer von Teams können Anrufe von automatischen Cloud-Telefonzentralen empfangen und annehmen sowie Warteschlangen direkt von Ihrem Team-Client aus anrufen.
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>Was sind automatische Telefonzentralen und Anrufwarteschlangen?
 

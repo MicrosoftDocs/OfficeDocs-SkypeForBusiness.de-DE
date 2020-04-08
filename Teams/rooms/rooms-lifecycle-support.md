@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: In diesem Artikel wird die Lebenszyklus Unterstützung für Microsoft Teams-Chatrooms erläutert.
-ms.openlocfilehash: e5142d23d9f57a6ca50bcdb348378084afffd86b
-ms.sourcegitcommit: 1bb3df681177db5ecc6afae3d3f3a46c251e5c23
+ms.openlocfilehash: 27610cd7a7ed5c2bca1fcb118b3687149d2872d0
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117523"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190831"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams rooms-App-Versionsunterstützung
  
@@ -59,7 +59,7 @@ In der folgenden Tabelle sind die empfohlenen und unterstützten Versionen von W
 | 1709 |2018-01-18 |Nicht unterstützt                         |&#x2014; |&#x2014; |
 | 1703 |2017-07-11 |Nicht unterstützt                         |&#x2014; |&#x2014; |
 
-&#x2781; die Windows 10 1809-Version wird aufgrund von Kompatibilitätsproblemen, die mit der Microsoft Teams rooms-Anwendung gefunden wurden, nicht empfohlen. Dieses spezielle Problem führt dazu, dass die Microsoft Teams rooms-Anwendung nach einem nächtlichen Neustart nicht gestartet werden konnte. Dieses Problem wurde in der Windows 10 1903-Version behoben.  
+&#x2780; Windows 10, Version 1809, wird aufgrund von Kompatibilitätsproblemen, die bei der Microsoft Teams rooms-Anwendung gefunden wurden, nicht empfohlen. Dieses spezielle Problem führt dazu, dass die Microsoft Teams rooms-Anwendung nach dem nächtlichen Neustart nicht mehr gestartet wird. Dieses Problem wurde in Windows 10, Version 1903, behoben.  
 
 Wenn Sie eine unterstützte Version von Windows 10 verwenden, erhalten Sie immer die neuesten Anwendungsupdates für die Microsoft Teams rooms-app.  
 
