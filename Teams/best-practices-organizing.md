@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e8f6335edde67fcc00e68b6aa42b3100afa603c9
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 621bb6328ab4ea59caa18d27fe7196a25ee15157
+ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136875"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43174917"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Bewährte Methoden zum Organisieren von Teams in Microsoft Teams
 ======================================================
@@ -31,9 +31,7 @@ Teams sind Gruppen von Personen, die sich um ein gemeinsames Ziel versammeln. Ei
 
 Vor der Gründung eines Teams sollten Sie das Ziel, Projekt oder Arbeitselement sowie die Personen in der Organisation, die all dies gemeinsam umsetzen können, ins Auge fassen. Nachdem Sie diese bestimmt haben, fügen Sie diese Personen oder Gruppen einem Team hinzu, um mit der Zusammenarbeit zu beginnen. Da sich die Mitgliedschaft im Laufe der Zeit ändern kann, empfiehlt es sich, für jedes Team mehrere Besitzer festzulegen. Weitere Informationen finden Sie unter [Verwalten von Teams](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-In diesem kurzen Video sehen Sie einige Beispiele für das Strukturieren von organisationsübergreifenden oder Einzweckgruppen:
-
-> [!VIDEO https://youtu.be/XAowXcmQ-kA]
+In der [Videowiedergabeliste](https://www.youtube.com/playlist?list=PLXPr7gfUMmKwYKFSqoPN-aHQppI7rRQLf) von Microsoft Teams finden Sie weitere Informationen zum Erstellen und Verwalten von Teams.
 
 ## <a name="add-teams-gradually"></a>Stufenweises Hinzufügen von Teams
 
@@ -41,11 +39,11 @@ Beim ersten Einführung von Teams empfiehlt es sich, mit eine kleinen Anzahl von
 
 ## <a name="create-channels-to-focus-discussions"></a>Erstellen Sie Kanäle für fokussierte Unterhaltungen
 
-Nachdem Sie Ihr Team erstellt haben, sollten Sie sich zunächst mit den verschiedenen Projekten und Arten von Unterhaltungen besprechen, die Sie unterstützen müssen. Erstellen Sie anfängliche Kanäle, damit die Benutzer wissen, wo Sie mitwirken und bestehende Unterhaltungen finden. Verwenden Sie beschreibende Kanalnamen, damit die Benutzer gleich wissen, wo sie die jeweilige Unterhaltung finden können. Fügen Sie Tools (wie OneNote, Power BI oder Planner) als Registerkarten zu einem Kanal hinzu, damit die Mitglieder alles, was Sie benötigen, direkt im Kanal finden. Sie können auch eine häufig verwendete Webseite als Registerkarte zu einem Kanal hinzufügen. 
+Nachdem Sie Ihr Team erstellt haben, sollten Sie sich zunächst mit den verschiedenen Projekten und Arten von Unterhaltungen besprechen, die Sie unterstützen müssen. Erstellen Sie anfängliche Kanäle, damit die Benutzer wissen, wo Sie mitwirken und bestehende Unterhaltungen finden. Verwenden Sie beschreibende Kanalnamen, damit die Benutzer gleich wissen, wo sie die jeweilige Unterhaltung finden können. Fügen Sie Tools (wie OneNote, Power BI oder Planner) als Registerkarten zu einem Kanal hinzu, damit die Mitglieder alles, was Sie benötigen, direkt im Kanal finden. Sie können auch eine häufig verwendete Webseite als Registerkarte zu einem Kanal hinzufügen.
 
-Erfahren Sie mithilfe dieser schnellen Tipps für Endbenutzer mehr über die [Arbeit in Teams](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams). 
+Erfahren Sie mithilfe dieser schnellen Tipps für Endbenutzer mehr über die [Arbeit in Teams](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams).
 
-Wir empfehlen als bewährte Methode, größere Teams mit mehreren Kanälen zu erstellen. Minimieren Sie die Anzahl der Teams, in denen die Teilnahme einer Person notwendig ist. Stellen Sie sich Kanäle in einem Team wie Themen oder Arbeitsabläufe vor, die dem Team dabei helfen, seine Arbeit zur Erreichung des gemeinsamen Zieles zu organisieren. Es muss keine bestimmte Anzahl von Kanälen erstellt werden. Jedes Team sollte Kanäle auf der Grundlage seiner Arbeit, seiner Prioritäten und seiner Anforderungen erstellen. 
+Wir empfehlen als bewährte Methode, größere Teams mit mehreren Kanälen zu erstellen. Minimieren Sie die Anzahl der Teams, in denen die Teilnahme einer Person notwendig ist. Stellen Sie sich Kanäle in einem Team wie Themen oder Arbeitsabläufe vor, die dem Team dabei helfen, seine Arbeit zur Erreichung des gemeinsamen Zieles zu organisieren. Es muss keine bestimmte Anzahl von Kanälen erstellt werden. Jedes Team sollte Kanäle auf der Grundlage seiner Arbeit, seiner Prioritäten und seiner Anforderungen erstellen.
 
 Verwenden Sie Standardkanäle für Unterhaltungen, zu denen alle Teammitglieder beitragen können. Nutzen Sie die Vorteile von [privaten Kanälen in Teams](private-channels.md), wenn Sie einen fokussierten Platz zur Zusammenarbeit mit einer ausgewählten Mitgliedergruppe benötigen.
 
@@ -64,12 +62,11 @@ Derzeit ist es nicht möglich, den Kanal „Allgemein“ zu löschen, umzubenenn
 
 Wenn Sie mehr erfahren möchten, lesen Sie die Registerkarte "**Arbeiten in Kanälen**" auf der Seite [Teams und Kanäle](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels).
 
-
-
 ## <a name="consider-setting-up-moderation-in-your-channels"></a>Erwägen Sie, in Ihren Kanälen eine Moderation einzurichten.
 
 Teambesitzer können die Moderation für einen Kanal aktivieren, um zu steuern, wer neue Beiträge starten und auf Beiträge in diesem Kanal antworten kann. Beim Einrichten der Moderation können Sie eines oder mehrere Teammitglieder als Moderatoren auswählen. (Team-Besitzer sind standardmäßig Moderatoren.) Weitere Informationen finden Sie unter [Einrichten und Verwalten der Kanalmoderation in Microsoft Teams](manage-channel-moderation-in-teams.md).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Erstellen eines organisationsweiten Teams in Teams](create-an-org-wide-team.md)
+- [Erstellen eines organisationsweiten Teams in Teams](create-an-org-wide-team.md)
+- [Limits und Spezifikationen für Microsoft Teams](limits-specifications-teams.md)
