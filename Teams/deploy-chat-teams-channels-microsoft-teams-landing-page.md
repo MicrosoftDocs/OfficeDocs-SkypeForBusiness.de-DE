@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8259b8a06a4601ff7feebca53c06f268bdc08c5
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 0c6cd94f5d7205b438396dcb09ebb047a49b8f2e
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796018"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170593"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
@@ -97,6 +97,10 @@ Externer Zugriff (vormals als Partnerverbund bezeichnet) ermöglicht Ihren Micro
 ### <a name="guest-access"></a>Gastzugriff
 
 Mithilfe von Gastzugriff in Teams können Einzelbenutzer außerhalb Ihrer Organisation auf Teams und Kanäle zugreifen. Sie können die Einstellungen für den Gastzugriff verwenden, um zu steuern, welche Funktionen Gastbenutzern zur Verfügung stehen. Der Gastzugriff ist standardmäßig deaktiviert. Weitere Informationen finden Sie unter [Gastzugriff in Teams](https://docs.microsoft.com/microsoftteams/guest-access).
+
+> [!NOTE]
+> Weitere Informationen zu externem Zugriff und Gastzugriff finden Sie hier: [Kommunikation mit Benutzern aus anderen Organisationen in Microsoft Teams](communicate-with-users-from-other-organizations.md).
+
 
 |Frage|Aktion |
 |------------|-------|

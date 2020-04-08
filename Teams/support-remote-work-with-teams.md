@@ -16,16 +16,18 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um den Mitarbeitern in Ihrer Organisation zu helfen, mit Microsoft Teams produktiv zu arbeiten, insbesondere wenn sie als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5c359ebf1efd20d9a1db41ddf19f39240826b77
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 96ff59470c8d9726b4c26bf0522e5b1e730b9014
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157778"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170513"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Unterstützung von Remotemitarbeitern in Microsoft Teams
 
 Möchte Ihre Organisation Microsoft Teams einführen, um Remotemitarbeiter und Benutzer zu unterstützen, die von zu Hause aus arbeiten? Verwenden Sie die Anleitungen in diesem Artikel für einen schnellen Einstieg.
+
+Wenn Sie ein kleines oder mittleres Unternehmen sind, lesen Sie unbedingt den Artikel [Empower your small business with remote work](https://aka.ms/remote-business) (Bringen Sie Ihr kleines Unternehmen mit Remotearbeit voran).
 
 ## <a name="it-admin-guidance"></a>Anleitungen für IT-Administratoren
 
