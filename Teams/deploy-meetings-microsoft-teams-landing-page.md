@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11c3844540288bc94da445e4f13ed90b9a524f46
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 7aee2a4a8e17480be9eb99b4504ef6967e6b2bb3
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053648"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190854"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Besprechungen und Konferenzen in Microsoft Teams
 
@@ -31,8 +31,12 @@ Sie haben [Erste Schritte](get-started-with-teams-quick-start.md) abgeschlossen.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE46ZdQ]
 
-*Neu im November 2019*: Sie können nun [den Ratgeber für Teams (Vorschau) als Hilfe beim Rollout von Microsoft Teams verwenden](use-advisor-teams-roll-out.md). Der Ratgeber für Teams (Vorschau) führt Sie durch Ihre Einführung von Teams, einschließlich der Besprechungen und Konferenzen. Er analysiert Ihre Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Besprechungen und Konferenzen in Teams erfolgreich durchführen können.
+Wenn Sie mehr über die Besprechungsumgebung für Ihre Benutzer erfahren möchten, lesen Sie [Besprechungen und Anrufe](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8). 
 
+
+*Neu im April 2020*: Besprechungsorganisatoren können eine Besprechung für alle Besprechungsteilnehmer in Teams beenden, indem Sie in der Besprechung in den Besprechungssteuerelementen auf **Besprechung beenden** klicken.  
+
+*Neu im November 2019*: Sie können nun [den Ratgeber für Teams (Vorschau) als Hilfe beim Rollout von Microsoft Teams verwenden](use-advisor-teams-roll-out.md). Der Ratgeber für Teams (Vorschau) führt Sie durch Ihre Einführung von Teams, einschließlich der Besprechungen und Konferenzen. Er analysiert Ihre Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Besprechungen und Konferenzen in Teams erfolgreich durchführen können.
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>Bereitstellungsentscheidungen für Besprechungen und Konferenzen
 

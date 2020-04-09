@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0358e23f4f549aba6064a78d95f7ce160bb738b0
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: d38c57bd240360ff1f46b57d70dfab2358817a4d
+ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174957"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43190849"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -136,6 +136,8 @@ Nach dem Einrichten des Teams können die Teambesitzer [ die Einstellungen ihres
 ### <a name="collaborative-meetings-for-virtual-classes"></a>Gemeinsame Besprechungen für virtuelle Klassen
 
 [Microsoft Teams-Besprechungen ](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams) unterstützen bis zu 250 gleichzeitige Teilnehmer, und bieten die Möglichkeit zur Verwendung von Audio, Video, [Inhaltsfreigaben](https://support.office.com/article/show-your-screen-during-a-meeting-90c84e5a-b6fe-4ed4-9687-5923d230d3a7), Whiteboards und freigegebenen Notizen. Besprechungen können innerhalb des Teams-Clients für eine [Besprechung innerhalb eines privaten Bereichs oder innerhalb eines Teamkanals](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams) geplant werden, damit alle Teammitglieder darüber informiert werden. Besprechungen können aufgezeichnet und für die Teilnehmer für später gespeichert werden. Diese Aufzeichnungen lassen sich auch [transkribieren, um behandelte Inhalte einfacher zu finden](https://support.office.com/article/Microsoft-Stream-automatically-creates-closed-captions-for-videos-8d6ac353-9ff2-4e2b-bca1-329499455308). Für Besprechungen können Webcams, Mikrofone und Lautsprecher eines Laptops oder eines Mobiltelefons verwendet werden, und Sie können die Premium Audio-/Videoqualität von [Microsoft Teams optimierten Geräte](https://products.office.com/microsoft-teams/across-devices/devices) nutzen.
+
+In Teams können Besprechungsorganisatoren eine Besprechung für alle Teilnehmer beenden. Mit dieser Funktion können Lehrkräfte sicherstellen, dass die Kursteilnehmer nicht unbeaufsichtigt in einer Besprechung verbleiben, nachdem ein Kurs abgeschlossen ist.
 
 ### <a name="districtuniversity-events-or-updates"></a>Schulbezirk-/Universitätsereignisse oder -aktualisierungen
 
