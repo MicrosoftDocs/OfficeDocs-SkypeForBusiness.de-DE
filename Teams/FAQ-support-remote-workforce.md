@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um Ihre Remotemitarbeiter zu unterstützen, produktiv zu sein, wenn sie als Reaktion auf den Ausbruch von Covid-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 336286f2dc107cc4f79bd874789866c352c1e522
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 4df15c379d4232dafaea71114f68877dd7347989
+ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053548"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43096960"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Häufig gestellte Fragen: Unterstützung für Ihre Remotemitarbeiter
 
@@ -36,11 +36,16 @@ Microsoft hat die Kapazität in wichtigen Regionen in Hinblick auf die jüngsten
 > [!NOTE]
 > Wenn Sie M365 bereits eingerichtet haben und mehr über die Maßnahmen von Microsoft wissen möchten, navigieren Sie zum Nachrichtencenter, und lesen Sie den Nachrichtencenterbeitrag **MC205458**.
 
-Verpassen Sie nicht unseren Blogbeitrag vom 5. März 2020 von Jared Spataro, Corporate Vice President für Microsoft 365: [Unsere Verpflichtung gegenüber Kunden während Covid-19](https://www.microsoft.com/de-DE/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/)
+Verpassen Sie nicht unseren Blogbeitrag vom 5. März 2020 von Jared Spataro, Corporate Vice President für Microsoft 365: [Unsere Verpflichtung gegenüber Kunden während COVID-19](https://www.microsoft.com/de-DE/microsoft-365/blog/2020/03/05/our-commitment-to-customers-during-covid-19/).
+
 
 ### <a name="with-the-actions-that-microsoft-is-taking-do-we-anticipate-problems"></a>Greifen wir mit den Aktionen, die Microsoft ergreift, Problemen vor?
 
 Obwohl Microsoft das Bestmögliche tut, um Probleme zu vermeiden, kann eine unerwartete Spitze in einem Bereich aufgrund einer Ausbreitung des Virus vorübergehende Probleme verursachen. Während wir die Kapazität aktiv überwachen und nach Bedarf erweitern, können Sie möglicherweise so lange Auswirkungen spüren, bis wir Kapazitäten in diesen Bereichen hinzuzufügen können. Außerdem gibt es externe Situationen, über die Microsoft keine Kontrolle hat. Wir gehen davon aus, dass ISPs und Netzbetreiber auch proaktive Maßnahmen treffen, aber sie sind möglicherweise in der Lage, die Mehrbelastung wegen mehr Personen, die von zu Hause aus arbeiten, zu bewältigen.Wir arbeiten branchenübergreifend mit einem Fokus auf Netzwerkinfrastruktur. Wenn Sie Bedenken wegen eines Ausfalls haben, informieren Sie sich im Nachrichtencenter über mögliche aktuelle Ausfälle.
+
+### <a name="what-can-admins-do-if-attendees-are-having-trouble-joining-meetings-by-dialing-in-such-as-if-calls-arent-getting-through"></a>Was können Administratoren tun, wenn die Teilnehmer beim Einwählen in Besprechungen Probleme haben, z. B. wenn Anrufe nicht durchkommen?
+
+Während der Dauer des COVID-19-Ausbruchs empfehlen wir, dass Benutzer an Besprechungen teilnehmen, indem Sie auf die Schaltfläche **An Teams-Besprechung teilnehmen** klicken, anstatt sich über die Rufnummern der PSTN-Konferenz einzuwählen oder **Rückruf unter**</strong> zu verwenden. Grund hierfür ist in erster Linie die Überlastung der Telefonie-Infrastrukturen in den von COVID-19 betroffenen Ländern. Wenn Sie Anrufe über das Telefonfestnetz vermeiden, werden Sie wahrscheinlich eine bessere Tonqualität feststellen. 
 
 ### <a name="what-are-the-general-microsoft-guidelines-regarding-network-optimization-for-microsoft-365-some-of-my-users-in-china-are-having-a-bad-experience-what-should-i-do-to-optimize-our-network"></a>Was sind die allgemeinen Microsoft-Richtlinien zur Netzwerkoptimierung für Microsoft 365? Einige meiner Benutzer in China sind negativ betroffen. Wie soll ich vorgehen, um unser Netzwerk zu optimieren?
 

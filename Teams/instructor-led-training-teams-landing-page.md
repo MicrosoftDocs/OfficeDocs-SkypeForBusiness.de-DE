@@ -1,7 +1,7 @@
 ---
 layout: HubPage
 ms.topic: hub-page
-title: Kursleitergeführte Schulung und Videos für Microsoft Teams-Benutzer
+title: Kursleitergeführte Schulung und Videos für Benutzer
 ms.reviewer: dearbeen
 manager: serdars
 description: Registrieren Sie sich für kursleitergeführte Kurse, um alles über Microsoft Teams zu erfahren.
@@ -12,17 +12,19 @@ ms.author: lolaj
 ms.service: msteams
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+ms.custom:
+- ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+- seo-marvel-mar2020
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 - remotework
-ms.openlocfilehash: a77a96e13e43be436bbf50411f47c6a515706aa4
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 43d7c47379c6645ca25da4974e0b08f0e4444faa
+ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053538"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43137125"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -96,6 +98,26 @@ Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubiete
         </a>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/teamschannels"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users/people" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Erkunden von Teams und Kanälen in Teams</h3>
+                        <p>Erfahren Sie, wie Sie Ihre Zusammenarbeit im Rahmen von Projekten und Arbeitsgruppen optimieren können.</p>
+                        <p><i>Zielgruppe: Endbenutzer</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+    <li>
         <a href="https://aka.ms/LearnTeamsApps"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
@@ -156,26 +178,6 @@ Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubiete
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page"target="_blank">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Workshops zur Upgrade-Planung</h3>
-                        <p>Planen und erfolgreiche Umsetzung des Upgrades auf Teams</p>
-                        <p><i>Zielgruppe: IT-Spezialisten, Change Manager für die Einführung</i></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
         <a href="https://microsoftteams.eventbuilder.com/FLWValueWebinar"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
@@ -215,8 +217,29 @@ Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse anzubiete
         </div>
         </a>
     </li>  
+    <li>
+        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Workshops zur Upgrade-Planung</h3>
+                        <p>Planen und erfolgreiche Umsetzung des Upgrades auf Teams</p>
+                        <p><i>Zielgruppe: IT-Spezialisten, Change Manager für die Einführung</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
         </ul>
         </li>
     </ul>
     </div>
 </div> 
+ 
