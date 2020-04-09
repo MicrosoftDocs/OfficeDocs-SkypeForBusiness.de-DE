@@ -16,15 +16,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd01a781cfb5a928e4d14e64d45789b4f023648d
-ms.sourcegitcommit: 3ddb28e085a89501e4e64687de4697f82f47f119
+ms.openlocfilehash: 6b6f0b27c80baf62d85d3791982965a26f4353f9
+ms.sourcegitcommit: 273d7565ad350bf97dbf035f148fd48b1cb04d4f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43027675"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43194845"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen
 ==============================================
+
+## <a name="resources-for-remote-learning"></a>Ressourcen für Remote-lernen
+
+Muss Ihre Schule oder Universität Microsoft Teams für das Remote-Lernen aktivieren? Mit den ersten [Schritten mit einem Pager](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true) und einem der folgenden Adoptions Materialien können Sie schnell in Betrieb gehen!
 
 ## <a name="adoption-content"></a>Inhalte zur Einführung
 
