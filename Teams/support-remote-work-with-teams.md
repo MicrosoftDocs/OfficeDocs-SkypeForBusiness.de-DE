@@ -27,7 +27,7 @@ ms.locfileid: "43170513"
 
 Möchte Ihre Organisation Microsoft Teams einführen, um Remotemitarbeiter und Benutzer zu unterstützen, die von zu Hause aus arbeiten? Verwenden Sie die Anleitungen in diesem Artikel für einen schnellen Einstieg.
 
-Wenn Sie ein kleines oder mittleres Unternehmen sind, lesen Sie unbedingt den Artikel [Empower your small business with remote work](https://aka.ms/remote-business) (Bringen Sie Ihr kleines Unternehmen mit Remotearbeit voran).
+Wenn Sie ein kleines oder mittleres Unternehmen sind, lesen Sie den Artikel [Remote-Arbeit kann auch Ihrem Kleinunternehmen weiterhelfen](https://aka.ms/remote-business).
 
 ## <a name="it-admin-guidance"></a>Anleitungen für IT-Administratoren
 

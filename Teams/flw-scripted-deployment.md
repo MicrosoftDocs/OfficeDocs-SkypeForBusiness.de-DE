@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: caecd0d97e760470604fa164e6356a59699e57ad
-ms.sourcegitcommit: bc1d2e0478a429f981b53765e6194443b32ae35c
+ms.openlocfilehash: 2496656437ddcd7035b9913781c5ebc08b26582e
+ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43122919"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207064"
 ---
 # <a name="how-to-provision-teams-at-scale-for-firstline-workers"></a>Bereitstellen von Microsoft Teams im großen Maßstab für Mitarbeiter in Service und Produktion
 
@@ -38,6 +38,9 @@ Dabei lernen Sie Folgendes:
 - Anwenden dieser Richtlinien auf Benutzer im großen Maßstab.
 - Eine große Anzahl von Benutzern einem bestimmten Team zuweisen
 
+> [!NOTE]
+> Wenn Sie diese Informationen gelesen haben und das Gefühl haben, dass Sie Hilfe benötigen oder Fragen haben, [**klicken Sie hier**](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMDv-1voW9MqL7zkQ11DzBUREZaU1E0WEk5T0NYS0NDSkFMSDROUUdYMC4u), um zum White Glove-Support zu gelangen.
+
 ## <a name="prerequisites"></a>Voraussetzungen
 
 Laden Sie die Objekte von [hier](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/FLWTeamsScale.zip?raw=true) herunter.
@@ -47,7 +50,7 @@ Laden Sie die Objekte von [hier](https://github.com/MicrosoftDocs/OfficeDocs-Sky
 
 ## <a name="technical-requirements"></a>Technische Anforderungen
 
-- Ihr Mandant muss über die entsprechende Anzahl von Lizenzen verfügen, die Microsoft Teams umfassen. Sollten Sie noch nicht über diese Lizenzen verfügen, folgen Sie den Anweisungen, um die [﻿kostenlose Testversion von Office 365 E1](e1-trial-license.md) zu aktivieren.
+- Ihr Mandant muss über die entsprechende Anzahl von Lizenzen verfügen, die Microsoft Teams umfassen. Sollten Sie noch nicht über diese Lizenzen verfügen, folgen Sie den Anweisungen, um die [kostenlose Testversion von Office 365 E1](e1-trial-license.md) zu aktivieren.
 - Der Benutzer, der diese Schritte ausführt, muss dies in der Rolle eines globalen Administrators oder eines Benutzeradministrators in Azure AD tun.
 - Der Benutzer muss über die Berechtigung zum Installieren und Konfigurieren von Software auf dem lokalen Computer verfügen.
 

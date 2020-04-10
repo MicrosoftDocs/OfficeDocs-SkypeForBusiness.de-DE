@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0fd871f36c2261dd5ec243dbd8dbdd52a3a8e694
-ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
+ms.openlocfilehash: 3d7b2dec3b4077ddfb06035a2d7069b04c789db1
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/13/2020
-ms.locfileid: "41962084"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209447"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -121,8 +121,6 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 |Wiederkehrend ohne Endzeitpunkt     |Startzeitpunkt + 60 Tage         |60 Tage         |
 |Wiederkehrend mit Endzeitpunkt     |Endzeitpunkt des letzten Vorkommens + 60 Tage         |60 Tage         |
 
-
-
 ## <a name="teams-live-events"></a>Teams-Liveereignisse
 
 |Funktion     | Obergrenze |
@@ -156,6 +154,15 @@ Da Teams in einem SharePoint Online-Backend für die Dateifreigabe ausgeführt w
 Kanäle werden durch Ordner innerhalb der SharePoint Online-Websitesammlung, die für das Team erstellt wurde, gesichert. Deshalb teilen sich Dateiregisterkarten in Kanälen die Speicherlimits des Teams, zu dem sie gehören.
 
 Weitere Informationen finden Sie unter [SharePoint Online-Beschränkungen](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
+
+## <a name="tags"></a>Tags
+
+|Feature  |Obergrenze  |
+|---------|---------|
+|Anzahl der Tags pro Team    | 100        |
+|Anzahl der vorgeschlagenen Standardtags pro Team    | 25        |
+|Anzahl der Teammitglieder, die einem Tag zugeordnet werden    |100         |
+|Die Anzahl der Tags, die einem Benutzer zugewiesen werden.    |25         |
 
 ## <a name="contacts"></a>Kontakte
 
