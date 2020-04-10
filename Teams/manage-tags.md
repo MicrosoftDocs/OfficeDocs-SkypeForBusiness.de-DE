@@ -16,19 +16,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Verwendung von Tags in Microsoft Teams in Ihrer Organisation verwalten können.
-ms.openlocfilehash: 5fbfa980f1cf6acd8ce32af810bf2527ece3d1fa
-ms.sourcegitcommit: 0549714f17f9994cf832a303ec9bc58a537c3a51
+ms.openlocfilehash: 6b95dc07954803ea6d15a1ca5bdf6c705ca3e252
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951550"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209487"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>Verwalten von Tags in Microsoft Teams
 
 Mithilfe von Tags in Microsoft Teams können Benutzer mit einer Teilmenge von Personen in einem Team kommunizieren. Tags können einem oder mehreren Teammitgliedern hinzugefügt werden, um auf einfache Weise mit einer bestimmten Gruppe von Personen in Kontakt zu treten. Teambesitzer und -mitglieder können einer Person ein oder mehrere Tags hinzufügen (wenn das Feature für sie aktiviert ist). Die Tags können dann von jedem Teammitglied in @Erwähnungen in Kanalbeiträgen verwendet werden, oder um eine Unterhaltung nur mit den Personen zu starten, denen das entsprechende Tag zugewiesen ist.
 
 > [!NOTE]
-> Tags werden in privaten Kanälen noch nicht unterstützt. Tags sind in der US Government Community Cloud (gcc), gcc-höchst-oder Department of Defense (DoD)-Organisationen noch nicht verfügbar. 
+> Tags werden in privaten Kanälen noch nicht unterstützt. Tags sind in der US Government Community Cloud (gcc), gcc-höchst-oder Department of Defense (DoD)-Organisationen noch nicht verfügbar.
 
 ## <a name="how-tags-work"></a>Funktionsweise von Tags
 
@@ -37,7 +37,7 @@ Ein Tag kann einer Person in einem bestimmten Team hinzugefügt werden. Nachdem 
 - Ein Verkaufsleiter möchte eine Ankündigung in einem Kanal posten und alle Kassierer benachrichtigen.
 - Ein Produktmanager möchte Nachrichten an alle Produktmanager in einem Kanal senden.
 - Ein Krankenhausleiter möchte allen Radiologen in einem Kanal eine Nachricht senden.
-- Ein Marketingmanager möchte einen Gruppenchat mit allen Designern beginnen. 
+- Ein Marketingmanager möchte einen Gruppenchat mit allen Designern beginnen.
 
 Wenn Sie mehr erfahren möchten, lesen Sie [Verwenden von Tags in Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e).
 
@@ -46,6 +46,8 @@ Wenn Sie mehr erfahren möchten, lesen Sie [Verwenden von Tags in Teams](https:/
 Als Administrator können Sie im Microsoft Teams Admin Center steuern, wer Tags hinzufügen kann und wie Tags in Ihrer Organisation verwendet werden.
 
 ![Screenshot der Einstellungen für das Tagging im Microsoft Teams Admin Center](media/manage-tags-admin-settings.png)
+
+Ein Team kann bis zu 100-Tags haben, bis zu 100 Teammitglieder können einem Tag zugewiesen werden, und einem einzelnen Benutzer können bis zu 25 Tags zugewiesen werden. 
 
 ### <a name="set-who-can-add-tags"></a>Festlegen, wer Tags hinzufügen kann
 

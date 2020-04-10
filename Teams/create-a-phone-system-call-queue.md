@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: Hier erfahren Sie, wie Sie das Telefon System für Cloud-Anrufwarteschlangen mit Microsoft Teams einrichten.
-ms.openlocfilehash: 2027658c5335f19c00ea1c8e44c6d38e1f16a730
-ms.sourcegitcommit: 9a448104a76857e3aa464c53cec577d813f8f414
+ms.openlocfilehash: e6ff659790159595c86a2aa442bcb20bcff9659a
+ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43184246"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43213646"
 ---
 # <a name="create-a-cloud-call-queue"></a>Erstellen einer Cloudanrufwarteschleife
 
@@ -204,7 +204,7 @@ Sie können das anwesenheitsbasierte Anrufrouting mit einer der Routingmethoden 
 
 Wenn sich ein Agent für das Abrufen von Anrufen entscheidet, wird er nicht in die Anruf Weiterleitungsliste aufgenommen, unabhängig davon, auf welchen Verfügbarkeitsstatus er festgesetzt ist.
 
-> [!CAUTION]
+> [!IMPORTANT]
 > Agents, die den Skype for Business-Client verwenden, sind nicht in der Anruf Weiterleitungsliste enthalten, wenn das anwesenheitsbasierte Routing unabhängig von deren Verfügbarkeitsstatus aktiviert ist. Agenten, die nicht in der Anruf Weiterleitungsliste sind, erhalten keine Anrufe. Wenn Sie über Agenten verfügen, die Skype for Business verwenden, aktivieren Sie das anwesenheitsbasierte Anrufrouting nicht.
 
 ### <a name="select-an-agent-opt-out-option"></a>Auswählen einer Option für den Agenten Ausstieg
