@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f0223d3a29c704b5ab55d2183fd6587c845b351c
-ms.sourcegitcommit: 273d7565ad350bf97dbf035f148fd48b1cb04d4f
+ms.openlocfilehash: faeca9f05e13b9f5e7960340f280dc4bd6c7ee61
+ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43194855"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207054"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -73,6 +73,8 @@ Schüler/Studenten und Lehrkräfte können Teams optimal nutzen, wenn Hinderniss
 
 Kunden aus dem Hochschulbereich profitieren von den Vorteilen, wenn Sie allen Benutzern, einschließlich Schülern/Studenten, das Erstellen von Teams für Kurse, Recherchen, Gruppenprojekte und Lerngruppen ermöglichen. Grundschulen und weiterführende Schulen möchten das Erstellen von Teams durch Schüler möglicherweise einschränken, um sicherzustellen, dass die gesamte Schülerkommunikationen in einem Forum stattfinden, an dem mindestens ein Erwachsener teilnimmt. In diesem Fall kann die Erstellung von Office 365-Gruppen und -Teams auf alle Lehrkräfte und Mitarbeiter beschränkt werden.
 
+Eine exemplarische Vorgehensweise zum Erstellen von Teams finden Sie hier: [Erstellen eines Kursteams in Microsoft Teams](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b).
+
 ### <a name="2-configure-user-experiences-using-policies"></a>2. Benutzeroberflächen mithilfe von Richtlinien konfigurieren
 
 [Teams-Richtlinien](teams-policies.md) bieten die Möglichkeit, die für bestimmte Benutzer oder Benutzergruppen verfügbaren Optionen zu steuern. Richtlinien können angewendet werden, um zu definieren, wer private Chats, private Anrufe, Besprechungsplanung, Inhaltstypen, die geteilt werden können, und vieles mehr verwenden darf.
@@ -102,6 +104,10 @@ Nachfolgend finden Sie eine Reihe allgemeiner nicht standardmäßiger Richtlinie
 - Planung von Kanalbesprechungen zulassen auf "Aus" festgelegt
 - "Planung privater Besprechungen zulassen" auf "Aus" festgelegt
 - "Jetzt besprechen" auf "Aus" festgelegt
+- Optional: zulassen, dass IP-Video eingeschaltet ist
+
+> [!NOTE]
+> Auf diese Weise können Lehrkräfte die Videos ihrer Schüler in Echtzeit einsehen.
 
 #### <a name="live-events-policy"></a>Richtlinie für Liveereignisse
 
@@ -150,6 +156,8 @@ Weitere Informationen zur Verwendung von Teams für Bildungseinrichtungen finden
 
 > [!NOTE]
 > Einige der wichtigsten Features von Microsoft Teams sind nicht ausschließlich für Bildungseinrichtungen bestimmt. Tipps und Tricks für die wichtigsten Teams-Funktionen finden Sie unter [Hilfe und Schulung zu Microsoft Teams](https://support.office.com/teams).
+
+Wenn Sie mehr darüber erfahren möchten, wie Schüler während Besprechungen geschützt werden können, lesen Sie [Schutz von Schülern bei der Verwendung von Teams-Meetings für Fernunterricht](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
 
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>So hindern Sie Benutzer am Ändern ihres Profilbilds
 
