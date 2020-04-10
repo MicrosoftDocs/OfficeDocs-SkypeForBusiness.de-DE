@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37f01b5de9fc5ffd56d703c73e60c3ed55f50b6d
-ms.sourcegitcommit: c70778ea3a29834f62e6ef96053b5540803acc6a
+ms.openlocfilehash: d2aded83cf92a98aaaa1b01fdedab695013dac8e
+ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153291"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43174967"
 ---
 > [!IMPORTANT]
 > Das Teams-Dienstmodell kann geändert werden, um die Kundenzufriedenheit zu verbessern. So können beispielsweise die standardmäßigen Ablaufzeiten des Zugriffs- oder Aktualisierungstokens geändert werden, um die Leistung und die Authentifizierungssicherheit für Benutzer von Teams zu verbessern. Solche Änderungen würden vorgenommen, um die Sicherheit und Vertrauenswürdigkeit von Teams zu gewährleisten.
@@ -63,7 +63,7 @@ Teams mildert diese Angriffe, indem es den Azure DDOS-Netzwerkschutz ausführt u
 
 Abhöraktionen sind Aktionen, bei denen sich Angreifer Zugriff auf den Datenpfad in einem Netzwerk verschaffen und anschließend den Datenverkehr überwachen und lesen können. Dies wird auch als „Schnüffeln“ (auch „Lauschangriff“, englisch Sniffing oder Snooping) bezeichnet. Wenn der Datenverkehr aus reinem Text besteht, können Angreifer ihn lesen, sobald sie Zugriff auf den Pfad haben. Ein Beispiel wäre ein Angriff, bei dem ein Router auf dem Datenpfad kontrolliert wird.
 
-Teams verwendet gegenseitiges TLS (MTLS) für die Serverkommunikation innerhalb von O365 und TLS von den Clients zum Dienst, wodurch dieser Angriff innerhalb der Zeitspanne, in der eine bestimmte Konversation angegriffen werden könnte, sehr schwierig bis unmöglich wird. Mit TLS werden alle Parteien authentifiziert und der gesamte Datenverkehr wird verschlüsselt. Damit können Abhöraktionen nicht verhindert werden, aber Angreifer können den Datenverkehr nicht lesen, es sei denn, die Verschlüsselung geht verloren. OAuth-Abschnitt/-Zeilen hinzufügen.
+Teams verwendet gegenseitiges TLS (MTLS) für die Serverkommunikation innerhalb von O365 und TLS von den Clients zum Dienst, wodurch dieser Angriff innerhalb der Zeitspanne, in der eine bestimmte Konversation angegriffen werden könnte, sehr schwierig bis unmöglich wird. Mit TLS werden alle Parteien authentifiziert und der gesamte Datenverkehr wird verschlüsselt. Damit können Abhöraktionen nicht verhindert werden, aber Angreifer können den Datenverkehr nicht lesen, es sei denn, die Verschlüsselung geht verloren.
 
 Das TURN-Protokoll wird für Echtzeit-Medienzwecke verwendet. Das TURN-Protokoll schreibt keine Verschlüsselung des Datenverkehrs vor, und die von ihm gesendeten Informationen sind durch die Nachrichtenintegrität geschützt. Obwohl es für Lauschangriffe offen ist, können die von ihm gesendeten Informationen (d. h. IP-Adressen und Port) direkt extrahiert werden, indem man einfach die Quell- und Zieladressen der Pakete betrachtet. Der Teams-Service stellt sicher, dass die Daten gültig sind, indem er die Nachrichtenntegrität der Nachricht anhand des Schlüssels überprüft, der aus einigen wenigen Elementen einschließlich eines TURN-Kennworts abgeleitet wurde, das niemals im Klartext gesendet wird. SRTP wird für den Medienverkehr verwendet und ist ebenfalls verschlüsselt.
 
@@ -125,6 +125,9 @@ Mit TLS können Nutzer über ihre Client-Software die Teams-Server authentifizie
 Server-zu-Server-Verbindungen basieren auf gegenseitigem TLS (MTLS) zur gegenseitigen Authentifizierung. Bei einer MTLS-Verbindung tauschen der Server, von dem eine Nachricht stammt, und der Server, der diese empfängt, Zertifikate von einer beiderseits vertrauenswürdigen Zertifizierungsstelle aus. Die Zertifikate beweisen jedem Server die Identität des anderen. Im Teams-Dienst wird diese Prozedur befolgt.
 
 TLS und MTLS tragen dazu bei, Abhörvorgänge und Man-in-Middle-Angriffe zu vermeiden. Ein Man-in-the-Middle-Angriff leitet die Kommunikation zwischen zwei Netzwerkeinheiten ohne Wissen einer der beiden Parteien über den Computer des Angreifers um. Die TLS- und Teams-Spezifikation vertrauenswürdiger Server entschärft das Risiko eines Man-in-the-Middle-Angriffs auf Anwendungsebene teilweise durch die Verwendung von Verschlüsselung, die mit der Kryptografie mit öffentlichem Schlüssel zwischen den beiden Endpunkten koordiniert wird. Ein Angreifer müsste über ein gültiges und vertrauenswürdiges Zertifikat mit dem entsprechenden privaten Schlüssel verfügen, das auf den Namen des Dienstes ausgestellt ist, mit dem der Client kommuniziert, um die Kommunikation zu entschlüsseln.
+
+> [!NOTE]
+> Die Teams-Daten werden bei der Übertragung und im Ruhezustand verschlüsselt. Microsoft verwendet Standardtechnologien wie TLS und SRTP, um alle Daten während der Übertragung zwischen den Geräten der Benutzer und den Microsoft-Rechenzentren sowie zwischen Microsoft-Rechenzentren zu verschlüsseln. Dies umfasst Nachrichten, Dateien, Besprechungen und andere Inhalte. Ruhende Unternehmensdaten in Microsoft-Rechenzentren werden zudem auf eine Weise verschlüsselt, die es Organisationen ermöglicht, Inhalte bei Bedarf zu entschlüsseln, um ihre Sicherheits- und Complianceanforderungen zu erfüllen, z. B. mit eDiscovery.
 
 ### <a name="encryption-for-teams"></a>Verwenden von Datenverschlüsselung
 

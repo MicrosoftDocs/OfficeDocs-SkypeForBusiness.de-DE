@@ -17,16 +17,16 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ec86d9f57afca71624263d1cbd6ca212b8093dd
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 65ce8eb17efe434f5da288b89485e813b21190e4
+ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157976"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170484"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Schnellstart für Administratoren – Besprechungen und Liveereignisse in Microsoft Teams
 
-In Microsoft Teams gibt es zwei Möglichkeiten sich zu treffen: Besprechungen und Liveereignisse. Verwenden Sie diesen Artikel, um Besprechungen und Liveereignisse für Ihre Organisation schnell einzurichten und zu konfigurieren. 
+In Microsoft Teams gibt es zwei Möglichkeiten, sich zu treffen: Besprechungen und Liveereignisse. Verwenden Sie diesen Artikel, um Besprechungen und Liveereignisse für Ihre Organisation schnell einzurichten und zu konfigurieren. 
 
  - **Besprechungen** in Teams umfassen Audio-, Video- und Bildschirmfreigabe für bis zu 250 Personen. Besprechungen sind einige der wichtigsten Methoden zur Zusammenarbeit in Teams. Und Sie müssen kein Mitglied einer Organisation sein (oder gar über ein Teams-Konto verfügen), um an einer Teams-Besprechung teilzunehmen. In der Besprechungseinladung finden Sie einfache Anweisungen zur Teilnahme. 
 
@@ -34,11 +34,11 @@ In Microsoft Teams gibt es zwei Möglichkeiten sich zu treffen: Besprechungen un
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Lizenzen für Besprechungen und Liveereignisse abrufen
 
-Jeder kann kostenlos an einer Teams-Besprechung oder einem Liveereignis teilnehmen – es ist keine Lizenz erforderlich. Um an einer Teams-Besprechung oder einem Liveereignis teilzunehmen, braucht der Teilnehmern nur in Teams oder in der Besprechungseinladung auf die Schaltfläche **Teilnehmen** zu klicken. Die Audioübertragung ist Teil einer Teams-Besprechung, aber wenn Sie möchten, dass sich die Teilnehmer per Telefon in eine Besprechung einwählen können, müssen Sie eine Einwahlnummer angeben. 
+Jeder kann kostenlos an einer Teams-Besprechung oder einem Liveereignis teilnehmen – es ist keine Lizenz erforderlich. Um an einer Teams-Besprechung oder einem Liveereignis teilzunehmen, müssen Teilnehmer nur in Teams oder in der Besprechungseinladung auf die Schaltfläche **Teilnehmen** klicken. Die Audioübertragung ist Teil einer Teams-Besprechung, aber wenn Sie möchten, dass sich die Teilnehmer per Telefon in eine Besprechung einwählen können, müssen Sie eine Einwahlnummer angeben. 
 
 Personen, die Besprechungen oder Liveereignisse organisieren, planen und hosten, benötigen eine der Microsoft 365- oder Office 365-Lizenzen, die in der nachstehenden Tabelle aufgeführt sind. Wenn Sie bereits Teams verwenden, verfügen Sie wahrscheinlich über die Lizenz, die Sie zum Organisieren und Hosten von Besprechungen und Liveereignissen benötigen. 
 
-:::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Tabelle mit erforderlichen Lizenzen für Team-Besprechungen oder Liveereignisse":::
+:::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Tabelle mit erforderlichen Lizenzen für Teams-Besprechungen oder Liveereignisse":::
 
 > <sup>1</sup> Besprechungsorganisatoren benötigen eine [Lizenz für das Audiokonferenz-Add-On](teams-add-on-licensing/microsoft-teams-add-on-licensing.md), um eine Einladung zu versenden, die Einwahlkonferenzen umfasst.
 >
@@ -55,6 +55,8 @@ Wenn Sie Ihr Netzwerk bereits beim Rollout von Microsoft 365 oder Office 365 vor
 
 - Als Administrator konfigurieren Sie [Besprechungseinstellungen](meeting-settings-in-teams.md) für alle Benutzer. Anschließend verwenden Sie [Besprechungsrichtlinien](meeting-policies-in-teams.md), um zu steuern, welche Besprechungsfeatures für Ihre Benutzer zur Verfügung stehen (und welche nicht). 
 
+- Um mehr über die Verwaltung der Sitzungsaufzeichnung zu erfahren, lesen Sie [Teams-Cloudsitzungsaufzeichnung](cloud-recording.md).
+
 - Sollten Ihre Benutzer Teams-Besprechungen noch nicht kennen, teilen Sie die Schulung [Besprechungen verwalten](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4) mit ihnen. Schauen Sie sich unsere kursleitergeführte Onlineschulung [Mit Teams effektive Besprechungen durchführen](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings) an.
 
 - Informationen zum Verwalten von Besprechungsoptionen finden Sie unter [Ändern der Teilnehmereinstellungen für eine Teams-Besprechung](https://support.microsoft.com/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
@@ -67,7 +69,7 @@ Wenn Sie Ihr Netzwerk bereits beim Rollout von Microsoft 365 oder Office 365 vor
 
 - Sorgen Sie dafür, dass die Produzenten und Organisatoren von Liveereignissen entsprechend geschult sind. Verweisen Sie sie auf [Erste Schritte mit Liveereignissen](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a).
 
-- Sollten Sie Liveereignisse noch nicht kennen, sehen Sie sich [Was sind Team-Liveereignisse?](teams-live-events/what-are-teams-live-events.md) und [Planen von Teams-Liveereignissen](teams-live-events/plan-for-teams-live-events.md) an.
+- Sollten Sie Liveereignisse noch nicht kennen, sehen Sie sich [Was sind Teams-Liveereignisse?](teams-live-events/what-are-teams-live-events.md) und [Planen von Teams-Liveereignissen](teams-live-events/plan-for-teams-live-events.md) an.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -77,4 +79,6 @@ Wenn Sie Ihr Netzwerk bereits beim Rollout von Microsoft 365 oder Office 365 vor
 
 [Liveereignisse in Teams](teams-live-events/what-are-teams-live-events.md)
 
-[Grenzwerte und -Daten für Teams](limits-specifications-teams.md)
+[Grenzwerte und Daten für Teams](limits-specifications-teams.md)
+
+[Microsoft Technical Community: Liveereignisse in Microsoft 365](https://resources.techcommunity.microsoft.com/live-events/)

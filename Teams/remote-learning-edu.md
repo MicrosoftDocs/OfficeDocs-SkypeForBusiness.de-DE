@@ -18,18 +18,19 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d38c57bd240360ff1f46b57d70dfab2358817a4d
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+ms.openlocfilehash: f0223d3a29c704b5ab55d2183fd6587c845b351c
+ms.sourcegitcommit: 273d7565ad350bf97dbf035f148fd48b1cb04d4f
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190849"
+ms.locfileid: "43194855"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
 > [!NOTE]
 > Dieser Artikel ist eine großartige Ressource, um Ihre Bildungseinrichtung für den Fernunterricht einzurichten. Für Pädagogen, Schulleiter oder IT-Experten können diese Ressourcen hilfreich sein:
 >
+> - Stellen Sie Ihre gesamte Schule oder Universität schnell auf Teams um mit dieser [**einseitigen Anleitung für die ersten Schritte**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true).
 > - Laden Sie [**Erste Schritte mit Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true) herunter: Ein Leitfaden für IT-Experten mit hilfreichen Verfahren für Sicherheit und Änderungsmanagement.
 > - Eine Sammlung von Artikeln, die für Lehrkräfte verfasst wurden, einschließlich Anleitungen für die wichtigsten [**ersten Schritte für den Unterricht mit Teams**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114).
 > - Ein einstündiger Onlinekurs im Microsoft Educator Center zeigt, wie Lehrkräfte Microsoft Teams in ihrem Beruf einsetzen. [**Transform Learning with Microsoft Teams**](https://education.microsoft.com/course/9c9f5c11/overview) (Verändern des Lernens mit Microsoft Teams).
