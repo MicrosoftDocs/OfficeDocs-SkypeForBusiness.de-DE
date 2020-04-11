@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie mit dem Portierungs-Assistenten Ihre Telefonnummer von Ihrem aktuellen Dienstanbieter an Microsoft Teams übertragen können.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 07368b6dfd05567eac4eac66614560b6ecc9d2b4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a13e08a569c34f8182997bb438e997d8caee2ae7
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137865"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227529"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Übertragen von Telefonnummern an Microsoft Teams
 
@@ -39,7 +39,7 @@ Bevor Sie beginnen, empfehlen wir Ihnen, die Informationen in [einem Port Auftra
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Erstellen eines Portierungs Auftrags und übertragen von Telefonnummern in Teams
 
 > [!NOTE]
-> **Derzeit können Sie mit diesem Assistententelefon Nummern für Großbritannien und Kanada abrufen**. Wenn Sie Telefonnummern für andere Länder und Regionen erhalten möchten, können Sie [einen Portierungs Auftrag manuell übermitteln](manually-submit-port-order.md). Wenn Sie das Formular abrufen möchten, das Sie manuell übermitteln müssen, wählen Sie in der Dropdownliste unter [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)Ihr Land oder Ihre Region aus.
+> **Derzeit können Sie mit diesem Assistententelefon Nummern für das Vereinigte Königreich, die Vereinigten Staaten und Kanada abrufen**. Wenn Sie Telefonnummern für andere Länder und Regionen erhalten möchten, können Sie [einen Portierungs Auftrag manuell übermitteln](manually-submit-port-order.md). Wenn Sie das Formular abrufen möchten, das Sie manuell übermitteln müssen, wählen Sie in der Dropdownliste unter [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)Ihr Land oder Ihre Region aus.
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP** > -**Telefonnummern**. Klicken Sie auf **Zahlen**, und klicken Sie dann auf **Port** , um den Porting-Assistenten zu starten.
 2. Überprüfen Sie die Informationen auf der Seite " **Erste Schritte** ", und klicken Sie dann auf **weiter**, wenn Sie fertig sind.

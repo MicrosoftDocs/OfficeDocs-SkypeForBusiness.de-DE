@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räumen erläutert.
-ms.openlocfilehash: 7a411c8a94379c71226c4c5e593968a8ba65eb53
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: a79f9c4087be638de5c978eda2a8cf1d12fc1ed4
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157768"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227519"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -69,7 +69,6 @@ In diesem Update eingeführt:
 - Unterstützung für dynamische Notrufe für Teams (erforderliche und freigegebene Service Komponenten über Teams-Client klingelt)
 - Möglichkeit zum Deaktivieren von doppelten Inhalten außerhalb der Besprechung für duale Anzeige Räume mithilfe von XML
 - Begrüßungsbildschirm der Anwendung
-- Einstellung für die automatische Antwort zur Verbesserung der Näherungs basierter Besprechungsteilnahme 
 - Hinweise zu Open-Source-Software (OSS) in den Geräteeinstellungen
 - Fix für PSOM-Konnektivität, wenn TLS 1,0 und TLS 1,1 in Skype for Business Server 2015/2019 deaktiviert sind.
 

@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66ef35a8a8235507e4d87a7b9c4da7625a939770
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: f45c83e765bcc10d81ff9cab6fb70b8c7d027ad0
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207004"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227409"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sicherheit und Compliance in Microsoft Teams
 
@@ -66,7 +66,11 @@ Wie der betroffene Inhalt nach der Erkennung verwaltet wird, entspricht den Eins
 
 ### <a name="safe-links"></a>Sichere Links
 
-Obwohl ATP-sichere Links in Microsoft Teams zurzeit nicht zur Verfügung stehen, befinden Sie sich jetzt in der öffentlichen Vorschau über unser Technologie Adoptionsprogramm (Tap), und während ein Veröffentlichungsdatum für die allgemeine Verfügbarkeit nicht festgesetzt wird, werden wir diesen Artikel aktualisieren, wenn dieser Zeitpunkt eintrifft. In der Zwischenzeit finden Sie Informationen zu sicheren Links zu Office 365 unter [Office 365 ATP-sichere Links](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection).
+Während derzeit in Microsoft Teams keine sicheren Links für Advanced Threat Protection (ATP) verfügbar sind, befinden Sie sich jetzt in der [öffentlichen Vorschau](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links-for-teams?view=o365-worldwide) über unser Technologie Adoptionsprogramm (Tap), und während ein Veröffentlichungsdatum für die allgemeine Verfügbarkeit nicht festgesetzt wird, werden wir diesen Artikel aktualisieren, wenn dieser Zeitpunkt eintrifft. In der Zwischenzeit finden Sie Informationen zu sicheren Links zu Office 365 unter [Office 365 ATP-sichere Links](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection). ATP-sichere Links sind sowohl in [ATP Plan 1 als auch in ATP Plan 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide)verfügbar.
+
+### <a name="safe-attachments"></a>Sichere Anlagen
+
+Sichere Anlagen ist ein Feature, das zur Verbesserung der Benutzersicherheit dient, indem schädliche Anlagen überprüft und erkannt werden. Global-oder Sicherheitsadministratoren erstellen [Richtlinien](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide) für die Behandlung dieser mutmaßlichen schädlichen Anlagen, um zu verhindern, dass Sie an Benutzer gesendet, geklickt und gehandelt werden. Der sichere Anlagenschutz steht für SharePoint Online, OneDrive for Business und Microsoft Teams zur Verfügung, und sowohl Office 365 [Advanced Threat Protection Plan 1 und 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) verfügen über diese Funktion. Lesen Sie mehr über sichere Anlagen und wie Sie [hier](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)helfen können, Ihre Organisation zu schützen.
 
 ### <a name="how-conditional-access-policies-work-for-teams"></a>Funktionsweise von bedingten Zugriffsrichtlinien für Teams
 

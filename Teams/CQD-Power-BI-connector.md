@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
-ms.openlocfilehash: 73f19ef893aebbbd2c6ab9b79946097d6a834c36
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: ad76c2f4378a1f639abf98d115e4700fae7796c5
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106692"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227549"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
 
@@ -75,7 +75,8 @@ Nachdem die Einrichtung abgeschlossen ist, sollten Sie die Namen von mehreren hu
 
     ![Screenshot: Power BI-Connector](media/CQD-power-bi-connector4.png)
 
-**Wichtiger Hinweis:** Das Dashboard für die Anrufqualität erfordert ein Maß für die Ausführung einer Abfrage. Fehler beim Hinzufügen eines Measures zu einer Abfrage führen dazu, dass die Abfrage fehlschlägt.
+    > [!IMPORTANT] 
+    > Das Dashboard für die Anrufqualität erfordert ein Maß für die Ausführung einer Abfrage. Fehler beim Hinzufügen eines Measures zu einer Abfrage führen dazu, dass die Abfrage fehlschlägt.
 
 3.  Wählen Sie als nächstes alle Dimensionen aus, nach denen Sie filtern möchten, und ziehen Sie Sie in das Feld *Filter für dieses visuelle* Element im Bereich *Filter* . Der CQD Power BI-Connector unterstützt derzeit die *grundlegende Filterung* (Auswählen von Werten aus einer Liste möglicher Dimensionswerte), *Erweiterte Filterung* (Manuelles angeben von Werten und Operanden zum Filtern auf, ähnlich wie bei erweiterten CQD) und *relative Datumsfilterung* (nur verfügbar für die Dimensionen *Endzeit* und *Anfangszeit* ). Das Filtern nach *Top N* wird von CQD nicht unterstützt.
 
@@ -83,7 +84,8 @@ Nachdem die Einrichtung abgeschlossen ist, sollten Sie die Namen von mehreren hu
 
 4.  Wählen Sie schließlich im Bereich *Visualisierungen* die Registerkarte *Format* aus, um Ihre Abfrage zu formatieren und zu formatieren.
 
-**Hinweis:** Für CQD-Abfragen ist mindestens ein Measure erforderlich, damit Sie ausgeführt werden können. Wenn Ihre Abfrage nicht geladen wird, überprüfen Sie, ob Sie ein Measure in die Abfrage aufgenommen haben.
+    > [!NOTE]
+    > Für CQD-Abfragen ist mindestens ein Measure erforderlich, damit Sie ausgeführt werden können. Wenn Ihre Abfrage nicht geladen wird, überprüfen Sie, ob Sie ein Measure in die Abfrage aufgenommen haben.
 
 ## <a name="creating-a-drillthrough-report"></a>Erstellen eines Drillthrough-Berichts
 
@@ -100,6 +102,10 @@ Mit [Drillthrough in Power BI](https://docs.microsoft.com/power-bi/desktop-drill
     ![Screenshot: Power BI-Connector](media/CQD-power-bi-connector7.png)
 
 Im Gegensatz zu erweiterten CQD unterstützt Power BI nicht sequenziellen Drillthrough. Solange eine Abfrage die erforderliche Dimension enthält, kann Sie Drillthrough zu jeder anderen Seite vornehmen.
+
+### <a name="best-practice"></a>Bewährte Methode
+
+Connector-Abfragen für die Anrufqualität sollten im Hinblick auf Drillthroughfunktionen entworfen werden. Anstatt zu versuchen, alle Daten gleichzeitig zu laden und dann mit Filtern zu verkleinern, beginnen Sie mit breiteren Abfragen mit niedriger Kardinalität, und führen Sie einen Drilldown zu Abfragen mit hoher Kardinalität durch. Wenn Sie beispielsweise versuchen zu diagnostizieren, welche Subnetze am meisten zu Qualitätsproblemen beitragen, ist es hilfreich, zunächst die Regionen und Länder zu identifizieren, die zu dem Problem beitragen, und dann einen Drilldown zu den Subnetzen in dieser Region oder in diesem Land durchführen. Die Verbindungs Vorlagen für die Anrufqualität wurden auf diese Weise entworfen, um als Beispiel zu fungieren.
 
 ## <a name="limitations"></a>Einschränkungen
 

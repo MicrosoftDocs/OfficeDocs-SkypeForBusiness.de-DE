@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Verschaffen Sie sich einen Überblick darüber, was Port Bestellungen sind und wie Sie Telefonnummern von Ihrem Dienstanbieter in Teams übertragen können.
-ms.openlocfilehash: 7d92c76c62405efbffaff378b2045195c175d867
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 0102adfd53dba3ff455ddbdbc3678e625fd978de
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827943"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227539"
 ---
 # <a name="whats-a-port-order"></a>Was ist ein Portierungsauftrag?
 
@@ -35,7 +35,9 @@ Lesen Sie die Informationen in diesem Artikel, um sich mit der Nummernportierung
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>Welche Länder oder Regionen unterstützen die Portierung von Nummern?
 
-Sie können Telefonnummern in allen unterstützten Ländern oder Regionen portieren oder übertragen, doch wie Sie eine Portierungs Auftragsanforderung einreichen, hängt von dem Land oder der Region ab, aus der die Telefonnummern stammen. Eine Liste der Länder und Regionen, die die Rufnummernportierung unterstützen, finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+Sie können Telefonnummern in allen unterstützten Ländern oder Regionen portieren oder übertragen, doch wie Sie eine Portierungs Auftragsanforderung einreichen, hängt von dem Land oder der Region ab, aus der die Telefonnummern stammen. Eine Liste der Länder und Regionen, die die Rufnummernportierung unterstützen, finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).  
+
+Derzeit unterstützt [der Porting-Assistent](transfer-phone-numbers-to-teams.md) im Microsoft Teams Admin Center das Abrufen von Telefonnummern für das Vereinigte Königreich, die USA und Kanada. Wenn Sie Telefonnummern für andere Länder und Regionen erhalten möchten, können Sie [einen Portierungs Auftrag manuell übermitteln](manually-submit-port-order.md).
   
 ## <a name="what-numbers-can-be-transferred"></a>Welche Nummern können übertragen werden?
 
@@ -116,7 +118,7 @@ Hier finden Sie weitere Informationen zum Übermitteln von Nummern Portierungs A
   
 - **Telefonnummern** , die von verschiedenen Netzbetreibern bereitgestellt werden, erfordern eine eindeutige Portierungs Anfrage für Nummern mit jedem Netzbetreiber.
 
-- **Gebührenfreie Nummern** mit Ortsvorwahl wie: 800, 844, 855, 866, 877 und 888 können nicht in eine Nummer-Portierungs Anfrage mit anderen Nummerntypen einbezogen werden. Um diese gebührenfreien Nummern Portieren zu können, müssen Sie [einen Portierungs Auftrag manuell übermitteln](manually-submit-port-order.md). Sie können diese Nummern nicht im Microsoft Teams Admin Center portieren. Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- **Gebührenfreie Nummern** mit Ortsvorwahl wie: 800, 844, 855, 866, 877 und 888 können nicht in eine Nummer-Portierungs Anfrage mit anderen Nummerntypen einbezogen werden. Um diese gebührenfreien Nummern Portieren zu können, müssen Sie [einen Portierungs Auftrag manuell übermitteln](manually-submit-port-order.md). Sie können diese Nummern nicht im Microsoft Teams Admin Center portieren. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
     Es ist wichtig, dass Sie den korrekten Letter of Authorization (LoA) für das Land und die Art der Telefonnummern verwenden, die Sie portieren möchten. Sie können [den benötigten Loa hier herunterladen](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
