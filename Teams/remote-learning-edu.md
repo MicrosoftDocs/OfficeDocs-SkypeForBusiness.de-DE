@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faeca9f05e13b9f5e7960340f280dc4bd6c7ee61
-ms.sourcegitcommit: 9419860f9a1c1dd2c7c444162e1d55d704e19c69
+ms.openlocfilehash: a6b89b9c5645c89be54507cf33657a720e27d4b5
+ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207054"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43227509"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -84,7 +84,7 @@ Eine exemplarische Vorgehensweise zum Erstellen von Teams finden Sie hier: [Erst
 Für **Schüler an Grundschulen und weiterführende Schulen ** sind möglicherweise eingeschränkte Funktionen erforderlich. Mit Richtlinien können die Möglichkeiten der Schüler eingeschränkt werden. Da die Schüler/Studenten meist die größte Gruppe von Benutzern ausmachen und für sie häufig die restriktivsten Einstellungen gelten, wird empfohlen, dass Änderungen an den Richtlinien für Schüler/Studenten an den Richtlinien "Global (organisationsweite Standardeinstellung)" durchgeführt werden.
 
 > [!IMPORTANT]
-> Bei Besprechungsrichtlinien, die Benutzern zugewiesen werden, empfiehlt es sich, die Einstellung „automatisch Administrator“ auf „jeder in Ihrer Organisation“ festzulegen. Mit dieser Einstellung wird sichergestellt, dass nicht-authentifizierte Benutzer aus der Lobby zugelassen werden müssen, bevor sie an Teams-Besprechungen teilnehmen können. Weitere Informationen finden Sie unter [Verwalten von Besprechungsrichtlinien in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
+> Bei Besprechungsrichtlinien, die Benutzern zugewiesen werden, empfiehlt es sich, die Einstellung „Personen automatisch zulassen“ auf „Jede/r in Ihrer Organisation“ festzulegen. Mit dieser Einstellung wird sichergestellt, dass nicht-authentifizierte Benutzer aus dem Wartebereich zugelassen werden müssen, bevor sie an Teams-Besprechungen teilnehmen können. Weitere Informationen finden Sie unter [Verwalten von Besprechungsrichtlinien in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#automatically-admit-people).
 
 Nachfolgend finden Sie eine Reihe allgemeiner nicht standardmäßiger Richtlinienkonfigurationen, die Schülern an Grundschulen und weiterführende Schulen zugewiesen werden können, um die unmoderierte Kommunikation zwischen Schülern einzuschränken:
 
