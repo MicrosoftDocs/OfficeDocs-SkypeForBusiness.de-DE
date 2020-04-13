@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 545cbc1d170f6b511de5e8d21a237bc893ee0702
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 5bbb66b99a061648c4c12b7611fc7054a4044c6f
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43138035"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237888"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementieren von Quality of Service (QoS) in Microsoft Teams
 
@@ -78,7 +78,7 @@ Eine einfache Analogie ist, dass QoS virtuelle "Fahrgemeinschaften-Lanes" in Ihr
 
 ## <a name="select-a-qos-implementation-method"></a>Auswählen einer QoS-Implementierungsmethode
 
-Sie können QoS mithilfe von Port basiertem Tagging implementieren, indem Sie die Zugriffssteuerungslisten (ACLs) auf den Routern Ihres Netzwerks verwenden. Die Port basierte Kennzeichnung ist die zuverlässigste Methode, da Sie in gemischten Windows-und Mac-Umgebungen funktioniert und am einfachsten zu implementieren ist. Mobile Clients bieten keinen Mechanismus zum Kennzeichnen von Datenverkehr mithilfe von DSCP-Werten, sodass diese Methode erforderlich ist.  
+Sie können QoS mithilfe von Port basiertem Tagging implementieren, indem Sie die Zugriffssteuerungslisten (ACLs) auf den Routern Ihres Netzwerks verwenden. Die Port basierte Kennzeichnung ist die zuverlässigste Methode, da Sie in gemischten Windows-, Mac-und Linux-Umgebungen funktioniert und am einfachsten zu implementieren ist. Mobile Clients bieten keinen Mechanismus zum Kennzeichnen von Datenverkehr mithilfe von DSCP-Werten, sodass diese Methode erforderlich ist.  
 
 Bei Verwendung dieser Methode untersucht der Router Ihres Netzwerks ein eingehendes Paket, und wenn das Paket mit einem bestimmten Port oder Portbereich eingetroffen ist, wird es als bestimmter Medientyp identifiziert und in die Warteschlange für diesen Typ eingefügt, wodurch dem IP-Paketheader eine vordefinierte [DSCP](https://tools.ietf.org/html/rfc2474) -Markierung hinzugefügt wird, damit andere Geräte den Datenverkehrstyp erkennen und ihm in der Warteschlange
 

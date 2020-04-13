@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 621bb6328ab4ea59caa18d27fe7196a25ee15157
-ms.sourcegitcommit: 1c2cef3deb384216bf0a89628573a277ee6e3e2b
+ms.openlocfilehash: f8f142e48c005b14fc265d7efe6d4413b3c5f44c
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43174917"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237938"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Bewährte Methoden zum Organisieren von Teams in Microsoft Teams
 ======================================================
@@ -31,7 +31,10 @@ Teams sind Gruppen von Personen, die sich um ein gemeinsames Ziel versammeln. Ei
 
 Vor der Gründung eines Teams sollten Sie das Ziel, Projekt oder Arbeitselement sowie die Personen in der Organisation, die all dies gemeinsam umsetzen können, ins Auge fassen. Nachdem Sie diese bestimmt haben, fügen Sie diese Personen oder Gruppen einem Team hinzu, um mit der Zusammenarbeit zu beginnen. Da sich die Mitgliedschaft im Laufe der Zeit ändern kann, empfiehlt es sich, für jedes Team mehrere Besitzer festzulegen. Weitere Informationen finden Sie unter [Verwalten von Teams](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-In der [Videowiedergabeliste](https://www.youtube.com/playlist?list=PLXPr7gfUMmKwYKFSqoPN-aHQppI7rRQLf) von Microsoft Teams finden Sie weitere Informationen zum Erstellen und Verwalten von Teams.
+
+In diesem kurzen Video sehen Sie einige Beispiele für das Strukturieren von organisationsübergreifenden oder Einzweckgruppen:
+
+> [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 ## <a name="add-teams-gradually"></a>Stufenweises Hinzufügen von Teams
 

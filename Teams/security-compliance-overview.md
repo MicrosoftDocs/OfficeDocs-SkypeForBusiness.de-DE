@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f45c83e765bcc10d81ff9cab6fb70b8c7d027ad0
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: 17cf1e32b26edc609bea9e679c9f5ee5f4cc66d2
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227409"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237898"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sicherheit und Compliance in Microsoft Teams
 
@@ -193,7 +193,7 @@ Wenn Sie sehen möchten, in welcher Region die Daten für Ihren Mandanten angeze
 
 Teams ist Stufe D-kompatibel. Dies umfasst die folgenden Standards: [ISO 27001](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27001), [ISO 27018](https://docs.microsoft.com/microsoft-365/compliance/offering-iso-27018), [SSAE16 SOC 1-und SOC 2](https://docs.microsoft.com/microsoft-365/compliance/offering-soc)-, [HIPAA](https://docs.microsoft.com/microsoft-365/compliance/offering-hipaa-hitech)-und [EU-Modellklauseln (EUMC)](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses). Innerhalb des Microsoft Compliance-Rahmens stuft Microsoft Office 365-Anwendungen und-Dienste in vier Kategorien um. Jede Kategorie wird durch spezifische Compliance-Zusagen definiert, die bei einem Office 365-Dienst oder einem zugehörigen Microsoft-Dienst erfüllt sein müssen, um in dieser Kategorie aufgeführt zu werden.
 
-Dienste in den Compliance-Kategorien C und D, für die branchenführende Compliance-Verpflichtungen gelten, sind standardmäßig aktiviert. Dienste der Kategorien A und B verfügen über Steuermöglichkeiten, mit denen diese Dienste organisationsweit aktiviert oder deaktiviert werden können. Details hierzu finden Sie im Dokument zum [Compliance-Framework für Branchenstandards und -bestimmungen](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf). Microsoft Teams unterstützt außerdem Cloud Security Alliance-Compliance.
+Dienste in den Konformitätskategorien C und D, die branchenführende Compliance-Zusagen aufweisen, sind standardmäßig aktiviert. Dienste in den Kategorien A und B sind mit Steuerelementen ausgestattet, um diese Dienste für eine gesamte Organisation zu aktivieren oder zu deaktivieren. Details finden Sie in den [Compliance-Standards](security-compliance-overview.md#compliance-standards). Teams unterstützt auch die Cloud Security Alliance-Compliance.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
