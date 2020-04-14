@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Zusammenfassung: bereiten Sie Ihre Skype for Business Server 2015 Server mit diesem Thema vor. Hardware, Betriebssystem, Datenbanken, Software, alle Systemanforderungen und Empfehlungen stehen zur Verfügung, um eine erfolgreiche Installation und Bereitstellung Ihrer Serverfarm sicherzustellen.'
-ms.openlocfilehash: 9cc063a44924bd6080525ca7a751bd1a3356666c
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: 53ce5d464b9faea14ca6970f85b3f937af8238e2
+ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572793"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237948"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Server Anforderungen für Skype for Business Server 2015
  
@@ -74,7 +74,10 @@ Nachdem Sie die Hardware installiert haben, müssen Sie Betriebssysteme (OS) ins
 |Windows Server 2012 R2 Datacenter-Betriebssystem mit allen erforderlichen Updates installiert.  <br/> |Windows Server 2012 R2 Standard-Betriebssystem mit allen erforderlichen Updates installiert.  <br/> |
 |Windows Server 2012 Datacenter OS mit allen erforderlichen Updates installiert.  <br/> |Windows Server 2012 Standard Betriebssystem mit allen erforderlichen Updates installiert.  <br/> |
    
-Wenn es nicht in dieser Liste aufgeführt ist, funktioniert es nicht ordnungsgemäß, versuchen Sie es nicht für neue Installationen von Skype for Business Server 2015. Beachten Sie, dass das direktes Upgrade des Betriebssystems mit lync Server 2013 nicht unterstützt wird.  Sie müssen einen separaten Pool bereitstellen und Benutzer mit einem anderen Betriebssystem in den neuen Pool migrieren.
+Wenn es nicht in dieser Liste aufgeführt ist, funktioniert es nicht ordnungsgemäß, versuchen Sie es nicht für neue Installationen von Skype for Business Server 2015.
+
+> [!NOTE]
+> Das in-Place-Upgrade des Betriebssystems wird mit lync Server 2013 nicht unterstützt. Sie müssen einen separaten Pool bereitstellen und Benutzer mit einem anderen Betriebssystem in den neuen Pool migrieren. Alle Server in einem Pool müssen dieselbe Betriebssystemversion aufweisen.
   
 > [!NOTE]
 > Möglicherweise haben Sie bemerkt, dass Windows Server 2008 R2 nicht in dieser Liste aufgeführt ist. Das liegt daran, dass Windows Server 2012 R2 für alle neuen Server empfohlen wird, die für SFB verwendet werden sollen. Sie sollten Windows Server 2008 R2 nur verwenden, wenn Sie über vorhandene Server verfügen, auf denen lync Server 2013 bereits installiert ist, und Sie beabsichtigen, ein direktes Upgrade durchführen zu lassen. Windows Server 2008 R2 hat das Ende des Mainstream-Support-Lebenszyklus am 1/13/2015 erreicht und erreicht das Ende des Support-Lebenszyklus am 1/14/2020.
@@ -268,6 +271,6 @@ Message Queuing, das auch als MSMQ bezeichnet wird. Es handelt sich um eine Wind
   
  **Letzte Überlegungen:**
   
-Installieren Sie bitte keine ISA (Microsoft Internet Security and Acceleration Server)-Client Software oder andere LSP-Software (Winsock Layered Service Providers) (alle Drittanbieter-Firewalls oder Virenschutz-Netzwerk Inspektions Software wären hier enthalten) auf jeder Ihrer Front-End-Server oder eigenständigen Vermittlungsserver. Bei der Installation dieser Software ist eine schlechte Leistung beim Mediendatenverkehr zu beobachten.
+Installieren Sie bitte keine ISA (Microsoft Internet Security and Acceleration Server)-Client Software oder andere LSP-Software (Winsock Layered Service Providers) (alle Drittanbieter-Firewalls oder Antivirensoftware-Netzwerk Inspektions Software wären hier enthalten) auf allen Front-End-Servern oder eigenständigen Vermittlungsservern. Bei der Installation dieser Software ist eine schlechte Leistung beim Mediendatenverkehr zu beobachten.
   
 
