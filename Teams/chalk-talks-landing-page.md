@@ -16,12 +16,12 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: cde69bd588c7262e5ed6f0274b091fee29b27030
-ms.sourcegitcommit: 769241842058cfb4618460fad2dde1494a3609a1
+ms.openlocfilehash: 2fd1b76b1aaed68cd0c9ce61fe6d6a408a2fd296
+ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42574002"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240595"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -93,6 +93,7 @@ Teams, die für IT-Experten und Entscheidungsträger entwickelt wurden, bieten e
         </a>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/ChalkTalksEnableFirstline"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -103,13 +104,14 @@ Teams, die für IT-Experten und Entscheidungsträger entwickelt wurden, bieten e
                     </div>
                     <div class="cardText">
                         <h3>Aktivieren von Teams für das Engagement von Mitarbeitern in erster Arbeit</h3>
-                        <p><font color="red"><i>Demnächst!</i></font> Sind Sie bereit, digitale Arbeitsbereiche für Ihre First-Workforce-Mitarbeiter zu aktivieren? Gemeinsam diskutieren wir bewährte Methoden für das Starten eines Pilotprojekts zur Verbesserung der Kommunikation, des Mitarbeiterengagements und der betrieblichen Produktivität.</p>
+                        <p>Sind Sie bereit, digitale Arbeitsbereiche für Ihre First-Workforce-Mitarbeiter zu aktivieren? Gemeinsam diskutieren wir bewährte Methoden für das Starten eines Pilotprojekts zur Verbesserung der Kommunikation, des Mitarbeiterengagements und der betrieblichen Produktivität.</p>
                     </div>
                 </div>
             </div>
         </div>
     </li>
     <li>
+        <a href="https://microsoftteams.eventbuilder.com/ChalkTalksQuality"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -119,8 +121,8 @@ Teams, die für IT-Experten und Entscheidungsträger entwickelt wurden, bieten e
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Entdecken Sie die Neuerungen in Microsoft Teams</h3>
-                        <p><font color="red"><i>Demnächst!</i></font>  Haben Sie schon auf eine Funktion gewartet, die in Teams veröffentlicht werden soll? Kommen Sie mit Experten für Teams in Kontakt, während wir Sie im letzten Monat durch die neuesten und größten Funktions Freigaben führen – zusammen mit bewährten Methoden für deren Implementierung.</p>
+                        <h3>Übernehmen von AV-Qualitäts Erfahrungen</h3>
+                        <p>Möchten Sie sicherstellen, dass die Benutzer optimale Erfahrungen mit Besprechungen und Sprachfunktionen in Teams haben? Während dieser Sitzung werden Tools, Berichte und bewährte Methoden erläutert, mit denen Sie die Dienstqualität&mdash;verwalten können, indem Sie eine proaktive Strategie zur Lösung häufig auftretender Probleme einrichten.</p>
                     </div>
                 </div>
             </div>
