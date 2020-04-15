@@ -10,7 +10,7 @@
 ## [Übersicht](training-microsoft-teams-landing-page.md)
 ## [Kursleitergeführte Schulung für Teams](instructor-led-training-teams-landing-page.md)
 ## [Administratorschulungen für Microsoft Teams](itadmin-readiness.md)
-## [Microsoft Teams-Schulungen für Endbenutzer](enduser-training.md)
+## [Microsoft Teams-Schulungen für Endbenutzer](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 <!-- ============================================================ -->
 
 # [Bereitstellen von Teams](How-to-roll-out-teams.md)
