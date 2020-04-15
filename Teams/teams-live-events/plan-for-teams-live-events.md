@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Informieren Sie sich über die Faktoren, die Sie berücksichtigen sollten, bevor Sie Liveereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95baeaf25600853b7d6a2b4e18c548d1998f6789
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102366"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505622"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -55,6 +55,7 @@ Der Benutzer muss Folgendes besitzen:
 - Die Bildschirmfreigabe in Teams-Besprechungen muss aktiviert sein (*TeamsMeetingPolicy -ScreenSharingMode-Parameter = EntireScreen*).
 - Die Planung von Liveereignissen in Teams muss aktiviert sein (*TeamsMeetingBroadcastPolicy -AllowBroadcastScheduling-Parameter = True*).
 - Berechtigungen zum Erstellen von Liveereignissen in Stream (für die Produktion externer Anwendungen oder Geräte).
+- Der Koexistenzmodus ist so konfiguriert, dass er Teambesprechungen planen kann (*nur für Inseln, Besprechungen oder nur für Teams*).
 
 > [!IMPORTANT]
 > Nicht authentifizierte anonyme Benutzer können nicht als Produzenten oder Referenten zu Teams-Liveereignissen eingeladen werden. 
@@ -70,8 +71,6 @@ Der Benutzer muss Folgendes besitzen:
 |Bestimmte Gruppen/Personen      |  Ja            |  Ja                 |
 
 <sup>1</sup> Teilnehmer können nur über Personen & Gruppe eingeladen werden. <br>
-
-
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams-Liveereignisse und Skype Meeting Broadcast
 
@@ -90,8 +89,8 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 |Produzentenclient auf Mac |&#x274C;  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
 |Teilnehmeranzahl in Produzenten-UI |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
 |Mehrere Referenten zulässig |&#x2714; (Skype for Business) |&#x2714; (Teams) |–  |
-|Referenten während der Sitzung einladen |&#x2714; (Skype for Business) |&#x274C; |N/A |
-|Referenten über Web und Mobilgerät teilnehmen |&#x2714; (Skype for Business)  |&#x274C; |N/A |
+|Referenten während der Sitzung einladen |&#x2714; (Skype for Business) |&#x274C; |– |
+|Referenten über Web und Mobilgerät teilnehmen |&#x2714; (Skype for Business)  |&#x274C; |– |
 |Verbund- & Gastreferenten/teilnehmer |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |– |
 |Referent – Telefonfestnetz (PSTN)-Zugang |&#x274C; |&#x2714; (Teams) |– |
 |Bildschirm präsentieren |&#x274C; |&#x2714; (Teams) |– |
@@ -132,4 +131,3 @@ Navigieren Sie zu [Einrichten von Teams-Liveereignissen](set-up-for-teams-live-e
 - [Was sind Teams-Liveereignisse?](what-are-teams-live-events.md)
 - [Einrichten von Teams-Liveereignissen](set-up-for-teams-live-events.md)
 - [Konfigurieren der Einstellungen für Liveereignisse in Teams](configure-teams-live-events.md)
-

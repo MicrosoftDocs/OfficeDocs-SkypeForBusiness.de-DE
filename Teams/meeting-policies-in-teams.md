@@ -22,17 +22,17 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Hier erfahren Sie, wie Sie Besprechungsrichtlinien Einstellungen in Teams verwalten.
-ms.openlocfilehash: 142152aaa0c47adea7f680b33fa4c9c59441e6eb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b87453fb24173ba648511f49efc82becb2616d70
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836475"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505632"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
 ::: zone target="docs"
-Besprechungsrichtlinien werden verwendet, um die Features zu steuern, die Besprechungsteilnehmern für Besprechungen zur Verfügung stehen, die von Benutzern in Ihrer Organisation geplant werden. Nachdem Sie eine Richtlinie erstellt und die Änderungen vorgenommen haben, können Sie der Richtlinie Benutzer zuweisen. Sie können Besprechungsrichtlinien im Microsoft Teams Admin Center oder mithilfe von [PowerShell](teams-powershell-overview.md)verwalten.
+Besprechungsrichtlinien werden verwendet, um die Features zu steuern, die Besprechungsteilnehmern für Besprechungen, die von Benutzern in Ihrer Organisation geplant werden, zur Verfügung stehen. Nachdem Sie eine Richtlinie erstellt und die gewünschten Änderungen vorgenommen haben, können Sie der Richtlinie Nutzer zuweisen. Sie können Besprechungsrichtlinien im Microsoft Teams Admin Center oder mithilfe von [PowerShell](teams-powershell-overview.md)verwalten.
 
 Sie können Richtlinien wie folgt implementieren, die sich auf die Besprechungs Erfahrung für Benutzer auswirken, bevor eine Besprechung beginnt, während einer Besprechung oder nach einer Besprechung.
 
@@ -46,31 +46,31 @@ Standardmäßig wird eine Richtlinie mit dem Namen Global (org-Wide Standard) er
 
 ## <a name="change-or-create-a-meeting-policy"></a>Ändern oder Erstellen einer Besprechungsrichtlinie
 
-Wenn Sie eine Besprechungsrichtlinie ändern oder erstellen möchten, wechseln Sie zum Microsoft Teams Admin Center #a0**Besprechungsrichtlinien**für **Besprechungen** > . Wählen Sie eine Richtlinie aus der Liste aus, oder wählen Sie **Hinzufügen**aus. Wenn Sie eine neue Richtlinie erstellen, fügen Sie einen Namen und eine Beschreibung hinzu. Der Name darf keine Sonderzeichen oder mehr als 64 Zeichen enthalten. Wählen Sie Ihre Einstellungen aus, und wählen Sie dann **Speichern**aus.
+Wenn Sie eine Besprechungsrichtlinie ändern oder erstellen möchten, wechseln Sie zum Microsoft Teams Admin Center > **Besprechungen** > ** Besprechungsrichtlinien**. Wählen Sie eine Richtlinie aus der Liste aus oder wählen Sie **Hinzufügen**. Wenn Sie eine neue Richtlinie erstellen, fügen Sie einen Namen und eine Beschreibung hinzu. Der Name darf keine Sonderzeichen enthalten und nicht mehr als 64 Zeichen lang sein. Wählen Sie Ihre Einstellungen aus, und wählen Sie dann **Speichern**aus.
 
-Angenommen, Sie verfügen über eine Reihe von Benutzern, und Sie möchten die Bandbreite begrenzen, die für Ihre Besprechung erforderlich ist. Erstellen Sie eine neue benutzerdefinierte Richtlinie mit dem Namen "begrenzte Bandbreite", und deaktivieren Sie die folgenden Einstellungen:
+Nehmen wir beispielsweise an, Sie haben eine Gruppe von Nutzern, und Sie möchten die Bandbreite begrenzen, die für Ihre Besprechung erforderlich ist. Sie erstellen dann eine neue benutzerdefinierte Richtlinie namens „begrenzte Bandbreite“ und deaktivieren die folgenden Einstellungen:
 
-Unter **Audio #a0 Video**:
-- Deaktivieren Sie die Option "Cloud-Aufzeichnung zulassen".
+Unter **Audio & Video**:
+- Deaktivieren Sie Cloud-Aufzeichnung zulassen.
 - Deaktivieren Sie IP-Video zulassen.
 
 Unter **Inhaltsfreigabe**:
-- Deaktivieren Sie den Bildschirmfreigabe Modus.
+- Deaktivieren Sie den Bildschirmfreigabemodus.
 - Deaktivieren Sie Whiteboard zulassen.
-- Deaktivieren Sie freigegebene Notizen zulassen.
+- Deaktivieren Sie Freigegebene Notizen zulassen.
 
-Weisen Sie dann die Richtlinie den Benutzern zu.
+Weisen Sie dann die Richtlinie den Nutzern zu.
 
 > [!NOTE]
 > Einem Benutzer kann immer nur eine Besprechungsrichtlinie zugewiesen werden.
 
-## <a name="assign-a-meeting-policy-to-users"></a>Zuweisen einer Besprechungsrichtlinie zu Benutzern
+## <a name="assign-a-meeting-policy-to-users"></a>Nutzern eine Besprechungsrichtlinie zuweisen
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**, und klicken Sie dann auf den Benutzer.
-2. Wählen Sie den Benutzer aus, indem Sie links neben dem Benutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
-3. Wählen Sie unter **Besprechungsrichtlinie**die Richtlinie aus, die Sie zuweisen möchten, und klicken Sie dann auf über **nehmen**.
+1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Nutzer**, und klicken Sie dann den gewünschten Nutzer an.
+2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
+3. Wählen Sie unter **Besprechungsrichtlinie** die Richtlinie aus, die Sie zuweisen möchten, und klicken Sie dann auf **Übernehmen**.
 
-Informationen zum Zuweisen einer Richtlinie zu mehreren Benutzern gleichzeitig finden Sie unter [Bearbeiten von Benutzereinstellungen für Teams in Massen](edit-user-settings-in-bulk.md).
+Informationen dazu, wie Sie eine Richtlinie mehreren Nutzern gleichzeitig zuweisen können, finden Sie unter [Batchbearbeitung von Nutzereinstellungen eines Teams](edit-user-settings-in-bulk.md).
 
 Sie können auch die folgenden Schritte ausführen:
 
@@ -88,9 +88,9 @@ Sie können auch die folgenden Schritte ausführen:
 Wenn Sie auf der Seite **Besprechungsrichtlinien** eine vorhandene Richtlinie auswählen oder auf **Hinzufügen** klicken, um eine neue Richtlinie hinzuzufügen, können Sie die Einstellungen für Folgendes konfigurieren.
 
 - [Allgemein](#meeting-policy-settings---general)
-- [Audio #a0 Video](#meeting-policy-settings---audio--video)
+- [Audio & Video](#meeting-policy-settings---audio--video)
 - [Inhaltsfreigabe](#meeting-policy-settings---content-sharing)
-- [Teilnehmer #a0 Gäste](#meeting-policy-settings---participants--guests)
+- [Teilnehmer & Gäste](#meeting-policy-settings---participants--guests)
 
 ::: zone-end 
 
@@ -133,7 +133,7 @@ Beachten Sie Folgendes: Wenn Sie die Option " **Planen privater Besprechungen zu
 
 <a name="bkaudioandvideo"> </a>
 
-## <a name="meeting-policy-settings---audio--video"></a>Einstellungen für Besprechungsrichtlinien – Audio #a0 Video
+## <a name="meeting-policy-settings---audio--video"></a>Einstellungen für Besprechungsrichtlinien – Audio & Video
 
 - [Transkription zulassen](#allow-transcription)
 - [Cloud-Aufzeichnung zulassen](#allow-cloud-recording)
@@ -303,7 +303,7 @@ Sehen wir uns das folgende Beispiel an:
 
 Daniela kann in Amandas Besprechungen Notizen machen, und Amanda kann in keiner Besprechung Notizen machen.
 
-## <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinien Einstellungen – Teilnehmer #a0 Gäste
+## <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinien Einstellungen – Teilnehmer & Gäste
 
 Diese Einstellungen steuern, welche Besprechungsteilnehmer in der Lobby warten, bevor Sie an der Besprechung teilnehmen, sowie die Teilnahmestufe, die Sie in einer Besprechung zugelassen sind.
 
@@ -351,7 +351,7 @@ Hierbei handelt es sich um eine Richtlinie pro Organisator. Mit dieser Einstellu
 
 ![Screenshot einer Besprechung mit einem Benutzer in der Lobby](media/meeting-policies-lobby.png)
 
- Besprechungsorganisatoren können in der Besprechungseinladung auf **Besprechungsoptionen** klicken, um diese Einstellung für jede von Ihnen geplante Besprechung zu ändern. **(in Kürze verfügbar)**
+ Besprechungsorganisatoren können in der Besprechungseinladung auf **Besprechungsoptionen** klicken, um diese Einstellung für jede von Ihnen geplante Besprechung zu ändern.
   
 |Einstellungswert  |Join-Verhalten |
 |---------|---------|

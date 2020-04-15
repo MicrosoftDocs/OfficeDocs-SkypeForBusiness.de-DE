@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Kanäle für die Moderation in Microsoft Teams einrichten, einschließlich des Hinzufügens von Teammitgliedern als Kanal Moderatoren.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6cdf6988afb9afbd91c2bfd19ed516c8e8fdf702
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 77622bd2920ce0453d6ccbdbeb55696fc2925271
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240615"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505602"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Einrichten und Verwalten der Kanal Moderation in Microsoft Teams
 
@@ -32,7 +32,7 @@ In Microsoft Teams können Teambesitzer die Moderation für einen Standardkanal 
 Teambesitzer können auch Teammitglieder als Moderatoren hinzufügen. Ein Teambesitzer verfügt möglicherweise nicht über die Fachkenntnisse auf Kanalebene, um die Kanal Moderation optimal zu unterstützen. Durch das zulassen, dass bestimmte Teammitglieder einen Kanal moderieren, wird die Verantwortung für die Verwaltung von Inhalt und Kontext innerhalb eines Kanals von Teambesitzern und Kanal Moderatoren geteilt. Beispielsweise kann ein Teambesitzer Geschäftsbesitzer oder Inhaltsbesitzer als Moderatoren hinzufügen, wodurch Sie die Informationsfreigabe in diesem Kanal steuern können.
 
 > [!NOTE]
-> Derzeit steht Kanal Moderation für Standardkanäle zur Verfügung. Sie ist für private Kanäle nicht verfügbar.
+> Kanal Moderation steht für Standardkanäle zur Verfügung. Sie ist für den Kanal "Allgemein" oder "Privat" nicht verfügbar.
 
 ## <a name="what-can-a-channel-moderator-do"></a>Was kann ein Kanal Moderator tun?
 

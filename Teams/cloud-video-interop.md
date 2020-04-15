@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f2c5cb45c82696ec5b365dc8e887cbaa9abce13
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: ddd8a0574899c13e03aae34915b8a342d1984feb
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42046498"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505642"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Cloud-Video-Interoperabilität für Microsoft Teams
 
@@ -43,6 +43,12 @@ Brightcove-Video Interoperabilität richtet sich an Kunden, die die folgenden Kr
 - Sie möchten während der Migration zu einer nativen Microsoft Teams-Lösung den Wert Ihrer Investition in Ihre aktuellen Besprechungsraum Geräte und persönlichen Videogeräte behalten.
 
 Während Cloud-Video-Interop eine hervorragende Zwischenlösung bietet, ermutigen wir unsere Kunden dazu, unsere nativen Teams zu untersuchen, die Lösungen wie Teams Room Systems langfristig anbieten. 
+
+### <a name="office-365-us-government-and-third-party-services"></a>Office 365 US Government und Dienste von Drittanbietern
+
+Office 365 bietet die Möglichkeit zum Integrieren von Anwendungen von Drittanbietern in SharePoint Online-Websites, Skype for Business, Teams, Office-Anwendungen, die in Office 365 ProPlus enthalten sind (wie Word, Excel, PowerPoint und Outlook) und Outlook Web App. Darüber hinaus unterstützt Office 365 die Integration von Drittanbieter-Dienstanbietern. Bei diesen Anwendungen und Diensten von Drittanbietern kann es sich um das Speichern, übertragen und Verarbeiten der Kundendaten Ihrer Organisation auf Drittanbietersystemen, die sich außerhalb der Office 365-Infrastruktur befinden, und somit nicht um die Office 365-Compliance-und Datenschutzverpflichtungen handelt. **Es wird empfohlen, dass Sie die von den Drittanbietern bereitgestellten Datenschutz-und Konformitätsrichtlinien überprüfen, wenn Sie die entsprechende Verwendung dieser Dienste für Ihre Organisation bewerten.**
+
+
 
 ### <a name="partners-certified-for-microsoft-teams"></a>Partner, die für Microsoft Teams zertifiziert sind
 
@@ -87,7 +93,7 @@ Während der Bereitstellungsphase weisen Sie den entsprechenden Benutzern Lizenz
 
 ### <a name="schedule"></a>Zeitplan
 
-Nachdem ein Benutzer für die Cloud-Video-Interop aktiviert wurde, werden alle Besprechungen, die mit dem Teambesprechung-Add-in für Outlook oder dem Team-Client geplant sind, die entsprechenden zusätzlichen Informationen automatisch in die Teambesprechung aufgenommen, damit Cloud-Video Interop-kompatible Geräte können an diesen Besprechungen teilnehmen.
+Nachdem ein Benutzer für die Cloud-Video-Interop aktiviert wurde, werden alle Besprechungen, die mit dem Add-in "Teams-Besprechung" für Outlook oder dem Team-Client geplant sind, die entsprechenden zusätzlichen Informationen automatisch in die Teams-Besprechung aufgenommen, damit die mit Brightcove-Video Interop kompatiblen Geräte an diesen Besprechungen teilnehmen können.
 
 ### <a name="join"></a>Join
 

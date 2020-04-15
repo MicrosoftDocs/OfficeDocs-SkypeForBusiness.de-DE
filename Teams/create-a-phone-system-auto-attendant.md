@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Cloud-Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: eff5b3e7d29715714513e7c627a1611f6733b70f
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 05a70c578812ee5ecdd91214ab253843fe67471c
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43159261"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43508629"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
 
@@ -225,7 +225,7 @@ Wenn Sie **trennen**auswählen, wird der Anrufer nach der Wiedergabe der Ansage 
 >    - Mobil-Handy
 >    - TelephoneNumber/Telefonnummer
 >    - OtherTelephone
->- Das erforderliche Format, um die Erweiterung in das Feld Benutzer Telefonnummer einzugeben, ist entweder `+<phonenumber>;ext=<extension>` oder `x<extension>`.
+>- Das erforderliche Format, um die Erweiterung in das Feld Benutzer Telefonnummer einzugeben, ist `+<phonenumber>;ext=<extension>` entweder `x<extension>`oder.
 >- Das Zuweisen einer Erweiterung im Team Admin Center wird derzeit nicht unterstützt. Sie müssen entweder den Befehl " [MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) PowerShell" oder das Microsoft 365 Admin Center verwenden.
 >- Es kann bis zu 12 Stunden dauern, bis Änderungen an den Aad-Telefon-und Handy-Attributen verfügbar sind.
 >- Bitte definieren Sie keine Erweiterung für die LineUri eines Benutzers. Dies wird derzeit nicht unterstützt.

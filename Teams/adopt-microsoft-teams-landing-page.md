@@ -20,12 +20,12 @@ f1.keywords:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75a45acf5758de9b2d7209c0749454adb38ba566
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 7ac8e69afaab1d9055bb2513704ec50cc8790592
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42033046"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506836"
 ---
 # <a name="adopt-microsoft-teams"></a>Einführen von Microsoft Teams
 
@@ -106,7 +106,7 @@ Wenn Sie ein kleines Unternehmen sind oder wenn Sie Microsoft Teams mit Chat, Te
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/enduser-training">
+        <a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

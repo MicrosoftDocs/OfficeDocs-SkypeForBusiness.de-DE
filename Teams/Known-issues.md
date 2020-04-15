@@ -17,12 +17,12 @@ f1.keywords:
 description: Aktuelle Liste der bekannten Probleme für die Microsoft Teams-Client-App und Administratorfunktionen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d856962cf0fdb21d0dd58313b5ade6a9bab9d364
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 2a8775722daa5cd6fc236933fc0e0fd8bad1213a
+ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096620"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43505532"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Bekannte Probleme für Microsoft Teams
 
@@ -296,13 +296,6 @@ Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams SkipUpnPrefill(REG_DW
 |**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
 |:-----|:-----|:-----|:-----|
 |Rufnummer gesperrt|Rufnummer gesperrt: Wenn Sie das Ressourcenkonto löschen, bevor Sie die Rufnummer entfernt haben, wird die Rufnummer gesperrt.|Wenden Sie sich an den Microsoft-Support, um die Rufnummer freizugeben.|18.05.2019|
-
-## <a name="presence"></a>Anwesenheit
-|**Titel des Problems**|**Verhalten/Symptom**|**Bekannte Problemumgehung**|**Datum der Erkennung**|
-|:-----|:-----|:-----|:-----|
-|Anwesenheitsinformationen in Outlook und anderen Office-Anwendung werden nicht angezeigt, nachdem ein Benutzer in den **TeamsOnly**-Modus verschoben wurde. <br/> |Wenn Sie den Skype for Business-Client deinstallieren, nachdem Sie einen Benutzer in den **TeamsOnly**-Modus verschoben haben, funktionieren die Anwesenheitsinformationen in Outlook und anderen Office-Apps nicht mehr. In Microsoft Teams funktionieren die Anwesenheitsinformationen einwandfrei.  <br/> |Wenn Sie die Anwesenheitsinformationen in Outlook (und anderen Office-Apps) anzeigen möchten, muss Skype for Business installiert sein, auch wenn Sie Microsoft Teams im **Teams Only**-Modus ausführen. Das Problem ist Microsoft bekannt, und es wird gerade an einer Lösung gearbeitet.  <br/> |9/2019  <br/> |
-
-
 
 ## <a name="provisioning"></a>Bereitstellung
 
