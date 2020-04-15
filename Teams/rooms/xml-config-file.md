@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 description: Remote Verwaltung der Standardeinstellungen, die von einem Microsoft Teams rooms-Gerät verwendet werden, einschließlich Anwenden eines benutzerdefinierten Designs und Erstellen einer Master Einstellungsdatei
-ms.openlocfilehash: 0334b9de7759885b6bf00dae7a6418b3c381c68f
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 0bc693d8bee35b37184d0dcb38831b396b34b97c
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160069"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510764"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei
 
@@ -39,12 +39,12 @@ Sie können einen beliebigen Text-Editor verwenden, um eine Einstellungsdatei zu
     <UserAccount>
         <SkypeSignInAddress>RanierConf@contoso.com</SkypeSignInAddress>
         <ExchangeAddress>RanierConf@contoso.com</ExchangeAddress>
+        <ModernAuthEnabled>false</ModernAuthEnabled>
         <DomainUsername>Seattle\RanierConf</DomainUsername>
         <Password>password</Password>
         <ConfigureDomain>domain1, domain2</ConfigureDomain>
     </UserAccount>
     <IsTeamsDefaultClient>false</IsTeamsDefaultClient>
-    <ModernAuthEnabled>false</ModernAuthEnabled>
     <BluetoothAdvertisementEnabled>true</BluetoothAdvertisementEnabled>
     <SkypeMeetingsEnabled>false</SkypeMeetingsEnabled>
     <TeamsMeetingsEnabled>true</TeamsMeetingsEnabled>
@@ -83,16 +83,16 @@ Wenn ein Variablenwert vom falschen Typ ist, Elemente nicht in der richtigen Rei
 |\<SkypeSettings\> |Container für alle Elemente. ||Erforderlich. |
 | \<AutoScreenShare\>  |Boolescher &#x2777;  |Erste &#x2776;  | Falls zutreffend, ist die automatische Bildschirmfreigabe aktiviert.  |
 |\<HideMeetingName\> |Boolescher &#x2777;  |Erste &#x2776;  |Falls zutreffend, sind die Besprechungsnamen ausgeblendet. |
-|\<Benutzerkonto\> |Container |Erste &#x2776;  |Container für Anmeldeinformationen-Parameter. Die Anmeldeadresse, die Exchange-Adresse oder die e-Mail-Adresse sind in der Regel<span></span>identisch, beispielsweise RanierConf @contoso. com. |
+|\<Benutzerkonto\> |Container |Erste &#x2776;  |Container für Anmeldeinformationen-Parameter. Die Anmeldeadresse, die Exchange-Adresse oder die e-Mail-Adresse sind in der Regel identisch<span></span>, beispielsweise RanierConf @contoso. com. |
 |\<SkypeMeetingsEnabled\>  |Boolescher &#x2777;  |Erste &#x2776;  |Diese Option ist standardmäßig aktiviert. |
 |\<SkypeSignInAddress\> |Zeichenfolge &#x2778;  ||Der Anmeldename für das SFB-oder Teams-Geräte Konto der Konsole. |
-|\<ExchangeAddress\> |Zeichenfolge &#x2778;  ||Der Anmeldename für das Exchange-Gerätekonto der Konsole. Wenn der ExchangeAddress ausgelassen wird, wird der SkypeSignInAddress nicht automatisch wieder verwendet. |
+|\<ExchangeAddress\> |Zeichenfolge &#x2778;  ||Der Anmeldename für das Exchange-Geräte Konto der Konsole. Wenn der ExchangeAddress ausgelassen wird, wird der SkypeSignInAddress nicht automatisch wieder verwendet. |
+|\<ModernAuthEnabled> |Boolescher &#x2777;  |  |Diese ist standardmäßig deaktiviert. <br/> <br/>Wenn Sie auf "true" festgelegt ist, verwendet die Microsoft Teams rooms-Anwendung nur die moderne Authentifizierung, um eine Verbindung mit Ressourcen herzustellen, die nicht auf die Standardauthentifizierung zurückgreifen.|
 |\<Domain User Name\> |Zeichenfolge &#x2778;  ||Die Domäne und der Benutzername für das Konsolengerät, zum Beispiel Seattle\RanierConf. |
 |\<Kennwort\> |Zeichenfolge 3  || Der Kennwortparameter stimmt mit dem für die Kontoanmeldung für das Skype for Business-Gerät verwendeten Kennwort überein.   |
 | \<ConfigureDomain\>  |Zeichenfolge &#x2778;  ||Sie können mehrere durch Kommata getrennte Domänen auflisten. |
 |\<TeamsMeetingsEnabled\> |Boolescher &#x2777;  |Erste &#x2776;  |Diese ist standardmäßig deaktiviert. <br/> <br/> Die XML-Datei wird als schlecht geformt betrachtet \<,\> Wenn\<sowohl\> SkypeMeetingsEnabled als auch TeamsMeetingsEnabled deaktiviert sind, es aber akzeptabel ist, dass beide Einstellungen gleichzeitig aktiviert sind. |
 |\<IsTeamsDefaultClient> |Boolescher &#x2777;  |Erste &#x2776;  |Diese ist standardmäßig deaktiviert. |
-|\<ModernAuthEnabled> |Boolescher &#x2777;  |Erste &#x2776;  |Diese ist standardmäßig deaktiviert. <br/> <br/>Wenn Sie auf "true" festgelegt ist, verwendet die Microsoft Teams rooms-Anwendung nur die moderne Authentifizierung, um eine Verbindung mit Ressourcen herzustellen, die nicht auf die Standardauthentifizierung zurückgreifen.|
 |\<BluetoothAdvertisementEnabled> |Boolescher &#x2777;  |Erste &#x2776;  |Diese Option ist standardmäßig aktiviert. |
 |\<DualScreenMode\>  |Boolescher &#x2777;  |Erste &#x2776;  |Ist der Wert "true", ist der duale Bildschirm aktiviert. Andernfalls verwendet das Gerät den Single-Screen-Modus. |
 | \<DuplicateIngestDefault\> |Boolescher &#x2777;  |Erste &#x2776; |Wenn "true" festgelegt ist, wird der Inhalt auf beiden Bildschirmen im dualen Bildschirm angezeigt, wenn die Besprechung nicht stattfindet. | 
