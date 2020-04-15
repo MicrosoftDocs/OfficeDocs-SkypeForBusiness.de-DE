@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um den Mitarbeitern in Ihrer Organisation zu helfen, mit Microsoft Teams produktiv zu arbeiten, insbesondere wenn sie als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96ff59470c8d9726b4c26bf0522e5b1e730b9014
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: ef26f05e20aadeb46be2a553303bc686aded6215
+ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170513"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43506846"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Unterstützung von Remotemitarbeitern in Microsoft Teams
 
@@ -67,6 +67,8 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
 
 1. Lesen Sie [Häufig gestellte Fragen: Unterstützung für Ihre Remotemitarbeiter](FAQ-support-remote-workforce.md), die wir regelmäßig aktualisieren.
 
+2. [Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams](use-advisor-teams-roll-out.md). Der Ratgeber für Teams (im Microsoft Teams Admin Center) führt Sie durch die Bereitstellung von Teams.
+
 1. Lesen Sie die neuesten Blogbeiträge:
    
    - [How Microsoft is enabling its employees to work remotely with Microsoft Teams](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/) (Wie es Microsoft seinen Mitarbeitern ermöglicht, mit Microsoft Teams remote zu arbeiten)
@@ -109,7 +111,7 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
    - [Sicherheit und Teams](teams-security-guide.md) befasst sich mit allen technischen Details der Sicherheit von Teams im Rahmen der bewährten Sicherheitsmethoden und -verfahren von Microsoft 365 auf Unternehmensniveau.
 
 
-2.  [Senden Sie Links zu Schulungen](enduser-training.md), um Ihren Mitarbeitern zu helfen, Teams optimal zu nutzen.
+2.  Teilen Sie einen Link zur [Teams-Videoschulung](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7), um Ihren Mitarbeitern zu helfen, Teams optimal zu nutzen.
 
 3. Tauchen Sie noch tiefer ein: Weitere Informationen zum Rollout von Teams.
 
