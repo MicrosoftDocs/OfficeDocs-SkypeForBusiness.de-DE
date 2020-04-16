@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2cfe1c1af9fe85d307999289d318106c8ebc132a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: ee41f32ac2237e5e2c6e2e92fd18ea1c1952f7cd
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892295"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521611"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -135,7 +135,7 @@ Weitere Informationen zu Teams und Office 365 ProPlus finden Sie unter [Ausschli
     - [32-Bit-Version](https://statics.teams.cdn.office.net/production-windows/1.3.00.4461/Teams_windows.msi)
     - [64-Bit-Version](https://statics.teams.cdn.office.net/production-windows-x64/1.3.00.4461/Teams_windows_x64.msi)
 
-    Die Mindestversion der Desktop-App für Teams, die erforderlich ist, ist Version 1.2.00.31357. (PSTN-Haltebereich wird in früheren Versionen nicht unterstützt.)
+    Die Mindestversion der Desktop-App für Teams, die erforderlich ist, ist Version 1.3.00.4461. (PSTN-Haltebereich wird in früheren Versionen nicht unterstützt.)
 
 2. Installieren Sie die MSI-Karte auf der VDI-VM, indem Sie einen der folgenden Befehle ausführen:
 
@@ -158,7 +158,7 @@ Weitere Informationen zu Teams und Office 365 ProPlus finden Sie unter [Ausschli
         Bei der nächsten interaktiven Anmeldesitzung startet Teams und fordert Anmeldeinformationen an.
 
     > [!NOTE]
-    > In diesen Beispielen wird auch der **ALLUSERS = 1** -Parameter verwendet. Wenn Sie diesen Parameter festlegen, wird das computerweite Installationsprogramm von Teams in den Programmen und Funktionen in der Systemsteuerung und in den apps & Features in Windows-Einstellungen für alle Benutzer des Computers angezeigt. Alle Benutzer können dann Teams deinstallieren, wenn Sie über Administratoranmeldeinformationen verfügen. Es ist wichtig, den Unterschied zwischen **ALLUSERS = 1** und **alluser = 1**zu verstehen. Der " **ALLUSERS = 1** "-Parameter kann in nicht-VDI-und VDI-Umgebungen verwendet werden, und der **alluser = 1** -Parameter wird nur in VDI-Umgebungen verwendet, um eine pro-Computer-Installation festzulegen.
+    > In diesen Beispielen wird auch der **ALLUSERS = 1** -Parameter verwendet. Wenn Sie diesen Parameter festlegen, wird das Installationsprogramm für die computerweite Installation von Teams unter "Programme und Features" in der Systemsteuerung sowie unter "Apps und Features" in den Windows-Einstellungen für alle Benutzer des Computers angezeigt. Alle Benutzer können dann Teams deinstallieren, wenn Sie über Administratoranmeldeinformationen verfügen. Es ist wichtig, den Unterschied zwischen **ALLUSERS = 1** und **alluser = 1**zu verstehen. Der " **ALLUSERS = 1** "-Parameter kann in nicht-VDI-und VDI-Umgebungen verwendet werden, und der **alluser = 1** -Parameter wird nur in VDI-Umgebungen verwendet, um eine pro-Computer-Installation festzulegen.
 
 3. Deinstallieren Sie die MSI-Karte aus der VDI-VM.
 
@@ -246,21 +246,21 @@ Sie können Richtlinien mit dem Microsoft Teams Admin Center oder mit PowerShell
 Führen Sie die folgenden Schritte aus, um Benutzern die DisallowCalling-Anrufrichtlinie und die AllOff-Besprechungsrichtlinie zuzuweisen:
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**.
-2. Wählen Sie den Benutzer aus, indem Sie links neben dem Benutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
-3. Gehen Sie wie folgt vor:
+2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
+3. Gehen Sie folgendermaßen vor:
     1.  Klicken Sie unter **Anrufrichtlinie**auf **DisallowCalling**.
     2.  Klicken Sie unter **Besprechungsrichtlinie**auf **AllOff**.
 4. Klicken Sie auf **Anwenden**.
 
-Informationen zum Zuweisen einer Richtlinie zu mehreren Benutzern gleichzeitig finden Sie unter [Bearbeiten von Benutzereinstellungen für Teams in Massen](edit-user-settings-in-bulk.md).
+Informationen dazu, wie Sie eine Richtlinie mehreren Nutzern gleichzeitig zuweisen können, finden Sie unter [Batchbearbeitung von Nutzereinstellungen eines Teams](edit-user-settings-in-bulk.md).
 
 Sie können auch die folgenden Schritte ausführen:
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu der Richtlinie, die Sie zuweisen möchten. Beispiel:
     - Wechseln Sie zu **VoIP** > -**Anruf Richtlinien**, und klicken Sie dann auf **DisallowCalling**.
     - Wechseln Sie zu den**Besprechungsrichtlinien**für **Besprechungen** > , und klicken Sie dann auf **AllOff**.
-3. Wählen Sie **Benutzer verwalten** aus.
-4. Suchen Sie im Bereich **Benutzer verwalten** nach dem Benutzer mit Anzeigename oder nach Benutzername, wählen Sie den Namen aus, und klicken Sie dann auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
+3. Wählen Sie **Nutzer verwalten** aus.
+4. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
 5. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
 
 #### <a name="assign-policies-using-powershell"></a>Zuweisen von Richtlinien mithilfe von PowerShell
@@ -283,7 +283,7 @@ Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Besprechung
 
 ## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a>Migrieren von Teams auf VDI mit Chat und Zusammenarbeit zu Citrix mit anrufen und Besprechungen
 
-Wenn Sie über eine vorhandene Implementierung von Teams auf VDI mit Chat und Zusammenarbeit verfügen, bei denen Sie Richtlinien auf Benutzerebene zum Deaktivieren von Anruf-und Besprechungsfunktionen eingerichtet haben und Sie mit der AV-Optimierung zu Citrix migrieren, müssen Sie Richtlinien zum Aktivieren von Anrufen und Besprechungs Funktionalität für diese Teams für VDI-Benutzer.
+Wenn Sie über eine vorhandene Implementierung von Teams auf VDI mit Chat und Zusammenarbeit verfügen, bei denen Sie Richtlinien auf Benutzerebene zum Deaktivieren von Anruf-und Besprechungsfunktionen eingerichtet haben und Sie mit der AV-Optimierung zu Citrix migrieren, müssen Sie Richtlinien für die Aktivierung von Anruf-und Besprechungsfunktionen für diese Teams für VDI-Benutzer einrichten.
 
 ### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>Einrichten von Richtlinien zum Aktivieren von Anruf-und Besprechungsfunktionen
 
@@ -298,21 +298,21 @@ Sie können das Microsoft Teams Admin Center oder PowerShell verwenden, um Ihren
 Führen Sie die folgenden Schritte aus, um Benutzern die AllowCalling-Anrufrichtlinie und die Allon-Besprechungsrichtlinie zuzuweisen:
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**.
-2. Wählen Sie den Benutzer aus, indem Sie links neben dem Benutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
-3. Gehen Sie wie folgt vor:
+2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
+3. Gehen Sie folgendermaßen vor:
     1.  Klicken Sie unter **Anrufrichtlinie**auf **AllowCalling**.
     2.  Klicken Sie unter **Besprechungsrichtlinie**auf **Allon**.
 4. Klicken Sie auf **Anwenden**.
 
-Informationen zum Zuweisen einer Richtlinie zu mehreren Benutzern gleichzeitig finden Sie unter [Bearbeiten von Benutzereinstellungen für Teams in Massen](edit-user-settings-in-bulk.md).
+Informationen dazu, wie Sie eine Richtlinie mehreren Nutzern gleichzeitig zuweisen können, finden Sie unter [Batchbearbeitung von Nutzereinstellungen eines Teams](edit-user-settings-in-bulk.md).
 
 Sie können auch die folgenden Schritte ausführen:
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu der Richtlinie, die Sie zuweisen möchten. Beispiel:
     - Wechseln Sie zu **VoIP** > -**Anruf Richtlinien**, und klicken Sie dann auf **AllowCalling**.
     - Wechseln Sie zu den**Besprechungsrichtlinien**für **Besprechungen** > , und klicken Sie dann auf **Allon**.
-3. Wählen Sie **Benutzer verwalten** aus.
-4. Suchen Sie im Bereich **Benutzer verwalten** nach dem Benutzer mit Anzeigename oder nach Benutzername, wählen Sie den Namen aus, und klicken Sie dann auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
+3. Wählen Sie **Nutzer verwalten** aus.
+4. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
 5. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
 
 #### <a name="assign-policies-using-powershell"></a>Zuweisen von Richtlinien mithilfe von PowerShell

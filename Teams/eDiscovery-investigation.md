@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie vorgehen müssen, wenn Sie eDiscovery ausfüh
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 75098323afa8aef9e80223cbc1883e9c12cb53c6
-ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
+ms.openlocfilehash: 4b31f2efb613551ab17320900e45cf30d0ee11be
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/15/2020
-ms.locfileid: "43510694"
+ms.locfileid: "43521541"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams
 
@@ -43,12 +43,12 @@ Nicht alle Teams-Inhalte sind eDiscoverable. In der folgenden Tabelle sind die I
 | Zeitstempel, der zeigt, wann die einzelnen Benutzer eine Nachricht gelesen haben | Nein | |
 | Audioaufzeichnungen | Nein | |
 | Private Kanal Nachrichten | Nein | |
-| Emojis, GIFs, Aufkleber | Nein | |
+| Emojis, GIFs, Aufkleber | Ja | |
 | Code Ausschnitte | Nein | |
 | Chat-Links | Nein | |
 | Reaktionen (likes, Hearts usw.) | Nein | |
 | Bearbeitete Nachrichten | Ja | Wenn der Benutzer in Wartestellung ist, bleiben frühere Versionen bearbeiteter Nachrichten erhalten. |
-| Inline Bilder | Nein | |
+| Inline Bilder | Ja | |
 | Tabellen | Nein | |
 | Betreff | Nein | |
 | Anführungszeichen | Ja | Zitierte Inhalte sind durchsuchbar. Suchergebnisse deuten jedoch nicht darauf hin, dass der Inhalt zitiert wurde. |

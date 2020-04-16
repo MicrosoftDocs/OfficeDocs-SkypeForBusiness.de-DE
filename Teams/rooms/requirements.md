@@ -14,12 +14,12 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
-ms.openlocfilehash: 9dba3a9972dee782b3d2df2ce48f7f38c19fcbc1
-ms.sourcegitcommit: f0f2fa999c1ca4a1118377c7938a247f79217609
+ms.openlocfilehash: 2496fcb1af7d85a3d1c3ba755a2431aff40d5a70
+ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106682"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521601"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Anforderungen für Microsoft Teams-Räume
 
@@ -78,7 +78,7 @@ Alle aktuellen Microsoft Teams-Room-Geräte und-Bundles sind in der [Produktprä
   |Surface pro </br>(fünfte Generation) |Core i5 |8 GB oder 4 GB |128 GB oder mehr |
   |Surface pro 4 |Core i5 |8 GB oder 4 GB |128 GB oder mehr |
 
-- Eine der folgenden Optionen für die Docking-Station, um ein Tablet auf die Besprechungsraum Tabelle zu sichern.
+- Surface pro-Geräte erfordern eine der folgenden Optionen für die Docking-Station, um ein Tablet auf die Besprechungsraum Tabelle zu sichern.
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
