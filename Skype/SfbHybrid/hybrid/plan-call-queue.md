@@ -1,7 +1,7 @@
 ---
 title: Planen einer Cloud-Anrufwarteschlange
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung einer automatischen Cloud-Telefonzentrale mit Skype for Business Server 2019.
-ms.openlocfilehash: 24a0bba82ef38288f5c96cc7c51ce1bfb88c8f05
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: d14aeab9857f2a54e6622fb368193a2e270e0f49
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41735225"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510794"
 ---
 # <a name="plan-cloud-call-queues"></a>Planen von Cloud-Anrufwarteschlangen
 
@@ -31,7 +31,7 @@ Darüber hinaus können Cloud-Anrufwarteschlangen Folgendes bieten:
 Jeder Anrufwarteschlange wird ein **Ressourcenkonto** (siehe [Configure Resource Accounts](configure-onprem-ra.md)) auf Ihrem Skype for Business Server 2019-System zugewiesen, das direkt mit einer Anrufwarteschlange im Microsoft Teams Admin Center verknüpft wird. Weitere Informationen dazu, welche Anrufwarteschlangen und welche Optionen und Funktionen für Anrufwarteschlangen vorhanden sind, finden Sie unter [Erstellen einer Warteschlange für Cloud-Anrufe](/MicrosoftTeams/create-a-phone-system-call-queue) .
 
 > [!NOTE]
-> Sie können einer Anrufwarteschlange mehrere Telefonnummern zuweisen, es muss sich jedoch um Microsoft-Dienstnummern oder Hybrid Nummern handeln.
+> Sie können einer Anrufwarteschlange mehrere Telefonnummern zuweisen, Sie müssen jedoch Microsoft-Dienstnummern, direkte Routing Nummern oder Hybrid Nummern sein.
 
 ## <a name="requirements"></a>Anforderungen
 
@@ -61,9 +61,9 @@ Wenn Sie über eine solide Struktur verfügen, die Ihren Anforderungen entsprich
 
 [Aktivieren der Aufzeichnung benutzerdefinierter Ansagen über die Benutzerschnittstelle für Telefoneingaben](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[Was sind automatische Cloud-Telefonzentralen?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
+[Was sind automatische Cloudtelefonzentralen?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
-[Einrichten einer automatischen Cloud-Telefonzentrale](/MicrosoftTeams/create-a-phone-system-auto-attendant)
+[Einrichten einer automatischen Cloudtelefonzentrale](/MicrosoftTeams/create-a-phone-system-auto-attendant)
 
 [Planen der Hybridkonnektivität zwischen Skype for Business Server und Office 365](plan-hybrid-connectivity.md)
 

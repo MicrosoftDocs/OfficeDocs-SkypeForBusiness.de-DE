@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung einer automatischen Cloud-Telefonzentrale mit Skype for Business Server 2019
-ms.openlocfilehash: 2cb4c54e4c70e9187e44c5de3cb70fac85be30a6
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: f0b8018e7a926444e7920ccac31ed3ff4ab5c15f
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42150476"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510804"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planen automatischer Cloud-Telefonzentralen
 
@@ -25,10 +25,10 @@ Die mit Exchange Unified Messaging (Exchange Server 2013 oder Exchange Server 20
 
 Dies bedeutet inhärent, dass Sie eine hybride Implementierung von Skype for Business Server 2019 haben, wenn Sie Unified Messaging-Funktionen wie automatische Telefonzentralen verwenden möchten. Weitere Informationen finden Sie unter [Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](configure-hybrid-connectivity.md) .
 
-Eine automatische Telefonzentrale ist ein clouddienst, der Kundenanrufe akzeptiert und Begrüßungen wiedergibt, Ihnen Menü Optionen zur Verfügung stellt und mit dem Anrufer unter Verwendung von Speech oder dialpad interagiert, um Ihre Anrufe an das richtige Ziel weiterzuleiten. Jeder automatischen Telefonzentrale wird ein **Ressourcenkonto** (siehe[Configure Resource Accounts](configure-onprem-ra.md)) auf Ihrem Skype for Business Server 2019-System zugewiesen, das direkt mit einer automatischen Telefonzentrale im Microsoft Teams Admin Center verknüpft wird. Weitere Informationen finden Sie unter [Was sind automatische Cloud-Telefonzentralen?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) weitere Details zu den automatischen Telefonzentralen und den verfügbaren Optionen und Funktionen für automatische Telefonzentralen.
+Bei einer automatischen Telefonzentrale handelt es sich um einen clouddienst, der Kundenanrufe akzeptiert und Begrüßungen abgibt, Menü Optionen zur Verfügung stellt und mit Anrufern in Sprache oder der Wähltastatur interagiert, um Ihre Anrufe an das richtige Ziel weiterzuleiten. Jeder automatischen Telefonzentrale wird ein *Ressourcenkonto* (siehe [Configure Resource Accounts](configure-onprem-ra.md)) auf Ihrem Skype for Business Server 2019-System zugewiesen, das direkt mit einer automatischen Telefonzentrale im Microsoft Teams Admin Center verknüpft wird. Weitere Informationen finden Sie unter [Was sind automatische Cloud-Telefonzentralen?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) weitere Details zu den automatischen Telefonzentralen und den verfügbaren Optionen und Funktionen für automatische Telefonzentralen.
 
 > [!NOTE]
-> Sie können einer automatischen Telefonzentrale mehrere Microsoft-Dienstnummern oder Hybrid Nummern zuweisen.
+> Sie können einer automatischen Telefonzentrale mehrere Microsoft-Dienstnummern, direkte Routing Nummern oder Hybrid Nummern zuweisen.
 
 Ein eingehender Anruf bei einer automatischen Cloud-Telefonzentrale kann einen von mehreren Pfaden annehmen, wie hier gezeigt:
 
@@ -58,7 +58,7 @@ Zusätzlich zu den oben aufgeführten Anforderungen müssen die folgenden Anford
    Weitere Informationen finden Sie unter [Planen der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](plan-hybrid-connectivity.md) und [Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](configure-hybrid-connectivity.md).
 
 - Wenn Sie Ihrer automatischen Telefonzentrale eine Telefonnummer zuweisen, benötigen Sie eine [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) -Lizenz.
-- Erstellen Sie für jede automatische Telefonzentrale ein Online- [Ressourcenkonto](/MicrosoftTeams/manage-resource-accounts.md) oder ein lokales [Ressourcenkonto](configure-onprem-ra.md), und weisen Sie Telefonnummern und Lizenzen zu. 
+- Erstellen Sie für jede automatische Telefonzentrale ein Online- [Ressourcenkonto](/MicrosoftTeams/manage-resource-accounts.md) oder ein lokales [Ressourcenkonto](configure-onprem-ra.md) , und weisen Sie Telefonnummern und Lizenzen zu. 
 
 ## <a name="migration-and-interoperability"></a>Migration und Interoperabilität
 
@@ -108,7 +108,7 @@ Wenn Sie über eine solide Struktur verfügen, die Ihren Anforderungen entsprich
 
 [Aktivieren der Aufzeichnung benutzerdefinierter Ansagen über die Benutzerschnittstelle für Telefoneingaben](https://docs.microsoft.com/exchange/voice-mail-unified-messaging/greetings-announcements-menus-and-prompts/enable-custom-prompt-recording)
 
-[Was sind automatische Cloud-Telefonzentralen?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
+[Was sind automatische Cloudtelefonzentralen?](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants)
 
 [Einrichten einer automatischen Cloudtelefonzentrale](/microsoftteams/create-a-phone-system-auto-attendant)
 

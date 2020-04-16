@@ -13,20 +13,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Einrichten eines Ressourcenkontos für Skype for Business Server 2019.
-ms.openlocfilehash: 14d2f161be54ac61c866597bdad141cf31138fbd
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 1de087abdf08420a6300ae45466e9696aacb1ed1
+ms.sourcegitcommit: 477aac9e14fced139ee7dd827942ce35b9769b63
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892305"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43510784"
 ---
 # <a name="configure-resource-accounts"></a>Konfigurieren von Ressourcenkonten
 
 In Skype for Business Server 2019-Hybrid Implementierungen werden nur Cloud-Dienste verwendet, die vom Telefon System für Unified Messaging bereitgestellt werden und nicht in Exchange Online integriert werden können. In Skype for Business Server 2019 können Sie nun die Cloud-Anrufwarteschlangen und die hier beschriebenen automatischen Telefonzentralen verwenden, [was Sie mit dem Telefon System in Office 365 erhalten](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
-Um eine automatische Telefonzentrale oder eine Anrufwarteschlange mit Skype for Business Server 2019 zu verwenden, müssen Sie Ressourcenkonten erstellen, die als Anwendungsendpunkte fungieren und Telefonnummern zugewiesen werden können, und dann das Online Teams Admin Center verwenden, um die Anrufwarteschlange zu konfigurieren oder automatische Telefonzentrale. Dieses Ressourcenkonto kann online verwaltet werden (Weitere Informationen finden Sie unter [Verwalten von Ressourcenkonten in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) zum Erstellen von Online verwalteten Ressourcenkonten) oder lokal wie in diesem Artikel beschrieben. Normalerweise verfügen Sie über mehrere Telefon System-automatische Telefonzentralen oder Anrufwarteschlangen-Knoten, die jeweils einem Ressourcenkonto zugeordnet sind, das Online oder in Skype for Business Server 2019 verwaltet werden kann.
+Um eine automatische Telefonzentrale oder eine Anrufwarteschlange mit Skype for Business Server 2019 zu verwenden, müssen Sie Ressourcenkonten erstellen, die als Anwendungsendpunkte fungieren und Telefonnummern zugewiesen werden können, und dann mithilfe des Online Teams Admin Center die Anrufwarteschlange oder die automatische Telefonzentrale konfigurieren. Dieses Ressourcenkonto kann online verwaltet werden (Weitere Informationen finden Sie unter [Verwalten von Ressourcenkonten in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) zum Erstellen von Online verwalteten Ressourcenkonten) oder lokal wie in diesem Artikel beschrieben. Normalerweise verfügen Sie über mehrere Telefon System-automatische Telefonzentralen oder Anrufwarteschlangen-Knoten, die jeweils einem Ressourcenkonto zugeordnet sind, das Online oder in Skype for Business Server 2019 verwaltet werden kann.
 
-Wenn Sie über eine Exchange um automatische Telefonzentrale und ein Anruf Warteschlangensystem verfügen, müssen Sie vor dem Wechsel zu Exchange Server 2019 oder Exchange Online die Details wie unten beschrieben manuell aufzeichnen und dann mithilfe des Teams Admin Center ein vollständig neues System implementieren. .
+Wenn Sie über eine Exchange um automatische Telefonzentrale und ein Anruf Warteschlangensystem verfügen, müssen Sie vor dem Wechsel zu Exchange Server 2019 oder Exchange Online die Details wie unten beschrieben manuell aufzeichnen und dann mithilfe des Teams Admin Center ein vollständig neues System implementieren.
 
 ## <a name="overview"></a>Übersicht
 
@@ -105,7 +105,7 @@ Zum Erstellen eines Ressourcenkontos, das eine Telefonnummer verwendet, müssen 
 
    Das Ressourcenkonto benötigt eine zugewiesene Telefonnummer, wenn es einer automatischen Telefonzentrale oder einer Anrufwarteschlange zugewiesen wird. Benutzer (Teilnehmer-) Telefonnummern können keinem Ressourcenkonto zugewiesen werden, es dürfen nur Dienst gebührenpflichtige oder gebührenfreie Telefonnummern verwendet werden.
 
-     Sie können Ihrem Ressourcenkonto eine direkte Routing-Hybrid Nummer zuweisen. Ausführliche Informationen finden Sie unter [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan).
+     Sie können Ihrem Ressourcenkonto eine direkte Routing-oder Hybrid Nummer zuweisen. Ausführliche Informationen finden Sie unter [Plan Direct Routing](/MicrosoftTeams/direct-routing-plan) und [Plan Cloud Auto Attendants](plan-cloud-auto-attendant.md).
 
      > [!NOTE]
      > Direkte Routing-Dienstnummern, die Ressourcenkonten für die automatische Telefonzentrale und Anrufwarteschlangen zugewiesen werden, werden nur für Microsoft Teams-Benutzer und-Agents unterstützt.
