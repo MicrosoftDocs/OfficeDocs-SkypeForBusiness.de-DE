@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: ''
+ms.reviewer: stbyer
 description: Datenschutzhinweise und -Informationen für Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
@@ -16,32 +16,39 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22abb4bc7c5c68d2e628026c96ca5dc40ca87c98
-ms.sourcegitcommit: c40a7ada120180cd39f18b2e37f23223075abbf4
+ms.openlocfilehash: 924aaf1ad9c9d462a454260226b3a5340f0a68e2
+ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43535573"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43579571"
 ---
 # <a name="privacy-and-microsoft-teams"></a>Datenschutz und Microsoft Teams
 
 Wenn eine Organisation sich über die Verwendung von Microsoft Teams für Kommunikation und Zusammenarbeit Gedanken macht, muss der Datenschutz auf jeder Ebene gewährleistet werden. Die nachstehend aufgeführten Fragen sollten jegliche Fragestellungen bezüglich des Datenschutzes beantworten, die Ihnen bei der Planung der Implementierung von Teams oder zu einem späteren Zeitpunkt während der Nutzung von Teams entstehen.
 
-## <a name="what-personal-data-does-teams-collect-and-how-does-teams-use-this-data"></a>Welche persönlichen Daten werden von Teams gesammelt und wie werden diese Daten von Teams verwendet?
+## <a name="what-personal-data-does-microsoft-teams-collect-and-for-what-purposes-does-microsoft-teams-use-this-data"></a>Welche personenbezogenen Daten werden von Microsoft Teams gesammelt, und zu welchem Zweck verwendet Microsoft Teams diese Daten?
 
-Da Teams ein cloudbasierter Dienst ist, werden im Rahmen des Betriebs des Dienstes durch Microsoft unterschiedliche Datentypen verarbeitet und gespeichert. Zu diesen Daten gehören:
+Microsoft verarbeitet die personenbezogenen Daten in Microsoft Teams zur Bereitstellung der vereinbarten Dienste, wie in den [Microsoft Online Services-Nutzungsbedingungen](https://go.microsoft.com/fwlink/p/?linkid=2050263) definiert und letztlich zu den Zwecken, die vom Datenverantwortlichen bestimmt, der den Dienst erwirbt.Als cloudbasierter Dienst verarbeitet Microsoft Teams im Rahmen der Bereitstellung des Diensts unterschiedliche Arten personenbezogener Daten. Zu den personenbezogenen Daten gehören:
 
-- **Kundendaten** Kundendaten umfassen Inhalte wie Ihre Besprechungen, Chats, Voicemails, freigegebene Dateien, Aufzeichnungen und Transkriptionen. Microsoft greift niemals auf Ihre Inhalte zu.
-  - **Profildaten** Daten, die in Ihrem Unternehmen über Sie freigegeben sind. Beispiele hierfür sind Ihre E-Mail-Adresse, Ihr Profilbild und Ihre Telefonnummer.
-- **Anrufhistorie, Anrufqualität** Microsoft führt detaillierte Aufzeichnungen über die von Ihnen geführten Telefonate. Das ermöglicht es Ihnen, Ihre eigenen Anrufaufzeichnungen zu einem späteren Zeitpunkt zu durchsuchen. Microsoft leitet außerdem Details zu Besprechungen und Anrufdaten an Ihre Systemadministratoren weiter. Damit können Ihre Administratoren Probleme im Zusammenhang mit schlechter Anrufqualität und der Nutzung des Dienstes diagnostizieren. Zusätzlich bewahrt Microsoft Anrufaufzeichnungen zu Zwecken der Bereitstellung des Dienstes auf, z.B. für die Abrechnung oder die Problembehandlung.
-- **Support/Feedback-Daten** Daten, die beim Eröffnen eines Störungs-Tickets oder beim Senden von Feedback an Microsoft erstellt werden. Microsoft verpflichtet sich, diese Daten nur zu verwenden, um das Problem zu beheben oder das Produkt „Teams“ zu verbessern.
-- **Diagnose- und Dienstdaten** Microsoft sammelt zudem verschiedene Telemetriedaten zur Dienstnutzung. Das ermöglicht es Microsoft, den Dienst bereitzustellen (Problembehandlung, Sicherung und Aktualisierung des Produkts sowie Überwachung der Leistung) sowie einige interne Geschäftsvorgänge auszuführen. Einige Beispiele hierfür sind:
+- **Inhalte** Ihre Besprechungen, Chats, Voicemails, freigegebene Dateien, Aufzeichnungen und Transkriptionen.
+- **Profildaten** Daten, die in Ihrem Unternehmen über Sie freigegeben sind. Beispiele hierfür sind Ihre E-Mail-Adresse, Ihr Profilbild und Ihre Telefonnummer.
+- **Anrufverlauf** Ein detaillierter Verlauf der Telefongespräche, die Sie vornehmen, ermöglicht es Ihnen, Ihre eigenen Anrufaufzeichnungen zu einem späteren Zeitpunkt zu durchsuchen.
+- **Daten zur Anrufqualität** Ihren Systemadministratoren stehen Details zu Besprechungen und Anrufdaten zur Verfügung. Damit können Ihre Administratoren Probleme im Zusammenhang mit schlechter Anrufqualität und der Nutzung des Dienstes diagnostizieren.
+- **Support-/Feedbackdaten** Informationen im Zusammenhang mit Problembehandlungstickets oder an Microsoft gesendetem Feedback.
+- **Diagnose- und Dienstdaten** Diagnosedaten im Zusammenhang mit der Dienstnutzung. Diese personenbezogenen Daten ermöglichen es Microsoft, den Dienst bereitzustellen (Problembehandlung, Sicherung und Aktualisierung des Produkts sowie Überwachung der Leistung) sowie einige interne Geschäftsvorgänge auszuführen, z. B.
   - Ermitteln des Umsatzerlöses
   - Entwickeln von Metriken
   - Ermitteln der Dienstnutzung
   - Durchführen der Produkt- und Kapazitätsplanung
 
-Microsoft Teams verwendet die bereitgestellten Daten nur für die Bereitstellung der vereinbarten Dienste, die in den [Nutzungsbedingungen für Onlinedienste](https://go.microsoft.com/fwlink/p/?linkid=2050263) definiert sind.
+In dem Umfang, in dem Microsoft Teams personenbezogene Daten in Verbindung mit den legitimen Geschäftsvorgängen von Microsoft verarbeitet, ist Microsoft unabhängiger Datenverantwortlicher für diese Nutzung und als solcher verantwortlich für die Einhaltung aller geltenden Gesetze und Verpflichtungen eines Datenverantwortlichen.
+
+## <a name="legal-basis-of-processing"></a>Gesetzliche Grundlagen der Verarbeitung  
+
+Unsere Kunden sind Datenverantwortliche für die Daten, die Microsoft bereitgestellt werden, wie in den [Microsoft Online Services-Nutzungsbedingungen](https://go.microsoft.com/fwlink/p/?linkid=2050263) dargelegt, und sie legen die rechtlichen Grundlagen für die Verarbeitung fest.Microsoft wiederum verarbeitet die Daten entsprechend den Anweisungen des Kunden als Datenverarbeiter.
+
+Soweit Microsoft personenbezogene Daten im Zusammenhang mit seinen eigenen legitimen Geschäftsvorgängen verarbeitet, wie in den [Microsoft Online Services-Nutzungsbedingungen](https://go.microsoft.com/fwlink/p/?linkid=2050263) beschrieben, ist Microsoft unabhängiger Datenverantwortlicher für diese Verarbeitung, dessen Rechtsgrundlage berechtigte Interessen sind. "Legitime Geschäftsvorgängen von Microsoft" sind Folgende, jeweils als Vorfall bei der Bereitstellung von Microsoft-Teams an den Kunden: (1) Rechnungsstellung und Kontoführung; (2) Vergütung (z. B. Berechnung von Mitarbeiterprovisionen und Partneranreizen); (3) interne Berichterstellung und Modellierung (z. B. Prognosen, Einnahmen, Kapazitätsplanung, Produktstrategie); (4) Bekämpfung von Betrug, Cyberkriminalität oder Cyberangriffen, die Microsoft oder Microsoft-Produkte betreffen können; (5) Verbesserung der Kernfunktionalität der Barrierefreiheit, des Datenschutzes oder der Energieeffizienz; und (6) Finanzberichterstattung und Einhaltung gesetzlicher Verpflichtungen.
 
 ## <a name="what-third-parties-have-access-to-personal-data"></a>Welche Drittanbieter haben Zugriff auf personenbezogene Daten?
 
@@ -82,6 +89,3 @@ Wenn Microsoft Teams personenbezogene Daten basierend auf Ihrer Einwilligung ver
 ## <a name="contact-details-of-microsofts-data-protection-officer"></a>Kontaktinformationen des Datenschutzbeauftragten von Microsoft
 
 Falls Sie ein Datenschutzproblem, eine Beschwerde oder Frage an den Microsoft Chief Privacy Officer und den EU Data Protection Officer haben, kontaktieren Sie uns bitte über [unser Webformula](https://go.microsoft.com/fwlink/?LinkId=321116). Unser EU Data Protection Officer ist an folgender Anschrift erreichbar: Microsoft Place, South County Business Park, Leopardstown, Dublin 18, Ireland. Telefon: +353 1 706 3117.Sie können sich mit Anliegen oder Beschwerden auch an eine Datenschutzbehörde oder andere zuständige Behörde wenden.
-
-> [!IMPORTANT]
-> Bei jeglichen Konflikten zwischen diesem Dokument und den [Onlinedienstbedingungen](https://go.microsoft.com/fwlink/p/?linkid=2050263) sollen die Onlinedienstbedingungen maßgeblich sein.
