@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Hier finden Sie Informationen zu Skype for Business Cloud Connector Edition, eine Gruppe gepackter virtueller Computer (VMS), die eine lokale PSTN-Konnektivität mit dem Telefon System in Office 365 (Cloud PBX) implementieren.
-ms.openlocfilehash: 9530fa2815dc491e6cda3579a801c3d5430f9b41
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 055149121b5abdb2fa92f72278f94b35f8556dff
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018146"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779261"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Planen von Skype for Business Cloud Connector Edition
 
@@ -40,11 +40,11 @@ Cloud Connector Edition 2,1 ist jetzt verfügbar. Wenn Sie noch kein Upgrade auf
 > [!NOTE]
 > Microsoft unterstützt die frühere Version von Cloud Connector Edition für 60 Tage nach der Veröffentlichung einer neuen Version. Microsoft unterstützt Version 2.0.1 für 60 Tage nach der Veröffentlichung von 2,1, damit Sie Zeit für ein Upgrade erhalten. Alle Vorgängerversionen von 2.0.1 werden nicht mehr unterstützt.
 
-Cloud Connector Edition ist ein Hybrid Angebot, das aus einer Reihe von virtuellen Computern (VMS) besteht, die die lokale PSTN-Konnektivität mit dem Telefon System in Office 365 implementieren. Durch die Bereitstellung einer minimalen Skype for Business Server Topologie in einer virtualisierten Umgebung können Benutzer in Ihrer Organisation, die in der Cloud verwaltet werden, PBX-Dienste von der Microsoft-Cloud empfangen, die PSTN-Konnektivität wird jedoch über die vorhandene lokale VoIP-Verbindung bereitgestellt. Infrastruktur.
+Cloud Connector Edition ist ein Hybrid Angebot, das aus einer Reihe von virtuellen Computern (VMS) besteht, die die lokale PSTN-Konnektivität mit dem Telefon System in Office 365 implementieren. Durch die Bereitstellung einer minimalen Skype for Business Server Topologie in einer virtualisierten Umgebung können Benutzer in Ihrer Organisation, die in der Cloud verwaltet werden, PBX-Dienste von der Microsoft-Cloud empfangen, die PSTN-Konnektivität wird jedoch über die vorhandene lokale VoIP-Infrastruktur bereitgestellt.
 
 ![Topologie-Diagramm mit Cloud PBX-Gateway, das Cloud PBX mit einer lokalen Bereitstellung von Skype for Business verbindet.](../../media/bd898e69-6458-4276-aebe-1854f28ed6fa.png)
 
-Da Cloud Connector die Integration von Telefonsystemen in Office 365 Diensten in Ihre vorhandene Telefonie-Umgebung ermöglicht (beispielsweise Nebenstellenanlage, analoge Geräte und Callcenter), können Sie eine phasenweise Migration von Ihrer vorhandenen Telefonielösung zu telefonieren implementieren. System in Office 365.
+Da Cloud Connector die Integration von Telefonsystemen in Office 365 Diensten in Ihre vorhandene Telefonie-Umgebung ermöglicht (beispielsweise Nebenstellenanlage, analoge Geräte und Callcenter), können Sie eine phasenweise Migration von der vorhandenen Telefonielösung in das Telefonsystem in Office 365 implementieren.
 
 Nehmen Sie beispielsweise an, dass Ihr Unternehmen über ein ausgeklügeltes Callcenter mit spezifischen Funktionen verfügt, die das Telefon System in Office 365 nicht bereitstellt. Sie können die Benutzer des Callcenters mit der vorhandenen Lösung verlassen, aber andere Benutzer in Office 365 an das Telefon System verlagern.
 
@@ -52,7 +52,7 @@ Cloud Connector stellt eine Weiterleitung zwischen den lokal verwalteten Benutze
 
 Berücksichtigen Sie beim Planen der Cloud Connector Edition-Bereitstellung Folgendes:
 
-- Um Cloud Connector zum Nutzen von Cloud-VoIP-Lösungen nutzen zu können, müssen Sie sich für einen Office 365 Mandanten registrieren, der das Telefon System in Office 365 enthält. Wenn Sie noch nicht über einen Office 365-Mandanten verfügen, erfahren Sie hier, wie Sie sich anmelden können: [Office 365 for Business](https://products.office.com/business/office). Beachten Sie, dass Sie sich für einen Plan registrieren müssen, der Skype for Business Online enthält.
+- Um Cloud Connector zum Nutzen von Cloud-VoIP-Lösungen nutzen zu können, müssen Sie sich für eine Office 365 Organisation anmelden, die Telefon System in Office 365 umfasst. Wenn Sie noch nicht über eine Office 365 Organisation verfügen, erfahren Sie hier, wie Sie sich anmelden können: [Office 365 for Business](https://products.office.com/business/office). Beachten Sie, dass Sie sich für einen Plan registrieren müssen, der Skype for Business Online enthält.
 
 - Zum Registrieren von Cloud Connector-Appliances mit dem Skype for Business Online-Dienst und zum Ausführen verschiedener Cmdlets erfordert Cloud Connector 2,0 und höher ein dediziertes Office 365 Konto mit den Skype for Business Mandanten Administrator Rechten. Cloud Connector-Versionen vor 2,0 erfordern ein dediziertes Office 365 Konto mit globalen Mandanten Administrator Rechten.
 
@@ -101,7 +101,7 @@ Dieses Thema enthält die folgenden Abschnitte:
 ## <a name="cloud-connector-edition-components"></a>Cloud Connector Edition-Komponenten
 <a name="BKMK_Components"> </a>
 
-Mit Cloud Connector Edition stellen Sie eine Gruppe von verpackten VMS bereit, die eine minimale Skype for Business Server Topologie enthalten, die aus einer Edge-Komponente, einer vermittlungskomponente und einer zentraler Verwaltungsspeicher (CMS)-Rolle besteht. Sie müssen auch einen Domänencontroller installieren, der für die interne Funktion von Cloud Connector erforderlich ist. Diese Dienste sind für eine Hybrid Konfiguration mit Ihrem Office 365-Mandanten konfiguriert, der Skype for Business Online Dienste enthält.
+Mit Cloud Connector Edition stellen Sie eine Gruppe von verpackten VMS bereit, die eine minimale Skype for Business Server Topologie enthalten, die aus einer Edge-Komponente, einer vermittlungskomponente und einer zentraler Verwaltungsspeicher (CMS)-Rolle besteht. Sie müssen auch einen Domänencontroller installieren, der für die interne Funktion von Cloud Connector erforderlich ist. Diese Dienste sind für eine Hybrid Konfiguration mit Ihrer Office 365 Organisation konfiguriert, die Skype for Business Online Dienste umfasst.
 
 ![Cloud Connector Edition-Komponenten](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
@@ -262,7 +262,7 @@ Stellen Sie vor der Bereitstellung von Cloud Connector Edition sicher, dass Sie 
 
   - Externer DNS-Eintrag für Zugriffs-Edgedienst der Edge-Komponente; Beispiel: AP.\<Domain Name.\> Sie benötigen einen Eintrag pro PSTN-Standort. Dieser Datensatz muss IP-Adressen aller Ränder für diese Website enthalten.
 
-- Ein Office 365-Mandant, für den alle erforderlichen DNS-und SRV-Einträge erstellt wurden.
+- Eine Office 365 Organisation, für die alle erforderlichen DNS-und SRV-Einträge erstellt wurden.
 
     > [!IMPORTANT]
     > Wenn Sie Ihren Mandanten in Cloud Connector Edition integrieren, wird die Verwendung des Standarddomänen Suffixes. onmicrosoft.com als SIP-Domäne für Ihre Organisation nicht unterstützt. > Sie SIP nicht verwenden können. \<Domänenname\> als Name Ihrer Cloud Connector-Edge-Zugriffs-Proxyschnittstelle, da dieser DNS-Eintrag von Office 365 verwendet wird.
@@ -442,7 +442,7 @@ Wenn restriktivere Regeln erforderlich sind, lesen Sie die folgenden URL-Listen:
 
 Die Edge-Komponente muss die externen Namen von Office 365 Diensten und die internen Namen anderer Cloud Connector-Komponenten auflösen.
 
-Jede Edge-Komponente ist ein mehrfach vernetzter Computer mit externen und internen Schnittstellen. Cloud Connector stellt DNS-Server auf der Domänen Controller Komponente innerhalb des Umkreisnetzwerks bereit. Sie können Edgeserver auf den DNS-Server innerhalb des Perimeters für alle Namensauflösungen hinweisen, aber Sie müssen den Cloud Connector-DNS-Server aktivieren, um externe Namen aufzulösen, indem Sie eine DNS-Zone mit mindestens einem DNS-a-Eintrag für externe Abfragen festlegen, die den Namen referieren. Lookups auf andere öffentliche DNS-Server.
+Jede Edge-Komponente ist ein mehrfach vernetzter Computer mit externen und internen Schnittstellen. Cloud Connector stellt DNS-Server auf der Domänen Controller Komponente innerhalb des Umkreisnetzwerks bereit. Sie können Edgeserver auf den DNS-Server innerhalb des Perimeters für alle Namensauflösungen hinweisen, aber Sie müssen den Cloud Connector-DNS-Server aktivieren, um externe Namen aufzulösen, indem Sie eine DNS-Zone mit mindestens einem DNS-a-Eintrag für externe Abfragen festlegen, die Namenssuche auf andere öffentliche DNS-Server referenzieren.
 
 Wenn Sie in der INI-Datei den FQDN-Namen für Gateways aus demselben Domänen Raum wie Ihre SIP-Domäne festlegen, wird die autorisierende Zone für diese SIP-Domäne auf dem DNS-Server innerhalb des Perimeters erstellt. Wenn Edgeserver auf diesen DNS-Server verwiesen wird, um Namen aufzulösen, löst Edge das _sipfederationtls nie auf. \<yourdomain\> -DNS-Eintrag, der für den Anruffluss erforderlich ist. In diesem Fall empfiehlt Microsoft, dass Sie einen DNS-Server auf der externen Edge-Schnittstelle zum Auflösen von Internet Namen suchen bereitstellen, und jede Edge-Komponente muss eine Hostdatei zum Auflösen anderer Cloud Connector-Komponentennamen in IP-Adressen verwenden.
 
@@ -455,7 +455,7 @@ Wenn Sie in der INI-Datei den FQDN-Namen für Gateways aus demselben Domänen Ra
 Zunächst müssen Sie die folgenden allgemeinen Bereitstellungsparameter definieren:
 
 
-|**Element**|**Beschreibung**|**Hinweise**|
+|**Item**|**Beschreibung**|**Hinweise**|
 |:-----|:-----|:-----|
 |SIP-Domänen  <br/> |SIP-URI wird von Unternehmensbenutzern verwendet. Stellen Sie alle SIP-Domänen bereit, die von dieser Bereitstellung bedient werden. Sie können mehr als eine SIP-Domäne haben.  <br/> ||
 |Anzahl der PSTN-Standorte  <br/> |Die Anzahl der PSTN-Standorte, die Sie bereitstellen werden.  <br/> ||
@@ -483,7 +483,7 @@ Optional Um die ausgehenden Anrufnummern einzuschränken, aktualisieren Sie den 
 |Sitename  <br/> |Skype for Business Websitename; Beispiel: Seattle.  <br/> Name in der INI-Datei: "Sitename"  <br/> Für Version 1.4.1 und höher muss der Standortname für jeden Standort unterschiedlich sein, und der Name muss mit dem in Office 365 definierten PSTN-Standort übereinstimmen. Beachten Sie, dass PSTN-Standorte automatisch beim Registrieren der ersten Appliance an einem Standort erstellt werden.  <br/> ||
 |Hardware Type  <br/> Version 1.4.1 und höher  <br/> |Typ der Hardware. Der Standardwert ist "Normal". Sie können auch auf "Minimum" festlegen.  <br/> ||
 |Country Code  <br/> |Landesvorwahl für das wählen.  <br/> Name in der INI-Datei: "CountryCode"  <br/> ||
-|Stadt  <br/> |Stadt (optional).  <br/> Name in der INI-Datei: "City"  <br/> ||
+|Stadt/Ort  <br/> |Stadt (optional).  <br/> Name in der INI-Datei: "City"  <br/> ||
 |Status  <br/> |Status (optional).  <br/> Name in der INI-Datei: "Status"  <br/> ||
 |Basis-VM-IP-Adresse  <br/> |Die IP-Adresse der temporären Basis-VM, die zum Erstellen der VHDX für alle virtuellen Computer in Cloud Connector verwendet wird. Diese IP-Adresse muss sich im selben Subnetz des Umkreis Unternehmensnetzwerks befinden, das im nächsten Schritt definiert ist, und erfordert Internet Zugriff. Stellen Sie sicher, dass Sie das Standardgateway für Unternehmen und den DNS definieren, der mit dem Internet geroutet werden kann.  <br/> Name in der INI-Datei: "BaseVMIP"  <br/> ||
 |WSUSServer  <br/> WSUSStatusServer  <br/> Version 1.4.1 und höher  <br/> |Die Adresse von Windows Server Update Services (WSUS) – einem Intranetserver, auf dem Updates von Microsoft Update gehostet werden.  <br/> Sie können leer lassen, wenn WSUS nicht benötigt wird.  <br/> ||

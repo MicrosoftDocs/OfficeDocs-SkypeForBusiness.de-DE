@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Zusammenfassung: Skype for Business Server 2019 oder Skype for Business Online Administratoren können diese Tabellen verwenden, um zu verstehen, welche Features auf welchen Clients unterstützt werden.'
-ms.openlocfilehash: f8b50614d663104e1307b233449ccffc0e26adb5
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 3d56744e9c383e018c5954422d4e1b6be4035b32
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129488"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779431"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Vergleich der Desktop-Clientfunktionen für Skype for Business Server 2019
 
@@ -72,7 +72,7 @@ In dieser Tabelle werden die Features im Zusammenhang mit der Verwaltung von Cha
 | Unternehmensadressbuch durchsuchen                                                             | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Microsoft Outlook-Kontakte durchsuchen                                                             | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Kontaktgruppen verwalten                                                                         | &#x2714;                                      | &#x2714;                  | &#x2714;         |
-| Erweitern von Verteilergruppen und Office 365 Gruppen                                              | &#x2714;                                      | &#x2714;                  | &#x2714;         |
+| Erweitern von Verteilergruppen und Microsoft 365-Gruppen                                              | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Nach Reaktionsgruppen suchen  <br/> (nicht verfügbar in Skype for Business Online)                | &#x2714;                                      |                           | &#x2714;         |
 | Gruppe "Letzte Kontakte" anzeigen                                                                 | &#x2714;                                      |                           | &#x2714;         |
 | Gruppe "Aktuelle Unterhaltungen" anzeigen                                                           | &#x2714;                                      | &#x2714;                  | &#x2714;         |

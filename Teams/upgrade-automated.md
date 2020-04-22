@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ed959f74be1074ab8ed60b3fe54f06384b7990a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b42785d4f8d765e7d9600c2e195e48d7ec60d8ba
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836167"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780654"
 ---
 # <a name="automated-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Automatisierte Upgrades von Skype for Business Online auf Microsoft Teams
 
@@ -35,7 +35,7 @@ Für ein erfolgreiches Upgrade von Skype for Business zu Microsoft Teams ist ein
 
 Skype for Business Online-Kunden, die für automatisierte Upgrades an Teams berechtigt sind, erhalten eine Reihe von Aktualisierungsbenachrichtigungen, die 30 Tage vor dem geplanten Upgrade-Datum beginnen. Diese Benachrichtigungen werden als *Plan für Änderungs* Beiträge im Admin-Nachrichten Center bereitgestellt, aktualisieren e-Mails an den globalen Administrator und in-App-Flags für Endbenutzer.
 
-Diese Benachrichtigungen übermitteln das geplante Datum des automatisierten Upgrades, führen Links zu Ressourcen und Schulungen für Upgrades, um die Einführung und Nutzung von Teams zu fördern, und geben Kunden die Möglichkeit, ihr automatisches Upgrade auf weitere 30 Tage zu verschieben. das Ereignis, das Sie nicht zum geplanten Datum aktualisieren können.
+Diese Benachrichtigungen vermitteln das geplante Datum des automatisierten Upgrades, führen Links zu Ressourcen und Schulungen für Upgrades, um die Einführung und Nutzung von Teams zu verbessern, und geben Kunden die Möglichkeit, Ihr automatisiertes Upgrade um weitere 30 Tage zu verschieben, wenn Sie nicht bereit sind, um das geplante Datum zu aktualisieren.
 
 ## <a name="the-automated-upgrade-experience"></a>Das automatisierte Upgrade
 
@@ -56,7 +56,7 @@ Nach Abschluss des automatisierten Upgrades ist der **Koexistenzmodus** nur auf 
 
 Erfolgreiche Übergänge von Skype for Business Online zu Microsoft Teams erfordern technische Planung und Benutzer Bereitschaft, um sicherzustellen, dass Ihre Organisation bereit ist, die erweiterte Funktionalität und Leistung von Teams zu nutzen. Bei der Planung Ihres Upgrades können Sie jedoch feststellen, dass Ihre Organisation derzeit noch nicht bereit ist, auf Teams zu aktualisieren.
 
-Wenn Sie eine Benachrichtigung bezüglich Ihres geplanten automatisierten Upgrades für Teams erhalten und Sie auf einen späteren Termin verschieben möchten, kann sich der globale Administrator von Office 365 beim Team-Administratorportal anmelden und auf die Schaltfläche " *verschieben* " klicken. Auf diese Weise wird der automatisierte Upgrade-Termin 30 Tage lang verdrängt. Wenn Sie das Team-Administratorportal nach dem Verschieben aktualisieren, wird eine Benachrichtigung angezeigt, die Ihr neues automatisches Aktualisierungsdatum enthält.
+Wenn Sie eine Benachrichtigung über Ihr geplantes automatisiertes Upgrade auf Teams erhalten und Sie zu einem späteren Zeitpunkt verschieben möchten, kann sich der globale Administrator beim Team-Administratorportal anmelden und auf die Schaltfläche " *verschieben* " klicken. Auf diese Weise wird der automatisierte Upgrade-Termin 30 Tage lang verdrängt. Wenn Sie das Team-Administratorportal nach dem Verschieben aktualisieren, wird eine Benachrichtigung angezeigt, die Ihr neues automatisches Aktualisierungsdatum enthält.
 
 ## <a name="requests-to-downgrade-to-skype-for-business"></a>Anforderungen für ein Downgrade auf Skype for Business
 

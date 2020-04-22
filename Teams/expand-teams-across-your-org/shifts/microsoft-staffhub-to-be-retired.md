@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 53d82dc346226215101c837dcf8a2f10dd6ff2fc
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 4c37d0c606a52893b69a101c99ef962e46d4deb3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141178"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780634"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Microsoft StaffHub soll eingestellt werden
 
@@ -97,7 +97,7 @@ Schichten sind in den folgenden Sprachen verfügbar: Chinesisch (vereinfacht), E
 
 #### <a name="where-is-shifts-data-stored"></a>Wo werden schichtdaten gespeichert?
 
-Schichten Daten werden in Azure in Rechenzentren in Nordamerika und Westeuropa gespeichert. SharePoint-Inhalte nutzen Office 365-Gruppen und verwenden denselben Speicher und Support.
+Schichten Daten werden in Azure in Rechenzentren in Nordamerika und Westeuropa gespeichert. SharePoint-Inhalte nutzen Microsoft 365-Gruppen und verwenden denselben Speicher und Support.
 
 Weitere Informationen finden Sie unter [Speicherort von schichtdaten](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data).
 
@@ -131,9 +131,9 @@ Teams unterstützt die Koexistenz mit Skype for Business. Weitere Informationen 
 
 Ja, jeder Manager und jedes Teammitglied, das Teams und Schichten innerhalb von Teams verwendet, muss über ein Office 365-Konto (Azure AD) verfügen, und es muss eine gültige Lizenz zugewiesen sein.
  
-#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-office-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>In StaffHub kann ich allen Office 365-Gruppen, die von StaffHub Teams erstellt wurden, ein spezielles Präfix hinzufügen. Kann ich dasselbe in Teams tun?
+#### <a name="in-staffhub-i-could-add-a-special-prefix-to-all-microsoft-365-groups-that-were-created-by-staffhub-teams-can-i-do-the-same-in-teams"></a>In StaffHub kann ich allen Microsoft 365-Gruppen, die von StaffHub Teams erstellt wurden, ein spezielles Präfix hinzufügen. Kann ich dasselbe in Teams tun?
 
-Sie haben nicht die gleiche Funktion, wenn Sie von StaffHub zu Teams wechseln. Wenn Sie die namens Konsistenz auf alle Ihre Office 365-Gruppen anwenden müssen, können Sie die [Namensgebungsrichtlinie für Office 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)verwenden.
+Sie haben nicht die gleiche Funktion, wenn Sie von StaffHub zu Teams wechseln. Wenn Sie eine namens Konsistenz auf alle Microsoft 365-Gruppen anwenden müssen, können Sie die [Namensgebungsrichtlinie für Microsoft 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy)verwenden.
 
 #### <a name="will-team-names-be-the-same-in-teams"></a>Werden Teamnamen in Teams identisch sein?
 
@@ -149,7 +149,7 @@ Wir empfehlen Ihnen, Ihre vorhandenen Team Arbeitspläne auf StaffHub zu überpr
 
 Der Zeitplan des Benutzers wird in Schichten verschoben, aber der Benutzer ist nicht Mitglied des Teams oder einer Office 365-Gruppe.
 
-Bei inaktiven Konten, die nicht mit einem Azure AD-Benutzerkonto verknüpft sind, kann ein Manager sicherstellen, dass der Benutzer als Mitglied des Teams hinzugefügt wird, indem eine gültige Office 365-e-Mail-Adresse auf der StaffHub-Teammitglieder-Seite hinzugefügt wird, damit der Benutzer mit dem korrekten Azure AD-Konto in seiner Organisation verknüpft ist.
+Bei inaktiven Konten, die nicht mit einem Azure AD-Benutzerkonto verknüpft sind, kann ein Manager sicherstellen, dass der Benutzer als Mitglied des Teams hinzugefügt wird, indem eine gültige Microsoft 365-oder Office 365-e-Mail-Adresse auf der StaffHub-Teammitglieder Seite hinzugefügt wird, damit der Benutzer mit dem korrekten Azure AD-Konto in seiner Organisation verknüpft ist
 
 Eine weitere Möglichkeit besteht darin, dass Administratoren die Cmdlets **Add-StaffHubMember** und **Remove-StaffHubUser** ausführen, um ein nicht bereitgestelltes Konto aus einem StaffHub-Team zu entfernen und den Benutzer mit dem UPN wieder dem Team hinzuzufügen.
 

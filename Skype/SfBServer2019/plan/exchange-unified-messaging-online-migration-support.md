@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst ("Moreo") bis zum 28. Februar 2020 in Ruhestand. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: c39485de1acceef0dc340f039a1586b3e6014522
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: ab0040887b41fc62786f21c889f7dd63aae011b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417620"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780774"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange Unified Messaging-Online Migrationsunterstützung
 
@@ -82,7 +82,7 @@ Microsoft hat verschiedene Kundenbereitstellungen identifiziert, die Features vo
     Achten Sie auf einen Hinweis im Administrator-Benachrichtigungs Center mit weiteren Details und Zeitachsen zur Migration Ihrer Benutzer. Benachrichtigungen werden mindestens 30 Tage vor Ihrem Migrationszeitraum gesendet. 
 
     > [!Note]
-    > Wenn Sie eine Benachrichtigung mit dem Migrationszeitplan Ihrer Benutzer erhalten haben und die Migration aus geschäftlichen Gründen verschieben möchten, wenden Sie sich an den Microsoft-Support. Beachten Sie, dass Sie die Migration nicht über das Renten Datum hinaus verschieben können, am 28. Februar 2020. Wenden Sie sich für Kunden, die möglicherweise weitere Fragen haben, an Ihr Konto Team oder an den Microsoft-Support. Kunden, die bereits Office 365 verwenden, können einen Supportfall über das Office 365-Verwaltungsportal übermitteln. 
+    > Wenn Sie eine Benachrichtigung mit dem Migrationszeitplan Ihrer Benutzer erhalten haben und die Migration aus geschäftlichen Gründen verschieben möchten, wenden Sie sich an den Microsoft-Support. Beachten Sie, dass Sie die Migration nicht über das Renten Datum hinaus verschieben können, am 28. Februar 2020. Wenden Sie sich für Kunden, die möglicherweise weitere Fragen haben, an Ihr Konto Team oder an den Microsoft-Support. Kunden, die Office 365 bereits verwenden, können über das Microsoft 365 Admin Center einen Supportfall übermitteln. 
 
 6. **Sie sollten sich für eine geplante Migration entscheiden**
 
@@ -104,9 +104,9 @@ Microsoft hat verschiedene Kundenbereitstellungen identifiziert, die Features vo
 
 ## <a name="auto-attendant-migration-guidelines"></a>Migrationsrichtlinien für die automatische Telefonzentrale
 
-Office 365 mandantenadministratoren müssen Ihre Exchange um Online-automatischen Telefonzentralen im Microsoft Cloud-Dienst für automatische Telefonzentralen neu erstellen und ihre lokalen Telefonnummern vor dem 28. Februar 2020, in dem der Exchange-UMO-Dienst verwendet wird, umschalten. eingestellt. Dies ist die empfohlene Richtlinie für die erfolgreiche Migration und den Test neuer automatischer Cloud-Telefonzentralen. Wenn Sie eine große Anzahl von automatischen Telefonzentralen haben, können Sie die automatische Telefonzentrale mit der [Exchange um automatischen](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) Telefonzentrale migrieren, um die Massenmigration von automatischen Telefonzentralen zu vereinfachen.
+Office 365 Organisationsadministratoren müssen Ihre automatischen Exchange um Online-Telefonzentralen im Microsoft Cloud-Dienst für automatische Telefonzentralen neu erstellen und ihre lokalen Telefonnummern vor dem 28. Februar 2020, in dem der Exchange-UMO-Dienst zurückgezogen wird, umschalten. Dies ist die empfohlene Richtlinie für die erfolgreiche Migration und den Test neuer automatischer Cloud-Telefonzentralen. Wenn Sie eine große Anzahl von automatischen Telefonzentralen haben, können Sie die automatische Telefonzentrale mit der [Exchange um automatischen](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) Telefonzentrale migrieren, um die Massenmigration von automatischen Telefonzentralen zu vereinfachen.
 
-### <a name="setup"></a>Einrichtung
+### <a name="setup"></a>Setup
 
 Es wird dringend empfohlen, frühzeitig mit der Einrichtung ihrer neuen automatischen Telefonzentralen zu beginnen, um Probleme mit der Last Minute zu vermeiden und sich mit der Funktionalität und Erfahrung des automatischen Cloud-Telefonzentralen Diensts vertraut zu machen. Für automatische Telefonzentralen, die ein oder mehrere Lücken Features benötigen, können Sie die automatischen Telefonzentralen erstellen und testen, wenn die Lücken Funktionen zur Vorbereitung auf die Bereitstellung zur Verfügung stehen. Weitere Informationen zu GAP-Funktionen finden Sie im [Anhang](#appendix).
 
@@ -127,7 +127,7 @@ Es wird dringend empfohlen, frühzeitig mit der Einrichtung ihrer neuen automati
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matrix für die Feature-und Azure-Cloud-basierte Dienste
 
-| Dienst | Funktionsebene | Feature | Notes  | Cloud VM/AA  | ExUMO |
+| Dienst | Funktionsebene | Feature | Anmerkungen  | Cloud VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VM  | Dienstfunktionen| Unterstützung für Drittanbieter-PBX    | Einschließlich aller Funktionen, die an Drittanbieter-Nebenstellenanlagen wie MWI (Message Waiting Indicator) mit SIP NOTIFY-Nachrichten von Exchange um Online bereitgestellt werden | N   | v    |
 | VM | Dienstfunktionen  | Support Skype for Business Server   |  | v | v    |

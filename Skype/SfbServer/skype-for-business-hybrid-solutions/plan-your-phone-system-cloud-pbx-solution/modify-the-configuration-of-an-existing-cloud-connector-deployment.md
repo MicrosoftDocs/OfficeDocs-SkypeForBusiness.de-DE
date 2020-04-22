@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Führen Sie die Schritte in diesem Thema aus, um die Konfiguration einer vorhandenen Skype for Business Cloud Connector Edition 1.4.1 oder höher-Bereitstellung zu ändern.
-ms.openlocfilehash: 4c2c0b8ad5340cd4ae4275f1ac009bf3d9d3ec0b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 77e9940e10cc356afbade5592bf41a0cdba66b0f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42018006"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779381"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Ändern der Konfiguration einer vorhandenen Cloud Connector-Bereitstellung
  
@@ -109,7 +109,7 @@ Wenn sich mehr als eine Appliance am Standort befindet, müssen Sie die folgende
 
 Wenn Sie die Konfiguration für mehrere Websites in einer Bereitstellung ändern möchten, führen Sie die Schritte für einen einzelnen Standort aus, und aktualisieren Sie gleichzeitig einen Standort.
   
-## <a name="modify-the-configuration-of-your-office-365-tenant-to-enable-automatic-updates"></a>Ändern der Konfiguration des Office 365 Mandanten, um automatische Updates zu aktivieren
+## <a name="modify-the-configuration-of-your-office-365-organization-to-enable-automatic-updates"></a>Ändern der Konfiguration Ihrer Office 365 Organisation zur Aktivierung automatischer Updates
 <a name="BKMK_MultipleSites"> </a>
 
 Zum Aktivieren von automatischen Updates für das Betriebssystem und für automatische Bits-Aktualisierungen müssen Sie das Skype for Business mandantenadministrator Konto für die Online Verwaltung verwenden und die Remote-Mandanten-PowerShell wie folgt verwenden.
@@ -161,7 +161,7 @@ Wenn Sie automatische Updates für das Betriebssystem oder automatische Bits-Upd
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>Aktualisieren der dedizierten Administratoranmeldeinformationen für Mandanten
 <a name="BKMK_MultipleSites"> </a>
 
-Administrative Änderungen im Office 365 Mandanten für Cloud Connector werden von einem Konto mit den erforderlichen Berechtigungen vorgenommen. In Cloud Connector-Versionen vor 2,0 ist dieses Konto ein dediziertes globales mandantenadministrator Konto. In Cloud Connector-Versionen 2,0 und höher kann dieses Konto ein Office 365 Konto mit Skype for Business Administrator Rechten sein.
+Administrative Änderungen in der Office 365 Organisation für Cloud Connector werden von einem Konto mit den erforderlichen Berechtigungen vorgenommen. In Cloud Connector-Versionen vor 2,0 ist dieses Konto ein dediziertes globales mandantenadministrator Konto. In Cloud Connector-Versionen 2,0 und höher kann dieses Konto ein Office 365 Konto mit Skype for Business Administrator Rechten sein.
   
 Wenn sich die Anmeldeinformationen Ihres Administratorkontos in Office 365 ändern, müssen Sie auch die lokal zwischengespeicherten Anmeldeinformationen in Cloud Connector aktualisieren, indem Sie den folgenden Administrator-PowerShell-Befehl auf jeder von Ihnen bereitgestellten Cloud Connector-Appliance ausführen:
   

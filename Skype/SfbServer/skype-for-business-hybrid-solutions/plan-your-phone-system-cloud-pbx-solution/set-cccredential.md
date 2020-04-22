@@ -1,5 +1,5 @@
 ---
-title: Set-CcCredential
+title: Gruppe-CcCredential
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
-description: 'Das Cmdlet „Set-CcCredential“ legt die Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung fest. '
-ms.openlocfilehash: b7620a6d76415e4e2a49ea9bd628d1e1cba7f4ff
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Das Cmdlet Set-CcCredential legt die Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung fest.
+ms.openlocfilehash: a97d85ef6fec31383b349e9a0c3b3d9e25d04337
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824209"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780674"
 ---
-# <a name="set-cccredential"></a>Set-CcCredential
+# <a name="set-cccredential"></a>Gruppe-CcCredential
  
-Das Cmdlet „Set-CcCredential“ legt die Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung fest.  
+Das Cmdlet Set-CcCredential legt die Anmeldeinformationen der aktuellen Skype for Business Cloud Connector Edition-Bereitstellung fest. 
   
-Mit Cloud Connector, Version 2,0 und höher, kann dieses Cmdlet auch die Kontoinformationen für den Virtual Machine-Administrator und für den Domänenadministrator einrichten.
+Mit Cloud Connector Version 2,0 und höher können mit diesem Cmdlet auch die Kontoinformationen für den Administrator des virtuellen Computers und für den Domänenadministrator festgelegt werden.
   
 ```powershell
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
@@ -35,7 +35,7 @@ Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
 
 ### <a name="example-1"></a>Beispiel 1
 
-Im folgenden Beispiel werden der Kontoname und das Kennwort für den Mandantenadministrator angegeben:
+Das folgende Beispiel gibt den Kontonamen und das Kennwort für den mandantenadministrator an:
   
 ```powershell
 Set-CcCredential -AccountType "TenantAdmin"
@@ -44,19 +44,19 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Das Cmdlet „Set-CcCredential“ legt den Kontonamen und das Kennwort für den Mandantenadministrator fest. Für Versionen vor Version 2.0 muss dieser Administrator ein globaler Office 365-Administrator sein. Cloud Connector verwendet dieses Konto, um Konfigurationsinformationen abzurufen, Konfigurationsparameter einzurichten und den Appliance-Status auf die Office 365-Mandanten Konfiguration zu aktualisieren. Mit Version 2,0 und höher können Sie auch dieses Cmdlet verwenden, um die Kennwörter für die VmAdmin-und DomainAdmin-Konten zu aktualisieren.
+Das Cmdlet Set-CcCredential legt den Kontonamen und das Kennwort für den mandantenadministrator fest. Für Releases vor 2,0 muss dieser Administrator ein globaler Administrator sein. Cloud Connector verwendet dieses Konto, um Konfigurationsinformationen abzurufen, Konfigurationsparameter festzulegen und den Appliance-Status auf die Konfiguration der Office 365 Organisation zu aktualisieren. Mit Version 2,0 und höher können Sie dieses Cmdlet auch zum Aktualisieren der Kennwörter für die "vmadmin"-und DomainAdmin-Konten verwenden.
   
 ## <a name="parameters"></a>Parameter
 <a name="DetailedDescription"> </a>
 
-|**Parameter**|**Erforderlich**|**Typ**|**Beschreibung**|
+|**Parameter**|**Required**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
-|  AccountType <br/> | Erforderlich <br/> |System.String  <br/> |  Der Parameterwert muss „TenantAdmin“ „VmAdmin“ oder „DomainAdmin“ lauten. <br/> |
+| AccountType <br/> | Erforderlich <br/> |System.String  <br/> | Der Parameter Wert muss "TenantAdmin", "" vmadmin "" oder "DomainAdmin" lauten. <br/> |
    
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
 
-Keine. Das Cmdlet „Set-CcCredential“ akzeptiert keine Pipelineeingaben.
+Keine. Das Cmdlet "Sets-CcCredential" akzeptiert keine weitergeleitete Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>

@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Mit der Anruf Freigabe und der Gruppenanruf-Pickup können Benutzer eingehende Anrufe an Kollegen weiterleiten, damit Anrufe aufgenommen werden können, wenn der Benutzer nicht verfügbar ist.
-ms.openlocfilehash: aa59166d32de49b9163209a4836c7024d697fa8f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 727e3a4c3627e38722182bc1d6ad1f4e435d95a4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141288"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780784"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Freigeben von Anrufen und Gruppenanrufannahme in Microsoft Teams
 
@@ -49,7 +49,7 @@ Für Benutzer muss Enterprise-VoIP aktiviert sein, um die Anruf Freigabe und die
 
 Um die Gruppenanruf Abholung einzurichten, konfiguriert ein Benutzer zuerst eine anrufgruppe (Dies ist nicht dasselbe wie eine Sicherheitsgruppe oder eine Office 365-Gruppe) und fügt dann die Benutzer hinzu, für die Sie Ihre Anrufe freigeben möchten. Dann wählen Sie eine gleichzeitige Klingel-oder Anruf Weiterleitungseinstellung. Weitere Informationen und schrittweise Anleitungen finden Sie unter [Anrufweiterleitung und gleichzeitiges anrufen in Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
 
-Anrufgruppen Erstellung und Benachrichtigungseinstellungen sind benutzergesteuerte Funktionen. Administratoren müssen diese Features nicht für Ihre Benutzer konfigurieren. Anrufgruppen können nicht aus Sicherheitsgruppen oder Office 365-Gruppen erstellt werden. Sie müssen in Teams erstellt werden.
+Anrufgruppen Erstellung und Benachrichtigungseinstellungen sind benutzergesteuerte Funktionen. Administratoren müssen diese Features nicht für Ihre Benutzer konfigurieren. Anrufgruppen können nicht aus Sicherheitsgruppen oder Microsoft 365-Gruppen erstellt werden. Sie müssen in Teams erstellt werden.
 
 Administratoren sollten Anrufgruppen über die TeamsCallingPolicy- **AllowCallGroups** -Einstellung für einen Benutzer aktivieren. Administratoren können dies auch über das Team-Administratorportal aktivieren.  Darüber hinaus kann der konfigurierte Benutzer seine Anrufgruppen auch direkt über den Client konfigurieren. Administratoren oder Endbenutzer können die Konfiguration nicht voneinander blockieren, aber Teams-Administratorportal und Teams-Client sollten diese Beziehung an beiden Stellen genau anzeigen. 
 

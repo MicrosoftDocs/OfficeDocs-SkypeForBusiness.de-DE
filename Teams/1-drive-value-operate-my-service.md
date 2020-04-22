@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a63ce726a3a09fb820a6008aa0edf50a0e88ea95
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 2d5c5f919e03cd1e2935e4027e38b33a23a9540b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826983"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779221"
 ---
 # <a name="operate-my-service"></a>Verwenden des Diensts
 
@@ -37,7 +37,7 @@ Die Dienstverwaltung ist ein umfangreiches Thema, das den täglichen Betrieb des
 
 Die Dienstverwaltung ist für die meisten Organisationen höchstwahrscheinlich kein neuer Begriff. Möglicherweise haben Sie bereits Prozesse und Aufgaben implementiert, die vorhandenen Diensten zugeordnet sind. Allerdings können Sie Ihre derzeitigen Prozesse wahrscheinlich erweitern, wenn Sie planen, dass das Service-Management heute Teams in Zukunft unterstützt.
 
-Das Dienstleistungsmanagement umfasst alle Aktivitäten und Prozesse, die in der End-to-End-Verwaltung von Teams beteiligt sind. Wie bereits erwähnt, sind einige Komponenten des Dienst Managements – die Infrastruktur, die der Office 365-Dienst selbst umfasst – die Verantwortung von Microsoft, während Sie als Kunde für Ihre Benutzer verantwortlich sind, um die verschiedenen Aspekte von Teams, dem Netzwerk zu verwalten. und die von Ihnen bereitgestellten Endpunkte.
+Das Dienstleistungsmanagement umfasst alle Aktivitäten und Prozesse, die in der End-to-End-Verwaltung von Teams beteiligt sind. Wie bereits erwähnt, sind einige Komponenten des Dienst Managements – die Infrastruktur, die der Office 365-Dienst selbst umfasst – die Verantwortung von Microsoft, während Sie als Kunde für Ihre Benutzer verantwortlich sind, um die verschiedenen Aspekte von Teams, dem Netzwerk und den von Ihnen bereitgestellten Endpunkten zu verwalten.
 
 Die Aufgaben und Aktivitäten in diesem Leitfaden sind in acht Kategorien unterteilt, wie in der folgenden Abbildung dargestellt. Jede dieser Kategorien wird in den folgenden Abschnitten erweitert.
 
@@ -112,7 +112,7 @@ In den folgenden Abschnitten werden die Tools beschrieben, die Sie nutzen könne
 
 | Überwachungs Tool                       | Vorteile                                            | Verwendungszweck                                                                                  |
 |---------------------------------------|-----------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Office 365-Portal                     | Verfügbar auf jedem Gerät mit einem unterstützten Browser. | Verwenden Sie diese, wenn Sie keine Echtzeitbenachrichtigungen benötigen.                                          |
+| Microsoft 365 Admin Center                     | Verfügbar auf jedem Gerät mit einem unterstützten Browser. | Verwenden Sie diese, wenn Sie keine Echtzeitbenachrichtigungen benötigen.                                          |
 | Office 365-Administrator-App                  | Bietet Push-Benachrichtigungen für Ihr mobiles Gerät.  | Verwenden Sie diese Funktion, wenn Sie über Service-Vorfälle benachrichtigt werden möchten, während Sie unterwegs sind.                  |
 | Microsoft System Center               | Integration in Microsoft System Center.           | Verwenden Sie diese Funktion, wenn Sie erweiterte Überwachungsfunktionen und Benachrichtigungsunterstützung benötigen.                       |
 | Office 365 Service Communications-API | Programmgesteuerten Zugriff auf Office 365-Dienststatus.   | Verwenden Sie diese Option, wenn Sie die Integration mit einem Überwachungstool eines Drittanbieters benötigen oder eine eigene Lösung erstellen möchten. |
@@ -120,9 +120,9 @@ In den folgenden Abschnitten werden die Tools beschrieben, die Sie nutzen könne
 > [!NOTE]
 > Nur Personen, denen die Rolle **globaler Administrator** oder **Dienstadministrator** zugewiesen ist, können den Dienststatus anzeigen.
 
-### <a name="monitoring-with-the-office-365-portal"></a>Überwachen mit dem Office 365-Portal
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Überwachung mit dem Microsoft 365 Admin Center
 
-Das [Office 365-Portal](https://portal.office.com/) bietet ein [Dienststatus-Dashboard](https://portal.office.com/adminportal/home#/servicehealth) , in dem Sie zusätzlich zu den abhängigen Diensten den aktuellen Status des Teams-Diensts anzeigen können.
+Das [Microsoft 365 Admin Center](https://portal.office.com/) bietet ein [Dienststatus-Dashboard](https://portal.office.com/adminportal/home#/servicehealth) , in dem Sie zusätzlich zu den abhängigen Diensten den aktuellen Status des Teams-Diensts anzeigen können.
 
 ### <a name="monitoring-with-the-mobile-app"></a>Überwachen mit der mobilen App
 
@@ -532,7 +532,7 @@ Es kann vorkommen, dass eine Rufnummer in einem Bereich, in dem der Dienst zur V
 
 ### <a name="team-creation-optional"></a>Team Erstellung (optional)
 
-Standardmäßig verfügen alle Benutzer mit einem Postfach in Exchange Online über die Berechtigungen zum Erstellen von Office 365-Gruppen und damit zu einem Team in Microsoft Teams. Wenn Sie eine stärkere Kontrolle haben und [die Erstellung neuer Teams](assign-roles-permissions.md#permissions-to-create-teams) (und damit die Erstellung neuer Office 365-Gruppen) einschränken möchten, können Sie Gruppen Erstellungs-und Verwaltungsrechte an eine Reihe von Administratoren delegieren. Wenn Ihre Organisation diese Option weiter verfolgen möchte, lesen Sie den in diesem Artikel beschriebenen Verfahren, um Benutzern das Senden von Anforderungen zu ermöglichen, die von einem zugewiesenen Team verarbeitet werden.
+Standardmäßig verfügen alle Benutzer mit einem Postfach in Exchange Online über die Berechtigungen zum Erstellen von Microsoft 365-Gruppen und damit zu einem Team in Microsoft Teams. Wenn Sie eine stärkere Kontrolle haben und [die Erstellung neuer Teams](assign-roles-permissions.md#permissions-to-create-teams) (und damit die Erstellung neuer Microsoft 365-Gruppen) einschränken möchten, können Sie Gruppen Erstellungs-und Verwaltungsrechte an eine Reihe von Administratoren delegieren. Wenn Ihre Organisation diese Option weiter verfolgen möchte, lesen Sie den in diesem Artikel beschriebenen Verfahren, um Benutzern das Senden von Anforderungen zu ermöglichen, die von einem zugewiesenen Team verarbeitet werden.
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tägliche/wöchentliche/monatliche/bedarfsbezogene Aufgaben
 
@@ -546,7 +546,7 @@ Standardmäßig verfügen alle Benutzer mit einem Postfach in Exchange Online ü
 
 <!--ENDOFSECTION-->
 
-## <a name="quality-of-experience-review-guide"></a>Handbuch für die Überprüfung der QoE (Quality of Experience)
+## <a name="quality-of-experience-review-guide"></a>Leitfaden zur Überprüfung der Erlebnisqualität
 
 Der [Leitfaden zur Überprüfung der Qualität](https://aka.ms/qerguide) der Benutzerfreundlichkeit umfasst eine Reihe von Aktivitäten, die in wichtigen Bereichen, die am stärksten zur Verbesserung der Benutzerfreundlichkeit führen, die Behebungs Anleitung bewerten und bereitstellen, wie unten dargestellt.
 

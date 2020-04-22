@@ -19,18 +19,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: In diesem Artikel erfahren Sie, wie Sie das Telefon System in Office 365 VoIP-Dienste für Ihre Skype for Business-Benutzer aktivieren.
-ms.openlocfilehash: ae1443fa0f0725b6cbbe722703f24af02139c12d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8ed04e3926adfecb2f0022d12c783f6c3e83d763
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42050197"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780724"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Aktivieren von Benutzern für Enterprise-VoIP-Online und Telefon System in Office 365 Voicemail
  
 In diesem Artikel erfahren Sie, wie Sie das Telefon System in Office 365 VoIP-Dienste für Ihre Skype for Business-Benutzer aktivieren.
   
-Der letzte Schritt bei der Bereitstellung von Telefonsystem in Office 365 mit lokaler PSTN-Konnektivität besteht darin, Ihre Benutzer für das Telefonsystem in Office 365 und Voicemail zu aktivieren. Um diese Funktionen zu aktivieren, müssen Sie ein Benutzer mit der Rolle Office 365 globalen Administrators sein und Remote-PowerShell ausführen können. Sie müssen die Schritte in diesem Thema für alle Benutzerkonten ausführen, für die Enterprise-VoIP für Skype for Business Online noch nicht aktiviert ist.
+Der letzte Schritt bei der Bereitstellung von Telefonsystem in Office 365 mit lokaler PSTN-Konnektivität besteht darin, Ihre Benutzer für das Telefonsystem in Office 365 und Voicemail zu aktivieren. Um diese Funktionen zu aktivieren, müssen Sie ein Benutzer mit der Rolle "globaler Administrator" sein und Remote-PowerShell ausführen können. Sie müssen die Schritte in diesem Thema für alle Benutzerkonten ausführen, für die Enterprise-VoIP für Skype for Business Online noch nicht aktiviert ist.
   
 ## <a name="enable-phone-system-in-office-365-voice-services"></a>Aktivieren des Telefonsystems in Office 365 VoIP-Diensten
 

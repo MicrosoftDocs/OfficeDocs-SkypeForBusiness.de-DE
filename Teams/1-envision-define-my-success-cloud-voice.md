@@ -19,12 +19,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dbbcbce46ab713b7a1820d01d476ef5d35dee0d0
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6cafff163c4794002d8f92b638e73112faa8d1e4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139574"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780664"
 ---
 # <a name="define-my-success"></a>Definieren der Erfolgskriterien
 
@@ -204,7 +204,7 @@ Wenn Sie KSIs definieren, empfehlen wir, dass Sie "spezifische, messbare, beschr
 > |---------|---------|---------|---------|---------|---------|
 > |Verwendung/Einführung|Anrufqualität entspricht der vorherigen Lösung oder übertrifft diese|Umfrage|Zustimmung oder starke Zustimmung bei 80 % der Benutzer|Nach der Aktivierung und vierteljährlich|IT-Team|
 > |Verwendung/Einführung|Microsoft Teams hat den Kommunikationsprozess vereinfacht.|Umfrage|Zustimmung oder starke Zustimmung bei 80 % der Benutzer|Nach der Aktivierung und vierteljährlich|Change Management-Team|
-> |Verwendung/Einführung|Aktive Verwendung der Lösung durch die Benutzer|Office 365-Berichte, Anrufqualitäts-Dashboard|80 % der Benutzer sind täglich aktiv|Täglich|Change Management-Team|
+> |Verwendung/Einführung|Aktive Verwendung der Lösung durch die Benutzer|Microsoft 365-Berichte, Dashboard "Anrufqualität"|80 % der Benutzer sind täglich aktiv|Täglich|Change Management-Team|
 > |Verwendung/Qualität|Prozentsatz der Anrufe/Konferenzen mit schlechter Qualität sollte verringert werden|Anrufqualitäts-Dashboard|< 5 % Anrufe mit schlechter Qualität pro Monat|Täglich|IT-Team|
 > |Verwendung/Support|Ich weiß, wo ich technischen Support erhalte|Umfrage|Zustimmung oder starke Zustimmung bei 90% der Benutzer|Nach der Aktivierung und vierteljährlich|Change Management-Team|
 > |Verwendung/Support|Ich bin zufrieden mit der Qualität des technischen Supports|Umfrage|Zustimmung oder starke Zustimmung bei 80 % der Benutzer|Nach jedem Vorfall|IT-Team|

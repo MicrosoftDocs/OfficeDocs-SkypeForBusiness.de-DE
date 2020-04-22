@@ -18,21 +18,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 339353c1f4d7dc15b3cec69e275d0dd6111896eb
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b91045dae26d14ca1e902812a705e8fa99bdd164
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825093"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779191"
 ---
 # <a name="enhance-my-service"></a>Verbessern des Diensts
 
 In diesem Artikel finden Sie eine Übersicht über die Anforderungen, wie Sie die Cloud-VoIP-Dienste für Ihre Organisation optimal nutzen können. Indem Sie die Cloud-Sprachdienst Funktionen kontinuierlich überwachen, können Sie sicherstellen, dass Sie für Ihr Unternehmen den größten Mehrwert liefern.
 
 ## <a name="enhance-my-service-overview"></a>Übersicht zur Verbesserung meines Diensts
-Nachdem Sie die Audiokonferenz oder das Telefon System mit Anruf Plan Diensten für Ihre Organisation erfolgreich bereitgestellt und den Dienst mit Qualität und Zuverlässigkeit betrieben haben, besteht der nächste Schritt darin, regelmäßig zu evaluieren, ob Sie Möglichkeiten zum verbessern Sie Ihre Dienste. Dies ist ein Teil der kontinuierlichen Dienst Optimierungsplanung, die einen modernen Standard für die Verwaltung von Cloud-Diensten darstellt. 
+Nachdem Sie die Audiokonferenz oder das Telefon System mit Anruf Plan Diensten für Ihre Organisation erfolgreich bereitgestellt und den Dienst mit Qualität und Zuverlässigkeit betrieben haben, besteht der nächste Schritt darin, regelmäßig zu prüfen, ob Sie die Möglichkeit haben, ihre Dienste zu verbessern. Dies ist ein Teil der kontinuierlichen Dienst Optimierungsplanung, die einen modernen Standard für die Verwaltung von Cloud-Diensten darstellt. 
 
-Eine großartige Möglichkeit, um sicherzustellen, dass Sie Ihre Dienste immer optimal nutzen, besteht darin, die [öffentlichen Roadmaps von Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) für neue Funktionsverbesserungen zu überwachen, die für Ihre Organisation von Interesse sein könnten. Wenn Sie Zugriff auf das Office 365-Administratorportal haben, erhalten Sie regelmäßige Updates von uns über neue und sich verändernde Funktionen über unser Nachrichten Center. 
+Eine großartige Möglichkeit, um sicherzustellen, dass Sie Ihre Dienste immer optimal nutzen, besteht darin, die [öffentlichen Roadmaps von Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) für neue Funktionsverbesserungen zu überwachen, die für Ihre Organisation von Interesse sein könnten. Wenn Sie Zugriff auf das Microsoft 365 Admin Center haben, erhalten Sie regelmäßige Updates von uns über neue und sich verändernde Funktionen über unser Message Center. 
 
 Darüber hinaus sollten Sie sich Zeit nehmen, um Ihre geschäftlichen Anwendungsfälle in regelmäßigen Abständen erneut zu überprüfen und zu aktualisieren, um sicherzustellen, dass der Dienst so konfiguriert ist, dass er den aktuellen Anforderungen Ihrer Organisation entspricht.  Stellen Sie sicher, dass Sie von Ihren Benutzern und internen Champions ein echtes Feedback erhalten, indem Sie Feedbackkanäle in Ihrer Organisation einrichten. Hierbei kann es sich um informelle Unterhaltungen, reguläre Besprechungen oder einen Teams-Kanal oder eine Jammer-Community handeln. 
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: Erfahren Sie, wie Sie mit dem direkt Routing von Microsoft Phone System einen unterstützten vom Kunden bereitgestellten Session Border Controller (SBC) an Microsoft Phone System anschließen können.
-ms.openlocfilehash: bc092c2441ff359de1189e1ff000a61c51dcec1f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 0140e4d2cfae95531602daec5a859a85888e9d15
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140284"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780694"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -71,11 +71,11 @@ In der folgenden Tabelle sind die Infrastrukturanforderungen für die unterstüt
 |:--- |:--- |
 |Session Border Controller (SBC)|Ein unterstützter SBC. Weitere Informationen finden Sie unter [unterstützte SBCS](#supported-session-border-controllers-sbcs).|
 |Telefonie-Trunks, die mit dem SBC verbunden sind|Eine oder mehrere Telefon Stämme, die mit dem SBC verbunden sind. An einem Ende stellt der SBC eine Verbindung mit dem Microsoft Phone-System über direkte Weiterleitung her. Der SBC kann auch eine Verbindung mit externen Telefonie-Entitäten wie PBX-Anlagen, analogen Telefon Adaptern usw. herstellen. Alle mit dem SBC verbundenen Optionen für PSTN-Konnektivität funktionieren. (Für die Konfiguration der PSTN-Stämme zum SBC wenden Sie sich bitte an die SBC-Anbieter oder trunk-Anbieter.)|
-|Office 365-Mandant|Ein Office 365-Mandant, mit dem Sie Ihre Microsoft Teams-Benutzer sowie die Konfiguration und die Verbindung mit dem SBC zu Hause verwenden können.|
+|Office 365-Organisation|Eine Office 365-Organisation, mit der Sie Ihre Microsoft Teams-Benutzer sowie die Konfiguration und Verbindung mit dem SBC zu Hause verwenden können.|
 |Benutzer Registrierungsstelle|Der Benutzer muss in Office 365 verwaltet werden.<br/>Wenn Ihr Unternehmen über eine lokale Skype for Business-oder lync-Umgebung mit Hybrid-Konnektivität mit Office 365 verfügt, können Sie die Sprachausgabe in Microsoft Teams für einen lokal gehosteten Benutzer nicht aktivieren.<br/><br/>Verwenden Sie das folgende Skype for Business Online PowerShell-Cmdlet, um die Registrierungsstelle eines Benutzers zu überprüfen:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Die Ausgabe des Cmdlets sollte Folgendes anzeigen:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domänen|Eine oder mehrere Domänen, die Ihren Office 365-Mandanten hinzugefügt wurden.<br/><br/>Beachten Sie, dass Sie die Standarddomäne, \*onmicrosoft.com, nicht verwenden können, die automatisch für Ihren Mandanten erstellt wird.<br/><br/>Zum Anzeigen der Domänen können Sie das folgende Skype for Business Online PowerShell-Cmdlet verwenden:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Weitere Informationen zu Domänen und Office 365-Mandanten finden Sie unter [häufig gestellte Fragen zu Domains](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
+|Domänen|Eine oder mehrere Domänen, die Ihren Office 365-Organisationen hinzugefügt wurden.<br/><br/>Beachten Sie, dass Sie die Standarddomäne, \*onmicrosoft.com, nicht verwenden können, die automatisch für Ihren Mandanten erstellt wird.<br/><br/>Zum Anzeigen der Domänen können Sie das folgende Skype for Business Online PowerShell-Cmdlet verwenden:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Weitere Informationen zu Domänen und Office 365-Organisationen finden Sie unter [häufig gestellte Fragen zu Domains](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a).|
 |Öffentliche IP-Adresse für den SBC|Eine öffentliche IP-Adresse, die zum Herstellen einer Verbindung mit dem SBC verwendet werden kann. Basierend auf dem SBC-Typ kann der SBC NAT verwenden.|
-|Vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für den SBC|Ein FQDN für den SBC, wobei der Domänenanteil des FQDN eine der registrierten Domänen in Ihrem Office 365-Mandanten ist. Weitere Informationen finden Sie unter [SBC-Domänennamen](#sbc-domain-names).|
+|Vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für den SBC|Ein FQDN für den SBC, wobei der Domänenanteil des FQDN eine der registrierten Domänen in Ihrer Office 365-Organisation ist. Weitere Informationen finden Sie unter [SBC-Domänennamen](#sbc-domain-names).|
 |Öffentlicher DNS-Eintrag für den SBC |Ein öffentlicher DNS-Eintrag, der den SBC-FQDN an die öffentliche IP-Adresse anordnet. |
 |Öffentliches vertrauenswürdiges Zertifikat für den SBC |Ein Zertifikat für den SBC, der für die gesamte Kommunikation mit direktem Routing verwendet werden soll. Weitere Informationen finden Sie unter [öffentliches vertrauenswürdiges Zertifikat für den SBC](#public-trusted-certificate-for-the-sbc).|
 |Verbindungspunkte für die direkte Weiterleitung |Die Verbindungspunkte für die direkte Weiterleitung sind die folgenden drei FQDNs:<br/><br/>`sip.pstnhub.microsoft.com`– Globaler FQDN, muss zuerst ausprobiert werden.<br/>`sip2.pstnhub.microsoft.com`– Sekundärer FQDN, der geografisch dem zweiten Prioritätsbereich zugeordnet ist.<br/>`sip3.pstnhub.microsoft.com`– Tertiärer FQDN, der geografisch dem dritten Prioritätsbereich zugeordnet ist.<br/><br/>Informationen zu den Konfigurationsanforderungen finden Sie unter [SIP-Signalisierungen: FQDNs](#sip-signaling-fqdns).|

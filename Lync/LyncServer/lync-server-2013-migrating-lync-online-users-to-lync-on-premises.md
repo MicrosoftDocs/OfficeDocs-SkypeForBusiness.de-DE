@@ -12,12 +12,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f10aedf2a183e7ad965ba36ea0610fc02b93dfce
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: e87b977dd70227d134e5feae8df2ea089e216df3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185148"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -143,13 +143,13 @@ _**Letztes Änderungsstand des Themas:** 2015-11-13_
     
     Das Format der URL, die für den **HostedMigrationOverrideUrl** -Parameter angegeben ist, muss die URL zum Pool sein, in dem der gehostete Migrationsdienst ausgeführt wird, im folgenden Format: *https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc*.
     
-    Sie können die URL des gehosteten Migrations Diensts ermitteln, indem Sie die URL für die lync Online-Systemsteuerung für Ihr Office 365-Mandantenkonto anzeigen.
+    Sie können die URL des gehosteten Migrations Diensts ermitteln, indem Sie die URL für die lync Online-Systemsteuerung für Ihr Office 365 organisationskonto anzeigen.
     
     <div>
     
-    ## <a name="to-determine-the-hosted-migration-service-url-for-your-office-365-tenant"></a>So bestimmen Sie die URL des gehosteten Migrations Diensts für den Office 365 Mandanten
+    ## <a name="to-determine-the-hosted-migration-service-url-for-your-office-365-organization"></a>So bestimmen Sie die URL des gehosteten Migrations Diensts für Ihre Office 365 Organisation
     
-    1.  Melden Sie sich als Administrator bei Ihrem Office 365-Mandanten an.
+    1.  Melden Sie sich als Administrator bei Ihrer Office 365 Organisation an.
     
     2.  Öffnen Sie das **lync Admin Center**.
     

@@ -12,12 +12,12 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 480e4a097a3faa8dc70d05ff72027fd6e65e5a76
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b39c94b08da65e546fdf3ad01d42ada636ff371d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42215851"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780754"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +59,7 @@ Sie müssen die folgenden Anwendungen und Dienstprogramme installiert haben, um 
 
   - [Installieren von Windows PowerShell für einmaliges Anmelden mit AD FS](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - Der Microsoft Online Services-Anmelde Assistent (msoidcli-7.0. msi) ist in der Desktop Einrichtung für Office 365 enthalten, die von der Seite mit den Downloads abgerufen werden kann, die über das Office 365-Verwaltungsportal verlinkt ist.
+  - Der Microsoft Online Services-Anmelde Assistent (msoidcli-7.0. msi) ist in der Desktop Einrichtung für Office 365 enthalten, die auf der Seite mit den Downloads aus dem Microsoft 365 Admin Center abgerufen werden kann.
 
 </div>
 
@@ -67,7 +67,7 @@ Sie müssen die folgenden Anwendungen und Dienstprogramme installiert haben, um 
 
 ## <a name="administrator-credentials"></a>Administrator Anmeldeinformationen
 
-Wenn Sie aufgefordert werden, Ihre Administratoranmeldeinformationen anzugeben, verwenden Sie den Benutzernamen und das Kennwort für das Administratorkonto für den Office 365 Mandanten. Diese Anmeldeinformationen werden auch beim Konfigurieren von Active Directory-Verbunddienste (AD FS) 2.0, Verzeichnissynchronisierung, einmaliges Anmelden, Verbund und Verschieben von Benutzern zu lync Online verwendet.
+Wenn Sie aufgefordert werden, Ihre Administratoranmeldeinformationen anzugeben, verwenden Sie den Benutzernamen und das Kennwort für das Administratorkonto für Ihre Office 365 Organisation. Diese Anmeldeinformationen werden auch beim Konfigurieren von Active Directory-Verbunddienste (AD FS) 2.0, Verzeichnissynchronisierung, einmaliges Anmelden, Verbund und Verschieben von Benutzern zu lync Online verwendet.
 
 </div>
 
