@@ -1,5 +1,5 @@
 ---
-title: Anrufpläne für Office 365
+title: Anrufpläne für Microsoft 365
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -25,14 +25,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Informationen zum Anrufplan (PSTN-Anrufplan) für Skype for Business-Optionen und zum Abrufen von Lizenzen für Ihre Organisation. '
-ms.openlocfilehash: 7eb6b049761ed7575512b816ea31c86c35c17baf
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 81bf7febe1bece1482c9e882632c6b6bde512207
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825253"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779944"
 ---
-# <a name="calling-plans-for-office-365"></a>Anrufpläne für Office 365
+# <a name="calling-plans-for-microsoft-365"></a>Anrufpläne für Microsoft 365
 
 Anrufe an andere Skype for Business-und Microsoft Teams-Nutzer sind kostenlos, aber wenn Sie möchten, dass Ihre Benutzer normale Telefone anrufen können, und Sie noch keinen Dienstanbieter für Sprachanrufe haben, müssen Sie einen Anrufplan kaufen. Weitere Informationen finden Sie unter [Telefon System und Anrufpläne](calling-plan-landing-page.md).
   
@@ -75,7 +75,7 @@ Weisen Sie anschließend den Benutzern im Microsoft 365 Admin Center die Enterpr
 
 - [Preise für Anrufpläne](https://go.microsoft.com/fwlink/?LinkId=799761)
     
-- [Preise für Telefonsystem](https://go.microsoft.com/fwlink/?linkid=799763)
+- [Preise für das Telefonsystem](https://go.microsoft.com/fwlink/?linkid=799763)
     
 - [Preise für Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=799762)
     
@@ -94,7 +94,7 @@ Hier sind weitere Artikel, die erläutern, wie Sie Ihre Anrufpläne einrichten:
 
 - [Einrichten von Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Einrichten von Cloudvoicemail – Admin-Hilfe](set-up-phone-system-voicemail.md)
+- [Einrichten von Cloud-Voicemail – Administratorhilfe](set-up-phone-system-voicemail.md)
     
 - [Einrichten von Anrufplänen](set-up-calling-plans.md)
     

@@ -16,13 +16,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
-description: 'Zusammenfassung: Hier erfahren Sie mehr über die neuen Skype for Business und die Schritte, die Sie zur Vorbereitung Ihrer Umgebung und ihrer Benutzer auf das Update durchführen können, unabhängig davon, ob Sie Skype for Business Online, Skype for Business Server 2019, Skype for Business Server 2015, lync Server 2013 oder Lync Server 2010.'
-ms.openlocfilehash: c54465b2f2c6cb7fb8d131b52de27c3f64d0bcc2
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: 'Zusammenfassung: Hier erfahren Sie mehr über die neuen Skype for Business und die Schritte, die Sie zur Vorbereitung Ihrer Umgebung und ihrer Benutzer auf das Update durchführen können, unabhängig davon, ob Sie Skype for Business Online, Skype for Business Server 2019, Skype for Business Server 2015, lync Server 2013 oder lync Server 2010 verwenden.'
+ms.openlocfilehash: c1fecbdb5a4ec0a19e464a57ee128d2d00ad501f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42028006"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777750"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planen der Skype for Business 2015 Clientumgebung für Ihre Benutzer
  
@@ -44,7 +44,7 @@ Am 12. Mai 2015 wird ein weiteres monatliches Update von Office mit dem aktualis
 ## <a name="what-client-experience-do-you-want-for-your-users"></a>Welche Clienterfahrung wünschen Sie für Ihre Benutzer?
 <a name="clientexperience"> </a>
 
-Mit dem neuen Skype for Business-Client können Sie steuern, welche Clientumgebung Ihre Benutzer erhalten, entweder lync oder Skype for Business. Die standardmäßige Clientumgebung hängt davon ab, ob Sie lync oder Skype for Business lokal oder Online verwenden. Wenn Sie heute Skype for Business Online (lync Online) mit Office 365 ProPlus, Office 365 Business Premium oder Office 2013 verwenden, ist die aktualisierte Skype for Business-Clientumgebung, inspiriert von der Darstellung und dem Verhalten von Skype, die Standardbenutzeroberfläche. Wenn Sie lync Server lokal heute verwenden, ist die lync-Clientumgebung die Standardeinstellung.
+Mit dem neuen Skype for Business-Client können Sie steuern, welche Clientumgebung Ihre Benutzer erhalten, entweder lync oder Skype for Business. Die standardmäßige Clientumgebung hängt davon ab, ob Sie lync oder Skype for Business lokal oder Online verwenden. Wenn Sie Skype for Business Online (lync Online) heute mit Microsoft 365 apps for Enterprise, Microsoft 365 Business Standard oder Office 2013 verwenden, ist die aktualisierte Skype for Business-Clientumgebung, die von dem Aussehen und Verhalten von Skype abhängt, die Standardbenutzeroberfläche. Wenn Sie lync Server lokal heute verwenden, ist die lync-Clientumgebung die Standardeinstellung.
   
 Sie können konfigurieren, welche Clientumgebung Ihre Benutzer mithilfe von Clientrichtlinien erhalten. Eine Clientrichtlinie ist eine Gruppe von Konfigurationseinstellungen, die auf Benutzer angewendet werden, wenn Sie sich bei lync oder Skype for Business anmelden.
   

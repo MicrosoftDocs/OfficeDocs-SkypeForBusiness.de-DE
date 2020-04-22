@@ -14,12 +14,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden die Infrastruktur Vorbereitungen für die Bereitstellung von Microsoft Teams-Räumen erläutert.
-ms.openlocfilehash: e39624f7b90dbb25424c98f60e6b90e2a883e212
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 7c067376ffffd2a674c5e0cfb2204801b0c4f32a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825867"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779772"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 
@@ -110,7 +110,7 @@ Um diese Anwendung zu verwenden, müssen Sie eine Verbindung mit den unten besch
 |Verwendungszweck|Quelle oder Anmeldeinformationen|Quellport|Ziel|CDN|ExpressRoute für Office 365|Ziel-IP|Zielport|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Authentifizierung und Identität  <br/> |Siehe [Office 365-Authentifizierung und-Identität](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Identity) <br/> |||
-|Portal und gemeinsame Dienste  <br/> |Siehe [Office 365-Portal und freigegebene](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
+|Portal und gemeinsame Dienste  <br/> |Siehe [Microsoft 365 Admin Center und freigegeben](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_Portal-identity) <br/> |||
 |SIP-Signalisierung  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |Webkonferenzen über PSOM-Verbindungen (Persistent Shared Object Model)  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
 |HTTPS-Downloads  <br/> |Clientcomputer oder angemeldeter Benutzer  <br/> |Kurzlebige Ports  <br/> |\*. contoso.com  <br/> |Nein  <br/> |Ja  <br/> |[IP-Bereiche für Skype for Business](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 443  <br/> |
@@ -162,12 +162,12 @@ Das Kennwort des lokalen Administrators wird während des Setups nicht als Auswa
 
 [Planen von Microsoft Teams-Räumen](rooms-plan.md)
 
-[Anforderungen für Microsoft Teams-Räume](requirements.md)
+[Voraussetzungen für Microsoft Teams-Räume](requirements.md)
   
-[Bereitstellen von Microsoft Teams-Räumen](rooms-deploy.md)
+[Bereitstellen von Microsoft Teams-Räume](rooms-deploy.md)
   
-[Konfigurieren einer Microsoft Teams rooms-Konsole](console.md)
+[Konfigurieren einer Konsole für Microsoft Teams-Räume](console.md)
   
-[Microsoft Teams Rooms verwalten](rooms-manage.md)
+[Microsoft Teams-Räume verwalten](rooms-manage.md)
 
 [Voraussetzungen für Microsoft Store for Business und Education](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) 

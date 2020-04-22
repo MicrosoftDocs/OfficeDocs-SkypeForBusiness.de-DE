@@ -19,12 +19,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Für Microsoft Teams zertifizierte IP-Desk-und Konferenztelefone
-ms.openlocfilehash: a8b8b0f1763aba131fb7ecd242bc63a2de973f44
-ms.sourcegitcommit: 169107e56dbc7f887e709e6304521ce959658990
+ms.openlocfilehash: 238878831511175f5b7ec647da0ccd607fa1fddd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42728944"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779974"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte IP-Telefone
 
@@ -70,7 +70,7 @@ Informationen zu den von diesen Geräten unterstützten Features finden Sie unte
 
 Weitere Informationen finden Sie unter [Suchen der Firmwareversion auf einem mobilen](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) Gerät, um die Geräte Firmwareversion auf Ihrem mobilen Gerät zu ermitteln.
 
-Microsoft Teams-Lizenzen können als Teil ihrer [Office 365-Abonnements](/MicrosoftTeams/Office-365-licensing.md)erworben werden. Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung von Microsoft Teams auf Telefonen finden Sie unter Verfügbare [Lizenzen für Telefonsysteme](https://products.office.com/microsoft-teams/voice-calling).
+Microsoft Teams-Lizenzen können im Rahmen ihrer [Microsoft 365-oder Office 365-Abonnements](/MicrosoftTeams/Office-365-licensing.md)erworben werden. Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung von Microsoft Teams auf Telefonen finden Sie unter Verfügbare [Lizenzen für Telefonsysteme](https://products.office.com/microsoft-teams/voice-calling).
 
 Weitere Informationen zum Erhalten von Teams finden Sie unter[Wie erhalte ich Zugriff auf Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

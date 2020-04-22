@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Erfahren Sie mehr über Add-On-Lizenzen, Funktionen und Informationen zum Kauf von Office 365 Enterprise, Plan E1, E3 und E4. '
-ms.openlocfilehash: 79a803061acfd4550c75871c08f40b16ee2f8e2b
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 8000a71c52c03d82c8d01c92601be01d48db04dd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010588"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777960"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 und E4
 
@@ -71,7 +71,7 @@ Der E3-Plan ist Teil Ihres Action Packs. So kaufen Sie die Add-Ons **Telefonsyst
 
 In einigen Fällen wird die Option zum kaufen von Skype for Business-Add-ons im Microsoft 365 Admin Center nicht angezeigt.
 
-- **Sie haben Office 365 Business Premium über GoDaddy bezogen**. In diesem Fall können Sie keine Skype for Business-Add-ons kaufen. Sie müssen zum E3-Plan wechseln (den GoDaddy nicht verkauft), und Sie können Sie dann kaufen. [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Sie haben Microsoft 365 Business Standard über GoDaddy erworben**. In diesem Fall können Sie keine Skype for Business-Add-ons kaufen. Sie müssen zum E3-Plan wechseln (den GoDaddy nicht verkauft), und Sie können Sie dann kaufen. [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **Sie verfügen über eine monatliche Verpflichtung, nicht über eine jährliche**. In einigen Fällen können Kunden mit einer monatlichen Verpflichtung die Add-Ons nicht kaufen (dies unterscheidet sich von der Zahlungsmethode, die monatlich sein kann). Dies ist ein bekanntes Problem, das wir beheben. [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

@@ -16,12 +16,12 @@ metadata:
   - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 1366edcd482e37f12c0218acfe25d378fc86709a
-  ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+  ms.openlocfilehash: 3f5e7c29ee676fa0b9defa907524c60b45a34fe9
+  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 11/01/2019
-  ms.locfileid: "37924816"
+  ms.lasthandoff: 04/22/2020
+  ms.locfileid: "43778511"
 items:
 - durationInMinutes: 1
   content: >
@@ -116,7 +116,7 @@ items:
 
     - **Anrufpläne oder direktes Routing zum Herstellen einer Verbindung mit dem PSTN.**
 
-    Die Optionen zum Verbinden von Teams mit dem PSTN sind etwas anders als in Skype for Business Online: während Anrufpläne (vormals als Cloud PBX mit PSTN-Konnektivität bezeichnet) vorhanden sind, wird die Option zum Verbinden Ihrer vorhandenen Telefonanlage oder Ihres SIP-Trunks mit Teams als " Direktes Routing ".
+    Die Optionen zum Verbinden von Teams mit dem PSTN sind etwas anders als in Skype for Business Online: während Anrufpläne (vormals als Cloud PBX mit PSTN-Konnektivität bezeichnet) vorhanden sind, wird die Option zum Verbinden Ihrer vorhandenen Telefonanlage oder Ihres SIP-Trunks mit Teams als "Direktes Routing" bezeichnet.
 
     Eine detaillierte Dokumentation zur direkten Weiterleitung finden Sie hier: [Telefon System Direktes Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan)
 
@@ -210,7 +210,7 @@ items:
     ### <a name="requirements"></a>Anforderungen
 
 
-    -   Ein Office 365-Mandant mit entsprechenden Lizenzen für die Aktivierung des Telefonsystems mit Anrufplänen
+    -   Eine Office 365-Organisation mit entsprechenden Lizenzen zum Aktivieren des Telefonsystems mit Anrufplänen
 
         -   Wir empfehlen dringend, einen dedizierten Testmandanten zu verwenden.
 

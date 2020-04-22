@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - SMB
 description: Bevor die Personen in Ihrer Organisation Skype-Live Konferenz verwenden können, müssen Sie Sie aktivieren. Dazu müssen Sie wissen, wie Sie Windows PowerShell verwenden. Wenn Sie Windows PowerShell nicht kennen, sollten Sie einen Microsoft-Partner anheuern, um diesen Schritt für Sie durchführen zu können.
-ms.openlocfilehash: 1b06f327fa59ec8e90c9b014db8a252ca7b40579
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 4684f445dc004678bf978069c2430111e7961d0d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010608"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778120"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Aktivieren von Skype-Livekonferenz
 
@@ -35,7 +35,7 @@ Bevor die Personen in Ihrer Organisation Skype-Live Konferenz verwenden können,
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1. Registrieren Sie sich mit ihrem globalen Administratorkonto für Office 365 oder dem Skype for Business [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)-Administratorkonto unter.
+1. Registrieren Sie sich mit ihrem globalen Administratorkonto oder dem Skype for Business- [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)Administratorkonto unter.
     
 2. Wechseln Sie im Admin Center zu **Admin Center** > **Teams**.
     
@@ -55,7 +55,7 @@ Bevor die Personen in Ihrer Organisation Skype-Live Konferenz verwenden können,
     
 6. Wählen Sie im **Startmenü**die Option **Windows PowerShell**aus.
     
-7. Stellen Sie im **Windows PowerShell**-Fenster eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
+7. Stellen Sie im **Windows PowerShell** -Fenster eine Verbindung mit Ihrem Microsoft 365 oder Office 365 her, indem Sie Folgendes ausführen:
     
    ```PowerShell
    $Credential = get-credential

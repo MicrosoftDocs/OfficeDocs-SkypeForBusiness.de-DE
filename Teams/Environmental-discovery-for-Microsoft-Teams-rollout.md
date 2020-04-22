@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: abe848e21ed245230edc1ebfbfd038af9eec9175
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 16e02d3a1948ece53fbb51189880bb3dbd737b23
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139314"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778741"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Umgebungserkennung für ein Microsoft Teams-Rollout
 ===================================================
@@ -36,7 +36,7 @@ Sie führen eine detaillierte Ermittlung Ihrer Umgebung durch, um den aktuellen 
 
 Der unten aufgeführte Beispiel Fragebogen führt Sie durch eine Reihe von Fragen, um zu bestätigen, dass Ihre Organisation für den erfolgreichen Rollout von Audiokonferenz-und Telefon System mit Anruf Planfunktionen in Teams bereit ist.
 
-Alle Fragen im Zusammenhang mit Ihrer vorhandenen Infrastruktur für die Zusammenarbeit und der Office 365-Mandanten,-Netzwerke,-Endpunkte,-Vorgänge sowie-Einführung und-Bereitschaft sind Teil des Fragebogens zur Umwelt Ermittlung.
+Alle Fragen im Zusammenhang mit Ihrer vorhandenen Infrastruktur für die Zusammenarbeit und der Office 365-Organisation,-Netzwerke,-Endpunkte,-Vorgänge sowie-Einführung und-Bereitschaft sind Teil des Fragebogens zur Umwelt Ermittlung.
 
 Der Fragebogen ist in mehrere Abschnitte unterteilt, um die Bereitstellung Ihrer Organisation für Ihre Teams in mehreren wichtigen Bereichen zu bestätigen. Arbeiten Sie mit Ihrem Projektteam zusammen, um die gewünschten Informationen so detailliert wie möglich zur Verfügung zu stellen, um Ihre Planungsaktivitäten zu vereinfachen.
 
@@ -67,16 +67,16 @@ Erfassen Sie detaillierte Informationen zu den wichtigsten Stakeholdern des Roll
 > | Leiter des Videoteams | | | |
 > | Geschäftsbereichs Leads | | | |
 
-<a name="office-365-tenant-details"></a>Office 365-Mandanten Details
+<a name="office-365-organization-details"></a>Office 365-Organisationsdetails
 ---
 
-Wir empfehlen dringend, dass Sie über einen Active Office 365-Mandanten verfügen, während Sie mit diesem Fragebogen arbeiten. Wenn Sie noch keinen Office 365-Mandanten aktiviert oder konfiguriert haben, lesen Sie [Planen des Setups von Office 365 for Business](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
+Wir empfehlen dringend, dass Sie über eine Active Office 365-Organisation verfügen, während Sie mit diesem Fragebogen arbeiten. Wenn Sie noch keine Office 365-Organisation aktiviert oder konfiguriert haben, lesen Sie [Planen des Setups von Office 365 for Business](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645).
 
-Verwenden Sie die folgende Tabelle, um Informationen zum Office 365-Mandanten zu erfassen.
+Verwenden Sie die folgende Tabelle, um Informationen zur Office 365-Organisation aufzuzeichnen.
 
 > | Frage | Antwort | Kommentare |
 > |---|---|---|
-> | Notieren Sie den Office 365-Produktions Mandanten <br>Name und ID in der Spalte "Antwort" <br/>Wenn Sie mehr als einen Mandanten haben <br>mit Ihrer Organisation verknüpft ist, <br>Beachten Sie alle IDs. | Mandanten Name: <br/>Mandanten-ID:| |
+> | Beachten Sie die Office 365-Produktionsorganisation <br>Name und ID in der Spalte "Antwort" <br/>Wenn Sie mehr als einen Mandanten haben <br>mit Ihrer Organisation verknüpft ist, <br>Beachten Sie alle IDs. | Mandanten Name: <br/>Mandanten-ID:| |
 > | In welchen Regionen werden die Mandanten bereitgestellt?| | |
 > | Sind diese Mandanten Office 365 Multitenant oder <br>Dedizierte? | <input type="checkbox">Multitenant<br/> <input type="checkbox">Dedizierte | |
 > | Welche Microsoft Online-Produkte werden zurzeit verwendet? <br/>Notieren Sie sich die Anzahl der Benutzer, die für jeden aktiviert sind <br>Dienst in der Spalte "Kommentare". | <input type="checkbox">Microsoft Teams <br/> <input type="checkbox">Skype for Business <br>&nbsp; &nbsp; &nbsp;Online <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint Online <br/> <input type="checkbox">OneDrive for Business <br/> <input type="checkbox">Jammern <br/> <input type="checkbox">Anderen| |
@@ -115,7 +115,7 @@ Erfassen Sie die Details Ihrer Teams-Bereitstellung, falls zutreffend, mithilfe 
 > | Frage | Antwort | Kommentare |
 > |---|---|---|
 > | Welche Benutzertypen sind für Microsoft Teams aktiviert? | <input type="checkbox">Alle Benutzer in der Organisation <br/> <input type="checkbox">Bestimmte Benutzer/Benutzergruppen <br>&nbsp;&nbsp; (In der Spalte Kommentare &nbsp;angeben) ||
-> | Welche Teams-Features und-Modalitäten werden verwendet? | <input type="checkbox">Kanalbasierte Unterhaltungen <br/> <input type="checkbox">Privater Chat <br/> <input type="checkbox">Gastzugriff <br/> <input type="checkbox">Kanal Besprechungen <br/> <input type="checkbox">Private Besprechungen <br/> <input type="checkbox">Private Anrufe <br/> <input type="checkbox">Meetup zum Ad-hoc-Kanal <br/> <input type="checkbox">Videos in Besprechungen <br/> <input type="checkbox">Bildschirmübertragung in Besprechungen <br/> <input type="checkbox">Audiokonferenzen <br/><input type="checkbox">Anwendungen (Apps)<br> &nbsp;&nbsp; &nbsp; Tabstopps <input type="checkbox"><br>&nbsp;&nbsp; Bots &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; Verbinder &nbsp; <input type="checkbox"><br><input type="checkbox">Benutzerdefinierte Cloud-Speicherintegration <br>&nbsp;&nbsp; (Box, Dropbox, Freigabe Datei, Google &nbsp; Drive) <br/> <input type="checkbox">Kanal-e-Mail-Integration <br/> <input type="checkbox">Sonstiges (in der Spalte Kommentare angeben.) | |
+> | Welche Teams-Features und-Modalitäten werden verwendet? | <input type="checkbox">Kanalbasierte Unterhaltungen <br/> <input type="checkbox">Privater Chat <br/> <input type="checkbox">Gastzugriff <br/> <input type="checkbox">Kanal Besprechungen <br/> <input type="checkbox">Private Besprechungen <br/> <input type="checkbox">Private Anrufe <br/> <input type="checkbox">Meetup zum Ad-hoc-Kanal <br/> <input type="checkbox">Videos in Besprechungen <br/> <input type="checkbox">Bildschirmübertragung in Besprechungen <br/> <input type="checkbox">Audiokonferenzen <br/><input type="checkbox">Anwendungen (Apps)<br> &nbsp;&nbsp; &nbsp; Tabstopps <input type="checkbox"><br>&nbsp;&nbsp; Bots &nbsp; <input type="checkbox"> <br>&nbsp;&nbsp; Verbinder &nbsp; <input type="checkbox"><br><input type="checkbox">Benutzerdefinierte Cloud-Speicherintegration <br>&nbsp;&nbsp; (Dropbox, Box, Freigabe Datei, Google Drive, &nbsp; Egnyte) <br/> <input type="checkbox">Kanal-e-Mail-Integration <br/> <input type="checkbox">Sonstiges (in der Spalte Kommentare angeben.) | |
 > | Welche Anwendungen haben Sie für Teams bereitgestellt? | | |
 > | Haben Sie Funktionen von Microsoft Teams ausdrücklich gesperrt? <br/>Wenn ja, notieren Sie sich die Details in der Spalte Kommentare. | <input type="checkbox">Ja <br/> <input type="checkbox">Nein ||
 > | Welche Microsoft Teams-Clients werden verwendet? | <input type="checkbox">Web <br/> <input type="checkbox">Windows <br/> <input type="checkbox">Mac <br/> <input type="checkbox">Linux <br/>  <input type="checkbox">IOS <br/> <input type="checkbox">Android <br/> <input type="checkbox">Windows Mobile | |

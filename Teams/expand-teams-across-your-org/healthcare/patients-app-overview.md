@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Patienten-App für Teams-Administratoren
-ms.openlocfilehash: 4c4eaced1b7e3c328d589906ac50cfb8ac805ea3
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+ms.openlocfilehash: 405a87be4bd9504c0bdca98c17748f0864ba72ed
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42153787"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780194"
 ---
 # <a name="patients-app-overview"></a>Übersicht der Patienten-App
 
@@ -30,12 +30,12 @@ Die patients-Anwendung ist eine Microsoft Teams Store-App, die für alle Teams-B
 
 Die APP hat zwei Modi:
 
-- Der EMR-verbundene Modus, der über FHIR eine Verbindung mit EMRs herstellt. Die EMR-App für den verbundenen Modus bleibt in der privaten Vorschau und interessierte Kunden oder Administratoren können den Zugriff auf die APP anfordern, indem Sie Microsoft eine e-Mail unter [teamsforhealthcare@Service.Microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) mit Informationen zu Ihrem Office 365-Mandanten ablegen.
+- Der EMR-verbundene Modus, der über FHIR eine Verbindung mit EMRs herstellt. Die EMR-App für den verbundenen Modus bleibt in der privaten Vorschau und interessierte Kunden oder Administratoren können den Zugriff auf die APP anfordern, indem Sie Microsoft eine e-Mail unter [teamsforhealthcare@Service.Microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) mit Informationen zu Ihrer Office 365-Organisation ablegen.
 - Der manuelle Modus, in dem Betreuerteams die Patienteninformationen manuell hinzufügen/einbringen können. Die Anwendung ist im Teams-App Store verfügbar, damit Endbenutzer Sie in der privaten Vorschau herunterladen können. Die APP kann mithilfe von [App-Setup Richtlinien](../../teams-app-setup-policies.md) in Teams auf bestimmte Benutzer Abschnitte beschränkt werden. Damit Sie auf die App zugreifen können, muss Ihr Mandant Teil des Technology Adoption Program (Tap) sein. Bitte senden Sie uns eine e-Mail an [teamsforhealthcare@Service.Microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) , um den Vorgang zum Anfordern des Zugriffs zu starten.
 
 ## <a name="usage-example"></a>Verwendungsbeispiel
 
-Während der runden Sitzungen bei jeder Schicht in medizinischen Stationen versammeln sich Kliniker an der Krankenstation, um über die neuesten Updates über den Fortschritt bei Patienten in der Gemeinde zu diskutieren.  Sie betonen die wichtigsten wichtigen Metriken (nicht unbedingt medizinisch oder ausdrücklich auf die medizinischen Unterlagen der Patienten) und stellen sicher, dass der Patient auf dem richtigen Gleitweg zur Entladung ist, basierend auf seiner Diagnose. Um diese Patienten umrunden zu können, richtet die Krankenschwester die Patienten-app in einem Team ein, in dem alle Ärzte hinzugefügt werden und Patienten zu einer Patientenliste hinzugefügt werden. Während der Runde greifen die Krankenschwestern und die anderen Betreuer für den Patienten auf die Microsoft Teams und die Patienten-App auf Ihren mobilen Geräten zu und aktualisieren relevante Patienteninformationen auf Ihrem Gerät, und alle anderen Personen im Betreuerteam können diese Updates und Notizen sehen und bleiben Sie synchron. Zweimal am Tag, am Anfang und am Ende einer Schicht, haben Sie auch multidisziplinäre Teambesprechungen, um über die Patientenliste zu wechseln und die Patienten-APP zu verwenden, um sich selbst zu beerdigen und Informationen über jeden Patienten über die Patienten-App auf einem größeren Bildschirm zu teilen. Oft können sich bestimmte Kliniker auch Remote in diese Teams einwählen und dennoch Teil der Diskussion sein.
+Während der runden Sitzungen bei jeder Schicht in medizinischen Stationen versammeln sich Kliniker an der Krankenstation, um über die neuesten Updates über den Fortschritt bei Patienten in der Gemeinde zu diskutieren.  Sie betonen die wichtigsten wichtigen Metriken (nicht unbedingt medizinisch oder ausdrücklich auf die medizinischen Unterlagen der Patienten) und stellen sicher, dass der Patient auf dem richtigen Gleitweg zur Entladung ist, basierend auf seiner Diagnose. Um diese Patienten umrunden zu können, richtet die Krankenschwester die Patienten-app in einem Team ein, in dem alle Ärzte hinzugefügt werden und Patienten zu einer Patientenliste hinzugefügt werden. Während der Runde greifen die Krankenschwestern und die anderen Betreuer für den Patienten auf die Microsoft Teams und die Patienten-App auf Ihren mobilen Geräten zu und aktualisieren relevante Patienteninformationen auf Ihrem Gerät, und alle anderen Personen im Betreuerteam können diese Updates und Notizen sehen und synchron bleiben. Zweimal am Tag, am Anfang und am Ende einer Schicht, haben Sie auch multidisziplinäre Teambesprechungen, um über die Patientenliste zu wechseln und die Patienten-APP zu verwenden, um sich selbst zu beerdigen und Informationen über jeden Patienten über die Patienten-App auf einem größeren Bildschirm zu teilen. Oft können sich bestimmte Kliniker auch Remote in diese Teams einwählen und dennoch Teil der Diskussion sein.
 
 ## <a name="configure-patients-app"></a>Konfigurieren der Patienten-App
 

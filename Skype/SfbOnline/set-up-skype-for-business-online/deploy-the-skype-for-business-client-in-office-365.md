@@ -1,5 +1,5 @@
 ---
-title: Den Skype for Business-Client in Office 365 bereitstellen
+title: Bereitstellen des Skype for Business-Clients in Microsoft 365 AOR Office 365
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,14 +19,14 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Erfahren Sie, wie Sie Skype for Business in kleinen, mittleren und großen Organisationen planen und bereitstellen und für Ihre Benutzer verfügbar machen. '
-ms.openlocfilehash: 052cc4cb8aa1242628e0f57a57a3fe5532be3d71
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d7c310935c5fa97873183d18b264616404471895
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706500"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777240"
 ---
-# <a name="deploy-the-skype-for-business-client-in-office-365"></a>Den Skype for Business-Client in Office 365 bereitstellen
+# <a name="deploy-the-skype-for-business-client-in-microsoft-365-or-office-365"></a>Bereitstellen des Skype for Business-Clients in Microsoft 365 oder Office 365
 
 In diesem Artikel werden die Optionen erläutert, wie Sie, der **[Administrator](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)**, die Skype for Business-App für die Personen in Ihrer Organisation bereitstellen können.
   
@@ -39,7 +39,7 @@ Bevor Sie Skype for Business für Ihre Benutzer bereitstellen, stellen Sie siche
 
  **Schrittweise Installationsanleitung**: Wenn Sie ein kleines oder mittleres Unternehmen haben, empfehlen wir, die Benutzer einfach zu bitten, die Skype for Business-App auf ihrem PC zu installieren. Verweisen Sie auf diese Anweisungen: [Installieren von Skype for Business](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb). Wenn sie einen Mac verwenden, verweisen Sie sie auf [Einrichten von Skype for Business (Lync) für Mac 2011 für Office 365](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88). Die Skype for Business-App wird getrennt von den anderen Office-Apps installiert.
   
- **Office 365 ProPlus-Kunden**: Wenn Ihr Unternehmen einen Office 365-Plan verwendet, in dem Office 365 ProPlus enthalten ist (zum Beispiel den E3-Plan), wird die Skype for Business-App zusammen mit Word, Excel, PowerPoint usw. installiert. Dies bedeutet außerdem, dass die Benutzer Skype for Business nur durch die Deinstallation des gesamten Office-Pakets deinstallieren können.
+ **Microsoft 365-Apps für Unternehmenskunden:** Wenn in Ihrem Unternehmen ein Office 365-Plan mit Microsoft 365-Apps für Unternehmen wie dem E3-Plan verwendet wird, wird die Skype for Business-App zur gleichen Zeit installiert, in der die Benutzer Word, Excel, PowerPoint usw. herunterladen und installieren. Das bedeutet auch, dass Sie Skype for Business nur deinstallieren können, wenn Sie alle Office-Installation deinstallieren.
   
 ### <a name="choose-whether-to-make-skype-for-business-available-to-your-users"></a>Wählen, ob Skype for Business für Ihre Benutzer zur Verfügung stehen soll
 
@@ -54,7 +54,7 @@ Als [Administrator](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8
     ![Choose which software you want the user to access.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> Wenn Sie sehen möchten, welche Pläne den Personen in Ihrer Organisation zugewiesen sind, müssen Sie sich beim Microsoft 365 Admin Center anmelden, #a0 **Benutzer** > **aktive**Benutzer. Wählen Sie die Person in der Liste aus, und schauen Sie unter **Produktlizenzen**nach. Wenn Sie das klassische Admin Center verwenden, suchen Sie unter **zugewiesene Lizenz**. 
+> Wenn Sie sehen möchten, welche Pläne den Personen in Ihrer Organisation zugewiesen sind, müssen Sie sich beim Microsoft 365 Admin Center anmelden, > **Benutzer** > **aktive**Benutzer. Wählen Sie die Person in der Liste aus, und schauen Sie unter **Produktlizenzen**nach. Wenn Sie das klassische Admin Center verwenden, suchen Sie unter **zugewiesene Lizenz**. 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>Manuelle Bereitstellung von Skype for Business für Ihre Benutzer
 <a name="bkmk_manual_1"> </a>
@@ -78,9 +78,9 @@ Mit Office 365 haben Sie verschiedene Möglichkeiten, die Skype for Business-App
   
 - Laden Sie die Skype for Business-App aus dem Microsoft 365 Admin Center in Ihr lokales Netzwerk herunter, wie in [Manuelle Bereitstellung von Skype for Business für Ihre Benutzer](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1)beschrieben.
     
-- Verwenden Sie das **[Office-Bereitstellungstool](https://go.microsoft.com/fwlink/p/?LinkID=626065)** zum Herunterladen von Office 365 ProPlus oder der Skype for Business-App in ihr lokales Netzwerk. Verwenden Sie das Office-Bereitstellungstool anschließend zum Bereitstellen der App für Ihre Benutzer. Mit dem Office-Bereitstellungstool können Sie unterschiedliche Aspekte der Bereitstellung festlegen, wie etwa Sprachen oder Version (32 Bit oder 64 Bit).
+- Verwenden Sie das **[Office-Bereitstellungs Tool](https://go.microsoft.com/fwlink/p/?LinkID=626065)** , um entweder Microsoft 365-Apps für Unternehmen oder die Skype for Business-app in Ihr lokales Netzwerk herunterzuladen. Verwenden Sie das Office-Bereitstellungstool anschließend zum Bereitstellen der App für Ihre Benutzer. Mit dem Office-Bereitstellungstool können Sie unterschiedliche Aspekte der Bereitstellung festlegen, wie etwa Sprachen oder Version (32 Bit oder 64 Bit).
     
-- Verwenden Sie Ihre vorhandenen Softwarebereitstellungstools und-Prozesse wie Microsoft Endpoint Configuration Manager, um Office 365 ProPlus oder die Skype for Business-App für Ihre Benutzer bereitzustellen. Sie können Ihre vorhandenen Tools und Prozesse mit dem [Office-Bereitstellungs Tool](https://go.microsoft.com/fwlink/p/?LinkID=626065) oder mit der Software verwenden, die Sie aus dem Microsoft 365 Admin Center heruntergeladen haben.
+- Verwenden Sie Ihre vorhandenen Softwarebereitstellungstools und-Prozesse wie Microsoft Endpoint Configuration Manager, um Microsoft 365-Apps für Unternehmen oder die Skype for Business-App für Ihre Benutzer bereitzustellen. Sie können Ihre vorhandenen Tools und Prozesse mit dem [Office-Bereitstellungs Tool](https://go.microsoft.com/fwlink/p/?LinkID=626065) oder mit der Software verwenden, die Sie aus dem Microsoft 365 Admin Center heruntergeladen haben.
     
 ### <a name="more-info-on-using-the-office-deployment-tool"></a>Zusätzliche Informationen zur Verwendung des Office-Bereitstellungstools
 
@@ -112,7 +112,7 @@ Weitere Informationen zur Bereitstellung von Software mit Configuration Manager 
     
 - [Bereitstellen von Anwendungen mit Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/deploy-applications)
     
-Wenn Sie die Skype for Business-App als Teil der Bereitstellung von Office 365 ProPlus bereitstellen, lesen Sie [Verwalten von Office 365 ProPlus mit Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates).
+Wenn Sie die Skype for Business-App als Teil der Bereitstellung von Microsoft 365-Apps für Unternehmen bereitstellen, lesen Sie [Verwalten von Microsoft 365-Apps für Unternehmen mit Configuration Manager](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates).
   
 ## <a name="planning-for-updates-to-the-skype-for-business-app"></a>Planen von Updates der Skype for Business-App
 
@@ -132,11 +132,11 @@ Viele Organisationen etwa möchten Updates vor der Bereitstellung im gesamten Un
   
 Weitere Informationen zur Funktionsweise von Updates für Office 365-Software finden Sie in den folgenden Artikeln:
   
-- [Übersicht zum Aktualisierungsvorgang für Office 365 ProPlus](https://technet.microsoft.com/library/dn761709.aspx)
+- [Übersicht über den Updateprozess für Microsoft 365-Apps für Unternehmen](https://technet.microsoft.com/library/dn761709.aspx)
     
-- [Auswählen, wie Updates für Office 365 ProPlus verwaltet werden](https://technet.microsoft.com/library/dn761707.aspx)
+- [Auswählen, wie Updates für Microsoft 365-Apps für Unternehmen verwaltet werden](https://technet.microsoft.com/library/dn761707.aspx)
     
-- [Konfigurieren von Update-Einstellungen für Office 365 ProPlus](https://technet.microsoft.com/library/dn761708.aspx)
+- [Konfigurieren von Updateeinstellungen für Microsoft 365-Apps für Unternehmen](https://technet.microsoft.com/library/dn761708.aspx)
     
   **Bezug von Funktionsupdates planen**
   
@@ -148,7 +148,7 @@ Zusätzlich zur Bezugsquelle von Updates können Sie auch steuern, wie oft Sie n
     
 Manche Organisationen möchten Zeit haben, um neue Funktionen zu testen, und Funktionsupdates daher nur zweimal im Jahr statt monatlich erhalten.
   
-Sie können steuern, wie oft Sie Funktionsupdates erhalten, indem Sie den Updatekanal mithilfe des Office-Bereitstellungstools oder einer Gruppenrichtlinie konfigurieren. Über den monatlichen Kanal erhalten Sie Funktionsupdates (ungefähr) monatlich, über den halbjährlichen Kanal dagegen alle sechs Monate. Weitere Informationen zu Kanälen finden Sie unter [Übersicht über die Updatekanäle für Office 365 ProPlus](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4).
+Sie können steuern, wie oft Sie Funktionsupdates erhalten, indem Sie den Updatekanal mithilfe des Office-Bereitstellungstools oder einer Gruppenrichtlinie konfigurieren. Über den monatlichen Kanal erhalten Sie Funktionsupdates (ungefähr) monatlich, über den halbjährlichen Kanal dagegen alle sechs Monate. Weitere Informationen zu Kanälen finden Sie unter [Übersicht über die Update Kanäle für Microsoft 365-Apps für Unternehmen](https://support.office.com/article/9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4).
   
 ## <a name="related-topics"></a>Verwandte Themen
 

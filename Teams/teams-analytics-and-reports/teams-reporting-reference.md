@@ -15,12 +15,12 @@ ms.collection:
 description: Informieren Sie sich über die Teamberichte, die im Microsoft Teams Admin Center zur Verfügung stehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1c4c142ff311debd3f96d08e386df68af953c2b
-ms.sourcegitcommit: 379bfaf6b0584c1ac93341af605f93ab932a442b
+ms.openlocfilehash: 86003876bbbf4927886a8b260fad48f451a2d325
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240645"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778240"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams – Analyse und Berichterstellung
 
@@ -33,7 +33,7 @@ Wenn Sie auf die Berichte zugreifen möchten, müssen Sie ein globaler Administr
 Wechseln Sie zum Microsoft Teams Admin Center, wählen Sie im linken Navigationsbereich **Analyse & Berichte**aus, und wählen Sie dann unter **Bericht**den Bericht aus, den Sie ausführen möchten.
 
 > [!NOTE]
-> Die Berichte im Microsoft Teams Admin Center sind unabhängig von den Aktivitätsberichten für Teams, die Teil der Office 365-Berichte im Microsoft 365 Admin Center sind. Weitere Informationen zu den Aktivitätsberichten im Microsoft 365 Admin Center finden Sie unter [Teams-Aktivitätsberichte im Microsoft 365 Admin Center](../teams-activity-reports.md) .
+> Die Berichte im Microsoft Teams Admin Center sind unabhängig von den Aktivitätsberichten für Teams, die Teil der Microsoft 365-Berichte im Microsoft 365 Admin Center sind. Weitere Informationen zu den Aktivitätsberichten im Microsoft 365 Admin Center finden Sie unter [Teams-Aktivitätsberichte im Microsoft 365 Admin Center](../teams-activity-reports.md) .
 
 ## <a name="teams-reporting-reference"></a>Referenz für Teams-Berichterstattung
 
@@ -46,7 +46,7 @@ Wir verbessern kontinuierlich die Berichts Erfahrung von Teams und fügen Featur
 |[Teams-Nutzungsbericht](teams-usage-report.md)  |  Aktive Benutzer<br/>Aktive Benutzer in Teams und Kanälen<br/>Aktive Kanäle<br/>Meldungen<br/>Datenschutzeinstellungen für Teams<br/>Gäste in einem Team   |
 |[Teams-Benutzeraktivitätsbericht](user-activity-report.md)  |  1:1-Anrufe, an denen ein Benutzer teilgenommen hat<br/>Nachrichten, die ein Benutzer in einem Teamchat gepostet hat<br/>Nachrichten, die ein Benutzer in einem privaten Chat gepostet hat<br/>Datum der letzten Aktivität eines Benutzers     |
 |[Teams-Gerätenutzungsbericht](device-usage-report.md)   |  Windows-Benutzer<br/>Mac-Benutzer<br/>IOS-Benutzer<br/>Android-Telefon Nutzer     |
-|[Teams-Liveereignis-Nutzungsbericht](teams-live-event-usage-report.md)   |  Gesamtansichten<br>Startzeitpunkt<br>Ereignisstatus<br>Organisator<br>Presenter<br>Produzent<br>Aufnahmeeinstellung<br>Produktionsart    |
+|[Teams-Liveereignis-Nutzungsbericht](teams-live-event-usage-report.md)   |  Gesamtansichten<br>Startzeitpunkt<br>Ereignisstatus<br>Organisator<br>Presenter<br>Produzent<br>Aufzeichnungseinstellung<br>Produktionsart    |
 |[Berichte über PSTN-blockierte Benutzer von Teams](pstn-blocked-users-report.md)   |  Anzeigename<br>Telefonnummer<br>Grund<br>Aktionstyp<br>Datum und Uhrzeit der Aktion   |
 |[Berichte für PSTN-Minuten Pools für Teams](pstn-minute-pools-report.md) |  Land oder Region<br>Funktion (Lizenz) <br>Gesamtzahl der Minuten<br>Verwendete Minuten<br>Minuten verfügbar|
 |[PSTN-Nutzungsbericht für Teams – Anrufpläne](pstn-usage-report.md#calling-plans)|  Zeitstempel<br>Benutzername<br>Telefonnummer<br>Anruftyp <br>Aufgerufen an<br>Zu Land oder Region <br>Aufgerufen von <br>Aus Land oder Region<br>Kostenlos<br>Währung<br>Dauer<br>Domestic/International<br>Anruf-ID<br>Zahlentyp<br>Land oder Region<br>Konferenz-ID<br>Funktion (Lizenz)|

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef2f257934847f74466ff6f91890a667084b88d1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 8c3e3e9d3253fef62c93751367647399ca91febd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139664"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780604"
 ---
 # <a name="define-your-project-scope"></a>Definieren des Projektumfangs
 
@@ -93,7 +93,7 @@ In der folgenden Tabelle sind Beispiele für OKRs und KSIs für die Anfangsphase
 |---|---|---|---|---|
 | **Netzwerk und Qualität** | Prozentsatz schlechter Audioanrufe sollte minimal sein | [Dashboard für die Anrufqualität (CQD)](https://aka.ms/sof-cqd) | \<3% von schlechten anrufen mit Teams | Wöchentlich, dann monatlich |
 | **Nutzung und Sensibilisierung** | Die Benutzeroberfläche für Chats, Besprechungen und Anrufe ist gleich oder besser als Skype for Business. | Umfrage | 80% Stimmen zu oder Stimmen stark zu | Wöchentlich über Pilot, nach dem Rollout |
-| **Verwendung und Annahme** | Aktive Verwendung der Lösung durch die Benutzer | Office 365-Berichte oder CQD | 90% Teilnahme von Pilotbenutzern, besser als die aktuelle Lösung | Wöchentlich, dann monatlich |
+| **Verwendung und Annahme** | Aktive Verwendung der Lösung durch die Benutzer | Microsoft 365-Berichte oder CQD | 90% Teilnahme von Pilotbenutzern, besser als die aktuelle Lösung | Wöchentlich, dann monatlich |
 | **Nutzung und Schulung** | Ich hatte angemessene Schulungs-und Hilferessourcen, um Teams erfolgreich zu verwenden. | Umfrage nach dem Pilotprojekt | 80% Stimmen zu oder Stimmen stark zu | Post-Pilot, nach dem Rollout |
 | **Benutzerzufriedenheit** | Ich würde anderen Teams empfehlen | [Net Promoter Score (NPS)](http://www.npscalculator.com/en) per Post-Pilotumfrage | NPS \> 0 | Post-Pilot, nach dem Rollout |
 | **Unternehmens Treiber** | Kosteneinsparungen | Verbindlichkeiten | \$X Mio. Kostenaufwand in Lösungen von Drittanbietern | Sechs Monate, dann ein Jahr, dann fünf Jahre nach dem Rollout |

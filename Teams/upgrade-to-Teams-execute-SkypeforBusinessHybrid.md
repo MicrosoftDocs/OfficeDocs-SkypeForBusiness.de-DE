@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa72c0d6a03ef89d0c04b0a70a0bbc918a508243
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: ea18a755ccca9b3608cd1fddbf616a969b89140c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136975"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779832"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>Upgrade von einer Skype for Business-hybridbereitstellung in Teams
 
@@ -41,7 +41,7 @@ Dieser Artikel ist Teil der Bereitstellungs-und Implementierungsphase Ihrer Upgr
 - [Vorbereiten Ihrer Organisation](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Durchgeführt eines Pilotprojekts](https://aka.ms/SkypeToTeams-Pilot)
 
-Befolgen Sie die Anleitungen in diesem Artikel, wenn Sie Skype for Business oder Microsoft lync lokal bereitgestellt und in einer hybridbereitstellung mit Ihrem Office 365-Mandanten konfiguriert haben und Ihre Organisation ein Upgrade auf Teams entweder selektiv durchführen möchte, indem Sie mehrere Koexistenzmodus verwenden – oder All-in. Wenn Sie eine Upgrade-Reise durchführen möchten, müssen Sie Ihre Benutzer in Skype for Business Online verschieben (sofern Sie nicht bereits online sind) und Ihnen dann den entsprechenden Koexistenz-und Aktualisierungsmodus zuweisen.
+Befolgen Sie die Anleitungen in diesem Artikel, wenn Sie Skype for Business oder Microsoft lync lokal bereitgestellt und in einer hybridbereitstellung mit Ihrer Office 365-Organisation konfiguriert haben und Ihre Organisation ein Upgrade auf Teams entweder selektiv durchführen möchte, indem Sie mehrere Koexistenzmodus verwenden – oder All-in. Wenn Sie eine Upgrade-Reise durchführen möchten, müssen Sie Ihre Benutzer in Skype for Business Online verschieben (sofern Sie nicht bereits online sind) und Ihnen dann den entsprechenden Koexistenz-und Aktualisierungsmodus zuweisen.
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]

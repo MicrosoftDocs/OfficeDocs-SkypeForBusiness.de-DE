@@ -12,12 +12,12 @@ ms:contentKeyID: 48184449
 ms.date: 02/21/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a95f2fba2d65f0d25f1fa9b843dd7bb47240aa6c
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 44d1f06fcbdbbba7400bf45857dad9ed57971363
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42188392"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779721"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -103,7 +103,7 @@ Wenn das Modul importiert wurde, geben Sie den folgenden Befehl ein, und drücke
 
     Connect-MsolService
 
-Nachdem Sie die EINGABETASTE gedrückt haben, wird ein Dialogfeld Anmeldeinformationen angezeigt. Geben Sie im Dialogfeld Ihren Office 365 Benutzernamen und das Kennwort ein, und klicken Sie dann auf OK.
+Nachdem Sie die EINGABETASTE gedrückt haben, wird ein Dialogfeld Anmeldeinformationen angezeigt. Geben Sie im Dialogfeld Ihren Microsoft 365-oder Office 365-Benutzernamen und das Kennwort ein, und klicken Sie dann auf OK.
 
 Sobald Sie mit Office 365 verbunden sind, können Sie den folgenden Befehl ausführen, um Informationen zu ihren Dienst Prinzipalen zurückzugeben:
 

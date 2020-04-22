@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44b7a87a003b59543c37feb278462e839d83bd1e
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+ms.openlocfilehash: 68a7b26fa9668685fc9082ecdb202b6f589e0f4f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863306"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780184"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Übersicht über dynamische Mitgliedschaft für Teams
 
-Microsoft Teams unterstützt Teams, die mit Office 365-Gruppen verbunden sind, mithilfe der *dynamischen Mitgliedschaft*. Mit der dynamischen Mitgliedschaft kann die Mitgliedschaft in einem Team durch eine oder mehrere Regeln definiert werden, die in Azure Active Directory (Azure AD) nach bestimmten Benutzerattributen suchen. Benutzer werden automatisch zu den richtigen Teams hinzugefügt oder entfernt, wenn sich Benutzerattribute ändern oder Benutzer dem Mandanten beitreten und ihn belassen.
+Microsoft Teams unterstützt Teams, die Microsoft 365-Gruppen zugeordnet sind, mithilfe der *dynamischen Mitgliedschaft*. Mit der dynamischen Mitgliedschaft kann die Mitgliedschaft in einem Team durch eine oder mehrere Regeln definiert werden, die in Azure Active Directory (Azure AD) nach bestimmten Benutzerattributen suchen. Benutzer werden automatisch zu den richtigen Teams hinzugefügt oder entfernt, wenn sich Benutzerattribute ändern oder Benutzer dem Mandanten beitreten und ihn belassen.
 
 Mit der dynamischen Mitgliedschaft können Sie Teams für bestimmte Kohorten von Benutzern in Ihrer Organisation einrichten. Mögliche Szenarien sind:
 - In einem Krankenhaus können unterschiedliche Teams für Krankenschwestern, Ärzte und Chirurgen zur Übertragung von Kommunikationen erstellt werden. Dies ist besonders wichtig, wenn das Krankenhaus auf temporäre Mitarbeiter angewiesen ist.
@@ -48,7 +48,7 @@ Wenn Sie als mandantenadministrator angemeldet sind, folgen Sie den Anweisungen 
 
 ## <a name="create-a-new-team-with-your-o365-group"></a>Erstellen eines neuen Teams mit Ihrer Office 365-Gruppe
 
-Lassen Sie jetzt Zeit, bis die Mitgliedschaftsänderungen wirksam werden, und erstellen Sie ein neues Team, wie unter [Erweitern vorhandener Office 365-Gruppen mit Microsoft Teams](enhance-office-365-groups.md)beschrieben.
+Lassen Sie jetzt Zeit, bis die Mitgliedschaftsänderungen wirksam werden, und erstellen Sie ein neues Team, wie unter [Erweitern vorhandener Microsoft 365-Gruppen mit Microsoft Teams](enhance-office-365-groups.md)beschrieben.
 
 ## <a name="apply-dynamic-membership-to-an-existing-team"></a>Anwenden einer dynamischen Mitgliedschaft auf ein vorhandenes Team
 

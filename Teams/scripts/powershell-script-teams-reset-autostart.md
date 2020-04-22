@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad6411f82df31ec5f0be93cbd30d87a1832daa50
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 16d0c9270cfa387c10d1c3e4b05ac5bb1d5f3f0a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826963"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780534"
 ---
 # <a name="powershell-script-sample---reset-the-autostart-setting-in-teams"></a>PowerShell-Skriptbeispiel – Zurücksetzen der Autostart-Einstellung in Microsoft Teams
 
@@ -149,4 +149,4 @@ if($null -eq $teamsProc) {
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Installieren von Teams mithilfe von MSI](../msi-deployment.md).
-- [Bereitstellen von Teams mit Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install)
+- [Bereitstellen von Teams mit Microsoft 365-Apps für Unternehmen](https://docs.microsoft.com/deployoffice/teams-install)

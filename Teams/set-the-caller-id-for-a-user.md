@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Informieren Sie sich über die Office 365-Standard Rufnummernanzeige (die zugewiesene Telefonnummer eines Benutzers), die auch als Anruf Leitungs-ID bezeichnet wird. Sie können die Rufnummernanzeige eines Benutzers ändern oder blockieren.
-ms.openlocfilehash: c04fdfa7dc395f31eb3277fe0ab2f77aa92605c7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 3e19b1de929057880573c29ba75aa0ec1091139f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140908"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780524"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Festlegen der Anrufer-ID für einen Benutzer
 Das Telefon System in Office 365 stellt eine Standard-Rufnummernanzeige zur Verfügung, die die zugewiesene Telefonnummer des Benutzers darstellt. Sie können die Anrufer-ID (die auch als Anruferleitungs-ID bezeichnet wird) für einen Benutzer ändern oder blockieren. Weitere Informationen zur Verwendung der Rufnummernanzeige in Ihrer Organisation finden Sie unter [wie kann die Rufnummernanzeige in Ihrer Organisation verwendet werden](how-can-caller-id-be-used-in-your-organization.md).
@@ -79,7 +79,7 @@ Weitere Informationen zu diesen Einstellungen und zu ihrer Verwendung finden Sie
     
 1. Vom **Start Menu** > **Windows PowerShell**.
     
-2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
+2. Stellen Sie im **Windows PowerShell** -Fenster eine Verbindung mit Ihrem Microsoft 365 oder Office 365 her, indem Sie Folgendes ausführen:
     
    > [!NOTE]
    > Sie müssen den Befehl **Import-Module** nur bei der ersten Verwendung des Windows PowerShell-Moduls für Skype for Business Online ausführen.

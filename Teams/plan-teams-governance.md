@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afd990c0a49b1f61bb5be717cc3bf2ad7bc70935
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7fd782df443504a20a6010f07ac15b9078e570a7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836187"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780204"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Governance in Teams.
 
@@ -57,7 +57,7 @@ Für Ihre Organisation ist es möglicherweise erforderlich, strenge Steuerelemen
 > [Weitere Informationen zum Festlegen dieser Richtlinien und zu den erforderlichen Lizenzen finden](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#template-settings)Sie unter Unterstützung bei der Planung.
 > 
 > [!NOTE]
-> Das Einschränken der Gruppen-und TEAMERSTELLUNG kann die Produktivität Ihrer Benutzer verlangsamen, da für viele Office 365-Dienste die Erstellung von Gruppen erforderlich ist, damit der Dienst funktioniert. Weitere Informationen finden Sie unter [Warum steuern, wer Office 365-Gruppen erstellt](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
+> Das Einschränken der Gruppen-und TEAMERSTELLUNG kann die Produktivität Ihrer Benutzer verlangsamen, da für viele Office 365-Dienste die Erstellung von Gruppen erforderlich ist, damit der Dienst funktioniert. Weitere Informationen finden Sie unter [Warum steuern, wer Microsoft 365-Gruppen erstellt](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618#why).
 
 
 #### <a name="additional-information"></a>Weitere Informationen
@@ -66,14 +66,14 @@ Nachdem Sie Ihre Anforderungen festgelegt haben, können Sie diese mithilfe von 
 
 - [Azure Active Directory-Cmdlets zum Konfigurieren von Gruppeneinstellungen](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets).
 
-- [Erzwingen einer Benennungsrichtlinie für Office 365-Gruppen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
+- [Erzwingen einer Benennungsrichtlinie für Microsoft 365-Gruppen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy)
 
-- [Office 365-gruppenbenennungsrichtlinie](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
+- [Benennungsrichtlinie für Microsoft 365-Gruppen](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552)
 
 
 ## <a name="group-and-team-expiration-retention-and-archiving"></a>Ablauf, Aufbewahrung und Archivierung von Gruppen und Teams
 
-In Ihrer Organisation sind möglicherweise zusätzliche Anforderungen für das Festlegen von Richtlinien für Ablauf, Aufbewahrung und Archivierung von Teams und Team Daten (Kanal Nachrichten und Kanaldateien) enthalten. Sie können Gruppen Ablaufrichtlinien so konfigurieren, dass der Lebenszyklus der Gruppen-und Aufbewahrungsrichtlinien automatisch verwaltet wird, um Informationen nach Bedarf zu erhalten oder zu löschen, und Sie können Teams archivieren (im schreibgeschützten Modus festlegen), um eine Point-in-Time-Ansicht eines Teams beizubehalten, das nicht mehr aktiv.
+In Ihrer Organisation sind möglicherweise zusätzliche Anforderungen für das Festlegen von Richtlinien für Ablauf, Aufbewahrung und Archivierung von Teams und Team Daten (Kanal Nachrichten und Kanaldateien) enthalten. Sie können Gruppen Ablaufrichtlinien so konfigurieren, dass der Lebenszyklus der Gruppen-und Aufbewahrungsrichtlinien automatisch verwaltet wird, um Informationen nach Bedarf zu erhalten oder zu löschen, und Sie können Teams archivieren (im schreibgeschützten Modus festlegen), um eine Point-in-Time-Ansicht eines Teams beizubehalten, das nicht mehr aktiv ist.
 
 |           |            |
 |-----------|------------|
@@ -85,8 +85,8 @@ In Ihrer Organisation sind möglicherweise zusätzliche Anforderungen für das F
 
 |Funktion |Details |Azure AD Premium-Lizenz erforderlich |Entscheidung |
 |---------|---------|---------|---------|
-|Ablaufrichtlinie |Verwalten des Lebenszyklus von Office 365-Gruppen durch Festlegen einer Ablaufrichtlinie |P1 |TBD|
-|Aufbewahrungsrichtlinie |Speichern oder löschen Sie Daten für einen bestimmten Zeitraum, indem Sie Aufbewahrungsrichtlinien für Teams im Security #a0 Compliance Center festlegen. **Hinweis**: die Verwendung dieses Features erfordert Lizenzierung von Office 365 Enterprise E3 oder höher. |Nein |TBD |
+|Ablaufrichtlinie |Verwalten des Lebenszyklus von Microsoft 365-Gruppen durch Festlegen einer Ablaufrichtlinie |P1 |TBD|
+|Aufbewahrungsrichtlinie |Speichern oder löschen Sie Daten für einen bestimmten Zeitraum, indem Sie Aufbewahrungsrichtlinien für Teams im Security & Compliance Center festlegen. **Hinweis**: die Verwendung dieses Features erfordert Lizenzierung von Office 365 Enterprise E3 oder höher. |Nein |TBD |
 |Archivieren und Wiederherstellen |Archivieren Sie ein Team, wenn es nicht mehr aktiv ist, möchten Sie es aber zu Referenzzwecken behalten oder in Zukunft wieder aktivieren. |Nein |TBD |
 
 > [!Note]
@@ -96,7 +96,7 @@ In Ihrer Organisation sind möglicherweise zusätzliche Anforderungen für das F
 
 Technische Anleitungen zur Implementierung dieser Einstellungen finden Sie unter:
 
-- [Einrichten von Office 365 Groups-Ablauf](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
+- [Einrichten von Microsoft 365 Groups-Ablauf](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle).
 
 - [Einrichten von Aufbewahrungsrichtlinien für Teams](retention-policies.md)
 
@@ -105,7 +105,7 @@ Technische Anleitungen zur Implementierung dieser Einstellungen finden Sie unter
 
 ## <a name="teams-feature-management"></a>Team-Funktionsverwaltung
 
-Ein weiterer wichtiger Aspekt von Governance und Lifecycle Management für Teams ist die Möglichkeit, zu steuern, auf welche Funktionen Ihre Benutzer zugreifen können. Sie können Messaging-, Besprechungs-und Anruffeatures verwalten, entweder auf der Office 365-Mandantenebene oder pro Benutzer. 
+Ein weiterer wichtiger Aspekt von Governance und Lifecycle Management für Teams ist die Möglichkeit, zu steuern, auf welche Funktionen Ihre Benutzer zugreifen können. Sie können Messaging-, Besprechungs-und Anruffeatures verwalten, entweder auf der Office 365-Organisationsebene oder pro Benutzer. 
 
 
 |         |         |

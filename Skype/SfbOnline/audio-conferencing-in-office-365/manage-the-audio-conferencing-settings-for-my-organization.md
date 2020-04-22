@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Weitere Informationen finden Sie unter Skype for Business Online-Schritte zum Zuweisen einer Lizenz für Einwahlkonferenzen und einer Konferenz-ID für einen Benutzer und viele andere Einstellungen für Einwahlkonferenzen. '
-ms.openlocfilehash: 46f55ba256759d86e93e9436e949ee49ff337f7c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 9567c8234c0ef7a5b65c5894666747eab3cff7a5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41986520"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777980"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Verwalten der Einstellungen von Audio Conferencing für meine Organisation in Skype for Business Online
 
@@ -43,7 +43,7 @@ Es ist möglicherweise einfacher für Sie, alle Audiokonferenz-Einstellungen fü
 
  **So weisen Sie eine Lizenz für einen Benutzer zu**
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie in der linken Navigationsleiste des Admin Centers zu **Benutzer** > **aktive**Benutzer, und wählen Sie dann den Benutzer oder die Benutzer aus der Liste der verfügbaren Benutzer aus.
 
@@ -61,7 +61,7 @@ Es ist möglicherweise einfacher für Sie, alle Audiokonferenz-Einstellungen fü
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zum Admin Center > **Skype for Business** , und klicken Sie im linken Navigationsbereich auf **Audiokonferenzen**.
 
@@ -110,7 +110,7 @@ Sehen Sie sich [e-Mails an, die automatisch an Benutzer gesendet werden, wenn si
 
 ## <a name="reset-the-meeting-conference-id"></a>Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zum Admin Center > **Skype for Business**.
 
@@ -128,7 +128,7 @@ See [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).
 Each meeting that a user schedules will get assigned a unique conference ID. Although a conference ID will be automatically created and assigned to a user, there may be times when a user doesn't want to use this one and you want to set it to a certain number, or your users can't remember or have lost their conference ID. You can use the Skype for Business admin center and Windows PowerShell to view, change, and reset their conference ID.
 
 
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zum Admin Center > **Skype for Business** , und klicken Sie im linken Navigationsbereich auf **Audiokonferenzen**.
 
@@ -142,7 +142,7 @@ Siehe [Zurücksetzen der Audiokonferenz-Pin](reset-the-audio-conferencing-pin.md
 
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden einer e-Mail mit Audio-Konferenz Informationen an einen Benutzer
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zum Admin Center > **Skype for Business** , und klicken Sie im linken Navigationsbereich auf **Audiokonferenzen**.
 
@@ -157,7 +157,7 @@ Siehe [Senden einer E-Mail mit den Informationen zur Einwahlkonferenz an einen B
 
 ## <a name="setting-the-phone-numbers-included-on-invites"></a>Festlegen der in Einladungen enthaltenen Telefonnummern
 
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zum Admin Center > **Skype for Business**.
 
@@ -175,7 +175,7 @@ Weitere Informationen finden Sie unter [Einrichten der Telefonnummern, die in Ei
 **Einrichten der Besprechungs Erfahrung, wenn Anrufer an einer Besprechung teilnehmen**
 
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zum Admin Center > **Skype for Business**.
 
@@ -195,7 +195,7 @@ Siehe [Ändern der Einstellungen für eine Audiokonferenzbrücke](/MicrosoftTeam
   
  **Festlegen der Länge der PIN für Besprechungen**
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zum Admin Center > **Skype for Business**.
 
@@ -209,7 +209,7 @@ Siehe [Ändern der Einstellungen für eine Audiokonferenzbrücke](/MicrosoftTeam
   
  **Aktivieren oder Deaktivieren des Sendens von E-Mails an Audiobenutzer**
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zum Admin Center > **Skype for Business** , und klicken Sie im linken Navigationsbereich auf **Audiokonferenzen**.
 
@@ -226,7 +226,7 @@ Siehe [Ändern der Einstellungen für eine Audiokonferenzbrücke](/MicrosoftTeam
 ## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>Anzeigen und Festlegen der primären (Standard-) und sekundären (Alternativen) Sprachen auf einer Audiokonferenz-Brücke
 
 
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zum Admin Center > **Skype for Business**.
 
@@ -240,7 +240,7 @@ Siehe [Festlegen der automatischen Telefonzentrale Sprachen für Audio-Konferenz
 
 ## <a name="see-audio-conferencing-dial-in-numbers"></a>Anzeigen von Einwahlnummern für Audiokonferenzen
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zum Admin Center > **Skype for Business**.
 
@@ -258,7 +258,7 @@ Weitere Informationen finden Sie unter [Anzeigen einer Liste von Audiokonferenz-
 
 ## <a name="see-a-list-of-users-that-are-enabled"></a>Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zum Admin Center > **Skype for Business**.
 

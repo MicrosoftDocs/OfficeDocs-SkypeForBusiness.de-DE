@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 91e2763fac952b7188284dcf09e6fc0b7cc4bf16
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 44ea666d39427e6be6aa60a3c05af2a10ed1cc5e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749862"
+ms.locfileid: "43780584"
 ---
 # <a name="quality-of-experience-review-guide"></a>Leitfaden zur Überprüfung der Erlebnisqualität 
 
@@ -70,16 +70,16 @@ In dieser Tabelle wird dargestellt, was jede einzelne Rollen in CQD tun darf:
 
 |  |Berichte anzeigen  |EUII-Felder anzeigen  |Berichte erstellen  |Gebäudedaten hochladen  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|Globaler Office 365-Administrator     |Ja          |Ja          |Ja          |Ja          |
+|Globaler Administrator     |Ja          |Ja          |Ja          |Ja          |
 |Teams-Dienstadministrator     |Ja          |Ja          |Ja          |Ja          |
 |Teams-Kommunikationsadministrator     |Ja          |Ja          |Ja          |Ja          |
 |Teams-Kommunikationssupporttechniker     |Ja          |Ja          |Ja         |Nein         |
 |Supportfachmann für die Teams-Kommunikation     |Ja         |Nein         |Ja         |Nein         |
 |Skype for Business-Administrator     |Ja          |Ja          |Ja          |Ja         |
-|Azure AD globaler Leseberechtigter |Ja          |Ja          |Ja         |Nein         |
-|Office 365-Berichtleseberechtigter<sup>1</sup>     |Ja         |Nein         |Ja         |Nein         |
+|Azure AD globaler Leseberechtigter |Ja         |Ja          |Ja         |Nein         |
+|Microsoft 365-berichtsleser<sup>1</sup>     |Ja         |Nein         |Ja         |Nein         |
 
-<sup>1</sup> Zusätzlich zum Lesen von CQD-Berichten kann der Office 365-Berichtleseberechtigter alle [Aktivitätsberichte](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) im Admin Center sowie alle Berichte aus dem [Inhaltspaket zur Microsoft 365-Einführung](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f) anzeigen.
+<sup>1</sup> neben dem Lesen von CQD-Berichten kann der Microsoft 365-berichtsleser alle [Aktivitätsberichte](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) im Admin Center sowie alle Berichte des [Microsoft 365-Inhaltspakets zur Einführung](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)anzeigen.
 
 > [!NOTE]
 > Wenn Sie keine EUII sehen („end-user identifiable information“ – identifizierbare Informationen über den Endbenutzer) und Sie eine der Rollen haben, die diese Informationen anzeigen dürfen, denken Sie daran, dass CQD EUII nur 30 Tage lang aufbewahrt. Alle Elemente, die älter als 30 Tage sind, werden gelöscht.
@@ -598,7 +598,7 @@ Dieser Leitfaden enthält [zwei zusammengestellte CQD-Vorlagen](https://aka.ms/q
 2. Authentifizieren Sie sich mit Ihren Admin-Anmeldeinformationen für Office 365.
 
    > [!NOTE]
-   > Sie müssen über die Rolle "Globaler Office 365-Administratorr", "Skype for Business-Administrator" oder "Berichtleseberechtigter" für den Zugriff auf CQD verfügen. 
+   > Sie müssen über die Rolle globaler Administrator, Skype for Business-Administrator oder berichtsleser verfügen, um auf CQD zugreifen zu können. 
 
 3. Wählen Sie oben auf der Seite das Menü **Zusammenfassungsberichte** aus und wählen Sie dann **Detaillierte Berichte** aus.
 
@@ -1189,7 +1189,7 @@ Darüber hinaus ist es wichtig, zu prüfen und sicherzustellen, dass die Netzwer
 Die Versionsnummern für Skype for Business finden Sie über die folgenden Links:
 
 -   [Versionsinformationen zu Updates für Office ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
--   [Updateverlauf für Office 365 ProPlus](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
+-   [Update Verlauf für Microsoft 365-Apps für Unternehmen](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
 -   [Skype for Business – Downloads und Updates](/SkypeForBusiness/software-updates)
 
 ### <a name="devices"></a>Geräte

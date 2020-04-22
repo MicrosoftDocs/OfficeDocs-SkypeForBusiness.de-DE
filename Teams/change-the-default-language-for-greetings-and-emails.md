@@ -23,16 +23,16 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Hier erfahren Sie, wie Sie Skype für Unternehmen einrichten, um eine andere Sprache für die standardmäßige Voicemail-Ansage Ihrer Organisation zu verwenden.
-ms.openlocfilehash: 1fb9a97c31e973d6a56da65d301324b1d9d34b90
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 5cff20da14dac942527b8b667731c24a47f0cf29
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43752342"
+ms.locfileid: "43780364"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Ändern der Standardsprache für Ansagen und E-Mails
 
-Wenn Sie [globaler Office 365-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) sind, können Sie Skype for Business so einrichten, dass die standardmäßige Voicemail-Ansage in einer anderen Sprache wiedergegeben wird. Die Standardansage des Systems lautet zum Beispiel „Bitte hinterlassen Sie eine Nachricht für John Smith. Nehmen Sie Ihre Nachricht nach dem Ton auf. Wenn Sie fertig sind, legen Sie auf, oder drücken Sie die Rautetaste, um weitere Optionen zu verwenden.". 
+Wenn Sie ein [globaler Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)sind, können Sie Skype for Business so einrichten, dass seine Standardansage für Voicemail in einer anderen Sprache wiedergegeben wird. Die standardmäßige Systemansage lautet zum Beispiel „Bitte hinterlassen Sie eine Nachricht für John Smith. Nehmen Sie Ihre Nachricht nach dem Ton auf. Wenn Sie fertig sind, legen Sie auf, oder drücken Sie die Rautetaste, um weitere Optionen zu verwenden.". 
   
  **Lesen Sie zunächst diese wichtigen Informationen:**
   
@@ -49,7 +49,7 @@ Wenn Sie [globaler Office 365-Administrator](https://support.office.com/article
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Ändern der Systemsprache für alle Benutzer in der Organisation
 
-1. Registrieren Sie sich [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)bei Ihrem [globalen Office 365-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Konto. 
+1. Registrieren Sie sich [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)bei Ihrem [globalen Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Konto. 
     
 2. Wählen Sie im Microsoft 365 Admin Center **Einstellungen** > **Settings** > Einstellungen**Organisationsprofil**aus. 
     

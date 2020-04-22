@@ -23,12 +23,12 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 description: Informieren Sie sich über den kostenlosen Wähl Zeitraum für Office 365-Anrufplan und Office 365-Audiokonferenzen in Microsoft Teams.
-ms.openlocfilehash: 46c9aac02c40a973abc8356dc4212b3521852461
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 19ffdd1b0a634a2fb3294479b2163af38aefedf6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137295"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779792"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Audiokonferenz – Zeitraum für kostenlose ausgehende Anrufe
 
@@ -48,7 +48,7 @@ Für Kunden, die unseren Office 365-Audiokonferenzdienst einrichten, bietet Micr
 
 Darüber hinaus gibt es während des kostenlosen Wähl Zeitraums eine Grenze von 900 Minuten als solche:
 
-Benutzer, die über einen Speicherort für die Lizenzverwendung verfügen (Dies ist der Standort des Benutzer Landes, der im Lizenzierungs Bereich des Office 365-Administrator Portals definiert ist), können in einem beliebigen Land von einer Konferenz zu einem der 44 Zone a Länder und Regionen wählen. Jeder Benutzer erhält 900 Minuten pro Benutzer pro Monat zu einem der Zonen A Länder und Regionen, die auf Mandantenebene gebündelt sind. Beispielsweise hat ein Kunde 115-Abonnements für Audio-Conferencing-Abonnements erworben und hat 10 Benutzer in den USA, 100-Benutzern in Großbritannien und 5 Benutzern in Indien, alle mit Lizenzen für Audio-Konferenz Abonnements, die Ihren Benutzern zugewiesen sind.
+Benutzer mit einem Speicherort für die Lizenznutzung (Dies ist der Standort des Benutzer Landes, der im Lizenzierungs Bereich des Microsoft 365 admin Centers definiert ist) können in einem beliebigen Land von einer Konferenz zu einem der 44 Zone a Länder und Regionen wählen. Jeder Benutzer erhält 900 Minuten pro Benutzer pro Monat zu einem der Zonen A Länder und Regionen, die auf Mandantenebene gebündelt sind. Beispielsweise hat ein Kunde 115-Abonnements für Audio-Conferencing-Abonnements erworben und hat 10 Benutzer in den USA, 100-Benutzern in Großbritannien und 5 Benutzern in Indien, alle mit Lizenzen für Audio-Konferenz Abonnements, die Ihren Benutzern zugewiesen sind.
 
 > [!NOTE]
 > Die Größe des Pools basiert auf zugewiesenen Lizenzen und nicht auf erworbenen Lizenzen.

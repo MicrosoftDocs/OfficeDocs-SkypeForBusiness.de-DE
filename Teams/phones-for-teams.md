@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: Dieser Artikel behandelt die Liste der Telefone, die für Microsoft Teams zertifiziert sind, und die Features, die in den für Microsoft Teams zertifizierten Telefonen unterstützt werden.
-ms.openlocfilehash: b811a92977d10601aa601e1bae811ef73c34dce8
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 94ee5e2dc1b55da190c4b6afa736fab2ced3e1d1
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836865"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780224"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefone für Microsoft Teams
 
@@ -35,7 +35,7 @@ Um eine hochwertige und zuverlässige Microsoft Teams-Erfahrung auf Smartphones 
 
 In der folgenden Tabelle finden Sie eine Reihe von Funktionen, die in Teams Certified IP Phones unterstützt werden.
 
-|Funktionen |Tischtelefon (persönlicher Modus) |Konferenzraum Telefon (Shared-Modus)|
+|Features |Tischtelefon (persönlicher Modus) |Konferenzraum Telefon (Shared-Modus)|
 |---------|---------|---------|
 |**Authentifizierung** | |  |
 |Anmelden mit Benutzeranmeldeinformationen |  Ja  | Ja|
@@ -141,7 +141,7 @@ Die Mindestversion der Firmware kann auf der Anmeldeseite für Teams überprüft
 
 ## <a name="required-licenses"></a>Erforderliche Lizenzen
 
-Microsoft Teams-Lizenzen können als Teil ihrer [Office 365-Abonnements](Office-365-licensing.md)erworben werden. Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung von Microsoft Teams auf Telefonen finden Sie unter Verfügbare [Lizenzen für Telefonsysteme](https://products.office.com/microsoft-teams/voice-calling).
+Microsoft Teams-Lizenzen können im Rahmen ihrer [Microsoft 365-und Office 365-Abonnements](Office-365-licensing.md)erworben werden. Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung von Microsoft Teams auf Telefonen finden Sie unter Verfügbare [Lizenzen für Telefonsysteme](https://products.office.com/microsoft-teams/voice-calling).
 
 Weitere Informationen zum Erhalten von Teams finden Sie unter[Wie erhalte ich Zugriff auf Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

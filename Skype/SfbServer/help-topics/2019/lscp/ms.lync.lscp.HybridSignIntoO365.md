@@ -1,5 +1,5 @@
 ---
-title: Hybrid-Assistent bei Office 365 anmelden
+title: Hybrid-Assistent meldet sich bei Microsoft 365 oder Office 365
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
@@ -18,22 +18,22 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
-description: Verwenden Sie den Assistenten für die Hybrid Verwaltbarkeit von Skype for Business Server, der Ihnen bei der Konfiguration Ihrer Umgebung für hybride mit Skype for Business Online hilft.
-ms.openlocfilehash: 1d42e408452bf55c03d0e4399f3dbe6971ce225d
-ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
+description: Verwenden Sie den Skype for Business Server-Assistenten für die Hybrid Verwaltung, um Ihre Umgebung für hybride mit Skype for Business Online zu konfigurieren.
+ms.openlocfilehash: 57b9a19fb66a11bec527083bf107e4f967b867e8
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41795396"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779842"
 ---
-# <a name="hybrid-wizard-sign-in-to-office-365"></a>Hybrid-Assistent: Anmelden bei Office 365
+# <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>Hybrid-Assistent: Anmelden bei Microsoft 365 oder Office 365
 
-Verwenden Sie den Assistenten für die Hybrid Verwaltbarkeit von Skype for Business Server, der Ihnen bei der Konfiguration Ihrer Umgebung für hybride mit Skype for Business Online hilft.
+Verwenden Sie den Skype for Business Server-Assistenten für die Hybrid Verwaltung, um Ihre Umgebung für hybride mit Skype for Business Online zu konfigurieren.
 
-## <a name="sign-in-to-office-365"></a>Melden Sie sich bei Office 365 an.
+## <a name="sign-in-to-microsoft-365-or-office-365"></a>Melden Sie sich bei Microsoft 365 oder Office 365
 
-Geben Sie den Benutzernamen und das Kennwort für Ihren Office 365-Mandanten ein, um ihn anmelden und Ihre lokale Bereitstellung mit Ihrem Office 365-Mandanten zu verbinden. Sie müssen das Administratorenkonto verwenden, das für die Domäne „onmicrosoft“ angelegt wurde, als Sie sich für Office 365 angemeldet haben. Beispiel: „admin@contoso.onmicrosoft.com“.
+Geben Sie den Benutzernamen und das Kennwort für Ihre Microsoft 365-oder Office 365-Organisation ein, um sich anzumelden und die lokale Bereitstellung mit Ihrer Microsoft 365-oder Office 365-Organisation zu verbinden. Sie müssen das Administratorkonto verwenden, das für die onmicrosoft-Domäne erstellt wurde, als Sie sich für Microsoft 365 oder Office 365 angemeldet haben, beispielsweise admin@contoso.onmicrosoft.com.
 
-Weitere Informationen dazu, wie Sie Ihre Umgebung für Hybridbetrieb konfigurieren, finden Sie unter [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).
+Weitere Informationen zum Konfigurieren der Umgebung für hybridbereitstellungen finden Sie unter [Overview of Hybrid Deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).
 
 

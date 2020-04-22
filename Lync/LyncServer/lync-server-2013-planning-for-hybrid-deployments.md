@@ -12,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f9572df29681d6b2ee754fe51702fcc8f0b0163
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 54888a96d33dc3d9195256483f41719031847744
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184288"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780324"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Bei der Planung einer hybridbereitstellung sollten Sie die folgenden Anforderung
 
 In Ihrer Umgebung muss Folgendes konfiguriert sein, damit Sie eine hybridbereitstellung implementieren und bereitstellen können.
 
-  - Ein Microsoft Office 365-Mandant mit aktivierter Skype for Business Online. Beachten Sie, dass Sie für eine Hybrid Konfiguration mit Ihrer lokalen Bereitstellung nur einen einzelnen Mandanten verwenden können.
+  - Eine Microsoft Office 365-Organisation mit aktivierter Skype for Business Online. Beachten Sie, dass Sie für eine Hybrid Konfiguration mit Ihrer lokalen Bereitstellung nur einen einzelnen Mandanten verwenden können.
 
   - Eine einzelne lokale Bereitstellung (Infrastruktur) von Skype for Business Server oder lync Server, die in einer unterstützten Topologie bereitgestellt wird. Siehe Topologie-Anforderungen.
     
@@ -159,7 +159,7 @@ Die Liste der zugelassenen Domänen enthält Domänen, für die der vollqualifiz
 
 Die folgenden Anforderungen müssen erfüllt sein, um eine hybridbereitstellung erfolgreich zu konfigurieren:
 
-  - Der Domänen Abgleich muss für die lokale Bereitstellung und den Office 365 Mandanten identisch konfiguriert werden. Wenn die Partner Ermittlung für die lokale Bereitstellung aktiviert ist, muss Open Federation für Ihren Online-Mandanten konfiguriert werden. Wenn die Partner Ermittlung nicht aktiviert ist, muss Closed Federation für Ihren Online-Mandanten konfiguriert werden.
+  - Domänenübereinstimmung muss für Ihre lokale Bereitstellung und Ihre Office 365 Organisation identisch konfiguriert werden. Wenn die Partner Ermittlung für die lokale Bereitstellung aktiviert ist, muss Open Federation für Ihren Online-Mandanten konfiguriert werden. Wenn die Partner Ermittlung nicht aktiviert ist, muss Closed Federation für Ihren Online-Mandanten konfiguriert werden.
 
   - Die Liste blockierter Domänen in der lokalen Bereitstellung muss genau mit der Liste der blockierten Domänen für den Online Mandanten übereinstimmen.
 
@@ -237,7 +237,7 @@ Zusätzlich zu den Portanforderungen für die interne lync Server 2013 Kommunika
 <thead>
 <tr class="header">
 <th>Protokoll/Port</th>
-<th>Applications</th>
+<th>Anwendungen</th>
 </tr>
 </thead>
 <tbody>
@@ -293,7 +293,7 @@ Zusätzlich zu den Portanforderungen für die interne lync Server 2013 Kommunika
 
 In einer lync Server 2013 hybridbereitstellung müssen alle Benutzer, die in lync online zu Hause sein sollen, zuerst in der lokalen Bereitstellung erstellt werden, damit das Benutzerkonto in Active Directory-Domänendienste erstellt wird. Anschließend können Sie den Benutzer zu Skype for Business Online, der die Kontaktliste des Benutzers verschiebt, weitergeben.
 
-Wenn Sie Benutzerkonten zwischen Ihren lokalen lync-und lync Online-Bereitstellungen mit AD FS und Dirsync synchronisieren, müssen Sie die Ad-Konten für alle lync-Benutzer in Ihrer Organisation zwischen Ihren lokalen und Online-lync-Bereitstellungen synchronisieren, selbst wenn Benutzer werden nicht in lync Online verschoben. Wenn Sie nicht alle Benutzer synchronisieren, funktioniert die Kommunikation zwischen lokalen und Online Benutzern in Ihrer Organisation möglicherweise nicht wie erwartet.
+Wenn Sie Benutzerkonten zwischen Ihren lokalen lync-und lync Online-Bereitstellungen mit AD FS und Dirsync synchronisieren, müssen Sie die Ad-Konten für alle lync-Benutzer in Ihrer Organisation zwischen Ihren lokalen und Online lync-Bereitstellungen synchronisieren, auch wenn Benutzer nicht in lync Online verschoben werden. Wenn Sie nicht alle Benutzer synchronisieren, funktioniert die Kommunikation zwischen lokalen und Online Benutzern in Ihrer Organisation möglicherweise nicht wie erwartet.
 
 <div>
 
@@ -309,7 +309,7 @@ Bei der Planung einer hybridbereitstellung sollten Sie auch die folgenden benutz
 
   - **Benutzer Kontakte**   der Grenzwert für Kontakte für lync Online Benutzer lautet 250. Alle Kontakte außerhalb dieser Nummer werden aus der Kontaktliste des Benutzers entfernt, wenn das Konto in lync Online verschoben wird.
 
-  - ****   Kontaktlisten, Gruppen und Zugriffssteuerungslisten (ACLs) für Chatnachrichten und Anwesenheits Benutzer werden mit dem Benutzerkonto migriert.
+  - **Instant Messaging and Presence**   Kontaktlisten, Gruppen und Zugriffssteuerungslisten (ACLs) für Chatnachrichten und Anwesenheits Benutzer werden mit dem Benutzerkonto migriert.
 
   - **Konferenzdaten, Besprechungsinhalte und geplante Besprechungen**   dieser Inhalt wird nicht mit dem Benutzerkonto migriert. Benutzer müssen Besprechungen neu planen, nachdem Ihre Konten zu lync Online migriert wurden.
 

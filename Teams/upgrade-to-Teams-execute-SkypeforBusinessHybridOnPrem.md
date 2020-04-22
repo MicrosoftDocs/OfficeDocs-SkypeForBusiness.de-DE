@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24ccbaa0e7f43cdf1ccc816a3839547793c65167
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: ac5045df6462be28d7f13e093695376ea612e6cd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139624"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780154"
 ---
 # <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Upgrade von Skype for Business lokal in Teams
 
@@ -42,7 +42,7 @@ Dieser Artikel ist Teil der Bereitstellungs-und Implementierungsphase Ihrer Upgr
 -   [Vorbereiten Ihrer Organisation](https://aka.ms/SkypeToTeams-UserReadiness)
 -   [Durchgeführt eines Pilotprojekts](https://aka.ms/SkypeToTeams-Pilot)
 
-Wenn Sie Skype for Business Server oder Microsoft lync lokal bereitgestellt haben und Ihre Organisation ein Upgrade auf Teams durchführen möchte, befolgen Sie die Anleitungen in diesem Artikel. Sie müssen eine hybridverbindung mit Ihrem Office 365-Mandanten einrichten und die Anforderungen an die Koexistenz ermitteln, wenn Sie Ihre Benutzer in Phasen in Teams verschieben. 
+Wenn Sie Skype for Business Server oder Microsoft lync lokal bereitgestellt haben und Ihre Organisation ein Upgrade auf Teams durchführen möchte, befolgen Sie die Anleitungen in diesem Artikel. Sie müssen eine hybridverbindung mit Ihrer Office 365-Organisation einrichten und die Anforderungen an die Koexistenz ermitteln, wenn Sie Ihre Benutzer in Phasen in Teams verschieben. 
 
 > [!IMPORTANT]
 > Skype for Business Online wird am 31. Juli 2021 eingestellt. Ab diesem Zeitpunkt kann nicht mehr darauf zugegriffen werden, und es wird nicht mehr unterstützt. Um den maximalen Nutzen zu erzielen und sicherzustellen, dass Ihre Organisation genügend Zeit hat, Ihr Upgrade durchzuführen, empfehlen wir Ihnen, den Wechsel zu Microsoft Teams bereits heute zu planen. Beachten Sie, dass ein erfolgreiches Upgrade die technische und Benutzer Bereitschaft ausrichtet, damit Sie die hierin beschriebenen Anleitungen für die Navigation in Ihrer Reise zu Microsoft Teams nutzen können.

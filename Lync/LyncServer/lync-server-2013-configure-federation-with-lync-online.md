@@ -12,12 +12,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 957a0f338d0669d0c99570b541d6ddb4753c1145
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 34e96ec4aac4573a05e50eb1b13469731068b6db
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42197748"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Führen Sie die Schritte in diesem Abschnitt aus, um die Interoperabilität zwis
 
 ## <a name="configure-your-on-premises-edge-service-for-federation-with-skype-for-business-online"></a>Konfigurieren des lokalen Edge-Diensts für den Verbund mit Skype for Business Online
 
-Durch einen Partnerverbund können Benutzer in Ihrer lokalen Bereitstellung mit Office 365-Benutzern in Ihrem Unternehmen kommunizieren. Führen Sie die folgenden Cmdlets aus, um den Verbund zu konfigurieren:
+Mit dem Partnerverbund können Benutzer in Ihrer lokalen Bereitstellung mit Microsoft 365 oder Office 365 Benutzern in Ihrer Organisation kommunizieren. Führen Sie die folgenden Cmdlets aus, um den Verbund zu konfigurieren:
 
    ```powershell
     Set-CSAccessEdgeConfiguration -AllowOutsideUsers 1 -AllowFederatedUsers 1 -UseDnsSrvRouting -EnablePartnerDiscovery $True
@@ -63,7 +63,7 @@ Durch einen Partnerverbund können Benutzer in Ihrer lokalen Bereitstellung mit 
 
 ## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>Konfigurieren des Skype for Business Online Mandanten für einen freigegebenen SIP-Adressraum
 
-Eine SIP-Adresse (Session Initiation Protocol) ist ein eindeutiger Bezeichner für jeden Benutzer in einem Netzwerk, ähnlich wie eine Telefonnummer oder eine e-Mail-Adresse. Bevor Sie lync-Benutzer von lokal in Skype for Business Online verschieben, müssen Sie Ihren Office 365-Mandanten so konfigurieren, dass der SIP-Adressraum (Shared Session Initiation Protocol) mit Ihrer lokalen Bereitstellung freigegeben wird. Wenn diese nicht konfiguriert ist, wird möglicherweise die folgende Fehlermeldung angezeigt:
+Eine SIP-Adresse (Session Initiation Protocol) ist ein eindeutiger Bezeichner für jeden Benutzer in einem Netzwerk, ähnlich wie eine Telefonnummer oder eine e-Mail-Adresse. Bevor Sie lync-Benutzer von lokal in Skype for Business Online verschieben, müssen Sie Ihre Office 365 Organisation so konfigurieren, dass der SIP-Adressraum (Shared Session Initiation Protocol) mit Ihrer lokalen Bereitstellung freigegeben wird. Wenn diese nicht konfiguriert ist, wird möglicherweise die folgende Fehlermeldung angezeigt:
 
 Verschieben-CsUser: HostedMigration Fault: Error = (510), Description = (der Mandant des Benutzers ist für den freigegebenen SIP-Adressraum nicht aktiviert.)
 

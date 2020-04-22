@@ -12,12 +12,12 @@ ms:contentKeyID: 48185060
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 207cb9b8435294abeac12f67506eb356a6ca73c6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: bc029df06f22524fa99c232edf6bbe6aa9759f5a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42208321"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,8 +64,8 @@ In der folgenden Tabelle sind die erforderlichen Schritte zum Vorbereiten der Um
 <tr class="even">
 <td></td>
 <td><p>Hinzufügen Ihrer Domäne und Überprüfen des Besitzes</p></td>
-<td><p>Ihre Domäne wird manchmal auch als ihre Vanity- <em>Domäne</em>bezeichnet. Sie müssen Ihre Domäne Ihrem Office 365 Mandanten hinzufügen und dann die Schritte ausführen, um die Domäne mit Office 365 zu überprüfen. Dadurch wird bestätigt, dass Sie der Besitzer der Domäne sind.</p>
-<p>Führen Sie die unter <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">Hinzufügen Ihrer Domäne zu Office 365</a>beschriebenen Schritte aus, um Ihre Domäne zu Ihrem Office 365 Mandanten hinzuzufügen.</p>
+<td><p>Ihre Domäne wird manchmal auch als ihre Vanity- <em>Domäne</em>bezeichnet. Sie müssen Ihre Domäne Ihrer Office 365 Organisation hinzufügen und dann die Schritte ausführen, um die Domäne mit Office 365 zu überprüfen. Dadurch wird bestätigt, dass Sie der Besitzer der Domäne sind.</p>
+<p>Führen Sie die unter <a href="https://go.microsoft.com/fwlink/p/?linkid=254983">Hinzufügen Ihrer Domäne zu Office 365</a>beschriebenen Schritte aus, um Ihre Domäne zu Ihrer Office 365 Organisation hinzuzufügen.</p>
 <p>Führen Sie alle Schritte in den einzelnen Abschnitten des Themas aus, &quot;einschließlich Bearbeiten von DNS-Einträgen für Ihre Office 365 Dienste.&quot;</p></td>
 </tr>
 <tr class="odd">

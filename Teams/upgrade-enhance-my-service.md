@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c5a437353d00fca8a59bd7de2b753967adc1134
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: e327ab7be4b09ca91d454ab560f06b293fba19bb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42707005"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780464"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>Nutzen Sie Teams nach dem Upgrade optimal
 
@@ -37,7 +37,7 @@ In diesem Artikel finden Sie eine Übersicht über die Anforderungen, die Sie na
 
 Nachdem Sie Teams erfolgreich in Ihrer Organisation bereitgestellt und den Dienst mit Qualität und Zuverlässigkeit betrieben haben, besteht der nächste Schritt darin, regelmäßig zu prüfen, ob Sie die Möglichkeit haben, ihre Dienste zu verbessern. Dies ist ein Teil der kontinuierlichen Dienst Optimierungsplanung, die einen modernen Standard für die Verwaltung von Cloud-Diensten darstellt.
 
-Eine großartige Möglichkeit, um sicherzustellen, dass Sie Ihre Dienste immer optimal nutzen, besteht darin, die [öffentlichen Roadmaps von Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) für neue Funktionsverbesserungen zu überwachen, die für Ihre Organisation von Interesse sein könnten. Wenn Sie Zugriff auf das Office 365-Administratorportal haben, erhalten Sie regelmäßige Updates von uns über neue und geänderte Funktionen über unser Nachrichten Center.
+Eine großartige Möglichkeit, um sicherzustellen, dass Sie Ihre Dienste immer optimal nutzen, besteht darin, die [öffentlichen Roadmaps von Teams](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) für neue Funktionsverbesserungen zu überwachen, die für Ihre Organisation von Interesse sein könnten. Wenn Sie Zugriff auf das Microsoft 365 Admin Center haben, erhalten Sie regelmäßige Updates von uns über neue und geänderte Funktionen über unser Nachrichtencenter.
 
 Wenn Sie Möglichkeiten zur Verbesserung Ihres Diensts sehen, nehmen Sie sich die Zeit, es richtig zu machen. Übernehmen Sie die [Bereitstellung von Chat, Teams, Kanälen und apps in Microsoft Teams erneut](deploy-chat-teams-channels-microsoft-teams-landing-page.md) , und wenden Sie die gleichen Anleitungen auf End-to-End an. Wenn Sie kleine, inkrementelle Änderungen vornehmen, ist es unwahrscheinlich, dass Sie alle Aktivitäten und Aufgaben vollständig durchführen müssen, doch sollten Sie sicherstellen, dass Sie die einzelnen Aktivitäten und Aufgaben auf dem Weg auswerten, um sich die beste Chance zu einem erfolgreichen Ergebnis zu verschaffen.
 

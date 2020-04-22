@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Zusammenfassung: IT-Experten sollten die Supportanforderungen für die APP Skype for Business-Webanwendung und Skype-Besprechungen überprüfen, während Sie Skype for Business Server planen. Dieser Artikel ist nicht für die Benutzer dieser apps vorgesehen.'
-ms.openlocfilehash: f5b402b23cbb49d1605b83b9f54531e26714b1f7
-ms.sourcegitcommit: 25e70de7c943e22fe6ac6e8d6b4353ca68f81f83
+ms.openlocfilehash: 0e1ce225f99a112f11d55d76eb8039a10d9aac6b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43157638"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777790"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planen von Besprechungs Clients (app für Webanwendungen und Besprechungen)
  
@@ -59,7 +59,7 @@ Um die Skype for Business-Webanwendung verwenden zu können, muss ein Benutzer �
 |Windows 10  <br/> |Ja  <br/> |Ja  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Ja &#x2778; <br/> |
 |Windows 8.1 &#x2776; <br/> |Nicht zutreffend  <br/> |Ja  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend <br/> |Ja &#x2778; <br/> |
 |Windows 8 (Intel-basiert) &#x2776; <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Ja  <br/> |Nicht zutreffend <br/> |Nicht zutreffend  <br/> |Ja &#x2778; <br/> |
-|Windows 7 mit SP1 &#x2777; <br/> |Nicht zutreffend  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |– <br/>|Ja &#x2778; <br/> |
+|Windows 7 mit SP1 &#x2777; <br/> |Nicht zutreffend  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nicht zutreffend <br/>|Ja &#x2778; <br/> |
 |Windows Server 2008 R2 mit SP1 &#x2777; <br/> |Nicht zutreffend  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nicht zutreffend <br/>|Ja &#x2778; <br/> |
 |macOS 10,8 und höher (Intel-basiert) &#x2777; <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Nicht zutreffend  <br/> |Ja  <br/> |Ja <br/> |
    
@@ -70,7 +70,7 @@ Um die Skype for Business-Webanwendung verwenden zu können, muss ein Benutzer �
 &#x2778; auf die Webanwendung von Chrome unter Windows zuzugreifen, wird ein kleines Programm gestartet, das die Webanwendung in einem eingebetteten Internet Explorer-Frame lädt. Für dieses Programm muss eine der unterstützten Versionen von Internet Explorer installiert sein, damit die Webanwendung ordnungsgemäß lädt.
   
 > [!NOTE]
-> Office 365 Benutzer können Internet Explorer 10 oder höher mit Skype for Business verwenden. 
+> Microsoft 365 und Office 365 Benutzer können Internet Explorer 10 oder höher mit Skype for Business verwenden. 
   
 ### <a name="skype-meetings-app"></a>Skype-Besprechungs-App
 

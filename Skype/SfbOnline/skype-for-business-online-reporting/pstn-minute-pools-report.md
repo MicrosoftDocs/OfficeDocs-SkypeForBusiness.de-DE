@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Im Bereich "neue Skype for Business Admin Center-Berichte" werden die Aktivitäten zur Anruf-und Audiokonferenz in Ihrer Organisation angezeigt. Es ermöglicht Ihnen, in Berichte zu drillen, um Ihnen genauere Einblicke in die Aktivitäten der einzelnen Benutzer zu verschaffen. So können Sie beispielsweise den Bericht Skype for Business PSTN-Minuten Pools verwenden, um die Anzahl der Minuten anzuzeigen, die während des aktuellen Monats innerhalb Ihrer Organisation verbraucht werden.
-ms.openlocfilehash: 2777b4f32b99a086110b75ca527eda29b0842b6e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ac27e88b6e0f4945dde90f5e5f7bade31f20fe6a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692430"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776250"
 ---
 # <a name="pstn-minute-pools-report"></a>Bericht „PSTN-Minutenpools“
 
@@ -44,10 +44,10 @@ Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten In
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-- Wechseln Sie zum Admin Center #a0 **Admin** > Centers im**Skype for Business Admin Center** > werden**PSTN-Minuten Pools****gemeldet** > .
+- Wechseln Sie zum Admin Center > **Admin** > Centers im**Skype for Business Admin Center** > werden**PSTN-Minuten Pools****gemeldet** > .
     
 > [!NOTE]
-> Je nach Ihrem Office 365-Abonnement sehen Sie möglicherweise nicht alle Details, die hier angezeigt werden. 
+> Je nach dem Microsoft 365-oder Office 365-Abonnement sehen Sie möglicherweise nicht alle Details, die hier angezeigt werden. 
   
 ## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>Interpretieren des Berichts "Skype for Business PSTN-Minuten Pools"
 
@@ -63,7 +63,7 @@ Der Bericht sieht folgendermaßen aus:
 ![Nummer 1](../images/sfbcallout1.png)<br/>Die Tabelle zeigt eine Aufschlüsselung der Minuten Pools nach Lizenz (Funktion) und Verwendungsstandort. 
 *    **Funktion** ist der für den Anruf verwendete Lizenz-/Service Plan. Die Lizenz-/Servicepläne, die in diesem Bericht möglicherweise angezeigt werden, sind unter anderem:
      * MCOPSTN1-Domestic Calling Plan (3000-Minute US/1200-Minute EU-Pläne
-     * MCOPSTN2-Domestic #a0 International Calling Plan, von dem Sie einen inländischen Pool (3000-Minuten-US/Kanada/PR, 1200-minütige europäische Länder) und ein internationales Schwimmbad (600-Minuten) sehen werden. Die Minuten Obergrenze wird erreicht, wenn innerhalb des Kalendermonats die nationale oder internationale Grenze erreicht wird. 
+     * MCOPSTN2-Domestic & International Calling Plan, von dem Sie einen inländischen Pool (3000-Minuten-US/Kanada/PR, 1200-minütige europäische Länder) und ein internationales Schwimmbad (600-Minuten) sehen werden. Die Minuten Obergrenze wird erreicht, wenn innerhalb des Kalendermonats die nationale oder internationale Grenze erreicht wird. 
      * MCOPSTN5-Domestic Calling Plan (120-Minute Calling Plan)
      * MCOPSTN6-Domestic Calling Plan (240-Minute Calling Plan)
      * MCOMEETADD: Audiokonferenz

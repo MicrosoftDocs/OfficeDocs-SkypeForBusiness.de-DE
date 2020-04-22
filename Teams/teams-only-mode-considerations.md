@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ec2d9ede5fdd31070228995cefaa16a60ad6224
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: 4c4619758672022ed767c56e296ba41d2dcc33fd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42795998"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776820"
 ---
 # <a name="teams-only-mode-considerations"></a>Überlegungen zum Teams Only-Modus
 
-Wenn Sie ein Administrator für Ihren Office 365-Mandanten sind, sehen Sie jetzt die Option zum Upgraden auf den Modus nur für Teams im Microsoft Teams Admin Center. Mit dieser Funktion können Sie entweder einzelne Benutzer oder auch den gesamten Mandanten aktualisieren.  
+Wenn Sie ein Administrator in Ihrer Office 365-Organisation sind, sehen Sie jetzt die Option zum Upgraden auf den Modus nur für Teams im Microsoft Teams Admin Center. Mit dieser Funktion können Sie entweder einzelne Benutzer oder auch den gesamten Mandanten aktualisieren.  
 
 Das Upgrade auf den nur für Teams bestimmten Modus bietet Benutzern die vollständigen Vorteile von Microsoft Teams, dem Hub für Teamarbeit in Office 365, über eine einzige Clientumgebung. Darüber hinaus erhalten Benutzer im Modus "nur für Teams" alle Anrufe und Chats in Teams, unabhängig davon, ob der Absender Skype for Business oder Teams verwendet, und profitieren von Interop-und Federation-Unterstützung.
 

@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie mehr über verschiedene Kombinationen der Benutzererstellung und welche Kombinationen unterstützt oder nicht unterstützt werden.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8bdab33d6f1f009ce51afe999923f4f6f5d1905a
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: a235b5c27919c0015849140a3e772f4a189a17d8
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141078"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779994"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität
 
@@ -31,7 +31,7 @@ ms.locfileid: "43141078"
 Dieser Artikel bezieht sich auf Umgebungen, in denen Sie über alle folgenden Themen verfügen: 
  
 - Skype for Business Server oder lync Server 2013 
-- Ein Office 365-Mandant 
+- Eine Office 365-Organisation 
 - Zwischen dem Skype for Business Server und dem Skype for Business Online-oder Microsoft Teams-Mandanten konfigurierte Hybrid Konnektivität 
 - Benutzer, die für das tätigen und empfangen von PSTN-anrufen (Public Switched Telephone Network) in den und aus dem Client aktiviert sind
 

@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
-description: Im neuen Office 365-Dashboard Berichte wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten.
-ms.openlocfilehash: 58f3c42c0a0188d4a2858e6b6b0a5bed93dfc72d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: Das neue Dashboard für Microsoft 365-Berichte zeigt die Vorgangsübersicht über die Office 365-Produkte in Ihrer Organisation. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten.
+ms.openlocfilehash: b10e68e46b8865579692594ded33e89558f4fdc2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692350"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776280"
 ---
 # <a name="session-details-report"></a>Bericht „Sitzungsdetails“
 
@@ -39,7 +39,7 @@ Dieser Bericht sowie die anderen Skype for Business-Berichte geben Ihnen detaill
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>So erhalten Sie den Bericht "Skype for Business-Sitzungsdetails"
 
-1. Wechseln Sie zum Admin Center-#a0 **Berichte**
+1. Wechseln Sie zum Admin Center-> **Berichte**
     
 2. Wählen Sie im linken Menü **Berichte** aus, und klicken Sie dann auf **Verwendung**.
     
@@ -49,7 +49,7 @@ Dieser Bericht sowie die anderen Skype for Business-Berichte geben Ihnen detaill
     > Wenn dieser Bericht nicht aufgeführt ist, wechseln Sie zu den**Berichten** > zur **Skype for Business Admin Center** > -**Sitzungsdetails**. 
   
     > [!IMPORTANT]
-    > Je nach vorhandenem Office 365-Abonnement werden möglicherweise nicht alle Produkte und Berichte angezeigt, die in diesem Artikel besprochen werden. 
+    > Je nach dem von Ihnen verwendeten Microsoft 365-oder Office 365-Abonnement werden möglicherweise nicht alle Produkte und Berichte angezeigt, die hier angezeigt werden. 
   
 ## <a name="interpret-the-skype-for-business-session-details-report"></a>Interpretieren des Berichts "Skype for Business-Sitzungsdetails"
 

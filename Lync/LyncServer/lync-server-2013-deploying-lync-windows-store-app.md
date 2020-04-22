@@ -12,12 +12,12 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de478ddf104f36fc208f2773c26c772b2cc0addd
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4478f60fc99304e7cf882ddec7951aa3625d74f2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42195338"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779581"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ Bevor Sie die lync Windows Store-App für Benutzer verfügbar machen, müssen Si
 
 ## <a name="enabling-multi-factor-authentication-for-lync-windows-store-app"></a>Aktivieren der mehrstufigen Authentifizierung für lync Windows Store-App
 
-Kumulative Updates für lync Server 2013: Juni 2013 fügt Unterstützung für mehrstufige Authentifizierung für lync Windows Store-App-Clients hinzu. Neben Benutzername und Kennwort können Sie zusätzliche Authentifizierungsmethoden wie Smartcards oder Pins zur Authentifizierung externer Benutzer bei der Anmeldung an lync-Besprechungen benötigen. Zum Aktivieren der mehrstufigen Authentifizierung stellen Sie Active Directory Verbunddienst (AD FS)-Verbundserver bereit und aktivieren die passive Authentifizierung in lync Server 2013. Nachdem AD FS konfiguriert wurde, werden externe Benutzer, die versuchen, an lync-Besprechungen teilzunehmen, mit einer AD FS-mehrstufigen Authentifizierungs Webseite angezeigt, die den Benutzernamen und das Kennwort sowie alle weiteren von Ihnen konfigurierten Authentifizierungsmethoden enthält. .
+Kumulative Updates für lync Server 2013: Juni 2013 fügt Unterstützung für mehrstufige Authentifizierung für lync Windows Store-App-Clients hinzu. Neben Benutzername und Kennwort können Sie zusätzliche Authentifizierungsmethoden wie Smartcards oder Pins zur Authentifizierung externer Benutzer bei der Anmeldung an lync-Besprechungen benötigen. Zum Aktivieren der mehrstufigen Authentifizierung stellen Sie Active Directory Verbunddienst (AD FS)-Verbundserver bereit und aktivieren die passive Authentifizierung in lync Server 2013. Nachdem AD FS konfiguriert wurde, werden externe Benutzer, die versuchen, an lync-Besprechungen teilzunehmen, mit einer AD FS-mehrstufigen Authentifizierungs Webseite angezeigt, die den Benutzernamen und die Kennwortabfrage sowie alle weiteren von Ihnen konfigurierten Authentifizierungsmethoden enthält.
 
 <div class=" ">
 
@@ -138,7 +138,7 @@ Wenn Ihre Topologie aus lync Server 2010 mit Office Communications Server 2007 R
 
 ## <a name="lync-windows-store-app-cannot-sign-in-due-to-a-certificate-name-validation-failure"></a>Lync Windows Store-App kann sich aufgrund eines Zertifikatsnamen Überprüfungsfehlers nicht anmelden
 
-Ein Anmeldeproblem kann für Office 365 Benutzer auftreten, die nicht die neueste Version der lync Windows Store-App ausgeführt werden. Dieses Problem tritt im Allgemeinen auf, wenn mehrere Domänen verwendet werden (beispielsweise, wenn der SIP-URI **UserA@domainZ.com** ist, die Edgeserver jedoch **SIP.domainX.com**). Um das Problem zu beheben, sollten Benutzer die neueste Version der lync Windows Store-App installieren, die auch Windows 8.1 erfordert.
+Ein Anmeldeproblem kann für Microsoft 365 oder Office 365 Benutzer auftreten, die nicht die neueste Version der lync Windows Store-App ausgeführt werden. Dieses Problem tritt im Allgemeinen auf, wenn mehrere Domänen verwendet werden (beispielsweise, wenn der SIP-URI **UserA@domainZ.com** ist, die Edgeserver jedoch **SIP.domainX.com**). Um das Problem zu beheben, sollten Benutzer die neueste Version der lync Windows Store-App installieren, die auch Windows 8.1 erfordert.
 
 </div>
 

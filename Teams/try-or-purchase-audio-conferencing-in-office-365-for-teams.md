@@ -1,5 +1,5 @@
 ---
-title: Testen oder kaufen von Audiokonferenzen in Office 365 für Teams
+title: Testen oder kaufen von Audiokonferenzen in Microsoft 365 für Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Informieren Sie sich über das Testen oder erwerben von Lizenzen für Audiokonferenz (PSTN-Konferenz) für Office 365 zum Einrichten von Telefonkonferenzen, in die Personen sich einwählen können. '
-ms.openlocfilehash: 6f30f59e20ee6fd8516bcfe420e2b936e9749a8e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 35d84c84f02c459af32aa764d877f4b8c64d4d63
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139694"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780164"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Testen oder Kaufen von Audiokonferenz in Office 365 für Microsoft Teams
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Testen oder kaufen von Audiokonferenzen in Microsoft 365 für Microsoft Teams
 
 In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich über ein Telefon in eine Besprechung einwählen. Microsoft Teams enthält das Feature "Audiokonferenz" für nur diese Situation! Personen können mit einem Telefon in Microsoft Teams-Besprechungen anrufen, anstatt die Microsoft Teams-App auf einem mobilen Gerät oder PC zu verwenden.
 

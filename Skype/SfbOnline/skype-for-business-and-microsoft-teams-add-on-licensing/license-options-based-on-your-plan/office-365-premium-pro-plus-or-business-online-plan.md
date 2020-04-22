@@ -1,5 +1,5 @@
 ---
-title: Office 365 ProPlus oder Skype for Business Online Standalone Plan 2
+title: Microsoft 365-Apps für Unternehmen oder Skype for Business Online Standalone Plan 2
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,17 +20,17 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: Erfahren Sie mehr über Add-on-Lizenzen, Features und Anleitungen zum Kauf von Office 365 ProPlus oder von Skype for Business Online Standalone Plan 2.
-ms.openlocfilehash: e065f930d9ec4e835837b56da1b2ea1d4a5b674a
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Erfahren Sie mehr über Add-on-Lizenzen, Features und Anleitungen zum Kauf von Microsoft 365-Apps für Unternehmen oder von Skype for Business Online Standalone Plan 2.
+ms.openlocfilehash: f7ec0d5bec1dbf9aea795c7dee75e4fb0a606077
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42129388"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777920"
 ---
-# <a name="office-365-proplus-or-skype-for-business-online-standalone-plan-2"></a>Office 365 ProPlus oder Skype for Business Online Standalone Plan 2
+# <a name="microsoft-365-apps-for-enterprise-or-skype-for-business-online-standalone-plan-2"></a>Microsoft 365-Apps für Unternehmen oder Skype for Business Online Standalone Plan 2
 
-Wenn Sie bereits [Office 365 ProPlus](https://products.office.com/en/business/office-365-proplus-business-software) oder [Skype for Business Online Standalone Plan 2](https://products.office.com/skype-for-business/online)erworben haben, finden Sie hier die Add-on-Lizenzen, die Sie erwerben müssen, um weitere Funktionen von Skype for Business zu erhalten.
+Wenn Sie bereits [Microsoft 365-Apps für Enterprise](https://products.office.com/en/business/office-365-proplus-business-software) oder [Skype for Business Online Standalone Plan 2](https://products.office.com/skype-for-business/online)erworben haben, finden Sie hier die Add-on-Lizenzen, die Sie erwerben müssen, um weitere Funktionen von Skype for Business zu erhalten.
 
 > [!IMPORTANT]
 > Obwohl Audiokonferenzen, ein Telefonsystem und Handyverträge mit Skype for Business Online Plan 2 erworben werden können, um Voicemail-Funktionen zu aktivieren, empfehlen wir Ihnen, den Enterprise E5-Plan abzuwägen, der eventuell kosteneffektiver sein könnte.
@@ -40,6 +40,6 @@ Wenn Sie bereits [Office 365 ProPlus](https://products.office.com/en/business/of
 |**Zum Hinzufügen dieser Funktion ...** <br/> |**... müssen Sie folgende Lizenz erwerben:** <br/> |
 |**Audiokonferenz** <br/> Buy 1 **Audio Conferencing** license for each person who is going to schedule or host a dial-in meeting. Attendees do not need licenses. <br/> |**Audiokonferenzen** Add-On <br/>Wenn Sie die Lizenz kaufen, wird Microsoft Ihr Audiokonferenzanbieter. |
 |**Gebührenfreie Nummern für Einwahlzugriff auf Ihre Konferenzen und die Möglichkeit, aus einer Konferenz heraus zu wählen, um jemanden hinzuzufügen, indem Sie eine beliebige Telefonnummer in der Welt anrufen** <br/> |[Guthaben für Kommunikationen](/microsoftteams/set-up-communications-credits-for-your-organization)|
-|**Telefonsystem** <br/> |1. [wechseln Sie zu einem anderen Office 365 for Business-Plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Wenn Sie über Office 365 ProPlus oder den eigenständigen Skype for Business Online-Plan 2 verfügen, empfehlen wir, Ihren Plan auf einen Enterprise E5-Plan zu aktualisieren, um Cloud-Sprachfeatures zu erhalten. Wenn Sie ein Upgrade auf einen Enterprise E1-oder E3-Plan durchführen, sehen Sie die Option zum Kauf des **Telefon System** -Add-ons.<br/> 2. **Telefon System** -Add-on <br/>  3. Anrufpläne: Kaufen Sie einen [Anrufplan](/MicrosoftTeams/calling-plans-for-office-365) von Office 365. <br/>  Oder verwenden Sie den [Telefondienst Ihres bestehenden Anbieters](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
+|**Telefonsystem** <br/> |1. [wechseln Sie zu einem anderen Office 365 for Business-Plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Wenn Sie über Microsoft 365-Apps für Unternehmen oder über Skype for Business Online Standalone Plan 2 verfügen, empfehlen wir, Ihren Plan auf einen Enterprise E5-Plan zu aktualisieren, um Cloud-Sprachfeatures zu erhalten. Wenn Sie ein Upgrade auf einen Enterprise E1-oder E3-Plan durchführen, sehen Sie die Option zum Kauf des **Telefon System** -Add-ons.<br/> 2. **Telefon System** -Add-on <br/>  3. Anrufpläne: Kaufen Sie einen [Anrufplan](/MicrosoftTeams/calling-plans-for-office-365) von Office 365. <br/>  Oder verwenden Sie den [Telefondienst Ihres bestehenden Anbieters](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
 |**Anrufpläne** <br/> |1. [wechseln Sie zu einem anderen Office 365 for Business-Plan](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a).  <br/> 2. **Telefon System** -Add-on <br/> 3. [Anrufplan](/MicrosoftTeams/calling-plans-for-office-365): Sie können diesen nur erwerben, nachdem Sie das **Telefonsystem**-Add-On gekauft haben. <br/> |
    

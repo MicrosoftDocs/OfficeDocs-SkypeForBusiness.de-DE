@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 Business Premium '
+title: 'Microsoft 365 Business Standard '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,17 +20,17 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Informationen Sie zu Add-on-Lizenzen, Funktionen und Informationen zum Erwerben von Office 365 Business Premium-Plänen. '
-ms.openlocfilehash: 9ffc251fafb9c1304f78d215a2b5c26d17ae9aae
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 'Erfahren Sie mehr über Add-on-Lizenzen, Features und Anleitungen zum Kauf von Microsoft 365 Business Standard-Plänen. '
+ms.openlocfilehash: 18e0e16def82354339948f63f958025924e17d1e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706110"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777410"
 ---
-# <a name="office-365-business-premium"></a>Office 365 Business Premium
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Standard
 
-Wenn Sie [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium) verwenden, können Sie über Skype for Business andere Personen in Ihrem Unternehmen anrufen, die in Ihr Abonnement eingeschlossen sind. Wenn Ihr Unternehmen beispielsweise zehn Mitarbeiter hat, können Sie einander über Skype for Business anrufen und sich Chatnachrichten schicken.
+Wenn Sie über [Microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium)verfügen, können Sie Skype for Business verwenden, um Anrufe an andere Personen in Ihrem Unternehmen zu tätigen, die sich auf Ihrem Abonnement befinden. Wenn Ihr Unternehmen beispielsweise 10 Personen hat, können Sie sich gegenseitig mit Skype for Business anrufen und sich mit Ihnen in Verbindung setzen.
 
  **Sie haben zwei Optionen, um Anrufe an Personen außerhalb Ihres Unternehmens zu tätigen oder von ihnen zu erhalten**:
 
@@ -74,7 +74,7 @@ Wenn Sie [Office 365 Business Premium](https://products.office.com/en/business/o
 
 1. Wechseln Sie zum E1- oder E3-Plan.
 
-2. Wechseln Sie zum Admin Center #a0 **Abrechnungs** > **Abonnements**.
+2. Wechseln Sie zum Admin Center > **Abrechnungs** > **Abonnements**.
 
 3. Choose **Add-ons**. You'll now see the prices for Phone System, and the option to buy it.
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f411de7f0c373e82b450cd41b828fd591777311b
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: ba628bf3f58523dc37e2273b437f22af1a0ebc19
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978457"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778931"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams
 =================================================
@@ -75,10 +75,10 @@ Wenn Sie eine Benutzerrolle zuweisen möchten, wählen Sie in Teams den Namen de
 
 ## <a name="permissions-to-create-teams"></a>Berechtigungen zum Erstellen von Teams
 
-Standardmäßig verfügen alle Benutzer mit einem Postfach in Exchange Online über die Berechtigung zum Erstellen von Office 365-Gruppen und damit zum Erstellen eines Teams in Microsoft Teams. Sie können dies genauer steuern und die Erstellung neuer Teams und damit die Erstellung neuer Office 365-Gruppen einschränken, indem Sie die Gruppenerstellungs- und Verwaltungsrechte an eine Gruppe von Benutzern delegieren. Anweisungen finden Sie unter [Verwalten von Personen, die Office 365-Gruppen erstellen können](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+Standardmäßig verfügen alle Benutzer mit einem Postfach in Exchange Online über die Berechtigungen zum Erstellen von Microsoft 365-Gruppen und damit zu einem Team in Microsoft Teams. Sie können eine straffere Steuerung haben und die Erstellung neuer Teams und damit die Erstellung neuer Microsoft 365-Gruppen einschränken, indem Sie Gruppen Erstellungs-und Verwaltungsrechte an eine Gruppe von Benutzern delegieren. Anweisungen finden Sie unter [verwalten, wer Microsoft 365-Gruppen erstellen kann](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 
 ||||
 |---------|---------|---------|
 | ![Ein Symbol, das einen Entscheidungspunkt darstellt](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |Entscheidungspunkt         |Sollen alle Microsoft Teams-Benutzer in der Lage sein, Teams zu erstellen (empfohlen)?         |
-| ![Ein Symbol, das die nächsten Schritte darstellt](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Nächste Schritte         |Ändern der Standardberechtigungen für Benutzer, die Office 365-Gruppen erstellen können, wenn Sie begrenzen müssen, wer Team erstellen kann         |
+| ![Ein Symbol, das die nächsten Schritte darstellt](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |Nächste Schritte         |Ändern Sie die Standardberechtigungen für Personen, die Microsoft 365-Gruppen erstellen können, wenn Sie einschränken müssen, wer Teams erstellen kann.         |

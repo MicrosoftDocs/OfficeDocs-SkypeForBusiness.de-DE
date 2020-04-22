@@ -18,12 +18,12 @@ description: Richten Sie Liveereignisse in Teams ein, einschließlich der Einric
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8e3110717cd9279d881415bf1e01d03a1cbee293
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: df54e90f2c895ebf7090fbec2487aae52bd53d66
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749802"
+ms.locfileid: "43779954"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichtung für Liveereignisse in Microsoft Teams
 
@@ -97,7 +97,7 @@ Sie können einem oder mehreren Benutzern eine Richtlinie für Liveereignisse au
 
 Damit Benutzer Ereignisse planen können, die mit einer externen Anwendung oder einem externen Gerät erstellt werden, müssen Sie auch Folgendes vornehmen:
 
-1. Microsoft Stream für Benutzer in Ihrer Organisation aktivieren. Microsoft Stream ist im Rahmen berechtigter Office 365-Abonnements oder als eigenständiger Dienst verfügbar. Stream ist nicht in Business Essentials- oder Business Premium-Plänen enthalten. Weitere Details finden Sie unter [Übersicht über die Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview).
+1. Microsoft Stream für Benutzer in Ihrer Organisation aktivieren. Stream ist als Teil der berechtigten Microsoft 365-oder Office 365-Abonnements oder als eigenständiger Dienst verfügbar. Stream ist nicht in Business Essentials- oder Business Premium-Plänen enthalten. Weitere Details finden Sie unter [Übersicht über die Stream-Lizenzierung](https://docs.microsoft.com/stream/license-overview).
 
       Erfahren Sie mehr darüber, wie Sie [Benutzern in Office 365 Lizenzen zuweisen](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) können, damit Benutzer auf Microsoft Stream zugreifen können. Stellen Sie sicher, dass Microsoft Stream für die Benutzer nicht blockiert ist, wie in [diesem Artikel](https://docs.microsoft.com/stream/disable-user-organization) beschrieben.
 

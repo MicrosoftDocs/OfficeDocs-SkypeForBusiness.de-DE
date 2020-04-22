@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Vertraulichkeits Beschriftungen in Microsoft Teams definieren und verwenden.
-ms.openlocfilehash: e9f007fd174027443191cd7d2dbb8f8321c7424f
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 5fb470262d0d359af87f751ece5f686210286c91
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888734"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779762"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Vertraulichkeits Bezeichnungen für Microsoft Teams
 
@@ -38,12 +38,12 @@ Auf der anderen Seite werden die Vertraulichkeits Beschriftungen und ihre Richtl
 
 ## <a name="create-manage-and-publish-sensitivity-labels-for-teams"></a>Erstellen, verwalten und Veröffentlichen von Vertraulichkeits Etiketten für Teams
 
-Informationen zum Aktivieren, erstellen und Veröffentlichen von Vertraulichkeits Bezeichnungen für Teams finden Sie unter [Verwenden von Vertraulichkeits Bezeichnungen in Microsoft Teams, Office 365-Gruppen und SharePoint-Websites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+Informationen zum Aktivieren, erstellen und Veröffentlichen von Vertraulichkeits Bezeichnungen für Teams finden Sie unter [Verwenden von Vertraulichkeits Bezeichnungen in Microsoft Teams, Microsoft 365-Gruppen und SharePoint-Websites](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
 
 >[!IMPORTANT]
 >Das Erstellen, aktualisieren und Löschen von Vertraulichkeits Beschriftungen erfordert eine sorgfältige Sequenzierung bei der Veröffentlichung von Etiketten für Benutzer. Jede Abweichung in der Sequenz kann zu beständigen Team Erstellungsfehlern für alle Benutzer führen. Daher ist es wichtig, die folgenden Schritte auszuführen, wenn Sie <a href="#createpublishlabels">Etiketten erstellen und veröffentlichen</a>, <a href="#modifydeletelabels">veröffentlichte Etiketten ändern und löschen</a>sowie <a href="#manageerrors">Fehler bei der Teamerstellung verwalten</a>.
 
-**Erstellen und Veröffentlichen von Etiketten** <a name="createpublishlabels"></a>
+**Erstellen und Veröffentlichen von Etiketten** <a name="createpublishlabels"> </a>
 
 Wenn eine Beschriftung im Security & Compliance Center erstellt und veröffentlicht wird, kann es bis zu 24 Stunden dauern, bis die Beschriftung auf der Benutzeroberfläche für die TEAMERSTELLUNG sichtbar wird. Führen Sie die folgenden Schritte aus, um die Bezeichnung für alle Benutzer im Mandanten zu veröffentlichen:
 1. Erstellen Sie die Beschriftung, und veröffentlichen Sie Sie für einige ausgewählte Benutzerkonten im Mandanten.
@@ -51,7 +51,7 @@ Wenn eine Beschriftung im Security & Compliance Center erstellt und veröffentli
 3. Versuchen Sie nach 24 Stunden, ein Team mit dem Label zu erstellen, indem Sie eines der Benutzerkonten verwenden, die auf das Etikett zugreifen können.
 4. Wenn das Team erfolgreich in Schritt 3 erstellt wurde, veröffentlichen Sie die Beschriftung für die verbleibenden Benutzer im Mandanten.
 
-**Ändern und Löschen von veröffentlichten Etiketten** <a name="modifydeletelabels"></a>
+**Ändern und Löschen von veröffentlichten Etiketten** <a name="modifydeletelabels"> </a>
 
 Das Löschen oder Ändern der Bezeichnung, während Sie mit Vertraulichkeitsrichtlinien verknüpft ist, kann zu Team Erstellungsfehlern im gesamten Mandanten führen. Daher müssen Sie vor dem Löschen oder Ändern einer Bezeichnung zunächst die Zuordnung der Bezeichnung von den zugehörigen Richtlinien aufheben. Führen Sie die folgenden Schritte aus.  
 So löschen oder ändern Sie ein Etikett:
@@ -60,7 +60,7 @@ So löschen oder ändern Sie ein Etikett:
 3. Starten Sie nach 48 Stunden die Team Erstellungs Schnittstelle, und stellen Sie sicher, dass die Beschriftung für keinen Benutzer im Mandanten mehr sichtbar ist.
 4. Nun können Sie die Beschriftung problemlos löschen oder ändern.
 
-**Verwalten von Team Erstellungsfehlern** <a name="manageerrors"></a>
+**Verwalten von Team Erstellungsfehlern** <a name="manageerrors"> </a>
 
 Wenn die TEAMERSTELLUNG zu einem beliebigen Zeitpunkt während der öffentlichen Vorschau fehlschlägt, haben Sie zwei Möglichkeiten:
  - Stellen Sie sicher, dass Vertraulichkeits Beschriftungen für Benutzer während der Teamerstellung nicht zwingend erforderlich sind.

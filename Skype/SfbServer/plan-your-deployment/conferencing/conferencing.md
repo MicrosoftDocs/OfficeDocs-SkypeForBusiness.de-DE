@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über Konferenzfeatures und Funktionen in Skype for Business Server zu erfahren.'
-ms.openlocfilehash: f91c815cf0b5d0b69ad5815157cba7a56bb28307
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 'Zusammenfassung: in diesem Thema erfahren Sie mehr über Konferenzfeatures und Funktionen in Skype for Business Server.'
+ms.openlocfilehash: feaa3dbbe3d05b09e3490ef160ceb21816ae7d5e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816003"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780424"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planen von Konferenzen in Skype for Business Server
  
-**Zusammenfassung:** Lesen Sie dieses Thema, um mehr über Konferenzfeatures und Funktionen in Skype for Business Server zu erfahren.
+**Zusammenfassung:** In diesem Thema erfahren Sie mehr über Konferenzfeatures und Funktionen in Skype for Business Server.
   
-Konferenzen in Skype for Business Server ermöglichen es Benutzern, Konferenzen online mithilfe Ihres Skype for Business-Clients zu treffen und abzuhalten, anstatt dass sich alle im gleichen Raum zusammenfinden. Besprechungsteilnehmer können mit dem Skype for Business-Client eine Verbindung mit einer Besprechung herstellen, um eine vollständige Audio-und Videowiedergabe zu erhalten, oder sich mit einem Telefon in eine Konferenz einwählen. Die Konferenzen unterstützen außerdem Funktionen wie Chat, Desktop- und Anwendungsfreigabe sowie interaktive Whiteboards.
+Konferenzen in Skype for Business Server ermöglichen es Benutzern, Konferenzen online mit Ihrem Skype for Business-Client zu treffen und zu halten, anstatt sich alle im selben Raum zu versammeln. Besprechungsteilnehmer können mit Ihrem Skype for Business-Client eine Verbindung zu einer Besprechung herstellen, um eine vollständige Audio-und Video Umgebung zu erhalten oder sich über ein Telefon in eine Konferenz einzuwählen. Konferenzen unterstützen auch Chatnachrichten, Desktop-und Anwendungsfreigabe und interaktive White Boards.
   
 Dieses Thema enthält die folgenden Abschnitte:
   
-- Konferenzfunktionen und -optionen
+- Konferenzfeatures und-Funktionen
     
 - Konferenzkomponenten
     
@@ -35,159 +35,159 @@ Dieses Thema enthält die folgenden Abschnitte:
     
 - Unterstützung für große Besprechungen
     
-- Festlegen der Anforderungen Ihres Unternehmens
+- Bestimmen der Anforderungen Ihrer Organisation
     
-## <a name="conferencing-features-and-capabilities"></a>Konferenzfunktionen und -optionen
+## <a name="conferencing-features-and-capabilities"></a>Konferenzfeatures und-Funktionen
 
-In Skype for Business Server stehen vier Konferenz Arten zur Verfügung: Webkonferenzen, Audio-und Videokonferenzen (A/V), Einwahlkonferenzen und Sofortnachrichten (im). 
+In Skype for Business Server stehen vier Konferenztypen zur Verfügung: Webkonferenz-, Audio-und Videokonferenzen (A/V), Einwahlkonferenzen und Chat Konferenzen (Sofortnachrichten). 
   
-Ganz nach Ihren Bedürfnissen können Sie entweder alle Konferenzarten aktivieren oder nur einen einzigen Typen nutzen. So können Sie beispielsweise alle Typen, einschließlich Einwahlkonferenzen, aktivieren, um Benutzern, die nicht in der Lage sind, an einer Konferenz teilzunehmen, mit einem Skype for Business-Client zu ermöglichen, sich über ein Telefon anzurufen und an der Audiokonferenz teilzunehmen. Bei der Bereitstellung von Skype for Business Server werden Sofortnachrichten-Konferenzfunktionen automatisch bereitgestellt. Sie können mithilfe des Topologie-Generators angeben, ob Web-, A/V-und Einwahlkonferenzen bereitgestellt werden sollen. Weitere Informationen finden Sie unter [Bereitstellen von Konferenzen in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md). 
+Sie können auswählen, ob alle Konferenztypen aktiviert werden sollen, oder Sie können je nach Bedarf nur einen Typ verwenden. Sie können beispielsweise alle Typen, einschließlich Einwahlkonferenzen, aktivieren, um Benutzern, die nicht in der Lage sind, an einer Konferenz teilzunehmen, einen Skype for Business-Client zu ermöglichen, sich über ein Telefon anzumelden und an der Audiokonferenz teilzunehmen. Wenn Sie Skype for Business Server bereitstellen, werden Chat Konferenzfunktionen automatisch bereitgestellt; Sie können mithilfe des Topologie-Generators angeben, ob Sie die Webparts, A/V-und Einwahlkonferenzen bereitstellen möchten. Weitere Informationen finden Sie unter [Deploy Conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md). 
   
-In den folgenden Unterabschnitten werden die Funktionen und Optionen der einzelnen Konferenzarten beschrieben.
+In den folgenden Unterabschnitten werden die Features und Funktionen der einzelnen Konferenztypen beschrieben.
   
 ### <a name="web-conferencing"></a>Webkonferenzen
 
-Mit Webkonferenzen können Besprechungsteilnehmer an Dokumenten zusammenarbeiten, die während der Besprechung freigegeben sind, und für den besprechungsreferenten die gemeinsame Nutzung von Anwendungen über den Skype for Business-Client. Webkonferenzen bieten die folgenden Funktionen: 
+Mit Webkonferenzen können Besprechungsteilnehmer an Dokumenten zusammenarbeiten, die während der Besprechung freigegeben wurden, und für den besprechungsreferenten, um Anwendungen über den Skype for Business-Client freizugeben. Webkonferenzen bieten die folgenden Features: 
   
-- **Whiteboard und Anmerkungen.** Ein Whiteboard ist ein leerer Zeichenbereich, der im Rahmen einer Zusammenarbeit eingesetzt wird und auf dem Text, Zeichnungen, und Bilder verwendet werden können. Anmerkungen auf Whiteboards sind für alle Teilnehmer der Besprechung sichtbar. Die Whiteboard-Funktion verbessert die Zusammenarbeit, indem Besprechungsteilnehmer die Möglichkeit erhalten, Ideen zu diskutieren, ein Brainstorming durchzuführen, Notizen zu machen, usw.
+- **Whiteboard und Anmerkungen.** Ein Whiteboard ist ein leerer Zeichenbereich, der im Rahmen einer Zusammenarbeit eingesetzt wird und auf dem Text, Zeichnungen, und Bilder verwendet werden können. Anmerkungen auf Whiteboards sind für alle Teilnehmer der Besprechung sichtbar. Das Whiteboardfeature verbessert die Zusammenarbeit, da alle Besprechungsteilnehmer Ideen diskutieren und entwickeln können, Notizen machen können usw.
     
-- **Abruf.** Das Polling-Feature verbessert die Zusammenarbeit, indem es Referenten ermöglicht, die Einstellungen der Teilnehmer schnell festzulegen. In Onlinebesprechungen und Unterhaltungen können Referenten mithilfe von Umfragen anonyme Antworten von Teilnehmern sammeln. Alle Referenten können die Ergebnisse sehen und entweder die Ergebnisse ausblenden oder alle Teilnehmer anzeigen.
+- **Abruf.** Das Polling-Feature verbessert die Zusammenarbeit, indem Referenten die Einstellungen der Teilnehmer schnell bestimmen können. In Onlinebesprechungen und -unterhaltungen können Referenten über Abrufe anonyme Antworten von Teilnehmern einholen. Alle Referenten können die Ergebnisse sehen und sie für alle Teilnehmer ausblenden oder anzeigen.
     
-- **Anwendungs- und Desktopfreigabe.** Während einer Konferenz kann der Referent der Besprechung seinen gesamten Desktop, eine einzelne Anwendung oder einzelne Monitore in einer Umgebung mit mehreren Monitoren freigeben. Andere Teilnehmer der Konferenz können nicht nur die Inhalte sehen, sondern auch die Kontrolle über Ihren Bildschirm anfordern und mit Ihrer Erlaubnis mit den Inhalten interagieren (einschließlich Bildlauf und Bearbeitung). Teilnehmer können außerdem als Referenten die Kontrolle übernehmen und während der Besprechung Inhalte freigeben.
+- **Anwendungsfreigabe und Desktop Freigabe.** Während einer Konferenz kann der Besprechungs Referent den gesamten Desktop, eine einzelne Anwendung oder einzelne Monitore in einer Umgebung mit mehreren Monitoren freigeben. Neben dem Anzeigen des Inhalts können andere Teilnehmer an der Konferenz die Steuerung des Bildschirms des Referenten anfordern und mit der Berechtigung mit dem Inhalt interagieren (einschließlich Scrollen und bearbeiten). Besprechungsteilnehmer können auch als Referenten übernehmen und die Freigabe von Inhalten während der Besprechung starten.
     
-- **Power Point-Freigabe.** Benutzer können PowerPoint-Präsentationen in der Besprechung über einen Office Web App-Server freigeben. Daraus ergeben sich folgende Möglichkeiten:
+- **PowerPoint-Freigabe.** Ermöglicht Benutzern das Freigeben von PowerPoint-Präsentationen in der Besprechung über einen Office-webapps-Server, was Folgendes ermöglicht:
     
-  - Hochauflösende Displays und Unterstützung von PowerPoint-Funktionen wie Animationen, Folienübergänge und eingebettete Videos.
+  - Hochauflösende Displays und Unterstützung für PowerPoint-Funktionen wie Animationen, Folienübergänge und eingebettete Videos.
     
-  - Mobile Geräte erhalten Zugriff auf diese Präsentationen.
+  - Mobile Geräte können auf diese Präsentationen zugreifen.
     
-  - Benutzer mit entsprechenden Berechtigungen können unabhängig von der Präsentation einen Bildlauf durch eine PowerPoint-Präsentation durchführen. Während Klaus beispielsweise seine Bildschirmpräsentation ablaufen lässt, kann Helga sich eine beliebige Folie ansehen, ohne Klaus Präsentation zu beeinträchtigen.
+  - Benutzer mit den entsprechenden Berechtigungen können unabhängig von der Präsentation selbst einen Bildlauf durch eine PowerPoint-Präsentation durchführen. Während Ken beispielsweise seine Bildschirmpräsentation präsentiert, kann Heidi jede beliebige Folie anzeigen, ohne die Darstellung von Ken zu beeinflussen.
     
-### <a name="audio-and-video-conferencing"></a>Audio- und Videokonferenzen
+### <a name="audio-and-video-conferencing"></a>Audio-und Videokonferenzen
 
-Mit der AV-Konferenzfunktion können in der Besprechung Audio- und Videodaten übertragen werden. Über den Audioteil können die Attendants miteinander sprechen, als befänden sie sich in demselben Raum. Video ermöglicht die Videoanzeige im Skype for Business-Client von Teilnehmern oder Referenten, die an einer Besprechung teilnehmen, mit einem Webcam-oder Konferenzgerät, das Video unterstützt.
+Audio-und Videokonferenzen ermöglichen Audio-und Videokonferenzen in der Besprechung. Mit Audio können Teilnehmer miteinander kommunizieren, als wären Sie im selben Raum. Video zeigt die Videoanzeige im Skype for Business-Client aller Teilnehmer oder Referenten an, die an der Besprechung teilnehmen, mit einer Webcam oder einem Konferenzgerät, das Video unterstützt.
   
- Skype for Business Server bietet verschiedene Funktionen, die Benutzer verwenden können, um die Audiokonferenz-Oberfläche für den Benutzer zu konfigurieren, einschließlich der folgenden:
+ Skype for Business Server bietet verschiedene Features, mit denen Benutzer die Audiokonferenz für den Benutzer konfigurieren können, einschließlich der folgenden:
   
-- **Publikum stumm schalten.** Der Referent kann mit dieser Einstellung alle Audioteilnehmer der Konferenz stummschalten und die Konferenz so in einen Modus versetzen, in dem die Teilnehmer die Stummschaltung nicht selbst aufheben können.
+- **Benutzergruppe stumm.** Der Referent kann diese Einstellung verwenden, um alle Audioteiler in der Konferenz stummzuschalten und die Konferenz in einen Zustand zu versetzen, in dem nicht-Referenten sich selbst nicht entmuten können.
     
-- **Konferenz Eintrag/-Exit-Ankündigungen.** Wenn Sie Einwahlkonferenzen aktiviert haben, können Referenten über diese Einstellung Ansagen beim Beitreten und Verlassen ein- oder ausschalten, um Ablenkungen während der Konferenz zu vermeiden.
+- **Konferenz Eintrag/Exit-Ankündigungen.** Wenn Sie Einwahlkonferenzen aktiviert haben, können Referenten diese Einstellung verwenden, um die Eingabe-und Beendigungs Ankündigungen zu aktivieren oder zu deaktivieren, um Ablenkungen während einer Konferenz zu minimieren.
     
-- **Hinzufügen eines Benutzers durch wählen aus.** Referenten und Teilnehmer, denen die Berechtigung erteilt wurde, können den Konferenzen PSTN-Nummern hinzufügen und die Konferenz an diese Nummern abwählen.
+- **Hinzufügen eines Benutzers, indem Sie sich auswählen.** Referenten und Teilnehmer, denen die Berechtigung erteilt wurde, können PSTN-Nummern zu den Konferenzen hinzufügen und die Konferenz für diese Nummern wählen.
     
-  Skype for Business Server bietet verschiedene Funktionen, mit denen Benutzer die Videokonferenzfunktionalität für den Benutzer konfigurieren können, einschließlich der folgenden:
+  Skype for Business Server bietet verschiedene Features, mit denen Benutzer die Videokonferenzumgebung für den Benutzer konfigurieren können, einschließlich der folgenden:
   
-- **Katalogansicht.** In Videokonferenzen, an denen mehr als zwei Personen teilnehmen, sehen die Benutzer automatisch alle Teilnehmer der Konferenz. Wenn die Konferenz mehr als fünf Teilnehmer hat, werden in der ersten Zeile die Videos der aktivsten Teilnehmer angezeigt und für die übrigen Teilnehmer Fotos. Die Videoaushandlung ist standardmäßig aktiviert.
+- **Galerieansicht.** Bei Videokonferenzen mit mehr als zwei Personen sehen die Benutzer automatisch alle Mitglieder der Konferenz. Wenn die Konferenz über mehr als fünf Teilnehmer verfügt, wird das Video der aktivsten Teilnehmer in der obersten Zeile angezeigt, und für die anderen Teilnehmer wird nur das Foto angezeigt. Video mit mehreren Teilern ist standardmäßig aktiviert.
     
-- **Panorama Video** Wenn im Konferenzraum ein Round Table-Videokonferenzgerät installiert ist, bietet diese Funktion eine vollständige 360-Grad-Ansicht des Konferenzraums. Panoramavideo ist nur mit Round Table verfügbar.
+- **Panorama Video.** Wenn ein RoundTable-Videokonferenz Gerät im Konferenzraum installiert ist, bietet dieses Feature eine vollständige 360 Grad Ansicht des Konferenzraums. Der Panorama-Video Strip ist nur für RoundTable-Geräte verfügbar.
     
-- **Videomodus für Referenten.** Referenten können Besprechungen so konfigurieren, dass nur das Video des Referenten angezeigt wird. Dies verhindert bei großen Besprechungen Ablenkungen, wenn mehrere Videostreams verfügbar und mit verschiedenen Quellen verbunden sind. Dieser Modus wird auch auf Videos angewendet, die mit Round Table-Geräte aufgenommen und bereitgestellt werden.
+- **Videomodus für Referenten.** Referenten können die Besprechung so konfigurieren, dass nur das Video des Referenten angezeigt wird. Dadurch werden Ablenkungen in großen Besprechungen verhindert, wenn mehrere Videostreams verfügbar sind und verschiedene Quellen gesperrt werden. Dieser Modus gilt auch für von RoundTable-Geräten erfasste und bereitgestellte Videos.
     
-- **Video-Spotlight.** Referenten können die Besprechung so konfigurieren, dass die Teilnehmer der Konferenz nur das Video eines ausgewählten Teilnehmers, der eine Videoquelle ist, sehen. Dieser Modus wird auch auf Videos angewendet, die mit Round Table-Geräten aufgenommen und bereitgestellt werden.
+- **Video Spotlight.** Referenten können die Besprechung so konfigurieren, dass nur das Video eines ausgewählten Teilnehmers, der eine Videoquelle ist, von den anderen Teilnehmern in der Konferenz angezeigt wird. Dieser Modus gilt auch für Videos, die von RoundTable-Geräten für Panorama Video erfasst und bereitgestellt werden.
     
-### <a name="dial-in-conferencing"></a>Einwahlkonferenzen
+### <a name="dial-in-conferencing"></a>Einwahlkonferenz
 
-Einwahlkonferenzen ermöglichen es Besprechungsteilnehmern, am Audioteil einer Besprechung teilzunehmen, indem Sie von einem Telefon aus in die Besprechung einwählen. Einwahlkonferenzen sind ein Unterbereich der Audiokonferenzen und müssen zusätzlich konfiguriert werden. Weitere Informationen zu Einwahlkonferenzen finden Sie unter [Planen von Einwahlkonferenzen in Skype for Business Server](dial-in-conferencing.md) und Konfigurieren von [Einwahlkonferenzen in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md). 
+Mit Einwahlkonferenzen können Besprechungsteilnehmer am Audioteil einer Besprechung teilnehmen, indem Sie sich über ein Telefon in die Besprechung einwählen. Einwahlkonferenzen sind ein Teil von Audiokonferenzen und erfordern zusätzliche Konfiguration. Weitere Informationen zu Einwahlkonferenzen finden Sie unter [Planen von Einwahlkonferenzen in Skype for Business Server](dial-in-conferencing.md) und Konfigurieren von [Einwahlkonferenzen in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md). 
   
-### <a name="instant-messaging-conferencing"></a>Chatkonferenzen
+### <a name="instant-messaging-conferencing"></a>Instant Messaging-Konferenzen
 
-Über die Chatkonferenzfunktion können mehr als zwei Parteien in einer einzigen Sofortnachrichtensitzung miteinander kommunizieren. Details zu Chat Konferenzen finden Sie unter [Planen von Sofortnachrichten und Anwesenheitsinformationen in Skype for Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).
+Chat Konferenzen (Instant Messaging) ermöglichen es mehr als zwei Parteien, in einer einzelnen Chatsitzung zu kommunizieren. Ausführliche Informationen zu Chat Konferenzen finden Sie unter [Plan for Instant Messaging and Presence in Skype for Business Server](../../plan-your-deployment/instant-messaging-and-presence.md).
   
 ## <a name="conferencing-components"></a>Konferenzkomponenten
 
-Zu den Komponenten, die für die Unterstützung der Konferenzfunktionen erforderlich sind, gehören:
+Zu den Komponenten, die Konferenzfunktionen unterstützen, gehören folgende:
   
-- **Anwendungsdienst.** Der Anwendungsdienst bietet eine Plattform zum Bereitstellen, Hosten und Verwalten von Unified Communications-Anwendungen (UC). Bei Einwahlkonferenzen werden zwei UC-Anwendungen verwendet, die den Anwendungsdienst benötigen: Die Konferenzzentrale und die Konferenzankündigungsanwendung. Der Anwendungsdienst wird standardmäßig auf jedem Front-End-Server in einem Front-End-Pool installiert und aktiviert. Darüber hinaus wird er auf jedem Standard Edition-Server installiert, um Einwahlkonferenzen zu aktivieren und zu konfigurieren.
+- **Anwendungsdienst.** Das Anwendungsdienst bietet eine Plattform zum Bereitstellen, hosten und Verwalten von UC-Anwendungen (Unified Communications). Bei Einwahlkonferenzen werden zwei UC-Anwendungen verwendet, für die die Anwendungsdienst erforderlich ist: Konferenzzentrale und Konferenz Ansage. Die Anwendungsdienst ist auf jeder Front-End-Server in einem Front-End-Pool installiert und wird standardmäßig aktiviert. Sie wird auch auf jeder Standard Edition-Server installiert, um Einwahlkonferenzen zu aktivieren und zu konfigurieren.
     
-- **Die Konferenzzentrale.** Die Anwendung „Konferenzzentrale“ ist eine Unified Communications-Anwendung, die Festnetzanrufe annimmt, Ansagen wiedergibt und Anrufe mit einer A/V-Konferenz verbindet. Sie wird standardmäßig installiert und aktiviert, wenn Sie die Option für Einwahlkonferenzen aktivieren.
+- **Konferenzzentrale.** Bei der Konferenzzentrale handelt es sich um eine Unified Communications-Anwendung, die PSTN-Anrufe (Public Switched Telephone Network) akzeptiert, Ansagen abgibt und die Anrufe an eine a/V-Konferenz anschließt. Das Konferenzzentrale wird standardmäßig installiert und aktiviert, wenn Sie Einwahlkonferenzen aktivieren.
     
-- **Konferenzankündigungsanwendung.** Die Konferenzankündigungsanwendung ist eine Unified Communications-Anwendung zur Wiedergabe von Signaltönen und Ansagen für Festnetzteilnehmer bei bestimmten Aktionen (z. B. wenn Teilnehmer einer Konferenz beitreten oder diese verlassen, Teilnehmer stumm geschaltet werden oder die Stummschaltung aufgehoben wird, Benutzer in der Lobby platziert werden oder wenn die Konferenz gesperrt bzw. entsperrt wird). Die Konferenzankündigungsanwendung unterstützt zudem DTMF-Befehle (Dual-Tone Multifrequency, Tonwahlverfahren) über die Telefontastatur. Die Konferenzankündigungsanwendung wird standardmäßig automatisch installiert und aktiviert, wenn Sie die Option für Einwahlkonferenzen aktivieren.
+- **Konferenzankündigungsanwendung.** Das Konferenzankündigungsanwendung ist eine Unified Communications-Anwendung, die für bestimmte Aktionen Töne und Ansagen an PSTN-Teilnehmer abgibt, beispielsweise wenn Teilnehmer einer Konferenz beitreten oder diese verlassen, die Teilnehmer stumm geschaltet oder stumm geschaltet werden, jemand in die Konferenz Lobby wechselt oder die Konferenz gesperrt oder entsperrt ist. Konferenzankündigungsanwendung unterstützt auch DTMF-Befehle (Dual-Tone Multi-Frequency) über die Telefontastatur. Das Konferenzankündigungsanwendung wird automatisch installiert und standardmäßig aktiviert, wenn Sie Einwahlkonferenzen aktivieren.
     
-- **Die Einrichtungsseite für Einwahlkonferenzen.** Auf der Einrichtungsseite für Einwahlkonferenzen werden die Konferenzeinwahlnummern mit den verfügbaren Sprachen, zugewiesenen Konferenzinformationen (d. h. für Besprechungen, die nicht geplant werden müssen) und die in einer Konferenz verfügbaren DTMF-Steuerelemente angezeigt. Darüber hinaus können Benutzer auf dieser Seite ihre persönliche Identifikationsnummer (PIN) sowie zugewiesene Konferenzinformationen verwalten. Die Einrichtungsseite für Einwahlkonferenzen wird automatisch als Teil der Web Services installiert.
+- **Seite "Einstellungen für Einwahlkonferenzen".** Das Seite "Einstellungen für Einwahlkonferenzen" zeigt Konferenzeinwahl Nummern mit den verfügbaren Sprachen an, zugewiesene Konferenz Informationen (also für Besprechungen, die nicht geplant werden müssen) sowie DTMF-Steuerelemente in der Konferenz und unterstützt die Verwaltung von persönlicher Identifikationsnummer (PIN) und zugewiesener Konferenz Informationen. Das Seite "Einstellungen für Einwahlkonferenzen" wird automatisch als Teil von Webdienste installiert.
     
-- **Vermittlungs Server und PSTN-Gateway** Für Einwahlkonferenzen ist ein Vermittlungs Server erforderlich, um Signalisierungen (und Medien in einigen Konfigurationen) zwischen Skype for Business Server und dem PSTN-Gateway zu übersetzen, und ein PSTN-Gateway, um Signalisierungs-und Medien Verbindungen zwischen dem Vermittlungsserver und dem PSTN-Gateway zu übersetzen. . Für Einwahlkonferenzen müssen Sie mindestens einen Vermittlungs Server und mindestens eine der folgenden Aktionen bereitstellen:
+- **Vermittlungsserver und PSTN-Gateway.** Einwahlkonferenzen erfordern eine Vermittlungsserver zum Übersetzen von Signalen (und Medien in einigen Konfigurationen) zwischen Skype for Business Server und dem PSTN-Gateway sowie ein PSTN-Gateway zum Übersetzen von Signal-und Mediendaten zwischen der Vermittlungsserver und dem PSTN-Gateway. Bei Einwahlkonferenzen müssen Sie mindestens eine Vermittlungsserver und mindestens eine der folgenden bereitstellen:
     
   - PSTN-Gateway
     
   - IP-Nebenstellenanlage
     
-  - Session Border Controller (SBC) (für einen Anbieter von Internettelefoniediensten, mit dem durch Konfigurieren eines SIP-Trunks eine Verbindung hergestellt wird)
+  - Session Border Controller (SBC) (für einen Internet Telefonie-Dienstanbieter, zu dem Sie eine Verbindung herstellen, indem Sie einen SIP-Trunk konfigurieren)
     
   > [!NOTE]
-  > Wenn Sie auch Enterprise-VoIP bereitstellen, sind Vermittlungs Server und PSTN-Gateways Teil der Enterprise-VoIP-Bereitstellung. Wenn Sie Enterprise-VoIP nicht bereitstellen, müssen Sie mindestens einen Vermittlungs Server und mindestens ein PSTN-Gateway, IP-PBX oder SBC für Einwahlkonferenzen bereitstellen. 
+  > Wenn Sie auch Enterprise-VoIP bereitstellen, sind Vermittlungsserver-und PSTN-Gateways Teil der Enterprise-VoIP-Bereitstellung. Wenn Sie Enterprise-VoIP nicht bereitstellen, müssen Sie mindestens eine Vermittlungsserver und mindestens ein PSTN-Gateway, eine IP-PBX-Anlage oder einen SBC für Einwahlkonferenzen bereitstellen. 
   
-- **Dateispeicher.** Der Dateispeicher wird für Audiodateien mit aufgezeichneten Namen verwendet. Er ist eine Standardkomponente in jeder Enterprise Edition- oder Standard Edition-Bereitstellung.
+- **Dateispeicher.** Dateispeicher wird für aufgezeichnete Namen-Audiodateien verwendet. Dateispeicher ist eine Standardkomponente in jeder Enterprise Edition-oder Standard Edition-Bereitstellung.
     
-- **Benutzerspeicher.** Der Benutzerspeicher dient zum Speichern von Skype for Business Server-Pins für Benutzer. Für PINs wird ein Hashalgorithmus verwendet. Der Benutzerspeicher ist eine Standardkomponente in jeder Enterprise Edition- oder Standard Edition-Bereitstellung.
+- **Benutzerspeicher.** Der Benutzerspeicher dient zum Speichern von Benutzer Skype for Business Server Pins. Pins werden gehasht. Der Benutzerspeicher ist eine Standardkomponente in jeder Enterprise Edition-oder Standard Edition-Bereitstellung.
     
-- **Office Web Apps-Server.** Um Webkonferenzfunktionen verwenden zu können, müssen Administratoren Office Web Apps Server installieren und Skype for Business Server für die Kommunikation mit Office Web Apps Server konfigurieren.
+- **Office Web Apps Server.** Um Webkonferenzfunktionen nutzen zu können, müssen Administratoren Office-webapps Server installieren und Skype for Business Server für die Kommunikation mit Office webapps Server konfigurieren.
     
 ## <a name="conferencing-policies"></a>Konferenzrichtlinien
 
-Wenn Sie die Richtlinien Ihrer Organisation erzwingen und die Bandbreitennutzung steuern möchten, können Sie Richtlinien für die Besprechungstypen festlegen, die von Benutzern organisiert werden können. Sie können eine Vielzahl von Konferenzrichtlinien definieren und diese einzelnen Benutzern und Benutzergruppen zuweisen. Ferner können Sie Richtlinien festlegen, die Peer-zu-Peer-Unterhaltungen steuern. Details zum Festlegen von Konferenzrichtlinien finden Sie unter [Verwalten von Konferenzrichtlinien in Skype for Business Server](../../manage/conferencing/conferencing-policies.md). Details zur Bandbreitenverwaltung finden Sie unter [Planen der Anrufsteuerung in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
+Um die Richtlinien Ihrer Organisation durchzusetzen und die Bandbreitennutzung zu steuern, können Sie Richtlinien für die Besprechungstypen festlegen, die Benutzer organisieren können. Sie können eine Vielzahl von Konferenzrichtlinien definieren und Sie einzelnen Benutzern und Benutzergruppen zuweisen. Ferner können Sie Richtlinien festlegen, die Peer-zu-Peer-Unterhaltungen steuern. Ausführliche Informationen zum Festlegen von Konferenzrichtlinien finden Sie unter [Manage Conferencing Policies in Skype for Business Server](../../manage/conferencing/conferencing-policies.md). Ausführliche Informationen zur Bandbreitenverwaltung finden Sie unter [Plan for Call Admission Control in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
   
 ## <a name="support-for-large-meetings"></a>Unterstützung für große Besprechungen
 
-Die Größe von Besprechungen, die von Skype for Business Server unterstützt werden können, hängt davon ab, ob Konferenzen in einem freigegebenen oder dedizierten Pool gehostet werden:
+Die Größe der Besprechungen, die Skype for Business Server unterstützenkann, hängt davon ab, ob Konferenzen in einem freigegebenen oder dedizierten Pool gehostet werden:
   
-- In einem gemeinsamen Pool kann Skype for Business Server Besprechungen mit bis zu 250 Benutzern hosten. Bei einem freigegebenen Pool handelt es sich um einen Pool, in dem alle Skype for Business Server-Arbeitsauslastungen, einschließlich Instant Messaging (im) und Anwesenheit, Konferenz und Enterprise-VoIP, gehostet werden. 
+- In einem gemeinsamen Pool können Skype for Business Server Besprechungen mit bis zu 250 Benutzern hosten. Ein freigegebener Pool ist ein Pool, der alle Skype for Business Server Arbeitslasten wie Instant Messaging (Sofortnachrichten) und Anwesenheit, Konferenzen und Enterprise-VoIP hostet. 
     
-- In einem dedizierten Pool kann Skype for Business Server Besprechungen mit bis zu 1000 Teilnehmern mithilfe von Web-und Audio/Video-Konferenzen (a/V) unterstützen, einschließlich der Freigabe von PowerPoint-Präsentationen. Hierzu muss ein dedizierter Pool konfiguriert werden, der große Besprechungen unterstützt und so verwaltet wird, dass er das Hosten einer einzigen großen Besprechung sicherstellt. 
+- In einem dedizierten Pool können Skype for Business Server Besprechungen mit bis zu 1000 Teilnehmern mithilfe von Netz-und Audio/Video-Konferenzen (a/V) unterstützen, einschließlich der Freigabe von PowerPoint-Präsentationen. Diese Unterstützung erfordert einen dedizierten Pool, der für die Unterstützung großer Besprechungen konfiguriert und so verwaltet wird, dass gleichzeitig nur eine einzige große Besprechung gehostet wird. 
     
-Weitere Informationen zum Verwalten großer Besprechungen finden Sie unter [Planen großer Besprechungen in Skype for Business Server](large-meetings.md).
+Weitere Informationen zum Verwalten von großen Besprechungen finden Sie unter [Plan for Large Meetings in Skype for Business Server](large-meetings.md).
   
-Wenn in Ihrer Organisation größere Besprechungsfunktionen erforderlich sind, sollten Sie eine Hybridumgebung implementieren, die Skype-Live Konferenz, einen Onlinedienst, der Teil von Office 365 ist, nutzt. Skype-Livekonferenz ermöglicht Benutzern, Besprechungen von bis zu 10.000 Teilnehmern zu hosten und an ein ebenso großes Online-Publikum zu übertragen. Für die Nutzung von Skype-Livekonferenz muss Skype for Business Server bereits in einer Hybridumgebung mit einem Office 365-Produktionsmandanten konfiguriert sein. Als Grundvoraussetzung muss bei allen Benutzern ein Online-Mandant eingerichtet sein. Wenn Sie an der Bereitstellung einer Hybridlösung interessiert sind, die die Vorteile von Skype-Livekonferenz nutzen kann, finden Sie weitere Informationen unter [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md)
+Wenn Ihre Organisation größere Besprechungsfunktionen erfordert, sollten Sie die Implementierung einer Hybridumgebung in Betracht ziehen, die Skype-Live Konferenz, einen Onlinedienst, der Teil Office 365 ist, nutzt. Skype-Live Konferenz ermöglicht Benutzern das Hosten und übertragen von Besprechungen mit großen Online-Zielgruppen von bis zu 10.000 Teilnehmern. Die Verwendung von Skype-Live Konferenz erfordert, dass Skype for Business Server bereits in einem Hybrid-Setup mit einer Produktions Office 365 Organisation konfiguriert werden. Für alle Benutzer muss ein Online Mandant als Voraussetzung eingerichtet sein. Wenn Sie an der Bereitstellung einer Hybridlösung interessiert sind, die Skype-Live Konferenz nutzen kann, finden Sie weitere Informationen unter [configure your on-premises Deployment for Skype Live Broadcast](../../deploy/configure-skype-meeting-broadcast.md).
   
-## <a name="determine-your-organizations-needs"></a>Festlegen der Anforderungen Ihres Unternehmens
+## <a name="determine-your-organizations-needs"></a>Bestimmen der Anforderungen Ihrer Organisation
 
 Wenn Sie festlegen, welche Konferenzfunktionen bereitgestellt werden sollen, müssen Sie überlegen, welche Funktionen von Ihren Benutzern genutzt werden sollen und welche Netzwerkbandbreite zur Verfügung steht. Die folgende Liste führt Sie durch den Konferenz Planungsprozess, um zu ermitteln, welche Features von Konferenzen Sie basierend auf den Anforderungen Ihrer Organisation bereitstellen sollten.
   
 > [!NOTE]
-> Wenn Sie die Konferenzfunktion bei der Bereitstellung aktivieren, werden auch die Web- und die A/V-Konferenzfunktionen automatisch freigeschaltet. Sie können allerdings bestimmte Funktionen deaktivieren, indem Sie, wie zuvor in diesem Kapitel beschrieben, Konferenzrichtlinien aufstellen. 
+> Wenn Sie Konferenzen bei der Bereitstellung aktivieren, aktivieren Sie automatisch sowohl eine Webkonferenz als auch A/V-Konferenzen. Sie können jedoch bestimmte Features deaktivieren, indem Sie wie zuvor in diesem Thema beschrieben Konferenzrichtlinien konfigurieren. 
   
 - **Sollen Webkonferenzfunktionen bereitgestellt werden, die eine gemeinsame Verwendung von Dokumenten und Anwendungen umfassen?**
     
-    Wenn ja, müssen Sie die Konferenzfunktionen mithilfe des Planungstools oder des Topologie-Generators für Ihren Front-End-Pool freischalten. Weitere Informationen finden Sie unter [Bereitstellen von Konferenzen in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+    Wenn dies der Fall ist, müssen Sie die Konferenz für Ihre Front-End-Pool mithilfe des Planungstools oder mithilfe des Topologie-Generators aktivieren. Weitere Informationen finden Sie unter [Deploy Conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
     
-    Bei der Anwendungsfreigabe wird eine höhere Netzwerkbandbreite als bei der Dokumentzusammenarbeit benötigt und belegt. Skype for Business Server bietet einen Drosselungsmechanismus zur Steuerung jeder Anwendungsfreigabesitzung. In der Standardeinstellung sind für jede Sitzung 1,5 KB/s festgelegt. Wenn Sie die Anwendungsfreigabe nicht aktivieren möchten, Sie jedoch die Zusammenarbeit mit Dokumenten verwenden möchten, können Sie Konferenzen aktivieren und Konferenzrichtlinien verwenden, um die Anwendungsfreigabe zu deaktivieren. Details zum Konfigurieren von Konferenzrichtlinien finden Sie unter [Verwalten von Konferenzrichtlinien in Skype for Business Server](../../manage/conferencing/conferencing-policies.md).
+    Für die Anwendungsfreigabe ist eine höhere Netzwerkbandbreite erforderlich als für die Dokumentzusammenarbeit. Skype for Business Server stellt einen Einschränkungsmechanismus zum Steuern der einzelnen Anwendungsfreigabesitzungen bereit. In der Standardeinstellung ist für jede Sitzung 1,5 KB/s festgelegt. Wenn Sie die Anwendungsfreigabe nicht aktivieren möchten, aber die Zusammenarbeit mit Dokumenten wünschen, können Sie die Konferenzfunktionen aktivieren und Konferenzrichtlinien verwenden, um die Anwendungsfreigabe zu deaktivieren. Ausführliche Informationen zum Konfigurieren von Konferenzrichtlinien finden Sie unter [Manage Conferencing Policies in Skype for Business Server](../../manage/conferencing/conferencing-policies.md).
     
-    Um Benutzern das Freigeben von PowerPoint-Präsentationen zu ermöglichen, müssen Sie den Office Web Apps-Server konfigurieren. Weitere Informationen zum Konfigurieren von Office Web Apps Server finden Sie unter [Konfigurieren der Integration in Office Web Apps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md).
+    Um Benutzern die Freigabe von PowerPoint-Präsentationen zu ermöglichen, müssen Sie Office-webapps-Server konfigurieren. Ausführliche Informationen zum Konfigurieren von Office-webapps Server finden Sie unter [configure Integration with Office webapps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md).
     
-- **Möchten Sie Audio- und Videokonferenzen aktivieren?**
+- **Möchten Sie Audio-und Videokonferenzen aktivieren?**
     
-    Wenn ja, müssen Sie die Konferenzfunktionen mithilfe des Planungstools oder des Topologie-Generators für Ihren Front-End-Pool freischalten. Weitere Informationen finden Sie unter [Bereitstellen von Konferenzen in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+    Wenn dies der Fall ist, müssen Sie die Konferenz für Ihre Front-End-Pool mithilfe des Planungstools oder mithilfe des Topologie-Generators aktivieren. Weitere Informationen finden Sie unter [Deploy Conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
     
-    Für Audio- und Videokonferenzen ist eine höhere Netzwerkbandbreite erforderlich als für Webkonferenzen (diese umfassen Dokumentzusammenarbeit und Anwendungsfreigabe). Wenn Sie Audio- und Videokonferenzen nicht aktivieren, jedoch die Funktion für Webkonferenzen bereitstellen möchten, können Sie die Konferenzfunktionen aktivieren und A/V-Konferenzen mithilfe von Konferenzrichtlinien deaktivieren.
+    Audio-und Videokonferenzen erfordern und verwenden mehr Netzwerkbandbreite als Webkonferenzen (einschließlich der Zusammenarbeit von Dokumenten und der Anwendungsfreigabe). Wenn Sie keine Audio-und Videokonferenzen aktivieren möchten, aber Webkonferenzen aktivieren möchten, können Sie Konferenzen aktivieren und Konferenzrichtlinien verwenden, um A/V-Konferenzen zu deaktivieren.
     
-    Wenn Sie Audiokonferenzen, jedoch keine Videokonferenzen zulassen möchten, können Sie die A/V-Konferenzfunktion aktivieren und Videokonferenzen mithilfe von Konferenzrichtlinien verhindern. Alternativ können Sie A/V-Konferenzen aktivieren und das Starten von oder Teilnehmen an A/V-Konferenzen nur für bestimmte Benutzer zulassen. 
+    Wenn Sie Audiokonferenzen, aber keine Videokonferenzen aktivieren möchten, können Sie A/V-Konferenzen aktivieren und Konferenzrichtlinien verwenden, um Videokonferenzen zu verhindern. Alternativ können Sie A/V-Konferenzen aktivieren und das Starten von oder Teilnehmen an A/V-Konferenzen nur für bestimmte Benutzer zulassen. 
     
-    Weitere Informationen zum Konfigurieren von Konferenzrichtlinien finden Sie unter [Verwalten von Konferenzrichtlinien in Skype for Business Server](../../manage/conferencing/conferencing-policies.md).
+    Weitere Informationen zum Konfigurieren von Konferenzrichtlinien finden Sie unter [Manage Conferencing Policies in Skype for Business Server](../../manage/conferencing/conferencing-policies.md).
     
     > [!NOTE]
-    > Enterprise Voice wird für A/V-Konferenzen nicht benötigt. Wenn Sie A/V-Konferenzen aktivieren, können Benutzer ihren Konferenzen Audiofunktionen hinzufügen, falls sie über entsprechende Geräte verfügen. Dies gilt auch bei Verwendung eines Nebenstellensystems als Telefonlösung. 
+    > Enterprise-VoIP ist für die Verwendung von A/V-Konferenzen nicht erforderlich. Wenn Sie a/V-Konferenzen aktivieren, können Ihre Benutzer Ihrer Konferenzen Audiodaten hinzufügen, wenn Sie über Audiogeräte verfügen, selbst wenn Sie eine Nebenstellenanlage für Ihre Telefonlösung verwenden. 
   
-- **Möchten Sie Benutzern die Teilnahme am Audioteil von Konferenzen ermöglichen, wenn Sie ein PSTN-Telefon verwenden?**
+- **Sollen Benutzer bei Verwendung eines Festnetztelefons am Audioteil von Konferenzen teilnehmen können?**
     
     Wenn ja, stellen Sie Einwahlkonferenzen bereit und aktivieren Sie sie. Eingeladene Benutzer innerhalb und außerhalb Ihrer Organisation können anschließend unter Verwendung eines Festnetztelefons am Audioteil von Konferenzen teilnehmen.
     
-    Einwahlkonferenzen sind ein optionales Feature, das Sie bei der Bereitstellung von Skype for Business Server-Konferenzen konfigurieren können. Wenngleich Einwahlkonferenzen einige Komponenten von Enterprise Voice verwenden, ist die Bereitstellung von Enterprise Voice nicht erforderlich, um Einwahlkonferenzen bereitzustellen. Einwahlkonferenzen können sowohl für Unternehmensbenutzer als auch für anonyme Benutzer eingesetzt werden. Weitere Informationen zum Konfigurieren von Einwahlkonferenzen für Enterprise-und anonyme Benutzer finden Sie unter [Bereitstellen von Konferenzen in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md) und [Konfigurieren von Einwahlkonferenzen in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
+    Einwahlkonferenzen sind ein optionales Feature, das Sie bei der Bereitstellung von Skype for Business Server Konferenzen konfigurieren können. Bei Einwahlkonferenzen werden zwar einige der Komponenten verwendet, die Enterprise-VoIP verwendet, aber Sie können Einwahlkonferenzen auch dann bereitstellen, wenn Sie Enterprise-VoIP nicht bereitstellen. Einwahlkonferenzen können sowohl für Unternehmensbenutzer als auch für anonyme Benutzer eingesetzt werden. Weitere Informationen zum Konfigurieren von Einwahlkonferenzen für Unternehmen und anonyme Benutzer finden Sie unter [Deploy Conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md) und [configure Dial-in Conferencing in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md).
     
-- **Möchten Sie externen Benutzern mit Skype for Business-Clients erlauben, an einer Konferenz teilzunehmen?**
+- **Möchten Sie, dass externe Benutzer mit Skype for Business Clients an Konferenzen teilnehmen können?**
     
-    Indem Sie externe Teilnahme an Besprechungen zulassen, maximieren Sie Ihre Investition in Skype for Business Server. Folgende Personenkreise können als externe Benutzer eingestuft werden:
+    Indem Sie externe Teilnahme an Besprechungen ermöglichen, maximieren Sie Ihre Investitionen in Skype for Business Server. Externe Benutzer können Folgendes umfassen:
     
-  - **Remotebenutzer.** Die eigenen Benutzer Ihrer Organisation, wenn diese außerhalb Ihrer Firewalls arbeiten und ihre Laptops oder andere Skype for Business Server-Geräte verwenden.
+  - **Remote Benutzer.** Die eigenen Benutzer Ihrer Organisation, wenn Sie außerhalb Ihrer Firewalls arbeiten und ihre Laptops oder andere Skype for Business Server Geräte verwenden.
     
-  - **Federated-Benutzer.** Benutzer von Unternehmen, mit denen Sie zusammenarbeiten, die auch Skype for Business Server ausführen. Damit Ihre Benutzer problemlos Kontakt zu diesen Benutzern aufnehmen können, erstellen Sie Partnerverbundbeziehungen mit diesen Unternehmen.
+  - **Verbundbenutzer.** Benutzer aus Unternehmen, mit denen Sie zusammenarbeiten und die auch Skype for Business Server ausführen. Damit Ihre Benutzer diese Benutzer problemlos kontaktieren können, erstellen Sie Partnerverbundbeziehungen mit diesen Unternehmen.
     
   - **Anonyme Benutzer.** Alle anderen externen Benutzer, die von Ihren Benutzern zur Teilnahme an bestimmten Konferenzen eingeladen werden. Der Organisator einer Besprechung in Ihrem Unternehmen kann eine E-Mail-Einladung für eine Konferenz an einen externen Benutzer senden. Diese E-Mail enthält einen Link, über den der externe Benutzer an der Konferenz teilnehmen kann.
     
-    Wenn Sie externe Benutzer zulassen möchten, müssen Sie Edgeserver bereitstellen. Wenn Sie Edgeserver bereitstellen, können Sie zudem Partnerverbundbeziehungen mit anderen Organisationen – z. B. Ihren Kunden oder Lieferanten – einrichten, sodass Benutzer dieser Organisationen einfacher mit Ihren Benutzern zusammenarbeiten können.
+    Wenn Sie externe Benutzer zulassen möchten, müssen Sie Edgeserver bereitstellen. Außerdem können Sie mit bereitgestellten Edge-Servern Verbundbeziehungen mit anderen Organisationen (beispielsweise Ihren Kunden oder Lieferanten) erstellen, und Benutzer aus diesen Organisationen können mit ihren Benutzern leichter zusammenarbeiten.
     
-    Ausführliche Informationen zur Bereitstellung von Edgeservern finden Sie unter „Planen für Edgeserver“ und „Bereitstellen von Edgeserver“. Details zum Aktivieren von externem Zugriff für Office Web Apps Server finden Sie unter [Konfigurieren der Integration in Office Web Apps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md).
+    Ausführliche Informationen zum Bereitstellen von Edgeserver finden Sie unter Planen von Edge-Servern und Bereitstellen von Edge-Servern. Ausführliche Informationen zum Aktivieren von externem Zugriff für Office-webapps Server finden Sie unter [configure Integration with Office webapps Server in Skype for Business Server](../../deploy/deploy-conferencing/office-web-app-server.md).
     
-- **Möchten Sie die Clients steuern, die an den Skype for Business Server-Besprechungen teilnehmen können?**
+- **Möchten Sie die Clients steuern, die an Skype for Business Server Besprechungen teilnehmen können?**
     
-    Wenn ja, wird empfohlen, die Besprechungsseite so zu konfigurieren, dass nur die Clientoptionen ausgewählt werden können, die auch unterstützt werden sollen. Jedes Mal, wenn ein Benutzer auf einen Link klickt, um an einer geplanten Besprechung teilzunehmen, erkennt Skype for Business Server, ob ein Client bereits auf dem Computer installiert ist. Anschließend wird der Standardclient gestartet, und die Seite für den Besprechungsbeitritt mit Links zu alternativen Clients wird geöffnet. Die Seite "Besprechungsteilnahme" enthält immer die Option zur Verwendung von Skype for Business Web App. Ferner können Sie entscheiden, ob Links für Teilnehmer und frühere Versionen von Communicator eingeschlossen werden sollen. 
+    Wenn ja, wird empfohlen, die Besprechungsseite so zu konfigurieren, dass nur die Clientoptionen ausgewählt werden können, die auch unterstützt werden sollen. Jedes Mal, wenn ein Benutzer auf einen Link klickt, um einer geplanten Besprechung beizutreten, erkennt Skype for Business Server, ob ein Client bereits auf dem Computer installiert ist. Anschließend wird der Standardclient gestartet, und die Seite für den Besprechungsbeitritt wird geöffnet, auf der Links für alternative Clients angezeigt werden. Die Seite für den besprechungsbeitritt enthält immer die Option zum verwenden Skype for Business-Webanwendung. Zusätzlich zu dieser Option können Sie entscheiden, ob Sie Links für Teilnehmer und frühere Versionen von Communicator einschließen möchten. 
     
 

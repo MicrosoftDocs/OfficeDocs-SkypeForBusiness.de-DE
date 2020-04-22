@@ -16,12 +16,12 @@ MS.collection:
 description: Hier erfahren Sie, wie Sie den Bericht "PSTN-Nutzung von Teams" im Microsoft Teams Admin Center verwenden, um einen Überblick über die Verwendung von Anrufen und Audiokonferenzen in Ihrer Organisation zu erhalten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3372bc77a4850da0690c2076c5858812e3e80452
-ms.sourcegitcommit: a4fd238de09366d6ed33d72c908faff812da11a5
+ms.openlocfilehash: c35699093168f5bb0443277f65da9a8060f27b69
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637192"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778251"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN-Nutzungsbericht
 
@@ -134,7 +134,7 @@ Sie können Daten bis zu fünf Monate (150 Tage) ab dem aktuellen Datum exportie
 | :-: | :-: | :-: |:------------------- |
 | 0 | CorrelationId | `uniqueidentifier` | Eindeutige Anrufkennung |
 | 1 | SIP-Adresse | `nvarchar(128)` | Die Adresse des Benutzers oder bot, der den Anruf getätigt oder empfangen hat.<br/>Beachten Sie, dass dies tatsächlich userPrincipalName (UPN, Anmeldename) in Azure Active Directory ist, das in der Regel mit der SIP-Adresse identisch ist. |
-| 2 | Display Name | `nvarchar(128)` | Der Name eines Benutzers oder eines anrufenden bot (beispielsweise Anrufwarteschlange oder automatische Telefonzentrale), wie er im Office 365-Portal eingestellt ist |
+| 2 | Display Name | `nvarchar(128)` | Der Name eines Benutzers oder eines anrufenden bot (beispielsweise Anrufwarteschlange oder automatische Telefonzentrale), wie er im Microsoft 365 Admin Center eingestellt ist |
 | 3 | Nutzer Land | `nvarchar(2)` | Landesvorwahl des Benutzers, [ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
 | 4 | Einladungszeitpunkt | `datetimeoffset` | Wenn die Initiale Einladung vom Benutzer oder bot-Anruf an den SBC senden, an den SBC weitergeleitet wird oder bei einem eingehenden Team-oder bot-Anruf von der SIP-Proxy Komponente des direkten Routings vom SBC empfangen wird |
 | 5 | Startzeitpunkt | `datetimeoffset` | Zeitpunkt, zu dem der SIP-Proxy die endgültige Antwort erhalten hat (SIP-Nachricht "200 OK") aus dem SBC für ausgehende (Teams/bot an einen PSTN-Benutzer) oder nachdem der SIP-Proxy die Einladung an den nächsten Hop innerhalb des Teams-Back-Ends bei einem eingehenden Anruf gesendet hat (PSTN-Benutzer zu einem Team/bot).<br/>Bei fehlgeschlagenen und unbeantworteten Anrufen kann dies gleich der Einladungs-oder Fehlerzeit sein. |

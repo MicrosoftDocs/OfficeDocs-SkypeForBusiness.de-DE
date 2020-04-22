@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6b29e850193e50049986f37c0cb19bbfb96a6c13
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 9e27199d953eb04c20a10765020b179ff303c5e8
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43138365"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777830"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installieren von Microsoft Teams mit Microsoft Endpoint Configuration Manager
 
@@ -44,7 +44,7 @@ Hier sind die Links zu den MSI-Dateien:
 > [!NOTE]
 > Installieren Sie die 64-Bit-Version von Teams auf 64-Bit-Betriebssystemen. Wenn Sie versuchen, die 64-Bit-Version von Teams auf einem 32-Bit-Betriebssystem zu installieren, schlägt die Installation fehl, aber Sie erhalten zurzeit keine Fehlermeldung.
 
-Teams können auch in eine Bereitstellung von Office 365 ProPlus einbezogen werden. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams mit Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
+Teams können auch in einer Bereitstellung von Microsoft 365-Apps für Unternehmen enthalten sein. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams mit Microsoft 365-Apps für Unternehmen](https://docs.microsoft.com/deployoffice/teams-install).
 
 > [!Note]
 > Weitere Informationen zu Microsoft Endpoint Configuration Manager lesen Sie unter [Was ist Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction).

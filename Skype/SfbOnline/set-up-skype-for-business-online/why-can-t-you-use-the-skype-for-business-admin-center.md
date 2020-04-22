@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: 'Erfahren Sie, was Sie in Skype for Business Admin Center und anderen Features nutzen können, wenn Ihr Dienst zu einem anderen Microsoft-Rechenzentrum migriert wird. '
-ms.openlocfilehash: 7825b0bb6cd60995a103736641af36a532ad0ba8
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: f43f1cce6921d3e3cb6e40ad58898ece04d800df
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769518"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777620"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Warum kann ich das Skype for Business Online Admin Center gerade nicht verwenden?
 
@@ -42,7 +42,7 @@ Weitere technische Details finden Sie unter [während und nach dem Verschieben v
 
 Als erstes brechen wir einige Begriffe auf.
   
-- **Rechenzentrum** Dies ist der physikalische Standort, an dem die Informationen aus Ihrer Office 365-Organisation gespeichert werden, beispielsweise Ihre Dateien und e-Mail-Nachrichten. Wenn Sie sich wirklich mit den Office 365-Rechenzentren ausgraben möchten, lesen Sie[diesen Artikel](https://www.microsoft.com/online/legal/v2/?docid=25).
+- **Rechenzentrum** Dies ist der physikalische Standort, an dem die Informationen aus Ihrem Microsoft 365 oder Office 365 gespeichert sind, beispielsweise Ihre Dateien und e-Mail-Nachrichten. Wenn Sie sich wirklich mit den Office 365-Rechenzentren ausgraben möchten, lesen Sie[diesen Artikel](https://www.microsoft.com/online/legal/v2/?docid=25).
     
 - **Migrieren** von Das ist ziemlich ähnlich wie "verschieben". In diesem Fall bedeutet dies, dass wir Ihre Skype for Business Online-Benutzer und-Einstellungen von einem Rechenzentrum in ein anderes verschieben, das Ihnen näher steht, um Ihren Service zu verbessern.
     

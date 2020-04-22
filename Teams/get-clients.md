@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a3425ca19ded72f814e8f81252b7224c2c08a42
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: d75a76ca7a98191f90005ebe6c1edf915fde4571
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749493"
+ms.locfileid: "43778301"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 
@@ -40,7 +40,7 @@ Microsoft Teams-Clients sind für Desktop (Windows, Mac und Linux), Web und mobi
 > [!TIP]
 > Schauen Sie sich die folgende Sitzung mit Informationen zu den Vorteilen des Windows-Desktopclient sowie zum Planen und Bereitstellen der Lösung an: [Windows-Desktopclient für Teams](https://aka.ms/teams-clients)
 
-Der Microsoft Teams-Desktopclient ist eine eigenständige Anwendung und auch [in Office 365 ProPlus verfügbar](https://docs.microsoft.com/deployoffice/teams-install). Teams steht für 32- und 64-Bit-Versionen von Windows (8.1 oder höher) und Windows Server (2012 R2 oder höher) sowie für macOS (10.10 oder höher) und Linux (im Format `.deb` und `.rpm`) zur Verfügung. Unter Windows erfordert Teams .NET Framework 4.5 oder höher. Das Installationsprogramm für Teams bietet die Installation an, wenn Sie nicht darüber verfügen. Unter Linux versuchen Paketmanager wie `apt` und `yum` alle Anforderungen für Sie zu installieren. Wenn dies nicht gelingt, müssen Sie die bekannten Anforderungen installieren, bevor Sie Teams unter Linux installieren.
+Der Microsoft Teams-Desktop Client ist eine eigenständige Anwendung und steht auch [in Microsoft 365-Apps für Unternehmen zur Verfügung](https://docs.microsoft.com/deployoffice/teams-install). Teams steht für 32- und 64-Bit-Versionen von Windows (8.1 oder höher) und Windows Server (2012 R2 oder höher) sowie für macOS (10.10 oder höher) und Linux (im Format `.deb` und `.rpm`) zur Verfügung. Unter Windows erfordert Teams .NET Framework 4.5 oder höher. Das Installationsprogramm für Teams bietet die Installation an, wenn Sie nicht darüber verfügen. Unter Linux versuchen Paketmanager wie `apt` und `yum` alle Anforderungen für Sie zu installieren. Wenn dies nicht gelingt, müssen Sie die bekannten Anforderungen installieren, bevor Sie Teams unter Linux installieren.
 
 Die Desktopclients bieten Unterstützung für Echtzeitkommunikation (Audio, Video und Inhaltsfreigabe) für Teambesprechungen, Gruppenanrufe und private Einzelanrufe.
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Führen Sie die Schritte zum Erstellen einer Standardtelefonnummer für Anrufer aus, um an einer Skype for Business Online-Besprechung teilzunehmen. '
-ms.openlocfilehash: c6a8c9c3b3d21a64ad54d84ed8bfab22044f9cf5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a570c457c51ce87655c1cb13e1eb61951b968400
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680372"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776780"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Einrichten der in Einladungen enthaltenen Telefonnummern in Skype for Business Online
 
@@ -36,7 +36,7 @@ ms.locfileid: "41680372"
 Audiokonferenzen in Office 365 ermöglicht es Benutzern in Ihrer Organisation, Skype for Business-Besprechungen zu erstellen und Benutzern dann das Einwählen in diese Besprechungen mithilfe eines Telefons zu ermöglichen. In Office 365 haben Sie die Möglichkeit, eine Microsoft-Audiokonferenz-Brücke oder eine Audio-Konferenzbrücke eines Drittanbieters zu verwenden, die von einem zugelassenen Audiokonferenz-Anbieter (ACP) gehostet wird.
   
 > [!NOTE]
-> Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält. Wenn Sie feststellen möchten, ob Einwahlnummern in Ihrem Land/Ihrer Region verfügbar sind, verwenden Sie die **Skype for Business Admin Center** > **-sprach** > **Nummern**, klicken Sie auf **neue Service Nummern** **Hinzufügen** . Verwenden Sie die Listen für **Land/Region**, **Bundesland/Region** und **Ort** , um Ihre Suche zu filtern. #a0 auch wenn Sie nach gebührenfreien Servicenummern suchen, wählen Sie **gebührenfrei** in der Liste **Bundesland/Region** .
+> Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält. Wenn Sie feststellen möchten, ob Einwahlnummern in Ihrem Land/Ihrer Region verfügbar sind, verwenden Sie die **Skype for Business Admin Center** > **-sprach** > **Nummern**, klicken Sie auf **neue Service Nummern** **Hinzufügen** . Verwenden Sie die Listen für **Land/Region**, **Bundesland/Region** und **Ort** , um Ihre Suche zu filtern. > auch wenn Sie nach gebührenfreien Servicenummern suchen, wählen Sie **gebührenfrei** in der Liste **Bundesland/Region** .
   
 Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organisation. All diese Nummern können verwendet werden, um an den Besprechungen teilzunehmen, die ein Besprechungsorganisator erstellt hat. Sie können aber auch eine Auswahl treffen, die bei den Einladungen zur jeweiligen Besprechung berücksichtigt werden sollen.
   
@@ -48,7 +48,7 @@ Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organ
   
 ## <a name="set-the-default-dial-in-phone-number-for-a-meeting-organizer"></a>Festlegen der standardmäßigen Einwahl Telefonnummer für einen Besprechungsorganisator
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
     
 2. Wählen Sie **Admin Center** > **Skype for Business** aus.
     

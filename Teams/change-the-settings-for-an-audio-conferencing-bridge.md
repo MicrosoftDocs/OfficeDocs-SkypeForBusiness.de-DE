@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: Ändern Sie die Einstellungen für die Audiokonferenz-Bridge, einschließlich ein-und Ausstiegs Benachrichtigungen, Wiedergeben von Namen oder Telefonnummern, Töne, und fordern Sie Anrufer auf, Ihren Namen aufzuzeichnen.
-ms.openlocfilehash: aaff3518675e1db56340f9dc1568b994cf2ed6e6
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 48028ccb3f2a0664f9fa724ec91e1dfc0177326f
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139084"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780344"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Ändern der Einstellungen für eine Audiokonferenzbrücke
 
@@ -43,7 +43,7 @@ Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automat
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) Verwenden des Microsoft Teams admin Centers
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Symbol, das das Microsoft Teams-Logo zeigt](media/teams-logo-30x30.png) Verwenden des Microsoft Teams Admin Centers
 
 1. Wechseln Sie in der linken Navigationsleiste zu **Besprechungen** > **Konferenz Brücken**. 
 
@@ -90,7 +90,7 @@ Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automat
     
 **Festlegen der Länge der PIN für Besprechungen**
   
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
     
 2. Navigieren Sie zum **Microsoft 365 Admin Center** > **Skype for Business**.
     
@@ -103,7 +103,7 @@ Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automat
   
 **Auswählen, ob E-Mails an Ihre Benutzer gesendet werden sollen**
   
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
     
 2. Navigieren Sie zum **Microsoft 365 Admin Center** > **Skype for Business**.
     

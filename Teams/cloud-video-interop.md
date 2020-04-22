@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddd8a0574899c13e03aae34915b8a342d1984feb
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: f9addb5dfe25f5d4906c0b4ab1d332a2ea70f72d
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505642"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779641"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Cloud-Video-Interoperabilität für Microsoft Teams
 
@@ -46,7 +46,7 @@ Während Cloud-Video-Interop eine hervorragende Zwischenlösung bietet, ermutige
 
 ### <a name="office-365-us-government-and-third-party-services"></a>Office 365 US Government und Dienste von Drittanbietern
 
-Office 365 bietet die Möglichkeit zum Integrieren von Anwendungen von Drittanbietern in SharePoint Online-Websites, Skype for Business, Teams, Office-Anwendungen, die in Office 365 ProPlus enthalten sind (wie Word, Excel, PowerPoint und Outlook) und Outlook Web App. Darüber hinaus unterstützt Office 365 die Integration von Drittanbieter-Dienstanbietern. Bei diesen Anwendungen und Diensten von Drittanbietern kann es sich um das Speichern, übertragen und Verarbeiten der Kundendaten Ihrer Organisation auf Drittanbietersystemen, die sich außerhalb der Office 365-Infrastruktur befinden, und somit nicht um die Office 365-Compliance-und Datenschutzverpflichtungen handelt. **Es wird empfohlen, dass Sie die von den Drittanbietern bereitgestellten Datenschutz-und Konformitätsrichtlinien überprüfen, wenn Sie die entsprechende Verwendung dieser Dienste für Ihre Organisation bewerten.**
+Office 365 bietet die Möglichkeit zum Integrieren von Anwendungen von Drittanbietern in SharePoint Online-Websites, Skype for Business, Teams, Office-Anwendungen, die in Microsoft 365-Apps für Unternehmen enthalten sind (wie Word, Excel, PowerPoint und Outlook) und Outlook Web App. Darüber hinaus unterstützt Office 365 die Integration von Drittanbieter-Dienstanbietern. Bei diesen Anwendungen und Diensten von Drittanbietern kann es sich um das Speichern, übertragen und Verarbeiten der Kundendaten Ihrer Organisation auf Drittanbietersystemen, die sich außerhalb der Office 365-Infrastruktur befinden, und somit nicht um die Office 365-Compliance-und Datenschutzverpflichtungen handelt. **Es wird empfohlen, dass Sie die von den Drittanbietern bereitgestellten Datenschutz-und Konformitätsrichtlinien überprüfen, wenn Sie die entsprechende Verwendung dieser Dienste für Ihre Organisation bewerten.**
 
 
 

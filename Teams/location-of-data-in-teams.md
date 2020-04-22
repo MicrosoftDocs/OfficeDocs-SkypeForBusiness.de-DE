@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3908100a0270f9e72835e189a220ece6e54a27bd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 11d95858c39a2d555a4b1a7433b0a7dce0388293
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836535"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780264"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Speicherort von Daten in Microsoft Teams
 
-Die Microsoft Teams-Daten befinden sich in der geografischen Region, die Ihrem Office 365-Mandanten zugeordnet ist. Derzeit unterstützt Microsoft Teams Australien, Kanada, Frankreich, Deutschland, Indien, Japan, Südafrika, Südkorea, die Schweiz (einschließlich Liechtenstein), die Regionen Vereinigten Arabische Emirate, Großbritannien, Amerika, APAC und EMEA. 
+Daten in Teams befinden sich in der geografischen Region, die Ihrer Office 365-Organisation zugeordnet ist. Derzeit unterstützt Microsoft Teams Australien, Kanada, Frankreich, Deutschland, Indien, Japan, Südafrika, Südkorea, die Schweiz (einschließlich Liechtenstein), die Regionen Vereinigten Arabische Emirate, Großbritannien, Amerika, APAC und EMEA. 
 
 > [!IMPORTANT]
 > Teams bietet derzeit Daten in Australien, Kanada, Frankreich, Deutschland, Indien, Japan, den Vereinigten Arabischen Emiraten, Großbritannien, Südkorea, Südafrika und der Schweiz (einschließlich Liechtenstein) für neue Mandanten an.
@@ -47,7 +47,7 @@ Schauen Sie sich die [Ignite-Breakout-Sitzung auf der Microsoft Teams-Architektu
 
 ### <a name="core-teams-customer-data"></a>Kundendaten des Core Teams
 
-Wenn Ihr Mandant in Australien, Kanada, der Europäischen Union, Frankreich, Deutschland, Indien, Japan, Südafrika, Südkorea, der Schweiz (einschließlich Liechtenstein), den Vereinigten Arabischen Emiraten, dem Vereinigten Königreich oder den Vereinigten Staaten bereitgestellt wird, speichert Microsoft Stores die folgenden Kundendaten ruhen nur innerhalb dieses Speicherorts:
+Wenn Ihr Mandant in Australien, Kanada, der Europäischen Union, Frankreich, Deutschland, Indien, Japan, Südafrika, Südkorea, der Schweiz (einschließlich Liechtenstein), den Vereinigten Arabischen Emiraten, dem Vereinigten Königreich oder den Vereinigten Staaten bereitgestellt wird, speichert Microsoft die folgenden Kundendaten nur innerhalb dieses Speicherorts:
 
 - Teams-Chats, Team-und Kanal Unterhaltungen, Bilder, Voicemail-Nachrichten und Kontakte
 - SharePoint Online-Websiteinhalte und die auf dieser Website gespeicherten Dateien

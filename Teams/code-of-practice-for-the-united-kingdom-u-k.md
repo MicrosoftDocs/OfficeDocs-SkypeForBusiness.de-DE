@@ -1,5 +1,5 @@
 ---
-title: Code of Practice für Großbritannien -Office 365-Anrufpläne
+title: Code of Practice für Großbritannien -Microsoft 365-Anrufpläne
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,14 +23,14 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Informieren Sie sich über den Code of Practice für PSTN-Anrufpläne für Skype for Business UK, einschließlich, wo Sie Hilfe erhalten und wie Sie Beschwerden einreichen und Streitigkeiten lösen können.
-ms.openlocfilehash: ef69d726ab40a4eb282422ab549961776c985ef1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 064d6961289a7874e9e67843c0cf47339c64f896
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139044"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779631"
 ---
-# <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Anrufpläne in Office 365 – Verhaltenskodex für das Vereinigte Königreich
+# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Anrufpläne in Microsoft 365-Code of Practice für das Vereinigte Königreich (Großbritannien)
 
 Dieser Code bezieht sich auf kleine Unternehmen (Organisationen mit 10 Mitarbeitern oder kleiner) im Vereinigten Königreich (UK) im Hinblick auf den Office 365-Anruf Plan Dienst (den "Dienst") in Übereinstimmung mit den britischen Kommunikationsrichtlinien. Andere Skype for Business-Dienste unterliegen Ihrem Servicevertrag mit Microsoft sowie allen anderen Bedingungen, die für die Nutzung des jeweiligen Service gelten.
 

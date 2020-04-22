@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich, was Sie über Pins wissen sollten, und wie Sie Sie in Skype for Business Online zurücksetzen können. '
-ms.openlocfilehash: fdd11e3ef9c656b4b2cc6b929a2963e9b5e10824
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a2f91e1ccae53f08507a63ea56b499a3ad968c73
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680562"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777700"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Zurücksetzen der Audiokonferenz-PIN in Skype for Business Online
 
@@ -39,9 +39,9 @@ Besprechungen können gestartet werden, wenn ein authentifizierter Benutzer mit 
   
 ## <a name="reset-a-users-pin"></a>Zurücksetzen der PIN eines Benutzers
 
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
     
-2. Wechseln Sie zum Admin Center #a0 **Skype for Business**, und klicken Sie im linken Navigationsbereich auf **Audiokonferenzen**.
+2. Wechseln Sie zum Admin Center > **Skype for Business**, und klicken Sie im linken Navigationsbereich auf **Audiokonferenzen**.
     
 3. Klicken Sie auf **Benutzer**, und wählen Sie den Benutzer aus, für den Sie die PIN zurücksetzen möchten.
     

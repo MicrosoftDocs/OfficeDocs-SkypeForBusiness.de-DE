@@ -13,15 +13,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anach
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Office 365-Überwachungsprotokoll abrufen.
+description: Hier erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll abrufen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f53d1a0b5e600de9d38233b243dba3486b88bf1
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 9b1235dcd1a33800185eb005f5e309204790c5b1
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341623"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778891"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Suchen nach Überwachungsprotokoll für Ereignisse in Microsoft Teams
 
@@ -41,11 +41,11 @@ Mithilfe des Überwachungsprotokolls können Sie bestimmte Aktivitäten in allen
 > [!NOTE]
 > Überwachungsereignisse von privaten Kanälen werden auch so protokolliert, wie Sie für Teams und Standardkanäle gelten.
 
-Eine vollständige Liste der in Office 365 überwachten Aktivitäten finden Sie unter [Durchsuchen des Überwachungsprotokolls im Office 365 Security & Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
+Die vollständige Liste der Aktivitäten, die in Microsoft 365 überwacht werden, finden Sie unter [Durchsuchen des Überwachungsprotokolls im Microsoft 365 Compliance Center](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
 ## <a name="turn-on-auditing-in-teams"></a>Aktivieren der Überwachung in Microsoft Teams
 
-Bevor Sie sich die Überwachungsdaten ansehen können, müssen Sie zuerst die Überwachung im [Security & Compliance Center](https://protection.office.com)aktivieren. Hilfe zum Aktivieren der Überwachung finden Sie unter [Aktivieren oder Deaktivieren der Office 365-Überwachungsprotokollsuche](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Bevor Sie sich die Überwachungsdaten ansehen können, müssen Sie zuerst die Überwachung im [Security & Compliance Center](https://protection.office.com)aktivieren. Wenn Sie Hilfe beim Aktivieren der Überwachung benötigen, lesen Sie [Aktivieren oder Deaktivieren der Überwachungsprotokoll Suche](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 > [!IMPORTANT]
 > Überwachungsdaten sind erst ab dem Zeitpunkt verfügbar, an dem Sie die Überwachung aktiviert haben.
@@ -65,7 +65,7 @@ Ein Szenario, auf das Sie möglicherweise im geschäftlichen Bereich achten soll
 
 ![Screenshot einer Liste von Ereignissen, die durch Massenlöschungen ausgelöst werden](media/TeamsExternalUserAddPolicy.png)
 
-Der Screenshot dieser Richtlinie zum Überwachen externer Benutzer Adds ermöglicht Ihnen, die Richtlinie zu benennen, den Schweregrad entsprechend Ihren geschäftlichen Anforderungen festzulegen, ihn als (in diesem Fall) eine einzelne Aktivität festzulegen und dann die Parameter festzulegen, die speziell nur den Zusatz überwachen sollen. nicht interner Benutzer und beschränken Sie diese Aktivität auf Microsoft Teams.
+Der Screenshot dieser Richtlinie zum Überwachen externer Benutzer Adds ermöglicht Ihnen, die Richtlinie zu benennen, den Schweregrad entsprechend Ihren geschäftlichen Anforderungen festzulegen, ihn als (in diesem Fall) eine einzelne Aktivität festzulegen und dann die Parameter festzulegen, die speziell nur das Hinzufügen nicht interner Benutzer überwachen und diese Aktivität auf Microsoft Teams beschränken.
 
 Dann können Ergebnisse dieser Richtlinie im Aktivitätsprotokoll angezeigt werden:
 

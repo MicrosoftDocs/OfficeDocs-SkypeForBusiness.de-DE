@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Informieren Sie sich über die Schritte, die erforderlich sind, um ihrer Konferenzbrücke eine neue Dienst Telefonnummer zuzuweisen, um die Abdeckung für Ihre Benutzer zu erweitern.
-ms.openlocfilehash: 571b7a9c14db1601e0a4b94740395ad087808a49
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 233678bd953046eed5e6425e0b1a36c5a39b1061
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139074"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780354"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
 
@@ -69,7 +69,7 @@ Nur eine Dienst gebührenpflichtige Nummer kann als Standardnummer für Ihre Kon
 
 Die standardmäßigen Telefonnummern eines Benutzers sind diejenigen, die in den Besprechungseinladungen enthalten sind, wenn Sie eine Besprechung planen. Weitere Informationen dazu, wie die defaul-Telefonnummern neuen Benutzern zugewiesen werden, finden Sie unter [Einrichten der Telefonnummern, die in Einladungen in Microsoft Teams enthalten](set-the-phone-numbers-included-on-invites-in-teams.md) sind, oder [Festlegung der Telefonnummern, die in Einladungen in Skype for Business Online enthalten](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)sind.
   
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zu den **Microsoft 365 Admin Center** > **Admin Center** > **Teams & Skype** > **Legacy Portal** > **-Audiokonferenz** > -**Benutzer**, und wählen Sie die Benutzer in der Liste aus.
 
@@ -133,7 +133,7 @@ Weitere Informationen zu Meeting Migration Service finden Sie unter [Einrichten 
   
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>Schritt 3 - Aufheben der Zuweisung der alten Telefonnummer zur Audiokonferenzbrücke
 
-1. Melden Sie sich bei Office 365 mit Ihrem Firmen- oder Schulkonto an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zu den **Microsoft 365 Admin Center** > **Admin Center** > **Teams & Skype** > **Legacy Portal** > -**VoIP** > -**Telefonnummern**.
 
@@ -169,7 +169,7 @@ Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten 
 
 1. Vom **Start Menu** > **Windows PowerShell**.
 
-2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
+2. Stellen Sie im **Windows PowerShell** -Fenster eine Verbindung mit Ihrem Microsoft 365 oder Office 365 her, indem Sie Folgendes ausführen:
 
 >
   ```PowerShell

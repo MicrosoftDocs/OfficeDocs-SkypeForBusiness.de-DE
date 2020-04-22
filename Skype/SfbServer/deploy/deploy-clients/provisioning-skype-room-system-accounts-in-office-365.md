@@ -1,5 +1,5 @@
 ---
-title: Einrichten von Skype Room System-Konten in Office 365
+title: Einrichten von Skype Room System-Konten in Microsoft 365 und Office 365
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
-description: Lesen Sie dieses Thema, um mehr über die Einrichtung von Skype Room System-Konten in Office 365 zu erfahren.
-ms.openlocfilehash: 141c833bcbdd744a7577c0762cb8ba55dd3d5c54
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+description: Lesen Sie dieses Thema, um mehr über die Einrichtung von Skype Room System-Konten in Microsoft 365 oder Office 365 zu erfahren.
+ms.openlocfilehash: e2796d9a81f918c0503382e23aad5ead711240e7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42037725"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779711"
 ---
-# <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Einrichten von Skype Room System-Konten in Office 365
+# <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Einrichten von Skype Room System-Konten in Microsoft 365 und Office 365
  
 Lesen Sie dieses Thema, um mehr über die Einrichtung von Skype Room System-Konten in Office 365 zu erfahren.
   
-Im folgenden Abschnitt wird die Kontoverwaltung für Skype Room System für einen Office 365 Mandanten behandelt.
+Im folgenden Abschnitt wird die Kontoverwaltung für Skype Room System für eine Office 365 Organisation behandelt.
   
-## <a name="office-365-prerequisites"></a>Voraussetzungen für Office 365
+## <a name="microsoft-365-and-office-365-prerequisites"></a>Voraussetzungen für Microsoft 365 und Office 365
 
 Ihr Online-Mandant muss die folgenden Anforderungen erfüllen:
   
-- Der Office 365 Plan muss Skype for Business Online Plan 2 oder Office 365 E1, E3 oder E5 enthalten. <br/>Ausführliche Informationen zu Skype for Business Online Plänen finden Sie in der [Skype for Business Online-Dienstbeschreibung](https://technet.microsoft.com/library/jj822172.aspx).
+- Der Plan Microsoft 365 oder Office 365 muss Skype for Business Online Plan 2 oder Office 365 E1, E3 oder E5 enthalten. <br/>Ausführliche Informationen zu Skype for Business Online Plänen finden Sie in der [Skype for Business Online-Dienstbeschreibung](https://technet.microsoft.com/library/jj822172.aspx).
     
 - Ihr Mandant muss die Konferenzfunktion von Skype for Business aktiviert haben.
     
@@ -99,7 +99,7 @@ Nachdem Sie eine Lizenz für Skype for Business Online zugewiesen haben, können
   
 ## <a name="skype-for-business-online-provisioning"></a>Skype for Business Online-Provision
 
-Nachdem ein Ressourcen Raum-Postfachkonto erstellt und wie zuvor gezeigt aktiviert wurde und Sie das Konto für Skype for Business Online lizensiert haben, wird das Konto über die Exchange Online-Gesamtstruktur mit Skype for Business Online Gesamtstruktur synchronisiert. Windows Azure Active Directory Gesamtstruktur. Die folgenden Schritte sind erforderlich, um das Skype Room-System Konto im Skype for Business Online Pool zu stellen. Diese Schritte sind für ein vorhandenes Ressourcen Postfachkonto oder ein neu erstelltes Konto identisch (confrm1 oder confrm2), da beide Konten nach der Aktivierung in Exchange Online auf dieselbe Weise mit Skype for Business Online synchronisiert werden:
+Nachdem ein Ressourcen Raum-Postfachkonto erstellt und wie zuvor gezeigt aktiviert wurde und Sie das Konto für Skype for Business Online lizenziert haben, wird das Konto mit der Windows Azure Active Directory-Gesamtstruktur von der Exchange Online Gesamtstruktur mit Skype for Business Online Gesamtstruktur synchronisiert. Die folgenden Schritte sind erforderlich, um das Skype Room-System Konto im Skype for Business Online Pool zu stellen. Diese Schritte sind für ein vorhandenes Ressourcen Postfachkonto oder ein neu erstelltes Konto identisch (confrm1 oder confrm2), da beide Konten nach der Aktivierung in Exchange Online auf dieselbe Weise mit Skype for Business Online synchronisiert werden:
   
 1. Erstellen Sie eine Remote-PowerShell-Sitzung. Beachten Sie, dass Sie Skype for Business Online Connector-Modul und Microsoft Online Services-Anmeldeassistent herunterladen und sicherstellen müssen, dass Ihr Computer konfiguriert ist. Weitere Informationen finden Sie unter [Einrichten des Computers für Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
     

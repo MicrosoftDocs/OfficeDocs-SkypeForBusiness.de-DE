@@ -12,12 +12,12 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2f490a50ade6c10d37a478729c46a5545970afb1
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 5106d4e27921d9407b2663410cc0872892479ebb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184598"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779852"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ Benutzereinstellungen werden mit dem Benutzerkonto verschoben. Einige lokale Ein
 
 Bevor Sie mit dem Migrieren von Benutzern zu lync Online beginnen, sollten Sie einige Pilotbenutzer zur Bestätigung der ordnungsgemäßen Konfiguration Ihrer Umgebung migrieren. Sie können dann überprüfen, ob lync-Features und-Dienste wie erwartet funktionieren, bevor Sie versuchen, zusätzliche Benutzer zu migrieren.
 
-Wenn Sie einen lokalen Benutzer zu Ihrem lync Online Mandanten migrieren möchten, führen Sie die folgenden Cmdlets im lync Server-Verwaltungsshell aus, wobei Sie die Administratoranmeldeinformationen für Ihren Microsoft Office 365-Mandanten verwenden. Ersetzen Sie "username@contoso.com" durch die Informationen für den Benutzer, den Sie wechseln möchten.
+Wenn Sie einen lokalen Benutzer zu Ihrem lync Online Mandanten migrieren möchten, führen Sie die folgenden Cmdlets im lync Server-Verwaltungsshell aus, wobei Sie die Administratoranmeldeinformationen für Ihre Microsoft Office 365-Organisation verwenden. Ersetzen Sie "username@contoso.com" durch die Informationen für den Benutzer, den Sie wechseln möchten.
 
    ```PowerShell
     $creds=Get-Credential
@@ -65,11 +65,11 @@ Wenn Sie einen lokalen Benutzer zu Ihrem lync Online Mandanten migrieren möchte
 
 Das Format der URL, die für den **HostedMigrationOverrideUrl** -Parameter angegeben ist, muss die URL zum Pool sein, in dem der gehostete Migrationsdienst ausgeführt wird,\<im folgenden\>Format: https://Pool FQDN/HostedMigration/hostedmigrationService.svc.
 
-Sie können die URL des gehosteten Migrations Diensts ermitteln, indem Sie die URL für die lync Online-Systemsteuerung für Ihr Office 365-Mandantenkonto anzeigen.
+Sie können die URL des gehosteten Migrations Diensts ermitteln, indem Sie die URL für die lync Online-Systemsteuerung für Ihr Office 365 organisationskonto anzeigen.
 
-**So bestimmen Sie die URL des gehosteten Migrations Diensts für den Office 365 Mandanten**
+**So bestimmen Sie die URL des gehosteten Migrations Diensts für Ihre Office 365 Organisation**
 
-1.  Melden Sie sich als Administrator bei Ihrem Office 365-Mandanten an.
+1.  Melden Sie sich als Administrator bei Ihrer Office 365 Organisation an.
 
 2.  Öffnen Sie das **lync Admin Center**.
 

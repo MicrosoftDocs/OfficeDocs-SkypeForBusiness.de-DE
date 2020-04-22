@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Hier erfahren Sie, wie Sie die Skype for Business-Einstellungen für einzelne Benutzer ändern, beispielsweise Audio-und Videokonferenzen, Aufzeichnung von Anrufen und Besprechungen. '
-ms.openlocfilehash: 756de9829194139f39c7618e0c8bbd74f3418264
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 5247d814429d8d1f62fe9ea963aa76b7aafe40df
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010888"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776320"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administratoren: Skype for Business-Einstellungen für einzelne Benutzer konfigurieren
 
@@ -47,7 +47,7 @@ Sie müssen über [Administratorberechtigungen](https://support.office.com/artic
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
   
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
     
 2. Wählen Sie **Admin Center** > **Skype for Business** aus.
     

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47abe9934c92ce83ab0874a10b2c04ef238b428a
-ms.sourcegitcommit: 0289062510f0791906dab2791c5db8acb1cf849a
+ms.openlocfilehash: 69efb8c74950ffdb4426049558caaf59254b4605
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42157893"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779802"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Upgrade von Skype for Business auf Teams &mdash; für IT-Administratoren
 
@@ -201,7 +201,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 Wenn ein Benutzer in den TeamsOnly-Modus migriert wird, werden die vorhandenen Skype for Business-Besprechungen, die Sie organisiert haben, standardmäßig in Teams konvertiert. Sie können das Standardverhalten beim Zuweisen des TeamsOnly-Modus zu einem Benutzer optional deaktivieren. Beim Verschieben von Benutzern aus dem lokalen Bereich müssen Besprechungen in die Cloud migriert werden, damit Sie mit dem Online Benutzerkonto funktionieren, aber wenn Sie MoveToTeams nicht angeben, werden die Besprechungen als Skype for Business-Besprechungen migriert und nicht in Teams konvertiert. 
 
-Wenn Sie den TeamsOnly-Modus auf Mandantenebene zuweisen, wird die Besprechungs Migration für keine Benutzer ausgelöst. Wenn Sie den TeamsOnly-Modus auf Mandantenebene zuweisen und Besprechungen migrieren möchten, können Sie mithilfe von PowerShell eine Liste der Benutzer im Mandanten abrufen (beispielsweise die Verwendung von Get-CsOnlineUser mit den benötigten Filtern) und dann jeden dieser Benutzer durchlaufen, um eine Besprechung auszulösen. Migration mithilfe von Start-CsExMeetingMigration. Ausführliche Informationen finden Sie unter [Verwenden des Besprechungs Migrations Diensts (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Wenn Sie den TeamsOnly-Modus auf Mandantenebene zuweisen, wird die Besprechungs Migration für keine Benutzer ausgelöst. Wenn Sie den TeamsOnly-Modus auf Mandantenebene zuweisen und Besprechungen migrieren möchten, können Sie mithilfe von PowerShell eine Liste der Benutzer im Mandanten abrufen (beispielsweise die Verwendung von Get-CsOnlineUser mit allen benötigten Filtern) und dann jeden dieser Benutzer durchlaufen, um die Besprechungs Migration mithilfe von Start-CsExMeetingMigration zu starten. Ausführliche Informationen finden Sie unter [Verwenden des Besprechungs Migrations Diensts (MMS)](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
 
 
 ### <a name="additional-considerations-for-organizations-with-skype-for-business-server-on-premises"></a>Weitere Überlegungen für Organisationen mit Skype for Business Server lokal
@@ -221,7 +221,7 @@ Wenn Sie den TeamsOnly-Modus auf Mandantenebene zuweisen, wird die Besprechungs 
 - Wenn Sie Benachrichtigungen im Skype for Business-Client für lokale Benutzer anzeigen möchten, müssen Sie im lokalen Toolset TeamsUpgradePolicy verwenden. Nur der NotifySfbUsers-Parameter ist für lokale Benutzer relevant.  Lokale Benutzer erhalten Ihren Modus aus den Online Instanzen von TeamsUpgradePolicy. Sehen Sie sich die Notizen in [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). 
 
 >[!NOTE]
-> Alle neuen Mandanten, die nach dem 3. September erstellt wurden, werden als TeamsOnly-Mandanten erstellt 2019, ohne dass Administratoren eine Downgrade vornehmen können. Organisationen mit Skype for Business Server lokal, die zuvor nie ein Office 365-Abonnement vor dem 3. September hatten, 2019 müssen sich an den Microsoft-Support wenden, damit Ihr Mandant heruntergestuft wird, nachdem Sie ein Abonnement mit Office 365 erworben haben. 
+> Alle neuen Mandanten, die nach dem 3. September erstellt wurden, werden als TeamsOnly-Mandanten erstellt, es sei denn 2019, die Organisation verfügt bereits über eine lokale Bereitstellung von Skype for Business Server. Microsoft verwendet DNS-Einträge, um lokale Skype for Business Server-Organisationen zu identifizieren. Wenn Ihre Organisation über lokale Skype for Business-Server ohne öffentliche DNS-Einträge verfügt, müssen Sie den Microsoft-Support anrufen, damit Ihr neuer Mandant heruntergestuft wird. 
 
 
 ## <a name="perform-the-upgrade-for-your-organization"></a>Durchführen des Upgrades für Ihre Organisation
@@ -286,7 +286,7 @@ Wenn einige Benutzer in Ihrer Organisation Teams im Modus "Inseln" aktiv verwend
 
 1. Suchen Sie nach Benutzern, die in Teams wie folgt aktiv sind:
 
-   1. Wechseln Sie im Office 365-Administrator Portal in der linken Navigationsleiste zu Berichte, und verwenden Sie dann die Verwendung. 
+   1. Wechseln Sie im Microsoft 365 Admin Center in der Navigationsleiste auf der linken Seite zu Berichte, und verwenden Sie dann die Verwendung. 
    2. Wählen Sie im Dropdownmenü "Bericht auswählen" den Eintrag Microsoft Teams und dann Benutzeraktivität aus. Dadurch wird eine exportierbare Tabelle mit Benutzern bereitgestellt, die in Teams aktiv waren. 
    3. Klicken Sie auf exportieren, öffnen Sie Excel, und Filtern Sie, um nur die Benutzer anzuzeigen, die in Teams aktiv sind.
 
@@ -335,7 +335,7 @@ Wenn die PSTN-Anruf Funktionalität betroffen ist, gibt es vier mögliche Szenar
 
 - *Ein Benutzer in Skype for Business lokal mit Enterprise-VoIP, der zu Online wechseln und die lokale PSTN-Konnektivität*aufrecht erhalten soll.  Wenn Sie diesen Benutzer zu Teams migrieren, muss das lokale Skype for Business-Konto des Benutzers in die Cloud verschoben und koordiniert werden, um die Migration des Benutzers zur direkten Weiterleitung zu koordinieren. 
 
-- *Ein Benutzer in Skype for Business lokal mit Enterprise-VoIP*, der in den Online-und mit einem Microsoft-Anrufplan umziehen wird.  Das Migrieren dieses Benutzers zu Teams erfordert das Verschieben des lokalen Skype for Business-Kontos des Benutzers in die Cloud und das koordinieren dieser Bewegung mit einem) des Ports dieser Benutzer Telefonnummer zu einem Microsoft-Anrufplan oder B) Zuweisen einer neuen Teilnehmernummer von Verfügbare Regionen.
+- *Ein Benutzer in Skype for Business lokal mit Enterprise-VoIP*, der in den Online-und mit einem Microsoft-Anrufplan umziehen wird.  Wenn Sie diesen Benutzer zu Teams migrieren, müssen Sie das lokale Skype for Business-Konto des Benutzers in die Cloud verschieben und diesen Schritt entweder mit a) dem Port der Telefonnummer dieses Benutzers zu einem Microsoft-Anrufplan oder B durch stellen, um eine neue Teilnehmernummer aus verfügbaren Regionen zuzuweisen.
 
 Dieser Artikel enthält nur eine allgemeine Übersicht. Weitere Informationen finden Sie unter [direkte Routing](direct-routing-landing-page.md) -und [Anrufpläne](calling-plan-landing-page.md)für Telefonsysteme. Beachten Sie außerdem, dass die Verwendung von Telefonsystemen mit Teams nur unterstützt wird, wenn sich der Benutzer im TeamsOnly-Modus befindet.  Wenn sich der Benutzer im Modus "Inseln" befindet, wird das Telefon System nur von Skype for Business unterstützt. 
 
@@ -469,7 +469,7 @@ Beim Organisieren von Besprechungen basiert der Besprechungstyp, der geplant wir
 | :------------------ | :---------------- |
 | TeamsOnly, SfbWithTeamsCollabAndMeetings |    Alle in Teams geplanten Besprechungen Das Skype for Business-Add-in steht in Outlook nicht zur Verfügung. | 
 | SfbWithTeamsCollab, SfbOnly   | Alle in Skype for Business geplanten Besprechungen Das Team-Add-in steht in Outlook nicht zur Verfügung. | 
-| Inseln |     Besprechungen können entweder in Skype for Business oder in Teams geplant werden. Beide Add-Ins stehen in Outlook zur Verfügung. | 
+| Inselmodus |     Besprechungen können entweder in Skype for Business oder in Teams geplant werden. Beide Add-Ins stehen in Outlook zur Verfügung. | 
 
 
 ### <a name="interoperability"></a>Interoperabilität

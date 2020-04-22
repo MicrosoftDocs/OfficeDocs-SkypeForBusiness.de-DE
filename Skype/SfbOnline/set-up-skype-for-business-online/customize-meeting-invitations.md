@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'Passen Sie Skype-Besprechungseinladungen mit Grafik Logos, Hilfe-und rechtlichen URLs sowie Fußzeilentext an. '
-ms.openlocfilehash: b30c31d3e109fa36e49665c19a7aaebad581c7cc
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 41ed423349ff34f27a164b4d9c652571241b1afb
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769638"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776230"
 ---
 # <a name="customize-meeting-invitations"></a>Anpassen von Besprechungseinladungen
 
@@ -41,14 +41,14 @@ Als Administrator können Sie sicherstellen, dass alle Skype for Business-Bespre
     
 3. Speichern Sie das Bild an einem zentralen Speicherort, auf den jeder in Ihrem Unternehmen zugreifen kann, beispielsweise eine Netzwerkfreigabe, einen freigegebenen OneDrive for Business-Ordner, eine Dropbox usw.
     
-    Sie können Sie nun zu ihren Besprechungseinladungen hinzufügen. Lesen Sie die nächsten Schritte.
+    Jetzt können Sie es zu ihren Besprechungseinladungen hinzufügen. Fahren Sie mit den nächsten Schritten fort.
     
-## <a name="customize-your-meeting-invitations"></a>Anpassen der Besprechungseinladungen
+## <a name="customize-your-meeting-invitations"></a>Anpassen Ihrer Besprechungseinladungen
 <a name="__top"> </a>
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
     
 2. Wählen Sie im Admin Center die Option **Admin Center** > **Skype for Business**aus.
     

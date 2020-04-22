@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Zusammenfassung: Skype for Business Server 2015 oder Skype for Business Online Administratoren können diese Tabellen verwenden, um zu verstehen, welche Features auf welchen Clients unterstützt werden.'
-ms.openlocfilehash: 36583ab342daa68f87cffb8600fa54c1ce74d089
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c07955758f86e31eb947a99ce8ba0e8dc7a44b30
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013498"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777800"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Vergleich der Desktop Clientfeatures für Skype for Business Server 2015
 
@@ -77,7 +77,7 @@ In dieser Tabelle werden die Features im Zusammenhang mit der Verwaltung von Cha
 |Unternehmensadressbuch durchsuchen |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Microsoft Outlook-Kontakte durchsuchen |&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Kontaktgruppen verwalten |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|
-|Erweitern von Verteilergruppen und Office 365 Gruppen |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||
+|Erweitern von Verteilergruppen und Microsoft 365-Gruppen |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|||
 |Nach Reaktionsgruppen suchen  <br/> (nicht verfügbar in Skype for Business Online) |&#x2714;||&#x2714;||&#x2714;|&#x2714;||||
 |Gruppe "Letzte Kontakte" anzeigen |&#x2714;||&#x2714;||&#x2714;|&#x2714;||||
 |Gruppe "Aktuelle Unterhaltungen" anzeigen |&#x2714;|&#x2714;|&#x2714;||&#x2714;|&#x2714;|&#x2714;|||

@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 18476e043268d8b51fdf877b27e23eb926a1885e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 79b6e33c6434a1242b7d30322aff77b62f1b42fd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137785"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780214"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Häufig gestellte Fragen zur Microsoft Education-Governance für Administratoren
 
@@ -31,14 +31,14 @@ ms.locfileid: "43137785"
 
 ## <a name="how-do-i-control-team-creation-im-worried-students-are-going-to-create-inappropriate-teams"></a>Wie steuere ich die Teamerstellung? Ich mache mir Sorgen, dass Schüler unangemessene Teams erstellen.
 
-Um unangemessene oder irreführende Namen zu vermeiden oder einfach nur mehr Struktur für den Namen von Teams bereitzustellen, können Sie die Namensgebungsrichtlinie für Office 365-Gruppen verwenden (derzeit in Preview):
+Sie können die Benennungsrichtlinie für Microsoft 365-Gruppen verwenden, um unangemessene oder irreführende Namen zu vermeiden oder einfach nur eine größere Struktur für den Namen von Teams bereitzustellen:
 
 -   **Präfix-Suffix-Benennungsrichtlinie** Sie können Präfixe oder Suffixe verwenden, um die Benennungskonvention von Teams (Gruppen) zu definieren, beispielsweise **GRP_US_My Group_Engineering**. Bei den Präfixen und Suffixen kann es sich um feste Zeichenfolgen oder Benutzerattribute (wie **[Department]**) handeln, die dem Namen auf der Grundlage des Benutzers hinzugefügt werden, der das Team erstellt.
 -   **Benutzerdefinierte blockierte Wörter** Sie können eine Reihe von Wörtern hochladen, die für Benutzer in einer bestimmten Organisation in den Namen der von Ihnen erstellten Teams gesperrt sind. So können Sie beispielsweise verhindern, dass die Begriffe **CEO**, **Payroll**und **HR** in Teamnamen für Gruppen verwendet werden, auf die Sie nicht zutreffen.
 -   **Klassifizierung** Sie können Klassifizierungen erstellen, die die Benutzer in Ihrer Organisation festlegen können, wenn Sie eine Office 365-Gruppe erstellen. 
 
 > [!IMPORTANT]
-> Bei Verwendung der Office 365 Groups-Benennungsrichtlinie sind Azure Active Directory Premium P1-Lizenzen oder Azure AD Basic edu-Lizenzen für jeden eindeutigen Benutzer erforderlich, der Mitglied einer oder mehrerer Office 365-Gruppen ist.
+> Bei Verwendung der Microsoft 365 Groups-Benennungsrichtlinie sind Azure Active Directory Premium P1-Lizenzen oder Azure AD Basic edu-Lizenzen für jeden eindeutigen Benutzer erforderlich, der Mitglied einer oder mehrerer Microsoft 365-Gruppen ist.
 
 Ausführliche Anweisungen finden Sie unter [Benennungsrichtlinie für Office-Gruppen](https://support.office.com/article/office-365-groups-naming-policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
@@ -55,13 +55,13 @@ Generell empfehlen wir, Personen zu verhindern, die Teams erstellen. Wenn jeder 
 
 Nach unserer Erfahrung hilft die Benutzerschulung dabei, die Nutzung Verantwortlicher Teams zu gewährleisten. Sobald Benutzer verstehen, dass das Erstellen von Teams nicht anonym ist, verstehen Sie die Auswirkungen der sorglosen Erstellung und neigen dazu, die Verwendung des Tools zu scheuen.
 
-Wenn Sie sicher sind, dass Sie steuern möchten, wer Teams erstellen kann, lesen Sie [Verwalten von Personen, die Office 365-Gruppen erstellen können](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+Wenn Sie sicher sind, dass Sie steuern möchten, wer Teams erstellen kann, lesen Sie [verwalten, wer Microsoft 365-Gruppen erstellen kann](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 ## <a name="how-do-i-automatically-create-a-team-for-each-course-at-the-beginning-of-the-semester-or-quarter"></a>Wie erstelle ich automatisch für jeden Kurs zu Beginn des Semesters oder Quartals ein Team?
 
 Zu Beginn jedes Semesters oder Quartals benötigen Sie eine Reihe neuer Teams. Es ist möglicherweise sinnvoll, einen automatisierten Ansatz zum automatischen Erstellen dieser Teams zu nutzen, Sie mit den richtigen Benutzern zu füllen und die richtigen Berechtigungen zu definieren:
 
--   School Data Sync kann Office 365-Gruppen für Exchange Online und SharePoint Online, Klassen Teams für Microsoft Teams und OneNote-Kurs Notizbuch, Schulgruppen für InTune für Bildungszwecke sowie die Integration von Dienstplänen und einmaliger Anmeldung (SSO) für viele andere Anwendungen von Drittanbietern erstellen. Weitere Informationen finden Sie unter [Übersicht über School Data Sync](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync).
+-   School Data Sync kann Microsoft 365-Gruppen für Exchange Online und SharePoint Online, Klassen Teams für Microsoft Teams und OneNote-Kurs Notizbuch, Schulgruppen für InTune für Bildungszwecke sowie die Integration von Dienstplänen und einmaliges Anmelden (SSO) für viele andere Anwendungen von Drittanbietern erstellen. Weitere Informationen finden Sie unter [Übersicht über School Data Sync](https://docs.microsoft.com/schooldatasync/overview-of-school-data-sync).
 -   Mit PowerShell können Sie Teams und Kanäle erstellen und Einstellungen automatisch konfigurieren. Weitere Informationen finden Sie unter [Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
 -   Sie können die Microsoft Graph-API (derzeit in Beta) verwenden, um Teams zu erstellen, zu konfigurieren, zu klonen und zu archivieren. Weitere Informationen finden Sie unter [Verwenden der Microsoft Graph-API für die Zusammenarbeit mit Microsoft Teams](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) .
 
@@ -78,7 +78,7 @@ Wir empfehlen, dass Sie sich zunächst überlegen, wie Sie mit den Team Daten um
 -   **Archiv Team:** Mit dieser Einstellung werden die Teams in den schreibgeschützten Modus versetzt. Sie können weiterhin durchsucht und durchsucht werden, aber niemand kann neue Beiträge hinzufügen. [Archivieren oder Wiederherstellen eines Teams](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) beschreibt, wie Teambesitzer ein Team archivieren können. Teambesitzer können auch die [Graph-API (Beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) zum Archivieren oder Wiederherstellen eines Teams verwenden.
  
 > [!IMPORTANT]
-> Bei Verwendung der Office 365 Groups-Ablaufrichtlinie sind Azure Active Directory Premium P1-Lizenzen für jeden eindeutigen Benutzer erforderlich, der Mitglied einer oder mehrerer Office 365-Gruppen ist.
+> Bei Verwendung der Ablaufrichtlinie für Microsoft 365-Gruppen sind Azure Active Directory Premium P1-Lizenzen für jeden eindeutigen Benutzer erforderlich, der Mitglied einer oder mehrerer Microsoft 365-Gruppen ist.
 
 ## <a name="are-there-team-templates-for-my-faculty-members-to-use-when-creating-a-team"></a>Gibt es Teamvorlagen für meine Dozenten Mitglieder, die Sie beim Erstellen eines Teams verwenden können?
 
@@ -122,10 +122,10 @@ Weitere Informationen zu den Teamrichtlinien finden Sie unter [Verwalten von Mic
 Sie können den Gastzugriff verwenden, um Benutzer von außerhalb Ihres Mandanten einzuladen, was für Forschungszusammenarbeit oder Gastvorträge hilfreich sein kann:
 
 -   Verwenden Sie die Domänen-Whitelist, um Gäste basierend auf Ihrer Domäne zuzulassen oder zu blockieren.
--   Aktivieren und deaktivieren Sie den Gastzugriff für bestimmte Office 365-Gruppen und-Teams, um zu steuern, welche Teams Gäste einladen können (und können).
+-   Aktivieren und deaktivieren Sie den Gastzugriff für bestimmte Microsoft 365-Gruppen und-Teams, um zu steuern, welche Teams Gäste einladen können (und können).
 -   Verwenden Sie das Überwachungsprotokoll, um festzustellen, welche Benachrichtigungen an eingeladene Gäste gesendet wurden.
 
-Weitere Informationen finden Sie unter [Gastzugriff in Office 365-Gruppen](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage).
+Weitere Informationen finden Sie unter [Gastzugriff in Microsoft 365-Gruppen](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage).
 
 ## <a name="what-information-can-i-review-about-existing-teams"></a>Welche Informationen kann ich über vorhandene Teams überprüfen?
 

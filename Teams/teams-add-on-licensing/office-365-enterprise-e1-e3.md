@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Erfahren Sie mehr über Add-on-Lizenzen, Features und Anleitungen zum Kauf von Office 365 Enterprise E1-und E3-Plänen. '
-ms.openlocfilehash: 18a15c59b93fa0f426c780028b0029dd909abb2a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 0cc29a9cc353f9d0068aeb65b10179f4adfdc804
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42029366"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780494"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1- und E3
 
@@ -67,7 +67,7 @@ Der E3-Plan ist Teil Ihres Action Packs. So kaufen Sie die Add-Ons Telefonsystem
 
 In einigen Fällen wird die Option zum kaufen von Microsoft Teams-Add-ons im Microsoft 365 Admin Center nicht angezeigt:
 
-- **Sie haben Office 365 Business Premium über GoDaddy bezogen**. In diesem Fall können Sie keine Microsoft Teams-Add-ons kaufen. Sie müssen zum E3-Plan wechseln, den Sie dann kaufen können. [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Sie haben Microsoft 365 Business Standard über GoDaddy erworben**. In diesem Fall können Sie keine Microsoft Teams-Add-ons kaufen. Sie müssen zum E3-Plan wechseln, den Sie dann kaufen können. [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
 - **Sie verfügen über eine monatliche Verpflichtung, nicht über eine jährliche**. In einigen Fällen können Kunden mit einer monatlichen Verpflichtung die Add-Ons nicht kaufen (dies unterscheidet sich von der Zahlungsmethode, die monatlich sein kann). Dies ist ein bekanntes Problem, das wir beheben. [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

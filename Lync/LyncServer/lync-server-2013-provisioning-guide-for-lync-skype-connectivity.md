@@ -12,12 +12,12 @@ ms:contentKeyID: 57793363
 ms.date: 11/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76eb0ed3fbfffc3a30794f1cc8652090235ecc88
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6165310a32bbbc7ea13fc6663dfd4cf5ab791435
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42201732"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780074"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42201732"
 
 _**Letztes Änderungsstand des Themas:** 2014-11-26_
 
-Lync Server 2013 unterstützt die Konnektivität mit Skype. Diese Konnektivität ermöglicht es ihren lync 2013 Benutzern, Skype-Kontakte mithilfe des Microsoft-Kontos des Skype-Benutzers (MSA) hinzuzufügen. Skype-Clients können auch lync-Benutzer zu Ihrer Kontaktliste hinzufügen. Basierend auf Richtlinien, die in lync Server administrativ festgelegt sind, können lync-und Skype-Benutzer über Chatnachrichten kommunizieren, die Anwesenheit von einander anzeigen und Audio-und Videoanrufe initiieren. Die lync-Skype-Konnektivität ist auch ein Feature von lync Online und kann für lync Online Kunden aus der lync-Verwaltungskonsole innerhalb des Office 365-Portals aktiviert werden.
+Lync Server 2013 unterstützt die Konnektivität mit Skype. Diese Konnektivität ermöglicht es ihren lync 2013 Benutzern, Skype-Kontakte mithilfe des Microsoft-Kontos des Skype-Benutzers (MSA) hinzuzufügen. Skype-Clients können auch lync-Benutzer zu Ihrer Kontaktliste hinzufügen. Basierend auf Richtlinien, die in lync Server administrativ festgelegt sind, können lync-und Skype-Benutzer über Chatnachrichten kommunizieren, die Anwesenheit von einander anzeigen und Audio-und Videoanrufe initiieren. Die lync-Skype-Konnektivität ist auch ein Feature von lync Online und kann für lync Online Kunden aus der lync-Verwaltungskonsole im Microsoft 365 Admin Center aktiviert werden.
 
 <div>
 

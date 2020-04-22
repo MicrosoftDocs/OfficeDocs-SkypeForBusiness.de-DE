@@ -20,18 +20,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Informationen zum Erstellen und Verwalten von Wählplänen für Anrufe (PSTN-Wählpläne) und deren Verwaltung.
-ms.openlocfilehash: 6a5f46772ed8eebb309ba8bd9eaeca6fddb35afa
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+ms.openlocfilehash: 9c72745e6dee12ffbac4d91df47df37c327aab33
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160079"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778261"
 ---
 # <a name="create-and-manage-dial-plans"></a>Erstellen und Verwalten von Wählplänen
 
 Nachdem Sie die Wählpläne für Ihre Organisation geplant und alle Normalisierungsregeln herausgefunden haben, die für das Anrufrouting erstellt werden müssen, können Sie die Wählpläne erstellen. Sie können das Microsoft Teams Admin Center oder Windows PowerShell verwenden, um Wählpläne zu erstellen und zu verwalten.  
 
-## <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams admin Centers
+## <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
 ### <a name="create-a-dial-plan"></a>Erstellen eines Wählplans
 
@@ -87,7 +87,7 @@ Weitere Informationen finden Sie unter [Herstellen einer Verbindung mit allen Of
   
 1. Klicken Sie auf**Windows PowerShell** **starten** > .
     
-2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
+2. Stellen Sie im **Windows PowerShell** -Fenster eine Verbindung mit Ihrem Microsoft 365 oder Office 365 her, indem Sie Folgendes ausführen:
     
     > [!NOTE]
     > Sie müssen den Befehl **Import-Module** nur bei der ersten Verwendung des Windows PowerShell-Moduls für Skype for Business Online ausführen.

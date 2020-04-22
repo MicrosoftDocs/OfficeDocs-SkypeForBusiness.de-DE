@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Wählen Sie die Audiokonferenz-Telefonzentralen-Sprache für eine Audiokonferenznummer in Skype for Business Online.
-ms.openlocfilehash: 22c3ad1d2386dec07060548cd055a5d289db4364
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 34ed4ccee5239923f68b089ce14551fe43c32320
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680382"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776800"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Automatische Telefonzentralen-Spracheinstellung für Audiokonferenzen in Skype for Business Online
 
@@ -45,7 +45,7 @@ Choose one primary language and up to four secondary languages. The primary lang
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Legen Sie die Sprachen für die automatische Telefonzentrale fest
 
-Sie müssen ein [globaler Office 365-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) oder [Skype for Business-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) zum Ausführen dieses Schritts sein.
+Sie müssen ein [globaler Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) oder ein [Skype for Business-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) sein, um diesen Schritt ausführen zu können.
     
 1. Wechseln Sie im **Skype for Business Admin Center**im linken Navigationsbereich zu **Legacy Portal**. Wählen Sie im Legacy Portal **Audio Conferencing**aus, und klicken Sie dann auf **Microsoft Bridge**.
     

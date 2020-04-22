@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen mit Exchange Online.
-ms.openlocfilehash: d909174712ba27efdc5e4c5427c51c67049b8e92
-ms.sourcegitcommit: 543f650ad4aff73bccfe7a60b66fb944b4e3c119
+ms.openlocfilehash: fbf1057539f15d6de702909a1571c9e11fdf5de3
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42572883"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780554"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange online
 
@@ -101,7 +101,7 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
      ``` -->
 
 2. Das Benutzerkonto muss über eine gültige Office 365-Lizenz verfügen, um sicherzustellen, dass Exchange und Skype for Business Server funktionieren. Wenn Sie über die Lizenz verfügen, müssen Sie Ihrem Benutzerkonto einen Verwendungsstandort zuweisen, um festzustellen, welche Lizenz-SKUs für Ihr Konto verfügbar sind. Sie führen die Aufgabe in einem der folgenden Schritte aus.
-3. Verwenden Sie als nächstes`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> , um eine Liste der verfügbaren SKUs für Ihren Office 365-Mandanten abzurufen.
+3. Verwenden Sie als nächstes`Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> , um eine Liste der verfügbaren SKUs für Ihre Office 365-Organisation abzurufen.
 4. Nachdem Sie die SKUs aufgelistet haben, können Sie eine Lizenz mit dem`Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> Cmdlet. In diesem Fall entspricht „$strLicense“ dem angezeigten SKU-Code (zum Beispiel „contoso:STANDARDPACK“). 
 
     ```PowerShell
@@ -159,10 +159,10 @@ Zur Überprüfung sollten Sie in der Lage sein, sich mit einem Skype for Busines
 
 [Konfigurieren von Konten für Microsoft Teams-Chatrooms](rooms-configure-accounts.md)
 
-[Planen von Microsoft Teams-Räumen](rooms-plan.md)
+[Plan für Microsoft Teams-Räume](rooms-plan.md)
   
-[Bereitstellen von Microsoft Teams-Räumen](rooms-deploy.md)
+[Bereitstellen von Microsoft Teams-Räume](rooms-deploy.md)
   
-[Konfigurieren einer Microsoft Teams rooms-Konsole](console.md)
+[Konfigurieren einer Konsole für Microsoft Teams-Räume](console.md)
   
-[Microsoft Teams Rooms verwalten](rooms-manage.md)
+[Microsoft Teams-Räume verwalten](rooms-manage.md)

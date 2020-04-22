@@ -16,12 +16,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2c918a8276be2eeab0a125a1661b70b42c6b069
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 17ece37fded1d7b0743f3eeb66a300021f568c44
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43097000"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779782"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Aufbewahrungsrichtlinien in Microsoft Teams
 
@@ -29,7 +29,7 @@ Die Aufbewahrungsrichtlinien helfen Ihnen, die Informationen in Ihrer Organisati
 
 Standardmäßig werden die Chat-, Kanal- und Dateiendaten für Teams für immer aufbewahrt. Als Administrator können Sie die Aufbewahrungsrichtlinien für Teams für Chat- und Kanalnachrichten einrichten und proaktiv festlegen, ob die Daten beibehalten, gelöscht oder für einen bestimmten Zeitraum aufbewahrt und dann gelöscht werden sollen.
 
-Sie erstellen und verwalten Aufbewahrungsrichtlinien für Teams und andere Arbeitslasten im [Office 365 Security & Compliance Center](https://protection.office.com/) oder mithilfe der Security & Compliance Center PowerShell-cmdlets. Sie können eine Aufbewahrungsrichtlinie für Teams auf Ihre gesamte Organisation oder bestimmte Benutzer und Teams anwenden.
+Sie erstellen und verwalten Aufbewahrungsrichtlinien für Teams und andere Arbeitslasten im [Microsoft 365 Compliance Center](https://protection.office.com/) oder mithilfe der PowerShell-Cmdlets für Security & Compliance Center. Sie können eine Aufbewahrungsrichtlinie für Teams auf Ihre gesamte Organisation oder bestimmte Benutzer und Teams anwenden.
 
 > [!NOTE]
 > Wir unterstützen noch keine Konfiguration für die Aufbewahrung privater Kanal Nachrichten. Die Aufbewahrung von Dateien, die in privaten Kanälen freigegeben sind, wird unterstützt.
@@ -123,7 +123,7 @@ Gehen Sie wie folgt vor, um eine Aufbewahrungsrichtlinie für Teams-Chats und -K
         ![Screenshot der „Teams-Kanalnachrichten“- und „Teams-Chats“-Optionen auf der Seite "Speicherorte auswählen"](media/retention-policies-create.png)
 
       > [!IMPORTANT]
-      > Aufbewahrungsrichtlinien, die auf Benutzer- oder Gruppenpostfächer in den Speicherorten von **Exchange-E-Mail** oder **Office 365-Gruppen** angewendet wurden, wirken sich nicht auf Microsoft Teams-Chats und -Kanalnachrichten aus. Auch wenn Microsoft Teams-Chats und -Kanalnachrichten in Exchange gespeichert werden, sind sie nur von Aufbewahrungsrichtlinien betroffen, die auf die Teams-Speicherorte angewendet werden.
+      > Teams-Chats und Kanal Nachrichten sind nicht von Aufbewahrungsrichtlinien betroffen, die auf Benutzer-oder Gruppen Postfächer in den **Exchange-e-Mail-** oder **Microsoft 365-Gruppen** Speicherorten angewendet werden. Auch wenn Microsoft Teams-Chats und -Kanalnachrichten in Exchange gespeichert werden, sind sie nur von Aufbewahrungsrichtlinien betroffen, die auf die Teams-Speicherorte angewendet werden.
 
 6. Überprüfen Sie Ihre-Einstellungen und, wenn Sie bereit sind, wählen Sie **Diese Richtlinie erstellen** aus.
 
@@ -160,7 +160,7 @@ Verwenden Sie die folgenden Cmdlets, um die Aufbewahrungsrichtlinien für Teams 
 
 Im Folgenden werden bekannte Probleme bei Aufbewahrungsrichtlinien in Teams dargestellt, die nachverfolgt und untersucht werden.
 
-- Unter **Teams auswählen** in der Speicherortzeile für **Teams-Kanalnachrichten** können Sie Office 365-Gruppen sehen, die nicht auch Teams sind. Dieses Problem wird in der Zukunft behoben.
+- Unter **"Teams auswählen"** in der Zeile " **Channel-Nachrichten für Teams** " werden möglicherweise Microsoft 365-Gruppen angezeigt, die nicht auch Teams sind. Dieses Problem wird in der Zukunft behoben.
 
 - Unter **Benutzer**in der Speicherortzeile für **Teams-Chats** werden möglicherweise Gäste und Nicht-Postfachbenutzer angezeigt. Aufbewahrungsrichtlinien sollten nicht für Gäste eingerichtet werden, und wir arbeiten daran, diese aus der Liste zu entfernen.
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Sie erfahren, wie Sie Skype for Business-Sofortnachrichten senden können, auch wenn Ihre Kontakte nicht mit PowerShell angemeldet sind.
-ms.openlocfilehash: 2b9cea6e7a4bcb3f7fc34bdf67e77353412d9e13
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 03e92118fd915582030b5259654664121ca96c50
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706310"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777140"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Offline-Nachrichten für Administratoren ein- oder ausschalten
 
@@ -62,7 +62,7 @@ Weitere Informationen finden Sie unter [Verbinden mit allen Office 365-Diensten 
 
 1. Vom **Start Menu** > **Windows PowerShell**.
 
-2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
+2. Stellen Sie im **Windows PowerShell** -Fenster eine Verbindung mit Ihrem Microsoft 365 oder Office 365 her, indem Sie Folgendes ausführen:
 
     > [!NOTE]
     > Sie müssen den Befehl **Import-Module** nur bei der ersten Verwendung des Windows PowerShell-Moduls für Skype for Business Online ausführen.

@@ -1,5 +1,5 @@
 ---
-title: Code für die Reklamationsbehandlung in Großbritannien -Office 365-Anrufpläne
+title: Code für die Reklamationsbehandlung in Großbritannien -Microsoft 365-Anrufpläne
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,16 +23,16 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: Sie können eine Beschwerde für Skype for Business-Anrufdienste (PSTN-Anrufe in Großbritannien), Zeitpläne für Antworten und die Lösung von Streitigkeiten wegen ungelöster Beschwerden einreichen.
-ms.openlocfilehash: 6bebf983d19461485f7f381c300fc6e5b3611b6b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 75ee19a237f669bf52ce354f325275f859180dd0
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137285"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780274"
 ---
-# <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Anrufpläne in Office 365 – Kodex für die Behandlung von Beschwerden für das Vereinigte Königreich
+# <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Anrufpläne in Microsoft 365 – Code zur Behandlung von Beschwerden für das Vereinigte Königreich (Großbritannien)
 
-Dieser Code bezieht sich auf kleine Unternehmen (Organisationen mit 10 Mitarbeitern oder kleiner) im Vereinigten Königreich (UK) im Hinblick auf den Office 365-Anruf Plan Dienst (den "Dienst") in Übereinstimmung mit den britischen Kommunikationsrichtlinien. Andere Skype for Business-Dienste unterliegen Ihrem Servicevertrag mit Microsoft sowie allen anderen Bedingungen, die für die Nutzung des jeweiligen Service gelten.
+Dieser Code bezieht sich auf kleine Unternehmen (Organisationen mit 10 Mitarbeitern oder kleiner) im Vereinigten Königreich (UK) im Hinblick auf den Microsoft 365-Anruf Plan Dienst (den "Dienst") in Übereinstimmung mit den britischen Kommunikationsrichtlinien. Andere Skype for Business-Dienste unterliegen Ihrem Servicevertrag mit Microsoft sowie allen anderen Bedingungen, die für die Nutzung des jeweiligen Service gelten.
 
 ## <a name="how-to-make-a-complaint"></a>So erstellen Sie eine Beanstandung
 

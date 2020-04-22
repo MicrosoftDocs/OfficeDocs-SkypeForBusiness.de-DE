@@ -19,12 +19,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: c3d292eecb6173f98a2e95dbbd5a1097f5f785eb
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: a9fffea969ea1448bdf8f2a076dbef6756765e20
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836755"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780024"
 ---
 <a name="use-the-network-testing-companion"></a>Verwenden des Netzwerktest-Begleiters
 =================================
@@ -34,7 +34,7 @@ Der [Netzwerktest-Companion](https://www.powershellgallery.com/packages/NetworkT
 Sie können dieses Tool in der Planungsphase einer Skype for Business-oder Microsoft Teams-Bereitstellung verwenden. Wenn Sie derzeit Teams oder Skype for Business Online verwenden, können Sie dieses Tool verwenden, um Probleme mit der Sprachqualität zu beheben oder einfach Ihre Netzwerkverbindung zu überprüfen, bevor Sie einen Anruf tätigen oder nachdem Sie eine schlechte Qualität erfahren haben.
 
 > [!NOTE]
-> Sie benötigen kein Office 365-Abonnement, um den Netzwerktest-Assistenten herunterzuladen und zu installieren.
+> Sie benötigen kein Microsoft 365-oder Office 365-Abonnement, um den Netzwerktest-Assistenten herunterzuladen und zu installieren.
 
 ## <a name="download-the-tool-and-documentation"></a>Herunterladen des Tools und der Dokumentation
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5244bd063caae9b0fab1411f4644e3adbd337431
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: e7e8effb58130a177e193db006ec6e0279f27309
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706995"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780594"
 ---
 # <a name="enlist-your-project-stakeholders"></a>Ernennen der Projektbeteiligten
 
@@ -61,7 +61,7 @@ Optional können Sie ein Lenkungskomitee erstellen. Manchmal sind große oder ko
 | Telefonieleiter | Bietet Einblicke in das Telefonie-Design und die Implementierung |
 | Service Besitzer/Quality Champion | Besitzt den Betrieb von Teams, einschließlich der Qualität der Benutzererfahrung |
 | Blei für Desktops und Geräte | Bereitstellen von Eingaben in Clients, Geräten und Desktop-Apps |
-| IT pro/mandantenadministrator | Stellt sicher, dass die Netzwerk Bereitschaft und die Office 365-Portal Konfigurationen vorhanden sind. |
+| IT pro/mandantenadministrator | Stellt sicher, dass die Netzwerk Bereitschaft und die Microsoft 365 Admin Center-Konfigurationen vorhanden sind. |
 | Support-/Helpdeskleiter | Verwaltung der Bereitschaft Ihres Support Desks |
 | Lead für Change Management | Beaufsichtigt das Programm zur Verwaltung und Einführung von Benutzer Änderungen |
 | Marketing Lead | Entwerfen und Implementieren von Kommunikationskampagnen |

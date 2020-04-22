@@ -1,5 +1,5 @@
 ---
-title: Office 365-Gruppen und Microsoft Teams
+title: Microsoft 365-Gruppen und Microsoft Teams
 ms.reviewer: phlouie
 author: LolaJacobsen
 ms.author: lolaj
@@ -8,7 +8,7 @@ ms.date: 04/16/2019
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
-description: Erfahren Sie, wie Office 365-Gruppen und -Gruppenmitgliedschaften mit Microsoft Teams funktionieren.
+description: Erfahren Sie, wie Microsoft 365-Gruppen und Gruppenmitgliedschaften mit Microsoft Teams zusammenarbeiten.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,32 +18,32 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a0daed292ccccb85c5231242161c75e8cb60949c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1a922853bebef0286d03d65e1b714c35b9be48d5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136495"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778581"
 ---
-<a name="office-365-groups-and-microsoft-teams"></a>Office 365-Gruppen und Microsoft Teams
+<a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365-Gruppen und Microsoft Teams
 =====================================
 
 > [!Tip]
-> Erfahren Sie in der folgenden Sitzung, wie Teams mit Azure Active Directory (Azure AD), Office 365-Gruppen, Exchange, SharePoint und OneDrive for Business interagiert: [Microsoft Teams – Grundlagen](https://aka.ms/teams-foundations)
+> Schauen Sie sich die folgende Sitzung an, um zu erfahren, wie Teams mit Azure Active Directory (Azure AD), Microsoft 365 Groups, Exchange, SharePoint und OneDrive for Business interagieren: [Grundlagen von Microsoft Teams](https://aka.ms/teams-foundations)
 
-Bei Office 365-Gruppen handelt es sich um den anwendungsübergreifenden Mitgliedschaftsdienst in Office 365. Grundsätzlich ist eine Office 365-Gruppe ein Objekt in Azure Active Directory mit einer Liste von Mitgliedern und einer losen Kopplung zu verwandten Workloads. Dazu zählen eine SharePoint-Teamwebsite, eine Yammer-Gruppe, freigegebene Exchange-Postfachressourcen, Planner, Power BI und OneNote. Sie können Personen zur Gruppe hinzufügen oder daraus entfernen, genau so, wie Sie es mit anderen gruppenbasierten Sicherheitsobjekten in Active Directory tun würden.
+Microsoft 365 Groups ist der Anwendungsübergreifende Mitgliedschaftsdienst in Office 365. Grundsätzlich ist eine Office 365-Gruppe ein Objekt in Azure Active Directory mit einer Liste von Mitgliedern und einer losen Kopplung zu verwandten Workloads. Dazu zählen eine SharePoint-Teamwebsite, eine Yammer-Gruppe, freigegebene Exchange-Postfachressourcen, Planner, Power BI und OneNote. Sie können Personen zur Gruppe hinzufügen oder daraus entfernen, genau so, wie Sie es mit anderen gruppenbasierten Sicherheitsobjekten in Active Directory tun würden.
 
-Ein Office 365-Administrator kann eine Office 365-Gruppe definieren, Mitglieder hinzufügen und die Vorteile von Funktionen nutzen, wie zum Beispiel das freigegebene Exchange-Postfach, die SharePoint-Dokumentbibliothek, die Yammer-Gruppe usw. Näheres über Office 365-Gruppen finden Sie unter [Weitere Informationen zu Office 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Ein Office 365-Administrator kann eine Office 365-Gruppe definieren, Mitglieder hinzufügen und die Vorteile von Funktionen nutzen, wie zum Beispiel das freigegebene Exchange-Postfach, die SharePoint-Dokumentbibliothek, die Yammer-Gruppe usw. Weitere Informationen zu Microsoft 365-Gruppen finden Sie unter Informationen [zu Microsoft 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 Das Poster [Gruppen in Microsoft 365 für IT-Architekten](teams-architecture-solutions-posters.md#groups-in-microsoft-365) dürfte Sie ebenfalls interessieren.
 
-<a name="how-office-365-groups-work"></a>Funktionsweise von Office 365-Gruppen
+<a name="how-microsoft-365-groups-work"></a>Funktionsweise von Microsoft 365-Gruppen
 --------------------------
 
 Wenn Sie ein Team erstellen, erstellen Sie im Back-End eine Office 365-Gruppe und die zugehörige SharePoint-Dokumentbibliothek und das OneNote-Notizbuch sowie Verbindungen zu anderen Office 365-Cloud-Anwendungen. Wenn die Person, die das Team erstellt, Besitzer einer bestehenden öffentlichen oder privaten Office 365-Gruppe ist, kann sie dieser Gruppe Teams-Funktionen hinzufügen, sofern sie weniger als 5000 Personen umfasst und noch nie zu Microsoft Teams hinzugefügt wurde. Dadurch wird ein **Allgemein**-Standardkanal erstellt, in dem sich Chatnachrichten, Dokumente, OneNote und andere Objekte befinden. Wenn Sie die Dokumentbibliothek für den Kanal anzeigen, wird der **Allgemein**- Ordner angezeigt, der den Kanal im Team darstellt. Noch wichtiger ist: Wenn Sie eine eigene Ordnerstruktur in einer Dokumentbibliothek erstellen, **wird diese nicht als Kanal an Teams weitergegeben**. Gegenwärtig ist die Flussrichtung ausschließlich von Teams zu SharePoint.
 
 > [!NOTE]
-> Aufgrund von Kundenfeedback werden neue Office 365-Gruppen, die bei der Erstellung eines Teams in Microsoft Teams generiert werden, nicht mehr standardmäßig in Outlook angezeigt. Für Kunden, die das bisherige Verhalten (Anzeigen dieser Gruppen in Outlook) bevorzugen, wird ein Exchange Online PowerShell-Cmdlet bereitgestellt, mit dem sie Gruppen für Outlook aktivieren können. Gruppen, die über Outlook erstellt und dann später für Microsoft Teams aktiviert wurden, werden weiterhin in Outlook und in Microsoft Teams angezeigt. Dieses Update wird in den nächsten Monaten schrittweise in Outlook und Microsoft Teams eingeführt.
+> Auf der Grundlage des Kundenfeedbacks werden die neuen Microsoft 365-Gruppen, die als Ergebnis des Erstellens eines Teams in Microsoft Teams erstellt wurden, nicht mehr in Outlook standardmäßig angezeigt. Für Kunden, die das bisherige Verhalten (Anzeigen dieser Gruppen in Outlook) bevorzugen, wird ein Exchange Online PowerShell-Cmdlet bereitgestellt, mit dem sie Gruppen für Outlook aktivieren können. Gruppen, die über Outlook erstellt und dann später für Microsoft Teams aktiviert wurden, werden weiterhin in Outlook und in Microsoft Teams angezeigt. Dieses Update wird in den nächsten Monaten schrittweise in Outlook und Microsoft Teams eingeführt.
 
 > [!NOTE]
 > Beim Löschen einer Office 365-Gruppe wird der Postfachalias für beständige Outlook/OWA-Unterhaltungen und Teams-Besprechungseinladungen entfernt, und die SharePoint-Website wird als löschbar gekennzeichnet. Es dauert ungefähr 20 Minuten, bis sich die Entfernung eines Teams auf Outlook auswirkt. Durch das Löschen eines Teams vom Teams-Client wird dieses sofort für alle Mitglieder des Teams ausgeblendet. Wenn Sie Mitglieder einer Office 365-Gruppe entfernen, in der Teams-Funktionen aktiviert sind, kann es zu einer Verzögerung von ca. zwei Stunden kommen, bevor das Team für die Personen, die entfernt wurden, im Teams-Client ausgeblendet wird.

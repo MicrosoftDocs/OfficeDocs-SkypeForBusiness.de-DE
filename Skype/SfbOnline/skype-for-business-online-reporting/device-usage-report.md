@@ -19,13 +19,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - O365E_ReportsS4BClients
-description: Im neuen Office 365-Dashboard Berichte wird eine Aktivitätsübersicht über die Office 365-Produkte in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. So können Sie beispielsweise den Bericht Skype for Business-Gerätenutzung verwenden, um die Geräte anzuzeigen, einschließlich Windows-basierten Betriebssystemen und mobilen Geräten, auf denen die Skype for Business-App installiert ist und die für Chats und Besprechungen verwendet wird. Schauen Sie sich die Aktivitätsberichte im Admin Center an, um weitere Informationen zu erhalten.
-ms.openlocfilehash: 52503a90b2474460347effb676247fc3ffed9919
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+description: Das neue Dashboard für Microsoft 365-Berichte zeigt die Vorgangsübersicht über die Office 365-Produkte in Ihrer Organisation. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. So können Sie beispielsweise den Bericht Skype for Business-Gerätenutzung verwenden, um die Geräte anzuzeigen, einschließlich Windows-basierten Betriebssystemen und mobilen Geräten, auf denen die Skype for Business-App installiert ist und die für Chats und Besprechungen verwendet wird. Schauen Sie sich die Aktivitätsberichte im Admin Center an, um weitere Informationen zu erhalten.
+ms.openlocfilehash: 9d12938fdbc495e1d95b8ed26500185f09f2b01b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769398"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776300"
 ---
 # <a name="device-usage-report"></a>Bericht „Gerätenutzung“
 
@@ -40,13 +40,13 @@ Dieser Bericht enthält zusammen mit den anderen Skype for Business-Berichten In
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>So gelangen Sie zum Skype for Business-Geräte Nutzungsbericht
 
-1. Wechseln Sie zum Admin Center #a0 **Berichte** > **Verwendung**.
+1. Wechseln Sie zum Admin Center > **Berichte** > **Verwendung**.
     
 2. Klicken Sie auf der Seite **Nutzung** in der **Liste Bericht auswählen** Links auf die **Verwendung von Skype for Business-Geräten** . Oder klicken Sie auf das **Skype for Business-Aktivitäts** Widget und dann in der **Skype for** Business-Aktivitätsliste auf die Verwendung von **Skype for Business-Geräten** .
     
      ![Skype for Business-Geräte Verwendungsbericht (Widget)](../images/13e7a51c-f680-4164-9a18-67de10fceb7f.png)
   
-    Je nach vorhandenem Office 365-Abonnement sehen Sie möglicherweise nicht alle Produkte und Aktivitätsberichte, die hier angezeigt werden.
+    Je nach dem von Ihnen verwendeten Microsoft 365-oder Office 365-Abonnement werden möglicherweise nicht alle hier gezeigten Produkte und Aktivitätsberichte angezeigt.
     
 ## <a name="interpret-the-skype-for-business-device-usage-report"></a>Interpretieren des Berichts zur Verwendung von Skype for Business-Geräten
 

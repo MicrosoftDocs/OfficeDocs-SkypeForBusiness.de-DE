@@ -12,12 +12,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 035d5c95452eebc48f81198fef5cbdf9d95732e0
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 82e66cf65d8aa29e476e759bd1f09ccbbf7b61f5
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42217491"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +57,7 @@ In den folgenden Tabellen werden die Features und Funktionen zwischen lync 2013 
 
   - Archivierung und Kompatibilität
 
-Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Bereitstellung von lync Server 2013 zur Verfügung stehen. Die gleichen Funktionen stehen auch Skype for Business Online-und Microsoft Office 365-Benutzern zur Verfügung, sofern in den Tabellen Fußnoten nichts anderes angegeben ist.
+Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Bereitstellung von lync Server 2013 zur Verfügung stehen. Die gleichen Funktionen stehen auch Skype for Business Online-und Microsoft 365-oder Office 365-Benutzern zur Verfügung, sofern in den Tabellen Fußnoten nichts anderes angegeben ist.
 
 <div>
 
@@ -412,7 +412,7 @@ Auf iPhone und iPad meldet sich lync automatisch an, wenn der Benutzer die Anwen
 </table>
 
 
-1 nicht verfügbar für Skype for Business Online und/oder Office 365 Benutzer.
+1 nicht verfügbar für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer.
 
 </div>
 
@@ -757,11 +757,11 @@ Auf iPhone und iPad meldet sich lync automatisch an, wenn der Benutzer die Anwen
 </table>
 
 
-1 für Office 365 Benutzer ist diese Funktion nur für in der AKP-Sprache aktivierte Konferenzen verfügbar.
+1 für Microsoft 365-oder Office 365-Benutzer ist diese Funktion nur für nur-ACP-fähige Besprechungen verfügbar.
 
-2 nicht verfügbar für Office 365 Benutzer.
+2 nicht verfügbar für Microsoft 365-oder Office 365-Benutzer.
 
-3 für Skype for Business Online-und/oder Office 365-Benutzer ist diese Funktion bei Audiokonferenz-Anbietern von Drittanbietern verfügbar.
+3 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer ist diese Funktion bei Audiokonferenz-Anbietern von Drittanbietern verfügbar.
 
 4a PowerPoint-Präsentation, die von lync Web App gemeinsam genutzt wird, kann nicht von lync Mobile 2013 angezeigt werden. Auf lync 2013-Desktop Clients vorgenommene Anmerkungen sind auf mobilen Geräten nicht sichtbar.
 
@@ -894,11 +894,11 @@ Auf iPhone und iPad meldet sich lync automatisch an, wenn der Benutzer die Anwen
 
 1 lync Server 2013, Skype for Business Online und Office 365 Benutzer können andere lync-Benutzer und Skype-Benutzer aufrufen, indem Sie auf das Symbol tippen. Lync Server 2013 Benutzer können auch PSTN-Anrufe tätigen, indem Sie auf das Symbol tippen.
 
-2 für lokale lync Server 2013 Benutzer auf Windows Phone-, iPhone-und iPad-Geräten tippt der Benutzer auf das Anrufsymbol in der Visitenkarte und akzeptiert den Rückruf von lync Server 2013. Für Office 365 Benutzer auf Windows Phone-, iPhone-und iPad-Geräten wird ein Dialogfeld geöffnet, in dem der Benutzer aufgefordert wird, zu bestätigen, dass er die Nummer anrufen möchte, wenn der Benutzer auf die Anruf Schaltfläche tippt.
+2 für lokale lync Server 2013 Benutzer auf Windows Phone-, iPhone-und iPad-Geräten tippt der Benutzer auf das Anrufsymbol in der Visitenkarte und akzeptiert den Rückruf von lync Server 2013. Für Microsoft 365 oder Office 365 Benutzer auf Windows Phone-, iPhone-und iPad-Geräten wird beim Tippen auf die Anruf Schaltfläche ein Dialogfeld geöffnet, in dem der Benutzer aufgefordert wird, zu bestätigen, dass er die Nummer anrufen möchte.
 
-3 nicht verfügbar für Skype for Business Online und/oder Office 365 Benutzer.
+3 nicht verfügbar für Skype for Business Online und/oder Microsoft 365 oder Office 365 Benutzer.
 
-4 für Skype for Business Online-und/oder Office 365-Benutzer wird dieses Feature von Microsoft-Partnern unterstützt.
+4 für Skype for Business Online und/oder Microsoft 365 oder Office 365 Benutzer wird dieses Feature von Microsoft-Partnern unterstützt.
 
 </div>
 

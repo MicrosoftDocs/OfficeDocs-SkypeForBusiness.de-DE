@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: "Learn about add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
-ms.openlocfilehash: 94a5adc1e9f9abf5529aaf5b149d9cfc906efbe8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3488ec2239ba99b2bfe6efa97ed162804f4aa1e6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010568"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777550"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Lizenzierung des Skype for Business-Add-Ons
 
@@ -69,8 +69,8 @@ Need to talk to someone about all the add-on options? [Contact support for busin
 
 The add-on licensing options available to you depends on your Office 365 or Skype for Business plan. See the following topics for information, features, and options that are specific to your plan.
 
-- [Office 365 Business Premium](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
-- [Office 365 Premium, Office 365 ProPlus oder Skype for Business Online Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
+- [Microsoft 365 Business Standard](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-business-premium-plan.md)
+- [Office 365 Premium, Microsoft 365-Apps für Unternehmen oder Skype for Business Online Plan 2](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-premium-pro-plus-or-business-online-plan.md)
 - [Office 365 Enterprise E1, E3 und E4](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e1-e3-e4.md)
 - [Office 365 Enterprise E5](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (ohne Audiokonferenz)](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-without-audio-conferencing.md)
@@ -104,10 +104,10 @@ Umfassende Dokumentation zur Planung Ihrer Bereitstellung, einschließlich Telef
 
 - [Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
     
-- [Einrichten von Cloudvoicemail – Admin-Hilfe](/microsoftteams/set-up-phone-system-voicemail)
+- [Einrichten von Cloud-Voicemail – Administratorhilfe](/microsoftteams/set-up-phone-system-voicemail)
     
 - [Einrichten von Anrufplänen](/microsoftteams/set-up-calling-plans) und [Anrufpläne für Office 365](/MicrosoftTeams/calling-plans-for-office-365)
     
-- [Hinzufügen von Geld und Verwalten von Guthaben für Kommunikationen](/microsoftteams/add-funds-and-manage-communications-credits)
+- [Hinzufügen und Verwalten von Guthaben für Kommunikationen](/microsoftteams/add-funds-and-manage-communications-credits)
     
 - [Konfigurieren des Cloud-Connectors](https://technet.microsoft.com/library/mt605228.aspx) und [herunterladen des Cloud-Connectors](https://aka.ms/CloudConnectorInstaller)

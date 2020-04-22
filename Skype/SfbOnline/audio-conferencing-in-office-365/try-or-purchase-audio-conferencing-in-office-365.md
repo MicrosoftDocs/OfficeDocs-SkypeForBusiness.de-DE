@@ -1,5 +1,5 @@
 ---
-title: Testen oder kaufen von Audiokonferenzen in Office 365 für Skype for Business Online
+title: Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365 für Skype for Business Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,14 +21,14 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich über das Testen oder erwerben von Lizenzen für Audiokonferenz (PSTN-Konferenz) für Office 365 zum Einrichten von Telefonkonferenzen, in die Personen sich einwählen können. '
-ms.openlocfilehash: d2ae202cbed7c59876ea04c9d3a5760d6495898d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: d5afdc88b4d3c891b66ef3d4fce3860a648db488
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010958"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776770"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Testen oder kaufen von Audiokonferenzen in Office 365 für Skype for Business Online
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365 für Skype for Business Online
 
 > [!Note]
 > Informationen zu Audiokonferenzen in Microsoft-Teams finden Sie unter [Testen oder erwerben Audiokonferenzen in Office 365 für Skype für Microsoft-Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams).

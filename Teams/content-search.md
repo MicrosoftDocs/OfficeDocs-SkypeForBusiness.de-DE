@@ -17,12 +17,12 @@ ms.custom: seo-marvel-mar2020
 description: Informieren Sie sich über die Verwendung der Inhaltssuche in Microsoft Teams, um Microsoft Teams-Informationen aus Exchange, SharePoint Online, OneDrive for Business und OneNote abzufragen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af81b857d6cf60f7de1a1b1e199d08ede089de5f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 93f566590baedc77a4d15eca96569cc85ce54f0b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137745"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776450"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Verwenden der Inhaltssuche in Microsoft Teams
 =====================================
@@ -92,4 +92,4 @@ Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass die [neueste Versi
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [eDiscovery-Fälle im Office 365 Security & Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 
+- [eDiscovery-Fälle im Microsoft 365 Compliance Center](https://docs.microsoft.com/Office365/SecurityCompliance/ediscovery-cases) 

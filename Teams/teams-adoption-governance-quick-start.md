@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1dfd82cc10f90616dcdd557e9d1d70f36a9ae1f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2a8c154a0e3f1366327b37b22531541fde288db2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837815"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780484"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Schnellstart von Governance für Microsoft Teams
 
@@ -36,7 +36,7 @@ Die folgenden Aktivitäten werden gleichzeitig ausgeführt, und Sie können die 
 
 Weitere Informationen finden Sie unter [Planen der Governance in Teams](plan-teams-governance.md) und [Planen der Lebenszyklusverwaltung in Teams](plan-teams-lifecycle.md).
 
-## <a name="an-icon-representing-a-decision-pointmediateams-adoption-decision-iconpngdecisions"></a>![Ein Symbol, das einen Entscheidungspunkt darstellt](media/teams-adoption-decision-icon.png)Entscheidungen
+## <a name="an-icon-representing-a-decision-pointdecisions"></a>![Ein Symbol, das einen Entscheidungspunkt darstellt](media/teams-adoption-decision-icon.png)Entscheidungen
 
 Treffen Sie die folgenden Entscheidungen (zu diesem Zeitpunkt gelten diese Entscheidungen nur für Phase 2):
 
@@ -62,7 +62,7 @@ Die Besprechungs Erfahrung von Teams ist von hoher Qualität, unterstützt Video
 
 ### <a name="decision-6--data-security"></a>Entscheidung 6: Datensicherheit
 
-In Vorbereitung für Ihre umfassende Bereitstellung können Sie Sicherheits Beschriftungen verwenden, um die Typen von Teams in Ihrer Umgebung zu klassifizieren. Für dieses Experiment empfehlen wir, dass Sie auf [Plan for Governance in Teams](plan-teams-governance.md) verweisen und sicherstellen, dass eine grundlegende Aufbewahrungsrichtlinie für Teams-Daten in Ihrer Office 365-Organisation festgesetzt wurde. Möglicherweise müssen Sie diese Arbeit mit Ihrem technischen Team koordinieren, da Office 365-Administratorrechte erforderlich sind, um diese Arbeit abzuschließen.
+In Vorbereitung für Ihre umfassende Bereitstellung können Sie Sicherheits Beschriftungen verwenden, um die Typen von Teams in Ihrer Umgebung zu klassifizieren. Für dieses Experiment empfehlen wir, dass Sie auf [Plan for Governance in Teams](plan-teams-governance.md) verweisen und sicherstellen, dass eine grundlegende Aufbewahrungsrichtlinie für Teams-Daten in Microsoft 365 oder Office 365 festgesetzt wurde. Möglicherweise müssen Sie diese Arbeit mit Ihrem technischen Team koordinieren, da Office 365-Administratorrechte erforderlich sind, um diese Arbeit abzuschließen.
 
 ### <a name="decision-7-length-of-your-experiment"></a>Entscheidung 7: Dauer des Experiments
 

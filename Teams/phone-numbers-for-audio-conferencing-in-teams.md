@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Hier erfahren Sie, für welche Länder und Regionen Dial-in-Konferenztelefonnummern verfügbar sind und wie diese automatisch zugewiesen werden.
-ms.openlocfilehash: 921878c7b0dfd8abd313adffb9b87e07e58ad66d
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 9f130ec72d398e55ff3f4890ae89422915fc47a2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137855"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779611"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Telefonnummern für Audiokonferenzen in Microsoft Teams
 
@@ -50,7 +50,7 @@ Es gibt zwei Arten von Audiokonferenz-Telefonnummern, die Ihrer Konferenzbrücke
   
 - **Dedizierte Telefonnummern** sind Telefonnummern, die nur den Benutzern in Ihrer Organisation zur Verfügung stehen. Sie können die Sprachen ändern, die verwendet werden, wenn jemand unter diesen Nummern anruft.
   
-- **Freigegebene Telefonnummern** sind Telefonnummern, die an andere Office 365-Organisationen freigegeben werden können. Sie können die Sprachen, die verwendet werden, wenn jemand unter diesen Nummern anruft, nicht ändern.
+- **Freigegebene Telefonnummern** sind die Telefonnummern, die für andere Microsoft 365-oder Office-365s freigegeben werden können. Sie können die Sprachen, die verwendet werden, wenn sich jemand an eine dieser Nummern anmeldet, nicht ändern.
   
 Nur die Standardtelefonnummer für Audiokonferenzen, die einem Organisator zugewiesen ist, ist in der Besprechungseinladung enthalten. Anrufer können aber jede der Telefonnummern, die Ihrer Konferenzbrücke zugewiesen sind, für die Teilnahme an einer Besprechung verwenden. Die Liste der Telefonnummern, die für die Teilnahme an einer Besprechung verwendet werden können, befindet sich unter dem Link **Lokale Rufnummer suchen**, der in jeder Besprechungseinladung enthalten ist.
   

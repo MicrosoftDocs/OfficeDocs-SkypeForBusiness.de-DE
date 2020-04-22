@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie einen SBC (Session Border Controller) für die Bereitstellung mehrerer Mandanten konfigurieren.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 90bad0c87cef92a36dea392d98cfb66824c10113
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1419a42a6affa00bbeed35d328f91331ad5357ec
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141088"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779571"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -80,7 +80,7 @@ Unterdomänen **müssen** mit dem FQDN-Namen des Trunks übereinstimmen, der fü
 
 Wenn ein Anruf an der Office 365 Direct-Routing Schnittstelle eingeht, verwendet die Schnittstelle die Kontakt Kopfzeile, um den Mandanten zu finden, in dem der Benutzer nachgeschlagen werden soll. Bei der direkten Weiterleitung wird keine telefonnummernsuche auf der Einladung verwendet, da einige Kunden möglicherweise nicht-DID-Nummern haben, die sich in mehreren Mandanten überlappen können. Daher ist der FQDN-Name in der Kopfzeile des Kontakts erforderlich, um den genauen Mandanten zu identifizieren, um den Benutzer anhand der Telefonnummer nachschlagen zu können.
 
-*Weitere Informationen zum Erstellen von Domänennamen in Office 365-Mandanten finden Sie [unter Hilfe zu Office 365-Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
+*Weitere Informationen zum Erstellen von Domänennamen in Office 365-Organisationen finden Sie [unter Hilfe zu Office 365-Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
 
 Das folgende Diagramm fasst die Anforderungen für Basisdomänen, Unterdomänen und Kontakt Kopfzeilen zusammen.
 
@@ -138,7 +138,7 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Off
 
 Nachdem Sie einen Domänennamen registriert haben, müssen Sie ihn aktivieren, indem Sie mindestens einen von E1, E3 oder E5 lizenzierten Benutzer hinzufügen und dem FQDN-Teil der SIP-Adresse, die der erstellten Basisdomäne entspricht, eine SIP-Adresse zuweisen. 
 
-*Weitere Informationen zum Hinzufügen von Benutzern in Office 365-Mandanten finden Sie [unter Hilfe zu Office 365-Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
+*Weitere Informationen zum Hinzufügen von Benutzern in Office 365-Organisationen finden Sie [unter Hilfe zu Office 365-Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
 
 Beispiel: Test@Customers.adatum.biz
 
@@ -200,7 +200,7 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Off
 
 Nachdem Sie einen Domänennamen registriert haben, müssen Sie ihn aktivieren, indem Sie mindestens einen Benutzer hinzufügen und eine SIP-Adresse mit dem FQDN-Teil der SIP-Adresse zuweisen, die der erstellten Unterdomäne im Kundenmandanten entspricht.
 
-*Weitere Informationen zum Hinzufügen von Benutzern in Office 365-Mandanten finden Sie [unter Hilfe zu Office 365-Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
+*Weitere Informationen zum Hinzufügen von Benutzern in Office 365-Organisationen finden Sie [unter Hilfe zu Office 365-Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef) .*
 
 Beispiel: Test@sbc1.Customers.adatum.biz
 

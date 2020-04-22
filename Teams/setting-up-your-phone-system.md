@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Erfahren Sie, wie Sie das Telefonsystem (Cloud PBX) für Ihre Organisation einrichten können. '
-ms.openlocfilehash: e1ae56200132ab4468b6db8d490c12d11b7a6deb
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 8c534607ca50baae75c3b0b2fdf5bc54359c22e4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888724"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779812"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Einrichten des Telefonsystems in Ihrer Organisation
 
@@ -41,7 +41,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 Um einem einzelnen Benutzer eine Telefon System-und Anruf Plan Lizenz zuzuweisen, sind die Schritte mit dem Zuweisen einer Office 365-Lizenz identisch.  Sie können auch Lizenzen mehreren Benutzern in Massen zuweisen. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md).
 
-Wenn für Ihr Land oder Ihre Region keine Anrufpläne verfügbar sind, sollten Sie die direkte Weiterleitung verwenden, um Ihre lokale Telefonie-Infrastruktur mit dem Telefon System zu verbinden.  Weitere Informationen finden Sie unter [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md).
+Wenn für Ihr Land oder Ihre Region keine Anrufpläne zur Verfügung stehen, erwägen Sie die Verwendung der direkten Weiterleitung, um die lokale Telefonie-Infrastruktur mit dem Telefon System zu verbinden.  Weitere Informationen hierzu finden Sie unter [Telefonsystem mit direktem Routing](direct-routing-landing-page.md).
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>Schritt 3: Abrufen von Telefonnummern für Ihre Benutzer
 
@@ -81,7 +81,7 @@ Zusätzlich zum Abrufen von Telefonnummern für Ihre Benutzer aus Office 365 kö
 ### <a name="get-new-service-numbers-using-the-teams-admin-center"></a>Abrufen neuer Dienstnummern über das Team Admin Center
 
 
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zum **Team Admin Center**.
 

@@ -19,22 +19,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ff198dcc7898f463c5b2c299ab9b9fb411f3382
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 52a3f29869320992840ab8aebd17453485eec662
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837725"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779591"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Vertrautmachen mit Teams und Kanälen in Microsoft Teams
 
 Die Konzepte von Teams und Kanälen sind grundlegend für eine gesunde, produktive Implementierung von Microsoft Teams. 
 
-- Ein Team ist eine Sammlung von Personen, Inhalten und Tools, die zusammenarbeiten, um ein geschäftliches Ergebnis für Ihr Unternehmen zu erzielen. Teams basieren auf Office 365-Gruppen, und Änderungen an der Mitgliedschaft in Office 365-Gruppen werden mit dem Team synchronisiert. 
+- Ein Team ist eine Sammlung von Personen, Inhalten und Tools, die zusammenarbeiten, um ein geschäftliches Ergebnis für Ihr Unternehmen zu erzielen. Teams sind auf Microsoft 365-Gruppen aufgebaut, und Änderungen an der Office 365-Gruppenmitgliedschaft werden mit dem Team synchronisiert. 
 
 - Kanäle sind die Bereiche für die Zusammenarbeit innerhalb eines Teams, in dem die eigentliche Arbeit abgeschlossen ist. 
 
-Weitere Informationen zu Teams und Kanälen finden Sie in der [Übersicht zu Teams und Kanälen in Microsoft Teams](teams-channels-overview.md). Umfassende Anleitungen zur Einführung von Teams finden Sie im [Leitfaden zur Einführung von Teams](https://aka.ms/teamstoolkit). Weitere Informationen zu Teams und Office 365-Gruppen finden Sie unter [Office 365-Gruppen und Microsoft Teams](office-365-groups.md) und [Weitere Informationen zu Office 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Weitere Informationen zu Teams und Kanälen finden Sie in der [Übersicht zu Teams und Kanälen in Microsoft Teams](teams-channels-overview.md). Umfassende Anleitungen zur Einführung von Teams finden Sie im [Leitfaden zur Einführung von Teams](https://aka.ms/teamstoolkit). Weitere Informationen zu Teams und Microsoft 365-Gruppen finden Sie unter [Microsoft 365-Gruppen und Microsoft Teams](office-365-groups.md) und [Weitere Informationen zu Microsoft 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |

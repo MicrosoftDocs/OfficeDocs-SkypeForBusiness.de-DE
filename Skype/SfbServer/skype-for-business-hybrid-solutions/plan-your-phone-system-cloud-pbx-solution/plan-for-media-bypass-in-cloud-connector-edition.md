@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Lesen Sie dieses Thema, um die Planungsüberlegungen für die Implementierung der medienumgehung mit Cloud Connector Edition, Version 2,0 und höher, zu überprüfen. Informationen zum Bereitstellen der medienumgehung finden Sie unter Deploy Media Bypass in Cloud Connector Edition.
-ms.openlocfilehash: 47b8d9e5d0b69b95c48f89591d75d53591b7426c
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: f9da5df4815c731b479f5d2333f26546be0daf4c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010308"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778781"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planen der medienumgehung in Cloud Connector Edition
  
@@ -37,7 +37,7 @@ Die medienumgehung kann die Sprachqualität verbessern, indem die Wartezeit, die
 
 Während die Signalisierung mit oder ohne medienumgehung denselben Pfad hat, unterscheidet sich der Medienfluss. Die folgenden Diagramme zeigen Medien-und Signalisierungs Pfade in Topologien mit und ohne medienumgehung. 
   
-Beispielsweise wird in der folgenden Topologie, in der keine medienumgehung verwendet wird, ein Skype for Business-Client einen PSTN-Anruf an eine externe Nummer richtet, die SIP-Signalübertragung an Office 365 und Office 365 dann den Signalisierungs Datenverkehr entsprechend der Endbenutzer Stimme leitet. Richtlinie. Für Cloud Connector-Benutzer leitet die VoIP-Richtlinie den Signalisierungs Datenverkehr an den Cloud Connector Edgeserver, der den Signalisierungs Datenverkehr dann über den Cloud Connector-Vermittlungsserver an einen PSTN-Sitzungs Grenz Controller (SBC) oder ein Gateway weiterleitet. Medien Flüsse vom Skype for Business-Client zum Cloud Connector Vermittlungsserver und dann zum SBC oder Gateway, wie im folgenden Diagramm dargestellt:
+Beispielsweise wird in der folgenden Topologie, in der keine medienumgehung verwendet wird, ein Skype for Business-Client einen PSTN-Anruf an eine externe Rufnummer weitergeleitet, die SIP-Signalisierung geht an Office 365, und Office 365 leitet den Signalisierungs Datenverkehr entsprechend der VoIP-Richtlinie des Endbenutzers weiter. Für Cloud Connector-Benutzer leitet die VoIP-Richtlinie den Signalisierungs Datenverkehr an den Cloud Connector Edgeserver, der den Signalisierungs Datenverkehr dann über den Cloud Connector-Vermittlungsserver an einen PSTN-Sitzungs Grenz Controller (SBC) oder ein Gateway weiterleitet. Medien Flüsse vom Skype for Business-Client zum Cloud Connector Vermittlungsserver und dann zum SBC oder Gateway, wie im folgenden Diagramm dargestellt:
   
 **Medien-und Signalisierungs Pfade ohne medienumgehung**
 
@@ -75,14 +75,14 @@ Wenn ein Client außerhalb des Unternehmensnetzwerks einen ausgehenden Anruf pla
   
 ## <a name="supported-clients-for-media-bypass"></a>Unterstützte Clients für die medienumgehung
 
-Mit der ersten Version der medienumgehung ist der einzige unterstützte Client der Skype for Business 2016 Windows-Client, der Teil von Office 365 ProPlus, Version 16.0.7870.2020 oder höher ist. Kunden können einen beliebigen Kanal verwenden: aktuell, verzögert oder Erstversion zurückgestellt. 
+Mit der ersten Version der medienumgehung ist der einzige unterstützte Client der Skype for Business 2016 Windows-Client, der Teil von Microsoft 365-Apps für Enterprise, Version 16.0.7870.2020 oder höher ist. Kunden können einen beliebigen Kanal verwenden: aktuell, verzögert oder Erstversion zurückgestellt. 
   
 > [!NOTE]
 > Wenn Sie eine Client-VPN-Lösung in Kombination mit dem Skype for Business-Client verwenden, wird die medienumgehung nur mit einer VPN-Konfiguration mit geteilten Tunneln unterstützt. 
   
-Weitere Informationen zu den Veröffentlichungs Kanälen finden Sie unter [Overview of Update Channels for Office 365 ProPlus](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US).
+Weitere Informationen zu den Veröffentlichungs Kanälen finden Sie unter [Overview of Update Channels for Microsoft 365 apps for Enterprise](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US).
   
-Informationen zur aktuellen Version der Clients in verschiedenen Kanälen finden Sie unter [Releaseinformationen für Updates für Office 365 ProPlus](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus). 
+Informationen zur aktuellen Version der Clients in verschiedenen Kanälen finden Sie unter [Releaseinformationen für Updates für Microsoft 365 apps for Enterprise](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus). 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>Überlegungen zur Cloud Connector-Kapazität mit medienumgehung
 
@@ -107,7 +107,7 @@ In der folgenden Abbildung müssen beispielsweise die Benutzer in Europa gut mit
 ![Cloud Connector-Kapazität](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
   
 > [!NOTE]
-> Wenn ein Benutzer aus Zürich in das Büro in Seattle reist und Sie das interne Netzwerk verwenden möchten, um den Mediendatenverkehr zwischen dem Reisenden Benutzer und den Gateways in Europa (im Gegensatz zur Übertragung über das Internet) zu übermitteln, müssen Sie sicherstellen, dass das Seattle-Office und das Amsterdam Office, in dem sich europäische SBCS oder Gateways befinden, die ebenfalls verbunden sind. 
+> Wenn ein Benutzer aus Zürich in das Büro in Seattle reist und Sie das interne Netzwerk verwenden möchten, um den Mediendatenverkehr zwischen dem Reisenden Benutzer und den Gateways in Europa (im Gegensatz zur Übertragung über das Internet) zu übermitteln, müssen Sie sicherstellen, dass das Büro in Seattle und das Amsterdamer Büro, in dem sich europäische SBCS oder Gateways befinden, ebenfalls verbunden qualifiziert sind. 
   
 ## <a name="codecs-used-in-media-bypass"></a>In der medienumgehung verwendete Codecs
 

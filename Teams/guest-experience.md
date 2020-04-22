@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed0ea94910e9b3b5499a1f23a6c1c081590957c7
-ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
-ms.translationtype: HT
+ms.openlocfilehash: 60891c2e5283b8e9cdaa9e8d7852768bbb52d8aa
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42160569"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776930"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -51,7 +51,7 @@ In der folgenden Tabelle werden die Microsoft Teams-Funktionen verglichen, die j
 |Erstellen von Besprechungen oder Zugreifen auf Zeitpläne  <br/> |&#x2713;||
 |Zugreifen auf OneDrive for Business-Speicher  <br/> |&#x2713;||
 |Erstellen von mandantenweiten Richtlinien und solchen für den Gastzugriff in Teams/Kanälen  <br/> |&#x2713;||
-|Benutzer außerhalb der Office 365-Mandantendomäne einladen <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> <br/> |&#x2713;||
+|Einladen eines Benutzers außerhalb der Domäne der Office 365-Organisation <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> <br/> |&#x2713;||
 |Erstellen eines Teams  <br/> |&#x2713;||
 |Ein öffentliches Team suchen und daran teilnehmen  <br/> |&#x2713;||
 |Einsicht nehmen in das Organigramm  <br/> |&#x2713;||

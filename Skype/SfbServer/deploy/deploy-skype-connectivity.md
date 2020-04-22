@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Skype for Business Server mit Skype Consumer verbinden. Wird auch als Skype Connectivity bezeichnet.'
-ms.openlocfilehash: be53acc531d0abb789ae4e622a24dc313483cac6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 2cf124c340218a352f55fa1c09302a0d0f1d972a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42030448"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780064"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Bereitstellen der Skype-Konnektivität in Skype for Business Server
 
@@ -65,7 +65,7 @@ In der folgenden Tabelle wird die Unterstützung für die Skype-Verzeichnissuche
 > Wenn ein Kunde über mehrere Standorte in der lokalen Bereitstellung verfügt und nur einen Skype for Business Server Edgeserver/-Pool bereitgestellt hat, wird der Such Datenverkehr von allen Standorten durch den einzelnen verfügbaren Edgeserver geleitet. Der Administrator muss sicherstellen, dass die Pools von allen Standorten auf den bereitgestellten Skype for Business Server-Edgeserver/-Pool zugreifen können. 
   
 > [!NOTE]
-> Der Skype Graph-Dienst wird Suchanforderungen von einem lokalen oder Office 365 Kunden Drosseln, wenn die Anforderungsrate 15 Anforderungen/Sekunde überschreitet. 
+> Der Skype Graph-Dienst wird Suchanforderungen von einem lokalen oder Microsoft 365-oder Office 365-Kunden Drosseln, wenn die Anforderungsrate 15 Anforderungen/Sekunde überschreitet. 
   
 > [!NOTE]
 > Für lokale Kunden großer Unternehmen müssen die Domänen mit dem Skype-Suchdienst auf der Whitelist stehen, um höhere Anforderungs Raten zu ermöglichen. 
@@ -75,9 +75,9 @@ In der folgenden Tabelle wird die Unterstützung für die Skype-Verzeichnissuche
   
 ## <a name="deploying-skype-connectivity-for-skype-for-business-online-in-office-365"></a>Bereitstellen von Skype-Konnektivität für Skype for Business Online in Office 365
 
-Die Skype-Konnektivität ist auch ein Feature von Skype for Business Online, das Teil von Office 365 ist. Sie können das Skype Connectivity-Feature über das Skype for Business Administration Center im Office 365 Portal aktivieren.
+Die Skype-Konnektivität ist auch ein Feature von Skype for Business Online, das Teil von Office 365 ist. Sie können das Skype Connectivity-Feature in der Skype for Business Administration Center im Microsoft 365 Admin Center aktivieren.
   
-Für Office 365 mittelständische Unternehmen, Office 365 Enterprise, Office 365 Bildung und Office 365 für Regierungen: Melden Sie sich beim Office 365-Portal an, und navigieren Sie zum Skype for Business-Verwaltungskonsole. Wechseln Sie zu externe Kommunikation. Klicken Sie unter öffentliche Sofortnachrichten-Dienstanbieter auf aktivieren. Wenn Sie den Zugriff einzelner Benutzer auf Skype-Konnektivität steuern möchten, können Sie dies tun, indem Sie die Einstellungen für die externe Kommunikation einzelner Benutzer bearbeiten.
+Für Office 365 mittelständische Unternehmen, Office 365 Enterprise, Office 365 Bildung und Office 365 für Regierungen: Melden Sie sich beim Microsoft 365 Admin Center an, und navigieren Sie zum Skype for Business Verwaltungskonsole. Wechseln Sie zu externe Kommunikation. Klicken Sie unter öffentliche Sofortnachrichten-Dienstanbieter auf aktivieren. Wenn Sie den Zugriff einzelner Benutzer auf Skype-Konnektivität steuern möchten, können Sie dies tun, indem Sie die Einstellungen für die externe Kommunikation einzelner Benutzer bearbeiten.
   
 Für Office 365 Small Business Premium: Melden Sie sich bei Office 365 an, und wechseln \> Sie zu \> Administrator Diensteinstellungen Chat, Besprechungen und Konferenzen. Aktivieren Sie die externe Kommunikation. Der Schalter für externe Kommunikation aktiviert die Skype-Konnektivität und die Kommunikation mit anderen Organisationen, die Skype for Business verwenden.
   
@@ -93,7 +93,7 @@ Weitere Informationen zur Skype for Business Online Verwaltung finden Sie unter:
     
 ## <a name="deploying-skype-connectivity-for-skype-for-business-server"></a>Bereitstellen von Skype-Konnektivität für Skype for Business Server
 
-Skype for Business Server verwendet die Verbund Zugriffs Architektur, um die Konnektivität mit Skype zu unterstützen. Diese Konnektivität ermöglicht es Ihren Skype for Business Server-Benutzern, Skype hinzuzufügen. Skype-Clients können auch Skype for Business Benutzer zu Ihrer Kontaktliste hinzufügen. Basierend auf Richtlinien, die in Skype for Business Server administrativ festgelegt sind, können Benutzer über Chatnachrichten kommunizieren, die Anwesenheit von einander anzeigen und Audio-und Videoanrufe initiieren. Die Skype-Konnektivität ist auch ein Feature von Skype for Business Online und kann für Skype for Business Online Kunden aus der Skype for Business Administration Center im Office 365 Portal aktiviert werden.
+Skype for Business Server verwendet die Verbund Zugriffs Architektur, um die Konnektivität mit Skype zu unterstützen. Diese Konnektivität ermöglicht es Ihren Skype for Business Server-Benutzern, Skype hinzuzufügen. Skype-Clients können auch Skype for Business Benutzer zu Ihrer Kontaktliste hinzufügen. Basierend auf Richtlinien, die in Skype for Business Server administrativ festgelegt sind, können Benutzer über Chatnachrichten kommunizieren, die Anwesenheit von einander anzeigen und Audio-und Videoanrufe initiieren. Die Skype-Konnektivität ist auch ein Feature von Skype for Business Online und kann für Skype for Business Online Kunden aus der Skype for Business Administration Center im Microsoft 365 Admin Center aktiviert werden.
   
 > [!NOTE]
 > Wenn Skype for Business Server bereits für die Verbindung mit Windows Messenger mithilfe der öffentlichen Instant Messaging-Konnektivität (PIC) konfiguriert ist, ist Ihre Bereitstellung bereits für Skype-Konnektivität konfiguriert. Die einzige Änderung, die Sie möglicherweise in Frage stellen sollten, ist, den vorhandenen Messenger PIC-Eintrag als Skype umzubenennen. 
@@ -212,7 +212,7 @@ Das Konfigurieren der Skype-Konnektivität kann auch nur mithilfe von PowerShell
      > Öffentliche Anbieter müssen entfernt und neu hinzugefügt werden, wenn Änderungen vorgenommen werden. Es sind keine in-Place-Änderungen zulässig. 
   
      > [!NOTE]
-     > In lync Server 2013 CU5 &amp; lync-Desktop-Client in Office 2013 SP1 hinzugefügt, verbessern NameDecorationRoutingDomain und NameDecorationExcludedDomainList die Situation, in der lync-Benutzer Skype-Kontakte hinzufügen, um nicht-Microsoft-Domänen zu "dekorieren", um diese zu identifizieren und an Skype weiterzuleiten (das Format: User (contoso. com) @MSN. com). Durch diese neuen Einstellungen wird die automatische Formatierung der Adresse eingegeben, die der Benutzer im Dialogfeld "Skype-Kontakt hinzufügen" mit dem NameDecorationRoutingDomain (der auf MSN.com festgelegt werden sollte) eingeben kann, wenn er die Domänen in der NameDecorationExcludedDomainList nicht enthält ( Wir können derzeit MSN.com, Live.com, hotmail.com, Outlook.com) unterstützen. 
+     > In lync Server 2013 CU5 &amp; lync-Desktop-Client in Office 2013 SP1 hinzugefügt, verbessern NameDecorationRoutingDomain und NameDecorationExcludedDomainList die Situation, in der lync-Benutzer Skype-Kontakte hinzufügen, um nicht-Microsoft-Domänen zu "dekorieren", um diese zu identifizieren und an Skype weiterzuleiten (das Format: User (contoso. com) @MSN. com). Diese neuen Einstellungen ermöglichen die automatische Formatierung der Adresse des Benutzers eingeben im Dialogfeld "Skype-Kontakt hinzufügen" mit dem NameDecorationRoutingDomain (die auf MSN.com festgelegt werden sollte), wenn Sie nicht die Domänen im NameDecorationExcludedDomainList enthält (wir können derzeit MSN.com, Live.com, hotmail.com, Outlook.com) unterstützen. 
   
 3. Von einem Skype for Business-Client können Benutzer nun nach einem Skype-Benutzer suchen und ihn hinzufügen.
     

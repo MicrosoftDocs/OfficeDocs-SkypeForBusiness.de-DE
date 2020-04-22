@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d9bcc5e00b9892bf8405eddb2ac24291a485d19
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: b5607e9405a777329efa6ad3bb58e204e03879a9
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706965"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776760"
 ---
 # <a name="operate-your-service"></a>Betreiben des Diensts
 
@@ -41,7 +41,7 @@ Die Dienstverwaltung ist ein umfangreiches Thema, das den täglichen Betrieb des
 
 Die Dienstverwaltung ist für die meisten Organisationen höchstwahrscheinlich kein neuer Begriff. Möglicherweise haben Sie bereits Prozesse und Aufgaben implementiert, die vorhandenen Diensten zugeordnet sind. Allerdings können Sie Ihre derzeitigen Prozesse wahrscheinlich erweitern, wenn Sie planen, dass das Service-Management heute Teams in Zukunft unterstützt.
 
-Das Dienstleistungsmanagement umfasst alle Aktivitäten und Prozesse, die in der End-to-End-Verwaltung von Teams beteiligt sind. Wie bereits erwähnt, sind einige Komponenten des Dienst Managements – die Infrastruktur, die der Office 365-Dienst selbst umfasst – die Verantwortung von Microsoft, während Sie als Kunde für Ihre Benutzer verantwortlich sind, um die verschiedenen Aspekte von Teams, dem Netzwerk zu verwalten. und die von Ihnen bereitgestellten Endpunkte.
+Das Dienstleistungsmanagement umfasst alle Aktivitäten und Prozesse, die in der End-to-End-Verwaltung von Teams beteiligt sind. Wie bereits erwähnt, sind einige Komponenten des Dienst Managements – die Infrastruktur, die der Office 365-Dienst selbst umfasst – die Verantwortung von Microsoft, während Sie als Kunde für Ihre Benutzer verantwortlich sind, um die verschiedenen Aspekte von Teams, dem Netzwerk und den von Ihnen bereitgestellten Endpunkten zu verwalten.
 
 Die Aufgaben und Aktivitäten in diesem Leitfaden sind in acht Kategorien unterteilt, wie in der folgenden Abbildung dargestellt. Jede dieser Kategorien wird in den folgenden Abschnitten erweitert.
 
@@ -114,7 +114,7 @@ In den folgenden Abschnitten werden die Tools beschrieben, die Sie nutzen könne
 
 | Überwachungs Tool | Vorteile | Verwendungszweck |
 |---|---|---|
-| Office 365-Portal | Verfügbar auf jedem Gerät mit einem unterstützten Browser. | Verwenden Sie diese, wenn Sie keine Echtzeitbenachrichtigungen benötigen. |
+| Microsoft 365 Admin Center | Verfügbar auf jedem Gerät mit einem unterstützten Browser. | Verwenden Sie diese, wenn Sie keine Echtzeitbenachrichtigungen benötigen. |
 | Office 365-Administrator-App | Bietet Push-Benachrichtigungen für Ihr mobiles Gerät. | Verwenden Sie diese Funktion, wenn Sie über Service-Vorfälle benachrichtigt werden möchten, während Sie unterwegs sind. |
 | Microsoft System Center | Integration in Microsoft System Center. | Verwenden Sie diese Funktion, wenn Sie erweiterte Überwachungsfunktionen und Benachrichtigungsunterstützung benötigen. |
 | Office 365 Service Communications-API | Programmgesteuerten Zugriff auf Office 365-Dienststatus. | Verwenden Sie diese Option, wenn Sie die Integration mit einem Überwachungstool eines Drittanbieters benötigen oder eine eigene Lösung erstellen möchten. |
@@ -122,9 +122,9 @@ In den folgenden Abschnitten werden die Tools beschrieben, die Sie nutzen könne
 > [!NOTE]
 > Nur Personen, denen die Rolle **globaler Administrator** oder **Dienstadministrator** zugewiesen ist, können den Dienststatus anzeigen.
 
-### <a name="monitoring-with-the-office-365-portal"></a>Überwachen mit dem Office 365-Portal
+### <a name="monitoring-with-the-microsoft-365-admin-center"></a>Überwachung mit dem Microsoft 365 Admin Center
 
-Das [Office 365-Portal](https://portal.office.com/) bietet ein [Dienststatus-Dashboard](https://portal.office.com/adminportal/home#/servicehealth) , in dem Sie zusätzlich zu den abhängigen Diensten den aktuellen Status des Teams-Diensts anzeigen können.
+Das [Microsoft 365 Admin Center](https://portal.office.com/) bietet ein [Dienststatus-Dashboard](https://portal.office.com/adminportal/home#/servicehealth) , in dem Sie zusätzlich zu den abhängigen Diensten den aktuellen Status des Teams-Diensts anzeigen können.
 
 ### <a name="monitoring-with-the-mobile-app"></a>Überwachen mit der mobilen App
 
@@ -488,7 +488,7 @@ Zur Unterstützung von Benutzern erfordert eine Organisation möglicherweise ein
 
 ### <a name="team-creation-optional"></a>Team Erstellung (optional)
 
-Standardmäßig verfügen alle Benutzer mit einem Postfach in Exchange Online über die Berechtigungen zum Erstellen von Office 365-Gruppen und damit zu einem Team in Microsoft Teams. Wenn Sie eine stärkere Kontrolle haben und [die Erstellung neuer Teams](assign-roles-permissions.md#permissions-to-create-teams) (und damit die Erstellung neuer Office 365-Gruppen) einschränken möchten, können Sie Gruppen Erstellungs-und Verwaltungsrechte an eine Reihe von Administratoren delegieren. Wenn Ihre Organisation diese Option weiter verfolgen möchte, lesen Sie den in diesem Artikel beschriebenen Verfahren, um Benutzern das Senden von Anforderungen zu ermöglichen, die von einem zugewiesenen Team verarbeitet werden.
+Standardmäßig verfügen alle Benutzer mit einem Postfach in Exchange Online über die Berechtigungen zum Erstellen von Microsoft 365-Gruppen und damit zu einem Team in Microsoft Teams. Wenn Sie eine stärkere Kontrolle haben und [die Erstellung neuer Teams](assign-roles-permissions.md#permissions-to-create-teams) (und damit die Erstellung neuer Microsoft 365-Gruppen) einschränken möchten, können Sie Gruppen Erstellungs-und Verwaltungsrechte an eine Reihe von Administratoren delegieren. Wenn Ihre Organisation diese Option weiter verfolgen möchte, lesen Sie den in diesem Artikel beschriebenen Verfahren, um Benutzern das Senden von Anforderungen zu ermöglichen, die von einem zugewiesenen Team verarbeitet werden.
 
 <!--ENDOFSECTION-->
 

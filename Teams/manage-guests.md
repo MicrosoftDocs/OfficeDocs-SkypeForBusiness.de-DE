@@ -17,12 +17,12 @@ description: Hier erfahren Sie, wie Sie Ihre ersten Teams und Kanäle erstellen,
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fea5ab9eec355d77f19165253fe97ee8aeb725ca
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 544dcb4ffd424512797d3791e2eda6b22439c084
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139244"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43777840"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Verwalten des Gastzugriffs in Microsoft Teams
 ======================================
@@ -30,7 +30,7 @@ ms.locfileid: "43139244"
 > [!IMPORTANT]
 > Sie müssen ggf. bis zu 24 Stunden warten, bis Ihre Änderungen wirksam werden. 
 
-**Guest** ist ein Benutzertyp in Microsoft Teams, der in allen Office 365 Business Premium-, Office 365 Enterprise-, Office 365 Business Essentials-und Office 365 Education-Abonnements enthalten ist. Eine zusätzliche Office 365-Lizenz ist nicht erforderlich. Weitere Informationen finden Sie unten unter [Gastzugriff-Lizenzierung](#guest-access-licensing-limits) .
+**Guest** ist ein Benutzertyp in Microsoft Teams, der in allen Microsoft 365 Business Standard, Office 365 Enterprise, Microsoft 365 Business Basic und Office 365 Education-Abonnements enthalten ist. Eine zusätzliche Office 365-Lizenz ist nicht erforderlich. Weitere Informationen finden Sie unten unter [Gastzugriff-Lizenzierung](#guest-access-licensing-limits) .
 
 Der Gastzugriff auf Microsoft Teams ist eine Einstellung auf Mandantenebene, die standardmäßig deaktiviert ist. Details zum Aktivieren des Gastzugriffs finden Sie unter Aktivieren oder Deaktivieren des Gast [Zugriffs auf Teams](set-up-guests.md)oder verwenden der Checkliste für den [Gastzugriff](guest-access-checklist.md) , um Sie durch das Setup zu führen.
 
@@ -64,7 +64,7 @@ Zugriffsüberprüfungen sind mit der Premium P2-Edition von Azure AD (in Microso
 
 ## <a name="lag-time-for-guest-access-settings-to-take-effect"></a>Verzögerungszeit für die Einstellungen des Gastzugriffs
 
-Für die Einstellungen für den Gastzugriff in Azure Active Directory dauert es 2-24 Stunden, bis die Änderungen in Ihrer Office 365-Organisation wirksam werden. Wenn ein Benutzer die Meldung "wenden Sie sich an Ihren Administrator" an, wenn er versucht, dem Team einen Gast hinzuzufügen, ist es wahrscheinlich, dass entweder das gastfeature nicht aktiviert wurde oder die Einstellungen noch nicht wirksam sind. Hilfe zu Problemen beim Einrichten des Gastzugriffs finden Sie unter [Problembehandlung beim Gastzugriff in Teams](troubleshoot-guest-access.md).
+Für die Einstellungen für den Gastzugriff in Azure Active Directory dauert es 2-24 Stunden, bis die Änderungen in Ihrem Microsoft 365 oder Office 365 wirksam werden. Wenn ein Benutzer die Meldung "wenden Sie sich an Ihren Administrator" an, wenn er versucht, dem Team einen Gast hinzuzufügen, ist es wahrscheinlich, dass entweder das gastfeature nicht aktiviert wurde oder die Einstellungen noch nicht wirksam sind. Hilfe zu Problemen beim Einrichten des Gastzugriffs finden Sie unter [Problembehandlung beim Gastzugriff in Teams](troubleshoot-guest-access.md).
 
   
 ## <a name="external-access-federation-vs-guest-access"></a>Externer Zugriff (Partnerverbund) und Gastzugriff im Vergleich

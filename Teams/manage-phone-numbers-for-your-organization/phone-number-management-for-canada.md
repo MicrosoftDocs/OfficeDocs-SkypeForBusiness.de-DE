@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Kanada für Microsoft Teams zu finden.
-ms.openlocfilehash: 317de783786d6485d14ede960c9c1811fa69e794
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9b24413ae7e1534e1a39cc76cc943341221e82cc
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707070"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779822"
 ---
 # <a name="phone-number-management-for-canada"></a>Telefonnummernverwaltung für Kanada
 
@@ -40,7 +40,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 | Rufen Sie neue Service-Telefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. <br/> | Für Dienstnummern außerhalb der Vereinigten Staaten laden Sie bitte [dieses Formular herunter](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-numbers-outside-the-u.s.-(service-numbers)-(v.1.0)-(en-us).pdf?raw=true), füllen Sie es aus und [Senden Sie es an uns](mailto:ptneu@microsoft.com). |
 |Holen Sie sich Telefonnummern, die an uns übertragen werden.  <br/> | Laden Sie eines dieser Formulare herunter: <br/> [Letter of Authorization (LoA) für Kanada (Nutzer-und Servicenummern) (v. 3.2) (en-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.3.2)-(en-ca).pdf?raw=true) <br/> [Schriftliche Vollmacht für Kanada (Benutzer- und Servicenummern) (v.1.0) (fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(user-and-service-numbers)-(v.1.0)-(fr-ca).pdf?raw=true) <br/> [Letter of Authorization (LoA) für Kanada (gebührenfreie Nummern) (v. 3.2) (en-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.3.2)-(en-ca).pdf?raw=true) <br/>[Schriftliche Vollmacht für Kanada (gebührenfreie Nummern) (v.1.1) (fr-ca)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/Letter-of-authorization-(loa)-for-canada-(toll-free-numbers)-(v.1.1)-(fr-ca).pdf?raw=true)<br/> <br>**Hinweis:** Wenn Sie versuchen, mehr als 999 Teilnehmer-oder Nutzer-Telefonnummern zu erhalten, müssen Sie einen Genehmigungsbescheid (Letter of Authorization, Loa) ausfüllen und an uns senden. Weitere Informationen finden Sie unter [übertragen von Telefonnummern in Teams](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) . <br/> <br>Füllen Sie das Formular aus, und [senden Sie es an uns](mailto:ptn@microsoft.com).  <br/> |
 |Ändern Sie die Nummer eines Benutzers in eine Dienstnummer.  <br/>                                 | [Senden Sie uns](mailto:ptn@microsoft.com) Ihre PIN und eine Liste der Benutzernummern, die Sie in Servicenummern umwandeln möchten. Wie Sie eine PIN einrichten, erfahren Sie [hier](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
-|Übertragen Sie Nummern von einer Office 365-Organisation auf eine andere.  <br/>               | [Senden Sie uns](mailto:ptn@microsoft.com) eine Liste der Benutzertelefonnummern (Teilnehmernummern), die Sie übertragen möchten, sowie die PIN der Quellorganisation, von der Sie die Nummern übertragen möchten. Wie Sie eine PIN einrichten, erfahren Sie [hier](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
+|Übertragen Sie Nummern von einem Microsoft 365 oder Office 365 zu einem anderen.  <br/>               | [Senden Sie uns](mailto:ptn@microsoft.com) eine Liste der Benutzertelefonnummern (Teilnehmernummern), die Sie übertragen möchten, sowie die PIN der Quellorganisation, von der Sie die Nummern übertragen möchten. Wie Sie eine PIN einrichten, erfahren Sie [hier](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-your-pin-for-transferring-numbers-to-a-new-service-provider).  <br/> |
 
 ## <a name="related-topics"></a>Verwandte Themen
 

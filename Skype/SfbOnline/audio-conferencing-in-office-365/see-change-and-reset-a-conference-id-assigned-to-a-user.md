@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, wie Sie einem Benutzer in Skype for Business Online eine Konferenz-ID zuweisen und was die Konferenz-IDs-Parameter sein sollten. '
-ms.openlocfilehash: 8bec76e25df092beb18725467c3041de3c1d7745
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: b5ed8bb8ec32277e0bebca43338ae233aa6d38f6
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010988"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776840"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Anzeigen und Zurücksetzen einer Konferenz-ID, die einem Benutzer in Skype for Business Online zugewiesen wurde
 
@@ -50,7 +50,7 @@ An email will be sent to the user with the conference ID and the default audio c
 
 Sie können ihre Konferenz-ID anzeigen und an Benutzer senden.
 
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zum Admin Center > **Skype for Business**.
 
@@ -78,7 +78,7 @@ Sie können eine Konferenz-ID für einen Benutzer zurücksetzen, wenn er diese b
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zum Admin Center > **Skype for Business**.
 

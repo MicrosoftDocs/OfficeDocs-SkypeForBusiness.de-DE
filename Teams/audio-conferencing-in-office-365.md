@@ -1,5 +1,5 @@
 ---
-title: Audiokonferenzen in Office 365
+title: Audiokonferenzen in Microsoft 365
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über Audiokonferenzen in Office 365, einschließlich Kosten, Verfügbarkeit und dedizierte Telefonnummern.
-ms.openlocfilehash: 5fef21489bbbceb490a2b97d70ee9dbafd2a791c
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: fb61c9445358949677358220e881dbe318ff64b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139014"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780414"
 ---
-# <a name="audio-conferencing-in-office-365"></a>Audiokonferenzen in Office 365
+# <a name="audio-conferencing-in-microsoft-365"></a>Audiokonferenzen in Microsoft 365
 Audiokonferenzen in Office 365 ermöglicht Benutzern, sich von ihren Mobiltelefonen aus in Besprechungen einzuwählen. Audiokonferenzen ermöglichen bis zu 250 Telefonteilnehmer.
 
 ## <a name="what-is-audio-conferencing"></a>Was ist "Audiokonferenzen"?
@@ -68,7 +68,7 @@ Es gibt zwei Arten von Audiokonferenz-Telefonnummern, die Ihrer Konferenzbrücke
   
  **Dedizierte Telefonnummern** sind Telefonnummern, die nur den Benutzern in Ihrer Organisation zur Verfügung stehen. Sie können die Sprachen ändern, die verwendet werden, wenn jemand unter diesen Nummern anruft. Hierfür benötigen Sie eine Dienst-Rufnummer.
   
- **Freigegebene Telefonnummern** sind Telefonnummern, die an andere Office 365-Organisationen freigegeben werden können. Sie können die Sprachen, die verwendet werden, wenn jemand unter diesen Nummern anruft, nicht ändern.
+ **Freigegebene Telefonnummern** sind die Telefonnummern, die für andere Microsoft 365-oder Office-365s freigegeben werden können. Sie können die Sprachen, die verwendet werden, wenn jemand unter diesen Nummern anruft, nicht ändern.
   
 Nur die Standardtelefonnummer für Audiokonferenzen, die einem Organisator zugewiesen ist, ist in der Besprechungseinladung enthalten. Anrufer können aber jede der Telefonnummern, die Ihrer Konferenzbrücke zugewiesen sind, für die Teilnahme an einer Besprechung verwenden. Die Liste der Telefonnummern, die für die Teilnahme an einer Besprechung verwendet werden können, befindet sich unter dem Link **Lokale Rufnummer suchen**, der in jeder Besprechungseinladung enthalten ist.
 

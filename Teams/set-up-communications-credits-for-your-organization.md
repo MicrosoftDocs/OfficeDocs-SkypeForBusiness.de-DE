@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Hier erfahren Sie, wie Sie Abrechnungs Lizenzen für Kommunikations Kredite (PSTN-Verbrauch) für Ihre Benutzer und Ihre Organisation einrichten. '
-ms.openlocfilehash: e1672c2d3c66690393e34b90fbeb1b2be4d54042
-ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
+ms.openlocfilehash: 304c08568ee39f69f727d159a5599a3a3ac89ed4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41889414"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779742"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
@@ -56,7 +56,7 @@ Weitere Informationen finden Sie unter [Microsoft Teams-Add-on-Lizenzierung](tea
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Schritt 2: Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
-1. Anmelden beim neuen Office 365-Portal mit Ihrem Firmen-oder Schulkonto.
+1. Anmelden beim neuen Microsoft 365 Admin Center mit Ihrem Geschäfts-oder Schulkonto.
     
 2. Wechseln Sie in der linken Navigationsleiste des Microsoft 365 Admin Center zu **Abrechnungs** > **Kauf-Services**. Scrollen Sie nach unten, und wählen Sie **Add-ons**aus.
 
@@ -89,7 +89,7 @@ Wenn Sie Kommunikationsguthaben einrichten, müssen Sie die Anruf Nutzung für I
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Schritt 3: Zuweisen einer Lizenz für Guthaben für Kommunikationen für Benutzer
 
-1. Melden Sie sich mit Ihrem Geschäfts- oder Schulkonto bei Office 365 an.
+1. Mit Ihrem Firmen-oder Schulkonto anmelden
     
 2. Navigieren Sie in der linken Navigationsleiste des Microsoft 365 Admin Center zu **Benutzer** > **Aktive Benutzer**, und wählen Sie die entsprechenden Benutzer aus der Liste aus.
     
@@ -118,7 +118,7 @@ Eine Tabelle mit den Lizenzen, die für die einzelnen Features benötigt werden,
 
 - [Einrichten von Skype for Business Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Einrichten von Cloudvoicemail – Admin-Hilfe](set-up-phone-system-voicemail.md)
+- [Einrichten von Cloud-Voicemail – Administratorhilfe](set-up-phone-system-voicemail.md)
     
 - [Einrichten von Anrufplänen](set-up-calling-plans.md) und [Anrufpläne für Office 365](calling-plans-for-office-365.md)
     
