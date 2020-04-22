@@ -18,17 +18,17 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: e109d3a8f43d6f989c96709562efbf759c0e562e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 91e2763fac952b7188284dcf09e6fc0b7cc4bf16
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137695"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749862"
 ---
 # <a name="quality-of-experience-review-guide"></a>Leitfaden zur Überprüfung der Erlebnisqualität 
 
 <!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
-In diesem Leitfaden finden Sie Informationen zur Wertschöpfungsphase für Microsoft Teams und Skype for Business Online. Sie können eine Word-Version dieses Leitfadens [herunterladen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true).
+In diesem Leitfaden finden Sie Informationen zur Wertschöpfungsphase für Microsoft Teams und Skype for Business Online. 
 
 ## <a name="introduction"></a>Einführung
 
@@ -70,13 +70,13 @@ In dieser Tabelle wird dargestellt, was jede einzelne Rollen in CQD tun darf:
 
 |  |Berichte anzeigen  |EUII-Felder anzeigen  |Berichte erstellen  |Gebäudedaten hochladen  |
 |---------|:-------:|:-------:|:-------:|:-------:|
-|Globaler Office 365-Administrator     |Ja         |Ja         |Ja         |Ja         |
-|Teams-Dienstadministrator     |Ja         |Ja         |Ja         |Ja         |
-|Teams-Kommunikationsadministrator     |Ja         |Ja         |Ja         |Ja         |
-|Teams-Kommunikationssupporttechniker     |Ja         |Ja         |Ja         |Nein         |
+|Globaler Office 365-Administrator     |Ja          |Ja          |Ja          |Ja          |
+|Teams-Dienstadministrator     |Ja          |Ja          |Ja          |Ja          |
+|Teams-Kommunikationsadministrator     |Ja          |Ja          |Ja          |Ja          |
+|Teams-Kommunikationssupporttechniker     |Ja          |Ja          |Ja         |Nein         |
 |Supportfachmann für die Teams-Kommunikation     |Ja         |Nein         |Ja         |Nein         |
-|Skype for Business-Administrator     |Ja         |Ja         |Ja         |Ja         |
-|Azure AD globaler Leseberechtigter |Ja         |Ja         |Ja         |Nein         |
+|Skype for Business-Administrator     |Ja          |Ja          |Ja          |Ja         |
+|Azure AD globaler Leseberechtigter |Ja          |Ja          |Ja         |Nein         |
 |Office 365-Berichtleseberechtigter<sup>1</sup>     |Ja         |Nein         |Ja         |Nein         |
 
 <sup>1</sup> Zusätzlich zum Lesen von CQD-Berichten kann der Office 365-Berichtleseberechtigter alle [Aktivitätsberichte](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) im Admin Center sowie alle Berichte aus dem [Inhaltspaket zur Microsoft 365-Einführung](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f) anzeigen.
@@ -478,15 +478,15 @@ Sie können auf eine von drei Arten auf CQD zugreifen:
 
 -   Wechseln Sie zu **Microsoft Teams Admin Center** und wählen Sie den Link zu CQD aus, wie in der folgenden Abbildung gezeigt.
 
-![Screenshot des ausgewählten Dashboards für die Anrufqualität.](media/qerguide-image-mopo.png "Im linken Navigationsbereich ist der Link zum Dashboard für die Anrufqualität ausgewählt.")
+    ![Screenshot des ausgewählten Dashboards für die Anrufqualität.](media/qerguide-image-mopo.png "Im linken Navigationsbereich ist der Link zum Dashboard für die Anrufqualität ausgewählt.")
 
-_Abbildung 7 – Zugreifen auf CQD über das Microsoft Teams Admin Center_
+    _Abbildung 7 – Zugreifen auf CQD über das Microsoft Teams Admin Center_
 
 -   Wechseln Sie zum alten **Skype for Busines Admin Center** > **Tools** und wählen Sie den Link zu CQD aus, wie in der folgenden Abbildung gezeigt.
 
-![Screenshot von CQD, der im Hauptbereich ausgewählt ist.](media/qerguide-image-legacyui.png "Im linken Navigationsbereich ist "Tools" ausgewählt und der Link zu CQD ist im Hauptbereich ausgewählt.")
+    ![Screenshot von CQD, der im Hauptbereich ausgewählt ist.](media/qerguide-image-legacyui.png "Im linken Navigationsbereich ist "Tools" ausgewählt und der Link zu CQD ist im Hauptbereich ausgewählt.")
 
-_Abbildung 8 – Zugreifen auf CQD über das Skype for Business Admin Center_
+    _Abbildung 8 – Zugreifen auf CQD über das Skype for Business Admin Center_
 
 
 ### <a name="getting-started"></a>Erste Schritte
@@ -634,7 +634,7 @@ Das Format der Datei, die Sie hochladen, muss folgende Bedingungen erfüllen, um
 
 -   In jeder Spalte können die Daten leer sein, falls der Datentyp „Zeichenfolge" verwendet wird (jedoch müssen sie durch ein passendes Trennzeichen wie zum Beispiel ein Tabstoppzeichen oder ein Komma getrennt werden). Dadurch wird diesem Feld nur ein leerer Zeichenfolgenwert zugewiesen.
 
--   Jede Zeile muss 14 Spalten aufweisen. Jede Spalte muss den in der folgenden Tabelle beschriebenen Datentyp aufweisen und die Spalten müssen in der in der Tabelle aufgeführten Reihenfolge stehen.
+-   Für jede Zeile müssen 14 Spalten vorhanden sein (oder 15, wenn Sie die optionale VPN-Spalte hinzufügen möchten). Jede Spalte muss den in der folgenden Tabelle beschriebenen Datentyp aufweisen und die Spalten müssen in der in der Tabelle aufgeführten Reihenfolge stehen.
 
 _Tabelle 5 – Struktur der Gebäudedatei_
 
@@ -643,9 +643,9 @@ _Tabelle 5 – Struktur der Gebäudedatei_
 | Netzwerk            | String    | 192.168.1.0               | Erforderlich    |
 | NetworkName        | String    | USA/Seattle/SEATTLE-SEA-1 | Erforderlich\*  |
 | NetworkRange       | Zahl    | 26                        | Erforderlich    |
-| BuildingName       | Zeichenfolge    | SEATTLE-SEA-1             | Erforderlich\*  |
+| BuildingName       | String    | SEATTLE-SEA-1             | Erforderlich\*  |
 | OwnershipType      | String    | Contoso                   | Optional    |
-| BuildingType       | String    | IT Termination            | Optional    |
+| BuildingType       | Zeichenfolge    | IT Termination            | Optional    |
 | BuildingOfficeType | String    | Engineering (Technik)               | Optional    |
 | Stadt/Ort               | String    | Seattle                   | Empfohlen |
 | ZipCode            | String    | 98001                     | Empfohlen |

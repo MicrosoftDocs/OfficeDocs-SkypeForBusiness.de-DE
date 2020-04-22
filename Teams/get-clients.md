@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e423bedc05dbbf303ecfdbf569ff9e1b096bd3d7
-ms.sourcegitcommit: c16451519e05b47bbb77e09dacd13ff212617e91
-ms.translationtype: HT
+ms.openlocfilehash: 8a3425ca19ded72f814e8f81252b7224c2c08a42
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42327837"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749493"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams 
 
@@ -45,6 +45,9 @@ Der Microsoft Teams-Desktopclient ist eine eigenständige Anwendung und auch [in
 Die Desktopclients bieten Unterstützung für Echtzeitkommunikation (Audio, Video und Inhaltsfreigabe) für Teambesprechungen, Gruppenanrufe und private Einzelanrufe.
 
 Desktopclients können unter [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) von Endbenutzern direkt heruntergeladen und installiert werden, sofern sie über die entsprechenden lokalen Berechtigungen verfügen (Administratorrechte sind zum Installieren des Teams-Clients auf einem PC nicht erforderlich, auf einem Mac jedoch sind sie erforderlich).
+
+> [!NOTE]
+> Weitere Informationen zum Installieren von Teams auf einem chromebook finden Sie unter [so wird es gemacht: Installieren und Ausführen von Microsoft Office auf einem chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad).
 
 IT-Administratoren können ihre bevorzugte Methode für die Verteilung der Installationsdateien an die Computer in ihrer Organisation auswählen. Einige Beispiele hierfür sind Microsoft Endpoint Configuration Manager (Windows) oder Jamf Pro (macOS). Informationen dazu, wie Sie das MSI-Paket für die Verteilung von Windows erhalten, finden Sie unter [Installieren von Microsoft Teams mithilfe eines MSI-Pakets](msi-deployment.md).  
 
@@ -75,6 +78,8 @@ Wenn Benutzer erstmals mit dem Microsoft Teams-Client einen Anruf einleiten, seh
 > [!NOTE]
 > Die Konfiguration der Windows-Firewall wird auch dann geändert, wenn die Eingabeaufforderung durch Auswählen von „Abbrechen“ geschlossen wird. Zwei eingehende Regeln für „teams.exe“ werden mit der Aktion „Blockieren“ für die Protokolle TCP und UDP erstellt.
 
+Wenn Sie verhindern möchten, dass die Benutzer von Teams aufgefordert werden, Firewallregeln zu erstellen, wenn die Benutzer ihren ersten Anruf von Teams aus führen, verwenden Sie die folgende [Beispiel-PowerShell-Skript-eingehende Firewall-Regel](#sample-powershell-script---inbound-firewall-rule) . 
+
 ### <a name="mac"></a>Mac
 
 Mac-Benutzer können Teams mit einer PKG-Installationsdatei für macOS-Computer installieren. Administratorzugriff ist erforderlich, um den Mac-Client zu installieren. Der macOS-Client wird im Ordner „/Programme“ installiert.
@@ -103,7 +108,7 @@ IT-Administratoren können die verwaltete Bereitstellung von Teams für die Vert
 ### <a name="linux"></a>Linux
 
 Benutzer können native Linux-Pakete im Format `.deb` und `.rpm` installieren.
-Bei der Installation des DEB- oder RPM-Pakets wird das Paketrepository automatisch installiert.
+Bei der Installation des deb-oder RPM-Pakets wird das Paket-Repository automatisch installiert.
 - DEB `https://packages.microsoft.com/repos/ms-teams stable main`
 - RPM `https://packages.microsoft.com/yumrepos/ms-teams` 
 
@@ -214,7 +219,7 @@ Zurzeit sind keine Optionen verfügbar, mit denen IT-Administratoren clientseiti
 
 ![Screenshot der Benachrichtigungseinstellungen](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-## <a name="sample-powershell-script"></a>PowerShell-Beispielskript
+## <a name="sample-powershell-script---inbound-firewall-rule"></a>Beispiel für eine PowerShell-Skript-eingehende Firewall-Regel
 
 Dieses Beispielskript, das auf Clientcomputern im Kontext eines Administratorkontos mit erweiterten Berechtigungen ausgeführt werden muss, erstellt eine neue eingehende Firewallregel für jeden Benutzerordner unter C:\Users. Wenn Teams diese Regel findet, kann sie verhindern, dass die Teams-Anwendung Benutzer zum Erstellen von Firewallregeln auffordert, wenn der Benutzer seinen ersten Aufruf über Teams tätigt. 
 

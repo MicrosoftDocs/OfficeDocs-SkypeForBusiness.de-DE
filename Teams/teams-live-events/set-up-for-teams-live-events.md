@@ -18,43 +18,48 @@ description: Richten Sie Liveereignisse in Teams ein, einschließlich der Einric
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ae30fdb824c62027d1a704435e80df2a9abf1f85
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
-ms.translationtype: HT
+ms.openlocfilehash: 8e3110717cd9279d881415bf1e01d03a1cbee293
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140564"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749802"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichtung für Liveereignisse in Microsoft Teams
 
 Wenn Sie Liveereignisse einrichten, müssen Sie mehrere Schritte ausführen.
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>Schritt 1: Einrichten Ihres Netzwerk für Liveereignisse in Teams
+
 Für Liveereignisse, die in Teams produziert werden, müssen Sie [das Netzwerk Ihrer Organisation für Teams](https://docs.microsoft.com/microsoftteams/prepare-network) vorbereiten.  
 
 ## <a name="step-2-get-and-assign-licenses"></a>Schritt 2: Abrufen und Zuweisen von Lizenzen
-Stellen Sie sicher, dass Sie die korrekten Lizenzzuweisungen für [ haben, die Liveereignisse](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events) erstellen und planen können, und für [, die Liveereignisse](plan-for-teams-live-events.md#who-can-watch-live-events) verfolgen können.
+
+Stellen Sie sicher, dass Sie die korrekten Lizenzzuweisungen für [ haben, die Liveereignisse](plan-for-teams-live-events.md#who-can-attend-create-and-schedule-live-events) erstellen und planen können, und für [, die Liveereignisse](plan-for-teams-live-events.md#who-can-watch-live-events) verfolgen können.
 
 ## <a name="step-3-set-up-live-events-policies"></a>Schritt 3: Einrichten von Richtlinien für Liveereignisse
+
 Richtlinien für Liveereignisse werden verwendet, um zu steuern, wer in Ihrer Organisation Liveereignisse abhalten kann und welche Funktionen in den von ihnen erstellten Ereignissen verfügbar sind. Sie können die Standardrichtlinie verwenden oder eine oder mehrere benutzerdefinierte Richtlinien für Liveereignisse erstellen. Nachdem Sie eine benutzerdefinierte Richtlinie erstellt haben, weisen Sie sie einem Benutzer oder Benutzergruppen in Ihrer Organisation zu.
 
 > [!NOTE]
-> Benutzer in Ihrer Organisation erhalten die globale Richtlinie, es sei denn, Sie erstellen und weisen eine benutzerdefinierte Richtlinie zu. Standardmäßig ist in der globalen Richtlinie die Planung von Liveereignissen für Teams-Benutzer aktiviert, Live-Untertitel und Untertitel (Transkription) sind deaktiviert, jeder in der Organisation kann an Liveereignissen teilnehmen, und die Aufzeichnungseinstellung ist so eingestellt, dass immer aufgezeichnet wird. 
+> Benutzer in Ihrer Organisation erhalten die globale Richtlinie, es sei denn, Sie erstellen und weisen eine benutzerdefinierte Richtlinie zu. Standardmäßig ist in der globalen Richtlinie die Planung von Liveereignissen für Teams-Benutzer aktiviert, Live-Untertitel und Untertitel (Transkription) sind deaktiviert, jeder in der Organisation kann an Liveereignissen teilnehmen, und die Aufzeichnungseinstellung ist so eingestellt, dass immer aufgezeichnet wird.
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Erstellen oder Bearbeiten einer Richtlinie für Liveereignisse
+
 <a name="bkcreatepolicy"> </a>
 
 **![Ein Symbol mit dem Microsoft Teams-Logo](../media/teams-logo-30x30.png) Unter Verwendung des Microsoft Teams Admin Centers**
 
-1. Gehen Sie in der linken Navigation auf **Besprechungen** > **Richtlinien für Liveereignisse**. 
+1. Gehen Sie in der linken Navigation auf **Besprechungen** > **Richtlinien für Liveereignisse**.
 2. Führen Sie einen der folgenden Schritte aus:
-- Wenn Sie die vorhandene Standardrichtlinie bearbeiten möchten, wählen Sie **Global (organisationsweiter Standard)** aus. 
-- Wenn Sie eine neue benutzerdefinierte Richtlinie erstellen möchten, wählen Sie **Neue Richtlinie**aus. 
-- Wenn Sie eine benutzerdefinierte Richtlinie bearbeiten möchten, markieren Sie die Richtlinie, und wählen Sie dann **Bearbeiten** aus. 
+
+- Wenn Sie die vorhandene Standardrichtlinie bearbeiten möchten, wählen Sie **Global (organisationsweiter Standard)** aus.
+- Wenn Sie eine neue benutzerdefinierte Richtlinie erstellen möchten, wählen Sie **Neue Richtlinie**aus.
+- Wenn Sie eine benutzerdefinierte Richtlinie bearbeiten möchten, markieren Sie die Richtlinie, und wählen Sie dann **Bearbeiten** aus.
 
     Hier sind die Einstellungen, die Sie ändern können, um sie an die Bedürfnisse Ihrer Organisation anzupassen.
 
-    ![Screenshot der Richtlinieneinstellungen für Liveereignisse](../media/teams-live-events-policies.png "Screenshot der Richtlinieneinstellungen für Liveereignisse im Microsoft Teams Admin Center") 
+    ![Screenshot der Richtlinieneinstellungen für Liveereignisse](../media/teams-live-events-policies.png "Screenshot der Richtlinieneinstellungen für Liveereignisse im Microsoft Teams Admin Center")
 
 |Einstellung  |Beschreibung  |
 |---------|---------|

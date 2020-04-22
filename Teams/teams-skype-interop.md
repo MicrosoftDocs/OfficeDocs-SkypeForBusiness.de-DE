@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Informieren Sie sich über die Interoperabilitätsfunktionen zwischen Teams-Benutzern in Ihrer Organisation und Skype (Consumer)-Benutzern.
 localization_priority: Normal
-ms.openlocfilehash: 6e157cb04687d0577ad5b4cb5fd8da7d2f55e0b4
-ms.sourcegitcommit: 87022aa009eae868e1fd945dc299367e16733a3c
+ms.openlocfilehash: ca67cd1f96b2a0e8bc9b65e60ccf71fdea53763a
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42545024"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749552"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams und Skype-Interoperabilität
 
@@ -76,9 +76,9 @@ Wenn Sie ein Upgrade von Skype for Business auf Teams durchgeführt haben, werde
 
 Wechseln Sie im Microsoft Teams Admin Center zu **organisationsweiten Einstellungen** > **externer Zugriff**, und aktivieren Sie dann **Benutzer können mit Skype-Benutzern kommunizieren**. Eine Schritt-für-Schritt-Anleitung zum Konfigurieren dieser und anderer Einstellungen für den externen Zugriff finden Sie unter [Verwalten des externen Zugriffs in Teams](https://docs.microsoft.com/microsoftteams/manage-external-access#allow-or-block-domains).
 
-### <a name="using-powershell"></a>Verwenden von PowerShell
+### <a name="using-powershell"></a>Verwendung von PowerShell
 
-Verwenden Sie das Cmdlet " [Satz-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) " ```EnablePublicCloudAccess``` zusammen mit dem Parameter, um zu steuern, ob die Benutzer von Teams mit Skype-Benutzern kommunizieren können. Durch Festlegen des para ```true``` meters können die Benutzer von Teams mit Skype-Nutzern kommunizieren.
+Verwenden Sie das Cmdlet " [Satz-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/set-csexternalaccesspolicy) " ```EnablePublicCloudAccess``` zusammen mit dem Parameter, um zu steuern, ob die Benutzer von Teams mit Skype-Benutzern kommunizieren können. Durch Festlegen des para ```true``` meters können die Benutzer von Teams mit Skype-Nutzern kommunizieren. Beachten Sie, ```EnablePublicCloudAudioVideoAccess``` dass der Parameter verwendet werden kann, um Audio-und Videoanrufe zu aktivieren/deaktivieren.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

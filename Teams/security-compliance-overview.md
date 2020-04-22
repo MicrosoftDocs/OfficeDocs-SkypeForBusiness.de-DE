@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17cf1e32b26edc609bea9e679c9f5ee5f4cc66d2
-ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
+ms.openlocfilehash: 42f6b185a8a09b0aae139175acfc632b84387db8
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43237898"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749442"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sicherheit und Compliance in Microsoft Teams
 
@@ -118,9 +118,9 @@ Weitere Informationen dazu, wie Sie Office 365 eDiscovery im Security & Complian
 
 Wir haben einen Teams-spezifischen Artikel für weitere Informationen, [eDiscovery von Gast-zu-Gast-Chats](eDiscovery-investigation.md).
 
-Kunden können in-Place-eDiscovery oder [Advanced eDiscovery] je nach Ihren [Anforderungen](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery)nutzen. In der folgenden Tabelle sind die Unterschiede zwischen den beiden Funktionen aufgeführt:
+Kunden können eDiscovery oder [Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery) pro Ihre Anforderungen nutzen. In der folgenden Tabelle sind die Unterschiede zwischen den beiden Funktionen aufgeführt:
 
-| |In-Situ-eDiscovery  |Advanced eDiscovery  |
+| |eDiscovery  |Advanced eDiscovery  |
 |---------|---------|---------|
 |Fallmanagement     |X        |X         |
 |Access Control  |X         |X         |

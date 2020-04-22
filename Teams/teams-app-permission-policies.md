@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: baf3f025dd9b2340f59aee18d72d3707e4cab8fd
-ms.sourcegitcommit: dde63e1b92c0bc3dbb41d8670778b863c3bc9bec
+ms.openlocfilehash: 3382eff6334c3879c1c30d503101446ceaae4df9
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42601412"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749812"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams
 
-Als Administrator können Sie App-Berechtigungsrichtlinien verwenden, um zu steuern, welche apps Microsoft Teams-Benutzern in Ihrer Organisation zur Verfügung stehen. Sie können alle apps oder bestimmte apps, die von Microsoft, Drittanbietern und Ihrer Organisation veröffentlicht wurden, zulassen oder blockieren. Wenn Sie eine APP blockieren, können Benutzer, die über die Richtlinie verfügen, Sie nicht aus dem App Store von Teams installieren. Sie müssen ein globaler Administrator oder Teams-Dienstadministrator sein, um diese Richtlinien verwalten zu können.
+Als Administrator können Sie App-Berechtigungsrichtlinien verwenden, um zu steuern, welche Apps Microsoft Teams-Benutzern in Ihrer Organisation zur Verfügung stehen. Sie können alle apps oder bestimmte apps, die von Microsoft, Drittanbietern und Ihrer Organisation veröffentlicht wurden, zulassen oder blockieren. Wenn Sie eine App blockieren, kann sie von Benutzern, die unter die Richtlinie fallen, nicht aus dem App-Shop für Microsoft Teams installiert werden. Sie müssen ein globaler Administrator oder Teams-Dienstadministrator sein, um diese Richtlinien verwalten zu können.
 
 Sie verwalten App-Berechtigungsrichtlinien im Microsoft Teams Admin Center. Sie können die globale (org-Wide Standard)-Richtlinie verwenden oder benutzerdefinierte Richtlinien für einzelne Benutzer oder Benutzer in einer Gruppe erstellen und zuweisen.  
 
@@ -87,17 +87,17 @@ Mit dem Microsoft Teams Admin Center können Sie einem oder mehreren Benutzern o
 ### <a name="assign-a-custom-app-permission-policy-to-a-user"></a>Zuweisen einer benutzerdefinierten App-Berechtigungsrichtlinie zu einem Benutzer
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Benutzer**.
-2. Wählen Sie den Benutzer aus, indem Sie links neben dem Benutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
+2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
 3. Wählen Sie unter **App-Berechtigungsrichtlinie**die APP-Berechtigungsrichtlinie aus, die Sie zuweisen möchten, und klicken Sie dann auf über **nehmen**.
 
-Informationen zum Zuweisen einer Richtlinie zu mehreren Benutzern gleichzeitig finden Sie unter [Bearbeiten von Benutzereinstellungen für Teams in Massen](edit-user-settings-in-bulk.md).
+Informationen dazu, wie Sie eine Richtlinie mehreren Nutzern gleichzeitig zuweisen können, finden Sie unter [Batchbearbeitung von Nutzereinstellungen eines Teams](edit-user-settings-in-bulk.md).
 
 Sie können auch die folgenden Schritte ausführen:
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams-apps** > -**Berechtigungsrichtlinien**.
 2. Wählen Sie die gewünschte Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken.
-3. Wählen Sie **Benutzer verwalten** aus.
-4. Suchen Sie im Bereich **Benutzer verwalten** nach dem Benutzer mit Anzeigename oder nach Benutzername, wählen Sie den Namen aus, und klicken Sie dann auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
+3. Wählen Sie **Nutzer verwalten** aus.
+4. Suchen Sie im Bereich **Nutzer verwalten** anhand des Anzeigenamens oder des Nutzernamens nach dem Nutzer, wählen Sie den Namen und dann **Hinzufügen** aus. Wiederholen Sie diesen Schritt für jeden Nutzer, den Sie hinzufügen möchten.
 5. Wenn Sie alle gewünschten Benutzer hinzugefügt haben, klicken Sie auf **Speichern**.
 
 ### <a name="assign-a-custom-app-permission-policy-to-users-in-a-group"></a>Zuweisen einer benutzerdefinierten App-Berechtigungsrichtlinie zu Benutzern in einer Gruppe
@@ -149,6 +149,9 @@ Gehen Sie wie folgt vor, um eine Drittanbieter-App für einen Benutzer oder eine
 
 ### <a name="working-with-app-permission-policies"></a>Arbeiten mit App-Berechtigungsrichtlinien
 
+#### <a name="what-app-interactions-do-permission-policies-affect"></a>Welche APP-Interaktionen wirken sich auf Berechtigungsrichtlinien aus?
+Berechtigungsrichtlinien Regeln die APP-Verwendung durch Steuern der Installation, Ermittlung und Interaktion für Endbenutzer. Administratoren können weiterhin apps im Microsoft Teams Admin Center unabhängig von den Ihnen zugewiesenen Berechtigungsrichtlinien verwalten.
+
 #### <a name="can-i-control-line-of-business-lob-apps"></a>Kann ich Branchen-Apps (Business) steuern?
 Ja, Sie können APP-Berechtigungsrichtlinien zum Steuern des Rollouts und der Verteilung von benutzerdefinierten (LOB-) Apps verwenden. Sie können eine benutzerdefinierte Richtlinie erstellen oder die globale Richtlinie bearbeiten, um benutzerdefinierte apps basierend auf den Anforderungen Ihrer Organisation zuzulassen oder zu blockieren.
 
@@ -183,7 +186,7 @@ Wenn beispielsweise eine APP blockiert ist, können die Benutzer keine der folge
 
 Das Legacy Portal hat das Steuern von apps auf Organisationsebene ermöglicht, was bedeutet, dass eine APP blockiert wird, wenn Sie für alle Benutzer in der Organisation blockiert ist. Das Blockieren einer APP auf der Seite " [apps verwalten](manage-apps.md) " funktioniert genauso.
 
-Für App-Berechtigungsrichtlinien, die bestimmten Benutzern zugewiesen wurden, wenn eine APP mit bot-oder connectorfunktion zugelassen und dann blockiert wurde und die APP dann nur für einige Benutzer in einem freigegebenen Kontext zulässig ist, Mitglieder eines Gruppen-Chats oder Kanals, die nicht über die Berechtigung für diese APP verfügen  kann das Nachrichtenprotokoll und die Nachrichten sehen, die vom bot oder Connector gepostet wurden, aber nicht mit ihm interagieren können.
+Für App-Berechtigungsrichtlinien, die bestimmten Benutzern zugewiesen wurden, wenn eine APP mit bot-oder connectorfunktion zugelassen und dann blockiert wurde und die APP dann nur für einige Benutzer in einem freigegebenen Kontext zulässig ist, können Mitglieder eines Gruppen-Chats oder Kanals, die keine Berechtigung für diese APP haben, das Nachrichtenprotokoll und die Nachrichten sehen, die vom bot oder Connector gepostet wurden. , kann aber nicht mit ihr interagieren.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
