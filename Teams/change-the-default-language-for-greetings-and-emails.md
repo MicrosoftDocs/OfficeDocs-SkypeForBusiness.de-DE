@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Hier erfahren Sie, wie Sie Skype für Unternehmen einrichten, um eine andere Sprache für die standardmäßige Voicemail-Ansage Ihrer Organisation zu verwenden.
-ms.openlocfilehash: 829776be347f2453f3b87a150b19e2334e876f40
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 1fb9a97c31e973d6a56da65d301324b1d9d34b90
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139134"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43752342"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Ändern der Standardsprache für Ansagen und E-Mails
 
@@ -49,9 +49,9 @@ Wenn Sie [globaler Office 365-Administrator](https://support.office.com/article
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Ändern der Systemsprache für alle Benutzer in der Organisation
 
-1. Registrieren Sie sich[https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)bei Ihrem [globalen Office 365-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Konto. 
+1. Registrieren Sie sich [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)bei Ihrem [globalen Office 365-Administrator](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) Konto. 
     
-2. Wählen Sie im Microsoft 365 Admin Center **Einstellungen** > **Organisationsprofil**aus. 
+2. Wählen Sie im Microsoft 365 Admin Center **Einstellungen** > **Settings** > Einstellungen**Organisationsprofil**aus. 
     
      ![Screenshot mit Auswahl von Einstellungen und dann Organisationsprofil](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   

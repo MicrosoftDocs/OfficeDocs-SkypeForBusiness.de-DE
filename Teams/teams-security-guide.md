@@ -19,15 +19,15 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32cbbbc87e6447c3bc49b97b772e2aea4849550f
-ms.sourcegitcommit: 1d24b62f41bce4f8d86d6060291af1267f75a2a2
+ms.openlocfilehash: d3375abfbcd8319d104b4a2a657492c5105e240f
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209497"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749782"
 ---
 > [!IMPORTANT]
-> Das Teams-Dienstmodell kann geändert werden, um die Kundenzufriedenheit zu verbessern. So können beispielsweise die standardmäßigen Ablaufzeiten des Zugriffs- oder Aktualisierungstokens geändert werden, um die Leistung und die Authentifizierungssicherheit für Benutzer von Teams zu verbessern. Solche Änderungen würden vorgenommen, um die Sicherheit und Vertrauenswürdigkeit von Teams zu gewährleisten. 
+> Das Teams-Dienstmodell kann geändert werden, um die Kundenzufriedenheit zu verbessern. So können beispielsweise die standardmäßigen Ablaufzeiten des Zugriffs- oder Aktualisierungstokens geändert werden, um die Leistung und die Authentifizierungssicherheit für Benutzer von Teams zu verbessern. Solche Änderungen würden vorgenommen, um die Sicherheit und Vertrauenswürdigkeit von Teams zu gewährleisten.
 <p>
 
  # <a name="security-and-microsoft-teams"></a>Sicherheit und Microsoft Teams

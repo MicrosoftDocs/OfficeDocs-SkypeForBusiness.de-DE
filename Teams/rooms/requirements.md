@@ -1,5 +1,5 @@
 ---
-title: Anforderungen für Microsoft Teams-Räume
+title: Voraussetzungen für Microsoft Teams-Räume
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
@@ -13,170 +13,170 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: In diesem Artikel werden die Voraussetzungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
+description: Dieser Artikel fasst die Voraussetzungen für die Unterstützung von Microsoft Teams-Räume zusammen.
 ms.openlocfilehash: 2496fcb1af7d85a3d1c3ba755a2431aff40d5a70
 ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/15/2020
 ms.locfileid: "43521601"
 ---
-# <a name="microsoft-teams-rooms-requirements"></a>Anforderungen für Microsoft Teams-Räume
+# <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
-Microsoft Teams-Räume Skalieren auf unterschiedliche Raumgrößen, indem Sie eine große Auswahl an zertifizierten Audio-und Video-Peripheriegeräten verwenden, die auf der Größe und Nutzung des Raums basieren. Durch die Auswahl des richtigen Core-Geräts und der richtigen Konsole, kombiniert mit Mikrofonen, Lautsprechern, Kameras und Displays, die für den jeweiligen Platz geeignet sind, können Sie Microsoft Teams-Räume in Räumen beliebiger Größe aus sehr kleinen Chatrooms in sehr großen Konferenzräumen und Sitzungssälen bereitstellen.  Der vollständige Satz aller verfügbaren zertifizierten Audio-und Video-Peripheriegeräte, die für die Konfiguration Ihres Chatrooms verwendet werden können, finden Sie im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices).
+Microsoft Teams-Räume lassen sich durch die Verwendung einer Vielzahl zertifizierter Audio- und Videoperipheriegeräte je nach Größe und Nutzung des Raumes auf verschiedene Raumgrößen skalieren. Durch die Auswahl des richtigen Kerngeräts und der richtigen Konsole, kombiniert mit Mikrofonen, Lautsprechern, Kameras und Displays, die für den jeweiligen Raum geeignet sind, können Sie Microsoft Teams-Räume in Räumen jeder Größe einsetzen, von sehr kleinen Gruppenräumen bis hin zu sehr großen Konferenzräumen und Sitzungszimmern.  Der vollständige Satz aller verfügbaren zertifizierten Audio- und Videoperipheriegeräte, die zur Konfiguration Ihres Raumes verwendet werden können, ist im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices) verfügbar.
 
-In diesem Artikel werden die Geräte Bereitstellungs-und Konfigurationsanforderungen für die Unterstützung von Microsoft Teams-Räumen zusammengefasst.
+Dieser Artikel fasst die Gerätebereitstellungs- und Konfigurationsvoraussetzungen für die Unterstützung von Microsoft Teams-Räume zusammen.
 
-Ihre Bereitstellung umfasst die Kontoerstellung, wie unter [Bereitstellen von Microsoft Teams-Räumen](rooms-deploy.md) und Einrichten von Besprechungskonsolen beschrieben, wie unter [Konfigurieren einer Microsoft Teams rooms-Konsole](console.md)beschrieben.
+Ihre Bereitstellung umfasst das Erstellen von Konten, wie in [Bereitstellen von Microsoft Teams-Räume](rooms-deploy.md) beschrieben, und das Einrichten von Besprechungskonsolen laut der Beschreibung unter [Konfigurieren einer Konsole für Microsoft Teams-Räume](console.md).
 
-Weitere Informationen finden Sie unter:
+Lesen Sie auch:
 
 - [Lizenzierung des Skype for Business-Add-Ons](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [Lizenzoptionen auf Grundlage Ihres Plans: Microsoft Teams-Chatrooms](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Lizenzoptionen basierend auf Ihrem Plan: Microsoft Teams-Räume](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Microsoft Teams-Chatrooms melden Sie sich bei Microsoft Teams, Skype for Business Server 2019, Skype for Business Server 2015 oder Skype for Business Online an und können an Besprechungen teilnehmen, die von diesen Diensten gehostet werden.
+> Microsoft Teams-Räume melden sich bei Microsoft Teams, Skype für Business Server 2019, Skype für Business Server 2015 oder Skype for Business Online an und können an Besprechungen teilnehmen, die von einem dieser Dienste gehostet werden.
 >
-> Frühere Plattformen wie lync Server 2013 werden von Microsoft Teams-Räumen nicht unterstützt. Microsoft Teams Rooms wird in Office 365, das von 21Vianet betrieben wird, oder in Umgebungen mit gcc-hoher oder DoD nicht unterstützt.
+> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams-Räume wird weder in Office 365, das von 21Vianet betrieben wird, noch in GCC High- oder DoD-Umgebungen unterstützt.
 >
-> Wenn Sie über einen auf-Prem Exchange-Server verfügen, erfordert Microsoft Teams rooms die Verwendung von Exchange Server 2013 SP1 oder höher.
+> Wenn Sie über einen lokalen Exchange-Server verfügen, ist die Verwendung von Exchange Server 2013 SP1 oder höher für Microsoft Teams-Räume erforderlich.
 
 ## <a name="hardware-requirements"></a>Hardwareanforderungen
-Eine Hardwarebereitstellung umfasst eine Auswahl eines Microsoft Teams Room-Systems, kombiniert mit zertifizierten Audio-und Video-Peripheriegeräten und einer Verkabelungslösung, um diese Geräte zusammen zu integrieren.  Diese Optionen werden hier beschrieben.
+Die Hardware-Implementierung umfasst die Auswahl eines Systems für Microsoft Teams-Räume, kombiniert mit zertifizierten Audio- und Video-Peripheriegeräten, sowie eine Verkabelungslösung zur Integration dieser Geräte.  Diese Optionen werden hier beschrieben.
 
-**Unterstützte Microsoft Teams-Raumsysteme**
+**Unterstützte Systeme für Microsoft Teams-Räume**
 
-Alle aktuellen Microsoft Teams-Room-Geräte und-Bundles sind in der [Produktpräsentation Room Systems](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=)erhältlich.
+Alle aktuellen Geräte und Bundles für Microsoft Teams-Räume sind im [Raumsystem-Produktvitrine](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=20&page=1&filterIds=) erhältlich.
 
-  |Konsole|Prozessor|RAM|Festplatte|
+  |Konsole|Prozessor|RAM|Festplattenspeicher|
   |:-----|:-----|:-----|:-----|
-  |[Crestron Flex UC-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 GB |128 GB |
-  |[Crestron Flex UC-B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 GB |128 GB |
-  |[Crestron Flex UC-B140-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 GB |128 GB |
-  |[Crestron Flex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T) + [CCS-UCA-MIC](https://www.crestron.com/en-US/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8 GB |128 GB |
-  [Crestron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
-  |[Crestron Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
-  |[HP Elite-Slice für Besprechungsräume G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
-  |[HP Elite Slice G2-Audio bereit mit Microsoft Teams-Räumen](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
-  |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
-  |[Logitech Tap](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
-  |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
-  |[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
-  |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
-  |[Yealink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 GB|128 GB|
+  |[Crestron Flex UC-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 GB |128 GB |
+  |[Crestron Flex UC-B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 GB |128 GB |
+  |[Crestron Flex UC-B140-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 GB |128 GB |
+  |[Crestron Flex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T) + [CCS-UCA-MIC](https://www.crestron.com/de-DE/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8 GB |128 GB |
+  [Crestron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
+  |[Crestron Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
+  |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
+  |[HP Elite Slice G2 Audio bereit für Microsoft Teams-Räume](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
+  |[Lenovo ThinkSmart Hub 500](https://www3.lenovo.com/us/en/hub500) |Core i5 |8 GB |128 GB |
+  |[Logitech Tap](https://www.logitech.com/product/microsoft-rooms)|Core i5|8 GB |128 GB |
+  |[Yealink MVC800](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
+  |[Yealink MVC500](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
+  |[Yealink MVC300](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
+  |[Yealink MVC900](https://www.yealink.com/product/microsoft-teams-room-system-mvc900)|Core i5|8 GB|128 GB|
   ||||||
 
 > [!NOTE]
 > - Core M3-Prozessoren werden nicht unterstützt.
-> - Sie benötigen ein 32 GB-oder größeres USB-Laufwerk, das als startfähige Windows-Installationsmedien für Windows 10 Enterprise konfiguriert ist.
+> - Sie benötigen ein USB-Laufwerk mit 32 GB oder mehr, das als bootfähiges Windows-Installationsmedium für Windows 10 Enterprise konfiguriert ist.
 
-**Unterstützte Surface pro-Tablets für Systeme im Dock-Stil**
+**Unterstützte Surface Pro-Tablets für Dock-Style-Systeme**
 
-  |Tablet|Prozessor|RAM|Festplatte|
+  |Tablet|Prozessor|RAM|Festplattenspeicher|
   |:-----|:-----|:-----|:-----|
-  |Surface pro 6| Core i5 |16 GB oder 8 GB |128 GB oder mehr |
-  |Surface pro </br>(fünfte Generation) |Core i5 |8 GB oder 4 GB |128 GB oder mehr |
-  |Surface pro 4 |Core i5 |8 GB oder 4 GB |128 GB oder mehr |
+  |Surface Pro 6| Core i5 |16 GB oder 8 GB |128 GB oder mehr |
+  |Surface Pro </br>(fünfte Generation) |Core i5 |8 GB oder 4 GB |128 GB oder mehr |
+  |Surface Pro 4 |Core i5 |8 GB oder 4 GB |128 GB oder mehr |
 
-- Surface pro-Geräte erfordern eine der folgenden Optionen für die Docking-Station, um ein Tablet auf die Besprechungsraum Tabelle zu sichern.
+- Surface Pro-Geräte erfordern eine der folgenden Docking-Station-Optionen zur Befestigung eines Tabletts am Tisch des Besprechungsraums.
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-  - [Polycom MSR-Serie](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
+  - [Polycom MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>Zertifizierte Firmware-Versionen für USB-Audio-und Video-Peripheriegeräte
+### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>Zertifizierte Firmwareversionen für USB-Audio- und-Videoperipheriegeräte
 
-Diese Geräte sind in der [Produktpräsentation Room System Zubehör](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=) erhältlich und [https://office.com/teamsdevices](https://office.com/teamsdevices).
+Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=) und [https://office.com/teamsdevices](https://office.com/teamsdevices)erhältlich.
 
-|Periphere Microsoft Teams rooms|Zertifizierte Firmware-Version | Kamera unterstützt die Verwendung von Kamera Inhalten|
+|Peripheriegeräte für Microsoft Teams-Räume|Zertifizierte Firmwareversion | Kamera unterstützt die Verwendung von Inhaltskameras|
 |:--- |:--- | :--- |
-|[Crestron-Kuschel-IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  |  |
-|[Logitech Brio](https://www.logitech.com/product/brio)   |V 2.2.50| &#x2714; |
-|[Logitech 930E](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
-|[Logitech-Rallye](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
-|[Meetup zu Logitech](https://www.logitech.com/product/meetup-conferencecam)   |Audio – 1.0.172 <br/> Video – 1.0.156  |
+|[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  |  |
+|[Logitech Brio](https://www.logitech.com/product/brio)   |V2.2.50| &#x2714; |
+|[Logitech 930e](https://www.logitech.com/product/c930e-webcam)   | 8.0.914   | &#x2714; |
+|[Logitech Rallye](https://www.logitech.com/product/rally-ultra-hd-conferencecam)   |1.2.4 |
+|[Meetup von Logitech](https://www.logitech.com/product/meetup-conferencecam)   |Audio – 1.0.172 <br/> Video – 1.0.156  |
 |[Logitech ConferenceCam Connect](https://www.logitech.com/product/conferencecam-connect)   |1.1.248.0 <br/> 1.1.684   |
-|[Logitech-Gruppe](https://www.logitech.com/product/conferencecam-group)   |8.5.778   |
-|[Logitech PTZ pro](https://www.logitech.com/product/conferencecam-ptz-pro)   | 1.1.219   |
-|[Logitech PTZ pro 2](https://www.logitech.com/product/conferencecam-ptz-pro2)   |
-|[Poly Eagle Eye-Würfel Kamera](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html)  |1.2.0 |
+|[Group von Logitech](https://www.logitech.com/product/conferencecam-group)   |8.5.778   |
+|[Logitech PTZ Pro](https://www.logitech.com/product/conferencecam-ptz-pro)   | 1.1.219   |
+|[Logitech PTZ Pro 2](https://www.logitech.com/product/conferencecam-ptz-pro2)   |
+|[Poly Eagle Eye Cube Camera](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html)  |1.2.0 |
 |[Polycom EagleEye IV](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl)   |1.0.0   |
 |[Polycom CX5100](https://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl)   | 1.2.0.70232   |
 |[Polycom Eagle Eye Director II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
-|[Polycom Studio-Soundleiste](https://www.polycom.com/hd-video-conferencing/room-video-systems/polycom-studio.html)|1.1.2.000570|
-|[Polycom Trio 8500/8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|
-|[Sennheiser SP 220 ms](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
-|[Sennheiser sp20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml)   |1.2.15   |
+|[Polycom Studio Soundbar](https://www.polycom.com/hd-video-conferencing/room-video-systems/polycom-studio.html)|1.1.2.000570|
+|[Polycom Trio 8500 / 8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html)   |5.7.2.3205|
+|[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
+|[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml)   |1.2.15   |
 |[Sennheiser SP30](https://en-us.sennheiser.com/sp-30)   |2.1.52  |
 |[Sennheiser SP30T](https://en-us.sennheiser.com/sp-30)  |3.2.63  |
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
-|[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100C   |
+|[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
-|[Shure Intellimix P300-Audiokonferenz Prozessor](https://www.shure.com/en-US/products/mixers/p300)+</br></br> [Shure MXA 310 Table Array MIC](https://www.shure.com/en-US/products/microphones/mxa310) | 4,1 |
-|[Shure Intellimix P300-Audiokonferenz Prozessor](https://www.shure.com/en-US/products/mixers/p300) + </br></br> [Shure MXA 910 mit Intellimix-decken-Array-Mikrofon](https://www.shure.com/en-US/products/microphones/mxa910) | 4,1|
-|[Biamp Tesira Fore AVB VT4 Fixed Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect decken 2-Mikrofon](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira Ex-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2:1.3.3 </br></br> Ex-UBT: 3.12.0.15 |
-|[Bose ControlSpace Ex-440C DSP + </br>Bose P2600A AmpLink Verstärker +</br> Sennheiser TCC2 decken Mikrofon </br> + Bose EdgeMax EM180 Deckenlautsprecher](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose-DSP: 2,290  </br> P2600A: 1,160  </br> TCC2:1.4.2  |  |
+|[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/de-DE/products/mixers/p300)+</br></br> [Shure MXA 310 Tabelle Array Mic ](https://www.shure.com/de-DE/products/microphones/mxa310) | 4.1 |
+|[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/de-DE/products/mixers/p300) + </br></br> [Shure MXA 910 mit Intellimix Ceiling Array Mic](https://www.shure.com/de-DE/products/microphones/mxa910) | 4.1|
+|[Biamp Tesira Fore AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 2-Deckenmikrofon](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
+|[ControlSpace EX-440C DSP von Bose + </br>P2600A AmpLink-Verstärker von Bose +</br> TCC2-Deckenmikrofon von Sennheiser + </br> EdgeMax EM180-Deckenlautsprecher von Bose ](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
 ||||||
 
-&Dagger;Kunden können entweder das Dante-Interface oder den von Biamp/Sennheiser für dieses Bundle empfohlenen Netzwerkschalter wählen.
+&Dagger;-Kunden können entweder die Dante-Benutzeroberfläche oder den von Biamp/Sennheiser empfohlenen Netzwerkschalter für dieses Paket auswählen.
 
 #### <a name="usb-extenders"></a>USB-Extender
 
-- USB-Anschlüsse an Tablet-Docks sind USB-3,0-kompatibel. Sie können einen USB 2. x-Extender verwenden, doch dies schränkt Sie auf USB 2. x-Geschwindigkeiten am anderen Ende ein. Extender werden für USB 3,0-Peripheriegeräte nicht empfohlen.
-- Ein Extender muss USB 2,0 oder neuere Spezifikationen erfüllen.
-  - Tablet-Docks unterstützen mindestens zwei Phasen der externen USB-Hub-Erweiterung. Wenn Sie mehr als zwei USB-Hubs in Serie anschließen, erkundigen Sie sich beim Hersteller des Docks, ob er die Reihenverbindung unterstützt.
-  - Kabelgebundene GbE-Verbindung im Raum. Ethernet-Kabel mit geeigneter Länge.
-  - Bis zu 2 1080-p-Displays mit HDMI-Anschlüssen. HDMI-Kabel mit geeigneter Länge.
+- USB-Anschlüsse auf Tablet-Docks sind USB 3.0-kompatibel. Sie können einen USB 2.x-Extender verwenden, aber dies beschränkt Sie auf USB 2.x-Geschwindigkeiten auf der Gegenseite. Extender werden für USB 3.0-Peripheriegeräte nicht empfohlen.
+- Ein Extender muss USB 2.0 oder neuere Spezifikationen erfüllen.
+  - Tablet-Docks unterstützen mindestens zwei Phasen der externen USB-Hub-Erweiterung. Wenn Sie mehr als zwei USB-Hubs in Reihe anschließen, erkundigen Sie sich beim Hersteller der Docks, ob diese eine Reihenschaltung unterstützen.
+  - Kabelgebundene GbE-Verbindung in den Raum. Ethernet-Kabel mit geeigneter Länge.
+  - Bis zu zwei 1080-p-Displays mit HDMI-Verbindungen. HDMI-Kabel mit geeigneter Länge.
 
 > [!NOTE]
 > Ein Consumer-TV, der als eine Anzeige vorne im Raum verwendet wird, muss das Feature „Consumer Electronics Control (CEC)“ von HDMI unterstützen/aktivieren, sodass ein automatischer Wechsel zu einer aktiven Videoquelle aus dem Standbymodus möglich ist. Dieses Feature wird nicht auf allen TVs unterstützt.
 >
-> In Microsoft Teams-Räumen wird keine Tastatur verwendet. Falls erforderlich, sollte der Administrator die Bildschirmtastatur verwenden. Beim Imaging des Microsoft Teams rooms-Geräts wird eine USB-Tastatur oder-Maus benötigt.
+> Microsoft Teams-Räume verwendet keine Tastatur. Bei Bedarf sollte der Administrator die Bildschirmtastatur verwenden. Eine USB-Tastatur oder -Maus ist erforderlich, wenn Sie Bilder des Geräts für Microsoft Teams-Räume verarbeiten.
 
-Die folgenden Tabellen enthalten Empfehlungen für Peripheriegeräte auf der Grundlage der Raumgröße:
+In den folgenden Tabellen finden Sie Empfehlungen für Peripheriegeräte basierend auf der Raumgröße:
 
-**Microsoft Teams rooms Certified Audio-Peripheriegeräte**
+**Für Microsoft Teams-Räume zertifizierte Audio-Peripheriegeräte**
 
-|Zimmerkategorie|Anzahl der Personen|Empfohlene maximale Entfernung vom Mikrofon zum Lautsprecher|Gerät nach maximaler Raumgröße|Kommentare|
+|Raumtyp|Anzahl der Personen|Empfohlene maximale Entfernung von Mikrofon zu Lautsprecher|Gerät nach maximaler Raumgröße|Kommentare|
 |:-----|:-----|:-----|:-----|:-----|
-|**Fokus** <br/> 10 ' x 9 '   |2 – 4  |1,5 m  |Logitech Connect  |Zu den Logitech Connect-Geräten gehören eine Kamera, die an der Vorderseite des Raums (nicht in der Mitte der Tabelle) positioniert werden muss, um lokale Besprechungsteilnehmer zu erfassen. |
-|**Kleine** <br/> 16 ' x 16 '  |4 – 6  |2,0 m  |Jabra 510 <br/> Sennheiser sp20  |Die Lautstärke der Wiedergabe kann für größere Räume limitiert sein.  |
-|**Mittel** <br/> 18 cm x 20 cm  |6 – 12  |2,4 m  |Jabra 710 <br/> Jabra 810 <br/> Meetup zu Logitech <br/> Logitech-Gruppe <br/> Polycom Trio <br/> Polycom CX5100 <br/> Sennheiser SP 220 ms <br/> Yamaha YVC-1000ms  |Das Logitech-Meetup enthält eine Kamera, damit es an der Vorderseite des Chatrooms positioniert werden muss (nicht in der Mitte der Tabelle, um lokale Besprechungsteilnehmer zu erfassen). <br/> Im Allgemeinen können Räume mit langen rechteckigen oder u-förmigen Tischen von Satelliten Mikrofonen profitieren. <br/> SP 220 ms muss in der Konfiguration der Daisy-Chain-Konfiguration verwendet werden.  |
-|**Große** <br/> 15 ' x 32 '  |12 – 16  |3 m <br/> Dieser Abstand bezieht sich auch auf den Bereich, der von jedem angeschlossenen Satelliten Mikrofon abgedeckt wird.  |Logitech Group + Satelliten Mikrofone <br/> Polycom Trio + Satelliten Mikrofone <br/> Polycom CX5100 + Satelliten Mikrofone <br/> Sennheiser SP 220 ms <br/> Yamaha YVC-1000ms + Satelliten Mikrofone  |Alle in dieser Zeile aufgeführten Audiogeräte unterstützen Satelliten Mikrofon-Optionen. <br/> CX5100 enthält eine integrierte 360-Grad-Kamera, damit das Gerät in der Mitte des Tischs positioniert werden kann. <br/> SP 220 ms muss in der Konfiguration der Daisy-Chain-Konfiguration verwendet werden.  |
+|**Fokus** <br/> 3,01 m x 2,74 m   |2–4  |1,5 m  |Logitech Connect  |Logitech Connect-Geräte umfassen eine Kamera, die vorn im Raum (nicht in der Mitte des Tisches) positioniert werden muss, um die lokalen Besprechungsteilnehmer zu erfassen. |
+|**Klein** <br/> 4,88 m x 4,88 m  |4–6  |2,0 m  |Jabra 510 <br/> Sennheiser SP20  |Die Wiedergabelautstärke kann bei größeren Räumen eingeschränkt sein.  |
+|**Mittel** <br/> 5,49 m x 6,10 m  |6–12  |2,4 m  |Jabra 710 <br/> Jabra 810 <br/> MeetUp von Logitech <br/> Group von Logitech <br/> Polycom Trio <br/> Polycom CX5100 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Das MeetUp von Logitech umfasst eine Kamera, die vorn im Raum (nicht in der Mitte des Tisches) positioniert werden muss, um die lokalen Besprechungsteilnehmer zu erfassen. <br/> Im Allgemeinen können Räume mit langen rechteckigen oder u-förmigen Tischen von Satellitenmikrofonen profitieren. <br/> SP 220 MS muss in Daisy-Chain-Konfiguration verwendet werden.  |
+|**Groß** <br/> 4,57 m x 9,75 m  |12–16  |3 m <br/> Diese Entfernung gilt auch für den Bereich, der von jedem angeschlossenen Satellitenmikrofon abgedeckt wird.  |Group von Logitech + Satellitenmikrofone <br/> Polycom Trio + Satellitenmikrofone <br/> Polycom CX5100 + Satellitenmikrofone <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + Satellitenmikrofone  |Alle in dieser Zeile aufgeführten Audiogeräte unterstützen Satellitenmikrofon-Optionen. <br/> Das CX5100 verfügt über eine eingebaute 360-Grad-Kamera, sodass das Gerät in der Mitte des Tisches positioniert werden kann. <br/> SP 220 MS muss in Daisy-Chain-Konfiguration verwendet werden.  |
 
-**Microsoft Teams rooms Certified-Video-Peripheriegeräte**
+**Für Microsoft Teams-Räume zertifizierte Video-Peripheriegeräte**
 
-|Zimmerkategorie|Anzahl der Personen|Gerät nach optimaler Raumgröße|Kommentare|
+|Raumtyp|Anzahl der Personen|Gerät nach optimaler Raumgröße|Kommentare|
 |:-----|:-----|:-----|:-----|
-|**Fokus** <br/> 10 ' x 9 '  |2 – 4  |Logitech Connect <br/> Meetup zu Logitech <br/> Polycom CX5100  ||
-|**Kleine** <br/> 16 ' x 16 '  |4 – 6  |Logitech C930e <br/> Meetup zu Logitech <br/> Logitech Brio <br/> Logitech PTZ pro <br/> Polycom MSR <br/> Polycom CX5100  |Logitech PTZ pro, häufig gebündelt mit der Logitech Group  |
-|**Mittel** <br/> 18 cm x 20 cm  |6 – 12  |Meetup zu Logitech <br/> Logitech Brio <br/> Logitech PTZ pro <br/> Polycom MSR <br/> Polycom CX5100  ||
-|**Große** <br/> 15 ' x 32 '  |12 – 16  |Logitech PTZ pro <br/> Polycom MSR <br/> Polycom CX5100  ||
+|**Fokus** <br/> 3,01 m x 2,74 m  |2–4  |Logitech Connect <br/> MeetUp von Logitech <br/> Polycom CX5100  ||
+|**Klein** <br/> 4,88 m x 4,88 m  |4–6  |Logitech C930e <br/> MeetUp von Logitech <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  |Logitech PTZ Pro, häufig mit Logitech Group gebündelt  |
+|**Mittel** <br/> 5,49 m x 6,10 m  |6–12  |MeetUp von Logitech <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
+|**Groß** <br/> 4,57 m x 9,75 m  |12–16  |Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
 
  > [!NOTE]
- > Die Bildschirmauflösung für die Vorderseite sollte auf "nicht größer als 1920x1080p" festgesetzt werden.
+ > Die Auflösung für die Anzeige vorn im Raum sollte auf nicht mehr als 1920 x 1080 p eingestellt werden.
 
-## <a name="required-software-downloads"></a>Erforderliche Software Downloads
+## <a name="required-software-downloads"></a>Erforderliche Software-Downloads
 
-Wenn Sie Ihr eigenes Microsoft Teams rooms-Bild erstellen möchten, folgen Sie den Anweisungen unter [Konfigurieren einer Microsoft Teams rooms-Konsole](console.md). Diese Anleitung führt Sie durch den Download der Software, die für die Installation erforderlich ist.
+Folgen Sie den Anweisungen unter [Konfigurieren einer Konsole für Microsoft Teams-Räume](console.md), um Ihr eigenes Microsoft Teams-Raum-Image zu erstellen. Diese Anweisungen führen Sie durch das Herunterladen aller für die Installation erforderlichen Software.
 
 > [!NOTE]
-> IT-Experten benötigen Zugriff auf Windows 10 Enterprise ISO-Dateien über deren Volumenlizenz Vertrag.
+> IT-Experten benötigen über ihre Volumenlizenzvereinbarung Zugriff auf Windows 10 Enterprise ISO-Dateien.
 
-[SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105) ist ein optionaler Download, mit dem Sie Microsoft Teams rooms-Konten bereitstellen können.
+[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105) ist ein optionaler Download, den Sie zur Bereitstellung von Microsoft Teams-Räume-Konten verwenden können.
 
 ## <a name="see-also"></a>Siehe auch
 
-[Alle Bundles durchsuchen](https://products.office.com/microsoft-teams/across-devices/devices)
+[Alle Pakete auflisten](https://products.office.com/microsoft-teams/across-devices/devices)
 
-[Planen von Microsoft Teams-Räumen](rooms-plan.md)
+[Plan für Microsoft Teams-Räume](rooms-plan.md)
 
-[Bereitstellen von Microsoft Teams-Räumen](rooms-deploy.md)
+[Bereitstellen von Microsoft Teams-Räume](rooms-deploy.md)
 
-[Konfigurieren einer Microsoft Teams rooms-Konsole](console.md)
+[Konfigurieren einer Konsole für Microsoft Teams-Räume](console.md)
 
-[Microsoft Teams Rooms verwalten](rooms-manage.md)
+[Microsoft Teams-Räume verwalten](rooms-manage.md)
 
 [Lizenzierung des Skype for Business-Add-Ons](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

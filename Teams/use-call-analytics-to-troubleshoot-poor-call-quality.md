@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Verwenden Sie Details zur anrufanalyse zu Geräten, Netzwerken und Verbindungen zur Behandlung von Benutzerproblemen mit Microsoft Teams und Skype for Business-anrufen und-Besprechungen.
-ms.openlocfilehash: a9ef3265fa86349ef92c6174c6f561b006af4d1a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 05af82a942d54e0f97f2be2b176091f19186cbf4
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836765"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749562"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln
 
@@ -68,7 +68,7 @@ Wenn Sie Hilfe zu Berechtigungen benötigen, sehen Sie sich Ihre Teams und den S
   
 4. Wählen Sie den Benutzer in der Liste aus.
 
-5. Wählen Sie **Anrufprotokoll**aus, und wählen Sie dann den Anruf oder die Besprechung aus, für den Sie eine Problembehandlung durchführen möchten.
+5. Wählen Sie **Anrufprotokoll**aus, und wählen Sie dann den Anruf oder die Besprechung aus, für den Sie eine Problembehandlung durchführen möchten.  Es werden maximal 500 Datensätze zurückgegeben.
     
     ![Screenshot der Seite "Anrufverlauf" für einen Benutzer](media/use-call-analytics-to-troubleshoot-image-2.png)
   

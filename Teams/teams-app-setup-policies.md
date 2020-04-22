@@ -19,25 +19,25 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 241a109a6d6a6809f3bcfe363884f6168e67ef12
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 55b43e9fe156a2b3707cb5e99c57239345bf031e
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858701"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43749822"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
 > [!NOTE]
 > Wenn Sie die organisationsweite app-Einstellung aktiviert haben, die **Interaktion mit benutzerdefinierten apps zulassen**, werden die APP-Setup Richtlinien möglicherweise noch nicht im Microsoft Teams Admin Center angezeigt. Sie wird zurzeit bereitgestellt und wird in Kürze in Ihrer Organisation zur Verfügung stehen.
 
-Als Administrator können Sie die APP-Setup Richtlinien verwenden, um folgende Aktionen auszuführen:
+Als Administrator können App-Einrichtungsrichtlinien für Folgendes einrichten:
 
-- Passen Sie Teams an, um die apps hervorzuheben, die für Ihre Benutzer am wichtigsten sind. Sie wählen die Apps aus, die Sie anheften möchten, und legen die Reihenfolge fest, in der Sie angezeigt werden. Mit Anheften von Apps können Sie apps präsentieren, die Benutzer in Ihrer Organisation benötigen, einschließlich der von Drittanbietern erstellten oder von Entwicklern in Ihrer Organisation.
-- Steuern Sie, ob Benutzer apps an Teams anheften können.
+- Passen Sie Teams so an, dass jene Apps hervorgehoben werden, die für Ihre Benutzer am wichtigsten sind. Sie wählen die Apps aus, die Sie anheften möchten, und legen die Reihenfolge fest, in der Sie angezeigt werden. Durch das Anpinnen können Sie Apps vorstellen, die von Benutzern in Ihrer Organisation benötigt werden, beispielsweise Apps von Drittanbietern oder von Entwicklern in Ihrer Organisation.
+- Legen Sie fest, ob Benutzer Apps in Microsoft Teams anheften können.
 - Installieren von apps im Auftrag von Benutzern **(in der Vorschau)** Sie wählen die Apps aus, die standardmäßig für Benutzer installiert werden, wenn Sie Teams starten. Beachten Sie, dass Benutzer weiterhin Apps selbst installieren können, wenn die Ihnen zugewiesene [App-Berechtigungsrichtlinie](teams-app-permission-policies.md) dies zulässt.
 
-Apps werden an die APP-Leiste angeheftet. Hierbei handelt es sich um die Leiste auf der Seite des Teams-Desktop Clients und am unteren Rand der mobilen Teams (IOS und Android).
+Apps werden an die App-Leiste angeheftet. Hierbei handelt es sich um die Leiste am seitlichen Rand im Microsoft Teams-Desktopclient bzw. am unteren Rand in mobilen Teams-Clients (iOS und Android).
 
 |Desktop Client für Teams  |Mobiler Client für Teams |
 |---------|---------|
@@ -98,17 +98,17 @@ Sie können das Microsoft Teams Admin Center verwenden, um einzelnen Benutzern o
 ### <a name="assign-a-custom-app-setup-policy-to-users"></a>Zuweisen einer benutzerdefinierten App-Setup Richtlinie für Benutzer
 
 1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Benutzer**, und klicken Sie dann den gewünschten Benutzer an.
-2. Wählen Sie den Benutzer aus, indem Sie links neben dem Benutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
+2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
 3. Wählen Sie unter **App-Setup Richtlinie**die APP-Setup Richtlinie aus, die Sie zuweisen möchten, und klicken Sie dann auf über **nehmen**.
 
-Informationen zum Zuweisen einer Richtlinie zu mehreren Benutzern gleichzeitig finden Sie unter [Bearbeiten von Benutzereinstellungen für Teams in Massen](edit-user-settings-in-bulk.md).
+Informationen dazu, wie Sie eine Richtlinie mehreren Nutzern gleichzeitig zuweisen können, finden Sie unter [Batchbearbeitung von Nutzereinstellungen eines Teams](edit-user-settings-in-bulk.md).
 
 Sie können auch die folgenden Schritte ausführen:
 
 1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu den**Setup Richtlinien**für **Teams-apps** > .
 2. Wählen Sie die gewünschte Richtlinie aus, indem Sie links neben die Richtlinienbezeichnung klicken.
 3. Wählen Sie **Benutzer verwalten** aus.
-4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen möchten.
+4. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
 5. Nachdem Sie das Hinzufügen von Benutzern abgeschlossen haben, wählen Sie **Speichern**aus.
 
 ### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>Zuweisen einer benutzerdefinierten App-Setup Richtlinie für Benutzer in einer Gruppe
@@ -182,7 +182,7 @@ Mit den mobilen Teams von Teams werden Benutzern Kern Teams-apps wie Aktivitäte
 
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>Können Benutzer die Reihenfolge der apps ändern, die über eine Richtlinie angeheftet wurden?
 
-Derzeit können Benutzer die Reihenfolge ihrer angehefteten apps auf mobilen Teams, aber nicht auf dem Desktop oder auf Webclients von Teams ändern.
+Benutzer können die Reihenfolge ihrer angehefteten apps auf den Desktop-und mobilen Clients von Teams ändern, wenn die Option **Benutzer anheften zulassen** aktiviert ist. Benutzer können die Reihenfolge ihrer angehefteten apps auf den Microsoft Teams-Webclients nicht ändern.
 
 ### <a name="custom-teams-apps"></a>Benutzerdefinierte Teams-apps
 
