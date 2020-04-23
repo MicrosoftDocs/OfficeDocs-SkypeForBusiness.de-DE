@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c6cd94f5d7205b438396dcb09ebb047a49b8f2e
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: 082cde04ad29ba0d1af68bb02f851d87197d7407
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170593"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776570"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
@@ -46,7 +46,7 @@ Bevor Sie Teams in Ihrer Organisation bereitstellen, nehmen Sie sich Zeit, um zu
 
 |Frage|Aktion |
 |------------|-------|
-|Ist meine Organisation für die Bereitstellung von Teams bereit?|Zur Beantwortung dieser Frage lesen Sie: <ul><li>[Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)</li><li>[URLs und IP-Adressbereiche für Office 365](office-365-urls-ip-address-ranges.md)</li><li>[Planen von Office 365-Gruppen beim Erstellen von Teams](plan-office-365-groups.md)</li></ul>|
+|Ist meine Organisation für die Bereitstellung von Teams bereit?|Zur Beantwortung dieser Frage lesen Sie: <ul><li>[Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)</li><li>[URLs und IP-Adressbereiche für Office 365](office-365-urls-ip-address-ranges.md)</li><li>[Planen von Microsoft 365-Gruppen beim Erstellen von Teams](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>Zentrale Entscheidungen bei der Bereitstellung
@@ -193,7 +193,7 @@ Ihre Organisation schreibt möglicherweise die Implementierung von Kontrollen zu
 | Frage | Aktion |
 |--------------|--------|
 |Muss ich Kontrollen zum Personenkreis implementieren, der Teams erstellen kann?| Lesen Sie [Planen der Governance in Teams](plan-teams-governance.md).|
-|Muss ich Kontrollen zur Benennung von Teams implementieren?|Lesen Sie [Erzwingen einer Benennungsrichtlinie für Office 365-Gruppen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).|
+|Muss ich Kontrollen zur Benennung von Teams implementieren?|Lesen Sie [Erzwingen einer Benennungsrichtlinie für Microsoft 365-Gruppen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-naming-policy).|
 |||
 
 ### <a name="teams-application-policy-side-rail-control"></a>Teams-Anwendungsrichtlinie (Seitenbereichssteuerung)

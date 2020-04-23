@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c264bba408205f8f00d1df20fffbc6242124220
-ms.sourcegitcommit: f9860dbf3c719fec5ffc1874b503b6db252afe10
+ms.openlocfilehash: 756059aaf7a707a824c75bd0306df04a70b66829
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43237958"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780564"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -56,7 +56,7 @@ In der [Webinarreihe "Teams for education" (Teams für Bildungseinrichtungen)](h
 
 Teams nutzt die Möglichkeiten von Microsoft 365, um Benutzer zu authentifizieren und Dienste bereitzustellen. Mitarbeiter, Dozenten und Schüler/Studenten sollten über Identitäten verfügen, die für eine einfachere Zusammenarbeit eingerichtet wurden. Wenn Identitäten nicht bereits existieren, gehen Sie folgendermaßen vor, um sie einzurichten.
 
-[Teams-Lizenzen müssen für Benutzer aktiviert werden](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2), und dann müssen [Lizenzen den Benutzern zugewiesen werden](teams-edu-licensing.md), bevor sie die Teams-Funktionen nutzen können. Teams setzt weitere Microsoft 365-Funktionen wie [Office 365 Gruppen](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint und OneDrive](SharePoint-OneDrive-interact.md) ein, um Szenarien für die Zusammenarbeit bereitzustellen. Die Benutzer erzielen die besten Erfahrungen mit Teams, wenn alle diese Dienste ebenfalls aktiviert sind. [Teams wird für Benutzer unterstützt, deren E-Mails bei Google gehostet werden](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
+[Teams-Lizenzen müssen für Benutzer aktiviert werden](https://docs.microsoft.com/MicrosoftTeams/teams-quick-start-edu?tutorial-step=2), und dann müssen [Lizenzen den Benutzern zugewiesen werden](teams-edu-licensing.md), bevor sie die Teams-Funktionen nutzen können. Teams setzt weitere Microsoft 365-Funktionen wie [Microsoft 365 Gruppen](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint und OneDrive](SharePoint-OneDrive-interact.md) ein, um Szenarien für die Zusammenarbeit bereitzustellen. Die Benutzer erzielen die besten Erfahrungen mit Teams, wenn alle diese Dienste ebenfalls aktiviert sind. [Teams wird für Benutzer unterstützt, deren E-Mails bei Google gehostet werden](https://docs.microsoft.com/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
 
 Microsoft Teams ist Bestandteil von Office 365 A1, das für Bildungseinrichtungen kostenlos ist. Informationen zur Bereitstellung von Office 365 und zum Starten von Teams in der gesamten Bildungseinrichtung finden Sie [auf dieser Seite](https://docs.microsoft.com/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). Um Unterstützung zu erhalten, können Sie [hier](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) ein Ticket erstellen, und für Schulungen in Teams besuchen Sie Ihren lokalen Microsoft Store, um mit einem Fachmann zu sprechen.
 
@@ -69,7 +69,7 @@ Sie müssen die folgenden beiden Schritte ausführen, um Teams einzurichten und 
 
 ### <a name="1-allow-users-to-create-teams"></a>1. Benutzern das Erstellen von Teams erlauben
 
-Schüler/Studenten und Lehrkräfte können Teams optimal nutzen, wenn Hindernisse minimiert werden und die Flexibilität bereitgestellt wird, es auf ihre Bedürfnisse zuzuschneiden. Eine Möglichkeit, wie Benutzer die Teams-Umgebung anpassen können, besteht in der Erstellung von an die jeweiligen Anforderungen maßgeschneiderten Teams. **Standardmäßig kann jeder Office 365-Gruppen und -Teams erstellen**. Es kann vorkommen, dass diese Funktion nicht angemessen ist. So möchten einige Kunden beispielsweise die Erstellung von Teams durch Schüler in Grundschulen und weiterführenden Schulen einschränken. Bei Bedarf kann die Erstellung von Office 365-Gruppen und -Teams [auf bestimmte Sicherheitsgruppen innerhalb Ihrer Umgebung beschränkt werden](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
+Schüler/Studenten und Lehrkräfte können Teams optimal nutzen, wenn Hindernisse minimiert werden und die Flexibilität bereitgestellt wird, es auf ihre Bedürfnisse zuzuschneiden. Eine Möglichkeit, wie Benutzer die Teams-Umgebung anpassen können, besteht in der Erstellung von an die jeweiligen Anforderungen maßgeschneiderten Teams. **Standardmäßig kann jeder Microsoft 365-Gruppen und -Teams erstellen**. Es kann vorkommen, dass diese Funktion nicht angemessen ist. So möchten einige Kunden beispielsweise die Erstellung von Teams durch Schüler in Grundschulen und weiterführenden Schulen einschränken. Bei Bedarf kann die Erstellung von Office 365-Gruppen und -Teams [auf bestimmte Sicherheitsgruppen innerhalb Ihrer Umgebung beschränkt werden](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups).
 
 Kunden aus dem Hochschulbereich profitieren von den Vorteilen, wenn Sie allen Benutzern, einschließlich Schülern/Studenten, das Erstellen von Teams für Kurse, Recherchen, Gruppenprojekte und Lerngruppen ermöglichen. Grundschulen und weiterführende Schulen möchten das Erstellen von Teams durch Schüler möglicherweise einschränken, um sicherzustellen, dass die gesamte Schülerkommunikationen in einem Forum stattfinden, an dem mindestens ein Erwachsener teilnimmt. In diesem Fall kann die Erstellung von Office 365-Gruppen und -Teams auf alle Lehrkräfte und Mitarbeiter beschränkt werden.
 

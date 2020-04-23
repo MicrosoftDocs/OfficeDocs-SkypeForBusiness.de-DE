@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c2ef9f509f64e044567d9286704458b4dc91596
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: d47a14dd84a1ccbe73d07ea3cbd638b5ed6159db
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229900"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776620"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Apps, Bots und Connectors in Microsoft Teams
 
@@ -62,11 +62,11 @@ Apps erhalten ein Einverständnis von den Benutzern und werden vom Administrator
 
 ### <a name="bots-for-private-chats-and-channels"></a>Bots für private Chats und Kanäle
 
-Bots sind automatisierte Programme, die auf Abfragen antworten oder Updates und Benachrichtigungen zu Details herausgeben, die Benutzer interessant finden oder über die sie auf dem Laufenden bleiben möchten. Mithilfe von Bots können Benutzer mit Clouddiensten wie Aufgabenverwaltung, Planung und Abstimmung in einem Teams-Chat interagieren. Teams unterstützt Bots in privaten Chats und Kanälen. Administratoren können steuern, ob die Verwendung von Bots in einem Office 365-Mandanten zulässig ist.
+Bots sind automatisierte Programme, die auf Abfragen antworten oder Updates und Benachrichtigungen zu Details herausgeben, die Benutzer interessant finden oder über die sie auf dem Laufenden bleiben möchten. Mithilfe von Bots können Benutzer mit Clouddiensten wie Aufgabenverwaltung, Planung und Abstimmung in einem Teams-Chat interagieren. Teams unterstützt Bots in privaten Chats und Kanälen. Administratoren können steuern, ob die Verwendung von Bots in einer Office 365-Organisation zulässig ist.
 
 | Frage | Aktion |
 |--------------|--------|
-|Möchte ich benutzerdefinierte Bots in meinem Office 365-Mandanten zulassen?|Weitere Informationen zum Hinzufügen von Bots finden Sie unter [Hinzufügen von Bots für private Chats und Kanäle in Microsoft Teams](add-bots.md). Informationen zum Aktivieren oder Deaktivieren von benutzerdefinierten Bots finden Sie unter [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md).|
+|Möchte ich benutzerdefinierte Bots in meiner Office 365-Organisation zulassen?|Weitere Informationen zum Hinzufügen von Bots finden Sie unter [Hinzufügen von Bots für private Chats und Kanäle in Microsoft Teams](add-bots.md). Informationen zum Aktivieren oder Deaktivieren von benutzerdefinierten Bots finden Sie unter [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md).|
 |||
 
 ### <a name="built-in-and-custom-tabs"></a>Integrierte und benutzerdefinierte Registerkarten
@@ -75,7 +75,7 @@ Besitzer und Teammitglieder können einem Kanal, einem privaten Chat oder einem 
 
 | Frage | Aktion |
 |--------------|--------|
-|Möchte ich benutzerdefinierte Registerkarten in meinem Office 365-Mandanten zulassen?|Weitere Informationen finden Sie unter [Verwenden integrierter und benutzerdefinierter Registerkarten in Teams](built-in-custom-tabs.md).|
+|Möchte ich benutzerdefinierte Registerkarten in meiner Office 365-Organisation zulassen?|Weitere Informationen finden Sie unter [Verwenden integrierter und benutzerdefinierter Registerkarten in Teams](built-in-custom-tabs.md).|
 |||
 
 ### <a name="office-365-and-custom-connectors"></a>Benutzerdefinierte Connectors in Office 365

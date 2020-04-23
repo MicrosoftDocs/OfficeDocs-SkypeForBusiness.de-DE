@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um Ihre Remotemitarbeiter zu unterstützen, produktiv zu sein, wenn sie als Reaktion auf den Ausbruch von Covid-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4df15c379d4232dafaea71114f68877dd7347989
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 7a94122550003bee5f98cc5e753aeae2353932f2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096960"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780314"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Häufig gestellte Fragen: Unterstützung für Ihre Remotemitarbeiter
 
@@ -90,7 +90,7 @@ Wenn Sie Microsoft 365 haben, verfügen Sie bereits über Teams. [Aktivieren Sie
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>Wie erhalte ich Hilfe bei den ersten Schritten mit Teams und sorge dafür, dass die Bereitstellung erfolgreich ist?
 
-Microsoft bietet den [FastTrack Center-Vorteil für Office 365](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365), der Ihnen bei der Planung, Bereitstellung, Laufwerknutzung und Anwendung bewährter Methoden hilft. Dieser Service wird kostenlos angeboten, wenn Sie mindestens 150 Benutzer haben. Wenn Sie mehr wissen möchten, lesen Sie [Anfordern von FastTrack-Unterstützung für Microsoft 365 wurde soeben einfacher](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#). Der FastTrack-Einrichtungsleitfaden für Microsoft 365 steht für alle Office 365-Mandantenadministratoren zur Verfügung. Wenn Sie auf diesen Leitfaden zugreifen möchten, melden Sie sich unter [https://aka.ms/setupguidance](https://aka.ms/setupguidance) mit Ihren Administratoranmeldeinformationen an.
+Microsoft bietet den [FastTrack Center-Vorteil für Office 365](https://docs.microsoft.com/fasttrack/o365-fasttrack-benefit-for-office-365), der Ihnen bei der Planung, Bereitstellung, Laufwerknutzung und Anwendung bewährter Methoden hilft. Dieser Service wird kostenlos angeboten, wenn Sie mindestens 150 Benutzer haben. Wenn Sie mehr wissen möchten, lesen Sie [Anfordern von FastTrack-Unterstützung für Microsoft 365 wurde soeben einfacher](https://techcommunity.microsoft.com/t5/fasttrack-blog/requesting-fasttrack-assistance-for-microsoft-365-just-got/ba-p/393125#). Der FastTrack-Einrichtungsleitfaden für Microsoft 365 steht für alle Office 365-Organisationsadministratoren zur Verfügung. Wenn Sie auf diesen Leitfaden zugreifen möchten, melden Sie sich unter [https://aka.ms/setupguidance](https://aka.ms/setupguidance) mit Ihren Administratoranmeldeinformationen an.
 
 Wenn Sie selbst loslegen möchten, lesen Sie [Vorgehensweise zum Rollout von Teams](How-to-roll-out-teams.md), und sehen Sie sich unsere [Teams in 30](https://aka.ms/Teamsin30)-Webinarserie an, die Ihnen helfen soll, Teams in nur 30 Tagen zu starten.
 

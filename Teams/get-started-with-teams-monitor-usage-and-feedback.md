@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8cc942b1f249a78622d49f2880eed7282e900c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2604a0dd6aa662d807ae878dc31800736529833c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837055"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778441"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Überwachen von Nutzung und Feedback in Microsoft Teams
 Es ist wichtig zu wissen, wie Benutzer Microsoft Teams verwenden und welche Erfahrungen sie dabei machen. Mithilfe von Nutzungsberichten können Sie Nutzungsmuster besser verstehen. In Kombination mit Feedback von Benutzern gelangen Sie so zu Einsichten, die Sie Ihrer weiteren Bereitstellung zugrunde legen und zur Priorisierung von Schulungs- und Kommunikationsinitiativen verwenden können.
@@ -54,7 +54,7 @@ Um diese Berichte anzuzeigen, müssen Sie ein globaler Administrator in Office 3
 Weitere Informationen finden Sie unter [Teams-Analysen und -Berichte](teams-analytics-and-reports/teams-reporting-reference.md). 
 
 ### <a name="teams-activity-reports-microsoft-365-admin-center"></a>Teams-Aktivitätsberichte (Microsoft 365 Admin Center)
-Sie können die Aktivitäten in Microsoft Teams außerdem in Berichten anzeigen, die im Microsoft 365 Admin Center verfügbar sind. Diese Berichte sind Teil der Office 365-Berichte im Microsoft 365 Admin Center und bieten Informationen über Benutzeraktivitäten und Gerätenutzung. 
+Sie können die Aktivitäten in Microsoft Teams außerdem in Berichten anzeigen, die im Microsoft 365 Admin Center verfügbar sind. Diese Berichte sind Teil der Microsoft 365-Berichte im Microsoft 365 Admin Center und bieten Informationen über Benutzeraktivitäten und Gerätenutzung. 
 
 Um diese Berichte anzuzeigen, wechseln Sie zum Microsoft 365 Admin Center, und klicken Sie auf **Berichte** > **Verwendung**. Klicken Sie unter **Bericht auswählen** auf **Microsoft Teams**. Wählen Sie hier den gewünschten Bericht aus.
 
