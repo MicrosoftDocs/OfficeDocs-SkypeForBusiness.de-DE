@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie die Interoperabilität zwischen Ihrer lokalen Bereitstellung und Skype for Business Online konfigurieren.'
-ms.openlocfilehash: bd8b3ee3e70cb3662a4eae68fdb5ae6149b55a84
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: ccf140b62cdbad11605c99fe1cb0cc66aa1ee4dd
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43750032"
+ms.locfileid: "43780104"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>Konfigurieren der Hybridbereitstellung von Skype for Business
 
@@ -31,13 +31,13 @@ Für die Konfiguration der Skype for Business-Hybridbereitstellung müssen Sie d
 
 - [Konfigurieren Sie den lokalen Edgedienst so, dass er mit Office 365 oder einer anderen Organisation verbündet wird](#configure-your-on-premises-edge-service-to-federate-with-office-365-or-another-organization).
 - [Konfigurieren Sie Ihre lokale Umgebung, um Office 365 zu Vertrauen und den freigegebenen SIP-Adressraum mit Office 365 zu aktivieren](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-office-365).
-- [Aktivieren Sie den freigegebenen SIP-Adressraum in Ihrem Office 365 Mandanten](#enable-shared-sip-address-space-in-your-office-365-tenant).
+- [Aktivieren Sie den freigegebenen SIP-Adressraum in Ihrer Office 365 Organisation](#enable-shared-sip-address-space-in-your-office-365-organization).
 
 Beachten Sie, dass Sie bei einer lokalen Exchange-Organisation möglicherweise OAuth zwischen der lokalen Exchange-Umgebung und Skype for Business Online Umgebungen konfigurieren möchten. Weitere Informationen finden Sie unter [Verwalten der Server-zu-Server-Authentifizierung in Skype for Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/authentication/server-to-server-and-partner-applications) und [Planen der Integration von Skype for Business und Exchange](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/integrate-with-exchange/integrate-with-exchange#feature_support). 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-office-365-or-another-organization"></a>Konfigurieren des lokalen Edge-Diensts für den Verbund mit Office 365 oder einer anderen Organisation
 
-Durch einen Partnerverbund können Benutzer in Ihrer lokalen Bereitstellung mit Office 365-Benutzern in Ihrem Unternehmen kommunizieren. Führen Sie das folgende Cmdlet in der Skype for Business Server Verwaltungsshell aus, um den Verbund zu konfigurieren:
+Mit dem Partnerverbund können Benutzer in Ihrer lokalen Bereitstellung mit Microsoft 365 oder Office 365 Benutzern in Ihrer Organisation kommunizieren. Führen Sie das folgende Cmdlet in der Skype for Business Server Verwaltungsshell aus, um den Verbund zu konfigurieren:
   
 ```PowerShell
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $True -EnablePartnerDiscovery $True -UseDnsSrvRouting
@@ -65,11 +65,11 @@ Erstellen Sie dann einen neuen Hostinganbieter, verwenden Sie das New-CsHostingP
 New-CsHostingProvider -Identity Office365 -ProxyFqdn "sipfed.online.lync.com" -Enabled $true -EnabledSharedAddressSpace $true -HostsOCSUsers $true -VerificationLevel UseSourceVerification -IsLocal $false -AutodiscoverUrl https://webdir.online.lync.com/Autodiscover/AutodiscoverService.svc/root 
 ```
 
- ## <a name="enable-shared-sip-address-space-in-your-office-365-tenant"></a>Aktivieren des freigegebenen SIP-Adressraums in Ihrem Office 365 Mandanten
+ ## <a name="enable-shared-sip-address-space-in-your-office-365-organization"></a>Aktivieren von freigegebenem SIP-Adressraum in Ihrer Office 365 Organisation
   
-Zusätzlich zu der Änderung, die Sie in Ihrer lokalen Bereitstellung vorgenommen haben, müssen Sie die entsprechende Änderung in Ihrem Office 365 Mandanten zu aktiviertem freigegebenem SIP-Adressraum mit Ihrer lokalen Bereitstellung vornehmen.  
+Zusätzlich zu der Änderung, die Sie in Ihrer lokalen Bereitstellung vorgenommen haben, müssen Sie die entsprechende Änderung in Ihrer Office 365 Organisation für aktivierten freigegebenen SIP-Adressraum mit Ihrer lokalen Bereitstellung vornehmen.  
 
-Um den freigegebenen SIP-Adressraum in Ihrem Office 365 Mandanten zu aktivieren, richten Sie eine Remote-PowerShell-Sitzung mit Skype for Business Online ein, und führen Sie dann das folgende Cmdlet aus:
+Um den freigegebenen SIP-Adressraum in Ihrer Office 365 Organisation zu aktivieren, richten Sie eine Remote-PowerShell-Sitzung mit Skype for Business Online ein, und führen Sie dann das folgende Cmdlet aus:
   
 ```PowerShell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true

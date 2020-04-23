@@ -1,5 +1,5 @@
 ---
-title: Bereitstelleneiner Topologie mit einer Ressourcengesamtstruktur
+title: Bereitstellen einer Topologie mit Ressourcengesamtstruktur
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -18,14 +18,14 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Die folgenden Abschnitte enthalten Anleitungen zum Konfigurieren einer Umgebung mit mehreren Gesamtstrukturen in einem Ressourcen-Benutzer-Gesamtstrukturmodell, um Skype for Business Funktionalität in einem Hybrid Szenario bereitzustellen.
-ms.openlocfilehash: 33945b245009a221d709e13d587f435aa4c054d8
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 3a0a5f08c9be4c6ba4c954a4100794d83d46ea53
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983040"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780124"
 ---
-# <a name="deploy-a-resource-forest-topology"></a>Bereitstelleneiner Topologie mit einer Ressourcengesamtstruktur
+# <a name="deploy-a-resource-forest-topology"></a>Bereitstellen einer Topologie mit Ressourcengesamtstruktur
  
 Die folgenden Abschnitte enthalten Anleitungen zum Konfigurieren einer Umgebung mit mehreren Gesamtstrukturen in einem Ressourcen-Benutzer-Gesamtstrukturmodell, um Skype for Business Funktionalität in einem Hybrid Szenario bereitzustellen. 
   
@@ -52,7 +52,7 @@ In einer Topologie mit Ressourcengesamtstruktur müssen die Ressourcengesamtstru
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>Synchronisieren von Konten in der Gesamtstruktur-Host Skype for Business
 
-Wenn Skype for Business Server in einer Gesamtstruktur (einer Ressourcengesamtstruktur) bereitgestellt wird, aber Benutzern in einer oder mehreren Gesamtstrukturen (Konto Gesamtstrukturen) Funktionen bereitstellt, müssen Benutzer in den anderen Gesamtstrukturen als deaktivierte Benutzerobjekte in der Gesamtstruktur dargestellt werden, in der Skype for Business Server wird bereitgestellt. Ein Identitäts Verwaltungsprodukt wie Microsoft Identity Manager muss bereitgestellt und konfiguriert werden, um die Benutzer aus den Konto Gesamtstrukturen in der Gesamtstruktur bereitzustellen und zu synchronisieren, in der Skype for Business Server bereitgestellt wird. Benutzer müssen mit der Gesamtstruktur synchronisiert werden, die Skype for Business Server als deaktivierte Benutzerobjekte hostet. Benutzer können nicht als Active Directory Kontaktobjekte synchronisiert werden, da Azure Active Directory Connect Kontakte mit Azure AD nicht ordnungsgemäß für die Verwendung mit Skype synchronisiert.
+Wenn Skype for Business Server in einer Gesamtstruktur (einer Ressourcengesamtstruktur) bereitgestellt wird, aber Benutzern in einer oder mehreren Gesamtstrukturen (Konto Gesamtstrukturen) Funktionen bereitstellt, müssen Benutzer in den anderen Gesamtstrukturen als deaktivierte Benutzerobjekte in der Gesamtstruktur dargestellt werden, in der Skype for Business Server bereitgestellt wird. Ein Identitäts Verwaltungsprodukt wie Microsoft Identity Manager muss bereitgestellt und konfiguriert werden, um die Benutzer aus den Konto Gesamtstrukturen in der Gesamtstruktur bereitzustellen und zu synchronisieren, in der Skype for Business Server bereitgestellt wird. Benutzer müssen mit der Gesamtstruktur synchronisiert werden, die Skype for Business Server als deaktivierte Benutzerobjekte hostet. Benutzer können nicht als Active Directory Kontaktobjekte synchronisiert werden, da Azure Active Directory Connect Kontakte mit Azure AD nicht ordnungsgemäß für die Verwendung mit Skype synchronisiert.
   
 Unabhängig von der Konfiguration mit mehreren Gesamtstrukturen kann die Gesamtstruktur-Host Skype for Business Server auch Funktionen für alle aktivierten Benutzer bereitstellen, die in der gleichen Gesamtstruktur vorhanden sind.
   
@@ -73,9 +73,9 @@ Synchronisieren Sie die UPNs nicht zwischen den Gesamtstrukturen. Wir haben beim
     
 - Wenn der eindeutige UPN aus jeder Benutzergesamtstruktur mit dem zugeordneten deaktivierten Objekt in der Ressourcengesamtstruktur synchronisiert wurde, tritt bei der AD FS-Authentifizierung ein Fehler auf. Die Übereinstimmungsregel würde den UPN für das Objekt in der Ressourcengesamtstruktur finden, das deaktiviert war und nicht für die Authentifizierung verwendet werden konnte. 
     
-## <a name="create-an-office-365-tenant"></a>Erstellen eines Office 365 Mandanten
+## <a name="create-an-office-365-organization"></a>Erstellen einer Office 365 Organisation
 
-Als nächstes müssen Sie einen Office 365 Mandanten bereitstellen, der mit Ihrer Bereitstellung verwendet werden soll. Weitere Informationen finden Sie unter [Abonnements, Lizenzen, Konten und Mandanten für die Cloud-Angebote von Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
+Als nächstes müssen Sie eine Office 365 Organisation bereitstellen, die mit Ihrer Bereitstellung verwendet werden soll. Weitere Informationen finden Sie unter [Abonnements, Lizenzen, Konten und Mandanten für die Cloud-Angebote von Microsoft](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings). 
   
 ## <a name="configure-active-directory-federation-services"></a>Konfigurieren von Active Directory Verbunddiensten
 

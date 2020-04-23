@@ -10,28 +10,32 @@ audience: admin
 ms.reviewer: sonua
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
 description: Informieren Sie sich über die Faktoren, die Sie berücksichtigen sollten, bevor Sie Liveereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2f70a7a2be51045f616ebb4cedc5baf46dbe101d
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: c4a7f60a199a342d69311467bffbc4607854a719
+ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43505622"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43752362"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
-Wenn Sie Liveereignisse in Teams planen, um große Besprechungen in Ihrer Organisation abzuhalten, müssen Sie eine Reihe von Faktoren berücksichtigen, bevor Sie mit der Einrichtung beginnen. 
+Wenn Sie Liveereignisse in Teams planen, um große Besprechungen in Ihrer Organisation abzuhalten, müssen Sie eine Reihe von Faktoren berücksichtigen, bevor Sie mit der Einrichtung beginnen.
 
-## <a name="who-can-create-and-schedule-live-events"></a>Wer kann Liveereignisse erstellen und planen? 
+## <a name="who-can-attend-create-and-schedule-live-events"></a>Wer kann an Liveereignissen teilnehmen, diese erstellen und planen?
+
+Jeder kann an einem Liveereignis ohne Lizenz teilnehmen. Lesen Sie [Schnellstart für Administratoren: Besprechungen und Liveereignisse](../quick-start-meetings-live-events.md).
+
 Die folgenden Voraussetzungen müssen erfüllt sein, damit ein Benutzer ein Teams-Liveereignis planen kann.
 
 Folgende Lizenzen müssen zugewiesen werden:  
+
 - Eine Lizenz für Office 365 Enterprise E1, E3 oder E5 oder eine Lizenz für Office 365 A3 oder A5
 - Eine Lizenz für Microsoft Teams
 - Eine Lizenz für Microsoft Stream
@@ -50,6 +54,7 @@ Es ist wichtig zu wissen, dass eine Office 365-Lizenz erforderlich ist, um an ei
 Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Add-On-Lizensierung](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 Der Benutzer muss Folgendes besitzen:
+
 - Die Planung privater Besprechungen in Teams muss aktiviert sein (*TeamsMeetingPolicy -AllowPrivateMeetingScheduling-Parameter = True"*).
 - Die Videofreigabe in Teams-Besprechungen muss aktiviert sein (*TeamsMeetingPolicy -AllowIPVideo-Parameter = True*).
 - Die Bildschirmfreigabe in Teams-Besprechungen muss aktiviert sein (*TeamsMeetingPolicy -ScreenSharingMode-Parameter = EntireScreen*).
@@ -58,23 +63,23 @@ Der Benutzer muss Folgendes besitzen:
 - Der Koexistenzmodus ist so konfiguriert, dass Teambesprechungen (*Inselmodus, "Besprechung zuerst" oder "Nur Teams"*) geplant werden können.
 
 > [!IMPORTANT]
-> Nicht authentifizierte anonyme Benutzer können nicht als Produzenten oder Referenten zu Teams-Liveereignissen eingeladen werden. 
- 
+> Nicht authentifizierte anonyme Benutzer können nicht als Produzenten oder Referenten zu Teams-Liveereignissen eingeladen werden.
+
 ## <a name="who-can-watch-live-events"></a>Wer kann Liveereignisse anschauen?
 
 |**Sichtbarkeit für Teilnehmer**       |**Teams-Produktion **  |**Produktion externer Anwendungen oder Geräte**  |
 |------------------------------|-----------------|----------------------|
 |Öffentlich (anonyme Benutzer)      |  Ja            |  Nein                  |
 |Gastbenutzer                   |  Ja            |  Nein                  |
-|Alle im Unternehmensverbund |  Ja<sup>1</sup>|  Nein                  |
+|Jeder im Unternehmen mit externem Zugriff (Partnerverbund) |  Ja<sup>1</sup>|  Nein                  |
 |Jeder im Unternehmen           |  Ja            |  Ja                 |
 |Bestimmte Gruppen/Personen      |  Ja            |  Ja                 |
 
-<sup>1</sup> Verbundteilnehmer können nur über "Personen und Gruppen" eingeladen werden. <br>
- 
+<sup>1</sup> Teilnehmer mit externem Zugriff (Verbundteilnehmer) können nur über „Personen & Gruppen“ eingeladen werden. <br>
+
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Teams-Liveereignisse und Skype Meeting Broadcast
 
-Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunktionen und Features bei Liveereignissen und Skype Meeting Broadcast. 
+Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunktionen und Features bei Liveereignissen und Skype Meeting Broadcast.
 
 |**Funktion**   |**Skype Meeting Broadcast** |**In Teams produzierte Ereignisse** |**In einer externen App oder auf einem externen Gerät produzierte Ereignisse** |
 |---------|---------|---------|---------|
@@ -90,8 +95,8 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 |Teilnehmeranzahl in Produzenten-UI |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
 |Mehrere Referenten zulässig |&#x2714; (Skype for Business) |&#x2714; (Teams) |–  |
 |Referenten während der Sitzung einladen |&#x2714; (Skype for Business) |&#x274C; |Nicht zutreffend |
-|Referenten über Web und Mobilgerät teilnehmen |&#x2714; (Skype for Business)  |&#x274C; |Nicht zutreffend |
-|Verbund- & Gastreferenten/teilnehmer |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |Nicht zutreffend |
+|Referenten über Web und Mobilgerät teilnehmen |&#x2714; (Skype for Business)  |&#x274C; |– |
+|Externer Zugriff (Partnerverbund) & Gastreferenten/-teilnehmer |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |Nicht zutreffend |
 |Referent – Telefonfestnetz (PSTN)-Zugang |&#x274C; |&#x2714; (Teams) |– |
 |Bildschirm präsentieren |&#x274C; |&#x2714; (Teams) |– |
 |PowerPoint präsentieren (PPT-Freigabe) |&#x2714; |&#x274C; (möglich über Bildschirmfreigabe) |Nicht zutreffend |
@@ -107,27 +112,31 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 <sup>1</sup> Die festgelegten Grenzen können geändert werden. Überprüfen Sie [Grenzwerte und Daten für Teams](../limits-specifications-teams.md).<br/>
 <sup>2</sup> Sie können bis zu 250 Referenten und Produzenten in einem Liveereignis haben, aber nur die letzten 10, die gesprochen haben, werden in der Liste angezeigt.
 
-
 ## <a name="regional-availability"></a>Regionale Verfügbarkeit
-Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folgenden Informationen zeigen die Verfügbarkeit für die Ereignisteammitglieder und -teilnehmer. 
+
+Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folgenden Informationen zeigen die Verfügbarkeit für die Ereignisteammitglieder und -teilnehmer.
 
 > [!IMPORTANT]
 > Die Region für das Ereignis wird automatisch in Abhängigkeit vom Organisator und der Office 365-Organisation ausgewählt.
 
 **Verfügbar in diesen Regionen**
+
 - Nord- und Südamerika
 - Europa/Afrika
 - Asiatisch-pazifischer Raum
-- "Go Local" Kanada, Indien, Australien, Japan, UK
+- Datenspeicherort für Kanada, Indien, Australien, Japan, GB
 
 **Ausschlüsse und Überlegungen**.
-- **Go Locals:** Teams Go Locals, außerhalb der oben aufgeführten, werden derzeit nicht unterstützt.
+
+- **Datenspeicherort:** Teams-Datenspeicherorte außerhalb der oben aufgeführten werden derzeit nicht unterstützt.
 - **China:** Mitglieder und Teilnehmer des Ereignisteams können die Liveereignisse des Teams nicht nutzen, da das Azure CDN in China nicht zugänglich ist. Eine Problemumgehung ist die Verwendung einer Firmen-VPN-Verbindung, die den Client über das Firmennetzwerk des Kunden mit dem CDN verbindet.
 
 ## <a name="next-steps"></a>Nächste Schritte
+
 Navigieren Sie zu [Einrichten von Teams-Liveereignissen](set-up-for-teams-live-events.md).
 
 ### <a name="related-topics"></a>Verwandte Themen
+
 - [Was sind Teams-Liveereignisse?](what-are-teams-live-events.md)
 - [Einrichten von Teams-Liveereignissen](set-up-for-teams-live-events.md)
 - [Konfigurieren der Einstellungen für Liveereignisse in Teams](configure-teams-live-events.md)

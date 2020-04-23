@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60891c2e5283b8e9cdaa9e8d7852768bbb52d8aa
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2f118611d55fe9192f32402946d672901b0f66ee
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776930"
+ms.locfileid: "43785868"
 ---
 <a name="what-the-guest-experience-is-like"></a>Gastfunktionalität
 =================================
@@ -34,6 +34,11 @@ Wenn ein Gast zu einem Team eingeladen wird, erhält er eine Willkommens-E-Mail-
 Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Wie im folgenden Screenshot eines Beispielteams gezeigt, wird ein Banner mit dem Text „Dieses Team hat Gäste“ angezeigt, und neben jedem Gästenamen wird die Kennzeichnung **(Gast)** eingeblendet.
     
 ![Screenshot mit Banner-Benachrichtigung zu Gastbenutzern](media/guest-experience-image2.png "Screenshot, der einen Teil des Marketingkanals für Northwind Traders abbildet, auf dem Folgendes zu sehen ist: der Hinweis im oberen Banner, dass dieses Team Gäste hat, und das Wort „GAST“ neben dem Namen von Benutzern, die Gäste des Teams sind.")
+
+Schauen Sie sich diese Videos zu den Gast Erfahrungen in Teams an:
+- [Teilnehmen an einem Team als Gast](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
+- [Teilnehmen an einer Teambesprechung mit Gästen](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Vergleich der Funktionen für Team-Mitglieder und -Gäste
 
@@ -69,13 +74,13 @@ In der folgenden Tabelle werden die für Gäste verfügbaren Anruf- und Besprech
 | Durchstellungsziel | Ja | Ja | Ja |
 | Können Anruf weiterleiten | Ja | Ja | Ja |
 | Zu Gesprächsübergabe mit Ankündigung ermächtigt | Ja | Ja | Ja |
-| Können weitere Benutzer zu einem Anruf über VoIP hinzufügen | Ja | Ja | Ja |
+| Können weitere Benutzer zu einem Anruf über VoIP hinzufügen | Ja | Ja  | Ja  |
 | Können Benutzer per Telefonnummer zu einem Anruf hinzufügen | Nein | Nein | Ja |
 | Weiterleitungsziel | Nein | Ja | Ja |
 | Anrufgruppenziel | Nein | Ja | Ja |
 | Ziel für nicht beantwortet | Nein | Ja | Ja |
 | Können Ziel für einen Verbundanruf sein | Nein | Ja | Ja |
-| Können einen Verbundanruf tätigen | Nein | Ja | Ja |
+| Können einen Verbundanruf tätigen | Nein | Ja | Ja  |
 | Können ihre Anrufe sofort weiterleiten | Nein | Nein | Ja |
 | Können gleichzeitig Anrufe tätigen | Nein | Nein | Ja |
 | Können ihre unbeantworteten Anrufe weiterleiten | Nein | Nein | Ja |

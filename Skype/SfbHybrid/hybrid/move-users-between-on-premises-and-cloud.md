@@ -1,5 +1,5 @@
 ---
-title: Migrieren von Benutzern zwischen lokal und Cloud
+title: Verschieben von Benutzern zwischen lokalen Bereitstellungen und der Cloud
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -18,14 +18,14 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Zusammenfassung: in einer lokalen Bereitstellung von Skype for Business Server, die für Hybrid aktiviert ist, können Sie Benutzer zwischen der lokalen Umgebung und der Cloud (ob Microsoft Teams oder Skype for Business Online) migrieren..'
-ms.openlocfilehash: 721352e1aa13cce8a9c03aa71c73f11e8c0d2452
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: aea3bed7db6c7821d957aa0e6d56cbafd548edb7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42008607"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780084"
 ---
-# <a name="move-users-between-on-premises-and-cloud"></a>Migrieren von Benutzern zwischen lokal und Cloud
+# <a name="move-users-between-on-premises-and-cloud"></a>Verschieben von Benutzern zwischen lokalen Bereitstellungen und der Cloud
 
 Bei einer lokalen Bereitstellung von Skype for Business Server, die für Hybridnutzung aktiviert ist, können Sie Benutzer zwischen der lokalen Umgebung und der Cloud verschieben (entweder in Microsoft Teams oder in Skype for Business Online). Ob ein Benutzer lokal oder in der Cloud verwaltet wird, gibt das Skype for Business Home des Benutzer an:
 
@@ -52,7 +52,7 @@ Wenn ein Benutzer aus der lokalen Umgebung in die Cloud verschoben wird:
 - Der Benutzer beginnt für alle Skype for Business-Funktionen mit der Verwendung der Skype for Business Online-Dienste in der Cloud.
 - Teams-Benutzer werden zur Interoperabilität mit Skype for Business-Benutzern aktiviert und können auch einen Verbund mit anderen Organisationen bilden.
 - Kontakte von lokal werden in die Cloud verschoben (entweder Skype for Business oder Teams).
-- Vorhandene Besprechungen, die Sie in der Zukunft geplant haben, werden in Online migriert: Wenn Benutzer direkt in TeamsOnly verschoben werden (siehe unten), werden Besprechungen in Teams-Besprechungen umgewandelt, andernfalls werden Besprechungen weiterhin Skype for Business, aber migriert, sodass Sie Online gehostet statt lokal.  Die Migration von Besprechungen geschieht asynchron und beginnt ungefähr 90 Minuten nach dem Verschieben des Benutzers.  Den Status der Besprechungsmigration können Sie mit [Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms) ermitteln. Bitte beachten Sie: Alle Inhalte, die im Vorfeld der Besprechung hochgeladen wurden, werden nicht verschoben.
+- Vorhandene Besprechungen, die Sie in der Zukunft geplant haben, werden in Online migriert: Wenn Benutzer direkt in TeamsOnly verschoben werden (siehe unten), werden Besprechungen in Teams-Besprechungen umgewandelt, andernfalls werden Besprechungen weiterhin Skype for Business, werden jedoch migriert, sodass Sie online statt lokal gehostet werden.  Die Migration von Besprechungen geschieht asynchron und beginnt ungefähr 90 Minuten nach dem Verschieben des Benutzers.  Den Status der Besprechungsmigration können Sie mit [Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms) ermitteln. Bitte beachten Sie: Alle Inhalte, die im Vorfeld der Besprechung hochgeladen wurden, werden nicht verschoben.
 
 Um Benutzer zwischen lokal und der Cloud zu verlagern (in Teams oder Skype for Business Online), verwenden Sie entweder das Cmdlet "CsUser" oder die Skype for Business-Verwaltungskonsole, beide lokale Tools. Diese Tools unterstützen drei unterschiedliche Pfade für die Migration:
 
@@ -62,14 +62,14 @@ Um Benutzer zwischen lokal und der Cloud zu verlagern (in Teams oder Skype for B
 
 ## <a name="required-administrative-credentials"></a>Erforderliche administrative Anmeldeinformationen
 
-Um Benutzer zwischen lokal und der Cloud zu migrieren, müssen Sie ein Konto mit ausreichenden Berechtigungen sowohl in der lokalen Skype for Business Server Umgebung als auch im Office 365 Mandanten verwenden. Sie können entweder ein Konto mit allen erforderlichen Berechtigungen oder getrennte Konten verwenden. Dabei greifen Sie mit lokalen Anmeldeinformationen auf die lokalen Tools zu und geben dann in diesen Tools zusätzliche Anmeldeinformationen für ein Office 365-Administratorkonto an.  
+Um Benutzer zwischen lokal und der Cloud zu migrieren, müssen Sie ein Konto mit ausreichenden Berechtigungen sowohl in der lokalen Skype for Business Server Umgebung als auch in der Office 365 Organisation verwenden. Sie können entweder ein Konto mit allen erforderlichen Berechtigungen oder getrennte Konten verwenden. Dabei greifen Sie mit lokalen Anmeldeinformationen auf die lokalen Tools zu und geben dann in diesen Tools zusätzliche Anmeldeinformationen für ein Office 365-Administratorkonto an.  
 
 - In der lokalen Umgebung muss der Benutzer, der die Migration ausführt, über die Rolle CSServerAdminstrator in Skype for Business Server verfügen.
 - In Office 365 muss der Benutzer, der die Migration durchführt, entweder ein globaler Administrator sein oder über die Rollen "Skype for Business-Administrator" und "Benutzeradministrator" verfügen.  
 
     > [!Important]
     > - Wenn Sie die Skype for Business-Verwaltungskonsole verwenden, werden Sie aufgefordert, Anmeldeinformationen für ein Office 365 Konto mit den entsprechenden Rollen anzugeben, wie oben beschrieben. Sie müssen ein Konto angeben, das in. onmicrosoft.com endet. Wenn dies nicht möglich ist, verwenden Sie das Cmdlet "CsUser".
-    >- Wenn Sie CsUser in PowerShell verwenden, können Sie entweder ein Konto verwenden, das in. onmicrosoft.com endet, oder Sie können ein beliebiges lokales Konto verwenden, das mit Azure AD synchronisiert wird, vorausgesetzt, Sie geben auch den Parameter HostedMigrationOverrideUrl im Cmdlet an. . Der Wert der URL für die Außerkraftsetzung der gehosteten Migration ist eine Variante der folgenden URL:https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>Ersetzen Sie in der obigen URL das XX durch zwei oder drei Zeichen, die wie folgt bestimmt werden:
+    >- Wenn Sie CsUser in PowerShell verwenden, können Sie entweder ein Konto verwenden, das in. onmicrosoft.com endet, oder Sie können ein beliebiges lokales Konto verwenden, das mit Azure AD synchronisiert wird, vorausgesetzt, Sie geben auch den Parameter HostedMigrationOverrideUrl im Cmdlet an. Der Wert der URL für die Außerkraftsetzung der gehosteten Migration ist eine Variante der folgenden URL:https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>Ersetzen Sie in der obigen URL das XX durch zwei oder drei Zeichen, die wie folgt bestimmt werden:
     >   - Führen Sie in einer Skype for Business Online PowerShell-Sitzung das folgende Cmdlet aus:<br>`Get-CsTenant|ft identity`
     >    - Der resultierende Wert wird im folgenden Format sein:<br>`OU=<guid>,OU=OCS Tenants,DC=lyncXX001,DC=local`
     >    - Der zwei-oder dreistellige Code ist der im Abschnitt DC = lyncXX001 enthaltene XX. Wenn es sich um einen Code mit zwei Zeichen handelt, handelt es sich um eine Ziffer, gefolgt von einer Zahl (beispielsweise 0A). Wenn es sich um einen dreistelligen Code handelt, werden zwei Buchstaben gefolgt von einer Ziffer (beispielsweise JP1). In allen Fällen sehen Sie 001 unmittelbar nach dem XX-Code.
@@ -92,12 +92,12 @@ Die Richtlinien (z. B. die Kontrolle von Nachrichten, Besprechungen und Anrufver
 
 ## <a name="see-also"></a>Siehe auch
 
-[Migrieren von Benutzern von lokal in Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md)
+[Verschieben von Benutzern aus der lokalen Bereitstellung nach Skype for Business Online](move-users-from-on-premises-to-skype-for-business-online.md)
 
-[Migrieren von Benutzern von lokalen zu Teams](move-users-from-on-premises-to-teams.md)
+[Verschieben von Benutzern aus der lokalen Bereitstellung nach Microsoft Teams](move-users-from-on-premises-to-teams.md)
 
-[Einrichten des Besprechungs Migrations Diensts (MMS)](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
+[Einrichten von Meeting Migration Service (MMS)](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
 
-[Planen des direkten Routings](/microsoftteams/direct-routing-plan)
+[Planen von direktem Routing](/microsoftteams/direct-routing-plan)
 
 [CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)

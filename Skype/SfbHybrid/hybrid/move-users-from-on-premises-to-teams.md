@@ -18,14 +18,14 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Zusammenfassung: Hier erfahren Sie, wie Sie Benutzereinstellungen migrieren und Benutzer in Microsoft Teams verschieben.'
-ms.openlocfilehash: af5281faffa9bd9439e045dc40f67283bb740cb5
-ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
+ms.openlocfilehash: 07d0657017d24acbbd3961c3528056debb927a5a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41888774"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779681"
 ---
-# <a name="move-users-from-on-premises-to-teams"></a>Migrieren von Benutzern von lokalen zu Teams
+# <a name="move-users-from-on-premises-to-teams"></a>Verschieben von Benutzern aus der lokalen Bereitstellung nach Microsoft Teams
 
 Wenn ein Benutzer nur von einem Standort in ein Microsoft Teams verschoben wird, wird der Skype for Business Home des Benutzers von lokal in Online verschoben, und dem Benutzer wird TeamsUpgradePolicy mit Mode = TeamsOnly zugewiesen.  Nachdem ein Benutzer vom lokalen in den TeamsOnly-Modus verschoben wurde:
 
@@ -55,13 +55,13 @@ Es gibt zwei Methoden, um einen Benutzer von lokal in Microsoft Teams zu migrier
 
 ## <a name="move-a-user-directly-from-skype-for-business-on-premises-to-teams-only"></a>Direkte Verlagerung eines Benutzers aus Skype for Business lokal in Microsoft Teams
 
-Mithilfe der lokalen Verwaltungstools in Skype for Business Server 2015 mit ku8 sowie in Skype for Business Server 2019 können Sie Benutzer in einem einzigen Schritt von lokal in den Microsoft Teams-Modus versetzen, indem Sie entweder das Cmdlet "CsUser" in PowerShell oder die Skype for Business SE verwenden. RVer haben-Systemsteuerung, wie unten beschrieben.
+Mithilfe der lokalen Verwaltungstools in Skype for Business Server 2015 mit ku8 sowie in Skype for Business Server 2019 können Sie Benutzer in einem einzigen Schritt von lokal in den Microsoft Teams-Modus versetzen, indem Sie entweder das Cmdlet "CsUser" in PowerShell oder die Skype for Business Server-Systemsteuerung verwenden, wie unten beschrieben.
 
 ### <a name="move-to-teams-using-move-csuser"></a>Navigieren zu Microsoft Teams mithilfe von "CsUser"
 
 CsUser ist in einem lokalen Skype for Business-Verwaltungsshell PowerShell-Fenster verfügbar. Die folgenden Schritte und die erforderlichen Berechtigungen sind identisch mit dem Verschieben eines Benutzers in Skype for Business Online, es sei denn, Sie müssen auch den MoveToTeams-Switch angeben, und Sie müssen sicherstellen, dass dem Benutzer auch eine Lizenz für Teams erteilt wurde (zusätzlich zu Skype for Business Online).
 
-Sie müssen sowohl in der lokalen Umgebung als auch im Office 365 Mandanten über ausreichende Berechtigungen verfügen, wie unter [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)beschrieben. Sie können entweder ein einzelnes Konto verwenden, das über Berechtigungen in beiden Umgebungen verfügt, oder Sie können ein lokales Skype for Business Server-Verwaltungsshell-Fenster mit lokalen Anmeldeinformationen starten und den `-Credential` Parameter verwenden, um Anmeldeinformationen für ein Office 365 Konto mit der erforderlichen Office 365 Administratorrolle anzugeben.
+Sie müssen sowohl in der lokalen Umgebung als auch in der Office 365 Organisation über ausreichende Berechtigungen verfügen, wie unter [erforderliche administrative Anmeldeinformationen](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)beschrieben. Sie können entweder ein einzelnes Konto verwenden, das über Berechtigungen in beiden Umgebungen verfügt, oder Sie können ein lokales Skype for Business Server-Verwaltungsshell-Fenster mit lokalen Anmeldeinformationen starten und den `-Credential` Parameter verwenden, um Anmeldeinformationen für ein Office 365 Konto mit der erforderlichen Office 365 Administratorrolle anzugeben.
 
 So stellen Sie einen Benutzer mithilfe von "CsUser" in den Microsoft Teams-Modus um:
 

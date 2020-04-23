@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Übersicht über die Verwendung Skype for Business Online Telemetrie-Tools zum Überwachen einer lokalen Implementierung in einem Hybrid Szenario.
-ms.openlocfilehash: 910bfe2a1af1f39976d0098aeb1fd23a7ef31490
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: ad4d7ddb270bc4e4227eea7d33c37411ea96fa8c
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41765233"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779661"
 ---
 # <a name="plan-call-data-connector"></a>Planen des Connectors für die Anrufdaten
 
@@ -62,10 +62,10 @@ Bei den folgenden Anforderungen wird vorausgesetzt, dass Sie bereits Skype for B
 
    Weitere Informationen finden Sie unter [Planen der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](plan-hybrid-connectivity.md) und [Konfigurieren der Hybrid Konnektivität zwischen Skype for Business Server und Office 365](configure-hybrid-connectivity.md).
 
-- Authentifizieren Sie sich bei Ihrem Office 365 Mandanten, und stellen Sie sicher, dass die folgenden Rollen aktiviert sind:
+- Authentifizieren Sie sich bei Ihrer Office 365 Organisation, und stellen Sie sicher, dass die folgenden Rollen aktiviert sind:
 
   - Skype for Business Server Administrator
-  - Globaler Office 365-Administrator
+  - Globaler Administrator
 
 - Wenn Sie dies noch nicht getan haben, aktivieren Sie das Anruf qualitätsdashboard wie unter [aktivieren und Verwenden des Anruf Qualitäts Dashboards für Microsoft Teams und Skype for Business Online](/microsoftteams/turning-on-and-using-call-quality-dashboard)beschrieben.
 

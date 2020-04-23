@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Dieser Anhang enthält detaillierte Schritte zum Deaktivieren von Hybriden im Rahmen der Cloud-Konsolidierung für Teams und Skype for Business.
-ms.openlocfilehash: 8fc9745c75f9b449751164065f974ccd8088218f
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 053d632b5a07b7ce7cca8ef7a1ddf45a673bcf59
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726975"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780144"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Deaktivieren der Hybridbereitstellung zur Durchführung der Migration in die Cloud
 
@@ -34,7 +34,7 @@ Nachdem Sie alle Benutzer von lokal in die Cloud verschoben haben, können Sie d
 
 1. Aktualisieren Ihrer DNS-Einträge derart, dass sie auf Office 365 verweisen.
 
-2. Deaktivieren der geteilten Domäne im Office 365-Mandanten.
+2. Deaktivieren Sie die geteilte Domäne in der Office 365 Organisation.
 
 3. Deaktivieren Sie die Möglichkeit in der lokalen Kommunikation mit Office 365.
 
@@ -56,7 +56,7 @@ Das externe DNS der Organisation für die lokale Organisation muss so aktualisie
     |CNAME| erfüllen|   3600|   WebDir. online. lync. <span>com-|
     |CNAME| Dialin  |3600|  WebDir. online. lync. <span>com-|
 
-2.  *Deaktivieren Sie den freigegebenen SIP-Adressraum in Office 365 Mandanten.*
+2.  *Deaktivieren Sie den freigegebenen SIP-Adressraum in Office 365 Organisation.*
 Der folgende Befehl muss in einem Skype for Business Online PowerShell-Fenster ausgeführt werden.
 
     ```PowerShell
