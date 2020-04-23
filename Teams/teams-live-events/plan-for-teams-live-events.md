@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Informieren Sie sich über die Faktoren, die Sie berücksichtigen sollten, bevor Sie Liveereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4a7f60a199a342d69311467bffbc4607854a719
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: aabd94e8a5c4904f0343e2c8ccb647d632f3fa21
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/22/2020
-ms.locfileid: "43752362"
+ms.locfileid: "43779964"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -86,7 +86,7 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 |Maximale Zielgruppengröße |10.000 Teilnehmer |10.000 Teilnehmer<sup>1</sup> |10.000 Teilnehmer<sup>1</sup> |
 |Maximale Dauer eines Liveereignisses |4 Stunden |4 Stunden |4 Stunden |
 |Maximale Anzahl von Referenten und Produzenten in einem Liveereignis |10 <sup>2</sup> |10 <sup>2</sup> |10 <sup>2</sup> |
-|Maximale Anzahl gleichzeitiger Liveereignisse pro Office 365-Mandant |15  | 15  | 15  |
+|Maximale Anzahl gleichzeitiger Liveereignisse pro Office 365-Organisation |15  | 15  | 15  |
 |Erstellung von Liveereignissen |   Skype Meeting Broadcast-Portal |Teams, Yammer via Teams | Teams, Yammer via Teams, Stream |
 |Zielgruppen-Engagement – Yammer |&#x2714; |&#x2714; (integrierte Lösung) |&#x2714; (integrierte Lösung) |
 |Zielgruppen-Engagement – Moderierte F & A |&#x2714;  |&#x2714; |&#x2714; |
@@ -117,7 +117,7 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folgenden Informationen zeigen die Verfügbarkeit für die Ereignisteammitglieder und -teilnehmer.
 
 > [!IMPORTANT]
-> Die Region für das Ereignis wird automatisch in Abhängigkeit vom Organisator und der Office 365-Organisation ausgewählt.
+> Die Region für das Ereignis wird automatisch in Abhängigkeit vom Organisator und von Microsoft 365 oder Office 365 ausgewählt.
 
 **Verfügbar in diesen Regionen**
 
