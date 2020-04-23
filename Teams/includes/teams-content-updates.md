@@ -8,7 +8,7 @@
 
 | Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
 |------|------------|--------|
-| 3/17/2020 | [Anforderungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
+| 3/17/2020 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
 | 3/17/2020 | [Telefone und Geräte für Teams](/MicrosoftTeams/teams-ip-phones) | Geändert |
 | 3/17/2020 | [Verwenden von Power BI zum Analysieren von CQD-Daten für Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | Geändert |
 | 3/17/2020 | [Bewährte Methoden zum Organisieren von Teams in Microsoft Teams](/MicrosoftTeams/best-practices-organizing) | Geändert |
@@ -86,7 +86,7 @@
 | 3/26/2020 | [Plan für Live-Ereignisse in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | Geändert |
 | 3/26/2020 | [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | Geändert |
 | 3/26/2020 | [Benutzer können ausgehende Anrufe in diese Länder und Regionen vornehmen](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions) | Geändert |
-| 3/26/2020 | [Anforderungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
+| 3/26/2020 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
 | 3/26/2020 | [Unterstützung von Remotemitarbeitern in Microsoft Teams](/MicrosoftTeams/support-remote-work-with-teams) | Geändert |
 | 3/26/2020 | [Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen](/MicrosoftTeams/resources-teams-edu) | Geändert |
 | 3/27/2020 | [Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen](/MicrosoftTeams/resources-teams-edu) | Geändert |
@@ -138,7 +138,7 @@
 | 4/1/2020 | [Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen](/MicrosoftTeams/cqd-power-bi-connector) | Geändert |
 | 4/1/2020 | [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](/MicrosoftTeams/prepare-network) | Geändert |
 | 4/1/2020 | [Bekannte Probleme](/MicrosoftTeams/rooms/known-issues) | Geändert |
-| 4/1/2020 | [Anforderungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
+| 4/1/2020 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
 | 4/1/2020 | [Versionsunterstützung](/MicrosoftTeams/rooms/rooms-lifecycle-support) | Geändert |
 | 4/1/2020 | [Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei](/MicrosoftTeams/rooms/xml-config-file) | Geändert |
 | 4/1/2020 | [Verwenden von PowerShell zum Festlegen von Richtlinien für Live-Ereignisse in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-teams-live-events-policies-using-powershell) | Geändert |
@@ -173,7 +173,7 @@
 | 4/3/2020 | [Administrator Schulungsressourcen – Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Geändert |
 | 4/3/2020 | [URLs und IP-Adressbereiche für Office 365](/MicrosoftTeams/office-365-urls-ip-address-ranges) | Geändert |
 | 4/3/2020 | [Office 365 und benutzerdefinierte Connectors](/MicrosoftTeams/office-365-custom-connectors) | Geändert |
-| 4/3/2020 | [Office 365-Gruppen und Microsoft Teams](/MicrosoftTeams/office-365-groups) | Geändert |
+| 4/3/2020 | [Microsoft 365-Gruppen und Microsoft 365 oder Office 365softTeams/Office-365-Gruppen) | Geändert |
 | 4/3/2020 | [Aktivieren von Teams in Ihrer Office 365-Organisation](/MicrosoftTeams/office-365-set-up) | Geändert |
 | 4/3/2020 | [Implementieren von Quality of Service in Teams-Clients](/MicrosoftTeams/qos-in-teams-clients) | Geändert |
 | 4/3/2020 | [Quality of Service in Microsoft Teams](/MicrosoftTeams/qos-in-teams) | Geändert |
@@ -225,7 +225,7 @@
 | 4/3/2020 | [Verwalten von Einstellungen in Ihrer Organisation](/MicrosoftTeams/enable-features-office-365) | Geändert |
 | 4/3/2020 | [E-Mail-Optionen, wenn die Einstellungen für Audiokonferenz geändert werden](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams) | Geändert |
 | 4/3/2020 | [Zulassen, dass Benutzer ihren Namen für eine Besprechung aufzeichnen](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams) | Geändert |
-| 4/3/2020 | [Erweitern vorhandener Office 365-Gruppen](/MicrosoftTeams/enhance-office-365-groups) | Geändert |
+| 4/3/2020 | [Erweitern vorhandener Microsoft 365-Gruppen](/MicrosoftTeams/enhance-office-365-groups) | Geändert |
 | 4/3/2020 | [Lenkungsausschuss für Cloud-sprach Bereitstellung](/MicrosoftTeams/envision-steering-committee-complete-guide) | Geändert |
 | 4/3/2020 | [Erweitern von Microsoft Teams in Ihrer Organisation](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | Geändert |
 | 4/3/2020 | [Patienten-APP und EPA-Integrations DSTU2-Schnittstelle](/MicrosoftTeams/expand-teams-across-your-org/healthcare/dstu2-interface) | Geändert |
@@ -270,7 +270,7 @@
 | 4/3/2020 | [Einschränkungen für ausgehende Anrufe-Audiokonferenzen & PSTN-Anrufe](/MicrosoftTeams/outbound-calling-restriction-policies) | Geändert |
 | 4/3/2020 | [Übertragen von Telefonnummern an Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | Geändert |
 | 4/3/2020 | [Telefonnummern für Audiokonferenzen](/MicrosoftTeams/phone-numbers-for-audio-conferencing-in-teams) | Geändert |
-| 4/3/2020 | [Planen von Office 365-Gruppen beim Erstellen von Teams](/MicrosoftTeams/plan-office-365-groups) | Geändert |
+| 4/3/2020 | [Planen von Microsoft 365-Gruppen beim Erstellen von Teams](/MicrosoftTeams/plan-office-365-groups) | Geändert |
 | 4/3/2020 | [Microsoft 365 Government-DoD-Bereitstellungen](/MicrosoftTeams/plan-for-government-dod) | Geändert |
 | 4/3/2020 | [Microsoft 365 Government-gcc – Hochspannungs Bereitstellungen](/MicrosoftTeams/plan-for-government-gcc-high) | Geändert |
 | 4/3/2020 | [Microsoft 365 Government-gcc-Bereitstellungen](/MicrosoftTeams/plan-for-government-gcc) | Geändert |
@@ -448,7 +448,7 @@
 | 4/14/2020 | [Anwesenheit in Microsoft Teams](/MicrosoftTeams/presence-admins) | Geändert |
 | 4/14/2020 | [Remoteverwaltung von Microsoft Teams rooms-Geräteeinstellungen](/MicrosoftTeams/rooms/xml-config-file) | Geändert |
 | 4/15/2020 | [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](/MicrosoftTeams/assign-policies) | Geändert |
-| 4/15/2020 | [Anforderungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
+| 4/15/2020 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
 | 4/15/2020 | [Teams für Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | Geändert |
 | 4/15/2020 | [Durchführen einer eDiscovery-Untersuchung von Inhalten](/MicrosoftTeams/ediscovery-investigation) | Geändert |
 | 4/15/2020 | [Verwenden des Add-Ins für Microsoft Teams-Besprechungen in Outlook](/MicrosoftTeams/teams-add-in-for-outlook) | Geändert |

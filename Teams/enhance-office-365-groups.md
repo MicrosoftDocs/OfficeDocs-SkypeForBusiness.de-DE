@@ -1,5 +1,5 @@
 ---
-title: Erweitern vorhandener Office 365-Gruppen
+title: Erweitern vorhandener Microsoft 365-Gruppen
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -8,7 +8,7 @@ ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
 audience: admin
-description: Hier erfahren Sie, wie Sie Office 365-Gruppen mit Microsoft Teams erweitern, indem Sie eine Verteilerliste in ein Team einladen, für E-Mail aktivierte Sicherheitsgruppen hinzufügen usw.
+description: Erfahren Sie, wie Sie Microsoft 365-Gruppen mit Microsoft Teams erweitern können, indem Sie eine Liste mit Verehrungs Funktionen zu einem Team einladen, e-Mail-aktivierte Sicherheitsgruppen hinzufügen und vieles mehr.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,14 +18,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ad71a5d65eca924e7d73c157011ff12ce38bc9e4
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 97164b6eeed1a626681cf320fc02c7dd0a74353a
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136865"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776600"
 ---
-<a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Erweitern vorhandener Office 365-Gruppen mit Microsoft Teams
+<a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>Erweitern vorhandener Microsoft 365-Gruppen mit Microsoft Teams
 =======================================================
 
 Microsoft Teams-Benutzer können eine vorhandene Office 365-Gruppe mit Funktionen für Teams erweitern. Wenn Sie sich die Verbesserung einer öffentlichen Office 365-Gruppe ansehen, können Benutzer dies tun, wenn die Anzahl der Mitglieder gleich oder kleiner als 5.000 ist.
@@ -43,7 +43,7 @@ Benutzer können auch eine Verteilerliste zu einem Team einladen, und die Mitgli
 
 Sie könne auch für E-Mail aktivierte Sicherheitsgruppen als Mitglieder eines Teams hinzufügen. Wenn Sie danach jedoch weitere Mitglieder zur Sicherheitsgruppe hinzufügen, werden diese Mitglieder nicht automatisch zum Team hinzugefügt. Sie müssen neue Mitglieder separat hinzufügen oder die Sicherheitsgruppe erneut zum Team hinzufügen. (Wenn Sie die Sicherheitsgruppe erneut hinzufügen, wird durch die Deduplizierung sichergestellt, dass Mitglieder nur einmal hinzugefügt werden.)
 
-Es gibt zwei Arten von Datenschutzeinstellungen mit Office 365-Gruppen, **öffentlich und privat**. Während beide Gruppentypen für Teams aktiviert werden können, gibt es einen kleinen Unterschied, wenn es um Self-Service geht.
+Es gibt zwei Arten von Datenschutzeinstellungen für Microsoft 365-Gruppen: **öffentlich und privat**. Während beide Gruppentypen für Teams aktiviert werden können, gibt es einen kleinen Unterschied, wenn es um Self-Service geht.
 
 -   Benutzer können nach öffentlichen Gruppen suchen und sich selbst beitreten, ohne die Genehmigung des Team Besitzers zu benötigen.
 

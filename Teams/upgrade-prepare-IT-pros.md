@@ -18,25 +18,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c3813b5d79f1362ff30ff15fa6fd2aff38b25a9
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 47aef5ceee6daee63683655f167016e4d7ae1cf2
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706895"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776734"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Vorbereiten der IT-Mitarbeiter für Microsoft Teams
 
-![Diagramm zum Upgrade von Fahrten mit Hervorhebung der technischen Bereitschaftsstufe](media/upgrade-banner-tech-readiness.png "Phasen der Upgrade-Reise, wobei der Schwerpunkt auf der technischen Bereitschaftsstufe liegt")
+![Diagramm Upgrade-Strategie, mit Betonung der Phase „Technische Bereitschaft“](media/upgrade-banner-tech-readiness.png "Etappen der Upgrade-Tour mit Schwerpunkt auf der Phase „Technische Bereitschaft“")
 
-Dieser Artikel ist Bestandteil der Phase „Technische Bereitschaft“ Ihrer Upgrade-Strategie, einer Aktivität, die Sie parallel zur Phase „Benutzerbereitschaft“ durchführen. Bevor Sie fortfahren, bestätigen Sie, dass Sie diese Aktivitäten aus vorherigen Phasen abgeschlossen haben:
+Dieser Artikel ist Bestandteil der Phase „Technische Bereitschaft“ Ihrer Upgrade-Strategie, einer Aktivität, die Sie parallel zur Phase „Benutzerbereitschaft“ durchführen. Vergewissern Sie sich zunächst, dass diese Aktivitäten aus den vorherigen Phasen abgeschlossen sind:
 
 - [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
 - [Definieren des Projektumfangs](https://aka.ms/SkypetoTeams-Scope)
 - [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Ihre Office 365-mandantenadministratoren, technischen Leads und der Support Desk sind für das fahren einer hochwertigen Benutzeroberfläche verantwortlich. Dies umfasst die Gewährleistung, dass Ihr Netzwerk bereit ist, Teams zu unterstützen, Teams für Ihre Benutzer zu konfigurieren und Probleme, die möglicherweise auftreten können, effektiv zu beheben und zu beheben.
+Ihre Office 365-Organisationsadministratoren, technischen Leads und der Support Desk sind für eine qualitativ hochwertige Benutzererfahrung verantwortlich. Dies umfasst die Gewährleistung, dass Ihr Netzwerk bereit ist, Teams zu unterstützen, Teams für Ihre Benutzer zu konfigurieren und Probleme, die möglicherweise auftreten können, effektiv zu beheben und zu beheben.
 
 Geben Sie die folgenden Ressourcen für Ihre IT-Mitarbeiter frei, und bestätigen Sie, dass Sie bereit sind, Benutzer zu unterstützen, bevor Sie mit dem Upgrade auf Teams beginnen:
 

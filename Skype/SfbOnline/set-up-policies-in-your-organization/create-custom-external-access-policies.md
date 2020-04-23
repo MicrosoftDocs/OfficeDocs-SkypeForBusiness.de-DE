@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Mit Skype for Business Online können Sie zusätzliche Richtlinien für den externen Zugriff erstellen. Im Gegensatz zu Client-oder Konferenzrichtlinien, in denen Sie mehrere Kombinationen haben können, gibt es drei vordefinierte Richtlinien für den externen Zugriff, die die meisten Szenarien abdecken können.
-ms.openlocfilehash: 76fa8fd1ae18f4108d9c4f52bca73d86ea07aafd
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: bf98dbdd7e59bea5f818bf803ba993be569c59b7
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983970"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776310"
 ---
 # <a name="create-custom-external-access-policies"></a>Erstellen von benutzerdefinierten externen Zugriffsrichtlinien
 
@@ -67,7 +67,7 @@ Damit dies funktioniert, muss der Benutzer eine unterstützte Version der 2016-K
     
 1. Vom **Start Menu** > **Windows PowerShell**.
     
-2. Stellen Sie im Fenster **Windows PowerShell** eine Verbindung mit Ihrer Office 365-Organisation her, indem Sie Folgendes ausführen:
+2. Stellen Sie im **Windows PowerShell** -Fenster eine Verbindung mit Ihrem Microsoft 365 oder Office 365 her, indem Sie Folgendes ausführen:
     
     > [!NOTE]
     > Sie müssen den Befehl **Import-Module** nur bei der ersten Verwendung des Windows PowerShell-Moduls für Skype for Business Online ausführen.

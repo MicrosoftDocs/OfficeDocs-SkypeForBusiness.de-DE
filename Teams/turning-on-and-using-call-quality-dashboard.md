@@ -23,16 +23,16 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 'Hier erfahren Sie, wie Sie das Dashboard für die Anrufqualität aktivieren und verwenden und zusammenfassende Berichte über die Qualität von Anrufen erhalten. '
-ms.openlocfilehash: 7fafbebaa21a6bbd71ab0e253f226908d6787869
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 52bf3856ad5c737143d179525e5c2870748f3b46
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42983330"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788950"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 
-Hier erfahren Sie, wie Sie Ihre Office 365-Organisation konfigurieren können, um das Anrufqualitäts-Dashboard zur Überwachung der Anrufqualität zu verwenden.
+Hier erfahren Sie, wie Sie Ihre Microsoft 365 oder Office 365 so konfigurieren, dass die Anrufqualität mithilfe des Dashboards für die Anrufqualität überwacht wird.
   
 Das Anruf Qualitäts Dashboard (CQD) bietet Einblicke in die Qualität von anrufen, die mit Microsoft Teams und Skype for Business Online-Diensten getätigt wurden. In diesem Thema werden die Schritte beschrieben, mit denen Sie Daten sammeln können, um Probleme mit der Anrufqualität zu beheben.
 
@@ -149,11 +149,11 @@ Sie können mehrere Datumsangaben auf der Registerkarte Standort hinzufügen, be
 
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Aktivieren von Zusammenfassungsberichten des Microsoft-Anrufqualitäts-Dashboards (AQD)
 
-Bevor Sie mit der Verwendung von CQD beginnen können, aktivieren Sie es für Ihre Office 365-Organisation wie folgt:
+Bevor Sie mit der Verwendung von CQD beginnen können, aktivieren Sie es für Ihr Microsoft 365 oder Office 365 wie folgt:
 
 ![Ein Symbol, das das Microsoft Teams-](media/teams-logo-30x30.png) Logo **mit dem Microsoft Teams Admin Center** zeigt
 
-1. Registrieren Sie sich bei Ihrer Office 365-Organisation mit dem Microsoft Teams-Dienstadministratorkonto, und wählen Sie dann die Kachel **Administrator** aus, um das Admin Center zu öffnen.
+1. Registrieren Sie sich bei Ihrem Microsoft 365 oder Office 365 mit dem Microsoft Teams-Dienstadministratorkonto, und wählen Sie dann die Kachel **"Administrator** " aus, um das Admin Center zu öffnen.
 2. Wählen Sie im linken Bereich unter **Admin Center**die Option **Microsoft Teams** aus, um das Microsoft Teams Admin Center zu öffnen.
 3. Wählen Sie im Microsoft Teams Admin Center im linken Bereich **Anruf qualitätsdashboard** aus.
 4. Klicken Sie auf der Seite \(,<span>auf<span/>\)der https://CQD.Teams.Microsoft.com geöffnet wird, auf **Anmelden** , und geben Sie Ihr globales Administrator Konto oder Microsoft Teams-Dienstadministratorkonto Informationen ein.
@@ -166,7 +166,7 @@ Nachdem Sie sich angemeldet haben, wird die CQD nach der Aktivierung mit dem sam
 
 ![Symbol des Skype for Business-Logos](media/sfb-logo-30x30.png) **unter Verwendung des Legacy-Portals von Skype for Business**
 
-1. Melden Sie sich mit einem Administratorkonto bei Ihrer Office 365-Organisation an, und wählen Sie dann die Kachel **Admin** aus, um das Admin Center zu öffnen.
+1. Registrieren Sie sich bei Ihrem Microsoft 365 oder Office 365 mit einem Administratorkonto, und wählen Sie dann die Kachel **Administrator** aus, um das Admin Center zu öffnen.
 2. Wählen Sie im linken Bereich unter **Admin Center**die Option **Microsoft Teams** aus, um das Microsoft Teams Admin Center zu öffnen.
 3. Wählen Sie im Microsoft Teams Admin Center im linken Bereich **Legacy Portal** aus, wählen Sie **Tools**aus, und wählen Sie dann **Skype for Business Online-Anruf Qualitäts Dashboard**aus.
 
@@ -466,7 +466,7 @@ CQD v2 und CQD V3 haben unterschiedliche Gesamtanzahlen, da in CQD v2 keine neue
 
 Wenn das Nutzungsszenario Skype for Business Server 2019-Anrufe umfasst, beinhaltet CQD V3-Daten Skype-bot-Anrufe (automatische Telefonzentrale, CVI, Virtual Desktop Interface), Live-Events und PSTN-Anrufe. CQD v2 verwendet diese Daten nicht. (Für CQD v3 ist Skype for Business Server 2019 mit Cloud Data Connector konfiguriert.)
 
-Wenn Sie beispielsweise 200.000-Audiostreams mit 5000-Fehlern in einem CQD v2-Zusammenfassungsbericht sehen, wäre es nicht ungewöhnlich, 300.000 Audiostreams mit 5500-Fehlern zu sehen (der Unterschied kann auf Skype for Business Server 2019-Anrufe, CVI-Anrufe und PSTN-Anrufe zurückzuführen sein. usw.) in einem CQD V3-Zusammenfassungsbericht.
+Wenn Sie beispielsweise 200.000-Audiostreams mit 5000-Fehlern in einem CQD v2-Zusammenfassungsbericht sehen, wäre es nicht ungewöhnlich, 300.000 Audiostreams mit 5500-Fehlern zu sehen (der Unterschied kann auf Skype for Business Server 2019-Anrufe, CVI-Anrufe, PSTN-Anrufe usw.) in einem CQD V3-Zusammenfassungsbericht zurückzuführen sein.
 
 Um unerwartete Unterschiede zu unterscheiden, sehen Sie sich mehr als eine Aufschlüsselung der Gesamtdaten an. Filtern Sie die Daten nach einem oder mehreren der folgenden Parameter:
 
@@ -496,7 +496,7 @@ Wenn Sie Daten für diese beiden Dienste vergleichen:
 ### <a name="why-cant-i-see-euii-in-cqd"></a>Warum kann ich EUII in CQD nicht sehen?
 
 Diese Administratorrollen können auf CQD zugreifen, aber Sie können EUII (Endbenutzer identifizierbare Informationen) nicht anzeigen:
-- Office 365-berichtsleser
+- Microsoft 365-berichtsleser
 - Supportfachmann für die Teams-Kommunikation
 
 Weitere Informationen zu Rollen, die auf CQD zugreifen können – einschließlich EUII-Read [Zuweisen von Rollen für den Zugriff auf CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).

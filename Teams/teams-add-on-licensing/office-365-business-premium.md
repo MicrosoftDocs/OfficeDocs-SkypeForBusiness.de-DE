@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 Business Premium '
+title: 'Microsoft 365 Business Standard '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,17 +18,17 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Erfahren Sie mehr über Add-on-Lizenzen, Features und Informationen zum Kauf von Office 365 Business Premium-Plänen. '
-ms.openlocfilehash: b51724524f56fe534c95ede85bca7535ab1be396
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: 'Erfahren Sie mehr über Add-on-Lizenzen, Features und Informationen zum Kauf von Microsoft 365 Business Standard-Plänen. '
+ms.openlocfilehash: 20aacf46acf60bb581056654babc85277f41ee45
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826563"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780504"
 ---
-# <a name="office-365-business-premium"></a>Office 365 Business Premium
+# <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Standard
 
-Wenn Sie über [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium)verfügen, können Sie Microsoft Teams verwenden, um Anrufe an andere Personen in Ihrem Unternehmen zu tätigen, die sich in Ihrem Abonnement befinden. Wenn Ihr Unternehmen beispielsweise 10 Personen umfasst, können Sie Teams für Anrufe und Chats nutzen.
+Wenn Sie über [Microsoft 365 Business Standard](https://products.office.com/en/business/office-365-business-premium)verfügen, können Sie Microsoft Teams verwenden, um Anrufe an andere Personen in Ihrem Unternehmen zu tätigen, die in Ihrem Abonnement enthalten sind. Wenn Ihr Unternehmen beispielsweise 10 Personen umfasst, können Sie Teams für Anrufe und Chats nutzen.
 
 
 Wenn **Sie Anrufe von Personen außerhalb Ihres Unternehmens tätigen und empfangen möchten, haben Sie folgende Möglichkeiten**:

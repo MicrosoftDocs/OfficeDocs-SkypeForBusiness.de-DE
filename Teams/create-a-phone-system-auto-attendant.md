@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Cloud-Telefonzentralen für Microsoft Teams einrichten und testen.
-ms.openlocfilehash: 05a70c578812ee5ecdd91214ab253843fe67471c
-ms.sourcegitcommit: 56ceda54ca48d2984298d4d1f26017c0147d4431
+ms.openlocfilehash: dee263c08751f21e1fde19965d23595d5da27e39
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43508629"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43788980"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Einrichten einer automatischen Cloudtelefonzentrale
 
@@ -333,7 +333,7 @@ Auf dieser Seite können Sie festlegen, wer in Ihrem Verzeichnis aufgeführt und
 
 Wenn Sie **alle Online Benutzer**auswählen, werden alle berechtigten Benutzer in die Verzeichnissuche einbezogen.
 
-**Benutzerdefinierte Benutzergruppen** Mit dieser Option können Sie eine in Ihrer Organisation bereits erstellte Office 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe suchen und auswählen. Benutzer werden dem Verzeichnis hinzugefügt, wenn Sie sich in der ausgewählten Office 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe befinden, und Sie sind **Online Benutzer mit einer Telefon System Lizenz** oder lokal mit Skype for Business Server gehostet. Sie können dem Verzeichnis mehrere Office 365-Gruppen,-Verteilerlisten und-Sicherheitsgruppen hinzufügen.
+**Benutzerdefinierte Benutzergruppen** Mit dieser Option können Sie eine in Ihrer Organisation bereits erstellte Office 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe suchen und auswählen. Benutzer werden dem Verzeichnis hinzugefügt, wenn Sie sich in der ausgewählten Office 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe befinden, und Sie sind **Online Benutzer mit einer Telefon System Lizenz** oder lokal mit Skype for Business Server gehostet. Sie können dem Verzeichnis mehrere Microsoft 365-Gruppen,-Verteilerlisten und-Sicherheitsgruppen hinzufügen.
 
 <a name="dialscope"> </a>
 
@@ -343,7 +343,7 @@ Auf dieser Seite können Sie festlegen, welche Benutzer in Ihrer Organisation in
 
 Wenn Sie **keine**auswählen, werden alle berechtigten Benutzer in die Verzeichnissuche einbezogen.
 
-**Benutzerdefinierte Benutzergruppe** Sie können nach einer Office 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe suchen, die in Ihrer Organisation erstellt wurde. Benutzer in dieser Gruppe sind von der Verzeichnissuche ausgeschlossen. Sie können mehrere Office 365-Gruppen, Verteilerlisten und Sicherheitsgruppen hinzufügen.
+**Benutzerdefinierte Benutzergruppe** Sie können nach einer Office 365-Gruppe,-Verteilerliste oder-Sicherheitsgruppe suchen, die in Ihrer Organisation erstellt wurde. Benutzer in dieser Gruppe sind von der Verzeichnissuche ausgeschlossen. Sie können mehrere Microsoft 365-Gruppen,-Verteilerlisten und-Sicherheitsgruppen hinzufügen.
 
 
 Wenn Sie die Einstellungen bei aktivierter Wahl nach Namen standardmäßig beibehalten, werden alle berechtigten Benutzer in die Verzeichnissuche einbezogen.
