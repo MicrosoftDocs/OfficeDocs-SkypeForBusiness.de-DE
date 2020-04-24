@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: Office 365-Benutzer, die nicht für Microsoft Teams lizenziert sind, können eine einjährige Testversion von Teams starten.
+description: Benutzer von Microsoft 365 oder Office 365, die nicht für Microsoft Teams lizenziert sind, können eine 1-Jahres-Testversion von Teams initiieren.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,17 +17,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a46720a59b5d3530f64bf4f459df13ad7c5cf5de
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6a0ad5cf058b8dcc5567cfc706ed3edb2cc09adf
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137155"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43778351"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots für einen Test der kommerziellen Cloud von Microsoft Teams
 =======================================================
 
-Die Testversion der kommerziellen Cloud von Microsoft Teams bietet bestehenden Office 365-Benutzern in Ihrer Organisation, die nicht für Microsoft Teams lizenziert sind, die Möglichkeit, eine einjährige Testversion des Produkts zu starten. Administratoren können dieses Feature für Benutzer in ihrer Organisation aktivieren oder deaktivieren.
+Die Testversion der kommerziellen Cloud von Microsoft Teams bietet bestehenden Microsoft 365- oder Office 365-Benutzern in Ihrer Organisation, die nicht für Microsoft Teams lizenziert sind, die Möglichkeit, eine 1-Jahres-Testversion des Produkts zu initiieren. Administratoren können dieses Feature für Benutzer in ihrer Organisation aktivieren oder deaktivieren.
 
 > [!IMPORTANT]
 > Die Microsoft Teams Commercial Cloud-Testversion wird ab Januar 2020 durch Microsoft Teams Exploratory ersetzt. Informationen zu diesem neuen Angebot finden Sie unter [Manage Teams Exploratory-Lizenz](teams-exploratory.md).
@@ -55,7 +55,7 @@ Die Testversion gewährt ein 1-Jahres-Testabonnement für Ihre gesamte Organisat
 
 Benutzern muss (im Microsoft 365 Admin Center) die Möglichkeit bereitgestellt werden, sich für Apps und Testversionen zu registrieren. Weitere Informationen finden Sie weiter unten in diesem Artikel unter [Verwalten der Testversion](#manage-the-trial). 
 
-Benutzer, die keine Office 365-Lizenz besitzen, können das Angebot für einen Test der kommerziellen Cloud von Microsoft Teams in Anspruch nehmen. Wenn ein Benutzer beispielsweise Office 365 Business verwendet (das Microsoft Teams nicht beinhaltet), ist er berechtigt, die Testversion in Anspruch zu nehmen.
+Benutzer, die keine Office 365-Lizenz besitzen, können das Angebot für einen Test der kommerziellen Cloud von Microsoft Teams in Anspruch nehmen. Wenn ein Benutzer beispielsweise über Microsoft 365 Apps for Business verfügt (was Teams nicht einschließt), ist er zu der Testversion berechtigt.
 
 ## <a name="who-is-not-eligible"></a>Wer ist nicht berechtigt?
 

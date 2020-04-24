@@ -19,20 +19,20 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Verwenden Sie den Ratgeber für Teams (öffentliche Vorschau) als Hilfe bei der Planung und Durchführung Ihrer Bereitstellung von Microsoft Teams.
-ms.openlocfilehash: 6e4f383983326333bcd8b821d2342872eb89ecd7
-ms.sourcegitcommit: f96d66d08a9d6993edbb9554738dc8236d901933
+ms.openlocfilehash: 006ecf1563da153660902ac4c580253e50632867
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053618"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780804"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Der Ratgeber für Teams (Advisor für Teams, öffentliche Vorschau) führt Sie durch Ihren Rollout von Microsoft Teams. Er analysiert Ihre Office 365-Mandantenumgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können. Anschließend erstellt der Ratgeber für Teams ein Bereitstellungsteam (in Teams) mit Kanälen für jede Workload, die Sie bereitstellen möchten. Jede Workload im Bereitstellungsteam bietet einen umfassenden Plan im Planner, der alle Rolloutaufgaben für jede Workload umfasst.  Mithilfe dieses Planner-Planes weisen Sie den Personen, die für die einzelnen Phasen des Rollouts verantwortlich sind, Aufgaben zu, einschließlich Projektmanager, Teams und Office 365-Administratoren, Supportmitarbeitern und ihrer Umstiegs- und Benutzerbereitschafts-Teams. Jede Rollout-Aufgabe enthält alle Anleitungen und Ressourcen, die Sie benötigen, um die Aufgabe erfolgreich durchführen zu können.
+Der Ratgeber für Teams (Advisor für Teams, öffentliche Vorschau) führt Sie durch Ihren Rollout von Microsoft Teams. Er bewertet Ihre Office 365-Organisationsumgebung und identifiziert die häufigsten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie Teams erfolgreich einführen können. Anschließend erstellt der Ratgeber für Teams ein Bereitstellungsteam (in Teams) mit Kanälen für jede Workload, die Sie bereitstellen möchten. Jede Workload im Bereitstellungsteam bietet einen umfassenden Plan im Planner, der alle Rolloutaufgaben für jede Workload umfasst.  Mithilfe dieses Planner-Planes weisen Sie den Personen, die für die einzelnen Phasen des Rollouts verantwortlich sind, Aufgaben zu, einschließlich Projektmanager, Teams und Office 365-Administratoren, Supportmitarbeitern und ihrer Umstiegs- und Benutzerbereitschafts-Teams. Jede Rollout-Aufgabe enthält alle Anleitungen und Ressourcen, die Sie benötigen, um die Aufgabe erfolgreich durchführen zu können.
 
-Der Ratgeber für Teams ist Teil des [Teams Admin Center](https://admin.teams.microsoft.com). Sie benötigen mindestens eine Office 365 Business Essentials-Lizenz, um in den Genuss der Integration von Advisor für Teams in Forms und Planner zu kommen. Wenn Sie beginnen, Advisor für Teams zu verwenden, klicken Sie auf die Schaltfläche **Start** im dem Widget **Teams-Workload bereitstellen** auf dem Dashboard. Oder wechseln Sie zu **Planung** > **Advisor für Teams**.
+Der Ratgeber für Teams ist Teil des [Teams Admin Center](https://admin.teams.microsoft.com). Sie benötigen mindestens eine Microsoft 365 Business Basic-Lizenz, damit Sie die Vorteile der Integration von Advisor for Teams mit Forms und Planner nutzen können. Wenn Sie beginnen, Advisor für Teams zu verwenden, klicken Sie auf die Schaltfläche **Start** im dem Widget **Teams-Workload bereitstellen** auf dem Dashboard. Oder wechseln Sie zu **Planung** > **Advisor für Teams**.
 
 > [!IMPORTANT]
 > Der Ratgeber für Teams ist für Microsoft 365 Government GCC High- oder DoD-Bereitstellungen nicht verfügbar.
@@ -96,8 +96,8 @@ Zusätzlich zu den [Bewertungstests für alle Workloads](#assessment-tests-for-a
 
 |Bewertungstest  |Was sie erfahren  |
 |---------|---------|
-|Konfigurierte Benennungsrichtlinien für Office 365-Gruppen     |Ob Benennungsstandards für Office 365-Gruppen konfiguriert wurden. Die Benennungsrichtlinie für Office 365-Gruppen ermöglicht es Ihrer Organisation, eine einheitliche Benennungsstrategie auf vom Benutzer erstellte Teams anzuwenden und gilt auch für andere Gruppenworkloads (einschließlich Outlook, SharePoint, Planner und Yammer). Dieser Test fragt Azure AD über Microsoft Graph nach der Existenz von Benennungsrichtlinien ab, die für Office 365-Gruppen gelten. Weitere Informationen finden Sie unter [Benennungsrichtlinie für Office 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
-|Konfigurierte Ablaufrichtlinien für Office 365-Gruppen     |Ob eine Gruppenablaufrichtlinie für Office 365-Gruppen festgelegt wurde. Auf diese Weise kann Ihr Unternehmen inaktive Teams automatisch entfernen. Diese Option ist standardmäßig deaktiviert. Dieser Test fragt Azure AD über Microsoft Graph ab und meldet, ob der Wert vom Standard abweichend geändert wurde. Weitere Informationen finden Sie unter [Ablaufrichtlinie für Office 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
+|Konfigurierte Benennungsrichtlinien für Office 365-Gruppen     |Ob Benennungsstandards für Microsoft 365-Gruppen konfiguriert wurden. Die Benennungsrichtlinie von Microsoft 365-Gruppen ermöglicht Ihrer Organisation die Anwendung einer konsistenten Benennungsstrategie auf von Benutzern erstellte Teams und gilt auch für andere Gruppenarbeitslasten (einschließlich Outlook, SharePoint, Planner und Yammer). Dieser Test fragt Azure AD über den Microsoft Graph ab, um die Existenz von Benennungsrichtlinien zu prüfen, die für Microsoft 365-Gruppen gelten. Weitere Informationen finden Sie unter [Benennungsrichtlinie für Office 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
+|Konfigurierte Ablaufrichtlinien für Office 365-Gruppen     |Ob eine Gruppenablaufrichtlinie für Microsoft 365-Gruppen definiert wurde. Auf diese Weise kann Ihr Unternehmen inaktive Teams automatisch entfernen. Diese Option ist standardmäßig deaktiviert. Dieser Test fragt Azure AD über Microsoft Graph ab und meldet, ob der Wert vom Standard abweichend geändert wurde. Weitere Informationen finden Sie unter [Ablaufrichtlinie für Office 365-Gruppen](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
 
 ### <a name="assessments-for-meetings-and-conferencing"></a>Bewertungen für Besprechungen und Konferenzen
 
@@ -131,7 +131,7 @@ Sobald Advisor für Teams Ihr Bereitstellungsteam erstellt hat, schickt der Advi
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 ### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>Welche Lizenzanforderungen gelten für den Ratgeber für Teams?
-Sie benötigen mindestens Office 365 Business Essentials, um in den Genuss der Integration von Advisor für Teams in Forms und Planner zu kommen.
+Sie benötigen mindestens Microsoft 365 Business Basic, damit Sie die Vorteile der Integration von Advisor for Teams mit Forms und Planner nutzen können.
 
 ### <a name="can-i-delete-the-deployment-team"></a>Kann ich das Bereitstellungsteam löschen?
 Nachdem der Ratgeber für Teams Ihr Bereitstellungsteam erstellt hat, können Sie das Team wie jedes andere Team verwalten – einschließlich der Möglichkeit es zu löschen. Achten Sie darauf, dass das Team im Microsoft Teams Admin Center weiterhin angezeigt wird, wenn es nicht unter Verwendung des Microsoft Teams Admin Center gelöscht wurde. Dieser Zustand ist temporär – sobald Advisor für Teams den Zeitraum der öffentlichen Vorschau verlassen hat und allgemein verfügbar ist, wird dies korrigiert.

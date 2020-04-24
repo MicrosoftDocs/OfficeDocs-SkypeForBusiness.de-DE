@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8a27d5085130810a56ff5592d61df03f08b8980
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: e7151c7a84ec6273e14f41330eb4fd2afcd8d989
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42013008"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43776940"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 ======================================
@@ -46,11 +46,11 @@ Der Gastzugriff ist eine organisationsweite Einstellung in Teams, die standardm�
 
 ## <a name="licensing-for-guest-access"></a>Lizenzierung für Gastzugriff
 
-Gastzugriff ist in allen Office 365 Business Premium-, Office 365 Enterprise- und Office 365 Education-Abonnements enthalten. Eine zusätzliche Office 365-Lizenz ist nicht erforderlich. Die Anzahl von Gästen, die Sie hinzufügen können, ist in Teams nicht beschränkt. Allerdings basiert die Gesamtzahl der Gäste, die Ihrem Mandanten hinzugefügt werden können, darauf, was gemäß Ihrer Azure AD-Lizenzierung zulässig ist – in der Regel 5 Gäste pro lizenziertem Benutzer. Weitere Informationen finden Sie unter [Lizenzierung für die Azure AD B2B-Zusammenarbeit](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
+Der Gastzugang ist in allen Abonnements von Microsoft 365 Business Standard, Office 365 Enterprise und Office 365 Education enthalten. Eine zusätzliche Office 365-Lizenz ist nicht erforderlich. Die Anzahl von Gästen, die Sie hinzufügen können, ist in Teams nicht beschränkt. Allerdings basiert die Gesamtzahl der Gäste, die Ihrem Mandanten hinzugefügt werden können, darauf, was gemäß Ihrer Azure AD-Lizenzierung zulässig ist – in der Regel 5 Gäste pro lizenziertem Benutzer. Weitere Informationen finden Sie unter [Lizenzierung für die Azure AD B2B-Zusammenarbeit](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 
 > [!NOTE]
-> Benutzer in Ihrer Organisation, die nur über eigenständige Office 365-Abonnementpläne verfügen, z. B. Exchange Online Plan 2, können nicht als Gäste zu Ihrer Organisation eingeladen werden, da Teams diese Benutzer als derselben Organisation angehörig betrachtet. Damit diese Benutze Teams verwenden können, müssen Sie über ein Office 365 Business Premium-, Office 365 Enterprise- oder Office 365 Education-Abonnement verfügen. 
+> Benutzer in Ihrer Organisation, die nur über eigenständige Office 365-Abonnementpläne verfügen, z. B. Exchange Online Plan 2, können nicht als Gäste zu Ihrer Organisation eingeladen werden, da Teams diese Benutzer als derselben Organisation angehörig betrachtet. Damit diese Benutzer Teams verwenden können, muss ihnen ein Abonnement für Microsoft 365 Business Standard, Office 365 Enterprise oder Office 365 Education zugewiesen werden. 
 
 ## <a name="who-is-a-guest"></a>Wer ist ein Gast?
 
@@ -78,11 +78,11 @@ Die Gastumgebung hat Beschränkungen, die beabsichtigt sind. Stellen Sie sicher,
 - Hochladen von Dateien in einen persönlichen Chat
 - Derzeit unterstützt Teams nur die Gastbenutzer vom Typ "Zustand 1" und "Zustand 2" [gemäß der Definition durch Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties).
 
-Eine vollständige Liste dessen, was ein Gast in Teams tun kann und was nicht, finden Sie in der Tabelle [Vergleich der Funktionen von Teammitgliedern und Gästen](guest-experience.md#comparison-of-team-member-and-guest-capabilities). Wenn Sie mehr über den Gastzugriff auf der Office 365-Ebene wissen möchten, lesen Sie [Hinzufügen von Gästen zu Office 365-Gruppen](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
+Eine vollständige Liste dessen, was ein Gast in Teams tun kann und was nicht, finden Sie in der Tabelle [Vergleich der Funktionen von Teammitgliedern und Gästen](guest-experience.md#comparison-of-team-member-and-guest-capabilities). Wenn Sie mehr über den Gastzugriff auf der Office 365-Ebene wissen möchten, lesen Sie [Hinzufügen von Gästen zu Microsoft 365-Gruppen](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
 
 ## <a name="more-information"></a>Weitere Informationen
 
 [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
-[Gastzugriff in Office 365-Gruppen](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
+[Gastzugriff in Microsoft 365-Gruppen](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
   
