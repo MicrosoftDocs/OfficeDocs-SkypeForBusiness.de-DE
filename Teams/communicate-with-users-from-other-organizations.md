@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie mit Benutzern aus anderen Organisationen in M
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f7a18390841c6a62488c060b4279110a61dffb23
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: fb22aeaef31d04a9d359bc43742c85b72bf12c97
+ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824923"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43785928"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Kommunizieren mit Benutzern aus anderen Organisationen in Microsoft Teams
 ======================================================
@@ -73,6 +73,7 @@ Wenn Sie bereit sind, den Gastzugriff in Ihrer Organisation zu aktivieren, start
 | Ein einzelner Benutzer kann blockiert werden | Nein | Ja |
 | @Mentions werden unterstützt | Ja<sup>4</sup> | Ja |
 | Private Anrufe führen | Ja | Ja |
+| Telefonnummer für Teilnehmer von Einwahlbesprechungen anzeigen | Nein | Ja |
 | IP-Video zulassen | Ja | Ja |
 | Bildschirmübertragungsmodus | Ja<sup>4</sup> | Ja |
 | Sofortbesprechungen zulassen | Nein | Ja |
