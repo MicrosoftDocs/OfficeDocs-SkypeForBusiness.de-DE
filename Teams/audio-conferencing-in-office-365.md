@@ -23,10 +23,10 @@ ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-mar2020
-description: Erfahren Sie mehr über Audiokonferenzen in Office 365, einschließlich Kosten, Verfügbarkeit und dedizierte Telefonnummern.
+description: Erfahren Sie mehr über Audiokonferenzen in Office 365, einschließlich Kosten, Verfügbarkeit und dedizierten Rufnummern.
 ms.openlocfilehash: fb61c9445358949677358220e881dbe318ff64b4
 ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/22/2020
 ms.locfileid: "43780414"
@@ -68,7 +68,7 @@ Es gibt zwei Arten von Audiokonferenz-Telefonnummern, die Ihrer Konferenzbrücke
   
  **Dedizierte Telefonnummern** sind Telefonnummern, die nur den Benutzern in Ihrer Organisation zur Verfügung stehen. Sie können die Sprachen ändern, die verwendet werden, wenn jemand unter diesen Nummern anruft. Hierfür benötigen Sie eine Dienst-Rufnummer.
   
- **Freigegebene Telefonnummern** sind die Telefonnummern, die für andere Microsoft 365-oder Office-365s freigegeben werden können. Sie können die Sprachen, die verwendet werden, wenn jemand unter diesen Nummern anruft, nicht ändern.
+ **Freigegebene Telefonnummern** sind Telefonnummern, die mit anderen Microsoft 365 oder Office 365 geteilt werden können. Sie können die Sprachen nicht ändern, die verwendet werden, wenn jemand unter diesen Nummern anruft.
   
 Nur die Standardtelefonnummer für Audiokonferenzen, die einem Organisator zugewiesen ist, ist in der Besprechungseinladung enthalten. Anrufer können aber jede der Telefonnummern, die Ihrer Konferenzbrücke zugewiesen sind, für die Teilnahme an einer Besprechung verwenden. Die Liste der Telefonnummern, die für die Teilnahme an einer Besprechung verwendet werden können, befindet sich unter dem Link **Lokale Rufnummer suchen**, der in jeder Besprechungseinladung enthalten ist.
 
