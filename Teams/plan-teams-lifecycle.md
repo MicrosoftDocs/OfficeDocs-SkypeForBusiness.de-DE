@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ce58f292fd732c498880936c01d3e1b1343d2aa6
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 29caa32b894c2a407a724f68c11c01cfe567c82e
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137825"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780254"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planen der Lebenszyklusverwaltung in Microsoft Teams
 
@@ -40,7 +40,7 @@ Alle folgenden Konzepte und Definitionen beeinflussen die Entscheidungen, die Si
 
 **Microsoft Teams**
 
-Ein _Team_ ist eine Sammlung von Personen, Inhalten und Tools, die die Zusammenarbeit unterstützen. Ein Team definiert, wer seine Mitglieder sind und welche Berechtigungen und Richtlinien für diese Mitglieder gelten. Teams basieren auf Office 365-Gruppen, und Änderungen an der Mitgliedschaft in Office 365-Gruppen werden mit dem Team synchronisiert. Wie andere Office 365-Gruppen verfügen Teams automatisch über ein Exchange-Postfach, eine SharePoint-Website, ein OneNote-Notizbuch und andere Office 365-Ressourcen. [Weitere Informationen zu Office 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Ein _Team_ ist eine Sammlung von Personen, Inhalten und Tools, die die Zusammenarbeit unterstützen. Ein Team definiert, wer seine Mitglieder sind und welche Berechtigungen und Richtlinien für diese Mitglieder gelten. Teams basieren auf Microsoft 365-Gruppen, und Änderungen an der Mitgliedschaft in Office 365-Gruppen werden mit dem Team synchronisiert. Ebenso wie andere Microsoft 365-Gruppen verfügen Teams automatisch über ein Exchange-Postfach, eine SharePoint-Website, ein OneNote-Notizbuch und andere Office 365-Ressourcen. [Weitere Informationen zu Microsoft 365-Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 **Kanäle**
 
@@ -57,7 +57,7 @@ Diese bestimmen, wer dem Team beitreten kann:
 
 Teambenutzertypen bestimmen, wie viel Kontrolle ein Teammitglied hat:
 
--   Der _Teamersteller_ verfügt über Berechtigungen zum Erstellen einer Gruppe oder eines Teams im Verzeichnis. Der Administrator kann diesen Benutzertyp auf eine Teilmenge der Administratoren oder Benutzer begrenzen. Weitere Informationen finden Sie unter [Verwalten von Personen, die Office 365-Gruppen erstellen können](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
+-   Der _Teamersteller_ verfügt über Berechtigungen zum Erstellen einer Gruppe oder eines Teams im Verzeichnis. Der Administrator kann diesen Benutzertyp auf eine Teilmenge der Administratoren oder Benutzer begrenzen. Weitere Informationen finden Sie unter [Verwalten von Personen, die berechtigt sind, Microsoft 365-Gruppen zu erstellen](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
 -   Der _Teambesitzer_ verwaltet die Mitgliedschaft und die Einstellungen für das Team. Pro Team sind bis zu 100 Teambesitzer möglich.
 -   Ein _Teammitglied_ ist ein Mitglied Ihrer Organisation, das an einem Team teilnimmt.
 -   Ein _Gast_ ist ein Benutzer, der nicht zu Ihrer Organisation gehört. Jeder, der über eine E-Mail-Adresse verfügt, kann als Gast eingeladen werden, sofern Ihre Organisation den [Gastzugriff](guest-access.md) aktiviert hat.
@@ -79,7 +79,7 @@ Die Administratorrollen in Microsoft Teams bestimmen, welche Möglichkeiten den 
 <tbody>
    <tr>
     <td valign="top" colspan="2">Teams-Dienstadministrator</td>
-    <td valign="top">Verwalten des Microsoft Teams-Dienst, Erstellen und Verwalten von Office 365-Gruppen</td>
+    <td valign="top">Verwalten des Microsoft Teams-Dienstes, Erstellen und Verwalten von Microsoft 365-Gruppen</td>
     <td valign="top">Verwalten von Besprechungen einschließlich Besprechungsrichtlinien, Konfigurationen und Konferenzbrücken<sup>1</sup><br><br>Verwalten der VoIP-Funktionen einschließlich Anrufrichtlinien, Telefonnummernbestand und -zuweisung, Anrufwarteschleifen und automatischen Telefonzentralen<sup>1</sup><br><br>Verwalten von Messaging einschließlich Messagingrichtlinien<sup>1</sup><br><br>Verwalten aller organisationsweiten Einstellungen einschließlich Partnerverbund, Microsoft Teams-Upgrade und Einstellungen des Microsoft Teams-Clients<sup>1</sup><br><br>Verwalten der Teams in der Organisation und der zugehörigen Einstellungen einschließlich der Mitgliedschaft<sup>2</sup><br><br>Anzeigen von Benutzerprofilseiten und Ausführen einer Problembehandlung für Probleme von Benutzern mit der Anrufqualität mithilfe erweiterter Problembehandlungstools<sup>3</sup></td>
 </tr>
 <tr>
@@ -197,7 +197,7 @@ Wenn ein Team anfängt, in einen Trott zu verfallen, ziehen Sie Folgendes in Bet
 
 Wenn die Arbeit eines Teams erledigt ist, muss das Ende auch offiziell bestätigt werden. Damit vermitteln Sie den Teammitgliedern, dass die Arbeit abgeschlossen ist, und verhindern gleichzeitig, dass jemand auf veraltete, überholte Informationen zugreift. Sie können das Team selbst nutzen, um Abschlussrituale wie nachträgliche Bewertungen und Zusammenfassungen durchzuführen.
 
-Sie können Teams löschen, von denen Sie wissen, dass Sie sie nicht benötigen (zum Beispiel ein Team, das ausschließlich zu Testzwecken erstellt wurde, oder ein Team, das vertrauliche Daten enthält). Tatsächlich werden Teams nur "vorläufig gelöscht", und dieser Vorgang kann von der IT bis zu 21 Tage lang (30 Tage für Office 365-Gruppen) rückgängig gemacht werden. Das Löschen von Teams hat keine Auswirkungen auf Chats oder Inhalte, die gemäß Compliancerichtlinien aufbewahrt wurden. Kanäle weisen auch ein "Soft Delete"-Feature auf und können bis zu 21 Tage nach dem Löschen wiederhergestellt gemacht werden.
+Sie können Teams löschen, von denen Sie wissen, dass Sie sie nicht benötigen (zum Beispiel ein Team, das ausschließlich zu Testzwecken erstellt wurde, oder ein Team, das vertrauliche Daten enthält). Tatsächlich werden Teams nur „vorläufig gelöscht“, so dass die IT in der Lage ist, diesen Vorgang bis zu 21 Tage lang (30 Tage für Microsoft 365-Gruppen) rückgängig zu machen. Das Löschen von Teams hat keine Auswirkungen auf Chats oder Inhalte, die gemäß Compliancerichtlinien aufbewahrt wurden. Kanäle weisen auch ein "Soft Delete"-Feature auf und können bis zu 21 Tage nach dem Löschen wiederhergestellt gemacht werden.
 
 Sie können neben den Archivierungsfunktionen auch Ablauf- und Aufbewahrungsrichtlinien verwenden, um den Zugriff auf Daten durch Teams zu verhindern, die nicht mehr aktiv sind oder deren Besitzer die Organisation verlassen haben.
 
