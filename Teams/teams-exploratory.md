@@ -9,7 +9,7 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: Office 365-Benutzer, die nicht für Microsoft Teams lizenziert sind, können eine explorative Lizenz von Microsoft Teams starten.
+description: Microsoft 365- oder Office 365-Benutzer, die nicht für Microsoft Teams lizenziert sind, können eine explorative Lizenz von Microsoft Teams starten.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ad27eec186bec2fce915da0fc53f515f58ce8e9
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 4cc744b8cbe9942712857309f061b998957661b4
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892315"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780384"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Verwalten der explorativen Lizenz von Microsoft Teams
 =======================================================
@@ -54,7 +54,7 @@ Folgende Dienstpläne werden einem Administrator als Teil der Microsoft Teams Ex
 
 ## <a name="whos-eligible"></a>Wer ist berechtigt?
 
-Solange ein Benutzer über eine verwaltete AAD-Domänen-E-Mail-Adresse verfügt und ihm aktuell keine Teams-Lizenz zugewiesen wurde, ist er zur Nutzung dieser Umgebung berechtigt. Wenn ein Benutzer beispielsweise Office 365 Business verwendet (das Microsoft Teams nicht beinhaltet), ist er berechtigt, die explorative Microsoft Teams-Umgebung in Anspruch zu nehmen.
+Solange ein Benutzer über eine verwaltete AAD-Domänen-E-Mail-Adresse verfügt und ihm aktuell keine Teams-Lizenz zugewiesen wurde, ist er zur Nutzung dieser Umgebung berechtigt. Wenn ein Benutzer beispielsweise Microsoft 365 Apps for Business verwendet (das Microsoft Teams nicht beinhaltet), ist er berechtigt, die explorative Microsoft Teams-Umgebung in Anspruch zu nehmen.
 
 Benutzern muss (im Microsoft 365 Admin Center) die Möglichkeit bereitgestellt werden, sich für Apps und Testversionen zu registrieren. Weitere Informationen finden Sie weiter unten in diesem Artikel unter [Verwalten der explorativen Microsoft Teams-Umgebung](#manage-the-teams-exploratory-experience). 
 
@@ -156,8 +156,8 @@ Ab Februar 2020 können berechtigte Benutzer mit der Nutzung der neuesten Micros
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Wie lange wird die Teams Exploratory-Umgebung verfügbar sein?
 
-Die Microsoft Teams Exploratory-Umgebung wird ohne zusätzliche Kosten bis zum nächsten Fälligkeitstag Ihres Enterprise-Vertrags oder nach Verlängerung am oder ab Januar 2021 verfügbar sein. Zu diesem Zeitpunkt müssen Endbenutzer mit einer Microsoft Exploratory-Lizenz zu einer kostenpflichtigen Lizenz wechseln, die Microsoft Teams umfasst. Alle Microsoft Exploratory-Lizenzen, die danach begonnen wurden, werden bis zu Ihrem nächsten Fälligkeitstag oder der nächsten Verlängerung ohne zusätzliche Kosten verfügbar sein. 
+Die Microsoft Teams Exploratory-Umgebung wird ohne zusätzliche Kosten bis zum nächsten **Fälligkeitstag Ihres Vertrags** oder nach **Verlängerung** am oder ab Januar 2021 verfügbar sein. Zu diesem Zeitpunkt müssen Endbenutzer mit einer Microsoft Exploratory-Lizenz zu einer kostenpflichtigen Lizenz wechseln, die Microsoft Teams umfasst. Alle Microsoft Exploratory-Lizenzen, die danach begonnen wurden, werden bis zu Ihrem nächsten **Fälligkeitstag** oder der nächsten **Verlängerung** ohne zusätzliche Kosten verfügbar sein. 
 
 ### <a name="what-happens-if-an-end-user-initiates-the-microsoft-teams-exploratory-experience-just-before-my-anniversary-or-renewal-date"></a>Was geschieht, wenn ein Endbenutzer kurz vor dem Fälligkeits- oder Verlängerungsdatum mit der Nutzung der Microsoft Teams Exploratory-Umgebung beginnt?
 
-Microsoft Teams Exploratory-Lizenzen, die innerhalb von 90 Tagen nach dem Fälligkeitstag oder der Verlängerung des Enterprise-Vertrags begonnen wurden, sind bis zum anschließenden Fälligkeitstag oder Verlängerungszyklus nicht verpflichtet, zu einer kostenpflichtigen Lizenz zu wechseln. 
+Microsoft Teams Exploratory-Lizenzen, die innerhalb von 90 Tagen nach dem **Fälligkeitstag** oder der **Verlängerung des Vertrags** begonnen wurden, sind bis zum anschließenden Fälligkeitstag oder Verlängerungszyklus nicht verpflichtet, zu einer kostenpflichtigen Lizenz zu wechseln. 
