@@ -14,35 +14,36 @@ ms.reviewer: karuanag
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Entdecken Sie alle Möglichkeiten, Hilfe in Microsoft Teams zu erhalten.
+description: Informieren Sie sich über Hilfethemen, Videos, Anmerkungen zu dieser Version und Feedback Foren, um Hilfe zu Microsoft Teams zu erhalten.
+ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37203cb0dc875f7fdbefe62752bff006edf7fb31
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6de91776e6ca187df92deef412057eb92410a145
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836825"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904677"
 ---
-<a name="get-help-in-microsoft-teams"></a><span data-ttu-id="695b6-103">Anfordern von Hilfe in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="695b6-103">Get help in Microsoft Teams</span></span>
+<a name="get-help-in-microsoft-teams"></a><span data-ttu-id="dbae2-103">Anfordern von Hilfe in Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="dbae2-103">Get help in Microsoft Teams</span></span>
 ============================================
 
-<span data-ttu-id="695b6-104">Über die Schaltfläche "Hilfe" in Microsoft Teams können Ihre Benutzer und Champions alle Unterstützung finden, die Sie möglicherweise bei der Verwendung von Teams benötigen.</span><span class="sxs-lookup"><span data-stu-id="695b6-104">The Help button in Microsoft Teams is where your users and champions can find all the assistance they might need while using Teams.</span></span>
+<span data-ttu-id="dbae2-104">Über die Schaltfläche "Hilfe" in Microsoft Teams können Ihre Benutzer und Champions alle Unterstützung finden, die Sie möglicherweise bei der Verwendung von Teams benötigen.</span><span class="sxs-lookup"><span data-stu-id="dbae2-104">The Help button in Microsoft Teams is where your users and champions can find all the assistance they might need while using Teams.</span></span>
 
 [!INCLUDE [new-feature-availability](includes/new-feature-availability.md)]
 
-<span data-ttu-id="695b6-105">Teams bietet Unterstützung für lokalisierte Sprachen für Hilfeinhalte.</span><span class="sxs-lookup"><span data-stu-id="695b6-105">Teams provides localized language support for help content.</span></span> <span data-ttu-id="695b6-106">Die aktuelle Liste der unterstützten Sprachen finden Sie unter [Unterstützte Sprachen in Microsoft Teams für Hilfeinhalte](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).</span><span class="sxs-lookup"><span data-stu-id="695b6-106">For the most current list of supported languages, see [Microsoft Teams supported languages for help content](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).</span></span>
+<span data-ttu-id="dbae2-105">Teams bietet Unterstützung für lokalisierte Sprachen für Hilfeinhalte.</span><span class="sxs-lookup"><span data-stu-id="dbae2-105">Teams provides localized language support for help content.</span></span> <span data-ttu-id="dbae2-106">Die aktuelle Liste der unterstützten Sprachen finden Sie unter [Unterstützte Sprachen in Microsoft Teams für Hilfeinhalte](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).</span><span class="sxs-lookup"><span data-stu-id="dbae2-106">For the most current list of supported languages, see [Microsoft Teams supported languages for help content](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf).</span></span>
 
- - <span data-ttu-id="695b6-107">**Themen durchsuchen** – dies geht an Hilfeinhalte, die nach Teams geordnet sind.</span><span class="sxs-lookup"><span data-stu-id="695b6-107">**Browse Topics** - This goes to help content organized by Teams feature.</span></span> <span data-ttu-id="695b6-108">Einfache und unkomplizierte Anleitung, mit der Benutzer die besten Teams optimal nutzen können.</span><span class="sxs-lookup"><span data-stu-id="695b6-108">Simple and straightforward guidance to help users get the most out of Teams.</span></span> 
+ - <span data-ttu-id="dbae2-107">**Themen durchsuchen** – dies geht an Hilfeinhalte, die nach Teams geordnet sind.</span><span class="sxs-lookup"><span data-stu-id="dbae2-107">**Browse Topics** - This goes to help content organized by Teams feature.</span></span> <span data-ttu-id="dbae2-108">Einfache und unkomplizierte Anleitung, mit der Benutzer die besten Teams optimal nutzen können.</span><span class="sxs-lookup"><span data-stu-id="dbae2-108">Simple and straightforward guidance to help users get the most out of Teams.</span></span> 
 
- - <span data-ttu-id="695b6-109">**Videos** – mithilfe unserer on-Demand-Videoinhalte können Benutzer bestimmte Aufgaben schnell erlernen.</span><span class="sxs-lookup"><span data-stu-id="695b6-109">**Videos** - Our on-demand video content enables users to learn specific tasks quickly.</span></span> <span data-ttu-id="695b6-110">Wir sind ständig dabei, neue Videos zu produzieren, schauen Sie also regelmäßig vorbei.</span><span class="sxs-lookup"><span data-stu-id="695b6-110">We're continually producing new videos, so check back frequently.</span></span> <span data-ttu-id="695b6-111">Internet Zugang ist natürlich erforderlich.</span><span class="sxs-lookup"><span data-stu-id="695b6-111">Internet access is required, of course.</span></span> 
+ - <span data-ttu-id="dbae2-109">**Videos** – mithilfe unserer on-Demand-Videoinhalte können Benutzer bestimmte Aufgaben schnell erlernen.</span><span class="sxs-lookup"><span data-stu-id="dbae2-109">**Videos** - Our on-demand video content enables users to learn specific tasks quickly.</span></span> <span data-ttu-id="dbae2-110">Wir sind ständig dabei, neue Videos zu produzieren, schauen Sie also regelmäßig vorbei.</span><span class="sxs-lookup"><span data-stu-id="dbae2-110">We're continually producing new videos, so check back frequently.</span></span> <span data-ttu-id="dbae2-111">Internet Zugang ist natürlich erforderlich.</span><span class="sxs-lookup"><span data-stu-id="dbae2-111">Internet access is required, of course.</span></span> 
 
- - <span data-ttu-id="695b6-112">**Neue** - 
-   regelmäßige Versionshinweise für Benutzer und Teambesitzer über neue oder aktualisierte Features von Teams.</span><span class="sxs-lookup"><span data-stu-id="695b6-112">**What's New** - 
+ - <span data-ttu-id="dbae2-112">**Neue** - 
+   regelmäßige Versionshinweise für Benutzer und Teambesitzer über neue oder aktualisierte Features von Teams.</span><span class="sxs-lookup"><span data-stu-id="dbae2-112">**What's New** - 
 Periodic release notes for users and team owners about new or updated Teams features.</span></span>
 
- - <span data-ttu-id="695b6-113">Teilen Sie eine Idee – wir möchten Ihnen immer von Ihnen **mitteilen** , wie Sie die Teams verbessern können.</span><span class="sxs-lookup"><span data-stu-id="695b6-113">**Share an Idea** - We always want to hear from you about how to improve Teams.</span></span> <span data-ttu-id="695b6-114">Mit dieser Option gelangen Sie zu unserem Forum für Produktfeedback, in dem Sie neue Feature-Anfragen einreichen oder über vorhandene abstimmen können.</span><span class="sxs-lookup"><span data-stu-id="695b6-114">This option takes you to our product feedback forum where you can submit new feature requests or vote on existing ones.</span></span> <span data-ttu-id="695b6-115">Wir überprüfen diese Informationen ständig, wenn wir neue Funktionen planen.</span><span class="sxs-lookup"><span data-stu-id="695b6-115">We constantly review this information as we plan new features.</span></span> 
+ - <span data-ttu-id="dbae2-113">Teilen Sie eine Idee – wir möchten Ihnen immer von Ihnen **mitteilen** , wie Sie die Teams verbessern können.</span><span class="sxs-lookup"><span data-stu-id="dbae2-113">**Share an Idea** - We always want to hear from you about how to improve Teams.</span></span> <span data-ttu-id="dbae2-114">Mit dieser Option gelangen Sie zu unserem Forum für Produktfeedback, in dem Sie neue Feature-Anfragen einreichen oder über vorhandene abstimmen können.</span><span class="sxs-lookup"><span data-stu-id="dbae2-114">This option takes you to our product feedback forum where you can submit new feature requests or vote on existing ones.</span></span> <span data-ttu-id="dbae2-115">Wir überprüfen diese Informationen ständig, wenn wir neue Funktionen planen.</span><span class="sxs-lookup"><span data-stu-id="dbae2-115">We constantly review this information as we plan new features.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="695b6-116">Hilfe ersetzt T-bot in Teams.</span><span class="sxs-lookup"><span data-stu-id="695b6-116">Help replaces T-Bot in Teams.</span></span> <span data-ttu-id="695b6-117">Einige Benutzer sehen in Ihrem Chat-Protokoll möglicherweise ein Chat-Symbol für T-bot.</span><span class="sxs-lookup"><span data-stu-id="695b6-117">Some users may see a chat icon for T-Bot in their chat history.</span></span> <span data-ttu-id="695b6-118">Wenn Sie auf dieses Symbol klicken, gelangen Sie zur neuen Hilfe.</span><span class="sxs-lookup"><span data-stu-id="695b6-118">Clicking this icon will take them to the new Help experience.</span></span> 
+> <span data-ttu-id="dbae2-116">Hilfe ersetzt T-bot in Teams.</span><span class="sxs-lookup"><span data-stu-id="dbae2-116">Help replaces T-Bot in Teams.</span></span> <span data-ttu-id="dbae2-117">Einige Benutzer sehen in Ihrem Chat-Protokoll möglicherweise ein Chat-Symbol für T-bot.</span><span class="sxs-lookup"><span data-stu-id="dbae2-117">Some users may see a chat icon for T-Bot in their chat history.</span></span> <span data-ttu-id="dbae2-118">Wenn Sie auf dieses Symbol klicken, gelangen Sie zur neuen Hilfe.</span><span class="sxs-lookup"><span data-stu-id="dbae2-118">Clicking this icon will take them to the new Help experience.</span></span> 
 
