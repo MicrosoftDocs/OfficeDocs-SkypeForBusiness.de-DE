@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
-description: Zeigen Sie eine Liste der aktualisierten Teams-Artikel an.
+description: In diesem Thema finden Sie eine Liste der Microsoft Teams-Hilfethemen, die kürzlich aktualisiert wurden, einschließlich Links zu den aktualisierten Themen.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -17,15 +17,16 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13c4923143bf835da930a0193618db9c600c45d4
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5d8c037be9b1aa55d97e39fc5821d6a4ad87ffaf
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836925"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905631"
 ---
-# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="7e13e-103">Microsoft Teams-Inhaltsupdates</span><span class="sxs-lookup"><span data-stu-id="7e13e-103">Microsoft Teams content updates</span></span>
+# <a name="microsoft-teams-content-updates"></a><span data-ttu-id="ce44c-103">Microsoft Teams-Inhaltsupdates</span><span class="sxs-lookup"><span data-stu-id="ce44c-103">Microsoft Teams content updates</span></span>
 
-<span data-ttu-id="7e13e-104">In diesem Thema werden die Microsoft Teams-Themen aufgelistet, die kürzlich geändert wurden.</span><span class="sxs-lookup"><span data-stu-id="7e13e-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
+<span data-ttu-id="ce44c-104">In diesem Thema werden die Microsoft Teams-Themen aufgelistet, die kürzlich geändert wurden.</span><span class="sxs-lookup"><span data-stu-id="ce44c-104">This topic lists Microsoft Teams topics that have been changed recently.</span></span>
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]

@@ -1,6 +1,6 @@
 ---
 title: Erweitern von Microsoft Teams in Ihrer Organisation
-description: Erfahren Sie mehr über Microsoft Teams-Ressourcen, einschließlich Schichten für Teams, Teams für Healthcare, Teams für Bildung, Teams für den Einzelhandel und Teams für Behörden.
+description: Informieren Sie sich über die verfügbaren Ressourcen für die Bereitstellung von standardteams, damit Sie Teams für bestimmte Organisationstypen optimal nutzen können.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -15,13 +15,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4b6e2b1706f64a37aa8174ca919bd7582b90772
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 91a584f7dea5ae9c6ea23f8c4ee30b5eadf3dc20
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136937"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904370"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Erweitern von Microsoft Teams in Ihrer Organisation
 

@@ -2,7 +2,8 @@
 title: Grundlegendes zu Anrufen in Microsoft Teams
 metadata:
   title: Grundlegendes zu Anrufen in Microsoft Teams
-  description: Das interaktive Lernprogramm führt Sie durch das Verständnis und das Aktivieren von Anrufen in Microsoft Teams.
+  description: Verwenden Sie dieses interaktive Lernprogramm, um zu verstehen, wie Sie in Microsoft Teams anrufen und wie Sie das Anruffeature aktivieren.
+  ms.custom: seo-marvel-apr2020
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -16,12 +17,12 @@ metadata:
   - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3f5e7c29ee676fa0b9defa907524c60b45a34fe9
-  ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+  ms.openlocfilehash: 3df03c8d388cc03f60c2fc6d50847e6330d30bb6
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43778511"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43902390"
 items:
 - durationInMinutes: 1
   content: >
