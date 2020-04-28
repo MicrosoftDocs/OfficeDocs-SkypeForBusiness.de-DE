@@ -8,22 +8,23 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: islubin, jastark
-description: Hier erfahren Sie, wie Sie Ihre Teams im Microsoft Teams Admin Center anzeigen oder aktualisieren können.
+description: Erfahren Sie, wie Sie die Teams, die Ihre Organisation für die Zusammenarbeit eingerichtet hat, im Microsoft Teams Admin Center anzeigen oder aktualisieren können.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d07c9c1f19b86b3b95a597a52290acb2fdaa80cc
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 8c83d985a277c8341565e44878ba03385e23a358
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836267"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904997"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Verwalten von Teams im Microsoft Teams Admin Center
 ==========================================
@@ -85,7 +86,7 @@ Die Suche unterstützt derzeit die Zeichenfolge „beginnt mit“ und durchsucht
 
 ## <a name="team-profile"></a>Teamprofil
 
-Sie können von der Hauptübersicht aus auf die Profilseite jedes Teams navigieren, indem Sie auf den Teamnamen klicken. Auf der Teamprofilseite werden die Mitglieder, Besitzer und Gäste angezeigt, die zu dem Team (und der Gruppe der zugrundeliegenden Office 365-Gruppe) gehören sowie die Kanäle und Einstellungen des Teams. Auf der Teamprofilseite können Sie folgende Aktionen ausführen:
+Sie können von der Hauptübersicht aus auf die Profilseite jedes Teams navigieren, indem Sie auf den Teamnamen klicken. Auf der Seite "Teamprofil" werden die Mitglieder, Besitzer und Gäste angezeigt, die zum Team gehören (und die Gruppe "Backing Office 365") sowie die Kanäle und Einstellungen des Teams. Auf der Teamprofilseite können Sie folgende Aktionen ausführen:
 
 - Hinzufügen oder Entfernen von Mitgliedern und Besitzern.
 - Hinzufügen oder Entfernen von Kanälen. (beachten Sie, dass Sie den Kanal „Allgemein“ nicht entfernen können.)

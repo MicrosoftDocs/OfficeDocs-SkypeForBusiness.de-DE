@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Hier erfahren Sie, wie Sie das direkte Routing des Microsoft Phone-Systems konfigurieren.
-ms.openlocfilehash: b596e5acb0002ad90f5c0298b56973f2490ad2e6
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+description: Hier erfahren Sie, wie Sie das direkte Routing von Microsoft Phone System so konfigurieren, dass die lokale Telefonie-Infrastruktur mit Microsoft Teams verbunden wird.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f12eb67fd63a3d1bbed3ddcd0c4fadce16529083
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170583"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904827"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 
@@ -54,7 +55,7 @@ Führen Sie die folgenden Schritte aus, um das Microsoft Phone-System zu konfigu
 Wenn Sie einen SBC für mehrere Mandanten konfigurieren, sollten Sie auch die [Konfiguration eines SBC für mehrere Mandanten](direct-routing-sbc-multiple-tenants.md)lesen.
 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="related-topics"></a>Verwandte Themen
 
 [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md)
 

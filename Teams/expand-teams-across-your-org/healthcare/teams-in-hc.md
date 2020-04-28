@@ -16,13 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Erste Schritte mit Teams für Organisationen im Gesundheitswesen
-ms.openlocfilehash: 15e10a69174787d104a990f8b71a6e8ef4f8be04
-ms.sourcegitcommit: 33db8c7febd4cf1591e8dcbbdfd6fc8e8925896e
+description: Informieren Sie sich über die Features für die Gesundheitsversorgung, die Betreuungs Koordination, sicheres Messaging, Telehealth, EPA-Integration und die Integration von Arbeitssystemen in erster Ordnung umfassen.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b3335fa6cd5135dd30837338d762dd3b3fe8a2e7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42147688"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905737"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 

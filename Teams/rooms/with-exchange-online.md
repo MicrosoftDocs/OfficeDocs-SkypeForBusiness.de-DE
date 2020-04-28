@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
-description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen mit Exchange Online.
-ms.openlocfilehash: fbf1057539f15d6de702909a1571c9e11fdf5de3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen mit Exchange Online und Skype for Business Server lokal.
+ms.openlocfilehash: aa106c525a1d6b25513fe0c9aa0614e222ce75ca
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780554"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905287"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange online
 
@@ -155,7 +155,7 @@ Zur Überprüfung sollten Sie in der Lage sein, sich mit einem Skype for Busines
 > [!IMPORTANT]
 > Wenn Sie Skype for Business Plan 2 verwenden, können Sie die Microsoft Teams-Räume nur im Skype for Business-Modus verwenden, was bedeutet, dass alle Ihre Besprechungen Skype for Business-Besprechungen sind. Um Ihren Besprechungsraum für Microsoft Teams-Besprechungen zu aktivieren, empfehlen wir, die Lizenz für den Besprechungsraum zu erwerben.
   
-## <a name="see-also"></a>Siehe auch
+## <a name="related-topics"></a>Verwandte Themen
 
 [Konfigurieren von Konten für Microsoft Teams-Chatrooms](rooms-configure-accounts.md)
 

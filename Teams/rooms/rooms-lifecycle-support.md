@@ -12,13 +12,14 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: In diesem Artikel wird die Lebenszyklus Unterstützung für Microsoft Teams-Chatrooms erläutert.
-ms.openlocfilehash: 27610cd7a7ed5c2bca1fcb118b3687149d2872d0
-ms.sourcegitcommit: a610bfe9c0192432744dfaf8d5ff5c2bb5a16b00
+description: Erfahren Sie mehr über die Lebenszyklus Unterstützung für Microsoft Teams-Räume, einschließlich der dynamischen Supportstruktur und ihrer Phasen.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6a6a3000b97de9756c78ed09c5f4d56a237fda0d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43190831"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905377"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams rooms-App-Versionsunterstützung
  
@@ -63,10 +64,10 @@ In der folgenden Tabelle sind die empfohlenen und unterstützten Versionen von W
 
 Wenn Sie eine unterstützte Version von Windows 10 verwenden, erhalten Sie immer die neuesten Anwendungsupdates für die Microsoft Teams rooms-app.  
 
-## <a name="see-also"></a>Siehe auch
+## <a name="related-topics"></a>Verwandte Themen
 
 [Microsoft Teams Rooms-Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Versionsinformationen zu Microsoft Teams rooms](rooms-release-note.md)
 
-[Planen von Microsoft Teams-Räumen](rooms-plan.md)
+[Plan für Microsoft Teams-Räume](rooms-plan.md)

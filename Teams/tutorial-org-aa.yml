@@ -2,7 +2,7 @@
 title: Beispiel für kleine Unternehmen – Einrichten einer automatischen Telefonzentrale
 metadata:
   title: Beispiel für kleine Unternehmen – Einrichten einer automatischen Telefonzentrale
-  description: Planen Sie für IT-Administratoren automatische Telefonzentralen in Ihrer Organisation.
+  description: IT-Administratoren können Telefonsystem in Teams verwenden, um automatische Telefonzentralen einzurichten, und automatisiertes Menü System für eingehende Anrufe.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -21,12 +21,12 @@ metadata:
   - M365-voice
   ms.custom:
   - NewAdminCenter_Update
-  ms.openlocfilehash: 2fe6c5c39d63fe2adc46ffad32d342520b17b874
-  ms.sourcegitcommit: 10046048a670b66d93e8ac3ba7c3ebc9c3c5fc2f
+  ms.openlocfilehash: ad9738ef2c4701871c4d960ad664b589f05f6cc0
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 02/20/2020
-  ms.locfileid: "42160759"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43904500"
 items:
 - durationInMinutes: 2
   content: "\n[Microsoft Teams](/MicrosoftTeams/Teams-overview) und [Skype for Business Online](https://support.office.com/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) sind beide Teil von Office 365, die Chat, Telefonunterhaltungen, Voicemail, Besprechungen, Dateien und apps an einem zentralen Ort zusammenstellen. Beide erfordern [**Telefon System**](/MicrosoftTeams/what-is-phone-system-in-office-365) Lizenzen, um die Anrufsteuerung und die PBX-Funktionen in der Office 365-Cloud zu aktivieren. Die Lizenz steht als Add-on oder als Teil der Enterprise E5-Lizenzen zur Verfügung. Einzelheiten zur Lizenzierung finden [Sie unter Skype for Business-Add-on-Lizenzierung](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). \n\nEine Telefon System Lizenz ermöglicht es Ihnen, Ihr bestehendes PBX-System durch eine [Reihe von Funktionen](/MicrosoftTeams/here-s-what-you-get-with-phone-system) zu ersetzen, die Voicemail, Anrufwarteschlangen und [automatische Telefonzentralen](/microsoftteams/what-are-phone-system-auto-attendants)beinhalten, mit denen Personen, die Ihr Unternehmen anrufen, in einem Menü System navigieren, um Sie an die richtige Abteilung, Person oder den Operator zu leiten. Automatische Telefonzentralen können mit Teams oder Skype for Business verwendet werden. Sie erstellen ein System für die automatische Telefonzentrale für Ihre Organisation mit dem Microsoft Teams Admin Center.\n\nWenn Sie aufgefordert werden, eine automatische Telefonzentrale einzurichten, finden Sie in diesem Artikel eine Illustration einer Plan-, Entwurfs-und Implementierungsprozess Abbildung für automatische Telefonzentralen in einem hypothetischen kleinen Unternehmen. Hierbei handelt es sich nicht um eine One-size-fits-all-Lösung, sondern um den Denkprozess hinter einer funktionierenden Struktur von mehreren automatischen Telefonzentralen. \n\n## <a name=\"before-you-begin\"></a>Vorbereitung\n\nIn diesem Lernprogramm wird davon ausgegangen, dass Sie diese Aufgaben bereits ausgeführt haben: \n- [Richten Sie das Telefon System in Ihrer Organisation](/MicrosoftTeams/setting-up-your-phone-system) ein, um Ihren Benutzern Telefonnummern zur Verfügung zu stellen.\n- [Einrichten von Cloudvoicemail](/MicrosoftTeams/set-up-phone-system-voicemail) \n- Überprüfte [Was sind automatische Cloud-Telefonzentralen?](/MicrosoftTeams/what-are-phone-system-auto-attendants) um ein besseres Verständnis der Telefon System Funktionen zu erhalten, die mit einer automatischen Telefonzentrale interagieren können.\n\nDarüber hinaus können Sie feststellen, dass der Großteil des Planungs-und Design Anteils über eine Whiteboard-oder Karteikarte erfolgen kann: ein guter Plan ist technisch nicht anspruchsvoll.\n"

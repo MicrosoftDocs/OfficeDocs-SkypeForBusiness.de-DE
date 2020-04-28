@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Lesen Sie dieses Thema, um zu erfahren, wie Sie die medienumgehung mit dem direkten Routing des Telefonsystems konfigurieren.
-ms.openlocfilehash: 8d6891d8ecabace3b093e2dc788edee6e9cc5bd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: Hier erfahren Sie, wie Sie die medienumgehung mithilfe des direkten Routings von Telefonsystemen konfigurieren, indem Sie alle Benutzer gleichzeitig wechseln oder eine phasenweise Implementierung implementieren (empfohlen).
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2d6bb25296b7a98e6fea7a59a5dd9406622dbd96
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837605"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904837"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Konfigurieren der Medienumgehung mit direktem Routing
 
@@ -29,11 +30,11 @@ Bevor Sie die medienumgehung mit Direct Routing konfigurieren, stellen Sie siche
 
 Um die medienumgehung zu aktivieren, müssen die folgenden Bedingungen erfüllt sein:
 
-1.  Stellen Sie sicher, dass Ihr SBC-Anbieter (Session Border Controller) die medienumgehung unterstützt und Anweisungen zum Konfigurieren der Umgehungsfunktion für den SBC enthält. Informationen zu SBCS, welche die medienumgehung unterstützen, und Anweisungen finden Sie auf der Zertifizierungsseite.
+1.    Stellen Sie sicher, dass Ihr SBC-Anbieter (Session Border Controller) die medienumgehung unterstützt und Anweisungen zum Konfigurieren der Umgehungsfunktion für den SBC enthält. Informationen zu SBCS, welche die medienumgehung unterstützen, und Anweisungen finden Sie auf der Zertifizierungsseite.
 
-2.  Sie müssen die medienumgehung auf dem Stamm mithilfe des folgenden Befehls aktivieren: **CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**.
+2.    Sie müssen die medienumgehung auf dem Stamm mithilfe des folgenden Befehls aktivieren: **CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**.
 
-3.  Stellen Sie sicher, dass die erforderlichen Anschlüsse geöffnet sind. 
+3.    Stellen Sie sicher, dass die erforderlichen Anschlüsse geöffnet sind. 
 
 
 ## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>Migrieren von nicht gebypassten Trunks zu Bypass-fähigen Trunks
@@ -59,7 +60,7 @@ Eine Liste der für die direkte Weiterleitung zertifizierten Session Border Cont
 
 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="related-topics"></a>Verwandte Themen
 
 [Planen der medienumgehung mit direktem Routing](direct-routing-plan-media-bypass.md)
 

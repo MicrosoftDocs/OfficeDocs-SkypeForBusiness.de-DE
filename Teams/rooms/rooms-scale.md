@@ -12,11 +12,11 @@ f1.keywords:
 localization_priority: Normal
 ms.custom:
 - Strat_SB_Admin
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection:
 - M365-collaboration
-description: Lesen Sie dieses Thema, um Informationen zum Bereitstellen von Microsoft Teams-Räumen in umfangreichen Bereitstellungen zu erhalten.
+description: Informieren Sie sich über die Bereitstellung von Microsoft Teams-Räumen in umfangreichen Bereitstellungen mit Microsoft Endpoint Configuration Manager.
 no-loc:
 - Microsoft
 - Microsoft Corporation
@@ -34,12 +34,12 @@ no-loc:
 - Azure Monitor
 - Log Analytics
 - Operations Management Suite
-ms.openlocfilehash: 04d5945e042293ad0cb1597307fd4a2b596bee39
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: f96b970165996cc27308ce616fb4875d741f8869
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141018"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905317"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-microsoft-endpoint-configuration-manager"></a>Bereitstellen von Microsoft Teams-Räumen mithilfe von Microsoft Endpoint Configuration Manager
 
@@ -169,8 +169,8 @@ Sie müssen die folgenden Pakete erstellen und konfigurieren und dann an die Con
 | SRS V2 – Paket für Microsoft-Überwachungs-Agents | Software Paket       | Optional – Paket zum Bereitstellen und Konfigurieren des Microsoft Operations Management Suite-Agents|
 | SRS v2 – WinPE-Hintergrund Paket    | Software Paket       | Paket für das benutzerdefinierte Hintergrundbild, das für Start Bilder verwendet werden soll                           |
 | Windows 10 Enterprise                | Betriebssystemabbild | Paket für die Installationsdatei des Betriebssystems (install. wim)                          |
-| Surface pro                          | Treiberpaket         | Paket für die Gerätetreiber und Firmware für Microsoft Surface pro                     |
-| Surface pro 4                        | Treiberpaket         | Paket für die Gerätetreiber und Firmware für Microsoft Surface pro 4                   |
+| Surface Pro                          | Treiberpaket         | Paket für die Gerätetreiber und Firmware für Microsoft Surface pro                     |
+| Surface Pro 4                        | Treiberpaket         | Paket für die Gerätetreiber und Firmware für Microsoft Surface pro 4                   |
 
 Weitere Informationen finden Sie unter [Pakete und Programme in Configuration Manager](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs).
 
@@ -188,8 +188,8 @@ Erstellen Sie die folgende Ordnerstruktur auf der Microsoft Endpoint Configurati
 -   SRS v2 – Konfigurieren des SRS-Setups
 -   SRS v2 – Sysprep-Paket
 -   Treiber
-    -   Surface pro
-    -   Surface pro 4
+    -   Surface Pro
+    -   Surface Pro 4
 -   Betriebssysteme
     -   Windows 10 Enterprise
 

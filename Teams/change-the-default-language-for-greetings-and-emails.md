@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Hier erfahren Sie, wie Sie Skype für Unternehmen einrichten, um eine andere Sprache für die standardmäßige Voicemail-Ansage Ihrer Organisation zu verwenden.
-ms.openlocfilehash: 5cff20da14dac942527b8b667731c24a47f0cf29
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9941ba697300d7dd1426e278d8d42900621cf58a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780364"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904330"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Ändern der Standardsprache für Ansagen und E-Mails
 
@@ -38,14 +38,14 @@ Wenn Sie ein [globaler Administrator](https://support.office.com/article/da585ee
   
 - **Die Ihnen zur Verfügung stehenden Sprachen hängen vom Standort Ihrer Organisation ab**. Wenn sich Ihre Organisation beispielsweise in den USA befindet, können Sie die Standardsprache auf Englisch oder Spanisch festlegen. Wenn sich Ihre Organisation in Kanada befindet, können Sie zwischen Englisch und Französisch wählen. Eine Liste der unterstützten Sprachen finden Sie unter [Sprachen für Voicemail-Ansagen und -nachrichten von Skype for Business](languages-for-voicemail-greetings-and-messages.md).
     
-- **Es ist nicht möglich, die Systemsprache für nur eine Person in der Organisation zu ändern.** Sie können die Systemsprache nur für alle Personen in der Organisation ändern.
+- **Ändern von Sprachen für Voicemail-Gruß-und Voicemail-Nachrichten einzelner Benutzer.** Sie können die bevorzugte lanaguage für Benutzer ändern, wodurch die Sprache der Voicemail-und Voicemail-Nachrichten, die an Ihr Outlook-Postfach gesendet werden, geändert wird. Anleitungen finden Sie unter [so wird es gemacht: Festlegen von Sprach-und Regionshttps://docs.microsoft.com/office365/troubleshoot/access-management/set-language-and-region)Einstellungen für Office 365] (. 
     
     > [!NOTE]
-    > Benutzer können nach der Anmeldung ihre eigene Ansagesprache in ihren Einstellungen ändern. 
+    > Benutzer können Ihre eigene Ansage Sprache durch Ihre Einstellungen ändern, nachdem Sie sich mit den Anweisungen unter [Ändern ihrer Anzeigesprache und Zeitzone in Microsoft 365 for Business](https://support.office.com/en-us/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US) angemeldet haben.
   
 - **Möchten Sie Ihre ausgehende Voicemail-Nachricht aufzeichnen?** Lesen Sie [Überprüfen von Skype for Business-Voicemail und -Optionen](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Für Microsoft Teams – Benutzer können Ihre Voicemail-Einstellungen über die [Einstellungen des Teams-Desktop Clients](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) ändern.
 
-- **Möchten Sie die Sprache für die Voicemail-Ansage ändern?** Für Skype for Business – [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) und wählen Sie unter **Eingabeaufforderung**eine neue Sprache aus. Für Microsoft Teams – Benutzer können Ihre Voicemail-Einstellungen über die [Einstellungen des Teams-Desktop Clients](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) ändern.
+- **Möchten Sie die Sprache für die Voicemail-Ansage ändern?** Für Skype for Business – [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) und wählen Sie unter **Eingabeaufforderung**eine neue Sprache aus. Für Microsoft Teams – Benutzer können Ihre Voicemail-Ansage über die [Einstellungen des Teams-Desktop Clients](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f) ändern.
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Ändern der Systemsprache für alle Benutzer in der Organisation
 

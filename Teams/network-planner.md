@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 audience: admin
-description: Erfahren Sie, wie Sie mithilfe des Netzwerk Planers Netzwerkanforderungen für Microsoft Teams ermitteln.
+description: Administratoren erfahren, wie Sie mithilfe des Netzwerk Planner Netzwerkanforderungen für Microsoft Teams ermitteln können.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -18,14 +18,15 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.networkplanner.overview
 - ms.teamsadmincenter.networkplanner.personas
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e27979bc4f440fee58f97ffb647cdd5465fb326
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4a4676349dab9c7b587e63dcc9a538c9f0b43a80
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832705"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904797"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Verwenden von Network Planner für Microsoft Teams
 

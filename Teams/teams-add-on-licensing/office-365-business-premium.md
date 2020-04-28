@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Erfahren Sie mehr über Add-on-Lizenzen, Features und Informationen zum Kauf von Microsoft 365 Business Standard-Plänen. '
-ms.openlocfilehash: 20aacf46acf60bb581056654babc85277f41ee45
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Erfahren Sie mehr über Add-on-Lizenzen, deren Funktionen und wie Sie diese Lizenzen für Microsoft 365 Business Standard-Pläne erwerben.
+ms.openlocfilehash: 136dbf60f728d4c4455c466dd8a8a02376e20f1f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780504"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904610"
 ---
 # <a name="microsoft-365-business-standard"></a>Microsoft 365 Business Standard
 

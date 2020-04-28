@@ -19,14 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-- seo-marvel-mar2020
-description: Sie können diese Etiketten für Notrufe herunterladen, wenn Sie Anrufpläne in Office 365 verwenden.
-ms.openlocfilehash: 4ce43ce30535f1210643c33d087671afc3413ee2
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+- seo-marvel-apr2020
+description: Sie können diese Etiketten für Notrufe herunterladen und ausdrucken, wenn Sie in Office 365 Anrufpläne verwenden.
+ms.openlocfilehash: d092d94ac6ca2288a2cb6a5a0dac6a8b49fb0967
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141248"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904310"
 ---
 # <a name="emergency-calling-labels"></a>Notruf Etiketten
 

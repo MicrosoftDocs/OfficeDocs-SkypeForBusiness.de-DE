@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.custom:
 - Strat_SB_Admin
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räumen in einer Hybridumgebung mit Exchange lokal.
-ms.openlocfilehash: 0efed0a07024f0f1fcfeea7168c4f78c66fecd64
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 39e78b914edb547737ed75c20191dd9beba242c6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141008"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905297"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange vor Ort
 
@@ -175,14 +175,14 @@ Skype for Business Online PowerShell wird verwendet, um Dienste für Microsoft T
 
 Zur Überprüfung sollten Sie in der Lage sein, sich mit einem beliebigen Client bei diesem Konto anzumelden.
   
-## <a name="see-also"></a>Siehe auch
+## <a name="related-topics"></a>Verwandte Themen
 
 [Konfigurieren von Konten für Microsoft Teams-Chatrooms](rooms-configure-accounts.md)
 
-[Planen von Microsoft Teams-Räumen](rooms-plan.md)
+[Plan für Microsoft Teams-Räume](rooms-plan.md)
   
-[Bereitstellen von Microsoft Teams-Räumen](rooms-deploy.md)
+[Bereitstellen von Microsoft Teams-Räume](rooms-deploy.md)
   
-[Konfigurieren einer Microsoft Teams rooms-Konsole](console.md)
+[Konfigurieren einer Konsole für Microsoft Teams-Räume](console.md)
   
-[Microsoft Teams Rooms verwalten](rooms-manage.md)
+[Microsoft Teams-Räume verwalten](rooms-manage.md)

@@ -11,17 +11,18 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Konfigurieren einer Besprechungsrichtlinie, damit Benutzer ihre Desktops in Teams-Chats oder Besprechungen freigeben können
+description: Hier erfahren Sie, wie Sie eine Besprechungsrichtlinie so konfigurieren, dass Benutzer ihre Desktops in Team-Chats oder Besprechungen freigeben können.
 ms.collection:
 - M365-collaboration
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 366aaeb4f48670ae04d4b53d21196ef2d9e81fb4
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
-ms.translationtype: HT
+ms.openlocfilehash: 955a642d2a2309ccbaf9f9d6280170a93a9179ae
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825543"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905897"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Konfigurieren der Desktopfreigabe in Microsoft Teams
 ============================================
@@ -52,8 +53,8 @@ Um die Bildschirmfreigabe zu konfigurieren, erstellen Sie eine neue Besprechungs
 
 5. Aktivieren oder deaktivieren Sie die folgenden Einstellungen:
 
-    - **Teilnehmer können Kontrolle zulassen oder anfordern**: Ermöglicht Mitgliedern des Teams die Steuerung des Desktops oder der Anwendung des Referenten zuzulassen oder anzufordern.
-    - **Externe Teilnehmer können Kontrolle zulassen oder anfordern**: Ermöglicht Gästen und externen (Partner-) Benutzern die Steuerung des Desktops oder der Anwendung des Referenten zuzulassen oder anzufordern.
+    - **Zulassen, dass ein Teilnehmer die Steuerung erteilt oder anfordert** – ermöglicht es Mitgliedern des Teams, die Steuerung des Desktops oder der Anwendung des Referenten zu erteilen oder anzufordern.
+    - **Einem externen Teilnehmer erlauben, die Kontrolle zu erteilen oder anzufordern** – ermöglicht es Gästen und externen (verbundenen) Benutzern, die Steuerung des Desktops oder der Anwendung des Referenten zu erteilen oder anzufordern.
     - **PowerPoint-Freigabe zulassen**: Ermöglicht Benutzern das Erstellen von Besprechungen, die das Hochladen und Freigeben von PowerPoint-Präsentationen zulassen.
     - **Whiteboard zulassen**: Ermöglicht Benutzern die Freigabe eines Whiteboards.
     - **Freigabe von Notizen zulassen**: Ermöglicht Benutzern, freigegebene Notizen zu erstellen.

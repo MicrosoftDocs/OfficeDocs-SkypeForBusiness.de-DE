@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: In diesem Artikel werden die kumulativen Verbesserungen in Microsoft Teams-Räumen erläutert.
-ms.openlocfilehash: a79f9c4087be638de5c978eda2a8cf1d12fc1ed4
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+description: Der Administrator kann die Anmerkungen zu dieser Version von Microsoft Teams rooms lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räumen aufgeführt sind.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ecc7328f81da24bb750ec164bc614db2104179a7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227519"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905337"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -70,7 +71,6 @@ In diesem Update eingeführt:
 - Möglichkeit zum Deaktivieren von doppelten Inhalten außerhalb der Besprechung für duale Anzeige Räume mithilfe von XML
 - Begrüßungsbildschirm der Anwendung
 - Hinweise zu Open-Source-Software (OSS) in den Geräteeinstellungen
-- Fix für PSOM-Konnektivität, wenn TLS 1,0 und TLS 1,1 in Skype for Business Server 2015/2019 deaktiviert sind.
 
 ### <a name="43420-03022020"></a>4.3.42.0 (03/02/2020)
 
@@ -348,6 +348,6 @@ In diesem Update eingeführt:
 
 [Bekannte Probleme für Microsoft Teams-Chatrooms](known-issues.md)
 
-[Planen von Microsoft Teams-Räumen](rooms-plan.md)
+[Plan für Microsoft Teams-Räume](rooms-plan.md)
 
 [Microsoft Teams Rooms verwalten](rooms-manage.md)

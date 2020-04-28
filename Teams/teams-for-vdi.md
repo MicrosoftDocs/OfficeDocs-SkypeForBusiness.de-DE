@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43adfb71c287677a6390d371a05bd1aea35ceda3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 18c545d6b3208bb5156a699deee71ee27b38b3f4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779984"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903120"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -161,12 +161,6 @@ Weitere Informationen zu Teams und Microsoft 365-Apps für Unternehmen finden Si
     > In diesen Beispielen wird auch der **ALLUSERS = 1** -Parameter verwendet. Wenn Sie diesen Parameter festlegen, wird das Installationsprogramm für die computerweite Installation von Teams unter "Programme und Features" in der Systemsteuerung sowie unter "Apps und Features" in den Windows-Einstellungen für alle Benutzer des Computers angezeigt. Alle Benutzer können dann Teams deinstallieren, wenn Sie über Administratoranmeldeinformationen verfügen. Es ist wichtig, den Unterschied zwischen **ALLUSERS = 1** und **alluser = 1**zu verstehen. Der " **ALLUSERS = 1** "-Parameter kann in nicht-VDI-und VDI-Umgebungen verwendet werden, und der **alluser = 1** -Parameter wird nur in VDI-Umgebungen verwendet, um eine pro-Computer-Installation festzulegen.
 
 3. Deinstallieren Sie die MSI-Karte aus der VDI-VM.
-
-    Es gibt zwei Möglichkeiten, Teams zu deinstallieren:  
-  
-    - PowerShell-Skript (empfohlen)
-
-    - Befehlszeile:
   
       ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>

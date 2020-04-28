@@ -10,19 +10,21 @@ search.appverid: MET150
 ms.reviewer: srividhc
 f1.keywords:
 - NOCSH
-description: Mit der Cloud-Video Interoperabilität können Besprechungsraum Geräte von Drittanbietern an Microsoft Teams-Besprechungen teilnehmen.
+description: Verwenden Sie Cloud-Video-Interop als Zwischenlösung, damit Besprechungsraum Geräte von Drittanbietern an Microsoft Teams-Besprechungen teilnehmen können.
 localization_priority: Normal
+ms.custom:
+- seo-marvel-apr2020
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9addb5dfe25f5d4906c0b4ab1d332a2ea70f72d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5c7cb1888856ff8dba910e4f4735516876a8ade2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779641"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905877"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Cloud-Video-Interoperabilität für Microsoft Teams
 
@@ -89,7 +91,7 @@ Der Partner, den Sie für Ihre CVI-Bereitstellung ausgewählt haben, stellt ein 
 
 ### <a name="provision"></a>Bereitstellung  
 
-Während der Bereitstellungsphase weisen Sie den entsprechenden Benutzern Lizenzen entsprechend dem Partner-Konfigurationshandbuch zu. Darüber hinaus müssen Sie den Azure-Genehmigungsprozess durchlaufen, um dem Partner den Zugriff auf Ihre Teams-Umgebung zu ermöglichen. Weitere Informationen zum Azure-Genehmigungsprozess finden Sie hier:https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent 
+Während der Bereitstellungsphase weisen Sie den entsprechenden Benutzern Lizenzen entsprechend dem Partner-Konfigurationshandbuch zu. Darüber hinaus müssen Sie den Azure-Genehmigungsprozess durchlaufen, um dem Partner den Zugriff auf Ihre Teams-Umgebung zu ermöglichen. Weitere Informationen zum Azure-Genehmigungsprozess finden Sie unter [Berechtigungen und Zustimmung im Microsoft Identity Platform-Endpunkt](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent) .
 
 ### <a name="schedule"></a>Zeitplan
 

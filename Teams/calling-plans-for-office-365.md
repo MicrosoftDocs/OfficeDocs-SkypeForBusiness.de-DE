@@ -24,13 +24,14 @@ ms.custom:
 - O365P_E5Voiceplandetails
 - Licensing
 - LIL_Placement
+- seo-marvel-apr2020
 description: 'Informationen zum Anrufplan (PSTN-Anrufplan) für Skype for Business-Optionen und zum Abrufen von Lizenzen für Ihre Organisation. '
-ms.openlocfilehash: 81bf7febe1bece1482c9e882632c6b6bde512207
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: c7e3d405e82613de8cfe5313c6dd93c0b5c29e0a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779944"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905017"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Anrufpläne für Microsoft 365
 
@@ -42,7 +43,7 @@ Hier sind die Optionen für Anrufpläne:
     
 - **Plan für Inlands-und Auslandsanrufe**: lizenzierte Benutzer können Nummern in dem Land/der Region anrufen, in dem Ihre Office 365-Lizenz dem Benutzer basierend auf dem Standort des Benutzers und internationalen Nummern in [196 Ländern/Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)zugewiesen ist.
     
-Die monatlichen Minuten für jede Organisation und jedes Land/jede Region sind [hier](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)zu finden.
+Besuchen Sie die [Verfügbarkeit von Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) , um zu erfahren, welche monatlichen Minuten für jede Organisation in jedem Land/jeder Region zur Verfügung stehen.
   
 > [!IMPORTANT]
 > Das Land/die Region basiert auf dem Standort der Benutzerlizenz in den**aktiven Benutzern** des **Microsoft 365 admin Centers** > und **nicht** auf der Rechnungsadresse, die unter dem **Organisationsprofil** im **Microsoft 365 Admin Center**aufgeführt ist.   

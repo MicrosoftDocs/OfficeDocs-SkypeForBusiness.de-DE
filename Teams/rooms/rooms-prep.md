@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
-description: In diesem Artikel werden die Infrastruktur Vorbereitungen für die Bereitstellung von Microsoft Teams-Räumen erläutert.
-ms.openlocfilehash: 7c067376ffffd2a674c5e0cfb2204801b0c4f32a
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Hier erfahren Sie, wie Sie Ihre Infrastruktur für die Bereitstellung von Microsoft Teams-Räumen vorbereiten, damit Sie alle Features nutzen können.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5267e27409e41c014d391048b70620fc802d8ff4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779772"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905347"
 ---
 # <a name="prepare-your-environment"></a>Vorbereiten der Umgebung
 
@@ -158,7 +159,7 @@ Das Kennwort des lokalen Administrators wird während des Setups nicht als Auswa
   
  Wenn Sie den Computer umbenennen möchten, nachdem Sie ihn einer Domäne hinzugefügt haben, verwenden Sie den Befehl Rename-Computer PowerShell gefolgt vom neuen Namen des Computers.
   
-## <a name="see-also"></a>Siehe auch
+## <a name="related-topics"></a>Verwandte Themen
 
 [Planen von Microsoft Teams-Räumen](rooms-plan.md)
 

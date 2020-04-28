@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Licensing
+- seo-marvel-apr2020
 description: 'Hier erfahren Sie, wie Sie Abrechnungs Lizenzen für Kommunikations Kredite (PSTN-Verbrauch) für Ihre Benutzer und Ihre Organisation einrichten. '
-ms.openlocfilehash: 304c08568ee39f69f727d159a5599a3a3ac89ed4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 8deb0d00365803ff8ae585f8f6d4dfefbf72108f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779742"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905587"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
@@ -37,7 +38,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
   
 ## <a name="step-1-assign-an-audio-conferencing-or-calling-plan-license-to-your-users"></a>Schritt 1: Zuweisen einer Audiokonferenz-oder Anruf Plan Lizenz für Ihre Benutzer
 
-Bei der Registrierung erhalten Sie je nach Land/Region eine bestimmte Anzahl Minuten. [Hier](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)können Sie die Anzahl der Minuten sehen, die Sie für die Suche nach dem Land oder der Region erhalten. Anrufe werden getrennt, sobald Sie diese Minuten aufgebraucht haben. Um dies zu verhindern, müssen Sie Guthaben für Kommunikationen einrichten.
+Bei der Registrierung erhalten Sie je nach Land/Region eine bestimmte Anzahl Minuten. Sie können in der [Liste der verfügbaren Länder oder Regionen nach Ihrem Land oder Ihrer Region für Audiokonferenzen und Anrufpläne](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans#select-your-country-or-region-to-see-whats-available-for-your-organization) suchen, um die Anzahl der Minuten anzuzeigen, die Sie erhalten werden. Anrufe werden getrennt, sobald Sie diese Minuten aufgebraucht haben. Um dies zu verhindern, müssen Sie Guthaben für Kommunikationen einrichten.
   
 Dazu **müssen Sie Ihren Benutzern eine Lizenz für Audiokonferenzen oder für Telefonsysteme zuweisen**.
   

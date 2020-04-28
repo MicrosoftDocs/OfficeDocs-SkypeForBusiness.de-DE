@@ -1,5 +1,5 @@
 ---
-title: Proxy Server für Teams oder Skype for Business Online
+title: Proxyserver für Skype for Business Online und Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,15 +20,16 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Dieser Artikel enthält Informationen zur Verwendung eines Proxyservers mit Teams oder Skype for Business.
-ms.openlocfilehash: ca81c32064406af0e5bc3d614566a96ec5646a91
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+- seo-marvel-apr2020
+description: Dieser Artikel enthält Informationen zur Verwendung eines Proxyservers mit Microsoft Teams oder Skype for Business.
+ms.openlocfilehash: 5a0d35ee2b8c95c4dea30886497e184f57077264
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863186"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905677"
 ---
-# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Proxy Server für Teams oder Skype for Business Online
+# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Proxyserver für Skype for Business Online und Microsoft Teams
 
 Dieser Artikel enthält Anleitungen zur Verwendung eines Proxyservers mit Teams oder Skype for Business.
   
@@ -57,6 +58,6 @@ Wenn Sie sich an diesem Leitfaden orientieren, können Sie potenzielle Probleme 
   
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Office 365-Netzwerk Verbindungs Prinzipien](https://aka.ms/pnc)
+[Prinzipien von Office 365-Netzwerkverbindungen](https://aka.ms/pnc)
 
 [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)

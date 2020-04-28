@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie Routing Richtlinien für Notrufe in Microsoft Teams verwenden und verwalten.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c0e02a44997e07626c39dc576357f8811a9b1bf9
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Hier erfahren Sie, wie Sie in Microsoft Teams Notruf-Routing Richtlinien verwenden und verwalten, um Notrufnummern einzurichten und festzulegen, wie Notrufe weitergeleitet werden.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 310f2d3177f7a601013859d06a90f6d1ba44c656
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141118"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905117"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Verwalten von Notfall Anruf-Routing Richtlinien in Microsoft Teams
 
@@ -36,7 +36,7 @@ Wenn Sie einer Netzwerk Website und einem Benutzer eine Notfall Anruf-Routing Ri
 
 ## <a name="create-a-custom-emergency-call-routing-policy"></a>Erstellen einer benutzerdefinierten Routing Richtlinie für Notfallanrufe
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams admin Centers
+### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **VoIP** > -**Notfall Richtlinien**, und klicken Sie dann auf die Registerkarte **Anruf Weiterleitungsrichtlinien** .
 2. Klicken Sie auf **Hinzufügen**.
@@ -60,7 +60,7 @@ Weitere Informationen finden Sie unter [New-CsTeamsEmergencyCallRoutingPolicy](h
 
 ## <a name="edit-an-emergency-call-routing-policy"></a>Bearbeiten einer Notfall Anruf-Routing Richtlinie
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams admin Centers
+### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
 Sie können die globale Standardrichtlinie bearbeiten oder eine von Ihnen erstellte, benutzerdefinierte Richtlinie zuweisen.
 
@@ -74,7 +74,7 @@ Weitere Informationen finden Sie unter [Satz-CsTeamsEmergencyCallRoutingPolicy](
 
 ## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>Zuweisen einer benutzerdefinierten Notfall Routing Richtlinie für Benutzer
 
-### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams admin Centers
+### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
 1. Wechseln Sie in der linken Navigation des Microsoft Teams Admin Centers zu **Nutzer**, und klicken Sie dann den gewünschten Nutzer an.
 2. Klicken Sie zunächst auf **Richtlinien** und dann neben **Zugewiesene Richtlinien** auf **Bearbeiten**.

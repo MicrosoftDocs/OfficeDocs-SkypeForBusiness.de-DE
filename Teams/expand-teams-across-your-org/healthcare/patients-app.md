@@ -16,14 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Informieren Sie sich über das integrieren elektronischer Gesundheitsdatensätze in Microsoft Teams mithilfe von FHIR-APIs auf einem medizinischen Informationssystem, um eine Verbindung mit Microsoft Teams herzustellen.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bbd239c34c6fd4cd5838b2ba57c7160448f38497
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Informieren Sie sich über die Integration elektronischer Gesundheitsdatensätze in die Microsoft Teams-Patienten-App mithilfe von FHIR-APIs.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2af20b0c95f85d00269ac34b0768e4118793879b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141208"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905517"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integration von elektronischen Datensätzen aus dem Gesundheitswesen in Microsoft Teams
 

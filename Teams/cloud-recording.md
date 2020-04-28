@@ -12,15 +12,16 @@ ms.reviewer: nakulm
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: So aktivieren und verwalten Sie die Aufzeichnung von Besprechungen in Microsoft Teams
+description: Praktische Anleitungen für die Bereitstellung von Cloud-Sprachfeatures in Teams zum Aufzeichnen von Teams-Besprechungen und Gruppen anrufen, um Audio-, Video-und Bildschirmfreigabe Aktivitäten zu erfassen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f358a0099da3f759e50f02b7bb7a5226069fcd28
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e38b7fcfdbe8789604716410beca3c5d76975c29
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780334"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905497"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -30,7 +31,7 @@ Verwandt: [Teams-Besprechungsaufzeichnung, Endbenutzer-Dokumentation](https://ak
 
 ## <a name="prerequisites-for-teams-cloud-meeting-recording"></a>Voraussetzungen für die Aufzeichnung von Teams-Cloudbesprechungen.
 
-Damit die Besprechungen eines Teams aufgezeichnet werden können, muss Microsoft Stream für den Mandanten aktiviert sein. Darüber hinaus gelten die folgenden Voraussetzungen, die sowohl für den Organisator der Besprechung als auch für die Person, welche die Aufzeichnung initiiert, erforderlich sind:
+Damit Besprechungen eines Teams-Benutzers aufgezeichnet werden, muss Microsoft Stream für den Mandanten aktiviert sein. Darüber hinaus gelten die folgenden Voraussetzungen, die sowohl für den Organisator der Besprechung als auch für die Person, welche die Aufzeichnung initiiert, erforderlich sind:
 
 - Der Benutzer verfügt über Office 365 E1, E3, E5, A1, A3, A5, M365 Business, Business Premium oder Business Essentials.
 - Der Benutzer muss für Microsoft Stream lizenziert sein. <sup>1</sup> 

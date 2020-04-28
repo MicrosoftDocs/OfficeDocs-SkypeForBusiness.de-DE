@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Lesen Sie diesen Artikel, um die Landesvorwahl für den Medienpfad für das direkte Routing zu finden.
-ms.openlocfilehash: 4d3e19ceeab48e7ade6ffa9b51bff68f38613426
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: Lesen Sie diesen Artikel, um die Landesvorwahl für den Medienpfad für das direkte Routing zu finden, damit Sie den optimalen Medienpfad auswählen können.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 69265e797b256186f714e2cd4dcefcb3751c05ee
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836095"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904807"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Direct Routing-Medienpfad Landesvorwahl
 
@@ -61,7 +62,7 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Bahrain         | BH |
 | Bangladesch      | BD |
 | Barbados        | BB |
-| Belarus         | BY |
+| Weißrussland         | BY |
 | Belgien         | BE |
 | Belize          | BZ |
 | Benin           | Bj |
@@ -70,7 +71,7 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Bolivien         | Bo |
 | Bonaire         | BQ |
 | Bosnien und Herzegowina | BA |
-| Botswana        | BW |
+| Botsuana        | BW |
 | Bouvet-Insel   | BV |
 | Brasilien          | BR |
 | Britisches Territorium im indischen Ozean | IO |
@@ -84,7 +85,7 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Kamerun        | CM |
 | Kanada          | CA |
 | Kaimaninseln  | KY |
-| Zentralafrikanische Republik | CF |
+| Zentralafrika | CF |
 | Tschad0            | TD |
 | Chile           | CL |
 | China           | CN |
@@ -119,7 +120,7 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Fidschi            | FJ |
 | Finnland         | FI |
 | Frankreich          | FR |
-| Französisch-Guyana   | GF |
+| Französisch-Guayana   | GF |
 | Französisch-Polynesien | PF |
 | Französische Südliche Territorien | TF |
 | Gabun           | GA |
@@ -141,7 +142,7 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Haiti           | Hallo |
 | Heard-Insel und McDonald-Inseln | HM |
 | Honduras        | HN |
-| Hong Kong SAR (香港特別行政區)   | HK |
+| Hongkong (SAR)   | HK |
 | Ungarn         | HU |
 | Island         | Ist |
 | Indien           | IN |
@@ -213,7 +214,7 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Oman            | OM |
 | Pakistan        | PK |
 | Palau           | PW |
-| Palästinensische Autonomiebehörde | PS |
+| Palästinensische Gebiete | PS |
 | Panama          | PA |
 | Papua-Neuguinea | Bild |
 | Paraguay        | PY |
@@ -224,7 +225,7 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Portugal        | PT |
 | Puerto Rico     | PR |
 | Katar           | QA |
-| Réunion         | Wieder |
+| Reunion         | Wieder |
 | Rumänien         | RO |
 | Russland          | RU |
 | Ruanda          | RW |
@@ -234,11 +235,11 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | St. Lucia     | LC |
 | Saint Martin    | MF |
 | Saint Pierre und Miquelon | PM |
-| St. Vicent und die Grenadinen | VC |
+| St. Vincent und die Grenadinen | VC |
 | Samoa           | WS |
 | San Marino      | SM |
 | Sao Tome und Principe | St |
-| Saudi Arabia (المملكة العربية السعودية)    | SA |
+| Saudi Arabien    | SA |
 | Senegal         | SN |
 | Serbien          | RS |
 | Seychellen      | SC |
@@ -257,7 +258,7 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Sri Lanka       | LK |
 | St. Helena, Ascension, Tristan da Cunha | SH |
 | Sudan           | SD |
-| Surinam        | SR |
+| Suriname        | SR |
 | Svalbard        | SJ |
 | Schweden          | SE |
 | Schweiz     | CH |
@@ -282,7 +283,7 @@ Die folgende Tabelle zeigt die Landesvorwahl Werte für den Parameter-MediaRelay
 | Ukraine         | UA |
 | Vereinigte Arabische Emirate | AE |
 | Vereinigtes Königreich  | GB |
-| Vereinigte Staaten   | USA |
+| Vereinigte Staaten   | US |
 | Uruguay         | UY |
 | Usbekistan      | UZ |
 | Vanuatu0         | VU |

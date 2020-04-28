@@ -2,7 +2,7 @@
 title: Verwenden von Network Planner – Beispielszenario
 metadata:
   title: Verwenden von Network Planner – Beispielszenario
-  description: Durchlaufen Sie die Verwendung von Network Planner, um einen Netzwerkplan einzurichten und einen Bericht zu generieren.
+  description: In diesem Beispielszenario wird gezeigt, wie Sie mithilfe des Network Planner-Tools Websites und Personas erstellen und Berichte ausführen.
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -15,12 +15,13 @@ metadata:
   localization_priority: Normal
   ms.collection:
   - M365-collaboration
-  ms.openlocfilehash: 7a743bea1524084298abb590c653d994aacb0bc4
-  ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+  ms.custom: seo-marvel-apr2020
+  ms.openlocfilehash: 5148415363ac62c68140982d03235b8bfa8835ac
+  ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 02/08/2020
-  ms.locfileid: "41863536"
+  ms.lasthandoff: 04/27/2020
+  ms.locfileid: "43904510"
 items:
 - durationInMinutes: 2
   content: "\nDas Netzwerk Planner-Tool steht im Team Admin Center zur Verfügung. Sie unterstützt Sie bei der Festlegung von Netzwerkanforderungen für Ihre Organisation. In diesem Beispielszenario wird gezeigt, wie Sie das Tool zum Erstellen von Websites, Personas und zum Ausführen von Berichten für ein Unternehmen namens Contoso verwenden können. \n\n## <a name=\"before-you-begin\"></a>Vorbereitung\n\nWir gehen davon aus, dass Sie sich bereits mit dem Team Admin Center vertraut machen und wissen, was Sie tun müssen, um Ihr Netzwerk für Teams vorzubereiten. Wenn es sich um den ersten Artikel in Network Planner handelt, empfehlen wir, zunächst die folgenden Artikel zu durchlaufen.\n\n- [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)\n- [Verwenden von Network Planner für Microsoft Teams](network-planner.md) \n\n## <a name=\"overview-of-contoso-network\"></a>Übersicht über das Contoso-Netzwerk\n\nContoso hat drei Speicherorte:\n\n- **Hauptsitz in Seattle:** Dies ist der Hauptstandort für contoso. Es hat 1000 Mitarbeiter und 25 von Ihnen sind nur Anrufe. Die Website ist mit dem Internet verbunden, und es gibt eine lokale Telefonverbindung (PSTN). Contoso hat eine direkte Routing Einrichtung, um die lokale Telefonverbindung mit Teams verwenden zu können. \n- **Kirkland Office:** Diese Zweigstelle hat 400 Mitarbeiter und 10 nur Anrufe. Die Website verwendet die Verbindung zum Hauptsitz für Internet-und Telefonverkehr (PSTN). Dieses Office ist über eine WAN-Verbindung mit dem Hauptsitz in Seattle verbunden.\n- **Niederlassung in Denver:** Dieses Office hat 250 Mitarbeiter und 50 nur Anrufe. Die Website verfügt über eine eigene lokale Internetverbindung, hat aber keine direkte Telefonverbindung (PSTN).\n\nFangen wir an!\n"

@@ -16,19 +16,19 @@ MS.collection:
 description: Verwenden Sie den Bericht "PSTN-blockierte Benutzer" im Microsoft Teams Admin Center, um sich einen Überblick über die Team Benutzer Ihrer Organisation zu verschaffen, die für das tätigen von PSTN-anrufen gesperrt sind.
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e6055533138f08bafbdc9c39b03350612075840f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 511485fa156ba448368809edf54728ada1b80be7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140686"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904907"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft Teams-Bericht "PSTN-blockierte Benutzer"
 
 Der Bericht "PSTN-blockierte Benutzer" im Microsoft Teams Admin Center zeigt die Benutzer in Ihrer Organisation an, die für das tätigen von PSTN-anrufen in Teams gesperrt sind. Sie können weitere Informationen zu den einzelnen blockierten Benutzern anzeigen, einschließlich ihrer zugewiesenen Telefonnummer und dem Grund, warum Sie keine Anrufe tätigen konnten.
 
-## <a name="view-the-report"></a>Anzeigen des Berichts
+## <a name="view-the-pstn-blocked-users-report"></a>Anzeigen des Berichts "PSTN-blockierte Benutzer"
 
 Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics & Berichte** > **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **PSTN-blockierte Benutzer**aus, und klicken Sie dann auf **Bericht ausführen**.
 

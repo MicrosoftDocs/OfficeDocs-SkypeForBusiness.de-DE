@@ -20,13 +20,14 @@ f1.keywords:
 ms.custom:
 - Phone System
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
-description: Die Darstellung der freigegebenen Zeile ermöglicht es einem Benutzer, eine Stellvertretung zu wählen, um Anrufe in deren Auftrag zu beantworten oder zu behandeln.
-ms.openlocfilehash: bb6728de67d1bf29a5e00ed9b62d8957391dd8ba
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: Hier erfahren Sie, wie Sie Ihren Benutzern eine e-Mail mit ihren Audiokonferenzinformationen in Microsoft Teams senden.
+ms.openlocfilehash: 52f4257d5e5603c0f7ed812d5ab677a18ed47fb9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837965"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905547"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Teamschaltung in Microsoft Teams
 

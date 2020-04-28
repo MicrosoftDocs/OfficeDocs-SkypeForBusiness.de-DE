@@ -10,27 +10,29 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Weitere Informationen zum Strukturieren von Teams und Kanälen in Microsoft Teams.
+description: Hier finden Sie weitere Informationen zum Strukturieren von Teams und Kanälen in Microsoft Teams und zur Verwendung von Teams für die Organisation der organisationsübergreifenden Zusammenarbeit.
 f1.keywords:
 - CSH
-ms.custom: Adopt
+ms.custom:
+- Adopt
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52a3f29869320992840ab8aebd17453485eec662
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e59cb13759e078ae9686396635f41bd95fce90b8
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779591"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904937"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Vertrautmachen mit Teams und Kanälen in Microsoft Teams
 
 Die Konzepte von Teams und Kanälen sind grundlegend für eine gesunde, produktive Implementierung von Microsoft Teams. 
 
-- Ein Team ist eine Sammlung von Personen, Inhalten und Tools, die zusammenarbeiten, um ein geschäftliches Ergebnis für Ihr Unternehmen zu erzielen. Teams sind auf Microsoft 365-Gruppen aufgebaut, und Änderungen an der Office 365-Gruppenmitgliedschaft werden mit dem Team synchronisiert. 
+- Ein Team ist eine Sammlung von Personen, Inhalten und Tools, die zusammenarbeiten, um ein geschäftliches Ergebnis für Ihr Unternehmen zu erzielen. Teams basieren auf Microsoft 365-Gruppen, und Änderungen an der Mitgliedschaft in Office 365-Gruppen werden mit dem Team synchronisiert. 
 
 - Kanäle sind die Bereiche für die Zusammenarbeit innerhalb eines Teams, in dem die eigentliche Arbeit abgeschlossen ist. 
 

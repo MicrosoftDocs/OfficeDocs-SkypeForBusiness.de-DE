@@ -7,23 +7,25 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen
-description: Stellen Sie Teilnehmer ein, die im Projektteam für Ihr Upgrade zur Verfügung stehen.
+description: Hier erfahren Sie, wie Sie die Stakeholder Ihrer Organisation strukturieren, um sicherzustellen, dass das Microsoft Teams-Upgrade erfolgreich ist.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: Teams-upgrade-guidance
+ms.custom:
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7e8effb58130a177e193db006ec6e0279f27309
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 4aecbbe19e004191f6605af0a0552a0b7a87e998
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780594"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904460"
 ---
 # <a name="enlist-your-project-stakeholders"></a>Ernennen der Projektbeteiligten
 

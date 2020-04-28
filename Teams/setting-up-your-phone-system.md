@@ -19,13 +19,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 'Erfahren Sie, wie Sie das Telefonsystem (Cloud PBX) für Ihre Organisation einrichten können. '
-ms.openlocfilehash: 8c534607ca50baae75c3b0b2fdf5bc54359c22e4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Schritt-für-Schritt-Anleitung, in der beschrieben wird, wie Sie das Telefon System (Cloud PBX) für Ihre Organisation in Office 365 einrichten.
+ms.openlocfilehash: c2756b750c00dd370d5ef33370ae359d0351e07e
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779812"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905567"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Einrichten des Telefonsystems in Ihrer Organisation
 
@@ -33,9 +34,9 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>Schritt 1: Stellen Sie sicher, dass Telefonsystem in Ihrem Land oder Ihrer Region verfügbar ist
 
-1.  Gehen Sie zunächst auf [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) und wählen Sie Ihr Land oder Ihre Region aus der Liste oben auf der Seite. 
-2.  Überprüfen Sie die Liste der Features und Details unter **Telefonsystem**. 
-3.  Wenn Telefonsystem verfügbar ist, fahren Sie fort mit Schritt 2. 
+1.    Gehen Sie zunächst auf [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) und wählen Sie Ihr Land oder Ihre Region aus der Liste oben auf der Seite. 
+2.    Überprüfen Sie die Liste der Features und Details unter **Telefonsystem**. 
+3.    Wenn Telefonsystem verfügbar ist, fahren Sie fort mit Schritt 2. 
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Schritt 2: Kaufen und Zuweisen von Lizenzen für Telefonsystem und Anrufplan
 

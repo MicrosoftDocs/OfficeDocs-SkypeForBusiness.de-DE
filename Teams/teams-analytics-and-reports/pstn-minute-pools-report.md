@@ -16,19 +16,19 @@ MS.collection:
 description: So verwenden Sie den Bericht "PSTN-Minuten Pools für Teams" im Microsoft Teams Admin Center, um die innerhalb Ihres Unternehmens während des aktuellen Monats verbrauchten Minuten anzuzeigen.
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5f44d8a48dc01b8d2cdbce9dd164d5b2440c24d8
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d00e6f76258caad7899ddd589e037718928741e0
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140666"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904897"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams PSTN-Minuten Pools-Bericht
 
 Der Bericht "PSTN-Minuten Pools für Teams" im Microsoft Teams Admin Center bietet Ihnen einen Überblick über Audiokonferenzen und Anrufaktivitäten in Ihrer Organisation, indem Sie die Anzahl der Minuten anzeigen, die im aktuellen Monat verbraucht wurden. Sie können eine Aufschlüsselung der Aktivitäten einschließlich der für Anrufe verwendeten Lizenz, der verfügbaren Minuten, der verwendeten Minuten und der Lizenzverwendung nach Standort sehen.
 
-## <a name="view-the-report"></a>Anzeigen des Berichts
+## <a name="view-the-pstn-minute-pools-report"></a>Anzeigen des Berichts für PSTN-Minuten Pools
 
 Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics & Berichte** > **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**die Option **PSTN-Minuten Pools**aus, und klicken Sie dann auf **Bericht ausführen**.
 

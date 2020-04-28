@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: ''
-description: Verwalten von Windows-Updates für Microsoft Teams-Chatrooms
-ms.openlocfilehash: 2fc96118b70ff7c15e7bde02fdcd048c07581ad3
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Der Administrator kann Informationen zum Verwalten von Windows-Updates und Windows-Funktionsupdates für Microsoft Teams-Chatrooms erhalten.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e52c1fdf3bb35be6869320aa57e6f5aff5fd0773
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827913"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905307"
 ---
 # <a name="manage-windows-updates"></a>Verwalten von Windows-Updates
 

@@ -13,19 +13,20 @@ f1.keywords:
 - NOCSH
 ms.reviewer: crowe
 search.appverid: MET150
-description: Startseite des Anruf Plans
+description: Ermitteln Sie, welcher Microsoft Phone System-Anrufplan Ihrer Organisation am besten für Cloud-VoIP in Teams zur Verfügung steht.
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c62ce8a891244920257623aea9a62859161a129f
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 4b1fb0abed3477039f4c19c0e2de0ea696626f35
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825193"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905027"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>Welcher Anrufplan ist für Sie am besten geeignet? 
 
-Sie haben die ersten [Schritte](get-started-with-teams-quick-start.md)abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleichthaben Sie [Besprechungen #a0 Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)bereitgestellt. Nun können Sie Cloud-sprach Auslastungen hinzufügen, und Sie haben sich entschieden, Microsoft Phone System mit einem Anrufplan zu verwenden, um eine Verbindung mit dem öffentlichen Telefonnetz (PSTN) herzustellen. 
+Sie haben die ersten [Schritte](get-started-with-teams-quick-start.md)abgeschlossen. Sie haben Teams mit [Chat, Teams, Kanälen und Apps](deploy-chat-teams-channels-microsoft-teams-landing-page.md) in Ihrer Organisation bereitgestellt. Vielleichthaben Sie [Besprechungen & Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)bereitgestellt. Nun können Sie Cloud-sprach Auslastungen hinzufügen, und Sie haben sich entschieden, Microsoft Phone System mit einem Anrufplan zu verwenden, um eine Verbindung mit dem öffentlichen Telefonnetz (PSTN) herzustellen. 
 
 In diesem Artikel werden die wichtigsten Bereitstellungsentscheidungen für Anrufpläne sowie weitere Überlegungen beschrieben, die Sie basierend auf den Anforderungen Ihrer Organisation möglicherweise konfigurieren möchten. Sie sollten auch [Cloud-VoIP in Microsoft Teams](cloud-voice-landing-page.md) lesen, um weitere Informationen zu den Cloud-sprach angeboten von Microsoft zu erhalten.
 

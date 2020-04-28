@@ -10,21 +10,22 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Erfahren Sie, wie Sie die Dienststatus Berichterstattung in Ihrer Team Einführung verwenden können.
+description: Erfahren Sie, wie Sie in Ihrer Teams-Einführung Dienst Integritätsprüfungen verwenden können, um Einblicke in die Nutzung, die Gesundheit, die Fähigkeit/Projektplanung und andere Updates zu vermitteln.
 f1.keywords:
 - CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 930bed20da33fa49ae322af69f7756597e11f1fe
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1279d9f9d9b8afc66dc64ac9ded524d1340c2a1f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837735"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905077"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Planen von Überprüfungen der Dienstintegrität für Ihre Microsoft Teams-Einführung
 

@@ -10,19 +10,20 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: bjwhalen
 search.appverid: MET150
-description: Dieser Artikel soll Ihnen dabei helfen, den Koexistenzmodus zu wählen und andere Koexistenzeinstellungen festzulegen.
+description: Hier erfahren Sie, wie Sie die Koexistenz-und Aktualisierungseinstellungen für alle Benutzer in Ihrer Organisation gleichzeitig oder für einen einzelnen Benutzer oder eine Gruppe von Benutzern in Ihrer Organisation festlegen.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8cf8b0400ae924924d73394be0ca4deabcdeb9e
-ms.sourcegitcommit: 0fa50d1cf354d79fbaf16b6aaec60e8d3ab852e8
+ms.openlocfilehash: 245e22c9a5deb518617ff547c4cc2f590d9ea1e6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43579611"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905557"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Festlegen Ihrer Einstellungen für Koexistenz und Upgrade
 

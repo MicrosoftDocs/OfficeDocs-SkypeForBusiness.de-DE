@@ -13,15 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Konfigurieren dynamischer Notrufe
+description: Hier erfahren Sie, wie Sie die Microsoft-Anrufpläne und die dynamische Notruffunktion für das direkte Routing des Telefonsystems konfigurieren.
+ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b22c6cec20e42ac33b15c53a49477b36a35fbe9
-ms.sourcegitcommit: 5fbb57c5f0692afcb8e65516c63b96814f51ca65
+ms.openlocfilehash: 92862eb960722ac2becbe216cdec5281282106b5
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417590"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905887"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -61,7 +62,7 @@ Die Möglichkeit zur automatischen Weiterleitung an den entsprechenden öffentli
 
 Weitere Informationen zu Notrufen – einschließlich Informationen zu Notfalladressen und Routing von Notrufen, Informationen zu Ländern und Informationen zu Netzwerkeinstellungen und Netzwerktopologie – finden Sie in den folgenden Themen:
 
-- [Notfallanrufe verwalten](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Verwalten von Notrufen](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Verwalten von Netzwerkeinstellungen für Cloud-Sprachfeatures](cloud-voice-network-settings.md)
 - [Verwalten Ihrer Netzwerktopologie für Cloud Voice-Features](manage-your-network-topology.md)
 
@@ -96,7 +97,7 @@ Weitere Informationen zum Konfigurieren von Notfalladressen finden Sie unter [Hi
 
 Netzwerkeinstellungen werden verwendet, um den Standort eines Teams-Clients zu ermitteln und dynamisch Notruf Richtlinien und einen Notfall Standort abzurufen. Sie können die Netzwerkeinstellungen so konfigurieren, wie Ihre Organisation Notrufe tätigen möchte.
 
-Zu den Netzwerkeinstellungen gehören Websites, die eine Sammlung von Subnetzen enthalten – diese werden ausschließlich zur dynamischen Richtlinienzuweisung für Benutzer verwendet.  So kann beispielsweise eine TeamsEmergencyCalling-Richtlinie und eine TeamsEmergencyCallRouting-Richtlinie der "Redmond-Website" zugewiesen werden, damit jeder Benutzer, der von zu Hause oder einem anderen Microsoft-Standort durchwandert, mit Notrufnummern, Routing und Security Desk konfiguriert ist. spezifisch für Redmond.  
+Zu den Netzwerkeinstellungen gehören Websites, die eine Sammlung von Subnetzen enthalten – diese werden ausschließlich zur dynamischen Richtlinienzuweisung für Benutzer verwendet.  So kann beispielsweise eine TeamsEmergencyCalling-Richtlinie und eine TeamsEmergencyCallRouting-Richtlinie der "Redmond-Website" zugewiesen werden, damit jeder Benutzer, der von zu Hause oder einem anderen Microsoft-Standort durchwandert, mit Notrufnummern, Routing und Security Desk für Redmond konfiguriert ist.  
 
 >[!Note]
 >Subnets können auch in Lis definiert werden und können einem Notfall Standort zugeordnet werden.  
@@ -204,7 +205,7 @@ Einige Notverwaltungsdienste (Emergency Routing Service Providers, ERSPs) in den
 
  ## <a name="related-topics"></a>Verwandte Themen
 
-- [Notfallanrufe verwalten](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Verwalten von Notrufen](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Verwalten von Notruf-Richtlinien](manage-emergency-calling-policies.md)
 - [Verwalten von Notfall Anrufrouting Richtlinien](manage-emergency-call-routing-policies.md)
 - [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-remove-emergency-location-organization.md)

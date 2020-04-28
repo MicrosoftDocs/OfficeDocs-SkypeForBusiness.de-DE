@@ -11,19 +11,20 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Hier erfahren Sie, wie Sie mithilfe von Microsoft Teams-Vorlagen ein Team mit vordefinierten Kanälen erstellen.
+description: Hier erfahren Sie, wie Sie mithilfe von Teams-Vorlagen Zusammenarbeits Räume mit Kanälen für verschiedene Themen erstellen und apps vorinstallieren, um Inhalte und Dienste bereitzustellen.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 585d3241506dacf60eb02b1d7a3e97cb80357026
-ms.sourcegitcommit: cfaae3ecbf853766de788b4825a86e04f68868ca
+ms.openlocfilehash: e4cdf8d489025110b47a98402a344e025b256012
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42796028"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904620"
 ---
 # <a name="get-started-with-teams-templates"></a>Erste Schritte mit Teams-Vorlagen
 
@@ -48,7 +49,7 @@ Die meisten Eigenschaften in einem Team sind im Lieferumfang enthalten und werde
 | Basis Vorlagentyp | Teammitgliedschaft |
 | Teamname | Teambild |
 | Team Beschreibung | Kanaleinstellungen |
-| Team Sichtbarkeit (öffentlich oder privat) | Verbinder |
+| Team Sichtbarkeit (öffentlich oder privat) | Connectors |
 | Team Einstellungen (beispielsweise Member, Gast, @ Erwähnungen) | Dateien und Inhalte |
 | Automatisch bevorzugter Kanal | |
 | Installierte App | |
@@ -71,10 +72,10 @@ Standardmäßig ist die Basisvorlage auf **Standard** festgesetzt, der keine zus
 | Bildung<br>Kurs Team | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Apps<ul><li>OneNote-Kurs Notizbuch (auf der Registerkarte " **Allgemein** " angeheftet) </li><li>Aufgaben-app (angeheftet an die Registerkarte " **Allgemein** ")</li></ul> Team Eigenschaften:<ul><li>Team Sichtbarkeit auf **HiddenMembership** (kann nicht außer Kraft gesetzt werden)</li></ul> |
 | Bildung<br>Mitarbeiter Team | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Apps<ul><li>OneNote-Mitarbeiter Notizbuch (auf der Registerkarte " **Allgemein** " angeheftet)</li></ul> |
 |Bildung<br>SPS-Team |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Apps<ul><li>OneNote PLC-Notizbuch (auf der Registerkarte " **Allgemein** " angeheftet)</ul></li>|
-| Retail<br>Speichern | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Kanäle<ul><li>UMSCHALT Übergabe</li><li>Lerntools</li></ul>Team Eigenschaften<ul><li>Team Sichtbarkeit auf "öffentlich" eingestellt</li></ul>Mitglieder Berechtigungen<ul><li>Verhindern, dass Mitglieder Kanäle erstellen, aktualisieren oder entfernen</li><li>Verhindern, dass Mitglieder apps hinzufügen oder entfernen</li><li>Verhindern, dass Mitglieder Connectors erstellen, aktualisieren oder entfernen</li></ul> |
+| Retail<br>Store | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Kanäle<ul><li>UMSCHALT Übergabe</li><li>Lerntools</li></ul>Team Eigenschaften<ul><li>Team Sichtbarkeit auf "öffentlich" eingestellt</li></ul>Mitglieder Berechtigungen<ul><li>Verhindern, dass Mitglieder Kanäle erstellen, aktualisieren oder entfernen</li><li>Verhindern, dass Mitglieder apps hinzufügen oder entfernen</li><li>Verhindern, dass Mitglieder Connectors erstellen, aktualisieren oder entfernen</li></ul> |
 | Retail<br>Manager-Zusammenarbeit | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Kanäle<ul><li>UMSCHALT Übergabe</li><li>Lerntools</li></ul>Team Eigenschaften:<ul><li>Team Sichtbarkeit auf "Privat" gesetzt</li></ul>Mitglieder Berechtigungen:<ul><li>Verhindern, dass Mitglieder Kanäle erstellen, aktualisieren oder entfernen</li><li>Verhindern, dass Mitglieder apps hinzufügen oder entfernen</li><li>Verhindern, dass Mitglieder Connectors erstellen, aktualisieren oder entfernen</li></ul>|
 | Im Gesundheitswesen<br>Ward |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Kanäle <ul><li>Ankündigungen\*</li><li>Kauert\*</li><li>Runden</li><li>Personal\*</li><li>Schulungen\*</li></ul>\*Automatisch bevorzugte Kanäle |
-|Im Gesundheitswesen<br>Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Kanäle<ul><li>Ankündigungen\*</li><li>Compliance\*</li><li>Freiheits</li><li>Personalwesen</li></li><li>Apotheke</li></ul>\*Automatisch bevorzugter Kanal|
+|Im Gesundheitswesen<br>Krankenhaus | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Kanäle<ul><li>Ankündigungen\*</li><li>Compliance\*</li><li>Freiheits</li><li>Personalwesen</li></li><li>Apotheke</li></ul>\*Automatisch bevorzugter Kanal|
 |||
 
 ## <a name="related-topics"></a>Verwandte Themen

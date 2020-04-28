@@ -16,12 +16,13 @@ MS.collection:
 description: Hier erfahren Sie, wie Sie den Bericht "PSTN-Nutzung von Teams" im Microsoft Teams Admin Center verwenden, um einen Überblick über die Verwendung von Anrufen und Audiokonferenzen in Ihrer Organisation zu erhalten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c35699093168f5bb0443277f65da9a8060f27b69
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 411cf551697bd1fdd0902dc2d906e1c7752cd27d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778251"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904300"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN-Nutzungsbericht
 
@@ -29,7 +30,7 @@ Der Bericht über die PSTN-Nutzung von Teams im Microsoft Teams Admin Center bie
 
 Auf der Registerkarte " **Anrufpläne** " werden Informationen einschließlich der Anzahl der Minuten angezeigt, die die Benutzer für ein-und ausgehende PSTN-Anrufe und die Kosten für diese Anrufe verwendet haben. Auf der Registerkarte **Direktes Routing** werden Informationen einschließlich der SIP-Adresse und der Anfangs-und Endzeiten des Anrufs angezeigt. Verwenden Sie die Informationen in diesem Bericht, um Einblicke in die PSTN-Nutzung in Ihrer Organisation zu gewinnen und Ihnen zu helfen, Entscheidungen zu untersuchen, zu planen und zu treffen.
 
-## <a name="view-the-report"></a>Anzeigen des Berichts
+## <a name="view-the-pstn-usage-report"></a>Anzeigen des Berichts zur PSTN-Nutzung
 
 1. Klicken Sie in der linken Navigationsleiste des Microsoft Teams admin Centers auf **Analytics & Berichte** > **Nutzungsberichte**. Wählen Sie auf der Registerkarte **Berichte anzeigen** unter **Bericht**den Eintrag **PSTN-Verwendungsbericht**aus.
 2. Wählen Sie unter **Datumsbereich**einen vordefinierten Bereich von 7 oder 28 Tage aus, oder legen Sie einen benutzerdefinierten Bereich fest, und wählen Sie dann **Bericht ausführen**aus.
@@ -79,10 +80,10 @@ Diese Felder können von den Kunden-SBC (s) stammen. Es gibt drei Formate, die S
 
 Die freigegebene Korrelations-ID ist nur in der exportierten Excel-Datei vorhanden, die Sie herunterladen, und gibt an, dass zwei oder mehr Anrufe verknüpft sind. Im folgenden werden die verschiedenen Szenarien erläutert, und wenn die freigegebene Korrelations-ID vorhanden ist.
 
-1.  PSTN-Benutzer 1 auf einem PSTN-Endpunkt mit dem Namen "Teams-Benutzer 1" im Team-Client, Anruftyp Dr_In, Korrelations-ID 57f28917-42k5-4c0c-9433-79734873f2ac, keine freigegebene Korrelations-ID.
-2.  Teams Benutzer 1 im Teams-Client mit dem Namen PSTN-Benutzer 1 auf einem PSTN-Endpunkt, Anruftyp Dr_Out 2c12b8ca-62eb-4c48-b68d-e451f518ff4, keine freigegebene Korrelations-ID.
-3.  PSTN-Benutzer 1 auf einem PSTN-Endpunkt, der als Teams-Benutzer 2 auf dem Microsoft Teams-Client bezeichnet wird, Typ Dr_In f45e9a25-9f94-46e7-A457-84f5940efde9, freigegebene Korrelations-ID f45e9a25-9f94-46e7-A457-84f5940efde9.
-4.  Vorhandener Anruf 3 mit Korrelations-ID "f45e9a25-9f94-46e7-A457-84f5940efde9". PSTN-Benutzer 1 in einem Anruf mit Teams User 2. Teams Benutzer 2 übertragen (Blind oder beratend) einen Anruf an Teams oder PSTN-Benutzer, Anruftyp Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0, freigegebene Korrelations-ID f45e9a25-9f94-46e7-A457-84f5940efde9.
+1.    PSTN-Benutzer 1 auf einem PSTN-Endpunkt mit dem Namen "Teams-Benutzer 1" im Team-Client, Anruftyp Dr_In, Korrelations-ID 57f28917-42k5-4c0c-9433-79734873f2ac, keine freigegebene Korrelations-ID.
+2.    Teams Benutzer 1 im Teams-Client mit dem Namen PSTN-Benutzer 1 auf einem PSTN-Endpunkt, Anruftyp Dr_Out 2c12b8ca-62eb-4c48-b68d-e451f518ff4, keine freigegebene Korrelations-ID.
+3.    PSTN-Benutzer 1 auf einem PSTN-Endpunkt, der als Teams-Benutzer 2 auf dem Microsoft Teams-Client bezeichnet wird, Typ Dr_In f45e9a25-9f94-46e7-A457-84f5940efde9, freigegebene Korrelations-ID f45e9a25-9f94-46e7-A457-84f5940efde9.
+4.    Vorhandener Anruf 3 mit Korrelations-ID "f45e9a25-9f94-46e7-A457-84f5940efde9". PSTN-Benutzer 1 in einem Anruf mit Teams User 2. Teams Benutzer 2 übertragen (Blind oder beratend) einen Anruf an Teams oder PSTN-Benutzer, Anruftyp Dr_Out_User_Transfer 45a1da7c-9e97-481a-8a05-3fe19a9a77e0, freigegebene Korrelations-ID f45e9a25-9f94-46e7-A457-84f5940efde9.
 
 ## <a name="exporting-the-reports"></a>Exportieren der Berichte
 Klicken Sie auf **nach Excel exportieren**, und klicken Sie dann auf der Registerkarte **Downloads** auf **herunterladen** , um den Bericht herunterzuladen, wenn er fertig ist. Der Export Vorgang kann abhängig von der Datenmenge zwischen wenigen Sekunden und einigen Minuten dauern.

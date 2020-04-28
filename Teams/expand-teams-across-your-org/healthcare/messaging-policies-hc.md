@@ -16,14 +16,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
+description: Hier erfahren Sie, wie Sie eine Richtlinie für sichere Nachrichten anpassen, die Lesebestätigungen und Prioritäts Benachrichtigungen enthalten kann.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f2b431eb28d2f475bc8abdf6ac05db760200d40e
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 95a4d258f35827d4ad30ee1e6b2938e6331efcc2
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136985"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905527"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen
 

@@ -9,22 +9,23 @@ ms.service: msteams
 audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
-description: Informationen zur Verwendung der Whiteboard-Web-App in Microsoft Teams
+description: In diesem Artikel erfahren Sie, wie Sie die Whiteboard-Web-App in Microsoft Teams verwalten und verwenden können.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdb6c4a1773996101d916c8fe11c0e46bc78b287
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: b8f17a65ca4ce10497b4f05d6b2762f1f430909b
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837515"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904957"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Verwalten des Whiteboards in Microsoft Teams
 ==========================================

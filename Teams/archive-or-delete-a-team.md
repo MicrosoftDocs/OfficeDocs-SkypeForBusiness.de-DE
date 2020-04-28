@@ -8,22 +8,23 @@ audience: admin
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: Hier erhalten Sie Informationen zum Archivieren oder endgültigen Löschen eines Teams.
+description: In diesem Artikel erfahren Sie, wie Sie ein Team in Microsoft Teams archivieren oder endgültig löschen können.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e065ddccd9781143b9c3522aa795f85ef0e118bb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3e07d851d853ee3fb57454177bed48590cdb55f3
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780714"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904967"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivieren oder Löschen eines Teams in Microsoft Teams
 ===========================================

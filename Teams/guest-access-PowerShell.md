@@ -13,15 +13,16 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Verwenden Sie PowerShell, um den Gastzugriff auf Teams in Microsoft Teams zuzulassen oder zu blockieren.
+description: Erfahren Sie, wie Sie mithilfe von PowerShell den Gastzugriff auf alle Teams oder bestimmte Teams in Microsoft Teams zulassen oder blockieren.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e15e2e70559f75cff6be97f2996dc45666f963b8
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 28d8109f772a448d61e189a6b0a8aa1c45feb5af
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776960"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902590"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Verwenden von PowerShell zum Steuern des Gastzugriffs auf ein Team
 ================================================
@@ -43,9 +44,9 @@ Wenn Sie die Gäste in Teams blockieren und Ihnen weiterhin den Zugriff auf Shar
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Verwenden Sie PowerShell zum Aktivieren oder Deaktivieren von Gastzugriff.
 
-1.  Laden Sie das Skype for Business Online PowerShell-Modul unter https://www.microsoft.com/download/details.aspx?id=39366 herunter.
+1.    Laden Sie das Skype for Business Online PowerShell-Modul unter https://www.microsoft.com/download/details.aspx?id=39366 herunter.
  
-2.  Verbinden Sie eine PowerShell-Sitzung mit dem Skype for Business Online-Endpunkt.
+2.    Verbinden Sie eine PowerShell-Sitzung mit dem Skype for Business Online-Endpunkt.
 
     ```PowerShell
     Import-Module SkypeOnlineConnector
@@ -53,7 +54,7 @@ Wenn Sie die Gäste in Teams blockieren und Ihnen weiterhin den Zugriff auf Shar
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession
     ```
-3.  Überprüfen Sie Ihre Konfiguration und wenn `AllowGuestUser` ist `$False`, verwenden Sie das Cmdlet [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) zum Einstellen auf `$True`.
+3.    Überprüfen Sie Ihre Konfiguration und wenn `AllowGuestUser` ist `$False`, verwenden Sie das Cmdlet [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) zum Einstellen auf `$True`.
 
     ```PowerShell
     Get-CsTeamsClientConfiguration

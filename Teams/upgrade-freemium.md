@@ -8,23 +8,23 @@ ms.service: msteams
 ms.reviewer: ''
 audience: admin
 search.appverid: MET150
-description: Erfahren Sie, wie Sie die ﻿kostenlose Version von Microsoft Teams aktualisieren können.
+description: Erfahren Sie, wie Sie problemlos von der kostenlosen Version von Microsoft Teams auf die Vollversion aktualisieren können, indem Sie einen Office 365-Abonnementplan für Ihre Benutzer erwerben.
 localization_priority: Normal
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
-- seo-marvel-mar2020
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a96bb03a511a776e2f7e4aded5cd79f66fe2106c
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2c760285655d9bb2557fbf981c333e1019cef379
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780444"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904450"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>Kostenloses Upgrade von Microsoft Teams auf die Abonnementversion
 ======================================================

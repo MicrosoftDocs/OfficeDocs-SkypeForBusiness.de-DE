@@ -11,25 +11,25 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
-description: Aktivieren oder Deaktivieren der Funktion für den Gastzugriff in Microsoft Teams
+description: Hier erfahren Sie, wie Sie das Feature "Gastzugriff" in Microsoft Teams als Office 365-Administrator aktivieren oder deaktivieren.
 ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5bcdbc3251820bdcee860323ad993efc8d6673c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e634c58d34787a76477591ab4262c703e5773cbe
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835645"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903790"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams
 ===================================================
 
-Standardmäßig ist der Gastzugriff deaktiviert. Als Office 365-Administrator müssen Sie den Gastzugriff für Teams aktivieren, bevor die Administratoren oder Teambesitzer Gäste hinzufügen können. Verwenden Sie die [Checkliste für den Gastzugriff](guest-access-checklist.md), um den Gastzugriff zu aktivieren. 
+Der Gastzugriff ist standardmäßig deaktiviert. Als Office 365-Administrator müssen Sie den Gastzugriff für Teams aktivieren, bevor die Administratoren oder Teambesitzer Gäste hinzufügen können. Verwenden Sie die [Checkliste für den Gastzugriff](guest-access-checklist.md), um den Gastzugriff zu aktivieren. 
 
-Nachdem Sie den Gastzugriff aktiviert haben, dauert es 2-24 Stunden, bis die Änderungen wirksam werden. Wenn ein Benutzer die Meldung "wenden Sie sich an Ihren Administrator" an, wenn er versucht, dem Team einen Gast hinzuzufügen, ist es wahrscheinlich, dass entweder der Gastzugriff nicht aktiviert wurde oder die Einstellungen noch nicht wirksam sind.
+Nachdem Sie den Gastzugriff aktiviert haben, kann es einige Stunden dauern, bis die Änderungen wirksam werden. Wenn ein Benutzer die Meldung "wenden Sie sich an Ihren Administrator" an, wenn er versucht, dem Team einen Gast hinzuzufügen, ist es wahrscheinlich, dass entweder der Gastzugriff nicht aktiviert wurde oder die Einstellungen noch nicht wirksam sind.
 
 > [!IMPORTANT]
 > Das Aktivieren des Gastzugriffs hängt von den Einstellungen in Azure Active Directory, Office 365, SharePoint Online und Teams ab. Weitere Informationen finden Sie unter [Autorisieren des Gastzugriffs in Teams](Teams-dependencies.md).
@@ -38,15 +38,15 @@ Nachdem Sie den Gastzugriff aktiviert haben, dauert es 2-24 Stunden, bis die Än
 
 ## <a name="configure-guest-access-in-the-teams-admin-center"></a>Konfigurieren des Gastzugriffs im Team Admin Center
 
-1.  Melden Sie sich beim Admin Center für Microsoft Teams an.
+1.    Melden Sie sich beim Admin Center für Microsoft Teams an.
 
-2.  Wählen Sie **Organisationsweite Einstellungen** > **Gastzugriff** aus.
+2.    Wählen Sie **Organisationsweite Einstellungen** > **Gastzugriff** aus.
 
 3. **Aktivieren Sie "** **Gastzugriff in Microsoft Teams zulassen** ".
 
     ![Schalter für „Gastzugriff in Teams ermöglichen“ ist auf „An“ eingestellt ](media/set-up-guests-image1.png)
 
-4.  Wählen Sie unter **anrufen**, **Besprechungen**und nach **richten**für jede Funktion **ein** oder **aus** , je nachdem, was Sie für Gastbenutzer zulassen möchten.
+4.    Wählen Sie unter **anrufen**, **Besprechungen**und nach **richten**für jede Funktion **ein** oder **aus** , je nachdem, was Sie für Gastbenutzer zulassen möchten.
 
     - **Private Anrufe führen**: **Aktivieren** Sie diese Einstellung, um Gästen Peer-to-Peer-Anrufe zu ermöglichen.
     - **IP-Video zulassen**: **Aktivieren** Sie diese Einstellung, damit Gäste Video in ihren Anrufen und Besprechungen verwenden dürfen.
@@ -67,7 +67,7 @@ Nachdem Sie den Gastzugriff aktiviert haben, dauert es 2-24 Stunden, bis die Än
     - **Sticker in Unterhaltungen verwenden**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung von Stickern in Unterhaltungen zu ermöglichen. 
 
 
-5.  Klicken Sie auf **Speichern**.
+5.    Klicken Sie auf **Speichern**.
 
 ## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Verwenden Sie PowerShell zum Aktivieren oder Deaktivieren von Gastzugriff.
 Lesen [Verwenden von PowerShell zum Aktivieren oder Deaktivieren des Gastzugriffs](guest-access-PowerShell.md#use-powershell-to-turn-guest-access-on-or-off)

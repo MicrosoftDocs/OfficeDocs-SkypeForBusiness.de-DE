@@ -16,13 +16,14 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: Beschreibt, wie Teams Office 365-Flows in verschiedenen Topologien verwenden.
-ms.openlocfilehash: 409af0b815c87e6d8285c3cb9a1bd8a5d61fa98b
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+description: Erfahren Sie, wie Teams Office 365-Flows in verschiedenen Topologien sowie eindeutige Team Abläufe verwenden, die für die Peer-to-Peer-Medien Kommunikation verwendet werden.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: dd0a5155766ee86bdf03219cdfcbb50cc220177d
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832825"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904987"
 ---
 # <a name="microsoft-teams-call-flows"></a>Microsoft Teams-Anrufflüsse
 
@@ -39,7 +40,7 @@ In diesem Artikel wird beschrieben, wie Teams Office 365-Anruf Flüsse in versch
 
 In diesem Artikel werden die folgenden Informationen behandelt:
 
-- **Hintergrund**aus. Bietet Hintergrundinformationen wie Netzwerke, die von Office 365 Flows möglicherweise durchlaufen werden, Arten von Datenverkehr, Verbindungs Anleitungen vom Kundennetzwerk zu Office 365-Dienstendpunkten, Interoperabilität mit Komponenten von Drittanbietern und Grundsätze, die verwendet werden. von Teams zur Auswahl von Medienströmen
+- **Hintergrund**aus. Bietet Hintergrundinformationen wie Netzwerke, die von Office 365 Flows möglicherweise durchlaufen werden, Arten von Datenverkehr, Verbindungs Anleitungen vom Kundennetzwerk zu Office 365-Dienstendpunkten, Interoperabilität mit Komponenten von Drittanbietern und Grundsätze, die von Teams zur Auswahl von Medienströmen verwendet werden.
 
 - **Anruf Flüsse in verschiedenen Topologien** Veranschaulicht die Verwendung von Anruf strömen in verschiedenen Topologien. Für jede Topologie werden im Abschnitt alle unterstützten Flows aufgelistet, und es wird gezeigt, wie diese Flüsse in mehreren Anwendungsfällen verwendet werden. Für jeden Anwendungsfall werden die Reihenfolge und die Auswahl der Datenflüsse mithilfe eines Flussdiagramms beschrieben.
 
@@ -55,7 +56,7 @@ In der Regel verfügt ein Kundennetzwerk über mehrere Netzwerkperimeter mit Fir
 
 **Internet**. Hierbei handelt es sich um das Netzwerksegment, das Teil des gesamten Netzwerks ist, das von Benutzern verwendet wird, die eine Verbindung mit Office 365 von außerhalb des Kunden Netzwerks herstellen. Sie wird auch von einigen Datenverkehr vom Kundennetzwerk zu Office 365 verwendet.
 
-**Besucht oder Gast privates Netzwerk**. Hierbei handelt es sich um das Netzwerksegment außerhalb Ihres Kunden Netzwerks, aber nicht im öffentlichen Internet, das Ihre Benutzer und ihre Gäste besuchen können (beispielsweise ein privates privates Netzwerk oder ein privates Unternehmensnetzwerk, in dem keine Teams bereitgestellt werden, in denen Ihre Benutzer und ihre Kunden , die mit den Teams-Diensten interagieren können.
+**Besucht oder Gast privates Netzwerk**. Hierbei handelt es sich um das Netzwerksegment außerhalb des Kunden Netzwerks, aber nicht im öffentlichen Internet, das Ihre Benutzer und ihre Gäste besuchen können (beispielsweise ein privates privates Netzwerk oder ein privates Unternehmensnetzwerk, in dem keine Teams bereitgestellt werden, in denen Ihre Benutzer und ihre Kunden, die mit den Team Diensten interagieren, sich möglicherweise befinden).
 
 > [!NOTE]
 > Die Konnektivität zu Office 365 ist auch auf diese Netzwerke anwendbar.
@@ -66,7 +67,7 @@ In der Regel verfügt ein Kundennetzwerk über mehrere Netzwerkperimeter mit Fir
 
 ### <a name="types-of-traffic"></a>Arten von Datenverkehr
 
-**Echt Zeit Medien**. Daten, die in RTP (Real-Time Transport Protocol) gekapselt sind und die Audio-, Video-und Bildschirmfreigabe-Arbeitslasten unterstützen. Im Allgemeinen ist der Mediendatenverkehr in hohem Maße Latenz empfindlich, daher sollten Sie diesen Datenverkehr so verwenden, dass er den direktsten Pfad ermöglicht und UDP und TCP als Transportschichtprotokoll verwendet, das der beste Transport für interaktive Echt Zeit Medien aus einer qualitätsperspektive ist. . (Beachten Sie, dass Medien als letztes Mittel TCP/IP verwenden und auch innerhalb des HTTP-Protokolls getunnelt werden können, aber aufgrund schlechter Qualitäts Auswirkungen nicht empfohlen werden.) Der RTP-Fluss wird mithilfe von SRTP gesichert, in dem nur die Nutzlast verschlüsselt ist.
+**Echt Zeit Medien**. Daten, die in RTP (Real-Time Transport Protocol) gekapselt sind und die Audio-, Video-und Bildschirmfreigabe-Arbeitslasten unterstützen. Im Allgemeinen ist der Mediendatenverkehr in hohem Maße Latenz empfindlich, daher sollten Sie diesen Datenverkehr so verwenden, dass er den direktsten Pfad ermöglicht und UDP und TCP als Transportschichtprotokoll verwendet, das der beste Transport für interaktive Echt Zeit Medien aus einer qualitätsperspektive ist. (Beachten Sie, dass Medien als letztes Mittel TCP/IP verwenden und auch innerhalb des HTTP-Protokolls getunnelt werden können, aber aufgrund schlechter Qualitäts Auswirkungen nicht empfohlen werden.) Der RTP-Fluss wird mithilfe von SRTP gesichert, in dem nur die Nutzlast verschlüsselt ist.
 
 **Signalisieren**. Die Kommunikationsverbindungzwischen dem Client und dem Server oder anderen Clients, die zum Steuern von Aktivitäten verwendet werden (beispielsweise, wenn ein Anruf initiiert wird) und Sofortnachrichten übermitteln. Die meisten Signalisierungsdaten Verkehr verwendet die HTTPS-basierten Ruhe Schnittstellen, obwohl in einigen Szenarien (beispielsweise die Verbindung zwischen Office 365 und einem Session Border Controller) SIP-Protokoll verwendet wird. Es ist wichtig zu verstehen, dass dieser Datenverkehr viel weniger anfällig für Latenz ist, aber möglicherweise Dienstausfälle oder Anruf Timeouts verursacht, wenn die Wartezeit zwischen den Endpunkten mehrere Sekunden überschreitet.
 
@@ -338,7 +339,7 @@ Beachten Sie Folgendes:
 
 Diese Topologie umfasst Teams mit direktem Telefon System-Routing.
 
-Mithilfe des direkten Routings können Sie einen öffentlichen PSTN-Dienstanbieter (Public Switched Telephone Network) verwenden, indem Sie ein unterstütztes lokales Kunden-Hardwaregerät (SBC) mit Office 365 verbinden und dann den Telefon Stamm an Dieses Gerät.
+Mithilfe des direkten Routings können Sie einen PSTN-Dienstanbieter (Public Switched Telephone Network) eines Drittanbieters verwenden, indem Sie ein unterstütztes lokales Kunden-Hardwaregerät (SBC) mit Office 365 koppeln und dann den Telefon Stamm an dieses Gerät anschließen.
 
 Zur Unterstützung dieses Szenarios muss der Kunde einen zertifizierten SBC für die direkte Weiterleitung von einem der von Microsoft zertifizierten Partner bereitstellen. Der SBC muss vom Hersteller als empfohlen konfiguriert und von Office 365 für direkten UDP-Datenverkehr geroutet werden können. Das Medium kann direkt von Teams und/oder dem Skype for Business-Client zum SBC (Bypassing des Teams-Gateways) oder durchqueren des Teams-Gateways fließen. Die Konnektivität mit dem SBC, wenn der trunk so konfiguriert ist, dass das Team-Gateway umgangen wird, basiert auf Ice, wobei SBC Ice-Lite unterstützt, während der Media-Endpunkt von Teams/Skype for Business Ice-Vollversion unterstützt.
 

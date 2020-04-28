@@ -12,18 +12,19 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
-description: Hier erfahren Sie, welche Daten und Berechtigungen Apps von Ihrer Organisation anfordern.
+description: Administratoren können erfahren, welche Daten und Berechtigungen Microsoft Teams-apps von Ihrer Organisation anfordern.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d7548d4d162310bc239c752e2bce38e725008f9
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 0f17ed779415c1dfaa731d13839d02ca971d46f1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845226"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904590"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu
 
@@ -41,7 +42,7 @@ Die unten in Großbuchstaben aufgeführten Berechtigungen, zum Beispiel RECEIVE_
 
 |    |     |
 |-----------|------------|
-| ![Ein Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Verwenden Sie die folgenden Tabellen als Leitfaden, um zu verstehen, welche Berechtigungen die apps, die Sie untersuchen, anfordern.</li></ul> |
+| ![Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Verwenden Sie die folgenden Tabellen als Leitfaden, um zu verstehen, welche Berechtigungen die apps, die Sie untersuchen, anfordern.</li></ul> |
 | ![Ein Symbol, das den nächsten Schritt darstellt](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Untersuchen Sie die APP oder den Dienst selbst, um zu entscheiden, ob Sie in Ihrer Organisation Zugriff darauf gewähren möchten. So können Bots beispielsweise Nachrichten von Benutzern senden und empfangen und – mit Ausnahme der Enterprise-Unternehmens-Bots – außerhalb der Compliance-Grenze liegen. Daher erfordert jede APP, die einen bot enthält, diese Berechtigungen und weist das Risikoprofil mindestens auf. </li></ul>|
 
 ## <a name="global-app-permissions-and-considerations"></a>Globale App-Berechtigungen und-Überlegungen
@@ -135,9 +136,9 @@ Keine (derzeit)
 
 - Das Risikoprofil einer Registerkarte ist nahezu identisch mit der Website, die auf einer Browserregister Karte ausgeführt wird. 
 
-- Eine Registerkarte ruft auch den Kontext ab, in dem Sie ausgeführt wird, einschließlich des Anmeldenamens und des UPN des aktuellen Benutzers, der Azure AD-Objekt-ID für den aktuellen Benutzer, der ID der Office 365-Gruppe, in der Sie sich befindet (sofern es sich um ein Team handelt), der Mandanten-ID. und das aktuelle Gebietsschema des Benutzers. Damit diese IDs jedoch den Informationen eines Benutzers zugeordnet werden können, muss sich der Benutzer bei Azure AD anmelden.
+- Eine Registerkarte ruft auch den Kontext ab, in dem Sie ausgeführt wird, darunter den Anmeldenamen und den UPN des aktuellen Benutzers, die Azure AD-Objekt-ID für den aktuellen Benutzer, die ID der Office 365-Gruppe, in der Sie sich befindet (sofern es sich um ein Team handelt), die Mandanten-ID und das aktuelle Gebietsschema des Benutzers. Damit diese IDs jedoch den Informationen eines Benutzers zugeordnet werden können, muss sich der Benutzer bei Azure AD anmelden.
 
-## <a name="connectors"></a>Verbinder
+## <a name="connectors"></a>Connectors
 
 Ein Connector Bucht Nachrichten in einem Kanal, wenn Ereignisse in einem externen System auftreten.
 

@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Ihre benutzerdefinierten Teams-apps von der Entwicklung zur Bereitstellung bringen.
-ms.openlocfilehash: f8c5a7dcc12bc9b3823285138d15a0ccdf11c52a
-ms.sourcegitcommit: 7093388425b34c80e444a50d062290187b80047d
+ms.openlocfilehash: dd34b96a40affc2ffd7e5ddeb6a118a122831296
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42229935"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904947"
 ---
 # <a name="manage-your-line-of-business-apps-in-microsoft-teams"></a>Verwalten Ihrer Branchen-apps in Microsoft Teams
 
@@ -126,6 +126,20 @@ Standardmäßig müssten die Benutzer diese APP finden, wenn Sie zu den Apps fü
 Um eine APP zu aktualisieren, sollten Entwickler weiterhin [Schritt 1](#step-1-develop-and-test) und [Schritt 2](#step-2-validate-in-production)folgen.
 
 Sie können die APP über den Mandanten-App-Katalog aktualisieren. Gehen Sie dazu im Microsoft Teams Admin Center zu **Teams apps** > **Verwalten von apps**. Klicken Sie in der Liste der apps auf den Namen der APP, und klicken Sie dann auf **Aktualisieren**. Dadurch wird die vorhandene App im Mandanten-App-Katalog ersetzt, und alle App-Berechtigungsrichtlinien und Richtlinien für die APP-Einrichtung bleiben für die aktualisierte APP erzwungen.
+
+### <a name="end-user-update-experience"></a>Benutzer-Update-Benutzeroberfläche
+
+In den meisten Fällen wird die neue Version nach Abschluss eines APP-Updates automatisch für Endbenutzer angezeigt. Es gibt jedoch einige Updates für das <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams-Manifest</a> , für die eine Benutzerakzeptanz erforderlich ist:
+
+* ein bot wurde hinzugefügt oder entfernt
+* eine vorhandene bot-Eigenschaft "botId" wurde geändert
+* eine vorhandene bot-Eigenschaft "isNotificationOnly" wurde geändert
+* die "supportsFiles"-Eigenschaft des bot wurde geändert
+* eine Messaging Erweiterung wurde hinzugefügt oder entfernt
+* ein neuer Connector wurde hinzugefügt
+* eine neue statische Registerkarte wurde hinzugefügt
+* eine neue konfigurierbare Registerkarte wurde hinzugefügt
+* Eigenschaften innerhalb von "webApplicationInfo" geändert
 
 ## <a name="related-apps"></a>Verwandte apps
 

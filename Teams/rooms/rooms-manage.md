@@ -13,13 +13,14 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
-description: Übersicht über das Management für Microsoft Teams-Chatrooms.
-ms.openlocfilehash: 3a56a03342ca0edb0da9dc9ed3a4cada77816bc7
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: Hier erfahren Sie, wie Sie laufende Wartungen und Vorgänge entwickeln und ausführen, um sicherzustellen, dass Ihre Microsoft Teams rooms-Systeme für Ihre Benutzer verfügbar sind.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6b63e42e1f3fa3d5540936d562aa913837103ed1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825883"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905367"
 ---
 # <a name="management-overview"></a>Verwaltung (Übersicht)
 
@@ -86,10 +87,10 @@ Weitere Informationen zur Problembehandlung und zum Administratormodus finden Si
 
 [Microsoft Teams Rooms-Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Planen von Microsoft Teams-Räumen](rooms-plan.md)
+[Plan für Microsoft Teams-Räume](rooms-plan.md)
 
-[Bereitstellen von Microsoft Teams-Räumen](rooms-deploy.md)
+[Bereitstellen von Microsoft Teams-Räume](rooms-deploy.md)
 
-[Konfigurieren einer Microsoft Teams rooms-Konsole](console.md)
+[Konfigurieren einer Konsole für Microsoft Teams-Räume](console.md)
 
 [Remoteverwaltung einer Microsoft Teams rooms-Konsoleneinstellungen mit einer XML-Konfigurationsdatei](xml-config-file.md)

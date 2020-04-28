@@ -17,12 +17,13 @@ ms.reviewer: mikedav
 description: Hier erfahren Sie, wie Sie Lizenzen für Features wie Audio-Conferencing, Telefon System und Anrufpläne zuweisen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b962a29f163a094f5b7c74f7504a5d78e310561a
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 55d85aae6540c6b5888be848ad08d686bd0da2b1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858555"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905067"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Zuweisen von Microsoft Teams-Lizenzen
 

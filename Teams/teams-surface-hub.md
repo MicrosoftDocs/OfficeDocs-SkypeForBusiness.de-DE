@@ -8,23 +8,24 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: Konfigurieren Sie die Administratoreinstellungen für Microsoft Teams für Surface Hub.
+description: Hier erfahren Sie, wie Sie die Teams für Surface Hub-App installieren und konfigurieren, damit Teams die Standardanwendung für Anrufe und Besprechungen ist.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
 - Devices
+- seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5634c4ac5e5955d099555cce4f74b57a527662e9
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 589bbfe75f0beea88066b5a6188b1d29c98ddd5f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836935"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905647"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Bereitstellen von Microsoft Teams für Surface Hub
 ======================================

@@ -18,13 +18,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
-description: Informationen zum Verwalten von Ressourcenkonten in Microsoft Teams
-ms.openlocfilehash: 9de381c1ba338c9ffc51153ac0fa1296ccb3f4a0
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+- seo-marvel-apr2020
+description: In diesem Artikel erfahren Sie, wie Sie Ressourcenkonten in Microsoft Teams erstellen, bearbeiten und verwalten können.
+ms.openlocfilehash: 07f6f15f3ed3fc1e115ae672ef1eac89b5eab12f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43750002"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905007"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
@@ -37,7 +38,7 @@ In Microsoft Teams oder Skype for Business Online ist für jede Telefonsystem-An
 > [!NOTE]
 > Dieser Artikel bezieht sich auf Microsoft Teams und Skype for Business Online. Informationen zu Ressourcenkonten, die in Skype for Business Server 2019 verwaltet werden, finden Sie unter [Konfigurieren von Ressourcenkonten](/SkypeForBusiness/hybrid/configure-onprem-ra).
 
-## <a name="overview"></a>Übersicht
+## <a name="assign-a-phone-number-to-a-phone-system-call-queue"></a>Zuweisen einer Telefonnummer zu einer Telefon System-Anrufwarteschlange
 
 Wenn Ihre Organisation bereits mindestens eine Telefonsystemlizenz verwendet, können Sie einer Telefonsystem-Anrufwarteschleife wie folgt eine Telefonnummer zuweisen:
 

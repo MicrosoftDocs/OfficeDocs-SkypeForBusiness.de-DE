@@ -18,14 +18,14 @@ appliesto:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: Hier erfahren Sie, wie Sie Audiokonferenzen mit direktem Routing in GCCH-und DoD-Umgebungen verwenden können.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6b8077e2bf376976c9906a8703ebd59a1d1cc23f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+description: Der Administrator kann sich mit der Verwendung von Audiokonferenzen in GCCH-und DoD-Umgebungen vertraut machen.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 7ded1e0aba5191449d568109b8f30762fbd5d917
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141168"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905047"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audiokonferenzen mit direktem Routing für GCC High und DoD
 

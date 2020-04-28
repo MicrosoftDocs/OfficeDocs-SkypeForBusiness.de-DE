@@ -1,5 +1,5 @@
 ---
-title: Übersicht über PowerShell für Microsoft Teams
+title: Übersicht über Teams PowerShell
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -12,17 +12,18 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-description: Hier erfahren Sie, wie Sie die PowerShell-Steuerelemente für die Verwaltung von Microsoft Teams verwenden.
+description: Erfahren Sie, wie Sie die PowerShell-Steuerelemente für die Verwaltung von Microsoft Teams verwenden, einschließlich der Strukturierung von PowerShell-Cmdlets.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5eaf04a0244e35e7d9f7deb7d8afb135b3acb2c
-ms.sourcegitcommit: c8d16d5e61d66d7b5e7391a800978b920612ea4d
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e95b3ab5bdb2b13dbd4c37eca413c865f54fde94
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42052522"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903040"
 ---
-# <a name="teams-powershell-overview"></a>Übersicht über PowerShell für Microsoft Teams
+# <a name="teams-powershell-overview"></a>Übersicht über Teams PowerShell
 
 Microsoft Teams verfügt über eine umfangreiche Reihe von Tools für IT-Administratoren, um das Produkt über das Microsoft Teams Admin Center, PowerShell-Steuerelemente und Diagramm-APIs zu verwalten. In diesem Leitfaden wird erläutert, wie wir unsere PowerShell-Cmdlets für IT-Administratoren strukturieren und Verweise auf weitere Dokumentationen bereitstellen. Beachten Sie, dass verschiedene Teams-Administratorrollen Zugriff auf verschiedene Cmdlets haben. Weitere Informationen finden Sie unter [Verwenden von Microsoft Teams-Administratorrollen zum Verwalten von Teams](using-admin-roles.md).
 

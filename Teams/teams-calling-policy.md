@@ -9,22 +9,23 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: Erfahren Sie mehr über die Anruf Richtlinieneinstellungen in Microsoft Teams.
+description: Informationen zum Erstellen, ändern und Hinzufügen von Benutzern zu benutzerdefinierten Anruf Richtlinien in Microsoft Teams sowie zu verschiedenen Anruf Richtlinieneinstellungen.
 localization_priority: Normal
 ms.custom:
-- NewAdminCenter_Update
+- ms.teamsadmincenter.callingpolicies.overview
+- seo-marvel-apr2020
 ms.collection:
 - M365-voice
-f1keywords:
-- ms.teamsadmincenter.callingpolicies.overview
+f1.keywords:
+- CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 788cc0e93b16585f1d3424d3bfa0a62693528740
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: a94bf072aa4db0ba0b3f65fb5340c22ab09581e4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972446"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914074"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Anrufrichtlinien in Microsoft Teams
 ===================================
@@ -105,6 +106,10 @@ Wenn Sie diese Einstellung **aktivieren** , werden Anrufe über das PSTN durchge
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>Busy on Busy steht während eines Anrufs zur Verfügung
 
 Busy on Busy (busy-Optionen)) ist eine neue Einstellung in Teams, die Richtlinien aufrufen, mit denen Sie konfigurieren können, wie eingehende Anrufe gehandhabt werden, wenn sich ein Benutzer bereits in einem Anruf oder einer Konferenz befindet oder ein Anruf in Wartestellung gesetzt wurde. Neue oder eingehende Anrufe können mit einem Besetztzeichen zurückgewiesen werden. Sie können die Auslastungs Optionen auf Mandantenebene oder auf Benutzerebene aktivieren. Unabhängig davon, wie Ihre besetzt-Optionen konfiguriert sind, werden Benutzer in einem Anruf oder einer Konferenz oder Personen mit einem Anruf in Wartestellung nicht daran gehindert, neue Anrufe oder Konferenzen zu initiieren. Diese Einstellung ist standardmäßig deaktiviert.
+
+### <a name="allow-music-on-hold"></a>Musik in Wartestellung zulassen
+
+Mit diesen Einstellungen können Sie die Musik im Wartebereich aktivieren oder deaktivieren, wenn ein PSTN-Anrufer in Wartestellung gesetzt wird. Sie ist standardmäßig aktiviert. Diese Einstellung gilt nicht für Funktionen von Park-und Boss-Stellvertretungen und steht derzeit nur über PowerShell zur Verfügung. 
 
 ## <a name="see-also"></a>Siehe auch
 
