@@ -20,14 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-- seo-marvel-mar2020
-description: Hier erfahren Sie, was Sie benötigen und wie Besprechungsorganisatoren mithilfe von Microsoft Teams andere Personen anrufen können.
-ms.openlocfilehash: fbba74f7d8cd25da4a96237dfc551463681eef20
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+- seo-marvel-apr2020
+description: Besprechungsorganisatoren können lernen, wie Sie mithilfe der Teams-App wählen, um andere Personen mit ihren Telefonen an derselben Besprechung teilzunehmen.
+ms.openlocfilehash: fc670995dcf5a16c79c857c217711490be82a664
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137365"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901960"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Anrufen aus einer Microsoft Teams-Besprechung, sodass andere Personen teilnehmen können
 

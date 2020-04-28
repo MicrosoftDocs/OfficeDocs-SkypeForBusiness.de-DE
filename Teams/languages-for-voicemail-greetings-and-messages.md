@@ -20,13 +20,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 'Hier erfahren Sie, welche Sprachen Sie in Skype for Business für die Standardnachrichten des Systems festlegen können. '
-ms.openlocfilehash: 78d3c53782e83ae191983bd8d7af2f1f5072f1df
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+- seo-marvel-apr2020
+description: Informieren Sie sich, welche Sprachen Sie in Skype for Business für die standardmäßigen Systemnachrichten und Voicemail-Grußformeln festlegen können.
+ms.openlocfilehash: e5158c7b313ad13abbd370550c38f54c8df04d29
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836585"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904520"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Sprachen für Voicemail-Ansagen und -nachrichten
 
@@ -39,13 +40,13 @@ Um die Sprache zu ändern, die Skype for Business für System-Voicemail-Ansagen 
 |**Sprache** <br/> |**Land/Region** <br/> |**Sprachcode** <br/> |**Für Benutzer in E-Mails sichtbar?** <br/> |**Verfügbar bei Anrufen des Benutzers?** <br/> |**Transkription verfügbar?** <br/> |
 |Arabisch <br/> |Ägypten  <br/> |ar-EG  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |Katalanisch  <br/> |Katalanisch  <br/> |ca-ES  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Chinesisch (vereinfacht)  <br/> |China  <br/> |zh-hans  <br/> |Ja   <br/> |Ja  <br/> |Ja  <br/> |
+|Chinesisch (vereinfacht)  <br/> |China  <br/> |zh-hans  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Chinesisch (Hongkong SAR)  <br/> |China  <br/> |zh-hk  <br/> |Ja, verwendet wird aber Chinesisch (traditionell) (zh-hant).  <br/> | Ja <br/> |Ja, verwendet wird aber Chinesisch (traditionell) (zh-hant).  <br/> |
 |Chinesisch (traditionell)  <br/> |Taiwan  <br/> |zh-hant  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |Kroatisch<br/> |Kroatien  <br/> |hr-HR  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Tschechisch <br/> |Tschechische Republik  <br/> |cs-CZ  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
-|Dänisch  <br/> |Dänemark  <br/> |da-DK  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
-|Niederländisch  <br/> |Niederlande  <br/> |nl-NL  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
+|Tschechisch <br/> |Tschechische Republik  <br/> |cs-CZ  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
+|Dänisch  <br/> |Dänemark  <br/> |da-DK  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
+|Niederländisch  <br/> |Niederlande  <br/> |nl-NL  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |Englisch  <br/> |Australien  <br/> |en-AU  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |Ja  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |
 |Englisch  <br/> |Kanada  <br/> |en-CA  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |Ja  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |
 |Englisch  <br/> |Indien  <br/> |en-IN  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |Ja  <br/> |Ja, verwendet wird aber Englisch (USA) (en-US).  <br/> |
@@ -57,7 +58,7 @@ Um die Sprache zu ändern, die Skype for Business für System-Voicemail-Ansagen 
 |Deutsch  <br/> |Deutschland  <br/> |de-DE  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Griechisch <br/> |Griechenland  <br/> |el-GR  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |Ungarisch <br/> |Ungarn  <br/> |hu-HU  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Indonesisch <br/> |Indonesien  <br/> |id-ID  <br/> |Ja   <br/> |Ja  <br/> |Nein  <br/> |
+|Indonesisch <br/> |Indonesien  <br/> |id-ID  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
 |Italienisch  <br/> |Italien  <br/> |it-IT  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Japanisch  <br/> |Japan  <br/> |ja-JP  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
 |Koreanisch  <br/> |Koreanisch  <br/> |ko-KR  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |

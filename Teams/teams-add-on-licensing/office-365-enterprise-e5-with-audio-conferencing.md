@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Erfahren Sie mehr über Add-on-Lizenzen, Features und Anleitungen zum Kauf von Office 365 Enterprise E5-Plänen. '
-ms.openlocfilehash: c5c205a6084b017a1085bf49a10df04e139bfc56
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+- seo-marvel-apr2020
+description: Erfahren Sie mehr über Add-on-Lizenzen, deren Funktionen und wie Sie diese Lizenzen für Office 365 Enterprise E5-Pläne erwerben.
+ms.openlocfilehash: 06559857143f04714acd0a39064fc4a9c12c04ab
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826533"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904707"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 

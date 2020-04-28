@@ -8,20 +8,21 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Informationen zur dynamischen Teammitgliedschaft auf Grundlage von Aad.
+description: Erfahren Sie, wie Microsoft Teams mithilfe der dynamischen Mitgliedschaft Teams unterstützt, die mit Office 365-Gruppen verknüpft sind.
 f1.keywords:
 - NOCSH
 localization_priority: Normal
+ms.custom: seo-marvel-apr2020
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68a7b26fa9668685fc9082ecdb202b6f589e0f4f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d325ee076d29ddfe50fd6193ec5755bf2bb51b82
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780184"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905797"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Übersicht über dynamische Mitgliedschaft für Teams
 
@@ -40,7 +41,7 @@ Microsoft Teams kann zwischen ein paar Minuten und bis zu zwei Stunden dauern, u
 > - Regeln können definieren, wer ein Teammitglied ist, aber nicht, wer ein Teambesitzer ist.
 > - Aktuelle Grenzwerte für Team-und Kanal Größen finden Sie unter [Grenzwerte und Spezifikationen für Microsoft Teams](limits-specifications-teams.md) .
 > - Besitzer können Benutzer nicht als Mitglieder des Teams hinzufügen oder entfernen, da Mitglieder durch dynamische Gruppenregeln definiert werden.
-> - Mitglieder können Teams nicht von dynamischen Gruppen zurücklassen.
+> -    Mitglieder können Teams nicht von dynamischen Gruppen zurücklassen.
 
 
 ## <a name="creating-and-managing-an-office-365-group-with-dynamic-membership"></a>Erstellen und Verwalten einer Office 365-Gruppe mit dynamischer Mitgliedschaft

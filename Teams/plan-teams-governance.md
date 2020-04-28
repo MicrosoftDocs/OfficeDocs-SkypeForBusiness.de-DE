@@ -8,21 +8,22 @@ ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Hier erfahren Sie, wie Sie die Implementierung von Governance-Funktionen in Teams planen.
+description: In diesem Artikel erfahren Sie, wie Sie die Implementierung von Governance-Funktionen in Teams planen können.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
+ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7fd782df443504a20a6010f07ac15b9078e570a7
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a196dfee988a41a5d8145d9b6256d1df6e714133
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780204"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905827"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planen der Governance in Teams.
 

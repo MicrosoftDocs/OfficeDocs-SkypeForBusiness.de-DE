@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen von Microsoft Teams-Räumen
+title: Bereitstellen von Microsoft Teams-Räume
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,15 +12,15 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: Lesen Sie diesen Artikel, um Informationen zum Bereitstellen von Microsoft Teams-Räumen zu erhalten.
-ms.openlocfilehash: 650302d6d952a59c1cc460e2cdf8758cfb0fcd41
-ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
+description: In diesem Artikel erfahren Sie, wie Sie Microsoft Teams-Räume, einschließlich der Bereitstellungsphasen, bereitstellen.
+ms.openlocfilehash: cf5ba9614426c59412c53b7e0e9420ca09ef6267
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41863346"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905407"
 ---
 # <a name="deployment-overview"></a>Übersicht über die Bereitstellung
 
@@ -83,7 +83,7 @@ _Beispiel für die Planning-Tabelle des Microsoft Teams rooms-servicekontos_
 | **Standort**  | **Name des Raums** | **Zimmerkategorie** | **Zukünftige Raumfunktionen**                                                 | **Microsoft Teams rooms-Konto Features**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Londoner HQ | Curie         | Mittel        | 1 Bildschirm, Audio-und Video plus Präsentation <br>Zugriff auf Einwahlkonferenzen<br> PSTN-Zugriff  | Aktiviert für Skype for Business, aktiviert für Exchange (Ressourcenpostfach) <br>Für Audiokonferenzen aktiviert <br>Für Telefon System aktiviert |
-| Sydney HQ | Hill          | Große         | 2 Bildschirme, Audio-und Video plus Präsentation<br>Zugriff auf Einwahlkonferenzen<br> PSTN-Zugriff  | Aktiviert für Skype for Business, aktiviert für Exchange (Ressourcenpostfach)<br> Für Audiokonferenzen aktiviert <br>Für Telefon System aktiviert |
+| Sydney HQ | Hill          | Groß         | 2 Bildschirme, Audio-und Video plus Präsentation<br>Zugriff auf Einwahlkonferenzen<br> PSTN-Zugriff  | Aktiviert für Skype for Business, aktiviert für Exchange (Ressourcenpostfach)<br> Für Audiokonferenzen aktiviert <br>Für Telefon System aktiviert |
 
 
 ### <a name="prepare-to-host-microsoft-teams-rooms-machine-and-service-accounts-optional"></a>Vorbereiten des Hostens von Microsoft Teams rooms-Maschinen-und Dienstkonten (optional)
@@ -138,7 +138,7 @@ Wenn Sie die Bereitstellung von Microsoft Teams-Räumen planen, haben Sie eine R
 | Bereitstellen von mehr als 50 Microsoft Teams rooms-Geräten, Bereitstellen von Geräten von mehr als einem Anbieter oder Anfordern von organisationsspezifischen Agents als Teil der Bereitstellung. | Verwenden Sie eine auf Aufgaben Sequenzer basierende Software-und Verteilungsplattform, wie etwa den [Microsoft Endpoint Configuration Manager](rooms-scale.md).  |
 
 
-**Pro-Tipp** – jeder Microsoft Teams-Chatroom muss über einen gültigen und eindeutigen Computernamen in Ihrem Netzwerk verfügen. Viele Überwachungs-und Warnungssysteme zeigen den Computernamen als Schlüsselbezeichner an, daher ist es wichtig, eine Benennungskonvention für Microsoft Teams rooms-Bereitstellungen zu entwickeln, mit deren Hilfe das Supportpersonal problemlos nach den gekennzeichneten Microsoft Teams-Räumen suchen kann. eine Aktion erforderlich ist. Ein Beispiel ist möglicherweise die Verwendung eines Musters des MTR-*Site*-*Room Name* (MTR-Lon-Curie). 
+**Pro-Tipp** – jeder Microsoft Teams-Chatroom muss über einen gültigen und eindeutigen Computernamen in Ihrem Netzwerk verfügen. Viele Überwachungs-und Warnungssysteme zeigen den Computernamen als Schlüsselbezeichner an, daher ist es wichtig, eine Benennungskonvention für Microsoft Teams rooms-Bereitstellungen zu entwickeln, mit deren Hilfe das Supportpersonal problemlos nach den Microsoft Teams-Räumen suchen kann, die als erforderlich gekennzeichnet sind. Ein Beispiel ist möglicherweise die Verwendung eines Musters des MTR-*Site*-*Room Name* (MTR-Lon-Curie). 
 
 Als Teil der Bereitstellung müssen Sie auch Ihre Strategie für die Verwaltung und Konfiguration der [lokalen Konten](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) in Frage stellen, die vom Installationsprogramm für Microsoft Teams rooms erstellt werden.
 
@@ -167,11 +167,11 @@ _Beispiel Bereitstellungs Tabelle_
 | **Standort**  | **Name des Raums** | **Zimmerkategorie** | **Microsoft Teams rooms-System**  | **Peripheriegeräte**  | **Microsoft Teams rooms-Computername**  | **Ressourcenkonto für Microsoft Teams rooms**  |
 |-----------|---------------|---------------|-----------------------------------|------------------|------------------------------------------|---------------------------------------------|
 | Londoner HQ | Curie         | Mittel        |                                   |                  |                                          |                                             |
-| Sydney HQ | Hill          | Große         |                                   |                  |                                          |                                             |
+| Sydney HQ | Hill          | Groß         |                                   |                  |                                          |                                             |
 
 ### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Microsoft Teams rooms-Konfiguration der Anwendungs-und Peripheriegeräte 
 
-Nachdem jedes Microsoft Teams rooms-System physisch bereitgestellt wurde und die unterstützten Peripheriegeräte verbunden sind, müssen Sie die Microsoft Teams rooms-Anwendung so konfigurieren, dass das zuvor erstellte Ressourcenkonto und Kennwort für Microsoft Teams rooms zugewiesen wird. , um das Microsoft Teams rooms-System für die Anmeldung bei Microsoft Teams oder Skype for Business und Exchange zu aktivieren. Der Schlüssel zur Nutzung von zertifizierten USB-Audio-und-Video-Peripheriegeräten, die an anderer Stelle im Dokument miteinander verbunden sind. Wenn Sie dies nicht tun, kann dies zu einem unvorhersehbaren Verhalten führen. 
+Nachdem jedes Microsoft Teams rooms-System physisch bereitgestellt wurde und die unterstützten Peripheriegeräte verbunden sind, müssen Sie die Microsoft Teams rooms-Anwendung so konfigurieren, dass das zuvor erstellte Microsoft Teams rooms-Ressourcenkonto und-Kennwort zugewiesen wird, um das Microsoft Teams rooms-System für die Anmeldung bei Microsoft Teams oder Skype for Business und Exchange zu aktivieren. Der Schlüssel zur Nutzung von zertifizierten USB-Audio-und-Video-Peripheriegeräten, die an anderer Stelle im Dokument miteinander verbunden sind. Wenn Sie dies nicht tun, kann dies zu einem unvorhersehbaren Verhalten führen. 
 
 Sie können jedes Microsoft Teams Room-System manuell konfigurieren. Alternativ können Sie eine zentral gespeicherte XML-Konfigurationsdatei für Microsoft Teams-Räume verwenden, um die Anwendungseinstellungen zu verwalten und ein Start-GPO-Skript zu nutzen, um die gewünschte Konfiguration jedes Mal erneut anzuwenden, wenn die Microsoft Teams rooms-System bootet. 
 
@@ -199,6 +199,6 @@ _Beispiel für eine Anlagentabelle_
 | **Standort**  | **Name des Raums** | **Zimmerkategorie** | **Microsoft Teams rooms Serial-Nr.**  | **Peripheriegeräte/serielle Nummern/Anschlüsse**  | **Microsoft Teams rooms-Computername**  | **Microsoft Teams rooms-Dienstkonto**  | **Bereitstellungsdatum** |
 |-----------|---------------|---------------|------------------------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|-------------------|
 | Londoner HQ | Curie         | Mittel        |                                          |                                          |                                          |                                            |                   |
-| Sydney HQ | Hill          | Große         |                                          |                                          |                                          |                                            |                   |
+| Sydney HQ | Hill          | Groß         |                                          |                                          |                                          |                                            |                   |
 
 

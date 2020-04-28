@@ -11,19 +11,20 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: Erfahren Sie, wie Sie mithilfe von Teams-Vorlagen Teamstrukturen erstellen, die für den Einzelhandel entwickelt wurden.
+description: Hier erfahren Sie, wie Sie mithilfe von Teams-Vorlagen Teamstrukturen erstellen, die für Einzelhändler benötigt werden, indem Sie vordefinierte Einstellungen, Kanäle und vorinstallierte apps bereitstellen.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec16f919bad5ed696741664836aa3d7127837c5a
-ms.sourcegitcommit: 92a278c0145798266ecbe052e645b2259bcbd62d
+ms.openlocfilehash: 4477d42cf7036ac93d79684407ee97b7b9e9b900
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42892365"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904660"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Erste Schritte mit Microsoft Teams-Vorlagen im Einzelhandel 
 
@@ -63,7 +64,7 @@ Die Vorlage "Manager-Zusammenarbeit" ist eine weitere der Teamvorlagen, die für
 
 Empfohlene Vorgehensweisen zum Anpassen der Vorlage für die Manager-Zusammenarbeit für Ihre Organisation:
 
-- Wenn Ihre Organisation über interne Websites (beispielsweise eine SharePoint-Website) verfügt, die für Manager relevant sind, sollten Sie Sie als Registerkarten in einem relevanten Teamkanal fixieren ( [hier](get-started-with-teams-templates.md) finden Sie Anweisungen dazu unter Dokumentation).
+- Wenn Ihre Organisation über interne Websites (beispielsweise eine SharePoint-Website) verfügt, die für Manager relevant sind, sollten Sie Sie in einem relevanten Teamkanal als Tabstopps anheften. Anweisungen hierzu finden Sie in der [Dokumentation zu Microsoft Teams-Vorlagen](get-started-with-teams-templates.md) .
 
 ## <a name="how-to-use-first-party-templates"></a>Verwenden von Vorlagen für Erstanbieter
 

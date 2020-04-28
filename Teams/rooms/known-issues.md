@@ -12,13 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: Dieser Artikel erläutert die bekannten Probleme für Microsoft Teams Rooms nach Funktionsbereich.
-ms.openlocfilehash: e0b22d55de5fcf2fd49cf795497f2cb26c1952cf
-ms.sourcegitcommit: 708270f1fecab6b7b44345d57a8e12bc36d19c8b
+description: Der Administrator kann eine Liste der bekannten Probleme in Microsoft Teams-Räumen kennenlernen, einschließlich Update, Benutzeroberfläche, Hardware sowie Einschränkungen und erwarteten Verhaltensweisen.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d8f7dcd6453458885a35bdcf7b39e729cc776f5a
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102376"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905417"
 ---
 # <a name="known-issues"></a>Bekannte Probleme 
  

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 849d54b5bbdab228d4d91329894da3cdf993017b
-ms.sourcegitcommit: 5d64e30a1984a4b1d9ff36e2e1721cb4bbf9e450
+ms.openlocfilehash: 597dfa4b2184272c96843cca1ed7c7b79e4d3667
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42706605"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902270"
 ---
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Wählen Sie Ihre Upgrade-Reise von Skype for Business zu Teams aus.
 
@@ -101,8 +101,8 @@ In der folgenden Tabelle sind die Teams im Modus "Inseln" und im TeamsOnly-Modus
 
 | Teams-Erfahrung | Im Modus "Inseln" | Im TeamsOnly-Modus |
 |:------------------ | :------------------- | :------------------ |
-| Eingehende Chats und eingegangene Anrufe in:|  Teams oder Skype for Business | Microsoft Teams |
-| Empfangene PSTN-Anrufe: | Skype for Business <br>(Die Verwendung der PSTN-Funktionalität in Teams wird im Modus "Inseln" nicht unterstützt.)     | Microsoft Teams |   
+| Eingehende Chats und eingegangene Anrufe in:|  Teams oder Skype for Business | Teams |
+| Empfangene PSTN-Anrufe: | Skype for Business <br>(Die Verwendung der PSTN-Funktionalität in Teams wird im Modus "Inseln" nicht unterstützt.)     | Teams |   
  |Anwesenheit    | Die Anwesenheit in Skype for Business und Teams ist unabhängig. Benutzer können je nach verwendetem Client unterschiedliche Zustände für denselben Inseln-Benutzer sehen. | Der Anwesenheitsstatus basiert ausschließlich auf der Aktivität des Benutzers in Teams. Alle anderen Benutzer, unabhängig davon, welchen Client Sie verwenden, sehen diesen Anwesenheitsstatus. | 
  | Besprechungsplanung    | Benutzer können Besprechungen entweder in Teams oder in Skype for Business planen. Beide Add-Ins werden in Outlook angezeigt.    |     Benutzer planen nur Besprechungen in Teams. In Outlook steht nur das Team-Add-in zur Verfügung. | 
 
@@ -148,7 +148,7 @@ Alternativ kann der Administrator zunächst nur die Besprechungsplanung in Teams
 |Eingehende Chats und VoIP-Anrufe von Benutzern in Ihrer Organisation erhalten in:     | Skype for Business        | Skype for Business       | Teams        |
 |Empfangene PSTN-Anrufe:     | Skype for Business        |Skype for Business         | Teams        |
 |Anwesenheit     | Skype for Business        |Skype for Business         | Teams        |
-|Besprechungsplanung     | Skype for Business         | Microsoft Teams        | Microsoft Teams        |
+|Besprechungsplanung     | Skype for Business         | Teams        | Microsoft Teams        |
 
 
 In der folgenden Tabelle sind die vor-und Nachteile der Verwendung von Skype for Business-Modi als Übergangsschritt in Richtung TeamsOnly-Modus zusammengefasst.

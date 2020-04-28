@@ -16,14 +16,14 @@ appliesto:
 hideEdit: true
 f1.keywords:
 - NOCSH
-description: Microsoft arbeitet mit ausgewählten SBC-Anbietern zusammen, um ihre SBCs für den Einsatz mit direktem Routing zu zertifizieren.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec7dacf18c27eb6aafbb29adc2ce618e9db07e68
-ms.sourcegitcommit: 0fdc60840f45ff5b0a39a8ec4a21138f6cab49c9
+description: Der Administrator kann erfahren, welche Session Border Controllers (SBCS) für die direkte Weiterleitung zertifiziert wurden.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 4d0a4f5846b120559b2fbaea97e191f1740ad4be
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43160044"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901830"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Liste der für direktes Routing zertifizierten Session Border Controller
 

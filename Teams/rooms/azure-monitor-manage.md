@@ -14,13 +14,13 @@ ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel wird erläutert, wie Sie Microsoft Teams rooms-Geräte auf integrierte Weise mithilfe von Azure Monitor verwalten.
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8ddc76c43bf3aff42312f18ed35fc7aec9691edb
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 74c4ba537adeeeffbc7f3f3ca1cfba7481dff6fb
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43137590"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905457"
 ---
 # <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Verwalten von Microsoft Teams rooms-Geräten mit Azure Monitor
 
@@ -44,7 +44,7 @@ Wenn Sie diese Ereignisbeschreibungen verstehen, werden Sie schnell über Proble
 | 3001  <br> Error-Ereignis  | Hierbei handelt es sich um ein Hardwarefehler Ereignis. Die Microsoft Teams rooms-App verfügt über einen Prozess, der alle 5 Minuten den Zustand der verbundenen Hardwarekomponenten (Front of room, Mikrofon, Lautsprecher, Kamera) überprüft. Wenn eine oder mehrere Komponentenfehler Haft sind, schreibt Sie die Ereignis 3001 in das Ereignisprotokoll. Dieses Ereignis wird alle 5 Minuten geschrieben, bis das Problem mit dem Gerät behoben ist.   | {"Description": " **Front of room Display Status: ungesund.** Configured display count is 2. Real display count is 0. **Conference Microphone status : Unhealthy.** Conference Speaker status : Healthy. Default Speaker status : Healthy. Camera Status: Healthy. "," ResourceState ":" unhealthd "," OperationName ":" HardwareCheckEngine "," OperationResult ":" Fail "," OS ":" Windows 10 "," OSVersion ":" 10.0.14393.1198 "," Alias ":<span></span>" alias @contoso. com ";" DisplayName ":" Yosemite-Konferenzraum "," appVersion ":" 2.0.58.0 ";" IPv4Address ":" 10.10.10.10 ";" IPv6 ":" IPv6 ";" IPv4Address2 ":" 10.10.10.10 "} <br><br>  Die Hardware-Peripheriegeräte werden entweder als „Healthy“ (Fehlerfrei) oder „Unhealthy“ (Fehlerhaft) angezeigt. <br> In diesem Beispiel sind zwei Front-of-room-anzeigen konfiguriert, die derzeit nicht verfügbar sind. Der Status des Konferenz Mikrofons ist unschädlich, was mehrere mögliche Ursachen haben kann. Da mindestens eine Ressource die Prüfung nicht bestanden hat, wird die ResourceState als fehlerhaft aufgelistet. Senden Sie einen Techniker zur weiteren Untersuchung. |
 | 4000  <br> Informationen  <br> | Dies ist ein App-Neustartereignis. Immer, wenn die App neu gestartet wird, wird dieses Ereignis im Windows-Fehlerprotokoll protokolliert.  <br> | {"Description": "App-Neustarts."; "ResourceState": "fehlerfrei", "OperationName": "Restart", "OperationResult": "Pass", "OS": "Windows 10", "OSVersion": "10.0.14393.693", "Alias":<span></span>"Alias @Domain. com"; "DisplayName": "Anzeige Name"; "appVersion": "1.0.38.0"; "IPv4Address": "10.10.10.10"; "IPv6": "IP-v6-Adresse"} <br><br> Die APP kann aus verschiedenen Gründen neu gestartet werden. Vergleichen Sie die Häufigkeit des Neustarts von Geräten im gleichen Gebäude und in verschiedenen Gebäuden. Beachten Sie bekannte Probleme wie Leistungsschwankungen und-Ausfälle, da dies Anhaltspunkte für Infrastrukturprobleme liefern kann.|
 
-## <a name="see-also"></a>Siehe auch
+## <a name="related-topics"></a>Verwandte Themen
  
 
 [Planen der Verwaltung von Microsoft Teams Rooms mit Azure Monitor](azure-monitor-plan.md)

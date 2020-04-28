@@ -11,20 +11,21 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie das Netzwerktest-Begleittool herunterladen und verwenden.
+description: Hier erfahren Sie, wie Sie das Tool Netzwerktest-Begleit Tools herunterladen und verwenden, um Ihre Netzwerkqualität und ihre Verbindung zu testen.
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
+- seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: a9fffea969ea1448bdf8f2a076dbef6756765e20
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: f70e3db61db45897dbb9877bb67b7471ff26d060
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780024"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905157"
 ---
 <a name="use-the-network-testing-companion"></a>Verwenden des Netzwerktest-Begleiters
 =================================

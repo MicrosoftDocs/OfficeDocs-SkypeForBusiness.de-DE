@@ -18,13 +18,14 @@ localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: Erfahren Sie mehr über Add-on-Lizenzen, Features und Anleitungen zum Kauf von Microsoft 365-Apps für Unternehmen.
-ms.openlocfilehash: e80ccd6a32b9eec9a0ba8973d11acaea7abc3ffc
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Informieren Sie sich über Add-on-Lizenzen, deren spezifische Features und Informationen zum Kauf dieser Lizenzen für Microsoft 365-Apps für Unternehmen.
+ms.openlocfilehash: b8183276354c41a9f75336b0e4a4e371cc8e55df
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779934"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904697"
 ---
 # <a name="microsoft-365-apps-for-enterprise"></a>Microsoft 365-Apps für Unternehmen
 

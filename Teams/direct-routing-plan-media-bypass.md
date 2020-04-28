@@ -15,13 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: In diesem Thema erfahren Sie, wie Sie die medienumgehung mit dem direkten Routing des Telefonsystems planen.
-ms.openlocfilehash: c40840e2169a67172f006a0f0910c715feb40253
-ms.sourcegitcommit: bb88ac0c9489bb47957e5ef1074b5df3126b6fdb
+description: Hier erfahren Sie, wie Sie die medienumgehung mit dem direkt Routing von Telefonsystemen planen, mit dem Sie den Pfad des Medien Verkehrs verkürzen und die Leistung verbessern können.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 316e94a2baafcecc9fb690f3d836e7c96c0b30ea
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42265640"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901840"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -78,7 +79,7 @@ Das folgende Diagramm zeigt den Anruffluss, wenn die medienumgehung aktiviert is
 
 Im folgenden wird der Anruffluss beschrieben, wenn der Benutzer keinen Zugriff auf die öffentliche IP-Adresse des SBC hat. 
 
-Angenommen, der Benutzer ist extern, und der mandantenadministrator hat entschieden, die öffentliche IP-Adresse des SBC nicht für jeden im Internet, sondern nur für die Microsoft-Cloud zu öffnen. Die internen Komponenten des Datenverkehrs können über die Teams-Transport-Relays fließen. Dies ist die empfohlene Konfiguration für Benutzer außerhalb des Unternehmensnetzwerks. Beachten Sie dabei Folgendes:
+Angenommen, der Benutzer ist extern, und der mandantenadministrator hat entschieden, die öffentliche IP-Adresse des SBC nicht für jeden im Internet, sondern nur für die Microsoft-Cloud zu öffnen. Die internen Komponenten des Datenverkehrs können über die Teams-Transport-Relays fließen. Dies ist die empfohlene Konfiguration für Benutzer außerhalb des Unternehmensnetzwerks. Berücksichtigen Sie dabei Folgendes:
 
 - Es werden Transport-Relays für Teams verwendet.
 
@@ -319,7 +320,7 @@ UDP/SRTP | Medienprozessor | Sbchttps | 49 152 – 53 247    | Im SBC definiert 
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Konfigurieren separater Trunks für medienumgehung und nicht medienumgehung  
 
-Wenn Sie von einer nicht-medienumgehung zur medienumgehung migrieren und die Funktionalität vor dem Migrieren aller Nutzungen zur medienumgehung bestätigen möchten, können Sie einen separaten trunk und eine separate Online-VoIP-Routing Richtlinie erstellen, um Sie an den Medien Umgehungs trunk weiterzuleiten und bestimmten Benutzer. 
+Wenn Sie von einer nicht medienumgehung zur medienumgehung migrieren und die Funktionalität vor dem Migrieren aller Nutzungen zur medienumgehung bestätigen möchten, können Sie einen separaten trunk und eine separate Online-VoIP-Routing Richtlinie erstellen, um Sie an den Medien Umgehungs trunk weiterzuleiten und bestimmten Benutzern zuzuweisen. 
 
 Konfigurationsschritte auf höherer Ebene:
 

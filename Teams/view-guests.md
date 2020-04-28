@@ -14,16 +14,18 @@ ms.reviwer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - CSH
-ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticle
-description: Hier erfahren Sie, wie Administratoren Informationen zu Gastbenutzern in Microsoft Teams anzeigen können.
+ms.custom:
+- ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticle
+- seo-marvel-apr2020
+description: In diesem Artikel erfahren Sie, wie ein Administrator Informationen zu Gastbenutzern in Microsoft Teams anzeigen kann.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a499d1f5317f06ff09bd54697b128488c423d08
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: f0b3d4023db3831fe4835fb2d85be53778a363bc
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833615"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903340"
 ---
 <a name="view-guest-users-in-a-team"></a>Anzeigen von Gastbenutzern in einem Team
 ==========================

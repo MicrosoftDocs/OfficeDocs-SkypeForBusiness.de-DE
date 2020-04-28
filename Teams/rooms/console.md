@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren einer Microsoft Teams rooms-Konsole
+title: Konfigurieren einer Konsole für Microsoft Teams-Räume
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: Travis-Snoozy
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: In diesem Artikel wird beschrieben, wie Sie die Microsoft Teams rooms-Konsole und Ihre Peripheriegeräte einrichten.
-ms.openlocfilehash: c91c570cd83cc07f1f15823623f2b02a2ebcddf4
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+description: In diesem Artikel wird beschrieben, wie Sie die Microsoft Teams rooms-Konsole und Ihre Peripheriegeräte einrichten und konfigurieren.
+ms.openlocfilehash: d5c1b7f47769d925f6d67527429971970b555044
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41826093"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905447"
 ---
-# <a name="configure-a-microsoft-teams-rooms-console"></a>Konfigurieren einer Microsoft Teams rooms-Konsole
+# <a name="configure-a-microsoft-teams-rooms-console"></a>Konfigurieren einer Konsole für Microsoft Teams-Räume
 
 In diesem Artikel wird beschrieben, wie Sie die Microsoft Teams rooms-Konsole und Ihre Peripheriegeräte einrichten.
   
@@ -101,7 +101,7 @@ Nachdem das System heruntergefahren wurde, ist es sicher, die USB-Setupdiskette 
 
 ### <a name="selecting-a-language"></a>Auswählen einer Sprache 
 
-Im Update des Erstellers müssen Sie das ApplyCurrentRegionAndLanguage. ps1-Skript in Szenarien verwenden, in denen der Benutzer mit der impliziten Sprachauswahl nicht über die tatsächliche Anwendungssprache verfügt, die er verwenden soll (beispielsweise, dass die Konsolen-App auf Französisch bereitgestellt werden soll, aber Es kommt in Englisch vor.)
+Im Update des Erstellers müssen Sie das ApplyCurrentRegionAndLanguage. ps1-Skript in Szenarien verwenden, in denen der Benutzer mit der impliziten Sprachauswahl nicht die tatsächlich gewünschte Anwendungssprache bereitstellt (beispielsweise, dass die Konsolen-app in Französisch angezeigt werden soll, aber in englischer Sprache).
   
 > [!NOTE]
 > Die folgenden Anweisungen funktionieren nur für Konsolen, die mit dem Update von Windows Creator erstellt wurden. Legacy/in-Market-Systeme, die nicht mithilfe von Medien mit dem neuen Bereitstellungssystem eingerichtet wurden, können diese Anweisungen nicht verwenden, sollten aber auch nicht unter dem anfänglichen Problem leiden, das diesen manuellen Eingriff erfordert (Anniversary Edition ermöglicht es Ihnen, Ihre APP-Sprache explizit als Teil des Setups auszuwählen).
@@ -260,10 +260,10 @@ Verwenden Sie die folgende Checkliste, während Sie eine abschließende Überpr�
 ## <a name="see-also"></a>Siehe auch
 <a name="Checklist"> </a>
 
-[Planen von Microsoft Teams-Räumen](rooms-plan.md)
+[Plan für Microsoft Teams-Räume](rooms-plan.md)
   
-[Bereitstellen von Microsoft Teams-Räumen](rooms-deploy.md)
+[Bereitstellen von Microsoft Teams-Räume](rooms-deploy.md)
   
-[Konfigurieren einer Microsoft Teams rooms-Konsole](console.md)
+[Konfigurieren einer Konsole für Microsoft Teams-Räume](console.md)
   
-[Microsoft Teams Rooms verwalten](rooms-manage.md)
+[Microsoft Teams-Räume verwalten](rooms-manage.md)

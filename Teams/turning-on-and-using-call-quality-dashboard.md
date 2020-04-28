@@ -22,13 +22,14 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 'Hier erfahren Sie, wie Sie das Dashboard für die Anrufqualität aktivieren und verwenden und zusammenfassende Berichte über die Qualität von Anrufen erhalten. '
-ms.openlocfilehash: 52bf3856ad5c737143d179525e5c2870748f3b46
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+- seo-marvel-apr2020
+description: Hier erfahren Sie, wie Sie das Dashboard für die Anrufqualität aktivieren und verwenden und zusammenfassende Berichte über die Qualität von Anrufen erhalten.
+ms.openlocfilehash: bfb67c6246581513d06ad4489ab8c3b534ad04d4
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43788950"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43914054"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 
@@ -409,11 +410,11 @@ EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, Endpoin
 
 Wenn Sie Berichte oder hochgeladene Mandantendaten (Mapping)-Dateien in CQD fürhttps://cqd.lync.com) Skype for Business erstellt haben (und diese in CQDhttps://cqd.teams.microsoft.com)for Teams migrieren möchten, gehen Sie wie folgt vor:
 
-1.  Wechseln Sie [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) zu dem Berichtssatz, den Sie exportieren möchten, und navigieren Sie zu diesem. 
-2.  Zeigen Sie mit der Maus auf den Bericht, und klicken Sie auf "...". Wählen Sie **Berichtstruktur exportieren**aus. Speichern Sie die Exportdatei.
-3.  Wechseln Sie [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) zu dem Speicherort, an dem Sie die Berichte importieren möchten, und navigieren Sie zu ihm.
-4.  Klicken Sie in den Links auf der linken Seite auf **importieren** , und wählen Sie die exportierte Datei aus. 
-5.  Nachdem die Berichte importiert wurden, wird die folgende Meldung angezeigt: "der berichtsimport war erfolgreich. Der neue Bericht wurde am Ende des Berichtssatzes hinzugefügt. " 
+1.    Wechseln Sie [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) zu dem Berichtssatz, den Sie exportieren möchten, und navigieren Sie zu diesem. 
+2.    Zeigen Sie mit der Maus auf den Bericht, und klicken Sie auf "...". Wählen Sie **Berichtstruktur exportieren**aus. Speichern Sie die Exportdatei.
+3.    Wechseln Sie [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) zu dem Speicherort, an dem Sie die Berichte importieren möchten, und navigieren Sie zu ihm.
+4.    Klicken Sie in den Links auf der linken Seite auf **importieren** , und wählen Sie die exportierte Datei aus. 
+5.    Nachdem die Berichte importiert wurden, wird die folgende Meldung angezeigt: "der berichtsimport war erfolgreich. Der neue Bericht wurde am Ende des Berichtssatzes hinzugefügt. " 
 
 
 ## <a name="create-custom-detailed-reports"></a>Erstellen benutzerdefinierter detaillierter Berichte

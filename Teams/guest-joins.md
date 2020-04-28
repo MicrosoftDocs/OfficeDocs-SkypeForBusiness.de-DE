@@ -14,15 +14,16 @@ ms.reviewer: sbhatta
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Hier erhalten Sie einen kurzen Überblick darüber, wie ein Gast eingeladen wird, einem Team in Microsoft Teams beizutreten.
+description: Informieren Sie sich über die erforderlichen Schritte zum Hinzufügen von Personen außerhalb Ihrer Organisation als Gäste zu einem Team in Microsoft Teams.
+ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 491770bcd3c2f435bbd2ea18c366effea2c8124f
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
-ms.translationtype: HT
+ms.openlocfilehash: 8202f7cae250d497eb690a7cb337c12dd1b79cb1
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833175"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43902550"
 ---
 <a name="how-a-guest-joins-a-team"></a>Beitritt eines Gasts zu einem Team
 ========================
@@ -39,7 +40,7 @@ Ein Teambesitzer inMicrosoft Teams kann Gäste im Team über das Web oder den De
 1. Der Gast empfängt eine Willkommens-E-Mail vom Teambesitzer mit Informationen über das Team und darüber, was ihn als Mitglied nun erwartet. 
 1. Der Gast akzeptiert die Einladung.
   Gastbenutzer, die über eine E-Mail-Adresse verfügen, die zu einem Azure Active Directory- oder Office 365-Arbeits- oder Schulkonto gehört, können die Einladung direkt akzeptieren. 
-  Wenn der Gast noch nicht über ein seiner E-Mail-Adresse zugeordnetes Microsoft-Konto verfügt, wird er weitergeleitet, um ein solches kostenlos zu erstellen. 
+  Wenn der Gast noch kein Microsoft-Konto hat, das seiner e-Mail-Adresse zugeordnet ist, wird er zum Erstellen eines kostenlosen Kontos weitergeleitet. 
 1. Nach dem Akzeptieren der Einladung kann der Gast [an Teams und Kanälen teilnehmen](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499), Kanalnachrichten empfangen und darauf reagieren, [auf Dateien in Kanälen zugreifen](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), an Besprechungen und Chats teilnehmen, an Dokumenten zusammenarbeiten und mehr. 
 
 In Teams sind Gäste eindeutig zu erkennen. Der Name eines Gastbenutzers enthält die Bezeichnung **(Gast)**, und in einem Kanal wird durch ein Symbol auf eine Gastteilnahme im Team hingewiesen. Weitere Details finden Sie unter [Gastfunktionalität](guest-experience.md).

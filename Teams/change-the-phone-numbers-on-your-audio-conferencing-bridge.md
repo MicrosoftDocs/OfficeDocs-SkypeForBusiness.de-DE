@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Informieren Sie sich über die Schritte, die erforderlich sind, um ihrer Konferenzbrücke eine neue Dienst Telefonnummer zuzuweisen, um die Abdeckung für Ihre Benutzer zu erweitern.
-ms.openlocfilehash: 233678bd953046eed5e6425e0b1a36c5a39b1061
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d22e3c475ae80b7c6aecb89e9e6487c8db38ab1e
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780354"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898150"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
 
@@ -67,7 +67,7 @@ Nur eine Dienst gebührenpflichtige Nummer kann als Standardnummer für Ihre Kon
  
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Schritt 3 – Ändern der standardmäßigen Telefonnummern, die in den Besprechungseinladungen der Benutzer enthalten sind (optional)
 
-Die standardmäßigen Telefonnummern eines Benutzers sind diejenigen, die in den Besprechungseinladungen enthalten sind, wenn Sie eine Besprechung planen. Weitere Informationen dazu, wie die defaul-Telefonnummern neuen Benutzern zugewiesen werden, finden Sie unter [Einrichten der Telefonnummern, die in Einladungen in Microsoft Teams enthalten](set-the-phone-numbers-included-on-invites-in-teams.md) sind, oder [Festlegung der Telefonnummern, die in Einladungen in Skype for Business Online enthalten](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)sind.
+Die standardmäßigen Telefonnummern eines Benutzers sind diejenigen, die in den Besprechungseinladungen enthalten sind, wenn Sie eine Besprechung planen. Weitere Informationen dazu, wie die standardmäßigen Telefonnummern für neue Benutzer zugewiesen werden, finden Sie unter [Festlegen der Telefonnummern, die in Microsoft Teams in Einladungen enthalten](set-the-phone-numbers-included-on-invites-in-teams.md) sind, oder [Festlegen der in Einladungen enthaltenen Telefonnummern in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites).
   
 1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
@@ -83,7 +83,7 @@ Nach dem Speichern der Änderungen sind die neuen Standardtelefonnummern in den 
 
 In den nächsten beiden Schritten müssen Sie Windows PowerShell starten.
   
-Wenn Sie die Standardtelefon Nummern, die in den Besprechungseinladungen für einige oder alle Benutzer Inlcuded sind, aktualisiert haben, können Sie optional Besprechungseinladungen aktualisieren, die bereits an Benutzer in Ihrer Organisation gesendet wurden, bevor Ihre Standard Telefonnummern mithilfe des Besprechungs Migrations Diensts geändert wurden. Weitere Informationen finden Sie unter [Einrichten des Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
+Wenn Sie die Standardtelefon Nummern, die in den Besprechungseinladungen enthalten sind, für einige oder alle Benutzer aktualisiert haben, können Sie optional Besprechungseinladungen aktualisieren, die bereits an Benutzer in Ihrer Organisation gesendet wurden, bevor Ihre Standard Telefonnummern mithilfe des Besprechungs Migrations Diensts geändert wurden. Weitere Informationen finden Sie unter [Einrichten des Meeting Migration Service (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms).
   
 - Führen Sie Meeting Migration Service (MMS) für die Benutzer aus, deren Standardtelefonnummern in Schritt 2 geändert wurden. Führen Sie dazu den folgenden Befehl aus:
 
@@ -139,7 +139,7 @@ Weitere Informationen zu Meeting Migration Service finden Sie unter [Einrichten 
 
 3. Wenn es sich bei der Telefonnummer um eine gebührenfreie Nummer handelt, wählen Sie die Telefonnummer aus der Liste aus, und klicken Sie im Bereich "Aktion" auf **Zuweisung**aufheben. Wenn es sich bei der Telefonnummer um eine gebührenpflichtige Nummer handelt, wenden Sie sich an den [Microsoft-Support](https://go.microsoft.com/fwlink/?linkid=2091806) , damit die Telefonnummer nicht zugewiesen ist.
 
-4. Wenn es sich bei der Telefonnummer um eine gebührenpflichtige Nummer handelt, klicken Sie im Bestätigungsfenster auf **Ja** .
+4. Wenn es sich bei der Telefonnummer um eine gebührenfreie Nummer handelt, klicken Sie im Bestätigungsfenster auf **Ja** .
 
    > [!IMPORTANT]
    > Nachdem die Zuweisung einer Telefonnummer zu einer Audiokonferenzbrücke aufgehoben wurde, ist die Telefonnummer nicht mehr für die Teilnahme der Benutzer an neuen oder bestehenden Besprechungen verfügbar.
@@ -223,9 +223,9 @@ Um Zeit zu sparen, indem Sie diesen Prozess automatisieren, können Sie die Cmdl
 
 ## <a name="troubleshooting"></a>Problembehandlung
 
-**Die Schaltfläche "Zuordnung aufheben" ist abgeblendet**
+**Die Schaltfläche "nicht zuweisen" ist nicht verfügbar**
 
-Sie möchten die Zuweisung einer Zahl aufheben, aber die Schaltfläche ist abgeblendet, und wenn Sie sich während des staubsaugens darüber informieren, werden Sie an den Support mit der folgenden Meldung weitergeleitet: _"Standard-oder freigegebene Nummern können nicht von der Brücke zugewiesen werden. Wenn Sie die Zuweisung von gebührenpflichtigen Nummern aufheben möchten, wenden Sie sich bitte an den Support._"
+Sie möchten die Zuweisung einer Zahl aufheben, aber die Schaltfläche steht nicht zur Verfügung, und wenn Sie während des Mauszeigers darauf weitergeleitet werden, wenden Sie sich an den Support mit der folgenden Meldung _: "Standard-oder freigegebene Nummern können nicht von der Bridge zugewiesen werden. Wenn Sie die Zuweisung von gebührenpflichtigen Nummern aufheben möchten, wenden Sie sich bitte an den Support._"
 
 Wenn Sie weitere Informationen zu den Brücken erhalten möchten, führen Sie die folgende PowerShell aus:
 ```PowerShell

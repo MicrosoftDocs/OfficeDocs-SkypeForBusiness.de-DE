@@ -7,7 +7,7 @@ ms.reviewer: olbesede
 ms.topic: reference
 ms.service: msteams
 audience: admin
-description: Listet Teamressourcen auf, die für Teams für Bildungs Administratoren hilfreich sind.
+description: Bildungs Administratoren können sich über die in Microsoft Teams verfügbaren Ressourcen informieren, um Remote-lernen zu ermöglichen.
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,12 +16,13 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b6f0b27c80baf62d85d3791982965a26f4353f9
-ms.sourcegitcommit: 273d7565ad350bf97dbf035f148fd48b1cb04d4f
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b3c34fa27053e83b9c9d05f9ab4f6e8fb4222cd7
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43194845"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43905507"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen
 ==============================================

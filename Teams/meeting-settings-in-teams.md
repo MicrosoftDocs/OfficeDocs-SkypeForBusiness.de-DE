@@ -21,12 +21,12 @@ ms.custom:
 ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: 920069ed5f5687111d51411afce9499a2d5db5d2
-ms.sourcegitcommit: ab6099547846f048f1c4cc584a8c5cb8c386d22e
-ms.translationtype: HT
+ms.openlocfilehash: 25945b35ec4800a00ab295ba328d5f1d65ac2ab0
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42413302"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898170"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -36,7 +36,6 @@ Als Administrator verwenden Sie Teams-Besprechungseinstellungen, um zu steuern, 
 
 Bei der anonymen Teilnahme kann jeder der Besprechung als anonymer Benutzer beitreten, indem er auf den Link in der Besprechungseinladung klickt. Weitere Informationen hierzu finden Sie unter [Teilnehmen an einer Besprechung ohne ein Teams-Konto](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
 
-
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Besprechungseinstellungen**.
@@ -44,7 +43,8 @@ Bei der anonymen Teilnahme kann jeder der Besprechung als anonymer Benutzer beit
 
     ![Screenshot der Teilnehmereinstellungen für Besprechungen im Admin Center](media/meeting-settings-participants.png "Screenshot der Teilnehmereinstellungen für Teams-Besprechungen im Microsoft Teams Admin Center")
 
-Wenn Sie nicht möchten, dass anonyme Benutzer an von Benutzern in Ihrer Organisation geplanten Besprechungen teilnehmen, deaktivieren Sie diese Einstellung.
+> [!CAUTION]
+> Wenn Sie nicht möchten, dass anonyme Benutzer an von Benutzern in Ihrer Organisation geplanten Besprechungen teilnehmen, deaktivieren Sie diese Einstellung.
 
 ## <a name="customize-meeting-invitations"></a>Anpassen von Besprechungseinladungen
 
@@ -92,7 +92,7 @@ Wenn Sie Quality of Service [(QoS)](qos-in-teams.md) zur Priorisierung des Netzw
     ![Screenshot der Netzwerkeinstellungen für Besprechungen im Admin Center](media/meeting-settings-network.png "Screenshot der Netzwerkeinstellungen für Teams-Besprechungen im Microsoft Teams Admin Center")
 
     - Um die Verwendung von DSCP-Markierungen für QoS zu ermöglichen, aktivieren Sie **Markierungen für Quality of Service (QoS) für Mediendatenverkehr in Echtzeit einfügen**. Sie haben nur die Möglichkeit, Markierungen zu verwenden oder nicht; Sie können nicht für jeden Datenverkehrstyp eigene Markierungen festlegen. Weitere Informationen zu DSCP-Markierungen finden Sie unter [Auswählen einer QoS-Implementierungsmethode](QoS-in-Teams.md#select-a-qos-implementation-method).
-        > [!NOTE] 
+        > [!NOTE]
         > Indem Sie **Markierungen für Quality of Service (QoS) für Mediendatenverkehr in Echtzeit einfügen** aktivieren, wird auch die Kommunikation mit dem Transportrelay mit den UDP-Ports 3479 (Audio), 3480 (Video) und 3481 (Freigabe) ermöglicht.
     - Um Portbereiche festzulegen, wählen Sie neben **Portbereich für jeden Typ von Mediendatenverkehr in Echtzeit auswählen** die Option **Portbereiche festlegen** aus, und geben Sie dann die Start- und Endports für Audio, Video und Bildschirmfreigabe ein. Die Auswahl dieser Option ist erforderlich, um QoS zu implementieren.
         > [!IMPORTANT]
@@ -102,7 +102,7 @@ Wenn Sie Quality of Service [(QoS)](qos-in-teams.md) zur Priorisierung des Netzw
 
 Wenn Sie sich nicht sicher sind, welche Portbereiche Sie in Ihrer Umgebung verwenden sollen, sind die folgenden Einstellungen ein guter Ausgangspunkt. Weitere Informationen finden Sie unter [Quality of Service (QoS) in Microsoft Teams](QoS-in-Teams.md). Dies sind die erforderlichen DSCP-Markierungen und die vorgeschlagenen entsprechenden Medienportbereiche, die sowohl von den Teams als auch von ExpressRoute verwendet werden.
 
-_Portbereiche und DSCP-Markierungen_
+### <a name="port-ranges-and-dscp-markings"></a>Portbereiche und DSCP-Markierungen
 
 Typ des Mediendatenverkehrs| Client-Quellportbereich \* |Protokoll|DSCP-Wert|DSCP-Klasse|
 |:---             |:---                         |:---    |:---      |:---      |
