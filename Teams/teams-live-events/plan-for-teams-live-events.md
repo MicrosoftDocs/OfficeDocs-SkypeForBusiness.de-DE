@@ -14,15 +14,16 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: Informieren Sie sich über die Faktoren, die Sie berücksichtigen sollten, bevor Sie Liveereignisse in Microsoft Teams einrichten.
+description: In diesem Artikel erfahren Sie mehr über die Faktoren, die Sie berücksichtigen sollten, bevor Sie Liveereignisse in Microsoft Teams einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aabd94e8a5c4904f0343e2c8ccb647d632f3fa21
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c0246a8517035ab5edd347fef30ae3f86af4afd9
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779964"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43903080"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -99,6 +100,7 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 |Externer Zugriff (Partnerverbund) & Gastreferenten/-teilnehmer |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |Nicht zutreffend |
 |Referent – Telefonfestnetz (PSTN)-Zugang |&#x274C; |&#x2714; (Teams) |– |
 |Bildschirm präsentieren |&#x274C; |&#x2714; (Teams) |– |
+|Systemaudio unter Windows freigeben (nur bei Bildschirmfreigabe verfügbar)|&#x274C; |&#x2714; (Teams) |&#x2714; |
 |PowerPoint präsentieren (PPT-Freigabe) |&#x2714; |&#x274C; (möglich über Bildschirmfreigabe) |Nicht zutreffend |
 |Aufzeichnung einer cloudbasierten Besprechung |&#x2714; |&#x2714; |&#x2714; |
 |Automatische Veröffentlichung der Aufzeichnung in Stream |&#x274C; |&#x274C; |&#x2714; |

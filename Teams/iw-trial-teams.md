@@ -9,20 +9,20 @@ ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
-description: Benutzer von Microsoft 365 oder Office 365, die nicht für Microsoft Teams lizenziert sind, können eine 1-Jahres-Testversion von Teams initiieren.
+description: Erfahren Sie, wie Benutzer von Microsoft 365 oder Office 365, die nicht für Microsoft Teams lizenziert sind, eine 1-Jahres-Testversion von Teams initiieren können.
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6a0ad5cf058b8dcc5567cfc706ed3edb2cc09adf
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5f8735cc328f06fd612fb86e292bc4291b99e21f
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778351"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904530"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Verwalten des Angebots für einen Test der kommerziellen Cloud von Microsoft Teams
 =======================================================

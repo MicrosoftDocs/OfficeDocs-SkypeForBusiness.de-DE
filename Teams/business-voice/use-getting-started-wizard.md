@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95ad893b3070a560edfa0e4afe46ab10df2960ad
-ms.sourcegitcommit: 4ee9835282e1440d03abc6dbcd172bc20c5b3015
+ms.openlocfilehash: 9a22c741898b48c3d71970699f09c00bb638205f
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43096880"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898130"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Den Assistenten für erste Schritte zum Einrichten von Business Voice verwenden
 
@@ -49,7 +49,7 @@ Wenn Sie jetzt keine Anpassungen vornehmen möchten, sind Sie fertig! Sie könne
 
 <table>
     <tr>
-        <td>Wenn Sie die Notrufadresse ändern möchten, klicken Sie auf <b>Bearbeiten</b>, und geben Sie eine neue Adresse ein. Die von Ihnen angegebene Adresse wird überprüft, um sicherzustellen, dass sie für die Notfalldienste legitim und ordnungsgemäß formatiert ist. Diese Adresse wird dann im nächsten Schritt allen Benutzern zugeordnet, denen Sie eine Nummer zuweisen. Wenn Sie über Mitarbeiter an mehreren Standorten verfügen, ziehen Sie <a href="./customize-business-voice.md">Anpassen des Designs von Business Voice</a> zurate, um zu erfahren, wie Sie nach dem Einrichten des Assistenten für erste Schritte weitere Notfalladressen hinzufügen und zuweisen können.</td> 
+        <td>Wenn Sie die Notrufadresse ändern möchten, klicken Sie auf <b>Bearbeiten</b>, und geben Sie eine neue Adresse ein. Die von Ihnen angegebene Adresse wird überprüft, um sicherzustellen, dass sie für die Notfalldienste legitim und ordnungsgemäß formatiert ist. Diese Adresse wird dann im nächsten Schritt allen Benutzern zugeordnet, denen Sie eine Nummer zuweisen. Wenn Sie über Mitarbeiter an mehreren Standorten verfügen, ziehen Sie <a href="./customize-business-voice.md">Anpassen des Designs von Business Voice</a> zurate, um zu erfahren, wie Sie nach dem Einrichten des Assistenten für erste Schritte weitere Notfalladressen hinzufügen und zuweisen können.</td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400"></td></tr>
 </table>
 
@@ -59,7 +59,7 @@ Weitere Informationen finden Sie unter [Was sind Notfallstandorte, Notfalladress
 
 <table>
     <tr>
-        <td>Zusätzlich zu einer neuen lokalen Telefonnummer können Sie eine gebührenfreie Nummer kaufen oder eine bestehende Nummer nach Microsoft 365 portieren. Um eine gebührenfreie Rufnummer einzurichten, müssen Sie einen Anrufplan erwerben. Um eine oder mehrere Nummern nach Microsoft 365 zu portieren, wechseln Sie nach Abschluss des Assistenten zum <a href="https://admin.teams.microsoft.com">Microsoft Teams Admin Center</a>.
+        <td>Zusätzlich zu einer neuen lokalen Telefonnummer können Sie eine gebührenfreie Nummer kaufen oder eine bestehende Nummer nach Microsoft 365 portieren. Um eine gebührenfreie Rufnummer einzurichten, müssen ein Kommunikationsguthaben erwerben. Um eine oder mehrere Nummern nach Microsoft 365 zu portieren, wechseln Sie nach Abschluss des Assistenten zum <a href="https://admin.teams.microsoft.com">Microsoft Teams Admin Center</a>.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-choose-number.png" width="400">
         </td>

@@ -19,18 +19,18 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3375abfbcd8319d104b4a2a657492c5105e240f
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 30599b73447e9b5ab9873c6cd48372d997def5d1
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749782"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898120"
 ---
 > [!IMPORTANT]
 > Das Teams-Dienstmodell kann geändert werden, um die Kundenzufriedenheit zu verbessern. So können beispielsweise die standardmäßigen Ablaufzeiten des Zugriffs- oder Aktualisierungstokens geändert werden, um die Leistung und die Authentifizierungssicherheit für Benutzer von Teams zu verbessern. Solche Änderungen würden vorgenommen, um die Sicherheit und Vertrauenswürdigkeit von Teams zu gewährleisten.
 <p>
 
- # <a name="security-and-microsoft-teams"></a>Sicherheit und Microsoft Teams
+# <a name="security-and-microsoft-teams"></a>Sicherheit und Microsoft Teams
 
 Microsoft Teams, als Teil des Microsoft 365 (M365)-Dienstes, befolgt alle bewährte Methoden und Verfahren für die Sicherheit, wie z. B. Sicherheit auf Leistungsebene durch umfassende Abwehrmaßnahmen, Kundenkontrolle innerhalb des Dienstes, Sicherheitshärtung und betriebliche Best Practices. Weitere Informationen finden Sie im [Microsoft Trust Center](https://microsoft.com/trustcenter).
 
@@ -209,7 +209,6 @@ Es gibt zwei Möglichkeiten zu steuern, wer an Teams-Besprechungen teilnimmt und
 |Personen in meiner Organisation und vertrauenswürdigen Organisationen      |  – Benutzer innerhalb des Mandanten</br> – Gast des Mandanten</br> – Verbundbenutzer</br>        |  – Anonyme Benutzer</br>  – Einwahl über Telefonfestnetz</br>      |
 |Jeder      |   – Benutzer innerhalb des Mandanten</br>  – Gast des Mandanten</br>  – Anonymer Benutzer im Verbund</br>  – Einwahl über Telefonfestnetz</br>       |         |
 
-
 2. Der zweite Weg führt über **strukturierte Besprechungen** (bei denen Moderatoren alles tun können, was getan werden sollte, und die Teilnehmer haben eine kontrollierte Erfahrung). Nach der Teilnahme an einer strukturierten Besprechung steuern die Moderatoren, was die Teilnehmer in der Besprechung tun können. </p>
 
 |Aktionen  |Moderatoren  |Teilnehmer  |
@@ -227,7 +226,7 @@ Es gibt zwei Möglichkeiten zu steuern, wer an Teams-Besprechungen teilnimmt und
 
 Teams bietet Unternehmensbenutzern die Möglichkeit, Besprechungen in Echtzeit zu erstellen und daran teilzunehmen. Unternehmensbenutzer können auch externe Nutzer, die kein AAD/Office 365-Konto haben, zur Teilnahme an diesen Besprechungen einladen. Nutzer, die bei externen Partnern mit einer sicheren und authentifizierten Identität beschäftigt sind, können ebenfalls an Besprechungen teilnehmen und, wenn sie dazu gemacht werden, als Moderatorenn fungieren. Anonyme Nutzer können keine Besprechungen als Moderator erstellen oder daran teilnehmen. Sie können jedoch nach ihrer Teilnahme zum Moderator gemacht werden.
 
-Damit anonyme Nutzer an Teambesprechungen teilnehmen können, muss die Einstellung für Teilnehmerbesprechungen im Teams Admin Center aktiviert sein.  
+Damit anonyme Nutzer an Teambesprechungen teilnehmen können, muss die Einstellung für Teilnehmerbesprechungen im Teams Admin Center aktiviert sein.
 
 > [!NOTE]
 > Der Begriff *anonyme Nutzer* bezeichnet Nutzer, die nicht beim Mandanten der Organisation authentifiziert sind. In diesem Zusammenhang gelten alle externen Nutzer als anonym. Zu den authentifizierten Nutzern gehören Mandantenbenutzer und Gastbenutzer des Mandanten.
@@ -238,6 +237,9 @@ Das Aktivieren externer Nutzer zur Teilnahme an Teams-Besprechungen kann sehr n�
 - Mit den Teilnehmertypen können Sie den Zugriff auf bestimmte Besprechungen beschränken.
 - Das Planen von Besprechungen ist auf Nutzer beschränkt, die über ein AAD-Konto und eine Teams-Lizenz verfügen.
 - Anonyme, dh. nicht authentifizierte Nutzer, die an einer Einwahlkonferenz teilnehmen möchten, wählen eine der Konferenzzugriffsnummern. Wenn die Einstellung "Anrufern immer erlauben, die Lobby zu umgehen" *aktiviert* ist, müssen sie auch warten, bis ein Moderator oder ein authentifizierter Benutzer an der Besprechung teilnimmt.
+
+> [!CAUTION]
+> Wenn Sie nicht möchten, dass anonyme Benutzer (nicht explizit eingeladene Benutzer) an einer Besprechung teilnehmen, müssen Sie sicherstellen, dass die Option **Anonyme Benutzer können an einer Besprechung teilnehmen** für den Besprechungsabschnitt **Teilnehmer** auf **Aus** festgelegt ist.
 
 Ein Organisator kann auch Einstellungen konfigurieren, damit Einwählanrufer die erste Person in einer Besprechung sind. Diese Einstellung wird in den Audiokonferenzeinstellungen für Nutzer konfiguriert und gilt für alle vom Nutzer geplanten Besprechungen.
 
@@ -269,6 +271,9 @@ Die Besprechungsteilnehmer werden auch nach Aufenthaltsort und Anmeldeinformatio
 An vielen Besprechungen sind externe Nutzer beteiligt. Dieselben Kunden möchten auch die Identität externer Nutzer bestätigen, bevor diese Nutzer an einer Besprechung teilnehmen können. Im nächsten Abschnitt wird beschrieben, wie Teams den Zugriff auf Besprechungen durch diejenigen Benutzertypen beschränkt, die explizit zugelassen wurden, und dass alle Benutzertypen beim Beitreten einer Besprechung die entsprechenden *Anmeldeinformationen* vorlegen müssen.
 
 ### <a name="participant-admittance"></a>Teilnehmereintritt
+
+> [!CAUTION]
+> Wenn Sie nicht möchten, dass anonyme Benutzer (nicht explizit eingeladene Benutzer) an einer Besprechung teilnehmen, müssen Sie sicherstellen, dass die Option **Anonyme Benutzer können an einer Besprechung teilnehmen** für den Besprechungsabschnitt **Teilnehmer** auf **Aus** festgelegt ist.
 
 In Teams können anonyme Nutzer in einen Wartebereich namens Lobby versetzt werden. Moderatoren können diese Nutzer dann entweder in die Besprechung *aufnehmen* oder *ablehnen*. Wenn diese Nutzer in die Lobby übertragen werden, werden der Moderator und die Teilnehmer benachrichtigt, und die anonymen Nutzer müssen warten, bis sie entweder akzeptiert oder abgelehnt werden oder ihre Verbindung abläuft.
 

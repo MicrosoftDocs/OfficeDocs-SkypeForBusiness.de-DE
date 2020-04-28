@@ -12,12 +12,12 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6c6f0c08d03cd746f5929f6a7f1d82373a527a4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 598f1cb760a6b4ca969c1e8df25f9735fd0df7c1
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42180292"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918563"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -89,7 +89,7 @@ Möglicherweise haben Sie auch zwei Benutzer: Ken Myers und Pilar Ackerman. Ken 
 
 Wie Sie sehen können, kann Ken Myers mit öffentlichen Instant Messaging-Anbietern kommunizieren. Dies liegt daran, dass die Einstellungen in der benutzerbezogenen Richtlinie, die ihm zugewiesen ist, die Einstellungen in der globalen Richtlinie außer Kraft setzen. Pilar Ackerman kann nicht mit öffentlichen Instant Messaging-Anbietern kommunizieren. Dies liegt daran, dass Sie von der globalen Richtlinie verwaltet wird und die globale Richtlinie solche Kommunikationen verbietet.
 
-Benutzerspezifische Richtlinien müssen für Sie durch Office 365 Support erstellt werden. Nachdem die Richtlinien erstellt wurden, können Sie Sie Benutzern mithilfe des entsprechenden Cmdlets **Grant-CS** zuweisen (beispielsweise [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Benutzerspezifische Richtlinien sind leicht zu identifizieren, da die Richtlinien Identität immer mit **dem Tagpräfix beginnt.** Zum Beispiel:
+Benutzerspezifische Richtlinien müssen vom Microsoft-Support für Sie erstellt werden. Nachdem die Richtlinien erstellt wurden, können Sie Sie Benutzern mithilfe des entsprechenden Cmdlets **Grant-CS** zuweisen (beispielsweise [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Benutzerspezifische Richtlinien sind leicht zu identifizieren, da die Richtlinien Identität immer mit **dem Tagpräfix beginnt.** Zum Beispiel:
 
     Identity : tag:AllowPublicIMCommunication
 

@@ -8,7 +8,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: lolaj
-description: Erfahren Sie, wo Sie tiefgreifende Ressourcen zu Bereitstellung und Einführung von Microsoft Teams finden.
+description: Nachdem Sie Ihre ersten Teams eingerichtet haben, schauen Sie sich an, wo Sie umfassende Ressourcen zu Bereitstellung und Einführung von Microsoft Teams finden.
+ms.custom: seo-marvel-mar2020
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -17,13 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cbbec12b48560b39a3db385b42eb412d5099333f
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: e172bf86e56e0b9fdb8aa8fdcfc28e214f398c28
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136705"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904630"
 ---
 # <a name="choose-a-path-to-your-organization-wide-rollout-of-microsoft-teams"></a>Wahl des Wegs für die organisationsweite Bereitstellung von Microsoft Teams
 

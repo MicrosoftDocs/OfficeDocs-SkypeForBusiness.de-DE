@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Erfahren Sie mehr über die Grenzwerte, Spezifikationen und anderen Anforderungen für Microsoft Teams.
+description: In diesem Artikel werden die Grenzwerte, Spezifikationen und anderen Anforderungen für Microsoft Teams beschrieben.
 localization_priority: Priority
 f1.keywords:
 - NOCSH
@@ -17,12 +17,13 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2e1073736ff927c34c56f3236d98e338384942d
-ms.sourcegitcommit: 6fbaab29076e16fe18f8faeb7e012a0815c2369d
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 03cc795f9d3df5500c4eafceee4a1fd5d3605fb6
+ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43785878"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43904030"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 

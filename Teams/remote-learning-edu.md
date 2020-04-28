@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 756059aaf7a707a824c75bd0306df04a70b66829
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: d380300aa27d07ecfecdbe805be9042c88779285
+ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780564"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43898160"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -76,6 +76,9 @@ Kunden aus dem Hochschulbereich profitieren von den Vorteilen, wenn Sie allen Be
 Eine exemplarische Vorgehensweise zum Erstellen von Teams finden Sie hier: [Erstellen eines Kursteams in Microsoft Teams](https://support.office.com/article/create-a-class-team-in-microsoft-teams-preview-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b).
 
 ### <a name="2-configure-user-experiences-using-policies"></a>2. Benutzeroberflächen mithilfe von Richtlinien konfigurieren
+
+> [!IMPORTANT]
+> Wenn Sie mehr darüber erfahren möchten, wie Schüler während Besprechungen geschützt werden können, lesen Sie [Schutz von Schülern bei der Verwendung von Teams-Meetings für Fernunterricht](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
 
 [Teams-Richtlinien](teams-policies.md) bieten die Möglichkeit, die für bestimmte Benutzer oder Benutzergruppen verfügbaren Optionen zu steuern. Richtlinien können angewendet werden, um zu definieren, wer private Chats, private Anrufe, Besprechungsplanung, Inhaltstypen, die geteilt werden können, und vieles mehr verwenden darf.
 
@@ -156,8 +159,6 @@ Weitere Informationen zur Verwendung von Teams für Bildungseinrichtungen finden
 
 > [!NOTE]
 > Einige der wichtigsten Features von Microsoft Teams sind nicht ausschließlich für Bildungseinrichtungen bestimmt. Tipps und Tricks für die wichtigsten Teams-Funktionen finden Sie unter [Hilfe und Schulung zu Microsoft Teams](https://support.office.com/teams).
-
-Wenn Sie mehr darüber erfahren möchten, wie Schüler während Besprechungen geschützt werden können, lesen Sie [Schutz von Schülern bei der Verwendung von Teams-Meetings für Fernunterricht](https://support.office.com/article/f00fa399-0473-4d31-ab72-644c137e11c8).
 
 ### <a name="prevent-users-from-changing-their-profile-photo"></a>So hindern Sie Benutzer am Ändern ihres Profilbilds
 
