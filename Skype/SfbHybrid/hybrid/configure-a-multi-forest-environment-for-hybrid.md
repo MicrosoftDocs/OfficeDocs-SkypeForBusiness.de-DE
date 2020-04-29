@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Die folgenden Abschnitte enthalten Anleitungen zum Konfigurieren einer Umgebung mit mehreren Gesamtstrukturen in einem Ressourcen-Benutzer-Gesamtstrukturmodell, um Skype for Business Funktionalität in einem Hybrid Szenario bereitzustellen.
-ms.openlocfilehash: 3a0a5f08c9be4c6ba4c954a4100794d83d46ea53
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: acfca3b29407b019b87f5429906dbc72b4ef7dc3
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780124"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918684"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Bereitstellen einer Topologie mit Ressourcengesamtstruktur
  
@@ -65,7 +65,7 @@ Um eine ordnungsgemäße Identitätssynchronisierung zu erhalten, müssen die fo
 |ProxyAddresses  <br/> |ProxyAddresses  <br/> |
 |ObjectSID  <br/> |msRTCSIP-OriginatorSID  <br/> |
    
-Das [ausgewählte Konto Link Attribut](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/) wird als Quellanker verwendet. Wenn Sie ein anderes und unveränderliches Attribut haben, das Sie lieber verwenden möchten, können Sie dies tun; Achten Sie darauf, die AD FS-Forderungs Regel zu bearbeiten und das Attribut während der Aad Connect-Konfiguration auszuwählen.
+Das [ausgewählte Konto Link Attribut](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts) wird als Quellanker verwendet. Wenn Sie ein anderes und unveränderliches Attribut haben, das Sie lieber verwenden möchten, können Sie dies tun; Achten Sie darauf, die AD FS-Forderungs Regel zu bearbeiten und das Attribut während der Aad Connect-Konfiguration auszuwählen.
   
 Synchronisieren Sie die UPNs nicht zwischen den Gesamtstrukturen. Wir haben beim Testen festgestellt, dass für jede Benutzergesamtstruktur ein eindeutiger UPN verwendet werden musste, da Sie nicht den gleichen UPN in mehreren Gesamtstrukturen verwenden können. Dadurch wurden zwei Möglichkeiten angezeigt, um den UPN zu synchronisieren oder nicht zu synchronisieren. 
   
@@ -121,14 +121,16 @@ Aad Connect sollte mit den Standardeinstellungen installiert werden, mit Ausnahm
     
 3. Identifizieren von Benutzern in lokalen Verzeichnissen: Wählen Sie **Benutzeridentitäten in mehreren Verzeichnissen**aus, und wählen Sie die Attribute **Objekt** -und **msexchangemasteraccount sid aus** .
     
-4. Identifizieren von Benutzern in Azure AD: Quellanker: Wählen Sie das Attribut aus, das Sie nach dem Lesen ausgewählt haben, [indem Sie ein gutes Attributs-Attribut](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), den Benutzerprinzipalnamen – **userPrincipalName**.
+4. Identifizieren von Benutzern in Azure AD: Quellanker: Wählen Sie das Attribut aus, das Sie nach dem Lesen ausgewählt haben, [indem Sie ein gutes Attributs-Attribut](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-design-concepts#selecting-a-good-sourceanchor-attribute), den Benutzerprinzipalnamen – **userPrincipalName**.
     
 5.  Optionale Features: Wählen Sie aus, ob Exchange-hybridbereitstellung bereitgestellt ist.
     
     > [!NOTE]
     >  Wenn Sie nur Exchange Online haben, könnte ein Problem mit OAuth-Fehlern während der AutoErmittlung aufgrund der CNAME-Umleitung auftreten. Um dies zu beheben, müssen Sie die Exchange-Auto Ermittlungs-URL festlegen, indem Sie das folgende Cmdlet aus der Skype for Business Server Verwaltungsshell ausführen:
-  
-    Gruppe-csoauthconfiguration "-ExchangeAutoDiscoverURL https://<span>autodiscover-s.Outlook.com/autodiscover/autodiscover.svc 
+    >
+    > ```powershell
+    > Set-CsOAuthConfiguration -ExchangeAutoDiscoverURL https://autodiscover-s.outlook.com/autodiscover/autodiscover.svc 
+    > ```
     
 6.  AD FS-Farm: Wählen Sie **vorhandene Windows Server 2012 R2 AD FS-Farm verwenden** aus, und geben Sie den Namen des AD FS-Servers ein.
     
@@ -142,4 +144,3 @@ Befolgten Sie die bewährten Methoden für die Konfiguration Skype for Business 
 
 Führen Sie bei Bedarf die bewährten Methoden zum Konfigurieren der Exchange-hybridbereitstellung aus. Weitere Informationen finden Sie unter [Exchange Server Hybrid Bereitstellungen](https://docs.microsoft.com/exchange/exchange-hybrid). 
   
-
