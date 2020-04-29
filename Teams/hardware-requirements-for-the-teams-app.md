@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b85df2a7a5cf341c61d86baef89b0df8a3c4f439
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 4eb43e79a7ad45596876a3fc932ad405271b0dda
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902530"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918503"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Hardwareanforderungen für Microsoft Teams
 
@@ -72,7 +72,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 |Video    |  USB 2.0-Videokamera       |
 |Geräte    |   Standardmäßige Laptopkamera, Mikrofon und Lautsprecher    | 
 |VoIP    |  Kompatibles Mikrofon und Lautsprecher, Headset mit Mikrofon oder entsprechendes Gerät       |
-|Videoanrufe und Besprechungen | <ul><li>Für eine bessere Nutzung von Videoanrufen und Onlinebesprechungen empfehlen wir die Verwendung eines Computers mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher). </li><li>Der optionale Videoeffekt Blur My background setzt einen Prozessor mit erweiterter 2 (AVX2)-Unterstützung für Vektorerweiterungen voraus, der auf den meisten späten 2013 Mac-Geräten unterstützt wird. Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Linux nicht verfügbar.</li></ul>
+|Videoanrufe und Besprechungen | <ul><li>Für eine bessere Nutzung von Videoanrufen und Onlinebesprechungen empfehlen wir die Verwendung eines Computers mit einem 2,0 GHz-Prozessor und 4,0 GB RAM (oder höher). </li><li>Für Hintergrund Videoeffekte ist ein Prozessor mit Advanced Vector Extensions 2 (AVX2) erforderlich, der auf den meisten späten 2013-Mac-Geräten und höher unterstützt wird. Eine Liste der nicht unterstützten Decoder und Encoder finden Sie unter [Empfehlungen für Hardware-Decoder und Encoder-Treiber](hardware-decoders-and-encoders.md).</li><li>Das Beitreten zu einer Besprechung mit Proximity Detection in einem Microsoft Teams-Raum ist unter Linux nicht verfügbar.</li></ul>
 |Unterstützte Linux-Verteilungen | Ubuntu 16.04 LTS, 18.04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, CentOS 8
 
 ## <a name="hardware-requirements-for-teams-on-mobile-devices"></a>Hardwareanforderungen für Teams auf mobilen Geräten

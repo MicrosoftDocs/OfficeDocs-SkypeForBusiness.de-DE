@@ -16,12 +16,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Verwenden Sie Power BI zum Analysieren von CQD-Daten für Microsoft Teams.
-ms.openlocfilehash: af540f09fefc27b99e1c084d2571fe51d47a393c
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: a288376192af375660107b79e93ec8613f46163d
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170503"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918674"
 ---
 # <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Verwenden von Power BI zum Analysieren von CQD-Daten für Microsoft Teams
 
@@ -29,7 +29,7 @@ Neu im Januar 2020: [Power BI-Abfragevorlagen für CQD herunterladen](https://gi
 
 Wenn Sie für CQD-Berichte in Microsoft Teams die Verwendung von Power BI zum Abfragen und melden Ihrer Daten bevorzugen, laden Sie unsere CQD Power BI-Vorlagen herunter. Wenn Sie die Vorlagen in Power BI öffnen, werden Sie aufgefordert, sich mit ihren CQD-Administratoranmeldeinformationen anzumelden. Sie können diese Abfragevorlagen anpassen und an alle Personen in Ihrer Organisation verteilen, die über eine Power BI-Lizenz und CQD-Administratorberechtigungen verfügen.
 
-Bevor Sie diese PBIX-Dateien verwenden können, müssen Sie [den Power BI Connector für Microsoft CQD](CQD-Power-BI-connector.md) mit der im [Download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)enthaltenen Datei *MicrosoftCallQuality. PQx* installieren. 
+Bevor Sie diese PBIT-Dateien verwenden können, müssen Sie [den Power BI Connector für Microsoft CQD](CQD-Power-BI-connector.md) mit der im [Download](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)enthaltenen Datei *MicrosoftCallQuality. PQx* installieren. 
 
 
 |  |  |
@@ -43,7 +43,7 @@ Bevor Sie diese PBIX-Dateien verwenden können, müssen Sie [den Power BI Connec
 |CQD-Benutzer Feedback (Bewertung meines Anrufs) Bericht. PBit     | Zeigt die Bewertung meiner Anrufdaten auf eine Weise an, die Sie ganz einfach verwenden können, um Anrufe für Ihre Organisation zu unterstützen. Querverweis mit Verbatims, um die Schulungsmöglichkeiten für Endnutzer zu erkennen.        |
 
 > [!TIP]
-> Nachdem Sie Ihre Power BI-Berichte für CQD-Daten eingerichtet haben, fügen Sie Sie als Registerkarte zu einem Kanal hinzu. Nachdem Sie in **+** einem Kanal ausgewählt haben, wählen Sie **Power BI** aus, und suchen Sie dann den Bericht. Beachten Sie, dass nur Personen mit einer Power BI-Lizenz und CQD-Administratoranmeldeinformationen auf diese Berichte zugreifen können.
+> Nachdem Sie Ihre Power BI-Berichte für CQD-Daten eingerichtet haben, fügen Sie Sie als Registerkarte zu einem Kanal hinzu. Nachdem Sie in **+** einem Kanal ausgewählt haben, wählen Sie **Power BI** aus, und suchen Sie dann den Bericht. Weitere Informationen finden Sie unter [Einbetten eines Berichts mit der Registerkarte Power BI für Teams](https://docs.microsoft.com/power-bi/service-embed-report-microsoft-teams). Beachten Sie, dass nur Personen mit einer Power BI-Lizenz und CQD-Administratoranmeldeinformationen auf diese Berichte zugreifen können.
 
 
 ## <a name="related-topics"></a>Verwandte Themen

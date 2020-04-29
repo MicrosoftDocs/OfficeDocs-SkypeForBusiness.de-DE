@@ -1,7 +1,7 @@
 ---
 title: Durchführen einer eDiscovery-Untersuchung von Inhalten
 author: LolaJacobsen
-ms.author: lolaj
+ms.author: hakank
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie vorgehen müssen, wenn Sie eDiscovery ausfüh
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b31f2efb613551ab17320900e45cf30d0ee11be
-ms.sourcegitcommit: df4dde0fe6ce9e26cb4b3da4e4b878538d31decc
+ms.openlocfilehash: 67006fba94a58514fa33c91edd0a46312396b31a
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521541"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918583"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams
 
@@ -40,17 +40,15 @@ Nicht alle Teams-Inhalte sind eDiscoverable. In der folgenden Tabelle sind die I
 |:--- | --- |:--- |
 | Teams-Chatnachrichten | Ja | Chat-Nachrichten aus Chats, in denen Gastnutzer die einzigen Teilnehmer an einem 1:1-oder 1: N-Chat sind, sind nicht eDiscoverable. |
 | Audioaufzeichnungen | Nein | |
-| Zeitstempel, der zeigt, wann die einzelnen Benutzer eine Nachricht gelesen haben | Nein | |
-| Audioaufzeichnungen | Nein | |
 | Private Kanal Nachrichten | Nein | |
 | Emojis, GIFs, Aufkleber | Ja | |
 | Code Ausschnitte | Nein | |
-| Chat-Links | Nein | |
+| Chat-Links | Ja | |
 | Reaktionen (likes, Hearts usw.) | Nein | |
 | Bearbeitete Nachrichten | Ja | Wenn der Benutzer in Wartestellung ist, bleiben frühere Versionen bearbeiteter Nachrichten erhalten. |
 | Inline Bilder | Ja | |
-| Tabellen | Nein | |
-| Betreff | Nein | |
+| Tabellen | Ja | |
+| Betreff | Ja | |
 | Anführungszeichen | Ja | Zitierte Inhalte sind durchsuchbar. Suchergebnisse deuten jedoch nicht darauf hin, dass der Inhalt zitiert wurde. |
 | Name des Kanals | Nein | |
 
@@ -162,7 +160,7 @@ Eine Konversations Überprüfungsgruppe bietet eine intuitivere Threadansicht de
 
 Funktionen wie "Bearbeiten" stehen in beiden Arten von Überprüfungs Sätzen zur Verfügung.
 
-Weitere Informationen zu Überprüfungs Sätzen finden Sie unter [Überprüfen von Unterhaltungen in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets) .
+Weitere Informationen zu Überprüfungs Sätzen finden Sie unter [Überprüfen von Unterhaltungen in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/conversation-review-sets).
 
 #### <a name="collection-options"></a>Sammlungsoptionen
 

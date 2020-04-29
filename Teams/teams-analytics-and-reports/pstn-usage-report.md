@@ -17,12 +17,12 @@ description: Hier erfahren Sie, wie Sie den Bericht "PSTN-Nutzung von Teams" im 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 411cf551697bd1fdd0902dc2d906e1c7752cd27d
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 0a6836e6f29cce1d55ff755cd1fa8ac5b18dea06
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904300"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918573"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN-Nutzungsbericht
 
@@ -104,56 +104,58 @@ Die erste Zeile der CSV-Datei enthält Spaltennamen. Alle Datumsangaben sind UTC
 
  Sie können Daten bis zu einem Jahr nach dem aktuellen Datum exportieren, es sei denn, landesspezifische Bestimmungen verbieten die Aufbewahrung der Daten für 12 Monate.
 
-| # | Name | [Datentyp (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Beschreibung |
-| :-: | :-: | :-: |:------------------- |
-| 0 | Verwendungs-Nr | `uniqueidentifier` | Eindeutige Anrufkennung |
-| 1 | Anruf-ID | `nvarchar(64)` | Anruf-ID. Nicht garantiert eindeutig |
-| 2 | Konferenz-ID | `nvarchar(64)` | ID der Audiokonferenz |
-| 3 | Speicherort des Benutzers | `nvarchar(2)` | Landesvorwahl des Benutzers, [ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | Aad-ObjectID | `uniqueidentifier` | Die ID des Benutzers wird in Azure Active Directory aufgerufen.<br/> Diese und andere Benutzerinformationen werden für bot-Anruftypen (ucap_in, ucap_out) NULL/leer sein. |
-| 5 | UPN | `nvarchar(128)` | UserPrincipalName (Anmeldename) in Azure Active Directory<br/>Dies ist normalerweise identisch mit der SIP-Adresse des Benutzers und kann mit der e-Mail-Adresse des Benutzers identisch sein. |
-| 6 | Benutzeranzeige Name | `nvarchar(128)` | Anzeigename des Benutzers |
-| 7 | Anrufer-ID | `nvarchar(128)` | Die Nummer, die den Anruf für eingehende Anrufe empfangen hat, oder die Nummer, die für ausgehende Anrufe gewählt wurde. [E. 164-](https://en.wikipedia.org/wiki/E.164) Format |
-| 8 | Anruftyp | `nvarchar(32)` | Ob es sich um einen PSTN-Ausgangs-oder eingehenden Anruf und die Art des Anrufs wie einen Anruf von einem Benutzer oder einer Audiokonferenz gehandelt hat |
-| 9 | Zahlentyp | `nvarchar(16)` | Art der Telefonnummer des Benutzers, beispielsweise eine gebührenfreie Nummer |
-| 10 | Domestic/International | `nvarchar(16)` | Ob es sich um einen Inlandsanruf (innerhalb eines Landes oder einer Region) oder um einen internationalen (außerhalb eines Landes oder einer Region) basierend auf dem Standort des Benutzers handelt |
-| 11 | Ziel gewählt | `nvarchar(64)` | Land oder Region gewählt |
-| 12 | Ziel Nummer | `nvarchar(32)` | Nummer im [E. 164-](https://en.wikipedia.org/wiki/E.164) Format gewählt |
-| 13 | Startzeit | `datetimeoffset` | Startzeit des Anrufs |
-| 14 | Endzeit | `datetimeoffset` | Endzeit des Anrufs |
-| 15 | Dauer (Sekunden) | `int` | Wie lange der Anruf verbunden war |
-| 16 | Verbindungsgebühr | `numeric(16, 2)` | Verbindungsgebühren Preis |
-| 17 | Kostenlos | `numeric(16, 2)` | Betrag des Guthabens oder der Kosten des Anrufs, der Ihrem Konto belastet wird |
-| 18 | Währung | `nvarchar(3)` | Art der Währung, die für die Berechnung der Kosten des Anrufs verwendet wird ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
-| 19 | Funktion | `nvarchar(32)` | Die für den Anruf verwendete Lizenz |
+> [!div class="has-no-wrap"]  
+> | # | Name | [Datentyp (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Beschreibung |
+> | :-: | :-: | :-: |:------------------- |
+> | 0 | Verwendungs-Nr | `uniqueidentifier` | Eindeutige Anrufkennung |
+> | 1 | Anruf-ID | `nvarchar(64)` | Anruf-ID. Nicht garantiert eindeutig |
+> | 2 | Konferenz-ID | `nvarchar(64)` | ID der Audiokonferenz |
+> | 3 | Speicherort des Benutzers | `nvarchar(2)` | Landesvorwahl des Benutzers, [ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | Aad-ObjectID | `uniqueidentifier` | Die ID des Benutzers wird in Azure Active Directory aufgerufen.<br/> Diese und andere Benutzerinformationen werden für bot-Anruftypen (ucap_in, ucap_out) NULL/leer sein. |
+> | 5 | UPN | `nvarchar(128)` | UserPrincipalName (Anmeldename) in Azure Active Directory<br/>Dies ist normalerweise identisch mit der SIP-Adresse des Benutzers und kann mit der e-Mail-Adresse des Benutzers identisch sein. |
+> | 6 | Benutzeranzeige Name | `nvarchar(128)` | Anzeigename des Benutzers |
+> | 7 | Anrufer-ID | `nvarchar(128)` | Die Nummer, die den Anruf für eingehende Anrufe empfangen hat, oder die Nummer, die für ausgehende Anrufe gewählt wurde. [E. 164-](https://en.wikipedia.org/wiki/E.164) Format |
+> | 8 | Anruftyp | `nvarchar(32)` | Ob es sich um einen PSTN-Ausgangs-oder eingehenden Anruf und die Art des Anrufs wie einen Anruf von einem Benutzer oder einer Audiokonferenz gehandelt hat |
+> | 9 | Zahlentyp | `nvarchar(16)` | Art der Telefonnummer des Benutzers, beispielsweise eine gebührenfreie Nummer |
+> | 10 | Domestic/International | `nvarchar(16)` | Ob es sich um einen Inlandsanruf (innerhalb eines Landes oder einer Region) oder um einen internationalen (außerhalb eines Landes oder einer Region) basierend auf dem Standort des Benutzers handelt |
+> | 11 | Ziel gewählt | `nvarchar(64)` | Land oder Region gewählt |
+> | 12 | Ziel Nummer | `nvarchar(32)` | Nummer im [E. 164-](https://en.wikipedia.org/wiki/E.164) Format gewählt |
+> | 13 | Startzeit | `datetimeoffset` | Startzeit des Anrufs |
+> | 14 | Endzeit | `datetimeoffset` | Endzeit des Anrufs |
+> | 15 | Dauer (Sekunden) | `int` | Wie lange der Anruf verbunden war |
+> | 16 | Verbindungsgebühr | `numeric(16, 2)` | Verbindungsgebühren Preis |
+> | 17 | Kostenlos | `numeric(16, 2)` | Betrag des Guthabens oder der Kosten des Anrufs, der Ihrem Konto belastet wird |
+> | 18 | Währung | `nvarchar(3)` | Art der Währung, die für die Berechnung der Kosten des Anrufs verwendet wird ([ISO 4217](https://en.wikipedia.org/wiki/ISO_4217)) |
+> | 19 | Funktion | `nvarchar(32)` | Die für den Anruf verwendete Lizenz |
 
 ### <a name="exported-direct-routing-usage-report"></a>Bericht zur direkten Routing Nutzung exportiert
 
 Sie können Daten bis zu fünf Monate (150 Tage) ab dem aktuellen Datum exportieren, es sei denn, länderspezifische Bestimmungen verbieten die Aufbewahrung der Daten für diesen Zeitraum.
 
-| # | Name | [Datentyp (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Beschreibung |
-| :-: | :-: | :-: |:------------------- |
-| 0 | CorrelationId | `uniqueidentifier` | Eindeutige Anrufkennung |
-| 1 | SIP-Adresse | `nvarchar(128)` | Die Adresse des Benutzers oder bot, der den Anruf getätigt oder empfangen hat.<br/>Beachten Sie, dass dies tatsächlich userPrincipalName (UPN, Anmeldename) in Azure Active Directory ist, das in der Regel mit der SIP-Adresse identisch ist. |
-| 2 | Display Name | `nvarchar(128)` | Der Name eines Benutzers oder eines anrufenden bot (beispielsweise Anrufwarteschlange oder automatische Telefonzentrale), wie er im Microsoft 365 Admin Center eingestellt ist |
-| 3 | Nutzer Land | `nvarchar(2)` | Landesvorwahl des Benutzers, [ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
-| 4 | Einladungszeitpunkt | `datetimeoffset` | Wenn die Initiale Einladung vom Benutzer oder bot-Anruf an den SBC senden, an den SBC weitergeleitet wird oder bei einem eingehenden Team-oder bot-Anruf von der SIP-Proxy Komponente des direkten Routings vom SBC empfangen wird |
-| 5 | Startzeitpunkt | `datetimeoffset` | Zeitpunkt, zu dem der SIP-Proxy die endgültige Antwort erhalten hat (SIP-Nachricht "200 OK") aus dem SBC für ausgehende (Teams/bot an einen PSTN-Benutzer) oder nachdem der SIP-Proxy die Einladung an den nächsten Hop innerhalb des Teams-Back-Ends bei einem eingehenden Anruf gesendet hat (PSTN-Benutzer zu einem Team/bot).<br/>Bei fehlgeschlagenen und unbeantworteten Anrufen kann dies gleich der Einladungs-oder Fehlerzeit sein. |
-| 6 | Fehlerzeit | `datetimeoffset` | Nur bei fehlgeschlagenen (nicht vollständigen) anrufen vorhanden |
-| 7 | Endzeitpunkt | `datetimeoffset` | Nur für erfolgreiche (vollständig eingerichtete) Anrufe vorhanden. Zeitpunkt, zu dem der Anruf beendet wurde |
-| 8 | Dauer (Sekunden) | `int` | Dauer des Anrufs |
-| 9 | Erfolg | `nvarchar(3)` | Ja/Nein. Erfolg oder Versuch |
-| 10 | Rufnummernanzeige | `nvarchar(32)` | Die Nummer des Benutzers oder bot, der den Anruf getätigt hat. Bei einem eingehenden Anruf an einen Team Benutzer wird es sich um einen PSTN-Benutzer handeln, beim ausgehend von Teams-Benutzer anrufen wird die Benutzernummer des Teams. |
-| 12 | Nummer des Anrufers | `nvarchar(32)` | Die Nummer des Benutzers oder bot, der den Anruf erhalten hat. Bei einem eingehenden Anruf an einen Team Benutzer wird dies der Benutzer des Teams sein, beim ausgehend von Teams, die Benutzer anrufen, handelt es sich um den PSTN-Benutzer. |
-| 13 | Anruftyp | `nvarchar(32)` | Art und Richtung des Anrufs |
-| 14 | Azure-Bereich für Medien | `nvarchar(8)` | Das für den Medienpfad verwendete Rechenzentrum in einem nicht-Bypass-Anruf |
-| 15 | Azure-Bereich für Signalisierungen | `nvarchar(8)` | Das Rechenzentrum, das für die Signalisierung sowohl für Bypass-als auch für nicht-Bypass-Anrufe verwendet wird |
-| 16 | Endgültiger SIP-Code | `int` | Der Code, mit dem der Anruf beendet wurde, [RFC 3261](https://tools.ietf.org/html/rfc3261) |
-| 17 | Letzter Microsoft-Subcode | `int` | Zusätzlich zu den SIP-Codes hat Microsoft eigene Subcodes, die das jeweilige Problem angeben. |
-| 18 | Endgültige SIP-Phrase | `nvarchar(256)` | Beschreibung des SIP-Codes und des Microsoft-Subcodes |
-| 19 | SBC-FQDN | `nvarchar(64)` | Vollständig qualifizierter Domänenname des Session Border Controllers |
-| 20 | Medienumgehung | `nvarchar(3)` | Ja/Nein. Gibt an, ob der Trunk für die medienumgehung aktiviert wurde. |
-| 21 | Freigegebene Korrelations-ID | `uniqueidentifier` | Gibt an, dass zwei oder mehr Anrufe verbunden sind |
+> [!div class="has-no-wrap"]  
+> | # | Name | [Datentyp (SQL Server)](https://docs.microsoft.com/sql/t-sql/data-types/data-types-transact-sql) | Beschreibung |
+> | :-: | :-: | :-: |:------------------- |
+> | 0 | CorrelationId | `uniqueidentifier` | Eindeutige Anrufkennung |
+> | 1 | SIP-Adresse | `nvarchar(128)` | Die Adresse des Benutzers oder bot, der den Anruf getätigt oder empfangen hat.<br/>Beachten Sie, dass dies tatsächlich userPrincipalName (UPN, Anmeldename) in Azure Active Directory ist, das in der Regel mit der SIP-Adresse identisch ist. |
+> | 2 | Display Name | `nvarchar(128)` | Der Name eines Benutzers oder eines anrufenden bot (beispielsweise Anrufwarteschlange oder automatische Telefonzentrale), wie er im Microsoft 365 Admin Center eingestellt ist |
+> | 3 | Nutzer Land | `nvarchar(2)` | Landesvorwahl des Benutzers, [ISO 3166-1 Alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) |
+> | 4 | Einladungszeitpunkt | `datetimeoffset` | Wenn die Initiale Einladung vom Benutzer oder bot-Anruf an den SBC senden, an den SBC weitergeleitet wird oder bei einem eingehenden Team-oder bot-Anruf von der SIP-Proxy Komponente des direkten Routings vom SBC empfangen wird |
+> | 5 | Startzeitpunkt | `datetimeoffset` | Zeitpunkt, zu dem der SIP-Proxy die endgültige Antwort erhalten hat (SIP-Nachricht "200 OK") aus dem SBC für ausgehende (Teams/bot an einen PSTN-Benutzer) oder nachdem der SIP-Proxy die Einladung an den nächsten Hop innerhalb des Teams-Back-Ends bei einem eingehenden Anruf gesendet hat (PSTN-Benutzer zu einem Team/bot).<br/>Bei fehlgeschlagenen und unbeantworteten Anrufen kann dies gleich der Einladungs-oder Fehlerzeit sein. |
+> | 6 | Fehlerzeit | `datetimeoffset` | Nur bei fehlgeschlagenen (nicht vollständigen) anrufen vorhanden |
+> | 7 | Endzeitpunkt | `datetimeoffset` | Nur für erfolgreiche (vollständig eingerichtete) Anrufe vorhanden. Zeitpunkt, zu dem der Anruf beendet wurde |
+> | 8 | Dauer (Sekunden) | `int` | Dauer des Anrufs |
+> | 9 | Erfolg | `nvarchar(3)` | Ja/Nein. Erfolg oder Versuch |
+> | 10 | Rufnummernanzeige | `nvarchar(32)` | Die Nummer des Benutzers oder bot, der den Anruf getätigt hat. Bei einem eingehenden Anruf an einen Team Benutzer wird es sich um einen PSTN-Benutzer handeln, beim ausgehend von Teams-Benutzer anrufen wird die Benutzernummer des Teams. |
+> | 12 | Nummer des Anrufers | `nvarchar(32)` | Die Nummer des Benutzers oder bot, der den Anruf erhalten hat. Bei einem eingehenden Anruf an einen Team Benutzer wird dies der Benutzer des Teams sein, beim ausgehend von Teams, die Benutzer anrufen, handelt es sich um den PSTN-Benutzer. |
+> | 13 | Anruftyp | `nvarchar(32)` | Art und Richtung des Anrufs |
+> | 14 | Azure-Bereich für Medien | `nvarchar(8)` | Das für den Medienpfad verwendete Rechenzentrum in einem nicht-Bypass-Anruf |
+> | 15 | Azure-Bereich für Signalisierungen | `nvarchar(8)` | Das Rechenzentrum, das für die Signalisierung sowohl für Bypass-als auch für nicht-Bypass-Anrufe verwendet wird |
+> | 16 | Endgültiger SIP-Code | `int` | Der Code, mit dem der Anruf beendet wurde, [RFC 3261](https://tools.ietf.org/html/rfc3261) |
+> | 17 | Letzter Microsoft-Subcode | `int` | Zusätzlich zu den SIP-Codes hat Microsoft eigene Subcodes, die das jeweilige Problem angeben. |
+> | 18 | Endgültige SIP-Phrase | `nvarchar(256)` | Beschreibung des SIP-Codes und des Microsoft-Subcodes |
+> | 19 | SBC-FQDN | `nvarchar(64)` | Vollständig qualifizierter Domänenname des Session Border Controllers |
+> | 20 | Medienumgehung | `nvarchar(3)` | Ja/Nein. Gibt an, ob der Trunk für die medienumgehung aktiviert wurde. |
+> | 21 | Freigegebene Korrelations-ID | `uniqueidentifier` | Gibt an, dass zwei oder mehr Anrufe verbunden sind |
 
 
 ## <a name="related-topics"></a>Verwandte Themen

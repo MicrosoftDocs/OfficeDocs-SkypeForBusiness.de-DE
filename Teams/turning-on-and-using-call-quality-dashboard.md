@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Dashboard für die Anrufqualität aktivieren und verwenden und zusammenfassende Berichte über die Qualität von Anrufen erhalten.
-ms.openlocfilehash: bfb67c6246581513d06ad4489ab8c3b534ad04d4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 874b074047e191422d552236dea1d0f1e746780d
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43914054"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918842"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 
@@ -38,6 +38,30 @@ Hier erfahren Sie, wie Sie Ihre Microsoft 365 oder Office 365 so konfigurieren, 
 Das Anruf Qualitäts Dashboard (CQD) bietet Einblicke in die Qualität von anrufen, die mit Microsoft Teams und Skype for Business Online-Diensten getätigt wurden. In diesem Thema werden die Schritte beschrieben, mit denen Sie Daten sammeln können, um Probleme mit der Anrufqualität zu beheben.
 
 Derzeit stehen erweiterte CQD und CQD zur Verfügung. Advanced CQD ist verfügbar unter <span>https://cqd.teams.microsoft.com</span>. Neue URL, aber dieselbe Anmeldung mit Ihren Administratoranmeldeinformationen.
+
+## <a name="assign-roles-for-accessing-cqd"></a>Zuweisen von Rollen für den Zugriff auf CQD
+
+Zuweisen von [Rollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) für den Zugriff auf CQD für Personen, die Sie verwenden müssen. 
+
+In dieser Tabelle wird dargestellt, was jede einzelne Rollen in CQD tun darf:
+
+
+|  |Berichte anzeigen  |EUII-Felder anzeigen  |Berichte erstellen  |Gebäudedaten hochladen  |
+|---------|:-------:|:-------:|:-------:|:-------:|
+|Globaler Administrator     |Ja          |Ja          |Ja          |Ja          |
+|Teams-Dienstadministrator     |Ja          |Ja          |Ja          |Ja          |
+|Teams-Kommunikationsadministrator     |Ja          |Ja          |Ja          |Ja          |
+|Teams-Kommunikationssupporttechniker     |Ja          |Ja          |Ja         |Nein         |
+|Supportfachmann für die Teams-Kommunikation     |Ja         |Nein         |Ja         |Nein         |
+|Skype for Business-Administrator     |Ja          |Ja          |Ja          |Ja         |
+|Azure AD globaler Leseberechtigter |Ja         |Ja          |Ja         |Nein         |
+|Microsoft 365-berichtsleser<sup>1</sup>     |Ja         |Nein         |Ja         |Nein         |
+
+<sup>1</sup> neben dem Lesen von CQD-Berichten kann der Microsoft 365-berichtsleser alle [Aktivitätsberichte](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) im Admin Center sowie alle Berichte des [Microsoft 365-Inhaltspakets zur Einführung](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)anzeigen.
+
+> [!NOTE]
+> Wenn Sie keine EUII sehen („end-user identifiable information“ – identifizierbare Informationen über den Endbenutzer) und Sie eine der Rollen haben, die diese Informationen anzeigen dürfen, denken Sie daran, dass CQD EUII nur 30 Tage lang aufbewahrt. Alle Elemente, die älter als 30 Tage sind, werden gelöscht.
+
 
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>Verwenden von Power BI zum Analysieren von CQD-Daten
 
@@ -191,7 +215,7 @@ CQD-Zusammenfassungsberichte bieten eine Reihe von Funktionen, die für detailli
 |Support für Kunden Endpunktinformationen | Nur in <span>CQD.Teams.Microsoft.com<span/> | Nur in <span>CQD.Teams.Microsoft.com<span/> |
 |Unterstützung für Drilldown-Analyse   | Nein   | Ja   |
 |Medienzuverlässigkeitsmetriken   | Nein   | Ja   |
-|Sofort einsatzbereite Berichte   | Ja   | Ja    |
+|Sofort einsatzbereite Berichte   | Ja   | Ja   |
 |Übersichtsberichte   | Ja   | Ja    |
 |Berichtssatz pro Nutzer   | Nein   | Ja   |
 |Anpassung des Berichtssatzes (Hinzufügen, Löschen, Ändern von Berichten)   | Nein   | Ja   |
@@ -500,7 +524,7 @@ Diese Administratorrollen können auf CQD zugreifen, aber Sie können EUII (Endb
 - Microsoft 365-berichtsleser
 - Supportfachmann für die Teams-Kommunikation
 
-Weitere Informationen zu Rollen, die auf CQD zugreifen können – einschließlich EUII-Read [Zuweisen von Rollen für den Zugriff auf CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).
+Weitere Informationen zu Rollen, die auf CQD zugreifen können – einschließlich EUII-Read [Zuweisen von Rollen für den Zugriff auf CQD](#assign-roles-for-accessing-cqd).
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Warum werden in CQD Skype for Business-Informationen angezeigt, wenn ich nur für Teams gefiltert habe?
 

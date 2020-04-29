@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie die medienumgehung mit dem direkt Routing von Telefonsystemen planen, mit dem Sie den Pfad des Medien Verkehrs verkürzen und die Leistung verbessern können.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 316e94a2baafcecc9fb690f3d836e7c96c0b30ea
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: f5e053149670804e585d0cd61522f67a922b2b47
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901840"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918694"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planen der Medienumgehung mit direktem Routing
 
@@ -254,7 +254,8 @@ UDP/SRTP | Client | Sbchttps | 50 000 – 50 019  | Im SBC definiert |
 | UDP/SRTP | Sbchttps | Client | Im SBC definiert | 50 000 – 50 019  |
 
 
-Hinweis: Wenn Sie über ein Netzwerkgerät verfügen, das die Quell Anschlüsse des Clients übersetzt, stellen Sie sicher, dass übersetzte Ports zwischen dem Netzwerkgerät und dem SBC geöffnet sind. 
+> [!NOTE]
+> Wenn Sie über ein Netzwerkgerät verfügen, das die Quell Anschlüsse des Clients übersetzt, stellen Sie sicher, dass übersetzte Ports zwischen dem Netzwerkgerät und dem SBC geöffnet werden. 
 
 ### <a name="requirements-for-using-transport-relays"></a>Voraussetzungen für die Verwendung von Transport-Relays
 
@@ -262,7 +263,7 @@ Transport-Relays befinden sich im gleichen Bereich wie Medien Prozessoren (für 
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 und Office 365 gcc-Umgebungen
 
--52.112.0.0/14 (IP-Adressen von 52.112.0.1 nach 52.115.255.254)
+- 52.112.0.0/14 (IP-Adressen von 52.112.0.1 zu 52.115.255.254)
 
 ## <a name="office-365-gcc-dod-environment"></a>Office 365 gcc DoD-Umgebung
 
@@ -282,11 +283,12 @@ UDP/SRTP | Transport-Relay | Sbchttps | 50 000-59 999    | Im SBC definiert |
 | UDP/SRTP | Sbchttps | Transport-Relay | Im SBC definiert | 50 000 – 59 999, 3478, 3479     |
 
 
-Hinweis: Microsoft empfiehlt mindestens zwei Ports pro gleichzeitigen Anruf im SBC. Da Microsoft über zwei Versionen von Transport-Relays verfügt, müssen Sie Folgendes ausführen:
-
-- V4, das nur mit Portbereich 50 000 bis 59 999 funktionieren kann
-
-- V6, das mit Ports 3478, 3479, kompatibel ist
+> [!NOTE]
+> Microsoft empfiehlt mindestens zwei Ports pro gleichzeitigen Anruf im SBC. Da Microsoft über zwei Versionen von Transport-Relays verfügt, müssen Sie Folgendes ausführen:
+> 
+> - V4, das nur mit Portbereich 50 000 bis 59 999 funktionieren kann
+> 
+> - V6, das mit Ports 3478, 3479, kompatibel ist
 
 Zu diesem Zeitpunkt unterstützt Media Bypass nur die V4-Version von Transport-Relays. Wir werden die Unterstützung von V6 in Zukunft vorstellen. 
 
@@ -301,7 +303,7 @@ Der IP-Bereich für den Medien Verkehr ist
 
 ### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 und Office 365 gcc-Umgebungen
 
--52.112.0.0/14 (IP-Adressen von 52.112.0.1 nach 52.115.255.254)
+- 52.112.0.0/14 (IP-Adressen von 52.112.0.1 zu 52.115.255.254)
 
 ## <a name="office-365-gcc-dod-environment"></a>Office 365 gcc DoD-Umgebung
 
@@ -315,8 +317,8 @@ In der folgenden Tabelle wird der Portbereich der Medien Prozessoren (für alle 
 
 | Datenverkehr | Von | Bis | Quellport | Zielport|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Medienprozessor | Sbchttps | 49 152 – 53 247    | Im SBC definiert |
-| UDP/SRTP | Sbchttps | Medienprozessor | Im SBC definiert | 49 152 – 53 247     |
+UDP/SRTP | Medienprozessor | Sbchttps | 3478, 3479 und 49 152 – 53 247    | Im SBC definiert |
+| UDP/SRTP | Sbchttps | Medienprozessor | Im SBC definiert | 3478, 3479 und 49 152 – 53 247     |
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>Konfigurieren separater Trunks für medienumgehung und nicht medienumgehung  
 

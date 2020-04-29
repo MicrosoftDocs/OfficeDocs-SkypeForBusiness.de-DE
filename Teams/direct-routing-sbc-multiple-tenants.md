@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie einen Session Border Controller (SBC) für die Bereitstellung mehrerer Mandanten für Microsoft-Partner und/oder PSTN-Netzbetreiber konfigurieren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 061d0afec96e6c76e49f6471ea8ed2f673e33eba
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 883df3c78387d509f094f91bc346fc5b31f53690
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43901850"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918714"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -119,8 +119,8 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Off
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Dem Mandanten eine Basisdomäne hinzufügen und diese überprüfen
 
-1.    Wechseln Sie im Microsoft 365 Admin Center zu **Setup** > **Domains** > **Domain hinzufügen**.
-2.    Geben Sie im Feld Ihre **eigene Domäne eingeben** den FQDN der Basisdomäne ein. Im folgenden Beispiel ist die Basisdomäne *Customers.adatum.biz*.
+1. Wechseln Sie im Microsoft 365 Admin Center zu **Setup** > **Domains** > **Domain hinzufügen**.
+2. Geben Sie im Feld Ihre **eigene Domäne eingeben** den FQDN der Basisdomäne ein. Im folgenden Beispiel ist die Basisdomäne *Customers.adatum.biz*.
 
     ![Screenshot mit der Seite "Domäne hinzufügen"](media/direct-routing-2-sbc-add-domain.png)
 
@@ -129,8 +129,8 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Off
 
     ![Screenshot mit Bestätigung eines überprüften Domänennamens](media/direct-routing-3-sbc-verify-domain.png)
 
-5.    Klicken Sie auf **weiter**, und wählen Sie auf der Seite **DNS-Einstellungen aktualisieren** die Option **Ich möchte die DNS-Einträge selbst hinzufügen** aus, und klicken Sie auf **weiter**.
-6.    Deaktivieren Sie auf der nächsten Seite alle Werte (es sei denn, Sie möchten den Domänennamen für Exchange, SharePoint oder Teams/Skype for Business verwenden), klicken Sie auf **weiter**, und klicken Sie dann auf **Fertig stellen**. Stellen Sie sicher, dass sich Ihre neue Domäne im Status "Setup abgeschlossen" befindet.
+5. Klicken Sie auf **weiter**, und wählen Sie auf der Seite **DNS-Einstellungen aktualisieren** die Option **Ich möchte die DNS-Einträge selbst hinzufügen** aus, und klicken Sie auf **weiter**.
+6. Deaktivieren Sie auf der nächsten Seite alle Werte (es sei denn, Sie möchten den Domänennamen für Exchange, SharePoint oder Teams/Skype for Business verwenden), klicken Sie auf **weiter**, und klicken Sie dann auf **Fertig stellen**. Stellen Sie sicher, dass sich Ihre neue Domäne im Status "Setup abgeschlossen" befindet.
 
     ![Screenshot mit Domänen mit dem Status "Setup abgeschlossen"](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -227,7 +227,7 @@ Es wurden zwei neue Entitäten eingeführt:
 
 -    Carrier müssen nur einen einzigen trunk (Carrier trunk in der Carrier-Domäne) einrichten und verwalten, indem Sie den Befehl "CSOnlinePSTNGateway" verwenden. Im obigen Beispiel ist adatum.biz;
 -    Im Kundenmandanten muss der Netzbetreiber nur den FQDN des abgeleiteten Trunks zu den VoIP-Routing Richtlinien der Benutzer hinzufügen. Die Ausführung von New-CSOnlinePSTNGateway für einen trunk ist nicht erforderlich.
--     Der abgeleitete Stamm, wie der Name andeutet, erbt oder leitet alle Konfigurationsparameter vom Netzbetreiber Stamm ab. Beispiele
+-    Der abgeleitete Stamm, wie der Name andeutet, erbt oder leitet alle Konfigurationsparameter vom Netzbetreiber Stamm ab. Beispiele
 -    Customers.adatum.biz – der Carrier trunk, der im Carrier-Mandanten erstellt werden muss.
 -    Sbc1.Customers.adatum.biz – der abgeleitete Stamm in einem Kundenmandanten, der nicht in PowerShell erstellt werden muss.  Sie können einfach den Namen des abgeleiteten Trunks im Mandanten Mandanten in der Online-VoIP-Routing Richtlinie hinzufügen, ohne ihn zu erstellen.
 -   Der Netzbetreiber muss den DNS-Eintrag einrichten, der den FQDN des abgeleiteten Trunks zu Carrier SBC-IP-Adresse auflöst.

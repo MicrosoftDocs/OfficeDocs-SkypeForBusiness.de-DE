@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 44ea666d39427e6be6aa60a3c05af2a10ed1cc5e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: bb0b28805f06109109a1d7ba47b08f57112c9ee4
+ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780584"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43918724"
 ---
 # <a name="quality-of-experience-review-guide"></a>Leitfaden zur Überprüfung der Erlebnisqualität 
 
@@ -61,28 +61,6 @@ Dieser Leitfaden richtet sich an Beteiligten seitens der Partner und Kunden mit 
 
 Dieser Leitfaden ist auch für die Verwendung durch die benannten Qualitätsverantwortlichen vorgesehen. Weitere Informationen finden Sie unter [Die Rolle des Qualitätspioniers](4-envision-plan-my-service-management.md#the-quality-champion-role).
 
-## <a name="assign-roles-for-accessing-cqd"></a>Zuweisen von Rollen für den Zugriff auf CQD
-
-Bevor Sie diesen Leitfaden verwenden, stellen Sie sicher, dass Sie die richtigen [Mandantenrollen](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) zugewiesen haben, damit Sie auf CQD zugreifen können.
-
-In dieser Tabelle wird dargestellt, was jede einzelne Rollen in CQD tun darf:
-
-
-|  |Berichte anzeigen  |EUII-Felder anzeigen  |Berichte erstellen  |Gebäudedaten hochladen  |
-|---------|:-------:|:-------:|:-------:|:-------:|
-|Globaler Administrator     |Ja          |Ja          |Ja          |Ja          |
-|Teams-Dienstadministrator     |Ja          |Ja          |Ja          |Ja          |
-|Teams-Kommunikationsadministrator     |Ja          |Ja          |Ja          |Ja          |
-|Teams-Kommunikationssupporttechniker     |Ja          |Ja          |Ja         |Nein         |
-|Supportfachmann für die Teams-Kommunikation     |Ja         |Nein         |Ja         |Nein         |
-|Skype for Business-Administrator     |Ja          |Ja          |Ja          |Ja         |
-|Azure AD globaler Leseberechtigter |Ja         |Ja          |Ja         |Nein         |
-|Microsoft 365-berichtsleser<sup>1</sup>     |Ja         |Nein         |Ja         |Nein         |
-
-<sup>1</sup> neben dem Lesen von CQD-Berichten kann der Microsoft 365-berichtsleser alle [Aktivitätsberichte](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) im Admin Center sowie alle Berichte des [Microsoft 365-Inhaltspakets zur Einführung](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)anzeigen.
-
-> [!NOTE]
-> Wenn Sie keine EUII sehen („end-user identifiable information“ – identifizierbare Informationen über den Endbenutzer) und Sie eine der Rollen haben, die diese Informationen anzeigen dürfen, denken Sie daran, dass CQD EUII nur 30 Tage lang aufbewahrt. Alle Elemente, die älter als 30 Tage sind, werden gelöscht.
 
 ## <a name="what-is-quality"></a>Was ist Qualität?
 
@@ -645,7 +623,7 @@ _Tabelle 5 – Struktur der Gebäudedatei_
 | NetworkRange       | Zahl    | 26                        | Erforderlich    |
 | BuildingName       | String    | SEATTLE-SEA-1             | Erforderlich\*  |
 | OwnershipType      | String    | Contoso                   | Optional    |
-| BuildingType       | Zeichenfolge    | IT Termination            | Optional    |
+| BuildingType       | String    | IT Termination            | Optional    |
 | BuildingOfficeType | String    | Engineering (Technik)               | Optional    |
 | Stadt/Ort               | String    | Seattle                   | Empfohlen |
 | ZipCode            | String    | 98001                     | Empfohlen |
