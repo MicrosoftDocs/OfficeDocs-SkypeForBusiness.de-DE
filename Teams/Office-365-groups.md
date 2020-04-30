@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 414ca42153ab336500aa7b2e9de42dd9fe7f2708
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d82b8de29d8f73f439f158e96d1c61767a3bd019
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902120"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940692"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365-Gruppen und Microsoft Teams
 =====================================
@@ -55,4 +55,4 @@ Wenn Sie ein Team erstellen, erstellen Sie im Back-End eine Office 365-Gruppe un
 
 Die Gruppenfeatures und -funktionen für Ihre Benutzer sind davon abhängig, von wo aus Sie die Gruppenmitgliedschaft verwalten. Wenn Sie beispielsweise ein Mitglied aus einem Team entfernen, wird dieses auch aus der entsprechenden Office 365-Gruppe entfernt. Durch das Entfernen aus der Gruppe werden das Team und die Kanäle unmittelbar vom Teams-Client entfernt. Wenn Sie eine Person aus einer Gruppe über das Microsoft 365-Admin Center entfernen, hat diese keinen Zugriff mehr auf die anderen kollaborativen Elementen wie die SharePoint Online-Dokumentbibliothek, die Yammer-Gruppe oder freigegebene OneNote. Sie haben jedoch für etwa zwei Stunden weiterhin Zugriff auf die Chatfunktion des Teams.
 
-Eine bewährte Methode zum Verwalten von Teammitgliedern besteht darin, Mitglieder über den Teams-Client hinzuzufügen und zu entfernen, um sicherzustellen, dass die Weitergabe der Zugriffssteuerung an andere abhängige Cloud-Anwendungen ordnungsgemäß angewendet wird. Darüber hinaus wird dadurch vermieden, dass Benutzer den Eindruck haben, weiterhin auf die gewohnten Ressourcen zugreifen zu können (bis beim nächsten Synchronisierungszyklus der Zugriff auf eine bestimmte Komponente des Dienstes hinzugefügt oder widerrufen wird).  Wenn Sie Teammitglieder außerhalb des Teams-Clients (mithilfe des Microsoft 365 Admin Center, Azure AD oder Exchange Online PowerShell) hinzufügen oder entfernen, kann es bis zu zwei Stunden dauern, bis die entsprechenden Änderungen in Teams übernommen werden.
+Eine bewährte Methode zum Verwalten von Teammitgliedern besteht darin, Mitglieder über den Teams-Client hinzuzufügen und zu entfernen, um sicherzustellen, dass die Weitergabe der Zugriffssteuerung an andere abhängige Cloud-Anwendungen ordnungsgemäß angewendet wird. Darüber hinaus wird dadurch vermieden, dass Benutzer den Eindruck haben, weiterhin auf die gewohnten Ressourcen zugreifen zu können (bis beim nächsten Synchronisierungszyklus der Zugriff auf eine bestimmte Komponente des Dienstes hinzugefügt oder widerrufen wird).  Wenn Sie Teammitglieder außerhalb des Teams-Clients (mithilfe von Microsoft 365 Admin Center, Azure AD oder Exchange Online PowerShell) hinzufügen oder entfernen, kann es bis zu 24 Stunden dauern (in einigen Fällen mehr), damit Änderungen in Teams widergespiegelt werden.

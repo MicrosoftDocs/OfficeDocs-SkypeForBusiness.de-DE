@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18c545d6b3208bb5156a699deee71ee27b38b3f4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d3a6d946d6bf00e6e43a0f6678352e5b4e9b7629
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903120"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940672"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -345,6 +345,7 @@ Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Besprechung
 - Die Auflösung des eingehenden und ausgehenden Videostroms ist auf 720p-Auflösung limitiert. Hierbei handelt es sich um eine WebRTC-Einschränkung.
 - Es wird nur ein Videostream von einer eingehenden Kamera oder einem Bildschirmfreigabe Datenstrom unterstützt. Wenn eine eingehende Bildschirmfreigabe vorhanden ist, wird diese Bildschirmfreigabe anstelle des Videos des dominanten Sprechers angezeigt.
 - Ausgehende Bildschirmübertragung:
+    - Bildschirm Übertragungen aus Chats werden nicht unterstützt.
     - Die Anwendungsfreigabe wird nicht unterstützt.
 - Kontrolle und Kontrolle übernehmen:  
     - Wird während einer Bildschirmfreigabe-oder Anwendungsfreigabesitzung nicht unterstützt.

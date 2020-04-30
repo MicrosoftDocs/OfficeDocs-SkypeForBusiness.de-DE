@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um den Mitarbeitern in Ihrer Organisation zu helfen, mit Microsoft Teams produktiv zu arbeiten, insbesondere wenn sie als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef26f05e20aadeb46be2a553303bc686aded6215
-ms.sourcegitcommit: 5606f908c6efeb67713f5986b1d8575a896bb5bd
+ms.openlocfilehash: 98570e5ee634781467c373bebf1ec1fa4dc97e6d
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43506846"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940712"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>Unterstützung von Remotemitarbeitern in Microsoft Teams
 
@@ -77,7 +77,7 @@ Teilen Sie diese Ressourcen und Videos mit Ihren Endbenutzern, um sie bei ihren 
    - [Die 9 wichtigsten Methoden, mit denen Microsoft IT die Remotearbeit für die Mitarbeiter ermöglicht](https://www.microsoft.com/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
-1. Teams für Bildung
+1. Teams für Bildung 
    - Wenn Sie im Bildungswesen arbeiten und Lehrkräfte, Schüler/Studenten und Administratoren in Teams einrichten möchten, verwenden Sie Office 365 A1. Diese ﻿kostenlose Version von Office 365 ist für alle Bildungseinrichtungen verfügbar. Melden Sie sich unter [Kostenloses Office 365 für die gesamte Bildungseinrichtung nutzen](https://www.microsoft.com/microsoft-365/academic/compare-office-365-education-plans) an.
 
    - Lesen Sie unbedingt auch [Erste Schritte mit Teams für Fernunterricht](remote-learning-edu.md).

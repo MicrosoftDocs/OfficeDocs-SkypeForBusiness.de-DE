@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie mithilfe des Integritäts Dashboards die Verbindung zwischen dem Sitzungs Grenz Controller und dem direkten Routing überwachen.
-ms.openlocfilehash: a89377c798295267b1e75f3ffa6efc19b8c4c37d
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 55ae433428a8bb6fd42d4166e5d756432463b4ed
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42051801"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940742"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Status-Dashboard für direktes Routing
 
@@ -55,7 +55,7 @@ Das Integritäts Dashboard bietet die folgenden Informationen im Zusammenhang mi
 
    Die Formel zur Berechnung von ner ist:
 
-   NER = beantwortete Anrufe + Benutzer beschäftigt + Ring keine Antwort + Terminal Reject Anfälle x 100
+   NER = 100 x (beantwortete Anrufe + Benutzer beschäftigt + Ring keine Antwort + Terminal Reject Anfälle)/Gesamtkapital-Anrufe
 
  
 - **Durchschnittliche Anrufdauer** – Informationen zur durchschnittlichen Anrufdauer können Ihnen dabei helfen, die Qualität von Anrufen zu überwachen. Die durchschnittliche Dauer eines 1:1-PSTN-Anrufs beträgt vier bis fünf Minuten.  Für jedes Unternehmen kann dieser Mittelwert jedoch unterschiedlich sein.  Microsoft empfiehlt die Einrichtung eines Basisplans für die durchschnittliche Anrufdauer für Ihr Unternehmen. Wenn dieser Parameter deutlich unter dem Basisplan liegt, kann dies darauf hindeuten, dass Ihre Benutzer Probleme mit der Anrufqualität oder Zuverlässigkeit haben und früher als üblich auflegen. Wenn Sie eine extrem niedrige Durchschnittliche Anrufdauer sehen, beispielsweise 15 Sekunden, hängen Anrufer möglicherweise auf, weil Ihr Dienst nicht zuverlässig abläuft. 

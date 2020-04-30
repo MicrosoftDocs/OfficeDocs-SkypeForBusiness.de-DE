@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65ce8eb17efe434f5da288b89485e813b21190e4
-ms.sourcegitcommit: f3390e27bb63b66d1c4fb4f8afbda6b814fbbb5b
+ms.openlocfilehash: b870a15f885922563d8440d571dc5a6eb7ac7540
+ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170484"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43940782"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Schnellstart für Administratoren – Besprechungen und Liveereignisse in Microsoft Teams
 
@@ -59,7 +59,7 @@ Wenn Sie Ihr Netzwerk bereits beim Rollout von Microsoft 365 oder Office 365 vor
 
 - Sollten Ihre Benutzer Teams-Besprechungen noch nicht kennen, teilen Sie die Schulung [Besprechungen verwalten](https://support.office.com/article/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4) mit ihnen. Schauen Sie sich unsere kursleitergeführte Onlineschulung [Mit Teams effektive Besprechungen durchführen](https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings) an.
 
-- Informationen zum Verwalten von Besprechungsoptionen finden Sie unter [Ändern der Teilnehmereinstellungen für eine Teams-Besprechung](https://support.microsoft.com/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
+- Informationen zum Verwalten von Besprechungsoptionen finden Sie unter [Ändern der Teilnehmereinstellungen für eine Teams-Besprechung](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
 
 - Vergessen Sie nicht [die Verwaltung der Geräte ihrer Benutzer](device-management.md): Smartphones, Headsets, Kameras. Um die neuesten und aktuellen Informationen zu zertifizierten Geräten für Teams zu erhalten, navigieren Sie zu [Teams-Geräte](https://office.com/teamsdevices).
 
