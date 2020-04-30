@@ -23,7 +23,7 @@ ms.collection:
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
 ms.openlocfilehash: 25945b35ec4800a00ab295ba328d5f1d65ac2ab0
 ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 04/27/2020
 ms.locfileid: "43898170"
