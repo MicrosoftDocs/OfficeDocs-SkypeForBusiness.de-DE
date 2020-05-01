@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
-ms.openlocfilehash: ad76c2f4378a1f639abf98d115e4700fae7796c5
-ms.sourcegitcommit: 2d44f1a673316daf0aca3149571b24a63ca72772
+ms.openlocfilehash: d9619fbf39558597c0f6c168f57f8b240d3c2a20
+ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43227549"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952444"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
 
@@ -153,7 +153,11 @@ Wenn weitere Fehler außerhalb dieses Bereichs auftreten, Benachrichtigen Sie da
 
 **<sup>2</sup>** die Anmeldeinformationen, die Sie für CQD verwenden, müssen *nicht* dieselben Anmeldeinformationen sein, die Sie für die Anmeldung bei der Power BI-Desktop Anwendung verwenden.
 
+## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
+### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>Wann wird der Power BI-Connector über den Status "Beta" aktualisiert?
+
+Trotz des Beta-Tags ist der Connector für die Anrufqualität für Power BI die Veröffentlichungsversion des Connectors und wurde offiziell vom Power BI-Team signiert, um dies zu widerspiegeln. Das Zertifizierungsverfahren zum Entfernen dieses Beta-Tags ist umfangreich und erfordert eine Verpflichtung des Power BI-Teams, den Connector auch direkt zu unterstützen. Aus Zeitgründen ist das Power BI-Team derzeit nicht in der Lage, diese Unterstützung und umfassendere Zertifizierung bereitzustellen, ist aber weiterhin bereit, die Sicherheit, Authentizität und allgemeine Funktionalität des Microsoft Call Quality Connectors zu bezeugen.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

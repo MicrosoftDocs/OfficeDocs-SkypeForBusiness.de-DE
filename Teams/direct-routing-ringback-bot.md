@@ -11,16 +11,17 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie den Rückruf-bot für das direkte Routing verwenden, um unerwartete Stille zu verhindern, die auftreten können, wenn ein Anruf eingerichtet wird.
 localization_priority: Normal
+search.appverid: MET150
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a9ee3f227faa736d7fdda3ebedc755c8ac5049d
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 1db113a610c153f821a0d92187744e6ca34e3ce3
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41834995"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951190"
 ---
 # <a name="set-up-the-ringback-bot-for-direct-routing"></a>Einrichten des Begrüssungs-bot für direktes Routing
 

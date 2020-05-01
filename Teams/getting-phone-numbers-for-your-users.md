@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, wie Sie vorhandene Nummern für Teams neu abrufen, portieren oder übertragen und wie Sie die Änderungen für Ihre Benutzer anzeigen können. '
-ms.openlocfilehash: d2ac4a0a5e487b99cf8dbc303b85e6f4e3446ec8
-ms.sourcegitcommit: d7be89019dd5a3b88b0840bddf1b88fea8598ea7
+ms.openlocfilehash: 97d827d2fedbf12fd18519ac70a23bacdc78a58c
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170751"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951010"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -35,7 +35,7 @@ Es gibt drei Möglichkeiten zum Abrufen von Benutzernummern:
 
 - **Verwenden Sie das Microsoft Teams Admin Center.** In einigen Ländern und Regionen können Sie über das Microsoft Teams Admin Center Zahlen für Ihre Benutzer abrufen. Weitere Informationen finden Sie unter [Abrufen neuer Telefonnummern für Ihre Benutzer](#get-new-phone-numbers-for-your-users).
     
-- **Portieren von bestehenden Nummern.** Sie können vorhandene Nummern von Ihrem aktuellen Dienstanbieter oder Telefonnetzbetreiber portieren oder übertragen. Weitere Informationen dazu finden Sie unter [übertragen von Telefonnummern in Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) oder [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization) .  
+- **Portieren von bestehenden Nummern.** Sie können vorhandene Nummern von Ihrem aktuellen Dienstanbieter oder Telefonnetzbetreiber portieren oder übertragen. Über [Übertragen von Telefonnummern zu Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) oder [Rufnummern für Ihre Organisation verwalten](/microsoftteams/manage-phone-numbers-for-your-organization) erhalten Sie weitere hilfreiche Informationen.  
   
 - **Verwenden eines Anforderungsformulars für neue Telefonnummern.** Manchmal (je nach Land oder Region) können Sie Ihre neuen Telefonnummern nicht über das Microsoft Teams Admin Center abrufen, oder Sie benötigen bestimmte Telefonnummern oder Ortsvorwahl. Wenn dies der Fall ist, müssen Sie ein Formular herunterladen und es an uns zurücksenden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
   
@@ -44,10 +44,10 @@ Es gibt drei Möglichkeiten zum Abrufen von Benutzernummern:
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Erhalten von neuen Telefonnummern für Ihre Benutzer
 
-![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt
+![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
     
 1. Wechseln Sie in der linken Navigationsleiste zu **VoIP** > -**Telefonnummern**, und klicken Sie dann auf **Hinzufügen**.
-2. Geben Sie einen Namen für den Auftrag ein, und fügen Sie bei Bedarf eine Beschreibung hinzu.
+2. Geben Sie einen Namen für den Auftrag ein, und fügen Sie eine Beschreibung hinzu.
 3. Gehen Sie auf der Seite Ort und Menge wie folgt vor:
     1. Wählen Sie unter **Land oder Region**ein Land oder eine Region aus.
     2. Wählen Sie unter **Number Type**den Eintrag **User (Subscriber)** aus.
@@ -68,7 +68,7 @@ Es gibt drei Möglichkeiten zum Abrufen von Benutzernummern:
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Anzeigen der Telefonnummern für Ihre Organisation
 
-![Ein Symbol, das das Microsoft Teams](media/teams-logo-30x30.png) -Logo **mit dem Microsoft Teams Admin Center** zeigt 
+![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers** 
 
 Wechseln Sie in der linken Navigationsleiste zu **VoIP** > -**Telefonnummern** , um die Nummern für Ihre Organisation anzuzeigen, einschließlich Standort, Nummerntyp und Statusinformationen.
   

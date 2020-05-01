@@ -10,18 +10,19 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie die PowerShell-Steuerelemente für die Verwaltung von Microsoft Teams verwenden, einschließlich der Strukturierung von PowerShell-Cmdlets.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e95b3ab5bdb2b13dbd4c37eca413c865f54fde94
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 32370c234e46b860ab026efd6b284d3db3a1458e
+ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903040"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43951250"
 ---
 # <a name="teams-powershell-overview"></a>Übersicht über Teams PowerShell
 
