@@ -7,6 +7,7 @@
 ### [Anforderungen](requirements.md)
 ### [Onlinelizenzierung](rooms-licensing.md)
 ### [Planen der Verwaltung mit Azure Monitor](azure-monitor-plan.md)
+### [Verwaltungsplanung mit verwalteten Besprechungsräumen](managed-meeting-rooms.md)
 
 ## Bereitstellen
 ### [Übersicht zur Bereitstellung](rooms-deploy.md)
