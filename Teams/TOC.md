@@ -276,14 +276,6 @@
 #### [Verwenden von analogen Geräten mit Direct Routing](direct-routing-analog-devices.md)
 
 
-### [Migration zu direktem Routing](direct-routing-migrating.md)
-
-### Überwachung und Problembehandlung von direktem Routing
-#### [Übersicht](direct-routing-monitor-and-troubleshoot.md)
-#### [Health Dashboard](direct-routing-health-dashboard.md)
-### [Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität](direct-routing-user-accounts-in-a-hybrid-environment.md)
-
-
 ### Standortbasiertes Routing
 #### [Planen des standortbasierten Routings für direktes Routing](location-based-routing-plan.md)
 #### [Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing](location-based-routing-configure-network-settings.md)
@@ -297,12 +289,14 @@
 #### [Planen der Optimierung lokaler Medien](direct-routing-media-optimization.md)
 #### [Konfiguration der Optimierung lokaler Medien](direct-routing-media-optimization-configure.md)
 
-### Überwachung und Problembehandlung von direktem Routing
-#### [Übersicht](direct-routing-monitor-and-troubleshoot.md)
-#### [Health Dashboard](direct-routing-health-dashboard.md)
 ### [Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität](direct-routing-user-accounts-in-a-hybrid-environment.md)
 
 ### [Migration zu direktem Routing](direct-routing-migrating.md)
+
+### Überwachung und Problembehandlung von direktem Routing
+#### [Übersicht](direct-routing-monitor-and-troubleshoot.md)
+#### [Health Dashboard](direct-routing-health-dashboard.md)
+
 
 ### Technische Referenz für direktes Routing
 #### [Trunkfailover bei ausgehenden Anrufen](direct-routing-trunk-failover-on-outbound-call.md)
