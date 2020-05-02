@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b92307510b93e03157fd3c337d5d1928d4afa7d6
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 786f9269d4cb473b61d60adaf48bed4e4e8a9c03
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905867"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997266"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Definieren von Verwendungsszenarios für Microsoft Teams
 
@@ -70,6 +70,6 @@ Nachdem Sie sich mit einem oder mehreren geschäftlichen Stakeholdern unterricht
 ![Abbildung einer Szenario-Auswirkung vs. Schwierigkeitsgrad](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> Wir sind stets bemüht, zu erfahren, wie unsere Kunden Teams auf neue innovative Art und Weise nutzen. Teilen Sie Ihre #TeamsStories mit uns in unserem [Driving Adoption Discussion Forum]. Fügen Sie die hashtag- **#TeamsStories** in ihren Beitrag ein. Wir sind immer daran interessiert, wie Sie Teams in Ihrer Organisation verwenden.
+> Wir sind stets bemüht, zu erfahren, wie unsere Kunden Teams auf neue innovative Art und Weise nutzen. Teilen Sie Ihre #TeamsStories mit uns in unserem [Diskussionsforum zur Einführung von fahrgenehmigungen](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption). Fügen Sie die hashtag- **#TeamsStories** in ihren Beitrag ein. Wir sind immer daran interessiert, wie Sie Teams in Ihrer Organisation verwenden.
 
 ![Ein Symbol, das den nächsten](media/teams-adoption-next-icon.png) Schritt als nächstes darstellt: [Onboard Early Adopters und Feedback sammeln](teams-adoption-onboard-early-adopters.md).

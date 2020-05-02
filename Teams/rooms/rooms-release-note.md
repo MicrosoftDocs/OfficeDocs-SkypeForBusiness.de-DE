@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann die Anmerkungen zu dieser Version von Microsoft Teams rooms lesen, in denen kumulative Verbesserungen in Microsoft Teams-Räumen aufgeführt sind.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ecc7328f81da24bb750ec164bc614db2104179a7
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: ffc6b052fca002493b31a2f7c55f43cf9ce8804a
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905337"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997216"
 ---
 # <a name="release-notes"></a>Anmerkungen zu dieser Version
 
@@ -346,7 +346,7 @@ In diesem Update eingeführt:
 
 [Unterstützung für Microsoft Teams rooms aktuelle Branch-Versionen](rooms-lifecycle-support.md)
 
-[Bekannte Probleme für Microsoft Teams-Chatrooms](known-issues.md)
+[Support Teams in Ihrer Organisation](known-issues.md)
 
 [Plan für Microsoft Teams-Räume](rooms-plan.md)
 

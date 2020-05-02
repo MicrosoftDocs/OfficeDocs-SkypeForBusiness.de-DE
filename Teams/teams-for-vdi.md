@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3a6d946d6bf00e6e43a0f6678352e5b4e9b7629
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 11192ca8bc1fe7e273e687363bf327fcd0c3078e
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940672"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997166"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -353,7 +353,7 @@ Weitere Informationen zum Verwenden von PowerShell zum Verwalten von Besprechung
 - Wenn die Bildschirmübertragung in einer Multi-Monitor-Einrichtung erfolgt, wird nur der Hauptmonitor freigegeben.
 - Eine große DPI-Skalierung auf "GAV" wird nicht unterstützt.
 
-Informationen zu bekannten Problemen, die nicht mit VDI in Verbindung stehen, finden Sie unter [bekannte Probleme für Teams](Known-issues.md).
+Informationen zu bekannten Problemen, die nicht mit VDI in Verbindung stehen, finden Sie unter [Support Teams in Ihrer Organisation](Known-issues.md).
 
 ## <a name="troubleshooting"></a>Problembehandlung
 

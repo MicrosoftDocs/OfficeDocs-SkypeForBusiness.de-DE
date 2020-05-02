@@ -1,5 +1,5 @@
 ---
-title: Planen von Microsoft Teams-Räumen
+title: Plan für Microsoft Teams-Räume
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: sohailta
@@ -14,12 +14,12 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden die relevanten Planungsüberlegungen für die Bereitstellung von Microsoft Teams rooms, der nächsten Generation von Skype Room-Systemen, erläutert.
-ms.openlocfilehash: 1d5236c522a0f3da6f2c2686e34db9d665a93d15
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: b28c310ab5c00040490d359cf6b79445f0d1cc95
+ms.sourcegitcommit: 3325fd9de57367e9dd60685d1fef096921441a76
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825893"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997306"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planen von Microsoft Teams-Räumen
 
@@ -65,9 +65,9 @@ Sie können Microsoft Teams-Räume mit Microsoft Teams, Skype for Business Onlin
 
 Verwenden Sie den unten dargestellten Ansatz, der Sie durch Ihre Bereitstellung führt, und passen Sie die Beispiel Ausgaben an, die in diesen Artikeln nach Bedarf für Ihre Organisation bereitgestellt werden.
 
-Beginnen Sie mit dem Verständnis, welche Konferenzräume Sie haben, und sehen Sie sich an, was in Zukunft für Sie am besten geeignet ist, und navigieren Sie dann durch auswählen und Bereitstellen des benötigten Equipments, Vorbereiten Ihrer Websites, konfigurieren und Bereitstellen Ihres Diensts, Verwalten von Änderungen und Benutzerakzeptanz und Entwicklung von Betriebs-und Wartungsverfahren.
+Beginnen Sie mit dem Verständnis, welche Konferenzräume Sie haben, und sehen Sie sich an, was in Zukunft für Sie am besten geeignet ist, und navigieren Sie dann durch auswählen und Bereitstellen des benötigten Equipments, Vorbereiten Ihrer Websites, konfigurieren und Bereitstellen Ihres Diensts, Verwalten von Änderungen und Benutzerakzeptanz sowie entwickeln von Betriebs-und Wartungsverfahren.
 
-![Beginnen Sie mit dem Verständnis, was Sie haben, und sehen Sie sich an, was für Sie am besten geeignet ist, und navigieren Sie dann durch auswählen und Bereitstellen des benötigten Equipments, Vorbereiten Ihrer Websites, konfigurieren und Bereitstellen Ihres Diensts, Verwalten von Änderungen und Benutzerakzeptanz sowie Entwicklung Vorgangs-und Wartungsverfahren.](../media/room-systems-image2.png "Beginnen Sie mit dem Verständnis, was Sie haben, und sehen Sie sich an, was für Sie am besten geeignet ist, und navigieren Sie dann durch auswählen und Bereitstellen des benötigten Equipments, Vorbereiten Ihrer Websites, konfigurieren und Bereitstellen Ihres Diensts, Verwalten von Änderungen und Benutzerakzeptanz sowie Entwicklung Vorgangs-und Wartungsverfahren.")
+![Beginnen Sie mit dem Verständnis, was Sie haben, und sehen Sie sich an, was für Sie am besten geeignet ist, und navigieren Sie dann durch auswählen und Bereitstellen des benötigten Equipments, Vorbereiten Ihrer Websites, konfigurieren und Bereitstellen Ihres Diensts, Verwalten von Änderungen und Benutzerakzeptanz sowie entwickeln von Betriebs-und Wartungsverfahren.](../media/room-systems-image2.png "Beginnen Sie mit dem Verständnis, was Sie haben, und sehen Sie sich an, was für Sie am besten geeignet ist, und navigieren Sie dann durch auswählen und Bereitstellen des benötigten Equipments, Vorbereiten Ihrer Websites, konfigurieren und Bereitstellen Ihres Diensts, Verwalten von Änderungen und Benutzerakzeptanz sowie entwickeln von Betriebs-und Wartungsverfahren.")
 
 Möglicherweise müssen Sie diese Aktivitäten über mehrere Teams hinweg koordinieren. Wir bieten eine allgemeine Ansicht der wichtigsten Aktivitäten, die Sie behandeln sollten, sowie Vorschläge für die Teams, die normalerweise an der Bereitstellung und Verwaltung von Konferenzraum Systemen beteiligt sind, um Ihnen zu helfen, zu entscheiden, mit wem Sie arbeiten müssen.
 
@@ -87,7 +87,7 @@ Möglicherweise müssen Sie diese Aktivitäten über mehrere Teams hinweg koordi
 
 ## <a name="room-inventory-and-capability-planning"></a>Raum Inventar und Kapazitätsplanung
 
-Der erste Schritt besteht darin, die vorhandenen Besprechungs-und Konferenzräume Ihrer Organisation zu inventarisieren, um deren Umgebung, Raumgröße, Layout und Zweck zu verstehen und die Funktionen zu ermitteln, die für jeden Raum in der Zukunft zur Verfügung stehen sollen, beispielsweise die reichere die Funktionen für die Zusammenarbeit werden im Chatroom aktiviert. 
+Der erste Schritt besteht darin, die vorhandenen Besprechungs-und Konferenzräume Ihrer Organisation zu inventarisieren, um deren Umgebung, Raumgröße,-Layout und-Zweck zu verstehen und die Funktionen zu erkennen, die in Zukunft für jeden Raum gelten sollen, beispielsweise, welche umfangreicheren Funktionen für die Zusammenarbeit im Raum aktiviert werden. 
 
 Nachdem Sie eine Inventur der Geräte und Funktionen in jedem vorhandenen Raum erstellt haben, werden Ihre Anforderungen für diesen Raum in Ihre Geräteauswahl Planung eingespeist, um eine Rich-Conferencing-Lösung zu erstellen. Die für die einzelnen Räume benötigten Modalitäten (Audio, Video) sowie Raumgröße und-Zweck spielen eine wichtige Rolle bei der Entscheidung, welche Lösung für jeden Raum am besten geeignet ist. 
 
@@ -103,7 +103,7 @@ _Beispiel für Besprechung/Konferenzraum Inventar_
 | Standort  | Name des Raums | Zimmerkategorie | Anzahl der Personen  | Im Bereich? | Aktuelle Raumfunktionen       | Zukünftige Raumfunktionen     |
 |-----------|---------------|---------------|-----------------------|--------------|-------------------------------------|----------------------------------------------------------|
 | Londoner HQ | Curie         | Mittel        | 6&ndash;12                  | Ja          | Freisprechtelefon                        | 1 Bildschirm, Audio-und Video plus Präsentation<br>PSTN-Zugriff |
-| Sydney HQ | Hill          | Große         | 12&ndash;16                 | Ja          | Legacy-AV-Einheit, 1 Bildschirm und Kamera | 2 Bildschirme, Audio-und Video plus Präsentation<br>PSTN-Zugriff |
+| Sydney HQ | Hill          | Groß         | 12&ndash;16                 | Ja          | Legacy-AV-Einheit, 1 Bildschirm und Kamera | 2 Bildschirme, Audio-und Video plus Präsentation<br>PSTN-Zugriff |
 
 ## <a name="device-selection"></a>Geräteauswahl 
 
@@ -150,7 +150,7 @@ Ihre Organisation muss Überwachungs-, Verwaltungs-und Verwaltungsaufgaben konti
 
 Viele Organisationen verfügen über ein AV-Team oder einen Partner, der Ihre Konferenzräume und-Geräte verwaltet. Dieses Team sollte an einer Vereinbarung teilnehmen, wer die Microsoft Teams rooms-Geräte verwalten wird, die die Leistung überwachen und Softwareupdates und-Hotfixes bereitstellen. 
 
-Berücksichtigen Sie, welche Helpdesk-Warteschlange Sie Microsoft Teams rooms֪ – Verwandte Anrufe weiterleiten, und stellen Sie dem Helpdesk-Team eine FAQ zur Verfügung, damit Sie besser verstehen können, wie Sie Microsoft Teams-Räume verwenden und welche wichtigen Schritte zur Problembehandlung durchgeführt werden können. Ein guter Ausgangspunkt für diese FAQ sind die [Benutzer Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) und die [Liste der bekannten Probleme](known-issues.md).
+Berücksichtigen Sie, welche Helpdesk-Warteschlange Sie Microsoft Teams rooms֪ – Verwandte Anrufe weiterleiten, und stellen Sie dem Helpdesk-Team eine FAQ zur Verfügung, damit Sie besser verstehen können, wie Sie Microsoft Teams-Räume verwenden und welche wichtigen Schritte zur Problembehandlung durchgeführt werden können. Ein guter Ausgangspunkt für diese FAQ sind die [Benutzer Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) -und [Support Teams in Ihrer Organisation](known-issues.md).
 
 |    |     |
 |-----------|------------|

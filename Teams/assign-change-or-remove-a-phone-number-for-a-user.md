@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie eine geschäftliche Telefonnummer für Ihre Teams-Benutzer zuweisen, ändern oder entfernen, sodass externe Unternehmen und Kunden Sie anrufen können.
-ms.openlocfilehash: b406a303352afaf29537815e98aed2d660670f12
-ms.sourcegitcommit: 89a7c0427a5abbef838a17ae7eac6934c6176a35
+ms.openlocfilehash: 0be2d66d1a073a031b8112cf4aa8438cfc68b150
+ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982108"
+ms.lasthandoff: 05/02/2020
+ms.locfileid: "44006031"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer
 
@@ -48,6 +48,7 @@ Informationen dazu, wie Sie Anrufpläne in Teams erhalten und wie viel Sie Koste
 2. Wählen Sie auf der Seite **Telefonnummern** eine nicht zugewiesene Nummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**.  
 3. Suchen Sie im **Bearbeitungs** Bereich unter **zugewiesen an**nach dem Benutzer nach Anzeigename oder Benutzername, und klicken Sie dann auf **zuweisen**.
 4. Wenn Sie den zugehörigen Notfall Standort zuweisen oder ändern möchten, suchen Sie unter **Notfall Standort**nach dem Speicherort, und wählen Sie ihn aus.
+5. Je nachdem, ob Sie dem Benutzer eine e-Mail mit den Informationen zur Telefonnummer senden möchten, deaktivieren oder aktivieren Sie **e-Mail-Nutzer mit Telefonnummerninformationen**. Standardmäßig ist dies aktiviert. 
 6. Klicken Sie auf **Speichern**.
     > [!NOTE]
     > Aufgrund der Wartezeit zwischen Office 365 und Teams kann es bis zu 24 Stunden dauern, bis die Benutzer aktiviert werden. Wenn die Telefonnummer nach 24 Stunden nicht richtig zugewiesen wurde, [wenden Sie sich an den Support für Business-Produkte – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products). Wir helfen Ihnen gerne weiter!
