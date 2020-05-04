@@ -59,7 +59,7 @@
 ### [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md)
 ### [Verwenden integrierter und benutzerdefinierter Registerkarten](built-in-custom-tabs.md)
 ### [Verwenden von Microsoft 365 oder Office 365 und benutzerdefinierten Connectors](Office-365-custom-connectors.md)
-### [Verwalten Ihrer Branchen-App](manage-your-lob-apps.md)
+### [Verwalten Ihrer benutzerdefinierten Apps](manage-your-custom-apps.md)
 ### [App-Zertifizierung](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [App-Vorlagen für Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Verwalten der Aufgaben-App für Ihre Organisation](manage-tasks-app.md)
@@ -676,6 +676,7 @@
 
 <!-- ============================================================ -->
 # Überwachung, Verwaltung und Problembehandlung
+## [Unterstützen von Teams in Ihrer Organisation](Known-issues.md)
 ## [Überwachen und Verwalten des Lebenszyklus](monitor-call-quality-qos.md)
 ### [Handbuch für die Überprüfung der QoE (Quality of Experience)](quality-of-experience-review-guide.md)
 ### [Einrichten von QoS in Teams](QoS-in-Teams.md)
@@ -696,7 +697,6 @@
 ## [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](log-files.md)
 ## [Häufig gestellte Fragen: Unterstützung für Ihre Remotemitarbeiter](FAQ-support-remote-workforce.md)
 ## [Überprüfen der Dienstintegrität für Microsoft Teams](service-health.md)
-## [Bekannte Probleme für Microsoft Teams](Known-issues.md)
 ## [Supportressourcen für Microsoft Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 <!-- ============================================================ -->
