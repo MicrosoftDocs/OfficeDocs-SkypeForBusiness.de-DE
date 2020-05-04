@@ -26,7 +26,7 @@
 ## Verwalten
 ### [Verwaltung (Übersicht)](rooms-manage.md)
 ### [Wartung und Betrieb](rooms-operations.md)
-### [Bekannte Probleme](known-issues.md)
+### [Unterstützen von Teams in Ihrer Organisation](known-issues.md)
 ### [Geräte mit Azure Monitor](azure-monitor-manage.md)
 ### [Einstellungen mit einer XML-Datei](xml-config-file.md)
 ### [Überprüfen der Wiederherstellung](recovery-tool.md)
