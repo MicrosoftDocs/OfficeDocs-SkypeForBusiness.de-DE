@@ -1,4 +1,4 @@
-Teams unterstützt die folgenden Internetbrowser, wobei die Ausnahmen betreffend Anrufe und Konferenzen angeführt sind.
+Teams unterstützt die folgenden Internetbrowser, wobei die Ausnahmen betreffend Anrufe und Konferenzen angeführt sind. Diese Tabelle gilt für Betriebssysteme, die auf einem Desktopcomputer ausgeführt werden. 
 
 
 |Browser  |Anrufe – Audio, Video und Freigabe  |Konferenzen – Audio, Video und Freigabe<sup>1</sup> <sup>2</sup>  |
@@ -15,4 +15,6 @@ Teams unterstützt die folgenden Internetbrowser, wobei die Ausnahmen betreffend
 <sup>2</sup> "Hintergrundgeräusche ausblenden" ist nicht verfügbar, wenn Sie Teams in einem Browser ausführen. Dieses Feature ist nur im Desktopclient von Teams verfügbar.
 
 > [!NOTE]
-> Solange das Betriebssystem den unterstützten Browser ausführen kann, wird Teams unterstützt. So kann zum Beispiel Firefox unter Linux für Teams verwendet werden.
+> Solange das Betriebssystem den unterstützten Browser ausführen kann, wird Teams auf Desktopcomputern unterstützt. So kann zum Beispiel Firefox unter Linux für Teams verwendet werden.
+>
+> Für mobile Betriebssysteme empfehlen wir, dass Sie die Teams-App ausführen, die in den Android und IOS Stores zur Verfügung steht. Das Ausführen von Teams in einem mobilen Betriebssystem wird zwar unterstützt, aber viele Features stehen nicht zur Verfügung.
