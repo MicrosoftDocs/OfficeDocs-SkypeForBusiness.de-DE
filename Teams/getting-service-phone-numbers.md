@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: Hier erfahren Sie, wie Sie neue Telefonnummern abrufen und vorhandene Nummern für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschlangen (Service-Nummern) für Teams übertragen oder übertragen können.
-ms.openlocfilehash: 9eb88d46a9e993067e7a2fc8baf9847dea5b32d7
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 9ce7875f06677ab6b9a4ad61a9e30bf0df861bb8
+ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43136715"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44021987"
 ---
 # <a name="getting-service-phone-numbers"></a>Abrufen von Diensttelefonnummern
 
@@ -51,7 +51,7 @@ Es gibt drei Möglichkeiten zum Abrufen von Dienstnummern:
 ![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 1. Wechseln Sie in der linken Navigationsleiste zu **VoIP** > -**Telefonnummern**, und klicken Sie dann auf **Hinzufügen**.
-2. Geben Sie einen Namen für den Auftrag ein, und fügen Sie bei Bedarf eine Beschreibung hinzu.
+2. Geben Sie einen Namen für den Auftrag ein, und fügen Sie eine Beschreibung hinzu.
 3. Gehen Sie auf der Seite Ort und Menge wie folgt vor:
     1. Wählen Sie unter **Land oder Region**ein Land oder eine Region aus.
     1. Wählen Sie unter **Nummerntyp**den Typ der gewünschten Servicenummer aus.

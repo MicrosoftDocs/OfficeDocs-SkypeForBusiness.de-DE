@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie einen Session Border Controller (SBC) für die Bereitstellung mehrerer Mandanten für Microsoft-Partner und/oder PSTN-Netzbetreiber konfigurieren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 883df3c78387d509f094f91bc346fc5b31f53690
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 13d2dceb8cedc6e48d420619476cbf73c675785a
+ms.sourcegitcommit: e618396eb8da958983668ad0884b4481e1ed7b98
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918714"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44021997"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
@@ -253,7 +253,7 @@ Zum Einrichten eines Failovers für eine Multi-Tenant-Umgebung müssen Sie die f
 - Fügen Sie für jeden Mandanten die FQDNs für zwei unterschiedliche SBCS hinzu.  Beispiel:
 
    customer1.sbc1.contoso.com <br>
-   customer2.sbc2.contoso.com <br>
+   customer1.sbc2.contoso.com <br>
 
 - Geben Sie in den Online-VoIP-Routing Richtlinien der Benutzer beide SBCS.  Wenn ein SBC fehlschlägt, leitet die Routing Richtlinie Anrufe an den zweiten SBC weiter.
 

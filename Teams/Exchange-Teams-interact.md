@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba8e6439d1b0c8bb5795408f5cff39ef2c298fa4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 9475b323e1b9b04c5735a656eac5766b8a110810
+ms.sourcegitcommit: 48b24ccf133c9d03b0d1d4eea1ec275b2be5e3bb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43778731"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44016179"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams
 
@@ -50,7 +50,7 @@ Die folgende Tabelle enthält eine hilfreiche Kurzübersicht über die Verfügba
 |**Exchange Online**|Ja <sup>2</sup>|Ja <sup>2</sup>|Ja |Ja |Ja |Ja<sup>8</sup>|Ja |Ja |Ja <sup>7</sup>|Ja |Ja |Ja |Ja |
 |**Exchange Online Dedicated vNext**|Ja <sup>2</sup>|Ja <sup>2</sup>|Ja |Ja |Ja |Ja<sup>8</sup>|Ja |Ja |Ja <sup>7</sup>|Ja |Ja |Ja |Ja|
 |**Exchange Online Dedicated – Vorgängerversion** (Synchronisierung in Azure AD erforderlich)|Ja <sup>2</sup>|Ja <sup>2, 3</sup>|Ja <sup>4|Ja|Nein|Nein|Ja|Ja|Nein|Ja <sup>5|Ja <sup>6|Ja |Ja |
-|**Lokales Exchange lokal** (Synchronisierung mit Azure AD & OAuth-Konfiguration erforderlich)|Ja <sup>2</sup>| Ja <sup>2, 3</sup> |Ja <sup>4|Ja|Ja (Exchange 2016 CU3 +)|Ja<sup>8</sup> (Exchange 2016 CU3 +)|Ja |Ja|Nein|Ja <sup>5|Ja <sup>6|Ja |Ja |
+|**Lokales Exchange lokal** (Synchronisierung mit Azure AD & OAuth-Konfiguration erforderlich)|Ja <sup>2</sup>| Ja <sup>2</sup> |Ja <sup>4|Ja|Ja (Exchange 2016 CU3 +)|Ja<sup>8</sup> (Exchange 2016 CU3 +)|Ja |Ja|Nein|Ja <sup>5|Ja <sup>6|Ja |Ja |
 
 <sup>1</sup> Exchange 2016 CU3 und höher wird unterstützt.  
 
