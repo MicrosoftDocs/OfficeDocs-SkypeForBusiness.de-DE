@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3c93e01624883d9db755479baf6e87c80feba2e1
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 6c57ebda3d23135beb46febf13529b903958df6b
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43139594"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43780624"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Verschieben Ihrer Microsoft StaffHub-Teams in die Schichten in Microsoft Teams
 
@@ -78,7 +78,7 @@ Bevor Sie ein StaffHub-Team in Teams verschieben, stellen Sie Folgendes sicher:
 
 - Der angemeldete Benutzer ist ein globaler Administrator.
 - Teams ist für alle Benutzer im Mandanten aktiviert.
-- Die Erstellung von Office 365-Gruppen ist im Mandanten aktiviert.
+- Die Erstellung von Microsoft 365-Gruppen ist im Mandanten aktiviert.
 - Die teamStaffHub ist gültig.
 - Das StaffHub-Team verfügt über mindestens einen Teambesitzer.
 - Das StaffHub-Team enthält Mitglieder.

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Erfahren Sie, wie Sie Ihre Cloud Connector-Appliance für die Bereitstellung und die Verwendung mit dem Telefon System in Office 365 (Cloud PBX) vorbereiten.
-ms.openlocfilehash: 6dbbc7eb1639859f889d6674e9f000507912d35a
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: 21943dfd8b86bfeabb4cbd28b501b80a3f2b5c45
+ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41983840"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43779241"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Vorbereiten der Cloud Connector-Appliance
 
@@ -171,7 +171,7 @@ Berücksichtigen Sie beim Aktualisieren der INI-Datei Folgendes:
 
 - **Sitename:** Der Standardwert ist **site1**. Sie müssen es vor der Bereitstellung von Cloud Connector aktualisieren, da das Cmdlet beim Ausführen von **Register-ccappliance "** zum Registrieren einer Appliance auf einem vorhandenen oder neuen Standort den Standort Sitename **verwendet, um zu** ermitteln, welche Website registriert werden soll.
 
-     Wenn Sie die Appliance auf einem neuen Standort registrieren möchten, muss der Wert von **Sitename** eindeutig sein und sich von vorhandenen Websites unterscheiden. Wenn Sie die Appliance auf einem vorhandenen Standort registrieren möchten, muss der Wert für **Sitename** in. ini mit dem in der Office 365 Mandanten Konfiguration definierten Namen übereinstimmen. Wenn Sie eine Konfigurationsdatei von einer Website in eine andere kopieren, stellen Sie sicher, dass Sie den Wert **für Sitename für jeden** Standort entsprechend aktualisieren.
+     Wenn Sie die Appliance auf einem neuen Standort registrieren möchten, muss der Wert von **Sitename** eindeutig sein und sich von vorhandenen Websites unterscheiden. Wenn Sie die Appliance auf einem vorhandenen Standort registrieren möchten, muss der Wert für **Sitename** in. ini mit dem in der Konfiguration der Office 365 Organisation definierten Namen übereinstimmen. Wenn Sie eine Konfigurationsdatei von einer Website in eine andere kopieren, stellen Sie sicher, dass Sie den Wert **für Sitename für jeden** Standort entsprechend aktualisieren.
 
 - **Servername:** Der Servername sollte nicht den Domänennamen enthalten und sollte auf 15 Zeichen reduziert werden.
 
@@ -305,11 +305,11 @@ Das "cceservice"-Konto wird während der Skype for Business Cloud Connector Edit
 
 3. Legen Sie den Wert auf **aktiviert**fest.
 
-## <a name="set-up-your-office-365-tenant"></a>Einrichten des Office 365-Mandanten
+## <a name="set-up-your-office-365-organization"></a>Einrichten Ihrer Office 365 Organisation
 
-Ein Office 365 Mandant mit Skype for Business Online-und Telefon System in Office 365 ist erforderlich. Stellen Sie sicher, dass Ihr Mandant eingerichtet und konfiguriert ist, bevor Sie versuchen, Cloud Connector zu verwenden.
+Eine Office 365 Organisation mit Skype for Business Online-und Telefon System in Office 365 ist erforderlich. Stellen Sie sicher, dass Ihr Mandant eingerichtet und konfiguriert ist, bevor Sie versuchen, Cloud Connector zu verwenden.
 
-Für einige Office 365-Setupschritte müssen Sie die mandantenfähige Remote-PowerShell (TRPS) zum Konfigurieren Ihres Office 365 Mandanten verwenden. **Diese sollte auf dem Hostserver installiert sein.** Sie können das Skype for Business Online Modul für PowerShell unter: [Skype for Business Online, Windows PowerShell Module](https://www.microsoft.com/download/details.aspx?id=39366)herunterladen.
+Für einige Office 365-Setupschritte müssen Sie die mandantenfähige Remote-PowerShell (TRPS) verwenden, um Ihre Office 365 Organisation zu konfigurieren. **Diese sollte auf dem Hostserver installiert sein.** Sie können das Skype for Business Online Modul für PowerShell unter: [Skype for Business Online, Windows PowerShell Module](https://www.microsoft.com/download/details.aspx?id=39366)herunterladen.
 
 Erstellen Sie ein dediziertes Skype for Business Administratorkonto für die Online Verwaltung von Cloud Connector, beispielsweise CceOnlineManagmentAdministrator. Dieses Konto wird von Appliance zum Hinzufügen oder Entfernen von Appliance, aktivieren oder Deaktivieren des automatischen Betriebssystemupdates, aktivieren oder Deaktivieren der automatischen binären Aktualisierung verwendet. Legen Sie das Kennwort für dieses Konto so fest, dass es nie abläuft, damit Sie es nicht bei jedem Ablauf des Diensts ändern müssen.
 
