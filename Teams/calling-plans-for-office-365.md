@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Informationen zum Anrufplan (PSTN-Anrufplan) für Skype for Business-Optionen und zum Abrufen von Lizenzen für Ihre Organisation. '
-ms.openlocfilehash: c7e3d405e82613de8cfe5313c6dd93c0b5c29e0a
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 14e3727ae4e474b2b211df469b44e94b2cec8bf3
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905017"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041732"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Anrufpläne für Microsoft 365
 
@@ -58,19 +58,19 @@ Detaillierte Informationen zu den Nutzungsbeschränkungen und Nutzungsbestimmung
     ![Screenshot mit Option zum Kauf eines Sprachanruf Plans](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > Je nach Plan müssen Sie möglicherweise weitere Add-ons kaufen, bevor Sie Telefon System Lizenzen kaufen können. Weitere Informationen finden Sie unter "Lizenzoptionen basierend auf Ihrem Plan" in der [Microsoft Teams-Add-on-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    > Je nach Plan müssen Sie möglicherweise weitere Add-ons kaufen, bevor Sie Telefon System Lizenzen kaufen können. Weitere Informationen finden Sie unter [Lizenzierung für Microsoft Teams-Add-On](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. Nachdem Sie die Telefon System Lizenzen gekauft haben, können Sie den Anrufplan kaufen, indem Sie sich beim **Microsoft 365 Admin Center**anmelden, Abonnements für das **Abrechnungs** > **Kauf Services** > **-Add-on**auswählen und dann auf **Jetzt kaufen**klicken. Dort sehen Sie die Anrufpläne.
     
     ![Screenshot mit Optionen für Sprachanruf Pläne](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-Sie können abhängig von den Anforderungen Ihrer Organisation verschiedene Anrufpläne für verschiedene Benutzer kaufen und zuweisen. Nachdem Sie den gewünschten Anrufplan ausgewählt haben, fahren Sie mit Checkout fort. Sie weisen jedem Benutzer im Microsoft 365 Admin Center einen Plan zu. Informationen dazu finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md).
+Sie können abhängig von den Anforderungen Ihrer Organisation verschiedene Anrufpläne für verschiedene Benutzer kaufen und zuweisen. Nachdem Sie den gewünschten Anrufplan ausgewählt haben, fahren Sie mit Checkout fort. Sie weisen jedem Benutzer im Microsoft 365 Admin Center einen Plan zu. Informationen dazu finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md).
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>Verfügen Sie über einen Dienstanbieter, der lokale PSTN-Konnektivität für Hybrid Benutzer bereitstellt?
 
 Wenn dies der Fall ist, müssen Sie keinen Tarif für Anrufe kaufen. Office 365 Enterprise E5 enthält das **Telefon System** -Add-on, damit Sie zur Kasse gehen können.
   
-Weisen Sie anschließend den Benutzern im Microsoft 365 Admin Center die Enterprise E5-oder **Phone System** -Add-on-Lizenzen zu. Informationen dazu finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md).
+Weisen Sie anschließend den Benutzern im Microsoft 365 Admin Center die Enterprise E5-oder **Phone System** -Add-on-Lizenzen zu. Informationen dazu finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md).
   
 ## <a name="pricing-information"></a>Preisinformationen
 

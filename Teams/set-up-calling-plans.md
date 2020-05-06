@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Hier erfahren Sie, wie Sie Anrufpläne einrichten, einschließlich der in Ihrer Region verfügbaren ansichtspläne, kaufen & Lizenzen zuweisen, Telefonnummern erhalten und Notfalladressen & Speicherorten hinzufügen.
-ms.openlocfilehash: 4c470327b01b799dabc585db479e51e8ef37c41b
-ms.sourcegitcommit: cddaacf1e8dbcdfd3f94deee7057c89cee0e5699
+ms.openlocfilehash: 08db669cfb7ddb75f6a73610f112c682a016354b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43140878"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042402"
 ---
 # <a name="set-up-calling-plans"></a>Einrichten von Anrufplänen
 
@@ -45,7 +45,7 @@ Wenn für Ihr Land oder Ihre Region keine Anrufpläne zur Verfügung stehen, erw
     > [!TIP]
     > **Telefonsystem**-Lizenzen und Anrufpläne in Office 365 gehören zusammen, um die Option zum Kauf von Anrufplänen zu sehen, müssen Sie also zuerst über die **Telefonsystem**-Lizenzen verfügen.
   
-2. Weisen Sie zuerst die Lizenzen zu, und weisen Sie dann den Personen in Ihrer Organisation einen Anrufplan zu. Nähres hierzu erfahren Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md).
+2. Weisen Sie zuerst die Lizenzen zu, und weisen Sie dann den Personen in Ihrer Organisation einen Anrufplan zu. Weitere Informationen finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md).
     
 ## <a name="step-3-get-phone-numbers"></a>Schritt 3: Erhalten von Telefonnummern
 Es gibt drei Möglichkeiten, neue Benutzernummern zu erhalten:

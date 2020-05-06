@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0ae16216c5975407b3ec1c60a67231edd2ee8f1
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: cc6238e2cf9a3912cfa8cec765f63e6a553f4db1
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940970"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042492"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Aufgaben-app für Ihre Organisation in Microsoft Teams
 
@@ -28,7 +28,7 @@ ms.locfileid: "43940970"
 
 ## <a name="overview-of-tasks"></a>Übersicht über Aufgaben
 
-Mit der Aufgaben-app wird Microsoft Teams eine zusammenhängende Aufgabenverwaltung ermöglicht, wobei persönliche Aufgaben von Aufgaben und Team Aufgaben integriert werden, die von Planner an einem zentralen Ort unterstützt werden. Benutzer können auf Aufgaben als APP auf der linken Seite von Teams und als Registerkarte in einem Kanal innerhalb einzelner Teams zugreifen. Mit den **persönlichen Listen** und **Team Listen** in Aufgaben können Benutzer alle Ihre persönlichen und Team Aufgaben anzeigen und verwalten sowie deren Arbeit priorisieren. Aufgaben steht in den Desktop-, Web-und mobilen Clients von Teams zur Verfügung. 
+Die Aufgaben-app bietet Microsoft Teams eine zusammenhängende Aufgabenverwaltung, die die von [Microsoft](https://todo.microsoft.com/tasks/) bereitgestellten persönlichen Aufgaben und Team Aufgaben integriert, die von Planner an einem zentralen Ort unterstützt werden. Benutzer können auf Aufgaben als APP auf der linken Seite von Teams und als Registerkarte in einem Kanal innerhalb einzelner Teams zugreifen. Mit den **persönlichen Listen** und **Team Listen** in Aufgaben können Benutzer alle Ihre persönlichen und Team Aufgaben anzeigen und verwalten sowie deren Arbeit priorisieren. Aufgaben steht in den Desktop-, Web-und mobilen Clients von Teams zur Verfügung. 
 
 > [!NOTE]
 > Wenn wir die Aufgaben in den Microsoft Teams-Desktop Clients ausführen, wird der App-Name zunächst als **Planner** für die Benutzer angezeigt. Der Name wechselt dann temporär in **Aufgaben nach Planner und zu erledigen**, und später wird er in **Aufgaben**umbenannt. Auf mobilen Teams werden die Benutzer immer den Namen der App als **Aufgaben**sehen. Es kann eine kurze Verzögerung bei der Verfügbarkeit der mobilen Benutzeroberfläche geben, nachdem die Desktopumgebung verfügbar ist.

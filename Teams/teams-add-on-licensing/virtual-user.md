@@ -20,14 +20,14 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie einem kostenlosen Telefonsystem – einer virtuellen Benutzerlizenz oder einer gebührenpflichtigen Telefonsystem-Benutzerlizenz Ressourcenkonten in Ihrer Organisation zuweisen.
-ms.openlocfilehash: 5a60e757f4ed9dbca67219217257894a8f95a295
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: cd70b4a1d24bf762c5aa1508d29a9ce343cf4b76
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43904787"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042412"
 ---
-# <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Phone System – virtuelle Benutzerlizenz 
+# <a name="microsoft-365-phone-system--virtual-user-license"></a>Microsoft 365 Phone System – virtuelle Benutzerlizenz
 
 Organisationen mit lizenzierten Telefonsystem Benutzern können einem kostenlosen Microsoft 365-Telefonsystem – einer virtuellen Benutzerlizenz oder einer gebührenpflichtigen Telefonsystem-Benutzerlizenz für Ressourcenkonten zuweisen. Ein Anrufplan ist nicht erforderlich. Für alle automatischen Telefonzentralen oder Anrufwarteschlangen ist ein zugeordnetes Ressourcenkonto erforderlich. Ressourcenkonten, für die eine Telefonnummer erforderlich ist, benötigen ein kostenloses Microsoft 365-Telefonsystem – eine virtuelle Benutzerlizenz oder eine gebührenpflichtige Telefonsystem-Benutzerlizenz, bevor eine Telefonnummer auf das Ressourcenkonto angewendet werden kann.
 
@@ -41,7 +41,7 @@ Organisationen mit lizenzierten Telefonsystem Benutzern können einem kostenlose
 In Ihrer Organisation wird Microsoft 365 Phone System – virtuelle Benutzerlizenzen abhängig von der Gesamtgröße zugeteilt. Jede Organisation, die über mindestens eine Lizenz mit Telefonsystem oder über das Telefonsystem verfügt, verfügt über 25 virtuelle Benutzerlizenzen, die kostenlos zur Verfügung stehen. Wenn Sie in Ihrer Organisation 10 Telefonsystem-Benutzerlizenzen hinzufügen, wird eine weitere Microsoft 365-Telefonsystem – virtuelle Benutzerlizenz verfügbar.
 
 > [!NOTE]
-> Telefon System ist eine Add-on-Lizenz, die mit Office 365 E1 und E3 zur Verfügung steht. Das Telefon System ist auch Teil der Office 365 E5-und Microsoft 365 Business Voice-Lizenzen.
+> Telefon System ist eine Add-on-Lizenz, die mit Microsoft 365 und Office 365 E1 und E3 zur Verfügung steht. Das Telefon System ist auch Teil der Microsoft 365 E5-, Office 365 E5-und Microsoft 365 Business Voice-Lizenzen.
 
 Wenn Ihre Organisation das verfügbare ﻿kostenlose Microsoft 365-Telefonsystem – virtuelle Benutzerlizenzen beim Erstellen von automatischen Telefonzentralen oder Anruf Warteschlangen Knoten – verwendet, können Sie weiterhin die gebührenpflichtigen Telefonsystem Lizenzen mit einem Ressourcenkonto verwenden. Die meisten Organisationen verfügen über genügend virtuelle Benutzerlizenzen basierend auf dem Skalierungs Plan. 
 

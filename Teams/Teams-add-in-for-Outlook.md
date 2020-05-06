@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca163d2a705b4aaebc77c03dbf4c92edf9c5d601
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 4d9e288037b82b3d5b0cccab133debdfa2d7d66b
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749572"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042212"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 =======================================
@@ -124,12 +124,12 @@ Führen Sie die folgenden Schritte aus, um Probleme mit dem Add-in "Teams-Bespre
 
 Wenn Sie das Add-In für Teams-Besprechungen für Outlook nicht installieren können, versuchen Sie diese Schritte zur Problembehandlung.
 
+- Benutzer von Windows 7 müssen das [Update für Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) installieren, damit das Add-In für die Teams-Besprechung funktioniert.
 - Überprüfen Sie, ob der Benutzer über eine Upgrade-Richtlinie für Teams verfügt, die das Planen von Besprechungen in Teams ermöglicht. Weitere Informationen finden Sie unter [Upgrade von Skype for Business in Teams](https://docs.microsoft.com/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) .
 - Überprüfen Sie, ob der Benutzer über eine Team-Besprechungsrichtlinie verfügt, die das Outlook-Add-in zulässt. Weitere Informationen finden Sie unter [Verwalten von Besprechungsrichtlinien in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams#allow-the-outlook-add-in) .
 - Stellen Sie sicher, dass der Benutzer den Desktop Client von Teams installiert hat. Das Besprechungs-Add-in wird nicht installiert, wenn nur der Team-WebClient verwendet wird.
-- Stellen Sie sicher, dass der Benutzer über die Berechtigung zum Ausführen von "regsvr32. exe" verfügt.
+- Stellen Sie sicher, dass der Benutzer über die Berechtigung zum Ausführen von "regsvr32. exe" verfügt.  Weitere Informationen zur Überprüfunghttps://support.microsoft.com/help/249873/how-to-use-the-regsvr32-tool-and-troubleshoot-regsvr32-error-messages
 - Stellen Sie sicher, dass alle verfügbaren Updates für Outlook-Desktop Client angewendet wurden.
-- Stellen Sie sicher, dass der Name des angemeldeten Benutzerkontos keine Leerzeichen enthält. (Dies ist ein bekanntes Problem, das in einem zukünftigen Update behoben wird.)
 - Führen Sie die folgenden Schritte aus:
   - Starten Sie den Teams-Desktopclient neu.
   - Melden Sie sich ab, und melden Sie sich dann wieder beim Teams-Desktopclient an.

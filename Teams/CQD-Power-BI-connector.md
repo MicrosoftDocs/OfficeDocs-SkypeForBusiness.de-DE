@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
-ms.openlocfilehash: d9619fbf39558597c0f6c168f57f8b240d3c2a20
-ms.sourcegitcommit: 5692900c0fc0a2552fe3f8ece40920c839e1ea23
+ms.openlocfilehash: 9274394c15e76aa985cf9e0a005963b79e0acac9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43952444"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042592"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
 
@@ -158,6 +158,16 @@ Wenn weitere Fehler außerhalb dieses Bereichs auftreten, Benachrichtigen Sie da
 ### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>Wann wird der Power BI-Connector über den Status "Beta" aktualisiert?
 
 Trotz des Beta-Tags ist der Connector für die Anrufqualität für Power BI die Veröffentlichungsversion des Connectors und wurde offiziell vom Power BI-Team signiert, um dies zu widerspiegeln. Das Zertifizierungsverfahren zum Entfernen dieses Beta-Tags ist umfangreich und erfordert eine Verpflichtung des Power BI-Teams, den Connector auch direkt zu unterstützen. Aus Zeitgründen ist das Power BI-Team derzeit nicht in der Lage, diese Unterstützung und umfassendere Zertifizierung bereitzustellen, ist aber weiterhin bereit, die Sicherheit, Authentizität und allgemeine Funktionalität des Microsoft Call Quality Connectors zu bezeugen.
+
+### <a name="why-does-the-connector-seem-so-slow-compared-to-advanced-cqd-in-browser-what-can-i-do-to-improve-performance"></a>Warum scheint der Verbinder im Vergleich zu erweiterten CQD im Browser so langsam zu sein? Was kann ich tun, um die Leistung zu verbessern?
+
+Die Abfrageleistung für die verschiedenen Vorlagen ist sowohl im Browser als auch im Connector identisch. Der Unterschied besteht in der Anzahl der gleichzeitigen Abfragen, die ausgeführt werden. Da die in-Browser-Version von CQD weniger gut entwickelte und Informationsdichte Visualisierungsoptionen aufwies, waren die meisten unserer Berichte auf das Laden von 2-3-Abfragen auf einmal limitiert. Auf der anderen Seite werden in den Connector-Vorlagen häufig 20 + gleichzeitige Abfragen angezeigt. Wenn Sie Berichte erstellen möchten, die genauso reaktionsfähig sind wie die älteren, die Sie verwendet haben, versuchen Sie, Berichte mit nicht mehr als 2-3-Abfragen pro Registerkarte zu erstellen.
+
+### <a name="i-find-that-i-routinely-run-into-the-10000-row-limit-when-running-queries-how-can-i-get-the-connector-to-return-more-than-10000-rows"></a>Ich finde, dass ich beim Ausführen von Abfragen regelmäßig in die 10.000-Zeilenbeschränkung verfüge. Wie erhalte ich den Connector, um mehr als 10.000 Zeilen zurückzugeben?
+
+Der Grenzwert für die 10.000-Zeile ist tatsächlich auf dem API-Ende angegeben und soll die Leistung erheblich verbessern und das Risiko von Abfrage Ausführungsfehlern verringern, die sich aus unzureichendem Arbeitsspeicher ergeben.
+
+Anstatt zu versuchen, die Anzahl der Ergebniszeilen zu erhöhen, empfiehlt es sich, die Berichte entsprechend den bewährten Methoden des Connectors umzustrukturieren. Die Vorlagen, die wir enthalten, wurden entwickelt, um diese bewährten Methoden zu veranschaulichen. Beginnen Sie, wenn möglich, mit einem Blick auf Ihre KPIs, indem Sie umfassendere, geringere Kardinalitäts Dimensionen verwenden, wie etwa Monat, Jahr, Datum, Region, Land usw. Von dort aus können Sie einen Drilldown in zunehmend höhere Kardinalität-Dimensionen durchführen. Die Berichte Helpdesk und Standort optimiert bieten beide gute Beispiele für diesen Drilldown-Workflow.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

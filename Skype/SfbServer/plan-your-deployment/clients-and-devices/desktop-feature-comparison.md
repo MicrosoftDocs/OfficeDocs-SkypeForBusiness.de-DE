@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Zusammenfassung: Skype for Business Server 2015 oder Skype for Business Online Administratoren können diese Tabellen verwenden, um zu verstehen, welche Features auf welchen Clients unterstützt werden.'
-ms.openlocfilehash: c07955758f86e31eb947a99ce8ba0e8dc7a44b30
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2da6ed53ea70e6a3065b283456ccf028fd04ca6f
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777800"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041952"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Vergleich der Desktop Clientfeatures für Skype for Business Server 2015
 
@@ -188,7 +188,7 @@ Diese Tabelle enthält Funktionen im Zusammenhang mit der Unterstützung von Spr
 |Gruppenanrufannahme  |&#x2714;||&#x2714; &#x2776; ||||&#x2714;|||
 |Standortbasierte Weiterleitung  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;||&#x2714;|
 |Verwalten der Reaktionsgruppe/Team anrufgruppe |&#x2714;||&#x2714;|||||||
-
+|Anruf der automatischen Telefonzentrale beantworten |&#x2714;||&#x2714;|||||||
  &#x2776; dieses Feature ist in Skype for Business Online nicht verfügbar.
   
 ## <a name="external-users-support"></a>Unterstützung externer Benutzer

@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um die Remote-Mitarbeitern in Ihrer behördlichen Organisation dabei zu unterstützen, mit Microsoft Teams produktiv zu arbeiten, insbesondere wenn sie als Reaktion auf den Ausbruch von COVID-19 (Coronavirus) von zu Hause aus arbeiten (Work from home – WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35bd251b4b8ef6a13263148c5fbb2245256dad3f
-ms.sourcegitcommit: 4e1647d19501b37860d9fc79370fa4347f76f85f
+ms.openlocfilehash: 92d7e2d151b467cabf387791f635fb284c99fca1
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43079387"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042382"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>Unterstützung von Remote-Mitarbeitern von Behörden in Microsoft Teams
 
@@ -33,7 +33,7 @@ Erfahren Sie, wie Sie Teams in Ihrer Organisation bereitstellen können:
 
   - Stellen Sie sicher, dass jeder Zugriff auf Teams hat, und verwenden Sie dazu das ﻿kostenlose 6-monatige **[Office 365 G1-Angebot](../g1-trial-license.md)**. Wenden Sie sich an Ihr Microsoft-Konto-Team oder Ihren Microsoft-Partner, wenn Sie Hilfe benötigen.
 
-  - Wenn Sie bereits über ein Abonnement verfügen, stellen Sie sicher, dass für jeden **[Teams aktiviert](../assign-teams-licenses.md)** ist.
+  - Wenn Sie bereits über ein Abonnement verfügen, stellen Sie sicher, dass für jeden **[Teams aktiviert](../user-access.md)** ist.
 
   - Um eine schnelle Bereitstellung zu ermöglichen, rufen Sie [**Teams FastPath PowerPoint**](https://aka.ms/TeamsGovFastPath) auf, um Teams in Ihrer Organisation bereitzustellen.
 

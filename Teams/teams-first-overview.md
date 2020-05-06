@@ -15,12 +15,12 @@ description: Verwenden Sie diese Anleitung, um Microsoft Teams als erste Office 
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9db6b2192224e796475c903cf5eeeaa06ecdc8ee
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2cd8fc92d3f46df8bcfaa07a96b69b84790750aa
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780374"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041712"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Microsoft Teams zuerst Ausrollen
 
@@ -43,7 +43,7 @@ Für den Einstieg in die erste Bereitstellung Ihrer Teams müssen Sie mindestens
     Informationen zu den mit der Aad-Synchronisierung synchronisierten Attributen finden Sie unter [Azure AD Connect-Synchronisierung: Attribute, die mit Azure Active Directory synchronisiert](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized) werden.
 
 3.  Für Teams zugewiesene Benutzerlizenzen  
-    Informationen zum Verständnis der Teams-Lizenzierung finden Sie unter [Office 365-Lizenzierung für Microsoft Teams](office-365-licensing.md) .
+    Wenn Sie die Lizenzierung von Teams verstehen möchten, lesen Sie [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 4.  Netzwerk der Organisation für Teams vorbereitet  
     Wenn Sie die Netzwerk Vorbereitung verstehen möchten, lesen Sie [Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md).
@@ -54,7 +54,7 @@ Für den Einstieg in die erste Bereitstellung Ihrer Teams müssen Sie mindestens
 > Mandanten, die nach dem 1. September 2019 erstellt wurden, werden im Modus "nur für Teams" bereitgestellt.
 > 
 > [!IMPORTANT]
-> Wenn Sie über Skype for Business Server verfügen und Ihr Mandant nach dem 1. September 2019 bereitgestellt wurde, wenden Sie sich bitte an den Premier-Support, um die koexistenzfunktionen für Teams zu aktivieren. Stellen Sie sicher, dass Ihre "organisationsweite Upgrade-Richtlinie" auf "inselmodus" gesetzt ist, <span class="underline">bevor</span> Sie einem Benutzer Teams-Lizenzen zuweisen.
+> Wenn Sie über Skype for Business Server verfügen und Ihr Mandant nach dem 1. September 2019 bereitgestellt wurde, wenden Sie sich bitte an den Support, um koexistenzfunktionen für Teams zu ermöglichen. Stellen Sie sicher, dass Ihre "organisationsweite Upgrade-Richtlinie" auf "inselmodus" gesetzt ist, <span class="underline">bevor</span> Sie einem Benutzer Teams-Lizenzen zuweisen.
 
 ## <a name="migration-starting-points"></a>Migrations Ausgangspunkte
 
@@ -233,7 +233,7 @@ Weitere Informationen finden Sie hier: <a href="https://docs.microsoft.com/micro
 
 1.  Erfüllen Sie die Voraussetzungen, die im Abschnitt Start hier oben beschrieben sind.
 
-2.  Wechseln des Mandanten in den Inseln-Modus (für Mandanten, die nach 9/1/2019 bereitgestellt werden, wenden Sie sich bitte an den Premier-Support, um diese Änderung vorzunehmen)  
+2.  Wechseln des Mandanten in den Inseln-Modus (für Mandanten, die nach 9/1/2019 bereitgestellt werden, wenden Sie sich bitte an den Support, um diese Änderung vorzunehmen).  
     [Festlegen Ihrer Einstellungen für Koexistenz und Upgrades](setting-your-coexistence-and-upgrade-settings.md)
 
 3.  Konfigurieren Ihres Mandanten in Übereinstimmung mit den Geschäfts-und Unternehmensrichtlinien Ihres Unternehmens  

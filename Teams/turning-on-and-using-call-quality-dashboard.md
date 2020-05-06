@@ -24,12 +24,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie das Dashboard für die Anrufqualität aktivieren und verwenden und zusammenfassende Berichte über die Qualität von Anrufen erhalten.
-ms.openlocfilehash: 874b074047e191422d552236dea1d0f1e746780d
-ms.sourcegitcommit: 0835f4335ebc8ca53b8348e0b1b906828eb4e13e
+ms.openlocfilehash: 95c4a777576b2cf574ba76d7f1b19de69f64dc88
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43918842"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44047377"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Aktivieren und Verwenden des Dashboards für die Anrufqualität für Microsoft Teams und Skype for Business Online
 
@@ -482,6 +482,8 @@ Erstellen Sie detaillierte Berichte in CQD, und Filtern Sie nach Besprechungs-ID
  
 Die Telemetrie Ruft das Problem nicht unbedingt auf, aber es kann Ihnen helfen, besser zu verstehen, wo ihre Entscheidungen zu suchen sind. Handelt es sich um Netzwerk-, Geräte-, Treiber-oder Firmware-Updates, Verwendung oder Benutzer?
 
+### <a name="why-do-i-see-upto-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>Warum sehe ich eine Abweichung von 0,2% in den Anruf-und Benutzer Zähl Werten für Measures und wie erhalte ich die meisten exakten Volumes? 
+Zum Berechnen der Anzahl von aufrufen und der Anzahl der Benutzer zählen wird ein unterschiedlicher ZÄHLENWENN-Vorgang für den Anruf oder die Benutzer-IDs in der Datengruppe ausgeführt. Bei umfangreichen Datensätzen gibt es einen Fehler inherient von bis zu 0,2% mit dem eindeutigen ZÄHLENWENN Funktionalität. Für die genaueste Lautstärke sollten Sie sich auf die Datenstromanzahl-Measures verlassen, da Sie nicht auf diesen eindeutigen ZÄHLENWENN-Vorgang angewiesen sind. Das Filtern, um die Datenmenge zu verringern, kann den Fehler reduzieren, elimnate diese Fehlerquelle aber möglicherweise nicht in unterschiedlichen Anruf-und Nutzerzahlen. Beziehen Sie sich auf [Dimensionen und Maße, die im Dashboard für die Anrufqualität zur Verfügung stehen](dimensions-and-measures-available-in-call-quality-dashboard.md) , für die Maßnahmen betroffen sind.
 
 ### <a name="why-does-my-cqd-v2-report-data-look-different-than-the-cqd-v3-report-data"></a>Warum sehen meine CQD v2-Berichtsdaten anders aus als die CQD V3-Berichtsdaten? 
 

@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d82b8de29d8f73f439f158e96d1c61767a3bd019
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: b83113df089d22aeab705f0eb4ebc1d808b25c28
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940692"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041932"
 ---
 <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365-Gruppen und Microsoft Teams
 =====================================
@@ -56,3 +56,11 @@ Wenn Sie ein Team erstellen, erstellen Sie im Back-End eine Office 365-Gruppe un
 Die Gruppenfeatures und -funktionen für Ihre Benutzer sind davon abhängig, von wo aus Sie die Gruppenmitgliedschaft verwalten. Wenn Sie beispielsweise ein Mitglied aus einem Team entfernen, wird dieses auch aus der entsprechenden Office 365-Gruppe entfernt. Durch das Entfernen aus der Gruppe werden das Team und die Kanäle unmittelbar vom Teams-Client entfernt. Wenn Sie eine Person aus einer Gruppe über das Microsoft 365-Admin Center entfernen, hat diese keinen Zugriff mehr auf die anderen kollaborativen Elementen wie die SharePoint Online-Dokumentbibliothek, die Yammer-Gruppe oder freigegebene OneNote. Sie haben jedoch für etwa zwei Stunden weiterhin Zugriff auf die Chatfunktion des Teams.
 
 Eine bewährte Methode zum Verwalten von Teammitgliedern besteht darin, Mitglieder über den Teams-Client hinzuzufügen und zu entfernen, um sicherzustellen, dass die Weitergabe der Zugriffssteuerung an andere abhängige Cloud-Anwendungen ordnungsgemäß angewendet wird. Darüber hinaus wird dadurch vermieden, dass Benutzer den Eindruck haben, weiterhin auf die gewohnten Ressourcen zugreifen zu können (bis beim nächsten Synchronisierungszyklus der Zugriff auf eine bestimmte Komponente des Dienstes hinzugefügt oder widerrufen wird).  Wenn Sie Teammitglieder außerhalb des Teams-Clients (mithilfe von Microsoft 365 Admin Center, Azure AD oder Exchange Online PowerShell) hinzufügen oder entfernen, kann es bis zu 24 Stunden dauern (in einigen Fällen mehr), damit Änderungen in Teams widergespiegelt werden.
+
+<a name="ability-to-add-group-as-attendee-while-scheduling-meetings"></a>Möglichkeit zum Hinzufügen einer Gruppe als Teilnehmer beim Planen von Besprechungen
+----------------------------------------------------------
+
+Ab Mai 2020 können Sie nun eine Gruppe zu einer geplanten Besprechung einladen, mit den folgenden Einschränkungen:
+1. Alle vorhandenen Microsoft 365-Gruppen und-Teams, die aus vorhandenen Microsoft 365-Gruppen erstellt wurden, sind durchsuchbar und können der Besprechung hinzugefügt werden. Mitglieder erhalten die Besprechungseinladung jedoch auf Grundlage Ihres Abonnements für die Gruppe.
+2. Teams, die vor dem 2018. Mai neu erstellt wurden, sind ebenfalls suchbar, aber die Mitglieder empfangen die Besprechungseinladung nicht aufgrund Ihres standardmäßigen gruppenabonnements, das "nur Antworten auf Sie" ist. Dies kann in Outlook geändert werden, indem die Gruppeneinstellungen geändert werden.
+3. Teams, die nach Mai 2018 von Grund auf neu erstellt wurden, sind nicht durchsuchbar und werden mithilfe der Eigenschaft "HiddenFromAddressListsEnabled" ausgeblendet. Hierbei handelt es sich um eine vom Administrator gesteuerte Einstellung, die vom Administrator geändert werden kann.

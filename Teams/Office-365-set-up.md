@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 161022a385ec703ca4da9c5ea26840513ffa38b4
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 1240ebc29be11241c26054a9281e59d2654dca82
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43902430"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041862"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>Aktivieren von Teams in Ihrer Organisation
 
@@ -39,7 +39,7 @@ Als Administrator für Ihre Organisation können Sie Benutzerlizenzen für die S
 
 
  
-Weitere Informationen zum Verwalten von einzelnen Lizenzen finden Sie unter [Office 365-Lizenzierung für Microsoft Teams](Office-365-licensing.md). 
+Weitere Informationen zum Verwalten einzelner Lizenzen finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description). 
 
  
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>Aktivieren oder Deaktivieren von Microsoft Teams für die gesamte Organisation 

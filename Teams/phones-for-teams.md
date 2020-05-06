@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: Dieser Artikel behandelt die Liste der Telefone, die für Microsoft Teams zertifiziert sind, und die Features, die in den für Microsoft Teams zertifizierten Telefonen unterstützt werden.
-ms.openlocfilehash: f7f579fcd5c939c5c844a0f4f4e3ba9a2aba97f8
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 5f8eaa1e4acd9563f31ed39e365c7699dbbaec04
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951280"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042922"
 ---
 # <a name="phones-for-microsoft-teams"></a>Telefone für Microsoft Teams
 
@@ -142,7 +142,7 @@ Die Mindestversion der Firmware kann auf der Anmeldeseite für Teams überprüft
 
 ## <a name="required-licenses"></a>Erforderliche Lizenzen
 
-Microsoft Teams-Lizenzen können im Rahmen ihrer [Microsoft 365-und Office 365-Abonnements](Office-365-licensing.md)erworben werden. Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung von Microsoft Teams auf Telefonen finden Sie unter Verfügbare [Lizenzen für Telefonsysteme](https://products.office.com/microsoft-teams/voice-calling).
+Microsoft Teams-Lizenzen können im Rahmen ihrer [Microsoft 365-und Office 365-Abonnements](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)erworben werden. Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung von Microsoft Teams auf Telefonen finden Sie unter Verfügbare [Lizenzen für Telefonsysteme](https://products.office.com/microsoft-teams/voice-calling).
 
 Weitere Informationen zum Erhalten von Teams finden Sie unter[Wie erhalte ich Zugriff auf Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

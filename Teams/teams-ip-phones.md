@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Informieren Sie sich, welche Schreibtisch-und Konferenztelefone für Microsoft Teams zertifiziert sind, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: fddb09ee2da24629cce7c942847d5a2ae445d7a1
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: 9a533b882da3298cdfd497e4f87b88e64a2d5ef4
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43951210"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041833"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Für Microsoft Teams zertifizierte IP-Telefone
 
@@ -73,7 +73,7 @@ Informationen zu den von diesen Geräten unterstützten Features finden Sie unte
 
 Weitere Informationen finden Sie unter [Suchen der Firmwareversion auf einem mobilen](/MicrosoftTeams/phones-for-teams#finding-the-firmware-version-on-a-mobile-device) Gerät, um die Geräte Firmwareversion auf Ihrem mobilen Gerät zu ermitteln.
 
-Microsoft Teams-Lizenzen können im Rahmen ihrer [Microsoft 365-oder Office 365-Abonnements](/MicrosoftTeams/Office-365-licensing.md)erworben werden. Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung von Microsoft Teams auf Telefonen finden Sie unter Verfügbare [Lizenzen für Telefonsysteme](https://products.office.com/microsoft-teams/voice-calling).
+Microsoft Teams-Lizenzen können im Rahmen ihrer [Microsoft 365-oder Office 365-Abonnements](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description)erworben werden. Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung von Microsoft Teams auf Telefonen finden Sie unter Verfügbare [Lizenzen für Telefonsysteme](https://products.office.com/microsoft-teams/voice-calling).
 
 Weitere Informationen zum Erhalten von Teams finden Sie unter[Wie erhalte ich Zugriff auf Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

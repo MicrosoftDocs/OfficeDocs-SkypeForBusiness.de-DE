@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft stellt den Exchange Unified Messaging Online-Dienst ("Moreo") bis zum 28. Februar 2020 in Ruhestand. In diesem Artikel wird zusammengefasst, was betroffene Kunden wissen sollten und was Sie tun müssen, um Ihre Geschäftskontinuität zu planen.
-ms.openlocfilehash: ab0040887b41fc62786f21c889f7dd63aae011b4
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: a28d8e1d9217773ec28c8f2afdf00cb1e16ae53c
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780774"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042832"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange Unified Messaging-Online Migrationsunterstützung
 
@@ -135,6 +135,7 @@ Es wird dringend empfohlen, frühzeitig mit der Einrichtung ihrer neuen automati
 | VM | Dienstfunktionen | eDiscovery und Aufbewahrung  | Für Sicherheit und Compliance  | v | v    |
 | VM | Dienstfunktionen | Unterstützung von Exchange-Regeln | Für Sicherheit und Compliance  | v | v    |
 | VM | Benutzerfunktionen | PSTN-Einwahlzugriff  | Teilnehmerzugriff  | N | v    |
+| VM | Benutzerfunktionen | Stellvertretung  | e-Mail mit verpassten Anrufen  | N | v    |
 | VM | Benutzerfunktionen | PSTN Outlook Voice Access   | Teilnehmerzugriff  | N | v    |
 | VM | Benutzerfunktionen | Einwahl mit einem authentifizierten Endpunkt | Anrufen des Voicemail-Diensts zum Abhören von Sprachnachrichten und Ändern von Voicemail-Einstellungen| v | v    |
 | VM | Benutzerfunktionen | Benutzereinstellung zum Deaktivieren von Voicemail   |  | v | v    |
