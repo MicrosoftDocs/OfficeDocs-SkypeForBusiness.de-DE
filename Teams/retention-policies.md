@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9487a6a96397be27ebf23bd474fc0b9a5ba1fea0
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: be3df465c740aef7069a77cb7a7562fd0ecd8cd9
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940772"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042442"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Aufbewahrungsrichtlinien in Microsoft Teams
 
@@ -55,7 +55,7 @@ Mit Aufbewahrungsrichtlinien für Teams können Sie:
 
 Wenn Daten einer Aufbewahrungsrichtlinie unterliegen, können Benutzer weiterhin damit arbeiten, weil die Daten an Ihrem ursprünglichen Speicherort aufbewahrt werden. Falls ein Benutzer Inhalte, die der Richtlinie unterliegen, bearbeitet oder löscht, wird eine Kopie an einem sicheren Standort gespeichert, an dem sie beibehalten wird, solange die Richtlinie gilt.
 
-Die Mindestanforderungen für die Lizenzierung für Aufbewahrungsrichtlinien sind Office 365 E3. Weitere Informationen zur Lizenzierung finden Sie unter [Office 365-Lizenzierung für Teams](Office-365-licensing.md).
+Die Mindestanforderungen für die Lizenzierung für Aufbewahrungsrichtlinien sind Office 365 E3. Weitere Informationen zur Lizenzierung finden Sie in der [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="how-teams-retention-policies-work"></a>Funktionsweise der Aufbewahrungsrichtlinien von Teams
 

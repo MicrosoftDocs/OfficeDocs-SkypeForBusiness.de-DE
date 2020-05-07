@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie Ihren Benutzern eine e-Mail mit ihren Audiokonferenzinformationen in Microsoft Teams senden.
-ms.openlocfilehash: 52f4257d5e5603c0f7ed812d5ab677a18ed47fb9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 80c279e4d80478c2392f8c4faffb46e822c016e4
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905547"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042582"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Teamschaltung in Microsoft Teams
 
@@ -40,7 +40,7 @@ Die Darstellung der freigegebenen Zeile ist Teil des Delegierungsfeatures, mit d
 
 Ein Benutzer muss über ein Telefon System mit PSTN-Konnektivität verfügen (entweder eine Anruf Plan Lizenz oder ein direktes Routing-OnlineVoiceRoutingPolicy), um eine Stellvertretung zu sein oder eine Delegierung einzurichten und anderen Personen das tätigen oder empfangen von Anrufen in Ihrem Auftrag zu ermöglichen.
 
-Sowohl Manager als auch Stellvertretungen müssen über ein Telefon System mit PSTN-Konnektivität verfügen (entweder über eine Anruf Plan Lizenz oder über ein direktes Routing-OnlineVoiceRoutingPolicy). Die freigegebene Leitungserfahrung ist Teil der Delegierung und in der Telefonanlage enthalten. Weitere Informationen zum Lizenzierungsmodell finden Sie unter [Office 365-Lizenzierung für Microsoft Teams](office-365-licensing.md).
+Sowohl Manager als auch Stellvertretungen müssen über ein Telefon System mit PSTN-Konnektivität verfügen (entweder über eine Anruf Plan Lizenz oder über ein direktes Routing-OnlineVoiceRoutingPolicy). Die freigegebene Leitungserfahrung ist Teil der Delegierung und in der Telefonanlage enthalten. Weitere Informationen zum Lizenzierungsmodell finden Sie in der [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Konfigurieren der Darstellung von Delegierungs-und freigegebenen Leitungen
 

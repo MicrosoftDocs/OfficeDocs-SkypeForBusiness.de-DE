@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Ihre benutzerdefinierten Teams-apps von der Entwicklung zur Bereitstellung bringen.
-ms.openlocfilehash: 8166ba6b46853510a9f4e966ddca4e5b8686b551
-ms.sourcegitcommit: a09334ef1a6b0a877839c3b46165eb5a6aad1ba9
+ms.openlocfilehash: a2896a2aa2b2d9750afd147b113a76637514afb6
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/02/2020
-ms.locfileid: "44006054"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064530"
 ---
 # <a name="manage-your-custom-apps-in-microsoft-teams"></a>Verwalten Ihrer benutzerdefinierten apps in Microsoft Teams
 
@@ -131,15 +131,19 @@ Sie können die APP über den Mandanten-App-Katalog aktualisieren. Gehen Sie daz
 
 In den meisten Fällen wird die neue Version nach Abschluss eines APP-Updates automatisch für Endbenutzer angezeigt. Es gibt jedoch einige Updates für das <a href="https://docs.microsoft.com/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">Microsoft Teams-Manifest</a> , für die eine Benutzerakzeptanz erforderlich ist:
 
-* ein bot wurde hinzugefügt oder entfernt
-* eine vorhandene bot-Eigenschaft "botId" wurde geändert
-* eine vorhandene bot-Eigenschaft "isNotificationOnly" wurde geändert
-* die "supportsFiles"-Eigenschaft des bot wurde geändert
-* eine Messaging Erweiterung wurde hinzugefügt oder entfernt
-* ein neuer Connector wurde hinzugefügt
-* eine neue statische Registerkarte wurde hinzugefügt
-* eine neue konfigurierbare Registerkarte wurde hinzugefügt
+* Ein bot wurde hinzugefügt oder entfernt
+* Eine vorhandene bot-Eigenschaft "botId" wurde geändert
+* Eine vorhandene bot-Eigenschaft "isNotificationOnly" wurde geändert
+* Die "supportsFiles"-Eigenschaft des bot wurde geändert
+* Eine Messaging Erweiterung wurde hinzugefügt oder entfernt
+* Ein neuer Connector wurde hinzugefügt
+* Eine neue statische Registerkarte wurde hinzugefügt
+* Eine neue konfigurierbare Registerkarte wurde hinzugefügt
 * Eigenschaften innerhalb von "webApplicationInfo" geändert
+
+![Screenshot der Liste "Apps" mit apps, für die eine neue Version verfügbar ist](media/manage-your-custom-apps-update1.png)
+
+![Screenshot der Upgrade-Option für eine APP](media/manage-your-custom-apps-update2.png)
 
 ## <a name="related-apps"></a>Verwandte apps
 

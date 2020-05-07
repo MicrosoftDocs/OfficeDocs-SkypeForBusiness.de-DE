@@ -22,18 +22,18 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: Informieren Sie sich über die verfügbaren Lizenzen für verschiedene Arten von Anruf-und besprechungsfeatures in Microsoft Teams-Räumen.
-ms.openlocfilehash: cc736fad2e7050f4989250917d8fc0d1a7c22fae
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: d3ab603e914fef828788d474fa051c1e102165cd
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905387"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064490"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Updates für Teams-Besprechungsraum Lizenzierung
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Lizenzierungslösungen für freigegebene Kommunikationsgeräte
 
-Microsoft verfügt über eine dedizierte SKU für Lizenzierungs Besprechungen und Anrufe auf einzelnen Geräten für Besprechungsraum Geräte (wie Microsoft Teams rooms, Microsoft Surface Hub und collaboartion-leisten für Microsoft Teams).
+Microsoft verfügt über eine dedizierte SKU für Lizenzierungs Besprechungen und Anrufe auf einzelnen Geräten für Besprechungsraum Geräte (wie Microsoft Teams rooms, Microsoft Surface Hub und Kollaborations leisten für Microsoft Teams).
 
 ||SKU des Besprechungsraums |  
 |:--- |:---: |

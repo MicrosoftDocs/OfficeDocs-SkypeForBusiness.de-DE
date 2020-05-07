@@ -23,12 +23,12 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: 'Informieren Sie sich über das Testen oder erwerben von Lizenzen für Audiokonferenz (PSTN-Konferenz) für Office 365 zum Einrichten von Telefonkonferenzen, in die Personen sich einwählen können. '
-ms.openlocfilehash: 35d84c84f02c459af32aa764d877f4b8c64d4d63
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 26b7074407759533d2ac272371e34c9022dd6ce5
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780164"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041772"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>Testen oder kaufen von Audiokonferenzen in Microsoft 365 für Microsoft Teams
 
@@ -54,7 +54,7 @@ Sie müssen ein [globaler Administrator oder rechnungsadministrator](https://sup
 
 3. [Zuweisen oder Entfernen von Lizenzen für Office 365 Business](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) den Mitarbeitern in Ihrer Organisation zu, die Besprechungen planen oder leiten werden.
 
-4. Wenn Sie Add-On Lizenzen und Gesprächseinheiten für Audiokonferenz erworben haben, weisen Sie diese ebenfalls zu. Anweisungen hierzu finden Sie unter [Zuweisen von Microsoft Teams-Lizenzen](assign-teams-licenses.md).
+4. Wenn Sie Add-On Lizenzen und Gesprächseinheiten für Audiokonferenz erworben haben, weisen Sie diese ebenfalls zu. Anweisungen hierzu finden Sie unter [Zuweisen von Microsoft Teams-Add-on-Lizenzen](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>Pay-per-Minute Lizenzen für Audiokonferenz kaufen und zuweisen:
 

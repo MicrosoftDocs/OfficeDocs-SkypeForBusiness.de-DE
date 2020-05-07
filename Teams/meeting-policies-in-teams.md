@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Teams verwalten und verwenden, um die für Besprechungsteilnehmer verfügbaren Features für Besprechungen zu steuern, die von Benutzern geplant werden.
-ms.openlocfilehash: 3a482ce562c0d0281c1bc289dfc953f416a8f133
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 4a61d2563a63d2dc8d1b55bbf0bbc6c52230d900
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940702"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139209"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Teams
 
@@ -106,10 +106,11 @@ Wenn Sie auf der Seite **Besprechungsrichtlinien** eine vorhandene Richtlinie au
 - [Zulassen des Outlook-Add-ins](#allow-the-outlook-add-in)
 - [Planen der Kanal Besprechung zulassen](#allow-channel-meeting-scheduling)
 - [Planen privater Besprechungen zulassen](#allow-scheduling-private-meetings)
+- ["Besprechung jetzt in privaten Besprechungen zulassen"](#allow-meet-now-in-private-meetings)
 
 ### <a name="allow-meet-now-in-channels"></a>Sofortbesprechung in Kanälen zulassen
 
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Diese Einstellung steuert, ob ein Benutzer eine Ad-hoc-Besprechung in einem Teams-Kanal starten kann. Wenn Sie diese Option aktivieren und ein Benutzer eine Nachricht in einem Teams-Kanal sendet, kann der Benutzer unter dem Feld zum Verfassen auf **jetzt** besprechen klicken, um eine Ad-hoc-Besprechung im Kanal zu starten.
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Diese Einstellung steuert, ob ein Benutzer eine Ad-hoc-Besprechung in einem Teams-Kanal starten kann. Wenn Sie diese Option aktivieren und ein Benutzer eine Nachricht in einem Teams-Kanal sendet, kann der Benutzer unter dem Feld zum Verfassen auf **jetzt** besprechen klicken, um eine Ad-hoc-Besprechung im Kanal zu starten. Der Standardwert lautet „True“.
 
 ![Screenshot mit dem Symbol "jetzt besprechen" unter einer Nachricht](media/meeting-policies-meet-now.png)
 
@@ -123,7 +124,7 @@ Wenn Sie diese Option deaktivieren, können die Benutzer keine Teams-Besprechung
 
 ### <a name="allow-channel-meeting-scheduling"></a>Planen der Kanal Besprechung zulassen
 
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Diese Einstellung steuert, ob Benutzer eine Besprechung in einem Teams-Kanal planen können.  Wenn Sie **diese Option deaktivieren, steht der Benutzer** beim Starten einer Besprechung in einem Teams-Kanal und der Option **Kanal hinzufügen** für Benutzer in Teams deaktiviert zur Verfügung.
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Diese Einstellung steuert, ob Benutzer eine Besprechung in einem Teams-Kanal planen können.  Wenn Sie **diese Option deaktivieren, steht der Benutzer** beim Starten einer Besprechung in einem Teams-Kanal und der Option **Kanal hinzufügen** für Benutzer in Teams deaktiviert zur Verfügung. Der Standardwert lautet „True“.
 
 ![Screenshot der Option "Besprechung planen" in Teams](media/meeting-policies-schedule-a-meeting.png)
 
@@ -133,7 +134,11 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Begi
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Diese Einstellung steuert, ob Benutzer private Besprechungen in Teams planen können. Eine Besprechung ist privat, wenn Sie nicht in einem Kanal in einem Team veröffentlicht wurde.
 
-Beachten Sie Folgendes: Wenn Sie die Option " **Planen privater Besprechungen zulassen** " deaktivieren und die **Kanal Besprechungsplanung zulassen**, sind die Optionen " **erforderliche Teilnehmer hinzufügen** " und " **Kanal hinzufügen** " für Benutzer in Teams deaktiviert.
+Beachten Sie Folgendes: Wenn Sie die Option " **Planen privater Besprechungen zulassen** " deaktivieren und die **Kanal Besprechungsplanung zulassen**, sind die Optionen " **erforderliche Teilnehmer hinzufügen** " und " **Kanal hinzufügen** " für Benutzer in Teams deaktiviert. Der Standardwert lautet „True“.
+
+### <a name="allow-meet-now-in-private-meetings"></a>"Besprechung jetzt in privaten Besprechungen zulassen"
+
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Mit dieser Einstellung wird gesteuert, ob ein Benutzer eine private Ad-hoc-Besprechung starten kann.  Der Standardwert lautet „True“.
 
 <a name="bkaudioandvideo"> </a>
 
@@ -314,7 +319,6 @@ Diese Einstellungen steuern, welche Besprechungsteilnehmer in der Lobby warten, 
 - [Zulassen, dass anonyme Personen eine Besprechung starten](#let-anonymous-people-start-a-meeting)
 - [Automatisches zulassen von Personen](#automatically-admit-people)
 - [Zulassen, dass Einwahlbenutzer die Lobby umgehen können](#allow-dial-in-users-to-bypass-the-lobby)
-- ["Besprechung jetzt in privaten Besprechungen zulassen"](#allow-meet-now-in-private-meetings)
 - [Aktivieren von Live Beschriftungen](#enable-live-captions)
 - [Chat in Besprechungen zulassen](#allow-chat-in-meetings)
 
@@ -378,9 +382,6 @@ Hier sehen Sie das Join-Verhalten von Personen, die sich per Telefon einwählen.
 |   | Jeder in Ihrer Organisation     |In der Lobby warten         |
 |   | Jeder in Ihrer Organisation und in Verbundorganisationen      | In der Lobby warten         |
 
-### <a name="allow-meet-now-in-private-meetings"></a>"Besprechung jetzt in privaten Besprechungen zulassen"
-
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die vor dem Beginn einer Besprechung gilt. Mit dieser Einstellung wird gesteuert, ob ein Benutzer eine private Ad-hoc-Besprechung starten kann. 
 
 ### <a name="enable-live-captions"></a>Aktivieren von Live Beschriftungen
 

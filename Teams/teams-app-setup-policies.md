@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 55b43e9fe156a2b3707cb5e99c57239345bf031e
-ms.sourcegitcommit: 48f64fa38509cf7141b944cd3da60409ec51860b
+ms.openlocfilehash: 89b1a8a756cba44435098e5cd446294004029eac
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43749822"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064480"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -183,6 +183,10 @@ Mit den mobilen Teams von Teams werden Benutzern Kern Teams-apps wie Aktivitäte
 #### <a name="can-users-change-the-order-of-apps-pinned-through-a-policy"></a>Können Benutzer die Reihenfolge der apps ändern, die über eine Richtlinie angeheftet wurden?
 
 Benutzer können die Reihenfolge ihrer angehefteten apps auf den Desktop-und mobilen Clients von Teams ändern, wenn die Option **Benutzer anheften zulassen** aktiviert ist. Benutzer können die Reihenfolge ihrer angehefteten apps auf den Microsoft Teams-Webclients nicht ändern.
+
+#### <a name="does-user-pinning-take-precedence"></a>Hat das Anheften des Benutzers Vorrang?
+
+Wenn die dem Benutzer zugewiesene App-Setup Richtlinie geändert wird, um das Anheften der Benutzer-APP zu blockieren, entfernt Teams alle apps, die an die APP-Leiste angeheftet sind. Wenn die Richtlinie dann geändert wird, um Benutzer-App-anheften zuzulassen, müssen Benutzer ihre zuvor angehefteten apps erneut anheften.
 
 ### <a name="custom-teams-apps"></a>Benutzerdefinierte Teams-apps
 

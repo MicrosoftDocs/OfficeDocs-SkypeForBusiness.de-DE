@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 853e897a31b229962acec8f85d8a0a3e966c507b
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 00e0cd424de4917cf4a6f84a36b99dbfc3e2f951
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905857"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44041872"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Erste Schritte beim Einführen von Microsoft Teams
 
@@ -36,7 +36,7 @@ Durch die Einführung von Microsoft Teams können Sie eine hervorragende Benutze
 
 Bevor Sie beginnen, stellen Sie Folgendes sicher:
 
-- [Teams ist installiert](get-clients.md) , und [Lizenzen werden](office-365-licensing.md) in Ihrer Umgebung zugewiesen. Mindestens Lizenzen sollten Ihrem Kernteam und den Early-adoptern zugewiesen werden, die an dieser anfänglichen Projektphase teilnehmen werden.
+- [Teams ist installiert](get-clients.md) , und [Lizenzen werden](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description) in Ihrer Umgebung zugewiesen. Mindestens Lizenzen sollten Ihrem Kernteam und den Early-adoptern zugewiesen werden, die an dieser anfänglichen Projektphase teilnehmen werden.
 
 - Sie haben die Desktop-und mobilen Anwendungen heruntergeladen. 
 

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6ae8079ba3ccd498936c5d17740ea2e5bafb514
-ms.sourcegitcommit: 86366b66b15870fe83cbb76e1ae7aa1ce9b3bfe1
+ms.openlocfilehash: 9579edfb8571f6d7d3ddf86eb6ce56c2a7e4fb85
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42858720"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042812"
 ---
 <a name="manage-the-office-365-g1-trial-for-us-government"></a>Verwalten der Office 365 G1-Testversion für US-Regierungsbehörden 
 ==============================
@@ -55,7 +55,7 @@ Nachdem Sie Ihren Promotionscode für die G1-Testversion verwendet haben, könne
 
 ## <a name="manage-the-g1-trial"></a>Verwalten der G1-Testversion
 
-Sobald Sie die Office 365 G1-Testversion aktiviert haben, schalten Sie die Lizenz für alle Anwendungen frei, die sie benötigen. Weitere Informationen hierzu finden Sie unter  [Verwalten des Benutzerzugriffs auf Microsoft Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).
+Sobald Sie die Office 365 G1-Testversion aktiviert haben, schalten Sie die Lizenz für alle Anwendungen frei, die sie benötigen. Weitere Informationen hierzu finden Sie unter  [Verwalten des Benutzerzugriffs auf Microsoft Teams](user-access.md).
 
 Sobald Sie die G1-Testversion für die Benutzer, die sie benötigen, freigeschaltet haben, können Sie diese Benutzer genauso wie Benutzer verwalten, die eine kostenpflichtige Lizenz verwenden. Weitere Informationen finden Sie unter  [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md).
 
@@ -82,7 +82,6 @@ Weitere Informationen finden Sie unter [Teams für US-Regierungsbehörden](expan
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Verwalten des Benutzerzugriffs auf Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[Verwalten des Benutzerzugriffs auf Teams](user-access.md)
 
 [Verwalten von Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md)
-
