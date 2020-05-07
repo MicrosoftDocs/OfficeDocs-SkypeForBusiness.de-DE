@@ -18,12 +18,12 @@ description: In diesem Artikel erfahren Sie mehr über die Faktoren, die Sie ber
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c0246a8517035ab5edd347fef30ae3f86af4afd9
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: 51c81bb5c9ec945d7a7c47021a6a0af705c98883
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43903080"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042852"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -119,14 +119,21 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folgenden Informationen zeigen die Verfügbarkeit für die Ereignisteammitglieder und -teilnehmer.
 
 > [!IMPORTANT]
-> Die Region für das Ereignis wird automatisch in Abhängigkeit vom Organisator und von Microsoft 365 oder Office 365 ausgewählt.
+> Die Region für das Ereignis wird automatisch in Abhängigkeit vom Organisator und vom Microsoft 365-Mandantenstandort ausgewählt.
 
-**Verfügbar in diesen Regionen**
+**In diesen regionalen Rechenzentren verfügbar**
 
 - Nord- und Südamerika
-- Europa/Afrika
 - Asiatisch-pazifischer Raum
-- Datenspeicherort für Kanada, Indien, Australien, Japan, GB
+- Europa/Afrika
+
+**Datenspeicherort für diese Länder**
+
+- Australien
+- Kanada
+- Indien
+- Japan
+- Vereinigtes Königreich
 
 **Ausschlüsse und Überlegungen**.
 

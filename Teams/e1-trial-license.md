@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8db4565b4a9b1fd5e984640b20d3eaacbed24a37
-ms.sourcegitcommit: 4d376449a75928282373598647f2b82127909c4f
+ms.openlocfilehash: 39e1177f4e400b0be085bb2c822bc645fc77cf7c
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978487"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042392"
 ---
 <a name="manage-the-office-365-e1-trial"></a>Verwalten der Office 365 E1-Testversion
 ==============================
@@ -59,7 +59,7 @@ Nachdem Sie Ihren Promotionscode für die E1-Testversion verwendet haben, könne
 
 ## <a name="manage-the-e1-trial"></a>Verwalten der E1-Testversion
 
-Sobald Sie die Office 365 E1-Testversion aktiviert haben, schalten Sie die Lizenz für alle Anwendungen frei, die sie benötigen. Weitere Informationen hierzu finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center).
+Sobald Sie die Office 365 E1-Testversion aktiviert haben, schalten Sie die Lizenz für alle Anwendungen frei, die sie benötigen. Weitere Informationen hierzu finden Sie unter [Verwalten des Benutzerzugriffs auf Microsoft Teams](user-access.md).
 
 
 Sobald Sie die E1-Testversion für die Benutzer, die sie benötigen, freigeschaltet haben, können Sie diese Benutzer genauso wie Benutzer verwalten, die eine kostenpflichtige Lizenz verwenden. Weitere Informationen finden Sie unter [Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md).
@@ -76,7 +76,7 @@ So führen Sie ein Upgrade von Benutzern mit E1-Testlizenz auf ein bezahltes Abo
 
 3. Weisen Sie die neu erworbene Lizenz zu.
 
-Weitere Informationen finden Sie unter [Office 365-Lizenzen für Microsoft Teams](Office-365-licensing.md).
+Weitere Informationen finden Sie unter [Microsoft Teams-Dienstbeschreibung](https://docs.microsoft.com/office365/servicedescriptions/teams-service-description).
 
 > [!NOTE]
 > Wenn die E1-Testlizenz abläuft und kein unmittelbares Upgrade auf ein Abonnement mit Teams für einen Benutzer erfolgt, werden die Benutzerdaten nicht entfernt. Der Benutzer bleibt weiterhin in Azure Active Directory und alle Daten innerhalb von Teams werden beibehalten. Sobald dem Benutzer eine neue Lizenz zugewiesen ist, die Teams-Funktionen aktiviert, sind die Inhalte weiterhin vorhanden. 
@@ -90,7 +90,7 @@ Weitere Informationen finden Sie unter [Office 365-Lizenzen für Microsoft Teams
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Verwalten des Benutzerzugriffs auf Teams](user-access.md#manage-teams-through-the-microsoft-365-admin-center)
+[Verwalten des Benutzerzugriffs auf Teams](user-access.md)
 
 [Verwalten von Teams-Einstellungen in Ihrer Organisation](enable-features-office-365.md)
 

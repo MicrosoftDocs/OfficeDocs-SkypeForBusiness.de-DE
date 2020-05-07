@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2ec2956b3fc448f4408cefd7e7bf323898cc7d2
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: d39ec3f7bb6a5454c25acf859e335993ed275a71
+ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898100"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44042502"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 
@@ -75,7 +75,7 @@ Aktivieren Sie diese Funktion, damit Benutzer über die Kanal-E-Mail-Adresse ein
 
 Hier können Sie die Dateifreigabe und Optionen für Cloudspeicherdateien aktivieren oder deaktivieren.
 
-Benutzer können Dateien aus Cloudspeicherdiensten in Microsoft Teams-Kanäle und -Chats hochladen und dort freigeben. Zu den Cloudspeicheroptionen in Microsoft Teams gehören zurzeit Dropbox, Box ShareFile, Google Drive und [Egnyte](https://www.egnyte.com). Aktivieren Sie die Option für die Cloudspeicheranbieter, die Ihre Organisation verwenden möchte.
+Benutzer können Dateien aus Cloudspeicherdiensten in Microsoft Teams-Kanäle und -Chats hochladen und dort freigeben. Zu den Cloudspeicheroptionen in Microsoft Teams gehören zurzeit Dropbox, Box ShareFile, Google Drive und Egnyte (bald verfügbar). Aktivieren Sie die Option für die Cloudspeicheranbieter, die Ihre Organisation verwenden möchte.
 
 #### <a name="organization"></a>Organisation
 

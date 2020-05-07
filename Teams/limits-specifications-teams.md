@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 28a77271c66dc473dfb774db2c02ca80bc842587
-ms.sourcegitcommit: 69ff557c79d6b1a3d1089fe5c8f5c8ed8ff7431e
+ms.openlocfilehash: dcda9b15a3bfe5204bc410728449672707e614fd
+ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950970"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44047764"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -110,7 +110,7 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 
 |Feature     | Obergrenze |
 |------------|---------------|
-|Anzahl der Personen in einer Besprechung  | 250    |
+|Anzahl von Personen in einer Besprechung (können chatten und sich einwählen)  | 250    |
 |Anzahl von Personen in einem Video- oder Audioanruf aus dem Chat | 20 |
 |Maximale Größe von PowerPoint-Dateien | 2GB|
 |Teams hält [Besprechungsaufzeichnungen](cloud-recording.md), die nicht in Microsoft Stream hochgeladen werden, verfügbar für den lokalen Download | 20 Tage |
@@ -139,7 +139,7 @@ Weitere Informationen zu Liveereignissen und eine Gegenüberstellung von Team-Li
 > **Das Limit für Microsoft 365 Live-Ereignisse wird erhöht**
 > 
 > Damit Kunden den sich schnell ändernden Kommunikationsbedürfnissen gerecht werden können, wird das Limit für Microsoft 365 Live-Ereignisse vorübergehend bis zum 1. Juli 2020 für Live-Ereignisse in Teams erhöht. Die nachstehenden Erhöhungen werden Ende April 2020 bereitgestellt:
-> - Teilnehmer-Limit: Ereignisse können bis zu 20 000 Teilnehmer unterstützen
+> - Teilnehmerlimit: Ereignisse können bis zu 20 000 Teilnehmer unterstützen
 > - Gleichzeitige Ereignisse: 50 Ereignisse können über einen Mandanten gleichzeitig gehostet werden
 > - Ereignisdauer: die Ereignisdauer wurde auf 16 Stunden pro Sendung erhöht
 
