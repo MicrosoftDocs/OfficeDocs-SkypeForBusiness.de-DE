@@ -19,17 +19,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Informationen zum Wechseln zwischen Skype for Business-und lync-Clientbenutzeroberflächen mithilfe von PowerShell in Office 365 '
-ms.openlocfilehash: 02221d0edde6a37ec16a4820792d1d18756d4bb7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+description: 'Informationen zum Wechseln zwischen Skype for Business-und lync-Clientbenutzeroberflächen mithilfe von PowerShell in Microsoft 365 oder Office 365 '
+ms.openlocfilehash: 02542d11c7315c8f7e183fb78eebf210ead2df94
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706450"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164304"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Wechseln zwischen den Client-Benutzeroberflächen von Skype for Business- und Lync
 
-Für Skype for Business Online-Organisationen können Sie die Remote-PowerShell in Office 365 verwenden, um Skype for Business-Benutzern die Nutzung der Skype for Business-Client-oder der Skype for Business (lync)-Client-Benutzeroberfläche zu ermöglichen. Die Standardeinstellung ist, dass Benutzer die Skype for Business-Client-Benutzeroberfläche verwenden. Wenn Sie die lync-Clientumgebung lieber verwenden möchten, können Sie das erste Start Clientverhalten verwalten, um die lync-Benutzeroberfläche anzuzeigen, indem Sie die Schritte weiter unten in diesem Thema ausführen.
+Für Skype for Business Online-Organisationen können Sie die Remote-PowerShell in Microsoft 365 oder Office 365 verwenden, um Skype for Business-Benutzern die Nutzung der Skype for Business-Client-oder der Skype for Business (lync)-Client-Benutzeroberfläche zu ermöglichen. Die Standardeinstellung ist, dass Benutzer die Skype for Business-Client-Benutzeroberfläche verwenden. Wenn Sie die lync-Clientumgebung lieber verwenden möchten, können Sie das erste Start Clientverhalten verwalten, um die lync-Benutzeroberfläche anzuzeigen, indem Sie die Schritte weiter unten in diesem Thema ausführen.
   
 > [!NOTE]
 > Die Lync 2013-Clientumgebung ist keine Option für Skype for Business 2016-Clientversionen. Bevor Sie versuchen, Ihre Clientumgebung für die Verwendung des Lync 2013-Clients zu konfigurieren, überprüfen Sie die Clientversion und stellen Sie sicher, dass sie nicht mit der Zahl 16 beginnt, z. B.: 16.x.x.x. 
@@ -165,11 +165,11 @@ Diese Tabelle enthält alle verfügbaren benutzerdefinierten Online-Richtlinien.
 `ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI` |Falsch|
 
    
-Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
+Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
   
-- [Warum Sie Office 365 PowerShell verwenden müssen](https://go.microsoft.com/fwlink/?LinkId=525041)
+- [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+- [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 ## <a name="first-launch-client-behaviors"></a>Verhalten beim ersten Start des Clients
 

@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Führen Sie die Schritte zum Erstellen einer Standardtelefonnummer für Anrufer aus, um an einer Skype for Business Online-Besprechung teilzunehmen. '
-ms.openlocfilehash: a570c457c51ce87655c1cb13e1eb61951b968400
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: b7a4ee991ff8a8e41401b3b2d2dc20aa20708b88
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776780"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44163934"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Einrichten der in Einladungen enthaltenen Telefonnummern in Skype for Business Online
 
 > [!Note]
 > Informationen zum Einladen von Telefonnummern für Besprechungen in Microsoft Teams finden Sie unter [Einrichten der Telefonnummern, die in Einladungen in Microsoft Teams enthalten sind](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams).
 
-Audiokonferenzen in Office 365 ermöglicht es Benutzern in Ihrer Organisation, Skype for Business-Besprechungen zu erstellen und Benutzern dann das Einwählen in diese Besprechungen mithilfe eines Telefons zu ermöglichen. In Office 365 haben Sie die Möglichkeit, eine Microsoft-Audiokonferenz-Brücke oder eine Audio-Konferenzbrücke eines Drittanbieters zu verwenden, die von einem zugelassenen Audiokonferenz-Anbieter (ACP) gehostet wird.
+Audiokonferenzen in Microsoft 365 oder Office 365 ermöglichen es Benutzern in Ihrer Organisation, Skype for Business-Besprechungen zu erstellen und Benutzern dann das Einwählen in diese Besprechungen mithilfe eines Telefons zu ermöglichen. In Microsoft 365 und Office 365 haben Sie die Möglichkeit, eine Microsoft-Audiokonferenz-Brücke oder eine Audio-Konferenzbrücke eines Drittanbieters zu verwenden, die von einem zugelassenen Audiokonferenz-Anbieter (ACP) gehostet wird.
   
 > [!NOTE]
 > Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält. Wenn Sie feststellen möchten, ob Einwahlnummern in Ihrem Land/Ihrer Region verfügbar sind, verwenden Sie die **Skype for Business Admin Center** > **-sprach** > **Nummern**, klicken Sie auf **neue Service Nummern** **Hinzufügen** . Verwenden Sie die Listen für **Land/Region**, **Bundesland/Region** und **Ort** , um Ihre Suche zu filtern. > auch wenn Sie nach gebührenfreien Servicenummern suchen, wählen Sie **gebührenfrei** in der Liste **Bundesland/Region** .
@@ -136,11 +136,11 @@ Wenn Sie die Konferenzeinstellungen eines Benutzers ändern, wird standardmäßi
     
   - [Einführung in Windows PowerShell und Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
-  - [Warum Sie Office 365 PowerShell verwenden müssen](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
 - Windows PowerShell bietet zahlreiche Vorteile in Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Einstellungsänderungen vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
     
-  - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
   - [Verwenden von Windows PowerShell zum Verwalten von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
@@ -148,4 +148,4 @@ Wenn Sie die Konferenzeinstellungen eines Benutzers ändern, wird standardmäßi
     
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

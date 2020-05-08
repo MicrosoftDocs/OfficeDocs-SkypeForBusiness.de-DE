@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
-ms.openlocfilehash: 9274394c15e76aa985cf9e0a005963b79e0acac9
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: e461a145280e6edf8c2039dbea55b5547dd5596e
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042592"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158982"
 ---
 # <a name="install-power-bi-connector-to-use-cqd-query-templates"></a>Installieren von Power BI Connector zur Verwendung von CQD-Abfragevorlagen
 
@@ -28,6 +28,7 @@ Bevor Sie die Power BI-Abfragevorlagen für CQD (PBIX-Dateien) verwenden können
 
 Lesen [verwenden Sie Power BI zum Analysieren von CQD-Daten für Teams](CQD-Power-BI-query-templates.md) , um mehr über diese Vorlagen zu erfahren.
 
+Stellen Sie sicher, dass Sie über die richtige [CQD-Zugriffs Rolle](https://docs.microsoft.com/microsoftteams/turning-on-and-using-call-quality-dashboard#assign-roles-for-accessing-cqd) verfügen, um auf die Power BI-Berichte zuzugreifen. 
 
 ## <a name="installation"></a>Installation
 

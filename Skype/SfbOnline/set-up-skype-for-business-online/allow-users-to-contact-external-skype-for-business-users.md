@@ -28,17 +28,17 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: 'Informieren Sie sich, wie Sie Skype for Business so konfigurieren können, dass Benutzer mit Benutzern in einer anderen Organisation sprechen können, oder außerhalb von Kontakten mit Ihnen kommunizieren. '
-ms.openlocfilehash: 394613e3137c65e814cc08dd898ec797d560d1c6
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: a1f399f7b127596aaf28c7e22b2c65525c72a8e4
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42010938"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164824"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Nutzern gestatten, externe Skype for Business-Nutzer zu kontaktieren
 
 > [!NOTE]
-> Die Skype for Business-Föderation steht nicht für Office 365 zur Verfügung, das von 21Vianet und Office 365 Germany-Organisationen betrieben wird. 
+> Die Skype for Business-Föderation steht nicht für Microsoft 365 oder Office 365 zur Verfügung, die von 21Vianet und Microsoft 365 oder Office 365 Germany-Organisationen betrieben werden. 
   
 Führen Sie die Schritte in diesem Artikel in folgenden Fällen aus:
   
@@ -51,11 +51,11 @@ Führen Sie die Schritte in diesem Artikel in folgenden Fällen aus:
 ## <a name="enable-business-to-business-communications-for-your-users"></a>Aktivieren der Business-to-Business-Kommunikation für die Benutzer
 <a name="bk_preview"> </a>
 
-Sie benötigen [Administratorberechtigungen](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Office 365 in beiden Organisationen, um dies zu tun.
+Sie müssen über [Administratorberechtigungen](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) in Microsoft 365 oder Office 365 in beiden Organisationen verfügen, um dies zu tun.
 
 ![Ein Symbol, das das Microsoft Teams](../images/teams-logo-30x30.png) -Logo **mit dem Team Admin Center** zeigt
   
-1. Registrieren Sie sich mit Ihrem Office 365-Administratorkonto. 
+1. Registrieren Sie sich mit Ihrem Microsoft 365-oder Office 365-Administratorkonto. 
     
 2. Wechseln Sie im Admin Center zu **Admin Center** > **Teams**.
     
@@ -116,7 +116,7 @@ Nachdem Sie die externe Kommunikation mit anderen Skype for Business-Benutzern a
     
 - Informationen zum Konfigurieren des Verbunds zwischen lync und Skype for Business Online finden Sie in diesem Artikel: [Konfigurieren der Föderations Unterstützung für einen lync Online-Kunden](https://technet.microsoft.com/library/hh202193.aspx).
     
-- Wenn zwei Skype for Business-Benutzer in Office 365 auf verschiedenen Domänen miteinander kommunizieren, können sie nur Skype for Business-Funktionen nutzen, die in beiden Organisationen aktiviert wurden (zum Beispiel Videounterhaltung oder Desktopfreigabe).
+- Wenn zwei Skype for Business-Benutzer in Microsoft 365 oder Office 365 in separaten Domänen miteinander kommunizieren, können Sie nur Skype for Business-Funktionen (wie Videounterhaltung oder Desktopfreigabe) verwenden, die in beiden Organisationen aktiviert sind.
     
 - Wenn ein Skype for Business-Benutzer in Ihrer Organisation an einem in-situ-oder Litigation-Speicher platziert wird, werden alle Chat Unterhaltungen zwischen diesem Nutzer und anderen Skype for Business-oder Skype-Benutzern in **wiederherstellbaren Elementen** in Ihrem Postfach gespeichert. Diese Unterhaltungen werden nicht im Ordner **Aufgezeichnete Unterhaltungen** in ihrem Postfach gespeichert.
     
@@ -125,7 +125,7 @@ Nachdem Sie die externe Kommunikation mit anderen Skype for Business-Benutzern a
 
 Nachdem Sie die externe Kommunikation für Ihr gesamtes Unternehmen aktiviert haben, können Sie sie für bestimmte Personen deaktivieren.
   
-1. Registrieren Sie sich mit Ihrem Office 365-Administratorkonto.
+1. Registrieren Sie sich mit Ihrem Microsoft 365-oder Office 365-Administratorkonto.
     
 2. Wechseln Sie im Admin Center zu **Benutzer** > **aktive**Benutzer.
     

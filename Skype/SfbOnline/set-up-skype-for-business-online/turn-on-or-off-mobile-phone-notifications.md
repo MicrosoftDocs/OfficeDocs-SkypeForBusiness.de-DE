@@ -20,16 +20,16 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: Hier erfahren Sie, wie Sie Benachrichtigungen über Mobiltelefone aktivieren oder deaktivieren können, damit Ihre Benutzer Benachrichtigungen zu eingehenden, Voicemail-und verpassten Sofortnachrichten erhalten.
-ms.openlocfilehash: e84ae2ef4054d730cc56bae3bd545f04e966bab4
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 8e209637ffe4c4053adc6dea44fb574257c330c3
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769548"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164110"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Aus- oder Einschalten von Mobiltelefonbenachrichtigungen
 
-Als **[Zuweisen von Administratorrollen in Office 365 for Business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** für Ihre Organisation können Sie auswählen, ob Ihre Skype for Business-Benutzer Benachrichtigungen über eingehende und verpasste Sofortnachrichten erhalten, wenn Sie sich auf ihren Mobiltelefonen oder Tablets befinden.
+Als **[Zuweisen von Administratorrollen in Microsoft 365-Apps für Unternehmen](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** für Ihre Organisation können Sie auswählen, ob Ihre Skype for Business-Benutzer Benachrichtigungen über eingehende und verpasste Sofortnachrichten erhalten, wenn Sie sich auf ihren Mobiltelefonen oder Tablets befinden.
   
 Auf Mobiltelefonen unter Android und Windows Phone werden Skype for Business-Benachrichtigungen in Echtzeit angezeigt. Bei Geräten mit Windows Phone, bei iPhone und iPad werden hingegen Pushbenachrichtigungen verwendet, um immer dann Benachrichtigungen anzuzeigen, wenn Sie Skype for Business auf dem Mobiltelefon oder Tablet-PC gerade nicht aktiv verwenden.
   
@@ -38,9 +38,9 @@ Auf Mobiltelefonen unter Android und Windows Phone werden Skype for Business-Ben
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
 
-1. Anmelden bei Office 365
+1. Anmelden bei Microsoft 365.
     
-2. Wechseln Sie zu Admin Center #a0 **Skype for Business**.
+2. Wechseln Sie zu Admin Center > **Skype for Business**.
     
 3. Wechseln Sie zu **Organisation** > **Allgemein**. 
     

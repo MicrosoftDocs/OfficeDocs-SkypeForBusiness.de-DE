@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Outlook im Web (Outlook Web App) in Office 365 bietet einen einfachen Skype for Business-WebClient über die Navigationsleiste. Dieser Standard Client steht online Benutzern zur Verfügung, deren Administrator keine Vanity-URL für Microsoft 365 oder Office 365 konfiguriert hat. Solange das Konto des Benutzers Online ist und keine Vanity-URL hat, wird die Benutzeroberfläche weiterhin angezeigt, auch wenn Ihre Organisation über einige Benutzerkonten verfügt, die lokal gehostet werden. Benutzer, die über Benutzerkonten lokal verfügen (unabhängig davon, ob Sie über eine Vanity-URL verfügen oder nicht) oder von Microsoft verwaltet werden, sehen die lync-Benutzeroberfläche in Outlook Web App.
-ms.openlocfilehash: 9ea26932db8551992ab441263e55548646039c7e
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: Outlook im Web (Outlook Web App) in Microsoft 365 oder Office 365 bietet über die Navigationsleiste einen einfachen Skype for Business-WebClient. Dieser Standard Client steht online Benutzern zur Verfügung, deren Administrator keine Vanity-URL für Microsoft 365 und Office 365 konfiguriert hat. Solange das Konto des Benutzers Online ist und keine Vanity-URL hat, wird die Benutzeroberfläche weiterhin angezeigt, auch wenn Ihre Organisation über einige Benutzerkonten verfügt, die lokal gehostet werden. Benutzer, die über Benutzerkonten lokal verfügen (unabhängig davon, ob Sie über eine Vanity-URL verfügen oder nicht) oder von Microsoft verwaltet werden, sehen die lync-Benutzeroberfläche in Outlook Web App.
+ms.openlocfilehash: ab426bdaf0261dcfb3375934eb1e5a6f5bd6df79
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777170"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164107"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Skype for Business Online-Support in Outlook im Web
 
-Outlook im Web (Outlook Web App) in Office 365 bietet einen einfachen Skype for Business-WebClient über die Navigationsleiste. Dieser Standard Client steht online Benutzern zur Verfügung, deren Administrator keine Vanity-URL für Microsoft 365 oder Office 365 konfiguriert hat. Solange das Konto des Benutzers Online ist und keine Vanity-URL hat, wird die Benutzeroberfläche weiterhin angezeigt, auch wenn Ihre Organisation über einige Benutzerkonten verfügt, die lokal gehostet werden. Benutzer, die über Benutzerkonten lokal verfügen (unabhängig davon, ob Sie über eine Vanity-URL verfügen oder nicht) oder von Microsoft verwaltet werden, sehen die lync-Benutzeroberfläche in Outlook Web App.
+Outlook im Web (Outlook Web App) in Microsoft 365 oder Office 365 bietet über die Navigationsleiste einen einfachen Skype for Business-WebClient. Dieser Standard Client steht online Benutzern zur Verfügung, deren Administrator keine Vanity-URL für Microsoft 365 und Office 365 konfiguriert hat. Solange das Konto des Benutzers Online ist und keine Vanity-URL hat, wird die Benutzeroberfläche weiterhin angezeigt, auch wenn Ihre Organisation über einige Benutzerkonten verfügt, die lokal gehostet werden. Benutzer, die über Benutzerkonten lokal verfügen (unabhängig davon, ob Sie über eine Vanity-URL verfügen oder nicht) oder von Microsoft verwaltet werden, sehen die lync-Benutzeroberfläche in Outlook Web App.
   
 In der folgenden Tabelle werden die verschiedenen Setups, die Sie möglicherweise haben, und der verwendete WebClient zusammengefasst.
   

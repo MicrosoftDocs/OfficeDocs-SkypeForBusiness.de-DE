@@ -20,19 +20,19 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Diese Zusammenfassung der Skype for Business-Organisation und der Benutzereinstellungen kann Ihnen dabei helfen, mehr über öffentliche Chat Verbindungen, Besprechungseinladungen, Aufzeichnung von Anrufen und Besprechungen und vieles mehr zu erfahren.  '
-ms.openlocfilehash: fd8db122b1e0ec8ef205c07f68826dea83a833c7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a7c627620bba6d1249dcc6ce14bbaf25796b7173
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706460"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164124"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Zusammenfassung der Skype for Business Online-Einstellungen
 
 Das **Skype for Business Admin Center** enthält Einstellungen für die gesamte Organisation und für einzelne Benutzer. 
   
 > [!NOTE]
->  Je nach Standort haben Sie möglicherweise keinen Zugriff auf alle Funktionen von Skype for Business Online. Ausführliche Informationen finden Sie unter [Lizenzeinschränkungen für Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
+>  Je nach Standort haben Sie möglicherweise keinen Zugriff auf alle Funktionen von Skype for Business Online. Ausführliche Informationen finden Sie unter [Lizenzeinschränkungen für Microsoft 365 und Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Skype for Business Online-Organisationseinstellungen
 <a name="__top"> </a>

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Erfahren Sie, was Sie wissen müssen und wie Besprechungsorganisatoren andere Personen anrufen können, die Skype for Business nutzen.
-ms.openlocfilehash: e69fa266b9e10091f0936baee45c140ba198661f
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c0bf11f3bd6a865bcd5dea107eedb8f2d5f5951f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "41982820"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164284"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Aus einer Skype for Business-Besprechung heraus wählen, damit andere Personen daran teilnehmen können
 
@@ -39,7 +39,7 @@ As the meeting organizer, you can dial out using the Skype for Business app to l
     
 - Sie als Besprechungsorganisator wurden für Audiokonferenzen aktiviert.
 
-Damit andere Teilnehmer über die Auswahl an den Besprechungen Ihrer Organisation hinzugefügt werden können, muss mindestens ein authentifizierter Benutzer aus derselben Organisation wie der Organisator (Ihre Organisation) in der Besprechung anwesend sein, damit andere Teilnehmer hinzugefügt werden können. über Dial-Out. 
+Damit andere Teilnehmer über die Auswahl an den Besprechungen Ihrer Organisation hinzugefügt werden können, muss mindestens ein authentifizierter Benutzer aus der gleichen Organisation wie der Organisator (Ihre Organisation) in der Besprechung anwesend sein, damit andere Teilnehmer über Dial-Out hinzugefügt werden können. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -58,7 +58,7 @@ Dial-Out ist nur für einige Länder/Regionen verfügbar. Eine vollständige Lis
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Möchten Sie mehr über Audiokonferenzen erfahren?
 
-[Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
 - [Lizenzierung des Skype for Business-Add-Ons](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     

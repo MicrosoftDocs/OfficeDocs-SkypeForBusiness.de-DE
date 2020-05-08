@@ -21,32 +21,32 @@ f1.keywords:
 ms.custom:
 - Security
 description: Sicherheitsleitfaden für Skype for Business Online <add description>
-ms.openlocfilehash: e1cb2c51e688c460f86b1ee4956155bbaa2ea293
-ms.sourcegitcommit: 88a16c09dd91229e1a8c156445eb3c360c942978
+ms.openlocfilehash: c10dc554cc1d07dbefb4fba84aed55ae14e9374e
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "42006010"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164894"
 ---
 # <a name="security-and-skype-for-business-online"></a>Sicherheit und Skype for Business Online
 
-Skype for Business Online (SfBO), im Rahmen des Office 365-Diensts, befolgt alle bewährten Sicherheitsmethoden und-Verfahren wie die Sicherheit auf Dienstebene durch tief greifende, kundenspezifische Steuerelemente innerhalb des Diensts, Sicherheits Härtung und bewährte Methoden für den Betrieb. Ausführliche Informationen finden Sie im Microsoft Trust Center (https://microsoft.com/trustcenter).
+Skype for Business Online (SfBO), im Rahmen der Microsoft 365-und Office 365-Dienste, befolgt alle bewährten Sicherheitsmethoden und-Verfahren wie die Sicherheit auf Dienstebene durch tief greifende, kundenspezifische Steuerelemente innerhalb des Diensts, Sicherheits Härtung und bewährte Methoden für den Betrieb. Ausführliche Informationen finden Sie im Microsoft Trust Center (https://microsoft.com/trustcenter).
 
-## <a name="trustworthy-by-design"></a>Vertrauenswürdiger Aufbau
+## <a name="trustworthy-by-design"></a>Vertrauenswürdiges Design
 Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
 
-## <a name="trustworthy-by-default"></a>Vertrauenswürdig durch seine Standardeinstellungen
+## <a name="trustworthy-by-default"></a>Standardmäßig vertrauenswürdig
 Network communications in Skype for Business Online are encrypted by default. By requiring all servers to use certificates and by using OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP), and other industry-standard encryption techniques, including 256-bit Advanced Encryption Standard (AES) encryption, all Skype for Business Online data is protected on the network.
 
 ## <a name="how-sfbo-handles-common-security-threats"></a>So geht SfBO mit allgemeinen Sicherheitsbedrohungen um
 In diesem Abschnitt werden die häufigeren Bedrohungen für die Sicherheit des SfBO-Diensts und die Art und Weise erläutert, wie Microsoft jede Bedrohung abschwächt.
 
-### <a name="compromised-key-attack"></a>Angriff mit kompromittierten Schlüsseln
+### <a name="compromised-key-attack"></a>Angriff mit kompromittiertem Schlüssel
 Ein Schlüssel ist ein Geheimcode oder eine Nummer, mit der geheime Informationen verschlüsselt, entschlüsselt oder überprüft werden. In der Public Key-Infrastruktur (PKI) werden zwei vertrauliche Schlüssel verwendet, die berücksichtigt werden müssen: der private Schlüssel, den die einzelnen Zertifikatbesitzer besitzen, und der Sitzungsschlüssel, der nach einer erfolgreichen Identifikation und einem Sitzungsschlüssel Austausch durch die kommunizierenden Partner verwendet wird. Ein Angriff mit Gefährdung durch den Schlüssel erfolgt, wenn der Angreifer den privaten Schlüssel oder den Sitzungsschlüssel bestimmt. Wenn der Angreifer bei der Ermittlung des Schlüssels erfolgreich ist, kann er den Schlüssel verwenden, um verschlüsselte Daten ohne Wissen des Absenders zu entschlüsseln.
 
 Skype for Business Online uses the PKI features in the Windows Server operating system to protect the key data used for encryption for the Transport Layer Security (TLS) connections. The keys used for media encryptions are exchanged over TLS connections. 
 
-### <a name="network-denial-of-service-attack"></a>Denial-of-Service-Angriff auf das Netzwerk
+### <a name="network-denial-of-service-attack"></a>Denial-of-Service-Angriff auf Netzwerke
 The denial-of-service attack occurs when the attacker prevents normal network use and function by valid users. By using a denial-of-service attack, the attacker can:
 - Er kann ungültige Daten an Anwendungen und Dienste senden, die in dem angegriffenen Netzwerk ausgeführt werden, um ihre Funktionsweise zu beeinträchtigen.
 - Er kann große Datenmengen senden, um das System zu überlasten, bis es nicht mehr oder nur noch verzögert auf legitime Anforderungen reagiert.
@@ -58,11 +58,11 @@ SfBO mildert diese Angriffe ab, indem Sie Azure DDoS-Netzwerkschutz ausführen u
 ### <a name="eavesdropping"></a>Abhörschutz
 Abhöraktionen sind Aktionen, bei denen sich Angreifer Zugriff auf den Datenpfad in einem Netzwerk verschaffen und anschließend den Datenverkehr überwachen und lesen können. Dies wird auch als „Schnüffeln“ (auch „Lauschangriff“, englisch Sniffing oder Snooping) bezeichnet. Wenn der Datenverkehr aus reinem Text besteht, können Angreifer ihn lesen, sobald sie Zugriff auf den Pfad haben. Ein Beispiel wäre ein Angriff, bei dem ein Router auf dem Datenpfad kontrolliert wird. 
 
-SfBO uses mutual TLS (MTLS) for server communications within O365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
+SfBO verwendet MTLS (Mutual TLS) für die Server Kommunikation in Microsoft 365 oder Office 365 und TLS von Clients zum Dienst, wodurch dieser Angriff innerhalb des Zeitraums, in dem eine bestimmte Unterhaltung angegriffen werden kann, sehr schwierig zu erreichen ist. TLS authentifiziert alle Parteien und verschlüsselt den gesamten Datenverkehr. Dies verhindert nicht das lauschen, aber der Angreifer kann den Datenverkehr nur lesen, wenn die Verschlüsselung beschädigt ist.
 
 Das Turn-Protokoll wird für echt Zeit Medienzwecke verwendet. Das Turn-Protokoll beauftragt nicht, den Datenverkehr zu verschlüsseln, und die gesendeten Informationen sind durch Nachrichtenintegrität geschützt. Obwohl es für Lauschangriffe geöffnet ist, können die gesendeten Informationen (also IP-Adressen und Port) direkt extrahiert werden, indem Sie einfach die Quell-und Zieladressen der Pakete betrachten. Der SfBO-Dienst stellt sicher, dass die Daten gültig sind, indem die Nachrichtenintegrität der Nachricht mit dem von einigen wenigen Elementen abgeleiteten Schlüssel überprüft wird, einschließlich eines Turn-Kennworts, das nie in Klartext gesendet wird. SRTP wird für Mediendatenverkehr verwendet und ebenfalls verschlüsselt.
 
-### <a name="identity-spoofing-ip-address-spoofing"></a>Identitätsvortäuschung (Spoofing der IP-Adresse)
+### <a name="identity-spoofing-ip-address-spoofing"></a>Identitätsspoofing (Spoofing der IP-Adresse)
 Spoofing occurs when the attacker determines and uses an IP address of a network, computer, or network component without being authorized to do so. A successful attack allows the attacker to operate as if the attacker is the entity normally identified by the IP address. Within the context of Microsoft Lync Server 2010, this situation comes into play only if an administrator has done both of the following:
 - Er hat Verbindungen konfiguriert, die nur TCP (Transmission Control Protocol) unterstützen. (Dies ist nicht zu empfehlen, da die TCP-Kommunikation unverschlüsselt ist.)
 - Er hat die IP-Adressen dieser Verbindungen als vertrauenswürdige Hosts markiert. 
@@ -74,10 +74,10 @@ A man-in-the-middle attack occurs when an attacker reroutes communication betwee
 
 Ein Man-in-the-Middle-Angriff kann auch bei Medienverkehr zwischen zwei Clients auftreten, außer dass in SfBO Punkt-zu-Punkt Audio-, Video- und Application-Sharing-Streams mit SRTP verschlüsselt werden, wobei kryptographische Schlüssel verwendet werden, die zwischen den Peers über das Session Initiation Protocol (SIP) über TLS ausgehandelt werden. 
 
-### <a name="rtp-replay-attack"></a>Angriff mit Aufzeichnungswiederholung (RTP-Datenverkehr)
+### <a name="rtp-replay-attack"></a>RTP Replay-Angriff
 A replay attack occurs when a valid media transmission between two parties is intercepted and retransmitted for malicious purposes. SfBO uses SRTP in conjunction with a secure signaling protocol that protects transmissions from replay attacks by enabling the receiver to maintain an index of already received RTP packets and compare each new packet with those already listed in the index.
 
-### <a name="spim"></a>SPIM (Spam over Instant Messaging)
+### <a name="spim"></a>Spim
 Unter SPIM sind unaufgeforderte Werbe-SMS oder Anwesenheitsabonnementanforderungen zu verstehen. Zwar wird das Netzwerk nicht unmittelbar beeinträchtigt, doch ist SPIM zumindest ärgerlich, kann die Ressourcenverfügbarkeit und die Produktivität reduzieren und möglicherweise zu einer Beeinträchtigung des Netzwerks führen. Ein Beispiel für Spimming sind Nutzer, die sich gegenseitig Anfragen zusenden. Nutzer können sich gegenseitig blockieren, um dies zu verhindern. Ein koordinierter Spimangriff im Partnerverbund kann jedoch schwer abzuwehren sein, wenn Sie den Verbund für den Partner nicht deaktivieren.
 
 ### <a name="viruses-and-worms"></a>Viren und Würmer
@@ -127,16 +127,16 @@ This section provides an overview of the fundamental elements that form the secu
 - Branchenstandardprotokolle für die Benutzerauthentifizierung, falls möglich.
 
 In den Themen in diesem Abschnitt wird beschrieben, wie jedes dieser grundlegenden Elemente funktioniert, um die Sicherheit des SfBO-Diensts zu verbessern.
-
+ 
 ### <a name="azure-active-directory"></a>Azure Active Directory
-Azure Active Directory functions as the directory service for O365. It stores all user directory information and policy assignments. 
+Azure Active Directory fungiert als Verzeichnisdienst für Microsoft 365 und Office 365. Darin werden alle Benutzerverzeichnis Informationen und Richtlinienzuweisungen gespeichert. 
 
 ### <a name="public-key-infrastructure-for-sfbo"></a>Public-Key-Infrastruktur für SfBO
 SfBO service relies on certificates for server authentication and to establish a chain of trust between clients and servers and among the different server roles. The Windows Server public key infrastructure (PKI) provides the infrastructure for establishing and validating this chain of trust. Certificates are digital IDs. They identify a server by name and specify its properties. To ensure that the information on a certificate is valid, the certificate must be issued by a Certificate Authority (CA) that is trusted by clients or other servers that connect to the server. If the server connects only with other clients and servers on a private network, the CA can be an enterprise CA. If the server interacts with entities outside the private network, a public CA might be required.
 
 Even if the information on the certificate is valid, there must be some way to verify that the server presenting the certificate is actually the one represented by the certificate. This is where the Windows PKI comes in. Each certificate is linked to a public key. The server named on the certificate holds a corresponding private key that only it knows. A connecting client or server uses the public key to encrypt a random piece of information and sends it to the server. If the server decrypts the information and returns it as plain text, the connecting entity can be sure that the server holds the private key to the certificate and therefore is the server named on the certificate.
 
-#### <a name="crl-distribution-points"></a>Sperrlisten-Verteilungspunkte
+#### <a name="crl-distribution-points"></a>CRL-Verteilungspunkte
 SfBO erfordert, dass alle Serverzertifikate mindestens einen CRL-Verteilungspunkt (Certificate Revocation List) enthalten. CRL-Verteilungspunkte (CDPs) sind Speicherorte, an denen CRLs heruntergeladen werden können, um zu überprüfen, ob das Zertifikat seit dem Zeitpunkt, zu dem es ausgestellt wurde, nicht widerrufen wurde und das Zertifikat sich noch innerhalb des Gültigkeitszeitraums befindet. Ein CRL-Verteilungspunkt wird in den Eigenschaften des Zertifikats als URL notiert und ist ein sicheres HTTP. Der SfBO-Dienst überprüft die CRL bei jeder Zertifikatauthentifizierung.
 
 #### <a name="enhanced-key-usage"></a>Erweiterte Schlüsselverwendung
@@ -184,10 +184,10 @@ SfBO generates username/passwords for secure access to media relays over TURN. M
 SfBO verwendet FIPS (Federal Information Processing Standard) konforme Algorithmen für den Austausch von Verschlüsselungsschlüsseln. 
 
 ### <a name="user-and-client-authentication"></a>Benutzer- und Client-Authentifizierung 
-Ein vertrauenswürdiger Benutzer ist einer, dessen Anmeldeinformationen von Aad in Office 365 authentifiziert wurden. 
+Ein vertrauenswürdiger Benutzer ist einer, dessen Anmeldeinformationen von Aad in Microsoft 365 oder Office 365 authentifiziert wurden. 
 
 Authentication is the provision of user credentials to a trusted server or service. SfBO uses the following authentication protocols, depending on the status and location of the user.
-- **Moderne Authentifizierung** ist die Microsoft-Implementierung von OAUTH 2,0 für Client-zu-Server-Kommunikation. Sie ermöglicht Sicherheitsfeatures wie Office 365-zertifikatbasierte Authentifizierung, Office 365 mehrstufige Authentifizierung und Office 365 bedingten Zugriff. Um MA verwenden zu können, müssen sowohl der Online Mandant als auch die Clients für MA aktiviert sein. SfBO-Mandanten, die nach May 2017 erstellt wurden, haben MA standardmäßig aktiviert. Für Mandanten, die vor diesem Zeitpunkt erstellt wurden, folgen Sie den Anweisungen hier, um Sie zu aktivieren. Die folgenden Clients unterstützen alle MA: Skype for Business 2015 oder 2016 Client, Skype for Business für Mac, lync 2013-Client, 3PIP IP-Telefone, IOS und Android. 
+- **Moderne Authentifizierung** ist die Microsoft-Implementierung von OAUTH 2,0 für Client-zu-Server-Kommunikation. Sie ermöglicht Sicherheitsfeatures wie zertifikatbasierte Authentifizierung, mehrstufige Authentifizierung und bedingter Zugriff. Um MA verwenden zu können, müssen sowohl der Online Mandant als auch die Clients für MA aktiviert sein. SfBO-Mandanten, die nach May 2017 erstellt wurden, haben MA standardmäßig aktiviert. Für Mandanten, die vor diesem Zeitpunkt erstellt wurden, folgen Sie den Anweisungen hier, um Sie zu aktivieren. Die folgenden Clients unterstützen alle MA: Skype for Business 2015 oder 2016 Client, Skype for Business für Mac, lync 2013-Client, 3PIP IP-Telefone, IOS und Android. 
 - Die **org-ID** wird verwendet, wenn die moderne Authentifizierung nicht aktiviert ist (oder nicht verfügbar ist).
 - Das **Digestprotokoll** für sogenannte anonyme Benutzer. Anonyme Benutzer sind externe Benutzer, die nicht über anerkannte Active Directory-Anmeldeinformationen verfügen, aber zu einer lokalen Konferenz eingeladen wurden und einen gültigen Konferenzschlüssel besitzen. Die Digestauthentifizierung wird nicht für andere Clientinteraktionen verwendet.
 
@@ -239,11 +239,11 @@ Enabling external users and internal users to exchange media requires an Access 
 5. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.
 
 ### <a name="federation-safeguards-for-sfbo"></a>Verbund Garantien für SfBO
-Föderation bietet Ihrer Organisation die Möglichkeit, mit anderen Organisationen zu kommunizieren und Chats und Anwesenheitsinformationen freizugeben. In SfBO ist der Verbund standardmäßig aktiviert. Mandantenadministratoren haben jedoch die Möglichkeit, dies über das Office 365-Verwaltungsportal zu kontrollieren. Weitere Informationen.
+Föderation bietet Ihrer Organisation die Möglichkeit, mit anderen Organisationen zu kommunizieren und Chats und Anwesenheitsinformationen freizugeben. In SfBO ist der Verbund standardmäßig aktiviert. Mandantenadministratoren können dies jedoch über das Microsoft 365-oder Office 365-Administratorportal steuern. Weitere Informationen.
 
 ## <a name="addressing-threats-to-sfbo-conferences"></a>Handhaben von Bedrohungen für SfBO-Konferenzen
 
-SfBO provides the capability for enterprise users to create and join real-time Web conferences. Enterprise users can also invite external users who do not have an AAD/O365 account to participate in these meetings. Users who are employed by federated partners with a secure and authenticated identity can also join meetings and, if promoted to do so, can act as presenters. Anonymous users cannot create or join a meeting as a presenter, but they can be promoted to presenter after they join.
+SfBO bietet Unternehmensbenutzern die Möglichkeit, Echt Zeit Webkonferenzen zu erstellen und daran teilzunehmen. Unternehmensbenutzer können auch externe Benutzer einladen, die nicht über ein Aad-, Microsoft 365-oder Office 365-Konto verfügen, um an diesen Besprechungen teilzunehmen. Benutzer, die von Verbundpartnern mit einer sicheren und authentifizierten Identität beschäftigt sind, können auch an Besprechungen teilnehmen und, wenn Sie dazu heraufgestuft werden, als Referenten fungieren. Anonyme Benutzer können keine Besprechung als Referent erstellen oder an einer Besprechung teilnehmen, Sie können aber nach der Teilnahme zum Referenten heraufgestuft werden.
 
 Enabling external users to participate in SfBO meetings greatly increases the value of this feature, but it also entails some security risks. To address these risks, SfBO provides the following additional safeguards:
 - Teilnehmerrollen bestimmen die Berechtigungen für die Konferenzsteuerung.
@@ -255,7 +255,7 @@ Enabling external users to participate in SfBO meetings greatly increases the va
 ### <a name="participant-roles"></a>Teilnehmerrollen
 Die Besprechungsteilnehmer gliedern sich in drei Gruppen mit jeweils eigenen Privilegien und Einschränkungen:
 - **Organizer** &nbsp; &nbsp;der Benutzer, der eine Besprechung erstellt, ob spontan oder durch planen. Ein Organisator muss ein authentifizierter Unternehmensbenutzer sein und alle Endbenutzer Aspekte einer Besprechung kontrollieren.
-- **** &nbsp;Referent &nbsp;ein Benutzer, der berechtigt ist, Informationen in einer Besprechung zu präsentieren, wobei alle Medien unterstützt werden. Ein Besprechungsorganisator ist definitionsgemäß auch Referent und bestimmt, wer sonst ein Referent sein kann. Ein Organisator kann diese Entscheidung treffen, wenn eine Besprechung geplant ist oder die Besprechung läuft.
+- **Presenter** &nbsp;Referent &nbsp;ein Benutzer, der berechtigt ist, Informationen in einer Besprechung zu präsentieren, wobei alle Medien unterstützt werden. Ein Besprechungsorganisator ist definitionsgemäß auch Referent und bestimmt, wer sonst ein Referent sein kann. Ein Organisator kann diese Entscheidung treffen, wenn eine Besprechung geplant ist oder die Besprechung läuft.
 - &nbsp; &nbsp; **Teilnehmer** : ein Benutzer, der zur Teilnahme an einer Besprechung eingeladen wurde, aber nicht autorisiert ist, als Referent zu fungieren.
 
 Ein Referent kann auch einen Teilnehmer während der Besprechung für die Rolle des Referenten befördern.
@@ -275,8 +275,8 @@ Standardmäßig gehen Teilnehmer, die sich aus dem PSTN einwählen, direkt zur B
 Meeting organizers control whether participants can join a meeting without waiting in the lobby. Each meeting can be set up to enable access using any one of the following methods:
 - **Nur ich, der Organisator des Treffens**&nbsp;&nbsp;Jeder außer dem Organisator muss in der Lobby warten, bis er zugelassen wird.
 - **Personen, die ich aus meinem Unternehmen einlade**&nbsp;&nbsp;Jeder aus Ihrem Unternehmen kann direkt zur Besprechung kommen, auch wenn er nicht eingeladen ist.
-- **Anyone from my organization**&nbsp;&nbsp;All SfBO users in the O365 tenant can join the meeting without waiting in the lobby, even if those who are not on the distribution list. All others, including all external and anonymous users, must wait in the lobby until admitted.
-- ****&nbsp;Jeder&nbsp;Benutzer (es gibt keine Einschränkungen), der Zugriff auf den Besprechungslink hat, wird direkt an der Besprechung teilnehmen. Wenn eine Methode mit Ausnahme von Organizer (gesperrt) angegeben wird, kann der Besprechungsorganisator auch angeben, dass Personen, die sich per Telefon einwählen, die Lobby umgehen. 
+- **Alle Personen aus meiner Organisation**&nbsp;&nbsp;können alle SfBO-Benutzer im Microsoft 365-oder Office 365-Mandanten an der Besprechung teilnehmen, ohne in der Lobby warten zu müssen, selbst wenn Sie nicht in der Verteilerliste aufgeführt sind. Alle anderen Personen, einschließlich aller externen und anonymen Nutzer, müssen in der Lobby warten, bis Sie zugelassen sind.
+- **Anyone**&nbsp;Jeder&nbsp;Benutzer (es gibt keine Einschränkungen), der Zugriff auf den Besprechungslink hat, wird direkt an der Besprechung teilnehmen. Wenn eine Methode mit Ausnahme von Organizer (gesperrt) angegeben wird, kann der Besprechungsorganisator auch angeben, dass Personen, die sich per Telefon einwählen, die Lobby umgehen. 
 
 ### <a name="presenter-capabilities"></a>Referentenfunktion
 Meeting organizers control whether participants can present during a meeting. Each meeting can be set up to limit presenters to any one of the following:
