@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Weitere Informationen finden Sie unter Skype for Business Online-Schritte zum Zuweisen einer Lizenz für Einwahlkonferenzen und einer Konferenz-ID für einen Benutzer und viele andere Einstellungen für Einwahlkonferenzen. '
-ms.openlocfilehash: 9567c8234c0ef7a5b65c5894666747eab3cff7a5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aa8e9cbaf063ebf1780e3f8ce45b7bd54ced474f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777980"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164144"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Verwalten der Einstellungen von Audio Conferencing für meine Organisation in Skype for Business Online
 
@@ -88,7 +88,7 @@ Es ist möglicherweise einfacher für Sie, alle Audiokonferenz-Einstellungen fü
 
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>Ändern der Kontaktinformationen des Absenders in E-Mails an Benutzer
 
-Sie können die E-Mail, die automatisch an Ihre Benutzer gesendet wird, ändern, unter anderem die E-Mail-Adresse und den Anzeigenamen der Kontaktinformationen des Absenders. Standardmäßig ist Office 365 als Absender der E-Mails angegeben. Sie können jedoch die E-Mail-Adresse und den Anzeigenamen mit Windows PowerShell und dem Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) ändern. Um Änderungen an der E-Mail-Adresse vorzunehmen, über die die E-Mail an die Benutzer gesendet wird, müssen Sie:
+Sie können Änderungen an der e-Mail vornehmen, die automatisch an Ihre Benutzer gesendet wird, einschließlich der tatsächlichen e-Mail-Adresse und des Anzeigenamens der Kontaktinformationen des Absenders. Standardmäßig ist der Absender der e-Mails Microsoft 365 oder Office 365, Sie können jedoch die e-Mail-Adresse und den Anzeigenamen mithilfe von Windows PowerShell und dem Cmdlet " [CsOnlineDialInConferencingTenantSettings](https://docs.microsoft.com/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) " ändern. Wenn Sie Änderungen an der e-Mail-Adresse vornehmen möchten, von der die e-Mail an die Benutzer gesendet wird, müssen Sie Folgendes ausführen:
 
 - Geben Sie die e-Mail-Adresse im _SendEmailFromAddress_ -Parameter ein.
 
@@ -243,10 +243,10 @@ Siehe [Festlegen der automatischen Telefonzentrale Sprachen für Audio-Konferenz
 1. Mit Ihrem Firmen-oder Schulkonto anmelden
 
 2. Wechseln Sie zum Admin Center > **Skype for Business**.
-
+ 
 3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge**. Here you can:
 
-   - Zeigen Sie die Telefonnummern an, die von Office 365 für Audiokonferenzen verwendet werden.
+   - Zeigen Sie die Telefonnummern an, die von Microsoft 365 oder Office 365 für Audiokonferenzen verwendet werden.
 
    - Zeigen Sie den Standort sowie die primären und sekundären Sprachen an, die von der automatischen Telefonzentrale für Audiokonferenzen verwendet werden.
 
@@ -315,11 +315,11 @@ Hier sind die Einstellungen auf Organisationsebene:
   ```
 
   ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- In Windows PowerShell geht es um die Verwaltung von Benutzern und die Benutzer, die zugelassen oder nicht zulässig sind. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 mit einem zentralen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn mehrere Aufgaben ausgeführt werden müssen. Die ersten Schritte mit Windows PowerShell finden Sie in den folgenden Themen:
 
-  - [Warum Sie Office 365 PowerShell verwenden müssen](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-  - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
 - Windows PowerShell bietet zahlreiche Vorteile in Geschwindigkeit, Einfachheit und Produktivität, wenn nur das Admin Center verwendet wird, beispielsweise wenn Sie für viele Benutzer gleichzeitig Änderungen an den Einstellungen vornehmen. Weitere Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
 

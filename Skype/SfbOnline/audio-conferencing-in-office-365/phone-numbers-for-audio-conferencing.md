@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Hier erfahren Sie, für welche Länder und Regionen Dial-in-Konferenztelefonnummern verfügbar sind und wie diese automatisch zugewiesen werden.
-ms.openlocfilehash: fa99e9225f55919b58bf6d9b4648a740b21fcb34
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e3abae815eca6dad17fe51efaf7ec715421650ff
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777440"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164714"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Telefonnummern für Audiokonferenzen in Skype für Business Online
 
@@ -55,7 +55,7 @@ Es gibt zwei Arten von Audiokonferenz-Telefonnummern, die Ihrer Konferenzbrücke
   
  **Dedizierte Telefonnummern** sind Telefonnummern, die nur den Benutzern in Ihrer Organisation zur Verfügung stehen. Sie können die Sprachen ändern, die verwendet werden, wenn jemand unter diesen Nummern anruft.
   
- **Freigegebene Telefonnummern** sind die Telefonnummern, die für andere Microsoft 365-oder Office-365s freigegeben werden können. Sie können die Sprachen, die verwendet werden, wenn sich jemand an eine dieser Nummern anmeldet, nicht ändern.
+ **Freigegebene Telefonnummern** sind die Telefonnummern, die für andere Microsoft 365-oder Office 365-Konten freigegeben werden können. Sie können die Sprachen, die verwendet werden, wenn sich jemand an eine dieser Nummern anmeldet, nicht ändern.
   
 Nur die Standardtelefonnummer für Audiokonferenzen, die einem Organisator zugewiesen ist, ist in der Besprechungseinladung enthalten. Anrufer können aber jede der Telefonnummern, die Ihrer Konferenzbrücke zugewiesen sind, für die Teilnahme an einer Besprechung verwenden. Die Liste der Telefonnummern, die für die Teilnahme an einer Besprechung verwendet werden können, befindet sich unter dem Link **Lokale Rufnummer suchen**, der in jeder Besprechungseinladung enthalten ist.
   
@@ -89,4 +89,4 @@ Eine Liste der Länder/Regionen, in denen Organisationen automatisch Telefonnumm
    
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

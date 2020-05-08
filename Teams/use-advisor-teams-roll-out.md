@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Verwenden Sie den Ratgeber für Teams (öffentliche Vorschau) als Hilfe bei der Planung und Durchführung Ihrer Bereitstellung von Microsoft Teams.
-ms.openlocfilehash: 1357829330f4d2ef7ad95e0eda1cebcbe8492756
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 79273c0c0d96bf5f7c52399310bffce433928e2b
+ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042912"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44139198"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Verwenden Sie den Ratgeber für Teams als Hilfe beim Rollout von Microsoft Teams
 
@@ -65,6 +65,12 @@ Während Advisor für Teams in öffentlicher Vorschau vorliegt, stellen wir dies
     - Planer-Plan, einschließlich Umstiegsaufgaben
     - Formulare-Benutzerumfrage
     - Advisor für Teams – Bot
+1. Skype for Business-Upgrade
+    - Mandantenbewertung
+    - Planer-Plan, einschließlich Umstiegsaufgaben
+    - Formulare-Benutzerumfrage
+    - Advisor für Teams – Bot
+    - Der Skype for Business-Upgradeplan ist für Kunden gedacht, die zurzeit Skype for Business Online oder Skype for Business in lokalen Umgebungen verwenden, und hilft Ihnen, Unsicherheiten bei einem Upgrade zu beseitigen.  Der Plan basiert auf einem bewährten Gerüst für die erfolgreiche Implementierung von Änderungen und führt Sie schrittweise durch den Prozess, ganz gleich, ob Sie gerade erst mit Microsoft Teams beginnen, es bereits zusammen mit Skype for Business nutzen oder ein Upgrade vornehmen möchten. Der Plan bietet außerdem den Zugriff auf [Online-Leitfäden und bewährte Methoden](https://aka.ms/SkypeToTeams), [herunterladbare Ressourcen](https://aka.ms/UpgradeSuccessKit), [Live 1: viele Planungs-Workshops](https://aka.ms/UpgradeWorkshops) und weitere Ressourcen zur Unterstützung Ihres Erfolgs.
 
 Wir empfehlen, dass Sie mit dem Plan "Chat, Teams, Kanäle und Apps" starten. Wenn Sie die Bereitstellung dieser Workload abgeschlossen haben, wechseln Sie zurück zu Advisor für Teams, und klicken Sie auf **Kanal hinzufügen**, um die nächste Workload zu starten.
 
@@ -108,6 +114,9 @@ Zusätzlich zu den [Bewertungstests für alle Workloads](#assessment-tests-for-a
 |Audiokonferenz-Lizenzen    |Ob Sie über ein aktives Abonnement mit verfügbaren Audiokonferenz-Lizenzen verfügen. Dies ist eine Voraussetzung für den Einsatz von Audiokonferenzbrücken. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über Audiokonferenzlizenzen verfügen (mit mindestens einer verfügbaren Lizenz). Weitere Informationen finden Sie unter [Teams Add-On-Lizenzierung](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).    |
 |Stream-Lizenzen     |Ob Sie über ein aktives Abonnement mit Microsoft Stream-Lizenzen verfügen. Dies ist eine Voraussetzung, wenn Sie die Besprechungsaufzeichnung aktivieren möchten. Fragt Microsoft Graph ab, um zu ermitteln, ob Sie über Microsoft Stream-Lizenzen verfügen (mit mindestens einer für die Zuweisung verfügbaren Lizenz). Weitere Informationen zu Stream und dessen Aktivierung finden Sie unter [Aufzeichnung einer Teams-Cloudbesprechung](cloud-recording.md).
 
+### <a name="assessments-for-skype-for-business-upgrade"></a>Bewertungen für das Skype for Business-Upgrade
+Zusätzlich zu den [Bewertungstests für alle Workloads](#assessment-tests-for-all-workloads) umfasst das Skype for Business Upgrade auch Bewertungen, die im Besprechungs- und Konferenzplan verwendet werden.
+
 ### <a name="advisor-for-teams-bot"></a>Advisor für Teams – Bot
 
 Sobald Advisor für Teams Ihr Bereitstellungsteam erstellt hat, schickt der Advisor für Teams-Bot die folgende Nachricht im Kanal "Allgemein".
@@ -148,6 +157,9 @@ Ja, nachdem der Ratgeber für Teams Ihr Bereitstellungsteam erstellt hat, sollte
 ### <a name="can-i-modify-the-forms-survey"></a>Kann ich die Formulare-Umfrage ändern?
 Ja, nachdem der Ratgeber für Teams Ihr Bereitstellungsteam erstellt hat, können Sie die Formulare-Umfrage nach Bedarf ändern.
 
+### <a name="are-there-any-differences-between-advisor-for-teams-in-gcc"></a>Gibt es Unterschiede im Hinblick auf den Ratgeber für Teams in GCC?
+Ja, Formulare für Benutzerumfragen werden erstellt, aber nicht in Plankanälen angeheftet, da die Teams-Formulare-App in GCC derzeit nicht zur Verfügung steht.
+
 ### <a name="what-information-is-advisor-for-teams-collecting-about-my-organization"></a>Welche Daten werden von dem Ratgeber für Teams über meine Organisation gesammelt?
 Der Ratgeber für Teams fragt, ob Sie einverstanden sind, das nicht-EUII (endbenutzeridentifizierende Daten) gesammelt werden. Bei den gesammelten Daten handelt es sich um eine Telemetrie, die Microsoft ein Feedback darüber gibt, wie erfolgreich der Berater für Teams Ergebnisse erzielt und inwieweit er ggf. verbessert werden muss. Diese Daten werden verwendet, um Chancen für Microsoft zu erkennen, sich proaktiv mit Ihrer Organisation zu befassen, um sie bei Ihrer Bereitstellung zu unterstützen.
 
@@ -170,4 +182,4 @@ Wechseln Sie zum [Formulare-Hilfecenter](https://support.office.com/forms).
 [Bewährte Methoden zum Organisieren von Teams in Microsoft Teams](best-practices-organizing.md)
 
 [Produktnamen und Serviceplanbezeichner für die Lizenzierung](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
-) 
+)

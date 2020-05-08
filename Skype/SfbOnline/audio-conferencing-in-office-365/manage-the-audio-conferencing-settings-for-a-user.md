@@ -20,20 +20,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Sie können als ein Office 365-Administrator die Skype for Business Online-Audiokonferenzeinstellungen – wie z.B. der Anbieter, gebührenpflichtige oder gebührenfreie Telefonnummer als Standard, Konferenz-ID oder PIN – für einen einzelnen Benutzer in Ihrer Organisation bearbeiten. '
-ms.openlocfilehash: fe6814bee547e80d6bcb6fc367d055dce13d513d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+description: 'Als Microsoft 365-oder Office 365-Administrator können Sie die Einstellungen für die Audiokonferenz von Skype for Business online bearbeiten – beispielsweise den Anbieter, die standardmäßige gebührenpflichtige oder gebührenfreie Nummer, Konferenz-ID oder PIN – für einen einzelnen Benutzer in Ihrer Organisation. '
+ms.openlocfilehash: 2df6b9bfe7b1b9c161730b29e85dd1ed7335b0cd
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43777990"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164134"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Verwalten der Audio-Konferenzeinstellungen für einen Benutzer in Skype for Business Online
 
 > [!Note]
 > Wenn Sie Benutzereinstellungen in Microsoft Teams verwalten möchten, lesen Sie [Verwalten der audiokonferenzeinstellungen für einen Benutzer in Microsoft Teams](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
-As an Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
+Als Microsoft 365-oder Office 365-Administrator können Sie die audiokonferenzeinstellungen wie den Anbieter, die standardmäßige gebührenpflichtige oder gebührenfreie Nummer, Konferenz-ID oder PIN für einen einzelnen Benutzer in Ihrer Organisation bearbeiten. Wenn Sie die Einstellungen für Ihre Organisation bearbeiten möchten, lesen Sie [Verwalten der Einstellungen für die Audiokonferenz für meine Organisation](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
 1. Mit Ihrem Firmen-oder Schulkonto anmelden

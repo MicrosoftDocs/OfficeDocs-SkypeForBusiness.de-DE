@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'Passen Sie Skype-Besprechungseinladungen mit Grafik Logos, Hilfe-und rechtlichen URLs sowie Fußzeilentext an. '
-ms.openlocfilehash: 41ed423349ff34f27a164b4d9c652571241b1afb
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2f4622a964037feab0c06e731606aded7a9fb758
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776230"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164334"
 ---
 # <a name="customize-meeting-invitations"></a>Anpassen von Besprechungseinladungen
 
@@ -69,14 +69,14 @@ Als Administrator können Sie sicherstellen, dass alle Skype for Business-Bespre
    
 5. Klicken Sie auf **Speichern**.
     
-6. Warten Sie eine Stunde, damit die Änderungen in allen Office 365-Diensten aufgefüllt werden. Wechseln Sie dann zu Outlook, und planen Sie eine Skype-Besprechung, um zu sehen, wie Ihre Änderungen aussehen. 
+6. Warten Sie eine Stunde, damit die Änderungen in allen Microsoft 365-oder Office 365-Diensten aufgefüllt werden. Wechseln Sie dann zu Outlook, und planen Sie eine Skype-Besprechung, um zu sehen, wie Ihre Änderungen aussehen. 
     
     ![So sieht eine benutzerdefinierte Einladung aus, ohne die Grafik](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## <a name="related-topics"></a>Verwandte Themen
 <a name="__top"> </a>
 
-[Testen oder Kaufen des Audiokonferenz-Add-Ons in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 
   
  

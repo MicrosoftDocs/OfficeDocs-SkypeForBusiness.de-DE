@@ -17,12 +17,12 @@ description: Hier erfahren Sie, wie Sie die Microsoft-Anrufpläne und die dynami
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92862eb960722ac2becbe216cdec5281282106b5
-ms.sourcegitcommit: a9e16aa3539103f3618427ffc7ebbda6919b5176
+ms.openlocfilehash: b76f8605aa1151911c26e0724db161b3a497fcf6
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43905887"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164554"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -135,7 +135,7 @@ Beachten Sie, dass es einige Zeit dauern kann (bis zu ein paar Stunden), bis ein
 
 ## <a name="configure-location-information-service"></a>Konfigurieren des Standort Informationsdiensts
 
-Ein Team-Client ruft Notfalladressen von den Speicherorten ab, die verschiedenen Netzwerk-IDs zugeordnet sind. Sowohl Subnetze als auch Drahtloszugriffspunkte (WAPs) werden unterstützt. (Unterstützung für Ethernet-Switch/-Port ist ausstehend.)
+Ein Team-Client ruft Notfalladressen von den Speicherorten ab, die verschiedenen Netzwerk-IDs zugeordnet sind. Sowohl Subnetze als auch Drahtloszugriffspunkte (WAPs) werden unterstützt. Wenn mehrere Speicherorte gefunden werden, hat WAP Vorrang vor Subnetz. (Unterstützung für Ethernet-Switch/-Port ist ausstehend.)
 
 Damit ein Client einen Standort erhält, müssen Sie mit den folgenden Cmdlets den standortinformationsdienst (Information Service, LIS) mit Netzwerkkennungen und Notfall Speicherorten füllen:  
 

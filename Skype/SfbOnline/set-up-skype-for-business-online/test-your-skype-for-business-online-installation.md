@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Lernen Sie Zeit zu sparen, Anrufe zu unterstützen und die Zufriedenheit zu erhöhen, indem Sie Testkonten und-Computer einrichten sowie Einwahlkonferenzen, Online Funktionen wie Anrufe zwischen Personen, Konferenzgespräche und Anmeldungen und Abmelden testen. '
-ms.openlocfilehash: b8ebf8f82ad4706282d9feca5cdf21f27df90adb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fea4b04f51560b602687eff90ca6932ce5d1be8f
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692820"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164294"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Testen Ihrer Skype for Business Online-Installation
 
@@ -32,7 +32,7 @@ Sie können Zeit sparen, die Zahl der Supportanrufe reduzieren und die Akzeptanz
 
 Nachstehend die Voraussetzungen:
 
-- Mindestens drei Office 365-Konten (Ihres und mindestens zwei weitere Konten)
+- Mindestens drei Microsoft 365-oder Office 365-Konten (Ihre und mindestens zwei weitere).
 
 - Computer zum Testen der einzelnen Konten. Richten Sie die Computer so ein, wie ein normaler Computer in Ihrer Organisation eingerichtet würde.
 
@@ -51,7 +51,7 @@ Nachstehend die Voraussetzungen:
 ## <a name="set-up-test-accounts"></a>Einrichten von Testkonten
 <a name="__toc328126910"> </a>
 
-1. Wechseln Sie zu **Administrator** > **Office 365** > **Benutzer und Gruppen**, und wählen Sie![dann](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) Add Add aus, und geben Sie die erforderlichen Informationen ein.
+1. Wechseln Sie zu **Administrator** > **Microsoft 365** oder **Office 365** > -**Benutzer und-Gruppen**, und![wählen](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) Sie dann Add Add aus, und geben Sie die erforderlichen Informationen ein.
 
 2. Wenn Sie zu Schritt 4 (E-Mail) gelangen, geben Sie Ihre eigene E-Mail-Adresse ein. Sie besitzen dann einen Eintrag für den Namen und das Kennwort des neuen Benutzers.
 
@@ -62,7 +62,7 @@ Nachstehend die Voraussetzungen:
 
 Auf jedem Testcomputer:
 
-1. Wechseln Sie zur Homepage von Office 365, und melden Sie sich mit den Anmeldeinformationen eines Ihrer Testkonten an.
+1. Wechseln Sie zur Startseite von Microsoft 365 oder Office 365, und melden Sie sich mit den Anmeldeinformationen eines ihrer Testkonten an.
 
 2. Wechseln Sie zu **Einstellungen**![Einstellungen: Profil aktualisieren, Software installieren und mit der Cloud verbinden](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png), und klicken Sie dann auf **Software installieren und mit der Cloud verbinden**.
 
@@ -114,7 +114,7 @@ Sie können sich nicht anmelden? Weitere Informationen finden Sie unter [Behebun
 |[Senden einer Chatnachricht in Skype for Business](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |Das Skype for Business-Unterhaltungsfenster wird angezeigt, Sie geben etwas ein und empfangen eine Antwort von der Person, mit der Sie sich in Verbindung gesetzt haben.  <br/> |
 |[Senden einer Chatnachricht in Skype for Business](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |Das Skype for Business-Unterhaltungsfenster wird angezeigt, Sie machen eine Eingabe und erhalten Antworten von allen Teilnehmern der Unterhaltung.  <br/> |
 |[Suchen nach einem Kontakt anhand des Vor- oder Nachnamens](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |Die Anzeige der Suchergebnisse beginnt, sobald Sie mit der Eingabe beginnen.  <br/> |
-|[Häufig gestellte Fragen zu Lync für Office 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |Der hinzugefügte Kontakt wird in der von Ihnen ausgewählten Gruppe „Kontakte" angezeigt.  <br/> |
+|[Häufig gestellte Fragen zu lync für Microsoft 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |Der hinzugefügte Kontakt wird in der von Ihnen ausgewählten Gruppe „Kontakte" angezeigt.  <br/> |
 |[Ändern Ihres Anwesenheitsstatus in Skype for Business (Lync)](https://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |Ihr neuer Anwesenheitsstatus wird in den Kontaktlisten der anderen Teilnehmer angezeigt.  <br/> |
 |[Verwenden der Visitenkarte](https://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |Die Visitenkarte einer Person wird neben ihrem Namen angezeigt.  <br/> |
 

@@ -22,16 +22,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Erfahren Sie, wie Sie Microsoft den Anbieter von Einwahlkonferenzen für Skype for Business zuweisen.
-ms.openlocfilehash: f0c3d1d667847e080b47f31bb1032ff4b8ac980d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8ce128c2fa19668ed93c6ad387feecbee2e00a8d
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695760"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164517"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Zuweisen von Microsoft als Audiokonferenzanbieter
 
-To use Audio Conferencing in Office 365 with Skype for Business and Microsoft Teams, users in your organization need to have an Audio Conferencing license assigned to them. See [Try or purchase Audio Conferencing in Office 365](try-or-purchase-audio-conferencing-in-office-365.md) to get more information on licensing and how much it costs.
+Wenn Sie Audiokonferenzen in Microsoft 365 oder Office 365 mit Skype for Business und Microsoft Teams verwenden möchten, müssen Benutzern in Ihrer Organisation eine Audiokonferenz-Lizenz zugewiesen sein. Weitere Informationen zur Lizenzierung und zu den Kosten finden Sie unter [Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365](try-or-purchase-audio-conferencing-in-office-365.md) .
 
 Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conference IDs that can be used by meeting participants to join the meetings of your organization. You only need to assign Microsoft as the audio conferencing provider to people who are going to schedule or lead Skype for Business or Microsoft Teams meetings.
 
@@ -40,7 +40,7 @@ Microsoft Audio Conferencing supplies dial-in phone numbers, PINs, and conferenc
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Zuweisen von Microsoft als Audiokonferenzanbieter
 
-### <a name="an-icon-showing-the-skype-for-business-logoimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) Verwenden des Skype for Business Admin Center
+### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) Verwenden des Skype for Business Admin Center
 
 1. Wechseln Sie zum **Microsoft Teams Admin Center** > **Legacy-Portal**.
     
@@ -196,6 +196,6 @@ Script.ps1 -CsvFile <Path of the csv file>
 Weitere Informationen zur Nutzung von Windows PowerShell finden Sie unter [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525038).
   
 ## <a name="related-topics"></a>Verwandte Themen
-[Testen oder erwerben Sie Audiokonferenz in Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
-[Skype for Business Online einrichten](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
+[Testen oder kaufen von Audiokonferenzen in Microsoft 365 oder Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
+[Einrichten von Skype for Business Online](../set-up-skype-for-business-online/set-up-skype-for-business-online.md)
 

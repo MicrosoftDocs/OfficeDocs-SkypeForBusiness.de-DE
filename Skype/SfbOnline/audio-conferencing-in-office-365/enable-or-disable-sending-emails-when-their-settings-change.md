@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, wie Sie Skype beim Senden von e-Mails an Benutzer aktivieren oder deaktivieren können, wenn sich Einstellungen wie PIN-Änderungen oder die standardmäßige Konferenznummer ändern. '
-ms.openlocfilehash: bfdbe1c6c9380b12086ce667c588d8b974438ee5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 681a02fd410c008f46ad7906c5963660df668a89
+ms.sourcegitcommit: 36f7ec432090683aedb77a5bd7856e1b10af2a81
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707220"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44164264"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Aktivieren oder Deaktivieren des Sendens von e-Mails, wenn sich die Einstellungen für Audiokonferenzen in Skype for Business Online ändern
 
@@ -35,7 +35,7 @@ ms.locfileid: "41707220"
 
 Benutzer werden automatisch per e-Mail benachrichtigt, wenn Sie für Audiokonferenzen aktiviert sind. Es kann jedoch vorkommen, dass Sie die Anzahl der e-Mails verringern möchten, die an Skype for Business-Benutzer gesendet werden. In solchen Fällen können Sie das Senden von e-Mails deaktivieren.
   
-Wenn Sie das Senden von e-Mails deaktivieren, werden keine Audiokonferenz-e-Mails an Ihre Benutzer gesendet, einschließlich e-Mails, wenn Benutzer für Audiokonferenzen aktiviert oder deaktiviert werden, wenn die PIN zurückgesetzt wird und die Konferenz-ID und die standardmäßige Konferenztelefonnummer geändert werden. .
+Wenn Sie das Senden von e-Mails deaktivieren, werden keine Audiokonferenz-e-Mails an Ihre Benutzer gesendet, einschließlich e-Mails, wenn Benutzer für Audiokonferenzen aktiviert oder deaktiviert werden, wenn die PIN zurückgesetzt wird und die Konferenz-ID und die standardmäßige Konferenztelefonnummer geändert werden.
   
 Im folgenden finden Sie ein Beispiel für die e-Mail, die an Benutzer gesendet wird, wenn Sie für Audiokonferenzen aktiviert sind:
   
@@ -105,11 +105,11 @@ Sie können das Skype for Business Admin Center oder Windows PowerShell verwende
     
   - [Get-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715760)
     
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Office 365 über einen zentralen Administrationspunkt verwalten und so Ihre tägliche Arbeit vereinfachen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 mit einem zentralen Verwaltungspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn mehrere Aufgaben ausgeführt werden müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
-  - [Warum Sie Office 365 PowerShell verwenden müssen](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
 - Windows PowerShell bietet zahlreiche Vorteile bei der Geschwindigkeit, Einfachheit und Produktivität, wenn Sie nur das Microsoft 365 Admin Center verwenden, beispielsweise wenn Sie für viele Benutzer gleichzeitig Einstellungsänderungen vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen: 
     

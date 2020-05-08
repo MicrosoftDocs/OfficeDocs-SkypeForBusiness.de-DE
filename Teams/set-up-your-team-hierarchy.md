@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 581d67f0083ea8b0e91615a96685f10f4cd64785
-ms.sourcegitcommit: 929c050c038a64216e38b0a67569a8f18ad4baf2
+ms.openlocfilehash: 2bb8133733f7230715753ecea0118fc635af446b
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43940915"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44159002"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Einrichten Ihrer Zielgruppen Adressierungs Hierarchie
 
@@ -118,7 +118,7 @@ Das `Store layout` Attribut enthält Werte, die `Compact`" `Standard`und `Large`
 > [!IMPORTANT]
 > Um diesen Schritt ausführen zu können, müssen Sie die neueste Version des Teams PowerShell-Moduls aus dem PowerShell-Test Katalog installieren und verwenden. Eine schrittweise Anleitung hierzu finden Sie unter [Installieren des neuesten Teams PowerShell-Moduls aus dem PowerShell-Test Katalog](#install-the-latest-teams-powershell-module-from-the-powershell-test-gallery).
 
-Nachdem Sie Ihre Hierarchie in der CSV-Schemadatei definiert haben, können Sie Sie in Teams hochladen. Führen Sie dazu den folgenden Befehl aus. Sie müssen ein Administrator sein, um diesen Schritt ausführen zu können. 
+Nachdem Sie Ihre Hierarchie in der CSV-Schemadatei definiert haben, können Sie Sie in Teams hochladen. Führen Sie dazu den folgenden Befehl aus. Sie müssen ein globaler Administrator oder Team Dienstadministrator sein, um diesen Schritt ausführen zu können.
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
