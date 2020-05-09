@@ -19,18 +19,17 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30599b73447e9b5ab9873c6cd48372d997def5d1
-ms.sourcegitcommit: 3ef5c913318fdeeaa8c55caab07c2f8224eae2b0
+ms.openlocfilehash: 6571da01408893423ae6672dccd80ba65a55cbaf
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43898120"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "44158972"
 ---
+# <a name="security-and-microsoft-teams"></a>Sicherheit und Microsoft Teams
+
 > [!IMPORTANT]
 > Das Teams-Dienstmodell kann geändert werden, um die Kundenzufriedenheit zu verbessern. So können beispielsweise die standardmäßigen Ablaufzeiten des Zugriffs- oder Aktualisierungstokens geändert werden, um die Leistung und die Authentifizierungssicherheit für Benutzer von Teams zu verbessern. Solche Änderungen würden vorgenommen, um die Sicherheit und Vertrauenswürdigkeit von Teams zu gewährleisten.
-<p>
-
-# <a name="security-and-microsoft-teams"></a>Sicherheit und Microsoft Teams
 
 Microsoft Teams, als Teil des Microsoft 365 (M365)-Dienstes, befolgt alle bewährte Methoden und Verfahren für die Sicherheit, wie z. B. Sicherheit auf Leistungsebene durch umfassende Abwehrmaßnahmen, Kundenkontrolle innerhalb des Dienstes, Sicherheitshärtung und betriebliche Best Practices. Weitere Informationen finden Sie im [Microsoft Trust Center](https://microsoft.com/trustcenter).
 
@@ -98,7 +97,7 @@ Dieser Abschnitt enthält eine Übersicht über grundlegende Elemente, die ein S
 
 Die wichtigsten Elemente sind:
 
-- Azure Active Directory (AAD) bietet ein einziges vertrauenswürdiges Back-End-Repository für Benutzerkonten. Informationen zu Benutzerprofilen werden in AAD durch die Aktionen von Microsoft Graph gespeichert.
+- Azure Active Directory (Azure AD) bietet ein einziges vertrauenswürdiges Back-End-Repository für Benutzerkonten. Informationen zu Benutzerprofilen werden in Azure AD durch die Aktionen von Microsoft Graph gespeichert.
   - Bitte beachten Sie, dass möglicherweise mehrere Token ausgegeben werden, die bei Verfolgung des Netzwerkdatenverkehrs ggf. angezeigt werden. Dazu gehören Skype-Token, die beim Betrachten des Chats und Audiodatenverkehr möglicherweise in Ablaufverfolgungen angezeigt werden.
 - Transport Layer Security (TLS) und Mutual TLS (MTLS), die den Chatdatenverkehr verschlüsseln und die Endpunktauthentifizierung aktivieren. Punkt-zu-Punkt-Audio-, Video- und Anwendungsfreigabestreams werden verschlüsselt und die Integrität mithilfe des Secure Real-Time Transport Protocol (SRTP) überprüft. Möglicherweise wird in Ihrem Trace auch OAuth-Datenverkehr angezeigt, insbesondere beim Aushandeln von Berechtigungen beim Wechseln zwischen Registerkarten in Teams, z. B. um von Posts zu Dateien zu wechseln. Ein Beispiel für den OAuth-Ablauf für Registerkarten [finden Sie in diesem Dokument](https://docs.microsoft.com/microsoftteams/platform/tabs/how-to/authentication/auth-flow-tab).
 - Teams verwenden nach Möglichkeit branchenübliche Protokolle für die Nutzerauthentifizierung.
@@ -160,7 +159,7 @@ Teams verwendet FIPS (Federal Information Processing Standard) konforme Algorith
 
 ### <a name="user-and-client-authentication"></a>Nutzer- und Clientauthentifizierung
 
-Bei einem vertrauenswürdigen Benutzer handelt es sich um eine Person, deren Anmeldeinformationen in Office 365/Microsoft 365 von AAD authentifiziert wurden.
+Bei einem vertrauenswürdigen Benutzer handelt es sich um eine Person, deren Anmeldeinformationen in Office 365/Microsoft 365 von Azure AD authentifiziert wurden.
 
 Authentifizierung bedeutet die Bereitstellung von Benutzeranmeldeinformationen für einen vertrauenswürdigen Server oder Dienst. Teams verwendet abhängig vom Status und Standort des Benutzers die folgenden Authentifizierungsprotokolle.
 
@@ -169,11 +168,11 @@ Authentifizierung bedeutet die Bereitstellung von Benutzeranmeldeinformationen f
 > [!NOTE]
 > Wenn Sie die Azure AD-Authentifizierungs- und Autorisierungsmethoden auffrischen müssen, helfen die Abschnitte Einführung und "Authentifizierungsgrundlagen in Azure AD" in diesem Artikel.
 
-Die Teams-Authentifizierung erfolgt über AAD und OAuth. Der Authentifizierungsprozess kann vereinfacht werden:
+Die Teams-Authentifizierung erfolgt über Azure AD und OAuth. Der Authentifizierungsprozess kann vereinfacht werden:
 
 - Benutzeranmeldung> Token-Ausgabe> Nachfolgende Anforderung verwendet ausgegebenes Token.
 
-Anforderungen vom Client an den Server werden über AAD unter Verwendung von OAuth authentifiziert und autorisiert. Nutzer mit gültigen Anmeldeinformationen, die von einem Verbundpartner ausgestellt wurden, sind vertrauenswürdig und durchlaufen denselben Prozess wie native Benutzer. Weitere Einschränkungen können jedoch von Administratoren eingeführt werden.
+Anforderungen vom Client an den Server werden über Azure AD unter Verwendung von OAuth authentifiziert und autorisiert. Nutzer mit gültigen Anmeldeinformationen, die von einem Verbundpartner ausgestellt wurden, sind vertrauenswürdig und durchlaufen denselben Prozess wie native Benutzer. Weitere Einschränkungen können jedoch von Administratoren eingeführt werden.
 
 Für die Medienauthentifizierung verwenden die ICE- und TURN-Protokolle auch die Digest-Challenge, wie im IETF TURN RFC beschrieben.
 
@@ -203,28 +202,28 @@ Es gibt zwei Möglichkeiten zu steuern, wer an Teams-Besprechungen teilnimmt und
 
 1. Sie können steuern, wer an Ihren Besprechungen teilnimmt, indem Sie Einstellungen für die **Lobby** vornehmen.</p>
 
-|Optionen für die Einstellung "Wer kann den Wartebereich umgehen" auf der Seite Besprechungsoptionen   |Benutzertypen, die direkt an der Besprechung teilnehmen  |Benutzertypen, die in den Wartebereich wechseln   |
-|---------|---------|---------|
-|Personen in meinem Unternehmen     |  – Benutzer innerhalb des Mandanten  </br>– Gast des Mandanten         |  – Verbundbenutzer</br>  – Anonyme Benutzer</br>  – Einwahl über Telefonfestnetz</br>     |
-|Personen in meiner Organisation und vertrauenswürdigen Organisationen      |  – Benutzer innerhalb des Mandanten</br> – Gast des Mandanten</br> – Verbundbenutzer</br>        |  – Anonyme Benutzer</br>  – Einwahl über Telefonfestnetz</br>      |
-|Jeder      |   – Benutzer innerhalb des Mandanten</br>  – Gast des Mandanten</br>  – Anonymer Benutzer im Verbund</br>  – Einwahl über Telefonfestnetz</br>       |         |
+    |Optionen für die Einstellung "Wer kann den Wartebereich umgehen" auf der Seite Besprechungsoptionen   |Benutzertypen, die direkt an der Besprechung teilnehmen  |Benutzertypen, die in den Wartebereich wechseln   |
+    |---------|---------|---------|
+    |Personen in meinem Unternehmen     |  – Benutzer innerhalb des Mandanten  </br>– Gast des Mandanten         |  – Verbundbenutzer</br>  – Anonyme Benutzer</br>  – Einwahl über Telefonfestnetz</br>     |
+    |Personen in meiner Organisation und vertrauenswürdigen Organisationen      |  – Benutzer innerhalb des Mandanten</br> – Gast des Mandanten</br> – Verbundbenutzer</br>        |  – Anonyme Benutzer</br>  – Einwahl über Telefonfestnetz</br>      |
+    |Jeder      |   – Benutzer innerhalb des Mandanten</br>  – Gast des Mandanten</br>  – Anonymer Benutzer im Verbund</br>  – Einwahl über Telefonfestnetz</br>       |         |
 
 2. Der zweite Weg führt über **strukturierte Besprechungen** (bei denen Moderatoren alles tun können, was getan werden sollte, und die Teilnehmer haben eine kontrollierte Erfahrung). Nach der Teilnahme an einer strukturierten Besprechung steuern die Moderatoren, was die Teilnehmer in der Besprechung tun können. </p>
 
-|Aktionen  |Moderatoren  |Teilnehmer  |
-|---------|---------|---------|
-|Sprechen Sie und teilen Sie ihr Video     |   J      |   J      |
-|Nehmen Sie am Besprechung-Chat teil     |   J    |    J     |
-|Ändern Sie die Einstellungen in den Besprechungsoptionen     |   J      |  N       |
-|Andere Teilnehmer stumm schalten| J | N |
-|Andere Teilnehmer entfernen      |  J       |   N      |
-|Inhalte freigeben     |     J    |     N    |
-|Andere Teilnehmer aus der Lobby aufnehmen|  J       |   N      |
-|Andere Teilnehmer zu Moderatoren oder Teilnehmern machen     |   J      | N        |
-|Aufnahme starten oder stoppen     |     J    |    N     |
-|Übernehmen Sie die Kontrolle, wenn ein anderer Teilnehmer ein PowerPoint teilt     |  J         | N        |
+    |Aktionen  |Moderatoren  |Teilnehmer  |
+    |---------|---------|---------|
+    |Sprechen Sie und teilen Sie ihr Video     |   J      |   J      |
+    |Nehmen Sie am Besprechung-Chat teil     |   J    |    J     |
+    |Ändern Sie die Einstellungen in den Besprechungsoptionen     |   J      |  N       |
+    |Andere Teilnehmer stumm schalten| J | N |
+    |Andere Teilnehmer entfernen      |  J       |   N      |
+    |Inhalte freigeben     |     J    |     N    |
+    |Andere Teilnehmer aus der Lobby aufnehmen|  J       |   N      |
+    |Andere Teilnehmer zu Moderatoren oder Teilnehmern machen     |   J      | N        |
+    |Aufnahme starten oder stoppen     |     J    |    N     |
+    |Übernehmen Sie die Kontrolle, wenn ein anderer Teilnehmer ein PowerPoint teilt     |  J         | N        |
 
-Teams bietet Unternehmensbenutzern die Möglichkeit, Besprechungen in Echtzeit zu erstellen und daran teilzunehmen. Unternehmensbenutzer können auch externe Nutzer, die kein AAD/Office 365-Konto haben, zur Teilnahme an diesen Besprechungen einladen. Nutzer, die bei externen Partnern mit einer sicheren und authentifizierten Identität beschäftigt sind, können ebenfalls an Besprechungen teilnehmen und, wenn sie dazu gemacht werden, als Moderatorenn fungieren. Anonyme Nutzer können keine Besprechungen als Moderator erstellen oder daran teilnehmen. Sie können jedoch nach ihrer Teilnahme zum Moderator gemacht werden.
+Teams bietet Unternehmensbenutzern die Möglichkeit, Besprechungen in Echtzeit zu erstellen und daran teilzunehmen. Unternehmensbenutzer können auch externe Nutzer, die kein Azure AD/Office 365-Konto haben, zur Teilnahme an diesen Besprechungen einladen. Nutzer, die bei externen Partnern mit einer sicheren und authentifizierten Identität beschäftigt sind, können ebenfalls an Besprechungen teilnehmen und, wenn sie dazu gemacht werden, als Moderatorenn fungieren. Anonyme Nutzer können keine Besprechungen als Moderator erstellen oder daran teilnehmen. Sie können jedoch nach ihrer Teilnahme zum Moderator gemacht werden.
 
 Damit anonyme Nutzer an Teambesprechungen teilnehmen können, muss die Einstellung für Teilnehmerbesprechungen im Teams Admin Center aktiviert sein.
 
@@ -238,8 +237,8 @@ Das Aktivieren externer Nutzer zur Teilnahme an Teams-Besprechungen kann sehr n�
 - Das Planen von Besprechungen ist auf Nutzer beschränkt, die über ein AAD-Konto und eine Teams-Lizenz verfügen.
 - Anonyme, dh. nicht authentifizierte Nutzer, die an einer Einwahlkonferenz teilnehmen möchten, wählen eine der Konferenzzugriffsnummern. Wenn die Einstellung "Anrufern immer erlauben, die Lobby zu umgehen" *aktiviert* ist, müssen sie auch warten, bis ein Moderator oder ein authentifizierter Benutzer an der Besprechung teilnimmt.
 
-> [!CAUTION]
-> Wenn Sie nicht möchten, dass anonyme Benutzer (nicht explizit eingeladene Benutzer) an einer Besprechung teilnehmen, müssen Sie sicherstellen, dass die Option **Anonyme Benutzer können an einer Besprechung teilnehmen** für den Besprechungsabschnitt **Teilnehmer** auf **Aus** festgelegt ist.
+  > [!CAUTION]
+  > Wenn Sie nicht möchten, dass anonyme Benutzer (nicht explizit eingeladene Benutzer) an einer Besprechung teilnehmen, müssen Sie sicherstellen, dass die Option **Anonyme Benutzer können an einer Besprechung teilnehmen** für den Besprechungsabschnitt **Teilnehmer** auf **Aus** festgelegt ist.
 
 Ein Organisator kann auch Einstellungen konfigurieren, damit Einwählanrufer die erste Person in einer Besprechung sind. Diese Einstellung wird in den Audiokonferenzeinstellungen für Nutzer konfiguriert und gilt für alle vom Nutzer geplanten Besprechungen.
 
