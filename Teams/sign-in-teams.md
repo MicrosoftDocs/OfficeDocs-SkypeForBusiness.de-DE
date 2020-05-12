@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Hier erfahren Sie, wie die moderne Authentifizierung funktioniert, wie Sie zwischen Konten wechseln und wie Sie Probleme mit der modernen Authentifizierung behandeln.
+description: Hier erfahren Sie, wie die moderne Authentifizierung funktioniert, wie Sie zwischen Konten wechseln und wie Sie Probleme mit der modernen Authentifizierung behandeln. Erläutert auch, wie man Teams anweisen kann, das Vorausfüllen des Benutzernamens (UPN) bei der Anmeldung zu ignorieren.
 ms.custom: seo-marvel-apr2020
 localization_priority: Priority
 ms.collection:
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 344cf0d38926af200f4d92b664761d2c8868df57
-ms.sourcegitcommit: c3f44fccdbd9178d30b52bb0db6f6d31a6dd174b
+ms.openlocfilehash: f9b11fca87ce8cda8bc5d61198eb640fecd5b787
+ms.sourcegitcommit: 6e24ea8aa9cccf8a1a964c8ed414ef5c7de3dc17
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/07/2020
-ms.locfileid: "44139138"
+ms.locfileid: "44158822"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Anmelden bei Microsoft Teams mit moderner Authentifizierung
 ==========================
@@ -46,8 +46,6 @@ Bei der modernen Authentifizierung handelt es sich um einen Prozess, der Teams m
   Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams<br/>
   SkipUpnPrefill(REG_DWORD)<br/>
   0x00000001 (1)
-
-  Wenn Sie Outlook 2013 oder 2016 ausführen, lesen Sie [Update, um das Nachschlagen des Benutzerprinzipalnamens (User Principal Name, UPN) in Outlook 2016 und 2013 zu überspringen](https://support.microsoft.com/help/4022165/update-to-skip-user-principal-name-upn-lookup-in-outlook-2016-and-2013).
 
     > [!NOTE]
     > Das Überspringen oder Ignorieren des Vorab-Ausfüllens von Benutzernamen ist für Benutzernamen, die in „.local“ oder „.corp“ enden, standardmäßig aktiviert, daher müssen Sie keinen Registrierungsschlüssel festlegen, um diese zu deaktivieren. 

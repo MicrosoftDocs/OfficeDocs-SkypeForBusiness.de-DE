@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dcda9b15a3bfe5204bc410728449672707e614fd
-ms.sourcegitcommit: b143611d14765af054a4f84cca52e2003d35af1a
+ms.openlocfilehash: 73193c1979e2db3632f84e762b9c716ab46a7e56
+ms.sourcegitcommit: b5c747e2daad6dd3c1d91f4e61ae6f26db5c77f0
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/06/2020
-ms.locfileid: "44047764"
+ms.locfileid: "44064420"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -131,7 +131,9 @@ Kanalnamen dürfen auch nicht mit einem Unterstrich (_) oder Punkt (.) beginnen 
 |------------|---------------|
 |Zielgruppengröße | 10.000 Teilnehmer |
 |Dauer des Ereignisses | 4 Stunden |
-|Gleichzeitige Live-Ereignisse in einer Office 365-Organisation | 15 |
+|Gleichzeitige Live-Ereignisse in einer Office 365-Organisation<sup>1</sup> | 15 |
+
+<sup>1</sup> Sie können beliebig viele Live-Ereignisse planen, aber Sie können nur jeweils 15 ausführen. Sobald der Produzent einem Live-Ereignis beitritt, wird es als ausgeführt betrachtet. Der Produzent, der versucht, am 16. Live-Ereignis teilzunehmen, erhält eine Fehlermeldung.
 
 Weitere Informationen zu Liveereignissen und eine Gegenüberstellung von Team-Liveereignissen und Skype-Livekonferenzen finden Sie unter [Teams-Liveereignisse und Skype-Livekonferenzen](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 

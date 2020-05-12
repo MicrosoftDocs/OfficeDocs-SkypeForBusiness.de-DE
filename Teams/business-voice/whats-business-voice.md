@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Übersicht über Microsoft 365 Business Voice und die Art und Weise, wie es kleinen und mittelständischen Unternehmen dabei helfen kann, effektiver zu kommunizieren.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bffce01704402aac8fea90aee92d6bd854c5874f
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 828d05e68e84145868f4e58156fbe86ec8f14912
+ms.sourcegitcommit: 42b9b921d28cb02f537f0598653835193eb3f42f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780794"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "44170676"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>Was ist Microsoft 365 Business Voice?
 
@@ -32,15 +32,19 @@ Business Voice bietet all dies, indem Funktionen des Microsoft 365-Telefonsystem
 
 Business Voice ist das Richtige für Sie, wenn Ihre Organisation 300 oder weniger Personen hat und Sie eines der folgenden Microsoft 365-Abonnements verwenden:
 
-* Microsoft 365 Business Basic
-* Microsoft 365 Business Standard
-* Office 365 E1
-* Office 365 E3
-* Office 365 F1
-* Microsoft 365 A1
-* Microsoft 365 A3
-* Microsoft 365 E3
-* Microsoft 365 Business
+- Microsoft 365 Business Basic
+- Microsoft 365 Business Standard
+- Microsoft 365 Business Premium
+- Microsoft Apps for Business 
+- Microsoft Apps for Enterprise
+- Microsoft 365 F1
+- Office 365 F1
+- Microsoft und Office 365 Enterprise E1, E3 oder E5
+- Microsoft 365 und Office 365 Education A1, A3 oder A5
+- Microsoft 365 und Office 365 Government G1, G3 oder G5 (nur GCC)
+- Microsoft 365 Non-Profit Business Basic
+- Microsoft 365 Non-Profit Business Standard
+- Microsoft 365 und Office 365 Non-Profit E1, E3 oder E5
 
 Business Voice steht in über 70 Ländern und Regionen zur Verfügung. Ob Sie Business Voice alleine einrichten, Telefonnummern zu Microsoft 365 übertragen und ihre Telefonnummern in Microsoft 365 verwalten können, hängt von dem Land oder der Region ab, in dem sich Ihr Microsoft 365-Mandant befindet. Weitere Informationen finden Sie unter [Verfügbarkeit nach Land und Region für Business Voice](country-region-availability.md).
 
