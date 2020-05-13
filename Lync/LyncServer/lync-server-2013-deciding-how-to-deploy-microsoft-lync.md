@@ -12,12 +12,12 @@ ms:contentKeyID: 48184423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fdd7deb87eef28e3b439f290f6da5a90d2fe50dc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: d5f4e622d71175ec393706af39ce470c5030216a
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42187368"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221799"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42187368"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-03_
 
-Bei der Planung von lync ist die erste wichtige Entscheidung, wie Microsoft lync bereitgestellt wird: als lync Server 2013 lokal oder lync online mit Microsoft Office 365 in der Cloud.
+Bei der Planung von lync ist die erste wichtige Entscheidung, wie Microsoft lync bereitgestellt wird: als lync Server 2013 lokal oder lync online mit Microsoft 365 oder Office 365 in der Cloud.
 
   - **Lync Server 2013 lokal** : diese Option bietet den vollständigen lync-Featuresatz und bietet größtmögliche Flexibilität bei der Konfiguration, dem anpassen und dem Betrieb Ihrer Bereitstellung. Alle Server werden vor Ort installiert und von Ihrer Organisation verwaltet. Eine lokale Bereitstellung stellt die gesamte Palette von lync Server Funktionen bereit.
 
@@ -51,17 +51,17 @@ Welcher Bereitstellungstyp am besten für Sie geeignet ist, hängt von den Arbei
 
 Eine lokale Lync Server-Bereitstellung eignet sich am besten für folgende Szenarien:
 
-  - **Vollständige Enterprise-VoIP-Funktionen**   Wenn Sie eine vollständige Enterprise-VoIP-Lösung zum Ersetzen Ihrer Nebenstellenanlage oder die erweiterte Anruffunktionen verwenden möchten, ist eine lokale lync Server Bereitstellung erforderlich. Eine lokale Bereitstellung unterstützt die direkte Konnektivität mit den Nebenstellenanlagen und Trunks sowie erweiterte Telefonfunktionen, wie Reaktionsgruppen und das Parken von Anrufen. Diese Features werden von lync Online derzeit nicht unterstützt.
+  - **Vollständige Enterprise-VoIP-Funktionen**     Wenn Sie beabsichtigen, eine vollständige Enterprise-VoIP-Lösung bereitzustellen, um Ihre Nebenstellenanlage zu ersetzen, oder die erweiterte Anruffunktionen verwendet, ist eine lokale lync Server Bereitstellung erforderlich. Eine lokale Bereitstellung unterstützt die direkte Konnektivität mit den Nebenstellenanlagen und Trunks sowie erweiterte Telefonfunktionen, wie Reaktionsgruppen und das Parken von Anrufen. Diese Features werden von lync Online derzeit nicht unterstützt.
 
-  - **Steuerelemente**   für die Medienqualität Wenn Sie die gesamte Palette an Features für die Medien Qualitätssicherungs Funktionen wie Anrufsteuerung (Call Admission Control, CAC) und QoS (Quality of Service) nutzen möchten, benötigen Sie eine lokale Bereitstellung.
+  - **Medien Qualitätskontrollen**     Wenn Sie die gesamte Palette an Features zur Medien Qualitätssicherung wie Anrufsteuerung (Call Admission Control, CAC) und QoS-Features (Quality of Service) wünschen, benötigen Sie eine lokale Bereitstellung.
 
-  - **Beständiger Chat**   Wenn Sie beständigen Chat für Ihre Organisation bereitstellen müssen, müssen Sie eine lokale Bereitstellung auswählen.
+  - **Beständiger Chat**     Wenn Sie beständigen Chat für Ihre Organisation bereitstellen müssen, müssen Sie eine lokale Bereitstellung auswählen.
 
-  - **Drittanbieter-Server Anwendungen**   nur lokale Bereitstellungen können mit vertrauenswürdigen Drittanbieteranwendungen verwendet werden, die das verwaltete API von Microsoft Unified Communications (UCMA) verwenden.
+  - **Drittanbieter-Server Anwendungen**     Nur lokale Bereitstellungen können mit vertrauenswürdigen Drittanbieteranwendungen verwendet werden, die das verwaltete API von Microsoft Unified Communications (UCMA) verwenden.
 
-  - **Multi-nationale/multiregionale Unternehmen, die regionale Unterstützung**   benötigen wenn Sie über Rechenzentren in mehreren Ländern oder Regionen verfügen und Server auf regionaler Basis bereitgestellt und verwaltet werden müssen, ist eine lokale Bereitstellung am besten, da Sie diese Art von regionalen Verwaltungsfunktionen bereitstellt.
+  - **Multi-nationale/multiregionale Unternehmen, die regionale Unterstützung benötigen**     Wenn Sie über Rechenzentren in mehreren Ländern oder Regionen verfügen und Server auf regionaler Basis bereitgestellt und verwaltet werden müssen, ist eine lokale Bereitstellung am besten, da Sie diese Art von regionalen Verwaltungsfunktionen bereitstellt.
 
-  - **Vollständige Kontrolle über Richtlinien, Berichte und Upgrades**   mit einer lokalen lync Server-Bereitstellung haben Sie Zugriff auf den vollständigen Server-und Clientrichtlinien, Überwachung und andere Berichte sowie Timing von Upgrades. Lync Online stellt eine Teilmenge von Richtlinieneinstellungen und-Berichten bereit und bietet ein eingeschränktes, wenn auch erhebliches Fenster für das akzeptieren von Upgrades.
+  - **Vollständige Kontrolle über Richtlinien, Berichte und Upgrades**     Mit einer lokalen lync Server-Bereitstellung haben Sie Zugriff auf den vollständigen Server-und Clientrichtlinien, Überwachung und andere Berichte sowie Timing von Upgrades. Lync Online stellt eine Teilmenge von Richtlinieneinstellungen und-Berichten bereit und bietet ein eingeschränktes, wenn auch erhebliches Fenster für das akzeptieren von Upgrades.
 
 </div>
 
@@ -82,4 +82,3 @@ Falls keiner der in der Liste aufgeführten Faktoren für Sie von entscheidender
 </div>
 
 </div>
-

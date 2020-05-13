@@ -12,12 +12,12 @@ ms:contentKeyID: 48183839
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1626b01f1cf008285e7d7fd12c6987c8da9f9ba4
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 538f2163fe983e8ab886964e379b0c54c9de6dd8
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42186178"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221689"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42186178"
 
 _**Letztes Änderungsstand des Themas:** 2016-05-25_
 
-Bei lync-hybridbereitstellungen können einige ihrer lync-Benutzer lokal und andere Benutzer in lync Online, beide dieselbe Domäne verwenden. Dies kann die Bereitstellung von lync-Diensten für Benutzer Ihrer Organisation an unterschiedlichen geografischen Standorten oder Benutzern erleichtern, die eine Remoteverbindung herstellen. Sie können auch lync-Hybridkonfigurationen als Migrationspfad zu Office 365 nutzen.
+Bei lync-hybridbereitstellungen können einige ihrer lync-Benutzer lokal und andere Benutzer in lync Online, beide dieselbe Domäne verwenden. Dies kann die Bereitstellung von lync-Diensten für Benutzer Ihrer Organisation an unterschiedlichen geografischen Standorten oder Benutzern erleichtern, die eine Remoteverbindung herstellen. Sie können auch lync-Hybridkonfigurationen als Migrationspfad zu Microsoft 365 nutzen.
 
 In diesem Abschnitt werden Hybridkonfigurationen für lync Server 2013 beschrieben.
 

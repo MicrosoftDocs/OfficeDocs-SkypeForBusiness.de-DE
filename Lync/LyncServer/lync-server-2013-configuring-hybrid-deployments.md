@@ -12,12 +12,12 @@ ms:contentKeyID: 48184343
 ms.date: 06/14/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bb9719b4a894ebd0f6cfb0e457eb557062861352
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: fa4e4250288a31cab708d7c3eb11087b00c5d6a9
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42206371"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221235"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +43,7 @@ In diesem Abschnitt werden die erforderlichen Schritte zum Konfigurieren von Hyb
 
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-  - Wenn Sie über eine lokale lync-Bereitstellung verfügen und einige Benutzer in die Cloud migrieren möchten, um lync Online in Office 365 zu verwenden, lesen Sie [Konfigurieren einer lokalen Bereitstellung für Hybrid mit lync Online](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md).
+  - Wenn Sie über eine lokale lync-Bereitstellung verfügen und einige Benutzer in die Cloud migrieren möchten, um lync Online in Microsoft 365 oder Office 365 zu verwenden, lesen Sie [Konfigurieren einer lokalen Bereitstellung für Hybrid mit lync Online](lync-server-2013-configuring-an-on-premises-deployment-for-hybrid-with-lync-online.md).
 
   - Wenn Sie Benutzer für lync in lync Online aktiviert haben, die jedoch nicht in einer lokalen Bereitstellung aktiviert wurden, finden Sie weitere Informationen unter [Verschieben von Benutzern aus lync Online in lync lokal in lync Server 2013](lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md).
 

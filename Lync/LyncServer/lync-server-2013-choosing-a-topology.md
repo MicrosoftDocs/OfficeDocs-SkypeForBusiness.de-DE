@@ -12,12 +12,12 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc30881da768d8dad9f952df37bdf1accdf091b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6a75e1e829b59ff66df6b598c63b35f2f78981e4
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42192018"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221739"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +69,7 @@ Bei der Auswahl einer Topologie können Sie eine der folgenden unterstützten Op
 
 In der folgenden Tabelle sind die Funktionen zusammengefasst, die mit den unterstützten Microsoft lync Server 2013 Topologien verfügbar sind. Die Spaltenüberschriften geben die Funktionalität an, die für eine bestimmte Edgekonfigurationsoption zur Verfügung steht. Beispielsweise ist für die skalierte Edgetopologie (DNS-Lastenausgleich) angegeben, dass sie hohe Verfügbarkeit unterstützt, nicht routingfähige private IP-Adressen (mit NAT) oder routingfähige öffentliche IP-Adressen verwenden kann, die externen Edgeschnittstellen zugewiesen sind, und die Kosten senkt, da kein Hardwaregerät zum Lastenausgleich erforderlich ist.
 
-Unterstützte Edge-Failover-Szenarien bei DNS-Lastenausgleich sind lync-to-lync-Punkte-zu-Ort-Sitzungen, lync-Konferenzsitzungen, lync-zu-PSTN-Sitzungen und Office 365. Edge-Failover-Szenarien, die nicht vom DNS-Lastenausgleich profitieren, sind Failover für Remotebenutzer Exchange Unified Messaging (um) (vor Exchange 2010 SP1), für die Verbindung mit öffentlichen Instant Messaging-Diensten (im) und für den Verbund mit Servern mit Office-Kommunikation. Server.
+Unterstützte Edge-Failover-Szenarien bei DNS-Lastenausgleich sind lync-to-lync-Punkte-zu-Ort-Sitzungen, lync-Konferenzsitzungen, lync-zu-PSTN-Sitzungen, Office 365 und Microsoft 365. Edge-Failover-Szenarien, die nicht vom DNS-Lastenausgleich profitieren, sind Failover für Remotebenutzer Exchange Unified Messaging (um) (vor Exchange 2010 SP1), die Verbindung mit öffentlichen Instant Messaging-Verbindungen und den Verbund mit Servern, auf denen Office Communications Server läuft.
 
 ### <a name="summary-of-edge-server-topology-options"></a>Zusammenfassung der Topologieoptionen für Edgeserver
 
@@ -172,7 +172,7 @@ Bei Verwendung der Netzwerkadressenübersetzung für alle externen Edgeschnittst
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
+<td><p>2 </p></td>
 <td><p>6 </p></td>
 <td><p>3 (1 pro VIP) + 6</p></td>
 </tr>
@@ -182,12 +182,12 @@ Bei Verwendung der Netzwerkadressenübersetzung für alle externen Edgeschnittst
 <td><p>3 (1 pro VIP) + 9</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>12</p></td>
+<td><p>4 </p></td>
+<td><p>12 </p></td>
 <td><p>3 (1 pro VIP) + 12</p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>15 </p></td>
 <td><p>3 (1 pro VIP) + 15</p></td>
 </tr>
@@ -212,8 +212,8 @@ Bei Verwendung der Netzwerkadressenübersetzung für alle externen Edgeschnittst
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
-<td><p>2</p></td>
+<td><p>2 </p></td>
+<td><p>2 </p></td>
 <td><p>1 (1 pro VIP) + 2</p></td>
 </tr>
 <tr class="even">
@@ -222,12 +222,12 @@ Bei Verwendung der Netzwerkadressenübersetzung für alle externen Edgeschnittst
 <td><p>1 (1 pro VIP) + 3</p></td>
 </tr>
 <tr class="odd">
-<td><p>4</p></td>
-<td><p>4</p></td>
+<td><p>4 </p></td>
+<td><p>4 </p></td>
 <td><p>1 (1 pro VIP) + 4</p></td>
 </tr>
 <tr class="even">
-<td><p>5</p></td>
+<td><p>5 </p></td>
 <td><p>5</p></td>
 <td><p>1 (1 pro VIP) + 5</p></td>
 </tr>
@@ -271,7 +271,7 @@ Die wichtigsten Aspekte bei der Topologieauswahl sind hohe Verfügbarkeit und La
 
 
 > [!IMPORTANT]
-> Die Verwendung des DNS-Lastenausgleichs wird empfohlen, wenn Sie mit lync Server 2010 und Microsoft Office 365 einen Verbund mit Unternehmen durchsetzen. Beachten Sie, dass erhebliche Leistungseinbußen zu verzeichnen sind, wenn die meisten Verbundpartner Office Communications Server 2007 oder Office Communications Server 2007 R2 verwenden.
+> Die Verwendung des DNS-Lastenausgleichs wird empfohlen, wenn Sie mit lync Server 2010 und Office 365 oder Microsoft 365 einen Verbund mit Unternehmen durchsetzen. Beachten Sie, dass erhebliche Leistungseinbußen zu verzeichnen sind, wenn die meisten Verbundpartner Office Communications Server 2007 oder Office Communications Server 2007 R2 verwenden.
 
 
 

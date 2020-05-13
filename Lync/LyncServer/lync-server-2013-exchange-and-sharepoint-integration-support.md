@@ -12,12 +12,12 @@ ms:contentKeyID: 48184504
 ms.date: 01/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c4f96a5f5b1b4de3564da0dd9773a8472bd2b1a6
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 262e31ac6049920ca4e327f50dccaae18d69a2f5
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204772"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221719"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +67,7 @@ Lync Server 2013 unterstützt die beiden Szenarien für die Server-zu-Server-Aut
 
 
 > [!NOTE]  
-> Die Server-zu-Server-Authentifizierung zwischen einem lokalen Server und einer Office 365 Komponente wird in dieser lync Server 2013 Version nicht unterstützt. Dies bedeutet unter anderem, dass Sie die Server-zu-Server-Authentifizierung zwischen einer lokalen Installation von lync Server 2013 und Microsoft Exchange 365 nicht einrichten können.
+> Die Server-zu-Server-Authentifizierung zwischen einem lokalen Server und einer Microsoft 365-oder Office 365-Komponente wird in dieser lync Server 2013 Version nicht unterstützt. Dies bedeutet unter anderem, dass Sie die Server-zu-Server-Authentifizierung zwischen einer lokalen Installation von lync Server 2013 und Microsoft Exchange 365 nicht einrichten können.
 
 
 
@@ -84,4 +84,3 @@ Ausführliche Informationen zur Server-zu-Server-Authentifizierung finden Sie un
 </div>
 
 </div>
-

@@ -12,12 +12,12 @@ ms:contentKeyID: 48183925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ad8735834ab004753444849c529cb4ceec18c16
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: af989286dad9c0c8bba38f61b17b606e758dcd15
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43776710"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221789"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +41,7 @@ In lync 2013 wird ein anderer Ansatz für die Clientbereitstellung eingeführt. 
 
   - **Office 2013 Windows Installer** ist ein Windows Installer-basiertes Installationspaket, das aus mehreren MSI-Dateien besteht. Ein MSI-Paket mit sprachneutralem Kern wird mit einem oder mehreren sprachenspezifischen Paketen zu einem vollständigen Produkt kombiniert. Setup fügt die einzelnen Pakete zusammen und führt während und nach der Installation von Office auf den Computern der Benutzer Anpassungs- und Wartungsaufgaben aus. In den Themen in diesem Abschnitt wird beschrieben, wie Sie die Office 2013 Windows Installer verwenden und anpassen, um lync 2013 bereitzustellen.
 
-  - **Office 2013 Klick-und-Los** ist ein Installationsprogramm, das Office-Setupdateien aus dem Microsoft 365 Admin Center an den Benutzer streamt. Administratoren können die Installation mithilfe des Office-Bereitstellungstools für Klick-und-Los anpassen. Da Office 2013 Klick-und-Los in erster Linie in der Microsoft Office 365-Umgebung verwendet wird, wird diese Installationsmethode in diesem Abschnitt nicht ausführlich beschrieben. Ausführliche Informationen zur Verwendung und Anpassung der Klick-und-Los-Installation finden Sie in der Dokumentation zum Office 2013 Resource Kit. Administratoren können auch die Office 2013 Klick-und-Los-Programm-und sprach Quelldateien an einen lokalen Speicherort herunterladen, was nützlich ist, wenn Sie die Netzwerkanforderungen minimieren oder verhindern möchten, dass Benutzer Software aus dem Internet installieren, da die Sicherheitsanforderungen für Unternehmen erfüllt sind.
+  - **Office 2013 Klick-und-Los** ist ein Installationsprogramm, das Office-Setupdateien aus dem Microsoft 365 Admin Center an den Benutzer streamt. Administratoren können die Installation mithilfe des Office-Bereitstellungstools für Klick-und-Los anpassen. Da Office 2013 Klick-und-Los in erster Linie in der Microsoft 365-Umgebung verwendet wird, wird diese Installationsmethode in diesem Abschnitt nicht ausführlich beschrieben. Ausführliche Informationen zur Verwendung und Anpassung der Klick-und-Los-Installation finden Sie in der Dokumentation zum Office 2013 Resource Kit. Administratoren können auch die Office 2013 Klick-und-Los-Programm-und sprach Quelldateien an einen lokalen Speicherort herunterladen, was nützlich ist, wenn Sie die Netzwerkanforderungen minimieren oder verhindern möchten, dass Benutzer Software aus dem Internet installieren, da die Sicherheitsanforderungen für Unternehmen erfüllt sind.
 
 Die Themen in diesem Abschnitt konzentrieren sich auf die Bereitstellung von Clients mithilfe des Office 2013 MSI-basierten Installationsprogramms. Ihr primärer Verweis sollte die Office 2013 Resource Kit-Dokumentation sein, in der ausführlich erläutert wird, wie Sie Ihre Infrastruktur vorbereiten, Setup anpassen und Office 2013 bereitstellen. Sie sollten jedoch die Office-Dokumentation in Verbindung mit Themen in diesem Abschnitt verwenden, die auf Bereitstellungsüberlegungen hinweisen, die spezifisch für lync 2013 sind.
 

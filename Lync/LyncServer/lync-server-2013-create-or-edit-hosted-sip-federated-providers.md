@@ -12,12 +12,12 @@ ms:contentKeyID: 48679556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 937dfe2a63f755a7366fbb1b82c5593c466ac544
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: b78e9be0f3b885a40fcf313173a1281ac5489936
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42181408"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221839"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42181408"
 
 _**Letztes Änderungsstand des Themas:** 2012-10-19_
 
-Hosted Provider Instant Messaging (im)-Konnektivität ermöglicht Benutzern in Ihrer Organisation die Verwendung von Chat, um mit Benutzern von Chat Diensten zu kommunizieren, die von gehosteten Anbietern bereitgestellt werden, einschließlich der Microsoft Office 365 und lync online.
+Hosted Provider Instant Messaging (im)-Konnektivität ermöglicht Benutzern in Ihrer Organisation die Verwendung von Chat, um mit Benutzern von Chat Diensten zu kommunizieren, die von gehosteten Anbietern bereitgestellt werden, einschließlich Microsoft 365 und lync online.
 
 Jeder gehostete Anbieter ist mit dem vollqualifizierten Domänennamen des Edgeservers des Anbieters sowie der Standardüberprüfungsstufe **Benutzern nur die Kommunikation mit den Personen in ihren Kontaktlisten erlauben, die diesen Anbieter verwenden** konfiguriert.
 
@@ -59,13 +59,13 @@ Verwenden Sie zum Erstellen oder Bearbeiten von gehosteten Anbietern das folgend
 
 6.  Auf der Seite **SIP-Partnerverbundanbieter bearbeiten** können Sie folgende Einstellungen eingeben oder bearbeiten:
     
-      - **Kommunikation mit diesem Anbieter**   aktivieren Wenn Sie diese Einstellung auswählen, wird die Kommunikation mit den Benutzern dieses Anbieters aktiviert.
+      - **Aktivieren der Kommunikation mit diesem Anbieter**     Wenn Sie diese Einstellung auswählen, wird die Kommunikation mit den Benutzern dieses Anbieters aktiviert.
     
-      - **Anbietername:**   eine erforderliche Eigenschaft geben Sie den Namen des Anbieters ein, der in der Liste der SIP-Verbund Anbieter wiedergegeben wird.
+      - **Anbietername:**     Eine erforderliche Eigenschaft, geben Sie den Namen des Anbieters ein, der in der Liste der SIP-Verbund Anbieter wiedergegeben wird.
     
-      - **Zugriffs-Edgedienst (FQDN):**   eine erforderliche Eigenschaft, geben Sie den vollqualifizierten Domänennamen des Zugriffs-Edgedienst des gehosteten Anbieters ein, den Sie konfigurieren. Diese Informationen sollten vom gehosteten Anbieter bereitgestellt und nur dann geändert werden, wenn der gehostete Anbieter eine Änderung am FQDN des Zugriffs-Edgediensts beim gehosteten Anbieter vornimmt.
+      - **Zugriffs-Edgedienst (FQDN):**     Eine erforderliche Eigenschaft, geben Sie den vollqualifizierten Domänennamen des Zugriffs-Edgedienst des gehosteten Anbieters ein, den Sie konfigurieren. Diese Informationen sollten vom gehosteten Anbieter bereitgestellt und nur dann geändert werden, wenn der gehostete Anbieter eine Änderung am FQDN des Zugriffs-Edgediensts beim gehosteten Anbieter vornimmt.
     
-      - **Standard Überprüfungsebene:**   die Standardeinstellung **ermöglicht Benutzern die Kommunikation mit Personen in Ihrer Kontaktliste, die diesen Anbieter verwenden** , beschränkt die Kommunikation auf Kontakte, die Sie akzeptiert haben und die sich in Ihrer Kontaktliste befinden.
+      - **Standard Überprüfungsebene:**     Die Standardeinstellung **ermöglicht Benutzern die Kommunikation mit Personen in Ihrer Kontaktliste, die diesen Anbieter verwenden** , beschränkt die Kommunikation auf Kontakte, die Sie akzeptiert haben und die sich in Ihrer Kontaktliste befinden.
         
         Die Auswahl der Option **Benutzern die Kommunikation mit jedem erlauben, der diesen Anbieter verwendet** entfernt die Einschränkung, dass Sie eine Kontaktanfrage erhalten und angenommen haben müssen. Diese Einstellung hat keine Auswirkungen darauf, wer Sie aus dem Netzwerk des gehosteten Anbieters kontaktieren kann.
 

@@ -12,12 +12,12 @@ ms:contentKeyID: 48183822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cea596f571064a3b72ecbb3b0c2b56c2179aa315
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 27b955def7b7648f274125353673d6973afb59b7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42182042"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221589"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -78,7 +78,7 @@ Wenn Sie bereits einen oder mehrere Edgeserver bereitgestellt haben, ist das Hin
 
 ## <a name="configuring-federation-with-partners"></a>Konfigurieren des Verbunds mit Partnern
 
-1.  Zum Einrichten eines erfolgreichen Verbunds mit einem anderen Microsoft lync Server 2013, lync Server 2010, Office Communications Server 2007 R2 oder Office Communicator 2007 wählen Sie den Typ des Verbunds in der folgenden Tabelle aus und definieren DNS-SRV-Einträge, DNS-Host (a oder AAAA für IPv6) und Konfigurieren von Richtlinien für den Typ des Verbunds:
+1.  Zum Einrichten eines erfolgreichen Verbunds mit einem anderen Microsoft lync Server 2013, lync Server 2010, Office Communications Server 2007 R2 oder Office Communicator 2007 wählen Sie den Typ des Verbunds in der folgenden Tabelle aus, und definieren Sie DNS-SRV-Einträge, DNS-Host (a oder AAAA für IPv6) und configure-Richtlinien, die auf den Typ des Verbunds zutreffen:
     
     
     <table>
@@ -99,7 +99,7 @@ Wenn Sie bereits einen oder mehrere Edgeserver bereitgestellt haben, ist das Hin
     <tbody>
     <tr class="odd">
     <td><p>Ermittelte Partnerdomäne</p></td>
-    <td><p>Konfigurieren Sie den SRV-Eintrag im Format _sipfederationtls. _tcp. &lt;externer Domänenname&gt;, bei dem der Portwert für den SRV-Eintrag TCP 5061 ist und der Host, der <strong>diesen Dienst anbietet</strong> , als SIP definiert ist. &lt;externer Domänenname&gt; – der FQDN ihrer Zugriffs-Edgedienst. Weitere Informationen zum Erstellen des SRV-Eintrags finden Sie unter <a href="lync-server-2013-configure-dns-for-edge-support.md">Konfigurieren von DNS für die Edge-Unterstützung in lync Server 2013</a> .</p></td>
+    <td><p>Konfigurieren Sie den SRV-Eintrag im Format _sipfederationtls. _tcp. &lt; externer Domänenname &gt; , bei dem der Portwert für den SRV-Eintrag TCP 5061 ist und der Host, der <strong>diesen Dienst anbietet</strong> , als SIP definiert ist. &lt;externer Domänenname &gt; – der FQDN ihrer Zugriffs-Edgedienst. Weitere Informationen zum Erstellen des SRV-Eintrags finden Sie unter <a href="lync-server-2013-configure-dns-for-edge-support.md">Konfigurieren von DNS für die Edge-Unterstützung in lync Server 2013</a> .</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Aktivieren oder Deaktivieren der Verbund-und Public Chat-Konnektivität in lync Server 2013</a></p></li>
     <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Aktivieren oder Deaktivieren der Ermittlung von Partnerverbund Partnern in lync Server 2013</a></p></li>
@@ -108,7 +108,7 @@ Wenn Sie bereits einen oder mehrere Edgeserver bereitgestellt haben, ist das Hin
     </tr>
     <tr class="even">
     <td><p>Zulässige Partnerdomäne</p></td>
-    <td><p>Konfigurieren Sie den SRV-Eintrag im Format _sipfederationtls. _tcp. &lt;externer Domänenname&gt;, bei dem der Portwert für den SRV-Eintrag TCP 5061 ist und der Host, der <strong>diesen Dienst anbietet</strong> , als SIP definiert ist. &lt;externer Domänenname&gt; – der FQDN ihrer Zugriffs-Edgedienst. Weitere Informationen zum Erstellen des SRV-Eintrags finden Sie unter <a href="lync-server-2013-configure-dns-for-edge-support.md">Konfigurieren von DNS für die Edge-Unterstützung in lync Server 2013</a> .</p></td>
+    <td><p>Konfigurieren Sie den SRV-Eintrag im Format _sipfederationtls. _tcp. &lt; externer Domänenname &gt; , bei dem der Portwert für den SRV-Eintrag TCP 5061 ist und der Host, der <strong>diesen Dienst anbietet</strong> , als SIP definiert ist. &lt;externer Domänenname &gt; – der FQDN ihrer Zugriffs-Edgedienst. Weitere Informationen zum Erstellen des SRV-Eintrags finden Sie unter <a href="lync-server-2013-configure-dns-for-edge-support.md">Konfigurieren von DNS für die Edge-Unterstützung in lync Server 2013</a> .</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Aktivieren oder Deaktivieren der Verbund-und Public Chat-Konnektivität in lync Server 2013</a></p></li>
     </ul></td>
@@ -132,7 +132,7 @@ Wenn Sie bereits einen oder mehrere Edgeserver bereitgestellt haben, ist das Hin
     <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Erstellen oder Bearbeiten von öffentlichen SIP-Verbund Anbietern in lync Server 2013</a></p></li>
     <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Erstellen oder Bearbeiten von gehosteten SIP-Verbund Anbietern lync Server 2013</a></p></li>
     </ul></td>
-    <td><p>Dieser Partnerverbundtyp definiert Dienste und Hostinganbieter, die Sie für Ihre Benutzer konfigurieren möchten. Zu den typischen Verwendungen gehört die Konfiguration für öffentliche Chatanbieter wie Windows Live Messenger, Yahoo! und AOL sowie Hosting-Anbieter wie lync Online und Office 365</p>
+    <td><p>Dieser Partnerverbundtyp definiert Dienste und Hostinganbieter, die Sie für Ihre Benutzer konfigurieren möchten. Zu den typischen Verwendungen gehört die Konfiguration für öffentliche Chatanbieter wie Windows Live Messenger, Yahoo! und AOL sowie Hosting-Anbieter wie lync Online und Microsoft 365</p>
     <div>
 
     > [!IMPORTANT]  

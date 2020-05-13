@@ -12,12 +12,12 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3679999bc12f606fe338652e8bef22e455cec9ef
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 45fb31e6f9319f0a1a7a7eadca8f11c1c3ad1a03
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42214671"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221779"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,9 +73,9 @@ Sobald diese Änderung aktiv ist, können wir keine e-Mail-Updates mehr für aus
 
 **F.: ist der Verbund mit Windows Live noch verfügbar?**
 
-**A:** Beginnend im Oktober 2012 begann Microsoft, Windows Live Messenger (WLM)-Benutzern zu helfen, zu Skype zu wechseln, auf dem Weg zum letzten einziehen von WLM.Lync wird weiterhin den Verbund mit WLM unterstützen, solange WLM im Markt ist, aber keine zusätzlichen Windows Live-Domänen Aktivierungen werden zugelassen.Die Bewegung von WLM-Benutzern wird durch das Skype 6,0 für Mac und Windows (veröffentlicht am 25. Oktober 2012) aktiviert, mit dem Sie sich mit einem Microsoft-Konto anmelden können (d. h. die gleichen Anmeldeinformationen wie WLM). Nachdem Sie sich einfach bei Skype angemeldet haben, werden die WLM-Buddylisten automatisch in Skype eingefügt, und die Benutzer können die erweiterten Kommunikationsfunktionen von Skype nutzen, beispielsweise das Anrufen von Festnetz und Mobiltelefonen, Bildschirmfreigabe, Gruppen Videoanrufe und Unterstützung für ein breites Vielzahl von Geräten.Darüber hinaus folgen die Partner-lync-Kontakte von WLM-Benutzern dem Übergang in Skype mit den restlichen Buddy-Listen, und Chats zwischen Skype und lync für diese Kontakte werden sofort verfügbar sein. Lync-Kunden müssen nichts Unternehmen, um diese Kontinuität des Diensts zu aktivieren.
+**A:** Beginnend im Oktober 2012 begann Microsoft, Windows Live Messenger (WLM)-Benutzern zu helfen, zu Skype zu wechseln, auf dem Weg zum letzten einziehen von WLM.Lync wird weiterhin den Verbund mit WLM unterstützen, solange WLM im Markt ist, aber keine zusätzlichen Windows Live-Domänen Aktivierungen werden zugelassen.Die Bewegung von WLM-Benutzern wird durch das Skype 6,0 für Mac und Windows (veröffentlicht am 25. Oktober 2012) aktiviert, mit dem Sie sich mit einem Microsoft-Konto anmelden können (d. h. die gleichen Anmeldeinformationen wie WLM). Nachdem Sie sich einfach bei Skype angemeldet haben, werden die WLM-Buddylisten automatisch in Skype eingefüllt, und die Benutzer können die erweiterten Kommunikationsfunktionen von Skype nutzen, beispielsweise das Anrufen von Festnetz und Mobiltelefonen, Bildschirmfreigabe, Gruppen Videoanrufe und Unterstützung für eine Vielzahl von Geräten.Darüber hinaus folgen die Partner-lync-Kontakte von WLM-Benutzern dem Übergang in Skype mit den restlichen Buddy-Listen, und Chats zwischen Skype und lync für diese Kontakte werden sofort verfügbar sein. Lync-Kunden müssen nichts Unternehmen, um diese Kontinuität des Diensts zu aktivieren.
 
-**F.: ist der Partner\! Verbund mit Yahoo oder AOL noch verfügbar?**
+**F.: ist der Partnerverbund mit Yahoo \! oder AOL noch verfügbar?**
 
 **A:** Nein. Partnerverbund mit Yahoo\! und AOL waren abhängig von der Unterstützung von Yahoo\! und AOL.Für Yahoo\! und AOL endete der Dienst am 30. Juni 2014. 
 
@@ -126,7 +126,7 @@ Sobald diese Änderung aktiv ist, können wir keine e-Mail-Updates mehr für aus
 
 3.  Nachdem Sie die Bestätigung angezeigt haben, aktivieren Sie im lync Admin Center "externe Kommunikation". Weitere Informationen finden Sie unter[https://office.microsoft.com/support/configure-external-communications-HA102817865.aspx?CTT=5\&origin=HA102817356](https://office.microsoft.com/support/configure-external-communications-ha102817865.aspx?ctt=5%26origin=ha102817356)
 
-Diese Reihenfolge ist wichtig.Sie müssen die lokale Konnektivität einrichten, bevor Sie die Kommunikation in lync Online aktivieren. Wenn die Reihenfolge umgekehrt wird, <https://pic.lync.com> werden die für die lokale Anmeldung eingegebenen Informationen nicht durchlaufen. Wenn Sie lync Online für die externe Kommunikation mit dieser Domäne bereits eingerichtet haben, müssen Sie diese deaktivieren, 24 Stunden warten und erneut starten, indem Sie zuerst Ihre lokalen Informationen eingeben <https://pic.lync.com> und dann die externe Kommunikation für lync Online aktivieren.
+Diese Reihenfolge ist wichtig.Sie müssen die lokale Konnektivität einrichten, bevor Sie die Kommunikation in lync Online aktivieren. Wenn die Reihenfolge umgekehrt wird, werden die für die lokale Anmeldung eingegebenen Informationen <https://pic.lync.com> nicht durchlaufen. Wenn Sie lync Online für die externe Kommunikation mit dieser Domäne bereits eingerichtet haben, müssen Sie diese deaktivieren, 24 Stunden warten und erneut starten, indem Sie zuerst Ihre lokalen Informationen eingeben <https://pic.lync.com> und dann die externe Kommunikation für lync Online aktivieren.
 
 **F.: kann ich mehrere Zugriffs-Edgedienst FQDNs für Skype-Konnektivität anbieten?**
 
@@ -138,7 +138,7 @@ Diese Reihenfolge ist wichtig.Sie müssen die lokale Konnektivität einrichten, 
 
 **F: Wie füge ich einen Windows Live Messenger-Kontakt hinzu, der eine ID enthält, die eine andere Domäne als die von Windows Live unterstützten hat?**
 
-**A:** Wenn Sie einen Windows Live Messenger-Benutzer mit einem Konto oder einer ID mit einer nicht-Windows Live-Domäne hinzufügen, geben Sie die Adresse im \<folgenden Format\>ein\<: Benutzer\>Name (Domänenname) @MSN \<. com\> , wobei Domain Name der Domänenname in der e-Mail-Adresse des Benutzers ist. Wenn Sie beispielsweise Ted@contoso.com hinzufügen wollten, verwenden Sie das folgende Format: Ted (contoso. com) @MSN. com. Eine Liste der Domänen, die von Windows Live verwaltet werden, finden Sie im Abschnitt "unterstützte Domänen" unter "bekannte Probleme, die mit öffentlichen Sofortnachrichten nach der Installation von Live Communications Server Service https://support.microsoft.com/?kbid=897567Pack 1 auftreten" unter.
+**A:** Wenn Sie einen Windows Live Messenger-Benutzer mit einem Konto oder einer ID mit einer nicht-Windows Live-Domäne hinzufügen, geben Sie die Adresse im folgenden Format ein: \< Benutzername \> ( \< Domänenname \> ) @MSN. com, wobei \< Domain Name \> der Domänenname in der e-Mail-Adresse des Benutzers ist. Wenn Sie beispielsweise Ted@contoso.com hinzufügen wollten, verwenden Sie das folgende Format: Ted (contoso. com) @MSN. com. Eine Liste der Domänen, die von Windows Live verwaltet werden, finden Sie im Abschnitt "unterstützte Domänen" unter "bekannte Probleme, die mit öffentlichen Sofortnachrichten nach der Installation von Live Communications Server Service Pack 1 auftreten" unter https://support.microsoft.com/?kbid=897567 .
 
 **F: wie lange dauert der Bereitstellung Prozess?**
 
@@ -161,4 +161,3 @@ Diese Reihenfolge ist wichtig.Sie müssen die lokale Konnektivität einrichten, 
 </div>
 
 </div>
-

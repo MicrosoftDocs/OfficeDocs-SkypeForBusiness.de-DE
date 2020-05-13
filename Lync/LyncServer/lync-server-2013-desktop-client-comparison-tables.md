@@ -12,12 +12,12 @@ ms:contentKeyID: 48183798
 ms.date: 01/23/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18c9174075ee009b7f67ee8d2757b4af9dd07818
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 3b154bc5f94064f0a42d6cda138ca66e0700aea7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780004"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219715"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,9 +73,9 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 > [!NOTE]  
 > <UL>
 > <LI>
-> <P>Ausführliche Informationen zu Skype for Business Online Abonnement Plänen finden Sie in <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A>der Skype for Business Online Dienstbeschreibung unter.</P>
+> <P>Ausführliche Informationen zu Skype for Business Online Abonnement Plänen finden Sie in der Skype for Business Online Dienstbeschreibung unter <A href="https://go.microsoft.com/fwlink/p/?linkid=282430">https://go.microsoft.com/fwlink/p/?LinkId=282430</A> .</P>
 > <LI>
-> <P>Lync Server 2013 unterstützt die folgenden zuvor veröffentlichten Clients: lync 2010, lync 2010 Mobile, lync Phone Edition und lync 2010 Attendant. Informationen zu diesen Clients finden Sie in <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A>der lync 2010 Version der Client Vergleichstabellen unter.</P>
+> <P>Lync Server 2013 unterstützt die folgenden zuvor veröffentlichten Clients: lync 2010, lync 2010 Mobile, lync Phone Edition und lync 2010 Attendant. Informationen zu diesen Clients finden Sie in der lync 2010 Version der Client Vergleichstabellen unter <A href="https://go.microsoft.com/fwlink/p/?linkid=213798">https://go.microsoft.com/fwlink/p/?LinkID=213798</A> .</P>
 > <LI>
 > <P>Der lync 2013-Client unterstützt Audio und Video in einer VDI-Umgebung (Virtual Desktop Infrastructure). Ausführliche Informationen zu lync 2013 Funktionen in einer VDI-Umgebung finden Sie unter <A href="lync-server-2013-supported-virtualization-technologies-and-known-limitations.md">Supported Virtualization Technologies and known limitations in lync Server 2013</A>.</P></LI></UL>
 
@@ -451,10 +451,9 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 </table>
 
 
-1 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
+1 für Skype for Business Online-, Microsoft 365-oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
 
-2 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer ist diese Funktion nicht verfügbar.
-
+2 für Skype for Business Online-, Microsoft 365-oder Office 365-Benutzer ist dieses Feature nicht verfügbar.
 </div>
 
 <span id="IMSupport"></span>
@@ -668,11 +667,11 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 </table>
 
 
-1 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
+1 für Skype for Business Online-, Microsoft 365-oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
 
 2 lokale lync Server 2013 und lokale SharePoint 2013 sind für die qualifikationssuche erforderlich.
 
-3 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer steht ein beständiger Chat nicht zur Verfügung.
+3 für Skype for Business Online, Microsoft 365 oder Office 365 Benutzer steht ein beständiger Chat nicht zur Verfügung.
 
 </div>
 
@@ -692,7 +691,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 > <LI>
 > <P>In lync-zu-lync-Sitzungen kann ein Skype for Business Online Plan 1-Benutzer an der Desktopfreigabe und Anwendungsfreigabe teilnehmen, wenn er von einem Benutzer eingeladen wird, der Zugriff auf Freigabefunktionen hat.</P>
 > <LI>
-> <P>Ausführliche Informationen finden Sie in <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>der Skype for Business Online-Dienstbeschreibung unter.</P></LI></UL>
+> <P>Ausführliche Informationen finden Sie in der Skype for Business Online-Dienstbeschreibung unter <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A> .</P></LI></UL>
 
 
 
@@ -988,7 +987,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 <td><p>Outlook</p></td>
 </tr>
 <tr class="odd">
-<td><p>Q&amp;ein Manager</p></td>
+<td><p>Q &amp; ein Manager</p></td>
 <td><p>●</p></td>
 <td> </td>
 <td> </td>
@@ -1117,11 +1116,11 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 </table>
 
 
-1 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
+1 für Skype for Business Online-, Microsoft 365-oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
 
 2 Teilnehmer können keine Desktops steuern, die von Skype for Business auf Mac, lync für Mac 2011 oder Communicator für Mac 2011-Benutzer gemeinsam verwendet werden. Mac-Benutzer können Desktops steuern, die von Windows-Benutzern gemeinsam verwendet werden.
 
-3 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer ist für diese Funktion ein Anbieter für Audiokonferenzen erforderlich.
+3 für Skype for Business Online-, Microsoft 365-oder Office 365-Benutzer ist für diese Funktion ein Anbieter für Audiokonferenzen erforderlich.
 
 4 der Client für lync für Mac 2011 kann Microsoft Office 2013 PowerPoint-Präsentationen nicht anzeigen, wenn Sie in einer Konferenz vom lync Web App 2013-Client freigegeben wurden.
 
@@ -1137,7 +1136,7 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 
 
 > [!NOTE]  
-> Lync Voice-Funktionen sind auf bestimmte Skype for Business Online Abonnement Pläne limitiert. Ausführliche Informationen finden Sie im Thema "lync Voice Features" in der Skype for Business Online Dienstbeschreibung unter <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A>.
+> Lync Voice-Funktionen sind auf bestimmte Skype for Business Online Abonnement Pläne limitiert. Ausführliche Informationen finden Sie im Thema "lync Voice Features" in der Skype for Business Online Dienstbeschreibung unter <A href="https://go.microsoft.com/fwlink/?linkid=282430">https://go.microsoft.com/fwlink/?LinkID=282430</A> .
 
 
 
@@ -1419,11 +1418,11 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 </table>
 
 
-1 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
+1 für Skype for Business Online-, Microsoft 365-oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
 
-2 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer ist diese Funktion nur für PC-zu-PC-Anrufe verfügbar.
+2 für Skype for Business Online-, Microsoft 365-oder Office 365-Benutzer steht diese Funktion nur für PC-und PC-Anrufe zur Verfügung.
 
-3 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer ist diese Funktion nicht verfügbar.
+3 für Skype for Business Online-, Microsoft 365-oder Office 365-Benutzer ist dieses Feature nicht verfügbar.
 
 </div>
 
@@ -1507,9 +1506,9 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 </table>
 
 
-1 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
+1 für Skype for Business Online-, Microsoft 365-oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
 
-2 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer ist diese Funktion nicht verfügbar.
+2 für Skype for Business Online-, Microsoft 365-oder Office 365-Benutzer ist dieses Feature nicht verfügbar.
 
 </div>
 
@@ -1596,9 +1595,9 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 </table>
 
 
-1 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer ist die Aufzeichnung in bestimmten Skype for Business Online eigenständigen Plänen nicht verfügbar. Für die Aufzeichnung ist eine vollständige lync 2013 Client Rechte erforderlich. Ausführliche Informationen finden Sie in [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430)der Skype for Business Online-Dienstbeschreibung unter.
+1 für Skype for Business Online, Microsoft 365 oder Office 365 Benutzer ist die Aufzeichnung in bestimmten Skype for Business Online eigenständigen Plänen nicht verfügbar. Für die Aufzeichnung ist eine vollständige lync 2013 Client Rechte erforderlich. Ausführliche Informationen finden Sie in der Skype for Business Online-Dienstbeschreibung unter [https://go.microsoft.com/fwlink/?LinkID=282430](https://go.microsoft.com/fwlink/?linkid=282430) .
 
-2 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer ist die Aufzeichnung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen nicht verfügbar.
+2 für Skype for Business Online, Microsoft 365 oder Office 365 Benutzer ist die Aufzeichnung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen nicht verfügbar.
 
 </div>
 
@@ -1701,11 +1700,11 @@ Diese Tabellen zeigen die Features an, die lync-Benutzern in einer lokalen Berei
 </table>
 
 
-1 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
+1 für Skype for Business Online-, Microsoft 365-oder Office 365-Benutzer wird lync 2010 Attendant nicht unterstützt.
 
-2 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer erfordert dieses Feature Exchange Online und wird durch das in-situ-Speicherattribut des Exchange-Postfachs des Benutzers gesteuert.
+2 für Skype for Business Online-, Microsoft 365-oder Office 365-Benutzer erfordert dieses Feature Exchange Online und wird durch das in-situ-Speicher-Attribut des Exchange-Postfachs des Benutzers gesteuert.
 
-3 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer ist die Archivierung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen nicht verfügbar.
+3 für Skype for Business Online-, Microsoft 365-oder Office 365-Benutzer ist die Archivierung von Dateiübertragungen, freigegebenen OneNote-Seiten und PowerPoint-Anmerkungen nicht verfügbar.
 
 </div>
 
@@ -1772,4 +1771,3 @@ Benutzerkonten können entweder online oder lokal vorhanden sein und sich auf di
 </div>
 
 </div>
-

@@ -12,12 +12,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34e96ec4aac4573a05e50eb1b13469731068b6db
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 2ce178e57b850ee4003f2596ee075d68ea14e00a
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779561"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221155"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +63,7 @@ Mit dem Partnerverbund können Benutzer in Ihrer lokalen Bereitstellung mit Micr
 
 ## <a name="configure-your-skype-for-business-online-tenant-for-a-shared-sip-address-space"></a>Konfigurieren des Skype for Business Online Mandanten für einen freigegebenen SIP-Adressraum
 
-Eine SIP-Adresse (Session Initiation Protocol) ist ein eindeutiger Bezeichner für jeden Benutzer in einem Netzwerk, ähnlich wie eine Telefonnummer oder eine e-Mail-Adresse. Bevor Sie lync-Benutzer von lokal in Skype for Business Online verschieben, müssen Sie Ihre Office 365 Organisation so konfigurieren, dass der SIP-Adressraum (Shared Session Initiation Protocol) mit Ihrer lokalen Bereitstellung freigegeben wird. Wenn diese nicht konfiguriert ist, wird möglicherweise die folgende Fehlermeldung angezeigt:
+Eine SIP-Adresse (Session Initiation Protocol) ist ein eindeutiger Bezeichner für jeden Benutzer in einem Netzwerk, ähnlich wie eine Telefonnummer oder eine e-Mail-Adresse. Bevor Sie lync-Benutzer von lokal in Skype for Business Online verschieben, müssen Sie Ihre Microsoft 365-oder Office 365-Organisation so konfigurieren, dass der SIP-Adressraum (Shared Session Initiation Protocol) mit Ihrer lokalen Bereitstellung freigegeben wird. Wenn diese nicht konfiguriert ist, wird möglicherweise die folgende Fehlermeldung angezeigt:
 
 Verschieben-CsUser: HostedMigration Fault: Error = (510), Description = (der Mandant des Benutzers ist für den freigegebenen SIP-Adressraum nicht aktiviert.)
 
@@ -71,7 +71,7 @@ Zum Konfigurieren eines freigegebenen SIP-Adressraums richten Sie eine Remote-Po
 ```powershell
 Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 ```
-Um eine Remote-PowerShell-Sitzung mit Skype for Business Online einzurichten, müssen Sie zunächst das Skype for Business Online-Modul für Windows PowerShell installieren, das Sie [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911)hier abrufen können:.
+Um eine Remote-PowerShell-Sitzung mit Skype for Business Online einzurichten, müssen Sie zunächst das Skype for Business Online-Modul für Windows PowerShell installieren, das Sie hier abrufen können: [https://go.microsoft.com/fwlink/p/?LinkId=391911](https://go.microsoft.com/fwlink/p/?linkid=391911) .
 
 Nachdem Sie das Modul installiert haben, können Sie eine Remotesitzung mit den folgenden Cmdlets einrichten:
 
@@ -116,4 +116,3 @@ Weitere Informationen zum Verwenden des Skype for Business Online-PowerShell-Mod
 </div>
 
 </div>
-

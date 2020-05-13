@@ -12,12 +12,12 @@ ms:contentKeyID: 48183711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca81e26e6a4b634b7b1f861ddfb0e0aedebca23f
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 05c4b2845f4146c6394712951089750299ce60b7
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42204688"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221819"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -64,13 +64,13 @@ Die meisten Edge-Komponenten werden in einem Umkreisnetzwerk bereitgestellt. Die
 
 Die Edgeserver senden und empfangen Netzwerkdatenverkehr für die Dienste, die von externen Benutzern von der internen Bereitstellung angeboten werden. Im Edgeserver werden die folgenden Dienste ausgeführt:
 
-  - **Zugriffs-Edgedienst**   das Zugriffs-Edgedienst stellt einen einzelnen vertrauenswürdigen Verbindungspfad für ausgehenden und eingehenden SIP-Datenverkehr (Session Initiation Protocol) bereit.
+  - **Zugriffs-Edgedienst**     Das Zugriffs-Edgedienst stellt einen einzelnen vertrauenswürdigen Verbindungspfad für ausgehenden und eingehenden SIP-Datenverkehr (Session Initiation Protocol) bereit.
 
-  - **Webkonferenz-Edgedienst**   das Webkonferenz-Edgedienst ermöglicht externen Benutzern, an Besprechungen teilzunehmen, die in ihrer internen lync Server 2013-Bereitstellung gehostet werden.
+  - **Webkonferenz-Edgedienst**     Mit dem Webkonferenz-Edgedienst können externe Benutzer an Besprechungen teilnehmen, die in ihrer internen lync Server 2013-Bereitstellung gehostet werden.
 
-  - **A/V-Edgedienst**   der A/V-Edgedienst können Audio-, Video-, Anwendungsfreigabe und Dateiübertragung für externe Benutzer verfügbar gemacht werden. Ihre Benutzer können Besprechungen, die externe Teilnehmer einschließen, Audio und Video hinzufügen, und Sie können über Audio und/oder Video direkt mit einem externen Benutzer in den "Points-to-Points"-Sitzungen kommunizieren. Die A/V-Edgedienst bietet auch Unterstützung für Desktopfreigabe und Dateiübertragung.
+  - **A/V-Edgedienst**     In der A/V-Edgedienst werden Audio-, Video-, Anwendungsfreigabe und Dateiübertragung für externe Benutzer verfügbar gemacht. Ihre Benutzer können Besprechungen, die externe Teilnehmer einschließen, Audio und Video hinzufügen, und Sie können über Audio und/oder Video direkt mit einem externen Benutzer in den "Points-to-Points"-Sitzungen kommunizieren. Die A/V-Edgedienst bietet auch Unterstützung für Desktopfreigabe und Dateiübertragung.
 
-  - **XMPP-Proxydienst**   der XMPP-Proxydienst akzeptiert und sendet XMPP-Nachrichten (Extensible Messaging and Presence Protocol) an und von konfigurierten XMPP-Verbundpartnern.
+  - **XMPP-Proxy Dienst**     Der XMPP-Proxy Dienst akzeptiert und sendet XMPP-Nachrichten (Extensible Messaging and Presence Protocol) an und von konfigurierten XMPP-Verbundpartnern.
 
 Autorisierte externe Benutzer können auf die Edgeserver zugreifen, um eine Verbindung mit ihrer internen lync Server 2013-Bereitstellung herzustellen, aber die Edgeserver bieten keine Möglichkeit für einen anderen Zugriff auf das interne Netzwerk.
 
@@ -106,7 +106,7 @@ Für Folgendes ist der Reverseproxy erforderlich:
 
   - So aktivieren Sie mobile Geräte zum automatischen ermitteln von Front-End-Servern, die Mobilitätsdienste anbieten
 
-  - So aktivieren Sie Push-Benachrichtigungen für mobile Geräte über die Office 365 oder Apple Push Notification Services
+  - So aktivieren Sie Push-Benachrichtigungen für mobile Geräte von Microsoft 365, Office 365 oder Apple Push Notification Services
 
 Weitere Informationen zu Reverse-Proxies und den Anforderungen, die Reverse-Proxies erfüllen müssen, finden Sie in den Details unter [Konfigurationsanforderungen für Reverse Proxy in lync Server 2013](lync-server-2013-configuration-requirements-for-reverse-proxy.md).
 
@@ -114,7 +114,7 @@ Weitere Informationen zu Reverse-Proxies und den Anforderungen, die Reverse-Prox
 
 
 > [!NOTE]  
-> Externe Benutzer benötigen keine VPN-Verbindung (Virtual Private Network) zu Ihrer Organisation, um mit lync Server 2013 an einer Kommunikation teilzunehmen. Wenn Sie VPN-Technologie in Ihrer Organisation implementiert haben und Ihre Benutzer das VPN für lync verwenden, kann der Mediendatenverkehr (beispielsweise Videokonferenzen) beeinträchtigt werden. Sie sollten einen Mittel für den Mediendatenverkehr bereitstellen, um eine Verbindung mit dem AV-Edgedienst direkt herzustellen und das VPN zu umgehen. Ausführliche Informationen finden Sie im NextHop-Blog-Artikel "Aktivieren von <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A>lync Media zur Umgehung eines VPN-Tunnels" unter.
+> Externe Benutzer benötigen keine VPN-Verbindung (Virtual Private Network) zu Ihrer Organisation, um mit lync Server 2013 an einer Kommunikation teilzunehmen. Wenn Sie VPN-Technologie in Ihrer Organisation implementiert haben und Ihre Benutzer das VPN für lync verwenden, kann der Mediendatenverkehr (beispielsweise Videokonferenzen) beeinträchtigt werden. Sie sollten einen Mittel für den Mediendatenverkehr bereitstellen, um eine Verbindung mit dem AV-Edgedienst direkt herzustellen und das VPN zu umgehen. Ausführliche Informationen finden Sie im NextHop-Blog-Artikel "Aktivieren von lync Media zur Umgehung eines VPN-Tunnels" unter <A href="https://go.microsoft.com/fwlink/p/?linkid=256532">https://go.microsoft.com/fwlink/p/?LinkId=256532</A> .
 
 
 

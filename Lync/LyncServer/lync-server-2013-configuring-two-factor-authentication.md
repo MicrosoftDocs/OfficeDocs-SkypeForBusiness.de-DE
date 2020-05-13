@@ -12,12 +12,12 @@ ms:contentKeyID: 54973688
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6dca691687a75a97373f15bcfcc54a7873e0f907
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 170c7564e53680f3c6971894ceee9997d20e63ef
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42209371"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221809"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42209371"
 
 _**Letztes Änderungsstand des Themas:** 2013-07-03_
 
-In den folgenden Abschnitten werden die erforderlichen Schritte zum Konfigurieren der zweistufigen Authentifizierung für Ihre Bereitstellung beschrieben. Weitere Informationen zur zweistufigen Authentifizierung finden Sie unter [Enabling Office 365 Multi-Factor Authentication for Online Administrators-Grid User Post](https://go.microsoft.com/fwlink/p/?linkid=313332).
+In den folgenden Abschnitten werden die erforderlichen Schritte zum Konfigurieren der zweistufigen Authentifizierung für Ihre Bereitstellung beschrieben. 
 
 <div>
 
@@ -72,4 +72,3 @@ In den folgenden Abschnitten werden die erforderlichen Schritte zum Konfiguriere
 </div>
 
 </div>
-

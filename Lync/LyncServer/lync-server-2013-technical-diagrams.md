@@ -7,17 +7,17 @@ f1.keywords:
 - NOCSH
 TOCTitle: Technical diagrams
 ms:assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn594589(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn594589(v=OCS.15)
 ms:contentKeyID: 61180439
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14a76769398b93e422a3d9cad2f8f84ad1c6f8bc
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 37a6ec347e6a6907ebd0736556ea02053ab05202
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42194978"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219685"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +37,7 @@ ms.locfileid: "42194978"
 
 _**Letztes Änderungsstand des Themas:** 2014-03-14_
 
-**Zusammenfassung:** diese Diagramme bieten visuelle Darstellungen der empfohlenen Lösungen für lync 2013.
+**Zusammenfassung:**   Diese Diagramme bieten visuelle Darstellungen der empfohlenen Lösungen für lync 2013.
 
 Diese Ressourcen stehen im Format Visio (. vsd) (Visio 2010 oder Visio 2013) und im PDF-Format zur Verfügung. Informationen zum Drucken von Dokumenten finden Sie unter Tipps zum Drucken von Postern.
 
@@ -87,7 +87,7 @@ Diese Poster beschreiben einen bestimmten technischen Bereich und sind für die 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Position</th>
+<th>Titel</th>
 <th>Beschreibung</th>
 </tr>
 </thead>
@@ -136,7 +136,7 @@ Diese Poster beschreiben einen bestimmten technischen Bereich und sind für die 
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391840">Vergrößert das Poster mit Zoom.it von Microsoft ausführlich</a></p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391837">PDF-Version</a> (am besten für Mobilgeräte und Tablet-Computer)</p>
 <p><a href="https://go.microsoft.com/fwlink/p/?linkid=391839">Visio-Version</a> (am besten für Benutzer mit Visio)</p></td>
-<td><p>Dieses Poster beschreibt die verfügbaren Plattformoptionen für lync 2013 für BDMs und Architekten können Kunden aus lync online mit Office 365, Hybrid-lync, lync Server lokal und gehosteten lync auswählen. Das Poster enthält Details der einzelnen Architekturoptionen, einschließlich der optimalen Szenarien, sowie zu den Lizenzanforderungen und Zuständigkeiten von IT-Experten.</p>
+<td><p>Dieses Poster beschreibt die verfügbaren Plattformoptionen für lync 2013 für BDMs und Architekten können Kunden aus lync online mit Microsoft 365, Hybrid-lync, lync Server lokalen und gehosteten lync auswählen. Das Poster enthält Details der einzelnen Architekturoptionen, einschließlich der optimalen Szenarien, sowie zu den Lizenzanforderungen und Zuständigkeiten von IT-Experten.</p>
 <p>Größe: 34-by-44 inch</p>
 <p>Dieses Poster wurde mit Visio 2013 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein.</p></td>
 </tr>

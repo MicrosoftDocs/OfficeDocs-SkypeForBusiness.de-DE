@@ -12,12 +12,12 @@ ms:contentKeyID: 48183918
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c1e31e9fd0de6135dd1fd3f552d0d692f1bf7543
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4148cd97ec118a223e7e8b1b1e8c3825f51dbad6
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42184008"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44219735"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Edgeserver können so konfiguriert werden, dass ihren internen und externen Benu
 
   - Audiokonferenz, Videokonferenz oder beides
 
-In einigen Fällen ist die Kommunikation, beispielsweise Chatnachrichten und Anwesenheitsinformationen zwischen einem Microsoft lync Server 2013 und einem XMPP-Kontakt (Extensible Messaging and Presence Protocol) nur Peer-zu-Peer-Unterstützung nur Sie und der Kontakt im Verbund Partner. In anderen Fällen, beispielsweise in einer lync Server, lync Server 2010 lync Server 2013 Partnerverbund können mehrere Teilnehmer eingeladen werden, um an der Unterhaltung teilzunehmen.
+In einigen Fällen ist die Kommunikation, beispielsweise Instant Messaging (im) und Anwesenheitsinformationen zwischen einem Microsoft lync Server 2013 und einem XMPP-Kontakt (Extensible Messaging and Presence Protocol) nur Peer-zu-Peer-Unterstützung nur Sie und der Kontakt beim Verbundpartner. In anderen Fällen, beispielsweise in einer lync Server, lync Server 2010 lync Server 2013 Partnerverbund können mehrere Teilnehmer eingeladen werden, um an der Unterhaltung teilzunehmen.
 
 <div>
 
@@ -97,19 +97,19 @@ Das Aktivieren des Verbund zwischen Microsoft lync Server 2013, lync Server 2010
         
 
         > [!NOTE]
-        > Für <STRONG>neue SIP-Verbunddomänen</STRONG>müssen Sie den <STRONG>Domänennamen (oder FQDN)</STRONG> für Microsoft lync Online Microsoft Office 365 angeben. Für Microsoft lync Server 2013, lync Server 2010 und Office Communications Server müssen Sie auch eine <STRONG>Zugriffs-Edgedienst (FQDN)</STRONG> bereitstellen.
+        > Für <STRONG>neue SIP-Verbunddomänen</STRONG>müssen Sie den <STRONG>Domänennamen (oder FQDN)</STRONG> für Microsoft lync Online und Microsoft 365 oder Office 365 angeben. Für Microsoft lync Server 2013, lync Server 2010 und Office Communications Server müssen Sie auch eine <STRONG>Zugriffs-Edgedienst (FQDN)</STRONG> bereitstellen.
 
         
         </div>
     
       - <span></span>  
-        Für entdeckte Partnerverbund, in dem Partner ihre Edgeserver ermitteln können, erstellen Sie einen SRV-Eintrag in Ihrem externen \_DNS-sipfederationtls. \_TCP.contoso.com – der auf den Port 5061 und den Host (A)-Eintrag Ihrer Edgeserver zeigt
+        Für entdeckte Partnerverbund, in dem Partner ihre Edgeserver ermitteln können, erstellen Sie einen SRV-Eintrag in Ihrem externen DNS- \_ sipfederationtls. \_ TCP.contoso.com – der auf den Port 5061 und den Host (A)-Eintrag Ihrer Edgeserver zeigt
         
         <div>
         
 
         > [!IMPORTANT]
-        > Wenn Sie Microsoft lync Mobile-Clients auf Windows Phone oder Apple iPhone, iPad oder anderen Apple-Geräten unterstützen und den Push-Benachrichtigungsdienst oder den Push-Benachrichtigungsdienst verwenden, müssen Sie _sipfederationtls. _tcp planen. &lt;SIP-&gt; Domänen-SRV-Einträge für jede SIP-Domäne, in der Sie lync Mobile-Clients haben. Android und Nokia Symbian lync Mobile verwenden keine Push-Benachrichtigung und unterliegen nicht dieser Anforderung.
+        > Wenn Sie Microsoft lync Mobile-Clients auf Windows Phone oder Apple iPhone, iPad oder anderen Apple-Geräten unterstützen und den Push-Benachrichtigungsdienst oder den Push-Benachrichtigungsdienst verwenden, müssen Sie _sipfederationtls. _tcp planen. &lt;SIP &gt; -Domänen-SRV-Einträge für jede SIP-Domäne, in der Sie lync Mobile-Clients haben. Android und Nokia Symbian lync Mobile verwenden keine Push-Benachrichtigung und unterliegen nicht dieser Anforderung.
 
         
         </div>

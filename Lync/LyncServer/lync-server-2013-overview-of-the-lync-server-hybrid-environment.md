@@ -12,12 +12,12 @@ ms:contentKeyID: 48183399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b39c94b08da65e546fdf3ad01d42ada636ff371d
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: e3fe59038c022dafcf7eeedb0079ae1a8cc63fd1
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780754"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221529"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +59,7 @@ Sie müssen die folgenden Anwendungen und Dienstprogramme installiert haben, um 
 
   - [Installieren von Windows PowerShell für einmaliges Anmelden mit AD FS](https://go.microsoft.com/fwlink/p/?linkid=398710)
 
-  - Der Microsoft Online Services-Anmelde Assistent (msoidcli-7.0. msi) ist in der Desktop Einrichtung für Office 365 enthalten, die auf der Seite mit den Downloads aus dem Microsoft 365 Admin Center abgerufen werden kann.
+  - Der Microsoft Online Services-Anmelde Assistent (msoidcli-7.0. msi) ist in der Desktop Einrichtung für Microsoft 365 enthalten, die auf der Seite mit den Downloads aus dem Microsoft 365 Admin Center abgerufen werden kann.
 
 </div>
 
@@ -67,7 +67,7 @@ Sie müssen die folgenden Anwendungen und Dienstprogramme installiert haben, um 
 
 ## <a name="administrator-credentials"></a>Administrator Anmeldeinformationen
 
-Wenn Sie aufgefordert werden, Ihre Administratoranmeldeinformationen anzugeben, verwenden Sie den Benutzernamen und das Kennwort für das Administratorkonto für Ihre Office 365 Organisation. Diese Anmeldeinformationen werden auch beim Konfigurieren von Active Directory-Verbunddienste (AD FS) 2.0, Verzeichnissynchronisierung, einmaliges Anmelden, Verbund und Verschieben von Benutzern zu lync Online verwendet.
+Wenn Sie aufgefordert werden, Ihre Administratoranmeldeinformationen anzugeben, verwenden Sie den Benutzernamen und das Kennwort für das Administratorkonto für Ihre Microsoft 365-oder Office 365-Organisation. Diese Anmeldeinformationen werden auch beim Konfigurieren von Active Directory-Verbunddienste (AD FS) 2.0, Verzeichnissynchronisierung, einmaliges Anmelden, Verbund und Verschieben von Benutzern zu lync Online verwendet.
 
 </div>
 
@@ -75,7 +75,7 @@ Wenn Sie aufgefordert werden, Ihre Administratoranmeldeinformationen anzugeben, 
 
 ## <a name="connecting-to-lync-online-powershell"></a>Herstellen einer Verbindung mit lync Online PowerShell
 
-Administratoren haben jetzt die Möglichkeit, lync Online und deren lync Online Benutzerkonten mit Windows PowerShell zu verwalten. Hierzu müssen Sie zuerst das lync Online-Connector-Modul aus dem Microsoft Download Center herunterladen und installieren (https://go.microsoft.com/fwlink/?LinkId=294688). Weitere Informationen zum herunterladen, installieren und Verwenden des lync Online-Connector-Moduls sowie ausführliche Informationen zur Verwendung von Windows PowerShell zum Verwalten von lync Online finden Sie unter [using Windows PowerShell to manage lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Administratoren haben jetzt die Möglichkeit, lync Online und deren lync Online Benutzerkonten mit Windows PowerShell zu verwalten. Hierzu müssen Sie zuerst das lync Online-Connector-Modul aus dem Microsoft Download Center herunterladen und installieren ( https://go.microsoft.com/fwlink/?LinkId=294688) . Weitere Informationen zum herunterladen, installieren und Verwenden des lync Online-Connector-Moduls sowie ausführliche Informationen zur Verwendung von Windows PowerShell zum Verwalten von lync Online finden Sie unter [using Windows PowerShell to manage lync Online](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
 
 </div>
 

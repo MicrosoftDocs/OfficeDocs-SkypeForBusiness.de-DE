@@ -12,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54888a96d33dc3d9195256483f41719031847744
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 47e8bc57edbf3b6414820aba1613be8b44fc670e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780324"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221519"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +45,7 @@ Bei der Planung einer hybridbereitstellung sollten Sie die folgenden Anforderung
 
 In Ihrer Umgebung muss Folgendes konfiguriert sein, damit Sie eine hybridbereitstellung implementieren und bereitstellen können.
 
-  - Eine Microsoft Office 365-Organisation mit aktivierter Skype for Business Online. Beachten Sie, dass Sie für eine Hybrid Konfiguration mit Ihrer lokalen Bereitstellung nur einen einzelnen Mandanten verwenden können.
+  - Eine Microsoft 365-oder Office 365-Organisation mit aktivierter Skype for Business Online. Beachten Sie, dass Sie für eine Hybrid Konfiguration mit Ihrer lokalen Bereitstellung nur einen einzelnen Mandanten verwenden können.
 
   - Eine einzelne lokale Bereitstellung (Infrastruktur) von Skype for Business Server oder lync Server, die in einer unterstützten Topologie bereitgestellt wird. Siehe Topologie-Anforderungen.
     
@@ -53,7 +53,7 @@ In Ihrer Umgebung muss Folgendes konfiguriert sein, damit Sie eine hybridbereits
 
   - Skype for Business Server 2015 Verwaltungstools. Wenn Sie lync Server 2013 oder lync Server 2010 verwenden, können Sie die lync Server 2013 Verwaltungstools verwenden.
 
-  - Zur Unterstützung des einmaligen Anmeldens mit Office 365, damit Benutzer dieselben Anmeldeinformationen für die Anmeldung bei Office verwenden können, wenn diese lokal Vorgehen, können Sie die Kenn Wort Synchronisierungsfeatures von Azure Active Directory (AAD) Connect verwenden. Sie können auch Active Directory Verbunddienste (AD FS) für einmaliges Anmelden mit Office 365 verwenden.
+  - Zur Unterstützung des einmaligen Anmeldens mit Microsoft 365 oder Office 365, damit Benutzer dieselben Anmeldeinformationen für die Anmeldung bei Office verwenden können, wenn diese lokal Vorgehen, können Sie die Kenn Wort Synchronisierungsfeatures von Azure Active Directory (AAD) Connect verwenden. Sie können auch Active Directory Verbunddienste (AD FS) für einmaliges Anmelden mit Microsoft 365 oder Office 365 verwenden.
     
     Weitere Informationen finden Sie unter [Integrieren Ihrer lokalen Identitäten in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=619754).
 
@@ -159,7 +159,7 @@ Die Liste der zugelassenen Domänen enthält Domänen, für die der vollqualifiz
 
 Die folgenden Anforderungen müssen erfüllt sein, um eine hybridbereitstellung erfolgreich zu konfigurieren:
 
-  - Domänenübereinstimmung muss für Ihre lokale Bereitstellung und Ihre Office 365 Organisation identisch konfiguriert werden. Wenn die Partner Ermittlung für die lokale Bereitstellung aktiviert ist, muss Open Federation für Ihren Online-Mandanten konfiguriert werden. Wenn die Partner Ermittlung nicht aktiviert ist, muss Closed Federation für Ihren Online-Mandanten konfiguriert werden.
+  - Domänen Abgleich muss für Ihre lokale Bereitstellung und Ihre Microsoft 365-oder Office 365-Organisation identisch konfiguriert werden. Wenn die Partner Ermittlung für die lokale Bereitstellung aktiviert ist, muss Open Federation für Ihren Online-Mandanten konfiguriert werden. Wenn die Partner Ermittlung nicht aktiviert ist, muss Closed Federation für Ihren Online-Mandanten konfiguriert werden.
 
   - Die Liste blockierter Domänen in der lokalen Bereitstellung muss genau mit der Liste der blockierten Domänen für den Online Mandanten übereinstimmen.
 
@@ -191,7 +191,7 @@ Außerdem müssen Sie sicherstellen, dass die in der folgenden Tabelle beschrieb
 <td><p>DNS-Anforderung</p></td>
 </tr>
 <tr class="even">
-<td><p>DNS-SRV-Eintrag für _sipfederationtls. _tcp. &lt;sipdomain.com&gt; für alle unterstützten SIP-Domänen, die auf Edge-externe IP (s) zugreifen</p></td>
+<td><p>DNS-SRV-Eintrag für _sipfederationtls. _tcp. &lt; sipdomain.com &gt; für alle unterstützten SIP-Domänen, die auf Edge-externe IP (s) zugreifen</p></td>
 <td><p>Edgeserver (s)</p></td>
 <td><p>Aktivieren Sie die Verbundkommunikation in einer Hybrid Konfiguration. Die Edgeserver müssen wissen, wo der Verbunddatenverkehr für die SIP-Domäne, die zwischen lokal und Online aufgeteilt ist, weitergeleitet werden soll.</p></td>
 </tr>
@@ -214,7 +214,7 @@ Je nachdem, wie DNS in Ihrer Organisation konfiguriert ist, müssen Sie diese Ei
 
 Computer in Ihrem Netzwerk müssen in der Lage sein, standardmäßige Internet-DNS-Lookups durchzuführen. Wenn diese Computer Standard-Internetwebsites erreichen können, erfüllt Ihr Netzwerk diese Anforderung.
 
-Je nach Speicherort Ihres Microsoft Online Services-Rechenzentrums müssen Sie auch die Netzwerkfirewall-Geräte so konfigurieren, dass Verbindungen basierend auf Platzhalterdomänen Namen akzeptiert werden (beispielsweise der gesamte \*Datenverkehr von. Outlook.com). Wenn die Firewalls Ihrer Organisation keine Platzhalternamen Konfigurationen unterstützen, müssen Sie die IP-Adressbereiche, die Sie zulassen möchten, und die angegebenen Ports manuell bestimmen.
+Je nach Speicherort Ihres Microsoft Online Services-Rechenzentrums müssen Sie auch die Netzwerkfirewall-Geräte so konfigurieren, dass Verbindungen basierend auf Platzhalterdomänen Namen akzeptiert werden (beispielsweise der gesamte Datenverkehr von \* . Outlook.com). Wenn die Firewalls Ihrer Organisation keine Platzhalternamen Konfigurationen unterstützen, müssen Sie die IP-Adressbereiche, die Sie zulassen möchten, und die angegebenen Ports manuell bestimmen.
 
 Weitere Informationen finden Sie im Hilfethema [Office 365 URLs und IP-Adressbereiche](https://go.microsoft.com/fwlink/p/?linkid=252942).
 
@@ -299,7 +299,7 @@ Wenn Sie Benutzerkonten zwischen Ihren lokalen lync-und lync Online-Bereitstellu
 
 
 > [!IMPORTANT]  
-> Wenn der Benutzer mithilfe des Online Portals für Office 365 erstellt wird, wird das Benutzerkonto nicht mit lokalen Active Directory synchronisiert, und der Benutzer wird nicht in der lokalen Active Directory vorhanden sein. Wenn Sie bereits Benutzer in lync online erstellt haben und Hybrid mit einer lokalen lync Server konfigurieren möchten, finden Sie weitere Informationen unter <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Verschieben von Benutzern von lync Online in lync lokal in lync Server 2013</A>.
+> Wenn der Benutzer mithilfe des Online Portals für Microsoft 365 Admin Center erstellt wird, wird das Benutzerkonto nicht mit lokalen Active Directory synchronisiert, und der Benutzer ist in der lokalen Active Directory nicht vorhanden. Wenn Sie bereits Benutzer in lync online erstellt haben und Hybrid mit einer lokalen lync Server konfigurieren möchten, finden Sie weitere Informationen unter <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Verschieben von Benutzern von lync Online in lync lokal in lync Server 2013</A>.
 
 
 
@@ -307,11 +307,11 @@ Wenn Sie Benutzerkonten zwischen Ihren lokalen lync-und lync Online-Bereitstellu
 
 Bei der Planung einer hybridbereitstellung sollten Sie auch die folgenden benutzerbezogenen Probleme berücksichtigen.
 
-  - **Benutzer Kontakte**   der Grenzwert für Kontakte für lync Online Benutzer lautet 250. Alle Kontakte außerhalb dieser Nummer werden aus der Kontaktliste des Benutzers entfernt, wenn das Konto in lync Online verschoben wird.
+  - **Benutzer Kontakte**     Der Grenzwert für Kontakte für lync Online Benutzer lautet 250. Alle Kontakte außerhalb dieser Nummer werden aus der Kontaktliste des Benutzers entfernt, wenn das Konto in lync Online verschoben wird.
 
-  - **Instant Messaging and Presence**   Kontaktlisten, Gruppen und Zugriffssteuerungslisten (ACLs) für Chatnachrichten und Anwesenheits Benutzer werden mit dem Benutzerkonto migriert.
+  - **Instant Messaging und Anwesenheit**     Benutzer Kontaktlisten, Gruppen und Zugriffssteuerungslisten (Access Control Lists, ACLs) werden mit dem Benutzerkonto migriert.
 
-  - **Konferenzdaten, Besprechungsinhalte und geplante Besprechungen**   dieser Inhalt wird nicht mit dem Benutzerkonto migriert. Benutzer müssen Besprechungen neu planen, nachdem Ihre Konten zu lync Online migriert wurden.
+  - **Konferenzdaten, Besprechungsinhalte und geplante Besprechungen**     Dieser Inhalt wird nicht mit dem Benutzerkonto migriert. Benutzer müssen Besprechungen neu planen, nachdem Ihre Konten zu lync Online migriert wurden.
 
 </div>
 
@@ -321,11 +321,11 @@ Bei der Planung einer hybridbereitstellung sollten Sie auch die folgenden benutz
 
   - In einer lync Server 2013-Hybridumgebung können Benutzer sowohl lokal als auch online, aber nicht beides gleichzeitig für Chatnachrichten, VoIP und Besprechungen aktiviert werden.
 
-  - **Lync-Client**     einige Benutzer benötigen möglicherweise eine neue Client Version, wenn Sie in lync Online verschoben werden. Für Office Communications Server 2007 R2 müssen Benutzer vor der Migration zu lync Online in einen lync Server 2013 Pool verschoben werden.
+  - **Lync-Client**     Einige Benutzer benötigen möglicherweise eine neue Client Version, wenn Sie in lync Online verschoben werden. Für Office Communications Server 2007 R2 müssen Benutzer vor der Migration zu lync Online in einen lync Server 2013 Pool verschoben werden.
     
     Weitere Informationen zur Clientunterstützung finden Sie unter [Clients for lync Online](https://go.microsoft.com/fwlink/p/?linkid=281902) und [Supported lync Clients and Network Port Configurations](https://go.microsoft.com/fwlink/p/?linkid=281901).
 
-  - **Lokale Richtlinien und Konfiguration (nicht-Benutzer)**   Online-und lokale Richtlinien erfordern eine separate Konfiguration. Sie können keine globalen Richtlinien festlegen, die für beides gelten.
+  - **Lokale Richtlinien und Konfiguration (nicht Benutzer)**     Online-und lokale Richtlinien erfordern eine separate Konfiguration. Sie können keine globalen Richtlinien festlegen, die für beides gelten.
 
 </div>
 
@@ -338,4 +338,3 @@ Bei der Planung einer hybridbereitstellung sollten Sie auch die folgenden benutz
 </div>
 
 </div>
-

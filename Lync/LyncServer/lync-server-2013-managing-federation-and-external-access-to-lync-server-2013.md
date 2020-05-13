@@ -12,12 +12,12 @@ ms:contentKeyID: 48183665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 897cf5afee93363d1931b8c2ff3822a90ae29024
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 155ee98a7386368d90fd549d920cdfe77c05cb6e
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42185748"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221619"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,13 +41,13 @@ Die Bereitstellung eines Edgeservers oder Edgepools ist der erste Schritt zur Un
 
 Nach der Installation und Konfiguration Ihrer internen Bereitstellung von lync Server 2013 können interne Benutzer in Ihrer Organisation mit anderen internen Benutzern mit SIP-Konten in Ihrem Active Directory-Domänendienste (AD DS) zusammenarbeiten. Die Zusammenarbeit kann das Senden und Empfangen von Chatnachrichten, die Aktualisierung des Anwesenheitsstatus und die Teilnahme an Konferenzen (auch als "Besprechungen" bezeichnet) umfassen. Sie aktivieren und konfigurieren den Zugriff durch externe Benutzer, um zu steuern, ob unterstützte externe Benutzer mit internen lync Server Benutzern zusammenarbeiten können. Zu den externen Benutzern können Remotebenutzer in Ihrer Bereitstellung, Partnerbenutzer (einschließlich unterstützter Benutzer öffentlicher Chatdienstanbieter), sowie XMPP-Partnerverbund- und anonyme Teilnehmer an Konferenzen gehören.
 
-Wenn Ihre Bereitstellung die Installation eines lync Server 2013 Edgeserver oder eines Edgepools umfasst, wird der Umfang möglicher Kommunikationstypen mit einer Reihe von Optionen für den Zugriff durch externe Benutzer, die Kommunikation mit Mitgliedern anderer SIP-Verbunddomänen erheblich erweitert, SIP-Partnerverbund Anbieter und XMPP-Verbundbenutzer. Nachdem Sie die Edgeserver oder Edgepool eingerichtet haben, aktivieren Sie die Typen des externen Benutzerzugriffs, den Sie bereitstellen möchten, und konfigurieren Sie die Richtlinien für die Steuerung für den externen Zugriff. In lync Server 2013 aktivieren und konfigurieren Sie den Zugriff und die Richtlinien für externe Benutzer mithilfe der lync Server-Systemsteuerung, der lync Server-Verwaltungsshell oder beider basierend auf den Aufgabenanforderungen. Ausführliche Informationen zu diesen Verwaltungstools finden Sie unter [lync Server 2013 Administrative Tools](lync-server-2013-lync-server-administrative-tools.md) in der Betriebsdokumentation [lync Server 2013 Verwaltungsshell](lync-server-2013-lync-server-management-shell.md) in der Betriebsdokumentation und Installieren von [lync Server 2013 Verwaltungstools](lync-server-2013-install-lync-server-administrative-tools.md) in der Betriebsdokumentation.
+Wenn Ihre Bereitstellung die Installation eines lync Server 2013 Edgeserver oder eines Edgepool umfasste, wird der Umfang möglicher Kommunikationstypen mit einer Reihe von Optionen für den Zugriff durch externe Benutzer, die Kommunikation mit Mitgliedern anderer SIP-Verbunddomänen, SIP-Verbund Anbietern und XMPP-Verbundbenutzern erheblich erweitert. Nachdem Sie die Edgeserver oder Edgepool eingerichtet haben, aktivieren Sie die Typen des externen Benutzerzugriffs, den Sie bereitstellen möchten, und konfigurieren Sie die Richtlinien für die Steuerung für den externen Zugriff. In lync Server 2013 aktivieren und konfigurieren Sie den Zugriff und die Richtlinien für externe Benutzer mithilfe der lync Server-Systemsteuerung, der lync Server-Verwaltungsshell oder beider basierend auf den Aufgabenanforderungen. Ausführliche Informationen zu diesen Verwaltungstools finden Sie unter [lync Server 2013 Administrative Tools](lync-server-2013-lync-server-administrative-tools.md) in der Betriebsdokumentation [lync Server 2013 Verwaltungsshell](lync-server-2013-lync-server-management-shell.md) in der Betriebsdokumentation und Installieren von [lync Server 2013 Verwaltungstools](lync-server-2013-install-lync-server-administrative-tools.md) in der Betriebsdokumentation.
 
 <div>
 
 
 > [!IMPORTANT]  
-> Beim Entwerfen der Konfiguration und der Richtlinien für externen Benutzerzugriff müssen Sie die Rangfolge der Richtlinien verstehen und wissen, wie Richtlinien angewendet werden. Lync Server Richtlinieneinstellungen, die auf einer Richtlinienebene angewendet werden, können Einstellungen außer Kraft setzen, die auf einer anderen Richtlinienebene angewendet werden. Lync Server Vorrang vor der Richtlinie: Benutzerrichtlinie (der meiste Einfluss) setzt eine Standortrichtlinie außer Kraft, und eine Standortrichtlinie setzt eine globale Richtlinie (am wenigsten Einfluss) außer Kraft. Dies bedeutet, dass je näher die Richtlinieneinstellung auf das Objekt zutrifft, das die Richtlinie betrifft, desto mehr Einfluss hat Sie auf das Objekt.
+> Beim Entwerfen der Konfiguration und der Richtlinien für externen Benutzerzugriff müssen Sie die Rangfolge der Richtlinien verstehen und wissen, wie Richtlinien angewendet werden. Lync Server Richtlinieneinstellungen, die auf einer Richtlinienebene angewendet werden, können Einstellungen außer Kraft setzen, die auf einer anderen Richtlinienebene angewendet werden. Lync Server Vorrang vor der Richtlinie: Benutzerrichtlinie (der meiste Einfluss) setzt eine Standortrichtlinie außer Kraft, und eine Standortrichtlinie setzt eine globale Richtlinie (am wenigsten Einfluss) außer Kraft. Dies bedeutet Folgendes: Je näher sich die Richtlinieneinstellung am betroffenen Objekt befindet, umso mehr Einfluss auf das Objekt hat sie.
 
 
 
@@ -55,11 +55,11 @@ Wenn Ihre Bereitstellung die Installation eines lync Server 2013 Edgeserver oder
 
 Standardmäßig werden keine Richtlinien zur Unterstützung des Zugriffs durch externe Benutzer konfiguriert, einschließlich des Zugriffs durch Remotebenutzer und durch Partnerbenutzer, auch dann nicht, wenn Sie die Unterstützung für den Zugriff durch externe Benutzer bereits für Ihre Organisation aktiviert haben. Zur Steuerung des Zugriffs durch externe Benutzer müssen Sie eine oder mehrere Richtlinien konfigurieren und den für jede Richtlinie unterstützten Typ des externen Benutzerzugriffs angeben. Hierzu gehören die folgenden Richtlinien für den externen Zugriff:
 
-  - **Globale Richtlinie**   die globale Richtlinie wird erstellt, wenn Sie die Edgeserver bereitstellen. Standardmäßig sind in der globalen Richtlinie keine Optionen für den externen Benutzerzugriff aktiviert. Zur Unterstützung des Zugriffs durch externe Benutzer auf globaler Ebene konfigurieren Sie die globale Richtlinie so, dass mindestens ein Typ des externen Benutzerzugriffs unterstützt wird. Die globale Richtlinie gilt für alle Benutzer in Ihrer Organisation, wird jedoch durch Standort- und Benutzerrichtlinien außer Kraft gesetzt. Wenn Sie die globale Richtlinie löschen, wird diese nicht entfernt. Stattdessen wird sie auf die Standardeinstellung zurückgesetzt.
+  - **Globale Richtlinie**   Die globale Richtlinie wird bei der Bereitstellung der Edgeserver erstellt. Standardmäßig sind in der globalen Richtlinie keine Optionen für den externen Benutzerzugriff aktiviert. Zur Unterstützung des Zugriffs durch externe Benutzer auf globaler Ebene konfigurieren Sie die globale Richtlinie so, dass mindestens ein Typ des externen Benutzerzugriffs unterstützt wird. Die globale Richtlinie gilt für alle Benutzer in Ihrer Organisation, wird jedoch durch Standort- und Benutzerrichtlinien außer Kraft gesetzt. Wenn Sie die globale Richtlinie löschen, wird diese nicht entfernt. Stattdessen wird sie auf die Standardeinstellung zurückgesetzt.
 
-  - **Standortrichtlinie**   Sie können eine oder mehrere Standortrichtlinien erstellen und konfigurieren, um die Unterstützung für den Zugriff durch externe Benutzer auf bestimmte Websites einzuschränken. Die Konfiguration in der Standortrichtlinie setzt die globale Richtlinie außer Kraft, jedoch nur für den durch die Standortrichtlinie abgedeckten Standort. Wenn Sie beispielsweise den Remotebenutzerzugriff in der globalen Richtlinie aktivieren, können Sie eine Standortrichtlinie festlegen, die den Remotebenutzerzugriff für einen bestimmten Standort deaktiviert. Standardmäßig wird eine Standortrichtlinie auf alle Benutzer des jeweiligen Standorts angewendet, Sie können jedoch einem Benutzer eine Benutzerrichtlinie zuweisen, um die Standortrichtlinieneinstellung außer Kraft zu setzen.
+  - **Standortrichtlinie**   Sie können eine oder mehrere Standortrichtlinien erstellen und konfigurieren, um die Unterstützung für den Zugriff durch externe Benutzer auf bestimmte Standorte einzuschränken. Die Konfiguration in der Standortrichtlinie setzt die globale Richtlinie außer Kraft, jedoch nur für den durch die Standortrichtlinie abgedeckten Standort. Wenn Sie beispielsweise den Remotebenutzerzugriff in der globalen Richtlinie aktivieren, können Sie eine Standortrichtlinie festlegen, die den Remotebenutzerzugriff für einen bestimmten Standort deaktiviert. Standardmäßig wird eine Standortrichtlinie auf alle Benutzer des jeweiligen Standorts angewendet, Sie können jedoch einem Benutzer eine Benutzerrichtlinie zuweisen, um die Standortrichtlinieneinstellung außer Kraft zu setzen.
 
-  - **Benutzerrichtlinie**   Sie können eine oder mehrere Benutzerrichtlinien erstellen und konfigurieren, um die Unterstützung für den Zugriff durch Remotebenutzer auf bestimmte Benutzer zu begrenzen. Dies gilt jedoch nur für die von der entsprechenden Richtlinie betroffenen Benutzer. Wenn Sie beispielsweise den Remotebenutzerzugriff in der globalen Richtlinie und in der Standardrichtlinie aktivieren, können Sie eine Benutzerrichtlinie festlegen, die den Remotebenutzerzugriff deaktiviert, und diese Richtlinie bestimmten Benutzern zuweisen. Benutzerrichtlinien werden erst mit der Zuweisung zu bestimmten Benutzern wirksam.
+  - **Benutzerrichtlinie**   Die Konfiguration der Benutzerrichtlinie überschreibt die globale Richtlinie und die Standortrichtlinie. Dies gilt jedoch nur für die von der entsprechenden Richtlinie betroffenen Benutzer. Wenn Sie beispielsweise den Remotebenutzerzugriff in der globalen Richtlinie und in der Standardrichtlinie aktivieren, können Sie eine Benutzerrichtlinie festlegen, die den Remotebenutzerzugriff deaktiviert, und diese Richtlinie bestimmten Benutzern zuweisen. Benutzerrichtlinien werden erst mit der Zuweisung zu bestimmten Benutzern wirksam.
 
 Anhand der folgenden Entscheidungspunkte können Sie ermitteln, welche Konfigurationseinstellungen und Richtlinien Sie erstellen oder bearbeiten müssen:
 
@@ -87,7 +87,7 @@ Konfigurieren Sie die Einstellungen wie im Thema [Aktivieren oder Deaktivieren d
 
 Konfigurieren Sie die Einstellungen wie im Thema [Aktivieren oder Deaktivieren des Sendens eines Archivierungs Disclaimers an Verbundpartner in lync Server 2013](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)beschrieben.
 
-**Möchten Sie, dass Benutzer mit SIP-Verbund Anbietern kommunizieren können, die die Kommunikation mit öffentlichen Anbietern wie Windows Live Messenger, AOL und Yahoo\!ermöglichen?**
+**Möchten Sie, dass Benutzer mit SIP-Verbund Anbietern kommunizieren können, die die Kommunikation mit öffentlichen Anbietern wie Windows Live Messenger, AOL und Yahoo ermöglichen \! ?**
 
 Konfigurieren Sie die Einstellungen wie in den Themen [configure Policies to Control Public User Access in lync Server 2013](lync-server-2013-configure-policies-to-control-public-user-access.md)[Aktivieren oder Deaktivieren von Verbund-und Public Chat-Konnektivität in lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)und [erstellen oder Bearbeiten von öffentlichen SIP-Verbund Anbietern in lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md)beschrieben.
 
@@ -107,7 +107,7 @@ Konfigurieren Sie die Einstellungen wie in den Themen [configure Policies to Con
 
 </div>
 
-**Möchten Sie, dass Benutzer mit SIP-Verbund Anbietern kommunizieren können, die gehostete Anbieter sind, die Microsoft Office 365, Microsoft lync Online und Microsoft lync Online 2010 ausführen?**
+**Möchten Sie, dass Benutzer mit SIP-Verbund Anbietern kommunizieren können, die gehostete Anbieter mit Microsoft 365, Microsoft lync Online und Microsoft lync Online 2010 sind?**
 
 Konfigurieren Sie die Einstellungen wie in den Themen [erstellen oder Bearbeiten von öffentlichen SIP-Verbund Anbietern in lync Server 2013](lync-server-2013-create-or-edit-public-sip-federated-providers.md)beschrieben, [Aktivieren oder deaktivieren Sie die Verbund-und öffentliche Instant Messaging-Konnektivität in lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) , und [erstellen oder bearbeiten Sie gehostete SIP-Verbund Anbieter lync Server 2013](lync-server-2013-create-or-edit-hosted-sip-federated-providers.md)
 

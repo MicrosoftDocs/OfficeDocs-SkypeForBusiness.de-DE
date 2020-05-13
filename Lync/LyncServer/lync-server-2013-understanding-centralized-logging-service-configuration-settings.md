@@ -12,12 +12,12 @@ ms:contentKeyID: 49733619
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b326f7ee869b060a423696817c21d7cb763bb0a2
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 4efbf47cd55fe0e62753843973e67b9eb242862b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42193178"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221195"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +53,7 @@ Der zentralisierte Protokollierungsdienst ist so konfiguriert, dass er definiert
     
 
     > [!TIP]
-    > Sie können den Bereich der Konfigurationseinstellungen, die von der Definition <CODE>-Identity</CODE> zurückgegeben werden, oder einen Bereich wie "Site: Redmond" eingrenzen oder erweitern, um nur die csclsconfiguration "für die Website" Redmond "zurückzugeben. Wenn Sie Details zu einem bestimmten Teil der Konfiguration wünschen, können Sie die Ausgabe in ein anderes Windows PowerShell-Cmdlet übertragen. Geben Sie beispielsweise Folgendes ein, um Details zu den in der Konfiguration für die Website "Redmond" definierten Szenarien zu erhalten:<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
+    > Sie können den Bereich der Konfigurationseinstellungen, die von der Definition zurückgegeben werden, oder <CODE>-Identity</CODE> einen Bereich wie "Site: Redmond" eingrenzen oder erweitern, um nur die csclsconfiguration "für die Website" Redmond "zurückzugeben. Wenn Sie Details zu einem bestimmten Teil der Konfiguration wünschen, können Sie die Ausgabe in ein anderes Windows PowerShell-Cmdlet übertragen. Geben Sie beispielsweise Folgendes ein, um Details zu den in der Konfiguration für die Website "Redmond" definierten Szenarien zu erhalten:<CODE>Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandPropery Scenarios</CODE>
 
     
     </div>
@@ -85,7 +85,7 @@ Der zentralisierte Protokollierungsdienst ist so konfiguriert, dass er definiert
     </tr>
     <tr class="odd">
     <td><p><strong>SearchTerms</strong></p></td>
-    <td><p>Definierte Suchbegriffe für die Konfiguration. Office 365, keine lokalen Bereitstellungen.</p></td>
+    <td><p>Definierte Suchbegriffe für die Konfiguration. Office 365 oder Microsoft 365, keine lokalen Bereitstellungen.</p></td>
     </tr>
     <tr class="even">
     <td><p><strong>Zufassen</strong></p></td>
@@ -137,7 +137,7 @@ Der zentralisierte Protokollierungsdienst ist so konfiguriert, dass er definiert
     </tr>
     <tr class="even">
     <td><p><strong>MinimumClsAgentServiceVersion</strong></p></td>
-    <td><p>Die mindestens erforderliche Version des CLSAgent, die ausgeführt werden kann. Dieses Element ist für Office 365 vorgesehen.</p></td>
+    <td><p>Die mindestens erforderliche Version des CLSAgent, die ausgeführt werden kann. Dieses Element ist für Office 365 oder Microsoft 365 vorgesehen.</p></td>
     </tr>
     </tbody>
     </table>

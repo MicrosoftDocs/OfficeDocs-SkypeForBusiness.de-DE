@@ -12,12 +12,12 @@ ms:contentKeyID: 62258120
 ms.date: 11/13/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e87b977dd70227d134e5feae8df2ea089e216df3
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: 5efc642ea326765df138f19fde4e691aa94d6b3b
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780744"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221225"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +55,7 @@ _**Letztes Änderungsstand des Themas:** 2015-11-13_
     
       - Installieren Sie das Azure Active Directory-Synchronisierungs Tool. Weitere Informationen finden Sie unter <https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool.aspx>.
     
-      - Um Ihren Benutzern die Verwendung von einmaligem Anmelden für lync online zu ermöglichen, installieren Sie Active Directory <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx>Verbunddienste.
+      - Um Ihren Benutzern die Verwendung von einmaligem Anmelden für lync online zu ermöglichen, installieren Sie Active Directory Verbunddienste <https://social.technet.microsoft.com/wiki/contents/articles/1011.active-directory-federation-services-ad-fs-overview.aspx> .
     
       - Geben Sie in Ihrer lokalen Bereitstellung in lync Server-Verwaltungsshell die folgenden Cmdlets ein, um den Hostinganbieter für lync online zu erstellen:
         
@@ -117,13 +117,13 @@ _**Letztes Änderungsstand des Themas:** 2015-11-13_
     
       - Aktualisieren Sie den **lyncdiscover.contoso.com** -Eintrag, sodass ein Datensatz auf den FQDN des lokalen Reverse-Proxyservers verweist.
     
-      - Aktualisieren Sie das ***\_SIP *\_ . TLS.contoso.com** -SRV-Eintrag, der in die öffentliche IP-oder VIP-Adresse des Zugriffs-Edgedienst von lync lokal aufgelöst wird.
+      - Aktualisieren Sie das *** \_ SIP *. \_ TLS.contoso.com** -SRV-Eintrag, der in die öffentliche IP-oder VIP-Adresse des Zugriffs-Edgedienst von lync lokal aufgelöst wird.
     
-      - Aktualisieren Sie das ***\_sipfederationtls *\_ . TCP.contoso.com** -SRV-Eintrag, der in die öffentliche IP-oder VIP-Adresse des Zugriffs-Edgedienst von lync lokal aufgelöst wird.
+      - Aktualisieren Sie das *** \_ sipfederationtls *. \_ TCP.contoso.com** -SRV-Eintrag, der in die öffentliche IP-oder VIP-Adresse des Zugriffs-Edgedienst von lync lokal aufgelöst wird.
     
       - Wenn Ihre Organisation Split-DNS verwendet (manchmal auch "Split-Brain-DNS" genannt), stellen Sie sicher, dass Benutzer, die Namen über die interne DNS-Zone auflösen, an den Front-End-Pool weitergeleitet werden.
 
-6.  Geben Sie `Get-CsUser` das Cmdlet ein, um einige Eigenschaften zu den Benutzern zu überprüfen, die Sie verschieben möchten. Sie möchten sicherstellen, dass das HostingProviderProxyFQDN auf `"sipfed.online.lync.com"` festgelegt ist und dass die SIP-Adressen richtig festgelegt sind.
+6.  Geben `Get-CsUser` Sie das Cmdlet ein, um einige Eigenschaften zu den Benutzern zu überprüfen, die Sie verschieben möchten. Sie möchten sicherstellen, dass das HostingProviderProxyFQDN auf festgelegt ist `"sipfed.online.lync.com"` und dass die SIP-Adressen richtig festgelegt sind.
 
 7.  Migrieren Sie lync Online Benutzer lokal zu lync.
     
@@ -141,15 +141,15 @@ _**Letztes Änderungsstand des Themas:** 2015-11-13_
     
         Get-CsUser -Filter {Hosting Provider -eq "sipfed.online.lync.com"} | Move-CsUser -Target "<fe-pool>.contoso.com" -Credential $creds -HostedMigrationOverrideURL <URL>
     
-    Das Format der URL, die für den **HostedMigrationOverrideUrl** -Parameter angegeben ist, muss die URL zum Pool sein, in dem der gehostete Migrationsdienst ausgeführt wird, im folgenden Format: *https://\<Pool FQDN\>/HostedMigration/hostedmigrationService.svc*.
+    Das Format der URL, die für den **HostedMigrationOverrideUrl** -Parameter angegeben ist, muss die URL zum Pool sein, in dem der gehostete Migrationsdienst ausgeführt wird, im folgenden Format: *https:// \< Pool FQDN \> /HostedMigration/hostedmigrationService.svc*.
     
-    Sie können die URL des gehosteten Migrations Diensts ermitteln, indem Sie die URL für die lync Online-Systemsteuerung für Ihr Office 365 organisationskonto anzeigen.
+    Sie können die URL des gehosteten Migrations Diensts ermitteln, indem Sie die URL für die lync Online-Systemsteuerung für Ihr Microsoft 365-oder Office 365-organisationskonto anzeigen.
     
     <div>
     
-    ## <a name="to-determine-the-hosted-migration-service-url-for-your-office-365-organization"></a>So bestimmen Sie die URL des gehosteten Migrations Diensts für Ihre Office 365 Organisation
+    ## <a name="to-determine-the-hosted-migration-service-url-for-your-organizaton"></a>So bestimmen Sie die URL des gehosteten Migrations Diensts für Ihre bereiten
     
-    1.  Melden Sie sich als Administrator bei Ihrer Office 365 Organisation an.
+    1.  Melden Sie sich bei Ihrer Microsoft 365-oder Office 365-Organisation als Administrator an.
     
     2.  Öffnen Sie das **lync Admin Center**.
     
@@ -173,7 +173,7 @@ _**Letztes Änderungsstand des Themas:** 2015-11-13_
     
 
     > [!NOTE]  
-    > Die standardmäßige maximale Größe für Transaktionsprotokolldateien der "rtcxds"-Datenbank beträgt 16 GB. Dies ist möglicherweise nicht groß genug, wenn Sie eine große Anzahl von Benutzern gleichzeitig verschieben, insbesondere dann, wenn die Spiegelung aktiviert ist. Um dies zu umgehen, können Sie die Dateigröße vergrößern oder die Protokolldateien regelmäßig sichern. Weitere Informationen finden Sie unter <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A>.
+    > Die standardmäßige maximale Größe für Transaktionsprotokolldateien der "rtcxds"-Datenbank beträgt 16 GB. Dies ist möglicherweise nicht groß genug, wenn Sie eine große Anzahl von Benutzern gleichzeitig verschieben, insbesondere dann, wenn die Spiegelung aktiviert ist. Um dies zu umgehen, können Sie die Dateigröße vergrößern oder die Protokolldateien regelmäßig sichern. Weitere Informationen finden Sie unter <A class=uri href="https://support.microsoft.com/kb/2756725">https://support.microsoft.com/kb/2756725</A> .
 
     
     </div>

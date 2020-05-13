@@ -12,12 +12,12 @@ ms:contentKeyID: 51541531
 ms.date: 09/21/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 82e66cf65d8aa29e476e759bd1f09ccbbf7b61f5
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: de331cc4742a3a995a63ea4848e2515871fb5f69
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43780244"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221215"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -412,8 +412,7 @@ Auf iPhone und iPad meldet sich lync automatisch an, wenn der Benutzer die Anwen
 </table>
 
 
-1 nicht verfügbar für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer.
-
+1 nicht verfügbar für Skype for Business Online-, Microsoft 365-oder Office 365-Benutzer.
 </div>
 
 <div>
@@ -757,11 +756,11 @@ Auf iPhone und iPad meldet sich lync automatisch an, wenn der Benutzer die Anwen
 </table>
 
 
-1 für Microsoft 365-oder Office 365-Benutzer ist diese Funktion nur für nur-ACP-fähige Besprechungen verfügbar.
+1 für Office 365-und Microsoft 365-Benutzer ist diese Funktion nur für nur-ACP-fähige Besprechungen verfügbar.
 
 2 nicht verfügbar für Microsoft 365-oder Office 365-Benutzer.
 
-3 für Skype for Business Online-und/oder Microsoft 365-oder Office 365-Benutzer ist diese Funktion bei Audiokonferenz-Anbietern von Drittanbietern verfügbar.
+3 für Skype for Business Online-, Microsoft 365-oder Office 365-Benutzer ist diese Funktion bei Audiokonferenz-Anbietern von Drittanbietern verfügbar.
 
 4a PowerPoint-Präsentation, die von lync Web App gemeinsam genutzt wird, kann nicht von lync Mobile 2013 angezeigt werden. Auf lync 2013-Desktop Clients vorgenommene Anmerkungen sind auf mobilen Geräten nicht sichtbar.
 
@@ -892,13 +891,13 @@ Auf iPhone und iPad meldet sich lync automatisch an, wenn der Benutzer die Anwen
 </table>
 
 
-1 lync Server 2013, Skype for Business Online und Office 365 Benutzer können andere lync-Benutzer und Skype-Benutzer aufrufen, indem Sie auf das Symbol tippen. Lync Server 2013 Benutzer können auch PSTN-Anrufe tätigen, indem Sie auf das Symbol tippen.
+1 lync Server 2013, Skype for Business Online und Microsoft 365 oder Office 365 Benutzer können andere lync-Benutzer und Skype-Benutzer aufrufen, indem Sie auf das Symbol tippen. Lync Server 2013 Benutzer können auch PSTN-Anrufe tätigen, indem Sie auf das Symbol tippen.
 
-2 für lokale lync Server 2013 Benutzer auf Windows Phone-, iPhone-und iPad-Geräten tippt der Benutzer auf das Anrufsymbol in der Visitenkarte und akzeptiert den Rückruf von lync Server 2013. Für Microsoft 365 oder Office 365 Benutzer auf Windows Phone-, iPhone-und iPad-Geräten wird beim Tippen auf die Anruf Schaltfläche ein Dialogfeld geöffnet, in dem der Benutzer aufgefordert wird, zu bestätigen, dass er die Nummer anrufen möchte.
+2 für lokale lync Server 2013 Benutzer auf Windows Phone-, iPhone-und iPad-Geräten tippt der Benutzer auf das Anrufsymbol in der Visitenkarte und akzeptiert den Rückruf von lync Server 2013. Für Benutzer von Microsoft 365 oder Office 365 auf Windows Phone-, iPhone-und iPad-Geräten wird beim Tippen auf die Anruf Schaltfläche ein Dialogfeld geöffnet, in dem der Benutzer aufgefordert wird, zu bestätigen, dass er die Nummer anrufen möchte.
 
-3 nicht verfügbar für Skype for Business Online und/oder Microsoft 365 oder Office 365 Benutzer.
+3 nicht verfügbar für Skype for Business Online, Microsoft 365 oder Office 365 Benutzer
 
-4 für Skype for Business Online und/oder Microsoft 365 oder Office 365 Benutzer wird dieses Feature von Microsoft-Partnern unterstützt.
+4 für Skype for Business Online-, Microsoft 365-oder Office 365-Benutzer wird dieses Feature von Microsoft-Partnern unterstützt.
 
 </div>
 
@@ -973,7 +972,7 @@ Auf iPhone und iPad meldet sich lync automatisch an, wenn der Benutzer die Anwen
 
 1 Standardmäßig wird den Verbundbenutzern die Datenschutz Beziehung externe Kontakte zugewiesen. Damit Sie einen Verbundkontakt auf Ihrem Mobiltelefon erreichen können, indem Sie Ihre veröffentlichte Arbeitsnummer anrufen, muss der Partner Kontakt Ihnen manuell die Datenschutz Beziehung für Kollegen zuweisen.
 
-2 nicht verfügbar für Office 365 Benutzer.
+2 nicht verfügbar für Microsoft 365-oder Office 365-Benutzer.
 
 </div>
 
@@ -1080,4 +1079,3 @@ Auf iPhone und iPad meldet sich lync automatisch an, wenn der Benutzer die Anwen
 </div>
 
 </div>
-

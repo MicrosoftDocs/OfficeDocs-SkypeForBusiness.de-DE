@@ -12,12 +12,12 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b8718d5f3dda34b97b4c3e96c2fe9531d6658b9
-ms.sourcegitcommit: 831d141dfc5a49dd764cb296b73b63e5a9f8e599
+ms.openlocfilehash: 6203e6a7ee99f4b080fa93976a2a937e62fe9d3c
+ms.sourcegitcommit: d69bad69ba9a9bca4614d72d8f34fb2a0a9e4dc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42216781"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "44221559"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,9 +51,9 @@ Lync Server 2013 können Sie mit dem Server für beständigen Chat an mehrteilig
 
   - Gezielte Weitergabe wichtigen Wissens und wichtiger Informationen
 
-Lync Server 2013 ist der Server für beständigen Chat in Microsoft Office 365 nicht verfügbar. Derzeit steht sie nur lokalen lync 2013 Kunden zur Verfügung.
+Lync Server 2013 ist der Server für beständigen Chat in Microsoft 365 oder Office 365 nicht verfügbar. Derzeit steht sie nur lokalen lync 2013 Kunden zur Verfügung.
 
-In lync 2013 ist die Funktion für beständigen Chat in den lync 2013-Client integriert. Dadurch haben Benutzer Zugriff auf Instant Messaging/Anwesenheit, Audio/Video, Konferenzen und beständigen Chat im lync 2013-Client. Weitere Informationen zum lync 2013-Client finden Sie unter <https://go.microsoft.com/fwlink/p/?linkid=270877>.
+In lync 2013 ist die Funktion für beständigen Chat in den lync 2013-Client integriert. Dadurch haben Benutzer Zugriff auf Instant Messaging/Anwesenheit, Audio/Video, Konferenzen und beständigen Chat im lync 2013-Client. Weitere Informationen zum lync 2013-Client finden Sie unter <https://go.microsoft.com/fwlink/p/?linkid=270877> .
 
 In diesem Thema werden Funktionsänderungen zwischen der neuen Version von lync Server 2013, dem Server für beständigen Chat und der vorherigen Version (Microsoft lync Server 2010, Gruppen Chat) beschrieben, einschließlich:
 
@@ -67,9 +67,9 @@ In diesem Thema werden Funktionsänderungen zwischen der neuen Version von lync 
 
 Weitere Informationen zur neuesten Version des Servers für beständigen Chat finden Sie in den folgenden Themen:
 
-  - Die Hilfe <https://go.microsoft.com/fwlink/p/?linkid=270945> für beständigen Chat enthält eine ausführliche Liste der Features für beständigen Chat, deren Funktionsweise und deren Verwendung bei der Ausführung von persistent Chat Server.
+  - Die Hilfe für beständigen Chat <https://go.microsoft.com/fwlink/p/?linkid=270945> enthält eine ausführliche Liste der Features für beständigen Chat, deren Funktionsweise und deren Verwendung bei der Ausführung von persistent Chat Server.
 
-  - Die [Planung für den Server für beständigen Chat in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in der Planungsdokumentation, [Bereitstellen des Servers für beständigen Chat in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) in der Bereitstellungsdokumentation, [Migration von lync Server 2010, Gruppenchat oder Office Communications Server 2007 R2 Gruppenchat zu lync Server 2013, beständigen Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) in der Migrationsdokumentation und [Verwalten von lync Server 2013, beständiger Chat Server](managing-lync-server-2013-persistent-chat-server.md) in der Betriebsdokumentation, die alle Anweisungen zum Einrichten bieten. Server für beständigen Chat.
+  - Die [Planung für den Server für beständigen Chat in lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) in der Planungsdokumentation, Bereitstellen des Servers für beständigen [Chat in lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) in der Bereitstellungsdokumentation, [Migration von lync Server 2010, Gruppenchat oder Office Communications Server 2007 R2 Gruppenchat zu lync Server 2013, beständigen Chat Server](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) in der Migrationsdokumentation und [Verwalten von lync Server 2013, beständiger Chat Server](managing-lync-server-2013-persistent-chat-server.md) in der Betriebsdokumentation, die alle Anweisungen zum Einrichten von persistent Chat Server
 
   - Die Datei "Documentation. msi" des persistent Chat-Servers (Windows Installer-Datei) ermöglicht Benutzern den Zugriff auf eine umfassende offlinedokumentation über den Server für beständigen Chat.
 
@@ -103,13 +103,13 @@ Um den Dateiupload und-Download in beständigen Chatrooms zu unterstützen, enth
 
 
 > [!IMPORTANT]  
-> Die <STRONG>PersistentChatService</STRONG> -Rolle kann auf demselben Server wie eine lync Server 2013&nbsp;Front-End-Server nur ausgeführt werden, wenn es sich bei dieser&nbsp;Front-End-Server um eine Standard Edition-Front-End-Server handelt. Die <STRONG>PersistentChatService</STRONG> -Rolle kann nicht unabhängig von einem&nbsp;lync Server 2013 Front-End-Server ausgeführt werden. Es kann nur im Kontext einer lync Server 2013-Bereitstellung installiert werden.
+> Die <STRONG>PersistentChatService</STRONG> -Rolle kann auf demselben Server wie eine lync Server 2013 &nbsp; Front-End-Server nur ausgeführt werden, wenn es sich bei dieser Front-End-Server um eine Standard Edition &nbsp; -Front-End-Server handelt. Die <STRONG>PersistentChatService</STRONG> -Rolle kann nicht unabhängig von einem lync Server 2013 Front-End-Server ausgeführt werden &nbsp; . Es kann nur im Kontext einer lync Server 2013-Bereitstellung installiert werden.
 
 
 
 </div>
 
-Im Server für beständigen Chat wurde der Suchdienst eliminiert. In lync Server 2010 Gruppenchat wurde der Suchdienst auf jedem Gruppenchat Server ausgeführt Front-End-Server und die Weiterleitung an einen der Kanalserver durchgeführt. Lync Server 2013 basiert auf dem Routing mithilfe von Contact-Objekten, wobei jeder Serverpool für beständigen Chat durch ein Kontaktobjekt dargestellt wird, das von den lync Server-Front-End-Servern zum Identifizieren und Weiterleiten von Anforderungen an einen entsprechenden Serverpool für beständigen Chat verwendet wird, und um einer der Computer, auf denen der Server für beständigen Chat im Pool läuft.
+Im Server für beständigen Chat wurde der Suchdienst eliminiert. In lync Server 2010 Gruppenchat wurde der Suchdienst auf jedem Gruppenchat Server ausgeführt Front-End-Server und die Weiterleitung an einen der Kanalserver durchgeführt. Lync Server 2013 basiert auf dem Routing mithilfe von Contact-Objekten, wobei jeder Serverpool für beständigen Chat durch ein Kontaktobjekt dargestellt wird, das von den lync Server-Front-End-Servern zum Identifizieren und Weiterleiten von Anforderungen an einen entsprechenden Serverpool für beständigen Chat und zu einem der Computer mit persistent Chat Server im Pool verwendet wird.
 
 In lync Server 2013 werden Kompatibilitätsdienst Änderungen vorgenommen:
 
@@ -139,7 +139,7 @@ In lync Server 2013 gibt es Verbesserungen sowohl bei hoher Verfügbarkeit als a
 
   - Verbesserungen bei hoher Verfügbarkeit: SQL Server Spiegelung wird verwendet, um eine hohe Verfügbarkeit für die Inhaltsdatenbank des beständigen Chat Servers und die Kompatibilitätsdatenbank für beständigen Chat in einem Rechenzentrum (vor Ort) bereitzustellen.
 
-  - Verbesserungen bei der Notfallwiederherstellung: der Server für beständigen Chat unterstützt eine gestreckte Pool Architektur, die es ermöglicht, einen einzelnen Serverpool für beständigen Chat an zwei Standorten zu dehnen (d. r. einen einzelnen logischen Pool in der Topologie, wobei Server im Pool physisch befindet sich über zwei Standorte). SQL Server Protokollversand wird für die standortübergreifende Notfallwiederherstellung verwendet.
+  - Verbesserungen bei der Notfallwiederherstellung: der Server für beständigen Chat unterstützt eine gestreckte Pool Architektur, die es ermöglicht, einen einzelnen Serverpool für beständigen Chat an zwei Standorten zu dehnen (d. r. einen einzelnen logischen Pool in der Topologie, wobei sich die Server im Pool physisch an zwei Standorten befinden). SQL Server Protokollversand wird für die standortübergreifende Notfallwiederherstellung verwendet.
 
 Weitere Informationen zur Hochverfügbarkeit und Notfallwiederherstellung finden Sie unter [Configuring persistent Chat Server for High Availability and Disaster Recovery in lync Server 2013](lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md) in der Bereitstellungsdokumentation.
 
@@ -165,7 +165,7 @@ Lync Server 2013 hat es einfacher gemacht, den Server für beständigen Chat zu 
 
 ## <a name="whats-different-about-user-roles-from-previous-group-chat-server-versions"></a>Was unterscheidet sich von den Benutzerrollen aus früheren Gruppen Chat Server-Versionen?
 
-Lync Server 2010 hatten Gruppenchats eine Benutzeradministratorrolle, eine Rolle als Chatroom-Administrator und eine lync Server Administratorrolle, die Add-Ins verwalten konnte. der Server für beständigen Chat stellt einfach eine Administratorrolle für beständigen Chat bereit (ähnlich wie bei anderen lync-Servern). Rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC)). Jeder, der Mitglied dieser RBAC-Rolle ist, kann Chatrooms, Add-Ins und Kategorien verwalten (und somit Benutzer Zugriff für diese Kategorien erhalten) und die Konfiguration des Server Pools für beständigen Chat.
+Lync Server 2010 hatten Gruppenchats eine Benutzeradministratorrolle, eine Rolle als Chatroom-Administrator und eine lync Server Administratorrolle, die Add-Ins verwalten konnte. der Server für beständigen Chat stellt einfach eine Administratorrolle für beständigen Chat bereit (ähnlich wie bei anderen lync Server rollenbasierten Zugriffssteuerung (Role-Based Access Control, RBAC)). Jeder, der Mitglied dieser RBAC-Rolle ist, kann Chatrooms, Add-Ins und Kategorien verwalten (und somit Benutzer Zugriff für diese Kategorien erhalten) und die Konfiguration des Server Pools für beständigen Chat.
 
 </div>
 
@@ -234,4 +234,3 @@ Die Protokollierung für den Server für beständigen Chat und System Center Ope
 </div>
 
 </div>
-
