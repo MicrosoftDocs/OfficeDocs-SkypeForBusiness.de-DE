@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: In diesem Artikel werden die Vorteile, Planungsüberlegungen und Anforderungen für die Implementierung des Microsoft Cloud Voicemail-Diensts beschrieben. Informationen zum Konfigurieren von Cloud-Voicemail finden Sie unter Configuring Cloud Voicemail.
-ms.openlocfilehash: 07448ab8232115e19c01261dc487c04b5a2dd4f9
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 30a4983c79f4a7cddd274c272b5a094c17653bbb
+ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341764"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210631"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planen des Cloud-Voicemail-Diensts für lokale Benutzer
 
@@ -79,7 +79,7 @@ Zusätzlich zu den oben aufgeführten Anforderungen müssen die folgenden Anford
 
 - Eine externe Exchange-Webdienste-URL und AutoErmittlung muss eingerichtet sein, oder einige Cloud Voicemail-Funktionen sind limitiert.
 
-- Wenn Sie nur über eine lokale Bereitstellung verfügen&#x2014;nur Exchange-und Skype for Business-lokale Server&#x2014;aber Cloud-Voicemail nutzen möchten, benötigen Sie keine zusätzlichen Lizenzen.
+- Wenn Sie nur über eine lokale Bereitstellung verfügen&#x2014;das heißt, dass nur Exchange-und Skype for Business lokale Server&#x2014;aber Cloud-Voicemail nutzen möchten, benötigen Sie eine Telefon System Lizenz.
 
 ## <a name="migration-and-interoperability"></a>Migration und Interoperabilität
 
@@ -100,6 +100,6 @@ Microsoft empfiehlt die folgenden Migrationspfade:
 
 - Wenn Sie ein Upgrade auf Skype for Business Server 2019 durchführen, können Sie Exchange um in Exchange Server 2013 oder 2016 verwenden, aber Sie müssen ein Upgrade auf Cloud Voicemail durchführen, wenn Sie Exchange Server 2019 verwenden.
 - Wenn Sie ein Upgrade auf Exchange Server 2019 durchführen und frühere Versionen von Exchange Server um für Skype for Business Server Sprachnachrichten verwenden, empfiehlt Microsoft, ein Upgrade auf Skype for Business Server 2019 vor dem Post Fach Upgrade durchführen.  Andernfalls geht die Sprachnachrichten Funktion verloren.
-- Wenn Sie ein Upgrade auf Skype for Business Server 2019 durchführen und Skype for Business Server 2015 für Voicemail mit Exchange Online Unified Messaging konfiguriert haben, wird die Voicemail der Benutzer automatisch von Exchange Online um in die Cloud-Voicemail migriert, wenn Ihr Konto in verschoben wird. Skype for Business Server 2019. 
+- Wenn Sie ein Upgrade auf Skype for Business Server 2019 durchführen und Skype for Business Server 2015 für Voicemail mit Exchange Online Unified Messaging konfiguriert haben, wird die Voicemail der Benutzer automatisch von Exchange Online um in Cloud Voicemail migriert, wenn Ihr Konto auf Skype for Business Server 2019 verschoben wird. 
 
 Weitere Informationen zum Planen der Migration finden Sie unter [Plan for Skype for Business Server and Exchange Server Migration](plan-um-migration.md).
