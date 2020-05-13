@@ -17,20 +17,20 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5358e169c66764cc3343feeb78365fbe47cab452
-ms.sourcegitcommit: 09ff11f8e4f6a93cedc34a5d732a133163df79a0
+ms.openlocfilehash: 3c02d93fb010b603e973077029b9b6710c5e0ba7
+ms.sourcegitcommit: 7c08d88dcaa85e34e93131bb9a5a64597c6d8155
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44042472"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "44210641"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>Schnellstart für Administratoren – Besprechungen und Liveereignisse in Microsoft Teams
 
 In Microsoft Teams gibt es zwei Möglichkeiten, sich zu treffen: Besprechungen und Liveereignisse. Verwenden Sie diesen Artikel, um Besprechungen und Liveereignisse für Ihre Organisation schnell einzurichten und zu konfigurieren. 
 
- - **Besprechungen** in Teams umfassen Audio-, Video- und Bildschirmfreigabe für bis zu 250 Personen. Besprechungen sind einige der wichtigsten Methoden zur Zusammenarbeit in Teams. Und Sie müssen kein Mitglied einer Organisation sein (oder gar über ein Teams-Konto verfügen), um an einer Teams-Besprechung teilzunehmen. In der Besprechungseinladung finden Sie einfache Anweisungen zur Teilnahme. 
+ - **Besprechungen** in Teams umfassen Audio-, Video- und Bildschirmfreigabe für bis zu 350 Personen. Besprechungen sind einige der wichtigsten Methoden zur Zusammenarbeit in Teams. Und Sie müssen kein Mitglied einer Organisation sein (oder gar über ein Teams-Konto verfügen), um an einer Teams-Besprechung teilzunehmen. In der Besprechungseinladung finden Sie einfache Anweisungen zur Teilnahme. 
 
- - **Liveereignisse** sind eine Erweiterung von Teams-Besprechungen, die es Ihnen ermöglichen, Veranstaltungen bzw. Ereignisse zu planen und zu erstellen, die an ein zahlenmäßig großes Onlinepublikum – bis zu 10.000 Personen – übertragen werden. Wenn Sie eine Besprechung für mehr als 250 Personen durchführen möchten, verwenden Sie ein Liveereignis.
+ - **Liveereignisse** sind eine Erweiterung von Teams-Besprechungen, die es Ihnen ermöglichen, Veranstaltungen bzw. Ereignisse zu planen und zu erstellen, die an ein zahlenmäßig großes Onlinepublikum – bis zu 10.000 Personen – übertragen werden. Wenn Sie eine Besprechung für mehr als 350 Personen durchführen möchten, verwenden Sie ein Liveereignis.
 
 ## <a name="get-licenses-for-meetings-and-live-events"></a>Lizenzen für Besprechungen und Liveereignisse abrufen
 
