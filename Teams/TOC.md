@@ -34,6 +34,7 @@
 ## [Zuweisen von Teambesitzern und -mitgliedern in Teams](assign-roles-permissions.md)
 ## [Übersicht über dynamische Mitgliedschaft für Teams](dynamic-memberships.md)
 ## [Bewährte Methoden zum Organisieren von Teams in Microsoft Teams](best-practices-organizing.md)
+## [Verwalten großer Teams](best-practices-large-groups.md)
 ## [Erstellen eines organisationsweiten Teams in Teams](create-an-org-wide-team.md)
 ## [Erstellen von Managerteams für Personen](create-manager-directs-teams.md)
 ## [Verwalten von Teams und Kanalrichtlinien](teams-policies.md)
@@ -690,7 +691,7 @@
 #### [Verwenden von Power BI zum Analysieren von CQD-Daten](CQD-Power-BI-query-templates.md)
 #### [Installieren von Power BI-Connector für die Verwendung von CQD-Abfragevorlagen](CQD-Power-BI-connector.md)
 #### [Abrufen von CQD-Daten zur Verwendung in Teams](CQD-teams-utilization-report.md)
-#### [Verwenden des CQD-PSTN-Berichts](CQD-PSTN-report.md)
+#### [Verwendung des CQD-PSTN Direct Routing-Berichts](CQD-PSTN-report.md)
 ### [Im Anrufqualitäts-Dashboard verfügbare Dimensionen und Kennzahlen](dimensions-and-measures-available-in-call-quality-dashboard.md)
 ### [Datenstromklassifizierung im Dashboard für Anrufqualität](stream-classification-in-call-quality-dashboard.md)
 ## [Behandeln von Installations- und Updateproblemen](troubleshoot-installation.md)
@@ -775,6 +776,7 @@
 ## [Hilfe in Teams abrufen](get-help-in-microsoft-teams.md)
 ## [Updates von Teams-Inhalten](teams-updates.md)
 
+## [So finden Sie Ihre Support-PIN](support-pin.md)
 
 ## Verfügbarkeit nach Land und Region für Audiokonferenz und Anrufpläne
 ### [Übersicht](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
